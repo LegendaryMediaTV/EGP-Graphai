@@ -66,9 +66,6 @@ npm run test
 ├── functions/             # Utility functions
 │   └── validateJsonAgainstSchema.ts
 ├── imports/               # Import scripts and raw data
-│   ├── bb/                # Raw Bible JSON files
-│   │   └── BibleDB.bibleVerses-byz.json
-│   └── importBibleVersesBB.ts  # Import processing script
 ├── types/                 # TypeScript type definitions
 │   ├── Book.ts
 │   ├── Footnote.ts
