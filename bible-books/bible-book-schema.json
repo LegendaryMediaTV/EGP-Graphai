@@ -10,7 +10,7 @@
     "book": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["_id", "name", "testament", "alt", "order"],
+      "required": ["_id", "name", "testament", "alt"],
       "properties": {
         "_id": {
           "type": "string",

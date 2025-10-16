@@ -47,33 +47,37 @@ npm run export
 
 # Run tests
 npm run test
+
+# Display book names (optional orderType for canonical ordering)
+npx ts-node utils/list-bible-books.ts [orderType]
 ```
 
 ## Project Structure
 
 ```
 ├── bible-books/           # Book metadata and schemas
-│   ├── bible-book-schema.json
-│   └── bible-books.json
+│ ├── bible-book-schema.json
+│ └── bible-books.json
 ├── bible-versions/        # Version data and schemas
-│   ├── bible-verses-schema.json
-│   ├── bible-versions-schema.json
-│   ├── bible-versions.json
-│   └── byz/               # Version-specific data
+│ ├── bible-verses-schema.json
+│ ├── bible-versions-schema.json
+│ ├── bible-versions.json
+│ └── {version}/           # Version-specific data
 ├── exports/               # Generated output files
-│   ├── markdown-par/      # Markdown format
-│   └── text-vbv-strongs/  # Strong’s text format
+│ ├── markdown-par/        # Markdown format
+│ └── text-vbv-strongs/    # Strong’s text format
 ├── functions/             # Utility functions
-│   └── validateJsonAgainstSchema.ts
+│ └── validateJsonAgainstSchema.ts
 ├── imports/               # Import scripts and raw data
 ├── types/                 # TypeScript type definitions
-│   ├── Book.ts
-│   ├── Footnote.ts
-│   ├── Node.ts
-│   ├── Verse.ts
-│   └── VerseSchema.ts
+│ ├── Book.ts
+│ ├── Footnote.ts
+│ ├── Node.ts
+│ ├── Verse.ts
+│ └── VerseSchema.ts
 ├── utils/                 # Utility scripts
-│   └── exportContent.ts   # Main content export script
+│ ├── list-bible-books.ts  # Script to display book names
+│ └── exportContent.ts     # Main content export script
 ├── AGENTS.md              # AI agent instructions
 ├── package.json
 ├── README.md

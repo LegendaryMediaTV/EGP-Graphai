@@ -168,23 +168,13 @@
     }
   },
   {
-    "_id": "1Esd",
-    "name": "1 Esdras",
-    "testament": "OT",
-    "alt": ["1Esd", "1Es"],
-    "order": {
-      "lxx": 15
-    }
-  },
-  {
     "_id": "Ezra",
     "name": "Ezra",
     "testament": "OT",
-    "alt": ["Er", "Ezr", "2Es", "2Esd", "2 Esdras 1", "Esdras B", "Esdras B1"],
+    "alt": ["Er", "Ezr"],
     "order": {
       "protestant": 15,
       "catholic": 15,
-      "lxx": 16,
       "hebrew": 36
     }
   },
@@ -192,11 +182,10 @@
     "_id": "Neh",
     "name": "Nehemiah",
     "testament": "OT",
-    "alt": ["Ne", "Neh", "2 Esdras 2", "Esdras B"],
+    "alt": ["Ne", "Neh"],
     "order": {
       "protestant": 16,
       "catholic": 16,
-      "lxx": 17,
       "hebrew": 37
     }
   },
@@ -208,28 +197,8 @@
     "order": {
       "protestant": 17,
       "catholic": 19,
-      "lxx": 18,
+      "lxx": 17,
       "hebrew": 34
-    }
-  },
-  {
-    "_id": "Tob",
-    "name": "Tobit",
-    "testament": "OT",
-    "alt": ["Tob"],
-    "order": {
-      "catholic": 17,
-      "lxx": 20
-    }
-  },
-  {
-    "_id": "Jdt",
-    "name": "Judith",
-    "testament": "OT",
-    "alt": ["Jdt"],
-    "order": {
-      "catholic": 18,
-      "lxx": 19
     }
   },
   {
@@ -240,7 +209,7 @@
     "order": {
       "protestant": 18,
       "catholic": 20,
-      "lxx": 30,
+      "lxx": 29,
       "hebrew": 28
     }
   },
@@ -252,17 +221,8 @@
     "order": {
       "protestant": 19,
       "catholic": 21,
-      "lxx": 25,
+      "lxx": 24,
       "hebrew": 27
-    }
-  },
-  {
-    "_id": "PrMan",
-    "name": "Prayer of Manasseh",
-    "testament": "OT",
-    "alt": ["PrMan", "Man", "Manasseh"],
-    "order": {
-      "lxx": 26
     }
   },
   {
@@ -273,7 +233,7 @@
     "order": {
       "protestant": 20,
       "catholic": 22,
-      "lxx": 27,
+      "lxx": 26,
       "hebrew": 29
     }
   },
@@ -285,7 +245,7 @@
     "order": {
       "protestant": 21,
       "catholic": 23,
-      "lxx": 28,
+      "lxx": 27,
       "hebrew": 32
     }
   },
@@ -304,28 +264,8 @@
     "order": {
       "protestant": 22,
       "catholic": 24,
-      "lxx": 29,
+      "lxx": 28,
       "hebrew": 31
-    }
-  },
-  {
-    "_id": "Wis",
-    "name": "Wisdom of Solomon",
-    "testament": "OT",
-    "alt": ["Wis", "Wisdom"],
-    "order": {
-      "catholic": 25,
-      "lxx": 31
-    }
-  },
-  {
-    "_id": "Sir",
-    "name": "Sirach",
-    "testament": "OT",
-    "alt": ["Sir", "Ecclesiasticus"],
-    "order": {
-      "catholic": 26,
-      "lxx": 32
     }
   },
   {
@@ -365,26 +305,6 @@
     }
   },
   {
-    "_id": "Bar",
-    "name": "Baruch",
-    "testament": "OT",
-    "alt": ["Bar"],
-    "order": {
-      "catholic": 30,
-      "lxx": 47
-    }
-  },
-  {
-    "_id": "EpJer",
-    "name": "Letter of Jeremiah",
-    "testament": "OT",
-    "alt": ["EpJer", "LJer", "LJe", "Epistle of Jeremiah"],
-    "order": {
-      "catholic": 31,
-      "lxx": 49
-    }
-  },
-  {
     "_id": "Ezek",
     "name": "Ezekiel",
     "testament": "OT",
@@ -404,17 +324,8 @@
     "order": {
       "protestant": 27,
       "catholic": 33,
-      "lxx": 51,
+      "lxx": 52,
       "hebrew": 35
-    }
-  },
-  {
-    "_id": "DanOG",
-    "name": "Daniel (Old Greek)",
-    "testament": "OT",
-    "alt": ["DanOG", "DaG", "Daniel OG"],
-    "order": {
-      "lxx": 52
     }
   },
   {
@@ -430,16 +341,6 @@
     }
   },
   {
-    "_id": "Sus",
-    "name": "Susanna",
-    "testament": "OT",
-    "alt": ["Sus"],
-    "order": {
-      "catholic": 34,
-      "lxx": 53
-    }
-  },
-  {
     "_id": "Joel",
     "name": "Joel",
     "testament": "OT",
@@ -449,16 +350,6 @@
       "catholic": 37,
       "lxx": 36,
       "hebrew": 16
-    }
-  },
-  {
-    "_id": "Bel",
-    "name": "Bel and the Dragon",
-    "testament": "OT",
-    "alt": ["Bel"],
-    "order": {
-      "catholic": 35,
-      "lxx": 54
     }
   },
   {
@@ -581,45 +472,7 @@
       "hebrew": 26
     }
   },
-  {
-    "_id": "1Macc",
-    "name": "1 Maccabees",
-    "testament": "OT",
-    "alt": ["1Macc", "1Ma"],
-    "order": {
-      "catholic": 48,
-      "lxx": 21
-    }
-  },
-  {
-    "_id": "2Macc",
-    "name": "2 Maccabees",
-    "testament": "OT",
-    "alt": ["2Macc", "2Ma"],
-    "order": {
-      "catholic": 49,
-      "lxx": 22
-    }
-  },
 
-  {
-    "_id": "3Macc",
-    "name": "3 Maccabees",
-    "testament": "OT",
-    "alt": ["3Macc", "3Ma"],
-    "order": {
-      "lxx": 23
-    }
-  },
-  {
-    "_id": "4Macc",
-    "name": "4 Maccabees",
-    "testament": "OT",
-    "alt": ["4Macc", "4Ma"],
-    "order": {
-      "lxx": 24
-    }
-  },
   {
     "_id": "Matt",
     "name": "Matthew",
@@ -889,5 +742,262 @@
       "protestant": 66,
       "catholic": 76
     }
+  },
+
+  {
+    "_id": "Tob",
+    "name": "Tobit",
+    "testament": "OT",
+    "alt": ["Tob"],
+    "order": {
+      "catholic": 17,
+      "lxx": 19
+    }
+  },
+  {
+    "_id": "Jdt",
+    "name": "Judith",
+    "testament": "OT",
+    "alt": ["Jdt"],
+    "order": {
+      "catholic": 18,
+      "lxx": 18
+    }
+  },
+  {
+    "_id": "EsthGr",
+    "name": "Esther (Greek)",
+    "testament": "OT",
+    "alt": ["EsthGr", "EsG", "Esther Greek", "Greek Esther"]
+  },
+  {
+    "_id": "AddEsth",
+    "name": "Additions to Esther",
+    "testament": "OT",
+    "alt": ["AddEsth", "AdE", "Add Esther", "Esther Additions"]
+  },
+  {
+    "_id": "Wis",
+    "name": "Wisdom of Solomon",
+    "testament": "OT",
+    "alt": ["Wis", "Wisdom"],
+    "order": {
+      "catholic": 25,
+      "lxx": 30
+    }
+  },
+  {
+    "_id": "SirP",
+    "name": "Sirach Prologue",
+    "testament": "OT",
+    "alt": ["SirP", "Ecclesiasticus Prologue"]
+  },
+  {
+    "_id": "Sir",
+    "name": "Sirach",
+    "testament": "OT",
+    "alt": ["Sir", "Ecclesiasticus", "Wisdom of Ben Sira"],
+    "order": {
+      "catholic": 26,
+      "lxx": 31
+    }
+  },
+  {
+    "_id": "Bar",
+    "name": "Baruch",
+    "testament": "OT",
+    "alt": ["Bar"],
+    "order": {
+      "catholic": 30,
+      "lxx": 47
+    }
+  },
+  {
+    "_id": "EpJer",
+    "name": "Letter of Jeremiah",
+    "testament": "OT",
+    "alt": ["EpJer", "LJer", "LJe", "Epistle of Jeremiah"],
+    "order": {
+      "catholic": 31,
+      "lxx": 49
+    }
+  },
+  {
+    "_id": "DanGr",
+    "name": "Daniel (Old Greek)",
+    "testament": "OT",
+    "alt": ["DanGr", "DaG", "DanOG", "Dan OG", "Daniel OG"]
+  },
+  {
+    "_id": "AddDan",
+    "name": "Additions to Daniel",
+    "testament": "OT",
+    "alt": ["AddDan", "AdD", "Add Daniel", "Daniel Additions"]
+  },
+  {
+    "_id": "PrAzar",
+    "name": "Prayer of Azariah",
+    "testament": "OT",
+    "alt": [
+      "PrAzar",
+      "PrAz",
+      "S3Y",
+      "Prayer of Azariah",
+      "Song of the Three Children"
+    ]
+  },
+  {
+    "_id": "Sus",
+    "name": "Susanna",
+    "testament": "OT",
+    "alt": ["Sus"],
+    "order": {
+      "catholic": 34,
+      "lxx": 51
+    }
+  },
+  {
+    "_id": "Bel",
+    "name": "Bel and the Dragon",
+    "testament": "OT",
+    "alt": ["Bel"],
+    "order": {
+      "catholic": 35,
+      "lxx": 53
+    }
+  },
+  {
+    "_id": "1Macc",
+    "name": "1 Maccabees",
+    "testament": "OT",
+    "alt": ["1Macc", "1Ma"],
+    "order": {
+      "catholic": 48,
+      "lxx": 20
+    }
+  },
+  {
+    "_id": "2Macc",
+    "name": "2 Maccabees",
+    "testament": "OT",
+    "alt": ["2Macc", "2Ma"],
+    "order": {
+      "catholic": 49,
+      "lxx": 21
+    }
+  },
+  {
+    "_id": "3Macc",
+    "name": "3 Maccabees",
+    "testament": "OT",
+    "alt": ["3Macc", "3Ma"],
+    "order": {
+      "lxx": 22
+    }
+  },
+  {
+    "_id": "4Macc",
+    "name": "4 Maccabees",
+    "testament": "OT",
+    "alt": ["4Macc", "4Ma"],
+    "order": {
+      "lxx": 23
+    }
+  },
+  {
+    "_id": "PrMan",
+    "name": "Prayer of Manasseh",
+    "testament": "OT",
+    "alt": ["PrMan", "Man", "Manasseh"],
+    "order": {
+      "lxx": 25
+    }
+  },
+  {
+    "_id": "1Esd",
+    "name": "1 Esdras",
+    "testament": "OT",
+    "alt": ["1Esd", "1Es"],
+    "order": {
+      "lxx": 15
+    }
+  },
+  {
+    "_id": "2Esd",
+    "name": "2 Esdras",
+    "testament": "OT",
+    "alt": ["2Esd", "2Es"],
+    "order": {
+      "lxx": 16
+    }
+  },
+  {
+    "_id": "AddPs",
+    "name": "Psalm 151",
+    "testament": "OT",
+    "alt": [
+      "AddPs",
+      "Ap",
+      "Add Psalms",
+      "Psalms Additions",
+      "Psalm Additions",
+      "Psalm 151"
+    ]
+  },
+
+  {
+    "_id": "Odes",
+    "name": "Odes",
+    "testament": "OT",
+    "alt": ["Odes", "OdA"]
+  },
+  {
+    "_id": "PssSol",
+    "name": "Psalms of Solomon",
+    "testament": "OT",
+    "alt": ["PssSol", "PsSol", "Psalms of Solomon"],
+    "order": { "lxx": 32 }
+  },
+
+  {
+    "_id": "JoshA",
+    "name": "Joshua A",
+    "testament": "OT",
+    "alt": ["JoshA", "JsA", "Joshua Alexandrinus", "Alexandrinus Joshua"]
+  },
+  {
+    "_id": "JudgB",
+    "name": "Judges B",
+    "testament": "OT",
+    "alt": ["JudgB", "JdB", "Judges Vaticanus", "Vaticanus Judges"]
+  },
+  {
+    "_id": "TobS",
+    "name": "Tobit S",
+    "testament": "OT",
+    "alt": ["TobS", "TbS", "Tobit Sinaiticus", "Sinaiticus Tobit"]
+  },
+  {
+    "_id": "SusTh",
+    "name": "Susanna θ",
+    "testament": "OT",
+    "alt": ["SusTh", "SsT", "Susanna Theodotion", "Theodotion Susanna"]
+  },
+  {
+    "_id": "DanTh",
+    "name": "Daniel θ",
+    "testament": "OT",
+    "alt": ["DanTh", "DnT", "Daniel Theodotion", "Theodotion Daniel"]
+  },
+  {
+    "_id": "BelTh",
+    "name": "Bel and the Dragon θ",
+    "testament": "OT",
+    "alt": [
+      "BelTh",
+      "BlT",
+      "Bel and the Dragon Theodotion",
+      "Theodotion Bel and the Dragon"
+    ]
   }
 ]
