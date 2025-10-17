@@ -72,7 +72,7 @@
 
 <sup>7</sup> In the first month, which is the month Nisan, in the twelfth year of King Ahasuerus, they cast Pur, that is, the lot, before Haman from day to day, and from month to month, and chose the twelfth month, which is the month Adar.
 <sup>8</sup> Haman said to King Ahasuerus, “There is a certain people scattered abroad and dispersed among the peoples in all the provinces of your kingdom, and their laws are different from other people’s. They don’t keep the king’s laws. Therefore it is not for the king’s profit to allow them to remain.
-<sup>9</sup> <sup>a</sup>of silver into the hands of those who are in charge of the king’s business, to bring it into the king’s treasuries.”
+<sup>9</sup> If it pleases the king, let it be written that they be destroyed; and I will pay ten thousand talents<sup>a</sup> of silver into the hands of those who are in charge of the king’s business, to bring it into the king’s treasuries.”
 
 <sup>10</sup> The king took his ring from his hand, and gave it to Haman the son of Hammedatha the Agagite, the Jews’ enemy.
 <sup>11</sup> The king said to Haman, “The silver is given to you, the people also, to do with them as it seems good to you.”
@@ -130,7 +130,7 @@
 <sup>12</sup> Haman also said, “Yes, Esther the queen let no man come in with the king to the banquet that she had prepared but myself; and tomorrow I am also invited by her together with the king.
 <sup>13</sup> Yet all this avails me nothing, so long as I see Mordecai the Jew sitting at the king’s gate.”
 
-<sup>14</sup> <sup>a</sup>high, and in the morning speak to the king about hanging Mordecai on it. Then go in merrily with the king to the banquet.” This pleased Haman, so he had the gallows made.
+<sup>14</sup> Then Zeresh his wife and all his friends said to him, “Let a gallows be made fifty cubits<sup>a</sup> high, and in the morning speak to the king about hanging Mordecai on it. Then go in merrily with the king to the banquet.” This pleased Haman, so he had the gallows made.
 
 > - <sup>a</sup> 14. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
 
@@ -142,7 +142,7 @@
 
 <sup>4</sup> The king said, “Who is in the court?” Now Haman had come into the outer court of the king’s house, to speak to the king about hanging Mordecai on the gallows that he had prepared for him.
 
-<sup>5</sup> <sup>a</sup>Haman stands in the court.” The king said, “Let him come in.”
+<sup>5</sup> The king’s servants said to him, “Behold,<sup>a</sup> Haman stands in the court.” The king said, “Let him come in.”
 <sup>6</sup> So Haman came in. The king said to him, “What shall be done to the man whom the king delights to honor?” Now Haman said in his heart, “Who would the king delight to honor more than myself?”
 <sup>7</sup> Haman said to the king, “For the man whom the king delights to honor,
 <sup>8</sup> let royal clothing be brought which the king uses to wear, and the horse that the king rides on, and on the head of which a royal crown is set.
@@ -172,7 +172,7 @@
 <sup>7</sup> The king arose in his wrath from the banquet of wine and went into the palace garden. Haman stood up to make request for his life to Esther the queen, for he saw that there was evil determined against him by the king.
 <sup>8</sup> Then the king returned out of the palace garden into the place of the banquet of wine; and Haman had fallen on the couch where Esther was. Then the king said, “Will he even assault the queen in front of me in the house?” As the word went out of the king’s mouth, they covered Haman’s face.
 
-<sup>9</sup> <sup>a</sup>high, which Haman has made for Mordecai, who spoke good for the king, is standing at Haman’s house.” The king said, “Hang him on it!”
+<sup>9</sup> Then Harbonah, one of the eunuchs who were with the king, said, “Behold, the gallows fifty cubits<sup>a</sup> high, which Haman has made for Mordecai, who spoke good for the king, is standing at Haman’s house.” The king said, “Hang him on it!”
 
 <sup>10</sup> So they hanged Haman on the gallows that he had prepared for Mordecai. Then the king’s wrath was pacified.
 
@@ -235,9 +235,9 @@
 <sup>24</sup> because Haman the son of Hammedatha, the Agagite, the enemy of all the Jews, had plotted against the Jews to destroy them, and had cast “Pur”, that is the lot, to consume them and to destroy them;
 <sup>25</sup> but when this became known to the king, he commanded by letters that his wicked plan, which he had planned against the Jews, should return on his own head, and that he and his sons should be hanged on the gallows.
 
-<sup>26</sup> <sup>a</sup>from the word “Pur.” Therefore because of all the words of this letter, and of that which they had seen concerning this matter, and that which had come to them,
+<sup>26</sup> Therefore they called these days “Purim”,<sup>a</sup> from the word “Pur.” Therefore because of all the words of this letter, and of that which they had seen concerning this matter, and that which had come to them,
 <sup>27</sup> the Jews established and imposed on themselves, on their descendants, and on all those who joined themselves to them, so that it should not fail that they would keep these two days according to what was written and according to its appointed time every year;
-<sup>28</sup> <sup>b</sup>
+<sup>28</sup> and that these days should be remembered and kept throughout every generation, every family, every province, and every city; and that these days of Purim should not fail from among the Jews, nor their memory perish from their offspring.<sup>b</sup>
 
 <sup>29</sup> Then Esther the queen, the daughter of Abihail, and Mordecai the Jew wrote with all authority to confirm this second letter of Purim.
 <sup>30</sup> He sent letters to all the Jews in the hundred twenty-seven provinces of the kingdom of Ahasuerus with words of peace and truth,

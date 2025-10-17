@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>our hope,
+<sup>1</sup> Paul, an apostle of Jesus Christ according to the commandment of God our Savior and the Lord Jesus Christ<sup>a</sup> our hope,
 <sup>2</sup> to Timothy, my true child in faith: Grace, mercy, and peace from God our Father and Christ Jesus our Lord.
 
 <sup>3</sup> As I urged you when I was going into Macedonia, stay at Ephesus that you might command certain men not to teach a different doctrine,
@@ -38,7 +38,7 @@
 <sup>7</sup> to which I was appointed a preacher and an apostle—I am telling the truth in Christ, not lying—a teacher of the Gentiles in faith and truth.
 
 <sup>8</sup> I desire therefore that the men in every place pray, lifting up holy hands without anger and doubting.
-<sup>9</sup> <sup>a</sup>with braided hair, gold, pearls, or expensive clothing,
+<sup>9</sup> In the same way, that women also adorn themselves in decent clothing, with modesty and propriety, not<sup>a</sup> with braided hair, gold, pearls, or expensive clothing,
 <sup>10</sup> but with good works, which is appropriate for women professing godliness.
 <sup>11</sup> Let a woman learn in quietness with full submission.
 <sup>12</sup> But I don’t permit a woman to teach, nor to exercise authority over a man, but to be in quietness.
@@ -50,7 +50,7 @@
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>desires a good work.
+<sup>1</sup> This is a faithful saying: someone who seeks to be an overseer<sup>a</sup> desires a good work.
 <sup>2</sup> The overseer therefore must be without reproach, the husband of one wife, temperate, sensible, modest, hospitable, good at teaching;
 <sup>3</sup> not a drinker, not violent, not greedy for money, but gentle, not quarrelsome, not covetous;
 <sup>4</sup> one who rules his own house well, having children in subjection with all reverence;
@@ -58,16 +58,16 @@
 <sup>6</sup> not a new convert, lest being puffed up he fall into the same condemnation as the devil.
 <sup>7</sup> Moreover he must have good testimony from those who are outside, to avoid falling into reproach and the snare of the devil.
 
-<sup>8</sup> <sup>b</sup>in the same way, must be reverent, not double-tongued, not addicted to much wine, not greedy for money,
+<sup>8</sup> Servants,<sup>b</sup> in the same way, must be reverent, not double-tongued, not addicted to much wine, not greedy for money,
 <sup>9</sup> holding the mystery of the faith in a pure conscience.
-<sup>10</sup> <sup>c</sup>if they are blameless.
+<sup>10</sup> Let them also first be tested; then let them serve<sup>c</sup> if they are blameless.
 <sup>11</sup> Their wives in the same way must be reverent, not slanderers, temperate, and faithful in all things.
-<sup>12</sup> <sup>d</sup>be husbands of one wife, ruling their children and their own houses well.
-<sup>13</sup> <sup>e</sup>gain for themselves a good standing and great boldness in the faith which is in Christ Jesus.
+<sup>12</sup> Let servants<sup>d</sup> be husbands of one wife, ruling their children and their own houses well.
+<sup>13</sup> For those who have served well<sup>e</sup> gain for themselves a good standing and great boldness in the faith which is in Christ Jesus.
 
 <sup>14</sup> These things I write to you, hoping to come to you shortly,
 <sup>15</sup> but if I wait long, that you may know how men ought to behave themselves in God’s house, which is the assembly of the living God, the pillar and ground of the truth.
-<sup>16</sup> Without controversy, the mystery of godliness is great: <br><sup>f</sup>was revealed in the flesh, <br>justified in the spirit, <br>seen by angels, <br>preached among the nations, <br>believed on in the world, <br>and received up in glory.
+<sup>16</sup> Without controversy, the mystery of godliness is great: <br>God<sup>f</sup> was revealed in the flesh, <br>justified in the spirit, <br>seen by angels, <br>preached among the nations, <br>believed on in the world, <br>and received up in glory.
 
 > - <sup>a</sup> 1. or, superintendent, or bishop
 > - <sup>b</sup> 8. or, Deacons.
@@ -102,7 +102,7 @@
 <sup>2</sup> the elder women as mothers; the younger as sisters, in all purity.
 
 <sup>3</sup> Honor widows who are widows indeed.
-<sup>4</sup> <sup>a</sup>acceptable in the sight of God.
+<sup>4</sup> But if any widow has children or grandchildren, let them learn first to show piety toward their own family and to repay their parents, for this is<sup>a</sup> acceptable in the sight of God.
 <sup>5</sup> Now she who is a widow indeed and desolate, has her hope set on God and continues in petitions and prayers night and day.
 <sup>6</sup> But she who gives herself to pleasure is dead while she lives.
 <sup>7</sup> Also command these things, that they may be without reproach.
@@ -119,7 +119,7 @@
 <sup>16</sup> If any man or woman who believes has widows, let them relieve them, and don’t let the assembly be burdened, that it might relieve those who are widows indeed.
 
 <sup>17</sup> Let the elders who rule well be counted worthy of double honor, especially those who labor in the word and in teaching.
-<sup>18</sup> <sup>b</sup>And, <sup>c</sup>
+<sup>18</sup> For the Scripture says, “You shall not muzzle the ox when it treads out the grain.”<sup>b</sup> And, “The laborer is worthy of his wages.”<sup>c</sup>
 
 <sup>19</sup> Don’t receive an accusation against an elder except at the word of two or three witnesses.
 <sup>20</sup> Those who sin, reprove in the sight of all, that the rest also may be in fear.
@@ -142,7 +142,7 @@
 
 <sup>3</sup> If anyone teaches a different doctrine and doesn’t consent to sound words, the words of our Lord Jesus Christ, and to the doctrine which is according to godliness,
 <sup>4</sup> he is conceited, knowing nothing, but obsessed with arguments, disputes, and word battles, from which come envy, strife, insulting, evil suspicions,
-<sup>5</sup> <sup>a</sup>
+<sup>5</sup> constant friction of people of corrupt minds and destitute of the truth, who suppose that godliness is a means of gain. Withdraw yourself from such.<sup>a</sup>
 
 <sup>6</sup> But godliness with contentment is great gain.
 <sup>7</sup> For we brought nothing into the world, and we certainly can’t carry anything out.

@@ -1,8 +1,8 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>to the twelve tribes which are in the Dispersion: Greetings.
+<sup>1</sup> James, a servant of God and of the Lord Jesus Christ,<sup>a</sup> to the twelve tribes which are in the Dispersion: Greetings.
 
-<sup>2</sup> <sup>b</sup>when you fall into various temptations,
+<sup>2</sup> Count it all joy, my brothers,<sup>b</sup> when you fall into various temptations,
 <sup>3</sup> knowing that the testing of your faith produces endurance.
 <sup>4</sup> Let endurance have its perfect work, that you may be perfect and complete, lacking in nothing.
 
@@ -26,7 +26,7 @@
 
 <sup>19</sup> So, then, my beloved brothers, let every man be swift to hear, slow to speak, and slow to anger;
 <sup>20</sup> for the anger of man doesn’t produce the righteousness of God.
-<sup>21</sup> <sup>c</sup>
+<sup>21</sup> Therefore, putting away all filthiness and overflowing of wickedness, receive with humility the implanted word, which is able to save your souls.<sup>c</sup>
 
 <sup>22</sup> But be doers of the word, and not only hearers, deluding your own selves.
 <sup>23</sup> For if anyone is a hearer of the word and not a doer, he is like a man looking at his natural face in a mirror;
@@ -43,17 +43,17 @@
 ## Chapter 2
 
 <sup>1</sup> My brothers, don’t hold the faith of our glorious Lord Jesus Christ with partiality.
-<sup>2</sup> <sup>a</sup>and a poor man in filthy clothing also comes in,
+<sup>2</sup> For if a man with a gold ring, in fine clothing, comes into your synagogue,<sup>a</sup> and a poor man in filthy clothing also comes in,
 <sup>3</sup> and you pay special attention to him who wears the fine clothing and say, “Sit here in a good place;” and you tell the poor man, “Stand there,” or “Sit by my footstool”
 <sup>4</sup> haven’t you shown partiality among yourselves, and become judges with evil thoughts?
 <sup>5</sup> Listen, my beloved brothers. Didn’t God choose those who are poor in this world to be rich in faith and heirs of the Kingdom which he promised to those who love him?
 <sup>6</sup> But you have dishonored the poor man. Don’t the rich oppress you and personally drag you before the courts?
 <sup>7</sup> Don’t they blaspheme the honorable name by which you are called?
 
-<sup>8</sup> <sup>b</sup>you do well.
+<sup>8</sup> However, if you fulfill the royal law according to the Scripture, “You shall love your neighbor as yourself,”<sup>b</sup> you do well.
 <sup>9</sup> But if you show partiality, you commit sin, being convicted by the law as transgressors.
 <sup>10</sup> For whoever keeps the whole law, and yet stumbles in one point, he has become guilty of all.
-<sup>11</sup> <sup>c</sup><sup>d</sup>Now if you do not commit adultery but do murder, you have become a transgressor of the law.
+<sup>11</sup> For he who said, “Do not commit adultery,”<sup>c</sup> also said, “Do not commit murder.”<sup>d</sup> Now if you do not commit adultery but do murder, you have become a transgressor of the law.
 <sup>12</sup> So speak and so do as men who are to be judged by the law of freedom.
 <sup>13</sup> For judgment is without mercy to him who has shown no mercy. Mercy triumphs over judgment.
 
@@ -67,7 +67,7 @@
 <sup>20</sup> But do you want to know, vain man, that faith apart from works is dead?
 <sup>21</sup> Wasn’t Abraham our father justified by works, in that he offered up Isaac his son on the altar?
 <sup>22</sup> You see that faith worked with his works, and by works faith was perfected.
-<sup>23</sup> <sup>e</sup>and he was called the friend of God.
+<sup>23</sup> So the Scripture was fulfilled which says, “Abraham believed God, and it was accounted to him as righteousness,”<sup>e</sup> and he was called the friend of God.
 <sup>24</sup> You see then that by works a man is justified, and not only by faith.
 <sup>25</sup> In the same way, wasn’t Rahab the prostitute also justified by works when she received the messengers and sent them out another way?
 <sup>26</sup> For as the body apart from the spirit is dead, even so faith apart from works is dead.
@@ -83,9 +83,9 @@
 <sup>1</sup> Let not many of you be teachers, my brothers, knowing that we will receive heavier judgment.
 <sup>2</sup> For we all stumble in many things. Anyone who doesn’t stumble in word is a perfect person, able to bridle the whole body also.
 <sup>3</sup> Indeed, we put bits into the horses’ mouths so that they may obey us, and we guide their whole body.
-<sup>4</sup> <sup>a</sup>the ships also, though they are so big and are driven by fierce winds, are yet guided by a very small rudder, wherever the pilot desires.
+<sup>4</sup> Behold,<sup>a</sup> the ships also, though they are so big and are driven by fierce winds, are yet guided by a very small rudder, wherever the pilot desires.
 <sup>5</sup> So the tongue is also a little member, and boasts great things. See how a small fire can spread to a large forest!
-<sup>6</sup> <sup>b</sup>
+<sup>6</sup> And the tongue is a fire. The world of iniquity among our members is the tongue, which defiles the whole body, and sets on fire the course of nature, and is set on fire by Gehenna.<sup>b</sup>
 <sup>7</sup> For every kind of animal, bird, creeping thing, and sea creature is tamed, and has been tamed by mankind;
 <sup>8</sup> but nobody can tame the tongue. It is a restless evil, full of deadly poison.
 <sup>9</sup> With it we bless our God and Father, and with it we curse men who are made in the image of God.
@@ -110,7 +110,7 @@
 <sup>3</sup> You ask, and don’t receive, because you ask with wrong motives, so that you may spend it on your pleasures.
 <sup>4</sup> You adulterers and adulteresses, don’t you know that friendship with the world is hostility toward God? Whoever therefore wants to be a friend of the world makes himself an enemy of God.
 <sup>5</sup> Or do you think that the Scripture says in vain, “The Spirit who lives in us yearns jealously”?
-<sup>6</sup> <sup>a</sup>
+<sup>6</sup> But he gives more grace. Therefore it says, “God resists the proud, but gives grace to the humble.”<sup>a</sup>
 <sup>7</sup> Be subject therefore to God. Resist the devil, and he will flee from you.
 <sup>8</sup> Draw near to God, and he will draw near to you. Cleanse your hands, you sinners. Purify your hearts, you double-minded.
 <sup>9</sup> Lament, mourn, and weep. Let your laughter be turned to mourning and your joy to gloom.
@@ -132,7 +132,7 @@
 <sup>1</sup> Come now, you rich, weep and howl for your miseries that are coming on you.
 <sup>2</sup> Your riches are corrupted and your garments are moth-eaten.
 <sup>3</sup> Your gold and your silver are corroded, and their corrosion will be for a testimony against you and will eat your flesh like fire. You have laid up your treasure in the last days.
-<sup>4</sup> <sup>a</sup>
+<sup>4</sup> Behold, the wages of the laborers who mowed your fields, which you have kept back by fraud, cry out; and the cries of those who reaped have entered into the ears of the Lord of Armies.<sup>a</sup>
 <sup>5</sup> You have lived in luxury on the earth, and taken your pleasure. You have nourished your hearts as in a day of slaughter.
 <sup>6</sup> You have condemned and you have murdered the righteous one. He doesn’t resist you.
 
@@ -143,7 +143,7 @@
 <sup>10</sup> Take, brothers, for an example of suffering and of perseverance, the prophets who spoke in the name of the Lord.
 <sup>11</sup> Behold, we call them blessed who endured. You have heard of the perseverance of Job and have seen the Lord in the outcome, and how the Lord is full of compassion and mercy.
 
-<sup>12</sup> <sup>b</sup>
+<sup>12</sup> But above all things, my brothers, don’t swear— not by heaven, or by the earth, or by any other oath; but let your “yes” be “yes”, and your “no”, “no”, so that you don’t fall into hypocrisy.<sup>b</sup>
 
 <sup>13</sup> Is any among you suffering? Let him pray. Is any cheerful? Let him sing praises.
 <sup>14</sup> Is any among you sick? Let him call for the elders of the assembly, and let them pray over him, anointing him with oil in the name of the Lord;

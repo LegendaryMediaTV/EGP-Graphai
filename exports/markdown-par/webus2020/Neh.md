@@ -4,8 +4,8 @@
 <sup>2</sup> Hanani, one of my brothers, came, he and certain men out of Judah; and I asked them about the Jews who had escaped, who were left of the captivity, and concerning Jerusalem.
 <sup>3</sup> They said to me, “The remnant who are left of the captivity there in the province are in great affliction and reproach. The wall of Jerusalem is also broken down, and its gates are burned with fire.”
 
-<sup>4</sup> <sup>a</sup>of heaven,
-<sup>5</sup> <sup>b</sup>the God of heaven, the great and awesome God who keeps covenant and loving kindness with those who love him and keep his commandments,
+<sup>4</sup> When I heard these words, I sat down and wept, and mourned several days; and I fasted and prayed before the God<sup>a</sup> of heaven,
+<sup>5</sup> and said, “I beg you, Yahweh,<sup>b</sup> the God of heaven, the great and awesome God who keeps covenant and loving kindness with those who love him and keep his commandments,
 <sup>6</sup> let your ear now be attentive and your eyes open, that you may listen to the prayer of your servant which I pray before you at this time, day and night, for the children of Israel your servants, while I confess the sins of the children of Israel which we have sinned against you. Yes, I and my father’s house have sinned.
 <sup>7</sup> We have dealt very corruptly against you, and have not kept the commandments, nor the statutes, nor the ordinances, which you commanded your servant Moses.
 
@@ -13,7 +13,7 @@
 <sup>9</sup> but if you return to me, and keep my commandments and do them, though your outcasts were in the uttermost part of the heavens, yet I will gather them from there, and will bring them to the place that I have chosen, to cause my name to dwell there.’
 
 <sup>10</sup> “Now these are your servants and your people, whom you have redeemed by your great power and by your strong hand.
-<sup>11</sup> <sup>c</sup>I beg you, let your ear be attentive now to the prayer of your servant, and to the prayer of your servants who delight to fear your name; and please prosper your servant today, and grant him mercy in the sight of this man.” Now I was cup bearer to the king.
+<sup>11</sup> Lord,<sup>c</sup> I beg you, let your ear be attentive now to the prayer of your servant, and to the prayer of your servants who delight to fear your name; and please prosper your servant today, and grant him mercy in the sight of this man.” Now I was cup bearer to the king.
 
 > - <sup>a</sup> 4. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
 > - <sup>b</sup> 5. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
@@ -64,7 +64,7 @@
 <sup>11</sup> Malchijah the son of Harim and Hasshub the son of Pahathmoab repaired another portion and the tower of the furnaces.
 <sup>12</sup> Next to him, Shallum the son of Hallohesh, the ruler of half the district of Jerusalem, he and his daughters made repairs.
 
-<sup>13</sup> <sup>a</sup>of the wall to the dung gate.
+<sup>13</sup> Hanun and the inhabitants of Zanoah repaired the valley gate. They built it, and set up its doors, its bolts, and its bars, and one thousand cubits<sup>a</sup> of the wall to the dung gate.
 
 <sup>14</sup> Malchijah the son of Rechab, the ruler of the district of Beth Haccherem, repaired the dung gate. He built it, and set up its doors, its bolts, and its bars.
 
@@ -130,7 +130,7 @@
 <sup>2</sup> For there were some who said, “We, our sons and our daughters, are many. Let us get grain, that we may eat and live.”
 <sup>3</sup> There were also some who said, “We are mortgaging our fields, our vineyards, and our houses. Let us get grain, because of the famine.”
 <sup>4</sup> There were also some who said, “We have borrowed money for the king’s tribute using our fields and our vineyards as collateral.
-<sup>5</sup> <sup>a</sup>we bring our sons and our daughters into bondage to be servants, and some of our daughters have been brought into bondage. It is also not in our power to help it, because other men have our fields and our vineyards.”
+<sup>5</sup> Yet now our flesh is as the flesh of our brothers, our children as their children. Behold,<sup>a</sup> we bring our sons and our daughters into bondage to be servants, and some of our daughters have been brought into bondage. It is also not in our power to help it, because other men have our fields and our vineyards.”
 
 <sup>6</sup> I was very angry when I heard their cry and these words.
 <sup>7</sup> Then I consulted with myself, and contended with the nobles and the rulers, and said to them, “You exact usury, everyone of his brother.” I held a great assembly against them.
@@ -143,7 +143,7 @@
 <sup>13</sup> Also I shook out my lap, and said, “So may God shake out every man from his house, and from his labor, that doesn’t perform this promise; even may he be shaken out and emptied like this.” All the assembly said, “Amen,” and praised Yahweh. The people did according to this promise.
 
 <sup>14</sup> Moreover from the time that I was appointed to be their governor in the land of Judah, from the twentieth year even to the thirty-second year of Artaxerxes the king, that is, twelve years, I and my brothers have not eaten the bread of the governor.
-<sup>15</sup> <sup>b</sup>of silver; yes, even their servants ruled over the people, but I didn’t do so, because of the fear of God.
+<sup>15</sup> But the former governors who were before me were supported by the people, and took bread and wine from them, plus forty shekels<sup>b</sup> of silver; yes, even their servants ruled over the people, but I didn’t do so, because of the fear of God.
 <sup>16</sup> Yes, I also continued in the work of this wall. We didn’t buy any land. All my servants were gathered there to the work.
 <sup>17</sup> Moreover there were at my table, of the Jews and the rulers, one hundred fifty men, in addition to those who came to us from among the nations that were around us.
 <sup>18</sup> Now that which was prepared for one day was one ox and six choice sheep. Also fowls were prepared for me, and once in ten days a store of all sorts of wine. Yet for all this, I didn’t demand the governor’s pay, because the bondage was heavy on this people.
@@ -249,7 +249,7 @@
 <sup>59</sup> the children of Shephatiah, the children of Hattil, the children of Pochereth Hazzebaim, and the children of Amon.
 <sup>60</sup> All the temple servants and the children of Solomon’s servants were three hundred ninety-two.
 
-<sup>61</sup> <sup>a</sup>whether they were of Israel:
+<sup>61</sup> These were those who went up from Tel Melah, Tel Harsha, Cherub, Addon, and Immer; but they could not show their fathers’ houses, nor their offspring,<sup>a</sup> whether they were of Israel:
 <sup>62</sup> The children of Delaiah, the children of Tobiah, the children of Nekoda: six hundred forty-two.
 <sup>63</sup> Of the priests: the children of Hobaiah, the children of Hakkoz, the children of Barzillai, who took a wife of the daughters of Barzillai the Gileadite, and was called after their name.
 
@@ -261,8 +261,8 @@
 <sup>68</sup> Their horses were seven hundred thirty-six; their mules, two hundred forty-five;
 <sup>69</sup> their camels, four hundred thirty-five; their donkeys, six thousand seven hundred twenty.
 
-<sup>70</sup> <sup>b</sup>fifty basins, and five hundred thirty priests’ garments.
-<sup>71</sup> <sup>c</sup>of silver.
+<sup>70</sup> Some from among the heads of fathers’ households gave to the work. The governor gave to the treasury one thousand darics of gold,<sup>b</sup> fifty basins, and five hundred thirty priests’ garments.
+<sup>71</sup> Some of the heads of fathers’ households gave into the treasury of the work twenty thousand darics of gold, and two thousand two hundred minas<sup>c</sup> of silver.
 <sup>72</sup> That which the rest of the people gave was twenty thousand darics of gold, plus two thousand minas of silver, and sixty-seven priests’ garments.
 
 <sup>73</sup> So the priests, the Levites, the gatekeepers, the singers, some of the people, the temple servants, and all Israel lived in their cities. When the seventh month had come, the children of Israel were in their cities.
@@ -291,10 +291,10 @@
 
 <sup>13</sup> On the second day, the heads of fathers’ households of all the people, the priests, and the Levites were gathered together to Ezra the scribe, to study the words of the law.
 <sup>14</sup> They found written in the law how Yahweh had commanded by Moses that the children of Israel should dwell in booths in the feast of the seventh month;
-<sup>15</sup> <sup>a</sup>as it is written.”
+<sup>15</sup> and that they should publish and proclaim in all their cities and in Jerusalem, saying, “Go out to the mountain, and get olive branches, branches of wild olive, myrtle branches, palm branches, and branches of thick trees, to make temporary shelters,<sup>a</sup> as it is written.”
 
-<sup>16</sup> <sup>b</sup>everyone on the roof of his house, in their courts, in the courts of God’s house, in the wide place of the water gate, and in the wide place of Ephraim’s gate.
-<sup>17</sup> <sup>c</sup>and lived in the temporary shelters, for since the days of Joshua the son of Nun to that day the children of Israel had not done so. There was very great gladness.
+<sup>16</sup> So the people went out and brought them, and made themselves temporary shelters,<sup>b</sup> everyone on the roof of his house, in their courts, in the courts of God’s house, in the wide place of the water gate, and in the wide place of Ephraim’s gate.
+<sup>17</sup> All the assembly of those who had come back out of the captivity made temporary shelters<sup>c</sup> and lived in the temporary shelters, for since the days of Joshua the son of Nun to that day the children of Israel had not done so. There was very great gladness.
 <sup>18</sup> Also day by day, from the first day to the last day, he read in the book of the law of God. They kept the feast seven days; and on the eighth day was a solemn assembly, according to the ordinance.
 
 > - <sup>a</sup> 15. or, booths
@@ -386,7 +386,7 @@
 <sup>30</sup> and that we would not give our daughters to the peoples of the land, nor take their daughters for our sons;
 <sup>31</sup> and if the peoples of the land bring wares or any grain on the Sabbath day to sell, that we would not buy from them on the Sabbath, or on a holy day; and that we would forego the seventh year crops and the exaction of every debt.
 
-<sup>32</sup> <sup>a</sup>for the service of the house of our God:
+<sup>32</sup> Also we made ordinances for ourselves, to charge ourselves yearly with the third part of a shekel<sup>a</sup> for the service of the house of our God:
 <sup>33</sup> for the show bread, for the continual meal offering, for the continual burnt offering, for the Sabbaths, for the new moons, for the set feasts, for the holy things, for the sin offerings to make atonement for Israel, and for all the work of the house of our God.
 <sup>34</sup> We, the priests, the Levites, and the people, cast lots for the wood offering, to bring it into the house of our God, according to our fathers’ houses, at times appointed year by year, to burn on Yahweh our God’s altar, as it is written in the law;
 <sup>35</sup> and to bring the first fruits of our ground and the first fruits of all fruit of all kinds of trees, year by year, to Yahweh’s house;

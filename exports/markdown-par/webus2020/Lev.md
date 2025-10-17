@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>called to Moses, and spoke to him from the Tent of Meeting, saying,
+<sup>1</sup> Yahweh<sup>a</sup> called to Moses, and spoke to him from the Tent of Meeting, saying,
 <sup>2</sup> “Speak to the children of Israel, and tell them, ‘When anyone of you offers an offering to Yahweh, you shall offer your offering of the livestock, from the herd and from the flock.
 
 <sup>3</sup> “ ‘If his offering is a burnt offering from the herd, he shall offer a male without defect. He shall offer it at the door of the Tent of Meeting, that he may be accepted before Yahweh.
@@ -39,7 +39,7 @@
 
 <sup>11</sup> “ ‘No meal offering which you shall offer to Yahweh shall be made with yeast; for you shall burn no yeast, nor any honey, as an offering made by fire to Yahweh.
 <sup>12</sup> As an offering of first fruits you shall offer them to Yahweh, but they shall not rise up as a pleasant aroma on the altar.
-<sup>13</sup> <sup>a</sup>to be lacking from your meal offering. With all your offerings you shall offer salt.
+<sup>13</sup> Every offering of your meal offering you shall season with salt. You shall not allow the salt of the covenant of your God<sup>a</sup> to be lacking from your meal offering. With all your offerings you shall offer salt.
 
 <sup>14</sup> “ ‘If you offer a meal offering of first fruits to Yahweh, you shall offer for the meal offering of your first fruits fresh heads of grain parched with fire and crushed.
 <sup>15</sup> You shall put oil on it and lay frankincense on it. It is a meal offering.
@@ -127,12 +127,12 @@
 <sup>9</sup> He shall sprinkle some of the blood of the sin offering on the side of the altar; and the rest of the blood shall be drained out at the base of the altar. It is a sin offering.
 <sup>10</sup> He shall offer the second for a burnt offering, according to the ordinance; and the priest shall make atonement for him concerning his sin which he has sinned, and he shall be forgiven.
 
-<sup>11</sup> <sup>a</sup>of fine flour for a sin offering. He shall put no oil on it, and he shall not put any frankincense on it, for it is a sin offering.
+<sup>11</sup> “ ‘But if he can’t afford two turtledoves or two young pigeons, then he shall bring as his offering for that in which he has sinned, one tenth of an ephah<sup>a</sup> of fine flour for a sin offering. He shall put no oil on it, and he shall not put any frankincense on it, for it is a sin offering.
 <sup>12</sup> He shall bring it to the priest, and the priest shall take his handful of it as the memorial portion, and burn it on the altar, on the offerings of Yahweh made by fire. It is a sin offering.
 <sup>13</sup> The priest shall make atonement for him concerning his sin that he has sinned in any of these things, and he will be forgiven; and the rest shall be the priest’s, as the meal offering.’ ”
 
 <sup>14</sup> Yahweh spoke to Moses, saying,
-<sup>15</sup> <sup>b</sup>of the sanctuary, for a trespass offering.
+<sup>15</sup> “If anyone commits a trespass, and sins unwittingly regarding Yahweh’s holy things, then he shall bring his trespass offering to Yahweh: a ram without defect from the flock, according to your estimation in silver by shekels, according to the shekel<sup>b</sup> of the sanctuary, for a trespass offering.
 <sup>16</sup> He shall make restitution for that which he has done wrong regarding the holy thing, and shall add a fifth part to it, and give it to the priest; and the priest shall make atonement for him with the ram of the trespass offering, and he will be forgiven.
 
 <sup>17</sup> “If anyone sins, doing any of the things which Yahweh has commanded not to be done, though he didn’t know it, he is still guilty, and shall bear his iniquity.
@@ -166,7 +166,7 @@
 <sup>18</sup> Every male among the children of Aaron shall eat of it, as their portion forever throughout your generations, from the offerings of Yahweh made by fire. Whoever touches them shall be holy.’ ”
 
 <sup>19</sup> Yahweh spoke to Moses, saying,
-<sup>20</sup> <sup>a</sup>of fine flour for a meal offering perpetually, half of it in the morning, and half of it in the evening.
+<sup>20</sup> “This is the offering of Aaron and of his sons, which they shall offer to Yahweh in the day when he is anointed: one tenth of an ephah<sup>a</sup> of fine flour for a meal offering perpetually, half of it in the morning, and half of it in the evening.
 <sup>21</sup> It shall be made with oil in a griddle. When it is soaked, you shall bring it in. You shall offer the meal offering in baked pieces for a pleasant aroma to Yahweh.
 <sup>22</sup> The anointed priest that will be in his place from among his sons shall offer it. By a statute forever, it shall be wholly burned to Yahweh.
 <sup>23</sup> Every meal offering of a priest shall be wholly burned. It shall not be eaten.”
@@ -319,7 +319,7 @@
 <sup>14</sup> The waved breast and the heaved thigh you shall eat in a clean place, you, and your sons, and your daughters with you: for they are given as your portion, and your sons’ portion, out of the sacrifices of the peace offerings of the children of Israel.
 <sup>15</sup> They shall bring the heaved thigh and the waved breast with the offerings made by fire of the fat, to wave it for a wave offering before Yahweh. It shall be yours, and your sons’ with you, as a portion forever, as Yahweh has commanded.”
 
-<sup>16</sup> <sup>a</sup>it was burned. He was angry with Eleazar and with Ithamar, the sons of Aaron who were left, saying,
+<sup>16</sup> Moses diligently inquired about the goat of the sin offering, and, behold,<sup>a</sup> it was burned. He was angry with Eleazar and with Ithamar, the sons of Aaron who were left, saying,
 <sup>17</sup> “Why haven’t you eaten the sin offering in the place of the sanctuary, since it is most holy, and he has given it to you to bear the iniquity of the congregation, to make atonement for them before Yahweh?
 <sup>18</sup> Behold, its blood was not brought into the inner part of the sanctuary. You certainly should have eaten it in the sanctuary, as I commanded.”
 
@@ -336,7 +336,7 @@
 <sup>3</sup> Whatever parts the hoof, and is cloven-footed, and chews the cud among the animals, that you may eat.
 
 <sup>4</sup> “ ‘Nevertheless these you shall not eat of those that chew the cud, or of those who part the hoof: the camel, because it chews the cud but doesn’t have a parted hoof, is unclean to you.
-<sup>5</sup> <sup>a</sup>because it chews the cud but doesn’t have a parted hoof, is unclean to you.
+<sup>5</sup> The hyrax,<sup>a</sup> because it chews the cud but doesn’t have a parted hoof, is unclean to you.
 <sup>6</sup> The hare, because it chews the cud but doesn’t have a parted hoof, is unclean to you.
 <sup>7</sup> The pig, because it has a split hoof, and is cloven-footed, but doesn’t chew the cud, is unclean to you.
 <sup>8</sup> You shall not eat their meat. You shall not touch their carcasses. They are unclean to you.
@@ -460,7 +460,7 @@
 <sup>46</sup> All the days in which the plague is in him he shall be unclean. He is unclean. He shall dwell alone. His dwelling shall be outside of the camp.
 
 <sup>47</sup> “The garment also that the plague of leprosy is in, whether it is a woolen garment, or a linen garment;
-<sup>48</sup> <sup>a</sup>of linen or of wool; whether in a leather, or in anything made of leather;
+<sup>48</sup> whether it is in warp or woof;<sup>a</sup> of linen or of wool; whether in a leather, or in anything made of leather;
 <sup>49</sup> if the plague is greenish or reddish in the garment, or in the leather, or in the warp, or in the woof, or in anything made of leather; it is the plague of leprosy, and shall be shown to the priest.
 <sup>50</sup> The priest shall examine the plague, and isolate the plague seven days.
 <sup>51</sup> He shall examine the plague on the seventh day. If the plague has spread in the garment, either in the warp, or in the woof, or in the skin, whatever use the skin is used for, the plague is a destructive mildew. It is unclean.
@@ -491,7 +491,7 @@
 <sup>8</sup> “He who is to be cleansed shall wash his clothes, and shave off all his hair, and bathe himself in water; and he shall be clean. After that he shall come into the camp, but shall dwell outside his tent seven days.
 <sup>9</sup> It shall be on the seventh day, that he shall shave all his hair off his head and his beard and his eyebrows. He shall shave off all his hair. He shall wash his clothes, and he shall bathe his body in water. Then he shall be clean.
 
-<sup>10</sup> <sup>a</sup><sup>b</sup>of oil.
+<sup>10</sup> “On the eighth day he shall take two male lambs without defect, one ewe lamb a year old without defect, three tenths of an ephah<sup>a</sup> of fine flour for a meal offering, mixed with oil, and one log<sup>b</sup> of oil.
 <sup>11</sup> The priest who cleanses him shall set the man who is to be cleansed, and those things, before Yahweh, at the door of the Tent of Meeting.
 
 <sup>12</sup> “The priest shall take one of the male lambs, and offer him for a trespass offering, with the log of oil, and wave them for a wave offering before Yahweh.
@@ -505,7 +505,7 @@
 <sup>19</sup> “The priest shall offer the sin offering, and make atonement for him who is to be cleansed because of his uncleanness. Afterward he shall kill the burnt offering;
 <sup>20</sup> then the priest shall offer the burnt offering and the meal offering on the altar. The priest shall make atonement for him, and he shall be clean.
 
-<sup>21</sup> <sup>c</sup><sup>d</sup>of oil;
+<sup>21</sup> “If he is poor, and can’t afford so much, then he shall take one male lamb for a trespass offering to be waved, to make atonement for him, and one tenth of an ephah<sup>c</sup> of fine flour mixed with oil for a meal offering, and a log<sup>d</sup> of oil;
 <sup>22</sup> and two turtledoves, or two young pigeons, such as he is able to afford; and the one shall be a sin offering, and the other a burnt offering.
 
 <sup>23</sup> “On the eighth day he shall bring them for his cleansing to the priest, to the door of the Tent of Meeting, before Yahweh.
@@ -753,7 +753,7 @@
 
 <sup>15</sup> “ ‘You shall do no injustice in judgment. You shall not be partial to the poor, nor show favoritism to the great; but you shall judge your neighbor in righteousness.
 
-<sup>16</sup> <sup>a</sup>of your neighbor. I am Yahweh.
+<sup>16</sup> “ ‘You shall not go around as a slanderer among your people. “ ‘You shall not endanger the life<sup>a</sup> of your neighbor. I am Yahweh.
 
 <sup>17</sup> “ ‘You shall not hate your brother in your heart. You shall surely rebuke your neighbor, and not bear sin because of him.
 
@@ -765,7 +765,7 @@
 <sup>21</sup> He shall bring his trespass offering to Yahweh, to the door of the Tent of Meeting, even a ram for a trespass offering.
 <sup>22</sup> The priest shall make atonement for him with the ram of the trespass offering before Yahweh for his sin which he has committed; and the sin which he has committed shall be forgiven him.
 
-<sup>23</sup> <sup>b</sup>For three years it shall be forbidden to you. It shall not be eaten.
+<sup>23</sup> “ ‘When you come into the land, and have planted all kinds of trees for food, then you shall count their fruit as forbidden.<sup>b</sup> For three years it shall be forbidden to you. It shall not be eaten.
 <sup>24</sup> But in the fourth year all its fruit shall be holy, for giving praise to Yahweh.
 <sup>25</sup> In the fifth year you shall eat its fruit, that it may yield its increase to you. I am Yahweh your God.
 
@@ -787,7 +787,7 @@
 <sup>34</sup> The stranger who lives as a foreigner with you shall be to you as the native-born among you, and you shall love him as yourself; for you lived as foreigners in the land of Egypt. I am Yahweh your God.
 
 <sup>35</sup> “ ‘You shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity.
-<sup>36</sup> <sup>c</sup><sup>d</sup>I am Yahweh your God, who brought you out of the land of Egypt.
+<sup>36</sup> You shall have just balances, just weights, a just ephah,<sup>c</sup> and a just hin.<sup>d</sup> I am Yahweh your God, who brought you out of the land of Egypt.
 
 <sup>37</sup> “ ‘You shall observe all my statutes and all my ordinances, and do them. I am Yahweh.’ ”
 
@@ -799,7 +799,7 @@
 ## Chapter 20
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
-<sup>2</sup> <sup>a</sup>to Molech shall surely be put to death. The people of the land shall stone that person with stones.
+<sup>2</sup> “Moreover, you shall tell the children of Israel, ‘Anyone of the children of Israel, or of the strangers who live as foreigners in Israel, who gives any of his offspring<sup>a</sup> to Molech shall surely be put to death. The people of the land shall stone that person with stones.
 <sup>3</sup> I also will set my face against that person, and will cut him off from among his people, because he has given of his offspring to Molech, to defile my sanctuary, and to profane my holy name.
 <sup>4</sup> If the people of the land all hide their eyes from that person when he gives of his offspring to Molech, and don’t put him to death,
 <sup>5</sup> then I will set my face against that man and against his family, and will cut him off, and all who play the prostitute after him to play the prostitute with Molech, from among their people.
@@ -939,12 +939,12 @@
 <sup>10</sup> “Speak to the children of Israel, and tell them, ‘When you have come into the land which I give to you, and shall reap its harvest, then you shall bring the sheaf of the first fruits of your harvest to the priest.
 <sup>11</sup> He shall wave the sheaf before Yahweh, to be accepted for you. On the next day after the Sabbath the priest shall wave it.
 <sup>12</sup> On the day when you wave the sheaf, you shall offer a male lamb without defect a year old for a burnt offering to Yahweh.
-<sup>13</sup> <sup>a</sup><sup>b</sup>
+<sup>13</sup> The meal offering with it shall be two tenths of an ephah<sup>a</sup> of fine flour mixed with oil, an offering made by fire to Yahweh for a pleasant aroma; and the drink offering with it shall be of wine, the fourth part of a hin.<sup>b</sup>
 <sup>14</sup> You must not eat bread, or roasted grain, or fresh grain, until this same day, until you have brought the offering of your God. This is a statute forever throughout your generations in all your dwellings.
 
 <sup>15</sup> “ ‘You shall count from the next day after the Sabbath, from the day that you brought the sheaf of the wave offering: seven Sabbaths shall be completed.
 <sup>16</sup> The next day after the seventh Sabbath you shall count fifty days; and you shall offer a new meal offering to Yahweh.
-<sup>17</sup> <sup>c</sup>of fine flour. They shall be baked with yeast, for first fruits to Yahweh.
+<sup>17</sup> You shall bring out of your habitations two loaves of bread for a wave offering made of two tenths of an ephah<sup>c</sup> of fine flour. They shall be baked with yeast, for first fruits to Yahweh.
 <sup>18</sup> You shall present with the bread seven lambs without defect a year old, one young bull, and two rams. They shall be a burnt offering to Yahweh, with their meal offering and their drink offerings, even an offering made by fire, of a sweet aroma to Yahweh.
 <sup>19</sup> You shall offer one male goat for a sin offering, and two male lambs a year old for a sacrifice of peace offerings.
 <sup>20</sup> The priest shall wave them with the bread of the first fruits for a wave offering before Yahweh, with the two lambs. They shall be holy to Yahweh for the priest.
@@ -965,7 +965,7 @@
 <sup>32</sup> It shall be a Sabbath of solemn rest for you, and you shall deny yourselves. In the ninth day of the month at evening, from evening to evening, you shall keep your Sabbath.”
 
 <sup>33</sup> Yahweh spoke to Moses, saying,
-<sup>34</sup> <sup>d</sup>for seven days to Yahweh.
+<sup>34</sup> “Speak to the children of Israel, and say, ‘On the fifteenth day of this seventh month is the feast of booths<sup>d</sup> for seven days to Yahweh.
 <sup>35</sup> On the first day shall be a holy convocation. You shall do no regular work.
 <sup>36</sup> Seven days you shall offer an offering made by fire to Yahweh. On the eighth day shall be a holy convocation to you. You shall offer an offering made by fire to Yahweh. It is a solemn assembly; you shall do no regular work.
 
@@ -975,8 +975,8 @@
 <sup>39</sup> “ ‘So on the fifteenth day of the seventh month, when you have gathered in the fruits of the land, you shall keep the feast of Yahweh seven days. On the first day shall be a solemn rest, and on the eighth day shall be a solemn rest.
 <sup>40</sup> You shall take on the first day the fruit of majestic trees, branches of palm trees, and boughs of thick trees, and willows of the brook; and you shall rejoice before Yahweh your God seven days.
 <sup>41</sup> You shall keep it as a feast to Yahweh seven days in the year. It is a statute forever throughout your generations. You shall keep it in the seventh month.
-<sup>42</sup> <sup>e</sup><sup>f</sup>
-<sup>43</sup> <sup>g</sup>when I brought them out of the land of Egypt. I am Yahweh your God.’ ”
+<sup>42</sup> You shall dwell in temporary shelters<sup>e</sup> for seven days. All who are native-born in Israel shall dwell in temporary shelters,<sup>f</sup>
+<sup>43</sup> that your generations may know that I made the children of Israel to dwell in temporary shelters<sup>g</sup> when I brought them out of the land of Egypt. I am Yahweh your God.’ ”
 
 <sup>44</sup> So Moses declared to the children of Israel the appointed feasts of Yahweh.
 
@@ -995,7 +995,7 @@
 <sup>3</sup> Outside of the veil of the Testimony, in the Tent of Meeting, Aaron shall keep it in order from evening to morning before Yahweh continually. It shall be a statute forever throughout your generations.
 <sup>4</sup> He shall keep in order the lamps on the pure gold lamp stand before Yahweh continually.
 
-<sup>5</sup> <sup>a</sup>shall be in one cake.
+<sup>5</sup> “You shall take fine flour, and bake twelve cakes of it: two tenths of an ephah<sup>a</sup> shall be in one cake.
 <sup>6</sup> You shall set them in two rows, six on a row, on the pure gold table before Yahweh.
 <sup>7</sup> You shall put pure frankincense on each row, that it may be to the bread for a memorial, even an offering made by fire to Yahweh.
 <sup>8</sup> Every Sabbath day he shall set it in order before Yahweh continually. It is an everlasting covenant on the behalf of the children of Israel.
@@ -1153,7 +1153,7 @@
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
 <sup>2</sup> “Speak to the children of Israel, and say to them, ‘When a man consecrates a person to Yahweh in a vow, according to your valuation,
-<sup>3</sup> <sup>a</sup>of the sanctuary.
+<sup>3</sup> your valuation of a male from twenty years old to sixty years old shall be fifty shekels of silver, according to the shekel<sup>a</sup> of the sanctuary.
 <sup>4</sup> If she is a female, then your valuation shall be thirty shekels.
 <sup>5</sup> If the person is from five years old to twenty years old, then your valuation shall be for a male twenty shekels, and for a female ten shekels.
 <sup>6</sup> If the person is from a month old to five years old, then your valuation shall be for a male five shekels of silver, and for a female your valuation shall be three shekels of silver.
@@ -1169,7 +1169,7 @@
 <sup>14</sup> “ ‘When a man dedicates his house to be holy to Yahweh, then the priest shall evaluate it, whether it is good or bad. As the priest evaluates it, so it shall stand.
 <sup>15</sup> If he who dedicates it will redeem his house, then he shall add the fifth part of the money of your valuation to it, and it shall be his.
 
-<sup>16</sup> <sup>b</sup><sup>c</sup>of silver.
+<sup>16</sup> “ ‘If a man dedicates to Yahweh part of the field of his possession, then your valuation shall be according to the seed for it. The sowing of a homer<sup>b</sup> of barley shall be valued at fifty shekels<sup>c</sup> of silver.
 <sup>17</sup> If he dedicates his field from the Year of Jubilee, according to your valuation it shall stand.
 <sup>18</sup> But if he dedicates his field after the Jubilee, then the priest shall reckon to him the money according to the years that remain to the Year of Jubilee; and an abatement shall be made from your valuation.
 <sup>19</sup> If he who dedicated the field will indeed redeem it, then he shall add the fifth part of the money of your valuation to it, and it shall remain his.
@@ -1179,7 +1179,7 @@
 <sup>22</sup> “ ‘If he dedicates a field to Yahweh which he has bought, which is not of the field of his possession,
 <sup>23</sup> then the priest shall reckon to him the worth of your valuation up to the Year of Jubilee; and he shall give your valuation on that day, as a holy thing to Yahweh.
 <sup>24</sup> In the Year of Jubilee the field shall return to him from whom it was bought, even to him to whom the possession of the land belongs.
-<sup>25</sup> <sup>d</sup><sup>e</sup>
+<sup>25</sup> All your valuations shall be according to the shekel of the sanctuary: twenty gerahs<sup>d</sup> to the shekel.<sup>e</sup>
 
 <sup>26</sup> “ ‘However the firstborn among animals, which belongs to Yahweh as a firstborn, no man may dedicate, whether an ox or a sheep. It is Yahweh’s.
 <sup>27</sup> If it is an unclean animal, then he shall buy it back according to your valuation, and shall add to it the fifth part of it; or if it isn’t redeemed, then it shall be sold according to your valuation.

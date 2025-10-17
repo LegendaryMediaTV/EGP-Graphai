@@ -1,7 +1,7 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>and God the Father, who raised him from the dead—
-<sup>2</sup> <sup>b</sup>who are with me, to the assemblies of Galatia:
+<sup>1</sup> Paul, an apostle—not from men, nor through man, but through Jesus Christ,<sup>a</sup> and God the Father, who raised him from the dead—
+<sup>2</sup> and all the brothers<sup>b</sup> who are with me, to the assemblies of Galatia:
 <sup>3</sup> Grace to you and peace from God the Father and our Lord Jesus Christ,
 <sup>4</sup> who gave himself for our sins, that he might deliver us out of this present evil age, according to the will of our God and Father—
 <sup>5</sup> to whom be the glory forever and ever. Amen.
@@ -23,7 +23,7 @@
 
 <sup>18</sup> Then after three years I went up to Jerusalem to visit Peter, and stayed with him fifteen days.
 <sup>19</sup> But of the other apostles I saw no one except James, the Lord’s brother.
-<sup>20</sup> <sup>c</sup>before God, I’m not lying.
+<sup>20</sup> Now about the things which I write to you, behold,<sup>c</sup> before God, I’m not lying.
 <sup>21</sup> Then I came to the regions of Syria and Cilicia.
 <sup>22</sup> I was still unknown by face to the assemblies of Judea which were in Christ,
 <sup>23</sup> but they only heard, “He who once persecuted us now preaches the faith that he once tried to destroy.”
@@ -65,20 +65,20 @@
 <sup>3</sup> Are you so foolish? Having begun in the Spirit, are you now completed in the flesh?
 <sup>4</sup> Did you suffer so many things in vain, if it is indeed in vain?
 <sup>5</sup> He therefore who supplies the Spirit to you and does miracles among you, does he do it by the works of the law, or by hearing of faith?
-<sup>6</sup> <sup>a</sup>
+<sup>6</sup> Even so, Abraham “believed God, and it was counted to him for righteousness.”<sup>a</sup>
 <sup>7</sup> Know therefore that those who are of faith are children of Abraham.
-<sup>8</sup> <sup>b</sup>
+<sup>8</sup> The Scripture, foreseeing that God would justify the Gentiles by faith, preached the Good News beforehand to Abraham, saying, “In you all the nations will be blessed.”<sup>b</sup>
 <sup>9</sup> So then, those who are of faith are blessed with the faithful Abraham.
 
-<sup>10</sup> <sup>c</sup>
-<sup>11</sup> <sup>d</sup>
-<sup>12</sup> <sup>e</sup>
+<sup>10</sup> For as many as are of the works of the law are under a curse. For it is written, “Cursed is everyone who doesn’t continue in all things that are written in the book of the law, to do them.”<sup>c</sup>
+<sup>11</sup> Now that no man is justified by the law before God is evident, for, “The righteous will live by faith.”<sup>d</sup>
+<sup>12</sup> The law is not of faith, but, “The man who does them will live by them.”<sup>e</sup>
 
-<sup>13</sup> <sup>f</sup>
+<sup>13</sup> Christ redeemed us from the curse of the law, having become a curse for us. For it is written, “Cursed is everyone who hangs on a tree,”<sup>f</sup>
 <sup>14</sup> that the blessing of Abraham might come on the Gentiles through Christ Jesus, that we might receive the promise of the Spirit through faith.
 
 <sup>15</sup> Brothers, speaking of human terms, though it is only a man’s covenant, yet when it has been confirmed, no one makes it void or adds to it.
-<sup>16</sup> <sup>g</sup><sup>h</sup><sup>i</sup>which is Christ.
+<sup>16</sup> Now the promises were spoken to Abraham and to his offspring.<sup>g</sup> He doesn’t say, “To descendants<sup>h</sup> ”, as of many, but as of one, “To your offspring”,<sup>i</sup> which is Christ.
 <sup>17</sup> Now I say this: A covenant confirmed beforehand by God in Christ, the law, which came four hundred thirty years after, does not annul, so as to make the promise of no effect.
 <sup>18</sup> For if the inheritance is of the law, it is no more of promise; but God has granted it to Abraham by promise.
 
@@ -113,7 +113,7 @@
 <sup>3</sup> So we also, when we were children, were held in bondage under the elemental principles of the world.
 <sup>4</sup> But when the fullness of the time came, God sent out his Son, born to a woman, born under the law,
 <sup>5</sup> that he might redeem those who were under the law, that we might receive the adoption as children.
-<sup>6</sup> <sup>a</sup>Father!”
+<sup>6</sup> And because you are children, God sent out the Spirit of his Son into your hearts, crying, “Abba,<sup>a</sup> Father!”
 <sup>7</sup> So you are no longer a bondservant, but a son; and if a son, then an heir of God through Christ.
 
 <sup>8</sup> However at that time, not knowing God, you were in bondage to those who by nature are not gods.
@@ -139,11 +139,11 @@
 <sup>24</sup> These things contain an allegory, for these are two covenants. One is from Mount Sinai, bearing children to bondage, which is Hagar.
 <sup>25</sup> For this Hagar is Mount Sinai in Arabia, and answers to the Jerusalem that exists now, for she is in bondage with her children.
 <sup>26</sup> But the Jerusalem that is above is free, which is the mother of us all.
-<sup>27</sup> For it is written, <br>“Rejoice, you barren who don’t bear. <br>Break out and shout, you who don’t travail. <br><sup>b</sup>
+<sup>27</sup> For it is written, <br>“Rejoice, you barren who don’t bear. <br>Break out and shout, you who don’t travail. <br>For the desolate women have more children than her who has a husband.”<sup>b</sup>
 
 <sup>28</sup> Now we, brothers, as Isaac was, are children of promise.
 <sup>29</sup> But as then, he who was born according to the flesh persecuted him who was born according to the Spirit, so also it is now.
-<sup>30</sup> <sup>c</sup>
+<sup>30</sup> However, what does the Scripture say? “Throw out the servant and her son, for the son of the servant will not inherit with the son of the free woman.”<sup>c</sup>
 <sup>31</sup> So then, brothers, we are not children of a servant, but of the free woman.
 
 > - <sup>a</sup> 6. Abba is a Greek spelling for the Aramaic word for “Father” or “Daddy” used in a familiar, respectful, and loving way.
@@ -169,7 +169,7 @@
 <sup>12</sup> I wish that those who disturb you would cut themselves off.
 
 <sup>13</sup> For you, brothers, were called for freedom. Only don’t use your freedom as an opportunity for the flesh, but through love be servants to one another.
-<sup>14</sup> <sup>a</sup>
+<sup>14</sup> For the whole law is fulfilled in one word, in this: “You shall love your neighbor as yourself.”<sup>a</sup>
 <sup>15</sup> But if you bite and devour one another, be careful that you don’t consume one another.
 
 <sup>16</sup> But I say, walk by the Spirit, and you won’t fulfill the lust of the flesh.
@@ -179,7 +179,7 @@
 <sup>20</sup> idolatry, sorcery, hatred, strife, jealousies, outbursts of anger, rivalries, divisions, heresies,
 <sup>21</sup> envy, murders, drunkenness, orgies, and things like these; of which I forewarn you, even as I also forewarned you, that those who practice such things will not inherit God’s Kingdom.
 
-<sup>22</sup> <sup>b</sup>
+<sup>22</sup> But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith,<sup>b</sup>
 <sup>23</sup> gentleness, and self-control. Against such things there is no law.
 <sup>24</sup> Those who belong to Christ have crucified the flesh with its passions and lusts.
 

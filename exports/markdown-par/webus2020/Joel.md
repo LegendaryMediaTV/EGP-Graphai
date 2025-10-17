@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>word that came to Joel, the son of Pethuel. <br>
+<sup>1</sup> Yahweh’s<sup>a</sup> word that came to Joel, the son of Pethuel. <br>
 <sup>2</sup> Hear this, you elders, <br>and listen, all you inhabitants of the land! <br>Has this ever happened in your days, <br>or in the days of your fathers? <br>
 <sup>3</sup> Tell your children about it, <br>and have your children tell their children, <br>and their children, another generation. <br>
 <sup>4</sup> What the swarming locust has left, the great locust has eaten. <br>What the great locust has left, the grasshopper has eaten. <br>What the grasshopper has left, the caterpillar has eaten. <br>
@@ -12,7 +12,7 @@
 <sup>10</sup> The field is laid waste. <br>The land mourns, for the grain is destroyed, <br>The new wine has dried up, <br>and the oil languishes. <br>
 <sup>11</sup> Be confounded, you farmers! <br>Wail, you vineyard keepers, <br>for the wheat and for the barley; <br>for the harvest of the field has perished. <br>
 <sup>12</sup> The vine has dried up, and the fig tree withered— <br>the pomegranate tree, the palm tree also, and the apple tree, <br>even all of the trees of the field are withered; <br>for joy has withered away from the sons of men. <br>
-<sup>13</sup> Put on sackcloth and mourn, you priests! <br>Wail, you ministers of the altar. <br><sup>b</sup><br>for the meal offering and the drink offering are withheld from your God’s house. <br>
+<sup>13</sup> Put on sackcloth and mourn, you priests! <br>Wail, you ministers of the altar. <br>Come, lie all night in sackcloth, you ministers of my God,<sup>b</sup> <br>for the meal offering and the drink offering are withheld from your God’s house. <br>
 <sup>14</sup> Sanctify a fast. <br>Call a solemn assembly. <br>Gather the elders and all the inhabitants of the land to the house of Yahweh, your God, <br>and cry to Yahweh. <br>
 <sup>15</sup> Alas for the day! <br>For the day of Yahweh is at hand, <br>and it will come as destruction from the Almighty. <br>
 <sup>16</sup> Isn’t the food cut off before our eyes, <br>joy and gladness from the house of our God? <br>
@@ -44,7 +44,7 @@
 <sup>16</sup> Gather the people. <br>Sanctify the assembly. <br>Assemble the elders. <br>Gather the children, and those who nurse from breasts. <br>Let the bridegroom go out of his room, <br>and the bride out of her chamber. <br>
 <sup>17</sup> Let the priests, the ministers of Yahweh, weep between the porch and the altar, <br>and let them say, “Spare your people, Yahweh, <br>and don’t give your heritage to reproach, <br>that the nations should rule over them. <br>Why should they say among the peoples, <br>‘Where is their God?’ ” <br>
 <sup>18</sup> Then Yahweh was jealous for his land, <br>and had pity on his people. <br>
-<sup>19</sup> Yahweh answered his people, <br><sup>a</sup>I will send you grain, new wine, and oil, <br>and you will be satisfied with them; <br>and I will no more make you a reproach among the nations. <br>
+<sup>19</sup> Yahweh answered his people, <br>“Behold,<sup>a</sup> I will send you grain, new wine, and oil, <br>and you will be satisfied with them; <br>and I will no more make you a reproach among the nations. <br>
 <sup>20</sup> But I will remove the northern army far away from you, <br>and will drive it into a barren and desolate land, <br>its front into the eastern sea, <br>and its back into the western sea; <br>and its stench will come up, <br>and its bad smell will rise.” <br>Surely he has done great things. <br>
 <sup>21</sup> Land, don’t be afraid. <br>Be glad and rejoice, for Yahweh has done great things. <br>
 <sup>22</sup> Don’t be afraid, you animals of the field; <br>for the pastures of the wilderness spring up, <br>for the tree bears its fruit. <br>The fig tree and the vine yield their strength.

@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>word to Israel by Malachi.
+<sup>1</sup> A revelation, Yahweh’s<sup>a</sup> word to Israel by Malachi.
 
 <sup>2</sup> “I have loved you,” says Yahweh. Yet you say, “How have you loved us?” “Wasn’t Esau Jacob’s brother?” says Yahweh, “Yet I loved Jacob;
 <sup>3</sup> but Esau I hated, and made his mountains a desolation, and gave his heritage to the jackals of the wilderness.”
@@ -12,14 +12,14 @@
 <sup>7</sup> You offer polluted bread on my altar. You say, ‘How have we polluted you?’ In that you say, ‘Yahweh’s table is contemptible.’
 <sup>8</sup> When you offer the blind for sacrifice, isn’t that evil? And when you offer the lame and sick, isn’t that evil? Present it now to your governor! Will he be pleased with you? Or will he accept your person?” says Yahweh of Armies.
 
-<sup>9</sup> <sup>b</sup>that he may be gracious to us. With this, will he accept any of you?” says Yahweh of Armies.
+<sup>9</sup> “Now, please entreat the favor of God,<sup>b</sup> that he may be gracious to us. With this, will he accept any of you?” says Yahweh of Armies.
 
 <sup>10</sup> “Oh that there were one among you who would shut the doors, that you might not kindle fire on my altar in vain! I have no pleasure in you,” says Yahweh of Armies, “neither will I accept an offering at your hand.
 <sup>11</sup> For from the rising of the sun even to its going down, my name is great among the nations, and in every place incense will be offered to my name, and a pure offering; for my name is great among the nations,” says Yahweh of Armies.
 <sup>12</sup> “But you profane it when you say, ‘Yahweh’s table is polluted, and its fruit, even its food, is contemptible.’
-<sup>13</sup> <sup>c</sup>what a weariness it is!’ And you have sniffed at it”, says Yahweh of Armies; “and you have brought that which was taken by violence, the lame, and the sick; thus you bring the offering. Should I accept this at your hand?” says Yahweh.
+<sup>13</sup> You say also, ‘Behold,<sup>c</sup> what a weariness it is!’ And you have sniffed at it”, says Yahweh of Armies; “and you have brought that which was taken by violence, the lame, and the sick; thus you bring the offering. Should I accept this at your hand?” says Yahweh.
 
-<sup>14</sup> <sup>d</sup>a defective thing; for I am a great King,” says Yahweh of Armies, “and my name is awesome among the nations.”
+<sup>14</sup> “But the deceiver is cursed who has in his flock a male, and vows and sacrifices to the Lord<sup>d</sup> a defective thing; for I am a great King,” says Yahweh of Armies, “and my name is awesome among the nations.”
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 9. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
@@ -30,7 +30,7 @@
 
 <sup>1</sup> “Now, you priests, this commandment is for you.
 <sup>2</sup> If you will not listen, and if you will not take it to heart, to give glory to my name,” says Yahweh of Armies, “then I will send the curse on you, and I will curse your blessings. Indeed, I have cursed them already, because you do not take it to heart.
-<sup>3</sup> <sup>a</sup>and will spread dung on your faces, even the dung of your feasts; and you will be taken away with it.
+<sup>3</sup> Behold, I will rebuke your offspring,<sup>a</sup> and will spread dung on your faces, even the dung of your feasts; and you will be taken away with it.
 <sup>4</sup> You will know that I have sent this commandment to you, that my covenant may be with Levi,” says Yahweh of Armies.
 <sup>5</sup> “My covenant was with him of life and peace; and I gave them to him that he might be reverent toward me; and he was reverent toward me, and stood in awe of my name.
 <sup>6</sup> The law of truth was in his mouth, and unrighteousness was not found in his lips. He walked with me in peace and uprightness, and turned many away from iniquity.

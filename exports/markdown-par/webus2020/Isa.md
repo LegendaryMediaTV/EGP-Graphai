@@ -1,16 +1,16 @@
 ## Chapter 1
 
 <sup>1</sup> The vision of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah. <br>
-<sup>2</sup> Hear, heavens, <br><sup>a</sup>has spoken: <br>“I have nourished and brought up children <br>and they have rebelled against me. <br>
+<sup>2</sup> Hear, heavens, <br>and listen, earth; for Yahweh<sup>a</sup> has spoken: <br>“I have nourished and brought up children <br>and they have rebelled against me. <br>
 <sup>3</sup> The ox knows his owner, <br>and the donkey his master’s crib; <br>but Israel doesn’t know. <br>My people don’t consider.” <br>
-<sup>4</sup> Ah sinful nation, <br>a people loaded with iniquity, <br><sup>b</sup>of evildoers, <br>children who deal corruptly! <br>They have forsaken Yahweh. <br>They have despised the Holy One of Israel. <br>They are estranged and backward. <br>
+<sup>4</sup> Ah sinful nation, <br>a people loaded with iniquity, <br>offspring<sup>b</sup> of evildoers, <br>children who deal corruptly! <br>They have forsaken Yahweh. <br>They have despised the Holy One of Israel. <br>They are estranged and backward. <br>
 <sup>5</sup> Why should you be beaten more, <br>that you revolt more and more? <br>The whole head is sick, <br>and the whole heart faint. <br>
 <sup>6</sup> From the sole of the foot even to the head there is no soundness in it, <br>but wounds, welts, and open sores. <br>They haven’t been closed, bandaged, or soothed with oil. <br>
 <sup>7</sup> Your country is desolate. <br>Your cities are burned with fire. <br>Strangers devour your land in your presence <br>and it is desolate, <br>as overthrown by strangers. <br>
 <sup>8</sup> The daughter of Zion is left like a shelter in a vineyard, <br>like a hut in a field of melons, <br>like a besieged city. <br>
 <sup>9</sup> Unless Yahweh of Armies had left to us a very small remnant, <br>we would have been as Sodom. <br>We would have been like Gomorrah.
 
-<sup>10</sup> Hear Yahweh’s word, you rulers of Sodom! <br><sup>c</sup>you people of Gomorrah! <br>
+<sup>10</sup> Hear Yahweh’s word, you rulers of Sodom! <br>Listen to the law of our God,<sup>c</sup> you people of Gomorrah! <br>
 <sup>11</sup> “What are the multitude of your sacrifices to me?”, says Yahweh. <br>“I have had enough of the burnt offerings of rams <br>and the fat of fed animals. <br>I don’t delight in the blood of bulls, <br>or of lambs, <br>or of male goats. <br>
 <sup>12</sup> When you come to appear before me, <br>who has required this at your hand, to trample my courts? <br>
 <sup>13</sup> Bring no more vain offerings. <br>Incense is an abomination to me. <br>New moons, Sabbaths, and convocations— <br>I can’t stand evil assemblies. <br>
@@ -27,8 +27,8 @@
 <sup>22</sup> Your silver has become dross, <br>your wine mixed with water. <br>
 <sup>23</sup> Your princes are rebellious and companions of thieves. <br>Everyone loves bribes and follows after rewards. <br>They don’t defend the fatherless, <br>neither does the cause of the widow come to them.
 
-<sup>24</sup> <sup>d</sup>Yahweh of Armies, <br>the Mighty One of Israel, says: <br>“Ah, I will get relief from my adversaries, <br>and avenge myself on my enemies. <br>
-<sup>25</sup> I will turn my hand on you, <br>thoroughly purge away your dross, <br><sup>e</sup><br>
+<sup>24</sup> Therefore the Lord,<sup>d</sup> Yahweh of Armies, <br>the Mighty One of Israel, says: <br>“Ah, I will get relief from my adversaries, <br>and avenge myself on my enemies. <br>
+<sup>25</sup> I will turn my hand on you, <br>thoroughly purge away your dross, <br>and will take away all your tin.<sup>e</sup> <br>
 <sup>26</sup> I will restore your judges as at the first, <br>and your counselors as at the beginning. <br>Afterward you shall be called ‘The city of righteousness, <br>a faithful town.’ <br>
 <sup>27</sup> Zion shall be redeemed with justice, <br>and her converts with righteousness. <br>
 <sup>28</sup> But the destruction of transgressors and sinners shall be together, <br>and those who forsake Yahweh shall be consumed. <br>
@@ -70,7 +70,7 @@
 <sup>22</sup> Stop trusting in man, whose breath is in his nostrils; <br>for of what account is he?
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>the Lord, Yahweh of Armies, takes away from Jerusalem and from Judah supply and support, <br>the whole supply of bread, <br>and the whole supply of water; <br>
+<sup>1</sup> For, behold,<sup>a</sup> the Lord, Yahweh of Armies, takes away from Jerusalem and from Judah supply and support, <br>the whole supply of bread, <br>and the whole supply of water; <br>
 <sup>2</sup> the mighty man, <br>the man of war, <br>the judge, <br>the prophet, <br>the diviner, <br>the elder, <br>
 <sup>3</sup> the captain of fifty, <br>the honorable man, <br>the counselor, <br>the skilled craftsman, <br>and the clever enchanter. <br>
 <sup>4</sup> I will give boys to be their princes, <br>and children shall rule over them. <br>
@@ -124,12 +124,12 @@
 
 <sup>8</sup> Woe to those who join house to house, <br>who lay field to field, until there is no room, <br>and you are made to dwell alone in the middle of the land! <br>
 <sup>9</sup> In my ears, Yahweh of Armies says: “Surely many houses will be desolate, <br>even great and beautiful, unoccupied. <br>
-<sup>10</sup> <sup>a</sup><sup>b</sup><br><sup>c</sup><sup>d</sup><br>
+<sup>10</sup> For ten acres<sup>a</sup> of vineyard shall yield one bath,<sup>b</sup> <br>and a homer<sup>c</sup> of seed shall yield an ephah.”<sup>d</sup> <br>
 <sup>11</sup> Woe to those who rise up early in the morning, that they may follow strong drink, <br>who stay late into the night, until wine inflames them! <br>
 <sup>12</sup> The harp, lyre, tambourine, and flute, with wine, are at their feasts; <br>but they don’t respect the work of Yahweh, <br>neither have they considered the operation of his hands.
 
 <sup>13</sup> Therefore my people go into captivity for lack of knowledge. <br>Their honorable men are famished, <br>and their multitudes are parched with thirst. <br>
-<sup>14</sup> <sup>e</sup>has enlarged its desire, <br>and opened its mouth without measure; <br>and their glory, their multitude, their pomp, and he who rejoices among them, descend into it. <br>
+<sup>14</sup> Therefore Sheol<sup>e</sup> has enlarged its desire, <br>and opened its mouth without measure; <br>and their glory, their multitude, their pomp, and he who rejoices among them, descend into it. <br>
 <sup>15</sup> So man is brought low, <br>mankind is humbled, <br>and the eyes of the arrogant ones are humbled; <br>
 <sup>16</sup> but Yahweh of Armies is exalted in justice, <br>and God the Holy One is sanctified in righteousness. <br>
 <sup>17</sup> Then the lambs will graze as in their pasture, <br>and strangers will eat the ruins of the rich.
@@ -195,7 +195,7 @@
 <sup>12</sup> But Ahaz said, “I won’t ask. I won’t tempt Yahweh.”
 
 <sup>13</sup> He said, “Listen now, house of David. Is it not enough for you to try the patience of men, that you will try the patience of my God also?
-<sup>14</sup> <sup>a</sup>
+<sup>14</sup> Therefore the Lord himself will give you a sign. Behold, the virgin will conceive, and bear a son, and shall call his name Immanuel.<sup>a</sup>
 <sup>15</sup> He shall eat butter and honey when he knows to refuse the evil and choose the good.
 <sup>16</sup> For before the child knows to refuse the evil and choose the good, the land whose two kings you abhor shall be forsaken.
 <sup>17</sup> Yahweh will bring on you, on your people, and on your father’s house days that have not come, from the day that Ephraim departed from Judah, even the king of Assyria.
@@ -208,7 +208,7 @@
 <sup>21</sup> It shall happen in that day that a man shall keep alive a young cow, and two sheep.
 <sup>22</sup> It shall happen, that because of the abundance of milk which they shall give he shall eat butter, for everyone will eat butter and honey that is left within the land.
 
-<sup>23</sup> <sup>b</sup>will be for briers and thorns.
+<sup>23</sup> It will happen in that day that every place where there were a thousand vines worth a thousand silver shekels,<sup>b</sup> will be for briers and thorns.
 <sup>24</sup> People will go there with arrows and with bow, because all the land will be briers and thorns.
 <sup>25</sup> All the hills that were cultivated with the hoe, you shall not come there for fear of briers and thorns; but it shall be for the sending out of oxen, and for sheep to tread on.”
 
@@ -217,7 +217,7 @@
 
 ## Chapter 8
 
-<sup>1</sup> <sup>a</sup>
+<sup>1</sup> Yahweh said to me, “Take a large tablet, and write on it with a man’s pen, ‘For Maher Shalal Hash Baz’;<sup>a</sup>
 <sup>2</sup> and I will take for myself faithful witnesses to testify: Uriah the priest, and Zechariah the son of Jeberechiah.”
 
 <sup>3</sup> I went to the prophetess, and she conceived, and bore a son. Then Yahweh said to me, “Call his name ‘Maher Shalal Hash Baz.’
@@ -386,14 +386,14 @@
 <sup>6</sup> who struck the peoples in wrath with a continual stroke, who ruled the nations in anger, with a persecution that no one restrained.
 <sup>7</sup> The whole earth is at rest, and is quiet. They break out in song.
 <sup>8</sup> Yes, the cypress trees rejoice with you, with the cedars of Lebanon, saying, “Since you are humbled, no lumberjack has come up against us.”
-<sup>9</sup> <sup>a</sup>from beneath has moved for you to meet you at your coming. It stirs up the departed spirits for you, even all the rulers of the earth. It has raised up from their thrones all the kings of the nations.
+<sup>9</sup> Sheol<sup>a</sup> from beneath has moved for you to meet you at your coming. It stirs up the departed spirits for you, even all the rulers of the earth. It has raised up from their thrones all the kings of the nations.
 <sup>10</sup> They all will answer and ask you, “Have you also become as weak as we are? Have you become like us?”
-<sup>11</sup> <sup>b</sup>with the sound of your stringed instruments. Maggots are spread out under you, and worms cover you.
+<sup>11</sup> Your pomp is brought down to Sheol,<sup>b</sup> with the sound of your stringed instruments. Maggots are spread out under you, and worms cover you.
 
 <sup>12</sup> How you have fallen from heaven, shining one, son of the dawn! How you are cut down to the ground, who laid the nations low!
 <sup>13</sup> You said in your heart, “I will ascend into heaven! I will exalt my throne above the stars of God! I will sit on the mountain of assembly, in the far north!
 <sup>14</sup> I will ascend above the heights of the clouds! I will make myself like the Most High!”
-<sup>15</sup> <sup>c</sup>to the depths of the pit.
+<sup>15</sup> Yet you shall be brought down to Sheol,<sup>c</sup> to the depths of the pit.
 <sup>16</sup> Those who see you will stare at you. They will ponder you, saying, “Is this the man who made the earth to tremble, who shook kingdoms,
 <sup>17</sup> who made the world like a wilderness, and overthrew its cities, who didn’t release his prisoners to their home?”
 
@@ -630,7 +630,7 @@
 <sup>4</sup> For you have been a stronghold to the poor, a stronghold to the needy in his distress, a refuge from the storm, a shade from the heat, when the blast of the dreaded ones is like a storm against the wall.
 <sup>5</sup> As the heat in a dry place you will bring down the noise of strangers; as the heat by the shade of a cloud, the song of the dreaded ones will be brought low.
 
-<sup>6</sup> <sup>a</sup>a feast of choice wines, of choice meat full of marrow, of well refined choice wines.
+<sup>6</sup> In this mountain, Yahweh of Armies will make all peoples a feast of choice meat,<sup>a</sup> a feast of choice wines, of choice meat full of marrow, of well refined choice wines.
 <sup>7</sup> He will destroy in this mountain the surface of the covering that covers all peoples, and the veil that is spread over all nations.
 <sup>8</sup> He has swallowed up death forever! The Lord Yahweh will wipe away tears from off all faces. He will take the reproach of his people away from off all the earth, for Yahweh has spoken it.
 
@@ -707,10 +707,10 @@
 <sup>13</sup> Therefore Yahweh’s word will be to them precept on precept, precept on precept; line on line, line on line; here a little, there a little; that they may go, fall backward, be broken, be snared, and be taken.
 
 <sup>14</sup> Therefore hear Yahweh’s word, you scoffers, that rule this people in Jerusalem:
-<sup>15</sup> <sup>a</sup>When the overflowing scourge passes through, it won’t come to us; for we have made lies our refuge, and we have hidden ourselves under falsehood.’ ”
+<sup>15</sup> “Because you have said, ‘We have made a covenant with death, and we are in agreement with Sheol.<sup>a</sup> When the overflowing scourge passes through, it won’t come to us; for we have made lies our refuge, and we have hidden ourselves under falsehood.’ ”
 <sup>16</sup> Therefore the Lord Yahweh says, “Behold, I lay in Zion for a foundation a stone, a tried stone, a precious cornerstone of a sure foundation. He who believes shall not act hastily.
 <sup>17</sup> I will make justice the measuring line, and righteousness the plumb line. The hail will sweep away the refuge of lies, and the waters will overflow the hiding place.
-<sup>18</sup> <sup>b</sup>shall not stand. When the overflowing scourge passes through, then you will be trampled down by it.
+<sup>18</sup> Your covenant with death shall be annulled, and your agreement with Sheol<sup>b</sup> shall not stand. When the overflowing scourge passes through, then you will be trampled down by it.
 <sup>19</sup> As often as it passes through, it will seize you; for morning by morning it will pass through, by day and by night; and it will be nothing but terror to understand the message.”
 <sup>20</sup> For the bed is too short to stretch out on, and the blanket is too narrow to wrap oneself in.
 <sup>21</sup> For Yahweh will rise up as on Mount Perazim. He will be angry as in the valley of Gibeon; that he may do his work, his unusual work, and bring to pass his act, his extraordinary act.
@@ -730,7 +730,7 @@
 ## Chapter 29
 
 <sup>1</sup> Woe to Ariel! Ariel, the city where David encamped! Add year to year; let the feasts come around;
-<sup>2</sup> <sup>a</sup>
+<sup>2</sup> then I will distress Ariel, and there will be mourning and lamentation. She shall be to me as an altar hearth.<sup>a</sup>
 <sup>3</sup> I will encamp against you all around you, and will lay siege against you with posted troops. I will raise siege works against you.
 <sup>4</sup> You will be brought down, and will speak out of the ground. Your speech will mumble out of the dust. Your voice will be as of one who has a familiar spirit, out of the ground, and your speech will whisper out of the dust.
 
@@ -887,7 +887,7 @@
 <sup>11</sup> But the pelican and the porcupine will possess it. <br>The owl and the raven will dwell in it. <br>He will stretch the line of confusion over it, <br>and the plumb line of emptiness. <br>
 <sup>12</sup> They shall call its nobles to the kingdom, but none shall be there; <br>and all its princes shall be nothing. <br>
 <sup>13</sup> Thorns will come up in its palaces, <br>nettles and thistles in its fortresses; <br>and it will be a habitation of jackals, <br>a court for ostriches. <br>
-<sup>14</sup> The wild animals of the desert will meet with the wolves, <br>and the wild goat will cry to his fellow. <br><sup>a</sup>shall settle there, <br>and shall find herself a place of rest. <br>
+<sup>14</sup> The wild animals of the desert will meet with the wolves, <br>and the wild goat will cry to his fellow. <br>Yes, the night creature<sup>a</sup> shall settle there, <br>and shall find herself a place of rest. <br>
 <sup>15</sup> The arrow snake will make her nest there, <br>and lay, hatch, and gather under her shade. <br>Yes, the kites will be gathered there, every one with her mate.
 
 <sup>16</sup> Search in the book of Yahweh, and read: <br>not one of these will be missing. <br>None will lack her mate. <br>For my mouth has commanded, <br>and his Spirit has gathered them. <br>
@@ -1001,7 +1001,7 @@
 <sup>8</sup> Behold, I will cause the shadow on the sundial, which has gone down on the sundial of Ahaz with the sun, to return backward ten steps.” ’ ” So the sun returned ten steps on the sundial on which it had gone down.
 
 <sup>9</sup> The writing of Hezekiah king of Judah, when he had been sick, and had recovered of his sickness: <br>
-<sup>10</sup> <sup>a</sup><br>I am deprived of the residue of my years.” <br>
+<sup>10</sup> I said, “In the middle of my life I go into the gates of Sheol.<sup>a</sup> <br>I am deprived of the residue of my years.” <br>
 <sup>11</sup> I said, “I won’t see Yah, <br>Yah in the land of the living. <br>I will see man no more with the inhabitants of the world. <br>
 <sup>12</sup> My dwelling is removed, <br>and is carried away from me like a shepherd’s tent. <br>I have rolled up my life like a weaver. <br>He will cut me off from the loom. <br>From day even to night you will make an end of me. <br>
 <sup>13</sup> I waited patiently until morning. <br>He breaks all my bones like a lion. <br>From day even to night you will make an end of me. <br>
@@ -1009,7 +1009,7 @@
 <sup>15</sup> What will I say? <br>He has both spoken to me, and himself has done it. <br>I will walk carefully all my years because of the anguish of my soul. <br>
 <sup>16</sup> Lord, men live by these things; <br>and my spirit finds life in all of them. <br>You restore me, and cause me to live. <br>
 <sup>17</sup> Behold, for peace I had great anguish, <br>but you have in love for my soul delivered it from the pit of corruption; <br>for you have cast all my sins behind your back. <br>
-<sup>18</sup> <sup>b</sup>can’t praise you. <br>Death can’t celebrate you. <br>Those who go down into the pit can’t hope for your truth. <br>
+<sup>18</sup> For Sheol<sup>b</sup> can’t praise you. <br>Death can’t celebrate you. <br>Those who go down into the pit can’t hope for your truth. <br>
 <sup>19</sup> The living, the living, he shall praise you, as I do today. <br>The father shall make known your truth to the children. <br>
 <sup>20</sup> Yahweh will save me. <br>Therefore we will sing my songs with stringed instruments all the days of our life in Yahweh’s house.
 
@@ -1221,7 +1221,7 @@
 <sup>2</sup> “I will go before you <br>and make the rough places smooth. <br>I will break the doors of bronze in pieces <br>and cut apart the bars of iron. <br>
 <sup>3</sup> I will give you the treasures of darkness <br>and hidden riches of secret places, <br>that you may know that it is I, Yahweh, who calls you by your name, <br>even the God of Israel. <br>
 <sup>4</sup> For Jacob my servant’s sake, <br>and Israel my chosen, <br>I have called you by your name. <br>I have given you a title, <br>though you have not known me. <br>
-<sup>5</sup> I am Yahweh, and there is no one else. <br>Besides me, there is no God. <br><sup>a</sup>you, <br>though you have not known me, <br>
+<sup>5</sup> I am Yahweh, and there is no one else. <br>Besides me, there is no God. <br>I will strengthen<sup>a</sup> you, <br>though you have not known me, <br>
 <sup>6</sup> that they may know from the rising of the sun, <br>and from the west, <br>that there is no one besides me. <br>I am Yahweh, and there is no one else. <br>
 <sup>7</sup> I form the light <br>and create darkness. <br>I make peace <br>and create calamity. <br>I am Yahweh, <br>who does all these things.
 
@@ -1423,7 +1423,7 @@
 
 <sup>13</sup> Behold, my servant will deal wisely. <br>He will be exalted and lifted up, <br>and will be very high. <br>
 <sup>14</sup> Just as many were astonished at you— <br>his appearance was marred more than any man, and his form more than the sons of men— <br>
-<sup>15</sup> <sup>a</sup>many nations. <br>Kings will shut their mouths at him; <br>for they will see that which had not been told them, <br>and they will understand that which they had not heard.
+<sup>15</sup> so he will cleanse<sup>a</sup> many nations. <br>Kings will shut their mouths at him; <br>for they will see that which had not been told them, <br>and they will understand that which they had not heard.
 
 > - <sup>a</sup> 15. or, sprinkle
 
@@ -1442,7 +1442,7 @@
 <sup>9</sup> They made his grave with the wicked, <br>and with a rich man in his death, <br>although he had done no violence, <br>nor was any deceit in his mouth.
 
 <sup>10</sup> Yet it pleased Yahweh to bruise him. <br>He has caused him to suffer. <br>When you make his soul an offering for sin, <br>he will see his offspring. <br>He will prolong his days <br>and Yahweh’s pleasure will prosper in his hand. <br>
-<sup>11</sup> After the suffering of his soul, <br><sup>a</sup>and be satisfied. <br>My righteous servant will justify many by the knowledge of himself; <br>and he will bear their iniquities. <br>
+<sup>11</sup> After the suffering of his soul, <br>he will see the light<sup>a</sup> and be satisfied. <br>My righteous servant will justify many by the knowledge of himself; <br>and he will bear their iniquities. <br>
 <sup>12</sup> Therefore I will give him a portion with the great. <br>He will divide the plunder with the strong, <br>because he poured out his soul to death <br>and was counted with the transgressors; <br>yet he bore the sins of many <br>and made intercession for the transgressors.
 
 > - <sup>a</sup> 11. So read the Dead Sea Scrolls and Septuagint. Masoretic Text omits “the light”.
@@ -1517,7 +1517,7 @@
 <sup>6</sup> Among the smooth stones of the valley is your portion. <br>They, they are your lot. <br>You have even poured a drink offering to them. <br>You have offered an offering. <br>Shall I be appeased for these things? <br>
 <sup>7</sup> On a high and lofty mountain you have set your bed. <br>You also went up there to offer sacrifice. <br>
 <sup>8</sup> You have set up your memorial behind the doors and the posts, <br>for you have exposed yourself to someone besides me, <br>and have gone up. <br>You have enlarged your bed <br>and made you a covenant with them. <br>You loved what you saw on their bed. <br>
-<sup>9</sup> You went to the king with oil, <br>increased your perfumes, <br>sent your ambassadors far off, <br><sup>a</sup><br>
+<sup>9</sup> You went to the king with oil, <br>increased your perfumes, <br>sent your ambassadors far off, <br>and degraded yourself even to Sheol.<sup>a</sup> <br>
 <sup>10</sup> You were wearied with the length of your ways; <br>yet you didn’t say, ‘It is in vain.’ <br>You found a reviving of your strength; <br>therefore you weren’t faint.
 
 <sup>11</sup> “Whom have you dreaded and feared, <br>so that you lie, <br>and have not remembered me, nor laid it to your heart? <br>Haven’t I held my peace for a long time, <br>and you don’t fear me? <br>
@@ -1611,7 +1611,7 @@
 <sup>22</sup> The little one will become a thousand, <br>and the small one a strong nation. <br>I, Yahweh, will do this quickly in its time.”
 ## Chapter 61
 
-<sup>1</sup> The Lord Yahweh’s Spirit is on me, <br>because Yahweh has anointed me to preach good news to the humble. <br>He has sent me to bind up the broken hearted, <br>to proclaim liberty to the captives <br><sup>a</sup><br>
+<sup>1</sup> The Lord Yahweh’s Spirit is on me, <br>because Yahweh has anointed me to preach good news to the humble. <br>He has sent me to bind up the broken hearted, <br>to proclaim liberty to the captives <br>and release to those who are bound,<sup>a</sup> <br>
 <sup>2</sup> to proclaim the year of Yahweh’s favor <br>and the day of vengeance of our God, <br>to comfort all who mourn, <br>
 <sup>3</sup> to provide for those who mourn in Zion, <br>to give to them a garland for ashes, <br>the oil of joy for mourning, <br>the garment of praise for the spirit of heaviness, <br>that they may be called trees of righteousness, <br>the planting of Yahweh, <br>that he may be glorified.
 
@@ -1632,7 +1632,7 @@
 <sup>1</sup> For Zion’s sake I will not hold my peace, <br>and for Jerusalem’s sake I will not rest, <br>until her righteousness shines out like the dawn, <br>and her salvation like a burning lamp. <br>
 <sup>2</sup> The nations will see your righteousness, <br>and all kings your glory. <br>You will be called by a new name, <br>which Yahweh’s mouth will name. <br>
 <sup>3</sup> You will also be a crown of beauty in Yahweh’s hand, <br>and a royal diadem in your God’s hand. <br>
-<sup>4</sup> You will not be called Forsaken any more, <br>nor will your land be called Desolate any more; <br><sup>a</sup><br><sup>b</sup><br>for Yahweh delights in you, <br>and your land will be married. <br>
+<sup>4</sup> You will not be called Forsaken any more, <br>nor will your land be called Desolate any more; <br>but you will be called Hephzibah,<sup>a</sup> <br>and your land Beulah;<sup>b</sup> <br>for Yahweh delights in you, <br>and your land will be married. <br>
 <sup>5</sup> For as a young man marries a virgin, <br>so your sons will marry you. <br>As a bridegroom rejoices over his bride, <br>so your God will rejoice over you.
 
 <sup>6</sup> I have set watchmen on your walls, Jerusalem. <br>They will never be silent day nor night. <br>You who call on Yahweh, take no rest, <br>

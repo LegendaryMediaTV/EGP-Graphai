@@ -1,12 +1,12 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>and turned away from evil.
+<sup>1</sup> There was a man in the land of Uz, whose name was Job. That man was blameless and upright, and one who feared God,<sup>a</sup> and turned away from evil.
 <sup>2</sup> There were born to him seven sons and three daughters.
 <sup>3</sup> His possessions also were seven thousand sheep, three thousand camels, five hundred yoke of oxen, five hundred female donkeys, and a very great household; so that this man was the greatest of all the children of the east.
 <sup>4</sup> His sons went and held a feast in the house of each one on his birthday; and they sent and called for their three sisters to eat and to drink with them.
 <sup>5</sup> It was so, when the days of their feasting had run their course, that Job sent and sanctified them, and rose up early in the morning, and offered burnt offerings according to the number of them all. For Job said, “It may be that my sons have sinned, and renounced God in their hearts.” Job did so continually.
 
-<sup>6</sup> <sup>b</sup>Satan also came among them.
+<sup>6</sup> Now on the day when God’s sons came to present themselves before Yahweh,<sup>b</sup> Satan also came among them.
 <sup>7</sup> Yahweh said to Satan, “Where have you come from?” Then Satan answered Yahweh, and said, “From going back and forth in the earth, and from walking up and down in it.”
 
 <sup>8</sup> Yahweh said to Satan, “Have you considered my servant, Job? For there is no one like him in the earth, a blameless and an upright man, one who fears God, and turns away from evil.”
@@ -15,7 +15,7 @@
 <sup>10</sup> Haven’t you made a hedge around him, and around his house, and around all that he has, on every side? You have blessed the work of his hands, and his substance is increased in the land.
 <sup>11</sup> But stretch out your hand now, and touch all that he has, and he will renounce you to your face.”
 
-<sup>12</sup> <sup>c</sup>all that he has is in your power. Only on himself don’t stretch out your hand.” So Satan went out from the presence of Yahweh.
+<sup>12</sup> Yahweh said to Satan, “Behold,<sup>c</sup> all that he has is in your power. Only on himself don’t stretch out your hand.” So Satan went out from the presence of Yahweh.
 <sup>13</sup> It fell on a day when his sons and his daughters were eating and drinking wine in their oldest brother’s house,
 <sup>14</sup> that a messenger came to Job, and said, “The oxen were plowing, and the donkeys feeding beside them,
 <sup>15</sup> and the Sabeans attacked, and took them away. Yes, they have killed the servants with the edge of the sword, and I alone have escaped to tell you.”
@@ -138,7 +138,7 @@
 <sup>22</sup> You will laugh at destruction and famine, <br>neither will you be afraid of the animals of the earth. <br>
 <sup>23</sup> For you will be allied with the stones of the field. <br>The animals of the field will be at peace with you. <br>
 <sup>24</sup> You will know that your tent is in peace. <br>You will visit your fold, and will miss nothing. <br>
-<sup>25</sup> <sup>a</sup>will be great, <br>your offspring as the grass of the earth. <br>
+<sup>25</sup> You will know also that your offspring<sup>a</sup> will be great, <br>your offspring as the grass of the earth. <br>
 <sup>26</sup> You will come to your grave in a full age, <br>like a shock of grain comes in its season. <br>
 <sup>27</sup> Behold, we have researched it. It is so. <br>Hear it, and know it for your good.”
 
@@ -189,7 +189,7 @@
 <sup>6</sup> My days are swifter than a weaver’s shuttle, <br>and are spent without hope. <br>
 <sup>7</sup> Oh remember that my life is a breath. <br>My eye will no more see good. <br>
 <sup>8</sup> The eye of him who sees me will see me no more. <br>Your eyes will be on me, but I will not be. <br>
-<sup>9</sup> As the cloud is consumed and vanishes away, <br><sup>a</sup>will come up no more. <br>
+<sup>9</sup> As the cloud is consumed and vanishes away, <br>so he who goes down to Sheol<sup>a</sup> will come up no more. <br>
 <sup>10</sup> He will return no more to his house, <br>neither will his place know him any more.
 
 <sup>11</sup> “Therefore I will not keep silent. <br>I will speak in the anguish of my spirit. <br>I will complain in the bitterness of my soul. <br>
@@ -309,7 +309,7 @@
 <sup>6</sup> that he would show you the secrets of wisdom! <br>For true wisdom has two sides. <br>Know therefore that God exacts of you less than your iniquity deserves.
 
 <sup>7</sup> “Can you fathom the mystery of God? <br>Or can you probe the limits of the Almighty? <br>
-<sup>8</sup> They are high as heaven. What can you do? <br><sup>a</sup>What can you know? <br>
+<sup>8</sup> They are high as heaven. What can you do? <br>They are deeper than Sheol.<sup>a</sup> What can you know? <br>
 <sup>9</sup> Its measure is longer than the earth, <br>and broader than the sea. <br>
 <sup>10</sup> If he passes by, or confines, <br>or convenes a court, then who can oppose him? <br>
 <sup>11</sup> For he knows false men. <br>He sees iniquity also, even though he doesn’t consider it. <br>
@@ -404,7 +404,7 @@
 <sup>11</sup> As the waters fail from the sea, <br>and the river wastes and dries up, <br>
 <sup>12</sup> so man lies down and doesn’t rise. <br>Until the heavens are no more, they will not awake, <br>nor be roused out of their sleep.
 
-<sup>13</sup> <sup>a</sup><br>that you would keep me secret until your wrath is past, <br>that you would appoint me a set time and remember me! <br>
+<sup>13</sup> “Oh that you would hide me in Sheol,<sup>a</sup> <br>that you would keep me secret until your wrath is past, <br>that you would appoint me a set time and remember me! <br>
 <sup>14</sup> If a man dies, will he live again? <br>I would wait all the days of my warfare, <br>until my release should come. <br>
 <sup>15</sup> You would call, and I would answer you. <br>You would have a desire for the work of your hands. <br>
 <sup>16</sup> But now you count my steps. <br>Don’t you watch over my sin? <br>
@@ -499,10 +499,10 @@
 <sup>10</sup> But as for you all, come back. <br>I will not find a wise man among you. <br>
 <sup>11</sup> My days are past. <br>My plans are broken off, <br>as are the thoughts of my heart. <br>
 <sup>12</sup> They change the night into day, <br>saying ‘The light is near’ in the presence of darkness. <br>
-<sup>13</sup> <sup>a</sup>as my house, <br>if I have spread my couch in the darkness, <br>
+<sup>13</sup> If I look for Sheol<sup>a</sup> as my house, <br>if I have spread my couch in the darkness, <br>
 <sup>14</sup> if I have said to corruption, ‘You are my father,’ <br>and to the worm, ‘My mother,’ and ‘My sister,’ <br>
 <sup>15</sup> where then is my hope? <br>As for my hope, who will see it? <br>
-<sup>16</sup> <sup>b</sup><br>or descend together into the dust?”
+<sup>16</sup> Shall it go down with me to the gates of Sheol,<sup>b</sup> <br>or descend together into the dust?”
 
 > - <sup>a</sup> 13. Sheol is the place of the dead.
 > - <sup>b</sup> 16. Sheol is the place of the dead.
@@ -614,7 +614,7 @@
 <sup>10</sup> Their bulls breed without fail. <br>Their cows calve, and don’t miscarry. <br>
 <sup>11</sup> They send out their little ones like a flock. <br>Their children dance. <br>
 <sup>12</sup> They sing to the tambourine and harp, <br>and rejoice at the sound of the pipe. <br>
-<sup>13</sup> They spend their days in prosperity. <br><sup>a</sup><br>
+<sup>13</sup> They spend their days in prosperity. <br>In an instant they go down to Sheol.<sup>a</sup> <br>
 <sup>14</sup> They tell God, ‘Depart from us, <br>for we don’t want to know about your ways. <br>
 <sup>15</sup> What is the Almighty, that we should serve him? <br>What profit should we have, if we pray to him?’ <br>
 <sup>16</sup> Behold, their prosperity is not in their hand. <br>The counsel of the wicked is far from me.
@@ -719,7 +719,7 @@
 <sup>17</sup> For the morning is to all of them like thick darkness, <br>for they know the terrors of the thick darkness.
 
 <sup>18</sup> “They are foam on the surface of the waters. <br>Their portion is cursed in the earth. <br>They don’t turn into the way of the vineyards. <br>
-<sup>19</sup> Drought and heat consume the snow waters, <br><sup>a</sup>those who have sinned. <br>
+<sup>19</sup> Drought and heat consume the snow waters, <br>so does Sheol<sup>a</sup> those who have sinned. <br>
 <sup>20</sup> The womb will forget him. <br>The worm will feed sweetly on him. <br>He will be no more remembered. <br>Unrighteousness will be broken as a tree. <br>
 <sup>21</sup> He devours the barren who don’t bear. <br>He shows no kindness to the widow. <br>
 <sup>22</sup> Yet God preserves the mighty by his power. <br>He rises up who has no assurance of life. <br>
@@ -745,7 +745,7 @@
 <sup>4</sup> To whom have you uttered words? <br>Whose spirit came out of you?
 
 <sup>5</sup> “The departed spirits tremble, <br>those beneath the waters and all that live in them. <br>
-<sup>6</sup> <sup>a</sup>is naked before God, <br><sup>b</sup>has no covering. <br>
+<sup>6</sup> Sheol<sup>a</sup> is naked before God, <br>and Abaddon<sup>b</sup> has no covering. <br>
 <sup>7</sup> He stretches out the north over empty space, <br>and hangs the earth on nothing. <br>
 <sup>8</sup> He binds up the waters in his thick clouds, <br>and the cloud is not burst under them. <br>
 <sup>9</sup> He encloses the face of his throne, <br>and spreads his cloud on it. <br>
@@ -804,7 +804,7 @@
 <sup>13</sup> Man doesn’t know its price, <br>and it isn’t found in the land of the living. <br>
 <sup>14</sup> The deep says, ‘It isn’t in me.’ <br>The sea says, ‘It isn’t with me.’ <br>
 <sup>15</sup> It can’t be gotten for gold, <br>neither will silver be weighed for its price. <br>
-<sup>16</sup> It can’t be valued with the gold of Ophir, <br><sup>a</sup><br>
+<sup>16</sup> It can’t be valued with the gold of Ophir, <br>with the precious onyx, or the sapphire.<sup>a</sup> <br>
 <sup>17</sup> Gold and glass can’t equal it, <br>neither will it be exchanged for jewels of fine gold. <br>
 <sup>18</sup> No mention will be made of coral or of crystal. <br>Yes, the price of wisdom is above rubies. <br>
 <sup>19</sup> The topaz of Ethiopia will not equal it. <br>It won’t be valued with pure gold. <br>
@@ -817,7 +817,7 @@
 <sup>25</sup> He establishes the force of the wind. <br>Yes, he measures out the waters by measure. <br>
 <sup>26</sup> When he made a decree for the rain, <br>and a way for the lightning of the thunder, <br>
 <sup>27</sup> then he saw it, and declared it. <br>He established it, yes, and searched it out. <br>
-<sup>28</sup> To man he said, <br><sup>b</sup>that is wisdom. <br>To depart from evil is understanding.’ ”
+<sup>28</sup> To man he said, <br>‘Behold, the fear of the Lord,<sup>b</sup> that is wisdom. <br>To depart from evil is understanding.’ ”
 
 > - <sup>a</sup> 16. or, lapis lazuli
 > - <sup>b</sup> 28. The word translated “Lord” is “Adonai.”
@@ -940,7 +940,7 @@
 
 <sup>6</sup> Elihu the son of Barachel the Buzite answered, <br>“I am young, and you are very old. <br>Therefore I held back, and didn’t dare show you my opinion. <br>
 <sup>7</sup> I said, ‘Days should speak, <br>and multitude of years should teach wisdom.’ <br>
-<sup>8</sup> But there is a spirit in man, <br><sup>a</sup>of the Almighty gives them understanding. <br>
+<sup>8</sup> But there is a spirit in man, <br>and the Spirit<sup>a</sup> of the Almighty gives them understanding. <br>
 <sup>9</sup> It is not the great who are wise, <br>nor the aged who understand justice. <br>
 <sup>10</sup> Therefore I said, ‘Listen to me; <br>I also will show my opinion.’
 
@@ -1251,7 +1251,7 @@
 <sup>24</sup> Shall any take him when he is on the watch, <br>or pierce through his nose with a snare?
 ## Chapter 41
 
-<sup>1</sup> <sup>a</sup>with a fish hook, <br>or press down his tongue with a cord? <br>
+<sup>1</sup> “Can you draw out Leviathan<sup>a</sup> with a fish hook, <br>or press down his tongue with a cord? <br>
 <sup>2</sup> Can you put a rope into his nose, <br>or pierce his jaw through with a hook? <br>
 <sup>3</sup> Will he make many petitions to you, <br>or will he speak soft words to you? <br>
 <sup>4</sup> Will he make a covenant with you, <br>that you should take him for a servant forever? <br>
@@ -1306,7 +1306,7 @@
 <sup>9</sup> So Eliphaz the Temanite and Bildad the Shuhite and Zophar the Naamathite went and did what Yahweh commanded them, and Yahweh accepted Job.
 
 <sup>10</sup> Yahweh restored Job’s prosperity when he prayed for his friends. Yahweh gave Job twice as much as he had before.
-<sup>11</sup> <sup>a</sup>and everyone a ring of gold.
+<sup>11</sup> Then all his brothers, all his sisters, and all those who had been of his acquaintance before, came to him and ate bread with him in his house. They comforted him, and consoled him concerning all the evil that Yahweh had brought on him. Everyone also gave him a piece of money,<sup>a</sup> and everyone a ring of gold.
 
 <sup>12</sup> So Yahweh blessed the latter end of Job more than his beginning. He had fourteen thousand sheep, six thousand camels, one thousand yoke of oxen, and a thousand female donkeys.
 <sup>13</sup> He had also seven sons and three daughters.

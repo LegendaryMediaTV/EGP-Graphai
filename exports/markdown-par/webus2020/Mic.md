@@ -1,8 +1,8 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>word that came to Micah of Morasheth in the days of Jotham, Ahaz, and Hezekiah, kings of Judah, which he saw concerning Samaria and Jerusalem. <br>
-<sup>2</sup> Hear, you peoples, all of you! <br>Listen, O earth, and all that is therein. <br><sup>b</sup>Yahweh be witness against you, <br>the Lord from his holy temple. <br>
-<sup>3</sup> <sup>c</sup>Yahweh comes out of his place, <br>and will come down and tread on the high places of the earth. <br>
+<sup>1</sup> Yahweh’s<sup>a</sup> word that came to Micah of Morasheth in the days of Jotham, Ahaz, and Hezekiah, kings of Judah, which he saw concerning Samaria and Jerusalem. <br>
+<sup>2</sup> Hear, you peoples, all of you! <br>Listen, O earth, and all that is therein. <br>Let the Lord<sup>b</sup> Yahweh be witness against you, <br>the Lord from his holy temple. <br>
+<sup>3</sup> For behold,<sup>c</sup> Yahweh comes out of his place, <br>and will come down and tread on the high places of the earth. <br>
 <sup>4</sup> The mountains melt under him, <br>and the valleys split apart like wax before the fire, <br>like waters that are poured down a steep place.
 
 <sup>5</sup> “All this is for the disobedience of Jacob, <br>and for the sins of the house of Israel. <br>What is the disobedience of Jacob? <br>Isn’t it Samaria? <br>And what are the high places of Judah? <br>Aren’t they Jerusalem? <br>
@@ -11,7 +11,7 @@
 
 <sup>8</sup> For this I will lament and wail. <br>I will go stripped and naked. <br>I will howl like the jackals <br>and mourn like the ostriches. <br>
 <sup>9</sup> For her wounds are incurable; <br>for it has come even to Judah. <br>It reaches to the gate of my people, <br>even to Jerusalem. <br>
-<sup>10</sup> Don’t tell it in Gath. <br>Don’t weep at all. <br><sup>d</sup>I have rolled myself in the dust. <br>
+<sup>10</sup> Don’t tell it in Gath. <br>Don’t weep at all. <br>At Beth Ophrah<sup>d</sup> I have rolled myself in the dust. <br>
 <sup>11</sup> Pass on, inhabitant of Shaphir, in nakedness and shame. <br>The inhabitant of Zaanan won’t come out. <br>The wailing of Beth Ezel will take from you his protection. <br>
 <sup>12</sup> For the inhabitant of Maroth waits anxiously for good, <br>because evil has come down from Yahweh to the gate of Jerusalem. <br>
 <sup>13</sup> Harness the chariot to the swift steed, inhabitant of Lachish. <br>She was the beginning of sin to the daughter of Zion; <br>for the transgressions of Israel were found in you. <br>
@@ -48,7 +48,7 @@
 
 <sup>5</sup> Yahweh says concerning the prophets who lead my people astray—for those who feed their teeth, they proclaim, “Peace!” and whoever doesn’t provide for their mouths, they prepare war against him: <br>
 <sup>6</sup> “Therefore night is over you, with no vision, <br>and it is dark to you, that you may not divine; <br>and the sun will go down on the prophets, <br>and the day will be black over them. <br>
-<sup>7</sup> The seers shall be disappointed, <br>and the diviners confounded. <br>Yes, they shall all cover their lips, <br><sup>a</sup><br>
+<sup>7</sup> The seers shall be disappointed, <br>and the diviners confounded. <br>Yes, they shall all cover their lips, <br>for there is no answer from God.”<sup>a</sup> <br>
 <sup>8</sup> But as for me, I am full of power by Yahweh’s Spirit, <br>and of judgment, and of might, <br>to declare to Jacob his disobedience, <br>and to Israel his sin. <br>
 <sup>9</sup> Please listen to this, you heads of the house of Jacob, <br>and rulers of the house of Israel, <br>who abhor justice, <br>and pervert all equity, <br>
 <sup>10</sup> who build up Zion with blood, <br>and Jerusalem with iniquity. <br>
@@ -104,7 +104,7 @@
 <sup>8</sup> He has shown you, O man, what is good. <br>What does Yahweh require of you, but to act justly, <br>to love mercy, and to walk humbly with your God?
 
 <sup>9</sup> Yahweh’s voice calls to the city— <br>and wisdom fears your name— <br>“Listen to the rod, <br>and he who appointed it. <br>
-<sup>10</sup> Are there yet treasures of wickedness in the house of the wicked, <br><sup>a</sup>that is accursed? <br>
+<sup>10</sup> Are there yet treasures of wickedness in the house of the wicked, <br>and a short ephah<sup>a</sup> that is accursed? <br>
 <sup>11</sup> Shall I tolerate dishonest scales, <br>and a bag of deceitful weights? <br>
 <sup>12</sup> Her rich men are full of violence, <br>her inhabitants speak lies, <br>and their tongue is deceitful in their speech. <br>
 <sup>13</sup> Therefore I also have struck you with a grievous wound. <br>I have made you desolate because of your sins. <br>

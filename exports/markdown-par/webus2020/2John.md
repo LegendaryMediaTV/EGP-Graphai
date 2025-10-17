@@ -2,7 +2,7 @@
 
 <sup>1</sup> The elder, to the chosen lady and her children, whom I love in truth, and not I only, but also all those who know the truth,
 <sup>2</sup> for the truth’s sake, which remains in us, and it will be with us forever:
-<sup>3</sup> <sup>a</sup>the Son of the Father, in truth and love.
+<sup>3</sup> Grace, mercy, and peace will be with us, from God the Father and from the Lord Jesus Christ,<sup>a</sup> the Son of the Father, in truth and love.
 
 <sup>4</sup> I rejoice greatly that I have found some of your children walking in truth, even as we have been commanded by the Father.
 <sup>5</sup> Now I beg you, dear lady, not as though I wrote to you a new commandment, but that which we had from the beginning, that we love one another.

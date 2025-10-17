@@ -2,7 +2,7 @@
 
 <sup>1</sup> That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life
 <sup>2</sup> (and the life was revealed, and we have seen, and testify, and declare to you the life, the eternal life, which was with the Father, and was revealed to us);
-<sup>3</sup> <sup>a</sup>
+<sup>3</sup> that which we have seen and heard we declare to you, that you also may have fellowship with us. Yes, and our fellowship is with the Father and with his Son, Jesus Christ.<sup>a</sup>
 <sup>4</sup> And we write these things to you, that our joy may be fulfilled.
 
 <sup>5</sup> This is the message which we have heard from him and announce to you, that God is light, and in him is no darkness at all.
@@ -16,8 +16,8 @@
 
 ## Chapter 2
 
-<sup>1</sup> <sup>a</sup>with the Father, Jesus Christ, the righteous.
-<sup>2</sup> <sup>b</sup>for our sins, and not for ours only, but also for the whole world.
+<sup>1</sup> My little children, I write these things to you so that you may not sin. If anyone sins, we have a Counselor<sup>a</sup> with the Father, Jesus Christ, the righteous.
+<sup>2</sup> And he is the atoning sacrifice<sup>b</sup> for our sins, and not for ours only, but also for the whole world.
 <sup>3</sup> This is how we know that we know him: if we keep his commandments.
 <sup>4</sup> One who says, “I know him,” and doesn’t keep his commandments, is a liar, and the truth isn’t in him.
 <sup>5</sup> But God’s love has most certainly been perfected in whoever keeps his word. This is how we know that we are in him:
@@ -41,7 +41,7 @@
 
 <sup>18</sup> Little children, these are the end times, and as you heard that the Antichrist is coming, even now many antichrists have arisen. By this we know that it is the final hour.
 <sup>19</sup> They went out from us, but they didn’t belong to us; for if they had belonged to us, they would have continued with us. But they left, that they might be revealed that none of them belong to us.
-<sup>20</sup> <sup>c</sup>
+<sup>20</sup> You have an anointing from the Holy One, and you all have knowledge.<sup>c</sup>
 <sup>21</sup> I have not written to you because you don’t know the truth, but because you know it, and because no lie is of the truth.
 <sup>22</sup> Who is the liar but he who denies that Jesus is the Christ? This is the Antichrist, he who denies the Father and the Son.
 <sup>23</sup> Whoever denies the Son doesn’t have the Father. He who confesses the Son has the Father also.
@@ -101,8 +101,8 @@
 
 <sup>7</sup> Beloved, let’s love one another, for love is of God; and everyone who loves has been born of God and knows God.
 <sup>8</sup> He who doesn’t love doesn’t know God, for God is love.
-<sup>9</sup> <sup>a</sup>Son into the world that we might live through him.
-<sup>10</sup> <sup>b</sup>for our sins.
+<sup>9</sup> By this God’s love was revealed in us, that God has sent his only born<sup>a</sup> Son into the world that we might live through him.
+<sup>10</sup> In this is love, not that we loved God, but that he loved us, and sent his Son as the atoning sacrifice<sup>b</sup> for our sins.
 <sup>11</sup> Beloved, if God loved us in this way, we also ought to love one another.
 <sup>12</sup> No one has seen God at any time. If we love one another, God remains in us, and his love has been perfected in us.
 
@@ -112,7 +112,7 @@
 <sup>16</sup> We know and have believed the love which God has for us. God is love, and he who remains in love remains in God, and God remains in him.
 <sup>17</sup> In this, love has been made perfect among us, that we may have boldness in the day of judgment, because as he is, even so we are in this world.
 <sup>18</sup> There is no fear in love; but perfect love casts out fear, because fear has punishment. He who fears is not made perfect in love.
-<sup>19</sup> <sup>c</sup>because he first loved us.
+<sup>19</sup> We love him,<sup>c</sup> because he first loved us.
 <sup>20</sup> If a man says, “I love God,” and hates his brother, he is a liar; for he who doesn’t love his brother whom he has seen, how can he love God whom he has not seen?
 <sup>21</sup> This commandment we have from him, that he who loves God should also love his brother.
 
@@ -129,7 +129,7 @@
 <sup>5</sup> Who is he who overcomes the world, but he who believes that Jesus is the Son of God?
 
 <sup>6</sup> This is he who came by water and blood, Jesus Christ; not with the water only, but with the water and the blood. It is the Spirit who testifies, because the Spirit is the truth.
-<sup>7</sup> <sup>a</sup>
+<sup>7</sup> For there are three who testify:<sup>a</sup>
 <sup>8</sup> the Spirit, the water, and the blood; and the three agree as one.
 <sup>9</sup> If we receive the witness of men, the witness of God is greater; for this is God’s testimony which he has testified concerning his Son.
 <sup>10</sup> He who believes in the Son of God has the testimony in himself. He who doesn’t believe God has made him a liar, because he has not believed in the testimony that God has given concerning his Son.

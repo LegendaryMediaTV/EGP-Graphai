@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>word that came to Hosea the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.
+<sup>1</sup> Yahweh’s<sup>a</sup> word that came to Hosea the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.
 
 <sup>2</sup> When Yahweh spoke at first by Hosea, Yahweh said to Hosea, “Go, take for yourself a wife of prostitution and children of unfaithfulness; for the land commits great adultery, forsaking Yahweh.”
 
@@ -9,12 +9,12 @@
 <sup>4</sup> Yahweh said to him, “Call his name Jezreel, for yet a little while, and I will avenge the blood of Jezreel on the house of Jehu, and will cause the kingdom of the house of Israel to cease.
 <sup>5</sup> It will happen in that day that I will break the bow of Israel in the valley of Jezreel.”
 
-<sup>6</sup> <sup>b</sup>for I will no longer have mercy on the house of Israel, that I should in any way pardon them.
-<sup>7</sup> <sup>c</sup>and will not save them by bow, sword, battle, horses, or horsemen.”
+<sup>6</sup> She conceived again, and bore a daughter. Then he said to him, “Call her name Lo-Ruhamah,<sup>b</sup> for I will no longer have mercy on the house of Israel, that I should in any way pardon them.
+<sup>7</sup> But I will have mercy on the house of Judah, and will save them by Yahweh their God,<sup>c</sup> and will not save them by bow, sword, battle, horses, or horsemen.”
 
 <sup>8</sup> Now when she had weaned Lo-Ruhamah, she conceived, and bore a son.
 
-<sup>9</sup> <sup>d</sup>for you are not my people, and I will not be yours.
+<sup>9</sup> He said, “Call his name Lo-Ammi,<sup>d</sup> for you are not my people, and I will not be yours.
 <sup>10</sup> Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured or counted; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’
 <sup>11</sup> The children of Judah and the children of Israel will be gathered together, and they will appoint themselves one head, and will go up from the land; for great will be the day of Jezreel.
 
@@ -25,12 +25,12 @@
 
 ## Chapter 2
 
-<sup>1</sup> <sup>a</sup><br><sup>b</sup><br>
+<sup>1</sup> “Say to your brothers, ‘My people!’<sup>a</sup> <br>and to your sisters, ‘My loved one!’<sup>b</sup> <br>
 <sup>2</sup> Contend with your mother! <br>Contend, for she is not my wife, <br>neither am I her husband; <br>and let her put away her prostitution from her face, <br>and her adulteries from between her breasts; <br>
 <sup>3</sup> lest I strip her naked, <br>and make her bare as in the day that she was born, <br>and make her like a wilderness, <br>and set her like a dry land, <br>and kill her with thirst. <br>
 <sup>4</sup> Indeed, on her children I will have no mercy, <br>for they are children of unfaithfulness. <br>
 <sup>5</sup> For their mother has played the prostitute. <br>She who conceived them has done shamefully; <br>for she said, ‘I will go after my lovers, <br>who give me my bread and my water, <br>my wool and my flax, <br>my oil and my drink.’ <br>
-<sup>6</sup> <sup>c</sup>I will hedge up your way with thorns, <br>and I will build a wall against her, <br>that she can’t find her way. <br>
+<sup>6</sup> Therefore behold,<sup>c</sup> I will hedge up your way with thorns, <br>and I will build a wall against her, <br>that she can’t find her way. <br>
 <sup>7</sup> She will follow after her lovers, <br>but she won’t overtake them; <br>and she will seek them, <br>but won’t find them. <br>Then she will say, ‘I will go and return to my first husband, <br>for then it was better with me than now.’ <br>
 <sup>8</sup> For she didn’t know that I gave her the grain, the new wine, and the oil, <br>and multiplied to her silver and gold, which they used for Baal. <br>
 <sup>9</sup> Therefore I will take back my grain in its time, <br>and my new wine in its season, <br>and will pluck away my wool and my flax which should have covered her nakedness. <br>
@@ -57,7 +57,7 @@
 
 <sup>1</sup> Yahweh said to me, “Go again, love a woman loved by another, and an adulteress, even as Yahweh loves the children of Israel, though they turn to other gods, and love cakes of raisins.”
 
-<sup>2</sup> <sup>a</sup>and a half of barley.
+<sup>2</sup> So I bought her for myself for fifteen pieces of silver and a homer<sup>a</sup> and a half of barley.
 <sup>3</sup> I said to her, “You shall stay with me many days. You shall not play the prostitute, and you shall not be with any other man. I will also be so toward you.”
 
 <sup>4</sup> For the children of Israel shall live many days without king, without prince, without sacrifice, without sacred stone, and without ephod or idols.
@@ -230,7 +230,7 @@
 <sup>11</sup> If Gilead is wicked, <br>surely they are worthless. <br>In Gilgal they sacrifice bulls. <br>Indeed, their altars are like heaps in the furrows of the field. <br>
 <sup>12</sup> Jacob fled into the country of Aram. <br>Israel served to get a wife. <br>For a wife he tended flocks and herds. <br>
 <sup>13</sup> By a prophet Yahweh brought Israel up out of Egypt, <br>and by a prophet he was preserved. <br>
-<sup>14</sup> Ephraim has bitterly provoked anger. <br>Therefore his blood will be left on him, <br><sup>a</sup>will repay his contempt.
+<sup>14</sup> Ephraim has bitterly provoked anger. <br>Therefore his blood will be left on him, <br>and his Lord<sup>a</sup> will repay his contempt.
 
 > - <sup>a</sup> 14. The word translated “Lord” is “Adonai.”
 
@@ -250,7 +250,7 @@
 <sup>11</sup> I have given you a king in my anger, <br>and have taken him away in my wrath. <br>
 <sup>12</sup> The guilt of Ephraim is stored up. <br>His sin is stored up. <br>
 <sup>13</sup> The sorrows of a travailing woman will come on him. <br>He is an unwise son, <br>for when it is time, he doesn’t come to the opening of the womb. <br>
-<sup>14</sup> <sup>a</sup><br>I will redeem them from death! <br>Death, where are your plagues? <br>Sheol, where is your destruction? “Compassion will be hidden from my eyes. <br>
+<sup>14</sup> I will ransom them from the power of Sheol.<sup>a</sup> <br>I will redeem them from death! <br>Death, where are your plagues? <br>Sheol, where is your destruction? “Compassion will be hidden from my eyes. <br>
 <sup>15</sup> Though he is fruitful among his brothers, an east wind will come, <br>the breath of Yahweh coming up from the wilderness; <br>and his spring will become dry, <br>and his fountain will be dried up. <br>He will plunder the storehouse of treasure. <br>
 <sup>16</sup> Samaria will bear her guilt, <br>for she has rebelled against her God. <br>They will fall by the sword. <br>Their infants will be dashed in pieces, <br>and their pregnant women will be ripped open.”
 

@@ -5,7 +5,7 @@
 <sup>3</sup> Elimelech, Naomi’s husband, died; and she was left with her two sons.
 <sup>4</sup> They took for themselves wives of the women of Moab. The name of the one was Orpah, and the name of the other was Ruth. They lived there about ten years.
 <sup>5</sup> Mahlon and Chilion both died, and the woman was bereaved of her two children and of her husband.
-<sup>6</sup> <sup>a</sup>had visited his people in giving them bread.
+<sup>6</sup> Then she arose with her daughters-in-law, that she might return from the country of Moab; for she had heard in the country of Moab how Yahweh<sup>a</sup> had visited his people in giving them bread.
 <sup>7</sup> She went out of the place where she was, and her two daughters-in-law with her. They went on the way to return to the land of Judah.
 <sup>8</sup> Naomi said to her two daughters-in-law, “Go, return each of you to her mother’s house. May Yahweh deal kindly with you, as you have dealt with the dead and with me.
 <sup>9</sup> May Yahweh grant you that you may find rest, each of you in the house of her husband.” Then she kissed them, and they lifted up their voices, and wept.
@@ -16,16 +16,16 @@
 <sup>13</sup> would you then wait until they were grown? Would you then refrain from having husbands? No, my daughters, for it grieves me seriously for your sakes, for Yahweh’s hand has gone out against me.”
 
 <sup>14</sup> They lifted up their voices and wept again; then Orpah kissed her mother-in-law, but Ruth stayed with her.
-<sup>15</sup> <sup>b</sup>your sister-in-law has gone back to her people and to her god. Follow your sister-in-law.”
+<sup>15</sup> She said, “Behold,<sup>b</sup> your sister-in-law has gone back to her people and to her god. Follow your sister-in-law.”
 
-<sup>16</sup> <sup>c</sup>my God.
+<sup>16</sup> Ruth said, “Don’t urge me to leave you, and to return from following you, for where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God<sup>c</sup> my God.
 <sup>17</sup> Where you die, I will die, and there I will be buried. May Yahweh do so to me, and more also, if anything but death parts you and me.”
 
 <sup>18</sup> When Naomi saw that she was determined to go with her, she stopped urging her.
 
 <sup>19</sup> So they both went until they came to Bethlehem. When they had come to Bethlehem, all the city was excited about them, and they asked, “Is this Naomi?”
 
-<sup>20</sup> <sup>d</sup><sup>e</sup>for the Almighty has dealt very bitterly with me.
+<sup>20</sup> She said to them, “Don’t call me Naomi.<sup>d</sup> Call me Mara,<sup>e</sup> for the Almighty has dealt very bitterly with me.
 <sup>21</sup> I went out full, and Yahweh has brought me home again empty. Why do you call me Naomi, since Yahweh has testified against me, and the Almighty has afflicted me?”
 <sup>22</sup> So Naomi returned, and Ruth the Moabitess, her daughter-in-law, with her, who returned out of the country of Moab. They came to Bethlehem in the beginning of barley harvest.
 
@@ -62,7 +62,7 @@
 <sup>15</sup> When she had risen up to glean, Boaz commanded his young men, saying, “Let her glean even among the sheaves, and don’t reproach her.
 <sup>16</sup> Also pull out some for her from the bundles, and leave it. Let her glean, and don’t rebuke her.”
 
-<sup>17</sup> <sup>a</sup>of barley.
+<sup>17</sup> So she gleaned in the field until evening; and she beat out that which she had gleaned, and it was about an ephah<sup>a</sup> of barley.
 <sup>18</sup> She took it up, and went into the city. Then her mother-in-law saw what she had gleaned; and she brought out and gave to her that which she had left after she had enough.
 
 <sup>19</sup> Her mother-in-law said to her, “Where have you gleaned today? Where have you worked? Blessed be he who noticed you.” She told her mother-in-law with whom she had worked, “The man’s name with whom I worked today is Boaz.”
@@ -118,7 +118,7 @@
 <sup>10</sup> Moreover, Ruth the Moabitess, the wife of Mahlon, I have purchased to be my wife, to raise up the name of the dead on his inheritance, that the name of the dead may not be cut off from among his brothers and from the gate of his place. You are witnesses today.”
 
 <sup>11</sup> All the people who were in the gate, and the elders, said, “We are witnesses. May Yahweh make the woman who has come into your house like Rachel and like Leah, which both built the house of Israel; and treat you worthily in Ephrathah, and be famous in Bethlehem.
-<sup>12</sup> <sup>a</sup>which Yahweh will give you by this young woman.”
+<sup>12</sup> Let your house be like the house of Perez, whom Tamar bore to Judah, of the offspring<sup>a</sup> which Yahweh will give you by this young woman.”
 
 <sup>13</sup> So Boaz took Ruth and she became his wife; and he went in to her, and Yahweh enabled her to conceive, and she bore a son.
 <sup>14</sup> The women said to Naomi, “Blessed be Yahweh, who has not left you today without a near kinsman. Let his name be famous in Israel.

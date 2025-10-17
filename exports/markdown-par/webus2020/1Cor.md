@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>through the will of God, and our brother Sosthenes,
+<sup>1</sup> Paul, called to be an apostle of Jesus Christ<sup>a</sup> through the will of God, and our brother Sosthenes,
 <sup>2</sup> to the assembly of God which is at Corinth—those who are sanctified in Christ Jesus, called saints, with all who call on the name of our Lord Jesus Christ in every place, both theirs and ours:
 <sup>3</sup> Grace to you and peace from God our Father and the Lord Jesus Christ.
 
@@ -11,7 +11,7 @@
 <sup>8</sup> who will also confirm you until the end, blameless in the day of our Lord Jesus Christ.
 <sup>9</sup> God is faithful, through whom you were called into the fellowship of his Son, Jesus Christ our Lord.
 
-<sup>10</sup> <sup>b</sup>through the name of our Lord, Jesus Christ, that you all speak the same thing, and that there be no divisions among you, but that you be perfected together in the same mind and in the same judgment.
+<sup>10</sup> Now I beg you, brothers,<sup>b</sup> through the name of our Lord, Jesus Christ, that you all speak the same thing, and that there be no divisions among you, but that you be perfected together in the same mind and in the same judgment.
 <sup>11</sup> For it has been reported to me concerning you, my brothers, by those who are from Chloe’s household, that there are contentions among you.
 <sup>12</sup> Now I mean this, that each one of you says, “I follow Paul,” “I follow Apollos,” “I follow Cephas,” and, “I follow Christ.”
 <sup>13</sup> Is Christ divided? Was Paul crucified for you? Or were you baptized into the name of Paul?
@@ -20,7 +20,7 @@
 <sup>16</sup> (I also baptized the household of Stephanas; besides them, I don’t know whether I baptized any other.)
 <sup>17</sup> For Christ sent me not to baptize, but to preach the Good News—not in wisdom of words, so that the cross of Christ wouldn’t be made void.
 <sup>18</sup> For the word of the cross is foolishness to those who are dying, but to us who are being saved it is the power of God.
-<sup>19</sup> For it is written, <br>“I will destroy the wisdom of the wise. <br><sup>c</sup>
+<sup>19</sup> For it is written, <br>“I will destroy the wisdom of the wise. <br>I will bring the discernment of the discerning to nothing.”<sup>c</sup>
 
 <sup>20</sup> Where is the wise? Where is the scribe? Where is the debater of this age? Hasn’t God made foolish the wisdom of this world?
 <sup>21</sup> For seeing that in the wisdom of God, the world through its wisdom didn’t know God, it was God’s good pleasure through the foolishness of the preaching to save those who believe.
@@ -34,7 +34,7 @@
 <sup>28</sup> God chose the lowly things of the world, and the things that are despised, and the things that don’t exist, that he might bring to nothing the things that exist,
 <sup>29</sup> that no flesh should boast before God.
 <sup>30</sup> Because of him, you are in Christ Jesus, who was made to us wisdom from God, and righteousness and sanctification, and redemption,
-<sup>31</sup> <sup>d</sup>
+<sup>31</sup> that, as it is written, “He who boasts, let him boast in the Lord.”<sup>d</sup>
 
 > - <sup>a</sup> 1. “Christ” means “Anointed One”.
 > - <sup>b</sup> 10. The word for “brothers” here and where context allows may also be correctly translated “brothers and sisters” or “siblings.”
@@ -52,7 +52,7 @@
 <sup>6</sup> We speak wisdom, however, among those who are full grown, yet a wisdom not of this world nor of the rulers of this world who are coming to nothing.
 <sup>7</sup> But we speak God’s wisdom in a mystery, the wisdom that has been hidden, which God foreordained before the worlds for our glory,
 <sup>8</sup> which none of the rulers of this world has known. For had they known it, they wouldn’t have crucified the Lord of glory.
-<sup>9</sup> But as it is written, <br>“Things which an eye didn’t see, and an ear didn’t hear, <br>which didn’t enter into the heart of man, <br><sup>a</sup>
+<sup>9</sup> But as it is written, <br>“Things which an eye didn’t see, and an ear didn’t hear, <br>which didn’t enter into the heart of man, <br>these God has prepared for those who love him.”<sup>a</sup>
 
 <sup>10</sup> But to us, God revealed them through the Spirit. For the Spirit searches all things, yes, the deep things of God.
 <sup>11</sup> For who among men knows the things of a man except the spirit of the man which is in him? Even so, no one knows the things of God except God’s Spirit.
@@ -60,7 +60,7 @@
 <sup>13</sup> We also speak these things, not in words which man’s wisdom teaches but which the Holy Spirit teaches, comparing spiritual things with spiritual things.
 <sup>14</sup> Now the natural man doesn’t receive the things of God’s Spirit, for they are foolishness to him; and he can’t know them, because they are spiritually discerned.
 <sup>15</sup> But he who is spiritual discerns all things, and he himself is to be judged by no one.
-<sup>16</sup> <sup>b</sup>But we have Christ’s mind.
+<sup>16</sup> “For who has known the mind of the Lord that he should instruct him?”<sup>b</sup> But we have Christ’s mind.
 
 > - <sup>a</sup> 9. Isaiah 64:4
 > - <sup>b</sup> 16. Isaiah 40:13
@@ -89,8 +89,8 @@
 <sup>17</sup> If anyone destroys God’s temple, God will destroy him; for God’s temple is holy, which you are.
 
 <sup>18</sup> Let no one deceive himself. If anyone thinks that he is wise among you in this world, let him become a fool that he may become wise.
-<sup>19</sup> <sup>a</sup>
-<sup>20</sup> <sup>b</sup>
+<sup>19</sup> For the wisdom of this world is foolishness with God. For it is written, “He has taken the wise in their craftiness.”<sup>a</sup>
+<sup>20</sup> And again, “The Lord knows the reasoning of the wise, that it is worthless.”<sup>b</sup>
 <sup>21</sup> Therefore let no one boast in men. For all things are yours,
 <sup>22</sup> whether Paul, or Apollos, or Cephas, or the world, or life, or death, or things present, or things to come. All are yours,
 <sup>23</sup> and you are Christ’s, and Christ is God’s.
@@ -140,7 +140,7 @@
 <sup>10</sup> yet not at all meaning with the sexual sinners of this world, or with the covetous and extortionists, or with idolaters, for then you would have to leave the world.
 <sup>11</sup> But as it is, I wrote to you not to associate with anyone who is called a brother who is a sexual sinner, or covetous, or an idolater, or a slanderer, or a drunkard, or an extortionist. Don’t even eat with such a person.
 <sup>12</sup> For what do I have to do with also judging those who are outside? Don’t you judge those who are within?
-<sup>13</sup> <sup>a</sup>
+<sup>13</sup> But those who are outside, God judges. “Put away the wicked man from among yourselves.”<sup>a</sup>
 
 > - <sup>a</sup> 13. Deuteronomy 17:7; 19:19; 21:21; 22:21; 24:7
 
@@ -163,7 +163,7 @@
 <sup>13</sup> “Foods for the belly, and the belly for foods,” but God will bring to nothing both it and them. But the body is not for sexual immorality, but for the Lord, and the Lord for the body.
 <sup>14</sup> Now God raised up the Lord, and will also raise us up by his power.
 <sup>15</sup> Don’t you know that your bodies are members of Christ? Shall I then take the members of Christ and make them members of a prostitute? May it never be!
-<sup>16</sup> <sup>a</sup>
+<sup>16</sup> Or don’t you know that he who is joined to a prostitute is one body? For, “The two”, he says, “will become one flesh.”<sup>a</sup>
 <sup>17</sup> But he who is joined to the Lord is one spirit.
 <sup>18</sup> Flee sexual immorality! “Every sin that a man does is outside the body,” but he who commits sexual immorality sins against his own body.
 <sup>19</sup> Or don’t you know that your body is a temple of the Holy Spirit who is in you, whom you have from God? You are not your own,
@@ -175,7 +175,7 @@
 
 <sup>1</sup> Now concerning the things about which you wrote to me: it is good for a man not to touch a woman.
 <sup>2</sup> But, because of sexual immoralities, let each man have his own wife, and let each woman have her own husband.
-<sup>3</sup> <sup>a</sup>and likewise also the wife her husband.
+<sup>3</sup> Let the husband give his wife the affection owed her,<sup>a</sup> and likewise also the wife her husband.
 <sup>4</sup> The wife doesn’t have authority over her own body, but the husband does. Likewise also the husband doesn’t have authority over his own body, but the wife does.
 <sup>5</sup> Don’t deprive one another, unless it is by consent for a season, that you may give yourselves to fasting and prayer, and may be together again, that Satan doesn’t tempt you because of your lack of self-control.
 
@@ -253,7 +253,7 @@
 <sup>7</sup> What soldier ever serves at his own expense? Who plants a vineyard, and doesn’t eat of its fruit? Or who feeds a flock, and doesn’t drink from the flock’s milk?
 
 <sup>8</sup> Do I speak these things according to the ways of men? Or doesn’t the law also say the same thing?
-<sup>9</sup> <sup>a</sup>Is it for the oxen that God cares,
+<sup>9</sup> For it is written in the law of Moses, “You shall not muzzle an ox while it treads out the grain.”<sup>a</sup> Is it for the oxen that God cares,
 <sup>10</sup> or does he say it assuredly for our sake? Yes, it was written for our sake, because he who plows ought to plow in hope, and he who threshes in hope should partake of his hope.
 <sup>11</sup> If we sowed to you spiritual things, is it a great thing if we reap your fleshly things?
 <sup>12</sup> If others partake of this right over you, don’t we yet more? Nevertheless we didn’t use this right, but we bear all things, that we may cause no hindrance to the Good News of Christ.
@@ -266,7 +266,7 @@
 <sup>18</sup> What then is my reward? That when I preach the Good News, I may present the Good News of Christ without charge, so as not to abuse my authority in the Good News.
 
 <sup>19</sup> For though I was free from all, I brought myself under bondage to all, that I might gain the more.
-<sup>20</sup> <sup>b</sup>that I might gain those who are under the law;
+<sup>20</sup> To the Jews I became as a Jew, that I might gain Jews; to those who are under the law, as under the law,<sup>b</sup> that I might gain those who are under the law;
 <sup>21</sup> to those who are without law, as without law (not being without law toward God, but under law toward Christ), that I might win those who are without law.
 <sup>22</sup> To the weak I became as weak, that I might gain the weak. I have become all things to all men, that I may by all means save some.
 <sup>23</sup> Now I do this for the sake of the Good News, that I may be a joint partaker of it.
@@ -287,9 +287,9 @@
 <sup>5</sup> However with most of them, God was not well pleased, for they were overthrown in the wilderness.
 
 <sup>6</sup> Now these things were our examples, to the intent we should not lust after evil things as they also lusted.
-<sup>7</sup> <sup>a</sup>
+<sup>7</sup> Don’t be idolaters, as some of them were. As it is written, “The people sat down to eat and drink, and rose up to play.”<sup>a</sup>
 <sup>8</sup> Let’s not commit sexual immorality, as some of them committed, and in one day twenty-three thousand fell.
-<sup>9</sup> <sup>b</sup>as some of them tested, and perished by the serpents.
+<sup>9</sup> Let’s not test Christ,<sup>b</sup> as some of them tested, and perished by the serpents.
 <sup>10</sup> Don’t grumble, as some of them also grumbled, and perished by the destroyer.
 <sup>11</sup> Now all these things happened to them by way of example, and they were written for our admonition, on whom the ends of the ages have come.
 <sup>12</sup> Therefore let him who thinks he stands be careful that he doesn’t fall.
@@ -310,7 +310,7 @@
 <sup>23</sup> “All things are lawful for me,” but not all things are profitable. “All things are lawful for me,” but not all things build up.
 <sup>24</sup> Let no one seek his own, but each one his neighbor’s good.
 <sup>25</sup> Whatever is sold in the butcher shop, eat, asking no question for the sake of conscience,
-<sup>26</sup> <sup>c</sup>
+<sup>26</sup> for “the earth is the Lord’s, and its fullness.”<sup>c</sup>
 <sup>27</sup> But if one of those who don’t believe invites you to a meal, and you are inclined to go, eat whatever is set before you, asking no questions for the sake of conscience.
 <sup>28</sup> But if anyone says to you, “This was offered to idols,” don’t eat it for the sake of the one who told you, and for the sake of conscience. For “the earth is the Lord’s, with all its fullness.”
 <sup>29</sup> Conscience, I say, not your own, but the other’s conscience. For why is my liberty judged by another conscience?
@@ -329,7 +329,7 @@
 <sup>1</sup> Be imitators of me, even as I also am of Christ.
 
 <sup>2</sup> Now I praise you, brothers, that you remember me in all things, and hold firm the traditions, even as I delivered them to you.
-<sup>3</sup> <sup>a</sup><sup>b</sup><sup>c</sup>of Christ is God.
+<sup>3</sup> But I would have you know that the head<sup>a</sup> of every man is Christ, and the head<sup>b</sup> of the woman is man, and the head<sup>c</sup> of Christ is God.
 <sup>4</sup> Every man praying or prophesying, having his head covered, dishonors his head.
 <sup>5</sup> But every woman praying or prophesying with her head uncovered dishonors her head. For it is one and the same thing as if she were shaved.
 <sup>6</sup> For if a woman is not covered, let her hair also be cut off. But if it is shameful for a woman to have her hair cut off or be shaved, let her be covered.
@@ -373,7 +373,7 @@
 ## Chapter 12
 
 <sup>1</sup> Now concerning spiritual things, brothers, I don’t want you to be ignorant.
-<sup>2</sup> <sup>a</sup>you were led away to those mute idols, however you might be led.
+<sup>2</sup> You know that when you were heathen,<sup>a</sup> you were led away to those mute idols, however you might be led.
 <sup>3</sup> Therefore I make known to you that no man speaking by God’s Spirit says, “Jesus is accursed.” No one can say, “Jesus is Lord,” but by the Holy Spirit.
 
 <sup>4</sup> Now there are various kinds of gifts, but the same Spirit.
@@ -435,7 +435,7 @@
 <sup>4</sup> He who speaks in another language edifies himself, but he who prophesies edifies the assembly.
 <sup>5</sup> Now I desire to have you all speak with other languages, but even more that you would prophesy. For he is greater who prophesies than he who speaks with other languages, unless he interprets, that the assembly may be built up.
 
-<sup>6</sup> <sup>a</sup>if I come to you speaking with other languages, what would I profit you unless I speak to you either by way of revelation, or of knowledge, or of prophesying, or of teaching?
+<sup>6</sup> But now, brothers,<sup>a</sup> if I come to you speaking with other languages, what would I profit you unless I speak to you either by way of revelation, or of knowledge, or of prophesying, or of teaching?
 <sup>7</sup> Even lifeless things that make a sound, whether pipe or harp, if they didn’t give a distinction in the sounds, how would it be known what is piped or harped?
 <sup>8</sup> For if the trumpet gave an uncertain sound, who would prepare himself for war?
 <sup>9</sup> So also you, unless you uttered by the tongue words easy to understand, how would it be known what is spoken? For you would be speaking into the air.
@@ -453,7 +453,7 @@
 <sup>19</sup> However, in the assembly I would rather speak five words with my understanding, that I might instruct others also, than ten thousand words in another language.
 
 <sup>20</sup> Brothers, don’t be children in thoughts, yet in malice be babies, but in thoughts be mature.
-<sup>21</sup> <sup>b</sup>
+<sup>21</sup> In the law it is written, “By men of strange languages and by the lips of strangers I will speak to this people. They won’t even listen to me that way, says the Lord.”<sup>b</sup>
 <sup>22</sup> Therefore other languages are for a sign, not to those who believe, but to the unbelieving; but prophesying is for a sign, not to the unbelieving, but to those who believe.
 <sup>23</sup> If therefore the whole assembly is assembled together and all speak with other languages, and unlearned or unbelieving people come in, won’t they say that you are crazy?
 <sup>24</sup> But if all prophesy, and someone unbelieving or unlearned comes in, he is reproved by all, and he is judged by all.
@@ -467,7 +467,7 @@
 <sup>31</sup> For you all can prophesy one by one, that all may learn and all may be exhorted.
 <sup>32</sup> The spirits of the prophets are subject to the prophets,
 <sup>33</sup> for God is not a God of confusion but of peace, as in all the assemblies of the saints.
-<sup>34</sup> <sup>c</sup>
+<sup>34</sup> Let the wives be quiet in the assemblies, for it has not been permitted for them to be talking except in submission, as the law also says,<sup>c</sup>
 <sup>35</sup> if they desire to learn anything. “Let them ask their own husbands at home, for it is shameful for a wife to be talking in the assembly.”
 <sup>36</sup> What!? Was it from you that the word of God went out? Or did it come to you alone?
 
@@ -512,13 +512,13 @@
 <sup>24</sup> Then the end comes, when he will deliver up the Kingdom to God the Father, when he will have abolished all rule and all authority and power.
 <sup>25</sup> For he must reign until he has put all his enemies under his feet.
 <sup>26</sup> The last enemy that will be abolished is death.
-<sup>27</sup> <sup>a</sup>But when he says, “All things are put in subjection”, it is evident that he is excepted who subjected all things to him.
+<sup>27</sup> For, “He put all things in subjection under his feet.”<sup>a</sup> But when he says, “All things are put in subjection”, it is evident that he is excepted who subjected all things to him.
 <sup>28</sup> When all things have been subjected to him, then the Son will also himself be subjected to him who subjected all things to him, that God may be all in all.
 
 <sup>29</sup> Or else what will they do who are baptized for the dead? If the dead aren’t raised at all, why then are they baptized for the dead?
 <sup>30</sup> Why do we also stand in jeopardy every hour?
 <sup>31</sup> I affirm, by the boasting in you which I have in Christ Jesus our Lord, I die daily.
-<sup>32</sup> <sup>b</sup>
+<sup>32</sup> If I fought with animals at Ephesus for human purposes, what does it profit me? If the dead are not raised, then “let’s eat and drink, for tomorrow we die.”<sup>b</sup>
 <sup>33</sup> Don’t be deceived! “Evil companionships corrupt good morals.”
 <sup>34</sup> Wake up righteously and don’t sin, for some have no knowledge of God. I say this to your shame.
 
@@ -534,18 +534,18 @@
 <sup>43</sup> It is sown in dishonor; it is raised in glory. It is sown in weakness; it is raised in power.
 <sup>44</sup> It is sown a natural body; it is raised a spiritual body. There is a natural body and there is also a spiritual body.
 
-<sup>45</sup> <sup>c</sup>The last Adam became a life-giving spirit.
+<sup>45</sup> So also it is written, “The first man Adam became a living soul.”<sup>c</sup> The last Adam became a life-giving spirit.
 <sup>46</sup> However, that which is spiritual isn’t first, but that which is natural, then that which is spiritual.
 <sup>47</sup> The first man is of the earth, made of dust. The second man is the Lord from heaven.
 <sup>48</sup> As is the one made of dust, such are those who are also made of dust; and as is the heavenly, such are they also that are heavenly.
-<sup>49</sup> <sup>d</sup>also bear the image of the heavenly.
-<sup>50</sup> <sup>e</sup>that flesh and blood can’t inherit God’s Kingdom; neither does the perishable inherit imperishable.
+<sup>49</sup> As we have borne the image of those made of dust, let’s<sup>d</sup> also bear the image of the heavenly.
+<sup>50</sup> Now I say this, brothers,<sup>e</sup> that flesh and blood can’t inherit God’s Kingdom; neither does the perishable inherit imperishable.
 
-<sup>51</sup> <sup>f</sup>I tell you a mystery. We will not all sleep, but we will all be changed,
+<sup>51</sup> Behold,<sup>f</sup> I tell you a mystery. We will not all sleep, but we will all be changed,
 <sup>52</sup> in a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound and the dead will be raised incorruptible, and we will be changed.
 <sup>53</sup> For this perishable body must become imperishable, and this mortal must put on immortality.
-<sup>54</sup> <sup>g</sup><br>
-<sup>55</sup> “Death, where is your sting? <br><sup>h</sup><sup>i</sup>
+<sup>54</sup> But when this perishable body will have become imperishable, and this mortal will have put on immortality, then what is written will happen: “Death is swallowed up in victory.”<sup>g</sup> <br>
+<sup>55</sup> “Death, where is your sting? <br>Hades,<sup>h</sup> where is your victory?”<sup>i</sup>
 
 <sup>56</sup> The sting of death is sin, and the power of sin is the law.
 <sup>57</sup> But thanks be to God, who gives us the victory through our Lord Jesus Christ.
@@ -591,7 +591,7 @@
 <sup>20</sup> All the brothers greet you. Greet one another with a holy kiss.
 
 <sup>21</sup> This greeting is by me, Paul, with my own hand.
-<sup>22</sup> <sup>a</sup><sup>b</sup>
+<sup>22</sup> If any man doesn’t love the Lord Jesus Christ, let him be cursed.<sup>a</sup> Come, Lord!<sup>b</sup>
 <sup>23</sup> The grace of the Lord Jesus Christ be with you.
 <sup>24</sup> My love to all of you in Christ Jesus. Amen.
 

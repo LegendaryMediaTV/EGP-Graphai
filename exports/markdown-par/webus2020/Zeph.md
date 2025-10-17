@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>word which came to Zephaniah, the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hezekiah, in the days of Josiah, the son of Amon, king of Judah.
+<sup>1</sup> Yahweh’s<sup>a</sup> word which came to Zephaniah, the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hezekiah, in the days of Josiah, the son of Amon, king of Judah.
 
 <sup>2</sup> I will utterly sweep away everything from the surface of the earth, says Yahweh.
 <sup>3</sup> I will sweep away man and animal. I will sweep away the birds of the sky, the fish of the sea, and the heaps of rubble with the wicked. I will cut off man from the surface of the earth, says Yahweh.
@@ -8,7 +8,7 @@
 <sup>5</sup> those who worship the army of the sky on the housetops, those who worship and swear by Yahweh and also swear by Malcam,
 <sup>6</sup> those who have turned back from following Yahweh, and those who haven’t sought Yahweh nor inquired after him.
 
-<sup>7</sup> <sup>b</sup>Yahweh, for the day of Yahweh is at hand. For Yahweh has prepared a sacrifice. He has consecrated his guests.
+<sup>7</sup> Be silent at the presence of the Lord<sup>b</sup> Yahweh, for the day of Yahweh is at hand. For Yahweh has prepared a sacrifice. He has consecrated his guests.
 <sup>8</sup> It will happen in the day of Yahweh’s sacrifice that I will punish the princes, the king’s sons, and all those who are clothed with foreign clothing.
 <sup>9</sup> In that day, I will punish all those who leap over the threshold, who fill their master’s house with violence and deceit.
 
@@ -34,7 +34,7 @@
 <sup>4</sup> For Gaza will be forsaken, and Ashkelon a desolation. They will drive out Ashdod at noonday, and Ekron will be rooted up.
 <sup>5</sup> Woe to the inhabitants of the sea coast, the nation of the Cherethites! Yahweh’s word is against you, Canaan, the land of the Philistines. I will destroy you until there is no inhabitant.
 <sup>6</sup> The sea coast will be pastures, with cottages for shepherds and folds for flocks.
-<sup>7</sup> <sup>a</sup>will visit them and restore them.
+<sup>7</sup> The coast will be for the remnant of the house of Judah. They will find pasture. In the houses of Ashkelon, they will lie down in the evening, for Yahweh, their God,<sup>a</sup> will visit them and restore them.
 <sup>8</sup> I have heard the reproach of Moab and the insults of the children of Ammon, with which they have reproached my people and magnified themselves against their border.
 <sup>9</sup> Therefore, as I live, says Yahweh of Armies, the God of Israel, surely Moab will be as Sodom, and the children of Ammon as Gomorrah, a possession of nettles and salt pits, and a perpetual desolation. The remnant of my people will plunder them, and the survivors of my nation will inherit them.
 <sup>10</sup> This they will have for their pride, because they have reproached and magnified themselves against the people of Yahweh of Armies.
@@ -73,7 +73,7 @@
 <sup>16</sup> In that day, it will be said to Jerusalem, “Don’t be afraid, Zion. Don’t let your hands be weak.”
 <sup>17</sup> Yahweh, your God, is among you, a mighty one who will save. He will rejoice over you with joy. He will calm you in his love. He will rejoice over you with singing.
 <sup>18</sup> I will remove those who grieve about the appointed feasts from you. They are a burden and a reproach to you.
-<sup>19</sup> <sup>a</sup>at that time I will deal with all those who afflict you; and I will save those who are lame and gather those who were driven away. I will give them praise and honor, whose shame has been in all the earth.
+<sup>19</sup> Behold,<sup>a</sup> at that time I will deal with all those who afflict you; and I will save those who are lame and gather those who were driven away. I will give them praise and honor, whose shame has been in all the earth.
 <sup>20</sup> At that time I will bring you in, and at that time I will gather you; for I will give you honor and praise among all the peoples of the earth when I restore your fortunes before your eyes, says Yahweh.
 
 > - <sup>a</sup> 19. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.

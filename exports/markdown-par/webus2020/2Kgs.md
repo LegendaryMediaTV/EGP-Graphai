@@ -4,7 +4,7 @@
 
 <sup>2</sup> Ahaziah fell down through the lattice in his upper room that was in Samaria, and was sick. So he sent messengers, and said to them, “Go, inquire of Baal Zebub, the god of Ekron, whether I will recover of this sickness.”
 
-<sup>3</sup> <sup>a</sup><sup>b</sup>in Israel that you go to inquire of Baal Zebub, the god of Ekron?
+<sup>3</sup> But Yahweh’s<sup>a</sup> angel said to Elijah the Tishbite, “Arise, go up to meet the messengers of the king of Samaria, and tell them, ‘Is it because there is no God<sup>b</sup> in Israel that you go to inquire of Baal Zebub, the god of Ekron?
 <sup>4</sup> Now therefore Yahweh says, “You will not come down from the bed where you have gone up, but you will surely die.” ’ ” Then Elijah departed.
 
 <sup>5</sup> The messengers returned to him, and he said to them, “Why is it that you have returned?”
@@ -15,7 +15,7 @@
 
 <sup>8</sup> They answered him, “He was a hairy man, and wearing a leather belt around his waist.” He said, “It’s Elijah the Tishbite.”
 
-<sup>9</sup> <sup>c</sup>he was sitting on the top of the hill. He said to him, “Man of God, the king has said, ‘Come down!’ ”
+<sup>9</sup> Then the king sent a captain of fifty with his fifty to him. He went up to him; and behold,<sup>c</sup> he was sitting on the top of the hill. He said to him, “Man of God, the king has said, ‘Come down!’ ”
 
 <sup>10</sup> Elijah answered to the captain of fifty, “If I am a man of God, then let fire come down from the sky and consume you and your fifty!” Then fire came down from the sky, and consumed him and his fifty.
 
@@ -192,7 +192,7 @@
 
 <sup>4</sup> Someone went in and told his lord, saying, “The girl who is from the land of Israel said this.”
 
-<sup>5</sup> <sup>a</sup>of silver, six thousand pieces of gold, and ten changes of clothing.
+<sup>5</sup> The king of Syria said, “Go now, and I will send a letter to the king of Israel.” He departed, and took with him ten talents<sup>a</sup> of silver, six thousand pieces of gold, and ten changes of clothing.
 <sup>6</sup> He brought the letter to the king of Israel, saying, “Now when this letter has come to you, behold, I have sent Naaman my servant to you, that you may heal him of his leprosy.”
 
 <sup>7</sup> When the king of Israel had read the letter, he tore his clothes and said, “Am I God, to kill and to make alive, that this man sends to me to heal a man of his leprosy? But please consider and see how he seeks a quarrel against me.”
@@ -219,14 +219,14 @@
 
 <sup>21</sup> So Gehazi followed after Naaman. When Naaman saw one running after him, he came down from the chariot to meet him, and said, “Is all well?”
 
-<sup>22</sup> <sup>b</sup>of silver and two changes of clothing.’ ”
+<sup>22</sup> He said, “All is well. My master has sent me, saying, ‘Behold, even now two young men of the sons of the prophets have come to me from the hill country of Ephraim. Please give them a talent<sup>b</sup> of silver and two changes of clothing.’ ”
 
 <sup>23</sup> Naaman said, “Be pleased to take two talents.” He urged him, and bound two talents of silver in two bags, with two changes of clothing, and laid them on two of his servants; and they carried them before him.
 <sup>24</sup> When he came to the hill, he took them from their hand, and stored them in the house. Then he let the men go, and they departed.
 <sup>25</sup> But he went in, and stood before his master. Elisha said to him, “Where did you come from, Gehazi?” He said, “Your servant went nowhere.”
 
 <sup>26</sup> He said to him, “Didn’t my heart go with you when the man turned from his chariot to meet you? Is it a time to receive money, and to receive garments, and olive groves and vineyards, and sheep and cattle, and male servants and female servants?
-<sup>27</sup> <sup>c</sup>forever.” He went out from his presence a leper, as white as snow.
+<sup>27</sup> Therefore the leprosy of Naaman will cling to you and to your offspring<sup>c</sup> forever.” He went out from his presence a leper, as white as snow.
 
 > - <sup>a</sup> 5. A talent is about 30 kilograms or 66 pounds
 > - <sup>b</sup> 22. A talent is about 30 kilograms or 66 pounds
@@ -271,7 +271,7 @@
 <sup>23</sup> He prepared a great feast for them. After they ate and drank, he sent them away and they went to their master. So the bands of Syria stopped raiding the land of Israel.
 
 <sup>24</sup> After this, Benhadad king of Syria gathered all his army, and went up and besieged Samaria.
-<sup>25</sup> <sup>a</sup>of dove’s dung for five pieces of silver.
+<sup>25</sup> There was a great famine in Samaria. Behold, they besieged it until a donkey’s head was sold for eighty pieces of silver, and the fourth part of a kab<sup>a</sup> of dove’s dung for five pieces of silver.
 <sup>26</sup> As the king of Israel was passing by on the wall, a woman cried to him, saying, “Help, my lord, O king!”
 
 <sup>27</sup> He said, “If Yahweh doesn’t help you, where could I get help for you? From the threshing floor, or from the wine press?”
@@ -289,7 +289,7 @@
 
 ## Chapter 7
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>and two seahs of barley for a shekel, in the gate of Samaria.’ ”
+<sup>1</sup> Elisha said, “Hear Yahweh’s word. Yahweh says, ‘Tomorrow about this time a seah<sup>a</sup> of fine flour will be sold for a shekel,<sup>b</sup> and two seahs of barley for a shekel, in the gate of Samaria.’ ”
 
 <sup>2</sup> Then the captain on whose hand the king leaned answered the man of God, and said, “Behold, if Yahweh made windows in heaven, could this thing be?” He said, “Behold, you will see it with your eyes, but will not eat of it.”
 
@@ -297,7 +297,7 @@
 <sup>4</sup> If we say, ‘We will enter into the city,’ then the famine is in the city, and we will die there. If we sit still here, we also die. Now therefore come, and let’s surrender to the army of the Syrians. If they save us alive, we will live; and if they kill us, we will only die.”
 
 <sup>5</sup> They rose up in the twilight to go to the camp of the Syrians. When they had come to the outermost part of the camp of the Syrians, behold, no man was there.
-<sup>6</sup> <sup>c</sup>had made the army of the Syrians to hear the sound of chariots and the sound of horses, even the noise of a great army; and they said to one another, “Behold, the king of Israel has hired against us the kings of the Hittites and the kings of the Egyptians to attack us.”
+<sup>6</sup> For the Lord<sup>c</sup> had made the army of the Syrians to hear the sound of chariots and the sound of horses, even the noise of a great army; and they said to one another, “Behold, the king of Israel has hired against us the kings of the Hittites and the kings of the Egyptians to attack us.”
 <sup>7</sup> Therefore they arose and fled in the twilight, and left their tents, their horses, and their donkeys, even the camp as it was, and fled for their life.
 <sup>8</sup> When these lepers came to the outermost part of the camp, they went into one tent, and ate and drank, then carried away silver, gold, and clothing and went and hid it. Then they came back, and entered into another tent and carried things from there also, and went and hid them.
 <sup>9</sup> Then they said to one another, “We aren’t doing right. Today is a day of good news, and we keep silent. If we wait until the morning light, punishment will overtake us. Now therefore come, let’s go and tell the king’s household.”
@@ -313,9 +313,9 @@
 <sup>14</sup> Therefore they took two chariots with horses; and the king sent them out to the Syrian army, saying, “Go and see.”
 
 <sup>15</sup> They went after them to the Jordan; and behold, all the path was full of garments and equipment which the Syrians had cast away in their haste. The messengers returned and told the king.
-<sup>16</sup> <sup>d</sup><sup>e</sup>according to Yahweh’s word.
+<sup>16</sup> The people went out and plundered the camp of the Syrians. So a seah<sup>d</sup> of fine flour was sold for a shekel, and two measures of barley for a shekel,<sup>e</sup> according to Yahweh’s word.
 <sup>17</sup> The king had appointed the captain on whose hand he leaned to be in charge of the gate; and the people trampled over him in the gate, and he died as the man of God had said, who spoke when the king came down to him.
-<sup>18</sup> <sup>f</sup><sup>g</sup>and a seah of fine flour for a shekel, shall be tomorrow about this time in the gate of Samaria;”
+<sup>18</sup> It happened as the man of God had spoken to the king, saying, “Two seahs<sup>f</sup> of barley for a shekel,<sup>g</sup> and a seah of fine flour for a shekel, shall be tomorrow about this time in the gate of Samaria;”
 <sup>19</sup> and that captain answered the man of God, and said, “Now, behold, if Yahweh made windows in heaven, might such a thing be?” and he said, “Behold, you will see it with your eyes, but will not eat of it.”
 <sup>20</sup> It happened like that to him, for the people trampled over him in the gate, and he died.
 
@@ -382,7 +382,7 @@
 <sup>5</sup> When he came, behold, the captains of the army were sitting. Then he said, “I have a message for you, captain.” Jehu said, “To which one of us?” He said, “To you, O captain.”
 <sup>6</sup> He arose, and went into the house. Then he poured the oil on his head, and said to him, “Yahweh, the God of Israel, says, ‘I have anointed you king over the people of Yahweh, even over Israel.
 <sup>7</sup> You must strike your master Ahab’s house, that I may avenge the blood of my servants the prophets, and the blood of all the servants of Yahweh, at the hand of Jezebel.
-<sup>8</sup> <sup>a</sup>both him who is shut up and him who is left at large in Israel.
+<sup>8</sup> For the whole house of Ahab will perish. I will cut off from Ahab everyone who urinates against a wall,<sup>a</sup> both him who is shut up and him who is left at large in Israel.
 <sup>9</sup> I will make Ahab’s house like the house of Jeroboam the son of Nebat, and like the house of Baasha the son of Ahijah.
 <sup>10</sup> The dogs will eat Jezebel on the plot of ground of Jezreel, and there shall be no one to bury her.’ ” Then he opened the door and fled.
 
@@ -516,7 +516,7 @@
 <sup>2</sup> Jehoash did that which was right in Yahweh’s eyes all his days in which Jehoiada the priest instructed him.
 <sup>3</sup> However, the high places were not taken away. The people still sacrificed and burned incense in the high places.
 
-<sup>4</sup> <sup>a</sup>and all the money that it comes into any man’s heart to bring into Yahweh’s house,
+<sup>4</sup> Jehoash said to the priests, “All the money of the holy things that is brought into Yahweh’s house, in current money, the money of the people for whom each man is evaluated,<sup>a</sup> and all the money that it comes into any man’s heart to bring into Yahweh’s house,
 <sup>5</sup> let the priests take it to them, each man from his donor; and they shall repair the damage to the house, wherever any damage is found.”
 
 <sup>6</sup> But it was so, that in the twenty-third year of King Jehoash the priests had not repaired the damage to the house.
@@ -592,7 +592,7 @@
 
 <sup>11</sup> But Amaziah would not listen. So Jehoash king of Israel went up; and he and Amaziah king of Judah looked one another in the face at Beth Shemesh, which belongs to Judah.
 <sup>12</sup> Judah was defeated by Israel; and each man fled to his tent.
-<sup>13</sup> <sup>a</sup>
+<sup>13</sup> Jehoash king of Israel took Amaziah king of Judah, the son of Jehoash the son of Ahaziah, at Beth Shemesh and came to Jerusalem, then broke down the wall of Jerusalem from the gate of Ephraim to the corner gate, four hundred cubits.<sup>a</sup>
 <sup>14</sup> He took all the gold and silver and all the vessels that were found in Yahweh’s house and in the treasures of the king’s house, the hostages also, and returned to Samaria.
 
 <sup>15</sup> Now the rest of the acts of Jehoash which he did, and his might, and how he fought with Amaziah king of Judah, aren’t they written in the book of the chronicles of the kings of Israel?
@@ -640,8 +640,8 @@
 
 <sup>17</sup> In the thirty ninth year of Azariah king of Judah, Menahem the son of Gadi began to reign over Israel for ten years in Samaria.
 <sup>18</sup> He did that which was evil in Yahweh’s sight. He didn’t depart all his days from the sins of Jeroboam the son of Nebat, with which he made Israel to sin.
-<sup>19</sup> <sup>a</sup>of silver, that his hand might be with him to confirm the kingdom in his hand.
-<sup>20</sup> <sup>b</sup>of silver, to give to the king of Assyria. So the king of Assyria turned back, and didn’t stay there in the land.
+<sup>19</sup> Pul the king of Assyria came against the land, and Menahem gave Pul one thousand talents<sup>a</sup> of silver, that his hand might be with him to confirm the kingdom in his hand.
+<sup>20</sup> Menahem exacted the money from Israel, even from all the mighty men of wealth, from each man fifty shekels<sup>b</sup> of silver, to give to the king of Assyria. So the king of Assyria turned back, and didn’t stay there in the land.
 <sup>21</sup> Now the rest of the acts of Menahem, and all that he did, aren’t they written in the book of the chronicles of the kings of Israel?
 <sup>22</sup> Menahem slept with his fathers, and Pekahiah his son reigned in his place.
 
@@ -724,7 +724,7 @@
 <sup>25</sup> So it was, at the beginning of their dwelling there, that they didn’t fear Yahweh. Therefore Yahweh sent lions among them, which killed some of them.
 <sup>26</sup> Therefore they spoke to the king of Assyria, saying, “The nations which you have carried away and placed in the cities of Samaria don’t know the law of the god of the land. Therefore he has sent lions among them; and behold, they kill them, because they don’t know the law of the god of the land.”
 
-<sup>27</sup> <sup>a</sup>go and dwell there, and let him teach them the law of the god of the land.”
+<sup>27</sup> Then the king of Assyria commanded, saying, “Carry there one of the priests whom you brought from there; and let him<sup>a</sup> go and dwell there, and let him teach them the law of the god of the land.”
 
 <sup>28</sup> So one of the priests whom they had carried away from Samaria came and lived in Bethel, and taught them how they should fear Yahweh.
 
@@ -762,7 +762,7 @@
 <sup>12</sup> because they didn’t obey Yahweh their God’s voice, but transgressed his covenant, even all that Moses the servant of Yahweh commanded, and would not hear it or do it.
 
 <sup>13</sup> Now in the fourteenth year of King Hezekiah, Sennacherib king of Assyria came up against all the fortified cities of Judah and took them.
-<sup>14</sup> <sup>a</sup>of gold.
+<sup>14</sup> Hezekiah king of Judah sent to the king of Assyria at Lachish, saying, “I have offended you. Withdraw from me. That which you put on me, I will bear.” The king of Assyria appointed to Hezekiah king of Judah three hundred talents of silver and thirty talents<sup>a</sup> of gold.
 <sup>15</sup> Hezekiah gave him all the silver that was found in Yahweh’s house and in the treasures of the king’s house.
 <sup>16</sup> At that time, Hezekiah cut off the gold from the doors of Yahweh’s temple, and from the pillars which Hezekiah king of Judah had overlaid, and gave it to the king of Assyria.
 
@@ -964,7 +964,7 @@
 <sup>22</sup> Surely there was not kept such a Passover from the days of the judges who judged Israel, nor in all the days of the kings of Israel, nor of the kings of Judah;
 <sup>23</sup> but in the eighteenth year of King Josiah, this Passover was kept to Yahweh in Jerusalem.
 
-<sup>24</sup> <sup>a</sup>and the idols, and all the abominations that were seen in the land of Judah and in Jerusalem, that he might confirm the words of the law which were written in the book that Hilkiah the priest found in Yahweh’s house.
+<sup>24</sup> Moreover, Josiah removed those who had familiar spirits, the wizards, and the teraphim,<sup>a</sup> and the idols, and all the abominations that were seen in the land of Judah and in Jerusalem, that he might confirm the words of the law which were written in the book that Hilkiah the priest found in Yahweh’s house.
 <sup>25</sup> There was no king like him before him, who turned to Yahweh with all his heart, and with all his soul, and with all his might, according to all the law of Moses; and there was none like him who arose after him.
 <sup>26</sup> Notwithstanding, Yahweh didn’t turn from the fierceness of his great wrath, with which his anger burned against Judah, because of all the provocation with which Manasseh had provoked him.
 <sup>27</sup> Yahweh said, “I will also remove Judah out of my sight, as I have removed Israel; and I will cast off this city which I have chosen, even Jerusalem, and the house of which I said, ‘My name shall be there.’ ”
@@ -975,7 +975,7 @@
 
 <sup>31</sup> Jehoahaz was twenty-three years old when he began to reign; and he reigned three months in Jerusalem. His mother’s name was Hamutal the daughter of Jeremiah of Libnah.
 <sup>32</sup> He did that which was evil in Yahweh’s sight, according to all that his fathers had done.
-<sup>33</sup> <sup>b</sup>of gold.
+<sup>33</sup> Pharaoh Necoh put him in bonds at Riblah in the land of Hamath, that he might not reign in Jerusalem; and put the land to a tribute of one hundred talents of silver and a talent<sup>b</sup> of gold.
 <sup>34</sup> Pharaoh Necoh made Eliakim the son of Josiah king in the place of Josiah his father, and changed his name to Jehoiakim; but he took Jehoahaz away, and he came to Egypt and died there.
 <sup>35</sup> Jehoiakim gave the silver and the gold to Pharaoh; but he taxed the land to give the money according to the commandment of Pharaoh. He exacted the silver and the gold of the people of the land, from everyone according to his assessment, to give it to Pharaoh Necoh.
 <sup>36</sup> Jehoiakim was twenty-five years old when he began to reign, and he reigned eleven years in Jerusalem. His mother’s name was Zebidah the daughter of Pedaiah of Rumah.
@@ -1029,7 +1029,7 @@
 <sup>14</sup> They took away the pots, the shovels, the snuffers, the spoons, and all the vessels of bronze with which they ministered.
 <sup>15</sup> The captain of the guard took away the fire pans, the basins, that which was of gold, for gold, and that which was of silver, for silver.
 <sup>16</sup> The two pillars, the one sea, and the bases, which Solomon had made for Yahweh’s house, the bronze of all these vessels was not weighed.
-<sup>17</sup> <sup>a</sup>and a capital of bronze was on it. The height of the capital was three cubits, with network and pomegranates on the capital around it, all of bronze; and the second pillar with its network was like these.
+<sup>17</sup> The height of the one pillar was eighteen cubits,<sup>a</sup> and a capital of bronze was on it. The height of the capital was three cubits, with network and pomegranates on the capital around it, all of bronze; and the second pillar with its network was like these.
 
 <sup>18</sup> The captain of the guard took Seraiah the chief priest, Zephaniah the second priest, and the three keepers of the threshold;
 <sup>19</sup> and out of the city he took an officer who was set over the men of war; and five men of those who saw the king’s face, who were found in the city; and the scribe, the captain of the army, who mustered the people of the land, and sixty men of the people of the land who were found in the city.

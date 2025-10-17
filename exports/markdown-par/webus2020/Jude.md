@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>and brother of James, to those who are called, sanctified by God the Father, and kept for Jesus Christ:
+<sup>1</sup> Jude,<sup>a</sup> a servant of Jesus Christ,<sup>b</sup> and brother of James, to those who are called, sanctified by God the Father, and kept for Jesus Christ:
 <sup>2</sup> May mercy, peace, and love be multiplied to you.
 
 <sup>3</sup> Beloved, while I was very eager to write to you about our common salvation, I was constrained to write to you exhorting you to contend earnestly for the faith which was once for all delivered to the saints.
@@ -15,7 +15,7 @@
 <sup>11</sup> Woe to them! For they went in the way of Cain, and ran riotously in the error of Balaam for hire, and perished in Korah’s rebellion.
 <sup>12</sup> These are hidden rocky reefs in your love feasts when they feast with you, shepherds who without fear feed themselves; clouds without water, carried along by winds; autumn trees without fruit, twice dead, plucked up by the roots;
 <sup>13</sup> wild waves of the sea, foaming out their own shame; wandering stars, for whom the blackness of darkness has been reserved forever.
-<sup>14</sup> <sup>c</sup>the Lord came with ten thousands of his holy ones,
+<sup>14</sup> About these also Enoch, the seventh from Adam, prophesied, saying, “Behold,<sup>c</sup> the Lord came with ten thousands of his holy ones,
 <sup>15</sup> to execute judgment on all, and to convict all the ungodly of all their works of ungodliness which they have done in an ungodly way, and of all the hard things which ungodly sinners have spoken against him.”
 <sup>16</sup> These are murmurers and complainers, walking after their lusts—and their mouth speaks proud things—showing respect of persons to gain advantage.
 
@@ -28,7 +28,7 @@
 <sup>22</sup> On some have compassion, making a distinction,
 <sup>23</sup> and some save, snatching them out of the fire with fear, hating even the clothing stained by the flesh.
 
-<sup>24</sup> <sup>d</sup>from stumbling, and to present you faultless before the presence of his glory in great joy,
+<sup>24</sup> Now to him who is able to keep them<sup>d</sup> from stumbling, and to present you faultless before the presence of his glory in great joy,
 <sup>25</sup> to God our Savior, who alone is wise, be glory and majesty, dominion and power, both now and forever. Amen.
 
 > - <sup>a</sup> 1. or, Judah

@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>Jesus through the will of God, to the saints who are at Ephesus, and the faithful in Christ Jesus:
+<sup>1</sup> Paul, an apostle of Christ<sup>a</sup> Jesus through the will of God, to the saints who are at Ephesus, and the faithful in Christ Jesus:
 <sup>2</sup> Grace to you and peace from God our Father and the Lord Jesus Christ.
 
 <sup>3</sup> Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ,
@@ -19,7 +19,7 @@
 <sup>15</sup> For this cause I also, having heard of the faith in the Lord Jesus which is among you and the love which you have toward all the saints,
 <sup>16</sup> don’t cease to give thanks for you, making mention of you in my prayers,
 <sup>17</sup> that the God of our Lord Jesus Christ, the Father of glory, may give to you a spirit of wisdom and revelation in the knowledge of him,
-<sup>18</sup> <sup>b</sup>enlightened, that you may know what is the hope of his calling, and what are the riches of the glory of his inheritance in the saints,
+<sup>18</sup> having the eyes of your hearts<sup>b</sup> enlightened, that you may know what is the hope of his calling, and what are the riches of the glory of his inheritance in the saints,
 <sup>19</sup> and what is the exceeding greatness of his power toward us who believe, according to that working of the strength of his might
 <sup>20</sup> which he worked in Christ when he raised him from the dead and made him to sit at his right hand in the heavenly places,
 <sup>21</sup> far above all rule, authority, power, dominion, and every name that is named, not only in this age, but also in that which is to come.
@@ -64,7 +64,7 @@
 <sup>6</sup> that the Gentiles are fellow heirs and fellow members of the body, and fellow partakers of his promise in Christ Jesus through the Good News,
 <sup>7</sup> of which I was made a servant according to the gift of that grace of God which was given me according to the working of his power.
 <sup>8</sup> To me, the very least of all saints, was this grace given, to preach to the Gentiles the unsearchable riches of Christ,
-<sup>9</sup> <sup>a</sup>of the mystery which for ages has been hidden in God, who created all things through Jesus Christ,
+<sup>9</sup> and to make all men see what is the administration<sup>a</sup> of the mystery which for ages has been hidden in God, who created all things through Jesus Christ,
 <sup>10</sup> to the intent that now through the assembly the manifold wisdom of God might be made known to the principalities and the powers in the heavenly places,
 <sup>11</sup> according to the eternal purpose which he accomplished in Christ Jesus our Lord.
 <sup>12</sup> In him we have boldness and access in confidence through our faith in him.
@@ -91,11 +91,11 @@
 <sup>5</sup> one Lord, one faith, one baptism,
 <sup>6</sup> one God and Father of all, who is over all and through all and in us all.
 <sup>7</sup> But to each one of us, the grace was given according to the measure of the gift of Christ.
-<sup>8</sup> Therefore he says, <br>“When he ascended on high, <br>he led captivity captive, <br><sup>a</sup>
+<sup>8</sup> Therefore he says, <br>“When he ascended on high, <br>he led captivity captive, <br>and gave gifts to people.”<sup>a</sup>
 <sup>9</sup> Now this, “He ascended”, what is it but that he also first descended into the lower parts of the earth?
 <sup>10</sup> He who descended is the one who also ascended far above all the heavens, that he might fill all things.
 
-<sup>11</sup> <sup>b</sup>and teachers;
+<sup>11</sup> He gave some to be apostles; and some, prophets; and some, evangelists; and some, shepherds<sup>b</sup> and teachers;
 <sup>12</sup> for the perfecting of the saints, to the work of serving, to the building up of the body of Christ,
 <sup>13</sup> until we all attain to the unity of the faith and of the knowledge of the Son of God, to a full grown man, to the measure of the stature of the fullness of Christ,
 <sup>14</sup> that we may no longer be children, tossed back and forth and carried about with every wind of doctrine, by the trickery of men, in craftiness, after the wiles of error;
@@ -112,8 +112,8 @@
 <sup>24</sup> and put on the new man, who in the likeness of God has been created in righteousness and holiness of truth.
 
 <sup>25</sup> Therefore, putting away falsehood, speak truth each one with his neighbor, for we are members of one another.
-<sup>26</sup> <sup>c</sup>Don’t let the sun go down on your wrath,
-<sup>27</sup> <sup>d</sup>to the devil.
+<sup>26</sup> “Be angry, and don’t sin.”<sup>c</sup> Don’t let the sun go down on your wrath,
+<sup>27</sup> and don’t give place<sup>d</sup> to the devil.
 <sup>28</sup> Let him who stole steal no more; but rather let him labor, producing with his hands something that is good, that he may have something to give to him who has need.
 <sup>29</sup> Let no corrupt speech proceed out of your mouth, but only what is good for building others up as the need may be, that it may give grace to those who hear.
 <sup>30</sup> Don’t grieve the Holy Spirit of God, in whom you were sealed for the day of redemption.
@@ -163,7 +163,7 @@
 <sup>28</sup> Even so husbands also ought to love their own wives as their own bodies. He who loves his own wife loves himself.
 <sup>29</sup> For no man ever hated his own flesh, but nourishes and cherishes it, even as the Lord also does the assembly,
 <sup>30</sup> because we are members of his body, of his flesh and bones.
-<sup>31</sup> <sup>a</sup>
+<sup>31</sup> “For this cause a man will leave his father and mother and will be joined to his wife. Then the two will become one flesh.”<sup>a</sup>
 <sup>32</sup> This mystery is great, but I speak concerning Christ and the assembly.
 <sup>33</sup> Nevertheless each of you must also love his own wife even as himself; and let the wife see that she respects her husband.
 
@@ -173,7 +173,7 @@
 
 <sup>1</sup> Children, obey your parents in the Lord, for this is right.
 <sup>2</sup> “Honor your father and mother,” which is the first commandment with a promise:
-<sup>3</sup> <sup>a</sup>
+<sup>3</sup> “that it may be well with you, and you may live long on the earth.”<sup>a</sup>
 
 <sup>4</sup> You fathers, don’t provoke your children to wrath, but nurture them in the discipline and instruction of the Lord.
 
@@ -191,7 +191,7 @@
 <sup>14</sup> Stand therefore, having the utility belt of truth buckled around your waist, and having put on the breastplate of righteousness,
 <sup>15</sup> and having fitted your feet with the preparation of the Good News of peace,
 <sup>16</sup> above all, taking up the shield of faith, with which you will be able to quench all the fiery darts of the evil one.
-<sup>17</sup> <sup>b</sup>of God;
+<sup>17</sup> And take the helmet of salvation, and the sword of the Spirit, which is the word<sup>b</sup> of God;
 <sup>18</sup> with all prayer and requests, praying at all times in the Spirit, and being watchful to this end in all perseverance and requests for all the saints.
 <sup>19</sup> Pray for me, that utterance may be given to me in opening my mouth, to make known with boldness the mystery of the Good News,
 <sup>20</sup> for which I am an ambassador in chains; that in it I may speak boldly, as I ought to speak.

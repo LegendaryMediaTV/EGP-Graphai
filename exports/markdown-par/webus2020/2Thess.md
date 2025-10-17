@@ -3,7 +3,7 @@
 <sup>1</sup> Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God our Father and the Lord Jesus Christ:
 <sup>2</sup> Grace to you and peace from God our Father and the Lord Jesus Christ.
 
-<sup>3</sup> <sup>a</sup>even as it is appropriate, because your faith grows exceedingly, and the love of each and every one of you toward one another abounds,
+<sup>3</sup> We are bound to always give thanks to God for you, brothers,<sup>a</sup> even as it is appropriate, because your faith grows exceedingly, and the love of each and every one of you toward one another abounds,
 <sup>4</sup> so that we ourselves boast about you in the assemblies of God for your perseverance and faith in all your persecutions and in the afflictions which you endure.
 <sup>5</sup> This is an obvious sign of the righteous judgment of God, to the end that you may be counted worthy of God’s Kingdom, for which you also suffer.
 <sup>6</sup> For it is a righteous thing with God to repay affliction to those who afflict you,
@@ -13,7 +13,7 @@
 <sup>10</sup> when he comes in that day to be glorified in his saints and to be admired among all those who have believed, because our testimony to you was believed.
 
 <sup>11</sup> To this end we also pray always for you that our God may count you worthy of your calling, and fulfill every desire of goodness and work of faith with power,
-<sup>12</sup> <sup>b</sup>may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.
+<sup>12</sup> that the name of our Lord Jesus<sup>b</sup> may be glorified in you, and you in him, according to the grace of our God and the Lord Jesus Christ.
 
 > - <sup>a</sup> 3. The word for “brothers” here and where context allows may also be correctly translated “brothers and sisters” or “siblings.”
 > - <sup>b</sup> 12. TR adds “Christ”
@@ -22,7 +22,7 @@
 
 <sup>1</sup> Now, brothers, concerning the coming of our Lord Jesus Christ and our gathering together to him, we ask you
 <sup>2</sup> not to be quickly shaken in your mind or troubled, either by spirit or by word or by letter as if from us, saying that the day of Christ has already come.
-<sup>3</sup> <sup>a</sup>comes first, and the man of sin is revealed, the son of destruction.
+<sup>3</sup> Let no one deceive you in any way. For it will not be unless the rebellion<sup>a</sup> comes first, and the man of sin is revealed, the son of destruction.
 <sup>4</sup> He opposes and exalts himself against all that is called God or that is worshiped, so that he sits as God in the temple of God, setting himself up as God.
 <sup>5</sup> Don’t you remember that when I was still with you, I told you these things?
 <sup>6</sup> Now you know what is restraining him, to the end that he may be revealed in his own season.

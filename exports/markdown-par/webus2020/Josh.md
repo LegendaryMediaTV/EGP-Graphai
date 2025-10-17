@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>Yahweh spoke to Joshua the son of Nun, Moses’ servant, saying,
+<sup>1</sup> Now after the death of Moses the servant of Yahweh,<sup>a</sup> Yahweh spoke to Joshua the son of Nun, Moses’ servant, saying,
 <sup>2</sup> “Moses my servant is dead. Now therefore arise, go across this Jordan, you and all these people, to the land which I am giving to them, even to the children of Israel.
 <sup>3</sup> I have given you every place that the sole of your foot will tread on, as I told Moses.
 <sup>4</sup> From the wilderness and this Lebanon even to the great river, the river Euphrates, all the land of the Hittites, and to the great sea toward the going down of the sun, shall be your border.
@@ -9,7 +9,7 @@
 <sup>6</sup> “Be strong and courageous; for you shall cause this people to inherit the land which I swore to their fathers to give them.
 <sup>7</sup> Only be strong and very courageous. Be careful to observe to do according to all the law which Moses my servant commanded you. Don’t turn from it to the right hand or to the left, that you may have good success wherever you go.
 <sup>8</sup> This book of the law shall not depart from your mouth, but you shall meditate on it day and night, that you may observe to do according to all that is written in it; for then you shall make your way prosperous, and then you shall have good success.
-<sup>9</sup> <sup>b</sup>is with you wherever you go.”
+<sup>9</sup> Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for Yahweh your God<sup>b</sup> is with you wherever you go.”
 
 <sup>10</sup> Then Joshua commanded the officers of the people, saying,
 <sup>11</sup> “Pass through the middle of the camp, and command the people, saying, ‘Prepare food; for within three days you are to pass over this Jordan, to go in to possess the land which Yahweh your God gives you to possess.’ ”
@@ -30,7 +30,7 @@
 
 <sup>1</sup> Joshua the son of Nun secretly sent two men out of Shittim as spies, saying, “Go, view the land, including Jericho.” They went and came into the house of a prostitute whose name was Rahab, and slept there.
 
-<sup>2</sup> <sup>a</sup>men of the children of Israel came in here tonight to spy out the land.”
+<sup>2</sup> The king of Jericho was told, “Behold,<sup>a</sup> men of the children of Israel came in here tonight to spy out the land.”
 
 <sup>3</sup> Jericho’s king sent to Rahab, saying, “Bring out the men who have come to you, who have entered into your house; for they have come to spy out all the land.”
 
@@ -68,7 +68,7 @@
 <sup>1</sup> Joshua got up early in the morning; and they moved from Shittim and came to the Jordan, he and all the children of Israel. They camped there before they crossed over.
 <sup>2</sup> After three days, the officers went through the middle of the camp;
 <sup>3</sup> and they commanded the people, saying, “When you see the ark of Yahweh your God’s covenant, and the Levitical priests bearing it, then leave your place and follow it.
-<sup>4</sup> <sup>a</sup>by measure—don’t come closer to it—that you may know the way by which you must go; for you have not passed this way before.”
+<sup>4</sup> Yet there shall be a space between you and it of about two thousand cubits<sup>a</sup> by measure—don’t come closer to it—that you may know the way by which you must go; for you have not passed this way before.”
 
 <sup>5</sup> Joshua said to the people, “Sanctify yourselves; for tomorrow Yahweh will do wonders among you.”
 
@@ -79,7 +79,7 @@
 
 <sup>9</sup> Joshua said to the children of Israel, “Come here, and hear the words of Yahweh your God.”
 <sup>10</sup> Joshua said, “By this you shall know that the living God is among you, and that he will without fail drive the Canaanite, the Hittite, the Hivite, the Perizzite, the Girgashite, the Amorite, and the Jebusite out from before you.
-<sup>11</sup> <sup>b</sup>of all the earth passes over before you into the Jordan.
+<sup>11</sup> Behold, the ark of the covenant of the Lord<sup>b</sup> of all the earth passes over before you into the Jordan.
 <sup>12</sup> Now therefore take twelve men out of the tribes of Israel, for every tribe a man.
 <sup>13</sup> It shall be that when the soles of the feet of the priests who bear the ark of Yahweh, the Lord of all the earth, rest in the waters of the Jordan, that the waters of the Jordan will be cut off. The waters that come down from above shall stand in one heap.”
 
@@ -134,7 +134,7 @@
 <sup>7</sup> Their children, whom he raised up in their place, were circumcised by Joshua, for they were uncircumcised, because they had not circumcised them on the way.
 <sup>8</sup> When they were done circumcising the whole nation, they stayed in their places in the camp until they were healed.
 
-<sup>9</sup> <sup>a</sup>to this day.
+<sup>9</sup> Yahweh said to Joshua, “Today I have rolled away the reproach of Egypt from you.” Therefore the name of that place was called Gilgal<sup>a</sup> to this day.
 <sup>10</sup> The children of Israel encamped in Gilgal. They kept the Passover on the fourteenth day of the month at evening in the plains of Jericho.
 <sup>11</sup> They ate unleavened cakes and parched grain of the produce of the land on the next day after the Passover, in the same day.
 <sup>12</sup> The manna ceased on the next day, after they had eaten of the produce of the land. The children of Israel didn’t have manna any more, but they ate of the fruit of the land of Canaan that year.
@@ -208,7 +208,7 @@
 <sup>19</sup> Joshua said to Achan, “My son, please give glory to Yahweh, the God of Israel, and make confession to him. Tell me now what you have done! Don’t hide it from me!”
 
 <sup>20</sup> Achan answered Joshua, and said, “I have truly sinned against Yahweh, the God of Israel, and this is what I have done.
-<sup>21</sup> <sup>a</sup>of silver, and a wedge of gold weighing fifty shekels, then I coveted them and took them. Behold, they are hidden in the ground in the middle of my tent, with the silver under it.”
+<sup>21</sup> When I saw among the plunder a beautiful Babylonian robe, two hundred shekels<sup>a</sup> of silver, and a wedge of gold weighing fifty shekels, then I coveted them and took them. Behold, they are hidden in the ground in the middle of my tent, with the silver under it.”
 
 <sup>22</sup> So Joshua sent messengers, and they ran to the tent. Behold, it was hidden in his tent, with the silver under it.
 <sup>23</sup> They took them from the middle of the tent, and brought them to Joshua and to all the children of Israel. They laid them down before Yahweh.
@@ -805,7 +805,7 @@
 
 <sup>1</sup> Joshua gathered all the tribes of Israel to Shechem, and called for the elders of Israel, for their heads, for their judges, and for their officers; and they presented themselves before God.
 <sup>2</sup> Joshua said to all the people, “Yahweh, the God of Israel, says, ‘Your fathers lived of old time beyond the River, even Terah, the father of Abraham, and the father of Nahor. They served other gods.
-<sup>3</sup> <sup>a</sup>and gave him Isaac.
+<sup>3</sup> I took your father Abraham from beyond the River, and led him throughout all the land of Canaan, and multiplied his offspring,<sup>a</sup> and gave him Isaac.
 <sup>4</sup> I gave to Isaac Jacob and Esau: and I gave to Esau Mount Seir, to possess it. Jacob and his children went down into Egypt.
 
 <sup>5</sup> “ ‘I sent Moses and Aaron, and I plagued Egypt, according to that which I did among them: and afterward I brought you out.
@@ -845,7 +845,7 @@
 <sup>29</sup> After these things, Joshua the son of Nun, the servant of Yahweh, died, being one hundred ten years old.
 <sup>30</sup> They buried him in the border of his inheritance in Timnathserah, which is in the hill country of Ephraim, on the north of the mountain of Gaash.
 <sup>31</sup> Israel served Yahweh all the days of Joshua, and all the days of the elders who outlived Joshua, and had known all the work of Yahweh, that he had worked for Israel.
-<sup>32</sup> <sup>b</sup>They became the inheritance of the children of Joseph.
+<sup>32</sup> They buried the bones of Joseph, which the children of Israel brought up out of Egypt, in Shechem, in the parcel of ground which Jacob bought from the sons of Hamor the father of Shechem for a hundred pieces of silver.<sup>b</sup> They became the inheritance of the children of Joseph.
 <sup>33</sup> Eleazar the son of Aaron died. They buried him in the hill of Phinehas his son, which was given him in the hill country of Ephraim.
 
 > - <sup>a</sup> 3. or, seed

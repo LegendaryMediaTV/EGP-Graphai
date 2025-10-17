@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>through the will of God, according to the promise of the life which is in Christ Jesus,
+<sup>1</sup> Paul, an apostle of Jesus Christ<sup>a</sup> through the will of God, according to the promise of the life which is in Christ Jesus,
 <sup>2</sup> to Timothy, my beloved child: Grace, mercy, and peace, from God the Father and Christ Jesus our Lord.
 
 <sup>3</sup> I thank God, whom I serve as my forefathers did, with a pure conscience. How unceasing is my memory of you in my petitions, night and day
@@ -35,7 +35,7 @@
 <sup>6</sup> The farmer who labors must be the first to get a share of the crops.
 <sup>7</sup> Consider what I say, and may the Lord give you understanding in all things.
 
-<sup>8</sup> <sup>a</sup>of David, according to my Good News,
+<sup>8</sup> Remember Jesus Christ, risen from the dead, of the offspring<sup>a</sup> of David, according to my Good News,
 <sup>9</sup> in which I suffer hardship to the point of chains as a criminal. But God’s word isn’t chained.
 <sup>10</sup> Therefore I endure all things for the chosen ones’ sake, that they also may obtain the salvation which is in Christ Jesus with eternal glory.
 <sup>11</sup> This saying is trustworthy: <br>“For if we died with him, <br>we will also live with him. <br>
@@ -48,7 +48,7 @@
 <sup>16</sup> But shun empty chatter, for it will go further in ungodliness,
 <sup>17</sup> and those words will consume like gangrene, of whom is Hymenaeus and Philetus:
 <sup>18</sup> men who have erred concerning the truth, saying that the resurrection is already past, and overthrowing the faith of some.
-<sup>19</sup> <sup>b</sup><sup>c</sup>depart from unrighteousness.”
+<sup>19</sup> However, God’s firm foundation stands, having this seal: “The Lord knows those who are his,”<sup>b</sup> and, “Let every one who names the name of the Lord<sup>c</sup> depart from unrighteousness.”
 
 <sup>20</sup> Now in a large house there are not only vessels of gold and of silver, but also of wood and of clay. Some are for honor and some for dishonor.
 <sup>21</sup> If anyone therefore purges himself from these, he will be a vessel for honor, sanctified, and suitable for the master’s use, prepared for every good work.
@@ -81,7 +81,7 @@
 <sup>13</sup> But evil men and impostors will grow worse and worse, deceiving and being deceived.
 <sup>14</sup> But you remain in the things which you have learned and have been assured of, knowing from whom you have learned them.
 <sup>15</sup> From infancy, you have known the holy Scriptures which are able to make you wise for salvation through faith which is in Christ Jesus.
-<sup>16</sup> <sup>a</sup>profitable for teaching, for reproof, for correction, and for instruction in righteousness,
+<sup>16</sup> Every Scripture is God-breathed and<sup>a</sup> profitable for teaching, for reproof, for correction, and for instruction in righteousness,
 <sup>17</sup> that each person who belongs to God may be complete, thoroughly equipped for every good work.
 
 > - <sup>a</sup> 16. or, Every writing inspired by God is

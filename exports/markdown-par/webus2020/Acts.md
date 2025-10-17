@@ -12,7 +12,7 @@
 <sup>8</sup> But you will receive power when the Holy Spirit has come upon you. You will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth.”
 
 <sup>9</sup> When he had said these things, as they were looking, he was taken up, and a cloud received him out of their sight.
-<sup>10</sup> <sup>a</sup>two men stood by them in white clothing,
+<sup>10</sup> While they were looking steadfastly into the sky as he went, behold,<sup>a</sup> two men stood by them in white clothing,
 <sup>11</sup> who also said, “You men of Galilee, why do you stand looking into the sky? This Jesus, who was received up from you into the sky, will come back in the same way as you saw him going into the sky.”
 
 <sup>12</sup> Then they returned to Jerusalem from the mountain called Olivet, which is near Jerusalem, a Sabbath day’s journey away.
@@ -24,7 +24,7 @@
 <sup>17</sup> For he was counted with us, and received his portion in this ministry.
 <sup>18</sup> Now this man obtained a field with the reward for his wickedness; and falling headlong, his body burst open and all his intestines gushed out.
 <sup>19</sup> It became known to everyone who lived in Jerusalem that in their language that field was called ‘Akeldama,’ that is, ‘The field of blood.’
-<sup>20</sup> For it is written in the book of Psalms, <br>‘Let his habitation be made desolate. <br><sup>b</sup>and, <br><sup>c</sup>
+<sup>20</sup> For it is written in the book of Psalms, <br>‘Let his habitation be made desolate. <br>Let no one dwell in it;’<sup>b</sup> and, <br>‘Let another take his office.’<sup>c</sup>
 
 <sup>21</sup> “Of the men therefore who have accompanied us all the time that the Lord Jesus went in and out among us,
 <sup>22</sup> beginning from the baptism of John to the day that he was received up from us, of these one must become a witness with us of his resurrection.”
@@ -56,29 +56,29 @@
 <sup>13</sup> Others, mocking, said, “They are filled with new wine.”
 
 <sup>14</sup> But Peter, standing up with the eleven, lifted up his voice and spoke out to them, “You men of Judea and all you who dwell at Jerusalem, let this be known to you, and listen to my words.
-<sup>15</sup> <sup>a</sup>
+<sup>15</sup> For these aren’t drunken, as you suppose, seeing it is only the third hour of the day.<sup>a</sup>
 <sup>16</sup> But this is what has been spoken through the prophet Joel: <br>
 <sup>17</sup> ‘It will be in the last days, says God, <br>that I will pour out my Spirit on all flesh. <br>Your sons and your daughters will prophesy. <br>Your young men will see visions. <br>Your old men will dream dreams. <br>
 <sup>18</sup> Yes, and on my servants and on my handmaidens in those days, <br>I will pour out my Spirit, and they will prophesy. <br>
 <sup>19</sup> I will show wonders in the sky above, <br>and signs on the earth beneath: <br>blood, and fire, and billows of smoke. <br>
 <sup>20</sup> The sun will be turned into darkness, <br>and the moon into blood, <br>before the great and glorious day of the Lord comes. <br>
-<sup>21</sup> <sup>b</sup>
+<sup>21</sup> It will be that whoever will call on the name of the Lord will be saved.’<sup>b</sup>
 
 <sup>22</sup> “Men of Israel, hear these words! Jesus of Nazareth, a man approved by God to you by mighty works and wonders and signs which God did by him among you, even as you yourselves know,
 <sup>23</sup> him, being delivered up by the determined counsel and foreknowledge of God, you have taken by the hand of lawless men, crucified and killed;
 <sup>24</sup> whom God raised up, having freed him from the agony of death, because it was not possible that he should be held by it.
 <sup>25</sup> For David says concerning him, <br>‘I saw the Lord always before my face, <br>for he is on my right hand, that I should not be moved. <br>
 <sup>26</sup> Therefore my heart was glad, and my tongue rejoiced. <br>Moreover my flesh also will dwell in hope, <br>
-<sup>27</sup> <sup>c</sup><br>neither will you allow your Holy One to see decay. <br>
-<sup>28</sup> You made known to me the ways of life. <br><sup>d</sup>
+<sup>27</sup> because you will not leave my soul in Hades,<sup>c</sup> <br>neither will you allow your Holy One to see decay. <br>
+<sup>28</sup> You made known to me the ways of life. <br>You will make me full of gladness with your presence.’<sup>d</sup>
 
 <sup>29</sup> “Brothers, I may tell you freely of the patriarch David, that he both died and was buried, and his tomb is with us to this day.
-<sup>30</sup> <sup>e</sup>to sit on his throne,
-<sup>31</sup> <sup>f</sup>and his flesh didn’t see decay.
+<sup>30</sup> Therefore, being a prophet, and knowing that God had sworn with an oath to him that of the fruit of his body, according to the flesh, he would raise up the Christ<sup>e</sup> to sit on his throne,
+<sup>31</sup> he foreseeing this, spoke about the resurrection of the Christ, that his soul wasn’t left in Hades,<sup>f</sup> and his flesh didn’t see decay.
 <sup>32</sup> This Jesus God raised up, to which we all are witnesses.
 <sup>33</sup> Being therefore exalted by the right hand of God, and having received from the Father the promise of the Holy Spirit, he has poured out this which you now see and hear.
 <sup>34</sup> For David didn’t ascend into the heavens, but he says himself, <br>‘The Lord said to my Lord, “Sit by my right hand <br>
-<sup>35</sup> <sup>g</sup>
+<sup>35</sup> until I make your enemies a footstool for your feet.” ’<sup>g</sup>
 
 <sup>36</sup> “Let all the house of Israel therefore know certainly that God has made him both Lord and Christ, this Jesus whom you crucified.”
 
@@ -106,7 +106,7 @@
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>
+<sup>1</sup> Peter and John were going up into the temple at the hour of prayer, the ninth hour.<sup>a</sup>
 <sup>2</sup> A certain man who was lame from his mother’s womb was being carried, whom they laid daily at the door of the temple which is called Beautiful, to ask gifts for the needy of those who entered into the temple.
 <sup>3</sup> Seeing Peter and John about to go into the temple, he asked to receive gifts for the needy.
 <sup>4</sup> Peter, fastening his eyes on him, with John, said, “Look at us.”
@@ -124,16 +124,16 @@
 <sup>15</sup> and killed the Prince of life, whom God raised from the dead, to which we are witnesses.
 <sup>16</sup> By faith in his name, his name has made this man strong, whom you see and know. Yes, the faith which is through him has given him this perfect soundness in the presence of you all.
 
-<sup>17</sup> <sup>b</sup>I know that you did this in ignorance, as did also your rulers.
+<sup>17</sup> “Now, brothers,<sup>b</sup> I know that you did this in ignorance, as did also your rulers.
 <sup>18</sup> But the things which God announced by the mouth of all his prophets, that Christ should suffer, he thus fulfilled.
 
 <sup>19</sup> “Repent therefore, and turn again, that your sins may be blotted out, so that there may come times of refreshing from the presence of the Lord,
 <sup>20</sup> and that he may send Christ Jesus, who was ordained for you before,
 <sup>21</sup> whom heaven must receive until the times of restoration of all things, which God spoke long ago by the mouth of his holy prophets.
 <sup>22</sup> For Moses indeed said to the fathers, ‘The Lord God will raise up a prophet for you from among your brothers, like me. You shall listen to him in all things whatever he says to you.
-<sup>23</sup> <sup>c</sup>
+<sup>23</sup> It will be that every soul that will not listen to that prophet will be utterly destroyed from among the people.’<sup>c</sup>
 <sup>24</sup> Yes, and all the prophets from Samuel and those who followed after, as many as have spoken, also told of these days.
-<sup>25</sup> <sup>d</sup>
+<sup>25</sup> You are the children of the prophets, and of the covenant which God made with our fathers, saying to Abraham, ‘All the families of the earth will be blessed through your offspring.’<sup>d</sup>
 <sup>26</sup> God, having raised up his servant Jesus, sent him to you first to bless you, in turning away every one of you from your wickedness.”
 
 > - <sup>a</sup> 1. 3:00 p.m.
@@ -155,7 +155,7 @@
 <sup>8</sup> Then Peter, filled with the Holy Spirit, said to them, “You rulers of the people and elders of Israel,
 <sup>9</sup> if we are examined today concerning a good deed done to a crippled man, by what means this man has been healed,
 <sup>10</sup> may it be known to you all, and to all the people of Israel, that in the name of Jesus Christ of Nazareth, whom you crucified, whom God raised from the dead, this man stands here before you whole in him.
-<sup>11</sup> <sup>a</sup>
+<sup>11</sup> He is ‘the stone which was regarded as worthless by you, the builders, which has become the head of the corner.’<sup>a</sup>
 <sup>12</sup> There is salvation in no one else, for there is no other name under heaven that is given among men, by which we must be saved!”
 
 <sup>13</sup> Now when they saw the boldness of Peter and John, and had perceived that they were unlearned and ignorant men, they marveled. They recognized that they had been with Jesus.
@@ -174,9 +174,9 @@
 <sup>23</sup> Being let go, they came to their own company and reported all that the chief priests and the elders had said to them.
 <sup>24</sup> When they heard it, they lifted up their voice to God with one accord and said, “O Lord, you are God, who made the heaven, the earth, the sea, and all that is in them;
 <sup>25</sup> who by the mouth of your servant David, said, <br>‘Why do the nations rage, <br>and the peoples plot a vain thing? <br>
-<sup>26</sup> The kings of the earth take a stand, <br>and the rulers plot together, <br><sup>b</sup>
+<sup>26</sup> The kings of the earth take a stand, <br>and the rulers plot together, <br>against the Lord, and against his Christ.’<sup>b</sup>
 
-<sup>27</sup> <sup>c</sup>both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,
+<sup>27</sup> “For truly,<sup>c</sup> both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,
 <sup>28</sup> to do whatever your hand and your counsel foreordained to happen.
 <sup>29</sup> Now, Lord, look at their threats, and grant to your servants to speak your word with all boldness,
 <sup>30</sup> while you stretch out your hand to heal; and that signs and wonders may be done through the name of your holy Servant Jesus.”
@@ -253,7 +253,7 @@
 <sup>42</sup> Every day, in the temple and at home, they never stopped teaching and preaching Jesus, the Christ.
 ## Chapter 6
 
-<sup>1</sup> <sup>a</sup>against the Hebrews, because their widows were neglected in the daily service.
+<sup>1</sup> Now in those days, when the number of the disciples was multiplying, a complaint arose from the Hellenists<sup>a</sup> against the Hebrews, because their widows were neglected in the daily service.
 <sup>2</sup> The twelve summoned the multitude of the disciples and said, “It is not appropriate for us to forsake the word of God and serve tables.
 <sup>3</sup> Therefore, select from among you, brothers, seven men of good report, full of the Holy Spirit and of wisdom, whom we may appoint over this business.
 <sup>4</sup> But we will continue steadfastly in prayer and in the ministry of the word.”
@@ -279,11 +279,11 @@
 <sup>1</sup> The high priest said, “Are these things so?”
 
 <sup>2</sup> He said, “Brothers and fathers, listen. The God of glory appeared to our father Abraham when he was in Mesopotamia, before he lived in Haran,
-<sup>3</sup> <sup>a</sup>
+<sup>3</sup> and said to him, ‘Get out of your land and away from your relatives, and come into a land which I will show you.’<sup>a</sup>
 <sup>4</sup> Then he came out of the land of the Chaldaeans and lived in Haran. From there, when his father was dead, God moved him into this land where you are now living.
 <sup>5</sup> He gave him no inheritance in it, no, not so much as to set his foot on. He promised that he would give it to him for a possession, and to his offspring after him, when he still had no child.
 <sup>6</sup> God spoke in this way: that his offspring would live as aliens in a strange land, and that they would be enslaved and mistreated for four hundred years.
-<sup>7</sup> <sup>b</sup>
+<sup>7</sup> ‘I will judge the nation to which they will be in bondage,’ said God, ‘and after that they will come out and serve me in this place.’<sup>b</sup>
 <sup>8</sup> He gave him the covenant of circumcision. So Abraham became the father of Isaac, and circumcised him the eighth day. Isaac became the father of Jacob, and Jacob became the father of the twelve patriarchs.
 
 <sup>9</sup> “The patriarchs, moved with jealousy against Joseph, sold him into Egypt. God was with him
@@ -301,30 +301,30 @@
 <sup>20</sup> At that time Moses was born, and was exceedingly handsome to God. He was nourished three months in his father’s house.
 <sup>21</sup> When he was abandoned, Pharaoh’s daughter took him up and reared him as her own son.
 <sup>22</sup> Moses was instructed in all the wisdom of the Egyptians. He was mighty in his words and works.
-<sup>23</sup> <sup>c</sup>the children of Israel.
+<sup>23</sup> But when he was forty years old, it came into his heart to visit his brothers,<sup>c</sup> the children of Israel.
 <sup>24</sup> Seeing one of them suffer wrong, he defended him and avenged him who was oppressed, striking the Egyptian.
 <sup>25</sup> He supposed that his brothers understood that God, by his hand, was giving them deliverance; but they didn’t understand.
 
 <sup>26</sup> “The day following, he appeared to them as they fought, and urged them to be at peace again, saying, ‘Sirs, you are brothers. Why do you wrong one another?’
 <sup>27</sup> But he who did his neighbor wrong pushed him away, saying, ‘Who made you a ruler and a judge over us?
-<sup>28</sup> <sup>d</sup>
+<sup>28</sup> Do you want to kill me as you killed the Egyptian yesterday?’<sup>d</sup>
 <sup>29</sup> Moses fled at this saying, and became a stranger in the land of Midian, where he became the father of two sons.
 
 <sup>30</sup> “When forty years were fulfilled, an angel of the Lord appeared to him in the wilderness of Mount Sinai, in a flame of fire in a bush.
 <sup>31</sup> When Moses saw it, he wondered at the sight. As he came close to see, the voice of the Lord came to him,
-<sup>32</sup> <sup>e</sup>Moses trembled and dared not look.
+<sup>32</sup> ‘I am the God of your fathers: the God of Abraham, the God of Isaac, and the God of Jacob.’<sup>e</sup> Moses trembled and dared not look.
 <sup>33</sup> The Lord said to him, ‘Take off your sandals, for the place where you stand is holy ground.
-<sup>34</sup> <sup>f</sup>
+<sup>34</sup> I have surely seen the affliction of my people who are in Egypt, and have heard their groaning. I have come down to deliver them. Now come, I will send you into Egypt.’<sup>f</sup>
 
 <sup>35</sup> “This Moses whom they refused, saying, ‘Who made you a ruler and a judge?’—God has sent him as both a ruler and a deliverer by the hand of the angel who appeared to him in the bush.
 <sup>36</sup> This man led them out, having worked wonders and signs in Egypt, in the Red Sea, and in the wilderness for forty years.
-<sup>37</sup> <sup>g</sup>
+<sup>37</sup> This is that Moses who said to the children of Israel, ‘The Lord our God will raise up a prophet for you from among your brothers, like me.’<sup>g</sup>
 <sup>38</sup> This is he who was in the assembly in the wilderness with the angel that spoke to him on Mount Sinai, and with our fathers, who received living revelations to give to us,
 <sup>39</sup> to whom our fathers wouldn’t be obedient, but rejected him and turned back in their hearts to Egypt,
-<sup>40</sup> <sup>h</sup>
+<sup>40</sup> saying to Aaron, ‘Make us gods that will go before us, for as for this Moses who led us out of the land of Egypt, we don’t know what has become of him.’<sup>h</sup>
 <sup>41</sup> They made a calf in those days, and brought a sacrifice to the idol, and rejoiced in the works of their hands.
-<sup>42</sup> <sup>i</sup>as it is written in the book of the prophets, <br>‘Did you offer to me slain animals and sacrifices <br>forty years in the wilderness, O house of Israel? <br>
-<sup>43</sup> You took up the tabernacle of Moloch, <br>the star of your god Rephan, <br>the figures which you made to worship, <br><sup>j</sup>beyond Babylon.’
+<sup>42</sup> But God turned away and gave them up to serve the army of the sky,<sup>i</sup> as it is written in the book of the prophets, <br>‘Did you offer to me slain animals and sacrifices <br>forty years in the wilderness, O house of Israel? <br>
+<sup>43</sup> You took up the tabernacle of Moloch, <br>the star of your god Rephan, <br>the figures which you made to worship, <br>so I will carry you away<sup>j</sup> beyond Babylon.’
 
 <sup>44</sup> “Our fathers had the tabernacle of the testimony in the wilderness, even as he who spoke to Moses commanded him to make it according to the pattern that he had seen;
 <sup>45</sup> which also our fathers, in their turn, brought in with Joshua when they entered into the possession of the nations whom God drove out before the face of our fathers to the days of David,
@@ -332,7 +332,7 @@
 <sup>47</sup> But Solomon built him a house.
 <sup>48</sup> However, the Most High doesn’t dwell in temples made with hands, as the prophet says, <br>
 <sup>49</sup> ‘heaven is my throne, <br>and the earth a footstool for my feet. <br>What kind of house will you build me?’ says the Lord. <br>‘Or what is the place of my rest? <br>
-<sup>50</sup> <sup>k</sup>
+<sup>50</sup> Didn’t my hand make all these things?’<sup>k</sup>
 
 <sup>51</sup> “You stiff-necked and uncircumcised in heart and ears, you always resist the Holy Spirit! As your fathers did, so you do.
 <sup>52</sup> Which of the prophets didn’t your fathers persecute? They killed those who foretold the coming of the Righteous One, of whom you have now become betrayers and murderers.
@@ -402,21 +402,20 @@
 
 <sup>31</sup> He said, “How can I, unless someone explains it to me?” He begged Philip to come up and sit with him.
 <sup>32</sup> Now the passage of the Scripture which he was reading was this, <br>“He was led as a sheep to the slaughter. <br>As a lamb before his shearer is silent, <br>so he doesn’t open his mouth. <br>
-<sup>33</sup> In his humiliation, his judgment was taken away. <br>Who will declare His generation? <br><sup>a</sup>
+<sup>33</sup> In his humiliation, his judgment was taken away. <br>Who will declare His generation? <br>For his life is taken from the earth.”<sup>a</sup>
 
 <sup>34</sup> The eunuch answered Philip, “Who is the prophet talking about? About himself, or about someone else?”
 
 <sup>35</sup> Philip opened his mouth, and beginning from this Scripture, preached to him about Jesus.
 <sup>36</sup> As they went on the way, they came to some water; and the eunuch said, “Behold, here is water. What is keeping me from being baptized?”
 
-<sup>37</sup> <sup>b</sup>
+<sup>37</sup> 
 <sup>38</sup> He commanded the chariot to stand still, and they both went down into the water, both Philip and the eunuch, and he baptized him.
 
 <sup>39</sup> When they came up out of the water, the Spirit of the Lord caught Philip away, and the eunuch didn’t see him any more, for he went on his way rejoicing.
 <sup>40</sup> But Philip was found at Azotus. Passing through, he preached the Good News to all the cities until he came to Caesarea.
 
 > - <sup>a</sup> 33. Isaiah 53:7,8
-> - <sup>b</sup> 37. TR adds Philip said, “If you believe with all your heart, you may.” He answered, “I believe that Jesus Christ is the Son of God.”
 
 ## Chapter 9
 
@@ -425,8 +424,8 @@
 <sup>3</sup> As he traveled, he got close to Damascus, and suddenly a light from the sky shone around him.
 <sup>4</sup> He fell on the earth, and heard a voice saying to him, “Saul, Saul, why do you persecute me?”
 
-<sup>5</sup> He said, “Who are you, Lord?” The Lord said, <sup>a</sup>
-<sup>6</sup> <sup>b</sup>rise up and enter into the city, then you will be told what you must do.”
+<sup>5</sup> He said, “Who are you, Lord?” The Lord said, “I am Jesus, whom you are persecuting.<sup>a</sup>
+<sup>6</sup> But<sup>b</sup> rise up and enter into the city, then you will be told what you must do.”
 
 <sup>7</sup> The men who traveled with him stood speechless, hearing the sound, but seeing no one.
 <sup>8</sup> Saul arose from the ground, and when his eyes were opened, he saw no one. They led him by the hand and brought him into Damascus.
@@ -434,7 +433,7 @@
 
 <sup>10</sup> Now there was a certain disciple at Damascus named Ananias. The Lord said to him in a vision, “Ananias!” He said, “Behold, it’s me, Lord.”
 
-<sup>11</sup> The Lord said to him, <sup>c</sup>for one named Saul, a man of Tarsus. For behold, he is praying,
+<sup>11</sup> The Lord said to him, “Arise and go to the street which is called Straight, and inquire in the house of Judah<sup>c</sup> for one named Saul, a man of Tarsus. For behold, he is praying,
 <sup>12</sup> and in a vision he has seen a man named Ananias coming in and laying his hands on him, that he might receive his sight.”
 
 <sup>13</sup> But Ananias answered, “Lord, I have heard from many about this man, how much evil he did to your saints at Jerusalem.
@@ -456,9 +455,9 @@
 
 <sup>26</sup> When Saul had come to Jerusalem, he tried to join himself to the disciples; but they were all afraid of him, not believing that he was a disciple.
 <sup>27</sup> But Barnabas took him and brought him to the apostles, and declared to them how he had seen the Lord on the way, and that he had spoken to him, and how at Damascus he had preached boldly in the name of Jesus.
-<sup>28</sup> <sup>d</sup>Jerusalem,
-<sup>29</sup> <sup>e</sup><sup>f</sup>but they were seeking to kill him.
-<sup>30</sup> <sup>g</sup>knew it, they brought him down to Caesarea and sent him off to Tarsus.
+<sup>28</sup> He was with them entering into<sup>d</sup> Jerusalem,
+<sup>29</sup> preaching boldly in the name of the Lord Jesus.<sup>e</sup> He spoke and disputed against the Hellenists,<sup>f</sup> but they were seeking to kill him.
+<sup>30</sup> When the brothers<sup>g</sup> knew it, they brought him down to Caesarea and sent him off to Tarsus.
 
 <sup>31</sup> So the assemblies throughout all Judea, Galilee, and Samaria had peace and were built up. They were multiplied, walking in the fear of the Lord and in the comfort of the Holy Spirit.
 
@@ -467,9 +466,9 @@
 <sup>34</sup> Peter said to him, “Aeneas, Jesus Christ heals you. Get up and make your bed!” Immediately he arose.
 <sup>35</sup> All who lived at Lydda and in Sharon saw him, and they turned to the Lord.
 
-<sup>36</sup> <sup>h</sup>This woman was full of good works and acts of mercy which she did.
+<sup>36</sup> Now there was at Joppa a certain disciple named Tabitha, which when translated means Dorcas.<sup>h</sup> This woman was full of good works and acts of mercy which she did.
 <sup>37</sup> In those days, she became sick and died. When they had washed her, they laid her in an upper room.
-<sup>38</sup> <sup>i</sup>to him, imploring him not to delay in coming to them.
+<sup>38</sup> As Lydda was near Joppa, the disciples, hearing that Peter was there, sent two men<sup>i</sup> to him, imploring him not to delay in coming to them.
 <sup>39</sup> Peter got up and went with them. When he had come, they brought him into the upper room. All the widows stood by him weeping, and showing the tunics and other garments which Dorcas had made while she was with them.
 <sup>40</sup> Peter sent them all out, and knelt down and prayed. Turning to the body, he said, “Tabitha, get up!” She opened her eyes, and when she saw Peter, she sat up.
 <sup>41</sup> He gave her his hand and raised her up. Calling the saints and widows, he presented her alive.
@@ -490,11 +489,11 @@
 
 <sup>1</sup> Now there was a certain man in Caesarea, Cornelius by name, a centurion of what was called the Italian Regiment,
 <sup>2</sup> a devout man, and one who feared God with all his house, who gave gifts for the needy generously to the people, and always prayed to God.
-<sup>3</sup> <sup>a</sup>he clearly saw in a vision an angel of God coming to him and saying to him, “Cornelius!”
+<sup>3</sup> At about the ninth hour of the day,<sup>a</sup> he clearly saw in a vision an angel of God coming to him and saying to him, “Cornelius!”
 
 <sup>4</sup> He, fastening his eyes on him and being frightened, said, “What is it, Lord?” He said to him, “Your prayers and your gifts to the needy have gone up for a memorial before God.
 <sup>5</sup> Now send men to Joppa, and get Simon, who is also called Peter.
-<sup>6</sup> <sup>b</sup>
+<sup>6</sup> He is staying with a tanner named Simon, whose house is by the seaside.<sup>b</sup>
 
 <sup>7</sup> When the angel who spoke to him had departed, Cornelius called two of his household servants and a devout soldier of those who waited on him continually.
 <sup>8</sup> Having explained everything to them, he sent them to Joppa.
@@ -512,7 +511,7 @@
 
 <sup>17</sup> Now while Peter was very perplexed in himself what the vision which he had seen might mean, behold, the men who were sent by Cornelius, having made inquiry for Simon’s house, stood before the gate,
 <sup>18</sup> and called and asked whether Simon, who was also called Peter, was lodging there.
-<sup>19</sup> <sup>c</sup>men seek you.
+<sup>19</sup> While Peter was pondering the vision, the Spirit said to him, “Behold, three<sup>c</sup> men seek you.
 <sup>20</sup> But arise, get down, and go with them, doubting nothing; for I have sent them.”
 
 <sup>21</sup> Peter went down to the men, and said, “Behold, I am he whom you seek. Why have you come?”
@@ -526,7 +525,7 @@
 <sup>28</sup> He said to them, “You yourselves know how it is an unlawful thing for a man who is a Jew to join himself or come to one of another nation, but God has shown me that I shouldn’t call any man unholy or unclean.
 <sup>29</sup> Therefore I also came without complaint when I was sent for. I ask therefore, why did you send for me?”
 
-<sup>30</sup> <sup>d</sup>I prayed in my house, and behold, a man stood before me in bright clothing
+<sup>30</sup> Cornelius said, “Four days ago, I was fasting until this hour; and at the ninth hour,<sup>d</sup> I prayed in my house, and behold, a man stood before me in bright clothing
 <sup>31</sup> and said, ‘Cornelius, your prayer is heard, and your gifts to the needy are remembered in the sight of God.
 <sup>32</sup> Send therefore to Joppa and summon Simon, who is also called Peter. He is staying in the house of a tanner named Simon, by the seaside. When he comes, he will speak to you.’
 <sup>33</sup> Therefore I sent to you at once, and it was good of you to come. Now therefore we are all here present in the sight of God to hear all things that have been commanded you by God.”
@@ -536,7 +535,7 @@
 <sup>36</sup> The word which he sent to the children of Israel, preaching good news of peace by Jesus Christ—he is Lord of all—
 <sup>37</sup> you yourselves know what happened, which was proclaimed throughout all Judea, beginning from Galilee, after the baptism which John preached;
 <sup>38</sup> how God anointed Jesus of Nazareth with the Holy Spirit and with power, who went about doing good and healing all who were oppressed by the devil, for God was with him.
-<sup>39</sup> <sup>e</sup>killed, hanging him on a tree.
+<sup>39</sup> We are witnesses of everything he did both in the country of the Jews and in Jerusalem; whom they also<sup>e</sup> killed, hanging him on a tree.
 <sup>40</sup> God raised him up the third day and gave him to be revealed,
 <sup>41</sup> not to all the people, but to witnesses who were chosen before by God, to us, who ate and drank with him after he rose from the dead.
 <sup>42</sup> He commanded us to preach to the people and to testify that this is he who is appointed by God as the Judge of the living and the dead.
@@ -556,7 +555,7 @@
 
 ## Chapter 11
 
-<sup>1</sup> <sup>a</sup>who were in Judea heard that the Gentiles had also received the word of God.
+<sup>1</sup> Now the apostles and the brothers<sup>a</sup> who were in Judea heard that the Gentiles had also received the word of God.
 <sup>2</sup> When Peter had come up to Jerusalem, those who were of the circumcision contended with him,
 <sup>3</sup> saying, “You went in to uncircumcised men and ate with them!”
 
@@ -578,7 +577,7 @@
 <sup>18</sup> When they heard these things, they held their peace and glorified God, saying, “Then God has also granted to the Gentiles repentance to life!”
 
 <sup>19</sup> They therefore who were scattered abroad by the oppression that arose about Stephen traveled as far as Phoenicia, Cyprus, and Antioch, speaking the word to no one except to Jews only.
-<sup>20</sup> <sup>b</sup>preaching the Lord Jesus.
+<sup>20</sup> But there were some of them, men of Cyprus and Cyrene, who, when they had come to Antioch, spoke to the Hellenists,<sup>b</sup> preaching the Lord Jesus.
 <sup>21</sup> The hand of the Lord was with them, and a great number believed and turned to the Lord.
 <sup>22</sup> The report concerning them came to the ears of the assembly which was in Jerusalem. They sent out Barnabas to go as far as Antioch,
 <sup>23</sup> who, when he had come, and had seen the grace of God, was glad. He exhorted them all, that with purpose of heart they should remain near to the Lord.
@@ -627,7 +626,7 @@
 <sup>23</sup> Immediately an angel of the Lord struck him, because he didn’t give God the glory. Then he was eaten by worms and died.
 
 <sup>24</sup> But the word of God grew and multiplied.
-<sup>25</sup> <sup>a</sup>Jerusalem when they had fulfilled their service, also taking with them John who was called Mark.
+<sup>25</sup> Barnabas and Saul returned to<sup>a</sup> Jerusalem when they had fulfilled their service, also taking with them John who was called Mark.
 
 > - <sup>a</sup> 25. TR reads “from” instead of “to”
 
@@ -652,14 +651,14 @@
 <sup>15</sup> After the reading of the law and the prophets, the rulers of the synagogue sent to them, saying, “Brothers, if you have any word of exhortation for the people, speak.”
 
 <sup>16</sup> Paul stood up, and gesturing with his hand said, “Men of Israel, and you who fear God, listen.
-<sup>17</sup> <sup>a</sup>chose our fathers, and exalted the people when they stayed as aliens in the land of Egypt, and with an uplifted arm, he led them out of it.
+<sup>17</sup> The God of this people<sup>a</sup> chose our fathers, and exalted the people when they stayed as aliens in the land of Egypt, and with an uplifted arm, he led them out of it.
 <sup>18</sup> For a period of about forty years he put up with them in the wilderness.
 <sup>19</sup> When he had destroyed seven nations in the land of Canaan, he gave them their land for an inheritance for about four hundred fifty years.
 <sup>20</sup> After these things, he gave them judges until Samuel the prophet.
 <sup>21</sup> Afterward they asked for a king, and God gave to them Saul the son of Kish, a man of the tribe of Benjamin, for forty years.
 <sup>22</sup> When he had removed him, he raised up David to be their king, to whom he also testified, ‘I have found David the son of Jesse, a man after my heart, who will do all my will.’
-<sup>23</sup> <sup>b</sup>to Israel according to his promise,
-<sup>24</sup> <sup>c</sup>
+<sup>23</sup> From this man’s offspring, God has brought salvation<sup>b</sup> to Israel according to his promise,
+<sup>24</sup> before his coming, when John had first preached the baptism of repentance to Israel.<sup>c</sup>
 <sup>25</sup> As John was fulfilling his course, he said, ‘What do you suppose that I am? I am not he. But behold, one comes after me, the sandals of whose feet I am not worthy to untie.’
 
 <sup>26</sup> “Brothers, children of the stock of Abraham, and those among you who fear God, the word of this salvation is sent out to you.
@@ -669,16 +668,16 @@
 <sup>30</sup> But God raised him from the dead,
 <sup>31</sup> and he was seen for many days by those who came up with him from Galilee to Jerusalem, who are his witnesses to the people.
 <sup>32</sup> We bring you good news of the promise made to the fathers,
-<sup>33</sup> that God has fulfilled this to us, their children, in that he raised up Jesus. As it is also written in the second psalm, <br>‘You are my Son. <br><sup>d</sup>
+<sup>33</sup> that God has fulfilled this to us, their children, in that he raised up Jesus. As it is also written in the second psalm, <br>‘You are my Son. <br>Today I have become your father.’<sup>d</sup>
 
-<sup>34</sup> <sup>e</sup>
-<sup>35</sup> <sup>f</sup>
+<sup>34</sup> “Concerning that he raised him up from the dead, now no more to return to corruption, he has spoken thus: ‘I will give you the holy and sure blessings of David.’<sup>e</sup>
+<sup>35</sup> Therefore he says also in another psalm, ‘You will not allow your Holy One to see decay.’<sup>f</sup>
 <sup>36</sup> For David, after he had in his own generation served the counsel of God, fell asleep, was laid with his fathers, and saw decay.
 <sup>37</sup> But he whom God raised up saw no decay.
-<sup>38</sup> <sup>g</sup>that through this man is proclaimed to you remission of sins;
+<sup>38</sup> Be it known to you therefore, brothers,<sup>g</sup> that through this man is proclaimed to you remission of sins;
 <sup>39</sup> and by him everyone who believes is justified from all things, from which you could not be justified by the law of Moses.
 <sup>40</sup> Beware therefore, lest that come on you which is spoken in the prophets: <br>
-<sup>41</sup> ‘Behold, you scoffers! <br>Wonder and perish, <br>for I work a work in your days, <br><sup>h</sup>
+<sup>41</sup> ‘Behold, you scoffers! <br>Wonder and perish, <br>for I work a work in your days, <br>a work which you will in no way believe, if one declares it to you.’ ”<sup>h</sup>
 
 <sup>42</sup> So when the Jews went out of the synagogue, the Gentiles begged that these words might be preached to them the next Sabbath.
 <sup>43</sup> Now when the synagogue broke up, many of the Jews and of the devout proselytes followed Paul and Barnabas; who, speaking to them, urged them to continue in the grace of God.
@@ -687,7 +686,7 @@
 <sup>45</sup> But when the Jews saw the multitudes, they were filled with jealousy, and contradicted the things which were spoken by Paul, and blasphemed.
 
 <sup>46</sup> Paul and Barnabas spoke out boldly, and said, “It was necessary that God’s word should be spoken to you first. Since indeed you thrust it from yourselves, and judge yourselves unworthy of eternal life, behold, we turn to the Gentiles.
-<sup>47</sup> For so has the Lord commanded us, saying, <br>‘I have set you as a light for the Gentiles, <br><sup>i</sup>
+<sup>47</sup> For so has the Lord commanded us, saying, <br>‘I have set you as a light for the Gentiles, <br>that you should bring salvation to the uttermost parts of the earth.’ ”<sup>i</sup>
 
 <sup>48</sup> As the Gentiles heard this, they were glad and glorified the word of God. As many as were appointed to eternal life believed.
 <sup>49</sup> The Lord’s word was spread abroad throughout all the region.
@@ -708,7 +707,7 @@
 ## Chapter 14
 
 <sup>1</sup> In Iconium, they entered together into the synagogue of the Jews, and so spoke that a great multitude both of Jews and of Greeks believed.
-<sup>2</sup> <sup>a</sup>Jews stirred up and embittered the souls of the Gentiles against the brothers.
+<sup>2</sup> But the disbelieving<sup>a</sup> Jews stirred up and embittered the souls of the Gentiles against the brothers.
 <sup>3</sup> Therefore they stayed there a long time, speaking boldly in the Lord, who testified to the word of his grace, granting signs and wonders to be done by their hands.
 <sup>4</sup> But the multitude of the city was divided. Part sided with the Jews and part with the apostles.
 <sup>5</sup> When some of both the Gentiles and the Jews, with their rulers, made a violent attempt to mistreat and stone them,
@@ -725,7 +724,7 @@
 <sup>14</sup> But when the apostles, Barnabas and Paul, heard of it, they tore their clothes and sprang into the multitude, crying out,
 <sup>15</sup> “Men, why are you doing these things? We also are men of the same nature as you, and bring you good news, that you should turn from these vain things to the living God, who made the sky, the earth, the sea, and all that is in them;
 <sup>16</sup> who in the generations gone by allowed all the nations to walk in their own ways.
-<sup>17</sup> <sup>b</sup>rains from the sky and fruitful seasons, filling our hearts with food and gladness.”
+<sup>17</sup> Yet he didn’t leave himself without witness, in that he did good and gave you<sup>b</sup> rains from the sky and fruitful seasons, filling our hearts with food and gladness.”
 
 <sup>18</sup> Even saying these things, they hardly stopped the multitudes from making a sacrifice to them.
 <sup>19</sup> But some Jews from Antioch and Iconium came there, and having persuaded the multitudes, they stoned Paul and dragged him out of the city, supposing that he was dead.
@@ -747,7 +746,7 @@
 
 ## Chapter 15
 
-<sup>1</sup> <sup>a</sup>“Unless you are circumcised after the custom of Moses, you can’t be saved.”
+<sup>1</sup> Some men came down from Judea and taught the brothers,<sup>a</sup> “Unless you are circumcised after the custom of Moses, you can’t be saved.”
 <sup>2</sup> Therefore when Paul and Barnabas had no small discord and discussion with them, they appointed Paul, Barnabas, and some others of them to go up to Jerusalem to the apostles and elders about this question.
 <sup>3</sup> They, being sent on their way by the assembly, passed through both Phoenicia and Samaria, declaring the conversion of the Gentiles. They caused great joy to all the brothers.
 <sup>4</sup> When they had come to Jerusalem, they were received by the assembly and the apostles and the elders, and they reported everything that God had done with them.
@@ -759,21 +758,21 @@
 <sup>8</sup> God, who knows the heart, testified about them, giving them the Holy Spirit, just like he did to us.
 <sup>9</sup> He made no distinction between us and them, cleansing their hearts by faith.
 <sup>10</sup> Now therefore why do you tempt God, that you should put a yoke on the neck of the disciples which neither our fathers nor we were able to bear?
-<sup>11</sup> <sup>b</sup>just as they are.”
+<sup>11</sup> But we believe that we are saved through the grace of the Lord Jesus,<sup>b</sup> just as they are.”
 
 <sup>12</sup> All the multitude kept silence, and they listened to Barnabas and Paul reporting what signs and wonders God had done among the nations through them.
 <sup>13</sup> After they were silent, James answered, “Brothers, listen to me.
 <sup>14</sup> Simeon has reported how God first visited the nations to take out of them a people for his name.
 <sup>15</sup> This agrees with the words of the prophets. As it is written, <br>
 <sup>16</sup> ‘After these things I will return. <br>I will again build the tabernacle of David, which has fallen. <br>I will again build its ruins. <br>I will set it up
-<sup>17</sup> that the rest of men may seek after the Lord: <br>all the Gentiles who are called by my name, <br><sup>c</sup>
+<sup>17</sup> that the rest of men may seek after the Lord: <br>all the Gentiles who are called by my name, <br>says the Lord, who does all these things.’<sup>c</sup>
 
 <sup>18</sup> “All of God’s works are known to him from eternity.
 <sup>19</sup> Therefore my judgment is that we don’t trouble those from among the Gentiles who turn to God,
 <sup>20</sup> but that we write to them that they abstain from the pollution of idols, from sexual immorality, from what is strangled, and from blood.
 <sup>21</sup> For Moses from generations of old has in every city those who preach him, being read in the synagogues every Sabbath.”
 
-<sup>22</sup> <sup>d</sup>
+<sup>22</sup> Then it seemed good to the apostles and the elders, with the whole assembly, to choose men out of their company, and send them to Antioch with Paul and Barnabas: Judas called Barsabbas, and Silas, chief men among the brothers.<sup>d</sup>
 <sup>23</sup> They wrote these things by their hand: “The apostles, the elders, and the brothers, to the brothers who are of the Gentiles in Antioch, Syria, and Cilicia: greetings.
 <sup>24</sup> Because we have heard that some who went out from us have troubled you with words, unsettling your souls, saying, ‘You must be circumcised and keep the law,’ to whom we gave no commandment;
 <sup>25</sup> it seemed good to us, having come to one accord, to choose out men and send them to you with our beloved Barnabas and Paul,
@@ -786,7 +785,7 @@
 <sup>31</sup> When they had read it, they rejoiced over the encouragement.
 <sup>32</sup> Judas and Silas, also being prophets themselves, encouraged the brothers with many words and strengthened them.
 <sup>33</sup> After they had spent some time there, they were dismissed in peace from the brothers to the apostles.
-<sup>34</sup> <sup>e</sup>
+<sup>34</sup> 
 <sup>35</sup> But Paul and Barnabas stayed in Antioch, teaching and preaching the word of the Lord, with many others also.
 
 <sup>36</sup> After some days Paul said to Barnabas, “Let’s return now and visit our brothers in every city in which we proclaimed the word of the Lord, to see how they are doing.”
@@ -800,7 +799,6 @@
 > - <sup>b</sup> 11. TR adds “Christ”
 > - <sup>c</sup> 17. Amos 9:11-12
 > - <sup>d</sup> 22. The word for “brothers” here and where the context allows may also be correctly translated “brothers and sisters” or “siblings.”
-> - <sup>e</sup> 34. Some manuscripts add: But it seemed good to Silas to stay there.
 
 ## Chapter 16
 
@@ -863,8 +861,8 @@
 <sup>3</sup> explaining and demonstrating that the Christ had to suffer and rise again from the dead, and saying, “This Jesus, whom I proclaim to you, is the Christ.”
 
 <sup>4</sup> Some of them were persuaded and joined Paul and Silas: of the devout Greeks a great multitude, and not a few of the chief women.
-<sup>5</sup> <sup>a</sup>some wicked men from the marketplace and gathering a crowd, set the city in an uproar. Assaulting the house of Jason, they sought to bring them out to the people.
-<sup>6</sup> <sup>b</sup>before the rulers of the city, crying, “These who have turned the world upside down have come here also,
+<sup>5</sup> But the unpersuaded Jews took along<sup>a</sup> some wicked men from the marketplace and gathering a crowd, set the city in an uproar. Assaulting the house of Jason, they sought to bring them out to the people.
+<sup>6</sup> When they didn’t find them, they dragged Jason and certain brothers<sup>b</sup> before the rulers of the city, crying, “These who have turned the world upside down have come here also,
 <sup>7</sup> whom Jason has received. These all act contrary to the decrees of Caesar, saying that there is another king, Jesus!”
 <sup>8</sup> The multitude and the rulers of the city were troubled when they heard these things.
 <sup>9</sup> When they had taken security from Jason and the rest, they let them go.
@@ -879,7 +877,7 @@
 
 <sup>16</sup> Now while Paul waited for them at Athens, his spirit was provoked within him as he saw the city full of idols.
 <sup>17</sup> So he reasoned in the synagogue with the Jews and the devout persons, and in the marketplace every day with those who met him.
-<sup>18</sup> <sup>c</sup>were conversing with him. Some said, “What does this babbler want to say?” Others said, “He seems to be advocating foreign deities,” because he preached Jesus and the resurrection.
+<sup>18</sup> Some of the Epicurean and Stoic philosophers also<sup>c</sup> were conversing with him. Some said, “What does this babbler want to say?” Others said, “He seems to be advocating foreign deities,” because he preached Jesus and the resurrection.
 
 <sup>19</sup> They took hold of him and brought him to the Areopagus, saying, “May we know what this new teaching is, which you are speaking about?
 <sup>20</sup> For you bring certain strange things to our ears. We want to know therefore what these things mean.”
@@ -930,7 +928,7 @@
 
 <sup>17</sup> Then all the Greeks seized Sosthenes, the ruler of the synagogue, and beat him before the judgment seat. Gallio didn’t care about any of these things.
 
-<sup>18</sup> <sup>a</sup>and sailed from there for Syria, together with Priscilla and Aquila. He shaved his head in Cenchreae, for he had a vow.
+<sup>18</sup> Paul, having stayed after this many more days, took his leave of the brothers,<sup>a</sup> and sailed from there for Syria, together with Priscilla and Aquila. He shaved his head in Cenchreae, for he had a vow.
 <sup>19</sup> He came to Ephesus, and he left them there; but he himself entered into the synagogue and reasoned with the Jews.
 <sup>20</sup> When they asked him to stay with them a longer time, he declined;
 <sup>21</sup> but taking his leave of them, he said, “I must by all means keep this coming feast in Jerusalem, but I will return again to you if God wills.” Then he set sail from Ephesus.
@@ -953,7 +951,7 @@
 
 <sup>3</sup> He said, “Into what then were you baptized?” They said, “Into John’s baptism.”
 
-<sup>4</sup> <sup>a</sup>
+<sup>4</sup> Paul said, “John indeed baptized with the baptism of repentance, saying to the people that they should believe in the one who would come after him, that is, in Christ Jesus.”<sup>a</sup>
 
 <sup>5</sup> When they heard this, they were baptized in the name of the Lord Jesus.
 <sup>6</sup> When Paul had laid his hands on them, the Holy Spirit came on them and they spoke with other languages and prophesied.
@@ -973,7 +971,7 @@
 <sup>16</sup> The man in whom the evil spirit was leaped on them, overpowered them, and prevailed against them, so that they fled out of that house naked and wounded.
 <sup>17</sup> This became known to all, both Jews and Greeks, who lived at Ephesus. Fear fell on them all, and the name of the Lord Jesus was magnified.
 <sup>18</sup> Many also of those who had believed came, confessing and declaring their deeds.
-<sup>19</sup> <sup>b</sup>
+<sup>19</sup> Many of those who practiced magical arts brought their books together and burned them in the sight of all. They counted their price, and found it to be fifty thousand pieces of silver.<sup>b</sup>
 <sup>20</sup> So the word of the Lord was growing and becoming mighty.
 
 <sup>21</sup> Now after these things had ended, Paul determined in the Spirit, when he had passed through Macedonia and Achaia, to go to Jerusalem, saying, “After I have been there, I must also see Rome.”
@@ -1014,7 +1012,7 @@
 <sup>6</sup> We sailed away from Philippi after the days of Unleavened Bread, and came to them at Troas in five days, where we stayed seven days.
 
 <sup>7</sup> On the first day of the week, when the disciples were gathered together to break bread, Paul talked with them, intending to depart on the next day; and continued his speech until midnight.
-<sup>8</sup> <sup>a</sup>were gathered together.
+<sup>8</sup> There were many lights in the upper room where we<sup>a</sup> were gathered together.
 <sup>9</sup> A certain young man named Eutychus sat in the window, weighed down with deep sleep. As Paul spoke still longer, being weighed down by his sleep, he fell down from the third floor and was taken up dead.
 <sup>10</sup> Paul went down and fell upon him, and embracing him said, “Don’t be troubled, for his life is in him.”
 
@@ -1030,7 +1028,7 @@
 <sup>18</sup> When they had come to him, he said to them, “You yourselves know, from the first day that I set foot in Asia, how I was with you all the time,
 <sup>19</sup> serving the Lord with all humility, with many tears, and with trials which happened to me by the plots of the Jews;
 <sup>20</sup> how I didn’t shrink from declaring to you anything that was profitable, teaching you publicly and from house to house,
-<sup>21</sup> <sup>b</sup>
+<sup>21</sup> testifying both to Jews and to Greeks repentance toward God and faith toward our Lord Jesus.<sup>b</sup>
 <sup>22</sup> Now, behold, I go bound by the Spirit to Jerusalem, not knowing what will happen to me there;
 <sup>23</sup> except that the Holy Spirit testifies in every city, saying that bonds and afflictions wait for me.
 <sup>24</sup> But these things don’t count; nor do I hold my life dear to myself, so that I may finish my race with joy, and the ministry which I received from the Lord Jesus, to fully testify to the Good News of the grace of God.
@@ -1038,11 +1036,11 @@
 <sup>25</sup> “Now, behold, I know that you all, among whom I went about preaching God’s Kingdom, will see my face no more.
 <sup>26</sup> Therefore I testify to you today that I am clean from the blood of all men,
 <sup>27</sup> for I didn’t shrink from declaring to you the whole counsel of God.
-<sup>28</sup> <sup>c</sup>God which he purchased with his own blood.
+<sup>28</sup> Take heed, therefore, to yourselves and to all the flock, in which the Holy Spirit has made you overseers, to shepherd the assembly of the Lord and<sup>c</sup> God which he purchased with his own blood.
 <sup>29</sup> For I know that after my departure, vicious wolves will enter in among you, not sparing the flock.
 <sup>30</sup> Men will arise from among your own selves, speaking perverse things, to draw away the disciples after them.
 <sup>31</sup> Therefore watch, remembering that for a period of three years I didn’t cease to admonish everyone night and day with tears.
-<sup>32</sup> <sup>d</sup>I entrust you to God and to the word of his grace, which is able to build up and to give you the inheritance among all those who are sanctified.
+<sup>32</sup> Now, brothers,<sup>d</sup> I entrust you to God and to the word of his grace, which is able to build up and to give you the inheritance among all those who are sanctified.
 <sup>33</sup> I coveted no one’s silver, gold, or clothing.
 <sup>34</sup> You yourselves know that these hands served my necessities, and those who were with me.
 <sup>35</sup> In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’ ”
@@ -1162,7 +1160,7 @@
 
 <sup>4</sup> Those who stood by said, “Do you malign God’s high priest?”
 
-<sup>5</sup> <sup>a</sup>
+<sup>5</sup> Paul said, “I didn’t know, brothers, that he was high priest. For it is written, ‘You shall not speak evil of a ruler of your people.’ ”<sup>a</sup>
 
 <sup>6</sup> But when Paul perceived that the one part were Sadducees and the other Pharisees, he cried out in the council, “Men and brothers, I am a Pharisee, a son of Pharisees. Concerning the hope and resurrection of the dead I am being judged!”
 
@@ -1191,7 +1189,7 @@
 
 <sup>22</sup> So the commanding officer let the young man go, charging him, “Tell no one that you have revealed these things to me.”
 
-<sup>23</sup> <sup>b</sup>
+<sup>23</sup> He called to himself two of the centurions, and said, “Prepare two hundred soldiers to go as far as Caesarea, with seventy horsemen and two hundred men armed with spears, at the third hour of the night.”<sup>b</sup>
 <sup>24</sup> He asked them to provide mounts, that they might set Paul on one, and bring him safely to Felix the governor.
 <sup>25</sup> He wrote a letter like this:
 
@@ -1218,9 +1216,9 @@
 <sup>3</sup> we accept it in all ways and in all places, most excellent Felix, with all thankfulness.
 <sup>4</sup> But that I don’t delay you, I entreat you to bear with us and hear a few words.
 <sup>5</sup> For we have found this man to be a plague, an instigator of insurrections among all the Jews throughout the world, and a ringleader of the sect of the Nazarenes.
-<sup>6</sup> <sup>a</sup>
-<sup>7</sup> <sup>b</sup>
-<sup>8</sup> <sup>c</sup>By examining him yourself you may ascertain all these things of which we accuse him.”
+<sup>6</sup> He even tried to profane the temple, and we arrested him.<sup>a</sup>
+<sup>7</sup> 
+<sup>8</sup> By examining him yourself you may ascertain all these things of which we accuse him.”
 
 <sup>9</sup> The Jews also joined in the attack, affirming that these things were so.
 
@@ -1247,8 +1245,6 @@
 <sup>27</sup> But when two years were fulfilled, Felix was succeeded by Porcius Festus, and desiring to gain favor with the Jews, Felix left Paul in bonds.
 
 > - <sup>a</sup> 6. TR adds “We wanted to judge him according to our law,”
-> - <sup>b</sup> 7. TR adds “but the commanding officer, Lysias, came by and with great violence took him out of our hands,”
-> - <sup>c</sup> 8. TR adds “commanding his accusers to come to you.”
 
 ## Chapter 25
 
@@ -1347,7 +1343,7 @@
 <sup>12</sup> Because the haven was not suitable to winter in, the majority advised going to sea from there, if by any means they could reach Phoenix and winter there, which is a port of Crete, looking southwest and northwest.
 
 <sup>13</sup> When the south wind blew softly, supposing that they had obtained their purpose, they weighed anchor and sailed along Crete, close to shore.
-<sup>14</sup> <sup>a</sup>
+<sup>14</sup> But before long, a stormy wind beat down from shore, which is called Euroclydon.<sup>a</sup>
 <sup>15</sup> When the ship was caught and couldn’t face the wind, we gave way to it and were driven along.
 <sup>16</sup> Running under the lee of a small island called Clauda, we were able, with difficulty, to secure the boat.
 <sup>17</sup> After they had hoisted it up, they used cables to help reinforce the ship. Fearing that they would run aground on the Syrtis sand bars, they lowered the sea anchor, and so were driven along.
@@ -1363,7 +1359,7 @@
 <sup>26</sup> But we must run aground on a certain island.”
 
 <sup>27</sup> But when the fourteenth night had come, as we were driven back and forth in the Adriatic Sea, about midnight the sailors surmised that they were drawing near to some land.
-<sup>28</sup> <sup>b</sup><sup>c</sup>
+<sup>28</sup> They took soundings and found twenty fathoms.<sup>b</sup> After a little while, they took soundings again, and found fifteen fathoms.<sup>c</sup>
 <sup>29</sup> Fearing that we would run aground on rocky ground, they let go four anchors from the stern, and wished for daylight.
 <sup>30</sup> As the sailors were trying to flee out of the ship and had lowered the boat into the sea, pretending that they would lay out anchors from the bow,
 <sup>31</sup> Paul said to the centurion and to the soldiers, “Unless these stay in the ship, you can’t be saved.”
@@ -1389,7 +1385,7 @@
 
 ## Chapter 28
 
-<sup>1</sup> <sup>a</sup>learned that the island was called Malta.
+<sup>1</sup> When we had escaped, then they<sup>a</sup> learned that the island was called Malta.
 <sup>2</sup> The natives showed us uncommon kindness; for they kindled a fire and received us all, because of the present rain and because of the cold.
 <sup>3</sup> But when Paul had gathered a bundle of sticks and laid them on the fire, a viper came out because of the heat and fastened on his hand.
 <sup>4</sup> When the natives saw the creature hanging from his hand, they said to one another, “No doubt this man is a murderer, whom, though he has escaped from the sea, yet Justice has not allowed to live.”
@@ -1404,7 +1400,7 @@
 <sup>11</sup> After three months, we set sail in a ship of Alexandria which had wintered in the island, whose figurehead was “The Twin Brothers.”
 <sup>12</sup> Touching at Syracuse, we stayed there three days.
 <sup>13</sup> From there we circled around and arrived at Rhegium. After one day, a south wind sprang up, and on the second day we came to Puteoli,
-<sup>14</sup> <sup>b</sup>and were entreated to stay with them for seven days. So we came to Rome.
+<sup>14</sup> where we found brothers,<sup>b</sup> and were entreated to stay with them for seven days. So we came to Rome.
 <sup>15</sup> From there the brothers, when they heard of us, came to meet us as far as The Market of Appius and The Three Taverns. When Paul saw them, he thanked God and took courage.
 <sup>16</sup> When we entered into Rome, the centurion delivered the prisoners to the captain of the guard, but Paul was allowed to stay by himself with the soldier who guarded him.
 
@@ -1420,11 +1416,11 @@
 <sup>24</sup> Some believed the things which were spoken, and some disbelieved.
 <sup>25</sup> When they didn’t agree among themselves, they departed after Paul had spoken one message: “The Holy Spirit spoke rightly through Isaiah the prophet to our fathers,
 <sup>26</sup> saying, <br>‘Go to this people and say, <br>in hearing, you will hear, <br>but will in no way understand. <br>In seeing, you will see, <br>but will in no way perceive. <br>
-<sup>27</sup> For this people’s heart has grown callous. <br>Their ears are dull of hearing. <br>Their eyes they have closed. <br>Lest they should see with their eyes, <br>hear with their ears, <br>understand with their heart, <br>and would turn again, <br><sup>c</sup>
+<sup>27</sup> For this people’s heart has grown callous. <br>Their ears are dull of hearing. <br>Their eyes they have closed. <br>Lest they should see with their eyes, <br>hear with their ears, <br>understand with their heart, <br>and would turn again, <br>then I would heal them.’<sup>c</sup>
 
 <sup>28</sup> “Be it known therefore to you that the salvation of God is sent to the nations, and they will listen.”
 
-<sup>29</sup> <sup>d</sup>
+<sup>29</sup> When he had said these words, the Jews departed, having a great dispute among themselves.<sup>d</sup>
 
 <sup>30</sup> Paul stayed two whole years in his own rented house and received all who were coming to him,
 <sup>31</sup> preaching God’s Kingdom and teaching the things concerning the Lord Jesus Christ with all boldness, without hindrance.

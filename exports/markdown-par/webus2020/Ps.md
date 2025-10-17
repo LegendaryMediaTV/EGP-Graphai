@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> Blessed is the man who doesn’t walk in the counsel of the wicked, <br>nor stand on the path of sinners, <br>nor sit in the seat of scoffers; <br>
-<sup>2</sup> <sup>a</sup>law. <br>On his law he meditates day and night. <br>
+<sup>2</sup> but his delight is in Yahweh’s<sup>a</sup> law. <br>On his law he meditates day and night. <br>
 <sup>3</sup> He will be like a tree planted by the streams of water, <br>that produces its fruit in its season, <br>whose leaf also does not wither. <br>Whatever he does shall prosper. <br>
 <sup>4</sup> The wicked are not so, <br>but are like the chaff which the wind drives away. <br>
 <sup>5</sup> Therefore the wicked shall not stand in the judgment, <br>nor sinners in the congregation of the righteous. <br>
@@ -12,9 +12,9 @@
 ## Chapter 2
 
 <sup>1</sup> Why do the nations rage, <br>and the peoples plot a vain thing? <br>
-<sup>2</sup> The kings of the earth take a stand, <br>and the rulers take counsel together, <br><sup>a</sup>saying, <br>
+<sup>2</sup> The kings of the earth take a stand, <br>and the rulers take counsel together, <br>against Yahweh, and against his Anointed,<sup>a</sup> saying, <br>
 <sup>3</sup> “Let’s break their bonds apart, <br>and cast their cords from us.” <br>
-<sup>4</sup> He who sits in the heavens will laugh. <br><sup>b</sup>will have them in derision. <br>
+<sup>4</sup> He who sits in the heavens will laugh. <br>The Lord<sup>b</sup> will have them in derision. <br>
 <sup>5</sup> Then he will speak to them in his anger, <br>and terrify them in his wrath: <br>
 <sup>6</sup> “Yet I have set my King on my holy hill of Zion.” <br>
 <sup>7</sup> I will tell of the decree: <br>Yahweh said to me, “You are my son. <br>Today I have become your father. <br>
@@ -22,7 +22,7 @@
 <sup>9</sup> You shall break them with a rod of iron. <br>You shall dash them in pieces like a potter’s vessel.” <br>
 <sup>10</sup> Now therefore be wise, you kings. <br>Be instructed, you judges of the earth. <br>
 <sup>11</sup> Serve Yahweh with fear, <br>and rejoice with trembling. <br>
-<sup>12</sup> <sup>c</sup>lest he be angry, and you perish on the way, <br>for his wrath will soon be kindled. <br>Blessed are all those who take refuge in him.
+<sup>12</sup> Give sincere homage to the Son,<sup>c</sup> lest he be angry, and you perish on the way, <br>for his wrath will soon be kindled. <br>Blessed are all those who take refuge in him.
 
 > - <sup>a</sup> 2. The word “Anointed” is the same as the word for “Messiah” or “Christ”
 > - <sup>b</sup> 4. The word translated “Lord” is “Adonai.”
@@ -31,7 +31,7 @@
 ## Chapter 3
 
 <sup>1</sup> Yahweh, how my adversaries have increased! <br>Many are those who rise up against me. <br>
-<sup>2</sup> Many there are who say of my soul, <br><sup>a</sup><br>Selah.
+<sup>2</sup> Many there are who say of my soul, <br>“There is no help for him in God.”<sup>a</sup> <br>Selah.
 
 <sup>3</sup> But you, Yahweh, are a shield around me, <br>my glory, and the one who lifts up my head. <br>
 <sup>4</sup> I cry to Yahweh with my voice, <br>and he answers me out of his holy hill. <br>Selah.
@@ -75,7 +75,7 @@
 <sup>2</sup> Have mercy on me, Yahweh, for I am faint. <br>Yahweh, heal me, for my bones are troubled. <br>
 <sup>3</sup> My soul is also in great anguish. <br>But you, Yahweh—how long? <br>
 <sup>4</sup> Return, Yahweh. Deliver my soul, <br>and save me for your loving kindness’ sake. <br>
-<sup>5</sup> For in death there is no memory of you. <br><sup>a</sup>who shall give you thanks? <br>
+<sup>5</sup> For in death there is no memory of you. <br>In Sheol,<sup>a</sup> who shall give you thanks? <br>
 <sup>6</sup> I am weary with my groaning. <br>Every night I flood my bed. <br>I drench my couch with my tears. <br>
 <sup>7</sup> My eye wastes away because of grief. <br>It grows old because of all my adversaries. <br>
 <sup>8</sup> Depart from me, all you workers of iniquity, <br>for Yahweh has heard the voice of my weeping. <br>
@@ -100,7 +100,7 @@
 <sup>11</sup> God is a righteous judge, <br>yes, a God who has indignation every day. <br>
 <sup>12</sup> If a man doesn’t repent, he will sharpen his sword; <br>he has bent and strung his bow. <br>
 <sup>13</sup> He has also prepared for himself the instruments of death. <br>He makes ready his flaming arrows. <br>
-<sup>14</sup> <sup>a</sup>he travails with iniquity. <br>Yes, he has conceived mischief, <br>and brought out falsehood. <br>
+<sup>14</sup> Behold,<sup>a</sup> he travails with iniquity. <br>Yes, he has conceived mischief, <br>and brought out falsehood. <br>
 <sup>15</sup> He has dug a hole, <br>and has fallen into the pit which he made. <br>
 <sup>16</sup> The trouble he causes shall return to his own head. <br>His violence shall come down on the crown of his own head. <br>
 <sup>17</sup> I will give thanks to Yahweh according to his righteousness, <br>and will sing praise to the name of Yahweh Most High.
@@ -113,7 +113,7 @@
 <sup>2</sup> From the lips of babes and infants you have established strength, <br>because of your adversaries, that you might silence the enemy and the avenger. <br>
 <sup>3</sup> When I consider your heavens, the work of your fingers, <br>the moon and the stars, which you have ordained, <br>
 <sup>4</sup> what is man, that you think of him? <br>What is the son of man, that you care for him? <br>
-<sup>5</sup> <sup>a</sup><br>and crowned him with glory and honor. <br>
+<sup>5</sup> For you have made him a little lower than the angels,<sup>a</sup> <br>and crowned him with glory and honor. <br>
 <sup>6</sup> You make him ruler over the works of your hands. <br>You have put all things under his feet: <br>
 <sup>7</sup> All sheep and cattle, <br>yes, and the animals of the field, <br>
 <sup>8</sup> the birds of the sky, the fish of the sea, <br>and whatever passes through the paths of the seas. <br>
@@ -140,7 +140,7 @@
 <sup>15</sup> The nations have sunk down in the pit that they made. <br>In the net which they hid, their own foot is taken. <br>
 <sup>16</sup> Yahweh has made himself known. <br>He has executed judgment. <br>The wicked is snared by the work of his own hands. <br>Meditation. Selah.
 
-<sup>17</sup> <sup>a</sup><br>even all the nations that forget God. <br>
+<sup>17</sup> The wicked shall be turned back to Sheol,<sup>a</sup> <br>even all the nations that forget God. <br>
 <sup>18</sup> For the needy shall not always be forgotten, <br>nor the hope of the poor perish forever. <br>
 <sup>19</sup> Arise, Yahweh! Don’t let man prevail. <br>Let the nations be judged in your sight. <br>
 <sup>20</sup> Put them in fear, Yahweh. <br>Let the nations know that they are only men. <br>Selah.
@@ -225,7 +225,7 @@
 <sup>7</sup> I will bless Yahweh, who has given me counsel. <br>Yes, my heart instructs me in the night seasons. <br>
 <sup>8</sup> I have set Yahweh always before me. <br>Because he is at my right hand, I shall not be moved. <br>
 <sup>9</sup> Therefore my heart is glad, and my tongue rejoices. <br>My body shall also dwell in safety. <br>
-<sup>10</sup> <sup>a</sup><br>neither will you allow your holy one to see corruption. <br>
+<sup>10</sup> For you will not leave my soul in Sheol,<sup>a</sup> <br>neither will you allow your holy one to see corruption. <br>
 <sup>11</sup> You will show me the path of life. <br>In your presence is fullness of joy. <br>In your right hand there are pleasures forever more.
 
 > - <sup>a</sup> 10. Sheol is the place of the dead.
@@ -253,7 +253,7 @@
 <sup>2</sup> Yahweh is my rock, my fortress, and my deliverer; <br>my God, my rock, in whom I take refuge; <br>my shield, and the horn of my salvation, my high tower. <br>
 <sup>3</sup> I call on Yahweh, who is worthy to be praised; <br>and I am saved from my enemies. <br>
 <sup>4</sup> The cords of death surrounded me. <br>The floods of ungodliness made me afraid. <br>
-<sup>5</sup> <sup>a</sup>were around me. <br>The snares of death came on me. <br>
+<sup>5</sup> The cords of Sheol<sup>a</sup> were around me. <br>The snares of death came on me. <br>
 <sup>6</sup> In my distress I called on Yahweh, <br>and cried to my God. <br>He heard my voice out of his temple. <br>My cry before him came into his ears. <br>
 <sup>7</sup> Then the earth shook and trembled. <br>The foundations also of the mountains quaked and were shaken, <br>because he was angry. <br>
 <sup>8</sup> Smoke went out of his nostrils. <br>Consuming fire came out of his mouth. <br>Coals were kindled by it. <br>
@@ -298,7 +298,7 @@
 <sup>47</sup> even the God who executes vengeance for me, <br>and subdues peoples under me. <br>
 <sup>48</sup> He rescues me from my enemies. <br>Yes, you lift me up above those who rise up against me. <br>You deliver me from the violent man. <br>
 <sup>49</sup> Therefore I will give thanks to you, Yahweh, among the nations, <br>and will sing praises to your name. <br>
-<sup>50</sup> He gives great deliverance to his king, <br>and shows loving kindness to his anointed, <br><sup>b</sup>forever more.
+<sup>50</sup> He gives great deliverance to his king, <br>and shows loving kindness to his anointed, <br>to David and to his offspring,<sup>b</sup> forever more.
 
 > - <sup>a</sup> 5. Sheol is the place of the dead.
 > - <sup>b</sup> 50. or, seed
@@ -366,7 +366,7 @@
 <sup>13</sup> They open their mouths wide against me, <br>lions tearing prey and roaring. <br>
 <sup>14</sup> I am poured out like water. <br>All my bones are out of joint. <br>My heart is like wax. <br>It is melted within me. <br>
 <sup>15</sup> My strength is dried up like a potsherd. <br>My tongue sticks to the roof of my mouth. <br>You have brought me into the dust of death. <br>
-<sup>16</sup> For dogs have surrounded me. <br>A company of evildoers have enclosed me. <br><sup>a</sup><br>
+<sup>16</sup> For dogs have surrounded me. <br>A company of evildoers have enclosed me. <br>They have pierced my hands and feet.<sup>a</sup> <br>
 <sup>17</sup> I can count all of my bones. <br>They look and stare at me. <br>
 <sup>18</sup> They divide my garments among them. <br>They cast lots for my clothing.
 
@@ -499,7 +499,7 @@
 
 <sup>1</sup> I will extol you, Yahweh, for you have raised me up, <br>and have not made my foes to rejoice over me. <br>
 <sup>2</sup> Yahweh my God, I cried to you, <br>and you have healed me. <br>
-<sup>3</sup> <sup>a</sup><br>You have kept me alive, that I should not go down to the pit. <br>
+<sup>3</sup> Yahweh, you have brought up my soul from Sheol.<sup>a</sup> <br>You have kept me alive, that I should not go down to the pit. <br>
 <sup>4</sup> Sing praise to Yahweh, you saints of his. <br>Give thanks to his holy name. <br>
 <sup>5</sup> For his anger is but for a moment. <br>His favor is for a lifetime. <br>Weeping may stay for the night, <br>but joy comes in the morning. <br>
 <sup>6</sup> As for me, I said in my prosperity, <br>“I shall never be moved.” <br>
@@ -530,7 +530,7 @@
 <sup>14</sup> But I trust in you, Yahweh. <br>I said, “You are my God.” <br>
 <sup>15</sup> My times are in your hand. <br>Deliver me from the hand of my enemies, and from those who persecute me. <br>
 <sup>16</sup> Make your face to shine on your servant. <br>Save me in your loving kindness. <br>
-<sup>17</sup> Let me not be disappointed, Yahweh, for I have called on you. <br>Let the wicked be disappointed. <br><sup>a</sup><br>
+<sup>17</sup> Let me not be disappointed, Yahweh, for I have called on you. <br>Let the wicked be disappointed. <br>Let them be silent in Sheol.<sup>a</sup> <br>
 <sup>18</sup> Let the lying lips be mute, <br>which speak against the righteous insolently, with pride and contempt. <br>
 <sup>19</sup> Oh how great is your goodness, <br>which you have laid up for those who fear you, <br>which you have worked for those who take refuge in you, <br>before the sons of men! <br>
 <sup>20</sup> In the shelter of your presence you will hide them from the plotting of man. <br>You will keep them secretly in a dwelling away from the strife of tongues. <br>
@@ -583,7 +583,7 @@
 <sup>22</sup> Let your loving kindness be on us, Yahweh, <br>since we have hoped in you.
 ## Chapter 34
 
-<sup>1</sup> <sup>a</sup>I will bless Yahweh at all times. <br>His praise will always be in my mouth. <br>
+<sup>1</sup> I will bless Yahweh at all times. <br>His praise will always be in my mouth. <br>
 <sup>2</sup> My soul shall boast in Yahweh. <br>The humble shall hear of it and be glad. <br>
 <sup>3</sup> Oh magnify Yahweh with me. <br>Let’s exalt his name together. <br>
 <sup>4</sup> I sought Yahweh, and he answered me, <br>and delivered me from all my fears. <br>
@@ -606,9 +606,6 @@
 <sup>20</sup> He protects all of his bones. <br>Not one of them is broken. <br>
 <sup>21</sup> Evil shall kill the wicked. <br>Those who hate the righteous shall be condemned. <br>
 <sup>22</sup> Yahweh redeems the soul of his servants. <br>None of those who take refuge in him shall be condemned.
-
-> - <sup>a</sup> 1. Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).
-
 ## Chapter 35
 
 <sup>1</sup> Contend, Yahweh, with those who contend with me. <br>Fight against those who fight against me. <br>
@@ -781,7 +778,7 @@
 <sup>13</sup> Blessed be Yahweh, the God of Israel, <br>from everlasting and to everlasting! <br>Amen and amen.
 ## Chapter 42
 
-<sup>1</sup> As the deer pants for the water brooks, <br><sup>a</sup><br>
+<sup>1</sup> As the deer pants for the water brooks, <br>so my soul pants after you, God.<sup>a</sup> <br>
 <sup>2</sup> My soul thirsts for God, for the living God. <br>When shall I come and appear before God? <br>
 <sup>3</sup> My tears have been my food day and night, <br>while they continually ask me, “Where is your God?” <br>
 <sup>4</sup> These things I remember, and pour out my soul within me, <br>how I used to go with the crowd, and led them to God’s house, <br>with the voice of joy and praise, a multitude keeping a holy day. <br>
@@ -789,7 +786,7 @@
 <sup>6</sup> My God, my soul is in despair within me. <br>Therefore I remember you from the land of the Jordan, <br>the heights of Hermon, from the hill Mizar. <br>
 <sup>7</sup> Deep calls to deep at the noise of your waterfalls. <br>All your waves and your billows have swept over me.
 
-<sup>8</sup> <sup>b</sup>will command his loving kindness in the daytime. <br>In the night his song shall be with me: <br>a prayer to the God of my life. <br>
+<sup>8</sup> Yahweh<sup>b</sup> will command his loving kindness in the daytime. <br>In the night his song shall be with me: <br>a prayer to the God of my life. <br>
 <sup>9</sup> I will ask God, my rock, “Why have you forgotten me? <br>Why do I go mourning because of the oppression of the enemy?” <br>
 <sup>10</sup> As with a sword in my bones, my adversaries reproach me, <br>while they continually ask me, “Where is your God?” <br>
 <sup>11</sup> Why are you in despair, my soul? <br>Why are you disturbed within me? <br>Hope in God! For I shall still praise him, <br>the saving help of my countenance, and my God.
@@ -829,7 +826,7 @@
 <sup>20</sup> If we have forgotten the name of our God, <br>or spread out our hands to a strange god, <br>
 <sup>21</sup> won’t God search this out? <br>For he knows the secrets of the heart. <br>
 <sup>22</sup> Yes, for your sake we are killed all day long. <br>We are regarded as sheep for the slaughter. <br>
-<sup>23</sup> Wake up! <br><sup>a</sup><br>Arise! <br>Don’t reject us forever. <br>
+<sup>23</sup> Wake up! <br>Why do you sleep, Lord?<sup>a</sup> <br>Arise! <br>Don’t reject us forever. <br>
 <sup>24</sup> Why do you hide your face, <br>and forget our affliction and our oppression? <br>
 <sup>25</sup> For our soul is bowed down to the dust. <br>Our body clings to the earth. <br>
 <sup>26</sup> Rise up to help us. <br>Redeem us for your loving kindness’ sake.
@@ -916,8 +913,8 @@
 
 <sup>13</sup> This is the destiny of those who are foolish, <br>and of those who approve their sayings. <br>Selah.
 
-<sup>14</sup> <sup>a</sup><br>Death shall be their shepherd. <br>The upright shall have dominion over them in the morning. <br><sup>b</sup><br>far from their mansion. <br>
-<sup>15</sup> <sup>c</sup><br>for he will receive me. <br>Selah.
+<sup>14</sup> They are appointed as a flock for Sheol.<sup>a</sup> <br>Death shall be their shepherd. <br>The upright shall have dominion over them in the morning. <br>Their beauty shall decay in Sheol,<sup>b</sup> <br>far from their mansion. <br>
+<sup>15</sup> But God will redeem my soul from the power of Sheol,<sup>c</sup> <br>for he will receive me. <br>Selah.
 
 <sup>16</sup> Don’t be afraid when a man is made rich, <br>when the glory of his house is increased; <br>
 <sup>17</sup> for when he dies he will carry nothing away. <br>His glory won’t descend after him. <br>
@@ -1028,7 +1025,7 @@
 <sup>12</sup> For it was not an enemy who insulted me, <br>then I could have endured it. <br>Neither was it he who hated me who raised himself up against me, <br>then I would have hidden myself from him. <br>
 <sup>13</sup> But it was you, a man like me, <br>my companion, and my familiar friend. <br>
 <sup>14</sup> We took sweet fellowship together. <br>We walked in God’s house with company. <br>
-<sup>15</sup> Let death come suddenly on them. <br><sup>a</sup><br>For wickedness is among them, in their dwelling. <br>
+<sup>15</sup> Let death come suddenly on them. <br>Let them go down alive into Sheol.<sup>a</sup> <br>For wickedness is among them, in their dwelling. <br>
 <sup>16</sup> As for me, I will call on God. <br>Yahweh will save me. <br>
 <sup>17</sup> Evening, morning, and at noon, I will cry out in distress. <br>He will hear my voice. <br>
 <sup>18</sup> He has redeemed my soul in peace from the battle that was against me, <br>although there are many who oppose me. <br>
@@ -1367,7 +1364,7 @@
 <sup>20</sup> This ends the prayers by David, the son of Jesse.
 ## Chapter 73
 
-<sup>1</sup> <sup>a</sup>is good to Israel, <br>to those who are pure in heart. <br>
+<sup>1</sup> Surely God<sup>a</sup> is good to Israel, <br>to those who are pure in heart. <br>
 <sup>2</sup> But as for me, my feet were almost gone. <br>My steps had nearly slipped. <br>
 <sup>3</sup> For I was envious of the arrogant, <br>when I saw the prosperity of the wicked. <br>
 <sup>4</sup> For there are no struggles in their death, <br>but their strength is firm. <br>
@@ -1386,7 +1383,7 @@
 <sup>17</sup> until I entered God’s sanctuary, <br>and considered their latter end. <br>
 <sup>18</sup> Surely you set them in slippery places. <br>You throw them down to destruction. <br>
 <sup>19</sup> How they are suddenly destroyed! <br>They are completely swept away with terrors. <br>
-<sup>20</sup> As a dream when one wakes up, <br><sup>b</sup>when you awake, you will despise their fantasies. <br>
+<sup>20</sup> As a dream when one wakes up, <br>so, Lord,<sup>b</sup> when you awake, you will despise their fantasies. <br>
 <sup>21</sup> For my soul was grieved. <br>I was embittered in my heart. <br>
 <sup>22</sup> I was so senseless and ignorant. <br>I was a brute beast before you. <br>
 <sup>23</sup> Nevertheless, I am continually with you. <br>You have held my right hand. <br>
@@ -1394,7 +1391,7 @@
 <sup>25</sup> Whom do I have in heaven? <br>There is no one on earth whom I desire besides you. <br>
 <sup>26</sup> My flesh and my heart fails, <br>but God is the strength of my heart and my portion forever. <br>
 <sup>27</sup> For, behold, those who are far from you shall perish. <br>You have destroyed all those who are unfaithful to you. <br>
-<sup>28</sup> But it is good for me to come close to God. <br><sup>c</sup>my refuge, <br>that I may tell of all your works.
+<sup>28</sup> But it is good for me to come close to God. <br>I have made the Lord Yahweh<sup>c</sup> my refuge, <br>that I may tell of all your works.
 
 > - <sup>a</sup> 1. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
 > - <sup>b</sup> 20. The word translated “Lord” is “Adonai.”
@@ -1692,7 +1689,7 @@
 <sup>10</sup> For you are great, and do wondrous things. <br>You are God alone. <br>
 <sup>11</sup> Teach me your way, Yahweh. <br>I will walk in your truth. <br>Make my heart undivided to fear your name. <br>
 <sup>12</sup> I will praise you, Lord my God, with my whole heart. <br>I will glorify your name forever more. <br>
-<sup>13</sup> For your loving kindness is great toward me. <br><sup>a</sup><br>
+<sup>13</sup> For your loving kindness is great toward me. <br>You have delivered my soul from the lowest Sheol.<sup>a</sup> <br>
 <sup>14</sup> God, the proud have risen up against me. <br>A company of violent men have sought after my soul, <br>and they don’t hold regard for you before them. <br>
 <sup>15</sup> But you, Lord, are a merciful and gracious God, <br>slow to anger, and abundant in loving kindness and truth. <br>
 <sup>16</sup> Turn to me, and have mercy on me! <br>Give your strength to your servant. <br>Save the son of your servant. <br>
@@ -1706,7 +1703,7 @@
 <sup>2</sup> Yahweh loves the gates of Zion more than all the dwellings of Jacob. <br>
 <sup>3</sup> Glorious things are spoken about you, city of God. <br>Selah.
 
-<sup>4</sup> <sup>a</sup>and Babylon among those who acknowledge me. <br>Behold, Philistia, Tyre, and also Ethiopia: <br>“This one was born there.” <br>
+<sup>4</sup> I will record Rahab<sup>a</sup> and Babylon among those who acknowledge me. <br>Behold, Philistia, Tyre, and also Ethiopia: <br>“This one was born there.” <br>
 <sup>5</sup> Yes, of Zion it will be said, “This one and that one was born in her;” <br>the Most High himself will establish her. <br>
 <sup>6</sup> Yahweh will count, when he writes up the peoples, <br>“This one was born there.” <br>Selah.
 
@@ -1718,7 +1715,7 @@
 
 <sup>1</sup> Yahweh, the God of my salvation, <br>I have cried day and night before you. <br>
 <sup>2</sup> Let my prayer enter into your presence. <br>Turn your ear to my cry. <br>
-<sup>3</sup> For my soul is full of troubles. <br><sup>a</sup><br>
+<sup>3</sup> For my soul is full of troubles. <br>My life draws near to Sheol.<sup>a</sup> <br>
 <sup>4</sup> I am counted among those who go down into the pit. <br>I am like a man who has no help, <br>
 <sup>5</sup> set apart among the dead, <br>like the slain who lie in the grave, <br>whom you remember no more. <br>They are cut off from your hand. <br>
 <sup>6</sup> You have laid me in the lowest pit, <br>in the darkest depths. <br>
@@ -1793,7 +1790,7 @@
 
 <sup>46</sup> How long, Yahweh? <br>Will you hide yourself forever? <br>Will your wrath burn like fire? <br>
 <sup>47</sup> Remember how short my time is, <br>for what vanity you have created all the children of men! <br>
-<sup>48</sup> What man is he who shall live and not see death, <br><sup>a</sup><br>Selah.
+<sup>48</sup> What man is he who shall live and not see death, <br>who shall deliver his soul from the power of Sheol?<sup>a</sup> <br>Selah.
 
 <sup>49</sup> Lord, where are your former loving kindnesses, <br>which you swore to David in your faithfulness? <br>
 <sup>50</sup> Remember, Lord, the reproach of your servants, <br>how I bear in my heart the taunts of all the mighty peoples, <br>
@@ -1805,7 +1802,7 @@
 
 ## Chapter 90
 
-<sup>1</sup> <sup>a</sup>you have been our dwelling place for all generations. <br>
+<sup>1</sup> Lord,<sup>a</sup> you have been our dwelling place for all generations. <br>
 <sup>2</sup> Before the mountains were born, <br>before you had formed the earth and the world, <br>even from everlasting to everlasting, you are God. <br>
 <sup>3</sup> You turn man to destruction, saying, <br>“Return, you children of men.” <br>
 <sup>4</sup> For a thousand years in your sight are just like yesterday when it is past, <br>like a watch in the night. <br>
@@ -1817,7 +1814,7 @@
 <sup>10</sup> The days of our years are seventy, <br>or even by reason of strength eighty years; <br>yet their pride is but labor and sorrow, <br>for it passes quickly, and we fly away. <br>
 <sup>11</sup> Who knows the power of your anger, <br>your wrath according to the fear that is due to you? <br>
 <sup>12</sup> So teach us to count our days, <br>that we may gain a heart of wisdom. <br>
-<sup>13</sup> <sup>b</sup><br>How long? <br>Have compassion on your servants! <br>
+<sup>13</sup> Relent, Yahweh!<sup>b</sup> <br>How long? <br>Have compassion on your servants! <br>
 <sup>14</sup> Satisfy us in the morning with your loving kindness, <br>that we may rejoice and be glad all our days. <br>
 <sup>15</sup> Make us glad for as many days as you have afflicted us, <br>for as many years as we have seen evil. <br>
 <sup>16</sup> Let your work appear to your servants, <br>your glory to their children. <br>
@@ -1929,7 +1926,7 @@
 <sup>4</sup> His lightning lights up the world. <br>The earth sees, and trembles. <br>
 <sup>5</sup> The mountains melt like wax at the presence of Yahweh, <br>at the presence of the Lord of the whole earth. <br>
 <sup>6</sup> The heavens declare his righteousness. <br>All the peoples have seen his glory. <br>
-<sup>7</sup> Let all them be shamed who serve engraved images, <br>who boast in their idols. <br><sup>a</sup><br>
+<sup>7</sup> Let all them be shamed who serve engraved images, <br>who boast in their idols. <br>Worship him, all you gods!<sup>a</sup> <br>
 <sup>8</sup> Zion heard and was glad. <br>The daughters of Judah rejoiced <br>because of your judgments, Yahweh. <br>
 <sup>9</sup> For you, Yahweh, are most high above all the earth. <br>You are exalted far above all gods. <br>
 <sup>10</sup> You who love Yahweh, hate evil! <br>He preserves the souls of his saints. <br>He delivers them out of the hand of the wicked. <br>
@@ -2040,7 +2037,7 @@
 <sup>1</sup> Bless Yahweh, my soul. <br>Yahweh, my God, you are very great. <br>You are clothed with honor and majesty. <br>
 <sup>2</sup> He covers himself with light as with a garment. <br>He stretches out the heavens like a curtain. <br>
 <sup>3</sup> He lays the beams of his rooms in the waters. <br>He makes the clouds his chariot. <br>He walks on the wings of the wind. <br>
-<sup>4</sup> <sup>a</sup>winds, <br>and his servants flames of fire. <br>
+<sup>4</sup> He makes his messengers<sup>a</sup> winds, <br>and his servants flames of fire. <br>
 <sup>5</sup> He laid the foundations of the earth, <br>that it should not be moved forever. <br>
 <sup>6</sup> You covered it with the deep as with a cloak. <br>The waters stood above the mountains. <br>
 <sup>7</sup> At your rebuke they fled. <br>At the voice of your thunder they hurried away. <br>
@@ -2178,7 +2175,7 @@
 <sup>48</sup> Blessed be Yahweh, the God of Israel, <br>from everlasting even to everlasting! <br>Let all the people say, “Amen.” <br>Praise Yah!
 ## Chapter 107
 
-<sup>1</sup> <sup>a</sup>for he is good, <br>for his loving kindness endures forever. <br>
+<sup>1</sup> Give thanks to Yahweh,<sup>a</sup> for he is good, <br>for his loving kindness endures forever. <br>
 <sup>2</sup> Let the redeemed by Yahweh say so, <br>whom he has redeemed from the hand of the adversary, <br>
 <sup>3</sup> and gathered out of the lands, <br>from the east and from the west, <br>from the north and from the south.
 
@@ -2191,7 +2188,7 @@
 <sup>9</sup> For he satisfies the longing soul. <br>He fills the hungry soul with good.
 
 <sup>10</sup> Some sat in darkness and in the shadow of death, <br>being bound in affliction and iron, <br>
-<sup>11</sup> <sup>b</sup><br>and condemned the counsel of the Most High. <br>
+<sup>11</sup> because they rebelled against the words of God,<sup>b</sup> <br>and condemned the counsel of the Most High. <br>
 <sup>12</sup> Therefore he brought down their heart with labor. <br>They fell down, and there was no one to help. <br>
 <sup>13</sup> Then they cried to Yahweh in their trouble, <br>and he saved them out of their distresses. <br>
 <sup>14</sup> He brought them out of darkness and the shadow of death, <br>and broke away their chains. <br>
@@ -2272,7 +2269,7 @@
 <sup>19</sup> Let it be to him as the clothing with which he covers himself, <br>for the belt that is always around him. <br>
 <sup>20</sup> This is the reward of my adversaries from Yahweh, <br>of those who speak evil against my soul.
 
-<sup>21</sup> <sup>a</sup>for your name’s sake, <br>because your loving kindness is good, deliver me; <br>
+<sup>21</sup> But deal with me, Yahweh the Lord,<sup>a</sup> for your name’s sake, <br>because your loving kindness is good, deliver me; <br>
 <sup>22</sup> for I am poor and needy. <br>My heart is wounded within me. <br>
 <sup>23</sup> I fade away like an evening shadow. <br>I am shaken off like a locust. <br>
 <sup>24</sup> My knees are weak through fasting. <br>My body is thin and lacks fat. <br>
@@ -2297,7 +2294,7 @@
 <sup>7</sup> He will drink of the brook on the way; <br>therefore he will lift up his head.
 ## Chapter 111
 
-<sup>1</sup> <sup>a</sup><br>I will give thanks to Yahweh with my whole heart, <br>in the council of the upright, and in the congregation. <br>
+<sup>1</sup> Praise Yah!<sup>a</sup> <br>I will give thanks to Yahweh with my whole heart, <br>in the council of the upright, and in the congregation. <br>
 <sup>2</sup> Yahweh’s works are great, <br>pondered by all those who delight in them. <br>
 <sup>3</sup> His work is honor and majesty. <br>His righteousness endures forever. <br>
 <sup>4</sup> He has caused his wonderful works to be remembered. <br>Yahweh is gracious and merciful. <br>
@@ -2312,7 +2309,7 @@
 
 ## Chapter 112
 
-<sup>1</sup> <sup>a</sup><br>Blessed is the man who fears Yahweh, <br>who delights greatly in his commandments. <br>
+<sup>1</sup> Praise Yah!<sup>a</sup> <br>Blessed is the man who fears Yahweh, <br>who delights greatly in his commandments. <br>
 <sup>2</sup> His offspring will be mighty in the land. <br>The generation of the upright will be blessed. <br>
 <sup>3</sup> Wealth and riches are in his house. <br>His righteousness endures forever. <br>
 <sup>4</sup> Light dawns in the darkness for the upright, <br>gracious, merciful, and righteous. <br>
@@ -2370,7 +2367,7 @@
 
 <sup>1</sup> I love Yahweh, because he listens to my voice, <br>and my cries for mercy. <br>
 <sup>2</sup> Because he has turned his ear to me, <br>therefore I will call on him as long as I live. <br>
-<sup>3</sup> The cords of death surrounded me, <br><sup>a</sup>got a hold of me. <br>I found trouble and sorrow. <br>
+<sup>3</sup> The cords of death surrounded me, <br>the pains of Sheol<sup>a</sup> got a hold of me. <br>I found trouble and sorrow. <br>
 <sup>4</sup> Then I called on Yahweh’s name: <br>“Yahweh, I beg you, deliver my soul.” <br>
 <sup>5</sup> Yahweh is gracious and righteous. <br>Yes, our God is merciful. <br>
 <sup>6</sup> Yahweh preserves the simple. <br>I was brought low, and he saved me. <br>
@@ -2417,7 +2414,7 @@
 <sup>19</sup> Open to me the gates of righteousness. <br>I will enter into them. <br>I will give thanks to Yah. <br>
 <sup>20</sup> This is the gate of Yahweh; <br>the righteous will enter into it. <br>
 <sup>21</sup> I will give thanks to you, for you have answered me, <br>and have become my salvation. <br>
-<sup>22</sup> The stone which the builders rejected <br><sup>a</sup><br>
+<sup>22</sup> The stone which the builders rejected <br>has become the cornerstone.<sup>a</sup> <br>
 <sup>23</sup> This is Yahweh’s doing. <br>It is marvelous in our eyes. <br>
 <sup>24</sup> This is the day that Yahweh has made. <br>We will rejoice and be glad in it! <br>
 <sup>25</sup> Save us now, we beg you, Yahweh! <br>Yahweh, we beg you, send prosperity now. <br>
@@ -2824,7 +2821,7 @@
 <sup>9</sup> Happy shall he be, <br>who takes and dashes your little ones against the rock.
 ## Chapter 138
 
-<sup>1</sup> I will give you thanks with my whole heart. <br><sup>a</sup>I will sing praises to you. <br>
+<sup>1</sup> I will give you thanks with my whole heart. <br>Before the gods,<sup>a</sup> I will sing praises to you. <br>
 <sup>2</sup> I will bow down toward your holy temple, <br>and give thanks to your Name for your loving kindness and for your truth; <br>for you have exalted your Name and your Word above all. <br>
 <sup>3</sup> In the day that I called, you answered me. <br>You encouraged me with strength in my soul. <br>
 <sup>4</sup> All the kings of the earth will give you thanks, Yahweh, <br>for they have heard the words of your mouth. <br>
@@ -2844,7 +2841,7 @@
 <sup>5</sup> You hem me in behind and before. <br>You laid your hand on me. <br>
 <sup>6</sup> This knowledge is beyond me. <br>It’s lofty. <br>I can’t attain it. <br>
 <sup>7</sup> Where could I go from your Spirit? <br>Or where could I flee from your presence? <br>
-<sup>8</sup> If I ascend up into heaven, you are there. <br><sup>a</sup>behold, you are there! <br>
+<sup>8</sup> If I ascend up into heaven, you are there. <br>If I make my bed in Sheol,<sup>a</sup> behold, you are there! <br>
 <sup>9</sup> If I take the wings of the dawn, <br>and settle in the uttermost parts of the sea, <br>
 <sup>10</sup> even there your hand will lead me, <br>and your right hand will hold me. <br>
 <sup>11</sup> If I say, “Surely the darkness will overwhelm me. <br>The light around me will be night,” <br>
@@ -2890,7 +2887,7 @@
 <sup>4</sup> Don’t incline my heart to any evil thing, <br>to practice deeds of wickedness with men who work iniquity. <br>Don’t let me eat of their delicacies. <br>
 <sup>5</sup> Let the righteous strike me, it is kindness; <br>let him reprove me, it is like oil on the head; <br>don’t let my head refuse it; <br>Yet my prayer is always against evil deeds. <br>
 <sup>6</sup> Their judges are thrown down by the sides of the rock. <br>They will hear my words, for they are well spoken. <br>
-<sup>7</sup> “As when one plows and breaks up the earth, <br><sup>a</sup><br>
+<sup>7</sup> “As when one plows and breaks up the earth, <br>our bones are scattered at the mouth of Sheol.”<sup>a</sup> <br>
 <sup>8</sup> For my eyes are on you, Yahweh, the Lord. <br>I take refuge in you. <br>Don’t leave my soul destitute. <br>
 <sup>9</sup> Keep me from the snare which they have laid for me, <br>from the traps of the workers of iniquity. <br>
 <sup>10</sup> Let the wicked fall together into their own nets <br>while I pass by.
@@ -2953,7 +2950,7 @@
 <sup>10</sup> All your works will give thanks to you, Yahweh. <br>Your saints will extol you. <br>
 <sup>11</sup> They will speak of the glory of your kingdom, <br>and talk about your power, <br>
 <sup>12</sup> to make known to the sons of men his mighty acts, <br>the glory of the majesty of his kingdom. <br>
-<sup>13</sup> Your kingdom is an everlasting kingdom. <br>Your dominion endures throughout all generations. <br>Yahweh is faithful in all his words, <br><sup>a</sup><br>
+<sup>13</sup> Your kingdom is an everlasting kingdom. <br>Your dominion endures throughout all generations. <br>Yahweh is faithful in all his words, <br>and loving in all his deeds.<sup>a</sup> <br>
 <sup>14</sup> Yahweh upholds all who fall, <br>and raises up all those who are bowed down. <br>
 <sup>15</sup> The eyes of all wait for you. <br>You give them their food in due season. <br>
 <sup>16</sup> You open your hand, <br>and satisfy the desire of every living thing. <br>

@@ -1,14 +1,14 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>saying, “Who should go up for us first against the Canaanites, to fight against them?”
+<sup>1</sup> After the death of Joshua, the children of Israel asked of Yahweh,<sup>a</sup> saying, “Who should go up for us first against the Canaanites, to fight against them?”
 
-<sup>2</sup> <sup>b</sup>I have delivered the land into his hand.”
+<sup>2</sup> Yahweh said, “Judah shall go up. Behold,<sup>b</sup> I have delivered the land into his hand.”
 
 <sup>3</sup> Judah said to Simeon his brother, “Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with you into your lot.” So Simeon went with him.
 <sup>4</sup> Judah went up, and Yahweh delivered the Canaanites and the Perizzites into their hand. They struck ten thousand men in Bezek.
 <sup>5</sup> They found Adoni-Bezek in Bezek, and they fought against him. They struck the Canaanites and the Perizzites.
 <sup>6</sup> But Adoni-Bezek fled. They pursued him, caught him, and cut off his thumbs and his big toes.
-<sup>7</sup> <sup>c</sup>has done to me.” They brought him to Jerusalem, and he died there.
+<sup>7</sup> Adoni-Bezek said, “Seventy kings, having their thumbs and their big toes cut off, scavenged under my table. As I have done, so God<sup>c</sup> has done to me.” They brought him to Jerusalem, and he died there.
 <sup>8</sup> The children of Judah fought against Jerusalem, took it, struck it with the edge of the sword, and set the city on fire.
 
 <sup>9</sup> After that, the children of Judah went down to fight against the Canaanites who lived in the hill country, and in the South, and in the lowland.
@@ -56,7 +56,7 @@
 <sup>3</sup> Therefore I also said, ‘I will not drive them out from before you; but they shall be in your sides, and their gods will be a snare to you.’ ”
 
 <sup>4</sup> When Yahweh’s angel spoke these words to all the children of Israel, the people lifted up their voice and wept.
-<sup>5</sup> <sup>a</sup>and they sacrificed there to Yahweh.
+<sup>5</sup> They called the name of that place Bochim,<sup>a</sup> and they sacrificed there to Yahweh.
 <sup>6</sup> Now when Joshua had sent the people away, the children of Israel each went to his inheritance to possess the land.
 <sup>7</sup> The people served Yahweh all the days of Joshua, and all the days of the elders who outlived Joshua, who had seen all the great work of Yahweh that he had worked for Israel.
 <sup>8</sup> Joshua the son of Nun, the servant of Yahweh, died, being one hundred ten years old.
@@ -96,7 +96,7 @@
 <sup>13</sup> He gathered the children of Ammon and Amalek to himself; and he went and struck Israel, and they possessed the city of palm trees.
 <sup>14</sup> The children of Israel served Eglon the king of Moab eighteen years.
 <sup>15</sup> But when the children of Israel cried to Yahweh, Yahweh raised up a savior for them: Ehud the son of Gera, the Benjamite, a left-handed man. The children of Israel sent tribute by him to Eglon the king of Moab.
-<sup>16</sup> <sup>a</sup>in length; and he wore it under his clothing on his right thigh.
+<sup>16</sup> Ehud made himself a sword which had two edges, a cubit<sup>a</sup> in length; and he wore it under his clothing on his right thigh.
 <sup>17</sup> He offered the tribute to Eglon king of Moab. Now Eglon was a very fat man.
 <sup>18</sup> When Ehud had finished offering the tribute, he sent away the people who carried the tribute.
 <sup>19</sup> But he himself turned back from the stone idols that were by Gilgal, and said, “I have a secret message for you, O king.” The king said, “Keep silence!” All who stood by him left him.
@@ -106,7 +106,7 @@
 <sup>22</sup> The handle also went in after the blade; and the fat closed on the blade, for he didn’t draw the sword out of his body; and it came out behind.
 <sup>23</sup> Then Ehud went out onto the porch, and shut the doors of the upper room on him, and locked them.
 
-<sup>24</sup> <sup>b</sup>in the upper room.”
+<sup>24</sup> After he had gone, his servants came and saw that the doors of the upper room were locked. They said, “Surely he is covering his feet<sup>b</sup> in the upper room.”
 <sup>25</sup> They waited until they were ashamed; and behold, he didn’t open the doors of the upper room. Therefore they took the key and opened them, and behold, their lord had fallen down dead on the floor.
 
 <sup>26</sup> Ehud escaped while they waited, passed beyond the stone idols, and escaped to Seirah.
@@ -218,14 +218,14 @@
 
 <sup>14</sup> Yahweh looked at him, and said, “Go in this your might, and save Israel from the hand of Midian. Haven’t I sent you?”
 
-<sup>15</sup> <sup>a</sup>how shall I save Israel? Behold, my family is the poorest in Manasseh, and I am the least in my father’s house.”
+<sup>15</sup> He said to him, “O Lord,<sup>a</sup> how shall I save Israel? Behold, my family is the poorest in Manasseh, and I am the least in my father’s house.”
 
 <sup>16</sup> Yahweh said to him, “Surely I will be with you, and you shall strike the Midianites as one man.”
 
 <sup>17</sup> He said to him, “If now I have found favor in your sight, then show me a sign that it is you who talk with me.
 <sup>18</sup> Please don’t go away until I come to you, and bring out my present, and lay it before you.” He said, “I will wait until you come back.”
 
-<sup>19</sup> <sup>b</sup>of meal. He put the meat in a basket and he put the broth in a pot, and brought it out to him under the oak, and presented it.
+<sup>19</sup> Gideon went in and prepared a young goat and unleavened cakes of an ephah<sup>b</sup> of meal. He put the meat in a basket and he put the broth in a pot, and brought it out to him under the oak, and presented it.
 
 <sup>20</sup> The angel of God said to him, “Take the meat and the unleavened cakes, and lay them on this rock, and pour out the broth.” He did so.
 <sup>21</sup> Then Yahweh’s angel stretched out the end of the staff that was in his hand, and touched the meat and the unleavened cakes; and fire went up out of the rock and consumed the meat and the unleavened cakes. Then Yahweh’s angel departed out of his sight.
@@ -234,7 +234,7 @@
 
 <sup>23</sup> Yahweh said to him, “Peace be to you! Don’t be afraid. You shall not die.”
 
-<sup>24</sup> <sup>c</sup>To this day it is still in Ophrah of the Abiezrites.
+<sup>24</sup> Then Gideon built an altar there to Yahweh, and called it “Yahweh is Peace.”<sup>c</sup> To this day it is still in Ophrah of the Abiezrites.
 
 <sup>25</sup> That same night, Yahweh said to him, “Take your father’s bull, even the second bull seven years old, and throw down the altar of Baal that your father has, and cut down the Asherah that is by it.
 <sup>26</sup> Then build an altar to Yahweh your God on the top of this stronghold, in an orderly way, and take the second bull, and offer a burnt offering with the wood of the Asherah which you shall cut down.”
@@ -246,7 +246,7 @@
 
 <sup>30</sup> Then the men of the city said to Joash, “Bring out your son, that he may die, because he has broken down the altar of Baal, and because he has cut down the Asherah that was by it.”
 <sup>31</sup> Joash said to all who stood against him, “Will you contend for Baal? Or will you save him? He who will contend for him, let him be put to death by morning! If he is a god, let him contend for himself, because someone has broken down his altar!”
-<sup>32</sup> <sup>d</sup>saying, “Let Baal contend against him, because he has broken down his altar.”
+<sup>32</sup> Therefore on that day he named him Jerub-Baal,<sup>d</sup> saying, “Let Baal contend against him, because he has broken down his altar.”
 
 <sup>33</sup> Then all the Midianites and the Amalekites and the children of the east assembled themselves together; and they passed over, and encamped in the valley of Jezreel.
 <sup>34</sup> But Yahweh’s Spirit came on Gideon, and he blew a trumpet; and Abiezer was gathered together to follow him.
@@ -341,7 +341,7 @@
 <sup>24</sup> Gideon said to them, “I do have a request: that you would each give me the earrings of his plunder.” (For they had golden earrings, because they were Ishmaelites.)
 
 <sup>25</sup> They answered, “We will willingly give them.” They spread a garment, and every man threw the earrings of his plunder into it.
-<sup>26</sup> <sup>a</sup>of gold, in addition to the crescents, and the pendants, and the purple clothing that was on the kings of Midian, and in addition to the chains that were about their camels’ necks.
+<sup>26</sup> The weight of the golden earrings that he requested was one thousand and seven hundred shekels<sup>a</sup> of gold, in addition to the crescents, and the pendants, and the purple clothing that was on the kings of Midian, and in addition to the chains that were about their camels’ necks.
 <sup>27</sup> Gideon made an ephod out of it, and put it in Ophrah, his city. Then all Israel played the prostitute with it there; and it became a snare to Gideon and to his house.
 <sup>28</sup> So Midian was subdued before the children of Israel, and they lifted up their heads no more. The land had rest forty years in the days of Gideon.
 
@@ -388,7 +388,7 @@
 <sup>19</sup> if you then have dealt truly and righteously with Jerubbaal and with his house today, then rejoice in Abimelech, and let him also rejoice in you;
 <sup>20</sup> but if not, let fire come out from Abimelech and devour the men of Shechem and the house of Millo; and let fire come out from the men of Shechem and from the house of Millo and devour Abimelech.”
 
-<sup>21</sup> <sup>a</sup>and lived there, for fear of Abimelech his brother.
+<sup>21</sup> Jotham ran away and fled, and went to Beer<sup>a</sup> and lived there, for fear of Abimelech his brother.
 
 <sup>22</sup> Abimelech was prince over Israel three years.
 <sup>23</sup> Then God sent an evil spirit between Abimelech and the men of Shechem; and the men of Shechem dealt treacherously with Abimelech,
@@ -574,7 +574,7 @@
 
 <sup>17</sup> Manoah said to Yahweh’s angel, “What is your name, that when your words happen, we may honor you?”
 
-<sup>18</sup> <sup>a</sup>?”
+<sup>18</sup> Yahweh’s angel said to him, “Why do you ask about my name, since it is incomprehensible<sup>a</sup>?”
 
 <sup>19</sup> So Manoah took the young goat with the meal offering, and offered it on the rock to Yahweh. Then the angel did an amazing thing as Manoah and his wife watched.
 <sup>20</sup> For when the flame went up toward the sky from off the altar, Yahweh’s angel ascended in the flame of the altar. Manoah and his wife watched; and they fell on their faces to the ground.
@@ -643,7 +643,7 @@
 <sup>14</sup> When he came to Lehi, the Philistines shouted as they met him. Then Yahweh’s Spirit came mightily on him, and the ropes that were on his arms became as flax that was burned with fire; and his bands dropped from off his hands.
 <sup>15</sup> He found a fresh jawbone of a donkey, put out his hand, took it, and struck a thousand men with it.
 <sup>16</sup> Samson said, “With the jawbone of a donkey, heaps on heaps; with the jawbone of a donkey I have struck a thousand men.”
-<sup>17</sup> <sup>a</sup>
+<sup>17</sup> When he had finished speaking, he threw the jawbone out of his hand; and that place was called Ramath Lehi.<sup>a</sup>
 
 <sup>18</sup> He was very thirsty, and called on Yahweh and said, “You have given this great deliverance by the hand of your servant; and now shall I die of thirst, and fall into the hands of the uncircumcised?”
 
@@ -709,7 +709,7 @@
 
 <sup>4</sup> When he restored the money to his mother, his mother took two hundred pieces of silver, and gave them to a silversmith, who made a carved image and a molten image out of it. It was in the house of Micah.
 
-<sup>5</sup> <sup>a</sup>and consecrated one of his sons, who became his priest.
+<sup>5</sup> The man Micah had a house of gods, and he made an ephod, and teraphim,<sup>a</sup> and consecrated one of his sons, who became his priest.
 <sup>6</sup> In those days there was no king in Israel. Everyone did that which was right in his own eyes.
 <sup>7</sup> There was a young man out of Bethlehem Judah, of the family of Judah, who was a Levite; and he lived there.
 <sup>8</sup> The man departed out of the city, out of Bethlehem Judah, to live where he could find a place, and he came to the hill country of Ephraim, to the house of Micah, as he traveled.
@@ -744,7 +744,7 @@
 <sup>12</sup> They went up and encamped in Kiriath Jearim in Judah. Therefore they call that place Mahaneh Dan to this day. Behold, it is behind Kiriath Jearim.
 <sup>13</sup> They passed from there to the hill country of Ephraim, and came to the house of Micah.
 
-<sup>14</sup> <sup>a</sup>and a carved image, and a molten image? Now therefore consider what you have to do.”
+<sup>14</sup> Then the five men who went to spy out the country of Laish answered and said to their brothers, “Do you know that there is in these houses an ephod, and teraphim,<sup>a</sup> and a carved image, and a molten image? Now therefore consider what you have to do.”
 <sup>15</sup> They went over there and came to the house of the young Levite man, even to the house of Micah, and asked him how he was doing.
 <sup>16</sup> The six hundred men armed with their weapons of war, who were of the children of Dan, stood by the entrance of the gate.
 <sup>17</sup> The five men who went to spy out the land went up, and came in there, and took the engraved image, the ephod, the teraphim, and the molten image; and the priest stood by the entrance of the gate with the six hundred men armed with weapons of war.

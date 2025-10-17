@@ -1,12 +1,12 @@
 ## Chapter 1
 
 <sup>1</sup> The words of Jeremiah the son of Hilkiah, one of the priests who were in Anathoth in the land of Benjamin.
-<sup>2</sup> <sup>a</sup>word came to him in the days of Josiah the son of Amon, king of Judah, in the thirteenth year of his reign.
+<sup>2</sup> Yahweh’s<sup>a</sup> word came to him in the days of Josiah the son of Amon, king of Judah, in the thirteenth year of his reign.
 <sup>3</sup> It came also in the days of Jehoiakim the son of Josiah, king of Judah, to the end of the eleventh year of Zedekiah, the son of Josiah, king of Judah, to the carrying away of Jerusalem captive in the fifth month.
 <sup>4</sup> Now Yahweh’s word came to me, saying, <br>
 <sup>5</sup> “Before I formed you in the womb, I knew you. <br>Before you were born, I sanctified you. <br>I have appointed you a prophet to the nations.”
 
-<sup>6</sup> <sup>b</sup><sup>c</sup>I don’t know how to speak; for I am a child.”
+<sup>6</sup> Then I said, “Ah, Lord<sup>b</sup> Yahweh! Behold,<sup>c</sup> I don’t know how to speak; for I am a child.”
 
 <sup>7</sup> But Yahweh said to me, “Don’t say, ‘I am a child;’ for you must go to whomever I send you, and you must say whatever I command you.
 <sup>8</sup> Don’t be afraid because of them, for I am with you to rescue you,” says Yahweh.
@@ -51,8 +51,8 @@
 <sup>14</sup> Is Israel a slave? <br>Is he born into slavery? <br>Why has he become a captive? <br>
 <sup>15</sup> The young lions have roared at him and raised their voices. <br>They have made his land waste. <br>His cities are burned up, without inhabitant. <br>
 <sup>16</sup> The children also of Memphis and Tahpanhes have broken the crown of your head. <br>
-<sup>17</sup> “Haven’t you brought this on yourself, <br><sup>a</sup>when he led you by the way? <br>
-<sup>18</sup> Now what do you gain by going to Egypt, to drink the waters of the Shihor? <br><sup>b</sup><br>
+<sup>17</sup> “Haven’t you brought this on yourself, <br>in that you have forsaken Yahweh your God,<sup>a</sup> when he led you by the way? <br>
+<sup>18</sup> Now what do you gain by going to Egypt, to drink the waters of the Shihor? <br>Or why do you go on the way to Assyria, to drink the waters of the River?<sup>b</sup> <br>
 <sup>19</sup> “Your own wickedness will correct you, <br>and your backsliding will rebuke you. <br>Know therefore and see that it is an evil and bitter thing, <br>that you have forsaken Yahweh your God, <br>and that my fear is not in you,” says the Lord, Yahweh of Armies. <br>
 <sup>20</sup> “For long ago I broke off your yoke, <br>and burst your bonds. <br>You said, ‘I will not serve;’ <br>for on every high hill and under every green tree you bowed yourself, <br>playing the prostitute. <br>
 <sup>21</sup> Yet I had planted you a noble vine, <br>a pure and faithful seed. <br>How then have you turned into the degenerate branches of a foreign vine to me? <br>
@@ -252,7 +252,7 @@
 <sup>12</sup> “But go now to my place which was in Shiloh, where I caused my name to dwell at the first, and see what I did to it for the wickedness of my people Israel.
 <sup>13</sup> Now, because you have done all these works,” says Yahweh, “and I spoke to you, rising up early and speaking, but you didn’t hear; and I called you, but you didn’t answer;
 <sup>14</sup> therefore I will do to the house which is called by my name, in which you trust, and to the place which I gave to you and to your fathers, as I did to Shiloh.
-<sup>15</sup> <sup>a</sup>of Ephraim.
+<sup>15</sup> I will cast you out of my sight, as I have cast out all your brothers, even the whole offspring<sup>a</sup> of Ephraim.
 
 <sup>16</sup> “Therefore don’t pray for this people. Don’t lift up a cry or prayer for them or make intercession to me; for I will not hear you.
 <sup>17</sup> Don’t you see what they do in the cities of Judah and in the streets of Jerusalem?
@@ -638,7 +638,7 @@
 
 <sup>1</sup> Now Pashhur, the son of Immer the priest, who was chief officer in Yahweh’s house, heard Jeremiah prophesying these things.
 <sup>2</sup> Then Pashhur struck Jeremiah the prophet and put him in the stocks that were in the upper gate of Benjamin, which was in Yahweh’s house.
-<sup>3</sup> <sup>a</sup>
+<sup>3</sup> On the next day, Pashhur released Jeremiah out of the stocks. Then Jeremiah said to him, “Yahweh has not called your name Pashhur, but Magormissabib.<sup>a</sup>
 <sup>4</sup> For Yahweh says, ‘Behold, I will make you a terror to yourself and to all your friends. They will fall by the sword of their enemies, and your eyes will see it. I will give all Judah into the hand of the king of Babylon, and he will carry them captive to Babylon, and will kill them with the sword.
 <sup>5</sup> Moreover I will give all the riches of this city, and all its gains, and all its precious things, yes, I will give all the treasures of the kings of Judah into the hand of their enemies. They will make them captives, take them, and carry them to Babylon.
 <sup>6</sup> You, Pashhur, and all who dwell in your house will go into captivity. You will come to Babylon, and there you will die, and there you will be buried, you, and all your friends, to whom you have prophesied falsely.’ ”
@@ -1045,7 +1045,7 @@
 <sup>7</sup> ‘Behold, Hanamel the son of Shallum your uncle will come to you, saying, “Buy my field that is in Anathoth; for the right of redemption is yours to buy it.” ’ ”
 
 <sup>8</sup> “So Hanamel my uncle’s son came to me in the court of the guard according to Yahweh’s word, and said to me, ‘Please buy my field that is in Anathoth, which is in the land of Benjamin; for the right of inheritance is yours, and the redemption is yours. Buy it for yourself.’ “Then I knew that this was Yahweh’s word.
-<sup>9</sup> <sup>a</sup>of silver.
+<sup>9</sup> I bought the field that was in Anathoth of Hanamel my uncle’s son, and weighed him the money, even seventeen shekels<sup>a</sup> of silver.
 <sup>10</sup> I signed the deed, sealed it, called witnesses, and weighed the money in the balances to him.
 <sup>11</sup> So I took the deed of the purchase, both that which was sealed, containing the terms and conditions, and that which was open;
 <sup>12</sup> and I delivered the deed of the purchase to Baruch the son of Neriah, the son of Mahseiah, in the presence of Hanamel my uncle’s son, and in the presence of the witnesses who signed the deed of the purchase, before all the Jews who sat in the court of the guard.
@@ -1518,7 +1518,7 @@
 <sup>7</sup> “How can you be quiet, <br>since Yahweh has given you a command? <br>Against Ashkelon, and against the seashore, <br>there he has appointed it.”
 ## Chapter 48
 
-<sup>1</sup> Of Moab. Yahweh of Armies, the God of Israel, says: <br>“Woe to Nebo! <br>For it is laid waste. <br>Kiriathaim is disappointed. <br>It is taken. <br><sup>a</sup>is put to shame <br>and broken down. <br>
+<sup>1</sup> Of Moab. Yahweh of Armies, the God of Israel, says: <br>“Woe to Nebo! <br>For it is laid waste. <br>Kiriathaim is disappointed. <br>It is taken. <br>Misgab<sup>a</sup> is put to shame <br>and broken down. <br>
 <sup>2</sup> The praise of Moab is no more. <br>In Heshbon they have devised evil against her: <br>‘Come! Let’s cut her off from being a nation.’ <br>You also, Madmen, will be brought to silence. <br>The sword will pursue you. <br>
 <sup>3</sup> The sound of a cry from Horonaim, <br>desolation and great destruction! <br>
 <sup>4</sup> Moab is destroyed. <br>Her little ones have caused a cry to be heard. <br>
@@ -1794,8 +1794,8 @@
 <sup>19</sup> The captain of the guard took away the cups, the fire pans, the basins, the pots, the lamp stands, the spoons, and the bowls; that which was of gold, as gold, and that which was of silver, as silver.
 
 <sup>20</sup> They took the two pillars, the one sea, and the twelve bronze bulls that were under the bases, which King Solomon had made for Yahweh’s house. The bronze of all these vessels was without weight.
-<sup>21</sup> <sup>a</sup>and a line of twelve cubits encircled it; and its thickness was four fingers. It was hollow.
-<sup>22</sup> <sup>b</sup>with network and pomegranates on the capital all around, all of bronze. The second pillar also had the same, with pomegranates.
+<sup>21</sup> As for the pillars, the height of the one pillar was eighteen cubits;<sup>a</sup> and a line of twelve cubits encircled it; and its thickness was four fingers. It was hollow.
+<sup>22</sup> A capital of bronze was on it; and the height of the one capital was five cubits,<sup>b</sup> with network and pomegranates on the capital all around, all of bronze. The second pillar also had the same, with pomegranates.
 <sup>23</sup> There were ninety-six pomegranates on the sides; all the pomegranates were one hundred on the network all around.
 
 <sup>24</sup> The captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the threshold,

@@ -1,9 +1,9 @@
 ## Chapter 1
 
 <sup>1</sup> In the third year of the reign of Jehoiakim king of Judah, Nebuchadnezzar king of Babylon came to Jerusalem and besieged it.
-<sup>2</sup> <sup>a</sup><sup>b</sup>and he carried them into the land of Shinar to the house of his god. He brought the vessels into the treasure house of his god.
+<sup>2</sup> The Lord<sup>a</sup> gave Jehoiakim king of Judah into his hand, with some of the vessels of the house of God;<sup>b</sup> and he carried them into the land of Shinar to the house of his god. He brought the vessels into the treasure house of his god.
 
-<sup>3</sup> <sup>c</sup>and of the nobles:
+<sup>3</sup> The king spoke to Ashpenaz, the master of his eunuchs, that he should bring in some of the children of Israel, even of the royal offspring<sup>c</sup> and of the nobles:
 <sup>4</sup> youths in whom was no defect, but well-favored, skillful in all wisdom, endowed with knowledge, understanding science, and who had the ability to stand in the king’s palace; and that he should teach them the learning and the language of the Chaldeans.
 <sup>5</sup> The king appointed for them a daily portion of the king’s delicacies and of the wine which he drank, and that they should be nourished three years, that at its end they should stand before the king.
 
@@ -80,7 +80,7 @@
 <sup>29</sup> “As for you, O king, your thoughts came on your bed, what should happen hereafter; and he who reveals secrets has made known to you what will happen.
 <sup>30</sup> But as for me, this secret is not revealed to me for any wisdom that I have more than any living, but to the intent that the interpretation may be made known to the king, and that you may know the thoughts of your heart.
 
-<sup>31</sup> <sup>a</sup>a great image. This image, which was mighty, and whose brightness was excellent, stood before you; and its appearance was terrifying.
+<sup>31</sup> “You, O king, saw, and behold,<sup>a</sup> a great image. This image, which was mighty, and whose brightness was excellent, stood before you; and its appearance was terrifying.
 <sup>32</sup> As for this image, its head was of fine gold, its breast and its arms of silver, its belly and its thighs of bronze,
 <sup>33</sup> its legs of iron, its feet part of iron and part of clay.
 <sup>34</sup> You saw until a stone was cut out without hands, which struck the image on its feet that were of iron and clay, and broke them in pieces.
@@ -109,7 +109,7 @@
 
 ## Chapter 3
 
-<sup>1</sup> <sup>a</sup>and its width six cubits. He set it up in the plain of Dura, in the province of Babylon.
+<sup>1</sup> Nebuchadnezzar the king made an image of gold, whose height was sixty cubits<sup>a</sup> and its width six cubits. He set it up in the plain of Dura, in the province of Babylon.
 <sup>2</sup> Then Nebuchadnezzar the king sent to gather together the local governors, the deputies, and the governors, the judges, the treasurers, the counselors, the sheriffs, and all the rulers of the provinces, to come to the dedication of the image which Nebuchadnezzar the king had set up.
 <sup>3</sup> Then the local governors, the deputies, and the governors, the judges, the treasurers, the counselors, the sheriffs, and all the rulers of the provinces were gathered together to the dedication of the image that Nebuchadnezzar the king had set up; and they stood before the image that Nebuchadnezzar had set up.
 
@@ -141,7 +141,7 @@
 
 <sup>24</sup> Then Nebuchadnezzar the king was astonished and rose up in haste. He spoke and said to his counselors, “Didn’t we cast three men bound into the middle of the fire?” They answered the king, “True, O king.”
 
-<sup>25</sup> <sup>b</sup>”
+<sup>25</sup> He answered, “Look, I see four men loose, walking in the middle of the fire, and they are unharmed. The appearance of the fourth is like a son of the gods.<sup>b</sup> ”
 
 <sup>26</sup> Then Nebuchadnezzar came near to the mouth of the burning fiery furnace. He spoke and said, “Shadrach, Meshach, and Abednego, you servants of the Most High God, come out, and come here!” Then Shadrach, Meshach, and Abednego came out of the middle of the fire.
 <sup>27</sup> The local governors, the deputies, and the governors, and the king’s counselors, being gathered together, saw these men, that the fire had no power on their bodies. The hair of their head wasn’t singed. Their pants weren’t changed. The smell of fire wasn’t even on them.
@@ -367,7 +367,7 @@
 ## Chapter 9
 
 <sup>1</sup> In the first year of Darius the son of Ahasuerus, of the offspring of the Medes, who was made king over the realm of the Chaldeans—
-<sup>2</sup> <sup>a</sup>word came to Jeremiah the prophet for the accomplishing of the desolations of Jerusalem, even seventy years.
+<sup>2</sup> in the first year of his reign I, Daniel, understood by the books the number of the years about which Yahweh’s<sup>a</sup> word came to Jeremiah the prophet for the accomplishing of the desolations of Jerusalem, even seventy years.
 <sup>3</sup> I set my face to the Lord God, to seek by prayer and petitions, with fasting and sackcloth and ashes.
 
 <sup>4</sup> I prayed to Yahweh my God, and made confession, and said,
@@ -394,8 +394,8 @@
 
 <sup>24</sup> “Seventy weeks are decreed on your people and on your holy city, to finish disobedience, to make an end of sins, to make reconciliation for iniquity, to bring in everlasting righteousness, to seal up vision and prophecy, and to anoint the most holy.
 
-<sup>25</sup> <sup>b</sup>the prince, will be seven weeks and sixty-two weeks. It will be built again, with street and moat, even in troubled times.
-<sup>26</sup> <sup>c</sup>will be cut off, and will have nothing. The people of the prince who come will destroy the city and the sanctuary. Its end will be with a flood, and war will be even to the end. Desolations are determined.
+<sup>25</sup> “Know therefore and discern that from the going out of the commandment to restore and build Jerusalem to the Anointed One,<sup>b</sup> the prince, will be seven weeks and sixty-two weeks. It will be built again, with street and moat, even in troubled times.
+<sup>26</sup> After the sixty-two weeks the Anointed One<sup>c</sup> will be cut off, and will have nothing. The people of the prince who come will destroy the city and the sanctuary. Its end will be with a flood, and war will be even to the end. Desolations are determined.
 <sup>27</sup> He will make a firm covenant with many for one week. In the middle of the week he will cause the sacrifice and the offering to cease. On the wing of abominations will come one who makes desolate; and even to the decreed full end, wrath will be poured out on the desolate.”
 
 > - <sup>a</sup> 2. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
@@ -409,7 +409,7 @@
 <sup>2</sup> In those days I, Daniel, was mourning three whole weeks.
 <sup>3</sup> I ate no pleasant food. No meat or wine came into my mouth. I didn’t anoint myself at all, until three whole weeks were fulfilled.
 
-<sup>4</sup> <sup>a</sup>
+<sup>4</sup> In the twenty-fourth day of the first month, as I was by the side of the great river, which is Hiddekel,<sup>a</sup>
 <sup>5</sup> I lifted up my eyes and looked, and behold, there was a man clothed in linen, whose waist was adorned with pure gold of Uphaz.
 <sup>6</sup> His body also was like beryl, and his face as the appearance of lightning, and his eyes as flaming torches. His arms and his feet were like burnished bronze. The voice of his words was like the voice of a multitude.
 

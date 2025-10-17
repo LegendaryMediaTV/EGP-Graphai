@@ -15,7 +15,7 @@
 <sup>12</sup> While the king sat at his table, <br>my perfume spread its fragrance. <br>
 <sup>13</sup> My beloved is to me a sachet of myrrh, <br>that lies between my breasts. <br>
 <sup>14</sup> My beloved is to me a cluster of henna blossoms <br>from the vineyards of En Gedi.
-<sup>15</sup> <sup>a</sup>you are beautiful, my love. <br>Behold, you are beautiful. <br>Your eyes are like doves.
+<sup>15</sup> Behold,<sup>a</sup> you are beautiful, my love. <br>Behold, you are beautiful. <br>Your eyes are like doves.
 <sup>16</sup> Behold, you are beautiful, my beloved, yes, pleasant; <br>and our couch is verdant.
 <sup>17</sup> The beams of our house are cedars. <br>Our rafters are firs.
 
@@ -141,13 +141,13 @@
 <sup>4</sup> I adjure you, daughters of Jerusalem, <br>that you not stir up, nor awaken love, <br>until it so desires.
 <sup>5</sup> Who is this who comes up from the wilderness, <br>leaning on her beloved? Under the apple tree I awakened you. <br>There your mother conceived you. <br>There she was in labor and bore you.
 
-<sup>6</sup> Set me as a seal on your heart, <br>as a seal on your arm; <br>for love is strong as death. <br><sup>a</sup><br>Its flashes are flashes of fire, <br><sup>b</sup><br>
+<sup>6</sup> Set me as a seal on your heart, <br>as a seal on your arm; <br>for love is strong as death. <br>Jealousy is as cruel as Sheol.<sup>a</sup> <br>Its flashes are flashes of fire, <br>a very flame of Yah.<sup>b</sup> <br>
 <sup>7</sup> Many waters can’t quench love, <br>neither can floods drown it. <br>If a man would give all the wealth of his house for love, <br>he would be utterly scorned.
 <sup>8</sup> We have a little sister. <br>She has no breasts. <br>What shall we do for our sister <br>in the day when she is to be spoken for?
 
 <sup>9</sup> If she is a wall, <br>we will build on her a turret of silver. <br>If she is a door, <br>we will enclose her with boards of cedar.
 <sup>10</sup> I am a wall, and my breasts like towers, <br>then I was in his eyes like one who found peace. <br>
-<sup>11</sup> Solomon had a vineyard at Baal Hamon. <br>He leased out the vineyard to keepers. <br><sup>c</sup>of silver for its fruit. <br>
+<sup>11</sup> Solomon had a vineyard at Baal Hamon. <br>He leased out the vineyard to keepers. <br>Each was to bring a thousand shekels<sup>c</sup> of silver for its fruit. <br>
 <sup>12</sup> My own vineyard is before me. <br>The thousand are for you, Solomon, <br>two hundred for those who tend its fruit.
 <sup>13</sup> You who dwell in the gardens, with friends in attendance, <br>let me hear your voice!
 <sup>14</sup> Come away, my beloved! <br>Be like a gazelle or a young stag on the mountains of spices!

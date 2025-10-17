@@ -2,7 +2,7 @@
 
 <sup>1</sup> Now there was a certain man of Ramathaim Zophim, of the hill country of Ephraim, and his name was Elkanah, the son of Jeroham, the son of Elihu, the son of Tohu, the son of Zuph, an Ephraimite.
 <sup>2</sup> He had two wives. The name of one was Hannah, and the name of the other Peninnah. Peninnah had children, but Hannah had no children.
-<sup>3</sup> <sup>a</sup>of Armies in Shiloh. The two sons of Eli, Hophni and Phinehas, priests to Yahweh, were there.
+<sup>3</sup> This man went up out of his city from year to year to worship and to sacrifice to Yahweh<sup>a</sup> of Armies in Shiloh. The two sons of Eli, Hophni and Phinehas, priests to Yahweh, were there.
 <sup>4</sup> When the day came that Elkanah sacrificed, he gave portions to Peninnah his wife and to all her sons and her daughters;
 <sup>5</sup> but he gave a double portion to Hannah, for he loved Hannah, but Yahweh had shut up her womb.
 <sup>6</sup> Her rival provoked her severely, to irritate her, because Yahweh had shut up her womb.
@@ -20,19 +20,19 @@
 <sup>15</sup> Hannah answered, “No, my lord, I am a woman of a sorrowful spirit. I have not been drinking wine or strong drink, but I poured out my soul before Yahweh.
 <sup>16</sup> Don’t consider your servant a wicked woman; for I have been speaking out of the abundance of my complaint and my provocation.”
 
-<sup>17</sup> <sup>b</sup>of Israel grant your petition that you have asked of him.”
+<sup>17</sup> Then Eli answered, “Go in peace; and may the God<sup>b</sup> of Israel grant your petition that you have asked of him.”
 
 <sup>18</sup> She said, “Let your servant find favor in your sight.” So the woman went her way and ate; and her facial expression wasn’t sad any more.
 
 <sup>19</sup> They rose up in the morning early and worshiped Yahweh, then returned and came to their house to Ramah. Then Elkanah knew Hannah his wife; and Yahweh remembered her.
 
-<sup>20</sup> <sup>c</sup>saying, “Because I have asked him of Yahweh.”
+<sup>20</sup> When the time had come, Hannah conceived, and bore a son; and she named him Samuel,<sup>c</sup> saying, “Because I have asked him of Yahweh.”
 
 <sup>21</sup> The man Elkanah, and all his house, went up to offer to Yahweh the yearly sacrifice and his vow.
 <sup>22</sup> But Hannah didn’t go up, for she said to her husband, “Not until the child is weaned; then I will bring him, that he may appear before Yahweh, and stay there forever.”
 
 <sup>23</sup> Elkanah her husband said to her, “Do what seems good to you. Wait until you have weaned him; only may Yahweh establish his word.” So the woman waited and nursed her son until she weaned him.
-<sup>24</sup> <sup>d</sup>of meal, and a container of wine, and brought him to Yahweh’s house in Shiloh. The child was young.
+<sup>24</sup> When she had weaned him, she took him up with her, with three bulls, and one ephah<sup>d</sup> of meal, and a container of wine, and brought him to Yahweh’s house in Shiloh. The child was young.
 <sup>25</sup> They killed the bull, and brought the child to Eli.
 <sup>26</sup> She said, “Oh, my lord, as your soul lives, my lord, I am the woman who stood by you here, praying to Yahweh.
 <sup>27</sup> I prayed for this child, and Yahweh has given me my petition which I asked of him.
@@ -53,7 +53,7 @@
 <sup>4</sup> “The bows of the mighty men are broken. <br>Those who stumbled are armed with strength. <br>
 <sup>5</sup> Those who were full have hired themselves out for bread. <br>Those who were hungry are satisfied. <br>Yes, the barren has borne seven. <br>She who has many children languishes.
 
-<sup>6</sup> “Yahweh kills and makes alive. <br><sup>a</sup>and brings up. <br>
+<sup>6</sup> “Yahweh kills and makes alive. <br>He brings down to Sheol<sup>a</sup> and brings up. <br>
 <sup>7</sup> Yahweh makes poor and makes rich. <br>He brings low, he also lifts up. <br>
 <sup>8</sup> He raises up the poor out of the dust. <br>He lifts up the needy from the dunghill <br>to make them sit with princes <br>and inherit the throne of glory. <br>For the pillars of the earth are Yahweh’s. <br>He has set the world on them. <br>
 <sup>9</sup> He will keep the feet of his holy ones, <br>but the wicked will be put to silence in darkness; <br>for no man will prevail by strength. <br>
@@ -70,7 +70,7 @@
 <sup>17</sup> The sin of the young men was very great before Yahweh; for the men despised Yahweh’s offering.
 <sup>18</sup> But Samuel ministered before Yahweh, being a child, clothed with a linen ephod.
 <sup>19</sup> Moreover his mother made him a little robe, and brought it to him from year to year when she came up with her husband to offer the yearly sacrifice.
-<sup>20</sup> <sup>b</sup>from this woman for the petition which was asked of Yahweh.” Then they went to their own home.
+<sup>20</sup> Eli blessed Elkanah and his wife, and said, “May Yahweh give you offspring<sup>b</sup> from this woman for the petition which was asked of Yahweh.” Then they went to their own home.
 <sup>21</sup> Yahweh visited Hannah, and she conceived and bore three sons and two daughters. The child Samuel grew before Yahweh.
 
 <sup>22</sup> Now Eli was very old; and he heard all that his sons did to all Israel, and how that they slept with the women who served at the door of the Tent of Meeting.
@@ -84,9 +84,9 @@
 <sup>28</sup> Didn’t I choose him out of all the tribes of Israel to be my priest, to go up to my altar, to burn incense, to wear an ephod before me? Didn’t I give to the house of your father all the offerings of the children of Israel made by fire?
 <sup>29</sup> Why do you kick at my sacrifice and at my offering, which I have commanded in my habitation, and honor your sons above me, to make yourselves fat with the best of all the offerings of Israel my people?’
 <sup>30</sup> “Therefore Yahweh, the God of Israel, says, ‘I said indeed that your house and the house of your father should walk before me forever.’ But now Yahweh says, ‘Far be it from me; for those who honor me I will honor, and those who despise me will be cursed.
-<sup>31</sup> <sup>c</sup>the days come that I will cut off your arm and the arm of your father’s house, that there will not be an old man in your house.
+<sup>31</sup> Behold,<sup>c</sup> the days come that I will cut off your arm and the arm of your father’s house, that there will not be an old man in your house.
 <sup>32</sup> You will see the affliction of my habitation, in all the wealth which I will give Israel. There shall not be an old man in your house forever.
-<sup>33</sup> <sup>d</sup>and grieve your heart. All the increase of your house will die in the flower of their age.
+<sup>33</sup> The man of yours whom I don’t cut off from my altar will consume your eyes<sup>d</sup> and grieve your heart. All the increase of your house will die in the flower of their age.
 <sup>34</sup> This will be the sign to you that will come on your two sons, on Hophni and Phinehas: in one day they will both die.
 <sup>35</sup> I will raise up a faithful priest for myself who will do according to that which is in my heart and in my mind. I will build him a sure house. He will walk before my anointed forever.
 <sup>36</sup> It will happen that everyone who is left in your house will come and bow down to him for a piece of silver and a loaf of bread, and will say, “Please put me into one of the priests’ offices, that I may eat a morsel of bread.” ’ ”
@@ -152,7 +152,7 @@
 
 <sup>19</sup> His daughter-in-law, Phinehas’ wife, was with child, near to giving birth. When she heard the news that God’s ark was taken and that her father-in-law and her husband were dead, she bowed herself and gave birth; for her pains came on her.
 <sup>20</sup> About the time of her death the women who stood by her said to her, “Don’t be afraid, for you have given birth to a son.” But she didn’t answer, neither did she regard it.
-<sup>21</sup> <sup>a</sup>saying, “The glory has departed from Israel!” because God’s ark was taken, and because of her father-in-law and her husband.
+<sup>21</sup> She named the child Ichabod,<sup>a</sup> saying, “The glory has departed from Israel!” because God’s ark was taken, and because of her father-in-law and her husband.
 <sup>22</sup> She said, “The glory has departed from Israel; for God’s ark has been taken.”
 
 > - <sup>a</sup> 21. “Ichabod” means “no glory”.
@@ -215,7 +215,7 @@
 <sup>10</sup> As Samuel was offering up the burnt offering, the Philistines came near to battle against Israel; but Yahweh thundered with a great thunder on that day on the Philistines and confused them; and they were struck down before Israel.
 <sup>11</sup> The men of Israel went out of Mizpah and pursued the Philistines, and struck them until they came under Beth Kar.
 
-<sup>12</sup> <sup>a</sup>saying, “Yahweh helped us until now.”
+<sup>12</sup> Then Samuel took a stone and set it between Mizpah and Shen, and called its name Ebenezer,<sup>a</sup> saying, “Yahweh helped us until now.”
 <sup>13</sup> So the Philistines were subdued, and they stopped coming within the border of Israel. Yahweh’s hand was against the Philistines all the days of Samuel.
 
 <sup>14</sup> The cities which the Philistines had taken from Israel were restored to Israel, from Ekron even to Gath; and Israel recovered its border out of the hand of the Philistines. There was peace between Israel and the Amorites.
@@ -268,7 +268,7 @@
 
 <sup>7</sup> Then Saul said to his servant, “But behold, if we go, what should we bring the man? For the bread is spent in our sacks, and there is not a present to bring to the man of God. What do we have?”
 
-<sup>8</sup> <sup>a</sup>of silver. I will give that to the man of God, to tell us our way.”
+<sup>8</sup> The servant answered Saul again and said, “Behold, I have in my hand the fourth part of a shekel<sup>a</sup> of silver. I will give that to the man of God, to tell us our way.”
 <sup>9</sup> (In earlier times in Israel, when a man went to inquire of God, he said, “Come! Let’s go to the seer;” for he who is now called a prophet was before called a seer.)
 
 <sup>10</sup> Then Saul said to his servant, “Well said. Come! Let’s go.” So they went to the city where the man of God was.
@@ -401,7 +401,7 @@
 <sup>25</sup> But if you keep doing evil, you will be consumed, both you and your king.”
 ## Chapter 13
 
-<sup>1</sup> <sup>a</sup>
+<sup>1</sup> Saul was thirty years old when he became king, and he reigned over Israel forty-two years.<sup>a</sup>
 
 <sup>2</sup> Saul chose for himself three thousand men of Israel, of which two thousand were with Saul in Michmash and in the Mount of Bethel, and one thousand were with Jonathan in Gibeah of Benjamin. He sent the rest of the people to their own tents.
 <sup>3</sup> Jonathan struck the garrison of the Philistines that was in Geba, and the Philistines heard of it. Saul blew the trumpet throughout all the land, saying, “Let the Hebrews hear!”
@@ -425,7 +425,7 @@
 <sup>18</sup> another company turned the way to Beth Horon; and another company turned the way of the border that looks down on the valley of Zeboim toward the wilderness.
 <sup>19</sup> Now there was no blacksmith found throughout all the land of Israel, for the Philistines said, “Lest the Hebrews make themselves swords or spears”;
 <sup>20</sup> but all the Israelites went down to the Philistines, each man to sharpen his own plowshare, mattock, ax, and sickle.
-<sup>21</sup> <sup>b</sup>each to sharpen mattocks, plowshares, pitchforks, axes, and goads.
+<sup>21</sup> The price was one payim<sup>b</sup> each to sharpen mattocks, plowshares, pitchforks, axes, and goads.
 <sup>22</sup> So it came to pass in the day of battle that neither sword nor spear was found in the hand of any of the people who were with Saul and Jonathan; but Saul and Jonathan his son had them.
 
 <sup>23</sup> The garrison of the Philistines went out to the pass of Michmash.
@@ -541,7 +541,7 @@
 <sup>21</sup> But the people took of the plunder, sheep and cattle, the best of the devoted things, to sacrifice to Yahweh your God in Gilgal.”
 
 <sup>22</sup> Samuel said, “Has Yahweh as great delight in burnt offerings and sacrifices, as in obeying Yahweh’s voice? Behold, to obey is better than sacrifice, and to listen than the fat of rams.
-<sup>23</sup> <sup>a</sup>Because you have rejected Yahweh’s word, he has also rejected you from being king.”
+<sup>23</sup> For rebellion is as the sin of witchcraft, and stubbornness is as idolatry and teraphim.<sup>a</sup> Because you have rejected Yahweh’s word, he has also rejected you from being king.”
 
 <sup>24</sup> Saul said to Samuel, “I have sinned; for I have transgressed the commandment of Yahweh and your words, because I feared the people and obeyed their voice.
 <sup>25</sup> Now therefore, please pardon my sin, and turn again with me, that I may worship Yahweh.”
@@ -604,10 +604,10 @@
 <sup>1</sup> Now the Philistines gathered together their armies to battle; and they were gathered together at Socoh, which belongs to Judah, and encamped between Socoh and Azekah in Ephesdammim.
 <sup>2</sup> Saul and the men of Israel were gathered together, and encamped in the valley of Elah, and set the battle in array against the Philistines.
 <sup>3</sup> The Philistines stood on the mountain on the one side, and Israel stood on the mountain on the other side: and there was a valley between them.
-<sup>4</sup> <sup>a</sup>went out.
-<sup>5</sup> <sup>b</sup>of bronze.
+<sup>4</sup> A champion out of the camp of the Philistines named Goliath of Gath, whose height was six cubits and a span<sup>a</sup> went out.
+<sup>5</sup> He had a helmet of bronze on his head, and he wore a coat of mail; and the weight of the coat was five thousand shekels<sup>b</sup> of bronze.
 <sup>6</sup> He had bronze shin armor on his legs and a bronze javelin between his shoulders.
-<sup>7</sup> <sup>c</sup>His shield bearer went before him.
+<sup>7</sup> The staff of his spear was like a weaver’s beam; and his spear’s head weighed six hundred shekels of iron.<sup>c</sup> His shield bearer went before him.
 <sup>8</sup> He stood and cried to the armies of Israel, and said to them, “Why have you come out to set your battle in array? Am I not a Philistine, and you servants to Saul? Choose a man for yourselves, and let him come down to me.
 <sup>9</sup> If he is able to fight with me and kill me, then will we be your servants; but if I prevail against him and kill him, then you will be our servants and serve us.”
 <sup>10</sup> The Philistine said, “I defy the armies of Israel today! Give me a man, that we may fight together!”
@@ -620,7 +620,7 @@
 
 <sup>16</sup> The Philistine came near morning and evening, and presented himself forty days.
 
-<sup>17</sup> <sup>d</sup>of this parched grain and these ten loaves, and carry them quickly to the camp to your brothers;
+<sup>17</sup> Jesse said to David his son, “Now take for your brothers an ephah<sup>d</sup> of this parched grain and these ten loaves, and carry them quickly to the camp to your brothers;
 <sup>18</sup> and bring these ten cheeses to the captain of their thousand; and see how your brothers are doing, and bring back news.”
 <sup>19</sup> Now Saul, and they, and all the men of Israel were in the valley of Elah, fighting with the Philistines.
 
@@ -744,7 +744,7 @@
 <sup>10</sup> Saul sought to pin David to the wall with the spear, but he slipped away out of Saul’s presence; and he stuck the spear into the wall. David fled and escaped that night.
 <sup>11</sup> Saul sent messengers to David’s house to watch him and to kill him in the morning. Michal, David’s wife, told him, saying, “If you don’t save your life tonight, tomorrow you will be killed.”
 <sup>12</sup> So Michal let David down through the window. He went away, fled, and escaped.
-<sup>13</sup> <sup>a</sup>and laid it in the bed, and put a pillow of goats’ hair at its head and covered it with clothes.
+<sup>13</sup> Michal took the teraphim<sup>a</sup> and laid it in the bed, and put a pillow of goats’ hair at its head and covered it with clothes.
 <sup>14</sup> When Saul sent messengers to take David, she said, “He is sick.”
 
 <sup>15</sup> Saul sent the messengers to see David, saying, “Bring him up to me in the bed, that I may kill him.”
@@ -922,7 +922,7 @@
 <sup>25</sup> Saul and his men went to seek him. When David was told, he went down to the rock, and stayed in the wilderness of Maon. When Saul heard that, he pursued David in the wilderness of Maon.
 <sup>26</sup> Saul went on this side of the mountain, and David and his men on that side of the mountain; and David hurried to get away for fear of Saul, for Saul and his men surrounded David and his men to take them.
 <sup>27</sup> But a messenger came to Saul, saying, “Hurry and come, for the Philistines have made a raid on the land!”
-<sup>28</sup> <sup>a</sup>
+<sup>28</sup> So Saul returned from pursuing David, and went against the Philistines. Therefore they called that place Sela Hammahlekoth.<sup>a</sup>
 
 <sup>29</sup> David went up from there and lived in the strongholds of En Gedi.
 
@@ -979,16 +979,16 @@
 <sup>16</sup> They were a wall to us both by night and by day, all the while we were with them keeping the sheep.
 <sup>17</sup> Now therefore know and consider what you will do; for evil is determined against our master and against all his house, for he is such a worthless fellow that one can’t speak to him.”
 
-<sup>18</sup> <sup>a</sup>of parched grain, one hundred clusters of raisins, and two hundred cakes of figs, and laid them on donkeys.
+<sup>18</sup> Then Abigail hurried and took two hundred loaves of bread, two containers of wine, five sheep ready dressed, five seahs<sup>a</sup> of parched grain, one hundred clusters of raisins, and two hundred cakes of figs, and laid them on donkeys.
 <sup>19</sup> She said to her young men, “Go on before me. Behold, I am coming after you.” But she didn’t tell her husband, Nabal.
 <sup>20</sup> As she rode on her donkey, and came down hidden by the mountain, behold, David and his men came down toward her, and she met them.
 
 <sup>21</sup> Now David had said, “Surely in vain I have kept all that this fellow has in the wilderness, so that nothing was missed of all that pertained to him. He has returned me evil for good.
-<sup>22</sup> <sup>b</sup>
+<sup>22</sup> God do so to the enemies of David, and more also, if I leave of all that belongs to him by the morning light so much as one who urinates on a wall.”<sup>b</sup>
 
 <sup>23</sup> When Abigail saw David, she hurried and got off her donkey, and fell before David on her face and bowed herself to the ground.
 <sup>24</sup> She fell at his feet and said, “On me, my lord, on me be the blame! Please let your servant speak in your ears. Hear the words of your servant.
-<sup>25</sup> <sup>c</sup>is his name, and folly is with him; but I, your servant, didn’t see my lord’s young men whom you sent.
+<sup>25</sup> Please don’t let my lord pay attention to this worthless fellow, Nabal, for as his name is, so is he. Nabal<sup>c</sup> is his name, and folly is with him; but I, your servant, didn’t see my lord’s young men whom you sent.
 <sup>26</sup> Now therefore, my lord, as Yahweh lives and as your soul lives, since Yahweh has withheld you from blood guiltiness and from avenging yourself with your own hand, now therefore let your enemies and those who seek evil to my lord be as Nabal.
 <sup>27</sup> Now this present which your servant has brought to my lord, let it be given to the young men who follow my lord.
 <sup>28</sup> Please forgive the trespass of your servant. For Yahweh will certainly make my lord a sure house, because my lord fights Yahweh’s battles. Evil will not be found in you all your days.
@@ -998,7 +998,7 @@
 
 <sup>32</sup> David said to Abigail, “Blessed is Yahweh, the God of Israel, who sent you today to meet me!
 <sup>33</sup> Blessed is your discretion, and blessed are you, who have kept me today from blood guiltiness, and from avenging myself with my own hand.
-<sup>34</sup> <sup>d</sup>
+<sup>34</sup> For indeed, as Yahweh the God of Israel lives, who has withheld me from harming you, unless you had hurried and come to meet me, surely there wouldn’t have been left to Nabal by the morning light so much as one who urinates on a wall.”<sup>d</sup>
 
 <sup>35</sup> So David received from her hand that which she had brought him. Then he said to her, “Go up in peace to your house. Behold, I have listened to your voice and have granted your request.”
 
@@ -1187,6 +1187,6 @@
 <sup>10</sup> They put his armor in the house of the Ashtaroth, and they fastened his body to the wall of Beth Shan.
 <sup>11</sup> When the inhabitants of Jabesh Gilead heard what the Philistines had done to Saul,
 <sup>12</sup> all the valiant men arose, went all night, and took the body of Saul and the bodies of his sons from the wall of Beth Shan; and they came to Jabesh and burned them there.
-<sup>13</sup> <sup>a</sup>tree in Jabesh, and fasted seven days.
+<sup>13</sup> They took their bones and buried them under the tamarisk<sup>a</sup> tree in Jabesh, and fasted seven days.
 
 > - <sup>a</sup> 13. or, salt cedar

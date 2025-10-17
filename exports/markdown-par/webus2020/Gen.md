@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>created the heavens and the earth.
+<sup>1</sup> In the beginning, God<sup>a</sup> created the heavens and the earth.
 <sup>2</sup> The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 
 <sup>3</sup> God said, “Let there be light,” and there was light.
@@ -35,7 +35,7 @@
 <sup>26</sup> God said, “Let’s make man in our image, after our likeness. Let them have dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth.”
 <sup>27</sup> God created man in his own image. In God’s image he created him; male and female he created them.
 <sup>28</sup> God blessed them. God said to them, “Be fruitful, multiply, fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves on the earth.”
-<sup>29</sup> <sup>b</sup>I have given you every herb yielding seed, which is on the surface of all the earth, and every tree, which bears fruit yielding seed. It will be your food.
+<sup>29</sup> God said, “Behold,<sup>b</sup> I have given you every herb yielding seed, which is on the surface of all the earth, and every tree, which bears fruit yielding seed. It will be your food.
 <sup>30</sup> To every animal of the earth, and to every bird of the sky, and to everything that creeps on the earth, in which there is life, I have given every green herb for food;” and it was so.
 
 <sup>31</sup> God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, a sixth day.
@@ -49,7 +49,7 @@
 <sup>2</sup> On the seventh day God finished his work which he had done; and he rested on the seventh day from all his work which he had done.
 <sup>3</sup> God blessed the seventh day, and made it holy, because he rested in it from all his work of creation which he had done.
 
-<sup>4</sup> <sup>a</sup>God made the earth and the heavens.
+<sup>4</sup> This is the history of the generations of the heavens and of the earth when they were created, in the day that Yahweh<sup>a</sup> God made the earth and the heavens.
 <sup>5</sup> No plant of the field was yet in the earth, and no herb of the field had yet sprung up; for Yahweh God had not caused it to rain on the earth. There was not a man to till the ground,
 <sup>6</sup> but a mist went up from the earth, and watered the whole surface of the ground.
 <sup>7</sup> Yahweh God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.
@@ -57,14 +57,14 @@
 <sup>9</sup> Out of the ground Yahweh God made every tree to grow that is pleasant to the sight, and good for food, including the tree of life in the middle of the garden and the tree of the knowledge of good and evil.
 <sup>10</sup> A river went out of Eden to water the garden; and from there it was parted, and became the source of four rivers.
 <sup>11</sup> The name of the first is Pishon: it flows through the whole land of Havilah, where there is gold;
-<sup>12</sup> <sup>b</sup>and onyx stone are also there.
+<sup>12</sup> and the gold of that land is good. Bdellium<sup>b</sup> and onyx stone are also there.
 <sup>13</sup> The name of the second river is Gihon. It is the same river that flows through the whole land of Cush.
 <sup>14</sup> The name of the third river is Hiddekel. This is the one which flows in front of Assyria. The fourth river is the Euphrates.
 <sup>15</sup> Yahweh God took the man, and put him into the garden of Eden to cultivate and keep it.
 <sup>16</sup> Yahweh God commanded the man, saying, “You may freely eat of every tree of the garden;
 <sup>17</sup> but you shall not eat of the tree of the knowledge of good and evil; for in the day that you eat of it, you will surely die.”
 
-<sup>18</sup> <sup>c</sup>him.”
+<sup>18</sup> Yahweh God said, “It is not good for the man to be alone. I will make him a helper comparable to<sup>c</sup> him.”
 <sup>19</sup> Out of the ground Yahweh God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
 <sup>20</sup> The man gave names to all livestock, and to the birds of the sky, and to every animal of the field; but for man there was not found a helper comparable to him.
 <sup>21</sup> Yahweh God caused the man to fall into a deep sleep. As the man slept, he took one of his ribs, and closed up the flesh in its place.
@@ -115,13 +115,13 @@
 
 <sup>22</sup> Yahweh God said, “Behold, the man has become like one of us, knowing good and evil. Now, lest he reach out his hand, and also take of the tree of life, and eat, and live forever—”
 <sup>23</sup> Therefore Yahweh God sent him out from the garden of Eden, to till the ground from which he was taken.
-<sup>24</sup> <sup>a</sup>at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.
+<sup>24</sup> So he drove out the man; and he placed cherubim<sup>a</sup> at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.
 
 > - <sup>a</sup> 24. cherubim are powerful angelic creatures, messengers of God with wings. See Ezekiel 10.
 
 ## Chapter 4
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>and gave birth to Cain, and said, “I have gotten a man with Yahweh’s help.”
+<sup>1</sup> The man knew<sup>a</sup> Eve his wife. She conceived,<sup>b</sup> and gave birth to Cain, and said, “I have gotten a man with Yahweh’s help.”
 <sup>2</sup> Again she gave birth, to Cain’s brother Abel. Abel was a keeper of sheep, but Cain was a tiller of the ground.
 <sup>3</sup> As time passed, Cain brought an offering to Yahweh from the fruit of the ground.
 <sup>4</sup> Abel also brought some of the firstborn of his flock and of its fat. Yahweh respected Abel and his offering,
@@ -160,7 +160,7 @@
 ## Chapter 5
 
 <sup>1</sup> This is the book of the generations of Adam. In the day that God created man, he made him in God’s likeness.
-<sup>2</sup> <sup>a</sup>
+<sup>2</sup> He created them male and female, and blessed them. On the day they were created, he named them Adam.<sup>a</sup>
 <sup>3</sup> Adam lived one hundred thirty years, and became the father of a son in his own likeness, after his image, and named him Seth.
 <sup>4</sup> The days of Adam after he became the father of Seth were eight hundred years, and he became the father of other sons and daughters.
 <sup>5</sup> All the days that Adam lived were nine hundred thirty years, then he died.
@@ -208,7 +208,7 @@
 <sup>1</sup> When men began to multiply on the surface of the ground, and daughters were born to them,
 <sup>2</sup> God’s sons saw that men’s daughters were beautiful, and they took any that they wanted for themselves as wives.
 <sup>3</sup> Yahweh said, “My Spirit will not strive with man forever, because he also is flesh; so his days will be one hundred twenty years.”
-<sup>4</sup> <sup>a</sup>were in the earth in those days, and also after that, when God’s sons came in to men’s daughters and had children with them. Those were the mighty men who were of old, men of renown.
+<sup>4</sup> The Nephilim<sup>a</sup> were in the earth in those days, and also after that, when God’s sons came in to men’s daughters and had children with them. Those were the mighty men who were of old, men of renown.
 
 <sup>5</sup> Yahweh saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of man’s heart was continually only evil.
 <sup>6</sup> Yahweh was sorry that he had made man on the earth, and it grieved him in his heart.
@@ -222,7 +222,7 @@
 
 <sup>13</sup> God said to Noah, “I will bring an end to all flesh, for the earth is filled with violence through them. Behold, I will destroy them and the earth.
 <sup>14</sup> Make a ship of gopher wood. You shall make rooms in the ship, and shall seal it inside and outside with pitch.
-<sup>15</sup> <sup>b</sup>its width fifty cubits, and its height thirty cubits.
+<sup>15</sup> This is how you shall make it. The length of the ship shall be three hundred cubits,<sup>b</sup> its width fifty cubits, and its height thirty cubits.
 <sup>16</sup> You shall make a roof in the ship, and you shall finish it to a cubit upward. You shall set the door of the ship in its side. You shall make it with lower, second, and third levels.
 <sup>17</sup> I, even I, will bring the flood of waters on this earth, to destroy all flesh having the breath of life from under the sky. Everything that is in the earth will die.
 <sup>18</sup> But I will establish my covenant with you. You shall come into the ship, you, your sons, your wife, and your sons’ wives with you.
@@ -258,7 +258,7 @@
 <sup>17</sup> The flood was forty days on the earth. The waters increased, and lifted up the ship, and it was lifted up above the earth.
 <sup>18</sup> The waters rose, and increased greatly on the earth; and the ship floated on the surface of the waters.
 <sup>19</sup> The waters rose very high on the earth. All the high mountains that were under the whole sky were covered.
-<sup>20</sup> <sup>a</sup>higher, and the mountains were covered.
+<sup>20</sup> The waters rose fifteen cubits<sup>a</sup> higher, and the mountains were covered.
 <sup>21</sup> All flesh died that moved on the earth, including birds, livestock, animals, every creeping thing that creeps on the earth, and every man.
 <sup>22</sup> All on the dry land, in whose nostrils was the breath of the spirit of life, died.
 <sup>23</sup> Every living thing was destroyed that was on the surface of the ground, including man, livestock, creeping things, and birds of the sky. They were destroyed from the earth. Only Noah was left, and those who were with him in the ship.
@@ -373,7 +373,7 @@
 ## Chapter 11
 
 <sup>1</sup> The whole earth was of one language and of one speech.
-<sup>2</sup> <sup>a</sup>they found a plain in the land of Shinar, and they lived there.
+<sup>2</sup> As they traveled east,<sup>a</sup> they found a plain in the land of Shinar, and they lived there.
 <sup>3</sup> They said to one another, “Come, let’s make bricks, and burn them thoroughly.” They had brick for stone, and they used tar for mortar.
 <sup>4</sup> They said, “Come, let’s build ourselves a city, and a tower whose top reaches to the sky, and let’s make a name for ourselves, lest we be scattered abroad on the surface of the whole earth.”
 
@@ -428,7 +428,7 @@
 <sup>5</sup> Abram took Sarai his wife, Lot his brother’s son, all their possessions that they had gathered, and the people whom they had acquired in Haran, and they went to go into the land of Canaan. They entered into the land of Canaan.
 <sup>6</sup> Abram passed through the land to the place of Shechem, to the oak of Moreh. At that time, Canaanites were in the land.
 
-<sup>7</sup> <sup>a</sup>He built an altar there to Yahweh, who had appeared to him.
+<sup>7</sup> Yahweh appeared to Abram and said, “I will give this land to your offspring.”<sup>a</sup> He built an altar there to Yahweh, who had appeared to him.
 <sup>8</sup> He left from there to go to the mountain on the east of Bethel and pitched his tent, having Bethel on the west, and Ai on the east. There he built an altar to Yahweh and called on Yahweh’s name.
 <sup>9</sup> Abram traveled, still going on toward the South.
 
@@ -505,7 +505,7 @@
 
 <sup>1</sup> After these things Yahweh’s word came to Abram in a vision, saying, “Don’t be afraid, Abram. I am your shield, your exceedingly great reward.”
 
-<sup>2</sup> <sup>a</sup>Yahweh, what will you give me, since I go childless, and he who will inherit my estate is Eliezer of Damascus?”
+<sup>2</sup> Abram said, “Lord<sup>a</sup> Yahweh, what will you give me, since I go childless, and he who will inherit my estate is Eliezer of Damascus?”
 <sup>3</sup> Abram said, “Behold, you have given no children to me: and, behold, one born in my house is my heir.”
 
 <sup>4</sup> Behold, Yahweh’s word came to him, saying, “This man will not be your heir, but he who will come out of your own body will be your heir.”
@@ -551,7 +551,7 @@
 <sup>12</sup> He will be like a wild donkey among men. His hand will be against every man, and every man’s hand against him. He will live opposed to all of his brothers.”
 
 <sup>13</sup> She called the name of Yahweh who spoke to her, “You are a God who sees,” for she said, “Have I even stayed alive after seeing him?”
-<sup>14</sup> <sup>a</sup>Behold, it is between Kadesh and Bered.
+<sup>14</sup> Therefore the well was called Beer Lahai Roi.<sup>a</sup> Behold, it is between Kadesh and Bered.
 
 <sup>15</sup> Hagar bore a son for Abram. Abram called the name of his son, whom Hagar bore, Ishmael.
 <sup>16</sup> Abram was eighty-six years old when Hagar bore Ishmael to Abram.
@@ -583,7 +583,7 @@
 <sup>17</sup> Then Abraham fell on his face, and laughed, and said in his heart, “Will a child be born to him who is one hundred years old? Will Sarah, who is ninety years old, give birth?”
 <sup>18</sup> Abraham said to God, “Oh that Ishmael might live before you!”
 
-<sup>19</sup> <sup>a</sup>I will establish my covenant with him for an everlasting covenant for his offspring after him.
+<sup>19</sup> God said, “No, but Sarah, your wife, will bear you a son. You shall call his name Isaac.<sup>a</sup> I will establish my covenant with him for an everlasting covenant for his offspring after him.
 <sup>20</sup> As for Ishmael, I have heard you. Behold, I have blessed him, and will make him fruitful, and will multiply him exceedingly. He will become the father of twelve princes, and I will make him a great nation.
 <sup>21</sup> But I will establish my covenant with Isaac, whom Sarah will bear to you at this set time next year.”
 
@@ -604,7 +604,7 @@
 <sup>4</sup> Now let a little water be fetched, wash your feet, and rest yourselves under the tree.
 <sup>5</sup> I will get a piece of bread so you can refresh your heart. After that you may go your way, now that you have come to your servant.” They said, “Very well, do as you have said.”
 
-<sup>6</sup> <sup>a</sup>of fine meal, knead it, and make cakes.”
+<sup>6</sup> Abraham hurried into the tent to Sarah, and said, “Quickly prepare three seahs<sup>a</sup> of fine meal, knead it, and make cakes.”
 <sup>7</sup> Abraham ran to the herd, and fetched a tender and good calf, and gave it to the servant. He hurried to dress it.
 <sup>8</sup> He took butter, milk, and the calf which he had dressed, and set it before them. He stood by them under the tree, and they ate.
 
@@ -677,7 +677,7 @@
 <sup>20</sup> See now, this city is near to flee to, and it is a little one. Oh let me escape there (isn’t it a little one?), and my soul will live.”
 
 <sup>21</sup> He said to him, “Behold, I have granted your request concerning this thing also, that I will not overthrow the city of which you have spoken.
-<sup>22</sup> <sup>a</sup>
+<sup>22</sup> Hurry, escape there, for I can’t do anything until you get there.” Therefore the name of the city was called Zoar.<sup>a</sup>
 
 <sup>23</sup> The sun had risen on the earth when Lot came to Zoar.
 <sup>24</sup> Then Yahweh rained on Sodom and on Gomorrah sulfur and fire from Yahweh out of the sky.
@@ -731,7 +731,7 @@
 
 <sup>1</sup> Yahweh visited Sarah as he had said, and Yahweh did to Sarah as he had spoken.
 <sup>2</sup> Sarah conceived, and bore Abraham a son in his old age, at the set time of which God had spoken to him.
-<sup>3</sup> <sup>a</sup>
+<sup>3</sup> Abraham called his son who was born to him, whom Sarah bore to him, Isaac.<sup>a</sup>
 <sup>4</sup> Abraham circumcised his son, Isaac, when he was eight days old, as God had commanded him.
 <sup>5</sup> Abraham was one hundred years old when his son, Isaac, was born to him.
 <sup>6</sup> Sarah said, “God has made me laugh. Everyone who hears will laugh with me.”
@@ -767,7 +767,7 @@
 <sup>29</sup> Abimelech said to Abraham, “What do these seven ewe lambs, which you have set by themselves, mean?”
 
 <sup>30</sup> He said, “You shall take these seven ewe lambs from my hand, that it may be a witness to me, that I have dug this well.”
-<sup>31</sup> <sup>b</sup>because they both swore an oath there.
+<sup>31</sup> Therefore he called that place Beersheba,<sup>b</sup> because they both swore an oath there.
 <sup>32</sup> So they made a covenant at Beersheba. Abimelech rose up with Phicol, the captain of his army, and they returned into the land of the Philistines.
 <sup>33</sup> Abraham planted a tamarisk tree in Beersheba, and there he called on the name of Yahweh, the Everlasting God.
 <sup>34</sup> Abraham lived as a foreigner in the land of the Philistines many days.
@@ -796,7 +796,7 @@
 <sup>12</sup> He said, “Don’t lay your hand on the boy or do anything to him. For now I know that you fear God, since you have not withheld your son, your only son, from me.”
 
 <sup>13</sup> Abraham lifted up his eyes, and looked, and saw that behind him was a ram caught in the thicket by his horns. Abraham went and took the ram, and offered him up for a burnt offering instead of his son.
-<sup>14</sup> <sup>a</sup>As it is said to this day, “On Yahweh’s mountain, it will be provided.”
+<sup>14</sup> Abraham called the name of that place “Yahweh Will Provide”.<sup>a</sup> As it is said to this day, “On Yahweh’s mountain, it will be provided.”
 
 <sup>15</sup> Yahweh’s angel called to Abraham a second time out of the sky,
 <sup>16</sup> and said, “ ‘I have sworn by myself,’ says Yahweh, ‘because you have done this thing, and have not withheld your son, your only son,
@@ -834,7 +834,7 @@
 <sup>13</sup> He spoke to Ephron in the audience of the people of the land, saying, “But if you will, please hear me. I will give the price of the field. Take it from me, and I will bury my dead there.”
 
 <sup>14</sup> Ephron answered Abraham, saying to him,
-<sup>15</sup> <sup>a</sup>between me and you? Therefore bury your dead.”
+<sup>15</sup> “My lord, listen to me. What is a piece of land worth four hundred shekels of silver<sup>a</sup> between me and you? Therefore bury your dead.”
 
 <sup>16</sup> Abraham listened to Ephron. Abraham weighed to Ephron the silver which he had named in the hearing of the children of Heth, four hundred shekels of silver, according to the current merchants’ standard.
 
@@ -874,7 +874,7 @@
 <sup>20</sup> She hurried, and emptied her pitcher into the trough, and ran again to the well to draw, and drew for all his camels.
 
 <sup>21</sup> The man looked steadfastly at her, remaining silent, to know whether Yahweh had made his journey prosperous or not.
-<sup>22</sup> <sup>a</sup>weight, and two bracelets for her hands of ten shekels weight of gold,
+<sup>22</sup> As the camels had done drinking, the man took a golden ring of half a shekel<sup>a</sup> weight, and two bracelets for her hands of ten shekels weight of gold,
 <sup>23</sup> and said, “Whose daughter are you? Please tell me. Is there room in your father’s house for us to stay?”
 
 <sup>24</sup> She said to him, “I am the daughter of Bethuel the son of Milcah, whom she bore to Nahor.”
@@ -970,7 +970,7 @@
 <sup>27</sup> The boys grew. Esau was a skillful hunter, a man of the field. Jacob was a quiet man, living in tents.
 <sup>28</sup> Now Isaac loved Esau, because he ate his venison. Rebekah loved Jacob.
 <sup>29</sup> Jacob boiled stew. Esau came in from the field, and he was famished.
-<sup>30</sup> <sup>a</sup>
+<sup>30</sup> Esau said to Jacob, “Please feed me with some of that red stew, for I am famished.” Therefore his name was called Edom.<sup>a</sup>
 
 <sup>31</sup> Jacob said, “First, sell me your birthright.”
 
@@ -1007,10 +1007,10 @@
 <sup>17</sup> Isaac departed from there, encamped in the valley of Gerar, and lived there.
 
 <sup>18</sup> Isaac dug again the wells of water, which they had dug in the days of Abraham his father, for the Philistines had stopped them after the death of Abraham. He called their names after the names by which his father had called them.
-<sup>19</sup> <sup>a</sup>water.
-<sup>20</sup> <sup>b</sup>because they contended with him.
-<sup>21</sup> <sup>c</sup>
-<sup>22</sup> <sup>d</sup>He said, “For now Yahweh has made room for us, and we will be fruitful in the land.”
+<sup>19</sup> Isaac’s servants dug in the valley, and found there a well of flowing<sup>a</sup> water.
+<sup>20</sup> The herdsmen of Gerar argued with Isaac’s herdsmen, saying, “The water is ours.” So he called the name of the well Esek,<sup>b</sup> because they contended with him.
+<sup>21</sup> They dug another well, and they argued over that, also. So he called its name Sitnah.<sup>c</sup>
+<sup>22</sup> He left that place, and dug another well. They didn’t argue over that one. So he called it Rehoboth.<sup>d</sup> He said, “For now Yahweh has made room for us, and we will be fruitful in the land.”
 
 <sup>23</sup> He went up from there to Beersheba.
 <sup>24</sup> Yahweh appeared to him the same night, and said, “I am the God of Abraham your father. Don’t be afraid, for I am with you, and will bless you, and multiply your offspring for my servant Abraham’s sake.”
@@ -1026,7 +1026,7 @@
 <sup>30</sup> He made them a feast, and they ate and drank.
 <sup>31</sup> They rose up some time in the morning, and swore an oath to one another. Isaac sent them away, and they departed from him in peace.
 <sup>32</sup> The same day, Isaac’s servants came, and told him concerning the well which they had dug, and said to him, “We have found water.”
-<sup>33</sup> <sup>e</sup><sup>f</sup>to this day.
+<sup>33</sup> He called it “Shibah”.<sup>e</sup> Therefore the name of the city is “Beersheba”<sup>f</sup> to this day.
 
 <sup>34</sup> When Esau was forty years old, he took as wife Judith, the daughter of Beeri the Hittite, and Basemath, the daughter of Elon the Hittite.
 <sup>35</sup> They grieved Isaac’s and Rebekah’s spirits.
@@ -1221,7 +1221,7 @@
 
 <sup>22</sup> God remembered Rachel, and God listened to her, and opened her womb.
 <sup>23</sup> She conceived, bore a son, and said, “God has taken away my reproach.”
-<sup>24</sup> <sup>a</sup>saying, “May Yahweh add another son to me.”
+<sup>24</sup> She named him Joseph,<sup>a</sup> saying, “May Yahweh add another son to me.”
 
 <sup>25</sup> When Rachel had borne Joseph, Jacob said to Laban, “Send me away, that I may go to my own place, and to my country.
 <sup>26</sup> Give me my wives and my children for whom I have served you, and let me go; for you know my service with which I have served you.”
@@ -1274,7 +1274,7 @@
 
 <sup>17</sup> Then Jacob rose up, and set his sons and his wives on the camels,
 <sup>18</sup> and he took away all his livestock, and all his possessions which he had gathered, including the livestock which he had gained in Paddan Aram, to go to Isaac his father, to the land of Canaan.
-<sup>19</sup> <sup>a</sup>that were her father’s.
+<sup>19</sup> Now Laban had gone to shear his sheep; and Rachel stole the teraphim<sup>a</sup> that were her father’s.
 
 <sup>20</sup> Jacob deceived Laban the Syrian, in that he didn’t tell him that he was running away.
 <sup>21</sup> So he fled with all that he had. He rose up, passed over the River, and set his face toward the mountain of Gilead.
@@ -1311,7 +1311,7 @@
 
 <sup>45</sup> Jacob took a stone, and set it up for a pillar.
 <sup>46</sup> Jacob said to his relatives, “Gather stones.” They took stones, and made a heap. They ate there by the heap.
-<sup>47</sup> <sup>b</sup><sup>c</sup>
+<sup>47</sup> Laban called it Jegar Sahadutha,<sup>b</sup> but Jacob called it Galeed.<sup>c</sup>
 <sup>48</sup> Laban said, “This heap is witness between me and you today.” Therefore it was named Galeed
 <sup>49</sup> and Mizpah, for he said, “Yahweh watch between me and you, when we are absent one from another.
 <sup>50</sup> If you afflict my daughters, or if you take wives in addition to my daughters, no man is with us; behold, God is witness between me and you.”
@@ -1328,7 +1328,7 @@
 ## Chapter 32
 
 <sup>1</sup> Jacob went on his way, and the angels of God met him.
-<sup>2</sup> <sup>a</sup>
+<sup>2</sup> When he saw them, Jacob said, “This is God’s army.” He called the name of that place Mahanaim.<sup>a</sup>
 
 <sup>3</sup> Jacob sent messengers in front of him to Esau, his brother, to the land of Seir, the field of Edom.
 <sup>4</sup> He commanded them, saying, “This is what you shall tell my lord, Esau: ‘This is what your servant, Jacob, says. I have lived as a foreigner with Laban, and stayed until now.
@@ -1364,7 +1364,7 @@
 
 <sup>29</sup> Jacob asked him, “Please tell me your name.” He said, “Why is it that you ask what my name is?” So he blessed him there.
 
-<sup>30</sup> <sup>b</sup>for he said, “I have seen God face to face, and my life is preserved.”
+<sup>30</sup> Jacob called the name of the place Peniel;<sup>b</sup> for he said, “I have seen God face to face, and my life is preserved.”
 <sup>31</sup> The sun rose on him as he passed over Peniel, and he limped because of his thigh.
 <sup>32</sup> Therefore the children of Israel don’t eat the sinew of the hip, which is on the hollow of the thigh, to this day, because he touched the hollow of Jacob’s thigh in the sinew of the hip.
 
@@ -1397,11 +1397,11 @@
 <sup>15</sup> Esau said, “Let me now leave with you some of the people who are with me.” He said, “Why? Let me find favor in the sight of my lord.”
 
 <sup>16</sup> So Esau returned that day on his way to Seir.
-<sup>17</sup> <sup>a</sup>
+<sup>17</sup> Jacob traveled to Succoth, built himself a house, and made shelters for his livestock. Therefore the name of the place is called Succoth.<sup>a</sup>
 
 <sup>18</sup> Jacob came in peace to the city of Shechem, which is in the land of Canaan, when he came from Paddan Aram; and encamped before the city.
 <sup>19</sup> He bought the parcel of ground where he had spread his tent, at the hand of the children of Hamor, Shechem’s father, for one hundred pieces of money.
-<sup>20</sup> <sup>b</sup>
+<sup>20</sup> He erected an altar there, and called it El Elohe Israel.<sup>b</sup>
 
 > - <sup>a</sup> 17. succoth means shelters or booths.
 > - <sup>b</sup> 20. El Elohe Israel means “God, the God of Israel” or “The God of Israel is mighty”.
@@ -1427,7 +1427,7 @@
 <sup>14</sup> and said to them, “We can’t do this thing, to give our sister to one who is uncircumcised; for that is a reproach to us.
 <sup>15</sup> Only on this condition will we consent to you. If you will be as we are, that every male of you be circumcised,
 <sup>16</sup> then will we give our daughters to you; and we will take your daughters to us, and we will dwell with you, and we will become one people.
-<sup>17</sup> <sup>a</sup>and we will be gone.”
+<sup>17</sup> But if you will not listen to us and be circumcised, then we will take our sister,<sup>a</sup> and we will be gone.”
 
 <sup>18</sup> Their words pleased Hamor and Shechem, Hamor’s son.
 <sup>19</sup> The young man didn’t wait to do this thing, because he had delight in Jacob’s daughter, and he was honored above all the house of his father.
@@ -1473,7 +1473,7 @@
 <sup>16</sup> They traveled from Bethel. There was still some distance to come to Ephrath, and Rachel travailed. She had hard labor.
 <sup>17</sup> When she was in hard labor, the midwife said to her, “Don’t be afraid, for now you will have another son.”
 
-<sup>18</sup> <sup>a</sup><sup>b</sup>
+<sup>18</sup> As her soul was departing (for she died), she named him Benoni,<sup>a</sup> but his father named him Benjamin.<sup>b</sup>
 <sup>19</sup> Rachel died, and was buried on the way to Ephrath (also called Bethlehem).
 <sup>20</sup> Jacob set up a pillar on her grave. The same is the Pillar of Rachel’s grave to this day.
 <sup>21</sup> Israel traveled, and spread his tent beyond the tower of Eder.
@@ -1586,7 +1586,7 @@
 
 <sup>33</sup> He recognized it, and said, “It is my son’s tunic. An evil animal has devoured him. Joseph is without doubt torn in pieces.”
 <sup>34</sup> Jacob tore his clothes, and put sackcloth on his waist, and mourned for his son many days.
-<sup>35</sup> <sup>a</sup>to my son, mourning.” His father wept for him.
+<sup>35</sup> All his sons and all his daughters rose up to comfort him, but he refused to be comforted. He said, “For I will go down to Sheol<sup>a</sup> to my son, mourning.” His father wept for him.
 <sup>36</sup> The Midianites sold him into Egypt to Potiphar, an officer of Pharaoh’s, the captain of the guard.
 
 > - <sup>a</sup> 35. Sheol is the place of the dead.
@@ -1627,8 +1627,8 @@
 <sup>26</sup> Judah acknowledged them, and said, “She is more righteous than I, because I didn’t give her to Shelah, my son.” He knew her again no more.
 <sup>27</sup> In the time of her travail, behold, twins were in her womb.
 <sup>28</sup> When she travailed, one put out a hand, and the midwife took and tied a scarlet thread on his hand, saying, “This came out first.”
-<sup>29</sup> <sup>a</sup>
-<sup>30</sup> <sup>b</sup>
+<sup>29</sup> As he drew back his hand, behold, his brother came out, and she said, “Why have you made a breach for yourself?” Therefore his name was called Perez.<sup>a</sup>
+<sup>30</sup> Afterward his brother came out, who had the scarlet thread on his hand, and his name was called Zerah.<sup>b</sup>
 
 > - <sup>a</sup> 29. Perez means “breaking out”.
 > - <sup>b</sup> 30. Zerah means “scarlet” or “brightness”.
@@ -1751,8 +1751,8 @@
 <sup>48</sup> He gathered up all the food of the seven years which were in the land of Egypt, and laid up the food in the cities. He stored food in each city from the fields around that city.
 <sup>49</sup> Joseph laid up grain as the sand of the sea, very much, until he stopped counting, for it was without number.
 <sup>50</sup> To Joseph were born two sons before the year of famine came, whom Asenath, the daughter of Potiphera priest of On, bore to him.
-<sup>51</sup> <sup>a</sup>“For”, he said, “God has made me forget all my toil, and all my father’s house.”
-<sup>52</sup> <sup>b</sup>“For God has made me fruitful in the land of my affliction.”
+<sup>51</sup> Joseph called the name of the firstborn Manasseh,<sup>a</sup> “For”, he said, “God has made me forget all my toil, and all my father’s house.”
+<sup>52</sup> The name of the second, he called Ephraim:<sup>b</sup> “For God has made me fruitful in the land of my affliction.”
 
 <sup>53</sup> The seven years of plenty, that were in the land of Egypt, came to an end.
 <sup>54</sup> The seven years of famine began to come, just as Joseph had said. There was famine in all lands, but in all the land of Egypt there was bread.
@@ -1812,7 +1812,7 @@
 
 <sup>37</sup> Reuben spoke to his father, saying, “Kill my two sons, if I don’t bring him to you. Entrust him to my care, and I will bring him to you again.”
 
-<sup>38</sup> <sup>a</sup>
+<sup>38</sup> He said, “My son shall not go down with you; for his brother is dead, and he only is left. If harm happens to him along the way in which you go, then you will bring down my gray hairs with sorrow to Sheol.”<sup>a</sup>
 
 > - <sup>a</sup> 38. Sheol is the place of the dead.
 
@@ -1900,9 +1900,9 @@
 <sup>26</sup> We said, ‘We can’t go down. If our youngest brother is with us, then we will go down: for we may not see the man’s face, unless our youngest brother is with us.’
 <sup>27</sup> Your servant, my father, said to us, ‘You know that my wife bore me two sons.
 <sup>28</sup> One went out from me, and I said, “Surely he is torn in pieces;” and I haven’t seen him since.
-<sup>29</sup> <sup>a</sup>
+<sup>29</sup> If you take this one also from me, and harm happens to him, you will bring down my gray hairs with sorrow to Sheol.’<sup>a</sup>
 <sup>30</sup> Now therefore when I come to your servant my father, and the boy is not with us; since his life is bound up in the boy’s life;
-<sup>31</sup> <sup>b</sup>
+<sup>31</sup> it will happen, when he sees that the boy is no more, that he will die. Your servants will bring down the gray hairs of your servant, our father, with sorrow to Sheol.<sup>b</sup>
 <sup>32</sup> For your servant became collateral for the boy to my father, saying, ‘If I don’t bring him to you, then I will bear the blame to my father forever.’
 <sup>33</sup> Now therefore, please let your servant stay instead of the boy, my lord’s slave; and let the boy go up with his brothers.
 <sup>34</sup> For how will I go up to my father, if the boy isn’t with me?—lest I see the evil that will come on my father.”

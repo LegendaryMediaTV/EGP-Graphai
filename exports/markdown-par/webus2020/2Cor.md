@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>Jesus through the will of God, and Timothy our brother, to the assembly of God which is at Corinth, with all the saints who are in the whole of Achaia:
+<sup>1</sup> Paul, an apostle of Christ<sup>a</sup> Jesus through the will of God, and Timothy our brother, to the assembly of God which is at Corinth, with all the saints who are in the whole of Achaia:
 <sup>2</sup> Grace to you and peace from God our Father and the Lord Jesus Christ.
 
 <sup>3</sup> Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort,
@@ -9,7 +9,7 @@
 <sup>6</sup> But if we are afflicted, it is for your comfort and salvation. If we are comforted, it is for your comfort, which produces in you the patient enduring of the same sufferings which we also suffer.
 <sup>7</sup> Our hope for you is steadfast, knowing that, since you are partakers of the sufferings, so you are also of the comfort.
 
-<sup>8</sup> <sup>b</sup>concerning our affliction which happened to us in Asia: that we were weighed down exceedingly, beyond our power, so much that we despaired even of life.
+<sup>8</sup> For we don’t desire to have you uninformed, brothers,<sup>b</sup> concerning our affliction which happened to us in Asia: that we were weighed down exceedingly, beyond our power, so much that we despaired even of life.
 <sup>9</sup> Yes, we ourselves have had the sentence of death within ourselves, that we should not trust in ourselves, but in God who raises the dead,
 <sup>10</sup> who delivered us out of so great a death, and does deliver, on whom we have set our hope that he will also still deliver us,
 <sup>11</sup> you also helping together on our behalf by your supplication; that, for the gift given to us by means of many, thanks may be given by many persons on your behalf.
@@ -86,7 +86,7 @@
 <sup>3</sup> Even if our Good News is veiled, it is veiled in those who are dying,
 <sup>4</sup> in whom the god of this world has blinded the minds of the unbelieving, that the light of the Good News of the glory of Christ, who is the image of God, should not dawn on them.
 <sup>5</sup> For we don’t preach ourselves, but Christ Jesus as Lord, and ourselves as your servants for Jesus’ sake,
-<sup>6</sup> <sup>a</sup>who has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.
+<sup>6</sup> seeing it is God who said, “Light will shine out of darkness,”<sup>a</sup> who has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.
 
 <sup>7</sup> But we have this treasure in clay vessels, that the exceeding greatness of the power may be of God and not from ourselves.
 <sup>8</sup> We are pressed on every side, yet not crushed; perplexed, yet not to despair;
@@ -95,7 +95,7 @@
 <sup>11</sup> For we who live are always delivered to death for Jesus’ sake, that the life also of Jesus may be revealed in our mortal flesh.
 <sup>12</sup> So then death works in us, but life in you.
 
-<sup>13</sup> <sup>b</sup>We also believe, and therefore we also speak,
+<sup>13</sup> But having the same spirit of faith, according to that which is written, “I believed, and therefore I spoke.”<sup>b</sup> We also believe, and therefore we also speak,
 <sup>14</sup> knowing that he who raised the Lord Jesus will raise us also with Jesus, and will present us with you.
 <sup>15</sup> For all things are for your sakes, that the grace, being multiplied through the many, may cause the thanksgiving to abound to the glory of God.
 
@@ -127,7 +127,7 @@
 <sup>15</sup> He died for all, that those who live should no longer live to themselves, but to him who for their sakes died and rose again.
 
 <sup>16</sup> Therefore we know no one according to the flesh from now on. Even though we have known Christ according to the flesh, yet now we know him so no more.
-<sup>17</sup> <sup>a</sup>all things have become new.
+<sup>17</sup> Therefore if anyone is in Christ, he is a new creation. The old things have passed away. Behold,<sup>a</sup> all things have become new.
 <sup>18</sup> But all things are of God, who reconciled us to himself through Jesus Christ, and gave to us the ministry of reconciliation;
 <sup>19</sup> namely, that God was in Christ reconciling the world to himself, not reckoning to them their trespasses, and having committed to us the word of reconciliation.
 
@@ -139,7 +139,7 @@
 ## Chapter 6
 
 <sup>1</sup> Working together, we entreat also that you do not receive the grace of God in vain.
-<sup>2</sup> For he says, <br>“At an acceptable time I listened to you. <br><sup>a</sup>Behold, now is the acceptable time. Behold, now is the day of salvation.
+<sup>2</sup> For he says, <br>“At an acceptable time I listened to you. <br>In a day of salvation I helped you.”<sup>a</sup> Behold, now is the acceptable time. Behold, now is the day of salvation.
 <sup>3</sup> We give no occasion of stumbling in anything, that our service may not be blamed,
 <sup>4</sup> but in everything commending ourselves as servants of God: in great endurance, in afflictions, in hardships, in distresses,
 <sup>5</sup> in beatings, in imprisonments, in riots, in labors, in watchings, in fastings,
@@ -155,9 +155,9 @@
 
 <sup>14</sup> Don’t be unequally yoked with unbelievers, for what fellowship do righteousness and iniquity have? Or what fellowship does light have with darkness?
 <sup>15</sup> What agreement does Christ have with Belial? Or what portion does a believer have with an unbeliever?
-<sup>16</sup> <sup>b</sup>
-<sup>17</sup> Therefore <br>“ ‘Come out from among them, <br>and be separate,’ says the Lord. <br>‘Touch no unclean thing. <br><sup>c</sup><br>
-<sup>18</sup> I will be to you a Father. <br><sup>d</sup>
+<sup>16</sup> What agreement does a temple of God have with idols? For you are a temple of the living God. Even as God said, “I will dwell in them and walk in them. I will be their God and they will be my people.”<sup>b</sup>
+<sup>17</sup> Therefore <br>“ ‘Come out from among them, <br>and be separate,’ says the Lord. <br>‘Touch no unclean thing. <br>I will receive you.<sup>c</sup> <br>
+<sup>18</sup> I will be to you a Father. <br>You will be to me sons and daughters,’ says the Lord Almighty.”<sup>d</sup>
 
 > - <sup>a</sup> 2. Isaiah 49:8
 > - <sup>b</sup> 16. Leviticus 26:12; Jeremiah 32:38; Ezekiel 37:27
@@ -202,7 +202,7 @@
 <sup>12</sup> For if the readiness is there, it is acceptable according to what you have, not according to what you don’t have.
 <sup>13</sup> For this is not that others may be eased and you distressed,
 <sup>14</sup> but for equality. Your abundance at this present time supplies their lack, that their abundance also may become a supply for your lack, that there may be equality.
-<sup>15</sup> <sup>a</sup>
+<sup>15</sup> As it is written, “He who gathered much had nothing left over, and he who gathered little had no lack.”<sup>a</sup>
 
 <sup>16</sup> But thanks be to God, who puts the same earnest care for you into the heart of Titus.
 <sup>17</sup> For he indeed accepted our exhortation, but being himself very earnest, he went out to you of his own accord.
@@ -227,7 +227,7 @@
 <sup>6</sup> Remember this: he who sows sparingly will also reap sparingly. He who sows bountifully will also reap bountifully.
 <sup>7</sup> Let each man give according as he has determined in his heart, not grudgingly or under compulsion, for God loves a cheerful giver.
 <sup>8</sup> And God is able to make all grace abound to you, that you, always having all sufficiency in everything, may abound to every good work.
-<sup>9</sup> As it is written, <br>“He has scattered abroad. He has given to the poor. <br><sup>a</sup>
+<sup>9</sup> As it is written, <br>“He has scattered abroad. He has given to the poor. <br>His righteousness remains forever.”<sup>a</sup>
 
 <sup>10</sup> Now may he who supplies seed to the sower and bread for food, supply and multiply your seed for sowing, and increase the fruits of your righteousness,
 <sup>11</sup> you being enriched in everything for all generosity, which produces thanksgiving to God through us.
@@ -258,7 +258,7 @@
 <sup>14</sup> For we don’t stretch ourselves too much, as though we didn’t reach to you. For we came even as far as to you with the Good News of Christ,
 <sup>15</sup> not boasting beyond proper limits in other men’s labors, but having hope that as your faith grows, we will be abundantly enlarged by you in our sphere of influence,
 <sup>16</sup> so as to preach the Good News even to the parts beyond you, not to boast in what someone else has already done.
-<sup>17</sup> <sup>a</sup>
+<sup>17</sup> But “he who boasts, let him boast in the Lord.”<sup>a</sup>
 <sup>18</sup> For it isn’t he who commends himself who is approved, but whom the Lord commends.
 
 > - <sup>a</sup> 17. Jeremiah 9:24
@@ -289,7 +289,7 @@
 <sup>19</sup> For you bear with the foolish gladly, being wise.
 <sup>20</sup> For you bear with a man if he brings you into bondage, if he devours you, if he takes you captive, if he exalts himself, or if he strikes you on the face.
 <sup>21</sup> To my shame, I speak as though we had been weak. Yet in whatever way anyone is bold (I speak in foolishness), I am bold also.
-<sup>22</sup> <sup>a</sup>of Abraham? So am I.
+<sup>22</sup> Are they Hebrews? So am I. Are they Israelites? So am I. Are they the offspring<sup>a</sup> of Abraham? So am I.
 <sup>23</sup> Are they servants of Christ? (I speak as one beside himself.) I am more so: in labors more abundantly, in prisons more abundantly, in stripes above measure, and in deaths often.
 <sup>24</sup> Five times I received forty stripes minus one from the Jews.
 <sup>25</sup> Three times I was beaten with rods. Once I was stoned. Three times I suffered shipwreck. I have been a night and a day in the deep.
@@ -334,7 +334,7 @@
 <sup>21</sup> that again when I come my God would humble me before you, and I would mourn for many of those who have sinned before now, and not repented of the uncleanness, sexual immorality, and lustfulness which they committed.
 ## Chapter 13
 
-<sup>1</sup> <sup>a</sup>
+<sup>1</sup> This is the third time I am coming to you. “At the mouth of two or three witnesses shall every word be established.”<sup>a</sup>
 <sup>2</sup> I have warned previously, and I warn again, as when I was present the second time, so now, being absent, I write to those who have sinned before now and to all the rest that if I come again, I will not spare,
 <sup>3</sup> seeing that you seek a proof of Christ who speaks in me who is not weak, but is powerful in you.
 <sup>4</sup> For he was crucified through weakness, yet he lives through the power of God. For we also are weak in him, but we will live with him through the power of God toward you.

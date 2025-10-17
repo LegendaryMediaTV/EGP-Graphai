@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>according to the faith of God’s chosen ones and the knowledge of the truth which is according to godliness,
+<sup>1</sup> Paul, a servant of God and an apostle of Jesus Christ,<sup>a</sup> according to the faith of God’s chosen ones and the knowledge of the truth which is according to godliness,
 <sup>2</sup> in hope of eternal life, which God, who can’t lie, promised before time began;
 <sup>3</sup> but in his own time revealed his word in the message with which I was entrusted according to the commandment of God our Savior,
 <sup>4</sup> to Titus, my true child according to a common faith: Grace, mercy, and peace from God the Father and the Lord Jesus Christ our Savior.

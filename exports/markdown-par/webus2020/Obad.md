@@ -1,7 +1,7 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>says about Edom. We have heard news from Yahweh, and an ambassador is sent among the nations, saying, “Arise, and let’s rise up against her in battle.
-<sup>2</sup> <sup>c</sup>I have made you small among the nations. You are greatly despised.
+<sup>1</sup> The vision of Obadiah. This is what the Lord<sup>a</sup> Yahweh<sup>b</sup> says about Edom. We have heard news from Yahweh, and an ambassador is sent among the nations, saying, “Arise, and let’s rise up against her in battle.
+<sup>2</sup> Behold,<sup>c</sup> I have made you small among the nations. You are greatly despised.
 <sup>3</sup> The pride of your heart has deceived you, you who dwell in the clefts of the rock, whose habitation is high, who says in his heart, ‘Who will bring me down to the ground?’
 <sup>4</sup> Though you mount on high as the eagle, and though your nest is set among the stars, I will bring you down from there,” says Yahweh.
 <sup>5</sup> “If thieves came to you, if robbers by night—oh, what disaster awaits you—wouldn’t they only steal until they had enough? If grape pickers came to you, wouldn’t they leave some gleaning grapes?

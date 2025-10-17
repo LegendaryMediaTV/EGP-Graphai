@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> A revelation about Nineveh. The book of the vision of Nahum the Elkoshite.
-<sup>2</sup> <sup>a</sup><sup>b</sup>and avenges. Yahweh avenges and is full of wrath. Yahweh takes vengeance on his adversaries, and he maintains wrath against his enemies.
+<sup>2</sup> Yahweh<sup>a</sup> is a jealous God<sup>b</sup> and avenges. Yahweh avenges and is full of wrath. Yahweh takes vengeance on his adversaries, and he maintains wrath against his enemies.
 <sup>3</sup> Yahweh is slow to anger, and great in power, and will by no means leave the guilty unpunished. Yahweh has his way in the whirlwind and in the storm, and the clouds are the dust of his feet.
 <sup>4</sup> He rebukes the sea and makes it dry, and dries up all the rivers. Bashan and Carmel languish. The flower of Lebanon languishes.
 <sup>5</sup> The mountains quake before him, and the hills melt away. The earth trembles at his presence, yes, the world, and all who dwell in it.
@@ -17,7 +17,7 @@
 
 <sup>14</sup> Yahweh has commanded concerning you: “No more descendants will bear your name. Out of the house of your gods, I will cut off the engraved image and the molten image. I will make your grave, for you are vile.”
 
-<sup>15</sup> <sup>c</sup>on the mountains the feet of him who brings good news, who publishes peace! Keep your feasts, Judah! Perform your vows, for the wicked one will no more pass through you. He is utterly cut off.
+<sup>15</sup> Behold,<sup>c</sup> on the mountains the feet of him who brings good news, who publishes peace! Keep your feasts, Judah! Perform your vows, for the wicked one will no more pass through you. He is utterly cut off.
 
 > - <sup>a</sup> 2. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 2. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
@@ -50,7 +50,7 @@
 <sup>6</sup> I will throw abominable filth on you and make you vile, and will make you a spectacle.
 <sup>7</sup> It will happen that all those who look at you will flee from you, and say, ‘Nineveh is laid waste! Who will mourn for her?’ Where will I seek comforters for you?”
 
-<sup>8</sup> <sup>a</sup><sup>b</sup>who had the waters around her, whose rampart was the sea, and her wall was of the sea?
+<sup>8</sup> Are you better than No-Amon,<sup>a</sup> who was situated among the rivers,<sup>b</sup> who had the waters around her, whose rampart was the sea, and her wall was of the sea?
 <sup>9</sup> Cush and Egypt were her boundless strength. Put and Libya were her helpers.
 <sup>10</sup> Yet was she carried away. She went into captivity. Her young children also were dashed in pieces at the head of all the streets, and they cast lots for her honorable men, and all her great men were bound in chains.
 <sup>11</sup> You also will be drunken. You will be hidden. You also will seek a stronghold because of the enemy.

@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,
+<sup>1</sup> In the eighth month, in the second year of Darius, Yahweh’s<sup>a</sup> word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,
 <sup>2</sup> “Yahweh was very displeased with your fathers.
 <sup>3</sup> Therefore tell them, Yahweh of Armies says: ‘Return to me,’ says Yahweh of Armies, ‘and I will return to you,’ says Yahweh of Armies.
 <sup>4</sup> Don’t you be like your fathers, to whom the former prophets proclaimed, saying: Yahweh of Armies says, ‘Return now from your evil ways and from your evil doings;’ but they didn’t hear nor listen to me, says Yahweh.
@@ -8,7 +8,7 @@
 <sup>6</sup> But my words and my decrees, which I commanded my servants the prophets, didn’t they overtake your fathers? “Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’ ”
 
 <sup>7</sup> On the twenty-fourth day of the eleventh month, which is the month Shebat, in the second year of Darius, Yahweh’s word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,
-<sup>8</sup> <sup>b</sup>a man riding on a red horse, and he stood among the myrtle trees that were in a ravine; and behind him there were red, brown, and white horses.
+<sup>8</sup> “I had a vision in the night, and behold,<sup>b</sup> a man riding on a red horse, and he stood among the myrtle trees that were in a ravine; and behind him there were red, brown, and white horses.
 <sup>9</sup> Then I asked, ‘My lord, what are these?’ ” The angel who talked with me said to me, “I will show you what these are.”
 
 <sup>10</sup> The man who stood among the myrtle trees answered, “They are the ones Yahweh has sent to go back and forth through the earth.”
@@ -88,22 +88,22 @@
 
 <sup>13</sup> He answered me, “Don’t you know what these are?” I said, “No, my lord.”
 
-<sup>14</sup> <sup>a</sup>of the whole earth.”
+<sup>14</sup> Then he said, “These are the two anointed ones who stand by the Lord<sup>a</sup> of the whole earth.”
 
 > - <sup>a</sup> 14. The word translated “Lord” is “Adonai.”
 
 ## Chapter 5
 
 <sup>1</sup> Then again I lifted up my eyes and saw, and behold, a flying scroll.
-<sup>2</sup> <sup>a</sup>and its width ten cubits.”
+<sup>2</sup> He said to me, “What do you see?” I answered, “I see a flying scroll; its length is twenty cubits,<sup>a</sup> and its width ten cubits.”
 
 <sup>3</sup> Then he said to me, “This is the curse that goes out over the surface of the whole land, for everyone who steals shall be cut off according to it on the one side; and everyone who swears falsely shall be cut off according to it on the other side.
 <sup>4</sup> I will cause it to go out,” says Yahweh of Armies, “and it will enter into the house of the thief, and into the house of him who swears falsely by my name; and it will remain in the middle of his house, and will destroy it with its timber and its stones.”
 
 <sup>5</sup> Then the angel who talked with me came forward and said to me, “Lift up now your eyes and see what this is that is appearing.”
 
-<sup>6</sup> <sup>b</sup>basket that is appearing.” He said moreover, “This is their appearance in all the land—
-<sup>7</sup> <sup>c</sup><sup>d</sup>basket.”
+<sup>6</sup> I said, “What is it?” He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said moreover, “This is their appearance in all the land—
+<sup>7</sup> and behold, a lead cover weighing one talent<sup>c</sup> was lifted up—and there was a woman sitting in the middle of the ephah<sup>d</sup> basket.”
 <sup>8</sup> He said, “This is Wickedness;” and he threw her down into the middle of the ephah basket; and he threw the lead weight on its mouth.
 
 <sup>9</sup> Then I lifted up my eyes and saw, and behold, there were two women; and the wind was in their wings. Now they had wings like the wings of a stork, and they lifted up the ephah basket between earth and the sky.
@@ -136,7 +136,7 @@
 <sup>13</sup> He will build Yahweh’s temple. He will bear the glory, and will sit and rule on his throne. He will be a priest on his throne. The counsel of peace will be between them both.
 <sup>14</sup> The crowns shall be to Helem, to Tobijah, to Jedaiah, and to Hen the son of Zephaniah, for a memorial in Yahweh’s temple.
 
-<sup>15</sup> <sup>a</sup>
+<sup>15</sup> Those who are far off shall come and build in Yahweh’s temple; and you shall know that Yahweh of Armies has sent me to you. This will happen, if you will diligently obey Yahweh your God’s voice.” ’ ”<sup>a</sup>
 
 > - <sup>a</sup> 15. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
 
@@ -218,7 +218,7 @@
 ## Chapter 10
 
 <sup>1</sup> Ask of Yahweh rain in the spring time, <br>Yahweh who makes storm clouds, <br>and he gives rain showers to everyone for the plants in the field. <br>
-<sup>2</sup> <sup>a</sup>have spoken vanity, <br>and the diviners have seen a lie; <br>and they have told false dreams. <br>They comfort in vain. <br>Therefore they go their way like sheep. <br>They are oppressed, because there is no shepherd.
+<sup>2</sup> For the teraphim<sup>a</sup> have spoken vanity, <br>and the diviners have seen a lie; <br>and they have told false dreams. <br>They comfort in vain. <br>Therefore they go their way like sheep. <br>They are oppressed, because there is no shepherd.
 
 <sup>3</sup> My anger is kindled against the shepherds, <br>and I will punish the male goats, <br>for Yahweh of Armies has visited his flock, the house of Judah, <br>and will make them as his majestic horse in the battle. <br>
 <sup>4</sup> From him will come the cornerstone, <br>from him the tent peg, <br>from him the battle bow, <br>from him every ruler together. <br>
@@ -270,7 +270,7 @@
 <sup>8</sup> In that day Yahweh will defend the inhabitants of Jerusalem. He who is feeble among them at that day will be like David, and David’s house will be like God, like Yahweh’s angel before them.
 <sup>9</sup> It will happen in that day, that I will seek to destroy all the nations that come against Jerusalem.
 
-<sup>10</sup> <sup>a</sup>whom they have pierced; and they shall mourn for him as one mourns for his only son, and will grieve bitterly for him as one grieves for his firstborn.
+<sup>10</sup> I will pour on David’s house and on the inhabitants of Jerusalem the spirit of grace and of supplication. They will look to me<sup>a</sup> whom they have pierced; and they shall mourn for him as one mourns for his only son, and will grieve bitterly for him as one grieves for his firstborn.
 <sup>11</sup> In that day there will be a great mourning in Jerusalem, like the mourning of Hadadrimmon in the valley of Megiddo.
 <sup>12</sup> The land will mourn, every family apart; the family of David’s house apart, and their wives apart; the family of the house of Nathan apart, and their wives apart;
 <sup>13</sup> the family of the house of Levi apart, and their wives apart; the family of the Shimeites apart, and their wives apart;
@@ -297,7 +297,7 @@
 <sup>2</sup> For I will gather all nations against Jerusalem to battle; and the city will be taken, the houses rifled, and the women ravished. Half of the city will go out into captivity, and the rest of the people will not be cut off from the city.
 <sup>3</sup> Then Yahweh will go out and fight against those nations, as when he fought in the day of battle.
 <sup>4</sup> His feet will stand in that day on the Mount of Olives, which is before Jerusalem on the east; and the Mount of Olives will be split in two from east to west, making a very great valley. Half of the mountain will move toward the north, and half of it toward the south.
-<sup>5</sup> <sup>a</sup>
+<sup>5</sup> You shall flee by the valley of my mountains, for the valley of the mountains shall reach to Azel. Yes, you shall flee, just like you fled from before the earthquake in the days of Uzziah king of Judah. Yahweh my God will come, and all the holy ones with you.<sup>a</sup>
 
 <sup>6</sup> It will happen in that day that there will not be light, cold, or frost.
 <sup>7</sup> It will be a unique day which is known to Yahweh—not day, and not night; but it will come to pass that at evening time there will be light.
@@ -321,7 +321,7 @@
 <sup>19</sup> This will be the punishment of Egypt and the punishment of all the nations that don’t go up to keep the feast of booths.
 
 <sup>20</sup> In that day there will be inscribed on the bells of the horses, “HOLY TO YAHWEH”; and the pots in Yahweh’s house will be like the bowls before the altar.
-<sup>21</sup> <sup>b</sup>in the house of Yahweh of Armies.
+<sup>21</sup> Yes, every pot in Jerusalem and in Judah will be holy to Yahweh of Armies; and all those who sacrifice will come and take of them, and cook in them. In that day there will no longer be a Canaanite<sup>b</sup> in the house of Yahweh of Armies.
 
 > - <sup>a</sup> 5. Septuagint reads “him” instead of “you”.
 > - <sup>b</sup> 21. or, merchant

@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>to the chosen ones who are living as foreigners in the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,
+<sup>1</sup> Peter, an apostle of Jesus Christ,<sup>a</sup> to the chosen ones who are living as foreigners in the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,
 <sup>2</sup> according to the foreknowledge of God the Father, in sanctification of the Spirit, that you may obey Jesus Christ and be sprinkled with his blood: Grace to you and peace be multiplied.
 
 <sup>3</sup> Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,
@@ -15,10 +15,10 @@
 <sup>11</sup> searching for who or what kind of time the Spirit of Christ which was in them pointed to when he predicted the sufferings of Christ and the glories that would follow them.
 <sup>12</sup> To them it was revealed that they served not themselves, but you, in these things, which now have been announced to you through those who preached the Good News to you by the Holy Spirit sent out from heaven; which things angels desire to look into.
 
-<sup>13</sup> <sup>b</sup>Be sober, and set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ—
+<sup>13</sup> Therefore prepare your minds for action.<sup>b</sup> Be sober, and set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ—
 <sup>14</sup> as children of obedience, not conforming yourselves according to your former lusts as in your ignorance,
 <sup>15</sup> but just as he who called you is holy, you yourselves also be holy in all of your behavior,
-<sup>16</sup> <sup>c</sup>
+<sup>16</sup> because it is written, “You shall be holy, for I am holy.”<sup>c</sup>
 
 <sup>17</sup> If you call on him as Father, who without respect of persons judges according to each man’s work, pass the time of your living as foreigners here in reverent fear,
 <sup>18</sup> knowing that you were redeemed, not with corruptible things like silver or gold, from the useless way of life handed down from your fathers,
@@ -29,7 +29,7 @@
 <sup>22</sup> Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly affection, love one another from the heart fervently,
 <sup>23</sup> having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.
 <sup>24</sup> For, <br>“All flesh is like grass, <br>and all of man’s glory like the flower in the grass. <br>The grass withers, and its flower falls; <br>
-<sup>25</sup> <sup>d</sup>This is the word of Good News which was preached to you.
+<sup>25</sup> but the Lord’s word endures forever.”<sup>d</sup> This is the word of Good News which was preached to you.
 
 > - <sup>a</sup> 1. “Christ” means “Anointed One”.
 > - <sup>b</sup> 13. literally, “gird up the waist of your mind” or “put on the belt of the waist of your mind”
@@ -43,11 +43,11 @@
 <sup>3</sup> if indeed you have tasted that the Lord is gracious.
 <sup>4</sup> Come to him, a living stone, rejected indeed by men, but chosen by God, precious.
 <sup>5</sup> You also as living stones are built up as a spiritual house, to be a holy priesthood, to offer up spiritual sacrifices, acceptable to God through Jesus Christ.
-<sup>6</sup> Because it is contained in Scripture, <br><sup>a</sup>I lay in Zion a chief cornerstone, chosen and precious. <br><sup>b</sup>
+<sup>6</sup> Because it is contained in Scripture, <br>“Behold,<sup>a</sup> I lay in Zion a chief cornerstone, chosen and precious. <br>He who believes in him will not be disappointed.”<sup>b</sup>
 
-<sup>7</sup> For you who believe therefore is the honor, but for those who are disobedient, <br>“The stone which the builders rejected <br><sup>c</sup>
+<sup>7</sup> For you who believe therefore is the honor, but for those who are disobedient, <br>“The stone which the builders rejected <br>has become the chief cornerstone,”<sup>c</sup>
 
-<sup>8</sup> and, <br><sup>d</sup>For they stumble at the word, being disobedient, to which also they were appointed.
+<sup>8</sup> and, <br>“a stumbling stone and a rock of offense.”<sup>d</sup> For they stumble at the word, being disobedient, to which also they were appointed.
 <sup>9</sup> But you are a chosen race, a royal priesthood, a holy nation, a people for God’s own possession, that you may proclaim the excellence of him who called you out of darkness into his marvelous light.
 <sup>10</sup> In the past, you were not a people, but now are God’s people, who had not obtained mercy, but now have obtained mercy.
 
@@ -64,11 +64,11 @@
 <sup>18</sup> Servants, be in subjection to your masters with all respect, not only to the good and gentle, but also to the wicked.
 <sup>19</sup> For it is commendable if someone endures pain, suffering unjustly, because of conscience toward God.
 <sup>20</sup> For what glory is it if, when you sin, you patiently endure beating? But if when you do well, you patiently endure suffering, this is commendable with God.
-<sup>21</sup> <sup>e</sup>an example, that you should follow his steps,
-<sup>22</sup> <sup>f</sup>
+<sup>21</sup> For you were called to this, because Christ also suffered for us, leaving you<sup>e</sup> an example, that you should follow his steps,
+<sup>22</sup> who didn’t sin, “neither was deceit found in his mouth.”<sup>f</sup>
 <sup>23</sup> When he was cursed, he didn’t curse back. When he suffered, he didn’t threaten, but committed himself to him who judges righteously.
-<sup>24</sup> <sup>g</sup>
-<sup>25</sup> <sup>h</sup>of your souls.
+<sup>24</sup> He himself bore our sins in his body on the tree, that we, having died to sins, might live to righteousness. You were healed by his wounds.<sup>g</sup>
+<sup>25</sup> For you were going astray like sheep; but now you have returned to the Shepherd and Overseer<sup>h</sup> of your souls.
 
 > - <sup>a</sup> 6. “Behold”, from “[hebrew]הִנֵּה[/hebrew]” or “ ἰδοὺ ”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 > - <sup>b</sup> 6. Isaiah 28:16
@@ -94,10 +94,10 @@
 <sup>9</sup> not rendering evil for evil or insult for insult; but instead blessing, knowing that you were called to this, that you may inherit a blessing.
 <sup>10</sup> For, <br>“He who would love life <br>and see good days, <br>let him keep his tongue from evil <br>and his lips from speaking deceit. <br>
 <sup>11</sup> Let him turn away from evil and do good. <br>Let him seek peace and pursue it. <br>
-<sup>12</sup> For the eyes of the Lord are on the righteous, <br>and his ears open to their prayer; <br><sup>a</sup>
+<sup>12</sup> For the eyes of the Lord are on the righteous, <br>and his ears open to their prayer; <br>but the face of the Lord is against those who do evil.”<sup>a</sup>
 
 <sup>13</sup> Now who will harm you if you become imitators of that which is good?
-<sup>14</sup> <sup>b</sup>
+<sup>14</sup> But even if you should suffer for righteousness’ sake, you are blessed. “Don’t fear what they fear, neither be troubled.”<sup>b</sup>
 <sup>15</sup> But sanctify the Lord God in your hearts. Always be ready to give an answer to everyone who asks you a reason concerning the hope that is in you, with humility and fear,
 <sup>16</sup> having a good conscience. Thus, while you are spoken against as evildoers, they may be disappointed who curse your good way of life in Christ.
 <sup>17</sup> For it is better, if it is God’s will, that you suffer for doing what is right than for doing evil.
@@ -131,7 +131,7 @@
 <sup>15</sup> But let none of you suffer as a murderer, or a thief, or an evil doer, or a meddler in other men’s matters.
 <sup>16</sup> But if one of you suffers for being a Christian, let him not be ashamed; but let him glorify God in this matter.
 <sup>17</sup> For the time has come for judgment to begin with the household of God. If it begins first with us, what will happen to those who don’t obey the Good News of God?
-<sup>18</sup> <sup>a</sup>
+<sup>18</sup> “If it is hard for the righteous to be saved, what will happen to the ungodly and the sinner?”<sup>a</sup>
 <sup>19</sup> Therefore let them also who suffer according to the will of God in doing good entrust their souls to him, as to a faithful Creator.
 
 > - <sup>a</sup> 18. Proverbs 11:31
@@ -143,7 +143,7 @@
 <sup>3</sup> not as lording it over those entrusted to you, but making yourselves examples to the flock.
 <sup>4</sup> When the chief Shepherd is revealed, you will receive the crown of glory that doesn’t fade away.
 
-<sup>5</sup> <sup>a</sup>
+<sup>5</sup> Likewise, you younger ones, be subject to the elder. Yes, all of you clothe yourselves with humility and subject yourselves to one another; for “God resists the proud, but gives grace to the humble.”<sup>a</sup>
 <sup>6</sup> Humble yourselves therefore under the mighty hand of God, that he may exalt you in due time,
 <sup>7</sup> casting all your worries on him, because he cares for you.
 

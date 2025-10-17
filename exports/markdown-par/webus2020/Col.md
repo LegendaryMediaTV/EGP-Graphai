@@ -1,13 +1,13 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>Jesus through the will of God, and Timothy our brother,
-<sup>2</sup> <sup>b</sup>in Christ at Colossae: Grace to you and peace from God our Father and the Lord Jesus Christ.
+<sup>1</sup> Paul, an apostle of Christ<sup>a</sup> Jesus through the will of God, and Timothy our brother,
+<sup>2</sup> to the saints and faithful brothers<sup>b</sup> in Christ at Colossae: Grace to you and peace from God our Father and the Lord Jesus Christ.
 
 <sup>3</sup> We give thanks to God the Father of our Lord Jesus Christ, praying always for you,
 <sup>4</sup> having heard of your faith in Christ Jesus and of the love which you have toward all the saints,
 <sup>5</sup> because of the hope which is laid up for you in the heavens, of which you heard before in the word of the truth of the Good News
 <sup>6</sup> which has come to you, even as it is in all the world and is bearing fruit and growing, as it does in you also, since the day you heard and knew the grace of God in truth,
-<sup>7</sup> <sup>c</sup>behalf,
+<sup>7</sup> even as you learned from Epaphras our beloved fellow servant, who is a faithful servant of Christ on your<sup>c</sup> behalf,
 <sup>8</sup> who also declared to us your love in the Spirit.
 
 <sup>9</sup> For this cause, we also, since the day we heard this, don’t cease praying and making requests for you, that you may be filled with the knowledge of his will in all spiritual wisdom and understanding,
@@ -15,7 +15,7 @@
 <sup>11</sup> strengthened with all power, according to the might of his glory, for all endurance and perseverance with joy,
 <sup>12</sup> giving thanks to the Father, who made us fit to be partakers of the inheritance of the saints in light,
 <sup>13</sup> who delivered us out of the power of darkness, and translated us into the Kingdom of the Son of his love,
-<sup>14</sup> <sup>d</sup>the forgiveness of our sins.
+<sup>14</sup> in whom we have our redemption,<sup>d</sup> the forgiveness of our sins.
 
 <sup>15</sup> He is the image of the invisible God, the firstborn of all creation.
 <sup>16</sup> For by him all things were created in the heavens and on the earth, visible things and invisible things, whether thrones or dominions or principalities or powers. All things have been created through him and for him.

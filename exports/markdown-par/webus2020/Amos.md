@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> The words of Amos, who was among the herdsmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah and in the days of Jeroboam the son of Joash, king of Israel, two years before the earthquake.
-<sup>2</sup> He said: <br><sup>a</sup>will roar from Zion, <br>and utter his voice from Jerusalem; <br>and the pastures of the shepherds will mourn, <br>and the top of Carmel will wither.”
+<sup>2</sup> He said: <br>“Yahweh<sup>a</sup> will roar from Zion, <br>and utter his voice from Jerusalem; <br>and the pastures of the shepherds will mourn, <br>and the top of Carmel will wither.”
 
 <sup>3</sup> Yahweh says: <br>“For three transgressions of Damascus, yes, for four, <br>I will not turn away its punishment, <br>because they have threshed Gilead with threshing instruments of iron; <br>
 <sup>4</sup> but I will send a fire into the house of Hazael, <br>and it will devour the palaces of Ben Hadad. <br>
@@ -9,7 +9,7 @@
 
 <sup>6</sup> Yahweh says: <br>“For three transgressions of Gaza, yes, for four, <br>I will not turn away its punishment, <br>because they carried away captive the whole community, <br>to deliver them up to Edom; <br>
 <sup>7</sup> but I will send a fire on the wall of Gaza, <br>and it will devour its palaces. <br>
-<sup>8</sup> I will cut off the inhabitant from Ashdod, <br>and him who holds the scepter from Ashkelon; <br>and I will turn my hand against Ekron; <br><sup>b</sup>Yahweh.
+<sup>8</sup> I will cut off the inhabitant from Ashdod, <br>and him who holds the scepter from Ashkelon; <br>and I will turn my hand against Ekron; <br>and the remnant of the Philistines will perish,” says the Lord<sup>b</sup> Yahweh.
 
 <sup>9</sup> Yahweh says: <br>“For three transgressions of Tyre, yes, for four, <br>I will not turn away its punishment; <br>because they delivered up the whole community to Edom, <br>and didn’t remember the brotherly covenant; <br>
 <sup>10</sup> but I will send a fire on the wall of Tyre, <br>and it will devour its palaces.”
@@ -35,12 +35,12 @@
 
 <sup>6</sup> Yahweh says: <br>“For three transgressions of Israel, yes, for four, <br>I will not turn away its punishment, <br>because they have sold the righteous for silver, <br>and the needy for a pair of sandals; <br>
 <sup>7</sup> They trample the heads of the poor into the dust of the earth <br>and deny justice to the oppressed. <br>A man and his father use the same maiden, to profane my holy name. <br>
-<sup>8</sup> They lay themselves down beside every altar on clothes taken in pledge. <br><sup>a</sup>they drink the wine of those who have been fined. <br>
+<sup>8</sup> They lay themselves down beside every altar on clothes taken in pledge. <br>In the house of their God<sup>a</sup> they drink the wine of those who have been fined. <br>
 <sup>9</sup> Yet I destroyed the Amorite before them, <br>whose height was like the height of the cedars, <br>and he was strong as the oaks; <br>yet I destroyed his fruit from above, <br>and his roots from beneath. <br>
 <sup>10</sup> Also I brought you up out of the land of Egypt <br>and led you forty years in the wilderness, <br>to possess the land of the Amorite. <br>
 <sup>11</sup> I raised up some of your sons for prophets, <br>and some of your young men for Nazirites. <br>Isn’t this true, <br>you children of Israel?” says Yahweh. <br>
 <sup>12</sup> “But you gave the Nazirites wine to drink, <br>and commanded the prophets, saying, ‘Don’t prophesy!’ <br>
-<sup>13</sup> <sup>b</sup>I will crush you in your place, <br>as a cart crushes that is full of grain. <br>
+<sup>13</sup> Behold,<sup>b</sup> I will crush you in your place, <br>as a cart crushes that is full of grain. <br>
 <sup>14</sup> Flight will perish from the swift. <br>The strong won’t strengthen his force. <br>The mighty won’t deliver himself. <br>
 <sup>15</sup> He who handles the bow won’t stand. <br>He who is swift of foot won’t escape. <br>He who rides the horse won’t deliver himself. <br>
 <sup>16</sup> He who is courageous among the mighty <br>will flee away naked on that day,” says Yahweh.
@@ -167,7 +167,7 @@
 <sup>2</sup> He said, “Amos, what do you see?” I said, “A basket of summer fruit.” Then Yahweh said to me, <br>“The end has come on my people Israel. <br>I will not again pass by them any more. <br>
 <sup>3</sup> The songs of the temple will be wailing in that day,” says the Lord Yahweh. <br>“The dead bodies will be many. In every place they will throw them out with silence. <br>
 <sup>4</sup> Hear this, you who desire to swallow up the needy, <br>and cause the poor of the land to fail, <br>
-<sup>5</sup> saying, ‘When will the new moon be gone, that we may sell grain? <br>And the Sabbath, that we may market wheat, <br><sup>a</sup><sup>b</sup>large, <br>and dealing falsely with balances of deceit; <br>
+<sup>5</sup> saying, ‘When will the new moon be gone, that we may sell grain? <br>And the Sabbath, that we may market wheat, <br>making the ephah<sup>a</sup> small, and the shekel<sup>b</sup> large, <br>and dealing falsely with balances of deceit; <br>
 <sup>6</sup> that we may buy the poor for silver, <br>and the needy for a pair of sandals, <br>and sell the sweepings with the wheat?’ ” <br>
 <sup>7</sup> Yahweh has sworn by the pride of Jacob, <br>“Surely I will never forget any of their works. <br>
 <sup>8</sup> Won’t the land tremble for this, <br>and everyone mourn who dwells in it? <br>Yes, it will rise up wholly like the River; <br>and it will be stirred up and sink again, like the River of Egypt. <br>
@@ -184,7 +184,7 @@
 ## Chapter 9
 
 <sup>1</sup> I saw the Lord standing beside the altar, and he said, “Strike the tops of the pillars, that the thresholds may shake. Break them in pieces on the head of all of them. I will kill the last of them with the sword. Not one of them will flee away. Not one of them will escape.
-<sup>2</sup> <sup>a</sup>there my hand will take them; and though they climb up to heaven, there I will bring them down.
+<sup>2</sup> Though they dig into Sheol,<sup>a</sup> there my hand will take them; and though they climb up to heaven, there I will bring them down.
 <sup>3</sup> Though they hide themselves in the top of Carmel, I will search and take them out from there; and though they be hidden from my sight in the bottom of the sea, there I will command the serpent, and it will bite them.
 <sup>4</sup> Though they go into captivity before their enemies, there I will command the sword, and it will kill them. I will set my eyes on them for evil, and not for good.
 <sup>5</sup> For the Lord, Yahweh of Armies, is he who touches the land and it melts, and all who dwell in it will mourn; and it will rise up wholly like the River, and will sink again, like the River of Egypt.

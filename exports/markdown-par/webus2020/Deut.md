@@ -2,12 +2,12 @@
 
 <sup>1</sup> These are the words which Moses spoke to all Israel beyond the Jordan in the wilderness, in the Arabah opposite Suf, between Paran, Tophel, Laban, Hazeroth, and Dizahab.
 <sup>2</sup> It is eleven days’ journey from Horeb by the way of Mount Seir to Kadesh Barnea.
-<sup>3</sup> <sup>a</sup>had given him in commandment to them,
+<sup>3</sup> In the fortieth year, in the eleventh month, on the first day of the month, Moses spoke to the children of Israel according to all that Yahweh<sup>a</sup> had given him in commandment to them,
 <sup>4</sup> after he had struck Sihon the king of the Amorites who lived in Heshbon, and Og the king of Bashan who lived in Ashtaroth, at Edrei.
 <sup>5</sup> Beyond the Jordan, in the land of Moab, Moses began to declare this law, saying,
-<sup>6</sup> <sup>b</sup>spoke to us in Horeb, saying, ‘You have lived long enough at this mountain.
+<sup>6</sup> “Yahweh our God<sup>b</sup> spoke to us in Horeb, saying, ‘You have lived long enough at this mountain.
 <sup>7</sup> Turn, and take your journey, and go to the hill country of the Amorites and to all the places near there: in the Arabah, in the hill country, in the lowland, in the South, by the seashore, in the land of the Canaanites, and in Lebanon as far as the great river, the river Euphrates.
-<sup>8</sup> <sup>c</sup><sup>d</sup>after them.’ ”
+<sup>8</sup> Behold,<sup>c</sup> I have set the land before you. Go in and possess the land which Yahweh swore to your fathers—to Abraham, to Isaac, and to Jacob—to give to them and to their offspring<sup>d</sup> after them.’ ”
 
 <sup>9</sup> I spoke to you at that time, saying, “I am not able to bear you myself alone.
 <sup>10</sup> Yahweh your God has multiplied you, and behold, you are today as the stars of the sky for multitude.
@@ -126,7 +126,7 @@
 <sup>8</sup> We took the land at that time out of the hand of the two kings of the Amorites who were beyond the Jordan, from the valley of the Arnon to Mount Hermon.
 <sup>9</sup> (The Sidonians call Hermon Sirion, and the Amorites call it Senir.)
 <sup>10</sup> We took all the cities of the plain, and all Gilead, and all Bashan, to Salecah and Edrei, cities of the kingdom of Og in Bashan.
-<sup>11</sup> <sup>a</sup>was its length, and four cubits its width, after the cubit of a man.)
+<sup>11</sup> (For only Og king of Bashan remained of the remnant of the Rephaim. Behold, his bedstead was a bedstead of iron. Isn’t it in Rabbah of the children of Ammon? Nine cubits<sup>a</sup> was its length, and four cubits its width, after the cubit of a man.)
 <sup>12</sup> This land we took in possession at that time: from Aroer, which is by the valley of the Arnon, and half the hill country of Gilead with its cities, I gave to the Reubenites and to the Gadites;
 <sup>13</sup> and the rest of Gilead, and all Bashan, the kingdom of Og, I gave to the half-tribe of Manasseh—all the region of Argob, even all Bashan. (The same is called the land of Rephaim.
 <sup>14</sup> Jair the son of Manasseh took all the region of Argob, to the border of the Geshurites and the Maacathites, and called them, even Bashan, after his own name, Havvoth Jair, to this day.)
@@ -142,7 +142,7 @@
 <sup>22</sup> You shall not fear them; for Yahweh your God himself fights for you.”
 
 <sup>23</sup> I begged Yahweh at that time, saying,
-<sup>24</sup> <sup>b</sup>Yahweh, you have begun to show your servant your greatness, and your strong hand. For what god is there in heaven or in earth that can do works like yours, and mighty acts like yours?
+<sup>24</sup> “Lord<sup>b</sup> Yahweh, you have begun to show your servant your greatness, and your strong hand. For what god is there in heaven or in earth that can do works like yours, and mighty acts like yours?
 <sup>25</sup> Please let me go over and see the good land that is beyond the Jordan, that fine mountain, and Lebanon.”
 
 <sup>26</sup> But Yahweh was angry with me because of you, and didn’t listen to me. Yahweh said to me, “That is enough! Speak no more to me of this matter.
@@ -222,7 +222,7 @@
 <sup>9</sup> You shall not bow yourself down to them, nor serve them, for I, Yahweh your God, am a jealous God, visiting the iniquity of the fathers on the children and on the third and on the fourth generation of those who hate me
 <sup>10</sup> and showing loving kindness to thousands of those who love me and keep my commandments.
 
-<sup>11</sup> <sup>a</sup>for Yahweh will not hold him guiltless who misuses his name.
+<sup>11</sup> “You shall not misuse the name of Yahweh your God;<sup>a</sup> for Yahweh will not hold him guiltless who misuses his name.
 
 <sup>12</sup> “Observe the Sabbath day, to keep it holy, as Yahweh your God commanded you.
 <sup>13</sup> You shall labor six days, and do all your work;
@@ -732,7 +732,7 @@
 <sup>10</sup> You shall not plow with an ox and a donkey together.
 <sup>11</sup> You shall not wear clothes of wool and linen woven together.
 
-<sup>12</sup> <sup>a</sup>on the four corners of your cloak with which you cover yourself.
+<sup>12</sup> You shall make yourselves fringes<sup>a</sup> on the four corners of your cloak with which you cover yourself.
 
 <sup>13</sup> If any man takes a wife, and goes in to her, hates her,
 <sup>14</sup> accuses her of shameful things, gives her a bad name, and says, “I took this woman, and when I came near to her, I didn’t find in her the tokens of virginity;”
@@ -740,7 +740,7 @@
 <sup>16</sup> The young lady’s father shall tell the elders, “I gave my daughter to this man as his wife, and he hates her.
 <sup>17</sup> Behold, he has accused her of shameful things, saying, ‘I didn’t find in your daughter the tokens of virginity;’ and yet these are the tokens of my daughter’s virginity.” They shall spread the cloth before the elders of the city.
 <sup>18</sup> The elders of that city shall take the man and chastise him.
-<sup>19</sup> <sup>b</sup>and give them to the father of the young lady, because he has given a bad name to a virgin of Israel. She shall be his wife. He may not put her away all his days.
+<sup>19</sup> They shall fine him one hundred shekels of silver,<sup>b</sup> and give them to the father of the young lady, because he has given a bad name to a virgin of Israel. She shall be his wife. He may not put her away all his days.
 
 <sup>20</sup> But if this thing is true, that the tokens of virginity were not found in the young lady,
 <sup>21</sup> then they shall bring out the young lady to the door of her father’s house, and the men of her city shall stone her to death with stones, because she has done folly in Israel, to play the prostitute in her father’s house. So you shall remove the evil from among you.
@@ -752,7 +752,7 @@
 <sup>26</sup> but to the lady you shall do nothing. There is in the lady no sin worthy of death; for as when a man rises against his neighbor and kills him, even so is this matter;
 <sup>27</sup> for he found her in the field, the pledged to be married lady cried, and there was no one to save her.
 <sup>28</sup> If a man finds a lady who is a virgin, who is not pledged to be married, grabs her and lies with her, and they are found,
-<sup>29</sup> <sup>c</sup>of silver. She shall be his wife, because he has humbled her. He may not put her away all his days.
+<sup>29</sup> then the man who lay with her shall give to the lady’s father fifty shekels<sup>c</sup> of silver. She shall be his wife, because he has humbled her. He may not put her away all his days.
 <sup>30</sup> A man shall not take his father’s wife, and shall not uncover his father’s skirt.
 
 > - <sup>a</sup> 12. or, tassels
@@ -781,7 +781,7 @@
 <sup>16</sup> He shall dwell with you, among you, in the place which he shall choose within one of your gates, where it pleases him best. You shall not oppress him.
 
 <sup>17</sup> There shall be no prostitute of the daughters of Israel, neither shall there be a sodomite of the sons of Israel.
-<sup>18</sup> <sup>a</sup>into the house of Yahweh your God for any vow; for both of these are an abomination to Yahweh your God.
+<sup>18</sup> You shall not bring the hire of a prostitute, or the wages of a male prostitute,<sup>a</sup> into the house of Yahweh your God for any vow; for both of these are an abomination to Yahweh your God.
 
 <sup>19</sup> You shall not lend on interest to your brother: interest of money, interest of food, interest of anything that is lent on interest.
 <sup>20</sup> You may charge a foreigner interest; but you shall not charge your brother interest, that Yahweh your God may bless you in all that you put your hand to, in the land where you go in to possess it.
@@ -860,7 +860,7 @@
 <sup>2</sup> that you shall take some of the first of all the fruit of the ground, which you shall bring in from your land that Yahweh your God gives you. You shall put it in a basket, and shall go to the place which Yahweh your God shall choose to cause his name to dwell there.
 <sup>3</sup> You shall come to the priest who shall be in those days, and tell him, “I profess today to Yahweh your God, that I have come to the land which Yahweh swore to our fathers to give us.”
 <sup>4</sup> The priest shall take the basket out of your hand, and set it down before Yahweh your God’s altar.
-<sup>5</sup> <sup>a</sup>was a Syrian ready to perish. He went down into Egypt, and lived there, few in number. There he became a great, mighty, and populous nation.
+<sup>5</sup> You shall answer and say before Yahweh your God, “My father<sup>a</sup> was a Syrian ready to perish. He went down into Egypt, and lived there, few in number. There he became a great, mighty, and populous nation.
 <sup>6</sup> The Egyptians mistreated us, afflicted us, and imposed hard labor on us.
 <sup>7</sup> Then we cried to Yahweh, the God of our fathers. Yahweh heard our voice, and saw our affliction, our toil, and our oppression.
 <sup>8</sup> Yahweh brought us out of Egypt with a mighty hand, with an outstretched arm, with great terror, with signs, and with wonders;
@@ -908,7 +908,7 @@
 
 <sup>19</sup> ‘Cursed is he who withholds justice from the foreigner, fatherless, and widow.’ All the people shall say, ‘Amen.’
 
-<sup>20</sup> <sup>a</sup>his father’s wife, because he dishonors his father’s bed.’ All the people shall say, ‘Amen.’
+<sup>20</sup> ‘Cursed is he who lies with<sup>a</sup> his father’s wife, because he dishonors his father’s bed.’ All the people shall say, ‘Amen.’
 
 <sup>21</sup> ‘Cursed is he who lies with any kind of animal.’ All the people shall say, ‘Amen.’
 
@@ -1117,7 +1117,7 @@
 <sup>19</sup> Yahweh saw and abhorred, <br>because of the provocation of his sons and his daughters. <br>
 <sup>20</sup> He said, “I will hide my face from them. <br>I will see what their end will be; <br>for they are a very perverse generation, <br>children in whom is no faithfulness. <br>
 <sup>21</sup> They have moved me to jealousy with that which is not God. <br>They have provoked me to anger with their vanities. <br>I will move them to jealousy with those who are not a people. <br>I will provoke them to anger with a foolish nation. <br>
-<sup>22</sup> For a fire is kindled in my anger, <br><sup>a</sup><br>devours the earth with its increase, <br>and sets the foundations of the mountains on fire.
+<sup>22</sup> For a fire is kindled in my anger, <br>that burns to the lowest Sheol,<sup>a</sup> <br>devours the earth with its increase, <br>and sets the foundations of the mountains on fire.
 
 <sup>23</sup> “I will heap evils on them. <br>I will spend my arrows on them. <br>
 <sup>24</sup> They shall be wasted with hunger, <br>and devoured with burning heat <br>and bitter destruction. <br>I will send the teeth of animals on them, <br>with the venom of vipers that glide in the dust. <br>
@@ -1144,7 +1144,7 @@
 <sup>41</sup> if I sharpen my glittering sword, <br>my hand grasps it in judgment; <br>I will take vengeance on my adversaries, <br>and will repay those who hate me. <br>
 <sup>42</sup> I will make my arrows drunk with blood. <br>My sword shall devour flesh with the blood of the slain and the captives, <br>from the head of the leaders of the enemy.”
 
-<sup>43</sup> Rejoice, you nations, with his people, <br>for he will avenge the blood of his servants. <br>He will take vengeance on his adversaries, <br><sup>b</sup>
+<sup>43</sup> Rejoice, you nations, with his people, <br>for he will avenge the blood of his servants. <br>He will take vengeance on his adversaries, <br>and will make atonement for his land and for his people.<sup>b</sup>
 
 <sup>44</sup> Moses came and spoke all the words of this song in the ears of the people, he and Joshua the son of Nun.
 <sup>45</sup> Moses finished reciting all these words to all Israel.
@@ -1163,7 +1163,7 @@
 ## Chapter 33
 
 <sup>1</sup> This is the blessing with which Moses the man of God blessed the children of Israel before his death.
-<sup>2</sup> He said, <br>“Yahweh came from Sinai, <br>and rose from Seir to them. <br>He shone from Mount Paran. <br>He came from the ten thousands of holy ones. <br><sup>a</sup><br>
+<sup>2</sup> He said, <br>“Yahweh came from Sinai, <br>and rose from Seir to them. <br>He shone from Mount Paran. <br>He came from the ten thousands of holy ones. <br>At his right hand was a fiery law for them.<sup>a</sup> <br>
 <sup>3</sup> Yes, he loves the people. <br>All his saints are in your hand. <br>They sat down at your feet. <br>Each receives your words. <br>
 <sup>4</sup> Moses commanded us a law, <br>an inheritance for the assembly of Jacob. <br>
 <sup>5</sup> He was king in Jeshurun, <br>when the heads of the people were gathered, <br>all the tribes of Israel together.
@@ -1182,7 +1182,7 @@
 <sup>13</sup> About Joseph he said, <br>“His land is blessed by Yahweh, <br>for the precious things of the heavens, for the dew, <br>for the deep that couches beneath, <br>
 <sup>14</sup> for the precious things of the fruits of the sun, <br>for the precious things that the moon can yield, <br>
 <sup>15</sup> for the best things of the ancient mountains, <br>for the precious things of the everlasting hills, <br>
-<sup>16</sup> for the precious things of the earth and its fullness, <br><sup>b</sup><br>Let this come on the head of Joseph, <br>on the crown of the head of him who was separated from his brothers. <br>
+<sup>16</sup> for the precious things of the earth and its fullness, <br>the good will of him who lived in the bush.<sup>b</sup> <br>Let this come on the head of Joseph, <br>on the crown of the head of him who was separated from his brothers. <br>
 <sup>17</sup> Majesty belongs to the firstborn of his herd. <br>His horns are the horns of the wild ox. <br>With them he will push all the peoples to the ends of the earth. <br>They are the ten thousands of Ephraim. <br>They are the thousands of Manasseh.”
 
 <sup>18</sup> About Zebulun he said, <br>“Rejoice, Zebulun, in your going out; <br>and Issachar, in your tents. <br>
@@ -1210,7 +1210,7 @@
 
 <sup>1</sup> Moses went up from the plains of Moab to Mount Nebo, to the top of Pisgah, that is opposite Jericho. Yahweh showed him all the land of Gilead to Dan,
 <sup>2</sup> and all Naphtali, and the land of Ephraim and Manasseh, and all the land of Judah, to the Western Sea,
-<sup>3</sup> <sup>a</sup>and the Plain of the valley of Jericho the city of palm trees, to Zoar.
+<sup>3</sup> and the south,<sup>a</sup> and the Plain of the valley of Jericho the city of palm trees, to Zoar.
 <sup>4</sup> Yahweh said to him, “This is the land which I swore to Abraham, to Isaac, and to Jacob, saying, ‘I will give it to your offspring.’ I have caused you to see it with your eyes, but you shall not go over there.”
 
 <sup>5</sup> So Moses the servant of Yahweh died there in the land of Moab, according to Yahweh’s word.

@@ -7,12 +7,12 @@
 <sup>5</sup> that the wise man may hear, and increase in learning; <br>that the man of understanding may attain to sound counsel; <br>
 <sup>6</sup> to understand a proverb and parables, <br>the words and riddles of the wise.
 
-<sup>7</sup> <sup>a</sup>is the beginning of knowledge, <br>but the foolish despise wisdom and instruction. <br>
+<sup>7</sup> The fear of Yahweh<sup>a</sup> is the beginning of knowledge, <br>but the foolish despise wisdom and instruction. <br>
 <sup>8</sup> My son, listen to your father’s instruction, <br>and don’t forsake your mother’s teaching; <br>
 <sup>9</sup> for they will be a garland to grace your head, <br>and chains around your neck. <br>
 <sup>10</sup> My son, if sinners entice you, <br>don’t consent. <br>
 <sup>11</sup> If they say, “Come with us. <br>Let’s lie in wait for blood. <br>Let’s lurk secretly for the innocent without cause. <br>
-<sup>12</sup> <sup>b</sup><br>and whole, like those who go down into the pit. <br>
+<sup>12</sup> Let’s swallow them up alive like Sheol,<sup>b</sup> <br>and whole, like those who go down into the pit. <br>
 <sup>13</sup> We’ll find all valuable wealth. <br>We’ll fill our houses with plunder. <br>
 <sup>14</sup> You shall cast your lot among us. <br>We’ll all have one purse”— <br>
 <sup>15</sup> my son, don’t walk on the path with them. <br>Keep your foot from their path, <br>
@@ -24,7 +24,7 @@
 <sup>20</sup> Wisdom calls aloud in the street. <br>She utters her voice in the public squares. <br>
 <sup>21</sup> She calls at the head of noisy places. <br>At the entrance of the city gates, she utters her words: <br>
 <sup>22</sup> “How long, you simple ones, will you love simplicity? <br>How long will mockers delight themselves in mockery, <br>and fools hate knowledge? <br>
-<sup>23</sup> Turn at my reproof. <br><sup>c</sup>I will pour out my spirit on you. <br>I will make known my words to you. <br>
+<sup>23</sup> Turn at my reproof. <br>Behold,<sup>c</sup> I will pour out my spirit on you. <br>I will make known my words to you. <br>
 <sup>24</sup> Because I have called, and you have refused; <br>I have stretched out my hand, and no one has paid attention; <br>
 <sup>25</sup> but you have ignored all my counsel, <br>and wanted none of my reproof; <br>
 <sup>26</sup> I also will laugh at your disaster. <br>I will mock when calamity overtakes you, <br>
@@ -46,7 +46,7 @@
 <sup>2</sup> so as to turn your ear to wisdom, <br>and apply your heart to understanding; <br>
 <sup>3</sup> yes, if you call out for discernment, <br>and lift up your voice for understanding; <br>
 <sup>4</sup> if you seek her as silver, <br>and search for her as for hidden treasures; <br>
-<sup>5</sup> then you will understand the fear of Yahweh, <br><sup>a</sup><br>
+<sup>5</sup> then you will understand the fear of Yahweh, <br>and find the knowledge of God.<sup>a</sup> <br>
 <sup>6</sup> For Yahweh gives wisdom. <br>Out of his mouth comes knowledge and understanding. <br>
 <sup>7</sup> He lays up sound wisdom for the upright. <br>He is a shield to those who walk in integrity, <br>
 <sup>8</sup> that he may guard the paths of justice, <br>and preserve the way of his saints. <br>
@@ -143,7 +143,7 @@
 <sup>2</sup> that you may maintain discretion, <br>that your lips may preserve knowledge. <br>
 <sup>3</sup> For the lips of an adulteress drip honey. <br>Her mouth is smoother than oil, <br>
 <sup>4</sup> but in the end she is as bitter as wormwood, <br>and as sharp as a two-edged sword. <br>
-<sup>5</sup> Her feet go down to death. <br><sup>a</sup><br>
+<sup>5</sup> Her feet go down to death. <br>Her steps lead straight to Sheol.<sup>a</sup> <br>
 <sup>6</sup> She gives no thought to the way of life. <br>Her ways are crooked, and she doesn’t know it.
 
 <sup>7</sup> Now therefore, my sons, listen to me. <br>Don’t depart from the words of my mouth. <br>
@@ -237,7 +237,7 @@
 <sup>24</sup> Now therefore, sons, listen to me. <br>Pay attention to the words of my mouth. <br>
 <sup>25</sup> Don’t let your heart turn to her ways. <br>Don’t go astray in her paths, <br>
 <sup>26</sup> for she has thrown down many wounded. <br>Yes, all her slain are a mighty army. <br>
-<sup>27</sup> <sup>a</sup><br>going down to the rooms of death.
+<sup>27</sup> Her house is the way to Sheol,<sup>a</sup> <br>going down to the rooms of death.
 
 > - <sup>a</sup> 27. Sheol is the place of the dead.
 
@@ -303,7 +303,7 @@
 <sup>15</sup> to call to those who pass by, <br>who go straight on their ways, <br>
 <sup>16</sup> “Whoever is simple, let him turn in here.” <br>As for him who is void of understanding, she says to him, <br>
 <sup>17</sup> “Stolen water is sweet. <br>Food eaten in secret is pleasant.” <br>
-<sup>18</sup> But he doesn’t know that the departed spirits are there, <br><sup>a</sup>
+<sup>18</sup> But he doesn’t know that the departed spirits are there, <br>that her guests are in the depths of Sheol.<sup>a</sup>
 
 > - <sup>a</sup> 18. Sheol is the place of the dead.
 
@@ -363,7 +363,7 @@
 <sup>18</sup> Wicked people earn deceitful wages, <br>but one who sows righteousness reaps a sure reward. <br>
 <sup>19</sup> He who is truly righteous gets life. <br>He who pursues evil gets death. <br>
 <sup>20</sup> Those who are perverse in heart are an abomination to Yahweh, <br>but those whose ways are blameless are his delight. <br>
-<sup>21</sup> Most certainly, the evil man will not be unpunished, <br><sup>a</sup>of the righteous will be delivered. <br>
+<sup>21</sup> Most certainly, the evil man will not be unpunished, <br>but the offspring<sup>a</sup> of the righteous will be delivered. <br>
 <sup>22</sup> Like a gold ring in a pig’s snout, <br>is a beautiful woman who lacks discretion. <br>
 <sup>23</sup> The desire of the righteous is only good. <br>The expectation of the wicked is wrath. <br>
 <sup>24</sup> There is one who scatters, and increases yet more. <br>There is one who withholds more than is appropriate, but gains poverty. <br>
@@ -483,7 +483,7 @@
 <sup>8</sup> The sacrifice made by the wicked is an abomination to Yahweh, <br>but the prayer of the upright is his delight. <br>
 <sup>9</sup> The way of the wicked is an abomination to Yahweh, <br>but he loves him who follows after righteousness. <br>
 <sup>10</sup> There is stern discipline for one who forsakes the way. <br>Whoever hates reproof shall die. <br>
-<sup>11</sup> <sup>a</sup>and Abaddon are before Yahweh— <br>how much more then the hearts of the children of men! <br>
+<sup>11</sup> Sheol<sup>a</sup> and Abaddon are before Yahweh— <br>how much more then the hearts of the children of men! <br>
 <sup>12</sup> A scoffer doesn’t love to be reproved; <br>he will not go to the wise. <br>
 <sup>13</sup> A glad heart makes a cheerful face, <br>but an aching heart breaks the spirit. <br>
 <sup>14</sup> The heart of one who has understanding seeks knowledge, <br>but the mouths of fools feed on folly. <br>
@@ -496,7 +496,7 @@
 <sup>21</sup> Folly is joy to one who is void of wisdom, <br>but a man of understanding keeps his way straight. <br>
 <sup>22</sup> Where there is no counsel, plans fail; <br>but in a multitude of counselors they are established. <br>
 <sup>23</sup> Joy comes to a man with the reply of his mouth. <br>How good is a word at the right time! <br>
-<sup>24</sup> The path of life leads upward for the wise, <br><sup>b</sup><br>
+<sup>24</sup> The path of life leads upward for the wise, <br>to keep him from going downward to Sheol.<sup>b</sup> <br>
 <sup>25</sup> Yahweh will uproot the house of the proud, <br>but he will keep the widow’s borders intact. <br>
 <sup>26</sup> Yahweh detests the thoughts of the wicked, <br>but the thoughts of the pure are pleasing. <br>
 <sup>27</sup> He who is greedy for gain troubles his own house, <br>but he who hates bribes will live. <br>
@@ -752,7 +752,7 @@
 
 <sup>12</sup> Apply your heart to instruction, <br>and your ears to the words of knowledge. <br>
 <sup>13</sup> Don’t withhold correction from a child. <br>If you punish him with the rod, he will not die. <br>
-<sup>14</sup> Punish him with the rod, <br><sup>a</sup>
+<sup>14</sup> Punish him with the rod, <br>and save his soul from Sheol.<sup>a</sup>
 
 <sup>15</sup> My son, if your heart is wise, <br>then my heart will be glad, even mine. <br>
 <sup>16</sup> Yes, my heart will rejoice <br>when your lips speak what is right. <br>
@@ -899,7 +899,7 @@
 <sup>17</sup> Iron sharpens iron; <br>so a man sharpens his friend’s countenance. <br>
 <sup>18</sup> Whoever tends the fig tree shall eat its fruit. <br>He who looks after his master shall be honored. <br>
 <sup>19</sup> Like water reflects a face, <br>so a man’s heart reflects the man. <br>
-<sup>20</sup> <sup>a</sup>and Abaddon are never satisfied; <br>and a man’s eyes are never satisfied. <br>
+<sup>20</sup> Sheol<sup>a</sup> and Abaddon are never satisfied; <br>and a man’s eyes are never satisfied. <br>
 <sup>21</sup> The crucible is for silver, <br>and the furnace for gold; <br>but man is refined by his praise. <br>
 <sup>22</sup> Though you grind a fool in a mortar with a pestle along with grain, <br>yet his foolishness will not be removed from him.
 
@@ -992,7 +992,7 @@
 <sup>14</sup> There is a generation whose teeth are like swords, <br>and their jaws like knives, <br>to devour the poor from the earth, and the needy from among men.
 
 <sup>15</sup> “The leech has two daughters: <br>‘Give, give.’ “There are three things that are never satisfied; <br>four that don’t say, ‘Enough!’: <br>
-<sup>16</sup> <sup>a</sup><br>the barren womb, <br>the earth that is not satisfied with water, <br>and the fire that doesn’t say, ‘Enough!’
+<sup>16</sup> Sheol,<sup>a</sup> <br>the barren womb, <br>the earth that is not satisfied with water, <br>and the fire that doesn’t say, ‘Enough!’
 
 <sup>17</sup> “The eye that mocks at his father, <br>and scorns obedience to his mother, <br>the ravens of the valley shall pick it out, <br>the young eagles shall eat it.
 
@@ -1033,7 +1033,7 @@
 <sup>8</sup> Open your mouth for the mute, <br>in the cause of all who are left desolate. <br>
 <sup>9</sup> Open your mouth, judge righteously, <br>and serve justice to the poor and needy.”
 
-<sup>10</sup> <sup>a</sup>Who can find a worthy woman? <br>For her value is far above rubies. <br>
+<sup>10</sup> Who can find a worthy woman? <br>For her value is far above rubies. <br>
 <sup>11</sup> The heart of her husband trusts in her. <br>He shall have no lack of gain. <br>
 <sup>12</sup> She does him good, and not harm, <br>all the days of her life. <br>
 <sup>13</sup> She seeks wool and flax, <br>and works eagerly with her hands. <br>
@@ -1055,5 +1055,3 @@
 <sup>29</sup> “Many women do noble things, <br>but you excel them all.” <br>
 <sup>30</sup> Charm is deceitful, and beauty is vain; <br>but a woman who fears Yahweh, she shall be praised. <br>
 <sup>31</sup> Give her of the fruit of her hands! <br>Let her works praise her in the gates!
-
-> - <sup>a</sup> 10. Proverbs 31:10-31 form an acrostic, with each verse starting with each letter of the Hebrew alphabet, in order.

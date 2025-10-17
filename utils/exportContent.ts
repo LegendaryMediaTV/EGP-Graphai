@@ -256,20 +256,22 @@ function convertVerseToMarkdown(
     } else if (node.type === "n") {
       // Line break - use HTML break tag for explicit line breaks in markdown
       textParts.push("<br>");
-    } else if (node.foot) {
-      // Add footnote marker using letters (a, b, c...) cycling back to 'a' after 'z'
-      const footnoteLetter = String.fromCharCode(
-        97 + (chapterFootnotes.length % 26)
-      ); // 97 = 'a'
-      textParts.push(`<sup>${footnoteLetter}</sup>`);
-
-      const footnoteContent = convertFootnoteToMarkdown(node.foot);
-      chapterFootnotes.push(
-        `- <sup>${footnoteLetter}</sup> ${verseNum}. ${footnoteContent}`
-      );
     } else if (node.text) {
       // Add the text
       textParts.push(node.text);
+
+      if (node.foot) {
+        // Add footnote marker using letters (a, b, c...) cycling back to 'a' after 'z'
+        const footnoteLetter = String.fromCharCode(
+          97 + (chapterFootnotes.length % 26)
+        ); // 97 = 'a'
+        textParts.push(`<sup>${footnoteLetter}</sup>`);
+
+        const footnoteContent = convertFootnoteToMarkdown(node.foot);
+        chapterFootnotes.push(
+          `- <sup>${footnoteLetter}</sup> ${verseNum}. ${footnoteContent}`
+        );
+      }
 
       // Add space if next node is not punctuation text
       if (i < verse.content.length - 1) {

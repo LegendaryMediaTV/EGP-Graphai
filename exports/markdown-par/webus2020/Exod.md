@@ -9,7 +9,7 @@
 <sup>7</sup> The children of Israel were fruitful, and increased abundantly, and multiplied, and grew exceedingly mighty; and the land was filled with them.
 
 <sup>8</sup> Now there arose a new king over Egypt, who didn’t know Joseph.
-<sup>9</sup> <sup>a</sup>the people of the children of Israel are more and mightier than we.
+<sup>9</sup> He said to his people, “Behold,<sup>a</sup> the people of the children of Israel are more and mightier than we.
 <sup>10</sup> Come, let’s deal wisely with them, lest they multiply, and it happen that when any war breaks out, they also join themselves to our enemies and fight against us, and escape out of the land.”
 <sup>11</sup> Therefore they set taskmasters over them to afflict them with their burdens. They built storage cities for Pharaoh: Pithom and Raamses.
 <sup>12</sup> But the more they afflicted them, the more they multiplied and the more they spread out. They started to dread the children of Israel.
@@ -18,7 +18,7 @@
 
 <sup>15</sup> The king of Egypt spoke to the Hebrew midwives, of whom the name of the one was Shiphrah, and the name of the other Puah,
 <sup>16</sup> and he said, “When you perform the duty of a midwife to the Hebrew women, and see them on the birth stool, if it is a son, then you shall kill him; but if it is a daughter, then she shall live.”
-<sup>17</sup> <sup>b</sup>and didn’t do what the king of Egypt commanded them, but saved the baby boys alive.
+<sup>17</sup> But the midwives feared God,<sup>b</sup> and didn’t do what the king of Egypt commanded them, but saved the baby boys alive.
 <sup>18</sup> The king of Egypt called for the midwives, and said to them, “Why have you done this thing and saved the boys alive?”
 
 <sup>19</sup> The midwives said to Pharaoh, “Because the Hebrew women aren’t like the Egyptian women; for they are vigorous and give birth before the midwife comes to them.”
@@ -43,7 +43,7 @@
 
 <sup>8</sup> Pharaoh’s daughter said to her, “Go.” The young woman went and called the child’s mother.
 <sup>9</sup> Pharaoh’s daughter said to her, “Take this child away, and nurse him for me, and I will give you your wages.” The woman took the child, and nursed it.
-<sup>10</sup> <sup>a</sup>and said, “Because I drew him out of the water.”
+<sup>10</sup> The child grew, and she brought him to Pharaoh’s daughter, and he became her son. She named him Moses,<sup>a</sup> and said, “Because I drew him out of the water.”
 
 <sup>11</sup> In those days, when Moses had grown up, he went out to his brothers and saw their burdens. He saw an Egyptian striking a Hebrew, one of his brothers.
 <sup>12</sup> He looked this way and that way, and when he saw that there was no one, he killed the Egyptian, and hid him in the sand.
@@ -62,7 +62,7 @@
 <sup>20</sup> He said to his daughters, “Where is he? Why is it that you have left the man? Call him, that he may eat bread.”
 
 <sup>21</sup> Moses was content to dwell with the man. He gave Moses Zipporah, his daughter.
-<sup>22</sup> <sup>b</sup>for he said, “I have lived as a foreigner in a foreign land.”
+<sup>22</sup> She bore a son, and he named him Gershom,<sup>b</sup> for he said, “I have lived as a foreigner in a foreign land.”
 
 <sup>23</sup> In the course of those many days, the king of Egypt died, and the children of Israel sighed because of the bondage, and they cried, and their cry came up to God because of the bondage.
 <sup>24</sup> God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.
@@ -74,7 +74,7 @@
 ## Chapter 3
 
 <sup>1</sup> Now Moses was keeping the flock of Jethro, his father-in-law, the priest of Midian, and he led the flock to the back of the wilderness, and came to God’s mountain, to Horeb.
-<sup>2</sup> <sup>a</sup>angel appeared to him in a flame of fire out of the middle of a bush. He looked, and behold, the bush burned with fire, and the bush was not consumed.
+<sup>2</sup> Yahweh’s<sup>a</sup> angel appeared to him in a flame of fire out of the middle of a bush. He looked, and behold, the bush burned with fire, and the bush was not consumed.
 <sup>3</sup> Moses said, “I will go now, and see this great sight, why the bush is not burned.”
 
 <sup>4</sup> When Yahweh saw that he came over to see, God called to him out of the middle of the bush, and said, “Moses! Moses!” He said, “Here I am.”
@@ -123,7 +123,7 @@
 <sup>8</sup> “It will happen, if they will not believe you or listen to the voice of the first sign, that they will believe the voice of the latter sign.
 <sup>9</sup> It will happen, if they will not believe even these two signs or listen to your voice, that you shall take of the water of the river, and pour it on the dry land. The water which you take out of the river will become blood on the dry land.”
 
-<sup>10</sup> <sup>a</sup>I am not eloquent, neither before now, nor since you have spoken to your servant; for I am slow of speech, and of a slow tongue.”
+<sup>10</sup> Moses said to Yahweh, “O Lord,<sup>a</sup> I am not eloquent, neither before now, nor since you have spoken to your servant; for I am slow of speech, and of a slow tongue.”
 
 <sup>11</sup> Yahweh said to him, “Who made man’s mouth? Or who makes one mute, or deaf, or seeing, or blind? Isn’t it I, Yahweh?
 <sup>12</sup> Now therefore go, and I will be with your mouth, and teach you what you shall speak.”
@@ -379,7 +379,7 @@
 <sup>17</sup> Now therefore please forgive my sin again, and pray to Yahweh your God, that he may also take away from me this death.”
 
 <sup>18</sup> Moses went out from Pharaoh, and prayed to Yahweh.
-<sup>19</sup> <sup>a</sup>There remained not one locust in all the borders of Egypt.
+<sup>19</sup> Yahweh sent an exceedingly strong west wind, which took up the locusts, and drove them into the Red Sea.<sup>a</sup> There remained not one locust in all the borders of Egypt.
 <sup>20</sup> But Yahweh hardened Pharaoh’s heart, and he didn’t let the children of Israel go.
 
 <sup>21</sup> Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be darkness over the land of Egypt, even darkness which may be felt.”
@@ -508,7 +508,7 @@
 <sup>5</sup> The king of Egypt was told that the people had fled; and the heart of Pharaoh and of his servants was changed toward the people, and they said, “What is this we have done, that we have let Israel go from serving us?”
 <sup>6</sup> He prepared his chariot, and took his army with him;
 <sup>7</sup> and he took six hundred chosen chariots, and all the chariots of Egypt, with captains over all of them.
-<sup>8</sup> <sup>a</sup>
+<sup>8</sup> Yahweh hardened the heart of Pharaoh king of Egypt, and he pursued the children of Israel; for the children of Israel went out with a high hand.<sup>a</sup>
 <sup>9</sup> The Egyptians pursued them. All the horses and chariots of Pharaoh, his horsemen, and his army overtook them encamping by the sea, beside Pihahiroth, before Baal Zephon.
 
 <sup>10</sup> When Pharaoh came near, the children of Israel lifted up their eyes, and behold, the Egyptians were marching after them; and they were very afraid. The children of Israel cried out to Yahweh.
@@ -566,7 +566,7 @@
 <sup>21</sup> Miriam answered them, <br>“Sing to Yahweh, for he has triumphed gloriously. <br>He has thrown the horse and his rider into the sea.”
 
 <sup>22</sup> Moses led Israel onward from the Red Sea, and they went out into the wilderness of Shur; and they went three days in the wilderness, and found no water.
-<sup>23</sup> <sup>a</sup>
+<sup>23</sup> When they came to Marah, they couldn’t drink from the waters of Marah, for they were bitter. Therefore its name was called Marah.<sup>a</sup>
 <sup>24</sup> The people murmured against Moses, saying, “What shall we drink?”
 <sup>25</sup> Then he cried to Yahweh. Yahweh showed him a tree, and he threw it into the waters, and the waters were made sweet. There he made a statute and an ordinance for them, and there he tested them.
 <sup>26</sup> He said, “If you will diligently listen to Yahweh your God’s voice, and will do that which is right in his eyes, and will pay attention to his commandments, and keep all his statutes, I will put none of the diseases on you which I have put on the Egyptians; for I am Yahweh who heals you.”
@@ -595,7 +595,7 @@
 <sup>13</sup> In the evening, quail came up and covered the camp; and in the morning the dew lay around the camp.
 <sup>14</sup> When the dew that lay had gone, behold, on the surface of the wilderness was a small round thing, small as the frost on the ground.
 <sup>15</sup> When the children of Israel saw it, they said to one another, “What is it?” For they didn’t know what it was. Moses said to them, “It is the bread which Yahweh has given you to eat.
-<sup>16</sup> <sup>a</sup>a head, according to the number of your persons, you shall take it, every man for those who are in his tent.’ ”
+<sup>16</sup> This is the thing which Yahweh has commanded: ‘Gather of it everyone according to his eating; an omer<sup>a</sup> a head, according to the number of your persons, you shall take it, every man for those who are in his tent.’ ”
 <sup>17</sup> The children of Israel did so, and some gathered more, some less.
 <sup>18</sup> When they measured it with an omer, he who gathered much had nothing over, and he who gathered little had no lack. They each gathered according to his eating.
 <sup>19</sup> Moses said to them, “Let no one leave of it until the morning.”
@@ -611,12 +611,12 @@
 <sup>29</sup> Behold, because Yahweh has given you the Sabbath, therefore he gives you on the sixth day the bread of two days. Everyone stay in his place. Let no one go out of his place on the seventh day.”
 <sup>30</sup> So the people rested on the seventh day.
 
-<sup>31</sup> <sup>b</sup>and it was like coriander seed, white; and its taste was like wafers with honey.
+<sup>31</sup> The house of Israel called its name “Manna”,<sup>b</sup> and it was like coriander seed, white; and its taste was like wafers with honey.
 <sup>32</sup> Moses said, “This is the thing which Yahweh has commanded, ‘Let an omer-full of it be kept throughout your generations, that they may see the bread with which I fed you in the wilderness, when I brought you out of the land of Egypt.’ ”
 <sup>33</sup> Moses said to Aaron, “Take a pot, and put an omer-full of manna in it, and lay it up before Yahweh, to be kept throughout your generations.”
 <sup>34</sup> As Yahweh commanded Moses, so Aaron laid it up before the Testimony, to be kept.
 <sup>35</sup> The children of Israel ate the manna forty years, until they came to an inhabited land. They ate the manna until they came to the borders of the land of Canaan.
-<sup>36</sup> <sup>c</sup>
+<sup>36</sup> Now an omer is one tenth of an ephah.<sup>c</sup>
 
 > - <sup>a</sup> 16. An omer is about 2.2 liters or about 2.3 quarts
 > - <sup>b</sup> 31. “Manna” means “What is it?”
@@ -633,7 +633,7 @@
 
 <sup>5</sup> Yahweh said to Moses, “Walk on before the people, and take the elders of Israel with you, and take the rod in your hand with which you struck the Nile, and go.
 <sup>6</sup> Behold, I will stand before you there on the rock in Horeb. You shall strike the rock, and water will come out of it, that the people may drink.” Moses did so in the sight of the elders of Israel.
-<sup>7</sup> <sup>a</sup><sup>b</sup>because the children of Israel quarreled, and because they tested Yahweh, saying, “Is Yahweh among us, or not?”
+<sup>7</sup> He called the name of the place Massah,<sup>a</sup> and Meribah,<sup>b</sup> because the children of Israel quarreled, and because they tested Yahweh, saying, “Is Yahweh among us, or not?”
 
 <sup>8</sup> Then Amalek came and fought with Israel in Rephidim.
 <sup>9</sup> Moses said to Joshua, “Choose men for us, and go out to fight with Amalek. Tomorrow I will stand on the top of the hill with God’s rod in my hand.”
@@ -642,7 +642,7 @@
 <sup>12</sup> But Moses’ hands were heavy; so they took a stone, and put it under him, and he sat on it. Aaron and Hur held up his hands, the one on the one side, and the other on the other side. His hands were steady until sunset.
 <sup>13</sup> Joshua defeated Amalek and his people with the edge of the sword.
 <sup>14</sup> Yahweh said to Moses, “Write this for a memorial in a book, and rehearse it in the ears of Joshua: that I will utterly blot out the memory of Amalek from under the sky.”
-<sup>15</sup> <sup>c</sup>
+<sup>15</sup> Moses built an altar, and called its name “Yahweh our Banner”.<sup>c</sup>
 <sup>16</sup> He said, “Yah has sworn: ‘Yahweh will have war with Amalek from generation to generation.’ ”
 
 > - <sup>a</sup> 7. Massah means testing.
@@ -653,8 +653,8 @@
 
 <sup>1</sup> Now Jethro, the priest of Midian, Moses’ father-in-law, heard of all that God had done for Moses and for Israel his people, how Yahweh had brought Israel out of Egypt.
 <sup>2</sup> Jethro, Moses’ father-in-law, received Zipporah, Moses’ wife, after he had sent her away,
-<sup>3</sup> <sup>a</sup>for Moses said, “I have lived as a foreigner in a foreign land”.
-<sup>4</sup> <sup>b</sup>for he said, “My father’s God was my help and delivered me from Pharaoh’s sword.”
+<sup>3</sup> and her two sons. The name of one son was Gershom,<sup>a</sup> for Moses said, “I have lived as a foreigner in a foreign land”.
+<sup>4</sup> The name of the other was Eliezer,<sup>b</sup> for he said, “My father’s God was my help and delivered me from Pharaoh’s sword.”
 <sup>5</sup> Jethro, Moses’ father-in-law, came with Moses’ sons and his wife to Moses into the wilderness where he was encamped, at the Mountain of God.
 <sup>6</sup> He said to Moses, “I, your father-in-law Jethro, have come to you with your wife, and her two sons with her.”
 
@@ -722,7 +722,7 @@
 <sup>25</sup> So Moses went down to the people, and told them.
 ## Chapter 20
 
-<sup>1</sup> <sup>a</sup>spoke all these words, saying,
+<sup>1</sup> God<sup>a</sup> spoke all these words, saying,
 <sup>2</sup> “I am Yahweh your God, who brought you out of the land of Egypt, out of the house of bondage.
 
 <sup>3</sup> “You shall have no other gods before me.
@@ -731,7 +731,7 @@
 <sup>5</sup> you shall not bow yourself down to them, nor serve them, for I, Yahweh your God, am a jealous God, visiting the iniquity of the fathers on the children, on the third and on the fourth generation of those who hate me,
 <sup>6</sup> and showing loving kindness to thousands of those who love me and keep my commandments.
 
-<sup>7</sup> <sup>b</sup>for Yahweh will not hold him guiltless who misuses his name.
+<sup>7</sup> “You shall not misuse the name of Yahweh your God,<sup>b</sup> for Yahweh will not hold him guiltless who misuses his name.
 
 <sup>8</sup> “Remember the Sabbath day, to keep it holy.
 <sup>9</sup> You shall labor six days, and do all your work,
@@ -809,7 +809,7 @@
 <sup>29</sup> But if the bull had a habit of goring in the past, and this has been testified to its owner, and he has not kept it in, but it has killed a man or a woman, the bull shall be stoned, and its owner shall also be put to death.
 <sup>30</sup> If a ransom is imposed on him, then he shall give for the redemption of his life whatever is imposed.
 <sup>31</sup> Whether it has gored a son or has gored a daughter, according to this judgment it shall be done to him.
-<sup>32</sup> <sup>a</sup>of silver shall be given to their master, and the ox shall be stoned.
+<sup>32</sup> If the bull gores a male servant or a female servant, thirty shekels<sup>a</sup> of silver shall be given to their master, and the ox shall be stoned.
 
 <sup>33</sup> “If a man opens a pit, or if a man digs a pit and doesn’t cover it, and a bull or a donkey falls into it,
 <sup>34</sup> the owner of the pit shall make it good. He shall give money to its owner, and the dead animal shall be his.
@@ -930,7 +930,7 @@
 <sup>8</sup> Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”
 
 <sup>9</sup> Then Moses, Aaron, Nadab, Abihu, and seventy of the elders of Israel went up.
-<sup>10</sup> <sup>a</sup>stone, like the skies for clearness.
+<sup>10</sup> They saw the God of Israel. Under his feet was like a paved work of sapphire<sup>a</sup> stone, like the skies for clearness.
 <sup>11</sup> He didn’t lay his hand on the nobles of the children of Israel. They saw God, and ate and drank.
 
 <sup>12</sup> Yahweh said to Moses, “Come up to me on the mountain, and stay here, and I will give you the stone tablets with the law and the commands that I have written, that you may teach them.”
@@ -951,13 +951,13 @@
 <sup>2</sup> “Speak to the children of Israel, that they take an offering for me. From everyone whose heart makes him willing you shall take my offering.
 <sup>3</sup> This is the offering which you shall take from them: gold, silver, bronze,
 <sup>4</sup> blue, purple, scarlet, fine linen, goats’ hair,
-<sup>5</sup> <sup>a</sup>acacia wood,
+<sup>5</sup> rams’ skins dyed red, sea cow hides,<sup>a</sup> acacia wood,
 <sup>6</sup> oil for the light, spices for the anointing oil and for the sweet incense,
 <sup>7</sup> onyx stones, and stones to be set for the ephod and for the breastplate.
 <sup>8</sup> Let them make me a sanctuary, that I may dwell among them.
 <sup>9</sup> According to all that I show you, the pattern of the tabernacle, and the pattern of all of its furniture, even so you shall make it.
 
-<sup>10</sup> <sup>b</sup>its width a cubit and a half, and a cubit and a half its height.
+<sup>10</sup> “They shall make an ark of acacia wood. Its length shall be two and a half cubits,<sup>b</sup> its width a cubit and a half, and a cubit and a half its height.
 <sup>11</sup> You shall overlay it with pure gold. You shall overlay it inside and outside, and you shall make a gold molding around it.
 <sup>12</sup> You shall cast four rings of gold for it, and put them in its four feet. Two rings shall be on the one side of it, and two rings on the other side of it.
 <sup>13</sup> You shall make poles of acacia wood, and overlay them with gold.
@@ -988,7 +988,7 @@
 <sup>36</sup> Their buds and their branches shall be of one piece with it, all of it one beaten work of pure gold.
 <sup>37</sup> You shall make its lamps seven, and they shall light its lamps to give light to the space in front of it.
 <sup>38</sup> Its snuffers and its snuff dishes shall be of pure gold.
-<sup>39</sup> <sup>c</sup>of pure gold, with all these accessories.
+<sup>39</sup> It shall be made of a talent<sup>c</sup> of pure gold, with all these accessories.
 <sup>40</sup> See that you make them after their pattern, which has been shown to you on the mountain.
 
 > - <sup>a</sup> 5. or, fine leather
@@ -998,7 +998,7 @@
 ## Chapter 26
 
 <sup>1</sup> “Moreover you shall make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet, with cherubim. You shall make them with the work of a skillful workman.
-<sup>2</sup> <sup>a</sup>and the width of each curtain four cubits: all the curtains shall have one measure.
+<sup>2</sup> The length of each curtain shall be twenty-eight cubits,<sup>a</sup> and the width of each curtain four cubits: all the curtains shall have one measure.
 <sup>3</sup> Five curtains shall be coupled together to one another, and the other five curtains shall be coupled to one another.
 <sup>4</sup> You shall make loops of blue on the edge of the one curtain from the edge in the coupling, and you shall do likewise on the edge of the curtain that is outermost in the second coupling.
 <sup>5</sup> You shall make fifty loops in the one curtain, and you shall make fifty loops in the edge of the curtain that is in the second coupling. The loops shall be opposite one another.
@@ -1044,7 +1044,7 @@
 
 ## Chapter 27
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>
+<sup>1</sup> “You shall make the altar of acacia wood, five cubits<sup>a</sup> long, and five cubits wide. The altar shall be square. Its height shall be three cubits.<sup>b</sup>
 <sup>2</sup> You shall make its horns on its four corners. Its horns shall be of one piece with it. You shall overlay it with bronze.
 <sup>3</sup> You shall make its pots to take away its ashes; and its shovels, its basins, its meat hooks, and its fire pans. You shall make all its vessels of bronze.
 <sup>4</sup> You shall make a grating for it of network of bronze. On the net you shall make four bronze rings in its four corners.
@@ -1090,9 +1090,9 @@
 <sup>14</sup> and two chains of pure gold; you shall make them like cords of braided work. You shall put the braided chains on the settings.
 
 <sup>15</sup> “You shall make a breastplate of judgment, the work of the skillful workman; like the work of the ephod you shall make it; of gold, of blue, and purple, and scarlet, and fine twined linen, you shall make it.
-<sup>16</sup> <sup>a</sup>shall be its length, and a span its width.
+<sup>16</sup> It shall be square and folded double; a span<sup>a</sup> shall be its length, and a span its width.
 <sup>17</sup> You shall set in it settings of stones, four rows of stones: a row of ruby, topaz, and beryl shall be the first row;
-<sup>18</sup> <sup>b</sup>and an emerald;
+<sup>18</sup> and the second row a turquoise, a sapphire,<sup>b</sup> and an emerald;
 <sup>19</sup> and the third row a jacinth, an agate, and an amethyst;
 <sup>20</sup> and the fourth row a chrysolite, an onyx, and a jasper. They shall be enclosed in gold in their settings.
 <sup>21</sup> The stones shall be according to the names of the children of Israel, twelve, according to their names; like the engravings of a signet, everyone according to his name, they shall be for the twelve tribes.
@@ -1174,7 +1174,7 @@
 
 <sup>38</sup> “Now this is that which you shall offer on the altar: two lambs a year old day by day continually.
 <sup>39</sup> The one lamb you shall offer in the morning; and the other lamb you shall offer at evening;
-<sup>40</sup> <sup>a</sup><sup>b</sup>of beaten oil, and the fourth part of a hin of wine for a drink offering.
+<sup>40</sup> and with the one lamb a tenth part of an ephah<sup>a</sup> of fine flour mixed with the fourth part of a hin<sup>b</sup> of beaten oil, and the fourth part of a hin of wine for a drink offering.
 <sup>41</sup> The other lamb you shall offer at evening, and shall do to it according to the meal offering of the morning and according to its drink offering, for a pleasant aroma, an offering made by fire to Yahweh.
 <sup>42</sup> It shall be a continual burnt offering throughout your generations at the door of the Tent of Meeting before Yahweh, where I will meet with you, to speak there to you.
 <sup>43</sup> There I will meet with the children of Israel; and the place shall be sanctified by my glory.
@@ -1188,7 +1188,7 @@
 ## Chapter 30
 
 <sup>1</sup> “You shall make an altar to burn incense on. You shall make it of acacia wood.
-<sup>2</sup> <sup>a</sup>and its width a cubit. It shall be square, and its height shall be two cubits. Its horns shall be of one piece with it.
+<sup>2</sup> Its length shall be a cubit,<sup>a</sup> and its width a cubit. It shall be square, and its height shall be two cubits. Its horns shall be of one piece with it.
 <sup>3</sup> You shall overlay it with pure gold, its top, its sides around it, and its horns; and you shall make a gold molding around it.
 <sup>4</sup> You shall make two golden rings for it under its molding; on its two ribs, on its two sides you shall make them; and they shall be for places for poles with which to bear it.
 <sup>5</sup> You shall make the poles of acacia wood, and overlay them with gold.
@@ -1200,9 +1200,9 @@
 
 <sup>11</sup> Yahweh spoke to Moses, saying,
 <sup>12</sup> “When you take a census of the children of Israel, according to those who are counted among them, then each man shall give a ransom for his soul to Yahweh when you count them, that there be no plague among them when you count them.
-<sup>13</sup> <sup>b</sup><sup>c</sup>); half a shekel for an offering to Yahweh.
+<sup>13</sup> They shall give this, everyone who passes over to those who are counted, half a shekel according to the shekel<sup>b</sup> of the sanctuary (the shekel is twenty gerahs<sup>c</sup> ); half a shekel for an offering to Yahweh.
 <sup>14</sup> Everyone who passes over to those who are counted, from twenty years old and upward, shall give the offering to Yahweh.
-<sup>15</sup> <sup>d</sup>when they give the offering of Yahweh, to make atonement for your souls.
+<sup>15</sup> The rich shall not give more, and the poor shall not give less, than the half shekel,<sup>d</sup> when they give the offering of Yahweh, to make atonement for your souls.
 <sup>16</sup> You shall take the atonement money from the children of Israel, and shall appoint it for the service of the Tent of Meeting; that it may be a memorial for the children of Israel before Yahweh, to make atonement for your souls.”
 
 <sup>17</sup> Yahweh spoke to Moses, saying,
@@ -1212,8 +1212,8 @@
 <sup>21</sup> So they shall wash their hands and their feet, that they not die. This shall be a statute forever to them, even to him and to his descendants throughout their generations.”
 
 <sup>22</sup> Moreover Yahweh spoke to Moses, saying,
-<sup>23</sup> <sup>e</sup>and of fragrant cinnamon half as much, even two hundred and fifty; and of fragrant cane, two hundred and fifty;
-<sup>24</sup> <sup>f</sup>of olive oil.
+<sup>23</sup> “Also take fine spices: of liquid myrrh, five hundred shekels;<sup>e</sup> and of fragrant cinnamon half as much, even two hundred and fifty; and of fragrant cane, two hundred and fifty;
+<sup>24</sup> and of cassia five hundred, according to the shekel of the sanctuary; and a hin<sup>f</sup> of olive oil.
 <sup>25</sup> You shall make it into a holy anointing oil, a perfume compounded after the art of the perfumer: it shall be a holy anointing oil.
 <sup>26</sup> You shall use it to anoint the Tent of Meeting, the ark of the covenant,
 <sup>27</sup> the table and all its articles, the lamp stand and its accessories, the altar of incense,
@@ -1280,7 +1280,7 @@
 
 <sup>11</sup> Moses begged Yahweh his God, and said, “Yahweh, why does your wrath burn hot against your people, that you have brought out of the land of Egypt with great power and with a mighty hand?
 <sup>12</sup> Why should the Egyptians talk, saying, ‘He brought them out for evil, to kill them in the mountains, and to consume them from the surface of the earth’? Turn from your fierce wrath, and turn away from this evil against your people.
-<sup>13</sup> <sup>a</sup>as the stars of the sky, and all this land that I have spoken of I will give to your offspring, and they shall inherit it forever.’ ”
+<sup>13</sup> Remember Abraham, Isaac, and Israel, your servants, to whom you swore by your own self, and said to them, ‘I will multiply your offspring<sup>a</sup> as the stars of the sky, and all this land that I have spoken of I will give to your offspring, and they shall inherit it forever.’ ”
 
 <sup>14</sup> So Yahweh turned away from the evil which he said he would do to his people.
 
@@ -1456,7 +1456,7 @@
 <sup>7</sup> For the stuff they had was sufficient to do all the work, and too much.
 
 <sup>8</sup> All the wise-hearted men among those who did the work made the tabernacle with ten curtains of fine twined linen, blue, purple, and scarlet. They made them with cherubim, the work of a skillful workman.
-<sup>9</sup> <sup>a</sup>and the width of each curtain four cubits. All the curtains had one measure.
+<sup>9</sup> The length of each curtain was twenty-eight cubits,<sup>a</sup> and the width of each curtain four cubits. All the curtains had one measure.
 <sup>10</sup> He coupled five curtains to one another, and the other five curtains he coupled to one another.
 <sup>11</sup> He made loops of blue on the edge of the one curtain from the edge in the coupling. Likewise he made in the edge of the curtain that was outermost in the second coupling.
 <sup>12</sup> He made fifty loops in the one curtain, and he made fifty loops in the edge of the curtain that was in the second coupling. The loops were opposite to one another.
@@ -1495,7 +1495,7 @@
 
 ## Chapter 37
 
-<sup>1</sup> <sup>a</sup>and its width a cubit and a half, and a cubit and a half its height.
+<sup>1</sup> Bezalel made the ark of acacia wood. Its length was two and a half cubits,<sup>a</sup> and its width a cubit and a half, and a cubit and a half its height.
 <sup>2</sup> He overlaid it with pure gold inside and outside, and made a molding of gold for it around it.
 <sup>3</sup> He cast four rings of gold for it in its four feet—two rings on its one side, and two rings on its other side.
 <sup>4</sup> He made poles of acacia wood and overlaid them with gold.
@@ -1520,7 +1520,7 @@
 <sup>21</sup> and a bud under two branches of one piece with it, and a bud under two branches of one piece with it, and a bud under two branches of one piece with it, for the six branches going out of it.
 <sup>22</sup> Their buds and their branches were of one piece with it. The whole thing was one beaten work of pure gold.
 <sup>23</sup> He made its seven lamps, and its snuffers, and its snuff dishes, of pure gold.
-<sup>24</sup> <sup>b</sup>of pure gold, with all its vessels.
+<sup>24</sup> He made it of a talent<sup>b</sup> of pure gold, with all its vessels.
 
 <sup>25</sup> He made the altar of incense of acacia wood. It was square: its length was a cubit, and its width a cubit. Its height was two cubits. Its horns were of one piece with it.
 <sup>26</sup> He overlaid it with pure gold: its top, its sides around it, and its horns. He made a gold molding around it.
@@ -1533,7 +1533,7 @@
 
 ## Chapter 38
 
-<sup>1</sup> <sup>a</sup>its width was five cubits, and its height was three cubits.
+<sup>1</sup> He made the altar of burnt offering of acacia wood. It was square. Its length was five cubits,<sup>a</sup> its width was five cubits, and its height was three cubits.
 <sup>2</sup> He made its horns on its four corners. Its horns were of one piece with it, and he overlaid it with bronze.
 <sup>3</sup> He made all the vessels of the altar: the pots, the shovels, the basins, the forks, and the fire pans. He made all its vessels of bronze.
 <sup>4</sup> He made for the altar a grating of a network of bronze, under the ledge around it beneath, reaching halfway up.
@@ -1560,12 +1560,12 @@
 <sup>22</sup> Bezalel the son of Uri, the son of Hur, of the tribe of Judah, made all that Yahweh commanded Moses.
 <sup>23</sup> With him was Oholiab, the son of Ahisamach, of the tribe of Dan, an engraver, and a skillful workman, and an embroiderer in blue, in purple, in scarlet, and in fine linen.
 
-<sup>24</sup> <sup>b</sup><sup>c</sup>of the sanctuary.
-<sup>25</sup> <sup>d</sup><sup>e</sup>according to the shekel of the sanctuary:
-<sup>26</sup> <sup>f</sup><sup>g</sup>of the sanctuary, for everyone who passed over to those who were counted, from twenty years old and upward, for six hundred three thousand five hundred fifty men.
-<sup>27</sup> <sup>h</sup>of silver were for casting the sockets of the sanctuary and the sockets of the veil: one hundred sockets for the one hundred talents, one talent per socket.
-<sup>28</sup> <sup>i</sup>he made hooks for the pillars, overlaid their capitals, and made fillets for them.
-<sup>29</sup> <sup>j</sup><sup>k</sup>
+<sup>24</sup> All the gold that was used for the work in all the work of the sanctuary, even the gold of the offering, was twenty-nine talents<sup>b</sup> and seven hundred thirty shekels, according to the shekel<sup>c</sup> of the sanctuary.
+<sup>25</sup> The silver of those who were counted of the congregation was one hundred talents<sup>d</sup> and one thousand seven hundred seventy-five shekels,<sup>e</sup> according to the shekel of the sanctuary:
+<sup>26</sup> a beka<sup>f</sup> a head, that is, half a shekel, according to the shekel<sup>g</sup> of the sanctuary, for everyone who passed over to those who were counted, from twenty years old and upward, for six hundred three thousand five hundred fifty men.
+<sup>27</sup> The one hundred talents<sup>h</sup> of silver were for casting the sockets of the sanctuary and the sockets of the veil: one hundred sockets for the one hundred talents, one talent per socket.
+<sup>28</sup> From the one thousand seven hundred seventy-five shekels<sup>i</sup> he made hooks for the pillars, overlaid their capitals, and made fillets for them.
+<sup>29</sup> The bronze of the offering was seventy talents<sup>j</sup> and two thousand four hundred shekels.<sup>k</sup>
 <sup>30</sup> With this he made the sockets to the door of the Tent of Meeting, the bronze altar, the bronze grating for it, all the vessels of the altar,
 <sup>31</sup> the sockets around the court, the sockets of the gate of the court, all the pins of the tabernacle, and all the pins around the court.
 
@@ -1594,9 +1594,9 @@
 <sup>7</sup> He put them on the shoulder straps of the ephod, to be stones of memorial for the children of Israel, as Yahweh commanded Moses.
 
 <sup>8</sup> He made the breastplate, the work of a skillful workman, like the work of the ephod: of gold, of blue, purple, scarlet, and fine twined linen.
-<sup>9</sup> <sup>a</sup>and its width a span, being double.
+<sup>9</sup> It was square. They made the breastplate double. Its length was a span,<sup>a</sup> and its width a span, being double.
 <sup>10</sup> They set in it four rows of stones. A row of ruby, topaz, and beryl was the first row;
-<sup>11</sup> <sup>b</sup>and an emerald;
+<sup>11</sup> and the second row, a turquoise, a sapphire,<sup>b</sup> and an emerald;
 <sup>12</sup> and the third row, a jacinth, an agate, and an amethyst;
 <sup>13</sup> and the fourth row, a chrysolite, an onyx, and a jasper. They were enclosed in gold settings.
 <sup>14</sup> The stones were according to the names of the children of Israel, twelve, according to their names; like the engravings of a signet, everyone according to his name, for the twelve tribes.

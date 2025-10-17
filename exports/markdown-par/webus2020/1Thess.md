@@ -1,10 +1,10 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>Grace to you and peace from God our Father and the Lord Jesus Christ.
+<sup>1</sup> Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ:<sup>a</sup> Grace to you and peace from God our Father and the Lord Jesus Christ.
 
 <sup>2</sup> We always give thanks to God for all of you, mentioning you in our prayers,
 <sup>3</sup> remembering without ceasing your work of faith and labor of love and perseverance of hope in our Lord Jesus Christ, before our God and Father.
-<sup>4</sup> <sup>b</sup>loved by God, that you are chosen,
+<sup>4</sup> We know, brothers<sup>b</sup> loved by God, that you are chosen,
 <sup>5</sup> and that our Good News came to you not in word only, but also in power, and in the Holy Spirit and with much assurance. You know what kind of men we showed ourselves to be among you for your sake.
 <sup>6</sup> You became imitators of us and of the Lord, having received the word in much affliction, with joy of the Holy Spirit,
 <sup>7</sup> so that you became an example to all who believe in Macedonia and in Achaia.
@@ -38,7 +38,7 @@
 
 <sup>17</sup> But we, brothers, being bereaved of you for a short season in presence, not in heart, tried even harder to see your face with great desire,
 <sup>18</sup> because we wanted to come to you—indeed, I, Paul, once and again—but Satan hindered us.
-<sup>19</sup> <sup>a</sup>at his coming?
+<sup>19</sup> For what is our hope, or joy, or crown of rejoicing? Isn’t it even you, before our Lord Jesus<sup>a</sup> at his coming?
 <sup>20</sup> For you are our glory and our joy.
 
 > - <sup>a</sup> 19. TR adds “Christ”
@@ -65,7 +65,7 @@
 <sup>1</sup> Finally then, brothers, we beg and exhort you in the Lord Jesus, that as you received from us how you ought to walk and to please God, that you abound more and more.
 <sup>2</sup> For you know what instructions we gave you through the Lord Jesus.
 <sup>3</sup> For this is the will of God: your sanctification, that you abstain from sexual immorality,
-<sup>4</sup> <sup>a</sup>in sanctification and honor,
+<sup>4</sup> that each one of you know how to control his own body<sup>a</sup> in sanctification and honor,
 <sup>5</sup> not in the passion of lust, even as the Gentiles who don’t know God,
 <sup>6</sup> that no one should take advantage of and wrong a brother or sister in this matter; because the Lord is an avenger in all these things, as also we forewarned you and testified.
 <sup>7</sup> For God called us not for uncleanness, but in sanctification.

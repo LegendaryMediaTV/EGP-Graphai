@@ -1,31 +1,31 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>to his servant, John,
+<sup>1</sup> This is the Revelation of Jesus Christ,<sup>a</sup> which God gave him to show to his servants the things which must happen soon, which he sent and made known by his angel<sup>b</sup> to his servant, John,
 <sup>2</sup> who testified to God’s word and of the testimony of Jesus Christ, about everything that he saw.
 
 <sup>3</sup> Blessed is he who reads and those who hear the words of the prophecy, and keep the things that are written in it, for the time is near.
 
 <sup>4</sup> John, to the seven assemblies that are in Asia: Grace to you and peace from God, who is and who was and who is to come; and from the seven Spirits who are before his throne;
 <sup>5</sup> and from Jesus Christ, the faithful witness, the firstborn of the dead, and the ruler of the kings of the earth. To him who loves us, and washed us from our sins by his blood—
-<sup>6</sup> <sup>c</sup>to his God and Father—to him be the glory and the dominion forever and ever. Amen.
+<sup>6</sup> and he made us to be a Kingdom, priests<sup>c</sup> to his God and Father—to him be the glory and the dominion forever and ever. Amen.
 
-<sup>7</sup> <sup>d</sup>he is coming with the clouds, and every eye will see him, including those who pierced him. All the tribes of the earth will mourn over him. Even so, Amen.
+<sup>7</sup> Behold,<sup>d</sup> he is coming with the clouds, and every eye will see him, including those who pierced him. All the tribes of the earth will mourn over him. Even so, Amen.
 
-<sup>8</sup> <sup>e</sup>” <sup>f</sup>“who is and who was and who is to come, the Almighty.”
+<sup>8</sup> “I am the Alpha and the Omega,<sup>e</sup> ” says the Lord God,<sup>f</sup> “who is and who was and who is to come, the Almighty.”
 
 <sup>9</sup> I John, your brother and partner with you in the oppression, Kingdom, and perseverance in Christ Jesus, was on the isle that is called Patmos because of God’s Word and the testimony of Jesus Christ.
 <sup>10</sup> I was in the Spirit on the Lord’s day, and I heard behind me a loud voice, like a trumpet
-<sup>11</sup> <sup>g</sup><sup>h</sup>to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and to Laodicea.”
+<sup>11</sup> saying,<sup>g</sup> “What you see, write in a book and send to the seven assemblies:<sup>h</sup> to Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, and to Laodicea.”
 
 <sup>12</sup> I turned to see the voice that spoke with me. Having turned, I saw seven golden lamp stands.
-<sup>13</sup> <sup>i</sup>clothed with a robe reaching down to his feet, and with a golden sash around his chest.
+<sup>13</sup> And among the lamp stands was one like a son of man,<sup>i</sup> clothed with a robe reaching down to his feet, and with a golden sash around his chest.
 <sup>14</sup> His head and his hair were white as white wool, like snow. His eyes were like a flame of fire.
 <sup>15</sup> His feet were like burnished brass, as if it had been refined in a furnace. His voice was like the voice of many waters.
 <sup>16</sup> He had seven stars in his right hand. Out of his mouth proceeded a sharp two-edged sword. His face was like the sun shining at its brightest.
 <sup>17</sup> When I saw him, I fell at his feet like a dead man. He laid his right hand on me, saying, “Don’t be afraid. I am the first and the last,
-<sup>18</sup> <sup>j</sup>
+<sup>18</sup> and the Living one. I was dead, and behold, I am alive forever and ever. Amen. I have the keys of Death and of Hades.<sup>j</sup>
 <sup>19</sup> Write therefore the things which you have seen, and the things which are, and the things which will happen hereafter.
-<sup>20</sup> <sup>k</sup>of the seven assemblies. The seven lamp stands are seven assemblies.
+<sup>20</sup> The mystery of the seven stars which you saw in my right hand, and the seven golden lamp stands is this: The seven stars are the angels<sup>k</sup> of the seven assemblies. The seven lamp stands are seven assemblies.
 
 > - <sup>a</sup> 1. “Christ” means “Anointed One”.
 > - <sup>b</sup> 1. or, messenger (here and wherever angel is mentioned)
@@ -44,7 +44,7 @@
 <sup>1</sup> “To the angel of the assembly in Ephesus write: “He who holds the seven stars in his right hand, he who walks among the seven golden lamp stands says these things:
 
 <sup>2</sup> “I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false.
-<sup>3</sup> <sup>a</sup>not grown weary.
+<sup>3</sup> You have perseverance and have endured for my name’s sake, and have<sup>a</sup> not grown weary.
 <sup>4</sup> But I have this against you, that you left your first love.
 <sup>5</sup> Remember therefore from where you have fallen, and repent and do the first works; or else I am coming to you swiftly, and will move your lamp stand out of its place, unless you repent.
 <sup>6</sup> But this you have, that you hate the works of the Nicolaitans, which I also hate.
@@ -60,21 +60,21 @@
 
 <sup>13</sup> “I know your works and where you dwell, where Satan’s throne is. You hold firmly to my name, and didn’t deny my faith in the days of Antipas my witness, my faithful one, who was killed among you, where Satan dwells.
 <sup>14</sup> But I have a few things against you, because you have there some who hold the teaching of Balaam, who taught Balak to throw a stumbling block before the children of Israel, to eat things sacrificed to idols, and to commit sexual immorality.
-<sup>15</sup> <sup>b</sup>
+<sup>15</sup> So also you likewise have some who hold to the teaching of the Nicolaitans.<sup>b</sup>
 <sup>16</sup> Repent therefore, or else I am coming to you quickly and I will make war against them with the sword of my mouth.
-<sup>17</sup> <sup>c</sup>and I will give him a white stone, and on the stone a new name written which no one knows but he who receives it.
+<sup>17</sup> He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna,<sup>c</sup> and I will give him a white stone, and on the stone a new name written which no one knows but he who receives it.
 
 <sup>18</sup> “To the angel of the assembly in Thyatira write: “The Son of God, who has his eyes like a flame of fire, and his feet are like burnished brass, says these things:
 
 <sup>19</sup> “I know your works, your love, faith, service, patient endurance, and that your last works are more than the first.
-<sup>20</sup> <sup>d</sup>woman Jezebel, who calls herself a prophetess. She teaches and seduces my servants to commit sexual immorality and to eat things sacrificed to idols.
+<sup>20</sup> But I have this against you, that you tolerate your<sup>d</sup> woman Jezebel, who calls herself a prophetess. She teaches and seduces my servants to commit sexual immorality and to eat things sacrificed to idols.
 <sup>21</sup> I gave her time to repent, but she refuses to repent of her sexual immorality.
 <sup>22</sup> Behold, I will throw her and those who commit adultery with her into a bed of great oppression, unless they repent of her works.
 <sup>23</sup> I will kill her children with Death, and all the assemblies will know that I am he who searches the minds and hearts. I will give to each one of you according to your deeds.
 <sup>24</sup> But to you I say, to the rest who are in Thyatira—as many as don’t have this teaching, who don’t know what some call ‘the deep things of Satan’—to you I say, I am not putting any other burden on you.
 <sup>25</sup> Nevertheless, hold that which you have firmly until I come.
 <sup>26</sup> He who overcomes, and he who keeps my works to the end, to him I will give authority over the nations.
-<sup>27</sup> <sup>e</sup>as I also have received of my Father;
+<sup>27</sup> He will rule them with a rod of iron, shattering them like clay pots,<sup>e</sup> as I also have received of my Father;
 <sup>28</sup> and I will give him the morning star.
 <sup>29</sup> He who has an ear, let him hear what the Spirit says to the assemblies.
 
@@ -87,7 +87,7 @@
 ## Chapter 3
 
 <sup>1</sup> “And to the angel of the assembly in Sardis write: “He who has the seven Spirits of God and the seven stars says these things: “I know your works, that you have a reputation of being alive, but you are dead.
-<sup>2</sup> <sup>a</sup>for I have found no works of yours perfected before my God.
+<sup>2</sup> Wake up and strengthen the things that remain, which you were about to throw away,<sup>a</sup> for I have found no works of yours perfected before my God.
 <sup>3</sup> Remember therefore how you have received and heard. Keep it and repent. If therefore you won’t watch, I will come as a thief, and you won’t know what hour I will come upon you.
 <sup>4</sup> Nevertheless you have a few names in Sardis that didn’t defile their garments. They will walk with me in white, for they are worthy.
 <sup>5</sup> He who overcomes will be arrayed in white garments, and I will in no way blot his name out of the book of life, and I will confess his name before my Father, and before his angels.
@@ -102,7 +102,7 @@
 <sup>12</sup> He who overcomes, I will make him a pillar in the temple of my God, and he will go out from there no more. I will write on him the name of my God and the name of the city of my God, the new Jerusalem, which comes down out of heaven from my God, and my own new name.
 <sup>13</sup> He who has an ear, let him hear what the Spirit says to the assemblies.
 
-<sup>14</sup> “To the angel of the assembly in Laodicea write: <sup>b</sup>of God’s creation, says these things:
+<sup>14</sup> “To the angel of the assembly in Laodicea write: “The Amen, the Faithful and True Witness, the Beginning<sup>b</sup> of God’s creation, says these things:
 
 <sup>15</sup> “I know your works, that you are neither cold nor hot. I wish you were cold or hot.
 <sup>16</sup> So, because you are lukewarm, and neither hot nor cold, I will vomit you out of my mouth.
@@ -126,11 +126,11 @@
 <sup>5</sup> Out of the throne proceed lightnings, sounds, and thunders. There were seven lamps of fire burning before his throne, which are the seven Spirits of God.
 <sup>6</sup> Before the throne was something like a sea of glass, similar to crystal. In the middle of the throne, and around the throne were four living creatures full of eyes before and behind.
 <sup>7</sup> The first creature was like a lion, the second creature like a calf, the third creature had a face like a man, and the fourth was like a flying eagle.
-<sup>8</sup> <sup>a</sup>is the Lord God, the Almighty, who was and who is and who is to come!”
+<sup>8</sup> The four living creatures, each one of them having six wings, are full of eyes around and within. They have no rest day and night, saying, “Holy, holy, holy<sup>a</sup> is the Lord God, the Almighty, who was and who is and who is to come!”
 
 <sup>9</sup> When the living creatures give glory, honor, and thanks to him who sits on the throne, to him who lives forever and ever,
 <sup>10</sup> the twenty-four elders fall down before him who sits on the throne and worship him who lives forever and ever, and throw their crowns before the throne, saying,
-<sup>11</sup> <sup>b</sup>to receive the glory, the honor, and the power, for you created all things, and because of your desire they existed and were created!”
+<sup>11</sup> “Worthy are you, our Lord and God, the Holy One,<sup>b</sup> to receive the glory, the honor, and the power, for you created all things, and because of your desire they existed and were created!”
 
 > - <sup>a</sup> 8. Hodges/Farstad MT reads “holy” 9 times instead of 3.
 > - <sup>b</sup> 11. TR omits “and God, the Holy One,”
@@ -152,9 +152,9 @@
 <sup>11</sup> I looked, and I heard something like a voice of many angels around the throne, the living creatures, and the elders. The number of them was ten thousands of ten thousands, and thousands of thousands,
 <sup>12</sup> saying with a loud voice, “Worthy is the Lamb who has been killed to receive the power, wealth, wisdom, strength, honor, glory, and blessing!”
 
-<sup>13</sup> <sup>a</sup>
+<sup>13</sup> I heard every created thing which is in heaven, on the earth, under the earth, on the sea, and everything in them, saying, “To him who sits on the throne and to the Lamb be the blessing, the honor, the glory, and the dominion, forever and ever! Amen!”<sup>a</sup>
 
-<sup>14</sup> <sup>b</sup><sup>c</sup>
+<sup>14</sup> The four living creatures said, “Amen!” Then the<sup>b</sup> elders fell down and worshiped.<sup>c</sup>
 
 > - <sup>a</sup> 13. TR omits “Amen!”
 > - <sup>b</sup> 14. TR adds “twenty-four”
@@ -169,14 +169,14 @@
 <sup>4</sup> Another came out, a red horse. To him who sat on it was given power to take peace from the earth, and that they should kill one another. There was given to him a great sword.
 
 <sup>5</sup> When he opened the third seal, I heard the third living creature saying, “Come and see!” And behold, a black horse, and he who sat on it had a balance in his hand.
-<sup>6</sup> <sup>a</sup>of wheat for a denarius, and three choenix of barley for a denarius! Don’t damage the oil and the wine!”
+<sup>6</sup> I heard a voice in the middle of the four living creatures saying, “A choenix<sup>a</sup> of wheat for a denarius, and three choenix of barley for a denarius! Don’t damage the oil and the wine!”
 
 <sup>7</sup> When he opened the fourth seal, I heard the fourth living creature saying, “Come and see!”
-<sup>8</sup> <sup>b</sup>followed with him. Authority over one fourth of the earth, to kill with the sword, with famine, with death, and by the wild animals of the earth was given to him.
+<sup>8</sup> And behold, a pale horse, and the name of he who sat on it was Death. Hades<sup>b</sup> followed with him. Authority over one fourth of the earth, to kill with the sword, with famine, with death, and by the wild animals of the earth was given to him.
 
 <sup>9</sup> When he opened the fifth seal, I saw underneath the altar the souls of those who had been killed for the Word of God, and for the testimony of the Lamb which they had.
 <sup>10</sup> They cried with a loud voice, saying, “How long, Master, the holy and true, until you judge and avenge our blood on those who dwell on the earth?”
-<sup>11</sup> <sup>c</sup>who would also be killed even as they were, should complete their course.
+<sup>11</sup> A long white robe was given to each of them. They were told that they should rest yet for a while, until their fellow servants and their brothers,<sup>c</sup> who would also be killed even as they were, should complete their course.
 
 <sup>12</sup> I saw when he opened the sixth seal, and there was a great earthquake. The sun became black as sackcloth made of hair, and the whole moon became as blood.
 <sup>13</sup> The stars of the sky fell to the earth, like a fig tree dropping its unripe figs when it is shaken by a great wind.
@@ -208,7 +208,7 @@
 
 <sup>13</sup> One of the elders answered, saying to me, “These who are arrayed in the white robes, who are they, and where did they come from?”
 
-<sup>14</sup> <sup>a</sup>They washed their robes and made them white in the Lamb’s blood.
+<sup>14</sup> I told him, “My lord, you know.” He said to me, “These are those who came out of the great suffering.<sup>a</sup> They washed their robes and made them white in the Lamb’s blood.
 <sup>15</sup> Therefore they are before the throne of God, and they serve him day and night in his temple. He who sits on the throne will spread his tabernacle over them.
 <sup>16</sup> They will never be hungry or thirsty any more. The sun won’t beat on them, nor any heat;
 <sup>17</sup> for the Lamb who is in the middle of the throne shepherds them and leads them to springs of life-giving waters. And God will wipe away every tear from their eyes.”
@@ -226,7 +226,7 @@
 
 <sup>6</sup> The seven angels who had the seven trumpets prepared themselves to sound.
 
-<sup>7</sup> <sup>a</sup>and one third of the trees were burned up, and all green grass was burned up.
+<sup>7</sup> The first sounded, and there followed hail and fire, mixed with blood, and they were thrown to the earth. One third of the earth was burned up,<sup>a</sup> and one third of the trees were burned up, and all green grass was burned up.
 
 <sup>8</sup> The second angel sounded, and something like a great burning mountain was thrown into the sea. One third of the sea became blood,
 <sup>9</sup> and one third of the living creatures which were in the sea died. One third of the ships were destroyed.
@@ -235,7 +235,7 @@
 <sup>11</sup> The name of the star is “Wormwood.” One third of the waters became wormwood. Many people died from the waters, because they were made bitter.
 
 <sup>12</sup> The fourth angel sounded, and one third of the sun was struck, and one third of the moon, and one third of the stars, so that one third of them would be darkened; and the day wouldn’t shine for one third of it, and the night in the same way.
-<sup>13</sup> <sup>b</sup>flying in mid heaven, saying with a loud voice, “Woe! Woe! Woe to those who dwell on the earth, because of the other blasts of the trumpets of the three angels, who are yet to sound!”
+<sup>13</sup> I saw, and I heard an eagle,<sup>b</sup> flying in mid heaven, saying with a loud voice, “Woe! Woe! Woe to those who dwell on the earth, because of the other blasts of the trumpets of the three angels, who are yet to sound!”
 
 > - <sup>a</sup> 7. TR omits “One third of the earth was burned up”
 > - <sup>b</sup> 13. TR reads “angel” instead of “eagle”
@@ -243,7 +243,7 @@
 ## Chapter 9
 
 <sup>1</sup> The fifth angel sounded, and I saw a star from the sky which had fallen to the earth. The key to the pit of the abyss was given to him.
-<sup>2</sup> <sup>a</sup>burning furnace. The sun and the air were darkened because of the smoke from the pit.
+<sup>2</sup> He opened the pit of the abyss, and smoke went up out of the pit, like the smoke from a<sup>a</sup> burning furnace. The sun and the air were darkened because of the smoke from the pit.
 <sup>3</sup> Then out of the smoke came locusts on the earth, and power was given to them, as the scorpions of the earth have power.
 <sup>4</sup> They were told that they should not hurt the grass of the earth, neither any green thing, neither any tree, but only those people who don’t have God’s seal on their foreheads.
 <sup>5</sup> They were given power, not to kill them, but to torment them for five months. Their torment was like the torment of a scorpion when it strikes a person.
@@ -253,7 +253,7 @@
 <sup>8</sup> They had hair like women’s hair, and their teeth were like those of lions.
 <sup>9</sup> They had breastplates like breastplates of iron. The sound of their wings was like the sound of many chariots and horses rushing to war.
 <sup>10</sup> They have tails like those of scorpions, with stingers. In their tails they have power to harm men for five months.
-<sup>11</sup> <sup>b</sup><sup>c</sup>
+<sup>11</sup> They have over them as king the angel of the abyss. His name in Hebrew is “Abaddon”,<sup>b</sup> but in Greek, he has the name “Apollyon”.<sup>c</sup>
 
 <sup>12</sup> The first woe is past. Behold, there are still two woes coming after this.
 
@@ -261,13 +261,13 @@
 <sup>14</sup> saying to the sixth angel who had the trumpet, “Free the four angels who are bound at the great river Euphrates!”
 
 <sup>15</sup> The four angels were freed who had been prepared for that hour and day and month and year, so that they might kill one third of mankind.
-<sup>16</sup> <sup>d</sup>I heard the number of them.
+<sup>16</sup> The number of the armies of the horsemen was two hundred million.<sup>d</sup> I heard the number of them.
 <sup>17</sup> Thus I saw the horses in the vision and those who sat on them, having breastplates of fiery red, hyacinth blue, and sulfur yellow; and the horses’ heads resembled lions’ heads. Out of their mouths proceed fire, smoke, and sulfur.
 <sup>18</sup> By these three plagues, one third of mankind was killed: by the fire, the smoke, and the sulfur, which proceeded out of their mouths.
 <sup>19</sup> For the power of the horses is in their mouths and in their tails. For their tails are like serpents, and have heads; and with them they harm.
 
 <sup>20</sup> The rest of mankind, who were not killed with these plagues, didn’t repent of the works of their hands, that they wouldn’t worship demons, and the idols of gold, and of silver, and of brass, and of stone, and of wood, which can’t see, hear, or walk.
-<sup>21</sup> <sup>e</sup>their sexual immorality, or their thefts.
+<sup>21</sup> They didn’t repent of their murders, their sorceries,<sup>e</sup> their sexual immorality, or their thefts.
 
 > - <sup>a</sup> 2. TR adds “great”
 > - <sup>b</sup> 11. “Abaddon” is a Hebrew word that means “ruin”, “destruction”, or “the place of destruction”
@@ -291,7 +291,7 @@
 <sup>9</sup> I went to the angel, telling him to give me the little book. He said to me, “Take it and eat it. It will make your stomach bitter, but in your mouth it will be as sweet as honey.”
 
 <sup>10</sup> I took the little book out of the angel’s hand, and ate it. It was as sweet as honey in my mouth. When I had eaten it, my stomach was made bitter.
-<sup>11</sup> <sup>a</sup>told me, “You must prophesy again over many peoples, nations, languages, and kings.”
+<sup>11</sup> They<sup>a</sup> told me, “You must prophesy again over many peoples, nations, languages, and kings.”
 
 > - <sup>a</sup> 11. TR reads “He” instead of “They”
 
@@ -319,7 +319,7 @@
 <sup>15</sup> The seventh angel sounded, and great voices in heaven followed, saying, “The kingdom of the world has become the Kingdom of our Lord and of his Christ. He will reign forever and ever!”
 
 <sup>16</sup> The twenty-four elders, who sit on their thrones before God’s throne, fell on their faces and worshiped God,
-<sup>17</sup> <sup>a</sup>because you have taken your great power and reigned.
+<sup>17</sup> saying: “We give you thanks, Lord God, the Almighty, the one who is and who was,<sup>a</sup> because you have taken your great power and reigned.
 <sup>18</sup> The nations were angry, and your wrath came, as did the time for the dead to be judged, and to give your bondservants the prophets, their reward, as well as to the saints and those who fear your name, to the small and the great, and to destroy those who destroy the earth.”
 
 <sup>19</sup> God’s temple that is in heaven was opened, and the ark of the Lord’s covenant was seen in his temple. Lightnings, sounds, thunders, an earthquake, and great hail followed.
@@ -348,13 +348,13 @@
 <sup>14</sup> Two wings of the great eagle were given to the woman, that she might fly into the wilderness to her place, so that she might be nourished for a time, times, and half a time, from the face of the serpent.
 <sup>15</sup> The serpent spewed water out of his mouth after the woman like a river, that he might cause her to be carried away by the stream.
 <sup>16</sup> The earth helped the woman, and the earth opened its mouth and swallowed up the river which the dragon spewed out of his mouth.
-<sup>17</sup> <sup>a</sup>who keep God’s commandments and hold Jesus’ testimony.
+<sup>17</sup> The dragon grew angry with the woman, and went away to make war with the rest of her offspring,<sup>a</sup> who keep God’s commandments and hold Jesus’ testimony.
 
 > - <sup>a</sup> 17. or, seed
 
 ## Chapter 13
 
-<sup>1</sup> <sup>a</sup>on the sand of the sea. I saw a beast coming up out of the sea, having ten horns and seven heads. On his horns were ten crowns, and on his heads, blasphemous names.
+<sup>1</sup> Then I stood<sup>a</sup> on the sand of the sea. I saw a beast coming up out of the sea, having ten horns and seven heads. On his horns were ten crowns, and on his heads, blasphemous names.
 <sup>2</sup> The beast which I saw was like a leopard, and his feet were like those of a bear, and his mouth like the mouth of a lion. The dragon gave him his power, his throne, and great authority.
 <sup>3</sup> One of his heads looked like it had been wounded fatally. His fatal wound was healed, and the whole earth marveled at the beast.
 <sup>4</sup> They worshiped the dragon because he gave his authority to the beast; and they worshiped the beast, saying, “Who is like the beast? Who is able to make war with him?”
@@ -364,12 +364,12 @@
 <sup>7</sup> It was given to him to make war with the saints and to overcome them. Authority over every tribe, people, language, and nation was given to him.
 <sup>8</sup> All who dwell on the earth will worship him, everyone whose name has not been written from the foundation of the world in the book of life of the Lamb who has been killed.
 <sup>9</sup> If anyone has an ear, let him hear.
-<sup>10</sup> <sup>b</sup>Here is the endurance and the faith of the saints.
+<sup>10</sup> If anyone is to go into captivity, he will go into captivity. If anyone is to be killed with the sword, he must be killed.<sup>b</sup> Here is the endurance and the faith of the saints.
 
 <sup>11</sup> I saw another beast coming up out of the earth. He had two horns like a lamb and it spoke like a dragon.
 <sup>12</sup> He exercises all the authority of the first beast in his presence. He makes the earth and those who dwell in it to worship the first beast, whose fatal wound was healed.
 <sup>13</sup> He performs great signs, even making fire come down out of the sky to the earth in the sight of people.
-<sup>14</sup> <sup>c</sup>people who dwell on the earth because of the signs he was granted to do in front of the beast, saying to those who dwell on the earth that they should make an image to the beast who had the sword wound and lived.
+<sup>14</sup> He deceives my own<sup>c</sup> people who dwell on the earth because of the signs he was granted to do in front of the beast, saying to those who dwell on the earth that they should make an image to the beast who had the sword wound and lived.
 <sup>15</sup> It was given to him to give breath to the image of the beast, that the image of the beast should both speak, and cause as many as wouldn’t worship the image of the beast to be killed.
 <sup>16</sup> He causes all, the small and the great, the rich and the poor, and the free and the slave, to be given marks on their right hands or on their foreheads;
 <sup>17</sup> and that no one would be able to buy or to sell unless he has that mark, which is the name of the beast or the number of his name.
@@ -385,7 +385,7 @@
 <sup>2</sup> I heard a sound from heaven like the sound of many waters and like the sound of a great thunder. The sound which I heard was like that of harpists playing on their harps.
 <sup>3</sup> They sing a new song before the throne and before the four living creatures and the elders. No one could learn the song except the one hundred forty-four thousand, those who had been redeemed out of the earth.
 <sup>4</sup> These are those who were not defiled with women, for they are virgins. These are those who follow the Lamb wherever he goes. These were redeemed by Jesus from among men, the first fruits to God and to the Lamb.
-<sup>5</sup> <sup>a</sup>
+<sup>5</sup> In their mouth was found no lie, for they are blameless.<sup>a</sup>
 
 <sup>6</sup> I saw an angel flying in mid heaven, having an eternal Good News to proclaim to those who dwell on the earth—to every nation, tribe, language, and people.
 <sup>7</sup> He said with a loud voice, “Fear the Lord, and give him glory, for the hour of his judgment has come. Worship him who made the heaven, the earth, the sea, and the springs of waters!”
@@ -400,14 +400,14 @@
 
 <sup>13</sup> I heard a voice from heaven saying, “Write, ‘Blessed are the dead who die in the Lord from now on.’ ” “Yes,” says the Spirit, “that they may rest from their labors, for their works follow with them.”
 
-<sup>14</sup> <sup>b</sup>having on his head a golden crown, and in his hand a sharp sickle.
+<sup>14</sup> I looked, and saw a white cloud, and on the cloud one sitting like a son of man,<sup>b</sup> having on his head a golden crown, and in his hand a sharp sickle.
 <sup>15</sup> Another angel came out of the temple, crying with a loud voice to him who sat on the cloud, “Send your sickle and reap, for the hour to reap has come; for the harvest of the earth is ripe!”
 <sup>16</sup> He who sat on the cloud thrust his sickle on the earth, and the earth was reaped.
 
 <sup>17</sup> Another angel came out of the temple which is in heaven. He also had a sharp sickle.
 <sup>18</sup> Another angel came out from the altar, he who has power over fire, and he called with a great voice to him who had the sharp sickle, saying, “Send your sharp sickle and gather the clusters of the vine of the earth, for the earth’s grapes are fully ripe!”
 <sup>19</sup> The angel thrust his sickle into the earth, and gathered the vintage of the earth and threw it into the great wine press of the wrath of God.
-<sup>20</sup> <sup>c</sup>
+<sup>20</sup> The wine press was trodden outside of the city, and blood came out of the wine press, up to the bridles of the horses, as far as one thousand six hundred stadia.<sup>c</sup>
 
 > - <sup>a</sup> 5. TR adds “before the throne of God”
 > - <sup>b</sup> 14. Daniel 7:13
@@ -417,7 +417,7 @@
 
 <sup>1</sup> I saw another great and marvelous sign in the sky: seven angels having the seven last plagues, for in them God’s wrath is finished.
 
-<sup>2</sup> <sup>a</sup>and the number of his name, standing on the sea of glass, having harps of God.
+<sup>2</sup> I saw something like a sea of glass mixed with fire, and those who overcame the beast, his image,<sup>a</sup> and the number of his name, standing on the sea of glass, having harps of God.
 <sup>3</sup> They sang the song of Moses, the servant of God, and the song of the Lamb, saying, <br>“Great and marvelous are your works, Lord God, the Almighty! <br>Righteous and true are your ways, you King of the nations. <br>
 <sup>4</sup> Who wouldn’t fear you, Lord, <br>and glorify your name? <br>For you only are holy. <br>For all the nations will come and worship before you. <br>For your righteous acts have been revealed.”
 
@@ -449,7 +449,7 @@
 <sup>10</sup> The fifth poured out his bowl on the throne of the beast, and his kingdom was darkened. They gnawed their tongues because of the pain,
 <sup>11</sup> and they blasphemed the God of heaven because of their pains and their sores. They still didn’t repent of their works.
 
-<sup>12</sup> <sup>a</sup>
+<sup>12</sup> The sixth poured out his bowl on the great river, the Euphrates. Its water was dried up, that the way might be prepared for the kings that come from the sunrise.<sup>a</sup>
 <sup>13</sup> I saw coming out of the mouth of the dragon, and out of the mouth of the beast, and out of the mouth of the false prophet, three unclean spirits, something like frogs;
 <sup>14</sup> for they are spirits of demons, performing signs, which go out to the kings of the whole inhabited earth, to gather them together for the war of that great day of God the Almighty.
 
@@ -460,7 +460,7 @@
 <sup>18</sup> There were lightnings, sounds, and thunders; and there was a great earthquake such as has not happened since there were men on the earth—so great an earthquake and so mighty.
 <sup>19</sup> The great city was divided into three parts, and the cities of the nations fell. Babylon the great was remembered in the sight of God, to give to her the cup of the wine of the fierceness of his wrath.
 <sup>20</sup> Every island fled away, and the mountains were not found.
-<sup>21</sup> <sup>b</sup>came down out of the sky on people. People blasphemed God because of the plague of the hail, for this plague was exceedingly severe.
+<sup>21</sup> Great hailstones, about the weight of a talent,<sup>b</sup> came down out of the sky on people. People blasphemed God because of the plague of the hail, for this plague was exceedingly severe.
 
 > - <sup>a</sup> 12. or, east
 > - <sup>b</sup> 21. A talent is about 30 kilograms or 66 pounds.
@@ -475,7 +475,7 @@
 <sup>6</sup> I saw the woman drunken with the blood of the saints and with the blood of the martyrs of Jesus. When I saw her, I wondered with great amazement.
 
 <sup>7</sup> The angel said to me, “Why do you wonder? I will tell you the mystery of the woman and of the beast that carries her, which has the seven heads and the ten horns.
-<sup>8</sup> <sup>a</sup>
+<sup>8</sup> The beast that you saw was, and is not; and is about to come up out of the abyss and to go into destruction. Those who dwell on the earth and whose names have not been written in the book of life from the foundation of the world will marvel when they see that the beast was, and is not, and shall be present.<sup>a</sup>
 
 <sup>9</sup> Here is the mind that has wisdom. The seven heads are seven mountains on which the woman sits.
 <sup>10</sup> They are seven kings. Five have fallen, the one is, and the other has not yet come. When he comes, he must continue a little while.
@@ -542,10 +542,10 @@
 <sup>12</sup> His eyes are a flame of fire, and on his head are many crowns. He has names written and a name written which no one knows but he himself.
 <sup>13</sup> He is clothed in a garment sprinkled with blood. His name is called “The Word of God.”
 <sup>14</sup> The armies which are in heaven, clothed in white, pure, fine linen, followed him on white horses.
-<sup>15</sup> <sup>a</sup>He treads the wine press of the fierceness of the wrath of God, the Almighty.
+<sup>15</sup> Out of his mouth proceeds a sharp, double-edged sword that with it he should strike the nations. He will rule them with an iron rod.<sup>a</sup> He treads the wine press of the fierceness of the wrath of God, the Almighty.
 <sup>16</sup> He has on his garment and on his thigh a name written, “KING OF KINGS AND LORD OF LORDS.”
 
-<sup>17</sup> <sup>b</sup>
+<sup>17</sup> I saw an angel standing in the sun. He cried with a loud voice, saying to all the birds that fly in the sky, “Come! Be gathered together to the great supper of God,<sup>b</sup>
 <sup>18</sup> that you may eat the flesh of kings, the flesh of captains, the flesh of mighty men, and the flesh of horses and of those who sit on them, and the flesh of all men, both free and slave, small and great.”
 <sup>19</sup> I saw the beast, the kings of the earth, and their armies, gathered together to make war against him who sat on the horse and against his army.
 <sup>20</sup> The beast was taken, and with him the false prophet who worked the signs in his sight, with which he deceived those who had received the mark of the beast and those who worshiped his image. These two were thrown alive into the lake of fire that burns with sulfur.
@@ -557,7 +557,7 @@
 ## Chapter 20
 
 <sup>1</sup> I saw an angel coming down out of heaven, having the key of the abyss and a great chain in his hand.
-<sup>2</sup> <sup>a</sup>and bound him for a thousand years,
+<sup>2</sup> He seized the dragon, the old serpent, who is the devil and Satan, who deceives the whole inhabited earth,<sup>a</sup> and bound him for a thousand years,
 <sup>3</sup> and cast him into the abyss, and shut it and sealed it over him, that he should deceive the nations no more until the thousand years were finished. After this, he must be freed for a short time.
 
 <sup>4</sup> I saw thrones, and they sat on them, and judgment was given to them. I saw the souls of those who had been beheaded for the testimony of Jesus and for the word of God, and such as didn’t worship the beast nor his image, and didn’t receive the mark on their forehead and on their hand. They lived and reigned with Christ for a thousand years.
@@ -571,8 +571,8 @@
 
 <sup>11</sup> I saw a great white throne and him who sat on it, from whose face the earth and the heaven fled away. There was found no place for them.
 <sup>12</sup> I saw the dead, the great and the small, standing before the throne, and they opened books. Another book was opened, which is the book of life. The dead were judged out of the things which were written in the books, according to their works.
-<sup>13</sup> <sup>b</sup>gave up the dead who were in them. They were judged, each one according to his works.
-<sup>14</sup> <sup>c</sup>were thrown into the lake of fire. This is the second death, the lake of fire.
+<sup>13</sup> The sea gave up the dead who were in it. Death and Hades<sup>b</sup> gave up the dead who were in them. They were judged, each one according to his works.
+<sup>14</sup> Death and Hades<sup>c</sup> were thrown into the lake of fire. This is the second death, the lake of fire.
 <sup>15</sup> If anyone was not found written in the book of life, he was cast into the lake of fire.
 
 > - <sup>a</sup> 2. TR and NU omit “who deceives the whole inhabited earth”.
@@ -589,7 +589,7 @@
 <sup>5</sup> He who sits on the throne said, “Behold, I am making all things new.” He said, “Write, for these words of God are faithful and true.”
 <sup>6</sup> He said to me, “I am the Alpha and the Omega, the Beginning and the End. I will give freely to him who is thirsty from the spring of the water of life.
 <sup>7</sup> He who overcomes, I will give him these things. I will be his God, and he will be my son.
-<sup>8</sup> <sup>a</sup><sup>b</sup>idolaters, and all liars, their part is in the lake that burns with fire and sulfur, which is the second death.”
+<sup>8</sup> But for the cowardly, unbelieving, sinners,<sup>a</sup> abominable, murderers, sexually immoral, sorcerers,<sup>b</sup> idolaters, and all liars, their part is in the lake that burns with fire and sulfur, which is the second death.”
 
 <sup>9</sup> One of the seven angels who had the seven bowls which were loaded with the seven last plagues came, and he spoke with me, saying, “Come here. I will show you the bride, the Lamb’s wife.”
 <sup>10</sup> He carried me away in the Spirit to a great and high mountain, and showed me the holy city, Jerusalem, coming down out of heaven from God,
@@ -599,10 +599,10 @@
 <sup>14</sup> The wall of the city had twelve foundations, and on them twelve names of the twelve Apostles of the Lamb.
 
 <sup>15</sup> He who spoke with me had for a measure a golden reed to measure the city, its gates, and its walls.
-<sup>16</sup> <sup>c</sup>Its length, width, and height are equal.
-<sup>17</sup> <sup>d</sup>by the measure of a man, that is, of an angel.
+<sup>16</sup> The city is square. Its length is as great as its width. He measured the city with the reed: twelve thousand twelve stadia.<sup>c</sup> Its length, width, and height are equal.
+<sup>17</sup> Its wall is one hundred forty-four cubits,<sup>d</sup> by the measure of a man, that is, of an angel.
 <sup>18</sup> The construction of its wall was jasper. The city was pure gold, like pure glass.
-<sup>19</sup> <sup>e</sup>the third chalcedony, the fourth emerald,
+<sup>19</sup> The foundations of the city’s wall were adorned with all kinds of precious stones. The first foundation was jasper, the second sapphire;<sup>e</sup> the third chalcedony, the fourth emerald,
 <sup>20</sup> the fifth sardonyx, the sixth sardius, the seventh chrysolite, the eighth beryl, the ninth topaz, the tenth chrysoprase, the eleventh jacinth, and the twelfth amethyst.
 <sup>21</sup> The twelve gates were twelve pearls. Each one of the gates was made of one pearl. The street of the city was pure gold, like transparent glass.
 
@@ -621,7 +621,7 @@
 
 ## Chapter 22
 
-<sup>1</sup> <sup>a</sup>river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb,
+<sup>1</sup> He showed me a<sup>a</sup> river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb,
 <sup>2</sup> in the middle of its street. On this side of the river and on that was the tree of life, bearing twelve kinds of fruits, yielding its fruit every month. The leaves of the tree were for the healing of the nations.
 <sup>3</sup> There will be no curse any more. The throne of God and of the Lamb will be in it, and his servants will serve him.
 <sup>4</sup> They will see his face, and his name will be on their foreheads.
@@ -638,14 +638,14 @@
 
 <sup>12</sup> “Behold, I am coming soon! My reward is with me, to repay to each man according to his work.
 <sup>13</sup> I am the Alpha and the Omega, the First and the Last, the Beginning and the End.
-<sup>14</sup> <sup>b</sup>that they may have the right to the tree of life, and may enter in by the gates into the city.
+<sup>14</sup> Blessed are those who do his commandments,<sup>b</sup> that they may have the right to the tree of life, and may enter in by the gates into the city.
 <sup>15</sup> Outside are the dogs, the sorcerers, the sexually immoral, the murderers, the idolaters, and everyone who loves and practices falsehood.
 <sup>16</sup> I, Jesus, have sent my angel to testify these things to you for the assemblies. I am the root and the offspring of David, the Bright and Morning Star.”
 
 <sup>17</sup> The Spirit and the bride say, “Come!” He who hears, let him say, “Come!” He who is thirsty, let him come. He who desires, let him take the water of life freely.
 
 <sup>18</sup> I testify to everyone who hears the words of the prophecy of this book: if anyone adds to them, God will add to him the plagues which are written in this book.
-<sup>19</sup> <sup>c</sup>of life, and out of the holy city, which are written in this book.
+<sup>19</sup> If anyone takes away from the words of the book of this prophecy, God will take away his part from the tree<sup>c</sup> of life, and out of the holy city, which are written in this book.
 <sup>20</sup> He who testifies these things says, “Yes, I am coming soon.” Amen! Yes, come, Lord Jesus!
 
 <sup>21</sup> The grace of the Lord Jesus Christ be with all the saints. Amen.

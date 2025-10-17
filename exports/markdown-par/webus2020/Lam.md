@@ -8,7 +8,7 @@
 
 <sup>4</sup> The roads to Zion mourn, <br>because no one comes to the solemn assembly. <br>All her gates are desolate. <br>Her priests sigh. <br>Her virgins are afflicted, <br>and she herself is in bitterness.
 
-<sup>5</sup> Her adversaries have become the head. <br>Her enemies prosper; <br><sup>a</sup>has afflicted her for the multitude of her transgressions. <br>Her young children have gone into captivity before the adversary.
+<sup>5</sup> Her adversaries have become the head. <br>Her enemies prosper; <br>for Yahweh<sup>a</sup> has afflicted her for the multitude of her transgressions. <br>Her young children have gone into captivity before the adversary.
 
 <sup>6</sup> All majesty has departed from the daughter of Zion. <br>Her princes have become like deer that find no pasture. <br>They have gone without strength before the pursuer.
 
@@ -26,7 +26,7 @@
 
 <sup>13</sup> “From on high has he sent fire into my bones, <br>and it prevails against them. <br>He has spread a net for my feet. <br>He has turned me back. <br>He has made me desolate and I faint all day long.
 
-<sup>14</sup> “The yoke of my transgressions is bound by his hand. <br>They are knit together. <br>They have come up on my neck. <br>He made my strength fail. <br><sup>b</sup>has delivered me into their hands, <br>against whom I am not able to stand.
+<sup>14</sup> “The yoke of my transgressions is bound by his hand. <br>They are knit together. <br>They have come up on my neck. <br>He made my strength fail. <br>The Lord<sup>b</sup> has delivered me into their hands, <br>against whom I am not able to stand.
 
 <sup>15</sup> “The Lord has set at nothing all my mighty men within me. <br>He has called a solemn assembly against me to crush my young men. <br>The Lord has trodden the virgin daughter of Judah as in a wine press.
 
@@ -147,7 +147,7 @@
 <sup>39</sup> Why should a living man complain, <br>a man for the punishment of his sins?
 
 <sup>40</sup> Let us search and try our ways, <br>and turn again to Yahweh. <br>
-<sup>41</sup> <sup>a</sup>in the heavens. <br>
+<sup>41</sup> Let’s lift up our heart with our hands to God<sup>a</sup> in the heavens. <br>
 <sup>42</sup> “We have transgressed and have rebelled. <br>You have not pardoned.
 
 <sup>43</sup> “You have covered us with anger and pursued us. <br>You have killed. <br>You have not pitied. <br>

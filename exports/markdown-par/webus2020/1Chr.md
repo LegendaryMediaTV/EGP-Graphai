@@ -67,7 +67,7 @@
 <sup>1</sup> These are the sons of Israel: Reuben, Simeon, Levi, Judah, Issachar, Zebulun,
 <sup>2</sup> Dan, Joseph, Benjamin, Naphtali, Gad, and Asher.
 
-<sup>3</sup> <sup>a</sup>sight; and he killed him.
+<sup>3</sup> The sons of Judah: Er, Onan, and Shelah, which three were born to him of Shua’s daughter the Canaanitess. Er, Judah’s firstborn, was wicked in Yahweh’s<sup>a</sup> sight; and he killed him.
 <sup>4</sup> Tamar his daughter-in-law bore him Perez and Zerah. All the sons of Judah were five.
 
 <sup>5</sup> The sons of Perez: Hezron and Hamul.
@@ -168,13 +168,13 @@
 <sup>7</sup> The sons of Helah were Zereth, Izhar, and Ethnan.
 <sup>8</sup> Hakkoz became the father of Anub, Zobebah, and the families of Aharhel the son of Harum.
 
-<sup>9</sup> <sup>a</sup>saying, “Because I bore him with sorrow.”
+<sup>9</sup> Jabez was more honorable than his brothers. His mother named him Jabez,<sup>a</sup> saying, “Because I bore him with sorrow.”
 
-<sup>10</sup> <sup>b</sup>of Israel, saying, “Oh that you would bless me indeed, and enlarge my border! May your hand be with me, and may you keep me from evil, that I may not cause pain!” God granted him that which he requested.
+<sup>10</sup> Jabez called on the God<sup>b</sup> of Israel, saying, “Oh that you would bless me indeed, and enlarge my border! May your hand be with me, and may you keep me from evil, that I may not cause pain!” God granted him that which he requested.
 
 <sup>11</sup> Chelub the brother of Shuhah became the father of Mehir, who was the father of Eshton.
 <sup>12</sup> Eshton became the father of Beth Rapha, Paseah, and Tehinnah the father of Ir Nahash. These are the men of Recah.
-<sup>13</sup> <sup>c</sup>
+<sup>13</sup> The sons of Kenaz: Othniel and Seraiah. The sons of Othniel: Hathath.<sup>c</sup>
 <sup>14</sup> Meonothai became the father of Ophrah: and Seraiah became the father of Joab the father of Ge Harashim, for they were craftsmen.
 <sup>15</sup> The sons of Caleb the son of Jephunneh: Iru, Elah, and Naam. The son of Elah: Kenaz.
 <sup>16</sup> The sons of Jehallelel: Ziph, Ziphah, Tiria, and Asarel.
@@ -362,7 +362,7 @@
 <sup>20</sup> The sons of Ephraim: Shuthelah, Bered his son, Tahath his son, Eleadah his son, Tahath his son,
 <sup>21</sup> Zabad his son, Shuthelah his son, Ezer, and Elead, whom the men of Gath who were born in the land killed, because they came down to take away their livestock.
 <sup>22</sup> Ephraim their father mourned many days, and his brothers came to comfort him.
-<sup>23</sup> <sup>a</sup>because there was trouble with his house.
+<sup>23</sup> He went in to his wife, and she conceived and bore a son, and he named him Beriah,<sup>a</sup> because there was trouble with his house.
 <sup>24</sup> His daughter was Sheerah, who built Beth Horon the lower and the upper, and Uzzen Sheerah.
 <sup>25</sup> Rephah was his son, Resheph his son, Telah his son, Tahan his son,
 <sup>26</sup> Ladan his son, Ammihud his son, Elishama his son,
@@ -430,7 +430,7 @@
 <sup>40</sup> The sons of Ulam were mighty men of valor, archers, and had many sons, and grandsons, one hundred fifty. All these were of the sons of Benjamin.
 ## Chapter 9
 
-<sup>1</sup> <sup>a</sup>they are written in the book of the kings of Israel. Judah was carried away captive to Babylon for their disobedience.
+<sup>1</sup> So all Israel were listed by genealogies; and behold,<sup>a</sup> they are written in the book of the kings of Israel. Judah was carried away captive to Babylon for their disobedience.
 <sup>2</sup> Now the first inhabitants who lived in their possessions in their cities were Israel, the priests, the Levites, and the temple servants.
 <sup>3</sup> In Jerusalem, there lived of the children of Judah, of the children of Benjamin, and of the children of Ephraim and Manasseh:
 <sup>4</sup> Uthai the son of Ammihud, the son of Omri, the son of Imri, the son of Bani, of the children of Perez the son of Judah.
@@ -534,7 +534,7 @@
 <sup>21</sup> Of the three, he was more honorable than the two, and was made their captain; however he wasn’t included in the three.
 
 <sup>22</sup> Benaiah the son of Jehoiada, the son of a valiant man of Kabzeel, who had done mighty deeds, killed the two sons of Ariel of Moab. He also went down and killed a lion in the middle of a pit on a snowy day.
-<sup>23</sup> <sup>a</sup>high. In the Egyptian’s hand was a spear like a weaver’s beam; and he went down to him with a staff, plucked the spear out of the Egyptian’s hand, and killed him with his own spear.
+<sup>23</sup> He killed an Egyptian, a man of great stature, five cubits<sup>a</sup> high. In the Egyptian’s hand was a spear like a weaver’s beam; and he went down to him with a staff, plucked the spear out of the Egyptian’s hand, and killed him with his own spear.
 <sup>24</sup> Benaiah the son of Jehoiada did these things and had a name among the three mighty men.
 <sup>25</sup> Behold, he was more honorable than the thirty, but he didn’t attain to the three; and David set him over his guard.
 
@@ -645,7 +645,7 @@
 <sup>9</sup> Now the Philistines had come and made a raid in the valley of Rephaim.
 <sup>10</sup> David inquired of God, saying, “Shall I go up against the Philistines? Will you deliver them into my hand?” Yahweh said to him, “Go up; for I will deliver them into your hand.”
 
-<sup>11</sup> <sup>a</sup>
+<sup>11</sup> So they came up to Baal Perazim, and David defeated them there. David said, God has broken my enemies by my hand, like waters breaking out. Therefore they called the name of that place Baal Perazim.<sup>a</sup>
 <sup>12</sup> They left their gods there; and David gave a command, and they were burned with fire.
 
 <sup>13</sup> The Philistines made another raid in the valley.
@@ -709,7 +709,7 @@
 <sup>10</sup> Glory in his holy name. <br>Let the heart of those who seek Yahweh rejoice. <br>
 <sup>11</sup> Seek Yahweh and his strength. <br>Seek his face forever more. <br>
 <sup>12</sup> Remember his marvelous works that he has done, <br>his wonders, and the judgments of his mouth, <br>
-<sup>13</sup> <sup>a</sup>of Israel his servant, <br>you children of Jacob, his chosen ones.
+<sup>13</sup> you offspring<sup>a</sup> of Israel his servant, <br>you children of Jacob, his chosen ones.
 
 <sup>14</sup> He is Yahweh our God. <br>His judgments are in all the earth. <br>
 <sup>15</sup> Remember his covenant forever, <br>the word which he commanded to a thousand generations, <br>
@@ -811,7 +811,7 @@
 <sup>4</sup> So Hanun took David’s servants, shaved them, and cut off their garments in the middle at their buttocks, and sent them away.
 <sup>5</sup> Then some people went and told David how the men were treated. He sent to meet them; for the men were greatly humiliated. The king said, “Stay at Jericho until your beards have grown, and then return.”
 
-<sup>6</sup> <sup>a</sup>of silver to hire chariots and horsemen out of Mesopotamia, out of Aram-maacah, and out of Zobah.
+<sup>6</sup> When the children of Ammon saw that they had made themselves odious to David, Hanun and the children of Ammon sent one thousand talents<sup>a</sup> of silver to hire chariots and horsemen out of Mesopotamia, out of Aram-maacah, and out of Zobah.
 <sup>7</sup> So they hired for themselves thirty-two thousand chariots, and the king of Maacah with his people, who came and encamped near Medeba. The children of Ammon gathered themselves together from their cities, and came to battle.
 <sup>8</sup> When David heard of it, he sent Joab with all the army of the mighty men.
 <sup>9</sup> The children of Ammon came out, and put the battle in array at the gate of the city; and the kings who had come were by themselves in the field.
@@ -824,7 +824,7 @@
 <sup>14</sup> So Joab and the people who were with him came near to the front of the Syrians to the battle; and they fled before him.
 <sup>15</sup> When the children of Ammon saw that the Syrians had fled, they likewise fled before Abishai his brother, and entered into the city. Then Joab came to Jerusalem.
 
-<sup>16</sup> <sup>b</sup>with Shophach the captain of the army of Hadadezer leading them.
+<sup>16</sup> When the Syrians saw that they were defeated by Israel, they sent messengers and called out the Syrians who were beyond the River,<sup>b</sup> with Shophach the captain of the army of Hadadezer leading them.
 <sup>17</sup> David was told that, so he gathered all Israel together, passed over the Jordan, came to them, and set the battle in array against them. So when David had put the battle in array against the Syrians, they fought with him.
 <sup>18</sup> The Syrians fled before Israel; and David killed of the Syrian men seven thousand charioteers and forty thousand footmen, and also killed Shophach the captain of the army.
 <sup>19</sup> When the servants of Hadadezer saw that they were defeated by Israel, they made peace with David and served him. The Syrians would not help the children of Ammon any more.
@@ -835,7 +835,7 @@
 ## Chapter 20
 
 <sup>1</sup> At the time of the return of the year, at the time when kings go out, Joab led out the army and wasted the country of the children of Ammon, and came and besieged Rabbah. But David stayed at Jerusalem. Joab struck Rabbah, and overthrew it.
-<sup>2</sup> <sup>a</sup>and there were precious stones in it. It was set on David’s head, and he brought very much plunder out of the city.
+<sup>2</sup> David took the crown of their king from off his head, and found it to weigh a talent of gold,<sup>a</sup> and there were precious stones in it. It was set on David’s head, and he brought very much plunder out of the city.
 <sup>3</sup> He brought out the people who were in it, and had them cut with saws, with iron picks, and with axes. David did so to all the cities of the children of Ammon. Then David and all the people returned to Jerusalem.
 
 <sup>4</sup> After this, war arose at Gezer with the Philistines. Then Sibbecai the Hushathite killed Sippai, of the sons of the giant; and they were subdued.
@@ -886,7 +886,7 @@
 
 <sup>24</sup> King David said to Ornan, “No, but I will most certainly buy it for the full price. For I will not take that which is yours for Yahweh, nor offer a burnt offering that costs me nothing.”
 
-<sup>25</sup> <sup>a</sup>of gold by weight for the place.
+<sup>25</sup> So David gave to Ornan six hundred shekels<sup>a</sup> of gold by weight for the place.
 <sup>26</sup> David built an altar to Yahweh there, and offered burnt offerings and peace offerings, and called on Yahweh; and he answered him from the sky by fire on the altar of burnt offering.
 
 <sup>27</sup> Then Yahweh commanded the angel, and he put his sword back into its sheath.
@@ -913,7 +913,7 @@
 <sup>11</sup> Now, my son, may Yahweh be with you and prosper you, and build the house of Yahweh your God, as he has spoken concerning you.
 <sup>12</sup> May Yahweh give you discretion and understanding, and put you in charge of Israel, so that you may keep the law of Yahweh your God.
 <sup>13</sup> Then you will prosper, if you observe to do the statutes and the ordinances which Yahweh gave Moses concerning Israel. Be strong and courageous. Don’t be afraid and don’t be dismayed.
-<sup>14</sup> <sup>a</sup><sup>b</sup>of silver, and bronze and iron without weight; for it is in abundance. I have also prepared timber and stone; and you may add to them.
+<sup>14</sup> Now, behold, in my affliction I have prepared for Yahweh’s house one hundred thousand talents<sup>a</sup> of gold, one million talents<sup>b</sup> of silver, and bronze and iron without weight; for it is in abundance. I have also prepared timber and stone; and you may add to them.
 <sup>15</sup> There are also workmen with you in abundance—cutters and workers of stone and timber, and all kinds of men who are skillful in every kind of work;
 <sup>16</sup> of the gold, the silver, the bronze, and the iron, there is no number. Arise and be doing, and may Yahweh be with you.”
 
@@ -1141,11 +1141,11 @@
 <sup>1</sup> David the king said to all the assembly, “Solomon my son, whom alone God has chosen, is yet young and tender, and the work is great; for the palace is not for man, but for Yahweh God.
 <sup>2</sup> Now I have prepared with all my might for the house of my God the gold for the things of gold, the silver for the things of silver, the bronze for the things of bronze, iron for the things of iron, and wood for the things of wood, also onyx stones, stones to be set, stones for inlaid work of various colors, all kinds of precious stones, and marble stones in abundance.
 <sup>3</sup> In addition, because I have set my affection on the house of my God, since I have a treasure of my own of gold and silver, I give it to the house of my God, over and above all that I have prepared for the holy house:
-<sup>4</sup> <sup>a</sup><sup>b</sup>of refined silver, with which to overlay the walls of the houses;
+<sup>4</sup> even three thousand talents of gold,<sup>a</sup> of the gold of Ophir, and seven thousand talents<sup>b</sup> of refined silver, with which to overlay the walls of the houses;
 <sup>5</sup> of gold for the things of gold, and of silver for the things of silver, and for all kinds of work to be made by the hands of artisans. Who then offers willingly to consecrate himself today to Yahweh?”
 
 <sup>6</sup> Then the princes of the fathers’ households, and the princes of the tribes of Israel, and the captains of thousands and of hundreds, with the rulers over the king’s work, offered willingly;
-<sup>7</sup> <sup>c</sup><sup>d</sup>of silver ten thousand talents, of bronze eighteen thousand talents, and of iron one hundred thousand talents.
+<sup>7</sup> and they gave for the service of God’s house of gold five thousand talents<sup>c</sup> and ten thousand darics,<sup>d</sup> of silver ten thousand talents, of bronze eighteen thousand talents, and of iron one hundred thousand talents.
 <sup>8</sup> People with whom precious stones were found gave them to the treasure of Yahweh’s house, under the hand of Jehiel the Gershonite.
 <sup>9</sup> Then the people rejoiced, because they offered willingly, because with a perfect heart they offered willingly to Yahweh; and David the king also rejoiced with great joy.
 

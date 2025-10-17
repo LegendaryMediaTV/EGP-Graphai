@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>spoke to Moses in the wilderness of Sinai, in the Tent of Meeting, on the first day of the second month, in the second year after they had come out of the land of Egypt, saying,
+<sup>1</sup> Yahweh<sup>a</sup> spoke to Moses in the wilderness of Sinai, in the Tent of Meeting, on the first day of the second month, in the second year after they had come out of the land of Egypt, saying,
 <sup>2</sup> “Take a census of all the congregation of the children of Israel, by their families, by their fathers’ houses, according to the number of the names, every male, one by one,
 <sup>3</sup> from twenty years old and upward, all who are able to go out to war in Israel. You and Aaron shall count them by their divisions.
 <sup>4</sup> With you there shall be a man of every tribe, each one head of his fathers’ house.
@@ -26,7 +26,7 @@
 
 <sup>15</sup> Of Naphtali: Ahira the son of Enan.”
 
-<sup>16</sup> <sup>b</sup>of the tribes of their fathers; they were the heads of the thousands of Israel.
+<sup>16</sup> These are those who were called of the congregation, the princes<sup>b</sup> of the tribes of their fathers; they were the heads of the thousands of Israel.
 <sup>17</sup> Moses and Aaron took these men who are mentioned by name.
 <sup>18</sup> They assembled all the congregation together on the first day of the second month; and they declared their ancestry by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, one by one.
 <sup>19</sup> As Yahweh commanded Moses, so he counted them in the wilderness of Sinai.
@@ -154,7 +154,7 @@
 <sup>10</sup> You shall appoint Aaron and his sons, and they shall keep their priesthood, but the stranger who comes near shall be put to death.”
 
 <sup>11</sup> Yahweh spoke to Moses, saying,
-<sup>12</sup> <sup>a</sup>I have taken the Levites from among the children of Israel instead of all the firstborn who open the womb among the children of Israel; and the Levites shall be mine,
+<sup>12</sup> “Behold,<sup>a</sup> I have taken the Levites from among the children of Israel instead of all the firstborn who open the womb among the children of Israel; and the Levites shall be mine,
 <sup>13</sup> for all the firstborn are mine. On the day that I struck down all the firstborn in the land of Egypt I made holy to me all the firstborn in Israel, both man and animal. They shall be mine. I am Yahweh.”
 
 <sup>14</sup> Yahweh spoke to Moses in the wilderness of Sinai, saying,
@@ -189,7 +189,7 @@
 <sup>32</sup> Eleazar the son of Aaron the priest shall be prince of the princes of the Levites, with the oversight of those who keep the requirements of the sanctuary.
 
 <sup>33</sup> Of Merari was the family of the Mahlites and the family of the Mushites. These are the families of Merari.
-<sup>34</sup> <sup>b</sup>
+<sup>34</sup> Those who were counted of them, according to the number of all the males from a month old and upward, were six thousand two hundred.<sup>b</sup>
 
 <sup>35</sup> The prince of the fathers’ house of the families of Merari was Zuriel the son of Abihail. They shall encamp on the north side of the tabernacle.
 <sup>36</sup> The appointed duty of the sons of Merari shall be the tabernacle’s boards, its bars, its pillars, its sockets, all its instruments, all its service,
@@ -207,11 +207,11 @@
 <sup>44</sup> Yahweh spoke to Moses, saying,
 <sup>45</sup> “Take the Levites instead of all the firstborn among the children of Israel, and the livestock of the Levites instead of their livestock; and the Levites shall be mine. I am Yahweh.
 <sup>46</sup> For the redemption of the two hundred seventy-three of the firstborn of the children of Israel who exceed the number of the Levites,
-<sup>47</sup> <sup>c</sup><sup>d</sup>);
+<sup>47</sup> you shall take five shekels apiece for each one; according to the shekel<sup>c</sup> of the sanctuary you shall take them (the shekel is twenty gerahs<sup>d</sup> );
 <sup>48</sup> and you shall give the money, with which their remainder is redeemed, to Aaron and to his sons.”
 
 <sup>49</sup> Moses took the redemption money from those who exceeded the number of those who were redeemed by the Levites;
-<sup>50</sup> <sup>e</sup>according to the shekel of the sanctuary;
+<sup>50</sup> from the firstborn of the children of Israel he took the money, one thousand three hundred sixty-five shekels,<sup>e</sup> according to the shekel of the sanctuary;
 <sup>51</sup> and Moses gave the redemption money to Aaron and to his sons, according to Yahweh’s word, as Yahweh commanded Moses.
 
 > - <sup>a</sup> 12. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
@@ -306,7 +306,7 @@
 <sup>12</sup> “Speak to the children of Israel, and tell them: ‘If any man’s wife goes astray and is unfaithful to him,
 <sup>13</sup> and a man lies with her carnally, and it is hidden from the eyes of her husband and this is kept concealed, and she is defiled, there is no witness against her, and she isn’t taken in the act;
 <sup>14</sup> and the spirit of jealousy comes on him, and he is jealous of his wife and she is defiled; or if the spirit of jealousy comes on him, and he is jealous of his wife and she isn’t defiled;
-<sup>15</sup> <sup>a</sup>of barley meal. He shall pour no oil on it, nor put frankincense on it, for it is a meal offering of jealousy, a meal offering of memorial, bringing iniquity to memory.
+<sup>15</sup> then the man shall bring his wife to the priest, and shall bring her offering for her: one tenth of an ephah<sup>a</sup> of barley meal. He shall pour no oil on it, nor put frankincense on it, for it is a meal offering of jealousy, a meal offering of memorial, bringing iniquity to memory.
 <sup>16</sup> The priest shall bring her near, and set her before Yahweh.
 <sup>17</sup> The priest shall take holy water in an earthen vessel; and the priest shall take some of the dust that is on the floor of the tabernacle and put it into the water.
 <sup>18</sup> The priest shall set the woman before Yahweh, and let the hair of the woman’s head go loose, and put the meal offering of memorial in her hands, which is the meal offering of jealousy. The priest shall have in his hand the water of bitterness that brings a curse.
@@ -320,7 +320,7 @@
 <sup>25</sup> The priest shall take the meal offering of jealousy out of the woman’s hand, and shall wave the meal offering before Yahweh, and bring it to the altar.
 <sup>26</sup> The priest shall take a handful of the meal offering, as its memorial portion, and burn it on the altar, and afterward shall make the woman drink the water.
 <sup>27</sup> When he has made her drink the water, then it shall happen, if she is defiled and has committed a trespass against her husband, that the water that causes the curse will enter into her and become bitter, and her body will swell, and her thigh will fall away; and the woman will be a curse among her people.
-<sup>28</sup> <sup>b</sup>
+<sup>28</sup> If the woman isn’t defiled, but is clean; then she shall be free, and shall conceive offspring.<sup>b</sup>
 
 <sup>29</sup> “ ‘This is the law of jealousy, when a wife, being under her husband, goes astray, and is defiled,
 <sup>30</sup> or when the spirit of jealousy comes on a man, and he is jealous of his wife; then he shall set the woman before Yahweh, and the priest shall execute on her all this law.
@@ -339,7 +339,7 @@
 <sup>5</sup> “ ‘All the days of his vow of separation no razor shall come on his head, until the days are fulfilled in which he separates himself to Yahweh. He shall be holy. He shall let the locks of the hair of his head grow long.
 
 <sup>6</sup> “ ‘All the days that he separates himself to Yahweh he shall not go near a dead body.
-<sup>7</sup> <sup>a</sup>is on his head.
+<sup>7</sup> He shall not make himself unclean for his father, or for his mother, for his brother, or for his sister, when they die, because his separation to God<sup>a</sup> is on his head.
 <sup>8</sup> All the days of his separation he is holy to Yahweh.
 
 <sup>9</sup> “ ‘If any man dies very suddenly beside him, and he defiles the head of his separation, then he shall shave his head in the day of his cleansing. On the seventh day he shall shave it.
@@ -386,7 +386,7 @@
 <sup>11</sup> Yahweh said to Moses, “They shall offer their offering, each prince on his day, for the dedication of the altar.”
 
 <sup>12</sup> He who offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah,
-<sup>13</sup> <sup>a</sup>one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>13</sup> and his offering was: one silver platter, the weight of which was one hundred thirty shekels,<sup>a</sup> one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>14</sup> one golden ladle of ten shekels, full of incense;
 
@@ -644,12 +644,12 @@
 
 <sup>1</sup> The people were complaining in the ears of Yahweh. When Yahweh heard it, his anger burned; and Yahweh’s fire burned among them, and consumed some of the outskirts of the camp.
 <sup>2</sup> The people cried to Moses; and Moses prayed to Yahweh, and the fire abated.
-<sup>3</sup> <sup>a</sup>because Yahweh’s fire burned among them.
+<sup>3</sup> The name of that place was called Taberah,<sup>a</sup> because Yahweh’s fire burned among them.
 
 <sup>4</sup> The mixed multitude that was among them lusted exceedingly; and the children of Israel also wept again, and said, “Who will give us meat to eat?
 <sup>5</sup> We remember the fish, which we ate in Egypt for nothing; the cucumbers, and the melons, and the leeks, and the onions, and the garlic;
 <sup>6</sup> but now we have lost our appetite. There is nothing at all except this manna to look at.”
-<sup>7</sup> <sup>b</sup>
+<sup>7</sup> The manna was like coriander seed, and it looked like bdellium.<sup>b</sup>
 <sup>8</sup> The people went around, gathered it, and ground it in mills, or beat it in mortars, and boiled it in pots, and made cakes of it. Its taste was like the taste of fresh oil.
 <sup>9</sup> When the dew fell on the camp in the night, the manna fell on it.
 
@@ -682,10 +682,10 @@
 <sup>29</sup> Moses said to him, “Are you jealous for my sake? I wish that all Yahweh’s people were prophets, that Yahweh would put his Spirit on them!”
 
 <sup>30</sup> Moses went into the camp, he and the elders of Israel.
-<sup>31</sup> <sup>c</sup>above the surface of the earth.
-<sup>32</sup> <sup>d</sup>and they spread them all out for themselves around the camp.
+<sup>31</sup> A wind from Yahweh went out and brought quails from the sea, and let them fall by the camp, about a day’s journey on this side, and a day’s journey on the other side, around the camp, and about two cubits<sup>c</sup> above the surface of the earth.
+<sup>32</sup> The people rose up all that day, and all of that night, and all the next day, and gathered the quails. He who gathered least gathered ten homers;<sup>d</sup> and they spread them all out for themselves around the camp.
 <sup>33</sup> While the meat was still between their teeth, before it was chewed, Yahweh’s anger burned against the people, and Yahweh struck the people with a very great plague.
-<sup>34</sup> <sup>e</sup>because there they buried the people who lusted.
+<sup>34</sup> The name of that place was called Kibroth Hattaavah,<sup>e</sup> because there they buried the people who lusted.
 
 <sup>35</sup> From Kibroth Hattaavah the people traveled to Hazeroth; and they stayed at Hazeroth.
 
@@ -757,7 +757,7 @@
 
 <sup>31</sup> But the men who went up with him said, “We aren’t able to go up against the people; for they are stronger than we.”
 <sup>32</sup> They brought up an evil report of the land which they had spied out to the children of Israel, saying, “The land, through which we have gone to spy it out, is a land that eats up its inhabitants; and all the people who we saw in it are men of great stature.
-<sup>33</sup> <sup>a</sup><sup>b</sup>We were in our own sight as grasshoppers, and so we were in their sight.”
+<sup>33</sup> There we saw the Nephilim,<sup>a</sup> the sons of Anak, who come from the Nephilim.<sup>b</sup> We were in our own sight as grasshoppers, and so we were in their sight.”
 
 > - <sup>a</sup> 33. or, giants
 > - <sup>b</sup> 33. or, giants
@@ -784,7 +784,7 @@
 <sup>14</sup> They will tell it to the inhabitants of this land. They have heard that you Yahweh are among this people; for you Yahweh are seen face to face, and your cloud stands over them, and you go before them, in a pillar of cloud by day, and in a pillar of fire by night.
 <sup>15</sup> Now if you killed this people as one man, then the nations which have heard the fame of you will speak, saying,
 <sup>16</sup> ‘Because Yahweh was not able to bring this people into the land which he swore to them, therefore he has slain them in the wilderness.’
-<sup>17</sup> <sup>a</sup>be great, according as you have spoken, saying,
+<sup>17</sup> Now please let the power of the Lord<sup>a</sup> be great, according as you have spoken, saying,
 <sup>18</sup> ‘Yahweh is slow to anger, and abundant in loving kindness, forgiving iniquity and disobedience; and he will by no means clear the guilty, visiting the iniquity of the fathers on the children, on the third and on the fourth generation.’
 <sup>19</sup> Please pardon the iniquity of this people according to the greatness of your loving kindness, and just as you have forgiven this people, from Egypt even until now.”
 
@@ -826,13 +826,13 @@
 <sup>1</sup> Yahweh spoke to Moses, saying,
 <sup>2</sup> “Speak to the children of Israel, and tell them, ‘When you have come into the land of your habitations, which I give to you,
 <sup>3</sup> and will make an offering by fire to Yahweh—a burnt offering, or a sacrifice, to accomplish a vow, or as a free will offering, or in your set feasts, to make a pleasant aroma to Yahweh, of the herd, or of the flock—
-<sup>4</sup> <sup>a</sup><sup>b</sup>of oil.
+<sup>4</sup> then he who offers his offering shall offer to Yahweh a meal offering of one tenth of an ephah<sup>a</sup> of fine flour mixed with one fourth of a hin<sup>b</sup> of oil.
 <sup>5</sup> You shall prepare wine for the drink offering, one fourth of a hin, with the burnt offering or for the sacrifice, for each lamb.
 
-<sup>6</sup> <sup>c</sup>of fine flour mixed with the third part of a hin of oil;
+<sup>6</sup> “ ‘For a ram, you shall prepare for a meal offering two tenths of an ephah<sup>c</sup> of fine flour mixed with the third part of a hin of oil;
 <sup>7</sup> and for the drink offering you shall offer the third part of a hin of wine, of a pleasant aroma to Yahweh.
 <sup>8</sup> When you prepare a bull for a burnt offering or for a sacrifice, to accomplish a vow, or for peace offerings to Yahweh,
-<sup>9</sup> <sup>d</sup>of fine flour mixed with half a hin of oil;
+<sup>9</sup> then he shall offer with the bull a meal offering of three tenths of an ephah<sup>d</sup> of fine flour mixed with half a hin of oil;
 <sup>10</sup> and you shall offer for the drink offering half a hin of wine, for an offering made by fire, of a pleasant aroma to Yahweh.
 <sup>11</sup> Thus it shall be done for each bull, for each ram, for each of the male lambs, or of the young goats.
 <sup>12</sup> According to the number that you shall prepare, so you shall do to everyone according to their number.
@@ -869,8 +869,8 @@
 <sup>36</sup> All the congregation brought him outside of the camp, and stoned him to death with stones, as Yahweh commanded Moses.
 
 <sup>37</sup> Yahweh spoke to Moses, saying,
-<sup>38</sup> <sup>e</sup><sup>f</sup>of each border a cord of blue.
-<sup>39</sup> <sup>g</sup>that you may see it, and remember all Yahweh’s commandments, and do them; and that you don’t follow your own heart and your own eyes, after which you used to play the prostitute;
+<sup>38</sup> “Speak to the children of Israel, and tell them that they should make themselves fringes<sup>e</sup> on the borders of their garments throughout their generations, and that they put on the fringe<sup>f</sup> of each border a cord of blue.
+<sup>39</sup> It shall be to you for a fringe,<sup>g</sup> that you may see it, and remember all Yahweh’s commandments, and do them; and that you don’t follow your own heart and your own eyes, after which you used to play the prostitute;
 <sup>40</sup> so that you may remember and do all my commandments, and be holy to your God.
 <sup>41</sup> I am Yahweh your God, who brought you out of the land of Egypt, to be your God: I am Yahweh your God.”
 
@@ -924,11 +924,11 @@
 
 <sup>28</sup> Moses said, “Hereby you shall know that Yahweh has sent me to do all these works; for they are not from my own mind.
 <sup>29</sup> If these men die the common death of all men, or if they experience what all men experience, then Yahweh hasn’t sent me.
-<sup>30</sup> <sup>a</sup>then you shall understand that these men have despised Yahweh.”
+<sup>30</sup> But if Yahweh makes a new thing, and the ground opens its mouth, and swallows them up with all that belong to them, and they go down alive into Sheol,<sup>a</sup> then you shall understand that these men have despised Yahweh.”
 
 <sup>31</sup> As he finished speaking all these words, the ground that was under them split apart.
 <sup>32</sup> The earth opened its mouth and swallowed them up with their households, all of Korah’s men, and all their goods.
-<sup>33</sup> <sup>b</sup>The earth closed on them, and they perished from among the assembly.
+<sup>33</sup> So they, and all that belonged to them went down alive into Sheol.<sup>b</sup> The earth closed on them, and they perished from among the assembly.
 <sup>34</sup> All Israel that were around them fled at their cry; for they said, “Lest the earth swallow us up!”
 <sup>35</sup> Fire came out from Yahweh, and devoured the two hundred fifty men who offered the incense.
 
@@ -997,7 +997,7 @@
 
 <sup>14</sup> “Everything devoted in Israel shall be yours.
 <sup>15</sup> Everything that opens the womb, of all flesh which they offer to Yahweh, both of man and animal, shall be yours. Nevertheless, you shall surely redeem the firstborn of man, and you shall redeem the firstborn of unclean animals.
-<sup>16</sup> <sup>a</sup><sup>b</sup>
+<sup>16</sup> You shall redeem those who are to be redeemed of them from a month old, according to your estimation, for five shekels of money, according to the shekel<sup>a</sup> of the sanctuary, which weighs twenty gerahs.<sup>b</sup>
 
 <sup>17</sup> “But you shall not redeem the firstborn of a cow, or the firstborn of a sheep, or the firstborn of a goat. They are holy. You shall sprinkle their blood on the altar, and shall burn their fat for an offering made by fire, for a pleasant aroma to Yahweh.
 <sup>18</sup> Their meat shall be yours, as the wave offering breast and as the right thigh, it shall be yours.
@@ -1071,7 +1071,7 @@
 
 <sup>12</sup> Yahweh said to Moses and Aaron, “Because you didn’t believe in me, to sanctify me in the eyes of the children of Israel, therefore you shall not bring this assembly into the land which I have given them.”
 
-<sup>13</sup> <sup>a</sup>because the children of Israel strove with Yahweh, and he was sanctified in them.
+<sup>13</sup> These are the waters of Meribah;<sup>a</sup> because the children of Israel strove with Yahweh, and he was sanctified in them.
 
 <sup>14</sup> Moses sent messengers from Kadesh to the king of Edom, saying: “Your brother Israel says: You know all the travail that has happened to us;
 <sup>15</sup> how our fathers went down into Egypt, and we lived in Egypt a long time. The Egyptians mistreated us and our fathers.
@@ -1102,7 +1102,7 @@
 
 <sup>1</sup> The Canaanite, the king of Arad, who lived in the South, heard that Israel came by the way of Atharim. He fought against Israel, and took some of them captive.
 <sup>2</sup> Israel vowed a vow to Yahweh, and said, “If you will indeed deliver this people into my hand, then I will utterly destroy their cities.”
-<sup>3</sup> <sup>a</sup>
+<sup>3</sup> Yahweh listened to the voice of Israel, and delivered up the Canaanites; and they utterly destroyed them and their cities. The name of the place was called Hormah.<sup>a</sup>
 
 <sup>4</sup> They traveled from Mount Hor by the way to the Red Sea, to go around the land of Edom. The soul of the people was very discouraged because of the journey.
 <sup>5</sup> The people spoke against God and against Moses: “Why have you brought us up out of Egypt to die in the wilderness? For there is no bread, there is no water, and our soul loathes this disgusting food!”
@@ -1422,16 +1422,16 @@
 <sup>2</sup> “Command the children of Israel, and tell them, ‘See that you present my offering, my food for my offerings made by fire, as a pleasant aroma to me, in their due season.’
 <sup>3</sup> You shall tell them, ‘This is the offering made by fire which you shall offer to Yahweh: male lambs a year old without defect, two day by day, for a continual burnt offering.
 <sup>4</sup> You shall offer the one lamb in the morning, and you shall offer the other lamb at evening,
-<sup>5</sup> <sup>a</sup><sup>b</sup>of beaten oil.
+<sup>5</sup> with one tenth of an ephah<sup>a</sup> of fine flour for a meal offering, mixed with the fourth part of a hin<sup>b</sup> of beaten oil.
 <sup>6</sup> It is a continual burnt offering which was ordained in Mount Sinai for a pleasant aroma, an offering made by fire to Yahweh.
-<sup>7</sup> <sup>c</sup>for each lamb. You shall pour out a drink offering of strong drink to Yahweh in the holy place.
+<sup>7</sup> Its drink offering shall be the fourth part of a hin<sup>c</sup> for each lamb. You shall pour out a drink offering of strong drink to Yahweh in the holy place.
 <sup>8</sup> The other lamb you shall offer at evening. As the meal offering of the morning, and as its drink offering, you shall offer it, an offering made by fire, for a pleasant aroma to Yahweh.
 
-<sup>9</sup> <sup>d</sup>of fine flour for a meal offering mixed with oil, and its drink offering:
+<sup>9</sup> “ ‘On the Sabbath day, you shall offer two male lambs a year old without defect, and two tenths of an ephah<sup>d</sup> of fine flour for a meal offering mixed with oil, and its drink offering:
 <sup>10</sup> this is the burnt offering of every Sabbath, in addition to the continual burnt offering and its drink offering.
 
 <sup>11</sup> “ ‘In the beginnings of your months, you shall offer a burnt offering to Yahweh: two young bulls, one ram, seven male lambs a year old without defect,
-<sup>12</sup> <sup>e</sup>of fine flour for a meal offering mixed with oil, for each bull; and two tenth parts of fine flour for a meal offering mixed with oil, for the one ram;
+<sup>12</sup> and three tenths of an ephah<sup>e</sup> of fine flour for a meal offering mixed with oil, for each bull; and two tenth parts of fine flour for a meal offering mixed with oil, for the one ram;
 <sup>13</sup> and one tenth part of fine flour mixed with oil for a meal offering to every lamb, as a burnt offering of a pleasant aroma, an offering made by fire to Yahweh.
 <sup>14</sup> Their drink offerings shall be half a hin of wine for a bull, the third part of a hin for the ram, and the fourth part of a hin for a lamb. This is the burnt offering of every month throughout the months of the year.
 <sup>15</sup> Also, one male goat for a sin offering to Yahweh shall be offered in addition to the continual burnt offering and its drink offering.
@@ -1597,7 +1597,7 @@
 <sup>50</sup> We have brought Yahweh’s offering, what every man found: gold ornaments, armlets, bracelets, signet rings, earrings, and necklaces, to make atonement for our souls before Yahweh.”
 
 <sup>51</sup> Moses and Eleazar the priest took their gold, even all worked jewels.
-<sup>52</sup> <sup>a</sup>
+<sup>52</sup> All the gold of the wave offering that they offered up to Yahweh, of the captains of thousands, and of the captains of hundreds, was sixteen thousand seven hundred fifty shekels.<sup>a</sup>
 <sup>53</sup> The men of war had taken booty, every man for himself.
 <sup>54</sup> Moses and Eleazar the priest took the gold of the captains of thousands and of hundreds, and brought it into the Tent of Meeting for a memorial for the children of Israel before Yahweh.
 
@@ -1757,7 +1757,7 @@
 <sup>2</sup> “Command the children of Israel to give to the Levites cities to dwell in out of their inheritance. You shall give pasture lands for the cities around them to the Levites.
 <sup>3</sup> They shall have the cities to dwell in. Their pasture lands shall be for their livestock, and for their possessions, and for all their animals.
 
-<sup>4</sup> <sup>a</sup>around it.
+<sup>4</sup> “The pasture lands of the cities, which you shall give to the Levites, shall be from the wall of the city and outward one thousand cubits<sup>a</sup> around it.
 <sup>5</sup> You shall measure outside of the city for the east side two thousand cubits, and for the south side two thousand cubits, and for the west side two thousand cubits, and for the north side two thousand cubits, the city being in the middle. This shall be the pasture lands of their cities.
 
 <sup>6</sup> “The cities which you shall give to the Levites, they shall be the six cities of refuge, which you shall give for the man slayer to flee to. Besides them you shall give forty-two cities.

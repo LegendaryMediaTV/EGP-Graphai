@@ -1,7 +1,7 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>word by Jeremiah’s mouth might be accomplished, Yahweh stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and put it also in writing, saying,
-<sup>2</sup> <sup>b</sup>of heaven, has given me all the kingdoms of the earth; and he has commanded me to build him a house in Jerusalem, which is in Judah.
+<sup>1</sup> Now in the first year of Cyrus king of Persia, that Yahweh’s<sup>a</sup> word by Jeremiah’s mouth might be accomplished, Yahweh stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and put it also in writing, saying,
+<sup>2</sup> “Cyrus king of Persia says, ‘Yahweh, the God<sup>b</sup> of heaven, has given me all the kingdoms of the earth; and he has commanded me to build him a house in Jerusalem, which is in Judah.
 <sup>3</sup> Whoever there is among you of all his people, may his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of Yahweh, the God of Israel (he is God), which is in Jerusalem.
 <sup>4</sup> Whoever is left, in any place where he lives, let the men of his place help him with silver, with gold, with goods, and with animals, in addition to the free will offering for God’s house which is in Jerusalem.’ ”
 
@@ -81,7 +81,7 @@
 <sup>57</sup> the children of Shephatiah, the children of Hattil, the children of Pochereth Hazzebaim, the children of Ami.
 <sup>58</sup> All the temple servants, and the children of Solomon’s servants, were three hundred ninety-two.
 
-<sup>59</sup> <sup>a</sup>whether they were of Israel:
+<sup>59</sup> These were those who went up from Tel Melah, Tel Harsha, Cherub, Addan, and Immer; but they could not show their fathers’ houses and their offspring,<sup>a</sup> whether they were of Israel:
 <sup>60</sup> the children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred fifty-two.
 <sup>61</sup> Of the children of the priests: the children of Habaiah, the children of Hakkoz, and the children of Barzillai, who took a wife of the daughters of Barzillai the Gileadite, and was called after their name.
 <sup>62</sup> These sought their place among those who were registered by genealogy, but they were not found; therefore they were deemed disqualified and removed from the priesthood.
@@ -93,7 +93,7 @@
 <sup>67</sup> their camels, four hundred thirty-five; their donkeys, six thousand seven hundred twenty.
 
 <sup>68</sup> Some of the heads of fathers’ households, when they came to Yahweh’s house which is in Jerusalem, offered willingly for God’s house to set it up in its place.
-<sup>69</sup> <sup>b</sup><sup>c</sup>of silver, and one hundred priests’ garments.
+<sup>69</sup> They gave according to their ability into the treasury of the work sixty-one thousand darics of gold,<sup>b</sup> five thousand minas<sup>c</sup> of silver, and one hundred priests’ garments.
 
 <sup>70</sup> So the priests and the Levites, with some of the people, the singers, the gatekeepers, and the temple servants, lived in their cities, and all Israel in their cities.
 
@@ -180,7 +180,7 @@
 <sup>1</sup> Then Darius the king made a decree, and the house of the archives, where the treasures were laid up in Babylon, was searched.
 <sup>2</sup> A scroll was found at Achmetha, in the palace that is in the province of Media, and in it this was written for a record:
 
-<sup>3</sup> <sup>a</sup>and its width sixty cubits;
+<sup>3</sup> In the first year of Cyrus the king, Cyrus the king made a decree: Concerning God’s house at Jerusalem, let the house be built, the place where they offer sacrifices, and let its foundations be strongly laid, with its height sixty cubits<sup>a</sup> and its width sixty cubits;
 <sup>4</sup> with three courses of great stones and a course of new timber. Let the expenses be given out of the king’s house.
 <sup>5</sup> Also let the gold and silver vessels of God’s house, which Nebuchadnezzar took out of the temple which is at Jerusalem and brought to Babylon, be restored and brought again to the temple which is at Jerusalem, everything to its place. You shall put them in God’s house.
 <sup>6</sup> Now therefore, Tattenai, governor beyond the River, Shetharbozenai, and your companions the Apharsachites, who are beyond the River, you must stay far from there.
@@ -232,7 +232,7 @@
 <sup>19</sup> The vessels that are given to you for the service of the house of your God, deliver before the God of Jerusalem.
 <sup>20</sup> Whatever more will be needed for the house of your God, which you may have occasion to give, give it out of the king’s treasure house.
 <sup>21</sup> I, even I, Artaxerxes the king, make a decree to all the treasurers who are beyond the River, that whatever Ezra the priest, the scribe of the law of the God of heaven, requires of you, it shall be done with all diligence,
-<sup>22</sup> <sup>a</sup><sup>b</sup><sup>c</sup>of wine, and to one hundred baths of oil, and salt without prescribing how much.
+<sup>22</sup> up to one hundred talents<sup>a</sup> of silver, and to one hundred cors<sup>b</sup> of wheat, and to one hundred baths<sup>c</sup> of wine, and to one hundred baths of oil, and salt without prescribing how much.
 <sup>23</sup> Whatever is commanded by the God of heaven, let it be done exactly for the house of the God of heaven; for why should there be wrath against the realm of the king and his sons?
 <sup>24</sup> Also we inform you that it shall not be lawful to impose tribute, custom, or toll on any of the priests, Levites, singers, gatekeepers, temple servants, or laborers of this house of God.
 <sup>25</sup> You, Ezra, according to the wisdom of your God that is in your hand, appoint magistrates and judges who may judge all the people who are beyond the River, who all know the laws of your God; and teach him who doesn’t know them.
@@ -275,8 +275,8 @@
 
 <sup>24</sup> Then I set apart twelve of the chiefs of the priests, even Sherebiah, Hashabiah, and ten of their brothers with them,
 <sup>25</sup> and weighed to them the silver, the gold, and the vessels, even the offering for the house of our God, which the king, his counselors, his princes, and all Israel there present, had offered.
-<sup>26</sup> <sup>a</sup>one hundred talents of silver vessels, one hundred talents of gold,
-<sup>27</sup> <sup>b</sup>and two vessels of fine bright bronze, precious as gold.
+<sup>26</sup> I weighed into their hand six hundred fifty talents of silver,<sup>a</sup> one hundred talents of silver vessels, one hundred talents of gold,
+<sup>27</sup> twenty bowls of gold weighing one thousand darics,<sup>b</sup> and two vessels of fine bright bronze, precious as gold.
 <sup>28</sup> I said to them, “You are holy to Yahweh, and the vessels are holy. The silver and the gold are a free will offering to Yahweh, the God of your fathers.
 <sup>29</sup> Watch and keep them until you weigh them before the chiefs of the priests, the Levites, and the princes of the fathers’ households of Israel at Jerusalem, in the rooms of Yahweh’s house.”
 
@@ -313,7 +313,7 @@
 
 <sup>13</sup> “After all that has come on us for our evil deeds and for our great guilt, since you, our God, have punished us less than our iniquities deserve, and have given us such a remnant,
 <sup>14</sup> shall we again break your commandments, and join ourselves with the peoples that do these abominations? Wouldn’t you be angry with us until you had consumed us, so that there would be no remnant, nor any to escape?
-<sup>15</sup> <sup>a</sup>we are before you in our guiltiness; for no one can stand before you because of this.”
+<sup>15</sup> Yahweh, the God of Israel, you are righteous; for we are left a remnant that has escaped, as it is today. Behold,<sup>a</sup> we are before you in our guiltiness; for no one can stand before you because of this.”
 
 > - <sup>a</sup> 15. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 

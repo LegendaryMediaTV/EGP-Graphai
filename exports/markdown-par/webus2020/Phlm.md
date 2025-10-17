@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup>Jesus, and Timothy our brother, to Philemon, our beloved fellow worker,
+<sup>1</sup> Paul, a prisoner of Christ<sup>a</sup> Jesus, and Timothy our brother, to Philemon, our beloved fellow worker,
 <sup>2</sup> to the beloved Apphia, to Archippus our fellow soldier, and to the assembly in your house:
 <sup>3</sup> Grace to you and peace from God our Father and the Lord Jesus Christ.
 
@@ -11,7 +11,7 @@
 
 <sup>8</sup> Therefore though I have all boldness in Christ to command you that which is appropriate,
 <sup>9</sup> yet for love’s sake I rather appeal to you, being such a one as Paul, the aged, but also a prisoner of Jesus Christ.
-<sup>10</sup> <sup>b</sup>
+<sup>10</sup> I appeal to you for my child Onesimus, whom I have become the father of in my chains,<sup>b</sup>
 <sup>11</sup> who once was useless to you, but now is useful to you and to me.
 <sup>12</sup> I am sending him back. Therefore receive him, that is, my own heart,
 <sup>13</sup> whom I desired to keep with me, that on your behalf he might serve me in my chains for the Good News.

@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> <sup>a</sup><sup>b</sup>was with him, and made him exceedingly great.
+<sup>1</sup> Solomon the son of David was firmly established in his kingdom, and Yahweh<sup>a</sup> his God<sup>b</sup> was with him, and made him exceedingly great.
 
 <sup>2</sup> Solomon spoke to all Israel, to the captains of thousands and of hundreds, to the judges, and to every prince in all Israel, the heads of the fathers’ households.
 <sup>3</sup> Then Solomon, and all the assembly with him, went to the high place that was at Gibeon; for God’s Tent of Meeting was there, which Yahweh’s servant Moses had made in the wilderness.
@@ -22,7 +22,7 @@
 <sup>14</sup> Solomon gathered chariots and horsemen. He had one thousand four hundred chariots and twelve thousand horsemen that he placed in the chariot cities, and with the king at Jerusalem.
 <sup>15</sup> The king made silver and gold to be as common as stones in Jerusalem, and he made cedars to be as common as the sycamore trees that are in the lowland.
 <sup>16</sup> The horses which Solomon had were brought out of Egypt and from Kue. The king’s merchants purchased them from Kue.
-<sup>17</sup> <sup>c</sup><sup>d</sup>kings.
+<sup>17</sup> They imported from Egypt then exported a chariot for six hundred pieces of silver and a horse for one hundred fifty.<sup>c</sup> They also exported them to the Hittite kings and the Syrian<sup>d</sup> kings.
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 1. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
@@ -35,7 +35,7 @@
 <sup>2</sup> Solomon counted out seventy thousand men to bear burdens, eighty thousand men who were stone cutters in the mountains, and three thousand six hundred to oversee them.
 
 <sup>3</sup> Solomon sent to Huram the king of Tyre, saying, “As you dealt with David my father, and sent him cedars to build him a house in which to dwell, so deal with me.
-<sup>4</sup> <sup>a</sup>I am about to build a house for the name of Yahweh my God, to dedicate it to him, to burn before him incense of sweet spices, for the continual show bread, and for the burnt offerings morning and evening, on the Sabbaths, on the new moons, and on the set feasts of Yahweh our God. This is an ordinance forever to Israel.
+<sup>4</sup> Behold,<sup>a</sup> I am about to build a house for the name of Yahweh my God, to dedicate it to him, to burn before him incense of sweet spices, for the continual show bread, and for the burnt offerings morning and evening, on the Sabbaths, on the new moons, and on the set feasts of Yahweh our God. This is an ordinance forever to Israel.
 
 <sup>5</sup> “The house which I am building will be great, for our God is greater than all gods.
 <sup>6</sup> But who is able to build him a house, since heaven and the heaven of heavens can’t contain him? Who am I then, that I should build him a house, except just to burn incense before him?
@@ -44,12 +44,12 @@
 
 <sup>8</sup> “Send me also cedar trees, cypress trees, and algum trees out of Lebanon, for I know that your servants know how to cut timber in Lebanon. Behold, my servants will be with your servants,
 <sup>9</sup> even to prepare me timber in abundance; for the house which I am about to build will be great and wonderful.
-<sup>10</sup> <sup>b</sup><sup>c</sup>of barley, twenty thousand baths of wine, and twenty thousand baths of oil.”
+<sup>10</sup> Behold, I will give to your servants, the cutters who cut timber, twenty thousand cors<sup>b</sup> of beaten wheat, twenty thousand baths<sup>c</sup> of barley, twenty thousand baths of wine, and twenty thousand baths of oil.”
 
 <sup>11</sup> Then Huram the king of Tyre answered in writing, which he sent to Solomon, “Because Yahweh loves his people, he has made you king over them.”
 <sup>12</sup> Huram continued, “Blessed be Yahweh, the God of Israel, who made heaven and earth, who has given to David the king a wise son, endowed with discretion and understanding, who would build a house for Yahweh and a house for his kingdom.
 
-<sup>13</sup> <sup>d</sup>
+<sup>13</sup> Now I have sent a skillful man, endowed with understanding, Huram-abi,<sup>d</sup>
 <sup>14</sup> the son of a woman of the daughters of Dan; and his father was a man of Tyre. He is skillful to work in gold, in silver, in bronze, in iron, in stone, in timber, in purple, in blue, in fine linen, and in crimson, also to engrave any kind of engraving and to devise any device, that there may be a place appointed to him with your skillful men, and with the skillful men of my lord David your father.
 
 <sup>15</sup> “Now therefore, the wheat, the barley, the oil, and the wine which my lord has spoken of, let him send to his servants;
@@ -67,14 +67,14 @@
 
 <sup>1</sup> Then Solomon began to build Yahweh’s house at Jerusalem on Mount Moriah, where Yahweh appeared to David his father, which he prepared in the place that David had appointed, on the threshing floor of Ornan the Jebusite.
 <sup>2</sup> He began to build in the second day of the second month, in the fourth year of his reign.
-<sup>3</sup> <sup>a</sup>after the first measure was sixty cubits, and the width twenty cubits.
+<sup>3</sup> Now these are the foundations which Solomon laid for the building of God’s house: the length by cubits<sup>a</sup> after the first measure was sixty cubits, and the width twenty cubits.
 <sup>4</sup> The porch that was in front, its length, across the width of the house, was twenty cubits, and the height one hundred twenty; and he overlaid it within with pure gold.
 <sup>5</sup> He made the larger room with a ceiling of cypress wood, which he overlaid with fine gold, and ornamented it with palm trees and chains.
 <sup>6</sup> He decorated the house with precious stones for beauty. The gold was gold from Parvaim.
 <sup>7</sup> He also overlaid the house, the beams, the thresholds, its walls, and its doors with gold, and engraved cherubim on the walls.
 
-<sup>8</sup> <sup>b</sup>
-<sup>9</sup> <sup>c</sup>of gold. He overlaid the upper rooms with gold.
+<sup>8</sup> He made the most holy place. Its length, according to the width of the house, was twenty cubits, and its width twenty cubits; and he overlaid it with fine gold, amounting to six hundred talents.<sup>b</sup>
+<sup>9</sup> The weight of the nails was fifty shekels<sup>c</sup> of gold. He overlaid the upper rooms with gold.
 
 <sup>10</sup> In the most holy place he made two cherubim by carving, and they overlaid them with gold.
 <sup>11</sup> The wings of the cherubim were twenty cubits long: the wing of the one was five cubits, reaching to the wall of the house; and the other wing was five cubits, reaching to the wing of the other cherub.
@@ -92,11 +92,11 @@
 
 ## Chapter 4
 
-<sup>1</sup> <sup>a</sup>long, twenty cubits wide, and ten cubits high.
-<sup>2</sup> <sup>b</sup>of ten cubits from brim to brim. It was round, five cubits high, and thirty cubits in circumference.
+<sup>1</sup> Then he made an altar of bronze, twenty cubits<sup>a</sup> long, twenty cubits wide, and ten cubits high.
+<sup>2</sup> Also he made the molten sea<sup>b</sup> of ten cubits from brim to brim. It was round, five cubits high, and thirty cubits in circumference.
 <sup>3</sup> Under it was the likeness of oxen, which encircled it, for ten cubits, encircling the sea. The oxen were in two rows, cast when it was cast.
 <sup>4</sup> It stood on twelve oxen, three looking toward the north, three looking toward the west, three looking toward the south, and three looking toward the east; and the sea was set on them above, and all their hindquarters were inward.
-<sup>5</sup> <sup>c</sup>
+<sup>5</sup> It was a handbreadth thick. Its brim was made like the brim of a cup, like the flower of a lily. It received and held three thousand baths.<sup>c</sup>
 <sup>6</sup> He also made ten basins, and put five on the right hand and five on the left, to wash in them. The things that belonged to the burnt offering were washed in them, but the sea was for the priests to wash in.
 
 <sup>7</sup> He made the ten lamp stands of gold according to the ordinance concerning them; and he set them in the temple, five on the right hand and five on the left.
@@ -109,7 +109,7 @@
 <sup>13</sup> and the four hundred pomegranates for the two networks—two rows of pomegranates for each network, to cover the two bowls of the capitals that were on the pillars.
 <sup>14</sup> He also made the bases, and he made the basins on the bases—
 <sup>15</sup> one sea, and the twelve oxen under it.
-<sup>16</sup> <sup>d</sup>also made the pots, the shovels, the forks, and all its vessels for King Solomon, for Yahweh’s house, of bright bronze.
+<sup>16</sup> Huram-abi<sup>d</sup> also made the pots, the shovels, the forks, and all its vessels for King Solomon, for Yahweh’s house, of bright bronze.
 <sup>17</sup> The king cast them in the plain of the Jordan, in the clay ground between Succoth and Zeredah.
 <sup>18</sup> Thus Solomon made all these vessels in great abundance, so that the weight of the bronze could not be determined.
 
@@ -159,7 +159,7 @@
 <sup>11</sup> There I have set the ark, in which is Yahweh’s covenant, which he made with the children of Israel.”
 
 <sup>12</sup> He stood before Yahweh’s altar in the presence of all the assembly of Israel, and spread out his hands
-<sup>13</sup> <sup>a</sup>long, five cubits wide, and three cubits high, and had set it in the middle of the court; and he stood on it, and knelt down on his knees before all the assembly of Israel, and spread out his hands toward heaven).
+<sup>13</sup> (for Solomon had made a bronze platform, five cubits<sup>a</sup> long, five cubits wide, and three cubits high, and had set it in the middle of the court; and he stood on it, and knelt down on his knees before all the assembly of Israel, and spread out his hands toward heaven).
 <sup>14</sup> Then he said, “Yahweh, the God of Israel, there is no God like you in heaven or on earth—you who keep covenant and loving kindness with your servants who walk before you with all their heart;
 <sup>15</sup> who have kept with your servant David my father that which you promised him. Yes, you spoke with your mouth, and have fulfilled it with your hand, as it is today.
 
@@ -255,7 +255,7 @@
 <sup>11</sup> Solomon brought up Pharaoh’s daughter out of David’s city to the house that he had built for her; for he said, “My wife shall not dwell in the house of David king of Israel, because the places where Yahweh’s ark has come are holy.”
 
 <sup>12</sup> Then Solomon offered burnt offerings to Yahweh on Yahweh’s altar which he had built before the porch,
-<sup>13</sup> <sup>a</sup>
+<sup>13</sup> even as the duty of every day required, offering according to the commandment of Moses on the Sabbaths, on the new moons, and on the set feasts, three times per year, during the feast of unleavened bread, during the feast of weeks, and during the feast of booths.<sup>a</sup>
 
 <sup>14</sup> He appointed, according to the ordinance of David his father, the divisions of the priests to their service, and the Levites to their offices, to praise and to minister before the priests, as the duty of every day required, the doorkeepers also by their divisions at every gate, for David the man of God had so commanded.
 <sup>15</sup> They didn’t depart from the commandment of the king to the priests and Levites concerning any matter or concerning the treasures.
@@ -263,7 +263,7 @@
 <sup>16</sup> Now all the work of Solomon was accomplished from the day of the foundation of Yahweh’s house until it was finished. So Yahweh’s house was completed.
 
 <sup>17</sup> Then Solomon went to Ezion Geber and to Eloth, on the seashore in the land of Edom.
-<sup>18</sup> <sup>b</sup>of gold, and brought them to King Solomon.
+<sup>18</sup> Huram sent him ships and servants who had knowledge of the sea by the hands of his servants; and they came with the servants of Solomon to Ophir, and brought from there four hundred fifty talents<sup>b</sup> of gold, and brought them to King Solomon.
 
 > - <sup>a</sup> 13. or, feast of tents (Sukkot)
 > - <sup>b</sup> 18. A talent is about 30 kilograms or 66 pounds or 965 Troy ounces, so 450 talents is about 13.5 metric tons
@@ -273,23 +273,23 @@
 <sup>1</sup> When the queen of Sheba heard of the fame of Solomon, she came to test Solomon with hard questions at Jerusalem, with a very great caravan, including camels that bore spices, gold in abundance, and precious stones. When she had come to Solomon, she talked with him about all that was in her heart.
 <sup>2</sup> Solomon answered all her questions. There wasn’t anything hidden from Solomon which he didn’t tell her.
 <sup>3</sup> When the queen of Sheba had seen the wisdom of Solomon, the house that he had built,
-<sup>4</sup> <sup>a</sup>
+<sup>4</sup> the food of his table, the seating of his servants, the attendance of his ministers, their clothing, his cup bearers and their clothing, and his ascent by which he went up to Yahweh’s house, there was no more spirit in her.<sup>a</sup>
 
 <sup>5</sup> She said to the king, “It was a true report that I heard in my own land of your acts and of your wisdom.
 <sup>6</sup> However I didn’t believe their words until I came, and my eyes had seen it; and behold half of the greatness of your wisdom wasn’t told me. You exceed the fame that I heard!
 <sup>7</sup> Happy are your men, and happy are these your servants, who stand continually before you and hear your wisdom.
 <sup>8</sup> Blessed be Yahweh your God, who delighted in you and set you on his throne to be king for Yahweh your God, because your God loved Israel, to establish them forever. Therefore he made you king over them, to do justice and righteousness.”
 
-<sup>9</sup> <sup>b</sup>of gold, spices in great abundance, and precious stones. There was never before such spice as the queen of Sheba gave to King Solomon.
+<sup>9</sup> She gave the king one hundred and twenty talents<sup>b</sup> of gold, spices in great abundance, and precious stones. There was never before such spice as the queen of Sheba gave to King Solomon.
 
-<sup>10</sup> <sup>c</sup>and precious stones.
+<sup>10</sup> The servants of Huram and the servants of Solomon, who brought gold from Ophir, also brought algum trees<sup>c</sup> and precious stones.
 <sup>11</sup> The king used algum tree wood to make terraces for Yahweh’s house and for the king’s house, and harps and stringed instruments for the singers. There were none like these seen before in the land of Judah.
 <sup>12</sup> King Solomon gave to the queen of Sheba all her desire, whatever she asked, more than that which she had brought to the king. So she turned and went to her own land, she and her servants.
 
-<sup>13</sup> <sup>d</sup>of gold,
+<sup>13</sup> Now the weight of gold that came to Solomon in one year was six hundred sixty-six talents<sup>d</sup> of gold,
 <sup>14</sup> in addition to that which the traders and merchants brought. All the kings of Arabia and the governors of the country brought gold and silver to Solomon.
-<sup>15</sup> <sup>e</sup>of beaten gold went to one large shield.
-<sup>16</sup> <sup>f</sup>of gold went to one shield. The king put them in the House of the Forest of Lebanon.
+<sup>15</sup> King Solomon made two hundred large shields of beaten gold. Six hundred shekels<sup>e</sup> of beaten gold went to one large shield.
+<sup>16</sup> He made three hundred shields of beaten gold. Three hundred shekels<sup>f</sup> of gold went to one shield. The king put them in the House of the Forest of Lebanon.
 <sup>17</sup> Moreover the king made a great throne of ivory, and overlaid it with pure gold.
 <sup>18</sup> There were six steps to the throne, with a footstool of gold, which were fastened to the throne, and armrests on either side by the place of the seat, and two lions standing beside the armrests.
 <sup>19</sup> Twelve lions stood there on the one side and on the other on the six steps. There was nothing like it made in any other kingdom.
@@ -591,7 +591,7 @@
 
 <sup>5</sup> Jehoshaphat stood in the assembly of Judah and Jerusalem, in Yahweh’s house, before the new court;
 <sup>6</sup> and he said, “Yahweh, the God of our fathers, aren’t you God in heaven? Aren’t you ruler over all the kingdoms of the nations? Power and might are in your hand, so that no one is able to withstand you.
-<sup>7</sup> <sup>a</sup>of Abraham your friend forever?
+<sup>7</sup> Didn’t you, our God, drive out the inhabitants of this land before your people Israel, and give it to the offspring<sup>a</sup> of Abraham your friend forever?
 <sup>8</sup> They lived in it, and have built you a sanctuary in it for your name, saying,
 <sup>9</sup> ‘If evil comes on us—the sword, judgment, pestilence, or famine—we will stand before this house, and before you (for your name is in this house), and cry to you in our affliction, and you will hear and save.’
 <sup>10</sup> Now, behold, the children of Ammon and Moab and Mount Seir, whom you would not let Israel invade when they came out of the land of Egypt, but they turned away from them, and didn’t destroy them;
@@ -616,7 +616,7 @@
 
 <sup>24</sup> When Judah came to the place overlooking the wilderness, they looked at the multitude; and behold, they were dead bodies fallen to the earth, and there were none who escaped.
 <sup>25</sup> When Jehoshaphat and his people came to take their plunder, they found among them in abundance both riches and dead bodies with precious jewels, which they stripped off for themselves, more than they could carry away. They took plunder for three days, it was so much.
-<sup>26</sup> <sup>b</sup>Valley, for there they blessed Yahweh. Therefore the name of that place was called “Beracah Valley” to this day.
+<sup>26</sup> On the fourth day, they assembled themselves in Beracah<sup>b</sup> Valley, for there they blessed Yahweh. Therefore the name of that place was called “Beracah Valley” to this day.
 <sup>27</sup> Then they returned, every man of Judah and Jerusalem, with Jehoshaphat in front of them, to go again to Jerusalem with joy; for Yahweh had made them to rejoice over their enemies.
 <sup>28</sup> They came to Jerusalem with stringed instruments, harps, and trumpets to Yahweh’s house.
 <sup>29</sup> The fear of God was on all the kingdoms of the countries when they heard that Yahweh fought against the enemies of Israel.
@@ -681,7 +681,7 @@
 
 <sup>1</sup> In the seventh year, Jehoiada strengthened himself, and took the captains of hundreds—Azariah the son of Jeroham, Ishmael the son of Jehohanan, Azariah the son of Obed, Maaseiah the son of Adaiah, and Elishaphat the son of Zichri—into a covenant with him.
 <sup>2</sup> They went around in Judah and gathered the Levites out of all the cities of Judah, and the heads of fathers’ households of Israel, and they came to Jerusalem.
-<sup>3</sup> <sup>a</sup>said to them, “Behold, the king’s son must reign, as Yahweh has spoken concerning the sons of David.
+<sup>3</sup> All the assembly made a covenant with the king in God’s house. Jehoiada<sup>a</sup> said to them, “Behold, the king’s son must reign, as Yahweh has spoken concerning the sons of David.
 <sup>4</sup> This is the thing that you must do: a third part of you, who come in on the Sabbath, of the priests and of the Levites, shall be gatekeepers of the thresholds.
 <sup>5</sup> A third part shall be at the king’s house; and a third part at the gate of the foundation. All the people will be in the courts of Yahweh’s house.
 <sup>6</sup> But let no one come into Yahweh’s house except the priests and those who minister of the Levites. They shall come in, for they are holy, but all the people shall follow Yahweh’s instructions.
@@ -752,11 +752,11 @@
 <sup>4</sup> But he didn’t put their children to death, but did according to that which is written in the law in the book of Moses, as Yahweh commanded, saying, “The fathers shall not die for the children, neither shall the children die for the fathers; but every man shall die for his own sin.”
 
 <sup>5</sup> Moreover Amaziah gathered Judah together and ordered them according to their fathers’ houses, under captains of thousands and captains of hundreds, even all Judah and Benjamin. He counted them from twenty years old and upward, and found that there were three hundred thousand chosen men, able to go out to war, who could handle spear and shield.
-<sup>6</sup> <sup>a</sup>of silver.
+<sup>6</sup> He also hired one hundred thousand mighty men of valor out of Israel for one hundred talents<sup>a</sup> of silver.
 <sup>7</sup> A man of God came to him, saying, “O king, don’t let the army of Israel go with you, for Yahweh is not with Israel, with all the children of Ephraim.
 <sup>8</sup> But if you will go, take action, and be strong for the battle. God will overthrow you before the enemy; for God has power to help, and to overthrow.”
 
-<sup>9</sup> <sup>b</sup>which I have given to the army of Israel?” The man of God answered, “Yahweh is able to give you much more than this.”
+<sup>9</sup> Amaziah said to the man of God, “But what shall we do for the hundred talents<sup>b</sup> which I have given to the army of Israel?” The man of God answered, “Yahweh is able to give you much more than this.”
 
 <sup>10</sup> Then Amaziah separated them, the army that had come to him out of Ephraim, to go home again. Therefore their anger was greatly kindled against Judah, and they returned home in fierce anger.
 
@@ -778,7 +778,7 @@
 <sup>21</sup> So Joash king of Israel went up, and he and Amaziah king of Judah looked one another in the face at Beth Shemesh, which belongs to Judah.
 <sup>22</sup> Judah was defeated by Israel; so every man fled to his tent.
 
-<sup>23</sup> <sup>c</sup>
+<sup>23</sup> Joash king of Israel took Amaziah king of Judah, the son of Joash the son of Jehoahaz, at Beth Shemesh and brought him to Jerusalem, and broke down the wall of Jerusalem from the gate of Ephraim to the corner gate, four hundred cubits.<sup>c</sup>
 <sup>24</sup> He took all the gold and silver, and all the vessels that were found in God’s house with Obed-Edom, and the treasures of the king’s house, and the hostages, and returned to Samaria.
 
 <sup>25</sup> Amaziah the son of Joash, king of Judah, lived for fifteen years after the death of Joash, son of Jehoahaz, king of Israel.
@@ -825,7 +825,7 @@
 <sup>2</sup> He did that which was right in Yahweh’s eyes, according to all that his father Uzziah had done. However he didn’t enter into Yahweh’s temple. The people still acted corruptly.
 <sup>3</sup> He built the upper gate of Yahweh’s house, and he built much on the wall of Ophel.
 <sup>4</sup> Moreover he built cities in the hill country of Judah, and in the forests he built fortresses and towers.
-<sup>5</sup> <sup>a</sup><sup>b</sup><sup>c</sup>The children of Ammon also gave that much to him in the second year, and in the third.
+<sup>5</sup> He also fought with the king of the children of Ammon, and prevailed against them. The children of Ammon gave him the same year one hundred talents<sup>a</sup> of silver, ten thousand cors<sup>b</sup> of wheat, and ten thousand cors of barley.<sup>c</sup> The children of Ammon also gave that much to him in the second year, and in the third.
 <sup>6</sup> So Jotham became mighty, because he ordered his ways before Yahweh his God.
 <sup>7</sup> Now the rest of the acts of Jotham, and all his wars and his ways, behold, they are written in the book of the kings of Israel and Judah.
 <sup>8</sup> He was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem.
@@ -1000,7 +1000,7 @@
 
 <sup>20</sup> Hezekiah the king and Isaiah the prophet, the son of Amoz, prayed because of this, and cried to heaven.
 
-<sup>21</sup> <sup>a</sup>killed him there with the sword.
+<sup>21</sup> Yahweh sent an angel, who cut off all the mighty men of valor, the leaders, and captains in the camp of the king of Assyria. So he returned with shame of face to his own land. When he had come into the house of his god, those who came out of his own body<sup>a</sup> killed him there with the sword.
 <sup>22</sup> Thus Yahweh saved Hezekiah and the inhabitants of Jerusalem from the hand of Sennacherib the king of Assyria and from the hand of all others, and guided them on every side.
 <sup>23</sup> Many brought gifts to Yahweh to Jerusalem, and precious things to Hezekiah king of Judah, so that he was exalted in the sight of all nations from then on.
 
@@ -1044,7 +1044,7 @@
 <sup>17</sup> Nevertheless the people still sacrificed in the high places, but only to Yahweh their God.
 
 <sup>18</sup> Now the rest of the acts of Manasseh, and his prayer to his God, and the words of the seers who spoke to him in the name of Yahweh, the God of Israel, behold, they are written among the acts of the kings of Israel.
-<sup>19</sup> <sup>a</sup>
+<sup>19</sup> His prayer also, and how God listened to his request, and all his sin and his trespass, and the places in which he built high places and set up the Asherah poles and the engraved images before he humbled himself: behold, they are written in the history of Hozai.<sup>a</sup>
 <sup>20</sup> So Manasseh slept with his fathers, and they buried him in his own house; and Amon his son reigned in his place.
 
 <sup>21</sup> Amon was twenty-two years old when he began to reign; and he reigned two years in Jerusalem.
@@ -1136,7 +1136,7 @@
 
 <sup>1</sup> Then the people of the land took Jehoahaz the son of Josiah, and made him king in his father’s place in Jerusalem.
 <sup>2</sup> Joahaz was twenty-three years old when he began to reign; and he reigned three months in Jerusalem.
-<sup>3</sup> <sup>a</sup>of gold.
+<sup>3</sup> The king of Egypt removed him from office at Jerusalem, and fined the land one hundred talents of silver and a talent<sup>a</sup> of gold.
 <sup>4</sup> The king of Egypt made Eliakim his brother king over Judah and Jerusalem, and changed his name to Jehoiakim. Neco took Joahaz his brother, and carried him to Egypt.
 
 <sup>5</sup> Jehoiakim was twenty-five years old when he began to reign, and he reigned eleven years in Jerusalem. He did that which was evil in Yahweh his God’s sight.

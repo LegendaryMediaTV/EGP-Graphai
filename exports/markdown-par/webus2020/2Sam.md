@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> After the death of Saul, when David had returned from the slaughter of the Amalekites, and David had stayed two days in Ziklag,
-<sup>2</sup> <sup>a</sup>a man came out of the camp from Saul, with his clothes torn and earth on his head. When he came to David, he fell to the earth and showed respect.
+<sup>2</sup> on the third day, behold,<sup>a</sup> a man came out of the camp from Saul, with his clothes torn and earth on his head. When he came to David, he fell to the earth and showed respect.
 
 <sup>3</sup> David said to him, “Where do you come from?” He said to him, “I have escaped out of the camp of Israel.”
 
@@ -16,7 +16,7 @@
 <sup>10</sup> So I stood beside him and killed him, because I was sure that he could not live after he had fallen. I took the crown that was on his head and the bracelet that was on his arm, and have brought them here to my lord.”
 
 <sup>11</sup> Then David took hold on his clothes and tore them; and all the men who were with him did likewise.
-<sup>12</sup> <sup>b</sup>and for the house of Israel, because they had fallen by the sword.
+<sup>12</sup> They mourned, wept, and fasted until evening for Saul and for Jonathan his son, and for the people of Yahweh,<sup>b</sup> and for the house of Israel, because they had fallen by the sword.
 
 <sup>13</sup> David said to the young man who told him, “Where are you from?” He answered, “I am the son of a foreigner, an Amalekite.”
 
@@ -59,7 +59,7 @@
 <sup>13</sup> Joab the son of Zeruiah and David’s servants went out, and met them by the pool of Gibeon; and they sat down, the one on the one side of the pool and the other on the other side of the pool.
 <sup>14</sup> Abner said to Joab, “Please let the young men arise and compete before us!” Joab said, “Let them arise!”
 <sup>15</sup> Then they arose and went over by number: twelve for Benjamin and for Ishbosheth the son of Saul, and twelve of David’s servants.
-<sup>16</sup> <sup>a</sup>
+<sup>16</sup> They each caught his opponent by the head and thrust his sword in his fellow’s side; so they fell down together. Therefore that place in Gibeon was called Helkath Hazzurim.<sup>a</sup>
 <sup>17</sup> The battle was very severe that day; and Abner was beaten, and the men of Israel, before David’s servants.
 <sup>18</sup> The three sons of Zeruiah were there: Joab, Abishai, and Asahel. Asahel was as light of foot as a wild gazelle.
 <sup>19</sup> Asahel pursued Abner. He didn’t turn to the right hand or to the left from following Abner.
@@ -74,7 +74,7 @@
 <sup>25</sup> The children of Benjamin gathered themselves together after Abner and became one band, and stood on the top of a hill.
 <sup>26</sup> Then Abner called to Joab, and said, “Shall the sword devour forever? Don’t you know that it will be bitterness in the latter end? How long will it be then, before you ask the people to return from following their brothers?”
 
-<sup>27</sup> <sup>b</sup>lives, if you had not spoken, surely then in the morning the people would have gone away, and not each followed his brother.”
+<sup>27</sup> Joab said, “As God<sup>b</sup> lives, if you had not spoken, surely then in the morning the people would have gone away, and not each followed his brother.”
 <sup>28</sup> So Joab blew the trumpet; and all the people stood still and pursued Israel no more, and they fought no more.
 <sup>29</sup> Abner and his men went all that night through the Arabah; and they passed over the Jordan, and went through all Bithron, and came to Mahanaim.
 
@@ -150,7 +150,7 @@
 <sup>5</sup> The sons of Rimmon the Beerothite, Rechab and Baanah, went out and came at about the heat of the day to the house of Ishbosheth as he took his rest at noon.
 <sup>6</sup> They came there into the middle of the house as though they would have fetched wheat, and they struck him in the body; and Rechab and Baanah his brother escaped.
 <sup>7</sup> Now when they came into the house as he lay on his bed in his bedroom, they struck him, killed him, beheaded him, and took his head, and went by the way of the Arabah all night.
-<sup>8</sup> <sup>a</sup>”
+<sup>8</sup> They brought the head of Ishbosheth to David to Hebron, and said to the king, “Behold, the head of Ishbosheth, the son of Saul, your enemy, who sought your life! Yahweh has avenged my lord the king today of Saul and of his offspring.<sup>a</sup> ”
 
 <sup>9</sup> David answered Rechab and Baanah his brother, the sons of Rimmon the Beerothite, and said to them, “As Yahweh lives, who has redeemed my soul out of all adversity,
 <sup>10</sup> when someone told me, ‘Behold, Saul is dead,’ thinking that he brought good news, I seized him and killed him in Ziklag, which was the reward I gave him for his news.
@@ -186,7 +186,7 @@
 <sup>18</sup> Now the Philistines had come and spread themselves in the valley of Rephaim.
 <sup>19</sup> David inquired of Yahweh, saying, “Shall I go up against the Philistines? Will you deliver them into my hand?” Yahweh said to David, “Go up; for I will certainly deliver the Philistines into your hand.”
 
-<sup>20</sup> <sup>a</sup>
+<sup>20</sup> David came to Baal Perazim, and David struck them there. Then he said, “Yahweh has broken my enemies before me, like the breach of waters.” Therefore he called the name of that place Baal Perazim.<sup>a</sup>
 <sup>21</sup> They left their images there, and David and his men took them away.
 
 <sup>22</sup> The Philistines came up yet again and spread themselves in the valley of Rephaim.
@@ -207,7 +207,7 @@
 
 <sup>6</sup> When they came to the threshing floor of Nacon, Uzzah reached for God’s ark and took hold of it, for the cattle stumbled.
 <sup>7</sup> Yahweh’s anger burned against Uzzah, and God struck him there for his error; and he died there by God’s ark.
-<sup>8</sup> <sup>a</sup>to this day.
+<sup>8</sup> David was displeased because Yahweh had broken out against Uzzah; and he called that place Perez Uzzah<sup>a</sup> to this day.
 <sup>9</sup> David was afraid of Yahweh that day; and he said, “How could Yahweh’s ark come to me?”
 <sup>10</sup> So David would not move Yahweh’s ark to be with him in David’s city; but David carried it aside into Obed-Edom the Gittite’s house.
 <sup>11</sup> Yahweh’s ark remained in Obed-Edom the Gittite’s house three months; and Yahweh blessed Obed-Edom and all his house.
@@ -252,7 +252,7 @@
 <sup>16</sup> Your house and your kingdom will be made sure forever before you. Your throne will be established forever.” ’ ”
 <sup>17</sup> Nathan spoke to David all these words, and according to all this vision.
 
-<sup>18</sup> <sup>a</sup>Yahweh, and what is my house, that you have brought me this far?
+<sup>18</sup> Then David the king went in and sat before Yahweh; and he said, “Who am I, Lord<sup>a</sup> Yahweh, and what is my house, that you have brought me this far?
 <sup>19</sup> This was yet a small thing in your eyes, Lord Yahweh, but you have spoken also of your servant’s house for a great while to come; and this among men, Lord Yahweh!
 <sup>20</sup> What more can David say to you? For you know your servant, Lord Yahweh.
 <sup>21</sup> For your word’s sake, and according to your own heart, you have worked all this greatness, to make your servant know it.
@@ -410,14 +410,14 @@
 <sup>23</sup> But now he is dead. Why should I fast? Can I bring him back again? I will go to him, but he will not return to me.”
 
 <sup>24</sup> David comforted Bathsheba his wife, and went in to her, and lay with her. She bore a son, and he called his name Solomon. Yahweh loved him;
-<sup>25</sup> <sup>a</sup>for Yahweh’s sake.
+<sup>25</sup> and he sent by the hand of Nathan the prophet, and he named him Jedidiah,<sup>a</sup> for Yahweh’s sake.
 
 <sup>26</sup> Now Joab fought against Rabbah of the children of Ammon, and took the royal city.
 <sup>27</sup> Joab sent messengers to David, and said, “I have fought against Rabbah. Yes, I have taken the city of waters.
 <sup>28</sup> Now therefore gather the rest of the people together, and encamp against the city and take it; lest I take the city, and it be called by my name.”
 
 <sup>29</sup> David gathered all the people together and went to Rabbah, and fought against it and took it.
-<sup>30</sup> <sup>b</sup>of gold, and in it were precious stones; and it was set on David’s head. He brought a great quantity of plunder out of the city.
+<sup>30</sup> He took the crown of their king from off his head; and its weight was a talent<sup>b</sup> of gold, and in it were precious stones; and it was set on David’s head. He brought a great quantity of plunder out of the city.
 <sup>31</sup> He brought out the people who were in it, and put them to work under saws, under iron picks, under axes of iron, and made them go to the brick kiln; and he did so to all the cities of the children of Ammon. Then David and all the people returned to Jerusalem.
 
 > - <sup>a</sup> 25. “Jedidiah” means “loved by Yahweh”.
@@ -519,7 +519,7 @@
 <sup>23</sup> So Joab arose and went to Geshur, and brought Absalom to Jerusalem.
 <sup>24</sup> The king said, “Let him return to his own house, but let him not see my face.” So Absalom returned to his own house, and didn’t see the king’s face.
 <sup>25</sup> Now in all Israel there was no one to be so much praised as Absalom for his beauty. From the sole of his foot even to the crown of his head there was no defect in him.
-<sup>26</sup> <sup>a</sup>after the king’s weight.
+<sup>26</sup> When he cut the hair of his head (now it was at every year’s end that he cut it; because it was heavy on him, therefore he cut it), he weighed the hair of his head at two hundred shekels,<sup>a</sup> after the king’s weight.
 <sup>27</sup> Three sons were born to Absalom, and one daughter, whose name was Tamar. She was a woman with a beautiful face.
 <sup>28</sup> Absalom lived two full years in Jerusalem, and he didn’t see the king’s face.
 <sup>29</sup> Then Absalom sent for Joab, to send him to the king, but he would not come to him. Then he sent again a second time, but he would not come.
@@ -860,7 +860,7 @@
 <sup>4</sup> I call on Yahweh, who is worthy to be praised; <br>So shall I be saved from my enemies.
 
 <sup>5</sup> For the waves of death surrounded me. <br>The floods of ungodliness made me afraid. <br>
-<sup>6</sup> <sup>a</sup>were around me. <br>The snares of death caught me. <br>
+<sup>6</sup> The cords of Sheol<sup>a</sup> were around me. <br>The snares of death caught me. <br>
 <sup>7</sup> In my distress, I called on Yahweh. <br>Yes, I called to my God. <br>He heard my voice out of his temple. <br>My cry came into his ears. <br>
 <sup>8</sup> Then the earth shook and trembled. <br>The foundations of heaven quaked and were shaken, <br>because he was angry. <br>
 <sup>9</sup> Smoke went up out of his nostrils. <br>Consuming fire came out of his mouth. <br>Coals were kindled by it. <br>
@@ -1000,7 +1000,7 @@
 <sup>22</sup> Araunah said to David, “Let my lord the king take and offer up what seems good to him. Behold, the cattle for the burnt offering, and the threshing sledges and the yokes of the oxen for the wood.
 <sup>23</sup> All this, O king, does Araunah give to the king.” Araunah said to the king, “May Yahweh your God accept you.”
 
-<sup>24</sup> <sup>a</sup>of silver.
+<sup>24</sup> The king said to Araunah, “No, but I will most certainly buy it from you for a price. I will not offer burnt offerings to Yahweh my God which cost me nothing.” So David bought the threshing floor and the oxen for fifty shekels<sup>a</sup> of silver.
 <sup>25</sup> David built an altar to Yahweh there, and offered burnt offerings and peace offerings. So Yahweh was entreated for the land, and the plague was removed from Israel.
 
 > - <sup>a</sup> 24. A shekel is about 10 grams or about 0.35 ounces, so 50 shekels is about 0.5 kilograms or 1.1 pounds.
