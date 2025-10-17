@@ -1,6 +1,6 @@
 # EGP Graphai
 
-Initially created by [Equip God’s People](https://www.equipgodspeople.com), “Graphai” (γραφαὶ) is the Koine Greek word for “writings” or “scriptures,” reflecting the project’s focus on providing access to sacred texts and related resources through modern data formats.
+Initially created by [Equip God’s People](https://www.equipgodspeople.com), “Graphai” (γραφαὶ) — the Koine Greek word for “writings” or “scriptures” — provides access to sacred texts and related resources through modern data formats.
 
 Its purpose is to provide a comprehensive, verbose JSON standard for Bible resources. This project provides structured Bible data with rich metadata, including various Bible versions, lexical information, and conversion tools for working with other common formats.
 
@@ -134,10 +134,9 @@ npx ts-node utils/list-bible-books.ts [orderType]
 ### Adding New Bible Versions
 
 1. Add version metadata to `bible-versions/bible-versions.json`
-2. Place raw Bible JSON files in `imports/bb/` with naming convention `BibleDB.bibleVerses-{version}.json`
-3. Process raw data: `ts-node ./imports/importBibleVersesBB.ts`
-4. Validate: `npm run validate`
-5. Export: `npm run export`
+2. Add verses by book to `bible-versions/{version}/{book}.json`
+3. Validate: `npm run validate`
+4. Export: `npm run export`
 
 ### Schema Validation
 
