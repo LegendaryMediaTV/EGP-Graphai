@@ -59,6 +59,16 @@
         "morph": {
           "type": "string",
           "description": "Morphological code (i.e., Robinson or Packard format)."
+        },
+        "paragraph": {
+          "type": "boolean",
+          "default": false,
+          "description": "Indicates this text is the start of a new paragraph."
+        },
+        "break": {
+          "type": "boolean",
+          "default": false,
+          "description": "Indicates this text ends with a line break."
         }
       },
       "required": ["text"],
