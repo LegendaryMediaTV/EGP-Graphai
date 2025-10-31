@@ -47,9 +47,6 @@ npm run export
 
 # Run tests
 npm run test
-
-# Display book names (optional orderType for canonical ordering)
-npx ts-node utils/list-bible-books.ts [orderType]
 ```
 
 ## Project Structure
@@ -76,7 +73,6 @@ npx ts-node utils/list-bible-books.ts [orderType]
 │ ├── Verse.ts
 │ └── VerseSchema.ts
 ├── utils/                 # Utility scripts
-│ ├── list-bible-books.ts  # Script to display book names
 │ └── exportContent.ts     # Main content export script
 ├── AGENTS.md              # AI agent instructions
 ├── package.json
