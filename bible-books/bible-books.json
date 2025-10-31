@@ -1,6 +1,6 @@
 [
   {
-    "_id": "Gen",
+    "_id": "GEN",
     "name": "Genesis",
     "testament": "OT",
     "alt": ["Ge", "Gn", "Gen"],
@@ -12,7 +12,7 @@
     }
   },
   {
-    "_id": "Exod",
+    "_id": "EXO",
     "name": "Exodus",
     "testament": "OT",
     "alt": ["Ex", "Exo", "Exod"],
@@ -24,7 +24,7 @@
     }
   },
   {
-    "_id": "Lev",
+    "_id": "LEV",
     "name": "Leviticus",
     "testament": "OT",
     "alt": ["Le", "Lv", "Lev"],
@@ -36,7 +36,7 @@
     }
   },
   {
-    "_id": "Num",
+    "_id": "NUM",
     "name": "Numbers",
     "testament": "OT",
     "alt": ["Nu", "Nm", "Num"],
@@ -48,7 +48,7 @@
     }
   },
   {
-    "_id": "Deut",
+    "_id": "DEU",
     "name": "Deuteronomy",
     "testament": "OT",
     "alt": ["De", "Dt", "Deu", "Deut"],
@@ -60,7 +60,7 @@
     }
   },
   {
-    "_id": "Josh",
+    "_id": "JSH",
     "name": "Joshua",
     "testament": "OT",
     "alt": ["Js", "Jos", "Josh", "Jsh"],
@@ -72,7 +72,7 @@
     }
   },
   {
-    "_id": "Judg",
+    "_id": "JDG",
     "name": "Judges",
     "testament": "OT",
     "alt": ["Jdg", "Jg", "Judg"],
@@ -84,7 +84,7 @@
     }
   },
   {
-    "_id": "Ruth",
+    "_id": "RTH",
     "name": "Ruth",
     "testament": "OT",
     "alt": ["Rth", "Ru", "Rut", "Ruth"],
@@ -96,7 +96,7 @@
     }
   },
   {
-    "_id": "1Sam",
+    "_id": "1SM",
     "name": "1 Samuel",
     "testament": "OT",
     "alt": ["1Sam", "1Sm", "1Sa"],
@@ -108,7 +108,7 @@
     }
   },
   {
-    "_id": "2Sam",
+    "_id": "2SM",
     "name": "2 Samuel",
     "testament": "OT",
     "alt": ["2Sam", "2Sm", "2Sa"],
@@ -120,7 +120,7 @@
     }
   },
   {
-    "_id": "1Kgs",
+    "_id": "1KG",
     "name": "1 Kings",
     "testament": "OT",
     "alt": ["1Kg", "1Ki", "1Kgs"],
@@ -132,7 +132,7 @@
     }
   },
   {
-    "_id": "2Kgs",
+    "_id": "2KG",
     "name": "2 Kings",
     "testament": "OT",
     "alt": ["2Kg", "2Ki", "2Kgs"],
@@ -144,7 +144,7 @@
     }
   },
   {
-    "_id": "1Chr",
+    "_id": "1CH",
     "name": "1 Chronicles",
     "testament": "OT",
     "alt": ["1Ch", "1Chr"],
@@ -156,7 +156,7 @@
     }
   },
   {
-    "_id": "2Chr",
+    "_id": "2CH",
     "name": "2 Chronicles",
     "testament": "OT",
     "alt": ["2Ch", "2Chr"],
@@ -168,7 +168,7 @@
     }
   },
   {
-    "_id": "Ezra",
+    "_id": "EZR",
     "name": "Ezra",
     "testament": "OT",
     "alt": ["Er", "Ezr"],
@@ -179,7 +179,7 @@
     }
   },
   {
-    "_id": "Neh",
+    "_id": "NEH",
     "name": "Nehemiah",
     "testament": "OT",
     "alt": ["Ne", "Neh"],
@@ -190,7 +190,7 @@
     }
   },
   {
-    "_id": "Esth",
+    "_id": "EST",
     "name": "Esther",
     "testament": "OT",
     "alt": ["Es", "Est", "Esth"],
@@ -202,7 +202,7 @@
     }
   },
   {
-    "_id": "Job",
+    "_id": "JOB",
     "name": "Job",
     "testament": "OT",
     "alt": ["Jb"],
@@ -214,7 +214,7 @@
     }
   },
   {
-    "_id": "Ps",
+    "_id": "PSA",
     "name": "Psalms",
     "testament": "OT",
     "alt": ["Ps", "Psa", "Psalm"],
@@ -226,7 +226,7 @@
     }
   },
   {
-    "_id": "Prov",
+    "_id": "PRV",
     "name": "Proverbs",
     "testament": "OT",
     "alt": ["Pr", "Prov", "Prv", "Pro"],
@@ -238,7 +238,7 @@
     }
   },
   {
-    "_id": "Eccl",
+    "_id": "ECC",
     "name": "Ecclesiastes",
     "testament": "OT",
     "alt": ["Ec", "Ecc", "Eccl", "Qohelet", "Qoheleth"],
@@ -250,11 +250,12 @@
     }
   },
   {
-    "_id": "Song",
+    "_id": "SOS",
     "name": "Song of Songs",
     "testament": "OT",
     "alt": [
       "So",
+      "SoS",
       "Sol",
       "Song",
       "Song of Solomon",
@@ -269,7 +270,7 @@
     }
   },
   {
-    "_id": "Isa",
+    "_id": "ISA",
     "name": "Isaiah",
     "testament": "OT",
     "alt": ["Is", "Isa"],
@@ -281,7 +282,7 @@
     }
   },
   {
-    "_id": "Jer",
+    "_id": "JER",
     "name": "Jeremiah",
     "testament": "OT",
     "alt": ["Je", "Jer"],
@@ -293,7 +294,7 @@
     }
   },
   {
-    "_id": "Lam",
+    "_id": "LAM",
     "name": "Lamentations",
     "testament": "OT",
     "alt": ["La", "Lam"],
@@ -305,7 +306,7 @@
     }
   },
   {
-    "_id": "Ezek",
+    "_id": "EZK",
     "name": "Ezekiel",
     "testament": "OT",
     "alt": ["Ez", "Eze", "Ezek"],
@@ -317,7 +318,7 @@
     }
   },
   {
-    "_id": "Dan",
+    "_id": "DAN",
     "name": "Daniel",
     "testament": "OT",
     "alt": ["Da", "Dan"],
@@ -329,7 +330,7 @@
     }
   },
   {
-    "_id": "Hos",
+    "_id": "HOS",
     "name": "Hosea",
     "testament": "OT",
     "alt": ["Ho", "Hos"],
@@ -341,7 +342,7 @@
     }
   },
   {
-    "_id": "Joel",
+    "_id": "JOL",
     "name": "Joel",
     "testament": "OT",
     "alt": ["Jl", "Joel", "Jol"],
@@ -353,7 +354,7 @@
     }
   },
   {
-    "_id": "Amos",
+    "_id": "AMS",
     "name": "Amos",
     "testament": "OT",
     "alt": ["Am", "Amos", "Ams", "Amo"],
@@ -365,10 +366,10 @@
     }
   },
   {
-    "_id": "Obad",
+    "_id": "OBD",
     "name": "Obadiah",
     "testament": "OT",
-    "alt": ["Ob", "Oba", "Obad"],
+    "alt": ["Ob", "Oba", "Obd", "Obad"],
     "order": {
       "protestant": 31,
       "catholic": 39,
@@ -377,7 +378,7 @@
     }
   },
   {
-    "_id": "Jonah",
+    "_id": "JNA",
     "name": "Jonah",
     "testament": "OT",
     "alt": ["Jna", "Jo", "Jon", "Jonah"],
@@ -389,7 +390,7 @@
     }
   },
   {
-    "_id": "Mic",
+    "_id": "MIC",
     "name": "Micah",
     "testament": "OT",
     "alt": ["Mi", "Mic"],
@@ -401,7 +402,7 @@
     }
   },
   {
-    "_id": "Nah",
+    "_id": "NAH",
     "name": "Nahum",
     "testament": "OT",
     "alt": ["Na", "Nah", "Nam"],
@@ -413,7 +414,7 @@
     }
   },
   {
-    "_id": "Hab",
+    "_id": "HAB",
     "name": "Habakkuk",
     "testament": "OT",
     "alt": ["Hab", "Hb"],
@@ -425,7 +426,7 @@
     }
   },
   {
-    "_id": "Zeph",
+    "_id": "ZPH",
     "name": "Zephaniah",
     "testament": "OT",
     "alt": ["Zeph", "Zp", "Zph", "Zep"],
@@ -437,7 +438,7 @@
     }
   },
   {
-    "_id": "Hag",
+    "_id": "HAG",
     "name": "Haggai",
     "testament": "OT",
     "alt": ["Hag", "Hg"],
@@ -449,7 +450,7 @@
     }
   },
   {
-    "_id": "Zech",
+    "_id": "ZEC",
     "name": "Zechariah",
     "testament": "OT",
     "alt": ["Zch", "Ze", "Zech", "Zec"],
@@ -461,7 +462,7 @@
     }
   },
   {
-    "_id": "Mal",
+    "_id": "MAL",
     "name": "Malachi",
     "testament": "OT",
     "alt": ["Ma", "Mal"],
@@ -474,7 +475,7 @@
   },
 
   {
-    "_id": "Matt",
+    "_id": "MAT",
     "name": "Matthew",
     "testament": "NT",
     "alt": ["Matt", "Mt", "Mtt", "Mat"],
@@ -484,7 +485,7 @@
     }
   },
   {
-    "_id": "Mark",
+    "_id": "MRK",
     "name": "Mark",
     "testament": "NT",
     "alt": ["Mark", "Mk", "Mrk"],
@@ -494,7 +495,7 @@
     }
   },
   {
-    "_id": "Luke",
+    "_id": "LUK",
     "name": "Luke",
     "testament": "NT",
     "alt": ["Lk", "Lke", "Luke", "Luk"],
@@ -504,7 +505,7 @@
     }
   },
   {
-    "_id": "John",
+    "_id": "JHN",
     "name": "John",
     "testament": "NT",
     "alt": ["Jhn", "Jn", "John"],
@@ -514,7 +515,7 @@
     }
   },
   {
-    "_id": "Acts",
+    "_id": "ACT",
     "name": "Acts",
     "testament": "NT",
     "alt": ["Ac", "Act", "Acts"],
@@ -524,7 +525,7 @@
     }
   },
   {
-    "_id": "Rom",
+    "_id": "ROM",
     "name": "Romans",
     "testament": "NT",
     "alt": ["Ro", "Rom"],
@@ -534,7 +535,7 @@
     }
   },
   {
-    "_id": "1Cor",
+    "_id": "1CO",
     "name": "1 Corinthians",
     "testament": "NT",
     "alt": ["1Co", "1Cor"],
@@ -544,7 +545,7 @@
     }
   },
   {
-    "_id": "2Cor",
+    "_id": "2CO",
     "name": "2 Corinthians",
     "testament": "NT",
     "alt": ["2Co", "2Cor"],
@@ -554,7 +555,7 @@
     }
   },
   {
-    "_id": "Gal",
+    "_id": "GAL",
     "name": "Galatians",
     "testament": "NT",
     "alt": ["Ga", "Gal"],
@@ -564,7 +565,7 @@
     }
   },
   {
-    "_id": "Eph",
+    "_id": "EPH",
     "name": "Ephesians",
     "testament": "NT",
     "alt": ["Ep", "Eph"],
@@ -574,7 +575,7 @@
     }
   },
   {
-    "_id": "Phil",
+    "_id": "PHP",
     "name": "Philippians",
     "testament": "NT",
     "alt": ["Ph", "Phil", "Php"],
@@ -584,7 +585,7 @@
     }
   },
   {
-    "_id": "Col",
+    "_id": "COL",
     "name": "Colossians",
     "testament": "NT",
     "alt": ["Cl", "Col"],
@@ -594,7 +595,7 @@
     }
   },
   {
-    "_id": "1Thess",
+    "_id": "1TH",
     "name": "1 Thessalonians",
     "testament": "NT",
     "alt": ["1Th", "1Thess"],
@@ -604,7 +605,7 @@
     }
   },
   {
-    "_id": "2Thess",
+    "_id": "2TH",
     "name": "2 Thessalonians",
     "testament": "NT",
     "alt": ["2Th", "2Thess"],
@@ -614,7 +615,7 @@
     }
   },
   {
-    "_id": "1Tim",
+    "_id": "1TM",
     "name": "1 Timothy",
     "testament": "NT",
     "alt": ["1Tim", "1Tm", "1Ti"],
@@ -624,7 +625,7 @@
     }
   },
   {
-    "_id": "2Tim",
+    "_id": "2TM",
     "name": "2 Timothy",
     "testament": "NT",
     "alt": ["2Tim", "2Tm", "2Ti"],
@@ -634,7 +635,7 @@
     }
   },
   {
-    "_id": "Titus",
+    "_id": "TIT",
     "name": "Titus",
     "testament": "NT",
     "alt": ["Tit", "Titus", "Tt"],
@@ -644,7 +645,7 @@
     }
   },
   {
-    "_id": "Phlm",
+    "_id": "PHM",
     "name": "Philemon",
     "testament": "NT",
     "alt": ["Phl", "Phlm", "Pm", "Phm"],
@@ -654,7 +655,7 @@
     }
   },
   {
-    "_id": "Heb",
+    "_id": "HEB",
     "name": "Hebrews",
     "testament": "NT",
     "alt": ["He", "Heb"],
@@ -664,7 +665,7 @@
     }
   },
   {
-    "_id": "Jas",
+    "_id": "JAS",
     "name": "James",
     "testament": "NT",
     "alt": ["Ja", "Jas"],
@@ -674,7 +675,7 @@
     }
   },
   {
-    "_id": "1Pet",
+    "_id": "1PT",
     "name": "1 Peter",
     "testament": "NT",
     "alt": ["1Pe", "1Pt", "1Pet"],
@@ -684,7 +685,7 @@
     }
   },
   {
-    "_id": "2Pet",
+    "_id": "2PT",
     "name": "2 Peter",
     "testament": "NT",
     "alt": ["2Pe", "2Pt", "2Pet"],
@@ -694,7 +695,7 @@
     }
   },
   {
-    "_id": "1John",
+    "_id": "1JN",
     "name": "1 John",
     "testament": "NT",
     "alt": ["1Jn", "1John"],
@@ -704,7 +705,7 @@
     }
   },
   {
-    "_id": "2John",
+    "_id": "2JN",
     "name": "2 John",
     "testament": "NT",
     "alt": ["2Jn", "2John"],
@@ -714,7 +715,7 @@
     }
   },
   {
-    "_id": "3John",
+    "_id": "3JN",
     "name": "3 John",
     "testament": "NT",
     "alt": ["3Jn", "3John"],
@@ -724,7 +725,7 @@
     }
   },
   {
-    "_id": "Jude",
+    "_id": "JUD",
     "name": "Jude",
     "testament": "NT",
     "alt": ["Jd", "Jde", "Jud"],
@@ -734,7 +735,7 @@
     }
   },
   {
-    "_id": "Rev",
+    "_id": "REV",
     "name": "Revelation",
     "testament": "NT",
     "alt": ["Re", "Rev"],
@@ -745,7 +746,7 @@
   },
 
   {
-    "_id": "Tob",
+    "_id": "TOB",
     "name": "Tobit",
     "testament": "OT",
     "alt": ["Tob"],
@@ -755,7 +756,7 @@
     }
   },
   {
-    "_id": "Jdt",
+    "_id": "JDT",
     "name": "Judith",
     "testament": "OT",
     "alt": ["Jdt"],
@@ -765,19 +766,13 @@
     }
   },
   {
-    "_id": "EsthGr",
+    "_id": "ESG",
     "name": "Esther (Greek)",
     "testament": "OT",
     "alt": ["EsthGr", "EsG", "Esther Greek", "Greek Esther"]
   },
   {
-    "_id": "AddEsth",
-    "name": "Additions to Esther",
-    "testament": "OT",
-    "alt": ["AddEsth", "AdE", "Add Esther", "Esther Additions"]
-  },
-  {
-    "_id": "Wis",
+    "_id": "WIS",
     "name": "Wisdom of Solomon",
     "testament": "OT",
     "alt": ["Wis", "Wisdom"],
@@ -787,13 +782,13 @@
     }
   },
   {
-    "_id": "SirP",
+    "_id": "SRP",
     "name": "Sirach Prologue",
     "testament": "OT",
     "alt": ["SirP", "Ecclesiasticus Prologue"]
   },
   {
-    "_id": "Sir",
+    "_id": "SIR",
     "name": "Sirach",
     "testament": "OT",
     "alt": ["Sir", "Ecclesiasticus", "Wisdom of Ben Sira"],
@@ -803,7 +798,7 @@
     }
   },
   {
-    "_id": "Bar",
+    "_id": "BAR",
     "name": "Baruch",
     "testament": "OT",
     "alt": ["Bar"],
@@ -813,33 +808,28 @@
     }
   },
   {
-    "_id": "EpJer",
+    "_id": "EPJ",
     "name": "Letter of Jeremiah",
     "testament": "OT",
-    "alt": ["EpJer", "LJer", "LJe", "Epistle of Jeremiah"],
+    "alt": ["EpJ", "EpJer", "LJer", "LJe", "Epistle of Jeremiah"],
     "order": {
       "catholic": 31,
       "lxx": 49
     }
   },
   {
-    "_id": "DanGr",
+    "_id": "DOG",
     "name": "Daniel (Old Greek)",
     "testament": "OT",
-    "alt": ["DanGr", "DaG", "DanOG", "Dan OG", "Daniel OG"]
+    "alt": ["DanGr", "DoG", "DaG", "DanOG", "Dan OG", "Daniel OG"]
   },
   {
-    "_id": "AddDan",
-    "name": "Additions to Daniel",
-    "testament": "OT",
-    "alt": ["AddDan", "AdD", "Add Daniel", "Daniel Additions"]
-  },
-  {
-    "_id": "PrAzar",
+    "_id": "PAZ",
     "name": "Prayer of Azariah",
     "testament": "OT",
     "alt": [
       "PrAzar",
+      "PAz",
       "PrAz",
       "S3Y",
       "Prayer of Azariah",
@@ -847,7 +837,7 @@
     ]
   },
   {
-    "_id": "Sus",
+    "_id": "SUS",
     "name": "Susanna",
     "testament": "OT",
     "alt": ["Sus"],
@@ -857,7 +847,7 @@
     }
   },
   {
-    "_id": "Bel",
+    "_id": "BEL",
     "name": "Bel and the Dragon",
     "testament": "OT",
     "alt": ["Bel"],
@@ -867,54 +857,54 @@
     }
   },
   {
-    "_id": "1Macc",
+    "_id": "1MC",
     "name": "1 Maccabees",
     "testament": "OT",
-    "alt": ["1Macc", "1Ma"],
+    "alt": ["1Macc", "1Ma", "1Mc"],
     "order": {
       "catholic": 48,
       "lxx": 20
     }
   },
   {
-    "_id": "2Macc",
+    "_id": "2MC",
     "name": "2 Maccabees",
     "testament": "OT",
-    "alt": ["2Macc", "2Ma"],
+    "alt": ["2Macc", "2Ma", "2Mc"],
     "order": {
       "catholic": 49,
       "lxx": 21
     }
   },
   {
-    "_id": "3Macc",
+    "_id": "3MC",
     "name": "3 Maccabees",
     "testament": "OT",
-    "alt": ["3Macc", "3Ma"],
+    "alt": ["3Macc", "3Ma", "3Mc"],
     "order": {
       "lxx": 22
     }
   },
   {
-    "_id": "4Macc",
+    "_id": "4MC",
     "name": "4 Maccabees",
     "testament": "OT",
-    "alt": ["4Macc", "4Ma"],
+    "alt": ["4Macc", "4Ma", "4Mc"],
     "order": {
       "lxx": 23
     }
   },
   {
-    "_id": "PrMan",
+    "_id": "PMA",
     "name": "Prayer of Manasseh",
     "testament": "OT",
-    "alt": ["PrMan", "Man", "Manasseh"],
+    "alt": ["PMA", "PrMan", "Man", "Manasseh"],
     "order": {
       "lxx": 25
     }
   },
   {
-    "_id": "1Esd",
+    "_id": "1ES",
     "name": "1 Esdras",
     "testament": "OT",
     "alt": ["1Esd", "1Es"],
@@ -923,7 +913,7 @@
     }
   },
   {
-    "_id": "2Esd",
+    "_id": "2ES",
     "name": "2 Esdras",
     "testament": "OT",
     "alt": ["2Esd", "2Es"],
@@ -931,66 +921,53 @@
       "lxx": 16
     }
   },
-  {
-    "_id": "AddPs",
-    "name": "Psalm 151",
-    "testament": "OT",
-    "alt": [
-      "AddPs",
-      "Ap",
-      "Add Psalms",
-      "Psalms Additions",
-      "Psalm Additions",
-      "Psalm 151"
-    ]
-  },
 
   {
-    "_id": "Odes",
+    "_id": "ODS",
     "name": "Odes",
     "testament": "OT",
-    "alt": ["Odes", "OdA"]
+    "alt": ["Odes", "Ods", "OdA"]
   },
   {
-    "_id": "PssSol",
+    "_id": "PSS",
     "name": "Psalms of Solomon",
     "testament": "OT",
-    "alt": ["PssSol", "PsSol", "Psalms of Solomon"],
+    "alt": ["PssSol", "PSS", "PsSol", "Psalms of Solomon"],
     "order": { "lxx": 32 }
   },
 
   {
-    "_id": "JoshA",
+    "_id": "JSA",
     "name": "Joshua A",
     "testament": "OT",
     "alt": ["JoshA", "JsA", "Joshua Alexandrinus", "Alexandrinus Joshua"]
   },
   {
-    "_id": "JudgB",
+    "_id": "JDB",
     "name": "Judges B",
     "testament": "OT",
     "alt": ["JudgB", "JdB", "Judges Vaticanus", "Vaticanus Judges"]
   },
   {
-    "_id": "TobS",
+    "_id": "TBS",
     "name": "Tobit S",
     "testament": "OT",
     "alt": ["TobS", "TbS", "Tobit Sinaiticus", "Sinaiticus Tobit"]
   },
   {
-    "_id": "SusTh",
+    "_id": "SST",
     "name": "Susanna θ",
     "testament": "OT",
     "alt": ["SusTh", "SsT", "Susanna Theodotion", "Theodotion Susanna"]
   },
   {
-    "_id": "DanTh",
+    "_id": "DNT",
     "name": "Daniel θ",
     "testament": "OT",
     "alt": ["DanTh", "DnT", "Daniel Theodotion", "Theodotion Daniel"]
   },
   {
-    "_id": "BelTh",
+    "_id": "BLT",
     "name": "Bel and the Dragon θ",
     "testament": "OT",
     "alt": [
