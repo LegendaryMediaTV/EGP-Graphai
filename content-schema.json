@@ -1,18 +1,30 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/content-schema.json",
+  "title": "EGP Graphai • Content Schema",
+  "description": "Flexible schema for multilingual or structured text content, supporting simple strings, structured objects, and arrays for multiple content entries.",
   "oneOf": [
-    { "type": "string", "minLength": 1 },
+    {
+      "type": "string",
+      "minLength": 1,
+      "description": "Simple text content as a plain string."
+    },
     {
       "type": "object",
+      "description": "Structured content object with a text property.",
       "properties": {
-        "text": { "type": "string", "minLength": 1 }
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The text content within the structured object."
+        }
       },
       "required": ["text"],
       "additionalProperties": false
     },
     {
       "type": "array",
+      "description": "Array of content entries, allowing for multiple text elements or nested structures.",
       "items": { "$ref": "#" },
       "minItems": 1
     }
