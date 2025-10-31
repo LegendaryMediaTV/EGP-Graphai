@@ -17,6 +17,48 @@
           "type": "string",
           "minLength": 1,
           "description": "Plain text."
+        },
+        "script": {
+          "type": "string",
+          "enum": ["G", "H"],
+          "description": "Specifies the script of the text. If not specified, Latin script is assumed."
+        },
+        "marks": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["i", "b", "woc", "sc"] },
+          "uniqueItems": true,
+          "description": "Formatting marks: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps"
+        },
+        "foot": {
+          "type": "object",
+          "description": "Optional footnote attached to the text.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["stu", "trn", "var", "map", "xrf"],
+              "default": "stu",
+              "description": "Kind of footnote: stu (study, default), trn (translation), var (textual criticism variant), map (map), xrf (cross-reference)."
+            },
+            "content": {
+              "$ref": "#",
+              "description": "Any valid content type (i.e., string, object, or array)."
+            }
+          },
+          "required": ["content"],
+          "additionalProperties": false
+        },
+        "strong": {
+          "type": "string",
+          "pattern": "^[GH][0-9]{1,4}$",
+          "description": "Strong's number."
+        },
+        "lemma": {
+          "type": "string",
+          "description": "Lexical lemma in original script."
+        },
+        "morph": {
+          "type": "string",
+          "description": "Morphological code (i.e., Robinson or Packard format)."
         }
       },
       "required": ["text"],
