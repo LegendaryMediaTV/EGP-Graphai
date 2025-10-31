@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/content-schema.json",
+  "oneOf": [
+    { "type": "string" },
+    {
+      "type": "object",
+      "properties": {
+        "text": { "type": "string" }
+      },
+      "required": ["text"],
+      "additionalProperties": false
+    },
+    {
+      "type": "array",
+      "items": { "$ref": "#" }
+    }
+  ]
+}

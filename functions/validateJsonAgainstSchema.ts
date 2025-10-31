@@ -13,6 +13,17 @@ export default function validateJsonAgainstSchema(
     const data = JSON.parse(jsonContent);
 
     const ajv = new Ajv();
+    // Load additional schemas
+    try {
+      const contentSchemaContent = fs.readFileSync(
+        "content-schema.json",
+        "utf-8"
+      );
+      const contentSchema = JSON.parse(contentSchemaContent);
+      ajv.addSchema(contentSchema);
+    } catch (e) {
+      // Ignore if not found
+    }
     const validate = ajv.compile(schema);
     const valid = validate(data);
 

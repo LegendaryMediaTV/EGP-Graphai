@@ -1,12 +1,12 @@
-import validateJsonAgainstSchema from "./functions/validateJsonAgainstSchema";
-import * as fs from "fs";
 import _ from "lodash";
+import * as fs from "fs";
 import Ajv from "ajv";
+import validateJsonAgainstSchema from "../functions/validateJsonAgainstSchema";
 
-const schemaPath = "./bible-books/bible-book-schema.json";
 const jsonPath = "./bible-books/bible-books.json";
-const versionsSchemaPath = "./bible-versions/bible-versions-schema.json";
+const schemaPath = "./bible-books/bible-book-schema.json";
 const versionsJsonPath = "./bible-versions/bible-versions.json";
+const versionsSchemaPath = "./bible-versions/bible-versions-schema.json";
 
 // First, validate against the schema
 const result = validateJsonAgainstSchema(schemaPath, jsonPath);

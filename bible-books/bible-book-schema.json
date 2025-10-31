@@ -14,11 +14,10 @@
       "properties": {
         "_id": {
           "type": "string",
-          "description": "OSIS-style id, e.g., Gen, Exod, 1Sam, DanGr, Sus."
+          "description": "Unique 3-character identifier."
         },
         "name": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "../content-schema.json"
         },
         "testament": {
           "type": "string",
