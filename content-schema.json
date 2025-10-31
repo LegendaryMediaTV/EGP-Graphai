@@ -7,19 +7,55 @@
     {
       "type": "string",
       "minLength": 1,
-      "description": "Simple text content as a plain string."
+      "description": "Plain text."
     },
     {
       "type": "object",
-      "description": "Structured content object with a text property.",
+      "description": "Structured content object for plain text.",
       "properties": {
         "text": {
           "type": "string",
           "minLength": 1,
-          "description": "The text content within the structured object."
+          "description": "Plain text."
         }
       },
       "required": ["text"],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "description": "Structured content object for headings.",
+      "properties": {
+        "heading": {
+          "$ref": "#",
+          "description": "Any valid content type (i.e., string, object, or array)."
+        }
+      },
+      "required": ["heading"],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "description": "Structured content object for paragraphs.",
+      "properties": {
+        "paragraph": {
+          "$ref": "#",
+          "description": "Any valid content type (i.e., string, object, or array)."
+        }
+      },
+      "required": ["paragraph"],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "description": "Structured content object for subtitles.",
+      "properties": {
+        "subtitle": {
+          "$ref": "#",
+          "description": "Any valid content type (i.e., string, object, or array)."
+        }
+      },
+      "required": ["subtitle"],
       "additionalProperties": false
     },
     {
