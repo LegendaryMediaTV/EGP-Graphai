@@ -14,12 +14,11 @@
       "properties": {
         "_id": {
           "type": "string",
-          "pattern": "^[A-Za-z0-9._-]+$",
-          "description": "Short identifier for the version, e.g., LXX, BYZ, EGP-EN."
+          "pattern": "^[A-Z0-9-]+$",
+          "description": "Short identifier for the version, e.g., LXX, BYZ2018, EGP-EN."
         },
         "name": {
-          "type": "string",
-          "minLength": 1,
+          "$ref": "../content-schema.json",
           "description": "Human-readable version name."
         },
         "license": {
@@ -27,17 +26,13 @@
           "description": "License identifier, similar to package.json licensing (e.g., 'public-domain', 'copyright')."
         },
         "copyright": {
-          "type": "string",
+          "$ref": "../content-schema.json",
           "description": "Copyright statement or license information."
         },
         "script": {
           "type": "string",
           "enum": ["G", "H"],
           "description": "Default script for this version (Greek or Hebrew). If unset, assume Latin."
-        },
-        "morph_system": {
-          "type": ["string", "null"],
-          "description": "Morphology system used (e.g., Robinson, Packard)."
         },
         "testaments": {
           "type": "object",
@@ -56,7 +51,7 @@
             "required": ["_id", "order"],
             "properties": {
               "_id": {
-                "type": "string",
+                "$ref": "https://github.com/LegendaryMediaTV/EGP-Graphai/bible-books/bible-books-schema.json#/definitions/book/properties/_id",
                 "description": "Book identifier from bible-books.json"
               },
               "order": {
@@ -68,12 +63,6 @@
           },
           "uniqueItems": true,
           "description": "List of books included in this version with their order."
-        },
-        "canon_order": {
-          "type": "array",
-          "items": { "type": "string" },
-          "uniqueItems": true,
-          "description": "Optional explicit ordering of book IDs for this version."
         }
       }
     },
@@ -85,10 +74,6 @@
           "type": "string",
           "enum": ["G", "H"],
           "description": "Script override for this testament (Greek or Hebrew). If unset, assume Latin."
-        },
-        "morph_system": {
-          "type": ["string", "null"],
-          "description": "Morphology system override for this testament."
         }
       }
     }

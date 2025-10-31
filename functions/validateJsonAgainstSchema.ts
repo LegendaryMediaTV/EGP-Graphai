@@ -24,6 +24,18 @@ export default function validateJsonAgainstSchema(
     } catch (e) {
       // Ignore if not found
     }
+    if (schemaPath !== "./bible-books/bible-book-schema.json") {
+      try {
+        const bookSchemaContent = fs.readFileSync(
+          "bible-books/bible-book-schema.json",
+          "utf-8"
+        );
+        const bookSchema = JSON.parse(bookSchemaContent);
+        ajv.addSchema(bookSchema);
+      } catch (e) {
+        // Ignore if not found
+      }
+    }
     const validate = ajv.compile(schema);
     const valid = validate(data);
 
