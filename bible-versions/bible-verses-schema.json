@@ -22,75 +22,8 @@
       "description": "Verse number"
     },
     "content": {
-      "type": "array",
-      "description": "Linear sequence of verse elements (text, paragraph, heading, etc.).",
-      "items": { "$ref": "#/definitions/node" },
-      "minItems": 1
-    }
-  },
-  "definitions": {
-    "node": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": ["t", "p", "h", "n"],
-          "default": "t",
-          "description": "t = text (default), p = paragraph break, h = heading, n = line break"
-        },
-        "text": {
-          "type": "string",
-          "description": "Text content (only for type = t or h). May include \\n for line breaks."
-        },
-        "marks": {
-          "type": "array",
-          "items": { "type": "string", "enum": ["i", "b", "woc", "sc"] },
-          "uniqueItems": true,
-          "description": "Formatting marks: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps"
-        },
-        "strong": {
-          "type": "string",
-          "pattern": "^[GH][0-9]{1,4}$",
-          "description": "Strong's number."
-        },
-        "lemma": {
-          "type": "string",
-          "description": "Lexical lemma in original script."
-        },
-        "morph": {
-          "type": "string",
-          "description": "Morphological code (e.g., Robinson, Packard)."
-        },
-        "script": {
-          "type": "string",
-          "enum": ["G", "H"],
-          "description": "Override script. If unset, assume Latin."
-        },
-        "foot": {
-          "$ref": "#/definitions/footnote",
-          "description": "Inline footnote anchored to this text node."
-        }
-      }
-    },
-    "footnote": {
-      "type": "object",
-      "required": ["content"],
-      "additionalProperties": false,
-      "properties": {
-        "type": {
-          "type": "string",
-          "enum": ["stu", "trn", "var", "map", "xrf"],
-          "default": "stu",
-          "description": "Kind of footnote: stu (study, default), trn (translation), var (textual criticism variant), map (map), xrf (cross-reference)."
-        },
-        "content": {
-          "type": "array",
-          "description": "Content nodes for the footnote itself, using same node model.",
-          "items": { "$ref": "#/definitions/node" },
-          "minItems": 1
-        }
-      }
+      "$ref": "https://github.com/LegendaryMediaTV/EGP-Graphai/content-schema.json",
+      "description": "Verse content using the flexible content-schema structure (string, object, or array)."
     }
   }
 }
