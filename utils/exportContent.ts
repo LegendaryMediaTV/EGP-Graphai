@@ -223,7 +223,7 @@ function convertBibleVersionToMarkdown(version: string): void {
       }
     }
 
-    const outputPath = path.join(outputDir, `${bookID}.md`);
+    const outputPath = path.join(outputDir, file.replace(".json", ".md"));
     fs.writeFileSync(outputPath, markdownLines.join("\n"), "utf-8");
     console.log(`Markdown conversion complete: ${outputPath}`);
   }
