@@ -146,23 +146,28 @@ for (const version of versionDirs) {
   const expectedBookIds = new Set(
     (versionObj?.books || []).map((b: any) => b._id as string)
   );
-  const actualBookIds = new Set(verseFiles.map((f) => f.replace(".json", "")));
+  const expectedFiles = new Set(
+    (versionObj?.books || []).map(
+      (b: any) => `${b.order.toString().padStart(2, "0")}-${b._id}.json`
+    )
+  );
+  const actualFiles = new Set(verseFiles);
 
   // Check for missing files
-  for (const expectedId of expectedBookIds as Set<string>) {
-    if (!actualBookIds.has(expectedId)) {
-      console.error(
-        `❌ Missing file for book ${expectedId} in version ${version}`
-      );
+  for (const expectedFile of expectedFiles as Set<string>) {
+    if (!actualFiles.has(expectedFile)) {
+      const bookId = expectedFile.split("-")[1].replace(".json", "");
+      console.error(`❌ Missing file for book ${bookId} in version ${version}`);
       verseValidationPassed = false;
     }
   }
 
   // Check for extra files
-  for (const actualId of actualBookIds as Set<string>) {
-    if (!expectedBookIds.has(actualId)) {
+  for (const actualFile of actualFiles as Set<string>) {
+    if (!expectedFiles.has(actualFile)) {
+      const bookId = actualFile.split("-")[1].replace(".json", "");
       console.error(
-        `❌ Extra file ${actualId}.json in version ${version} (not in books array)`
+        `❌ Extra file ${actualFile} in version ${version} (not in books array)`
       );
       verseValidationPassed = false;
     }
@@ -170,7 +175,7 @@ for (const version of versionDirs) {
 
   for (const file of verseFiles) {
     const filePath = `${versionPath}/${file}`;
-    const bookIdFromFilename = file.replace(".json", "");
+    const bookIdFromFilename = file.split("-")[1].replace(".json", "");
 
     // Check if filename matches a valid book ID
     if (!validBookIds.has(bookIdFromFilename)) {
