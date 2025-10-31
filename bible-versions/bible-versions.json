@@ -3,36 +3,1476 @@
     "_id": "ASV1901",
     "name": "American Standard Version",
     "copyright": "Scripture quotations from the 1901 American Standard Version. It is in the public domain.",
-    "license": "CC0-1.0"
+    "license": "CC0-1.0",
+    "books": [
+      {
+        "_id": "GEN",
+        "order": 1
+      },
+      {
+        "_id": "EXO",
+        "order": 2
+      },
+      {
+        "_id": "LEV",
+        "order": 3
+      },
+      {
+        "_id": "NUM",
+        "order": 4
+      },
+      {
+        "_id": "DEU",
+        "order": 5
+      },
+      {
+        "_id": "JSH",
+        "order": 6
+      },
+      {
+        "_id": "JDG",
+        "order": 7
+      },
+      {
+        "_id": "RTH",
+        "order": 8
+      },
+      {
+        "_id": "1SM",
+        "order": 9
+      },
+      {
+        "_id": "2SM",
+        "order": 10
+      },
+      {
+        "_id": "1KG",
+        "order": 11
+      },
+      {
+        "_id": "2KG",
+        "order": 12
+      },
+      {
+        "_id": "1CH",
+        "order": 13
+      },
+      {
+        "_id": "2CH",
+        "order": 14
+      },
+      {
+        "_id": "EZR",
+        "order": 15
+      },
+      {
+        "_id": "NEH",
+        "order": 16
+      },
+      {
+        "_id": "EST",
+        "order": 17
+      },
+      {
+        "_id": "JOB",
+        "order": 18
+      },
+      {
+        "_id": "PSA",
+        "order": 19
+      },
+      {
+        "_id": "PRV",
+        "order": 20
+      },
+      {
+        "_id": "ECC",
+        "order": 21
+      },
+      {
+        "_id": "SOS",
+        "order": 22
+      },
+      {
+        "_id": "ISA",
+        "order": 23
+      },
+      {
+        "_id": "JER",
+        "order": 24
+      },
+      {
+        "_id": "LAM",
+        "order": 25
+      },
+      {
+        "_id": "EZK",
+        "order": 26
+      },
+      {
+        "_id": "DAN",
+        "order": 27
+      },
+      {
+        "_id": "HOS",
+        "order": 28
+      },
+      {
+        "_id": "JOL",
+        "order": 29
+      },
+      {
+        "_id": "AMS",
+        "order": 30
+      },
+      {
+        "_id": "OBD",
+        "order": 31
+      },
+      {
+        "_id": "JNA",
+        "order": 32
+      },
+      {
+        "_id": "MIC",
+        "order": 33
+      },
+      {
+        "_id": "NAH",
+        "order": 34
+      },
+      {
+        "_id": "HAB",
+        "order": 35
+      },
+      {
+        "_id": "ZPH",
+        "order": 36
+      },
+      {
+        "_id": "HAG",
+        "order": 37
+      },
+      {
+        "_id": "ZEC",
+        "order": 38
+      },
+      {
+        "_id": "MAL",
+        "order": 39
+      },
+      {
+        "_id": "MAT",
+        "order": 40
+      },
+      {
+        "_id": "MRK",
+        "order": 41
+      },
+      {
+        "_id": "LUK",
+        "order": 42
+      },
+      {
+        "_id": "JHN",
+        "order": 43
+      },
+      {
+        "_id": "ACT",
+        "order": 44
+      },
+      {
+        "_id": "ROM",
+        "order": 45
+      },
+      {
+        "_id": "1CO",
+        "order": 46
+      },
+      {
+        "_id": "2CO",
+        "order": 47
+      },
+      {
+        "_id": "GAL",
+        "order": 48
+      },
+      {
+        "_id": "EPH",
+        "order": 49
+      },
+      {
+        "_id": "PHP",
+        "order": 50
+      },
+      {
+        "_id": "COL",
+        "order": 51
+      },
+      {
+        "_id": "1TH",
+        "order": 52
+      },
+      {
+        "_id": "2TH",
+        "order": 53
+      },
+      {
+        "_id": "1TM",
+        "order": 54
+      },
+      {
+        "_id": "2TM",
+        "order": 55
+      },
+      {
+        "_id": "TIT",
+        "order": 56
+      },
+      {
+        "_id": "PHM",
+        "order": 57
+      },
+      {
+        "_id": "HEB",
+        "order": 58
+      },
+      {
+        "_id": "JAS",
+        "order": 59
+      },
+      {
+        "_id": "1PT",
+        "order": 60
+      },
+      {
+        "_id": "2PT",
+        "order": 61
+      },
+      {
+        "_id": "1JN",
+        "order": 62
+      },
+      {
+        "_id": "2JN",
+        "order": 63
+      },
+      {
+        "_id": "3JN",
+        "order": 64
+      },
+      {
+        "_id": "JUD",
+        "order": 65
+      },
+      {
+        "_id": "REV",
+        "order": 66
+      }
+    ]
   },
   {
     "_id": "BYZ2018",
     "name": "Byzantine Greek New Testament",
     "copyright": "Scripture quotations from the 2018 Robinson-Pierpont edition of the Greek New Testament in the Original Greek, Byzantine Majority Text. It is in the public domain.",
     "license": "CC0-1.0",
-    "script": "G"
+    "script": "G",
+    "books": [
+      {
+        "_id": "MAT",
+        "order": 1
+      },
+      {
+        "_id": "MRK",
+        "order": 2
+      },
+      {
+        "_id": "LUK",
+        "order": 3
+      },
+      {
+        "_id": "JHN",
+        "order": 4
+      },
+      {
+        "_id": "ACT",
+        "order": 5
+      },
+      {
+        "_id": "ROM",
+        "order": 6
+      },
+      {
+        "_id": "1CO",
+        "order": 7
+      },
+      {
+        "_id": "2CO",
+        "order": 8
+      },
+      {
+        "_id": "GAL",
+        "order": 9
+      },
+      {
+        "_id": "EPH",
+        "order": 10
+      },
+      {
+        "_id": "PHP",
+        "order": 11
+      },
+      {
+        "_id": "COL",
+        "order": 12
+      },
+      {
+        "_id": "1TH",
+        "order": 13
+      },
+      {
+        "_id": "2TH",
+        "order": 14
+      },
+      {
+        "_id": "1TM",
+        "order": 15
+      },
+      {
+        "_id": "2TM",
+        "order": 16
+      },
+      {
+        "_id": "TIT",
+        "order": 17
+      },
+      {
+        "_id": "PHM",
+        "order": 18
+      },
+      {
+        "_id": "HEB",
+        "order": 19
+      },
+      {
+        "_id": "JAS",
+        "order": 20
+      },
+      {
+        "_id": "1PT",
+        "order": 21
+      },
+      {
+        "_id": "2PT",
+        "order": 22
+      },
+      {
+        "_id": "1JN",
+        "order": 23
+      },
+      {
+        "_id": "2JN",
+        "order": 24
+      },
+      {
+        "_id": "3JN",
+        "order": 25
+      },
+      {
+        "_id": "JUD",
+        "order": 26
+      },
+      {
+        "_id": "REV",
+        "order": 27
+      }
+    ]
   },
   {
     "_id": "KJV1769",
     "name": "King James Version",
     "copyright": "Scripture quotations from The Authorized King James Version of the Holy Bible, using the standardized text of 1769. It is in the public domain.",
-    "license": "CC0-1.0"
+    "license": "CC0-1.0",
+    "books": [
+      {
+        "_id": "GEN",
+        "order": 1
+      },
+      {
+        "_id": "EXO",
+        "order": 2
+      },
+      {
+        "_id": "LEV",
+        "order": 3
+      },
+      {
+        "_id": "NUM",
+        "order": 4
+      },
+      {
+        "_id": "DEU",
+        "order": 5
+      },
+      {
+        "_id": "JSH",
+        "order": 6
+      },
+      {
+        "_id": "JDG",
+        "order": 7
+      },
+      {
+        "_id": "RTH",
+        "order": 8
+      },
+      {
+        "_id": "1SM",
+        "order": 9
+      },
+      {
+        "_id": "2SM",
+        "order": 10
+      },
+      {
+        "_id": "1KG",
+        "order": 11
+      },
+      {
+        "_id": "2KG",
+        "order": 12
+      },
+      {
+        "_id": "1CH",
+        "order": 13
+      },
+      {
+        "_id": "2CH",
+        "order": 14
+      },
+      {
+        "_id": "EZR",
+        "order": 15
+      },
+      {
+        "_id": "NEH",
+        "order": 16
+      },
+      {
+        "_id": "EST",
+        "order": 17
+      },
+      {
+        "_id": "JOB",
+        "order": 18
+      },
+      {
+        "_id": "PSA",
+        "order": 19
+      },
+      {
+        "_id": "PRV",
+        "order": 20
+      },
+      {
+        "_id": "ECC",
+        "order": 21
+      },
+      {
+        "_id": "SOS",
+        "order": 22
+      },
+      {
+        "_id": "ISA",
+        "order": 23
+      },
+      {
+        "_id": "JER",
+        "order": 24
+      },
+      {
+        "_id": "LAM",
+        "order": 25
+      },
+      {
+        "_id": "EZK",
+        "order": 26
+      },
+      {
+        "_id": "DAN",
+        "order": 27
+      },
+      {
+        "_id": "HOS",
+        "order": 28
+      },
+      {
+        "_id": "JOL",
+        "order": 29
+      },
+      {
+        "_id": "AMS",
+        "order": 30
+      },
+      {
+        "_id": "OBD",
+        "order": 31
+      },
+      {
+        "_id": "JNA",
+        "order": 32
+      },
+      {
+        "_id": "MIC",
+        "order": 33
+      },
+      {
+        "_id": "NAH",
+        "order": 34
+      },
+      {
+        "_id": "HAB",
+        "order": 35
+      },
+      {
+        "_id": "ZPH",
+        "order": 36
+      },
+      {
+        "_id": "HAG",
+        "order": 37
+      },
+      {
+        "_id": "ZEC",
+        "order": 38
+      },
+      {
+        "_id": "MAL",
+        "order": 39
+      },
+      {
+        "_id": "MAT",
+        "order": 40
+      },
+      {
+        "_id": "MRK",
+        "order": 41
+      },
+      {
+        "_id": "LUK",
+        "order": 42
+      },
+      {
+        "_id": "JHN",
+        "order": 43
+      },
+      {
+        "_id": "ACT",
+        "order": 44
+      },
+      {
+        "_id": "ROM",
+        "order": 45
+      },
+      {
+        "_id": "1CO",
+        "order": 46
+      },
+      {
+        "_id": "2CO",
+        "order": 47
+      },
+      {
+        "_id": "GAL",
+        "order": 48
+      },
+      {
+        "_id": "EPH",
+        "order": 49
+      },
+      {
+        "_id": "PHP",
+        "order": 50
+      },
+      {
+        "_id": "COL",
+        "order": 51
+      },
+      {
+        "_id": "1TH",
+        "order": 52
+      },
+      {
+        "_id": "2TH",
+        "order": 53
+      },
+      {
+        "_id": "1TM",
+        "order": 54
+      },
+      {
+        "_id": "2TM",
+        "order": 55
+      },
+      {
+        "_id": "TIT",
+        "order": 56
+      },
+      {
+        "_id": "PHM",
+        "order": 57
+      },
+      {
+        "_id": "HEB",
+        "order": 58
+      },
+      {
+        "_id": "JAS",
+        "order": 59
+      },
+      {
+        "_id": "1PT",
+        "order": 60
+      },
+      {
+        "_id": "2PT",
+        "order": 61
+      },
+      {
+        "_id": "1JN",
+        "order": 62
+      },
+      {
+        "_id": "2JN",
+        "order": 63
+      },
+      {
+        "_id": "3JN",
+        "order": 64
+      },
+      {
+        "_id": "JUD",
+        "order": 65
+      },
+      {
+        "_id": "REV",
+        "order": 66
+      }
+    ]
   },
   {
     "_id": "CLV1880",
     "name": "Clementine Latin Vulgate",
     "copyright": "Scripture quotations from Clementine Vulgate of 1598 with Glossa Ordinaria Migne edition 1880 in Latin. It is in the public domain.",
-    "license": "CC0-1.0"
+    "license": "CC0-1.0",
+    "books": [
+      {
+        "_id": "GEN",
+        "order": 1
+      },
+      {
+        "_id": "EXO",
+        "order": 2
+      },
+      {
+        "_id": "LEV",
+        "order": 3
+      },
+      {
+        "_id": "NUM",
+        "order": 4
+      },
+      {
+        "_id": "DEU",
+        "order": 5
+      },
+      {
+        "_id": "JSH",
+        "order": 6
+      },
+      {
+        "_id": "JDG",
+        "order": 7
+      },
+      {
+        "_id": "RTH",
+        "order": 8
+      },
+      {
+        "_id": "1SM",
+        "order": 9
+      },
+      {
+        "_id": "2SM",
+        "order": 10
+      },
+      {
+        "_id": "1KG",
+        "order": 11
+      },
+      {
+        "_id": "2KG",
+        "order": 12
+      },
+      {
+        "_id": "1CH",
+        "order": 13
+      },
+      {
+        "_id": "2CH",
+        "order": 14
+      },
+      {
+        "_id": "EZR",
+        "order": 15
+      },
+      {
+        "_id": "NEH",
+        "order": 16
+      },
+      {
+        "_id": "EST",
+        "order": 17
+      },
+      {
+        "_id": "JOB",
+        "order": 18
+      },
+      {
+        "_id": "PSA",
+        "order": 19
+      },
+      {
+        "_id": "PRV",
+        "order": 20
+      },
+      {
+        "_id": "ECC",
+        "order": 21
+      },
+      {
+        "_id": "SOS",
+        "order": 22
+      },
+      {
+        "_id": "ISA",
+        "order": 23
+      },
+      {
+        "_id": "JER",
+        "order": 24
+      },
+      {
+        "_id": "LAM",
+        "order": 25
+      },
+      {
+        "_id": "EZK",
+        "order": 26
+      },
+      {
+        "_id": "DAN",
+        "order": 27
+      },
+      {
+        "_id": "HOS",
+        "order": 28
+      },
+      {
+        "_id": "JOL",
+        "order": 29
+      },
+      {
+        "_id": "AMS",
+        "order": 30
+      },
+      {
+        "_id": "OBD",
+        "order": 31
+      },
+      {
+        "_id": "JNA",
+        "order": 32
+      },
+      {
+        "_id": "MIC",
+        "order": 33
+      },
+      {
+        "_id": "NAH",
+        "order": 34
+      },
+      {
+        "_id": "HAB",
+        "order": 35
+      },
+      {
+        "_id": "ZPH",
+        "order": 36
+      },
+      {
+        "_id": "HAG",
+        "order": 37
+      },
+      {
+        "_id": "ZEC",
+        "order": 38
+      },
+      {
+        "_id": "MAL",
+        "order": 39
+      },
+      {
+        "_id": "MAT",
+        "order": 40
+      },
+      {
+        "_id": "MRK",
+        "order": 41
+      },
+      {
+        "_id": "LUK",
+        "order": 42
+      },
+      {
+        "_id": "JHN",
+        "order": 43
+      },
+      {
+        "_id": "ACT",
+        "order": 44
+      },
+      {
+        "_id": "ROM",
+        "order": 45
+      },
+      {
+        "_id": "1CO",
+        "order": 46
+      },
+      {
+        "_id": "2CO",
+        "order": 47
+      },
+      {
+        "_id": "GAL",
+        "order": 48
+      },
+      {
+        "_id": "EPH",
+        "order": 49
+      },
+      {
+        "_id": "PHP",
+        "order": 50
+      },
+      {
+        "_id": "COL",
+        "order": 51
+      },
+      {
+        "_id": "1TH",
+        "order": 52
+      },
+      {
+        "_id": "2TH",
+        "order": 53
+      },
+      {
+        "_id": "1TM",
+        "order": 54
+      },
+      {
+        "_id": "2TM",
+        "order": 55
+      },
+      {
+        "_id": "TIT",
+        "order": 56
+      },
+      {
+        "_id": "PHM",
+        "order": 57
+      },
+      {
+        "_id": "HEB",
+        "order": 58
+      },
+      {
+        "_id": "JAS",
+        "order": 59
+      },
+      {
+        "_id": "1PT",
+        "order": 60
+      },
+      {
+        "_id": "2PT",
+        "order": 61
+      },
+      {
+        "_id": "1JN",
+        "order": 62
+      },
+      {
+        "_id": "2JN",
+        "order": 63
+      },
+      {
+        "_id": "3JN",
+        "order": 64
+      },
+      {
+        "_id": "JUD",
+        "order": 65
+      },
+      {
+        "_id": "REV",
+        "order": 66
+      }
+    ]
   },
   {
     "_id": "WEBUS2020",
     "name": "World English Bible Classic",
     "copyright": "Scripture quotations are taken from The World English Bible™ of eBible.org, 2020 stable text edition. It is in the public domain.",
-    "license": "CC0-1.0"
+    "license": "CC0-1.0",
+    "books": [
+      {
+        "_id": "GEN",
+        "order": 1
+      },
+      {
+        "_id": "EXO",
+        "order": 2
+      },
+      {
+        "_id": "LEV",
+        "order": 3
+      },
+      {
+        "_id": "NUM",
+        "order": 4
+      },
+      {
+        "_id": "DEU",
+        "order": 5
+      },
+      {
+        "_id": "JSH",
+        "order": 6
+      },
+      {
+        "_id": "JDG",
+        "order": 7
+      },
+      {
+        "_id": "RTH",
+        "order": 8
+      },
+      {
+        "_id": "1SM",
+        "order": 9
+      },
+      {
+        "_id": "2SM",
+        "order": 10
+      },
+      {
+        "_id": "1KG",
+        "order": 11
+      },
+      {
+        "_id": "2KG",
+        "order": 12
+      },
+      {
+        "_id": "1CH",
+        "order": 13
+      },
+      {
+        "_id": "2CH",
+        "order": 14
+      },
+      {
+        "_id": "EZR",
+        "order": 15
+      },
+      {
+        "_id": "NEH",
+        "order": 16
+      },
+      {
+        "_id": "EST",
+        "order": 17
+      },
+      {
+        "_id": "JOB",
+        "order": 18
+      },
+      {
+        "_id": "PSA",
+        "order": 19
+      },
+      {
+        "_id": "PRV",
+        "order": 20
+      },
+      {
+        "_id": "ECC",
+        "order": 21
+      },
+      {
+        "_id": "SOS",
+        "order": 22
+      },
+      {
+        "_id": "ISA",
+        "order": 23
+      },
+      {
+        "_id": "JER",
+        "order": 24
+      },
+      {
+        "_id": "LAM",
+        "order": 25
+      },
+      {
+        "_id": "EZK",
+        "order": 26
+      },
+      {
+        "_id": "DAN",
+        "order": 27
+      },
+      {
+        "_id": "HOS",
+        "order": 28
+      },
+      {
+        "_id": "JOL",
+        "order": 29
+      },
+      {
+        "_id": "AMS",
+        "order": 30
+      },
+      {
+        "_id": "OBD",
+        "order": 31
+      },
+      {
+        "_id": "JNA",
+        "order": 32
+      },
+      {
+        "_id": "MIC",
+        "order": 33
+      },
+      {
+        "_id": "NAH",
+        "order": 34
+      },
+      {
+        "_id": "HAB",
+        "order": 35
+      },
+      {
+        "_id": "ZPH",
+        "order": 36
+      },
+      {
+        "_id": "HAG",
+        "order": 37
+      },
+      {
+        "_id": "ZEC",
+        "order": 38
+      },
+      {
+        "_id": "MAL",
+        "order": 39
+      },
+      {
+        "_id": "MAT",
+        "order": 40
+      },
+      {
+        "_id": "MRK",
+        "order": 41
+      },
+      {
+        "_id": "LUK",
+        "order": 42
+      },
+      {
+        "_id": "JHN",
+        "order": 43
+      },
+      {
+        "_id": "ACT",
+        "order": 44
+      },
+      {
+        "_id": "ROM",
+        "order": 45
+      },
+      {
+        "_id": "1CO",
+        "order": 46
+      },
+      {
+        "_id": "2CO",
+        "order": 47
+      },
+      {
+        "_id": "GAL",
+        "order": 48
+      },
+      {
+        "_id": "EPH",
+        "order": 49
+      },
+      {
+        "_id": "PHP",
+        "order": 50
+      },
+      {
+        "_id": "COL",
+        "order": 51
+      },
+      {
+        "_id": "1TH",
+        "order": 52
+      },
+      {
+        "_id": "2TH",
+        "order": 53
+      },
+      {
+        "_id": "1TM",
+        "order": 54
+      },
+      {
+        "_id": "2TM",
+        "order": 55
+      },
+      {
+        "_id": "TIT",
+        "order": 56
+      },
+      {
+        "_id": "PHM",
+        "order": 57
+      },
+      {
+        "_id": "HEB",
+        "order": 58
+      },
+      {
+        "_id": "JAS",
+        "order": 59
+      },
+      {
+        "_id": "1PT",
+        "order": 60
+      },
+      {
+        "_id": "2PT",
+        "order": 61
+      },
+      {
+        "_id": "1JN",
+        "order": 62
+      },
+      {
+        "_id": "2JN",
+        "order": 63
+      },
+      {
+        "_id": "3JN",
+        "order": 64
+      },
+      {
+        "_id": "JUD",
+        "order": 65
+      },
+      {
+        "_id": "REV",
+        "order": 66
+      }
+    ]
   },
   {
     "_id": "YLT1898",
     "name": "Scripture quotations from Young’s Literal Translation of the Holy Bible, by Robert Young, 1898 edition. It is in the public domain.",
-    "license": "CC0-1.0"
+    "license": "CC0-1.0",
+    "books": [
+      {
+        "_id": "GEN",
+        "order": 1
+      },
+      {
+        "_id": "EXO",
+        "order": 2
+      },
+      {
+        "_id": "LEV",
+        "order": 3
+      },
+      {
+        "_id": "NUM",
+        "order": 4
+      },
+      {
+        "_id": "DEU",
+        "order": 5
+      },
+      {
+        "_id": "JSH",
+        "order": 6
+      },
+      {
+        "_id": "JDG",
+        "order": 7
+      },
+      {
+        "_id": "RTH",
+        "order": 8
+      },
+      {
+        "_id": "1SM",
+        "order": 9
+      },
+      {
+        "_id": "2SM",
+        "order": 10
+      },
+      {
+        "_id": "1KG",
+        "order": 11
+      },
+      {
+        "_id": "2KG",
+        "order": 12
+      },
+      {
+        "_id": "1CH",
+        "order": 13
+      },
+      {
+        "_id": "2CH",
+        "order": 14
+      },
+      {
+        "_id": "EZR",
+        "order": 15
+      },
+      {
+        "_id": "NEH",
+        "order": 16
+      },
+      {
+        "_id": "EST",
+        "order": 17
+      },
+      {
+        "_id": "JOB",
+        "order": 18
+      },
+      {
+        "_id": "PSA",
+        "order": 19
+      },
+      {
+        "_id": "PRV",
+        "order": 20
+      },
+      {
+        "_id": "ECC",
+        "order": 21
+      },
+      {
+        "_id": "SOS",
+        "order": 22
+      },
+      {
+        "_id": "ISA",
+        "order": 23
+      },
+      {
+        "_id": "JER",
+        "order": 24
+      },
+      {
+        "_id": "LAM",
+        "order": 25
+      },
+      {
+        "_id": "EZK",
+        "order": 26
+      },
+      {
+        "_id": "DAN",
+        "order": 27
+      },
+      {
+        "_id": "HOS",
+        "order": 28
+      },
+      {
+        "_id": "JOL",
+        "order": 29
+      },
+      {
+        "_id": "AMS",
+        "order": 30
+      },
+      {
+        "_id": "OBD",
+        "order": 31
+      },
+      {
+        "_id": "JNA",
+        "order": 32
+      },
+      {
+        "_id": "MIC",
+        "order": 33
+      },
+      {
+        "_id": "NAH",
+        "order": 34
+      },
+      {
+        "_id": "HAB",
+        "order": 35
+      },
+      {
+        "_id": "ZPH",
+        "order": 36
+      },
+      {
+        "_id": "HAG",
+        "order": 37
+      },
+      {
+        "_id": "ZEC",
+        "order": 38
+      },
+      {
+        "_id": "MAL",
+        "order": 39
+      },
+      {
+        "_id": "MAT",
+        "order": 40
+      },
+      {
+        "_id": "MRK",
+        "order": 41
+      },
+      {
+        "_id": "LUK",
+        "order": 42
+      },
+      {
+        "_id": "JHN",
+        "order": 43
+      },
+      {
+        "_id": "ACT",
+        "order": 44
+      },
+      {
+        "_id": "ROM",
+        "order": 45
+      },
+      {
+        "_id": "1CO",
+        "order": 46
+      },
+      {
+        "_id": "2CO",
+        "order": 47
+      },
+      {
+        "_id": "GAL",
+        "order": 48
+      },
+      {
+        "_id": "EPH",
+        "order": 49
+      },
+      {
+        "_id": "PHP",
+        "order": 50
+      },
+      {
+        "_id": "COL",
+        "order": 51
+      },
+      {
+        "_id": "1TH",
+        "order": 52
+      },
+      {
+        "_id": "2TH",
+        "order": 53
+      },
+      {
+        "_id": "1TM",
+        "order": 54
+      },
+      {
+        "_id": "2TM",
+        "order": 55
+      },
+      {
+        "_id": "TIT",
+        "order": 56
+      },
+      {
+        "_id": "PHM",
+        "order": 57
+      },
+      {
+        "_id": "HEB",
+        "order": 58
+      },
+      {
+        "_id": "JAS",
+        "order": 59
+      },
+      {
+        "_id": "1PT",
+        "order": 60
+      },
+      {
+        "_id": "2PT",
+        "order": 61
+      },
+      {
+        "_id": "1JN",
+        "order": 62
+      },
+      {
+        "_id": "2JN",
+        "order": 63
+      },
+      {
+        "_id": "3JN",
+        "order": 64
+      },
+      {
+        "_id": "JUD",
+        "order": 65
+      },
+      {
+        "_id": "REV",
+        "order": 66
+      }
+    ]
   }
 ]

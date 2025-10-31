@@ -48,6 +48,27 @@
           },
           "description": "Optional per-testament overrides for script and morphology."
         },
+        "books": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["_id", "order"],
+            "properties": {
+              "_id": {
+                "type": "string",
+                "description": "Book identifier from bible-books.json"
+              },
+              "order": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Order of the book in this version"
+              }
+            }
+          },
+          "uniqueItems": true,
+          "description": "List of books included in this version with their order."
+        },
         "canon_order": {
           "type": "array",
           "items": { "type": "string" },

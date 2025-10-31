@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/bible-books/bible-books-schema.json",
   "title": "EGP Graphai • Bible Books Registry",
-  "description": "Canonical list of Bible books, incl. Apocrypha and LXX variants, with per-canon ordering.",
+  "description": "Canonical list of Bible books, incl. Apocrypha and LXX variants.",
   "type": "array",
   "items": { "$ref": "#/definitions/book" },
   "uniqueItems": true,
@@ -30,33 +30,6 @@
           "items": { "type": "string", "minLength": 1 },
           "uniqueItems": true,
           "description": "Alternate names/abbreviations (2–3 chars, etc.)."
-        },
-        "order": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "protestant": {
-              "type": "integer",
-              "minimum": 1,
-              "description": "Order in Protestant canon"
-            },
-            "catholic": {
-              "type": "integer",
-              "minimum": 1,
-              "description": "Order in Catholic canon"
-            },
-            "lxx": {
-              "type": "integer",
-              "minimum": 1,
-              "description": "Order in Septuagint (LXX)"
-            },
-            "hebrew": {
-              "type": "integer",
-              "minimum": 1,
-              "description": "Order in Hebrew Bible (Tanakh)"
-            }
-          },
-          "description": "Sparse per-canon order map. Only include canons where this book appears."
         }
       }
     }
