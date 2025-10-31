@@ -52,7 +52,7 @@
             "properties": {
               "_id": {
                 "$ref": "https://github.com/LegendaryMediaTV/EGP-Graphai/bible-books/bible-books-schema.json#/definitions/book/properties/_id",
-                "description": "Book identifier from bible-books.json"
+                "description": "Book identifier from bible-books.json (e.g., 'GEN')"
               },
               "order": {
                 "type": "integer",

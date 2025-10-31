@@ -14,7 +14,7 @@
       "properties": {
         "_id": {
           "type": "string",
-          "description": "Unique 3-character identifier."
+          "description": "Unique 3-character identifier (e.g., 'GEN')."
         },
         "name": {
           "$ref": "../content-schema.json"

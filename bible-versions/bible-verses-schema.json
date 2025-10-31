@@ -8,7 +8,7 @@
   "required": ["book", "chapter", "verse", "content"],
   "properties": {
     "book": {
-      "type": "string",
+      "$ref": "https://github.com/LegendaryMediaTV/EGP-Graphai/bible-books/bible-books-schema.json#/definitions/book/properties/_id",
       "description": "Book identifier matching _id in bible-books.json (e.g., 'John')"
     },
     "chapter": {

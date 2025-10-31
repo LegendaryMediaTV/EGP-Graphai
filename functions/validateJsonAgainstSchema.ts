@@ -24,10 +24,10 @@ export default function validateJsonAgainstSchema(
     } catch (e) {
       // Ignore if not found
     }
-    if (schemaPath !== "./bible-books/bible-book-schema.json") {
+    if (schemaPath !== "./bible-books/bible-books-schema.json") {
       try {
         const bookSchemaContent = fs.readFileSync(
-          "bible-books/bible-book-schema.json",
+          "bible-books/bible-books-schema.json",
           "utf-8"
         );
         const bookSchema = JSON.parse(bookSchemaContent);
