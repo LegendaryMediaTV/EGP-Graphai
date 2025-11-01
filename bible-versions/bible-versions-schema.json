@@ -48,11 +48,24 @@
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["_id", "order"],
+            "required": ["_id", "name", "title", "order", "chapters"],
             "properties": {
               "_id": {
                 "$ref": "https://github.com/LegendaryMediaTV/EGP-Graphai/bible-books/bible-books-schema.json#/definitions/book/properties/_id",
                 "description": "Book identifier from bible-books.json (e.g., 'GEN')"
+              },
+              "name": {
+                "$ref": "../content-schema.json",
+                "description": "Name of the book in this version"
+              },
+              "title": {
+                "$ref": "../content-schema.json",
+                "description": "Title of the book in this version"
+              },
+              "chapters": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Number of chapters in this book for this version"
               },
               "order": {
                 "type": "integer",

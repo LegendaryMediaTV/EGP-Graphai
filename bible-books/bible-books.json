@@ -2,216 +2,154 @@
   {
     "_id": "GEN",
     "name": "Genesis",
+    "title": "The First Book of Moses, Commonly Called Genesis",
     "testament": "OT",
-    "alt": [
-      "Ge",
-      "Gn",
-      "Gen"
-    ]
+    "alt": ["Ge", "Gn", "Gen"]
   },
   {
     "_id": "EXO",
     "name": "Exodus",
+    "title": "The Second Book of Moses, Commonly Called Exodus",
     "testament": "OT",
-    "alt": [
-      "Ex",
-      "Exo",
-      "Exod"
-    ]
+    "alt": ["Ex", "Exo", "Exod"]
   },
   {
     "_id": "LEV",
     "name": "Leviticus",
+    "title": "The Third Book of Moses, Commonly Called Leviticus",
     "testament": "OT",
-    "alt": [
-      "Le",
-      "Lv",
-      "Lev"
-    ]
+    "alt": ["Le", "Lv", "Lev"]
   },
   {
     "_id": "NUM",
     "name": "Numbers",
+    "title": "The Fourth Book of Moses, Commonly Called Numbers",
     "testament": "OT",
-    "alt": [
-      "Nu",
-      "Nm",
-      "Num"
-    ]
+    "alt": ["Nu", "Nm", "Num"]
   },
   {
     "_id": "DEU",
     "name": "Deuteronomy",
+    "title": "The Fifth Book of Moses, Commonly Called Deuteronomy",
     "testament": "OT",
-    "alt": [
-      "De",
-      "Dt",
-      "Deu",
-      "Deut"
-    ]
+    "alt": ["De", "Dt", "Deu", "Deut"]
   },
   {
     "_id": "JSH",
     "name": "Joshua",
+    "title": "The Book of Joshua",
     "testament": "OT",
-    "alt": [
-      "Js",
-      "Jos",
-      "Josh",
-      "Jsh"
-    ]
+    "alt": ["Js", "Jos", "Josh", "Jsh"]
   },
   {
     "_id": "JDG",
     "name": "Judges",
+    "title": "The Book of Judges",
     "testament": "OT",
-    "alt": [
-      "Jdg",
-      "Jg",
-      "Judg"
-    ]
+    "alt": ["Jdg", "Jg", "Judg"]
   },
   {
     "_id": "RTH",
     "name": "Ruth",
+    "title": "The Book of Ruth",
     "testament": "OT",
-    "alt": [
-      "Rth",
-      "Ru",
-      "Rut",
-      "Ruth"
-    ]
+    "alt": ["Rth", "Ru", "Rut", "Ruth"]
   },
   {
     "_id": "1SM",
     "name": "1 Samuel",
+    "title": "The First Book of Samuel",
     "testament": "OT",
-    "alt": [
-      "1Sam",
-      "1Sm",
-      "1Sa"
-    ]
+    "alt": ["1Sam", "1Sm", "1Sa"]
   },
   {
     "_id": "2SM",
     "name": "2 Samuel",
+    "title": "The Second Book of Samuel",
     "testament": "OT",
-    "alt": [
-      "2Sam",
-      "2Sm",
-      "2Sa"
-    ]
+    "alt": ["2Sam", "2Sm", "2Sa"]
   },
   {
     "_id": "1KG",
     "name": "1 Kings",
+    "title": "The First Book of Kings",
     "testament": "OT",
-    "alt": [
-      "1Kg",
-      "1Ki",
-      "1Kgs"
-    ]
+    "alt": ["1Kg", "1Ki", "1Kgs"]
   },
   {
     "_id": "2KG",
     "name": "2 Kings",
+    "title": "The Second Book of Kings",
     "testament": "OT",
-    "alt": [
-      "2Kg",
-      "2Ki",
-      "2Kgs"
-    ]
+    "alt": ["2Kg", "2Ki", "2Kgs"]
   },
   {
     "_id": "1CH",
     "name": "1 Chronicles",
+    "title": "The First Book of Chronicles",
     "testament": "OT",
-    "alt": [
-      "1Ch",
-      "1Chr"
-    ]
+    "alt": ["1Ch", "1Chr"]
   },
   {
     "_id": "2CH",
     "name": "2 Chronicles",
+    "title": "The Second Book of Chronicles",
     "testament": "OT",
-    "alt": [
-      "2Ch",
-      "2Chr"
-    ]
+    "alt": ["2Ch", "2Chr"]
   },
   {
     "_id": "EZR",
     "name": "Ezra",
+    "title": "The Book of Ezra",
     "testament": "OT",
-    "alt": [
-      "Er",
-      "Ezr"
-    ]
+    "alt": ["Er", "Ezr"]
   },
   {
     "_id": "NEH",
     "name": "Nehemiah",
+    "title": "The Book of Nehemiah",
     "testament": "OT",
-    "alt": [
-      "Ne",
-      "Neh"
-    ]
+    "alt": ["Ne", "Neh"]
   },
   {
     "_id": "EST",
     "name": "Esther",
+    "title": "The Book of Esther",
     "testament": "OT",
-    "alt": [
-      "Es",
-      "Est",
-      "Esth"
-    ]
+    "alt": ["Es", "Est", "Esth"]
   },
   {
     "_id": "JOB",
     "name": "Job",
+    "title": "The Book of Job",
     "testament": "OT",
-    "alt": [
-      "Jb"
-    ]
+    "alt": ["Jb"]
   },
   {
     "_id": "PSA",
     "name": "Psalms",
+    "title": "The Psalms",
     "testament": "OT",
-    "alt": [
-      "Ps",
-      "Psa",
-      "Psalm"
-    ]
+    "alt": ["Ps", "Psa", "Psalm"]
   },
   {
     "_id": "PRV",
     "name": "Proverbs",
+    "title": "The Proverbs",
     "testament": "OT",
-    "alt": [
-      "Pr",
-      "Prov",
-      "Prv",
-      "Pro"
-    ]
+    "alt": ["Pr", "Prov", "Prv", "Pro"]
   },
   {
     "_id": "ECC",
     "name": "Ecclesiastes",
+    "title": "Ecclesiastes or, The Preacher",
     "testament": "OT",
-    "alt": [
-      "Ec",
-      "Ecc",
-      "Eccl",
-      "Qohelet",
-      "Qoheleth"
-    ]
+    "alt": ["Ec", "Ecc", "Eccl", "Qohelet", "Qoheleth"]
   },
   {
     "_id": "SOS",
     "name": "Song of Songs",
+    "title": "The Song of Songs",
     "testament": "OT",
     "alt": [
       "So",
@@ -226,519 +164,378 @@
   {
     "_id": "ISA",
     "name": "Isaiah",
+    "title": "The Book of the Prophet Isaiah",
     "testament": "OT",
-    "alt": [
-      "Is",
-      "Isa"
-    ]
+    "alt": ["Is", "Isa"]
   },
   {
     "_id": "JER",
     "name": "Jeremiah",
+    "title": "The Book of Jeremiah",
     "testament": "OT",
-    "alt": [
-      "Je",
-      "Jer"
-    ]
+    "alt": ["Je", "Jer"]
   },
   {
     "_id": "LAM",
     "name": "Lamentations",
+    "title": "The Lamentations of Jeremiah",
     "testament": "OT",
-    "alt": [
-      "La",
-      "Lam"
-    ]
+    "alt": ["La", "Lam"]
   },
   {
     "_id": "EZK",
     "name": "Ezekiel",
+    "title": "The Book of Ezekiel",
     "testament": "OT",
-    "alt": [
-      "Ez",
-      "Eze",
-      "Ezek"
-    ]
+    "alt": ["Ez", "Eze", "Ezek"]
   },
   {
     "_id": "DAN",
     "name": "Daniel",
+    "title": "The Book of Daniel",
     "testament": "OT",
-    "alt": [
-      "Da",
-      "Dan"
-    ]
+    "alt": ["Da", "Dan"]
   },
   {
     "_id": "HOS",
     "name": "Hosea",
+    "title": "The Book of Hosea",
     "testament": "OT",
-    "alt": [
-      "Ho",
-      "Hos"
-    ]
+    "alt": ["Ho", "Hos"]
   },
   {
     "_id": "JOL",
     "name": "Joel",
+    "title": "The Book of Joel",
     "testament": "OT",
-    "alt": [
-      "Jl",
-      "Joel",
-      "Jol"
-    ]
+    "alt": ["Jl", "Joel", "Jol"]
   },
   {
     "_id": "AMS",
     "name": "Amos",
+    "title": "The Book of Amos",
     "testament": "OT",
-    "alt": [
-      "Am",
-      "Amos",
-      "Ams",
-      "Amo"
-    ]
+    "alt": ["Am", "Amos", "Ams", "Amo"]
   },
   {
     "_id": "OBD",
     "name": "Obadiah",
+    "title": "The Book of Obadiah",
     "testament": "OT",
-    "alt": [
-      "Ob",
-      "Oba",
-      "Obd",
-      "Obad"
-    ]
+    "alt": ["Ob", "Oba", "Obd", "Obad"]
   },
   {
     "_id": "JNA",
     "name": "Jonah",
+    "title": "The Book of Jonah",
     "testament": "OT",
-    "alt": [
-      "Jna",
-      "Jo",
-      "Jon",
-      "Jonah"
-    ]
+    "alt": ["Jna", "Jo", "Jon", "Jonah"]
   },
   {
     "_id": "MIC",
     "name": "Micah",
+    "title": "The Book of Micah",
     "testament": "OT",
-    "alt": [
-      "Mi",
-      "Mic"
-    ]
+    "alt": ["Mi", "Mic"]
   },
   {
     "_id": "NAH",
     "name": "Nahum",
+    "title": "The Book of Nahum",
     "testament": "OT",
-    "alt": [
-      "Na",
-      "Nah",
-      "Nam"
-    ]
+    "alt": ["Na", "Nah", "Nam"]
   },
   {
     "_id": "HAB",
     "name": "Habakkuk",
+    "title": "The Book of Habakkuk",
     "testament": "OT",
-    "alt": [
-      "Hab",
-      "Hb"
-    ]
+    "alt": ["Hab", "Hb"]
   },
   {
     "_id": "ZPH",
     "name": "Zephaniah",
+    "title": "The Book of Zephaniah",
     "testament": "OT",
-    "alt": [
-      "Zeph",
-      "Zp",
-      "Zph",
-      "Zep"
-    ]
+    "alt": ["Zeph", "Zp", "Zph", "Zep"]
   },
   {
     "_id": "HAG",
     "name": "Haggai",
+    "title": "The Book of Haggai",
     "testament": "OT",
-    "alt": [
-      "Hag",
-      "Hg"
-    ]
+    "alt": ["Hag", "Hg"]
   },
   {
     "_id": "ZEC",
     "name": "Zechariah",
+    "title": "The Book of Zechariah",
     "testament": "OT",
-    "alt": [
-      "Zch",
-      "Ze",
-      "Zech",
-      "Zec"
-    ]
+    "alt": ["Zch", "Ze", "Zech", "Zec"]
   },
   {
     "_id": "MAL",
     "name": "Malachi",
+    "title": "The Book of Malachi",
     "testament": "OT",
-    "alt": [
-      "Ma",
-      "Mal"
-    ]
+    "alt": ["Ma", "Mal"]
   },
   {
     "_id": "MAT",
     "name": "Matthew",
+    "title": "The Good News According to Matthew",
     "testament": "NT",
-    "alt": [
-      "Matt",
-      "Mt",
-      "Mtt",
-      "Mat"
-    ]
+    "alt": ["Matt", "Mt", "Mtt", "Mat"]
   },
   {
     "_id": "MRK",
     "name": "Mark",
+    "title": "The Good News According to Mark",
     "testament": "NT",
-    "alt": [
-      "Mark",
-      "Mk",
-      "Mrk"
-    ]
+    "alt": ["Mark", "Mk", "Mrk"]
   },
   {
     "_id": "LUK",
     "name": "Luke",
+    "title": "The Good News According to Luke",
     "testament": "NT",
-    "alt": [
-      "Lk",
-      "Lke",
-      "Luke",
-      "Luk"
-    ]
+    "alt": ["Lk", "Lke", "Luke", "Luk"]
   },
   {
     "_id": "JHN",
     "name": "John",
+    "title": "The Good News According to John",
     "testament": "NT",
-    "alt": [
-      "Jhn",
-      "Jn",
-      "John"
-    ]
+    "alt": ["Jhn", "Jn", "John"]
   },
   {
     "_id": "ACT",
     "name": "Acts",
+    "title": "The Acts of the Apostles",
     "testament": "NT",
-    "alt": [
-      "Ac",
-      "Act",
-      "Acts"
-    ]
+    "alt": ["Ac", "Act", "Acts"]
   },
   {
     "_id": "ROM",
     "name": "Romans",
+    "title": "Paul’s Letter to the Romans",
     "testament": "NT",
-    "alt": [
-      "Ro",
-      "Rom"
-    ]
+    "alt": ["Ro", "Rom"]
   },
   {
     "_id": "1CO",
     "name": "1 Corinthians",
+    "title": "Paul’s First Letter to the Corinthians",
     "testament": "NT",
-    "alt": [
-      "1Co",
-      "1Cor"
-    ]
+    "alt": ["1Co", "1Cor"]
   },
   {
     "_id": "2CO",
     "name": "2 Corinthians",
+    "title": "Paul’s Second Letter to the Corinthians",
     "testament": "NT",
-    "alt": [
-      "2Co",
-      "2Cor"
-    ]
+    "alt": ["2Co", "2Cor"]
   },
   {
     "_id": "GAL",
     "name": "Galatians",
+    "title": "Paul’s Letter to the Galatians",
     "testament": "NT",
-    "alt": [
-      "Ga",
-      "Gal"
-    ]
+    "alt": ["Ga", "Gal"]
   },
   {
     "_id": "EPH",
     "name": "Ephesians",
+    "title": "Paul’s Letter to the Ephesians",
     "testament": "NT",
-    "alt": [
-      "Ep",
-      "Eph"
-    ]
+    "alt": ["Ep", "Eph"]
   },
   {
     "_id": "PHP",
     "name": "Philippians",
+    "title": "Paul’s Letter to the Philippians",
     "testament": "NT",
-    "alt": [
-      "Ph",
-      "Phil",
-      "Php"
-    ]
+    "alt": ["Ph", "Phil", "Php"]
   },
   {
     "_id": "COL",
     "name": "Colossians",
+    "title": "Paul’s Letter to the Colossians",
     "testament": "NT",
-    "alt": [
-      "Cl",
-      "Col"
-    ]
+    "alt": ["Cl", "Col"]
   },
   {
     "_id": "1TH",
     "name": "1 Thessalonians",
+    "title": "Paul’s First Letter to the Thessalonians",
     "testament": "NT",
-    "alt": [
-      "1Th",
-      "1Thess"
-    ]
+    "alt": ["1Th", "1Thess"]
   },
   {
     "_id": "2TH",
     "name": "2 Thessalonians",
+    "title": "Paul’s Second Letter to the Thessalonians",
     "testament": "NT",
-    "alt": [
-      "2Th",
-      "2Thess"
-    ]
+    "alt": ["2Th", "2Thess"]
   },
   {
     "_id": "1TM",
     "name": "1 Timothy",
+    "title": "Paul’s First Letter to Timothy",
     "testament": "NT",
-    "alt": [
-      "1Tim",
-      "1Tm",
-      "1Ti"
-    ]
+    "alt": ["1Tim", "1Tm", "1Ti"]
   },
   {
     "_id": "2TM",
     "name": "2 Timothy",
+    "title": "Paul’s Second Letter to Timothy",
     "testament": "NT",
-    "alt": [
-      "2Tim",
-      "2Tm",
-      "2Ti"
-    ]
+    "alt": ["2Tim", "2Tm", "2Ti"]
   },
   {
     "_id": "TIT",
     "name": "Titus",
+    "title": "Paul’s Letter to Titus",
     "testament": "NT",
-    "alt": [
-      "Tit",
-      "Titus",
-      "Tt"
-    ]
+    "alt": ["Tit", "Titus", "Tt"]
   },
   {
     "_id": "PHM",
     "name": "Philemon",
+    "title": "Paul’s Letter to Philemon",
     "testament": "NT",
-    "alt": [
-      "Phl",
-      "Phlm",
-      "Pm",
-      "Phm"
-    ]
+    "alt": ["Phl", "Phlm", "Pm", "Phm"]
   },
   {
     "_id": "HEB",
     "name": "Hebrews",
+    "title": "The Letter to the Hebrews",
     "testament": "NT",
-    "alt": [
-      "He",
-      "Heb"
-    ]
+    "alt": ["He", "Heb"]
   },
   {
     "_id": "JAS",
     "name": "James",
+    "title": "The Letter from James",
     "testament": "NT",
-    "alt": [
-      "Ja",
-      "Jas"
-    ]
+    "alt": ["Ja", "Jas"]
   },
   {
     "_id": "1PT",
     "name": "1 Peter",
+    "title": "Peter’s First Letter",
     "testament": "NT",
-    "alt": [
-      "1Pe",
-      "1Pt",
-      "1Pet"
-    ]
+    "alt": ["1Pe", "1Pt", "1Pet"]
   },
   {
     "_id": "2PT",
     "name": "2 Peter",
+    "title": "Peter’s Second Letter",
     "testament": "NT",
-    "alt": [
-      "2Pe",
-      "2Pt",
-      "2Pet"
-    ]
+    "alt": ["2Pe", "2Pt", "2Pet"]
   },
   {
     "_id": "1JN",
     "name": "1 John",
+    "title": "John’s First Letter",
     "testament": "NT",
-    "alt": [
-      "1Jn",
-      "1John"
-    ]
+    "alt": ["1Jn", "1John"]
   },
   {
     "_id": "2JN",
     "name": "2 John",
+    "title": "John’s Second Letter",
     "testament": "NT",
-    "alt": [
-      "2Jn",
-      "2John"
-    ]
+    "alt": ["2Jn", "2John"]
   },
   {
     "_id": "3JN",
     "name": "3 John",
+    "title": "John’s Third Letter",
     "testament": "NT",
-    "alt": [
-      "3Jn",
-      "3John"
-    ]
+    "alt": ["3Jn", "3John"]
   },
   {
     "_id": "JUD",
     "name": "Jude",
+    "title": "The Letter from Jude",
     "testament": "NT",
-    "alt": [
-      "Jd",
-      "Jde",
-      "Jud"
-    ]
+    "alt": ["Jd", "Jde", "Jud"]
   },
   {
     "_id": "REV",
     "name": "Revelation",
+    "title": "The Revelation to John",
     "testament": "NT",
-    "alt": [
-      "Re",
-      "Rev"
-    ]
+    "alt": ["Re", "Rev"]
   },
   {
     "_id": "TOB",
     "name": "Tobit",
+    "title": "Tobit",
     "testament": "OT",
-    "alt": [
-      "Tob"
-    ]
+    "alt": ["Tob"]
   },
   {
     "_id": "JDT",
     "name": "Judith",
+    "title": "Judith",
     "testament": "OT",
-    "alt": [
-      "Jdt"
-    ]
+    "alt": ["Jdt"]
   },
   {
     "_id": "ESG",
     "name": "Esther (Greek)",
+    "title": "Esther (Greek)",
     "testament": "OT",
-    "alt": [
-      "EsthGr",
-      "EsG",
-      "Esther Greek",
-      "Greek Esther"
-    ]
+    "alt": ["EsthGr", "EsG", "Esther Greek", "Greek Esther"]
   },
   {
     "_id": "WIS",
     "name": "Wisdom of Solomon",
+    "title": "Wisdom of Solomon",
     "testament": "OT",
-    "alt": [
-      "Wis",
-      "Wisdom"
-    ]
+    "alt": ["Wis", "Wisdom"]
   },
   {
     "_id": "SRP",
     "name": "Sirach Prologue",
+    "title": "Sirach Prologue",
     "testament": "OT",
-    "alt": [
-      "SirP",
-      "Ecclesiasticus Prologue"
-    ]
+    "alt": ["SirP", "Ecclesiasticus Prologue"]
   },
   {
     "_id": "SIR",
     "name": "Sirach",
+    "title": "Sirach",
     "testament": "OT",
-    "alt": [
-      "Sir",
-      "Ecclesiasticus",
-      "Wisdom of Ben Sira"
-    ]
+    "alt": ["Sir", "Ecclesiasticus", "Wisdom of Ben Sira"]
   },
   {
     "_id": "BAR",
     "name": "Baruch",
+    "title": "Baruch",
     "testament": "OT",
-    "alt": [
-      "Bar"
-    ]
+    "alt": ["Bar"]
   },
   {
     "_id": "EPJ",
     "name": "Letter of Jeremiah",
+    "title": "Letter of Jeremiah",
     "testament": "OT",
-    "alt": [
-      "EpJ",
-      "EpJer",
-      "LJer",
-      "LJe",
-      "Epistle of Jeremiah"
-    ]
+    "alt": ["EpJ", "EpJer", "LJer", "LJe", "Epistle of Jeremiah"]
   },
   {
     "_id": "DOG",
     "name": "Daniel (Old Greek)",
+    "title": "Daniel (Old Greek)",
     "testament": "OT",
-    "alt": [
-      "DanGr",
-      "DoG",
-      "DaG",
-      "DanOG",
-      "Dan OG",
-      "Daniel OG"
-    ]
+    "alt": ["DanGr", "DoG", "DaG", "DanOG", "Dan OG", "Daniel OG"]
   },
   {
     "_id": "PAZ",
     "name": "Prayer of Azariah",
+    "title": "Prayer of Azariah",
     "testament": "OT",
     "alt": [
       "PrAzar",
@@ -752,167 +549,119 @@
   {
     "_id": "SUS",
     "name": "Susanna",
+    "title": "Susanna",
     "testament": "OT",
-    "alt": [
-      "Sus"
-    ]
+    "alt": ["Sus"]
   },
   {
     "_id": "BEL",
     "name": "Bel and the Dragon",
+    "title": "Bel and the Dragon",
     "testament": "OT",
-    "alt": [
-      "Bel"
-    ]
+    "alt": ["Bel"]
   },
   {
     "_id": "1MC",
     "name": "1 Maccabees",
+    "title": "1 Maccabees",
     "testament": "OT",
-    "alt": [
-      "1Macc",
-      "1Ma",
-      "1Mc"
-    ]
+    "alt": ["1Macc", "1Ma", "1Mc"]
   },
   {
     "_id": "2MC",
     "name": "2 Maccabees",
+    "title": "2 Maccabees",
     "testament": "OT",
-    "alt": [
-      "2Macc",
-      "2Ma",
-      "2Mc"
-    ]
+    "alt": ["2Macc", "2Ma", "2Mc"]
   },
   {
     "_id": "3MC",
     "name": "3 Maccabees",
+    "title": "3 Maccabees",
     "testament": "OT",
-    "alt": [
-      "3Macc",
-      "3Ma",
-      "3Mc"
-    ]
+    "alt": ["3Macc", "3Ma", "3Mc"]
   },
   {
     "_id": "4MC",
     "name": "4 Maccabees",
+    "title": "4 Maccabees",
     "testament": "OT",
-    "alt": [
-      "4Macc",
-      "4Ma",
-      "4Mc"
-    ]
+    "alt": ["4Macc", "4Ma", "4Mc"]
   },
   {
     "_id": "PMA",
     "name": "Prayer of Manasseh",
+    "title": "Prayer of Manasseh",
     "testament": "OT",
-    "alt": [
-      "PMA",
-      "PrMan",
-      "Man",
-      "Manasseh"
-    ]
+    "alt": ["PMA", "PrMan", "Man", "Manasseh"]
   },
   {
     "_id": "1ES",
     "name": "1 Esdras",
+    "title": "1 Esdras",
     "testament": "OT",
-    "alt": [
-      "1Esd",
-      "1Es"
-    ]
+    "alt": ["1Esd", "1Es"]
   },
   {
     "_id": "2ES",
     "name": "2 Esdras",
+    "title": "2 Esdras",
     "testament": "OT",
-    "alt": [
-      "2Esd",
-      "2Es"
-    ]
+    "alt": ["2Esd", "2Es"]
   },
   {
     "_id": "ODS",
     "name": "Odes",
+    "title": "Odes",
     "testament": "OT",
-    "alt": [
-      "Odes",
-      "Ods",
-      "OdA"
-    ]
+    "alt": ["Odes", "Ods", "OdA"]
   },
   {
     "_id": "PSS",
     "name": "Psalms of Solomon",
+    "title": "Psalms of Solomon",
     "testament": "OT",
-    "alt": [
-      "PssSol",
-      "PSS",
-      "PsSol",
-      "Psalms of Solomon"
-    ]
+    "alt": ["PssSol", "PSS", "PsSol", "Psalms of Solomon"]
   },
   {
     "_id": "JSA",
     "name": "Joshua A",
+    "title": "Joshua A",
     "testament": "OT",
-    "alt": [
-      "JoshA",
-      "JsA",
-      "Joshua Alexandrinus",
-      "Alexandrinus Joshua"
-    ]
+    "alt": ["JoshA", "JsA", "Joshua Alexandrinus", "Alexandrinus Joshua"]
   },
   {
     "_id": "JDB",
     "name": "Judges B",
+    "title": "Judges B",
     "testament": "OT",
-    "alt": [
-      "JudgB",
-      "JdB",
-      "Judges Vaticanus",
-      "Vaticanus Judges"
-    ]
+    "alt": ["JudgB", "JdB", "Judges Vaticanus", "Vaticanus Judges"]
   },
   {
     "_id": "TBS",
     "name": "Tobit S",
+    "title": "Tobit S",
     "testament": "OT",
-    "alt": [
-      "TobS",
-      "TbS",
-      "Tobit Sinaiticus",
-      "Sinaiticus Tobit"
-    ]
+    "alt": ["TobS", "TbS", "Tobit Sinaiticus", "Sinaiticus Tobit"]
   },
   {
     "_id": "SST",
     "name": "Susanna θ",
+    "title": "Susanna θ",
     "testament": "OT",
-    "alt": [
-      "SusTh",
-      "SsT",
-      "Susanna Theodotion",
-      "Theodotion Susanna"
-    ]
+    "alt": ["SusTh", "SsT", "Susanna Theodotion", "Theodotion Susanna"]
   },
   {
     "_id": "DNT",
     "name": "Daniel θ",
+    "title": "Daniel θ",
     "testament": "OT",
-    "alt": [
-      "DanTh",
-      "DnT",
-      "Daniel Theodotion",
-      "Theodotion Daniel"
-    ]
+    "alt": ["DanTh", "DnT", "Daniel Theodotion", "Theodotion Daniel"]
   },
   {
     "_id": "BLT",
     "name": "Bel and the Dragon θ",
+    "title": "Bel and the Dragon θ",
     "testament": "OT",
     "alt": [
       "BelTh",

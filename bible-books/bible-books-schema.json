@@ -10,14 +10,19 @@
     "book": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["_id", "name", "testament", "alt"],
+      "required": ["_id", "name", "title", "testament", "alt"],
       "properties": {
         "_id": {
           "type": "string",
           "description": "Unique 3-character identifier (e.g., 'GEN')."
         },
         "name": {
-          "$ref": "../content-schema.json"
+          "$ref": "../content-schema.json",
+          "description": "The primary name of the book."
+        },
+        "title": {
+          "$ref": "../content-schema.json",
+          "description": "The full title of the book, often including traditional or formal naming."
         },
         "testament": {
           "type": "string",
