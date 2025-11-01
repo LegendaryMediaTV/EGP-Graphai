@@ -46,8 +46,8 @@
 <sup>36</sup> The border of the Amorites was from the ascent of Akrabbim, from the rock, and upward.
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
-> - <sup>b</sup> 2. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
-> - <sup>c</sup> 7. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>b</sup> 2. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>c</sup> 7. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 2
 
@@ -157,46 +157,46 @@
 <sup>24</sup> The hand of the children of Israel prevailed more and more against Jabin the king of Canaan, until they had destroyed Jabin king of Canaan.
 ## Chapter 5
 
-<sup>1</sup> Then Deborah and Barak the son of Abinoam sang on that day, saying, <br>
-<sup>2</sup> “Because the leaders took the lead in Israel, <br>because the people offered themselves willingly, <br>be blessed, Yahweh!
+<sup>1</sup> Then Deborah and Barak the son of Abinoam sang on that day, saying,<br>
+<sup>2</sup> “Because the leaders took the lead in Israel,<br>because the people offered themselves willingly,<br>be blessed, Yahweh!
 
-<sup>3</sup> “Hear, you kings! <br>Give ear, you princes! <br>I, even I, will sing to Yahweh. <br>I will sing praise to Yahweh, the God of Israel.
+<sup>3</sup> “Hear, you kings!<br>Give ear, you princes!<br>I, even I, will sing to Yahweh.<br>I will sing praise to Yahweh, the God of Israel.
 
-<sup>4</sup> “Yahweh, when you went out of Seir, <br>when you marched out of the field of Edom, <br>the earth trembled, the sky also dropped. <br>Yes, the clouds dropped water. <br>
-<sup>5</sup> The mountains quaked at Yahweh’s presence, <br>even Sinai at the presence of Yahweh, the God of Israel.
+<sup>4</sup> “Yahweh, when you went out of Seir,<br>when you marched out of the field of Edom,<br>the earth trembled, the sky also dropped.<br>Yes, the clouds dropped water.<br>
+<sup>5</sup> The mountains quaked at Yahweh’s presence,<br>even Sinai at the presence of Yahweh, the God of Israel.
 
-<sup>6</sup> “In the days of Shamgar the son of Anath, <br>in the days of Jael, the highways were unoccupied. <br>The travelers walked through byways. <br>
-<sup>7</sup> The rulers ceased in Israel. <br>They ceased until I, Deborah, arose; <br>Until I arose a mother in Israel. <br>
-<sup>8</sup> They chose new gods. <br>Then war was in the gates. <br>Was there a shield or spear seen among forty thousand in Israel? <br>
-<sup>9</sup> My heart is toward the governors of Israel, <br>who offered themselves willingly among the people. <br>Bless Yahweh!
+<sup>6</sup> “In the days of Shamgar the son of Anath,<br>in the days of Jael, the highways were unoccupied.<br>The travelers walked through byways.<br>
+<sup>7</sup> The rulers ceased in Israel.<br>They ceased until I, Deborah, arose;<br>Until I arose a mother in Israel.<br>
+<sup>8</sup> They chose new gods.<br>Then war was in the gates.<br>Was there a shield or spear seen among forty thousand in Israel?<br>
+<sup>9</sup> My heart is toward the governors of Israel,<br>who offered themselves willingly among the people.<br>Bless Yahweh!
 
-<sup>10</sup> “Speak, you who ride on white donkeys, <br>you who sit on rich carpets, <br>and you who walk by the way. <br>
-<sup>11</sup> Far from the noise of archers, in the places of drawing water, <br>there they will rehearse Yahweh’s righteous acts, <br>the righteous acts of his rule in Israel. “Then Yahweh’s people went down to the gates. <br>
-<sup>12</sup> ‘Awake, awake, Deborah! <br>Awake, awake, utter a song! <br>Arise, Barak, and lead away your captives, you son of Abinoam.’
+<sup>10</sup> “Speak, you who ride on white donkeys,<br>you who sit on rich carpets,<br>and you who walk by the way.<br>
+<sup>11</sup> Far from the noise of archers, in the places of drawing water,<br>there they will rehearse Yahweh’s righteous acts,<br>the righteous acts of his rule in Israel. “Then Yahweh’s people went down to the gates.<br>
+<sup>12</sup> ‘Awake, awake, Deborah!<br>Awake, awake, utter a song!<br>Arise, Barak, and lead away your captives, you son of Abinoam.’
 
-<sup>13</sup> “Then a remnant of the nobles and the people came down. <br>Yahweh came down for me against the mighty. <br>
-<sup>14</sup> Those whose root is in Amalek came out of Ephraim, <br>after you, Benjamin, among your peoples. <br>Governors come down out of Machir. <br>Those who handle the marshal’s staff came out of Zebulun. <br>
-<sup>15</sup> The princes of Issachar were with Deborah. <br>As was Issachar, so was Barak. <br>They rushed into the valley at his feet. <br>By the watercourses of Reuben, <br>there were great resolves of heart. <br>
-<sup>16</sup> Why did you sit among the sheepfolds? <br>To hear the whistling for the flocks? <br>At the watercourses of Reuben, <br>there were great searchings of heart. <br>
-<sup>17</sup> Gilead lived beyond the Jordan. <br>Why did Dan remain in ships? <br>Asher sat still at the haven of the sea, <br>and lived by his creeks. <br>
-<sup>18</sup> Zebulun was a people that jeopardized their lives to the death; <br>Naphtali also, on the high places of the field.
+<sup>13</sup> “Then a remnant of the nobles and the people came down.<br>Yahweh came down for me against the mighty.<br>
+<sup>14</sup> Those whose root is in Amalek came out of Ephraim,<br>after you, Benjamin, among your peoples.<br>Governors come down out of Machir.<br>Those who handle the marshal’s staff came out of Zebulun.<br>
+<sup>15</sup> The princes of Issachar were with Deborah.<br>As was Issachar, so was Barak.<br>They rushed into the valley at his feet.<br>By the watercourses of Reuben,<br>there were great resolves of heart.<br>
+<sup>16</sup> Why did you sit among the sheepfolds?<br>To hear the whistling for the flocks?<br>At the watercourses of Reuben,<br>there were great searchings of heart.<br>
+<sup>17</sup> Gilead lived beyond the Jordan.<br>Why did Dan remain in ships?<br>Asher sat still at the haven of the sea,<br>and lived by his creeks.<br>
+<sup>18</sup> Zebulun was a people that jeopardized their lives to the death;<br>Naphtali also, on the high places of the field.
 
-<sup>19</sup> “The kings came and fought, <br>then the kings of Canaan fought at Taanach by the waters of Megiddo. <br>They took no plunder of silver. <br>
-<sup>20</sup> From the sky the stars fought. <br>From their courses, they fought against Sisera. <br>
-<sup>21</sup> The river Kishon swept them away, <br>that ancient river, the river Kishon. <br>My soul, march on with strength. <br>
-<sup>22</sup> Then the horse hoofs stamped because of the prancing, <br>the prancing of their strong ones. <br>
-<sup>23</sup> ‘Curse Meroz,’ said Yahweh’s angel. <br>‘Curse bitterly its inhabitants, <br>because they didn’t come to help Yahweh, <br>to help Yahweh against the mighty.’
+<sup>19</sup> “The kings came and fought,<br>then the kings of Canaan fought at Taanach by the waters of Megiddo.<br>They took no plunder of silver.<br>
+<sup>20</sup> From the sky the stars fought.<br>From their courses, they fought against Sisera.<br>
+<sup>21</sup> The river Kishon swept them away,<br>that ancient river, the river Kishon.<br>My soul, march on with strength.<br>
+<sup>22</sup> Then the horse hoofs stamped because of the prancing,<br>the prancing of their strong ones.<br>
+<sup>23</sup> ‘Curse Meroz,’ said Yahweh’s angel.<br>‘Curse bitterly its inhabitants,<br>because they didn’t come to help Yahweh,<br>to help Yahweh against the mighty.’
 
-<sup>24</sup> “Jael shall be blessed above women, <br>the wife of Heber the Kenite; <br>blessed shall she be above women in the tent. <br>
-<sup>25</sup> He asked for water. <br>She gave him milk. <br>She brought him butter in a lordly dish. <br>
-<sup>26</sup> She put her hand to the tent peg, <br>and her right hand to the workmen’s hammer. <br>With the hammer she struck Sisera. <br>She struck through his head. <br>Yes, she pierced and struck through his temples. <br>
-<sup>27</sup> At her feet he bowed, he fell, he lay. <br>At her feet he bowed, he fell. <br>Where he bowed, there he fell down dead.
+<sup>24</sup> “Jael shall be blessed above women,<br>the wife of Heber the Kenite;<br>blessed shall she be above women in the tent.<br>
+<sup>25</sup> He asked for water.<br>She gave him milk.<br>She brought him butter in a lordly dish.<br>
+<sup>26</sup> She put her hand to the tent peg,<br>and her right hand to the workmen’s hammer.<br>With the hammer she struck Sisera.<br>She struck through his head.<br>Yes, she pierced and struck through his temples.<br>
+<sup>27</sup> At her feet he bowed, he fell, he lay.<br>At her feet he bowed, he fell.<br>Where he bowed, there he fell down dead.
 
-<sup>28</sup> “Through the window she looked out, and cried: <br>Sisera’s mother looked through the lattice. <br>‘Why is his chariot so long in coming? <br>Why do the wheels of his chariots wait?’ <br>
-<sup>29</sup> Her wise ladies answered her, <br>Yes, she returned answer to herself, <br>
-<sup>30</sup> ‘Have they not found, have they not divided the plunder? <br>A lady, two ladies to every man; <br>to Sisera a plunder of dyed garments, <br>a plunder of dyed garments embroidered, <br>of dyed garments embroidered on both sides, on the necks of the plunder?’
+<sup>28</sup> “Through the window she looked out, and cried:<br>Sisera’s mother looked through the lattice.<br>‘Why is his chariot so long in coming?<br>Why do the wheels of his chariots wait?’<br>
+<sup>29</sup> Her wise ladies answered her,<br>Yes, she returned answer to herself,<br>
+<sup>30</sup> ‘Have they not found, have they not divided the plunder?<br>A lady, two ladies to every man;<br>to Sisera a plunder of dyed garments,<br>a plunder of dyed garments embroidered,<br>of dyed garments embroidered on both sides, on the necks of the plunder?’
 
-<sup>31</sup> “So let all your enemies perish, Yahweh, <br>but let those who love him be as the sun when it rises in its strength.”  Then the land had rest forty years.
+<sup>31</sup> “So let all your enemies perish, Yahweh,<br>but let those who love him be as the sun when it rises in its strength.” Then the land had rest forty years.
 ## Chapter 6
 
 <sup>1</sup> The children of Israel did that which was evil in Yahweh’s sight, so Yahweh delivered them into the hand of Midian seven years.
@@ -607,13 +607,13 @@
 <sup>12</sup> Samson said to them, “Let me tell you a riddle now. If you can tell me the answer within the seven days of the feast, and find it out, then I will give you thirty linen garments and thirty changes of clothing;
 <sup>13</sup> but if you can’t tell me the answer, then you shall give me thirty linen garments and thirty changes of clothing.” They said to him, “Tell us your riddle, that we may hear it.”
 
-<sup>14</sup> He said to them, <br>“Out of the eater came out food. <br>Out of the strong came out sweetness.” They couldn’t in three days declare the riddle.
+<sup>14</sup> He said to them,<br>“Out of the eater came out food.<br>Out of the strong came out sweetness.” They couldn’t in three days declare the riddle.
 <sup>15</sup> On the seventh day, they said to Samson’s wife, “Entice your husband, that he may declare to us the riddle, lest we burn you and your father’s house with fire. Have you called us to impoverish us? Isn’t that so?”
 
 <sup>16</sup> Samson’s wife wept before him, and said, “You just hate me, and don’t love me. You’ve told a riddle to the children of my people, and haven’t told it to me.” He said to her, “Behold, I haven’t told my father or my mother, so why should I tell you?”
 
 <sup>17</sup> She wept before him the seven days, while their feast lasted; and on the seventh day, he told her, because she pressed him severely; and she told the riddle to the children of her people.
-<sup>18</sup> The men of the city said to him on the seventh day before the sun went down, “What is sweeter than honey? What is stronger than a lion?” He said to them, <br>“If you hadn’t plowed with my heifer, <br>you wouldn’t have found out my riddle.”
+<sup>18</sup> The men of the city said to him on the seventh day before the sun went down, “What is sweeter than honey? What is stronger than a lion?” He said to them,<br>“If you hadn’t plowed with my heifer,<br>you wouldn’t have found out my riddle.”
 
 <sup>19</sup> Yahweh’s Spirit came mightily on him, and he went down to Ashkelon and struck thirty men of them. He took their plunder, then gave the changes of clothing to those who declared the riddle. His anger burned, and he went up to his father’s house.
 <sup>20</sup> But Samson’s wife was given to his companion, who had been his friend.

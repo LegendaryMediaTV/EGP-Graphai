@@ -1,67 +1,93 @@
 import fs from "fs";
 import path from "path";
-import Node from "../types/Node";
+import Content, { ContentObject } from "../types/Content";
 import Footnote from "../types/Footnote";
-import Book from "../types/Book";
 import VerseSchema from "../types/VerseSchema";
 
-function convertNodeToText(node: Node): string {
-  // Handle paragraph nodes
-  if (node.type === "p") {
-    return "¶ ";
+/**
+ * Convert content (string, object, or array) to plain text for export
+ */
+function convertContentToText(content: Content): string {
+  // Handle string content
+  if (typeof content === "string") {
+    return content;
   }
 
-  // Handle line break nodes
-  if (node.type === "n") {
-    return "␤";
+  // Handle array content
+  if (Array.isArray(content)) {
+    return renderContentToText(content);
   }
 
-  let result = node.text || "";
+  // Handle object content
+  // Check for heading (skip in exports)
+  if ("heading" in content) {
+    return "";
+  }
+
+  // Check for paragraph wrapper (not paragraph property on text)
+  if ("paragraph" in content && !("text" in content)) {
+    const paragraphContent = (content as any).paragraph as Content;
+    if (
+      paragraphContent !== undefined &&
+      typeof paragraphContent !== "boolean"
+    ) {
+      const paragraphText = convertContentToText(paragraphContent);
+      return "¶ " + paragraphText;
+    }
+    return "";
+  }
+
+  // Check for subtitle (future feature, skip for now)
+  if ("subtitle" in content) {
+    return "";
+  }
+
+  // Handle text object
+  const obj = content as ContentObject;
+  let result = obj.text || "";
 
   // Add strong number after text with space
-  if (node.strong) {
-    if (result) {
-      result += " " + node.strong;
+  if (obj.strong) {
+    if (result.trim() === "") {
+      result += obj.strong;
     } else {
-      result = node.strong;
+      result += " " + obj.strong;
     }
   }
 
   // Add morph in parentheses
-  if (node.morph) {
-    result += " (" + node.morph + ")";
+  if (obj.morph) {
+    result += " (" + obj.morph + ")";
+  }
+
+  // Add line break marker if needed
+  if (obj.break) {
+    result += "␤";
+  }
+
+  // Add paragraph marker at the beginning if this starts a paragraph
+  if (obj.paragraph) {
+    result = "¶ " + result;
   }
 
   return result;
 }
 
 /**
- * Render an array of nodes to plain text, inserting spaces between
- * nodes when appropriate (not inserting extra spaces around punctuation).
+ * Render an array of content to plain text, inserting spaces between
+ * elements when appropriate (not inserting extra spaces around punctuation).
  */
-function renderNodesToText(nodes: Node[]): string {
-  const parts = nodes.map((node) => convertNodeToText(node));
+function renderContentToText(content: Content[]): string {
+  const parts = content.map((item) => convertContentToText(item));
 
-  // Join parts with spacing rules similar to verse rendering
-  const joined = parts
-    .map((part, index) => {
-      if (index === 0) return part;
-      const prev = parts[index - 1] || "";
-      const prevTrim = prev.trim();
-      const partTrim = part.trim();
-      // Don't add space if current part starts with punctuation or previous ends with punctuation
-      if (partTrim.match(/^[,.;:!?\[\]]/) || prevTrim.match(/[,.;:!?\[\]]$/)) {
-        return part;
-      }
-      return " " + part;
-    })
-    .join("");
+  // Join parts without adding spaces, as source data should include them
+  const joined = parts.join("");
 
   return joined;
 }
 
 function convertFootnoteToText(footnote: Footnote): string {
-  const contentText = renderNodesToText(footnote.content);
+  const contentText = convertContentToText(footnote.content);
   return `° {${contentText}}`;
 }
 
@@ -70,26 +96,96 @@ function convertVerseToText(verse: VerseSchema): string {
   const chapter = verse.chapter.toString().padStart(3, "0");
   const verseNum = verse.verse.toString().padStart(3, "0");
 
-  const textParts: string[] = [];
-  const footnoteParts: string[] = [];
+  // Helper function to extract footnotes and text from content
+  function extractTextAndFootnotes(
+    content: Content,
+    textParts: string[],
+    footnoteParts: string[]
+  ): void {
+    if (typeof content === "string") {
+      textParts.push(content);
+      return;
+    }
 
-  for (const node of verse.content) {
-    if (node.foot) {
-      // Add footnote marker after the text
-      textParts.push(node.text || "");
-      footnoteParts.push(convertFootnoteToText(node.foot));
-    } else {
-      textParts.push(convertNodeToText(node));
+    if (Array.isArray(content)) {
+      for (const item of content) {
+        extractTextAndFootnotes(item, textParts, footnoteParts);
+      }
+      return;
+    }
+
+    // Handle object content
+    if ("heading" in content || "subtitle" in content) {
+      return; // Skip headings and subtitles in text export
+    }
+
+    if ("paragraph" in content && !("text" in content)) {
+      const paragraphContent = (content as any).paragraph as Content;
+      if (
+        paragraphContent !== undefined &&
+        typeof paragraphContent !== "boolean"
+      ) {
+        extractTextAndFootnotes(paragraphContent, textParts, footnoteParts);
+      }
+      return;
+    }
+
+    // Handle text object
+    const obj = content as ContentObject;
+    if (obj.text) {
+      // Build the text with formatting but without footnote
+      let textPart = obj.text || "";
+
+      if (obj.strong) {
+        if (textPart.trim() === "") {
+          textPart += obj.strong;
+        } else {
+          textPart += " " + obj.strong;
+        }
+      }
+      if (obj.morph) {
+        textPart += " (" + obj.morph + ")";
+      }
+      if (obj.paragraph) {
+        textPart = "¶ " + textPart;
+      }
+
+      textParts.push(textPart);
+
+      if (obj.foot) {
+        textParts.push(convertFootnoteToText(obj.foot));
+      }
+
+      if (obj.break) {
+        textParts.push("␤");
+      }
     }
   }
 
-  // Join text parts with spaces, but handle punctuation
-  const joinedText = textParts
+  const textParts: string[] = [];
+  const footnoteParts: string[] = [];
+
+  extractTextAndFootnotes(verse.content, textParts, footnoteParts);
+
+  // Join text parts with proper spacing
+  let joinedText = textParts
     .map((part, index) => {
       if (index === 0) return part;
-      // Don't add space if current part starts with punctuation or previous part ends with punctuation
-      const prevPart = textParts[index - 1];
-      if (part.match(/^[,.;:!?]/) || prevPart.match(/[,.;:!?]$/)) {
+      const prev = textParts[index - 1] || "";
+      // Don't add space before/after line breaks, paragraph marks, or if starts/ends with punctuation or space
+      if (
+        part === "<br>" ||
+        part === "\n\n" ||
+        prev === "<br>" ||
+        prev === "\n\n"
+      ) {
+        return part;
+      }
+      if (
+        part.match(/^[<° .,;:!?]/) ||
+        prev.match(/[,.;:!?<>}]/) ||
+        part.startsWith(" ")
+      ) {
         return part;
       }
       return " " + part;
@@ -97,13 +193,13 @@ function convertVerseToText(verse: VerseSchema): string {
     .join("");
 
   // Combine text and footnote parts
-  const fullText = joinedText + footnoteParts.join(" ");
+  const fullText = joinedText;
 
   // Return with chapter:verse prefix
   return `${chapter}:${verseNum} ${fullText}`;
 }
 
-function convertBibleVersion(version: string): void {
+function convertBibleVersion(version: string, bookId?: string): void {
   const inputDir = path.join(
     path.dirname(__dirname),
     "bible-versions",
@@ -124,7 +220,8 @@ function convertBibleVersion(version: string): void {
   // Read all JSON files in the version directory
   const files = fs
     .readdirSync(inputDir)
-    .filter((file: string) => file.endsWith(".json"));
+    .filter((file: string) => file.endsWith(".json"))
+    .filter((file: string) => !bookId || file.includes(`-${bookId}.json`));
 
   for (const file of files) {
     const inputPath = path.join(inputDir, file);
@@ -140,7 +237,7 @@ function convertBibleVersion(version: string): void {
   }
 }
 
-function convertBibleVersionToMarkdown(version: string): void {
+function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
   const inputDir = path.join(
     path.dirname(__dirname),
     "bible-versions",
@@ -161,7 +258,8 @@ function convertBibleVersionToMarkdown(version: string): void {
   // Read all JSON files in the version directory
   const files = fs
     .readdirSync(inputDir)
-    .filter((file: string) => file.endsWith(".json"));
+    .filter((file: string) => file.endsWith(".json"))
+    .filter((file: string) => !bookId || file.includes(`-${bookId}.json`));
 
   for (const file of files) {
     const inputPath = path.join(inputDir, file);
@@ -196,10 +294,20 @@ function convertBibleVersionToMarkdown(version: string): void {
       markdownLines.push(`## Chapter ${chapterNum}`);
 
       // Check if first verse starts with paragraph break
-      const firstVerseHasLeadingParagraph =
-        chapterVerses.length > 0 &&
-        chapterVerses[0].content.length > 0 &&
-        chapterVerses[0].content[0].type === "p";
+      let firstVerseHasLeadingParagraph = false;
+      if (chapterVerses.length > 0) {
+        const firstContent = chapterVerses[0].content;
+        if (typeof firstContent === "object" && !Array.isArray(firstContent)) {
+          firstVerseHasLeadingParagraph =
+            "paragraph" in firstContent ||
+            !!(firstContent as ContentObject).paragraph;
+        } else if (Array.isArray(firstContent) && firstContent.length > 0) {
+          const first = firstContent[0];
+          firstVerseHasLeadingParagraph =
+            typeof first === "object" &&
+            ("paragraph" in first || !!(first as ContentObject).paragraph);
+        }
+      }
 
       // Only add blank line after chapter header if first verse doesn't start with paragraph
       if (!firstVerseHasLeadingParagraph) {
@@ -239,59 +347,101 @@ function convertVerseToMarkdown(
   const textParts: string[] = [];
   let hasLeadingParagraph = false;
 
-  // Check if verse starts with a paragraph break
-  if (verse.content.length > 0 && verse.content[0].type === "p") {
-    hasLeadingParagraph = true;
-  }
+  // Helper function to process content recursively
+  function processContent(content: Content, isFirst: boolean = false): void {
+    if (typeof content === "string") {
+      textParts.push(content);
+      return;
+    }
 
-  for (let i = 0; i < verse.content.length; i++) {
-    const node = verse.content[i];
+    if (Array.isArray(content)) {
+      content.forEach((item, index) =>
+        processContent(item, isFirst && index === 0)
+      );
+      return;
+    }
 
-    if (node.type === "p") {
-      // Skip the first paragraph break if it's leading (will be handled before verse number)
-      if (!(i === 0 && hasLeadingParagraph)) {
-        // Paragraph break - add a blank line
+    // Handle object content
+    if ("heading" in content) {
+      return; // Skip headings in markdown export
+    }
+
+    if ("subtitle" in content) {
+      return; // Skip subtitles in markdown export
+    }
+
+    if ("paragraph" in content && !("text" in content)) {
+      if (!(isFirst && !hasLeadingParagraph)) {
         textParts.push("\n\n");
       }
-    } else if (node.type === "n") {
-      // Line break - use HTML break tag for explicit line breaks in markdown
-      textParts.push("<br>");
-    } else if (node.text) {
-      // Add the text
-      textParts.push(node.text);
+      if (
+        content.paragraph !== undefined &&
+        typeof content.paragraph !== "boolean"
+      ) {
+        processContent(content.paragraph);
+      }
+      return;
+    }
 
-      if (node.foot) {
+    // Handle text object
+    const obj = content as ContentObject;
+
+    // Check for paragraph marker on text element
+    if (obj.paragraph && isFirst) {
+      hasLeadingParagraph = true;
+    } else if (obj.paragraph) {
+      textParts.push("\n\n");
+    }
+
+    if (obj.text) {
+      textParts.push(obj.text);
+
+      if (obj.foot) {
         // Add footnote marker using letters (a, b, c...) cycling back to 'a' after 'z'
         const footnoteLetter = String.fromCharCode(
           97 + (chapterFootnotes.length % 26)
         ); // 97 = 'a'
         textParts.push(`<sup>${footnoteLetter}</sup>`);
 
-        const footnoteContent = convertFootnoteToMarkdown(node.foot);
+        const footnoteContent = convertContentToText(obj.foot.content);
         chapterFootnotes.push(
           `- <sup>${footnoteLetter}</sup> ${verseNum}. ${footnoteContent}`
         );
       }
 
-      // Add space if next node is not punctuation text
-      if (i < verse.content.length - 1) {
-        const nextNode = verse.content[i + 1];
-        if (
-          !(
-            nextNode &&
-            !nextNode.type &&
-            nextNode.text &&
-            nextNode.text.match(/^[.,;:!?]/)
-          )
-        ) {
-          textParts.push(" ");
-        }
+      // Add line break if needed
+      if (obj.break) {
+        textParts.push("<br>");
       }
     }
   }
 
-  // Join text parts
-  const joinedText = textParts.join("");
+  // Check if content starts with paragraph
+  const content = verse.content;
+  if (typeof content === "object" && !Array.isArray(content)) {
+    if ("paragraph" in content || (content as ContentObject).paragraph) {
+      hasLeadingParagraph = true;
+    }
+  } else if (Array.isArray(content) && content.length > 0) {
+    const first = content[0];
+    if (
+      typeof first === "object" &&
+      ("paragraph" in first || (first as ContentObject).paragraph)
+    ) {
+      hasLeadingParagraph = true;
+    }
+  }
+
+  processContent(content, true);
+
+  // Join text parts without adding spaces, as source data should include them
+  let joinedText = textParts.join("");
+
+  // Clean up multiple spaces
+  joinedText = joinedText.replace(/ +/g, " ");
+
+  // Fix spacing around punctuation (redundant but safe)
+  joinedText = joinedText.replace(/ ([.,;:!?])/g, "$1");
 
   // Handle leading paragraph break
   const paragraphPrefix = hasLeadingParagraph ? "\n" : "";
@@ -300,23 +450,26 @@ function convertVerseToMarkdown(
   return `${paragraphPrefix}<sup>${verseNum}</sup> ${joinedText}`;
 }
 
-function convertFootnoteToMarkdown(footnote: Footnote): string {
-  return renderNodesToText(footnote.content);
-}
-
 function main(): void {
+  const translation = process.argv[2];
+  const bookId = process.argv[3];
+
   const versionsDir = path.join(path.dirname(__dirname), "bible-versions");
 
-  // Get all version directories
-  const versions = fs.readdirSync(versionsDir).filter((item: string) => {
-    const itemPath = path.join(versionsDir, item);
-    return fs.statSync(itemPath).isDirectory();
-  });
+  let versions: string[];
+  if (translation) {
+    versions = [translation];
+  } else {
+    versions = fs.readdirSync(versionsDir).filter((item: string) => {
+      const itemPath = path.join(versionsDir, item);
+      return fs.statSync(itemPath).isDirectory();
+    });
+  }
 
   for (const version of versions) {
     console.log(`Processing version: ${version}`);
-    convertBibleVersion(version);
-    convertBibleVersionToMarkdown(version);
+    convertBibleVersion(version, bookId);
+    convertBibleVersionToMarkdown(version, bookId);
   }
 
   console.log("Conversion complete!");

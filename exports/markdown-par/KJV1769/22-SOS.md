@@ -80,7 +80,7 @@
 <sup>9</sup> What [is] thy beloved more than [another] beloved, O thou fairest among women? what [is] thy beloved more than [another] beloved, that thou dost so charge us?
 <sup>10</sup> My beloved [is] white and ruddy, the chiefest among ten thousand.
 <sup>11</sup> His head [is as] the most fine gold, his locks [are] bushy, [and] black as a raven.
-<sup>12</sup> His eyes [are] as [the eyes] of doves by the rivers of waters, washed with milk, [and] fitly set .
+<sup>12</sup> His eyes [are] as [the eyes] of doves by the rivers of waters, washed with milk, [and] fitly set.
 <sup>13</sup> His cheeks [are] as a bed of spices, [as] sweet flowers: his lips [like] lilies, dropping sweet smelling myrrh.
 <sup>14</sup> His hands [are as] gold rings set with the beryl: his belly [is as] bright ivory overlaid [with] sapphires.
 <sup>15</sup> His legs [are as] pillars of marble, set upon sockets of fine gold: his countenance [is] as Lebanon, excellent as the cedars.

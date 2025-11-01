@@ -42,8 +42,11 @@ npm install
 # Validate JSON schemas and data integrity
 npm run validate
 
-# Convert Bible JSON to text/markdown formats
+# Convert Bible JSON to text/markdown formats (all versions)
 npm run export
+
+# Convert specific version and book (e.g., WEBUS2020 Genesis)
+npx ts-node utils/exportContent.ts WEBUS2020 GEN
 
 # Run tests
 npm run test
@@ -69,7 +72,6 @@ npm run test
 ├── types/                 # TypeScript type definitions
 │ ├── Book.ts
 │ ├── Footnote.ts
-│ ├── Node.ts
 │ ├── Verse.ts
 │ └── VerseSchema.ts
 ├── utils/                 # Utility scripts

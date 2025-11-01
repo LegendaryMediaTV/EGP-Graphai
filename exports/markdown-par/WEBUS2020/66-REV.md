@@ -146,8 +146,8 @@
 <sup>6</sup> I saw in the middle of the throne and of the four living creatures, and in the middle of the elders, a Lamb standing, as though it had been slain, having seven horns and seven eyes, which are the seven Spirits of God, sent out into all the earth.
 <sup>7</sup> Then he came, and he took it out of the right hand of him who sat on the throne.
 <sup>8</sup> Now when he had taken the book, the four living creatures and the twenty-four elders fell down before the Lamb, each one having a harp, and golden bowls full of incense, which are the prayers of the saints.
-<sup>9</sup> They sang a new song, saying, <br>“You are worthy to take the book <br>and to open its seals, <br>for you were killed, <br>and bought us for God with your blood <br>out of every tribe, language, people, and nation, <br>
-<sup>10</sup> and made us kings and priests to our God; <br>and we will reign on the earth.”
+<sup>9</sup> They sang a new song, saying,<br>“You are worthy to take the book<br>and to open its seals,<br>for you were killed,<br>and bought us for God with your blood<br>out of every tribe, language, people, and nation,<br>
+<sup>10</sup> and made us kings and priests to our God;<br>and we will reign on the earth.”
 
 <sup>11</sup> I looked, and I heard something like a voice of many angels around the throne, the living creatures, and the elders. The number of them was ten thousands of ten thousands, and thousands of thousands,
 <sup>12</sup> saying with a loud voice, “Worthy is the Lamb who has been killed to receive the power, wealth, wisdom, strength, honor, glory, and blessing!”
@@ -194,11 +194,11 @@
 <sup>1</sup> After this, I saw four angels standing at the four corners of the earth, holding the four winds of the earth, so that no wind would blow on the earth, or on the sea, or on any tree.
 <sup>2</sup> I saw another angel ascend from the sunrise, having the seal of the living God. He cried with a loud voice to the four angels to whom it was given to harm the earth and the sea,
 <sup>3</sup> saying, “Don’t harm the earth, the sea, or the trees, until we have sealed the bondservants of our God on their foreheads!”
-<sup>4</sup> I heard the number of those who were sealed, one hundred forty-four thousand, sealed out of every tribe of the children of Israel: <br>
-<sup>5</sup> of the tribe of Judah twelve thousand were sealed, <br>of the tribe of Reuben twelve thousand, <br>of the tribe of Gad twelve thousand, <br>
-<sup>6</sup> of the tribe of Asher twelve thousand, <br>of the tribe of Naphtali twelve thousand, <br>of the tribe of Manasseh twelve thousand, <br>
-<sup>7</sup> of the tribe of Simeon twelve thousand, <br>of the tribe of Levi twelve thousand, <br>of the tribe of Issachar twelve thousand, <br>
-<sup>8</sup> of the tribe of Zebulun twelve thousand, <br>of the tribe of Joseph twelve thousand, and <br>of the tribe of Benjamin twelve thousand were sealed.
+<sup>4</sup> I heard the number of those who were sealed, one hundred forty-four thousand, sealed out of every tribe of the children of Israel:<br>
+<sup>5</sup> of the tribe of Judah twelve thousand were sealed,<br>of the tribe of Reuben twelve thousand,<br>of the tribe of Gad twelve thousand,<br>
+<sup>6</sup> of the tribe of Asher twelve thousand,<br>of the tribe of Naphtali twelve thousand,<br>of the tribe of Manasseh twelve thousand,<br>
+<sup>7</sup> of the tribe of Simeon twelve thousand,<br>of the tribe of Levi twelve thousand,<br>of the tribe of Issachar twelve thousand,<br>
+<sup>8</sup> of the tribe of Zebulun twelve thousand,<br>of the tribe of Joseph twelve thousand, and<br>of the tribe of Benjamin twelve thousand were sealed.
 
 <sup>9</sup> After these things I looked, and behold, a great multitude which no man could count, out of every nation and of all tribes, peoples, and languages, standing before the throne and before the Lamb, dressed in white robes, with palm branches in their hands.
 <sup>10</sup> They cried with a loud voice, saying, “Salvation be to our God, who sits on the throne, and to the Lamb!”
@@ -418,8 +418,8 @@
 <sup>1</sup> I saw another great and marvelous sign in the sky: seven angels having the seven last plagues, for in them God’s wrath is finished.
 
 <sup>2</sup> I saw something like a sea of glass mixed with fire, and those who overcame the beast, his image,<sup>a</sup> and the number of his name, standing on the sea of glass, having harps of God.
-<sup>3</sup> They sang the song of Moses, the servant of God, and the song of the Lamb, saying, <br>“Great and marvelous are your works, Lord God, the Almighty! <br>Righteous and true are your ways, you King of the nations. <br>
-<sup>4</sup> Who wouldn’t fear you, Lord, <br>and glorify your name? <br>For you only are holy. <br>For all the nations will come and worship before you. <br>For your righteous acts have been revealed.”
+<sup>3</sup> They sang the song of Moses, the servant of God, and the song of the Lamb, saying,<br>“Great and marvelous are your works, Lord God, the Almighty!<br>Righteous and true are your ways, you King of the nations.<br>
+<sup>4</sup> Who wouldn’t fear you, Lord,<br>and glorify your name?<br>For you only are holy.<br>For all the nations will come and worship before you.<br>For your righteous acts have been revealed.”
 
 <sup>5</sup> After these things I looked, and the temple of the tabernacle of the testimony in heaven was opened.
 <sup>6</sup> The seven angels who had the seven plagues came out, clothed with pure, bright linen, and wearing golden sashes around their chests.

@@ -30,7 +30,7 @@
 <sup>4</sup> And let the maiden which pleaseth the king be queen instead of Vashti. And the thing pleased the king; and he did so.
 <sup>5</sup> [Now] in Shushan the palace there was a certain Jew, whose name [was] Mordecai, the son of Jair, the son of Shimei, the son of Kish, a Benjamite;
 <sup>6</sup> Who had been carried away from Jerusalem with the captivity which had been carried away with Jeconiah king of Judah, whom Nebuchadnezzar the king of Babylon had carried away.
-<sup>7</sup> And he brought up Hadassah, that [is], Esther, his uncle’s daughter: for she had neither father nor mother, and the maid [was] fair and beautiful ; whom Mordecai, when her father and mother were dead, took for his own daughter.
+<sup>7</sup> And he brought up Hadassah, that [is], Esther, his uncle’s daughter: for she had neither father nor mother, and the maid [was] fair and beautiful; whom Mordecai, when her father and mother were dead, took for his own daughter.
 <sup>8</sup> So it came to pass, when the king’s commandment and his decree was heard, and when many maidens were gathered together unto Shushan the palace, to the custody of Hegai, that Esther was brought also unto the king’s house, to the custody of Hegai, keeper of the women.
 <sup>9</sup> And the maiden pleased him, and she obtained kindness of him; and he speedily gave her her things for purification, with such things as belonged to her, and seven maidens, [which were] meet to be given her, out of the king’s house: and he preferred her and her maids unto the best [place] of the house of the women.
 <sup>10</sup> Esther had not shewed her people nor her kindred: for Mordecai had charged her that she should not shew [it].
@@ -101,7 +101,7 @@
 <sup>14</sup> Then said Zeresh his wife and all his friends unto him, Let a gallows be made of fifty cubits high, and to morrow speak thou unto the king that Mordecai may be hanged thereon: then go thou in merrily with the king unto the banquet. And the thing pleased Haman; and he caused the gallows to be made.
 ## Chapter 6
 
-<sup>1</sup> On that night could not the king sleep, and he commanded to bring the book of records of the chronicles ; and they were read before the king.
+<sup>1</sup> On that night could not the king sleep, and he commanded to bring the book of records of the chronicles; and they were read before the king.
 <sup>2</sup> And it was found written, that Mordecai had told of Bigthana and Teresh, two of the king’s chamberlains, the keepers of the door, who sought to lay hand on the king Ahasuerus.
 <sup>3</sup> And the king said, What honour and dignity hath been done to Mordecai for this? Then said the king’s servants that ministered unto him, There is nothing done for him.
 <sup>4</sup> And the king said, Who [is] in the court? Now Haman was come into the outward court of the king’s house, to speak unto the king to hang Mordecai on the gallows that he had prepared for him.
@@ -168,13 +168,13 @@
 <sup>18</sup> But the Jews that [were] at Shushan assembled together on the thirteenth [day] thereof, and on the fourteenth thereof; and on the fifteenth [day] of the same they rested, and made it a day of feasting and gladness.
 <sup>19</sup> Therefore the Jews of the villages, that dwelt in the unwalled towns, made the fourteenth day of the month Adar [a day of] gladness and feasting, and a good day, and of sending portions one to another.
 <sup>20</sup> And Mordecai wrote these things, and sent letters unto all the Jews that [were] in all the provinces of the king Ahasuerus, [both] nigh and far,
-<sup>21</sup> To stablish [this] among them, that they should keep the fourteenth day of the month Adar, and the fifteenth day of the same, yearly ,
+<sup>21</sup> To stablish [this] among them, that they should keep the fourteenth day of the month Adar, and the fifteenth day of the same, yearly,
 <sup>22</sup> As the days wherein the Jews rested from their enemies, and the month which was turned unto them from sorrow to joy, and from mourning into a good day: that they should make them days of feasting and joy, and of sending portions one to another, and gifts to the poor.
 <sup>23</sup> And the Jews undertook to do as they had begun, and as Mordecai had written unto them;
 <sup>24</sup> Because Haman the son of Hammedatha, the Agagite, the enemy of all the Jews, had devised against the Jews to destroy them, and had cast Pur, that [is], the lot, to consume them, and to destroy them;
 <sup>25</sup> But when [Esther] came before the king, he commanded by letters that his wicked device, which he devised against the Jews, should return upon his own head, and that he and his sons should be hanged on the gallows.
 <sup>26</sup> Wherefore they called these days Purim after the name of Pur. Therefore for all the words of this letter, and [of that] which they had seen concerning this matter, and which had come unto them,
-<sup>27</sup> The Jews ordained, and took upon them, and upon their seed, and upon all such as joined themselves unto them, so as it should not fail, that they would keep these two days according to their writing, and according to their [appointed] time every year ;
+<sup>27</sup> The Jews ordained, and took upon them, and upon their seed, and upon all such as joined themselves unto them, so as it should not fail, that they would keep these two days according to their writing, and according to their [appointed] time every year;
 <sup>28</sup> And [that] these days [should be] remembered and kept throughout every generation, every family, every province, and every city; and [that] these days of Purim should not fail from among the Jews, nor the memorial of them perish from their seed.
 <sup>29</sup> Then Esther the queen, the daughter of Abihail, and Mordecai the Jew, wrote with all authority, to confirm this second letter of Purim.
 <sup>30</sup> And he sent the letters unto all the Jews, to the hundred twenty and seven provinces of the kingdom of Ahasuerus, [with] words of peace and truth,

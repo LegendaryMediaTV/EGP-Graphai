@@ -3,14 +3,10 @@
     "book": "HAB",
     "chapter": 1,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The revelation which Habakkuk the prophet saw."
-      }
-    ]
+    "content": {
+      "text": "The revelation which Habakkuk the prophet saw.",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
@@ -21,50 +17,32 @@
         "text": "Yahweh,",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-            }
-          ]
+          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
         }
       },
-      {
-        "text": "how long will I cry, and you will not hear? I cry out to you “Violence!” and will you not save?"
-      }
+      " how long will I cry, and you will not hear? I cry out to you “Violence!” and will you not save?"
     ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 3,
-    "content": [
-      {
-        "text": "Why do you show me iniquity, and look at perversity? For destruction and violence are before me. There is strife, and contention rises up."
-      }
-    ]
+    "content": "Why do you show me iniquity, and look at perversity? For destruction and violence are before me. There is strife, and contention rises up."
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 4,
-    "content": [
-      {
-        "text": "Therefore the law is paralyzed, and justice never prevails; for the wicked surround the righteous; therefore justice comes out perverted."
-      }
-    ]
+    "content": "Therefore the law is paralyzed, and justice never prevails; for the wicked surround the righteous; therefore justice comes out perverted."
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 5,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "“Look among the nations, watch, and wonder marvelously; for I am working a work in your days which you will not believe though it is told you."
-      }
-    ]
+    "content": {
+      "text": "“Look among the nations, watch, and wonder marvelously; for I am working a work in your days which you will not believe though it is told you.",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
@@ -76,66 +54,47 @@
         "foot": {
           "type": "trn",
           "content": [
+            "“Behold”, from “",
             {
-              "text": "“Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
-            }
+              "text": "הִנֵּה",
+              "script": "H"
+            },
+            "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
       },
-      {
-        "text": "I am raising up the Chaldeans, that bitter and hasty nation who march through the width of the earth, to possess dwelling places that are not theirs."
-      }
+      " I am raising up the Chaldeans, that bitter and hasty nation who march through the width of the earth, to possess dwelling places that are not theirs."
     ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 7,
-    "content": [
-      {
-        "text": "They are feared and dreaded. Their judgment and their dignity proceed from themselves."
-      }
-    ]
+    "content": "They are feared and dreaded. Their judgment and their dignity proceed from themselves."
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 8,
-    "content": [
-      {
-        "text": "Their horses also are swifter than leopards, and are more fierce than the evening wolves. Their horsemen press proudly on. Yes, their horsemen come from afar. They fly as an eagle that hurries to devour."
-      }
-    ]
+    "content": "Their horses also are swifter than leopards, and are more fierce than the evening wolves. Their horsemen press proudly on. Yes, their horsemen come from afar. They fly as an eagle that hurries to devour."
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 9,
-    "content": [
-      {
-        "text": "All of them come for violence. Their hordes face forward. They gather prisoners like sand."
-      }
-    ]
+    "content": "All of them come for violence. Their hordes face forward. They gather prisoners like sand."
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 10,
-    "content": [
-      {
-        "text": "Yes, they scoff at kings, and princes are a derision to them. They laugh at every stronghold, for they build up an earthen ramp and take it."
-      }
-    ]
+    "content": "Yes, they scoff at kings, and princes are a derision to them. They laugh at every stronghold, for they build up an earthen ramp and take it."
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 11,
-    "content": [
-      {
-        "text": "Then they sweep by like the wind and go on. They are indeed guilty, whose strength is their god.”"
-      }
-    ]
+    "content": "Then they sweep by like the wind and go on. They are indeed guilty, whose strength is their god.”"
   },
   {
     "book": "HAB",
@@ -143,119 +102,82 @@
     "verse": 12,
     "content": [
       {
-        "type": "p"
-      },
-      {
         "text": "Aren’t you from everlasting, Yahweh my God,",
         "foot": {
           "type": "trn",
           "content": [
+            "The Hebrew word rendered “God” is “",
             {
-              "text": "The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim)."
-            }
+              "text": "אֱלֹהִ֑ים",
+              "script": "H"
+            },
+            "” (Elohim)."
           ]
-        }
+        },
+        "paragraph": true
       },
-      {
-        "text": "my Holy One? We will not die. Yahweh, you have appointed them for judgment. You, Rock, have established him to punish."
-      }
+      " my Holy One? We will not die. Yahweh, you have appointed them for judgment. You, Rock, have established him to punish."
     ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 13,
-    "content": [
-      {
-        "text": "You who have purer eyes than to see evil, and who cannot look on perversity, why do you tolerate those who deal treacherously and keep silent when the wicked swallows up the man who is more righteous than he,"
-      }
-    ]
+    "content": "You who have purer eyes than to see evil, and who cannot look on perversity, why do you tolerate those who deal treacherously and keep silent when the wicked swallows up the man who is more righteous than he,"
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 14,
-    "content": [
-      {
-        "text": "and make men like the fish of the sea, like the creeping things that have no ruler over them?"
-      }
-    ]
+    "content": "and make men like the fish of the sea, like the creeping things that have no ruler over them?"
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 15,
-    "content": [
-      {
-        "text": "He takes up all of them with the hook. He catches them in his net and gathers them in his dragnet. Therefore he rejoices and is glad."
-      }
-    ]
+    "content": "He takes up all of them with the hook. He catches them in his net and gathers them in his dragnet. Therefore he rejoices and is glad."
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 16,
-    "content": [
-      {
-        "text": "Therefore he sacrifices to his net and burns incense to his dragnet, because by them his life is luxurious and his food is good."
-      }
-    ]
+    "content": "Therefore he sacrifices to his net and burns incense to his dragnet, because by them his life is luxurious and his food is good."
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 17,
-    "content": [
-      {
-        "text": "Will he therefore continually empty his net, and kill the nations without mercy?"
-      }
-    ]
+    "content": "Will he therefore continually empty his net, and kill the nations without mercy?"
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "I will stand at my watch and set myself on the ramparts, and will look out to see what he will say to me, and what I will answer concerning my complaint."
-      }
-    ]
+    "content": {
+      "text": "I will stand at my watch and set myself on the ramparts, and will look out to see what he will say to me, and what I will answer concerning my complaint.",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 2,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh answered me, “Write the vision, and make it plain on tablets, that he who runs may read it."
-      }
-    ]
+    "content": {
+      "text": "Yahweh answered me, “Write the vision, and make it plain on tablets, that he who runs may read it.",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 3,
-    "content": [
-      {
-        "text": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it, because it will surely come. It won’t delay."
-      }
-    ]
+    "content": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it, because it will surely come. It won’t delay."
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 4,
-    "content": [
-      {
-        "text": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith."
-      }
-    ]
+    "content": "Behold, his soul is puffed up. It is not upright in him, but the righteous will live by his faith."
   },
   {
     "book": "HAB",
@@ -266,198 +188,126 @@
         "text": "Yes, moreover, wine is treacherous: an arrogant man who doesn’t stay at home, who enlarges his desire as Sheol;",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "Sheol is the place of the dead."
-            }
-          ]
+          "content": "Sheol is the place of the dead."
         }
       },
-      {
-        "text": "he is like death and can’t be satisfied, but gathers to himself all nations and heaps to himself all peoples."
-      }
+      " he is like death and can’t be satisfied, but gathers to himself all nations and heaps to himself all peoples."
     ]
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 6,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Won’t all these take up a parable against him, and a taunting proverb against him, and say, ‘Woe to him who increases that which is not his, and who enriches himself by extortion! How long?’"
-      }
-    ]
+    "content": {
+      "text": "Won’t all these take up a parable against him, and a taunting proverb against him, and say, ‘Woe to him who increases that which is not his, and who enriches himself by extortion! How long?’",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 7,
-    "content": [
-      {
-        "text": "Won’t your debtors rise up suddenly, and wake up those who make you tremble, and you will be their victim?"
-      }
-    ]
+    "content": "Won’t your debtors rise up suddenly, and wake up those who make you tremble, and you will be their victim?"
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 8,
-    "content": [
-      {
-        "text": "Because you have plundered many nations, all the remnant of the peoples will plunder you because of men’s blood, and for the violence done to the land, to the city and to all who dwell in it."
-      }
-    ]
+    "content": "Because you have plundered many nations, all the remnant of the peoples will plunder you because of men’s blood, and for the violence done to the land, to the city and to all who dwell in it."
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 9,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Woe to him who gets an evil gain for his house, that he may set his nest on high, that he may be delivered from the hand of evil!"
-      }
-    ]
+    "content": {
+      "text": "Woe to him who gets an evil gain for his house, that he may set his nest on high, that he may be delivered from the hand of evil!",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 10,
-    "content": [
-      {
-        "text": "You have devised shame to your house by cutting off many peoples, and have sinned against your soul."
-      }
-    ]
+    "content": "You have devised shame to your house by cutting off many peoples, and have sinned against your soul."
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 11,
-    "content": [
-      {
-        "text": "For the stone will cry out of the wall, and the beam out of the woodwork will answer it."
-      }
-    ]
+    "content": "For the stone will cry out of the wall, and the beam out of the woodwork will answer it."
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 12,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Woe to him who builds a town with blood, and establishes a city by iniquity!"
-      }
-    ]
+    "content": {
+      "text": "Woe to him who builds a town with blood, and establishes a city by iniquity!",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 13,
-    "content": [
-      {
-        "text": "Behold, isn’t it from Yahweh of Armies that the peoples labor for the fire, and the nations weary themselves for vanity?"
-      }
-    ]
+    "content": "Behold, isn’t it from Yahweh of Armies that the peoples labor for the fire, and the nations weary themselves for vanity?"
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 14,
-    "content": [
-      {
-        "text": "For the earth will be filled with the knowledge of Yahweh’s glory, as the waters cover the sea."
-      }
-    ]
+    "content": "For the earth will be filled with the knowledge of Yahweh’s glory, as the waters cover the sea."
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 15,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "“Woe to him who gives his neighbor drink, pouring your inflaming wine until they are drunk, so that you may gaze at their naked bodies!"
-      }
-    ]
+    "content": {
+      "text": "“Woe to him who gives his neighbor drink, pouring your inflaming wine until they are drunk, so that you may gaze at their naked bodies!",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 16,
-    "content": [
-      {
-        "text": "You are filled with shame, and not glory. You will also drink and be exposed! The cup of Yahweh’s right hand will come around to you, and disgrace will cover your glory."
-      }
-    ]
+    "content": "You are filled with shame, and not glory. You will also drink and be exposed! The cup of Yahweh’s right hand will come around to you, and disgrace will cover your glory."
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 17,
-    "content": [
-      {
-        "text": "For the violence done to Lebanon will overwhelm you, and the destruction of the animals will terrify you, because of men’s blood and for the violence done to the land, to every city and to those who dwell in them."
-      }
-    ]
+    "content": "For the violence done to Lebanon will overwhelm you, and the destruction of the animals will terrify you, because of men’s blood and for the violence done to the land, to every city and to those who dwell in them."
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 18,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "“What value does the engraved image have, that its maker has engraved it; the molten image, even the teacher of lies, that he who fashions its form trusts in it, to make mute idols?"
-      }
-    ]
+    "content": {
+      "text": "“What value does the engraved image have, that its maker has engraved it; the molten image, even the teacher of lies, that he who fashions its form trusts in it, to make mute idols?",
+      "paragraph": true
+    }
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 19,
-    "content": [
-      {
-        "text": "Woe to him who says to the wood, ‘Awake!’ or to the mute stone, ‘Arise!’ Shall this teach? Behold, it is overlaid with gold and silver, and there is no breath at all within it."
-      }
-    ]
+    "content": "Woe to him who says to the wood, ‘Awake!’ or to the mute stone, ‘Arise!’ Shall this teach? Behold, it is overlaid with gold and silver, and there is no breath at all within it."
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 20,
-    "content": [
-      {
-        "text": "But Yahweh is in his holy temple. Let all the earth be silent before him!”"
-      }
-    ]
+    "content": "But Yahweh is in his holy temple. Let all the earth be silent before him!”"
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "A prayer of Habakkuk, the prophet, set to victorious music."
-      },
-      {
-        "type": "n"
-      }
-    ]
+    "content": {
+      "text": "A prayer of Habakkuk, the prophet, set to victorious music.",
+      "paragraph": true,
+      "break": true
+    }
   },
   {
     "book": "HAB",
@@ -465,34 +315,24 @@
     "verse": 2,
     "content": [
       {
-        "text": "Yahweh, I have heard of your fame."
+        "text": "Yahweh, I have heard of your fame.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I stand in awe of your deeds, Yahweh.",
+        "break": true
       },
       {
-        "text": "I stand in awe of your deeds, Yahweh."
+        "text": "Renew your work in the middle of the years.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "In the middle of the years make it known.",
+        "break": true
       },
       {
-        "text": "Renew your work in the middle of the years."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "In the middle of the years make it known."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "In wrath, you remember mercy."
-      },
-      {
-        "type": "n"
+        "text": "In wrath, you remember mercy.",
+        "break": true
       }
     ]
   },
@@ -502,28 +342,20 @@
     "verse": 3,
     "content": [
       {
-        "text": "God came from Teman,"
+        "text": "God came from Teman,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "the Holy One from Mount Paran.",
+        "break": true
       },
       {
-        "text": "the Holy One from Mount Paran."
+        "text": "Selah. His glory covered the heavens,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Selah. His glory covered the heavens,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and his praise filled the earth."
-      },
-      {
-        "type": "n"
+        "text": "and his praise filled the earth.",
+        "break": true
       }
     ]
   },
@@ -533,19 +365,13 @@
     "verse": 4,
     "content": [
       {
-        "type": "p"
+        "text": "His splendor is like the sunrise.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "His splendor is like the sunrise."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Rays shine from his hand, where his power is hidden."
-      },
-      {
-        "type": "n"
+        "text": "Rays shine from his hand, where his power is hidden.",
+        "break": true
       }
     ]
   },
@@ -555,16 +381,12 @@
     "verse": 5,
     "content": [
       {
-        "text": "Plague went before him,"
+        "text": "Plague went before him,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and pestilence followed his feet."
-      },
-      {
-        "type": "n"
+        "text": "and pestilence followed his feet.",
+        "break": true
       }
     ]
   },
@@ -574,34 +396,24 @@
     "verse": 6,
     "content": [
       {
-        "text": "He stood, and shook the earth."
+        "text": "He stood, and shook the earth.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "He looked, and made the nations tremble.",
+        "break": true
       },
       {
-        "text": "He looked, and made the nations tremble."
+        "text": "The ancient mountains were crumbled.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The age-old hills collapsed.",
+        "break": true
       },
       {
-        "text": "The ancient mountains were crumbled."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The age-old hills collapsed."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "His ways are eternal."
-      },
-      {
-        "type": "n"
+        "text": "His ways are eternal.",
+        "break": true
       }
     ]
   },
@@ -611,16 +423,12 @@
     "verse": 7,
     "content": [
       {
-        "text": "I saw the tents of Cushan in affliction."
+        "text": "I saw the tents of Cushan in affliction.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The dwellings of the land of Midian trembled."
-      },
-      {
-        "type": "n"
+        "text": "The dwellings of the land of Midian trembled.",
+        "break": true
       }
     ]
   },
@@ -630,34 +438,24 @@
     "verse": 8,
     "content": [
       {
-        "text": "Was Yahweh displeased with the rivers?"
+        "text": "Was Yahweh displeased with the rivers?",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Was your anger against the rivers,",
+        "break": true
       },
       {
-        "text": "Was your anger against the rivers,"
+        "text": "or your wrath against the sea,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that you rode on your horses,",
+        "break": true
       },
       {
-        "text": "or your wrath against the sea,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that you rode on your horses,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "on your chariots of salvation?"
-      },
-      {
-        "type": "n"
+        "text": "on your chariots of salvation?",
+        "break": true
       }
     ]
   },
@@ -667,28 +465,20 @@
     "verse": 9,
     "content": [
       {
-        "text": "You uncovered your bow."
+        "text": "You uncovered your bow.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "You called for your sworn arrows.",
+        "break": true
       },
       {
-        "text": "You called for your sworn arrows."
+        "text": "Selah.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Selah."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "You split the earth with rivers."
-      },
-      {
-        "type": "n"
+        "text": "You split the earth with rivers.",
+        "break": true
       }
     ]
   },
@@ -698,25 +488,17 @@
     "verse": 10,
     "content": [
       {
-        "type": "p"
+        "text": "The mountains saw you, and were afraid.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "The mountains saw you, and were afraid."
+        "text": "The storm of waters passed by.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The storm of waters passed by."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The deep roared and lifted up its hands on high."
-      },
-      {
-        "type": "n"
+        "text": "The deep roared and lifted up its hands on high.",
+        "break": true
       }
     ]
   },
@@ -726,22 +508,16 @@
     "verse": 11,
     "content": [
       {
-        "text": "The sun and moon stood still in the sky"
+        "text": "The sun and moon stood still in the sky",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "at the light of your arrows as they went,",
+        "break": true
       },
       {
-        "text": "at the light of your arrows as they went,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "at the shining of your glittering spear."
-      },
-      {
-        "type": "n"
+        "text": "at the shining of your glittering spear.",
+        "break": true
       }
     ]
   },
@@ -751,16 +527,12 @@
     "verse": 12,
     "content": [
       {
-        "text": "You marched through the land in wrath."
+        "text": "You marched through the land in wrath.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "You threshed the nations in anger."
-      },
-      {
-        "type": "n"
+        "text": "You threshed the nations in anger.",
+        "break": true
       }
     ]
   },
@@ -770,32 +542,22 @@
     "verse": 13,
     "content": [
       {
-        "text": "You went out for the salvation of your people,"
+        "text": "You went out for the salvation of your people,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for the salvation of your anointed.",
+        "break": true
       },
       {
-        "text": "for the salvation of your anointed."
+        "text": "You crushed the head of the land of wickedness.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "You stripped them head to foot.",
+        "break": true
       },
-      {
-        "text": "You crushed the head of the land of wickedness."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "You stripped them head to foot."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Selah."
-      }
+      "Selah."
     ]
   },
   {
@@ -804,25 +566,17 @@
     "verse": 14,
     "content": [
       {
-        "type": "p"
+        "text": "You pierced the heads of his warriors with their own spears.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "You pierced the heads of his warriors with their own spears."
+        "text": "They came as a whirlwind to scatter me,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "They came as a whirlwind to scatter me,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "gloating as if to devour the wretched in secret."
-      },
-      {
-        "type": "n"
+        "text": "gloating as if to devour the wretched in secret.",
+        "break": true
       }
     ]
   },
@@ -832,16 +586,12 @@
     "verse": 15,
     "content": [
       {
-        "text": "You trampled the sea with your horses,"
+        "text": "You trampled the sea with your horses,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "churning mighty waters."
-      },
-      {
-        "type": "n"
+        "text": "churning mighty waters.",
+        "break": true
       }
     ]
   },
@@ -851,34 +601,24 @@
     "verse": 16,
     "content": [
       {
-        "text": "I heard, and my body trembled."
+        "text": "I heard, and my body trembled.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "My lips quivered at the voice.",
+        "break": true
       },
       {
-        "text": "My lips quivered at the voice."
+        "text": "Rottenness enters into my bones, and I tremble in my place",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "because I must wait quietly for the day of trouble,",
+        "break": true
       },
       {
-        "text": "Rottenness enters into my bones, and I tremble in my place"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because I must wait quietly for the day of trouble,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for the coming up of the people who invade us."
-      },
-      {
-        "type": "n"
+        "text": "for the coming up of the people who invade us.",
+        "break": true
       }
     ]
   },
@@ -888,40 +628,28 @@
     "verse": 17,
     "content": [
       {
-        "text": "For even though the fig tree doesn’t flourish,"
+        "text": "For even though the fig tree doesn’t flourish,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "nor fruit be in the vines,",
+        "break": true
       },
       {
-        "text": "nor fruit be in the vines,"
+        "text": "the labor of the olive fails,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "the fields yield no food,",
+        "break": true
       },
       {
-        "text": "the labor of the olive fails,"
+        "text": "the flocks are cut off from the fold,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "the fields yield no food,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "the flocks are cut off from the fold,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and there is no herd in the stalls,"
-      },
-      {
-        "type": "n"
+        "text": "and there is no herd in the stalls,",
+        "break": true
       }
     ]
   },
@@ -931,16 +659,12 @@
     "verse": 18,
     "content": [
       {
-        "text": "yet I will rejoice in Yahweh."
+        "text": "yet I will rejoice in Yahweh.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I will be joyful in the God of my salvation!"
-      },
-      {
-        "type": "n"
+        "text": "I will be joyful in the God of my salvation!",
+        "break": true
       }
     ]
   },
@@ -953,28 +677,18 @@
         "text": "Yahweh, the Lord,",
         "foot": {
           "type": "trn",
-          "content": [
-            {
-              "text": "The word translated “Lord” is “Adonai.”"
-            }
-          ]
+          "content": "The word translated “Lord” is “Adonai.”"
         }
       },
       {
-        "text": "is my strength."
+        "text": " is my strength.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "He makes my feet like deer’s feet,",
+        "break": true
       },
-      {
-        "text": "He makes my feet like deer’s feet,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and enables me to go in high places. For the music director, on my stringed instruments."
-      }
+      "and enables me to go in high places. For the music director, on my stringed instruments."
     ]
   }
 ]

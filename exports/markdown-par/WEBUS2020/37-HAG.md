@@ -22,8 +22,8 @@
 <sup>15</sup> in the twenty-fourth day of the month, in the sixth month, in the second year of Darius the king.
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
-> - <sup>b</sup> 9. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
-> - <sup>c</sup> 12. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>b</sup> 9. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>c</sup> 12. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 2
 

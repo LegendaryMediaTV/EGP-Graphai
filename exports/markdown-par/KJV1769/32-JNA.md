@@ -15,7 +15,7 @@
 <sup>13</sup> Nevertheless the men rowed hard to bring [it] to the land; but they could not: for the sea wrought, and was tempestuous against them.
 <sup>14</sup> Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man’s life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee.
 <sup>15</sup> So they took up Jonah, and cast him forth into the sea: and the sea ceased from her raging.
-<sup>16</sup> Then the men feared the LORD exceedingly , and offered a sacrifice unto the LORD, and made vows.
+<sup>16</sup> Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.
 <sup>17</sup> Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.
 ## Chapter 2
 
@@ -43,7 +43,7 @@
 <sup>10</sup> And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did [it] not.
 ## Chapter 4
 
-<sup>1</sup> But it displeased Jonah exceedingly , and he was very angry.
+<sup>1</sup> But it displeased Jonah exceedingly, and he was very angry.
 <sup>2</sup> And he prayed unto the LORD, and said, I pray thee, O LORD, [was] not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou [art] a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.
 <sup>3</sup> Therefore now, O LORD, take, I beseech thee, my life from me; for [it is] better for me to die than to live.
 <sup>4</sup> Then said the LORD, Doest thou well to be angry?
@@ -52,5 +52,5 @@
 <sup>7</sup> But God prepared a worm when the morning rose the next day, and it smote the gourd that it withered.
 <sup>8</sup> And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted, and wished in himself to die, and said, [It is] better for me to die than to live.
 <sup>9</sup> And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, [even] unto death.
-<sup>10</sup> Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night , and perished in a night :
+<sup>10</sup> Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night, and perished in a night:
 <sup>11</sup> And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and [also] much cattle?

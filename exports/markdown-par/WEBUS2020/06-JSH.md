@@ -24,7 +24,7 @@
 <sup>18</sup> Whoever rebels against your commandment, and doesn’t listen to your words in all that you command him shall himself be put to death. Only be strong and courageous.”
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
-> - <sup>b</sup> 9. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>b</sup> 9. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 2
 
@@ -61,7 +61,7 @@
 <sup>23</sup> Then the two men returned, descended from the mountain, crossed the river, and came to Joshua the son of Nun. They told him all that had happened to them.
 <sup>24</sup> They said to Joshua, “Truly Yahweh has delivered all the land into our hands. Moreover, all the inhabitants of the land melt away before us.”
 
-> - <sup>a</sup> 2. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>a</sup> 2. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 
 ## Chapter 3
 

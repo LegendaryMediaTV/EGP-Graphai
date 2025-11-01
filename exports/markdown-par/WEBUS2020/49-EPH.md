@@ -91,7 +91,7 @@
 <sup>5</sup> one Lord, one faith, one baptism,
 <sup>6</sup> one God and Father of all, who is over all and through all and in us all.
 <sup>7</sup> But to each one of us, the grace was given according to the measure of the gift of Christ.
-<sup>8</sup> Therefore he says, <br>“When he ascended on high, <br>he led captivity captive, <br>and gave gifts to people.”<sup>a</sup>
+<sup>8</sup> Therefore he says,<br>“When he ascended on high,<br>he led captivity captive,<br>and gave gifts to people.”<sup>a</sup>
 <sup>9</sup> Now this, “He ascended”, what is it but that he also first descended into the lower parts of the earth?
 <sup>10</sup> He who descended is the one who also ascended far above all the heavens, that he might fill all things.
 

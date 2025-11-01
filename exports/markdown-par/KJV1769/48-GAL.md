@@ -42,7 +42,7 @@
 <sup>14</sup> But when I saw that they walked not uprightly according to the truth of the gospel, I said unto Peter before [them] all, If thou, being a Jew, livest after the manner of Gentiles, and not as do the Jews, why compellest thou the Gentiles to live as do the Jews?
 <sup>15</sup> We [who are] Jews by nature, and not sinners of the Gentiles,
 <sup>16</sup> Knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have believed in Jesus Christ, that we might be justified by the faith of Christ, and not by the works of the law: for by the works of the law shall no flesh be justified.
-<sup>17</sup> But if, while we seek to be justified by Christ, we ourselves also are found sinners, [is] therefore Christ the minister of sin? God forbid .
+<sup>17</sup> But if, while we seek to be justified by Christ, we ourselves also are found sinners, [is] therefore Christ the minister of sin? God forbid.
 <sup>18</sup> For if I build again the things which I destroyed, I make myself a transgressor.
 <sup>19</sup> For I through the law am dead to the law, that I might live unto God.
 <sup>20</sup> I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.
@@ -69,7 +69,7 @@
 <sup>18</sup> For if the inheritance [be] of the law, [it is] no more of promise: but God gave [it] to Abraham by promise.
 <sup>19</sup> Wherefore then [serveth] the law? It was added because of transgressions, till the seed should come to whom the promise was made; [and it was] ordained by angels in the hand of a mediator.
 <sup>20</sup> Now a mediator is not [a mediator] of one, but God is one.
-<sup>21</sup> [Is] the law then against the promises of God? God forbid : for if there had been a law given which could have given life, verily righteousness should have been by the law.
+<sup>21</sup> [Is] the law then against the promises of God? God forbid: for if there had been a law given which could have given life, verily righteousness should have been by the law.
 <sup>22</sup> But the scripture hath concluded all under sin, that the promise by faith of Jesus Christ might be given to them that believe.
 <sup>23</sup> But before faith came, we were kept under the law, shut up unto the faith which should afterwards be revealed.
 <sup>24</sup> Wherefore the law was our schoolmaster [to bring us] unto Christ, that we might be justified by faith.
@@ -87,19 +87,19 @@
 <sup>5</sup> To redeem them that were under the law, that we might receive the adoption of sons.
 <sup>6</sup> And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father.
 <sup>7</sup> Wherefore thou art no more a servant, but a son; and if a son, then an heir of God through Christ.
-<sup>8</sup> Howbeit then , when ye knew not God, ye did service unto them which by nature are no gods.
+<sup>8</sup> Howbeit then, when ye knew not God, ye did service unto them which by nature are no gods.
 <sup>9</sup> But now, after that ye have known God, or rather are known of God, how turn ye again to the weak and beggarly elements, whereunto ye desire again to be in bondage?
 <sup>10</sup> Ye observe days, and months, and times, and years.
 <sup>11</sup> I am afraid of you, lest I have bestowed upon you labour in vain.
 <sup>12</sup> Brethren, I beseech you, be as I [am]; for I [am] as ye [are]: ye have not injured me at all.
-<sup>13</sup> Ye know how through infirmity of the flesh I preached the gospel unto you at the first.
+<sup>13</sup>  Ye know how through infirmity of the flesh I preached the gospel unto you at the first.
 <sup>14</sup> And my temptation which was in my flesh ye despised not, nor rejected; but received me as an angel of God, [even] as Christ Jesus.
 <sup>15</sup> Where is then the blessedness ye spake of? for I bear you record, that, if [it had been] possible, ye would have plucked out your own eyes, and have given them to me.
 <sup>16</sup> Am I therefore become your enemy, because I tell you the truth?
 <sup>17</sup> They zealously affect you, [but] not well; yea, they would exclude you, that ye might affect them.
 <sup>18</sup> But [it is] good to be zealously affected always in [a] good [thing], and not only when I am present with you.
 <sup>19</sup> My little children, of whom I travail in birth again until Christ be formed in you,
-<sup>20</sup> I desire to be present with you now, and to change my voice; for I stand in doubt of you.
+<sup>20</sup>  I desire to be present with you now, and to change my voice; for I stand in doubt of you.
 <sup>21</sup> Tell me, ye that desire to be under the law, do ye not hear the law?
 <sup>22</sup> For it is written, that Abraham had two sons, the one by a bondmaid, the other by a freewoman.
 <sup>23</sup> But he [who was] of the bondwoman was born after the flesh; but he of the freewoman [was] by promise.
@@ -116,13 +116,13 @@
 <sup>1</sup> Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.
 <sup>2</sup> Behold, I Paul say unto you, that if ye be circumcised, Christ shall profit you nothing.
 <sup>3</sup> For I testify again to every man that is circumcised, that he is a debtor to do the whole law.
-<sup>4</sup> Christ is become of no effect unto you , whosoever of you are justified by the law; ye are fallen from grace.
+<sup>4</sup> Christ is become of no effect unto you, whosoever of you are justified by the law; ye are fallen from grace.
 <sup>5</sup> For we through the Spirit wait for the hope of righteousness by faith.
 <sup>6</sup> For in Jesus Christ neither circumcision availeth any thing, nor uncircumcision; but faith which worketh by love.
 <sup>7</sup> Ye did run well; who did hinder you that ye should not obey the truth?
 <sup>8</sup> This persuasion [cometh] not of him that calleth you.
 <sup>9</sup> A little leaven leaveneth the whole lump.
-<sup>10</sup> I have confidence in you through the Lord, that ye will be none otherwise minded: but he that troubleth you shall bear his judgment, whosoever he be .
+<sup>10</sup> I have confidence in you through the Lord, that ye will be none otherwise minded: but he that troubleth you shall bear his judgment, whosoever he be.
 <sup>11</sup> And I, brethren, if I yet preach circumcision, why do I yet suffer persecution? then is the offence of the cross ceased.
 <sup>12</sup> I would they were even cut off which trouble you.
 <sup>13</sup> For, brethren, ye have been called unto liberty; only [use] not liberty for an occasion to the flesh, but by love serve one another.
@@ -157,5 +157,5 @@
 <sup>14</sup> But God forbid that I should glory, save in the cross of our Lord Jesus Christ, by whom the world is crucified unto me, and I unto the world.
 <sup>15</sup> For in Christ Jesus neither circumcision availeth any thing, nor uncircumcision, but a new creature.
 <sup>16</sup> And as many as walk according to this rule, peace [be] on them, and mercy, and upon the Israel of God.
-<sup>17</sup> From henceforth let no man trouble me : for I bear in my body the marks of the Lord Jesus.
+<sup>17</sup> From henceforth let no man trouble me: for I bear in my body the marks of the Lord Jesus.
 <sup>18</sup> Brethren, the grace of our Lord Jesus Christ [be] with your spirit. Amen. «[To [the] Galatians written from Rome.]»

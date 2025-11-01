@@ -31,7 +31,7 @@
 <sup>21</sup> Daniel continued even to the first year of King Cyrus.
 
 > - <sup>a</sup> 2. The word translated “Lord” is “Adonai.”
-> - <sup>b</sup> 2. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>b</sup> 2. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 > - <sup>c</sup> 3. or, seed
 
 ## Chapter 2
@@ -63,10 +63,10 @@
 <sup>17</sup> Then Daniel went to his house and made the thing known to Hananiah, Mishael, and Azariah, his companions:
 <sup>18</sup> that they would desire mercies of the God of heaven concerning this secret, that Daniel and his companions would not perish with the rest of the wise men of Babylon.
 <sup>19</sup> Then the secret was revealed to Daniel in a vision of the night. Then Daniel blessed the God of heaven.
-<sup>20</sup> Daniel answered, <br>“Blessed be the name of God forever and ever; <br>for wisdom and might are his. <br>
-<sup>21</sup> He changes the times and the seasons. <br>He removes kings and sets up kings. <br>He gives wisdom to the wise, <br>and knowledge to those who have understanding. <br>
-<sup>22</sup> He reveals the deep and secret things. <br>He knows what is in the darkness, <br>and the light dwells with him. <br>
-<sup>23</sup> I thank you and praise you, <br>O God of my fathers, <br>who have given me wisdom and might, <br>and have now made known to me what we desired of you; <br>for you have made known to us the king’s matter.”
+<sup>20</sup> Daniel answered,<br>“Blessed be the name of God forever and ever;<br>for wisdom and might are his.<br>
+<sup>21</sup> He changes the times and the seasons.<br>He removes kings and sets up kings.<br>He gives wisdom to the wise,<br>and knowledge to those who have understanding.<br>
+<sup>22</sup> He reveals the deep and secret things.<br>He knows what is in the darkness,<br>and the light dwells with him.<br>
+<sup>23</sup> I thank you and praise you,<br>O God of my fathers,<br>who have given me wisdom and might,<br>and have now made known to me what we desired of you;<br>for you have made known to us the king’s matter.”
 
 <sup>24</sup> Therefore Daniel went in to Arioch, whom the king had appointed to destroy the wise men of Babylon. He went and said this to him: “Don’t destroy the wise men of Babylon. Bring me in before the king, and I will show to the king the interpretation.”
 
@@ -105,7 +105,7 @@
 <sup>48</sup> Then the king made Daniel great and gave him many great gifts, and made him rule over the whole province of Babylon and to be chief governor over all the wise men of Babylon.
 <sup>49</sup> Daniel requested of the king, and he appointed Shadrach, Meshach, and Abednego over the affairs of the province of Babylon, but Daniel was in the king’s gate.
 
-> - <sup>a</sup> 31. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>a</sup> 31. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 
 ## Chapter 3
 
@@ -157,8 +157,8 @@
 ## Chapter 4
 
 <sup>1</sup> Nebuchadnezzar the king,
-<sup>2</sup> It has seemed good to me to show the signs and wonders that the Most High God has worked toward me. <br>
-<sup>3</sup> How great are his signs! <br>How mighty are his wonders! <br>His kingdom is an everlasting kingdom. <br>His dominion is from generation to generation.
+<sup>2</sup> It has seemed good to me to show the signs and wonders that the Most High God has worked toward me.<br>
+<sup>3</sup> How great are his signs!<br>How mighty are his wonders!<br>His kingdom is an everlasting kingdom.<br>His dominion is from generation to generation.
 <sup>4</sup> I, Nebuchadnezzar, was at rest in my house, and flourishing in my palace.
 <sup>5</sup> I saw a dream which made me afraid; and the thoughts on my bed and the visions of my head troubled me.
 <sup>6</sup> Therefore I made a decree to bring in all the wise men of Babylon before me, that they might make known to me the interpretation of the dream.
@@ -189,8 +189,8 @@
 <sup>31</sup> While the word was in the king’s mouth, a voice came from the sky, saying, “O King Nebuchadnezzar, to you it is spoken: ‘The kingdom has departed from you.
 <sup>32</sup> You shall be driven from men, and your dwelling shall be with the animals of the field. You shall be made to eat grass like oxen. Seven times shall pass over you, until you know that the Most High rules in the kingdom of men, and gives it to whomever he will.’ ”
 <sup>33</sup> This was fulfilled the same hour on Nebuchadnezzar. He was driven from men and ate grass like oxen; and his body was wet with the dew of the sky until his hair had grown like eagles’ feathers, and his nails like birds’ claws.
-<sup>34</sup> At the end of the days I, Nebuchadnezzar, lifted up my eyes to heaven, and my understanding returned to me; and I blessed the Most High, and I praised and honored him who lives forever, <br>for his dominion is an everlasting dominion, <br>and his kingdom from generation to generation. <br>
-<sup>35</sup> All the inhabitants of the earth are reputed as nothing; <br>and he does according to his will in the army of heaven, <br>and among the inhabitants of the earth; <br>and no one can stop his hand, <br>or ask him, “What are you doing?”
+<sup>34</sup> At the end of the days I, Nebuchadnezzar, lifted up my eyes to heaven, and my understanding returned to me; and I blessed the Most High, and I praised and honored him who lives forever,<br>for his dominion is an everlasting dominion,<br>and his kingdom from generation to generation.<br>
+<sup>35</sup> All the inhabitants of the earth are reputed as nothing;<br>and he does according to his will in the army of heaven,<br>and among the inhabitants of the earth;<br>and no one can stop his hand,<br>or ask him, “What are you doing?”
 <sup>36</sup> At the same time my understanding returned to me; and for the glory of my kingdom, my majesty and brightness returned to me. My counselors and my lords sought me; and I was established in my kingdom, and excellent greatness was added to me.
 <sup>37</sup> Now I, Nebuchadnezzar, praise and extol and honor the King of heaven; for all his works are truth, and his ways justice; and those who walk in pride he is able to abase.
 ## Chapter 5
@@ -277,8 +277,8 @@
 <sup>24</sup> The king commanded, and they brought those men who had accused Daniel, and they cast them into the den of lions—them, their children, and their wives; and the lions mauled them, and broke all their bones in pieces before they came to the bottom of the den.
 
 <sup>25</sup> Then King Darius wrote to all the peoples, nations, and languages who dwell in all the earth:
-<sup>26</sup> “I make a decree that in all the dominion of my kingdom men tremble and fear before the God of Daniel. <br>“For he is the living God, <br>and steadfast forever. <br>His kingdom is that which will not be destroyed. <br>His dominion will be even to the end. <br>
-<sup>27</sup> He delivers and rescues. <br>He works signs and wonders in heaven and in earth, <br>who has delivered Daniel from the power of the lions.”
+<sup>26</sup> “I make a decree that in all the dominion of my kingdom men tremble and fear before the God of Daniel.<br>“For he is the living God,<br>and steadfast forever.<br>His kingdom is that which will not be destroyed.<br>His dominion will be even to the end.<br>
+<sup>27</sup> He delivers and rescues.<br>He works signs and wonders in heaven and in earth,<br>who has delivered Daniel from the power of the lions.”
 
 <sup>28</sup> So this Daniel prospered in the reign of Darius and in the reign of Cyrus the Persian.
 ## Chapter 7
@@ -296,9 +296,9 @@
 
 <sup>7</sup> “After this I saw in the night visions, and, behold, there was a fourth animal, awesome, powerful, and exceedingly strong. It had great iron teeth. It devoured and broke in pieces, and stamped the residue with its feet. It was different from all the animals that were before it. It had ten horns.
 
-<sup>8</sup> “I considered the horns, and behold, there came up among them another horn, a little one, before which three of the first horns were plucked up by the roots; and behold, in this horn were eyes like the eyes of a man, and a mouth speaking arrogantly. <br>
-<sup>9</sup> “I watched until thrones were placed, <br>and one who was ancient of days sat. <br>His clothing was white as snow, <br>and the hair of his head like pure wool. <br>His throne was fiery flames, <br>and its wheels burning fire. <br>
-<sup>10</sup> A fiery stream issued and came out from before him. <br>Thousands of thousands ministered to him. <br>Ten thousand times ten thousand stood before him. <br>The judgment was set. <br>The books were opened.
+<sup>8</sup> “I considered the horns, and behold, there came up among them another horn, a little one, before which three of the first horns were plucked up by the roots; and behold, in this horn were eyes like the eyes of a man, and a mouth speaking arrogantly.<br>
+<sup>9</sup> “I watched until thrones were placed,<br>and one who was ancient of days sat.<br>His clothing was white as snow,<br>and the hair of his head like pure wool.<br>His throne was fiery flames,<br>and its wheels burning fire.<br>
+<sup>10</sup> A fiery stream issued and came out from before him.<br>Thousands of thousands ministered to him.<br>Ten thousand times ten thousand stood before him.<br>The judgment was set.<br>The books were opened.
 
 <sup>11</sup> “I watched at that time because of the voice of the arrogant words which the horn spoke. I watched even until the animal was slain, and its body destroyed, and it was given to be burned with fire.
 <sup>12</sup> As for the rest of the animals, their dominion was taken away; yet their lives were prolonged for a season and a time.

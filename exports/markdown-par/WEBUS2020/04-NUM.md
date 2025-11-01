@@ -214,7 +214,7 @@
 <sup>50</sup> from the firstborn of the children of Israel he took the money, one thousand three hundred sixty-five shekels,<sup>e</sup> according to the shekel of the sanctuary;
 <sup>51</sup> and Moses gave the redemption money to Aaron and to his sons, according to Yahweh’s word, as Yahweh commanded Moses.
 
-> - <sup>a</sup> 12. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>a</sup> 12. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 > - <sup>b</sup> 34. + 22,000 is the sum rounded to 2 significant digits. The sum of the Gershonites, Kohathites, and Merarites given above is 22,300, but the traditional Hebrew text has the number rounded to 2 significant digits, not 3 significant digits.
 > - <sup>c</sup> 47. A shekel is about 10 grams or about 0.35 ounces.
 > - <sup>d</sup> 47. A gerah is about 0.5 grams or about 7.7 grains.
@@ -359,14 +359,14 @@
 <sup>21</sup> “ ‘This is the law of the Nazirite who vows and of his offering to Yahweh for his separation, in addition to that which he is able to afford. According to his vow which he vows, so he must do after the law of his separation.’ ”
 
 <sup>22</sup> Yahweh spoke to Moses, saying,
-<sup>23</sup> “Speak to Aaron and to his sons, saying, ‘This is how you shall bless the children of Israel.’ You shall tell them, <br>
-<sup>24</sup> ‘Yahweh bless you, and keep you. <br>
-<sup>25</sup> Yahweh make his face to shine on you, <br>and be gracious to you. <br>
-<sup>26</sup> Yahweh lift up his face toward you, <br>and give you peace.’
+<sup>23</sup> “Speak to Aaron and to his sons, saying, ‘This is how you shall bless the children of Israel.’ You shall tell them,<br>
+<sup>24</sup> ‘Yahweh bless you, and keep you.<br>
+<sup>25</sup> Yahweh make his face to shine on you,<br>and be gracious to you.<br>
+<sup>26</sup> Yahweh lift up his face toward you,<br>and give you peace.’
 
 <sup>27</sup> “So they shall put my name on the children of Israel; and I will bless them.”
 
-> - <sup>a</sup> 7. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>a</sup> 7. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 7
 
@@ -878,7 +878,7 @@
 > - <sup>b</sup> 4. A hin is about 6.5 liters or 1.7 gallons.
 > - <sup>c</sup> 6. 1 ephah is about 22 liters or about 2/3 of a bushel
 > - <sup>d</sup> 9. 1 ephah is about 22 liters or about 2/3 of a bushel
-> - <sup>e</sup> 38. or, tassels (Hebrew [hebrew]צִיצִ֛ת[/hebrew])
+> - <sup>e</sup> 38. or, tassels (Hebrew צִיצִ֛ת)
 > - <sup>f</sup> 38. or, tassel
 > - <sup>g</sup> 39. or, tassel
 
@@ -1122,8 +1122,8 @@
 
 <sup>16</sup> From there they traveled to Beer; that is the well of which Yahweh said to Moses, “Gather the people together, and I will give them water.”
 
-<sup>17</sup> Then Israel sang this song: <br>“Spring up, well! Sing to it, <br>
-<sup>18</sup> the well, which the princes dug, <br>which the nobles of the people dug, <br>with the scepter, and with their poles.” From the wilderness they traveled to Mattanah;
+<sup>17</sup> Then Israel sang this song:<br>“Spring up, well! Sing to it,<br>
+<sup>18</sup> the well, which the princes dug,<br>which the nobles of the people dug,<br>with the scepter, and with their poles.” From the wilderness they traveled to Mattanah;
 <sup>19</sup> and from Mattanah to Nahaliel; and from Nahaliel to Bamoth;
 <sup>20</sup> and from Bamoth to the valley that is in the field of Moab, to the top of Pisgah, which looks down on the desert.
 <sup>21</sup> Israel sent messengers to Sihon king of the Amorites, saying,
@@ -1133,10 +1133,10 @@
 <sup>24</sup> Israel struck him with the edge of the sword, and possessed his land from the Arnon to the Jabbok, even to the children of Ammon; for the border of the children of Ammon was fortified.
 <sup>25</sup> Israel took all these cities. Israel lived in all the cities of the Amorites, in Heshbon, and in all its villages.
 <sup>26</sup> For Heshbon was the city of Sihon the king of the Amorites, who had fought against the former king of Moab, and taken all his land out of his hand, even to the Arnon.
-<sup>27</sup> Therefore those who speak in proverbs say, <br>“Come to Heshbon. <br>Let the city of Sihon be built and established; <br>
-<sup>28</sup> for a fire has gone out of Heshbon, <br>a flame from the city of Sihon. <br>It has devoured Ar of Moab, <br>The lords of the high places of the Arnon. <br>
-<sup>29</sup> Woe to you, Moab! <br>You are undone, people of Chemosh! <br>He has given his sons as fugitives, <br>and his daughters into captivity, <br>to Sihon king of the Amorites. <br>
-<sup>30</sup> We have shot at them. <br>Heshbon has perished even to Dibon. <br>We have laid waste even to Nophah, <br>Which reaches to Medeba.”
+<sup>27</sup> Therefore those who speak in proverbs say,<br>“Come to Heshbon.<br>Let the city of Sihon be built and established;<br>
+<sup>28</sup> for a fire has gone out of Heshbon,<br>a flame from the city of Sihon.<br>It has devoured Ar of Moab,<br>The lords of the high places of the Arnon.<br>
+<sup>29</sup> Woe to you, Moab!<br>You are undone, people of Chemosh!<br>He has given his sons as fugitives,<br>and his daughters into captivity,<br>to Sihon king of the Amorites.<br>
+<sup>30</sup> We have shot at them.<br>Heshbon has perished even to Dibon.<br>We have laid waste even to Nophah,<br>Which reaches to Medeba.”
 
 <sup>31</sup> Thus Israel lived in the land of the Amorites.
 <sup>32</sup> Moses sent to spy out Jazer. They took its villages, and drove out the Amorites who were there.
@@ -1222,10 +1222,10 @@
 <sup>5</sup> Yahweh put a word in Balaam’s mouth, and said, “Return to Balak, and thus you shall speak.”
 
 <sup>6</sup> He returned to him, and behold, he was standing by his burnt offering, he, and all the princes of Moab.
-<sup>7</sup> He took up his parable, and said, <br>“From Aram has Balak brought me, <br>the king of Moab from the mountains of the East. <br>Come, curse Jacob for me. <br>Come, defy Israel. <br>
-<sup>8</sup> How shall I curse whom God has not cursed? <br>How shall I defy whom Yahweh has not defied? <br>
-<sup>9</sup> For from the top of the rocks I see him. <br>From the hills I see him. <br>Behold, it is a people that dwells alone, <br>and shall not be listed among the nations. <br>
-<sup>10</sup> Who can count the dust of Jacob, <br>or count the fourth part of Israel? <br>Let me die the death of the righteous! <br>Let my last end be like his!”
+<sup>7</sup> He took up his parable, and said,<br>“From Aram has Balak brought me,<br>the king of Moab from the mountains of the East.<br>Come, curse Jacob for me.<br>Come, defy Israel.<br>
+<sup>8</sup> How shall I curse whom God has not cursed?<br>How shall I defy whom Yahweh has not defied?<br>
+<sup>9</sup> For from the top of the rocks I see him.<br>From the hills I see him.<br>Behold, it is a people that dwells alone,<br>and shall not be listed among the nations.<br>
+<sup>10</sup> Who can count the dust of Jacob,<br>or count the fourth part of Israel?<br>Let me die the death of the righteous!<br>Let my last end be like his!”
 
 <sup>11</sup> Balak said to Balaam, “What have you done to me? I took you to curse my enemies, and behold, you have blessed them altogether.”
 
@@ -1240,13 +1240,13 @@
 
 <sup>17</sup> He came to him, and behold, he was standing by his burnt offering, and the princes of Moab with him. Balak said to him, “What has Yahweh spoken?”
 
-<sup>18</sup> He took up his parable, and said, <br>“Rise up, Balak, and hear! <br>Listen to me, you son of Zippor. <br>
-<sup>19</sup> God is not a man, that he should lie, <br>nor a son of man, that he should repent. <br>Has he said, and he won’t do it? <br>Or has he spoken, and he won’t make it good? <br>
-<sup>20</sup> Behold, I have received a command to bless. <br>He has blessed, and I can’t reverse it. <br>
-<sup>21</sup> He has not seen iniquity in Jacob. <br>Neither has he seen perverseness in Israel. <br>Yahweh his God is with him. <br>The shout of a king is among them. <br>
-<sup>22</sup> God brings them out of Egypt. <br>He has as it were the strength of the wild ox. <br>
-<sup>23</sup> Surely there is no enchantment with Jacob; <br>neither is there any divination with Israel. <br>Now it shall be said of Jacob and of Israel, <br>‘What has God done!’ <br>
-<sup>24</sup> Behold, a people rises up as a lioness. <br>As a lion he lifts himself up. <br>He shall not lie down until he eats of the prey, <br>and drinks the blood of the slain.”
+<sup>18</sup> He took up his parable, and said,<br>“Rise up, Balak, and hear!<br>Listen to me, you son of Zippor.<br>
+<sup>19</sup> God is not a man, that he should lie,<br>nor a son of man, that he should repent.<br>Has he said, and he won’t do it?<br>Or has he spoken, and he won’t make it good?<br>
+<sup>20</sup> Behold, I have received a command to bless.<br>He has blessed, and I can’t reverse it.<br>
+<sup>21</sup> He has not seen iniquity in Jacob.<br>Neither has he seen perverseness in Israel.<br>Yahweh his God is with him.<br>The shout of a king is among them.<br>
+<sup>22</sup> God brings them out of Egypt.<br>He has as it were the strength of the wild ox.<br>
+<sup>23</sup> Surely there is no enchantment with Jacob;<br>neither is there any divination with Israel.<br>Now it shall be said of Jacob and of Israel,<br>‘What has God done!’<br>
+<sup>24</sup> Behold, a people rises up as a lioness.<br>As a lion he lifts himself up.<br>He shall not lie down until he eats of the prey,<br>and drinks the blood of the slain.”
 
 <sup>25</sup> Balak said to Balaam, “Neither curse them at all, nor bless them at all.”
 
@@ -1262,13 +1262,13 @@
 
 <sup>1</sup> When Balaam saw that it pleased Yahweh to bless Israel, he didn’t go, as at the other times, to use divination, but he set his face toward the wilderness.
 <sup>2</sup> Balaam lifted up his eyes, and he saw Israel dwelling according to their tribes; and the Spirit of God came on him.
-<sup>3</sup> He took up his parable, and said, <br>“Balaam the son of Beor says, <br>the man whose eyes are open says; <br>
-<sup>4</sup> he says, who hears the words of God, <br>who sees the vision of the Almighty, <br>falling down, and having his eyes open: <br>
-<sup>5</sup> How goodly are your tents, Jacob, <br>and your dwellings, Israel! <br>
-<sup>6</sup> As valleys they are spread out, <br>as gardens by the riverside, <br>as aloes which Yahweh has planted, <br>as cedar trees beside the waters. <br>
-<sup>7</sup> Water shall flow from his buckets. <br>His seed shall be in many waters. <br>His king shall be higher than Agag. <br>His kingdom shall be exalted. <br>
-<sup>8</sup> God brings him out of Egypt. <br>He has as it were the strength of the wild ox. <br>He shall consume the nations his adversaries, <br>shall break their bones in pieces, <br>and pierce them with his arrows. <br>
-<sup>9</sup> He couched, he lay down as a lion, <br>as a lioness; <br>who shall rouse him up? <br>Everyone who blesses you is blessed. <br>Everyone who curses you is cursed.”
+<sup>3</sup> He took up his parable, and said,<br>“Balaam the son of Beor says,<br>the man whose eyes are open says;<br>
+<sup>4</sup> he says, who hears the words of God,<br>who sees the vision of the Almighty,<br>falling down, and having his eyes open:<br>
+<sup>5</sup> How goodly are your tents, Jacob,<br>and your dwellings, Israel!<br>
+<sup>6</sup> As valleys they are spread out,<br>as gardens by the riverside,<br>as aloes which Yahweh has planted,<br>as cedar trees beside the waters.<br>
+<sup>7</sup> Water shall flow from his buckets.<br>His seed shall be in many waters.<br>His king shall be higher than Agag.<br>His kingdom shall be exalted.<br>
+<sup>8</sup> God brings him out of Egypt.<br>He has as it were the strength of the wild ox.<br>He shall consume the nations his adversaries,<br>shall break their bones in pieces,<br>and pierce them with his arrows.<br>
+<sup>9</sup> He couched, he lay down as a lion,<br>as a lioness;<br>who shall rouse him up?<br>Everyone who blesses you is blessed.<br>Everyone who curses you is cursed.”
 
 <sup>10</sup> Balak’s anger burned against Balaam, and he struck his hands together. Balak said to Balaam, “I called you to curse my enemies, and, behold, you have altogether blessed them these three times.
 <sup>11</sup> Therefore, flee to your place, now! I thought to promote you to great honor; but, behold, Yahweh has kept you back from honor.”
@@ -1277,19 +1277,19 @@
 <sup>13</sup> ‘If Balak would give me his house full of silver and gold, I can’t go beyond Yahweh’s word, to do either good or bad from my own mind. I will say what Yahweh says’?
 <sup>14</sup> Now, behold, I go to my people. Come, I will inform you what this people shall do to your people in the latter days.”
 
-<sup>15</sup> He took up his parable, and said, <br>“Balaam the son of Beor says, <br>the man whose eyes are open says; <br>
-<sup>16</sup> he says, who hears the words of God, <br>knows the knowledge of the Most High, <br>and who sees the vision of the Almighty, <br>falling down, and having his eyes open: <br>
-<sup>17</sup> I see him, but not now. <br>I see him, but not near. <br>A star will come out of Jacob. <br>A scepter will rise out of Israel, <br>and shall strike through the corners of Moab, <br>and crush all the sons of Sheth. <br>
-<sup>18</sup> Edom shall be a possession. <br>Seir, his enemy, also shall be a possession, <br>while Israel does valiantly. <br>
-<sup>19</sup> Out of Jacob shall one have dominion, <br>and shall destroy the remnant from the city.”
+<sup>15</sup> He took up his parable, and said,<br>“Balaam the son of Beor says,<br>the man whose eyes are open says;<br>
+<sup>16</sup> he says, who hears the words of God,<br>knows the knowledge of the Most High,<br>and who sees the vision of the Almighty,<br>falling down, and having his eyes open:<br>
+<sup>17</sup> I see him, but not now.<br>I see him, but not near.<br>A star will come out of Jacob.<br>A scepter will rise out of Israel,<br>and shall strike through the corners of Moab,<br>and crush all the sons of Sheth.<br>
+<sup>18</sup> Edom shall be a possession.<br>Seir, his enemy, also shall be a possession,<br>while Israel does valiantly.<br>
+<sup>19</sup> Out of Jacob shall one have dominion,<br>and shall destroy the remnant from the city.”
 
-<sup>20</sup> He looked at Amalek, and took up his parable, and said, <br>“Amalek was the first of the nations, <br>but his latter end shall come to destruction.”
+<sup>20</sup> He looked at Amalek, and took up his parable, and said,<br>“Amalek was the first of the nations,<br>but his latter end shall come to destruction.”
 
-<sup>21</sup> He looked at the Kenite, and took up his parable, and said, <br>“Your dwelling place is strong. <br>Your nest is set in the rock. <br>
-<sup>22</sup> Nevertheless Kain shall be wasted, <br>until Asshur carries you away captive.”
+<sup>21</sup> He looked at the Kenite, and took up his parable, and said,<br>“Your dwelling place is strong.<br>Your nest is set in the rock.<br>
+<sup>22</sup> Nevertheless Kain shall be wasted,<br>until Asshur carries you away captive.”
 
-<sup>23</sup> He took up his parable, and said, <br>“Alas, who shall live when God does this? <br>
-<sup>24</sup> But ships shall come from the coast of Kittim. <br>They shall afflict Asshur, and shall afflict Eber. <br>He also shall come to destruction.”
+<sup>23</sup> He took up his parable, and said,<br>“Alas, who shall live when God does this?<br>
+<sup>24</sup> But ships shall come from the coast of Kittim.<br>They shall afflict Asshur, and shall afflict Eber.<br>He also shall come to destruction.”
 
 <sup>25</sup> Balaam rose up, and went and returned to his place; and Balak also went his way.
 ## Chapter 25

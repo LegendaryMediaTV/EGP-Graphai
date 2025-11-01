@@ -40,8 +40,8 @@
 
 <sup>31</sup> God saw everything that he had made, and, behold, it was very good. There was evening and there was morning, a sixth day.
 
-> - <sup>a</sup> 1. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
-> - <sup>b</sup> 29. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>a</sup> 1. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
+> - <sup>b</sup> 29. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 
 ## Chapter 2
 
@@ -101,14 +101,14 @@
 
 <sup>13</sup> Yahweh God said to the woman, “What have you done?” The woman said, “The serpent deceived me, and I ate.”
 
-<sup>14</sup> Yahweh God said to the serpent, <br>“Because you have done this, <br>you are cursed above all livestock, <br>and above every animal of the field. <br>You shall go on your belly <br>and you shall eat dust all the days of your life. <br>
-<sup>15</sup> I will put hostility between you and the woman, <br>and between your offspring and her offspring. <br>He will bruise your head, <br>and you will bruise his heel.”
+<sup>14</sup> Yahweh God said to the serpent,<br>“Because you have done this,<br>you are cursed above all livestock,<br>and above every animal of the field.<br>You shall go on your belly<br>and you shall eat dust all the days of your life.<br>
+<sup>15</sup> I will put hostility between you and the woman,<br>and between your offspring and her offspring.<br>He will bruise your head,<br>and you will bruise his heel.”
 
-<sup>16</sup> To the woman he said, <br>“I will greatly multiply your pain in childbirth. <br>You will bear children in pain. <br>Your desire will be for your husband, <br>and he will rule over you.”
+<sup>16</sup> To the woman he said,<br>“I will greatly multiply your pain in childbirth.<br>You will bear children in pain.<br>Your desire will be for your husband,<br>and he will rule over you.”
 
-<sup>17</sup> To Adam he said, <br>“Because you have listened to your wife’s voice, <br>and have eaten from the tree, <br>about which I commanded you, saying, ‘You shall not eat of it,’ <br>the ground is cursed for your sake. <br>You will eat from it with much labor all the days of your life. <br>
-<sup>18</sup> It will yield thorns and thistles to you; <br>and you will eat the herb of the field. <br>
-<sup>19</sup> You will eat bread by the sweat of your face until you return to the ground, <br>for you were taken out of it. <br>For you are dust, <br>and you shall return to dust.”
+<sup>17</sup> To Adam he said,<br>“Because you have listened to your wife’s voice,<br>and have eaten from the tree,<br>about which I commanded you, saying, ‘You shall not eat of it,’<br>the ground is cursed for your sake.<br>You will eat from it with much labor all the days of your life.<br>
+<sup>18</sup> It will yield thorns and thistles to you;<br>and you will eat the herb of the field.<br>
+<sup>19</sup> You will eat bread by the sweat of your face until you return to the ground,<br>for you were taken out of it.<br>For you are dust,<br>and you shall return to dust.”
 
 <sup>20</sup> The man called his wife Eve because she would be the mother of all the living.
 <sup>21</sup> Yahweh God made garments of animal skins for Adam and for his wife, and clothed them.
@@ -148,8 +148,8 @@
 <sup>20</sup> Adah gave birth to Jabal, who was the father of those who dwell in tents and have livestock.
 <sup>21</sup> His brother’s name was Jubal, who was the father of all who handle the harp and pipe.
 <sup>22</sup> Zillah also gave birth to Tubal Cain, the forger of every cutting instrument of bronze and iron. Tubal Cain’s sister was Naamah.
-<sup>23</sup> Lamech said to his wives, <br>“Adah and Zillah, hear my voice. <br>You wives of Lamech, listen to my speech, <br>for I have slain a man for wounding me, <br>a young man for bruising me. <br>
-<sup>24</sup> If Cain will be avenged seven times, <br>truly Lamech seventy-seven times.”
+<sup>23</sup> Lamech said to his wives,<br>“Adah and Zillah, hear my voice.<br>You wives of Lamech, listen to my speech,<br>for I have slain a man for wounding me,<br>a young man for bruising me.<br>
+<sup>24</sup> If Cain will be avenged seven times,<br>truly Lamech seventy-seven times.”
 
 <sup>25</sup> Adam knew his wife again. She gave birth to a son, and named him Seth, saying, “for God has given me another child instead of Abel, for Cain killed him.”
 <sup>26</sup> A son was also born to Seth, and he named him Enosh. At that time men began to call on Yahweh’s name.
@@ -324,10 +324,10 @@
 <sup>22</sup> Ham, the father of Canaan, saw the nakedness of his father, and told his two brothers outside.
 <sup>23</sup> Shem and Japheth took a garment, and laid it on both their shoulders, went in backwards, and covered the nakedness of their father. Their faces were backwards, and they didn’t see their father’s nakedness.
 <sup>24</sup> Noah awoke from his wine, and knew what his youngest son had done to him.
-<sup>25</sup> He said, <br>“Canaan is cursed. <br>He will be a servant of servants to his brothers.”
+<sup>25</sup> He said,<br>“Canaan is cursed.<br>He will be a servant of servants to his brothers.”
 
-<sup>26</sup> He said, <br>“Blessed be Yahweh, the God of Shem. <br>Let Canaan be his servant. <br>
-<sup>27</sup> May God enlarge Japheth. <br>Let him dwell in the tents of Shem. <br>Let Canaan be his servant.”
+<sup>26</sup> He said,<br>“Blessed be Yahweh, the God of Shem.<br>Let Canaan be his servant.<br>
+<sup>27</sup> May God enlarge Japheth.<br>Let him dwell in the tents of Shem.<br>Let Canaan be his servant.”
 
 <sup>28</sup> Noah lived three hundred fifty years after the flood.
 <sup>29</sup> All the days of Noah were nine hundred fifty years, and then he died.
@@ -961,7 +961,7 @@
 <sup>20</sup> Isaac was forty years old when he took Rebekah, the daughter of Bethuel the Syrian of Paddan Aram, the sister of Laban the Syrian, to be his wife.
 <sup>21</sup> Isaac entreated Yahweh for his wife, because she was barren. Yahweh was entreated by him, and Rebekah his wife conceived.
 <sup>22</sup> The children struggled together within her. She said, “If it is like this, why do I live?” She went to inquire of Yahweh.
-<sup>23</sup> Yahweh said to her, <br>“Two nations are in your womb. <br>Two peoples will be separated from your body. <br>The one people will be stronger than the other people. <br>The elder will serve the younger.”
+<sup>23</sup> Yahweh said to her,<br>“Two nations are in your womb.<br>Two peoples will be separated from your body.<br>The one people will be stronger than the other people.<br>The elder will serve the younger.”
 
 <sup>24</sup> When her days to be delivered were fulfilled, behold, there were twins in her womb.
 <sup>25</sup> The first came out red all over, like a hairy garment. They named him Esau.
@@ -1077,9 +1077,9 @@
 
 <sup>25</sup> He said, “Bring it near to me, and I will eat of my son’s venison, that my soul may bless you.” He brought it near to him, and he ate. He brought him wine, and he drank.
 <sup>26</sup> His father Isaac said to him, “Come near now, and kiss me, my son.”
-<sup>27</sup> He came near, and kissed him. He smelled the smell of his clothing, and blessed him, and said, <br>“Behold, the smell of my son <br>is as the smell of a field which Yahweh has blessed. <br>
-<sup>28</sup> God give you of the dew of the sky, <br>of the fatness of the earth, <br>and plenty of grain and new wine. <br>
-<sup>29</sup> Let peoples serve you, <br>and nations bow down to you. <br>Be lord over your brothers. <br>Let your mother’s sons bow down to you. <br>Cursed be everyone who curses you. <br>Blessed be everyone who blesses you.”
+<sup>27</sup> He came near, and kissed him. He smelled the smell of his clothing, and blessed him, and said,<br>“Behold, the smell of my son<br>is as the smell of a field which Yahweh has blessed.<br>
+<sup>28</sup> God give you of the dew of the sky,<br>of the fatness of the earth,<br>and plenty of grain and new wine.<br>
+<sup>29</sup> Let peoples serve you,<br>and nations bow down to you.<br>Be lord over your brothers.<br>Let your mother’s sons bow down to you.<br>Cursed be everyone who curses you.<br>Blessed be everyone who blesses you.”
 
 <sup>30</sup> As soon as Isaac had finished blessing Jacob, and Jacob had just gone out from the presence of Isaac his father, Esau his brother came in from his hunting.
 <sup>31</sup> He also made savory food, and brought it to his father. He said to his father, “Let my father arise, and eat of his son’s venison, that your soul may bless me.”
@@ -1098,8 +1098,8 @@
 
 <sup>38</sup> Esau said to his father, “Do you have just one blessing, my father? Bless me, even me also, my father.” Esau lifted up his voice, and wept.
 
-<sup>39</sup> Isaac his father answered him, <br>“Behold, your dwelling will be of the fatness of the earth, <br>and of the dew of the sky from above. <br>
-<sup>40</sup> You will live by your sword, and you will serve your brother. <br>It will happen, when you will break loose, <br>that you will shake his yoke from off your neck.”
+<sup>39</sup> Isaac his father answered him,<br>“Behold, your dwelling will be of the fatness of the earth,<br>and of the dew of the sky from above.<br>
+<sup>40</sup> You will live by your sword, and you will serve your brother.<br>It will happen, when you will break loose,<br>that you will shake his yoke from off your neck.”
 
 <sup>41</sup> Esau hated Jacob because of the blessing with which his father blessed him. Esau said in his heart, “The days of mourning for my father are at hand. Then I will kill my brother Jacob.”
 
@@ -2047,8 +2047,8 @@
 <sup>12</sup> Joseph brought them out from between his knees, and he bowed himself with his face to the earth.
 <sup>13</sup> Joseph took them both, Ephraim in his right hand toward Israel’s left hand, and Manasseh in his left hand toward Israel’s right hand, and brought them near to him.
 <sup>14</sup> Israel stretched out his right hand, and laid it on Ephraim’s head, who was the younger, and his left hand on Manasseh’s head, guiding his hands knowingly, for Manasseh was the firstborn.
-<sup>15</sup> He blessed Joseph, and said, <br>“The God before whom my fathers Abraham and Isaac walked, <br>the God who has fed me all my life long to this day, <br>
-<sup>16</sup> the angel who has redeemed me from all evil, bless the lads, <br>and let my name be named on them, <br>and the name of my fathers Abraham and Isaac. <br>Let them grow into a multitude upon the earth.”
+<sup>15</sup> He blessed Joseph, and said,<br>“The God before whom my fathers Abraham and Isaac walked,<br>the God who has fed me all my life long to this day,<br>
+<sup>16</sup> the angel who has redeemed me from all evil, bless the lads,<br>and let my name be named on them,<br>and the name of my fathers Abraham and Isaac.<br>Let them grow into a multitude upon the earth.”
 
 <sup>17</sup> When Joseph saw that his father laid his right hand on the head of Ephraim, it displeased him. He held up his father’s hand, to remove it from Ephraim’s head to Manasseh’s head.
 <sup>18</sup> Joseph said to his father, “Not so, my father, for this is the firstborn. Put your right hand on his head.”
@@ -2059,44 +2059,44 @@
 <sup>22</sup> Moreover I have given to you one portion above your brothers, which I took out of the hand of the Amorite with my sword and with my bow.”
 ## Chapter 49
 
-<sup>1</sup> Jacob called to his sons, and said: “Gather yourselves together, that I may tell you that which will happen to you in the days to come. <br>
-<sup>2</sup> Assemble yourselves, and hear, you sons of Jacob. <br>Listen to Israel, your father.
+<sup>1</sup> Jacob called to his sons, and said: “Gather yourselves together, that I may tell you that which will happen to you in the days to come.<br>
+<sup>2</sup> Assemble yourselves, and hear, you sons of Jacob.<br>Listen to Israel, your father.
 
-<sup>3</sup> “Reuben, you are my firstborn, my might, and the beginning of my strength, <br>excelling in dignity, and excelling in power. <br>
-<sup>4</sup> Boiling over like water, you shall not excel, <br>because you went up to your father’s bed, <br>then defiled it. He went up to my couch.
+<sup>3</sup> “Reuben, you are my firstborn, my might, and the beginning of my strength,<br>excelling in dignity, and excelling in power.<br>
+<sup>4</sup> Boiling over like water, you shall not excel,<br>because you went up to your father’s bed,<br>then defiled it. He went up to my couch.
 
-<sup>5</sup> “Simeon and Levi are brothers. <br>Their swords are weapons of violence. <br>
-<sup>6</sup> My soul, don’t come into their council. <br>My glory, don’t be united to their assembly; <br>for in their anger they killed men. <br>In their self-will they hamstrung cattle. <br>
-<sup>7</sup> Cursed be their anger, for it was fierce; <br>and their wrath, for it was cruel. <br>I will divide them in Jacob, <br>and scatter them in Israel.
+<sup>5</sup> “Simeon and Levi are brothers.<br>Their swords are weapons of violence.<br>
+<sup>6</sup> My soul, don’t come into their council.<br>My glory, don’t be united to their assembly;<br>for in their anger they killed men.<br>In their self-will they hamstrung cattle.<br>
+<sup>7</sup> Cursed be their anger, for it was fierce;<br>and their wrath, for it was cruel.<br>I will divide them in Jacob,<br>and scatter them in Israel.
 
-<sup>8</sup> “Judah, your brothers will praise you. <br>Your hand will be on the neck of your enemies. <br>Your father’s sons will bow down before you. <br>
-<sup>9</sup> Judah is a lion’s cub. <br>From the prey, my son, you have gone up. <br>He stooped down, he crouched as a lion, <br>as a lioness. <br>Who will rouse him up? <br>
-<sup>10</sup> The scepter will not depart from Judah, <br>nor the ruler’s staff from between his feet, <br>until he comes to whom it belongs. <br>The obedience of the peoples will be to him. <br>
-<sup>11</sup> Binding his foal to the vine, <br>his donkey’s colt to the choice vine, <br>he has washed his garments in wine, <br>his robes in the blood of grapes. <br>
-<sup>12</sup> His eyes will be red with wine, <br>his teeth white with milk.
+<sup>8</sup> “Judah, your brothers will praise you.<br>Your hand will be on the neck of your enemies.<br>Your father’s sons will bow down before you.<br>
+<sup>9</sup> Judah is a lion’s cub.<br>From the prey, my son, you have gone up.<br>He stooped down, he crouched as a lion,<br>as a lioness.<br>Who will rouse him up?<br>
+<sup>10</sup> The scepter will not depart from Judah,<br>nor the ruler’s staff from between his feet,<br>until he comes to whom it belongs.<br>The obedience of the peoples will be to him.<br>
+<sup>11</sup> Binding his foal to the vine,<br>his donkey’s colt to the choice vine,<br>he has washed his garments in wine,<br>his robes in the blood of grapes.<br>
+<sup>12</sup> His eyes will be red with wine,<br>his teeth white with milk.
 
-<sup>13</sup> “Zebulun will dwell at the haven of the sea. <br>He will be for a haven of ships. <br>His border will be on Sidon.
+<sup>13</sup> “Zebulun will dwell at the haven of the sea.<br>He will be for a haven of ships.<br>His border will be on Sidon.
 
-<sup>14</sup> “Issachar is a strong donkey, <br>lying down between the saddlebags. <br>
-<sup>15</sup> He saw a resting place, that it was good, <br>the land, that it was pleasant. <br>He bows his shoulder to the burden, <br>and becomes a servant doing forced labor.
+<sup>14</sup> “Issachar is a strong donkey,<br>lying down between the saddlebags.<br>
+<sup>15</sup> He saw a resting place, that it was good,<br>the land, that it was pleasant.<br>He bows his shoulder to the burden,<br>and becomes a servant doing forced labor.
 
-<sup>16</sup> “Dan will judge his people, <br>as one of the tribes of Israel. <br>
-<sup>17</sup> Dan will be a serpent on the trail, <br>an adder in the path, <br>that bites the horse’s heels, <br>so that his rider falls backward. <br>
+<sup>16</sup> “Dan will judge his people,<br>as one of the tribes of Israel.<br>
+<sup>17</sup> Dan will be a serpent on the trail,<br>an adder in the path,<br>that bites the horse’s heels,<br>so that his rider falls backward.<br>
 <sup>18</sup> I have waited for your salvation, Yahweh.
 
-<sup>19</sup> “A troop will press on Gad, <br>but he will press on their heel.
+<sup>19</sup> “A troop will press on Gad,<br>but he will press on their heel.
 
-<sup>20</sup> “Asher’s food will be rich. <br>He will produce royal dainties.
+<sup>20</sup> “Asher’s food will be rich.<br>He will produce royal dainties.
 
-<sup>21</sup> “Naphtali is a doe set free, <br>who bears beautiful fawns.
+<sup>21</sup> “Naphtali is a doe set free,<br>who bears beautiful fawns.
 
-<sup>22</sup> “Joseph is a fruitful vine, <br>a fruitful vine by a spring. <br>His branches run over the wall. <br>
-<sup>23</sup> The archers have severely grieved him, <br>shot at him, and persecuted him: <br>
-<sup>24</sup> But his bow remained strong. <br>The arms of his hands were made strong, <br>by the hands of the Mighty One of Jacob, <br>(from there is the shepherd, the stone of Israel), <br>
-<sup>25</sup> even by the God of your father, who will help you, <br>by the Almighty, who will bless you, <br>with blessings of heaven above, <br>blessings of the deep that lies below, <br>blessings of the breasts, and of the womb. <br>
-<sup>26</sup> The blessings of your father have prevailed above the blessings of my ancestors, <br>above the boundaries of the ancient hills. <br>They will be on the head of Joseph, <br>on the crown of the head of him who is separated from his brothers.
+<sup>22</sup> “Joseph is a fruitful vine,<br>a fruitful vine by a spring.<br>His branches run over the wall.<br>
+<sup>23</sup> The archers have severely grieved him,<br>shot at him, and persecuted him:<br>
+<sup>24</sup> But his bow remained strong.<br>The arms of his hands were made strong,<br>by the hands of the Mighty One of Jacob,<br>(from there is the shepherd, the stone of Israel),<br>
+<sup>25</sup> even by the God of your father, who will help you,<br>by the Almighty, who will bless you,<br>with blessings of heaven above,<br>blessings of the deep that lies below,<br>blessings of the breasts, and of the womb.<br>
+<sup>26</sup> The blessings of your father have prevailed above the blessings of my ancestors,<br>above the boundaries of the ancient hills.<br>They will be on the head of Joseph,<br>on the crown of the head of him who is separated from his brothers.
 
-<sup>27</sup> “Benjamin is a ravenous wolf. <br>In the morning he will devour the prey. <br>At evening he will divide the plunder.”
+<sup>27</sup> “Benjamin is a ravenous wolf.<br>In the morning he will devour the prey.<br>At evening he will divide the plunder.”
 
 <sup>28</sup> All these are the twelve tribes of Israel, and this is what their father spoke to them, and blessed them. He blessed everyone according to his own blessing.
 <sup>29</sup> He instructed them, and said to them, “I am to be gathered to my people. Bury me with my fathers in the cave that is in the field of Ephron the Hittite,

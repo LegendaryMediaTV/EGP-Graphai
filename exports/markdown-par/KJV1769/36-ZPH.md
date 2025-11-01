@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> The word of the LORD which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hizkiah, in the days of Josiah the son of Amon, king of Judah.
-<sup>2</sup> I will utterly consume all [things] from off the land , saith the LORD.
+<sup>2</sup> I will utterly consume all [things] from off the land, saith the LORD.
 <sup>3</sup> I will consume man and beast; I will consume the fowls of the heaven, and the fishes of the sea, and the stumblingblocks with the wicked; and I will cut off man from off the land, saith the LORD.
 <sup>4</sup> I will also stretch out mine hand upon Judah, and upon all the inhabitants of Jerusalem; and I will cut off the remnant of Baal from this place, [and] the name of the Chemarims with the priests;
 <sup>5</sup> And them that worship the host of heaven upon the housetops; and them that worship [and] that swear by the LORD, and that swear by Malcham;
@@ -26,9 +26,9 @@
 <sup>4</sup> For Gaza shall be forsaken, and Ashkelon a desolation: they shall drive out Ashdod at the noon day, and Ekron shall be rooted up.
 <sup>5</sup> Woe unto the inhabitants of the sea coast, the nation of the Cherethites! the word of the LORD [is] against you; O Canaan, the land of the Philistines, I will even destroy thee, that there shall be no inhabitant.
 <sup>6</sup> And the sea coast shall be dwellings [and] cottages for shepherds, and folds for flocks.
-<sup>7</sup> And the coast shall be for the remnant of the house of Judah; they shall feed thereupon: in the houses of Ashkelon shall they lie down in the evening: for the LORD their God shall visit them, and turn away their captivity .
+<sup>7</sup> And the coast shall be for the remnant of the house of Judah; they shall feed thereupon: in the houses of Ashkelon shall they lie down in the evening: for the LORD their God shall visit them, and turn away their captivity.
 <sup>8</sup> I have heard the reproach of Moab, and the revilings of the children of Ammon, whereby they have reproached my people, and magnified [themselves] against their border.
-<sup>9</sup> Therefore [as] I live, saith the LORD of hosts, the God of Israel, Surely Moab shall be as Sodom, and the children of Ammon as Gomorrah, [even] the breeding of nettles, and saltpits , and a perpetual desolation: the residue of my people shall spoil them, and the remnant of my people shall possess them.
+<sup>9</sup> Therefore [as] I live, saith the LORD of hosts, the God of Israel, Surely Moab shall be as Sodom, and the children of Ammon as Gomorrah, [even] the breeding of nettles, and saltpits, and a perpetual desolation: the residue of my people shall spoil them, and the remnant of my people shall possess them.
 <sup>10</sup> This shall they have for their pride, because they have reproached and magnified [themselves] against the people of the LORD of hosts.
 <sup>11</sup> The LORD [will be] terrible unto them: for he will famish all the gods of the earth; and [men] shall worship him, every one from his place, [even] all the isles of the heathen.
 <sup>12</sup> Ye Ethiopians also, ye [shall be] slain by my sword.

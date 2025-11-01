@@ -29,20 +29,20 @@
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 6. or, gods
 > - <sup>c</sup> 6. or, gods
-> - <sup>d</sup> 9. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>d</sup> 9. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 2
 
 <sup>1</sup> Then Jonah prayed to Yahweh, his God, out of the fish’s belly.
-<sup>2</sup> He said, <br>“I called because of my affliction to Yahweh. <br>He answered me. <br>Out of the belly of Sheol<sup>a</sup> I cried. <br>You heard my voice. <br>
-<sup>3</sup> For you threw me into the depths, <br>in the heart of the seas. <br>The flood was all around me. <br>All your waves and your billows passed over me. <br>
-<sup>4</sup> I said, ‘I have been banished from your sight; <br>yet I will look again toward your holy temple.’ <br>
-<sup>5</sup> The waters surrounded me, <br>even to the soul. <br>The deep was around me. <br>The weeds were wrapped around my head. <br>
-<sup>6</sup> I went down to the bottoms of the mountains. <br>The earth barred me in forever; <br>yet you have brought my life up from the pit, Yahweh my God.
+<sup>2</sup> He said,<br>“I called because of my affliction to Yahweh.<br>He answered me.<br>Out of the belly of Sheol<sup>a</sup> I cried.<br>You heard my voice.<br>
+<sup>3</sup> For you threw me into the depths,<br>in the heart of the seas.<br>The flood was all around me.<br>All your waves and your billows passed over me.<br>
+<sup>4</sup> I said, ‘I have been banished from your sight;<br>yet I will look again toward your holy temple.’<br>
+<sup>5</sup> The waters surrounded me,<br>even to the soul.<br>The deep was around me.<br>The weeds were wrapped around my head.<br>
+<sup>6</sup> I went down to the bottoms of the mountains.<br>The earth barred me in forever;<br>yet you have brought my life up from the pit, Yahweh my God.
 
-<sup>7</sup> “When my soul fainted within me, I remembered Yahweh. <br>My prayer came in to you, into your holy temple. <br>
-<sup>8</sup> Those who regard vain idols forsake their own mercy. <br>
-<sup>9</sup> But I will sacrifice to you with the voice of thanksgiving. <br>I will pay that which I have vowed. <br>Salvation belongs to Yahweh.”
+<sup>7</sup> “When my soul fainted within me, I remembered Yahweh.<br>My prayer came in to you, into your holy temple.<br>
+<sup>8</sup> Those who regard vain idols forsake their own mercy.<br>
+<sup>9</sup> But I will sacrifice to you with the voice of thanksgiving.<br>I will pay that which I have vowed.<br>Salvation belongs to Yahweh.”
 
 <sup>10</sup> Then Yahweh spoke to the fish, and it vomited out Jonah on the dry land.
 

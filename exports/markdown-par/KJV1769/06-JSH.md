@@ -14,13 +14,13 @@
 <sup>12</sup> And to the Reubenites, and to the Gadites, and to half the tribe of Manasseh, spake Joshua, saying,
 <sup>13</sup> Remember the word which Moses the servant of the LORD commanded you, saying, The LORD your God hath given you rest, and hath given you this land.
 <sup>14</sup> Your wives, your little ones, and your cattle, shall remain in the land which Moses gave you on this side Jordan; but ye shall pass before your brethren armed, all the mighty men of valour, and help them;
-<sup>15</sup> Until the LORD have given your brethren rest, as [he hath given] you, and they also have possessed the land which the LORD your God giveth them: then ye shall return unto the land of your possession, and enjoy it, which Moses the LORD’S servant gave you on this side Jordan toward the sunrising .
+<sup>15</sup> Until the LORD have given your brethren rest, as [he hath given] you, and they also have possessed the land which the LORD your God giveth them: then ye shall return unto the land of your possession, and enjoy it, which Moses the LORD’S servant gave you on this side Jordan toward the sunrising.
 <sup>16</sup> And they answered Joshua, saying, All that thou commandest us we will do, and whithersoever thou sendest us, we will go.
 <sup>17</sup> According as we hearkened unto Moses in all things, so will we hearken unto thee: only the LORD thy God be with thee, as he was with Moses.
 <sup>18</sup> Whosoever [he be] that doth rebel against thy commandment, and will not hearken unto thy words in all that thou commandest him, he shall be put to death: only be strong and of a good courage.
 ## Chapter 2
 
-<sup>1</sup> And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot’s house , named Rahab, and lodged there.
+<sup>1</sup> And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot’s house, named Rahab, and lodged there.
 <sup>2</sup> And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country.
 <sup>3</sup> And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country.
 <sup>4</sup> And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they [were]:
@@ -49,7 +49,7 @@
 <sup>1</sup> And Joshua rose early in the morning; and they removed from Shittim, and came to Jordan, he and all the children of Israel, and lodged there before they passed over.
 <sup>2</sup> And it came to pass after three days, that the officers went through the host;
 <sup>3</sup> And they commanded the people, saying, When ye see the ark of the covenant of the LORD your God, and the priests the Levites bearing it, then ye shall remove from your place, and go after it.
-<sup>4</sup> Yet there shall be a space between you and it, about two thousand cubits by measure: come not near unto it, that ye may know the way by which ye must go: for ye have not passed [this] way heretofore .
+<sup>4</sup> Yet there shall be a space between you and it, about two thousand cubits by measure: come not near unto it, that ye may know the way by which ye must go: for ye have not passed [this] way heretofore.
 <sup>5</sup> And Joshua said unto the people, Sanctify yourselves: for to morrow the LORD will do wonders among you.
 <sup>6</sup> And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people.
 <sup>7</sup> And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, [so] I will be with thee.
@@ -110,7 +110,7 @@
 
 <sup>1</sup> Now Jericho was straitly shut up because of the children of Israel: none went out, and none came in.
 <sup>2</sup> And the LORD said unto Joshua, See, I have given into thine hand Jericho, and the king thereof, [and] the mighty men of valour.
-<sup>3</sup> And ye shall compass the city, all [ye] men of war, [and] go round about the city once . Thus shalt thou do six days.
+<sup>3</sup> And ye shall compass the city, all [ye] men of war, [and] go round about the city once. Thus shalt thou do six days.
 <sup>4</sup> And seven priests shall bear before the ark seven trumpets of rams’ horns: and the seventh day ye shall compass the city seven times, and the priests shall blow with the trumpets.
 <sup>5</sup> And it shall come to pass, that when they make a long [blast] with the ram’s horn, [and] when ye hear the sound of the trumpet, all the people shall shout with a great shout; and the wall of the city shall fall down flat, and the people shall ascend up every man straight before him.
 <sup>6</sup> And Joshua the son of Nun called the priests, and said unto them, Take up the ark of the covenant, and let seven priests bear seven trumpets of rams’ horns before the ark of the LORD.
@@ -118,10 +118,10 @@
 <sup>8</sup> And it came to pass, when Joshua had spoken unto the people, that the seven priests bearing the seven trumpets of rams’ horns passed on before the LORD, and blew with the trumpets: and the ark of the covenant of the LORD followed them.
 <sup>9</sup> And the armed men went before the priests that blew (8675) with the trumpets, and the rereward came after the ark, [the priests] going on, and blowing with the trumpets.
 <sup>10</sup> And Joshua had commanded the people, saying, Ye shall not shout, nor make any noise with your voice, neither shall [any] word proceed out of your mouth, until the day I bid you shout; then shall ye shout.
-<sup>11</sup> So the ark of the LORD compassed the city, going about [it] once : and they came into the camp, and lodged in the camp.
+<sup>11</sup> So the ark of the LORD compassed the city, going about [it] once: and they came into the camp, and lodged in the camp.
 <sup>12</sup> And Joshua rose early in the morning, and the priests took up the ark of the LORD.
 <sup>13</sup> And seven priests bearing seven trumpets of rams’ horns before the ark of the LORD went on continually, and blew with the trumpets: and the armed men went before them; but the rereward came after the ark of the LORD, [the priests] going on, and blowing with the trumpets.
-<sup>14</sup> And the second day they compassed the city once , and returned into the camp: so they did six days.
+<sup>14</sup> And the second day they compassed the city once, and returned into the camp: so they did six days.
 <sup>15</sup> And it came to pass on the seventh day, that they rose early about the dawning of the day, and compassed the city after the same manner seven times: only on that day they compassed the city seven times.
 <sup>16</sup> And it came to pass at the seventh time, when the priests blew with the trumpets, Joshua said unto the people, Shout; for the LORD hath given you the city.
 <sup>17</sup> And the city shall be accursed, [even] it, and all that [are] therein, to the LORD: only Rahab the harlot shall live, she and all that [are] with her in the house, because she hid the messengers that we sent.
@@ -176,7 +176,7 @@
 <sup>9</sup> Joshua therefore sent them forth: and they went to lie in ambush, and abode between Bethel and Ai, on the west side of Ai: but Joshua lodged that night among the people.
 <sup>10</sup> And Joshua rose up early in the morning, and numbered the people, and went up, he and the elders of Israel, before the people to Ai.
 <sup>11</sup> And all the people, [even the people] of war that [were] with him, went up, and drew nigh, and came before the city, and pitched on the north side of Ai: now [there was] a valley between them and Ai.
-<sup>12</sup> And he took about five thousand men, and set them to lie in ambush between Bethel and Ai, on the west side of the city .
+<sup>12</sup> And he took about five thousand men, and set them to lie in ambush between Bethel and Ai, on the west side of the city.
 <sup>13</sup> And when they had set the people, [even] all the host that [was] on the north of the city, and their liers in wait on the west of the city, Joshua went that night into the midst of the valley.
 <sup>14</sup> And it came to pass, when the king of Ai saw [it], that they hasted and rose up early, and the men of the city went out against Israel to battle, he and all his people, at a time appointed, before the plain; but he wist not that [there were] liers in ambush against him behind the city.
 <sup>15</sup> And Joshua and all Israel made as if they were beaten before them, and fled by the way of the wilderness.
@@ -193,7 +193,7 @@
 <sup>26</sup> For Joshua drew not his hand back, wherewith he stretched out the spear, until he had utterly destroyed all the inhabitants of Ai.
 <sup>27</sup> Only the cattle and the spoil of that city Israel took for a prey unto themselves, according unto the word of the LORD which he commanded Joshua.
 <sup>28</sup> And Joshua burnt Ai, and made it an heap for ever, [even] a desolation unto this day.
-<sup>29</sup> And the king of Ai he hanged on a tree until eventide : and as soon as the sun was down, Joshua commanded that they should take his carcase down from the tree, and cast it at the entering of the gate of the city, and raise thereon a great heap of stones, [that remaineth] unto this day.
+<sup>29</sup> And the king of Ai he hanged on a tree until eventide: and as soon as the sun was down, Joshua commanded that they should take his carcase down from the tree, and cast it at the entering of the gate of the city, and raise thereon a great heap of stones, [that remaineth] unto this day.
 <sup>30</sup> Then Joshua built an altar unto the LORD God of Israel in mount Ebal,
 <sup>31</sup> As Moses the servant of the LORD commanded the children of Israel, as it is written in the book of the law of Moses, an altar of whole stones, over which no man hath lift up [any] iron: and they offered thereon burnt offerings unto the LORD, and sacrificed peace offerings.
 <sup>32</sup> And he wrote there upon the stones a copy of the law of Moses, which he wrote in the presence of the children of Israel.
@@ -303,7 +303,7 @@
 
 <sup>1</sup> Now these [are] the kings of the land, which the children of Israel smote, and possessed their land on the other side Jordan toward the rising of the sun, from the river Arnon unto mount Hermon, and all the plain on the east:
 <sup>2</sup> Sihon king of the Amorites, who dwelt in Heshbon, [and] ruled from Aroer, which [is] upon the bank of the river Arnon, and from the middle of the river, and from half Gilead, even unto the river Jabbok, [which is] the border of the children of Ammon;
-<sup>3</sup> And from the plain to the sea of Chinneroth on the east, and unto the sea of the plain, [even] the salt sea on the east, the way to Bethjeshimoth; and from the south, under Ashdothpisgah :
+<sup>3</sup> And from the plain to the sea of Chinneroth on the east, and unto the sea of the plain, [even] the salt sea on the east, the way to Bethjeshimoth; and from the south, under Ashdothpisgah:
 <sup>4</sup> And the coast of Og king of Bashan, [which was] of the remnant of the giants, that dwelt at Ashtaroth and at Edrei,
 <sup>5</sup> And reigned in mount Hermon, and in Salcah, and in all Bashan, unto the border of the Geshurites and the Maachathites, and half Gilead, the border of Sihon king of Heshbon.
 <sup>6</sup> Them did Moses the servant of the LORD and the children of Israel smite: and Moses the servant of the LORD gave it [for] a possession unto the Reubenites, and the Gadites, and the half tribe of Manasseh.
@@ -331,7 +331,7 @@
 <sup>2</sup> This [is] the land that yet remaineth: all the borders of the Philistines, and all Geshuri,
 <sup>3</sup> From Sihor, which [is] before Egypt, even unto the borders of Ekron northward, [which] is counted to the Canaanite: five lords of the Philistines; the Gazathites, and the Ashdothites, the Eshkalonites, the Gittites, and the Ekronites; also the Avites:
 <sup>4</sup> From the south, all the land of the Canaanites, and Mearah that [is] beside the Sidonians, unto Aphek, to the borders of the Amorites:
-<sup>5</sup> And the land of the Giblites, and all Lebanon, toward the sunrising , from Baalgad under mount Hermon unto the entering into Hamath.
+<sup>5</sup> And the land of the Giblites, and all Lebanon, toward the sunrising, from Baalgad under mount Hermon unto the entering into Hamath.
 <sup>6</sup> All the inhabitants of the hill country from Lebanon unto Misrephothmaim, [and] all the Sidonians, them will I drive out from before the children of Israel: only divide thou it by lot unto the Israelites for an inheritance, as I have commanded thee.
 <sup>7</sup> Now therefore divide this land for an inheritance unto the nine tribes, and the half tribe of Manasseh,
 <sup>8</sup> With whom the Reubenites and the Gadites have received their inheritance, which Moses gave them, beyond Jordan eastward, [even] as Moses the servant of the LORD gave them;
@@ -346,7 +346,7 @@
 <sup>17</sup> Heshbon, and all her cities that [are] in the plain; Dibon, and Bamothbaal, and Bethbaalmeon,
 <sup>18</sup> And Jahazah, and Kedemoth, and Mephaath,
 <sup>19</sup> And Kirjathaim, and Sibmah, and Zarethshahar in the mount of the valley,
-<sup>20</sup> And Bethpeor, and Ashdothpisgah , and Bethjeshimoth,
+<sup>20</sup> And Bethpeor, and Ashdothpisgah, and Bethjeshimoth,
 <sup>21</sup> And all the cities of the plain, and all the kingdom of Sihon king of the Amorites, which reigned in Heshbon, whom Moses smote with the princes of Midian, Evi, and Rekem, and Zur, and Hur, and Reba, [which were] dukes of Sihon, dwelling in the country.
 <sup>22</sup> Balaam also the son of Beor, the soothsayer, did the children of Israel slay with the sword among them that were slain by them.
 <sup>23</sup> And the border of the children of Reuben was Jordan, and the border [thereof]. This [was] the inheritance of the children of Reuben after their families, the cities and the villages thereof.
@@ -539,7 +539,7 @@
 <sup>31</sup> This [is] the inheritance of the tribe of the children of Asher according to their families, these cities with their villages.
 <sup>32</sup> The sixth lot came out to the children of Naphtali, [even] for the children of Naphtali according to their families.
 <sup>33</sup> And their coast was from Heleph, from Allon to Zaanannim, and Adami, Nekeb, and Jabneel, unto Lakum; and the outgoings thereof were at Jordan:
-<sup>34</sup> And [then] the coast turneth westward to Aznothtabor, and goeth out from thence to Hukkok, and reacheth to Zebulun on the south side, and reacheth to Asher on the west side, and to Judah upon Jordan toward the sunrising .
+<sup>34</sup> And [then] the coast turneth westward to Aznothtabor, and goeth out from thence to Hukkok, and reacheth to Zebulun on the south side, and reacheth to Asher on the west side, and to Judah upon Jordan toward the sunrising.
 <sup>35</sup> And the fenced cities [are] Ziddim, Zer, and Hammath, Rakkath, and Chinnereth,
 <sup>36</sup> And Adamah, and Ramah, and Hazor,
 <sup>37</sup> And Kedesh, and Edrei, and Enhazor,
@@ -563,7 +563,7 @@
 <sup>2</sup> Speak to the children of Israel, saying, Appoint out for you cities of refuge, whereof I spake unto you by the hand of Moses:
 <sup>3</sup> That the slayer that killeth [any] person unawares [and] unwittingly may flee thither: and they shall be your refuge from the avenger of blood.
 <sup>4</sup> And when he that doth flee unto one of those cities shall stand at the entering of the gate of the city, and shall declare his cause in the ears of the elders of that city, they shall take him into the city unto them, and give him a place, that he may dwell among them.
-<sup>5</sup> And if the avenger of blood pursue after him, then they shall not deliver the slayer up into his hand; because he smote his neighbour unwittingly , and hated him not beforetime .
+<sup>5</sup> And if the avenger of blood pursue after him, then they shall not deliver the slayer up into his hand; because he smote his neighbour unwittingly, and hated him not beforetime.
 <sup>6</sup> And he shall dwell in that city, until he stand before the congregation for judgment, [and] until the death of the high priest that shall be in those days: then shall the slayer return, and come unto his own city, and unto his own house, unto the city from whence he fled.
 <sup>7</sup> And they appointed Kedesh in Galilee in mount Naphtali, and Shechem in mount Ephraim, and Kirjatharba, which [is] Hebron, in the mountain of Judah.
 <sup>8</sup> And on the other side Jordan by Jericho eastward, they assigned Bezer in the wilderness upon the plain out of the tribe of Reuben, and Ramoth in Gilead out of the tribe of Gad, and Golan in Bashan out of the tribe of Manasseh.
@@ -656,7 +656,7 @@
 <sup>1</sup> And it came to pass a long time after that the LORD had given rest unto Israel from all their enemies round about, that Joshua waxed old [and] stricken in age.
 <sup>2</sup> And Joshua called for all Israel, [and] for their elders, and for their heads, and for their judges, and for their officers, and said unto them, I am old [and] stricken in age:
 <sup>3</sup> And ye have seen all that the LORD your God hath done unto all these nations because of you; for the LORD your God [is] he that hath fought for you.
-<sup>4</sup> Behold, I have divided unto you by lot these nations that remain, to be an inheritance for your tribes, from Jordan, with all the nations that I have cut off, even unto the great sea westward .
+<sup>4</sup> Behold, I have divided unto you by lot these nations that remain, to be an inheritance for your tribes, from Jordan, with all the nations that I have cut off, even unto the great sea westward.
 <sup>5</sup> And the LORD your God, he shall expel them from before you, and drive them from out of your sight; and ye shall possess their land, as the LORD your God hath promised unto you.
 <sup>6</sup> Be ye therefore very courageous to keep and to do all that is written in the book of the law of Moses, that ye turn not aside therefrom [to] the right hand or [to] the left;
 <sup>7</sup> That ye come not among these nations, these that remain among you; neither make mention of the name of their gods, nor cause to swear [by them], neither serve them, nor bow yourselves unto them:

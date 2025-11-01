@@ -865,10 +865,10 @@
 <sup>35</sup> Jesus therefore said to them, “Yet a little while the light is with you. Walk while you have the light, that darkness doesn’t overtake you. He who walks in the darkness doesn’t know where he is going.
 <sup>36</sup> While you have the light, believe in the light, that you may become children of light.” Jesus said these things, and he departed and hid himself from them.
 <sup>37</sup> But though he had done so many signs before them, yet they didn’t believe in him,
-<sup>38</sup> that the word of Isaiah the prophet might be fulfilled, which he spoke: <br>“Lord, who has believed our report? <br>To whom has the arm of the Lord been revealed?”<sup>g</sup>
+<sup>38</sup> that the word of Isaiah the prophet might be fulfilled, which he spoke:<br>“Lord, who has believed our report?<br>To whom has the arm of the Lord been revealed?”<sup>g</sup>
 
-<sup>39</sup> For this cause they couldn’t believe, for Isaiah said again: <br>
-<sup>40</sup> “He has blinded their eyes and he hardened their heart, <br>lest they should see with their eyes, <br>and perceive with their heart, <br>and would turn, <br>and I would heal them.”<sup>h</sup>
+<sup>39</sup> For this cause they couldn’t believe, for Isaiah said again:<br>
+<sup>40</sup> “He has blinded their eyes and he hardened their heart,<br>lest they should see with their eyes,<br>and perceive with their heart,<br>and would turn,<br>and I would heal them.”<sup>h</sup>
 
 <sup>41</sup> Isaiah said these things when he saw his glory, and spoke of him.<sup>i</sup>
 <sup>42</sup> Nevertheless, even many of the rulers believed in him, but because of the Pharisees they didn’t confess it, so that they wouldn’t be put out of the synagogue,
@@ -1216,7 +1216,7 @@
 <sup>22</sup> Pilate answered, “What I have written, I have written.”
 
 <sup>23</sup> Then the soldiers, when they had crucified Jesus, took his garments and made four parts, to every soldier a part; and also the tunic. Now the tunic was without seam, woven from the top throughout.
-<sup>24</sup> Then they said to one another, “Let’s not tear it, but cast lots for it to decide whose it will be,” that the Scripture might be fulfilled, which says, <br>“They parted my garments among them. <br>They cast lots for my clothing.”<sup>b</sup>
+<sup>24</sup> Then they said to one another, “Let’s not tear it, but cast lots for it to decide whose it will be,” that the Scripture might be fulfilled, which says,<br>“They parted my garments among them.<br>They cast lots for my clothing.”<sup>b</sup>
 
 <sup>25</sup> But standing by Jesus’ cross were his mother, his mother’s sister, Mary the wife of Clopas, and Mary Magdalene.
 <sup>26</sup> Therefore when Jesus saw his mother, and the disciple whom he loved standing there, he said to his mother, “Woman, behold, your son!”

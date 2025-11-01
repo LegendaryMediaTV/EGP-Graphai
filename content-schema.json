@@ -15,7 +15,6 @@
       "properties": {
         "text": {
           "type": "string",
-          "minLength": 1,
           "description": "Plain text."
         },
         "script": {

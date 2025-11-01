@@ -98,7 +98,7 @@
 <sup>6</sup> Although affliction cometh not forth of the dust, neither doth trouble spring out of the ground;
 <sup>7</sup> Yet man is born unto trouble, as the sparks fly upward.
 <sup>8</sup> I would seek unto God, and unto God would I commit my cause:
-<sup>9</sup> Which doeth great things and unsearchable ; marvellous things without number:
+<sup>9</sup> Which doeth great things and unsearchable; marvellous things without number:
 <sup>10</sup> Who giveth rain upon the earth, and sendeth waters upon the fields:
 <sup>11</sup> To set up on high those that be low; that those which mourn may be exalted to safety.
 <sup>12</sup> He disappointeth the devices of the crafty, so that their hands cannot perform [their] enterprise.
@@ -227,7 +227,7 @@
 <sup>27</sup> If I say, I will forget my complaint, I will leave off my heaviness, and comfort [myself]:
 <sup>28</sup> I am afraid of all my sorrows, I know that thou wilt not hold me innocent.
 <sup>29</sup> [If] I be wicked, why then labour I in vain?
-<sup>30</sup> If I wash myself with snow water , and make my hands never so clean;
+<sup>30</sup> If I wash myself with snow water, and make my hands never so clean;
 <sup>31</sup> Yet shalt thou plunge me in the ditch, and mine own clothes shall abhor me.
 <sup>32</sup> For [he is] not a man, as I [am, that] I should answer him, [and] we should come together in judgment.
 <sup>33</sup> Neither is there any daysman betwixt us, [that] might lay his hand upon us both.
@@ -278,7 +278,7 @@
 <sup>17</sup> And [thine] age shall be clearer than the noonday; thou shalt shine forth, thou shalt be as the morning.
 <sup>18</sup> And thou shalt be secure, because there is hope; yea, thou shalt dig [about thee, and] thou shalt take thy rest in safety.
 <sup>19</sup> Also thou shalt lie down, and none shall make [thee] afraid; yea, many shall make suit unto thee.
-<sup>20</sup> But the eyes of the wicked shall fail, and they shall not escape , and their hope [shall be as] the giving up of the ghost.
+<sup>20</sup> But the eyes of the wicked shall fail, and they shall not escape, and their hope [shall be as] the giving up of the ghost.
 ## Chapter 12
 
 <sup>1</sup> And Job answered and said,
@@ -290,7 +290,7 @@
 <sup>7</sup> But ask now the beasts, and they shall teach thee; and the fowls of the air, and they shall tell thee:
 <sup>8</sup> Or speak to the earth, and it shall teach thee: and the fishes of the sea shall declare unto thee.
 <sup>9</sup> Who knoweth not in all these that the hand of the LORD hath wrought this?
-<sup>10</sup> In whose hand [is] the soul of every living thing, and the breath of all mankind .
+<sup>10</sup> In whose hand [is] the soul of every living thing, and the breath of all mankind.
 <sup>11</sup> Doth not the ear try words? and the mouth taste his meat?
 <sup>12</sup> With the ancient [is] wisdom; and in length of days understanding.
 <sup>13</sup> With him [is] wisdom and strength, he hath counsel and understanding.
@@ -419,7 +419,7 @@
 <sup>18</sup> O earth, cover not thou my blood, and let my cry have no place.
 <sup>19</sup> Also now, behold, my witness [is] in heaven, and my record [is] on high.
 <sup>20</sup> My friends scorn me: [but] mine eye poureth out [tears] unto God.
-<sup>21</sup> O that one might plead for a man with God, as a man [pleadeth] for his neighbour !
+<sup>21</sup> O that one might plead for a man with God, as a man [pleadeth] for his neighbour!
 <sup>22</sup> When a few years are come, then I shall go the way [whence] I shall not return.
 ## Chapter 17
 
@@ -457,10 +457,10 @@
 <sup>14</sup> His confidence shall be rooted out of his tabernacle, and it shall bring him to the king of terrors.
 <sup>15</sup> It shall dwell in his tabernacle, because [it is] none of his: brimstone shall be scattered upon his habitation.
 <sup>16</sup> His roots shall be dried up beneath, and above shall his branch be cut off.
-<sup>17</sup> His remembrance shall perish from the earth, and he shall have no name in the street .
+<sup>17</sup> His remembrance shall perish from the earth, and he shall have no name in the street.
 <sup>18</sup> He shall be driven from light into darkness, and chased out of the world.
 <sup>19</sup> He shall neither have son nor nephew among his people, nor any remaining in his dwellings.
-<sup>20</sup> They that come after [him] shall be astonied at his day, as they that went before were affrighted .
+<sup>20</sup> They that come after [him] shall be astonied at his day, as they that went before were affrighted.
 <sup>21</sup> Surely such [are] the dwellings of the wicked, and this [is] the place [of him that] knoweth not God.
 ## Chapter 19
 
@@ -492,7 +492,7 @@
 <sup>26</sup> And [though] after my skin [worms] destroy this [body], yet in my flesh shall I see God:
 <sup>27</sup> Whom I shall see for myself, and mine eyes shall behold, and not another; [though] my reins be consumed within me.
 <sup>28</sup> But ye should say, Why persecute we him, seeing the root of the matter is found in me?
-<sup>29</sup> Be ye afraid of the sword: for wrath [bringeth] the punishments of the sword, that ye may know [there is] a judgment .
+<sup>29</sup> Be ye afraid of the sword: for wrath [bringeth] the punishments of the sword, that ye may know [there is] a judgment.
 ## Chapter 20
 
 <sup>1</sup> Then answered Zophar the Naamathite, and said,
@@ -630,7 +630,7 @@
 <sup>15</sup> The eye also of the adulterer waiteth for the twilight, saying, No eye shall see me: and disguiseth [his] face.
 <sup>16</sup> In the dark they dig through houses, [which] they had marked for themselves in the daytime: they know not the light.
 <sup>17</sup> For the morning [is] to them even as the shadow of death: if [one] know [them, they are in] the terrors of the shadow of death.
-<sup>18</sup> He [is] swift as the waters ; their portion is cursed in the earth: he beholdeth not the way of the vineyards.
+<sup>18</sup> He [is] swift as the waters; their portion is cursed in the earth: he beholdeth not the way of the vineyards.
 <sup>19</sup> Drought and heat consume the snow waters: [so doth] the grave [those which] have sinned.
 <sup>20</sup> The womb shall forget him; the worm shall feed sweetly on him; he shall be no more remembered; and wickedness shall be broken as a tree.
 <sup>21</sup> He evil entreateth the barren [that] beareth not: and doeth not good to the widow.
@@ -758,7 +758,7 @@
 <sup>10</sup> They abhor me, they flee far from me, and spare not to spit in my face.
 <sup>11</sup> Because he hath loosed my cord, and afflicted me, they have also let loose the bridle before me.
 <sup>12</sup> Upon [my] right [hand] rise the youth; they push away my feet, and they raise up against me the ways of their destruction.
-<sup>13</sup> They mar my path, they set forward my calamity , they have no helper.
+<sup>13</sup> They mar my path, they set forward my calamity, they have no helper.
 <sup>14</sup> They came [upon me] as a wide breaking in [of waters]: in the desolation they rolled themselves [upon me].
 <sup>15</sup> Terrors are turned upon me: they pursue my soul as the wind: and my welfare passeth away as a cloud.
 <sup>16</sup> And now my soul is poured out upon me; the days of affliction have taken hold upon me.
@@ -767,14 +767,14 @@
 <sup>19</sup> He hath cast me into the mire, and I am become like dust and ashes.
 <sup>20</sup> I cry unto thee, and thou dost not hear me: I stand up, and thou regardest me [not].
 <sup>21</sup> Thou art become cruel to me: with thy strong hand thou opposest thyself against me.
-<sup>22</sup> Thou liftest me up to the wind; thou causest me to ride [upon it], and dissolvest my substance .
+<sup>22</sup> Thou liftest me up to the wind; thou causest me to ride [upon it], and dissolvest my substance.
 <sup>23</sup> For I know [that] thou wilt bring me [to] death, and [to] the house appointed for all living.
 <sup>24</sup> Howbeit he will not stretch out [his] hand to the grave, though they cry in his destruction.
-<sup>25</sup> Did not I weep for him that was in trouble ? was [not] my soul grieved for the poor?
+<sup>25</sup> Did not I weep for him that was in trouble? was [not] my soul grieved for the poor?
 <sup>26</sup> When I looked for good, then evil came [unto me]: and when I waited for light, there came darkness.
 <sup>27</sup> My bowels boiled, and rested not: the days of affliction prevented me.
 <sup>28</sup> I went mourning without the sun: I stood up, [and] I cried in the congregation.
-<sup>29</sup> I am a brother to dragons, and a companion to owls .
+<sup>29</sup> I am a brother to dragons, and a companion to owls.
 <sup>30</sup> My skin is black upon me, and my bones are burned with heat.
 <sup>31</sup> My harp also is [turned] to mourning, and my organ into the voice of them that weep.
 ## Chapter 31
@@ -826,7 +826,7 @@
 <sup>3</sup> Also against his three friends was his wrath kindled, because they had found no answer, and [yet] had condemned Job.
 <sup>4</sup> Now Elihu had waited till Job had spoken, because they [were] elder than he.
 <sup>5</sup> When Elihu saw that [there was] no answer in the mouth of [these] three men, then his wrath was kindled.
-<sup>6</sup> And Elihu the son of Barachel the Buzite answered and said, I [am] young , and ye [are] very old; wherefore I was afraid, and durst not shew you mine opinion.
+<sup>6</sup> And Elihu the son of Barachel the Buzite answered and said, I [am] young, and ye [are] very old; wherefore I was afraid, and durst not shew you mine opinion.
 <sup>7</sup> I said, Days should speak, and multitude of years should teach wisdom.
 <sup>8</sup> But [there is] a spirit in man: and the inspiration of the Almighty giveth them understanding.
 <sup>9</sup> Great men are not [always] wise: neither do the aged understand judgment.
@@ -899,7 +899,7 @@
 <sup>17</sup> Shall even he that hateth right govern? and wilt thou condemn him that is most just?
 <sup>18</sup> [Is it fit] to say to a king, [Thou art] wicked? [and] to princes, [Ye are] ungodly?
 <sup>19</sup> [How much less to him] that accepteth not the persons of princes, nor regardeth the rich more than the poor? for they all [are] the work of his hands.
-<sup>20</sup> In a moment shall they die, and the people shall be troubled at midnight , and pass away: and the mighty shall be taken away without hand.
+<sup>20</sup> In a moment shall they die, and the people shall be troubled at midnight, and pass away: and the mighty shall be taken away without hand.
 <sup>21</sup> For his eyes [are] upon the ways of man, and he seeth all his goings.
 <sup>22</sup> [There is] no darkness, nor shadow of death, where the workers of iniquity may hide themselves.
 <sup>23</sup> For he will not lay upon man more [than right]; that he should enter into judgment with God.
@@ -912,7 +912,7 @@
 <sup>30</sup> That the hypocrite reign not, lest the people be ensnared.
 <sup>31</sup> Surely it is meet to be said unto God, I have borne [chastisement], I will not offend [any more]:
 <sup>32</sup> [That which] I see not teach thou me: if I have done iniquity, I will do no more.
-<sup>33</sup> [Should it be] according to thy mind? he will recompense it, whether thou refuse , or whether thou choose; and not I: therefore speak what thou knowest.
+<sup>33</sup> [Should it be] according to thy mind? he will recompense it, whether thou refuse, or whether thou choose; and not I: therefore speak what thou knowest.
 <sup>34</sup> Let men of understanding tell me, and let a wise man hearken unto me.
 <sup>35</sup> Job hath spoken without knowledge, and his words [were] without wisdom.
 <sup>36</sup> My desire [is that] Job may be tried unto the end because of [his] answers for wicked men.
@@ -1110,7 +1110,7 @@
 <sup>9</sup> Behold, the hope of him is in vain: shall not [one] be cast down even at the sight of him?
 <sup>10</sup> None [is so] fierce that dare stir him up (8675): who then is able to stand before me?
 <sup>11</sup> Who hath prevented me, that I should repay [him? whatsoever is] under the whole heaven is mine.
-<sup>12</sup> I will not conceal his parts, nor his power , nor his comely proportion.
+<sup>12</sup> I will not conceal his parts, nor his power, nor his comely proportion.
 <sup>13</sup> Who can discover the face of his garment? [or] who can come [to him] with his double bridle?
 <sup>14</sup> Who can open the doors of his face? his teeth [are] terrible round about.
 <sup>15</sup> [His] scales [are his] pride, shut up together [as with] a close seal.
@@ -1143,7 +1143,7 @@
 <sup>6</sup> Wherefore I abhor [myself], and repent in dust and ashes.
 <sup>7</sup> And it was [so], that after the LORD had spoken these words unto Job, the LORD said to Eliphaz the Temanite, My wrath is kindled against thee, and against thy two friends: for ye have not spoken of me [the thing that is] right, as my servant Job [hath].
 <sup>8</sup> Therefore take unto you now seven bullocks and seven rams, and go to my servant Job, and offer up for yourselves a burnt offering; and my servant Job shall pray for you: for him will I accept: lest I deal with you [after your] folly, in that ye have not spoken of me [the thing which is] right, like my servant Job.
-<sup>9</sup> So Eliphaz the Temanite and Bildad the Shuhite [and] Zophar the Naamathite went, and did according as the LORD commanded them: the LORD also accepted Job .
+<sup>9</sup> So Eliphaz the Temanite and Bildad the Shuhite [and] Zophar the Naamathite went, and did according as the LORD commanded them: the LORD also accepted Job.
 <sup>10</sup> And the LORD turned the captivity of Job, when he prayed for his friends: also the LORD gave Job twice as much as he had before.
 <sup>11</sup> Then came there unto him all his brethren, and all his sisters, and all they that had been of his acquaintance before, and did eat bread with him in his house: and they bemoaned him, and comforted him over all the evil that the LORD had brought upon him: every man also gave him a piece of money, and every one an earring of gold.
 <sup>12</sup> So the LORD blessed the latter end of Job more than his beginning: for he had fourteen thousand sheep, and six thousand camels, and a thousand yoke of oxen, and a thousand she asses.

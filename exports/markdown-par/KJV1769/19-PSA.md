@@ -68,7 +68,7 @@
 <sup>10</sup> Let all mine enemies be ashamed and sore vexed: let them return [and] be ashamed suddenly.
 ## Chapter 7
 
-<sup>1</sup> «Shiggaion of David, which he sang unto the LORD, concerning the words of Cush the Benjamite .» O LORD my God, in thee do I put my trust: save me from all them that persecute me, and deliver me:
+<sup>1</sup> «Shiggaion of David, which he sang unto the LORD, concerning the words of Cush the Benjamite.» O LORD my God, in thee do I put my trust: save me from all them that persecute me, and deliver me:
 <sup>2</sup> Lest he tear my soul like a lion, rending [it] in pieces, while [there is] none to deliver.
 <sup>3</sup> O LORD my God, if I have done this; if there be iniquity in my hands;
 <sup>4</sup> If I have rewarded evil unto him that was at peace with me; (yea, I have delivered him that without cause is mine enemy:)
@@ -98,18 +98,18 @@
 <sup>9</sup> O LORD our Lord, how excellent [is] thy name in all the earth!
 ## Chapter 9
 
-<sup>1</sup> «To the chief Musician upon Muthlabben , A Psalm of David.» I will praise [thee], O LORD, with my whole heart; I will shew forth all thy marvellous works.
+<sup>1</sup> «To the chief Musician upon Muthlabben, A Psalm of David.» I will praise [thee], O LORD, with my whole heart; I will shew forth all thy marvellous works.
 <sup>2</sup> I will be glad and rejoice in thee: I will sing praise to thy name, O thou most High.
 <sup>3</sup> When mine enemies are turned back, they shall fall and perish at thy presence.
 <sup>4</sup> For thou hast maintained my right and my cause; thou satest in the throne judging right.
 <sup>5</sup> Thou hast rebuked the heathen, thou hast destroyed the wicked, thou hast put out their name for ever and ever.
-<sup>6</sup> O thou enemy, destructions are come to a perpetual end: and thou hast destroyed cities ; their memorial is perished with them.
+<sup>6</sup> O thou enemy, destructions are come to a perpetual end: and thou hast destroyed cities; their memorial is perished with them.
 <sup>7</sup> But the LORD shall endure for ever: he hath prepared his throne for judgment.
 <sup>8</sup> And he shall judge the world in righteousness, he shall minister judgment to the people in uprightness.
 <sup>9</sup> The LORD also will be a refuge for the oppressed, a refuge in times of trouble.
 <sup>10</sup> And they that know thy name will put their trust in thee: for thou, LORD, hast not forsaken them that seek thee.
 <sup>11</sup> Sing praises to the LORD, which dwelleth in Zion: declare among the people his doings.
-<sup>12</sup> When he maketh inquisition for blood, he remembereth them: he forgetteth not the cry of the humble .
+<sup>12</sup> When he maketh inquisition for blood, he remembereth them: he forgetteth not the cry of the humble.
 <sup>13</sup> Have mercy upon me, O LORD; consider my trouble [which I suffer] of them that hate me, thou that liftest me up from the gates of death:
 <sup>14</sup> That I may shew forth all thy praise in the gates of the daughter of Zion: I will rejoice in thy salvation.
 <sup>15</sup> The heathen are sunk down in the pit [that] they made: in the net which they hid is their own foot taken.
@@ -117,7 +117,7 @@
 <sup>17</sup> The wicked shall be turned into hell, [and] all the nations that forget God.
 <sup>18</sup> For the needy shall not alway be forgotten: the expectation of the poor shall [not] perish for ever.
 <sup>19</sup> Arise, O LORD; let not man prevail: let the heathen be judged in thy sight.
-<sup>20</sup> Put them in fear , O LORD: [that] the nations may know themselves [to be but] men. Selah.
+<sup>20</sup> Put them in fear, O LORD: [that] the nations may know themselves [to be but] men. Selah.
 ## Chapter 10
 
 <sup>1</sup> Why standest thou afar off, O LORD? [why] hidest thou [thyself] in times of trouble?
@@ -131,7 +131,7 @@
 <sup>9</sup> He lieth in wait secretly as a lion in his den: he lieth in wait to catch the poor: he doth catch the poor, when he draweth him into his net.
 <sup>10</sup> He croucheth, [and] humbleth himself, that the poor may fall by his strong ones.
 <sup>11</sup> He hath said in his heart, God hath forgotten: he hideth his face; he will never see [it].
-<sup>12</sup> Arise, O LORD; O God, lift up thine hand: forget not the humble .
+<sup>12</sup> Arise, O LORD; O God, lift up thine hand: forget not the humble.
 <sup>13</sup> Wherefore doth the wicked contemn God? he hath said in his heart, Thou wilt not require [it].
 <sup>14</sup> Thou hast seen [it]; for thou beholdest mischief and spite, to requite [it] with thy hand: the poor committeth himself unto thee; thou art the helper of the fatherless.
 <sup>15</sup> Break thou the arm of the wicked and the evil [man]: seek out his wickedness [till] thou find none.
@@ -203,7 +203,7 @@
 <sup>5</sup> Hold up my goings in thy paths, [that] my footsteps slip not.
 <sup>6</sup> I have called upon thee, for thou wilt hear me, O God: incline thine ear unto me, [and hear ] my speech.
 <sup>7</sup> Shew thy marvellous lovingkindness, O thou that savest by thy right hand them which put their trust [in thee] from those that rise up [against them].
-<sup>8</sup> Keep me as the apple of the eye , hide me under the shadow of thy wings,
+<sup>8</sup> Keep me as the apple of the eye, hide me under the shadow of thy wings,
 <sup>9</sup> From the wicked that oppress me, [from] my deadly enemies, [who] compass me about.
 <sup>10</sup> They are inclosed in their own fat: with their mouth they speak proudly.
 <sup>11</sup> They have now compassed us in our steps: they have set their eyes bowing down to the earth;
@@ -265,7 +265,7 @@
 <sup>50</sup> Great deliverance giveth he to his king; and sheweth mercy to his anointed, to David, and to his seed for evermore.
 ## Chapter 19
 
-<sup>1</sup> «To the chief Musician, A Psalm of David.» The heavens declare the glory of God; and the firmament sheweth his handywork .
+<sup>1</sup> «To the chief Musician, A Psalm of David.» The heavens declare the glory of God; and the firmament sheweth his handywork.
 <sup>2</sup> Day unto day uttereth speech, and night unto night sheweth knowledge.
 <sup>3</sup> [There is] no speech nor language, [where] their voice is not heard.
 <sup>4</sup> Their line is gone out through all the earth, and their words to the end of the world. In them hath he set a tabernacle for the sun,
@@ -274,7 +274,7 @@
 <sup>7</sup> The law of the LORD [is] perfect, converting the soul: the testimony of the LORD [is] sure, making wise the simple.
 <sup>8</sup> The statutes of the LORD [are] right, rejoicing the heart: the commandment of the LORD [is] pure, enlightening the eyes.
 <sup>9</sup> The fear of the LORD [is] clean, enduring for ever: the judgments of the LORD [are] true [and] righteous altogether.
-<sup>10</sup> More to be desired [are they] than gold, yea, than much fine gold: sweeter also than honey and the honeycomb .
+<sup>10</sup> More to be desired [are they] than gold, yea, than much fine gold: sweeter also than honey and the honeycomb.
 <sup>11</sup> Moreover by them is thy servant warned: [and] in keeping of them [there is] great reward.
 <sup>12</sup> Who can understand [his] errors? cleanse thou me from secret [faults].
 <sup>13</sup> Keep back thy servant also from presumptuous [sins]; let them not have dominion over me: then shall I be upright, and I shall be innocent from the great transgression.
@@ -345,7 +345,7 @@
 <sup>3</sup> He restoreth my soul: he leadeth me in the paths of righteousness for his name’s sake.
 <sup>4</sup> Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou [art] with me; thy rod and thy staff they comfort me.
 <sup>5</sup> Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.
-<sup>6</sup> Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever .
+<sup>6</sup> Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.
 ## Chapter 24
 
 <sup>1</sup> «A Psalm of David.» The earth [is] the LORD’S, and the fulness thereof; the world, and they that dwell therein.
@@ -425,7 +425,7 @@
 <sup>9</sup> Save thy people, and bless thine inheritance: feed them also, and lift them up for ever.
 ## Chapter 29
 
-<sup>1</sup> «A Psalm of David.» Give unto the LORD, O ye mighty , give unto the LORD glory and strength.
+<sup>1</sup> «A Psalm of David.» Give unto the LORD, O ye mighty, give unto the LORD glory and strength.
 <sup>2</sup> Give unto the LORD the glory due unto his name; worship the LORD in the beauty of holiness.
 <sup>3</sup> The voice of the LORD [is] upon the waters: the God of glory thundereth: the LORD [is] upon many waters.
 <sup>4</sup> The voice of the LORD [is] powerful; the voice of the LORD [is] full of majesty.
@@ -546,7 +546,7 @@
 <sup>5</sup> Let them be as chaff before the wind: and let the angel of the LORD chase [them].
 <sup>6</sup> Let their way be dark and slippery: and let the angel of the LORD persecute them.
 <sup>7</sup> For without cause have they hid for me their net [in] a pit, [which] without cause they have digged for my soul.
-<sup>8</sup> Let destruction come upon him at unawares ; and let his net that he hath hid catch himself: into that very destruction let him fall.
+<sup>8</sup> Let destruction come upon him at unawares; and let his net that he hath hid catch himself: into that very destruction let him fall.
 <sup>9</sup> And my soul shall be joyful in the LORD: it shall rejoice in his salvation.
 <sup>10</sup> All my bones shall say, LORD, who [is] like unto thee, which deliverest the poor from him that is too strong for him, yea, the poor and the needy from him that spoileth him?
 <sup>11</sup> False witnesses did rise up; they laid to my charge [things] that I knew not.
@@ -806,7 +806,7 @@
 ## Chapter 49
 
 <sup>1</sup> «To the chief Musician, A Psalm for the sons of Korah.» Hear this, all [ye] people; give ear, all [ye] inhabitants of the world:
-<sup>2</sup> Both low and high , rich and poor, together.
+<sup>2</sup> Both low and high, rich and poor, together.
 <sup>3</sup> My mouth shall speak of wisdom; and the meditation of my heart [shall be] of understanding.
 <sup>4</sup> I will incline mine ear to a parable: I will open my dark saying upon the harp.
 <sup>5</sup> Wherefore should I fear in the days of evil, [when] the iniquity of my heels shall compass me about?
@@ -993,7 +993,7 @@
 <sup>5</sup> That thy beloved may be delivered; save [with] thy right hand, and hear me.
 <sup>6</sup> God hath spoken in his holiness; I will rejoice, I will divide Shechem, and mete out the valley of Succoth.
 <sup>7</sup> Gilead [is] mine, and Manasseh [is] mine; Ephraim also [is] the strength of mine head; Judah [is] my lawgiver;
-<sup>8</sup> Moab [is] my washpot ; over Edom will I cast out my shoe: Philistia, triumph thou because of me.
+<sup>8</sup> Moab [is] my washpot; over Edom will I cast out my shoe: Philistia, triumph thou because of me.
 <sup>9</sup> Who will bring me [into] the strong city? who will lead me into Edom?
 <sup>10</sup> [Wilt] not thou, O God, [which] hadst cast us off? and [thou], O God, [which] didst not go out with our armies?
 <sup>11</sup> Give us help from trouble: for vain [is] the help of man.
@@ -1005,7 +1005,7 @@
 <sup>3</sup> For thou hast been a shelter for me, [and] a strong tower from the enemy.
 <sup>4</sup> I will abide in thy tabernacle for ever: I will trust in the covert of thy wings. Selah.
 <sup>5</sup> For thou, O God, hast heard my vows: thou hast given [me] the heritage of those that fear thy name.
-<sup>6</sup> Thou wilt prolong the king’s life : [and] his years as many generations.
+<sup>6</sup> Thou wilt prolong the king’s life: [and] his years as many generations.
 <sup>7</sup> He shall abide before God for ever: O prepare mercy and truth, [which] may preserve him.
 <sup>8</sup> So will I sing praise unto thy name for ever, that I may daily perform my vows.
 ## Chapter 62
@@ -1033,7 +1033,7 @@
 <sup>7</sup> Because thou hast been my help, therefore in the shadow of thy wings will I rejoice.
 <sup>8</sup> My soul followeth hard after thee: thy right hand upholdeth me.
 <sup>9</sup> But those [that] seek my soul, to destroy [it], shall go into the lower parts of the earth.
-<sup>10</sup> They shall fall by the sword : they shall be a portion for foxes.
+<sup>10</sup> They shall fall by the sword: they shall be a portion for foxes.
 <sup>11</sup> But the king shall rejoice in God; every one that sweareth by him shall glory: but the mouth of them that speak lies shall be stopped.
 ## Chapter 64
 
@@ -1143,7 +1143,7 @@
 <sup>9</sup> For the zeal of thine house hath eaten me up; and the reproaches of them that reproached thee are fallen upon me.
 <sup>10</sup> When I wept, [and chastened] my soul with fasting, that was to my reproach.
 <sup>11</sup> I made sackcloth also my garment; and I became a proverb to them.
-<sup>12</sup> They that sit in the gate speak against me; and I [was] the song of the drunkards .
+<sup>12</sup> They that sit in the gate speak against me; and I [was] the song of the drunkards.
 <sup>13</sup> But as for me, my prayer [is] unto thee, O LORD, [in] an acceptable time: O God, in the multitude of thy mercy hear me, in the truth of thy salvation.
 <sup>14</sup> Deliver me out of the mire, and let me not sink: let me be delivered from them that hate me, and out of the deep waters.
 <sup>15</sup> Let not the waterflood overflow me, neither let the deep swallow me up, and let not the pit shut her mouth upon me.
@@ -1198,7 +1198,7 @@
 <sup>19</sup> Thy righteousness also, O God, [is] very high, who hast done great things: O God, who [is] like unto thee!
 <sup>20</sup> [Thou], which hast shewed me great and sore troubles, shalt quicken me again, and shalt bring me up again from the depths of the earth.
 <sup>21</sup> Thou shalt increase my greatness, and comfort me on every side.
-<sup>22</sup> I will also praise thee with the psaltery , [even] thy truth, O my God: unto thee will I sing with the harp, O thou Holy One of Israel.
+<sup>22</sup> I will also praise thee with the psaltery, [even] thy truth, O my God: unto thee will I sing with the harp, O thou Holy One of Israel.
 <sup>23</sup> My lips shall greatly rejoice when I sing unto thee; and my soul, which thou hast redeemed.
 <sup>24</sup> My tongue also shall talk of thy righteousness all the day long: for they are confounded, for they are brought unto shame, that seek my hurt.
 ## Chapter 72
@@ -1265,7 +1265,7 @@
 <sup>8</sup> They said in their hearts, Let us destroy them together: they have burned up all the synagogues of God in the land.
 <sup>9</sup> We see not our signs: [there is] no more any prophet: neither [is there] among us any that knoweth how long.
 <sup>10</sup> O God, how long shall the adversary reproach? shall the enemy blaspheme thy name for ever?
-<sup>11</sup> Why withdrawest thou thy hand, even thy right hand? pluck [it] out of thy bosom .
+<sup>11</sup> Why withdrawest thou thy hand, even thy right hand? pluck [it] out of thy bosom.
 <sup>12</sup> For God [is] my King of old, working salvation in the midst of the earth.
 <sup>13</sup> Thou didst divide the sea by thy strength: thou brakest the heads of the dragons in the waters.
 <sup>14</sup> Thou brakest the heads of leviathan in pieces, [and] gavest him [to be] meat to the people inhabiting the wilderness.
@@ -1313,7 +1313,7 @@
 <sup>5</sup> I have considered the days of old, the years of ancient times.
 <sup>6</sup> I call to remembrance my song in the night: I commune with mine own heart: and my spirit made diligent search.
 <sup>7</sup> Will the Lord cast off for ever? and will he be favourable no more?
-<sup>8</sup> Is his mercy clean gone for ever? doth [his] promise fail for evermore ?
+<sup>8</sup> Is his mercy clean gone for ever? doth [his] promise fail for evermore?
 <sup>9</sup> Hath God forgotten to be gracious? hath he in anger shut up his tender mercies? Selah.
 <sup>10</sup> And I said, This [is] my infirmity: [but I will remember] the years of the right hand of the most High.
 <sup>11</sup> I will remember (8675) the works of the LORD: surely I will remember thy wonders of old.
@@ -1397,7 +1397,7 @@
 <sup>67</sup> Moreover he refused the tabernacle of Joseph, and chose not the tribe of Ephraim:
 <sup>68</sup> But chose the tribe of Judah, the mount Zion which he loved.
 <sup>69</sup> And he built his sanctuary like high [palaces], like the earth which he hath established for ever.
-<sup>70</sup> He chose David also his servant, and took him from the sheepfolds :
+<sup>70</sup> He chose David also his servant, and took him from the sheepfolds:
 <sup>71</sup> From following the ewes great with young he brought him to feed Jacob his people, and Israel his inheritance.
 <sup>72</sup> So he fed them according to the integrity of his heart; and guided them by the skilfulness of his hands.
 ## Chapter 79
@@ -1529,7 +1529,7 @@
 <sup>12</sup> I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore.
 <sup>13</sup> For great [is] thy mercy toward me: and thou hast delivered my soul from the lowest hell.
 <sup>14</sup> O God, the proud are risen against me, and the assemblies of violent [men] have sought after my soul; and have not set thee before them.
-<sup>15</sup> But thou, O Lord, [art] a God full of compassion, and gracious, longsuffering , and plenteous in mercy and truth.
+<sup>15</sup> But thou, O Lord, [art] a God full of compassion, and gracious, longsuffering, and plenteous in mercy and truth.
 <sup>16</sup> O turn unto me, and have mercy upon me; give thy strength unto thy servant, and save the son of thine handmaid.
 <sup>17</sup> Shew me a token for good; that they which hate me may see [it], and be ashamed: because thou, LORD, hast holpen me, and comforted me.
 ## Chapter 87
@@ -1675,7 +1675,7 @@
 <sup>2</sup> Thy throne [is] established of old: thou [art] from everlasting.
 <sup>3</sup> The floods have lifted up, O LORD, the floods have lifted up their voice; the floods lift up their waves.
 <sup>4</sup> The LORD on high [is] mightier than the noise of many waters, [yea, than] the mighty waves of the sea.
-<sup>5</sup> Thy testimonies are very sure: holiness becometh thine house, O LORD, for ever .
+<sup>5</sup> Thy testimonies are very sure: holiness becometh thine house, O LORD, for ever.
 ## Chapter 94
 
 <sup>1</sup> O LORD God, to whom vengeance belongeth; O God, to whom vengeance belongeth, shew thyself.
@@ -1760,7 +1760,7 @@
 <sup>2</sup> The LORD [is] great in Zion; and he [is] high above all the people.
 <sup>3</sup> Let them praise thy great and terrible name; [for] it [is] holy.
 <sup>4</sup> The king’s strength also loveth judgment; thou dost establish equity, thou executest judgment and righteousness in Jacob.
-<sup>5</sup> Exalt ye the LORD our God, and worship at his footstool ; [for] he [is] holy.
+<sup>5</sup> Exalt ye the LORD our God, and worship at his footstool; [for] he [is] holy.
 <sup>6</sup> Moses and Aaron among his priests, and Samuel among them that call upon his name; they called upon the LORD, and he answered them.
 <sup>7</sup> He spake unto them in the cloudy pillar: they kept his testimonies, and the ordinance [that] he gave them.
 <sup>8</sup> Thou answeredst them, O LORD our God: thou wast a God that forgavest them, though thou tookest vengeance of their inventions.
@@ -1842,7 +1842,7 @@
 <sup>2</sup> Who coverest [thyself] with light as [with] a garment: who stretchest out the heavens like a curtain:
 <sup>3</sup> Who layeth the beams of his chambers in the waters: who maketh the clouds his chariot: who walketh upon the wings of the wind:
 <sup>4</sup> Who maketh his angels spirits; his ministers a flaming fire:
-<sup>5</sup> [Who] laid the foundations of the earth, [that] it should not be removed for ever .
+<sup>5</sup> [Who] laid the foundations of the earth, [that] it should not be removed for ever.
 <sup>6</sup> Thou coveredst it with the deep as [with] a garment: the waters stood above the mountains.
 <sup>7</sup> At thy rebuke they fled; at the voice of thy thunder they hasted away.
 <sup>8</sup> They go up by the mountains; they go down by the valleys unto the place which thou hast founded for them.
@@ -1953,7 +1953,7 @@
 <sup>29</sup> Thus they provoked [him] to anger with their inventions: and the plague brake in upon them.
 <sup>30</sup> Then stood up Phinehas, and executed judgment: and [so] the plague was stayed.
 <sup>31</sup> And that was counted unto him for righteousness unto all generations for evermore.
-<sup>32</sup> They angered [him] also at the waters of strife , so that it went ill with Moses for their sakes:
+<sup>32</sup> They angered [him] also at the waters of strife, so that it went ill with Moses for their sakes:
 <sup>33</sup> Because they provoked his spirit, so that he spake unadvisedly with his lips.
 <sup>34</sup> They did not destroy the nations, concerning whom the LORD commanded them:
 <sup>35</sup> But were mingled among the heathen, and learned their works.
@@ -2006,7 +2006,7 @@
 <sup>32</sup> Let them exalt him also in the congregation of the people, and praise him in the assembly of the elders.
 <sup>33</sup> He turneth rivers into a wilderness, and the watersprings into dry ground;
 <sup>34</sup> A fruitful land into barrenness, for the wickedness of them that dwell therein.
-<sup>35</sup> He turneth the wilderness into a standing water, and dry ground into watersprings .
+<sup>35</sup> He turneth the wilderness into a standing water, and dry ground into watersprings.
 <sup>36</sup> And there he maketh the hungry to dwell, that they may prepare a city for habitation;
 <sup>37</sup> And sow the fields, and plant vineyards, which may yield fruits of increase.
 <sup>38</sup> He blesseth them also, so that they are multiplied greatly; and suffereth not their cattle to decrease.
@@ -2025,7 +2025,7 @@
 <sup>6</sup> That thy beloved may be delivered: save [with] thy right hand, and answer me.
 <sup>7</sup> God hath spoken in his holiness; I will rejoice, I will divide Shechem, and mete out the valley of Succoth.
 <sup>8</sup> Gilead [is] mine; Manasseh [is] mine; Ephraim also [is] the strength of mine head; Judah [is] my lawgiver;
-<sup>9</sup> Moab [is] my washpot ; over Edom will I cast out my shoe; over Philistia will I triumph.
+<sup>9</sup> Moab [is] my washpot; over Edom will I cast out my shoe; over Philistia will I triumph.
 <sup>10</sup> Who will bring me into the strong city? who will lead me into Edom?
 <sup>11</sup> [Wilt] not [thou], O God, [who] hast cast us off? and wilt not thou, O God, go forth with our hosts?
 <sup>12</sup> Give us help from trouble: for vain [is] the help of man.
@@ -2065,7 +2065,7 @@
 <sup>31</sup> For he shall stand at the right hand of the poor, to save [him] from those that condemn his soul.
 ## Chapter 110
 
-<sup>1</sup> «A Psalm of David.» The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool .
+<sup>1</sup> «A Psalm of David.» The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.
 <sup>2</sup> The LORD shall send the rod of thy strength out of Zion: rule thou in the midst of thine enemies.
 <sup>3</sup> Thy people [shall be] willing in the day of thy power, in the beauties of holiness from the womb of the morning: thou hast the dew of thy youth.
 <sup>4</sup> The LORD hath sworn, and will not repent, Thou [art] a priest for ever after the order of Melchizedek.
@@ -2112,9 +2112,9 @@
 <sup>1</sup> When Israel went out of Egypt, the house of Jacob from a people of strange language;
 <sup>2</sup> Judah was his sanctuary, [and] Israel his dominion.
 <sup>3</sup> The sea saw [it], and fled: Jordan was driven back.
-<sup>4</sup> The mountains skipped like rams, [and] the little hills like lambs .
+<sup>4</sup> The mountains skipped like rams, [and] the little hills like lambs.
 <sup>5</sup> What [ailed] thee, O thou sea, that thou fleddest? thou Jordan, [that] thou wast driven back?
-<sup>6</sup> Ye mountains, [that] ye skipped like rams; [and] ye little hills, like lambs ?
+<sup>6</sup> Ye mountains, [that] ye skipped like rams; [and] ye little hills, like lambs?
 <sup>7</sup> Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob;
 <sup>8</sup> Which turned the rock [into] a standing water, the flint into a fountain of waters.
 ## Chapter 115
@@ -2218,7 +2218,7 @@
 <sup>21</sup> Thou hast rebuked the proud [that are] cursed, which do err from thy commandments.
 <sup>22</sup> Remove from me reproach and contempt; for I have kept thy testimonies.
 <sup>23</sup> Princes also did sit [and] speak against me: [but] thy servant did meditate in thy statutes.
-<sup>24</sup> Thy testimonies also [are] my delight [and] my counsellors .
+<sup>24</sup> Thy testimonies also [are] my delight [and] my counsellors.
 <sup>25</sup> DALETH. My soul cleaveth unto the dust: quicken thou me according to thy word.
 <sup>26</sup> I have declared my ways, and thou heardest me: teach me thy statutes.
 <sup>27</sup> Make me to understand the way of thy precepts: so shall I talk of thy wondrous works.
@@ -2406,7 +2406,7 @@
 <sup>1</sup> «A Song of degrees.» Unto thee lift I up mine eyes, O thou that dwellest in the heavens.
 <sup>2</sup> Behold, as the eyes of servants [look] unto the hand of their masters, [and] as the eyes of a maiden unto the hand of her mistress; so our eyes [wait] upon the LORD our God, until that he have mercy upon us.
 <sup>3</sup> Have mercy upon us, O LORD, have mercy upon us: for we are exceedingly filled with contempt.
-<sup>4</sup> Our soul is exceedingly filled with the scorning of those that are at ease, [and] with the contempt of the proud (8678) .
+<sup>4</sup> Our soul is exceedingly filled with the scorning of those that are at ease, [and] with the contempt of the proud (8678).
 ## Chapter 124
 
 <sup>1</sup> «A Song of degrees of David.» If [it had not been] the LORD who was on our side, now may Israel say;
@@ -2429,7 +2429,7 @@
 <sup>1</sup> «A Song of degrees.» When the LORD turned again the captivity of Zion, we were like them that dream.
 <sup>2</sup> Then was our mouth filled with laughter, and our tongue with singing: then said they among the heathen, The LORD hath done great things for them.
 <sup>3</sup> The LORD hath done great things for us; [whereof] we are glad.
-<sup>4</sup> Turn again our captivity , O LORD, as the streams in the south.
+<sup>4</sup> Turn again our captivity, O LORD, as the streams in the south.
 <sup>5</sup> They that sow in tears shall reap in joy.
 <sup>6</sup> He that goeth forth and weepeth, bearing precious seed, shall doubtless come again with rejoicing, bringing his sheaves [with him].
 ## Chapter 127
@@ -2451,7 +2451,7 @@
 
 <sup>1</sup> «A Song of degrees.» Many a time have they afflicted me from my youth, may Israel now say:
 <sup>2</sup> Many a time have they afflicted me from my youth: yet they have not prevailed against me.
-<sup>3</sup> The plowers plowed upon my back: they made long their furrows .
+<sup>3</sup> The plowers plowed upon my back: they made long their furrows.
 <sup>4</sup> The LORD [is] righteous: he hath cut asunder the cords of the wicked.
 <sup>5</sup> Let them all be confounded and turned back that hate Zion.
 <sup>6</sup> Let them be as the grass [upon] the housetops, which withereth afore it groweth up:
@@ -2476,11 +2476,11 @@
 
 <sup>1</sup> A Song of degrees. LORD, remember David, [and] all his afflictions:
 <sup>2</sup> How he sware unto the LORD, [and] vowed unto the mighty [God] of Jacob;
-<sup>3</sup> Surely I will not come into the tabernacle of my house, nor go up into my bed ;
+<sup>3</sup> Surely I will not come into the tabernacle of my house, nor go up into my bed;
 <sup>4</sup> I will not give sleep to mine eyes, [or] slumber to mine eyelids,
 <sup>5</sup> Until I find out a place for the LORD, an habitation for the mighty [God] of Jacob.
 <sup>6</sup> Lo, we heard of it at Ephratah: we found it in the fields of the wood.
-<sup>7</sup> We will go into his tabernacles: we will worship at his footstool .
+<sup>7</sup> We will go into his tabernacles: we will worship at his footstool.
 <sup>8</sup> Arise, O LORD, into thy rest; thou, and the ark of thy strength.
 <sup>9</sup> Let thy priests be clothed with righteousness; and let thy saints shout for joy.
 <sup>10</sup> For thy servant David’s sake turn not away the face of thine anointed.
@@ -2557,7 +2557,7 @@
 
 <sup>1</sup> By the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion.
 <sup>2</sup> We hanged our harps upon the willows in the midst thereof.
-<sup>3</sup> For there they that carried us away captive required of us a song ; and they that wasted us [required of us] mirth, [saying], Sing us [one] of the songs of Zion.
+<sup>3</sup> For there they that carried us away captive required of us a song; and they that wasted us [required of us] mirth, [saying], Sing us [one] of the songs of Zion.
 <sup>4</sup> How shall we sing the LORD’S song in a strange land?
 <sup>5</sup> If I forget thee, O Jerusalem, let my right hand forget [her cunning].
 <sup>6</sup> If I do not remember thee, let my tongue cleave to the roof of my mouth; if I prefer not Jerusalem above my chief joy.
@@ -2606,7 +2606,7 @@
 <sup>2</sup> Which imagine mischiefs in [their] heart; continually are they gathered together [for] war.
 <sup>3</sup> They have sharpened their tongues like a serpent; adders ’ poison [is] under their lips. Selah.
 <sup>4</sup> Keep me, O LORD, from the hands of the wicked; preserve me from the violent man; who have purposed to overthrow my goings.
-<sup>5</sup> The proud have hid a snare for me, and cords; they have spread a net by the wayside ; they have set gins for me. Selah.
+<sup>5</sup> The proud have hid a snare for me, and cords; they have spread a net by the wayside; they have set gins for me. Selah.
 <sup>6</sup> I said unto the LORD, Thou [art] my God: hear the voice of my supplications, O LORD.
 <sup>7</sup> O GOD the Lord, the strength of my salvation, thou hast covered my head in the day of battle.
 <sup>8</sup> Grant not, O LORD, the desires of the wicked: further not his wicked device; [lest] they exalt themselves. Selah.
@@ -2664,7 +2664,7 @@
 <sup>10</sup> [It is he] that giveth salvation unto kings: who delivereth David his servant from the hurtful sword.
 <sup>11</sup> Rid me, and deliver me from the hand of strange children, whose mouth speaketh vanity, and their right hand [is] a right hand of falsehood:
 <sup>12</sup> That our sons [may be] as plants grown up in their youth; [that] our daughters [may be] as corner stones, polished [after] the similitude of a palace:
-<sup>13</sup> [That] our garners [may be] full, affording all manner of store : [that] our sheep may bring forth thousands and ten thousands in our streets:
+<sup>13</sup> [That] our garners [may be] full, affording all manner of store: [that] our sheep may bring forth thousands and ten thousands in our streets:
 <sup>14</sup> [That] our oxen [may be] strong to labour; [that there be] no breaking in, nor going out; that [there be] no complaining in our streets.
 <sup>15</sup> Happy [is that] people, that is in such a case: [yea], happy [is that] people, whose God [is] the LORD.
 ## Chapter 145

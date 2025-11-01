@@ -115,7 +115,7 @@
 ## Chapter 6
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
-<sup>2</sup> If a soul sin, and commit a trespass against the LORD, and lie unto his neighbour in that which was delivered him to keep, or in fellowship , or in a thing taken away by violence, or hath deceived his neighbour;
+<sup>2</sup> If a soul sin, and commit a trespass against the LORD, and lie unto his neighbour in that which was delivered him to keep, or in fellowship, or in a thing taken away by violence, or hath deceived his neighbour;
 <sup>3</sup> Or have found that which was lost, and lieth concerning it, and sweareth falsely; in any of all these that a man doeth, sinning therein:
 <sup>4</sup> Then it shall be, because he hath sinned, and is guilty, that he shall restore that which he took violently away, or the thing which he hath deceitfully gotten, or that which was delivered him to keep, or the lost thing which he found,
 <sup>5</sup> Or all that about which he hath sworn falsely; he shall even restore it in the principal, and shall add the fifth part more thereto, [and] give it unto him to whom it appertaineth, in the day of his trespass offering.
@@ -194,7 +194,7 @@
 <sup>6</sup> And Moses brought Aaron and his sons, and washed them with water.
 <sup>7</sup> And he put upon him the coat, and girded him with the girdle, and clothed him with the robe, and put the ephod upon him, and he girded him with the curious girdle of the ephod, and bound [it] unto him therewith.
 <sup>8</sup> And he put the breastplate upon him: also he put in the breastplate the Urim and the Thummim.
-<sup>9</sup> And he put the mitre upon his head; also upon the mitre, [even] upon his forefront , did he put the golden plate, the holy crown; as the LORD commanded Moses.
+<sup>9</sup> And he put the mitre upon his head; also upon the mitre, [even] upon his forefront, did he put the golden plate, the holy crown; as the LORD commanded Moses.
 <sup>10</sup> And Moses took the anointing oil, and anointed the tabernacle and all that [was] therein, and sanctified them.
 <sup>11</sup> And he sprinkled thereof upon the altar seven times, and anointed the altar and all his vessels, both the laver and his foot, to sanctify them.
 <sup>12</sup> And he poured of the anointing oil upon Aaron’s head, and anointed him, to sanctify him.
@@ -269,16 +269,16 @@
 <sup>17</sup> Wherefore have ye not eaten the sin offering in the holy place, seeing it [is] most holy, and [God] hath given it you to bear the iniquity of the congregation, to make atonement for them before the LORD?
 <sup>18</sup> Behold, the blood of it was not brought in within the holy [place]: ye should indeed have eaten it in the holy [place], as I commanded.
 <sup>19</sup> And Aaron said unto Moses, Behold, this day have they offered their sin offering and their burnt offering before the LORD; and such things have befallen me: and [if] I had eaten the sin offering to day, should it have been accepted in the sight of the LORD?
-<sup>20</sup> And when Moses heard [that], he was content .
+<sup>20</sup> And when Moses heard [that], he was content.
 ## Chapter 11
 
 <sup>1</sup> And the LORD spake unto Moses and to Aaron, saying unto them,
 <sup>2</sup> Speak unto the children of Israel, saying, These [are] the beasts which ye shall eat among all the beasts that [are] on the earth.
-<sup>3</sup> Whatsoever parteth the hoof, and is clovenfooted , [and] cheweth the cud, among the beasts, that shall ye eat.
+<sup>3</sup> Whatsoever parteth the hoof, and is clovenfooted, [and] cheweth the cud, among the beasts, that shall ye eat.
 <sup>4</sup> Nevertheless these shall ye not eat of them that chew the cud, or of them that divide the hoof: [as] the camel, because he cheweth the cud, but divideth not the hoof; he [is] unclean unto you.
 <sup>5</sup> And the coney, because he cheweth the cud, but divideth not the hoof; he [is] unclean unto you.
 <sup>6</sup> And the hare, because he cheweth the cud, but divideth not the hoof; he [is] unclean unto you.
-<sup>7</sup> And the swine, though he divide the hoof, and be clovenfooted , yet he cheweth not the cud; he [is] unclean to you.
+<sup>7</sup> And the swine, though he divide the hoof, and be clovenfooted, yet he cheweth not the cud; he [is] unclean to you.
 <sup>8</sup> Of their flesh shall ye not eat, and their carcase shall ye not touch; they [are] unclean to you.
 <sup>9</sup> These shall ye eat of all that [are] in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, them shall ye eat.
 <sup>10</sup> And all that have not fins and scales in the seas, and in the rivers, of all that move in the waters, and of any living thing which [is] in the waters, they [shall be] an abomination unto you:
@@ -287,7 +287,7 @@
 <sup>13</sup> And these [are they which] ye shall have in abomination among the fowls; they shall not be eaten, they [are] an abomination: the eagle, and the ossifrage, and the ospray,
 <sup>14</sup> And the vulture, and the kite after his kind;
 <sup>15</sup> Every raven after his kind;
-<sup>16</sup> And the owl , and the night hawk, and the cuckow, and the hawk after his kind,
+<sup>16</sup> And the owl, and the night hawk, and the cuckow, and the hawk after his kind,
 <sup>17</sup> And the little owl, and the cormorant, and the great owl,
 <sup>18</sup> And the swan, and the pelican, and the gier eagle,
 <sup>19</sup> And the stork, the heron after her kind, and the lapwing, and the bat.
@@ -297,14 +297,14 @@
 <sup>23</sup> But all [other] flying creeping things, which have four feet, [shall be] an abomination unto you.
 <sup>24</sup> And for these ye shall be unclean: whosoever toucheth the carcase of them shall be unclean until the even.
 <sup>25</sup> And whosoever beareth [ought] of the carcase of them shall wash his clothes, and be unclean until the even.
-<sup>26</sup> [The carcases] of every beast which divideth the hoof, and [is] not clovenfooted , nor cheweth the cud, [are] unclean unto you: every one that toucheth them shall be unclean.
+<sup>26</sup> [The carcases] of every beast which divideth the hoof, and [is] not clovenfooted, nor cheweth the cud, [are] unclean unto you: every one that toucheth them shall be unclean.
 <sup>27</sup> And whatsoever goeth upon his paws, among all manner of beasts that go on [all] four, those [are] unclean unto you: whoso toucheth their carcase shall be unclean until the even.
 <sup>28</sup> And he that beareth the carcase of them shall wash his clothes, and be unclean until the even: they [are] unclean unto you.
 <sup>29</sup> These also [shall be] unclean unto you among the creeping things that creep upon the earth; the weasel, and the mouse, and the tortoise after his kind,
 <sup>30</sup> And the ferret, and the chameleon, and the lizard, and the snail, and the mole.
 <sup>31</sup> These [are] unclean to you among all that creep: whosoever doth touch them, when they be dead, shall be unclean until the even.
 <sup>32</sup> And upon whatsoever [any] of them, when they are dead, doth fall, it shall be unclean; whether [it be] any vessel of wood, or raiment, or skin, or sack, whatsoever vessel [it be], wherein [any] work is done, it must be put into water, and it shall be unclean until the even; so it shall be cleansed.
-<sup>33</sup> And every earthen vessel, whereinto [any] of them falleth , whatsoever [is] in it shall be unclean; and ye shall break it.
+<sup>33</sup> And every earthen vessel, whereinto [any] of them falleth, whatsoever [is] in it shall be unclean; and ye shall break it.
 <sup>34</sup> Of all meat which may be eaten, [that] on which [such] water cometh shall be unclean: and all drink that may be drunk in every [such] vessel shall be unclean.
 <sup>35</sup> And every [thing] whereupon [any part] of their carcase falleth shall be unclean; [whether it be] oven, or ranges for pots, they shall be broken down: [for] they [are] unclean, and shall be unclean unto you.
 <sup>36</sup> Nevertheless a fountain or pit, [wherein there is] plenty of water, shall be clean: but that which toucheth their carcase shall be unclean.
@@ -342,7 +342,7 @@
 <sup>9</sup> When the plague of leprosy is in a man, then he shall be brought unto the priest;
 <sup>10</sup> And the priest shall see [him]: and, behold, [if] the rising [be] white in the skin, and it have turned the hair white, and [there be] quick raw flesh in the rising;
 <sup>11</sup> It [is] an old leprosy in the skin of his flesh, and the priest shall pronounce him unclean, and shall not shut him up: for he [is] unclean.
-<sup>12</sup> And if a leprosy break out abroad in the skin, and the leprosy cover all the skin of [him that hath] the plague from his head even to his foot, wheresoever the priest looketh ;
+<sup>12</sup> And if a leprosy break out abroad in the skin, and the leprosy cover all the skin of [him that hath] the plague from his head even to his foot, wheresoever the priest looketh;
 <sup>13</sup> Then the priest shall consider: and, behold, [if] the leprosy have covered all his flesh, he shall pronounce [him] clean [that hath] the plague: it is all turned white: he [is] clean.
 <sup>14</sup> But when raw flesh appeareth in him, he shall be unclean.
 <sup>15</sup> And the priest shall see the raw flesh, and pronounce him to be unclean: [for] the raw flesh [is] unclean: it [is] a leprosy.
@@ -395,12 +395,12 @@
 <sup>1</sup> And the LORD spake unto Moses, saying,
 <sup>2</sup> This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest:
 <sup>3</sup> And the priest shall go forth out of the camp; and the priest shall look, and, behold, [if] the plague of leprosy be healed in the leper;
-<sup>4</sup> Then shall the priest command to take for him that is to be cleansed two birds alive [and] clean, and cedar wood, and scarlet , and hyssop:
+<sup>4</sup> Then shall the priest command to take for him that is to be cleansed two birds alive [and] clean, and cedar wood, and scarlet, and hyssop:
 <sup>5</sup> And the priest shall command that one of the birds be killed in an earthen vessel over running water:
-<sup>6</sup> As for the living bird, he shall take it, and the cedar wood, and the scarlet , and the hyssop, and shall dip them and the living bird in the blood of the bird [that was] killed over the running water:
+<sup>6</sup> As for the living bird, he shall take it, and the cedar wood, and the scarlet, and the hyssop, and shall dip them and the living bird in the blood of the bird [that was] killed over the running water:
 <sup>7</sup> And he shall sprinkle upon him that is to be cleansed from the leprosy seven times, and shall pronounce him clean, and shall let the living bird loose into the open field.
 <sup>8</sup> And he that is to be cleansed shall wash his clothes, and shave off all his hair, and wash himself in water, that he may be clean: and after that he shall come into the camp, and shall tarry abroad out of his tent seven days.
-<sup>9</sup> But it shall be on the seventh day, that he shall shave all his hair off his head and his beard and his eyebrows , even all his hair he shall shave off: and he shall wash his clothes, also he shall wash his flesh in water, and he shall be clean.
+<sup>9</sup> But it shall be on the seventh day, that he shall shave all his hair off his head and his beard and his eyebrows, even all his hair he shall shave off: and he shall wash his clothes, also he shall wash his flesh in water, and he shall be clean.
 <sup>10</sup> And on the eighth day he shall take two he lambs without blemish, and one ewe lamb of the first year without blemish, and three tenth deals of fine flour [for] a meat offering, mingled with oil, and one log of oil.
 <sup>11</sup> And the priest that maketh [him] clean shall present the man that is to be made clean, and those things, before the LORD, [at] the door of the tabernacle of the congregation:
 <sup>12</sup> And the priest shall take one he lamb, and offer him for a trespass offering, and the log of oil, and wave them [for] a wave offering before the LORD:
@@ -413,7 +413,7 @@
 <sup>19</sup> And the priest shall offer the sin offering, and make an atonement for him that is to be cleansed from his uncleanness; and afterward he shall kill the burnt offering:
 <sup>20</sup> And the priest shall offer the burnt offering and the meat offering upon the altar: and the priest shall make an atonement for him, and he shall be clean.
 <sup>21</sup> And if he [be] poor, and cannot get so much; then he shall take one lamb [for] a trespass offering to be waved, to make an atonement for him, and one tenth deal of fine flour mingled with oil for a meat offering, and a log of oil;
-<sup>22</sup> And two turtledoves, or two young pigeons, such as he is able to get ; and the one shall be a sin offering, and the other a burnt offering.
+<sup>22</sup> And two turtledoves, or two young pigeons, such as he is able to get; and the one shall be a sin offering, and the other a burnt offering.
 <sup>23</sup> And he shall bring them on the eighth day for his cleansing unto the priest, unto the door of the tabernacle of the congregation, before the LORD.
 <sup>24</sup> And the priest shall take the lamb of the trespass offering, and the log of oil, and the priest shall wave them [for] a wave offering before the LORD:
 <sup>25</sup> And he shall kill the lamb of the trespass offering, and the priest shall take [some] of the blood of the trespass offering, and put [it] upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot:
@@ -421,7 +421,7 @@
 <sup>27</sup> And the priest shall sprinkle with his right finger [some] of the oil that [is] in his left hand seven times before the LORD:
 <sup>28</sup> And the priest shall put of the oil that [is] in his hand upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the place of the blood of the trespass offering:
 <sup>29</sup> And the rest of the oil that [is] in the priest’s hand he shall put upon the head of him that is to be cleansed, to make an atonement for him before the LORD.
-<sup>30</sup> And he shall offer the one of the turtledoves, or of the young pigeons, such as he can get ;
+<sup>30</sup> And he shall offer the one of the turtledoves, or of the young pigeons, such as he can get;
 <sup>31</sup> [Even] such as he is able to get, the one [for] a sin offering, and the other [for] a burnt offering, with the meat offering: and the priest shall make an atonement for him that is to be cleansed before the LORD.
 <sup>32</sup> This [is] the law [of him] in whom [is] the plague of leprosy, whose hand is not able to get [that which pertaineth] to his cleansing.
 <sup>33</sup> And the LORD spake unto Moses and unto Aaron, saying,
@@ -439,11 +439,11 @@
 <sup>45</sup> And he shall break down the house, the stones of it, and the timber thereof, and all the morter of the house; and he shall carry [them] forth out of the city into an unclean place.
 <sup>46</sup> Moreover he that goeth into the house all the while that it is shut up shall be unclean until the even.
 <sup>47</sup> And he that lieth in the house shall wash his clothes; and he that eateth in the house shall wash his clothes.
-<sup>48</sup> And if the priest shall come in , and look [upon it], and, behold, the plague hath not spread in the house, after the house was plaistered: then the priest shall pronounce the house clean, because the plague is healed.
-<sup>49</sup> And he shall take to cleanse the house two birds, and cedar wood, and scarlet , and hyssop:
+<sup>48</sup> And if the priest shall come in, and look [upon it], and, behold, the plague hath not spread in the house, after the house was plaistered: then the priest shall pronounce the house clean, because the plague is healed.
+<sup>49</sup> And he shall take to cleanse the house two birds, and cedar wood, and scarlet, and hyssop:
 <sup>50</sup> And he shall kill the one of the birds in an earthen vessel over running water:
-<sup>51</sup> And he shall take the cedar wood, and the hyssop, and the scarlet , and the living bird, and dip them in the blood of the slain bird, and in the running water, and sprinkle the house seven times:
-<sup>52</sup> And he shall cleanse the house with the blood of the bird, and with the running water, and with the living bird, and with the cedar wood, and with the hyssop, and with the scarlet :
+<sup>51</sup> And he shall take the cedar wood, and the hyssop, and the scarlet, and the living bird, and dip them in the blood of the slain bird, and in the running water, and sprinkle the house seven times:
+<sup>52</sup> And he shall cleanse the house with the blood of the bird, and with the running water, and with the living bird, and with the cedar wood, and with the hyssop, and with the scarlet:
 <sup>53</sup> But he shall let go the living bird out of the city into the open fields, and make an atonement for the house: and it shall be clean.
 <sup>54</sup> This [is] the law for all manner of plague of leprosy, and scall,
 <sup>55</sup> And for the leprosy of a garment, and of a house,
@@ -594,7 +594,7 @@
 <sup>20</sup> And whosoever lieth carnally with a woman, that [is] a bondmaid, betrothed to an husband, and not at all redeemed, nor freedom given her; she shall be scourged; they shall not be put to death, because she was not free.
 <sup>21</sup> And he shall bring his trespass offering unto the LORD, unto the door of the tabernacle of the congregation, [even] a ram for a trespass offering.
 <sup>22</sup> And the priest shall make an atonement for him with the ram of the trespass offering before the LORD for his sin which he hath done: and the sin which he hath done shall be forgiven him.
-<sup>23</sup> And when ye shall come into the land, and shall have planted all manner of trees for food, then ye shall count the fruit thereof as uncircumcised : three years shall it be as uncircumcised unto you: it shall not be eaten of.
+<sup>23</sup> And when ye shall come into the land, and shall have planted all manner of trees for food, then ye shall count the fruit thereof as uncircumcised: three years shall it be as uncircumcised unto you: it shall not be eaten of.
 <sup>24</sup> But in the fourth year all the fruit thereof shall be holy to praise the LORD [withal].
 <sup>25</sup> And in the fifth year shall ye eat of the fruit thereof, that it may yield unto you the increase thereof: I [am] the LORD your God.
 <sup>26</sup> Ye shall not eat [any thing] with the blood: neither shall ye use enchantment, nor observe times.
@@ -627,7 +627,7 @@
 <sup>14</sup> And if a man take a wife and her mother, it [is] wickedness: they shall be burnt with fire, both he and they; that there be no wickedness among you.
 <sup>15</sup> And if a man lie with a beast, he shall surely be put to death: and ye shall slay the beast.
 <sup>16</sup> And if a woman approach unto any beast, and lie down thereto, thou shalt kill the woman, and the beast: they shall surely be put to death; their blood [shall be] upon them.
-<sup>17</sup> And if a man shall take his sister, his father’s daughter, or his mother’s daughter, and see her nakedness, and she see his nakedness; it [is] a wicked thing; and they shall be cut off in the sight of their people : he hath uncovered his sister’s nakedness; he shall bear his iniquity.
+<sup>17</sup> And if a man shall take his sister, his father’s daughter, or his mother’s daughter, and see her nakedness, and she see his nakedness; it [is] a wicked thing; and they shall be cut off in the sight of their people: he hath uncovered his sister’s nakedness; he shall bear his iniquity.
 <sup>18</sup> And if a man shall lie with a woman having her sickness, and shall uncover her nakedness; he hath discovered her fountain, and she hath uncovered the fountain of her blood: and both of them shall be cut off from among their people.
 <sup>19</sup> And thou shalt not uncover the nakedness of thy mother’s sister, nor of thy father’s sister: for he uncovereth his near kin: they shall bear their iniquity.
 <sup>20</sup> And if a man shall lie with his uncle’s wife, he hath uncovered his uncle’s nakedness: they shall bear their sin; they shall die childless.
@@ -658,7 +658,7 @@
 <sup>16</sup> And the LORD spake unto Moses, saying,
 <sup>17</sup> Speak unto Aaron, saying, Whosoever [he be] of thy seed in their generations that hath [any] blemish, let him not approach to offer the bread of his God.
 <sup>18</sup> For whatsoever man [he be] that hath a blemish, he shall not approach: a blind man, or a lame, or he that hath a flat nose, or any thing superfluous,
-<sup>19</sup> Or a man that is brokenfooted , or brokenhanded ,
+<sup>19</sup> Or a man that is brokenfooted, or brokenhanded,
 <sup>20</sup> Or crookbackt, or a dwarf, or that hath a blemish in his eye, or be scurvy, or scabbed, or hath his stones broken;
 <sup>21</sup> No man that hath a blemish of the seed of Aaron the priest shall come nigh to offer the offerings of the LORD made by fire: he hath a blemish; he shall not come nigh to offer the bread of his God.
 <sup>22</sup> He shall eat the bread of his God, [both] of the most holy, and of the holy.
@@ -677,7 +677,7 @@
 <sup>9</sup> They shall therefore keep mine ordinance, lest they bear sin for it, and die therefore, if they profane it: I the LORD do sanctify them.
 <sup>10</sup> There shall no stranger eat [of] the holy thing: a sojourner of the priest, or an hired servant, shall not eat [of] the holy thing.
 <sup>11</sup> But if the priest buy [any] soul with his money, he shall eat of it, and he that is born in his house: they shall eat of his meat.
-<sup>12</sup> If the priest’s daughter also be [married] unto a stranger , she may not eat of an offering of the holy things.
+<sup>12</sup> If the priest’s daughter also be [married] unto a stranger, she may not eat of an offering of the holy things.
 <sup>13</sup> But if the priest’s daughter be a widow, or divorced, and have no child, and is returned unto her father’s house, as in her youth, she shall eat of her father’s meat: but there shall no stranger eat thereof.
 <sup>14</sup> And if a man eat [of] the holy thing unwittingly, then he shall put the fifth [part] thereof unto it, and shall give [it] unto the priest with the holy thing.
 <sup>15</sup> And they shall not profane the holy things of the children of Israel, which they offer unto the LORD;
@@ -756,7 +756,7 @@
 <sup>7</sup> And thou shalt put pure frankincense upon [each] row, that it may be on the bread for a memorial, [even] an offering made by fire unto the LORD.
 <sup>8</sup> Every sabbath he shall set it in order before the LORD continually, [being taken] from the children of Israel by an everlasting covenant.
 <sup>9</sup> And it shall be Aaron’s and his sons ’; and they shall eat it in the holy place: for it [is] most holy unto him of the offerings of the LORD made by fire by a perpetual statute.
-<sup>10</sup> And the son of an Israelitish woman, whose father [was] an Egyptian , went out among the children of Israel : and this son of the Israelitish [woman] and a man of Israel strove together in the camp;
+<sup>10</sup> And the son of an Israelitish woman, whose father [was] an Egyptian, went out among the children of Israel: and this son of the Israelitish [woman] and a man of Israel strove together in the camp;
 <sup>11</sup> And the Israelitish woman’s son blasphemed the name [of the LORD], and cursed. And they brought him unto Moses: (and his mother’s name [was] Shelomith, the daughter of Dibri, of the tribe of Dan:)
 <sup>12</sup> And they put him in ward, that the mind of the LORD might be shewed them.
 <sup>13</sup> And the LORD spake unto Moses, saying,

@@ -16,7 +16,7 @@
 <sup>14</sup> Cast in thy lot among us; let us all have one purse:
 <sup>15</sup> My son, walk not thou in the way with them; refrain thy foot from their path:
 <sup>16</sup> For their feet run to evil, and make haste to shed blood.
-<sup>17</sup> Surely in vain the net is spread in the sight of any bird .
+<sup>17</sup> Surely in vain the net is spread in the sight of any bird.
 <sup>18</sup> And they lay wait for their [own] blood; they lurk privily for their [own] lives.
 <sup>19</sup> So [are] the ways of every one that is greedy of gain; [which] taketh away the life of the owners thereof.
 <sup>20</sup> Wisdom crieth without; she uttereth her voice in the streets:
@@ -26,7 +26,7 @@
 <sup>24</sup> Because I have called, and ye refused; I have stretched out my hand, and no man regarded;
 <sup>25</sup> But ye have set at nought all my counsel, and would none of my reproof:
 <sup>26</sup> I also will laugh at your calamity; I will mock when your fear cometh;
-<sup>27</sup> When your fear cometh as desolation , and your destruction cometh as a whirlwind; when distress and anguish cometh upon you.
+<sup>27</sup> When your fear cometh as desolation, and your destruction cometh as a whirlwind; when distress and anguish cometh upon you.
 <sup>28</sup> Then shall they call upon me, but I will not answer; they shall seek me early, but they shall not find me:
 <sup>29</sup> For that they hated knowledge, and did not choose the fear of the LORD:
 <sup>30</sup> They would none of my counsel: they despised all my reproof.
@@ -89,10 +89,10 @@
 <sup>28</sup> Say not unto thy neighbour, Go, and come again, and to morrow I will give; when thou hast it by thee.
 <sup>29</sup> Devise not evil against thy neighbour, seeing he dwelleth securely by thee.
 <sup>30</sup> Strive not with a man without cause, if he have done thee no harm.
-<sup>31</sup> Envy thou not the oppressor , and choose none of his ways.
+<sup>31</sup> Envy thou not the oppressor, and choose none of his ways.
 <sup>32</sup> For the froward [is] abomination to the LORD: but his secret [is] with the righteous.
 <sup>33</sup> The curse of the LORD [is] in the house of the wicked: but he blesseth the habitation of the just.
-<sup>34</sup> Surely he scorneth the scorners: but he giveth grace unto the lowly .
+<sup>34</sup> Surely he scorneth the scorners: but he giveth grace unto the lowly.
 <sup>35</sup> The wise shall inherit glory: but shame shall be the promotion of fools.
 ## Chapter 4
 
@@ -163,7 +163,7 @@
 <sup>11</sup> So shall thy poverty come as one that travelleth, and thy want as an armed man.
 <sup>12</sup> A naughty person, a wicked man, walketh with a froward mouth.
 <sup>13</sup> He winketh with his eyes, he speaketh with his feet, he teacheth with his fingers;
-<sup>14</sup> Frowardness [is] in his heart, he deviseth mischief continually; he soweth discord .
+<sup>14</sup> Frowardness [is] in his heart, he deviseth mischief continually; he soweth discord.
 <sup>15</sup> Therefore shall his calamity come suddenly; suddenly shall he be broken without remedy.
 <sup>16</sup> These six [things] doth the LORD hate: yea, seven [are] an abomination unto him:
 <sup>17</sup> A proud look, a lying tongue, and hands that shed innocent blood,
@@ -195,7 +195,7 @@
 <sup>6</sup> For at the window of my house I looked through my casement,
 <sup>7</sup> And beheld among the simple ones, I discerned among the youths, a young man void of understanding,
 <sup>8</sup> Passing through the street near her corner; and he went the way to her house,
-<sup>9</sup> In the twilight, in the evening , in the black and dark night:
+<sup>9</sup> In the twilight, in the evening, in the black and dark night:
 <sup>10</sup> And, behold, there met him a woman [with] the attire of an harlot, and subtil of heart.
 <sup>11</sup> (She [is] loud and stubborn; her feet abide not in her house:
 <sup>12</sup> Now [is she] without, now in the streets, and lieth in wait at every corner.)
@@ -375,7 +375,7 @@
 <sup>2</sup> A man shall eat good by the fruit of [his] mouth: but the soul of the transgressors [shall eat] violence.
 <sup>3</sup> He that keepeth his mouth keepeth his life: [but] he that openeth wide his lips shall have destruction.
 <sup>4</sup> The soul of the sluggard desireth, and [hath] nothing: but the soul of the diligent shall be made fat.
-<sup>5</sup> A righteous [man] hateth lying : but a wicked [man] is loathsome, and cometh to shame.
+<sup>5</sup> A righteous [man] hateth lying: but a wicked [man] is loathsome, and cometh to shame.
 <sup>6</sup> Righteousness keepeth [him that is] upright in the way: but wickedness overthroweth the sinner.
 <sup>7</sup> There is that maketh himself rich, yet [hath] nothing: [there is] that maketh himself poor, yet [hath] great riches.
 <sup>8</sup> The ransom of a man’s life [are] his riches: but the poor heareth not rebuke.
@@ -393,7 +393,7 @@
 <sup>20</sup> He that walketh with wise [men] shall be wise: but a companion of fools shall be destroyed.
 <sup>21</sup> Evil pursueth sinners: but to the righteous good shall be repayed.
 <sup>22</sup> A good [man] leaveth an inheritance to his children’s children: and the wealth of the sinner [is] laid up for the just.
-<sup>23</sup> Much food [is in] the tillage of the poor : but there is [that is] destroyed for want of judgment.
+<sup>23</sup> Much food [is in] the tillage of the poor: but there is [that is] destroyed for want of judgment.
 <sup>24</sup> He that spareth his rod hateth his son: but he that loveth him chasteneth him betimes.
 <sup>25</sup> The righteous eateth to the satisfying of his soul: but the belly of the wicked shall want.
 ## Chapter 14
@@ -418,7 +418,7 @@
 <sup>18</sup> The simple inherit folly: but the prudent are crowned with knowledge.
 <sup>19</sup> The evil bow before the good; and the wicked at the gates of the righteous.
 <sup>20</sup> The poor is hated even of his own neighbour: but the rich [hath] many friends.
-<sup>21</sup> He that despiseth his neighbour sinneth: but he that hath mercy on the poor , happy [is] he.
+<sup>21</sup> He that despiseth his neighbour sinneth: but he that hath mercy on the poor, happy [is] he.
 <sup>22</sup> Do they not err that devise evil? but mercy and truth [shall be] to them that devise good.
 <sup>23</sup> In all labour there is profit: but the talk of the lips [tendeth] only to penury.
 <sup>24</sup> The crown of the wise [is] their riches: [but] the foolishness of fools [is] folly.
@@ -488,12 +488,12 @@
 <sup>16</sup> How much better [is it] to get wisdom than gold! and to get understanding rather to be chosen than silver!
 <sup>17</sup> The highway of the upright [is] to depart from evil: he that keepeth his way preserveth his soul.
 <sup>18</sup> Pride [goeth] before destruction, and an haughty spirit before a fall.
-<sup>19</sup> Better [it is to be] of an humble spirit with the lowly , than to divide the spoil with the proud.
+<sup>19</sup> Better [it is to be] of an humble spirit with the lowly, than to divide the spoil with the proud.
 <sup>20</sup> He that handleth a matter wisely shall find good: and whoso trusteth in the LORD, happy [is] he.
 <sup>21</sup> The wise in heart shall be called prudent: and the sweetness of the lips increaseth learning.
 <sup>22</sup> Understanding [is] a wellspring of life unto him that hath it: but the instruction of fools [is] folly.
 <sup>23</sup> The heart of the wise teacheth his mouth, and addeth learning to his lips.
-<sup>24</sup> Pleasant words [are as] an honeycomb , sweet to the soul, and health to the bones.
+<sup>24</sup> Pleasant words [are as] an honeycomb, sweet to the soul, and health to the bones.
 <sup>25</sup> There is a way that seemeth right unto a man, but the end thereof [are] the ways of death.
 <sup>26</sup> He that laboureth laboureth for himself; for his mouth craveth it of him.
 <sup>27</sup> An ungodly man diggeth up evil: and in his lips [there is] as a burning fire.
@@ -528,7 +528,7 @@
 <sup>21</sup> He that begetteth a fool [doeth it] to his sorrow: and the father of a fool hath no joy.
 <sup>22</sup> A merry heart doeth good [like] a medicine: but a broken spirit drieth the bones.
 <sup>23</sup> A wicked [man] taketh a gift out of the bosom to pervert the ways of judgment.
-<sup>24</sup> Wisdom [is] before him that hath understanding ; but the eyes of a fool [are] in the ends of the earth.
+<sup>24</sup> Wisdom [is] before him that hath understanding; but the eyes of a fool [are] in the ends of the earth.
 <sup>25</sup> A foolish son [is] a grief to his father, and bitterness to her that bare him.
 <sup>26</sup> Also to punish the just [is] not good, [nor] to strike princes for equity.
 <sup>27</sup> He that hath knowledge spareth his words: [and] a man of understanding is of an excellent spirit.
@@ -601,7 +601,7 @@
 <sup>7</sup> The just [man] walketh in his integrity: his children [are] blessed after him.
 <sup>8</sup> A king that sitteth in the throne of judgment scattereth away all evil with his eyes.
 <sup>9</sup> Who can say, I have made my heart clean, I am pure from my sin?
-<sup>10</sup> Divers weights , [and] divers measures , both of them [are] alike abomination to the LORD.
+<sup>10</sup> Divers weights, [and] divers measures, both of them [are] alike abomination to the LORD.
 <sup>11</sup> Even a child is known by his doings, whether his work [be] pure, and whether [it be] right.
 <sup>12</sup> The hearing ear, and the seeing eye, the LORD hath made even both of them.
 <sup>13</sup> Love not sleep, lest thou come to poverty; open thine eyes, [and] thou shalt be satisfied with bread.
@@ -642,7 +642,7 @@
 <sup>16</sup> The man that wandereth out of the way of understanding shall remain in the congregation of the dead.
 <sup>17</sup> He that loveth pleasure [shall be] a poor man: he that loveth wine and oil shall not be rich.
 <sup>18</sup> The wicked [shall be] a ransom for the righteous, and the transgressor for the upright.
-<sup>19</sup> [It is] better to dwell in the wilderness , than with a contentious and an angry woman.
+<sup>19</sup> [It is] better to dwell in the wilderness, than with a contentious and an angry woman.
 <sup>20</sup> [There is] treasure to be desired and oil in the dwelling of the wise; but a foolish man spendeth it up.
 <sup>21</sup> He that followeth after righteousness and mercy findeth life, righteousness, and honour.
 <sup>22</sup> A wise [man] scaleth the city of the mighty, and casteth down the strength of the confidence thereof.
@@ -663,7 +663,7 @@
 <sup>4</sup> By humility [and] the fear of the LORD [are] riches, and honour, and life.
 <sup>5</sup> Thorns [and] snares [are] in the way of the froward: he that doth keep his soul shall be far from them.
 <sup>6</sup> Train up a child in the way he should go: and when he is old, he will not depart from it.
-<sup>7</sup> The rich ruleth over the poor, and the borrower [is] servant to the lender .
+<sup>7</sup> The rich ruleth over the poor, and the borrower [is] servant to the lender.
 <sup>8</sup> He that soweth iniquity shall reap vanity: and the rod of his anger shall fail.
 <sup>9</sup> He that hath a bountiful eye shall be blessed; for he giveth of his bread to the poor.
 <sup>10</sup> Cast out the scorner, and contention shall go out; yea, strife and reproach shall cease.
@@ -707,7 +707,7 @@
 <sup>17</sup> Let not thine heart envy sinners: but [be thou] in the fear of the LORD all the day long.
 <sup>18</sup> For surely there is an end; and thine expectation shall not be cut off.
 <sup>19</sup> Hear thou, my son, and be wise, and guide thine heart in the way.
-<sup>20</sup> Be not among winebibbers ; among riotous eaters of flesh:
+<sup>20</sup> Be not among winebibbers; among riotous eaters of flesh:
 <sup>21</sup> For the drunkard and the glutton shall come to poverty: and drowsiness shall clothe [a man] with rags.
 <sup>22</sup> Hearken unto thy father that begat thee, and despise not thy mother when she is old.
 <sup>23</sup> Buy the truth, and sell [it] not; [also] wisdom, and instruction, and understanding.
@@ -716,9 +716,9 @@
 <sup>26</sup> My son, give me thine heart, and let thine eyes observe my ways.
 <sup>27</sup> For a whore [is] a deep ditch; and a strange woman [is] a narrow pit.
 <sup>28</sup> She also lieth in wait as [for] a prey, and increaseth the transgressors among men.
-<sup>29</sup> Who hath woe? who hath sorrow? who hath contentions ? who hath babbling? who hath wounds without cause? who hath redness of eyes?
+<sup>29</sup> Who hath woe? who hath sorrow? who hath contentions? who hath babbling? who hath wounds without cause? who hath redness of eyes?
 <sup>30</sup> They that tarry long at the wine; they that go to seek mixed wine.
-<sup>31</sup> Look not thou upon the wine when it is red, when it giveth his colour in the cup , [when] it moveth itself aright.
+<sup>31</sup> Look not thou upon the wine when it is red, when it giveth his colour in the cup, [when] it moveth itself aright.
 <sup>32</sup> At the last it biteth like a serpent, and stingeth like an adder.
 <sup>33</sup> Thine eyes shall behold strange women, and thine heart shall utter perverse things.
 <sup>34</sup> Yea, thou shalt be as he that lieth down in the midst of the sea, or as he that lieth upon the top of a mast.
@@ -754,9 +754,9 @@
 <sup>27</sup> Prepare thy work without, and make it fit for thyself in the field; and afterwards build thine house.
 <sup>28</sup> Be not a witness against thy neighbour without cause; and deceive [not] with thy lips.
 <sup>29</sup> Say not, I will do so to him as he hath done to me: I will render to the man according to his work.
-<sup>30</sup> I went by the field of the slothful , and by the vineyard of the man void of understanding;
+<sup>30</sup> I went by the field of the slothful, and by the vineyard of the man void of understanding;
 <sup>31</sup> And, lo, it was all grown over with thorns, [and] nettles had covered the face thereof, and the stone wall thereof was broken down.
-<sup>32</sup> Then I saw, [and] considered [it] well : I looked upon [it, and] received instruction.
+<sup>32</sup> Then I saw, [and] considered [it] well: I looked upon [it, and] received instruction.
 <sup>33</sup> [Yet] a little sleep, a little slumber, a little folding of the hands to sleep:
 <sup>34</sup> So shall thy poverty come [as] one that travelleth; and thy want as an armed man.
 ## Chapter 25
@@ -873,7 +873,7 @@
 <sup>21</sup> To have respect of persons [is] not good: for for a piece of bread [that] man will transgress.
 <sup>22</sup> He that hasteth to be rich [hath] an evil eye, and considereth not that poverty shall come upon him.
 <sup>23</sup> He that rebuketh a man afterwards shall find more favour than he that flattereth with the tongue.
-<sup>24</sup> Whoso robbeth his father or his mother, and saith, [It is] no transgression; the same [is] the companion of a destroyer .
+<sup>24</sup> Whoso robbeth his father or his mother, and saith, [It is] no transgression; the same [is] the companion of a destroyer.
 <sup>25</sup> He that is of a proud heart stirreth up strife: but he that putteth his trust in the LORD shall be made fat.
 <sup>26</sup> He that trusteth in his own heart is a fool: but whoso walketh wisely, he shall be delivered.
 <sup>27</sup> He that giveth unto the poor shall not lack: but he that hideth his eyes shall have many a curse.
@@ -891,7 +891,7 @@
 <sup>9</sup> [If] a wise man contendeth with a foolish man, whether he rage or laugh, [there is] no rest.
 <sup>10</sup> The bloodthirsty hate the upright: but the just seek his soul.
 <sup>11</sup> A fool uttereth all his mind: but a wise [man] keepeth it in till afterwards.
-<sup>12</sup> If a ruler hearken to lies , all his servants [are] wicked.
+<sup>12</sup> If a ruler hearken to lies, all his servants [are] wicked.
 <sup>13</sup> The poor and the deceitful man meet together: the LORD lighteneth both their eyes.
 <sup>14</sup> The king that faithfully judgeth the poor, his throne shall be established for ever.
 <sup>15</sup> The rod and reproof give wisdom: but a child left [to himself] bringeth his mother to shame.
@@ -916,7 +916,7 @@
 <sup>5</sup> Every word of God [is] pure: he [is] a shield unto them that put their trust in him.
 <sup>6</sup> Add thou not unto his words, lest he reprove thee, and thou be found a liar.
 <sup>7</sup> Two [things] have I required of thee; deny me [them] not before I die:
-<sup>8</sup> Remove far from me vanity and lies : give me neither poverty nor riches; feed me with food convenient for me:
+<sup>8</sup> Remove far from me vanity and lies: give me neither poverty nor riches; feed me with food convenient for me:
 <sup>9</sup> Lest I be full, and deny [thee], and say, Who [is] the LORD? or lest I be poor, and steal, and take the name of my God [in vain].
 <sup>10</sup> Accuse not a servant unto his master, lest he curse thee, and thou be found guilty.
 <sup>11</sup> [There is] a generation [that] curseth their father, and doth not bless their mother.
@@ -939,7 +939,7 @@
 <sup>28</sup> The spider taketh hold with her hands, and is in kings ’ palaces.
 <sup>29</sup> There be three [things] which go well, yea, four are comely in going:
 <sup>30</sup> A lion [which is] strongest among beasts, and turneth not away for any;
-<sup>31</sup> A greyhound ; an he goat also; and a king, against whom [there is] no rising up.
+<sup>31</sup> A greyhound; an he goat also; and a king, against whom [there is] no rising up.
 <sup>32</sup> If thou hast done foolishly in lifting up thyself, or if thou hast thought evil, [lay] thine hand upon thy mouth.
 <sup>33</sup> Surely the churning of milk bringeth forth butter, and the wringing of the nose bringeth forth blood: so the forcing of wrath bringeth forth strife.
 ## Chapter 31
@@ -948,7 +948,7 @@
 <sup>2</sup> What, my son? and what, the son of my womb? and what, the son of my vows?
 <sup>3</sup> Give not thy strength unto women, nor thy ways to that which destroyeth kings.
 <sup>4</sup> [It is] not for kings, O Lemuel, [it is] not for kings to drink wine; nor for princes strong drink:
-<sup>5</sup> Lest they drink, and forget the law, and pervert the judgment of any of the afflicted .
+<sup>5</sup> Lest they drink, and forget the law, and pervert the judgment of any of the afflicted.
 <sup>6</sup> Give strong drink unto him that is ready to perish, and wine unto those that be of heavy hearts.
 <sup>7</sup> Let him drink, and forget his poverty, and remember his misery no more.
 <sup>8</sup> Open thy mouth for the dumb in the cause of all such as are appointed to destruction.

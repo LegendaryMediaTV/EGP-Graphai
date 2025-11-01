@@ -27,7 +27,7 @@
 <sup>5</sup> I made me gardens and orchards, and I planted trees in them of all [kind of] fruits:
 <sup>6</sup> I made me pools of water, to water therewith the wood that bringeth forth trees:
 <sup>7</sup> I got [me] servants and maidens, and had servants born in my house; also I had great possessions of great and small cattle above all that were in Jerusalem before me:
-<sup>8</sup> I gathered me also silver and gold, and the peculiar treasure of kings and of the provinces: I gat me men singers and women singers, and the delights of the sons of men, [as] musical instruments , and that of all sorts.
+<sup>8</sup> I gathered me also silver and gold, and the peculiar treasure of kings and of the provinces: I gat me men singers and women singers, and the delights of the sons of men, [as] musical instruments, and that of all sorts.
 <sup>9</sup> So I was great, and increased more than all that were before me in Jerusalem: also my wisdom remained with me.
 <sup>10</sup> And whatsoever mine eyes desired I kept not from them, I withheld not my heart from any joy; for my heart rejoiced in all my labour: and this was my portion of all my labour.
 <sup>11</sup> Then I looked on all the works that my hands had wrought, and on the labour that I had laboured to do: and, behold, all [was] vanity and vexation of spirit, and [there was] no profit under the sun.
@@ -214,8 +214,8 @@
 <sup>16</sup> Woe to thee, O land, when thy king [is] a child, and thy princes eat in the morning!
 <sup>17</sup> Blessed [art] thou, O land, when thy king [is] the son of nobles, and thy princes eat in due season, for strength, and not for drunkenness!
 <sup>18</sup> By much slothfulness the building decayeth; and through idleness of the hands the house droppeth through.
-<sup>19</sup> A feast is made for laughter, and wine maketh merry : but money answereth all [things].
-<sup>20</sup> Curse not the king, no not in thy thought; and curse not the rich in thy bedchamber : for a bird of the air shall carry the voice, and that which hath wings shall tell the matter.
+<sup>19</sup> A feast is made for laughter, and wine maketh merry: but money answereth all [things].
+<sup>20</sup> Curse not the king, no not in thy thought; and curse not the rich in thy bedchamber: for a bird of the air shall carry the voice, and that which hath wings shall tell the matter.
 ## Chapter 11
 
 <sup>1</sup> Cast thy bread upon the waters: for thou shalt find it after many days.

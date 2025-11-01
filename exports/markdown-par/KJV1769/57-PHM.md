@@ -13,7 +13,7 @@
 <sup>11</sup> Which in time past was to thee unprofitable, but now profitable to thee and to me:
 <sup>12</sup> Whom I have sent again: thou therefore receive him, that is, mine own bowels:
 <sup>13</sup> Whom I would have retained with me, that in thy stead he might have ministered unto me in the bonds of the gospel:
-<sup>14</sup> But without thy mind would I do nothing; that thy benefit should not be as it were of necessity, but willingly .
+<sup>14</sup> But without thy mind would I do nothing; that thy benefit should not be as it were of necessity, but willingly.
 <sup>15</sup> For perhaps he therefore departed for a season, that thou shouldest receive him for ever;
 <sup>16</sup> Not now as a servant, but above a servant, a brother beloved, specially to me, but how much more unto thee, both in the flesh, and in the Lord?
 <sup>17</sup> If thou count me therefore a partner, receive him as myself.

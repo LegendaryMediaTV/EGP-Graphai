@@ -84,7 +84,7 @@
 <sup>7</sup> And he said, Put thine hand into thy bosom again. And he put his hand into his bosom again; and plucked it out of his bosom, and, behold, it was turned again as his [other] flesh.
 <sup>8</sup> And it shall come to pass, if they will not believe thee, neither hearken to the voice of the first sign, that they will believe the voice of the latter sign.
 <sup>9</sup> And it shall come to pass, if they will not believe also these two signs, neither hearken unto thy voice, that thou shalt take of the water of the river, and pour [it] upon the dry [land]: and the water which thou takest out of the river shall become blood upon the dry [land].
-<sup>10</sup> And Moses said unto the LORD, O my Lord, I [am] not eloquent, neither heretofore , nor since thou hast spoken unto thy servant: but I [am] slow of speech, and of a slow tongue.
+<sup>10</sup> And Moses said unto the LORD, O my Lord, I [am] not eloquent, neither heretofore, nor since thou hast spoken unto thy servant: but I [am] slow of speech, and of a slow tongue.
 <sup>11</sup> And the LORD said unto him, Who hath made man’s mouth? or who maketh the dumb, or deaf, or the seeing, or the blind? have not I the LORD?
 <sup>12</sup> Now therefore go, and I will be with thy mouth, and teach thee what thou shalt say.
 <sup>13</sup> And he said, O my Lord, send, I pray thee, by the hand [of him whom] thou wilt send.
@@ -114,14 +114,14 @@
 <sup>4</sup> And the king of Egypt said unto them, Wherefore do ye, Moses and Aaron, let the people from their works? get you unto your burdens.
 <sup>5</sup> And Pharaoh said, Behold, the people of the land now [are] many, and ye make them rest from their burdens.
 <sup>6</sup> And Pharaoh commanded the same day the taskmasters of the people, and their officers, saying,
-<sup>7</sup> Ye shall no more give the people straw to make brick, as heretofore : let them go and gather straw for themselves.
-<sup>8</sup> And the tale of the bricks, which they did make heretofore , ye shall lay upon them; ye shall not diminish [ought] thereof: for they [be] idle; therefore they cry, saying, Let us go [and] sacrifice to our God.
+<sup>7</sup> Ye shall no more give the people straw to make brick, as heretofore: let them go and gather straw for themselves.
+<sup>8</sup> And the tale of the bricks, which they did make heretofore, ye shall lay upon them; ye shall not diminish [ought] thereof: for they [be] idle; therefore they cry, saying, Let us go [and] sacrifice to our God.
 <sup>9</sup> Let there more work be laid upon the men, that they may labour therein; and let them not regard vain words.
 <sup>10</sup> And the taskmasters of the people went out, and their officers, and they spake to the people, saying, Thus saith Pharaoh, I will not give you straw.
 <sup>11</sup> Go ye, get you straw where ye can find it: yet not ought of your work shall be diminished.
 <sup>12</sup> So the people were scattered abroad throughout all the land of Egypt to gather stubble instead of straw.
 <sup>13</sup> And the taskmasters hasted [them], saying, Fulfil your works, [your] daily tasks, as when there was straw.
-<sup>14</sup> And the officers of the children of Israel, which Pharaoh’s taskmasters had set over them, were beaten, [and] demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore ?
+<sup>14</sup> And the officers of the children of Israel, which Pharaoh’s taskmasters had set over them, were beaten, [and] demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore?
 <sup>15</sup> Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants?
 <sup>16</sup> There is no straw given unto thy servants, and they say to us, Make brick: and, behold, thy servants [are] beaten; but the fault [is] in thine own people.
 <sup>17</sup> But he said, Ye [are] idle, [ye are] idle: therefore ye say, Let us go [and] do sacrifice to the LORD.
@@ -194,7 +194,7 @@
 
 <sup>1</sup> And the LORD spake unto Moses, Go unto Pharaoh, and say unto him, Thus saith the LORD, Let my people go, that they may serve me.
 <sup>2</sup> And if thou refuse to let [them] go, behold, I will smite all thy borders with frogs:
-<sup>3</sup> And the river shall bring forth frogs abundantly, which shall go up and come into thine house, and into thy bedchamber , and upon thy bed, and into the house of thy servants, and upon thy people, and into thine ovens, and into thy kneadingtroughs:
+<sup>3</sup> And the river shall bring forth frogs abundantly, which shall go up and come into thine house, and into thy bedchamber, and upon thy bed, and into the house of thy servants, and upon thy people, and into thine ovens, and into thy kneadingtroughs:
 <sup>4</sup> And the frogs shall come up both on thee, and upon thy people, and upon all thy servants.
 <sup>5</sup> And the LORD spake unto Moses, Say unto Aaron, Stretch forth thine hand with thy rod over the streams, over the rivers, and over the ponds, and cause frogs to come up upon the land of Egypt.
 <sup>6</sup> And Aaron stretched out his hand over the waters of Egypt; and the frogs came up, and covered the land of Egypt.
@@ -334,7 +334,7 @@
 <sup>26</sup> And it shall come to pass, when your children shall say unto you, What mean ye by this service?
 <sup>27</sup> That ye shall say, It [is] the sacrifice of the LORD’S passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses. And the people bowed the head and worshipped.
 <sup>28</sup> And the children of Israel went away, and did as the LORD had commanded Moses and Aaron, so did they.
-<sup>29</sup> And it came to pass, that at midnight the LORD smote all the firstborn in the land of Egypt, from the firstborn of Pharaoh that sat on his throne unto the firstborn of the captive that [was] in the dungeon ; and all the firstborn of cattle.
+<sup>29</sup> And it came to pass, that at midnight the LORD smote all the firstborn in the land of Egypt, from the firstborn of Pharaoh that sat on his throne unto the firstborn of the captive that [was] in the dungeon; and all the firstborn of cattle.
 <sup>30</sup> And Pharaoh rose up in the night, he, and all his servants, and all the Egyptians; and there was a great cry in Egypt; for [there was] not a house where [there was] not one dead.
 <sup>31</sup> And he called for Moses and Aaron by night, and said, Rise up, [and] get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said.
 <sup>32</sup> Also take your flocks and your herds, as ye have said, and be gone; and bless me also.
@@ -448,8 +448,8 @@
 <sup>1</sup> And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which [is] between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.
 <sup>2</sup> And the whole congregation of the children of Israel murmured against Moses and Aaron in the wilderness:
 <sup>3</sup> And the children of Israel said unto them, Would to God we had died by the hand of the LORD in the land of Egypt, when we sat by the flesh pots, [and] when we did eat bread to the full; for ye have brought us forth into this wilderness, to kill this whole assembly with hunger.
-<sup>4</sup> Then said the LORD unto Moses, Behold, I will rain bread from heaven for you; and the people shall go out and gather a certain rate every day , that I may prove them, whether they will walk in my law, or no.
-<sup>5</sup> And it shall come to pass, that on the sixth day they shall prepare [that] which they bring in; and it shall be twice as much as they gather daily .
+<sup>4</sup> Then said the LORD unto Moses, Behold, I will rain bread from heaven for you; and the people shall go out and gather a certain rate every day, that I may prove them, whether they will walk in my law, or no.
+<sup>5</sup> And it shall come to pass, that on the sixth day they shall prepare [that] which they bring in; and it shall be twice as much as they gather daily.
 <sup>6</sup> And Moses and Aaron said unto all the children of Israel, At even, then ye shall know that the LORD hath brought you out from the land of Egypt:
 <sup>7</sup> And in the morning, then ye shall see the glory of the LORD; for that he heareth your murmurings against the LORD: and what [are] we, that ye murmur (8675) against us?
 <sup>8</sup> And Moses said, [This shall be], when the LORD shall give you in the evening flesh to eat, and in the morning bread to the full; for that the LORD heareth your murmurings which ye murmur against him: and what [are] we? your murmurings [are] not against us, but against the LORD.
@@ -519,7 +519,7 @@
 <sup>16</sup> When they have a matter, they come unto me; and I judge between one and another, and I do make [them] know the statutes of God, and his laws.
 <sup>17</sup> And Moses ’ father in law said unto him, The thing that thou doest [is] not good.
 <sup>18</sup> Thou wilt surely wear away, both thou, and this people that [is] with thee: for this thing [is] too heavy for thee; thou art not able to perform it thyself alone.
-<sup>19</sup> Hearken now unto my voice, I will give thee counsel, and God shall be with thee: Be thou for the people to God-ward , that thou mayest bring the causes unto God:
+<sup>19</sup> Hearken now unto my voice, I will give thee counsel, and God shall be with thee: Be thou for the people to God-ward, that thou mayest bring the causes unto God:
 <sup>20</sup> And thou shalt teach them ordinances and laws, and shalt shew them the way wherein they must walk, and the work that they must do.
 <sup>21</sup> Moreover thou shalt provide out of all the people able men, such as fear God, men of truth, hating covetousness; and place [such] over them, [to be] rulers of thousands, [and] rulers of hundreds, rulers of fifties, and rulers of tens:
 <sup>22</sup> And let them judge the people at all seasons: and it shall be, [that] every great matter they shall bring unto thee, but every small matter they shall judge: so shall it be easier for thyself, and they shall bear [the burden] with thee.
@@ -587,7 +587,7 @@
 
 <sup>1</sup> Now these [are] the judgments which thou shalt set before them.
 <sup>2</sup> If thou buy an Hebrew servant, six years he shall serve: and in the seventh he shall go out free for nothing.
-<sup>3</sup> If he came in by himself, he shall go out by himself: if he were married , then his wife shall go out with him.
+<sup>3</sup> If he came in by himself, he shall go out by himself: if he were married, then his wife shall go out with him.
 <sup>4</sup> If his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master’s, and he shall go out by himself.
 <sup>5</sup> And if the servant shall plainly say, I love my master, my wife, and my children; I will not go out free:
 <sup>6</sup> Then his master shall bring him unto the judges; he shall also bring him to the door, or unto the door post; and his master shall bore his ear through with an aul; and he shall serve him for ever.
@@ -613,14 +613,14 @@
 <sup>26</sup> And if a man smite the eye of his servant, or the eye of his maid, that it perish; he shall let him go free for his eye’s sake.
 <sup>27</sup> And if he smite out his manservant’s tooth, or his maidservant’s tooth; he shall let him go free for his tooth’s sake.
 <sup>28</sup> If an ox gore a man or a woman, that they die: then the ox shall be surely stoned, and his flesh shall not be eaten; but the owner of the ox [shall be] quit.
-<sup>29</sup> But if the ox were wont to push with his horn in time past , and it hath been testified to his owner, and he hath not kept him in, but that he hath killed a man or a woman; the ox shall be stoned, and his owner also shall be put to death.
+<sup>29</sup> But if the ox were wont to push with his horn in time past, and it hath been testified to his owner, and he hath not kept him in, but that he hath killed a man or a woman; the ox shall be stoned, and his owner also shall be put to death.
 <sup>30</sup> If there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him.
 <sup>31</sup> Whether he have gored a son, or have gored a daughter, according to this judgment shall it be done unto him.
 <sup>32</sup> If the ox shall push a manservant or a maidservant; he shall give unto their master thirty shekels of silver, and the ox shall be stoned.
 <sup>33</sup> And if a man shall open a pit, or if a man shall dig a pit, and not cover it, and an ox or an ass fall therein;
 <sup>34</sup> The owner of the pit shall make [it] good, [and] give money unto the owner of them; and the dead [beast] shall be his.
 <sup>35</sup> And if one man’s ox hurt another’s, that he die; then they shall sell the live ox, and divide the money of it; and the dead [ox] also they shall divide.
-<sup>36</sup> Or if it be known that the ox hath used to push in time past , and his owner hath not kept him in; he shall surely pay ox for ox; and the dead shall be his own.
+<sup>36</sup> Or if it be known that the ox hath used to push in time past, and his owner hath not kept him in; he shall surely pay ox for ox; and the dead shall be his own.
 ## Chapter 22
 
 <sup>1</sup> If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall restore five oxen for an ox, and four sheep for a sheep.
@@ -635,7 +635,7 @@
 <sup>10</sup> If a man deliver unto his neighbour an ass, or an ox, or a sheep, or any beast, to keep; and it die, or be hurt, or driven away, no man seeing [it]:
 <sup>11</sup> [Then] shall an oath of the LORD be between them both, that he hath not put his hand unto his neighbour’s goods; and the owner of it shall accept [thereof], and he shall not make [it] good.
 <sup>12</sup> And if it be stolen from him, he shall make restitution unto the owner thereof.
-<sup>13</sup> If it be torn in pieces , [then] let him bring it [for] witness, [and] he shall not make good that which was torn.
+<sup>13</sup> If it be torn in pieces, [then] let him bring it [for] witness, [and] he shall not make good that which was torn.
 <sup>14</sup> And if a man borrow [ought] of his neighbour, and it be hurt, or die, the owner thereof [being] not with it, he shall surely make [it] good.
 <sup>15</sup> [But] if the owner thereof [be] with it, he shall not make [it] good: if it [be] an hired [thing], it came for his hire.
 <sup>16</sup> And if a man entice a maid that is not betrothed, and lie with her, he shall surely endow her to be his wife.
@@ -714,7 +714,7 @@
 <sup>1</sup> And the LORD spake unto Moses, saying,
 <sup>2</sup> Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.
 <sup>3</sup> And this [is] the offering which ye shall take of them; gold, and silver, and brass,
-<sup>4</sup> And blue, and purple, and scarlet , and fine linen, and goats ’ [hair],
+<sup>4</sup> And blue, and purple, and scarlet, and fine linen, and goats ’ [hair],
 <sup>5</sup> And rams ’ skins dyed red, and badgers ’ skins, and shittim wood,
 <sup>6</sup> Oil for the light, spices for anointing oil, and for sweet incense,
 <sup>7</sup> Onyx stones, and stones to be set in the ephod, and in the breastplate.
@@ -753,7 +753,7 @@
 <sup>40</sup> And look that thou make [them] after their pattern, which was shewed thee in the mount.
 ## Chapter 26
 
-<sup>1</sup> Moreover thou shalt make the tabernacle [with] ten curtains [of] fine twined linen, and blue, and purple, and scarlet : [with] cherubims of cunning work shalt thou make them.
+<sup>1</sup> Moreover thou shalt make the tabernacle [with] ten curtains [of] fine twined linen, and blue, and purple, and scarlet: [with] cherubims of cunning work shalt thou make them.
 <sup>2</sup> The length of one curtain [shall be] eight and twenty cubits, and the breadth of one curtain four cubits: and every one of the curtains shall have one measure.
 <sup>3</sup> The five curtains shall be coupled together one to another; and [other] five curtains [shall be] coupled one to another.
 <sup>4</sup> And thou shalt make loops of blue upon the edge of the one curtain from the selvedge in the coupling; and likewise shalt thou make in the uttermost edge of [another] curtain, in the coupling of the second.
@@ -783,12 +783,12 @@
 <sup>28</sup> And the middle bar in the midst of the boards shall reach from end to end.
 <sup>29</sup> And thou shalt overlay the boards with gold, and make their rings [of] gold [for] places for the bars: and thou shalt overlay the bars with gold.
 <sup>30</sup> And thou shalt rear up the tabernacle according to the fashion thereof which was shewed thee in the mount.
-<sup>31</sup> And thou shalt make a vail [of] blue, and purple, and scarlet , and fine twined linen of cunning work: with cherubims shall it be made:
+<sup>31</sup> And thou shalt make a vail [of] blue, and purple, and scarlet, and fine twined linen of cunning work: with cherubims shall it be made:
 <sup>32</sup> And thou shalt hang it upon four pillars of shittim [wood] overlaid with gold: their hooks [shall be of] gold, upon the four sockets of silver.
 <sup>33</sup> And thou shalt hang up the vail under the taches, that thou mayest bring in thither within the vail the ark of the testimony: and the vail shall divide unto you between the holy [place] and the most holy.
 <sup>34</sup> And thou shalt put the mercy seat upon the ark of the testimony in the most holy [place].
 <sup>35</sup> And thou shalt set the table without the vail, and the candlestick over against the table on the side of the tabernacle toward the south: and thou shalt put the table on the north side.
-<sup>36</sup> And thou shalt make an hanging for the door of the tent, [of] blue, and purple, and scarlet , and fine twined linen, wrought with needlework.
+<sup>36</sup> And thou shalt make an hanging for the door of the tent, [of] blue, and purple, and scarlet, and fine twined linen, wrought with needlework.
 <sup>37</sup> And thou shalt make for the hanging five pillars [of] shittim [wood], and overlay them with gold, [and] their hooks [shall be of] gold: and thou shalt cast five sockets of brass for them.
 ## Chapter 27
 
@@ -807,7 +807,7 @@
 <sup>13</sup> And the breadth of the court on the east side eastward [shall be] fifty cubits.
 <sup>14</sup> The hangings of one side [of the gate shall be] fifteen cubits: their pillars three, and their sockets three.
 <sup>15</sup> And on the other side [shall be] hangings fifteen [cubits]: their pillars three, and their sockets three.
-<sup>16</sup> And for the gate of the court [shall be] an hanging of twenty cubits, [of] blue, and purple, and scarlet , and fine twined linen, wrought with needlework : [and] their pillars [shall be] four, and their sockets four.
+<sup>16</sup> And for the gate of the court [shall be] an hanging of twenty cubits, [of] blue, and purple, and scarlet, and fine twined linen, wrought with needlework: [and] their pillars [shall be] four, and their sockets four.
 <sup>17</sup> All the pillars round about the court [shall be] filleted with silver; their hooks [shall be of] silver, and their sockets [of] brass.
 <sup>18</sup> The length of the court [shall be] an hundred cubits, and the breadth fifty every where, and the height five cubits [of] fine twined linen, and their sockets [of] brass.
 <sup>19</sup> All the vessels of the tabernacle in all the service thereof, and all the pins thereof, and all the pins of the court, [shall be of] brass.
@@ -819,23 +819,23 @@
 <sup>2</sup> And thou shalt make holy garments for Aaron thy brother for glory and for beauty.
 <sup>3</sup> And thou shalt speak unto all [that are] wise hearted, whom I have filled with the spirit of wisdom, that they may make Aaron’s garments to consecrate him, that he may minister unto me in the priest’s office.
 <sup>4</sup> And these [are] the garments which they shall make; a breastplate, and an ephod, and a robe, and a broidered coat, a mitre, and a girdle: and they shall make holy garments for Aaron thy brother, and his sons, that he may minister unto me in the priest’s office.
-<sup>5</sup> And they shall take gold, and blue, and purple, and scarlet , and fine linen.
-<sup>6</sup> And they shall make the ephod [of] gold, [of] blue, and [of] purple, [of] scarlet , and fine twined linen, with cunning work.
+<sup>5</sup> And they shall take gold, and blue, and purple, and scarlet, and fine linen.
+<sup>6</sup> And they shall make the ephod [of] gold, [of] blue, and [of] purple, [of] scarlet, and fine twined linen, with cunning work.
 <sup>7</sup> It shall have the two shoulderpieces thereof joined at the two edges thereof; and [so] it shall be joined together.
-<sup>8</sup> And the curious girdle of the ephod, which [is] upon it, shall be of the same, according to the work thereof; [even of] gold, [of] blue, and purple, and scarlet , and fine twined linen.
+<sup>8</sup> And the curious girdle of the ephod, which [is] upon it, shall be of the same, according to the work thereof; [even of] gold, [of] blue, and purple, and scarlet, and fine twined linen.
 <sup>9</sup> And thou shalt take two onyx stones, and grave on them the names of the children of Israel:
 <sup>10</sup> Six of their names on one stone, and [the other] six names of the rest on the other stone, according to their birth.
 <sup>11</sup> With the work of an engraver in stone, [like] the engravings of a signet, shalt thou engrave the two stones with the names of the children of Israel: thou shalt make them to be set in ouches of gold.
 <sup>12</sup> And thou shalt put the two stones upon the shoulders of the ephod [for] stones of memorial unto the children of Israel: and Aaron shall bear their names before the LORD upon his two shoulders for a memorial.
 <sup>13</sup> And thou shalt make ouches [of] gold;
 <sup>14</sup> And two chains [of] pure gold at the ends; [of] wreathen work shalt thou make them, and fasten the wreathen chains to the ouches.
-<sup>15</sup> And thou shalt make the breastplate of judgment with cunning work; after the work of the ephod thou shalt make it; [of] gold, [of] blue, and [of] purple, and [of] scarlet , and [of] fine twined linen, shalt thou make it.
+<sup>15</sup> And thou shalt make the breastplate of judgment with cunning work; after the work of the ephod thou shalt make it; [of] gold, [of] blue, and [of] purple, and [of] scarlet, and [of] fine twined linen, shalt thou make it.
 <sup>16</sup> Foursquare it shall be [being] doubled; a span [shall be] the length thereof, and a span [shall be] the breadth thereof.
 <sup>17</sup> And thou shalt set in it settings of stones, [even] four rows of stones: [the first] row [shall be] a sardius, a topaz, and a carbuncle: [this shall be] the first row.
 <sup>18</sup> And the second row [shall be] an emerald, a sapphire, and a diamond.
 <sup>19</sup> And the third row a ligure, an agate, and an amethyst.
 <sup>20</sup> And the fourth row a beryl, and an onyx, and a jasper: they shall be set in gold in their inclosings.
-<sup>21</sup> And the stones shall be with the names of the children of Israel, twelve , according to their names, [like] the engravings of a signet; every one with his name shall they be according to the twelve tribes.
+<sup>21</sup> And the stones shall be with the names of the children of Israel, twelve, according to their names, [like] the engravings of a signet; every one with his name shall they be according to the twelve tribes.
 <sup>22</sup> And thou shalt make upon the breastplate chains at the ends [of] wreathen work [of] pure gold.
 <sup>23</sup> And thou shalt make upon the breastplate two rings of gold, and shalt put the two rings on the two ends of the breastplate.
 <sup>24</sup> And thou shalt put the two wreathen [chains] of gold in the two rings [which are] on the ends of the breastplate.
@@ -847,16 +847,16 @@
 <sup>30</sup> And thou shalt put in the breastplate of judgment the Urim and the Thummim; and they shall be upon Aaron’s heart, when he goeth in before the LORD: and Aaron shall bear the judgment of the children of Israel upon his heart before the LORD continually.
 <sup>31</sup> And thou shalt make the robe of the ephod all [of] blue.
 <sup>32</sup> And there shall be an hole in the top of it, in the midst thereof: it shall have a binding of woven work round about the hole of it, as it were the hole of an habergeon, that it be not rent.
-<sup>33</sup> And [beneath] upon the hem of it thou shalt make pomegranates [of] blue, and [of] purple, and [of] scarlet , round about the hem thereof; and bells of gold between them round about:
+<sup>33</sup> And [beneath] upon the hem of it thou shalt make pomegranates [of] blue, and [of] purple, and [of] scarlet, round about the hem thereof; and bells of gold between them round about:
 <sup>34</sup> A golden bell and a pomegranate, a golden bell and a pomegranate, upon the hem of the robe round about.
 <sup>35</sup> And it shall be upon Aaron to minister: and his sound shall be heard when he goeth in unto the holy [place] before the LORD, and when he cometh out, that he die not.
 <sup>36</sup> And thou shalt make a plate [of] pure gold, and grave upon it, [like] the engravings of a signet, HOLINESS TO THE LORD.
 <sup>37</sup> And thou shalt put it on a blue lace, that it may be upon the mitre; upon the forefront of the mitre it shall be.
 <sup>38</sup> And it shall be upon Aaron’s forehead, that Aaron may bear the iniquity of the holy things, which the children of Israel shall hallow in all their holy gifts; and it shall be always upon his forehead, that they may be accepted before the LORD.
-<sup>39</sup> And thou shalt embroider the coat of fine linen, and thou shalt make the mitre [of] fine linen, and thou shalt make the girdle [of] needlework .
+<sup>39</sup> And thou shalt embroider the coat of fine linen, and thou shalt make the mitre [of] fine linen, and thou shalt make the girdle [of] needlework.
 <sup>40</sup> And for Aaron’s sons thou shalt make coats, and thou shalt make for them girdles, and bonnets shalt thou make for them, for glory and for beauty.
 <sup>41</sup> And thou shalt put them upon Aaron thy brother, and his sons with him; and shalt anoint them, and consecrate them, and sanctify them, that they may minister unto me in the priest’s office.
-<sup>42</sup> And thou shalt make them linen breeches to cover their nakedness ; from the loins even unto the thighs they shall reach:
+<sup>42</sup> And thou shalt make them linen breeches to cover their nakedness; from the loins even unto the thighs they shall reach:
 <sup>43</sup> And they shall be upon Aaron, and upon his sons, when they come in unto the tabernacle of the congregation, or when they come near unto the altar to minister in the holy [place]; that they bear not iniquity, and die: [it shall be] a statute for ever unto him and his seed after him.
 ## Chapter 29
 
@@ -896,7 +896,7 @@
 <sup>34</sup> And if ought of the flesh of the consecrations, or of the bread, remain unto the morning, then thou shalt burn the remainder with fire: it shall not be eaten, because it [is] holy.
 <sup>35</sup> And thus shalt thou do unto Aaron, and to his sons, according to all [things] which I have commanded thee: seven days shalt thou consecrate them.
 <sup>36</sup> And thou shalt offer every day a bullock [for] a sin offering for atonement: and thou shalt cleanse the altar, when thou hast made an atonement for it, and thou shalt anoint it, to sanctify it.
-<sup>37</sup> Seven days thou shalt make an atonement for the altar, and sanctify it; and it shall be an altar most holy : whatsoever toucheth the altar shall be holy.
+<sup>37</sup> Seven days thou shalt make an atonement for the altar, and sanctify it; and it shall be an altar most holy: whatsoever toucheth the altar shall be holy.
 <sup>38</sup> Now this [is that] which thou shalt offer upon the altar; two lambs of the first year day by day continually.
 <sup>39</sup> The one lamb thou shalt offer in the morning; and the other lamb thou shalt offer at even:
 <sup>40</sup> And with the one lamb a tenth deal of flour mingled with the fourth part of an hin of beaten oil; and the fourth part of an hin of wine [for] a drink offering.
@@ -1035,7 +1035,7 @@
 <sup>3</sup> And no man shall come up with thee, neither let any man be seen throughout all the mount; neither let the flocks nor herds feed before that mount.
 <sup>4</sup> And he hewed two tables of stone like unto the first; and Moses rose up early in the morning, and went up unto mount Sinai, as the LORD had commanded him, and took in his hand the two tables of stone.
 <sup>5</sup> And the LORD descended in the cloud, and stood with him there, and proclaimed the name of the LORD.
-<sup>6</sup> And the LORD passed by before him, and proclaimed, The LORD, The LORD God, merciful and gracious, longsuffering , and abundant in goodness and truth,
+<sup>6</sup> And the LORD passed by before him, and proclaimed, The LORD, The LORD God, merciful and gracious, longsuffering, and abundant in goodness and truth,
 <sup>7</sup> Keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear [the guilty]; visiting the iniquity of the fathers upon the children, and upon the children’s children, unto the third and to the fourth [generation].
 <sup>8</sup> And Moses made haste, and bowed his head toward the earth, and worshipped.
 <sup>9</sup> And he said, If now I have found grace in thy sight, O Lord, let my Lord, I pray thee, go among us; for it [is] a stiffnecked people; and pardon our iniquity and our sin, and take us for thine inheritance.
@@ -1072,14 +1072,14 @@
 <sup>3</sup> Ye shall kindle no fire throughout your habitations upon the sabbath day.
 <sup>4</sup> And Moses spake unto all the congregation of the children of Israel, saying, This [is] the thing which the LORD commanded, saying,
 <sup>5</sup> Take ye from among you an offering unto the LORD: whosoever [is] of a willing heart, let him bring it, an offering of the LORD; gold, and silver, and brass,
-<sup>6</sup> And blue, and purple, and scarlet , and fine linen, and goats ’ [hair],
+<sup>6</sup> And blue, and purple, and scarlet, and fine linen, and goats ’ [hair],
 <sup>7</sup> And rams ’ skins dyed red, and badgers ’ skins, and shittim wood,
 <sup>8</sup> And oil for the light, and spices for anointing oil, and for the sweet incense,
 <sup>9</sup> And onyx stones, and stones to be set for the ephod, and for the breastplate.
 <sup>10</sup> And every wise hearted among you shall come, and make all that the LORD hath commanded;
 <sup>11</sup> The tabernacle, his tent, and his covering, his taches, and his boards, his bars, his pillars, and his sockets,
 <sup>12</sup> The ark, and the staves thereof, [with] the mercy seat, and the vail of the covering,
-<sup>13</sup> The table, and his staves, and all his vessels, and the shewbread ,
+<sup>13</sup> The table, and his staves, and all his vessels, and the shewbread,
 <sup>14</sup> The candlestick also for the light, and his furniture, and his lamps, with the oil for the light,
 <sup>15</sup> And the incense altar, and his staves, and the anointing oil, and the sweet incense, and the hanging for the door at the entering in of the tabernacle,
 <sup>16</sup> The altar of burnt offering, with his brasen grate, his staves, and all his vessels, the laver and his foot,
@@ -1089,9 +1089,9 @@
 <sup>20</sup> And all the congregation of the children of Israel departed from the presence of Moses.
 <sup>21</sup> And they came, every one whose heart stirred him up, and every one whom his spirit made willing, [and] they brought the LORD’S offering to the work of the tabernacle of the congregation, and for all his service, and for the holy garments.
 <sup>22</sup> And they came, both men and women, as many as were willing hearted, [and] brought bracelets, and earrings, and rings, and tablets, all jewels of gold: and every man that offered [offered] an offering of gold unto the LORD.
-<sup>23</sup> And every man, with whom was found blue, and purple, and scarlet , and fine linen, and goats ’ [hair], and red skins of rams, and badgers ’ skins, brought [them].
+<sup>23</sup> And every man, with whom was found blue, and purple, and scarlet, and fine linen, and goats ’ [hair], and red skins of rams, and badgers ’ skins, brought [them].
 <sup>24</sup> Every one that did offer an offering of silver and brass brought the LORD’S offering: and every man, with whom was found shittim wood for any work of the service, brought [it].
-<sup>25</sup> And all the women that were wise hearted did spin with their hands, and brought that which they had spun, [both] of blue, and of purple, [and] of scarlet , and of fine linen.
+<sup>25</sup> And all the women that were wise hearted did spin with their hands, and brought that which they had spun, [both] of blue, and of purple, [and] of scarlet, and of fine linen.
 <sup>26</sup> And all the women whose heart stirred them up in wisdom spun goats ’ [hair].
 <sup>27</sup> And the rulers brought onyx stones, and stones to be set, for the ephod, and for the breastplate;
 <sup>28</sup> And spice, and oil for the light, and for the anointing oil, and for the sweet incense.
@@ -1101,7 +1101,7 @@
 <sup>32</sup> And to devise curious works, to work in gold, and in silver, and in brass,
 <sup>33</sup> And in the cutting of stones, to set [them], and in carving of wood, to make any manner of cunning work.
 <sup>34</sup> And he hath put in his heart that he may teach, [both] he, and Aholiab, the son of Ahisamach, of the tribe of Dan.
-<sup>35</sup> Them hath he filled with wisdom of heart, to work all manner of work, of the engraver, and of the cunning workman, and of the embroiderer, in blue, and in purple, in scarlet , and in fine linen, and of the weaver, [even] of them that do any work, and of those that devise cunning work.
+<sup>35</sup> Them hath he filled with wisdom of heart, to work all manner of work, of the engraver, and of the cunning workman, and of the embroiderer, in blue, and in purple, in scarlet, and in fine linen, and of the weaver, [even] of them that do any work, and of those that devise cunning work.
 ## Chapter 36
 
 <sup>1</sup> Then wrought Bezaleel and Aholiab, and every wise hearted man, in whom the LORD put wisdom and understanding to know how to work all manner of work for the service of the sanctuary, according to all that the LORD had commanded.
@@ -1111,7 +1111,7 @@
 <sup>5</sup> And they spake unto Moses, saying, The people bring much more than enough for the service of the work, which the LORD commanded to make.
 <sup>6</sup> And Moses gave commandment, and they caused it to be proclaimed throughout the camp, saying, Let neither man nor woman make any more work for the offering of the sanctuary. So the people were restrained from bringing.
 <sup>7</sup> For the stuff they had was sufficient for all the work to make it, and too much.
-<sup>8</sup> And every wise hearted man among them that wrought the work of the tabernacle made ten curtains [of] fine twined linen, and blue, and purple, and scarlet : [with] cherubims of cunning work made he them.
+<sup>8</sup> And every wise hearted man among them that wrought the work of the tabernacle made ten curtains [of] fine twined linen, and blue, and purple, and scarlet: [with] cherubims of cunning work made he them.
 <sup>9</sup> The length of one curtain [was] twenty and eight cubits, and the breadth of one curtain four cubits: the curtains [were] all of one size.
 <sup>10</sup> And he coupled the five curtains one unto another: and [the other] five curtains he coupled one unto another.
 <sup>11</sup> And he made loops of blue on the edge of one curtain from the selvedge in the coupling: likewise he made in the uttermost side of [another] curtain, in the coupling of the second.
@@ -1133,14 +1133,14 @@
 <sup>27</sup> And for the sides of the tabernacle westward he made six boards.
 <sup>28</sup> And two boards made he for the corners of the tabernacle in the two sides.
 <sup>29</sup> And they were coupled beneath, and coupled together at the head thereof, to one ring: thus he did to both of them in both the corners.
-<sup>30</sup> And there were eight boards; and their sockets [were] sixteen sockets of silver, under every board two sockets .
+<sup>30</sup> And there were eight boards; and their sockets [were] sixteen sockets of silver, under every board two sockets.
 <sup>31</sup> And he made bars of shittim wood; five for the boards of the one side of the tabernacle,
 <sup>32</sup> And five bars for the boards of the other side of the tabernacle, and five bars for the boards of the tabernacle for the sides westward.
 <sup>33</sup> And he made the middle bar to shoot through the boards from the one end to the other.
 <sup>34</sup> And he overlaid the boards with gold, and made their rings [of] gold [to be] places for the bars, and overlaid the bars with gold.
-<sup>35</sup> And he made a vail [of] blue, and purple, and scarlet , and fine twined linen: [with] cherubims made he it of cunning work.
+<sup>35</sup> And he made a vail [of] blue, and purple, and scarlet, and fine twined linen: [with] cherubims made he it of cunning work.
 <sup>36</sup> And he made thereunto four pillars [of] shittim [wood], and overlaid them with gold: their hooks [were of] gold; and he cast for them four sockets of silver.
-<sup>37</sup> And he made an hanging for the tabernacle door [of] blue, and purple, and scarlet , and fine twined linen, of needlework ;
+<sup>37</sup> And he made an hanging for the tabernacle door [of] blue, and purple, and scarlet, and fine twined linen, of needlework;
 <sup>38</sup> And the five pillars of it with their hooks: and he overlaid their chapiters and their fillets with gold: but their five sockets [were of] brass.
 ## Chapter 37
 
@@ -1192,12 +1192,12 @@
 <sup>15</sup> And for the other side of the court gate, on this hand and that hand, [were] hangings of fifteen cubits; their pillars three, and their sockets three.
 <sup>16</sup> All the hangings of the court round about [were] of fine twined linen.
 <sup>17</sup> And the sockets for the pillars [were of] brass; the hooks of the pillars and their fillets [of] silver; and the overlaying of their chapiters [of] silver; and all the pillars of the court [were] filleted with silver.
-<sup>18</sup> And the hanging for the gate of the court [was] needlework , [of] blue, and purple, and scarlet , and fine twined linen: and twenty cubits [was] the length, and the height in the breadth [was] five cubits, answerable to the hangings of the court.
+<sup>18</sup> And the hanging for the gate of the court [was] needlework, [of] blue, and purple, and scarlet, and fine twined linen: and twenty cubits [was] the length, and the height in the breadth [was] five cubits, answerable to the hangings of the court.
 <sup>19</sup> And their pillars [were] four, and their sockets [of] brass four; their hooks [of] silver, and the overlaying of their chapiters and their fillets [of] silver.
 <sup>20</sup> And all the pins of the tabernacle, and of the court round about, [were of] brass.
 <sup>21</sup> This is the sum of the tabernacle, [even] of the tabernacle of testimony, as it was counted, according to the commandment of Moses, [for] the service of the Levites, by the hand of Ithamar, son to Aaron the priest.
 <sup>22</sup> And Bezaleel the son of Uri, the son of Hur, of the tribe of Judah, made all that the LORD commanded Moses.
-<sup>23</sup> And with him [was] Aholiab, son of Ahisamach, of the tribe of Dan, an engraver, and a cunning workman, and an embroiderer in blue, and in purple, and in scarlet , and fine linen.
+<sup>23</sup> And with him [was] Aholiab, son of Ahisamach, of the tribe of Dan, an engraver, and a cunning workman, and an embroiderer in blue, and in purple, and in scarlet, and fine linen.
 <sup>24</sup> All the gold that was occupied for the work in all the work of the holy [place], even the gold of the offering, was twenty and nine talents, and seven hundred and thirty shekels, after the shekel of the sanctuary.
 <sup>25</sup> And the silver of them that were numbered of the congregation [was] an hundred talents, and a thousand seven hundred and threescore and fifteen shekels, after the shekel of the sanctuary:
 <sup>26</sup> A bekah for every man, [that is], half a shekel, after the shekel of the sanctuary, for every one that went to be numbered, from twenty years old and upward, for six hundred thousand and three thousand and five hundred and fifty [men].
@@ -1208,20 +1208,20 @@
 <sup>31</sup> And the sockets of the court round about, and the sockets of the court gate, and all the pins of the tabernacle, and all the pins of the court round about.
 ## Chapter 39
 
-<sup>1</sup> And of the blue, and purple, and scarlet , they made cloths of service, to do service in the holy [place], and made the holy garments for Aaron; as the LORD commanded Moses.
-<sup>2</sup> And he made the ephod [of] gold, blue, and purple, and scarlet , and fine twined linen.
-<sup>3</sup> And they did beat the gold into thin plates, and cut [it into] wires, to work [it] in the blue, and in the purple, and in the scarlet , and in the fine linen, [with] cunning work.
+<sup>1</sup> And of the blue, and purple, and scarlet, they made cloths of service, to do service in the holy [place], and made the holy garments for Aaron; as the LORD commanded Moses.
+<sup>2</sup> And he made the ephod [of] gold, blue, and purple, and scarlet, and fine twined linen.
+<sup>3</sup> And they did beat the gold into thin plates, and cut [it into] wires, to work [it] in the blue, and in the purple, and in the scarlet, and in the fine linen, [with] cunning work.
 <sup>4</sup> They made shoulderpieces for it, to couple [it] together: by the two edges was it coupled together.
-<sup>5</sup> And the curious girdle of his ephod, that [was] upon it, [was] of the same, according to the work thereof; [of] gold, blue, and purple, and scarlet , and fine twined linen; as the LORD commanded Moses.
+<sup>5</sup> And the curious girdle of his ephod, that [was] upon it, [was] of the same, according to the work thereof; [of] gold, blue, and purple, and scarlet, and fine twined linen; as the LORD commanded Moses.
 <sup>6</sup> And they wrought onyx stones inclosed in ouches of gold, graven, as signets are graven, with the names of the children of Israel.
 <sup>7</sup> And he put them on the shoulders of the ephod, [that they should be] stones for a memorial to the children of Israel; as the LORD commanded Moses.
-<sup>8</sup> And he made the breastplate [of] cunning work, like the work of the ephod; [of] gold, blue, and purple, and scarlet , and fine twined linen.
+<sup>8</sup> And he made the breastplate [of] cunning work, like the work of the ephod; [of] gold, blue, and purple, and scarlet, and fine twined linen.
 <sup>9</sup> It was foursquare; they made the breastplate double: a span [was] the length thereof, and a span the breadth thereof, [being] doubled.
 <sup>10</sup> And they set in it four rows of stones: [the first] row [was] a sardius, a topaz, and a carbuncle: this [was] the first row.
 <sup>11</sup> And the second row, an emerald, a sapphire, and a diamond.
 <sup>12</sup> And the third row, a ligure, an agate, and an amethyst.
 <sup>13</sup> And the fourth row, a beryl, an onyx, and a jasper: [they were] inclosed in ouches of gold in their inclosings.
-<sup>14</sup> And the stones [were] according to the names of the children of Israel, twelve , according to their names, [like] the engravings of a signet, every one with his name, according to the twelve tribes.
+<sup>14</sup> And the stones [were] according to the names of the children of Israel, twelve, according to their names, [like] the engravings of a signet, every one with his name, according to the twelve tribes.
 <sup>15</sup> And they made upon the breastplate chains at the ends, [of] wreathen work [of] pure gold.
 <sup>16</sup> And they made two ouches [of] gold, and two gold rings; and put the two rings in the two ends of the breastplate.
 <sup>17</sup> And they put the two wreathen chains of gold in the two rings on the ends of the breastplate.
@@ -1231,19 +1231,19 @@
 <sup>21</sup> And they did bind the breastplate by his rings unto the rings of the ephod with a lace of blue, that it might be above the curious girdle of the ephod, and that the breastplate might not be loosed from the ephod; as the LORD commanded Moses.
 <sup>22</sup> And he made the robe of the ephod [of] woven work, all [of] blue.
 <sup>23</sup> And [there was] an hole in the midst of the robe, as the hole of an habergeon, [with] a band round about the hole, that it should not rend.
-<sup>24</sup> And they made upon the hems of the robe pomegranates [of] blue, and purple, and scarlet , [and] twined [linen].
+<sup>24</sup> And they made upon the hems of the robe pomegranates [of] blue, and purple, and scarlet, [and] twined [linen].
 <sup>25</sup> And they made bells [of] pure gold, and put the bells between the pomegranates upon the hem of the robe, round about between the pomegranates;
 <sup>26</sup> A bell and a pomegranate, a bell and a pomegranate, round about the hem of the robe to minister [in]; as the LORD commanded Moses.
 <sup>27</sup> And they made coats [of] fine linen [of] woven work for Aaron, and for his sons,
 <sup>28</sup> And a mitre [of] fine linen, and goodly bonnets [of] fine linen, and linen breeches [of] fine twined linen,
-<sup>29</sup> And a girdle [of] fine twined linen, and blue, and purple, and scarlet , [of] needlework ; as the LORD commanded Moses.
+<sup>29</sup> And a girdle [of] fine twined linen, and blue, and purple, and scarlet, [of] needlework; as the LORD commanded Moses.
 <sup>30</sup> And they made the plate of the holy crown [of] pure gold, and wrote upon it a writing, [like to] the engravings of a signet, HOLINESS TO THE LORD.
 <sup>31</sup> And they tied unto it a lace of blue, to fasten [it] on high upon the mitre; as the LORD commanded Moses.
 <sup>32</sup> Thus was all the work of the tabernacle of the tent of the congregation finished: and the children of Israel did according to all that the LORD commanded Moses, so did they.
 <sup>33</sup> And they brought the tabernacle unto Moses, the tent, and all his furniture, his taches, his boards, his bars, and his pillars, and his sockets,
 <sup>34</sup> And the covering of rams ’ skins dyed red, and the covering of badgers ’ skins, and the vail of the covering,
 <sup>35</sup> The ark of the testimony, and the staves thereof, and the mercy seat,
-<sup>36</sup> The table, [and] all the vessels thereof, and the shewbread ,
+<sup>36</sup> The table, [and] all the vessels thereof, and the shewbread,
 <sup>37</sup> The pure candlestick, [with] the lamps thereof, [even with] the lamps to be set in order, and all the vessels thereof, and the oil for light,
 <sup>38</sup> And the golden altar, and the anointing oil, and the sweet incense, and the hanging for the tabernacle door,
 <sup>39</sup> The brasen altar, and his grate of brass, his staves, and all his vessels, the laver and his foot,

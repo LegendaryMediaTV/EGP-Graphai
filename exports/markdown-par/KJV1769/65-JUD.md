@@ -7,7 +7,7 @@
 <sup>5</sup> I will therefore put you in remembrance, though ye once knew this, how that the Lord, having saved the people out of the land of Egypt, afterward destroyed them that believed not.
 <sup>6</sup> And the angels which kept not their first estate, but left their own habitation, he hath reserved in everlasting chains under darkness unto the judgment of the great day.
 <sup>7</sup> Even as Sodom and Gomorrha, and the cities about them in like manner, giving themselves over to fornication, and going after strange flesh, are set forth for an example, suffering the vengeance of eternal fire.
-<sup>8</sup> Likewise also these [filthy] dreamers defile the flesh , despise dominion, and speak evil of dignities.
+<sup>8</sup> Likewise also these [filthy] dreamers defile the flesh, despise dominion, and speak evil of dignities.
 <sup>9</sup> Yet Michael the archangel, when contending with the devil he disputed about the body of Moses, durst not bring against him a railing accusation, but said, The Lord rebuke thee.
 <sup>10</sup> But these speak evil of those things which they know not: but what they know naturally, as brute beasts, in those things they corrupt themselves.
 <sup>11</sup> Woe unto them! for they have gone in the way of Cain, and ran greedily after the error of Balaam for reward, and perished in the gainsaying of Core.
@@ -24,4 +24,4 @@
 <sup>22</sup> And of some have compassion, making a difference:
 <sup>23</sup> And others save with fear, pulling [them] out of the fire; hating even the garment spotted by the flesh.
 <sup>24</sup> Now unto him that is able to keep you from falling, and to present [you] faultless before the presence of his glory with exceeding joy,
-<sup>25</sup> To the only wise God, our Saviour, [be] glory and majesty, dominion and power, both now and ever . Amen.
+<sup>25</sup> To the only wise God, our Saviour, [be] glory and majesty, dominion and power, both now and ever. Amen.

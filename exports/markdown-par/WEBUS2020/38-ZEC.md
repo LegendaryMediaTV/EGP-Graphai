@@ -31,7 +31,7 @@
 <sup>21</sup> Then I asked, “What are these coming to do?” He said, “These are the horns which scattered Judah, so that no man lifted up his head; but these have come to terrify them, to cast down the horns of the nations that lifted up their horn against the land of Judah to scatter it.”
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
-> - <sup>b</sup> 8. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>b</sup> 8. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 
 ## Chapter 2
 
@@ -138,7 +138,7 @@
 
 <sup>15</sup> Those who are far off shall come and build in Yahweh’s temple; and you shall know that Yahweh of Armies has sent me to you. This will happen, if you will diligently obey Yahweh your God’s voice.” ’ ”<sup>a</sup>
 
-> - <sup>a</sup> 15. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>a</sup> 15. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 7
 
@@ -193,52 +193,52 @@
 <sup>23</sup> Yahweh of Armies says: “In those days, ten men out of all the languages of the nations will take hold of the skirt of him who is a Jew, saying, ‘We will go with you, for we have heard that God is with you.’ ”
 ## Chapter 9
 
-<sup>1</sup> A revelation. <br>Yahweh’s word is against the land of Hadrach, <br>and will rest upon Damascus— <br>for the eye of man <br>and of all the tribes of Israel is toward Yahweh— <br>
-<sup>2</sup> and Hamath, also, which borders on it, <br>Tyre and Sidon, because they are very wise. <br>
-<sup>3</sup> Tyre built herself a stronghold, <br>and heaped up silver like the dust, <br>and fine gold like the mire of the streets. <br>
-<sup>4</sup> Behold, the Lord will dispossess her, <br>and he will strike her power in the sea; <br>and she will be devoured with fire.
+<sup>1</sup> A revelation.<br>Yahweh’s word is against the land of Hadrach,<br>and will rest upon Damascus—<br>for the eye of man<br>and of all the tribes of Israel is toward Yahweh—<br>
+<sup>2</sup> and Hamath, also, which borders on it,<br>Tyre and Sidon, because they are very wise.<br>
+<sup>3</sup> Tyre built herself a stronghold,<br>and heaped up silver like the dust,<br>and fine gold like the mire of the streets.<br>
+<sup>4</sup> Behold, the Lord will dispossess her,<br>and he will strike her power in the sea;<br>and she will be devoured with fire.
 
-<sup>5</sup> Ashkelon will see it, and fear; <br>Gaza also, and will writhe in agony; <br>as will Ekron, for her expectation will be disappointed; <br>and the king will perish from Gaza, <br>and Ashkelon will not be inhabited. <br>
-<sup>6</sup> Foreigners will dwell in Ashdod, <br>and I will cut off the pride of the Philistines. <br>
-<sup>7</sup> I will take away his blood out of his mouth, <br>and his abominations from between his teeth; <br>and he also will be a remnant for our God; <br>and he will be as a chieftain in Judah, <br>and Ekron as a Jebusite. <br>
-<sup>8</sup> I will encamp around my house against the army, <br>that no one pass through or return; <br>and no oppressor will pass through them any more: <br>for now I have seen with my eyes.
+<sup>5</sup> Ashkelon will see it, and fear;<br>Gaza also, and will writhe in agony;<br>as will Ekron, for her expectation will be disappointed;<br>and the king will perish from Gaza,<br>and Ashkelon will not be inhabited.<br>
+<sup>6</sup> Foreigners will dwell in Ashdod,<br>and I will cut off the pride of the Philistines.<br>
+<sup>7</sup> I will take away his blood out of his mouth,<br>and his abominations from between his teeth;<br>and he also will be a remnant for our God;<br>and he will be as a chieftain in Judah,<br>and Ekron as a Jebusite.<br>
+<sup>8</sup> I will encamp around my house against the army,<br>that no one pass through or return;<br>and no oppressor will pass through them any more:<br>for now I have seen with my eyes.
 
-<sup>9</sup> Rejoice greatly, daughter of Zion! <br>Shout, daughter of Jerusalem! <br>Behold, your King comes to you! <br>He is righteous, and having salvation; <br>lowly, and riding on a donkey, <br>even on a colt, the foal of a donkey. <br>
-<sup>10</sup> I will cut off the chariot from Ephraim <br>and the horse from Jerusalem. <br>The battle bow will be cut off; <br>and he will speak peace to the nations. <br>His dominion will be from sea to sea, <br>and from the River to the ends of the earth.
+<sup>9</sup> Rejoice greatly, daughter of Zion!<br>Shout, daughter of Jerusalem!<br>Behold, your King comes to you!<br>He is righteous, and having salvation;<br>lowly, and riding on a donkey,<br>even on a colt, the foal of a donkey.<br>
+<sup>10</sup> I will cut off the chariot from Ephraim<br>and the horse from Jerusalem.<br>The battle bow will be cut off;<br>and he will speak peace to the nations.<br>His dominion will be from sea to sea,<br>and from the River to the ends of the earth.
 
-<sup>11</sup> As for you also, <br>because of the blood of your covenant, <br>I have set free your prisoners from the pit in which is no water. <br>
-<sup>12</sup> Turn to the stronghold, you prisoners of hope! <br>Even today I declare that I will restore double to you. <br>
-<sup>13</sup> For indeed I bend Judah as a bow for me. <br>I have loaded the bow with Ephraim. <br>I will stir up your sons, Zion, <br>against your sons, Greece, <br>and will make you like the sword of a mighty man.
+<sup>11</sup> As for you also,<br>because of the blood of your covenant,<br>I have set free your prisoners from the pit in which is no water.<br>
+<sup>12</sup> Turn to the stronghold, you prisoners of hope!<br>Even today I declare that I will restore double to you.<br>
+<sup>13</sup> For indeed I bend Judah as a bow for me.<br>I have loaded the bow with Ephraim.<br>I will stir up your sons, Zion,<br>against your sons, Greece,<br>and will make you like the sword of a mighty man.
 
-<sup>14</sup> Yahweh will be seen over them. <br>His arrow will flash like lightning. <br>The Lord Yahweh will blow the trumpet, <br>and will go with whirlwinds of the south. <br>
-<sup>15</sup> Yahweh of Armies will defend them. <br>They will destroy and overcome with sling stones. <br>They will drink, and roar as through wine. <br>They will be filled like bowls, <br>like the corners of the altar.
+<sup>14</sup> Yahweh will be seen over them.<br>His arrow will flash like lightning.<br>The Lord Yahweh will blow the trumpet,<br>and will go with whirlwinds of the south.<br>
+<sup>15</sup> Yahweh of Armies will defend them.<br>They will destroy and overcome with sling stones.<br>They will drink, and roar as through wine.<br>They will be filled like bowls,<br>like the corners of the altar.
 
-<sup>16</sup> Yahweh their God will save them in that day as the flock of his people; <br>for they are like the jewels of a crown, <br>lifted on high over his land. <br>
-<sup>17</sup> For how great is his goodness, <br>and how great is his beauty! <br>Grain will make the young men flourish, <br>and new wine the virgins.
+<sup>16</sup> Yahweh their God will save them in that day as the flock of his people;<br>for they are like the jewels of a crown,<br>lifted on high over his land.<br>
+<sup>17</sup> For how great is his goodness,<br>and how great is his beauty!<br>Grain will make the young men flourish,<br>and new wine the virgins.
 ## Chapter 10
 
-<sup>1</sup> Ask of Yahweh rain in the spring time, <br>Yahweh who makes storm clouds, <br>and he gives rain showers to everyone for the plants in the field. <br>
-<sup>2</sup> For the teraphim<sup>a</sup> have spoken vanity, <br>and the diviners have seen a lie; <br>and they have told false dreams. <br>They comfort in vain. <br>Therefore they go their way like sheep. <br>They are oppressed, because there is no shepherd.
+<sup>1</sup> Ask of Yahweh rain in the spring time,<br>Yahweh who makes storm clouds,<br>and he gives rain showers to everyone for the plants in the field.<br>
+<sup>2</sup> For the teraphim<sup>a</sup> have spoken vanity,<br>and the diviners have seen a lie;<br>and they have told false dreams.<br>They comfort in vain.<br>Therefore they go their way like sheep.<br>They are oppressed, because there is no shepherd.
 
-<sup>3</sup> My anger is kindled against the shepherds, <br>and I will punish the male goats, <br>for Yahweh of Armies has visited his flock, the house of Judah, <br>and will make them as his majestic horse in the battle. <br>
-<sup>4</sup> From him will come the cornerstone, <br>from him the tent peg, <br>from him the battle bow, <br>from him every ruler together. <br>
-<sup>5</sup> They will be as mighty men, <br>treading down muddy streets in the battle. <br>They will fight, because Yahweh is with them. <br>The riders on horses will be confounded.
+<sup>3</sup> My anger is kindled against the shepherds,<br>and I will punish the male goats,<br>for Yahweh of Armies has visited his flock, the house of Judah,<br>and will make them as his majestic horse in the battle.<br>
+<sup>4</sup> From him will come the cornerstone,<br>from him the tent peg,<br>from him the battle bow,<br>from him every ruler together.<br>
+<sup>5</sup> They will be as mighty men,<br>treading down muddy streets in the battle.<br>They will fight, because Yahweh is with them.<br>The riders on horses will be confounded.
 
-<sup>6</sup> “I will strengthen the house of Judah, <br>and I will save the house of Joseph. <br>I will bring them back, <br>for I have mercy on them. <br>They will be as though I had not cast them off, <br>for I am Yahweh their God, and I will hear them. <br>
-<sup>7</sup> Ephraim will be like a mighty man, <br>and their heart will rejoice as through wine. <br>Yes, their children will see it and rejoice. <br>Their heart will be glad in Yahweh. <br>
-<sup>8</sup> I will signal for them and gather them, <br>for I have redeemed them. <br>They will increase as they were before. <br>
-<sup>9</sup> I will sow them among the peoples. <br>They will remember me in far countries. <br>They will live with their children and will return. <br>
-<sup>10</sup> I will bring them again also out of the land of Egypt, <br>and gather them out of Assyria. <br>I will bring them into the land of Gilead and Lebanon; <br>and there won’t be room enough for them. <br>
-<sup>11</sup> He will pass through the sea of affliction, <br>and will strike the waves in the sea, <br>and all the depths of the Nile will dry up; <br>and the pride of Assyria will be brought down, <br>and the scepter of Egypt will depart. <br>
-<sup>12</sup> I will strengthen them in Yahweh. <br>They will walk up and down in his name,” says Yahweh.
+<sup>6</sup> “I will strengthen the house of Judah,<br>and I will save the house of Joseph.<br>I will bring them back,<br>for I have mercy on them.<br>They will be as though I had not cast them off,<br>for I am Yahweh their God, and I will hear them.<br>
+<sup>7</sup> Ephraim will be like a mighty man,<br>and their heart will rejoice as through wine.<br>Yes, their children will see it and rejoice.<br>Their heart will be glad in Yahweh.<br>
+<sup>8</sup> I will signal for them and gather them,<br>for I have redeemed them.<br>They will increase as they were before.<br>
+<sup>9</sup> I will sow them among the peoples.<br>They will remember me in far countries.<br>They will live with their children and will return.<br>
+<sup>10</sup> I will bring them again also out of the land of Egypt,<br>and gather them out of Assyria.<br>I will bring them into the land of Gilead and Lebanon;<br>and there won’t be room enough for them.<br>
+<sup>11</sup> He will pass through the sea of affliction,<br>and will strike the waves in the sea,<br>and all the depths of the Nile will dry up;<br>and the pride of Assyria will be brought down,<br>and the scepter of Egypt will depart.<br>
+<sup>12</sup> I will strengthen them in Yahweh.<br>They will walk up and down in his name,” says Yahweh.
 
 > - <sup>a</sup> 2. teraphim were household idols that may have been associated with inheritance rights to the household property.
 
 ## Chapter 11
 
-<sup>1</sup> Open your doors, Lebanon, <br>that the fire may devour your cedars. <br>
-<sup>2</sup> Wail, cypress tree, for the cedar has fallen, <br>because the stately ones are destroyed. <br>Wail, you oaks of Bashan, <br>for the strong forest has come down. <br>
-<sup>3</sup> A voice of the wailing of the shepherds! <br>For their glory is destroyed—a voice of the roaring of young lions! <br>For the pride of the Jordan is ruined.
+<sup>1</sup> Open your doors, Lebanon,<br>that the fire may devour your cedars.<br>
+<sup>2</sup> Wail, cypress tree, for the cedar has fallen,<br>because the stately ones are destroyed.<br>Wail, you oaks of Bashan,<br>for the strong forest has come down.<br>
+<sup>3</sup> A voice of the wailing of the shepherds!<br>For their glory is destroyed—a voice of the roaring of young lions!<br>For the pride of the Jordan is ruined.
 
 <sup>4</sup> Yahweh my God says: “Feed the flock of slaughter.
 <sup>5</sup> Their buyers slaughter them and go unpunished. Those who sell them say, ‘Blessed be Yahweh, for I am rich;’ and their own shepherds don’t pity them.
@@ -288,9 +288,9 @@
 <sup>5</sup> but he will say, ‘I am no prophet, I am a tiller of the ground; for I have been made a bondservant from my youth.’
 <sup>6</sup> One will say to him, ‘What are these wounds between your arms?’ Then he will answer, ‘Those with which I was wounded in the house of my friends.’
 
-<sup>7</sup> “Awake, sword, against my shepherd, <br>and against the man who is close to me,” says Yahweh of Armies. <br>“Strike the shepherd, and the sheep will be scattered; <br>and I will turn my hand against the little ones. <br>
-<sup>8</sup> It shall happen that in all the land,” says Yahweh, <br>“two parts in it will be cut off and die; <br>but the third will be left in it. <br>
-<sup>9</sup> I will bring the third part into the fire, <br>and will refine them as silver is refined, <br>and will test them like gold is tested. <br>They will call on my name, and I will hear them. <br>I will say, ‘It is my people;’ <br>and they will say, ‘Yahweh is my God.’ ”
+<sup>7</sup> “Awake, sword, against my shepherd,<br>and against the man who is close to me,” says Yahweh of Armies.<br>“Strike the shepherd, and the sheep will be scattered;<br>and I will turn my hand against the little ones.<br>
+<sup>8</sup> It shall happen that in all the land,” says Yahweh,<br>“two parts in it will be cut off and die;<br>but the third will be left in it.<br>
+<sup>9</sup> I will bring the third part into the fire,<br>and will refine them as silver is refined,<br>and will test them like gold is tested.<br>They will call on my name, and I will hear them.<br>I will say, ‘It is my people;’<br>and they will say, ‘Yahweh is my God.’ ”
 ## Chapter 14
 
 <sup>1</sup> Behold, a day of Yahweh comes, when your plunder will be divided within you.

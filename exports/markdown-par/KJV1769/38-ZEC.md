@@ -134,7 +134,7 @@
 <sup>20</sup> Thus saith the LORD of hosts; [It shall] yet [come to pass], that there shall come people, and the inhabitants of many cities:
 <sup>21</sup> And the inhabitants of one [city] shall go to another, saying, Let us go speedily to pray before the LORD, and to seek the LORD of hosts: I will go also.
 <sup>22</sup> Yea, many people and strong nations shall come to seek the LORD of hosts in Jerusalem, and to pray before the LORD.
-<sup>23</sup> Thus saith the LORD of hosts; In those days [it shall come to pass], that ten men shall take hold out of all languages of the nations, even shall take hold of the skirt of him that is a Jew , saying, We will go with you: for we have heard [that] God [is] with you.
+<sup>23</sup> Thus saith the LORD of hosts; In those days [it shall come to pass], that ten men shall take hold out of all languages of the nations, even shall take hold of the skirt of him that is a Jew, saying, We will go with you: for we have heard [that] God [is] with you.
 ## Chapter 9
 
 <sup>1</sup> The burden of the word of the LORD in the land of Hadrach, and Damascus [shall be] the rest thereof: when the eyes of man, as of all the tribes of Israel, [shall be] toward the LORD.
@@ -191,7 +191,7 @@
 
 <sup>1</sup> The burden of the word of the LORD for Israel, saith the LORD, which stretcheth forth the heavens, and layeth the foundation of the earth, and formeth the spirit of man within him.
 <sup>2</sup> Behold, I will make Jerusalem a cup of trembling unto all the people round about, when they shall be in the siege both against Judah [and] against Jerusalem.
-<sup>3</sup> And in that day will I make Jerusalem a burdensome stone for all people: all that burden themselves with it shall be cut in pieces , though all the people of the earth be gathered together against it.
+<sup>3</sup> And in that day will I make Jerusalem a burdensome stone for all people: all that burden themselves with it shall be cut in pieces, though all the people of the earth be gathered together against it.
 <sup>4</sup> In that day, saith the LORD, I will smite every horse with astonishment, and his rider with madness: and I will open mine eyes upon the house of Judah, and will smite every horse of the people with blindness.
 <sup>5</sup> And the governors of Judah shall say in their heart, The inhabitants of Jerusalem [shall be] my strength in the LORD of hosts their God.
 <sup>6</sup> In that day will I make the governors of Judah like an hearth of fire among the wood, and like a torch of fire in a sheaf; and they shall devour all the people round about, on the right hand and on the left: and Jerusalem shall be inhabited again in her own place, [even] in Jerusalem.
@@ -209,7 +209,7 @@
 <sup>2</sup> And it shall come to pass in that day, saith the LORD of hosts, [that] I will cut off the names of the idols out of the land, and they shall no more be remembered: and also I will cause the prophets and the unclean spirit to pass out of the land.
 <sup>3</sup> And it shall come to pass, [that] when any shall yet prophesy, then his father and his mother that begat him shall say unto him, Thou shalt not live; for thou speakest lies in the name of the LORD: and his father and his mother that begat him shall thrust him through when he prophesieth.
 <sup>4</sup> And it shall come to pass in that day, [that] the prophets shall be ashamed every one of his vision, when he hath prophesied; neither shall they wear a rough garment to deceive:
-<sup>5</sup> But he shall say, I [am] no prophet, I [am] an husbandman ; for man taught me to keep cattle from my youth.
+<sup>5</sup> But he shall say, I [am] no prophet, I [am] an husbandman; for man taught me to keep cattle from my youth.
 <sup>6</sup> And [one] shall say unto him, What [are] these wounds in thine hands? Then he shall answer, [Those] with which I was wounded [in] the house of my friends.
 <sup>7</sup> Awake, O sword, against my shepherd, and against the man [that is] my fellow, saith the LORD of hosts: smite the shepherd, and the sheep shall be scattered: and I will turn mine hand upon the little ones.
 <sup>8</sup> And it shall come to pass, [that] in all the land, saith the LORD, two parts therein shall be cut off [and] die; but the third shall be left therein.
@@ -221,7 +221,7 @@
 <sup>3</sup> Then shall the LORD go forth, and fight against those nations, as when he fought in the day of battle.
 <sup>4</sup> And his feet shall stand in that day upon the mount of Olives, which [is] before Jerusalem on the east, and the mount of Olives shall cleave in the midst thereof toward the east and toward the west, [and there shall be] a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south.
 <sup>5</sup> And ye shall flee [to] the valley of the mountains; for the valley of the mountains shall reach unto Azal: yea, ye shall flee, like as ye fled from before the earthquake in the days of Uzziah king of Judah: and the LORD my God shall come, [and] all the saints with thee.
-<sup>6</sup> And it shall come to pass in that day, [that] the light shall not be clear, [nor] dark :
+<sup>6</sup> And it shall come to pass in that day, [that] the light shall not be clear, [nor] dark:
 <sup>7</sup> But it shall be one day which shall be known to the LORD, not day, nor night: but it shall come to pass, [that] at evening time it shall be light.
 <sup>8</sup> And it shall be in that day, [that] living waters shall go out from Jerusalem; half of them toward the former sea, and half of them toward the hinder sea: in summer and in winter shall it be.
 <sup>9</sup> And the LORD shall be king over all the earth: in that day shall there be one LORD, and his name one.

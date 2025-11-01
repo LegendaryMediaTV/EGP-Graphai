@@ -25,7 +25,7 @@
 <sup>10</sup> When Sanballat the Horonite, and Tobiah the servant, the Ammonite, heard [of it], it grieved them exceedingly that there was come a man to seek the welfare of the children of Israel.
 <sup>11</sup> So I came to Jerusalem, and was there three days.
 <sup>12</sup> And I arose in the night, I and some few men with me; neither told I [any] man what my God had put in my heart to do at Jerusalem: neither [was there any] beast with me, save the beast that I rode upon.
-<sup>13</sup> And I went out by night by the gate of the valley, even before the dragon well , and to the dung port, and viewed (8675) the walls of Jerusalem, which were broken down, and the gates thereof were consumed with fire.
+<sup>13</sup> And I went out by night by the gate of the valley, even before the dragon well, and to the dung port, and viewed (8675) the walls of Jerusalem, which were broken down, and the gates thereof were consumed with fire.
 <sup>14</sup> Then I went on to the gate of the fountain, and to the king’s pool: but [there was] no place for the beast [that was] under me to pass.
 <sup>15</sup> Then went I up in the night by the brook, and viewed (8675) the wall, and turned back, and entered by the gate of the valley, and [so] returned.
 <sup>16</sup> And the rulers knew not whither I went, or what I did; neither had I as yet told [it] to the Jews, nor to the priests, nor to the nobles, nor to the rulers, nor to the rest that did the work.
@@ -75,13 +75,13 @@
 <sup>4</sup> Hear, O our God; for we are despised: and turn their reproach upon their own head, and give them for a prey in the land of captivity:
 <sup>5</sup> And cover not their iniquity, and let not their sin be blotted out from before thee: for they have provoked [thee] to anger before the builders.
 <sup>6</sup> So built we the wall; and all the wall was joined together unto the half thereof: for the people had a mind to work.
-<sup>7</sup> But it came to pass, [that] when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that the walls of Jerusalem were made up , [and] that the breaches began to be stopped, then they were very wroth,
+<sup>7</sup> But it came to pass, [that] when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that the walls of Jerusalem were made up, [and] that the breaches began to be stopped, then they were very wroth,
 <sup>8</sup> And conspired all of them together to come [and] to fight against Jerusalem, and to hinder it.
 <sup>9</sup> Nevertheless we made our prayer unto our God, and set a watch against them day and night, because of them.
 <sup>10</sup> And Judah said, The strength of the bearers of burdens is decayed, and [there is] much rubbish; so that we are not able to build the wall.
 <sup>11</sup> And our adversaries said, They shall not know, neither see, till we come in the midst among them, and slay them, and cause the work to cease.
 <sup>12</sup> And it came to pass, that when the Jews which dwelt by them came, they said unto us ten times, From all places whence ye shall return unto us [they will be upon you].
-<sup>13</sup> Therefore set I in the lower places behind the wall, [and] on the higher places , I even set the people after their families with their swords, their spears, and their bows.
+<sup>13</sup> Therefore set I in the lower places behind the wall, [and] on the higher places, I even set the people after their families with their swords, their spears, and their bows.
 <sup>14</sup> And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of the people, Be not ye afraid of them: remember the Lord, [which is] great and terrible, and fight for your brethren, your sons, and your daughters, your wives, and your houses.
 <sup>15</sup> And it came to pass, when our enemies heard that it was known unto us, and God had brought their counsel to nought, that we returned all of us to the wall, every one unto his work.
 <sup>16</sup> And it came to pass from that time forth, [that] the half of my servants wrought in the work, and the other half of them held both the spears, the shields, and the bows, and the habergeons; and the rulers [were] behind all the house of Judah.
@@ -146,7 +146,7 @@
 <sup>8</sup> The children of Parosh, two thousand an hundred seventy and two.
 <sup>9</sup> The children of Shephatiah, three hundred seventy and two.
 <sup>10</sup> The children of Arah, six hundred fifty and two.
-<sup>11</sup> The children of Pahathmoab, of the children of Jeshua and Joab, two thousand and eight hundred [and] eighteen .
+<sup>11</sup> The children of Pahathmoab, of the children of Jeshua and Joab, two thousand and eight hundred [and] eighteen.
 <sup>12</sup> The children of Elam, a thousand two hundred fifty and four.
 <sup>13</sup> The children of Zattu, eight hundred forty and five.
 <sup>14</sup> The children of Zaccai, seven hundred and threescore.
@@ -159,7 +159,7 @@
 <sup>21</sup> The children of Ater of Hezekiah, ninety and eight.
 <sup>22</sup> The children of Hashum, three hundred twenty and eight.
 <sup>23</sup> The children of Bezai, three hundred twenty and four.
-<sup>24</sup> The children of Hariph, an hundred and twelve .
+<sup>24</sup> The children of Hariph, an hundred and twelve.
 <sup>25</sup> The children of Gibeon, ninety and five.
 <sup>26</sup> The men of Bethlehem and Netophah, an hundred fourscore and eight.
 <sup>27</sup> The men of Anathoth, an hundred twenty and eight.
@@ -177,7 +177,7 @@
 <sup>39</sup> The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three.
 <sup>40</sup> The children of Immer, a thousand fifty and two.
 <sup>41</sup> The children of Pashur, a thousand two hundred forty and seven.
-<sup>42</sup> The children of Harim, a thousand and seventeen .
+<sup>42</sup> The children of Harim, a thousand and seventeen.
 <sup>43</sup> The Levites: the children of Jeshua, of Kadmiel, [and] of the children of Hodevah, seventy and four.
 <sup>44</sup> The singers: the children of Asaph, an hundred forty and eight.
 <sup>45</sup> The porters: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, an hundred thirty and eight.
@@ -187,7 +187,7 @@
 <sup>49</sup> The children of Hanan, the children of Giddel, the children of Gahar,
 <sup>50</sup> The children of Reaiah, the children of Rezin, the children of Nekoda,
 <sup>51</sup> The children of Gazzam, the children of Uzza, the children of Phaseah,
-<sup>52</sup> The children of Besai, the children of Meunim, the children of Nephishesim ,
+<sup>52</sup> The children of Besai, the children of Meunim, the children of Nephishesim,
 <sup>53</sup> The children of Bakbuk, the children of Hakupha, the children of Harhur,
 <sup>54</sup> The children of Bazlith, the children of Mehida, the children of Harsha,
 <sup>55</sup> The children of Barkos, the children of Sisera, the children of Tamah,
@@ -213,7 +213,7 @@
 
 <sup>1</sup> And all the people gathered themselves together as one man into the street that [was] before the water gate; and they spake unto Ezra the scribe to bring the book of the law of Moses, which the LORD had commanded to Israel.
 <sup>2</sup> And Ezra the priest brought the law before the congregation both of men and women, and all that could hear with understanding, upon the first day of the seventh month.
-<sup>3</sup> And he read therein before the street that [was] before the water gate from the morning until midday , before the men and the women, and those that could understand; and the ears of all the people [were attentive] unto the book of the law.
+<sup>3</sup> And he read therein before the street that [was] before the water gate from the morning until midday, before the men and the women, and those that could understand; and the ears of all the people [were attentive] unto the book of the law.
 <sup>4</sup> And Ezra the scribe stood upon a pulpit of wood, which they had made for the purpose; and beside him stood Mattithiah, and Shema, and Anaiah, and Urijah, and Hilkiah, and Maaseiah, on his right hand; and on his left hand, Pedaiah, and Mishael, and Malchiah, and Hashum, and Hashbadana, Zechariah, [and] Meshullam.
 <sup>5</sup> And Ezra opened the book in the sight of all the people; (for he was above all the people;) and when he opened it, all the people stood up:
 <sup>6</sup> And Ezra blessed the LORD, the great God. And all the people answered, Amen, Amen, with lifting up their hands: and they bowed their heads, and worshipped the LORD with [their] faces to the ground.
@@ -225,14 +225,14 @@
 <sup>12</sup> And all the people went their way to eat, and to drink, and to send portions, and to make great mirth, because they had understood the words that were declared unto them.
 <sup>13</sup> And on the second day were gathered together the chief of the fathers of all the people, the priests, and the Levites, unto Ezra the scribe, even to understand the words of the law.
 <sup>14</sup> And they found written in the law which the LORD had commanded by Moses, that the children of Israel should dwell in booths in the feast of the seventh month:
-<sup>15</sup> And that they should publish and proclaim in all their cities, and in Jerusalem, saying, Go forth unto the mount, and fetch olive branches, and pine branches , and myrtle branches, and palm branches, and branches of thick trees, to make booths, as [it is] written.
+<sup>15</sup> And that they should publish and proclaim in all their cities, and in Jerusalem, saying, Go forth unto the mount, and fetch olive branches, and pine branches, and myrtle branches, and palm branches, and branches of thick trees, to make booths, as [it is] written.
 <sup>16</sup> So the people went forth, and brought [them], and made themselves booths, every one upon the roof of his house, and in their courts, and in the courts of the house of God, and in the street of the water gate, and in the street of the gate of Ephraim.
 <sup>17</sup> And all the congregation of them that were come again out of the captivity made booths, and sat under the booths: for since the days of Jeshua the son of Nun unto that day had not the children of Israel done so. And there was very great gladness.
 <sup>18</sup> Also day by day, from the first day unto the last day, he read in the book of the law of God. And they kept the feast seven days; and on the eighth day [was] a solemn assembly, according unto the manner.
 ## Chapter 9
 
 <sup>1</sup> Now in the twenty and fourth day of this month the children of Israel were assembled with fasting, and with sackclothes, and earth upon them.
-<sup>2</sup> And the seed of Israel separated themselves from all strangers , and stood and confessed their sins, and the iniquities of their fathers.
+<sup>2</sup> And the seed of Israel separated themselves from all strangers, and stood and confessed their sins, and the iniquities of their fathers.
 <sup>3</sup> And they stood up in their place, and read in the book of the law of the LORD their God [one] fourth part of the day; and [another] fourth part they confessed, and worshipped the LORD their God.
 <sup>4</sup> Then stood up upon the stairs, of the Levites, Jeshua, and Bani, Kadmiel, Shebaniah, Bunni, Sherebiah, Bani, [and] Chenani, and cried with a loud voice unto the LORD their God.
 <sup>5</sup> Then the Levites, Jeshua, and Kadmiel, Bani, Hashabniah, Sherebiah, Hodijah, Shebaniah, [and] Pethahiah, said, Stand up [and] bless the LORD your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise.
@@ -303,7 +303,7 @@
 <sup>30</sup> And that we would not give our daughters unto the people of the land, nor take their daughters for our sons:
 <sup>31</sup> And [if] the people of the land bring ware or any victuals on the sabbath day to sell, [that] we would not buy it of them on the sabbath, or on the holy day: and [that] we would leave the seventh year, and the exaction of every debt.
 <sup>32</sup> Also we made ordinances for us, to charge ourselves yearly with the third part of a shekel for the service of the house of our God;
-<sup>33</sup> For the shewbread , and for the continual meat offering, and for the continual burnt offering, of the sabbaths, of the new moons, for the set feasts, and for the holy [things], and for the sin offerings to make an atonement for Israel, and [for] all the work of the house of our God.
+<sup>33</sup> For the shewbread, and for the continual meat offering, and for the continual burnt offering, of the sabbaths, of the new moons, for the set feasts, and for the holy [things], and for the sin offerings to make an atonement for Israel, and [for] all the work of the house of our God.
 <sup>34</sup> And we cast the lots among the priests, the Levites, and the people, for the wood offering, to bring [it] into the house of our God, after the houses of our fathers, at times appointed year by year, to burn upon the altar of the LORD our God, as [it is] written in the law:
 <sup>35</sup> And to bring the firstfruits of our ground, and the firstfruits of all fruit of all trees, year by year, unto the house of the LORD:
 <sup>36</sup> Also the firstborn of our sons, and of our cattle, as [it is] written in the law, and the firstlings of our herds and of our flocks, to bring to the house of our God, unto the priests that minister in the house of our God:
@@ -346,7 +346,7 @@
 <sup>32</sup> [And] at Anathoth, Nob, Ananiah,
 <sup>33</sup> Hazor, Ramah, Gittaim,
 <sup>34</sup> Hadid, Zeboim, Neballat,
-<sup>35</sup> Lod, and Ono, the valley of craftsmen .
+<sup>35</sup> Lod, and Ono, the valley of craftsmen.
 <sup>36</sup> And of the Levites [were] divisions [in] Judah, [and] in Benjamin.
 ## Chapter 12
 
@@ -378,7 +378,7 @@
 <sup>26</sup> These [were] in the days of Joiakim the son of Jeshua, the son of Jozadak, and in the days of Nehemiah the governor, and of Ezra the priest, the scribe.
 <sup>27</sup> And at the dedication of the wall of Jerusalem they sought the Levites out of all their places, to bring them to Jerusalem, to keep the dedication with gladness, both with thanksgivings, and with singing, [with] cymbals, psalteries, and with harps.
 <sup>28</sup> And the sons of the singers gathered themselves together, both out of the plain country round about Jerusalem, and from the villages of Netophathi;
-<sup>29</sup> Also from the house of Gilgal , and out of the fields of Geba and Azmaveth: for the singers had builded them villages round about Jerusalem.
+<sup>29</sup> Also from the house of Gilgal, and out of the fields of Geba and Azmaveth: for the singers had builded them villages round about Jerusalem.
 <sup>30</sup> And the priests and the Levites purified themselves, and purified the people, and the gates, and the wall.
 <sup>31</sup> Then I brought up the princes of Judah upon the wall, and appointed two great [companies of them that gave] thanks, [whereof one] went on the right hand upon the wall toward the dung gate:
 <sup>32</sup> And after them went Hoshaiah, and half of the princes of Judah,
@@ -414,7 +414,7 @@
 <sup>13</sup> And I made treasurers over the treasuries, Shelemiah the priest, and Zadok the scribe, and of the Levites, Pedaiah: and next to them [was] Hanan the son of Zaccur, the son of Mattaniah: for they were counted faithful, and their office [was] to distribute unto their brethren.
 <sup>14</sup> Remember me, O my God, concerning this, and wipe not out my good deeds that I have done for the house of my God, and for the offices thereof.
 <sup>15</sup> In those days saw I in Judah [some] treading wine presses on the sabbath, and bringing in sheaves, and lading asses; as also wine, grapes, and figs, and all [manner of] burdens, which they brought into Jerusalem on the sabbath day: and I testified [against them] in the day wherein they sold victuals.
-<sup>16</sup> There dwelt men of Tyre also therein, which brought fish , and all manner of ware, and sold on the sabbath unto the children of Judah, and in Jerusalem.
+<sup>16</sup> There dwelt men of Tyre also therein, which brought fish, and all manner of ware, and sold on the sabbath unto the children of Judah, and in Jerusalem.
 <sup>17</sup> Then I contended with the nobles of Judah, and said unto them, What evil thing [is] this that ye do, and profane the sabbath day?
 <sup>18</sup> Did not your fathers thus, and did not our God bring all this evil upon us, and upon this city? yet ye bring more wrath upon Israel by profaning the sabbath.
 <sup>19</sup> And it came to pass, that when the gates of Jerusalem began to be dark before the sabbath, I commanded that the gates should be shut, and charged that they should not be opened till after the sabbath: and [some] of my servants set I at the gates, [that] there should no burden be brought in on the sabbath day.

@@ -21,8 +21,8 @@
 <sup>17</sup> I applied my heart to know wisdom, and to know madness and folly. I perceived that this also was a chasing after wind.
 <sup>18</sup> For in much wisdom is much grief; and he who increases knowledge increases sorrow.
 
-> - <sup>a</sup> 10. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
-> - <sup>b</sup> 13. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>a</sup> 10. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>b</sup> 13. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 2
 
@@ -58,14 +58,14 @@
 <sup>26</sup> For to the man who pleases him, God gives wisdom, knowledge, and joy; but to the sinner he gives travail, to gather and to heap up, that he may give to him who pleases God. This also is vanity and a chasing after wind.
 ## Chapter 3
 
-<sup>1</sup> For everything there is a season, and a time for every purpose under heaven: <br>
-<sup>2</sup> a time to be born, <br>and a time to die; <br>a time to plant, <br>and a time to pluck up that which is planted; <br>
-<sup>3</sup> a time to kill, <br>and a time to heal; <br>a time to break down, <br>and a time to build up; <br>
-<sup>4</sup> a time to weep, <br>and a time to laugh; <br>a time to mourn, <br>and a time to dance; <br>
-<sup>5</sup> a time to cast away stones, <br>and a time to gather stones together; <br>a time to embrace, <br>and a time to refrain from embracing; <br>
-<sup>6</sup> a time to seek, <br>and a time to lose; <br>a time to keep, <br>and a time to cast away; <br>
-<sup>7</sup> a time to tear, <br>and a time to sew; <br>a time to keep silence, <br>and a time to speak; <br>
-<sup>8</sup> a time to love, <br>and a time to hate; <br>a time for war, <br>and a time for peace.
+<sup>1</sup> For everything there is a season, and a time for every purpose under heaven:<br>
+<sup>2</sup> a time to be born,<br>and a time to die;<br>a time to plant,<br>and a time to pluck up that which is planted;<br>
+<sup>3</sup> a time to kill,<br>and a time to heal;<br>a time to break down,<br>and a time to build up;<br>
+<sup>4</sup> a time to weep,<br>and a time to laugh;<br>a time to mourn,<br>and a time to dance;<br>
+<sup>5</sup> a time to cast away stones,<br>and a time to gather stones together;<br>a time to embrace,<br>and a time to refrain from embracing;<br>
+<sup>6</sup> a time to seek,<br>and a time to lose;<br>a time to keep,<br>and a time to cast away;<br>
+<sup>7</sup> a time to tear,<br>and a time to sew;<br>a time to keep silence,<br>and a time to speak;<br>
+<sup>8</sup> a time to love,<br>and a time to hate;<br>a time for war,<br>and a time for peace.
 
 <sup>9</sup> What profit has he who works in that in which he labors?
 <sup>10</sup> I have seen the burden which God has given to the sons of men to be afflicted with.
@@ -234,8 +234,8 @@
 
 ## Chapter 10
 
-<sup>1</sup> Dead flies cause the oil of the perfumer to produce an evil odor; <br>so does a little folly outweigh wisdom and honor. <br>
-<sup>2</sup> A wise man’s heart is at his right hand, <br>but a fool’s heart at his left.
+<sup>1</sup> Dead flies cause the oil of the perfumer to produce an evil odor;<br>so does a little folly outweigh wisdom and honor.<br>
+<sup>2</sup> A wise man’s heart is at his right hand,<br>but a fool’s heart at his left.
 <sup>3</sup> Yes also when the fool walks by the way, his understanding fails him, and he says to everyone that he is a fool.
 <sup>4</sup> If the spirit of the ruler rises up against you, don’t leave your place; for gentleness lays great offenses to rest.
 
@@ -250,34 +250,34 @@
 <sup>12</sup> The words of a wise man’s mouth are gracious; but a fool is swallowed by his own lips.
 <sup>13</sup> The beginning of the words of his mouth is foolishness; and the end of his talk is mischievous madness.
 <sup>14</sup> A fool also multiplies words. Man doesn’t know what will be; and that which will be after him, who can tell him?
-<sup>15</sup> The labor of fools wearies every one of them; for he doesn’t know how to go to the city. <br>
-<sup>16</sup> Woe to you, land, when your king is a child, <br>and your princes eat in the morning! <br>
-<sup>17</sup> Happy are you, land, when your king is the son of nobles, <br>and your princes eat in due season, <br>for strength, and not for drunkenness! <br>
-<sup>18</sup> By slothfulness the roof sinks in; <br>and through idleness of the hands the house leaks. <br>
-<sup>19</sup> A feast is made for laughter, <br>and wine makes the life glad; <br>and money is the answer for all things. <br>
-<sup>20</sup> Don’t curse the king, no, not in your thoughts; <br>and don’t curse the rich in your bedroom, <br>for a bird of the sky may carry your voice, <br>and that which has wings may tell the matter.
+<sup>15</sup> The labor of fools wearies every one of them; for he doesn’t know how to go to the city.<br>
+<sup>16</sup> Woe to you, land, when your king is a child,<br>and your princes eat in the morning!<br>
+<sup>17</sup> Happy are you, land, when your king is the son of nobles,<br>and your princes eat in due season,<br>for strength, and not for drunkenness!<br>
+<sup>18</sup> By slothfulness the roof sinks in;<br>and through idleness of the hands the house leaks.<br>
+<sup>19</sup> A feast is made for laughter,<br>and wine makes the life glad;<br>and money is the answer for all things.<br>
+<sup>20</sup> Don’t curse the king, no, not in your thoughts;<br>and don’t curse the rich in your bedroom,<br>for a bird of the sky may carry your voice,<br>and that which has wings may tell the matter.
 ## Chapter 11
 
-<sup>1</sup> Cast your bread on the waters; <br>for you shall find it after many days. <br>
-<sup>2</sup> Give a portion to seven, yes, even to eight; <br>for you don’t know what evil will be on the earth. <br>
-<sup>3</sup> If the clouds are full of rain, they empty themselves on the earth; <br>and if a tree falls toward the south, or toward the north, <br>in the place where the tree falls, there shall it be. <br>
-<sup>4</sup> He who observes the wind won’t sow; <br>and he who regards the clouds won’t reap. <br>
-<sup>5</sup> As you don’t know what is the way of the wind, <br>nor how the bones grow in the womb of her who is with child; <br>even so you don’t know the work of God who does all. <br>
-<sup>6</sup> In the morning sow your seed, <br>and in the evening don’t withhold your hand; <br>for you don’t know which will prosper, whether this or that, <br>or whether they both will be equally good. <br>
-<sup>7</sup> Truly the light is sweet, <br>and it is a pleasant thing for the eyes to see the sun. <br>
-<sup>8</sup> Yes, if a man lives many years, let him rejoice in them all; <br>but let him remember the days of darkness, for they shall be many. <br>All that comes is vanity. <br>
-<sup>9</sup> Rejoice, young man, in your youth, <br>and let your heart cheer you in the days of your youth, <br>and walk in the ways of your heart, <br>and in the sight of your eyes; <br>but know that for all these things God will bring you into judgment. <br>
-<sup>10</sup> Therefore remove sorrow from your heart, <br>and put away evil from your flesh; <br>for youth and the dawn of life are vanity.
+<sup>1</sup> Cast your bread on the waters;<br>for you shall find it after many days.<br>
+<sup>2</sup> Give a portion to seven, yes, even to eight;<br>for you don’t know what evil will be on the earth.<br>
+<sup>3</sup> If the clouds are full of rain, they empty themselves on the earth;<br>and if a tree falls toward the south, or toward the north,<br>in the place where the tree falls, there shall it be.<br>
+<sup>4</sup> He who observes the wind won’t sow;<br>and he who regards the clouds won’t reap.<br>
+<sup>5</sup> As you don’t know what is the way of the wind,<br>nor how the bones grow in the womb of her who is with child;<br>even so you don’t know the work of God who does all.<br>
+<sup>6</sup> In the morning sow your seed,<br>and in the evening don’t withhold your hand;<br>for you don’t know which will prosper, whether this or that,<br>or whether they both will be equally good.<br>
+<sup>7</sup> Truly the light is sweet,<br>and it is a pleasant thing for the eyes to see the sun.<br>
+<sup>8</sup> Yes, if a man lives many years, let him rejoice in them all;<br>but let him remember the days of darkness, for they shall be many.<br>All that comes is vanity.<br>
+<sup>9</sup> Rejoice, young man, in your youth,<br>and let your heart cheer you in the days of your youth,<br>and walk in the ways of your heart,<br>and in the sight of your eyes;<br>but know that for all these things God will bring you into judgment.<br>
+<sup>10</sup> Therefore remove sorrow from your heart,<br>and put away evil from your flesh;<br>for youth and the dawn of life are vanity.
 ## Chapter 12
 
-<sup>1</sup> Remember also your Creator in the days of your youth, <br>before the evil days come, and the years draw near, <br>when you will say, “I have no pleasure in them;” <br>
-<sup>2</sup> Before the sun, the light, the moon, and the stars are darkened, <br>and the clouds return after the rain; <br>
-<sup>3</sup> in the day when the keepers of the house shall tremble, <br>and the strong men shall bow themselves, <br>and the grinders cease because they are few, <br>and those who look out of the windows are darkened, <br>
-<sup>4</sup> and the doors shall be shut in the street; <br>when the sound of the grinding is low, <br>and one shall rise up at the voice of a bird, <br>and all the daughters of music shall be brought low; <br>
-<sup>5</sup> yes, they shall be afraid of heights, <br>and terrors will be on the way; <br>and the almond tree shall blossom, <br>and the grasshopper shall be a burden, <br>and desire shall fail; <br>because man goes to his everlasting home, <br>and the mourners go about the streets; <br>
-<sup>6</sup> before the silver cord is severed, <br>or the golden bowl is broken, <br>or the pitcher is broken at the spring, <br>or the wheel broken at the cistern, <br>
-<sup>7</sup> and the dust returns to the earth as it was, <br>and the spirit returns to God who gave it. <br>
-<sup>8</sup> “Vanity of vanities,” says the Preacher. <br>“All is vanity!”
+<sup>1</sup> Remember also your Creator in the days of your youth,<br>before the evil days come, and the years draw near,<br>when you will say, “I have no pleasure in them;”<br>
+<sup>2</sup> Before the sun, the light, the moon, and the stars are darkened,<br>and the clouds return after the rain;<br>
+<sup>3</sup> in the day when the keepers of the house shall tremble,<br>and the strong men shall bow themselves,<br>and the grinders cease because they are few,<br>and those who look out of the windows are darkened,<br>
+<sup>4</sup> and the doors shall be shut in the street;<br>when the sound of the grinding is low,<br>and one shall rise up at the voice of a bird,<br>and all the daughters of music shall be brought low;<br>
+<sup>5</sup> yes, they shall be afraid of heights,<br>and terrors will be on the way;<br>and the almond tree shall blossom,<br>and the grasshopper shall be a burden,<br>and desire shall fail;<br>because man goes to his everlasting home,<br>and the mourners go about the streets;<br>
+<sup>6</sup> before the silver cord is severed,<br>or the golden bowl is broken,<br>or the pitcher is broken at the spring,<br>or the wheel broken at the cistern,<br>
+<sup>7</sup> and the dust returns to the earth as it was,<br>and the spirit returns to God who gave it.<br>
+<sup>8</sup> “Vanity of vanities,” says the Preacher.<br>“All is vanity!”
 
 <sup>9</sup> Further, because the Preacher was wise, he still taught the people knowledge. Yes, he pondered, sought out, and set in order many proverbs.
 <sup>10</sup> The Preacher sought to find out acceptable words, and that which was written blamelessly, words of truth.

@@ -24,7 +24,7 @@
 <sup>17</sup> For he was counted with us, and received his portion in this ministry.
 <sup>18</sup> Now this man obtained a field with the reward for his wickedness; and falling headlong, his body burst open and all his intestines gushed out.
 <sup>19</sup> It became known to everyone who lived in Jerusalem that in their language that field was called ‘Akeldama,’ that is, ‘The field of blood.’
-<sup>20</sup> For it is written in the book of Psalms, <br>‘Let his habitation be made desolate. <br>Let no one dwell in it;’<sup>b</sup> and, <br>‘Let another take his office.’<sup>c</sup>
+<sup>20</sup> For it is written in the book of Psalms,<br>‘Let his habitation be made desolate.<br>Let no one dwell in it;’<sup>b</sup> and,<br>‘Let another take his office.’<sup>c</sup>
 
 <sup>21</sup> “Of the men therefore who have accompanied us all the time that the Lord Jesus went in and out among us,
 <sup>22</sup> beginning from the baptism of John to the day that he was received up from us, of these one must become a witness with us of his resurrection.”
@@ -57,27 +57,27 @@
 
 <sup>14</sup> But Peter, standing up with the eleven, lifted up his voice and spoke out to them, “You men of Judea and all you who dwell at Jerusalem, let this be known to you, and listen to my words.
 <sup>15</sup> For these aren’t drunken, as you suppose, seeing it is only the third hour of the day.<sup>a</sup>
-<sup>16</sup> But this is what has been spoken through the prophet Joel: <br>
-<sup>17</sup> ‘It will be in the last days, says God, <br>that I will pour out my Spirit on all flesh. <br>Your sons and your daughters will prophesy. <br>Your young men will see visions. <br>Your old men will dream dreams. <br>
-<sup>18</sup> Yes, and on my servants and on my handmaidens in those days, <br>I will pour out my Spirit, and they will prophesy. <br>
-<sup>19</sup> I will show wonders in the sky above, <br>and signs on the earth beneath: <br>blood, and fire, and billows of smoke. <br>
-<sup>20</sup> The sun will be turned into darkness, <br>and the moon into blood, <br>before the great and glorious day of the Lord comes. <br>
+<sup>16</sup> But this is what has been spoken through the prophet Joel:<br>
+<sup>17</sup> ‘It will be in the last days, says God,<br>that I will pour out my Spirit on all flesh.<br>Your sons and your daughters will prophesy.<br>Your young men will see visions.<br>Your old men will dream dreams.<br>
+<sup>18</sup> Yes, and on my servants and on my handmaidens in those days,<br>I will pour out my Spirit, and they will prophesy.<br>
+<sup>19</sup> I will show wonders in the sky above,<br>and signs on the earth beneath:<br>blood, and fire, and billows of smoke.<br>
+<sup>20</sup> The sun will be turned into darkness,<br>and the moon into blood,<br>before the great and glorious day of the Lord comes.<br>
 <sup>21</sup> It will be that whoever will call on the name of the Lord will be saved.’<sup>b</sup>
 
 <sup>22</sup> “Men of Israel, hear these words! Jesus of Nazareth, a man approved by God to you by mighty works and wonders and signs which God did by him among you, even as you yourselves know,
 <sup>23</sup> him, being delivered up by the determined counsel and foreknowledge of God, you have taken by the hand of lawless men, crucified and killed;
 <sup>24</sup> whom God raised up, having freed him from the agony of death, because it was not possible that he should be held by it.
-<sup>25</sup> For David says concerning him, <br>‘I saw the Lord always before my face, <br>for he is on my right hand, that I should not be moved. <br>
-<sup>26</sup> Therefore my heart was glad, and my tongue rejoiced. <br>Moreover my flesh also will dwell in hope, <br>
-<sup>27</sup> because you will not leave my soul in Hades,<sup>c</sup> <br>neither will you allow your Holy One to see decay. <br>
-<sup>28</sup> You made known to me the ways of life. <br>You will make me full of gladness with your presence.’<sup>d</sup>
+<sup>25</sup> For David says concerning him,<br>‘I saw the Lord always before my face,<br>for he is on my right hand, that I should not be moved.<br>
+<sup>26</sup> Therefore my heart was glad, and my tongue rejoiced.<br>Moreover my flesh also will dwell in hope,<br>
+<sup>27</sup> because you will not leave my soul in Hades,<sup>c</sup><br>neither will you allow your Holy One to see decay.<br>
+<sup>28</sup> You made known to me the ways of life.<br>You will make me full of gladness with your presence.’<sup>d</sup>
 
 <sup>29</sup> “Brothers, I may tell you freely of the patriarch David, that he both died and was buried, and his tomb is with us to this day.
 <sup>30</sup> Therefore, being a prophet, and knowing that God had sworn with an oath to him that of the fruit of his body, according to the flesh, he would raise up the Christ<sup>e</sup> to sit on his throne,
 <sup>31</sup> he foreseeing this, spoke about the resurrection of the Christ, that his soul wasn’t left in Hades,<sup>f</sup> and his flesh didn’t see decay.
 <sup>32</sup> This Jesus God raised up, to which we all are witnesses.
 <sup>33</sup> Being therefore exalted by the right hand of God, and having received from the Father the promise of the Holy Spirit, he has poured out this which you now see and hear.
-<sup>34</sup> For David didn’t ascend into the heavens, but he says himself, <br>‘The Lord said to my Lord, “Sit by my right hand <br>
+<sup>34</sup> For David didn’t ascend into the heavens, but he says himself,<br>‘The Lord said to my Lord, “Sit by my right hand<br>
 <sup>35</sup> until I make your enemies a footstool for your feet.” ’<sup>g</sup>
 
 <sup>36</sup> “Let all the house of Israel therefore know certainly that God has made him both Lord and Christ, this Jesus whom you crucified.”
@@ -173,8 +173,8 @@
 
 <sup>23</sup> Being let go, they came to their own company and reported all that the chief priests and the elders had said to them.
 <sup>24</sup> When they heard it, they lifted up their voice to God with one accord and said, “O Lord, you are God, who made the heaven, the earth, the sea, and all that is in them;
-<sup>25</sup> who by the mouth of your servant David, said, <br>‘Why do the nations rage, <br>and the peoples plot a vain thing? <br>
-<sup>26</sup> The kings of the earth take a stand, <br>and the rulers plot together, <br>against the Lord, and against his Christ.’<sup>b</sup>
+<sup>25</sup> who by the mouth of your servant David, said,<br>‘Why do the nations rage,<br>and the peoples plot a vain thing?<br>
+<sup>26</sup> The kings of the earth take a stand,<br>and the rulers plot together,<br>against the Lord, and against his Christ.’<sup>b</sup>
 
 <sup>27</sup> “For truly,<sup>c</sup> both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,
 <sup>28</sup> to do whatever your hand and your counsel foreordained to happen.
@@ -323,15 +323,15 @@
 <sup>39</sup> to whom our fathers wouldn’t be obedient, but rejected him and turned back in their hearts to Egypt,
 <sup>40</sup> saying to Aaron, ‘Make us gods that will go before us, for as for this Moses who led us out of the land of Egypt, we don’t know what has become of him.’<sup>h</sup>
 <sup>41</sup> They made a calf in those days, and brought a sacrifice to the idol, and rejoiced in the works of their hands.
-<sup>42</sup> But God turned away and gave them up to serve the army of the sky,<sup>i</sup> as it is written in the book of the prophets, <br>‘Did you offer to me slain animals and sacrifices <br>forty years in the wilderness, O house of Israel? <br>
-<sup>43</sup> You took up the tabernacle of Moloch, <br>the star of your god Rephan, <br>the figures which you made to worship, <br>so I will carry you away<sup>j</sup> beyond Babylon.’
+<sup>42</sup> But God turned away and gave them up to serve the army of the sky,<sup>i</sup> as it is written in the book of the prophets,<br>‘Did you offer to me slain animals and sacrifices<br>forty years in the wilderness, O house of Israel?<br>
+<sup>43</sup> You took up the tabernacle of Moloch,<br>the star of your god Rephan,<br>the figures which you made to worship,<br>so I will carry you away<sup>j</sup> beyond Babylon.’
 
 <sup>44</sup> “Our fathers had the tabernacle of the testimony in the wilderness, even as he who spoke to Moses commanded him to make it according to the pattern that he had seen;
 <sup>45</sup> which also our fathers, in their turn, brought in with Joshua when they entered into the possession of the nations whom God drove out before the face of our fathers to the days of David,
 <sup>46</sup> who found favor in the sight of God, and asked to find a habitation for the God of Jacob.
 <sup>47</sup> But Solomon built him a house.
-<sup>48</sup> However, the Most High doesn’t dwell in temples made with hands, as the prophet says, <br>
-<sup>49</sup> ‘heaven is my throne, <br>and the earth a footstool for my feet. <br>What kind of house will you build me?’ says the Lord. <br>‘Or what is the place of my rest? <br>
+<sup>48</sup> However, the Most High doesn’t dwell in temples made with hands, as the prophet says,<br>
+<sup>49</sup> ‘heaven is my throne,<br>and the earth a footstool for my feet.<br>What kind of house will you build me?’ says the Lord.<br>‘Or what is the place of my rest?<br>
 <sup>50</sup> Didn’t my hand make all these things?’<sup>k</sup>
 
 <sup>51</sup> “You stiff-necked and uncircumcised in heart and ears, you always resist the Holy Spirit! As your fathers did, so you do.
@@ -401,8 +401,8 @@
 <sup>30</sup> Philip ran to him, and heard him reading Isaiah the prophet, and said, “Do you understand what you are reading?”
 
 <sup>31</sup> He said, “How can I, unless someone explains it to me?” He begged Philip to come up and sit with him.
-<sup>32</sup> Now the passage of the Scripture which he was reading was this, <br>“He was led as a sheep to the slaughter. <br>As a lamb before his shearer is silent, <br>so he doesn’t open his mouth. <br>
-<sup>33</sup> In his humiliation, his judgment was taken away. <br>Who will declare His generation? <br>For his life is taken from the earth.”<sup>a</sup>
+<sup>32</sup> Now the passage of the Scripture which he was reading was this,<br>“He was led as a sheep to the slaughter.<br>As a lamb before his shearer is silent,<br>so he doesn’t open his mouth.<br>
+<sup>33</sup> In his humiliation, his judgment was taken away.<br>Who will declare His generation?<br>For his life is taken from the earth.”<sup>a</sup>
 
 <sup>34</sup> The eunuch answered Philip, “Who is the prophet talking about? About himself, or about someone else?”
 
@@ -668,7 +668,7 @@
 <sup>30</sup> But God raised him from the dead,
 <sup>31</sup> and he was seen for many days by those who came up with him from Galilee to Jerusalem, who are his witnesses to the people.
 <sup>32</sup> We bring you good news of the promise made to the fathers,
-<sup>33</sup> that God has fulfilled this to us, their children, in that he raised up Jesus. As it is also written in the second psalm, <br>‘You are my Son. <br>Today I have become your father.’<sup>d</sup>
+<sup>33</sup> that God has fulfilled this to us, their children, in that he raised up Jesus. As it is also written in the second psalm,<br>‘You are my Son.<br>Today I have become your father.’<sup>d</sup>
 
 <sup>34</sup> “Concerning that he raised him up from the dead, now no more to return to corruption, he has spoken thus: ‘I will give you the holy and sure blessings of David.’<sup>e</sup>
 <sup>35</sup> Therefore he says also in another psalm, ‘You will not allow your Holy One to see decay.’<sup>f</sup>
@@ -676,8 +676,8 @@
 <sup>37</sup> But he whom God raised up saw no decay.
 <sup>38</sup> Be it known to you therefore, brothers,<sup>g</sup> that through this man is proclaimed to you remission of sins;
 <sup>39</sup> and by him everyone who believes is justified from all things, from which you could not be justified by the law of Moses.
-<sup>40</sup> Beware therefore, lest that come on you which is spoken in the prophets: <br>
-<sup>41</sup> ‘Behold, you scoffers! <br>Wonder and perish, <br>for I work a work in your days, <br>a work which you will in no way believe, if one declares it to you.’ ”<sup>h</sup>
+<sup>40</sup> Beware therefore, lest that come on you which is spoken in the prophets:<br>
+<sup>41</sup> ‘Behold, you scoffers!<br>Wonder and perish,<br>for I work a work in your days,<br>a work which you will in no way believe, if one declares it to you.’ ”<sup>h</sup>
 
 <sup>42</sup> So when the Jews went out of the synagogue, the Gentiles begged that these words might be preached to them the next Sabbath.
 <sup>43</sup> Now when the synagogue broke up, many of the Jews and of the devout proselytes followed Paul and Barnabas; who, speaking to them, urged them to continue in the grace of God.
@@ -686,7 +686,7 @@
 <sup>45</sup> But when the Jews saw the multitudes, they were filled with jealousy, and contradicted the things which were spoken by Paul, and blasphemed.
 
 <sup>46</sup> Paul and Barnabas spoke out boldly, and said, “It was necessary that God’s word should be spoken to you first. Since indeed you thrust it from yourselves, and judge yourselves unworthy of eternal life, behold, we turn to the Gentiles.
-<sup>47</sup> For so has the Lord commanded us, saying, <br>‘I have set you as a light for the Gentiles, <br>that you should bring salvation to the uttermost parts of the earth.’ ”<sup>i</sup>
+<sup>47</sup> For so has the Lord commanded us, saying,<br>‘I have set you as a light for the Gentiles,<br>that you should bring salvation to the uttermost parts of the earth.’ ”<sup>i</sup>
 
 <sup>48</sup> As the Gentiles heard this, they were glad and glorified the word of God. As many as were appointed to eternal life believed.
 <sup>49</sup> The Lord’s word was spread abroad throughout all the region.
@@ -763,9 +763,9 @@
 <sup>12</sup> All the multitude kept silence, and they listened to Barnabas and Paul reporting what signs and wonders God had done among the nations through them.
 <sup>13</sup> After they were silent, James answered, “Brothers, listen to me.
 <sup>14</sup> Simeon has reported how God first visited the nations to take out of them a people for his name.
-<sup>15</sup> This agrees with the words of the prophets. As it is written, <br>
-<sup>16</sup> ‘After these things I will return. <br>I will again build the tabernacle of David, which has fallen. <br>I will again build its ruins. <br>I will set it up
-<sup>17</sup> that the rest of men may seek after the Lord: <br>all the Gentiles who are called by my name, <br>says the Lord, who does all these things.’<sup>c</sup>
+<sup>15</sup> This agrees with the words of the prophets. As it is written,<br>
+<sup>16</sup> ‘After these things I will return.<br>I will again build the tabernacle of David, which has fallen.<br>I will again build its ruins.<br>I will set it up
+<sup>17</sup> that the rest of men may seek after the Lord:<br>all the Gentiles who are called by my name,<br>says the Lord, who does all these things.’<sup>c</sup>
 
 <sup>18</sup> “All of God’s works are known to him from eternity.
 <sup>19</sup> Therefore my judgment is that we don’t trouble those from among the Gentiles who turn to God,
@@ -1415,8 +1415,8 @@
 <sup>23</sup> When they had appointed him a day, many people came to him at his lodging. He explained to them, testifying about God’s Kingdom, and persuading them concerning Jesus, both from the law of Moses and from the prophets, from morning until evening.
 <sup>24</sup> Some believed the things which were spoken, and some disbelieved.
 <sup>25</sup> When they didn’t agree among themselves, they departed after Paul had spoken one message: “The Holy Spirit spoke rightly through Isaiah the prophet to our fathers,
-<sup>26</sup> saying, <br>‘Go to this people and say, <br>in hearing, you will hear, <br>but will in no way understand. <br>In seeing, you will see, <br>but will in no way perceive. <br>
-<sup>27</sup> For this people’s heart has grown callous. <br>Their ears are dull of hearing. <br>Their eyes they have closed. <br>Lest they should see with their eyes, <br>hear with their ears, <br>understand with their heart, <br>and would turn again, <br>then I would heal them.’<sup>c</sup>
+<sup>26</sup> saying,<br>‘Go to this people and say,<br>in hearing, you will hear,<br>but will in no way understand.<br>In seeing, you will see,<br>but will in no way perceive.<br>
+<sup>27</sup> For this people’s heart has grown callous.<br>Their ears are dull of hearing.<br>Their eyes they have closed.<br>Lest they should see with their eyes,<br>hear with their ears,<br>understand with their heart,<br>and would turn again,<br>then I would heal them.’<sup>c</sup>
 
 <sup>28</sup> “Be it known therefore to you that the salvation of God is sent to the nations, and they will listen.”
 

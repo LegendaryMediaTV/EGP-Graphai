@@ -139,7 +139,7 @@
 <sup>24</sup> These things contain an allegory, for these are two covenants. One is from Mount Sinai, bearing children to bondage, which is Hagar.
 <sup>25</sup> For this Hagar is Mount Sinai in Arabia, and answers to the Jerusalem that exists now, for she is in bondage with her children.
 <sup>26</sup> But the Jerusalem that is above is free, which is the mother of us all.
-<sup>27</sup> For it is written, <br>“Rejoice, you barren who don’t bear. <br>Break out and shout, you who don’t travail. <br>For the desolate women have more children than her who has a husband.”<sup>b</sup>
+<sup>27</sup> For it is written,<br>“Rejoice, you barren who don’t bear.<br>Break out and shout, you who don’t travail.<br>For the desolate women have more children than her who has a husband.”<sup>b</sup>
 
 <sup>28</sup> Now we, brothers, as Isaac was, are children of promise.
 <sup>29</sup> But as then, he who was born according to the flesh persecuted him who was born according to the Spirit, so also it is now.

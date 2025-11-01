@@ -5,7 +5,7 @@
 <sup>3</sup> We give thanks to God and the Father of our Lord Jesus Christ, praying always for you,
 <sup>4</sup> Since we heard of your faith in Christ Jesus, and of the love [which ye have] to all the saints,
 <sup>5</sup> For the hope which is laid up for you in heaven, whereof ye heard before in the word of the truth of the gospel;
-<sup>6</sup> Which is come unto you, as [it is] in all the world; and bringeth forth fruit , as [it doth] also in you, since the day ye heard [of it], and knew the grace of God in truth:
+<sup>6</sup> Which is come unto you, as [it is] in all the world; and bringeth forth fruit, as [it doth] also in you, since the day ye heard [of it], and knew the grace of God in truth:
 <sup>7</sup> As ye also learned of Epaphras our dear fellowservant, who is for you a faithful minister of Christ;
 <sup>8</sup> Who also declared unto us your love in the Spirit.
 <sup>9</sup> For this cause we also, since the day we heard [it], do not cease to pray for you, and to desire that ye might be filled with the knowledge of his will in all wisdom and spiritual understanding;
@@ -28,7 +28,7 @@
 <sup>26</sup> [Even] the mystery which hath been hid from ages and from generations, but now is made manifest to his saints:
 <sup>27</sup> To whom God would make known what [is] the riches of the glory of this mystery among the Gentiles; which is Christ in you, the hope of glory:
 <sup>28</sup> Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus:
-<sup>29</sup> Whereunto I also labour, striving according to his working, which worketh in me mightily .
+<sup>29</sup> Whereunto I also labour, striving according to his working, which worketh in me mightily.
 ## Chapter 2
 
 <sup>1</sup> For I would that ye knew what great conflict I have for you, and [for] them at Laodicea, and [for] as many as have not seen my face in the flesh;
@@ -45,7 +45,7 @@
 <sup>12</sup> Buried with him in baptism, wherein also ye are risen with [him] through the faith of the operation of God, who hath raised him from the dead.
 <sup>13</sup> And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, having forgiven you all trespasses;
 <sup>14</sup> Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to his cross;
-<sup>15</sup> [And] having spoiled principalities and powers, he made a shew of them openly , triumphing over them in it.
+<sup>15</sup> [And] having spoiled principalities and powers, he made a shew of them openly, triumphing over them in it.
 <sup>16</sup> Let no man therefore judge you in meat, or in drink, or in respect of an holyday, or of the new moon, or of the sabbath [days]:
 <sup>17</sup> Which are a shadow of things to come; but the body [is] of Christ.
 <sup>18</sup> Let no man beguile you of your reward in a voluntary humility and worshipping of angels, intruding into those things which he hath not seen, vainly puffed up by his fleshly mind,
@@ -64,7 +64,7 @@
 <sup>6</sup> For which things’ sake the wrath of God cometh on the children of disobedience:
 <sup>7</sup> In the which ye also walked some time, when ye lived in them.
 <sup>8</sup> But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.
-<sup>9</sup> Lie not one to another , seeing that ye have put off the old man with his deeds;
+<sup>9</sup> Lie not one to another, seeing that ye have put off the old man with his deeds;
 <sup>10</sup> And have put on the new [man], which is renewed in knowledge after the image of him that created him:
 <sup>11</sup> Where there is neither Greek nor Jew, circumcision nor uncircumcision, Barbarian, Scythian, bond [nor] free: but Christ [is] all, and in all.
 <sup>12</sup> Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, longsuffering;
@@ -78,7 +78,7 @@
 <sup>20</sup> Children, obey [your] parents in all things: for this is well pleasing unto the Lord.
 <sup>21</sup> Fathers, provoke not your children [to anger], lest they be discouraged.
 <sup>22</sup> Servants, obey in all things [your] masters according to the flesh; not with eyeservice, as menpleasers; but in singleness of heart, fearing God:
-<sup>23</sup> And whatsoever ye do, do [it] heartily , as to the Lord, and not unto men;
+<sup>23</sup> And whatsoever ye do, do [it] heartily, as to the Lord, and not unto men;
 <sup>24</sup> Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.
 <sup>25</sup> But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons.
 ## Chapter 4

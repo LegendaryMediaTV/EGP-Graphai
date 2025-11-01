@@ -21,22 +21,22 @@
 <sup>19</sup> For I know that this shall turn to my salvation through your prayer, and the supply of the Spirit of Jesus Christ,
 <sup>20</sup> According to my earnest expectation and [my] hope, that in nothing I shall be ashamed, but [that] with all boldness, as always, [so] now also Christ shall be magnified in my body, whether [it be] by life, or by death.
 <sup>21</sup> For to me to live [is] Christ, and to die [is] gain.
-<sup>22</sup> But if I live in the flesh, this [is] the fruit of my labour : yet what I shall choose I wot not.
+<sup>22</sup> But if I live in the flesh, this [is] the fruit of my labour: yet what I shall choose I wot not.
 <sup>23</sup> For I am in a strait betwixt two, having a desire to depart, and to be with Christ; which is far better:
 <sup>24</sup> Nevertheless to abide in the flesh [is] more needful for you.
 <sup>25</sup> And having this confidence, I know that I shall abide and continue with you all for your furtherance and joy of faith;
 <sup>26</sup> That your rejoicing may be more abundant in Jesus Christ for me by my coming to you again.
 <sup>27</sup> Only let your conversation be as it becometh the gospel of Christ: that whether I come and see you, or else be absent, I may hear of your affairs, that ye stand fast in one spirit, with one mind striving together for the faith of the gospel;
 <sup>28</sup> And in nothing terrified by your adversaries: which is to them an evident token of perdition, but to you of salvation, and that of God.
-<sup>29</sup> For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake ;
+<sup>29</sup> For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake;
 <sup>30</sup> Having the same conflict which ye saw in me, and now hear [to be] in me.
 ## Chapter 2
 
 <sup>1</sup> If [there be] therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit, if any bowels and mercies,
-<sup>2</sup> Fulfil ye my joy, that ye be likeminded , having the same love, [being] of one accord, of one mind.
+<sup>2</sup> Fulfil ye my joy, that ye be likeminded, having the same love, [being] of one accord, of one mind.
 <sup>3</sup> [Let] nothing [be done] through strife or vainglory; but in lowliness of mind let each esteem other better than themselves.
 <sup>4</sup> Look not every man on his own things, but every man also on the things of others.
-<sup>5</sup> Let this mind be in you, which was also in Christ Jesus:
+<sup>5</sup>  Let this mind be in you, which was also in Christ Jesus:
 <sup>6</sup> Who, being in the form of God, thought it not robbery to be equal with God:
 <sup>7</sup> But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:
 <sup>8</sup> And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross.
@@ -98,7 +98,7 @@
 <sup>9</sup> Those things, which ye have both learned, and received, and heard, and seen in me, do: and the God of peace shall be with you.
 <sup>10</sup> But I rejoiced in the Lord greatly, that now at the last your care of me hath flourished again; wherein ye were also careful, but ye lacked opportunity.
 <sup>11</sup> Not that I speak in respect of want: for I have learned, in whatsoever state I am, [therewith] to be content.
-<sup>12</sup> I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.
+<sup>12</sup>  I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.
 <sup>13</sup> I can do all things through Christ which strengtheneth me.
 <sup>14</sup> Notwithstanding ye have well done, that ye did communicate with my affliction.
 <sup>15</sup> Now ye Philippians know also, that in the beginning of the gospel, when I departed from Macedonia, no church communicated with me as concerning giving and receiving, but ye only.

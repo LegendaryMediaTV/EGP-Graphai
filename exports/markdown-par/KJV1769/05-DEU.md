@@ -22,7 +22,7 @@
 <sup>20</sup> And I said unto you, Ye are come unto the mountain of the Amorites, which the LORD our God doth give unto us.
 <sup>21</sup> Behold, the LORD thy God hath set the land before thee: go up [and] possess [it], as the LORD God of thy fathers hath said unto thee; fear not, neither be discouraged.
 <sup>22</sup> And ye came near unto me every one of you, and said, We will send men before us, and they shall search us out the land, and bring us word again by what way we must go up, and into what cities we shall come.
-<sup>23</sup> And the saying pleased me well : and I took twelve men of you, one of a tribe :
+<sup>23</sup> And the saying pleased me well: and I took twelve men of you, one of a tribe:
 <sup>24</sup> And they turned and went up into the mountain, and came unto the valley of Eshcol, and searched it out.
 <sup>25</sup> And they took of the fruit of the land in their hands, and brought [it] down unto us, and brought us word again, and said, [It is] a good land which the LORD our God doth give us.
 <sup>26</sup> Notwithstanding ye would not go up, but rebelled against the commandment of the LORD your God:
@@ -52,7 +52,7 @@
 <sup>2</sup> And the LORD spake unto me, saying,
 <sup>3</sup> Ye have compassed this mountain long enough: turn you northward.
 <sup>4</sup> And command thou the people, saying, Ye [are] to pass through the coast of your brethren the children of Esau, which dwell in Seir; and they shall be afraid of you: take ye good heed unto yourselves therefore:
-<sup>5</sup> Meddle not with them; for I will not give you of their land, no, not so much as a foot breadth ; because I have given mount Seir unto Esau [for] a possession.
+<sup>5</sup> Meddle not with them; for I will not give you of their land, no, not so much as a foot breadth; because I have given mount Seir unto Esau [for] a possession.
 <sup>6</sup> Ye shall buy meat of them for money, that ye may eat; and ye shall also buy water of them for money, that ye may drink.
 <sup>7</sup> For the LORD thy God hath blessed thee in all the works of thy hand: he knoweth thy walking through this great wilderness: these forty years the LORD thy God [hath been] with thee; thou hast lacked nothing.
 <sup>8</sup> And when we passed by from our brethren the children of Esau, which dwelt in Seir, through the way of the plain from Elath, and from Eziongaber, we turned and passed by the way of the wilderness of Moab.
@@ -74,7 +74,7 @@
 <sup>24</sup> Rise ye up, take your journey, and pass over the river Arnon: behold, I have given into thine hand Sihon the Amorite, king of Heshbon, and his land: begin to possess [it], and contend with him in battle.
 <sup>25</sup> This day will I begin to put the dread of thee and the fear of thee upon the nations [that are] under the whole heaven, who shall hear report of thee, and shall tremble, and be in anguish because of thee.
 <sup>26</sup> And I sent messengers out of the wilderness of Kedemoth unto Sihon king of Heshbon with words of peace, saying,
-<sup>27</sup> Let me pass through thy land: I will go along by the high way , I will neither turn unto the right hand nor to the left.
+<sup>27</sup> Let me pass through thy land: I will go along by the high way, I will neither turn unto the right hand nor to the left.
 <sup>28</sup> Thou shalt sell me meat for money, that I may eat; and give me water for money, that I may drink: only I will pass through on my feet;
 <sup>29</sup> (As the children of Esau which dwell in Seir, and the Moabites which dwell in Ar, did unto me;) until I shall pass over Jordan into the land which the LORD our God giveth us.
 <sup>30</sup> But Sihon king of Heshbon would not let us pass by him: for the LORD thy God hardened his spirit, and made his heart obstinate, that he might deliver him into thy hand, as [appeareth] this day.
@@ -100,7 +100,7 @@
 <sup>11</sup> For only Og king of Bashan remained of the remnant of giants; behold, his bedstead [was] a bedstead of iron; [is] it not in Rabbath of the children of Ammon? nine cubits [was] the length thereof, and four cubits the breadth of it, after the cubit of a man.
 <sup>12</sup> And this land, [which] we possessed at that time, from Aroer, which [is] by the river Arnon, and half mount Gilead, and the cities thereof, gave I unto the Reubenites and to the Gadites.
 <sup>13</sup> And the rest of Gilead, and all Bashan, [being] the kingdom of Og, gave I unto the half tribe of Manasseh; all the region of Argob, with all Bashan, which was called the land of giants.
-<sup>14</sup> Jair the son of Manasseh took all the country of Argob unto the coasts of Geshuri and Maachathi; and called them after his own name, Bashanhavothjair , unto this day.
+<sup>14</sup> Jair the son of Manasseh took all the country of Argob unto the coasts of Geshuri and Maachathi; and called them after his own name, Bashanhavothjair, unto this day.
 <sup>15</sup> And I gave Gilead unto Machir.
 <sup>16</sup> And unto the Reubenites and unto the Gadites I gave from Gilead even unto the river Arnon half the valley, and the border even unto the river Jabbok, [which is] the border of the children of Ammon;
 <sup>17</sup> The plain also, and Jordan, and the coast [thereof], from Chinnereth even unto the sea of the plain, [even] the salt sea, under Ashdothpisgah eastward.
@@ -158,13 +158,13 @@
 <sup>38</sup> To drive out nations from before thee greater and mightier than thou [art], to bring thee in, to give thee their land [for] an inheritance, as [it is] this day.
 <sup>39</sup> Know therefore this day, and consider [it] in thine heart, that the LORD he [is] God in heaven above, and upon the earth beneath: [there is] none else.
 <sup>40</sup> Thou shalt keep therefore his statutes, and his commandments, which I command thee this day, that it may go well with thee, and with thy children after thee, and that thou mayest prolong [thy] days upon the earth, which the LORD thy God giveth thee, for ever.
-<sup>41</sup> Then Moses severed three cities on this side Jordan toward the sunrising ;
-<sup>42</sup> That the slayer might flee thither, which should kill his neighbour unawares , and hated him not in times past; and that fleeing unto one of these cities he might live:
+<sup>41</sup> Then Moses severed three cities on this side Jordan toward the sunrising;
+<sup>42</sup> That the slayer might flee thither, which should kill his neighbour unawares, and hated him not in times past; and that fleeing unto one of these cities he might live:
 <sup>43</sup> [Namely], Bezer in the wilderness, in the plain country, of the Reubenites; and Ramoth in Gilead, of the Gadites; and Golan in Bashan, of the Manassites.
 <sup>44</sup> And this [is] the law which Moses set before the children of Israel:
 <sup>45</sup> These [are] the testimonies, and the statutes, and the judgments, which Moses spake unto the children of Israel, after they came forth out of Egypt,
 <sup>46</sup> On this side Jordan, in the valley over against Bethpeor, in the land of Sihon king of the Amorites, who dwelt at Heshbon, whom Moses and the children of Israel smote, after they were come forth out of Egypt:
-<sup>47</sup> And they possessed his land, and the land of Og king of Bashan, two kings of the Amorites, which [were] on this side Jordan toward the sunrising ;
+<sup>47</sup> And they possessed his land, and the land of Og king of Bashan, two kings of the Amorites, which [were] on this side Jordan toward the sunrising;
 <sup>48</sup> From Aroer, which [is] by the bank of the river Arnon, even unto mount Sion, which [is] Hermon,
 <sup>49</sup> And all the plain on this side Jordan eastward, even unto the sea of the plain, under the springs of Pisgah.
 ## Chapter 5
@@ -249,7 +249,7 @@
 <sup>16</sup> And thou shalt consume all the people which the LORD thy God shall deliver thee; thine eye shall have no pity upon them: neither shalt thou serve their gods; for that [will be] a snare unto thee.
 <sup>17</sup> If thou shalt say in thine heart, These nations [are] more than I; how can I dispossess them?
 <sup>18</sup> Thou shalt not be afraid of them: [but] shalt well remember what the LORD thy God did unto Pharaoh, and unto all Egypt;
-<sup>19</sup> The great temptations which thine eyes saw, and the signs, and the wonders, and the mighty hand, and the stretched out arm, whereby the LORD thy God brought thee out: so shall the LORD thy God do unto all the people of whom thou art afraid .
+<sup>19</sup> The great temptations which thine eyes saw, and the signs, and the wonders, and the mighty hand, and the stretched out arm, whereby the LORD thy God brought thee out: so shall the LORD thy God do unto all the people of whom thou art afraid.
 <sup>20</sup> Moreover the LORD thy God will send the hornet among them, until they that are left, and hide themselves from thee, be destroyed.
 <sup>21</sup> Thou shalt not be affrighted at them: for the LORD thy God [is] among you, a mighty God and terrible.
 <sup>22</sup> And the LORD thy God will put out those nations before thee by little and little: thou mayest not consume them at once, lest the beasts of the field increase upon thee.
@@ -327,7 +327,7 @@
 <sup>13</sup> To keep the commandments of the LORD, and his statutes, which I command thee this day for thy good?
 <sup>14</sup> Behold, the heaven and the heaven of heavens [is] the LORD’S thy God, the earth [also], with all that therein [is].
 <sup>15</sup> Only the LORD had a delight in thy fathers to love them, and he chose their seed after them, [even] you above all people, as [it is] this day.
-<sup>16</sup> Circumcise therefore the foreskin of your heart, and be no more stiffnecked .
+<sup>16</sup> Circumcise therefore the foreskin of your heart, and be no more stiffnecked.
 <sup>17</sup> For the LORD your God [is] God of gods, and Lord of lords, a great God, a mighty, and a terrible, which regardeth not persons, nor taketh reward:
 <sup>18</sup> He doth execute the judgment of the fatherless and widow, and loveth the stranger, in giving him food and raiment.
 <sup>19</sup> Love ye therefore the stranger: for ye were strangers in the land of Egypt.
@@ -427,7 +427,7 @@
 <sup>1</sup> Ye [are] the children of the LORD your God: ye shall not cut yourselves, nor make any baldness between your eyes for the dead.
 <sup>2</sup> For thou [art] an holy people unto the LORD thy God, and the LORD hath chosen thee to be a peculiar people unto himself, above all the nations that [are] upon the earth.
 <sup>3</sup> Thou shalt not eat any abominable thing.
-<sup>4</sup> These [are] the beasts which ye shall eat: the ox, the sheep , and the goat,
+<sup>4</sup> These [are] the beasts which ye shall eat: the ox, the sheep, and the goat,
 <sup>5</sup> The hart, and the roebuck, and the fallow deer, and the wild goat, and the pygarg, and the wild ox, and the chamois.
 <sup>6</sup> And every beast that parteth the hoof, and cleaveth the cleft into two claws, [and] cheweth the cud among the beasts, that ye shall eat.
 <sup>7</sup> Nevertheless these ye shall not eat of them that chew the cud, or of them that divide the cloven hoof; [as] the camel, and the hare, and the coney: for they chew the cud, but divide not the hoof; [therefore] they [are] unclean unto you.
@@ -438,7 +438,7 @@
 <sup>12</sup> But these [are they] of which ye shall not eat: the eagle, and the ossifrage, and the ospray,
 <sup>13</sup> And the glede, and the kite, and the vulture after his kind,
 <sup>14</sup> And every raven after his kind,
-<sup>15</sup> And the owl , and the night hawk, and the cuckow, and the hawk after his kind,
+<sup>15</sup> And the owl, and the night hawk, and the cuckow, and the hawk after his kind,
 <sup>16</sup> The little owl, and the great owl, and the swan,
 <sup>17</sup> And the pelican, and the gier eagle, and the cormorant,
 <sup>18</sup> And the stork, and the heron after her kind, and the lapwing, and the bat.
@@ -496,7 +496,7 @@
 <sup>14</sup> And thou shalt rejoice in thy feast, thou, and thy son, and thy daughter, and thy manservant, and thy maidservant, and the Levite, the stranger, and the fatherless, and the widow, that [are] within thy gates.
 <sup>15</sup> Seven days shalt thou keep a solemn feast unto the LORD thy God in the place which the LORD shall choose: because the LORD thy God shall bless thee in all thine increase, and in all the works of thine hands, therefore thou shalt surely rejoice.
 <sup>16</sup> Three times in a year shall all thy males appear before the LORD thy God in the place which he shall choose; in the feast of unleavened bread, and in the feast of weeks, and in the feast of tabernacles: and they shall not appear before the LORD empty:
-<sup>17</sup> Every man [shall give] as he is able , according to the blessing of the LORD thy God which he hath given thee.
+<sup>17</sup> Every man [shall give] as he is able, according to the blessing of the LORD thy God which he hath given thee.
 <sup>18</sup> Judges and officers shalt thou make thee in all thy gates, which the LORD thy God giveth thee, throughout thy tribes: and they shall judge the people with just judgment.
 <sup>19</sup> Thou shalt not wrest judgment; thou shalt not respect persons, neither take a gift: for a gift doth blind the eyes of the wise, and pervert the words of the righteous.
 <sup>20</sup> That which is altogether just shalt thou follow, that thou mayest live, and inherit the land which the LORD thy God giveth thee.
@@ -504,7 +504,7 @@
 <sup>22</sup> Neither shalt thou set thee up [any] image; which the LORD thy God hateth.
 ## Chapter 17
 
-<sup>1</sup> Thou shalt not sacrifice unto the LORD thy God [any] bullock, or sheep, wherein is blemish, [or] any evilfavouredness : for that [is] an abomination unto the LORD thy God.
+<sup>1</sup> Thou shalt not sacrifice unto the LORD thy God [any] bullock, or sheep, wherein is blemish, [or] any evilfavouredness: for that [is] an abomination unto the LORD thy God.
 <sup>2</sup> If there be found among you, within any of thy gates which the LORD thy God giveth thee, man or woman, that hath wrought wickedness in the sight of the LORD thy God, in transgressing his covenant,
 <sup>3</sup> And hath gone and served other gods, and worshipped them, either the sun, or moon, or any of the host of heaven, which I have not commanded;
 <sup>4</sup> And it be told thee, and thou hast heard [of it], and enquired diligently, and, behold, [it be] true, [and] the thing certain, [that] such abomination is wrought in Israel:
@@ -513,7 +513,7 @@
 <sup>7</sup> The hands of the witnesses shall be first upon him to put him to death, and afterward the hands of all the people. So thou shalt put the evil away from among you.
 <sup>8</sup> If there arise a matter too hard for thee in judgment, between blood and blood, between plea and plea, and between stroke and stroke, [being] matters of controversy within thy gates: then shalt thou arise, and get thee up into the place which the LORD thy God shall choose;
 <sup>9</sup> And thou shalt come unto the priests the Levites, and unto the judge that shall be in those days, and enquire; and they shall shew thee the sentence of judgment:
-<sup>10</sup> And thou shalt do according to the sentence , which they of that place which the LORD shall choose shall shew thee; and thou shalt observe to do according to all that they inform thee:
+<sup>10</sup> And thou shalt do according to the sentence, which they of that place which the LORD shall choose shall shew thee; and thou shalt observe to do according to all that they inform thee:
 <sup>11</sup> According to the sentence of the law which they shall teach thee, and according to the judgment which they shall tell thee, thou shalt do: thou shalt not decline from the sentence which they shall shew thee, [to] the right hand, nor [to] the left.
 <sup>12</sup> And the man that will do presumptuously, and will not hearken unto the priest that standeth to minister there before the LORD thy God, or unto the judge, even that man shall die: and thou shalt put away the evil from Israel.
 <sup>13</sup> And all the people shall hear, and fear, and do no more presumptuously.
@@ -536,7 +536,7 @@
 <sup>8</sup> They shall have like portions to eat, beside that which cometh of the sale of his patrimony.
 <sup>9</sup> When thou art come into the land which the LORD thy God giveth thee, thou shalt not learn to do after the abominations of those nations.
 <sup>10</sup> There shall not be found among you [any one] that maketh his son or his daughter to pass through the fire, [or] that useth divination, [or] an observer of times, or an enchanter, or a witch,
-<sup>11</sup> Or a charmer , or a consulter with familiar spirits, or a wizard, or a necromancer .
+<sup>11</sup> Or a charmer, or a consulter with familiar spirits, or a wizard, or a necromancer.
 <sup>12</sup> For all that do these things [are] an abomination unto the LORD: and because of these abominations the LORD thy God doth drive them out from before thee.
 <sup>13</sup> Thou shalt be perfect with the LORD thy God.
 <sup>14</sup> For these nations, which thou shalt possess, hearkened unto observers of times, and unto diviners: but as for thee, the LORD thy God hath not suffered thee so [to do].
@@ -553,9 +553,9 @@
 <sup>1</sup> When the LORD thy God hath cut off the nations, whose land the LORD thy God giveth thee, and thou succeedest them, and dwellest in their cities, and in their houses;
 <sup>2</sup> Thou shalt separate three cities for thee in the midst of thy land, which the LORD thy God giveth thee to possess it.
 <sup>3</sup> Thou shalt prepare thee a way, and divide the coasts of thy land, which the LORD thy God giveth thee to inherit, into three parts, that every slayer may flee thither.
-<sup>4</sup> And this [is] the case of the slayer, which shall flee thither, that he may live: Whoso killeth his neighbour ignorantly , whom he hated not in time past;
+<sup>4</sup> And this [is] the case of the slayer, which shall flee thither, that he may live: Whoso killeth his neighbour ignorantly, whom he hated not in time past;
 <sup>5</sup> As when a man goeth into the wood with his neighbour to hew wood, and his hand fetcheth a stroke with the axe to cut down the tree, and the head slippeth from the helve, and lighteth upon his neighbour, that he die; he shall flee unto one of those cities, and live:
-<sup>6</sup> Lest the avenger of the blood pursue the slayer , while his heart is hot, and overtake him, because the way is long, and slay him; whereas he [was] not worthy of death, inasmuch as he hated him not in time past.
+<sup>6</sup> Lest the avenger of the blood pursue the slayer, while his heart is hot, and overtake him, because the way is long, and slay him; whereas he [was] not worthy of death, inasmuch as he hated him not in time past.
 <sup>7</sup> Wherefore I command thee, saying, Thou shalt separate three cities for thee.
 <sup>8</sup> And if the LORD thy God enlarge thy coast, as he hath sworn unto thy fathers, and give thee all the land which he promised to give unto thy fathers;
 <sup>9</sup> If thou shalt keep all these commandments to do them, which I command thee this day, to love the LORD thy God, and to walk ever in his ways; then shalt thou add three cities more for thee, beside these three:
@@ -580,7 +580,7 @@
 <sup>5</sup> And the officers shall speak unto the people, saying, What man [is there] that hath built a new house, and hath not dedicated it? let him go and return to his house, lest he die in the battle, and another man dedicate it.
 <sup>6</sup> And what man [is he] that hath planted a vineyard, and hath not [yet] eaten of it? let him [also] go and return unto his house, lest he die in the battle, and another man eat of it.
 <sup>7</sup> And what man [is there] that hath betrothed a wife, and hath not taken her? let him go and return unto his house, lest he die in the battle, and another man take her.
-<sup>8</sup> And the officers shall speak further unto the people, and they shall say, What man [is there that is] fearful and fainthearted ? let him go and return unto his house, lest his brethren’s heart faint as well as his heart.
+<sup>8</sup> And the officers shall speak further unto the people, and they shall say, What man [is there that is] fearful and fainthearted? let him go and return unto his house, lest his brethren’s heart faint as well as his heart.
 <sup>9</sup> And it shall be, when the officers have made an end of speaking unto the people, that they shall make captains of the armies to lead the people.
 <sup>10</sup> When thou comest nigh unto a city to fight against it, then proclaim peace unto it.
 <sup>11</sup> And it shall be, if it make thee answer of peace, and open unto thee, then it shall be, [that] all the people [that is] found therein shall be tributaries unto thee, and they shall serve thee.
@@ -591,13 +591,13 @@
 <sup>16</sup> But of the cities of these people, which the LORD thy God doth give thee [for] an inheritance, thou shalt save alive nothing that breatheth:
 <sup>17</sup> But thou shalt utterly destroy them; [namely], the Hittites, and the Amorites, the Canaanites, and the Perizzites, the Hivites, and the Jebusites; as the LORD thy God hath commanded thee:
 <sup>18</sup> That they teach you not to do after all their abominations, which they have done unto their gods; so should ye sin against the LORD your God.
-<sup>19</sup> When thou shalt besiege a city a long time, in making war against it to take it, thou shalt not destroy the trees thereof by forcing an axe against them: for thou mayest eat of them, and thou shalt not cut them down (for the tree of the field [is] man’s [life]) to employ [them] in the siege :
+<sup>19</sup> When thou shalt besiege a city a long time, in making war against it to take it, thou shalt not destroy the trees thereof by forcing an axe against them: for thou mayest eat of them, and thou shalt not cut them down (for the tree of the field [is] man’s [life]) to employ [them] in the siege:
 <sup>20</sup> Only the trees which thou knowest that they [be] not trees for meat, thou shalt destroy and cut them down; and thou shalt build bulwarks against the city that maketh war with thee, until it be subdued.
 ## Chapter 21
 
 <sup>1</sup> If [one] be found slain in the land which the LORD thy God giveth thee to possess it, lying in the field, [and] it be not known who hath slain him:
 <sup>2</sup> Then thy elders and thy judges shall come forth, and they shall measure unto the cities which [are] round about him that is slain:
-<sup>3</sup> And it shall be, [that] the city [which is] next unto the slain man, even the elders of that city shall take an heifer , which hath not been wrought with, [and] which hath not drawn in the yoke;
+<sup>3</sup> And it shall be, [that] the city [which is] next unto the slain man, even the elders of that city shall take an heifer, which hath not been wrought with, [and] which hath not drawn in the yoke;
 <sup>4</sup> And the elders of that city shall bring down the heifer unto a rough valley, which is neither eared nor sown, and shall strike off the heifer’s neck there in the valley:
 <sup>5</sup> And the priests the sons of Levi shall come near; for them the LORD thy God hath chosen to minister unto him, and to bless in the name of the LORD; and by their word shall every controversy and every stroke be [tried]:
 <sup>6</sup> And all the elders of that city, [that are] next unto the slain [man], shall wash their hands over the heifer that is beheaded in the valley:
@@ -652,7 +652,7 @@
 <sup>30</sup> A man shall not take his father’s wife, nor discover his father’s skirt.
 ## Chapter 23
 
-<sup>1</sup> He that is wounded in the stones , or hath his privy member cut off, shall not enter into the congregation of the LORD.
+<sup>1</sup> He that is wounded in the stones, or hath his privy member cut off, shall not enter into the congregation of the LORD.
 <sup>2</sup> A bastard shall not enter into the congregation of the LORD; even to his tenth generation shall he not enter into the congregation of the LORD.
 <sup>3</sup> An Ammonite or Moabite shall not enter into the congregation of the LORD; even to their tenth generation shall they not enter into the congregation of the LORD for ever:
 <sup>4</sup> Because they met you not with bread and with water in the way, when ye came forth out of Egypt; and because they hired against thee Balaam the son of Beor of Pethor of Mesopotamia, to curse thee.
@@ -707,16 +707,16 @@
 <sup>2</sup> And it shall be, if the wicked man [be] worthy to be beaten, that the judge shall cause him to lie down, and to be beaten before his face, according to his fault, by a certain number.
 <sup>3</sup> Forty stripes he may give him, [and] not exceed: lest, [if] he should exceed, and beat him above these with many stripes, then thy brother should seem vile unto thee.
 <sup>4</sup> Thou shalt not muzzle the ox when he treadeth out [the corn].
-<sup>5</sup> If brethren dwell together, and one of them die, and have no child, the wife of the dead shall not marry without unto a stranger : her husband’s brother shall go in unto her, and take her to him to wife, and perform the duty of an husband’s brother unto her.
+<sup>5</sup> If brethren dwell together, and one of them die, and have no child, the wife of the dead shall not marry without unto a stranger: her husband’s brother shall go in unto her, and take her to him to wife, and perform the duty of an husband’s brother unto her.
 <sup>6</sup> And it shall be, [that] the firstborn which she beareth shall succeed in the name of his brother [which is] dead, that his name be not put out of Israel.
 <sup>7</sup> And if the man like not to take his brother’s wife, then let his brother’s wife go up to the gate unto the elders, and say, My husband’s brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband’s brother.
 <sup>8</sup> Then the elders of his city shall call him, and speak unto him: and [if] he stand [to it], and say, I like not to take her;
 <sup>9</sup> Then shall his brother’s wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother’s house.
 <sup>10</sup> And his name shall be called in Israel, The house of him that hath his shoe loosed.
-<sup>11</sup> When men strive together one with another , and the wife of the one draweth near for to deliver her husband out of the hand of him that smiteth him, and putteth forth her hand, and taketh him by the secrets:
+<sup>11</sup> When men strive together one with another, and the wife of the one draweth near for to deliver her husband out of the hand of him that smiteth him, and putteth forth her hand, and taketh him by the secrets:
 <sup>12</sup> Then thou shalt cut off her hand, thine eye shall not pity [her].
-<sup>13</sup> Thou shalt not have in thy bag divers weights , a great and a small.
-<sup>14</sup> Thou shalt not have in thine house divers measures , a great and a small.
+<sup>13</sup> Thou shalt not have in thy bag divers weights, a great and a small.
+<sup>14</sup> Thou shalt not have in thine house divers measures, a great and a small.
 <sup>15</sup> [But] thou shalt have a perfect and just weight, a perfect and just measure shalt thou have: that thy days may be lengthened in the land which the LORD thy God giveth thee.
 <sup>16</sup> For all that do such things, [and] all that do unrighteously, [are] an abomination unto the LORD thy God.
 <sup>17</sup> Remember what Amalek did unto thee by the way, when ye were come forth out of Egypt;
@@ -769,7 +769,7 @@
 <sup>22</sup> Cursed [be] he that lieth with his sister, the daughter of his father, or the daughter of his mother. And all the people shall say, Amen.
 <sup>23</sup> Cursed [be] he that lieth with his mother in law. And all the people shall say, Amen.
 <sup>24</sup> Cursed [be] he that smiteth his neighbour secretly. And all the people shall say, Amen.
-<sup>25</sup> Cursed [be] he that taketh reward to slay an innocent person . And all the people shall say, Amen.
+<sup>25</sup> Cursed [be] he that taketh reward to slay an innocent person. And all the people shall say, Amen.
 <sup>26</sup> Cursed [be] he that confirmeth not [all] the words of this law to do them. And all the people shall say, Amen.
 ## Chapter 28
 
@@ -799,7 +799,7 @@
 <sup>24</sup> The LORD shall make the rain of thy land powder and dust: from heaven shall it come down upon thee, until thou be destroyed.
 <sup>25</sup> The LORD shall cause thee to be smitten before thine enemies: thou shalt go out one way against them, and flee seven ways before them: and shalt be removed into all the kingdoms of the earth.
 <sup>26</sup> And thy carcase shall be meat unto all fowls of the air, and unto the beasts of the earth, and no man shall fray [them] away.
-<sup>27</sup> The LORD will smite thee with the botch of Egypt, and with the emerods , and with the scab, and with the itch, whereof thou canst not be healed.
+<sup>27</sup> The LORD will smite thee with the botch of Egypt, and with the emerods, and with the scab, and with the itch, whereof thou canst not be healed.
 <sup>28</sup> The LORD shall smite thee with madness, and blindness, and astonishment of heart:
 <sup>29</sup> And thou shalt grope at noonday, as the blind gropeth in darkness, and thou shalt not prosper in thy ways: and thou shalt be only oppressed and spoiled evermore, and no man shall save [thee].
 <sup>30</sup> Thou shalt betroth a wife, and another man shall lie (8675) with her: thou shalt build an house, and thou shalt not dwell therein: thou shalt plant a vineyard, and shalt not gather the grapes thereof.
@@ -978,7 +978,7 @@
 <sup>48</sup> And the LORD spake unto Moses that selfsame day, saying,
 <sup>49</sup> Get thee up into this mountain Abarim, [unto] mount Nebo, which [is] in the land of Moab, that [is] over against Jericho; and behold the land of Canaan, which I give unto the children of Israel for a possession:
 <sup>50</sup> And die in the mount whither thou goest up, and be gathered unto thy people; as Aaron thy brother died in mount Hor, and was gathered unto his people:
-<sup>51</sup> Because ye trespassed against me among the children of Israel at the waters of Meribah-Kadesh , in the wilderness of Zin; because ye sanctified me not in the midst of the children of Israel.
+<sup>51</sup> Because ye trespassed against me among the children of Israel at the waters of Meribah-Kadesh, in the wilderness of Zin; because ye sanctified me not in the midst of the children of Israel.
 <sup>52</sup> Yet thou shalt see the land before [thee]; but thou shalt not go thither unto the land which I give the children of Israel.
 ## Chapter 33
 
@@ -1015,7 +1015,7 @@
 
 <sup>1</sup> And Moses went up from the plains of Moab unto the mountain of Nebo, to the top of Pisgah, that [is] over against Jericho. And the LORD shewed him all the land of Gilead, unto Dan,
 <sup>2</sup> And all Naphtali, and the land of Ephraim, and Manasseh, and all the land of Judah, unto the utmost sea,
-<sup>3</sup> And the south, and the plain of the valley of Jericho, the city of palm trees , unto Zoar.
+<sup>3</sup> And the south, and the plain of the valley of Jericho, the city of palm trees, unto Zoar.
 <sup>4</sup> And the LORD said unto him, This [is] the land which I sware unto Abraham, unto Isaac, and unto Jacob, saying, I will give it unto thy seed: I have caused thee to see [it] with thine eyes, but thou shalt not go over thither.
 <sup>5</sup> So Moses the servant of the LORD died there in the land of Moab, according to the word of the LORD.
 <sup>6</sup> And he buried him in a valley in the land of Moab, over against Bethpeor: but no man knoweth of his sepulchre unto this day.

@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> Now these are the names of the sons of Israel, who came into Egypt; every man and his household came with Jacob .
+<sup>1</sup> Now these are the names of the sons of Israel, who came into Egypt; every man and his household came with Jacob.
 <sup>2</sup> Reuben, Simeon, Levi, and Judah,
 <sup>3</sup> Issachar, Zebulun, and Benjamin,
 <sup>4</sup> Dan and Naphtali, Gad and Asher.

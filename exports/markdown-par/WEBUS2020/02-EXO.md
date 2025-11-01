@@ -27,8 +27,8 @@
 <sup>21</sup> Because the midwives feared God, he gave them families.
 <sup>22</sup> Pharaoh commanded all his people, saying, “You shall cast every son who is born into the river, and every daughter you shall save alive.”
 
-> - <sup>a</sup> 9. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
-> - <sup>b</sup> 17. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>a</sup> 9. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>b</sup> 17. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 2
 
@@ -542,28 +542,28 @@
 
 ## Chapter 15
 
-<sup>1</sup> Then Moses and the children of Israel sang this song to Yahweh, and said, <br>“I will sing to Yahweh, for he has triumphed gloriously. <br>He has thrown the horse and his rider into the sea. <br>
-<sup>2</sup> Yah is my strength and song. <br>He has become my salvation. <br>This is my God, and I will praise him; <br>my father’s God, and I will exalt him. <br>
-<sup>3</sup> Yahweh is a man of war. <br>Yahweh is his name. <br>
-<sup>4</sup> He has cast Pharaoh’s chariots and his army into the sea. <br>His chosen captains are sunk in the Red Sea. <br>
-<sup>5</sup> The deeps cover them. <br>They went down into the depths like a stone. <br>
-<sup>6</sup> Your right hand, Yahweh, is glorious in power. <br>Your right hand, Yahweh, dashes the enemy in pieces. <br>
-<sup>7</sup> In the greatness of your excellency, you overthrow those who rise up against you. <br>You send out your wrath. It consumes them as stubble. <br>
-<sup>8</sup> With the blast of your nostrils, the waters were piled up. <br>The floods stood upright as a heap. <br>The deeps were congealed in the heart of the sea. <br>
-<sup>9</sup> The enemy said, ‘I will pursue. I will overtake. I will divide the plunder. <br>My desire will be satisfied on them. <br>I will draw my sword. My hand will destroy them.’ <br>
-<sup>10</sup> You blew with your wind. <br>The sea covered them. <br>They sank like lead in the mighty waters. <br>
-<sup>11</sup> Who is like you, Yahweh, among the gods? <br>Who is like you, glorious in holiness, <br>fearful in praises, doing wonders? <br>
-<sup>12</sup> You stretched out your right hand. <br>The earth swallowed them. <br>
-<sup>13</sup> “You, in your loving kindness, have led the people that you have redeemed. <br>You have guided them in your strength to your holy habitation. <br>
-<sup>14</sup> The peoples have heard. <br>They tremble. <br>Pangs have taken hold of the inhabitants of Philistia. <br>
-<sup>15</sup> Then the chiefs of Edom were dismayed. <br>Trembling takes hold of the mighty men of Moab. <br>All the inhabitants of Canaan have melted away. <br>
-<sup>16</sup> Terror and dread falls on them. <br>By the greatness of your arm they are as still as a stone, <br>until your people pass over, Yahweh, <br>until the people you have purchased pass over. <br>
-<sup>17</sup> You will bring them in, and plant them in the mountain of your inheritance, <br>the place, Yahweh, which you have made for yourself to dwell in: <br>the sanctuary, Lord, which your hands have established. <br>
+<sup>1</sup> Then Moses and the children of Israel sang this song to Yahweh, and said,<br>“I will sing to Yahweh, for he has triumphed gloriously.<br>He has thrown the horse and his rider into the sea.<br>
+<sup>2</sup> Yah is my strength and song.<br>He has become my salvation.<br>This is my God, and I will praise him;<br>my father’s God, and I will exalt him.<br>
+<sup>3</sup> Yahweh is a man of war.<br>Yahweh is his name.<br>
+<sup>4</sup> He has cast Pharaoh’s chariots and his army into the sea.<br>His chosen captains are sunk in the Red Sea.<br>
+<sup>5</sup> The deeps cover them.<br>They went down into the depths like a stone.<br>
+<sup>6</sup> Your right hand, Yahweh, is glorious in power.<br>Your right hand, Yahweh, dashes the enemy in pieces.<br>
+<sup>7</sup> In the greatness of your excellency, you overthrow those who rise up against you.<br>You send out your wrath. It consumes them as stubble.<br>
+<sup>8</sup> With the blast of your nostrils, the waters were piled up.<br>The floods stood upright as a heap.<br>The deeps were congealed in the heart of the sea.<br>
+<sup>9</sup> The enemy said, ‘I will pursue. I will overtake. I will divide the plunder.<br>My desire will be satisfied on them.<br>I will draw my sword. My hand will destroy them.’<br>
+<sup>10</sup> You blew with your wind.<br>The sea covered them.<br>They sank like lead in the mighty waters.<br>
+<sup>11</sup> Who is like you, Yahweh, among the gods?<br>Who is like you, glorious in holiness,<br>fearful in praises, doing wonders?<br>
+<sup>12</sup> You stretched out your right hand.<br>The earth swallowed them.<br>
+<sup>13</sup> “You, in your loving kindness, have led the people that you have redeemed.<br>You have guided them in your strength to your holy habitation.<br>
+<sup>14</sup> The peoples have heard.<br>They tremble.<br>Pangs have taken hold of the inhabitants of Philistia.<br>
+<sup>15</sup> Then the chiefs of Edom were dismayed.<br>Trembling takes hold of the mighty men of Moab.<br>All the inhabitants of Canaan have melted away.<br>
+<sup>16</sup> Terror and dread falls on them.<br>By the greatness of your arm they are as still as a stone,<br>until your people pass over, Yahweh,<br>until the people you have purchased pass over.<br>
+<sup>17</sup> You will bring them in, and plant them in the mountain of your inheritance,<br>the place, Yahweh, which you have made for yourself to dwell in:<br>the sanctuary, Lord, which your hands have established.<br>
 <sup>18</sup> Yahweh will reign forever and ever.”
 
 <sup>19</sup> For the horses of Pharaoh went in with his chariots and with his horsemen into the sea, and Yahweh brought back the waters of the sea on them; but the children of Israel walked on dry land in the middle of the sea.
 <sup>20</sup> Miriam the prophetess, the sister of Aaron, took a tambourine in her hand; and all the women went out after her with tambourines and with dances.
-<sup>21</sup> Miriam answered them, <br>“Sing to Yahweh, for he has triumphed gloriously. <br>He has thrown the horse and his rider into the sea.”
+<sup>21</sup> Miriam answered them,<br>“Sing to Yahweh, for he has triumphed gloriously.<br>He has thrown the horse and his rider into the sea.”
 
 <sup>22</sup> Moses led Israel onward from the Red Sea, and they went out into the wilderness of Shur; and they went three days in the wilderness, and found no water.
 <sup>23</sup> When they came to Marah, they couldn’t drink from the waters of Marah, for they were bitter. Therefore its name was called Marah.<sup>a</sup>

@@ -15,7 +15,7 @@
 <sup>10</sup> “Now these are your servants and your people, whom you have redeemed by your great power and by your strong hand.
 <sup>11</sup> Lord,<sup>c</sup> I beg you, let your ear be attentive now to the prayer of your servant, and to the prayer of your servants who delight to fear your name; and please prosper your servant today, and grant him mercy in the sight of this man.” Now I was cup bearer to the king.
 
-> - <sup>a</sup> 4. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>a</sup> 4. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 > - <sup>b</sup> 5. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>c</sup> 11. The word translated “Lord” is “Adonai.”
 
@@ -149,7 +149,7 @@
 <sup>18</sup> Now that which was prepared for one day was one ox and six choice sheep. Also fowls were prepared for me, and once in ten days a store of all sorts of wine. Yet for all this, I didn’t demand the governor’s pay, because the bondage was heavy on this people.
 <sup>19</sup> Remember me, my God, for all the good that I have done for this people.
 
-> - <sup>a</sup> 5. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>a</sup> 5. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 > - <sup>b</sup> 15. A shekel is about 10 grams or about 0.35 ounces.
 
 ## Chapter 6

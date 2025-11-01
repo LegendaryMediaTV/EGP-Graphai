@@ -26,8 +26,8 @@
 <sup>20</sup> But when he thought about these things, behold,<sup>d</sup> an angel of the Lord appeared to him in a dream, saying, “Joseph, son of David, don’t be afraid to take to yourself Mary as your wife, for that which is conceived in her is of the Holy Spirit.
 <sup>21</sup> She shall give birth to a son. You shall name him Jesus,<sup>e</sup> for it is he who shall save his people from their sins.”
 
-<sup>22</sup> Now all this has happened that it might be fulfilled which was spoken by the Lord through the prophet, saying, <br>
-<sup>23</sup> “Behold, the virgin shall be with child, <br>and shall give birth to a son. <br>They shall call his name Immanuel,” <br>which is, being interpreted, “God with us.”<sup>f</sup>
+<sup>22</sup> Now all this has happened that it might be fulfilled which was spoken by the Lord through the prophet, saying,<br>
+<sup>23</sup> “Behold, the virgin shall be with child,<br>and shall give birth to a son.<br>They shall call his name Immanuel,”<br>which is, being interpreted, “God with us.”<sup>f</sup>
 
 <sup>24</sup> Joseph arose from his sleep, and did as the angel of the Lord commanded him, and took his wife to himself;
 <sup>25</sup> and didn’t know her sexually until she had given birth to her firstborn son. He named him Jesus.
@@ -45,8 +45,8 @@
 <sup>2</sup> “Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.”
 <sup>3</sup> When King Herod heard it, he was troubled, and all Jerusalem with him.
 <sup>4</sup> Gathering together all the chief priests and scribes of the people, he asked them where the Christ would be born.
-<sup>5</sup> They said to him, “In Bethlehem of Judea, for this is written through the prophet, <br>
-<sup>6</sup> ‘You Bethlehem, land of Judah, <br>are in no way least among the princes of Judah; <br>for out of you shall come a governor <br>who shall shepherd my people, Israel.’ ”<sup>b</sup>
+<sup>5</sup> They said to him, “In Bethlehem of Judea, for this is written through the prophet,<br>
+<sup>6</sup> ‘You Bethlehem, land of Judah,<br>are in no way least among the princes of Judah;<br>for out of you shall come a governor<br>who shall shepherd my people, Israel.’ ”<sup>b</sup>
 
 <sup>7</sup> Then Herod secretly called the wise men, and learned from them exactly what time the star appeared.
 <sup>8</sup> He sent them to Bethlehem, and said, “Go and search diligently for the young child. When you have found him, bring me word, so that I also may come and worship him.”
@@ -62,8 +62,8 @@
 <sup>15</sup> and was there until the death of Herod, that it might be fulfilled which was spoken by the Lord through the prophet, saying, “Out of Egypt I called my son.”<sup>c</sup>
 
 <sup>16</sup> Then Herod, when he saw that he was mocked by the wise men, was exceedingly angry, and sent out and killed all the male children who were in Bethlehem and in all the surrounding countryside, from two years old and under, according to the exact time which he had learned from the wise men.
-<sup>17</sup> Then that which was spoken by Jeremiah the prophet was fulfilled, saying, <br>
-<sup>18</sup> “A voice was heard in Ramah, <br>lamentation, weeping and great mourning, <br>Rachel weeping for her children; <br>she wouldn’t be comforted, <br>because they are no more.”<sup>d</sup>
+<sup>17</sup> Then that which was spoken by Jeremiah the prophet was fulfilled, saying,<br>
+<sup>18</sup> “A voice was heard in Ramah,<br>lamentation, weeping and great mourning,<br>Rachel weeping for her children;<br>she wouldn’t be comforted,<br>because they are no more.”<sup>d</sup>
 
 <sup>19</sup> But when Herod was dead, behold, an angel of the Lord appeared in a dream to Joseph in Egypt, saying,
 <sup>20</sup> “Arise and take the young child and his mother, and go into the land of Israel, for those who sought the young child’s life are dead.”
@@ -81,7 +81,7 @@
 
 <sup>1</sup> In those days, John the Baptizer came, preaching in the wilderness of Judea, saying,
 <sup>2</sup> “Repent, for the Kingdom of Heaven is at hand!”
-<sup>3</sup> For this is he who was spoken of by Isaiah the prophet, saying, <br>“The voice of one crying in the wilderness, <br>make the way of the Lord ready! <br>Make his paths straight!”<sup>a</sup>
+<sup>3</sup> For this is he who was spoken of by Isaiah the prophet, saying,<br>“The voice of one crying in the wilderness,<br>make the way of the Lord ready!<br>Make his paths straight!”<sup>a</sup>
 
 <sup>4</sup> Now John himself wore clothing made of camel’s hair with a leather belt around his waist. His food was locusts and wild honey.
 <sup>5</sup> Then people from Jerusalem, all of Judea, and all the region around the Jordan went out to him.
@@ -116,7 +116,7 @@
 <sup>4</sup> But he answered, “It is written, ‘Man shall not live by bread alone, but by every word that proceeds out of God’s mouth.’ ”<sup>a</sup>
 
 <sup>5</sup> Then the devil took him into the holy city. He set him on the pinnacle of the temple,
-<sup>6</sup> and said to him, “If you are the Son of God, throw yourself down, for it is written, <br>‘He will command his angels concerning you,’ and, <br>‘On their hands they will bear you up, <br>so that you don’t dash your foot against a stone.’ ”<sup>b</sup>
+<sup>6</sup> and said to him, “If you are the Son of God, throw yourself down, for it is written,<br>‘He will command his angels concerning you,’ and,<br>‘On their hands they will bear you up,<br>so that you don’t dash your foot against a stone.’ ”<sup>b</sup>
 
 <sup>7</sup> Jesus said to him, “Again, it is written, ‘You shall not test the Lord, your God.’ ”<sup>c</sup>
 
@@ -129,9 +129,9 @@
 
 <sup>12</sup> Now when Jesus heard that John was delivered up, he withdrew into Galilee.
 <sup>13</sup> Leaving Nazareth, he came and lived in Capernaum, which is by the sea, in the region of Zebulun and Naphtali,
-<sup>14</sup> that it might be fulfilled which was spoken through Isaiah the prophet, saying, <br>
-<sup>15</sup> “The land of Zebulun and the land of Naphtali, <br>toward the sea, beyond the Jordan, <br>Galilee of the Gentiles, <br>
-<sup>16</sup> the people who sat in darkness saw a great light; <br>to those who sat in the region and shadow of death, <br>to them light has dawned.”<sup>f</sup>
+<sup>14</sup> that it might be fulfilled which was spoken through Isaiah the prophet, saying,<br>
+<sup>15</sup> “The land of Zebulun and the land of Naphtali,<br>toward the sea, beyond the Jordan,<br>Galilee of the Gentiles,<br>
+<sup>16</sup> the people who sat in darkness saw a great light;<br>to those who sat in the region and shadow of death,<br>to them light has dawned.”<sup>f</sup>
 
 <sup>17</sup> From that time, Jesus began to preach, and to say, “Repent! For the Kingdom of Heaven is at hand.”
 
@@ -157,15 +157,15 @@
 ## Chapter 5
 
 <sup>1</sup> Seeing the multitudes, he went up onto the mountain. When he had sat down, his disciples came to him.
-<sup>2</sup> He opened his mouth and taught them, saying, <br>
-<sup>3</sup> “Blessed are the poor in spirit, <br>for theirs is the Kingdom of Heaven.<sup>a</sup> <br>
-<sup>4</sup> Blessed are those who mourn, <br>for they shall be comforted.<sup>b</sup> <br>
-<sup>5</sup> Blessed are the gentle, <br>for they shall inherit the earth.<sup>c</sup> <br>
-<sup>6</sup> Blessed are those who hunger and thirst for righteousness, <br>for they shall be filled. <br>
-<sup>7</sup> Blessed are the merciful, <br>for they shall obtain mercy. <br>
-<sup>8</sup> Blessed are the pure in heart, <br>for they shall see God. <br>
-<sup>9</sup> Blessed are the peacemakers, <br>for they shall be called children of God. <br>
-<sup>10</sup> Blessed are those who have been persecuted for righteousness’ sake, <br>for theirs is the Kingdom of Heaven.
+<sup>2</sup> He opened his mouth and taught them, saying,<br>
+<sup>3</sup> “Blessed are the poor in spirit,<br>for theirs is the Kingdom of Heaven.<sup>a</sup><br>
+<sup>4</sup> Blessed are those who mourn,<br>for they shall be comforted.<sup>b</sup><br>
+<sup>5</sup> Blessed are the gentle,<br>for they shall inherit the earth.<sup>c</sup><br>
+<sup>6</sup> Blessed are those who hunger and thirst for righteousness,<br>for they shall be filled.<br>
+<sup>7</sup> Blessed are the merciful,<br>for they shall obtain mercy.<br>
+<sup>8</sup> Blessed are the pure in heart,<br>for they shall see God.<br>
+<sup>9</sup> Blessed are the peacemakers,<br>for they shall be called children of God.<br>
+<sup>10</sup> Blessed are those who have been persecuted for righteousness’ sake,<br>for theirs is the Kingdom of Heaven.
 
 <sup>11</sup> “Blessed are you when people reproach you, persecute you, and say all kinds of evil against you falsely, for my sake.
 <sup>12</sup> Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you.
@@ -248,11 +248,11 @@
 <sup>6</sup> But you, when you pray, enter into your inner room, and having shut your door, pray to your Father who is in secret; and your Father who sees in secret will reward you openly.
 <sup>7</sup> In praying, don’t use vain repetitions as the Gentiles do; for they think that they will be heard for their much speaking.
 <sup>8</sup> Therefore don’t be like them, for your Father knows what things you need before you ask him.
-<sup>9</sup> Pray like this: <br>“ ‘Our Father in heaven, may your name be kept holy. <br>
-<sup>10</sup> Let your Kingdom come. <br>Let your will be done on earth as it is in heaven. <br>
-<sup>11</sup> Give us today our daily bread. <br>
-<sup>12</sup> Forgive us our debts, <br>as we also forgive our debtors. <br>
-<sup>13</sup> Bring us not into temptation, <br>but deliver us from the evil one. <br>For yours is the Kingdom, the power, and the glory forever. Amen.’<sup>b</sup>
+<sup>9</sup> Pray like this:<br>“ ‘Our Father in heaven, may your name be kept holy.<br>
+<sup>10</sup> Let your Kingdom come.<br>Let your will be done on earth as it is in heaven.<br>
+<sup>11</sup> Give us today our daily bread.<br>
+<sup>12</sup> Forgive us our debts,<br>as we also forgive our debtors.<br>
+<sup>13</sup> Bring us not into temptation,<br>but deliver us from the evil one.<br>For yours is the Kingdom, the power, and the glory forever. Amen.’<sup>b</sup>
 
 <sup>14</sup> “For if you forgive men their trespasses, your heavenly Father will also forgive you.
 <sup>15</sup> But if you don’t forgive men their trespasses, neither will your Father forgive your trespasses.
@@ -574,10 +574,10 @@
 
 <sup>15</sup> Jesus, perceiving that, withdrew from there. Great multitudes followed him; and he healed them all,
 <sup>16</sup> and commanded them that they should not make him known,
-<sup>17</sup> that it might be fulfilled which was spoken through Isaiah the prophet, saying, <br>
-<sup>18</sup> “Behold, my servant whom I have chosen, <br>my beloved in whom my soul is well pleased. <br>I will put my Spirit on him. <br>He will proclaim justice to the nations. <br>
-<sup>19</sup> He will not strive, nor shout, <br>neither will anyone hear his voice in the streets. <br>
-<sup>20</sup> He won’t break a bruised reed. <br>He won’t quench a smoking flax, <br>until he leads justice to victory. <br>
+<sup>17</sup> that it might be fulfilled which was spoken through Isaiah the prophet, saying,<br>
+<sup>18</sup> “Behold, my servant whom I have chosen,<br>my beloved in whom my soul is well pleased.<br>I will put my Spirit on him.<br>He will proclaim justice to the nations.<br>
+<sup>19</sup> He will not strive, nor shout,<br>neither will anyone hear his voice in the streets.<br>
+<sup>20</sup> He won’t break a bruised reed.<br>He won’t quench a smoking flax,<br>until he leads justice to victory.<br>
 <sup>21</sup> In his name, the nations will hope.”<sup>c</sup>
 
 <sup>22</sup> Then one possessed by a demon, blind and mute, was brought to him; and he healed him, so that the blind and mute man both spoke and saw.
@@ -640,8 +640,8 @@
 <sup>11</sup> He answered them, “To you it is given to know the mysteries of the Kingdom of Heaven, but it is not given to them.
 <sup>12</sup> For whoever has, to him will be given, and he will have abundance; but whoever doesn’t have, from him will be taken away even that which he has.
 <sup>13</sup> Therefore I speak to them in parables, because seeing they don’t see, and hearing, they don’t hear, neither do they understand.
-<sup>14</sup> In them the prophecy of Isaiah is fulfilled, which says, <br>‘By hearing you will hear, <br>and will in no way understand; <br>Seeing you will see, <br>and will in no way perceive; <br>
-<sup>15</sup> for this people’s heart has grown callous, <br>their ears are dull of hearing, <br>and they have closed their eyes; <br>or else perhaps they might perceive with their eyes, <br>hear with their ears, <br>understand with their heart, <br>and would turn again, <br>and I would heal them.’<sup>a</sup>
+<sup>14</sup> In them the prophecy of Isaiah is fulfilled, which says,<br>‘By hearing you will hear,<br>and will in no way understand;<br>Seeing you will see,<br>and will in no way perceive;<br>
+<sup>15</sup> for this people’s heart has grown callous,<br>their ears are dull of hearing,<br>and they have closed their eyes;<br>or else perhaps they might perceive with their eyes,<br>hear with their ears,<br>understand with their heart,<br>and would turn again,<br>and I would heal them.’<sup>a</sup>
 
 <sup>16</sup> “But blessed are your eyes, for they see; and your ears, for they hear.
 <sup>17</sup> For most certainly I tell you that many prophets and righteous men desired to see the things which you see, and didn’t see them; and to hear the things which you hear, and didn’t hear them.
@@ -669,7 +669,7 @@
 <sup>33</sup> He spoke another parable to them. “The Kingdom of Heaven is like yeast which a woman took and hid in three measures<sup>c</sup> of meal, until it was all leavened.”
 
 <sup>34</sup> Jesus spoke all these things in parables to the multitudes; and without a parable, he didn’t speak to them,
-<sup>35</sup> that it might be fulfilled which was spoken through the prophet, saying, <br>“I will open my mouth in parables; <br>I will utter things hidden from the foundation of the world.”<sup>d</sup>
+<sup>35</sup> that it might be fulfilled which was spoken through the prophet, saying,<br>“I will open my mouth in parables;<br>I will utter things hidden from the foundation of the world.”<sup>d</sup>
 
 <sup>36</sup> Then Jesus sent the multitudes away, and went into the house. His disciples came to him, saying, “Explain to us the parable of the darnel weeds of the field.”
 
@@ -771,9 +771,9 @@
 <sup>4</sup> For God commanded, ‘Honor your father and your mother,’<sup>a</sup> and, ‘He who speaks evil of father or mother, let him be put to death.’<sup>b</sup>
 <sup>5</sup> But you say, ‘Whoever may tell his father or his mother, “Whatever help you might otherwise have gotten from me is a gift devoted to God,”
 <sup>6</sup> he shall not honor his father or mother.’ You have made the commandment of God void because of your tradition.
-<sup>7</sup> You hypocrites! Well did Isaiah prophesy of you, saying, <br>
-<sup>8</sup> ‘These people draw near to me with their mouth, <br>and honor me with their lips; <br>but their heart is far from me. <br>
-<sup>9</sup> And they worship me in vain, <br>teaching as doctrine rules made by men.’ ”<sup>c</sup>
+<sup>7</sup> You hypocrites! Well did Isaiah prophesy of you, saying,<br>
+<sup>8</sup> ‘These people draw near to me with their mouth,<br>and honor me with their lips;<br>but their heart is far from me.<br>
+<sup>9</sup> And they worship me in vain,<br>teaching as doctrine rules made by men.’ ”<sup>c</sup>
 
 <sup>10</sup> He summoned the multitude, and said to them, “Hear, and understand.
 <sup>11</sup> That which enters into the mouth doesn’t defile the man; but that which proceeds out of the mouth, this defiles the man.”
@@ -1091,8 +1091,8 @@
 <sup>2</sup> saying to them, “Go into the village that is opposite you, and immediately you will find a donkey tied, and a colt with her. Untie them and bring them to me.
 <sup>3</sup> If anyone says anything to you, you shall say, ‘The Lord needs them,’ and immediately he will send them.”
 
-<sup>4</sup> All this was done that it might be fulfilled which was spoken through the prophet, saying, <br>
-<sup>5</sup> “Tell the daughter of Zion, <br>behold, your King comes to you, <br>humble, and riding on a donkey, <br>on a colt, the foal of a donkey.”<sup>b</sup>
+<sup>4</sup> All this was done that it might be fulfilled which was spoken through the prophet, saying,<br>
+<sup>5</sup> “Tell the daughter of Zion,<br>behold, your King comes to you,<br>humble, and riding on a donkey,<br>on a colt, the foal of a donkey.”<sup>b</sup>
 
 <sup>6</sup> The disciples went and did just as Jesus commanded them,
 <sup>7</sup> and brought the donkey and the colt and laid their clothes on them; and he sat on them.
@@ -1143,7 +1143,7 @@
 
 <sup>41</sup> They told him, “He will miserably destroy those miserable men, and will lease out the vineyard to other farmers who will give him the fruit in its season.”
 
-<sup>42</sup> Jesus said to them, “Did you never read in the Scriptures, <br>‘The stone which the builders rejected <br>was made the head of the corner. <br>This was from the Lord. <br>It is marvelous in our eyes’?<sup>h</sup>
+<sup>42</sup> Jesus said to them, “Did you never read in the Scriptures,<br>‘The stone which the builders rejected<br>was made the head of the corner.<br>This was from the Lord.<br>It is marvelous in our eyes’?<sup>h</sup>
 
 <sup>43</sup> “Therefore I tell you, God’s Kingdom will be taken away from you and will be given to a nation producing its fruit.
 <sup>44</sup> He who falls on this stone will be broken to pieces, but on whomever it will fall, it will scatter him as dust.”
@@ -1218,8 +1218,8 @@
 <sup>41</sup> Now while the Pharisees were gathered together, Jesus asked them a question,
 <sup>42</sup> saying, “What do you think of the Christ? Whose son is he?” They said to him, “Of David.”
 
-<sup>43</sup> He said to them, “How then does David in the Spirit call him Lord, saying, <br>
-<sup>44</sup> ‘The Lord said to my Lord, <br>sit on my right hand, <br>until I make your enemies a footstool for your feet’?<sup>e</sup>
+<sup>43</sup> He said to them, “How then does David in the Spirit call him Lord, saying,<br>
+<sup>44</sup> ‘The Lord said to my Lord,<br>sit on my right hand,<br>until I make your enemies a footstool for your feet’?<sup>e</sup>
 
 <sup>45</sup> “If then David calls him Lord, how is he his son?”
 
@@ -1561,8 +1561,8 @@
 <sup>6</sup> The chief priests took the pieces of silver and said, “It’s not lawful to put them into the treasury, since it is the price of blood.”
 <sup>7</sup> They took counsel, and bought the potter’s field with them to bury strangers in.
 <sup>8</sup> Therefore that field has been called “The Field of Blood” to this day.
-<sup>9</sup> Then that which was spoken through Jeremiah<sup>a</sup> the prophet was fulfilled, saying, <br>“They took the thirty pieces of silver, <br>the price of him upon whom a price had been set, <br>whom some of the children of Israel priced, <br>
-<sup>10</sup> and they gave them for the potter’s field, <br>as the Lord commanded me.”<sup>b</sup>
+<sup>9</sup> Then that which was spoken through Jeremiah<sup>a</sup> the prophet was fulfilled, saying,<br>“They took the thirty pieces of silver,<br>the price of him upon whom a price had been set,<br>whom some of the children of Israel priced,<br>
+<sup>10</sup> and they gave them for the potter’s field,<br>as the Lord commanded me.”<sup>b</sup>
 
 <sup>11</sup> Now Jesus stood before the governor; and the governor asked him, saying, “Are you the King of the Jews?” Jesus said to him, “So you say.”
 

@@ -7,7 +7,7 @@
 <sup>5</sup> For the transgression of Jacob [is] all this, and for the sins of the house of Israel. What [is] the transgression of Jacob? [is it] not Samaria? and what [are] the high places of Judah? [are they] not Jerusalem?
 <sup>6</sup> Therefore I will make Samaria as an heap of the field, [and] as plantings of a vineyard: and I will pour down the stones thereof into the valley, and I will discover the foundations thereof.
 <sup>7</sup> And all the graven images thereof shall be beaten to pieces, and all the hires thereof shall be burned with the fire, and all the idols thereof will I lay desolate: for she gathered [it] of the hire of an harlot, and they shall return to the hire of an harlot.
-<sup>8</sup> Therefore I will wail and howl, I will go stripped and naked: I will make a wailing like the dragons, and mourning as the owls .
+<sup>8</sup> Therefore I will wail and howl, I will go stripped and naked: I will make a wailing like the dragons, and mourning as the owls.
 <sup>9</sup> For her wound [is] incurable; for it is come unto Judah; he is come unto the gate of my people, [even] to Jerusalem.
 <sup>10</sup> Declare ye [it] not at Gath, weep ye not at all: in the house of Aphrah roll (8675) thyself in the dust.
 <sup>11</sup> Pass ye away, thou inhabitant of Saphir, having thy shame naked: the inhabitant of Zaanan came not forth in the mourning of Bethezel; he shall receive of you his standing.
@@ -29,7 +29,7 @@
 <sup>9</sup> The women of my people have ye cast out from their pleasant houses; from their children have ye taken away my glory for ever.
 <sup>10</sup> Arise ye, and depart; for this [is] not [your] rest: because it is polluted, it shall destroy [you], even with a sore destruction.
 <sup>11</sup> If a man walking in the spirit and falsehood do lie, [saying], I will prophesy unto thee of wine and of strong drink; he shall even be the prophet of this people.
-<sup>12</sup> I will surely assemble, O Jacob, all of thee; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah , as the flock in the midst of their fold: they shall make great noise by reason of [the multitude of] men.
+<sup>12</sup> I will surely assemble, O Jacob, all of thee; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as the flock in the midst of their fold: they shall make great noise by reason of [the multitude of] men.
 <sup>13</sup> The breaker is come up before them: they have broken up, and have passed through the gate, and are gone out by it: and their king shall pass before them, and the LORD on the head of them.
 ## Chapter 3
 
@@ -54,7 +54,7 @@
 <sup>5</sup> For all people will walk every one in the name of his god, and we will walk in the name of the LORD our God for ever and ever.
 <sup>6</sup> In that day, saith the LORD, will I assemble her that halteth, and I will gather her that is driven out, and her that I have afflicted;
 <sup>7</sup> And I will make her that halted a remnant, and her that was cast far off a strong nation: and the LORD shall reign over them in mount Zion from henceforth, even for ever.
-<sup>8</sup> And thou, O tower of the flock , the strong hold of the daughter of Zion, unto thee shall it come, even the first dominion; the kingdom shall come to the daughter of Jerusalem.
+<sup>8</sup> And thou, O tower of the flock, the strong hold of the daughter of Zion, unto thee shall it come, even the first dominion; the kingdom shall come to the daughter of Jerusalem.
 <sup>9</sup> Now why dost thou cry out aloud? [is there] no king in thee? is thy counsellor perished? for pangs have taken thee as a woman in travail.
 <sup>10</sup> Be in pain, and labour to bring forth, O daughter of Zion, like a woman in travail: for now shalt thou go forth out of the city, and thou shalt dwell in the field, and thou shalt go [even] to Babylon; there shalt thou be delivered; there the LORD shall redeem thee from the hand of thine enemies.
 <sup>11</sup> Now also many nations are gathered against thee, that say, Let her be defiled, and let our eye look upon Zion.
@@ -63,7 +63,7 @@
 ## Chapter 5
 
 <sup>1</sup> Now gather thyself in troops, O daughter of troops: he hath laid siege against us: they shall smite the judge of Israel with a rod upon the cheek.
-<sup>2</sup> But thou, Bethlehem Ephratah, [though] thou be little among the thousands of Judah, [yet] out of thee shall he come forth unto me [that is] to be ruler in Israel; whose goings forth [have been] from of old, from everlasting .
+<sup>2</sup> But thou, Bethlehem Ephratah, [though] thou be little among the thousands of Judah, [yet] out of thee shall he come forth unto me [that is] to be ruler in Israel; whose goings forth [have been] from of old, from everlasting.
 <sup>3</sup> Therefore will he give them up, until the time [that] she which travaileth hath brought forth: then the remnant of his brethren shall return unto the children of Israel.
 <sup>4</sup> And he shall stand and feed in the strength of the LORD, in the majesty of the name of the LORD his God; and they shall abide: for now shall he be great unto the ends of the earth.
 <sup>5</sup> And this [man] shall be the peace, when the Assyrian shall come into our land: and when he shall tread in our palaces, then shall we raise against him seven shepherds, and eight principal men.
@@ -75,7 +75,7 @@
 <sup>11</sup> And I will cut off the cities of thy land, and throw down all thy strong holds:
 <sup>12</sup> And I will cut off witchcrafts out of thine hand; and thou shalt have no [more] soothsayers:
 <sup>13</sup> Thy graven images also will I cut off, and thy standing images out of the midst of thee; and thou shalt no more worship the work of thine hands.
-<sup>14</sup> And I will pluck up thy groves out of the midst of thee: so will I destroy thy cities .
+<sup>14</sup> And I will pluck up thy groves out of the midst of thee: so will I destroy thy cities.
 <sup>15</sup> And I will execute vengeance in anger and fury upon the heathen, such as they have not heard.
 ## Chapter 6
 

@@ -3,15 +3,15 @@
 <sup>1</sup> James, a servant of God and of the Lord Jesus Christ, to the twelve tribes which are scattered abroad, greeting.
 <sup>2</sup> My brethren, count it all joy when ye fall into divers temptations;
 <sup>3</sup> Knowing [this], that the trying of your faith worketh patience.
-<sup>4</sup> But let patience have [her] perfect work, that ye may be perfect and entire, wanting nothing .
-<sup>5</sup> If any of you lack wisdom, let him ask of God, that giveth to all [men] liberally, and upbraideth not; and it shall be given him.
+<sup>4</sup> But let patience have [her] perfect work, that ye may be perfect and entire, wanting nothing.
+<sup>5</sup>  If any of you lack wisdom, let him ask of God, that giveth to all [men] liberally, and upbraideth not; and it shall be given him.
 <sup>6</sup> But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.
 <sup>7</sup> For let not that man think that he shall receive any thing of the Lord.
 <sup>8</sup> A double minded man [is] unstable in all his ways.
-<sup>9</sup> Let the brother of low degree rejoice in that he is exalted:
+<sup>9</sup>  Let the brother of low degree rejoice in that he is exalted:
 <sup>10</sup> But the rich, in that he is made low: because as the flower of the grass he shall pass away.
 <sup>11</sup> For the sun is no sooner risen with a burning heat, but it withereth the grass, and the flower thereof falleth, and the grace of the fashion of it perisheth: so also shall the rich man fade away in his ways.
-<sup>12</sup> Blessed [is] the man that endureth temptation: for when he is tried , he shall receive the crown of life, which the Lord hath promised to them that love him.
+<sup>12</sup> Blessed [is] the man that endureth temptation: for when he is tried, he shall receive the crown of life, which the Lord hath promised to them that love him.
 <sup>13</sup> Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:
 <sup>14</sup> But every man is tempted, when he is drawn away of his own lust, and enticed.
 <sup>15</sup> Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death.
@@ -45,7 +45,7 @@
 <sup>14</sup> What [doth it] profit, my brethren, though a man say he hath faith, and have not works? can faith save him?
 <sup>15</sup> If a brother or sister be naked, and destitute of daily food,
 <sup>16</sup> And one of you say unto them, Depart in peace, be [ye] warmed and filled; notwithstanding ye give them not those things which are needful to the body; what [doth it] profit?
-<sup>17</sup> Even so faith, if it hath not works, is dead, being alone .
+<sup>17</sup> Even so faith, if it hath not works, is dead, being alone.
 <sup>18</sup> Yea, a man may say, Thou hast faith, and I have works: shew me thy faith without thy works, and I will shew thee my faith by my works.
 <sup>19</sup> Thou believest that there is one God; thou doest well: the devils also believe, and tremble.
 <sup>20</sup> But wilt thou know, O vain man, that faith without works is dead?
@@ -60,10 +60,10 @@
 <sup>1</sup> My brethren, be not many masters, knowing that we shall receive the greater condemnation.
 <sup>2</sup> For in many things we offend all. If any man offend not in word, the same [is] a perfect man, [and] able also to bridle the whole body.
 <sup>3</sup> Behold, we put bits in the horses ’ mouths, that they may obey us; and we turn about their whole body.
-<sup>4</sup> Behold also the ships, which though [they be] so great, and [are] driven of fierce winds, yet are they turned about with a very small helm, whithersoever the governor listeth .
+<sup>4</sup> Behold also the ships, which though [they be] so great, and [are] driven of fierce winds, yet are they turned about with a very small helm, whithersoever the governor listeth.
 <sup>5</sup> Even so the tongue is a little member, and boasteth great things. Behold, how great a matter a little fire kindleth!
 <sup>6</sup> And the tongue [is] a fire, a world of iniquity: so is the tongue among our members, that it defileth the whole body, and setteth on fire the course of nature; and it is set on fire of hell.
-<sup>7</sup> For every kind of beasts, and of birds, and of serpents, and of things in the sea, is tamed, and hath been tamed of mankind :
+<sup>7</sup> For every kind of beasts, and of birds, and of serpents, and of things in the sea, is tamed, and hath been tamed of mankind:
 <sup>8</sup> But the tongue can no man tame; [it is] an unruly evil, full of deadly poison.
 <sup>9</sup> Therewith bless we God, even the Father; and therewith curse we men, which are made after the similitude of God.
 <sup>10</sup> Out of the same mouth proceedeth blessing and cursing. My brethren, these things ought not so to be.
@@ -73,7 +73,7 @@
 <sup>14</sup> But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth.
 <sup>15</sup> This wisdom descendeth not from above, but [is] earthly, sensual, devilish.
 <sup>16</sup> For where envying and strife [is], there [is] confusion and every evil work.
-<sup>17</sup> But the wisdom that is from above is first pure , then peaceable, gentle, [and] easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.
+<sup>17</sup> But the wisdom that is from above is first pure, then peaceable, gentle, [and] easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.
 <sup>18</sup> And the fruit of righteousness is sown in peace of them that make peace.
 ## Chapter 4
 
@@ -81,7 +81,7 @@
 <sup>2</sup> Ye lust, and have not: ye kill, and desire to have, and cannot obtain: ye fight and war, yet ye have not, because ye ask not.
 <sup>3</sup> Ye ask, and receive not, because ye ask amiss, that ye may consume [it] upon your lusts.
 <sup>4</sup> Ye adulterers and adulteresses, know ye not that the friendship of the world is enmity with God? whosoever therefore will be a friend of the world is the enemy of God.
-<sup>5</sup> Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?
+<sup>5</sup>  Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?
 <sup>6</sup> But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto the humble.
 <sup>7</sup> Submit yourselves therefore to God. Resist the devil, and he will flee from you.
 <sup>8</sup> Draw nigh to God, and he will draw nigh to you. Cleanse [your] hands, [ye] sinners; and purify [your] hearts, [ye] double minded.
@@ -89,9 +89,9 @@
 <sup>10</sup> Humble yourselves in the sight of the Lord, and he shall lift you up.
 <sup>11</sup> Speak not evil one of another, brethren. He that speaketh evil of [his] brother, and judgeth his brother, speaketh evil of the law, and judgeth the law: but if thou judge the law, thou art not a doer of the law, but a judge.
 <sup>12</sup> There is one lawgiver, who is able to save and to destroy: who art thou that judgest another?
-<sup>13</sup> Go to now, ye that say, To day or to morrow we will go into such a city, and continue there a year, and buy and sell , and get gain :
+<sup>13</sup> Go to now, ye that say, To day or to morrow we will go into such a city, and continue there a year, and buy and sell, and get gain:
 <sup>14</sup> Whereas ye know not what [shall be] on the morrow. For what [is] your life? It is even a vapour, that appeareth for a little time, and then vanisheth away.
-<sup>15</sup> For that ye [ought] to say, If the Lord will, we shall live , and do this, or that.
+<sup>15</sup> For that ye [ought] to say, If the Lord will, we shall live, and do this, or that.
 <sup>16</sup> But now ye rejoice in your boastings: all such rejoicing is evil.
 <sup>17</sup> Therefore to him that knoweth to do good, and doeth [it] not, to him it is sin.
 ## Chapter 5
@@ -104,7 +104,7 @@
 <sup>6</sup> Ye have condemned [and] killed the just; [and] he doth not resist you.
 <sup>7</sup> Be patient therefore, brethren, unto the coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, and hath long patience for it, until he receive the early and latter rain.
 <sup>8</sup> Be ye also patient; stablish your hearts: for the coming of the Lord draweth nigh.
-<sup>9</sup> Grudge not one against another , brethren, lest ye be condemned: behold, the judge standeth before the door.
+<sup>9</sup> Grudge not one against another, brethren, lest ye be condemned: behold, the judge standeth before the door.
 <sup>10</sup> Take, my brethren, the prophets, who have spoken in the name of the Lord, for an example of suffering affliction, and of patience.
 <sup>11</sup> Behold, we count them happy which endure. Ye have heard of the patience of Job, and have seen the end of the Lord; that the Lord is very pitiful, and of tender mercy.
 <sup>12</sup> But above all things, my brethren, swear not, neither by heaven, neither by the earth, neither by any other oath: but let your yea be yea; and [your] nay, nay; lest ye fall into condemnation.

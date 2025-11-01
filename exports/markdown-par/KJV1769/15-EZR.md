@@ -18,7 +18,7 @@
 <sup>3</sup> The children of Parosh, two thousand an hundred seventy and two.
 <sup>4</sup> The children of Shephatiah, three hundred seventy and two.
 <sup>5</sup> The children of Arah, seven hundred seventy and five.
-<sup>6</sup> The children of Pahathmoab, of the children of Jeshua [and] Joab, two thousand eight hundred and twelve .
+<sup>6</sup> The children of Pahathmoab, of the children of Jeshua [and] Joab, two thousand eight hundred and twelve.
 <sup>7</sup> The children of Elam, a thousand two hundred fifty and four.
 <sup>8</sup> The children of Zattu, nine hundred forty and five.
 <sup>9</sup> The children of Zaccai, seven hundred and threescore.
@@ -30,7 +30,7 @@
 <sup>15</sup> The children of Adin, four hundred fifty and four.
 <sup>16</sup> The children of Ater of Hezekiah, ninety and eight.
 <sup>17</sup> The children of Bezai, three hundred twenty and three.
-<sup>18</sup> The children of Jorah, an hundred and twelve .
+<sup>18</sup> The children of Jorah, an hundred and twelve.
 <sup>19</sup> The children of Hashum, two hundred twenty and three.
 <sup>20</sup> The children of Gibbar, ninety and five.
 <sup>21</sup> The children of Bethlehem, an hundred twenty and three.
@@ -51,7 +51,7 @@
 <sup>36</sup> The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three.
 <sup>37</sup> The children of Immer, a thousand fifty and two.
 <sup>38</sup> The children of Pashur, a thousand two hundred forty and seven.
-<sup>39</sup> The children of Harim, a thousand and seventeen .
+<sup>39</sup> The children of Harim, a thousand and seventeen.
 <sup>40</sup> The Levites: the children of Jeshua and Kadmiel, of the children of Hodaviah, seventy and four.
 <sup>41</sup> The singers: the children of Asaph, an hundred twenty and eight.
 <sup>42</sup> The children of the porters: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, [in] all an hundred thirty and nine.
@@ -62,7 +62,7 @@
 <sup>47</sup> The children of Giddel, the children of Gahar, the children of Reaiah,
 <sup>48</sup> The children of Rezin, the children of Nekoda, the children of Gazzam,
 <sup>49</sup> The children of Uzza, the children of Paseah, the children of Besai,
-<sup>50</sup> The children of Asnah, the children of Mehunim, the children of Nephusim ,
+<sup>50</sup> The children of Asnah, the children of Mehunim, the children of Nephusim,
 <sup>51</sup> The children of Bakbuk, the children of Hakupha, the children of Harhur,
 <sup>52</sup> The children of Bazluth, the children of Mehida, the children of Harsha,
 <sup>53</sup> The children of Barkos, the children of Sisera, the children of Thamah,
@@ -108,7 +108,7 @@
 <sup>6</sup> And in the reign of Ahasuerus, in the beginning of his reign, wrote they [unto him] an accusation against the inhabitants of Judah and Jerusalem.
 <sup>7</sup> And in the days of Artaxerxes wrote Bishlam, Mithredath, Tabeel, and the rest of their companions, unto Artaxerxes king of Persia; and the writing of the letter [was] written in the Syrian tongue, and interpreted in the Syrian tongue.
 <sup>8</sup> Rehum the chancellor and Shimshai the scribe wrote a letter against Jerusalem to Artaxerxes the king in this sort:
-<sup>9</sup> Then [wrote] Rehum the chancellor , and Shimshai the scribe, and the rest of their companions; the Dinaites, the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Susanchites, the Dehavites, [and] the Elamites,
+<sup>9</sup> Then [wrote] Rehum the chancellor, and Shimshai the scribe, and the rest of their companions; the Dinaites, the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Susanchites, the Dehavites, [and] the Elamites,
 <sup>10</sup> And the rest of the nations whom the great and noble Asnappar brought over, and set in the cities of Samaria, and the rest [that are] on this side the river, and at such a time.
 <sup>11</sup> This [is] the copy of the letter that they sent unto him, [even] unto Artaxerxes the king; Thy servants the men on this side the river, and at such a time.
 <sup>12</sup> Be it known unto the king, that the Jews which came up from thee to us are come unto Jerusalem, building the rebellious and the bad city, and have set up (8675) the walls [thereof], and joined the foundations.
@@ -116,9 +116,9 @@
 <sup>14</sup> Now because we have maintenance from [the king’s] palace, and it was not meet for us to see the king’s dishonour, therefore have we sent and certified the king;
 <sup>15</sup> That search may be made in the book of the records of thy fathers: so shalt thou find in the book of the records, and know that this city [is] a rebellious city, and hurtful unto kings and provinces, and that they have moved sedition within the same of old time: for which cause was this city destroyed.
 <sup>16</sup> We certify the king that, if this city be builded [again], and the walls thereof set up, by this means thou shalt have no portion on this side the river.
-<sup>17</sup> [Then] sent the king an answer unto Rehum the chancellor , and [to] Shimshai the scribe, and [to] the rest of their companions that dwell in Samaria, and [unto] the rest beyond the river, Peace, and at such a time.
+<sup>17</sup> [Then] sent the king an answer unto Rehum the chancellor, and [to] Shimshai the scribe, and [to] the rest of their companions that dwell in Samaria, and [unto] the rest beyond the river, Peace, and at such a time.
 <sup>18</sup> The letter which ye sent unto us hath been plainly read before me.
-<sup>19</sup> And I commanded , and search hath been made, and it is found that this city of old time hath made insurrection against kings, and [that] rebellion and sedition have been made therein.
+<sup>19</sup> And I commanded, and search hath been made, and it is found that this city of old time hath made insurrection against kings, and [that] rebellion and sedition have been made therein.
 <sup>20</sup> There have been mighty kings also over Jerusalem, which have ruled over all [countries] beyond the river; and toll, tribute, and custom, was paid unto them.
 <sup>21</sup> Give ye now commandment to cause these men to cease, and that this city be not builded, until [another] commandment shall be given from me.
 <sup>22</sup> Take heed now that ye fail not to do this: why should damage grow to the hurt of the kings?
@@ -212,11 +212,11 @@
 <sup>11</sup> And of the sons of Bebai; Zechariah the son of Bebai, and with him twenty and eight males.
 <sup>12</sup> And of the sons of Azgad; Johanan the son of Hakkatan, and with him an hundred and ten males.
 <sup>13</sup> And of the last sons of Adonikam, whose names [are] these, Eliphelet, Jeiel, and Shemaiah, and with them threescore males.
-<sup>14</sup> Of the sons also of Bigvai; Uthai, and Zabbud , and with them seventy males.
+<sup>14</sup> Of the sons also of Bigvai; Uthai, and Zabbud, and with them seventy males.
 <sup>15</sup> And I gathered them together to the river that runneth to Ahava; and there abode we in tents three days: and I viewed the people, and the priests, and found there none of the sons of Levi.
 <sup>16</sup> Then sent I for Eliezer, for Ariel, for Shemaiah, and for Elnathan, and for Jarib, and for Elnathan, and for Nathan, and for Zechariah, and for Meshullam, chief men; also for Joiarib, and for Elnathan, men of understanding.
-<sup>17</sup> And I sent them with commandment unto Iddo the chief at the place Casiphia, and I told them what they should say unto Iddo, [and] to his brethren the Nethinims , at the place Casiphia, that they should bring unto us ministers for the house of our God.
-<sup>18</sup> And by the good hand of our God upon us they brought us a man of understanding, of the sons of Mahli, the son of Levi, the son of Israel; and Sherebiah, with his sons and his brethren, eighteen ;
+<sup>17</sup> And I sent them with commandment unto Iddo the chief at the place Casiphia, and I told them what they should say unto Iddo, [and] to his brethren the Nethinims, at the place Casiphia, that they should bring unto us ministers for the house of our God.
+<sup>18</sup> And by the good hand of our God upon us they brought us a man of understanding, of the sons of Mahli, the son of Levi, the son of Israel; and Sherebiah, with his sons and his brethren, eighteen;
 <sup>19</sup> And Hashabiah, and with him Jeshaiah of the sons of Merari, his brethren and their sons, twenty;
 <sup>20</sup> Also of the Nethinims, whom David and the princes had appointed for the service of the Levites, two hundred and twenty Nethinims: all of them were expressed by name.
 <sup>21</sup> Then I proclaimed a fast there, at the river of Ahava, that we might afflict ourselves before our God, to seek of him a right way for us, and for our little ones, and for all our substance.
@@ -281,7 +281,7 @@
 <sup>25</sup> Moreover of Israel: of the sons of Parosh; Ramiah, and Jeziah, and Malchiah, and Miamin, and Eleazar, and Malchijah, and Benaiah.
 <sup>26</sup> And of the sons of Elam; Mattaniah, Zechariah, and Jehiel, and Abdi, and Jeremoth, and Eliah.
 <sup>27</sup> And of the sons of Zattu; Elioenai, Eliashib, Mattaniah, and Jeremoth, and Zabad, and Aziza.
-<sup>28</sup> Of the sons also of Bebai; Jehohanan, Hananiah, Zabbai , [and] Athlai.
+<sup>28</sup> Of the sons also of Bebai; Jehohanan, Hananiah, Zabbai, [and] Athlai.
 <sup>29</sup> And of the sons of Bani; Meshullam, Malluch, and Adaiah, Jashub, and Sheal, and Ramoth.
 <sup>30</sup> And of the sons of Pahathmoab; Adna, and Chelal, Benaiah, Maaseiah, Mattaniah, Bezaleel, and Binnui, and Manasseh.
 <sup>31</sup> And [of] the sons of Harim; Eliezer, Ishijah, Malchiah, Shemaiah, Shimeon,

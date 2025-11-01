@@ -22,8 +22,8 @@
 <sup>14</sup> “But the deceiver is cursed who has in his flock a male, and vows and sacrifices to the Lord<sup>d</sup> a defective thing; for I am a great King,” says Yahweh of Armies, “and my name is awesome among the nations.”
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
-> - <sup>b</sup> 9. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
-> - <sup>c</sup> 13. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>b</sup> 9. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
+> - <sup>c</sup> 13. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 > - <sup>d</sup> 14. The word translated “Lord” is “Adonai.”
 
 ## Chapter 2

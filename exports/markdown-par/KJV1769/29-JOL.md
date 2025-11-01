@@ -61,7 +61,7 @@
 <sup>3</sup> And they have cast lots for my people; and have given a boy for an harlot, and sold a girl for wine, that they might drink.
 <sup>4</sup> Yea, and what have ye to do with me, O Tyre, and Zidon, and all the coasts of Palestine? will ye render me a recompence? and if ye recompense me, swiftly [and] speedily will I return your recompence upon your own head;
 <sup>5</sup> Because ye have taken my silver and my gold, and have carried into your temples my goodly pleasant things:
-<sup>6</sup> The children also of Judah and the children of Jerusalem have ye sold unto the Grecians , that ye might remove them far from their border.
+<sup>6</sup> The children also of Judah and the children of Jerusalem have ye sold unto the Grecians, that ye might remove them far from their border.
 <sup>7</sup> Behold, I will raise them out of the place whither ye have sold them, and will return your recompence upon your own head:
 <sup>8</sup> And I will sell your sons and your daughters into the hand of the children of Judah, and they shall sell them to the Sabeans, to a people far off: for the LORD hath spoken [it].
 <sup>9</sup> Proclaim ye this among the Gentiles; Prepare war, wake up the mighty men, let all the men of war draw near; let them come up:

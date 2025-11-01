@@ -37,7 +37,7 @@
 <sup>11</sup> Mine eyes do fail with tears, my bowels are troubled, my liver is poured upon the earth, for the destruction of the daughter of my people; because the children and the sucklings swoon in the streets of the city.
 <sup>12</sup> They say to their mothers, Where [is] corn and wine? when they swooned as the wounded in the streets of the city, when their soul was poured out into their mothers ’ bosom.
 <sup>13</sup> What thing shall I take to witness (8675) for thee? what thing shall I liken to thee, O daughter of Jerusalem? what shall I equal to thee, that I may comfort thee, O virgin daughter of Zion? for thy breach [is] great like the sea: who can heal thee?
-<sup>14</sup> Thy prophets have seen vain and foolish things for thee: and they have not discovered thine iniquity, to turn away thy captivity ; but have seen for thee false burdens and causes of banishment.
+<sup>14</sup> Thy prophets have seen vain and foolish things for thee: and they have not discovered thine iniquity, to turn away thy captivity; but have seen for thee false burdens and causes of banishment.
 <sup>15</sup> All that pass by clap [their] hands at thee; they hiss and wag their head at the daughter of Jerusalem, [saying, Is] this the city that [men] call The perfection of beauty, The joy of the whole earth?
 <sup>16</sup> All thine enemies have opened their mouth against thee: they hiss and gnash the teeth: they say, We have swallowed [her] up: certainly this [is] the day that we looked for; we have found, we have seen [it].
 <sup>17</sup> The LORD hath done [that] which he had devised; he hath fulfilled his word that he had commanded in the days of old: he hath thrown down, and hath not pitied: and he hath caused [thine] enemy to rejoice over thee, he hath set up the horn of thine adversaries.
@@ -142,7 +142,7 @@
 
 <sup>1</sup> Remember, O LORD, what is come upon us: consider, and behold our reproach.
 <sup>2</sup> Our inheritance is turned to strangers, our houses to aliens.
-<sup>3</sup> We are orphans and fatherless , our mothers [are] as widows.
+<sup>3</sup> We are orphans and fatherless, our mothers [are] as widows.
 <sup>4</sup> We have drunken our water for money; our wood is sold unto us.
 <sup>5</sup> Our necks [are] under persecution: we labour, [and] have no rest.
 <sup>6</sup> We have given the hand [to] the Egyptians, [and to] the Assyrians, to be satisfied with bread.

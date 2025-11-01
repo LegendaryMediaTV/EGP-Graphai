@@ -5,18 +5,16 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
-      },
-      {
         "text": "The elder",
-        "strong": "G4245"
+        "strong": "G4245",
+        "paragraph": true
       },
       {
-        "text": "unto the wellbeloved",
+        "text": " unto the wellbeloved",
         "strong": "G0027"
       },
       {
-        "text": "Gaius",
+        "text": " Gaius",
         "strong": "G1050"
       },
       {
@@ -24,25 +22,23 @@
         "strong": "G3739"
       },
       {
-        "text": "I",
+        "text": " I",
         "strong": "G1473"
       },
       {
-        "text": "love",
+        "text": " love",
         "strong": "G0025",
         "morph": "PresActInd"
       },
       {
-        "text": "in",
+        "text": " in",
         "strong": "G1722"
       },
       {
-        "text": "the truth",
+        "text": " the truth",
         "strong": "G0225"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -60,28 +56,28 @@
         "morph": "PresMidPasDepInd"
       },
       {
-        "text": "above",
+        "text": " above",
         "strong": "G4012"
       },
       {
-        "text": "all things",
+        "text": " all things",
         "strong": "G3956"
       },
       {
-        "text": "that thou",
+        "text": " that thou",
         "strong": "G4571"
       },
       {
-        "text": "mayest prosper",
+        "text": " mayest prosper",
         "strong": "G2137",
         "morph": "PresPasInf"
       },
       {
-        "text": "and",
+        "text": " and",
         "strong": "G2532"
       },
       {
-        "text": "be in health",
+        "text": " be in health",
         "strong": "G5198",
         "morph": "PresActInf"
       },
@@ -90,21 +86,19 @@
         "strong": "G2531"
       },
       {
-        "text": "thy",
+        "text": " thy",
         "strong": "G4675"
       },
       {
-        "text": "soul",
+        "text": " soul",
         "strong": "G5590"
       },
       {
-        "text": "prospereth",
+        "text": " prospereth",
         "strong": "G2137",
         "morph": "PresPasInd"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -117,12 +111,12 @@
         "strong": "G1063"
       },
       {
-        "text": "I rejoiced",
+        "text": " I rejoiced",
         "strong": "G5463",
         "morph": "Aor2PasDepInd"
       },
       {
-        "text": "greatly",
+        "text": " greatly",
         "strong": "G3029"
       },
       {
@@ -130,25 +124,25 @@
         "strong": "G0080"
       },
       {
-        "text": "came",
+        "text": " came",
         "strong": "G2064",
         "morph": "PresMidPasDepPtc"
       },
       {
-        "text": "and",
+        "text": " and",
         "strong": "G2532"
       },
       {
-        "text": "testified",
+        "text": " testified",
         "strong": "G3140",
         "morph": "PresActPtc"
       },
       {
-        "text": "of the truth",
+        "text": " of the truth",
         "strong": "G0225"
       },
       {
-        "text": "that is in thee",
+        "text": " that is in thee",
         "strong": "G4675"
       },
       {
@@ -156,25 +150,23 @@
         "strong": "G2531"
       },
       {
-        "text": "thou",
+        "text": " thou",
         "strong": "G4771"
       },
       {
-        "text": "walkest",
+        "text": " walkest",
         "strong": "G4043",
         "morph": "PresActInd"
       },
       {
-        "text": "in",
+        "text": " in",
         "strong": "G1722"
       },
       {
-        "text": "the truth",
+        "text": " the truth",
         "strong": "G0225"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -188,53 +180,52 @@
         "morph": "PresActInd"
       },
       {
-        "text": "no",
+        "text": " no",
         "strong": "G3756"
       },
       {
-        "text": "greater",
+        "text": " greater",
         "strong": "G3186"
       },
       {
+        "text": " ",
         "strong": "G5130"
       },
       {
-        "text": "joy",
+        "text": " joy",
         "strong": "G5479"
       },
       {
-        "text": "than to",
+        "text": " than to",
         "strong": "G2443"
       },
       {
-        "text": "hear",
+        "text": " hear",
         "strong": "G0191",
         "morph": "PresActSubj"
       },
       {
-        "text": "that my",
+        "text": " that my",
         "strong": "G1699"
       },
       {
-        "text": "children",
+        "text": " children",
         "strong": "G5043"
       },
       {
-        "text": "walk",
+        "text": " walk",
         "strong": "G4043",
         "morph": "PresActPtc"
       },
       {
-        "text": "in",
+        "text": " in",
         "strong": "G1722"
       },
       {
-        "text": "truth",
+        "text": " truth",
         "strong": "G0225"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -252,27 +243,28 @@
         "morph": "PresActInd"
       },
       {
-        "text": "faithfully",
+        "text": " faithfully",
         "strong": "G4103"
       },
       {
-        "text": "whatsoever",
+        "text": " whatsoever",
         "strong": "G3739"
       },
       {
+        "text": " ",
         "strong": "G1437"
       },
       {
-        "text": "thou doest",
+        "text": " thou doest",
         "strong": "G2038",
         "morph": "AorMidDepSubj"
       },
       {
-        "text": "to",
+        "text": " to",
         "strong": "G1519"
       },
       {
-        "text": "the brethren",
+        "text": " the brethren",
         "strong": "G0080"
       },
       {
@@ -280,16 +272,14 @@
         "strong": "G2532"
       },
       {
-        "text": "to",
+        "text": " to",
         "strong": "G1519"
       },
       {
-        "text": "strangers",
+        "text": " strangers",
         "strong": "G3581"
       },
-      {
-        "text": ";"
-      }
+      ";"
     ]
   },
   {
@@ -302,24 +292,24 @@
         "strong": "G3739"
       },
       {
-        "text": "have borne witness",
+        "text": " have borne witness",
         "strong": "G3140",
         "morph": "AorActInd"
       },
       {
-        "text": "of thy",
+        "text": " of thy",
         "strong": "G4675"
       },
       {
-        "text": "charity",
+        "text": " charity",
         "strong": "G0026"
       },
       {
-        "text": "before",
+        "text": " before",
         "strong": "G1799"
       },
       {
-        "text": "the church",
+        "text": " the church",
         "strong": "G1577"
       },
       {
@@ -327,20 +317,20 @@
         "strong": "G3739"
       },
       {
-        "text": "if thou bring forward on their journey",
+        "text": " if thou bring forward on their journey",
         "strong": "G4311",
         "morph": "AorActPtc"
       },
       {
-        "text": "after",
+        "text": " after",
         "strong": "G0516"
       },
       {
-        "text": "a godly",
+        "text": " a godly",
         "strong": "G2316"
       },
       {
-        "text": "sort",
+        "text": " sort",
         "strong": "G0516"
       },
       {
@@ -349,12 +339,10 @@
         "morph": "FutActInd"
       },
       {
-        "text": "well",
+        "text": " well",
         "strong": "G2573"
       },
-      {
-        "text": ":"
-      }
+      ":"
     ]
   },
   {
@@ -367,23 +355,23 @@
         "strong": "G1063"
       },
       {
-        "text": "for",
+        "text": " for",
         "strong": "G5228"
       },
       {
-        "text": "his",
+        "text": " his",
         "strong": "G0846"
       },
       {
-        "text": "name’s",
+        "text": " name’s",
         "strong": "G3686"
       },
       {
-        "text": "sake",
+        "text": " sake",
         "strong": "G5228"
       },
       {
-        "text": "they went forth",
+        "text": " they went forth",
         "strong": "G1831",
         "morph": "Aor2ActInd"
       },
@@ -393,20 +381,18 @@
         "morph": "PresActPtc"
       },
       {
-        "text": "nothing",
+        "text": " nothing",
         "strong": "G3367"
       },
       {
-        "text": "of",
+        "text": " of",
         "strong": "G0575"
       },
       {
-        "text": "the Gentiles",
+        "text": " the Gentiles",
         "strong": "G1484"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -419,21 +405,21 @@
         "strong": "G2249"
       },
       {
-        "text": "therefore",
+        "text": " therefore",
         "strong": "G3767"
       },
       {
-        "text": "ought",
+        "text": " ought",
         "strong": "G3784",
         "morph": "PresActInd"
       },
       {
-        "text": "to receive",
+        "text": " to receive",
         "strong": "G0618",
         "morph": "PresActInf"
       },
       {
-        "text": "such",
+        "text": " such",
         "strong": "G5108"
       },
       {
@@ -441,21 +427,19 @@
         "strong": "G2443"
       },
       {
-        "text": "we might be",
+        "text": " we might be",
         "strong": "G1096",
         "morph": "PresMidPasDepSubj"
       },
       {
-        "text": "fellowhelpers",
+        "text": " fellowhelpers",
         "strong": "G4904"
       },
       {
-        "text": "to the truth",
+        "text": " to the truth",
         "strong": "G0225"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -469,7 +453,7 @@
         "morph": "AorActInd"
       },
       {
-        "text": "unto the church",
+        "text": " unto the church",
         "strong": "G1577"
       },
       {
@@ -477,7 +461,7 @@
         "strong": "G0235"
       },
       {
-        "text": "Diotrephes",
+        "text": " Diotrephes",
         "strong": "G1361"
       },
       {
@@ -485,12 +469,12 @@
         "strong": "G3588"
       },
       {
-        "text": "loveth to have the preeminence",
+        "text": " loveth to have the preeminence",
         "strong": "G5383",
         "morph": "PresActPtc"
       },
       {
-        "text": "among them",
+        "text": " among them",
         "strong": "G0846"
       },
       {
@@ -499,16 +483,14 @@
         "morph": "PresMidPasDepInd"
       },
       {
-        "text": "us",
+        "text": " us",
         "strong": "G2248"
       },
       {
-        "text": "not",
+        "text": " not",
         "strong": "G3756"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -521,6 +503,7 @@
         "strong": "G1223"
       },
       {
+        "text": " ",
         "strong": "G5124"
       },
       {
@@ -528,7 +511,7 @@
         "strong": "G1437"
       },
       {
-        "text": "I come",
+        "text": " I come",
         "strong": "G2064",
         "morph": "Aor2ActSubj"
       },
@@ -538,19 +521,19 @@
         "morph": "FutActInd"
       },
       {
-        "text": "his",
+        "text": " his",
         "strong": "G0846"
       },
       {
-        "text": "deeds",
+        "text": " deeds",
         "strong": "G2041"
       },
       {
-        "text": "which",
+        "text": " which",
         "strong": "G3739"
       },
       {
-        "text": "he doeth",
+        "text": " he doeth",
         "strong": "G4160",
         "morph": "PresActInd"
       },
@@ -560,15 +543,15 @@
         "morph": "PresActPtc"
       },
       {
-        "text": "us",
+        "text": " us",
         "strong": "G2248"
       },
       {
-        "text": "with malicious",
+        "text": " with malicious",
         "strong": "G4190"
       },
       {
-        "text": "words",
+        "text": " words",
         "strong": "G3056"
       },
       {
@@ -576,19 +559,20 @@
         "strong": "G2532"
       },
       {
-        "text": "not",
+        "text": " not",
         "strong": "G3361"
       },
       {
-        "text": "content",
+        "text": " content",
         "strong": "G0714",
         "morph": "PresPasPtc"
       },
       {
-        "text": "therewith",
+        "text": " therewith",
         "strong": "G1909"
       },
       {
+        "text": " ",
         "strong": "G5125"
       },
       {
@@ -596,20 +580,20 @@
         "strong": "G3777"
       },
       {
-        "text": "doth",
+        "text": " doth",
         "strong": "G1926"
       },
       {
-        "text": "he himself",
+        "text": " he himself",
         "strong": "G0846"
       },
       {
-        "text": "receive",
+        "text": " receive",
         "strong": "G1926",
         "morph": "PresMidPasDepInd"
       },
       {
-        "text": "the brethren",
+        "text": " the brethren",
         "strong": "G0080"
       },
       {
@@ -617,12 +601,12 @@
         "strong": "G2532"
       },
       {
-        "text": "forbiddeth",
+        "text": " forbiddeth",
         "strong": "G2967",
         "morph": "PresActInd"
       },
       {
-        "text": "them that would",
+        "text": " them that would",
         "strong": "G1014",
         "morph": "PresMidPasDepPtc"
       },
@@ -631,21 +615,19 @@
         "strong": "G2532"
       },
       {
-        "text": "casteth",
+        "text": " casteth",
         "strong": "G1544",
         "morph": "PresActInd"
       },
       {
-        "text": "[them] out of",
+        "text": " [them] out of",
         "strong": "G1537"
       },
       {
-        "text": "the church",
+        "text": " the church",
         "strong": "G1577"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -663,11 +645,11 @@
         "morph": "PresMidPasDepImpr"
       },
       {
-        "text": "not",
+        "text": " not",
         "strong": "G3361"
       },
       {
-        "text": "that which is evil",
+        "text": " that which is evil",
         "strong": "G2556"
       },
       {
@@ -675,7 +657,7 @@
         "strong": "G0235"
       },
       {
-        "text": "that which is good",
+        "text": " that which is good",
         "strong": "G0018"
       },
       {
@@ -684,16 +666,16 @@
         "morph": "PresActPtc"
       },
       {
-        "text": "is",
+        "text": " is",
         "strong": "G2076",
         "morph": "PresInd"
       },
       {
-        "text": "of",
+        "text": " of",
         "strong": "G1537"
       },
       {
-        "text": "God",
+        "text": " God",
         "strong": "G2316"
       },
       {
@@ -701,30 +683,28 @@
         "strong": "G1161"
       },
       {
-        "text": "he that doeth evil",
+        "text": " he that doeth evil",
         "strong": "G2554",
         "morph": "PresActPtc"
       },
       {
-        "text": "hath",
+        "text": " hath",
         "strong": "G3708"
       },
       {
-        "text": "not",
+        "text": " not",
         "strong": "G3756"
       },
       {
-        "text": "seen",
+        "text": " seen",
         "strong": "G3708",
         "morph": "PerfActInd"
       },
       {
-        "text": "God",
+        "text": " God",
         "strong": "G2316"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -737,32 +717,32 @@
         "strong": "G1216"
       },
       {
-        "text": "hath good report",
+        "text": " hath good report",
         "strong": "G3140",
         "morph": "PerfPasInd"
       },
       {
-        "text": "of",
+        "text": " of",
         "strong": "G5259"
       },
       {
-        "text": "all",
+        "text": " all",
         "strong": "G3956"
       },
       {
-        "text": "[men], and",
+        "text": " [men], and",
         "strong": "G2532"
       },
       {
-        "text": "of",
+        "text": " of",
         "strong": "G5259"
       },
       {
-        "text": "the truth",
+        "text": " the truth",
         "strong": "G0225"
       },
       {
-        "text": "itself",
+        "text": " itself",
         "strong": "G0846"
       },
       {
@@ -774,11 +754,11 @@
         "strong": "G2532"
       },
       {
-        "text": "we",
+        "text": " we",
         "strong": "G2249"
       },
       {
-        "text": "[also] bear record",
+        "text": " [also] bear record",
         "strong": "G3140",
         "morph": "PresActInd"
       },
@@ -787,34 +767,32 @@
         "strong": "G2532"
       },
       {
-        "text": "ye know",
+        "text": " ye know",
         "strong": "G1492",
         "morph": "PerfActInd"
       },
       {
-        "text": "that",
+        "text": " that",
         "strong": "G3754"
       },
       {
-        "text": "our",
+        "text": " our",
         "strong": "G2257"
       },
       {
-        "text": "record",
+        "text": " record",
         "strong": "G3141"
       },
       {
-        "text": "is",
+        "text": " is",
         "strong": "G2076",
         "morph": "PresInd"
       },
       {
-        "text": "true",
+        "text": " true",
         "strong": "G0227"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   },
   {
@@ -828,11 +806,11 @@
         "morph": "ImpfActInd"
       },
       {
-        "text": "many things",
+        "text": " many things",
         "strong": "G4183"
       },
       {
-        "text": "to write",
+        "text": " to write",
         "strong": "G1125",
         "morph": "PresActInf"
       },
@@ -841,42 +819,40 @@
         "strong": "G0235"
       },
       {
-        "text": "I will",
+        "text": " I will",
         "strong": "G2309",
         "morph": "PresActInd"
       },
       {
-        "text": "not",
+        "text": " not",
         "strong": "G3756"
       },
       {
-        "text": "with",
+        "text": " with",
         "strong": "G1223"
       },
       {
-        "text": "ink",
+        "text": " ink",
         "strong": "G3188"
       },
       {
-        "text": "and",
+        "text": " and",
         "strong": "G2532"
       },
       {
-        "text": "pen",
+        "text": " pen",
         "strong": "G2563"
       },
       {
-        "text": "write",
+        "text": " write",
         "strong": "G1125",
         "morph": "AorActInf"
       },
       {
-        "text": "unto thee",
+        "text": " unto thee",
         "strong": "G4671"
       },
-      {
-        "text": ":"
-      }
+      ":"
     ]
   },
   {
@@ -889,25 +865,25 @@
         "strong": "G1161"
       },
       {
-        "text": "I trust",
+        "text": " I trust",
         "strong": "G1679",
         "morph": "PresActInd"
       },
       {
-        "text": "I shall",
+        "text": " I shall",
         "strong": "G1492"
       },
       {
-        "text": "shortly",
+        "text": " shortly",
         "strong": "G2112"
       },
       {
-        "text": "see",
+        "text": " see",
         "strong": "G1492",
         "morph": "Aor2ActInf"
       },
       {
-        "text": "thee",
+        "text": " thee",
         "strong": "G4571"
       },
       {
@@ -915,20 +891,20 @@
         "strong": "G2532"
       },
       {
-        "text": "we shall speak",
+        "text": " we shall speak",
         "strong": "G2980",
         "morph": "FutActInd"
       },
       {
-        "text": "face",
+        "text": " face",
         "strong": "G4750"
       },
       {
-        "text": "to",
+        "text": " to",
         "strong": "G4314"
       },
       {
-        "text": "face",
+        "text": " face",
         "strong": "G4750"
       },
       {
@@ -936,7 +912,7 @@
         "strong": "G1515"
       },
       {
-        "text": "[be] to thee",
+        "text": " [be] to thee",
         "strong": "G4671"
       },
       {
@@ -944,12 +920,12 @@
         "strong": "G5384"
       },
       {
-        "text": "salute",
+        "text": " salute",
         "strong": "G0782",
         "morph": "PresMidPasDepInd"
       },
       {
-        "text": "thee",
+        "text": " thee",
         "strong": "G4571"
       },
       {
@@ -958,20 +934,18 @@
         "morph": "PresMidPasDepImpr"
       },
       {
-        "text": "the friends",
+        "text": " the friends",
         "strong": "G5384"
       },
       {
-        "text": "by",
+        "text": " by",
         "strong": "G2596"
       },
       {
-        "text": "name",
+        "text": " name",
         "strong": "G3686"
       },
-      {
-        "text": "."
-      }
+      "."
     ]
   }
 ]

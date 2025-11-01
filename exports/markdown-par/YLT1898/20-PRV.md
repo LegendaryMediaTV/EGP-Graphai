@@ -47,7 +47,7 @@
 <sup>10</sup> For wisdom cometh into thy heart, And knowledge to thy soul is pleasant,
 <sup>11</sup> Thoughtfulness doth watch over thee, Understanding doth keep thee,
 <sup>12</sup> To deliver thee from an evil way, From any speaking froward things,
-<sup>13</sup> Who are forsaking paths of uprightness , To walk in ways of darkness,
+<sup>13</sup> Who are forsaking paths of uprightness, To walk in ways of darkness,
 <sup>14</sup> Who are rejoicing to do evil, They delight in frowardness of the wicked,
 <sup>15</sup> Whose paths are crooked, Yea, they are perverted in their ways.
 <sup>16</sup> To deliver thee from the strange woman, From the stranger who hath made smooth her sayings,

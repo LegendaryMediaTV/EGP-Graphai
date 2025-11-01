@@ -14,7 +14,7 @@
 <sup>12</sup> One of themselves, [even] a prophet of their own, said, The Cretians [are] alway liars, evil beasts, slow bellies.
 <sup>13</sup> This witness is true. Wherefore rebuke them sharply, that they may be sound in the faith;
 <sup>14</sup> Not giving heed to Jewish fables, and commandments of men, that turn from the truth.
-<sup>15</sup> Unto the pure all things [are] pure : but unto them that are defiled and unbelieving [is] nothing pure; but even their mind and conscience is defiled.
+<sup>15</sup> Unto the pure all things [are] pure: but unto them that are defiled and unbelieving [is] nothing pure; but even their mind and conscience is defiled.
 <sup>16</sup> They profess that they know God; but in works they deny [him], being abominable, and disobedient, and unto every good work reprobate.
 ## Chapter 2
 

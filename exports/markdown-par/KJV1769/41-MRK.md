@@ -69,17 +69,17 @@
 <sup>20</sup> But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days.
 <sup>21</sup> No man also seweth a piece of new cloth on an old garment: else the new piece that filled it up taketh away from the old, and the rent is made worse.
 <sup>22</sup> And no man putteth new wine into old bottles: else the new wine doth burst the bottles, and the wine is spilled, and the bottles will be marred: but new wine must be put into new bottles.
-<sup>23</sup> And it came to pass, that he went through the corn fields on the sabbath day; and his disciples began, as they went , to pluck the ears of corn.
+<sup>23</sup> And it came to pass, that he went through the corn fields on the sabbath day; and his disciples began, as they went, to pluck the ears of corn.
 <sup>24</sup> And the Pharisees said unto him, Behold, why do they on the sabbath day that which is not lawful?
 <sup>25</sup> And he said unto them, Have ye never read what David did, when he had need, and was an hungred, he, and they that were with him?
-<sup>26</sup> How he went into the house of God in the days of Abiathar the high priest, and did eat the shewbread , which is not lawful to eat but for the priests, and gave also to them which were with him?
+<sup>26</sup> How he went into the house of God in the days of Abiathar the high priest, and did eat the shewbread, which is not lawful to eat but for the priests, and gave also to them which were with him?
 <sup>27</sup> And he said unto them, The sabbath was made for man, and not man for the sabbath:
 <sup>28</sup> Therefore the Son of man is Lord also of the sabbath.
 ## Chapter 3
 
 <sup>1</sup> And he entered again into the synagogue; and there was a man there which had a withered hand.
 <sup>2</sup> And they watched him, whether he would heal him on the sabbath day; that they might accuse him.
-<sup>3</sup> And he saith unto the man which had the withered hand, Stand forth .
+<sup>3</sup> And he saith unto the man which had the withered hand, Stand forth.
 <sup>4</sup> And he saith unto them, Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill? But they held their peace.
 <sup>5</sup> And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man, Stretch forth thine hand. And he stretched [it] out: and his hand was restored whole as the other.
 <sup>6</sup> And the Pharisees went forth, and straightway took counsel with the Herodians against him, how they might destroy him.
@@ -135,7 +135,7 @@
 <sup>19</sup> And the cares of this world, and the deceitfulness of riches, and the lusts of other things entering in, choke the word, and it becometh unfruitful.
 <sup>20</sup> And these are they which are sown on good ground; such as hear the word, and receive [it], and bring forth fruit, some thirtyfold, some sixty, and some an hundred.
 <sup>21</sup> And he said unto them, Is a candle brought to be put under a bushel, or under a bed? and not to be set on a candlestick?
-<sup>22</sup> For there is nothing hid , which shall not be manifested; neither was any thing kept secret, but that it should come abroad .
+<sup>22</sup> For there is nothing hid, which shall not be manifested; neither was any thing kept secret, but that it should come abroad.
 <sup>23</sup> If any man have ears to hear, let him hear.
 <sup>24</sup> And he said unto them, Take heed what ye hear: with what measure ye mete, it shall be measured to you: and unto you that hear shall more be given.
 <sup>25</sup> For he that hath, to him shall be given: and he that hath not, from him shall be taken even that which he hath.
@@ -147,22 +147,22 @@
 <sup>31</sup> [It is] like a grain of mustard seed, which, when it is sown in the earth, is less than all the seeds that be in the earth:
 <sup>32</sup> But when it is sown, it groweth up, and becometh greater than all herbs, and shooteth out great branches; so that the fowls of the air may lodge under the shadow of it.
 <sup>33</sup> And with many such parables spake he the word unto them, as they were able to hear [it].
-<sup>34</sup> But without a parable spake he not unto them: and when they were alone , he expounded all things to his disciples.
+<sup>34</sup> But without a parable spake he not unto them: and when they were alone, he expounded all things to his disciples.
 <sup>35</sup> And the same day, when the even was come, he saith unto them, Let us pass over unto the other side.
 <sup>36</sup> And when they had sent away the multitude, they took him even as he was in the ship. And there were also with him other little ships.
 <sup>37</sup> And there arose a great storm of wind, and the waves beat into the ship, so that it was now full.
 <sup>38</sup> And he was in the hinder part of the ship, asleep on a pillow: and they awake him, and say unto him, Master, carest thou not that we perish?
 <sup>39</sup> And he arose, and rebuked the wind, and said unto the sea, Peace, be still. And the wind ceased, and there was a great calm.
 <sup>40</sup> And he said unto them, Why are ye so fearful? how is it that ye have no faith?
-<sup>41</sup> And they feared exceedingly , and said one to another, What manner of man is this, that even the wind and the sea obey him?
+<sup>41</sup> And they feared exceedingly, and said one to another, What manner of man is this, that even the wind and the sea obey him?
 ## Chapter 5
 
 <sup>1</sup> And they came over unto the other side of the sea, into the country of the Gadarenes.
 <sup>2</sup> And when he was come out of the ship, immediately there met him out of the tombs a man with an unclean spirit,
 <sup>3</sup> Who had [his] dwelling among the tombs; and no man could bind him, no, not with chains:
-<sup>4</sup> Because that he had been often bound with fetters and chains, and the chains had been plucked asunder by him, and the fetters broken in pieces: neither could any [man] tame him .
+<sup>4</sup> Because that he had been often bound with fetters and chains, and the chains had been plucked asunder by him, and the fetters broken in pieces: neither could any [man] tame him.
 <sup>5</sup> And always, night and day, he was in the mountains, and in the tombs, crying, and cutting himself with stones.
-<sup>6</sup> But when he saw Jesus afar off , he ran and worshipped him,
+<sup>6</sup> But when he saw Jesus afar off, he ran and worshipped him,
 <sup>7</sup> And cried with a loud voice, and said, What have I to do with thee, Jesus, [thou] Son of the most high God? I adjure thee by God, that thou torment me not.
 <sup>8</sup> For he said unto him, Come out of the man, [thou] unclean spirit.
 <sup>9</sup> And he asked him, What [is] thy name? And he answered, saying, My name [is] Legion: for we are many.
@@ -182,7 +182,7 @@
 <sup>23</sup> And besought him greatly, saying, My little daughter lieth at the point of death: [I pray thee], come and lay thy hands on her, that she may be healed; and she shall live.
 <sup>24</sup> And [Jesus] went with him; and much people followed him, and thronged him.
 <sup>25</sup> And a certain woman, which had an issue of blood twelve years,
-<sup>26</sup> And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse ,
+<sup>26</sup> And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse,
 <sup>27</sup> When she had heard of Jesus, came in the press behind, and touched his garment.
 <sup>28</sup> For she said, If I may touch but his clothes, I shall be whole.
 <sup>29</sup> And straightway the fountain of her blood was dried up; and she felt in [her] body that she was healed of that plague.
@@ -205,7 +205,7 @@
 <sup>1</sup> And he went out from thence, and came into his own country; and his disciples follow him.
 <sup>2</sup> And when the sabbath day was come, he began to teach in the synagogue: and many hearing [him] were astonished, saying, From whence hath this [man] these things? and what wisdom [is] this which is given unto him, that even such mighty works are wrought by his hands?
 <sup>3</sup> Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us? And they were offended at him.
-<sup>4</sup> But Jesus said unto them , A prophet is not without honour, but in his own country, and among his own kin, and in his own house.
+<sup>4</sup> But Jesus said unto them, A prophet is not without honour, but in his own country, and among his own kin, and in his own house.
 <sup>5</sup> And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed [them].
 <sup>6</sup> And he marvelled because of their unbelief. And he went round about the villages, teaching.
 <sup>7</sup> And he called [unto him] the twelve, and began to send them forth by two and two; and gave them power over unclean spirits;
@@ -233,15 +233,15 @@
 <sup>29</sup> And when his disciples heard [of it], they came and took up his corpse, and laid it in a tomb.
 <sup>30</sup> And the apostles gathered themselves together unto Jesus, and told him all things, both what they had done, and what they had taught.
 <sup>31</sup> And he said unto them, Come ye yourselves apart into a desert place, and rest a while: for there were many coming and going, and they had no leisure so much as to eat.
-<sup>32</sup> And they departed into a desert place by ship privately .
+<sup>32</sup> And they departed into a desert place by ship privately.
 <sup>33</sup> And the people saw them departing, and many knew him, and ran afoot thither out of all cities, and outwent them, and came together unto him.
 <sup>34</sup> And Jesus, when he came out, saw much people, and was moved with compassion toward them, because they were as sheep not having a shepherd: and he began to teach them many things.
 <sup>35</sup> And when the day was now far spent, his disciples came unto him, and said, This is a desert place, and now the time [is] far passed:
 <sup>36</sup> Send them away, that they may go into the country round about, and into the villages, and buy themselves bread: for they have nothing to eat.
 <sup>37</sup> He answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred pennyworth of bread, and give them to eat?
-<sup>38</sup> He saith unto them, How many loaves have ye? go and see. And when they knew, they say, Five, and two fishes.
+<sup>38</sup>  He saith unto them, How many loaves have ye? go and see. And when they knew, they say, Five, and two fishes.
 <sup>39</sup> And he commanded them to make all sit down by companies upon the green grass.
-<sup>40</sup> And they sat down in ranks , by hundreds, and by fifties.
+<sup>40</sup> And they sat down in ranks, by hundreds, and by fifties.
 <sup>41</sup> And when he had taken the five loaves and the two fishes, he looked up to heaven, and blessed, and brake the loaves, and gave [them] to his disciples to set before them; and the two fishes divided he among them all.
 <sup>42</sup> And they did all eat, and were filled.
 <sup>43</sup> And they took up twelve baskets full of the fragments, and of the fishes.
@@ -256,7 +256,7 @@
 <sup>52</sup> For they considered not [the miracle] of the loaves: for their heart was hardened.
 <sup>53</sup> And when they had passed over, they came into the land of Gennesaret, and drew to the shore.
 <sup>54</sup> And when they were come out of the ship, straightway they knew him,
-<sup>55</sup> And ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was .
+<sup>55</sup> And ran through that whole region round about, and began to carry about in beds those that were sick, where they heard he was.
 <sup>56</sup> And whithersoever he entered, into villages, or cities, or country, they laid the sick in the streets, and besought him that they might touch if it were but the border of his garment: and as many as touched him were made whole.
 ## Chapter 7
 
@@ -285,7 +285,7 @@
 <sup>23</sup> All these evil things come from within, and defile the man.
 <sup>24</sup> And from thence he arose, and went into the borders of Tyre and Sidon, and entered into an house, and would have no man know [it]: but he could not be hid.
 <sup>25</sup> For a [certain] woman, whose young daughter had an unclean spirit, heard of him, and came and fell at his feet:
-<sup>26</sup> The woman was a Greek, a Syrophenician by nation; and she besought him that he would cast forth the devil out of her daughter.
+<sup>26</sup>  The woman was a Greek, a Syrophenician by nation; and she besought him that he would cast forth the devil out of her daughter.
 <sup>27</sup> But Jesus said unto her, Let the children first be filled: for it is not meet to take the children’s bread, and to cast [it] unto the dogs.
 <sup>28</sup> And she answered and said unto him, Yes, Lord: yet the dogs under the table eat of the children’s crumbs.
 <sup>29</sup> And he said unto her, For this saying go thy way; the devil is gone out of thy daughter.
@@ -361,12 +361,12 @@
 <sup>20</sup> And they brought him unto him: and when he saw him, straightway the spirit tare him; and he fell on the ground, and wallowed foaming.
 <sup>21</sup> And he asked his father, How long is it ago since this came unto him? And he said, Of a child.
 <sup>22</sup> And ofttimes it hath cast him into the fire, and into the waters, to destroy him: but if thou canst do any thing, have compassion on us, and help us.
-<sup>23</sup> Jesus said unto him, If thou canst believe, all things [are] possible to him that believeth.
+<sup>23</sup>  Jesus said unto him, If thou canst believe, all things [are] possible to him that believeth.
 <sup>24</sup> And straightway the father of the child cried out, and said with tears, Lord, I believe; help thou mine unbelief.
 <sup>25</sup> When Jesus saw that the people came running together, he rebuked the foul spirit, saying unto him, [Thou] dumb and deaf spirit, I charge thee, come out of him, and enter no more into him.
 <sup>26</sup> And [the spirit] cried, and rent him sore, and came out of him: and he was as one dead; insomuch that many said, He is dead.
 <sup>27</sup> But Jesus took him by the hand, and lifted him up; and he arose.
-<sup>28</sup> And when he was come into the house, his disciples asked him privately , Why could not we cast him out?
+<sup>28</sup> And when he was come into the house, his disciples asked him privately, Why could not we cast him out?
 <sup>29</sup> And he said unto them, This kind can come forth by nothing, but by prayer and fasting.
 <sup>30</sup> And they departed thence, and passed through Galilee; and he would not that any man should know [it].
 <sup>31</sup> For he taught his disciples, and said unto them, The Son of man is delivered into the hands of men, and they shall kill him; and after that he is killed, he shall rise the third day.
@@ -405,9 +405,9 @@
 <sup>12</sup> And if a woman shall put away her husband, and be married to another, she committeth adultery.
 <sup>13</sup> And they brought young children to him, that he should touch them: and [his] disciples rebuked those that brought [them].
 <sup>14</sup> But when Jesus saw [it], he was much displeased, and said unto them, Suffer the little children to come unto me, and forbid them not: for of such is the kingdom of God.
-<sup>15</sup> Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child, he shall not enter therein .
+<sup>15</sup> Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child, he shall not enter therein.
 <sup>16</sup> And he took them up in his arms, put [his] hands upon them, and blessed them.
-<sup>17</sup> And when he was gone forth into the way , there came one running, and kneeled to him, and asked him, Good Master, what shall I do that I may inherit eternal life?
+<sup>17</sup> And when he was gone forth into the way, there came one running, and kneeled to him, and asked him, Good Master, what shall I do that I may inherit eternal life?
 <sup>18</sup> And Jesus said unto him, Why callest thou me good? [there is] none good but one, [that is], God.
 <sup>19</sup> Thou knowest the commandments, Do not commit adultery, Do not kill, Do not steal, Do not bear false witness, Defraud not, Honour thy father and mother.
 <sup>20</sup> And he answered and said unto him, Master, all these have I observed from my youth.
@@ -427,7 +427,7 @@
 <sup>34</sup> And they shall mock him, and shall scourge him, and shall spit upon him, and shall kill him: and the third day he shall rise again.
 <sup>35</sup> And James and John, the sons of Zebedee, come unto him, saying, Master, we would that thou shouldest do for us whatsoever we shall desire.
 <sup>36</sup> And he said unto them, What would ye that I should do for you?
-<sup>37</sup> They said unto him, Grant unto us that we may sit, one on thy right hand, and the other on thy left hand, in thy glory.
+<sup>37</sup>  They said unto him, Grant unto us that we may sit, one on thy right hand, and the other on thy left hand, in thy glory.
 <sup>38</sup> But Jesus said unto them, Ye know not what ye ask: can ye drink of the cup that I drink of? and be baptized with the baptism that I am baptized with?
 <sup>39</sup> And they said unto him, We can. And Jesus said unto them, Ye shall indeed drink of the cup that I drink of; and with the baptism that I am baptized withal shall ye be baptized:
 <sup>40</sup> But to sit on my right hand and on my left hand is not mine to give; but [it shall be given to them] for whom it is prepared.
@@ -457,7 +457,7 @@
 <sup>10</sup> Blessed [be] the kingdom of our father David, that cometh in the name of the Lord: Hosanna in the highest.
 <sup>11</sup> And Jesus entered into Jerusalem, and into the temple: and when he had looked round about upon all things, and now the eventide was come, he went out unto Bethany with the twelve.
 <sup>12</sup> And on the morrow, when they were come from Bethany, he was hungry:
-<sup>13</sup> And seeing a fig tree afar off having leaves, he came, if haply he might find any thing thereon : and when he came to it, he found nothing but leaves; for the time of figs was not [yet].
+<sup>13</sup> And seeing a fig tree afar off having leaves, he came, if haply he might find any thing thereon: and when he came to it, he found nothing but leaves; for the time of figs was not [yet].
 <sup>14</sup> And Jesus answered and said unto it, No man eat fruit of thee hereafter for ever. And his disciples heard [it].
 <sup>15</sup> And they come to Jerusalem: and Jesus went into the temple, and began to cast out them that sold and bought in the temple, and overthrew the tables of the moneychangers, and the seats of them that sold doves;
 <sup>16</sup> And would not suffer that any man should carry [any] vessel through the temple.
@@ -490,7 +490,7 @@
 <sup>8</sup> And they took him, and killed [him], and cast [him] out of the vineyard.
 <sup>9</sup> What shall therefore the lord of the vineyard do? he will come and destroy the husbandmen, and will give the vineyard unto others.
 <sup>10</sup> And have ye not read this scripture; The stone which the builders rejected is become the head of the corner:
-<sup>11</sup> This was the Lord’s doing , and it is marvellous in our eyes?
+<sup>11</sup> This was the Lord’s doing, and it is marvellous in our eyes?
 <sup>12</sup> And they sought to lay hold on him, but feared the people: for they knew that he had spoken the parable against them: and they left him, and went their way.
 <sup>13</sup> And they send unto him certain of the Pharisees and of the Herodians, to catch him in [his] words.
 <sup>14</sup> And when they were come, they say unto him, Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not?
@@ -510,12 +510,12 @@
 <sup>28</sup> And one of the scribes came, and having heard them reasoning together, and perceiving that he had answered them well, asked him, Which is the first commandment of all?
 <sup>29</sup> And Jesus answered him, The first of all the commandments [is], Hear, O Israel; The Lord our God is one Lord:
 <sup>30</sup> And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this [is] the first commandment.
-<sup>31</sup> And the second [is] like, [namely] this , Thou shalt love thy neighbour as thyself. There is none other commandment greater than these.
+<sup>31</sup> And the second [is] like, [namely] this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these.
 <sup>32</sup> And the scribe said unto him, Well, Master, thou hast said the truth: for there is one God; and there is none other but he:
 <sup>33</sup> And to love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love [his] neighbour as himself, is more than all whole burnt offerings and sacrifices.
 <sup>34</sup> And when Jesus saw that he answered discreetly, he said unto him, Thou art not far from the kingdom of God. And no man after that durst ask him [any question].
 <sup>35</sup> And Jesus answered and said, while he taught in the temple, How say the scribes that Christ is the Son of David?
-<sup>36</sup> For David himself said by the Holy Ghost, The LORD said to my Lord, Sit thou on my right hand, till I make thine enemies thy footstool .
+<sup>36</sup> For David himself said by the Holy Ghost, The LORD said to my Lord, Sit thou on my right hand, till I make thine enemies thy footstool.
 <sup>37</sup> David therefore himself calleth him Lord; and whence is he [then] his son? And the common people heard him gladly.
 <sup>38</sup> And he said unto them in his doctrine, Beware of the scribes, which love to go in long clothing, and [love] salutations in the marketplaces,
 <sup>39</sup> And the chief seats in the synagogues, and the uppermost rooms at feasts:
@@ -528,7 +528,7 @@
 
 <sup>1</sup> And as he went out of the temple, one of his disciples saith unto him, Master, see what manner of stones and what buildings [are here]!
 <sup>2</sup> And Jesus answering said unto him, Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down.
-<sup>3</sup> And as he sat upon the mount of Olives over against the temple, Peter and James and John and Andrew asked him privately ,
+<sup>3</sup> And as he sat upon the mount of Olives over against the temple, Peter and James and John and Andrew asked him privately,
 <sup>4</sup> Tell us, when shall these things be? and what [shall be] the sign when all these things shall be fulfilled?
 <sup>5</sup> And Jesus answering them began to say, Take heed lest any [man] deceive you:
 <sup>6</sup> For many shall come in my name, saying, I am [Christ]; and shall deceive many.
@@ -538,7 +538,7 @@
 <sup>10</sup> And the gospel must first be published among all nations.
 <sup>11</sup> But when they shall lead [you], and deliver you up, take no thought beforehand what ye shall speak, neither do ye premeditate: but whatsoever shall be given you in that hour, that speak ye: for it is not ye that speak, but the Holy Ghost.
 <sup>12</sup> Now the brother shall betray the brother to death, and the father the son; and children shall rise up against [their] parents, and shall cause them to be put to death.
-<sup>13</sup> And ye shall be hated of all [men] for my name’s sake : but he that shall endure unto the end, the same shall be saved.
+<sup>13</sup> And ye shall be hated of all [men] for my name’s sake: but he that shall endure unto the end, the same shall be saved.
 <sup>14</sup> But when ye shall see the abomination of desolation, spoken of by Daniel the prophet, standing where it ought not, (let him that readeth understand,) then let them that be in Judaea flee to the mountains:
 <sup>15</sup> And let him that is on the housetop not go down into the house, neither enter [therein], to take any thing out of his house:
 <sup>16</sup> And let him that is in the field not turn back again for to take up his garment.
@@ -595,7 +595,7 @@
 <sup>28</sup> But after that I am risen, I will go before you into Galilee.
 <sup>29</sup> But Peter said unto him, Although all shall be offended, yet [will] not I.
 <sup>30</sup> And Jesus saith unto him, Verily I say unto thee, That this day, [even] in this night, before the cock crow twice, thou shalt deny me thrice.
-<sup>31</sup> But he spake the more vehemently , If I should die with thee, I will not deny thee in any wise. Likewise also said they all.
+<sup>31</sup> But he spake the more vehemently, If I should die with thee, I will not deny thee in any wise. Likewise also said they all.
 <sup>32</sup> And they came to a place which was named Gethsemane: and he saith to his disciples, Sit ye here, while I shall pray.
 <sup>33</sup> And he taketh with him Peter and James and John, and began to be sore amazed, and to be very heavy;
 <sup>34</sup> And saith unto them, My soul is exceeding sorrowful unto death: tarry ye here, and watch.
@@ -622,8 +622,8 @@
 <sup>55</sup> And the chief priests and all the council sought for witness against Jesus to put him to death; and found none.
 <sup>56</sup> For many bare false witness against him, but their witness agreed not together.
 <sup>57</sup> And there arose certain, and bare false witness against him, saying,
-<sup>58</sup> We heard him say, I will destroy this temple that is made with hands, and within three days I will build another made without hands.
-<sup>59</sup> But neither so did their witness agree together .
+<sup>58</sup>  We heard him say, I will destroy this temple that is made with hands, and within three days I will build another made without hands.
+<sup>59</sup> But neither so did their witness agree together.
 <sup>60</sup> And the high priest stood up in the midst, and asked Jesus, saying, Answerest thou nothing? what [is it which] these witness against thee?
 <sup>61</sup> But he held his peace, and answered nothing. Again the high priest asked him, and said unto him, Art thou the Christ, the Son of the Blessed?
 <sup>62</sup> And Jesus said, I am: and ye shall see the Son of man sitting on the right hand of power, and coming in the clouds of heaven.
@@ -642,7 +642,7 @@
 <sup>1</sup> And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried [him] away, and delivered [him] to Pilate.
 <sup>2</sup> And Pilate asked him, Art thou the King of the Jews? And he answering said unto him, Thou sayest [it].
 <sup>3</sup> And the chief priests accused him of many things: but he answered nothing.
-<sup>4</sup> And Pilate asked him again, saying, Answerest thou nothing ? behold how many things they witness against thee.
+<sup>4</sup> And Pilate asked him again, saying, Answerest thou nothing? behold how many things they witness against thee.
 <sup>5</sup> But Jesus yet answered nothing; so that Pilate marvelled.
 <sup>6</sup> Now at [that] feast he released unto them one prisoner, whomsoever they desired.
 <sup>7</sup> And there was [one] named Barabbas, [which lay] bound with them that had made insurrection with him, who had committed murder in the insurrection.

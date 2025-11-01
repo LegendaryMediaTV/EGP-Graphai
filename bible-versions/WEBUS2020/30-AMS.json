@@ -3,14 +3,10 @@
     "book": "AMS",
     "chapter": 1,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The words of Amos, who was among the herdsmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah and in the days of Jeroboam the son of Joash, king of Israel, two years before the earthquake."
-      }
-    ]
+    "content": {
+      "text": "The words of Amos, who was among the herdsmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah and in the days of Jeroboam the son of Joash, king of Israel, two years before the earthquake.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
@@ -18,43 +14,29 @@
     "verse": 2,
     "content": [
       {
-        "text": "He said:"
-      },
-      {
-        "type": "n"
+        "text": "He said:",
+        "break": true
       },
       {
         "text": "“Yahweh",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-            }
-          ]
+          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
         }
       },
       {
-        "text": "will roar from Zion,"
+        "text": " will roar from Zion,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and utter his voice from Jerusalem;",
+        "break": true
       },
       {
-        "text": "and utter his voice from Jerusalem;"
+        "text": "and the pastures of the shepherds will mourn,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the pastures of the shepherds will mourn,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the top of Carmel will wither.”"
-      }
+      "and the top of Carmel will wither.”"
     ]
   },
   {
@@ -63,31 +45,21 @@
     "verse": 3,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“For three transgressions of Damascus, yes, for four,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not turn away its punishment,",
+        "break": true
       },
       {
-        "text": "“For three transgressions of Damascus, yes, for four,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I will not turn away its punishment,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because they have threshed Gilead with threshing instruments of iron;"
-      },
-      {
-        "type": "n"
+        "text": "because they have threshed Gilead with threshing instruments of iron;",
+        "break": true
       }
     ]
   },
@@ -97,16 +69,12 @@
     "verse": 4,
     "content": [
       {
-        "text": "but I will send a fire into the house of Hazael,"
+        "text": "but I will send a fire into the house of Hazael,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and it will devour the palaces of Ben Hadad."
-      },
-      {
-        "type": "n"
+        "text": "and it will devour the palaces of Ben Hadad.",
+        "break": true
       }
     ]
   },
@@ -116,26 +84,18 @@
     "verse": 5,
     "content": [
       {
-        "text": "I will break the bar of Damascus,"
+        "text": "I will break the bar of Damascus,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and cut off the inhabitant from the valley of Aven,",
+        "break": true
       },
       {
-        "text": "and cut off the inhabitant from the valley of Aven,"
+        "text": "and him who holds the scepter from the house of Eden;",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and him who holds the scepter from the house of Eden;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the people of Syria shall go into captivity to Kir,” says Yahweh."
-      }
+      "and the people of Syria shall go into captivity to Kir,” says Yahweh."
     ]
   },
   {
@@ -144,37 +104,25 @@
     "verse": 6,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“For three transgressions of Gaza, yes, for four,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not turn away its punishment,",
+        "break": true
       },
       {
-        "text": "“For three transgressions of Gaza, yes, for four,"
+        "text": "because they carried away captive the whole community,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I will not turn away its punishment,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because they carried away captive the whole community,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "to deliver them up to Edom;"
-      },
-      {
-        "type": "n"
+        "text": "to deliver them up to Edom;",
+        "break": true
       }
     ]
   },
@@ -184,16 +132,12 @@
     "verse": 7,
     "content": [
       {
-        "text": "but I will send a fire on the wall of Gaza,"
+        "text": "but I will send a fire on the wall of Gaza,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and it will devour its palaces."
-      },
-      {
-        "type": "n"
+        "text": "and it will devour its palaces.",
+        "break": true
       }
     ]
   },
@@ -203,37 +147,25 @@
     "verse": 8,
     "content": [
       {
-        "text": "I will cut off the inhabitant from Ashdod,"
+        "text": "I will cut off the inhabitant from Ashdod,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and him who holds the scepter from Ashkelon;",
+        "break": true
       },
       {
-        "text": "and him who holds the scepter from Ashkelon;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and I will turn my hand against Ekron;"
-      },
-      {
-        "type": "n"
+        "text": "and I will turn my hand against Ekron;",
+        "break": true
       },
       {
         "text": "and the remnant of the Philistines will perish,” says the Lord",
         "foot": {
           "type": "trn",
-          "content": [
-            {
-              "text": "The word translated “Lord” is “Adonai.”"
-            }
-          ]
+          "content": "The word translated “Lord” is “Adonai.”"
         }
       },
-      {
-        "text": "Yahweh."
-      }
+      " Yahweh."
     ]
   },
   {
@@ -242,37 +174,25 @@
     "verse": 9,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“For three transgressions of Tyre, yes, for four,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not turn away its punishment;",
+        "break": true
       },
       {
-        "text": "“For three transgressions of Tyre, yes, for four,"
+        "text": "because they delivered up the whole community to Edom,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I will not turn away its punishment;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because they delivered up the whole community to Edom,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and didn’t remember the brotherly covenant;"
-      },
-      {
-        "type": "n"
+        "text": "and didn’t remember the brotherly covenant;",
+        "break": true
       }
     ]
   },
@@ -282,14 +202,10 @@
     "verse": 10,
     "content": [
       {
-        "text": "but I will send a fire on the wall of Tyre,"
+        "text": "but I will send a fire on the wall of Tyre,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and it will devour its palaces.”"
-      }
+      "and it will devour its palaces.”"
     ]
   },
   {
@@ -298,49 +214,33 @@
     "verse": 11,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“For three transgressions of Edom, yes, for four,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not turn away its punishment,",
+        "break": true
       },
       {
-        "text": "“For three transgressions of Edom, yes, for four,"
+        "text": "because he pursued his brother with the sword",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and cast off all pity,",
+        "break": true
       },
       {
-        "text": "I will not turn away its punishment,"
+        "text": "and his anger raged continually,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "because he pursued his brother with the sword"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and cast off all pity,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and his anger raged continually,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and he kept his wrath forever;"
-      },
-      {
-        "type": "n"
+        "text": "and he kept his wrath forever;",
+        "break": true
       }
     ]
   },
@@ -350,14 +250,10 @@
     "verse": 12,
     "content": [
       {
-        "text": "but I will send a fire on Teman,"
+        "text": "but I will send a fire on Teman,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and it will devour the palaces of Bozrah.”"
-      }
+      "and it will devour the palaces of Bozrah.”"
     ]
   },
   {
@@ -366,37 +262,25 @@
     "verse": 13,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“For three transgressions of the children of Ammon, yes, for four,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not turn away its punishment,",
+        "break": true
       },
       {
-        "text": "“For three transgressions of the children of Ammon, yes, for four,"
+        "text": "because they have ripped open the pregnant women of Gilead,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I will not turn away its punishment,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because they have ripped open the pregnant women of Gilead,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that they may enlarge their border."
-      },
-      {
-        "type": "n"
+        "text": "that they may enlarge their border.",
+        "break": true
       }
     ]
   },
@@ -406,28 +290,20 @@
     "verse": 14,
     "content": [
       {
-        "text": "But I will kindle a fire in the wall of Rabbah,"
+        "text": "But I will kindle a fire in the wall of Rabbah,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and it will devour its palaces,",
+        "break": true
       },
       {
-        "text": "and it will devour its palaces,"
+        "text": "with shouting in the day of battle,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "with shouting in the day of battle,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "with a storm in the day of the whirlwind;"
-      },
-      {
-        "type": "n"
+        "text": "with a storm in the day of the whirlwind;",
+        "break": true
       }
     ]
   },
@@ -437,14 +313,10 @@
     "verse": 15,
     "content": [
       {
-        "text": "and their king will go into captivity,"
+        "text": "and their king will go into captivity,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "he and his princes together,” says Yahweh."
-      }
+      "he and his princes together,” says Yahweh."
     ]
   },
   {
@@ -453,31 +325,21 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“For three transgressions of Moab, yes, for four,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not turn away its punishment,",
+        "break": true
       },
       {
-        "text": "“For three transgressions of Moab, yes, for four,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I will not turn away its punishment,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because he burned the bones of the king of Edom into lime;"
-      },
-      {
-        "type": "n"
+        "text": "because he burned the bones of the king of Edom into lime;",
+        "break": true
       }
     ]
   },
@@ -487,22 +349,16 @@
     "verse": 2,
     "content": [
       {
-        "text": "but I will send a fire on Moab,"
+        "text": "but I will send a fire on Moab,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and it will devour the palaces of Kerioth;",
+        "break": true
       },
       {
-        "text": "and it will devour the palaces of Kerioth;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and Moab will die with tumult, with shouting, and with the sound of the trumpet;"
-      },
-      {
-        "type": "n"
+        "text": "and Moab will die with tumult, with shouting, and with the sound of the trumpet;",
+        "break": true
       }
     ]
   },
@@ -512,14 +368,10 @@
     "verse": 3,
     "content": [
       {
-        "text": "and I will cut off the judge from among them,"
+        "text": "and I will cut off the judge from among them,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and will kill all its princes with him,” says Yahweh."
-      }
+      "and will kill all its princes with him,” says Yahweh."
     ]
   },
   {
@@ -528,49 +380,33 @@
     "verse": 4,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“For three transgressions of Judah, yes, for four,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not turn away its punishment,",
+        "break": true
       },
       {
-        "text": "“For three transgressions of Judah, yes, for four,"
+        "text": "because they have rejected Yahweh’s law,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and have not kept his statutes,",
+        "break": true
       },
       {
-        "text": "I will not turn away its punishment,"
+        "text": "and their lies have led them astray,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "because they have rejected Yahweh’s law,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and have not kept his statutes,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and their lies have led them astray,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "after which their fathers walked;"
-      },
-      {
-        "type": "n"
+        "text": "after which their fathers walked;",
+        "break": true
       }
     ]
   },
@@ -580,14 +416,10 @@
     "verse": 5,
     "content": [
       {
-        "text": "but I will send a fire on Judah,"
+        "text": "but I will send a fire on Judah,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and it will devour the palaces of Jerusalem.”"
-      }
+      "and it will devour the palaces of Jerusalem.”"
     ]
   },
   {
@@ -596,37 +428,25 @@
     "verse": 6,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“For three transgressions of Israel, yes, for four,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not turn away its punishment,",
+        "break": true
       },
       {
-        "text": "“For three transgressions of Israel, yes, for four,"
+        "text": "because they have sold the righteous for silver,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I will not turn away its punishment,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because they have sold the righteous for silver,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the needy for a pair of sandals;"
-      },
-      {
-        "type": "n"
+        "text": "and the needy for a pair of sandals;",
+        "break": true
       }
     ]
   },
@@ -636,22 +456,16 @@
     "verse": 7,
     "content": [
       {
-        "text": "They trample the heads of the poor into the dust of the earth"
+        "text": "They trample the heads of the poor into the dust of the earth",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and deny justice to the oppressed.",
+        "break": true
       },
       {
-        "text": "and deny justice to the oppressed."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "A man and his father use the same maiden, to profane my holy name."
-      },
-      {
-        "type": "n"
+        "text": "A man and his father use the same maiden, to profane my holy name.",
+        "break": true
       }
     ]
   },
@@ -661,27 +475,26 @@
     "verse": 8,
     "content": [
       {
-        "text": "They lay themselves down beside every altar on clothes taken in pledge."
-      },
-      {
-        "type": "n"
+        "text": "They lay themselves down beside every altar on clothes taken in pledge.",
+        "break": true
       },
       {
         "text": "In the house of their God",
         "foot": {
           "type": "trn",
           "content": [
+            "The Hebrew word rendered “God” is “",
             {
-              "text": "The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim)."
-            }
+              "text": "אֱלֹהִ֑ים",
+              "script": "H"
+            },
+            "” (Elohim)."
           ]
         }
       },
       {
-        "text": "they drink the wine of those who have been fined."
-      },
-      {
-        "type": "n"
+        "text": " they drink the wine of those who have been fined.",
+        "break": true
       }
     ]
   },
@@ -691,34 +504,24 @@
     "verse": 9,
     "content": [
       {
-        "text": "Yet I destroyed the Amorite before them,"
+        "text": "Yet I destroyed the Amorite before them,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "whose height was like the height of the cedars,",
+        "break": true
       },
       {
-        "text": "whose height was like the height of the cedars,"
+        "text": "and he was strong as the oaks;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "yet I destroyed his fruit from above,",
+        "break": true
       },
       {
-        "text": "and he was strong as the oaks;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "yet I destroyed his fruit from above,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and his roots from beneath."
-      },
-      {
-        "type": "n"
+        "text": "and his roots from beneath.",
+        "break": true
       }
     ]
   },
@@ -728,22 +531,16 @@
     "verse": 10,
     "content": [
       {
-        "text": "Also I brought you up out of the land of Egypt"
+        "text": "Also I brought you up out of the land of Egypt",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and led you forty years in the wilderness,",
+        "break": true
       },
       {
-        "text": "and led you forty years in the wilderness,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "to possess the land of the Amorite."
-      },
-      {
-        "type": "n"
+        "text": "to possess the land of the Amorite.",
+        "break": true
       }
     ]
   },
@@ -753,28 +550,20 @@
     "verse": 11,
     "content": [
       {
-        "text": "I raised up some of your sons for prophets,"
+        "text": "I raised up some of your sons for prophets,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and some of your young men for Nazirites.",
+        "break": true
       },
       {
-        "text": "and some of your young men for Nazirites."
+        "text": "Isn’t this true,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Isn’t this true,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "you children of Israel?” says Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "you children of Israel?” says Yahweh.",
+        "break": true
       }
     ]
   },
@@ -784,16 +573,12 @@
     "verse": 12,
     "content": [
       {
-        "text": "“But you gave the Nazirites wine to drink,"
+        "text": "“But you gave the Nazirites wine to drink,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and commanded the prophets, saying, ‘Don’t prophesy!’"
-      },
-      {
-        "type": "n"
+        "text": "and commanded the prophets, saying, ‘Don’t prophesy!’",
+        "break": true
       }
     ]
   },
@@ -807,23 +592,22 @@
         "foot": {
           "type": "trn",
           "content": [
+            "“Behold”, from “",
             {
-              "text": "“Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
-            }
+              "text": "הִנֵּה",
+              "script": "H"
+            },
+            "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
       },
       {
-        "text": "I will crush you in your place,"
+        "text": " I will crush you in your place,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "as a cart crushes that is full of grain."
-      },
-      {
-        "type": "n"
+        "text": "as a cart crushes that is full of grain.",
+        "break": true
       }
     ]
   },
@@ -833,22 +617,16 @@
     "verse": 14,
     "content": [
       {
-        "text": "Flight will perish from the swift."
+        "text": "Flight will perish from the swift.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The strong won’t strengthen his force.",
+        "break": true
       },
       {
-        "text": "The strong won’t strengthen his force."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The mighty won’t deliver himself."
-      },
-      {
-        "type": "n"
+        "text": "The mighty won’t deliver himself.",
+        "break": true
       }
     ]
   },
@@ -858,22 +636,16 @@
     "verse": 15,
     "content": [
       {
-        "text": "He who handles the bow won’t stand."
+        "text": "He who handles the bow won’t stand.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "He who is swift of foot won’t escape.",
+        "break": true
       },
       {
-        "text": "He who is swift of foot won’t escape."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "He who rides the horse won’t deliver himself."
-      },
-      {
-        "type": "n"
+        "text": "He who rides the horse won’t deliver himself.",
+        "break": true
       }
     ]
   },
@@ -883,31 +655,21 @@
     "verse": 16,
     "content": [
       {
-        "text": "He who is courageous among the mighty"
+        "text": "He who is courageous among the mighty",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "will flee away naked on that day,” says Yahweh."
-      }
+      "will flee away naked on that day,” says Yahweh."
     ]
   },
   {
     "book": "AMS",
     "chapter": 3,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Hear this word that Yahweh has spoken against you, children of Israel, against the whole family which I brought up out of the land of Egypt, saying:"
-      },
-      {
-        "type": "n"
-      }
-    ]
+    "content": {
+      "text": "Hear this word that Yahweh has spoken against you, children of Israel, against the whole family which I brought up out of the land of Egypt, saying:",
+      "paragraph": true,
+      "break": true
+    }
   },
   {
     "book": "AMS",
@@ -915,16 +677,12 @@
     "verse": 2,
     "content": [
       {
-        "text": "“I have only chosen you of all the families of the earth."
+        "text": "“I have only chosen you of all the families of the earth.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Therefore I will punish you for all of your sins.”"
-      },
-      {
-        "type": "n"
+        "text": "Therefore I will punish you for all of your sins.”",
+        "break": true
       }
     ]
   },
@@ -934,16 +692,12 @@
     "verse": 3,
     "content": [
       {
-        "text": "Do two walk together,"
+        "text": "Do two walk together,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "unless they have agreed?"
-      },
-      {
-        "type": "n"
+        "text": "unless they have agreed?",
+        "break": true
       }
     ]
   },
@@ -953,28 +707,20 @@
     "verse": 4,
     "content": [
       {
-        "text": "Will a lion roar in the thicket,"
+        "text": "Will a lion roar in the thicket,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "when he has no prey?",
+        "break": true
       },
       {
-        "text": "when he has no prey?"
+        "text": "Does a young lion cry out of his den,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Does a young lion cry out of his den,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "if he has caught nothing?"
-      },
-      {
-        "type": "n"
+        "text": "if he has caught nothing?",
+        "break": true
       }
     ]
   },
@@ -984,28 +730,20 @@
     "verse": 5,
     "content": [
       {
-        "text": "Can a bird fall in a trap on the earth,"
+        "text": "Can a bird fall in a trap on the earth,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "where no snare is set for him?",
+        "break": true
       },
       {
-        "text": "where no snare is set for him?"
+        "text": "Does a snare spring up from the ground,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Does a snare spring up from the ground,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "when there is nothing to catch?"
-      },
-      {
-        "type": "n"
+        "text": "when there is nothing to catch?",
+        "break": true
       }
     ]
   },
@@ -1015,28 +753,20 @@
     "verse": 6,
     "content": [
       {
-        "text": "Does the trumpet alarm sound in a city,"
+        "text": "Does the trumpet alarm sound in a city,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "without the people being afraid?",
+        "break": true
       },
       {
-        "text": "without the people being afraid?"
+        "text": "Does evil happen to a city,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Does evil happen to a city,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and Yahweh hasn’t done it?"
-      },
-      {
-        "type": "n"
+        "text": "and Yahweh hasn’t done it?",
+        "break": true
       }
     ]
   },
@@ -1046,16 +776,12 @@
     "verse": 7,
     "content": [
       {
-        "text": "Surely the Lord Yahweh will do nothing,"
+        "text": "Surely the Lord Yahweh will do nothing,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "unless he reveals his secret to his servants the prophets."
-      },
-      {
-        "type": "n"
+        "text": "unless he reveals his secret to his servants the prophets.",
+        "break": true
       }
     ]
   },
@@ -1065,28 +791,20 @@
     "verse": 8,
     "content": [
       {
-        "text": "The lion has roared."
+        "text": "The lion has roared.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Who will not fear?",
+        "break": true
       },
       {
-        "text": "Who will not fear?"
+        "text": "The Lord Yahweh has spoken.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The Lord Yahweh has spoken."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Who can but prophesy?"
-      },
-      {
-        "type": "n"
+        "text": "Who can but prophesy?",
+        "break": true
       }
     ]
   },
@@ -1096,34 +814,24 @@
     "verse": 9,
     "content": [
       {
-        "text": "Proclaim in the palaces at Ashdod,"
+        "text": "Proclaim in the palaces at Ashdod,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and in the palaces in the land of Egypt,",
+        "break": true
       },
       {
-        "text": "and in the palaces in the land of Egypt,"
+        "text": "and say, “Assemble yourselves on the mountains of Samaria,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and see what unrest is in her,",
+        "break": true
       },
       {
-        "text": "and say, “Assemble yourselves on the mountains of Samaria,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and see what unrest is in her,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and what oppression is among them.”"
-      },
-      {
-        "type": "n"
+        "text": "and what oppression is among them.”",
+        "break": true
       }
     ]
   },
@@ -1133,14 +841,10 @@
     "verse": 10,
     "content": [
       {
-        "text": "“Indeed they don’t know to do right,” says Yahweh,"
+        "text": "“Indeed they don’t know to do right,” says Yahweh,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "“Who hoard plunder and loot in their palaces.”"
-      }
+      "“Who hoard plunder and loot in their palaces.”"
     ]
   },
   {
@@ -1149,29 +853,19 @@
     "verse": 11,
     "content": [
       {
-        "type": "p"
+        "text": "Therefore the Lord Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Therefore the Lord Yahweh says:"
+        "text": "“An adversary will overrun the land;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and he will pull down your strongholds,",
+        "break": true
       },
-      {
-        "text": "“An adversary will overrun the land;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and he will pull down your strongholds,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and your fortresses will be plundered.”"
-      }
+      "and your fortresses will be plundered.”"
     ]
   },
   {
@@ -1180,52 +874,34 @@
     "verse": 12,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh says:"
+        "text": "“As the shepherd rescues out of the mouth of the lion two legs,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "or a piece of an ear,",
+        "break": true
       },
       {
-        "text": "“As the shepherd rescues out of the mouth of the lion two legs,"
+        "text": "so shall the children of Israel be rescued who sit in Samaria on the corner of a couch,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "or a piece of an ear,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "so shall the children of Israel be rescued who sit in Samaria on the corner of a couch,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and on the silken cushions of a bed.”"
-      }
+      "and on the silken cushions of a bed.”"
     ]
   },
   {
     "book": "AMS",
     "chapter": 3,
     "verse": 13,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "“Listen, and testify against the house of Jacob,” says the Lord Yahweh, the God of Armies."
-      },
-      {
-        "type": "n"
-      }
-    ]
+    "content": {
+      "text": "“Listen, and testify against the house of Jacob,” says the Lord Yahweh, the God of Armies.",
+      "paragraph": true,
+      "break": true
+    }
   },
   {
     "book": "AMS",
@@ -1233,28 +909,20 @@
     "verse": 14,
     "content": [
       {
-        "text": "“For in the day that I visit the transgressions of Israel on him,"
+        "text": "“For in the day that I visit the transgressions of Israel on him,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will also visit the altars of Bethel;",
+        "break": true
       },
       {
-        "text": "I will also visit the altars of Bethel;"
+        "text": "and the horns of the altar will be cut off,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and the horns of the altar will be cut off,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and fall to the ground."
-      },
-      {
-        "type": "n"
+        "text": "and fall to the ground.",
+        "break": true
       }
     ]
   },
@@ -1264,37 +932,25 @@
     "verse": 15,
     "content": [
       {
-        "text": "I will strike the winter house with the summer house;"
+        "text": "I will strike the winter house with the summer house;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and the houses of ivory will perish,",
+        "break": true
       },
-      {
-        "text": "and the houses of ivory will perish,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the great houses will have an end,” says Yahweh."
-      }
+      "and the great houses will have an end,” says Yahweh."
     ]
   },
   {
     "book": "AMS",
     "chapter": 4,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Listen to this word, you cows of Bashan, who are on the mountain of Samaria, who oppress the poor, who crush the needy, who tell their husbands, “Bring us drinks!”"
-      },
-      {
-        "type": "n"
-      }
-    ]
+    "content": {
+      "text": "Listen to this word, you cows of Bashan, who are on the mountain of Samaria, who oppress the poor, who crush the needy, who tell their husbands, “Bring us drinks!”",
+      "paragraph": true,
+      "break": true
+    }
   },
   {
     "book": "AMS",
@@ -1302,22 +958,16 @@
     "verse": 2,
     "content": [
       {
-        "text": "The Lord Yahweh has sworn by his holiness,"
+        "text": "The Lord Yahweh has sworn by his holiness,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "“Behold, the days shall come on you that they will take you away with hooks,",
+        "break": true
       },
       {
-        "text": "“Behold, the days shall come on you that they will take you away with hooks,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the last of you with fish hooks."
-      },
-      {
-        "type": "n"
+        "text": "and the last of you with fish hooks.",
+        "break": true
       }
     ]
   },
@@ -1327,22 +977,16 @@
     "verse": 3,
     "content": [
       {
-        "text": "You will go out at the breaks in the wall,"
+        "text": "You will go out at the breaks in the wall,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "everyone straight before her;",
+        "break": true
       },
       {
-        "text": "everyone straight before her;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and you will cast yourselves into Harmon,” says Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "and you will cast yourselves into Harmon,” says Yahweh.",
+        "break": true
       }
     ]
   },
@@ -1352,28 +996,20 @@
     "verse": 4,
     "content": [
       {
-        "text": "“Go to Bethel, and sin;"
+        "text": "“Go to Bethel, and sin;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "to Gilgal, and sin more.",
+        "break": true
       },
       {
-        "text": "to Gilgal, and sin more."
+        "text": "Bring your sacrifices every morning,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Bring your sacrifices every morning,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "your tithes every three days,"
-      },
-      {
-        "type": "n"
+        "text": "your tithes every three days,",
+        "break": true
       }
     ]
   },
@@ -1383,22 +1019,16 @@
     "verse": 5,
     "content": [
       {
-        "text": "offer a sacrifice of thanksgiving of that which is leavened,"
+        "text": "offer a sacrifice of thanksgiving of that which is leavened,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and proclaim free will offerings and brag about them;",
+        "break": true
       },
       {
-        "text": "and proclaim free will offerings and brag about them;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for this pleases you, you children of Israel,” says the Lord Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "for this pleases you, you children of Israel,” says the Lord Yahweh.",
+        "break": true
       }
     ]
   },
@@ -1408,22 +1038,16 @@
     "verse": 6,
     "content": [
       {
-        "text": "“I also have given you cleanness of teeth in all your cities,"
+        "text": "“I also have given you cleanness of teeth in all your cities,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and lack of bread in every town;",
+        "break": true
       },
       {
-        "text": "and lack of bread in every town;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "yet you haven’t returned to me,” says Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "yet you haven’t returned to me,” says Yahweh.",
+        "break": true
       }
     ]
   },
@@ -1433,40 +1057,28 @@
     "verse": 7,
     "content": [
       {
-        "text": "“I also have withheld the rain from you,"
+        "text": "“I also have withheld the rain from you,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "when there were yet three months to the harvest;",
+        "break": true
       },
       {
-        "text": "when there were yet three months to the harvest;"
+        "text": "and I caused it to rain on one city,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and caused it not to rain on another city.",
+        "break": true
       },
       {
-        "text": "and I caused it to rain on one city,"
+        "text": "One field was rained on,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and caused it not to rain on another city."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "One field was rained on,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the field where it didn’t rain withered."
-      },
-      {
-        "type": "n"
+        "text": "and the field where it didn’t rain withered.",
+        "break": true
       }
     ]
   },
@@ -1476,22 +1088,16 @@
     "verse": 8,
     "content": [
       {
-        "text": "So two or three cities staggered to one city to drink water,"
+        "text": "So two or three cities staggered to one city to drink water,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and were not satisfied;",
+        "break": true
       },
       {
-        "text": "and were not satisfied;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "yet you haven’t returned to me,” says Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "yet you haven’t returned to me,” says Yahweh.",
+        "break": true
       }
     ]
   },
@@ -1501,22 +1107,16 @@
     "verse": 9,
     "content": [
       {
-        "text": "“I struck you with blight and mildew many times in your gardens and your vineyards,"
+        "text": "“I struck you with blight and mildew many times in your gardens and your vineyards,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and the swarming locusts have devoured your fig trees and your olive trees;",
+        "break": true
       },
       {
-        "text": "and the swarming locusts have devoured your fig trees and your olive trees;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "yet you haven’t returned to me,” says Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "yet you haven’t returned to me,” says Yahweh.",
+        "break": true
       }
     ]
   },
@@ -1526,34 +1126,24 @@
     "verse": 10,
     "content": [
       {
-        "text": "“I sent plagues among you like I did Egypt."
+        "text": "“I sent plagues among you like I did Egypt.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I have slain your young men with the sword,",
+        "break": true
       },
       {
-        "text": "I have slain your young men with the sword,"
+        "text": "and have carried away your horses.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I filled your nostrils with the stench of your camp,",
+        "break": true
       },
       {
-        "text": "and have carried away your horses."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I filled your nostrils with the stench of your camp,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "yet you haven’t returned to me,” says Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "yet you haven’t returned to me,” says Yahweh.",
+        "break": true
       }
     ]
   },
@@ -1563,28 +1153,20 @@
     "verse": 11,
     "content": [
       {
-        "text": "“I have overthrown some of you,"
+        "text": "“I have overthrown some of you,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "as when God overthrew Sodom and Gomorrah,",
+        "break": true
       },
       {
-        "text": "as when God overthrew Sodom and Gomorrah,"
+        "text": "and you were like a burning stick plucked out of the fire;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and you were like a burning stick plucked out of the fire;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "yet you haven’t returned to me,” says Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "yet you haven’t returned to me,” says Yahweh.",
+        "break": true
       }
     ]
   },
@@ -1594,22 +1176,16 @@
     "verse": 12,
     "content": [
       {
-        "text": "“Therefore I will do this to you, Israel;"
+        "text": "“Therefore I will do this to you, Israel;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "because I will do this to you,",
+        "break": true
       },
       {
-        "text": "because I will do this to you,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "prepare to meet your God, Israel."
-      },
-      {
-        "type": "n"
+        "text": "prepare to meet your God, Israel.",
+        "break": true
       }
     ]
   },
@@ -1619,37 +1195,25 @@
     "verse": 13,
     "content": [
       {
-        "text": "For, behold, he who forms the mountains, creates the wind, declares to man what is his thought,"
+        "text": "For, behold, he who forms the mountains, creates the wind, declares to man what is his thought,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "who makes the morning darkness, and treads on the high places of the earth:",
+        "break": true
       },
-      {
-        "text": "who makes the morning darkness, and treads on the high places of the earth:"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Yahweh, the God of Armies, is his name.”"
-      }
+      "Yahweh, the God of Armies, is his name.”"
     ]
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Listen to this word which I take up for a lamentation over you, O house of Israel:"
-      },
-      {
-        "type": "n"
-      }
-    ]
+    "content": {
+      "text": "Listen to this word which I take up for a lamentation over you, O house of Israel:",
+      "paragraph": true,
+      "break": true
+    }
   },
   {
     "book": "AMS",
@@ -1657,26 +1221,18 @@
     "verse": 2,
     "content": [
       {
-        "text": "“The virgin of Israel has fallen;"
+        "text": "“The virgin of Israel has fallen;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "She shall rise no more.",
+        "break": true
       },
       {
-        "text": "She shall rise no more."
+        "text": "She is cast down on her land;",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "She is cast down on her land;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "there is no one to raise her up.”"
-      }
+      "there is no one to raise her up.”"
     ]
   },
   {
@@ -1685,23 +1241,15 @@
     "verse": 3,
     "content": [
       {
-        "type": "p"
+        "text": "For the Lord Yahweh says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "For the Lord Yahweh says:"
+        "text": "“The city that went out a thousand shall have a hundred left,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "“The city that went out a thousand shall have a hundred left,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and that which went out one hundred shall have ten left to the house of Israel.”"
-      }
+      "and that which went out one hundred shall have ten left to the house of Israel.”"
     ]
   },
   {
@@ -1710,19 +1258,13 @@
     "verse": 4,
     "content": [
       {
-        "type": "p"
+        "text": "For Yahweh says to the house of Israel:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "For Yahweh says to the house of Israel:"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "“Seek me, and you will live;"
-      },
-      {
-        "type": "n"
+        "text": "“Seek me, and you will live;",
+        "break": true
       }
     ]
   },
@@ -1732,34 +1274,24 @@
     "verse": 5,
     "content": [
       {
-        "text": "but don’t seek Bethel,"
+        "text": "but don’t seek Bethel,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "nor enter into Gilgal,",
+        "break": true
       },
       {
-        "text": "nor enter into Gilgal,"
+        "text": "and don’t pass to Beersheba;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for Gilgal shall surely go into captivity,",
+        "break": true
       },
       {
-        "text": "and don’t pass to Beersheba;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for Gilgal shall surely go into captivity,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and Bethel shall come to nothing."
-      },
-      {
-        "type": "n"
+        "text": "and Bethel shall come to nothing.",
+        "break": true
       }
     ]
   },
@@ -1769,22 +1301,16 @@
     "verse": 6,
     "content": [
       {
-        "text": "Seek Yahweh, and you will live,"
+        "text": "Seek Yahweh, and you will live,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "lest he break out like fire in the house of Joseph,",
+        "break": true
       },
       {
-        "text": "lest he break out like fire in the house of Joseph,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and it devour, and there be no one to quench it in Bethel."
-      },
-      {
-        "type": "n"
+        "text": "and it devour, and there be no one to quench it in Bethel.",
+        "break": true
       }
     ]
   },
@@ -1794,16 +1320,12 @@
     "verse": 7,
     "content": [
       {
-        "text": "You who turn justice to wormwood,"
+        "text": "You who turn justice to wormwood,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and cast down righteousness to the earth!"
-      },
-      {
-        "type": "n"
+        "text": "and cast down righteousness to the earth!",
+        "break": true
       }
     ]
   },
@@ -1813,34 +1335,24 @@
     "verse": 8,
     "content": [
       {
-        "text": "Seek him who made the Pleiades and Orion,"
+        "text": "Seek him who made the Pleiades and Orion,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and turns the shadow of death into the morning,",
+        "break": true
       },
       {
-        "text": "and turns the shadow of death into the morning,"
+        "text": "and makes the day dark with night;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "who calls for the waters of the sea,",
+        "break": true
       },
       {
-        "text": "and makes the day dark with night;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "who calls for the waters of the sea,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and pours them out on the surface of the earth, Yahweh is his name,"
-      },
-      {
-        "type": "n"
+        "text": "and pours them out on the surface of the earth, Yahweh is his name,",
+        "break": true
       }
     ]
   },
@@ -1850,16 +1362,12 @@
     "verse": 9,
     "content": [
       {
-        "text": "who brings sudden destruction on the strong,"
+        "text": "who brings sudden destruction on the strong,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "so that destruction comes on the fortress."
-      },
-      {
-        "type": "n"
+        "text": "so that destruction comes on the fortress.",
+        "break": true
       }
     ]
   },
@@ -1869,16 +1377,12 @@
     "verse": 10,
     "content": [
       {
-        "text": "They hate him who reproves in the gate,"
+        "text": "They hate him who reproves in the gate,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and they abhor him who speaks blamelessly."
-      },
-      {
-        "type": "n"
+        "text": "and they abhor him who speaks blamelessly.",
+        "break": true
       }
     ]
   },
@@ -1888,28 +1392,20 @@
     "verse": 11,
     "content": [
       {
-        "text": "Therefore, because you trample on the poor and take taxes from him of wheat,"
+        "text": "Therefore, because you trample on the poor and take taxes from him of wheat,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "you have built houses of cut stone, but you will not dwell in them.",
+        "break": true
       },
       {
-        "text": "you have built houses of cut stone, but you will not dwell in them."
+        "text": "You have planted pleasant vineyards,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "You have planted pleasant vineyards,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "but you shall not drink their wine."
-      },
-      {
-        "type": "n"
+        "text": "but you shall not drink their wine.",
+        "break": true
       }
     ]
   },
@@ -1919,34 +1415,24 @@
     "verse": 12,
     "content": [
       {
-        "text": "For I know how many are your offenses,"
+        "text": "For I know how many are your offenses,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and how great are your sins—",
+        "break": true
       },
       {
-        "text": "and how great are your sins—"
+        "text": "you who afflict the just,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "who take a bribe,",
+        "break": true
       },
       {
-        "text": "you who afflict the just,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "who take a bribe,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and who turn away the needy in the courts."
-      },
-      {
-        "type": "n"
+        "text": "and who turn away the needy in the courts.",
+        "break": true
       }
     ]
   },
@@ -1956,16 +1442,12 @@
     "verse": 13,
     "content": [
       {
-        "text": "Therefore a prudent person keeps silent in such a time,"
+        "text": "Therefore a prudent person keeps silent in such a time,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for it is an evil time."
-      },
-      {
-        "type": "n"
+        "text": "for it is an evil time.",
+        "break": true
       }
     ]
   },
@@ -1975,28 +1457,20 @@
     "verse": 14,
     "content": [
       {
-        "text": "Seek good, and not evil,"
+        "text": "Seek good, and not evil,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that you may live;",
+        "break": true
       },
       {
-        "text": "that you may live;"
+        "text": "and so Yahweh, the God of Armies, will be with you,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and so Yahweh, the God of Armies, will be with you,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "as you say."
-      },
-      {
-        "type": "n"
+        "text": "as you say.",
+        "break": true
       }
     ]
   },
@@ -2006,20 +1480,14 @@
     "verse": 15,
     "content": [
       {
-        "text": "Hate evil, love good,"
+        "text": "Hate evil, love good,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and establish justice in the courts.",
+        "break": true
       },
-      {
-        "text": "and establish justice in the courts."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "It may be that Yahweh, the God of Armies, will be gracious to the remnant of Joseph.”"
-      }
+      "It may be that Yahweh, the God of Armies, will be gracious to the remnant of Joseph.”"
     ]
   },
   {
@@ -2028,37 +1496,25 @@
     "verse": 16,
     "content": [
       {
-        "type": "p"
+        "text": "Therefore Yahweh, the God of Armies, the Lord, says:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Therefore Yahweh, the God of Armies, the Lord, says:"
+        "text": "“Wailing will be in all the wide ways.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They will say in all the streets, ‘Alas! Alas!’",
+        "break": true
       },
       {
-        "text": "“Wailing will be in all the wide ways."
+        "text": "They will call the farmer to mourning,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "They will say in all the streets, ‘Alas! Alas!’"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They will call the farmer to mourning,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and those who are skillful in lamentation to wailing."
-      },
-      {
-        "type": "n"
+        "text": "and those who are skillful in lamentation to wailing.",
+        "break": true
       }
     ]
   },
@@ -2068,16 +1524,12 @@
     "verse": 17,
     "content": [
       {
-        "text": "In all vineyards there will be wailing,"
+        "text": "In all vineyards there will be wailing,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for I will pass through the middle of you,” says Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "for I will pass through the middle of you,” says Yahweh.",
+        "break": true
       }
     ]
   },
@@ -2087,28 +1539,20 @@
     "verse": 18,
     "content": [
       {
-        "text": "“Woe to you who desire the day of Yahweh!"
+        "text": "“Woe to you who desire the day of Yahweh!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Why do you long for the day of Yahweh?",
+        "break": true
       },
       {
-        "text": "Why do you long for the day of Yahweh?"
+        "text": "It is darkness,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "It is darkness,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and not light."
-      },
-      {
-        "type": "n"
+        "text": "and not light.",
+        "break": true
       }
     ]
   },
@@ -2118,28 +1562,20 @@
     "verse": 19,
     "content": [
       {
-        "text": "As if a man fled from a lion,"
+        "text": "As if a man fled from a lion,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and a bear met him;",
+        "break": true
       },
       {
-        "text": "and a bear met him;"
+        "text": "or he went into the house and leaned his hand on the wall,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "or he went into the house and leaned his hand on the wall,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and a snake bit him."
-      },
-      {
-        "type": "n"
+        "text": "and a snake bit him.",
+        "break": true
       }
     ]
   },
@@ -2149,16 +1585,12 @@
     "verse": 20,
     "content": [
       {
-        "text": "Won’t the day of Yahweh be darkness, and not light?"
+        "text": "Won’t the day of Yahweh be darkness, and not light?",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Even very dark, and no brightness in it?"
-      },
-      {
-        "type": "n"
+        "text": "Even very dark, and no brightness in it?",
+        "break": true
       }
     ]
   },
@@ -2168,16 +1600,12 @@
     "verse": 21,
     "content": [
       {
-        "text": "I hate, I despise your feasts,"
+        "text": "I hate, I despise your feasts,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and I can’t stand your solemn assemblies."
-      },
-      {
-        "type": "n"
+        "text": "and I can’t stand your solemn assemblies.",
+        "break": true
       }
     ]
   },
@@ -2187,22 +1615,16 @@
     "verse": 22,
     "content": [
       {
-        "text": "Yes, though you offer me your burnt offerings and meal offerings,"
+        "text": "Yes, though you offer me your burnt offerings and meal offerings,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will not accept them;",
+        "break": true
       },
       {
-        "text": "I will not accept them;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "neither will I regard the peace offerings of your fat animals."
-      },
-      {
-        "type": "n"
+        "text": "neither will I regard the peace offerings of your fat animals.",
+        "break": true
       }
     ]
   },
@@ -2212,16 +1634,12 @@
     "verse": 23,
     "content": [
       {
-        "text": "Take away from me the noise of your songs!"
+        "text": "Take away from me the noise of your songs!",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I will not listen to the music of your harps."
-      },
-      {
-        "type": "n"
+        "text": "I will not listen to the music of your harps.",
+        "break": true
       }
     ]
   },
@@ -2231,48 +1649,32 @@
     "verse": 24,
     "content": [
       {
-        "text": "But let justice roll on like rivers,"
+        "text": "But let justice roll on like rivers,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and righteousness like a mighty stream."
-      }
+      "and righteousness like a mighty stream."
     ]
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 25,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "“Did you bring to me sacrifices and offerings in the wilderness forty years, house of Israel?"
-      }
-    ]
+    "content": {
+      "text": "“Did you bring to me sacrifices and offerings in the wilderness forty years, house of Israel?",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 26,
-    "content": [
-      {
-        "text": "You also carried the tent of your king and the shrine of your images, the star of your god, which you made for yourselves."
-      }
-    ]
+    "content": "You also carried the tent of your king and the shrine of your images, the star of your god, which you made for yourselves."
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 27,
-    "content": [
-      {
-        "text": "Therefore I will cause you to go into captivity beyond Damascus,” says Yahweh, whose name is the God of Armies."
-      }
-    ]
+    "content": "Therefore I will cause you to go into captivity beyond Damascus,” says Yahweh, whose name is the God of Armies."
   },
   {
     "book": "AMS",
@@ -2280,31 +1682,21 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "Woe to those who are at ease in Zion,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Woe to those who are at ease in Zion,"
+        "text": "and to those who are secure on the mountain of Samaria,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "the notable men of the chief of the nations,",
+        "break": true
       },
       {
-        "text": "and to those who are secure on the mountain of Samaria,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "the notable men of the chief of the nations,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "to whom the house of Israel come!"
-      },
-      {
-        "type": "n"
+        "text": "to whom the house of Israel come!",
+        "break": true
       }
     ]
   },
@@ -2314,34 +1706,24 @@
     "verse": 2,
     "content": [
       {
-        "text": "Go to Calneh, and see."
+        "text": "Go to Calneh, and see.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "From there go to Hamath the great.",
+        "break": true
       },
       {
-        "text": "From there go to Hamath the great."
+        "text": "Then go down to Gath of the Philistines.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Are they better than these kingdoms?",
+        "break": true
       },
       {
-        "text": "Then go down to Gath of the Philistines."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Are they better than these kingdoms?"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Is their border greater than your border?"
-      },
-      {
-        "type": "n"
+        "text": "Is their border greater than your border?",
+        "break": true
       }
     ]
   },
@@ -2351,16 +1733,12 @@
     "verse": 3,
     "content": [
       {
-        "text": "Alas for you who put far away the evil day,"
+        "text": "Alas for you who put far away the evil day,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and cause the seat of violence to come near,"
-      },
-      {
-        "type": "n"
+        "text": "and cause the seat of violence to come near,",
+        "break": true
       }
     ]
   },
@@ -2370,28 +1748,20 @@
     "verse": 4,
     "content": [
       {
-        "text": "who lie on beds of ivory,"
+        "text": "who lie on beds of ivory,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and stretch themselves on their couches,",
+        "break": true
       },
       {
-        "text": "and stretch themselves on their couches,"
+        "text": "and eat the lambs out of the flock,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and eat the lambs out of the flock,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the calves out of the middle of the stall,"
-      },
-      {
-        "type": "n"
+        "text": "and the calves out of the middle of the stall,",
+        "break": true
       }
     ]
   },
@@ -2401,16 +1771,12 @@
     "verse": 5,
     "content": [
       {
-        "text": "who strum on the strings of a harp,"
+        "text": "who strum on the strings of a harp,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "who invent for themselves instruments of music, like David;"
-      },
-      {
-        "type": "n"
+        "text": "who invent for themselves instruments of music, like David;",
+        "break": true
       }
     ]
   },
@@ -2420,22 +1786,16 @@
     "verse": 6,
     "content": [
       {
-        "text": "who drink wine in bowls,"
+        "text": "who drink wine in bowls,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and anoint themselves with the best oils,",
+        "break": true
       },
       {
-        "text": "and anoint themselves with the best oils,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "but they are not grieved for the affliction of Joseph."
-      },
-      {
-        "type": "n"
+        "text": "but they are not grieved for the affliction of Joseph.",
+        "break": true
       }
     ]
   },
@@ -2445,16 +1805,12 @@
     "verse": 7,
     "content": [
       {
-        "text": "Therefore they will now go captive with the first who go captive."
+        "text": "Therefore they will now go captive with the first who go captive.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The feasting and lounging will end."
-      },
-      {
-        "type": "n"
+        "text": "The feasting and lounging will end.",
+        "break": true
       }
     ]
   },
@@ -2464,28 +1820,20 @@
     "verse": 8,
     "content": [
       {
-        "text": "“The Lord Yahweh has sworn by himself,” says Yahweh, the God of Armies:"
+        "text": "“The Lord Yahweh has sworn by himself,” says Yahweh, the God of Armies:",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "“I abhor the pride of Jacob,",
+        "break": true
       },
       {
-        "text": "“I abhor the pride of Jacob,"
+        "text": "and detest his fortresses.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and detest his fortresses."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Therefore I will deliver up the city with all that is in it."
-      },
-      {
-        "type": "n"
+        "text": "Therefore I will deliver up the city with all that is in it.",
+        "break": true
       }
     ]
   },
@@ -2495,28 +1843,20 @@
     "verse": 9,
     "content": [
       {
-        "text": "It will happen that if ten men remain in one house,"
+        "text": "It will happen that if ten men remain in one house,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "they will die."
-      }
+      "they will die."
     ]
   },
   {
     "book": "AMS",
     "chapter": 6,
     "verse": 10,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "“When a man’s relative carries him, even he who burns him, to bring bodies out of the house, and asks him who is in the innermost parts of the house, ‘Is there yet any with you?’ And he says, ‘No;’ then he will say, ‘Hush! Indeed we must not mention Yahweh’s name.’"
-      }
-    ]
+    "content": {
+      "text": "“When a man’s relative carries him, even he who burns him, to bring bodies out of the house, and asks him who is in the innermost parts of the house, ‘Is there yet any with you?’ And he says, ‘No;’ then he will say, ‘Hush! Indeed we must not mention Yahweh’s name.’",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
@@ -2524,19 +1864,13 @@
     "verse": 11,
     "content": [
       {
-        "type": "p"
+        "text": "“For, behold, Yahweh commands, and the great house will be smashed to pieces,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "“For, behold, Yahweh commands, and the great house will be smashed to pieces,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the little house into bits."
-      },
-      {
-        "type": "n"
+        "text": "and the little house into bits.",
+        "break": true
       }
     ]
   },
@@ -2546,28 +1880,20 @@
     "verse": 12,
     "content": [
       {
-        "text": "Do horses run on the rocky crags?"
+        "text": "Do horses run on the rocky crags?",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Does one plow there with oxen?",
+        "break": true
       },
       {
-        "text": "Does one plow there with oxen?"
+        "text": "But you have turned justice into poison,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "But you have turned justice into poison,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the fruit of righteousness into bitterness,"
-      },
-      {
-        "type": "n"
+        "text": "and the fruit of righteousness into bitterness,",
+        "break": true
       }
     ]
   },
@@ -2577,16 +1903,12 @@
     "verse": 13,
     "content": [
       {
-        "text": "you who rejoice in a thing of nothing, who say,"
+        "text": "you who rejoice in a thing of nothing, who say,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "‘Haven’t we taken for ourselves horns by our own strength?’"
-      },
-      {
-        "type": "n"
+        "text": "‘Haven’t we taken for ourselves horns by our own strength?’",
+        "break": true
       }
     ]
   },
@@ -2596,228 +1918,150 @@
     "verse": 14,
     "content": [
       {
-        "text": "For, behold, I will raise up against you a nation, house of Israel,”"
+        "text": "For, behold, I will raise up against you a nation, house of Israel,”",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "says Yahweh, the God of Armies;",
+        "break": true
       },
-      {
-        "text": "says Yahweh, the God of Armies;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "“and they will afflict you from the entrance of Hamath to the brook of the Arabah.”"
-      }
+      "“and they will afflict you from the entrance of Hamath to the brook of the Arabah.”"
     ]
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Thus the Lord Yahweh showed me: behold, he formed locusts in the beginning of the shooting up of the latter growth; and behold, it was the latter growth after the king’s harvest."
-      }
-    ]
+    "content": {
+      "text": "Thus the Lord Yahweh showed me: behold, he formed locusts in the beginning of the shooting up of the latter growth; and behold, it was the latter growth after the king’s harvest.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 2,
-    "content": [
-      {
-        "text": "When they finished eating the grass of the land, then I said, “Lord Yahweh, forgive, I beg you! How could Jacob stand? For he is small.”"
-      }
-    ]
+    "content": "When they finished eating the grass of the land, then I said, “Lord Yahweh, forgive, I beg you! How could Jacob stand? For he is small.”"
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 3,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh relented concerning this. “It shall not be,” says Yahweh."
-      }
-    ]
+    "content": {
+      "text": "Yahweh relented concerning this. “It shall not be,” says Yahweh.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 4,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Thus the Lord Yahweh showed me: behold, the Lord Yahweh called for judgment by fire; and it dried up the great deep, and would have devoured the land."
-      }
-    ]
+    "content": {
+      "text": "Thus the Lord Yahweh showed me: behold, the Lord Yahweh called for judgment by fire; and it dried up the great deep, and would have devoured the land.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 5,
-    "content": [
-      {
-        "text": "Then I said, “Lord Yahweh, stop, I beg you! How could Jacob stand? For he is small.”"
-      }
-    ]
+    "content": "Then I said, “Lord Yahweh, stop, I beg you! How could Jacob stand? For he is small.”"
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 6,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh relented concerning this. “This also shall not be,” says the Lord Yahweh."
-      }
-    ]
+    "content": {
+      "text": "Yahweh relented concerning this. “This also shall not be,” says the Lord Yahweh.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 7,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Thus he showed me: behold, the Lord stood beside a wall made by a plumb line, with a plumb line in his hand."
-      }
-    ]
+    "content": {
+      "text": "Thus he showed me: behold, the Lord stood beside a wall made by a plumb line, with a plumb line in his hand.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 8,
-    "content": [
-      {
-        "text": "Yahweh said to me, “Amos, what do you see?” I said, “A plumb line.” Then the Lord said, “Behold, I will set a plumb line in the middle of my people Israel. I will not again pass by them any more."
-      }
-    ]
+    "content": "Yahweh said to me, “Amos, what do you see?” I said, “A plumb line.” Then the Lord said, “Behold, I will set a plumb line in the middle of my people Israel. I will not again pass by them any more."
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 9,
-    "content": [
-      {
-        "text": "The high places of Isaac will be desolate, the sanctuaries of Israel will be laid waste; and I will rise against the house of Jeroboam with the sword.”"
-      }
-    ]
+    "content": "The high places of Isaac will be desolate, the sanctuaries of Israel will be laid waste; and I will rise against the house of Jeroboam with the sword.”"
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 10,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then Amaziah the priest of Bethel sent to Jeroboam king of Israel, saying, “Amos has conspired against you in the middle of the house of Israel. The land is not able to bear all his words."
-      }
-    ]
+    "content": {
+      "text": "Then Amaziah the priest of Bethel sent to Jeroboam king of Israel, saying, “Amos has conspired against you in the middle of the house of Israel. The land is not able to bear all his words.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 11,
-    "content": [
-      {
-        "text": "For Amos says, ‘Jeroboam will die by the sword, and Israel shall surely be led away captive out of his land.’ ”"
-      }
-    ]
+    "content": "For Amos says, ‘Jeroboam will die by the sword, and Israel shall surely be led away captive out of his land.’ ”"
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 12,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Amaziah also said to Amos, “You seer, go, flee away into the land of Judah, and there eat bread, and prophesy there,"
-      }
-    ]
+    "content": {
+      "text": "Amaziah also said to Amos, “You seer, go, flee away into the land of Judah, and there eat bread, and prophesy there,",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 13,
-    "content": [
-      {
-        "text": "but don’t prophesy again any more at Bethel; for it is the king’s sanctuary, and it is a royal house!”"
-      }
-    ]
+    "content": "but don’t prophesy again any more at Bethel; for it is the king’s sanctuary, and it is a royal house!”"
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 14,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then Amos answered Amaziah, “I was no prophet, neither was I a prophet’s son, but I was a herdsman, and a farmer of sycamore figs;"
-      }
-    ]
+    "content": {
+      "text": "Then Amos answered Amaziah, “I was no prophet, neither was I a prophet’s son, but I was a herdsman, and a farmer of sycamore figs;",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 15,
-    "content": [
-      {
-        "text": "and Yahweh took me from following the flock, and Yahweh said to me, ‘Go, prophesy to my people Israel.’"
-      }
-    ]
+    "content": "and Yahweh took me from following the flock, and Yahweh said to me, ‘Go, prophesy to my people Israel.’"
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 16,
-    "content": [
-      {
-        "text": "Now therefore listen to Yahweh’s word: ‘You say, Don’t prophesy against Israel, and don’t preach against the house of Isaac.’"
-      }
-    ]
+    "content": "Now therefore listen to Yahweh’s word: ‘You say, Don’t prophesy against Israel, and don’t preach against the house of Isaac.’"
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 17,
-    "content": [
-      {
-        "text": "Therefore Yahweh says: ‘Your wife shall be a prostitute in the city, and your sons and your daughters shall fall by the sword, and your land shall be divided by line; and you yourself shall die in a land that is unclean, and Israel shall surely be led away captive out of his land.’ ”"
-      }
-    ]
+    "content": "Therefore Yahweh says: ‘Your wife shall be a prostitute in the city, and your sons and your daughters shall fall by the sword, and your land shall be divided by line; and you yourself shall die in a land that is unclean, and Israel shall surely be led away captive out of his land.’ ”"
   },
   {
     "book": "AMS",
     "chapter": 8,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Thus the Lord Yahweh showed me: behold, a basket of summer fruit."
-      }
-    ]
+    "content": {
+      "text": "Thus the Lord Yahweh showed me: behold, a basket of summer fruit.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
@@ -2825,25 +2069,17 @@
     "verse": 2,
     "content": [
       {
-        "type": "p"
+        "text": "He said, “Amos, what do you see?” I said, “A basket of summer fruit.” Then Yahweh said to me,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "He said, “Amos, what do you see?” I said, “A basket of summer fruit.” Then Yahweh said to me,"
+        "text": "“The end has come on my people Israel.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "“The end has come on my people Israel."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I will not again pass by them any more."
-      },
-      {
-        "type": "n"
+        "text": "I will not again pass by them any more.",
+        "break": true
       }
     ]
   },
@@ -2853,16 +2089,12 @@
     "verse": 3,
     "content": [
       {
-        "text": "The songs of the temple will be wailing in that day,” says the Lord Yahweh."
+        "text": "The songs of the temple will be wailing in that day,” says the Lord Yahweh.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "“The dead bodies will be many. In every place they will throw them out with silence."
-      },
-      {
-        "type": "n"
+        "text": "“The dead bodies will be many. In every place they will throw them out with silence.",
+        "break": true
       }
     ]
   },
@@ -2872,16 +2104,12 @@
     "verse": 4,
     "content": [
       {
-        "text": "Hear this, you who desire to swallow up the needy,"
+        "text": "Hear this, you who desire to swallow up the needy,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and cause the poor of the land to fail,"
-      },
-      {
-        "type": "n"
+        "text": "and cause the poor of the land to fail,",
+        "break": true
       }
     ]
   },
@@ -2891,50 +2119,34 @@
     "verse": 5,
     "content": [
       {
-        "text": "saying, ‘When will the new moon be gone, that we may sell grain?"
+        "text": "saying, ‘When will the new moon be gone, that we may sell grain?",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "And the Sabbath, that we may market wheat,"
-      },
-      {
-        "type": "n"
+        "text": "And the Sabbath, that we may market wheat,",
+        "break": true
       },
       {
         "text": "making the ephah",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "1 ephah is about 22 liters or about 2/3 of a bushel"
-            }
-          ]
+          "content": "1 ephah is about 22 liters or about 2/3 of a bushel"
         }
       },
       {
-        "text": "small, and the shekel",
+        "text": " small, and the shekel",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "a normal shekel is about 10 grams or about 0.35 ounces."
-            }
-          ]
+          "content": "a normal shekel is about 10 grams or about 0.35 ounces."
         }
       },
       {
-        "text": "large,"
+        "text": " large,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and dealing falsely with balances of deceit;"
-      },
-      {
-        "type": "n"
+        "text": "and dealing falsely with balances of deceit;",
+        "break": true
       }
     ]
   },
@@ -2944,22 +2156,16 @@
     "verse": 6,
     "content": [
       {
-        "text": "that we may buy the poor for silver,"
+        "text": "that we may buy the poor for silver,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and the needy for a pair of sandals,",
+        "break": true
       },
       {
-        "text": "and the needy for a pair of sandals,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and sell the sweepings with the wheat?’ ”"
-      },
-      {
-        "type": "n"
+        "text": "and sell the sweepings with the wheat?’ ”",
+        "break": true
       }
     ]
   },
@@ -2969,16 +2175,12 @@
     "verse": 7,
     "content": [
       {
-        "text": "Yahweh has sworn by the pride of Jacob,"
+        "text": "Yahweh has sworn by the pride of Jacob,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "“Surely I will never forget any of their works."
-      },
-      {
-        "type": "n"
+        "text": "“Surely I will never forget any of their works.",
+        "break": true
       }
     ]
   },
@@ -2988,28 +2190,20 @@
     "verse": 8,
     "content": [
       {
-        "text": "Won’t the land tremble for this,"
+        "text": "Won’t the land tremble for this,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and everyone mourn who dwells in it?",
+        "break": true
       },
       {
-        "text": "and everyone mourn who dwells in it?"
+        "text": "Yes, it will rise up wholly like the River;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Yes, it will rise up wholly like the River;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and it will be stirred up and sink again, like the River of Egypt."
-      },
-      {
-        "type": "n"
+        "text": "and it will be stirred up and sink again, like the River of Egypt.",
+        "break": true
       }
     ]
   },
@@ -3019,22 +2213,16 @@
     "verse": 9,
     "content": [
       {
-        "text": "It will happen in that day,” says the Lord Yahweh,"
+        "text": "It will happen in that day,” says the Lord Yahweh,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "“that I will cause the sun to go down at noon,",
+        "break": true
       },
       {
-        "text": "“that I will cause the sun to go down at noon,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and I will darken the earth in the clear day."
-      },
-      {
-        "type": "n"
+        "text": "and I will darken the earth in the clear day.",
+        "break": true
       }
     ]
   },
@@ -3044,40 +2232,28 @@
     "verse": 10,
     "content": [
       {
-        "text": "I will turn your feasts into mourning,"
+        "text": "I will turn your feasts into mourning,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and all your songs into lamentation;",
+        "break": true
       },
       {
-        "text": "and all your songs into lamentation;"
+        "text": "and I will make you wear sackcloth on all your bodies,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and baldness on every head.",
+        "break": true
       },
       {
-        "text": "and I will make you wear sackcloth on all your bodies,"
+        "text": "I will make it like the mourning for an only son,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and baldness on every head."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I will make it like the mourning for an only son,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and its end like a bitter day."
-      },
-      {
-        "type": "n"
+        "text": "and its end like a bitter day.",
+        "break": true
       }
     ]
   },
@@ -3087,34 +2263,24 @@
     "verse": 11,
     "content": [
       {
-        "text": "Behold, the days come,” says the Lord Yahweh,"
+        "text": "Behold, the days come,” says the Lord Yahweh,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "“that I will send a famine in the land,",
+        "break": true
       },
       {
-        "text": "“that I will send a famine in the land,"
+        "text": "not a famine of bread,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "nor a thirst for water,",
+        "break": true
       },
       {
-        "text": "not a famine of bread,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "nor a thirst for water,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "but of hearing Yahweh’s words."
-      },
-      {
-        "type": "n"
+        "text": "but of hearing Yahweh’s words.",
+        "break": true
       }
     ]
   },
@@ -3124,28 +2290,20 @@
     "verse": 12,
     "content": [
       {
-        "text": "They will wander from sea to sea,"
+        "text": "They will wander from sea to sea,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and from the north even to the east;",
+        "break": true
       },
       {
-        "text": "and from the north even to the east;"
+        "text": "they will run back and forth to seek Yahweh’s word,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "they will run back and forth to seek Yahweh’s word,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and will not find it."
-      },
-      {
-        "type": "n"
+        "text": "and will not find it.",
+        "break": true
       }
     ]
   },
@@ -3155,16 +2313,12 @@
     "verse": 13,
     "content": [
       {
-        "text": "In that day the beautiful virgins"
+        "text": "In that day the beautiful virgins",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and the young men will faint for thirst."
-      },
-      {
-        "type": "n"
+        "text": "and the young men will faint for thirst.",
+        "break": true
       }
     ]
   },
@@ -3174,40 +2328,28 @@
     "verse": 14,
     "content": [
       {
-        "text": "Those who swear by the sin of Samaria,"
+        "text": "Those who swear by the sin of Samaria,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and say, ‘As your god, Dan, lives,’",
+        "break": true
       },
       {
-        "text": "and say, ‘As your god, Dan, lives,’"
+        "text": "and, ‘As the way of Beersheba lives,’",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and, ‘As the way of Beersheba lives,’"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "they will fall, and never rise up again.”"
-      }
+      "they will fall, and never rise up again.”"
     ]
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "I saw the Lord standing beside the altar, and he said, “Strike the tops of the pillars, that the thresholds may shake. Break them in pieces on the head of all of them. I will kill the last of them with the sword. Not one of them will flee away. Not one of them will escape."
-      }
-    ]
+    "content": {
+      "text": "I saw the Lord standing beside the altar, and he said, “Strike the tops of the pillars, that the thresholds may shake. Break them in pieces on the head of all of them. I will kill the last of them with the sword. Not one of them will flee away. Not one of them will escape.",
+      "paragraph": true
+    }
   },
   {
     "book": "AMS",
@@ -3218,120 +2360,74 @@
         "text": "Though they dig into Sheol,",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "Sheol is the place of the dead."
-            }
-          ]
+          "content": "Sheol is the place of the dead."
         }
       },
-      {
-        "text": "there my hand will take them; and though they climb up to heaven, there I will bring them down."
-      }
+      " there my hand will take them; and though they climb up to heaven, there I will bring them down."
     ]
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 3,
-    "content": [
-      {
-        "text": "Though they hide themselves in the top of Carmel, I will search and take them out from there; and though they be hidden from my sight in the bottom of the sea, there I will command the serpent, and it will bite them."
-      }
-    ]
+    "content": "Though they hide themselves in the top of Carmel, I will search and take them out from there; and though they be hidden from my sight in the bottom of the sea, there I will command the serpent, and it will bite them."
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 4,
-    "content": [
-      {
-        "text": "Though they go into captivity before their enemies, there I will command the sword, and it will kill them. I will set my eyes on them for evil, and not for good."
-      }
-    ]
+    "content": "Though they go into captivity before their enemies, there I will command the sword, and it will kill them. I will set my eyes on them for evil, and not for good."
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 5,
-    "content": [
-      {
-        "text": "For the Lord, Yahweh of Armies, is he who touches the land and it melts, and all who dwell in it will mourn; and it will rise up wholly like the River, and will sink again, like the River of Egypt."
-      }
-    ]
+    "content": "For the Lord, Yahweh of Armies, is he who touches the land and it melts, and all who dwell in it will mourn; and it will rise up wholly like the River, and will sink again, like the River of Egypt."
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 6,
-    "content": [
-      {
-        "text": "It is he who builds his rooms in the heavens, and has founded his vault on the earth; he who calls for the waters of the sea, and pours them out on the surface of the earth—Yahweh is his name."
-      }
-    ]
+    "content": "It is he who builds his rooms in the heavens, and has founded his vault on the earth; he who calls for the waters of the sea, and pours them out on the surface of the earth—Yahweh is his name."
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 7,
-    "content": [
-      {
-        "text": "Are you not like the children of the Ethiopians to me, children of Israel?” says Yahweh. “Haven’t I brought up Israel out of the land of Egypt, and the Philistines from Caphtor, and the Syrians from Kir?"
-      }
-    ]
+    "content": "Are you not like the children of the Ethiopians to me, children of Israel?” says Yahweh. “Haven’t I brought up Israel out of the land of Egypt, and the Philistines from Caphtor, and the Syrians from Kir?"
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 8,
-    "content": [
-      {
-        "text": "Behold, the eyes of the Lord Yahweh are on the sinful kingdom, and I will destroy it from off the surface of the earth, except that I will not utterly destroy the house of Jacob,” says Yahweh."
-      }
-    ]
+    "content": "Behold, the eyes of the Lord Yahweh are on the sinful kingdom, and I will destroy it from off the surface of the earth, except that I will not utterly destroy the house of Jacob,” says Yahweh."
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 9,
-    "content": [
-      {
-        "text": "“For behold, I will command, and I will sift the house of Israel among all the nations as grain is sifted in a sieve, yet not the least kernel will fall on the earth."
-      }
-    ]
+    "content": "“For behold, I will command, and I will sift the house of Israel among all the nations as grain is sifted in a sieve, yet not the least kernel will fall on the earth."
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 10,
-    "content": [
-      {
-        "text": "All the sinners of my people will die by the sword, who say, ‘Evil won’t overtake nor meet us.’"
-      }
-    ]
+    "content": "All the sinners of my people will die by the sword, who say, ‘Evil won’t overtake nor meet us.’"
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 11,
-    "content": [
-      {
-        "text": "In that day I will raise up the tent of David who is fallen and close up its breaches, and I will raise up its ruins, and I will build it as in the days of old,"
-      }
-    ]
+    "content": "In that day I will raise up the tent of David who is fallen and close up its breaches, and I will raise up its ruins, and I will build it as in the days of old,"
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 12,
-    "content": [
-      {
-        "text": "that they may possess the remnant of Edom and all the nations who are called by my name,” says Yahweh who does this."
-      },
-      {
-        "type": "n"
-      }
-    ]
+    "content": {
+      "text": "that they may possess the remnant of Edom and all the nations who are called by my name,” says Yahweh who does this.",
+      "break": true
+    }
   },
   {
     "book": "AMS",
@@ -3339,34 +2435,24 @@
     "verse": 13,
     "content": [
       {
-        "text": "“Behold, the days come,” says Yahweh,"
+        "text": "“Behold, the days come,” says Yahweh,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "“that the plowman shall overtake the reaper,",
+        "break": true
       },
       {
-        "text": "“that the plowman shall overtake the reaper,"
+        "text": "and the one treading grapes him who sows seed;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and sweet wine will drip from the mountains,",
+        "break": true
       },
       {
-        "text": "and the one treading grapes him who sows seed;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and sweet wine will drip from the mountains,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and flow from the hills."
-      },
-      {
-        "type": "n"
+        "text": "and flow from the hills.",
+        "break": true
       }
     ]
   },
@@ -3376,34 +2462,24 @@
     "verse": 14,
     "content": [
       {
-        "text": "I will bring my people Israel back from captivity,"
+        "text": "I will bring my people Israel back from captivity,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and they will rebuild the ruined cities, and inhabit them;",
+        "break": true
       },
       {
-        "text": "and they will rebuild the ruined cities, and inhabit them;"
+        "text": "and they will plant vineyards, and drink wine from them.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They shall also make gardens,",
+        "break": true
       },
       {
-        "text": "and they will plant vineyards, and drink wine from them."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They shall also make gardens,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and eat their fruit."
-      },
-      {
-        "type": "n"
+        "text": "and eat their fruit.",
+        "break": true
       }
     ]
   },
@@ -3413,20 +2489,14 @@
     "verse": 15,
     "content": [
       {
-        "text": "I will plant them on their land,"
+        "text": "I will plant them on their land,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and they will no more be plucked up out of their land which I have given them,”",
+        "break": true
       },
-      {
-        "text": "and they will no more be plucked up out of their land which I have given them,”"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "says Yahweh your God."
-      }
+      "says Yahweh your God."
     ]
   }
 ]

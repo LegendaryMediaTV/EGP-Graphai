@@ -40,7 +40,7 @@
 <sup>13</sup> But now in Christ Jesus ye who sometimes were far off are made nigh by the blood of Christ.
 <sup>14</sup> For he is our peace, who hath made both one, and hath broken down the middle wall of partition [between us];
 <sup>15</sup> Having abolished in his flesh the enmity, [even] the law of commandments [contained] in ordinances; for to make in himself of twain one new man, [so] making peace;
-<sup>16</sup> And that he might reconcile both unto God in one body by the cross, having slain the enmity thereby :
+<sup>16</sup> And that he might reconcile both unto God in one body by the cross, having slain the enmity thereby:
 <sup>17</sup> And came and preached peace to you which were afar off, and to them that were nigh.
 <sup>18</sup> For through him we both have access by one Spirit unto the Father.
 <sup>19</sup> Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God;
@@ -52,7 +52,7 @@
 <sup>1</sup> For this cause I Paul, the prisoner of Jesus Christ for you Gentiles,
 <sup>2</sup> If ye have heard of the dispensation of the grace of God which is given me to you-ward:
 <sup>3</sup> How that by revelation he made known unto me the mystery; (as I wrote afore in few words,
-<sup>4</sup> Whereby , when ye read, ye may understand my knowledge in the mystery of Christ )
+<sup>4</sup> Whereby, when ye read, ye may understand my knowledge in the mystery of Christ )
 <sup>5</sup> Which in other ages was not made known unto the sons of men, as it is now revealed unto his holy apostles and prophets by the Spirit;
 <sup>6</sup> That the Gentiles should be fellowheirs, and of the same body, and partakers of his promise in Christ by the gospel:
 <sup>7</sup> Whereof I was made a minister, according to the gift of the grace of God given unto me by the effectual working of his power.
@@ -85,9 +85,9 @@
 <sup>11</sup> And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;
 <sup>12</sup> For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ:
 <sup>13</sup> Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ:
-<sup>14</sup> That we [henceforth] be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, [and] cunning craftiness , whereby they lie in wait to deceive;
+<sup>14</sup> That we [henceforth] be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, [and] cunning craftiness, whereby they lie in wait to deceive;
 <sup>15</sup> But speaking the truth in love, may grow up into him in all things, which is the head, [even] Christ:
-<sup>16</sup> From whom the whole body fitly joined together and compacted by that which every joint supplieth, according to the effectual working in the measure of every part , maketh increase of the body unto the edifying of itself in love.
+<sup>16</sup> From whom the whole body fitly joined together and compacted by that which every joint supplieth, according to the effectual working in the measure of every part, maketh increase of the body unto the edifying of itself in love.
 <sup>17</sup> This I say therefore, and testify in the Lord, that ye henceforth walk not as other Gentiles walk, in the vanity of their mind,
 <sup>18</sup> Having the understanding darkened, being alienated from the life of God through the ignorance that is in them, because of the blindness of their heart:
 <sup>19</sup> Who being past feeling have given themselves over unto lasciviousness, to work all uncleanness with greediness.
@@ -99,18 +99,18 @@
 <sup>25</sup> Wherefore putting away lying, speak every man truth with his neighbour: for we are members one of another.
 <sup>26</sup> Be ye angry, and sin not: let not the sun go down upon your wrath:
 <sup>27</sup> Neither give place to the devil.
-<sup>28</sup> Let him that stole steal no more: but rather let him labour, working with [his] hands the thing which is good, that he may have to give to him that needeth .
+<sup>28</sup> Let him that stole steal no more: but rather let him labour, working with [his] hands the thing which is good, that he may have to give to him that needeth.
 <sup>29</sup> Let no corrupt communication proceed out of your mouth, but that which is good to the use of edifying, that it may minister grace unto the hearers.
 <sup>30</sup> And grieve not the holy Spirit of God, whereby ye are sealed unto the day of redemption.
 <sup>31</sup> Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice:
-<sup>32</sup> And be ye kind one to another , tenderhearted, forgiving one another, even as God for Christ’s sake hath forgiven you.
+<sup>32</sup> And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ’s sake hath forgiven you.
 ## Chapter 5
 
 <sup>1</sup> Be ye therefore followers of God, as dear children;
 <sup>2</sup> And walk in love, as Christ also hath loved us, and hath given himself for us an offering and a sacrifice to God for a sweetsmelling savour.
 <sup>3</sup> But fornication, and all uncleanness, or covetousness, let it not be once named among you, as becometh saints;
 <sup>4</sup> Neither filthiness, nor foolish talking, nor jesting, which are not convenient: but rather giving of thanks.
-<sup>5</sup> For this ye know , that no whoremonger, nor unclean person, nor covetous man, who is an idolater, hath any inheritance in the kingdom of Christ and of God.
+<sup>5</sup> For this ye know, that no whoremonger, nor unclean person, nor covetous man, who is an idolater, hath any inheritance in the kingdom of Christ and of God.
 <sup>6</sup> Let no man deceive you with vain words: for because of these things cometh the wrath of God upon the children of disobedience.
 <sup>7</sup> Be not ye therefore partakers with them.
 <sup>8</sup> For ye were sometimes darkness, but now [are ye] light in the Lord: walk as children of light:
@@ -159,7 +159,7 @@
 <sup>16</sup> Above all, taking the shield of faith, wherewith ye shall be able to quench all the fiery darts of the wicked.
 <sup>17</sup> And take the helmet of salvation, and the sword of the Spirit, which is the word of God:
 <sup>18</sup> Praying always with all prayer and supplication in the Spirit, and watching thereunto with all perseverance and supplication for all saints;
-<sup>19</sup> And for me, that utterance may be given unto me, that I may open my mouth boldly , to make known the mystery of the gospel,
+<sup>19</sup> And for me, that utterance may be given unto me, that I may open my mouth boldly, to make known the mystery of the gospel,
 <sup>20</sup> For which I am an ambassador in bonds: that therein I may speak boldly, as I ought to speak.
 <sup>21</sup> But that ye also may know my affairs, [and] how I do, Tychicus, a beloved brother and faithful minister in the Lord, shall make known to you all things:
 <sup>22</sup> Whom I have sent unto you for the same purpose, that ye might know our affairs, and [that] he might comfort your hearts.

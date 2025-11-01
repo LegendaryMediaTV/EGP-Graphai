@@ -5,86 +5,54 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
-      },
-      {
         "text": "In the eighth month, in the second year of Darius, Yahweh’s",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-            }
-          ]
-        }
+          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+        },
+        "paragraph": true
       },
-      {
-        "text": "word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,"
-      }
+      " word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,"
     ]
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 2,
-    "content": [
-      {
-        "text": "“Yahweh was very displeased with your fathers."
-      }
-    ]
+    "content": "“Yahweh was very displeased with your fathers."
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 3,
-    "content": [
-      {
-        "text": "Therefore tell them, Yahweh of Armies says: ‘Return to me,’ says Yahweh of Armies, ‘and I will return to you,’ says Yahweh of Armies."
-      }
-    ]
+    "content": "Therefore tell them, Yahweh of Armies says: ‘Return to me,’ says Yahweh of Armies, ‘and I will return to you,’ says Yahweh of Armies."
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 4,
-    "content": [
-      {
-        "text": "Don’t you be like your fathers, to whom the former prophets proclaimed, saying: Yahweh of Armies says, ‘Return now from your evil ways and from your evil doings;’ but they didn’t hear nor listen to me, says Yahweh."
-      }
-    ]
+    "content": "Don’t you be like your fathers, to whom the former prophets proclaimed, saying: Yahweh of Armies says, ‘Return now from your evil ways and from your evil doings;’ but they didn’t hear nor listen to me, says Yahweh."
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 5,
-    "content": [
-      {
-        "text": "Your fathers, where are they? And the prophets, do they live forever?"
-      }
-    ]
+    "content": "Your fathers, where are they? And the prophets, do they live forever?"
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 6,
-    "content": [
-      {
-        "text": "But my words and my decrees, which I commanded my servants the prophets, didn’t they overtake your fathers? “Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’ ”"
-      }
-    ]
+    "content": "But my words and my decrees, which I commanded my servants the prophets, didn’t they overtake your fathers? “Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’ ”"
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 7,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "On the twenty-fourth day of the eleventh month, which is the month Shebat, in the second year of Darius, Yahweh’s word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,"
-      }
-    ]
+    "content": {
+      "text": "On the twenty-fourth day of the eleventh month, which is the month Shebat, in the second year of Darius, Yahweh’s word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
@@ -96,572 +64,377 @@
         "foot": {
           "type": "trn",
           "content": [
+            "“Behold”, from “",
             {
-              "text": "“Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
-            }
+              "text": "הִנֵּה",
+              "script": "H"
+            },
+            "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
       },
-      {
-        "text": "a man riding on a red horse, and he stood among the myrtle trees that were in a ravine; and behind him there were red, brown, and white horses."
-      }
+      " a man riding on a red horse, and he stood among the myrtle trees that were in a ravine; and behind him there were red, brown, and white horses."
     ]
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 9,
-    "content": [
-      {
-        "text": "Then I asked, ‘My lord, what are these?’ ” The angel who talked with me said to me, “I will show you what these are.”"
-      }
-    ]
+    "content": "Then I asked, ‘My lord, what are these?’ ” The angel who talked with me said to me, “I will show you what these are.”"
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 10,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The man who stood among the myrtle trees answered, “They are the ones Yahweh has sent to go back and forth through the earth.”"
-      }
-    ]
+    "content": {
+      "text": "The man who stood among the myrtle trees answered, “They are the ones Yahweh has sent to go back and forth through the earth.”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 11,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "They reported to Yahweh’s angel who stood among the myrtle trees, and said, “We have walked back and forth through the earth, and behold, all the earth is at rest and in peace.”"
-      }
-    ]
+    "content": {
+      "text": "They reported to Yahweh’s angel who stood among the myrtle trees, and said, “We have walked back and forth through the earth, and behold, all the earth is at rest and in peace.”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 12,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then Yahweh’s angel replied, “O Yahweh of Armies, how long will you not have mercy on Jerusalem and on the cities of Judah, against which you have had indignation these seventy years?”"
-      }
-    ]
+    "content": {
+      "text": "Then Yahweh’s angel replied, “O Yahweh of Armies, how long will you not have mercy on Jerusalem and on the cities of Judah, against which you have had indignation these seventy years?”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 13,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh answered the angel who talked with me with kind and comforting words."
-      }
-    ]
+    "content": {
+      "text": "Yahweh answered the angel who talked with me with kind and comforting words.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 14,
-    "content": [
-      {
-        "text": "So the angel who talked with me said to me, “Proclaim, saying, ‘Yahweh of Armies says: “I am jealous for Jerusalem and for Zion with a great jealousy."
-      }
-    ]
+    "content": "So the angel who talked with me said to me, “Proclaim, saying, ‘Yahweh of Armies says: “I am jealous for Jerusalem and for Zion with a great jealousy."
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 15,
-    "content": [
-      {
-        "text": "I am very angry with the nations that are at ease; for I was but a little displeased, but they added to the calamity.”"
-      }
-    ]
+    "content": "I am very angry with the nations that are at ease; for I was but a little displeased, but they added to the calamity.”"
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 16,
-    "content": [
-      {
-        "text": "Therefore Yahweh says: “I have returned to Jerusalem with mercy. My house shall be built in it,” says Yahweh of Armies, “and a line shall be stretched out over Jerusalem.” ’"
-      }
-    ]
+    "content": "Therefore Yahweh says: “I have returned to Jerusalem with mercy. My house shall be built in it,” says Yahweh of Armies, “and a line shall be stretched out over Jerusalem.” ’"
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 17,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "“Proclaim further, saying, ‘Yahweh of Armies says: “My cities will again overflow with prosperity, and Yahweh will again comfort Zion, and will again choose Jerusalem.” ’ ”"
-      }
-    ]
+    "content": {
+      "text": "“Proclaim further, saying, ‘Yahweh of Armies says: “My cities will again overflow with prosperity, and Yahweh will again comfort Zion, and will again choose Jerusalem.” ’ ”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 18,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "I lifted up my eyes and saw, and behold, four horns."
-      }
-    ]
+    "content": {
+      "text": "I lifted up my eyes and saw, and behold, four horns.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 19,
-    "content": [
-      {
-        "text": "I asked the angel who talked with me, “What are these?” He answered me, “These are the horns which have scattered Judah, Israel, and Jerusalem.”"
-      }
-    ]
+    "content": "I asked the angel who talked with me, “What are these?” He answered me, “These are the horns which have scattered Judah, Israel, and Jerusalem.”"
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 20,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh showed me four craftsmen."
-      }
-    ]
+    "content": {
+      "text": "Yahweh showed me four craftsmen.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 21,
-    "content": [
-      {
-        "text": "Then I asked, “What are these coming to do?” He said, “These are the horns which scattered Judah, so that no man lifted up his head; but these have come to terrify them, to cast down the horns of the nations that lifted up their horn against the land of Judah to scatter it.”"
-      }
-    ]
+    "content": "Then I asked, “What are these coming to do?” He said, “These are the horns which scattered Judah, so that no man lifted up his head; but these have come to terrify them, to cast down the horns of the nations that lifted up their horn against the land of Judah to scatter it.”"
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "I lifted up my eyes, and saw, and behold, a man with a measuring line in his hand."
-      }
-    ]
+    "content": {
+      "text": "I lifted up my eyes, and saw, and behold, a man with a measuring line in his hand.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 2,
-    "content": [
-      {
-        "text": "Then I asked, “Where are you going?” He said to me, “To measure Jerusalem, to see what is its width and what is its length.”"
-      }
-    ]
+    "content": "Then I asked, “Where are you going?” He said to me, “To measure Jerusalem, to see what is its width and what is its length.”"
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 3,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Behold, the angel who talked with me went out, and another angel went out to meet him,"
-      }
-    ]
+    "content": {
+      "text": "Behold, the angel who talked with me went out, and another angel went out to meet him,",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 4,
-    "content": [
-      {
-        "text": "and said to him, “Run, speak to this young man, saying, ‘Jerusalem will be inhabited as villages without walls, because of the multitude of men and livestock in it."
-      }
-    ]
+    "content": "and said to him, “Run, speak to this young man, saying, ‘Jerusalem will be inhabited as villages without walls, because of the multitude of men and livestock in it."
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 5,
-    "content": [
-      {
-        "text": "For I,’ says Yahweh, ‘will be to her a wall of fire around it, and I will be the glory in the middle of her."
-      }
-    ]
+    "content": "For I,’ says Yahweh, ‘will be to her a wall of fire around it, and I will be the glory in the middle of her."
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 6,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Come! Come! Flee from the land of the north,’ says Yahweh; ‘for I have spread you abroad as the four winds of the sky,’ says Yahweh."
-      }
-    ]
+    "content": {
+      "text": "Come! Come! Flee from the land of the north,’ says Yahweh; ‘for I have spread you abroad as the four winds of the sky,’ says Yahweh.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 7,
-    "content": [
-      {
-        "text": "‘Come, Zion! Escape, you who dwell with the daughter of Babylon.’"
-      }
-    ]
+    "content": "‘Come, Zion! Escape, you who dwell with the daughter of Babylon.’"
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 8,
-    "content": [
-      {
-        "text": "For Yahweh of Armies says: ‘For honor he has sent me to the nations which plundered you; for he who touches you touches the apple of his eye."
-      }
-    ]
+    "content": "For Yahweh of Armies says: ‘For honor he has sent me to the nations which plundered you; for he who touches you touches the apple of his eye."
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 9,
-    "content": [
-      {
-        "text": "For, behold, I will shake my hand over them, and they will be a plunder to those who served them; and you will know that Yahweh of Armies has sent me."
-      }
-    ]
+    "content": "For, behold, I will shake my hand over them, and they will be a plunder to those who served them; and you will know that Yahweh of Armies has sent me."
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 10,
-    "content": [
-      {
-        "text": "Sing and rejoice, daughter of Zion! For behold, I come and I will dwell within you,’ says Yahweh."
-      }
-    ]
+    "content": "Sing and rejoice, daughter of Zion! For behold, I come and I will dwell within you,’ says Yahweh."
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 11,
-    "content": [
-      {
-        "text": "Many nations shall join themselves to Yahweh in that day, and shall be my people; and I will dwell among you, and you shall know that Yahweh of Armies has sent me to you."
-      }
-    ]
+    "content": "Many nations shall join themselves to Yahweh in that day, and shall be my people; and I will dwell among you, and you shall know that Yahweh of Armies has sent me to you."
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 12,
-    "content": [
-      {
-        "text": "Yahweh will inherit Judah as his portion in the holy land, and will again choose Jerusalem."
-      }
-    ]
+    "content": "Yahweh will inherit Judah as his portion in the holy land, and will again choose Jerusalem."
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 13,
-    "content": [
-      {
-        "text": "Be silent, all flesh, before Yahweh; for he has roused himself from his holy habitation!”"
-      }
-    ]
+    "content": "Be silent, all flesh, before Yahweh; for he has roused himself from his holy habitation!”"
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "He showed me Joshua the high priest standing before Yahweh’s angel, and Satan standing at his right hand to be his adversary."
-      }
-    ]
+    "content": {
+      "text": "He showed me Joshua the high priest standing before Yahweh’s angel, and Satan standing at his right hand to be his adversary.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 2,
-    "content": [
-      {
-        "text": "Yahweh said to Satan, “Yahweh rebuke you, Satan! Yes, Yahweh who has chosen Jerusalem rebuke you! Isn’t this a burning stick plucked out of the fire?”"
-      }
-    ]
+    "content": "Yahweh said to Satan, “Yahweh rebuke you, Satan! Yes, Yahweh who has chosen Jerusalem rebuke you! Isn’t this a burning stick plucked out of the fire?”"
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 3,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Now Joshua was clothed with filthy garments, and was standing before the angel."
-      }
-    ]
+    "content": {
+      "text": "Now Joshua was clothed with filthy garments, and was standing before the angel.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 4,
-    "content": [
-      {
-        "text": "He answered and spoke to those who stood before him, saying, “Take the filthy garments off him.” To him he said, “Behold, I have caused your iniquity to pass from you, and I will clothe you with rich clothing.”"
-      }
-    ]
+    "content": "He answered and spoke to those who stood before him, saying, “Take the filthy garments off him.” To him he said, “Behold, I have caused your iniquity to pass from you, and I will clothe you with rich clothing.”"
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 5,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "I said, “Let them set a clean turban on his head.” So they set a clean turban on his head, and clothed him; and Yahweh’s angel was standing by."
-      }
-    ]
+    "content": {
+      "text": "I said, “Let them set a clean turban on his head.” So they set a clean turban on his head, and clothed him; and Yahweh’s angel was standing by.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 6,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh’s angel solemnly assured Joshua, saying,"
-      }
-    ]
+    "content": {
+      "text": "Yahweh’s angel solemnly assured Joshua, saying,",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 7,
-    "content": [
-      {
-        "text": "“Yahweh of Armies says: ‘If you will walk in my ways, and if you will follow my instructions, then you also shall judge my house, and shall also keep my courts, and I will give you a place of access among these who stand by."
-      }
-    ]
+    "content": "“Yahweh of Armies says: ‘If you will walk in my ways, and if you will follow my instructions, then you also shall judge my house, and shall also keep my courts, and I will give you a place of access among these who stand by."
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 8,
-    "content": [
-      {
-        "text": "Hear now, Joshua the high priest, you and your fellows who sit before you, for they are men who are a sign; for, behold, I will bring out my servant, the Branch."
-      }
-    ]
+    "content": "Hear now, Joshua the high priest, you and your fellows who sit before you, for they are men who are a sign; for, behold, I will bring out my servant, the Branch."
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 9,
-    "content": [
-      {
-        "text": "For, behold, the stone that I have set before Joshua: on one stone are seven eyes; behold, I will engrave its inscription,’ says Yahweh of Armies, ‘and I will remove the iniquity of that land in one day."
-      }
-    ]
+    "content": "For, behold, the stone that I have set before Joshua: on one stone are seven eyes; behold, I will engrave its inscription,’ says Yahweh of Armies, ‘and I will remove the iniquity of that land in one day."
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 10,
-    "content": [
-      {
-        "text": "In that day,’ says Yahweh of Armies, ‘you will invite every man his neighbor under the vine and under the fig tree.’ ”"
-      }
-    ]
+    "content": "In that day,’ says Yahweh of Armies, ‘you will invite every man his neighbor under the vine and under the fig tree.’ ”"
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The angel who talked with me came again and wakened me, as a man who is wakened out of his sleep."
-      }
-    ]
+    "content": {
+      "text": "The angel who talked with me came again and wakened me, as a man who is wakened out of his sleep.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 2,
-    "content": [
-      {
-        "text": "He said to me, “What do you see?” I said, “I have seen, and behold, a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it; there are seven pipes to each of the lamps which are on the top of it;"
-      }
-    ]
+    "content": "He said to me, “What do you see?” I said, “I have seen, and behold, a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it; there are seven pipes to each of the lamps which are on the top of it;"
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 3,
-    "content": [
-      {
-        "text": "and two olive trees by it, one on the right side of the bowl, and the other on the left side of it.”"
-      }
-    ]
+    "content": "and two olive trees by it, one on the right side of the bowl, and the other on the left side of it.”"
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 4,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "I answered and spoke to the angel who talked with me, saying, “What are these, my lord?”"
-      }
-    ]
+    "content": {
+      "text": "I answered and spoke to the angel who talked with me, saying, “What are these, my lord?”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 5,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then the angel who talked with me answered me, “Don’t you know what these are?” I said, “No, my lord.”"
-      }
-    ]
+    "content": {
+      "text": "Then the angel who talked with me answered me, “Don’t you know what these are?” I said, “No, my lord.”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 6,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies."
-      }
-    ]
+    "content": {
+      "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 7,
-    "content": [
-      {
-        "text": "Who are you, great mountain? Before Zerubbabel you are a plain; and he will bring out the capstone with shouts of ‘Grace, grace, to it!’ ”"
-      }
-    ]
+    "content": "Who are you, great mountain? Before Zerubbabel you are a plain; and he will bring out the capstone with shouts of ‘Grace, grace, to it!’ ”"
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 8,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Moreover Yahweh’s word came to me, saying,"
-      }
-    ]
+    "content": {
+      "text": "Moreover Yahweh’s word came to me, saying,",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 9,
-    "content": [
-      {
-        "text": "“The hands of Zerubbabel have laid the foundation of this house. His hands shall also finish it; and you will know that Yahweh of Armies has sent me to you."
-      }
-    ]
+    "content": "“The hands of Zerubbabel have laid the foundation of this house. His hands shall also finish it; and you will know that Yahweh of Armies has sent me to you."
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 10,
-    "content": [
-      {
-        "text": "Indeed, who despises the day of small things? For these seven shall rejoice, and shall see the plumb line in the hand of Zerubbabel. These are Yahweh’s eyes, which run back and forth through the whole earth.”"
-      }
-    ]
+    "content": "Indeed, who despises the day of small things? For these seven shall rejoice, and shall see the plumb line in the hand of Zerubbabel. These are Yahweh’s eyes, which run back and forth through the whole earth.”"
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 11,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then I asked him, “What are these two olive trees on the right side of the lamp stand and on the left side of it?”"
-      }
-    ]
+    "content": {
+      "text": "Then I asked him, “What are these two olive trees on the right side of the lamp stand and on the left side of it?”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 12,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "I asked him the second time, “What are these two olive branches, which are beside the two golden spouts that pour the golden oil out of themselves?”"
-      }
-    ]
+    "content": {
+      "text": "I asked him the second time, “What are these two olive branches, which are beside the two golden spouts that pour the golden oil out of themselves?”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 13,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "He answered me, “Don’t you know what these are?” I said, “No, my lord.”"
-      }
-    ]
+    "content": {
+      "text": "He answered me, “Don’t you know what these are?” I said, “No, my lord.”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
@@ -669,36 +442,24 @@
     "verse": 14,
     "content": [
       {
-        "type": "p"
-      },
-      {
         "text": "Then he said, “These are the two anointed ones who stand by the Lord",
         "foot": {
           "type": "trn",
-          "content": [
-            {
-              "text": "The word translated “Lord” is “Adonai.”"
-            }
-          ]
-        }
+          "content": "The word translated “Lord” is “Adonai.”"
+        },
+        "paragraph": true
       },
-      {
-        "text": "of the whole earth.”"
-      }
+      " of the whole earth.”"
     ]
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then again I lifted up my eyes and saw, and behold, a flying scroll."
-      }
-    ]
+    "content": {
+      "text": "Then again I lifted up my eyes and saw, and behold, a flying scroll.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
@@ -709,53 +470,35 @@
         "text": "He said to me, “What do you see?” I answered, “I see a flying scroll; its length is twenty cubits,",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
-            }
-          ]
+          "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
         }
       },
-      {
-        "text": "and its width ten cubits.”"
-      }
+      " and its width ten cubits.”"
     ]
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 3,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then he said to me, “This is the curse that goes out over the surface of the whole land, for everyone who steals shall be cut off according to it on the one side; and everyone who swears falsely shall be cut off according to it on the other side."
-      }
-    ]
+    "content": {
+      "text": "Then he said to me, “This is the curse that goes out over the surface of the whole land, for everyone who steals shall be cut off according to it on the one side; and everyone who swears falsely shall be cut off according to it on the other side.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 4,
-    "content": [
-      {
-        "text": "I will cause it to go out,” says Yahweh of Armies, “and it will enter into the house of the thief, and into the house of him who swears falsely by my name; and it will remain in the middle of his house, and will destroy it with its timber and its stones.”"
-      }
-    ]
+    "content": "I will cause it to go out,” says Yahweh of Armies, “and it will enter into the house of the thief, and into the house of him who swears falsely by my name; and it will remain in the middle of his house, and will destroy it with its timber and its stones.”"
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 5,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then the angel who talked with me came forward and said to me, “Lift up now your eyes and see what this is that is appearing.”"
-      }
-    ]
+    "content": {
+      "text": "Then the angel who talked with me came forward and said to me, “Lift up now your eyes and see what this is that is appearing.”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
@@ -763,22 +506,14 @@
     "verse": 6,
     "content": [
       {
-        "type": "p"
-      },
-      {
         "text": "I said, “What is it?” He said, “This is the ephah",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about 2/3 of a bushel."
-            }
-          ]
-        }
+          "content": "An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about 2/3 of a bushel."
+        },
+        "paragraph": true
       },
-      {
-        "text": "basket that is appearing.” He said moreover, “This is their appearance in all the land—"
-      }
+      " basket that is appearing.” He said moreover, “This is their appearance in all the land—"
     ]
   },
   {
@@ -790,653 +525,422 @@
         "text": "and behold, a lead cover weighing one talent",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "A talent is about 30 kilograms or 66 pounds."
-            }
-          ]
+          "content": "A talent is about 30 kilograms or 66 pounds."
         }
       },
       {
-        "text": "was lifted up—and there was a woman sitting in the middle of the ephah",
+        "text": " was lifted up—and there was a woman sitting in the middle of the ephah",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "1 ephah is about 22 liters or about 2/3 of a bushel"
-            }
-          ]
+          "content": "1 ephah is about 22 liters or about 2/3 of a bushel"
         }
       },
-      {
-        "text": "basket.”"
-      }
+      " basket.”"
     ]
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 8,
-    "content": [
-      {
-        "text": "He said, “This is Wickedness;” and he threw her down into the middle of the ephah basket; and he threw the lead weight on its mouth."
-      }
-    ]
+    "content": "He said, “This is Wickedness;” and he threw her down into the middle of the ephah basket; and he threw the lead weight on its mouth."
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 9,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then I lifted up my eyes and saw, and behold, there were two women; and the wind was in their wings. Now they had wings like the wings of a stork, and they lifted up the ephah basket between earth and the sky."
-      }
-    ]
+    "content": {
+      "text": "Then I lifted up my eyes and saw, and behold, there were two women; and the wind was in their wings. Now they had wings like the wings of a stork, and they lifted up the ephah basket between earth and the sky.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 10,
-    "content": [
-      {
-        "text": "Then I said to the angel who talked with me, “Where are these carrying the ephah basket?”"
-      }
-    ]
+    "content": "Then I said to the angel who talked with me, “Where are these carrying the ephah basket?”"
   },
   {
     "book": "ZEC",
     "chapter": 5,
     "verse": 11,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "He said to me, “To build her a house in the land of Shinar. When it is prepared, she will be set there in her own place.”"
-      }
-    ]
+    "content": {
+      "text": "He said to me, “To build her a house in the land of Shinar. When it is prepared, she will be set there in her own place.”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Again I lifted up my eyes, and saw, and behold, four chariots came out from between two mountains; and the mountains were mountains of bronze."
-      }
-    ]
+    "content": {
+      "text": "Again I lifted up my eyes, and saw, and behold, four chariots came out from between two mountains; and the mountains were mountains of bronze.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 2,
-    "content": [
-      {
-        "text": "In the first chariot were red horses. In the second chariot were black horses."
-      }
-    ]
+    "content": "In the first chariot were red horses. In the second chariot were black horses."
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 3,
-    "content": [
-      {
-        "text": "In the third chariot were white horses. In the fourth chariot were dappled horses, all of them powerful."
-      }
-    ]
+    "content": "In the third chariot were white horses. In the fourth chariot were dappled horses, all of them powerful."
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 4,
-    "content": [
-      {
-        "text": "Then I asked the angel who talked with me, “What are these, my lord?”"
-      }
-    ]
+    "content": "Then I asked the angel who talked with me, “What are these, my lord?”"
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 5,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The angel answered me, “These are the four winds of the sky, which go out from standing before the Lord of all the earth."
-      }
-    ]
+    "content": {
+      "text": "The angel answered me, “These are the four winds of the sky, which go out from standing before the Lord of all the earth.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 6,
-    "content": [
-      {
-        "text": "The one with the black horses goes out toward the north country; and the white went out after them; and the dappled went out toward the south country.”"
-      }
-    ]
+    "content": "The one with the black horses goes out toward the north country; and the white went out after them; and the dappled went out toward the south country.”"
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 7,
-    "content": [
-      {
-        "text": "The strong went out, and sought to go that they might walk back and forth through the earth. He said, “Go around and through the earth!” So they walked back and forth through the earth."
-      }
-    ]
+    "content": "The strong went out, and sought to go that they might walk back and forth through the earth. He said, “Go around and through the earth!” So they walked back and forth through the earth."
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 8,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then he called to me, and spoke to me, saying, “Behold, those who go toward the north country have quieted my spirit in the north country.”"
-      }
-    ]
+    "content": {
+      "text": "Then he called to me, and spoke to me, saying, “Behold, those who go toward the north country have quieted my spirit in the north country.”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 9,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh’s word came to me, saying,"
-      }
-    ]
+    "content": {
+      "text": "Yahweh’s word came to me, saying,",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 10,
-    "content": [
-      {
-        "text": "“Take of them of the captivity, even of Heldai, of Tobijah, and of Jedaiah; and come the same day, and go into the house of Josiah the son of Zephaniah, where they have come from Babylon."
-      }
-    ]
+    "content": "“Take of them of the captivity, even of Heldai, of Tobijah, and of Jedaiah; and come the same day, and go into the house of Josiah the son of Zephaniah, where they have come from Babylon."
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 11,
-    "content": [
-      {
-        "text": "Yes, take silver and gold, and make crowns, and set them on the head of Joshua the son of Jehozadak, the high priest;"
-      }
-    ]
+    "content": "Yes, take silver and gold, and make crowns, and set them on the head of Joshua the son of Jehozadak, the high priest;"
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 12,
-    "content": [
-      {
-        "text": "and speak to him, saying, ‘Yahweh of Armies says, “Behold, the man whose name is the Branch! He will grow up out of his place; and he will build Yahweh’s temple."
-      }
-    ]
+    "content": "and speak to him, saying, ‘Yahweh of Armies says, “Behold, the man whose name is the Branch! He will grow up out of his place; and he will build Yahweh’s temple."
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 13,
-    "content": [
-      {
-        "text": "He will build Yahweh’s temple. He will bear the glory, and will sit and rule on his throne. He will be a priest on his throne. The counsel of peace will be between them both."
-      }
-    ]
+    "content": "He will build Yahweh’s temple. He will bear the glory, and will sit and rule on his throne. He will be a priest on his throne. The counsel of peace will be between them both."
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 14,
-    "content": [
-      {
-        "text": "The crowns shall be to Helem, to Tobijah, to Jedaiah, and to Hen the son of Zephaniah, for a memorial in Yahweh’s temple."
-      }
-    ]
+    "content": "The crowns shall be to Helem, to Tobijah, to Jedaiah, and to Hen the son of Zephaniah, for a memorial in Yahweh’s temple."
   },
   {
     "book": "ZEC",
     "chapter": 6,
     "verse": 15,
-    "content": [
-      {
-        "type": "p"
+    "content": {
+      "text": "Those who are far off shall come and build in Yahweh’s temple; and you shall know that Yahweh of Armies has sent me to you. This will happen, if you will diligently obey Yahweh your God’s voice.” ’ ”",
+      "foot": {
+        "type": "trn",
+        "content": [
+          "The Hebrew word rendered “God” is “",
+          {
+            "text": "אֱלֹהִ֑ים",
+            "script": "H"
+          },
+          "” (Elohim)."
+        ]
       },
-      {
-        "text": "Those who are far off shall come and build in Yahweh’s temple; and you shall know that Yahweh of Armies has sent me to you. This will happen, if you will diligently obey Yahweh your God’s voice.” ’ ”",
-        "foot": {
-          "type": "trn",
-          "content": [
-            {
-              "text": "The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim)."
-            }
-          ]
-        }
-      }
-    ]
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "In the fourth year of King Darius, Yahweh’s word came to Zechariah in the fourth day of the ninth month, the month of Chislev."
-      }
-    ]
+    "content": {
+      "text": "In the fourth year of King Darius, Yahweh’s word came to Zechariah in the fourth day of the ninth month, the month of Chislev.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 2,
-    "content": [
-      {
-        "text": "The people of Bethel sent Sharezer and Regem Melech and their men to entreat Yahweh’s favor,"
-      }
-    ]
+    "content": "The people of Bethel sent Sharezer and Regem Melech and their men to entreat Yahweh’s favor,"
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 3,
-    "content": [
-      {
-        "text": "and to speak to the priests of the house of Yahweh of Armies and to the prophets, saying, “Should I weep in the fifth month, separating myself, as I have done these so many years?”"
-      }
-    ]
+    "content": "and to speak to the priests of the house of Yahweh of Armies and to the prophets, saying, “Should I weep in the fifth month, separating myself, as I have done these so many years?”"
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 4,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Then the word of Yahweh of Armies came to me, saying,"
-      }
-    ]
+    "content": {
+      "text": "Then the word of Yahweh of Armies came to me, saying,",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 5,
-    "content": [
-      {
-        "text": "“Speak to all the people of the land and to the priests, saying, ‘When you fasted and mourned in the fifth and in the seventh month for these seventy years, did you at all fast to me, really to me?"
-      }
-    ]
+    "content": "“Speak to all the people of the land and to the priests, saying, ‘When you fasted and mourned in the fifth and in the seventh month for these seventy years, did you at all fast to me, really to me?"
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 6,
-    "content": [
-      {
-        "text": "When you eat and when you drink, don’t you eat for yourselves and drink for yourselves?"
-      }
-    ]
+    "content": "When you eat and when you drink, don’t you eat for yourselves and drink for yourselves?"
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 7,
-    "content": [
-      {
-        "text": "Aren’t these the words which Yahweh proclaimed by the former prophets when Jerusalem was inhabited and in prosperity, and its cities around her, and the South and the lowland were inhabited?’ ”"
-      }
-    ]
+    "content": "Aren’t these the words which Yahweh proclaimed by the former prophets when Jerusalem was inhabited and in prosperity, and its cities around her, and the South and the lowland were inhabited?’ ”"
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 8,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh’s word came to Zechariah, saying,"
-      }
-    ]
+    "content": {
+      "text": "Yahweh’s word came to Zechariah, saying,",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 9,
-    "content": [
-      {
-        "text": "“Thus has Yahweh of Armies spoken, saying, ‘Execute true judgment, and show kindness and compassion every man to his brother."
-      }
-    ]
+    "content": "“Thus has Yahweh of Armies spoken, saying, ‘Execute true judgment, and show kindness and compassion every man to his brother."
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 10,
-    "content": [
-      {
-        "text": "Don’t oppress the widow, the fatherless, the foreigner, nor the poor; and let none of you devise evil against his brother in your heart.’"
-      }
-    ]
+    "content": "Don’t oppress the widow, the fatherless, the foreigner, nor the poor; and let none of you devise evil against his brother in your heart.’"
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 11,
-    "content": [
-      {
-        "text": "But they refused to listen, and turned their backs, and stopped their ears, that they might not hear."
-      }
-    ]
+    "content": "But they refused to listen, and turned their backs, and stopped their ears, that they might not hear."
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 12,
-    "content": [
-      {
-        "text": "Yes, they made their hearts as hard as flint, lest they might hear the law and the words which Yahweh of Armies had sent by his Spirit by the former prophets. Therefore great wrath came from Yahweh of Armies."
-      }
-    ]
+    "content": "Yes, they made their hearts as hard as flint, lest they might hear the law and the words which Yahweh of Armies had sent by his Spirit by the former prophets. Therefore great wrath came from Yahweh of Armies."
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 13,
-    "content": [
-      {
-        "text": "It has come to pass that, as he called and they refused to listen, so they will call and I will not listen,” said Yahweh of Armies;"
-      }
-    ]
+    "content": "It has come to pass that, as he called and they refused to listen, so they will call and I will not listen,” said Yahweh of Armies;"
   },
   {
     "book": "ZEC",
     "chapter": 7,
     "verse": 14,
-    "content": [
-      {
-        "text": "“but I will scatter them with a whirlwind among all the nations which they have not known. Thus the land was desolate after them, so that no man passed through nor returned; for they made the pleasant land desolate.”"
-      }
-    ]
+    "content": "“but I will scatter them with a whirlwind among all the nations which they have not known. Thus the land was desolate after them, so that no man passed through nor returned; for they made the pleasant land desolate.”"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The word of Yahweh of Armies came to me."
-      }
-    ]
+    "content": {
+      "text": "The word of Yahweh of Armies came to me.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 2,
-    "content": [
-      {
-        "text": "Yahweh of Armies says: “I am jealous for Zion with great jealousy, and I am jealous for her with great wrath.”"
-      }
-    ]
+    "content": "Yahweh of Armies says: “I am jealous for Zion with great jealousy, and I am jealous for her with great wrath.”"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 3,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh says: “I have returned to Zion, and will dwell in the middle of Jerusalem. Jerusalem shall be called ‘The City of Truth;’ and the mountain of Yahweh of Armies, ‘The Holy Mountain.’ ”"
-      }
-    ]
+    "content": {
+      "text": "Yahweh says: “I have returned to Zion, and will dwell in the middle of Jerusalem. Jerusalem shall be called ‘The City of Truth;’ and the mountain of Yahweh of Armies, ‘The Holy Mountain.’ ”",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 4,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh of Armies says: “Old men and old women will again dwell in the streets of Jerusalem, every man with his staff in his hand because of their old age."
-      }
-    ]
+    "content": {
+      "text": "Yahweh of Armies says: “Old men and old women will again dwell in the streets of Jerusalem, every man with his staff in his hand because of their old age.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 5,
-    "content": [
-      {
-        "text": "The streets of the city will be full of boys and girls playing in its streets.”"
-      }
-    ]
+    "content": "The streets of the city will be full of boys and girls playing in its streets.”"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 6,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh of Armies says: “If it is marvelous in the eyes of the remnant of this people in those days, should it also be marvelous in my eyes?” says Yahweh of Armies."
-      }
-    ]
+    "content": {
+      "text": "Yahweh of Armies says: “If it is marvelous in the eyes of the remnant of this people in those days, should it also be marvelous in my eyes?” says Yahweh of Armies.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 7,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh of Armies says: “Behold, I will save my people from the east country and from the west country."
-      }
-    ]
+    "content": {
+      "text": "Yahweh of Armies says: “Behold, I will save my people from the east country and from the west country.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 8,
-    "content": [
-      {
-        "text": "I will bring them, and they will dwell within Jerusalem. They will be my people, and I will be their God, in truth and in righteousness.”"
-      }
-    ]
+    "content": "I will bring them, and they will dwell within Jerusalem. They will be my people, and I will be their God, in truth and in righteousness.”"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 9,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh of Armies says: “Let your hands be strong, you who hear in these days these words from the mouth of the prophets who were in the day that the foundation of the house of Yahweh of Armies was laid, even the temple, that it might be built."
-      }
-    ]
+    "content": {
+      "text": "Yahweh of Armies says: “Let your hands be strong, you who hear in these days these words from the mouth of the prophets who were in the day that the foundation of the house of Yahweh of Armies was laid, even the temple, that it might be built.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 10,
-    "content": [
-      {
-        "text": "For before those days there was no wages for man nor any wages for an animal, neither was there any peace to him who went out or came in, because of the adversary. For I set all men everyone against his neighbor."
-      }
-    ]
+    "content": "For before those days there was no wages for man nor any wages for an animal, neither was there any peace to him who went out or came in, because of the adversary. For I set all men everyone against his neighbor."
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 11,
-    "content": [
-      {
-        "text": "But now I will not be to the remnant of this people as in the former days,” says Yahweh of Armies."
-      }
-    ]
+    "content": "But now I will not be to the remnant of this people as in the former days,” says Yahweh of Armies."
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 12,
-    "content": [
-      {
-        "text": "“For the seed of peace and the vine will yield its fruit, and the ground will give its increase, and the heavens will give their dew. I will cause the remnant of this people to inherit all these things."
-      }
-    ]
+    "content": "“For the seed of peace and the vine will yield its fruit, and the ground will give its increase, and the heavens will give their dew. I will cause the remnant of this people to inherit all these things."
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 13,
-    "content": [
-      {
-        "text": "It shall come to pass that, as you were a curse among the nations, house of Judah and house of Israel, so I will save you, and you shall be a blessing. Don’t be afraid. Let your hands be strong.”"
-      }
-    ]
+    "content": "It shall come to pass that, as you were a curse among the nations, house of Judah and house of Israel, so I will save you, and you shall be a blessing. Don’t be afraid. Let your hands be strong.”"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 14,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "For Yahweh of Armies says: “As I thought to do evil to you when your fathers provoked me to wrath,” says Yahweh of Armies, “and I didn’t repent,"
-      }
-    ]
+    "content": {
+      "text": "For Yahweh of Armies says: “As I thought to do evil to you when your fathers provoked me to wrath,” says Yahweh of Armies, “and I didn’t repent,",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 15,
-    "content": [
-      {
-        "text": "so again I have thought in these days to do good to Jerusalem and to the house of Judah. Don’t be afraid."
-      }
-    ]
+    "content": "so again I have thought in these days to do good to Jerusalem and to the house of Judah. Don’t be afraid."
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 16,
-    "content": [
-      {
-        "text": "These are the things that you shall do: speak every man the truth with his neighbor. Execute the judgment of truth and peace in your gates,"
-      }
-    ]
+    "content": "These are the things that you shall do: speak every man the truth with his neighbor. Execute the judgment of truth and peace in your gates,"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 17,
-    "content": [
-      {
-        "text": "and let none of you devise evil in your hearts against his neighbor, and love no false oath; for all these are things that I hate,” says Yahweh."
-      }
-    ]
+    "content": "and let none of you devise evil in your hearts against his neighbor, and love no false oath; for all these are things that I hate,” says Yahweh."
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 18,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The word of Yahweh of Armies came to me."
-      }
-    ]
+    "content": {
+      "text": "The word of Yahweh of Armies came to me.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 19,
-    "content": [
-      {
-        "text": "Yahweh of Armies says: “The fasts of the fourth, fifth, seventh, and tenth months shall be for the house of Judah joy, gladness, and cheerful feasts. Therefore love truth and peace.”"
-      }
-    ]
+    "content": "Yahweh of Armies says: “The fasts of the fourth, fifth, seventh, and tenth months shall be for the house of Judah joy, gladness, and cheerful feasts. Therefore love truth and peace.”"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 20,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh of Armies says: “Many peoples and the inhabitants of many cities will yet come."
-      }
-    ]
+    "content": {
+      "text": "Yahweh of Armies says: “Many peoples and the inhabitants of many cities will yet come.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 21,
-    "content": [
-      {
-        "text": "The inhabitants of one will go to another, saying, ‘Let’s go speedily to entreat the favor of Yahweh, and to seek Yahweh of Armies. I will go also.’"
-      }
-    ]
+    "content": "The inhabitants of one will go to another, saying, ‘Let’s go speedily to entreat the favor of Yahweh, and to seek Yahweh of Armies. I will go also.’"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 22,
-    "content": [
-      {
-        "text": "Yes, many peoples and strong nations will come to seek Yahweh of Armies in Jerusalem and to entreat the favor of Yahweh.”"
-      }
-    ]
+    "content": "Yes, many peoples and strong nations will come to seek Yahweh of Armies in Jerusalem and to entreat the favor of Yahweh.”"
   },
   {
     "book": "ZEC",
     "chapter": 8,
     "verse": 23,
-    "content": [
-      {
-        "text": "Yahweh of Armies says: “In those days, ten men out of all the languages of the nations will take hold of the skirt of him who is a Jew, saying, ‘We will go with you, for we have heard that God is with you.’ ”"
-      }
-    ]
+    "content": "Yahweh of Armies says: “In those days, ten men out of all the languages of the nations will take hold of the skirt of him who is a Jew, saying, ‘We will go with you, for we have heard that God is with you.’ ”"
   },
   {
     "book": "ZEC",
@@ -1444,37 +948,25 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "A revelation.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "A revelation."
+        "text": "Yahweh’s word is against the land of Hadrach,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and will rest upon Damascus—",
+        "break": true
       },
       {
-        "text": "Yahweh’s word is against the land of Hadrach,"
+        "text": "for the eye of man",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and will rest upon Damascus—"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for the eye of man"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and of all the tribes of Israel is toward Yahweh—"
-      },
-      {
-        "type": "n"
+        "text": "and of all the tribes of Israel is toward Yahweh—",
+        "break": true
       }
     ]
   },
@@ -1484,16 +976,12 @@
     "verse": 2,
     "content": [
       {
-        "text": "and Hamath, also, which borders on it,"
+        "text": "and Hamath, also, which borders on it,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Tyre and Sidon, because they are very wise."
-      },
-      {
-        "type": "n"
+        "text": "Tyre and Sidon, because they are very wise.",
+        "break": true
       }
     ]
   },
@@ -1503,22 +991,16 @@
     "verse": 3,
     "content": [
       {
-        "text": "Tyre built herself a stronghold,"
+        "text": "Tyre built herself a stronghold,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and heaped up silver like the dust,",
+        "break": true
       },
       {
-        "text": "and heaped up silver like the dust,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and fine gold like the mire of the streets."
-      },
-      {
-        "type": "n"
+        "text": "and fine gold like the mire of the streets.",
+        "break": true
       }
     ]
   },
@@ -1528,20 +1010,14 @@
     "verse": 4,
     "content": [
       {
-        "text": "Behold, the Lord will dispossess her,"
+        "text": "Behold, the Lord will dispossess her,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and he will strike her power in the sea;",
+        "break": true
       },
-      {
-        "text": "and he will strike her power in the sea;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and she will be devoured with fire."
-      }
+      "and she will be devoured with fire."
     ]
   },
   {
@@ -1550,37 +1026,25 @@
     "verse": 5,
     "content": [
       {
-        "type": "p"
+        "text": "Ashkelon will see it, and fear;",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Ashkelon will see it, and fear;"
+        "text": "Gaza also, and will writhe in agony;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "as will Ekron, for her expectation will be disappointed;",
+        "break": true
       },
       {
-        "text": "Gaza also, and will writhe in agony;"
+        "text": "and the king will perish from Gaza,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "as will Ekron, for her expectation will be disappointed;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the king will perish from Gaza,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and Ashkelon will not be inhabited."
-      },
-      {
-        "type": "n"
+        "text": "and Ashkelon will not be inhabited.",
+        "break": true
       }
     ]
   },
@@ -1590,16 +1054,12 @@
     "verse": 6,
     "content": [
       {
-        "text": "Foreigners will dwell in Ashdod,"
+        "text": "Foreigners will dwell in Ashdod,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and I will cut off the pride of the Philistines."
-      },
-      {
-        "type": "n"
+        "text": "and I will cut off the pride of the Philistines.",
+        "break": true
       }
     ]
   },
@@ -1609,34 +1069,24 @@
     "verse": 7,
     "content": [
       {
-        "text": "I will take away his blood out of his mouth,"
+        "text": "I will take away his blood out of his mouth,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and his abominations from between his teeth;",
+        "break": true
       },
       {
-        "text": "and his abominations from between his teeth;"
+        "text": "and he also will be a remnant for our God;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and he will be as a chieftain in Judah,",
+        "break": true
       },
       {
-        "text": "and he also will be a remnant for our God;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and he will be as a chieftain in Judah,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and Ekron as a Jebusite."
-      },
-      {
-        "type": "n"
+        "text": "and Ekron as a Jebusite.",
+        "break": true
       }
     ]
   },
@@ -1646,26 +1096,18 @@
     "verse": 8,
     "content": [
       {
-        "text": "I will encamp around my house against the army,"
+        "text": "I will encamp around my house against the army,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that no one pass through or return;",
+        "break": true
       },
       {
-        "text": "that no one pass through or return;"
+        "text": "and no oppressor will pass through them any more:",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and no oppressor will pass through them any more:"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for now I have seen with my eyes."
-      }
+      "for now I have seen with my eyes."
     ]
   },
   {
@@ -1674,43 +1116,29 @@
     "verse": 9,
     "content": [
       {
-        "type": "p"
+        "text": "Rejoice greatly, daughter of Zion!",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Rejoice greatly, daughter of Zion!"
+        "text": "Shout, daughter of Jerusalem!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Behold, your King comes to you!",
+        "break": true
       },
       {
-        "text": "Shout, daughter of Jerusalem!"
+        "text": "He is righteous, and having salvation;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "lowly, and riding on a donkey,",
+        "break": true
       },
       {
-        "text": "Behold, your King comes to you!"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "He is righteous, and having salvation;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "lowly, and riding on a donkey,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "even on a colt, the foal of a donkey."
-      },
-      {
-        "type": "n"
+        "text": "even on a colt, the foal of a donkey.",
+        "break": true
       }
     ]
   },
@@ -1720,38 +1148,26 @@
     "verse": 10,
     "content": [
       {
-        "text": "I will cut off the chariot from Ephraim"
+        "text": "I will cut off the chariot from Ephraim",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and the horse from Jerusalem.",
+        "break": true
       },
       {
-        "text": "and the horse from Jerusalem."
+        "text": "The battle bow will be cut off;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and he will speak peace to the nations.",
+        "break": true
       },
       {
-        "text": "The battle bow will be cut off;"
+        "text": "His dominion will be from sea to sea,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and he will speak peace to the nations."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "His dominion will be from sea to sea,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and from the River to the ends of the earth."
-      }
+      "and from the River to the ends of the earth."
     ]
   },
   {
@@ -1760,25 +1176,17 @@
     "verse": 11,
     "content": [
       {
-        "type": "p"
+        "text": "As for you also,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "As for you also,"
+        "text": "because of the blood of your covenant,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "because of the blood of your covenant,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I have set free your prisoners from the pit in which is no water."
-      },
-      {
-        "type": "n"
+        "text": "I have set free your prisoners from the pit in which is no water.",
+        "break": true
       }
     ]
   },
@@ -1788,16 +1196,12 @@
     "verse": 12,
     "content": [
       {
-        "text": "Turn to the stronghold, you prisoners of hope!"
+        "text": "Turn to the stronghold, you prisoners of hope!",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Even today I declare that I will restore double to you."
-      },
-      {
-        "type": "n"
+        "text": "Even today I declare that I will restore double to you.",
+        "break": true
       }
     ]
   },
@@ -1807,32 +1211,22 @@
     "verse": 13,
     "content": [
       {
-        "text": "For indeed I bend Judah as a bow for me."
+        "text": "For indeed I bend Judah as a bow for me.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I have loaded the bow with Ephraim.",
+        "break": true
       },
       {
-        "text": "I have loaded the bow with Ephraim."
+        "text": "I will stir up your sons, Zion,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "against your sons, Greece,",
+        "break": true
       },
-      {
-        "text": "I will stir up your sons, Zion,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "against your sons, Greece,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and will make you like the sword of a mighty man."
-      }
+      "and will make you like the sword of a mighty man."
     ]
   },
   {
@@ -1841,31 +1235,21 @@
     "verse": 14,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh will be seen over them.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh will be seen over them."
+        "text": "His arrow will flash like lightning.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The Lord Yahweh will blow the trumpet,",
+        "break": true
       },
       {
-        "text": "His arrow will flash like lightning."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The Lord Yahweh will blow the trumpet,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and will go with whirlwinds of the south."
-      },
-      {
-        "type": "n"
+        "text": "and will go with whirlwinds of the south.",
+        "break": true
       }
     ]
   },
@@ -1875,32 +1259,22 @@
     "verse": 15,
     "content": [
       {
-        "text": "Yahweh of Armies will defend them."
+        "text": "Yahweh of Armies will defend them.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They will destroy and overcome with sling stones.",
+        "break": true
       },
       {
-        "text": "They will destroy and overcome with sling stones."
+        "text": "They will drink, and roar as through wine.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They will be filled like bowls,",
+        "break": true
       },
-      {
-        "text": "They will drink, and roar as through wine."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They will be filled like bowls,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "like the corners of the altar."
-      }
+      "like the corners of the altar."
     ]
   },
   {
@@ -1909,25 +1283,17 @@
     "verse": 16,
     "content": [
       {
-        "type": "p"
+        "text": "Yahweh their God will save them in that day as the flock of his people;",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Yahweh their God will save them in that day as the flock of his people;"
+        "text": "for they are like the jewels of a crown,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for they are like the jewels of a crown,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "lifted on high over his land."
-      },
-      {
-        "type": "n"
+        "text": "lifted on high over his land.",
+        "break": true
       }
     ]
   },
@@ -1937,26 +1303,18 @@
     "verse": 17,
     "content": [
       {
-        "text": "For how great is his goodness,"
+        "text": "For how great is his goodness,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and how great is his beauty!",
+        "break": true
       },
       {
-        "text": "and how great is his beauty!"
+        "text": "Grain will make the young men flourish,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Grain will make the young men flourish,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and new wine the virgins."
-      }
+      "and new wine the virgins."
     ]
   },
   {
@@ -1965,25 +1323,17 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "Ask of Yahweh rain in the spring time,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Ask of Yahweh rain in the spring time,"
+        "text": "Yahweh who makes storm clouds,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Yahweh who makes storm clouds,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and he gives rain showers to everyone for the plants in the field."
-      },
-      {
-        "type": "n"
+        "text": "and he gives rain showers to everyone for the plants in the field.",
+        "break": true
       }
     ]
   },
@@ -1996,46 +1346,30 @@
         "text": "For the teraphim",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "teraphim were household idols that may have been associated with inheritance rights to the household property."
-            }
-          ]
+          "content": "teraphim were household idols that may have been associated with inheritance rights to the household property."
         }
       },
       {
-        "text": "have spoken vanity,"
+        "text": " have spoken vanity,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and the diviners have seen a lie;",
+        "break": true
       },
       {
-        "text": "and the diviners have seen a lie;"
+        "text": "and they have told false dreams.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They comfort in vain.",
+        "break": true
       },
       {
-        "text": "and they have told false dreams."
+        "text": "Therefore they go their way like sheep.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They comfort in vain."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Therefore they go their way like sheep."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They are oppressed, because there is no shepherd."
-      }
+      "They are oppressed, because there is no shepherd."
     ]
   },
   {
@@ -2044,31 +1378,21 @@
     "verse": 3,
     "content": [
       {
-        "type": "p"
+        "text": "My anger is kindled against the shepherds,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "My anger is kindled against the shepherds,"
+        "text": "and I will punish the male goats,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for Yahweh of Armies has visited his flock, the house of Judah,",
+        "break": true
       },
       {
-        "text": "and I will punish the male goats,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for Yahweh of Armies has visited his flock, the house of Judah,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and will make them as his majestic horse in the battle."
-      },
-      {
-        "type": "n"
+        "text": "and will make them as his majestic horse in the battle.",
+        "break": true
       }
     ]
   },
@@ -2078,28 +1402,20 @@
     "verse": 4,
     "content": [
       {
-        "text": "From him will come the cornerstone,"
+        "text": "From him will come the cornerstone,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "from him the tent peg,",
+        "break": true
       },
       {
-        "text": "from him the tent peg,"
+        "text": "from him the battle bow,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "from him the battle bow,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "from him every ruler together."
-      },
-      {
-        "type": "n"
+        "text": "from him every ruler together.",
+        "break": true
       }
     ]
   },
@@ -2109,26 +1425,18 @@
     "verse": 5,
     "content": [
       {
-        "text": "They will be as mighty men,"
+        "text": "They will be as mighty men,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "treading down muddy streets in the battle.",
+        "break": true
       },
       {
-        "text": "treading down muddy streets in the battle."
+        "text": "They will fight, because Yahweh is with them.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They will fight, because Yahweh is with them."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The riders on horses will be confounded."
-      }
+      "The riders on horses will be confounded."
     ]
   },
   {
@@ -2137,43 +1445,29 @@
     "verse": 6,
     "content": [
       {
-        "type": "p"
+        "text": "“I will strengthen the house of Judah,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "“I will strengthen the house of Judah,"
+        "text": "and I will save the house of Joseph.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will bring them back,",
+        "break": true
       },
       {
-        "text": "and I will save the house of Joseph."
+        "text": "for I have mercy on them.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They will be as though I had not cast them off,",
+        "break": true
       },
       {
-        "text": "I will bring them back,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for I have mercy on them."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They will be as though I had not cast them off,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for I am Yahweh their God, and I will hear them."
-      },
-      {
-        "type": "n"
+        "text": "for I am Yahweh their God, and I will hear them.",
+        "break": true
       }
     ]
   },
@@ -2183,28 +1477,20 @@
     "verse": 7,
     "content": [
       {
-        "text": "Ephraim will be like a mighty man,"
+        "text": "Ephraim will be like a mighty man,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and their heart will rejoice as through wine.",
+        "break": true
       },
       {
-        "text": "and their heart will rejoice as through wine."
+        "text": "Yes, their children will see it and rejoice.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Yes, their children will see it and rejoice."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Their heart will be glad in Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "Their heart will be glad in Yahweh.",
+        "break": true
       }
     ]
   },
@@ -2214,22 +1500,16 @@
     "verse": 8,
     "content": [
       {
-        "text": "I will signal for them and gather them,"
+        "text": "I will signal for them and gather them,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for I have redeemed them.",
+        "break": true
       },
       {
-        "text": "for I have redeemed them."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They will increase as they were before."
-      },
-      {
-        "type": "n"
+        "text": "They will increase as they were before.",
+        "break": true
       }
     ]
   },
@@ -2239,22 +1519,16 @@
     "verse": 9,
     "content": [
       {
-        "text": "I will sow them among the peoples."
+        "text": "I will sow them among the peoples.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They will remember me in far countries.",
+        "break": true
       },
       {
-        "text": "They will remember me in far countries."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They will live with their children and will return."
-      },
-      {
-        "type": "n"
+        "text": "They will live with their children and will return.",
+        "break": true
       }
     ]
   },
@@ -2264,28 +1538,20 @@
     "verse": 10,
     "content": [
       {
-        "text": "I will bring them again also out of the land of Egypt,"
+        "text": "I will bring them again also out of the land of Egypt,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and gather them out of Assyria.",
+        "break": true
       },
       {
-        "text": "and gather them out of Assyria."
+        "text": "I will bring them into the land of Gilead and Lebanon;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I will bring them into the land of Gilead and Lebanon;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and there won’t be room enough for them."
-      },
-      {
-        "type": "n"
+        "text": "and there won’t be room enough for them.",
+        "break": true
       }
     ]
   },
@@ -2295,34 +1561,24 @@
     "verse": 11,
     "content": [
       {
-        "text": "He will pass through the sea of affliction,"
+        "text": "He will pass through the sea of affliction,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and will strike the waves in the sea,",
+        "break": true
       },
       {
-        "text": "and will strike the waves in the sea,"
+        "text": "and all the depths of the Nile will dry up;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and the pride of Assyria will be brought down,",
+        "break": true
       },
       {
-        "text": "and all the depths of the Nile will dry up;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the pride of Assyria will be brought down,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the scepter of Egypt will depart."
-      },
-      {
-        "type": "n"
+        "text": "and the scepter of Egypt will depart.",
+        "break": true
       }
     ]
   },
@@ -2332,14 +1588,10 @@
     "verse": 12,
     "content": [
       {
-        "text": "I will strengthen them in Yahweh."
+        "text": "I will strengthen them in Yahweh.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They will walk up and down in his name,” says Yahweh."
-      }
+      "They will walk up and down in his name,” says Yahweh."
     ]
   },
   {
@@ -2348,19 +1600,13 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "Open your doors, Lebanon,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Open your doors, Lebanon,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that the fire may devour your cedars."
-      },
-      {
-        "type": "n"
+        "text": "that the fire may devour your cedars.",
+        "break": true
       }
     ]
   },
@@ -2370,28 +1616,20 @@
     "verse": 2,
     "content": [
       {
-        "text": "Wail, cypress tree, for the cedar has fallen,"
+        "text": "Wail, cypress tree, for the cedar has fallen,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "because the stately ones are destroyed.",
+        "break": true
       },
       {
-        "text": "because the stately ones are destroyed."
+        "text": "Wail, you oaks of Bashan,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Wail, you oaks of Bashan,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for the strong forest has come down."
-      },
-      {
-        "type": "n"
+        "text": "for the strong forest has come down.",
+        "break": true
       }
     ]
   },
@@ -2401,399 +1639,253 @@
     "verse": 3,
     "content": [
       {
-        "text": "A voice of the wailing of the shepherds!"
+        "text": "A voice of the wailing of the shepherds!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "For their glory is destroyed—a voice of the roaring of young lions!",
+        "break": true
       },
-      {
-        "text": "For their glory is destroyed—a voice of the roaring of young lions!"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "For the pride of the Jordan is ruined."
-      }
+      "For the pride of the Jordan is ruined."
     ]
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 4,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh my God says: “Feed the flock of slaughter."
-      }
-    ]
+    "content": {
+      "text": "Yahweh my God says: “Feed the flock of slaughter.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 5,
-    "content": [
-      {
-        "text": "Their buyers slaughter them and go unpunished. Those who sell them say, ‘Blessed be Yahweh, for I am rich;’ and their own shepherds don’t pity them."
-      }
-    ]
+    "content": "Their buyers slaughter them and go unpunished. Those who sell them say, ‘Blessed be Yahweh, for I am rich;’ and their own shepherds don’t pity them."
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 6,
-    "content": [
-      {
-        "text": "For I will no more pity the inhabitants of the land,” says Yahweh; “but, behold, I will deliver every one of the men into his neighbor’s hand and into the hand of his king. They will strike the land, and out of their hand I will not deliver them.”"
-      }
-    ]
+    "content": "For I will no more pity the inhabitants of the land,” says Yahweh; “but, behold, I will deliver every one of the men into his neighbor’s hand and into the hand of his king. They will strike the land, and out of their hand I will not deliver them.”"
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 7,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "So I fed the flock to be slaughtered, especially the oppressed of the flock. I took for myself two staffs. The one I called “Favor” and the other I called “Union”, and I fed the flock."
-      }
-    ]
+    "content": {
+      "text": "So I fed the flock to be slaughtered, especially the oppressed of the flock. I took for myself two staffs. The one I called “Favor” and the other I called “Union”, and I fed the flock.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 8,
-    "content": [
-      {
-        "text": "I cut off the three shepherds in one month; for my soul was weary of them, and their soul also loathed me."
-      }
-    ]
+    "content": "I cut off the three shepherds in one month; for my soul was weary of them, and their soul also loathed me."
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 9,
-    "content": [
-      {
-        "text": "Then I said, “I will not feed you. That which dies, let it die; and that which is to be cut off, let it be cut off; and let those who are left eat each other’s flesh.”"
-      }
-    ]
+    "content": "Then I said, “I will not feed you. That which dies, let it die; and that which is to be cut off, let it be cut off; and let those who are left eat each other’s flesh.”"
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 10,
-    "content": [
-      {
-        "text": "I took my staff Favor and cut it apart, that I might break my covenant that I had made with all the peoples."
-      }
-    ]
+    "content": "I took my staff Favor and cut it apart, that I might break my covenant that I had made with all the peoples."
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 11,
-    "content": [
-      {
-        "text": "It was broken in that day; and thus the poor of the flock that listened to me knew that it was Yahweh’s word."
-      }
-    ]
+    "content": "It was broken in that day; and thus the poor of the flock that listened to me knew that it was Yahweh’s word."
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 12,
-    "content": [
-      {
-        "text": "I said to them, “If you think it best, give me my wages; and if not, keep them.” So they weighed for my wages thirty pieces of silver."
-      }
-    ]
+    "content": "I said to them, “If you think it best, give me my wages; and if not, keep them.” So they weighed for my wages thirty pieces of silver."
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 13,
-    "content": [
-      {
-        "text": "Yahweh said to me, “Throw it to the potter—the handsome price that I was valued at by them!” I took the thirty pieces of silver and threw them to the potter in Yahweh’s house."
-      }
-    ]
+    "content": "Yahweh said to me, “Throw it to the potter—the handsome price that I was valued at by them!” I took the thirty pieces of silver and threw them to the potter in Yahweh’s house."
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 14,
-    "content": [
-      {
-        "text": "Then I cut apart my other staff, Union, that I might break the brotherhood between Judah and Israel."
-      }
-    ]
+    "content": "Then I cut apart my other staff, Union, that I might break the brotherhood between Judah and Israel."
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 15,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh said to me, “Take for yourself yet again the equipment of a foolish shepherd."
-      }
-    ]
+    "content": {
+      "text": "Yahweh said to me, “Take for yourself yet again the equipment of a foolish shepherd.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 16,
-    "content": [
-      {
-        "text": "For, behold, I will raise up a shepherd in the land who will not visit those who are cut off, neither will seek those who are scattered, nor heal that which is broken, nor feed that which is sound; but he will eat the meat of the fat sheep, and will tear their hoofs in pieces."
-      }
-    ]
+    "content": "For, behold, I will raise up a shepherd in the land who will not visit those who are cut off, neither will seek those who are scattered, nor heal that which is broken, nor feed that which is sound; but he will eat the meat of the fat sheep, and will tear their hoofs in pieces."
   },
   {
     "book": "ZEC",
     "chapter": 11,
     "verse": 17,
-    "content": [
-      {
-        "text": "Woe to the worthless shepherd who leaves the flock! The sword will strike his arm and his right eye. His arm will be completely withered, and his right eye will be totally blinded!”"
-      }
-    ]
+    "content": "Woe to the worthless shepherd who leaves the flock! The sword will strike his arm and his right eye. His arm will be completely withered, and his right eye will be totally blinded!”"
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "A revelation of Yahweh’s word concerning Israel: Yahweh, who stretches out the heavens and lays the foundation of the earth, and forms the spirit of man within him says:"
-      }
-    ]
+    "content": {
+      "text": "A revelation of Yahweh’s word concerning Israel: Yahweh, who stretches out the heavens and lays the foundation of the earth, and forms the spirit of man within him says:",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 2,
-    "content": [
-      {
-        "text": "“Behold, I will make Jerusalem a cup of reeling to all the surrounding peoples, and it will also be on Judah in the siege against Jerusalem."
-      }
-    ]
+    "content": "“Behold, I will make Jerusalem a cup of reeling to all the surrounding peoples, and it will also be on Judah in the siege against Jerusalem."
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 3,
-    "content": [
-      {
-        "text": "It will happen in that day that I will make Jerusalem a burdensome stone for all the peoples. All who burden themselves with it will be severely wounded, and all the nations of the earth will be gathered together against it."
-      }
-    ]
+    "content": "It will happen in that day that I will make Jerusalem a burdensome stone for all the peoples. All who burden themselves with it will be severely wounded, and all the nations of the earth will be gathered together against it."
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 4,
-    "content": [
-      {
-        "text": "In that day,” says Yahweh, “I will strike every horse with terror and his rider with madness. I will open my eyes on the house of Judah, and will strike every horse of the peoples with blindness."
-      }
-    ]
+    "content": "In that day,” says Yahweh, “I will strike every horse with terror and his rider with madness. I will open my eyes on the house of Judah, and will strike every horse of the peoples with blindness."
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 5,
-    "content": [
-      {
-        "text": "The chieftains of Judah will say in their heart, ‘The inhabitants of Jerusalem are my strength in Yahweh of Armies their God.’"
-      }
-    ]
+    "content": "The chieftains of Judah will say in their heart, ‘The inhabitants of Jerusalem are my strength in Yahweh of Armies their God.’"
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 6,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "In that day I will make the chieftains of Judah like a pan of fire among wood, and like a flaming torch among sheaves. They will devour all the surrounding peoples on the right hand and on the left; and Jerusalem will yet again dwell in their own place, even in Jerusalem."
-      }
-    ]
+    "content": {
+      "text": "In that day I will make the chieftains of Judah like a pan of fire among wood, and like a flaming torch among sheaves. They will devour all the surrounding peoples on the right hand and on the left; and Jerusalem will yet again dwell in their own place, even in Jerusalem.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 7,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh also will save the tents of Judah first, that the glory of David’s house and the glory of the inhabitants of Jerusalem not be magnified above Judah."
-      }
-    ]
+    "content": {
+      "text": "Yahweh also will save the tents of Judah first, that the glory of David’s house and the glory of the inhabitants of Jerusalem not be magnified above Judah.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 8,
-    "content": [
-      {
-        "text": "In that day Yahweh will defend the inhabitants of Jerusalem. He who is feeble among them at that day will be like David, and David’s house will be like God, like Yahweh’s angel before them."
-      }
-    ]
+    "content": "In that day Yahweh will defend the inhabitants of Jerusalem. He who is feeble among them at that day will be like David, and David’s house will be like God, like Yahweh’s angel before them."
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 9,
-    "content": [
-      {
-        "text": "It will happen in that day, that I will seek to destroy all the nations that come against Jerusalem."
-      }
-    ]
+    "content": "It will happen in that day, that I will seek to destroy all the nations that come against Jerusalem."
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 10,
     "content": [
-      {
-        "type": "p"
-      },
       {
         "text": "I will pour on David’s house and on the inhabitants of Jerusalem the spirit of grace and of supplication. They will look to me",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "After “me”, the Hebrew has the two letters “Aleph Tav” (the first and last letters of the Hebrew alphabet), not as a word, but as a grammatical marker."
-            }
-          ]
-        }
+          "content": "After “me”, the Hebrew has the two letters “Aleph Tav” (the first and last letters of the Hebrew alphabet), not as a word, but as a grammatical marker."
+        },
+        "paragraph": true
       },
-      {
-        "text": "whom they have pierced; and they shall mourn for him as one mourns for his only son, and will grieve bitterly for him as one grieves for his firstborn."
-      }
+      " whom they have pierced; and they shall mourn for him as one mourns for his only son, and will grieve bitterly for him as one grieves for his firstborn."
     ]
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 11,
-    "content": [
-      {
-        "text": "In that day there will be a great mourning in Jerusalem, like the mourning of Hadadrimmon in the valley of Megiddo."
-      }
-    ]
+    "content": "In that day there will be a great mourning in Jerusalem, like the mourning of Hadadrimmon in the valley of Megiddo."
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 12,
-    "content": [
-      {
-        "text": "The land will mourn, every family apart; the family of David’s house apart, and their wives apart; the family of the house of Nathan apart, and their wives apart;"
-      }
-    ]
+    "content": "The land will mourn, every family apart; the family of David’s house apart, and their wives apart; the family of the house of Nathan apart, and their wives apart;"
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 13,
-    "content": [
-      {
-        "text": "the family of the house of Levi apart, and their wives apart; the family of the Shimeites apart, and their wives apart;"
-      }
-    ]
+    "content": "the family of the house of Levi apart, and their wives apart; the family of the Shimeites apart, and their wives apart;"
   },
   {
     "book": "ZEC",
     "chapter": 12,
     "verse": 14,
-    "content": [
-      {
-        "text": "all the families who remain, every family apart, and their wives apart."
-      }
-    ]
+    "content": "all the families who remain, every family apart, and their wives apart."
   },
   {
     "book": "ZEC",
     "chapter": 13,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "“In that day there will be a fountain opened to David’s house and to the inhabitants of Jerusalem, for sin and for uncleanness."
-      }
-    ]
+    "content": {
+      "text": "“In that day there will be a fountain opened to David’s house and to the inhabitants of Jerusalem, for sin and for uncleanness.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 13,
     "verse": 2,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "It will come to pass in that day, says Yahweh of Armies, that I will cut off the names of the idols out of the land, and they will be remembered no more. I will also cause the prophets and the spirit of impurity to pass out of the land."
-      }
-    ]
+    "content": {
+      "text": "It will come to pass in that day, says Yahweh of Armies, that I will cut off the names of the idols out of the land, and they will be remembered no more. I will also cause the prophets and the spirit of impurity to pass out of the land.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 13,
     "verse": 3,
-    "content": [
-      {
-        "text": "It will happen that when anyone still prophesies, then his father and his mother who bore him will tell him, ‘You must die, because you speak lies in Yahweh’s name;’ and his father and his mother who bore him will stab him when he prophesies."
-      }
-    ]
+    "content": "It will happen that when anyone still prophesies, then his father and his mother who bore him will tell him, ‘You must die, because you speak lies in Yahweh’s name;’ and his father and his mother who bore him will stab him when he prophesies."
   },
   {
     "book": "ZEC",
     "chapter": 13,
     "verse": 4,
-    "content": [
-      {
-        "text": "It will happen in that day that the prophets will each be ashamed of his vision when he prophesies; they won’t wear a hairy mantle to deceive,"
-      }
-    ]
+    "content": "It will happen in that day that the prophets will each be ashamed of his vision when he prophesies; they won’t wear a hairy mantle to deceive,"
   },
   {
     "book": "ZEC",
     "chapter": 13,
     "verse": 5,
-    "content": [
-      {
-        "text": "but he will say, ‘I am no prophet, I am a tiller of the ground; for I have been made a bondservant from my youth.’"
-      }
-    ]
+    "content": "but he will say, ‘I am no prophet, I am a tiller of the ground; for I have been made a bondservant from my youth.’"
   },
   {
     "book": "ZEC",
     "chapter": 13,
     "verse": 6,
-    "content": [
-      {
-        "text": "One will say to him, ‘What are these wounds between your arms?’ Then he will answer, ‘Those with which I was wounded in the house of my friends.’"
-      }
-    ]
+    "content": "One will say to him, ‘What are these wounds between your arms?’ Then he will answer, ‘Those with which I was wounded in the house of my friends.’"
   },
   {
     "book": "ZEC",
@@ -2801,31 +1893,21 @@
     "verse": 7,
     "content": [
       {
-        "type": "p"
+        "text": "“Awake, sword, against my shepherd,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "“Awake, sword, against my shepherd,"
+        "text": "and against the man who is close to me,” says Yahweh of Armies.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "“Strike the shepherd, and the sheep will be scattered;",
+        "break": true
       },
       {
-        "text": "and against the man who is close to me,” says Yahweh of Armies."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "“Strike the shepherd, and the sheep will be scattered;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and I will turn my hand against the little ones."
-      },
-      {
-        "type": "n"
+        "text": "and I will turn my hand against the little ones.",
+        "break": true
       }
     ]
   },
@@ -2835,22 +1917,16 @@
     "verse": 8,
     "content": [
       {
-        "text": "It shall happen that in all the land,” says Yahweh,"
+        "text": "It shall happen that in all the land,” says Yahweh,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "“two parts in it will be cut off and die;",
+        "break": true
       },
       {
-        "text": "“two parts in it will be cut off and die;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "but the third will be left in it."
-      },
-      {
-        "type": "n"
+        "text": "but the third will be left in it.",
+        "break": true
       }
     ]
   },
@@ -2860,274 +1936,180 @@
     "verse": 9,
     "content": [
       {
-        "text": "I will bring the third part into the fire,"
+        "text": "I will bring the third part into the fire,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and will refine them as silver is refined,",
+        "break": true
       },
       {
-        "text": "and will refine them as silver is refined,"
+        "text": "and will test them like gold is tested.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They will call on my name, and I will hear them.",
+        "break": true
       },
       {
-        "text": "and will test them like gold is tested."
+        "text": "I will say, ‘It is my people;’",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They will call on my name, and I will hear them."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I will say, ‘It is my people;’"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and they will say, ‘Yahweh is my God.’ ”"
-      }
+      "and they will say, ‘Yahweh is my God.’ ”"
     ]
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Behold, a day of Yahweh comes, when your plunder will be divided within you."
-      }
-    ]
+    "content": {
+      "text": "Behold, a day of Yahweh comes, when your plunder will be divided within you.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 2,
-    "content": [
-      {
-        "text": "For I will gather all nations against Jerusalem to battle; and the city will be taken, the houses rifled, and the women ravished. Half of the city will go out into captivity, and the rest of the people will not be cut off from the city."
-      }
-    ]
+    "content": "For I will gather all nations against Jerusalem to battle; and the city will be taken, the houses rifled, and the women ravished. Half of the city will go out into captivity, and the rest of the people will not be cut off from the city."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 3,
-    "content": [
-      {
-        "text": "Then Yahweh will go out and fight against those nations, as when he fought in the day of battle."
-      }
-    ]
+    "content": "Then Yahweh will go out and fight against those nations, as when he fought in the day of battle."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 4,
-    "content": [
-      {
-        "text": "His feet will stand in that day on the Mount of Olives, which is before Jerusalem on the east; and the Mount of Olives will be split in two from east to west, making a very great valley. Half of the mountain will move toward the north, and half of it toward the south."
-      }
-    ]
+    "content": "His feet will stand in that day on the Mount of Olives, which is before Jerusalem on the east; and the Mount of Olives will be split in two from east to west, making a very great valley. Half of the mountain will move toward the north, and half of it toward the south."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 5,
-    "content": [
-      {
-        "text": "You shall flee by the valley of my mountains, for the valley of the mountains shall reach to Azel. Yes, you shall flee, just like you fled from before the earthquake in the days of Uzziah king of Judah. Yahweh my God will come, and all the holy ones with you.",
-        "foot": {
-          "type": "stu",
-          "content": [
-            {
-              "text": "Septuagint reads “him” instead of “you”."
-            }
-          ]
-        }
+    "content": {
+      "text": "You shall flee by the valley of my mountains, for the valley of the mountains shall reach to Azel. Yes, you shall flee, just like you fled from before the earthquake in the days of Uzziah king of Judah. Yahweh my God will come, and all the holy ones with you.",
+      "foot": {
+        "type": "stu",
+        "content": "Septuagint reads “him” instead of “you”."
       }
-    ]
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 6,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "It will happen in that day that there will not be light, cold, or frost."
-      }
-    ]
+    "content": {
+      "text": "It will happen in that day that there will not be light, cold, or frost.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 7,
-    "content": [
-      {
-        "text": "It will be a unique day which is known to Yahweh—not day, and not night; but it will come to pass that at evening time there will be light."
-      }
-    ]
+    "content": "It will be a unique day which is known to Yahweh—not day, and not night; but it will come to pass that at evening time there will be light."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 8,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "It will happen in that day that living waters will go out from Jerusalem, half of them toward the eastern sea, and half of them toward the western sea. It will be so in summer and in winter."
-      }
-    ]
+    "content": {
+      "text": "It will happen in that day that living waters will go out from Jerusalem, half of them toward the eastern sea, and half of them toward the western sea. It will be so in summer and in winter.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 9,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Yahweh will be King over all the earth. In that day Yahweh will be one, and his name one."
-      }
-    ]
+    "content": {
+      "text": "Yahweh will be King over all the earth. In that day Yahweh will be one, and his name one.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 10,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "All the land will be made like the Arabah, from Geba to Rimmon south of Jerusalem; and she will be lifted up and will dwell in her place, from Benjamin’s gate to the place of the first gate, to the corner gate, and from the tower of Hananel to the king’s wine presses."
-      }
-    ]
+    "content": {
+      "text": "All the land will be made like the Arabah, from Geba to Rimmon south of Jerusalem; and she will be lifted up and will dwell in her place, from Benjamin’s gate to the place of the first gate, to the corner gate, and from the tower of Hananel to the king’s wine presses.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 11,
-    "content": [
-      {
-        "text": "Men will dwell therein, and there will be no more curse; but Jerusalem will dwell safely."
-      }
-    ]
+    "content": "Men will dwell therein, and there will be no more curse; but Jerusalem will dwell safely."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 12,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "This will be the plague with which Yahweh will strike all the peoples who have fought against Jerusalem: their flesh will consume away while they stand on their feet, and their eyes will consume away in their sockets, and their tongue will consume away in their mouth."
-      }
-    ]
+    "content": {
+      "text": "This will be the plague with which Yahweh will strike all the peoples who have fought against Jerusalem: their flesh will consume away while they stand on their feet, and their eyes will consume away in their sockets, and their tongue will consume away in their mouth.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 13,
-    "content": [
-      {
-        "text": "It will happen in that day that a great panic from Yahweh will be among them; and they will each seize the hand of his neighbor, and his hand will rise up against the hand of his neighbor."
-      }
-    ]
+    "content": "It will happen in that day that a great panic from Yahweh will be among them; and they will each seize the hand of his neighbor, and his hand will rise up against the hand of his neighbor."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 14,
-    "content": [
-      {
-        "text": "Judah also will fight at Jerusalem; and the wealth of all the surrounding nations will be gathered together: gold, silver, and clothing, in great abundance."
-      }
-    ]
+    "content": "Judah also will fight at Jerusalem; and the wealth of all the surrounding nations will be gathered together: gold, silver, and clothing, in great abundance."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 15,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "A plague like this will fall on the horse, on the mule, on the camel, on the donkey, and on all the animals that will be in those camps."
-      }
-    ]
+    "content": {
+      "text": "A plague like this will fall on the horse, on the mule, on the camel, on the donkey, and on all the animals that will be in those camps.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 16,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "It will happen that everyone who is left of all the nations that came against Jerusalem will go up from year to year to worship the King, Yahweh of Armies, and to keep the feast of booths."
-      }
-    ]
+    "content": {
+      "text": "It will happen that everyone who is left of all the nations that came against Jerusalem will go up from year to year to worship the King, Yahweh of Armies, and to keep the feast of booths.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 17,
-    "content": [
-      {
-        "text": "It will be that whoever of all the families of the earth doesn’t go up to Jerusalem to worship the King, Yahweh of Armies, on them there will be no rain."
-      }
-    ]
+    "content": "It will be that whoever of all the families of the earth doesn’t go up to Jerusalem to worship the King, Yahweh of Armies, on them there will be no rain."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 18,
-    "content": [
-      {
-        "text": "If the family of Egypt doesn’t go up and doesn’t come, neither will it rain on them. This will be the plague with which Yahweh will strike the nations that don’t go up to keep the feast of booths."
-      }
-    ]
+    "content": "If the family of Egypt doesn’t go up and doesn’t come, neither will it rain on them. This will be the plague with which Yahweh will strike the nations that don’t go up to keep the feast of booths."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 19,
-    "content": [
-      {
-        "text": "This will be the punishment of Egypt and the punishment of all the nations that don’t go up to keep the feast of booths."
-      }
-    ]
+    "content": "This will be the punishment of Egypt and the punishment of all the nations that don’t go up to keep the feast of booths."
   },
   {
     "book": "ZEC",
     "chapter": 14,
     "verse": 20,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "In that day there will be inscribed on the bells of the horses, “HOLY TO YAHWEH”; and the pots in Yahweh’s house will be like the bowls before the altar."
-      }
-    ]
+    "content": {
+      "text": "In that day there will be inscribed on the bells of the horses, “HOLY TO YAHWEH”; and the pots in Yahweh’s house will be like the bowls before the altar.",
+      "paragraph": true
+    }
   },
   {
     "book": "ZEC",
@@ -3138,16 +2120,10 @@
         "text": "Yes, every pot in Jerusalem and in Judah will be holy to Yahweh of Armies; and all those who sacrifice will come and take of them, and cook in them. In that day there will no longer be a Canaanite",
         "foot": {
           "type": "trn",
-          "content": [
-            {
-              "text": "or, merchant"
-            }
-          ]
+          "content": "or, merchant"
         }
       },
-      {
-        "text": "in the house of Yahweh of Armies."
-      }
+      " in the house of Yahweh of Armies."
     ]
   }
 ]

@@ -59,8 +59,8 @@
 <sup>46</sup> So you stayed in Kadesh many days, according to the days that you remained.
 
 > - <sup>a</sup> 3. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
-> - <sup>b</sup> 6. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
-> - <sup>c</sup> 8. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>b</sup> 6. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
+> - <sup>c</sup> 8. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 > - <sup>d</sup> 8. or, seed
 
 ## Chapter 2
@@ -1096,55 +1096,55 @@
 <sup>30</sup> Moses spoke in the ears of all the assembly of Israel the words of this song, until they were finished.
 ## Chapter 32
 
-<sup>1</sup> Give ear, you heavens, and I will speak. <br>Let the earth hear the words of my mouth. <br>
-<sup>2</sup> My doctrine will drop as the rain. <br>My speech will condense as the dew, <br>as the misty rain on the tender grass, <br>as the showers on the herb. <br>
-<sup>3</sup> For I will proclaim Yahweh’s name. <br>Ascribe greatness to our God! <br>
-<sup>4</sup> The Rock: his work is perfect, <br>for all his ways are just. <br>A God of faithfulness who does no wrong, <br>just and right is he. <br>
-<sup>5</sup> They have dealt corruptly with him. <br>They are not his children, because of their defect. <br>They are a perverse and crooked generation. <br>
-<sup>6</sup> Is this the way you repay Yahweh, <br>foolish and unwise people? <br>Isn’t he your father who has bought you? <br>He has made you and established you. <br>
-<sup>7</sup> Remember the days of old. <br>Consider the years of many generations. <br>Ask your father, and he will show you; <br>your elders, and they will tell you. <br>
-<sup>8</sup> When the Most High gave to the nations their inheritance, <br>when he separated the children of men, <br>he set the bounds of the peoples <br>according to the number of the children of Israel. <br>
-<sup>9</sup> For Yahweh’s portion is his people. <br>Jacob is the lot of his inheritance. <br>
-<sup>10</sup> He found him in a desert land, <br>in the waste howling wilderness. <br>He surrounded him. <br>He cared for him. <br>He kept him as the apple of his eye. <br>
-<sup>11</sup> As an eagle that stirs up her nest, <br>that flutters over her young, <br>he spread abroad his wings, <br>he took them, <br>he bore them on his feathers. <br>
-<sup>12</sup> Yahweh alone led him. <br>There was no foreign god with him. <br>
-<sup>13</sup> He made him ride on the high places of the earth. <br>He ate the increase of the field. <br>He caused him to suck honey out of the rock, <br>oil out of the flinty rock; <br>
-<sup>14</sup> butter from the herd, and milk from the flock, <br>with fat of lambs, <br>rams of the breed of Bashan, and goats, <br>with the finest of the wheat. <br>From the blood of the grape, you drank wine. <br>
-<sup>15</sup> But Jeshurun grew fat, and kicked. <br>You have grown fat. <br>You have grown thick. <br>You have become sleek. <br>Then he abandoned God who made him, <br>and rejected the Rock of his salvation. <br>
-<sup>16</sup> They moved him to jealousy with strange gods. <br>They provoked him to anger with abominations. <br>
-<sup>17</sup> They sacrificed to demons, not God, <br>to gods that they didn’t know, <br>to new gods that came up recently, <br>which your fathers didn’t dread. <br>
-<sup>18</sup> Of the Rock who became your father, you are unmindful, <br>and have forgotten God who gave you birth. <br>
-<sup>19</sup> Yahweh saw and abhorred, <br>because of the provocation of his sons and his daughters. <br>
-<sup>20</sup> He said, “I will hide my face from them. <br>I will see what their end will be; <br>for they are a very perverse generation, <br>children in whom is no faithfulness. <br>
-<sup>21</sup> They have moved me to jealousy with that which is not God. <br>They have provoked me to anger with their vanities. <br>I will move them to jealousy with those who are not a people. <br>I will provoke them to anger with a foolish nation. <br>
-<sup>22</sup> For a fire is kindled in my anger, <br>that burns to the lowest Sheol,<sup>a</sup> <br>devours the earth with its increase, <br>and sets the foundations of the mountains on fire.
+<sup>1</sup> Give ear, you heavens, and I will speak.<br>Let the earth hear the words of my mouth.<br>
+<sup>2</sup> My doctrine will drop as the rain.<br>My speech will condense as the dew,<br>as the misty rain on the tender grass,<br>as the showers on the herb.<br>
+<sup>3</sup> For I will proclaim Yahweh’s name.<br>Ascribe greatness to our God!<br>
+<sup>4</sup> The Rock: his work is perfect,<br>for all his ways are just.<br>A God of faithfulness who does no wrong,<br>just and right is he.<br>
+<sup>5</sup> They have dealt corruptly with him.<br>They are not his children, because of their defect.<br>They are a perverse and crooked generation.<br>
+<sup>6</sup> Is this the way you repay Yahweh,<br>foolish and unwise people?<br>Isn’t he your father who has bought you?<br>He has made you and established you.<br>
+<sup>7</sup> Remember the days of old.<br>Consider the years of many generations.<br>Ask your father, and he will show you;<br>your elders, and they will tell you.<br>
+<sup>8</sup> When the Most High gave to the nations their inheritance,<br>when he separated the children of men,<br>he set the bounds of the peoples<br>according to the number of the children of Israel.<br>
+<sup>9</sup> For Yahweh’s portion is his people.<br>Jacob is the lot of his inheritance.<br>
+<sup>10</sup> He found him in a desert land,<br>in the waste howling wilderness.<br>He surrounded him.<br>He cared for him.<br>He kept him as the apple of his eye.<br>
+<sup>11</sup> As an eagle that stirs up her nest,<br>that flutters over her young,<br>he spread abroad his wings,<br>he took them,<br>he bore them on his feathers.<br>
+<sup>12</sup> Yahweh alone led him.<br>There was no foreign god with him.<br>
+<sup>13</sup> He made him ride on the high places of the earth.<br>He ate the increase of the field.<br>He caused him to suck honey out of the rock,<br>oil out of the flinty rock;<br>
+<sup>14</sup> butter from the herd, and milk from the flock,<br>with fat of lambs,<br>rams of the breed of Bashan, and goats,<br>with the finest of the wheat.<br>From the blood of the grape, you drank wine.<br>
+<sup>15</sup> But Jeshurun grew fat, and kicked.<br>You have grown fat.<br>You have grown thick.<br>You have become sleek.<br>Then he abandoned God who made him,<br>and rejected the Rock of his salvation.<br>
+<sup>16</sup> They moved him to jealousy with strange gods.<br>They provoked him to anger with abominations.<br>
+<sup>17</sup> They sacrificed to demons, not God,<br>to gods that they didn’t know,<br>to new gods that came up recently,<br>which your fathers didn’t dread.<br>
+<sup>18</sup> Of the Rock who became your father, you are unmindful,<br>and have forgotten God who gave you birth.<br>
+<sup>19</sup> Yahweh saw and abhorred,<br>because of the provocation of his sons and his daughters.<br>
+<sup>20</sup> He said, “I will hide my face from them.<br>I will see what their end will be;<br>for they are a very perverse generation,<br>children in whom is no faithfulness.<br>
+<sup>21</sup> They have moved me to jealousy with that which is not God.<br>They have provoked me to anger with their vanities.<br>I will move them to jealousy with those who are not a people.<br>I will provoke them to anger with a foolish nation.<br>
+<sup>22</sup> For a fire is kindled in my anger,<br>that burns to the lowest Sheol,<sup>a</sup><br>devours the earth with its increase,<br>and sets the foundations of the mountains on fire.
 
-<sup>23</sup> “I will heap evils on them. <br>I will spend my arrows on them. <br>
-<sup>24</sup> They shall be wasted with hunger, <br>and devoured with burning heat <br>and bitter destruction. <br>I will send the teeth of animals on them, <br>with the venom of vipers that glide in the dust. <br>
-<sup>25</sup> Outside the sword will bereave, <br>and in the rooms, <br>terror on both young man and virgin, <br>the nursing infant with the gray-haired man. <br>
-<sup>26</sup> I said that I would scatter them afar. <br>I would make their memory to cease from among men; <br>
-<sup>27</sup> were it not that I feared the provocation of the enemy, <br>lest their adversaries should judge wrongly, <br>lest they should say, ‘Our hand is exalted; <br>Yahweh has not done all this.’ ”
+<sup>23</sup> “I will heap evils on them.<br>I will spend my arrows on them.<br>
+<sup>24</sup> They shall be wasted with hunger,<br>and devoured with burning heat<br>and bitter destruction.<br>I will send the teeth of animals on them,<br>with the venom of vipers that glide in the dust.<br>
+<sup>25</sup> Outside the sword will bereave,<br>and in the rooms,<br>terror on both young man and virgin,<br>the nursing infant with the gray-haired man.<br>
+<sup>26</sup> I said that I would scatter them afar.<br>I would make their memory to cease from among men;<br>
+<sup>27</sup> were it not that I feared the provocation of the enemy,<br>lest their adversaries should judge wrongly,<br>lest they should say, ‘Our hand is exalted;<br>Yahweh has not done all this.’ ”
 
-<sup>28</sup> For they are a nation void of counsel. <br>There is no understanding in them. <br>
-<sup>29</sup> Oh that they were wise, that they understood this, <br>that they would consider their latter end! <br>
-<sup>30</sup> How could one chase a thousand, <br>and two put ten thousand to flight, <br>unless their Rock had sold them, <br>and Yahweh had delivered them up? <br>
-<sup>31</sup> For their rock is not as our Rock, <br>even our enemies themselves concede. <br>
-<sup>32</sup> For their vine is of the vine of Sodom, <br>of the fields of Gomorrah. <br>Their grapes are poison grapes. <br>Their clusters are bitter. <br>
-<sup>33</sup> Their wine is the poison of serpents, <br>the cruel venom of asps.
+<sup>28</sup> For they are a nation void of counsel.<br>There is no understanding in them.<br>
+<sup>29</sup> Oh that they were wise, that they understood this,<br>that they would consider their latter end!<br>
+<sup>30</sup> How could one chase a thousand,<br>and two put ten thousand to flight,<br>unless their Rock had sold them,<br>and Yahweh had delivered them up?<br>
+<sup>31</sup> For their rock is not as our Rock,<br>even our enemies themselves concede.<br>
+<sup>32</sup> For their vine is of the vine of Sodom,<br>of the fields of Gomorrah.<br>Their grapes are poison grapes.<br>Their clusters are bitter.<br>
+<sup>33</sup> Their wine is the poison of serpents,<br>the cruel venom of asps.
 
-<sup>34</sup> “Isn’t this laid up in store with me, <br>sealed up among my treasures? <br>
-<sup>35</sup> Vengeance is mine, and recompense, <br>at the time when their foot slides, <br>for the day of their calamity is at hand. <br>Their doom rushes at them.”
+<sup>34</sup> “Isn’t this laid up in store with me,<br>sealed up among my treasures?<br>
+<sup>35</sup> Vengeance is mine, and recompense,<br>at the time when their foot slides,<br>for the day of their calamity is at hand.<br>Their doom rushes at them.”
 
-<sup>36</sup> For Yahweh will judge his people, <br>and have compassion on his servants, <br>when he sees that their power is gone, <br>that there is no one remaining, shut up or left at large. <br>
-<sup>37</sup> He will say, “Where are their gods, <br>the rock in which they took refuge, <br>
-<sup>38</sup> which ate the fat of their sacrifices, <br>and drank the wine of their drink offering? <br>Let them rise up and help you! <br>Let them be your protection.
+<sup>36</sup> For Yahweh will judge his people,<br>and have compassion on his servants,<br>when he sees that their power is gone,<br>that there is no one remaining, shut up or left at large.<br>
+<sup>37</sup> He will say, “Where are their gods,<br>the rock in which they took refuge,<br>
+<sup>38</sup> which ate the fat of their sacrifices,<br>and drank the wine of their drink offering?<br>Let them rise up and help you!<br>Let them be your protection.
 
-<sup>39</sup> “See now that I myself am he. <br>There is no god with me. <br>I kill and I make alive. <br>I wound and I heal. <br>There is no one who can deliver out of my hand. <br>
-<sup>40</sup> For I lift up my hand to heaven and declare, <br>as I live forever, <br>
-<sup>41</sup> if I sharpen my glittering sword, <br>my hand grasps it in judgment; <br>I will take vengeance on my adversaries, <br>and will repay those who hate me. <br>
-<sup>42</sup> I will make my arrows drunk with blood. <br>My sword shall devour flesh with the blood of the slain and the captives, <br>from the head of the leaders of the enemy.”
+<sup>39</sup> “See now that I myself am he.<br>There is no god with me.<br>I kill and I make alive.<br>I wound and I heal.<br>There is no one who can deliver out of my hand.<br>
+<sup>40</sup> For I lift up my hand to heaven and declare,<br>as I live forever,<br>
+<sup>41</sup> if I sharpen my glittering sword,<br>my hand grasps it in judgment;<br>I will take vengeance on my adversaries,<br>and will repay those who hate me.<br>
+<sup>42</sup> I will make my arrows drunk with blood.<br>My sword shall devour flesh with the blood of the slain and the captives,<br>from the head of the leaders of the enemy.”
 
-<sup>43</sup> Rejoice, you nations, with his people, <br>for he will avenge the blood of his servants. <br>He will take vengeance on his adversaries, <br>and will make atonement for his land and for his people.<sup>b</sup>
+<sup>43</sup> Rejoice, you nations, with his people,<br>for he will avenge the blood of his servants.<br>He will take vengeance on his adversaries,<br>and will make atonement for his land and for his people.<sup>b</sup>
 
 <sup>44</sup> Moses came and spoke all the words of this song in the ears of the people, he and Joshua the son of Nun.
 <sup>45</sup> Moses finished reciting all these words to all Israel.
@@ -1163,45 +1163,45 @@
 ## Chapter 33
 
 <sup>1</sup> This is the blessing with which Moses the man of God blessed the children of Israel before his death.
-<sup>2</sup> He said, <br>“Yahweh came from Sinai, <br>and rose from Seir to them. <br>He shone from Mount Paran. <br>He came from the ten thousands of holy ones. <br>At his right hand was a fiery law for them.<sup>a</sup> <br>
-<sup>3</sup> Yes, he loves the people. <br>All his saints are in your hand. <br>They sat down at your feet. <br>Each receives your words. <br>
-<sup>4</sup> Moses commanded us a law, <br>an inheritance for the assembly of Jacob. <br>
-<sup>5</sup> He was king in Jeshurun, <br>when the heads of the people were gathered, <br>all the tribes of Israel together.
+<sup>2</sup> He said,<br>“Yahweh came from Sinai,<br>and rose from Seir to them.<br>He shone from Mount Paran.<br>He came from the ten thousands of holy ones.<br>At his right hand was a fiery law for them.<sup>a</sup><br>
+<sup>3</sup> Yes, he loves the people.<br>All his saints are in your hand.<br>They sat down at your feet.<br>Each receives your words.<br>
+<sup>4</sup> Moses commanded us a law,<br>an inheritance for the assembly of Jacob.<br>
+<sup>5</sup> He was king in Jeshurun,<br>when the heads of the people were gathered,<br>all the tribes of Israel together.
 
-<sup>6</sup> “Let Reuben live, and not die; <br>Nor let his men be few.”
+<sup>6</sup> “Let Reuben live, and not die;<br>Nor let his men be few.”
 
-<sup>7</sup> This is for Judah. He said, <br>“Hear, Yahweh, the voice of Judah. <br>Bring him in to his people. <br>With his hands he contended for himself. <br>You shall be a help against his adversaries.”
+<sup>7</sup> This is for Judah. He said,<br>“Hear, Yahweh, the voice of Judah.<br>Bring him in to his people.<br>With his hands he contended for himself.<br>You shall be a help against his adversaries.”
 
-<sup>8</sup> About Levi he said, <br>“Your Thummim and your Urim are with your godly one, <br>whom you proved at Massah, <br>with whom you contended at the waters of Meribah. <br>
-<sup>9</sup> He said of his father, and of his mother, ‘I have not seen him.’ <br>He didn’t acknowledge his brothers, <br>nor did he know his own children; <br>for they have observed your word, <br>and keep your covenant. <br>
-<sup>10</sup> They shall teach Jacob your ordinances, <br>and Israel your law. <br>They shall put incense before you, <br>and whole burnt offering on your altar. <br>
-<sup>11</sup> Yahweh, bless his skills. <br>Accept the work of his hands. <br>Strike through the hips of those who rise up against him, <br>of those who hate him, that they not rise again.”
+<sup>8</sup> About Levi he said,<br>“Your Thummim and your Urim are with your godly one,<br>whom you proved at Massah,<br>with whom you contended at the waters of Meribah.<br>
+<sup>9</sup> He said of his father, and of his mother, ‘I have not seen him.’<br>He didn’t acknowledge his brothers,<br>nor did he know his own children;<br>for they have observed your word,<br>and keep your covenant.<br>
+<sup>10</sup> They shall teach Jacob your ordinances,<br>and Israel your law.<br>They shall put incense before you,<br>and whole burnt offering on your altar.<br>
+<sup>11</sup> Yahweh, bless his skills.<br>Accept the work of his hands.<br>Strike through the hips of those who rise up against him,<br>of those who hate him, that they not rise again.”
 
-<sup>12</sup> About Benjamin he said, <br>“The beloved of Yahweh will dwell in safety by him. <br>He covers him all day long. <br>He dwells between his shoulders.”
+<sup>12</sup> About Benjamin he said,<br>“The beloved of Yahweh will dwell in safety by him.<br>He covers him all day long.<br>He dwells between his shoulders.”
 
-<sup>13</sup> About Joseph he said, <br>“His land is blessed by Yahweh, <br>for the precious things of the heavens, for the dew, <br>for the deep that couches beneath, <br>
-<sup>14</sup> for the precious things of the fruits of the sun, <br>for the precious things that the moon can yield, <br>
-<sup>15</sup> for the best things of the ancient mountains, <br>for the precious things of the everlasting hills, <br>
-<sup>16</sup> for the precious things of the earth and its fullness, <br>the good will of him who lived in the bush.<sup>b</sup> <br>Let this come on the head of Joseph, <br>on the crown of the head of him who was separated from his brothers. <br>
-<sup>17</sup> Majesty belongs to the firstborn of his herd. <br>His horns are the horns of the wild ox. <br>With them he will push all the peoples to the ends of the earth. <br>They are the ten thousands of Ephraim. <br>They are the thousands of Manasseh.”
+<sup>13</sup> About Joseph he said,<br>“His land is blessed by Yahweh,<br>for the precious things of the heavens, for the dew,<br>for the deep that couches beneath,<br>
+<sup>14</sup> for the precious things of the fruits of the sun,<br>for the precious things that the moon can yield,<br>
+<sup>15</sup> for the best things of the ancient mountains,<br>for the precious things of the everlasting hills,<br>
+<sup>16</sup> for the precious things of the earth and its fullness,<br>the good will of him who lived in the bush.<sup>b</sup><br>Let this come on the head of Joseph,<br>on the crown of the head of him who was separated from his brothers.<br>
+<sup>17</sup> Majesty belongs to the firstborn of his herd.<br>His horns are the horns of the wild ox.<br>With them he will push all the peoples to the ends of the earth.<br>They are the ten thousands of Ephraim.<br>They are the thousands of Manasseh.”
 
-<sup>18</sup> About Zebulun he said, <br>“Rejoice, Zebulun, in your going out; <br>and Issachar, in your tents. <br>
-<sup>19</sup> They will call the peoples to the mountain. <br>There they will offer sacrifices of righteousness, <br>for they will draw out the abundance of the seas, <br>the hidden treasures of the sand.”
+<sup>18</sup> About Zebulun he said,<br>“Rejoice, Zebulun, in your going out;<br>and Issachar, in your tents.<br>
+<sup>19</sup> They will call the peoples to the mountain.<br>There they will offer sacrifices of righteousness,<br>for they will draw out the abundance of the seas,<br>the hidden treasures of the sand.”
 
-<sup>20</sup> About Gad he said, <br>“He who enlarges Gad is blessed. <br>He dwells as a lioness, <br>and tears the arm and the crown of the head. <br>
-<sup>21</sup> He provided the first part for himself, <br>for the lawgiver’s portion was reserved for him. <br>He came with the heads of the people. <br>He executed the righteousness of Yahweh, <br>His ordinances with Israel.”
+<sup>20</sup> About Gad he said,<br>“He who enlarges Gad is blessed.<br>He dwells as a lioness,<br>and tears the arm and the crown of the head.<br>
+<sup>21</sup> He provided the first part for himself,<br>for the lawgiver’s portion was reserved for him.<br>He came with the heads of the people.<br>He executed the righteousness of Yahweh,<br>His ordinances with Israel.”
 
-<sup>22</sup> About Dan he said, <br>“Dan is a lion’s cub <br>that leaps out of Bashan.”
+<sup>22</sup> About Dan he said,<br>“Dan is a lion’s cub<br>that leaps out of Bashan.”
 
-<sup>23</sup> About Naphtali he said, <br>“Naphtali, satisfied with favor, <br>full of Yahweh’s blessing, <br>Possess the west and the south.”
+<sup>23</sup> About Naphtali he said,<br>“Naphtali, satisfied with favor,<br>full of Yahweh’s blessing,<br>Possess the west and the south.”
 
-<sup>24</sup> About Asher he said, <br>“Asher is blessed with children. <br>Let him be acceptable to his brothers. <br>Let him dip his foot in oil. <br>
-<sup>25</sup> Your bars will be iron and bronze. <br>As your days, so your strength will be.
+<sup>24</sup> About Asher he said,<br>“Asher is blessed with children.<br>Let him be acceptable to his brothers.<br>Let him dip his foot in oil.<br>
+<sup>25</sup> Your bars will be iron and bronze.<br>As your days, so your strength will be.
 
-<sup>26</sup> “There is no one like God, Jeshurun, <br>who rides on the heavens for your help, <br>in his excellency on the skies. <br>
-<sup>27</sup> The eternal God is your dwelling place. <br>Underneath are the everlasting arms. <br>He thrust out the enemy from before you, <br>and said, ‘Destroy!’ <br>
-<sup>28</sup> Israel dwells in safety, <br>the fountain of Jacob alone, <br>In a land of grain and new wine. <br>Yes, his heavens drop down dew. <br>
-<sup>29</sup> You are happy, Israel! <br>Who is like you, a people saved by Yahweh, <br>the shield of your help, <br>the sword of your excellency? <br>Your enemies will submit themselves to you. <br>You will tread on their high places.”
+<sup>26</sup> “There is no one like God, Jeshurun,<br>who rides on the heavens for your help,<br>in his excellency on the skies.<br>
+<sup>27</sup> The eternal God is your dwelling place.<br>Underneath are the everlasting arms.<br>He thrust out the enemy from before you,<br>and said, ‘Destroy!’<br>
+<sup>28</sup> Israel dwells in safety,<br>the fountain of Jacob alone,<br>In a land of grain and new wine.<br>Yes, his heavens drop down dew.<br>
+<sup>29</sup> You are happy, Israel!<br>Who is like you, a people saved by Yahweh,<br>the shield of your help,<br>the sword of your excellency?<br>Your enemies will submit themselves to you.<br>You will tread on their high places.”
 
 > - <sup>a</sup> 2. another manuscript reads “He came with myriads of holy ones from the south, from his mountain slopes.”
 > - <sup>b</sup> 16. i.e., the burning bush of Exodus 3:3-4.

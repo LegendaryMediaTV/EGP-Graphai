@@ -21,8 +21,8 @@
 <sup>17</sup> Will he therefore continually empty his net, and kill the nations without mercy?
 
 > - <sup>a</sup> 2. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
-> - <sup>b</sup> 6. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
-> - <sup>c</sup> 12. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>b</sup> 6. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>c</sup> 12. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 2
 
@@ -57,27 +57,27 @@
 
 ## Chapter 3
 
-<sup>1</sup> A prayer of Habakkuk, the prophet, set to victorious music. <br>
-<sup>2</sup> Yahweh, I have heard of your fame. <br>I stand in awe of your deeds, Yahweh. <br>Renew your work in the middle of the years. <br>In the middle of the years make it known. <br>In wrath, you remember mercy. <br>
-<sup>3</sup> God came from Teman, <br>the Holy One from Mount Paran. <br>Selah. His glory covered the heavens, <br>and his praise filled the earth. <br>
+<sup>1</sup> A prayer of Habakkuk, the prophet, set to victorious music.<br>
+<sup>2</sup> Yahweh, I have heard of your fame.<br>I stand in awe of your deeds, Yahweh.<br>Renew your work in the middle of the years.<br>In the middle of the years make it known.<br>In wrath, you remember mercy.<br>
+<sup>3</sup> God came from Teman,<br>the Holy One from Mount Paran.<br>Selah. His glory covered the heavens,<br>and his praise filled the earth.<br>
 
-<sup>4</sup> His splendor is like the sunrise. <br>Rays shine from his hand, where his power is hidden. <br>
-<sup>5</sup> Plague went before him, <br>and pestilence followed his feet. <br>
-<sup>6</sup> He stood, and shook the earth. <br>He looked, and made the nations tremble. <br>The ancient mountains were crumbled. <br>The age-old hills collapsed. <br>His ways are eternal. <br>
-<sup>7</sup> I saw the tents of Cushan in affliction. <br>The dwellings of the land of Midian trembled. <br>
-<sup>8</sup> Was Yahweh displeased with the rivers? <br>Was your anger against the rivers, <br>or your wrath against the sea, <br>that you rode on your horses, <br>on your chariots of salvation? <br>
-<sup>9</sup> You uncovered your bow. <br>You called for your sworn arrows. <br>Selah. <br>You split the earth with rivers. <br>
+<sup>4</sup> His splendor is like the sunrise.<br>Rays shine from his hand, where his power is hidden.<br>
+<sup>5</sup> Plague went before him,<br>and pestilence followed his feet.<br>
+<sup>6</sup> He stood, and shook the earth.<br>He looked, and made the nations tremble.<br>The ancient mountains were crumbled.<br>The age-old hills collapsed.<br>His ways are eternal.<br>
+<sup>7</sup> I saw the tents of Cushan in affliction.<br>The dwellings of the land of Midian trembled.<br>
+<sup>8</sup> Was Yahweh displeased with the rivers?<br>Was your anger against the rivers,<br>or your wrath against the sea,<br>that you rode on your horses,<br>on your chariots of salvation?<br>
+<sup>9</sup> You uncovered your bow.<br>You called for your sworn arrows.<br>Selah.<br>You split the earth with rivers.<br>
 
-<sup>10</sup> The mountains saw you, and were afraid. <br>The storm of waters passed by. <br>The deep roared and lifted up its hands on high. <br>
-<sup>11</sup> The sun and moon stood still in the sky <br>at the light of your arrows as they went, <br>at the shining of your glittering spear. <br>
-<sup>12</sup> You marched through the land in wrath. <br>You threshed the nations in anger. <br>
-<sup>13</sup> You went out for the salvation of your people, <br>for the salvation of your anointed. <br>You crushed the head of the land of wickedness. <br>You stripped them head to foot. <br>Selah.
+<sup>10</sup> The mountains saw you, and were afraid.<br>The storm of waters passed by.<br>The deep roared and lifted up its hands on high.<br>
+<sup>11</sup> The sun and moon stood still in the sky<br>at the light of your arrows as they went,<br>at the shining of your glittering spear.<br>
+<sup>12</sup> You marched through the land in wrath.<br>You threshed the nations in anger.<br>
+<sup>13</sup> You went out for the salvation of your people,<br>for the salvation of your anointed.<br>You crushed the head of the land of wickedness.<br>You stripped them head to foot.<br>Selah.
 
-<sup>14</sup> You pierced the heads of his warriors with their own spears. <br>They came as a whirlwind to scatter me, <br>gloating as if to devour the wretched in secret. <br>
-<sup>15</sup> You trampled the sea with your horses, <br>churning mighty waters. <br>
-<sup>16</sup> I heard, and my body trembled. <br>My lips quivered at the voice. <br>Rottenness enters into my bones, and I tremble in my place <br>because I must wait quietly for the day of trouble, <br>for the coming up of the people who invade us. <br>
-<sup>17</sup> For even though the fig tree doesn’t flourish, <br>nor fruit be in the vines, <br>the labor of the olive fails, <br>the fields yield no food, <br>the flocks are cut off from the fold, <br>and there is no herd in the stalls, <br>
-<sup>18</sup> yet I will rejoice in Yahweh. <br>I will be joyful in the God of my salvation! <br>
-<sup>19</sup> Yahweh, the Lord,<sup>a</sup> is my strength. <br>He makes my feet like deer’s feet, <br>and enables me to go in high places. For the music director, on my stringed instruments.
+<sup>14</sup> You pierced the heads of his warriors with their own spears.<br>They came as a whirlwind to scatter me,<br>gloating as if to devour the wretched in secret.<br>
+<sup>15</sup> You trampled the sea with your horses,<br>churning mighty waters.<br>
+<sup>16</sup> I heard, and my body trembled.<br>My lips quivered at the voice.<br>Rottenness enters into my bones, and I tremble in my place<br>because I must wait quietly for the day of trouble,<br>for the coming up of the people who invade us.<br>
+<sup>17</sup> For even though the fig tree doesn’t flourish,<br>nor fruit be in the vines,<br>the labor of the olive fails,<br>the fields yield no food,<br>the flocks are cut off from the fold,<br>and there is no herd in the stalls,<br>
+<sup>18</sup> yet I will rejoice in Yahweh.<br>I will be joyful in the God of my salvation!<br>
+<sup>19</sup> Yahweh, the Lord,<sup>a</sup> is my strength.<br>He makes my feet like deer’s feet,<br>and enables me to go in high places. For the music director, on my stringed instruments.
 
 > - <sup>a</sup> 19. The word translated “Lord” is “Adonai.”

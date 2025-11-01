@@ -2,8 +2,8 @@
 
 <sup>1</sup> The beginning of the Good News of Jesus Christ, the Son of God.
 
-<sup>2</sup> As it is written in the prophets, <br>“Behold,<sup>a</sup> I send my messenger before your face, <br>who will prepare your way before you:<sup>b</sup> <br>
-<sup>3</sup> the voice of one crying in the wilderness, <br>‘Make ready the way of the Lord! <br>Make his paths straight!’ ”<sup>c</sup>
+<sup>2</sup> As it is written in the prophets,<br>“Behold,<sup>a</sup> I send my messenger before your face,<br>who will prepare your way before you:<sup>b</sup><br>
+<sup>3</sup> the voice of one crying in the wilderness,<br>‘Make ready the way of the Lord!<br>Make his paths straight!’ ”<sup>c</sup>
 
 <sup>4</sup> John came baptizing<sup>d</sup> in the wilderness and preaching the baptism of repentance for forgiveness of sins.
 <sup>5</sup> All the country of Judea and all those of Jerusalem went out to him. They were baptized by him in the Jordan river, confessing their sins.
@@ -363,8 +363,8 @@
 <sup>4</sup> They don’t eat when they come from the marketplace unless they bathe themselves, and there are many other things which they have received to hold to: washings of cups, pitchers, bronze vessels, and couches.)
 <sup>5</sup> The Pharisees and the scribes asked him, “Why don’t your disciples walk according to the tradition of the elders, but eat their bread with unwashed hands?”
 
-<sup>6</sup> He answered them, “Well did Isaiah prophesy of you hypocrites, as it is written, <br>‘This people honors me with their lips, <br>but their heart is far from me. <br>
-<sup>7</sup> They worship me in vain, <br>teaching as doctrines the commandments of men.’<sup>a</sup>
+<sup>6</sup> He answered them, “Well did Isaiah prophesy of you hypocrites, as it is written,<br>‘This people honors me with their lips,<br>but their heart is far from me.<br>
+<sup>7</sup> They worship me in vain,<br>teaching as doctrines the commandments of men.’<sup>a</sup>
 
 <sup>8</sup> “For you set aside the commandment of God, and hold tightly to the tradition of men—the washing of pitchers and cups, and you do many other such things.”
 <sup>9</sup> He said to them, “Full well do you reject the commandment of God, that you may keep your tradition.
@@ -712,8 +712,8 @@
 <sup>7</sup> But those farmers said among themselves, ‘This is the heir. Come, let’s kill him, and the inheritance will be ours.’
 <sup>8</sup> They took him, killed him, and cast him out of the vineyard.
 <sup>9</sup> What therefore will the lord of the vineyard do? He will come and destroy the farmers, and will give the vineyard to others.
-<sup>10</sup> Haven’t you even read this Scripture: <br>‘The stone which the builders rejected <br>was made the head of the corner. <br>
-<sup>11</sup> This was from the Lord. <br>It is marvelous in our eyes’?”<sup>a</sup>
+<sup>10</sup> Haven’t you even read this Scripture:<br>‘The stone which the builders rejected<br>was made the head of the corner.<br>
+<sup>11</sup> This was from the Lord.<br>It is marvelous in our eyes’?”<sup>a</sup>
 
 <sup>12</sup> They tried to seize him, but they feared the multitude; for they perceived that he spoke the parable against them. They left him and went away.
 <sup>13</sup> They sent some of the Pharisees and the Herodians to him, that they might trap him with words.
@@ -747,7 +747,7 @@
 
 <sup>34</sup> When Jesus saw that he answered wisely, he said to him, “You are not far from God’s Kingdom.” No one dared ask him any question after that.
 <sup>35</sup> Jesus responded, as he taught in the temple, “How is it that the scribes say that the Christ is the son of David?
-<sup>36</sup> For David himself said in the Holy Spirit, <br>‘The Lord said to my Lord, <br>“Sit at my right hand, <br>until I make your enemies the footstool of your feet.” ’<sup>e</sup>
+<sup>36</sup> For David himself said in the Holy Spirit,<br>‘The Lord said to my Lord,<br>“Sit at my right hand,<br>until I make your enemies the footstool of your feet.” ’<sup>e</sup>
 
 <sup>37</sup> Therefore David himself calls him Lord, so how can he be his son?” The common people heard him gladly.
 <sup>38</sup> In his teaching he said to them, “Beware of the scribes, who like to walk in long robes, and to get greetings in the marketplaces,

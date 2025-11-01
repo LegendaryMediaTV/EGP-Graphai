@@ -5,291 +5,185 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
-      },
-      {
         "text": "Paul, a prisoner of Christ",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "“Christ” means “Anointed One”."
-            }
-          ]
-        }
+          "content": "“Christ” means “Anointed One”."
+        },
+        "paragraph": true
       },
-      {
-        "text": "Jesus, and Timothy our brother, to Philemon, our beloved fellow worker,"
-      }
+      " Jesus, and Timothy our brother, to Philemon, our beloved fellow worker,"
     ]
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 2,
-    "content": [
-      {
-        "text": "to the beloved Apphia, to Archippus our fellow soldier, and to the assembly in your house:"
-      }
-    ]
+    "content": "to the beloved Apphia, to Archippus our fellow soldier, and to the assembly in your house:"
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 3,
-    "content": [
-      {
-        "text": "Grace to you and peace from God our Father and the Lord Jesus Christ."
-      }
-    ]
+    "content": "Grace to you and peace from God our Father and the Lord Jesus Christ."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 4,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "I thank my God always, making mention of you in my prayers,"
-      }
-    ]
+    "content": {
+      "text": "I thank my God always, making mention of you in my prayers,",
+      "paragraph": true
+    }
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 5,
-    "content": [
-      {
-        "text": "hearing of your love and of the faith which you have toward the Lord Jesus and toward all the saints,"
-      }
-    ]
+    "content": "hearing of your love and of the faith which you have toward the Lord Jesus and toward all the saints,"
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 6,
-    "content": [
-      {
-        "text": "that the fellowship of your faith may become effective in the knowledge of every good thing which is in us in Christ Jesus."
-      }
-    ]
+    "content": "that the fellowship of your faith may become effective in the knowledge of every good thing which is in us in Christ Jesus."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 7,
-    "content": [
-      {
-        "text": "For we have much joy and comfort in your love, because the hearts of the saints have been refreshed through you, brother."
-      }
-    ]
+    "content": "For we have much joy and comfort in your love, because the hearts of the saints have been refreshed through you, brother."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 8,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Therefore though I have all boldness in Christ to command you that which is appropriate,"
-      }
-    ]
+    "content": {
+      "text": "Therefore though I have all boldness in Christ to command you that which is appropriate,",
+      "paragraph": true
+    }
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 9,
-    "content": [
-      {
-        "text": "yet for love’s sake I rather appeal to you, being such a one as Paul, the aged, but also a prisoner of Jesus Christ."
-      }
-    ]
+    "content": "yet for love’s sake I rather appeal to you, being such a one as Paul, the aged, but also a prisoner of Jesus Christ."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 10,
-    "content": [
-      {
-        "text": "I appeal to you for my child Onesimus, whom I have become the father of in my chains,",
-        "foot": {
-          "type": "stu",
-          "content": [
-            {
-              "text": "Onesimus means “useful”."
-            }
-          ]
-        }
+    "content": {
+      "text": "I appeal to you for my child Onesimus, whom I have become the father of in my chains,",
+      "foot": {
+        "type": "stu",
+        "content": "Onesimus means “useful”."
       }
-    ]
+    }
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 11,
-    "content": [
-      {
-        "text": "who once was useless to you, but now is useful to you and to me."
-      }
-    ]
+    "content": "who once was useless to you, but now is useful to you and to me."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 12,
-    "content": [
-      {
-        "text": "I am sending him back. Therefore receive him, that is, my own heart,"
-      }
-    ]
+    "content": "I am sending him back. Therefore receive him, that is, my own heart,"
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 13,
-    "content": [
-      {
-        "text": "whom I desired to keep with me, that on your behalf he might serve me in my chains for the Good News."
-      }
-    ]
+    "content": "whom I desired to keep with me, that on your behalf he might serve me in my chains for the Good News."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 14,
-    "content": [
-      {
-        "text": "But I was willing to do nothing without your consent, that your goodness would not be as of necessity, but of free will."
-      }
-    ]
+    "content": "But I was willing to do nothing without your consent, that your goodness would not be as of necessity, but of free will."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 15,
-    "content": [
-      {
-        "text": "For perhaps he was therefore separated from you for a while that you would have him forever,"
-      }
-    ]
+    "content": "For perhaps he was therefore separated from you for a while that you would have him forever,"
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 16,
-    "content": [
-      {
-        "text": "no longer as a slave, but more than a slave, a beloved brother—especially to me, but how much rather to you, both in the flesh and in the Lord."
-      }
-    ]
+    "content": "no longer as a slave, but more than a slave, a beloved brother—especially to me, but how much rather to you, both in the flesh and in the Lord."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 17,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "If then you count me a partner, receive him as you would receive me."
-      }
-    ]
+    "content": {
+      "text": "If then you count me a partner, receive him as you would receive me.",
+      "paragraph": true
+    }
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 18,
-    "content": [
-      {
-        "text": "But if he has wronged you at all or owes you anything, put that to my account."
-      }
-    ]
+    "content": "But if he has wronged you at all or owes you anything, put that to my account."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 19,
-    "content": [
-      {
-        "text": "I, Paul, write this with my own hand: I will repay it (not to mention to you that you owe to me even your own self besides)."
-      }
-    ]
+    "content": "I, Paul, write this with my own hand: I will repay it (not to mention to you that you owe to me even your own self besides)."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 20,
-    "content": [
-      {
-        "text": "Yes, brother, let me have joy from you in the Lord. Refresh my heart in the Lord."
-      }
-    ]
+    "content": "Yes, brother, let me have joy from you in the Lord. Refresh my heart in the Lord."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 21,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Having confidence in your obedience, I write to you, knowing that you will do even beyond what I say."
-      }
-    ]
+    "content": {
+      "text": "Having confidence in your obedience, I write to you, knowing that you will do even beyond what I say.",
+      "paragraph": true
+    }
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 22,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Also, prepare a guest room for me, for I hope that through your prayers I will be restored to you."
-      }
-    ]
+    "content": {
+      "text": "Also, prepare a guest room for me, for I hope that through your prayers I will be restored to you.",
+      "paragraph": true
+    }
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 23,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "Epaphras, my fellow prisoner in Christ Jesus, greets you,"
-      }
-    ]
+    "content": {
+      "text": "Epaphras, my fellow prisoner in Christ Jesus, greets you,",
+      "paragraph": true
+    }
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 24,
-    "content": [
-      {
-        "text": "as do Mark, Aristarchus, Demas, and Luke, my fellow workers."
-      }
-    ]
+    "content": "as do Mark, Aristarchus, Demas, and Luke, my fellow workers."
   },
   {
     "book": "PHM",
     "chapter": 1,
     "verse": 25,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The grace of our Lord Jesus Christ be with your spirit. Amen."
-      }
-    ]
+    "content": {
+      "text": "The grace of our Lord Jesus Christ be with your spirit. Amen.",
+      "paragraph": true
+    }
   }
 ]

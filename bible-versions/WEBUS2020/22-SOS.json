@@ -3,14 +3,10 @@
     "book": "SOS",
     "chapter": 1,
     "verse": 1,
-    "content": [
-      {
-        "type": "p"
-      },
-      {
-        "text": "The Song of songs, which is Solomon’s."
-      }
-    ]
+    "content": {
+      "text": "The Song of songs, which is Solomon’s.",
+      "paragraph": true
+    }
   },
   {
     "book": "SOS",
@@ -18,16 +14,12 @@
     "verse": 2,
     "content": [
       {
-        "text": "Let him kiss me with the kisses of his mouth;"
+        "text": "Let him kiss me with the kisses of his mouth;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for your love is better than wine."
-      },
-      {
-        "type": "n"
+        "text": "for your love is better than wine.",
+        "break": true
       }
     ]
   },
@@ -37,22 +29,16 @@
     "verse": 3,
     "content": [
       {
-        "text": "Your oils have a pleasing fragrance."
+        "text": "Your oils have a pleasing fragrance.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Your name is oil poured out,",
+        "break": true
       },
       {
-        "text": "Your name is oil poured out,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "therefore the virgins love you."
-      },
-      {
-        "type": "n"
+        "text": "therefore the virgins love you.",
+        "break": true
       }
     ]
   },
@@ -62,40 +48,28 @@
     "verse": 4,
     "content": [
       {
-        "text": "Take me away with you."
+        "text": "Take me away with you.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Let’s hurry.",
+        "break": true
       },
       {
-        "text": "Let’s hurry."
+        "text": "The king has brought me into his rooms.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "We will be glad and rejoice in you.",
+        "break": true
       },
       {
-        "text": "The king has brought me into his rooms."
+        "text": "We will praise your love more than wine!",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "We will be glad and rejoice in you."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "We will praise your love more than wine!"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They are right to love you."
-      },
-      {
-        "type": "n"
+        "text": "They are right to love you.",
+        "break": true
       }
     ]
   },
@@ -105,28 +79,20 @@
     "verse": 5,
     "content": [
       {
-        "text": "I am dark, but lovely,"
+        "text": "I am dark, but lovely,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "you daughters of Jerusalem,",
+        "break": true
       },
       {
-        "text": "you daughters of Jerusalem,"
+        "text": "like Kedar’s tents,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "like Kedar’s tents,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "like Solomon’s curtains."
-      },
-      {
-        "type": "n"
+        "text": "like Solomon’s curtains.",
+        "break": true
       }
     ]
   },
@@ -136,34 +102,24 @@
     "verse": 6,
     "content": [
       {
-        "text": "Don’t stare at me because I am dark,"
+        "text": "Don’t stare at me because I am dark,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "because the sun has scorched me.",
+        "break": true
       },
       {
-        "text": "because the sun has scorched me."
+        "text": "My mother’s sons were angry with me.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They made me keeper of the vineyards.",
+        "break": true
       },
       {
-        "text": "My mother’s sons were angry with me."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They made me keeper of the vineyards."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I haven’t kept my own vineyard."
-      },
-      {
-        "type": "n"
+        "text": "I haven’t kept my own vineyard.",
+        "break": true
       }
     ]
   },
@@ -173,32 +129,22 @@
     "verse": 7,
     "content": [
       {
-        "text": "Tell me, you whom my soul loves,"
+        "text": "Tell me, you whom my soul loves,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "where you graze your flock,",
+        "break": true
       },
       {
-        "text": "where you graze your flock,"
+        "text": "where you rest them at noon;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for why should I be as one who is veiled",
+        "break": true
       },
-      {
-        "text": "where you rest them at noon;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for why should I be as one who is veiled"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "beside the flocks of your companions?"
-      }
+      "beside the flocks of your companions?"
     ]
   },
   {
@@ -207,20 +153,14 @@
     "verse": 8,
     "content": [
       {
-        "text": "If you don’t know, most beautiful among women,"
+        "text": "If you don’t know, most beautiful among women,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "follow the tracks of the sheep.",
+        "break": true
       },
-      {
-        "text": "follow the tracks of the sheep."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Graze your young goats beside the shepherds’ tents."
-      }
+      "Graze your young goats beside the shepherds’ tents."
     ]
   },
   {
@@ -229,19 +169,13 @@
     "verse": 9,
     "content": [
       {
-        "type": "p"
+        "text": "I have compared you, my love,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "I have compared you, my love,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "to a steed in Pharaoh’s chariots."
-      },
-      {
-        "type": "n"
+        "text": "to a steed in Pharaoh’s chariots.",
+        "break": true
       }
     ]
   },
@@ -251,14 +185,10 @@
     "verse": 10,
     "content": [
       {
-        "text": "Your cheeks are beautiful with earrings,"
+        "text": "Your cheeks are beautiful with earrings,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "your neck with strings of jewels."
-      }
+      "your neck with strings of jewels."
     ]
   },
   {
@@ -267,14 +197,10 @@
     "verse": 11,
     "content": [
       {
-        "text": "We will make you earrings of gold,"
+        "text": "We will make you earrings of gold,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "with studs of silver."
-      }
+      "with studs of silver."
     ]
   },
   {
@@ -283,16 +209,12 @@
     "verse": 12,
     "content": [
       {
-        "text": "While the king sat at his table,"
+        "text": "While the king sat at his table,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "my perfume spread its fragrance."
-      },
-      {
-        "type": "n"
+        "text": "my perfume spread its fragrance.",
+        "break": true
       }
     ]
   },
@@ -302,16 +224,12 @@
     "verse": 13,
     "content": [
       {
-        "text": "My beloved is to me a sachet of myrrh,"
+        "text": "My beloved is to me a sachet of myrrh,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "that lies between my breasts."
-      },
-      {
-        "type": "n"
+        "text": "that lies between my breasts.",
+        "break": true
       }
     ]
   },
@@ -321,14 +239,10 @@
     "verse": 14,
     "content": [
       {
-        "text": "My beloved is to me a cluster of henna blossoms"
+        "text": "My beloved is to me a cluster of henna blossoms",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "from the vineyards of En Gedi."
-      }
+      "from the vineyards of En Gedi."
     ]
   },
   {
@@ -341,27 +255,24 @@
         "foot": {
           "type": "trn",
           "content": [
+            "“Behold”, from “",
             {
-              "text": "“Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
-            }
+              "text": "הִנֵּה",
+              "script": "H"
+            },
+            "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
       },
       {
-        "text": "you are beautiful, my love."
+        "text": " you are beautiful, my love.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Behold, you are beautiful.",
+        "break": true
       },
-      {
-        "text": "Behold, you are beautiful."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Your eyes are like doves."
-      }
+      "Your eyes are like doves."
     ]
   },
   {
@@ -370,14 +281,10 @@
     "verse": 16,
     "content": [
       {
-        "text": "Behold, you are beautiful, my beloved, yes, pleasant;"
+        "text": "Behold, you are beautiful, my beloved, yes, pleasant;",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and our couch is verdant."
-      }
+      "and our couch is verdant."
     ]
   },
   {
@@ -386,14 +293,10 @@
     "verse": 17,
     "content": [
       {
-        "text": "The beams of our house are cedars."
+        "text": "The beams of our house are cedars.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Our rafters are firs."
-      }
+      "Our rafters are firs."
     ]
   },
   {
@@ -402,17 +305,11 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "I am a rose of Sharon,",
+        "paragraph": true,
+        "break": true
       },
-      {
-        "text": "I am a rose of Sharon,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "a lily of the valleys."
-      }
+      "a lily of the valleys."
     ]
   },
   {
@@ -421,14 +318,10 @@
     "verse": 2,
     "content": [
       {
-        "text": "As a lily among thorns,"
+        "text": "As a lily among thorns,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "so is my love among the daughters."
-      }
+      "so is my love among the daughters."
     ]
   },
   {
@@ -437,28 +330,20 @@
     "verse": 3,
     "content": [
       {
-        "text": "As the apple tree among the trees of the wood,"
+        "text": "As the apple tree among the trees of the wood,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "so is my beloved among the sons.",
+        "break": true
       },
       {
-        "text": "so is my beloved among the sons."
+        "text": "I sat down under his shadow with great delight,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I sat down under his shadow with great delight,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "his fruit was sweet to my taste."
-      },
-      {
-        "type": "n"
+        "text": "his fruit was sweet to my taste.",
+        "break": true
       }
     ]
   },
@@ -468,16 +353,12 @@
     "verse": 4,
     "content": [
       {
-        "text": "He brought me to the banquet hall."
+        "text": "He brought me to the banquet hall.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "His banner over me is love."
-      },
-      {
-        "type": "n"
+        "text": "His banner over me is love.",
+        "break": true
       }
     ]
   },
@@ -487,22 +368,16 @@
     "verse": 5,
     "content": [
       {
-        "text": "Strengthen me with raisins,"
+        "text": "Strengthen me with raisins,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "refresh me with apples;",
+        "break": true
       },
       {
-        "text": "refresh me with apples;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for I am faint with love."
-      },
-      {
-        "type": "n"
+        "text": "for I am faint with love.",
+        "break": true
       }
     ]
   },
@@ -512,16 +387,12 @@
     "verse": 6,
     "content": [
       {
-        "text": "His left hand is under my head."
+        "text": "His left hand is under my head.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "His right hand embraces me."
-      },
-      {
-        "type": "n"
+        "text": "His right hand embraces me.",
+        "break": true
       }
     ]
   },
@@ -531,26 +402,18 @@
     "verse": 7,
     "content": [
       {
-        "text": "I adjure you, daughters of Jerusalem,"
+        "text": "I adjure you, daughters of Jerusalem,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "by the roes, or by the hinds of the field,",
+        "break": true
       },
       {
-        "text": "by the roes, or by the hinds of the field,"
+        "text": "that you not stir up, nor awaken love,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that you not stir up, nor awaken love,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "until it so desires."
-      }
+      "until it so desires."
     ]
   },
   {
@@ -559,31 +422,21 @@
     "verse": 8,
     "content": [
       {
-        "type": "p"
+        "text": "The voice of my beloved!",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "The voice of my beloved!"
+        "text": "Behold, he comes,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "leaping on the mountains,",
+        "break": true
       },
       {
-        "text": "Behold, he comes,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "leaping on the mountains,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "skipping on the hills."
-      },
-      {
-        "type": "n"
+        "text": "skipping on the hills.",
+        "break": true
       }
     ]
   },
@@ -593,26 +446,18 @@
     "verse": 9,
     "content": [
       {
-        "text": "My beloved is like a roe or a young deer."
+        "text": "My beloved is like a roe or a young deer.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Behold, he stands behind our wall!",
+        "break": true
       },
       {
-        "text": "Behold, he stands behind our wall!"
+        "text": "He looks in at the windows.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "He looks in at the windows."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "He glances through the lattice."
-      }
+      "He glances through the lattice."
     ]
   },
   {
@@ -621,19 +466,13 @@
     "verse": 10,
     "content": [
       {
-        "type": "p"
+        "text": "My beloved spoke, and said to me,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "My beloved spoke, and said to me,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "“Rise up, my love, my beautiful one, and come away."
-      },
-      {
-        "type": "n"
+        "text": "“Rise up, my love, my beautiful one, and come away.",
+        "break": true
       }
     ]
   },
@@ -643,16 +482,12 @@
     "verse": 11,
     "content": [
       {
-        "text": "For behold, the winter is past."
+        "text": "For behold, the winter is past.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The rain is over and gone."
-      },
-      {
-        "type": "n"
+        "text": "The rain is over and gone.",
+        "break": true
       }
     ]
   },
@@ -662,22 +497,16 @@
     "verse": 12,
     "content": [
       {
-        "text": "The flowers appear on the earth."
+        "text": "The flowers appear on the earth.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The time of the singing has come,",
+        "break": true
       },
       {
-        "text": "The time of the singing has come,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the voice of the turtledove is heard in our land."
-      },
-      {
-        "type": "n"
+        "text": "and the voice of the turtledove is heard in our land.",
+        "break": true
       }
     ]
   },
@@ -687,32 +516,22 @@
     "verse": 13,
     "content": [
       {
-        "text": "The fig tree ripens her green figs."
+        "text": "The fig tree ripens her green figs.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The vines are in blossom.",
+        "break": true
       },
       {
-        "text": "The vines are in blossom."
+        "text": "They give out their fragrance.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Arise, my love, my beautiful one,",
+        "break": true
       },
-      {
-        "text": "They give out their fragrance."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Arise, my love, my beautiful one,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and come away.”"
-      }
+      "and come away.”"
     ]
   },
   {
@@ -721,34 +540,24 @@
     "verse": 14,
     "content": [
       {
-        "text": "My dove in the clefts of the rock,"
+        "text": "My dove in the clefts of the rock,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "in the hiding places of the mountainside,",
+        "break": true
       },
       {
-        "text": "in the hiding places of the mountainside,"
+        "text": "let me see your face.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Let me hear your voice;",
+        "break": true
       },
       {
-        "text": "let me see your face."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Let me hear your voice;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for your voice is sweet and your face is lovely."
-      },
-      {
-        "type": "n"
+        "text": "for your voice is sweet and your face is lovely.",
+        "break": true
       }
     ]
   },
@@ -758,20 +567,14 @@
     "verse": 15,
     "content": [
       {
-        "text": "Catch for us the foxes,"
+        "text": "Catch for us the foxes,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "the little foxes that plunder the vineyards;",
+        "break": true
       },
-      {
-        "text": "the little foxes that plunder the vineyards;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for our vineyards are in blossom."
-      }
+      "for our vineyards are in blossom."
     ]
   },
   {
@@ -780,16 +583,12 @@
     "verse": 16,
     "content": [
       {
-        "text": "My beloved is mine, and I am his."
+        "text": "My beloved is mine, and I am his.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "He browses among the lilies."
-      },
-      {
-        "type": "n"
+        "text": "He browses among the lilies.",
+        "break": true
       }
     ]
   },
@@ -799,20 +598,14 @@
     "verse": 17,
     "content": [
       {
-        "text": "Until the day is cool, and the shadows flee away,"
+        "text": "Until the day is cool, and the shadows flee away,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "turn, my beloved,",
+        "break": true
       },
-      {
-        "text": "turn, my beloved,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and be like a roe or a young deer on the mountains of Bether."
-      }
+      "and be like a roe or a young deer on the mountains of Bether."
     ]
   },
   {
@@ -821,25 +614,17 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "By night on my bed,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "By night on my bed,"
+        "text": "I sought him whom my soul loves.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I sought him whom my soul loves."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I sought him, but I didn’t find him."
-      },
-      {
-        "type": "n"
+        "text": "I sought him, but I didn’t find him.",
+        "break": true
       }
     ]
   },
@@ -849,22 +634,16 @@
     "verse": 2,
     "content": [
       {
-        "text": "I will get up now, and go about the city;"
+        "text": "I will get up now, and go about the city;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "in the streets and in the squares I will seek him whom my soul loves.",
+        "break": true
       },
       {
-        "text": "in the streets and in the squares I will seek him whom my soul loves."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I sought him, but I didn’t find him."
-      },
-      {
-        "type": "n"
+        "text": "I sought him, but I didn’t find him.",
+        "break": true
       }
     ]
   },
@@ -874,16 +653,12 @@
     "verse": 3,
     "content": [
       {
-        "text": "The watchmen who go about the city found me;"
+        "text": "The watchmen who go about the city found me;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "“Have you seen him whom my soul loves?”"
-      },
-      {
-        "type": "n"
+        "text": "“Have you seen him whom my soul loves?”",
+        "break": true
       }
     ]
   },
@@ -893,32 +668,22 @@
     "verse": 4,
     "content": [
       {
-        "text": "I had scarcely passed from them,"
+        "text": "I had scarcely passed from them,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "when I found him whom my soul loves.",
+        "break": true
       },
       {
-        "text": "when I found him whom my soul loves."
+        "text": "I held him, and would not let him go,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "until I had brought him into my mother’s house,",
+        "break": true
       },
-      {
-        "text": "I held him, and would not let him go,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "until I had brought him into my mother’s house,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "into the room of her who conceived me."
-      }
+      "into the room of her who conceived me."
     ]
   },
   {
@@ -927,29 +692,19 @@
     "verse": 5,
     "content": [
       {
-        "type": "p"
+        "text": "I adjure you, daughters of Jerusalem,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "I adjure you, daughters of Jerusalem,"
+        "text": "by the roes, or by the hinds of the field,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that you not stir up nor awaken love,",
+        "break": true
       },
-      {
-        "text": "by the roes, or by the hinds of the field,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that you not stir up nor awaken love,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "until it so desires."
-      }
+      "until it so desires."
     ]
   },
   {
@@ -958,25 +713,17 @@
     "verse": 6,
     "content": [
       {
-        "type": "p"
+        "text": "Who is this who comes up from the wilderness like pillars of smoke,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Who is this who comes up from the wilderness like pillars of smoke,"
+        "text": "perfumed with myrrh and frankincense,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "perfumed with myrrh and frankincense,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "with all spices of the merchant?"
-      },
-      {
-        "type": "n"
+        "text": "with all spices of the merchant?",
+        "break": true
       }
     ]
   },
@@ -986,22 +733,16 @@
     "verse": 7,
     "content": [
       {
-        "text": "Behold, it is Solomon’s carriage!"
+        "text": "Behold, it is Solomon’s carriage!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Sixty mighty men are around it,",
+        "break": true
       },
       {
-        "text": "Sixty mighty men are around it,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "of the mighty men of Israel."
-      },
-      {
-        "type": "n"
+        "text": "of the mighty men of Israel.",
+        "break": true
       }
     ]
   },
@@ -1011,20 +752,14 @@
     "verse": 8,
     "content": [
       {
-        "text": "They all handle the sword, and are expert in war."
+        "text": "They all handle the sword, and are expert in war.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Every man has his sword on his thigh,",
+        "break": true
       },
-      {
-        "text": "Every man has his sword on his thigh,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because of fear in the night."
-      }
+      "because of fear in the night."
     ]
   },
   {
@@ -1033,19 +768,13 @@
     "verse": 9,
     "content": [
       {
-        "type": "p"
+        "text": "King Solomon made himself a carriage",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "King Solomon made himself a carriage"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "of the wood of Lebanon."
-      },
-      {
-        "type": "n"
+        "text": "of the wood of Lebanon.",
+        "break": true
       }
     ]
   },
@@ -1055,28 +784,20 @@
     "verse": 10,
     "content": [
       {
-        "text": "He made its pillars of silver,"
+        "text": "He made its pillars of silver,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "its bottom of gold, its seat of purple,",
+        "break": true
       },
       {
-        "text": "its bottom of gold, its seat of purple,"
+        "text": "the middle of it being paved with love,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "the middle of it being paved with love,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "from the daughters of Jerusalem."
-      },
-      {
-        "type": "n"
+        "text": "from the daughters of Jerusalem.",
+        "break": true
       }
     ]
   },
@@ -1086,26 +807,18 @@
     "verse": 11,
     "content": [
       {
-        "text": "Go out, you daughters of Zion, and see King Solomon,"
+        "text": "Go out, you daughters of Zion, and see King Solomon,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "with the crown with which his mother has crowned him,",
+        "break": true
       },
       {
-        "text": "with the crown with which his mother has crowned him,"
+        "text": "in the day of his weddings,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "in the day of his weddings,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "in the day of the gladness of his heart."
-      }
+      "in the day of the gladness of his heart."
     ]
   },
   {
@@ -1114,37 +827,25 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "Behold, you are beautiful, my love.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Behold, you are beautiful, my love."
+        "text": "Behold, you are beautiful.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Your eyes are like doves behind your veil.",
+        "break": true
       },
       {
-        "text": "Behold, you are beautiful."
+        "text": "Your hair is as a flock of goats,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Your eyes are like doves behind your veil."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Your hair is as a flock of goats,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that descend from Mount Gilead."
-      },
-      {
-        "type": "n"
+        "text": "that descend from Mount Gilead.",
+        "break": true
       }
     ]
   },
@@ -1154,28 +855,20 @@
     "verse": 2,
     "content": [
       {
-        "text": "Your teeth are like a newly shorn flock,"
+        "text": "Your teeth are like a newly shorn flock,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "which have come up from the washing,",
+        "break": true
       },
       {
-        "text": "which have come up from the washing,"
+        "text": "where every one of them has twins.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "where every one of them has twins."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "None is bereaved among them."
-      },
-      {
-        "type": "n"
+        "text": "None is bereaved among them.",
+        "break": true
       }
     ]
   },
@@ -1185,22 +878,16 @@
     "verse": 3,
     "content": [
       {
-        "text": "Your lips are like scarlet thread."
+        "text": "Your lips are like scarlet thread.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Your mouth is lovely.",
+        "break": true
       },
       {
-        "text": "Your mouth is lovely."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Your temples are like a piece of a pomegranate behind your veil."
-      },
-      {
-        "type": "n"
+        "text": "Your temples are like a piece of a pomegranate behind your veil.",
+        "break": true
       }
     ]
   },
@@ -1210,22 +897,16 @@
     "verse": 4,
     "content": [
       {
-        "text": "Your neck is like David’s tower built for an armory,"
+        "text": "Your neck is like David’s tower built for an armory,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "on which a thousand shields hang,",
+        "break": true
       },
       {
-        "text": "on which a thousand shields hang,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "all the shields of the mighty men."
-      },
-      {
-        "type": "n"
+        "text": "all the shields of the mighty men.",
+        "break": true
       }
     ]
   },
@@ -1235,20 +916,14 @@
     "verse": 5,
     "content": [
       {
-        "text": "Your two breasts are like two fawns"
+        "text": "Your two breasts are like two fawns",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that are twins of a roe,",
+        "break": true
       },
-      {
-        "text": "that are twins of a roe,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "which feed among the lilies."
-      }
+      "which feed among the lilies."
     ]
   },
   {
@@ -1257,23 +932,15 @@
     "verse": 6,
     "content": [
       {
-        "type": "p"
+        "text": "Until the day is cool, and the shadows flee away,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Until the day is cool, and the shadows flee away,"
+        "text": "I will go to the mountain of myrrh,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I will go to the mountain of myrrh,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "to the hill of frankincense."
-      }
+      "to the hill of frankincense."
     ]
   },
   {
@@ -1282,19 +949,13 @@
     "verse": 7,
     "content": [
       {
-        "type": "p"
+        "text": "You are all beautiful, my love.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "You are all beautiful, my love."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "There is no spot in you."
-      },
-      {
-        "type": "n"
+        "text": "There is no spot in you.",
+        "break": true
       }
     ]
   },
@@ -1304,38 +965,26 @@
     "verse": 8,
     "content": [
       {
-        "text": "Come with me from Lebanon, my bride,"
+        "text": "Come with me from Lebanon, my bride,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "with me from Lebanon.",
+        "break": true
       },
       {
-        "text": "with me from Lebanon."
+        "text": "Look from the top of Amana,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "from the top of Senir and Hermon,",
+        "break": true
       },
       {
-        "text": "Look from the top of Amana,"
+        "text": "from the lions’ dens,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "from the top of Senir and Hermon,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "from the lions’ dens,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "from the mountains of the leopards."
-      }
+      "from the mountains of the leopards."
     ]
   },
   {
@@ -1344,25 +993,17 @@
     "verse": 9,
     "content": [
       {
-        "type": "p"
+        "text": "You have ravished my heart, my sister, my bride.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "You have ravished my heart, my sister, my bride."
+        "text": "You have ravished my heart with one of your eyes,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "You have ravished my heart with one of your eyes,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "with one chain of your neck."
-      },
-      {
-        "type": "n"
+        "text": "with one chain of your neck.",
+        "break": true
       }
     ]
   },
@@ -1372,22 +1013,16 @@
     "verse": 10,
     "content": [
       {
-        "text": "How beautiful is your love, my sister, my bride!"
+        "text": "How beautiful is your love, my sister, my bride!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "How much better is your love than wine,",
+        "break": true
       },
       {
-        "text": "How much better is your love than wine,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "the fragrance of your perfumes than all kinds of spices!"
-      },
-      {
-        "type": "n"
+        "text": "the fragrance of your perfumes than all kinds of spices!",
+        "break": true
       }
     ]
   },
@@ -1397,22 +1032,16 @@
     "verse": 11,
     "content": [
       {
-        "text": "Your lips, my bride, drip like the honeycomb."
+        "text": "Your lips, my bride, drip like the honeycomb.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Honey and milk are under your tongue.",
+        "break": true
       },
       {
-        "text": "Honey and milk are under your tongue."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The smell of your garments is like the smell of Lebanon."
-      },
-      {
-        "type": "n"
+        "text": "The smell of your garments is like the smell of Lebanon.",
+        "break": true
       }
     ]
   },
@@ -1422,22 +1051,16 @@
     "verse": 12,
     "content": [
       {
-        "text": "My sister, my bride, is a locked up garden;"
+        "text": "My sister, my bride, is a locked up garden;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "a locked up spring,",
+        "break": true
       },
       {
-        "text": "a locked up spring,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "a sealed fountain."
-      },
-      {
-        "type": "n"
+        "text": "a sealed fountain.",
+        "break": true
       }
     ]
   },
@@ -1447,16 +1070,12 @@
     "verse": 13,
     "content": [
       {
-        "text": "Your shoots are an orchard of pomegranates, with precious fruits,"
+        "text": "Your shoots are an orchard of pomegranates, with precious fruits,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "henna with spikenard plants,"
-      },
-      {
-        "type": "n"
+        "text": "henna with spikenard plants,",
+        "break": true
       }
     ]
   },
@@ -1466,22 +1085,16 @@
     "verse": 14,
     "content": [
       {
-        "text": "spikenard and saffron,"
+        "text": "spikenard and saffron,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "calamus and cinnamon, with every kind of incense tree;",
+        "break": true
       },
       {
-        "text": "calamus and cinnamon, with every kind of incense tree;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "myrrh and aloes, with all the best spices,"
-      },
-      {
-        "type": "n"
+        "text": "myrrh and aloes, with all the best spices,",
+        "break": true
       }
     ]
   },
@@ -1491,20 +1104,14 @@
     "verse": 15,
     "content": [
       {
-        "text": "a fountain of gardens,"
+        "text": "a fountain of gardens,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "a well of living waters,",
+        "break": true
       },
-      {
-        "text": "a well of living waters,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "flowing streams from Lebanon."
-      }
+      "flowing streams from Lebanon."
     ]
   },
   {
@@ -1513,26 +1120,18 @@
     "verse": 16,
     "content": [
       {
-        "text": "Awake, north wind, and come, you south!"
+        "text": "Awake, north wind, and come, you south!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Blow on my garden, that its spices may flow out.",
+        "break": true
       },
       {
-        "text": "Blow on my garden, that its spices may flow out."
+        "text": "Let my beloved come into his garden,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Let my beloved come into his garden,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and taste his precious fruits."
-      }
+      "and taste his precious fruits."
     ]
   },
   {
@@ -1541,41 +1140,27 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "I have come into my garden, my sister, my bride.",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "I have come into my garden, my sister, my bride."
+        "text": "I have gathered my myrrh with my spice;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I have eaten my honeycomb with my honey;",
+        "break": true
       },
       {
-        "text": "I have gathered my myrrh with my spice;"
+        "text": "I have drunk my wine with my milk.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Eat, friends!",
+        "break": true
       },
-      {
-        "text": "I have eaten my honeycomb with my honey;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I have drunk my wine with my milk."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Eat, friends!"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Drink, yes, drink abundantly, beloved."
-      }
+      "Drink, yes, drink abundantly, beloved."
     ]
   },
   {
@@ -1584,34 +1169,24 @@
     "verse": 2,
     "content": [
       {
-        "text": "I was asleep, but my heart was awake."
+        "text": "I was asleep, but my heart was awake.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "It is the voice of my beloved who knocks:",
+        "break": true
       },
       {
-        "text": "It is the voice of my beloved who knocks:"
+        "text": "“Open to me, my sister, my love, my dove, my undefiled;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for my head is filled with dew,",
+        "break": true
       },
       {
-        "text": "“Open to me, my sister, my love, my dove, my undefiled;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for my head is filled with dew,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and my hair with the dampness of the night.”"
-      },
-      {
-        "type": "n"
+        "text": "and my hair with the dampness of the night.”",
+        "break": true
       }
     ]
   },
@@ -1621,16 +1196,12 @@
     "verse": 3,
     "content": [
       {
-        "text": "I have taken off my robe. Indeed, must I put it on?"
+        "text": "I have taken off my robe. Indeed, must I put it on?",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I have washed my feet. Indeed, must I soil them?"
-      },
-      {
-        "type": "n"
+        "text": "I have washed my feet. Indeed, must I soil them?",
+        "break": true
       }
     ]
   },
@@ -1640,16 +1211,12 @@
     "verse": 4,
     "content": [
       {
-        "text": "My beloved thrust his hand in through the latch opening."
+        "text": "My beloved thrust his hand in through the latch opening.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "My heart pounded for him."
-      },
-      {
-        "type": "n"
+        "text": "My heart pounded for him.",
+        "break": true
       }
     ]
   },
@@ -1659,28 +1226,20 @@
     "verse": 5,
     "content": [
       {
-        "text": "I rose up to open for my beloved."
+        "text": "I rose up to open for my beloved.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "My hands dripped with myrrh,",
+        "break": true
       },
       {
-        "text": "My hands dripped with myrrh,"
+        "text": "my fingers with liquid myrrh,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "my fingers with liquid myrrh,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "on the handles of the lock."
-      },
-      {
-        "type": "n"
+        "text": "on the handles of the lock.",
+        "break": true
       }
     ]
   },
@@ -1690,34 +1249,24 @@
     "verse": 6,
     "content": [
       {
-        "text": "I opened to my beloved;"
+        "text": "I opened to my beloved;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "but my beloved left, and had gone away.",
+        "break": true
       },
       {
-        "text": "but my beloved left, and had gone away."
+        "text": "My heart went out when he spoke.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I looked for him, but I didn’t find him.",
+        "break": true
       },
       {
-        "text": "My heart went out when he spoke."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I looked for him, but I didn’t find him."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I called him, but he didn’t answer."
-      },
-      {
-        "type": "n"
+        "text": "I called him, but he didn’t answer.",
+        "break": true
       }
     ]
   },
@@ -1727,26 +1276,18 @@
     "verse": 7,
     "content": [
       {
-        "text": "The watchmen who go about the city found me."
+        "text": "The watchmen who go about the city found me.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They beat me.",
+        "break": true
       },
       {
-        "text": "They beat me."
+        "text": "They bruised me.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They bruised me."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The keepers of the walls took my cloak away from me."
-      }
+      "The keepers of the walls took my cloak away from me."
     ]
   },
   {
@@ -1755,23 +1296,15 @@
     "verse": 8,
     "content": [
       {
-        "type": "p"
+        "text": "I adjure you, daughters of Jerusalem,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "I adjure you, daughters of Jerusalem,"
+        "text": "If you find my beloved,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "If you find my beloved,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that you tell him that I am faint with love."
-      }
+      "that you tell him that I am faint with love."
     ]
   },
   {
@@ -1780,26 +1313,18 @@
     "verse": 9,
     "content": [
       {
-        "text": "How is your beloved better than another beloved,"
+        "text": "How is your beloved better than another beloved,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "you fairest among women?",
+        "break": true
       },
       {
-        "text": "you fairest among women?"
+        "text": "How is your beloved better than another beloved,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "How is your beloved better than another beloved,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that you do so adjure us?"
-      }
+      "that you do so adjure us?"
     ]
   },
   {
@@ -1808,16 +1333,12 @@
     "verse": 10,
     "content": [
       {
-        "text": "My beloved is white and ruddy."
+        "text": "My beloved is white and ruddy.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The best among ten thousand."
-      },
-      {
-        "type": "n"
+        "text": "The best among ten thousand.",
+        "break": true
       }
     ]
   },
@@ -1827,16 +1348,12 @@
     "verse": 11,
     "content": [
       {
-        "text": "His head is like the purest gold."
+        "text": "His head is like the purest gold.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "His hair is bushy, black as a raven."
-      },
-      {
-        "type": "n"
+        "text": "His hair is bushy, black as a raven.",
+        "break": true
       }
     ]
   },
@@ -1846,16 +1363,12 @@
     "verse": 12,
     "content": [
       {
-        "text": "His eyes are like doves beside the water brooks,"
+        "text": "His eyes are like doves beside the water brooks,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "washed with milk, mounted like jewels."
-      },
-      {
-        "type": "n"
+        "text": "washed with milk, mounted like jewels.",
+        "break": true
       }
     ]
   },
@@ -1865,16 +1378,12 @@
     "verse": 13,
     "content": [
       {
-        "text": "His cheeks are like a bed of spices with towers of perfumes."
+        "text": "His cheeks are like a bed of spices with towers of perfumes.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "His lips are like lilies, dropping liquid myrrh."
-      },
-      {
-        "type": "n"
+        "text": "His lips are like lilies, dropping liquid myrrh.",
+        "break": true
       }
     ]
   },
@@ -1884,16 +1393,12 @@
     "verse": 14,
     "content": [
       {
-        "text": "His hands are like rings of gold set with beryl."
+        "text": "His hands are like rings of gold set with beryl.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "His body is like ivory work overlaid with sapphires."
-      },
-      {
-        "type": "n"
+        "text": "His body is like ivory work overlaid with sapphires.",
+        "break": true
       }
     ]
   },
@@ -1903,16 +1408,12 @@
     "verse": 15,
     "content": [
       {
-        "text": "His legs are like pillars of marble set on sockets of fine gold."
+        "text": "His legs are like pillars of marble set on sockets of fine gold.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "His appearance is like Lebanon, excellent as the cedars."
-      },
-      {
-        "type": "n"
+        "text": "His appearance is like Lebanon, excellent as the cedars.",
+        "break": true
       }
     ]
   },
@@ -1922,26 +1423,18 @@
     "verse": 16,
     "content": [
       {
-        "text": "His mouth is sweetness;"
+        "text": "His mouth is sweetness;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "yes, he is altogether lovely.",
+        "break": true
       },
       {
-        "text": "yes, he is altogether lovely."
+        "text": "This is my beloved, and this is my friend,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "This is my beloved, and this is my friend,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "daughters of Jerusalem."
-      }
+      "daughters of Jerusalem."
     ]
   },
   {
@@ -1950,17 +1443,11 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "Where has your beloved gone, you fairest among women?",
+        "paragraph": true,
+        "break": true
       },
-      {
-        "text": "Where has your beloved gone, you fairest among women?"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Where has your beloved turned, that we may seek him with you?"
-      }
+      "Where has your beloved turned, that we may seek him with you?"
     ]
   },
   {
@@ -1969,22 +1456,16 @@
     "verse": 2,
     "content": [
       {
-        "text": "My beloved has gone down to his garden,"
+        "text": "My beloved has gone down to his garden,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "to the beds of spices,",
+        "break": true
       },
       {
-        "text": "to the beds of spices,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "to pasture his flock in the gardens, and to gather lilies."
-      },
-      {
-        "type": "n"
+        "text": "to pasture his flock in the gardens, and to gather lilies.",
+        "break": true
       }
     ]
   },
@@ -1994,14 +1475,10 @@
     "verse": 3,
     "content": [
       {
-        "text": "I am my beloved’s, and my beloved is mine."
+        "text": "I am my beloved’s, and my beloved is mine.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "He browses among the lilies."
-      }
+      "He browses among the lilies."
     ]
   },
   {
@@ -2010,25 +1487,17 @@
     "verse": 4,
     "content": [
       {
-        "type": "p"
+        "text": "You are beautiful, my love, as Tirzah,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "You are beautiful, my love, as Tirzah,"
+        "text": "lovely as Jerusalem,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "lovely as Jerusalem,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "awesome as an army with banners."
-      },
-      {
-        "type": "n"
+        "text": "awesome as an army with banners.",
+        "break": true
       }
     ]
   },
@@ -2038,28 +1507,20 @@
     "verse": 5,
     "content": [
       {
-        "text": "Turn away your eyes from me,"
+        "text": "Turn away your eyes from me,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for they have overcome me.",
+        "break": true
       },
       {
-        "text": "for they have overcome me."
+        "text": "Your hair is like a flock of goats,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Your hair is like a flock of goats,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that lie along the side of Gilead."
-      },
-      {
-        "type": "n"
+        "text": "that lie along the side of Gilead.",
+        "break": true
       }
     ]
   },
@@ -2069,28 +1530,20 @@
     "verse": 6,
     "content": [
       {
-        "text": "Your teeth are like a flock of ewes,"
+        "text": "Your teeth are like a flock of ewes,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "which have come up from the washing,",
+        "break": true
       },
       {
-        "text": "which have come up from the washing,"
+        "text": "of which every one has twins;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "of which every one has twins;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "not one is bereaved among them."
-      },
-      {
-        "type": "n"
+        "text": "not one is bereaved among them.",
+        "break": true
       }
     ]
   },
@@ -2098,11 +1551,7 @@
     "book": "SOS",
     "chapter": 6,
     "verse": 7,
-    "content": [
-      {
-        "text": "Your temples are like a piece of a pomegranate behind your veil."
-      }
-    ]
+    "content": "Your temples are like a piece of a pomegranate behind your veil."
   },
   {
     "book": "SOS",
@@ -2110,19 +1559,13 @@
     "verse": 8,
     "content": [
       {
-        "type": "p"
+        "text": "There are sixty queens, eighty concubines,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "There are sixty queens, eighty concubines,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and virgins without number."
-      },
-      {
-        "type": "n"
+        "text": "and virgins without number.",
+        "break": true
       }
     ]
   },
@@ -2132,32 +1575,22 @@
     "verse": 9,
     "content": [
       {
-        "text": "My dove, my perfect one, is unique."
+        "text": "My dove, my perfect one, is unique.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "She is her mother’s only daughter.",
+        "break": true
       },
       {
-        "text": "She is her mother’s only daughter."
+        "text": "She is the favorite one of her who bore her.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The daughters saw her, and called her blessed.",
+        "break": true
       },
-      {
-        "text": "She is the favorite one of her who bore her."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The daughters saw her, and called her blessed."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The queens and the concubines saw her, and they praised her."
-      }
+      "The queens and the concubines saw her, and they praised her."
     ]
   },
   {
@@ -2166,29 +1599,19 @@
     "verse": 10,
     "content": [
       {
-        "type": "p"
+        "text": "Who is she who looks out as the morning,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Who is she who looks out as the morning,"
+        "text": "beautiful as the moon,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "clear as the sun,",
+        "break": true
       },
-      {
-        "text": "beautiful as the moon,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "clear as the sun,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and awesome as an army with banners?"
-      }
+      "and awesome as an army with banners?"
     ]
   },
   {
@@ -2197,31 +1620,21 @@
     "verse": 11,
     "content": [
       {
-        "type": "p"
+        "text": "I went down into the nut tree grove,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "I went down into the nut tree grove,"
+        "text": "to see the green plants of the valley,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "to see whether the vine budded,",
+        "break": true
       },
       {
-        "text": "to see the green plants of the valley,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "to see whether the vine budded,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the pomegranates were in flower."
-      },
-      {
-        "type": "n"
+        "text": "and the pomegranates were in flower.",
+        "break": true
       }
     ]
   },
@@ -2231,14 +1644,10 @@
     "verse": 12,
     "content": [
       {
-        "text": "Without realizing it,"
+        "text": "Without realizing it,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "my desire set me with my royal people’s chariots."
-      }
+      "my desire set me with my royal people’s chariots."
     ]
   },
   {
@@ -2247,26 +1656,18 @@
     "verse": 13,
     "content": [
       {
-        "text": "Return, return, Shulammite!"
+        "text": "Return, return, Shulammite!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Return, return, that we may gaze at you.",
+        "break": true
       },
       {
-        "text": "Return, return, that we may gaze at you."
+        "text": "Why do you desire to gaze at the Shulammite,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Why do you desire to gaze at the Shulammite,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "as at the dance of Mahanaim?"
-      }
+      "as at the dance of Mahanaim?"
     ]
   },
   {
@@ -2275,25 +1676,17 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "How beautiful are your feet in sandals, prince’s daughter!",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "How beautiful are your feet in sandals, prince’s daughter!"
+        "text": "Your rounded thighs are like jewels,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Your rounded thighs are like jewels,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "the work of the hands of a skillful workman."
-      },
-      {
-        "type": "n"
+        "text": "the work of the hands of a skillful workman.",
+        "break": true
       }
     ]
   },
@@ -2303,28 +1696,20 @@
     "verse": 2,
     "content": [
       {
-        "text": "Your body is like a round goblet,"
+        "text": "Your body is like a round goblet,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "no mixed wine is wanting.",
+        "break": true
       },
       {
-        "text": "no mixed wine is wanting."
+        "text": "Your waist is like a heap of wheat,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Your waist is like a heap of wheat,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "set about with lilies."
-      },
-      {
-        "type": "n"
+        "text": "set about with lilies.",
+        "break": true
       }
     ]
   },
@@ -2334,16 +1719,12 @@
     "verse": 3,
     "content": [
       {
-        "text": "Your two breasts are like two fawns,"
+        "text": "Your two breasts are like two fawns,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "that are twins of a roe."
-      },
-      {
-        "type": "n"
+        "text": "that are twins of a roe.",
+        "break": true
       }
     ]
   },
@@ -2353,22 +1734,16 @@
     "verse": 4,
     "content": [
       {
-        "text": "Your neck is like an ivory tower."
+        "text": "Your neck is like an ivory tower.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Your eyes are like the pools in Heshbon by the gate of Bathrabbim.",
+        "break": true
       },
       {
-        "text": "Your eyes are like the pools in Heshbon by the gate of Bathrabbim."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Your nose is like the tower of Lebanon which looks toward Damascus."
-      },
-      {
-        "type": "n"
+        "text": "Your nose is like the tower of Lebanon which looks toward Damascus.",
+        "break": true
       }
     ]
   },
@@ -2378,22 +1753,16 @@
     "verse": 5,
     "content": [
       {
-        "text": "Your head on you is like Carmel."
+        "text": "Your head on you is like Carmel.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The hair of your head like purple.",
+        "break": true
       },
       {
-        "text": "The hair of your head like purple."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The king is held captive in its tresses."
-      },
-      {
-        "type": "n"
+        "text": "The king is held captive in its tresses.",
+        "break": true
       }
     ]
   },
@@ -2403,16 +1772,12 @@
     "verse": 6,
     "content": [
       {
-        "text": "How beautiful and how pleasant you are,"
+        "text": "How beautiful and how pleasant you are,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "love, for delights!"
-      },
-      {
-        "type": "n"
+        "text": "love, for delights!",
+        "break": true
       }
     ]
   },
@@ -2422,16 +1787,12 @@
     "verse": 7,
     "content": [
       {
-        "text": "This, your stature, is like a palm tree,"
+        "text": "This, your stature, is like a palm tree,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "your breasts like its fruit."
-      },
-      {
-        "type": "n"
+        "text": "your breasts like its fruit.",
+        "break": true
       }
     ]
   },
@@ -2441,28 +1802,20 @@
     "verse": 8,
     "content": [
       {
-        "text": "I said, “I will climb up into the palm tree."
+        "text": "I said, “I will climb up into the palm tree.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "I will take hold of its fruit.”",
+        "break": true
       },
       {
-        "text": "I will take hold of its fruit.”"
+        "text": "Let your breasts be like clusters of the vine,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Let your breasts be like clusters of the vine,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "the smell of your breath like apples."
-      },
-      {
-        "type": "n"
+        "text": "the smell of your breath like apples.",
+        "break": true
       }
     ]
   },
@@ -2472,20 +1825,14 @@
     "verse": 9,
     "content": [
       {
-        "text": "Your mouth is like the best wine,"
+        "text": "Your mouth is like the best wine,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that goes down smoothly for my beloved,",
+        "break": true
       },
-      {
-        "text": "that goes down smoothly for my beloved,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "gliding through the lips of those who are asleep."
-      }
+      "gliding through the lips of those who are asleep."
     ]
   },
   {
@@ -2494,16 +1841,12 @@
     "verse": 10,
     "content": [
       {
-        "text": "I am my beloved’s."
+        "text": "I am my beloved’s.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "His desire is toward me."
-      },
-      {
-        "type": "n"
+        "text": "His desire is toward me.",
+        "break": true
       }
     ]
   },
@@ -2513,16 +1856,12 @@
     "verse": 11,
     "content": [
       {
-        "text": "Come, my beloved! Let’s go out into the field."
+        "text": "Come, my beloved! Let’s go out into the field.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Let’s lodge in the villages."
-      },
-      {
-        "type": "n"
+        "text": "Let’s lodge in the villages.",
+        "break": true
       }
     ]
   },
@@ -2532,34 +1871,24 @@
     "verse": 12,
     "content": [
       {
-        "text": "Let’s go early up to the vineyards."
+        "text": "Let’s go early up to the vineyards.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Let’s see whether the vine has budded,",
+        "break": true
       },
       {
-        "text": "Let’s see whether the vine has budded,"
+        "text": "its blossom is open,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and the pomegranates are in flower.",
+        "break": true
       },
       {
-        "text": "its blossom is open,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the pomegranates are in flower."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "There I will give you my love."
-      },
-      {
-        "type": "n"
+        "text": "There I will give you my love.",
+        "break": true
       }
     ]
   },
@@ -2569,20 +1898,14 @@
     "verse": 13,
     "content": [
       {
-        "text": "The mandrakes produce fragrance."
+        "text": "The mandrakes produce fragrance.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "At our doors are all kinds of precious fruits, new and old,",
+        "break": true
       },
-      {
-        "text": "At our doors are all kinds of precious fruits, new and old,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "which I have stored up for you, my beloved."
-      }
+      "which I have stored up for you, my beloved."
     ]
   },
   {
@@ -2591,31 +1914,21 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "Oh that you were like my brother,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Oh that you were like my brother,"
+        "text": "who nursed from the breasts of my mother!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "If I found you outside, I would kiss you;",
+        "break": true
       },
       {
-        "text": "who nursed from the breasts of my mother!"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "If I found you outside, I would kiss you;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "yes, and no one would despise me."
-      },
-      {
-        "type": "n"
+        "text": "yes, and no one would despise me.",
+        "break": true
       }
     ]
   },
@@ -2625,28 +1938,20 @@
     "verse": 2,
     "content": [
       {
-        "text": "I would lead you, bringing you into the house of my mother,"
+        "text": "I would lead you, bringing you into the house of my mother,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "who would instruct me.",
+        "break": true
       },
       {
-        "text": "who would instruct me."
+        "text": "I would have you drink spiced wine,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I would have you drink spiced wine,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "of the juice of my pomegranate."
-      },
-      {
-        "type": "n"
+        "text": "of the juice of my pomegranate.",
+        "break": true
       }
     ]
   },
@@ -2656,14 +1961,10 @@
     "verse": 3,
     "content": [
       {
-        "text": "His left hand would be under my head."
+        "text": "His left hand would be under my head.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "His right hand would embrace me."
-      }
+      "His right hand would embrace me."
     ]
   },
   {
@@ -2672,23 +1973,15 @@
     "verse": 4,
     "content": [
       {
-        "type": "p"
+        "text": "I adjure you, daughters of Jerusalem,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "I adjure you, daughters of Jerusalem,"
+        "text": "that you not stir up, nor awaken love,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "that you not stir up, nor awaken love,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "until it so desires."
-      }
+      "until it so desires."
     ]
   },
   {
@@ -2697,26 +1990,18 @@
     "verse": 5,
     "content": [
       {
-        "text": "Who is this who comes up from the wilderness,"
+        "text": "Who is this who comes up from the wilderness,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "leaning on her beloved? Under the apple tree I awakened you.",
+        "break": true
       },
       {
-        "text": "leaning on her beloved? Under the apple tree I awakened you."
+        "text": "There your mother conceived you.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "There your mother conceived you."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "There she was in labor and bore you."
-      }
+      "There she was in labor and bore you."
     ]
   },
   {
@@ -2725,59 +2010,37 @@
     "verse": 6,
     "content": [
       {
-        "type": "p"
+        "text": "Set me as a seal on your heart,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Set me as a seal on your heart,"
+        "text": "as a seal on your arm;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "as a seal on your arm;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for love is strong as death."
-      },
-      {
-        "type": "n"
+        "text": "for love is strong as death.",
+        "break": true
       },
       {
         "text": "Jealousy is as cruel as Sheol.",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "Sheol is the place of the dead."
-            }
-          ]
-        }
+          "content": "Sheol is the place of the dead."
+        },
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Its flashes are flashes of fire,"
-      },
-      {
-        "type": "n"
+        "text": "Its flashes are flashes of fire,",
+        "break": true
       },
       {
         "text": "a very flame of Yah.",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "“Yah” is a short form of “Yahweh”, which is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-            }
-          ]
-        }
-      },
-      {
-        "type": "n"
+          "content": "“Yah” is a short form of “Yahweh”, which is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+        },
+        "break": true
       }
     ]
   },
@@ -2787,26 +2050,18 @@
     "verse": 7,
     "content": [
       {
-        "text": "Many waters can’t quench love,"
+        "text": "Many waters can’t quench love,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "neither can floods drown it.",
+        "break": true
       },
       {
-        "text": "neither can floods drown it."
+        "text": "If a man would give all the wealth of his house for love,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "If a man would give all the wealth of his house for love,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "he would be utterly scorned."
-      }
+      "he would be utterly scorned."
     ]
   },
   {
@@ -2815,26 +2070,18 @@
     "verse": 8,
     "content": [
       {
-        "text": "We have a little sister."
+        "text": "We have a little sister.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "She has no breasts.",
+        "break": true
       },
       {
-        "text": "She has no breasts."
+        "text": "What shall we do for our sister",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "What shall we do for our sister"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "in the day when she is to be spoken for?"
-      }
+      "in the day when she is to be spoken for?"
     ]
   },
   {
@@ -2843,29 +2090,19 @@
     "verse": 9,
     "content": [
       {
-        "type": "p"
+        "text": "If she is a wall,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "If she is a wall,"
+        "text": "we will build on her a turret of silver.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "If she is a door,",
+        "break": true
       },
-      {
-        "text": "we will build on her a turret of silver."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "If she is a door,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "we will enclose her with boards of cedar."
-      }
+      "we will enclose her with boards of cedar."
     ]
   },
   {
@@ -2874,16 +2111,12 @@
     "verse": 10,
     "content": [
       {
-        "text": "I am a wall, and my breasts like towers,"
+        "text": "I am a wall, and my breasts like towers,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "then I was in his eyes like one who found peace."
-      },
-      {
-        "type": "n"
+        "text": "then I was in his eyes like one who found peace.",
+        "break": true
       }
     ]
   },
@@ -2893,33 +2126,23 @@
     "verse": 11,
     "content": [
       {
-        "text": "Solomon had a vineyard at Baal Hamon."
+        "text": "Solomon had a vineyard at Baal Hamon.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "He leased out the vineyard to keepers."
-      },
-      {
-        "type": "n"
+        "text": "He leased out the vineyard to keepers.",
+        "break": true
       },
       {
         "text": "Each was to bring a thousand shekels",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "A shekel is about 10 grams or about 0.35 ounces, so 1000 shekels is about 10 kilograms or about 22 pounds."
-            }
-          ]
+          "content": "A shekel is about 10 grams or about 0.35 ounces, so 1000 shekels is about 10 kilograms or about 22 pounds."
         }
       },
       {
-        "text": "of silver for its fruit."
-      },
-      {
-        "type": "n"
+        "text": " of silver for its fruit.",
+        "break": true
       }
     ]
   },
@@ -2929,20 +2152,14 @@
     "verse": 12,
     "content": [
       {
-        "text": "My own vineyard is before me."
+        "text": "My own vineyard is before me.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The thousand are for you, Solomon,",
+        "break": true
       },
-      {
-        "text": "The thousand are for you, Solomon,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "two hundred for those who tend its fruit."
-      }
+      "two hundred for those who tend its fruit."
     ]
   },
   {
@@ -2951,14 +2168,10 @@
     "verse": 13,
     "content": [
       {
-        "text": "You who dwell in the gardens, with friends in attendance,"
+        "text": "You who dwell in the gardens, with friends in attendance,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "let me hear your voice!"
-      }
+      "let me hear your voice!"
     ]
   },
   {
@@ -2967,14 +2180,10 @@
     "verse": 14,
     "content": [
       {
-        "text": "Come away, my beloved!"
+        "text": "Come away, my beloved!",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Be like a gazelle or a young stag on the mountains of spices!"
-      }
+      "Be like a gazelle or a young stag on the mountains of spices!"
     ]
   }
 ]

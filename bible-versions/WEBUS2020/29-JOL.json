@@ -5,24 +5,16 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
-      },
-      {
         "text": "Yahweh’s",
         "foot": {
           "type": "stu",
-          "content": [
-            {
-              "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-            }
-          ]
-        }
+          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+        },
+        "paragraph": true
       },
       {
-        "text": "word that came to Joel, the son of Pethuel."
-      },
-      {
-        "type": "n"
+        "text": " word that came to Joel, the son of Pethuel.",
+        "break": true
       }
     ]
   },
@@ -32,28 +24,20 @@
     "verse": 2,
     "content": [
       {
-        "text": "Hear this, you elders,"
+        "text": "Hear this, you elders,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and listen, all you inhabitants of the land!",
+        "break": true
       },
       {
-        "text": "and listen, all you inhabitants of the land!"
+        "text": "Has this ever happened in your days,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Has this ever happened in your days,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "or in the days of your fathers?"
-      },
-      {
-        "type": "n"
+        "text": "or in the days of your fathers?",
+        "break": true
       }
     ]
   },
@@ -63,22 +47,16 @@
     "verse": 3,
     "content": [
       {
-        "text": "Tell your children about it,"
+        "text": "Tell your children about it,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and have your children tell their children,",
+        "break": true
       },
       {
-        "text": "and have your children tell their children,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and their children, another generation."
-      },
-      {
-        "type": "n"
+        "text": "and their children, another generation.",
+        "break": true
       }
     ]
   },
@@ -88,22 +66,16 @@
     "verse": 4,
     "content": [
       {
-        "text": "What the swarming locust has left, the great locust has eaten."
+        "text": "What the swarming locust has left, the great locust has eaten.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "What the great locust has left, the grasshopper has eaten.",
+        "break": true
       },
       {
-        "text": "What the great locust has left, the grasshopper has eaten."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "What the grasshopper has left, the caterpillar has eaten."
-      },
-      {
-        "type": "n"
+        "text": "What the grasshopper has left, the caterpillar has eaten.",
+        "break": true
       }
     ]
   },
@@ -113,22 +85,16 @@
     "verse": 5,
     "content": [
       {
-        "text": "Wake up, you drunkards, and weep!"
+        "text": "Wake up, you drunkards, and weep!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Wail, all you drinkers of wine, because of the sweet wine,",
+        "break": true
       },
       {
-        "text": "Wail, all you drinkers of wine, because of the sweet wine,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for it is cut off from your mouth."
-      },
-      {
-        "type": "n"
+        "text": "for it is cut off from your mouth.",
+        "break": true
       }
     ]
   },
@@ -138,22 +104,16 @@
     "verse": 6,
     "content": [
       {
-        "text": "For a nation has come up on my land, strong, and without number."
+        "text": "For a nation has come up on my land, strong, and without number.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "His teeth are the teeth of a lion,",
+        "break": true
       },
       {
-        "text": "His teeth are the teeth of a lion,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and he has the fangs of a lioness."
-      },
-      {
-        "type": "n"
+        "text": "and he has the fangs of a lioness.",
+        "break": true
       }
     ]
   },
@@ -163,28 +123,20 @@
     "verse": 7,
     "content": [
       {
-        "text": "He has laid my vine waste,"
+        "text": "He has laid my vine waste,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and stripped my fig tree.",
+        "break": true
       },
       {
-        "text": "and stripped my fig tree."
+        "text": "He has stripped its bark, and thrown it away.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "He has stripped its bark, and thrown it away."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Its branches are made white."
-      },
-      {
-        "type": "n"
+        "text": "Its branches are made white.",
+        "break": true
       }
     ]
   },
@@ -194,16 +146,12 @@
     "verse": 8,
     "content": [
       {
-        "text": "Mourn like a virgin dressed in sackcloth"
+        "text": "Mourn like a virgin dressed in sackcloth",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for the husband of her youth!"
-      },
-      {
-        "type": "n"
+        "text": "for the husband of her youth!",
+        "break": true
       }
     ]
   },
@@ -213,16 +161,12 @@
     "verse": 9,
     "content": [
       {
-        "text": "The meal offering and the drink offering are cut off from Yahweh’s house."
+        "text": "The meal offering and the drink offering are cut off from Yahweh’s house.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The priests, Yahweh’s ministers, mourn."
-      },
-      {
-        "type": "n"
+        "text": "The priests, Yahweh’s ministers, mourn.",
+        "break": true
       }
     ]
   },
@@ -232,28 +176,20 @@
     "verse": 10,
     "content": [
       {
-        "text": "The field is laid waste."
+        "text": "The field is laid waste.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The land mourns, for the grain is destroyed,",
+        "break": true
       },
       {
-        "text": "The land mourns, for the grain is destroyed,"
+        "text": "The new wine has dried up,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The new wine has dried up,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the oil languishes."
-      },
-      {
-        "type": "n"
+        "text": "and the oil languishes.",
+        "break": true
       }
     ]
   },
@@ -263,28 +199,20 @@
     "verse": 11,
     "content": [
       {
-        "text": "Be confounded, you farmers!"
+        "text": "Be confounded, you farmers!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Wail, you vineyard keepers,",
+        "break": true
       },
       {
-        "text": "Wail, you vineyard keepers,"
+        "text": "for the wheat and for the barley;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for the wheat and for the barley;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for the harvest of the field has perished."
-      },
-      {
-        "type": "n"
+        "text": "for the harvest of the field has perished.",
+        "break": true
       }
     ]
   },
@@ -294,28 +222,20 @@
     "verse": 12,
     "content": [
       {
-        "text": "The vine has dried up, and the fig tree withered—"
+        "text": "The vine has dried up, and the fig tree withered—",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "the pomegranate tree, the palm tree also, and the apple tree,",
+        "break": true
       },
       {
-        "text": "the pomegranate tree, the palm tree also, and the apple tree,"
+        "text": "even all of the trees of the field are withered;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "even all of the trees of the field are withered;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for joy has withered away from the sons of men."
-      },
-      {
-        "type": "n"
+        "text": "for joy has withered away from the sons of men.",
+        "break": true
       }
     ]
   },
@@ -325,36 +245,31 @@
     "verse": 13,
     "content": [
       {
-        "text": "Put on sackcloth and mourn, you priests!"
+        "text": "Put on sackcloth and mourn, you priests!",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Wail, you ministers of the altar."
-      },
-      {
-        "type": "n"
+        "text": "Wail, you ministers of the altar.",
+        "break": true
       },
       {
         "text": "Come, lie all night in sackcloth, you ministers of my God,",
         "foot": {
           "type": "trn",
           "content": [
+            "The Hebrew word rendered “God” is “",
             {
-              "text": "The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim)."
-            }
+              "text": "אֱלֹהִ֑ים",
+              "script": "H"
+            },
+            "” (Elohim)."
           ]
-        }
+        },
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for the meal offering and the drink offering are withheld from your God’s house."
-      },
-      {
-        "type": "n"
+        "text": "for the meal offering and the drink offering are withheld from your God’s house.",
+        "break": true
       }
     ]
   },
@@ -364,28 +279,20 @@
     "verse": 14,
     "content": [
       {
-        "text": "Sanctify a fast."
+        "text": "Sanctify a fast.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Call a solemn assembly.",
+        "break": true
       },
       {
-        "text": "Call a solemn assembly."
+        "text": "Gather the elders and all the inhabitants of the land to the house of Yahweh, your God,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Gather the elders and all the inhabitants of the land to the house of Yahweh, your God,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and cry to Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "and cry to Yahweh.",
+        "break": true
       }
     ]
   },
@@ -395,22 +302,16 @@
     "verse": 15,
     "content": [
       {
-        "text": "Alas for the day!"
+        "text": "Alas for the day!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "For the day of Yahweh is at hand,",
+        "break": true
       },
       {
-        "text": "For the day of Yahweh is at hand,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and it will come as destruction from the Almighty."
-      },
-      {
-        "type": "n"
+        "text": "and it will come as destruction from the Almighty.",
+        "break": true
       }
     ]
   },
@@ -420,16 +321,12 @@
     "verse": 16,
     "content": [
       {
-        "text": "Isn’t the food cut off before our eyes,"
+        "text": "Isn’t the food cut off before our eyes,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "joy and gladness from the house of our God?"
-      },
-      {
-        "type": "n"
+        "text": "joy and gladness from the house of our God?",
+        "break": true
       }
     ]
   },
@@ -439,22 +336,16 @@
     "verse": 17,
     "content": [
       {
-        "text": "The seeds rot under their clods."
+        "text": "The seeds rot under their clods.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The granaries are laid desolate.",
+        "break": true
       },
       {
-        "text": "The granaries are laid desolate."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The barns are broken down, for the grain has withered."
-      },
-      {
-        "type": "n"
+        "text": "The barns are broken down, for the grain has withered.",
+        "break": true
       }
     ]
   },
@@ -464,22 +355,16 @@
     "verse": 18,
     "content": [
       {
-        "text": "How the animals groan!"
+        "text": "How the animals groan!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The herds of livestock are perplexed, because they have no pasture.",
+        "break": true
       },
       {
-        "text": "The herds of livestock are perplexed, because they have no pasture."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Yes, the flocks of sheep are made desolate."
-      },
-      {
-        "type": "n"
+        "text": "Yes, the flocks of sheep are made desolate.",
+        "break": true
       }
     ]
   },
@@ -489,22 +374,16 @@
     "verse": 19,
     "content": [
       {
-        "text": "Yahweh, I cry to you,"
+        "text": "Yahweh, I cry to you,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for the fire has devoured the pastures of the wilderness,",
+        "break": true
       },
       {
-        "text": "for the fire has devoured the pastures of the wilderness,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the flame has burned all the trees of the field."
-      },
-      {
-        "type": "n"
+        "text": "and the flame has burned all the trees of the field.",
+        "break": true
       }
     ]
   },
@@ -514,20 +393,14 @@
     "verse": 20,
     "content": [
       {
-        "text": "Yes, the animals of the field pant to you,"
+        "text": "Yes, the animals of the field pant to you,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for the water brooks have dried up,",
+        "break": true
       },
-      {
-        "text": "for the water brooks have dried up,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the fire has devoured the pastures of the wilderness."
-      }
+      "and the fire has devoured the pastures of the wilderness."
     ]
   },
   {
@@ -536,37 +409,25 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "Blow the trumpet in Zion,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Blow the trumpet in Zion,"
+        "text": "and sound an alarm in my holy mountain!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Let all the inhabitants of the land tremble,",
+        "break": true
       },
       {
-        "text": "and sound an alarm in my holy mountain!"
+        "text": "for the day of Yahweh comes,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Let all the inhabitants of the land tremble,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for the day of Yahweh comes,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for it is close at hand:"
-      },
-      {
-        "type": "n"
+        "text": "for it is close at hand:",
+        "break": true
       }
     ]
   },
@@ -576,46 +437,32 @@
     "verse": 2,
     "content": [
       {
-        "text": "A day of darkness and gloominess,"
+        "text": "A day of darkness and gloominess,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "a day of clouds and thick darkness.",
+        "break": true
       },
       {
-        "text": "a day of clouds and thick darkness."
+        "text": "As the dawn spreading on the mountains,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "a great and strong people;",
+        "break": true
       },
       {
-        "text": "As the dawn spreading on the mountains,"
+        "text": "there has never been the like,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "neither will there be any more after them,",
+        "break": true
       },
       {
-        "text": "a great and strong people;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "there has never been the like,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "neither will there be any more after them,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "even to the years of many generations."
-      },
-      {
-        "type": "n"
+        "text": "even to the years of many generations.",
+        "break": true
       }
     ]
   },
@@ -625,34 +472,24 @@
     "verse": 3,
     "content": [
       {
-        "text": "A fire devours before them,"
+        "text": "A fire devours before them,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and behind them, a flame burns.",
+        "break": true
       },
       {
-        "text": "and behind them, a flame burns."
+        "text": "The land is as the garden of Eden before them,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and behind them, a desolate wilderness.",
+        "break": true
       },
       {
-        "text": "The land is as the garden of Eden before them,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and behind them, a desolate wilderness."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Yes, and no one has escaped them."
-      },
-      {
-        "type": "n"
+        "text": "Yes, and no one has escaped them.",
+        "break": true
       }
     ]
   },
@@ -662,16 +499,12 @@
     "verse": 4,
     "content": [
       {
-        "text": "Their appearance is as the appearance of horses,"
+        "text": "Their appearance is as the appearance of horses,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and they run as horsemen."
-      },
-      {
-        "type": "n"
+        "text": "and they run as horsemen.",
+        "break": true
       }
     ]
   },
@@ -681,22 +514,16 @@
     "verse": 5,
     "content": [
       {
-        "text": "Like the noise of chariots on the tops of the mountains, they leap,"
+        "text": "Like the noise of chariots on the tops of the mountains, they leap,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "like the noise of a flame of fire that devours the stubble,",
+        "break": true
       },
       {
-        "text": "like the noise of a flame of fire that devours the stubble,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "like a strong people set in battle array."
-      },
-      {
-        "type": "n"
+        "text": "like a strong people set in battle array.",
+        "break": true
       }
     ]
   },
@@ -706,16 +533,12 @@
     "verse": 6,
     "content": [
       {
-        "text": "At their presence the peoples are in anguish."
+        "text": "At their presence the peoples are in anguish.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "All faces have grown pale."
-      },
-      {
-        "type": "n"
+        "text": "All faces have grown pale.",
+        "break": true
       }
     ]
   },
@@ -725,22 +548,16 @@
     "verse": 7,
     "content": [
       {
-        "text": "They run like mighty men."
+        "text": "They run like mighty men.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They climb the wall like warriors.",
+        "break": true
       },
       {
-        "text": "They climb the wall like warriors."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They each march in his line, and they don’t swerve off course."
-      },
-      {
-        "type": "n"
+        "text": "They each march in his line, and they don’t swerve off course.",
+        "break": true
       }
     ]
   },
@@ -750,28 +567,20 @@
     "verse": 8,
     "content": [
       {
-        "text": "One doesn’t jostle another."
+        "text": "One doesn’t jostle another.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They each march in their own path.",
+        "break": true
       },
       {
-        "text": "They each march in their own path."
+        "text": "They burst through the defenses",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "They burst through the defenses"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and don’t break ranks."
-      },
-      {
-        "type": "n"
+        "text": "and don’t break ranks.",
+        "break": true
       }
     ]
   },
@@ -781,28 +590,20 @@
     "verse": 9,
     "content": [
       {
-        "text": "They rush on the city."
+        "text": "They rush on the city.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "They run on the wall.",
+        "break": true
       },
       {
-        "text": "They run on the wall."
+        "text": "They climb up into the houses.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "They climb up into the houses."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They enter in at the windows like thieves."
-      },
-      {
-        "type": "n"
+        "text": "They enter in at the windows like thieves.",
+        "break": true
       }
     ]
   },
@@ -812,28 +613,20 @@
     "verse": 10,
     "content": [
       {
-        "text": "The earth quakes before them."
+        "text": "The earth quakes before them.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "The heavens tremble.",
+        "break": true
       },
       {
-        "text": "The heavens tremble."
+        "text": "The sun and the moon are darkened,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "The sun and the moon are darkened,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the stars withdraw their shining."
-      },
-      {
-        "type": "n"
+        "text": "and the stars withdraw their shining.",
+        "break": true
       }
     ]
   },
@@ -843,34 +636,24 @@
     "verse": 11,
     "content": [
       {
-        "text": "Yahweh thunders his voice before his army,"
+        "text": "Yahweh thunders his voice before his army,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for his forces are very great;",
+        "break": true
       },
       {
-        "text": "for his forces are very great;"
+        "text": "for he is strong who obeys his command;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for the day of Yahweh is great and very awesome,",
+        "break": true
       },
       {
-        "text": "for he is strong who obeys his command;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for the day of Yahweh is great and very awesome,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and who can endure it?"
-      },
-      {
-        "type": "n"
+        "text": "and who can endure it?",
+        "break": true
       }
     ]
   },
@@ -880,16 +663,12 @@
     "verse": 12,
     "content": [
       {
-        "text": "“Yet even now,” says Yahweh, “turn to me with all your heart,"
+        "text": "“Yet even now,” says Yahweh, “turn to me with all your heart,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and with fasting, and with weeping, and with mourning.”"
-      },
-      {
-        "type": "n"
+        "text": "and with fasting, and with weeping, and with mourning.”",
+        "break": true
       }
     ]
   },
@@ -899,34 +678,24 @@
     "verse": 13,
     "content": [
       {
-        "text": "Tear your heart and not your garments,"
+        "text": "Tear your heart and not your garments,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and turn to Yahweh, your God;",
+        "break": true
       },
       {
-        "text": "and turn to Yahweh, your God;"
+        "text": "for he is gracious and merciful,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "slow to anger, and abundant in loving kindness,",
+        "break": true
       },
       {
-        "text": "for he is gracious and merciful,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "slow to anger, and abundant in loving kindness,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and relents from sending calamity."
-      },
-      {
-        "type": "n"
+        "text": "and relents from sending calamity.",
+        "break": true
       }
     ]
   },
@@ -936,22 +705,16 @@
     "verse": 14,
     "content": [
       {
-        "text": "Who knows? He may turn and relent,"
+        "text": "Who knows? He may turn and relent,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and leave a blessing behind him,",
+        "break": true
       },
       {
-        "text": "and leave a blessing behind him,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "even a meal offering and a drink offering to Yahweh, your God."
-      },
-      {
-        "type": "n"
+        "text": "even a meal offering and a drink offering to Yahweh, your God.",
+        "break": true
       }
     ]
   },
@@ -961,22 +724,16 @@
     "verse": 15,
     "content": [
       {
-        "text": "Blow the trumpet in Zion!"
+        "text": "Blow the trumpet in Zion!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Sanctify a fast.",
+        "break": true
       },
       {
-        "text": "Sanctify a fast."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Call a solemn assembly."
-      },
-      {
-        "type": "n"
+        "text": "Call a solemn assembly.",
+        "break": true
       }
     ]
   },
@@ -986,40 +743,28 @@
     "verse": 16,
     "content": [
       {
-        "text": "Gather the people."
+        "text": "Gather the people.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Sanctify the assembly.",
+        "break": true
       },
       {
-        "text": "Sanctify the assembly."
+        "text": "Assemble the elders.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Gather the children, and those who nurse from breasts.",
+        "break": true
       },
       {
-        "text": "Assemble the elders."
+        "text": "Let the bridegroom go out of his room,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Gather the children, and those who nurse from breasts."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Let the bridegroom go out of his room,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and the bride out of her chamber."
-      },
-      {
-        "type": "n"
+        "text": "and the bride out of her chamber.",
+        "break": true
       }
     ]
   },
@@ -1029,40 +774,28 @@
     "verse": 17,
     "content": [
       {
-        "text": "Let the priests, the ministers of Yahweh, weep between the porch and the altar,"
+        "text": "Let the priests, the ministers of Yahweh, weep between the porch and the altar,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and let them say, “Spare your people, Yahweh,",
+        "break": true
       },
       {
-        "text": "and let them say, “Spare your people, Yahweh,"
+        "text": "and don’t give your heritage to reproach,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that the nations should rule over them.",
+        "break": true
       },
       {
-        "text": "and don’t give your heritage to reproach,"
+        "text": "Why should they say among the peoples,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "that the nations should rule over them."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Why should they say among the peoples,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "‘Where is their God?’ ”"
-      },
-      {
-        "type": "n"
+        "text": "‘Where is their God?’ ”",
+        "break": true
       }
     ]
   },
@@ -1072,16 +805,12 @@
     "verse": 18,
     "content": [
       {
-        "text": "Then Yahweh was jealous for his land,"
+        "text": "Then Yahweh was jealous for his land,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and had pity on his people."
-      },
-      {
-        "type": "n"
+        "text": "and had pity on his people.",
+        "break": true
       }
     ]
   },
@@ -1091,39 +820,34 @@
     "verse": 19,
     "content": [
       {
-        "text": "Yahweh answered his people,"
-      },
-      {
-        "type": "n"
+        "text": "Yahweh answered his people,",
+        "break": true
       },
       {
         "text": "“Behold,",
         "foot": {
           "type": "trn",
           "content": [
+            "“Behold”, from “",
             {
-              "text": "“Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
-            }
+              "text": "הִנֵּה",
+              "script": "H"
+            },
+            "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
       },
       {
-        "text": "I will send you grain, new wine, and oil,"
+        "text": " I will send you grain, new wine, and oil,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and you will be satisfied with them;",
+        "break": true
       },
       {
-        "text": "and you will be satisfied with them;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and I will no more make you a reproach among the nations."
-      },
-      {
-        "type": "n"
+        "text": "and I will no more make you a reproach among the nations.",
+        "break": true
       }
     ]
   },
@@ -1133,46 +857,32 @@
     "verse": 20,
     "content": [
       {
-        "text": "But I will remove the northern army far away from you,"
+        "text": "But I will remove the northern army far away from you,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and will drive it into a barren and desolate land,",
+        "break": true
       },
       {
-        "text": "and will drive it into a barren and desolate land,"
+        "text": "its front into the eastern sea,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and its back into the western sea;",
+        "break": true
       },
       {
-        "text": "its front into the eastern sea,"
+        "text": "and its stench will come up,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and its bad smell will rise.”",
+        "break": true
       },
       {
-        "text": "and its back into the western sea;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and its stench will come up,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and its bad smell will rise.”"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Surely he has done great things."
-      },
-      {
-        "type": "n"
+        "text": "Surely he has done great things.",
+        "break": true
       }
     ]
   },
@@ -1182,16 +892,12 @@
     "verse": 21,
     "content": [
       {
-        "text": "Land, don’t be afraid."
+        "text": "Land, don’t be afraid.",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Be glad and rejoice, for Yahweh has done great things."
-      },
-      {
-        "type": "n"
+        "text": "Be glad and rejoice, for Yahweh has done great things.",
+        "break": true
       }
     ]
   },
@@ -1201,26 +907,18 @@
     "verse": 22,
     "content": [
       {
-        "text": "Don’t be afraid, you animals of the field;"
+        "text": "Don’t be afraid, you animals of the field;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for the pastures of the wilderness spring up,",
+        "break": true
       },
       {
-        "text": "for the pastures of the wilderness spring up,"
+        "text": "for the tree bears its fruit.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for the tree bears its fruit."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "The fig tree and the vine yield their strength."
-      }
+      "The fig tree and the vine yield their strength."
     ]
   },
   {
@@ -1229,37 +927,25 @@
     "verse": 23,
     "content": [
       {
-        "type": "p"
+        "text": "“Be glad then, you children of Zion,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "“Be glad then, you children of Zion,"
+        "text": "and rejoice in Yahweh, your God;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for he gives you the early rain in just measure,",
+        "break": true
       },
       {
-        "text": "and rejoice in Yahweh, your God;"
+        "text": "and he causes the rain to come down for you,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for he gives you the early rain in just measure,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and he causes the rain to come down for you,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "the early rain and the latter rain, as before."
-      },
-      {
-        "type": "n"
+        "text": "the early rain and the latter rain, as before.",
+        "break": true
       }
     ]
   },
@@ -1269,16 +955,12 @@
     "verse": 24,
     "content": [
       {
-        "text": "The threshing floors will be full of wheat,"
+        "text": "The threshing floors will be full of wheat,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and the vats will overflow with new wine and oil."
-      },
-      {
-        "type": "n"
+        "text": "and the vats will overflow with new wine and oil.",
+        "break": true
       }
     ]
   },
@@ -1288,22 +970,16 @@
     "verse": 25,
     "content": [
       {
-        "text": "I will restore to you the years that the swarming locust has eaten,"
+        "text": "I will restore to you the years that the swarming locust has eaten,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "the great locust, the grasshopper, and the caterpillar,",
+        "break": true
       },
       {
-        "text": "the great locust, the grasshopper, and the caterpillar,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "my great army, which I sent among you."
-      },
-      {
-        "type": "n"
+        "text": "my great army, which I sent among you.",
+        "break": true
       }
     ]
   },
@@ -1313,28 +989,20 @@
     "verse": 26,
     "content": [
       {
-        "text": "You will have plenty to eat and be satisfied,"
+        "text": "You will have plenty to eat and be satisfied,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and will praise the name of Yahweh, your God,",
+        "break": true
       },
       {
-        "text": "and will praise the name of Yahweh, your God,"
+        "text": "who has dealt wondrously with you;",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "who has dealt wondrously with you;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and my people will never again be disappointed."
-      },
-      {
-        "type": "n"
+        "text": "and my people will never again be disappointed.",
+        "break": true
       }
     ]
   },
@@ -1344,20 +1012,14 @@
     "verse": 27,
     "content": [
       {
-        "text": "You will know that I am among Israel,"
+        "text": "You will know that I am among Israel,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and that I am Yahweh, your God, and there is no one else;",
+        "break": true
       },
-      {
-        "text": "and that I am Yahweh, your God, and there is no one else;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and my people will never again be disappointed."
-      }
+      "and my people will never again be disappointed."
     ]
   },
   {
@@ -1366,31 +1028,21 @@
     "verse": 28,
     "content": [
       {
-        "type": "p"
+        "text": "“It will happen afterward, that I will pour out my Spirit on all flesh;",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "“It will happen afterward, that I will pour out my Spirit on all flesh;"
+        "text": "and your sons and your daughters will prophesy.",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Your old men will dream dreams.",
+        "break": true
       },
       {
-        "text": "and your sons and your daughters will prophesy."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Your old men will dream dreams."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Your young men will see visions."
-      },
-      {
-        "type": "n"
+        "text": "Your young men will see visions.",
+        "break": true
       }
     ]
   },
@@ -1400,16 +1052,12 @@
     "verse": 29,
     "content": [
       {
-        "text": "And also on the servants and on the handmaids in those days,"
+        "text": "And also on the servants and on the handmaids in those days,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "I will pour out my Spirit."
-      },
-      {
-        "type": "n"
+        "text": "I will pour out my Spirit.",
+        "break": true
       }
     ]
   },
@@ -1419,16 +1067,12 @@
     "verse": 30,
     "content": [
       {
-        "text": "I will show wonders in the heavens and in the earth:"
+        "text": "I will show wonders in the heavens and in the earth:",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "blood, fire, and pillars of smoke."
-      },
-      {
-        "type": "n"
+        "text": "blood, fire, and pillars of smoke.",
+        "break": true
       }
     ]
   },
@@ -1438,22 +1082,16 @@
     "verse": 31,
     "content": [
       {
-        "text": "The sun will be turned into darkness,"
+        "text": "The sun will be turned into darkness,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and the moon into blood,",
+        "break": true
       },
       {
-        "text": "and the moon into blood,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "before the great and terrible day of Yahweh comes."
-      },
-      {
-        "type": "n"
+        "text": "before the great and terrible day of Yahweh comes.",
+        "break": true
       }
     ]
   },
@@ -1463,26 +1101,18 @@
     "verse": 32,
     "content": [
       {
-        "text": "It will happen that whoever will call on Yahweh’s name shall be saved;"
+        "text": "It will happen that whoever will call on Yahweh’s name shall be saved;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for in Mount Zion and in Jerusalem there will be those who escape,",
+        "break": true
       },
       {
-        "text": "for in Mount Zion and in Jerusalem there will be those who escape,"
+        "text": "as Yahweh has said,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "as Yahweh has said,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and among the remnant, those whom Yahweh calls."
-      }
+      "and among the remnant, those whom Yahweh calls."
     ]
   },
   {
@@ -1491,25 +1121,17 @@
     "verse": 1,
     "content": [
       {
-        "type": "p"
+        "text": "“For, behold, in those days,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "“For, behold, in those days,"
+        "text": "and in that time,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and in that time,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "when I restore the fortunes of Judah and Jerusalem,"
-      },
-      {
-        "type": "n"
+        "text": "when I restore the fortunes of Judah and Jerusalem,",
+        "break": true
       }
     ]
   },
@@ -1519,34 +1141,24 @@
     "verse": 2,
     "content": [
       {
-        "text": "I will gather all nations,"
+        "text": "I will gather all nations,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and will bring them down into the valley of Jehoshaphat;",
+        "break": true
       },
       {
-        "text": "and will bring them down into the valley of Jehoshaphat;"
+        "text": "and I will execute judgment on them there for my people,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and for my heritage, Israel, whom they have scattered among the nations.",
+        "break": true
       },
       {
-        "text": "and I will execute judgment on them there for my people,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and for my heritage, Israel, whom they have scattered among the nations."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "They have divided my land,"
-      },
-      {
-        "type": "n"
+        "text": "They have divided my land,",
+        "break": true
       }
     ]
   },
@@ -1556,20 +1168,14 @@
     "verse": 3,
     "content": [
       {
-        "text": "and have cast lots for my people,"
+        "text": "and have cast lots for my people,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and have given a boy for a prostitute,",
+        "break": true
       },
-      {
-        "text": "and have given a boy for a prostitute,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and sold a girl for wine, that they may drink."
-      }
+      "and sold a girl for wine, that they may drink."
     ]
   },
   {
@@ -1578,37 +1184,25 @@
     "verse": 4,
     "content": [
       {
-        "type": "p"
+        "text": "“Yes, and what are you to me, Tyre and Sidon,",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "“Yes, and what are you to me, Tyre and Sidon,"
+        "text": "and all the regions of Philistia?",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Will you repay me?",
+        "break": true
       },
       {
-        "text": "and all the regions of Philistia?"
+        "text": "And if you repay me,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Will you repay me?"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "And if you repay me,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "I will swiftly and speedily return your repayment on your own head."
-      },
-      {
-        "type": "n"
+        "text": "I will swiftly and speedily return your repayment on your own head.",
+        "break": true
       }
     ]
   },
@@ -1618,16 +1212,12 @@
     "verse": 5,
     "content": [
       {
-        "text": "Because you have taken my silver and my gold,"
+        "text": "Because you have taken my silver and my gold,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and have carried my finest treasures into your temples,"
-      },
-      {
-        "type": "n"
+        "text": "and have carried my finest treasures into your temples,",
+        "break": true
       }
     ]
   },
@@ -1637,16 +1227,12 @@
     "verse": 6,
     "content": [
       {
-        "text": "and have sold the children of Judah and the children of Jerusalem to the sons of the Greeks,"
+        "text": "and have sold the children of Judah and the children of Jerusalem to the sons of the Greeks,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "that you may remove them far from their border."
-      },
-      {
-        "type": "n"
+        "text": "that you may remove them far from their border.",
+        "break": true
       }
     ]
   },
@@ -1656,16 +1242,12 @@
     "verse": 7,
     "content": [
       {
-        "text": "Behold, I will stir them up out of the place where you have sold them,"
+        "text": "Behold, I will stir them up out of the place where you have sold them,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and will return your repayment on your own head;"
-      },
-      {
-        "type": "n"
+        "text": "and will return your repayment on your own head;",
+        "break": true
       }
     ]
   },
@@ -1675,26 +1257,18 @@
     "verse": 8,
     "content": [
       {
-        "text": "and I will sell your sons and your daughters into the hands of the children of Judah,"
+        "text": "and I will sell your sons and your daughters into the hands of the children of Judah,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and they will sell them to the men of Sheba,",
+        "break": true
       },
       {
-        "text": "and they will sell them to the men of Sheba,"
+        "text": "to a faraway nation,",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "to a faraway nation,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for Yahweh has spoken it.”"
-      }
+      "for Yahweh has spoken it.”"
     ]
   },
   {
@@ -1703,35 +1277,23 @@
     "verse": 9,
     "content": [
       {
-        "type": "p"
+        "text": "Proclaim this among the nations:",
+        "paragraph": true,
+        "break": true
       },
       {
-        "text": "Proclaim this among the nations:"
+        "text": "“Prepare for war!",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "Stir up the mighty men.",
+        "break": true
       },
       {
-        "text": "“Prepare for war!"
+        "text": "Let all the warriors draw near.",
+        "break": true
       },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Stir up the mighty men."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Let all the warriors draw near."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Let them come up."
-      }
+      "Let them come up."
     ]
   },
   {
@@ -1740,22 +1302,16 @@
     "verse": 10,
     "content": [
       {
-        "text": "Beat your plowshares into swords,"
+        "text": "Beat your plowshares into swords,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and your pruning hooks into spears.",
+        "break": true
       },
       {
-        "text": "and your pruning hooks into spears."
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Let the weak say, ‘I am strong.’"
-      },
-      {
-        "type": "n"
+        "text": "Let the weak say, ‘I am strong.’",
+        "break": true
       }
     ]
   },
@@ -1765,22 +1321,16 @@
     "verse": 11,
     "content": [
       {
-        "text": "Hurry and come, all you surrounding nations,"
+        "text": "Hurry and come, all you surrounding nations,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and gather yourselves together.”",
+        "break": true
       },
       {
-        "text": "and gather yourselves together.”"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "Cause your mighty ones to come down there, Yahweh."
-      },
-      {
-        "type": "n"
+        "text": "Cause your mighty ones to come down there, Yahweh.",
+        "break": true
       }
     ]
   },
@@ -1790,22 +1340,16 @@
     "verse": 12,
     "content": [
       {
-        "text": "“Let the nations arouse themselves,"
+        "text": "“Let the nations arouse themselves,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and come up to the valley of Jehoshaphat;",
+        "break": true
       },
       {
-        "text": "and come up to the valley of Jehoshaphat;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for there I will sit to judge all the surrounding nations."
-      },
-      {
-        "type": "n"
+        "text": "for there I will sit to judge all the surrounding nations.",
+        "break": true
       }
     ]
   },
@@ -1815,28 +1359,20 @@
     "verse": 13,
     "content": [
       {
-        "text": "Put in the sickle;"
+        "text": "Put in the sickle;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "for the harvest is ripe.",
+        "break": true
       },
       {
-        "text": "for the harvest is ripe."
+        "text": "Come, tread, for the wine press is full,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Come, tread, for the wine press is full,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "the vats overflow, for their wickedness is great.”"
-      },
-      {
-        "type": "n"
+        "text": "the vats overflow, for their wickedness is great.”",
+        "break": true
       }
     ]
   },
@@ -1846,16 +1382,12 @@
     "verse": 14,
     "content": [
       {
-        "text": "Multitudes, multitudes in the valley of decision!"
+        "text": "Multitudes, multitudes in the valley of decision!",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "For the day of Yahweh is near in the valley of decision."
-      },
-      {
-        "type": "n"
+        "text": "For the day of Yahweh is near in the valley of decision.",
+        "break": true
       }
     ]
   },
@@ -1865,16 +1397,12 @@
     "verse": 15,
     "content": [
       {
-        "text": "The sun and the moon are darkened,"
+        "text": "The sun and the moon are darkened,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and the stars withdraw their shining."
-      },
-      {
-        "type": "n"
+        "text": "and the stars withdraw their shining.",
+        "break": true
       }
     ]
   },
@@ -1884,34 +1412,24 @@
     "verse": 16,
     "content": [
       {
-        "text": "Yahweh will roar from Zion,"
+        "text": "Yahweh will roar from Zion,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and thunder from Jerusalem;",
+        "break": true
       },
       {
-        "text": "and thunder from Jerusalem;"
+        "text": "and the heavens and the earth will shake;",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "but Yahweh will be a refuge to his people,",
+        "break": true
       },
       {
-        "text": "and the heavens and the earth will shake;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "but Yahweh will be a refuge to his people,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and a stronghold to the children of Israel."
-      },
-      {
-        "type": "n"
+        "text": "and a stronghold to the children of Israel.",
+        "break": true
       }
     ]
   },
@@ -1921,28 +1439,20 @@
     "verse": 17,
     "content": [
       {
-        "text": "“So you will know that I am Yahweh, your God,"
+        "text": "“So you will know that I am Yahweh, your God,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "dwelling in Zion, my holy mountain.",
+        "break": true
       },
       {
-        "text": "dwelling in Zion, my holy mountain."
+        "text": "Then Jerusalem will be holy,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "Then Jerusalem will be holy,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and no strangers will pass through her any more."
-      },
-      {
-        "type": "n"
+        "text": "and no strangers will pass through her any more.",
+        "break": true
       }
     ]
   },
@@ -1952,40 +1462,28 @@
     "verse": 18,
     "content": [
       {
-        "text": "It will happen in that day,"
+        "text": "It will happen in that day,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that the mountains will drop down sweet wine,",
+        "break": true
       },
       {
-        "text": "that the mountains will drop down sweet wine,"
+        "text": "the hills will flow with milk,",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "all the brooks of Judah will flow with waters;",
+        "break": true
       },
       {
-        "text": "the hills will flow with milk,"
+        "text": "and a fountain will flow out from Yahweh’s house,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "all the brooks of Judah will flow with waters;"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and a fountain will flow out from Yahweh’s house,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "and will water the valley of Shittim."
-      },
-      {
-        "type": "n"
+        "text": "and will water the valley of Shittim.",
+        "break": true
       }
     ]
   },
@@ -1995,28 +1493,20 @@
     "verse": 19,
     "content": [
       {
-        "text": "Egypt will be a desolation"
+        "text": "Egypt will be a desolation",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "and Edom will be a desolate wilderness,",
+        "break": true
       },
       {
-        "text": "and Edom will be a desolate wilderness,"
+        "text": "for the violence done to the children of Judah,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "for the violence done to the children of Judah,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "because they have shed innocent blood in their land."
-      },
-      {
-        "type": "n"
+        "text": "because they have shed innocent blood in their land.",
+        "break": true
       }
     ]
   },
@@ -2026,16 +1516,12 @@
     "verse": 20,
     "content": [
       {
-        "text": "But Judah will be inhabited forever,"
+        "text": "But Judah will be inhabited forever,",
+        "break": true
       },
       {
-        "type": "n"
-      },
-      {
-        "text": "and Jerusalem from generation to generation."
-      },
-      {
-        "type": "n"
+        "text": "and Jerusalem from generation to generation.",
+        "break": true
       }
     ]
   },
@@ -2045,20 +1531,14 @@
     "verse": 21,
     "content": [
       {
-        "text": "I will cleanse their blood"
+        "text": "I will cleanse their blood",
+        "break": true
       },
       {
-        "type": "n"
+        "text": "that I have not cleansed,",
+        "break": true
       },
-      {
-        "text": "that I have not cleansed,"
-      },
-      {
-        "type": "n"
-      },
-      {
-        "text": "for Yahweh dwells in Zion.”"
-      }
+      "for Yahweh dwells in Zion.”"
     ]
   }
 ]

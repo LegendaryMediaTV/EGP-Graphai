@@ -30,8 +30,8 @@
 <sup>22</sup> So Naomi returned, and Ruth the Moabitess, her daughter-in-law, with her, who returned out of the country of Moab. They came to Bethlehem in the beginning of barley harvest.
 
 > - <sup>a</sup> 6. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
-> - <sup>b</sup> 15. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
-> - <sup>c</sup> 16. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>b</sup> 15. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>c</sup> 16. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 > - <sup>d</sup> 20. “Naomi” means “pleasant”.
 > - <sup>e</sup> 20. “Mara” means “bitter”.
 

@@ -78,7 +78,7 @@
 <sup>10</sup> The princes of Judah were like them that remove the bound: [therefore] I will pour out my wrath upon them like water.
 <sup>11</sup> Ephraim [is] oppressed [and] broken in judgment, because he willingly walked after the commandment.
 <sup>12</sup> Therefore [will] I [be] unto Ephraim as a moth, and to the house of Judah as rottenness.
-<sup>13</sup> When Ephraim saw his sickness, and Judah [saw] his wound, then went Ephraim to the Assyrian, and sent to king Jareb : yet could he not heal you, nor cure you of your wound.
+<sup>13</sup> When Ephraim saw his sickness, and Judah [saw] his wound, then went Ephraim to the Assyrian, and sent to king Jareb: yet could he not heal you, nor cure you of your wound.
 <sup>14</sup> For I [will be] unto Ephraim as a lion, and as a young lion to the house of Judah: I, [even] I, will tear and go away; I will take away, and none shall rescue [him].
 <sup>15</sup> I will go [and] return to my place, till they acknowledge their offence, and seek my face: in their affliction they will seek me early.
 ## Chapter 6
@@ -91,7 +91,7 @@
 <sup>6</sup> For I desired mercy, and not sacrifice; and the knowledge of God more than burnt offerings.
 <sup>7</sup> But they like men have transgressed the covenant: there have they dealt treacherously against me.
 <sup>8</sup> Gilead [is] a city of them that work iniquity, [and is] polluted with blood.
-<sup>9</sup> And as troops of robbers wait for a man, [so] the company of priests murder in the way by consent : for they commit lewdness.
+<sup>9</sup> And as troops of robbers wait for a man, [so] the company of priests murder in the way by consent: for they commit lewdness.
 <sup>10</sup> I have seen an horrible thing in the house of Israel: there [is] the whoredom of Ephraim, Israel is defiled.
 <sup>11</sup> Also, O Judah, he hath set an harvest for thee, when I returned the captivity of my people.
 ## Chapter 7
@@ -130,7 +130,7 @@
 <sup>14</sup> For Israel hath forgotten his Maker, and buildeth temples; and Judah hath multiplied fenced cities: but I will send a fire upon his cities, and it shall devour the palaces thereof.
 ## Chapter 9
 
-<sup>1</sup> Rejoice not, O Israel, for joy, as [other] people: for thou hast gone a whoring from thy God, thou hast loved a reward upon every cornfloor .
+<sup>1</sup> Rejoice not, O Israel, for joy, as [other] people: for thou hast gone a whoring from thy God, thou hast loved a reward upon every cornfloor.
 <sup>2</sup> The floor and the winepress shall not feed them, and the new wine shall fail in her.
 <sup>3</sup> They shall not dwell in the LORD’S land; but Ephraim shall return to Egypt, and they shall eat unclean [things] in Assyria.
 <sup>4</sup> They shall not offer wine [offerings] to the LORD, neither shall they be pleasing unto him: their sacrifices [shall be] unto them as the bread of mourners; all that eat thereof shall be polluted: for their bread for their soul shall not come into the house of the LORD.

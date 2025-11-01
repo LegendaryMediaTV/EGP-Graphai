@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> Now it came to pass in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehemjudah went to sojourn in the country of Moab, he, and his wife, and his two sons.
-<sup>2</sup> And the name of the man [was] Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah . And they came into the country of Moab, and continued there.
+<sup>2</sup> And the name of the man [was] Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehemjudah. And they came into the country of Moab, and continued there.
 <sup>3</sup> And Elimelech Naomi’s husband died; and she was left, and her two sons.
 <sup>4</sup> And they took them wives of the women of Moab; the name of the one [was] Orpah, and the name of the other Ruth: and they dwelled there about ten years.
 <sup>5</sup> And Mahlon and Chilion died also both of them; and the woman was left of her two sons and her husband.
@@ -34,7 +34,7 @@
 <sup>8</sup> Then said Boaz unto Ruth, Hearest thou not, my daughter? Go not to glean in another field, neither go from hence, but abide here fast by my maidens:
 <sup>9</sup> [Let] thine eyes [be] on the field that they do reap, and go thou after them: have I not charged the young men that they shall not touch thee? and when thou art athirst, go unto the vessels, and drink of [that] which the young men have drawn.
 <sup>10</sup> Then she fell on her face, and bowed herself to the ground, and said unto him, Why have I found grace in thine eyes, that thou shouldest take knowledge of me, seeing I [am] a stranger?
-<sup>11</sup> And Boaz answered and said unto her, It hath fully been shewed me, all that thou hast done unto thy mother in law since the death of thine husband: and [how] thou hast left thy father and thy mother, and the land of thy nativity, and art come unto a people which thou knewest not heretofore .
+<sup>11</sup> And Boaz answered and said unto her, It hath fully been shewed me, all that thou hast done unto thy mother in law since the death of thine husband: and [how] thou hast left thy father and thy mother, and the land of thy nativity, and art come unto a people which thou knewest not heretofore.
 <sup>12</sup> The LORD recompense thy work, and a full reward be given thee of the LORD God of Israel, under whose wings thou art come to trust.
 <sup>13</sup> Then she said, Let me find favour in thy sight, my lord; for that thou hast comforted me, and for that thou hast spoken friendly unto thine handmaid, though I be not like unto one of thine handmaidens.
 <sup>14</sup> And Boaz said unto her, At mealtime come thou hither, and eat of the bread, and dip thy morsel in the vinegar. And she sat beside the reapers: and he reached her parched [corn], and she did eat, and was sufficed, and left.
@@ -56,7 +56,7 @@
 <sup>5</sup> And she said unto her, All that thou sayest unto me I will do.
 <sup>6</sup> And she went down unto the floor, and did according to all that her mother in law bade her.
 <sup>7</sup> And when Boaz had eaten and drunk, and his heart was merry, he went to lie down at the end of the heap of corn: and she came softly, and uncovered his feet, and laid her down.
-<sup>8</sup> And it came to pass at midnight , that the man was afraid, and turned himself: and, behold, a woman lay at his feet.
+<sup>8</sup> And it came to pass at midnight, that the man was afraid, and turned himself: and, behold, a woman lay at his feet.
 <sup>9</sup> And he said, Who [art] thou? And she answered, I [am] Ruth thine handmaid: spread therefore thy skirt over thine handmaid; for thou [art] a near kinsman.
 <sup>10</sup> And he said, Blessed [be] thou of the LORD, my daughter: [for] thou hast shewed more kindness in the latter end than at the beginning, inasmuch as thou followedst not young men, whether poor or rich.
 <sup>11</sup> And now, my daughter, fear not; I will do to thee all that thou requirest: for all the city of my people doth know that thou [art] a virtuous woman.

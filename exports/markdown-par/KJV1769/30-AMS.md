@@ -4,7 +4,7 @@
 <sup>2</sup> And he said, The LORD will roar from Zion, and utter his voice from Jerusalem; and the habitations of the shepherds shall mourn, and the top of Carmel shall wither.
 <sup>3</sup> Thus saith the LORD; For three transgressions of Damascus, and for four, I will not turn away [the punishment] thereof; because they have threshed Gilead with threshing instruments of iron:
 <sup>4</sup> But I will send a fire into the house of Hazael, which shall devour the palaces of Benhadad.
-<sup>5</sup> I will break also the bar of Damascus, and cut off the inhabitant from the plain of Aven, and him that holdeth the sceptre from the house of Eden : and the people of Syria shall go into captivity unto Kir, saith the LORD.
+<sup>5</sup> I will break also the bar of Damascus, and cut off the inhabitant from the plain of Aven, and him that holdeth the sceptre from the house of Eden: and the people of Syria shall go into captivity unto Kir, saith the LORD.
 <sup>6</sup> Thus saith the LORD; For three transgressions of Gaza, and for four, I will not turn away [the punishment] thereof; because they carried away captive the whole captivity, to deliver [them] up to Edom:
 <sup>7</sup> But I will send a fire on the wall of Gaza, which shall devour the palaces thereof:
 <sup>8</sup> And I will cut off the inhabitant from Ashdod, and him that holdeth the sceptre from Ashkelon, and I will turn mine hand against Ekron: and the remnant of the Philistines shall perish, saith the Lord GOD.
@@ -53,7 +53,7 @@
 ## Chapter 4
 
 <sup>1</sup> Hear this word, ye kine of Bashan, that [are] in the mountain of Samaria, which oppress the poor, which crush the needy, which say to their masters, Bring, and let us drink.
-<sup>2</sup> The Lord GOD hath sworn by his holiness, that, lo, the days shall come upon you, that he will take you away with hooks, and your posterity with fishhooks .
+<sup>2</sup> The Lord GOD hath sworn by his holiness, that, lo, the days shall come upon you, that he will take you away with hooks, and your posterity with fishhooks.
 <sup>3</sup> And ye shall go out at the breaches, every [cow at that which is] before her; and ye shall cast [them] into the palace, saith the LORD.
 <sup>4</sup> Come to Bethel, and transgress; at Gilgal multiply transgression; and bring your sacrifices every morning, [and] your tithes after three years:
 <sup>5</sup> And offer a sacrifice of thanksgiving with leaven, and proclaim [and] publish the free offerings: for this liketh you, O ye children of Israel, saith the Lord GOD.
@@ -97,7 +97,7 @@
 ## Chapter 6
 
 <sup>1</sup> Woe to them [that are] at ease in Zion, and trust in the mountain of Samaria, [which are] named chief of the nations, to whom the house of Israel came!
-<sup>2</sup> Pass ye unto Calneh, and see; and from thence go ye to Hamath the great : then go down to Gath of the Philistines: [be they] better than these kingdoms? or their border greater than your border?
+<sup>2</sup> Pass ye unto Calneh, and see; and from thence go ye to Hamath the great: then go down to Gath of the Philistines: [be they] better than these kingdoms? or their border greater than your border?
 <sup>3</sup> Ye that put far away the evil day, and cause the seat of violence to come near;
 <sup>4</sup> That lie upon beds of ivory, and stretch themselves upon their couches, and eat the lambs out of the flock, and the calves out of the midst of the stall;
 <sup>5</sup> That chant to the sound of the viol, [and] invent to themselves instruments of musick, like David;

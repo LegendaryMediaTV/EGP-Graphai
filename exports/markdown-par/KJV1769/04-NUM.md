@@ -134,7 +134,7 @@
 <sup>40</sup> And the LORD said unto Moses, Number all the firstborn of the males of the children of Israel from a month old and upward, and take the number of their names.
 <sup>41</sup> And thou shalt take the Levites for me (I [am] the LORD ) instead of all the firstborn among the children of Israel; and the cattle of the Levites instead of all the firstlings among the cattle of the children of Israel.
 <sup>42</sup> And Moses numbered, as the LORD commanded him, all the firstborn among the children of Israel.
-<sup>43</sup> And all the firstborn males by the number of names, from a month old and upward, of those that were numbered of them, were twenty and two thousand two hundred and threescore and thirteen .
+<sup>43</sup> And all the firstborn males by the number of names, from a month old and upward, of those that were numbered of them, were twenty and two thousand two hundred and threescore and thirteen.
 <sup>44</sup> And the LORD spake unto Moses, saying,
 <sup>45</sup> Take the Levites instead of all the firstborn among the children of Israel, and the cattle of the Levites instead of their cattle; and the Levites shall be mine: I [am] the LORD.
 <sup>46</sup> And for those that are to be redeemed of the two hundred and threescore and thirteen of the firstborn of the children of Israel, which are more than the Levites;
@@ -152,7 +152,7 @@
 <sup>5</sup> And when the camp setteth forward, Aaron shall come, and his sons, and they shall take down the covering vail, and cover the ark of testimony with it:
 <sup>6</sup> And shall put thereon the covering of badgers ’ skins, and shall spread over [it] a cloth wholly of blue, and shall put in the staves thereof.
 <sup>7</sup> And upon the table of shewbread they shall spread a cloth of blue, and put thereon the dishes, and the spoons, and the bowls, and covers to cover withal: and the continual bread shall be thereon:
-<sup>8</sup> And they shall spread upon them a cloth of scarlet , and cover the same with a covering of badgers ’ skins, and shall put in the staves thereof.
+<sup>8</sup> And they shall spread upon them a cloth of scarlet, and cover the same with a covering of badgers ’ skins, and shall put in the staves thereof.
 <sup>9</sup> And they shall take a cloth of blue, and cover the candlestick of the light, and his lamps, and his tongs, and his snuffdishes, and all the oil vessels thereof, wherewith they minister unto it:
 <sup>10</sup> And they shall put it and all the vessels thereof within a covering of badgers ’ skins, and shall put [it] upon a bar.
 <sup>11</sup> And upon the golden altar they shall spread a cloth of blue, and cover it with a covering of badgers ’ skins, and shall put to the staves thereof:
@@ -208,7 +208,7 @@
 <sup>10</sup> And every man’s hallowed things shall be his: whatsoever any man giveth the priest, it shall be his.
 <sup>11</sup> And the LORD spake unto Moses, saying,
 <sup>12</sup> Speak unto the children of Israel, and say unto them, If any man’s wife go aside, and commit a trespass against him,
-<sup>13</sup> And a man lie with her carnally , and it be hid from the eyes of her husband, and be kept close, and she be defiled, and [there be] no witness against her, neither she be taken [with the manner];
+<sup>13</sup> And a man lie with her carnally, and it be hid from the eyes of her husband, and be kept close, and she be defiled, and [there be] no witness against her, neither she be taken [with the manner];
 <sup>14</sup> And the spirit of jealousy come upon him, and he be jealous of his wife, and she be defiled: or if the spirit of jealousy come upon him, and he be jealous of his wife, and she be not defiled:
 <sup>15</sup> Then shall the man bring his wife unto the priest, and he shall bring her offering for her, the tenth [part] of an ephah of barley meal; he shall pour no oil upon it, nor put frankincense thereon; for it [is] an offering of jealousy, an offering of memorial, bringing iniquity to remembrance.
 <sup>16</sup> And the priest shall bring her near, and set her before the LORD:
@@ -343,8 +343,8 @@
 <sup>83</sup> And for a sacrifice of peace offerings, two oxen, five rams, five he goats, five lambs of the first year: this [was] the offering of Ahira the son of Enan.
 <sup>84</sup> This [was] the dedication of the altar, in the day when it was anointed, by the princes of Israel: twelve chargers of silver, twelve silver bowls, twelve spoons of gold:
 <sup>85</sup> Each charger of silver [weighing] an hundred and thirty [shekels], each bowl seventy: all the silver vessels [weighed] two thousand and four hundred [shekels], after the shekel of the sanctuary:
-<sup>86</sup> The golden spoons [were] twelve , full of incense, [weighing] ten [shekels] apiece, after the shekel of the sanctuary: all the gold of the spoons [was] an hundred and twenty [shekels].
-<sup>87</sup> All the oxen for the burnt offering [were] twelve bullocks, the rams twelve , the lambs of the first year twelve , with their meat offering: and the kids of the goats for sin offering twelve .
+<sup>86</sup> The golden spoons [were] twelve, full of incense, [weighing] ten [shekels] apiece, after the shekel of the sanctuary: all the gold of the spoons [was] an hundred and twenty [shekels].
+<sup>87</sup> All the oxen for the burnt offering [were] twelve bullocks, the rams twelve, the lambs of the first year twelve, with their meat offering: and the kids of the goats for sin offering twelve.
 <sup>88</sup> And all the oxen for the sacrifice of the peace offerings [were] twenty and four bullocks, the rams sixty, the he goats sixty, the lambs of the first year sixty. This [was] the dedication of the altar, after that it was anointed.
 <sup>89</sup> And when Moses was gone into the tabernacle of the congregation to speak with him, then he heard the voice of one speaking unto him from off the mercy seat that [was] upon the ark of testimony, from between the two cherubims: and he spake unto him.
 ## Chapter 8
@@ -443,13 +443,13 @@
 <sup>1</sup> And [when] the people complained, it displeased the LORD: and the LORD heard [it]; and his anger was kindled; and the fire of the LORD burnt among them, and consumed [them that were] in the uttermost parts of the camp.
 <sup>2</sup> And the people cried unto Moses; and when Moses prayed unto the LORD, the fire was quenched.
 <sup>3</sup> And he called the name of the place Taberah: because the fire of the LORD burnt among them.
-<sup>4</sup> And the mixt multitude that [was] among them fell a lusting : and the children of Israel also wept again, and said, Who shall give us flesh to eat?
+<sup>4</sup> And the mixt multitude that [was] among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat?
 <sup>5</sup> We remember the fish, which we did eat in Egypt freely; the cucumbers, and the melons, and the leeks, and the onions, and the garlick:
 <sup>6</sup> But now our soul [is] dried away: [there is] nothing at all, beside this manna, [before] our eyes.
 <sup>7</sup> And the manna [was] as coriander seed, and the colour thereof as the colour of bdellium.
 <sup>8</sup> [And] the people went about, and gathered [it], and ground [it] in mills, or beat [it] in a mortar, and baked [it] in pans, and made cakes of it: and the taste of it was as the taste of fresh oil.
 <sup>9</sup> And when the dew fell upon the camp in the night, the manna fell upon it.
-<sup>10</sup> Then Moses heard the people weep throughout their families, every man in the door of his tent: and the anger of the LORD was kindled greatly; Moses also was displeased .
+<sup>10</sup> Then Moses heard the people weep throughout their families, every man in the door of his tent: and the anger of the LORD was kindled greatly; Moses also was displeased.
 <sup>11</sup> And Moses said unto the LORD, Wherefore hast thou afflicted thy servant? and wherefore have I not found favour in thy sight, that thou layest the burden of all this people upon me?
 <sup>12</sup> Have I conceived all this people? have I begotten them, that thou shouldest say unto me, Carry them in thy bosom, as a nursing father beareth the sucking child, unto the land which thou swarest unto their fathers?
 <sup>13</sup> Whence should I have flesh to give unto all this people? for they weep unto me, saying, Give us flesh, that we may eat.
@@ -459,12 +459,12 @@
 <sup>17</sup> And I will come down and talk with thee there: and I will take of the spirit which [is] upon thee, and will put [it] upon them; and they shall bear the burden of the people with thee, that thou bear [it] not thyself alone.
 <sup>18</sup> And say thou unto the people, Sanctify yourselves against to morrow, and ye shall eat flesh: for ye have wept in the ears of the LORD, saying, Who shall give us flesh to eat? for [it was] well with us in Egypt: therefore the LORD will give you flesh, and ye shall eat.
 <sup>19</sup> Ye shall not eat one day, nor two days, nor five days, neither ten days, nor twenty days;
-<sup>20</sup> [But] even a whole month , until it come out at your nostrils, and it be loathsome unto you: because that ye have despised the LORD which [is] among you, and have wept before him, saying, Why came we forth out of Egypt?
+<sup>20</sup> [But] even a whole month, until it come out at your nostrils, and it be loathsome unto you: because that ye have despised the LORD which [is] among you, and have wept before him, saying, Why came we forth out of Egypt?
 <sup>21</sup> And Moses said, The people, among whom I [am], [are] six hundred thousand footmen; and thou hast said, I will give them flesh, that they may eat a whole month.
 <sup>22</sup> Shall the flocks and the herds be slain for them, to suffice them? or shall all the fish of the sea be gathered together for them, to suffice them?
 <sup>23</sup> And the LORD said unto Moses, Is the LORD’S hand waxed short? thou shalt see now whether my word shall come to pass unto thee or not.
 <sup>24</sup> And Moses went out, and told the people the words of the LORD, and gathered the seventy men of the elders of the people, and set them round about the tabernacle.
-<sup>25</sup> And the LORD came down in a cloud, and spake unto him, and took of the spirit that [was] upon him, and gave [it] unto the seventy elders : and it came to pass, [that], when the spirit rested upon them, they prophesied, and did not cease.
+<sup>25</sup> And the LORD came down in a cloud, and spake unto him, and took of the spirit that [was] upon him, and gave [it] unto the seventy elders: and it came to pass, [that], when the spirit rested upon them, they prophesied, and did not cease.
 <sup>26</sup> But there remained two [of the] men in the camp, the name of the one [was] Eldad, and the name of the other Medad: and the spirit rested upon them; and they [were] of them that were written, but went not out unto the tabernacle: and they prophesied in the camp.
 <sup>27</sup> And there ran a young man, and told Moses, and said, Eldad and Medad do prophesy in the camp.
 <sup>28</sup> And Joshua the son of Nun, the servant of Moses, [one] of his young men, answered and said, My lord Moses, forbid them.
@@ -479,7 +479,7 @@
 
 <sup>1</sup> And Miriam and Aaron spake against Moses because of the Ethiopian woman whom he had married: for he had married an Ethiopian woman.
 <sup>2</sup> And they said, Hath the LORD indeed spoken only by Moses? hath he not spoken also by us? And the LORD heard [it].
-<sup>3</sup> (Now the man Moses [was] very meek , above all the men which [were] upon the face of the earth.)
+<sup>3</sup> (Now the man Moses [was] very meek, above all the men which [were] upon the face of the earth.)
 <sup>4</sup> And the LORD spake suddenly unto Moses, and unto Aaron, and unto Miriam, Come out ye three unto the tabernacle of the congregation. And they three came out.
 <sup>5</sup> And the LORD came down in the pillar of the cloud, and stood [in] the door of the tabernacle, and called Aaron and Miriam: and they both came forth.
 <sup>6</sup> And he said, Hear now my words: If there be a prophet among you, [I] the LORD will make myself known unto him in a vision, [and] will speak unto him in a dream.
@@ -488,7 +488,7 @@
 <sup>9</sup> And the anger of the LORD was kindled against them; and he departed.
 <sup>10</sup> And the cloud departed from off the tabernacle; and, behold, Miriam [became] leprous, [white] as snow: and Aaron looked upon Miriam, and, behold, [she was] leprous.
 <sup>11</sup> And Aaron said unto Moses, Alas, my lord, I beseech thee, lay not the sin upon us, wherein we have done foolishly, and wherein we have sinned.
-<sup>12</sup> Let her not be as one dead , of whom the flesh is half consumed when he cometh out of his mother’s womb.
+<sup>12</sup> Let her not be as one dead, of whom the flesh is half consumed when he cometh out of his mother’s womb.
 <sup>13</sup> And Moses cried unto the LORD, saying, Heal her now, O God, I beseech thee.
 <sup>14</sup> And the LORD said unto Moses, If her father had but spit in her face, should she not be ashamed seven days? let her be shut out from the camp seven days, and after that let her be received in [again].
 <sup>15</sup> And Miriam was shut out from the camp seven days: and the people journeyed not till Miriam was brought in [again].
@@ -547,7 +547,7 @@
 <sup>15</sup> Now [if] thou shalt kill [all] this people as one man, then the nations which have heard the fame of thee will speak, saying,
 <sup>16</sup> Because the LORD was not able to bring this people into the land which he sware unto them, therefore he hath slain them in the wilderness.
 <sup>17</sup> And now, I beseech thee, let the power of my Lord be great, according as thou hast spoken, saying,
-<sup>18</sup> The LORD [is] longsuffering , and of great mercy, forgiving iniquity and transgression, and by no means clearing [the guilty], visiting the iniquity of the fathers upon the children unto the third and fourth [generation].
+<sup>18</sup> The LORD [is] longsuffering, and of great mercy, forgiving iniquity and transgression, and by no means clearing [the guilty], visiting the iniquity of the fathers upon the children unto the third and fourth [generation].
 <sup>19</sup> Pardon, I beseech thee, the iniquity of this people according unto the greatness of thy mercy, and as thou hast forgiven this people, from Egypt even until now.
 <sup>20</sup> And the LORD said, I have pardoned according to thy word:
 <sup>21</sup> But [as] truly [as] I live, all the earth shall be filled with the glory of the LORD.
@@ -563,7 +563,7 @@
 <sup>31</sup> But your little ones, which ye said should be a prey, them will I bring in, and they shall know the land which ye have despised.
 <sup>32</sup> But [as for] you, your carcases, they shall fall in this wilderness.
 <sup>33</sup> And your children shall wander in the wilderness forty years, and bear your whoredoms, until your carcases be wasted in the wilderness.
-<sup>34</sup> After the number of the days in which ye searched the land, [even] forty days, each day for a year , shall ye bear your iniquities, [even] forty years, and ye shall know my breach of promise.
+<sup>34</sup> After the number of the days in which ye searched the land, [even] forty days, each day for a year, shall ye bear your iniquities, [even] forty years, and ye shall know my breach of promise.
 <sup>35</sup> I the LORD have said, I will surely do it unto all this evil congregation, that are gathered together against me: in this wilderness they shall be consumed, and there they shall die.
 <sup>36</sup> And the men, which Moses sent to search the land, who returned, and made all the congregation to murmur (8675) against him, by bringing up a slander upon the land,
 <sup>37</sup> Even those men that did bring up the evil report upon the land, died by the plague before the LORD.
@@ -587,7 +587,7 @@
 <sup>8</sup> And when thou preparest a bullock [for] a burnt offering, or [for] a sacrifice in performing a vow, or peace offerings unto the LORD:
 <sup>9</sup> Then shall he bring with a bullock a meat offering of three tenth deals of flour mingled with half an hin of oil.
 <sup>10</sup> And thou shalt bring for a drink offering half an hin of wine, [for] an offering made by fire, of a sweet savour unto the LORD.
-<sup>11</sup> Thus shall it be done for one bullock, or for one ram, or for a lamb , or a kid.
+<sup>11</sup> Thus shall it be done for one bullock, or for one ram, or for a lamb, or a kid.
 <sup>12</sup> According to the number that ye shall prepare, so shall ye do to every one according to their number.
 <sup>13</sup> All that are born of the country shall do these things after this manner, in offering an offering made by fire, of a sweet savour unto the LORD.
 <sup>14</sup> And if a stranger sojourn with you, or whosoever [be] among you in your generations, and will offer an offering made by fire, of a sweet savour unto the LORD; as ye do, so he shall do.
@@ -606,7 +606,7 @@
 <sup>27</sup> And if any soul sin through ignorance, then he shall bring a she goat of the first year for a sin offering.
 <sup>28</sup> And the priest shall make an atonement for the soul that sinneth ignorantly, when he sinneth by ignorance before the LORD, to make an atonement for him; and it shall be forgiven him.
 <sup>29</sup> Ye shall have one law for him that sinneth through ignorance, [both for] him that is born among the children of Israel, and for the stranger that sojourneth among them.
-<sup>30</sup> But the soul that doeth [ought] presumptuously , [whether he be] born in the land, or a stranger , the same reproacheth the LORD; and that soul shall be cut off from among his people.
+<sup>30</sup> But the soul that doeth [ought] presumptuously, [whether he be] born in the land, or a stranger, the same reproacheth the LORD; and that soul shall be cut off from among his people.
 <sup>31</sup> Because he hath despised the word of the LORD, and hath broken his commandment, that soul shall utterly be cut off; his iniquity [shall be] upon him.
 <sup>32</sup> And while the children of Israel were in the wilderness, they found a man that gathered sticks upon the sabbath day.
 <sup>33</sup> And they that found him gathering sticks brought him unto Moses and Aaron, and unto all the congregation.
@@ -659,7 +659,7 @@
 <sup>37</sup> Speak unto Eleazar the son of Aaron the priest, that he take up the censers out of the burning, and scatter thou the fire yonder; for they are hallowed.
 <sup>38</sup> The censers of these sinners against their own souls, let them make them broad plates [for] a covering of the altar: for they offered them before the LORD, therefore they are hallowed: and they shall be a sign unto the children of Israel.
 <sup>39</sup> And Eleazar the priest took the brasen censers, wherewith they that were burnt had offered; and they were made broad [plates for] a covering of the altar:
-<sup>40</sup> [To be] a memorial unto the children of Israel, that no stranger , which [is] not of the seed of Aaron, come near to offer incense before the LORD; that he be not as Korah, and as his company: as the LORD said to him by the hand of Moses.
+<sup>40</sup> [To be] a memorial unto the children of Israel, that no stranger, which [is] not of the seed of Aaron, come near to offer incense before the LORD; that he be not as Korah, and as his company: as the LORD said to him by the hand of Moses.
 <sup>41</sup> But on the morrow all the congregation of the children of Israel murmured against Moses and against Aaron, saying, Ye have killed the people of the LORD.
 <sup>42</sup> And it came to pass, when the congregation was gathered against Moses and against Aaron, that they looked toward the tabernacle of the congregation: and, behold, the cloud covered it, and the glory of the LORD appeared.
 <sup>43</sup> And Moses and Aaron came before the tabernacle of the congregation.
@@ -677,11 +677,11 @@
 <sup>3</sup> And thou shalt write Aaron’s name upon the rod of Levi: for one rod [shall be] for the head of the house of their fathers.
 <sup>4</sup> And thou shalt lay them up in the tabernacle of the congregation before the testimony, where I will meet with you.
 <sup>5</sup> And it shall come to pass, [that] the man’s rod, whom I shall choose, shall blossom: and I will make to cease from me the murmurings of the children of Israel, whereby they murmur against you.
-<sup>6</sup> And Moses spake unto the children of Israel, and every one of their princes gave him a rod apiece, for each prince one , according to their fathers ’ houses, [even] twelve rods: and the rod of Aaron [was] among their rods.
+<sup>6</sup> And Moses spake unto the children of Israel, and every one of their princes gave him a rod apiece, for each prince one, according to their fathers ’ houses, [even] twelve rods: and the rod of Aaron [was] among their rods.
 <sup>7</sup> And Moses laid up the rods before the LORD in the tabernacle of witness.
 <sup>8</sup> And it came to pass, that on the morrow Moses went into the tabernacle of witness; and, behold, the rod of Aaron for the house of Levi was budded, and brought forth buds, and bloomed blossoms, and yielded almonds.
 <sup>9</sup> And Moses brought out all the rods from before the LORD unto all the children of Israel: and they looked, and took every man his rod.
-<sup>10</sup> And the LORD said unto Moses, Bring Aaron’s rod again before the testimony, to be kept for a token against the rebels ; and thou shalt quite take away their murmurings from me, that they die not.
+<sup>10</sup> And the LORD said unto Moses, Bring Aaron’s rod again before the testimony, to be kept for a token against the rebels; and thou shalt quite take away their murmurings from me, that they die not.
 <sup>11</sup> And Moses did [so]: as the LORD commanded him, so did he.
 <sup>12</sup> And the children of Israel spake unto Moses, saying, Behold, we die, we perish, we all perish.
 <sup>13</sup> Whosoever cometh any thing near unto the tabernacle of the LORD shall die: shall we be consumed with dying?
@@ -726,7 +726,7 @@
 <sup>3</sup> And ye shall give her unto Eleazar the priest, that he may bring her forth without the camp, and [one] shall slay her before his face:
 <sup>4</sup> And Eleazar the priest shall take of her blood with his finger, and sprinkle of her blood directly before the tabernacle of the congregation seven times:
 <sup>5</sup> And [one] shall burn the heifer in his sight; her skin, and her flesh, and her blood, with her dung, shall he burn:
-<sup>6</sup> And the priest shall take cedar wood, and hyssop, and scarlet , and cast [it] into the midst of the burning of the heifer.
+<sup>6</sup> And the priest shall take cedar wood, and hyssop, and scarlet, and cast [it] into the midst of the burning of the heifer.
 <sup>7</sup> Then the priest shall wash his clothes, and he shall bathe his flesh in water, and afterward he shall come into the camp, and the priest shall be unclean until the even.
 <sup>8</sup> And he that burneth her shall wash his clothes in water, and bathe his flesh in water, and shall be unclean until the even.
 <sup>9</sup> And a man [that is] clean shall gather up the ashes of the heifer, and lay [them] up without the camp in a clean place, and it shall be kept for the congregation of the children of Israel for a water of separation: it [is] a purification for sin.
@@ -786,7 +786,7 @@
 <sup>8</sup> And the LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.
 <sup>9</sup> And Moses made a serpent of brass, and put it upon a pole, and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived.
 <sup>10</sup> And the children of Israel set forward, and pitched in Oboth.
-<sup>11</sup> And they journeyed from Oboth, and pitched at Ijeabarim, in the wilderness which [is] before Moab, toward the sunrising .
+<sup>11</sup> And they journeyed from Oboth, and pitched at Ijeabarim, in the wilderness which [is] before Moab, toward the sunrising.
 <sup>12</sup> From thence they removed, and pitched in the valley of Zared.
 <sup>13</sup> From thence they removed, and pitched on the other side of Arnon, which [is] in the wilderness that cometh out of the coasts of the Amorites: for Arnon [is] the border of Moab, between Moab and the Amorites.
 <sup>14</sup> Wherefore it is said in the book of the wars of the LORD, What he did in the Red sea, and in the brooks of Arnon,
@@ -846,12 +846,12 @@
 <sup>31</sup> Then the LORD opened the eyes of Balaam, and he saw the angel of the LORD standing in the way, and his sword drawn in his hand: and he bowed down his head, and fell flat on his face.
 <sup>32</sup> And the angel of the LORD said unto him, Wherefore hast thou smitten thine ass these three times? behold, I went out to withstand thee, because [thy] way is perverse before me:
 <sup>33</sup> And the ass saw me, and turned from me these three times: unless she had turned from me, surely now also I had slain thee, and saved her alive.
-<sup>34</sup> And Balaam said unto the angel of the LORD, I have sinned; for I knew not that thou stoodest in the way against me: now therefore, if it displease thee , I will get me back again.
+<sup>34</sup> And Balaam said unto the angel of the LORD, I have sinned; for I knew not that thou stoodest in the way against me: now therefore, if it displease thee, I will get me back again.
 <sup>35</sup> And the angel of the LORD said unto Balaam, Go with the men: but only the word that I shall speak unto thee, that thou shalt speak. So Balaam went with the princes of Balak.
 <sup>36</sup> And when Balak heard that Balaam was come, he went out to meet him unto a city of Moab, which [is] in the border of Arnon, which [is] in the utmost coast.
 <sup>37</sup> And Balak said unto Balaam, Did I not earnestly send unto thee to call thee? wherefore camest thou not unto me? am I not able indeed to promote thee to honour?
 <sup>38</sup> And Balaam said unto Balak, Lo, I am come unto thee: have I now any power at all to say any thing? the word that God putteth in my mouth, that shall I speak.
-<sup>39</sup> And Balaam went with Balak, and they came unto Kirjathhuzoth .
+<sup>39</sup> And Balaam went with Balak, and they came unto Kirjathhuzoth.
 <sup>40</sup> And Balak offered oxen and sheep, and sent to Balaam, and to the princes that [were] with him.
 <sup>41</sup> And it came to pass on the morrow, that Balak took Balaam, and brought him up into the high places of Baal, that thence he might see the utmost [part] of the people.
 ## Chapter 23
@@ -869,7 +869,7 @@
 <sup>11</sup> And Balak said unto Balaam, What hast thou done unto me? I took thee to curse mine enemies, and, behold, thou hast blessed [them] altogether.
 <sup>12</sup> And he answered and said, Must I not take heed to speak that which the LORD hath put in my mouth?
 <sup>13</sup> And Balak said unto him, Come, I pray thee, with me unto another place, from whence thou mayest see them: thou shalt see but the utmost part of them, and shalt not see them all: and curse me them from thence.
-<sup>14</sup> And he brought him into the field of Zophim , to the top of Pisgah, and built seven altars, and offered a bullock and a ram on [every] altar.
+<sup>14</sup> And he brought him into the field of Zophim, to the top of Pisgah, and built seven altars, and offered a bullock and a ram on [every] altar.
 <sup>15</sup> And he said unto Balak, Stand here by thy burnt offering, while I meet [the LORD] yonder.
 <sup>16</sup> And the LORD met Balaam, and put a word in his mouth, and said, Go again unto Balak, and say thus.
 <sup>17</sup> And when he came to him, behold, he stood by his burnt offering, and the princes of Moab with him. And Balak said unto him, What hath the LORD spoken?
@@ -904,7 +904,7 @@
 <sup>14</sup> And now, behold, I go unto my people: come [therefore, and] I will advertise thee what this people shall do to thy people in the latter days.
 <sup>15</sup> And he took up his parable, and said, Balaam the son of Beor hath said, and the man whose eyes are open hath said:
 <sup>16</sup> He hath said, which heard the words of God, and knew the knowledge of the most High, [which] saw the vision of the Almighty, falling [into a trance], but having his eyes open:
-<sup>17</sup> I shall see him, but not now: I shall behold him, but not nigh: there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel, and shall smite the corners of Moab, and destroy all the children of Sheth .
+<sup>17</sup> I shall see him, but not now: I shall behold him, but not nigh: there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel, and shall smite the corners of Moab, and destroy all the children of Sheth.
 <sup>18</sup> And Edom shall be a possession, Seir also shall be a possession for his enemies; and Israel shall do valiantly.
 <sup>19</sup> Out of Jacob shall come he that shall have dominion, and shall destroy him that remaineth of the city.
 <sup>20</sup> And when he looked on Amalek, he took up his parable, and said, Amalek [was] the first of the nations; but his latter end [shall be] that he perish for ever.
@@ -1123,7 +1123,7 @@
 <sup>1</sup> And the LORD spake unto Moses, saying,
 <sup>2</sup> Avenge the children of Israel of the Midianites: afterward shalt thou be gathered unto thy people.
 <sup>3</sup> And Moses spake unto the people, saying, Arm some of yourselves unto the war, and let them go against the Midianites, and avenge the LORD of Midian.
-<sup>4</sup> Of every tribe a thousand , throughout all the tribes of Israel, shall ye send to the war.
+<sup>4</sup> Of every tribe a thousand, throughout all the tribes of Israel, shall ye send to the war.
 <sup>5</sup> So there were delivered out of the thousands of Israel, a thousand of [every] tribe, twelve thousand armed for war.
 <sup>6</sup> And Moses sent them to the war, a thousand of [every] tribe, them and Phinehas the son of Eleazar the priest, to the war, with the holy instruments, and the trumpets to blow in his hand.
 <sup>7</sup> And they warred against the Midianites, as the LORD commanded Moses; and they slew all the males.
@@ -1156,16 +1156,16 @@
 <sup>34</sup> And threescore and one thousand asses,
 <sup>35</sup> And thirty and two thousand persons in all, of women that had not known man by lying with him.
 <sup>36</sup> And the half, [which was] the portion of them that went out to war, was in number three hundred thousand and seven and thirty thousand and five hundred sheep:
-<sup>37</sup> And the LORD’S tribute of the sheep was six hundred and threescore and fifteen .
-<sup>38</sup> And the beeves [were] thirty and six thousand; of which the LORD’S tribute [was] threescore and twelve .
+<sup>37</sup> And the LORD’S tribute of the sheep was six hundred and threescore and fifteen.
+<sup>38</sup> And the beeves [were] thirty and six thousand; of which the LORD’S tribute [was] threescore and twelve.
 <sup>39</sup> And the asses [were] thirty thousand and five hundred; of which the LORD’S tribute [was] threescore and one.
 <sup>40</sup> And the persons [were] sixteen thousand; of which the LORD’S tribute [was] thirty and two persons.
 <sup>41</sup> And Moses gave the tribute, [which was] the LORD’S heave offering, unto Eleazar the priest, as the LORD commanded Moses.
 <sup>42</sup> And of the children of Israel’s half, which Moses divided from the men that warred,
-<sup>43</sup> (Now the half [that pertained unto] the congregation was three hundred thousand and thirty thousand [and] seven thousand and five hundred sheep ,
+<sup>43</sup> (Now the half [that pertained unto] the congregation was three hundred thousand and thirty thousand [and] seven thousand and five hundred sheep,
 <sup>44</sup> And thirty and six thousand beeves,
 <sup>45</sup> And thirty thousand asses and five hundred,
-<sup>46</sup> And sixteen thousand persons ;)
+<sup>46</sup> And sixteen thousand persons;)
 <sup>47</sup> Even of the children of Israel’s half, Moses took one portion of fifty, [both] of man and of beast, and gave them unto the Levites, which kept the charge of the tabernacle of the LORD; as the LORD commanded Moses.
 <sup>48</sup> And the officers which [were] over thousands of the host, the captains of thousands, and captains of hundreds, came near unto Moses:
 <sup>49</sup> And they said unto Moses, Thy servants have taken the sum of the men of war which [are] under our charge, and there lacketh not one man of us.

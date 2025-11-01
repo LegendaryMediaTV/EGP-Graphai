@@ -12,7 +12,7 @@
 <sup>10</sup> And, Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands:
 <sup>11</sup> They shall perish; but thou remainest; and they all shall wax old as doth a garment;
 <sup>12</sup> And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail.
-<sup>13</sup> But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool ?
+<sup>13</sup> But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool?
 <sup>14</sup> Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?
 ## Chapter 2
 
@@ -48,7 +48,7 @@
 <sup>10</sup> Wherefore I was grieved with that generation, and said, They do alway err in [their] heart; and they have not known my ways.
 <sup>11</sup> So I sware in my wrath, They shall not enter into my rest.)
 <sup>12</sup> Take heed, brethren, lest there be in any of you an evil heart of unbelief, in departing from the living God.
-<sup>13</sup> But exhort one another daily , while it is called To day; lest any of you be hardened through the deceitfulness of sin.
+<sup>13</sup> But exhort one another daily, while it is called To day; lest any of you be hardened through the deceitfulness of sin.
 <sup>14</sup> For we are made partakers of Christ, if we hold the beginning of our confidence stedfast unto the end;
 <sup>15</sup> While it is said, To day if ye will hear his voice, harden not your hearts, as in the provocation.
 <sup>16</sup> For some, when they had heard, did provoke: howbeit not all that came out of Egypt by Moses.
@@ -62,7 +62,7 @@
 <sup>3</sup> For we which have believed do enter into rest, as he said, As I have sworn in my wrath, if they shall enter into my rest: although the works were finished from the foundation of the world.
 <sup>4</sup> For he spake in a certain place of the seventh [day] on this wise, And God did rest the seventh day from all his works.
 <sup>5</sup> And in this [place] again, If they shall enter into my rest.
-<sup>6</sup> Seeing therefore it remaineth that some must enter therein , and they to whom it was first preached entered not in because of unbelief:
+<sup>6</sup> Seeing therefore it remaineth that some must enter therein, and they to whom it was first preached entered not in because of unbelief:
 <sup>7</sup> Again, he limiteth a certain day, saying in David, To day, after so long a time; as it is said, To day if ye will hear his voice, harden not your hearts.
 <sup>8</sup> For if Jesus had given them rest, then would he not afterward have spoken of another day.
 <sup>9</sup> There remaineth therefore a rest to the people of God.
@@ -115,13 +115,13 @@
 
 <sup>1</sup> For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;
 <sup>2</sup> To whom also Abraham gave a tenth part of all; first being by interpretation King of righteousness, and after that also King of Salem, which is, King of peace;
-<sup>3</sup> Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually .
+<sup>3</sup> Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually.
 <sup>4</sup> Now consider how great this man [was], unto whom even the patriarch Abraham gave the tenth of the spoils.
 <sup>5</sup> And verily they that are of the sons of Levi, who receive the office of the priesthood, have a commandment to take tithes of the people according to the law, that is, of their brethren, though they come out of the loins of Abraham:
 <sup>6</sup> But he whose descent is not counted from them received tithes of Abraham, and blessed him that had the promises.
 <sup>7</sup> And without all contradiction the less is blessed of the better.
 <sup>8</sup> And here men that die receive tithes; but there he [receiveth them], of whom it is witnessed that he liveth.
-<sup>9</sup> And as I may so say , Levi also, who receiveth tithes, payed tithes in Abraham.
+<sup>9</sup> And as I may so say, Levi also, who receiveth tithes, payed tithes in Abraham.
 <sup>10</sup> For he was yet in the loins of his father, when Melchisedec met him.
 <sup>11</sup> If therefore perfection were by the Levitical priesthood, (for under it the people received the law,) what further need [was there] that another priest should rise after the order of Melchisedec, and not be called after the order of Aaron?
 <sup>12</sup> For the priesthood being changed, there is made of necessity a change also of the law.
@@ -136,10 +136,10 @@
 <sup>21</sup> (For those priests were made without an oath; but this with an oath by him that said unto him, The Lord sware and will not repent, Thou [art] a priest for ever after the order of Melchisedec:)
 <sup>22</sup> By so much was Jesus made a surety of a better testament.
 <sup>23</sup> And they truly were many priests, because they were not suffered to continue by reason of death:
-<sup>24</sup> But this [man], because he continueth ever , hath an unchangeable priesthood.
+<sup>24</sup> But this [man], because he continueth ever, hath an unchangeable priesthood.
 <sup>25</sup> Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.
 <sup>26</sup> For such an high priest became us, [who is] holy, harmless, undefiled, separate from sinners, and made higher than the heavens;
-<sup>27</sup> Who needeth not daily , as those high priests, to offer up sacrifice, first for his own sins, and then for the people’s: for this he did once, when he offered up himself.
+<sup>27</sup> Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people’s: for this he did once, when he offered up himself.
 <sup>28</sup> For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, [maketh] the Son, who is consecrated for evermore.
 ## Chapter 8
 
@@ -153,16 +153,16 @@
 <sup>8</sup> For finding fault with them, he saith, Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel and with the house of Judah:
 <sup>9</sup> Not according to the covenant that I made with their fathers in the day when I took them by the hand to lead them out of the land of Egypt; because they continued not in my covenant, and I regarded them not, saith the Lord.
 <sup>10</sup> For this [is] the covenant that I will make with the house of Israel after those days, saith the Lord; I will put my laws into their mind, and write them in their hearts: and I will be to them a God, and they shall be to me a people:
-<sup>11</sup> And they shall not teach every man his neighbour, and every man his brother, saying, Know the Lord: for all shall know me, from the least to the greatest .
+<sup>11</sup> And they shall not teach every man his neighbour, and every man his brother, saying, Know the Lord: for all shall know me, from the least to the greatest.
 <sup>12</sup> For I will be merciful to their unrighteousness, and their sins and their iniquities will I remember no more.
 <sup>13</sup> In that he saith, A new [covenant], he hath made the first old. Now that which decayeth and waxeth old [is] ready to vanish away.
 ## Chapter 9
 
 <sup>1</sup> Then verily the first [covenant] had also ordinances of divine service, and a worldly sanctuary.
-<sup>2</sup> For there was a tabernacle made; the first, wherein [was] the candlestick, and the table, and the shewbread ; which is called the sanctuary.
-<sup>3</sup> And after the second veil, the tabernacle which is called the Holiest of all ;
+<sup>2</sup> For there was a tabernacle made; the first, wherein [was] the candlestick, and the table, and the shewbread; which is called the sanctuary.
+<sup>3</sup> And after the second veil, the tabernacle which is called the Holiest of all;
 <sup>4</sup> Which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein [was] the golden pot that had manna, and Aaron’s rod that budded, and the tables of the covenant;
-<sup>5</sup> And over it the cherubims of glory shadowing the mercyseat; of which we cannot now speak particularly .
+<sup>5</sup> And over it the cherubims of glory shadowing the mercyseat; of which we cannot now speak particularly.
 <sup>6</sup> Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service [of God].
 <sup>7</sup> But into the second [went] the high priest alone once every year, not without blood, which he offered for himself, and [for] the errors of the people:
 <sup>8</sup> The Holy Ghost this signifying, that the way into the holiest of all was not yet made manifest, while as the first tabernacle was yet standing:
@@ -176,7 +176,7 @@
 <sup>16</sup> For where a testament [is], there must also of necessity be the death of the testator.
 <sup>17</sup> For a testament [is] of force after men are dead: otherwise it is of no strength at all while the testator liveth.
 <sup>18</sup> Whereupon neither the first [testament] was dedicated without blood.
-<sup>19</sup> For when Moses had spoken every precept to all the people according to the law, he took the blood of calves and of goats, with water, and scarlet wool, and hyssop, and sprinkled both the book , and all the people,
+<sup>19</sup> For when Moses had spoken every precept to all the people according to the law, he took the blood of calves and of goats, with water, and scarlet wool, and hyssop, and sprinkled both the book, and all the people,
 <sup>20</sup> Saying, This [is] the blood of the testament which God hath enjoined unto you.
 <sup>21</sup> Moreover he sprinkled with blood both the tabernacle, and all the vessels of the ministry.
 <sup>22</sup> And almost all things are by the law purged with blood; and without shedding of blood is no remission.
@@ -200,7 +200,7 @@
 <sup>10</sup> By the which will we are sanctified through the offering of the body of Jesus Christ once [for all].
 <sup>11</sup> And every priest standeth daily ministering and offering oftentimes the same sacrifices, which can never take away sins:
 <sup>12</sup> But this man, after he had offered one sacrifice for sins for ever, sat down on the right hand of God;
-<sup>13</sup> From henceforth expecting till his enemies be made his footstool .
+<sup>13</sup> From henceforth expecting till his enemies be made his footstool.
 <sup>14</sup> For by one offering he hath perfected for ever them that are sanctified.
 <sup>15</sup> [Whereof] the Holy Ghost also is a witness to us: for after that he had said before,
 <sup>16</sup> This [is] the covenant that I will make with them after those days, saith the Lord, I will put my laws into their hearts, and in their minds will I write them;
@@ -220,11 +220,11 @@
 <sup>30</sup> For we know him that hath said, Vengeance [belongeth] unto me, I will recompense, saith the Lord. And again, The Lord shall judge his people.
 <sup>31</sup> [It is] a fearful thing to fall into the hands of the living God.
 <sup>32</sup> But call to remembrance the former days, in which, after ye were illuminated, ye endured a great fight of afflictions;
-<sup>33</sup> Partly , whilst ye were made a gazingstock both by reproaches and afflictions; and partly, whilst ye became companions of them that were so used.
+<sup>33</sup> Partly, whilst ye were made a gazingstock both by reproaches and afflictions; and partly, whilst ye became companions of them that were so used.
 <sup>34</sup> For ye had compassion of me in my bonds, and took joyfully the spoiling of your goods, knowing in yourselves that ye have in heaven a better and an enduring substance.
 <sup>35</sup> Cast not away therefore your confidence, which hath great recompence of reward.
 <sup>36</sup> For ye have need of patience, that, after ye have done the will of God, ye might receive the promise.
-<sup>37</sup> For yet a little while , and he that shall come will come, and will not tarry.
+<sup>37</sup> For yet a little while, and he that shall come will come, and will not tarry.
 <sup>38</sup> Now the just shall live by faith: but if [any man] draw back, my soul shall have no pleasure in him.
 <sup>39</sup> But we are not of them who draw back unto perdition; but of them that believe to the saving of the soul.
 ## Chapter 11
@@ -232,14 +232,14 @@
 <sup>1</sup> Now faith is the substance of things hoped for, the evidence of things not seen.
 <sup>2</sup> For by it the elders obtained a good report.
 <sup>3</sup> Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.
-<sup>4</sup> By faith Abel offered unto God a more excellent sacrifice than Cain, by which he obtained witness that he was righteous, God testifying of his gifts: and by it he being dead yet speaketh .
+<sup>4</sup> By faith Abel offered unto God a more excellent sacrifice than Cain, by which he obtained witness that he was righteous, God testifying of his gifts: and by it he being dead yet speaketh.
 <sup>5</sup> By faith Enoch was translated that he should not see death; and was not found, because God had translated him: for before his translation he had this testimony, that he pleased God.
 <sup>6</sup> But without faith [it is] impossible to please [him]: for he that cometh to God must believe that he is, and [that] he is a rewarder of them that diligently seek him.
 <sup>7</sup> By faith Noah, being warned of God of things not seen as yet, moved with fear, prepared an ark to the saving of his house; by the which he condemned the world, and became heir of the righteousness which is by faith.
 <sup>8</sup> By faith Abraham, when he was called to go out into a place which he should after receive for an inheritance, obeyed; and he went out, not knowing whither he went.
 <sup>9</sup> By faith he sojourned in the land of promise, as [in] a strange country, dwelling in tabernacles with Isaac and Jacob, the heirs with him of the same promise:
 <sup>10</sup> For he looked for a city which hath foundations, whose builder and maker [is] God.
-<sup>11</sup> Through faith also Sara herself received strength to conceive seed, and was delivered of a child when she was past age , because she judged him faithful who had promised.
+<sup>11</sup> Through faith also Sara herself received strength to conceive seed, and was delivered of a child when she was past age, because she judged him faithful who had promised.
 <sup>12</sup> Therefore sprang there even of one, and him as good as dead, [so many] as the stars of the sky in multitude, and as the sand which is by the sea shore innumerable.
 <sup>13</sup> These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of [them], and embraced [them], and confessed that they were strangers and pilgrims on the earth.
 <sup>14</sup> For they that say such things declare plainly that they seek a country.
@@ -263,9 +263,9 @@
 <sup>32</sup> And what shall I more say? for the time would fail me to tell of Gedeon, and [of] Barak, and [of] Samson, and [of] Jephthae; [of] David also, and Samuel, and [of] the prophets:
 <sup>33</sup> Who through faith subdued kingdoms, wrought righteousness, obtained promises, stopped the mouths of lions,
 <sup>34</sup> Quenched the violence of fire, escaped the edge of the sword, out of weakness were made strong, waxed valiant in fight, turned to flight the armies of the aliens.
-<sup>35</sup> Women received their dead raised to life again : and others were tortured, not accepting deliverance; that they might obtain a better resurrection:
+<sup>35</sup> Women received their dead raised to life again: and others were tortured, not accepting deliverance; that they might obtain a better resurrection:
 <sup>36</sup> And others had trial of [cruel] mockings and scourgings, yea, moreover of bonds and imprisonment:
-<sup>37</sup> They were stoned, they were sawn asunder, were tempted, were slain with the sword : they wandered about in sheepskins and goatskins ; being destitute, afflicted, tormented;
+<sup>37</sup> They were stoned, they were sawn asunder, were tempted, were slain with the sword: they wandered about in sheepskins and goatskins; being destitute, afflicted, tormented;
 <sup>38</sup> (Of whom the world was not worthy:) they wandered in deserts, and [in] mountains, and [in] dens and caves of the earth.
 <sup>39</sup> And these all, having obtained a good report through faith, received not the promise:
 <sup>40</sup> God having provided some better thing for us, that they without us should not be made perfect.
@@ -281,13 +281,13 @@
 <sup>8</sup> But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons.
 <sup>9</sup> Furthermore we have had fathers of our flesh which corrected [us], and we gave [them] reverence: shall we not much rather be in subjection unto the Father of spirits, and live?
 <sup>10</sup> For they verily for a few days chastened [us] after their own pleasure; but he for [our] profit, that [we] might be partakers of his holiness.
-<sup>11</sup> Now no chastening for the present seemeth to be joyous, but grievous: nevertheless afterward it yieldeth the peaceable fruit of righteousness unto them which are exercised thereby .
+<sup>11</sup> Now no chastening for the present seemeth to be joyous, but grievous: nevertheless afterward it yieldeth the peaceable fruit of righteousness unto them which are exercised thereby.
 <sup>12</sup> Wherefore lift up the hands which hang down, and the feeble knees;
 <sup>13</sup> And make straight paths for your feet, lest that which is lame be turned out of the way; but let it rather be healed.
 <sup>14</sup> Follow peace with all [men], and holiness, without which no man shall see the Lord:
 <sup>15</sup> Looking diligently lest any man fail of the grace of God; lest any root of bitterness springing up trouble [you], and thereby many be defiled;
 <sup>16</sup> Lest there [be] any fornicator, or profane person, as Esau, who for one morsel of meat sold his birthright.
-<sup>17</sup> For ye know how that afterward , when he would have inherited the blessing, he was rejected: for he found no place of repentance, though he sought it carefully with tears.
+<sup>17</sup> For ye know how that afterward, when he would have inherited the blessing, he was rejected: for he found no place of repentance, though he sought it carefully with tears.
 <sup>18</sup> For ye are not come unto the mount that might be touched, and that burned with fire, nor unto blackness, and darkness, and tempest,
 <sup>19</sup> And the sound of a trumpet, and the voice of words; which [voice] they that heard intreated that the word should not be spoken to them any more:
 <sup>20</sup> (For they could not endure that which was commanded, And if so much as a beast touch the mountain, it shall be stoned, or thrust through with a dart:
@@ -310,7 +310,7 @@
 <sup>6</sup> So that we may boldly say, The Lord [is] my helper, and I will not fear what man shall do unto me.
 <sup>7</sup> Remember them which have the rule over you, who have spoken unto you the word of God: whose faith follow, considering the end of [their] conversation.
 <sup>8</sup> Jesus Christ the same yesterday, and to day, and for ever.
-<sup>9</sup> Be not carried about with divers and strange doctrines. For [it is] a good thing that the heart be established with grace; not with meats, which have not profited them that have been occupied therein .
+<sup>9</sup> Be not carried about with divers and strange doctrines. For [it is] a good thing that the heart be established with grace; not with meats, which have not profited them that have been occupied therein.
 <sup>10</sup> We have an altar, whereof they have no right to eat which serve the tabernacle.
 <sup>11</sup> For the bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp.
 <sup>12</sup> Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate.

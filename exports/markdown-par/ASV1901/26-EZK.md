@@ -1157,7 +1157,7 @@
 <sup>13</sup> So he measured the house, a hundred cubits long; and the separate place, and the building, with the walls thereof, a hundred cubits long;
 <sup>14</sup> also the breadth of the face of the house, and of the separate place toward the east, a hundred cubits.
 <sup>15</sup> And he measured the length of the building before the separate place which was at the back thereof, and the galleries thereof on the one side and on the other side, a hundred cubits; and the inner temple, and the porches of the court;
-<sup>16</sup> the thresholds, and the closed windows, and the galleries round about on their three stories, over against the threshold, ceiled with wood round about, and from the ground up to the windows ,(now the windows were covered,)
+<sup>16</sup> the thresholds, and the closed windows, and the galleries round about on their three stories, over against the threshold, ceiled with wood round about, and from the ground up to the windows,(now the windows were covered,)
 <sup>17</sup> to the space above the door, even unto the inner house, and without, and by all the wall round about within and without, by measure.
 <sup>18</sup> And it was made with cherubim and palm-trees; and a palm-tree was between cherub and cherub, and every cherub had two faces;
 <sup>19</sup> so that there was the face of a man toward the palm-tree on the one side, and the face of a young lion toward the palm-tree on the other side: thus was it made through all the house round about.

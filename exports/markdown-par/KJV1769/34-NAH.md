@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> The burden of Nineveh. The book of the vision of Nahum the Elkoshite.
-<sup>2</sup> God [is] jealous, and the LORD revengeth; the LORD revengeth, and [is] furious ; the LORD will take vengeance on his adversaries, and he reserveth [wrath] for his enemies.
+<sup>2</sup> God [is] jealous, and the LORD revengeth; the LORD revengeth, and [is] furious; the LORD will take vengeance on his adversaries, and he reserveth [wrath] for his enemies.
 <sup>3</sup> The LORD [is] slow to anger, and great in power, and will not at all acquit [the wicked]: the LORD hath his way in the whirlwind and in the storm, and the clouds [are] the dust of his feet.
 <sup>4</sup> He rebuketh the sea, and maketh it dry, and drieth up all the rivers: Bashan languisheth, and Carmel, and the flower of Lebanon languisheth.
 <sup>5</sup> The mountains quake at him, and the hills melt, and the earth is burned at his presence, yea, the world, and all that dwell therein.
@@ -40,7 +40,7 @@
 <sup>6</sup> And I will cast abominable filth upon thee, and make thee vile, and will set thee as a gazingstock.
 <sup>7</sup> And it shall come to pass, [that] all they that look upon thee shall flee from thee, and say, Nineveh is laid waste: who will bemoan her? whence shall I seek comforters for thee?
 <sup>8</sup> Art thou better than populous No, that was situate among the rivers, [that had] the waters round about it, whose rampart [was] the sea, [and] her wall [was] from the sea?
-<sup>9</sup> Ethiopia and Egypt [were] her strength, and [it was] infinite ; Put and Lubim were thy helpers.
+<sup>9</sup> Ethiopia and Egypt [were] her strength, and [it was] infinite; Put and Lubim were thy helpers.
 <sup>10</sup> Yet [was] she carried away, she went into captivity: her young children also were dashed in pieces at the top of all the streets: and they cast lots for her honourable men, and all her great men were bound in chains.
 <sup>11</sup> Thou also shalt be drunken: thou shalt be hid, thou also shalt seek strength because of the enemy.
 <sup>12</sup> All thy strong holds [shall be like] fig trees with the firstripe figs: if they be shaken, they shall even fall into the mouth of the eater.

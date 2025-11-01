@@ -45,7 +45,7 @@
 <sup>15</sup> You shall put oil on it and lay frankincense on it. It is a meal offering.
 <sup>16</sup> The priest shall burn as its memorial part of its crushed grain and part of its oil, along with all its frankincense. It is an offering made by fire to Yahweh.
 
-> - <sup>a</sup> 13. The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim).
+> - <sup>a</sup> 13. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
 ## Chapter 3
 
@@ -303,7 +303,7 @@
 <sup>1</sup> Nadab and Abihu, the sons of Aaron, each took his censer, and put fire in it, and laid incense on it, and offered strange fire before Yahweh, which he had not commanded them.
 <sup>2</sup> Fire came out from before Yahweh, and devoured them, and they died before Yahweh.
 
-<sup>3</sup> Then Moses said to Aaron, “This is what Yahweh spoke of, saying, <br>‘I will show myself holy to those who come near me, <br>and before all the people I will be glorified.’ ” Aaron held his peace.
+<sup>3</sup> Then Moses said to Aaron, “This is what Yahweh spoke of, saying,<br>‘I will show myself holy to those who come near me,<br>and before all the people I will be glorified.’ ” Aaron held his peace.
 <sup>4</sup> Moses called Mishael and Elzaphan, the sons of Uzziel the uncle of Aaron, and said to them, “Draw near, carry your brothers from before the sanctuary out of the camp.”
 <sup>5</sup> So they came near, and carried them in their tunics out of the camp, as Moses had said.
 
@@ -327,7 +327,7 @@
 
 <sup>20</sup> When Moses heard that, it was pleasing in his sight.
 
-> - <sup>a</sup> 16. “Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
+> - <sup>a</sup> 16. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 
 ## Chapter 11
 

@@ -58,16 +58,16 @@
 <sup>44</sup> For behold, when the voice of your greeting came into my ears, the baby leaped in my womb for joy!
 <sup>45</sup> Blessed is she who believed, for there will be a fulfillment of the things which have been spoken to her from the Lord!”
 
-<sup>46</sup> Mary said, <br>“My soul magnifies the Lord. <br>
-<sup>47</sup> My spirit has rejoiced in God my Savior, <br>
-<sup>48</sup> for he has looked at the humble state of his servant. <br>For behold, from now on, all generations will call me blessed. <br>
-<sup>49</sup> For he who is mighty has done great things for me. <br>Holy is his name. <br>
-<sup>50</sup> His mercy is for generations and generations on those who fear him. <br>
-<sup>51</sup> He has shown strength with his arm. <br>He has scattered the proud in the imagination of their hearts. <br>
-<sup>52</sup> He has put down princes from their thrones, <br>and has exalted the lowly. <br>
-<sup>53</sup> He has filled the hungry with good things. <br>He has sent the rich away empty. <br>
-<sup>54</sup> He has given help to Israel, his servant, that he might remember mercy, <br>
-<sup>55</sup> as he spoke to our fathers, <br>to Abraham and his offspring<sup>d</sup> forever.”
+<sup>46</sup> Mary said,<br>“My soul magnifies the Lord.<br>
+<sup>47</sup> My spirit has rejoiced in God my Savior,<br>
+<sup>48</sup> for he has looked at the humble state of his servant.<br>For behold, from now on, all generations will call me blessed.<br>
+<sup>49</sup> For he who is mighty has done great things for me.<br>Holy is his name.<br>
+<sup>50</sup> His mercy is for generations and generations on those who fear him.<br>
+<sup>51</sup> He has shown strength with his arm.<br>He has scattered the proud in the imagination of their hearts.<br>
+<sup>52</sup> He has put down princes from their thrones,<br>and has exalted the lowly.<br>
+<sup>53</sup> He has filled the hungry with good things.<br>He has sent the rich away empty.<br>
+<sup>54</sup> He has given help to Israel, his servant, that he might remember mercy,<br>
+<sup>55</sup> as he spoke to our fathers,<br>to Abraham and his offspring<sup>d</sup> forever.”
 
 <sup>56</sup> Mary stayed with her about three months, and then returned to her house.
 
@@ -84,19 +84,19 @@
 <sup>65</sup> Fear came on all who lived around them, and all these sayings were talked about throughout all the hill country of Judea.
 <sup>66</sup> All who heard them laid them up in their heart, saying, “What then will this child be?” The hand of the Lord was with him.
 
-<sup>67</sup> His father Zacharias was filled with the Holy Spirit, and prophesied, saying, <br>
-<sup>68</sup> “Blessed be the Lord, the God of Israel, <br>for he has visited and redeemed his people; <br>
-<sup>69</sup> and has raised up a horn of salvation for us in the house of his servant David <br>
-<sup>70</sup> (as he spoke by the mouth of his holy prophets who have been from of old), <br>
-<sup>71</sup> salvation from our enemies and from the hand of all who hate us; <br>
-<sup>72</sup> to show mercy toward our fathers, <br>to remember his holy covenant, <br>
-<sup>73</sup> the oath which he swore to Abraham our father, <br>
-<sup>74</sup> to grant to us that we, being delivered out of the hand of our enemies, <br>should serve him without fear, <br>
-<sup>75</sup> in holiness and righteousness before him all the days of our life. <br>
-<sup>76</sup> And you, child, will be called a prophet of the Most High; <br>for you will go before the face of the Lord to prepare his ways, <br>
-<sup>77</sup> to give knowledge of salvation to his people by the remission of their sins, <br>
-<sup>78</sup> because of the tender mercy of our God, <br>by which the dawn from on high will visit us, <br>
-<sup>79</sup> to shine on those who sit in darkness and the shadow of death; <br>to guide our feet into the way of peace.”
+<sup>67</sup> His father Zacharias was filled with the Holy Spirit, and prophesied, saying,<br>
+<sup>68</sup> “Blessed be the Lord, the God of Israel,<br>for he has visited and redeemed his people;<br>
+<sup>69</sup> and has raised up a horn of salvation for us in the house of his servant David<br>
+<sup>70</sup> (as he spoke by the mouth of his holy prophets who have been from of old),<br>
+<sup>71</sup> salvation from our enemies and from the hand of all who hate us;<br>
+<sup>72</sup> to show mercy toward our fathers,<br>to remember his holy covenant,<br>
+<sup>73</sup> the oath which he swore to Abraham our father,<br>
+<sup>74</sup> to grant to us that we, being delivered out of the hand of our enemies,<br>should serve him without fear,<br>
+<sup>75</sup> in holiness and righteousness before him all the days of our life.<br>
+<sup>76</sup> And you, child, will be called a prophet of the Most High;<br>for you will go before the face of the Lord to prepare his ways,<br>
+<sup>77</sup> to give knowledge of salvation to his people by the remission of their sins,<br>
+<sup>78</sup> because of the tender mercy of our God,<br>by which the dawn from on high will visit us,<br>
+<sup>79</sup> to shine on those who sit in darkness and the shadow of death;<br>to guide our feet into the way of peace.”
 
 <sup>80</sup> The child was growing and becoming strong in spirit, and was in the desert until the day of his public appearance to Israel.
 
@@ -121,8 +121,8 @@
 <sup>10</sup> The angel said to them, “Don’t be afraid, for behold, I bring you good news of great joy which will be to all the people.
 <sup>11</sup> For there is born to you today, in David’s city, a Savior, who is Christ<sup>a</sup> the Lord.
 <sup>12</sup> This is the sign to you: you will find a baby wrapped in strips of cloth, lying in a feeding trough.”
-<sup>13</sup> Suddenly, there was with the angel a multitude of the heavenly army praising God and saying, <br>
-<sup>14</sup> “Glory to God in the highest, <br>on earth peace, good will toward men.”
+<sup>13</sup> Suddenly, there was with the angel a multitude of the heavenly army praising God and saying,<br>
+<sup>14</sup> “Glory to God in the highest,<br>on earth peace, good will toward men.”
 
 <sup>15</sup> When the angels went away from them into the sky, the shepherds said to one another, “Let’s go to Bethlehem, now, and see this thing that has happened, which the Lord has made known to us.”
 <sup>16</sup> They came with haste and found both Mary and Joseph, and the baby was lying in the feeding trough.
@@ -140,11 +140,11 @@
 <sup>25</sup> Behold, there was a man in Jerusalem whose name was Simeon. This man was righteous and devout, looking for the consolation of Israel, and the Holy Spirit was on him.
 <sup>26</sup> It had been revealed to him by the Holy Spirit that he should not see death before he had seen the Lord’s Christ.<sup>d</sup>
 <sup>27</sup> He came in the Spirit into the temple. When the parents brought in the child, Jesus, that they might do concerning him according to the custom of the law,
-<sup>28</sup> then he received him into his arms and blessed God, and said, <br>
-<sup>29</sup> “Now you are releasing your servant, Master, <br>according to your word, in peace; <br>
-<sup>30</sup> for my eyes have seen your salvation, <br>
-<sup>31</sup> which you have prepared before the face of all peoples; <br>
-<sup>32</sup> a light for revelation to the nations, <br>and the glory of your people Israel.”
+<sup>28</sup> then he received him into his arms and blessed God, and said,<br>
+<sup>29</sup> “Now you are releasing your servant, Master,<br>according to your word, in peace;<br>
+<sup>30</sup> for my eyes have seen your salvation,<br>
+<sup>31</sup> which you have prepared before the face of all peoples;<br>
+<sup>32</sup> a light for revelation to the nations,<br>and the glory of your people Israel.”
 
 <sup>33</sup> Joseph and his mother were marveling at the things which were spoken concerning him.
 <sup>34</sup> Simeon blessed them, and said to Mary, his mother, “Behold, this child is appointed for the falling and the rising of many in Israel, and for a sign which is spoken against.
@@ -181,8 +181,8 @@
 <sup>1</sup> Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of the region of Ituraea and Trachonitis, and Lysanias tetrarch of Abilene,
 <sup>2</sup> during the high priesthood of Annas and Caiaphas, the word of God came to John, the son of Zacharias, in the wilderness.
 <sup>3</sup> He came into all the region around the Jordan, preaching the baptism of repentance for remission of sins.
-<sup>4</sup> As it is written in the book of the words of Isaiah the prophet, <br>“The voice of one crying in the wilderness, <br>‘Make ready the way of the Lord. <br>Make his paths straight. <br>
-<sup>5</sup> Every valley will be filled. <br>Every mountain and hill will be brought low. <br>The crooked will become straight, <br>and the rough ways smooth. <br>
+<sup>4</sup> As it is written in the book of the words of Isaiah the prophet,<br>“The voice of one crying in the wilderness,<br>‘Make ready the way of the Lord.<br>Make his paths straight.<br>
+<sup>5</sup> Every valley will be filled.<br>Every mountain and hill will be brought low.<br>The crooked will become straight,<br>and the rough ways smooth.<br>
 <sup>6</sup> All flesh will see God’s salvation.’ ”<sup>a</sup>
 
 <sup>7</sup> He said therefore to the multitudes who went out to be baptized by him, “You offspring of vipers, who warned you to flee from the wrath to come?
@@ -248,9 +248,9 @@
 <sup>8</sup> Jesus answered him, “Get behind me, Satan! For it is written, ‘You shall worship the Lord your God, and you shall serve him only.’ ”<sup>b</sup>
 
 <sup>9</sup> He led him to Jerusalem and set him on the pinnacle of the temple, and said to him, “If you are the Son of God, cast yourself down from here,
-<sup>10</sup> for it is written, <br>‘He will put his angels in charge of you, to guard you;’
+<sup>10</sup> for it is written,<br>‘He will put his angels in charge of you, to guard you;’
 
-<sup>11</sup> and, <br>‘On their hands they will bear you up, <br>lest perhaps you dash your foot against a stone.’ ”<sup>c</sup>
+<sup>11</sup> and,<br>‘On their hands they will bear you up,<br>lest perhaps you dash your foot against a stone.’ ”<sup>c</sup>
 
 <sup>12</sup> Jesus answering, said to him, “It has been said, ‘You shall not tempt the Lord your God.’ ”<sup>d</sup>
 
@@ -260,8 +260,8 @@
 <sup>15</sup> He taught in their synagogues, being glorified by all.
 
 <sup>16</sup> He came to Nazareth, where he had been brought up. He entered, as was his custom, into the synagogue on the Sabbath day, and stood up to read.
-<sup>17</sup> The book of the prophet Isaiah was handed to him. He opened the book, and found the place where it was written, <br>
-<sup>18</sup> “The Spirit of the Lord is on me, <br>because he has anointed me to preach good news to the poor. <br>He has sent me to heal the broken hearted,<sup>e</sup> <br>to proclaim release to the captives, <br>recovering of sight to the blind, <br>to deliver those who are crushed, <br>
+<sup>17</sup> The book of the prophet Isaiah was handed to him. He opened the book, and found the place where it was written,<br>
+<sup>18</sup> “The Spirit of the Lord is on me,<br>because he has anointed me to preach good news to the poor.<br>He has sent me to heal the broken hearted,<sup>e</sup><br>to proclaim release to the captives,<br>recovering of sight to the blind,<br>to deliver those who are crushed,<br>
 <sup>19</sup> and to proclaim the acceptable year of the Lord.”<sup>f</sup>
 
 <sup>20</sup> He closed the book, gave it back to the attendant, and sat down. The eyes of all in the synagogue were fastened on him.
@@ -388,14 +388,14 @@
 <sup>18</sup> as well as those who were troubled by unclean spirits; and they were being healed.
 <sup>19</sup> All the multitude sought to touch him, for power came out of him and healed them all.
 
-<sup>20</sup> He lifted up his eyes to his disciples, and said: <br>“Blessed are you who are poor, <br>for God’s Kingdom is yours. <br>
-<sup>21</sup> Blessed are you who hunger now, <br>for you will be filled. <br>Blessed are you who weep now, <br>for you will laugh. <br>
-<sup>22</sup> Blessed are you when men hate you, and when they exclude and mock you, and throw out your name as evil, for the Son of Man’s sake. <br>
+<sup>20</sup> He lifted up his eyes to his disciples, and said:<br>“Blessed are you who are poor,<br>for God’s Kingdom is yours.<br>
+<sup>21</sup> Blessed are you who hunger now,<br>for you will be filled.<br>Blessed are you who weep now,<br>for you will laugh.<br>
+<sup>22</sup> Blessed are you when men hate you, and when they exclude and mock you, and throw out your name as evil, for the Son of Man’s sake.<br>
 <sup>23</sup> Rejoice in that day and leap for joy, for behold, your reward is great in heaven, for their fathers did the same thing to the prophets.
 
-<sup>24</sup> “But woe to you who are rich! <br>For you have received your consolation. <br>
-<sup>25</sup> Woe to you, you who are full now, <br>for you will be hungry. <br>Woe to you who laugh now, <br>for you will mourn and weep. <br>
-<sup>26</sup> Woe,<sup>a</sup> when<sup>b</sup> men speak well of you, <br>for their fathers did the same thing to the false prophets.
+<sup>24</sup> “But woe to you who are rich!<br>For you have received your consolation.<br>
+<sup>25</sup> Woe to you, you who are full now,<br>for you will be hungry.<br>Woe to you who laugh now,<br>for you will mourn and weep.<br>
+<sup>26</sup> Woe,<sup>a</sup> when<sup>b</sup> men speak well of you,<br>for their fathers did the same thing to the false prophets.
 
 <sup>27</sup> “But I tell you who hear: love your enemies, do good to those who hate you,
 <sup>28</sup> bless those who curse you, and pray for those who mistreat you.
@@ -407,9 +407,9 @@
 <sup>32</sup> “If you love those who love you, what credit is that to you? For even sinners love those who love them.
 <sup>33</sup> If you do good to those who do good to you, what credit is that to you? For even sinners do the same.
 <sup>34</sup> If you lend to those from whom you hope to receive, what credit is that to you? Even sinners lend to sinners, to receive back as much.
-<sup>35</sup> But love your enemies, and do good, and lend, expecting nothing back; and your reward will be great, and you will be children of the Most High; for he is kind toward the unthankful and evil. <br>
-<sup>36</sup> “Therefore be merciful, <br>even as your Father is also merciful. <br>
-<sup>37</sup> Don’t judge, <br>and you won’t be judged. <br>Don’t condemn, <br>and you won’t be condemned. <br>Set free, <br>and you will be set free.
+<sup>35</sup> But love your enemies, and do good, and lend, expecting nothing back; and your reward will be great, and you will be children of the Most High; for he is kind toward the unthankful and evil.<br>
+<sup>36</sup> “Therefore be merciful,<br>even as your Father is also merciful.<br>
+<sup>37</sup> Don’t judge,<br>and you won’t be judged.<br>Don’t condemn,<br>and you won’t be condemned.<br>Set free,<br>and you will be set free.
 
 <sup>38</sup> “Give, and it will be given to you: good measure, pressed down, shaken together, and running over, will be given to you.<sup>c</sup> For with the same measure you measure it will be measured back to you.”
 
@@ -465,7 +465,7 @@
 <sup>24</sup> When John’s messengers had departed, he began to tell the multitudes about John, “What did you go out into the wilderness to see? A reed shaken by the wind?
 <sup>25</sup> But what did you go out to see? A man clothed in soft clothing? Behold, those who are gorgeously dressed and live delicately are in kings’ courts.
 <sup>26</sup> But what did you go out to see? A prophet? Yes, I tell you, and much more than a prophet.
-<sup>27</sup> This is he of whom it is written, <br>‘Behold, I send my messenger before your face, <br>who will prepare your way before you.’<sup>b</sup>
+<sup>27</sup> This is he of whom it is written,<br>‘Behold, I send my messenger before your face,<br>who will prepare your way before you.’<sup>b</sup>
 
 <sup>28</sup> “For I tell you, among those who are born of women there is not a greater prophet than John the Baptizer; yet he who is least in God’s Kingdom is greater than he.”
 
@@ -751,9 +751,9 @@
 
 <sup>1</sup> When he finished praying in a certain place, one of his disciples said to him, “Lord, teach us to pray, just as John also taught his disciples.”
 
-<sup>2</sup> He said to them, “When you pray, say, <br>‘Our Father in heaven, <br>may your name be kept holy. <br>May your Kingdom come. <br>May your will be done on earth, as it is in heaven. <br>
-<sup>3</sup> Give us day by day our daily bread. <br>
-<sup>4</sup> Forgive us our sins, <br>for we ourselves also forgive everyone who is indebted to us. <br>Bring us not into temptation, <br>but deliver us from the evil one.’ ”
+<sup>2</sup> He said to them, “When you pray, say,<br>‘Our Father in heaven,<br>may your name be kept holy.<br>May your Kingdom come.<br>May your will be done on earth, as it is in heaven.<br>
+<sup>3</sup> Give us day by day our daily bread.<br>
+<sup>4</sup> Forgive us our sins,<br>for we ourselves also forgive everyone who is indebted to us.<br>Bring us not into temptation,<br>but deliver us from the evil one.’ ”
 
 <sup>5</sup> He said to them, “Which of you, if you go to a friend at midnight and tell him, ‘Friend, lend me three loaves of bread,
 <sup>6</sup> for a friend of mine has come to me from a journey, and I have nothing to set before him,’
@@ -1316,8 +1316,8 @@
 <sup>15</sup> Then they threw him out of the vineyard and killed him. What therefore will the lord of the vineyard do to them?
 <sup>16</sup> He will come and destroy these farmers, and will give the vineyard to others.” When they heard that, they said, “May that never be!”
 
-<sup>17</sup> But he looked at them and said, “Then what is this that is written, <br>‘The stone which the builders rejected <br>was made the chief cornerstone’?<sup>c</sup> <br>
-<sup>18</sup> Everyone who falls on that stone will be broken to pieces, <br>but it will crush whomever it falls on to dust.”
+<sup>17</sup> But he looked at them and said, “Then what is this that is written,<br>‘The stone which the builders rejected<br>was made the chief cornerstone’?<sup>c</sup><br>
+<sup>18</sup> Everyone who falls on that stone will be broken to pieces,<br>but it will crush whomever it falls on to dust.”
 
 <sup>19</sup> The chief priests and the scribes sought to lay hands on him that very hour, but they feared the people—for they knew he had spoken this parable against them.
 <sup>20</sup> They watched him and sent out spies, who pretended to be righteous, that they might trap him in something he said, so as to deliver him up to the power and authority of the governor.
@@ -1348,7 +1348,7 @@
 <sup>40</sup> They didn’t dare to ask him any more questions.
 
 <sup>41</sup> He said to them, “Why do they say that the Christ is David’s son?
-<sup>42</sup> David himself says in the book of Psalms, <br>‘The Lord said to my Lord, <br>“Sit at my right hand, <br>
+<sup>42</sup> David himself says in the book of Psalms,<br>‘The Lord said to my Lord,<br>“Sit at my right hand,<br>
 <sup>43</sup> until I make your enemies the footstool of your feet.” ’<sup>e</sup>
 
 <sup>44</sup> “David therefore calls him Lord, so how is he his son?”
