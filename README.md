@@ -33,6 +33,26 @@ EGP Graphai establishes a free, open JSON schema for Bible resources that priori
 - **Markdown** - Clean, readable format with superscript verse numbers and footnotes
 - **Strong’s Text** - Annotated format with linguistic codes and lexical data
 
+### Graphai Reader
+
+The project includes a built-in web reader to visualize and test Graphai content. This serves as a reference implementation for using Graphai JSON data in a React-based web application.
+
+**Features:**
+
+- Dynamic rendering of Bible text with support for paragraph and verse-by-verse modes
+- Toggleable study tools: Strong's numbers, morphology, lemmas, and footnotes
+- "Words of Christ" highlighting with customizable colors
+- Proper handling of non-Latin scripts (Hebrew/Greek) with specific fonts
+- Responsive design with dark mode support
+
+To start the reader:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the application.
+
 ## Quick Start
 
 ```bash
@@ -50,6 +70,9 @@ npx ts-node utils/exportContent.ts WEBUS2020 GEN
 
 # Run tests
 npm run test
+
+# Start the Graphai Reader (web interface)
+npm run dev
 ```
 
 ## Project Structure
@@ -76,10 +99,11 @@ npm run test
 │ └── VerseSchema.ts
 ├── utils/                 # Utility scripts
 │ └── exportContent.ts     # Main content export script
+├── web/                   # Graphai Reader web application
+│ ├── public/              # Frontend React components
+│ └── server.js            # Express server
 ├── AGENTS.md              # AI agent instructions
-├── package.json
-├── README.md
-├── tsconfig.json
+├── README.md              # This file 😁
 ├── validate.ts            # Validation script
 ```
 
