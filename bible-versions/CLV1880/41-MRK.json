@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "initium evangelii Iesu Christi Filii Dei",
-      "paragraph": true
+      "paragraph": true,
+      "text": "initium evangelii Iesu Christi Filii Dei"
     }
   },
   {
@@ -277,8 +277,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "et iterum intravit Capharnaum post dies",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et iterum intravit Capharnaum post dies"
     }
   },
   {
@@ -448,8 +448,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "et introivit iterum synagogam et erat ibi homo habens manum aridam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et introivit iterum synagogam et erat ibi homo habens manum aridam"
     }
   },
   {
@@ -661,8 +661,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "et iterum coepit docere ad mare et congregata est ad eum turba multa ita ut in navem ascendens sederet in mari et omnis turba circa mare super terram erat",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et iterum coepit docere ad mare et congregata est ad eum turba multa ita ut in navem ascendens sederet in mari et omnis turba circa mare super terram erat"
     }
   },
   {
@@ -903,15 +903,23 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 41,
-    "content": "[verse]4:40[/verse] et timuerunt magno timore et dicebant ad alterutrum quis putas est iste quia et ventus et mare oboediunt ei"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 4:40."
+        }
+      },
+      "et timuerunt magno timore et dicebant ad alterutrum quis putas est iste quia et ventus et mare oboediunt ei"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "et venerunt trans fretum maris in regionem Gerasenorum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et venerunt trans fretum maris in regionem Gerasenorum"
     }
   },
   {
@@ -1171,8 +1179,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "et egressus inde abiit in patriam suam et sequebantur illum discipuli sui",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et egressus inde abiit in patriam suam et sequebantur illum discipuli sui"
     }
   },
   {
@@ -1510,8 +1518,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "et conveniunt ad eum Pharisaei et quidam de scribis venientes ab Hierosolymis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et conveniunt ad eum Pharisaei et quidam de scribis venientes ab Hierosolymis"
     }
   },
   {
@@ -1735,8 +1743,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "in illis diebus iterum cum turba multa esset nec haberent quod manducarent convocatis discipulis ait illis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "in illis diebus iterum cum turba multa esset nec haberent quod manducarent convocatis discipulis ait illis"
     }
   },
   {
@@ -1966,8 +1974,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "(8-39) et dicebat illis amen dico vobis quia sunt quidam de hic stantibus qui non gustabunt mortem donec videant regnum Dei veniens in virtute",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(8-39) et dicebat illis amen dico vobis quia sunt quidam de hic stantibus qui non gustabunt mortem donec videant regnum Dei veniens in virtute"
     }
   },
   {
@@ -2269,8 +2277,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "et inde exsurgens venit in fines Iudaeae ultra Iordanen et conveniunt iterum turbae ad eum et sicut consueverat iterum docebat illos",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et inde exsurgens venit in fines Iudaeae ultra Iordanen et conveniunt iterum turbae ad eum et sicut consueverat iterum docebat illos"
     }
   },
   {
@@ -2584,8 +2592,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "et cum adpropinquarent Hierosolymae et Bethaniae ad montem Olivarum mittit duos ex discipulis suis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et cum adpropinquarent Hierosolymae et Bethaniae ad montem Olivarum mittit duos ex discipulis suis"
     }
   },
   {
@@ -2785,8 +2793,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "et coepit illis in parabolis loqui vineam pastinavit homo et circumdedit sepem et fodit lacum et aedificavit turrem et locavit eam agricolis et peregre profectus est",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et coepit illis in parabolis loqui vineam pastinavit homo et circumdedit sepem et fodit lacum et aedificavit turrem et locavit eam agricolis et peregre profectus est"
     }
   },
   {
@@ -3052,8 +3060,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "et cum egrederetur de templo ait illi unus ex discipulis suis magister aspice quales lapides et quales structurae",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et cum egrederetur de templo ait illi unus ex discipulis suis magister aspice quales lapides et quales structurae"
     }
   },
   {
@@ -3277,8 +3285,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "erat autem pascha et azyma post biduum et quaerebant summi sacerdotes et scribae quomodo eum dolo tenerent et occiderent",
-      "paragraph": true
+      "paragraph": true,
+      "text": "erat autem pascha et azyma post biduum et quaerebant summi sacerdotes et scribae quomodo eum dolo tenerent et occiderent"
     }
   },
   {
@@ -3712,8 +3720,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "et confestim mane consilium facientes summi sacerdotes cum senioribus et scribis et universo concilio vincientes Iesum duxerunt et tradiderunt Pilato",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et confestim mane consilium facientes summi sacerdotes cum senioribus et scribis et universo concilio vincientes Iesum duxerunt et tradiderunt Pilato"
     }
   },
   {
@@ -3997,8 +4005,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "et cum transisset sabbatum Maria Magdalene et Maria Iacobi et Salome emerunt aromata ut venientes unguerent eum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et cum transisset sabbatum Maria Magdalene et Maria Iacobi et Salome emerunt aromata ut venientes unguerent eum"
     }
   },
   {

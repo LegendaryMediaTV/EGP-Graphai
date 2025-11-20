@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "beatus vir qui non abiit in consilio impiorum et in via peccatorum non stetit et in cathedra pestilentiae non sedit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "beatus vir qui non abiit in consilio impiorum et in via peccatorum non stetit et in cathedra pestilentiae non sedit"
     }
   },
   {
@@ -43,8 +43,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "psalmus David quare fremuerunt gentes et populi meditati sunt inania",
-      "paragraph": true
+      "paragraph": true,
+      "text": "psalmus David quare fremuerunt gentes et populi meditati sunt inania"
     }
   },
   {
@@ -117,10 +117,15 @@
     "book": "PSA",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "text": "«psalmus David cum fugeret a facie Abessalon filii sui» (3-2) Domine quid multiplicati sunt qui tribulant me multi insurgunt adversum me",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "psalmus David cum fugeret a facie Abessalon filii sui"
+      },
+      {
+        "paragraph": true,
+        "text": "(3-2) Domine quid multiplicati sunt qui tribulant me multi insurgunt adversum me"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -168,10 +173,15 @@
     "book": "PSA",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "text": "«in finem in carminibus psalmus David» (4-2) cum invocarem exaudivit me Deus iustitiae meae in tribulatione dilatasti mihi miserere mei et exaudi orationem meam",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "in finem in carminibus psalmus David"
+      },
+      {
+        "paragraph": true,
+        "text": "(4-2) cum invocarem exaudivit me Deus iustitiae meae in tribulatione dilatasti mihi miserere mei et exaudi orationem meam"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -219,10 +229,15 @@
     "book": "PSA",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "text": "«in finem pro ea quae hereditatem consequitur psalmus David» (5-2) verba mea auribus percipe Domine intellege clamorem meum",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "in finem pro ea quae hereditatem consequitur psalmus David"
+      },
+      {
+        "paragraph": true,
+        "text": "(5-2) verba mea auribus percipe Domine intellege clamorem meum"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -294,10 +309,15 @@
     "book": "PSA",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "text": "«in finem in carminibus pro octava psalmus David» (6-2) Domine ne in furore tuo arguas me neque in ira tua corripias me",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "in finem in carminibus pro octava psalmus David"
+      },
+      {
+        "paragraph": true,
+        "text": "(6-2) Domine ne in furore tuo arguas me neque in ira tua corripias me"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -357,10 +377,15 @@
     "book": "PSA",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "text": "«psalmus David quem cantavit Domino pro verbis Chusi filii Iemini» (7-2) Domine Deus meus in te speravi salvum me fac ex omnibus persequentibus me et libera me",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "psalmus David quem cantavit Domino pro verbis Chusi filii Iemini"
+      },
+      {
+        "paragraph": true,
+        "text": "(7-2) Domine Deus meus in te speravi salvum me fac ex omnibus persequentibus me et libera me"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -462,10 +487,15 @@
     "book": "PSA",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "text": "«in finem pro torcularibus psalmus David» (8-2) Domine Dominus noster quam admirabile est nomen tuum in universa terra quoniam elevata est magnificentia tua super caelos",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "in finem pro torcularibus psalmus David"
+      },
+      {
+        "paragraph": true,
+        "text": "(8-2) Domine Dominus noster quam admirabile est nomen tuum in universa terra quoniam elevata est magnificentia tua super caelos"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -519,10 +549,15 @@
     "book": "PSA",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "text": "«in finem pro occultis filii psalmus David» (9-2) confitebor tibi Domine in toto corde meo narrabo omnia mirabilia tua",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "in finem pro occultis filii psalmus David"
+      },
+      {
+        "paragraph": true,
+        "text": "(9-2) confitebor tibi Domine in toto corde meo narrabo omnia mirabilia tua"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -643,8 +678,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "(9-22) «ut quid Domine recessisti longe dispicis in oportunitatibus in tribulatione»",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(9-22) «ut quid Domine recessisti longe dispicis in oportunitatibus in tribulatione»"
     }
   },
   {
@@ -754,8 +789,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "(10-1) «in finem psalmus David» (10-2) in Domino confido quomodo dicitis animae meae transmigra in montes sicut passer",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(10-1) «in finem psalmus David» (10-2) in Domino confido quomodo dicitis animae meae transmigra in montes sicut passer"
     }
   },
   {
@@ -799,8 +834,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "(11-1) «in finem pro octava psalmus David» (11-2) salvum me fac Domine quoniam defecit sanctus quoniam deminutae sunt veritates a filiis hominum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(11-1) «in finem pro octava psalmus David» (11-2) salvum me fac Domine quoniam defecit sanctus quoniam deminutae sunt veritates a filiis hominum"
     }
   },
   {
@@ -850,8 +885,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "(12-1) «in finem psalmus David» usquequo Domine oblivisceris me in finem usquequo avertis faciem tuam a me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(12-1) «in finem psalmus David» usquequo Domine oblivisceris me in finem usquequo avertis faciem tuam a me"
     }
   },
   {
@@ -889,8 +924,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "(13-1) «in finem psalmus David» dixit insipiens in corde suo non est Deus corrupti sunt et abominabiles facti sunt in studiis suis; non est qui faciat bonum non est usque ad unum;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(13-1) «in finem psalmus David» dixit insipiens in corde suo non est Deus corrupti sunt et abominabiles facti sunt in studiis suis; non est qui faciat bonum non est usque ad unum;"
     }
   },
   {
@@ -934,8 +969,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "(14-1) «psalmus David» Domine quis habitabit in tabernaculo tuo aut quis requiescet in monte sancto tuo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(14-1) «psalmus David» Domine quis habitabit in tabernaculo tuo aut quis requiescet in monte sancto tuo"
     }
   },
   {
@@ -967,8 +1002,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "(15-1) «tituli inscriptio ipsi David» conserva me Domine quoniam in te speravi",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(15-1) «tituli inscriptio ipsi David» conserva me Domine quoniam in te speravi"
     }
   },
   {
@@ -1036,8 +1071,8 @@
     "chapter": 17,
     "verse": 1,
     "content": {
-      "text": "(16-1) «oratio David» exaudi Domine iustitiam meam intende deprecationem meam auribus percipe orationem meam non in labiis dolosis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(16-1) «oratio David» exaudi Domine iustitiam meam intende deprecationem meam auribus percipe orationem meam non in labiis dolosis"
     }
   },
   {
@@ -1129,8 +1164,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "(17-1) «in finem puero Domini David quae locutus est Domino verba cantici huius in die qua eripuit eum Dominus de manu omnium inimicorum eius et de manu Saul et dixit» (17-2) diligam te Domine fortitudo mea",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(17-1) «in finem puero Domini David quae locutus est Domino verba cantici huius in die qua eripuit eum Dominus de manu omnium inimicorum eius et de manu Saul et dixit» (17-2) diligam te Domine fortitudo mea"
     }
   },
   {
@@ -1432,8 +1467,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "(18-1) «in finem psalmus David» (18-2) caeli enarrant gloriam Dei et opera manuum eius adnuntiat firmamentum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(18-1) «in finem psalmus David» (18-2) caeli enarrant gloriam Dei et opera manuum eius adnuntiat firmamentum"
     }
   },
   {
@@ -1519,8 +1554,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "(19-1) «in finem psalmus David» (19-2) exaudiat te Dominus in die tribulationis protegat te nomen Dei Iacob",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(19-1) «in finem psalmus David» (19-2) exaudiat te Dominus in die tribulationis protegat te nomen Dei Iacob"
     }
   },
   {
@@ -1576,8 +1611,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "(20-1) «in finem psalmus David» (20-2) Domine in virtute tua laetabitur rex et super salutare tuum exultabit vehementer",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(20-1) «in finem psalmus David» (20-2) Domine in virtute tua laetabitur rex et super salutare tuum exultabit vehementer"
     }
   },
   {
@@ -1657,8 +1692,8 @@
     "chapter": 22,
     "verse": 1,
     "content": {
-      "text": "(21-1) «in finem pro adsumptione matutina psalmus David» (21-2) Deus Deus meus respice me; quare me dereliquisti longe a salute mea verba delictorum meorum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(21-1) «in finem pro adsumptione matutina psalmus David» (21-2) Deus Deus meus respice me; quare me dereliquisti longe a salute mea verba delictorum meorum"
     }
   },
   {
@@ -1846,8 +1881,8 @@
     "chapter": 23,
     "verse": 1,
     "content": {
-      "text": "(22-1) «psalmus David» Dominus reget me et nihil mihi deerit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(22-1) «psalmus David» Dominus reget me et nihil mihi deerit"
     }
   },
   {
@@ -1885,8 +1920,8 @@
     "chapter": 24,
     "verse": 1,
     "content": {
-      "text": "(23-1) «psalmus David prima sabbati» Domini est terra et plenitudo eius orbis terrarum et universi; qui habitant in eo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(23-1) «psalmus David prima sabbati» Domini est terra et plenitudo eius orbis terrarum et universi; qui habitant in eo"
     }
   },
   {
@@ -1948,8 +1983,8 @@
     "chapter": 25,
     "verse": 1,
     "content": {
-      "text": "(24-1) «psalmus David» ad te Domine levavi animam meam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(24-1) «psalmus David» ad te Domine levavi animam meam"
     }
   },
   {
@@ -2083,8 +2118,8 @@
     "chapter": 26,
     "verse": 1,
     "content": {
-      "text": "(25-1) «psalmus David» iudica me Domine quoniam ego in innocentia mea ingressus sum et in Domino sperans non infirmabor",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(25-1) «psalmus David» iudica me Domine quoniam ego in innocentia mea ingressus sum et in Domino sperans non infirmabor"
     }
   },
   {
@@ -2158,8 +2193,8 @@
     "chapter": 27,
     "verse": 1,
     "content": {
-      "text": "(26-1) «David» priusquam liniretur Dominus inluminatio mea et salus mea quem timebo Dominus protector vitae meae a quo trepidabo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(26-1) «David» priusquam liniretur Dominus inluminatio mea et salus mea quem timebo Dominus protector vitae meae a quo trepidabo"
     }
   },
   {
@@ -2245,8 +2280,8 @@
     "chapter": 28,
     "verse": 1,
     "content": {
-      "text": "(27-1) «huic David» ad te Domine clamabo Deus meus ne sileas a me nequando taceas a me et adsimilabor descendentibus in lacum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(27-1) «huic David» ad te Domine clamabo Deus meus ne sileas a me nequando taceas a me et adsimilabor descendentibus in lacum"
     }
   },
   {
@@ -2302,8 +2337,8 @@
     "chapter": 29,
     "verse": 1,
     "content": {
-      "text": "(28-1) «psalmus David in consummatione tabernaculi» adferte Domino filii Dei adferte Domino filios arietum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(28-1) «psalmus David in consummatione tabernaculi» adferte Domino filii Dei adferte Domino filios arietum"
     }
   },
   {
@@ -2371,8 +2406,8 @@
     "chapter": 30,
     "verse": 1,
     "content": {
-      "text": "(29-1) «psalmus cantici in dedicatione domus David» (29-2) exaltabo te Domine quoniam suscepisti me nec delectasti inimicos meos super me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(29-1) «psalmus cantici in dedicatione domus David» (29-2) exaltabo te Domine quoniam suscepisti me nec delectasti inimicos meos super me"
     }
   },
   {
@@ -2446,8 +2481,8 @@
     "chapter": 31,
     "verse": 1,
     "content": {
-      "text": "(30-1) «in finem psalmus David» (30-2) in te Domine speravi non confundar in aeternum in iustitia tua libera me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(30-1) «in finem psalmus David» (30-2) in te Domine speravi non confundar in aeternum in iustitia tua libera me"
     }
   },
   {
@@ -2593,8 +2628,8 @@
     "chapter": 32,
     "verse": 1,
     "content": {
-      "text": "(31-1) «huic David intellectus» beati quorum remissae sunt iniquitates et quorum tecta sunt peccata",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(31-1) «huic David intellectus» beati quorum remissae sunt iniquitates et quorum tecta sunt peccata"
     }
   },
   {
@@ -2662,8 +2697,8 @@
     "chapter": 33,
     "verse": 1,
     "content": {
-      "text": "(32-1) psalmus David exultate iusti in Domino rectos decet laudatio",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(32-1) psalmus David exultate iusti in Domino rectos decet laudatio"
     }
   },
   {
@@ -2797,8 +2832,8 @@
     "chapter": 34,
     "verse": 1,
     "content": {
-      "text": "(33-1) «David cum inmutavit vultum suum coram Abimelech et dimisit eum et abiit» (33-2) benedicam Dominum in omni tempore semper laus eius in ore meo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(33-1) «David cum inmutavit vultum suum coram Abimelech et dimisit eum et abiit» (33-2) benedicam Dominum in omni tempore semper laus eius in ore meo"
     }
   },
   {
@@ -2932,8 +2967,8 @@
     "chapter": 35,
     "verse": 1,
     "content": {
-      "text": "(34-1) «huic David» iudica Domine nocentes me expugna expugnantes me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(34-1) «huic David» iudica Domine nocentes me expugna expugnantes me"
     }
   },
   {
@@ -3103,8 +3138,8 @@
     "chapter": 36,
     "verse": 1,
     "content": {
-      "text": "(35-1) «in finem servo Domini David» (35-2) dixit iniustus ut delinquat in semet ipso non est timor Dei ante oculos eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(35-1) «in finem servo Domini David» (35-2) dixit iniustus ut delinquat in semet ipso non est timor Dei ante oculos eius"
     }
   },
   {
@@ -3178,8 +3213,8 @@
     "chapter": 37,
     "verse": 1,
     "content": {
-      "text": "(36-1) «ipsi David» noli aemulari in malignantibus neque zelaveris facientes iniquitatem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(36-1) «ipsi David» noli aemulari in malignantibus neque zelaveris facientes iniquitatem"
     }
   },
   {
@@ -3421,8 +3456,8 @@
     "chapter": 38,
     "verse": 1,
     "content": {
-      "text": "(37-1) «psalmus David in rememorationem de sabbato» (37-2) Domine ne in furore tuo arguas me neque in ira tua corripias me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(37-1) «psalmus David in rememorationem de sabbato» (37-2) Domine ne in furore tuo arguas me neque in ira tua corripias me"
     }
   },
   {
@@ -3556,8 +3591,8 @@
     "chapter": 39,
     "verse": 1,
     "content": {
-      "text": "(38-1) «in finem Idithun canticum David» (38-2) dixi custodiam vias meas ut non delinquam in lingua mea posui ori meo custodiam cum consisteret peccator adversum me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(38-1) «in finem Idithun canticum David» (38-2) dixi custodiam vias meas ut non delinquam in lingua mea posui ori meo custodiam cum consisteret peccator adversum me"
     }
   },
   {
@@ -3637,8 +3672,8 @@
     "chapter": 40,
     "verse": 1,
     "content": {
-      "text": "(39-1) «in finem David psalmus» (39-2) expectans expectavi Dominum et intendit mihi",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(39-1) «in finem David psalmus» (39-2) expectans expectavi Dominum et intendit mihi"
     }
   },
   {
@@ -3742,8 +3777,8 @@
     "chapter": 41,
     "verse": 1,
     "content": {
-      "text": "(40-1) «in finem psalmus David» (40-2) beatus qui intellegit super egenum et pauperem in die mala liberabit eum Dominus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(40-1) «in finem psalmus David» (40-2) beatus qui intellegit super egenum et pauperem in die mala liberabit eum Dominus"
     }
   },
   {
@@ -3823,8 +3858,8 @@
     "chapter": 42,
     "verse": 1,
     "content": {
-      "text": "(41-1) «in finem in intellectum filiis Core» (41-2) quemadmodum desiderat cervus ad fontes aquarum ita desiderat anima mea ad te Deus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(41-1) «in finem in intellectum filiis Core» (41-2) quemadmodum desiderat cervus ad fontes aquarum ita desiderat anima mea ad te Deus"
     }
   },
   {
@@ -3892,8 +3927,8 @@
     "chapter": 43,
     "verse": 1,
     "content": {
-      "text": "(42-1) psalmus David iudica me Deus et discerne causam meam de gente non sancta ab homine iniquo et doloso erue me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(42-1) psalmus David iudica me Deus et discerne causam meam de gente non sancta ab homine iniquo et doloso erue me"
     }
   },
   {
@@ -3925,8 +3960,8 @@
     "chapter": 44,
     "verse": 1,
     "content": {
-      "text": "(43-1) «in finem filiis Core ad intellectum» (43-2) Deus auribus nostris audivimus patres nostri adnuntiaverunt nobis opus quod operatus es in diebus eorum in diebus antiquis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(43-1) «in finem filiis Core ad intellectum» (43-2) Deus auribus nostris audivimus patres nostri adnuntiaverunt nobis opus quod operatus es in diebus eorum in diebus antiquis"
     }
   },
   {
@@ -4084,8 +4119,8 @@
     "chapter": 45,
     "verse": 1,
     "content": {
-      "text": "(44-1) «in finem pro his qui commutabuntur filiis Core ad intellectum canticum pro dilecto» (44-2) eructavit cor meum verbum bonum dico ego opera mea regi lingua mea calamus scribae velociter scribentis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(44-1) «in finem pro his qui commutabuntur filiis Core ad intellectum canticum pro dilecto» (44-2) eructavit cor meum verbum bonum dico ego opera mea regi lingua mea calamus scribae velociter scribentis"
     }
   },
   {
@@ -4189,8 +4224,8 @@
     "chapter": 46,
     "verse": 1,
     "content": {
-      "text": "(45-1) «in finem pro filiis Core pro arcanis psalmus» (45-2) Deus noster refugium et virtus adiutor in tribulationibus quae invenerunt nos nimis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(45-1) «in finem pro filiis Core pro arcanis psalmus» (45-2) Deus noster refugium et virtus adiutor in tribulationibus quae invenerunt nos nimis"
     }
   },
   {
@@ -4258,8 +4293,8 @@
     "chapter": 47,
     "verse": 1,
     "content": {
-      "text": "(46-1) «in finem pro filiis Core psalmus» (46-2) omnes gentes plaudite manibus iubilate Deo in voce exultationis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(46-1) «in finem pro filiis Core psalmus» (46-2) omnes gentes plaudite manibus iubilate Deo in voce exultationis"
     }
   },
   {
@@ -4315,8 +4350,8 @@
     "chapter": 48,
     "verse": 1,
     "content": {
-      "text": "(47-1) «canticum psalmi filiis Core secunda sabbati» (47-2) magnus Dominus et laudabilis nimis in civitate Dei nostri in monte sancto eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(47-1) «canticum psalmi filiis Core secunda sabbati» (47-2) magnus Dominus et laudabilis nimis in civitate Dei nostri in monte sancto eius"
     }
   },
   {
@@ -4402,8 +4437,8 @@
     "chapter": 49,
     "verse": 1,
     "content": {
-      "text": "(48-1) «in finem filiis Core psalmus» (48-2) audite haec omnes gentes auribus percipite omnes qui habitatis orbem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(48-1) «in finem filiis Core psalmus» (48-2) audite haec omnes gentes auribus percipite omnes qui habitatis orbem"
     }
   },
   {
@@ -4525,8 +4560,8 @@
     "chapter": 50,
     "verse": 1,
     "content": {
-      "text": "(49-1) «psalmus Asaph» Deus deorum Dominus locutus est et vocavit terram a solis ortu usque ad occasum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(49-1) «psalmus Asaph» Deus deorum Dominus locutus est et vocavit terram a solis ortu usque ad occasum"
     }
   },
   {
@@ -4666,8 +4701,8 @@
     "chapter": 51,
     "verse": 1,
     "content": {
-      "text": "(50-1) «in finem psalmus David (50-2) cum venit ad eum Nathan propheta quando intravit ad Bethsabee» (50-3) miserere mei Deus secundum magnam; misericordiam tuam et; secundum multitudinem miserationum tuarum dele iniquitatem meam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(50-1) «in finem psalmus David (50-2) cum venit ad eum Nathan propheta quando intravit ad Bethsabee» (50-3) miserere mei Deus secundum magnam; misericordiam tuam et; secundum multitudinem miserationum tuarum dele iniquitatem meam"
     }
   },
   {
@@ -4783,8 +4818,8 @@
     "chapter": 52,
     "verse": 1,
     "content": {
-      "text": "(51-1) «in finem intellectus David (51-2) cum venit Doec Idumeus et adnuntiavit Saul et dixit venit David in domo Achimelech» (51-3) quid gloriatur in malitia qui potens est iniquitate",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(51-1) «in finem intellectus David (51-2) cum venit Doec Idumeus et adnuntiavit Saul et dixit venit David in domo Achimelech» (51-3) quid gloriatur in malitia qui potens est iniquitate"
     }
   },
   {
@@ -4840,8 +4875,8 @@
     "chapter": 53,
     "verse": 1,
     "content": {
-      "text": "(52-1) «in finem pro Melech intellegentiae David» dixit insipiens in corde suo non est Deus (52-2) corrupti sunt et abominabiles facti sunt in iniquitatibus non est qui faciat bonum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(52-1) «in finem pro Melech intellegentiae David» dixit insipiens in corde suo non est Deus (52-2) corrupti sunt et abominabiles facti sunt in iniquitatibus non est qui faciat bonum"
     }
   },
   {
@@ -4879,8 +4914,8 @@
     "chapter": 54,
     "verse": 1,
     "content": {
-      "text": "(53-1) «in finem in carminibus intellectus David (53-2) cum venissent Ziphei et dixissent ad Saul nonne David absconditus est apud nos» (53-3) Deus in nomine tuo salvum me fac et in virtute tua iudica me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(53-1) «in finem in carminibus intellectus David (53-2) cum venissent Ziphei et dixissent ad Saul nonne David absconditus est apud nos» (53-3) Deus in nomine tuo salvum me fac et in virtute tua iudica me"
     }
   },
   {
@@ -4924,8 +4959,8 @@
     "chapter": 55,
     "verse": 1,
     "content": {
-      "text": "(54-1) «in finem in carminibus intellectus David» (54-2) exaudi Deus orationem meam et ne despexeris deprecationem meam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(54-1) «in finem in carminibus intellectus David» (54-2) exaudi Deus orationem meam et ne despexeris deprecationem meam"
     }
   },
   {
@@ -5065,8 +5100,8 @@
     "chapter": 56,
     "verse": 1,
     "content": {
-      "text": "(55-1) «in finem pro populo qui a sanctis longe factus est David in tituli inscriptione cum tenuerunt eum Allophili in Geth» (55-2) miserere mei Deus quoniam conculcavit me homo tota die inpugnans tribulavit me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(55-1) «in finem pro populo qui a sanctis longe factus est David in tituli inscriptione cum tenuerunt eum Allophili in Geth» (55-2) miserere mei Deus quoniam conculcavit me homo tota die inpugnans tribulavit me"
     }
   },
   {
@@ -5146,8 +5181,8 @@
     "chapter": 57,
     "verse": 1,
     "content": {
-      "text": "(56-1) «in finem ne disperdas David in tituli inscriptione cum fugeret a facie Saul in spelunca» (56-2) miserere mei Deus miserere mei quoniam in te confidit anima mea et in umbra alarum tuarum sperabo donec transeat iniquitas",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(56-1) «in finem ne disperdas David in tituli inscriptione cum fugeret a facie Saul in spelunca» (56-2) miserere mei Deus miserere mei quoniam in te confidit anima mea et in umbra alarum tuarum sperabo donec transeat iniquitas"
     }
   },
   {
@@ -5215,8 +5250,8 @@
     "chapter": 58,
     "verse": 1,
     "content": {
-      "text": "(57-1) «in finem ne disperdas David in tituli inscriptione» (57-2) si vere utique iustitiam loquimini recta iudicate filii hominum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(57-1) «in finem ne disperdas David in tituli inscriptione» (57-2) si vere utique iustitiam loquimini recta iudicate filii hominum"
     }
   },
   {
@@ -5284,8 +5319,8 @@
     "chapter": 59,
     "verse": 1,
     "content": {
-      "text": "(58-1) «in finem ne disperdas David in tituli inscriptione quando misit Saul et custodivit domum eius ut interficeret eum» (58-2) eripe me de inimicis meis Deus et ab insurgentibus in me libera me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(58-1) «in finem ne disperdas David in tituli inscriptione quando misit Saul et custodivit domum eius ut interficeret eum» (58-2) eripe me de inimicis meis Deus et ab insurgentibus in me libera me"
     }
   },
   {
@@ -5389,8 +5424,8 @@
     "chapter": 60,
     "verse": 1,
     "content": {
-      "text": "(59-1) «in finem his qui inmutabuntur in tituli inscriptione David in doctrina (59-2) cum succendit Syriam Mesopotamiam et Syriam Soba et convertit Ioab et percussit vallem Salinarum duodecim milia» (59-3) Deus reppulisti nos et destruxisti nos iratus es et misertus es nobis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(59-1) «in finem his qui inmutabuntur in tituli inscriptione David in doctrina (59-2) cum succendit Syriam Mesopotamiam et Syriam Soba et convertit Ioab et percussit vallem Salinarum duodecim milia» (59-3) Deus reppulisti nos et destruxisti nos iratus es et misertus es nobis"
     }
   },
   {
@@ -5464,8 +5499,8 @@
     "chapter": 61,
     "verse": 1,
     "content": {
-      "text": "(60-1) «in finem in hymnis David» (60-2) exaudi Deus deprecationem meam intende orationi meae",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(60-1) «in finem in hymnis David» (60-2) exaudi Deus deprecationem meam intende orationi meae"
     }
   },
   {
@@ -5515,8 +5550,8 @@
     "chapter": 62,
     "verse": 1,
     "content": {
-      "text": "(61-1) «in finem pro Idithun psalmus David» (61-2) nonne Deo subiecta erit anima mea ab ipso enim salutare meum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(61-1) «in finem pro Idithun psalmus David» (61-2) nonne Deo subiecta erit anima mea ab ipso enim salutare meum"
     }
   },
   {
@@ -5590,8 +5625,8 @@
     "chapter": 63,
     "verse": 1,
     "content": {
-      "text": "(62-1) «psalmus David cum esset in deserto Iudaeae» (62-2) Deus Deus meus ad te de luce vigilo sitivit in te anima mea quam multipliciter tibi caro mea",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(62-1) «psalmus David cum esset in deserto Iudaeae» (62-2) Deus Deus meus ad te de luce vigilo sitivit in te anima mea quam multipliciter tibi caro mea"
     }
   },
   {
@@ -5659,8 +5694,8 @@
     "chapter": 64,
     "verse": 1,
     "content": {
-      "text": "(63-1) «in finem psalmus David» (63-2) exaudi Deus orationem meam cum deprecor a timore inimici eripe animam meam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(63-1) «in finem psalmus David» (63-2) exaudi Deus orationem meam cum deprecor a timore inimici eripe animam meam"
     }
   },
   {
@@ -5722,8 +5757,8 @@
     "chapter": 65,
     "verse": 1,
     "content": {
-      "text": "(64-1) «in finem psalmus David canticum; Hieremiae et Aggei de verbo peregrinationis quando incipiebant proficisci» (64-2) te decet hymnus Deus in Sion et tibi reddetur votum in Hierusalem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(64-1) «in finem psalmus David canticum; Hieremiae et Aggei de verbo peregrinationis quando incipiebant proficisci» (64-2) te decet hymnus Deus in Sion et tibi reddetur votum in Hierusalem"
     }
   },
   {
@@ -5803,8 +5838,8 @@
     "chapter": 66,
     "verse": 1,
     "content": {
-      "text": "(65-1) «in finem canticum psalmi resurrectionis» iubilate Deo omnis terra",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(65-1) «in finem canticum psalmi resurrectionis» iubilate Deo omnis terra"
     }
   },
   {
@@ -5926,8 +5961,8 @@
     "chapter": 67,
     "verse": 1,
     "content": {
-      "text": "(66-1) «in finem in hymnis psalmus cantici» (66-2) Deus misereatur nostri et benedicat nobis inluminet vultum suum super nos et misereatur nostri diapsalma",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(66-1) «in finem in hymnis psalmus cantici» (66-2) Deus misereatur nostri et benedicat nobis inluminet vultum suum super nos et misereatur nostri diapsalma"
     }
   },
   {
@@ -5971,8 +6006,8 @@
     "chapter": 68,
     "verse": 1,
     "content": {
-      "text": "(67-1) «in finem David psalmus cantici» (67-2) exsurgat Deus et dissipentur inimici eius et fugiant qui oderunt eum a facie eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(67-1) «in finem David psalmus cantici» (67-2) exsurgat Deus et dissipentur inimici eius et fugiant qui oderunt eum a facie eius"
     }
   },
   {
@@ -6184,8 +6219,8 @@
     "chapter": 69,
     "verse": 1,
     "content": {
-      "text": "(68-1) «in finem pro his qui commutabuntur David» (68-2) salvum me fac Deus quoniam intraverunt aquae usque ad animam meam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(68-1) «in finem pro his qui commutabuntur David» (68-2) salvum me fac Deus quoniam intraverunt aquae usque ad animam meam"
     }
   },
   {
@@ -6403,8 +6438,8 @@
     "chapter": 70,
     "verse": 1,
     "content": {
-      "text": "(69-1) «in finem David in rememoratione eo quod salvum me fecit Dominus» (69-2) Deus in adiutorium meum intende Domine ad adiuvandum me festina;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(69-1) «in finem David in rememoratione eo quod salvum me fecit Dominus» (69-2) Deus in adiutorium meum intende Domine ad adiuvandum me festina;"
     }
   },
   {
@@ -6436,8 +6471,8 @@
     "chapter": 71,
     "verse": 1,
     "content": {
-      "text": "(70-1) David psalmus filiorum Ionadab et priorum captivorum in te Domine speravi non confundar in aeternum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(70-1) David psalmus filiorum Ionadab et priorum captivorum in te Domine speravi non confundar in aeternum"
     }
   },
   {
@@ -6583,8 +6618,8 @@
     "chapter": 72,
     "verse": 1,
     "content": {
-      "text": "(71-1) «in Salomonem» (71-2) Deus iudicium tuum regi da et iustitiam tuam filio regis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(71-1) «in Salomonem» (71-2) Deus iudicium tuum regi da et iustitiam tuam filio regis"
     }
   },
   {
@@ -6706,8 +6741,8 @@
     "chapter": 73,
     "verse": 1,
     "content": {
-      "text": "(72-1) «psalmus Asaph» quam bonus Israhel Deus his qui recto sunt corde",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(72-1) «psalmus Asaph» quam bonus Israhel Deus his qui recto sunt corde"
     }
   },
   {
@@ -6877,8 +6912,8 @@
     "chapter": 74,
     "verse": 1,
     "content": {
-      "text": "(73-1) «intellectus Asaph» ut quid Deus reppulisti in finem iratus est furor tuus super oves pascuae tuae",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(73-1) «intellectus Asaph» ut quid Deus reppulisti in finem iratus est furor tuus super oves pascuae tuae"
     }
   },
   {
@@ -7018,8 +7053,8 @@
     "chapter": 75,
     "verse": 1,
     "content": {
-      "text": "(74-1) «in finem ne corrumpas psalmus Asaph cantici» (74-2) confitebimur tibi Deus confitebimur et invocabimus nomen tuum narrabimus mirabilia tua",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(74-1) «in finem ne corrumpas psalmus Asaph cantici» (74-2) confitebimur tibi Deus confitebimur et invocabimus nomen tuum narrabimus mirabilia tua"
     }
   },
   {
@@ -7081,8 +7116,8 @@
     "chapter": 76,
     "verse": 1,
     "content": {
-      "text": "(75-1) «in finem in laudibus psalmus Asaph canticum ad Assyrium» (75-2) notus in Iudaea Deus in Israhel magnum nomen eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(75-1) «in finem in laudibus psalmus Asaph canticum ad Assyrium» (75-2) notus in Iudaea Deus in Israhel magnum nomen eius"
     }
   },
   {
@@ -7156,8 +7191,8 @@
     "chapter": 77,
     "verse": 1,
     "content": {
-      "text": "(76-1) «in finem pro Idithun psalmus Asaph» (76-2) voce mea ad Dominum clamavi voce mea ad Deum et intendit me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(76-1) «in finem pro Idithun psalmus Asaph» (76-2) voce mea ad Dominum clamavi voce mea ad Deum et intendit me"
     }
   },
   {
@@ -7279,8 +7314,8 @@
     "chapter": 78,
     "verse": 1,
     "content": {
-      "text": "(77-1) «intellectus Asaph» adtendite populus meus legem meam inclinate aurem vestram in verba oris mei",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(77-1) «intellectus Asaph» adtendite populus meus legem meam inclinate aurem vestram in verba oris mei"
     }
   },
   {
@@ -7714,8 +7749,8 @@
     "chapter": 79,
     "verse": 1,
     "content": {
-      "text": "(78-1) «psalmus Asaph» Deus venerunt gentes in hereditatem tuam polluerunt templum sanctum tuum posuerunt Hierusalem in pomorum custodiam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(78-1) «psalmus Asaph» Deus venerunt gentes in hereditatem tuam polluerunt templum sanctum tuum posuerunt Hierusalem in pomorum custodiam"
     }
   },
   {
@@ -7795,8 +7830,8 @@
     "chapter": 80,
     "verse": 1,
     "content": {
-      "text": "(79-1) «in finem pro his qui commutabuntur testimonium Asaph psalmus» (79-2) qui regis Israhel intende qui deducis tamquam oves Ioseph qui sedes super cherubin manifestare",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(79-1) «in finem pro his qui commutabuntur testimonium Asaph psalmus» (79-2) qui regis Israhel intende qui deducis tamquam oves Ioseph qui sedes super cherubin manifestare"
     }
   },
   {
@@ -7912,8 +7947,8 @@
     "chapter": 81,
     "verse": 1,
     "content": {
-      "text": "(80-1) «in finem pro torcularibus Asaph» (80-2) exultate Deo adiutori nostro iubilate Deo Iacob",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(80-1) «in finem pro torcularibus Asaph» (80-2) exultate Deo adiutori nostro iubilate Deo Iacob"
     }
   },
   {
@@ -8011,8 +8046,8 @@
     "chapter": 82,
     "verse": 1,
     "content": {
-      "text": "(81-1) «psalmus Asaph» Deus stetit in synagoga deorum in medio autem Deus deiudicat",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(81-1) «psalmus Asaph» Deus stetit in synagoga deorum in medio autem Deus deiudicat"
     }
   },
   {
@@ -8062,8 +8097,8 @@
     "chapter": 83,
     "verse": 1,
     "content": {
-      "text": "(82-1) «canticum psalmi Asaph» (82-2) Deus quis similis erit tibi ne taceas neque conpescaris Deus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(82-1) «canticum psalmi Asaph» (82-2) Deus quis similis erit tibi ne taceas neque conpescaris Deus"
     }
   },
   {
@@ -8173,8 +8208,8 @@
     "chapter": 84,
     "verse": 1,
     "content": {
-      "text": "(83-1) «in finem pro torcularibus filiis Core psalmus» (83-2) quam dilecta tabernacula tua Domine virtutum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(83-1) «in finem pro torcularibus filiis Core psalmus» (83-2) quam dilecta tabernacula tua Domine virtutum"
     }
   },
   {
@@ -8248,8 +8283,8 @@
     "chapter": 85,
     "verse": 1,
     "content": {
-      "text": "(84-1) «in finem filiis Core psalmus» (84-2) benedixisti Domine terram tuam avertisti captivitatem Iacob",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(84-1) «in finem filiis Core psalmus» (84-2) benedixisti Domine terram tuam avertisti captivitatem Iacob"
     }
   },
   {
@@ -8329,8 +8364,8 @@
     "chapter": 86,
     "verse": 1,
     "content": {
-      "text": "(85-1) «oratio ipsi David» inclina Domine aurem tuam et; exaudi me quoniam inops et pauper sum ego",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(85-1) «oratio ipsi David» inclina Domine aurem tuam et; exaudi me quoniam inops et pauper sum ego"
     }
   },
   {
@@ -8434,8 +8469,8 @@
     "chapter": 87,
     "verse": 1,
     "content": {
-      "text": "(86-1) «filiis Core psalmus cantici» fundamenta eius in montibus sanctis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(86-1) «filiis Core psalmus cantici» fundamenta eius in montibus sanctis"
     }
   },
   {
@@ -8479,8 +8514,8 @@
     "chapter": 88,
     "verse": 1,
     "content": {
-      "text": "(87-1) «canticum psalmi filiis Core in finem pro Maeleth ad respondendum intellectus Eman Ezraitae» (87-2) Domine Deus salutis meae die clamavi et nocte coram te",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(87-1) «canticum psalmi filiis Core in finem pro Maeleth ad respondendum intellectus Eman Ezraitae» (87-2) Domine Deus salutis meae die clamavi et nocte coram te"
     }
   },
   {
@@ -8590,8 +8625,8 @@
     "chapter": 89,
     "verse": 1,
     "content": {
-      "text": "(88-1) «intellectus Aethan Ezraitae» (88-2) misericordias Domini in aeternum cantabo in generationem et generationem adnuntiabo veritatem tuam in ore meo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(88-1) «intellectus Aethan Ezraitae» (88-2) misericordias Domini in aeternum cantabo in generationem et generationem adnuntiabo veritatem tuam in ore meo"
     }
   },
   {
@@ -8905,8 +8940,8 @@
     "chapter": 90,
     "verse": 1,
     "content": {
-      "text": "(89-1) «oratio Mosi hominis Dei» Domine refugium tu factus es nobis in generatione et generatione",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(89-1) «oratio Mosi hominis Dei» Domine refugium tu factus es nobis in generatione et generatione"
     }
   },
   {
@@ -9010,8 +9045,8 @@
     "chapter": 91,
     "verse": 1,
     "content": {
-      "text": "(90-1) laus cantici David qui habitat in adiutorio Altissimi in protectione Dei caeli commorabitur",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(90-1) laus cantici David qui habitat in adiutorio Altissimi in protectione Dei caeli commorabitur"
     }
   },
   {
@@ -9109,8 +9144,8 @@
     "chapter": 92,
     "verse": 1,
     "content": {
-      "text": "(91-1) «psalmus cantici in die sabbati» (91-2) bonum est confiteri Domino et psallere nomini tuo Altissime",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(91-1) «psalmus cantici in die sabbati» (91-2) bonum est confiteri Domino et psallere nomini tuo Altissime"
     }
   },
   {
@@ -9202,8 +9237,8 @@
     "chapter": 93,
     "verse": 1,
     "content": {
-      "text": "(92-1) laus cantici David in die ante sabbatum quando inhabitata est terra Dominus regnavit decore indutus est indutus est Dominus fortitudine et praecinxit se etenim firmavit orbem terrae qui non commovebitur",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(92-1) laus cantici David in die ante sabbatum quando inhabitata est terra Dominus regnavit decore indutus est indutus est Dominus fortitudine et praecinxit se etenim firmavit orbem terrae qui non commovebitur"
     }
   },
   {
@@ -9235,8 +9270,8 @@
     "chapter": 94,
     "verse": 1,
     "content": {
-      "text": "(93-1) psalmus David quarta sabbati Deus ultionum Dominus Deus ultionum libere egit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(93-1) psalmus David quarta sabbati Deus ultionum Dominus Deus ultionum libere egit"
     }
   },
   {
@@ -9376,8 +9411,8 @@
     "chapter": 95,
     "verse": 1,
     "content": {
-      "text": "(94-1) «laus cantici David» venite exultemus Domino iubilemus Deo salutari nostro",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(94-1) «laus cantici David» venite exultemus Domino iubilemus Deo salutari nostro"
     }
   },
   {
@@ -9445,8 +9480,8 @@
     "chapter": 96,
     "verse": 1,
     "content": {
-      "text": "(95-1) quando domus aedificabatur post captivitatem canticum huic David cantate Domino canticum novum cantate Domino omnis terra",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(95-1) quando domus aedificabatur post captivitatem canticum huic David cantate Domino canticum novum cantate Domino omnis terra"
     }
   },
   {
@@ -9526,8 +9561,8 @@
     "chapter": 97,
     "verse": 1,
     "content": {
-      "text": "(96-1) «huic David quando terra eius restituta est» Dominus regnavit exultet terra laetentur insulae multae",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(96-1) «huic David quando terra eius restituta est» Dominus regnavit exultet terra laetentur insulae multae"
     }
   },
   {
@@ -9601,8 +9636,8 @@
     "chapter": 98,
     "verse": 1,
     "content": {
-      "text": "(97-1) «psalmus David» cantate Domino canticum novum quoniam mirabilia fecit salvavit sibi dextera eius et brachium sanctum eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(97-1) «psalmus David» cantate Domino canticum novum quoniam mirabilia fecit salvavit sibi dextera eius et brachium sanctum eius"
     }
   },
   {
@@ -9658,8 +9693,8 @@
     "chapter": 99,
     "verse": 1,
     "content": {
-      "text": "(98-1) «psalmus David» Dominus regnavit irascantur populi qui sedet super cherubin moveatur terra",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(98-1) «psalmus David» Dominus regnavit irascantur populi qui sedet super cherubin moveatur terra"
     }
   },
   {
@@ -9715,8 +9750,8 @@
     "chapter": 100,
     "verse": 1,
     "content": {
-      "text": "(99-1) «psalmus in confessione» (99-1) iubilate Domino omnis terra",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(99-1) «psalmus in confessione» (99-1) iubilate Domino omnis terra"
     }
   },
   {
@@ -9748,8 +9783,8 @@
     "chapter": 101,
     "verse": 1,
     "content": {
-      "text": "(100-1) «David psalmus» misericordiam et iudicium cantabo tibi Domine psallam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(100-1) «David psalmus» misericordiam et iudicium cantabo tibi Domine psallam"
     }
   },
   {
@@ -9799,8 +9834,8 @@
     "chapter": 102,
     "verse": 1,
     "content": {
-      "text": "(101-1) «oratio pauperis cum anxius fuerit et coram Domino effuderit precem suam» (101-2) Domine exaudi orationem meam et clamor meus ad te veniat",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(101-1) «oratio pauperis cum anxius fuerit et coram Domino effuderit precem suam» (101-2) Domine exaudi orationem meam et clamor meus ad te veniat"
     }
   },
   {
@@ -9970,8 +10005,8 @@
     "chapter": 103,
     "verse": 1,
     "content": {
-      "text": "(102-1) «ipsi David» benedic anima mea Domino et omnia quae intra me sunt nomini sancto eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(102-1) «ipsi David» benedic anima mea Domino et omnia quae intra me sunt nomini sancto eius"
     }
   },
   {
@@ -10105,8 +10140,8 @@
     "chapter": 104,
     "verse": 1,
     "content": {
-      "text": "(103-1) «ipsi David» benedic anima mea Domino Domine Deus meus magnificatus es vehementer confessionem et decorem induisti",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(103-1) «ipsi David» benedic anima mea Domino Domine Deus meus magnificatus es vehementer confessionem et decorem induisti"
     }
   },
   {
@@ -10318,8 +10353,8 @@
     "chapter": 105,
     "verse": 1,
     "content": {
-      "text": "(104-1) «alleluia» confitemini Domino et invocate nomen eius adnuntiate inter gentes opera eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(104-1) «alleluia» confitemini Domino et invocate nomen eius adnuntiate inter gentes opera eius"
     }
   },
   {
@@ -10591,8 +10626,8 @@
     "chapter": 106,
     "verse": 1,
     "content": {
-      "text": "(105-1) «alleluia» confitemini Domino quoniam bonus quoniam in saeculum misericordia eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(105-1) «alleluia» confitemini Domino quoniam bonus quoniam in saeculum misericordia eius"
     }
   },
   {
@@ -10882,8 +10917,8 @@
     "chapter": 107,
     "verse": 1,
     "content": {
-      "text": "(106-1) «alleluia» confitemini Domino quoniam bonus quoniam in saeculum misericordia eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(106-1) «alleluia» confitemini Domino quoniam bonus quoniam in saeculum misericordia eius"
     }
   },
   {
@@ -11143,8 +11178,8 @@
     "chapter": 108,
     "verse": 1,
     "content": {
-      "text": "(107-1) «canticum psalmi David» (107-2) paratum cor meum Deus paratum cor meum cantabo et psallam in gloria mea",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(107-1) «canticum psalmi David» (107-2) paratum cor meum Deus paratum cor meum cantabo et psallam in gloria mea"
     }
   },
   {
@@ -11224,8 +11259,8 @@
     "chapter": 109,
     "verse": 1,
     "content": {
-      "text": "(108-1) «in finem David psalmus» (108-2) Deus laudem meam ne tacueris quia os peccatoris et os dolosi super me apertum est",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(108-1) «in finem David psalmus» (108-2) Deus laudem meam ne tacueris quia os peccatoris et os dolosi super me apertum est"
     }
   },
   {
@@ -11413,8 +11448,8 @@
     "chapter": 110,
     "verse": 1,
     "content": {
-      "text": "(109-1) «David psalmus» dixit Dominus Domino meo sede a dextris meis donec ponam inimicos tuos scabillum pedum tuorum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(109-1) «David psalmus» dixit Dominus Domino meo sede a dextris meis donec ponam inimicos tuos scabillum pedum tuorum"
     }
   },
   {
@@ -11458,8 +11493,8 @@
     "chapter": 111,
     "verse": 1,
     "content": {
-      "text": "(110-1) «alleluia» reversionis Aggei et Zacchariae confitebor tibi Domine in toto corde meo in consilio iustorum et congregatione",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(110-1) «alleluia» reversionis Aggei et Zacchariae confitebor tibi Domine in toto corde meo in consilio iustorum et congregatione"
     }
   },
   {
@@ -11521,8 +11556,8 @@
     "chapter": 112,
     "verse": 1,
     "content": {
-      "text": "(111-1) «alleluia reversionis Aggei et Zacchariae» beatus vir qui timet Dominum in mandatis eius volet nimis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(111-1) «alleluia reversionis Aggei et Zacchariae» beatus vir qui timet Dominum in mandatis eius volet nimis"
     }
   },
   {
@@ -11584,8 +11619,8 @@
     "chapter": 113,
     "verse": 1,
     "content": {
-      "text": "(112-1) «alleluia» laudate pueri Dominum laudate nomen Domini",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(112-1) «alleluia» laudate pueri Dominum laudate nomen Domini"
     }
   },
   {
@@ -11641,8 +11676,8 @@
     "chapter": 114,
     "verse": 1,
     "content": {
-      "text": "(113-1) «alleluia» in exitu Israhel de Aegypto domus Iacob de populo barbaro",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(113-1) «alleluia» in exitu Israhel de Aegypto domus Iacob de populo barbaro"
     }
   },
   {
@@ -11692,8 +11727,8 @@
     "chapter": 115,
     "verse": 1,
     "content": {
-      "text": "(113-9) non nobis Domine non nobis sed nomini tuo da gloriam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(113-9) non nobis Domine non nobis sed nomini tuo da gloriam"
     }
   },
   {
@@ -11803,8 +11838,8 @@
     "chapter": 116,
     "verse": 1,
     "content": {
-      "text": "(114-1) «alleluia» dilexi quoniam exaudiet Dominus vocem orationis meae",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(114-1) «alleluia» dilexi quoniam exaudiet Dominus vocem orationis meae"
     }
   },
   {
@@ -11920,8 +11955,8 @@
     "chapter": 117,
     "verse": 1,
     "content": {
-      "text": "(116-1) alleluia laudate Dominum omnes gentes laudate eum omnes populi",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(116-1) alleluia laudate Dominum omnes gentes laudate eum omnes populi"
     }
   },
   {
@@ -11935,8 +11970,8 @@
     "chapter": 118,
     "verse": 1,
     "content": {
-      "text": "(117-1) alleluia confitemini Domino quoniam bonus quoniam in saeculum misericordia eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(117-1) alleluia confitemini Domino quoniam bonus quoniam in saeculum misericordia eius"
     }
   },
   {
@@ -12112,8 +12147,8 @@
     "chapter": 119,
     "verse": 1,
     "content": {
-      "text": "(118-1) «alleluia» «aleph» beati inmaculati in via qui ambulant in lege Domini",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(118-1) «alleluia» «aleph» beati inmaculati in via qui ambulant in lege Domini"
     }
   },
   {
@@ -13171,8 +13206,8 @@
     "chapter": 120,
     "verse": 1,
     "content": {
-      "text": "(119-1) «canticum graduum» ad Dominum cum tribularer clamavi et exaudivit me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(119-1) «canticum graduum» ad Dominum cum tribularer clamavi et exaudivit me"
     }
   },
   {
@@ -13216,8 +13251,8 @@
     "chapter": 121,
     "verse": 1,
     "content": {
-      "text": "(120-1) «canticum graduum» levavi oculos meos in montes unde veniet auxilium mihi",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(120-1) «canticum graduum» levavi oculos meos in montes unde veniet auxilium mihi"
     }
   },
   {
@@ -13267,8 +13302,8 @@
     "chapter": 122,
     "verse": 1,
     "content": {
-      "text": "(121-1) «canticum graduum huic David» laetatus sum in his quae dicta sunt mihi in domum Domini ibimus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(121-1) «canticum graduum huic David» laetatus sum in his quae dicta sunt mihi in domum Domini ibimus"
     }
   },
   {
@@ -13324,8 +13359,8 @@
     "chapter": 123,
     "verse": 1,
     "content": {
-      "text": "(122-1) «canticum graduum» ad te levavi oculos meos qui habitas in caelo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(122-1) «canticum graduum» ad te levavi oculos meos qui habitas in caelo"
     }
   },
   {
@@ -13351,8 +13386,8 @@
     "chapter": 124,
     "verse": 1,
     "content": {
-      "text": "(123-1) «canticum graduum huic David» nisi quia Dominus erat in nobis dicat nunc Israhel",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(123-1) «canticum graduum huic David» nisi quia Dominus erat in nobis dicat nunc Israhel"
     }
   },
   {
@@ -13402,8 +13437,8 @@
     "chapter": 125,
     "verse": 1,
     "content": {
-      "text": "(124-1) «canticum graduum» qui confidunt in Domino sicut mons Sion non commovebitur in aeternum qui habitat",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(124-1) «canticum graduum» qui confidunt in Domino sicut mons Sion non commovebitur in aeternum qui habitat"
     }
   },
   {
@@ -13435,8 +13470,8 @@
     "chapter": 126,
     "verse": 1,
     "content": {
-      "text": "(125-1) «canticum graduum» in convertendo Dominum captivitatem Sion facti sumus sicut consolati",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(125-1) «canticum graduum» in convertendo Dominum captivitatem Sion facti sumus sicut consolati"
     }
   },
   {
@@ -13474,8 +13509,8 @@
     "chapter": 127,
     "verse": 1,
     "content": {
-      "text": "(126-1) «canticum graduum Salomonis» nisi Dominus aedificaverit domum in vanum laboraverunt qui aedificant eam nisi Dominus custodierit civitatem frustra vigilavit qui custodit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(126-1) «canticum graduum Salomonis» nisi Dominus aedificaverit domum in vanum laboraverunt qui aedificant eam nisi Dominus custodierit civitatem frustra vigilavit qui custodit"
     }
   },
   {
@@ -13507,8 +13542,8 @@
     "chapter": 128,
     "verse": 1,
     "content": {
-      "text": "(127-1) «canticum graduum» beati omnes qui timent Dominum qui ambulant in viis eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(127-1) «canticum graduum» beati omnes qui timent Dominum qui ambulant in viis eius"
     }
   },
   {
@@ -13546,8 +13581,8 @@
     "chapter": 129,
     "verse": 1,
     "content": {
-      "text": "(128-1) «canticum graduum» saepe expugnaverunt me a iuventute mea dicat nunc Israhel",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(128-1) «canticum graduum» saepe expugnaverunt me a iuventute mea dicat nunc Israhel"
     }
   },
   {
@@ -13597,8 +13632,8 @@
     "chapter": 130,
     "verse": 1,
     "content": {
-      "text": "(129-1) «canticum graduum» de profundis clamavi ad te Domine",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(129-1) «canticum graduum» de profundis clamavi ad te Domine"
     }
   },
   {
@@ -13648,8 +13683,8 @@
     "chapter": 131,
     "verse": 1,
     "content": {
-      "text": "(130-1) «canticum graduum David» Domine non est exaltatum cor meum neque elati sunt oculi mei neque ambulavi in magnis neque in mirabilibus super me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(130-1) «canticum graduum David» Domine non est exaltatum cor meum neque elati sunt oculi mei neque ambulavi in magnis neque in mirabilibus super me"
     }
   },
   {
@@ -13669,8 +13704,8 @@
     "chapter": 132,
     "verse": 1,
     "content": {
-      "text": "(131-1) canticum graduum memento Domine David et omnis mansuetudinis eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(131-1) canticum graduum memento Domine David et omnis mansuetudinis eius"
     }
   },
   {
@@ -13780,8 +13815,8 @@
     "chapter": 133,
     "verse": 1,
     "content": {
-      "text": "(132-1) «canticum graduum David» ecce quam bonum et quam iucundum habitare fratres in unum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(132-1) «canticum graduum David» ecce quam bonum et quam iucundum habitare fratres in unum"
     }
   },
   {
@@ -13801,8 +13836,8 @@
     "chapter": 134,
     "verse": 1,
     "content": {
-      "text": "(133-1) «canticum graduum» ecce nunc benedicite Dominum omnes servi Domini qui statis in domo Domini in atriis domus Dei nostri;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(133-1) «canticum graduum» ecce nunc benedicite Dominum omnes servi Domini qui statis in domo Domini in atriis domus Dei nostri;"
     }
   },
   {
@@ -13822,8 +13857,8 @@
     "chapter": 135,
     "verse": 1,
     "content": {
-      "text": "(134-1) «alleluia» laudate nomen Domini laudate servi Dominum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(134-1) «alleluia» laudate nomen Domini laudate servi Dominum"
     }
   },
   {
@@ -13951,8 +13986,8 @@
     "chapter": 136,
     "verse": 1,
     "content": {
-      "text": "(135-1) «alleluia» confitemini Domino quoniam bonus quoniam in aeternum misericordia eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(135-1) «alleluia» confitemini Domino quoniam bonus quoniam in aeternum misericordia eius"
     }
   },
   {
@@ -14110,8 +14145,8 @@
     "chapter": 137,
     "verse": 1,
     "content": {
-      "text": "(136-1) «David Hieremiae» super flumina Babylonis illic sedimus et flevimus cum recordaremur Sion",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(136-1) «David Hieremiae» super flumina Babylonis illic sedimus et flevimus cum recordaremur Sion"
     }
   },
   {
@@ -14167,8 +14202,8 @@
     "chapter": 138,
     "verse": 1,
     "content": {
-      "text": "(137-1) «ipsi David» confitebor tibi Domine in toto corde meo quoniam audisti verba oris mei in conspectu angelorum psallam tibi",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(137-1) «ipsi David» confitebor tibi Domine in toto corde meo quoniam audisti verba oris mei in conspectu angelorum psallam tibi"
     }
   },
   {
@@ -14218,8 +14253,8 @@
     "chapter": 139,
     "verse": 1,
     "content": {
-      "text": "(138-1) «in finem David psalmus» (138-2) Domine probasti me et cognovisti",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(138-1) «in finem David psalmus» (138-2) Domine probasti me et cognovisti"
     }
   },
   {
@@ -14365,8 +14400,8 @@
     "chapter": 140,
     "verse": 1,
     "content": {
-      "text": "(139-1) «in finem psalmus David» (139-2) eripe me Domine ab homine malo a viro iniquo eripe me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(139-1) «in finem psalmus David» (139-2) eripe me Domine ab homine malo a viro iniquo eripe me"
     }
   },
   {
@@ -14446,8 +14481,8 @@
     "chapter": 141,
     "verse": 1,
     "content": {
-      "text": "(140-1) «psalmus David» Domine clamavi ad te exaudi me intende voci meae cum clamavero ad te",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(140-1) «psalmus David» Domine clamavi ad te exaudi me intende voci meae cum clamavero ad te"
     }
   },
   {
@@ -14509,8 +14544,8 @@
     "chapter": 142,
     "verse": 1,
     "content": {
-      "text": "(141-1) «intellectus David cum esset in spelunca oratio» (141-2) voce mea ad Dominum clamavi voce mea ad Dominum deprecatus sum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(141-1) «intellectus David cum esset in spelunca oratio» (141-2) voce mea ad Dominum clamavi voce mea ad Dominum deprecatus sum"
     }
   },
   {
@@ -14554,8 +14589,8 @@
     "chapter": 143,
     "verse": 1,
     "content": {
-      "text": "(142-1) «psalmus David» quando filius eum persequebatur Domine exaudi orationem meam auribus percipe obsecrationem meam in veritate tua exaudi me in tua iustitia",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(142-1) «psalmus David» quando filius eum persequebatur Domine exaudi orationem meam auribus percipe obsecrationem meam in veritate tua exaudi me in tua iustitia"
     }
   },
   {
@@ -14629,8 +14664,8 @@
     "chapter": 144,
     "verse": 1,
     "content": {
-      "text": "(143-1) «David adversus Goliad» benedictus Dominus Deus meus qui docet manus meas ad proelium digitos meos ad bellum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(143-1) «David adversus Goliad» benedictus Dominus Deus meus qui docet manus meas ad proelium digitos meos ad bellum"
     }
   },
   {
@@ -14722,8 +14757,8 @@
     "chapter": 145,
     "verse": 1,
     "content": {
-      "text": "(144-1) «laudatio David» exaltabo te Deus meus rex et benedicam nomini tuo in saeculum et in saeculum saeculi",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(144-1) «laudatio David» exaltabo te Deus meus rex et benedicam nomini tuo in saeculum et in saeculum saeculi"
     }
   },
   {
@@ -14851,8 +14886,8 @@
     "chapter": 146,
     "verse": 1,
     "content": {
-      "text": "(145-1) «alleluia Aggei et Zacchariae» (145-2) lauda anima mea Dominum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(145-1) «alleluia Aggei et Zacchariae» (145-2) lauda anima mea Dominum"
     }
   },
   {
@@ -14914,8 +14949,8 @@
     "chapter": 147,
     "verse": 1,
     "content": {
-      "text": "(146-1) «alleluia Aggei et Zacchariae» laudate Dominum quoniam bonum psalmus Deo nostro sit iucunda decoraque; laudatio",
-      "paragraph": true
+      "paragraph": true,
+      "text": "(146-1) «alleluia Aggei et Zacchariae» laudate Dominum quoniam bonum psalmus Deo nostro sit iucunda decoraque; laudatio"
     }
   },
   {
@@ -14982,7 +15017,12 @@
     "book": "PSA",
     "chapter": 147,
     "verse": 12,
-    "content": "«alleluia» lauda Hierusalem Dominum lauda Deum tuum Sion"
+    "content": [
+      {
+        "subtitle": "alleluia"
+      },
+      "lauda Hierusalem Dominum lauda Deum tuum Sion"
+    ]
   },
   {
     "book": "PSA",
@@ -15036,10 +15076,15 @@
     "book": "PSA",
     "chapter": 148,
     "verse": 1,
-    "content": {
-      "text": "«alleluia» laudate Dominum de caelis laudate eum in excelsis",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "alleluia"
+      },
+      {
+        "paragraph": true,
+        "text": "laudate Dominum de caelis laudate eum in excelsis"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -15123,10 +15168,15 @@
     "book": "PSA",
     "chapter": 149,
     "verse": 1,
-    "content": {
-      "text": "«alleluia» cantate Domino canticum novum laus eius in ecclesia sanctorum",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "alleluia"
+      },
+      {
+        "paragraph": true,
+        "text": "cantate Domino canticum novum laus eius in ecclesia sanctorum"
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -15180,10 +15230,15 @@
     "book": "PSA",
     "chapter": 150,
     "verse": 1,
-    "content": {
-      "text": "«alleluia» laudate Dominum in sanctis eius laudate eum in firmamento virtutis eius",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "subtitle": "alleluia"
+      },
+      {
+        "paragraph": true,
+        "text": "laudate Dominum in sanctis eius laudate eum in firmamento virtutis eius"
+      }
+    ]
   },
   {
     "book": "PSA",
