@@ -1,6 +1,6 @@
 const { useState, useEffect, useMemo, useRef } = React;
 
-function VerseRenderer({ verse, mode, settings }) {
+function VerseRenderer({ verse, mode, settings, onFootnoteClick }) {
   const contentArray = Array.isArray(verse.content)
     ? verse.content
     : [verse.content];
@@ -18,15 +18,31 @@ function VerseRenderer({ verse, mode, settings }) {
     }
   }
 
+  let isParagraphStart = false;
+  if (mainNodes.length > 0 && mainNodes[0].paragraph === true) {
+    isParagraphStart = true;
+    // Clone the first node and remove the paragraph flag so ContentNode doesn't render a double break
+    mainNodes[0] = { ...mainNodes[0], paragraph: false };
+  }
+
   return (
     <React.Fragment>
-      <ContentNode node={preVerseNodes} settings={settings} />
+      <ContentNode
+        node={preVerseNodes}
+        settings={settings}
+        onFootnoteClick={onFootnoteClick}
+      />
+      {isParagraphStart && <span className="block mt-4 w-full"></span>}
       {mode === "paragraph" && settings.showVerseNumbers && (
         <sup className="text-[0.6em] font-bold mr-1 text-gray-400 select-none">
           {verse.verse}
         </sup>
       )}
-      <ContentNode node={mainNodes} settings={settings} />
+      <ContentNode
+        node={mainNodes}
+        settings={settings}
+        onFootnoteClick={onFootnoteClick}
+      />
       {mode === "paragraph" && " "}
     </React.Fragment>
   );
