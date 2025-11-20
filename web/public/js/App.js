@@ -18,8 +18,8 @@ function App() {
   const [settings, setSettings] = useState({
     paragraphMode: true,
     showVerseNumbers: true,
-    showStrongs: false,
-    showMorph: false,
+    showStrongs: true,
+    showMorph: true,
     showLemma: false,
     showFootnotes: true,
     showHeadings: true,

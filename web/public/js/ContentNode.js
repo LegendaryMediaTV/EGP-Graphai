@@ -130,7 +130,7 @@ function ContentNode({ node, settings }) {
           href={strongsLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-mono font-bold text-gray-500 dark:text-gray-400 hover:underline mr-1"
+          className="font-mono font-bold text-gray-500 dark:text-gray-400 hover:underline"
         >
           {node.strong}
         </a>
@@ -138,14 +138,24 @@ function ContentNode({ node, settings }) {
     }
     if (settings.showLemma && node.lemma) {
       parsingInfo.push(
-        <span key="l" className="italic text-gray-400 mr-1">
+        <span
+          key="l"
+          className={`italic text-gray-400 ${
+            parsingInfo.length > 0 ? "ml-1" : ""
+          }`}
+        >
           {node.lemma}
         </span>
       );
     }
     if (settings.showMorph && node.morph) {
       parsingInfo.push(
-        <span key="m" className="text-gray-500 dark:text-gray-400">
+        <span
+          key="m"
+          className={`text-gray-500 dark:text-gray-400 ${
+            parsingInfo.length > 0 ? "ml-1" : ""
+          }`}
+        >
           {node.morph}
         </span>
       );
