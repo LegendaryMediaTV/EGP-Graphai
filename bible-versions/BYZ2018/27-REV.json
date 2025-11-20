@@ -5,11 +5,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἀποκάλυψις",
         "script": "G",
         "strong": "G602",
-        "morph": "N-NSF",
-        "paragraph": true
+        "morph": "N-NSF"
       },
       {
         "text": " Ἰησοῦ",
@@ -408,11 +408,11 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἰωάννης",
         "script": "G",
         "strong": "G2491",
-        "morph": "N-NSM",
-        "paragraph": true
+        "morph": "N-NSM"
       },
       {
         "text": " ταῖς",
@@ -1177,11 +1177,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐγώ",
         "script": "G",
         "strong": "G1473",
-        "morph": "P-1NS",
-        "paragraph": true
+        "morph": "P-1NS"
       },
       {
         "text": " εἰμι",
@@ -1311,11 +1311,11 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐγὼ",
         "script": "G",
         "strong": "G1473",
-        "morph": "P-1NS",
-        "paragraph": true
+        "morph": "P-1NS"
       },
       {
         "text": " Ἰωάννης,",
@@ -3372,11 +3372,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Τῷ",
         "script": "G",
         "strong": "G3588",
-        "morph": "T-DSM",
-        "paragraph": true
+        "morph": "T-DSM"
       },
       {
         "text": " ἀγγέλῳ",
@@ -4466,11 +4466,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " τῷ",
@@ -5181,11 +5181,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " τῷ",
@@ -6300,11 +6300,11 @@
     "verse": 18,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " τῷ",
@@ -7454,7 +7454,7 @@
               "text": "ἄχρι",
               "script": "G"
             },
-            " [",
+            "[",
             {
               "text": "ς",
               "script": "G"
@@ -7852,11 +7852,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " τῷ",
@@ -8883,11 +8883,11 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " τῷ",
@@ -9019,7 +9019,7 @@
               "text": "Δαυίδ",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΔΑΔ",
               "script": "G"
@@ -10306,11 +10306,11 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " τῷ",
@@ -10751,7 +10751,6 @@
         "morph": "A-GSN-N"
       },
       {
-        "text": " ",
         "strong": "G3762",
         "morph": "A-GSM-N"
       },
@@ -11093,12 +11092,12 @@
               "text": "κολλ",
               "script": "G"
             },
-            " [",
+            "[",
             {
               "text": "ο",
               "script": "G"
             },
-            "] ",
+            "]",
             {
               "text": "ύριον",
               "script": "G"
@@ -11674,11 +11673,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Μετὰ",
         "script": "G",
         "strong": "G3326",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " ταῦτα",
@@ -12237,7 +12236,7 @@
               "text": "εἴκοσι τέσσαρες",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΚΔ",
               "script": "G"
@@ -12309,7 +12308,7 @@
               "text": "εἴκοσι τέσσαρας",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΚΔ",
               "script": "G"
@@ -13448,7 +13447,7 @@
               "text": "εἴκοσι τέσσαρες",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΚΔ",
               "script": "G"
@@ -13856,11 +13855,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -14551,7 +14550,7 @@
               "text": "Δαυίδ",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΔΑΔ",
               "script": "G"
@@ -15082,7 +15081,7 @@
               "text": "εἴκοσι τέσσαρες",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΚΔ",
               "script": "G"
@@ -16472,11 +16471,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -16804,11 +16803,11 @@
     "verse": 3,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὅτε",
@@ -17107,11 +17106,11 @@
     "verse": 5,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὅτε",
@@ -17523,11 +17522,11 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὅτε",
@@ -17971,11 +17970,11 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὅτε",
@@ -18663,11 +18662,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -19632,6 +19631,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "foot": {
@@ -19645,7 +19645,6 @@
             " ⇒ -"
           ]
         },
-        "paragraph": true,
         "strong": "G2532",
         "morph": "CONJ"
       },
@@ -20355,11 +20354,11 @@
     "verse": 5,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐκ",
         "script": "G",
         "strong": "G1537",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " φυλῆς",
@@ -20384,7 +20383,7 @@
               "text": "δώδεκα",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΙΒ",
               "script": "G"
@@ -20504,11 +20503,11 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "ἐκ",
         "script": "G",
         "strong": "G1537",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " φυλῆς",
@@ -20533,7 +20532,7 @@
               "text": "δώδεκα",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΙΒ",
               "script": "G"
@@ -20632,11 +20631,11 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "ἐκ",
         "script": "G",
         "strong": "G1537",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " φυλῆς",
@@ -20661,7 +20660,7 @@
               "text": "δώδεκα",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΙΒ",
               "script": "G"
@@ -20730,7 +20729,7 @@
               "text": "δώδεκα",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΙΒ",
               "script": "G"
@@ -20760,11 +20759,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "ἐκ",
         "script": "G",
         "strong": "G1537",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " φυλῆς",
@@ -20789,7 +20788,7 @@
               "text": "δώδεκα",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΙΒ",
               "script": "G"
@@ -20876,7 +20875,7 @@
               "text": "δώδεκα",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΙΒ",
               "script": "G"
@@ -20894,11 +20893,11 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "Μετὰ",
         "script": "G",
         "strong": "G3326",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " ταῦτα",
@@ -21712,11 +21711,11 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἀπεκρίθη",
@@ -22585,11 +22584,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὅτε",
@@ -22789,11 +22788,11 @@
     "verse": 3,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἄλλος",
@@ -23309,11 +23308,11 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " οἱ",
@@ -23410,11 +23409,11 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -23622,11 +23621,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -23916,11 +23915,11 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -24255,11 +24254,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -24521,11 +24520,11 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον,",
@@ -24751,11 +24750,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -26565,11 +26564,11 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -28252,11 +28251,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -30346,11 +30345,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἐδόθη",
@@ -32793,11 +32792,11 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἡ",
         "script": "G",
         "strong": "G3588",
-        "morph": "T-NSF",
-        "paragraph": true
+        "morph": "T-NSF"
       },
       {
         "text": " οὐαὶ",
@@ -32888,11 +32887,11 @@
     "verse": 15,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -33125,7 +33124,7 @@
               "text": "εἴκοσι τέσσαρες",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΚΔ",
               "script": "G"
@@ -33761,11 +33760,11 @@
     "verse": 19,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἠνοίγη",
@@ -34045,11 +34044,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " σημεῖον",
@@ -35022,11 +35021,11 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἐγένετο",
@@ -36168,11 +36167,11 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὅτε",
@@ -36969,11 +36968,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἐστάθην",
@@ -37192,7 +37191,7 @@
               "text": "ὀνόμα",
               "script": "G"
             },
-            " [",
+            "[",
             {
               "text": "τα",
               "script": "G"
@@ -38748,11 +38747,11 @@
     "verse": 11,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -40369,12 +40368,12 @@
               "text": "ἑξακόσια ἑξήκοντα ἕξ",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΧΞ",
               "script": "G"
             },
-            " $"
+            "$"
           ]
         },
         "strong": "G1812",
@@ -40415,11 +40414,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον,",
@@ -41053,7 +41052,7 @@
               "text": "ἑκατὸν τεσσαράκοντα τέσσαρες",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΡΜΔ",
               "script": "G"
@@ -41499,11 +41498,11 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -41958,11 +41957,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἄλλος",
@@ -42158,11 +42157,11 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἄλλος",
@@ -42901,11 +42900,11 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἤκουσα",
@@ -43188,11 +43187,11 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον,",
@@ -43723,11 +43722,11 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἄλλος",
@@ -44496,7 +44495,7 @@
               "text": "χιλίων ἑξακοσίων",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΑΧ",
               "script": "G"
@@ -44520,11 +44519,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -44678,11 +44677,11 @@
     "verse": 2,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -45380,11 +45379,11 @@
     "verse": 5,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " μετὰ",
@@ -46057,11 +46056,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἤκουσα",
@@ -46261,11 +46260,11 @@
     "verse": 2,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἀπῆλθεν",
@@ -46482,11 +46481,11 @@
     "verse": 3,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -46656,11 +46655,11 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -47013,7 +47012,7 @@
               "text": "δ",
               "script": "G"
             },
-            "] ",
+            "]",
             {
               "text": "έδωκας",
               "script": "G"
@@ -47158,11 +47157,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -47516,11 +47515,11 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -47849,11 +47848,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -48667,11 +48666,11 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὁ",
@@ -49575,11 +49574,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἦλθεν",
@@ -50016,7 +50015,7 @@
               "text": "γέμον",
               "script": "G"
             },
-            " [",
+            "[",
             {
               "text": "τα",
               "script": "G"
@@ -52884,6 +52883,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Μετὰ",
         "script": "G",
         "foot": {
@@ -52901,7 +52901,6 @@
             }
           ]
         },
-        "paragraph": true,
         "strong": "G3326",
         "morph": "PREP"
       },
@@ -53480,11 +53479,11 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἤκουσα",
@@ -55569,12 +55568,12 @@
               "text": "οὐ μὴ εὑρή",
               "script": "G"
             },
-            " [",
+            "[",
             {
               "text": "σει",
               "script": "G"
             },
-            "] ",
+            "]",
             {
               "text": "ς αὐτά",
               "script": "G"
@@ -56622,11 +56621,11 @@
     "verse": 21,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἦρεν",
@@ -57386,6 +57385,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Μετὰ",
         "script": "G",
         "foot": {
@@ -57403,7 +57403,6 @@
             }
           ]
         },
-        "paragraph": true,
         "strong": "G3326",
         "morph": "PREP"
       },
@@ -58045,7 +58044,7 @@
               "text": "εἴκοσι τέσσαρες",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΚΔ",
               "script": "G"
@@ -59175,11 +59174,11 @@
     "verse": 11,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -60154,11 +60153,11 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -60597,11 +60596,11 @@
     "verse": 19,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -61276,11 +61275,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -61858,11 +61857,11 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -62621,11 +62620,11 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ὅταν",
@@ -63349,11 +63348,11 @@
     "verse": 11,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -64279,11 +64278,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " εἶδον",
@@ -65880,11 +65879,11 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἦλθεν",
@@ -67399,7 +67398,7 @@
               "text": "ἑκατὸν τεσσαράκοντα τεσσάρων",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΡΜΔ",
               "script": "G"
@@ -68966,11 +68965,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἔδειξέν",
@@ -69796,11 +69795,11 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " λέγει",
@@ -70116,6 +70115,7 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Κἀγὼ",
         "script": "G",
         "foot": {
@@ -70133,7 +70133,6 @@
             }
           ]
         },
-        "paragraph": true,
         "strong": "G2504",
         "morph": "P-1NS-K"
       },
@@ -70494,11 +70493,11 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " λέγει",
@@ -71335,11 +71334,11 @@
     "verse": 16,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐγὼ",
         "script": "G",
         "strong": "G1473",
-        "morph": "P-1NS",
-        "paragraph": true
+        "morph": "P-1NS"
       },
       {
         "text": " Ἰησοῦς",
@@ -71460,7 +71459,7 @@
               "text": "Δαυίδ",
               "script": "G"
             },
-            " ⇒ _ ",
+            " ⇒ _",
             {
               "text": "ΔΑΔ",
               "script": "G"
@@ -71514,11 +71513,11 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " τὸ",
@@ -71660,11 +71659,11 @@
     "verse": 18,
     "content": [
       {
+        "paragraph": true,
         "text": "Μαρτυρῶ",
         "script": "G",
         "strong": "G3140",
-        "morph": "V-PAI-1S",
-        "paragraph": true
+        "morph": "V-PAI-1S"
       },
       {
         "text": " ἐγὼ",
@@ -72125,11 +72124,11 @@
     "verse": 20,
     "content": [
       {
+        "paragraph": true,
         "text": "Λέγει",
         "script": "G",
         "strong": "G3004",
-        "morph": "V-PAI-3S",
-        "paragraph": true
+        "morph": "V-PAI-3S"
       },
       {
         "text": " ὁ",
@@ -72235,11 +72234,11 @@
     "verse": 21,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἡ",
         "script": "G",
         "strong": "G3588",
-        "morph": "T-NSF",
-        "paragraph": true
+        "morph": "T-NSF"
       },
       {
         "text": " χάρις",
