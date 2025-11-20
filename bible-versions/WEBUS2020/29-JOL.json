@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Yahweh’s",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " word that came to Joel, the son of Pethuel.",
@@ -254,6 +254,7 @@
       },
       {
         "text": "Come, lie all night in sackcloth, you ministers of my God,",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": [
@@ -264,8 +265,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "break": true
+        }
       },
       {
         "text": "for the meal offering and the drink offering are withheld from your God’s house.",
@@ -400,7 +400,10 @@
         "text": "for the water brooks have dried up,",
         "break": true
       },
-      "and the fire has devoured the pastures of the wilderness."
+      "and the fire has devoured the pastures of the wilderness.",
+      {
+        "paragraph": true
+      }
     ]
   },
   {
@@ -409,8 +412,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Blow the trumpet in Zion,",
         "paragraph": true,
+        "text": "Blow the trumpet in Zion,",
         "break": true
       },
       {
@@ -927,8 +930,8 @@
     "verse": 23,
     "content": [
       {
-        "text": "“Be glad then, you children of Zion,",
         "paragraph": true,
+        "text": "“Be glad then, you children of Zion,",
         "break": true
       },
       {
@@ -1028,8 +1031,8 @@
     "verse": 28,
     "content": [
       {
-        "text": "“It will happen afterward, that I will pour out my Spirit on all flesh;",
         "paragraph": true,
+        "text": "“It will happen afterward, that I will pour out my Spirit on all flesh;",
         "break": true
       },
       {
@@ -1112,7 +1115,10 @@
         "text": "as Yahweh has said,",
         "break": true
       },
-      "and among the remnant, those whom Yahweh calls."
+      "and among the remnant, those whom Yahweh calls.",
+      {
+        "paragraph": true
+      }
     ]
   },
   {
@@ -1121,8 +1127,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "“For, behold, in those days,",
         "paragraph": true,
+        "text": "“For, behold, in those days,",
         "break": true
       },
       {
@@ -1184,8 +1190,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "“Yes, and what are you to me, Tyre and Sidon,",
         "paragraph": true,
+        "text": "“Yes, and what are you to me, Tyre and Sidon,",
         "break": true
       },
       {
@@ -1277,8 +1283,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Proclaim this among the nations:",
         "paragraph": true,
+        "text": "Proclaim this among the nations:",
         "break": true
       },
       {

@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "The proverbs of Solomon, the son of David, king of Israel:",
       "paragraph": true,
+      "text": "The proverbs of Solomon, the son of David, king of Israel:",
       "break": true
     }
   },
@@ -87,12 +87,12 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "The fear of Yahweh",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " is the beginning of knowledge,",
@@ -175,11 +175,11 @@
     "content": [
       {
         "text": "Let’s swallow them up alive like Sheol,",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       {
         "text": "and whole, like those who go down into the pit.",
@@ -289,8 +289,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "Wisdom calls aloud in the street.",
         "paragraph": true,
+        "text": "Wisdom calls aloud in the street.",
         "break": true
       },
       {
@@ -523,8 +523,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "My son, if you will receive my words,",
         "paragraph": true,
+        "text": "My son, if you will receive my words,",
         "break": true
       },
       {
@@ -589,6 +589,7 @@
       },
       {
         "text": "and find the knowledge of God.",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": [
@@ -599,8 +600,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -862,8 +862,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "My son, don’t forget my teaching,",
         "paragraph": true,
+        "text": "My son, don’t forget my teaching,",
         "break": true
       },
       {
@@ -1044,8 +1044,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "Happy is the man who finds wisdom,",
         "paragraph": true,
+        "text": "Happy is the man who finds wisdom,",
         "break": true
       },
       {
@@ -1252,8 +1252,8 @@
     "verse": 27,
     "content": [
       {
-        "text": "Don’t withhold good from those to whom it is due,",
         "paragraph": true,
+        "text": "Don’t withhold good from those to whom it is due,",
         "break": true
       },
       {
@@ -1389,8 +1389,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Listen, sons, to a father’s instruction.",
         "paragraph": true,
+        "text": "Listen, sons, to a father’s instruction.",
         "break": true
       },
       {
@@ -1534,8 +1534,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Listen, my son, and receive my sayings.",
         "paragraph": true,
+        "text": "Listen, my son, and receive my sayings.",
         "break": true
       },
       {
@@ -1686,8 +1686,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "My son, attend to my words.",
         "paragraph": true,
+        "text": "My son, attend to my words.",
         "break": true
       },
       {
@@ -1804,8 +1804,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "My son, pay attention to my wisdom.",
         "paragraph": true,
+        "text": "My son, pay attention to my wisdom.",
         "break": true
       },
       {
@@ -1870,11 +1870,11 @@
       },
       {
         "text": "Her steps lead straight to Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -1896,8 +1896,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Now therefore, my sons, listen to me.",
         "paragraph": true,
+        "text": "Now therefore, my sons, listen to me.",
         "break": true
       },
       {
@@ -2014,8 +2014,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "Drink water out of your own cistern,",
         "paragraph": true,
+        "text": "Drink water out of your own cistern,",
         "break": true
       },
       {
@@ -2151,8 +2151,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "My son, if you have become collateral for your neighbor,",
         "paragraph": true,
+        "text": "My son, if you have become collateral for your neighbor,",
         "break": true
       },
       {
@@ -2232,8 +2232,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "Go to the ant, you sluggard.",
         "paragraph": true,
+        "text": "Go to the ant, you sluggard.",
         "break": true
       },
       {
@@ -2314,8 +2314,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "A worthless person, a man of iniquity,",
         "paragraph": true,
+        "text": "A worthless person, a man of iniquity,",
         "break": true
       },
       {
@@ -2376,8 +2376,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "There are six things which Yahweh hates;",
         "paragraph": true,
+        "text": "There are six things which Yahweh hates;",
         "break": true
       },
       {
@@ -2434,8 +2434,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "My son, keep your father’s commandment,",
         "paragraph": true,
+        "text": "My son, keep your father’s commandment,",
         "break": true
       },
       {
@@ -2680,8 +2680,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "My son, keep my words.",
         "paragraph": true,
+        "text": "My son, keep my words.",
         "break": true
       },
       {
@@ -3029,8 +3029,8 @@
     "verse": 24,
     "content": [
       {
-        "text": "Now therefore, sons, listen to me.",
         "paragraph": true,
+        "text": "Now therefore, sons, listen to me.",
         "break": true
       },
       {
@@ -3076,11 +3076,11 @@
     "content": [
       {
         "text": "Her house is the way to Sheol,",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       "going down to the rooms of death."
     ]
@@ -3091,8 +3091,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Doesn’t wisdom cry out?",
         "paragraph": true,
+        "text": "Doesn’t wisdom cry out?",
         "break": true
       },
       {
@@ -3254,8 +3254,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "“I, wisdom, have made prudence my dwelling.",
         "paragraph": true,
+        "text": "“I, wisdom, have made prudence my dwelling.",
         "break": true
       },
       {
@@ -3402,8 +3402,8 @@
     "verse": 22,
     "content": [
       {
-        "text": "“Yahweh possessed me in the beginning of his work,",
         "paragraph": true,
+        "text": "“Yahweh possessed me in the beginning of his work,",
         "break": true
       },
       {
@@ -3558,8 +3558,8 @@
     "verse": 32,
     "content": [
       {
-        "text": "“Now therefore, my sons, listen to me,",
         "paragraph": true,
+        "text": "“Now therefore, my sons, listen to me,",
         "break": true
       },
       {
@@ -3635,8 +3635,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Wisdom has built her house.",
         "paragraph": true,
+        "text": "Wisdom has built her house.",
         "break": true
       },
       {
@@ -3727,8 +3727,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "One who corrects a mocker invites insult.",
         "paragraph": true,
+        "text": "One who corrects a mocker invites insult.",
         "break": true
       },
       {
@@ -3815,8 +3815,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "The foolish woman is loud,",
         "paragraph": true,
+        "text": "The foolish woman is loud,",
         "break": true
       },
       {
@@ -3909,8 +3909,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "The proverbs of Solomon.",
         "paragraph": true,
+        "text": "The proverbs of Solomon.",
         "break": true
       },
       {
@@ -4391,8 +4391,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "A false balance is an abomination to Yahweh,",
         "paragraph": true,
+        "text": "A false balance is an abomination to Yahweh,",
         "break": true
       },
       {
@@ -4861,8 +4861,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Whoever loves correction loves knowledge,",
         "paragraph": true,
+        "text": "Whoever loves correction loves knowledge,",
         "break": true
       },
       {
@@ -5279,8 +5279,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "A wise son listens to his father’s instruction,",
         "paragraph": true,
+        "text": "A wise son listens to his father’s instruction,",
         "break": true
       },
       {
@@ -5652,8 +5652,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Every wise woman builds her house,",
         "paragraph": true,
+        "text": "Every wise woman builds her house,",
         "break": true
       },
       {
@@ -6175,8 +6175,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "A gentle answer turns away wrath,",
         "paragraph": true,
+        "text": "A gentle answer turns away wrath,",
         "break": true
       },
       {
@@ -6533,11 +6533,11 @@
       },
       {
         "text": "to keep him from going downward to Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -6679,8 +6679,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "The plans of the heart belong to man,",
         "paragraph": true,
+        "text": "The plans of the heart belong to man,",
         "break": true
       },
       {
@@ -7172,8 +7172,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Better is a dry morsel with quietness,",
         "paragraph": true,
+        "text": "Better is a dry morsel with quietness,",
         "break": true
       },
       {
@@ -7590,8 +7590,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "A man who isolates himself pursues selfishness,",
         "paragraph": true,
+        "text": "A man who isolates himself pursues selfishness,",
         "break": true
       },
       {
@@ -7948,8 +7948,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Better is the poor who walks in his integrity",
         "paragraph": true,
+        "text": "Better is the poor who walks in his integrity",
         "break": true
       },
       {
@@ -8376,7 +8376,10 @@
         "text": "Penalties are prepared for scoffers,",
         "break": true
       },
-      "and beatings for the backs of fools."
+      "and beatings for the backs of fools.",
+      {
+        "paragraph": true
+      }
     ]
   },
   {
@@ -8385,8 +8388,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Wine is a mocker and beer is a brawler.",
         "paragraph": true,
+        "text": "Wine is a mocker and beer is a brawler.",
         "break": true
       },
       {
@@ -8824,7 +8827,10 @@
         "text": "Wounding blows cleanse away evil,",
         "break": true
       },
-      "and beatings purge the innermost parts."
+      "and beatings purge the innermost parts.",
+      {
+        "paragraph": true
+      }
     ]
   },
   {
@@ -8833,8 +8839,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "The king’s heart is in Yahweh’s hand like the watercourses.",
         "paragraph": true,
+        "text": "The king’s heart is in Yahweh’s hand like the watercourses.",
         "break": true
       },
       {
@@ -9287,7 +9293,10 @@
         "text": "The horse is prepared for the day of battle;",
         "break": true
       },
-      "but victory is with Yahweh."
+      "but victory is with Yahweh.",
+      {
+        "paragraph": true
+      }
     ]
   },
   {
@@ -9296,8 +9305,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "A good name is more desirable than great riches,",
         "paragraph": true,
+        "text": "A good name is more desirable than great riches,",
         "break": true
       },
       {
@@ -9534,8 +9543,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "Turn your ear, and listen to the words of the wise.",
         "paragraph": true,
+        "text": "Turn your ear, and listen to the words of the wise.",
         "break": true
       },
       {
@@ -9565,7 +9574,7 @@
     "verse": 19,
     "content": [
       {
-        "text": "I teach you today, even you,",
+        "text": " I teach you today, even you,",
         "break": true
       },
       {
@@ -9607,8 +9616,8 @@
     "verse": 22,
     "content": [
       {
-        "text": "Don’t exploit the poor because he is poor;",
         "paragraph": true,
+        "text": "Don’t exploit the poor because he is poor;",
         "break": true
       },
       {
@@ -9635,8 +9644,8 @@
     "verse": 24,
     "content": [
       {
-        "text": "Don’t befriend a hot-tempered man.",
         "paragraph": true,
+        "text": "Don’t befriend a hot-tempered man.",
         "break": true
       },
       {
@@ -9663,8 +9672,8 @@
     "verse": 26,
     "content": [
       {
-        "text": "Don’t you be one of those who strike hands,",
         "paragraph": true,
+        "text": "Don’t you be one of those who strike hands,",
         "break": true
       },
       {
@@ -9691,8 +9700,8 @@
     "verse": 28,
     "content": [
       {
-        "text": "Don’t move the ancient boundary stone",
         "paragraph": true,
+        "text": "Don’t move the ancient boundary stone",
         "break": true
       },
       "which your fathers have set up."
@@ -9704,15 +9713,18 @@
     "verse": 29,
     "content": [
       {
-        "text": "Do you see a man skilled in his work?",
         "paragraph": true,
+        "text": "Do you see a man skilled in his work?",
         "break": true
       },
       {
         "text": "He will serve kings.",
         "break": true
       },
-      "He won’t serve obscure men."
+      "He won’t serve obscure men.",
+      {
+        "paragraph": true
+      }
     ]
   },
   {
@@ -9721,8 +9733,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "When you sit to eat with a ruler,",
         "paragraph": true,
+        "text": "When you sit to eat with a ruler,",
         "break": true
       },
       {
@@ -9843,8 +9855,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Don’t speak in the ears of a fool,",
         "paragraph": true,
+        "text": "Don’t speak in the ears of a fool,",
         "break": true
       },
       "for he will despise the wisdom of your words."
@@ -9856,8 +9868,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Don’t move the ancient boundary stone.",
         "paragraph": true,
+        "text": "Don’t move the ancient boundary stone.",
         "break": true
       },
       {
@@ -9884,8 +9896,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "Apply your heart to instruction,",
         "paragraph": true,
+        "text": "Apply your heart to instruction,",
         "break": true
       },
       {
@@ -9933,8 +9945,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "My son, if your heart is wise,",
         "paragraph": true,
+        "text": "My son, if your heart is wise,",
         "break": true
       },
       {
@@ -10141,8 +10153,8 @@
     "verse": 29,
     "content": [
       {
-        "text": "Who has woe?",
         "paragraph": true,
+        "text": "Who has woe?",
         "break": true
       },
       {
@@ -10263,7 +10275,10 @@
         "text": "When will I wake up? I can do it again.",
         "break": true
       },
-      "I will look for more.”"
+      "I will look for more.”",
+      {
+        "paragraph": true
+      }
     ]
   },
   {
@@ -10272,8 +10287,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Don’t be envious of evil men,",
         "paragraph": true,
+        "text": "Don’t be envious of evil men,",
         "break": true
       },
       {
@@ -10610,11 +10625,18 @@
     "book": "PRV",
     "chapter": 24,
     "verse": 23,
-    "content": {
-      "text": "These also are sayings of the wise: To show partiality in judgment is not good.",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "These also are sayings of the wise:",
+        "break": true
+      },
+      {
+        "paragraph": true,
+        "text": "To show partiality in judgment is not good.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PRV",
@@ -10791,8 +10813,8 @@
     "chapter": 25,
     "verse": 1,
     "content": {
-      "text": "These also are proverbs of Solomon, which the men of Hezekiah king of Judah copied out.",
       "paragraph": true,
+      "text": "These also are proverbs of Solomon, which the men of Hezekiah king of Judah copied out.",
       "break": true
     }
   },
@@ -10938,8 +10960,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "A word fitly spoken",
         "paragraph": true,
+        "text": "A word fitly spoken",
         "break": true
       },
       {
@@ -11218,8 +11240,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Like snow in summer, and as rain in harvest,",
         "paragraph": true,
+        "text": "Like snow in summer, and as rain in harvest,",
         "break": true
       },
       {
@@ -11640,8 +11662,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Don’t boast about tomorrow;",
         "paragraph": true,
+        "text": "Don’t boast about tomorrow;",
         "break": true
       },
       {
@@ -11898,8 +11920,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "Iron sharpens iron;",
         "paragraph": true,
+        "text": "Iron sharpens iron;",
         "break": true
       },
       {
@@ -11997,8 +12019,8 @@
     "verse": 23,
     "content": [
       {
-        "text": "Know well the state of your flocks,",
         "paragraph": true,
+        "text": "Know well the state of your flocks,",
         "break": true
       },
       {
@@ -12074,8 +12096,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "The wicked flee when no one pursues;",
         "paragraph": true,
+        "text": "The wicked flee when no one pursues;",
         "break": true
       },
       {
@@ -12496,8 +12518,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "He who is often rebuked and stiffens his neck",
         "paragraph": true,
+        "text": "He who is often rebuked and stiffens his neck",
         "break": true
       },
       {
@@ -12899,8 +12921,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "The words of Agur the son of Jakeh, the revelation:",
         "paragraph": true,
+        "text": "The words of Agur the son of Jakeh, the revelation:",
         "break": true
       },
       {
@@ -12973,8 +12995,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "“Every word of God is flawless.",
         "paragraph": true,
+        "text": "“Every word of God is flawless.",
         "break": true
       },
       {
@@ -13001,8 +13023,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "“Two things I have asked of you.",
         "paragraph": true,
+        "text": "“Two things I have asked of you.",
         "break": true
       },
       {
@@ -13052,8 +13074,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "“Don’t slander a servant to his master,",
         "paragraph": true,
+        "text": "“Don’t slander a servant to his master,",
         "break": true
       },
       "lest he curse you, and you be held guilty."
@@ -13065,8 +13087,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "There is a generation that curses their father,",
         "paragraph": true,
+        "text": "There is a generation that curses their father,",
         "break": true
       },
       {
@@ -13127,12 +13149,17 @@
     "verse": 15,
     "content": [
       {
-        "text": "“The leech has two daughters:",
         "paragraph": true,
+        "text": "“The leech has two daughters:",
         "break": true
       },
       {
-        "text": "‘Give, give.’ “There are three things that are never satisfied;",
+        "text": "‘Give, give.’",
+        "break": true
+      },
+      {
+        "paragraph": true,
+        "text": "“There are three things that are never satisfied;",
         "break": true
       },
       {
@@ -13148,11 +13175,11 @@
     "content": [
       {
         "text": "Sheol,",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       {
         "text": "the barren womb,",
@@ -13171,8 +13198,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "“The eye that mocks at his father,",
         "paragraph": true,
+        "text": "“The eye that mocks at his father,",
         "break": true
       },
       {
@@ -13192,8 +13219,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "“There are three things which are too amazing for me,",
         "paragraph": true,
+        "text": "“There are three things which are too amazing for me,",
         "break": true
       },
       {
@@ -13228,8 +13255,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "“So is the way of an adulterous woman:",
         "paragraph": true,
+        "text": "“So is the way of an adulterous woman:",
         "break": true
       },
       {
@@ -13245,8 +13272,8 @@
     "verse": 21,
     "content": [
       {
-        "text": "“For three things the earth trembles,",
         "paragraph": true,
+        "text": "“For three things the earth trembles,",
         "break": true
       },
       {
@@ -13288,8 +13315,8 @@
     "verse": 24,
     "content": [
       {
-        "text": "“There are four things which are little on the earth,",
         "paragraph": true,
+        "text": "“There are four things which are little on the earth,",
         "break": true
       },
       {
@@ -13361,8 +13388,8 @@
     "verse": 29,
     "content": [
       {
-        "text": "“There are three things which are stately in their march,",
         "paragraph": true,
+        "text": "“There are three things which are stately in their march,",
         "break": true
       },
       {
@@ -13408,8 +13435,8 @@
     "verse": 32,
     "content": [
       {
-        "text": "“If you have done foolishly in lifting up yourself,",
         "paragraph": true,
+        "text": "“If you have done foolishly in lifting up yourself,",
         "break": true
       },
       {
@@ -13443,8 +13470,8 @@
     "chapter": 31,
     "verse": 1,
     "content": {
-      "text": "The words of King Lemuel—the revelation which his mother taught him:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The words of King Lemuel—the revelation which his mother taught him:"
     }
   },
   {
@@ -13453,8 +13480,8 @@
     "verse": 2,
     "content": [
       {
-        "text": "“Oh, my son!",
         "paragraph": true,
+        "text": "“Oh, my son!",
         "break": true
       },
       {
@@ -13579,12 +13606,11 @@
     "verse": 10,
     "content": [
       {
-        "text": "",
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": "Proverbs 31:10-31 form an acrostic, with each verse starting with each letter of the Hebrew alphabet, in order."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": "Who can find a worthy woman?",

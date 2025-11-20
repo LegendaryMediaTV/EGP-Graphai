@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "Now King David was old and advanced in years; and they covered him with clothes, but he couldn’t keep warm.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now King David was old and advanced in years; and they covered him with clothes, but he couldn’t keep warm."
     }
   },
   {
@@ -31,8 +31,8 @@
     "chapter": 1,
     "verse": 5,
     "content": {
-      "text": "Then Adonijah the son of Haggith exalted himself, saying, “I will be king.” Then he prepared him chariots and horsemen, and fifty men to run before him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Adonijah the son of Haggith exalted himself, saying, “I will be king.” Then he prepared him chariots and horsemen, and fifty men to run before him."
     }
   },
   {
@@ -58,8 +58,8 @@
     "chapter": 1,
     "verse": 9,
     "content": {
-      "text": "Adonijah killed sheep, cattle, and fatlings by the stone of Zoheleth, which is beside En Rogel; and he called all his brothers, the king’s sons, and all the men of Judah, the king’s servants;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Adonijah killed sheep, cattle, and fatlings by the stone of Zoheleth, which is beside En Rogel; and he called all his brothers, the king’s sons, and all the men of Judah, the king’s servants;"
     }
   },
   {
@@ -73,8 +73,8 @@
     "chapter": 1,
     "verse": 11,
     "content": {
-      "text": "Then Nathan spoke to Bathsheba the mother of Solomon, saying, “Haven’t you heard that Adonijah the son of Haggith reigns, and David our lord doesn’t know it?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Nathan spoke to Bathsheba the mother of Solomon, saying, “Haven’t you heard that Adonijah the son of Haggith reigns, and David our lord doesn’t know it?"
     }
   },
   {
@@ -116,8 +116,8 @@
     "chapter": 1,
     "verse": 15,
     "content": {
-      "text": "Bathsheba went in to the king in his room. The king was very old; and Abishag the Shunammite was serving the king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Bathsheba went in to the king in his room. The king was very old; and Abishag the Shunammite was serving the king."
     }
   },
   {
@@ -132,12 +132,12 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "She said to him, “My lord, you swore by Yahweh",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " your God",
@@ -185,15 +185,21 @@
     "chapter": 1,
     "verse": 22,
     "content": {
-      "text": "Behold, while she was still talking with the king, Nathan the prophet came in.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Behold, while she was still talking with the king, Nathan the prophet came in."
     }
   },
   {
     "book": "1KG",
     "chapter": 1,
     "verse": 23,
-    "content": "They told the king, saying, “Behold, Nathan the prophet!” When he had come in before the king, he bowed himself before the king with his face to the ground."
+    "content": [
+      "They told the king, saying, “Behold, Nathan the prophet!”",
+      {
+        "paragraph": true,
+        "text": "When he had come in before the king, he bowed himself before the king with his face to the ground."
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -224,8 +230,8 @@
     "chapter": 1,
     "verse": 28,
     "content": {
-      "text": "Then King David answered, “Call Bathsheba in to me.” She came into the king’s presence and stood before the king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then King David answered, “Call Bathsheba in to me.” She came into the king’s presence and stood before the king."
     }
   },
   {
@@ -245,8 +251,8 @@
     "chapter": 1,
     "verse": 31,
     "content": {
-      "text": "Then Bathsheba bowed with her face to the earth and showed respect to the king, and said, “Let my lord King David live forever!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Bathsheba bowed with her face to the earth and showed respect to the king, and said, “Let my lord King David live forever!”"
     }
   },
   {
@@ -254,8 +260,8 @@
     "chapter": 1,
     "verse": 32,
     "content": {
-      "text": "King David said, “Call to me Zadok the priest, Nathan the prophet, and Benaiah the son of Jehoiada.” They came before the king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King David said, “Call to me Zadok the priest, Nathan the prophet, and Benaiah the son of Jehoiada.” They came before the king."
     }
   },
   {
@@ -281,8 +287,8 @@
     "chapter": 1,
     "verse": 36,
     "content": {
-      "text": "Benaiah the son of Jehoiada answered the king, and said, “Amen. May Yahweh, the God of my lord the king, say so.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Benaiah the son of Jehoiada answered the king, and said, “Amen. May Yahweh, the God of my lord the king, say so."
     }
   },
   {
@@ -296,8 +302,8 @@
     "chapter": 1,
     "verse": 38,
     "content": {
-      "text": "So Zadok the priest, Nathan the prophet, Benaiah the son of Jehoiada, and the Cherethites and the Pelethites went down and had Solomon ride on King David’s mule, and brought him to Gihon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Zadok the priest, Nathan the prophet, Benaiah the son of Jehoiada, and the Cherethites and the Pelethites went down and had Solomon ride on King David’s mule, and brought him to Gihon."
     }
   },
   {
@@ -311,8 +317,8 @@
     "chapter": 1,
     "verse": 40,
     "content": {
-      "text": "All the people came up after him, and the people piped with pipes, and rejoiced with great joy, so that the earth shook with their sound.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the people came up after him, and the people piped with pipes, and rejoiced with great joy, so that the earth shook with their sound."
     }
   },
   {
@@ -326,8 +332,8 @@
     "chapter": 1,
     "verse": 42,
     "content": {
-      "text": "While he yet spoke, behold, Jonathan the son of Abiathar the priest came; and Adonijah said, “Come in; for you are a worthy man, and bring good news.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "While he yet spoke, behold, Jonathan the son of Abiathar the priest came; and Adonijah said, “Come in; for you are a worthy man, and bring good news.”"
     }
   },
   {
@@ -335,8 +341,8 @@
     "chapter": 1,
     "verse": 43,
     "content": {
-      "text": "Jonathan answered Adonijah, “Most certainly our lord King David has made Solomon king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jonathan answered Adonijah, “Most certainly our lord King David has made Solomon king."
     }
   },
   {
@@ -374,8 +380,8 @@
     "chapter": 1,
     "verse": 49,
     "content": {
-      "text": "All the guests of Adonijah were afraid, and rose up, and each man went his way.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the guests of Adonijah were afraid, and rose up, and each man went his way."
     }
   },
   {
@@ -395,8 +401,8 @@
     "chapter": 1,
     "verse": 52,
     "content": {
-      "text": "Solomon said, “If he shows himself a worthy man, not a hair of his shall fall to the earth; but if wickedness is found in him, he shall die.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon said, “If he shows himself a worthy man, not a hair of his shall fall to the earth; but if wickedness is found in him, he shall die.”"
     }
   },
   {
@@ -404,8 +410,8 @@
     "chapter": 1,
     "verse": 53,
     "content": {
-      "text": "So King Solomon sent, and they brought him down from the altar. He came and bowed down to King Solomon; and Solomon said to him, “Go to your house.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So King Solomon sent, and they brought him down from the altar. He came and bowed down to King Solomon; and Solomon said to him, “Go to your house.”"
     }
   },
   {
@@ -413,8 +419,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Now the days of David came near that he should die; and he commanded Solomon his son, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the days of David came near that he should die; and he commanded Solomon his son, saying,"
     }
   },
   {
@@ -440,8 +446,8 @@
     "chapter": 2,
     "verse": 5,
     "content": {
-      "text": "“Moreover you know also what Joab the son of Zeruiah did to me, even what he did to the two captains of the armies of Israel, to Abner the son of Ner and to Amasa the son of Jether, whom he killed, and shed the blood of war in peace, and put the blood of war on his sash that was around his waist and in his sandals that were on his feet.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Moreover you know also what Joab the son of Zeruiah did to me, even what he did to the two captains of the armies of Israel, to Abner the son of Ner and to Amasa the son of Jether, whom he killed, and shed the blood of war in peace, and put the blood of war on his sash that was around his waist and in his sandals that were on his feet."
     }
   },
   {
@@ -470,8 +476,8 @@
     "chapter": 2,
     "verse": 8,
     "content": {
-      "text": "“Behold, there is with you Shimei the son of Gera, the Benjamite of Bahurim, who cursed me with a grievous curse in the day when I went to Mahanaim; but he came down to meet me at the Jordan, and I swore to him by Yahweh, saying, ‘I will not put you to death with the sword.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Behold, there is with you Shimei the son of Gera, the Benjamite of Bahurim, who cursed me with a grievous curse in the day when I went to Mahanaim; but he came down to meet me at the Jordan, and I swore to him by Yahweh, saying, ‘I will not put you to death with the sword.’"
     }
   },
   {
@@ -494,8 +500,8 @@
     "chapter": 2,
     "verse": 10,
     "content": {
-      "text": "David slept with his fathers, and was buried in David’s city.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "David slept with his fathers, and was buried in David’s city."
     }
   },
   {
@@ -514,39 +520,57 @@
     "book": "1KG",
     "chapter": 2,
     "verse": 13,
-    "content": {
-      "text": "Then Adonijah the son of Haggith came to Bathsheba the mother of Solomon. She said, “Do you come peaceably?” He said, “Peaceably.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Adonijah the son of Haggith came to Bathsheba the mother of Solomon. She said, “Do you come peaceably?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “Peaceably."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 2,
     "verse": 14,
-    "content": "He said moreover, I have something to tell you.” She said, “Say on.”"
+    "content": [
+      "He said moreover, I have something to tell you.”",
+      {
+        "paragraph": true,
+        "text": "She said, “Say on.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 2,
     "verse": 15,
     "content": {
-      "text": "He said, “You know that the kingdom was mine, and that all Israel set their faces on me, that I should reign. However, the kingdom is turned around, and has become my brother’s; for it was his from Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “You know that the kingdom was mine, and that all Israel set their faces on me, that I should reign. However, the kingdom is turned around, and has become my brother’s; for it was his from Yahweh."
     }
   },
   {
     "book": "1KG",
     "chapter": 2,
     "verse": 16,
-    "content": "Now I ask one petition of you. Don’t deny me.” She said to him, “Say on.”"
+    "content": [
+      "Now I ask one petition of you. Don’t deny me.”",
+      {
+        "paragraph": true,
+        "text": "She said to him, “Say on.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 2,
     "verse": 17,
     "content": {
-      "text": "He said, “Please speak to Solomon the king (for he will not tell you ‘no’), that he give me Abishag the Shunammite as wife.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “Please speak to Solomon the king (for he will not tell you ‘no’), that he give me Abishag the Shunammite as wife.”"
     }
   },
   {
@@ -554,8 +578,8 @@
     "chapter": 2,
     "verse": 18,
     "content": {
-      "text": "Bathsheba said, “All right. I will speak for you to the king.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Bathsheba said, “All right. I will speak for you to the king.”"
     }
   },
   {
@@ -563,23 +587,29 @@
     "chapter": 2,
     "verse": 19,
     "content": {
-      "text": "Bathsheba therefore went to King Solomon, to speak to him for Adonijah. The king rose up to meet her and bowed himself to her, and sat down on his throne and caused a throne to be set for the king’s mother; and she sat on his right hand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Bathsheba therefore went to King Solomon, to speak to him for Adonijah. The king rose up to meet her and bowed himself to her, and sat down on his throne and caused a throne to be set for the king’s mother; and she sat on his right hand."
     }
   },
   {
     "book": "1KG",
     "chapter": 2,
     "verse": 20,
-    "content": "Then she said, “I ask one small petition of you; don’t deny me.” The king said to her, “Ask on, my mother, for I will not deny you.”"
+    "content": [
+      "Then she said, “I ask one small petition of you; don’t deny me.”",
+      {
+        "paragraph": true,
+        "text": "The king said to her, “Ask on, my mother, for I will not deny you.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 2,
     "verse": 21,
     "content": {
-      "text": "She said, “Let Abishag the Shunammite be given to Adonijah your brother as wife.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "She said, “Let Abishag the Shunammite be given to Adonijah your brother as wife.”"
     }
   },
   {
@@ -587,8 +617,8 @@
     "chapter": 2,
     "verse": 22,
     "content": {
-      "text": "King Solomon answered his mother, “Why do you ask Abishag the Shunammite for Adonijah? Ask for him the kingdom also, for he is my elder brother; even for him, and for Abiathar the priest, and for Joab the son of Zeruiah.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King Solomon answered his mother, “Why do you ask Abishag the Shunammite for Adonijah? Ask for him the kingdom also, for he is my elder brother; even for him, and for Abiathar the priest, and for Joab the son of Zeruiah.”"
     }
   },
   {
@@ -608,8 +638,8 @@
     "chapter": 2,
     "verse": 25,
     "content": {
-      "text": "King Solomon sent Benaiah the son of Jehoiada; and he fell on him, so that he died.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King Solomon sent Benaiah the son of Jehoiada; and he fell on him, so that he died."
     }
   },
   {
@@ -638,8 +668,8 @@
     "chapter": 2,
     "verse": 28,
     "content": {
-      "text": "This news came to Joab; for Joab had followed Adonijah, although he didn’t follow Absalom. Joab fled to Yahweh’s Tent, and held onto the horns of the altar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This news came to Joab; for Joab had followed Adonijah, although he didn’t follow Absalom. Joab fled to Yahweh’s Tent, and held onto the horns of the altar."
     }
   },
   {
@@ -652,18 +682,28 @@
     "book": "1KG",
     "chapter": 2,
     "verse": 30,
-    "content": {
-      "text": "Benaiah came to Yahweh’s Tent, and said to him, “The king says, ‘Come out!’ ” He said, “No; but I will die here.” Benaiah brought the king word again, saying, “This is what Joab said, and this is how he answered me.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Benaiah came to Yahweh’s Tent, and said to him, “The king says, ‘Come out!’ ”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “No; but I will die here.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Benaiah brought the king word again, saying, “This is what Joab said, and this is how he answered me.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 2,
     "verse": 31,
     "content": {
-      "text": "The king said to him, “Do as he has said, and fall on him, and bury him, that you may take away the blood, which Joab shed without cause, from me and from my father’s house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king said to him, “Do as he has said, and fall on him, and bury him, that you may take away the blood, which Joab shed without cause, from me and from my father’s house."
     }
   },
   {
@@ -692,8 +732,8 @@
     "chapter": 2,
     "verse": 34,
     "content": {
-      "text": "Then Benaiah the son of Jehoiada went up and fell on him, and killed him; and he was buried in his own house in the wilderness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Benaiah the son of Jehoiada went up and fell on him, and killed him; and he was buried in his own house in the wilderness."
     }
   },
   {
@@ -707,8 +747,8 @@
     "chapter": 2,
     "verse": 36,
     "content": {
-      "text": "The king sent and called for Shimei, and said to him, “Build yourself a house in Jerusalem, and live there, and don’t go anywhere else.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king sent and called for Shimei, and said to him, “Build yourself a house in Jerusalem, and live there, and don’t go anywhere else."
     }
   },
   {
@@ -722,8 +762,8 @@
     "chapter": 2,
     "verse": 38,
     "content": {
-      "text": "Shimei said to the king, “What you say is good. As my lord the king has said, so will your servant do.” Shimei lived in Jerusalem many days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Shimei said to the king, “What you say is good. As my lord the king has said, so will your servant do.” Shimei lived in Jerusalem many days."
     }
   },
   {
@@ -731,8 +771,8 @@
     "chapter": 2,
     "verse": 39,
     "content": {
-      "text": "At the end of three years, two of Shimei’s slaves ran away to Achish, son of Maacah, king of Gath. They told Shimei, saying, “Behold, your slaves are in Gath.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At the end of three years, two of Shimei’s slaves ran away to Achish, son of Maacah, king of Gath. They told Shimei, saying, “Behold, your slaves are in Gath.”"
     }
   },
   {
@@ -740,8 +780,8 @@
     "chapter": 2,
     "verse": 40,
     "content": {
-      "text": "Shimei arose, saddled his donkey, and went to Gath to Achish to seek his slaves; and Shimei went and brought his slaves from Gath.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Shimei arose, saddled his donkey, and went to Gath to Achish to seek his slaves; and Shimei went and brought his slaves from Gath."
     }
   },
   {
@@ -755,8 +795,8 @@
     "chapter": 2,
     "verse": 42,
     "content": {
-      "text": "The king sent and called for Shimei, and said to him, “Didn’t I adjure you by Yahweh and warn you, saying, ‘Know for certain that on the day you go out and walk anywhere else, you shall surely die’? You said to me, ‘The saying that I have heard is good.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king sent and called for Shimei, and said to him, “Didn’t I adjure you by Yahweh and warn you, saying, ‘Know for certain that on the day you go out and walk anywhere else, you shall surely die’? You said to me, ‘The saying that I have heard is good.’"
     }
   },
   {
@@ -788,8 +828,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Solomon made a marriage alliance with Pharaoh king of Egypt. He took Pharaoh’s daughter and brought her into David’s city until he had finished building his own house, Yahweh’s house, and the wall around Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon made a marriage alliance with Pharaoh king of Egypt. He took Pharaoh’s daughter and brought her into David’s city until he had finished building his own house, Yahweh’s house, and the wall around Jerusalem."
     }
   },
   {
@@ -821,8 +861,8 @@
     "chapter": 3,
     "verse": 6,
     "content": {
-      "text": "Solomon said, “You have shown to your servant David my father great loving kindness, because he walked before you in truth, in righteousness, and in uprightness of heart with you. You have kept for him this great loving kindness, that you have given him a son to sit on his throne, as it is today.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon said, “You have shown to your servant David my father great loving kindness, because he walked before you in truth, in righteousness, and in uprightness of heart with you. You have kept for him this great loving kindness, that you have given him a son to sit on his throne, as it is today."
     }
   },
   {
@@ -848,8 +888,8 @@
     "chapter": 3,
     "verse": 10,
     "content": {
-      "text": "This request pleased the Lord, that Solomon had asked this thing.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This request pleased the Lord, that Solomon had asked this thing."
     }
   },
   {
@@ -881,8 +921,8 @@
     "chapter": 3,
     "verse": 15,
     "content": {
-      "text": "Solomon awoke; and behold, it was a dream. Then he came to Jerusalem and stood before the ark of Yahweh’s covenant, and offered up burnt offerings, offered peace offerings, and made a feast for all his servants.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon awoke; and behold, it was a dream. Then he came to Jerusalem and stood before the ark of Yahweh’s covenant, and offered up burnt offerings, offered peace offerings, and made a feast for all his servants."
     }
   },
   {
@@ -890,8 +930,8 @@
     "chapter": 3,
     "verse": 16,
     "content": {
-      "text": "Then two women who were prostitutes came to the king, and stood before him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then two women who were prostitutes came to the king, and stood before him."
     }
   },
   {
@@ -928,18 +968,24 @@
     "book": "1KG",
     "chapter": 3,
     "verse": 22,
-    "content": {
-      "text": "The other woman said, “No! But the living one is my son, and the dead one is your son.” The first one said, “No! But the dead one is your son, and the living one is my son.” They argued like this before the king.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The other woman said, “No! But the living one is my son, and the dead one is your son.”"
+      },
+      {
+        "paragraph": true,
+        "text": "The first one said, “No! But the dead one is your son, and the living one is my son.” They argued like this before the king."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 3,
     "verse": 23,
     "content": {
-      "text": "Then the king said, “One says, ‘This is my son who lives, and your son is the dead;’ and the other says, ‘No! But your son is the dead one, and my son is the living one.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the king said, “One says, ‘This is my son who lives, and your son is the dead;’ and the other says, ‘No! But your son is the dead one, and my son is the living one.’ ”"
     }
   },
   {
@@ -947,8 +993,8 @@
     "chapter": 3,
     "verse": 24,
     "content": {
-      "text": "The king said, “Get me a sword.” So they brought a sword before the king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king said, “Get me a sword.” So they brought a sword before the king."
     }
   },
   {
@@ -956,26 +1002,32 @@
     "chapter": 3,
     "verse": 25,
     "content": {
-      "text": "The king said, “Divide the living child in two, and give half to the one, and half to the other.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king said, “Divide the living child in two, and give half to the one, and half to the other.”"
     }
   },
   {
     "book": "1KG",
     "chapter": 3,
     "verse": 26,
-    "content": {
-      "text": "Then the woman whose the living child was spoke to the king, for her heart yearned over her son, and she said, “Oh, my lord, give her the living child, and in no way kill him!” But the other said, “He shall be neither mine nor yours. Divide him.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then the woman whose the living child was spoke to the king, for her heart yearned over her son, and she said, “Oh, my lord, give her the living child, and in no way kill him!”"
+      },
+      {
+        "paragraph": true,
+        "text": "But the other said, “He shall be neither mine nor yours. Divide him.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 3,
     "verse": 27,
     "content": {
-      "text": "Then the king answered, “Give the first woman the living child, and definitely do not kill him. She is his mother.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the king answered, “Give the first woman the living child, and definitely do not kill him. She is his mother.”"
     }
   },
   {
@@ -983,8 +1035,8 @@
     "chapter": 3,
     "verse": 28,
     "content": {
-      "text": "All Israel heard of the judgment which the king had judged; and they feared the king, for they saw that the wisdom of God was in him to do justice.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All Israel heard of the judgment which the king had judged; and they feared the king, for they saw that the wisdom of God was in him to do justice."
     }
   },
   {
@@ -992,8 +1044,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "King Solomon was king over all Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King Solomon was king over all Israel."
     }
   },
   {
@@ -1031,8 +1083,8 @@
     "chapter": 4,
     "verse": 7,
     "content": {
-      "text": "Solomon had twelve officers over all Israel, who provided food for the king and his household. Each man had to make provision for a month in the year.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon had twelve officers over all Israel, who provided food for the king and his household. Each man had to make provision for a month in the year."
     }
   },
   {
@@ -1112,8 +1164,8 @@
     "chapter": 4,
     "verse": 20,
     "content": {
-      "text": "Judah and Israel were numerous as the sand which is by the sea in multitude, eating and drinking and making merry.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Judah and Israel were numerous as the sand which is by the sea in multitude, eating and drinking and making merry."
     }
   },
   {
@@ -1214,8 +1266,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Hiram king of Tyre sent his servants to Solomon, for he had heard that they had anointed him king in the place of his father, and Hiram had always loved David.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Hiram king of Tyre sent his servants to Solomon, for he had heard that they had anointed him king in the place of his father, and Hiram had always loved David."
     }
   },
   {
@@ -1253,8 +1305,8 @@
     "chapter": 5,
     "verse": 7,
     "content": {
-      "text": "When Hiram heard the words of Solomon, he rejoiced greatly, and said, “Blessed is Yahweh today, who has given to David a wise son to rule over this great people.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Hiram heard the words of Solomon, he rejoiced greatly, and said, “Blessed is Yahweh today, who has given to David a wise son to rule over this great people.”"
     }
   },
   {
@@ -1274,8 +1326,8 @@
     "chapter": 5,
     "verse": 10,
     "content": {
-      "text": "So Hiram gave Solomon cedar timber and cypress timber according to all his desire.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Hiram gave Solomon cedar timber and cypress timber according to all his desire."
     }
   },
   {
@@ -1311,8 +1363,8 @@
     "chapter": 5,
     "verse": 13,
     "content": {
-      "text": "King Solomon raised a levy out of all Israel; and the levy was thirty thousand men.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King Solomon raised a levy out of all Israel; and the levy was thirty thousand men."
     }
   },
   {
@@ -1350,8 +1402,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "In the four hundred and eightieth year after the children of Israel had come out of the land of Egypt, in the fourth year of Solomon’s reign over Israel, in the month Ziv, which is the second month, he began to build Yahweh’s house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the four hundred and eightieth year after the children of Israel had come out of the land of Egypt, in the fourth year of Solomon’s reign over Israel, in the month Ziv, which is the second month, he began to build Yahweh’s house."
     }
   },
   {
@@ -1422,8 +1474,8 @@
     "chapter": 6,
     "verse": 11,
     "content": {
-      "text": "Yahweh’s word came to Solomon, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to Solomon, saying,"
     }
   },
   {
@@ -1443,8 +1495,8 @@
     "chapter": 6,
     "verse": 14,
     "content": {
-      "text": "So Solomon built the house and finished it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Solomon built the house and finished it."
     }
   },
   {
@@ -1501,12 +1553,12 @@
     "verse": 23,
     "content": [
       {
+        "paragraph": true,
         "text": "In the inner sanctuary he made two cherubim",
         "foot": {
           "type": "stu",
           "content": "“Cherubim” is plural of “cherub”, an angelic being."
-        },
-        "paragraph": true
+        }
       },
       " of olive wood, each ten cubits high."
     ]
@@ -1546,8 +1598,8 @@
     "chapter": 6,
     "verse": 29,
     "content": {
-      "text": "He carved all the walls of the house around with carved figures of cherubim, palm trees, and open flowers, inside and outside.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He carved all the walls of the house around with carved figures of cherubim, palm trees, and open flowers, inside and outside."
     }
   },
   {
@@ -1597,8 +1649,8 @@
     "chapter": 6,
     "verse": 37,
     "content": {
-      "text": "The foundation of Yahweh’s house was laid in the fourth year, in the month Ziv.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The foundation of Yahweh’s house was laid in the fourth year, in the month Ziv."
     }
   },
   {
@@ -1612,8 +1664,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "Solomon was building his own house thirteen years, and he finished all his house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon was building his own house thirteen years, and he finished all his house."
     }
   },
   {
@@ -1696,8 +1748,8 @@
     "chapter": 7,
     "verse": 13,
     "content": {
-      "text": "King Solomon sent and brought Hiram out of Tyre.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King Solomon sent and brought Hiram out of Tyre."
     }
   },
   {
@@ -1759,8 +1811,8 @@
     "chapter": 7,
     "verse": 23,
     "content": {
-      "text": "He made the molten sea ten cubits from brim to brim, round in shape. Its height was five cubits; and a line of thirty cubits encircled it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the molten sea ten cubits from brim to brim, round in shape. Its height was five cubits; and a line of thirty cubits encircled it."
     }
   },
   {
@@ -1786,8 +1838,8 @@
     "chapter": 7,
     "verse": 27,
     "content": {
-      "text": "He made the ten bases of bronze. The length of one base was four cubits, four cubits its width, and three cubits its height.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the ten bases of bronze. The length of one base was four cubits, four cubits its width, and three cubits its height."
     }
   },
   {
@@ -1876,8 +1928,8 @@
     "chapter": 7,
     "verse": 40,
     "content": {
-      "text": "Hiram made the pots, the shovels, and the basins. So Hiram finished doing all the work that he worked for King Solomon in Yahweh’s house:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Hiram made the pots, the shovels, and the basins. So Hiram finished doing all the work that he worked for King Solomon in Yahweh’s house:"
     }
   },
   {
@@ -1927,8 +1979,8 @@
     "chapter": 7,
     "verse": 48,
     "content": {
-      "text": "Solomon made all the vessels that were in Yahweh’s house: the golden altar and the table that the show bread was on, of gold;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon made all the vessels that were in Yahweh’s house: the golden altar and the table that the show bread was on, of gold;"
     }
   },
   {
@@ -1948,8 +2000,8 @@
     "chapter": 7,
     "verse": 51,
     "content": {
-      "text": "Thus all the work that King Solomon did in Yahweh’s house was finished. Solomon brought in the things which David his father had dedicated—the silver, the gold, and the vessels—and put them in the treasuries of Yahweh’s house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus all the work that King Solomon did in Yahweh’s house was finished. Solomon brought in the things which David his father had dedicated—the silver, the gold, and the vessels—and put them in the treasuries of Yahweh’s house."
     }
   },
   {
@@ -1957,8 +2009,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "Then Solomon assembled the elders of Israel with all the heads of the tribes, the princes of the fathers’ households of the children of Israel, to King Solomon in Jerusalem, to bring up the ark of Yahweh’s covenant out of David’s city, which is Zion.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Solomon assembled the elders of Israel with all the heads of the tribes, the princes of the fathers’ households of the children of Israel, to King Solomon in Jerusalem, to bring up the ark of Yahweh’s covenant out of David’s city, which is Zion."
     }
   },
   {
@@ -2026,8 +2078,8 @@
     "chapter": 8,
     "verse": 12,
     "content": {
-      "text": "Then Solomon said, “Yahweh has said that he would dwell in the thick darkness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Solomon said, “Yahweh has said that he would dwell in the thick darkness."
     }
   },
   {
@@ -2041,8 +2093,8 @@
     "chapter": 8,
     "verse": 14,
     "content": {
-      "text": "The king turned his face around and blessed all the assembly of Israel; and all the assembly of Israel stood.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king turned his face around and blessed all the assembly of Israel; and all the assembly of Israel stood."
     }
   },
   {
@@ -2062,8 +2114,8 @@
     "chapter": 8,
     "verse": 17,
     "content": {
-      "text": "“Now it was in the heart of David my father to build a house for the name of Yahweh, the God of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Now it was in the heart of David my father to build a house for the name of Yahweh, the God of Israel."
     }
   },
   {
@@ -2095,8 +2147,8 @@
     "chapter": 8,
     "verse": 22,
     "content": {
-      "text": "Solomon stood before Yahweh’s altar in the presence of all the assembly of Israel, and spread out his hands toward heaven;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon stood before Yahweh’s altar in the presence of all the assembly of Israel, and spread out his hands toward heaven;"
     }
   },
   {
@@ -2122,8 +2174,8 @@
     "chapter": 8,
     "verse": 26,
     "content": {
-      "text": "“Now therefore, God of Israel, please let your word be verified, which you spoke to your servant David my father.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Now therefore, God of Israel, please let your word be verified, which you spoke to your servant David my father."
     }
   },
   {
@@ -2155,8 +2207,8 @@
     "chapter": 8,
     "verse": 31,
     "content": {
-      "text": "“If a man sins against his neighbor, and an oath is laid on him to cause him to swear, and he comes and swears before your altar in this house,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man sins against his neighbor, and an oath is laid on him to cause him to swear, and he comes and swears before your altar in this house,"
     }
   },
   {
@@ -2170,8 +2222,8 @@
     "chapter": 8,
     "verse": 33,
     "content": {
-      "text": "“When your people Israel are struck down before the enemy because they have sinned against you, if they turn again to you and confess your name, and pray and make supplication to you in this house,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“When your people Israel are struck down before the enemy because they have sinned against you, if they turn again to you and confess your name, and pray and make supplication to you in this house,"
     }
   },
   {
@@ -2185,8 +2237,8 @@
     "chapter": 8,
     "verse": 35,
     "content": {
-      "text": "“When the sky is shut up and there is no rain because they have sinned against you, if they pray toward this place and confess your name, and turn from their sin when you afflict them,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“When the sky is shut up and there is no rain because they have sinned against you, if they pray toward this place and confess your name, and turn from their sin when you afflict them,"
     }
   },
   {
@@ -2200,8 +2252,8 @@
     "chapter": 8,
     "verse": 37,
     "content": {
-      "text": "“If there is famine in the land, if there is pestilence, if there is blight, mildew, locust or caterpillar; if their enemy besieges them in the land of their cities, whatever plague, whatever sickness there is,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If there is famine in the land, if there is pestilence, if there is blight, mildew, locust or caterpillar; if their enemy besieges them in the land of their cities, whatever plague, whatever sickness there is,"
     }
   },
   {
@@ -2227,8 +2279,8 @@
     "chapter": 8,
     "verse": 41,
     "content": {
-      "text": "“Moreover, concerning the foreigner, who is not of your people Israel, when he comes out of a far country for your name’s sake",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Moreover, concerning the foreigner, who is not of your people Israel, when he comes out of a far country for your name’s sake"
     }
   },
   {
@@ -2248,8 +2300,8 @@
     "chapter": 8,
     "verse": 44,
     "content": {
-      "text": "“If your people go out to battle against their enemy, by whatever way you shall send them, and they pray to Yahweh toward the city which you have chosen, and toward the house which I have built for your name,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If your people go out to battle against their enemy, by whatever way you shall send them, and they pray to Yahweh toward the city which you have chosen, and toward the house which I have built for your name,"
     }
   },
   {
@@ -2311,8 +2363,8 @@
     "chapter": 8,
     "verse": 54,
     "content": {
-      "text": "It was so, that when Solomon had finished praying all this prayer and supplication to Yahweh, he arose from before Yahweh’s altar, from kneeling on his knees with his hands spread out toward heaven.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "It was so, that when Solomon had finished praying all this prayer and supplication to Yahweh, he arose from before Yahweh’s altar, from kneeling on his knees with his hands spread out toward heaven."
     }
   },
   {
@@ -2356,8 +2408,8 @@
     "chapter": 8,
     "verse": 61,
     "content": {
-      "text": "“Let your heart therefore be perfect with Yahweh our God, to walk in his statutes, and to keep his commandments, as it is today.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Let your heart therefore be perfect with Yahweh our God, to walk in his statutes, and to keep his commandments, as it is today.”"
     }
   },
   {
@@ -2365,8 +2417,8 @@
     "chapter": 8,
     "verse": 62,
     "content": {
-      "text": "The king, and all Israel with him, offered sacrifice before Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king, and all Israel with him, offered sacrifice before Yahweh."
     }
   },
   {
@@ -2386,8 +2438,8 @@
     "chapter": 8,
     "verse": 65,
     "content": {
-      "text": "So Solomon held the feast at that time, and all Israel with him, a great assembly, from the entrance of Hamath to the brook of Egypt, before Yahweh our God, seven days and seven more days, even fourteen days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Solomon held the feast at that time, and all Israel with him, a great assembly, from the entrance of Hamath to the brook of Egypt, before Yahweh our God, seven days and seven more days, even fourteen days."
     }
   },
   {
@@ -2401,8 +2453,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "When Solomon had finished the building of Yahweh’s house, the king’s house, and all Solomon’s desire which he was pleased to do,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Solomon had finished the building of Yahweh’s house, the king’s house, and all Solomon’s desire which he was pleased to do,"
     }
   },
   {
@@ -2458,8 +2510,8 @@
     "chapter": 9,
     "verse": 10,
     "content": {
-      "text": "At the end of twenty years, in which Solomon had built the two houses, Yahweh’s house and the king’s house",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At the end of twenty years, in which Solomon had built the two houses, Yahweh’s house and the king’s house"
     }
   },
   {
@@ -2509,8 +2561,8 @@
     "chapter": 9,
     "verse": 15,
     "content": {
-      "text": "This is the reason of the forced labor which King Solomon conscripted: to build Yahweh’s house, his own house, Millo, Jerusalem’s wall, Hazor, Megiddo, and Gezer.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This is the reason of the forced labor which King Solomon conscripted: to build Yahweh’s house, his own house, Millo, Jerusalem’s wall, Hazor, Megiddo, and Gezer."
     }
   },
   {
@@ -2566,8 +2618,8 @@
     "chapter": 9,
     "verse": 24,
     "content": {
-      "text": "But Pharaoh’s daughter came up out of David’s city to her house which Solomon had built for her. Then he built Millo.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Pharaoh’s daughter came up out of David’s city to her house which Solomon had built for her. Then he built Millo."
     }
   },
   {
@@ -2575,8 +2627,8 @@
     "chapter": 9,
     "verse": 25,
     "content": {
-      "text": "Solomon offered burnt offerings and peace offerings on the altar which he built to Yahweh three times per year, burning incense with them on the altar that was before Yahweh. So he finished the house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon offered burnt offerings and peace offerings on the altar which he built to Yahweh three times per year, burning incense with them on the altar that was before Yahweh. So he finished the house."
     }
   },
   {
@@ -2584,8 +2636,8 @@
     "chapter": 9,
     "verse": 26,
     "content": {
-      "text": "King Solomon made a fleet of ships in Ezion Geber, which is beside Eloth, on the shore of the Red Sea, in the land of Edom.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King Solomon made a fleet of ships in Ezion Geber, which is beside Eloth, on the shore of the Red Sea, in the land of Edom."
     }
   },
   {
@@ -2614,8 +2666,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "When the queen of Sheba heard of the fame of Solomon concerning Yahweh’s name, she came to test him with hard questions.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the queen of Sheba heard of the fame of Solomon concerning Yahweh’s name, she came to test him with hard questions."
     }
   },
   {
@@ -2678,12 +2730,12 @@
     "verse": 11,
     "content": [
       {
+        "paragraph": true,
         "text": "The fleet of Hiram that brought gold from Ophir also brought in from Ophir great quantities of almug trees",
         "foot": {
           "type": "stu",
           "content": "possibly an Indian sandalwood, with nice grain and a pleasant scent, and good for woodworking"
-        },
-        "paragraph": true
+        }
       },
       " and precious stones."
     ]
@@ -2699,8 +2751,8 @@
     "chapter": 10,
     "verse": 13,
     "content": {
-      "text": "King Solomon gave to the queen of Sheba all her desire, whatever she asked, in addition to that which Solomon gave her of his royal bounty. So she turned and went to her own land, she and her servants.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King Solomon gave to the queen of Sheba all her desire, whatever she asked, in addition to that which Solomon gave her of his royal bounty. So she turned and went to her own land, she and her servants."
     }
   },
   {
@@ -2709,12 +2761,12 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Now the weight of gold that came to Solomon in one year was six hundred sixty-six talents",
         "foot": {
           "type": "stu",
           "content": "A talent is about 30 kilograms or 66 pounds or 965 Troy ounces, so 666 talents is about 20 metric tons"
-        },
-        "paragraph": true
+        }
       },
       " of gold,"
     ]
@@ -2790,8 +2842,8 @@
     "chapter": 10,
     "verse": 23,
     "content": {
-      "text": "So King Solomon exceeded all the kings of the earth in riches and in wisdom.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So King Solomon exceeded all the kings of the earth in riches and in wisdom."
     }
   },
   {
@@ -2811,8 +2863,8 @@
     "chapter": 10,
     "verse": 26,
     "content": {
-      "text": "Solomon gathered together chariots and horsemen. He had one thousand four hundred chariots and twelve thousand horsemen. He kept them in the chariot cities and with the king at Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Solomon gathered together chariots and horsemen. He had one thousand four hundred chariots and twelve thousand horsemen. He kept them in the chariot cities and with the king at Jerusalem."
     }
   },
   {
@@ -2847,8 +2899,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "Now King Solomon loved many foreign women, together with the daughter of Pharaoh: women of the Moabites, Ammonites, Edomites, Sidonians, and Hittites,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now King Solomon loved many foreign women, together with the daughter of Pharaoh: women of the Moabites, Ammonites, Edomites, Sidonians, and Hittites,"
     }
   },
   {
@@ -2928,8 +2980,8 @@
     "chapter": 11,
     "verse": 14,
     "content": {
-      "text": "Yahweh raised up an adversary to Solomon: Hadad the Edomite. He was one of the king’s offspring in Edom.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh raised up an adversary to Solomon: Hadad the Edomite. He was one of the king’s offspring in Edom."
     }
   },
   {
@@ -2978,18 +3030,24 @@
     "book": "1KG",
     "chapter": 11,
     "verse": 22,
-    "content": {
-      "text": "Then Pharaoh said to him, “But what have you lacked with me, that behold, you seek to go to your own country?” He answered, “Nothing, however only let me depart.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Pharaoh said to him, “But what have you lacked with me, that behold, you seek to go to your own country?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He answered, “Nothing, however only let me depart.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 11,
     "verse": 23,
     "content": {
-      "text": "God raised up an adversary to him, Rezon the son of Eliada, who had fled from his lord, Hadadezer king of Zobah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God raised up an adversary to him, Rezon the son of Eliada, who had fled from his lord, Hadadezer king of Zobah."
     }
   },
   {
@@ -3009,8 +3067,8 @@
     "chapter": 11,
     "verse": 26,
     "content": {
-      "text": "Jeroboam the son of Nebat, an Ephraimite of Zeredah, a servant of Solomon, whose mother’s name was Zeruah, a widow, also lifted up his hand against the king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jeroboam the son of Nebat, an Ephraimite of Zeredah, a servant of Solomon, whose mother’s name was Zeruah, a widow, also lifted up his hand against the king."
     }
   },
   {
@@ -3060,8 +3118,8 @@
     "chapter": 11,
     "verse": 34,
     "content": {
-      "text": "“ ‘However, I will not take the whole kingdom out of his hand, but I will make him prince all the days of his life for David my servant’s sake whom I chose, who kept my commandments and my statutes,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘However, I will not take the whole kingdom out of his hand, but I will make him prince all the days of his life for David my servant’s sake whom I chose, who kept my commandments and my statutes,"
     }
   },
   {
@@ -3099,8 +3157,8 @@
     "chapter": 11,
     "verse": 40,
     "content": {
-      "text": "Therefore Solomon sought to kill Jeroboam, but Jeroboam arose and fled into Egypt, to Shishak king of Egypt, and was in Egypt until the death of Solomon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore Solomon sought to kill Jeroboam, but Jeroboam arose and fled into Egypt, to Shishak king of Egypt, and was in Egypt until the death of Solomon."
     }
   },
   {
@@ -3108,8 +3166,8 @@
     "chapter": 11,
     "verse": 41,
     "content": {
-      "text": "Now the rest of the acts of Solomon, and all that he did, and his wisdom, aren’t they written in the book of the acts of Solomon?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the rest of the acts of Solomon, and all that he did, and his wisdom, aren’t they written in the book of the acts of Solomon?"
     }
   },
   {
@@ -3129,8 +3187,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "Rehoboam went to Shechem, for all Israel had come to Shechem to make him king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Rehoboam went to Shechem, for all Israel had come to Shechem to make him king."
     }
   },
   {
@@ -3155,18 +3213,24 @@
     "book": "1KG",
     "chapter": 12,
     "verse": 5,
-    "content": {
-      "text": "He said to them, “Depart for three days, then come back to me.” So the people departed.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "He said to them, “Depart for three days, then come back to me.”"
+      },
+      {
+        "paragraph": true,
+        "text": "So the people departed."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 12,
     "verse": 6,
     "content": {
-      "text": "King Rehoboam took counsel with the old men who had stood before Solomon his father while he yet lived, saying, “What counsel do you give me to answer these people?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "King Rehoboam took counsel with the old men who had stood before Solomon his father while he yet lived, saying, “What counsel do you give me to answer these people?”"
     }
   },
   {
@@ -3174,8 +3238,8 @@
     "chapter": 12,
     "verse": 7,
     "content": {
-      "text": "They replied, “If you will be a servant to this people today, and will serve them, and answer them with good words, then they will be your servants forever.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They replied, “If you will be a servant to this people today, and will serve them, and answer them with good words, then they will be your servants forever.”"
     }
   },
   {
@@ -3183,8 +3247,8 @@
     "chapter": 12,
     "verse": 8,
     "content": {
-      "text": "But he abandoned the counsel of the old men which they had given him, and took counsel with the young men who had grown up with him, who stood before him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But he abandoned the counsel of the old men which they had given him, and took counsel with the young men who had grown up with him, who stood before him."
     }
   },
   {
@@ -3198,8 +3262,8 @@
     "chapter": 12,
     "verse": 10,
     "content": {
-      "text": "The young men who had grown up with him said to him, “Tell these people who spoke to you, saying, ‘Your father made our yoke heavy, but make it lighter to us’— tell them, ‘My little finger is thicker than my father’s waist.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The young men who had grown up with him said to him, “Tell these people who spoke to you, saying, ‘Your father made our yoke heavy, but make it lighter to us’— tell them, ‘My little finger is thicker than my father’s waist."
     }
   },
   {
@@ -3213,8 +3277,8 @@
     "chapter": 12,
     "verse": 12,
     "content": {
-      "text": "So Jeroboam and all the people came to Rehoboam the third day, as the king asked, saying, “Come to me again the third day.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Jeroboam and all the people came to Rehoboam the third day, as the king asked, saying, “Come to me again the third day.”"
     }
   },
   {
@@ -3234,8 +3298,8 @@
     "chapter": 12,
     "verse": 15,
     "content": {
-      "text": "So the king didn’t listen to the people; for it was a thing brought about from Yahweh, that he might establish his word, which Yahweh spoke by Ahijah the Shilonite to Jeroboam the son of Nebat.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So the king didn’t listen to the people; for it was a thing brought about from Yahweh, that he might establish his word, which Yahweh spoke by Ahijah the Shilonite to Jeroboam the son of Nebat."
     }
   },
   {
@@ -3249,8 +3313,8 @@
     "chapter": 12,
     "verse": 17,
     "content": {
-      "text": "But as for the children of Israel who lived in the cities of Judah, Rehoboam reigned over them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But as for the children of Israel who lived in the cities of Judah, Rehoboam reigned over them."
     }
   },
   {
@@ -3270,8 +3334,8 @@
     "chapter": 12,
     "verse": 20,
     "content": {
-      "text": "When all Israel heard that Jeroboam had returned, they sent and called him to the congregation, and made him king over all Israel. There was no one who followed David’s house, except for the tribe of Judah only.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When all Israel heard that Jeroboam had returned, they sent and called him to the congregation, and made him king over all Israel. There was no one who followed David’s house, except for the tribe of Judah only."
     }
   },
   {
@@ -3279,8 +3343,8 @@
     "chapter": 12,
     "verse": 21,
     "content": {
-      "text": "When Rehoboam had come to Jerusalem, he assembled all the house of Judah and the tribe of Benjamin, a hundred and eighty thousand chosen men who were warriors, to fight against the house of Israel, to bring the kingdom again to Rehoboam the son of Solomon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Rehoboam had come to Jerusalem, he assembled all the house of Judah and the tribe of Benjamin, a hundred and eighty thousand chosen men who were warriors, to fight against the house of Israel, to bring the kingdom again to Rehoboam the son of Solomon."
     }
   },
   {
@@ -3306,8 +3370,8 @@
     "chapter": 12,
     "verse": 25,
     "content": {
-      "text": "Then Jeroboam built Shechem in the hill country of Ephraim, and lived in it; and he went out from there and built Penuel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeroboam built Shechem in the hill country of Ephraim, and lived in it; and he went out from there and built Penuel."
     }
   },
   {
@@ -3363,8 +3427,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "Behold, a man of God came out of Judah by Yahweh’s word to Bethel; and Jeroboam was standing by the altar to burn incense.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Behold, a man of God came out of Judah by Yahweh’s word to Bethel; and Jeroboam was standing by the altar to burn incense."
     }
   },
   {
@@ -3384,8 +3448,8 @@
     "chapter": 13,
     "verse": 4,
     "content": {
-      "text": "When the king heard the saying of the man of God, which he cried against the altar in Bethel, Jeroboam put out his hand from the altar, saying, “Seize him!” His hand, which he put out against him, dried up, so that he could not draw it back again to himself.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the king heard the saying of the man of God, which he cried against the altar in Bethel, Jeroboam put out his hand from the altar, saying, “Seize him!” His hand, which he put out against him, dried up, so that he could not draw it back again to himself."
     }
   },
   {
@@ -3398,15 +3462,21 @@
     "book": "1KG",
     "chapter": 13,
     "verse": 6,
-    "content": "The king answered the man of God, “Now intercede for the favor of Yahweh your God, and pray for me, that my hand may be restored me again.” The man of God interceded with Yahweh, and the king’s hand was restored to him again, and became as it was before."
+    "content": [
+      "The king answered the man of God, “Now intercede for the favor of Yahweh your God, and pray for me, that my hand may be restored me again.”",
+      {
+        "paragraph": true,
+        "text": "The man of God interceded with Yahweh, and the king’s hand was restored to him again, and became as it was before."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 13,
     "verse": 7,
     "content": {
-      "text": "The king said to the man of God, “Come home with me and refresh yourself, and I will give you a reward.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king said to the man of God, “Come home with me and refresh yourself, and I will give you a reward.”"
     }
   },
   {
@@ -3414,8 +3484,8 @@
     "chapter": 13,
     "verse": 8,
     "content": {
-      "text": "The man of God said to the king, “Even if you gave me half of your house, I would not go in with you, neither would I eat bread nor drink water in this place;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The man of God said to the king, “Even if you gave me half of your house, I would not go in with you, neither would I eat bread nor drink water in this place;"
     }
   },
   {
@@ -3435,8 +3505,8 @@
     "chapter": 13,
     "verse": 11,
     "content": {
-      "text": "Now an old prophet lived in Bethel, and one of his sons came and told him all the works that the man of God had done that day in Bethel. They also told their father the words which he had spoken to the king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now an old prophet lived in Bethel, and one of his sons came and told him all the works that the man of God had done that day in Bethel. They also told their father the words which he had spoken to the king."
     }
   },
   {
@@ -3444,8 +3514,8 @@
     "chapter": 13,
     "verse": 12,
     "content": {
-      "text": "Their father said to them, “Which way did he go?” Now his sons had seen which way the man of God went, who came from Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Their father said to them, “Which way did he go?” Now his sons had seen which way the man of God went, who came from Judah."
     }
   },
   {
@@ -3458,15 +3528,21 @@
     "book": "1KG",
     "chapter": 13,
     "verse": 14,
-    "content": "He went after the man of God, and found him sitting under an oak. He said to him, “Are you the man of God who came from Judah?” He said, “I am.”"
+    "content": [
+      "He went after the man of God, and found him sitting under an oak. He said to him, “Are you the man of God who came from Judah?”",
+      {
+        "paragraph": true,
+        "text": "He said, “I am.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 13,
     "verse": 15,
     "content": {
-      "text": "Then he said to him, “Come home with me and eat bread.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then he said to him, “Come home with me and eat bread.”"
     }
   },
   {
@@ -3474,8 +3550,8 @@
     "chapter": 13,
     "verse": 16,
     "content": {
-      "text": "He said, “I may not return with you, nor go in with you. I will not eat bread or drink water with you in this place.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “I may not return with you, nor go in with you. I will not eat bread or drink water with you in this place."
     }
   },
   {
@@ -3489,8 +3565,8 @@
     "chapter": 13,
     "verse": 18,
     "content": {
-      "text": "He said to him, “I also am a prophet as you are; and an angel spoke to me by Yahweh’s word, saying, ‘Bring him back with you into your house, that he may eat bread and drink water.’ ” He lied to him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to him, “I also am a prophet as you are; and an angel spoke to me by Yahweh’s word, saying, ‘Bring him back with you into your house, that he may eat bread and drink water.’ ” He lied to him."
     }
   },
   {
@@ -3498,8 +3574,8 @@
     "chapter": 13,
     "verse": 19,
     "content": {
-      "text": "So he went back with him, ate bread in his house, and drank water.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So he went back with him, ate bread in his house, and drank water."
     }
   },
   {
@@ -3525,8 +3601,8 @@
     "chapter": 13,
     "verse": 23,
     "content": {
-      "text": "After he had eaten bread and after he drank, he saddled the donkey for the prophet whom he had brought back.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After he had eaten bread and after he drank, he saddled the donkey for the prophet whom he had brought back."
     }
   },
   {
@@ -3576,8 +3652,8 @@
     "chapter": 13,
     "verse": 31,
     "content": {
-      "text": "After he had buried him, he spoke to his sons, saying, “When I am dead, bury me in the tomb in which the man of God is buried. Lay my bones beside his bones.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After he had buried him, he spoke to his sons, saying, “When I am dead, bury me in the tomb in which the man of God is buried. Lay my bones beside his bones."
     }
   },
   {
@@ -3591,8 +3667,8 @@
     "chapter": 13,
     "verse": 33,
     "content": {
-      "text": "After this thing, Jeroboam didn’t turn from his evil way, but again made priests of the high places from among all the people. Whoever wanted to, he consecrated him, that there might be priests of the high places.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After this thing, Jeroboam didn’t turn from his evil way, but again made priests of the high places from among all the people. Whoever wanted to, he consecrated him, that there might be priests of the high places."
     }
   },
   {
@@ -3606,8 +3682,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "At that time Abijah the son of Jeroboam became sick.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At that time Abijah the son of Jeroboam became sick."
     }
   },
   {
@@ -3627,8 +3703,8 @@
     "chapter": 14,
     "verse": 4,
     "content": {
-      "text": "Jeroboam’s wife did so, and arose and went to Shiloh, and came to Ahijah’s house. Now Ahijah could not see, for his eyes were set by reason of his age.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jeroboam’s wife did so, and arose and went to Shiloh, and came to Ahijah’s house. Now Ahijah could not see, for his eyes were set by reason of his age."
     }
   },
   {
@@ -3642,8 +3718,8 @@
     "chapter": 14,
     "verse": 6,
     "content": {
-      "text": "So when Ahijah heard the sound of her feet as she came in at the door, he said, “Come in, Jeroboam’s wife! Why do you pretend to be another? For I am sent to you with heavy news.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So when Ahijah heard the sound of her feet as she came in at the door, he said, “Come in, Jeroboam’s wife! Why do you pretend to be another? For I am sent to you with heavy news."
     }
   },
   {
@@ -3729,8 +3805,8 @@
     "chapter": 14,
     "verse": 17,
     "content": {
-      "text": "Jeroboam’s wife arose and departed, and came to Tirzah. As she came to the threshold of the house, the child died.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jeroboam’s wife arose and departed, and came to Tirzah. As she came to the threshold of the house, the child died."
     }
   },
   {
@@ -3744,8 +3820,8 @@
     "chapter": 14,
     "verse": 19,
     "content": {
-      "text": "The rest of the acts of Jeroboam, how he fought and how he reigned, behold, they are written in the book of the chronicles of the kings of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The rest of the acts of Jeroboam, how he fought and how he reigned, behold, they are written in the book of the chronicles of the kings of Israel."
     }
   },
   {
@@ -3759,8 +3835,8 @@
     "chapter": 14,
     "verse": 21,
     "content": {
-      "text": "Rehoboam the son of Solomon reigned in Judah. Rehoboam was forty-one years old when he began to reign, and he reigned seventeen years in Jerusalem, the city which Yahweh had chosen out of all the tribes of Israel, to put his name there. His mother’s name was Naamah the Ammonitess.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Rehoboam the son of Solomon reigned in Judah. Rehoboam was forty-one years old when he began to reign, and he reigned seventeen years in Jerusalem, the city which Yahweh had chosen out of all the tribes of Israel, to put his name there. His mother’s name was Naamah the Ammonitess."
     }
   },
   {
@@ -3786,8 +3862,8 @@
     "chapter": 14,
     "verse": 25,
     "content": {
-      "text": "In the fifth year of King Rehoboam, Shishak king of Egypt came up against Jerusalem;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the fifth year of King Rehoboam, Shishak king of Egypt came up against Jerusalem;"
     }
   },
   {
@@ -3813,8 +3889,8 @@
     "chapter": 14,
     "verse": 29,
     "content": {
-      "text": "Now the rest of the acts of Rehoboam, and all that he did, aren’t they written in the book of the chronicles of the kings of Judah?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the rest of the acts of Rehoboam, and all that he did, aren’t they written in the book of the chronicles of the kings of Judah?"
     }
   },
   {
@@ -3834,8 +3910,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "Now in the eighteenth year of King Jeroboam the son of Nebat, Abijam began to reign over Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now in the eighteenth year of King Jeroboam the son of Nebat, Abijam began to reign over Judah."
     }
   },
   {
@@ -3885,8 +3961,8 @@
     "chapter": 15,
     "verse": 9,
     "content": {
-      "text": "In the twentieth year of Jeroboam king of Israel, Asa began to reign over Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the twentieth year of Jeroboam king of Israel, Asa began to reign over Judah."
     }
   },
   {
@@ -3930,8 +4006,8 @@
     "chapter": 15,
     "verse": 16,
     "content": {
-      "text": "There was war between Asa and Baasha king of Israel all their days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "There was war between Asa and Baasha king of Israel all their days."
     }
   },
   {
@@ -3957,8 +4033,8 @@
     "chapter": 15,
     "verse": 20,
     "content": {
-      "text": "Ben Hadad listened to King Asa, and sent the captains of his armies against the cities of Israel, and struck Ijon, and Dan, and Abel Beth Maacah, and all Chinneroth, with all the land of Naphtali.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Ben Hadad listened to King Asa, and sent the captains of his armies against the cities of Israel, and struck Ijon, and Dan, and Abel Beth Maacah, and all Chinneroth, with all the land of Naphtali."
     }
   },
   {
@@ -3990,8 +4066,8 @@
     "chapter": 15,
     "verse": 25,
     "content": {
-      "text": "Nadab the son of Jeroboam began to reign over Israel in the second year of Asa king of Judah; and he reigned over Israel two years.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Nadab the son of Jeroboam began to reign over Israel in the second year of Asa king of Judah; and he reigned over Israel two years."
     }
   },
   {
@@ -4029,8 +4105,8 @@
     "chapter": 15,
     "verse": 31,
     "content": {
-      "text": "Now the rest of the acts of Nadab, and all that he did, aren’t they written in the book of the chronicles of the kings of Israel?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the rest of the acts of Nadab, and all that he did, aren’t they written in the book of the chronicles of the kings of Israel?"
     }
   },
   {
@@ -4044,8 +4120,8 @@
     "chapter": 15,
     "verse": 33,
     "content": {
-      "text": "In the third year of Asa king of Judah, Baasha the son of Ahijah began to reign over all Israel in Tirzah for twenty-four years.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the third year of Asa king of Judah, Baasha the son of Ahijah began to reign over all Israel in Tirzah for twenty-four years."
     }
   },
   {
@@ -4059,8 +4135,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "Yahweh’s word came to Jehu the son of Hanani against Baasha, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to Jehu the son of Hanani against Baasha, saying,"
     }
   },
   {
@@ -4086,8 +4162,8 @@
     "chapter": 16,
     "verse": 5,
     "content": {
-      "text": "Now the rest of the acts of Baasha, and what he did, and his might, aren’t they written in the book of the chronicles of the kings of Israel?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the rest of the acts of Baasha, and what he did, and his might, aren’t they written in the book of the chronicles of the kings of Israel?"
     }
   },
   {
@@ -4101,8 +4177,8 @@
     "chapter": 16,
     "verse": 7,
     "content": {
-      "text": "Moreover Yahweh’s word came by the prophet Jehu the son of Hanani against Baasha and against his house, both because of all the evil that he did in Yahweh’s sight, to provoke him to anger with the work of his hands, in being like the house of Jeroboam, and because he struck him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moreover Yahweh’s word came by the prophet Jehu the son of Hanani against Baasha and against his house, both because of all the evil that he did in Yahweh’s sight, to provoke him to anger with the work of his hands, in being like the house of Jeroboam, and because he struck him."
     }
   },
   {
@@ -4110,8 +4186,8 @@
     "chapter": 16,
     "verse": 8,
     "content": {
-      "text": "In the twenty-sixth year of Asa king of Judah, Elah the son of Baasha began to reign over Israel in Tirzah for two years.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the twenty-sixth year of Asa king of Judah, Elah the son of Baasha began to reign over Israel in Tirzah for two years."
     }
   },
   {
@@ -4132,12 +4208,12 @@
     "verse": 11,
     "content": [
       {
+        "paragraph": true,
         "text": "When he began to reign, as soon as he sat on his throne, he attacked all the house of Baasha. He didn’t leave him a single one who urinates on a wall",
         "foot": {
           "type": "trn",
           "content": "or, male"
-        },
-        "paragraph": true
+        }
       },
       " among his relatives or his friends."
     ]
@@ -4165,8 +4241,8 @@
     "chapter": 16,
     "verse": 15,
     "content": {
-      "text": "In the twenty-seventh year of Asa king of Judah, Zimri reigned seven days in Tirzah. Now the people were encamped against Gibbethon, which belonged to the Philistines.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the twenty-seventh year of Asa king of Judah, Zimri reigned seven days in Tirzah. Now the people were encamped against Gibbethon, which belonged to the Philistines."
     }
   },
   {
@@ -4204,8 +4280,8 @@
     "chapter": 16,
     "verse": 21,
     "content": {
-      "text": "Then the people of Israel were divided into two parts: half of the people followed Tibni the son of Ginath, to make him king, and half followed Omri.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the people of Israel were divided into two parts: half of the people followed Tibni the son of Ginath, to make him king, and half followed Omri."
     }
   },
   {
@@ -4264,8 +4340,8 @@
     "chapter": 16,
     "verse": 29,
     "content": {
-      "text": "In the thirty-eighth year of Asa king of Judah, Ahab the son of Omri began to reign over Israel. Ahab the son of Omri reigned over Israel in Samaria twenty-two years.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the thirty-eighth year of Asa king of Judah, Ahab the son of Omri began to reign over Israel. Ahab the son of Omri reigned over Israel in Samaria twenty-two years."
     }
   },
   {
@@ -4303,8 +4379,8 @@
     "chapter": 17,
     "verse": 1,
     "content": {
-      "text": "Elijah the Tishbite, who was one of the settlers of Gilead, said to Ahab, “As Yahweh, the God of Israel, lives, before whom I stand, there shall not be dew nor rain these years, but according to my word.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Elijah the Tishbite, who was one of the settlers of Gilead, said to Ahab, “As Yahweh, the God of Israel, lives, before whom I stand, there shall not be dew nor rain these years, but according to my word.”"
     }
   },
   {
@@ -4312,8 +4388,8 @@
     "chapter": 17,
     "verse": 2,
     "content": {
-      "text": "Then Yahweh’s word came to him, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to him, saying,"
     }
   },
   {
@@ -4351,8 +4427,8 @@
     "chapter": 17,
     "verse": 8,
     "content": {
-      "text": "Yahweh’s word came to him, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to him, saying,"
     }
   },
   {
@@ -4366,8 +4442,8 @@
     "chapter": 17,
     "verse": 10,
     "content": {
-      "text": "So he arose and went to Zarephath; and when he came to the gate of the city, behold, a widow was there gathering sticks. He called to her and said, “Please get me a little water in a jar, that I may drink.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So he arose and went to Zarephath; and when he came to the gate of the city, behold, a widow was there gathering sticks. He called to her and said, “Please get me a little water in a jar, that I may drink.”"
     }
   },
   {
@@ -4375,8 +4451,8 @@
     "chapter": 17,
     "verse": 11,
     "content": {
-      "text": "As she was going to get it, he called to her and said, “Please bring me a morsel of bread in your hand.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "As she was going to get it, he called to her and said, “Please bring me a morsel of bread in your hand.”"
     }
   },
   {
@@ -4384,8 +4460,8 @@
     "chapter": 17,
     "verse": 12,
     "content": {
-      "text": "She said, “As Yahweh your God lives, I don’t have anything baked, but only a handful of meal in a jar and a little oil in a jar. Behold, I am gathering two sticks, that I may go in and bake it for me and my son, that we may eat it, and die.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "She said, “As Yahweh your God lives, I don’t have anything baked, but only a handful of meal in a jar and a little oil in a jar. Behold, I am gathering two sticks, that I may go in and bake it for me and my son, that we may eat it, and die.”"
     }
   },
   {
@@ -4393,8 +4469,8 @@
     "chapter": 17,
     "verse": 13,
     "content": {
-      "text": "Elijah said to her, “Don’t be afraid. Go and do as you have said; but make me a little cake from it first, and bring it out to me, and afterward make some for you and for your son.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Elijah said to her, “Don’t be afraid. Go and do as you have said; but make me a little cake from it first, and bring it out to me, and afterward make some for you and for your son."
     }
   },
   {
@@ -4408,8 +4484,8 @@
     "chapter": 17,
     "verse": 15,
     "content": {
-      "text": "She went and did according to the saying of Elijah; and she, he, and her household ate many days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "She went and did according to the saying of Elijah; and she, he, and her household ate many days."
     }
   },
   {
@@ -4423,8 +4499,8 @@
     "chapter": 17,
     "verse": 17,
     "content": {
-      "text": "After these things, the son of the woman, the mistress of the house, became sick; and his sickness was so severe that there was no breath left in him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After these things, the son of the woman, the mistress of the house, became sick; and his sickness was so severe that there was no breath left in him."
     }
   },
   {
@@ -4438,8 +4514,8 @@
     "chapter": 17,
     "verse": 19,
     "content": {
-      "text": "He said to her, “Give me your son.” He took him out of her bosom, and carried him up into the room where he stayed, and laid him on his own bed.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to her, “Give me your son.” He took him out of her bosom, and carried him up into the room where he stayed, and laid him on his own bed."
     }
   },
   {
@@ -4453,8 +4529,8 @@
     "chapter": 17,
     "verse": 21,
     "content": {
-      "text": "He stretched himself on the child three times, and cried to Yahweh and said, “Yahweh my God, please let this child’s soul come into him again.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He stretched himself on the child three times, and cried to Yahweh and said, “Yahweh my God, please let this child’s soul come into him again.”"
     }
   },
   {
@@ -4462,8 +4538,8 @@
     "chapter": 17,
     "verse": 22,
     "content": {
-      "text": "Yahweh listened to the voice of Elijah; and the soul of the child came into him again, and he revived.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh listened to the voice of Elijah; and the soul of the child came into him again, and he revived."
     }
   },
   {
@@ -4477,8 +4553,8 @@
     "chapter": 17,
     "verse": 24,
     "content": {
-      "text": "The woman said to Elijah, “Now I know that you are a man of God, and that Yahweh’s word in your mouth is truth.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The woman said to Elijah, “Now I know that you are a man of God, and that Yahweh’s word in your mouth is truth.”"
     }
   },
   {
@@ -4486,8 +4562,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "After many days, Yahweh’s word came to Elijah, in the third year, saying, “Go, show yourself to Ahab; and I will send rain on the earth.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After many days, Yahweh’s word came to Elijah, in the third year, saying, “Go, show yourself to Ahab; and I will send rain on the earth.”"
     }
   },
   {
@@ -4495,8 +4571,8 @@
     "chapter": 18,
     "verse": 2,
     "content": {
-      "text": "Elijah went to show himself to Ahab. The famine was severe in Samaria.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Elijah went to show himself to Ahab. The famine was severe in Samaria."
     }
   },
   {
@@ -4522,8 +4598,8 @@
     "chapter": 18,
     "verse": 6,
     "content": {
-      "text": "So they divided the land between them to pass throughout it. Ahab went one way by himself, and Obadiah went another way by himself.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So they divided the land between them to pass throughout it. Ahab went one way by himself, and Obadiah went another way by himself."
     }
   },
   {
@@ -4537,8 +4613,8 @@
     "chapter": 18,
     "verse": 8,
     "content": {
-      "text": "He answered him, “It is I. Go, tell your lord, ‘Behold, Elijah is here!’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He answered him, “It is I. Go, tell your lord, ‘Behold, Elijah is here!’ ”"
     }
   },
   {
@@ -4546,8 +4622,8 @@
     "chapter": 18,
     "verse": 9,
     "content": {
-      "text": "He said, “How have I sinned, that you would deliver your servant into the hand of Ahab, to kill me?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “How have I sinned, that you would deliver your servant into the hand of Ahab, to kill me?"
     }
   },
   {
@@ -4585,8 +4661,8 @@
     "chapter": 18,
     "verse": 15,
     "content": {
-      "text": "Elijah said, “As Yahweh of Armies lives, before whom I stand, I will surely show myself to him today.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Elijah said, “As Yahweh of Armies lives, before whom I stand, I will surely show myself to him today.”"
     }
   },
   {
@@ -4600,8 +4676,8 @@
     "chapter": 18,
     "verse": 17,
     "content": {
-      "text": "When Ahab saw Elijah, Ahab said to him, “Is that you, you troubler of Israel?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Ahab saw Elijah, Ahab said to him, “Is that you, you troubler of Israel?”"
     }
   },
   {
@@ -4609,8 +4685,8 @@
     "chapter": 18,
     "verse": 18,
     "content": {
-      "text": "He answered, “I have not troubled Israel, but you and your father’s house, in that you have forsaken Yahweh’s commandments and you have followed the Baals.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He answered, “I have not troubled Israel, but you and your father’s house, in that you have forsaken Yahweh’s commandments and you have followed the Baals."
     }
   },
   {
@@ -4624,23 +4700,29 @@
     "chapter": 18,
     "verse": 20,
     "content": {
-      "text": "So Ahab sent to all the children of Israel, and gathered the prophets together to Mount Carmel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Ahab sent to all the children of Israel, and gathered the prophets together to Mount Carmel."
     }
   },
   {
     "book": "1KG",
     "chapter": 18,
     "verse": 21,
-    "content": "Elijah came near to all the people, and said, “How long will you waver between the two sides? If Yahweh is God, follow him; but if Baal, then follow him.” The people didn’t say a word."
+    "content": [
+      "Elijah came near to all the people, and said, “How long will you waver between the two sides? If Yahweh is God, follow him; but if Baal, then follow him.”",
+      {
+        "paragraph": true,
+        "text": "The people didn’t say a word."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 18,
     "verse": 22,
     "content": {
-      "text": "Then Elijah said to the people, “I, even I only, am left as a prophet of Yahweh; but Baal’s prophets are four hundred fifty men.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Elijah said to the people, “I, even I only, am left as a prophet of Yahweh; but Baal’s prophets are four hundred fifty men."
     }
   },
   {
@@ -4653,15 +4735,21 @@
     "book": "1KG",
     "chapter": 18,
     "verse": 24,
-    "content": "You call on the name of your god, and I will call on Yahweh’s name. The God who answers by fire, let him be God.” All the people answered, “What you say is good.”"
+    "content": [
+      "You call on the name of your god, and I will call on Yahweh’s name. The God who answers by fire, let him be God.”",
+      {
+        "paragraph": true,
+        "text": "All the people answered, “What you say is good.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 18,
     "verse": 25,
     "content": {
-      "text": "Elijah said to the prophets of Baal, “Choose one bull for yourselves, and dress it first, for you are many; and call on the name of your god, but put no fire under it.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Elijah said to the prophets of Baal, “Choose one bull for yourselves, and dress it first, for you are many; and call on the name of your god, but put no fire under it.”"
     }
   },
   {
@@ -4669,8 +4757,8 @@
     "chapter": 18,
     "verse": 26,
     "content": {
-      "text": "They took the bull which was given them, and they dressed it, and called on the name of Baal from morning even until noon, saying, “Baal, hear us!” But there was no voice, and nobody answered. They leaped about the altar which was made.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They took the bull which was given them, and they dressed it, and called on the name of Baal from morning even until noon, saying, “Baal, hear us!” But there was no voice, and nobody answered. They leaped about the altar which was made."
     }
   },
   {
@@ -4678,8 +4766,8 @@
     "chapter": 18,
     "verse": 27,
     "content": {
-      "text": "At noon, Elijah mocked them, and said, “Cry aloud, for he is a god. Either he is deep in thought, or he has gone somewhere, or he is on a journey, or perhaps he sleeps and must be awakened.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At noon, Elijah mocked them, and said, “Cry aloud, for he is a god. Either he is deep in thought, or he has gone somewhere, or he is on a journey, or perhaps he sleeps and must be awakened.”"
     }
   },
   {
@@ -4687,8 +4775,8 @@
     "chapter": 18,
     "verse": 28,
     "content": {
-      "text": "They cried aloud, and cut themselves in their way with knives and lances until the blood gushed out on them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They cried aloud, and cut themselves in their way with knives and lances until the blood gushed out on them."
     }
   },
   {
@@ -4702,8 +4790,8 @@
     "chapter": 18,
     "verse": 30,
     "content": {
-      "text": "Elijah said to all the people, “Come near to me!”; and all the people came near to him. He repaired Yahweh’s altar that had been thrown down.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Elijah said to all the people, “Come near to me!”; and all the people came near to him. He repaired Yahweh’s altar that had been thrown down."
     }
   },
   {
@@ -4750,8 +4838,8 @@
     "chapter": 18,
     "verse": 36,
     "content": {
-      "text": "At the time of the evening offering, Elijah the prophet came near and said, “Yahweh, the God of Abraham, of Isaac, and of Israel, let it be known today that you are God in Israel and that I am your servant, and that I have done all these things at your word.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At the time of the evening offering, Elijah the prophet came near and said, “Yahweh, the God of Abraham, of Isaac, and of Israel, let it be known today that you are God in Israel and that I am your servant, and that I have done all these things at your word."
     }
   },
   {
@@ -4765,8 +4853,8 @@
     "chapter": 18,
     "verse": 38,
     "content": {
-      "text": "Then Yahweh’s fire fell and consumed the burnt offering, the wood, the stones, and the dust; and it licked up the water that was in the trench.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s fire fell and consumed the burnt offering, the wood, the stones, and the dust; and it licked up the water that was in the trench."
     }
   },
   {
@@ -4779,18 +4867,24 @@
     "book": "1KG",
     "chapter": 18,
     "verse": 40,
-    "content": {
-      "text": "Elijah said to them, “Seize the prophets of Baal! Don’t let one of them escape!” They seized them; and Elijah brought them down to the brook Kishon, and killed them there.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Elijah said to them, “Seize the prophets of Baal! Don’t let one of them escape!”"
+      },
+      {
+        "paragraph": true,
+        "text": "They seized them; and Elijah brought them down to the brook Kishon, and killed them there."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 18,
     "verse": 41,
     "content": {
-      "text": "Elijah said to Ahab, “Get up, eat and drink; for there is the sound of abundance of rain.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Elijah said to Ahab, “Get up, eat and drink; for there is the sound of abundance of rain.”"
     }
   },
   {
@@ -4798,32 +4892,48 @@
     "chapter": 18,
     "verse": 42,
     "content": {
-      "text": "So Ahab went up to eat and to drink. Elijah went up to the top of Carmel; and he bowed himself down on the earth, and put his face between his knees.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Ahab went up to eat and to drink. Elijah went up to the top of Carmel; and he bowed himself down on the earth, and put his face between his knees."
     }
   },
   {
     "book": "1KG",
     "chapter": 18,
     "verse": 43,
-    "content": "He said to his servant, “Go up now and look toward the sea.” He went up and looked, then said, “There is nothing.” He said, “Go again” seven times."
+    "content": [
+      "He said to his servant, “Go up now and look toward the sea.”",
+      {
+        "paragraph": true,
+        "text": "He went up and looked, then said, “There is nothing.”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “Go again” seven times."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 18,
     "verse": 44,
-    "content": {
-      "text": "On the seventh time, he said, “Behold, a small cloud, like a man’s hand, is rising out of the sea.” He said, “Go up, tell Ahab, ‘Get ready and go down, so that the rain doesn’t stop you.’ ”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "On the seventh time, he said, “Behold, a small cloud, like a man’s hand, is rising out of the sea.”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “Go up, tell Ahab, ‘Get ready and go down, so that the rain doesn’t stop you.’ ”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 18,
     "verse": 45,
     "content": {
-      "text": "In a little while, the sky grew black with clouds and wind, and there was a great rain. Ahab rode, and went to Jezreel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In a little while, the sky grew black with clouds and wind, and there was a great rain. Ahab rode, and went to Jezreel."
     }
   },
   {
@@ -4837,8 +4947,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "Ahab told Jezebel all that Elijah had done, and how he had killed all the prophets with the sword.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Ahab told Jezebel all that Elijah had done, and how he had killed all the prophets with the sword."
     }
   },
   {
@@ -4852,8 +4962,8 @@
     "chapter": 19,
     "verse": 3,
     "content": {
-      "text": "When he saw that, he arose and ran for his life, and came to Beersheba, which belongs to Judah, and left his servant there.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When he saw that, he arose and ran for his life, and came to Beersheba, which belongs to Judah, and left his servant there."
     }
   },
   {
@@ -4867,8 +4977,8 @@
     "chapter": 19,
     "verse": 5,
     "content": {
-      "text": "He lay down and slept under a juniper tree; and behold, an angel touched him, and said to him, “Arise and eat!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He lay down and slept under a juniper tree; and behold, an angel touched him, and said to him, “Arise and eat!”"
     }
   },
   {
@@ -4876,8 +4986,8 @@
     "chapter": 19,
     "verse": 6,
     "content": {
-      "text": "He looked, and behold, there was at his head a cake baked on the coals, and a jar of water. He ate and drank, and lay down again.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He looked, and behold, there was at his head a cake baked on the coals, and a jar of water. He ate and drank, and lay down again."
     }
   },
   {
@@ -4891,8 +5001,8 @@
     "chapter": 19,
     "verse": 8,
     "content": {
-      "text": "He arose, and ate and drank, and went in the strength of that food forty days and forty nights to Horeb, God’s Mountain.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He arose, and ate and drank, and went in the strength of that food forty days and forty nights to Horeb, God’s Mountain."
     }
   },
   {
@@ -4906,18 +5016,24 @@
     "chapter": 19,
     "verse": 10,
     "content": {
-      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”"
     }
   },
   {
     "book": "1KG",
     "chapter": 19,
     "verse": 11,
-    "content": {
-      "text": "He said, “Go out and stand on the mountain before Yahweh.” Behold, Yahweh passed by, and a great and strong wind tore the mountains and broke in pieces the rocks before Yahweh; but Yahweh was not in the wind. After the wind there was an earthquake; but Yahweh was not in the earthquake.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "He said, “Go out and stand on the mountain before Yahweh.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Behold, Yahweh passed by, and a great and strong wind tore the mountains and broke in pieces the rocks before Yahweh; but Yahweh was not in the wind. After the wind there was an earthquake; but Yahweh was not in the earthquake."
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -4936,8 +5052,8 @@
     "chapter": 19,
     "verse": 14,
     "content": {
-      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “I have been very jealous for Yahweh, the God of Armies; for the children of Israel have forsaken your covenant, thrown down your altars, and killed your prophets with the sword. I, even I only, am left; and they seek my life, to take it away.”"
     }
   },
   {
@@ -4945,8 +5061,8 @@
     "chapter": 19,
     "verse": 15,
     "content": {
-      "text": "Yahweh said to him, “Go, return on your way to the wilderness of Damascus. When you arrive, anoint Hazael to be king over Syria.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to him, “Go, return on your way to the wilderness of Damascus. When you arrive, anoint Hazael to be king over Syria."
     }
   },
   {
@@ -4972,23 +5088,29 @@
     "chapter": 19,
     "verse": 19,
     "content": {
-      "text": "So he departed from there and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen before him, and he with the twelfth. Elijah went over to him and put his mantle on him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So he departed from there and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen before him, and he with the twelfth. Elijah went over to him and put his mantle on him."
     }
   },
   {
     "book": "1KG",
     "chapter": 19,
     "verse": 20,
-    "content": "Elisha left the oxen and ran after Elijah, and said, “Let me please kiss my father and my mother, and then I will follow you.” He said to him, “Go back again; for what have I done to you?”"
+    "content": [
+      "Elisha left the oxen and ran after Elijah, and said, “Let me please kiss my father and my mother, and then I will follow you.”",
+      {
+        "paragraph": true,
+        "text": "He said to him, “Go back again; for what have I done to you?”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 19,
     "verse": 21,
     "content": {
-      "text": "He returned from following him, and took the yoke of oxen, killed them, and boiled their meat with the oxen’s equipment, and gave to the people; and they ate. Then he arose, and went after Elijah, and served him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He returned from following him, and took the yoke of oxen, killed them, and boiled their meat with the oxen’s equipment, and gave to the people; and they ate. Then he arose, and went after Elijah, and served him."
     }
   },
   {
@@ -4996,8 +5118,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "Ben Hadad the king of Syria gathered all his army together; and there were thirty-two kings with him, with horses and chariots. He went up and besieged Samaria, and fought against it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Ben Hadad the king of Syria gathered all his army together; and there were thirty-two kings with him, with horses and chariots. He went up and besieged Samaria, and fought against it."
     }
   },
   {
@@ -5017,8 +5139,8 @@
     "chapter": 20,
     "verse": 4,
     "content": {
-      "text": "The king of Israel answered, “It is according to your saying, my lord, O king. I am yours, and all that I have.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king of Israel answered, “It is according to your saying, my lord, O king. I am yours, and all that I have.”"
     }
   },
   {
@@ -5026,8 +5148,8 @@
     "chapter": 20,
     "verse": 5,
     "content": {
-      "text": "The messengers came again and said, “Ben Hadad says, ‘I sent indeed to you, saying, “You shall deliver me your silver, your gold, your wives, and your children;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The messengers came again and said, “Ben Hadad says, ‘I sent indeed to you, saying, “You shall deliver me your silver, your gold, your wives, and your children;"
     }
   },
   {
@@ -5041,8 +5163,8 @@
     "chapter": 20,
     "verse": 7,
     "content": {
-      "text": "Then the king of Israel called all the elders of the land, and said, “Please notice how this man seeks mischief; for he sent to me for my wives, and for my children, and for my silver, and for my gold; and I didn’t deny him.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the king of Israel called all the elders of the land, and said, “Please notice how this man seeks mischief; for he sent to me for my wives, and for my children, and for my silver, and for my gold; and I didn’t deny him.”"
     }
   },
   {
@@ -5050,18 +5172,24 @@
     "chapter": 20,
     "verse": 8,
     "content": {
-      "text": "All the elders and all the people said to him, “Don’t listen, and don’t consent.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the elders and all the people said to him, “Don’t listen, and don’t consent.”"
     }
   },
   {
     "book": "1KG",
     "chapter": 20,
     "verse": 9,
-    "content": {
-      "text": "Therefore he said to the messengers of Ben Hadad, “Tell my lord the king, ‘All that you sent for to your servant at the first I will do, but this thing I cannot do.’ ” The messengers departed and brought him back the message.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Therefore he said to the messengers of Ben Hadad, “Tell my lord the king, ‘All that you sent for to your servant at the first I will do, but this thing I cannot do.’ ”"
+      },
+      {
+        "paragraph": true,
+        "text": "The messengers departed and brought him back the message."
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -5074,8 +5202,8 @@
     "chapter": 20,
     "verse": 11,
     "content": {
-      "text": "The king of Israel answered, “Tell him, ‘Don’t let him who puts on his armor brag like he who takes it off.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king of Israel answered, “Tell him, ‘Don’t let him who puts on his armor brag like he who takes it off.’ ”"
     }
   },
   {
@@ -5083,8 +5211,8 @@
     "chapter": 20,
     "verse": 12,
     "content": {
-      "text": "When Ben Hadad heard this message as he was drinking, he and the kings in the pavilions, he said to his servants, “Prepare to attack!” So they prepared to attack the city.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Ben Hadad heard this message as he was drinking, he and the kings in the pavilions, he said to his servants, “Prepare to attack!” So they prepared to attack the city."
     }
   },
   {
@@ -5092,26 +5220,40 @@
     "chapter": 20,
     "verse": 13,
     "content": {
-      "text": "Behold, a prophet came near to Ahab king of Israel, and said, “Yahweh says, ‘Have you seen all this great multitude? Behold, I will deliver it into your hand today. Then you will know that I am Yahweh.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Behold, a prophet came near to Ahab king of Israel, and said, “Yahweh says, ‘Have you seen all this great multitude? Behold, I will deliver it into your hand today. Then you will know that I am Yahweh.’ ”"
     }
   },
   {
     "book": "1KG",
     "chapter": 20,
     "verse": 14,
-    "content": {
-      "text": "Ahab said, “By whom?” He said, “Yahweh says, ‘By the young men of the princes of the provinces.’ ” Then he said, “Who shall begin the battle?” He answered, “You.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ahab said, “By whom?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “Yahweh says, ‘By the young men of the princes of the provinces.’ ”"
+      },
+      {
+        "paragraph": true,
+        "text": "Then he said, “Who shall begin the battle?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He answered, “You.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 20,
     "verse": 15,
     "content": {
-      "text": "Then he mustered the young men of the princes of the provinces, and they were two hundred and thirty-two. After them, he mustered all the people, even all the children of Israel, being seven thousand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then he mustered the young men of the princes of the provinces, and they were two hundred and thirty-two. After them, he mustered all the people, even all the children of Israel, being seven thousand."
     }
   },
   {
@@ -5131,8 +5273,8 @@
     "chapter": 20,
     "verse": 18,
     "content": {
-      "text": "He said, “If they have come out for peace, take them alive; or if they have come out for war, take them alive.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “If they have come out for peace, take them alive; or if they have come out for war, take them alive.”"
     }
   },
   {
@@ -5140,8 +5282,8 @@
     "chapter": 20,
     "verse": 19,
     "content": {
-      "text": "So these went out of the city, the young men of the princes of the provinces, and the army which followed them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So these went out of the city, the young men of the princes of the provinces, and the army which followed them."
     }
   },
   {
@@ -5167,8 +5309,8 @@
     "chapter": 20,
     "verse": 23,
     "content": {
-      "text": "The servants of the king of Syria said to him, “Their god is a god of the hills; therefore they were stronger than we. But let’s fight against them in the plain, and surely we will be stronger than they.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The servants of the king of Syria said to him, “Their god is a god of the hills; therefore they were stronger than we. But let’s fight against them in the plain, and surely we will be stronger than they."
     }
   },
   {
@@ -5181,7 +5323,13 @@
     "book": "1KG",
     "chapter": 20,
     "verse": 25,
-    "content": "Muster an army like the army that you have lost, horse for horse and chariot for chariot. We will fight against them in the plain, and surely we will be stronger than they are.” He listened to their voice and did so."
+    "content": [
+      "Muster an army like the army that you have lost, horse for horse and chariot for chariot. We will fight against them in the plain, and surely we will be stronger than they are.”",
+      {
+        "paragraph": true,
+        "text": "He listened to their voice and did so."
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -5206,8 +5354,8 @@
     "chapter": 20,
     "verse": 29,
     "content": {
-      "text": "They encamped opposite each other for seven days. Then on the seventh day the battle was joined; and the children of Israel killed one hundred thousand footmen of the Syrians in one day.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They encamped opposite each other for seven days. Then on the seventh day the battle was joined; and the children of Israel killed one hundred thousand footmen of the Syrians in one day."
     }
   },
   {
@@ -5226,34 +5374,62 @@
     "book": "1KG",
     "chapter": 20,
     "verse": 32,
-    "content": {
-      "text": "So they put sackcloth on their bodies and ropes on their heads, and came to the king of Israel, and said, “Your servant Ben Hadad says, ‘Please let me live.’ ” He said, “Is he still alive? He is my brother.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "So they put sackcloth on their bodies and ropes on their heads, and came to the king of Israel, and said, “Your servant Ben Hadad says, ‘Please let me live.’ ”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “Is he still alive? He is my brother.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 20,
     "verse": 33,
-    "content": {
-      "text": "Now the men observed diligently and hurried to take this phrase; and they said, “Your brother Ben Hadad.” Then he said, “Go, bring him.” Then Ben Hadad came out to him; and he caused him to come up into the chariot.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now the men observed diligently and hurried to take this phrase; and they said, “Your brother Ben Hadad.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Then he said, “Go, bring him.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Then Ben Hadad came out to him; and he caused him to come up into the chariot."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 20,
     "verse": 34,
-    "content": "Ben Hadad said to him, “The cities which my father took from your father I will restore. You shall make streets for yourself in Damascus, as my father made in Samaria.” “I”, said Ahab, “will let you go with this covenant.” So he made a covenant with him and let him go."
+    "content": [
+      "Ben Hadad said to him, “The cities which my father took from your father I will restore. You shall make streets for yourself in Damascus, as my father made in Samaria.”",
+      {
+        "paragraph": true,
+        "text": "“I”, said Ahab, “will let you go with this covenant.” So he made a covenant with him and let him go."
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 20,
     "verse": 35,
-    "content": {
-      "text": "A certain man of the sons of the prophets said to his fellow by Yahweh’s word, “Please strike me!” The man refused to strike him.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "A certain man of the sons of the prophets said to his fellow by Yahweh’s word, “Please strike me!”"
+      },
+      {
+        "paragraph": true,
+        "text": "The man refused to strike him."
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -5265,10 +5441,16 @@
     "book": "1KG",
     "chapter": 20,
     "verse": 37,
-    "content": {
-      "text": "Then he found another man, and said, “Please strike me.” The man struck him and wounded him.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then he found another man, and said, “Please strike me.”"
+      },
+      {
+        "paragraph": true,
+        "text": "The man struck him and wounded him."
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -5295,15 +5477,21 @@
     "book": "1KG",
     "chapter": 20,
     "verse": 40,
-    "content": "As your servant was busy here and there, he was gone.” The king of Israel said to him, “So shall your judgment be. You yourself have decided it.”"
+    "content": [
+      "As your servant was busy here and there, he was gone.”",
+      {
+        "paragraph": true,
+        "text": "The king of Israel said to him, “So shall your judgment be. You yourself have decided it.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 20,
     "verse": 41,
     "content": {
-      "text": "He hurried, and took the headband away from his eyes; and the king of Israel recognized that he was one of the prophets.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He hurried, and took the headband away from his eyes; and the king of Israel recognized that he was one of the prophets."
     }
   },
   {
@@ -5317,8 +5505,8 @@
     "chapter": 20,
     "verse": 43,
     "content": {
-      "text": "The king of Israel went to his house sullen and angry, and came to Samaria.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king of Israel went to his house sullen and angry, and came to Samaria."
     }
   },
   {
@@ -5326,8 +5514,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "After these things, Naboth the Jezreelite had a vineyard which was in Jezreel, next to the palace of Ahab king of Samaria.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After these things, Naboth the Jezreelite had a vineyard which was in Jezreel, next to the palace of Ahab king of Samaria."
     }
   },
   {
@@ -5341,8 +5529,8 @@
     "chapter": 21,
     "verse": 3,
     "content": {
-      "text": "Naboth said to Ahab, “May Yahweh forbid me, that I should give the inheritance of my fathers to you!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Naboth said to Ahab, “May Yahweh forbid me, that I should give the inheritance of my fathers to you!”"
     }
   },
   {
@@ -5350,8 +5538,8 @@
     "chapter": 21,
     "verse": 4,
     "content": {
-      "text": "Ahab came into his house sullen and angry because of the word which Naboth the Jezreelite had spoken to him, for he had said, “I will not give you the inheritance of my fathers.” He laid himself down on his bed, and turned away his face, and would eat no bread.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Ahab came into his house sullen and angry because of the word which Naboth the Jezreelite had spoken to him, for he had said, “I will not give you the inheritance of my fathers.” He laid himself down on his bed, and turned away his face, and would eat no bread."
     }
   },
   {
@@ -5365,8 +5553,8 @@
     "chapter": 21,
     "verse": 6,
     "content": {
-      "text": "He said to her, “Because I spoke to Naboth the Jezreelite, and said to him, ‘Give me your vineyard for money; or else, if it pleases you, I will give you another vineyard for it.’ He answered, ‘I will not give you my vineyard.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to her, “Because I spoke to Naboth the Jezreelite, and said to him, ‘Give me your vineyard for money; or else, if it pleases you, I will give you another vineyard for it.’ He answered, ‘I will not give you my vineyard.’ ”"
     }
   },
   {
@@ -5374,8 +5562,8 @@
     "chapter": 21,
     "verse": 7,
     "content": {
-      "text": "Jezebel his wife said to him, “Do you now govern the kingdom of Israel? Arise, and eat bread, and let your heart be merry. I will give you the vineyard of Naboth the Jezreelite.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jezebel his wife said to him, “Do you now govern the kingdom of Israel? Arise, and eat bread, and let your heart be merry. I will give you the vineyard of Naboth the Jezreelite.”"
     }
   },
   {
@@ -5401,8 +5589,8 @@
     "chapter": 21,
     "verse": 11,
     "content": {
-      "text": "The men of his city, even the elders and the nobles who lived in his city, did as Jezebel had instructed them in the letters which she had written and sent to them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The men of his city, even the elders and the nobles who lived in his city, did as Jezebel had instructed them in the letters which she had written and sent to them."
     }
   },
   {
@@ -5428,8 +5616,8 @@
     "chapter": 21,
     "verse": 15,
     "content": {
-      "text": "When Jezebel heard that Naboth had been stoned and was dead, Jezebel said to Ahab, “Arise, take possession of the vineyard of Naboth the Jezreelite, which he refused to give you for money; for Naboth is not alive, but dead.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Jezebel heard that Naboth had been stoned and was dead, Jezebel said to Ahab, “Arise, take possession of the vineyard of Naboth the Jezreelite, which he refused to give you for money; for Naboth is not alive, but dead.”"
     }
   },
   {
@@ -5437,8 +5625,8 @@
     "chapter": 21,
     "verse": 16,
     "content": {
-      "text": "When Ahab heard that Naboth was dead, Ahab rose up to go down to the vineyard of Naboth the Jezreelite, to take possession of it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Ahab heard that Naboth was dead, Ahab rose up to go down to the vineyard of Naboth the Jezreelite, to take possession of it."
     }
   },
   {
@@ -5446,8 +5634,8 @@
     "chapter": 21,
     "verse": 17,
     "content": {
-      "text": "Yahweh’s word came to Elijah the Tishbite, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to Elijah the Tishbite, saying,"
     }
   },
   {
@@ -5466,10 +5654,16 @@
     "book": "1KG",
     "chapter": 21,
     "verse": 20,
-    "content": {
-      "text": "Ahab said to Elijah, “Have you found me, my enemy?” He answered, “I have found you, because you have sold yourself to do that which is evil in Yahweh’s sight.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ahab said to Elijah, “Have you found me, my enemy?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He answered, “I have found you, because you have sold yourself to do that which is evil in Yahweh’s sight."
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -5509,8 +5703,8 @@
     "chapter": 21,
     "verse": 25,
     "content": {
-      "text": "But there was no one like Ahab, who sold himself to do that which was evil in Yahweh’s sight, whom Jezebel his wife stirred up.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But there was no one like Ahab, who sold himself to do that which was evil in Yahweh’s sight, whom Jezebel his wife stirred up."
     }
   },
   {
@@ -5524,8 +5718,8 @@
     "chapter": 21,
     "verse": 27,
     "content": {
-      "text": "When Ahab heard those words, he tore his clothes, put sackcloth on his body, fasted, lay in sackcloth, and went about despondently.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Ahab heard those words, he tore his clothes, put sackcloth on his body, fasted, lay in sackcloth, and went about despondently."
     }
   },
   {
@@ -5533,8 +5727,8 @@
     "chapter": 21,
     "verse": 28,
     "content": {
-      "text": "Yahweh’s word came to Elijah the Tishbite, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to Elijah the Tishbite, saying,"
     }
   },
   {
@@ -5548,8 +5742,8 @@
     "chapter": 22,
     "verse": 1,
     "content": {
-      "text": "They continued three years without war between Syria and Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They continued three years without war between Syria and Israel."
     }
   },
   {
@@ -5568,7 +5762,13 @@
     "book": "1KG",
     "chapter": 22,
     "verse": 4,
-    "content": "He said to Jehoshaphat, “Will you go with me to battle to Ramoth Gilead?” Jehoshaphat said to the king of Israel, “I am as you are, my people as your people, my horses as your horses.”"
+    "content": [
+      "He said to Jehoshaphat, “Will you go with me to battle to Ramoth Gilead?”",
+      {
+        "paragraph": true,
+        "text": "Jehoshaphat said to the king of Israel, “I am as you are, my people as your people, my horses as your horses.”"
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -5580,36 +5780,48 @@
     "book": "1KG",
     "chapter": 22,
     "verse": 6,
-    "content": {
-      "text": "Then the king of Israel gathered the prophets together, about four hundred men, and said to them, “Should I go against Ramoth Gilead to battle, or should I refrain?” They said, “Go up; for the Lord will deliver it into the hand of the king.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then the king of Israel gathered the prophets together, about four hundred men, and said to them, “Should I go against Ramoth Gilead to battle, or should I refrain?”"
+      },
+      {
+        "paragraph": true,
+        "text": "They said, “Go up; for the Lord will deliver it into the hand of the king.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 22,
     "verse": 7,
     "content": {
-      "text": "But Jehoshaphat said, “Isn’t there here a prophet of Yahweh, that we may inquire of him?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Jehoshaphat said, “Isn’t there here a prophet of Yahweh, that we may inquire of him?”"
     }
   },
   {
     "book": "1KG",
     "chapter": 22,
     "verse": 8,
-    "content": {
-      "text": "The king of Israel said to Jehoshaphat, “There is yet one man by whom we may inquire of Yahweh, Micaiah the son of Imlah; but I hate him, for he does not prophesy good concerning me, but evil.” Jehoshaphat said, “Don’t let the king say so.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The king of Israel said to Jehoshaphat, “There is yet one man by whom we may inquire of Yahweh, Micaiah the son of Imlah; but I hate him, for he does not prophesy good concerning me, but evil.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Jehoshaphat said, “Don’t let the king say so.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 22,
     "verse": 9,
     "content": {
-      "text": "Then the king of Israel called an officer, and said, “Quickly get Micaiah the son of Imlah.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the king of Israel called an officer, and said, “Quickly get Micaiah the son of Imlah.”"
     }
   },
   {
@@ -5617,8 +5829,8 @@
     "chapter": 22,
     "verse": 10,
     "content": {
-      "text": "Now the king of Israel and Jehoshaphat the king of Judah were sitting each on his throne, arrayed in their robes, in an open place at the entrance of the gate of Samaria; and all the prophets were prophesying before them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the king of Israel and Jehoshaphat the king of Judah were sitting each on his throne, arrayed in their robes, in an open place at the entrance of the gate of Samaria; and all the prophets were prophesying before them."
     }
   },
   {
@@ -5638,8 +5850,8 @@
     "chapter": 22,
     "verse": 13,
     "content": {
-      "text": "The messenger who went to call Micaiah spoke to him, saying, “See now, the prophets declare good to the king with one mouth. Please let your word be like the word of one of them, and speak good.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The messenger who went to call Micaiah spoke to him, saying, “See now, the prophets declare good to the king with one mouth. Please let your word be like the word of one of them, and speak good.”"
     }
   },
   {
@@ -5647,26 +5859,32 @@
     "chapter": 22,
     "verse": 14,
     "content": {
-      "text": "Micaiah said, “As Yahweh lives, what Yahweh says to me, that I will speak.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Micaiah said, “As Yahweh lives, what Yahweh says to me, that I will speak.”"
     }
   },
   {
     "book": "1KG",
     "chapter": 22,
     "verse": 15,
-    "content": {
-      "text": "When he had come to the king, the king said to him, “Micaiah, shall we go to Ramoth Gilead to battle, or shall we forbear?” He answered him, “Go up and prosper; and Yahweh will deliver it into the hand of the king.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When he had come to the king, the king said to him, “Micaiah, shall we go to Ramoth Gilead to battle, or shall we forbear?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He answered him, “Go up and prosper; and Yahweh will deliver it into the hand of the king.”"
+      }
+    ]
   },
   {
     "book": "1KG",
     "chapter": 22,
     "verse": 16,
     "content": {
-      "text": "The king said to him, “How many times do I have to adjure you that you speak to me nothing but the truth in Yahweh’s name?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king said to him, “How many times do I have to adjure you that you speak to me nothing but the truth in Yahweh’s name?”"
     }
   },
   {
@@ -5674,8 +5892,8 @@
     "chapter": 22,
     "verse": 17,
     "content": {
-      "text": "He said, “I saw all Israel scattered on the mountains, as sheep that have no shepherd. Yahweh said, ‘These have no master. Let them each return to his house in peace.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “I saw all Israel scattered on the mountains, as sheep that have no shepherd. Yahweh said, ‘These have no master. Let them each return to his house in peace.’ ”"
     }
   },
   {
@@ -5683,8 +5901,8 @@
     "chapter": 22,
     "verse": 18,
     "content": {
-      "text": "The king of Israel said to Jehoshaphat, “Didn’t I tell you that he would not prophesy good concerning me, but evil?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king of Israel said to Jehoshaphat, “Didn’t I tell you that he would not prophesy good concerning me, but evil?”"
     }
   },
   {
@@ -5692,8 +5910,8 @@
     "chapter": 22,
     "verse": 19,
     "content": {
-      "text": "Micaiah said, “Therefore hear Yahweh’s word. I saw Yahweh sitting on his throne, and all the army of heaven standing by him on his right hand and on his left.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Micaiah said, “Therefore hear Yahweh’s word. I saw Yahweh sitting on his throne, and all the army of heaven standing by him on his right hand and on his left."
     }
   },
   {
@@ -5707,18 +5925,28 @@
     "chapter": 22,
     "verse": 21,
     "content": {
-      "text": "A spirit came out and stood before Yahweh, and said, ‘I will entice him.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "A spirit came out and stood before Yahweh, and said, ‘I will entice him.’"
     }
   },
   {
     "book": "1KG",
     "chapter": 22,
     "verse": 22,
-    "content": {
-      "text": "Yahweh said to him, ‘How?’ He said, ‘I will go out and will be a lying spirit in the mouth of all his prophets.’ He said, ‘You will entice him, and will also prevail. Go out and do so.’",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Yahweh said to him, ‘How?’"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, ‘I will go out and will be a lying spirit in the mouth of all his prophets.’"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, ‘You will entice him, and will also prevail. Go out and do so.’"
+      }
+    ]
   },
   {
     "book": "1KG",
@@ -5731,8 +5959,8 @@
     "chapter": 22,
     "verse": 24,
     "content": {
-      "text": "Then Zedekiah the son of Chenaanah came near and struck Micaiah on the cheek, and said, “Which way did Yahweh’s Spirit go from me to speak to you?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Zedekiah the son of Chenaanah came near and struck Micaiah on the cheek, and said, “Which way did Yahweh’s Spirit go from me to speak to you?”"
     }
   },
   {
@@ -5740,8 +5968,8 @@
     "chapter": 22,
     "verse": 25,
     "content": {
-      "text": "Micaiah said, “Behold, you will see on that day when you go into an inner room to hide yourself.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Micaiah said, “Behold, you will see on that day when you go into an inner room to hide yourself.”"
     }
   },
   {
@@ -5749,8 +5977,8 @@
     "chapter": 22,
     "verse": 26,
     "content": {
-      "text": "The king of Israel said, “Take Micaiah, and carry him back to Amon the governor of the city and to Joash the king’s son.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king of Israel said, “Take Micaiah, and carry him back to Amon the governor of the city and to Joash the king’s son."
     }
   },
   {
@@ -5764,8 +5992,8 @@
     "chapter": 22,
     "verse": 28,
     "content": {
-      "text": "Micaiah said, “If you return at all in peace, Yahweh has not spoken by me.” He said, “Listen, all you people!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Micaiah said, “If you return at all in peace, Yahweh has not spoken by me.” He said, “Listen, all you people!”"
     }
   },
   {
@@ -5773,8 +6001,8 @@
     "chapter": 22,
     "verse": 29,
     "content": {
-      "text": "So the king of Israel and Jehoshaphat the king of Judah went up to Ramoth Gilead.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So the king of Israel and Jehoshaphat the king of Judah went up to Ramoth Gilead."
     }
   },
   {
@@ -5788,8 +6016,8 @@
     "chapter": 22,
     "verse": 31,
     "content": {
-      "text": "Now the king of Syria had commanded the thirty-two captains of his chariots, saying, “Don’t fight with small nor great, except only with the king of Israel.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the king of Syria had commanded the thirty-two captains of his chariots, saying, “Don’t fight with small nor great, except only with the king of Israel.”"
     }
   },
   {
@@ -5797,8 +6025,8 @@
     "chapter": 22,
     "verse": 32,
     "content": {
-      "text": "When the captains of the chariots saw Jehoshaphat, they said, “Surely that is the king of Israel!” and they came over to fight against him. Jehoshaphat cried out.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the captains of the chariots saw Jehoshaphat, they said, “Surely that is the king of Israel!” and they came over to fight against him. Jehoshaphat cried out."
     }
   },
   {
@@ -5830,8 +6058,8 @@
     "chapter": 22,
     "verse": 37,
     "content": {
-      "text": "So the king died, and was brought to Samaria; and they buried the king in Samaria.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So the king died, and was brought to Samaria; and they buried the king in Samaria."
     }
   },
   {
@@ -5845,8 +6073,8 @@
     "chapter": 22,
     "verse": 39,
     "content": {
-      "text": "Now the rest of the acts of Ahab, and all that he did, and the ivory house which he built, and all the cities that he built, aren’t they written in the book of the chronicles of the kings of Israel?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the rest of the acts of Ahab, and all that he did, and the ivory house which he built, and all the cities that he built, aren’t they written in the book of the chronicles of the kings of Israel?"
     }
   },
   {
@@ -5860,8 +6088,8 @@
     "chapter": 22,
     "verse": 41,
     "content": {
-      "text": "Jehoshaphat the son of Asa began to reign over Judah in the fourth year of Ahab king of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jehoshaphat the son of Asa began to reign over Judah in the fourth year of Ahab king of Israel."
     }
   },
   {
@@ -5887,8 +6115,8 @@
     "chapter": 22,
     "verse": 45,
     "content": {
-      "text": "Now the rest of the acts of Jehoshaphat, and his might that he showed, and how he fought, aren’t they written in the book of the chronicles of the kings of Judah?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the rest of the acts of Jehoshaphat, and his might that he showed, and how he fought, aren’t they written in the book of the chronicles of the kings of Judah?"
     }
   },
   {
@@ -5926,8 +6154,8 @@
     "chapter": 22,
     "verse": 51,
     "content": {
-      "text": "Ahaziah the son of Ahab began to reign over Israel in Samaria in the seventeenth year of Jehoshaphat king of Judah, and he reigned two years over Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Ahaziah the son of Ahab began to reign over Israel in Samaria in the seventeenth year of Jehoshaphat king of Judah, and he reigned two years over Israel."
     }
   },
   {

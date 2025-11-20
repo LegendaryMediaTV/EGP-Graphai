@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "The words of Amos, who was among the herdsmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah and in the days of Jeroboam the son of Joash, king of Israel, two years before the earthquake.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The words of Amos, who was among the herdsmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah and in the days of Jeroboam the son of Joash, king of Israel, two years before the earthquake."
     }
   },
   {
@@ -45,8 +45,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -95,7 +95,11 @@
         "text": "and him who holds the scepter from the house of Eden;",
         "break": true
       },
-      "and the people of Syria shall go into captivity to Kir,” says Yahweh."
+      "and the people of Syria shall go into captivity to Kir,”",
+      {
+        "paragraph": true,
+        "text": "says Yahweh."
+      }
     ]
   },
   {
@@ -104,8 +108,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -159,7 +163,15 @@
         "break": true
       },
       {
-        "text": "and the remnant of the Philistines will perish,” says the Lord",
+        "text": "and the remnant of the Philistines will perish,”",
+        "foot": {
+          "type": "trn",
+          "content": "The word translated “Lord” is “Adonai.”"
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "says the Lord",
         "foot": {
           "type": "trn",
           "content": "The word translated “Lord” is “Adonai.”"
@@ -174,8 +186,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -214,8 +226,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -262,8 +274,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -316,7 +328,11 @@
         "text": "and their king will go into captivity,",
         "break": true
       },
-      "he and his princes together,” says Yahweh."
+      "he and his princes together,”",
+      {
+        "paragraph": true,
+        "text": "says Yahweh."
+      }
     ]
   },
   {
@@ -325,8 +341,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -371,7 +387,11 @@
         "text": "and I will cut off the judge from among them,",
         "break": true
       },
-      "and will kill all its princes with him,” says Yahweh."
+      "and will kill all its princes with him,”",
+      {
+        "paragraph": true,
+        "text": "says Yahweh."
+      }
     ]
   },
   {
@@ -380,8 +400,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -428,8 +448,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -658,7 +678,11 @@
         "text": "He who is courageous among the mighty",
         "break": true
       },
-      "will flee away naked on that day,” says Yahweh."
+      "will flee away naked on that day,”",
+      {
+        "paragraph": true,
+        "text": "says Yahweh."
+      }
     ]
   },
   {
@@ -666,8 +690,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Hear this word that Yahweh has spoken against you, children of Israel, against the whole family which I brought up out of the land of Egypt, saying:",
       "paragraph": true,
+      "text": "Hear this word that Yahweh has spoken against you, children of Israel, against the whole family which I brought up out of the land of Egypt, saying:",
       "break": true
     }
   },
@@ -853,8 +877,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "Therefore the Lord Yahweh says:",
         "paragraph": true,
+        "text": "Therefore the Lord Yahweh says:",
         "break": true
       },
       {
@@ -874,8 +898,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -898,8 +922,8 @@
     "chapter": 3,
     "verse": 13,
     "content": {
-      "text": "“Listen, and testify against the house of Jacob,” says the Lord Yahweh, the God of Armies.",
       "paragraph": true,
+      "text": "“Listen, and testify against the house of Jacob,” says the Lord Yahweh, the God of Armies.",
       "break": true
     }
   },
@@ -939,7 +963,11 @@
         "text": "and the houses of ivory will perish,",
         "break": true
       },
-      "and the great houses will have an end,” says Yahweh."
+      "and the great houses will have an end,”",
+      {
+        "paragraph": true,
+        "text": "says Yahweh."
+      }
     ]
   },
   {
@@ -947,8 +975,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Listen to this word, you cows of Bashan, who are on the mountain of Samaria, who oppress the poor, who crush the needy, who tell their husbands, “Bring us drinks!”",
       "paragraph": true,
+      "text": "Listen to this word, you cows of Bashan, who are on the mountain of Samaria, who oppress the poor, who crush the needy, who tell their husbands, “Bring us drinks!”",
       "break": true
     }
   },
@@ -1210,8 +1238,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Listen to this word which I take up for a lamentation over you, O house of Israel:",
       "paragraph": true,
+      "text": "Listen to this word which I take up for a lamentation over you, O house of Israel:",
       "break": true
     }
   },
@@ -1241,8 +1269,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "For the Lord Yahweh says:",
         "paragraph": true,
+        "text": "For the Lord Yahweh says:",
         "break": true
       },
       {
@@ -1258,8 +1286,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "For Yahweh says to the house of Israel:",
         "paragraph": true,
+        "text": "For Yahweh says to the house of Israel:",
         "break": true
       },
       {
@@ -1496,8 +1524,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "Therefore Yahweh, the God of Armies, the Lord, says:",
         "paragraph": true,
+        "text": "Therefore Yahweh, the God of Armies, the Lord, says:",
         "break": true
       },
       {
@@ -1660,8 +1688,8 @@
     "chapter": 5,
     "verse": 25,
     "content": {
-      "text": "“Did you bring to me sacrifices and offerings in the wilderness forty years, house of Israel?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Did you bring to me sacrifices and offerings in the wilderness forty years, house of Israel?"
     }
   },
   {
@@ -1682,8 +1710,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Woe to those who are at ease in Zion,",
         "paragraph": true,
+        "text": "Woe to those who are at ease in Zion,",
         "break": true
       },
       {
@@ -1854,8 +1882,8 @@
     "chapter": 6,
     "verse": 10,
     "content": {
-      "text": "“When a man’s relative carries him, even he who burns him, to bring bodies out of the house, and asks him who is in the innermost parts of the house, ‘Is there yet any with you?’ And he says, ‘No;’ then he will say, ‘Hush! Indeed we must not mention Yahweh’s name.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“When a man’s relative carries him, even he who burns him, to bring bodies out of the house, and asks him who is in the innermost parts of the house, ‘Is there yet any with you?’ And he says, ‘No;’ then he will say, ‘Hush! Indeed we must not mention Yahweh’s name.’"
     }
   },
   {
@@ -1864,8 +1892,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "“For, behold, Yahweh commands, and the great house will be smashed to pieces,",
         "paragraph": true,
+        "text": "“For, behold, Yahweh commands, and the great house will be smashed to pieces,",
         "break": true
       },
       {
@@ -1933,8 +1961,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "Thus the Lord Yahweh showed me: behold, he formed locusts in the beginning of the shooting up of the latter growth; and behold, it was the latter growth after the king’s harvest.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus the Lord Yahweh showed me: behold, he formed locusts in the beginning of the shooting up of the latter growth; and behold, it was the latter growth after the king’s harvest."
     }
   },
   {
@@ -1948,8 +1976,8 @@
     "chapter": 7,
     "verse": 3,
     "content": {
-      "text": "Yahweh relented concerning this. “It shall not be,” says Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh relented concerning this. “It shall not be,” says Yahweh."
     }
   },
   {
@@ -1957,8 +1985,8 @@
     "chapter": 7,
     "verse": 4,
     "content": {
-      "text": "Thus the Lord Yahweh showed me: behold, the Lord Yahweh called for judgment by fire; and it dried up the great deep, and would have devoured the land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus the Lord Yahweh showed me: behold, the Lord Yahweh called for judgment by fire; and it dried up the great deep, and would have devoured the land."
     }
   },
   {
@@ -1972,8 +2000,8 @@
     "chapter": 7,
     "verse": 6,
     "content": {
-      "text": "Yahweh relented concerning this. “This also shall not be,” says the Lord Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh relented concerning this. “This also shall not be,” says the Lord Yahweh."
     }
   },
   {
@@ -1981,15 +2009,25 @@
     "chapter": 7,
     "verse": 7,
     "content": {
-      "text": "Thus he showed me: behold, the Lord stood beside a wall made by a plumb line, with a plumb line in his hand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus he showed me: behold, the Lord stood beside a wall made by a plumb line, with a plumb line in his hand."
     }
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 8,
-    "content": "Yahweh said to me, “Amos, what do you see?” I said, “A plumb line.” Then the Lord said, “Behold, I will set a plumb line in the middle of my people Israel. I will not again pass by them any more."
+    "content": [
+      "Yahweh said to me, “Amos, what do you see?”",
+      {
+        "paragraph": true,
+        "text": "I said, “A plumb line.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Then the Lord said, “Behold, I will set a plumb line in the middle of my people Israel. I will not again pass by them any more."
+      }
+    ]
   },
   {
     "book": "AMS",
@@ -2002,8 +2040,8 @@
     "chapter": 7,
     "verse": 10,
     "content": {
-      "text": "Then Amaziah the priest of Bethel sent to Jeroboam king of Israel, saying, “Amos has conspired against you in the middle of the house of Israel. The land is not able to bear all his words.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Amaziah the priest of Bethel sent to Jeroboam king of Israel, saying, “Amos has conspired against you in the middle of the house of Israel. The land is not able to bear all his words."
     }
   },
   {
@@ -2017,8 +2055,8 @@
     "chapter": 7,
     "verse": 12,
     "content": {
-      "text": "Amaziah also said to Amos, “You seer, go, flee away into the land of Judah, and there eat bread, and prophesy there,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Amaziah also said to Amos, “You seer, go, flee away into the land of Judah, and there eat bread, and prophesy there,"
     }
   },
   {
@@ -2032,8 +2070,8 @@
     "chapter": 7,
     "verse": 14,
     "content": {
-      "text": "Then Amos answered Amaziah, “I was no prophet, neither was I a prophet’s son, but I was a herdsman, and a farmer of sycamore figs;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Amos answered Amaziah, “I was no prophet, neither was I a prophet’s son, but I was a herdsman, and a farmer of sycamore figs;"
     }
   },
   {
@@ -2059,8 +2097,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "Thus the Lord Yahweh showed me: behold, a basket of summer fruit.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus the Lord Yahweh showed me: behold, a basket of summer fruit."
     }
   },
   {
@@ -2069,8 +2107,18 @@
     "verse": 2,
     "content": [
       {
-        "text": "He said, “Amos, what do you see?” I said, “A basket of summer fruit.” Then Yahweh said to me,",
         "paragraph": true,
+        "text": "He said, “Amos, what do you see?”",
+        "break": true
+      },
+      {
+        "paragraph": true,
+        "text": "I said, “A basket of summer fruit.”",
+        "break": true
+      },
+      {
+        "paragraph": true,
+        "text": "Then Yahweh said to me,",
         "break": true
       },
       {
@@ -2347,8 +2395,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "I saw the Lord standing beside the altar, and he said, “Strike the tops of the pillars, that the thresholds may shake. Break them in pieces on the head of all of them. I will kill the last of them with the sword. Not one of them will flee away. Not one of them will escape.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I saw the Lord standing beside the altar, and he said, “Strike the tops of the pillars, that the thresholds may shake. Break them in pieces on the head of all of them. I will kill the last of them with the sword. Not one of them will flee away. Not one of them will escape."
     }
   },
   {

@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "Now these are the names of the sons of Israel, who came into Egypt (every man and his household came with Jacob):",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now these are the names of the sons of Israel, who came into Egypt (every man and his household came with Jacob):"
     }
   },
   {
@@ -49,8 +49,8 @@
     "chapter": 1,
     "verse": 8,
     "content": {
-      "text": "Now there arose a new king over Egypt, who didn’t know Joseph.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now there arose a new king over Egypt, who didn’t know Joseph."
     }
   },
   {
@@ -110,8 +110,8 @@
     "chapter": 1,
     "verse": 15,
     "content": {
-      "text": "The king of Egypt spoke to the Hebrew midwives, of whom the name of the one was Shiphrah, and the name of the other Puah,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king of Egypt spoke to the Hebrew midwives, of whom the name of the one was Shiphrah, and the name of the other Puah,"
     }
   },
   {
@@ -153,8 +153,8 @@
     "chapter": 1,
     "verse": 19,
     "content": {
-      "text": "The midwives said to Pharaoh, “Because the Hebrew women aren’t like the Egyptian women; for they are vigorous and give birth before the midwife comes to them.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The midwives said to Pharaoh, “Because the Hebrew women aren’t like the Egyptian women; for they are vigorous and give birth before the midwife comes to them.”"
     }
   },
   {
@@ -162,8 +162,8 @@
     "chapter": 1,
     "verse": 20,
     "content": {
-      "text": "God dealt well with the midwives, and the people multiplied, and grew very mighty.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God dealt well with the midwives, and the people multiplied, and grew very mighty."
     }
   },
   {
@@ -183,8 +183,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "A man of the house of Levi went and took a daughter of Levi as his wife.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "A man of the house of Levi went and took a daughter of Levi as his wife."
     }
   },
   {
@@ -222,24 +222,36 @@
     "chapter": 2,
     "verse": 7,
     "content": {
-      "text": "Then his sister said to Pharaoh’s daughter, “Should I go and call a nurse for you from the Hebrew women, that she may nurse the child for you?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then his sister said to Pharaoh’s daughter, “Should I go and call a nurse for you from the Hebrew women, that she may nurse the child for you?”"
     }
   },
   {
     "book": "EXO",
     "chapter": 2,
     "verse": 8,
-    "content": {
-      "text": "Pharaoh’s daughter said to her, “Go.” The young woman went and called the child’s mother.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Pharaoh’s daughter said to her, “Go.”"
+      },
+      {
+        "paragraph": true,
+        "text": "The young woman went and called the child’s mother."
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 2,
     "verse": 9,
-    "content": "Pharaoh’s daughter said to her, “Take this child away, and nurse him for me, and I will give you your wages.” The woman took the child, and nursed it."
+    "content": [
+      "Pharaoh’s daughter said to her, “Take this child away, and nurse him for me, and I will give you your wages.”",
+      {
+        "paragraph": true,
+        "text": "The woman took the child, and nursed it."
+      }
+    ]
   },
   {
     "book": "EXO",
@@ -261,8 +273,8 @@
     "chapter": 2,
     "verse": 11,
     "content": {
-      "text": "In those days, when Moses had grown up, he went out to his brothers and saw their burdens. He saw an Egyptian striking a Hebrew, one of his brothers.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In those days, when Moses had grown up, he went out to his brothers and saw their burdens. He saw an Egyptian striking a Hebrew, one of his brothers."
     }
   },
   {
@@ -276,18 +288,24 @@
     "chapter": 2,
     "verse": 13,
     "content": {
-      "text": "He went out the second day, and behold, two men of the Hebrews were fighting with each other. He said to him who did the wrong, “Why do you strike your fellow?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He went out the second day, and behold, two men of the Hebrews were fighting with each other. He said to him who did the wrong, “Why do you strike your fellow?”"
     }
   },
   {
     "book": "EXO",
     "chapter": 2,
     "verse": 14,
-    "content": {
-      "text": "He said, “Who made you a prince and a judge over us? Do you plan to kill me, as you killed the Egyptian?” Moses was afraid, and said, “Surely this thing is known.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "He said, “Who made you a prince and a judge over us? Do you plan to kill me, as you killed the Egyptian?”"
+      },
+      {
+        "paragraph": true,
+        "text": "Moses was afraid, and said, “Surely this thing is known.”"
+      }
+    ]
   },
   {
     "book": "EXO",
@@ -300,8 +318,8 @@
     "chapter": 2,
     "verse": 16,
     "content": {
-      "text": "Now the priest of Midian had seven daughters. They came and drew water, and filled the troughs to water their father’s flock.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the priest of Midian had seven daughters. They came and drew water, and filled the troughs to water their father’s flock."
     }
   },
   {
@@ -321,8 +339,8 @@
     "chapter": 2,
     "verse": 19,
     "content": {
-      "text": "They said, “An Egyptian delivered us out of the hand of the shepherds, and moreover he drew water for us, and watered the flock.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They said, “An Egyptian delivered us out of the hand of the shepherds, and moreover he drew water for us, and watered the flock.”"
     }
   },
   {
@@ -330,8 +348,8 @@
     "chapter": 2,
     "verse": 20,
     "content": {
-      "text": "He said to his daughters, “Where is he? Why is it that you have left the man? Call him, that he may eat bread.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to his daughters, “Where is he? Why is it that you have left the man? Call him, that he may eat bread.”"
     }
   },
   {
@@ -339,8 +357,8 @@
     "chapter": 2,
     "verse": 21,
     "content": {
-      "text": "Moses was content to dwell with the man. He gave Moses Zipporah, his daughter.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses was content to dwell with the man. He gave Moses Zipporah, his daughter."
     }
   },
   {
@@ -363,8 +381,8 @@
     "chapter": 2,
     "verse": 23,
     "content": {
-      "text": "In the course of those many days, the king of Egypt died, and the children of Israel sighed because of the bondage, and they cried, and their cry came up to God because of the bondage.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the course of those many days, the king of Egypt died, and the children of Israel sighed because of the bondage, and they cried, and their cry came up to God because of the bondage."
     }
   },
   {
@@ -384,8 +402,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Now Moses was keeping the flock of Jethro, his father-in-law, the priest of Midian, and he led the flock to the back of the wilderness, and came to God’s mountain, to Horeb.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Moses was keeping the flock of Jethro, his father-in-law, the priest of Midian, and he led the flock to the back of the wilderness, and came to God’s mountain, to Horeb."
     }
   },
   {
@@ -413,33 +431,45 @@
     "book": "EXO",
     "chapter": 3,
     "verse": 4,
-    "content": {
-      "text": "When Yahweh saw that he came over to see, God called to him out of the middle of the bush, and said, “Moses! Moses!” He said, “Here I am.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When Yahweh saw that he came over to see, God called to him out of the middle of the bush, and said, “Moses! Moses!”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “Here I am.”"
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 3,
     "verse": 5,
     "content": {
-      "text": "He said, “Don’t come close. Take off your sandals, for the place you are standing on is holy ground.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “Don’t come close. Take off your sandals, for the place you are standing on is holy ground.”"
     }
   },
   {
     "book": "EXO",
     "chapter": 3,
     "verse": 6,
-    "content": "Moreover he said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.” Moses hid his face because he was afraid to look at God."
+    "content": [
+      "Moreover he said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.”",
+      {
+        "paragraph": true,
+        "text": "Moses hid his face because he was afraid to look at God."
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 3,
     "verse": 7,
     "content": {
-      "text": "Yahweh said, “I have surely seen the affliction of my people who are in Egypt, and have heard their cry because of their taskmasters, for I know their sorrows.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said, “I have surely seen the affliction of my people who are in Egypt, and have heard their cry because of their taskmasters, for I know their sorrows."
     }
   },
   {
@@ -465,8 +495,8 @@
     "chapter": 3,
     "verse": 11,
     "content": {
-      "text": "Moses said to God, “Who am I, that I should go to Pharaoh, and that I should bring the children of Israel out of Egypt?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to God, “Who am I, that I should go to Pharaoh, and that I should bring the children of Israel out of Egypt?”"
     }
   },
   {
@@ -474,8 +504,8 @@
     "chapter": 3,
     "verse": 12,
     "content": {
-      "text": "He said, “Certainly I will be with you. This will be the token to you, that I have sent you: when you have brought the people out of Egypt, you shall serve God on this mountain.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “Certainly I will be with you. This will be the token to you, that I have sent you: when you have brought the people out of Egypt, you shall serve God on this mountain.”"
     }
   },
   {
@@ -483,8 +513,8 @@
     "chapter": 3,
     "verse": 13,
     "content": {
-      "text": "Moses said to God, “Behold, when I come to the children of Israel, and tell them, ‘The God of your fathers has sent me to you,’ and they ask me, ‘What is his name?’ what should I tell them?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to God, “Behold, when I come to the children of Israel, and tell them, ‘The God of your fathers has sent me to you,’ and they ask me, ‘What is his name?’ what should I tell them?”"
     }
   },
   {
@@ -492,8 +522,8 @@
     "chapter": 3,
     "verse": 14,
     "content": {
-      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’ ”"
     }
   },
   {
@@ -549,68 +579,98 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Moses answered, “But, behold, they will not believe me, nor listen to my voice; for they will say, ‘Yahweh has not appeared to you.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses answered, “But, behold, they will not believe me, nor listen to my voice; for they will say, ‘Yahweh has not appeared to you.’ ”"
     }
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 2,
-    "content": {
-      "text": "Yahweh said to him, “What is that in your hand?” He said, “A rod.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Yahweh said to him, “What is that in your hand?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “A rod.”"
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 3,
-    "content": {
-      "text": "He said, “Throw it on the ground.” He threw it on the ground, and it became a snake; and Moses ran away from it.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "He said, “Throw it on the ground.”"
+      },
+      {
+        "paragraph": true,
+        "text": "He threw it on the ground, and it became a snake; and Moses ran away from it."
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 4,
-    "content": {
-      "text": "Yahweh said to Moses, “Stretch out your hand, and take it by the tail.” He stretched out his hand, and took hold of it, and it became a rod in his hand.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Yahweh said to Moses, “Stretch out your hand, and take it by the tail.”"
+      },
+      {
+        "paragraph": true,
+        "text": "He stretched out his hand, and took hold of it, and it became a rod in his hand."
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 5,
     "content": {
-      "text": "“This is so that they may believe that Yahweh, the God of their fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has appeared to you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“This is so that they may believe that Yahweh, the God of their fathers, the God of Abraham, the God of Isaac, and the God of Jacob, has appeared to you.”"
     }
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 6,
-    "content": "Yahweh said furthermore to him, “Now put your hand inside your cloak.” He put his hand inside his cloak, and when he took it out, behold, his hand was leprous, as white as snow."
+    "content": [
+      "Yahweh said furthermore to him, “Now put your hand inside your cloak.”",
+      {
+        "paragraph": true,
+        "text": "He put his hand inside his cloak, and when he took it out, behold, his hand was leprous, as white as snow."
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 7,
-    "content": {
-      "text": "He said, “Put your hand inside your cloak again.” He put his hand inside his cloak again, and when he took it out of his cloak, behold, it had turned again as his other flesh.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "He said, “Put your hand inside your cloak again.”"
+      },
+      {
+        "paragraph": true,
+        "text": "He put his hand inside his cloak again, and when he took it out of his cloak, behold, it had turned again as his other flesh."
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 8,
     "content": {
-      "text": "“It will happen, if they will not believe you or listen to the voice of the first sign, that they will believe the voice of the latter sign.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“It will happen, if they will not believe you or listen to the voice of the first sign, that they will believe the voice of the latter sign."
     }
   },
   {
@@ -625,12 +685,12 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "Moses said to Yahweh, “O Lord,",
         "foot": {
           "type": "trn",
           "content": "The word translated “Lord” is “Adonai”."
-        },
-        "paragraph": true
+        }
       },
       " I am not eloquent, neither before now, nor since you have spoken to your servant; for I am slow of speech, and of a slow tongue.”"
     ]
@@ -640,8 +700,8 @@
     "chapter": 4,
     "verse": 11,
     "content": {
-      "text": "Yahweh said to him, “Who made man’s mouth? Or who makes one mute, or deaf, or seeing, or blind? Isn’t it I, Yahweh?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to him, “Who made man’s mouth? Or who makes one mute, or deaf, or seeing, or blind? Isn’t it I, Yahweh?"
     }
   },
   {
@@ -655,8 +715,8 @@
     "chapter": 4,
     "verse": 13,
     "content": {
-      "text": "Moses said, “Oh, Lord, please send someone else.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “Oh, Lord, please send someone else.”"
     }
   },
   {
@@ -664,8 +724,8 @@
     "chapter": 4,
     "verse": 14,
     "content": {
-      "text": "Yahweh’s anger burned against Moses, and he said, “What about Aaron, your brother, the Levite? I know that he can speak well. Also, behold, he is coming out to meet you. When he sees you, he will be glad in his heart.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s anger burned against Moses, and he said, “What about Aaron, your brother, the Levite? I know that he can speak well. Also, behold, he is coming out to meet you. When he sees you, he will be glad in his heart."
     }
   },
   {
@@ -690,18 +750,24 @@
     "book": "EXO",
     "chapter": 4,
     "verse": 18,
-    "content": {
-      "text": "Moses went and returned to Jethro his father-in-law, and said to him, “Please let me go and return to my brothers who are in Egypt, and see whether they are still alive.” Jethro said to Moses, “Go in peace.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Moses went and returned to Jethro his father-in-law, and said to him, “Please let me go and return to my brothers who are in Egypt, and see whether they are still alive.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Jethro said to Moses, “Go in peace.”"
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 19,
     "content": {
-      "text": "Yahweh said to Moses in Midian, “Go, return into Egypt; for all the men who sought your life are dead.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses in Midian, “Go, return into Egypt; for all the men who sought your life are dead.”"
     }
   },
   {
@@ -709,8 +775,8 @@
     "chapter": 4,
     "verse": 20,
     "content": {
-      "text": "Moses took his wife and his sons, and set them on a donkey, and he returned to the land of Egypt. Moses took God’s rod in his hand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses took his wife and his sons, and set them on a donkey, and he returned to the land of Egypt. Moses took God’s rod in his hand."
     }
   },
   {
@@ -736,8 +802,8 @@
     "chapter": 4,
     "verse": 24,
     "content": {
-      "text": "On the way at a lodging place, Yahweh met Moses and wanted to kill him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the way at a lodging place, Yahweh met Moses and wanted to kill him."
     }
   },
   {
@@ -751,18 +817,24 @@
     "chapter": 4,
     "verse": 26,
     "content": {
-      "text": "So he let him alone. Then she said, “You are a bridegroom of blood,” because of the circumcision.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So he let him alone. Then she said, “You are a bridegroom of blood,” because of the circumcision."
     }
   },
   {
     "book": "EXO",
     "chapter": 4,
     "verse": 27,
-    "content": {
-      "text": "Yahweh said to Aaron, “Go into the wilderness to meet Moses.” He went, and met him on God’s mountain, and kissed him.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Yahweh said to Aaron, “Go into the wilderness to meet Moses.”"
+      },
+      {
+        "paragraph": true,
+        "text": "He went, and met him on God’s mountain, and kissed him."
+      }
+    ]
   },
   {
     "book": "EXO",
@@ -793,8 +865,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Afterward Moses and Aaron came, and said to Pharaoh, “This is what Yahweh, the God of Israel, says, ‘Let my people go, that they may hold a feast to me in the wilderness.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Afterward Moses and Aaron came, and said to Pharaoh, “This is what Yahweh, the God of Israel, says, ‘Let my people go, that they may hold a feast to me in the wilderness.’ ”"
     }
   },
   {
@@ -802,8 +874,8 @@
     "chapter": 5,
     "verse": 2,
     "content": {
-      "text": "Pharaoh said, “Who is Yahweh, that I should listen to his voice to let Israel go? I don’t know Yahweh, and moreover I will not let Israel go.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pharaoh said, “Who is Yahweh, that I should listen to his voice to let Israel go? I don’t know Yahweh, and moreover I will not let Israel go.”"
     }
   },
   {
@@ -811,8 +883,8 @@
     "chapter": 5,
     "verse": 3,
     "content": {
-      "text": "They said, “The God of the Hebrews has met with us. Please let us go three days’ journey into the wilderness, and sacrifice to Yahweh, our God, lest he fall on us with pestilence, or with the sword.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They said, “The God of the Hebrews has met with us. Please let us go three days’ journey into the wilderness, and sacrifice to Yahweh, our God, lest he fall on us with pestilence, or with the sword.”"
     }
   },
   {
@@ -820,8 +892,8 @@
     "chapter": 5,
     "verse": 4,
     "content": {
-      "text": "The king of Egypt said to them, “Why do you, Moses and Aaron, take the people from their work? Get back to your burdens!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king of Egypt said to them, “Why do you, Moses and Aaron, take the people from their work? Get back to your burdens!”"
     }
   },
   {
@@ -859,8 +931,8 @@
     "chapter": 5,
     "verse": 10,
     "content": {
-      "text": "The taskmasters of the people went out with their officers, and they spoke to the people, saying, “This is what Pharaoh says: ‘I will not give you straw.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The taskmasters of the people went out with their officers, and they spoke to the people, saying, “This is what Pharaoh says: ‘I will not give you straw."
     }
   },
   {
@@ -892,8 +964,8 @@
     "chapter": 5,
     "verse": 15,
     "content": {
-      "text": "Then the officers of the children of Israel came and cried to Pharaoh, saying, “Why do you deal this way with your servants?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the officers of the children of Israel came and cried to Pharaoh, saying, “Why do you deal this way with your servants?"
     }
   },
   {
@@ -907,8 +979,8 @@
     "chapter": 5,
     "verse": 17,
     "content": {
-      "text": "But Pharaoh said, “You are idle! You are idle! Therefore you say, ‘Let’s go and sacrifice to Yahweh.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Pharaoh said, “You are idle! You are idle! Therefore you say, ‘Let’s go and sacrifice to Yahweh.’"
     }
   },
   {
@@ -922,8 +994,8 @@
     "chapter": 5,
     "verse": 19,
     "content": {
-      "text": "The officers of the children of Israel saw that they were in trouble when it was said, “You shall not diminish anything from your daily quota of bricks!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The officers of the children of Israel saw that they were in trouble when it was said, “You shall not diminish anything from your daily quota of bricks!”"
     }
   },
   {
@@ -931,8 +1003,8 @@
     "chapter": 5,
     "verse": 20,
     "content": {
-      "text": "They met Moses and Aaron, who stood along the way, as they came out from Pharaoh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They met Moses and Aaron, who stood along the way, as they came out from Pharaoh."
     }
   },
   {
@@ -946,8 +1018,8 @@
     "chapter": 5,
     "verse": 22,
     "content": {
-      "text": "Moses returned to Yahweh, and said, “Lord, why have you brought trouble on this people? Why is it that you have sent me?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses returned to Yahweh, and said, “Lord, why have you brought trouble on this people? Why is it that you have sent me?"
     }
   },
   {
@@ -961,8 +1033,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "Yahweh said to Moses, “Now you shall see what I will do to Pharaoh, for by a strong hand he shall let them go, and by a strong hand he shall drive them out of his land.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Now you shall see what I will do to Pharaoh, for by a strong hand he shall let them go, and by a strong hand he shall drive them out of his land.”"
     }
   },
   {
@@ -970,8 +1042,8 @@
     "chapter": 6,
     "verse": 2,
     "content": {
-      "text": "God spoke to Moses, and said to him, “I am Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God spoke to Moses, and said to him, “I am Yahweh."
     }
   },
   {
@@ -1015,8 +1087,8 @@
     "chapter": 6,
     "verse": 9,
     "content": {
-      "text": "Moses spoke so to the children of Israel, but they didn’t listen to Moses for anguish of spirit, and for cruel bondage.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses spoke so to the children of Israel, but they didn’t listen to Moses for anguish of spirit, and for cruel bondage."
     }
   },
   {
@@ -1024,8 +1096,8 @@
     "chapter": 6,
     "verse": 10,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -1039,8 +1111,8 @@
     "chapter": 6,
     "verse": 12,
     "content": {
-      "text": "Moses spoke before Yahweh, saying, “Behold, the children of Israel haven’t listened to me. How then shall Pharaoh listen to me, when I have uncircumcised lips?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses spoke before Yahweh, saying, “Behold, the children of Israel haven’t listened to me. How then shall Pharaoh listen to me, when I have uncircumcised lips?”"
     }
   },
   {
@@ -1054,8 +1126,8 @@
     "chapter": 6,
     "verse": 14,
     "content": {
-      "text": "These are the heads of their fathers’ houses. The sons of Reuben the firstborn of Israel: Hanoch, and Pallu, Hezron, and Carmi; these are the families of Reuben.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are the heads of their fathers’ houses. The sons of Reuben the firstborn of Israel: Hanoch, and Pallu, Hezron, and Carmi; these are the families of Reuben."
     }
   },
   {
@@ -1141,8 +1213,8 @@
     "chapter": 6,
     "verse": 28,
     "content": {
-      "text": "On the day when Yahweh spoke to Moses in the land of Egypt,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the day when Yahweh spoke to Moses in the land of Egypt,"
     }
   },
   {
@@ -1156,8 +1228,8 @@
     "chapter": 6,
     "verse": 30,
     "content": {
-      "text": "Moses said before Yahweh, “Behold, I am of uncircumcised lips, and how shall Pharaoh listen to me?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said before Yahweh, “Behold, I am of uncircumcised lips, and how shall Pharaoh listen to me?”"
     }
   },
   {
@@ -1165,8 +1237,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "Yahweh said to Moses, “Behold, I have made you as God to Pharaoh; and Aaron your brother shall be your prophet.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Behold, I have made you as God to Pharaoh; and Aaron your brother shall be your prophet."
     }
   },
   {
@@ -1198,8 +1270,8 @@
     "chapter": 7,
     "verse": 6,
     "content": {
-      "text": "Moses and Aaron did so. As Yahweh commanded them, so they did.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron did so. As Yahweh commanded them, so they did."
     }
   },
   {
@@ -1213,8 +1285,8 @@
     "chapter": 7,
     "verse": 8,
     "content": {
-      "text": "Yahweh spoke to Moses and to Aaron, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses and to Aaron, saying,"
     }
   },
   {
@@ -1228,8 +1300,8 @@
     "chapter": 7,
     "verse": 10,
     "content": {
-      "text": "Moses and Aaron went in to Pharaoh, and they did so, as Yahweh had commanded. Aaron cast down his rod before Pharaoh and before his servants, and it became a serpent.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron went in to Pharaoh, and they did so, as Yahweh had commanded. Aaron cast down his rod before Pharaoh and before his servants, and it became a serpent."
     }
   },
   {
@@ -1255,8 +1327,8 @@
     "chapter": 7,
     "verse": 14,
     "content": {
-      "text": "Yahweh said to Moses, “Pharaoh’s heart is stubborn. He refuses to let the people go.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Pharaoh’s heart is stubborn. He refuses to let the people go."
     }
   },
   {
@@ -1294,8 +1366,8 @@
     "chapter": 7,
     "verse": 20,
     "content": {
-      "text": "Moses and Aaron did so, as Yahweh commanded; and he lifted up the rod, and struck the waters that were in the river, in the sight of Pharaoh, and in the sight of his servants; and all the waters that were in the river were turned to blood.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron did so, as Yahweh commanded; and he lifted up the rod, and struck the waters that were in the river, in the sight of Pharaoh, and in the sight of his servants; and all the waters that were in the river were turned to blood."
     }
   },
   {
@@ -1333,8 +1405,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, “Go in to Pharaoh, and tell him, ‘This is what Yahweh says, “Let my people go, that they may serve me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, “Go in to Pharaoh, and tell him, ‘This is what Yahweh says, “Let my people go, that they may serve me."
     }
   },
   {
@@ -1378,8 +1450,8 @@
     "chapter": 8,
     "verse": 8,
     "content": {
-      "text": "Then Pharaoh called for Moses and Aaron, and said, “Entreat Yahweh, that he take away the frogs from me and from my people; and I will let the people go, that they may sacrifice to Yahweh.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Pharaoh called for Moses and Aaron, and said, “Entreat Yahweh, that he take away the frogs from me and from my people; and I will let the people go, that they may sacrifice to Yahweh.”"
     }
   },
   {
@@ -1387,18 +1459,24 @@
     "chapter": 8,
     "verse": 9,
     "content": {
-      "text": "Moses said to Pharaoh, “I give you the honor of setting the time that I should pray for you, and for your servants, and for your people, that the frogs be destroyed from you and your houses, and remain in the river only.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Pharaoh, “I give you the honor of setting the time that I should pray for you, and for your servants, and for your people, that the frogs be destroyed from you and your houses, and remain in the river only.”"
     }
   },
   {
     "book": "EXO",
     "chapter": 8,
     "verse": 10,
-    "content": {
-      "text": "Pharaoh said, “Tomorrow.” Moses said, “Let it be according to your word, that you may know that there is no one like Yahweh our God.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Pharaoh said, “Tomorrow.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Moses said, “Let it be according to your word, that you may know that there is no one like Yahweh our God."
+      }
+    ]
   },
   {
     "book": "EXO",
@@ -1411,8 +1489,8 @@
     "chapter": 8,
     "verse": 12,
     "content": {
-      "text": "Moses and Aaron went out from Pharaoh, and Moses cried to Yahweh concerning the frogs which he had brought on Pharaoh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron went out from Pharaoh, and Moses cried to Yahweh concerning the frogs which he had brought on Pharaoh."
     }
   },
   {
@@ -1438,8 +1516,8 @@
     "chapter": 8,
     "verse": 16,
     "content": {
-      "text": "Yahweh said to Moses, “Tell Aaron, ‘Stretch out your rod, and strike the dust of the earth, that it may become lice throughout all the land of Egypt.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Tell Aaron, ‘Stretch out your rod, and strike the dust of the earth, that it may become lice throughout all the land of Egypt.’ ”"
     }
   },
   {
@@ -1465,8 +1543,8 @@
     "chapter": 8,
     "verse": 20,
     "content": {
-      "text": "Yahweh said to Moses, “Rise up early in the morning, and stand before Pharaoh; behold, he comes out to the water; and tell him, ‘This is what Yahweh says, “Let my people go, that they may serve me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Rise up early in the morning, and stand before Pharaoh; behold, he comes out to the water; and tell him, ‘This is what Yahweh says, “Let my people go, that they may serve me."
     }
   },
   {
@@ -1498,8 +1576,8 @@
     "chapter": 8,
     "verse": 25,
     "content": {
-      "text": "Pharaoh called for Moses and for Aaron, and said, “Go, sacrifice to your God in the land!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pharaoh called for Moses and for Aaron, and said, “Go, sacrifice to your God in the land!”"
     }
   },
   {
@@ -1507,8 +1585,8 @@
     "chapter": 8,
     "verse": 26,
     "content": {
-      "text": "Moses said, “It isn’t appropriate to do so; for we shall sacrifice the abomination of the Egyptians to Yahweh our God. Behold, if we sacrifice the abomination of the Egyptians before their eyes, won’t they stone us?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “It isn’t appropriate to do so; for we shall sacrifice the abomination of the Egyptians to Yahweh our God. Behold, if we sacrifice the abomination of the Egyptians before their eyes, won’t they stone us?"
     }
   },
   {
@@ -1522,8 +1600,8 @@
     "chapter": 8,
     "verse": 28,
     "content": {
-      "text": "Pharaoh said, “I will let you go, that you may sacrifice to Yahweh your God in the wilderness, only you shall not go very far away. Pray for me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pharaoh said, “I will let you go, that you may sacrifice to Yahweh your God in the wilderness, only you shall not go very far away. Pray for me.”"
     }
   },
   {
@@ -1531,8 +1609,8 @@
     "chapter": 8,
     "verse": 29,
     "content": {
-      "text": "Moses said, “Behold, I am going out from you. I will pray to Yahweh that the swarms of flies may depart from Pharaoh, from his servants, and from his people, tomorrow; only don’t let Pharaoh deal deceitfully any more in not letting the people go to sacrifice to Yahweh.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “Behold, I am going out from you. I will pray to Yahweh that the swarms of flies may depart from Pharaoh, from his servants, and from his people, tomorrow; only don’t let Pharaoh deal deceitfully any more in not letting the people go to sacrifice to Yahweh.”"
     }
   },
   {
@@ -1558,8 +1636,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "Then Yahweh said to Moses, “Go in to Pharaoh, and tell him, ‘This is what Yahweh, the God of the Hebrews, says: “Let my people go, that they may serve me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh said to Moses, “Go in to Pharaoh, and tell him, ‘This is what Yahweh, the God of the Hebrews, says: “Let my people go, that they may serve me."
     }
   },
   {
@@ -1603,8 +1681,8 @@
     "chapter": 9,
     "verse": 8,
     "content": {
-      "text": "Yahweh said to Moses and to Aaron, “Take handfuls of ashes of the furnace, and let Moses sprinkle it toward the sky in the sight of Pharaoh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses and to Aaron, “Take handfuls of ashes of the furnace, and let Moses sprinkle it toward the sky in the sight of Pharaoh."
     }
   },
   {
@@ -1618,8 +1696,8 @@
     "chapter": 9,
     "verse": 10,
     "content": {
-      "text": "They took ashes of the furnace, and stood before Pharaoh; and Moses sprinkled it up toward the sky; and it became boils and blisters breaking out on man and on animal.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They took ashes of the furnace, and stood before Pharaoh; and Moses sprinkled it up toward the sky; and it became boils and blisters breaking out on man and on animal."
     }
   },
   {
@@ -1639,8 +1717,8 @@
     "chapter": 9,
     "verse": 13,
     "content": {
-      "text": "Yahweh said to Moses, “Rise up early in the morning, and stand before Pharaoh, and tell him, ‘This is what Yahweh, the God of the Hebrews, says: “Let my people go, that they may serve me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Rise up early in the morning, and stand before Pharaoh, and tell him, ‘This is what Yahweh, the God of the Hebrews, says: “Let my people go, that they may serve me."
     }
   },
   {
@@ -1684,8 +1762,8 @@
     "chapter": 9,
     "verse": 20,
     "content": {
-      "text": "Those who feared Yahweh’s word among the servants of Pharaoh made their servants and their livestock flee into the houses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Those who feared Yahweh’s word among the servants of Pharaoh made their servants and their livestock flee into the houses."
     }
   },
   {
@@ -1699,8 +1777,8 @@
     "chapter": 9,
     "verse": 22,
     "content": {
-      "text": "Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be hail in all the land of Egypt, on man, and on animal, and on every herb of the field, throughout the land of Egypt.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be hail in all the land of Egypt, on man, and on animal, and on every herb of the field, throughout the land of Egypt.”"
     }
   },
   {
@@ -1708,8 +1786,8 @@
     "chapter": 9,
     "verse": 23,
     "content": {
-      "text": "Moses stretched out his rod toward the heavens, and Yahweh sent thunder and hail; and lightning flashed down to the earth. Yahweh rained hail on the land of Egypt.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses stretched out his rod toward the heavens, and Yahweh sent thunder and hail; and lightning flashed down to the earth. Yahweh rained hail on the land of Egypt."
     }
   },
   {
@@ -1735,8 +1813,8 @@
     "chapter": 9,
     "verse": 27,
     "content": {
-      "text": "Pharaoh sent and called for Moses and Aaron, and said to them, “I have sinned this time. Yahweh is righteous, and I and my people are wicked.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pharaoh sent and called for Moses and Aaron, and said to them, “I have sinned this time. Yahweh is righteous, and I and my people are wicked."
     }
   },
   {
@@ -1750,8 +1828,8 @@
     "chapter": 9,
     "verse": 29,
     "content": {
-      "text": "Moses said to him, “As soon as I have gone out of the city, I will spread out my hands to Yahweh. The thunders shall cease, and there will not be any more hail; that you may know that the earth is Yahweh’s.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to him, “As soon as I have gone out of the city, I will spread out my hands to Yahweh. The thunders shall cease, and there will not be any more hail; that you may know that the earth is Yahweh’s."
     }
   },
   {
@@ -1765,8 +1843,8 @@
     "chapter": 9,
     "verse": 31,
     "content": {
-      "text": "The flax and the barley were struck, for the barley had ripened and the flax was blooming.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The flax and the barley were struck, for the barley had ripened and the flax was blooming."
     }
   },
   {
@@ -1798,8 +1876,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "Yahweh said to Moses, “Go in to Pharaoh, for I have hardened his heart and the heart of his servants, that I may show these my signs among them;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Go in to Pharaoh, for I have hardened his heart and the heart of his servants, that I may show these my signs among them;"
     }
   },
   {
@@ -1813,8 +1891,8 @@
     "chapter": 10,
     "verse": 3,
     "content": {
-      "text": "Moses and Aaron went in to Pharaoh, and said to him, “This is what Yahweh, the God of the Hebrews, says: ‘How long will you refuse to humble yourself before me? Let my people go, that they may serve me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron went in to Pharaoh, and said to him, “This is what Yahweh, the God of the Hebrews, says: ‘How long will you refuse to humble yourself before me? Let my people go, that they may serve me."
     }
   },
   {
@@ -1840,8 +1918,8 @@
     "chapter": 10,
     "verse": 7,
     "content": {
-      "text": "Pharaoh’s servants said to him, “How long will this man be a snare to us? Let the men go, that they may serve Yahweh, their God. Don’t you yet know that Egypt is destroyed?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pharaoh’s servants said to him, “How long will this man be a snare to us? Let the men go, that they may serve Yahweh, their God. Don’t you yet know that Egypt is destroyed?”"
     }
   },
   {
@@ -1849,8 +1927,8 @@
     "chapter": 10,
     "verse": 8,
     "content": {
-      "text": "Moses and Aaron were brought again to Pharaoh, and he said to them, “Go, serve Yahweh your God; but who are those who will go?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron were brought again to Pharaoh, and he said to them, “Go, serve Yahweh your God; but who are those who will go?”"
     }
   },
   {
@@ -1858,8 +1936,8 @@
     "chapter": 10,
     "verse": 9,
     "content": {
-      "text": "Moses said, “We will go with our young and with our old. We will go with our sons and with our daughters, with our flocks and with our herds; for we must hold a feast to Yahweh.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “We will go with our young and with our old. We will go with our sons and with our daughters, with our flocks and with our herds; for we must hold a feast to Yahweh.”"
     }
   },
   {
@@ -1867,8 +1945,8 @@
     "chapter": 10,
     "verse": 10,
     "content": {
-      "text": "He said to them, “Yahweh be with you if I let you go with your little ones! See, evil is clearly before your faces.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to them, “Yahweh be with you if I let you go with your little ones! See, evil is clearly before your faces."
     }
   },
   {
@@ -1882,8 +1960,8 @@
     "chapter": 10,
     "verse": 12,
     "content": {
-      "text": "Yahweh said to Moses, “Stretch out your hand over the land of Egypt for the locusts, that they may come up on the land of Egypt, and eat every herb of the land, even all that the hail has left.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Stretch out your hand over the land of Egypt for the locusts, that they may come up on the land of Egypt, and eat every herb of the land, even all that the hail has left.”"
     }
   },
   {
@@ -1921,8 +1999,8 @@
     "chapter": 10,
     "verse": 18,
     "content": {
-      "text": "Moses went out from Pharaoh, and prayed to Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses went out from Pharaoh, and prayed to Yahweh."
     }
   },
   {
@@ -1951,8 +2029,8 @@
     "chapter": 10,
     "verse": 21,
     "content": {
-      "text": "Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be darkness over the land of Egypt, even darkness which may be felt.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Stretch out your hand toward the sky, that there may be darkness over the land of Egypt, even darkness which may be felt.”"
     }
   },
   {
@@ -1972,8 +2050,8 @@
     "chapter": 10,
     "verse": 24,
     "content": {
-      "text": "Pharaoh called to Moses, and said, “Go, serve Yahweh. Only let your flocks and your herds stay behind. Let your little ones also go with you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pharaoh called to Moses, and said, “Go, serve Yahweh. Only let your flocks and your herds stay behind. Let your little ones also go with you.”"
     }
   },
   {
@@ -1981,8 +2059,8 @@
     "chapter": 10,
     "verse": 25,
     "content": {
-      "text": "Moses said, “You must also give into our hand sacrifices and burnt offerings, that we may sacrifice to Yahweh our God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “You must also give into our hand sacrifices and burnt offerings, that we may sacrifice to Yahweh our God."
     }
   },
   {
@@ -1996,8 +2074,8 @@
     "chapter": 10,
     "verse": 27,
     "content": {
-      "text": "But Yahweh hardened Pharaoh’s heart, and he wouldn’t let them go.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Yahweh hardened Pharaoh’s heart, and he wouldn’t let them go."
     }
   },
   {
@@ -2011,8 +2089,8 @@
     "chapter": 10,
     "verse": 29,
     "content": {
-      "text": "Moses said, “You have spoken well. I will see your face again no more.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “You have spoken well. I will see your face again no more.”"
     }
   },
   {
@@ -2020,8 +2098,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "Yahweh said to Moses, “I will bring yet one more plague on Pharaoh, and on Egypt; afterwards he will let you go. When he lets you go, he will surely thrust you out altogether.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “I will bring yet one more plague on Pharaoh, and on Egypt; afterwards he will let you go. When he lets you go, he will surely thrust you out altogether."
     }
   },
   {
@@ -2041,8 +2119,8 @@
     "chapter": 11,
     "verse": 4,
     "content": {
-      "text": "Moses said, “This is what Yahweh says: ‘About midnight I will go out into the middle of Egypt,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “This is what Yahweh says: ‘About midnight I will go out into the middle of Egypt,"
     }
   },
   {
@@ -2074,8 +2152,8 @@
     "chapter": 11,
     "verse": 9,
     "content": {
-      "text": "Yahweh said to Moses, “Pharaoh won’t listen to you, that my wonders may be multiplied in the land of Egypt.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Pharaoh won’t listen to you, that my wonders may be multiplied in the land of Egypt.”"
     }
   },
   {
@@ -2089,8 +2167,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses and Aaron in the land of Egypt, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses and Aaron in the land of Egypt, saying,"
     }
   },
   {
@@ -2176,8 +2254,8 @@
     "chapter": 12,
     "verse": 15,
     "content": {
-      "text": "“ ‘Seven days you shall eat unleavened bread; even the first day you shall put away yeast out of your houses, for whoever eats leavened bread from the first day until the seventh day, that soul shall be cut off from Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘Seven days you shall eat unleavened bread; even the first day you shall put away yeast out of your houses, for whoever eats leavened bread from the first day until the seventh day, that soul shall be cut off from Israel."
     }
   },
   {
@@ -2215,8 +2293,8 @@
     "chapter": 12,
     "verse": 21,
     "content": {
-      "text": "Then Moses called for all the elders of Israel, and said to them, “Draw out, and take lambs according to your families, and kill the Passover.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Moses called for all the elders of Israel, and said to them, “Draw out, and take lambs according to your families, and kill the Passover."
     }
   },
   {
@@ -2253,7 +2331,13 @@
     "book": "EXO",
     "chapter": 12,
     "verse": 27,
-    "content": "that you shall say, ‘It is the sacrifice of Yahweh’s Passover, who passed over the houses of the children of Israel in Egypt, when he struck the Egyptians, and spared our houses.’ ” The people bowed their heads and worshiped."
+    "content": [
+      "that you shall say, ‘It is the sacrifice of Yahweh’s Passover, who passed over the houses of the children of Israel in Egypt, when he struck the Egyptians, and spared our houses.’ ”",
+      {
+        "paragraph": true,
+        "text": "The people bowed their heads and worshiped."
+      }
+    ]
   },
   {
     "book": "EXO",
@@ -2266,8 +2350,8 @@
     "chapter": 12,
     "verse": 29,
     "content": {
-      "text": "At midnight, Yahweh struck all the firstborn in the land of Egypt, from the firstborn of Pharaoh who sat on his throne to the firstborn of the captive who was in the dungeon, and all the firstborn of livestock.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At midnight, Yahweh struck all the firstborn in the land of Egypt, from the firstborn of Pharaoh who sat on his throne to the firstborn of the captive who was in the dungeon, and all the firstborn of livestock."
     }
   },
   {
@@ -2293,8 +2377,8 @@
     "chapter": 12,
     "verse": 33,
     "content": {
-      "text": "The Egyptians were urgent with the people, to send them out of the land in haste, for they said, “We are all dead men.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Egyptians were urgent with the people, to send them out of the land in haste, for they said, “We are all dead men.”"
     }
   },
   {
@@ -2320,8 +2404,8 @@
     "chapter": 12,
     "verse": 37,
     "content": {
-      "text": "The children of Israel traveled from Rameses to Succoth, about six hundred thousand on foot who were men, in addition to children.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel traveled from Rameses to Succoth, about six hundred thousand on foot who were men, in addition to children."
     }
   },
   {
@@ -2359,8 +2443,8 @@
     "chapter": 12,
     "verse": 43,
     "content": {
-      "text": "Yahweh said to Moses and Aaron, “This is the ordinance of the Passover. No foreigner shall eat of it,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses and Aaron, “This is the ordinance of the Passover. No foreigner shall eat of it,"
     }
   },
   {
@@ -2416,8 +2500,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -2431,8 +2515,8 @@
     "chapter": 13,
     "verse": 3,
     "content": {
-      "text": "Moses said to the people, “Remember this day, in which you came out of Egypt, out of the house of bondage; for by strength of hand Yahweh brought you out from this place. No leavened bread shall be eaten.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to the people, “Remember this day, in which you came out of Egypt, out of the house of bondage; for by strength of hand Yahweh brought you out from this place. No leavened bread shall be eaten."
     }
   },
   {
@@ -2482,8 +2566,8 @@
     "chapter": 13,
     "verse": 11,
     "content": {
-      "text": "“It shall be, when Yahweh brings you into the land of the Canaanite, as he swore to you and to your fathers, and will give it to you,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“It shall be, when Yahweh brings you into the land of the Canaanite, as he swore to you and to your fathers, and will give it to you,"
     }
   },
   {
@@ -2521,8 +2605,8 @@
     "chapter": 13,
     "verse": 17,
     "content": {
-      "text": "When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, “Lest perhaps the people change their minds when they see war, and they return to Egypt”;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Pharaoh had let the people go, God didn’t lead them by the way of the land of the Philistines, although that was near; for God said, “Lest perhaps the people change their minds when they see war, and they return to Egypt”;"
     }
   },
   {
@@ -2560,8 +2644,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -2587,8 +2671,8 @@
     "chapter": 14,
     "verse": 5,
     "content": {
-      "text": "The king of Egypt was told that the people had fled; and the heart of Pharaoh and of his servants was changed toward the people, and they said, “What is this we have done, that we have let Israel go from serving us?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The king of Egypt was told that the people had fled; and the heart of Pharaoh and of his servants was changed toward the people, and they said, “What is this we have done, that we have let Israel go from serving us?”"
     }
   },
   {
@@ -2626,8 +2710,8 @@
     "chapter": 14,
     "verse": 10,
     "content": {
-      "text": "When Pharaoh came near, the children of Israel lifted up their eyes, and behold, the Egyptians were marching after them; and they were very afraid. The children of Israel cried out to Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Pharaoh came near, the children of Israel lifted up their eyes, and behold, the Egyptians were marching after them; and they were very afraid. The children of Israel cried out to Yahweh."
     }
   },
   {
@@ -2647,8 +2731,8 @@
     "chapter": 14,
     "verse": 13,
     "content": {
-      "text": "Moses said to the people, “Don’t be afraid. Stand still, and see the salvation of Yahweh, which he will work for you today; for you will never again see the Egyptians whom you have seen today.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to the people, “Don’t be afraid. Stand still, and see the salvation of Yahweh, which he will work for you today; for you will never again see the Egyptians whom you have seen today."
     }
   },
   {
@@ -2662,8 +2746,8 @@
     "chapter": 14,
     "verse": 15,
     "content": {
-      "text": "Yahweh said to Moses, “Why do you cry to me? Speak to the children of Israel, that they go forward.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Why do you cry to me? Speak to the children of Israel, that they go forward."
     }
   },
   {
@@ -2701,8 +2785,8 @@
     "chapter": 14,
     "verse": 21,
     "content": {
-      "text": "Moses stretched out his hand over the sea, and Yahweh caused the sea to go back by a strong east wind all night, and made the sea dry land, and the waters were divided.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses stretched out his hand over the sea, and Yahweh caused the sea to go back by a strong east wind all night, and made the sea dry land, and the waters were divided."
     }
   },
   {
@@ -2734,8 +2818,8 @@
     "chapter": 14,
     "verse": 26,
     "content": {
-      "text": "Yahweh said to Moses, “Stretch out your hand over the sea, that the waters may come again on the Egyptians, on their chariots, and on their horsemen.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Stretch out your hand over the sea, that the waters may come again on the Egyptians, on their chariots, and on their horsemen.”"
     }
   },
   {
@@ -2774,8 +2858,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Then Moses and the children of Israel sang this song to Yahweh, and said,",
         "paragraph": true,
+        "text": "Then Moses and the children of Israel sang this song to Yahweh, and said,",
         "break": true
       },
       {
@@ -3083,8 +3167,8 @@
     "chapter": 15,
     "verse": 19,
     "content": {
-      "text": "For the horses of Pharaoh went in with his chariots and with his horsemen into the sea, and Yahweh brought back the waters of the sea on them; but the children of Israel walked on dry land in the middle of the sea.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For the horses of Pharaoh went in with his chariots and with his horsemen into the sea, and Yahweh brought back the waters of the sea on them; but the children of Israel walked on dry land in the middle of the sea."
     }
   },
   {
@@ -3114,8 +3198,8 @@
     "chapter": 15,
     "verse": 22,
     "content": {
-      "text": "Moses led Israel onward from the Red Sea, and they went out into the wilderness of Shur; and they went three days in the wilderness, and found no water.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses led Israel onward from the Red Sea, and they went out into the wilderness of Shur; and they went three days in the wilderness, and found no water."
     }
   },
   {
@@ -3153,8 +3237,8 @@
     "chapter": 15,
     "verse": 27,
     "content": {
-      "text": "They came to Elim, where there were twelve springs of water and seventy palm trees. They encamped there by the waters.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They came to Elim, where there were twelve springs of water and seventy palm trees. They encamped there by the waters."
     }
   },
   {
@@ -3162,8 +3246,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "They took their journey from Elim, and all the congregation of the children of Israel came to the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They took their journey from Elim, and all the congregation of the children of Israel came to the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt."
     }
   },
   {
@@ -3183,8 +3267,8 @@
     "chapter": 16,
     "verse": 4,
     "content": {
-      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law or not.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh said to Moses, “Behold, I will rain bread from the sky for you, and the people shall go out and gather a day’s portion every day, that I may test them, whether they will walk in my law or not."
     }
   },
   {
@@ -3198,8 +3282,8 @@
     "chapter": 16,
     "verse": 6,
     "content": {
-      "text": "Moses and Aaron said to all the children of Israel, “At evening, you shall know that Yahweh has brought you out from the land of Egypt.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron said to all the children of Israel, “At evening, you shall know that Yahweh has brought you out from the land of Egypt."
     }
   },
   {
@@ -3243,8 +3327,8 @@
     "chapter": 16,
     "verse": 13,
     "content": {
-      "text": "In the evening, quail came up and covered the camp; and in the morning the dew lay around the camp.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the evening, quail came up and covered the camp; and in the morning the dew lay around the camp."
     }
   },
   {
@@ -3364,12 +3448,12 @@
     "verse": 31,
     "content": [
       {
+        "paragraph": true,
         "text": "The house of Israel called its name “Manna”,",
         "foot": {
           "type": "stu",
           "content": "“Manna” means “What is it?”"
-        },
-        "paragraph": true
+        }
       },
       " and it was like coriander seed, white; and its taste was like wafers with honey."
     ]
@@ -3415,23 +3499,29 @@
     "chapter": 17,
     "verse": 1,
     "content": {
-      "text": "All the congregation of the children of Israel traveled from the wilderness of Sin, starting according to Yahweh’s commandment, and encamped in Rephidim; but there was no water for the people to drink.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the congregation of the children of Israel traveled from the wilderness of Sin, starting according to Yahweh’s commandment, and encamped in Rephidim; but there was no water for the people to drink."
     }
   },
   {
     "book": "EXO",
     "chapter": 17,
     "verse": 2,
-    "content": "Therefore the people quarreled with Moses, and said, “Give us water to drink.” Moses said to them, “Why do you quarrel with me? Why do you test Yahweh?”"
+    "content": [
+      "Therefore the people quarreled with Moses, and said, “Give us water to drink.”",
+      {
+        "paragraph": true,
+        "text": "Moses said to them, “Why do you quarrel with me? Why do you test Yahweh?”"
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 17,
     "verse": 3,
     "content": {
-      "text": "The people were thirsty for water there; so the people murmured against Moses, and said, “Why have you brought us up out of Egypt, to kill us, our children, and our livestock with thirst?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The people were thirsty for water there; so the people murmured against Moses, and said, “Why have you brought us up out of Egypt, to kill us, our children, and our livestock with thirst?”"
     }
   },
   {
@@ -3439,8 +3529,8 @@
     "chapter": 17,
     "verse": 4,
     "content": {
-      "text": "Moses cried to Yahweh, saying, “What shall I do with these people? They are almost ready to stone me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses cried to Yahweh, saying, “What shall I do with these people? They are almost ready to stone me.”"
     }
   },
   {
@@ -3448,8 +3538,8 @@
     "chapter": 17,
     "verse": 5,
     "content": {
-      "text": "Yahweh said to Moses, “Walk on before the people, and take the elders of Israel with you, and take the rod in your hand with which you struck the Nile, and go.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Walk on before the people, and take the elders of Israel with you, and take the rod in your hand with which you struck the Nile, and go."
     }
   },
   {
@@ -3485,8 +3575,8 @@
     "chapter": 17,
     "verse": 8,
     "content": {
-      "text": "Then Amalek came and fought with Israel in Rephidim.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Amalek came and fought with Israel in Rephidim."
     }
   },
   {
@@ -3548,8 +3638,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "Now Jethro, the priest of Midian, Moses’ father-in-law, heard of all that God had done for Moses and for Israel his people, how Yahweh had brought Israel out of Egypt.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Jethro, the priest of Midian, Moses’ father-in-law, heard of all that God had done for Moses and for Israel his people, how Yahweh had brought Israel out of Egypt."
     }
   },
   {
@@ -3605,8 +3695,8 @@
     "chapter": 18,
     "verse": 7,
     "content": {
-      "text": "Moses went out to meet his father-in-law, and bowed and kissed him. They asked each other of their welfare, and they came into the tent.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses went out to meet his father-in-law, and bowed and kissed him. They asked each other of their welfare, and they came into the tent."
     }
   },
   {
@@ -3644,8 +3734,8 @@
     "chapter": 18,
     "verse": 13,
     "content": {
-      "text": "On the next day, Moses sat to judge the people, and the people stood around Moses from the morning to the evening.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the next day, Moses sat to judge the people, and the people stood around Moses from the morning to the evening."
     }
   },
   {
@@ -3659,8 +3749,8 @@
     "chapter": 18,
     "verse": 15,
     "content": {
-      "text": "Moses said to his father-in-law, “Because the people come to me to inquire of God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to his father-in-law, “Because the people come to me to inquire of God."
     }
   },
   {
@@ -3716,8 +3806,8 @@
     "chapter": 18,
     "verse": 24,
     "content": {
-      "text": "So Moses listened to the voice of his father-in-law, and did all that he had said.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Moses listened to the voice of his father-in-law, and did all that he had said."
     }
   },
   {
@@ -3743,8 +3833,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "In the third month after the children of Israel had gone out of the land of Egypt, on that same day they came into the wilderness of Sinai.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the third month after the children of Israel had gone out of the land of Egypt, on that same day they came into the wilderness of Sinai."
     }
   },
   {
@@ -3782,15 +3872,21 @@
     "chapter": 19,
     "verse": 7,
     "content": {
-      "text": "Moses came and called for the elders of the people, and set before them all these words which Yahweh commanded him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses came and called for the elders of the people, and set before them all these words which Yahweh commanded him."
     }
   },
   {
     "book": "EXO",
     "chapter": 19,
     "verse": 8,
-    "content": "All the people answered together, and said, “All that Yahweh has spoken we will do.” Moses reported the words of the people to Yahweh."
+    "content": [
+      "All the people answered together, and said, “All that Yahweh has spoken we will do.”",
+      {
+        "paragraph": true,
+        "text": "Moses reported the words of the people to Yahweh."
+      }
+    ]
   },
   {
     "book": "EXO",
@@ -3827,8 +3923,8 @@
     "chapter": 19,
     "verse": 14,
     "content": {
-      "text": "Moses went down from the mountain to the people, and sanctified the people; and they washed their clothes.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses went down from the mountain to the people, and sanctified the people; and they washed their clothes."
     }
   },
   {
@@ -3842,8 +3938,8 @@
     "chapter": 19,
     "verse": 16,
     "content": {
-      "text": "On the third day, when it was morning, there were thunders and lightnings, and a thick cloud on the mountain, and the sound of an exceedingly loud trumpet; and all the people who were in the camp trembled.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the third day, when it was morning, there were thunders and lightnings, and a thick cloud on the mountain, and the sound of an exceedingly loud trumpet; and all the people who were in the camp trembled."
     }
   },
   {
@@ -3875,8 +3971,8 @@
     "chapter": 19,
     "verse": 21,
     "content": {
-      "text": "Yahweh said to Moses, “Go down, warn the people, lest they break through to Yahweh to gaze, and many of them perish.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Go down, warn the people, lest they break through to Yahweh to gaze, and many of them perish."
     }
   },
   {
@@ -3890,8 +3986,8 @@
     "chapter": 19,
     "verse": 23,
     "content": {
-      "text": "Moses said to Yahweh, “The people can’t come up to Mount Sinai, for you warned us, saying, ‘Set bounds around the mountain, and sanctify it.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Yahweh, “The people can’t come up to Mount Sinai, for you warned us, saying, ‘Set bounds around the mountain, and sanctify it.’ ”"
     }
   },
   {
@@ -3899,8 +3995,8 @@
     "chapter": 19,
     "verse": 24,
     "content": {
-      "text": "Yahweh said to him, “Go down! You shall bring Aaron up with you, but don’t let the priests and the people break through to come up to Yahweh, lest he break out against them.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to him, “Go down! You shall bring Aaron up with you, but don’t let the priests and the people break through to come up to Yahweh, lest he break out against them.”"
     }
   },
   {
@@ -3908,8 +4004,8 @@
     "chapter": 19,
     "verse": 25,
     "content": {
-      "text": "So Moses went down to the people, and told them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Moses went down to the people, and told them."
     }
   },
   {
@@ -3918,12 +4014,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "God",
         "foot": {
           "type": "stu",
           "content": "After “God”, the Hebrew has the two letters “Aleph Tav” (the first and last letters of the Hebrew alphabet), not as a word, but as a grammatical marker."
-        },
-        "paragraph": true
+        }
       },
       " spoke all these words, saying,"
     ]
@@ -3939,8 +4035,8 @@
     "chapter": 20,
     "verse": 3,
     "content": {
-      "text": "“You shall have no other gods before me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall have no other gods before me."
     }
   },
   {
@@ -3948,8 +4044,8 @@
     "chapter": 20,
     "verse": 4,
     "content": {
-      "text": "“You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is in the earth beneath, or that is in the water under the earth:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not make for yourselves an idol, nor any image of anything that is in the heavens above, or that is in the earth beneath, or that is in the water under the earth:"
     }
   },
   {
@@ -3970,12 +4066,12 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "“You shall not misuse the name of Yahweh your God,",
         "foot": {
           "type": "trn",
           "content": "or, You shall not take the name of Yahweh your God in vain"
-        },
-        "paragraph": true
+        }
       },
       " for Yahweh will not hold him guiltless who misuses his name."
     ]
@@ -3985,8 +4081,8 @@
     "chapter": 20,
     "verse": 8,
     "content": {
-      "text": "“Remember the Sabbath day, to keep it holy.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Remember the Sabbath day, to keep it holy."
     }
   },
   {
@@ -4012,8 +4108,8 @@
     "chapter": 20,
     "verse": 12,
     "content": {
-      "text": "“Honor your father and your mother, that your days may be long in the land which Yahweh your God gives you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Honor your father and your mother, that your days may be long in the land which Yahweh your God gives you."
     }
   },
   {
@@ -4021,8 +4117,8 @@
     "chapter": 20,
     "verse": 13,
     "content": {
-      "text": "“You shall not murder.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not murder."
     }
   },
   {
@@ -4030,8 +4126,8 @@
     "chapter": 20,
     "verse": 14,
     "content": {
-      "text": "“You shall not commit adultery.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not commit adultery."
     }
   },
   {
@@ -4039,8 +4135,8 @@
     "chapter": 20,
     "verse": 15,
     "content": {
-      "text": "“You shall not steal.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not steal."
     }
   },
   {
@@ -4048,8 +4144,8 @@
     "chapter": 20,
     "verse": 16,
     "content": {
-      "text": "“You shall not give false testimony against your neighbor.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not give false testimony against your neighbor."
     }
   },
   {
@@ -4057,8 +4153,8 @@
     "chapter": 20,
     "verse": 17,
     "content": {
-      "text": "“You shall not covet your neighbor’s house. You shall not covet your neighbor’s wife, nor his male servant, nor his female servant, nor his ox, nor his donkey, nor anything that is your neighbor’s.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not covet your neighbor’s house. You shall not covet your neighbor’s wife, nor his male servant, nor his female servant, nor his ox, nor his donkey, nor anything that is your neighbor’s.”"
     }
   },
   {
@@ -4066,8 +4162,8 @@
     "chapter": 20,
     "verse": 18,
     "content": {
-      "text": "All the people perceived the thunderings, the lightnings, the sound of the trumpet, and the mountain smoking. When the people saw it, they trembled, and stayed at a distance.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the people perceived the thunderings, the lightnings, the sound of the trumpet, and the mountain smoking. When the people saw it, they trembled, and stayed at a distance."
     }
   },
   {
@@ -4081,8 +4177,8 @@
     "chapter": 20,
     "verse": 20,
     "content": {
-      "text": "Moses said to the people, “Don’t be afraid, for God has come to test you, and that his fear may be before you, that you won’t sin.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to the people, “Don’t be afraid, for God has come to test you, and that his fear may be before you, that you won’t sin.”"
     }
   },
   {
@@ -4096,8 +4192,8 @@
     "chapter": 20,
     "verse": 22,
     "content": {
-      "text": "Yahweh said to Moses, “This is what you shall tell the children of Israel: ‘You yourselves have seen that I have talked with you from heaven.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “This is what you shall tell the children of Israel: ‘You yourselves have seen that I have talked with you from heaven."
     }
   },
   {
@@ -4129,8 +4225,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "“Now these are the ordinances which you shall set before them:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Now these are the ordinances which you shall set before them:"
     }
   },
   {
@@ -4138,8 +4234,8 @@
     "chapter": 21,
     "verse": 2,
     "content": {
-      "text": "“If you buy a Hebrew servant, he shall serve six years, and in the seventh he shall go out free without paying anything.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If you buy a Hebrew servant, he shall serve six years, and in the seventh he shall go out free without paying anything."
     }
   },
   {
@@ -4171,8 +4267,8 @@
     "chapter": 21,
     "verse": 7,
     "content": {
-      "text": "“If a man sells his daughter to be a female servant, she shall not go out as the male servants do.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man sells his daughter to be a female servant, she shall not go out as the male servants do."
     }
   },
   {
@@ -4204,8 +4300,8 @@
     "chapter": 21,
     "verse": 12,
     "content": {
-      "text": "“One who strikes a man so that he dies shall surely be put to death,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“One who strikes a man so that he dies shall surely be put to death,"
     }
   },
   {
@@ -4225,8 +4321,8 @@
     "chapter": 21,
     "verse": 15,
     "content": {
-      "text": "“Anyone who attacks his father or his mother shall be surely put to death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Anyone who attacks his father or his mother shall be surely put to death."
     }
   },
   {
@@ -4234,8 +4330,8 @@
     "chapter": 21,
     "verse": 16,
     "content": {
-      "text": "“Anyone who kidnaps someone and sells him, or if he is found in his hand, he shall surely be put to death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Anyone who kidnaps someone and sells him, or if he is found in his hand, he shall surely be put to death."
     }
   },
   {
@@ -4243,8 +4339,8 @@
     "chapter": 21,
     "verse": 17,
     "content": {
-      "text": "“Anyone who curses his father or his mother shall surely be put to death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Anyone who curses his father or his mother shall surely be put to death."
     }
   },
   {
@@ -4252,8 +4348,8 @@
     "chapter": 21,
     "verse": 18,
     "content": {
-      "text": "“If men quarrel and one strikes the other with a stone, or with his fist, and he doesn’t die, but is confined to bed;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If men quarrel and one strikes the other with a stone, or with his fist, and he doesn’t die, but is confined to bed;"
     }
   },
   {
@@ -4267,8 +4363,8 @@
     "chapter": 21,
     "verse": 20,
     "content": {
-      "text": "“If a man strikes his servant or his maid with a rod, and he dies under his hand, the man shall surely be punished.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man strikes his servant or his maid with a rod, and he dies under his hand, the man shall surely be punished."
     }
   },
   {
@@ -4282,8 +4378,8 @@
     "chapter": 21,
     "verse": 22,
     "content": {
-      "text": "“If men fight and hurt a pregnant woman so that she gives birth prematurely, and yet no harm follows, he shall be surely fined as much as the woman’s husband demands and the judges allow.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If men fight and hurt a pregnant woman so that she gives birth prematurely, and yet no harm follows, he shall be surely fined as much as the woman’s husband demands and the judges allow."
     }
   },
   {
@@ -4309,8 +4405,8 @@
     "chapter": 21,
     "verse": 26,
     "content": {
-      "text": "“If a man strikes his servant’s eye, or his maid’s eye, and destroys it, he shall let him go free for his eye’s sake.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man strikes his servant’s eye, or his maid’s eye, and destroys it, he shall let him go free for his eye’s sake."
     }
   },
   {
@@ -4324,8 +4420,8 @@
     "chapter": 21,
     "verse": 28,
     "content": {
-      "text": "“If a bull gores a man or a woman to death, the bull shall surely be stoned, and its meat shall not be eaten; but the owner of the bull shall not be held responsible.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a bull gores a man or a woman to death, the bull shall surely be stoned, and its meat shall not be eaten; but the owner of the bull shall not be held responsible."
     }
   },
   {
@@ -4366,8 +4462,8 @@
     "chapter": 21,
     "verse": 33,
     "content": {
-      "text": "“If a man opens a pit, or if a man digs a pit and doesn’t cover it, and a bull or a donkey falls into it,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man opens a pit, or if a man digs a pit and doesn’t cover it, and a bull or a donkey falls into it,"
     }
   },
   {
@@ -4381,8 +4477,8 @@
     "chapter": 21,
     "verse": 35,
     "content": {
-      "text": "“If one man’s bull injures another’s, so that it dies, then they shall sell the live bull, and divide its price; and they shall also divide the dead animal.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If one man’s bull injures another’s, so that it dies, then they shall sell the live bull, and divide its price; and they shall also divide the dead animal."
     }
   },
   {
@@ -4396,8 +4492,8 @@
     "chapter": 22,
     "verse": 1,
     "content": {
-      "text": "“If a man steals an ox or a sheep, and kills it or sells it, he shall pay five oxen for an ox, and four sheep for a sheep.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man steals an ox or a sheep, and kills it or sells it, he shall pay five oxen for an ox, and four sheep for a sheep."
     }
   },
   {
@@ -4423,8 +4519,8 @@
     "chapter": 22,
     "verse": 5,
     "content": {
-      "text": "“If a man causes a field or vineyard to be eaten by letting his animal loose, and it grazes in another man’s field, he shall make restitution from the best of his own field, and from the best of his own vineyard.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man causes a field or vineyard to be eaten by letting his animal loose, and it grazes in another man’s field, he shall make restitution from the best of his own field, and from the best of his own vineyard."
     }
   },
   {
@@ -4432,8 +4528,8 @@
     "chapter": 22,
     "verse": 6,
     "content": {
-      "text": "“If fire breaks out, and catches in thorns so that the shocks of grain, or the standing grain, or the field are consumed; he who kindled the fire shall surely make restitution.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If fire breaks out, and catches in thorns so that the shocks of grain, or the standing grain, or the field are consumed; he who kindled the fire shall surely make restitution."
     }
   },
   {
@@ -4441,8 +4537,8 @@
     "chapter": 22,
     "verse": 7,
     "content": {
-      "text": "“If a man delivers to his neighbor money or stuff to keep, and it is stolen out of the man’s house, if the thief is found, he shall pay double.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man delivers to his neighbor money or stuff to keep, and it is stolen out of the man’s house, if the thief is found, he shall pay double."
     }
   },
   {
@@ -4462,8 +4558,8 @@
     "chapter": 22,
     "verse": 10,
     "content": {
-      "text": "“If a man delivers to his neighbor a donkey, an ox, a sheep, or any animal to keep, and it dies or is injured, or driven away, no man seeing it;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man delivers to his neighbor a donkey, an ox, a sheep, or any animal to keep, and it dies or is injured, or driven away, no man seeing it;"
     }
   },
   {
@@ -4489,8 +4585,8 @@
     "chapter": 22,
     "verse": 14,
     "content": {
-      "text": "“If a man borrows anything of his neighbor’s, and it is injured, or dies, its owner not being with it, he shall surely make restitution.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man borrows anything of his neighbor’s, and it is injured, or dies, its owner not being with it, he shall surely make restitution."
     }
   },
   {
@@ -4504,8 +4600,8 @@
     "chapter": 22,
     "verse": 16,
     "content": {
-      "text": "“If a man entices a virgin who isn’t pledged to be married, and lies with her, he shall surely pay a dowry for her to be his wife.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If a man entices a virgin who isn’t pledged to be married, and lies with her, he shall surely pay a dowry for her to be his wife."
     }
   },
   {
@@ -4519,8 +4615,8 @@
     "chapter": 22,
     "verse": 18,
     "content": {
-      "text": "“You shall not allow a sorceress to live.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not allow a sorceress to live."
     }
   },
   {
@@ -4528,8 +4624,8 @@
     "chapter": 22,
     "verse": 19,
     "content": {
-      "text": "“Whoever has sex with an animal shall surely be put to death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Whoever has sex with an animal shall surely be put to death."
     }
   },
   {
@@ -4537,8 +4633,8 @@
     "chapter": 22,
     "verse": 20,
     "content": {
-      "text": "“He who sacrifices to any god, except to Yahweh only, shall be utterly destroyed.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“He who sacrifices to any god, except to Yahweh only, shall be utterly destroyed."
     }
   },
   {
@@ -4546,8 +4642,8 @@
     "chapter": 22,
     "verse": 21,
     "content": {
-      "text": "“You shall not wrong an alien or oppress him, for you were aliens in the land of Egypt.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not wrong an alien or oppress him, for you were aliens in the land of Egypt."
     }
   },
   {
@@ -4555,8 +4651,8 @@
     "chapter": 22,
     "verse": 22,
     "content": {
-      "text": "“You shall not take advantage of any widow or fatherless child.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not take advantage of any widow or fatherless child."
     }
   },
   {
@@ -4576,8 +4672,8 @@
     "chapter": 22,
     "verse": 25,
     "content": {
-      "text": "“If you lend money to any of my people with you who is poor, you shall not be to him as a creditor. You shall not charge him interest.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If you lend money to any of my people with you who is poor, you shall not be to him as a creditor. You shall not charge him interest."
     }
   },
   {
@@ -4597,18 +4693,24 @@
     "chapter": 22,
     "verse": 28,
     "content": {
-      "text": "“You shall not blaspheme God, nor curse a ruler of your people.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not blaspheme God, nor curse a ruler of your people."
     }
   },
   {
     "book": "EXO",
     "chapter": 22,
     "verse": 29,
-    "content": {
-      "text": "“You shall not delay to offer from your harvest and from the outflow of your presses. “You shall give the firstborn of your sons to me.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "“You shall not delay to offer from your harvest and from the outflow of your presses."
+      },
+      {
+        "paragraph": true,
+        "text": "“You shall give the firstborn of your sons to me."
+      }
+    ]
   },
   {
     "book": "EXO",
@@ -4621,8 +4723,8 @@
     "chapter": 22,
     "verse": 31,
     "content": {
-      "text": "“You shall be holy men to me, therefore you shall not eat any meat that is torn by animals in the field. You shall cast it to the dogs.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall be holy men to me, therefore you shall not eat any meat that is torn by animals in the field. You shall cast it to the dogs."
     }
   },
   {
@@ -4630,8 +4732,8 @@
     "chapter": 23,
     "verse": 1,
     "content": {
-      "text": "“You shall not spread a false report. Don’t join your hand with the wicked to be a malicious witness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not spread a false report. Don’t join your hand with the wicked to be a malicious witness."
     }
   },
   {
@@ -4639,8 +4741,8 @@
     "chapter": 23,
     "verse": 2,
     "content": {
-      "text": "“You shall not follow a crowd to do evil. You shall not testify in court to side with a multitude to pervert justice.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not follow a crowd to do evil. You shall not testify in court to side with a multitude to pervert justice."
     }
   },
   {
@@ -4654,8 +4756,8 @@
     "chapter": 23,
     "verse": 4,
     "content": {
-      "text": "“If you meet your enemy’s ox or his donkey going astray, you shall surely bring it back to him again.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If you meet your enemy’s ox or his donkey going astray, you shall surely bring it back to him again."
     }
   },
   {
@@ -4669,8 +4771,8 @@
     "chapter": 23,
     "verse": 6,
     "content": {
-      "text": "“You shall not deny justice to your poor people in their lawsuits.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not deny justice to your poor people in their lawsuits."
     }
   },
   {
@@ -4678,8 +4780,8 @@
     "chapter": 23,
     "verse": 7,
     "content": {
-      "text": "“Keep far from a false charge, and don’t kill the innocent and righteous; for I will not justify the wicked.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Keep far from a false charge, and don’t kill the innocent and righteous; for I will not justify the wicked."
     }
   },
   {
@@ -4687,8 +4789,8 @@
     "chapter": 23,
     "verse": 8,
     "content": {
-      "text": "“You shall take no bribe, for a bribe blinds those who have sight and perverts the words of the righteous.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall take no bribe, for a bribe blinds those who have sight and perverts the words of the righteous."
     }
   },
   {
@@ -4696,8 +4798,8 @@
     "chapter": 23,
     "verse": 9,
     "content": {
-      "text": "“You shall not oppress an alien, for you know the heart of an alien, since you were aliens in the land of Egypt.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not oppress an alien, for you know the heart of an alien, since you were aliens in the land of Egypt."
     }
   },
   {
@@ -4705,8 +4807,8 @@
     "chapter": 23,
     "verse": 10,
     "content": {
-      "text": "“For six years you shall sow your land, and shall gather in its increase,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“For six years you shall sow your land, and shall gather in its increase,"
     }
   },
   {
@@ -4720,8 +4822,8 @@
     "chapter": 23,
     "verse": 12,
     "content": {
-      "text": "“Six days you shall do your work, and on the seventh day you shall rest, that your ox and your donkey may have rest, and the son of your servant, and the alien may be refreshed.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Six days you shall do your work, and on the seventh day you shall rest, that your ox and your donkey may have rest, and the son of your servant, and the alien may be refreshed."
     }
   },
   {
@@ -4729,8 +4831,8 @@
     "chapter": 23,
     "verse": 13,
     "content": {
-      "text": "“Be careful to do all things that I have said to you; and don’t invoke the name of other gods or even let them be heard out of your mouth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Be careful to do all things that I have said to you; and don’t invoke the name of other gods or even let them be heard out of your mouth."
     }
   },
   {
@@ -4738,8 +4840,8 @@
     "chapter": 23,
     "verse": 14,
     "content": {
-      "text": "“You shall observe a feast to me three times a year.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall observe a feast to me three times a year."
     }
   },
   {
@@ -4765,26 +4867,32 @@
     "chapter": 23,
     "verse": 18,
     "content": {
-      "text": "“You shall not offer the blood of my sacrifice with leavened bread. The fat of my feast shall not remain all night until the morning.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not offer the blood of my sacrifice with leavened bread. The fat of my feast shall not remain all night until the morning."
     }
   },
   {
     "book": "EXO",
     "chapter": 23,
     "verse": 19,
-    "content": {
-      "text": "You shall bring the first of the first fruits of your ground into the house of Yahweh your God. “You shall not boil a young goat in its mother’s milk.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "You shall bring the first of the first fruits of your ground into the house of Yahweh your God."
+      },
+      {
+        "paragraph": true,
+        "text": "“You shall not boil a young goat in its mother’s milk."
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 23,
     "verse": 20,
     "content": {
-      "text": "“Behold, I send an angel before you, to keep you by the way, and to bring you into the place which I have prepared.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Behold, I send an angel before you, to keep you by the way, and to bring you into the place which I have prepared."
     }
   },
   {
@@ -4870,8 +4978,8 @@
     "chapter": 24,
     "verse": 1,
     "content": {
-      "text": "He said to Moses, “Come up to Yahweh, you, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship from a distance.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to Moses, “Come up to Yahweh, you, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship from a distance."
     }
   },
   {
@@ -4885,8 +4993,8 @@
     "chapter": 24,
     "verse": 3,
     "content": {
-      "text": "Moses came and told the people all Yahweh’s words, and all the ordinances; and all the people answered with one voice, and said, “All the words which Yahweh has spoken will we do.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses came and told the people all Yahweh’s words, and all the ordinances; and all the people answered with one voice, and said, “All the words which Yahweh has spoken will we do.”"
     }
   },
   {
@@ -4894,8 +5002,8 @@
     "chapter": 24,
     "verse": 4,
     "content": {
-      "text": "Moses wrote all Yahweh’s words, then rose up early in the morning and built an altar at the base of the mountain, with twelve pillars for the twelve tribes of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses wrote all Yahweh’s words, then rose up early in the morning and built an altar at the base of the mountain, with twelve pillars for the twelve tribes of Israel."
     }
   },
   {
@@ -4921,8 +5029,8 @@
     "chapter": 24,
     "verse": 8,
     "content": {
-      "text": "Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses took the blood, and sprinkled it on the people, and said, “Look, this is the blood of the covenant, which Yahweh has made with you concerning all these words.”"
     }
   },
   {
@@ -4930,8 +5038,8 @@
     "chapter": 24,
     "verse": 9,
     "content": {
-      "text": "Then Moses, Aaron, Nadab, Abihu, and seventy of the elders of Israel went up.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Moses, Aaron, Nadab, Abihu, and seventy of the elders of Israel went up."
     }
   },
   {
@@ -4960,8 +5068,8 @@
     "chapter": 24,
     "verse": 12,
     "content": {
-      "text": "Yahweh said to Moses, “Come up to me on the mountain, and stay here, and I will give you the stone tablets with the law and the commands that I have written, that you may teach them.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Come up to me on the mountain, and stay here, and I will give you the stone tablets with the law and the commands that I have written, that you may teach them.”"
     }
   },
   {
@@ -4969,8 +5077,8 @@
     "chapter": 24,
     "verse": 13,
     "content": {
-      "text": "Moses rose up with Joshua, his servant, and Moses went up onto God’s Mountain.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses rose up with Joshua, his servant, and Moses went up onto God’s Mountain."
     }
   },
   {
@@ -4984,8 +5092,8 @@
     "chapter": 24,
     "verse": 15,
     "content": {
-      "text": "Moses went up on the mountain, and the cloud covered the mountain.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses went up on the mountain, and the cloud covered the mountain."
     }
   },
   {
@@ -5011,8 +5119,8 @@
     "chapter": 25,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -5078,12 +5186,12 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "“They shall make an ark of acacia wood. Its length shall be two and a half cubits,",
         "foot": {
           "type": "stu",
           "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
-        },
-        "paragraph": true
+        }
       },
       " its width a cubit and a half, and a cubit and a half its height."
     ]
@@ -5165,8 +5273,8 @@
     "chapter": 25,
     "verse": 23,
     "content": {
-      "text": "“You shall make a table of acacia wood. Its length shall be two cubits, and its width a cubit, and its height one and a half cubits.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make a table of acacia wood. Its length shall be two cubits, and its width a cubit, and its height one and a half cubits."
     }
   },
   {
@@ -5216,8 +5324,8 @@
     "chapter": 25,
     "verse": 31,
     "content": {
-      "text": "“You shall make a lamp stand of pure gold. The lamp stand shall be made of hammered work. Its base, its shaft, its cups, its buds, and its flowers shall be of one piece with it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make a lamp stand of pure gold. The lamp stand shall be made of hammered work. Its base, its shaft, its cups, its buds, and its flowers shall be of one piece with it."
     }
   },
   {
@@ -5288,8 +5396,8 @@
     "chapter": 26,
     "verse": 1,
     "content": {
-      "text": "“Moreover you shall make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet, with cherubim. You shall make them with the work of a skillful workman.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Moreover you shall make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet, with cherubim. You shall make them with the work of a skillful workman."
     }
   },
   {
@@ -5336,8 +5444,8 @@
     "chapter": 26,
     "verse": 7,
     "content": {
-      "text": "“You shall make curtains of goats’ hair for a covering over the tabernacle. You shall make eleven curtains.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make curtains of goats’ hair for a covering over the tabernacle. You shall make eleven curtains."
     }
   },
   {
@@ -5387,8 +5495,8 @@
     "chapter": 26,
     "verse": 15,
     "content": {
-      "text": "“You shall make the boards for the tabernacle of acacia wood, standing upright.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make the boards for the tabernacle of acacia wood, standing upright."
     }
   },
   {
@@ -5456,8 +5564,8 @@
     "chapter": 26,
     "verse": 26,
     "content": {
-      "text": "“You shall make bars of acacia wood: five for the boards of the one side of the tabernacle,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make bars of acacia wood: five for the boards of the one side of the tabernacle,"
     }
   },
   {
@@ -5489,8 +5597,8 @@
     "chapter": 26,
     "verse": 31,
     "content": {
-      "text": "“You shall make a veil of blue, and purple, and scarlet, and fine twined linen, with cherubim. It shall be the work of a skillful workman.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make a veil of blue, and purple, and scarlet, and fine twined linen, with cherubim. It shall be the work of a skillful workman."
     }
   },
   {
@@ -5522,8 +5630,8 @@
     "chapter": 26,
     "verse": 36,
     "content": {
-      "text": "“You shall make a screen for the door of the Tent, of blue, and purple, and scarlet, and fine twined linen, the work of the embroiderer.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make a screen for the door of the Tent, of blue, and purple, and scarlet, and fine twined linen, the work of the embroiderer."
     }
   },
   {
@@ -5538,12 +5646,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "“You shall make the altar of acacia wood, five cubits",
         "foot": {
           "type": "stu",
           "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " long, and five cubits wide. The altar shall be square. Its height shall be three cubits.",
@@ -5601,8 +5709,8 @@
     "chapter": 27,
     "verse": 9,
     "content": {
-      "text": "“You shall make the court of the tabernacle: for the south side southward there shall be hangings for the court of fine twined linen one hundred cubits long for one side.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make the court of the tabernacle: for the south side southward there shall be hangings for the court of fine twined linen one hundred cubits long for one side."
     }
   },
   {
@@ -5670,8 +5778,8 @@
     "chapter": 27,
     "verse": 20,
     "content": {
-      "text": "“You shall command the children of Israel, that they bring to you pure olive oil beaten for the light, to cause a lamp to burn continually.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall command the children of Israel, that they bring to you pure olive oil beaten for the light, to cause a lamp to burn continually."
     }
   },
   {
@@ -5685,8 +5793,8 @@
     "chapter": 28,
     "verse": 1,
     "content": {
-      "text": "“Bring Aaron your brother, and his sons with him, near to you from among the children of Israel, that he may minister to me in the priest’s office: Aaron, with Nadab, Abihu, Eleazar, and Ithamar, Aaron’s sons.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Bring Aaron your brother, and his sons with him, near to you from among the children of Israel, that he may minister to me in the priest’s office: Aaron, with Nadab, Abihu, Eleazar, and Ithamar, Aaron’s sons."
     }
   },
   {
@@ -5718,8 +5826,8 @@
     "chapter": 28,
     "verse": 6,
     "content": {
-      "text": "“They shall make the ephod of gold, blue, purple, scarlet, and fine twined linen, the work of the skillful workman.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“They shall make the ephod of gold, blue, purple, scarlet, and fine twined linen, the work of the skillful workman."
     }
   },
   {
@@ -5775,8 +5883,8 @@
     "chapter": 28,
     "verse": 15,
     "content": {
-      "text": "“You shall make a breastplate of judgment, the work of the skillful workman; like the work of the ephod you shall make it; of gold, of blue, and purple, and scarlet, and fine twined linen, you shall make it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make a breastplate of judgment, the work of the skillful workman; like the work of the ephod you shall make it; of gold, of blue, and purple, and scarlet, and fine twined linen, you shall make it."
     }
   },
   {
@@ -5892,8 +6000,8 @@
     "chapter": 28,
     "verse": 31,
     "content": {
-      "text": "“You shall make the robe of the ephod all of blue.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make the robe of the ephod all of blue."
     }
   },
   {
@@ -5925,8 +6033,8 @@
     "chapter": 28,
     "verse": 36,
     "content": {
-      "text": "“You shall make a plate of pure gold, and engrave on it, like the engravings of a signet, ‘HOLY TO YAHWEH.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make a plate of pure gold, and engrave on it, like the engravings of a signet, ‘HOLY TO YAHWEH.’"
     }
   },
   {
@@ -5952,8 +6060,8 @@
     "chapter": 28,
     "verse": 40,
     "content": {
-      "text": "“You shall make tunics for Aaron’s sons. You shall make sashes for them. You shall make headbands for them, for glory and for beauty.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make tunics for Aaron’s sons. You shall make sashes for them. You shall make headbands for them, for glory and for beauty."
     }
   },
   {
@@ -5979,8 +6087,8 @@
     "chapter": 29,
     "verse": 1,
     "content": {
-      "text": "“This is the thing that you shall do to them to make them holy, to minister to me in the priest’s office: take one young bull and two rams without defect,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“This is the thing that you shall do to them to make them holy, to minister to me in the priest’s office: take one young bull and two rams without defect,"
     }
   },
   {
@@ -6036,8 +6144,8 @@
     "chapter": 29,
     "verse": 10,
     "content": {
-      "text": "“You shall bring the bull before the Tent of Meeting; and Aaron and his sons shall lay their hands on the head of the bull.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall bring the bull before the Tent of Meeting; and Aaron and his sons shall lay their hands on the head of the bull."
     }
   },
   {
@@ -6069,8 +6177,8 @@
     "chapter": 29,
     "verse": 15,
     "content": {
-      "text": "“You shall also take the one ram, and Aaron and his sons shall lay their hands on the head of the ram.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall also take the one ram, and Aaron and his sons shall lay their hands on the head of the ram."
     }
   },
   {
@@ -6096,8 +6204,8 @@
     "chapter": 29,
     "verse": 19,
     "content": {
-      "text": "“You shall take the other ram, and Aaron and his sons shall lay their hands on the head of the ram.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall take the other ram, and Aaron and his sons shall lay their hands on the head of the ram."
     }
   },
   {
@@ -6141,8 +6249,8 @@
     "chapter": 29,
     "verse": 26,
     "content": {
-      "text": "“You shall take the breast of Aaron’s ram of consecration, and wave it for a wave offering before Yahweh. It shall be your portion.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall take the breast of Aaron’s ram of consecration, and wave it for a wave offering before Yahweh. It shall be your portion."
     }
   },
   {
@@ -6162,8 +6270,8 @@
     "chapter": 29,
     "verse": 29,
     "content": {
-      "text": "“The holy garments of Aaron shall be for his sons after him, to be anointed in them, and to be consecrated in them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The holy garments of Aaron shall be for his sons after him, to be anointed in them, and to be consecrated in them."
     }
   },
   {
@@ -6177,8 +6285,8 @@
     "chapter": 29,
     "verse": 31,
     "content": {
-      "text": "“You shall take the ram of consecration and boil its meat in a holy place.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall take the ram of consecration and boil its meat in a holy place."
     }
   },
   {
@@ -6204,8 +6312,8 @@
     "chapter": 29,
     "verse": 35,
     "content": {
-      "text": "“You shall do so to Aaron and to his sons, according to all that I have commanded you. You shall consecrate them seven days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall do so to Aaron and to his sons, according to all that I have commanded you. You shall consecrate them seven days."
     }
   },
   {
@@ -6225,8 +6333,8 @@
     "chapter": 29,
     "verse": 38,
     "content": {
-      "text": "“Now this is that which you shall offer on the altar: two lambs a year old day by day continually.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Now this is that which you shall offer on the altar: two lambs a year old day by day continually."
     }
   },
   {
@@ -6298,8 +6406,8 @@
     "chapter": 30,
     "verse": 1,
     "content": {
-      "text": "“You shall make an altar to burn incense on. You shall make it of acacia wood.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make an altar to burn incense on. You shall make it of acacia wood."
     }
   },
   {
@@ -6370,8 +6478,8 @@
     "chapter": 30,
     "verse": 11,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -6434,8 +6542,8 @@
     "chapter": 30,
     "verse": 17,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -6467,8 +6575,8 @@
     "chapter": 30,
     "verse": 22,
     "content": {
-      "text": "Moreover Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moreover Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -6560,8 +6668,8 @@
     "chapter": 30,
     "verse": 34,
     "content": {
-      "text": "Yahweh said to Moses, “Take to yourself sweet spices, gum resin, onycha, and galbanum: sweet spices with pure frankincense. There shall be an equal weight of each.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Take to yourself sweet spices, gum resin, onycha, and galbanum: sweet spices with pure frankincense. There shall be an equal weight of each."
     }
   },
   {
@@ -6593,8 +6701,8 @@
     "chapter": 31,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -6662,8 +6770,8 @@
     "chapter": 31,
     "verse": 12,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -6701,8 +6809,8 @@
     "chapter": 31,
     "verse": 18,
     "content": {
-      "text": "When he finished speaking with him on Mount Sinai, he gave Moses the two tablets of the covenant, stone tablets, written with God’s finger.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When he finished speaking with him on Mount Sinai, he gave Moses the two tablets of the covenant, stone tablets, written with God’s finger."
     }
   },
   {
@@ -6710,8 +6818,8 @@
     "chapter": 32,
     "verse": 1,
     "content": {
-      "text": "When the people saw that Moses delayed coming down from the mountain, the people gathered themselves together to Aaron, and said to him, “Come, make us gods, which shall go before us; for as for this Moses, the man who brought us up out of the land of Egypt, we don’t know what has become of him.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the people saw that Moses delayed coming down from the mountain, the people gathered themselves together to Aaron, and said to him, “Come, make us gods, which shall go before us; for as for this Moses, the man who brought us up out of the land of Egypt, we don’t know what has become of him.”"
     }
   },
   {
@@ -6719,8 +6827,8 @@
     "chapter": 32,
     "verse": 2,
     "content": {
-      "text": "Aaron said to them, “Take off the golden rings, which are in the ears of your wives, of your sons, and of your daughters, and bring them to me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Aaron said to them, “Take off the golden rings, which are in the ears of your wives, of your sons, and of your daughters, and bring them to me.”"
     }
   },
   {
@@ -6728,8 +6836,8 @@
     "chapter": 32,
     "verse": 3,
     "content": {
-      "text": "All the people took off the golden rings which were in their ears, and brought them to Aaron.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the people took off the golden rings which were in their ears, and brought them to Aaron."
     }
   },
   {
@@ -6743,8 +6851,8 @@
     "chapter": 32,
     "verse": 5,
     "content": {
-      "text": "When Aaron saw this, he built an altar before it; and Aaron made a proclamation, and said, “Tomorrow shall be a feast to Yahweh.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Aaron saw this, he built an altar before it; and Aaron made a proclamation, and said, “Tomorrow shall be a feast to Yahweh.”"
     }
   },
   {
@@ -6752,8 +6860,8 @@
     "chapter": 32,
     "verse": 6,
     "content": {
-      "text": "They rose up early on the next day, and offered burnt offerings, and brought peace offerings; and the people sat down to eat and to drink, and rose up to play.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They rose up early on the next day, and offered burnt offerings, and brought peace offerings; and the people sat down to eat and to drink, and rose up to play."
     }
   },
   {
@@ -6761,8 +6869,8 @@
     "chapter": 32,
     "verse": 7,
     "content": {
-      "text": "Yahweh spoke to Moses, “Go, get down; for your people, whom you brought up out of the land of Egypt, have corrupted themselves!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, “Go, get down; for your people, whom you brought up out of the land of Egypt, have corrupted themselves!"
     }
   },
   {
@@ -6776,8 +6884,8 @@
     "chapter": 32,
     "verse": 9,
     "content": {
-      "text": "Yahweh said to Moses, “I have seen these people, and behold, they are a stiff-necked people.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “I have seen these people, and behold, they are a stiff-necked people."
     }
   },
   {
@@ -6791,8 +6899,8 @@
     "chapter": 32,
     "verse": 11,
     "content": {
-      "text": "Moses begged Yahweh his God, and said, “Yahweh, why does your wrath burn hot against your people, that you have brought out of the land of Egypt with great power and with a mighty hand?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses begged Yahweh his God, and said, “Yahweh, why does your wrath burn hot against your people, that you have brought out of the land of Egypt with great power and with a mighty hand?"
     }
   },
   {
@@ -6821,8 +6929,8 @@
     "chapter": 32,
     "verse": 14,
     "content": {
-      "text": "So Yahweh turned away from the evil which he said he would do to his people.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Yahweh turned away from the evil which he said he would do to his people."
     }
   },
   {
@@ -6830,8 +6938,8 @@
     "chapter": 32,
     "verse": 15,
     "content": {
-      "text": "Moses turned, and went down from the mountain, with the two tablets of the covenant in his hand; tablets that were written on both their sides. They were written on one side and on the other.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses turned, and went down from the mountain, with the two tablets of the covenant in his hand; tablets that were written on both their sides. They were written on one side and on the other."
     }
   },
   {
@@ -6845,8 +6953,8 @@
     "chapter": 32,
     "verse": 17,
     "content": {
-      "text": "When Joshua heard the noise of the people as they shouted, he said to Moses, “There is the noise of war in the camp.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Joshua heard the noise of the people as they shouted, he said to Moses, “There is the noise of war in the camp.”"
     }
   },
   {
@@ -6854,8 +6962,8 @@
     "chapter": 32,
     "verse": 18,
     "content": {
-      "text": "He said, “It isn’t the voice of those who shout for victory. It is not the voice of those who cry for being overcome; but the noise of those who sing that I hear.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “It isn’t the voice of those who shout for victory. It is not the voice of those who cry for being overcome; but the noise of those who sing that I hear.”"
     }
   },
   {
@@ -6875,8 +6983,8 @@
     "chapter": 32,
     "verse": 21,
     "content": {
-      "text": "Moses said to Aaron, “What did these people do to you, that you have brought a great sin on them?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Aaron, “What did these people do to you, that you have brought a great sin on them?”"
     }
   },
   {
@@ -6884,8 +6992,8 @@
     "chapter": 32,
     "verse": 22,
     "content": {
-      "text": "Aaron said, “Don’t let the anger of my lord grow hot. You know the people, that they are set on evil.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Aaron said, “Don’t let the anger of my lord grow hot. You know the people, that they are set on evil."
     }
   },
   {
@@ -6905,15 +7013,21 @@
     "chapter": 32,
     "verse": 25,
     "content": {
-      "text": "When Moses saw that the people were out of control, (for Aaron had let them lose control, causing derision among their enemies),",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Moses saw that the people were out of control, (for Aaron had let them lose control, causing derision among their enemies),"
     }
   },
   {
     "book": "EXO",
     "chapter": 32,
     "verse": 26,
-    "content": "then Moses stood in the gate of the camp, and said, “Whoever is on Yahweh’s side, come to me!” All the sons of Levi gathered themselves together to him."
+    "content": [
+      "then Moses stood in the gate of the camp, and said, “Whoever is on Yahweh’s side, come to me!”",
+      {
+        "paragraph": true,
+        "text": "All the sons of Levi gathered themselves together to him."
+      }
+    ]
   },
   {
     "book": "EXO",
@@ -6938,8 +7052,8 @@
     "chapter": 32,
     "verse": 30,
     "content": {
-      "text": "On the next day, Moses said to the people, “You have sinned a great sin. Now I will go up to Yahweh. Perhaps I shall make atonement for your sin.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the next day, Moses said to the people, “You have sinned a great sin. Now I will go up to Yahweh. Perhaps I shall make atonement for your sin.”"
     }
   },
   {
@@ -6947,8 +7061,8 @@
     "chapter": 32,
     "verse": 31,
     "content": {
-      "text": "Moses returned to Yahweh, and said, “Oh, this people have sinned a great sin, and have made themselves gods of gold.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses returned to Yahweh, and said, “Oh, this people have sinned a great sin, and have made themselves gods of gold."
     }
   },
   {
@@ -6962,8 +7076,8 @@
     "chapter": 32,
     "verse": 33,
     "content": {
-      "text": "Yahweh said to Moses, “Whoever has sinned against me, I will blot him out of my book.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Whoever has sinned against me, I will blot him out of my book."
     }
   },
   {
@@ -6983,8 +7097,8 @@
     "chapter": 33,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, “Depart, go up from here, you and the people that you have brought up out of the land of Egypt, to the land of which I swore to Abraham, to Isaac, and to Jacob, saying, ‘I will give it to your offspring.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, “Depart, go up from here, you and the people that you have brought up out of the land of Egypt, to the land of which I swore to Abraham, to Isaac, and to Jacob, saying, ‘I will give it to your offspring.’"
     }
   },
   {
@@ -7004,8 +7118,8 @@
     "chapter": 33,
     "verse": 4,
     "content": {
-      "text": "When the people heard this evil news, they mourned; and no one put on his jewelry.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the people heard this evil news, they mourned; and no one put on his jewelry."
     }
   },
   {
@@ -7013,8 +7127,8 @@
     "chapter": 33,
     "verse": 5,
     "content": {
-      "text": "Yahweh had said to Moses, “Tell the children of Israel, ‘You are a stiff-necked people. If I were to go up among you for one moment, I would consume you. Therefore now take off your jewelry from you, that I may know what to do to you.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh had said to Moses, “Tell the children of Israel, ‘You are a stiff-necked people. If I were to go up among you for one moment, I would consume you. Therefore now take off your jewelry from you, that I may know what to do to you.’ ”"
     }
   },
   {
@@ -7022,8 +7136,8 @@
     "chapter": 33,
     "verse": 6,
     "content": {
-      "text": "The children of Israel stripped themselves of their jewelry from Mount Horeb onward.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel stripped themselves of their jewelry from Mount Horeb onward."
     }
   },
   {
@@ -7031,8 +7145,8 @@
     "chapter": 33,
     "verse": 7,
     "content": {
-      "text": "Now Moses used to take the tent and pitch it outside the camp, far away from the camp, and he called it “The Tent of Meeting.” Everyone who sought Yahweh went out to the Tent of Meeting, which was outside the camp.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Moses used to take the tent and pitch it outside the camp, far away from the camp, and he called it “The Tent of Meeting.” Everyone who sought Yahweh went out to the Tent of Meeting, which was outside the camp."
     }
   },
   {
@@ -7064,8 +7178,8 @@
     "chapter": 33,
     "verse": 12,
     "content": {
-      "text": "Moses said to Yahweh, “Behold, you tell me, ‘Bring up this people;’ and you haven’t let me know whom you will send with me. Yet you have said, ‘I know you by name, and you have also found favor in my sight.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Yahweh, “Behold, you tell me, ‘Bring up this people;’ and you haven’t let me know whom you will send with me. Yet you have said, ‘I know you by name, and you have also found favor in my sight.’"
     }
   },
   {
@@ -7079,8 +7193,8 @@
     "chapter": 33,
     "verse": 14,
     "content": {
-      "text": "He said, “My presence will go with you, and I will give you rest.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “My presence will go with you, and I will give you rest.”"
     }
   },
   {
@@ -7088,8 +7202,8 @@
     "chapter": 33,
     "verse": 15,
     "content": {
-      "text": "Moses said to him, “If your presence doesn’t go with me, don’t carry us up from here.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to him, “If your presence doesn’t go with me, don’t carry us up from here."
     }
   },
   {
@@ -7103,8 +7217,8 @@
     "chapter": 33,
     "verse": 17,
     "content": {
-      "text": "Yahweh said to Moses, “I will do this thing also that you have spoken; for you have found favor in my sight, and I know you by name.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “I will do this thing also that you have spoken; for you have found favor in my sight, and I know you by name.”"
     }
   },
   {
@@ -7112,8 +7226,8 @@
     "chapter": 33,
     "verse": 18,
     "content": {
-      "text": "Moses said, “Please show me your glory.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “Please show me your glory.”"
     }
   },
   {
@@ -7121,8 +7235,8 @@
     "chapter": 33,
     "verse": 19,
     "content": {
-      "text": "He said, “I will make all my goodness pass before you, and will proclaim Yahweh’s name before you. I will be gracious to whom I will be gracious, and will show mercy on whom I will show mercy.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “I will make all my goodness pass before you, and will proclaim Yahweh’s name before you. I will be gracious to whom I will be gracious, and will show mercy on whom I will show mercy.”"
     }
   },
   {
@@ -7154,8 +7268,8 @@
     "chapter": 34,
     "verse": 1,
     "content": {
-      "text": "Yahweh said to Moses, “Chisel two stone tablets like the first. I will write on the tablets the words that were on the first tablets, which you broke.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Chisel two stone tablets like the first. I will write on the tablets the words that were on the first tablets, which you broke."
     }
   },
   {
@@ -7175,8 +7289,8 @@
     "chapter": 34,
     "verse": 4,
     "content": {
-      "text": "He chiseled two tablets of stone like the first; then Moses rose up early in the morning, and went up to Mount Sinai, as Yahweh had commanded him, and took in his hand two stone tablets.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He chiseled two tablets of stone like the first; then Moses rose up early in the morning, and went up to Mount Sinai, as Yahweh had commanded him, and took in his hand two stone tablets."
     }
   },
   {
@@ -7202,8 +7316,8 @@
     "chapter": 34,
     "verse": 8,
     "content": {
-      "text": "Moses hurried and bowed his head toward the earth, and worshiped.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses hurried and bowed his head toward the earth, and worshiped."
     }
   },
   {
@@ -7217,8 +7331,8 @@
     "chapter": 34,
     "verse": 10,
     "content": {
-      "text": "He said, “Behold, I make a covenant: before all your people I will do marvels, such as have not been worked in all the earth, nor in any nation; and all the people among whom you are shall see the work of Yahweh; for it is an awesome thing that I do with you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “Behold, I make a covenant: before all your people I will do marvels, such as have not been worked in all the earth, nor in any nation; and all the people among whom you are shall see the work of Yahweh; for it is an awesome thing that I do with you."
     }
   },
   {
@@ -7250,8 +7364,8 @@
     "chapter": 34,
     "verse": 15,
     "content": {
-      "text": "“Don’t make a covenant with the inhabitants of the land, lest they play the prostitute after their gods, and sacrifice to their gods, and one call you and you eat of his sacrifice;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Don’t make a covenant with the inhabitants of the land, lest they play the prostitute after their gods, and sacrifice to their gods, and one call you and you eat of his sacrifice;"
     }
   },
   {
@@ -7265,8 +7379,8 @@
     "chapter": 34,
     "verse": 17,
     "content": {
-      "text": "“You shall make no cast idols for yourselves.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall make no cast idols for yourselves."
     }
   },
   {
@@ -7274,8 +7388,8 @@
     "chapter": 34,
     "verse": 18,
     "content": {
-      "text": "“You shall keep the feast of unleavened bread. Seven days you shall eat unleavened bread, as I commanded you, at the time appointed in the month Abib; for in the month Abib you came out of Egypt.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall keep the feast of unleavened bread. Seven days you shall eat unleavened bread, as I commanded you, at the time appointed in the month Abib; for in the month Abib you came out of Egypt."
     }
   },
   {
@@ -7283,8 +7397,8 @@
     "chapter": 34,
     "verse": 19,
     "content": {
-      "text": "“All that opens the womb is mine; and all your livestock that is male, the firstborn of cow and sheep.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“All that opens the womb is mine; and all your livestock that is male, the firstborn of cow and sheep."
     }
   },
   {
@@ -7298,8 +7412,8 @@
     "chapter": 34,
     "verse": 21,
     "content": {
-      "text": "“Six days you shall work, but on the seventh day you shall rest: in plowing time and in harvest you shall rest.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Six days you shall work, but on the seventh day you shall rest: in plowing time and in harvest you shall rest."
     }
   },
   {
@@ -7307,8 +7421,8 @@
     "chapter": 34,
     "verse": 22,
     "content": {
-      "text": "“You shall observe the feast of weeks with the first fruits of wheat harvest, and the feast of harvest at the year’s end.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall observe the feast of weeks with the first fruits of wheat harvest, and the feast of harvest at the year’s end."
     }
   },
   {
@@ -7328,26 +7442,32 @@
     "chapter": 34,
     "verse": 25,
     "content": {
-      "text": "“You shall not offer the blood of my sacrifice with leavened bread. The sacrifice of the feast of the Passover shall not be left to the morning.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not offer the blood of my sacrifice with leavened bread. The sacrifice of the feast of the Passover shall not be left to the morning."
     }
   },
   {
     "book": "EXO",
     "chapter": 34,
     "verse": 26,
-    "content": {
-      "text": "“You shall bring the first of the first fruits of your ground to the house of Yahweh your God. “You shall not boil a young goat in its mother’s milk.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "“You shall bring the first of the first fruits of your ground to the house of Yahweh your God."
+      },
+      {
+        "paragraph": true,
+        "text": "“You shall not boil a young goat in its mother’s milk.”"
+      }
+    ]
   },
   {
     "book": "EXO",
     "chapter": 34,
     "verse": 27,
     "content": {
-      "text": "Yahweh said to Moses, “Write these words; for in accordance with these words I have made a covenant with you and with Israel.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Write these words; for in accordance with these words I have made a covenant with you and with Israel.”"
     }
   },
   {
@@ -7355,8 +7475,8 @@
     "chapter": 34,
     "verse": 28,
     "content": {
-      "text": "He was there with Yahweh forty days and forty nights; he neither ate bread, nor drank water. He wrote on the tablets the words of the covenant, the ten commandments.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He was there with Yahweh forty days and forty nights; he neither ate bread, nor drank water. He wrote on the tablets the words of the covenant, the ten commandments."
     }
   },
   {
@@ -7364,8 +7484,8 @@
     "chapter": 34,
     "verse": 29,
     "content": {
-      "text": "When Moses came down from Mount Sinai with the two tablets of the covenant in Moses’ hand, when he came down from the mountain, Moses didn’t know that the skin of his face shone by reason of his speaking with him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Moses came down from Mount Sinai with the two tablets of the covenant in Moses’ hand, when he came down from the mountain, Moses didn’t know that the skin of his face shone by reason of his speaking with him."
     }
   },
   {
@@ -7409,8 +7529,8 @@
     "chapter": 35,
     "verse": 1,
     "content": {
-      "text": "Moses assembled all the congregation of the children of Israel, and said to them, “These are the words which Yahweh has commanded, that you should do them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses assembled all the congregation of the children of Israel, and said to them, “These are the words which Yahweh has commanded, that you should do them."
     }
   },
   {
@@ -7430,8 +7550,8 @@
     "chapter": 35,
     "verse": 4,
     "content": {
-      "text": "Moses spoke to all the congregation of the children of Israel, saying, “This is the thing which Yahweh commanded, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses spoke to all the congregation of the children of Israel, saying, “This is the thing which Yahweh commanded, saying,"
     }
   },
   {
@@ -7469,8 +7589,8 @@
     "chapter": 35,
     "verse": 10,
     "content": {
-      "text": "“ ‘Let every wise-hearted man among you come, and make all that Yahweh has commanded:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘Let every wise-hearted man among you come, and make all that Yahweh has commanded:"
     }
   },
   {
@@ -7532,8 +7652,8 @@
     "chapter": 35,
     "verse": 20,
     "content": {
-      "text": "All the congregation of the children of Israel departed from the presence of Moses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the congregation of the children of Israel departed from the presence of Moses."
     }
   },
   {
@@ -7595,8 +7715,8 @@
     "chapter": 35,
     "verse": 30,
     "content": {
-      "text": "Moses said to the children of Israel, “Behold, Yahweh has called by name Bezalel the son of Uri, the son of Hur, of the tribe of Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to the children of Israel, “Behold, Yahweh has called by name Bezalel the son of Uri, the son of Hur, of the tribe of Judah."
     }
   },
   {
@@ -7634,8 +7754,8 @@
     "chapter": 36,
     "verse": 1,
     "content": {
-      "text": "“Bezalel and Oholiab shall work with every wise-hearted man, in whom Yahweh has put wisdom and understanding to know how to do all the work for the service of the sanctuary, according to all that Yahweh has commanded.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Bezalel and Oholiab shall work with every wise-hearted man, in whom Yahweh has put wisdom and understanding to know how to do all the work for the service of the sanctuary, according to all that Yahweh has commanded.”"
     }
   },
   {
@@ -7643,8 +7763,8 @@
     "chapter": 36,
     "verse": 2,
     "content": {
-      "text": "Moses called Bezalel and Oholiab, and every wise-hearted man, in whose heart Yahweh had put wisdom, even everyone whose heart stirred him up to come to the work to do it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses called Bezalel and Oholiab, and every wise-hearted man, in whose heart Yahweh had put wisdom, even everyone whose heart stirred him up to come to the work to do it."
     }
   },
   {
@@ -7670,8 +7790,8 @@
     "chapter": 36,
     "verse": 6,
     "content": {
-      "text": "Moses gave a commandment, and they caused it to be proclaimed throughout the camp, saying, “Let neither man nor woman make anything else for the offering for the sanctuary.” So the people were restrained from bringing.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses gave a commandment, and they caused it to be proclaimed throughout the camp, saying, “Let neither man nor woman make anything else for the offering for the sanctuary.” So the people were restrained from bringing."
     }
   },
   {
@@ -7685,8 +7805,8 @@
     "chapter": 36,
     "verse": 8,
     "content": {
-      "text": "All the wise-hearted men among those who did the work made the tabernacle with ten curtains of fine twined linen, blue, purple, and scarlet. They made them with cherubim, the work of a skillful workman.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the wise-hearted men among those who did the work made the tabernacle with ten curtains of fine twined linen, blue, purple, and scarlet. They made them with cherubim, the work of a skillful workman."
     }
   },
   {
@@ -7733,8 +7853,8 @@
     "chapter": 36,
     "verse": 14,
     "content": {
-      "text": "He made curtains of goats’ hair for a covering over the tabernacle. He made them eleven curtains.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made curtains of goats’ hair for a covering over the tabernacle. He made them eleven curtains."
     }
   },
   {
@@ -7772,8 +7892,8 @@
     "chapter": 36,
     "verse": 20,
     "content": {
-      "text": "He made the boards for the tabernacle of acacia wood, standing up.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the boards for the tabernacle of acacia wood, standing up."
     }
   },
   {
@@ -7841,8 +7961,8 @@
     "chapter": 36,
     "verse": 31,
     "content": {
-      "text": "He made bars of acacia wood: five for the boards of the one side of the tabernacle,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made bars of acacia wood: five for the boards of the one side of the tabernacle,"
     }
   },
   {
@@ -7868,8 +7988,8 @@
     "chapter": 36,
     "verse": 35,
     "content": {
-      "text": "He made the veil of blue, purple, scarlet, and fine twined linen, with cherubim. He made it the work of a skillful workman.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the veil of blue, purple, scarlet, and fine twined linen, with cherubim. He made it the work of a skillful workman."
     }
   },
   {
@@ -7896,12 +8016,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Bezalel made the ark of acacia wood. Its length was two and a half cubits,",
         "foot": {
           "type": "stu",
           "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
-        },
-        "paragraph": true
+        }
       },
       " and its width a cubit and a half, and a cubit and a half its height."
     ]
@@ -7959,8 +8079,8 @@
     "chapter": 37,
     "verse": 10,
     "content": {
-      "text": "He made the table of acacia wood. Its length was two cubits, and its width was a cubit, and its height was a cubit and a half.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the table of acacia wood. Its length was two cubits, and its width was a cubit, and its height was a cubit and a half."
     }
   },
   {
@@ -8004,8 +8124,8 @@
     "chapter": 37,
     "verse": 17,
     "content": {
-      "text": "He made the lamp stand of pure gold. He made the lamp stand of beaten work. Its base, its shaft, its cups, its buds, and its flowers were of one piece with it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the lamp stand of pure gold. He made the lamp stand of beaten work. Its base, its shaft, its cups, its buds, and its flowers were of one piece with it."
     }
   },
   {
@@ -8064,8 +8184,8 @@
     "chapter": 37,
     "verse": 25,
     "content": {
-      "text": "He made the altar of incense of acacia wood. It was square: its length was a cubit, and its width a cubit. Its height was two cubits. Its horns were of one piece with it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the altar of incense of acacia wood. It was square: its length was a cubit, and its width a cubit. Its height was two cubits. Its horns were of one piece with it."
     }
   },
   {
@@ -8098,12 +8218,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "He made the altar of burnt offering of acacia wood. It was square. Its length was five cubits,",
         "foot": {
           "type": "stu",
           "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
-        },
-        "paragraph": true
+        }
       },
       " its width was five cubits, and its height was three cubits."
     ]
@@ -8149,8 +8269,8 @@
     "chapter": 38,
     "verse": 8,
     "content": {
-      "text": "He made the basin of bronze, and its base of bronze, out of the mirrors of the ministering women who ministered at the door of the Tent of Meeting.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the basin of bronze, and its base of bronze, out of the mirrors of the ministering women who ministered at the door of the Tent of Meeting."
     }
   },
   {
@@ -8158,8 +8278,8 @@
     "chapter": 38,
     "verse": 9,
     "content": {
-      "text": "He made the court: for the south side southward the hangings of the court were of fine twined linen, one hundred cubits;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the court: for the south side southward the hangings of the court were of fine twined linen, one hundred cubits;"
     }
   },
   {
@@ -8233,8 +8353,8 @@
     "chapter": 38,
     "verse": 21,
     "content": {
-      "text": "These are the amounts of materials used for the tabernacle, even the Tabernacle of the Testimony, as they were counted, according to the commandment of Moses, for the service of the Levites, by the hand of Ithamar, the son of Aaron the priest.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are the amounts of materials used for the tabernacle, even the Tabernacle of the Testimony, as they were counted, according to the commandment of Moses, for the service of the Levites, by the hand of Ithamar, the son of Aaron the priest."
     }
   },
   {
@@ -8255,12 +8375,12 @@
     "verse": 24,
     "content": [
       {
+        "paragraph": true,
         "text": "All the gold that was used for the work in all the work of the sanctuary, even the gold of the offering, was twenty-nine talents",
         "foot": {
           "type": "stu",
           "content": "A talent is about 30 kilograms or 66 pounds or 965 Troy ounces."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " and seven hundred thirty shekels, according to the shekel",
@@ -8384,8 +8504,8 @@
     "chapter": 39,
     "verse": 1,
     "content": {
-      "text": "Of the blue, purple, and scarlet, they made finely worked garments for ministering in the holy place, and made the holy garments for Aaron, as Yahweh commanded Moses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the blue, purple, and scarlet, they made finely worked garments for ministering in the holy place, and made the holy garments for Aaron, as Yahweh commanded Moses."
     }
   },
   {
@@ -8393,8 +8513,8 @@
     "chapter": 39,
     "verse": 2,
     "content": {
-      "text": "He made the ephod of gold, blue, purple, scarlet, and fine twined linen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the ephod of gold, blue, purple, scarlet, and fine twined linen."
     }
   },
   {
@@ -8420,8 +8540,8 @@
     "chapter": 39,
     "verse": 6,
     "content": {
-      "text": "They worked the onyx stones, enclosed in settings of gold, engraved with the engravings of a signet, according to the names of the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They worked the onyx stones, enclosed in settings of gold, engraved with the engravings of a signet, according to the names of the children of Israel."
     }
   },
   {
@@ -8435,8 +8555,8 @@
     "chapter": 39,
     "verse": 8,
     "content": {
-      "text": "He made the breastplate, the work of a skillful workman, like the work of the ephod: of gold, of blue, purple, scarlet, and fine twined linen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the breastplate, the work of a skillful workman, like the work of the ephod: of gold, of blue, purple, scarlet, and fine twined linen."
     }
   },
   {
@@ -8540,8 +8660,8 @@
     "chapter": 39,
     "verse": 22,
     "content": {
-      "text": "He made the robe of the ephod of woven work, all of blue.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He made the robe of the ephod of woven work, all of blue."
     }
   },
   {
@@ -8573,8 +8693,8 @@
     "chapter": 39,
     "verse": 27,
     "content": {
-      "text": "They made the tunics of fine linen of woven work for Aaron and for his sons,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They made the tunics of fine linen of woven work for Aaron and for his sons,"
     }
   },
   {
@@ -8594,8 +8714,8 @@
     "chapter": 39,
     "verse": 30,
     "content": {
-      "text": "They made the plate of the holy crown of pure gold, and wrote on it an inscription, like the engravings of a signet: “HOLY TO YAHWEH”.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They made the plate of the holy crown of pure gold, and wrote on it an inscription, like the engravings of a signet: “HOLY TO YAHWEH”."
     }
   },
   {
@@ -8609,8 +8729,8 @@
     "chapter": 39,
     "verse": 32,
     "content": {
-      "text": "Thus all the work of the tabernacle of the Tent of Meeting was finished. The children of Israel did according to all that Yahweh commanded Moses; so they did.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus all the work of the tabernacle of the Tent of Meeting was finished. The children of Israel did according to all that Yahweh commanded Moses; so they did."
     }
   },
   {
@@ -8684,8 +8804,8 @@
     "chapter": 40,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -8717,8 +8837,8 @@
     "chapter": 40,
     "verse": 6,
     "content": {
-      "text": "“You shall set the altar of burnt offering before the door of the tabernacle of the Tent of Meeting.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall set the altar of burnt offering before the door of the tabernacle of the Tent of Meeting."
     }
   },
   {
@@ -8738,8 +8858,8 @@
     "chapter": 40,
     "verse": 9,
     "content": {
-      "text": "“You shall take the anointing oil, and anoint the tabernacle and all that is in it, and shall make it holy, and all its furniture, and it will be holy.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall take the anointing oil, and anoint the tabernacle and all that is in it, and shall make it holy, and all its furniture, and it will be holy."
     }
   },
   {
@@ -8759,8 +8879,8 @@
     "chapter": 40,
     "verse": 12,
     "content": {
-      "text": "“You shall bring Aaron and his sons to the door of the Tent of Meeting, and shall wash them with water.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall bring Aaron and his sons to the door of the Tent of Meeting, and shall wash them with water."
     }
   },
   {
@@ -8792,8 +8912,8 @@
     "chapter": 40,
     "verse": 17,
     "content": {
-      "text": "In the first month in the second year, on the first day of the month, the tabernacle was raised up.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the first month in the second year, on the first day of the month, the tabernacle was raised up."
     }
   },
   {
@@ -8897,8 +9017,8 @@
     "chapter": 40,
     "verse": 34,
     "content": {
-      "text": "Then the cloud covered the Tent of Meeting, and Yahweh’s glory filled the tabernacle.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the cloud covered the Tent of Meeting, and Yahweh’s glory filled the tabernacle."
     }
   },
   {

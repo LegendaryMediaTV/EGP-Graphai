@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
     }
   },
   {
@@ -53,8 +53,8 @@
     "chapter": 1,
     "verse": 6,
     "content": {
-      "text": "There came a man sent from God, whose name was John.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "There came a man sent from God, whose name was John."
     }
   },
   {
@@ -80,8 +80,8 @@
     "chapter": 1,
     "verse": 10,
     "content": {
-      "text": "He was in the world, and the world was made through him, and the world didn’t recognize him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He was in the world, and the world was made through him, and the world didn’t recognize him."
     }
   },
   {
@@ -108,6 +108,7 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "The Word became flesh and lived among us. We saw his glory, such glory as of the only born",
         "foot": {
           "type": "trn",
@@ -119,8 +120,7 @@
             },
             "”, which is sometimes translated “only begotten” or “one and only”."
           ]
-        },
-        "paragraph": true
+        }
       },
       " Son of the Father, full of grace and truth."
     ]
@@ -183,8 +183,8 @@
     "chapter": 1,
     "verse": 19,
     "content": {
-      "text": "This is John’s testimony, when the Jews sent priests and Levites from Jerusalem to ask him, “Who are you?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This is John’s testimony, when the Jews sent priests and Levites from Jerusalem to ask him, “Who are you?”"
     }
   },
   {
@@ -192,26 +192,40 @@
     "chapter": 1,
     "verse": 20,
     "content": {
-      "text": "He declared, and didn’t deny, but he declared, “I am not the Christ.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He declared, and didn’t deny, but he declared, “I am not the Christ.”"
     }
   },
   {
     "book": "JHN",
     "chapter": 1,
     "verse": 21,
-    "content": {
-      "text": "They asked him, “What then? Are you Elijah?” He said, “I am not.” “Are you the prophet?” He answered, “No.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "They asked him, “What then? Are you Elijah?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “I am not.”"
+      },
+      {
+        "paragraph": true,
+        "text": "“Are you the prophet?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He answered, “No.”"
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 1,
     "verse": 22,
     "content": {
-      "text": "They said therefore to him, “Who are you? Give us an answer to take back to those who sent us. What do you say about yourself?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They said therefore to him, “Who are you? Give us an answer to take back to those who sent us. What do you say about yourself?”"
     }
   },
   {
@@ -220,12 +234,12 @@
     "verse": 23,
     "content": [
       {
+        "paragraph": true,
         "text": "He said, “I am the voice of one crying in the wilderness, ‘Make straight the way of the Lord,’",
         "foot": {
           "type": "xrf",
           "content": "Isaiah 40:3"
-        },
-        "paragraph": true
+        }
       },
       " as Isaiah the prophet said.”"
     ]
@@ -235,8 +249,8 @@
     "chapter": 1,
     "verse": 24,
     "content": {
-      "text": "The ones who had been sent were from the Pharisees.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The ones who had been sent were from the Pharisees."
     }
   },
   {
@@ -250,8 +264,8 @@
     "chapter": 1,
     "verse": 26,
     "content": {
-      "text": "John answered them, “I baptize in water, but among you stands one whom you don’t know.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "John answered them, “I baptize in water, but among you stands one whom you don’t know."
     }
   },
   {
@@ -272,6 +286,7 @@
     "verse": 29,
     "content": [
       {
+        "paragraph": true,
         "text": "The next day, he saw Jesus coming to him, and said, “Behold,",
         "foot": {
           "type": "trn",
@@ -283,8 +298,7 @@
             },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
-        },
-        "paragraph": true
+        }
       },
       " the Lamb of God, who takes away the sin of the world!"
     ]
@@ -324,8 +338,8 @@
     "chapter": 1,
     "verse": 35,
     "content": {
-      "text": "Again, the next day, John was standing with two of his disciples,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Again, the next day, John was standing with two of his disciples,"
     }
   },
   {
@@ -345,12 +359,15 @@
     "chapter": 1,
     "verse": 38,
     "content": [
-      "Jesus turned and saw them following, and said to them,",
+      "Jesus turned and saw them following, and said to them, ",
       {
-        "text": " “What are you looking for?”",
+        "text": "“What are you looking for?”",
         "marks": ["woc"]
       },
-      " They said to him, “Rabbi” (which is to say, being interpreted, Teacher), “where are you staying?”"
+      {
+        "paragraph": true,
+        "text": "They said to him, “Rabbi” (which is to say, being interpreted, Teacher), “where are you staying?”"
+      }
     ]
   },
   {
@@ -359,15 +376,16 @@
     "verse": 39,
     "content": [
       {
-        "text": "He said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "He said to them, "
       },
       {
-        "text": " “Come and see.”",
+        "text": "“Come and see.”",
         "marks": ["woc"]
       },
       {
-        "text": " They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.",
+        "paragraph": true,
+        "text": "They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.",
         "foot": {
           "type": "stu",
           "content": "4:00 p.m."
@@ -401,9 +419,9 @@
     "chapter": 1,
     "verse": 42,
     "content": [
-      "He brought him to Jesus. Jesus looked at him and said,",
+      "He brought him to Jesus. Jesus looked at him and said, ",
       {
-        "text": " “You are Simon the son of Jonah. You shall be called Cephas”",
+        "text": "“You are Simon the son of Jonah. You shall be called Cephas”",
         "marks": ["woc"]
       },
       {
@@ -421,11 +439,11 @@
     "verse": 43,
     "content": [
       {
-        "text": "On the next day, he was determined to go out into Galilee, and he found Philip. Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "On the next day, he was determined to go out into Galilee, and he found Philip. Jesus said to him, "
       },
       {
-        "text": " “Follow me.”",
+        "text": "“Follow me.”",
         "marks": ["woc"]
       }
     ]
@@ -446,10 +464,16 @@
     "book": "JHN",
     "chapter": 1,
     "verse": 46,
-    "content": {
-      "text": "Nathanael said to him, “Can any good thing come out of Nazareth?” Philip said to him, “Come and see.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Nathanael said to him, “Can any good thing come out of Nazareth?”"
+      },
+      {
+        "paragraph": true,
+        "text": "Philip said to him, “Come and see.”"
+      }
+    ]
   },
   {
     "book": "JHN",
@@ -457,11 +481,11 @@
     "verse": 47,
     "content": [
       {
-        "text": "Jesus saw Nathanael coming to him, and said about him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus saw Nathanael coming to him, and said about him, "
       },
       {
-        "text": " “Behold, an Israelite indeed, in whom is no deceit!”",
+        "text": "“Behold, an Israelite indeed, in whom is no deceit!”",
         "marks": ["woc"]
       }
     ]
@@ -472,11 +496,15 @@
     "verse": 48,
     "content": [
       {
-        "text": "Nathanael said to him, “How do you know me?” Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Nathanael said to him, “How do you know me?”"
       },
       {
-        "text": " “Before Philip called you, when you were under the fig tree, I saw you.”",
+        "paragraph": true,
+        "text": "Jesus answered him, "
+      },
+      {
+        "text": "“Before Philip called you, when you were under the fig tree, I saw you.”",
         "marks": ["woc"]
       }
     ]
@@ -486,8 +514,8 @@
     "chapter": 1,
     "verse": 49,
     "content": {
-      "text": "Nathanael answered him, “Rabbi, you are the Son of God! You are King of Israel!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Nathanael answered him, “Rabbi, you are the Son of God! You are King of Israel!”"
     }
   },
   {
@@ -496,11 +524,11 @@
     "verse": 50,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “Because I told you, ‘I saw you underneath the fig tree,’ do you believe? You will see greater things than these!”",
+        "text": "“Because I told you, ‘I saw you underneath the fig tree,’ do you believe? You will see greater things than these!”",
         "marks": ["woc"]
       }
     ]
@@ -510,9 +538,9 @@
     "chapter": 1,
     "verse": 51,
     "content": [
-      "He said to him,",
+      "He said to him, ",
       {
-        "text": " “Most certainly, I tell you all, hereafter you will see heaven opened, and the angels of God ascending and descending on the Son of Man.”",
+        "text": "“Most certainly, I tell you all, hereafter you will see heaven opened, and the angels of God ascending and descending on the Son of Man.”",
         "marks": ["woc"]
       }
     ]
@@ -522,8 +550,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "The third day, there was a wedding in Cana of Galilee. Jesus’ mother was there.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The third day, there was a wedding in Cana of Galilee. Jesus’ mother was there."
     }
   },
   {
@@ -544,11 +572,11 @@
     "verse": 4,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “Woman, what does that have to do with you and me? My hour has not yet come.”",
+        "text": "“Woman, what does that have to do with you and me? My hour has not yet come.”",
         "marks": ["woc"]
       }
     ]
@@ -558,8 +586,8 @@
     "chapter": 2,
     "verse": 5,
     "content": {
-      "text": "His mother said to the servants, “Whatever he says to you, do it.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "His mother said to the servants, “Whatever he says to you, do it.”"
     }
   },
   {
@@ -568,12 +596,12 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "Now there were six water pots of stone set there after the Jews’ way of purifying, containing two or three metretes",
         "foot": {
           "type": "stu",
           "content": "2 to 3 metretes is about 20 to 30 U. S. Gallons, or 75 to 115 liters."
-        },
-        "paragraph": true
+        }
       },
       " apiece."
     ]
@@ -583,9 +611,9 @@
     "chapter": 2,
     "verse": 7,
     "content": [
-      "Jesus said to them,",
+      "Jesus said to them, ",
       {
-        "text": " “Fill the water pots with water.”",
+        "text": "“Fill the water pots with water.”",
         "marks": ["woc"]
       },
       " So they filled them up to the brim."
@@ -596,9 +624,9 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      "He said to them,",
+      "He said to them, ",
       {
-        "text": " “Now draw some out, and take it to the ruler of the feast.”",
+        "text": "“Now draw some out, and take it to the ruler of the feast.”",
         "marks": ["woc"]
       },
       " So they took it."
@@ -627,8 +655,8 @@
     "chapter": 2,
     "verse": 12,
     "content": {
-      "text": "After this, he went down to Capernaum, he, and his mother, his brothers, and his disciples; and they stayed there a few days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After this, he went down to Capernaum, he, and his mother, his brothers, and his disciples; and they stayed there a few days."
     }
   },
   {
@@ -636,8 +664,8 @@
     "chapter": 2,
     "verse": 13,
     "content": {
-      "text": "The Passover of the Jews was at hand, and Jesus went up to Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Passover of the Jews was at hand, and Jesus went up to Jerusalem."
     }
   },
   {
@@ -657,9 +685,9 @@
     "chapter": 2,
     "verse": 16,
     "content": [
-      "To those who sold the doves, he said,",
+      "To those who sold the doves, he said, ",
       {
-        "text": " “Take these things out of here! Don’t make my Father’s house a marketplace!”",
+        "text": "“Take these things out of here! Don’t make my Father’s house a marketplace!”",
         "marks": ["woc"]
       }
     ]
@@ -681,8 +709,8 @@
     "chapter": 2,
     "verse": 18,
     "content": {
-      "text": "The Jews therefore answered him, “What sign do you show us, seeing that you do these things?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews therefore answered him, “What sign do you show us, seeing that you do these things?”"
     }
   },
   {
@@ -691,11 +719,11 @@
     "verse": 19,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “Destroy this temple, and in three days I will raise it up.”",
+        "text": "“Destroy this temple, and in three days I will raise it up.”",
         "marks": ["woc"]
       }
     ]
@@ -705,8 +733,8 @@
     "chapter": 2,
     "verse": 20,
     "content": {
-      "text": "The Jews therefore said, “It took forty-six years to build this temple! Will you raise it up in three days?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews therefore said, “It took forty-six years to build this temple! Will you raise it up in three days?”"
     }
   },
   {
@@ -726,8 +754,8 @@
     "chapter": 2,
     "verse": 23,
     "content": {
-      "text": "Now when he was in Jerusalem at the Passover, during the feast, many believed in his name, observing his signs which he did.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now when he was in Jerusalem at the Passover, during the feast, many believed in his name, observing his signs which he did."
     }
   },
   {
@@ -747,8 +775,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Now there was a man of the Pharisees named Nicodemus, a ruler of the Jews.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now there was a man of the Pharisees named Nicodemus, a ruler of the Jews."
     }
   },
   {
@@ -763,11 +791,11 @@
     "verse": 3,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “Most certainly I tell you, unless one is born anew,",
+        "text": "“Most certainly I tell you, unless one is born anew,",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
@@ -781,8 +809,9 @@
           ]
         }
       },
+      " ",
       {
-        "text": " he can’t see God’s Kingdom.”",
+        "text": "he can’t see God’s Kingdom.”",
         "marks": ["woc"]
       }
     ]
@@ -792,8 +821,8 @@
     "chapter": 3,
     "verse": 4,
     "content": {
-      "text": "Nicodemus said to him, “How can a man be born when he is old? Can he enter a second time into his mother’s womb and be born?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Nicodemus said to him, “How can a man be born when he is old? Can he enter a second time into his mother’s womb and be born?”"
     }
   },
   {
@@ -802,11 +831,11 @@
     "verse": 5,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “Most certainly I tell you, unless one is born of water and Spirit, he can’t enter into God’s Kingdom.",
+        "text": "“Most certainly I tell you, unless one is born of water and Spirit, he can’t enter into God’s Kingdom.",
         "marks": ["woc"]
       }
     ]
@@ -849,8 +878,9 @@
           ]
         }
       },
+      " ",
       {
-        "text": " blows where it wants to, and you hear its sound, but don’t know where it comes from and where it is going. So is everyone who is born of the Spirit.”",
+        "text": "blows where it wants to, and you hear its sound, but don’t know where it comes from and where it is going. So is everyone who is born of the Spirit.”",
         "marks": ["woc"]
       }
     ]
@@ -860,8 +890,8 @@
     "chapter": 3,
     "verse": 9,
     "content": {
-      "text": "Nicodemus answered him, “How can these things be?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Nicodemus answered him, “How can these things be?”"
     }
   },
   {
@@ -870,11 +900,11 @@
     "verse": 10,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “Are you the teacher of Israel, and don’t understand these things?",
+        "text": "“Are you the teacher of Israel, and don’t understand these things?",
         "marks": ["woc"]
       }
     ]
@@ -944,8 +974,9 @@
           ]
         }
       },
+      " ",
       {
-        "text": " Son, that whoever believes in him should not perish, but have eternal life.",
+        "text": "Son, that whoever believes in him should not perish, but have eternal life.",
         "marks": ["woc"]
       }
     ]
@@ -1000,8 +1031,8 @@
     "chapter": 3,
     "verse": 22,
     "content": {
-      "text": "After these things, Jesus came with his disciples into the land of Judea. He stayed there with them and baptized.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After these things, Jesus came with his disciples into the land of Judea. He stayed there with them and baptized."
     }
   },
   {
@@ -1033,8 +1064,8 @@
     "chapter": 3,
     "verse": 27,
     "content": {
-      "text": "John answered, “A man can receive nothing unless it has been given him from heaven.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "John answered, “A man can receive nothing unless it has been given him from heaven."
     }
   },
   {
@@ -1060,8 +1091,8 @@
     "chapter": 3,
     "verse": 31,
     "content": {
-      "text": "“He who comes from above is above all. He who is from the earth belongs to the earth and speaks of the earth. He who comes from heaven is above all.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“He who comes from above is above all. He who is from the earth belongs to the earth and speaks of the earth. He who comes from heaven is above all."
     }
   },
   {
@@ -1108,8 +1139,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Therefore when the Lord knew that the Pharisees had heard that Jesus was making and baptizing more disciples than John",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore when the Lord knew that the Pharisees had heard that Jesus was making and baptizing more disciples than John"
     }
   },
   {
@@ -1154,11 +1185,11 @@
     "verse": 7,
     "content": [
       {
-        "text": "A woman of Samaria came to draw water. Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "A woman of Samaria came to draw water. Jesus said to her, "
       },
       {
-        "text": " “Give me a drink.”",
+        "text": "“Give me a drink.”",
         "marks": ["woc"]
       }
     ]
@@ -1174,8 +1205,8 @@
     "chapter": 4,
     "verse": 9,
     "content": {
-      "text": "The Samaritan woman therefore said to him, “How is it that you, being a Jew, ask for a drink from me, a Samaritan woman?” (For Jews have no dealings with Samaritans.)",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Samaritan woman therefore said to him, “How is it that you, being a Jew, ask for a drink from me, a Samaritan woman?” (For Jews have no dealings with Samaritans.)"
     }
   },
   {
@@ -1184,11 +1215,11 @@
     "verse": 10,
     "content": [
       {
-        "text": "Jesus answered her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered her, "
       },
       {
-        "text": " “If you knew the gift of God, and who it is who says to you, ‘Give me a drink,’ you would have asked him, and he would have given you living water.”",
+        "text": "“If you knew the gift of God, and who it is who says to you, ‘Give me a drink,’ you would have asked him, and he would have given you living water.”",
         "marks": ["woc"]
       }
     ]
@@ -1198,8 +1229,8 @@
     "chapter": 4,
     "verse": 11,
     "content": {
-      "text": "The woman said to him, “Sir, you have nothing to draw with, and the well is deep. So where do you get that living water?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The woman said to him, “Sir, you have nothing to draw with, and the well is deep. So where do you get that living water?"
     }
   },
   {
@@ -1214,11 +1245,11 @@
     "verse": 13,
     "content": [
       {
-        "text": "Jesus answered her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered her, "
       },
       {
-        "text": " “Everyone who drinks of this water will thirst again,",
+        "text": "“Everyone who drinks of this water will thirst again,",
         "marks": ["woc"]
       }
     ]
@@ -1237,8 +1268,8 @@
     "chapter": 4,
     "verse": 15,
     "content": {
-      "text": "The woman said to him, “Sir, give me this water, so that I don’t get thirsty, neither come all the way here to draw.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The woman said to him, “Sir, give me this water, so that I don’t get thirsty, neither come all the way here to draw.”"
     }
   },
   {
@@ -1247,11 +1278,11 @@
     "verse": 16,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “Go, call your husband, and come here.”",
+        "text": "“Go, call your husband, and come here.”",
         "marks": ["woc"]
       }
     ]
@@ -1262,11 +1293,15 @@
     "verse": 17,
     "content": [
       {
-        "text": "The woman answered, “I have no husband.” Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "The woman answered, “I have no husband.”"
       },
       {
-        "text": " “You said well, ‘I have no husband,’",
+        "paragraph": true,
+        "text": "Jesus said to her, "
+      },
+      {
+        "text": "“You said well, ‘I have no husband,’",
         "marks": ["woc"]
       }
     ]
@@ -1285,8 +1320,8 @@
     "chapter": 4,
     "verse": 19,
     "content": {
-      "text": "The woman said to him, “Sir, I perceive that you are a prophet.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The woman said to him, “Sir, I perceive that you are a prophet."
     }
   },
   {
@@ -1301,11 +1336,11 @@
     "verse": 21,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “Woman, believe me, the hour is coming when neither in this mountain nor in Jerusalem will you worship the Father.",
+        "text": "“Woman, believe me, the hour is coming when neither in this mountain nor in Jerusalem will you worship the Father.",
         "marks": ["woc"]
       }
     ]
@@ -1343,12 +1378,12 @@
     "verse": 25,
     "content": [
       {
+        "paragraph": true,
         "text": "The woman said to him, “I know that Messiah is coming, he who is called Christ.",
         "foot": {
           "type": "stu",
           "content": "“Messiah” (Hebrew) and “Christ” (Greek) both mean “Anointed One”."
-        },
-        "paragraph": true
+        }
       },
       " When he has come, he will declare to us all things.”"
     ]
@@ -1359,11 +1394,11 @@
     "verse": 26,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “I am he, the one who speaks to you.”",
+        "text": "“I am he, the one who speaks to you.”",
         "marks": ["woc"]
       }
     ]
@@ -1373,8 +1408,8 @@
     "chapter": 4,
     "verse": 27,
     "content": {
-      "text": "Just then, his disciples came. They marveled that he was speaking with a woman; yet no one said, “What are you looking for?” or, “Why do you speak with her?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Just then, his disciples came. They marveled that he was speaking with a woman; yet no one said, “What are you looking for?” or, “Why do you speak with her?”"
     }
   },
   {
@@ -1400,8 +1435,8 @@
     "chapter": 4,
     "verse": 31,
     "content": {
-      "text": "In the meanwhile, the disciples urged him, saying, “Rabbi, eat.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the meanwhile, the disciples urged him, saying, “Rabbi, eat.”"
     }
   },
   {
@@ -1410,11 +1445,11 @@
     "verse": 32,
     "content": [
       {
-        "text": "But he said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "But he said to them, "
       },
       {
-        "text": " “I have food to eat that you don’t know about.”",
+        "text": "“I have food to eat that you don’t know about.”",
         "marks": ["woc"]
       }
     ]
@@ -1424,8 +1459,8 @@
     "chapter": 4,
     "verse": 33,
     "content": {
-      "text": "The disciples therefore said to one another, “Has anyone brought him something to eat?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The disciples therefore said to one another, “Has anyone brought him something to eat?”"
     }
   },
   {
@@ -1434,11 +1469,11 @@
     "verse": 34,
     "content": [
       {
-        "text": "Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to them, "
       },
       {
-        "text": " “My food is to do the will of him who sent me and to accomplish his work.",
+        "text": "“My food is to do the will of him who sent me and to accomplish his work.",
         "marks": ["woc"]
       }
     ]
@@ -1484,8 +1519,8 @@
     "chapter": 4,
     "verse": 39,
     "content": {
-      "text": "From that city many of the Samaritans believed in him because of the word of the woman, who testified, “He told me everything that I have done.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "From that city many of the Samaritans believed in him because of the word of the woman, who testified, “He told me everything that I have done.”"
     }
   },
   {
@@ -1511,8 +1546,8 @@
     "chapter": 4,
     "verse": 43,
     "content": {
-      "text": "After the two days he went out from there and went into Galilee.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After the two days he went out from there and went into Galilee."
     }
   },
   {
@@ -1544,9 +1579,9 @@
     "chapter": 4,
     "verse": 48,
     "content": [
-      "Jesus therefore said to him,",
+      "Jesus therefore said to him, ",
       {
-        "text": " “Unless you see signs and wonders, you will in no way believe.”",
+        "text": "“Unless you see signs and wonders, you will in no way believe.”",
         "marks": ["woc"]
       }
     ]
@@ -1556,8 +1591,8 @@
     "chapter": 4,
     "verse": 49,
     "content": {
-      "text": "The nobleman said to him, “Sir, come down before my child dies.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The nobleman said to him, “Sir, come down before my child dies.”"
     }
   },
   {
@@ -1566,11 +1601,11 @@
     "verse": 50,
     "content": [
       {
-        "text": "Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to him, "
       },
       {
-        "text": " “Go your way. Your son lives.”",
+        "text": "“Go your way. Your son lives.”",
         "marks": ["woc"]
       },
       " The man believed the word that Jesus spoke to him, and he went his way."
@@ -1602,9 +1637,9 @@
     "chapter": 4,
     "verse": 53,
     "content": [
-      "So the father knew that it was at that hour in which Jesus said to him,",
+      "So the father knew that it was at that hour in which Jesus said to him, ",
       {
-        "text": " “Your son lives.”",
+        "text": "“Your son lives.”",
         "marks": ["woc"]
       },
       " He believed, as did his whole house."
@@ -1621,8 +1656,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "After these things, there was a feast of the Jews, and Jesus went up to Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After these things, there was a feast of the Jews, and Jesus went up to Jerusalem."
     }
   },
   {
@@ -1660,9 +1695,9 @@
     "chapter": 5,
     "verse": 6,
     "content": [
-      "When Jesus saw him lying there, and knew that he had been sick for a long time, he asked him,",
+      "When Jesus saw him lying there, and knew that he had been sick for a long time, he asked him, ",
       {
-        "text": " “Do you want to be made well?”",
+        "text": "“Do you want to be made well?”",
         "marks": ["woc"]
       }
     ]
@@ -1672,8 +1707,8 @@
     "chapter": 5,
     "verse": 7,
     "content": {
-      "text": "The sick man answered him, “Sir, I have no one to put me into the pool when the water is stirred up, but while I’m coming, another steps down before me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The sick man answered him, “Sir, I have no one to put me into the pool when the water is stirred up, but while I’m coming, another steps down before me.”"
     }
   },
   {
@@ -1682,11 +1717,11 @@
     "verse": 8,
     "content": [
       {
-        "text": "Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to him, "
       },
       {
-        "text": " “Arise, take up your mat, and walk.”",
+        "text": "“Arise, take up your mat, and walk.”",
         "marks": ["woc"]
       }
     ]
@@ -1695,10 +1730,16 @@
     "book": "JHN",
     "chapter": 5,
     "verse": 9,
-    "content": {
-      "text": "Immediately, the man was made well, and took up his mat and walked. Now that day was a Sabbath.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Immediately, the man was made well, and took up his mat and walked."
+      },
+      {
+        "paragraph": true,
+        "text": "Now that day was a Sabbath."
+      }
+    ]
   },
   {
     "book": "JHN",
@@ -1712,14 +1753,14 @@
     "verse": 11,
     "content": [
       {
-        "text": "He answered them, “He who made me well said to me,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "He answered them, “He who made me well said to me, "
       },
       {
-        "text": " ‘Take up your mat and walk.’",
+        "text": "‘Take up your mat and walk.’",
         "marks": ["woc"]
       },
-      "”"
+      " ”"
     ]
   },
   {
@@ -1728,11 +1769,11 @@
     "verse": 12,
     "content": [
       {
-        "text": "Then they asked him, “Who is the man who said to you,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Then they asked him, “Who is the man who said to you, "
       },
       {
-        "text": " ‘Take up your mat and walk’",
+        "text": "‘Take up your mat and walk’",
         "marks": ["woc"]
       },
       "?”"
@@ -1743,8 +1784,8 @@
     "chapter": 5,
     "verse": 13,
     "content": {
-      "text": "But he who was healed didn’t know who it was, for Jesus had withdrawn, a crowd being in the place.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But he who was healed didn’t know who it was, for Jesus had withdrawn, a crowd being in the place."
     }
   },
   {
@@ -1753,11 +1794,11 @@
     "verse": 14,
     "content": [
       {
-        "text": "Afterward Jesus found him in the temple and said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Afterward Jesus found him in the temple and said to him, "
       },
       {
-        "text": " “Behold, you are made well. Sin no more, so that nothing worse happens to you.”",
+        "text": "“Behold, you are made well. Sin no more, so that nothing worse happens to you.”",
         "marks": ["woc"]
       }
     ]
@@ -1767,8 +1808,8 @@
     "chapter": 5,
     "verse": 15,
     "content": {
-      "text": "The man went away, and told the Jews that it was Jesus who had made him well.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The man went away, and told the Jews that it was Jesus who had made him well."
     }
   },
   {
@@ -1782,9 +1823,9 @@
     "chapter": 5,
     "verse": 17,
     "content": [
-      "But Jesus answered them,",
+      "But Jesus answered them, ",
       {
-        "text": " “My Father is still working, so I am working, too.”",
+        "text": "“My Father is still working, so I am working, too.”",
         "marks": ["woc"]
       }
     ]
@@ -1794,8 +1835,8 @@
     "chapter": 5,
     "verse": 18,
     "content": {
-      "text": "For this cause therefore the Jews sought all the more to kill him, because he not only broke the Sabbath, but also called God his own Father, making himself equal with God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this cause therefore the Jews sought all the more to kill him, because he not only broke the Sabbath, but also called God his own Father, making himself equal with God."
     }
   },
   {
@@ -1803,9 +1844,9 @@
     "chapter": 5,
     "verse": 19,
     "content": [
-      "Jesus therefore answered them,",
+      "Jesus therefore answered them, ",
       {
-        "text": " “Most certainly, I tell you, the Son can do nothing of himself, but what he sees the Father doing. For whatever things he does, these the Son also does likewise.",
+        "text": "“Most certainly, I tell you, the Son can do nothing of himself, but what he sees the Father doing. For whatever things he does, these the Son also does likewise.",
         "marks": ["woc"]
       }
     ]
@@ -1851,9 +1892,9 @@
     "chapter": 5,
     "verse": 24,
     "content": {
+      "paragraph": true,
       "text": "“Most certainly I tell you, he who hears my word and believes him who sent me has eternal life, and doesn’t come into judgment, but has passed out of death into life.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -1915,9 +1956,9 @@
     "chapter": 5,
     "verse": 31,
     "content": {
+      "paragraph": true,
       "text": "“If I testify about myself, my witness is not valid.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -1988,9 +2029,9 @@
     "chapter": 5,
     "verse": 39,
     "content": {
+      "paragraph": true,
       "text": "“You search the Scriptures, because you think that in them you have eternal life; and these are they which testify about me.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -2043,9 +2084,9 @@
     "chapter": 5,
     "verse": 45,
     "content": {
+      "paragraph": true,
       "text": "“Don’t think that I will accuse you to the Father. There is one who accuses you, even Moses, on whom you have set your hope.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -2071,8 +2112,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "After these things, Jesus went away to the other side of the sea of Galilee, which is also called the Sea of Tiberias.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After these things, Jesus went away to the other side of the sea of Galilee, which is also called the Sea of Tiberias."
     }
   },
   {
@@ -2098,9 +2139,9 @@
     "chapter": 6,
     "verse": 5,
     "content": [
-      "Jesus therefore, lifting up his eyes and seeing that a great multitude was coming to him, said to Philip,",
+      "Jesus therefore, lifting up his eyes and seeing that a great multitude was coming to him, said to Philip, ",
       {
-        "text": " “Where are we to buy bread, that these may eat?”",
+        "text": "“Where are we to buy bread, that these may eat?”",
         "marks": ["woc"]
       }
     ]
@@ -2117,12 +2158,12 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "Philip answered him, “Two hundred denarii",
         "foot": {
           "type": "stu",
           "content": "A denarius was a silver coin worth about a day’s wages for an agricultural laborer, so 200 denarii would be between 6 and 7 month’s pay."
-        },
-        "paragraph": true
+        }
       },
       " worth of bread is not sufficient for them, that every one of them may receive a little.”"
     ]
@@ -2132,8 +2173,8 @@
     "chapter": 6,
     "verse": 8,
     "content": {
-      "text": "One of his disciples, Andrew, Simon Peter’s brother, said to him,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "One of his disciples, Andrew, Simon Peter’s brother, said to him,"
     }
   },
   {
@@ -2148,11 +2189,11 @@
     "verse": 10,
     "content": [
       {
-        "text": "Jesus said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said, "
       },
       {
-        "text": " “Have the people sit down.”",
+        "text": "“Have the people sit down.”",
         "marks": ["woc"]
       },
       " Now there was much grass in that place. So the men sat down, in number about five thousand."
@@ -2169,9 +2210,9 @@
     "chapter": 6,
     "verse": 12,
     "content": [
-      "When they were filled, he said to his disciples,",
+      "When they were filled, he said to his disciples, ",
       {
-        "text": " “Gather up the broken pieces which are left over, that nothing be lost.”",
+        "text": "“Gather up the broken pieces which are left over, that nothing be lost.”",
         "marks": ["woc"]
       }
     ]
@@ -2199,8 +2240,8 @@
     "chapter": 6,
     "verse": 16,
     "content": {
-      "text": "When evening came, his disciples went down to the sea.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When evening came, his disciples went down to the sea."
     }
   },
   {
@@ -2242,17 +2283,18 @@
     "chapter": 6,
     "verse": 20,
     "content": [
-      "But he said to them,",
+      "But he said to them, ",
       {
-        "text": " “It is I.",
+        "text": "“It is I.",
         "marks": ["woc"],
         "foot": {
           "type": "trn",
           "content": "or, I AM"
         }
       },
+      " ",
       {
-        "text": " Don’t be afraid.”",
+        "text": "Don’t be afraid.”",
         "marks": ["woc"]
       }
     ]
@@ -2268,8 +2310,8 @@
     "chapter": 6,
     "verse": 22,
     "content": {
-      "text": "On the next day, the multitude that stood on the other side of the sea saw that there was no other boat there, except the one in which his disciples had embarked, and that Jesus hadn’t entered with his disciples into the boat, but his disciples had gone away alone.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the next day, the multitude that stood on the other side of the sea saw that there was no other boat there, except the one in which his disciples had embarked, and that Jesus hadn’t entered with his disciples into the boat, but his disciples had gone away alone."
     }
   },
   {
@@ -2296,11 +2338,11 @@
     "verse": 26,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “Most certainly I tell you, you seek me, not because you saw signs, but because you ate of the loaves and were filled.",
+        "text": "“Most certainly I tell you, you seek me, not because you saw signs, but because you ate of the loaves and were filled.",
         "marks": ["woc"]
       }
     ]
@@ -2319,8 +2361,8 @@
     "chapter": 6,
     "verse": 28,
     "content": {
-      "text": "They said therefore to him, “What must we do, that we may work the works of God?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They said therefore to him, “What must we do, that we may work the works of God?”"
     }
   },
   {
@@ -2329,11 +2371,11 @@
     "verse": 29,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “This is the work of God, that you believe in him whom he has sent.”",
+        "text": "“This is the work of God, that you believe in him whom he has sent.”",
         "marks": ["woc"]
       }
     ]
@@ -2343,8 +2385,8 @@
     "chapter": 6,
     "verse": 30,
     "content": {
-      "text": "They said therefore to him, “What then do you do for a sign, that we may see and believe you? What work do you do?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They said therefore to him, “What then do you do for a sign, that we may see and believe you? What work do you do?"
     }
   },
   {
@@ -2374,11 +2416,11 @@
     "verse": 32,
     "content": [
       {
-        "text": "Jesus therefore said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus therefore said to them, "
       },
       {
-        "text": " “Most certainly, I tell you, it wasn’t Moses who gave you the bread out of heaven, but my Father gives you the true bread out of heaven.",
+        "text": "“Most certainly, I tell you, it wasn’t Moses who gave you the bread out of heaven, but my Father gives you the true bread out of heaven.",
         "marks": ["woc"]
       }
     ]
@@ -2397,8 +2439,8 @@
     "chapter": 6,
     "verse": 34,
     "content": {
-      "text": "They said therefore to him, “Lord, always give us this bread.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They said therefore to him, “Lord, always give us this bread.”"
     }
   },
   {
@@ -2407,11 +2449,11 @@
     "verse": 35,
     "content": [
       {
-        "text": "Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to them, "
       },
       {
-        "text": " “I am the bread of life. Whoever comes to me will not be hungry, and whoever believes in me will never be thirsty.",
+        "text": "“I am the bread of life. Whoever comes to me will not be hungry, and whoever believes in me will never be thirsty.",
         "marks": ["woc"]
       }
     ]
@@ -2467,11 +2509,11 @@
     "verse": 41,
     "content": [
       {
-        "text": "The Jews therefore murmured concerning him, because he said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "The Jews therefore murmured concerning him, because he said, "
       },
       {
-        "text": " “I am the bread which came down out of heaven.”",
+        "text": "“I am the bread which came down out of heaven.”",
         "marks": ["woc"]
       }
     ]
@@ -2481,9 +2523,9 @@
     "chapter": 6,
     "verse": 42,
     "content": [
-      "They said, “Isn’t this Jesus, the son of Joseph, whose father and mother we know? How then does he say,",
+      "They said, “Isn’t this Jesus, the son of Joseph, whose father and mother we know? How then does he say, ",
       {
-        "text": " ‘I have come down out of heaven’?”",
+        "text": "‘I have come down out of heaven’?”",
         "marks": ["woc"]
       }
     ]
@@ -2494,11 +2536,11 @@
     "verse": 43,
     "content": [
       {
-        "text": "Therefore Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Therefore Jesus answered them, "
       },
       {
-        "text": " “Don’t murmur among yourselves.",
+        "text": "“Don’t murmur among yourselves.",
         "marks": ["woc"]
       }
     ]
@@ -2525,8 +2567,9 @@
           "content": "Isaiah 54:13"
         }
       },
+      " ",
       {
-        "text": " Therefore everyone who hears from the Father and has learned, comes to me.",
+        "text": "Therefore everyone who hears from the Father and has learned, comes to me.",
         "marks": ["woc"]
       }
     ]
@@ -2590,8 +2633,8 @@
     "chapter": 6,
     "verse": 52,
     "content": {
-      "text": "The Jews therefore contended with one another, saying, “How can this man give us his flesh to eat?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews therefore contended with one another, saying, “How can this man give us his flesh to eat?”"
     }
   },
   {
@@ -2600,11 +2643,11 @@
     "verse": 53,
     "content": [
       {
-        "text": "Jesus therefore said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus therefore said to them, "
       },
       {
-        "text": " “Most certainly I tell you, unless you eat the flesh of the Son of Man and drink his blood, you don’t have life in yourselves.",
+        "text": "“Most certainly I tell you, unless you eat the flesh of the Son of Man and drink his blood, you don’t have life in yourselves.",
         "marks": ["woc"]
       }
     ]
@@ -2665,8 +2708,8 @@
     "chapter": 6,
     "verse": 60,
     "content": {
-      "text": "Therefore many of his disciples, when they heard this, said, “This is a hard saying! Who can listen to it?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore many of his disciples, when they heard this, said, “This is a hard saying! Who can listen to it?”"
     }
   },
   {
@@ -2675,11 +2718,11 @@
     "verse": 61,
     "content": [
       {
-        "text": "But Jesus knowing in himself that his disciples murmured at this, said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "But Jesus knowing in himself that his disciples murmured at this, said to them, "
       },
       {
-        "text": " “Does this cause you to stumble?",
+        "text": "“Does this cause you to stumble?",
         "marks": ["woc"]
       }
     ]
@@ -2719,9 +2762,9 @@
     "chapter": 6,
     "verse": 65,
     "content": [
-      "He said,",
+      "He said, ",
       {
-        "text": " “For this cause I have said to you that no one can come to me, unless it is given to him by my Father.”",
+        "text": "“For this cause I have said to you that no one can come to me, unless it is given to him by my Father.”",
         "marks": ["woc"]
       }
     ]
@@ -2731,8 +2774,8 @@
     "chapter": 6,
     "verse": 66,
     "content": {
-      "text": "At this, many of his disciples went back and walked no more with him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At this, many of his disciples went back and walked no more with him."
     }
   },
   {
@@ -2740,9 +2783,9 @@
     "chapter": 6,
     "verse": 67,
     "content": [
-      "Jesus said therefore to the twelve,",
+      "Jesus said therefore to the twelve, ",
       {
-        "text": " “You don’t also want to go away, do you?”",
+        "text": "“You don’t also want to go away, do you?”",
         "marks": ["woc"]
       }
     ]
@@ -2752,8 +2795,8 @@
     "chapter": 6,
     "verse": 68,
     "content": {
-      "text": "Simon Peter answered him, “Lord, to whom would we go? You have the words of eternal life.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Simon Peter answered him, “Lord, to whom would we go? You have the words of eternal life."
     }
   },
   {
@@ -2768,11 +2811,11 @@
     "verse": 70,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “Didn’t I choose you, the twelve, and one of you is a devil?”",
+        "text": "“Didn’t I choose you, the twelve, and one of you is a devil?”",
         "marks": ["woc"]
       }
     ]
@@ -2788,8 +2831,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "After these things, Jesus was walking in Galilee, for he wouldn’t walk in Judea, because the Jews sought to kill him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After these things, Jesus was walking in Galilee, for he wouldn’t walk in Judea, because the Jews sought to kill him."
     }
   },
   {
@@ -2822,11 +2865,11 @@
     "verse": 6,
     "content": [
       {
-        "text": "Jesus therefore said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus therefore said to them, "
       },
       {
-        "text": " “My time has not yet come, but your time is always ready.",
+        "text": "“My time has not yet come, but your time is always ready.",
         "marks": ["woc"]
       }
     ]
@@ -2854,8 +2897,8 @@
     "chapter": 7,
     "verse": 9,
     "content": {
-      "text": "Having said these things to them, he stayed in Galilee.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Having said these things to them, he stayed in Galilee."
     }
   },
   {
@@ -2900,11 +2943,11 @@
     "verse": 16,
     "content": [
       {
-        "text": "Jesus therefore answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus therefore answered them, "
       },
       {
-        "text": " “My teaching is not mine, but his who sent me.",
+        "text": "“My teaching is not mine, but his who sent me.",
         "marks": ["woc"]
       }
     ]
@@ -2941,8 +2984,8 @@
     "chapter": 7,
     "verse": 20,
     "content": {
-      "text": "The multitude answered, “You have a demon! Who seeks to kill you?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The multitude answered, “You have a demon! Who seeks to kill you?”"
     }
   },
   {
@@ -2951,11 +2994,11 @@
     "verse": 21,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “I did one work and you all marvel because of it.",
+        "text": "“I did one work and you all marvel because of it.",
         "marks": ["woc"]
       }
     ]
@@ -2992,8 +3035,8 @@
     "chapter": 7,
     "verse": 25,
     "content": {
-      "text": "Therefore some of them of Jerusalem said, “Isn’t this he whom they seek to kill?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore some of them of Jerusalem said, “Isn’t this he whom they seek to kill?"
     }
   },
   {
@@ -3014,11 +3057,11 @@
     "verse": 28,
     "content": [
       {
-        "text": "Jesus therefore cried out in the temple, teaching and saying,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus therefore cried out in the temple, teaching and saying, "
       },
       {
-        "text": " “You both know me, and know where I am from. I have not come of myself, but he who sent me is true, whom you don’t know.",
+        "text": "“You both know me, and know where I am from. I have not come of myself, but he who sent me is true, whom you don’t know.",
         "marks": ["woc"]
       }
     ]
@@ -3037,8 +3080,8 @@
     "chapter": 7,
     "verse": 30,
     "content": {
-      "text": "They sought therefore to take him; but no one laid a hand on him, because his hour had not yet come.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They sought therefore to take him; but no one laid a hand on him, because his hour had not yet come."
     }
   },
   {
@@ -3059,11 +3102,11 @@
     "verse": 33,
     "content": [
       {
-        "text": "Then Jesus said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Then Jesus said, "
       },
       {
-        "text": " “I will be with you a little while longer, then I go to him who sent me.",
+        "text": "“I will be with you a little while longer, then I go to him who sent me.",
         "marks": ["woc"]
       }
     ]
@@ -3082,8 +3125,8 @@
     "chapter": 7,
     "verse": 35,
     "content": {
-      "text": "The Jews therefore said among themselves, “Where will this man go that we won’t find him? Will he go to the Dispersion among the Greeks and teach the Greeks?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews therefore said among themselves, “Where will this man go that we won’t find him? Will he go to the Dispersion among the Greeks and teach the Greeks?"
     }
   },
   {
@@ -3091,14 +3134,14 @@
     "chapter": 7,
     "verse": 36,
     "content": [
-      "What is this word that he said,",
+      "What is this word that he said, ",
       {
-        "text": " ‘You will seek me, and won’t find me;’",
+        "text": "‘You will seek me, and won’t find me;’",
         "marks": ["woc"]
       },
-      " and",
+      " and ",
       {
-        "text": " ‘Where I am, you can’t come’",
+        "text": "‘Where I am, you can’t come’",
         "marks": ["woc"]
       },
       "?”"
@@ -3110,11 +3153,11 @@
     "verse": 37,
     "content": [
       {
-        "text": "Now on the last and greatest day of the feast, Jesus stood and cried out,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Now on the last and greatest day of the feast, Jesus stood and cried out, "
       },
       {
-        "text": " “If anyone is thirsty, let him come to me and drink!",
+        "text": "“If anyone is thirsty, let him come to me and drink!",
         "marks": ["woc"]
       }
     ]
@@ -3139,8 +3182,8 @@
     "chapter": 7,
     "verse": 40,
     "content": {
-      "text": "Many of the multitude therefore, when they heard these words, said, “This is truly the prophet.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Many of the multitude therefore, when they heard these words, said, “This is truly the prophet.”"
     }
   },
   {
@@ -3201,8 +3244,8 @@
     "chapter": 7,
     "verse": 46,
     "content": {
-      "text": "The officers answered, “No man ever spoke like this man!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The officers answered, “No man ever spoke like this man!”"
     }
   },
   {
@@ -3210,8 +3253,8 @@
     "chapter": 7,
     "verse": 47,
     "content": {
-      "text": "The Pharisees therefore answered them, “You aren’t also led astray, are you?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Pharisees therefore answered them, “You aren’t also led astray, are you?"
     }
   },
   {
@@ -3231,8 +3274,8 @@
     "chapter": 7,
     "verse": 50,
     "content": {
-      "text": "Nicodemus (he who came to him by night, being one of them) said to them,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Nicodemus (he who came to him by night, being one of them) said to them,"
     }
   },
   {
@@ -3246,12 +3289,12 @@
     "chapter": 7,
     "verse": 52,
     "content": {
+      "paragraph": true,
       "text": "They answered him, “Are you also from Galilee? Search and see that no prophet has arisen out of Galilee.”",
       "foot": {
         "type": "xrf",
         "content": "See Isaiah 9:1; Matthew 4:13-16"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -3259,8 +3302,8 @@
     "chapter": 7,
     "verse": 53,
     "content": {
-      "text": "Everyone went to his own house,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Everyone went to his own house,"
     }
   },
   {
@@ -3268,8 +3311,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "but Jesus went to the Mount of Olives.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "but Jesus went to the Mount of Olives."
     }
   },
   {
@@ -3277,8 +3320,8 @@
     "chapter": 8,
     "verse": 2,
     "content": {
-      "text": "Now very early in the morning, he came again into the temple, and all the people came to him. He sat down and taught them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now very early in the morning, he came again into the temple, and all the people came to him. He sat down and taught them."
     }
   },
   {
@@ -3312,16 +3355,22 @@
     "book": "JHN",
     "chapter": 8,
     "verse": 6,
-    "content": "They said this testing him, that they might have something to accuse him of. But Jesus stooped down and wrote on the ground with his finger."
+    "content": [
+      "They said this testing him, that they might have something to accuse him of.",
+      {
+        "paragraph": true,
+        "text": "But Jesus stooped down and wrote on the ground with his finger."
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 8,
     "verse": 7,
     "content": [
-      "But when they continued asking him, he looked up and said to them,",
+      "But when they continued asking him, he looked up and said to them, ",
       {
-        "text": " “He who is without sin among you, let him throw the first stone at her.”",
+        "text": "“He who is without sin among you, let him throw the first stone at her.”",
         "marks": ["woc"]
       }
     ]
@@ -3337,8 +3386,8 @@
     "chapter": 8,
     "verse": 9,
     "content": {
-      "text": "They, when they heard it, being convicted by their conscience, went out one by one, beginning from the oldest, even to the last. Jesus was left alone with the woman where she was, in the middle.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They, when they heard it, being convicted by their conscience, went out one by one, beginning from the oldest, even to the last. Jesus was left alone with the woman where she was, in the middle."
     }
   },
   {
@@ -3346,9 +3395,9 @@
     "chapter": 8,
     "verse": 10,
     "content": [
-      "Jesus, standing up, saw her and said,",
+      "Jesus, standing up, saw her and said, ",
       {
-        "text": " “Woman, where are your accusers? Did no one condemn you?”",
+        "text": "“Woman, where are your accusers? Did no one condemn you?”",
         "marks": ["woc"]
       }
     ]
@@ -3359,11 +3408,15 @@
     "verse": 11,
     "content": [
       {
-        "text": "She said, “No one, Lord.” Jesus said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "She said, “No one, Lord.”"
       },
       {
-        "text": " “Neither do I condemn you. Go your way. From now on, sin no more.”",
+        "paragraph": true,
+        "text": "Jesus said, "
+      },
+      {
+        "text": "“Neither do I condemn you. Go your way. From now on, sin no more.”",
         "marks": ["woc"],
         "foot": {
           "type": "var",
@@ -3378,19 +3431,20 @@
     "verse": 12,
     "content": [
       {
-        "text": "Again, therefore, Jesus spoke to them, saying,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Again, therefore, Jesus spoke to them, saying, "
       },
       {
-        "text": " “I am the light of the world.",
+        "text": "“I am the light of the world.",
         "marks": ["woc"],
         "foot": {
           "type": "xrf",
           "content": "Isaiah 60:1"
         }
       },
+      " ",
       {
-        "text": " He who follows me will not walk in the darkness, but will have the light of life.”",
+        "text": "He who follows me will not walk in the darkness, but will have the light of life.”",
         "marks": ["woc"]
       }
     ]
@@ -3400,8 +3454,8 @@
     "chapter": 8,
     "verse": 13,
     "content": {
-      "text": "The Pharisees therefore said to him, “You testify about yourself. Your testimony is not valid.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Pharisees therefore said to him, “You testify about yourself. Your testimony is not valid.”"
     }
   },
   {
@@ -3410,11 +3464,11 @@
     "verse": 14,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “Even if I testify about myself, my testimony is true, for I know where I came from, and where I am going; but you don’t know where I came from, or where I am going.",
+        "text": "“Even if I testify about myself, my testimony is true, for I know where I came from, and where I am going; but you don’t know where I came from, or where I am going.",
         "marks": ["woc"]
       }
     ]
@@ -3465,11 +3519,15 @@
     "verse": 19,
     "content": [
       {
-        "text": "They said therefore to him, “Where is your Father?” Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "They said therefore to him, “Where is your Father?”"
       },
       {
-        "text": " “You know neither me nor my Father. If you knew me, you would know my Father also.”",
+        "paragraph": true,
+        "text": "Jesus answered, "
+      },
+      {
+        "text": "“You know neither me nor my Father. If you knew me, you would know my Father also.”",
         "marks": ["woc"]
       }
     ]
@@ -3485,9 +3543,9 @@
     "chapter": 8,
     "verse": 21,
     "content": [
-      "Jesus said therefore again to them,",
+      "Jesus said therefore again to them, ",
       {
-        "text": " “I am going away, and you will seek me, and you will die in your sins. Where I go, you can’t come.”",
+        "text": "“I am going away, and you will seek me, and you will die in your sins. Where I go, you can’t come.”",
         "marks": ["woc"]
       }
     ]
@@ -3498,11 +3556,11 @@
     "verse": 22,
     "content": [
       {
-        "text": "The Jews therefore said, “Will he kill himself, because he says,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "The Jews therefore said, “Will he kill himself, because he says, "
       },
       {
-        "text": " ‘Where I am going, you can’t come’",
+        "text": "‘Where I am going, you can’t come’",
         "marks": ["woc"]
       },
       "?”"
@@ -3514,11 +3572,11 @@
     "verse": 23,
     "content": [
       {
-        "text": "He said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "He said to them, "
       },
       {
-        "text": " “You are from beneath. I am from above. You are of this world. I am not of this world.",
+        "text": "“You are from beneath. I am from above. You are of this world. I am not of this world.",
         "marks": ["woc"]
       }
     ]
@@ -3536,8 +3594,9 @@
           "content": "or, I AM"
         }
       },
+      " ",
       {
-        "text": " he, you will die in your sins.”",
+        "text": "he, you will die in your sins.”",
         "marks": ["woc"]
       }
     ]
@@ -3548,11 +3607,15 @@
     "verse": 25,
     "content": [
       {
-        "text": "They said therefore to him, “Who are you?” Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "They said therefore to him, “Who are you?”"
       },
       {
-        "text": " “Just what I have been saying to you from the beginning.",
+        "paragraph": true,
+        "text": "Jesus said to them, "
+      },
+      {
+        "text": "“Just what I have been saying to you from the beginning.",
         "marks": ["woc"]
       }
     ]
@@ -3571,8 +3634,8 @@
     "chapter": 8,
     "verse": 27,
     "content": {
-      "text": "They didn’t understand that he spoke to them about the Father.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They didn’t understand that he spoke to them about the Father."
     }
   },
   {
@@ -3580,9 +3643,9 @@
     "chapter": 8,
     "verse": 28,
     "content": [
-      "Jesus therefore said to them,",
+      "Jesus therefore said to them, ",
       {
-        "text": " “When you have lifted up the Son of Man, then you will know that I am he, and I do nothing of myself, but as my Father taught me, I say these things.",
+        "text": "“When you have lifted up the Son of Man, then you will know that I am he, and I do nothing of myself, but as my Father taught me, I say these things.",
         "marks": ["woc"]
       }
     ]
@@ -3601,8 +3664,8 @@
     "chapter": 8,
     "verse": 30,
     "content": {
-      "text": "As he spoke these things, many believed in him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "As he spoke these things, many believed in him."
     }
   },
   {
@@ -3610,9 +3673,9 @@
     "chapter": 8,
     "verse": 31,
     "content": [
-      "Jesus therefore said to those Jews who had believed him,",
+      "Jesus therefore said to those Jews who had believed him, ",
       {
-        "text": " “If you remain in my word, then you are truly my disciples.",
+        "text": "“If you remain in my word, then you are truly my disciples.",
         "marks": ["woc"]
       }
     ]
@@ -3636,11 +3699,11 @@
     "verse": 33,
     "content": [
       {
-        "text": "They answered him, “We are Abraham’s offspring, and have never been in bondage to anyone. How do you say,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "They answered him, “We are Abraham’s offspring, and have never been in bondage to anyone. How do you say, "
       },
       {
-        "text": " ‘You will be made free’",
+        "text": "‘You will be made free’",
         "marks": ["woc"]
       },
       "?”"
@@ -3652,11 +3715,11 @@
     "verse": 34,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “Most certainly I tell you, everyone who commits sin is the bondservant of sin.",
+        "text": "“Most certainly I tell you, everyone who commits sin is the bondservant of sin.",
         "marks": ["woc"]
       }
     ]
@@ -3703,11 +3766,15 @@
     "verse": 39,
     "content": [
       {
-        "text": "They answered him, “Our father is Abraham.” Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "They answered him, “Our father is Abraham.”"
       },
       {
-        "text": " “If you were Abraham’s children, you would do the works of Abraham.",
+        "paragraph": true,
+        "text": "Jesus said to them, "
+      },
+      {
+        "text": "“If you were Abraham’s children, you would do the works of Abraham.",
         "marks": ["woc"]
       }
     ]
@@ -3730,7 +3797,10 @@
         "text": "You do the works of your father.”",
         "marks": ["woc"]
       },
-      " They said to him, “We were not born of sexual immorality. We have one Father, God.”"
+      {
+        "paragraph": true,
+        "text": "They said to him, “We were not born of sexual immorality. We have one Father, God.”"
+      }
     ]
   },
   {
@@ -3739,11 +3809,11 @@
     "verse": 42,
     "content": [
       {
-        "text": "Therefore Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Therefore Jesus said to them, "
       },
       {
-        "text": " “If God were your father, you would love me, for I came out and have come from God. For I haven’t come of myself, but he sent me.",
+        "text": "“If God were your father, you would love me, for I came out and have come from God. For I haven’t come of myself, but he sent me.",
         "marks": ["woc"]
       }
     ]
@@ -3798,8 +3868,8 @@
     "chapter": 8,
     "verse": 48,
     "content": {
-      "text": "Then the Jews answered him, “Don’t we say well that you are a Samaritan, and have a demon?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the Jews answered him, “Don’t we say well that you are a Samaritan, and have a demon?”"
     }
   },
   {
@@ -3808,11 +3878,11 @@
     "verse": 49,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “I don’t have a demon, but I honor my Father and you dishonor me.",
+        "text": "“I don’t have a demon, but I honor my Father and you dishonor me.",
         "marks": ["woc"]
       }
     ]
@@ -3841,11 +3911,11 @@
     "verse": 52,
     "content": [
       {
-        "text": "Then the Jews said to him, “Now we know that you have a demon. Abraham died, as did the prophets; and you say,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Then the Jews said to him, “Now we know that you have a demon. Abraham died, as did the prophets; and you say, "
       },
       {
-        "text": " ‘If a man keeps my word, he will never taste of death.’",
+        "text": "‘If a man keeps my word, he will never taste of death.’",
         "marks": ["woc"]
       }
     ]
@@ -3862,11 +3932,11 @@
     "verse": 54,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “If I glorify myself, my glory is nothing. It is my Father who glorifies me, of whom you say that he is our God.",
+        "text": "“If I glorify myself, my glory is nothing. It is my Father who glorifies me, of whom you say that he is our God.",
         "marks": ["woc"]
       }
     ]
@@ -3894,8 +3964,8 @@
     "chapter": 8,
     "verse": 57,
     "content": {
-      "text": "The Jews therefore said to him, “You are not yet fifty years old! Have you seen Abraham?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews therefore said to him, “You are not yet fifty years old! Have you seen Abraham?”"
     }
   },
   {
@@ -3904,11 +3974,11 @@
     "verse": 58,
     "content": [
       {
-        "text": "Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to them, "
       },
       {
-        "text": " “Most certainly, I tell you, before Abraham came into existence, I AM.",
+        "text": "“Most certainly, I tell you, before Abraham came into existence, I AM.",
         "marks": ["woc"],
         "foot": {
           "type": "xrf",
@@ -3916,7 +3986,7 @@
         }
       },
       {
-        "text": " ”",
+        "text": "”",
         "marks": ["woc"]
       }
     ]
@@ -3926,8 +3996,8 @@
     "chapter": 8,
     "verse": 59,
     "content": {
-      "text": "Therefore they took up stones to throw at him, but Jesus hid himself and went out of the temple, having gone through the middle of them, and so passed by.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore they took up stones to throw at him, but Jesus hid himself and went out of the temple, having gone through the middle of them, and so passed by."
     }
   },
   {
@@ -3935,8 +4005,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "As he passed by, he saw a man blind from birth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "As he passed by, he saw a man blind from birth."
     }
   },
   {
@@ -3951,11 +4021,11 @@
     "verse": 3,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “This man didn’t sin, nor did his parents, but that the works of God might be revealed in him.",
+        "text": "“This man didn’t sin, nor did his parents, but that the works of God might be revealed in him.",
         "marks": ["woc"]
       }
     ]
@@ -3989,9 +4059,9 @@
     "chapter": 9,
     "verse": 7,
     "content": [
-      "and said to him,",
+      "and said to him, ",
       {
-        "text": " “Go, wash in the pool of Siloam”",
+        "text": "“Go, wash in the pool of Siloam”",
         "marks": ["woc"]
       },
       " (which means “Sent”). So he went away, washed, and came back seeing."
@@ -4002,23 +4072,29 @@
     "chapter": 9,
     "verse": 8,
     "content": {
-      "text": "Therefore the neighbors and those who saw that he was blind before said, “Isn’t this he who sat and begged?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore the neighbors and those who saw that he was blind before said, “Isn’t this he who sat and begged?”"
     }
   },
   {
     "book": "JHN",
     "chapter": 9,
     "verse": 9,
-    "content": "Others were saying, “It is he.” Still others were saying, “He looks like him.” He said, “I am he.”"
+    "content": [
+      "Others were saying, “It is he.” Still others were saying, “He looks like him.”",
+      {
+        "paragraph": true,
+        "text": "He said, “I am he.”"
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 9,
     "verse": 10,
     "content": {
-      "text": "They therefore were asking him, “How were your eyes opened?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They therefore were asking him, “How were your eyes opened?”"
     }
   },
   {
@@ -4027,11 +4103,11 @@
     "verse": 11,
     "content": [
       {
-        "text": "He answered, “A man called Jesus made mud, anointed my eyes, and said to me,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "He answered, “A man called Jesus made mud, anointed my eyes, and said to me, "
       },
       {
-        "text": " ‘Go to the pool of Siloam and wash.’",
+        "text": "‘Go to the pool of Siloam and wash.’",
         "marks": ["woc"]
       },
       " So I went away and washed, and I received sight.”"
@@ -4041,18 +4117,24 @@
     "book": "JHN",
     "chapter": 9,
     "verse": 12,
-    "content": {
-      "text": "Then they asked him, “Where is he?” He said, “I don’t know.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then they asked him, “Where is he?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “I don’t know.”"
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 9,
     "verse": 13,
     "content": {
-      "text": "They brought him who had been blind to the Pharisees.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They brought him who had been blind to the Pharisees."
     }
   },
   {
@@ -4071,27 +4153,39 @@
     "book": "JHN",
     "chapter": 9,
     "verse": 16,
-    "content": {
-      "text": "Some therefore of the Pharisees said, “This man is not from God, because he doesn’t keep the Sabbath.” Others said, “How can a man who is a sinner do such signs?” So there was division among them.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Some therefore of the Pharisees said, “This man is not from God, because he doesn’t keep the Sabbath.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Others said, “How can a man who is a sinner do such signs?” So there was division among them."
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 9,
     "verse": 17,
-    "content": {
-      "text": "Therefore they asked the blind man again, “What do you say about him, because he opened your eyes?” He said, “He is a prophet.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Therefore they asked the blind man again, “What do you say about him, because he opened your eyes?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “He is a prophet.”"
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 9,
     "verse": 18,
     "content": {
-      "text": "The Jews therefore didn’t believe concerning him, that he had been blind and had received his sight, until they called the parents of him who had received his sight,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews therefore didn’t believe concerning him, that he had been blind and had received his sight, until they called the parents of him who had received his sight,"
     }
   },
   {
@@ -4105,8 +4199,8 @@
     "chapter": 9,
     "verse": 20,
     "content": {
-      "text": "His parents answered them, “We know that this is our son, and that he was born blind;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "His parents answered them, “We know that this is our son, and that he was born blind;"
     }
   },
   {
@@ -4132,8 +4226,8 @@
     "chapter": 9,
     "verse": 24,
     "content": {
-      "text": "So they called the man who was blind a second time, and said to him, “Give glory to God. We know that this man is a sinner.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So they called the man who was blind a second time, and said to him, “Give glory to God. We know that this man is a sinner.”"
     }
   },
   {
@@ -4141,8 +4235,8 @@
     "chapter": 9,
     "verse": 25,
     "content": {
-      "text": "He therefore answered, “I don’t know if he is a sinner. One thing I do know: that though I was blind, now I see.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He therefore answered, “I don’t know if he is a sinner. One thing I do know: that though I was blind, now I see.”"
     }
   },
   {
@@ -4150,8 +4244,8 @@
     "chapter": 9,
     "verse": 26,
     "content": {
-      "text": "They said to him again, “What did he do to you? How did he open your eyes?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They said to him again, “What did he do to you? How did he open your eyes?”"
     }
   },
   {
@@ -4159,8 +4253,8 @@
     "chapter": 9,
     "verse": 27,
     "content": {
-      "text": "He answered them, “I told you already, and you didn’t listen. Why do you want to hear it again? You don’t also want to become his disciples, do you?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He answered them, “I told you already, and you didn’t listen. Why do you want to hear it again? You don’t also want to become his disciples, do you?”"
     }
   },
   {
@@ -4168,8 +4262,8 @@
     "chapter": 9,
     "verse": 28,
     "content": {
-      "text": "They insulted him and said, “You are his disciple, but we are disciples of Moses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They insulted him and said, “You are his disciple, but we are disciples of Moses."
     }
   },
   {
@@ -4183,8 +4277,8 @@
     "chapter": 9,
     "verse": 30,
     "content": {
-      "text": "The man answered them, “How amazing! You don’t know where he comes from, yet he opened my eyes.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The man answered them, “How amazing! You don’t know where he comes from, yet he opened my eyes."
     }
   },
   {
@@ -4216,8 +4310,8 @@
     "chapter": 9,
     "verse": 34,
     "content": {
-      "text": "They answered him, “You were altogether born in sins, and do you teach us?” Then they threw him out.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They answered him, “You were altogether born in sins, and do you teach us?” Then they threw him out."
     }
   },
   {
@@ -4226,11 +4320,11 @@
     "verse": 35,
     "content": [
       {
-        "text": "Jesus heard that they had thrown him out, and finding him, he said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus heard that they had thrown him out, and finding him, he said, "
       },
       {
-        "text": " “Do you believe in the Son of God?”",
+        "text": "“Do you believe in the Son of God?”",
         "marks": ["woc"]
       }
     ]
@@ -4240,8 +4334,8 @@
     "chapter": 9,
     "verse": 36,
     "content": {
-      "text": "He answered, “Who is he, Lord, that I may believe in him?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He answered, “Who is he, Lord, that I may believe in him?”"
     }
   },
   {
@@ -4250,11 +4344,11 @@
     "verse": 37,
     "content": [
       {
-        "text": "Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to him, "
       },
       {
-        "text": " “You have both seen him, and it is he who speaks with you.”",
+        "text": "“You have both seen him, and it is he who speaks with you.”",
         "marks": ["woc"]
       }
     ]
@@ -4264,8 +4358,8 @@
     "chapter": 9,
     "verse": 38,
     "content": {
-      "text": "He said, “Lord, I believe!” and he worshiped him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “Lord, I believe!” and he worshiped him."
     }
   },
   {
@@ -4274,11 +4368,11 @@
     "verse": 39,
     "content": [
       {
-        "text": "Jesus said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said, "
       },
       {
-        "text": " “I came into this world for judgment, that those who don’t see may see; and that those who see may become blind.”",
+        "text": "“I came into this world for judgment, that those who don’t see may see; and that those who see may become blind.”",
         "marks": ["woc"]
       }
     ]
@@ -4288,8 +4382,8 @@
     "chapter": 9,
     "verse": 40,
     "content": {
-      "text": "Those of the Pharisees who were with him heard these things, and said to him, “Are we also blind?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Those of the Pharisees who were with him heard these things, and said to him, “Are we also blind?”"
     }
   },
   {
@@ -4298,11 +4392,11 @@
     "verse": 41,
     "content": [
       {
-        "text": "Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to them, "
       },
       {
-        "text": " “If you were blind, you would have no sin; but now you say, ‘We see.’ Therefore your sin remains.",
+        "text": "“If you were blind, you would have no sin; but now you say, ‘We see.’ Therefore your sin remains.",
         "marks": ["woc"]
       }
     ]
@@ -4312,9 +4406,9 @@
     "chapter": 10,
     "verse": 1,
     "content": {
+      "paragraph": true,
       "text": "“Most certainly, I tell you, one who doesn’t enter by the door into the sheep fold, but climbs up some other way, is a thief and a robber.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -4365,11 +4459,11 @@
     "verse": 7,
     "content": [
       {
-        "text": "Jesus therefore said to them again,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus therefore said to them again, "
       },
       {
-        "text": " “Most certainly, I tell you, I am the sheep’s door.",
+        "text": "“Most certainly, I tell you, I am the sheep’s door.",
         "marks": ["woc"]
       }
     ]
@@ -4407,16 +4501,17 @@
     "verse": 11,
     "content": [
       {
+        "paragraph": true,
         "text": "“I am the good shepherd.",
         "marks": ["woc"],
         "foot": {
           "type": "xrf",
           "content": "Isaiah 40:11; Ezekiel 34:11-12,15,22"
-        },
-        "paragraph": true
+        }
       },
+      " ",
       {
-        "text": " The good shepherd lays down his life for the sheep.",
+        "text": "The good shepherd lays down his life for the sheep.",
         "marks": ["woc"]
       }
     ]
@@ -4470,8 +4565,9 @@
           "content": "Isaiah 56:8"
         }
       },
+      " ",
       {
-        "text": " I must bring them also, and they will hear my voice. They will become one flock with one shepherd.",
+        "text": "I must bring them also, and they will hear my voice. They will become one flock with one shepherd.",
         "marks": ["woc"]
       }
     ]
@@ -4489,8 +4585,9 @@
           "content": "Isaiah 53:7-8"
         }
       },
+      " ",
       {
-        "text": " that I may take it again.",
+        "text": "that I may take it again.",
         "marks": ["woc"]
       }
     ]
@@ -4509,8 +4606,8 @@
     "chapter": 10,
     "verse": 19,
     "content": {
-      "text": "Therefore a division arose again among the Jews because of these words.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore a division arose again among the Jews because of these words."
     }
   },
   {
@@ -4537,12 +4634,12 @@
     "verse": 22,
     "content": [
       {
+        "paragraph": true,
         "text": "It was the Feast of the Dedication",
         "foot": {
           "type": "stu",
           "content": "The “Feast of the Dedication” is the Greek name for “Hanukkah”, a celebration of the rededication of the Temple."
-        },
-        "paragraph": true
+        }
       },
       " at Jerusalem."
     ]
@@ -4565,11 +4662,11 @@
     "verse": 25,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “I told you, and you don’t believe. The works that I do in my Father’s name, these testify about me.",
+        "text": "“I told you, and you don’t believe. The works that I do in my Father’s name, these testify about me.",
         "marks": ["woc"]
       }
     ]
@@ -4624,8 +4721,8 @@
     "chapter": 10,
     "verse": 31,
     "content": {
-      "text": "Therefore the Jews took up stones again to stone him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore the Jews took up stones again to stone him."
     }
   },
   {
@@ -4633,9 +4730,9 @@
     "chapter": 10,
     "verse": 32,
     "content": [
-      "Jesus answered them,",
+      "Jesus answered them, ",
       {
-        "text": " “I have shown you many good works from my Father. For which of those works do you stone me?”",
+        "text": "“I have shown you many good works from my Father. For which of those works do you stone me?”",
         "marks": ["woc"]
       }
     ]
@@ -4645,8 +4742,8 @@
     "chapter": 10,
     "verse": 33,
     "content": {
-      "text": "The Jews answered him, “We don’t stone you for a good work, but for blasphemy, because you, being a man, make yourself God.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews answered him, “We don’t stone you for a good work, but for blasphemy, because you, being a man, make yourself God.”"
     }
   },
   {
@@ -4655,11 +4752,11 @@
     "verse": 34,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “Isn’t it written in your law, ‘I said, you are gods’?",
+        "text": "“Isn’t it written in your law, ‘I said, you are gods’?",
         "marks": ["woc"],
         "foot": {
           "type": "xrf",
@@ -4709,8 +4806,8 @@
     "chapter": 10,
     "verse": 39,
     "content": {
-      "text": "They sought again to seize him, and he went out of their hand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They sought again to seize him, and he went out of their hand."
     }
   },
   {
@@ -4736,8 +4833,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "Now a certain man was sick, Lazarus from Bethany, of the village of Mary and her sister, Martha.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now a certain man was sick, Lazarus from Bethany, of the village of Mary and her sister, Martha."
     }
   },
   {
@@ -4758,11 +4855,11 @@
     "verse": 4,
     "content": [
       {
-        "text": "But when Jesus heard it, he said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "But when Jesus heard it, he said, "
       },
       {
-        "text": " “This sickness is not to death, but for the glory of God, that God’s Son may be glorified by it.”",
+        "text": "“This sickness is not to death, but for the glory of God, that God’s Son may be glorified by it.”",
         "marks": ["woc"]
       }
     ]
@@ -4784,9 +4881,9 @@
     "chapter": 11,
     "verse": 7,
     "content": [
-      "Then after this he said to the disciples,",
+      "Then after this he said to the disciples, ",
       {
-        "text": " “Let’s go into Judea again.”",
+        "text": "“Let’s go into Judea again.”",
         "marks": ["woc"]
       }
     ]
@@ -4796,8 +4893,8 @@
     "chapter": 11,
     "verse": 8,
     "content": {
-      "text": "The disciples asked him, “Rabbi, the Jews were just trying to stone you. Are you going there again?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The disciples asked him, “Rabbi, the Jews were just trying to stone you. Are you going there again?”"
     }
   },
   {
@@ -4806,11 +4903,11 @@
     "verse": 9,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “Aren’t there twelve hours of daylight? If a man walks in the day, he doesn’t stumble, because he sees the light of this world.",
+        "text": "“Aren’t there twelve hours of daylight? If a man walks in the day, he doesn’t stumble, because he sees the light of this world.",
         "marks": ["woc"]
       }
     ]
@@ -4829,9 +4926,9 @@
     "chapter": 11,
     "verse": 11,
     "content": [
-      "He said these things, and after that, he said to them,",
+      "He said these things, and after that, he said to them, ",
       {
-        "text": " “Our friend Lazarus has fallen asleep, but I am going so that I may awake him out of sleep.”",
+        "text": "“Our friend Lazarus has fallen asleep, but I am going so that I may awake him out of sleep.”",
         "marks": ["woc"]
       }
     ]
@@ -4841,8 +4938,8 @@
     "chapter": 11,
     "verse": 12,
     "content": {
-      "text": "The disciples therefore said, “Lord, if he has fallen asleep, he will recover.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The disciples therefore said, “Lord, if he has fallen asleep, he will recover.”"
     }
   },
   {
@@ -4850,8 +4947,8 @@
     "chapter": 11,
     "verse": 13,
     "content": {
-      "text": "Now Jesus had spoken of his death, but they thought that he spoke of taking rest in sleep.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Jesus had spoken of his death, but they thought that he spoke of taking rest in sleep."
     }
   },
   {
@@ -4859,9 +4956,9 @@
     "chapter": 11,
     "verse": 14,
     "content": [
-      "So Jesus said to them plainly then,",
+      "So Jesus said to them plainly then, ",
       {
-        "text": " “Lazarus is dead.",
+        "text": "“Lazarus is dead.",
         "marks": ["woc"]
       }
     ]
@@ -4881,12 +4978,12 @@
     "verse": 16,
     "content": [
       {
+        "paragraph": true,
         "text": "Thomas therefore, who is called Didymus,",
         "foot": {
           "type": "stu",
           "content": "“Didymus” means “Twin”."
-        },
-        "paragraph": true
+        }
       },
       " said to his fellow disciples, “Let’s also go, that we may die with him.”"
     ]
@@ -4896,8 +4993,8 @@
     "chapter": 11,
     "verse": 17,
     "content": {
-      "text": "So when Jesus came, he found that he had been in the tomb four days already.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So when Jesus came, he found that he had been in the tomb four days already."
     }
   },
   {
@@ -4945,11 +5042,11 @@
     "verse": 23,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “Your brother will rise again.”",
+        "text": "“Your brother will rise again.”",
         "marks": ["woc"]
       }
     ]
@@ -4959,8 +5056,8 @@
     "chapter": 11,
     "verse": 24,
     "content": {
-      "text": "Martha said to him, “I know that he will rise again in the resurrection at the last day.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Martha said to him, “I know that he will rise again in the resurrection at the last day.”"
     }
   },
   {
@@ -4969,11 +5066,11 @@
     "verse": 25,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “I am the resurrection and the life. He who believes in me will still live, even if he dies.",
+        "text": "“I am the resurrection and the life. He who believes in me will still live, even if he dies.",
         "marks": ["woc"]
       }
     ]
@@ -4992,8 +5089,8 @@
     "chapter": 11,
     "verse": 27,
     "content": {
-      "text": "She said to him, “Yes, Lord. I have come to believe that you are the Christ, God’s Son, he who comes into the world.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "She said to him, “Yes, Lord. I have come to believe that you are the Christ, God’s Son, he who comes into the world.”"
     }
   },
   {
@@ -5001,8 +5098,8 @@
     "chapter": 11,
     "verse": 28,
     "content": {
-      "text": "When she had said this, she went away and called Mary, her sister, secretly, saying, “The Teacher is here and is calling you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When she had said this, she went away and called Mary, her sister, secretly, saying, “The Teacher is here and is calling you.”"
     }
   },
   {
@@ -5010,8 +5107,8 @@
     "chapter": 11,
     "verse": 29,
     "content": {
-      "text": "When she heard this, she arose quickly and went to him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When she heard this, she arose quickly and went to him."
     }
   },
   {
@@ -5031,8 +5128,8 @@
     "chapter": 11,
     "verse": 32,
     "content": {
-      "text": "Therefore when Mary came to where Jesus was and saw him, she fell down at his feet, saying to him, “Lord, if you would have been here, my brother wouldn’t have died.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore when Mary came to where Jesus was and saw him, she fell down at his feet, saying to him, “Lord, if you would have been here, my brother wouldn’t have died.”"
     }
   },
   {
@@ -5040,8 +5137,8 @@
     "chapter": 11,
     "verse": 33,
     "content": {
-      "text": "When Jesus therefore saw her weeping, and the Jews weeping who came with her, he groaned in the spirit and was troubled,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Jesus therefore saw her weeping, and the Jews weeping who came with her, he groaned in the spirit and was troubled,"
     }
   },
   {
@@ -5049,12 +5146,15 @@
     "chapter": 11,
     "verse": 34,
     "content": [
-      "and said,",
+      "and said, ",
       {
-        "text": " “Where have you laid him?”",
+        "text": "“Where have you laid him?”",
         "marks": ["woc"]
       },
-      " They told him, “Lord, come and see.”"
+      {
+        "paragraph": true,
+        "text": "They told him, “Lord, come and see.”"
+      }
     ]
   },
   {
@@ -5062,8 +5162,8 @@
     "chapter": 11,
     "verse": 35,
     "content": {
-      "text": "Jesus wept.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jesus wept."
     }
   },
   {
@@ -5071,8 +5171,8 @@
     "chapter": 11,
     "verse": 36,
     "content": {
-      "text": "The Jews therefore said, “See how much affection he had for him!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews therefore said, “See how much affection he had for him!”"
     }
   },
   {
@@ -5086,8 +5186,8 @@
     "chapter": 11,
     "verse": 38,
     "content": {
-      "text": "Jesus therefore, again groaning in himself, came to the tomb. Now it was a cave, and a stone lay against it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jesus therefore, again groaning in himself, came to the tomb. Now it was a cave, and a stone lay against it."
     }
   },
   {
@@ -5095,12 +5195,15 @@
     "chapter": 11,
     "verse": 39,
     "content": [
-      "Jesus said,",
+      "Jesus said, ",
       {
-        "text": " “Take away the stone.”",
+        "text": "“Take away the stone.”",
         "marks": ["woc"]
       },
-      " Martha, the sister of him who was dead, said to him, “Lord, by this time there is a stench, for he has been dead four days.”"
+      {
+        "paragraph": true,
+        "text": "Martha, the sister of him who was dead, said to him, “Lord, by this time there is a stench, for he has been dead four days.”"
+      }
     ]
   },
   {
@@ -5109,11 +5212,11 @@
     "verse": 40,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “Didn’t I tell you that if you believed, you would see God’s glory?”",
+        "text": "“Didn’t I tell you that if you believed, you would see God’s glory?”",
         "marks": ["woc"]
       }
     ]
@@ -5124,16 +5227,16 @@
     "verse": 41,
     "content": [
       {
+        "paragraph": true,
         "text": "So they took away the stone from the place where the dead man was lying.",
         "foot": {
           "type": "stu",
           "content": "NU omits “from the place where the dead man was lying.”"
-        },
-        "paragraph": true
+        }
       },
-      " Jesus lifted up his eyes and said,",
+      " Jesus lifted up his eyes and said, ",
       {
-        "text": " “Father, I thank you that you listened to me.",
+        "text": "“Father, I thank you that you listened to me.",
         "marks": ["woc"]
       }
     ]
@@ -5152,9 +5255,9 @@
     "chapter": 11,
     "verse": 43,
     "content": [
-      "When he had said this, he cried with a loud voice,",
+      "When he had said this, he cried with a loud voice, ",
       {
-        "text": " “Lazarus, come out!”",
+        "text": "“Lazarus, come out!”",
         "marks": ["woc"]
       }
     ]
@@ -5165,11 +5268,15 @@
     "verse": 44,
     "content": [
       {
-        "text": "He who was dead came out, bound hand and foot with wrappings, and his face was wrapped around with a cloth. Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "He who was dead came out, bound hand and foot with wrappings, and his face was wrapped around with a cloth."
       },
       {
-        "text": " “Free him, and let him go.”",
+        "paragraph": true,
+        "text": "Jesus said to them, "
+      },
+      {
+        "text": "“Free him, and let him go.”",
         "marks": ["woc"]
       }
     ]
@@ -5179,8 +5286,8 @@
     "chapter": 11,
     "verse": 45,
     "content": {
-      "text": "Therefore many of the Jews who came to Mary and saw what Jesus did believed in him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore many of the Jews who came to Mary and saw what Jesus did believed in him."
     }
   },
   {
@@ -5206,8 +5313,8 @@
     "chapter": 11,
     "verse": 49,
     "content": {
-      "text": "But a certain one of them, Caiaphas, being high priest that year, said to them, “You know nothing at all,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But a certain one of them, Caiaphas, being high priest that year, said to them, “You know nothing at all,"
     }
   },
   {
@@ -5245,8 +5352,8 @@
     "chapter": 11,
     "verse": 55,
     "content": {
-      "text": "Now the Passover of the Jews was at hand. Many went up from the country to Jerusalem before the Passover, to purify themselves.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the Passover of the Jews was at hand. Many went up from the country to Jerusalem before the Passover, to purify themselves."
     }
   },
   {
@@ -5266,8 +5373,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "Then, six days before the Passover, Jesus came to Bethany, where Lazarus was, who had been dead, whom he raised from the dead.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then, six days before the Passover, Jesus came to Bethany, where Lazarus was, who had been dead, whom he raised from the dead."
     }
   },
   {
@@ -5296,8 +5403,8 @@
     "chapter": 12,
     "verse": 4,
     "content": {
-      "text": "Then Judas Iscariot, Simon’s son, one of his disciples, who would betray him, said,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Judas Iscariot, Simon’s son, one of his disciples, who would betray him, said,"
     }
   },
   {
@@ -5327,11 +5434,11 @@
     "verse": 7,
     "content": [
       {
-        "text": "But Jesus said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "But Jesus said, "
       },
       {
-        "text": " “Leave her alone. She has kept this for the day of my burial.",
+        "text": "“Leave her alone. She has kept this for the day of my burial.",
         "marks": ["woc"]
       }
     ]
@@ -5350,8 +5457,8 @@
     "chapter": 12,
     "verse": 9,
     "content": {
-      "text": "A large crowd therefore of the Jews learned that he was there; and they came, not for Jesus’ sake only, but that they might see Lazarus also, whom he had raised from the dead.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "A large crowd therefore of the Jews learned that he was there; and they came, not for Jesus’ sake only, but that they might see Lazarus also, whom he had raised from the dead."
     }
   },
   {
@@ -5371,8 +5478,8 @@
     "chapter": 12,
     "verse": 12,
     "content": {
-      "text": "On the next day a great multitude had come to the feast. When they heard that Jesus was coming to Jerusalem,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the next day a great multitude had come to the feast. When they heard that Jesus was coming to Jerusalem,"
     }
   },
   {
@@ -5402,8 +5509,8 @@
     "chapter": 12,
     "verse": 14,
     "content": {
-      "text": "Jesus, having found a young donkey, sat on it. As it is written,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jesus, having found a young donkey, sat on it. As it is written,"
     }
   },
   {
@@ -5447,8 +5554,8 @@
     "chapter": 12,
     "verse": 20,
     "content": {
-      "text": "Now there were certain Greeks among those who went up to worship at the feast.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now there were certain Greeks among those who went up to worship at the feast."
     }
   },
   {
@@ -5469,11 +5576,11 @@
     "verse": 23,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “The time has come for the Son of Man to be glorified.",
+        "text": "“The time has come for the Son of Man to be glorified.",
         "marks": ["woc"]
       }
     ]
@@ -5510,9 +5617,9 @@
     "chapter": 12,
     "verse": 27,
     "content": {
+      "paragraph": true,
       "text": "“Now my soul is troubled. What shall I say? ‘Father, save me from this time’? But I came to this time for this cause.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -5524,7 +5631,10 @@
         "text": "Father, glorify your name!”",
         "marks": ["woc"]
       },
-      " Then a voice came out of the sky, saying, “I have both glorified it and will glorify it again.”"
+      {
+        "paragraph": true,
+        "text": "Then a voice came out of the sky, saying, “I have both glorified it and will glorify it again.”"
+      }
     ]
   },
   {
@@ -5532,8 +5642,8 @@
     "chapter": 12,
     "verse": 29,
     "content": {
-      "text": "Therefore the multitude who stood by and heard it said that it had thundered. Others said, “An angel has spoken to him.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore the multitude who stood by and heard it said that it had thundered. Others said, “An angel has spoken to him.”"
     }
   },
   {
@@ -5542,11 +5652,11 @@
     "verse": 30,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “This voice hasn’t come for my sake, but for your sakes.",
+        "text": "“This voice hasn’t come for my sake, but for your sakes.",
         "marks": ["woc"]
       }
     ]
@@ -5581,16 +5691,16 @@
     "verse": 34,
     "content": [
       {
+        "paragraph": true,
         "text": "The multitude answered him, “We have heard out of the law that the Christ remains forever.",
         "foot": {
           "type": "xrf",
           "content": "Isaiah 9:7; Daniel 2:44; See Isaiah 53:8"
-        },
-        "paragraph": true
+        }
       },
-      " How do you say,",
+      " How do you say, ",
       {
-        "text": " ‘The Son of Man must be lifted up’",
+        "text": "‘The Son of Man must be lifted up’",
         "marks": ["woc"]
       },
       "? Who is this Son of Man?”"
@@ -5602,11 +5712,11 @@
     "verse": 35,
     "content": [
       {
-        "text": "Jesus therefore said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus therefore said to them, "
       },
       {
-        "text": " “Yet a little while the light is with you. Walk while you have the light, that darkness doesn’t overtake you. He who walks in the darkness doesn’t know where he is going.",
+        "text": "“Yet a little while the light is with you. Walk while you have the light, that darkness doesn’t overtake you. He who walks in the darkness doesn’t know where he is going.",
         "marks": ["woc"]
       }
     ]
@@ -5656,9 +5766,8 @@
     "chapter": 12,
     "verse": 39,
     "content": {
-      "text": "For this cause they couldn’t believe, for Isaiah said again:",
       "paragraph": true,
-      "break": true
+      "text": "For this cause they couldn’t believe, for Isaiah said again:"
     }
   },
   {
@@ -5696,12 +5805,12 @@
     "chapter": 12,
     "verse": 41,
     "content": {
+      "paragraph": true,
       "text": "Isaiah said these things when he saw his glory, and spoke of him.",
       "foot": {
         "type": "xrf",
         "content": "Isaiah 6:1"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -5722,11 +5831,11 @@
     "verse": 44,
     "content": [
       {
-        "text": "Jesus cried out and said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus cried out and said, "
       },
       {
-        "text": " “Whoever believes in me, believes not in me, but in him who sent me.",
+        "text": "“Whoever believes in me, believes not in me, but in him who sent me.",
         "marks": ["woc"]
       }
     ]
@@ -5790,8 +5899,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "Now before the feast of the Passover, Jesus, knowing that his time had come that he would depart from this world to the Father, having loved his own who were in the world, he loved them to the end.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now before the feast of the Passover, Jesus, knowing that his time had come that he would depart from this world to the Father, having loved his own who were in the world, he loved them to the end."
     }
   },
   {
@@ -5830,11 +5939,11 @@
     "verse": 7,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “You don’t know what I am doing now, but you will understand later.”",
+        "text": "“You don’t know what I am doing now, but you will understand later.”",
         "marks": ["woc"]
       }
     ]
@@ -5845,11 +5954,15 @@
     "verse": 8,
     "content": [
       {
-        "text": "Peter said to him, “You will never wash my feet!” Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Peter said to him, “You will never wash my feet!”"
       },
       {
-        "text": " “If I don’t wash you, you have no part with me.”",
+        "paragraph": true,
+        "text": "Jesus answered him, "
+      },
+      {
+        "text": "“If I don’t wash you, you have no part with me.”",
         "marks": ["woc"]
       }
     ]
@@ -5859,8 +5972,8 @@
     "chapter": 13,
     "verse": 9,
     "content": {
-      "text": "Simon Peter said to him, “Lord, not my feet only, but also my hands and my head!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Simon Peter said to him, “Lord, not my feet only, but also my hands and my head!”"
     }
   },
   {
@@ -5869,11 +5982,11 @@
     "verse": 10,
     "content": [
       {
-        "text": "Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to him, "
       },
       {
-        "text": " “Someone who has bathed only needs to have his feet washed, but is completely clean. You are clean, but not all of you.”",
+        "text": "“Someone who has bathed only needs to have his feet washed, but is completely clean. You are clean, but not all of you.”",
         "marks": ["woc"]
       }
     ]
@@ -5883,9 +5996,9 @@
     "chapter": 13,
     "verse": 11,
     "content": [
-      "For he knew him who would betray him; therefore he said,",
+      "For he knew him who would betray him; therefore he said, ",
       {
-        "text": " “You are not all clean.”",
+        "text": "“You are not all clean.”",
         "marks": ["woc"]
       }
     ]
@@ -5895,9 +6008,9 @@
     "chapter": 13,
     "verse": 12,
     "content": [
-      "So when he had washed their feet, put his outer garment back on, and sat down again, he said to them,",
+      "So when he had washed their feet, put his outer garment back on, and sat down again, he said to them, ",
       {
-        "text": " “Do you know what I have done to you?",
+        "text": "“Do you know what I have done to you?",
         "marks": ["woc"]
       }
     ]
@@ -5984,11 +6097,11 @@
     "verse": 21,
     "content": [
       {
-        "text": "When Jesus had said this, he was troubled in spirit, and testified,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "When Jesus had said this, he was troubled in spirit, and testified, "
       },
       {
-        "text": " “Most certainly I tell you that one of you will betray me.”",
+        "text": "“Most certainly I tell you that one of you will betray me.”",
         "marks": ["woc"]
       }
     ]
@@ -5998,8 +6111,8 @@
     "chapter": 13,
     "verse": 22,
     "content": {
-      "text": "The disciples looked at one another, perplexed about whom he spoke.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The disciples looked at one another, perplexed about whom he spoke."
     }
   },
   {
@@ -6019,8 +6132,8 @@
     "chapter": 13,
     "verse": 25,
     "content": {
-      "text": "He, leaning back, as he was, on Jesus’ breast, asked him, “Lord, who is it?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He, leaning back, as he was, on Jesus’ breast, asked him, “Lord, who is it?”"
     }
   },
   {
@@ -6029,11 +6142,11 @@
     "verse": 26,
     "content": [
       {
-        "text": "Jesus therefore answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus therefore answered, "
       },
       {
-        "text": " “It is he to whom I will give this piece of bread when I have dipped it.”",
+        "text": "“It is he to whom I will give this piece of bread when I have dipped it.”",
         "marks": ["woc"]
       },
       " So when he had dipped the piece of bread, he gave it to Judas, the son of Simon Iscariot."
@@ -6044,9 +6157,13 @@
     "chapter": 13,
     "verse": 27,
     "content": [
-      "After the piece of bread, then Satan entered into him. Then Jesus said to him,",
+      "After the piece of bread, then Satan entered into him.",
       {
-        "text": " “What you do, do quickly.”",
+        "paragraph": true,
+        "text": "Then Jesus said to him, "
+      },
+      {
+        "text": "“What you do, do quickly.”",
         "marks": ["woc"]
       }
     ]
@@ -6056,8 +6173,8 @@
     "chapter": 13,
     "verse": 28,
     "content": {
-      "text": "Now nobody at the table knew why he said this to him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now nobody at the table knew why he said this to him."
     }
   },
   {
@@ -6078,11 +6195,11 @@
     "verse": 31,
     "content": [
       {
-        "text": "When he had gone out, Jesus said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "When he had gone out, Jesus said, "
       },
       {
-        "text": " “Now the Son of Man has been glorified, and God has been glorified in him.",
+        "text": "“Now the Son of Man has been glorified, and God has been glorified in him.",
         "marks": ["woc"]
       }
     ]
@@ -6129,11 +6246,15 @@
     "verse": 36,
     "content": [
       {
-        "text": "Simon Peter said to him, “Lord, where are you going?” Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Simon Peter said to him, “Lord, where are you going?”"
       },
       {
-        "text": " “Where I am going, you can’t follow now, but you will follow afterwards.”",
+        "paragraph": true,
+        "text": "Jesus answered, "
+      },
+      {
+        "text": "“Where I am going, you can’t follow now, but you will follow afterwards.”",
         "marks": ["woc"]
       }
     ]
@@ -6143,8 +6264,8 @@
     "chapter": 13,
     "verse": 37,
     "content": {
-      "text": "Peter said to him, “Lord, why can’t I follow you now? I will lay down my life for you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Peter said to him, “Lord, why can’t I follow you now? I will lay down my life for you.”"
     }
   },
   {
@@ -6153,11 +6274,11 @@
     "verse": 38,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “Will you lay down your life for me? Most certainly I tell you, the rooster won’t crow until you have denied me three times.",
+        "text": "“Will you lay down your life for me? Most certainly I tell you, the rooster won’t crow until you have denied me three times.",
         "marks": ["woc"]
       }
     ]
@@ -6167,9 +6288,9 @@
     "chapter": 14,
     "verse": 1,
     "content": {
+      "paragraph": true,
       "text": "“Don’t let your heart be troubled. Believe in God. Believe also in me.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6204,8 +6325,8 @@
     "chapter": 14,
     "verse": 5,
     "content": {
-      "text": "Thomas said to him, “Lord, we don’t know where you are going. How can we know the way?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thomas said to him, “Lord, we don’t know where you are going. How can we know the way?”"
     }
   },
   {
@@ -6214,11 +6335,11 @@
     "verse": 6,
     "content": [
       {
-        "text": "Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to him, "
       },
       {
-        "text": " “I am the way, the truth, and the life. No one comes to the Father, except through me.",
+        "text": "“I am the way, the truth, and the life. No one comes to the Father, except through me.",
         "marks": ["woc"]
       }
     ]
@@ -6237,8 +6358,8 @@
     "chapter": 14,
     "verse": 8,
     "content": {
-      "text": "Philip said to him, “Lord, show us the Father, and that will be enough for us.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Philip said to him, “Lord, show us the Father, and that will be enough for us.”"
     }
   },
   {
@@ -6247,11 +6368,11 @@
     "verse": 9,
     "content": [
       {
-        "text": "Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to him, "
       },
       {
-        "text": " “Have I been with you such a long time, and do you not know me, Philip? He who has seen me has seen the Father. How do you say, ‘Show us the Father’?",
+        "text": "“Have I been with you such a long time, and do you not know me, Philip? He who has seen me has seen the Father. How do you say, ‘Show us the Father’?",
         "marks": ["woc"]
       }
     ]
@@ -6321,17 +6442,18 @@
         "foot": {
           "type": "stu",
           "content": [
-            "Greek",
+            "Greek ",
             {
-              "text": " παρακλητον",
+              "text": "παρακλητον",
               "script": "G"
             },
             ": Counselor, Helper, Intercessor, Advocate, and Comforter."
           ]
         }
       },
+      " ",
       {
-        "text": " that he may be with you forever:",
+        "text": "that he may be with you forever:",
         "marks": ["woc"]
       }
     ]
@@ -6386,8 +6508,8 @@
     "chapter": 14,
     "verse": 22,
     "content": {
-      "text": "Judas (not Iscariot) said to him, “Lord, what has happened that you are about to reveal yourself to us, and not to the world?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Judas (not Iscariot) said to him, “Lord, what has happened that you are about to reveal yourself to us, and not to the world?”"
     }
   },
   {
@@ -6396,11 +6518,11 @@
     "verse": 23,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “If a man loves me, he will keep my word. My Father will love him, and we will come to him and make our home with him.",
+        "text": "“If a man loves me, he will keep my word. My Father will love him, and we will come to him and make our home with him.",
         "marks": ["woc"]
       }
     ]
@@ -6419,9 +6541,9 @@
     "chapter": 14,
     "verse": 25,
     "content": {
+      "paragraph": true,
       "text": "“I have said these things to you while still living with you.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6483,9 +6605,9 @@
     "chapter": 15,
     "verse": 1,
     "content": {
+      "paragraph": true,
       "text": "“I am the true vine, and my Father is the farmer.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6547,9 +6669,9 @@
     "chapter": 15,
     "verse": 8,
     "content": {
+      "paragraph": true,
       "text": "“In this my Father is glorified, that you bear much fruit; and so you will be my disciples.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6584,9 +6706,9 @@
     "chapter": 15,
     "verse": 12,
     "content": {
+      "paragraph": true,
       "text": "“This is my commandment, that you love one another, even as I have loved you.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6630,9 +6752,9 @@
     "chapter": 15,
     "verse": 17,
     "content": {
+      "paragraph": true,
       "text": "“I command these things to you, that you may love one another.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6666,8 +6788,9 @@
           "content": "John 13:16"
         }
       },
+      " ",
       {
-        "text": " If they persecuted me, they will also persecute you. If they kept my word, they will also keep yours.",
+        "text": "If they persecuted me, they will also persecute you. If they kept my word, they will also keep yours.",
         "marks": ["woc"]
       }
     ]
@@ -6727,16 +6850,17 @@
     "verse": 26,
     "content": [
       {
+        "paragraph": true,
         "text": "“When the Counselor",
         "marks": ["woc"],
         "foot": {
           "type": "stu",
           "content": "Greek Parakletos: Counselor, Helper, Advocate, Intercessor, and Comforter."
-        },
-        "paragraph": true
+        }
       },
+      " ",
       {
-        "text": " has come, whom I will send to you from the Father, the Spirit of truth, who proceeds from the Father, he will testify about me.",
+        "text": "has come, whom I will send to you from the Father, the Spirit of truth, who proceeds from the Father, he will testify about me.",
         "marks": ["woc"]
       }
     ]
@@ -6755,9 +6879,9 @@
     "chapter": 16,
     "verse": 1,
     "content": {
+      "paragraph": true,
       "text": "“I have said these things to you so that you wouldn’t be caused to stumble.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6782,8 +6906,9 @@
           "content": "TR adds “to you”"
         }
       },
+      " ",
       {
-        "text": " because they have not known the Father nor me.",
+        "text": "because they have not known the Father nor me.",
         "marks": ["woc"]
       }
     ]
@@ -6865,9 +6990,9 @@
     "chapter": 16,
     "verse": 12,
     "content": {
+      "paragraph": true,
       "text": "“I still have many things to tell you, but you can’t bear them now.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6901,8 +7026,9 @@
           "content": "TR reads “will take” instead of “takes”"
         }
       },
+      " ",
       {
-        "text": " of mine and will declare it to you.",
+        "text": "of mine and will declare it to you.",
         "marks": ["woc"]
       }
     ]
@@ -6912,9 +7038,9 @@
     "chapter": 16,
     "verse": 16,
     "content": {
+      "paragraph": true,
       "text": "“A little while, and you will not see me. Again a little while, and you will see me.”",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -6923,16 +7049,16 @@
     "verse": 17,
     "content": [
       {
-        "text": "Some of his disciples therefore said to one another, “What is this that he says to us,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Some of his disciples therefore said to one another, “What is this that he says to us, "
       },
       {
-        "text": " ‘A little while, and you won’t see me, and again a little while, and you will see me;’",
+        "text": "‘A little while, and you won’t see me, and again a little while, and you will see me;’",
         "marks": ["woc"]
       },
-      " and,",
+      " and, ",
       {
-        "text": " ‘Because I go to the Father’",
+        "text": "‘Because I go to the Father’",
         "marks": ["woc"]
       },
       "?”"
@@ -6943,9 +7069,9 @@
     "chapter": 16,
     "verse": 18,
     "content": [
-      "They said therefore, “What is this that he says,",
+      "They said therefore, “What is this that he says, ",
       {
-        "text": " ‘A little while’",
+        "text": "‘A little while’",
         "marks": ["woc"]
       },
       "? We don’t know what he is saying.”"
@@ -6957,11 +7083,11 @@
     "verse": 19,
     "content": [
       {
-        "text": "Therefore Jesus perceived that they wanted to ask him, and he said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Therefore Jesus perceived that they wanted to ask him, and he said to them, "
       },
       {
-        "text": " “Do you inquire among yourselves concerning this, that I said, ‘A little while, and you won’t see me, and again a little while, and you will see me’?",
+        "text": "“Do you inquire among yourselves concerning this, that I said, ‘A little while, and you won’t see me, and again a little while, and you will see me’?",
         "marks": ["woc"]
       }
     ]
@@ -6998,9 +7124,9 @@
     "chapter": 16,
     "verse": 23,
     "content": {
+      "paragraph": true,
       "text": "“In that day you will ask me no questions. Most certainly I tell you, whatever you may ask of the Father in my name, he will give it to you.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -7017,9 +7143,9 @@
     "chapter": 16,
     "verse": 25,
     "content": {
+      "paragraph": true,
       "text": "“I have spoken these things to you in figures of speech. But the time is coming when I will no more speak to you in figures of speech, but will tell you plainly about the Father.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -7054,8 +7180,8 @@
     "chapter": 16,
     "verse": 29,
     "content": {
-      "text": "His disciples said to him, “Behold, now you are speaking plainly, and using no figures of speech.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "His disciples said to him, “Behold, now you are speaking plainly, and using no figures of speech."
     }
   },
   {
@@ -7070,11 +7196,11 @@
     "verse": 31,
     "content": [
       {
-        "text": "Jesus answered them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered them, "
       },
       {
-        "text": " “Do you now believe?",
+        "text": "“Do you now believe?",
         "marks": ["woc"]
       }
     ]
@@ -7103,11 +7229,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Jesus said these things, then lifting up his eyes to heaven, he said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said these things, then lifting up his eyes to heaven, he said, "
       },
       {
-        "text": " “Father, the time has come. Glorify your Son, that your Son may also glorify you;",
+        "text": "“Father, the time has come. Glorify your Son, that your Son may also glorify you;",
         "marks": ["woc"]
       }
     ]
@@ -7153,9 +7279,9 @@
     "chapter": 17,
     "verse": 6,
     "content": {
+      "paragraph": true,
       "text": "“I revealed your name to the people whom you have given me out of the world. They were yours, and you have given them to me. They have kept your word.",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -7284,9 +7410,9 @@
     "chapter": 17,
     "verse": 20,
     "content": {
+      "paragraph": true,
       "text": "“Not for these only do I pray, but for those also who will believe in me through their word,",
-      "marks": ["woc"],
-      "paragraph": true
+      "marks": ["woc"]
     }
   },
   {
@@ -7348,8 +7474,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "When Jesus had spoken these words, he went out with his disciples over the brook Kidron, where there was a garden, into which he and his disciples entered.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Jesus had spoken these words, he went out with his disciples over the brook Kidron, where there was a garden, into which he and his disciples entered."
     }
   },
   {
@@ -7369,9 +7495,9 @@
     "chapter": 18,
     "verse": 4,
     "content": [
-      "Jesus therefore, knowing all the things that were happening to him, went out and said to them,",
+      "Jesus therefore, knowing all the things that were happening to him, went out and said to them, ",
       {
-        "text": " “Who are you looking for?”",
+        "text": "“Who are you looking for?”",
         "marks": ["woc"]
       }
     ]
@@ -7382,14 +7508,21 @@
     "verse": 5,
     "content": [
       {
-        "text": "They answered him, “Jesus of Nazareth.” Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "They answered him, “Jesus of Nazareth.”"
       },
       {
-        "text": " “I am he.”",
+        "paragraph": true,
+        "text": "Jesus said to them, "
+      },
+      {
+        "text": "“I am he.”",
         "marks": ["woc"]
       },
-      " Judas also, who betrayed him, was standing with them."
+      {
+        "paragraph": true,
+        "text": "Judas also, who betrayed him, was standing with them."
+      }
     ]
   },
   {
@@ -7397,9 +7530,9 @@
     "chapter": 18,
     "verse": 6,
     "content": [
-      "When therefore he said to them,",
+      "When therefore he said to them, ",
       {
-        "text": " “I am he,”",
+        "text": "“I am he,”",
         "marks": ["woc"]
       },
       " they went backward and fell to the ground."
@@ -7411,14 +7544,17 @@
     "verse": 7,
     "content": [
       {
-        "text": "Again therefore he asked them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Again therefore he asked them, "
       },
       {
-        "text": " “Who are you looking for?”",
+        "text": "“Who are you looking for?”",
         "marks": ["woc"]
       },
-      " They said, “Jesus of Nazareth.”"
+      {
+        "paragraph": true,
+        "text": "They said, “Jesus of Nazareth.”"
+      }
     ]
   },
   {
@@ -7427,11 +7563,11 @@
     "verse": 8,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “I told you that I am he. If therefore you seek me, let these go their way,”",
+        "text": "“I told you that I am he. If therefore you seek me, let these go their way,”",
         "marks": ["woc"]
       }
     ]
@@ -7441,9 +7577,9 @@
     "chapter": 18,
     "verse": 9,
     "content": [
-      "that the word might be fulfilled which he spoke,",
+      "that the word might be fulfilled which he spoke, ",
       {
-        "text": " “Of those whom you have given me, I have lost none.”",
+        "text": "“Of those whom you have given me, I have lost none.”",
         "marks": ["woc"],
         "foot": {
           "type": "xrf",
@@ -7457,8 +7593,8 @@
     "chapter": 18,
     "verse": 10,
     "content": {
-      "text": "Simon Peter therefore, having a sword, drew it, struck the high priest’s servant, and cut off his right ear. The servant’s name was Malchus.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Simon Peter therefore, having a sword, drew it, struck the high priest’s servant, and cut off his right ear. The servant’s name was Malchus."
     }
   },
   {
@@ -7466,9 +7602,9 @@
     "chapter": 18,
     "verse": 11,
     "content": [
-      "Jesus therefore said to Peter,",
+      "Jesus therefore said to Peter, ",
       {
-        "text": " “Put the sword into its sheath. The cup which the Father has given me, shall I not surely drink it?”",
+        "text": "“Put the sword into its sheath. The cup which the Father has given me, shall I not surely drink it?”",
         "marks": ["woc"]
       }
     ]
@@ -7478,8 +7614,8 @@
     "chapter": 18,
     "verse": 12,
     "content": {
-      "text": "So the detachment, the commanding officer, and the officers of the Jews seized Jesus and bound him,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So the detachment, the commanding officer, and the officers of the Jews seized Jesus and bound him,"
     }
   },
   {
@@ -7499,8 +7635,8 @@
     "chapter": 18,
     "verse": 15,
     "content": {
-      "text": "Simon Peter followed Jesus, as did another disciple. Now that disciple was known to the high priest, and entered in with Jesus into the court of the high priest;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Simon Peter followed Jesus, as did another disciple. Now that disciple was known to the high priest, and entered in with Jesus into the court of the high priest;"
     }
   },
   {
@@ -7513,15 +7649,21 @@
     "book": "JHN",
     "chapter": 18,
     "verse": 17,
-    "content": "Then the maid who kept the door said to Peter, “Are you also one of this man’s disciples?” He said, “I am not.”"
+    "content": [
+      "Then the maid who kept the door said to Peter, “Are you also one of this man’s disciples?”",
+      {
+        "paragraph": true,
+        "text": "He said, “I am not.”"
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 18,
     "verse": 18,
     "content": {
-      "text": "Now the servants and the officers were standing there, having made a fire of coals, for it was cold. They were warming themselves. Peter was with them, standing and warming himself.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the servants and the officers were standing there, having made a fire of coals, for it was cold. They were warming themselves. Peter was with them, standing and warming himself."
     }
   },
   {
@@ -7529,8 +7671,8 @@
     "chapter": 18,
     "verse": 19,
     "content": {
-      "text": "The high priest therefore asked Jesus about his disciples and about his teaching.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The high priest therefore asked Jesus about his disciples and about his teaching."
     }
   },
   {
@@ -7539,11 +7681,11 @@
     "verse": 20,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “I spoke openly to the world. I always taught in synagogues and in the temple, where the Jews always meet. I said nothing in secret.",
+        "text": "“I spoke openly to the world. I always taught in synagogues and in the temple, where the Jews always meet. I said nothing in secret.",
         "marks": ["woc"]
       }
     ]
@@ -7562,8 +7704,8 @@
     "chapter": 18,
     "verse": 22,
     "content": {
-      "text": "When he had said this, one of the officers standing by slapped Jesus with his hand, saying, “Do you answer the high priest like that?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When he had said this, one of the officers standing by slapped Jesus with his hand, saying, “Do you answer the high priest like that?”"
     }
   },
   {
@@ -7572,11 +7714,11 @@
     "verse": 23,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “If I have spoken evil, testify of the evil; but if well, why do you beat me?”",
+        "text": "“If I have spoken evil, testify of the evil; but if well, why do you beat me?”",
         "marks": ["woc"]
       }
     ]
@@ -7586,26 +7728,32 @@
     "chapter": 18,
     "verse": 24,
     "content": {
-      "text": "Annas sent him bound to Caiaphas, the high priest.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Annas sent him bound to Caiaphas, the high priest."
     }
   },
   {
     "book": "JHN",
     "chapter": 18,
     "verse": 25,
-    "content": {
-      "text": "Now Simon Peter was standing and warming himself. They said therefore to him, “You aren’t also one of his disciples, are you?” He denied it and said, “I am not.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now Simon Peter was standing and warming himself. They said therefore to him, “You aren’t also one of his disciples, are you?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He denied it and said, “I am not.”"
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 18,
     "verse": 26,
     "content": {
-      "text": "One of the servants of the high priest, being a relative of him whose ear Peter had cut off, said, “Didn’t I see you in the garden with him?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "One of the servants of the high priest, being a relative of him whose ear Peter had cut off, said, “Didn’t I see you in the garden with him?”"
     }
   },
   {
@@ -7613,8 +7761,8 @@
     "chapter": 18,
     "verse": 27,
     "content": {
-      "text": "Peter therefore denied it again, and immediately the rooster crowed.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Peter therefore denied it again, and immediately the rooster crowed."
     }
   },
   {
@@ -7622,8 +7770,8 @@
     "chapter": 18,
     "verse": 28,
     "content": {
-      "text": "They led Jesus therefore from Caiaphas into the Praetorium. It was early, and they themselves didn’t enter into the Praetorium, that they might not be defiled, but might eat the Passover.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They led Jesus therefore from Caiaphas into the Praetorium. It was early, and they themselves didn’t enter into the Praetorium, that they might not be defiled, but might eat the Passover."
     }
   },
   {
@@ -7637,18 +7785,24 @@
     "chapter": 18,
     "verse": 30,
     "content": {
-      "text": "They answered him, “If this man weren’t an evildoer, we wouldn’t have delivered him up to you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They answered him, “If this man weren’t an evildoer, we wouldn’t have delivered him up to you.”"
     }
   },
   {
     "book": "JHN",
     "chapter": 18,
     "verse": 31,
-    "content": {
-      "text": "Pilate therefore said to them, “Take him yourselves, and judge him according to your law.” Therefore the Jews said to him, “It is illegal for us to put anyone to death,”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Pilate therefore said to them, “Take him yourselves, and judge him according to your law.”"
+      },
+      {
+        "paragraph": true,
+        "text": "Therefore the Jews said to him, “It is illegal for us to put anyone to death,”"
+      }
+    ]
   },
   {
     "book": "JHN",
@@ -7661,8 +7815,8 @@
     "chapter": 18,
     "verse": 33,
     "content": {
-      "text": "Pilate therefore entered again into the Praetorium, called Jesus, and said to him, “Are you the King of the Jews?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pilate therefore entered again into the Praetorium, called Jesus, and said to him, “Are you the King of the Jews?”"
     }
   },
   {
@@ -7671,11 +7825,11 @@
     "verse": 34,
     "content": [
       {
-        "text": "Jesus answered him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered him, "
       },
       {
-        "text": " “Do you say this by yourself, or did others tell you about me?”",
+        "text": "“Do you say this by yourself, or did others tell you about me?”",
         "marks": ["woc"]
       }
     ]
@@ -7685,8 +7839,8 @@
     "chapter": 18,
     "verse": 35,
     "content": {
-      "text": "Pilate answered, “I’m not a Jew, am I? Your own nation and the chief priests delivered you to me. What have you done?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pilate answered, “I’m not a Jew, am I? Your own nation and the chief priests delivered you to me. What have you done?”"
     }
   },
   {
@@ -7695,11 +7849,11 @@
     "verse": 36,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “My Kingdom is not of this world. If my Kingdom were of this world, then my servants would fight, that I wouldn’t be delivered to the Jews. But now my Kingdom is not from here.”",
+        "text": "“My Kingdom is not of this world. If my Kingdom were of this world, then my servants would fight, that I wouldn’t be delivered to the Jews. But now my Kingdom is not from here.”",
         "marks": ["woc"]
       }
     ]
@@ -7710,11 +7864,15 @@
     "verse": 37,
     "content": [
       {
-        "text": "Pilate therefore said to him, “Are you a king then?” Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Pilate therefore said to him, “Are you a king then?”"
       },
       {
-        "text": " “You say that I am a king. For this reason I have been born, and for this reason I have come into the world, that I should testify to the truth. Everyone who is of the truth listens to my voice.”",
+        "paragraph": true,
+        "text": "Jesus answered, "
+      },
+      {
+        "text": "“You say that I am a king. For this reason I have been born, and for this reason I have come into the world, that I should testify to the truth. Everyone who is of the truth listens to my voice.”",
         "marks": ["woc"]
       }
     ]
@@ -7723,10 +7881,16 @@
     "book": "JHN",
     "chapter": 18,
     "verse": 38,
-    "content": {
-      "text": "Pilate said to him, “What is truth?” When he had said this, he went out again to the Jews, and said to them, “I find no basis for a charge against him.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Pilate said to him, “What is truth?”"
+      },
+      {
+        "paragraph": true,
+        "text": "When he had said this, he went out again to the Jews, and said to them, “I find no basis for a charge against him."
+      }
+    ]
   },
   {
     "book": "JHN",
@@ -7739,8 +7903,8 @@
     "chapter": 18,
     "verse": 40,
     "content": {
-      "text": "Then they all shouted again, saying, “Not this man, but Barabbas!” Now Barabbas was a robber.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then they all shouted again, saying, “Not this man, but Barabbas!” Now Barabbas was a robber."
     }
   },
   {
@@ -7748,8 +7912,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "So Pilate then took Jesus and flogged him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Pilate then took Jesus and flogged him."
     }
   },
   {
@@ -7769,8 +7933,8 @@
     "chapter": 19,
     "verse": 4,
     "content": {
-      "text": "Then Pilate went out again, and said to them, “Behold, I bring him out to you, that you may know that I find no basis for a charge against him.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Pilate went out again, and said to them, “Behold, I bring him out to you, that you may know that I find no basis for a charge against him.”"
     }
   },
   {
@@ -7778,26 +7942,32 @@
     "chapter": 19,
     "verse": 5,
     "content": {
-      "text": "Jesus therefore came out, wearing the crown of thorns and the purple garment. Pilate said to them, “Behold, the man!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jesus therefore came out, wearing the crown of thorns and the purple garment. Pilate said to them, “Behold, the man!”"
     }
   },
   {
     "book": "JHN",
     "chapter": 19,
     "verse": 6,
-    "content": {
-      "text": "When therefore the chief priests and the officers saw him, they shouted, saying, “Crucify! Crucify!” Pilate said to them, “Take him yourselves and crucify him, for I find no basis for a charge against him.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When therefore the chief priests and the officers saw him, they shouted, saying, “Crucify! Crucify!”"
+      },
+      {
+        "paragraph": true,
+        "text": "Pilate said to them, “Take him yourselves and crucify him, for I find no basis for a charge against him.”"
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 19,
     "verse": 7,
     "content": {
-      "text": "The Jews answered him, “We have a law, and by our law he ought to die, because he made himself the Son of God.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Jews answered him, “We have a law, and by our law he ought to die, because he made himself the Son of God.”"
     }
   },
   {
@@ -7805,8 +7975,8 @@
     "chapter": 19,
     "verse": 8,
     "content": {
-      "text": "When therefore Pilate heard this saying, he was more afraid.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When therefore Pilate heard this saying, he was more afraid."
     }
   },
   {
@@ -7827,11 +7997,11 @@
     "verse": 11,
     "content": [
       {
-        "text": "Jesus answered,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus answered, "
       },
       {
-        "text": " “You would have no power at all against me, unless it were given to you from above. Therefore he who delivered me to you has greater sin.”",
+        "text": "“You would have no power at all against me, unless it were given to you from above. Therefore he who delivered me to you has greater sin.”",
         "marks": ["woc"]
       }
     ]
@@ -7841,8 +8011,8 @@
     "chapter": 19,
     "verse": 12,
     "content": {
-      "text": "At this, Pilate was seeking to release him, but the Jews cried out, saying, “If you release this man, you aren’t Caesar’s friend! Everyone who makes himself a king speaks against Caesar!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At this, Pilate was seeking to release him, but the Jews cried out, saying, “If you release this man, you aren’t Caesar’s friend! Everyone who makes himself a king speaks against Caesar!”"
     }
   },
   {
@@ -7850,8 +8020,8 @@
     "chapter": 19,
     "verse": 13,
     "content": {
-      "text": "When Pilate therefore heard these words, he brought Jesus out and sat down on the judgment seat at a place called “The Pavement”, but in Hebrew, “Gabbatha.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Pilate therefore heard these words, he brought Jesus out and sat down on the judgment seat at a place called “The Pavement”, but in Hebrew, “Gabbatha.”"
     }
   },
   {
@@ -7873,18 +8043,28 @@
     "book": "JHN",
     "chapter": 19,
     "verse": 15,
-    "content": {
-      "text": "They cried out, “Away with him! Away with him! Crucify him!” Pilate said to them, “Shall I crucify your King?” The chief priests answered, “We have no king but Caesar!”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "They cried out, “Away with him! Away with him! Crucify him!”"
+      },
+      {
+        "paragraph": true,
+        "text": "Pilate said to them, “Shall I crucify your King?”"
+      },
+      {
+        "paragraph": true,
+        "text": "The chief priests answered, “We have no king but Caesar!”"
+      }
+    ]
   },
   {
     "book": "JHN",
     "chapter": 19,
     "verse": 16,
     "content": {
-      "text": "So then he delivered him to them to be crucified. So they took Jesus and led him away.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So then he delivered him to them to be crucified. So they took Jesus and led him away."
     }
   },
   {
@@ -7922,8 +8102,8 @@
     "chapter": 19,
     "verse": 22,
     "content": {
-      "text": "Pilate answered, “What I have written, I have written.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pilate answered, “What I have written, I have written.”"
     }
   },
   {
@@ -7931,8 +8111,8 @@
     "chapter": 19,
     "verse": 23,
     "content": {
-      "text": "Then the soldiers, when they had crucified Jesus, took his garments and made four parts, to every soldier a part; and also the tunic. Now the tunic was without seam, woven from the top throughout.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the soldiers, when they had crucified Jesus, took his garments and made four parts, to every soldier a part; and also the tunic. Now the tunic was without seam, woven from the top throughout."
     }
   },
   {
@@ -7962,8 +8142,8 @@
     "chapter": 19,
     "verse": 25,
     "content": {
-      "text": "But standing by Jesus’ cross were his mother, his mother’s sister, Mary the wife of Clopas, and Mary Magdalene.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But standing by Jesus’ cross were his mother, his mother’s sister, Mary the wife of Clopas, and Mary Magdalene."
     }
   },
   {
@@ -7971,9 +8151,9 @@
     "chapter": 19,
     "verse": 26,
     "content": [
-      "Therefore when Jesus saw his mother, and the disciple whom he loved standing there, he said to his mother,",
+      "Therefore when Jesus saw his mother, and the disciple whom he loved standing there, he said to his mother, ",
       {
-        "text": " “Woman, behold, your son!”",
+        "text": "“Woman, behold, your son!”",
         "marks": ["woc"]
       }
     ]
@@ -7983,9 +8163,9 @@
     "chapter": 19,
     "verse": 27,
     "content": [
-      "Then he said to the disciple,",
+      "Then he said to the disciple, ",
       {
-        "text": " “Behold, your mother!”",
+        "text": "“Behold, your mother!”",
         "marks": ["woc"]
       },
       " From that hour, the disciple took her to his own home."
@@ -7997,16 +8177,16 @@
     "verse": 28,
     "content": [
       {
+        "paragraph": true,
         "text": "After this, Jesus, seeing",
         "foot": {
           "type": "stu",
           "content": "NU, TR read “knowing” instead of “seeing”"
-        },
-        "paragraph": true
+        }
       },
-      " that all things were now finished, that the Scripture might be fulfilled, said,",
+      " that all things were now finished, that the Scripture might be fulfilled, said, ",
       {
-        "text": " “I am thirsty!”",
+        "text": "“I am thirsty!”",
         "marks": ["woc"]
       }
     ]
@@ -8022,9 +8202,9 @@
     "chapter": 19,
     "verse": 30,
     "content": [
-      "When Jesus therefore had received the vinegar, he said,",
+      "When Jesus therefore had received the vinegar, he said, ",
       {
-        "text": " “It is finished!”",
+        "text": "“It is finished!”",
         "marks": ["woc"]
       },
       " Then he bowed his head and gave up his spirit."
@@ -8035,8 +8215,8 @@
     "chapter": 19,
     "verse": 31,
     "content": {
-      "text": "Therefore the Jews, because it was the Preparation Day, so that the bodies wouldn’t remain on the cross on the Sabbath (for that Sabbath was a special one), asked of Pilate that their legs might be broken and that they might be taken away.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore the Jews, because it was the Preparation Day, so that the bodies wouldn’t remain on the cross on the Sabbath (for that Sabbath was a special one), asked of Pilate that their legs might be broken and that they might be taken away."
     }
   },
   {
@@ -8092,8 +8272,8 @@
     "chapter": 19,
     "verse": 38,
     "content": {
-      "text": "After these things, Joseph of Arimathaea, being a disciple of Jesus, but secretly for fear of the Jews, asked of Pilate that he might take away Jesus’ body. Pilate gave him permission. He came therefore and took away his body.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After these things, Joseph of Arimathaea, being a disciple of Jesus, but secretly for fear of the Jews, asked of Pilate that he might take away Jesus’ body. Pilate gave him permission. He came therefore and took away his body."
     }
   },
   {
@@ -8131,8 +8311,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "Now on the first day of the week, Mary Magdalene went early, while it was still dark, to the tomb, and saw that the stone had been taken away from the tomb.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now on the first day of the week, Mary Magdalene went early, while it was still dark, to the tomb, and saw that the stone had been taken away from the tomb."
     }
   },
   {
@@ -8146,8 +8326,8 @@
     "chapter": 20,
     "verse": 3,
     "content": {
-      "text": "Therefore Peter and the other disciple went out, and they went toward the tomb.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore Peter and the other disciple went out, and they went toward the tomb."
     }
   },
   {
@@ -8197,8 +8377,8 @@
     "chapter": 20,
     "verse": 11,
     "content": {
-      "text": "But Mary was standing outside at the tomb weeping. So as she wept, she stooped and looked into the tomb,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Mary was standing outside at the tomb weeping. So as she wept, she stooped and looked into the tomb,"
     }
   },
   {
@@ -8211,7 +8391,13 @@
     "book": "JHN",
     "chapter": 20,
     "verse": 13,
-    "content": "They asked her, “Woman, why are you weeping?” She said to them, “Because they have taken away my Lord, and I don’t know where they have laid him.”"
+    "content": [
+      "They asked her, “Woman, why are you weeping?”",
+      {
+        "paragraph": true,
+        "text": "She said to them, “Because they have taken away my Lord, and I don’t know where they have laid him.”"
+      }
+    ]
   },
   {
     "book": "JHN",
@@ -8225,14 +8411,17 @@
     "verse": 15,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “Woman, why are you weeping? Who are you looking for?”",
+        "text": "“Woman, why are you weeping? Who are you looking for?”",
         "marks": ["woc"]
       },
-      " She, supposing him to be the gardener, said to him, “Sir, if you have carried him away, tell me where you have laid him, and I will take him away.”"
+      {
+        "paragraph": true,
+        "text": "She, supposing him to be the gardener, said to him, “Sir, if you have carried him away, tell me where you have laid him, and I will take him away.”"
+      }
     ]
   },
   {
@@ -8241,15 +8430,16 @@
     "verse": 16,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “Mary.”",
+        "text": "“Mary.”",
         "marks": ["woc"]
       },
       {
-        "text": " She turned and said to him, “Rabboni!”",
+        "paragraph": true,
+        "text": "She turned and said to him, “Rabboni!”",
         "foot": {
           "type": "stu",
           "content": "Rabboni is a transliteration of the Hebrew word for “great teacher.”"
@@ -8270,11 +8460,11 @@
     "verse": 17,
     "content": [
       {
-        "text": "Jesus said to her,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to her, "
       },
       {
-        "text": " “Don’t hold me, for I haven’t yet ascended to my Father; but go to my brothers and tell them, ‘I am ascending to my Father and your Father, to my God and your God.’ ”",
+        "text": "“Don’t hold me, for I haven’t yet ascended to my Father; but go to my brothers and tell them, ‘I am ascending to my Father and your Father, to my God and your God.’ ”",
         "marks": ["woc"]
       }
     ]
@@ -8284,8 +8474,8 @@
     "chapter": 20,
     "verse": 18,
     "content": {
-      "text": "Mary Magdalene came and told the disciples that she had seen the Lord, and that he had said these things to her.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Mary Magdalene came and told the disciples that she had seen the Lord, and that he had said these things to her."
     }
   },
   {
@@ -8293,9 +8483,9 @@
     "chapter": 20,
     "verse": 19,
     "content": [
-      "When therefore it was evening on that day, the first day of the week, and when the doors were locked where the disciples were assembled, for fear of the Jews, Jesus came and stood in the middle and said to them,",
+      "When therefore it was evening on that day, the first day of the week, and when the doors were locked where the disciples were assembled, for fear of the Jews, Jesus came and stood in the middle and said to them, ",
       {
-        "text": " “Peace be to you.”",
+        "text": "“Peace be to you.”",
         "marks": ["woc"]
       }
     ]
@@ -8305,8 +8495,8 @@
     "chapter": 20,
     "verse": 20,
     "content": {
-      "text": "When he had said this, he showed them his hands and his side. The disciples therefore were glad when they saw the Lord.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When he had said this, he showed them his hands and his side. The disciples therefore were glad when they saw the Lord."
     }
   },
   {
@@ -8314,9 +8504,9 @@
     "chapter": 20,
     "verse": 21,
     "content": [
-      "Jesus therefore said to them again,",
+      "Jesus therefore said to them again, ",
       {
-        "text": " “Peace be to you. As the Father has sent me, even so I send you.”",
+        "text": "“Peace be to you. As the Father has sent me, even so I send you.”",
         "marks": ["woc"]
       }
     ]
@@ -8326,9 +8516,9 @@
     "chapter": 20,
     "verse": 22,
     "content": [
-      "When he had said this, he breathed on them, and said to them,",
+      "When he had said this, he breathed on them, and said to them, ",
       {
-        "text": " “Receive the Holy Spirit!",
+        "text": "“Receive the Holy Spirit!",
         "marks": ["woc"]
       }
     ]
@@ -8348,12 +8538,12 @@
     "verse": 24,
     "content": [
       {
+        "paragraph": true,
         "text": "But Thomas, one of the twelve, called Didymus,",
         "foot": {
           "type": "trn",
           "content": "or, Twin"
-        },
-        "paragraph": true
+        }
       },
       " wasn’t with them when Jesus came."
     ]
@@ -8362,7 +8552,13 @@
     "book": "JHN",
     "chapter": 20,
     "verse": 25,
-    "content": "The other disciples therefore said to him, “We have seen the Lord!” But he said to them, “Unless I see in his hands the print of the nails, put my finger into the print of the nails, and put my hand into his side, I will not believe.”"
+    "content": [
+      "The other disciples therefore said to him, “We have seen the Lord!”",
+      {
+        "paragraph": true,
+        "text": "But he said to them, “Unless I see in his hands the print of the nails, put my finger into the print of the nails, and put my hand into his side, I will not believe.”"
+      }
+    ]
   },
   {
     "book": "JHN",
@@ -8370,11 +8566,11 @@
     "verse": 26,
     "content": [
       {
-        "text": "After eight days, again his disciples were inside and Thomas was with them. Jesus came, the doors being locked, and stood in the middle, and said,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "After eight days, again his disciples were inside and Thomas was with them. Jesus came, the doors being locked, and stood in the middle, and said, "
       },
       {
-        "text": " “Peace be to you.”",
+        "text": "“Peace be to you.”",
         "marks": ["woc"]
       }
     ]
@@ -8384,9 +8580,9 @@
     "chapter": 20,
     "verse": 27,
     "content": [
-      "Then he said to Thomas,",
+      "Then he said to Thomas, ",
       {
-        "text": " “Reach here your finger, and see my hands. Reach here your hand, and put it into my side. Don’t be unbelieving, but believing.”",
+        "text": "“Reach here your finger, and see my hands. Reach here your hand, and put it into my side. Don’t be unbelieving, but believing.”",
         "marks": ["woc"]
       }
     ]
@@ -8396,8 +8592,8 @@
     "chapter": 20,
     "verse": 28,
     "content": {
-      "text": "Thomas answered him, “My Lord and my God!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thomas answered him, “My Lord and my God!”"
     }
   },
   {
@@ -8406,19 +8602,20 @@
     "verse": 29,
     "content": [
       {
-        "text": "Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to him, "
       },
       {
-        "text": " “Because you have seen me,",
+        "text": "“Because you have seen me,",
         "marks": ["woc"],
         "foot": {
           "type": "stu",
           "content": "TR adds “Thomas,”"
         }
       },
+      " ",
       {
-        "text": " you have believed. Blessed are those who have not seen and have believed.”",
+        "text": "you have believed. Blessed are those who have not seen and have believed.”",
         "marks": ["woc"]
       }
     ]
@@ -8428,8 +8625,8 @@
     "chapter": 20,
     "verse": 30,
     "content": {
-      "text": "Therefore Jesus did many other signs in the presence of his disciples, which are not written in this book;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore Jesus did many other signs in the presence of his disciples, which are not written in this book;"
     }
   },
   {
@@ -8443,8 +8640,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "After these things, Jesus revealed himself again to the disciples at the sea of Tiberias. He revealed himself this way.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After these things, Jesus revealed himself again to the disciples at the sea of Tiberias. He revealed himself this way."
     }
   },
   {
@@ -8466,7 +8663,13 @@
     "book": "JHN",
     "chapter": 21,
     "verse": 3,
-    "content": "Simon Peter said to them, “I’m going fishing.” They told him, “We are also coming with you.” They immediately went out and entered into the boat. That night, they caught nothing."
+    "content": [
+      "Simon Peter said to them, “I’m going fishing.”",
+      {
+        "paragraph": true,
+        "text": "They told him, “We are also coming with you.” They immediately went out and entered into the boat. That night, they caught nothing."
+      }
+    ]
   },
   {
     "book": "JHN",
@@ -8479,12 +8682,15 @@
     "chapter": 21,
     "verse": 5,
     "content": [
-      "Jesus therefore said to them,",
+      "Jesus therefore said to them, ",
       {
-        "text": " “Children, have you anything to eat?”",
+        "text": "“Children, have you anything to eat?”",
         "marks": ["woc"]
       },
-      " They answered him, “No.”"
+      {
+        "paragraph": true,
+        "text": "They answered him, “No.”"
+      }
     ]
   },
   {
@@ -8493,21 +8699,30 @@
     "verse": 6,
     "content": [
       {
-        "text": "He said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "He said to them, "
       },
       {
-        "text": " “Cast the net on the right side of the boat, and you will find some.”",
+        "text": "“Cast the net on the right side of the boat, and you will find some.”",
         "marks": ["woc"]
       },
-      " They cast it therefore, and now they weren’t able to draw it in for the multitude of fish."
+      {
+        "paragraph": true,
+        "text": "They cast it therefore, and now they weren’t able to draw it in for the multitude of fish."
+      }
     ]
   },
   {
     "book": "JHN",
     "chapter": 21,
     "verse": 7,
-    "content": "That disciple therefore whom Jesus loved said to Peter, “It’s the Lord!” So when Simon Peter heard that it was the Lord, he wrapped his coat around himself (for he was naked), and threw himself into the sea."
+    "content": [
+      "That disciple therefore whom Jesus loved said to Peter, “It’s the Lord!”",
+      {
+        "paragraph": true,
+        "text": "So when Simon Peter heard that it was the Lord, he wrapped his coat around himself (for he was naked), and threw himself into the sea."
+      }
+    ]
   },
   {
     "book": "JHN",
@@ -8535,9 +8750,9 @@
     "chapter": 21,
     "verse": 10,
     "content": [
-      "Jesus said to them,",
+      "Jesus said to them, ",
       {
-        "text": " “Bring some of the fish which you have just caught.”",
+        "text": "“Bring some of the fish which you have just caught.”",
         "marks": ["woc"]
       }
     ]
@@ -8547,8 +8762,8 @@
     "chapter": 21,
     "verse": 11,
     "content": {
-      "text": "Simon Peter went up, and drew the net to land, full of one hundred fifty-three great fish. Even though there were so many, the net wasn’t torn.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Simon Peter went up, and drew the net to land, full of one hundred fifty-three great fish. Even though there were so many, the net wasn’t torn."
     }
   },
   {
@@ -8557,14 +8772,17 @@
     "verse": 12,
     "content": [
       {
-        "text": "Jesus said to them,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to them, "
       },
       {
-        "text": " “Come and eat breakfast!”",
+        "text": "“Come and eat breakfast!”",
         "marks": ["woc"]
       },
-      " None of the disciples dared inquire of him, “Who are you?” knowing that it was the Lord."
+      {
+        "paragraph": true,
+        "text": "None of the disciples dared inquire of him, “Who are you?” knowing that it was the Lord."
+      }
     ]
   },
   {
@@ -8572,8 +8790,8 @@
     "chapter": 21,
     "verse": 13,
     "content": {
-      "text": "Then Jesus came and took the bread, gave it to them, and the fish likewise.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jesus came and took the bread, gave it to them, and the fish likewise."
     }
   },
   {
@@ -8587,14 +8805,21 @@
     "chapter": 21,
     "verse": 15,
     "content": [
-      "So when they had eaten their breakfast, Jesus said to Simon Peter,",
+      "So when they had eaten their breakfast, Jesus said to Simon Peter, ",
       {
-        "text": " “Simon, son of Jonah, do you love me more than these?”",
+        "text": "“Simon, son of Jonah, do you love me more than these?”",
         "marks": ["woc"]
       },
-      " He said to him, “Yes, Lord; you know that I have affection for you.” He said to him,",
       {
-        "text": " “Feed my lambs.”",
+        "paragraph": true,
+        "text": "He said to him, “Yes, Lord; you know that I have affection for you.”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said to him, "
+      },
+      {
+        "text": "“Feed my lambs.”",
         "marks": ["woc"]
       }
     ]
@@ -8604,14 +8829,21 @@
     "chapter": 21,
     "verse": 16,
     "content": [
-      "He said to him again a second time,",
+      "He said to him again a second time, ",
       {
-        "text": " “Simon, son of Jonah, do you love me?”",
+        "text": "“Simon, son of Jonah, do you love me?”",
         "marks": ["woc"]
       },
-      " He said to him, “Yes, Lord; you know that I have affection for you.” He said to him,",
       {
-        "text": " “Tend my sheep.”",
+        "paragraph": true,
+        "text": "He said to him, “Yes, Lord; you know that I have affection for you.”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said to him, "
+      },
+      {
+        "text": "“Tend my sheep.”",
         "marks": ["woc"]
       }
     ]
@@ -8621,19 +8853,26 @@
     "chapter": 21,
     "verse": 17,
     "content": [
-      "He said to him the third time,",
+      "He said to him the third time, ",
       {
-        "text": " “Simon, son of Jonah, do you have affection for me?”",
+        "text": "“Simon, son of Jonah, do you have affection for me?”",
         "marks": ["woc"]
       },
-      " Peter was grieved because he asked him the third time,",
       {
-        "text": " “Do you have affection for me?”",
+        "paragraph": true,
+        "text": "Peter was grieved because he asked him the third time, "
+      },
+      {
+        "text": "“Do you have affection for me?”",
         "marks": ["woc"]
       },
-      " He said to him, “Lord, you know everything. You know that I have affection for you.” Jesus said to him,",
+      " He said to him, “Lord, you know everything. You know that I have affection for you.”",
       {
-        "text": " “Feed my sheep.",
+        "paragraph": true,
+        "text": "Jesus said to him, "
+      },
+      {
+        "text": "“Feed my sheep.",
         "marks": ["woc"]
       }
     ]
@@ -8653,11 +8892,11 @@
     "verse": 19,
     "content": [
       {
-        "text": "Now he said this, signifying by what kind of death he would glorify God. When he had said this, he said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Now he said this, signifying by what kind of death he would glorify God. When he had said this, he said to him, "
       },
       {
-        "text": " “Follow me.”",
+        "text": "“Follow me.”",
         "marks": ["woc"]
       }
     ]
@@ -8667,8 +8906,8 @@
     "chapter": 21,
     "verse": 20,
     "content": {
-      "text": "Then Peter, turning around, saw a disciple following. This was the disciple whom Jesus loved, the one who had also leaned on Jesus’ breast at the supper and asked, “Lord, who is going to betray you?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Peter, turning around, saw a disciple following. This was the disciple whom Jesus loved, the one who had also leaned on Jesus’ breast at the supper and asked, “Lord, who is going to betray you?”"
     }
   },
   {
@@ -8683,11 +8922,11 @@
     "verse": 22,
     "content": [
       {
-        "text": "Jesus said to him,",
-        "paragraph": true
+        "paragraph": true,
+        "text": "Jesus said to him, "
       },
       {
-        "text": " “If I desire that he stay until I come, what is that to you? You follow me.”",
+        "text": "“If I desire that he stay until I come, what is that to you? You follow me.”",
         "marks": ["woc"]
       }
     ]
@@ -8704,9 +8943,9 @@
           "content": "The word for “brothers” here may be also correctly translated “brothers and sisters” or “siblings.”"
         }
       },
-      " that this disciple wouldn’t die. Yet Jesus didn’t say to him that he wouldn’t die, but,",
+      " that this disciple wouldn’t die. Yet Jesus didn’t say to him that he wouldn’t die, but, ",
       {
-        "text": " “If I desire that he stay until I come, what is that to you?”",
+        "text": "“If I desire that he stay until I come, what is that to you?”",
         "marks": ["woc"]
       }
     ]
@@ -8716,8 +8955,8 @@
     "chapter": 21,
     "verse": 24,
     "content": {
-      "text": "This is the disciple who testifies about these things, and wrote these things. We know that his witness is true.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This is the disciple who testifies about these things, and wrote these things. We know that his witness is true."
     }
   },
   {

@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "The words of Jeremiah the son of Hilkiah, one of the priests who were in Anathoth in the land of Benjamin.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The words of Jeremiah the son of Hilkiah, one of the priests who were in Anathoth in the land of Benjamin."
     }
   },
   {
@@ -60,12 +60,12 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "Then I said, “Ah, Lord",
         "foot": {
           "type": "trn",
           "content": "The word translated “Lord” is “Adonai.”"
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " Yahweh! Behold,",
@@ -89,8 +89,8 @@
     "chapter": 1,
     "verse": 7,
     "content": {
-      "text": "But Yahweh said to me, “Don’t say, ‘I am a child;’ for you must go to whomever I send you, and you must say whatever I command you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Yahweh said to me, “Don’t say, ‘I am a child;’ for you must go to whomever I send you, and you must say whatever I command you."
     }
   },
   {
@@ -104,8 +104,8 @@
     "chapter": 1,
     "verse": 9,
     "content": {
-      "text": "Then Yahweh stretched out his hand and touched my mouth. Then Yahweh said to me, “Behold, I have put my words in your mouth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh stretched out his hand and touched my mouth. Then Yahweh said to me, “Behold, I have put my words in your mouth."
     }
   },
   {
@@ -118,36 +118,48 @@
     "book": "JER",
     "chapter": 1,
     "verse": 11,
-    "content": {
-      "text": "Moreover Yahweh’s word came to me, saying, “Jeremiah, what do you see?” I said, “I see a branch of an almond tree.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Moreover Yahweh’s word came to me, saying, “Jeremiah, what do you see?”"
+      },
+      {
+        "paragraph": true,
+        "text": "I said, “I see a branch of an almond tree.”"
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 1,
     "verse": 12,
     "content": {
-      "text": "Then Yahweh said to me, “You have seen well; for I watch over my word to perform it.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh said to me, “You have seen well; for I watch over my word to perform it.”"
     }
   },
   {
     "book": "JER",
     "chapter": 1,
     "verse": 13,
-    "content": {
-      "text": "Yahweh’s word came to me the second time, saying, “What do you see?” I said, “I see a boiling cauldron; and it is tipping away from the north.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Yahweh’s word came to me the second time, saying, “What do you see?”"
+      },
+      {
+        "paragraph": true,
+        "text": "I said, “I see a boiling cauldron; and it is tipping away from the north.”"
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 1,
     "verse": 14,
     "content": {
-      "text": "Then Yahweh said to me, “Out of the north, evil will break out on all the inhabitants of the land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh said to me, “Out of the north, evil will break out on all the inhabitants of the land."
     }
   },
   {
@@ -194,8 +206,8 @@
     "chapter": 1,
     "verse": 17,
     "content": {
-      "text": "“You therefore put your belt on your waist, arise, and say to them all that I command you. Don’t be dismayed at them, lest I dismay you before them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You therefore put your belt on your waist, arise, and say to them all that I command you. Don’t be dismayed at them, lest I dismay you before them."
     }
   },
   {
@@ -215,8 +227,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Yahweh’s word came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to me, saying,"
     }
   },
   {
@@ -271,8 +283,8 @@
     "chapter": 2,
     "verse": 4,
     "content": {
-      "text": "Hear Yahweh’s word, O house of Jacob, and all the families of the house of Israel!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Hear Yahweh’s word, O house of Jacob, and all the families of the house of Israel!"
     }
   },
   {
@@ -561,11 +573,11 @@
       },
       {
         "text": "Or why do you go on the way to Assyria, to drink the waters of the River?",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "i.e., the Euphrates River"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -977,8 +989,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "“They say, ‘If a man puts away his wife, and she goes from him, and becomes another man’s, should he return to her again?’ Wouldn’t that land be greatly polluted? But you have played the prostitute with many lovers; yet return again to me,” says Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“They say, ‘If a man puts away his wife, and she goes from him, and becomes another man’s, should he return to her again?’ Wouldn’t that land be greatly polluted? But you have played the prostitute with many lovers; yet return again to me,” says Yahweh."
     }
   },
   {
@@ -986,8 +998,8 @@
     "chapter": 3,
     "verse": 2,
     "content": {
-      "text": "“Lift up your eyes to the bare heights, and see! Where have you not been lain with? You have sat waiting for them by the road, as an Arabian in the wilderness. You have polluted the land with your prostitution and with your wickedness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Lift up your eyes to the bare heights, and see! Where have you not been lain with? You have sat waiting for them by the road, as an Arabian in the wilderness. You have polluted the land with your prostitution and with your wickedness."
     }
   },
   {
@@ -1007,8 +1019,8 @@
     "chapter": 3,
     "verse": 5,
     "content": {
-      "text": "“ ‘Will he retain his anger forever? Will he keep it to the end?’ Behold, you have spoken and have done evil things, and have had your way.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘Will he retain his anger forever? Will he keep it to the end?’ Behold, you have spoken and have done evil things, and have had your way.”"
     }
   },
   {
@@ -1016,8 +1028,8 @@
     "chapter": 3,
     "verse": 6,
     "content": {
-      "text": "Moreover, Yahweh said to me in the days of Josiah the king, “Have you seen that which backsliding Israel has done? She has gone up on every high mountain and under every green tree, and has played the prostitute there.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moreover, Yahweh said to me in the days of Josiah the king, “Have you seen that which backsliding Israel has done? She has gone up on every high mountain and under every green tree, and has played the prostitute there."
     }
   },
   {
@@ -1049,8 +1061,8 @@
     "chapter": 3,
     "verse": 11,
     "content": {
-      "text": "Yahweh said to me, “Backsliding Israel has shown herself more righteous than treacherous Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to me, “Backsliding Israel has shown herself more righteous than treacherous Judah."
     }
   },
   {
@@ -1100,8 +1112,8 @@
     "chapter": 3,
     "verse": 19,
     "content": {
-      "text": "“But I said, ‘How I desire to put you among the children, and give you a pleasant land, a goodly heritage of the armies of the nations!’ and I said, ‘You shall call me “My Father”, and shall not turn away from following me.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“But I said, ‘How I desire to put you among the children, and give you a pleasant land, a goodly heritage of the armies of the nations!’ and I said, ‘You shall call me “My Father”, and shall not turn away from following me.’"
     }
   },
   {
@@ -1109,8 +1121,8 @@
     "chapter": 3,
     "verse": 20,
     "content": {
-      "text": "“Surely as a wife treacherously departs from her husband, so you have dealt treacherously with me, house of Israel,” says Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Surely as a wife treacherously departs from her husband, so you have dealt treacherously with me, house of Israel,” says Yahweh."
     }
   },
   {
@@ -1123,7 +1135,13 @@
     "book": "JER",
     "chapter": 3,
     "verse": 22,
-    "content": "Return, you backsliding children, and I will heal your backsliding. “Behold, we have come to you; for you are Yahweh our God."
+    "content": [
+      "Return, you backsliding children, and I will heal your backsliding.",
+      {
+        "paragraph": true,
+        "text": "“Behold, we have come to you; for you are Yahweh our God."
+      }
+    ]
   },
   {
     "book": "JER",
@@ -1148,8 +1166,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "“If you will return, Israel,” says Yahweh, “if you will return to me, and if you will put away your abominations out of my sight; then you will not be removed;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If you will return, Israel,” says Yahweh, “if you will return to me, and if you will put away your abominations out of my sight; then you will not be removed;"
     }
   },
   {
@@ -1163,8 +1181,8 @@
     "chapter": 4,
     "verse": 3,
     "content": {
-      "text": "For Yahweh says to the men of Judah and to Jerusalem, “Break up your fallow ground, and don’t sow among thorns.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For Yahweh says to the men of Judah and to Jerusalem, “Break up your fallow ground, and don’t sow among thorns."
     }
   },
   {
@@ -1190,8 +1208,8 @@
     "chapter": 4,
     "verse": 7,
     "content": {
-      "text": "A lion has gone up from his thicket, and a destroyer of nations. He is on his way. He has gone out from his place, to make your land desolate, that your cities be laid waste, without inhabitant.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "A lion has gone up from his thicket, and a destroyer of nations. He is on his way. He has gone out from his place, to make your land desolate, that your cities be laid waste, without inhabitant."
     }
   },
   {
@@ -1211,8 +1229,8 @@
     "chapter": 4,
     "verse": 10,
     "content": {
-      "text": "Then I said, “Ah, Lord Yahweh! Surely you have greatly deceived this people and Jerusalem, saying, ‘You will have peace;’ whereas the sword reaches to the heart.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I said, “Ah, Lord Yahweh! Surely you have greatly deceived this people and Jerusalem, saying, ‘You will have peace;’ whereas the sword reaches to the heart.”"
     }
   },
   {
@@ -1220,8 +1238,8 @@
     "chapter": 4,
     "verse": 11,
     "content": {
-      "text": "At that time it will be said to this people and to Jerusalem, “A hot wind blows from the bare heights in the wilderness toward the daughter of my people, not to winnow, nor to cleanse.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At that time it will be said to this people and to Jerusalem, “A hot wind blows from the bare heights in the wilderness toward the daughter of my people, not to winnow, nor to cleanse."
     }
   },
   {
@@ -1235,8 +1253,8 @@
     "chapter": 4,
     "verse": 13,
     "content": {
-      "text": "Behold, he will come up as clouds, and his chariots will be as the whirlwind. His horses are swifter than eagles. Woe to us! For we are ruined.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Behold, he will come up as clouds, and his chariots will be as the whirlwind. His horses are swifter than eagles. Woe to us! For we are ruined."
     }
   },
   {
@@ -1274,8 +1292,8 @@
     "chapter": 4,
     "verse": 19,
     "content": {
-      "text": "My anguish, my anguish! I am pained at my very heart! My heart trembles within me. I can’t hold my peace, because you have heard, O my soul, the sound of the trumpet, the alarm of war.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "My anguish, my anguish! I am pained at my very heart! My heart trembles within me. I can’t hold my peace, because you have heard, O my soul, the sound of the trumpet, the alarm of war."
     }
   },
   {
@@ -1295,8 +1313,8 @@
     "chapter": 4,
     "verse": 22,
     "content": {
-      "text": "“For my people are foolish. They don’t know me. They are foolish children, and they have no understanding. They are skillful in doing evil, but they don’t know how to do good.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“For my people are foolish. They don’t know me. They are foolish children, and they have no understanding. They are skillful in doing evil, but they don’t know how to do good.”"
     }
   },
   {
@@ -1340,8 +1358,8 @@
     "chapter": 4,
     "verse": 29,
     "content": {
-      "text": "Every city flees for the noise of the horsemen and archers. They go into the thickets and climb up on the rocks. Every city is forsaken, and not a man dwells therein.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Every city flees for the noise of the horsemen and archers. They go into the thickets and climb up on the rocks. Every city is forsaken, and not a man dwells therein."
     }
   },
   {
@@ -1361,8 +1379,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "“Run back and forth through the streets of Jerusalem, and see now, and know, and seek in its wide places, if you can find a man, if there is anyone who does justly, who seeks truth, then I will pardon her.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Run back and forth through the streets of Jerusalem, and see now, and know, and seek in its wide places, if you can find a man, if there is anyone who does justly, who seeks truth, then I will pardon her."
     }
   },
   {
@@ -1376,8 +1394,8 @@
     "chapter": 5,
     "verse": 3,
     "content": {
-      "text": "O Yahweh, don’t your eyes look on truth? You have stricken them, but they were not grieved. You have consumed them, but they have refused to receive correction. They have made their faces harder than a rock. They have refused to return.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "O Yahweh, don’t your eyes look on truth? You have stricken them, but they were not grieved. You have consumed them, but they have refused to receive correction. They have made their faces harder than a rock. They have refused to return."
     }
   },
   {
@@ -1385,8 +1403,8 @@
     "chapter": 5,
     "verse": 4,
     "content": {
-      "text": "Then I said, “Surely these are poor. They are foolish; for they don’t know Yahweh’s way, nor the law of their God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I said, “Surely these are poor. They are foolish; for they don’t know Yahweh’s way, nor the law of their God."
     }
   },
   {
@@ -1406,8 +1424,8 @@
     "chapter": 5,
     "verse": 7,
     "content": {
-      "text": "“How can I pardon you? Your children have forsaken me, and sworn by what are no gods. When I had fed them to the full, they committed adultery, and assembled themselves in troops at the prostitutes’ houses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“How can I pardon you? Your children have forsaken me, and sworn by what are no gods. When I had fed them to the full, they committed adultery, and assembled themselves in troops at the prostitutes’ houses."
     }
   },
   {
@@ -1427,8 +1445,8 @@
     "chapter": 5,
     "verse": 10,
     "content": {
-      "text": "“Go up on her walls, and destroy, but don’t make a full end. Take away her branches, for they are not Yahweh’s.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Go up on her walls, and destroy, but don’t make a full end. Take away her branches, for they are not Yahweh’s."
     }
   },
   {
@@ -1442,8 +1460,8 @@
     "chapter": 5,
     "verse": 12,
     "content": {
-      "text": "They have denied Yahweh, and said, “It is not he. Evil won’t come on us. We won’t see sword or famine.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They have denied Yahweh, and said, “It is not he. Evil won’t come on us. We won’t see sword or famine."
     }
   },
   {
@@ -1457,8 +1475,8 @@
     "chapter": 5,
     "verse": 14,
     "content": {
-      "text": "Therefore Yahweh, the God of Armies says, “Because you speak this word, behold, I will make my words in your mouth fire, and this people wood, and it will devour them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore Yahweh, the God of Armies says, “Because you speak this word, behold, I will make my words in your mouth fire, and this people wood, and it will devour them."
     }
   },
   {
@@ -1484,8 +1502,8 @@
     "chapter": 5,
     "verse": 18,
     "content": {
-      "text": "“But even in those days,” says Yahweh, “I will not make a full end of you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“But even in those days,” says Yahweh, “I will not make a full end of you."
     }
   },
   {
@@ -1499,8 +1517,8 @@
     "chapter": 5,
     "verse": 20,
     "content": {
-      "text": "“Declare this in the house of Jacob, and publish it in Judah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Declare this in the house of Jacob, and publish it in Judah, saying,"
     }
   },
   {
@@ -1520,8 +1538,8 @@
     "chapter": 5,
     "verse": 23,
     "content": {
-      "text": "“But this people has a revolting and a rebellious heart. They have revolted and gone.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“But this people has a revolting and a rebellious heart. They have revolted and gone."
     }
   },
   {
@@ -1535,8 +1553,8 @@
     "chapter": 5,
     "verse": 25,
     "content": {
-      "text": "“Your iniquities have turned away these things, and your sins have withheld good from you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Your iniquities have turned away these things, and your sins have withheld good from you."
     }
   },
   {
@@ -1562,8 +1580,8 @@
     "chapter": 5,
     "verse": 29,
     "content": {
-      "text": "“Shouldn’t I punish for these things?” says Yahweh. “Shouldn’t my soul be avenged on such a nation as this?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Shouldn’t I punish for these things?” says Yahweh. “Shouldn’t my soul be avenged on such a nation as this?"
     }
   },
   {
@@ -1571,8 +1589,8 @@
     "chapter": 5,
     "verse": 30,
     "content": {
-      "text": "“An astonishing and horrible thing has happened in the land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“An astonishing and horrible thing has happened in the land."
     }
   },
   {
@@ -1586,8 +1604,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "“Flee for safety, you children of Benjamin, out of the middle of Jerusalem! Blow the trumpet in Tekoa and raise up a signal on Beth Haccherem, for evil looks out from the north with a great destruction.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Flee for safety, you children of Benjamin, out of the middle of Jerusalem! Blow the trumpet in Tekoa and raise up a signal on Beth Haccherem, for evil looks out from the north with a great destruction."
     }
   },
   {
@@ -1607,8 +1625,8 @@
     "chapter": 6,
     "verse": 4,
     "content": {
-      "text": "“Prepare war against her! Arise! Let’s go up at noon. Woe to us! For the day declines, for the shadows of the evening are stretched out.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Prepare war against her! Arise! Let’s go up at noon. Woe to us! For the day declines, for the shadows of the evening are stretched out."
     }
   },
   {
@@ -1640,8 +1658,8 @@
     "chapter": 6,
     "verse": 9,
     "content": {
-      "text": "Yahweh of Armies says, “They will thoroughly glean the remnant of Israel like a vine. Turn again your hand as a grape gatherer into the baskets.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies says, “They will thoroughly glean the remnant of Israel like a vine. Turn again your hand as a grape gatherer into the baskets.”"
     }
   },
   {
@@ -1649,8 +1667,8 @@
     "chapter": 6,
     "verse": 10,
     "content": {
-      "text": "To whom should I speak and testify, that they may hear? Behold, their ear is uncircumcised, and they can’t listen. Behold, Yahweh’s word has become a reproach to them. They have no delight in it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "To whom should I speak and testify, that they may hear? Behold, their ear is uncircumcised, and they can’t listen. Behold, Yahweh’s word has become a reproach to them. They have no delight in it."
     }
   },
   {
@@ -1754,8 +1772,8 @@
     "chapter": 6,
     "verse": 16,
     "content": {
-      "text": "Yahweh says, “Stand in the ways and see, and ask for the old paths, ‘Where is the good way?’ and walk in it, and you will find rest for your souls. But they said, ‘We will not walk in it.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh says, “Stand in the ways and see, and ask for the old paths, ‘Where is the good way?’ and walk in it, and you will find rest for your souls. But they said, ‘We will not walk in it.’"
     }
   },
   {
@@ -1787,8 +1805,8 @@
     "chapter": 6,
     "verse": 21,
     "content": {
-      "text": "Therefore Yahweh says, “Behold, I will lay stumbling blocks before this people. The fathers and the sons together will stumble against them. The neighbor and his friend will perish.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore Yahweh says, “Behold, I will lay stumbling blocks before this people. The fathers and the sons together will stumble against them. The neighbor and his friend will perish.”"
     }
   },
   {
@@ -1808,8 +1826,8 @@
     "chapter": 6,
     "verse": 24,
     "content": {
-      "text": "We have heard its report. Our hands become feeble. Anguish has taken hold of us, and pains as of a woman in labor.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "We have heard its report. Our hands become feeble. Anguish has taken hold of us, and pains as of a woman in labor."
     }
   },
   {
@@ -1829,8 +1847,8 @@
     "chapter": 6,
     "verse": 27,
     "content": {
-      "text": "“I have made you a tester of metals and a fortress among my people, that you may know and try their way.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“I have made you a tester of metals and a fortress among my people, that you may know and try their way."
     }
   },
   {
@@ -1856,8 +1874,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "The word that came to Jeremiah from Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word that came to Jeremiah from Yahweh, saying,"
     }
   },
   {
@@ -1871,8 +1889,8 @@
     "chapter": 7,
     "verse": 3,
     "content": {
-      "text": "Yahweh of Armies, the God of Israel says, “Amend your ways and your doings, and I will cause you to dwell in this place.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies, the God of Israel says, “Amend your ways and your doings, and I will cause you to dwell in this place."
     }
   },
   {
@@ -1928,8 +1946,8 @@
     "chapter": 7,
     "verse": 12,
     "content": {
-      "text": "“But go now to my place which was in Shiloh, where I caused my name to dwell at the first, and see what I did to it for the wickedness of my people Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“But go now to my place which was in Shiloh, where I caused my name to dwell at the first, and see what I did to it for the wickedness of my people Israel."
     }
   },
   {
@@ -1964,8 +1982,8 @@
     "chapter": 7,
     "verse": 16,
     "content": {
-      "text": "“Therefore don’t pray for this people. Don’t lift up a cry or prayer for them or make intercession to me; for I will not hear you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore don’t pray for this people. Don’t lift up a cry or prayer for them or make intercession to me; for I will not hear you."
     }
   },
   {
@@ -1991,8 +2009,8 @@
     "chapter": 7,
     "verse": 20,
     "content": {
-      "text": "Therefore the Lord Yahweh says: “Behold, my anger and my wrath will be poured out on this place, on man, on animal, on the trees of the field, and on the fruit of the ground; and it will burn and will not be quenched.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore the Lord Yahweh says: “Behold, my anger and my wrath will be poured out on this place, on man, on animal, on the trees of the field, and on the fruit of the ground; and it will burn and will not be quenched.”"
     }
   },
   {
@@ -2000,8 +2018,8 @@
     "chapter": 7,
     "verse": 21,
     "content": {
-      "text": "Yahweh of Armies, the God of Israel says: “Add your burnt offerings to your sacrifices and eat meat.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies, the God of Israel says: “Add your burnt offerings to your sacrifices and eat meat."
     }
   },
   {
@@ -2039,8 +2057,8 @@
     "chapter": 7,
     "verse": 27,
     "content": {
-      "text": "“You shall speak all these words to them, but they will not listen to you. You shall also call to them, but they will not answer you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall speak all these words to them, but they will not listen to you. You shall also call to them, but they will not answer you."
     }
   },
   {
@@ -2060,8 +2078,8 @@
     "chapter": 7,
     "verse": 30,
     "content": {
-      "text": "“For the children of Judah have done that which is evil in my sight,” says Yahweh. “They have set their abominations in the house which is called by my name, to defile it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“For the children of Judah have done that which is evil in my sight,” says Yahweh. “They have set their abominations in the house which is called by my name, to defile it."
     }
   },
   {
@@ -2093,8 +2111,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "“At that time,” says Yahweh, “they will bring the bones of the kings of Judah, the bones of his princes, the bones of the priests, the bones of the prophets, and the bones of the inhabitants of Jerusalem, out of their graves.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“At that time,” says Yahweh, “they will bring the bones of the kings of Judah, the bones of his princes, the bones of the priests, the bones of the prophets, and the bones of the inhabitants of Jerusalem, out of their graves."
     }
   },
   {
@@ -2192,8 +2210,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "“ ‘How do you say, “We are wise, and Yahweh’s law is with us”?",
         "paragraph": true,
+        "text": "“ ‘How do you say, “We are wise, and Yahweh’s law is with us”?",
         "break": true
       },
       {
@@ -2293,8 +2311,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "“ ‘I will utterly consume them, says Yahweh.",
         "paragraph": true,
+        "text": "“ ‘I will utterly consume them, says Yahweh.",
         "break": true
       },
       {
@@ -2322,8 +2340,8 @@
     "verse": 14,
     "content": [
       {
-        "text": "“Why do we sit still?",
         "paragraph": true,
+        "text": "“Why do we sit still?",
         "break": true
       },
       {
@@ -2442,7 +2460,12 @@
         "break": true
       },
       {
-        "text": "Isn’t her King in her?” “Why have they provoked me to anger with their engraved images,",
+        "text": "Isn’t her King in her?”",
+        "break": true
+      },
+      {
+        "paragraph": true,
+        "text": "“Why have they provoked me to anger with their engraved images,",
         "break": true
       },
       "and with foreign idols?”"
@@ -2454,8 +2477,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "“The harvest is past.",
         "paragraph": true,
+        "text": "“The harvest is past.",
         "break": true
       },
       {
@@ -2471,8 +2494,8 @@
     "verse": 21,
     "content": [
       {
-        "text": "For the hurt of the daughter of my people, I am hurt.",
         "paragraph": true,
+        "text": "For the hurt of the daughter of my people, I am hurt.",
         "break": true
       },
       {
@@ -2507,8 +2530,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Oh that my head were waters,",
         "paragraph": true,
+        "text": "Oh that my head were waters,",
         "break": true
       },
       {
@@ -2651,8 +2674,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Therefore Yahweh of Armies says,",
         "paragraph": true,
+        "text": "Therefore Yahweh of Armies says,",
         "break": true
       },
       {
@@ -2737,8 +2760,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "“I will make Jerusalem heaps,",
         "paragraph": true,
+        "text": "“I will make Jerusalem heaps,",
         "break": true
       },
       {
@@ -2757,8 +2780,8 @@
     "chapter": 9,
     "verse": 12,
     "content": {
-      "text": "Who is wise enough to understand this? Who is he to whom the mouth of Yahweh has spoken, that he may declare it? Why has the land perished and burned up like a wilderness, so that no one passes through?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Who is wise enough to understand this? Who is he to whom the mouth of Yahweh has spoken, that he may declare it? Why has the land perished and burned up like a wilderness, so that no one passes through?"
     }
   },
   {
@@ -2766,8 +2789,8 @@
     "chapter": 9,
     "verse": 13,
     "content": {
-      "text": "Yahweh says, “Because they have forsaken my law which I set before them, and have not obeyed my voice or walked in my ways,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh says, “Because they have forsaken my law which I set before them, and have not obeyed my voice or walked in my ways,"
     }
   },
   {
@@ -2794,8 +2817,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "Yahweh of Armies says,",
         "paragraph": true,
+        "text": "Yahweh of Armies says,",
         "break": true
       },
       {
@@ -2861,8 +2884,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "Yet hear Yahweh’s word, you women.",
         "paragraph": true,
+        "text": "Yet hear Yahweh’s word, you women.",
         "break": true
       },
       {
@@ -2905,8 +2928,8 @@
     "verse": 22,
     "content": [
       {
-        "text": "Speak, “Yahweh says,",
         "paragraph": true,
+        "text": "Speak, “Yahweh says,",
         "break": true
       },
       {
@@ -2926,8 +2949,8 @@
     "verse": 23,
     "content": [
       {
-        "text": "Yahweh says,",
         "paragraph": true,
+        "text": "Yahweh says,",
         "break": true
       },
       {
@@ -2969,8 +2992,8 @@
     "chapter": 9,
     "verse": 25,
     "content": {
-      "text": "“Behold, the days come,” says Yahweh, “that I will punish all those who are circumcised only in their flesh:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Behold, the days come,” says Yahweh, “that I will punish all those who are circumcised only in their flesh:"
     }
   },
   {
@@ -2984,8 +3007,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "Hear the word which Yahweh speaks to you, house of Israel!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Hear the word which Yahweh speaks to you, house of Israel!"
     }
   },
   {
@@ -3209,8 +3232,8 @@
     "chapter": 10,
     "verse": 11,
     "content": {
-      "text": "“You shall say this to them: ‘The gods that have not made the heavens and the earth will perish from the earth, and from under the heavens.’ ”",
       "paragraph": true,
+      "text": "“You shall say this to them: ‘The gods that have not made the heavens and the earth will perish from the earth, and from under the heavens.’ ”",
       "break": true
     }
   },
@@ -3514,8 +3537,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "The word that came to Jeremiah from Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word that came to Jeremiah from Yahweh, saying,"
     }
   },
   {
@@ -3540,15 +3563,21 @@
     "book": "JER",
     "chapter": 11,
     "verse": 5,
-    "content": "that I may establish the oath which I swore to your fathers, to give them a land flowing with milk and honey,’ as it is today.” Then I answered, and said, “Amen, Yahweh.”"
+    "content": [
+      "that I may establish the oath which I swore to your fathers, to give them a land flowing with milk and honey,’ as it is today.”",
+      {
+        "paragraph": true,
+        "text": "Then I answered, and said, “Amen, Yahweh.”"
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 11,
     "verse": 6,
     "content": {
-      "text": "Yahweh said to me, “Proclaim all these words in the cities of Judah, and in the streets of Jerusalem, saying, ‘Hear the words of this covenant, and do them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to me, “Proclaim all these words in the cities of Judah, and in the streets of Jerusalem, saying, ‘Hear the words of this covenant, and do them."
     }
   },
   {
@@ -3568,8 +3597,8 @@
     "chapter": 11,
     "verse": 9,
     "content": {
-      "text": "Yahweh said to me, “A conspiracy is found among the men of Judah, and among the inhabitants of Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to me, “A conspiracy is found among the men of Judah, and among the inhabitants of Jerusalem."
     }
   },
   {
@@ -3601,8 +3630,8 @@
     "chapter": 11,
     "verse": 14,
     "content": {
-      "text": "“Therefore don’t pray for this people. Don’t lift up cry or prayer for them; for I will not hear them in the time that they cry to me because of their trouble.",
       "paragraph": true,
+      "text": "“Therefore don’t pray for this people. Don’t lift up cry or prayer for them; for I will not hear them in the time that they cry to me because of their trouble.",
       "break": true
     }
   },
@@ -3636,8 +3665,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "Yahweh called your name, “A green olive tree,",
         "paragraph": true,
+        "text": "Yahweh called your name, “A green olive tree,",
         "break": true
       },
       {
@@ -3662,8 +3691,8 @@
     "chapter": 11,
     "verse": 18,
     "content": {
-      "text": "Yahweh gave me knowledge of it, and I knew it. Then you showed me their doings.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh gave me knowledge of it, and I knew it. Then you showed me their doings."
     }
   },
   {
@@ -3714,8 +3743,8 @@
     "chapter": 11,
     "verse": 21,
     "content": {
-      "text": "“Therefore Yahweh says concerning the men of Anathoth, who seek your life, saying, ‘You shall not prophesy in Yahweh’s name, that you not die by our hand’—",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore Yahweh says concerning the men of Anathoth, who seek your life, saying, ‘You shall not prophesy in Yahweh’s name, that you not die by our hand’—"
     }
   },
   {
@@ -3736,8 +3765,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "You are righteous, Yahweh,",
         "paragraph": true,
+        "text": "You are righteous, Yahweh,",
         "break": true
       },
       {
@@ -3892,8 +3921,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "“I have forsaken my house.",
         "paragraph": true,
+        "text": "“I have forsaken my house.",
         "break": true
       },
       {
@@ -4042,8 +4071,8 @@
     "chapter": 12,
     "verse": 14,
     "content": {
-      "text": "Yahweh says, “Concerning all my evil neighbors, who touch the inheritance which I have caused my people Israel to inherit: Behold, I will pluck them up from off their land, and will pluck up the house of Judah from among them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh says, “Concerning all my evil neighbors, who touch the inheritance which I have caused my people Israel to inherit: Behold, I will pluck them up from off their land, and will pluck up the house of Judah from among them."
     }
   },
   {
@@ -4069,8 +4098,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "Yahweh said to me, “Go, and buy yourself a linen belt, and put it on your waist, and don’t put it in water.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to me, “Go, and buy yourself a linen belt, and put it on your waist, and don’t put it in water.”"
     }
   },
   {
@@ -4078,8 +4107,8 @@
     "chapter": 13,
     "verse": 2,
     "content": {
-      "text": "So I bought a belt according to Yahweh’s word, and put it on my waist.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So I bought a belt according to Yahweh’s word, and put it on my waist."
     }
   },
   {
@@ -4087,8 +4116,8 @@
     "chapter": 13,
     "verse": 3,
     "content": {
-      "text": "Yahweh’s word came to me the second time, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to me the second time, saying,"
     }
   },
   {
@@ -4102,8 +4131,8 @@
     "chapter": 13,
     "verse": 5,
     "content": {
-      "text": "So I went and hid it by the Euphrates, as Yahweh commanded me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So I went and hid it by the Euphrates, as Yahweh commanded me."
     }
   },
   {
@@ -4111,8 +4140,8 @@
     "chapter": 13,
     "verse": 6,
     "content": {
-      "text": "After many days, Yahweh said to me, “Arise, go to the Euphrates, and take the belt from there, which I commanded you to hide there.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After many days, Yahweh said to me, “Arise, go to the Euphrates, and take the belt from there, which I commanded you to hide there.”"
     }
   },
   {
@@ -4120,8 +4149,8 @@
     "chapter": 13,
     "verse": 7,
     "content": {
-      "text": "Then I went to the Euphrates, and dug, and took the belt from the place where I had hidden it; and behold, the belt was ruined. It was profitable for nothing.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I went to the Euphrates, and dug, and took the belt from the place where I had hidden it; and behold, the belt was ruined. It was profitable for nothing."
     }
   },
   {
@@ -4129,8 +4158,8 @@
     "chapter": 13,
     "verse": 8,
     "content": {
-      "text": "Then Yahweh’s word came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to me, saying,"
     }
   },
   {
@@ -4156,8 +4185,8 @@
     "chapter": 13,
     "verse": 12,
     "content": {
-      "text": "“Therefore you shall speak to them this word: ‘Yahweh, the God of Israel says, “Every container should be filled with wine.” ’ They will tell you, ‘Do we not certainly know that every container should be filled with wine?’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore you shall speak to them this word: ‘Yahweh, the God of Israel says, “Every container should be filled with wine.” ’ They will tell you, ‘Do we not certainly know that every container should be filled with wine?’"
     }
   },
   {
@@ -4385,8 +4414,8 @@
     "verse": 24,
     "content": [
       {
-        "text": "“Therefore I will scatter them",
         "paragraph": true,
+        "text": "“Therefore I will scatter them",
         "break": true
       },
       {
@@ -4470,8 +4499,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "This is Yahweh’s word that came to Jeremiah concerning the drought:",
       "paragraph": true,
+      "text": "This is Yahweh’s word that came to Jeremiah concerning the drought:",
       "break": true
     }
   },
@@ -4666,8 +4695,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Yahweh says to this people:",
         "paragraph": true,
+        "text": "Yahweh says to this people:",
         "break": true
       },
       {
@@ -4694,8 +4723,8 @@
     "chapter": 14,
     "verse": 11,
     "content": {
-      "text": "Yahweh said to me, “Don’t pray for this people for their good.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to me, “Don’t pray for this people for their good."
     }
   },
   {
@@ -4709,8 +4738,8 @@
     "chapter": 14,
     "verse": 13,
     "content": {
-      "text": "Then I said, “Ah, Lord Yahweh! Behold, the prophets tell them, ‘You will not see the sword, neither will you have famine; but I will give you assured peace in this place.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I said, “Ah, Lord Yahweh! Behold, the prophets tell them, ‘You will not see the sword, neither will you have famine; but I will give you assured peace in this place.’ ”"
     }
   },
   {
@@ -4718,8 +4747,8 @@
     "chapter": 14,
     "verse": 14,
     "content": {
-      "text": "Then Yahweh said to me, “The prophets prophesy lies in my name. I didn’t send them. I didn’t command them. I didn’t speak to them. They prophesy to you a lying vision, divination, and a thing of nothing, and the deceit of their own heart.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh said to me, “The prophets prophesy lies in my name. I didn’t send them. I didn’t command them. I didn’t speak to them. They prophesy to you a lying vision, divination, and a thing of nothing, and the deceit of their own heart."
     }
   },
   {
@@ -4740,8 +4769,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "“You shall say this word to them:",
         "paragraph": true,
+        "text": "“You shall say this word to them:",
         "break": true
       },
       {
@@ -4796,8 +4825,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "Have you utterly rejected Judah?",
         "paragraph": true,
+        "text": "Have you utterly rejected Judah?",
         "break": true
       },
       {
@@ -4885,8 +4914,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "Then Yahweh said to me, “Though Moses and Samuel stood before me, yet my mind would not turn toward this people. Cast them out of my sight, and let them go out!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh said to me, “Though Moses and Samuel stood before me, yet my mind would not turn toward this people. Cast them out of my sight, and let them go out!"
     }
   },
   {
@@ -4918,8 +4947,8 @@
     "chapter": 15,
     "verse": 3,
     "content": {
-      "text": "“I will appoint over them four kinds,” says Yahweh: “the sword to kill, the dogs to tear, the birds of the sky, and the animals of the earth, to devour and to destroy.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“I will appoint over them four kinds,” says Yahweh: “the sword to kill, the dogs to tear, the birds of the sky, and the animals of the earth, to devour and to destroy."
     }
   },
   {
@@ -5049,8 +5078,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Woe is me, my mother, that you have borne me, a man of strife,",
         "paragraph": true,
+        "text": "Woe is me, my mother, that you have borne me, a man of strife,",
         "break": true
       },
       {
@@ -5070,8 +5099,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "Yahweh said,",
         "paragraph": true,
+        "text": "Yahweh said,",
         "break": true
       },
       {
@@ -5144,8 +5173,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "Yahweh, you know.",
         "paragraph": true,
+        "text": "Yahweh, you know.",
         "break": true
       },
       {
@@ -5238,8 +5267,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "Therefore Yahweh says,",
         "paragraph": true,
+        "text": "Therefore Yahweh says,",
         "break": true
       },
       {
@@ -5312,8 +5341,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "Then Yahweh’s word came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to me, saying,"
     }
   },
   {
@@ -5339,8 +5368,8 @@
     "chapter": 16,
     "verse": 5,
     "content": {
-      "text": "For Yahweh says, “Don’t enter into the house of mourning. Don’t go to lament. Don’t bemoan them, for I have taken away my peace from this people,” says Yahweh, “even loving kindness and tender mercies.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For Yahweh says, “Don’t enter into the house of mourning. Don’t go to lament. Don’t bemoan them, for I have taken away my peace from this people,” says Yahweh, “even loving kindness and tender mercies."
     }
   },
   {
@@ -5360,8 +5389,8 @@
     "chapter": 16,
     "verse": 8,
     "content": {
-      "text": "“You shall not go into the house of feasting to sit with them, to eat and to drink.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall not go into the house of feasting to sit with them, to eat and to drink.”"
     }
   },
   {
@@ -5399,8 +5428,8 @@
     "chapter": 16,
     "verse": 14,
     "content": {
-      "text": "“Therefore behold, the days come,” says Yahweh, “that it will no more be said, ‘As Yahweh lives, who brought up the children of Israel out of the land of Egypt;’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore behold, the days come,” says Yahweh, “that it will no more be said, ‘As Yahweh lives, who brought up the children of Israel out of the land of Egypt;’"
     }
   },
   {
@@ -5414,8 +5443,8 @@
     "chapter": 16,
     "verse": 16,
     "content": {
-      "text": "“Behold, I will send for many fishermen,” says Yahweh, “and they will fish them up. Afterward I will send for many hunters, and they will hunt them from every mountain, from every hill, and out of the clefts of the rocks.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Behold, I will send for many fishermen,” says Yahweh, “and they will fish them up. Afterward I will send for many hunters, and they will hunt them from every mountain, from every hill, and out of the clefts of the rocks."
     }
   },
   {
@@ -5436,8 +5465,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "Yahweh, my strength, my stronghold,",
         "paragraph": true,
+        "text": "Yahweh, my strength, my stronghold,",
         "break": true
       },
       {
@@ -5480,8 +5509,8 @@
     "verse": 21,
     "content": [
       {
-        "text": "“Therefore behold, I will cause them to know,",
         "paragraph": true,
+        "text": "“Therefore behold, I will cause them to know,",
         "break": true
       },
       {
@@ -5497,8 +5526,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "“The sin of Judah is written with a pen of iron,",
         "paragraph": true,
+        "text": "“The sin of Judah is written with a pen of iron,",
         "break": true
       },
       {
@@ -5571,8 +5600,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -5615,8 +5644,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "“Blessed is the man who trusts in Yahweh,",
         "paragraph": true,
+        "text": "“Blessed is the man who trusts in Yahweh,",
         "break": true
       },
       {
@@ -5678,8 +5707,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "“I, Yahweh, search the mind.",
         "paragraph": true,
+        "text": "“I, Yahweh, search the mind.",
         "break": true
       },
       {
@@ -5699,8 +5728,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "As the partridge that sits on eggs which she has not laid,",
         "paragraph": true,
+        "text": "As the partridge that sits on eggs which she has not laid,",
         "break": true
       },
       {
@@ -5864,8 +5893,8 @@
     "chapter": 17,
     "verse": 19,
     "content": {
-      "text": "Yahweh said this to me: “Go and stand in the gate of the children of the people, through which the kings of Judah come in and by which they go out, and in all the gates of Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said this to me: “Go and stand in the gate of the children of the people, through which the kings of Judah come in and by which they go out, and in all the gates of Jerusalem."
     }
   },
   {
@@ -5921,8 +5950,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "The word which came to Jeremiah from Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word which came to Jeremiah from Yahweh, saying,"
     }
   },
   {
@@ -5936,8 +5965,8 @@
     "chapter": 18,
     "verse": 3,
     "content": {
-      "text": "Then I went down to the potter’s house, and behold, he was making something on the wheels.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I went down to the potter’s house, and behold, he was making something on the wheels."
     }
   },
   {
@@ -5951,8 +5980,8 @@
     "chapter": 18,
     "verse": 5,
     "content": {
-      "text": "Then Yahweh’s word came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to me, saying,"
     }
   },
   {
@@ -5990,8 +6019,8 @@
     "chapter": 18,
     "verse": 11,
     "content": {
-      "text": "“Now therefore, speak to the men of Judah, and to the inhabitants of Jerusalem, saying, ‘Yahweh says: “Behold, I frame evil against you, and devise a plan against you. Everyone return from his evil way now, and amend your ways and your doings.” ’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Now therefore, speak to the men of Judah, and to the inhabitants of Jerusalem, saying, ‘Yahweh says: “Behold, I frame evil against you, and devise a plan against you. Everyone return from his evil way now, and amend your ways and your doings.” ’"
     }
   },
   {
@@ -6006,8 +6035,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "Therefore Yahweh says:",
         "paragraph": true,
+        "text": "Therefore Yahweh says:",
         "break": true
       },
       {
@@ -6110,8 +6139,8 @@
     "chapter": 18,
     "verse": 18,
     "content": {
-      "text": "Then they said, “Come! Let’s devise plans against Jeremiah; for the law won’t perish from the priest, nor counsel from the wise, nor the word from the prophet. Come, and let’s strike him with the tongue, and let’s not give heed to any of his words.”",
       "paragraph": true,
+      "text": "Then they said, “Come! Let’s devise plans against Jeremiah; for the law won’t perish from the priest, nor counsel from the wise, nor the word from the prophet. Come, and let’s strike him with the tongue, and let’s not give heed to any of his words.”",
       "break": true
     }
   },
@@ -6232,8 +6261,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "Thus said Yahweh, “Go, and buy a potter’s earthen container, and take some of the elders of the people and of the elders of the priests;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus said Yahweh, “Go, and buy a potter’s earthen container, and take some of the elders of the people and of the elders of the priests;"
     }
   },
   {
@@ -6271,8 +6300,8 @@
     "chapter": 19,
     "verse": 7,
     "content": {
-      "text": "“ ‘ “I will make the counsel of Judah and Jerusalem void in this place. I will cause them to fall by the sword before their enemies, and by the hand of those who seek their life. I will give their dead bodies to be food for the birds of the sky and for the animals of the earth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘ “I will make the counsel of Judah and Jerusalem void in this place. I will cause them to fall by the sword before their enemies, and by the hand of those who seek their life. I will give their dead bodies to be food for the birds of the sky and for the animals of the earth."
     }
   },
   {
@@ -6292,8 +6321,8 @@
     "chapter": 19,
     "verse": 10,
     "content": {
-      "text": "“Then you shall break the container in the sight of the men who go with you,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Then you shall break the container in the sight of the men who go with you,"
     }
   },
   {
@@ -6319,8 +6348,8 @@
     "chapter": 19,
     "verse": 14,
     "content": {
-      "text": "Then Jeremiah came from Topheth, where Yahweh had sent him to prophesy, and he stood in the court of Yahweh’s house, and said to all the people:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah came from Topheth, where Yahweh had sent him to prophesy, and he stood in the court of Yahweh’s house, and said to all the people:"
     }
   },
   {
@@ -6334,8 +6363,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "Now Pashhur, the son of Immer the priest, who was chief officer in Yahweh’s house, heard Jeremiah prophesying these things.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Pashhur, the son of Immer the priest, who was chief officer in Yahweh’s house, heard Jeremiah prophesying these things."
     }
   },
   {
@@ -6380,8 +6409,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Yahweh, you have persuaded me, and I was persuaded.",
         "paragraph": true,
+        "text": "Yahweh, you have persuaded me, and I was persuaded.",
         "break": true
       },
       {
@@ -6649,8 +6678,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "The word which came to Jeremiah from Yahweh, when King Zedekiah sent to him Pashhur the son of Malchijah, and Zephaniah the son of Maaseiah, the priest, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word which came to Jeremiah from Yahweh, when King Zedekiah sent to him Pashhur the son of Malchijah, and Zephaniah the son of Maaseiah, the priest, saying,"
     }
   },
   {
@@ -6664,8 +6693,8 @@
     "chapter": 21,
     "verse": 3,
     "content": {
-      "text": "Then Jeremiah said to them, “Tell Zedekiah:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah said to them, “Tell Zedekiah:"
     }
   },
   {
@@ -6697,8 +6726,8 @@
     "chapter": 21,
     "verse": 8,
     "content": {
-      "text": "“You shall say to this people, ‘Yahweh says: “Behold, I set before you the way of life and the way of death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall say to this people, ‘Yahweh says: “Behold, I set before you the way of life and the way of death."
     }
   },
   {
@@ -6718,8 +6747,8 @@
     "chapter": 21,
     "verse": 11,
     "content": {
-      "text": "“Concerning the house of the king of Judah, hear Yahweh’s word:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Concerning the house of the king of Judah, hear Yahweh’s word:"
     }
   },
   {
@@ -6797,8 +6826,8 @@
     "chapter": 22,
     "verse": 1,
     "content": {
-      "text": "Yahweh said, “Go down to the house of the king of Judah, and speak this word there:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said, “Go down to the house of the king of Judah, and speak this word there:"
     }
   },
   {
@@ -6831,8 +6860,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "For Yahweh says concerning the house of the king of Judah:",
         "paragraph": true,
+        "text": "For Yahweh says concerning the house of the king of Judah:",
         "break": true
       },
       {
@@ -6878,8 +6907,8 @@
     "chapter": 22,
     "verse": 8,
     "content": {
-      "text": "“Many nations will pass by this city, and they will each ask his neighbor, ‘Why has Yahweh done this to this great city?’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Many nations will pass by this city, and they will each ask his neighbor, ‘Why has Yahweh done this to this great city?’"
     }
   },
   {
@@ -6979,8 +7008,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "“Should you reign because you strive to excel in cedar?",
         "paragraph": true,
+        "text": "“Should you reign because you strive to excel in cedar?",
         "break": true
       },
       {
@@ -7081,8 +7110,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "“Go up to Lebanon, and cry out.",
         "paragraph": true,
+        "text": "“Go up to Lebanon, and cry out.",
         "break": true
       },
       {
@@ -7170,8 +7199,8 @@
     "chapter": 22,
     "verse": 24,
     "content": {
-      "text": "“As I live,” says Yahweh, “though Coniah the son of Jehoiakim king of Judah were the signet on my right hand, I would still pluck you from there.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“As I live,” says Yahweh, “though Coniah the son of Jehoiakim king of Judah were the signet on my right hand, I would still pluck you from there."
     }
   },
   {
@@ -7266,8 +7295,8 @@
     "chapter": 23,
     "verse": 1,
     "content": {
-      "text": "“Woe to the shepherds who destroy and scatter the sheep of my pasture!” says Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Woe to the shepherds who destroy and scatter the sheep of my pasture!” says Yahweh."
     }
   },
   {
@@ -7352,8 +7381,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Concerning the prophets:",
         "paragraph": true,
+        "text": "Concerning the prophets:",
         "break": true
       },
       {
@@ -7454,8 +7483,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "“I have seen folly in the prophets of Samaria.",
         "paragraph": true,
+        "text": "“I have seen folly in the prophets of Samaria.",
         "break": true
       },
       {
@@ -7502,8 +7531,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "Therefore Yahweh of Armies says concerning the prophets:",
         "paragraph": true,
+        "text": "Therefore Yahweh of Armies says concerning the prophets:",
         "break": true
       },
       {
@@ -7523,8 +7552,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "Yahweh of Armies says,",
         "paragraph": true,
+        "text": "Yahweh of Armies says,",
         "break": true
       },
       {
@@ -7666,8 +7695,8 @@
     "verse": 23,
     "content": [
       {
-        "text": "“Am I a God at hand,” says Yahweh,",
         "paragraph": true,
+        "text": "“Am I a God at hand,” says Yahweh,",
         "break": true
       },
       {
@@ -7697,8 +7726,8 @@
     "chapter": 23,
     "verse": 25,
     "content": {
-      "text": "“I have heard what the prophets have said, who prophesy lies in my name, saying, ‘I had a dream! I had a dream!’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“I have heard what the prophets have said, who prophesy lies in my name, saying, ‘I had a dream! I had a dream!’"
     }
   },
   {
@@ -7730,8 +7759,8 @@
     "chapter": 23,
     "verse": 30,
     "content": {
-      "text": "“Therefore behold, I am against the prophets,” says Yahweh, “who each steal my words from his neighbor.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore behold, I am against the prophets,” says Yahweh, “who each steal my words from his neighbor."
     }
   },
   {
@@ -7751,8 +7780,8 @@
     "chapter": 23,
     "verse": 33,
     "content": {
-      "text": "“When this people, or the prophet, or a priest, asks you, saying, ‘What is the message from Yahweh?’ Then you shall tell them, ‘ “What message? I will cast you off,” says Yahweh.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“When this people, or the prophet, or a priest, asks you, saying, ‘What is the message from Yahweh?’ Then you shall tell them, ‘ “What message? I will cast you off,” says Yahweh.’"
     }
   },
   {
@@ -7802,8 +7831,8 @@
     "chapter": 24,
     "verse": 1,
     "content": {
-      "text": "Yahweh showed me, and behold, two baskets of figs were set before Yahweh’s temple, after Nebuchadnezzar king of Babylon had carried away captive Jeconiah the son of Jehoiakim, king of Judah, and the princes of Judah, with the craftsmen and smiths, from Jerusalem, and had brought them to Babylon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh showed me, and behold, two baskets of figs were set before Yahweh’s temple, after Nebuchadnezzar king of Babylon had carried away captive Jeconiah the son of Jehoiakim, king of Judah, and the princes of Judah, with the craftsmen and smiths, from Jerusalem, and had brought them to Babylon."
     }
   },
   {
@@ -7816,18 +7845,24 @@
     "book": "JER",
     "chapter": 24,
     "verse": 3,
-    "content": {
-      "text": "Then Yahweh asked me, “What do you see, Jeremiah?” I said, “Figs. The good figs are very good, and the bad are very bad, so bad that they can’t be eaten.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Yahweh asked me, “What do you see, Jeremiah?”"
+      },
+      {
+        "paragraph": true,
+        "text": "I said, “Figs. The good figs are very good, and the bad are very bad, so bad that they can’t be eaten.”"
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 24,
     "verse": 4,
     "content": {
-      "text": "Yahweh’s word came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to me, saying,"
     }
   },
   {
@@ -7853,8 +7888,8 @@
     "chapter": 24,
     "verse": 8,
     "content": {
-      "text": "“ ‘As the bad figs, which can’t be eaten, they are so bad,’ surely Yahweh says, ‘So I will give up Zedekiah the king of Judah, and his princes, and the remnant of Jerusalem who remain in this land, and those who dwell in the land of Egypt.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘As the bad figs, which can’t be eaten, they are so bad,’ surely Yahweh says, ‘So I will give up Zedekiah the king of Judah, and his princes, and the remnant of Jerusalem who remain in this land, and those who dwell in the land of Egypt."
     }
   },
   {
@@ -7874,8 +7909,8 @@
     "chapter": 25,
     "verse": 1,
     "content": {
-      "text": "The word that came to Jeremiah concerning all the people of Judah, in the fourth year of Jehoiakim the son of Josiah, king of Judah (this was the first year of Nebuchadnezzar king of Babylon),",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word that came to Jeremiah concerning all the people of Judah, in the fourth year of Jehoiakim the son of Josiah, king of Judah (this was the first year of Nebuchadnezzar king of Babylon),"
     }
   },
   {
@@ -7895,8 +7930,8 @@
     "chapter": 25,
     "verse": 4,
     "content": {
-      "text": "Yahweh has sent to you all his servants the prophets, rising up early and sending them (but you have not listened or inclined your ear to hear),",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh has sent to you all his servants the prophets, rising up early and sending them (but you have not listened or inclined your ear to hear),"
     }
   },
   {
@@ -7916,8 +7951,8 @@
     "chapter": 25,
     "verse": 7,
     "content": {
-      "text": "“Yet you have not listened to me,” says Yahweh, “that you may provoke me to anger with the work of your hands to your own hurt.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Yet you have not listened to me,” says Yahweh, “that you may provoke me to anger with the work of your hands to your own hurt.”"
     }
   },
   {
@@ -7925,8 +7960,8 @@
     "chapter": 25,
     "verse": 8,
     "content": {
-      "text": "Therefore Yahweh of Armies says: “Because you have not heard my words,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore Yahweh of Armies says: “Because you have not heard my words,"
     }
   },
   {
@@ -7952,8 +7987,8 @@
     "chapter": 25,
     "verse": 12,
     "content": {
-      "text": "“It will happen, when seventy years are accomplished, that I will punish the king of Babylon and that nation,” says Yahweh, “for their iniquity. I will make the land of the Chaldeans desolate forever.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“It will happen, when seventy years are accomplished, that I will punish the king of Babylon and that nation,” says Yahweh, “for their iniquity. I will make the land of the Chaldeans desolate forever."
     }
   },
   {
@@ -7973,8 +8008,8 @@
     "chapter": 25,
     "verse": 15,
     "content": {
-      "text": "For Yahweh, the God of Israel, says to me: “Take this cup of the wine of wrath from my hand, and cause all the nations to whom I send you to drink it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For Yahweh, the God of Israel, says to me: “Take this cup of the wine of wrath from my hand, and cause all the nations to whom I send you to drink it."
     }
   },
   {
@@ -7988,8 +8023,8 @@
     "chapter": 25,
     "verse": 17,
     "content": {
-      "text": "Then I took the cup at Yahweh’s hand, and made all the nations to drink, to whom Yahweh had sent me:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I took the cup at Yahweh’s hand, and made all the nations to drink, to whom Yahweh had sent me:"
     }
   },
   {
@@ -8051,8 +8086,8 @@
     "chapter": 25,
     "verse": 27,
     "content": {
-      "text": "“You shall tell them, ‘Yahweh of Armies, the God of Israel says: “Drink, and be drunk, vomit, fall, and rise no more, because of the sword which I will send among you.” ’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall tell them, ‘Yahweh of Armies, the God of Israel says: “Drink, and be drunk, vomit, fall, and rise no more, because of the sword which I will send among you.” ’"
     }
   },
   {
@@ -8073,8 +8108,8 @@
     "verse": 30,
     "content": [
       {
-        "text": "“Therefore prophesy against them all these words, and tell them,",
         "paragraph": true,
+        "text": "“Therefore prophesy against them all these words, and tell them,",
         "break": true
       },
       {
@@ -8125,8 +8160,8 @@
     "verse": 32,
     "content": [
       {
-        "text": "Yahweh of Armies says,",
         "paragraph": true,
+        "text": "Yahweh of Armies says,",
         "break": true
       },
       {
@@ -8238,8 +8273,8 @@
     "chapter": 26,
     "verse": 1,
     "content": {
-      "text": "In the beginning of the reign of Jehoiakim the son of Josiah, king of Judah, this word came from Yahweh:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the beginning of the reign of Jehoiakim the son of Josiah, king of Judah, this word came from Yahweh:"
     }
   },
   {
@@ -8277,8 +8312,8 @@
     "chapter": 26,
     "verse": 7,
     "content": {
-      "text": "The priests and the prophets and all the people heard Jeremiah speaking these words in Yahweh’s house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The priests and the prophets and all the people heard Jeremiah speaking these words in Yahweh’s house."
     }
   },
   {
@@ -8298,8 +8333,8 @@
     "chapter": 26,
     "verse": 10,
     "content": {
-      "text": "When the princes of Judah heard these things, they came up from the king’s house to Yahweh’s house; and they sat in the entry of the new gate of Yahweh’s house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the princes of Judah heard these things, they came up from the king’s house to Yahweh’s house; and they sat in the entry of the new gate of Yahweh’s house."
     }
   },
   {
@@ -8313,8 +8348,8 @@
     "chapter": 26,
     "verse": 12,
     "content": {
-      "text": "Then Jeremiah spoke to all the princes and to all the people, saying, “Yahweh sent me to prophesy against this house and against this city all the words that you have heard.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah spoke to all the princes and to all the people, saying, “Yahweh sent me to prophesy against this house and against this city all the words that you have heard."
     }
   },
   {
@@ -8340,8 +8375,8 @@
     "chapter": 26,
     "verse": 16,
     "content": {
-      "text": "Then the princes and all the people said to the priests and to the prophets: “This man is not worthy of death; for he has spoken to us in the name of Yahweh our God.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the princes and all the people said to the priests and to the prophets: “This man is not worthy of death; for he has spoken to us in the name of Yahweh our God.”"
     }
   },
   {
@@ -8349,8 +8384,8 @@
     "chapter": 26,
     "verse": 17,
     "content": {
-      "text": "Then certain of the elders of the land rose up, and spoke to all the assembly of the people, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then certain of the elders of the land rose up, and spoke to all the assembly of the people, saying,"
     }
   },
   {
@@ -8384,8 +8419,8 @@
     "chapter": 26,
     "verse": 20,
     "content": {
-      "text": "There was also a man who prophesied in Yahweh’s name, Uriah the son of Shemaiah of Kiriath Jearim; and he prophesied against this city and against this land according to all the words of Jeremiah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "There was also a man who prophesied in Yahweh’s name, Uriah the son of Shemaiah of Kiriath Jearim; and he prophesied against this city and against this land according to all the words of Jeremiah."
     }
   },
   {
@@ -8411,8 +8446,8 @@
     "chapter": 26,
     "verse": 24,
     "content": {
-      "text": "But the hand of Ahikam the son of Shaphan was with Jeremiah, so that they didn’t give him into the hand of the people to put him to death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But the hand of Ahikam the son of Shaphan was with Jeremiah, so that they didn’t give him into the hand of the people to put him to death."
     }
   },
   {
@@ -8420,8 +8455,8 @@
     "chapter": 27,
     "verse": 1,
     "content": {
-      "text": "In the beginning of the reign of Jehoiakim the son of Josiah, king of Judah, this word came to Jeremiah from Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the beginning of the reign of Jehoiakim the son of Josiah, king of Judah, this word came to Jeremiah from Yahweh, saying,"
     }
   },
   {
@@ -8465,8 +8500,8 @@
     "chapter": 27,
     "verse": 8,
     "content": {
-      "text": "“ ‘ “ ‘It will happen that I will punish the nation and the kingdom which will not serve the same Nebuchadnezzar king of Babylon, and that will not put their neck under the yoke of the king of Babylon,’ says Yahweh, ‘with the sword, with famine, and with pestilence, until I have consumed them by his hand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘ “ ‘It will happen that I will punish the nation and the kingdom which will not serve the same Nebuchadnezzar king of Babylon, and that will not put their neck under the yoke of the king of Babylon,’ says Yahweh, ‘with the sword, with famine, and with pestilence, until I have consumed them by his hand."
     }
   },
   {
@@ -8492,8 +8527,8 @@
     "chapter": 27,
     "verse": 12,
     "content": {
-      "text": "I spoke to Zedekiah king of Judah according to all these words, saying, “Bring your necks under the yoke of the king of Babylon, and serve him and his people, and live.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I spoke to Zedekiah king of Judah according to all these words, saying, “Bring your necks under the yoke of the king of Babylon, and serve him and his people, and live."
     }
   },
   {
@@ -8519,8 +8554,8 @@
     "chapter": 27,
     "verse": 16,
     "content": {
-      "text": "Also I spoke to the priests and to all this people, saying, Yahweh says, “Don’t listen to the words of your prophets who prophesy to you, saying, ‘Behold, the vessels of Yahweh’s house will now shortly be brought again from Babylon;’ for they prophesy a lie to you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Also I spoke to the priests and to all this people, saying, Yahweh says, “Don’t listen to the words of your prophets who prophesy to you, saying, ‘Behold, the vessels of Yahweh’s house will now shortly be brought again from Babylon;’ for they prophesy a lie to you."
     }
   },
   {
@@ -8564,8 +8599,8 @@
     "chapter": 28,
     "verse": 1,
     "content": {
-      "text": "That same year, in the beginning of the reign of Zedekiah king of Judah, in the fourth year, in the fifth month, Hananiah the son of Azzur, the prophet, who was of Gibeon, spoke to me in Yahweh’s house, in the presence of the priests and of all the people, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "That same year, in the beginning of the reign of Zedekiah king of Judah, in the fourth year, in the fifth month, Hananiah the son of Azzur, the prophet, who was of Gibeon, spoke to me in Yahweh’s house, in the presence of the priests and of all the people, saying,"
     }
   },
   {
@@ -8591,8 +8626,8 @@
     "chapter": 28,
     "verse": 5,
     "content": {
-      "text": "Then the prophet Jeremiah said to the prophet Hananiah in the presence of the priests, and in the presence of all the people who stood in Yahweh’s house,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the prophet Jeremiah said to the prophet Hananiah in the presence of the priests, and in the presence of all the people who stood in Yahweh’s house,"
     }
   },
   {
@@ -8624,8 +8659,8 @@
     "chapter": 28,
     "verse": 10,
     "content": {
-      "text": "Then Hananiah the prophet took the bar from off the prophet Jeremiah’s neck, and broke it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Hananiah the prophet took the bar from off the prophet Jeremiah’s neck, and broke it."
     }
   },
   {
@@ -8639,8 +8674,8 @@
     "chapter": 28,
     "verse": 12,
     "content": {
-      "text": "Then Yahweh’s word came to Jeremiah, after Hananiah the prophet had broken the bar from off the neck of the prophet Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to Jeremiah, after Hananiah the prophet had broken the bar from off the neck of the prophet Jeremiah, saying,"
     }
   },
   {
@@ -8660,8 +8695,8 @@
     "chapter": 28,
     "verse": 15,
     "content": {
-      "text": "Then the prophet Jeremiah said to Hananiah the prophet, “Listen, Hananiah! Yahweh has not sent you, but you make this people trust in a lie.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the prophet Jeremiah said to Hananiah the prophet, “Listen, Hananiah! Yahweh has not sent you, but you make this people trust in a lie."
     }
   },
   {
@@ -8675,8 +8710,8 @@
     "chapter": 28,
     "verse": 17,
     "content": {
-      "text": "So Hananiah the prophet died the same year in the seventh month.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Hananiah the prophet died the same year in the seventh month."
     }
   },
   {
@@ -8684,8 +8719,8 @@
     "chapter": 29,
     "verse": 1,
     "content": {
-      "text": "Now these are the words of the letter that Jeremiah the prophet sent from Jerusalem to the residue of the elders of the captivity, and to the priests, to the prophets, and to all the people whom Nebuchadnezzar had carried away captive from Jerusalem to Babylon,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now these are the words of the letter that Jeremiah the prophet sent from Jerusalem to the residue of the elders of the captivity, and to the priests, to the prophets, and to all the people whom Nebuchadnezzar had carried away captive from Jerusalem to Babylon,"
     }
   },
   {
@@ -8825,8 +8860,8 @@
     "chapter": 29,
     "verse": 24,
     "content": {
-      "text": "Concerning Shemaiah the Nehelamite you shall speak, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Concerning Shemaiah the Nehelamite you shall speak, saying,"
     }
   },
   {
@@ -8858,8 +8893,8 @@
     "chapter": 29,
     "verse": 29,
     "content": {
-      "text": "Zephaniah the priest read this letter in the hearing of Jeremiah the prophet.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Zephaniah the priest read this letter in the hearing of Jeremiah the prophet."
     }
   },
   {
@@ -8885,8 +8920,8 @@
     "chapter": 30,
     "verse": 1,
     "content": {
-      "text": "The word that came to Jeremiah from Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word that came to Jeremiah from Yahweh, saying,"
     }
   },
   {
@@ -8906,8 +8941,8 @@
     "chapter": 30,
     "verse": 4,
     "content": {
-      "text": "These are the words that Yahweh spoke concerning Israel and concerning Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are the words that Yahweh spoke concerning Israel and concerning Judah."
     }
   },
   {
@@ -9070,8 +9105,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "For Yahweh says,",
         "paragraph": true,
+        "text": "For Yahweh says,",
         "break": true
       },
       {
@@ -9210,8 +9245,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -9364,8 +9399,8 @@
     "chapter": 31,
     "verse": 1,
     "content": {
-      "text": "“At that time,” says Yahweh, “I will be the God of all the families of Israel, and they will be my people.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“At that time,” says Yahweh, “I will be the God of all the families of Israel, and they will be my people.”"
     }
   },
   {
@@ -9373,8 +9408,8 @@
     "chapter": 31,
     "verse": 2,
     "content": {
-      "text": "Yahweh says, “The people who survive the sword found favor in the wilderness; even Israel, when I went to cause him to rest.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh says, “The people who survive the sword found favor in the wilderness; even Israel, when I went to cause him to rest.”"
     }
   },
   {
@@ -9383,8 +9418,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "Yahweh appeared of old to me, saying,",
         "paragraph": true,
+        "text": "Yahweh appeared of old to me, saying,",
         "break": true
       },
       {
@@ -9457,8 +9492,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "For Yahweh says,",
         "paragraph": true,
+        "text": "For Yahweh says,",
         "break": true
       },
       {
@@ -9544,8 +9579,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "“Hear Yahweh’s word, you nations,",
         "paragraph": true,
+        "text": "“Hear Yahweh’s word, you nations,",
         "break": true
       },
       {
@@ -9649,8 +9684,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -9678,8 +9713,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -9718,8 +9753,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "“I have surely heard Ephraim grieving thus,",
         "paragraph": true,
+        "text": "“I have surely heard Ephraim grieving thus,",
         "break": true
       },
       {
@@ -9805,8 +9840,8 @@
     "verse": 21,
     "content": [
       {
-        "text": "“Set up road signs.",
         "paragraph": true,
+        "text": "“Set up road signs.",
         "break": true
       },
       {
@@ -9856,8 +9891,8 @@
     "chapter": 31,
     "verse": 23,
     "content": {
-      "text": "Yahweh of Armies, the God of Israel, says: “Yet again they will use this speech in the land of Judah and in its cities, when I reverse their captivity: ‘Yahweh bless you, habitation of righteousness, mountain of holiness.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies, the God of Israel, says: “Yet again they will use this speech in the land of Judah and in its cities, when I reverse their captivity: ‘Yahweh bless you, habitation of righteousness, mountain of holiness.’"
     }
   },
   {
@@ -9877,8 +9912,8 @@
     "chapter": 31,
     "verse": 26,
     "content": {
-      "text": "On this I awakened, and saw; and my sleep was sweet to me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On this I awakened, and saw; and my sleep was sweet to me."
     }
   },
   {
@@ -9886,8 +9921,8 @@
     "chapter": 31,
     "verse": 27,
     "content": {
-      "text": "“Behold, the days come,” says Yahweh, “that I will sow the house of Israel and the house of Judah with the seed of man and with the seed of animal.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Behold, the days come,” says Yahweh, “that I will sow the house of Israel and the house of Judah with the seed of man and with the seed of animal."
     }
   },
   {
@@ -9923,8 +9958,8 @@
     "chapter": 31,
     "verse": 31,
     "content": {
-      "text": "“Behold, the days come,” says Yahweh, “that I will make a new covenant with the house of Israel, and with the house of Judah,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Behold, the days come,” says Yahweh, “that I will make a new covenant with the house of Israel, and with the house of Judah,"
     }
   },
   {
@@ -10050,8 +10085,8 @@
     "chapter": 31,
     "verse": 38,
     "content": {
-      "text": "“Behold, the days come,” says Yahweh, “that the city will be built to Yahweh from the tower of Hananel to the gate of the corner.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Behold, the days come,” says Yahweh, “that the city will be built to Yahweh from the tower of Hananel to the gate of the corner."
     }
   },
   {
@@ -10071,8 +10106,8 @@
     "chapter": 32,
     "verse": 1,
     "content": {
-      "text": "This is the word that came to Jeremiah from Yahweh in the tenth year of Zedekiah king of Judah, which was the eighteenth year of Nebuchadnezzar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This is the word that came to Jeremiah from Yahweh in the tenth year of Zedekiah king of Judah, which was the eighteenth year of Nebuchadnezzar."
     }
   },
   {
@@ -10086,8 +10121,8 @@
     "chapter": 32,
     "verse": 3,
     "content": {
-      "text": "For Zedekiah king of Judah had shut him up, saying, “Why do you prophesy, and say, ‘Yahweh says, “Behold, I will give this city into the hand of the king of Babylon, and he will take it;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For Zedekiah king of Judah had shut him up, saying, “Why do you prophesy, and say, ‘Yahweh says, “Behold, I will give this city into the hand of the king of Babylon, and he will take it;"
     }
   },
   {
@@ -10107,8 +10142,8 @@
     "chapter": 32,
     "verse": 6,
     "content": {
-      "text": "Jeremiah said, “Yahweh’s word came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jeremiah said, “Yahweh’s word came to me, saying,"
     }
   },
   {
@@ -10121,10 +10156,16 @@
     "book": "JER",
     "chapter": 32,
     "verse": 8,
-    "content": {
-      "text": "“So Hanamel my uncle’s son came to me in the court of the guard according to Yahweh’s word, and said to me, ‘Please buy my field that is in Anathoth, which is in the land of Benjamin; for the right of inheritance is yours, and the redemption is yours. Buy it for yourself.’ “Then I knew that this was Yahweh’s word.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "“So Hanamel my uncle’s son came to me in the court of the guard according to Yahweh’s word, and said to me, ‘Please buy my field that is in Anathoth, which is in the land of Benjamin; for the right of inheritance is yours, and the redemption is yours. Buy it for yourself.’"
+      },
+      {
+        "paragraph": true,
+        "text": "“Then I knew that this was Yahweh’s word."
+      }
+    ]
   },
   {
     "book": "JER",
@@ -10164,8 +10205,8 @@
     "chapter": 32,
     "verse": 13,
     "content": {
-      "text": "“I commanded Baruch before them, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“I commanded Baruch before them, saying,"
     }
   },
   {
@@ -10185,8 +10226,8 @@
     "chapter": 32,
     "verse": 16,
     "content": {
-      "text": "Now after I had delivered the deed of the purchase to Baruch the son of Neriah, I prayed to Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now after I had delivered the deed of the purchase to Baruch the son of Neriah, I prayed to Yahweh, saying,"
     }
   },
   {
@@ -10194,8 +10235,8 @@
     "chapter": 32,
     "verse": 17,
     "content": {
-      "text": "“Ah Lord Yahweh! Behold, you have made the heavens and the earth by your great power and by your outstretched arm. There is nothing too hard for you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Ah Lord Yahweh! Behold, you have made the heavens and the earth by your great power and by your outstretched arm. There is nothing too hard for you."
     }
   },
   {
@@ -10251,8 +10292,8 @@
     "chapter": 32,
     "verse": 26,
     "content": {
-      "text": "Then Yahweh’s word came to Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to Jeremiah, saying,"
     }
   },
   {
@@ -10278,8 +10319,8 @@
     "chapter": 32,
     "verse": 30,
     "content": {
-      "text": "“For the children of Israel and the children of Judah have done only that which was evil in my sight from their youth; for the children of Israel have only provoked me to anger with the work of their hands, says Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“For the children of Israel and the children of Judah have done only that which was evil in my sight from their youth; for the children of Israel have only provoked me to anger with the work of their hands, says Yahweh."
     }
   },
   {
@@ -10317,8 +10358,8 @@
     "chapter": 32,
     "verse": 36,
     "content": {
-      "text": "Now therefore Yahweh, the God of Israel, says concerning this city, about which you say, “It is given into the hand of the king of Babylon by the sword, by the famine, and by the pestilence:”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now therefore Yahweh, the God of Israel, says concerning this city, about which you say, “It is given into the hand of the king of Babylon by the sword, by the famine, and by the pestilence:”"
     }
   },
   {
@@ -10356,8 +10397,8 @@
     "chapter": 32,
     "verse": 42,
     "content": {
-      "text": "For Yahweh says: “Just as I have brought all this great evil on this people, so I will bring on them all the good that I have promised them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For Yahweh says: “Just as I have brought all this great evil on this people, so I will bring on them all the good that I have promised them."
     }
   },
   {
@@ -10377,8 +10418,8 @@
     "chapter": 33,
     "verse": 1,
     "content": {
-      "text": "Moreover Yahweh’s word came to Jeremiah the second time, while he was still locked up in the court of the guard, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moreover Yahweh’s word came to Jeremiah the second time, while he was still locked up in the court of the guard, saying,"
     }
   },
   {
@@ -10434,8 +10475,8 @@
     "chapter": 33,
     "verse": 10,
     "content": {
-      "text": "Yahweh says: “Yet again there will be heard in this place, about which you say, ‘It is waste, without man and without animal, even in the cities of Judah, and in the streets of Jerusalem, that are desolate, without man and without inhabitant and without animal,’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh says: “Yet again there will be heard in this place, about which you say, ‘It is waste, without man and without animal, even in the cities of Judah, and in the streets of Jerusalem, that are desolate, without man and without inhabitant and without animal,’"
     }
   },
   {
@@ -10449,8 +10490,8 @@
     "chapter": 33,
     "verse": 12,
     "content": {
-      "text": "Yahweh of Armies says: “Yet again there will be in this place, which is waste, without man and without animal, and in all its cities, a habitation of shepherds causing their flocks to lie down.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies says: “Yet again there will be in this place, which is waste, without man and without animal, and in all its cities, a habitation of shepherds causing their flocks to lie down."
     }
   },
   {
@@ -10464,8 +10505,8 @@
     "chapter": 33,
     "verse": 14,
     "content": {
-      "text": "“Behold, the days come,” says Yahweh, “that I will perform that good word which I have spoken concerning the house of Israel and concerning the house of Judah.",
       "paragraph": true,
+      "text": "“Behold, the days come,” says Yahweh, “that I will perform that good word which I have spoken concerning the house of Israel and concerning the house of Judah.",
       "break": true
     }
   },
@@ -10513,8 +10554,8 @@
     "chapter": 33,
     "verse": 17,
     "content": {
-      "text": "For Yahweh says: “David will never lack a man to sit on the throne of the house of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For Yahweh says: “David will never lack a man to sit on the throne of the house of Israel."
     }
   },
   {
@@ -10528,8 +10569,8 @@
     "chapter": 33,
     "verse": 19,
     "content": {
-      "text": "Yahweh’s word came to Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to Jeremiah, saying,"
     }
   },
   {
@@ -10555,8 +10596,8 @@
     "chapter": 33,
     "verse": 23,
     "content": {
-      "text": "Yahweh’s word came to Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to Jeremiah, saying,"
     }
   },
   {
@@ -10582,8 +10623,8 @@
     "chapter": 34,
     "verse": 1,
     "content": {
-      "text": "The word which came to Jeremiah from Yahweh, when Nebuchadnezzar king of Babylon, with all his army, all the kingdoms of the earth that were under his dominion, and all the peoples, were fighting against Jerusalem and against all its cities, saying:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word which came to Jeremiah from Yahweh, when Nebuchadnezzar king of Babylon, with all his army, all the kingdoms of the earth that were under his dominion, and all the peoples, were fighting against Jerusalem and against all its cities, saying:"
     }
   },
   {
@@ -10603,8 +10644,8 @@
     "chapter": 34,
     "verse": 4,
     "content": {
-      "text": "“Yet hear Yahweh’s word, O Zedekiah king of Judah. Yahweh says concerning you, ‘You won’t die by the sword.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Yet hear Yahweh’s word, O Zedekiah king of Judah. Yahweh says concerning you, ‘You won’t die by the sword."
     }
   },
   {
@@ -10618,8 +10659,8 @@
     "chapter": 34,
     "verse": 6,
     "content": {
-      "text": "Then Jeremiah the prophet spoke all these words to Zedekiah king of Judah in Jerusalem,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah the prophet spoke all these words to Zedekiah king of Judah in Jerusalem,"
     }
   },
   {
@@ -10633,8 +10674,8 @@
     "chapter": 34,
     "verse": 8,
     "content": {
-      "text": "The word came to Jeremiah from Yahweh, after King Zedekiah had made a covenant with all the people who were at Jerusalem, to proclaim liberty to them,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word came to Jeremiah from Yahweh, after King Zedekiah had made a covenant with all the people who were at Jerusalem, to proclaim liberty to them,"
     }
   },
   {
@@ -10660,8 +10701,8 @@
     "chapter": 34,
     "verse": 12,
     "content": {
-      "text": "Therefore Yahweh’s word came to Jeremiah from Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore Yahweh’s word came to Jeremiah from Yahweh, saying,"
     }
   },
   {
@@ -10693,8 +10734,8 @@
     "chapter": 34,
     "verse": 17,
     "content": {
-      "text": "Therefore Yahweh says: “You have not listened to me, to proclaim liberty, every man to his brother, and every man to his neighbor. Behold, I proclaim to you a liberty,” says Yahweh, “to the sword, to the pestilence, and to the famine. I will make you be tossed back and forth among all the kingdoms of the earth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore Yahweh says: “You have not listened to me, to proclaim liberty, every man to his brother, and every man to his neighbor. Behold, I proclaim to you a liberty,” says Yahweh, “to the sword, to the pestilence, and to the famine. I will make you be tossed back and forth among all the kingdoms of the earth."
     }
   },
   {
@@ -10720,8 +10761,8 @@
     "chapter": 34,
     "verse": 21,
     "content": {
-      "text": "“I will give Zedekiah king of Judah and his princes into the hands of their enemies, into the hands of those who seek their life and into the hands of the king of Babylon’s army, who has gone away from you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“I will give Zedekiah king of Judah and his princes into the hands of their enemies, into the hands of those who seek their life and into the hands of the king of Babylon’s army, who has gone away from you."
     }
   },
   {
@@ -10735,8 +10776,8 @@
     "chapter": 35,
     "verse": 1,
     "content": {
-      "text": "The word which came to Jeremiah from Yahweh in the days of Jehoiakim the son of Josiah, king of Judah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word which came to Jeremiah from Yahweh in the days of Jehoiakim the son of Josiah, king of Judah, saying,"
     }
   },
   {
@@ -10750,8 +10791,8 @@
     "chapter": 35,
     "verse": 3,
     "content": {
-      "text": "Then I took Jaazaniah the son of Jeremiah, the son of Habazziniah, with his brothers, all his sons, and the whole house of the Rechabites;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I took Jaazaniah the son of Jeremiah, the son of Habazziniah, with his brothers, all his sons, and the whole house of the Rechabites;"
     }
   },
   {
@@ -10771,8 +10812,8 @@
     "chapter": 35,
     "verse": 6,
     "content": {
-      "text": "But they said, “We will drink no wine; for Jonadab the son of Rechab, our father, commanded us, saying, ‘You shall drink no wine, neither you nor your children, forever.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But they said, “We will drink no wine; for Jonadab the son of Rechab, our father, commanded us, saying, ‘You shall drink no wine, neither you nor your children, forever."
     }
   },
   {
@@ -10810,8 +10851,8 @@
     "chapter": 35,
     "verse": 12,
     "content": {
-      "text": "Then Yahweh’s word came to Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to Jeremiah, saying,"
     }
   },
   {
@@ -10843,8 +10884,8 @@
     "chapter": 35,
     "verse": 17,
     "content": {
-      "text": "“Therefore Yahweh, the God of Armies, the God of Israel, says: ‘Behold, I will bring on Judah and on all the inhabitants of Jerusalem all the evil that I have pronounced against them, because I have spoken to them, but they have not heard; and I have called to them, but they have not answered.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore Yahweh, the God of Armies, the God of Israel, says: ‘Behold, I will bring on Judah and on all the inhabitants of Jerusalem all the evil that I have pronounced against them, because I have spoken to them, but they have not heard; and I have called to them, but they have not answered.’ ”"
     }
   },
   {
@@ -10852,8 +10893,8 @@
     "chapter": 35,
     "verse": 18,
     "content": {
-      "text": "Jeremiah said to the house of the Rechabites, “Yahweh of Armies, the God of Israel, says: ‘Because you have obeyed the commandment of Jonadab your father, and kept all his precepts, and done according to all that he commanded you,’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Jeremiah said to the house of the Rechabites, “Yahweh of Armies, the God of Israel, says: ‘Because you have obeyed the commandment of Jonadab your father, and kept all his precepts, and done according to all that he commanded you,’"
     }
   },
   {
@@ -10867,8 +10908,8 @@
     "chapter": 36,
     "verse": 1,
     "content": {
-      "text": "In the fourth year of Jehoiakim the son of Josiah, king of Judah, this word came to Jeremiah from Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the fourth year of Jehoiakim the son of Josiah, king of Judah, this word came to Jeremiah from Yahweh, saying,"
     }
   },
   {
@@ -10888,8 +10929,8 @@
     "chapter": 36,
     "verse": 4,
     "content": {
-      "text": "Then Jeremiah called Baruch the son of Neriah; and Baruch wrote from the mouth of Jeremiah all Yahweh’s words, which he had spoken to him, on a scroll of a book.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah called Baruch the son of Neriah; and Baruch wrote from the mouth of Jeremiah all Yahweh’s words, which he had spoken to him, on a scroll of a book."
     }
   },
   {
@@ -10915,8 +10956,8 @@
     "chapter": 36,
     "verse": 8,
     "content": {
-      "text": "Baruch the son of Neriah did according to all that Jeremiah the prophet commanded him, reading in the book Yahweh’s words in Yahweh’s house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Baruch the son of Neriah did according to all that Jeremiah the prophet commanded him, reading in the book Yahweh’s words in Yahweh’s house."
     }
   },
   {
@@ -10936,8 +10977,8 @@
     "chapter": 36,
     "verse": 11,
     "content": {
-      "text": "When Micaiah the son of Gemariah, the son of Shaphan, had heard out of the book all Yahweh’s words,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Micaiah the son of Gemariah, the son of Shaphan, had heard out of the book all Yahweh’s words,"
     }
   },
   {
@@ -10956,21 +10997,33 @@
     "book": "JER",
     "chapter": 36,
     "verse": 14,
-    "content": "Therefore all the princes sent Jehudi the son of Nethaniah, the son of Shelemiah, the son of Cushi, to Baruch, saying, “Take in your hand the scroll in which you have read in the ears of the people, and come.” So Baruch the son of Neriah took the scroll in his hand, and came to them."
+    "content": [
+      "Therefore all the princes sent Jehudi the son of Nethaniah, the son of Shelemiah, the son of Cushi, to Baruch, saying, “Take in your hand the scroll in which you have read in the ears of the people, and come.”",
+      {
+        "paragraph": true,
+        "text": "So Baruch the son of Neriah took the scroll in his hand, and came to them."
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 36,
     "verse": 15,
-    "content": "They said to him, “Sit down now, and read it in our hearing.” So Baruch read it in their hearing."
+    "content": [
+      "They said to him, “Sit down now, and read it in our hearing.”",
+      {
+        "paragraph": true,
+        "text": "So Baruch read it in their hearing."
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 36,
     "verse": 16,
     "content": {
-      "text": "Now when they had heard all the words, they turned in fear one toward another, and said to Baruch, “We will surely tell the king of all these words.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now when they had heard all the words, they turned in fear one toward another, and said to Baruch, “We will surely tell the king of all these words.”"
     }
   },
   {
@@ -10984,8 +11037,8 @@
     "chapter": 36,
     "verse": 18,
     "content": {
-      "text": "Then Baruch answered them, “He dictated all these words to me with his mouth, and I wrote them with ink in the book.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Baruch answered them, “He dictated all these words to me with his mouth, and I wrote them with ink in the book.”"
     }
   },
   {
@@ -10993,8 +11046,8 @@
     "chapter": 36,
     "verse": 19,
     "content": {
-      "text": "Then the princes said to Baruch, “You and Jeremiah go hide. Don’t let anyone know where you are.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the princes said to Baruch, “You and Jeremiah go hide. Don’t let anyone know where you are.”"
     }
   },
   {
@@ -11002,8 +11055,8 @@
     "chapter": 36,
     "verse": 20,
     "content": {
-      "text": "They went in to the king into the court, but they had laid up the scroll in the room of Elishama the scribe. Then they told all the words in the hearing of the king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They went in to the king into the court, but they had laid up the scroll in the room of Elishama the scribe. Then they told all the words in the hearing of the king."
     }
   },
   {
@@ -11047,8 +11100,8 @@
     "chapter": 36,
     "verse": 27,
     "content": {
-      "text": "Then Yahweh’s word came to Jeremiah, after the king had burned the scroll, and the words which Baruch wrote at the mouth of Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to Jeremiah, after the king had burned the scroll, and the words which Baruch wrote at the mouth of Jeremiah, saying,"
     }
   },
   {
@@ -11080,8 +11133,8 @@
     "chapter": 36,
     "verse": 32,
     "content": {
-      "text": "Then Jeremiah took another scroll, and gave it to Baruch the scribe, the son of Neriah, who wrote therein from the mouth of Jeremiah all the words of the book which Jehoiakim king of Judah had burned in the fire; and many similar words were added to them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah took another scroll, and gave it to Baruch the scribe, the son of Neriah, who wrote therein from the mouth of Jeremiah all the words of the book which Jehoiakim king of Judah had burned in the fire; and many similar words were added to them."
     }
   },
   {
@@ -11089,8 +11142,8 @@
     "chapter": 37,
     "verse": 1,
     "content": {
-      "text": "Zedekiah the son of Josiah reigned as king instead of Coniah the son of Jehoiakim, whom Nebuchadnezzar king of Babylon made king in the land of Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Zedekiah the son of Josiah reigned as king instead of Coniah the son of Jehoiakim, whom Nebuchadnezzar king of Babylon made king in the land of Judah."
     }
   },
   {
@@ -11104,8 +11157,8 @@
     "chapter": 37,
     "verse": 3,
     "content": {
-      "text": "Zedekiah the king sent Jehucal the son of Shelemiah and Zephaniah the son of Maaseiah, the priest, to the prophet Jeremiah, saying, “Pray now to Yahweh our God for us.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Zedekiah the king sent Jehucal the son of Shelemiah and Zephaniah the son of Maaseiah, the priest, to the prophet Jeremiah, saying, “Pray now to Yahweh our God for us.”"
     }
   },
   {
@@ -11113,8 +11166,8 @@
     "chapter": 37,
     "verse": 4,
     "content": {
-      "text": "Now Jeremiah came in and went out among the people, for they had not put him into prison.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Jeremiah came in and went out among the people, for they had not put him into prison."
     }
   },
   {
@@ -11128,8 +11181,8 @@
     "chapter": 37,
     "verse": 6,
     "content": {
-      "text": "Then Yahweh’s word came to the prophet Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to the prophet Jeremiah, saying,"
     }
   },
   {
@@ -11149,8 +11202,8 @@
     "chapter": 37,
     "verse": 9,
     "content": {
-      "text": "“Yahweh says, ‘Don’t deceive yourselves, saying, “The Chaldeans will surely depart from us;” for they will not depart.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Yahweh says, ‘Don’t deceive yourselves, saying, “The Chaldeans will surely depart from us;” for they will not depart."
     }
   },
   {
@@ -11164,8 +11217,8 @@
     "chapter": 37,
     "verse": 11,
     "content": {
-      "text": "When the army of the Chaldeans had withdrawn from Jerusalem for fear of Pharaoh’s army,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the army of the Chaldeans had withdrawn from Jerusalem for fear of Pharaoh’s army,"
     }
   },
   {
@@ -11184,10 +11237,16 @@
     "book": "JER",
     "chapter": 37,
     "verse": 14,
-    "content": {
-      "text": "Then Jeremiah said, “That is false! I am not defecting to the Chaldeans.” But he didn’t listen to him; so Irijah seized Jeremiah, and brought him to the princes.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Jeremiah said, “That is false! I am not defecting to the Chaldeans.”"
+      },
+      {
+        "paragraph": true,
+        "text": "But he didn’t listen to him; so Irijah seized Jeremiah, and brought him to the princes."
+      }
+    ]
   },
   {
     "book": "JER",
@@ -11200,23 +11259,29 @@
     "chapter": 37,
     "verse": 16,
     "content": {
-      "text": "When Jeremiah had come into the dungeon house and into the cells, and Jeremiah had remained there many days,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Jeremiah had come into the dungeon house and into the cells, and Jeremiah had remained there many days,"
     }
   },
   {
     "book": "JER",
     "chapter": 37,
     "verse": 17,
-    "content": "then Zedekiah the king sent and had him brought out. The king asked him secretly in his house, “Is there any word from Yahweh?” Jeremiah said, “There is.” He also said, “You will be delivered into the hand of the king of Babylon.”"
+    "content": [
+      "then Zedekiah the king sent and had him brought out. The king asked him secretly in his house, “Is there any word from Yahweh?”",
+      {
+        "paragraph": true,
+        "text": "Jeremiah said, “There is.” He also said, “You will be delivered into the hand of the king of Babylon.”"
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 37,
     "verse": 18,
     "content": {
-      "text": "Moreover Jeremiah said to King Zedekiah, “How have I sinned against you, against your servants, or against this people, that you have put me in prison?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moreover Jeremiah said to King Zedekiah, “How have I sinned against you, against your servants, or against this people, that you have put me in prison?"
     }
   },
   {
@@ -11236,8 +11301,8 @@
     "chapter": 37,
     "verse": 21,
     "content": {
-      "text": "Then Zedekiah the king commanded, and they committed Jeremiah into the court of the guard. They gave him daily a loaf of bread out of the bakers’ street, until all the bread in the city was gone. Thus Jeremiah remained in the court of the guard.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Zedekiah the king commanded, and they committed Jeremiah into the court of the guard. They gave him daily a loaf of bread out of the bakers’ street, until all the bread in the city was gone. Thus Jeremiah remained in the court of the guard."
     }
   },
   {
@@ -11245,8 +11310,8 @@
     "chapter": 38,
     "verse": 1,
     "content": {
-      "text": "Shephatiah the son of Mattan, Gedaliah the son of Pashhur, Jucal the son of Shelemiah, and Pashhur the son of Malchijah heard the words that Jeremiah spoke to all the people, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Shephatiah the son of Mattan, Gedaliah the son of Pashhur, Jucal the son of Shelemiah, and Pashhur the son of Malchijah heard the words that Jeremiah spoke to all the people, saying,"
     }
   },
   {
@@ -11266,8 +11331,8 @@
     "chapter": 38,
     "verse": 4,
     "content": {
-      "text": "Then the princes said to the king, “Please let this man be put to death, because he weakens the hands of the men of war who remain in this city, and the hands of all the people, in speaking such words to them; for this man doesn’t seek the welfare of this people, but harm.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the princes said to the king, “Please let this man be put to death, because he weakens the hands of the men of war who remain in this city, and the hands of all the people, in speaking such words to them; for this man doesn’t seek the welfare of this people, but harm.”"
     }
   },
   {
@@ -11275,8 +11340,8 @@
     "chapter": 38,
     "verse": 5,
     "content": {
-      "text": "Zedekiah the king said, “Behold, he is in your hand; for the king can’t do anything to oppose you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Zedekiah the king said, “Behold, he is in your hand; for the king can’t do anything to oppose you.”"
     }
   },
   {
@@ -11284,8 +11349,8 @@
     "chapter": 38,
     "verse": 6,
     "content": {
-      "text": "Then they took Jeremiah and threw him into the dungeon of Malchijah the king’s son, that was in the court of the guard. They let down Jeremiah with cords. In the dungeon there was no water, but mire; and Jeremiah sank in the mire.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then they took Jeremiah and threw him into the dungeon of Malchijah the king’s son, that was in the court of the guard. They let down Jeremiah with cords. In the dungeon there was no water, but mire; and Jeremiah sank in the mire."
     }
   },
   {
@@ -11293,8 +11358,8 @@
     "chapter": 38,
     "verse": 7,
     "content": {
-      "text": "Now when Ebedmelech the Ethiopian, a eunuch, who was in the king’s house, heard that they had put Jeremiah in the dungeon (the king was then sitting in Benjamin’s gate),",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now when Ebedmelech the Ethiopian, a eunuch, who was in the king’s house, heard that they had put Jeremiah in the dungeon (the king was then sitting in Benjamin’s gate),"
     }
   },
   {
@@ -11314,8 +11379,8 @@
     "chapter": 38,
     "verse": 10,
     "content": {
-      "text": "Then the king commanded Ebedmelech the Ethiopian, saying, “Take from here thirty men with you, and take up Jeremiah the prophet out of the dungeon, before he dies.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the king commanded Ebedmelech the Ethiopian, saying, “Take from here thirty men with you, and take up Jeremiah the prophet out of the dungeon, before he dies.”"
     }
   },
   {
@@ -11323,15 +11388,21 @@
     "chapter": 38,
     "verse": 11,
     "content": {
-      "text": "So Ebedmelech took the men with him, and went into the house of the king under the treasury, and took from there rags and worn-out garments, and let them down by cords into the dungeon to Jeremiah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Ebedmelech took the men with him, and went into the house of the king under the treasury, and took from there rags and worn-out garments, and let them down by cords into the dungeon to Jeremiah."
     }
   },
   {
     "book": "JER",
     "chapter": 38,
     "verse": 12,
-    "content": "Ebedmelech the Ethiopian said to Jeremiah, “Now put these rags and worn-out garments under your armpits under the cords.” Jeremiah did so."
+    "content": [
+      "Ebedmelech the Ethiopian said to Jeremiah, “Now put these rags and worn-out garments under your armpits under the cords.”",
+      {
+        "paragraph": true,
+        "text": "Jeremiah did so."
+      }
+    ]
   },
   {
     "book": "JER",
@@ -11344,8 +11415,8 @@
     "chapter": 38,
     "verse": 14,
     "content": {
-      "text": "Then Zedekiah the king sent and took Jeremiah the prophet to himself into the third entry that is in Yahweh’s house. Then the king said to Jeremiah, “I will ask you something. Hide nothing from me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Zedekiah the king sent and took Jeremiah the prophet to himself into the third entry that is in Yahweh’s house. Then the king said to Jeremiah, “I will ask you something. Hide nothing from me.”"
     }
   },
   {
@@ -11353,8 +11424,8 @@
     "chapter": 38,
     "verse": 15,
     "content": {
-      "text": "Then Jeremiah said to Zedekiah, “If I declare it to you, will you not surely put me to death? If I give you counsel, you will not listen to me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah said to Zedekiah, “If I declare it to you, will you not surely put me to death? If I give you counsel, you will not listen to me.”"
     }
   },
   {
@@ -11362,8 +11433,8 @@
     "chapter": 38,
     "verse": 16,
     "content": {
-      "text": "So Zedekiah the king swore secretly to Jeremiah, saying, “As Yahweh lives, who made our souls, I will not put you to death, neither will I give you into the hand of these men who seek your life.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Zedekiah the king swore secretly to Jeremiah, saying, “As Yahweh lives, who made our souls, I will not put you to death, neither will I give you into the hand of these men who seek your life.”"
     }
   },
   {
@@ -11371,8 +11442,8 @@
     "chapter": 38,
     "verse": 17,
     "content": {
-      "text": "Then Jeremiah said to Zedekiah, “Yahweh, the God of Armies, the God of Israel, says: ‘If you will go out to the king of Babylon’s princes, then your soul will live, and this city will not be burned with fire. You will live, along with your house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah said to Zedekiah, “Yahweh, the God of Armies, the God of Israel, says: ‘If you will go out to the king of Babylon’s princes, then your soul will live, and this city will not be burned with fire. You will live, along with your house."
     }
   },
   {
@@ -11386,8 +11457,8 @@
     "chapter": 38,
     "verse": 19,
     "content": {
-      "text": "Zedekiah the king said to Jeremiah, “I am afraid of the Jews who have defected to the Chaldeans, lest they deliver me into their hand, and they mock me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Zedekiah the king said to Jeremiah, “I am afraid of the Jews who have defected to the Chaldeans, lest they deliver me into their hand, and they mock me.”"
     }
   },
   {
@@ -11395,8 +11466,8 @@
     "chapter": 38,
     "verse": 20,
     "content": {
-      "text": "But Jeremiah said, “They won’t deliver you. Obey, I beg you, Yahweh’s voice, in that which I speak to you; so it will be well with you, and your soul will live.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Jeremiah said, “They won’t deliver you. Obey, I beg you, Yahweh’s voice, in that which I speak to you; so it will be well with you, and your soul will live."
     }
   },
   {
@@ -11434,8 +11505,8 @@
     "chapter": 38,
     "verse": 23,
     "content": {
-      "text": "They will bring out all your wives and your children to the Chaldeans. You won’t escape out of their hand, but will be taken by the hand of the king of Babylon. You will cause this city to be burned with fire.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They will bring out all your wives and your children to the Chaldeans. You won’t escape out of their hand, but will be taken by the hand of the king of Babylon. You will cause this city to be burned with fire.’ ”"
     }
   },
   {
@@ -11443,8 +11514,8 @@
     "chapter": 38,
     "verse": 24,
     "content": {
-      "text": "Then Zedekiah said to Jeremiah, “Let no man know of these words, and you won’t die.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Zedekiah said to Jeremiah, “Let no man know of these words, and you won’t die."
     }
   },
   {
@@ -11464,8 +11535,8 @@
     "chapter": 38,
     "verse": 27,
     "content": {
-      "text": "Then all the princes came to Jeremiah, and asked him; and he told them according to all these words that the king had commanded. So they stopped speaking with him, for the matter was not perceived.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then all the princes came to Jeremiah, and asked him; and he told them according to all these words that the king had commanded. So they stopped speaking with him, for the matter was not perceived."
     }
   },
   {
@@ -11473,8 +11544,8 @@
     "chapter": 38,
     "verse": 28,
     "content": {
-      "text": "So Jeremiah stayed in the court of the guard until the day that Jerusalem was taken.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Jeremiah stayed in the court of the guard until the day that Jerusalem was taken."
     }
   },
   {
@@ -11482,8 +11553,8 @@
     "chapter": 39,
     "verse": 1,
     "content": {
-      "text": "In the ninth year of Zedekiah king of Judah, in the tenth month, Nebuchadnezzar king of Babylon and all his army came against Jerusalem, and besieged it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the ninth year of Zedekiah king of Judah, in the tenth month, Nebuchadnezzar king of Babylon and all his army came against Jerusalem, and besieged it."
     }
   },
   {
@@ -11509,8 +11580,8 @@
     "chapter": 39,
     "verse": 5,
     "content": {
-      "text": "But the army of the Chaldeans pursued them, and overtook Zedekiah in the plains of Jericho. When they had taken him, they brought him up to Nebuchadnezzar king of Babylon to Riblah in the land of Hamath; and he pronounced judgment on him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But the army of the Chaldeans pursued them, and overtook Zedekiah in the plains of Jericho. When they had taken him, they brought him up to Nebuchadnezzar king of Babylon to Riblah in the land of Hamath; and he pronounced judgment on him."
     }
   },
   {
@@ -11530,8 +11601,8 @@
     "chapter": 39,
     "verse": 8,
     "content": {
-      "text": "The Chaldeans burned the king’s house and the people’s houses with fire and broke down the walls of Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Chaldeans burned the king’s house and the people’s houses with fire and broke down the walls of Jerusalem."
     }
   },
   {
@@ -11551,8 +11622,8 @@
     "chapter": 39,
     "verse": 11,
     "content": {
-      "text": "Now Nebuchadnezzar king of Babylon commanded Nebuzaradan the captain of the guard concerning Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Nebuchadnezzar king of Babylon commanded Nebuzaradan the captain of the guard concerning Jeremiah, saying,"
     }
   },
   {
@@ -11566,8 +11637,8 @@
     "chapter": 39,
     "verse": 13,
     "content": {
-      "text": "So Nebuzaradan the captain of the guard, Nebushazban, Rabsaris, and Nergal Sharezer, Rabmag, and all the chief officers of the king of Babylon",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Nebuzaradan the captain of the guard, Nebushazban, Rabsaris, and Nergal Sharezer, Rabmag, and all the chief officers of the king of Babylon"
     }
   },
   {
@@ -11581,8 +11652,8 @@
     "chapter": 39,
     "verse": 15,
     "content": {
-      "text": "Now Yahweh’s word came to Jeremiah while he was shut up in the court of the guard, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Yahweh’s word came to Jeremiah while he was shut up in the court of the guard, saying,"
     }
   },
   {
@@ -11608,8 +11679,8 @@
     "chapter": 40,
     "verse": 1,
     "content": {
-      "text": "The word which came to Jeremiah from Yahweh, after Nebuzaradan the captain of the guard had let him go from Ramah, when he had taken him being bound in chains among all the captives of Jerusalem and Judah who were carried away captive to Babylon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word which came to Jeremiah from Yahweh, after Nebuzaradan the captain of the guard had let him go from Ramah, when he had taken him being bound in chains among all the captives of Jerusalem and Judah who were carried away captive to Babylon."
     }
   },
   {
@@ -11634,7 +11705,13 @@
     "book": "JER",
     "chapter": 40,
     "verse": 5,
-    "content": "Now while he had not yet gone back, “Go back then,” he said, “to Gedaliah the son of Ahikam, the son of Shaphan, whom the king of Babylon has made governor over the cities of Judah, and dwell with him among the people; or go wherever it seems right to you to go.” So the captain of the guard gave him food and a present, and let him go."
+    "content": [
+      "Now while he had not yet gone back, “Go back then,” he said, “to Gedaliah the son of Ahikam, the son of Shaphan, whom the king of Babylon has made governor over the cities of Judah, and dwell with him among the people; or go wherever it seems right to you to go.”",
+      {
+        "paragraph": true,
+        "text": "So the captain of the guard gave him food and a present, and let him go."
+      }
+    ]
   },
   {
     "book": "JER",
@@ -11647,8 +11724,8 @@
     "chapter": 40,
     "verse": 7,
     "content": {
-      "text": "Now when all the captains of the forces who were in the fields, even they and their men, heard that the king of Babylon had made Gedaliah the son of Ahikam governor in the land, and had committed to him men, women, children, and of the poorest of the land, of those who were not carried away captive to Babylon,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now when all the captains of the forces who were in the fields, even they and their men, heard that the king of Babylon had made Gedaliah the son of Ahikam governor in the land, and had committed to him men, women, children, and of the poorest of the land, of those who were not carried away captive to Babylon,"
     }
   },
   {
@@ -11674,8 +11751,8 @@
     "chapter": 40,
     "verse": 11,
     "content": {
-      "text": "Likewise when all the Jews who were in Moab, and among the children of Ammon, and in Edom, and who were in all the countries, heard that the king of Babylon had left a remnant of Judah, and that he had set over them Gedaliah the son of Ahikam, the son of Shaphan,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Likewise when all the Jews who were in Moab, and among the children of Ammon, and in Edom, and who were in all the countries, heard that the king of Babylon had left a remnant of Judah, and that he had set over them Gedaliah the son of Ahikam, the son of Shaphan,"
     }
   },
   {
@@ -11689,23 +11766,29 @@
     "chapter": 40,
     "verse": 13,
     "content": {
-      "text": "Moreover Johanan the son of Kareah, and all the captains of the forces who were in the fields, came to Gedaliah to Mizpah,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moreover Johanan the son of Kareah, and all the captains of the forces who were in the fields, came to Gedaliah to Mizpah,"
     }
   },
   {
     "book": "JER",
     "chapter": 40,
     "verse": 14,
-    "content": "and said to him, “Do you know that Baalis the king of the children of Ammon has sent Ishmael the son of Nethaniah to take your life?” But Gedaliah the son of Ahikam didn’t believe them."
+    "content": [
+      "and said to him, “Do you know that Baalis the king of the children of Ammon has sent Ishmael the son of Nethaniah to take your life?”",
+      {
+        "paragraph": true,
+        "text": "But Gedaliah the son of Ahikam didn’t believe them."
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 40,
     "verse": 15,
     "content": {
-      "text": "Then Johanan the son of Kareah spoke to Gedaliah in Mizpah secretly, saying, “Please let me go, and I will kill Ishmael the son of Nethaniah, and no man will know it. Why should he take your life, that all the Jews who are gathered to you should be scattered, and the remnant of Judah perish?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Johanan the son of Kareah spoke to Gedaliah in Mizpah secretly, saying, “Please let me go, and I will kill Ishmael the son of Nethaniah, and no man will know it. Why should he take your life, that all the Jews who are gathered to you should be scattered, and the remnant of Judah perish?”"
     }
   },
   {
@@ -11713,8 +11796,8 @@
     "chapter": 40,
     "verse": 16,
     "content": {
-      "text": "But Gedaliah the son of Ahikam said to Johanan the son of Kareah, “You shall not do this thing, for you speak falsely of Ishmael.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Gedaliah the son of Ahikam said to Johanan the son of Kareah, “You shall not do this thing, for you speak falsely of Ishmael.”"
     }
   },
   {
@@ -11722,8 +11805,8 @@
     "chapter": 41,
     "verse": 1,
     "content": {
-      "text": "Now in the seventh month, Ishmael the son of Nethaniah, the son of Elishama, of the royal offspring and one of the chief officers of the king, and ten men with him, came to Gedaliah the son of Ahikam to Mizpah; and there they ate bread together in Mizpah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now in the seventh month, Ishmael the son of Nethaniah, the son of Elishama, of the royal offspring and one of the chief officers of the king, and ten men with him, came to Gedaliah the son of Ahikam to Mizpah; and there they ate bread together in Mizpah."
     }
   },
   {
@@ -11743,8 +11826,8 @@
     "chapter": 41,
     "verse": 4,
     "content": {
-      "text": "The second day after he had killed Gedaliah, and no man knew it,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The second day after he had killed Gedaliah, and no man knew it,"
     }
   },
   {
@@ -11769,7 +11852,13 @@
     "book": "JER",
     "chapter": 41,
     "verse": 8,
-    "content": "But ten men were found among those who said to Ishmael, “Don’t kill us; for we have stores hidden in the field, of wheat, and of barley, and of oil, and of honey.” So he stopped, and didn’t kill them among their brothers."
+    "content": [
+      "But ten men were found among those who said to Ishmael, “Don’t kill us; for we have stores hidden in the field, of wheat, and of barley, and of oil, and of honey.”",
+      {
+        "paragraph": true,
+        "text": "So he stopped, and didn’t kill them among their brothers."
+      }
+    ]
   },
   {
     "book": "JER",
@@ -11782,8 +11871,8 @@
     "chapter": 41,
     "verse": 10,
     "content": {
-      "text": "Then Ishmael carried away captive all of the people who were left in Mizpah, even the king’s daughters, and all the people who remained in Mizpah, whom Nebuzaradan the captain of the guard had committed to Gedaliah the son of Ahikam. Ishmael the son of Nethaniah carried them away captive, and departed to go over to the children of Ammon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Ishmael carried away captive all of the people who were left in Mizpah, even the king’s daughters, and all the people who remained in Mizpah, whom Nebuzaradan the captain of the guard had committed to Gedaliah the son of Ahikam. Ishmael the son of Nethaniah carried them away captive, and departed to go over to the children of Ammon."
     }
   },
   {
@@ -11791,8 +11880,8 @@
     "chapter": 41,
     "verse": 11,
     "content": {
-      "text": "But when Johanan the son of Kareah, and all the captains of the forces who were with him, heard of all the evil that Ishmael the son of Nethaniah had done,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But when Johanan the son of Kareah, and all the captains of the forces who were with him, heard of all the evil that Ishmael the son of Nethaniah had done,"
     }
   },
   {
@@ -11824,8 +11913,8 @@
     "chapter": 41,
     "verse": 16,
     "content": {
-      "text": "Then Johanan the son of Kareah and all the captains of the forces who were with him took all the remnant of the people whom he had recovered from Ishmael the son of Nethaniah, from Mizpah, after he had killed Gedaliah the son of Ahikam—the men of war, with the women, the children, and the eunuchs, whom he had brought back from Gibeon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Johanan the son of Kareah and all the captains of the forces who were with him took all the remnant of the people whom he had recovered from Ishmael the son of Nethaniah, from Mizpah, after he had killed Gedaliah the son of Ahikam—the men of war, with the women, the children, and the eunuchs, whom he had brought back from Gibeon."
     }
   },
   {
@@ -11845,8 +11934,8 @@
     "chapter": 42,
     "verse": 1,
     "content": {
-      "text": "Then all the captains of the forces, and Johanan the son of Kareah, and Jezaniah the son of Hoshaiah, and all the people from the least even to the greatest, came near,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then all the captains of the forces, and Johanan the son of Kareah, and Jezaniah the son of Hoshaiah, and all the people from the least even to the greatest, came near,"
     }
   },
   {
@@ -11866,8 +11955,8 @@
     "chapter": 42,
     "verse": 4,
     "content": {
-      "text": "Then Jeremiah the prophet said to them, “I have heard you. Behold, I will pray to Yahweh your God according to your words; and it will happen that whatever thing Yahweh answers you, I will declare it to you. I will keep nothing back from you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah the prophet said to them, “I have heard you. Behold, I will pray to Yahweh your God according to your words; and it will happen that whatever thing Yahweh answers you, I will declare it to you. I will keep nothing back from you.”"
     }
   },
   {
@@ -11875,8 +11964,8 @@
     "chapter": 42,
     "verse": 5,
     "content": {
-      "text": "Then they said to Jeremiah, “May Yahweh be a true and faithful witness among us, if we don’t do according to all the word with which Yahweh your God sends you to tell us.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then they said to Jeremiah, “May Yahweh be a true and faithful witness among us, if we don’t do according to all the word with which Yahweh your God sends you to tell us."
     }
   },
   {
@@ -11890,8 +11979,8 @@
     "chapter": 42,
     "verse": 7,
     "content": {
-      "text": "After ten days, Yahweh’s word came to Jeremiah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After ten days, Yahweh’s word came to Jeremiah."
     }
   },
   {
@@ -11929,8 +12018,8 @@
     "chapter": 42,
     "verse": 13,
     "content": {
-      "text": "“ ‘But if you say, “We will not dwell in this land,” so that you don’t obey Yahweh your God’s voice,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘But if you say, “We will not dwell in this land,” so that you don’t obey Yahweh your God’s voice,"
     }
   },
   {
@@ -11968,8 +12057,8 @@
     "chapter": 42,
     "verse": 19,
     "content": {
-      "text": "“Yahweh has spoken concerning you, remnant of Judah, ‘Don’t go into Egypt!’ Know certainly that I have testified to you today.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Yahweh has spoken concerning you, remnant of Judah, ‘Don’t go into Egypt!’ Know certainly that I have testified to you today."
     }
   },
   {
@@ -11995,8 +12084,8 @@
     "chapter": 43,
     "verse": 1,
     "content": {
-      "text": "When Jeremiah had finished speaking to all the people all the words of Yahweh their God, with which Yahweh their God had sent him to them, even all these words,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Jeremiah had finished speaking to all the people all the words of Yahweh their God, with which Yahweh their God had sent him to them, even all these words,"
     }
   },
   {
@@ -12016,8 +12105,8 @@
     "chapter": 43,
     "verse": 4,
     "content": {
-      "text": "So Johanan the son of Kareah, and all the captains of the forces, and all the people, didn’t obey Yahweh’s voice, to dwell in the land of Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Johanan the son of Kareah, and all the captains of the forces, and all the people, didn’t obey Yahweh’s voice, to dwell in the land of Judah."
     }
   },
   {
@@ -12043,8 +12132,8 @@
     "chapter": 43,
     "verse": 8,
     "content": {
-      "text": "Then Yahweh’s word came to Jeremiah in Tahpanhes, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s word came to Jeremiah in Tahpanhes, saying,"
     }
   },
   {
@@ -12082,8 +12171,8 @@
     "chapter": 44,
     "verse": 1,
     "content": {
-      "text": "The word that came to Jeremiah concerning all the Jews who lived in the land of Egypt, who lived at Migdol, and at Tahpanhes, and at Memphis, and in the country of Pathros, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word that came to Jeremiah concerning all the Jews who lived in the land of Egypt, who lived at Migdol, and at Tahpanhes, and at Memphis, and in the country of Pathros, saying,"
     }
   },
   {
@@ -12121,8 +12210,8 @@
     "chapter": 44,
     "verse": 7,
     "content": {
-      "text": "“Therefore now Yahweh, the God of Armies, the God of Israel, says: ‘Why do you commit great evil against your own souls, to cut off from yourselves man and woman, infant and nursing child out of the middle of Judah, to leave yourselves no one remaining,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore now Yahweh, the God of Armies, the God of Israel, says: ‘Why do you commit great evil against your own souls, to cut off from yourselves man and woman, infant and nursing child out of the middle of Judah, to leave yourselves no one remaining,"
     }
   },
   {
@@ -12148,8 +12237,8 @@
     "chapter": 44,
     "verse": 11,
     "content": {
-      "text": "“Therefore Yahweh of Armies, the God of Israel, says: ‘Behold, I will set my face against you for evil, even to cut off all Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore Yahweh of Armies, the God of Israel, says: ‘Behold, I will set my face against you for evil, even to cut off all Judah."
     }
   },
   {
@@ -12175,8 +12264,8 @@
     "chapter": 44,
     "verse": 15,
     "content": {
-      "text": "Then all the men who knew that their wives burned incense to other gods, and all the women who stood by, a great assembly, even all the people who lived in the land of Egypt, in Pathros, answered Jeremiah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then all the men who knew that their wives burned incense to other gods, and all the women who stood by, a great assembly, even all the people who lived in the land of Egypt, in Pathros, answered Jeremiah, saying,"
     }
   },
   {
@@ -12202,8 +12291,8 @@
     "chapter": 44,
     "verse": 19,
     "content": {
-      "text": "The women said, “When we burned incense to the queen of the sky and poured out drink offerings to her, did we make her cakes to worship her, and pour out drink offerings to her, without our husbands?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The women said, “When we burned incense to the queen of the sky and poured out drink offerings to her, did we make her cakes to worship her, and pour out drink offerings to her, without our husbands?”"
     }
   },
   {
@@ -12211,8 +12300,8 @@
     "chapter": 44,
     "verse": 20,
     "content": {
-      "text": "Then Jeremiah said to all the people—to the men and to the women, even to all the people who had given him an answer, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jeremiah said to all the people—to the men and to the women, even to all the people who had given him an answer, saying,"
     }
   },
   {
@@ -12238,23 +12327,29 @@
     "chapter": 44,
     "verse": 24,
     "content": {
-      "text": "Moreover Jeremiah said to all the people, including all the women, “Hear Yahweh’s word, all Judah who are in the land of Egypt!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moreover Jeremiah said to all the people, including all the women, “Hear Yahweh’s word, all Judah who are in the land of Egypt!"
     }
   },
   {
     "book": "JER",
     "chapter": 44,
     "verse": 25,
-    "content": "Yahweh of Armies, the God of Israel, says, ‘You and your wives have both spoken with your mouths, and with your hands have fulfilled it, saying, “We will surely perform our vows that we have vowed, to burn incense to the queen of the sky, and to pour out drink offerings to her.” “ ‘Establish then your vows, and perform your vows.’"
+    "content": [
+      "Yahweh of Armies, the God of Israel, says, ‘You and your wives have both spoken with your mouths, and with your hands have fulfilled it, saying, “We will surely perform our vows that we have vowed, to burn incense to the queen of the sky, and to pour out drink offerings to her.”",
+      {
+        "paragraph": true,
+        "text": "“ ‘Establish then your vows, and perform your vows.’"
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 44,
     "verse": 26,
     "content": {
-      "text": "“Therefore hear Yahweh’s word, all Judah who dwell in the land of Egypt: ‘Behold, I have sworn by my great name,’ says Yahweh, ‘that my name will no more be named in the mouth of any man of Judah in all the land of Egypt, saying, “As the Lord Yahweh lives.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore hear Yahweh’s word, all Judah who dwell in the land of Egypt: ‘Behold, I have sworn by my great name,’ says Yahweh, ‘that my name will no more be named in the mouth of any man of Judah in all the land of Egypt, saying, “As the Lord Yahweh lives.”"
     }
   },
   {
@@ -12274,8 +12369,8 @@
     "chapter": 44,
     "verse": 29,
     "content": {
-      "text": "“ ‘This will be the sign to you,’ says Yahweh, ‘that I will punish you in this place, that you may know that my words will surely stand against you for evil.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘This will be the sign to you,’ says Yahweh, ‘that I will punish you in this place, that you may know that my words will surely stand against you for evil.’"
     }
   },
   {
@@ -12289,8 +12384,8 @@
     "chapter": 45,
     "verse": 1,
     "content": {
-      "text": "The message that Jeremiah the prophet spoke to Baruch the son of Neriah, when he wrote these words in a book at the mouth of Jeremiah, in the fourth year of Jehoiakim the son of Josiah, king of Judah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The message that Jeremiah the prophet spoke to Baruch the son of Neriah, when he wrote these words in a book at the mouth of Jeremiah, in the fourth year of Jehoiakim the son of Josiah, king of Judah, saying,"
     }
   },
   {
@@ -12310,8 +12405,8 @@
     "chapter": 45,
     "verse": 4,
     "content": {
-      "text": "“You shall tell him, Yahweh says: ‘Behold, that which I have built, I will break down, and that which I have planted I will pluck up; and this in the whole land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall tell him, Yahweh says: ‘Behold, that which I have built, I will break down, and that which I have planted I will pluck up; and this in the whole land."
     }
   },
   {
@@ -12325,8 +12420,8 @@
     "chapter": 46,
     "verse": 1,
     "content": {
-      "text": "Yahweh’s word which came to Jeremiah the prophet concerning the nations.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word which came to Jeremiah the prophet concerning the nations."
     }
   },
   {
@@ -12334,8 +12429,8 @@
     "chapter": 46,
     "verse": 2,
     "content": {
-      "text": "Of Egypt: concerning the army of Pharaoh Necoh king of Egypt, which was by the river Euphrates in Carchemish, which Nebuchadnezzar king of Babylon struck in the fourth year of Jehoiakim the son of Josiah, king of Judah.",
       "paragraph": true,
+      "text": "Of Egypt: concerning the army of Pharaoh Necoh king of Egypt, which was by the river Euphrates in Carchemish, which Nebuchadnezzar king of Babylon struck in the fourth year of Jehoiakim the son of Josiah, king of Judah.",
       "break": true
     }
   },
@@ -12438,8 +12533,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "“Who is this who rises up like the Nile,",
         "paragraph": true,
+        "text": "“Who is this who rises up like the Nile,",
         "break": true
       },
       {
@@ -12573,8 +12668,8 @@
     "chapter": 46,
     "verse": 13,
     "content": {
-      "text": "The word that Yahweh spoke to Jeremiah the prophet, how that Nebuchadnezzar king of Babylon should come and strike the land of Egypt:",
       "paragraph": true,
+      "text": "The word that Yahweh spoke to Jeremiah the prophet, how that Nebuchadnezzar king of Babylon should come and strike the land of Egypt:",
       "break": true
     }
   },
@@ -12665,8 +12760,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "“As I live,” says the King,",
         "paragraph": true,
+        "text": "“As I live,” says the King,",
         "break": true
       },
       {
@@ -12717,8 +12812,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "“Egypt is a very beautiful heifer;",
         "paragraph": true,
+        "text": "“Egypt is a very beautiful heifer;",
         "break": true
       },
       {
@@ -12821,8 +12916,8 @@
     "chapter": 46,
     "verse": 25,
     "content": {
-      "text": "Yahweh of Armies, the God of Israel, says: “Behold, I will punish Amon of No, and Pharaoh, and Egypt, with her gods and her kings, even Pharaoh, and those who trust in him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies, the God of Israel, says: “Behold, I will punish Amon of No, and Pharaoh, and Egypt, with her gods and her kings, even Pharaoh, and those who trust in him."
     }
   },
   {
@@ -12902,8 +12997,8 @@
     "chapter": 47,
     "verse": 1,
     "content": {
-      "text": "Yahweh’s word that came to Jeremiah the prophet concerning the Philistines, before Pharaoh struck Gaza.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word that came to Jeremiah the prophet concerning the Philistines, before Pharaoh struck Gaza."
     }
   },
   {
@@ -12912,8 +13007,8 @@
     "verse": 2,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -13018,8 +13113,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "“ ‘You sword of Yahweh, how long will it be before you are quiet?",
         "paragraph": true,
+        "text": "“ ‘You sword of Yahweh, how long will it be before you are quiet?",
         "break": true
       },
       {
@@ -13035,8 +13130,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "“How can you be quiet,",
         "paragraph": true,
+        "text": "“How can you be quiet,",
         "break": true
       },
       {
@@ -13056,8 +13151,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Of Moab. Yahweh of Armies, the God of Israel, says:",
         "paragraph": true,
+        "text": "Of Moab. Yahweh of Armies, the God of Israel, says:",
         "break": true
       },
       {
@@ -13252,8 +13347,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "“Cursed is he who does the work of Yahweh negligently;",
         "paragraph": true,
+        "text": "“Cursed is he who does the work of Yahweh negligently;",
         "break": true
       },
       "and cursed is he who keeps back his sword from blood."
@@ -13265,8 +13360,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "“Moab has been at ease from his youth,",
         "paragraph": true,
+        "text": "“Moab has been at ease from his youth,",
         "break": true
       },
       {
@@ -13336,8 +13431,8 @@
     "verse": 14,
     "content": [
       {
-        "text": "“How do you say, ‘We are mighty men,",
         "paragraph": true,
+        "text": "“How do you say, ‘We are mighty men,",
         "break": true
       },
       {
@@ -13410,8 +13505,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "“You daughter who dwells in Dibon,",
         "paragraph": true,
+        "text": "“You daughter who dwells in Dibon,",
         "break": true
       },
       {
@@ -13540,8 +13635,8 @@
     "verse": 26,
     "content": [
       {
-        "text": "“Make him drunk,",
         "paragraph": true,
+        "text": "“Make him drunk,",
         "break": true
       },
       {
@@ -13599,8 +13694,8 @@
     "verse": 29,
     "content": [
       {
-        "text": "“We have heard of the pride of Moab.",
         "paragraph": true,
+        "text": "“We have heard of the pride of Moab.",
         "break": true
       },
       {
@@ -13929,8 +14024,8 @@
     "verse": 45,
     "content": [
       {
-        "text": "“Those who fled stand without strength under the shadow of Heshbon;",
         "paragraph": true,
+        "text": "“Those who fled stand without strength under the shadow of Heshbon;",
         "break": true
       },
       {
@@ -13977,11 +14072,15 @@
     "verse": 47,
     "content": [
       {
-        "text": "“Yet I will reverse the captivity of Moab in the latter days,”",
         "paragraph": true,
+        "text": "“Yet I will reverse the captivity of Moab in the latter days,”",
         "break": true
       },
-      "says Yahweh. Thus far is the judgment of Moab."
+      "says Yahweh.",
+      {
+        "paragraph": true,
+        "text": "Thus far is the judgment of Moab."
+      }
     ]
   },
   {
@@ -13990,8 +14089,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Of the children of Ammon. Yahweh says:",
         "paragraph": true,
+        "text": "Of the children of Ammon. Yahweh says:",
         "break": true
       },
       {
@@ -14131,8 +14230,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "“But afterward I will reverse the captivity of the children of Ammon,”",
         "paragraph": true,
+        "text": "“But afterward I will reverse the captivity of the children of Ammon,”",
         "break": true
       },
       "says Yahweh."
@@ -14144,8 +14243,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Of Edom, Yahweh of Armies says:",
         "paragraph": true,
+        "text": "Of Edom, Yahweh of Armies says:",
         "break": true
       },
       {
@@ -14256,8 +14355,8 @@
     "chapter": 49,
     "verse": 12,
     "content": {
-      "text": "For Yahweh says: “Behold, they to whom it didn’t pertain to drink of the cup will certainly drink; and are you he who will altogether go unpunished? You won’t go unpunished, but you will surely drink.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For Yahweh says: “Behold, they to whom it didn’t pertain to drink of the cup will certainly drink; and are you he who will altogether go unpunished? You won’t go unpunished, but you will surely drink."
     }
   },
   {
@@ -14299,8 +14398,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "“For, behold, I have made you small among the nations,",
         "paragraph": true,
+        "text": "“For, behold, I have made you small among the nations,",
         "break": true
       },
       {
@@ -14381,8 +14480,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "“Behold, he will come up like a lion from the pride of the Jordan against the strong habitation;",
         "paragraph": true,
+        "text": "“Behold, he will come up like a lion from the pride of the Jordan against the strong habitation;",
         "break": true
       },
       {
@@ -14475,8 +14574,8 @@
     "verse": 23,
     "content": [
       {
-        "text": "Of Damascus:",
         "paragraph": true,
+        "text": "Of Damascus:",
         "break": true
       },
       {
@@ -14580,8 +14679,8 @@
     "verse": 28,
     "content": [
       {
-        "text": "Of Kedar, and of the kingdoms of Hazor, which Nebuchadnezzar king of Babylon struck, Yahweh says:",
         "paragraph": true,
+        "text": "Of Kedar, and of the kingdoms of Hazor, which Nebuchadnezzar king of Babylon struck, Yahweh says:",
         "break": true
       },
       {
@@ -14719,8 +14818,8 @@
     "chapter": 49,
     "verse": 34,
     "content": {
-      "text": "Yahweh’s word that came to Jeremiah the prophet concerning Elam, in the beginning of the reign of Zedekiah king of Judah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word that came to Jeremiah the prophet concerning Elam, in the beginning of the reign of Zedekiah king of Judah, saying,"
     }
   },
   {
@@ -14820,8 +14919,8 @@
     "chapter": 50,
     "verse": 1,
     "content": {
-      "text": "The word that Yahweh spoke concerning Babylon, concerning the land of the Chaldeans, by Jeremiah the prophet.",
       "paragraph": true,
+      "text": "The word that Yahweh spoke concerning Babylon, concerning the land of the Chaldeans, by Jeremiah the prophet.",
       "break": true
     }
   },
@@ -14898,8 +14997,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "“In those days, and in that time,” says Yahweh,",
         "paragraph": true,
+        "text": "“In those days, and in that time,” says Yahweh,",
         "break": true
       },
       {
@@ -14996,8 +15095,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "“Flee out of the middle of Babylon!",
         "paragraph": true,
+        "text": "“Flee out of the middle of Babylon!",
         "break": true
       },
       {
@@ -15059,8 +15158,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "“Because you are glad,",
         "paragraph": true,
+        "text": "“Because you are glad,",
         "break": true
       },
       {
@@ -15219,8 +15318,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "“Israel is a hunted sheep.",
         "paragraph": true,
+        "text": "“Israel is a hunted sheep.",
         "break": true
       },
       {
@@ -15240,8 +15339,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "Therefore Yahweh of Armies, the God of Israel, says:",
         "paragraph": true,
+        "text": "Therefore Yahweh of Armies, the God of Israel, says:",
         "break": true
       },
       {
@@ -15307,8 +15406,8 @@
     "verse": 21,
     "content": [
       {
-        "text": "“Go up against the land of Merathaim,",
         "paragraph": true,
+        "text": "“Go up against the land of Merathaim,",
         "break": true
       },
       {
@@ -15477,8 +15576,8 @@
     "verse": 29,
     "content": [
       {
-        "text": "“Call together the archers against Babylon,",
         "paragraph": true,
+        "text": "“Call together the archers against Babylon,",
         "break": true
       },
       {
@@ -15617,8 +15716,8 @@
     "verse": 35,
     "content": [
       {
-        "text": "“A sword is on the Chaldeans,” says Yahweh,",
         "paragraph": true,
+        "text": "“A sword is on the Chaldeans,” says Yahweh,",
         "break": true
       },
       {
@@ -15761,8 +15860,8 @@
     "verse": 41,
     "content": [
       {
-        "text": "“Behold, a people comes from the north.",
         "paragraph": true,
+        "text": "“Behold, a people comes from the north.",
         "break": true
       },
       {
@@ -15921,8 +16020,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh says:",
         "paragraph": true,
+        "text": "Yahweh says:",
         "break": true
       },
       {
@@ -16014,8 +16113,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "“Flee out of the middle of Babylon!",
         "paragraph": true,
+        "text": "“Flee out of the middle of Babylon!",
         "break": true
       },
       {
@@ -16085,8 +16184,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "“We would have healed Babylon,",
         "paragraph": true,
+        "text": "“We would have healed Babylon,",
         "break": true
       },
       {
@@ -16129,8 +16228,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "“Make the arrows sharp!",
         "paragraph": true,
+        "text": "“Make the arrows sharp!",
         "break": true
       },
       {
@@ -16227,8 +16326,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "“He has made the earth by his power.",
         "paragraph": true,
+        "text": "“He has made the earth by his power.",
         "break": true
       },
       {
@@ -16271,8 +16370,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "“Every man has become stupid and without knowledge.",
         "paragraph": true,
+        "text": "“Every man has become stupid and without knowledge.",
         "break": true
       },
       {
@@ -16334,8 +16433,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "“You are my battle ax and weapons of war.",
         "paragraph": true,
+        "text": "“You are my battle ax and weapons of war.",
         "break": true
       },
       {
@@ -16435,8 +16534,8 @@
     "chapter": 51,
     "verse": 24,
     "content": {
-      "text": "“I will render to Babylon and to all the inhabitants of Chaldea all their evil that they have done in Zion in your sight,” says Yahweh.",
       "paragraph": true,
+      "text": "“I will render to Babylon and to all the inhabitants of Chaldea all their evil that they have done in Zion in your sight,” says Yahweh.",
       "break": true
     }
   },
@@ -16489,8 +16588,8 @@
     "verse": 27,
     "content": [
       {
-        "text": "“Set up a standard in the land!",
         "paragraph": true,
+        "text": "“Set up a standard in the land!",
         "break": true
       },
       {
@@ -16621,8 +16720,8 @@
     "verse": 33,
     "content": [
       {
-        "text": "For Yahweh of Armies, the God of Israel says:",
         "paragraph": true,
+        "text": "For Yahweh of Armies, the God of Israel says:",
         "break": true
       },
       {
@@ -16638,8 +16737,8 @@
     "verse": 34,
     "content": [
       {
-        "text": "“Nebuchadnezzar the king of Babylon has devoured me.",
         "paragraph": true,
+        "text": "“Nebuchadnezzar the king of Babylon has devoured me.",
         "break": true
       },
       {
@@ -16690,8 +16789,8 @@
     "verse": 36,
     "content": [
       {
-        "text": "Therefore Yahweh says:",
         "paragraph": true,
+        "text": "Therefore Yahweh says:",
         "break": true
       },
       {
@@ -16780,8 +16879,8 @@
     "verse": 40,
     "content": [
       {
-        "text": "“I will bring them down like lambs to the slaughter,",
         "paragraph": true,
+        "text": "“I will bring them down like lambs to the slaughter,",
         "break": true
       },
       "like rams with male goats."
@@ -16793,8 +16892,8 @@
     "verse": 41,
     "content": [
       {
-        "text": "“How Sheshach is taken!",
         "paragraph": true,
+        "text": "“How Sheshach is taken!",
         "break": true
       },
       {
@@ -16871,8 +16970,8 @@
     "verse": 45,
     "content": [
       {
-        "text": "“My people, go away from the middle of her,",
         "paragraph": true,
+        "text": "“My people, go away from the middle of her,",
         "break": true
       },
       {
@@ -16957,8 +17056,8 @@
     "verse": 49,
     "content": [
       {
-        "text": "“As Babylon has caused the slain of Israel to fall,",
         "paragraph": true,
+        "text": "“As Babylon has caused the slain of Israel to fall,",
         "break": true
       },
       {
@@ -16993,8 +17092,8 @@
     "verse": 51,
     "content": [
       {
-        "text": "“We are confounded",
         "paragraph": true,
+        "text": "“We are confounded",
         "break": true
       },
       {
@@ -17014,8 +17113,8 @@
     "verse": 52,
     "content": [
       {
-        "text": "“Therefore behold, the days come,” says Yahweh,",
         "paragraph": true,
+        "text": "“Therefore behold, the days come,” says Yahweh,",
         "break": true
       },
       {
@@ -17050,8 +17149,8 @@
     "verse": 54,
     "content": [
       {
-        "text": "“The sound of a cry comes from Babylon,",
         "paragraph": true,
+        "text": "“The sound of a cry comes from Babylon,",
         "break": true
       },
       {
@@ -17144,8 +17243,8 @@
     "verse": 58,
     "content": [
       {
-        "text": "Yahweh of Armies says:",
         "paragraph": true,
+        "text": "Yahweh of Armies says:",
         "break": true
       },
       {
@@ -17172,8 +17271,8 @@
     "chapter": 51,
     "verse": 59,
     "content": {
-      "text": "The word which Jeremiah the prophet commanded Seraiah the son of Neriah, the son of Mahseiah, when he went with Zedekiah the king of Judah to Babylon in the fourth year of his reign. Now Seraiah was chief quartermaster.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word which Jeremiah the prophet commanded Seraiah the son of Neriah, the son of Mahseiah, when he went with Zedekiah the king of Judah to Babylon in the fourth year of his reign. Now Seraiah was chief quartermaster."
     }
   },
   {
@@ -17204,15 +17303,21 @@
     "book": "JER",
     "chapter": 51,
     "verse": 64,
-    "content": "Then you shall say, ‘Thus will Babylon sink, and will not rise again because of the evil that I will bring on her; and they will be weary.’ ” Thus far are the words of Jeremiah."
+    "content": [
+      "Then you shall say, ‘Thus will Babylon sink, and will not rise again because of the evil that I will bring on her; and they will be weary.’ ”",
+      {
+        "paragraph": true,
+        "text": "Thus far are the words of Jeremiah."
+      }
+    ]
   },
   {
     "book": "JER",
     "chapter": 52,
     "verse": 1,
     "content": {
-      "text": "Zedekiah was twenty-one years old when he began to reign. He reigned eleven years in Jerusalem. His mother’s name was Hamutal the daughter of Jeremiah of Libnah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Zedekiah was twenty-one years old when he began to reign. He reigned eleven years in Jerusalem. His mother’s name was Hamutal the daughter of Jeremiah of Libnah."
     }
   },
   {
@@ -17225,7 +17330,13 @@
     "book": "JER",
     "chapter": 52,
     "verse": 3,
-    "content": "For through Yahweh’s anger this happened in Jerusalem and Judah, until he had cast them out from his presence. Zedekiah rebelled against the king of Babylon."
+    "content": [
+      "For through Yahweh’s anger this happened in Jerusalem and Judah, until he had cast them out from his presence.",
+      {
+        "paragraph": true,
+        "text": "Zedekiah rebelled against the king of Babylon."
+      }
+    ]
   },
   {
     "book": "JER",
@@ -17244,8 +17355,8 @@
     "chapter": 52,
     "verse": 6,
     "content": {
-      "text": "In the fourth month, in the ninth day of the month, the famine was severe in the city, so that there was no bread for the people of the land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the fourth month, in the ninth day of the month, the famine was severe in the city, so that there was no bread for the people of the land."
     }
   },
   {
@@ -17283,8 +17394,8 @@
     "chapter": 52,
     "verse": 12,
     "content": {
-      "text": "Now in the fifth month, in the tenth day of the month, which was the nineteenth year of King Nebuchadnezzar, king of Babylon, Nebuzaradan the captain of the guard, who stood before the king of Babylon, came into Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now in the fifth month, in the tenth day of the month, which was the nineteenth year of King Nebuchadnezzar, king of Babylon, Nebuzaradan the captain of the guard, who stood before the king of Babylon, came into Jerusalem."
     }
   },
   {
@@ -17316,8 +17427,8 @@
     "chapter": 52,
     "verse": 17,
     "content": {
-      "text": "The Chaldeans broke the pillars of bronze that were in Yahweh’s house and the bases and the bronze sea that were in Yahweh’s house in pieces, and carried all of their bronze to Babylon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Chaldeans broke the pillars of bronze that were in Yahweh’s house and the bases and the bronze sea that were in Yahweh’s house in pieces, and carried all of their bronze to Babylon."
     }
   },
   {
@@ -17337,8 +17448,8 @@
     "chapter": 52,
     "verse": 20,
     "content": {
-      "text": "They took the two pillars, the one sea, and the twelve bronze bulls that were under the bases, which King Solomon had made for Yahweh’s house. The bronze of all these vessels was without weight.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They took the two pillars, the one sea, and the twelve bronze bulls that were under the bases, which King Solomon had made for Yahweh’s house. The bronze of all these vessels was without weight."
     }
   },
   {
@@ -17382,8 +17493,8 @@
     "chapter": 52,
     "verse": 24,
     "content": {
-      "text": "The captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the threshold,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the threshold,"
     }
   },
   {
@@ -17402,7 +17513,13 @@
     "book": "JER",
     "chapter": 52,
     "verse": 27,
-    "content": "The king of Babylon struck them, and put them to death at Riblah in the land of Hamath. So Judah was carried away captive out of his land."
+    "content": [
+      "The king of Babylon struck them, and put them to death at Riblah in the land of Hamath.",
+      {
+        "paragraph": true,
+        "text": "So Judah was carried away captive out of his land."
+      }
+    ]
   },
   {
     "book": "JER",
@@ -17427,8 +17544,8 @@
     "chapter": 52,
     "verse": 31,
     "content": {
-      "text": "In the thirty-seventh year of the captivity of Jehoiachin king of Judah, in the twelfth month, in the twenty-fifth day of the month, Evilmerodach king of Babylon, in the first year of his reign, lifted up the head of Jehoiachin king of Judah, and released him from prison.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the thirty-seventh year of the captivity of Jehoiachin king of Judah, in the twelfth month, in the twenty-fifth day of the month, Evilmerodach king of Babylon, in the first year of his reign, lifted up the head of Jehoiachin king of Judah, and released him from prison."
     }
   },
   {

@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Now in the first year of Cyrus king of Persia, that Yahweh’s",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       " word by Jeremiah’s mouth might be accomplished, Yahweh stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and put it also in writing, saying,"
     ]
@@ -54,8 +54,8 @@
     "chapter": 1,
     "verse": 5,
     "content": {
-      "text": "Then the heads of fathers’ households of Judah and Benjamin, the priests and the Levites, all whose spirit God had stirred to go up, rose up to build Yahweh’s house which is in Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the heads of fathers’ households of Judah and Benjamin, the priests and the Levites, all whose spirit God had stirred to go up, rose up to build Yahweh’s house which is in Jerusalem."
     }
   },
   {
@@ -99,15 +99,21 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Now these are the children of the province who went up out of the captivity of those who had been carried away, whom Nebuchadnezzar the king of Babylon had carried away to Babylon, and who returned to Jerusalem and Judah, everyone to his city;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now these are the children of the province who went up out of the captivity of those who had been carried away, whom Nebuchadnezzar the king of Babylon had carried away to Babylon, and who returned to Jerusalem and Judah, everyone to his city;"
     }
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 2,
-    "content": "who came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah. The number of the men of the people of Israel:"
+    "content": [
+      "who came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah.",
+      {
+        "paragraph": true,
+        "text": "The number of the men of the people of Israel:"
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -312,8 +318,8 @@
     "chapter": 2,
     "verse": 36,
     "content": {
-      "text": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy-three.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy-three."
     }
   },
   {
@@ -339,8 +345,8 @@
     "chapter": 2,
     "verse": 40,
     "content": {
-      "text": "The Levites: the children of Jeshua and Kadmiel, of the children of Hodaviah, seventy-four.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Levites: the children of Jeshua and Kadmiel, of the children of Hodaviah, seventy-four."
     }
   },
   {
@@ -360,8 +366,8 @@
     "chapter": 2,
     "verse": 43,
     "content": {
-      "text": "The temple servants: the children of Ziha, the children of Hasupha, the children of Tabbaoth,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The temple servants: the children of Ziha, the children of Hasupha, the children of Tabbaoth,"
     }
   },
   {
@@ -435,8 +441,8 @@
     "chapter": 2,
     "verse": 55,
     "content": {
-      "text": "The children of Solomon’s servants: the children of Sotai, the children of Hassophereth, the children of Peruda,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Solomon’s servants: the children of Sotai, the children of Hassophereth, the children of Peruda,"
     }
   },
   {
@@ -463,12 +469,12 @@
     "verse": 59,
     "content": [
       {
+        "paragraph": true,
         "text": "These were those who went up from Tel Melah, Tel Harsha, Cherub, Addan, and Immer; but they could not show their fathers’ houses and their offspring,",
         "foot": {
           "type": "trn",
           "content": "or, seed"
-        },
-        "paragraph": true
+        }
       },
       " whether they were of Israel:"
     ]
@@ -502,8 +508,8 @@
     "chapter": 2,
     "verse": 64,
     "content": {
-      "text": "The whole assembly together was forty-two thousand three hundred sixty,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The whole assembly together was forty-two thousand three hundred sixty,"
     }
   },
   {
@@ -529,8 +535,8 @@
     "chapter": 2,
     "verse": 68,
     "content": {
-      "text": "Some of the heads of fathers’ households, when they came to Yahweh’s house which is in Jerusalem, offered willingly for God’s house to set it up in its place.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Some of the heads of fathers’ households, when they came to Yahweh’s house which is in Jerusalem, offered willingly for God’s house to set it up in its place."
     }
   },
   {
@@ -560,8 +566,8 @@
     "chapter": 2,
     "verse": 70,
     "content": {
-      "text": "So the priests and the Levites, with some of the people, the singers, the gatekeepers, and the temple servants, lived in their cities, and all Israel in their cities.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So the priests and the Levites, with some of the people, the singers, the gatekeepers, and the temple servants, lived in their cities, and all Israel in their cities."
     }
   },
   {
@@ -569,8 +575,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "When the seventh month had come, and the children of Israel were in the cities, the people gathered themselves together as one man to Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the seventh month had come, and the children of Israel were in the cities, the people gathered themselves together as one man to Jerusalem."
     }
   },
   {
@@ -614,8 +620,8 @@
     "chapter": 3,
     "verse": 8,
     "content": {
-      "text": "Now in the second year of their coming to God’s house at Jerusalem, in the second month, Zerubbabel the son of Shealtiel, Jeshua the son of Jozadak, and the rest of their brothers the priests and the Levites, and all those who had come out of the captivity to Jerusalem, began the work and appointed the Levites, from twenty years old and upward, to have the oversight of the work of Yahweh’s house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now in the second year of their coming to God’s house at Jerusalem, in the second month, Zerubbabel the son of Shealtiel, Jeshua the son of Jozadak, and the rest of their brothers the priests and the Levites, and all those who had come out of the captivity to Jerusalem, began the work and appointed the Levites, from twenty years old and upward, to have the oversight of the work of Yahweh’s house."
     }
   },
   {
@@ -629,8 +635,8 @@
     "chapter": 3,
     "verse": 10,
     "content": {
-      "text": "When the builders laid the foundation of Yahweh’s temple, they set the priests in their vestments with trumpets, with the Levites the sons of Asaph with cymbals, to praise Yahweh, according to the directions of David king of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the builders laid the foundation of Yahweh’s temple, they set the priests in their vestments with trumpets, with the Levites the sons of Asaph with cymbals, to praise Yahweh, according to the directions of David king of Israel."
     }
   },
   {
@@ -644,8 +650,8 @@
     "chapter": 3,
     "verse": 12,
     "content": {
-      "text": "But many of the priests and Levites and heads of fathers’ households, the old men who had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice. Many also shouted aloud for joy,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But many of the priests and Levites and heads of fathers’ households, the old men who had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice. Many also shouted aloud for joy,"
     }
   },
   {
@@ -659,8 +665,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Now when the adversaries of Judah and Benjamin heard that the children of the captivity were building a temple to Yahweh, the God of Israel,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now when the adversaries of Judah and Benjamin heard that the children of the captivity were building a temple to Yahweh, the God of Israel,"
     }
   },
   {
@@ -674,8 +680,8 @@
     "chapter": 4,
     "verse": 3,
     "content": {
-      "text": "But Zerubbabel, Jeshua, and the rest of the heads of fathers’ households of Israel said to them, “You have nothing to do with us in building a house to our God; but we ourselves together will build to Yahweh, the God of Israel, as King Cyrus the king of Persia has commanded us.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Zerubbabel, Jeshua, and the rest of the heads of fathers’ households of Israel said to them, “You have nothing to do with us in building a house to our God; but we ourselves together will build to Yahweh, the God of Israel, as King Cyrus the king of Persia has commanded us.”"
     }
   },
   {
@@ -683,8 +689,8 @@
     "chapter": 4,
     "verse": 4,
     "content": {
-      "text": "Then the people of the land weakened the hands of the people of Judah, and troubled them in building.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the people of the land weakened the hands of the people of Judah, and troubled them in building."
     }
   },
   {
@@ -704,8 +710,8 @@
     "chapter": 4,
     "verse": 7,
     "content": {
-      "text": "In the days of Artaxerxes, Bishlam, Mithredath, Tabeel, and the rest of his companions wrote to Artaxerxes king of Persia; and the writing of the letter was written in Syrian and delivered in the Syrian language.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the days of Artaxerxes, Bishlam, Mithredath, Tabeel, and the rest of his companions wrote to Artaxerxes king of Persia; and the writing of the letter was written in Syrian and delivered in the Syrian language."
     }
   },
   {
@@ -731,8 +737,8 @@
     "chapter": 4,
     "verse": 11,
     "content": {
-      "text": "This is the copy of the letter that they sent:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This is the copy of the letter that they sent:"
     }
   },
   {
@@ -740,8 +746,8 @@
     "chapter": 4,
     "verse": 12,
     "content": {
-      "text": "Be it known to the king that the Jews who came up from you have come to us to Jerusalem. They are building the rebellious and bad city, and have finished the walls and repaired the foundations.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Be it known to the king that the Jews who came up from you have come to us to Jerusalem. They are building the rebellious and bad city, and have finished the walls and repaired the foundations."
     }
   },
   {
@@ -772,18 +778,23 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 17,
-    "content": {
-      "text": "Then the king sent an answer to Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions who live in Samaria, and in the rest of the country beyond the River:",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then the king sent an answer to Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions who live in Samaria, and in the rest of the country beyond the River:"
+      },
+      {
+        "paragraph": true
+      }
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 18,
     "content": {
-      "text": "The letter which you sent to us has been plainly read before me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The letter which you sent to us has been plainly read before me."
     }
   },
   {
@@ -815,8 +826,8 @@
     "chapter": 4,
     "verse": 23,
     "content": {
-      "text": "Then when the copy of King Artaxerxes’ letter was read before Rehum, Shimshai the scribe, and their companions, they went in haste to Jerusalem to the Jews, and made them to cease by force of arms.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then when the copy of King Artaxerxes’ letter was read before Rehum, Shimshai the scribe, and their companions, they went in haste to Jerusalem to the Jews, and made them to cease by force of arms."
     }
   },
   {
@@ -830,8 +841,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Now the prophets, Haggai the prophet and Zechariah the son of Iddo, prophesied to the Jews who were in Judah and Jerusalem. They prophesied to them in the name of the God of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the prophets, Haggai the prophet and Zechariah the son of Iddo, prophesied to the Jews who were in Judah and Jerusalem. They prophesied to them in the name of the God of Israel."
     }
   },
   {
@@ -845,8 +856,8 @@
     "chapter": 5,
     "verse": 3,
     "content": {
-      "text": "At the same time Tattenai, the governor beyond the River, came to them, with Shetharbozenai and their companions, and asked them, “Who gave you a decree to build this house and to finish this wall?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At the same time Tattenai, the governor beyond the River, came to them, with Shetharbozenai and their companions, and asked them, “Who gave you a decree to build this house and to finish this wall?”"
     }
   },
   {
@@ -866,8 +877,8 @@
     "chapter": 5,
     "verse": 6,
     "content": {
-      "text": "The copy of the letter that Tattenai, the governor beyond the River, and Shetharbozenai, and his companions the Apharsachites who were beyond the River, sent to Darius the king follows.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The copy of the letter that Tattenai, the governor beyond the River, and Shetharbozenai, and his companions the Apharsachites who were beyond the River, sent to Darius the king follows."
     }
   },
   {
@@ -881,8 +892,8 @@
     "chapter": 5,
     "verse": 8,
     "content": {
-      "text": "Be it known to the king that we went into the province of Judah, to the house of the great God, which is being built with great stones and timber is laid in the walls. This work goes on with diligence and prospers in their hands.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Be it known to the king that we went into the province of Judah, to the house of the great God, which is being built with great stones and timber is laid in the walls. This work goes on with diligence and prospers in their hands."
     }
   },
   {
@@ -944,8 +955,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "Then Darius the king made a decree, and the house of the archives, where the treasures were laid up in Babylon, was searched.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Darius the king made a decree, and the house of the archives, where the treasures were laid up in Babylon, was searched."
     }
   },
   {
@@ -960,12 +971,12 @@
     "verse": 3,
     "content": [
       {
+        "paragraph": true,
         "text": "In the first year of Cyrus the king, Cyrus the king made a decree: Concerning God’s house at Jerusalem, let the house be built, the place where they offer sacrifices, and let its foundations be strongly laid, with its height sixty cubits",
         "foot": {
           "type": "stu",
           "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
-        },
-        "paragraph": true
+        }
       },
       " and its width sixty cubits;"
     ]
@@ -1029,8 +1040,8 @@
     "chapter": 6,
     "verse": 13,
     "content": {
-      "text": "Then Tattenai, the governor beyond the River, Shetharbozenai, and their companions did accordingly with all diligence, because Darius the king had sent a decree.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Tattenai, the governor beyond the River, Shetharbozenai, and their companions did accordingly with all diligence, because Darius the king had sent a decree."
     }
   },
   {
@@ -1038,8 +1049,8 @@
     "chapter": 6,
     "verse": 14,
     "content": {
-      "text": "The elders of the Jews built and prospered, through the prophesying of Haggai the prophet and Zechariah the son of Iddo. They built and finished it, according to the commandment of the God of Israel, and according to the decree of Cyrus, Darius, and Artaxerxes king of Persia.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The elders of the Jews built and prospered, through the prophesying of Haggai the prophet and Zechariah the son of Iddo. They built and finished it, according to the commandment of the God of Israel, and according to the decree of Cyrus, Darius, and Artaxerxes king of Persia."
     }
   },
   {
@@ -1053,8 +1064,8 @@
     "chapter": 6,
     "verse": 16,
     "content": {
-      "text": "The children of Israel, the priests, the Levites, and the rest of the children of the captivity, kept the dedication of this house of God with joy.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel, the priests, the Levites, and the rest of the children of the captivity, kept the dedication of this house of God with joy."
     }
   },
   {
@@ -1074,8 +1085,8 @@
     "chapter": 6,
     "verse": 19,
     "content": {
-      "text": "The children of the captivity kept the Passover on the fourteenth day of the first month.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of the captivity kept the Passover on the fourteenth day of the first month."
     }
   },
   {
@@ -1101,8 +1112,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "Now after these things, in the reign of Artaxerxes king of Persia, Ezra the son of Seraiah, the son of Azariah, the son of Hilkiah,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now after these things, in the reign of Artaxerxes king of Persia, Ezra the son of Seraiah, the son of Azariah, the son of Hilkiah,"
     }
   },
   {
@@ -1164,8 +1175,8 @@
     "chapter": 7,
     "verse": 11,
     "content": {
-      "text": "Now this is the copy of the letter that King Artaxerxes gave to Ezra the priest, the scribe, even the scribe of the words of Yahweh’s commandments, and of his statutes to Israel:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now this is the copy of the letter that King Artaxerxes gave to Ezra the priest, the scribe, even the scribe of the words of Yahweh’s commandments, and of his statutes to Israel:"
     }
   },
   {
@@ -1173,8 +1184,8 @@
     "chapter": 7,
     "verse": 12,
     "content": {
-      "text": "Artaxerxes, king of kings,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Artaxerxes, king of kings,"
     }
   },
   {
@@ -1289,8 +1300,8 @@
     "chapter": 7,
     "verse": 27,
     "content": {
-      "text": "Blessed be Yahweh, the God of our fathers, who has put such a thing as this in the king’s heart, to beautify Yahweh’s house which is in Jerusalem;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Blessed be Yahweh, the God of our fathers, who has put such a thing as this in the king’s heart, to beautify Yahweh’s house which is in Jerusalem;"
     }
   },
   {
@@ -1304,8 +1315,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "Now these are the heads of their fathers’ households, and this is the genealogy of those who went up with me from Babylon, in the reign of Artaxerxes the king:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now these are the heads of their fathers’ households, and this is the genealogy of those who went up with me from Babylon, in the reign of Artaxerxes the king:"
     }
   },
   {
@@ -1391,8 +1402,8 @@
     "chapter": 8,
     "verse": 15,
     "content": {
-      "text": "I gathered them together to the river that runs to Ahava; and there we encamped three days. Then I looked around at the people and the priests, and found there were none of the sons of Levi.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I gathered them together to the river that runs to Ahava; and there we encamped three days. Then I looked around at the people and the priests, and found there were none of the sons of Levi."
     }
   },
   {
@@ -1430,8 +1441,8 @@
     "chapter": 8,
     "verse": 21,
     "content": {
-      "text": "Then I proclaimed a fast there at the river Ahava, that we might humble ourselves before our God, to seek from him a straight way for us, for our little ones, and for all our possessions.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I proclaimed a fast there at the river Ahava, that we might humble ourselves before our God, to seek from him a straight way for us, for our little ones, and for all our possessions."
     }
   },
   {
@@ -1451,8 +1462,8 @@
     "chapter": 8,
     "verse": 24,
     "content": {
-      "text": "Then I set apart twelve of the chiefs of the priests, even Sherebiah, Hashabiah, and ten of their brothers with them,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I set apart twelve of the chiefs of the priests, even Sherebiah, Hashabiah, and ten of their brothers with them,"
     }
   },
   {
@@ -1508,8 +1519,8 @@
     "chapter": 8,
     "verse": 30,
     "content": {
-      "text": "So the priests and the Levites received the weight of the silver, the gold, and the vessels, to bring them to Jerusalem to the house of our God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So the priests and the Levites received the weight of the silver, the gold, and the vessels, to bring them to Jerusalem to the house of our God."
     }
   },
   {
@@ -1517,8 +1528,8 @@
     "chapter": 8,
     "verse": 31,
     "content": {
-      "text": "Then we departed from the river Ahava on the twelfth day of the first month, to go to Jerusalem. The hand of our God was on us, and he delivered us from the hand of the enemy and the bandits by the way.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then we departed from the river Ahava on the twelfth day of the first month, to go to Jerusalem. The hand of our God was on us, and he delivered us from the hand of the enemy and the bandits by the way."
     }
   },
   {
@@ -1544,8 +1555,8 @@
     "chapter": 8,
     "verse": 35,
     "content": {
-      "text": "The children of the captivity, who had come out of exile, offered burnt offerings to the God of Israel: twelve bulls for all Israel, ninety-six rams, seventy-seven lambs, and twelve male goats for a sin offering. All this was a burnt offering to Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of the captivity, who had come out of exile, offered burnt offerings to the God of Israel: twelve bulls for all Israel, ninety-six rams, seventy-seven lambs, and twelve male goats for a sin offering. All this was a burnt offering to Yahweh."
     }
   },
   {
@@ -1559,8 +1570,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "Now when these things were done, the princes came near to me, saying, “The people of Israel, the priests, and the Levites have not separated themselves from the peoples of the lands, following their abominations, even those of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now when these things were done, the princes came near to me, saying, “The people of Israel, the priests, and the Levites have not separated themselves from the peoples of the lands, following their abominations, even those of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites."
     }
   },
   {
@@ -1574,8 +1585,8 @@
     "chapter": 9,
     "verse": 3,
     "content": {
-      "text": "When I heard this thing, I tore my garment and my robe, and pulled the hair out of my head and of my beard, and sat down confounded.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When I heard this thing, I tore my garment and my robe, and pulled the hair out of my head and of my beard, and sat down confounded."
     }
   },
   {
@@ -1589,8 +1600,8 @@
     "chapter": 9,
     "verse": 5,
     "content": {
-      "text": "At the evening offering I rose up from my humiliation, even with my garment and my robe torn; and I fell on my knees, and spread out my hands to Yahweh my God;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At the evening offering I rose up from my humiliation, even with my garment and my robe torn; and I fell on my knees, and spread out my hands to Yahweh my God;"
     }
   },
   {
@@ -1622,8 +1633,8 @@
     "chapter": 9,
     "verse": 10,
     "content": {
-      "text": "“Now, our God, what shall we say after this? For we have forsaken your commandments,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Now, our God, what shall we say after this? For we have forsaken your commandments,"
     }
   },
   {
@@ -1643,8 +1654,8 @@
     "chapter": 9,
     "verse": 13,
     "content": {
-      "text": "“After all that has come on us for our evil deeds and for our great guilt, since you, our God, have punished us less than our iniquities deserve, and have given us such a remnant,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“After all that has come on us for our evil deeds and for our great guilt, since you, our God, have punished us less than our iniquities deserve, and have given us such a remnant,"
     }
   },
   {
@@ -1680,8 +1691,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "Now while Ezra prayed and made confession, weeping and casting himself down before God’s house, there was gathered together to him out of Israel a very great assembly of men and women and children; for the people wept very bitterly.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now while Ezra prayed and made confession, weeping and casting himself down before God’s house, there was gathered together to him out of Israel a very great assembly of men and women and children; for the people wept very bitterly."
     }
   },
   {
@@ -1707,8 +1718,8 @@
     "chapter": 10,
     "verse": 5,
     "content": {
-      "text": "Then Ezra arose, and made the chiefs of the priests, the Levites, and all Israel to swear that they would do according to this word. So they swore.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Ezra arose, and made the chiefs of the priests, the Levites, and all Israel to swear that they would do according to this word. So they swore."
     }
   },
   {
@@ -1734,8 +1745,8 @@
     "chapter": 10,
     "verse": 9,
     "content": {
-      "text": "Then all the men of Judah and Benjamin gathered themselves together to Jerusalem within the three days. It was the ninth month, on the twentieth day of the month; and all the people sat in the wide place in front of God’s house, trembling because of this matter, and because of the great rain.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then all the men of Judah and Benjamin gathered themselves together to Jerusalem within the three days. It was the ninth month, on the twentieth day of the month; and all the people sat in the wide place in front of God’s house, trembling because of this matter, and because of the great rain."
     }
   },
   {
@@ -1743,8 +1754,8 @@
     "chapter": 10,
     "verse": 10,
     "content": {
-      "text": "Ezra the priest stood up and said to them, “You have trespassed, and have married foreign women, increasing the guilt of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Ezra the priest stood up and said to them, “You have trespassed, and have married foreign women, increasing the guilt of Israel."
     }
   },
   {
@@ -1758,8 +1769,8 @@
     "chapter": 10,
     "verse": 12,
     "content": {
-      "text": "Then all the assembly answered with a loud voice, “We must do as you have said concerning us.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then all the assembly answered with a loud voice, “We must do as you have said concerning us."
     }
   },
   {
@@ -1779,8 +1790,8 @@
     "chapter": 10,
     "verse": 15,
     "content": {
-      "text": "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah stood up against this; and Meshullam and Shabbethai the Levite helped them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah stood up against this; and Meshullam and Shabbethai the Levite helped them."
     }
   },
   {
@@ -1788,8 +1799,8 @@
     "chapter": 10,
     "verse": 16,
     "content": {
-      "text": "The children of the captivity did so. Ezra the priest, with certain heads of fathers’ households, after their fathers’ houses, and all of them by their names, were set apart; and they sat down in the first day of the tenth month to examine the matter.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of the captivity did so. Ezra the priest, with certain heads of fathers’ households, after their fathers’ houses, and all of them by their names, were set apart; and they sat down in the first day of the tenth month to examine the matter."
     }
   },
   {
@@ -1803,8 +1814,8 @@
     "chapter": 10,
     "verse": 18,
     "content": {
-      "text": "Among the sons of the priests there were found who had married foreign women:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Among the sons of the priests there were found who had married foreign women:"
     }
   },
   {
@@ -1962,8 +1973,8 @@
     "chapter": 10,
     "verse": 44,
     "content": {
-      "text": "All these had taken foreign wives. Some of them had wives by whom they had children.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All these had taken foreign wives. Some of them had wives by whom they had children."
     }
   }
 ]

@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life",
-      "paragraph": true
+      "paragraph": true,
+      "text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we saw, and our hands touched, concerning the Word of life"
     }
   },
   {
@@ -37,8 +37,8 @@
     "chapter": 1,
     "verse": 5,
     "content": {
-      "text": "This is the message which we have heard from him and announce to you, that God is light, and in him is no darkness at all.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This is the message which we have heard from him and announce to you, that God is light, and in him is no darkness at all."
     }
   },
   {
@@ -77,19 +77,19 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "My little children, I write these things to you so that you may not sin. If anyone sins, we have a Counselor",
         "foot": {
           "type": "stu",
           "content": [
-            "Greek",
+            "Greek ",
             {
-              "text": " παρακλητον",
+              "text": "παρακλητον",
               "script": "G"
             },
             ": Counselor, Helper, Intercessor, Advocate, and Comforter."
           ]
-        },
-        "paragraph": true
+        }
       },
       " with the Father, Jesus Christ, the righteous."
     ]
@@ -145,8 +145,8 @@
     "chapter": 2,
     "verse": 7,
     "content": {
-      "text": "Brothers, I write no new commandment to you, but an old commandment which you had from the beginning. The old commandment is the word which you heard from the beginning.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Brothers, I write no new commandment to you, but an old commandment which you had from the beginning. The old commandment is the word which you heard from the beginning."
     }
   },
   {
@@ -178,35 +178,51 @@
     "chapter": 2,
     "verse": 12,
     "content": {
-      "text": "I write to you, little children, because your sins are forgiven you for his name’s sake.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I write to you, little children, because your sins are forgiven you for his name’s sake."
     }
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 13,
-    "content": {
-      "text": "I write to you, fathers, because you know him who is from the beginning. I write to you, young men, because you have overcome the evil one. I write to you, little children, because you know the Father.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I write to you, fathers, because you know him who is from the beginning."
+      },
+      {
+        "paragraph": true,
+        "text": "I write to you, young men, because you have overcome the evil one."
+      },
+      {
+        "paragraph": true,
+        "text": "I write to you, little children, because you know the Father."
+      }
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 14,
-    "content": {
-      "text": "I have written to you, fathers, because you know him who is from the beginning. I have written to you, young men, because you are strong, and the word of God remains in you, and you have overcome the evil one.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I have written to you, fathers, because you know him who is from the beginning."
+      },
+      {
+        "paragraph": true,
+        "text": "I have written to you, young men, because you are strong, and the word of God remains in you, and you have overcome the evil one."
+      }
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 15,
     "content": {
-      "text": "Don’t love the world or the things that are in the world. If anyone loves the world, the Father’s love isn’t in him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Don’t love the world or the things that are in the world. If anyone loves the world, the Father’s love isn’t in him."
     }
   },
   {
@@ -226,8 +242,8 @@
     "chapter": 2,
     "verse": 18,
     "content": {
-      "text": "Little children, these are the end times, and as you heard that the Antichrist is coming, even now many antichrists have arisen. By this we know that it is the final hour.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Little children, these are the end times, and as you heard that the Antichrist is coming, even now many antichrists have arisen. By this we know that it is the final hour."
     }
   },
   {
@@ -271,8 +287,8 @@
     "chapter": 2,
     "verse": 24,
     "content": {
-      "text": "Therefore, as for you, let that remain in you which you heard from the beginning. If that which you heard from the beginning remains in you, you also will remain in the Son, and in the Father.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore, as for you, let that remain in you which you heard from the beginning. If that which you heard from the beginning remains in you, you also will remain in the Son, and in the Father."
     }
   },
   {
@@ -286,8 +302,8 @@
     "chapter": 2,
     "verse": 26,
     "content": {
-      "text": "These things I have written to you concerning those who would lead you astray.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These things I have written to you concerning those who would lead you astray."
     }
   },
   {
@@ -301,8 +317,8 @@
     "chapter": 2,
     "verse": 28,
     "content": {
-      "text": "Now, little children, remain in him, that when he appears, we may have boldness and not be ashamed before him at his coming.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now, little children, remain in him, that when he appears, we may have boldness and not be ashamed before him at his coming."
     }
   },
   {
@@ -316,8 +332,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "See how great a love the Father has given to us, that we should be called children of God! For this cause the world doesn’t know us, because it didn’t know him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "See how great a love the Father has given to us, that we should be called children of God! For this cause the world doesn’t know us, because it didn’t know him."
     }
   },
   {
@@ -337,8 +353,8 @@
     "chapter": 3,
     "verse": 4,
     "content": {
-      "text": "Everyone who sins also commits lawlessness. Sin is lawlessness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Everyone who sins also commits lawlessness. Sin is lawlessness."
     }
   },
   {
@@ -358,8 +374,8 @@
     "chapter": 3,
     "verse": 7,
     "content": {
-      "text": "Little children, let no one lead you astray. He who does righteousness is righteous, even as he is righteous.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Little children, let no one lead you astray. He who does righteousness is righteous, even as he is righteous."
     }
   },
   {
@@ -397,8 +413,8 @@
     "chapter": 3,
     "verse": 13,
     "content": {
-      "text": "Don’t be surprised, my brothers, if the world hates you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Don’t be surprised, my brothers, if the world hates you."
     }
   },
   {
@@ -418,8 +434,8 @@
     "chapter": 3,
     "verse": 16,
     "content": {
-      "text": "By this we know love, because he laid down his life for us. And we ought to lay down our lives for the brothers.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By this we know love, because he laid down his life for us. And we ought to lay down our lives for the brothers."
     }
   },
   {
@@ -433,8 +449,8 @@
     "chapter": 3,
     "verse": 18,
     "content": {
-      "text": "My little children, let’s not love in word only, or with the tongue only, but in deed and truth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "My little children, let’s not love in word only, or with the tongue only, but in deed and truth."
     }
   },
   {
@@ -478,8 +494,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Beloved, don’t believe every spirit, but test the spirits, whether they are of God, because many false prophets have gone out into the world.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beloved, don’t believe every spirit, but test the spirits, whether they are of God, because many false prophets have gone out into the world."
     }
   },
   {
@@ -517,8 +533,8 @@
     "chapter": 4,
     "verse": 7,
     "content": {
-      "text": "Beloved, let’s love one another, for love is of God; and everyone who loves has been born of God and knows God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beloved, let’s love one another, for love is of God; and everyone who loves has been born of God and knows God."
     }
   },
   {
@@ -588,8 +604,8 @@
     "chapter": 4,
     "verse": 13,
     "content": {
-      "text": "By this we know that we remain in him and he in us, because he has given us of his Spirit.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By this we know that we remain in him and he in us, because he has given us of his Spirit."
     }
   },
   {
@@ -654,8 +670,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Whoever believes that Jesus is the Christ has been born of God. Whoever loves the Father also loves the child who is born of him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Whoever believes that Jesus is the Christ has been born of God. Whoever loves the Father also loves the child who is born of him."
     }
   },
   {
@@ -687,8 +703,8 @@
     "chapter": 5,
     "verse": 6,
     "content": {
-      "text": "This is he who came by water and blood, Jesus Christ; not with the water only, but with the water and the blood. It is the Spirit who testifies, because the Spirit is the truth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This is he who came by water and blood, Jesus Christ; not with the water only, but with the water and the blood. It is the Spirit who testifies, because the Spirit is the truth."
     }
   },
   {
@@ -738,8 +754,8 @@
     "chapter": 5,
     "verse": 13,
     "content": {
-      "text": "These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God."
     }
   },
   {
@@ -747,8 +763,8 @@
     "chapter": 5,
     "verse": 14,
     "content": {
-      "text": "This is the boldness which we have toward him, that if we ask anything according to his will, he listens to us.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This is the boldness which we have toward him, that if we ask anything according to his will, he listens to us."
     }
   },
   {
@@ -762,8 +778,8 @@
     "chapter": 5,
     "verse": 16,
     "content": {
-      "text": "If anyone sees his brother sinning a sin not leading to death, he shall ask, and God will give him life for those who sin not leading to death. There is sin leading to death. I don’t say that he should make a request concerning this.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "If anyone sees his brother sinning a sin not leading to death, he shall ask, and God will give him life for those who sin not leading to death. There is sin leading to death. I don’t say that he should make a request concerning this."
     }
   },
   {
@@ -777,8 +793,8 @@
     "chapter": 5,
     "verse": 18,
     "content": {
-      "text": "We know that whoever is born of God doesn’t sin, but he who was born of God keeps himself, and the evil one doesn’t touch him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "We know that whoever is born of God doesn’t sin, but he who was born of God keeps himself, and the evil one doesn’t touch him."
     }
   },
   {
@@ -798,8 +814,8 @@
     "chapter": 5,
     "verse": 21,
     "content": {
-      "text": "Little children, keep yourselves from idols.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Little children, keep yourselves from idols."
     }
   }
 ]

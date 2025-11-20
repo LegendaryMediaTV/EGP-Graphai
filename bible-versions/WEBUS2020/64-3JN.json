@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "The elder to Gaius the beloved, whom I love in truth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The elder to Gaius the beloved, whom I love in truth."
     }
   },
   {
@@ -13,8 +13,8 @@
     "chapter": 1,
     "verse": 2,
     "content": {
-      "text": "Beloved, I pray that you may prosper in all things and be healthy, even as your soul prospers.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beloved, I pray that you may prosper in all things and be healthy, even as your soul prospers."
     }
   },
   {
@@ -34,8 +34,8 @@
     "chapter": 1,
     "verse": 5,
     "content": {
-      "text": "Beloved, you do a faithful work in whatever you accomplish for those who are brothers and strangers.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beloved, you do a faithful work in whatever you accomplish for those who are brothers and strangers."
     }
   },
   {
@@ -61,8 +61,8 @@
     "chapter": 1,
     "verse": 9,
     "content": {
-      "text": "I wrote to the assembly, but Diotrephes, who loves to be first among them, doesn’t accept what we say.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I wrote to the assembly, but Diotrephes, who loves to be first among them, doesn’t accept what we say."
     }
   },
   {
@@ -76,8 +76,8 @@
     "chapter": 1,
     "verse": 11,
     "content": {
-      "text": "Beloved, don’t imitate that which is evil, but that which is good. He who does good is of God. He who does evil hasn’t seen God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beloved, don’t imitate that which is evil, but that which is good. He who does good is of God. He who does evil hasn’t seen God."
     }
   },
   {
@@ -91,14 +91,20 @@
     "chapter": 1,
     "verse": 13,
     "content": {
-      "text": "I had many things to write to you, but I am unwilling to write to you with ink and pen;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I had many things to write to you, but I am unwilling to write to you with ink and pen;"
     }
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 14,
-    "content": "but I hope to see you soon. Then we will speak face to face. Peace be to you. The friends greet you. Greet the friends by name."
+    "content": [
+      "but I hope to see you soon. Then we will speak face to face.",
+      {
+        "paragraph": true,
+        "text": "Peace be to you. The friends greet you. Greet the friends by name."
+      }
+    ]
   }
 ]

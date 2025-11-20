@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Peter, an apostle of Jesus Christ,",
         "foot": {
           "type": "stu",
           "content": "“Christ” means “Anointed One”."
-        },
-        "paragraph": true
+        }
       },
       " to the chosen ones who are living as foreigners in the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,"
     ]
@@ -26,8 +26,8 @@
     "chapter": 1,
     "verse": 3,
     "content": {
-      "text": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,"
     }
   },
   {
@@ -71,8 +71,8 @@
     "chapter": 1,
     "verse": 10,
     "content": {
-      "text": "Concerning this salvation, the prophets sought and searched diligently. They prophesied of the grace that would come to you,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Concerning this salvation, the prophets sought and searched diligently. They prophesied of the grace that would come to you,"
     }
   },
   {
@@ -93,12 +93,12 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "Therefore prepare your minds for action.",
         "foot": {
           "type": "stu",
           "content": "literally, “gird up the waist of your mind” or “put on the belt of the waist of your mind”"
-        },
-        "paragraph": true
+        }
       },
       " Be sober, and set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ—"
     ]
@@ -132,8 +132,8 @@
     "chapter": 1,
     "verse": 17,
     "content": {
-      "text": "If you call on him as Father, who without respect of persons judges according to each man’s work, pass the time of your living as foreigners here in reverent fear,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "If you call on him as Father, who without respect of persons judges according to each man’s work, pass the time of your living as foreigners here in reverent fear,"
     }
   },
   {
@@ -165,8 +165,8 @@
     "chapter": 1,
     "verse": 22,
     "content": {
-      "text": "Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly affection, love one another from the heart fervently,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Seeing you have purified your souls in your obedience to the truth through the Spirit in sincere brotherly affection, love one another from the heart fervently,"
     }
   },
   {
@@ -210,7 +210,10 @@
           "content": "Isaiah 40:6-8"
         }
       },
-      " This is the word of Good News which was preached to you."
+      {
+        "paragraph": true,
+        "text": "This is the word of Good News which was preached to you."
+      }
     ]
   },
   {
@@ -218,8 +221,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Putting away therefore all wickedness, all deceit, hypocrisies, envies, and all evil speaking,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Putting away therefore all wickedness, all deceit, hypocrisies, envies, and all evil speaking,"
     }
   },
   {
@@ -293,8 +296,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "For you who believe therefore is the honor, but for those who are disobedient,",
         "paragraph": true,
+        "text": "For you who believe therefore is the honor, but for those who are disobedient,",
         "break": true
       },
       {
@@ -316,8 +319,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "and,",
         "paragraph": true,
+        "text": "and,",
         "break": true
       },
       {
@@ -327,7 +330,10 @@
           "content": "Isaiah 8:14"
         }
       },
-      " For they stumble at the word, being disobedient, to which also they were appointed."
+      {
+        "paragraph": true,
+        "text": "For they stumble at the word, being disobedient, to which also they were appointed."
+      }
     ]
   },
   {
@@ -347,8 +353,8 @@
     "chapter": 2,
     "verse": 11,
     "content": {
-      "text": "Beloved, I beg you as foreigners and pilgrims to abstain from fleshly lusts which war against the soul,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beloved, I beg you as foreigners and pilgrims to abstain from fleshly lusts which war against the soul,"
     }
   },
   {
@@ -362,8 +368,8 @@
     "chapter": 2,
     "verse": 13,
     "content": {
-      "text": "Therefore subject yourselves to every ordinance of man for the Lord’s sake: whether to the king, as supreme,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore subject yourselves to every ordinance of man for the Lord’s sake: whether to the king, as supreme,"
     }
   },
   {
@@ -389,8 +395,8 @@
     "chapter": 2,
     "verse": 17,
     "content": {
-      "text": "Honor all men. Love the brotherhood. Fear God. Honor the king.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Honor all men. Love the brotherhood. Fear God. Honor the king."
     }
   },
   {
@@ -398,8 +404,8 @@
     "chapter": 2,
     "verse": 18,
     "content": {
-      "text": "Servants, be in subjection to your masters with all respect, not only to the good and gentle, but also to the wicked.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Servants, be in subjection to your masters with all respect, not only to the good and gentle, but also to the wicked."
     }
   },
   {
@@ -469,9 +475,9 @@
         "foot": {
           "type": "stu",
           "content": [
-            "“Overseer” is from the Greek",
+            "“Overseer” is from the Greek ",
             {
-              "text": " ἐπίσκοπον",
+              "text": "ἐπίσκοπον",
               "script": "G"
             },
             ", which can mean overseer, curator, guardian, or superintendent."
@@ -486,8 +492,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "In the same way, wives, be in subjection to your own husbands, so that, even if any don’t obey the Word, they may be won by the behavior of their wives without a word,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the same way, wives, be in subjection to your own husbands, so that, even if any don’t obey the Word, they may be won by the behavior of their wives without a word,"
     }
   },
   {
@@ -525,8 +531,8 @@
     "chapter": 3,
     "verse": 7,
     "content": {
-      "text": "You husbands, in the same way, live with your wives according to knowledge, giving honor to the woman as to the weaker vessel, as also being joint heirs of the grace of life, that your prayers may not be hindered.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "You husbands, in the same way, live with your wives according to knowledge, giving honor to the woman as to the weaker vessel, as also being joint heirs of the grace of life, that your prayers may not be hindered."
     }
   },
   {
@@ -534,8 +540,8 @@
     "chapter": 3,
     "verse": 8,
     "content": {
-      "text": "Finally, all of you be like-minded, compassionate, loving as brothers, tenderhearted, courteous,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Finally, all of you be like-minded, compassionate, loving as brothers, tenderhearted, courteous,"
     }
   },
   {
@@ -613,8 +619,8 @@
     "chapter": 3,
     "verse": 13,
     "content": {
-      "text": "Now who will harm you if you become imitators of that which is good?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now who will harm you if you become imitators of that which is good?"
     }
   },
   {
@@ -682,8 +688,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Therefore, since Christ suffered for us in the flesh, arm yourselves also with the same mind; for he who has suffered in the flesh has ceased from sin,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore, since Christ suffered for us in the flesh, arm yourselves also with the same mind; for he who has suffered in the flesh has ceased from sin,"
     }
   },
   {
@@ -721,8 +727,8 @@
     "chapter": 4,
     "verse": 7,
     "content": {
-      "text": "But the end of all things is near. Therefore be of sound mind, self-controlled, and sober in prayer.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But the end of all things is near. Therefore be of sound mind, self-controlled, and sober in prayer."
     }
   },
   {
@@ -754,8 +760,8 @@
     "chapter": 4,
     "verse": 12,
     "content": {
-      "text": "Beloved, don’t be astonished at the fiery trial which has come upon you to test you, as though a strange thing happened to you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beloved, don’t be astonished at the fiery trial which has come upon you to test you, as though a strange thing happened to you."
     }
   },
   {
@@ -811,8 +817,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Therefore I exhort the elders among you, as a fellow elder and a witness of the sufferings of Christ, and who will also share in the glory that will be revealed:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore I exhort the elders among you, as a fellow elder and a witness of the sufferings of Christ, and who will also share in the glory that will be revealed:"
     }
   },
   {
@@ -838,12 +844,12 @@
     "chapter": 5,
     "verse": 5,
     "content": {
+      "paragraph": true,
       "text": "Likewise, you younger ones, be subject to the elder. Yes, all of you clothe yourselves with humility and subject yourselves to one another; for “God resists the proud, but gives grace to the humble.”",
       "foot": {
         "type": "xrf",
         "content": "Proverbs 3:34"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -863,8 +869,8 @@
     "chapter": 5,
     "verse": 8,
     "content": {
-      "text": "Be sober and self-controlled. Be watchful. Your adversary, the devil, walks around like a roaring lion, seeking whom he may devour.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Be sober and self-controlled. Be watchful. Your adversary, the devil, walks around like a roaring lion, seeking whom he may devour."
     }
   },
   {
@@ -890,8 +896,8 @@
     "chapter": 5,
     "verse": 12,
     "content": {
-      "text": "Through Silvanus, our faithful brother, as I consider him, I have written to you briefly, exhorting and testifying that this is the true grace of God in which you stand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Through Silvanus, our faithful brother, as I consider him, I have written to you briefly, exhorting and testifying that this is the true grace of God in which you stand."
     }
   },
   {
@@ -904,6 +910,12 @@
     "book": "1PT",
     "chapter": 5,
     "verse": 14,
-    "content": "Greet one another with a kiss of love. Peace be to all of you who are in Christ Jesus. Amen."
+    "content": [
+      "Greet one another with a kiss of love.",
+      {
+        "paragraph": true,
+        "text": "Peace be to all of you who are in Christ Jesus. Amen."
+      }
+    ]
   }
 ]

@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Paul, a prisoner of Christ",
         "foot": {
           "type": "stu",
           "content": "“Christ” means “Anointed One”."
-        },
-        "paragraph": true
+        }
       },
       " Jesus, and Timothy our brother, to Philemon, our beloved fellow worker,"
     ]
@@ -32,8 +32,8 @@
     "chapter": 1,
     "verse": 4,
     "content": {
-      "text": "I thank my God always, making mention of you in my prayers,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I thank my God always, making mention of you in my prayers,"
     }
   },
   {
@@ -59,8 +59,8 @@
     "chapter": 1,
     "verse": 8,
     "content": {
-      "text": "Therefore though I have all boldness in Christ to command you that which is appropriate,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore though I have all boldness in Christ to command you that which is appropriate,"
     }
   },
   {
@@ -122,8 +122,8 @@
     "chapter": 1,
     "verse": 17,
     "content": {
-      "text": "If then you count me a partner, receive him as you would receive me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "If then you count me a partner, receive him as you would receive me."
     }
   },
   {
@@ -149,8 +149,8 @@
     "chapter": 1,
     "verse": 21,
     "content": {
-      "text": "Having confidence in your obedience, I write to you, knowing that you will do even beyond what I say.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Having confidence in your obedience, I write to you, knowing that you will do even beyond what I say."
     }
   },
   {
@@ -158,8 +158,8 @@
     "chapter": 1,
     "verse": 22,
     "content": {
-      "text": "Also, prepare a guest room for me, for I hope that through your prayers I will be restored to you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Also, prepare a guest room for me, for I hope that through your prayers I will be restored to you."
     }
   },
   {
@@ -167,8 +167,8 @@
     "chapter": 1,
     "verse": 23,
     "content": {
-      "text": "Epaphras, my fellow prisoner in Christ Jesus, greets you,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Epaphras, my fellow prisoner in Christ Jesus, greets you,"
     }
   },
   {
@@ -182,8 +182,8 @@
     "chapter": 1,
     "verse": 25,
     "content": {
-      "text": "The grace of our Lord Jesus Christ be with your spirit. Amen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The grace of our Lord Jesus Christ be with your spirit. Amen."
     }
   }
 ]
