@@ -6,7 +6,7 @@
     "dev": "ts-node web/server.ts",
     "export": "ts-node utils/exportContent",
     "validate": "ts-node utils/validate",
-    "test": "vitest"
+    "test": "vitest --run"
   },
   "keywords": [
     "bible",
