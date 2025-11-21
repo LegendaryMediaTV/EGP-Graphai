@@ -11,6 +11,7 @@
 <sup>9</sup> and ye have turned back unto Me, and kept My commands, and done them-if your outcast is in the end of the heavens, thence I gather them, and have brought them in unto the place that I have chosen to cause My name to tabernacle there.
 <sup>10</sup> And they are Thy servants, and Thy people, whom Thou hast ransomed by Thy great power, and by Thy strong hand.
 <sup>11</sup> ‘I beseech Thee, O Lord, let, I pray Thee, Thine ear be attentive unto the prayer of Thy servant, and unto the prayer of Thy servants, those delighting to fear Thy Name; and give prosperity, I pray Thee, to Thy servant to-day, and give him for mercies before this man;’ and I have been butler to the king.
+
 ## Chapter 2
 
 <sup>1</sup> And it cometh to pass, in the month of Nisan, the twentieth year of Artaxerxes the king, wine is before him, and I lift up the wine, and give to the king, and I had not been sad before him;
@@ -33,6 +34,7 @@
 <sup>18</sup> And I declare to them the hand of my God that is good upon me, and also the words of the king that he said to me, and they say, ‘Let us rise, and we have built;’ and they strengthen their hands for good.
 <sup>19</sup> And Sanballat the Horonite heareth, and Tobiah the servant, the Ammonite, and Geshem the Arabian, and they mock at us, and despise us, and say, ‘What is this thing that ye are doing? against the king are ye rebelling?’
 <sup>20</sup> And I return them word, and say to them, ‘The God of the heavens-He doth give prosperity to us, and we His servants rise and have built; and to you there is no portion, and right, and memorial in Jerusalem.’
+
 ## Chapter 3
 
 <sup>1</sup> And Eliashib the high priest riseth, and his brethren the priests, and they build the sheep-gate; they have sanctified it, and set up its doors, even unto the tower of Meah they have sanctified it, unto the tower of Hananeel;
@@ -67,6 +69,7 @@
 <sup>30</sup> After him hath Hananiah son of Shelemiah strengthened, and Hanun the sixth son of Zalaph, a second measure; after him hath Meshullam son of Berechiah strengthened, over-against his chamber.
 <sup>31</sup> After him hath Malchijah son of the refiner strengthened, unto the house of the Nethinim, and of the merchants, over-against the gate of the Miphkad, and unto the ascent of the corner.
 <sup>32</sup> And between the ascent of the corner and the sheep-gate, have the refiners and the merchants strengthened.
+
 ## Chapter 4
 
 <sup>1</sup> And it cometh to pass, when Sanballat hath heard that we are building the wall, that it is displeasing to him, and he is very angry and mocketh at the Jews,
@@ -92,6 +95,7 @@
 <sup>21</sup> And we are working in the business, and half of them are keeping hold of the spears, from the going up of the dawn till the coming forth of the stars.
 <sup>22</sup> Also, at that time I said to the people, ‘Let each with his servant lodge in the midst of Jerusalem, and they have been to us by night a guard, and by day for the work:’
 <sup>23</sup> and there are none-I and my brethren and my servants, the men of the guard who are after me-there are none of us putting off our garments, each hath his vessel of water.
+
 ## Chapter 5
 
 <sup>1</sup> And there is a great cry of the people and their wives, concerning their brethren the Jews,
@@ -113,6 +117,7 @@
 <sup>17</sup> and of the Jews, and of the prefects, a hundred and fifty men, and those coming in unto us of the nations that are round about us, are at my table;
 <sup>18</sup> and that which hath been prepared for one day is one ox, six fat sheep, also fowls have been prepared for me, and once in ten days of all wines abundantly, and with this, the bread of the governor I have not sought, for heavy is the service on this people.
 <sup>19</sup> Remember for me, O my God, for good, all that I have done for this people.
+
 ## Chapter 6
 
 <sup>1</sup> And it cometh to pass, when it hath been heard by Sanballat, and Tobiah, and by Geshem the Arabian, and by the rest of our enemies, that I have builded the wall, and there hath not been left in it a breach, (also, till that time the doors I had not set up in the gates,)
@@ -134,6 +139,7 @@
 <sup>17</sup> Also, in those days the freemen of Judah are multiplying their letters going unto Tobiah, and those of Tobiah are coming in unto them;
 <sup>18</sup> for many in Judah are sworn to him, for he is son-in-law to Shechaniah son of Arah, and Jehohanan his son hath taken the daughter of Meshullam son of Berechiah;
 <sup>19</sup> also, his good deeds they have been saying before me, and my words they have been taking out to him; letters hath Tobiah sent to make me afraid.
+
 ## Chapter 7
 
 <sup>1</sup> And it cometh to pass, when the wall hath been built, that I set up the doors, and the gatekeepers are appointed, and the singers, and the Levites,
@@ -209,6 +215,7 @@
 <sup>71</sup> And of the heads of the fathers they have given to the treasure of the work, of gold, drams two myriads, and of silver, pounds two thousand and two hundred.
 <sup>72</sup> And that which the rest of the people have given is of gold, drams two myriads, and of silver, pounds two thousand, and of priests coats, sixty and seven.
 <sup>73</sup> And they dwell-the priests, and the Levites, and the gatekeepers, and the singers, and some of the people, and the Nethinim, and all Israel-in their cities, and the seventh month cometh, and the sons of Israel are in their cities.
+
 ## Chapter 8
 
 <sup>1</sup> And all the people are gathered as one man unto the broad place that is before the water-gate, and they say to Ezra the scribe to bring the book of the law of Moses, that Jehovah commanded Israel.
@@ -229,6 +236,7 @@
 <sup>16</sup> And the people go out, and bring in, and make for themselves booths, each on his roof, and in their courts, and in the courts of the house of God, and in the broad place of the water-gate, and in the broad place of the gate of Ephraim.
 <sup>17</sup> And they make-all the assembly of the captives of the captivity-booths, and they sit in booths; for the sons of Israel had not done, from the days of Jeshua son of Nun, so unto that day, and there is very great joy.
 <sup>18</sup> And he readeth in the book of the law of God day by day, from the first day till the last day, and they make a feast seven days, and on the eighth day a restraint, according to the ordinance.
+
 ## Chapter 9
 
 <sup>1</sup> And in the twenty and fourth day of this month have the sons of Israel been gathered, with fasting, and with sackcloth, and earth upon them;
@@ -269,6 +277,7 @@
 <sup>36</sup> ‘Lo, we-to-day-are servants, and the land that Thou hast given to our fathers, to eat its fruit and its good-lo, we are servants on it,
 <sup>37</sup> and its increase it is multiplying to the kings whom Thou hast set over us in our sins; and over our bodies they are ruling, and over our cattle, according to their pleasure, and we are in great distress.
 <sup>38</sup> And for all this we are making a stedfast covenant, and are writing, and over him who is sealed are our heads, our Levites, our priests.’
+
 ## Chapter 10
 
 <sup>1</sup> And over those sealed are Nehemiah the Tirshatha, son of Hachaliah, and Zidkijah,
@@ -310,6 +319,7 @@
 <sup>37</sup> And the beginning of our dough, and our heave-offerings, and the fruit of every tree, of new wine, and of oil, we bring in to the priests, unto the chambers of the house of our God, and the tithe of our ground to the Levites; and they-the Levites-have the tithes in all the cities of our tillage;
 <sup>38</sup> and the priest, son of Aaron, hath been with the Levites in the tithing of the Levites, and the Levites bring up the tithe of the tithe to the house of our God unto the chambers, to the treasure-house;
 <sup>39</sup> for unto the chambers do they bring in-the sons of Israel and the sons of Levi-the heave-offering of the corn, the new wine, and the oil, and there are vessels of the sanctuary, and the priests, those ministering, and the gatekeepers, and the singers, and we do not forsake the house of our God.
+
 ## Chapter 11
 
 <sup>1</sup> And the heads of the people dwell in Jerusalem, and the rest of the people have caused to fall lots to bring in one out of ten to dwell in Jerusalem the holy city, and nine parts in the cities,
@@ -348,6 +358,7 @@
 <sup>34</sup> Hadid, Zeboim, Neballat,
 <sup>35</sup> Lod, and Ono, the valley of the artificers.
 <sup>36</sup> And of the Levites, the courses of Judah are for Benjamin.
+
 ## Chapter 12
 
 <sup>1</sup> And these are the priests and the Levites who came up with Zerubbabel son of Shealtiel, and Jeshua; Seraiah, Jeremiah, Ezra,
@@ -397,6 +408,7 @@
 <sup>45</sup> And the singers and the gatekeepers keep the charge of their God, even the charge of the cleansing-according to the command of David and Solomon his son,
 <sup>46</sup> for in the days of David and Asaph of old were heads of the singers, and a song of praise and thanksgiving to God.
 <sup>47</sup> And all Israel in the days of Zerubbabel, and in the days of Nehemiah, are giving the portions of the singers, and of the gatekeepers, the matter of a day in its day, and are sanctifying to the Levites, and the Levites are sanctifying to the sons of Aaron.
+
 ## Chapter 13
 
 <sup>1</sup> On that day there was read in the book of Moses, in the ears of the people, and it hath been found written in it that an Ammonite and Moabite doth not come into the assembly of God-unto the age,

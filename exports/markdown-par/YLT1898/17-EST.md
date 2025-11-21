@@ -22,6 +22,7 @@
 <sup>20</sup> and the sentence of the king that he maketh hath been heard in all his kingdom-for it is great-and all the wives give honour to their husbands, from great even unto small.’
 <sup>21</sup> And the thing is good in the eyes of the king, and of the princes, and the king doth according to the word of Memucan,
 <sup>22</sup> and sendeth letters unto all provinces of the king, unto province and province according to its writing, and unto people and people according to its tongue, for every man being head in his own house-and speaking according to the language of his people.
+
 ## Chapter 2
 
 <sup>1</sup> After these things, at the ceasing of the fury of the king Ahasuerus, he hath remembered Vashti, and that which she did, and that which hath been decreed concerning her;
@@ -47,6 +48,7 @@
 <sup>21</sup> In those days, when Mordecai is sitting in the gate of the king, hath Bigthan been wroth, and Teresh, (two of the eunuchs of the king, the keepers of the threshold,) and they seek to put forth a hand on king Ahasuerus,
 <sup>22</sup> and the thing is known to Mordecai, and he declareth it to Esther the queen, and Esther speaketh to the king in the name of Mordecai,
 <sup>23</sup> and the thing is sought out, and found, and they are hanged both of them on a tree, and it is written in the book of the Chronicles before the king.
+
 ## Chapter 3
 
 <sup>1</sup> After these things hath the king Ahasuerus exalted Haman son of Hammedatha the Agagite, and lifteth him up, and setteth his throne above all the heads who are with him,
@@ -64,6 +66,7 @@
 <sup>13</sup> and letters to be sent by the hand of the runners unto all provinces of the king, to cut off, to slay, and to destroy all the Jews, from young even unto old, infant and women, on one day, on the thirteenth of the twelfth month-it is the month of Adar-and their spoil to seize,
 <sup>14</sup> a copy of the writing to be made law in every province and province is revealed to all the peoples, to be ready for this day.
 <sup>15</sup> The runners have gone forth, hastened by the word of the king, and the law hath been given in Shushan the palace, and the king and Haman have sat down to drink, and the city Shushan is perplexed.
+
 ## Chapter 4
 
 <sup>1</sup> And Mordecai hath known all that hath been done, and Mordecai rendeth his garments, and putteth on sackcloth and ashes, and goeth forth into the midst of the city and crieth-a cry loud and bitter,
@@ -83,6 +86,7 @@
 <sup>15</sup> And Esther speaketh to send back unto Mordecai:
 <sup>16</sup> ‘Go, gather all the Jews who are found in Shushan, and fast for me, and do not eat nor drink three days, by night and by day; also I and my young women do fast likewise, and so I go in unto the king, that is not according to law, and when I have perished-I have perished.’
 <sup>17</sup> And Mordecai passeth on, and doth according to all that Esther hath charged upon him.
+
 ## Chapter 5
 
 <sup>1</sup> And it cometh to pass on the third day, that Esther putteth on royalty, and standeth in the inner-court of the house of the king over-against the house of the king, and the king is sitting on his royal throne, in the royal-house, over-against the opening of the house,
@@ -99,6 +103,7 @@
 <sup>12</sup> And Haman saith, ‘Yea, Esther the queen brought none in with the king, unto the feast that she made, except myself, and also for to-morrow I am called to her, with the king,
 <sup>13</sup> and all this is not profitable to me, during all the time that I am seeing Mordecai the Jew sitting in the gate of the king.’
 <sup>14</sup> And Zeresh his wife saith to him, and all his friends, ‘Let them prepare a tree, in height fifty cubits, and in the morning speak to the king, and they hang Mordecai on it, and go thou in with the king unto the banquet rejoicing;’ and the thing is good before Haman, and he prepareth the tree.
+
 ## Chapter 6
 
 <sup>1</sup> On that night hath the sleep of the king fled away, and he saith to bring in the book of memorials of the Chronicles, and they are read before the king,
@@ -115,6 +120,7 @@
 <sup>12</sup> And Mordecai turneth back unto the gate of the king, and Haman hath been hastened unto his house mourning, and with covered head,
 <sup>13</sup> and Haman recounteth to Zeresh his wife, and to all his friends, all that hath met him, and his wise men say to him, and Zeresh his wife, ‘If Mordecai is of the seed of the Jews, before whom thou hast begun to fall, thou art not able for him, but dost certainly fall before him.’
 <sup>14</sup> They are yet speaking with him, and eunuchs of the king have come, and haste to bring in Haman unto the banquet that Esther hath made.
+
 ## Chapter 7
 
 <sup>1</sup> And the king cometh in, and Haman, to drink with Esther the queen,
@@ -127,6 +133,7 @@
 <sup>8</sup> And the king hath turned back out of the garden of the house unto the house of the banquet of wine, and Haman is falling on the couch on which Esther is, and the king saith, ‘Also to subdue the queen with me in the house?’ the word hath gone out from the mouth of the king, and the face of Haman they have covered.
 <sup>9</sup> And Harbonah, one of the eunuchs, saith before the king, ‘Also lo, the tree that Haman made for Mordecai, who spake good for the king, is standing in the house of Haman, in height fifty cubits;’ and the king saith, ‘Hang him upon it.’
 <sup>10</sup> And they hang Haman upon the tree that he had prepared for Mordecai, and the fury of the king hath lain down.
+
 ## Chapter 8
 
 <sup>1</sup> On that day hath the king Ahasuerus given to Esther the queen the house of Haman, adversary of the Jews, and Mordecai hath come in before the king, for Esther hath declared what he is to her,
@@ -146,6 +153,7 @@
 <sup>15</sup> And Mordecai went out from before the king, in royal clothing of blue and white, and a great crown of gold, and a garment of fine linen and purple, and the city of Shushan hath rejoiced and been glad;
 <sup>16</sup> to the Jews hath been light, and gladness, and joy, and honour,
 <sup>17</sup> and in every province and province, and in every city and city, the place where the word of the king, even his law, is coming, gladness and joy are to the Jews, a banquet, and a good day; and many of the peoples of the land are becoming Jews, for a fear of the Jews hath fallen upon them.
+
 ## Chapter 9
 
 <sup>1</sup> And in the twelfth month-it is the month of Adar-on the thirteenth day of it, in which the word of the king, even his law, hath come to be done, in the day that the enemies of the Jews had hoped to rule over them, and it is turned that the Jews rule over those hating them-
@@ -180,6 +188,7 @@
 <sup>30</sup> and he sendeth letters unto all the Jews, unto the seven and twenty and a hundred provinces of the kingdom of Ahasuerus-words of peace and truth-
 <sup>31</sup> to establish these days of Purim, in their seasons, as Mordecai the Jew hath established on them, and Esther the queen, and as they had established on themselves, and on their seed-matters of the fastings, and of their cry.
 <sup>32</sup> And a saying of Esther hath established these matters of Purim, and it is written in the Book.
+
 ## Chapter 10
 
 <sup>1</sup> And the king Ahasuerus setteth a tribute on the land and the isles of the sea;

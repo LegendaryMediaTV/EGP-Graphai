@@ -17,6 +17,7 @@
 <sup>15</sup> Each of them with a hook he hath brought up, He doth catch it in his net, and gathereth it in his drag, Therefore he doth joy and rejoice.
 <sup>16</sup> Therefore he doth sacrifice to his net, And doth make perfume to his drag, For by them is his portion fertile, and his food fat.
 <sup>17</sup> Doth he therefore empty his net, And continually to slay nations spare not?
+
 ## Chapter 2
 
 <sup>1</sup> On my charge I stand, and I station myself on a bulwark, and I watch to see what He doth speak against me, and what I do reply to my reproof.
@@ -39,6 +40,7 @@
 <sup>18</sup> What profit hath a graven image given That its former hath graven it? A molten image and teacher of falsehood, That trusted hath the former on his own formation-to make dumb idols?
 <sup>19</sup> Woe to him who is saying to wood, ‘Awake,’ ‘Stir up,’ to a dumb stone, It a teacher! lo, it is overlaid-gold and silver, And there is no spirit in its midst.
 <sup>20</sup> And Jehovah is in His holy temple, Be silent before Him, all the earth!
+
 ## Chapter 3
 
 <sup>1</sup> A prayer of Habakkuk the prophet concerning erring ones:

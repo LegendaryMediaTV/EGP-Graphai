@@ -45,6 +45,7 @@
 <sup>43</sup> And having sternly charged him, immediately he put him forth,
 <sup>44</sup> and saith to him, ‘See thou mayest say nothing to any one, but go away, thyself shew to the priest, and bring near for thy cleansing the things Moses directed, for a testimony to them.’
 <sup>45</sup> And he, having gone forth, began to proclaim much, and to spread abroad the thing, so that no more he was able openly to enter into the city, but he was without in desert places, and they were coming unto him from every quarter.
+
 ## Chapter 2
 
 <sup>1</sup> And again he entered into Capernaum, after some days, and it was heard that he is in the house,
@@ -75,6 +76,7 @@
 <sup>26</sup> how he went into the house of God, (at ‘Abiathar the chief priest?’) and the loaves of the presentation did eat, which it is not lawful to eat, except to the priests, and he gave also to those who were with him?’
 <sup>27</sup> And he said to them, ‘The sabbath for man was made, not man for the sabbath,
 <sup>28</sup> so that the son of man is lord also of the sabbath.’
+
 ## Chapter 3
 
 <sup>1</sup> And he entered again into the synagogue, and there was there a man having the hand withered,
@@ -112,6 +114,7 @@
 <sup>33</sup> And he answered them, saying, ‘Who is my mother, or my brethren?’
 <sup>34</sup> And having looked round in a circle to those sitting about him, he saith, ‘Lo, my mother and my brethren!
 <sup>35</sup> for whoever may do the will of God, he is my brother, and my sister, and mother.’
+
 ## Chapter 4
 
 <sup>1</sup> And again he began to teach by the sea, and there was gathered unto him a great multitude, so that he, having gone into the boat, sat in the sea, and all the multitude was near the sea, on the land,
@@ -155,6 +158,7 @@
 <sup>39</sup> And having waked up, he rebuked the wind, and said to the sea, ‘Peace, be stilled;’ and the wind did lull, and there was a great calm:
 <sup>40</sup> and he said to them, ‘Why are ye so fearful? how have ye not faith?’
 <sup>41</sup> and they feared a great fear, and said one to another, ‘Who, then, is this, that even the wind and the sea do obey him?’
+
 ## Chapter 5
 
 <sup>1</sup> And they came to the other side of the sea, to the region of the Gadarenes,
@@ -200,6 +204,7 @@
 <sup>41</sup> and, having taken the hand of the child, he saith to her, ‘Talitha cumi;’ which is, being interpreted, ‘Damsel (I say to thee), arise.’
 <sup>42</sup> And immediately the damsel arose, and was walking, for she was twelve years old; and they were amazed with a great amazement,
 <sup>43</sup> and he charged them much, that no one may know this thing, and he said that there be given to her to eat.
+
 ## Chapter 6
 
 <sup>1</sup> And he went forth thence, and came to his own country, and his disciples do follow him,
@@ -258,6 +263,7 @@
 <sup>54</sup> and they having come forth out of the boat, immediately having recognised him,
 <sup>55</sup> having run about through all that region round about, they began upon the couches to carry about those ill, where they were hearing that he is,
 <sup>56</sup> and wherever he was going, to villages, or cities, or fields, in the market-places they were laying the infirm, and were calling upon him, that they may touch if it were but the fringe of his garment, and as many as were touching him were saved.
+
 ## Chapter 7
 
 <sup>1</sup> And gathered together unto him are the Pharisees, and certain of the scribes, having come from Jerusalem,
@@ -297,6 +303,7 @@
 <sup>35</sup> and immediately were his ears opened, and the string of his tongue was loosed, and he was speaking plain.
 <sup>36</sup> And he charged them that they may tell no one, but the more he was charging them, the more abundantly they were proclaiming it,
 <sup>37</sup> and they were being beyond measure astonished, saying, ‘Well hath he done all things; both the deaf he doth make to hear, and the dumb to speak.’
+
 ## Chapter 8
 
 <sup>1</sup> In those days the multitude being very great, and not having what they may eat, Jesus having called near his disciples, saith to them,
@@ -337,6 +344,7 @@
 <sup>36</sup> for what shall it profit a man, if he may gain the whole world, and forfeit his life?
 <sup>37</sup> Or what shall a man give as an exchange for his life?
 <sup>38</sup> for whoever may be ashamed of me, and of my words, in this adulterous and sinful generation, the Son of Man also shall be ashamed of him, when he may come in the glory of his Father, with the holy messengers.’
+
 ## Chapter 9
 
 <sup>1</sup> And he said to them, ‘Verily I say to you, That there are certain of those standing here, who may not taste of death till they see the reign of God having come in power.’
@@ -389,6 +397,7 @@
 <sup>48</sup> where their worm is not dying, and the fire is not being quenched;
 <sup>49</sup> for every one with fire shall be salted, and every sacrifice with salt shall be salted.
 <sup>50</sup> The salt is good, but if the salt may become saltless, in what will ye season it? Have in yourselves salt, and have peace in one another.’
+
 ## Chapter 10
 
 <sup>1</sup> And having risen thence, he doth come to the coasts of Judea, through the other side of the Jordan, and again do multitudes come together unto him, and, as he had been accustomed, again he was teaching them.
@@ -443,6 +452,7 @@
 <sup>50</sup> and he, having cast away his garment, having risen, did come unto Jesus.
 <sup>51</sup> And answering, Jesus saith to him, ‘What wilt thou I may do to thee?’ and the blind man said to him, ‘Rabboni, that I may see again;’
 <sup>52</sup> and Jesus said to him, ‘Go, thy faith hath saved thee:’ and immediately he saw again, and was following Jesus in the way.
+
 ## Chapter 11
 
 <sup>1</sup> And when they come nigh to Jerusalem, to Bethphage, and Bethany, unto the mount of the Olives, he sendeth forth two of his disciples,
@@ -478,6 +488,7 @@
 <sup>31</sup> And they were reasoning with themselves, saying, ‘If we may say, From heaven, he will say, Wherefore, then, did ye not believe him?
 <sup>32</sup> But if we may say, From men,’-they were fearing the people, for all were holding John that he was indeed a prophet;
 <sup>33</sup> and answering they say to Jesus, ‘We have not known;’ and Jesus answering saith to them, ‘Neither do I tell you by what authority I do these things.’
+
 ## Chapter 12
 
 <sup>1</sup> And he began to speak to them in similes: ‘A man planted a vineyard, and put a hedge around, and digged an under-wine-vat, and built a tower, and gave it out to husbandmen, and went abroad;
@@ -524,6 +535,7 @@
 <sup>42</sup> and having come, a poor widow did put in two mites, which are a farthing.
 <sup>43</sup> And having called near his disciples, he saith to them, ‘Verily I say to you, that this poor widow hath put in more than all those putting into the treasury;
 <sup>44</sup> for all, out of their abundance, put in, but she, out of her want, all that she had put in-all her living.’
+
 ## Chapter 13
 
 <sup>1</sup> And as he is going forth out of the temple, one of his disciples saith to him, ‘Teacher, see! what stones! and what buildings!’
@@ -563,6 +575,7 @@
 <sup>35</sup> watch ye, therefore, for ye have not known when the lord of the house doth come, at even, or at midnight, or at cock-crowing, or at the morning;
 <sup>36</sup> lest, having come suddenly, he may find you sleeping;
 <sup>37</sup> and what I say to you, I say to all, Watch.’
+
 ## Chapter 14
 
 <sup>1</sup> And the passover and the unleavened food were after two days, and the chief priests and the scribes were seeking how, by guile, having taken hold of him, they might kill him;
@@ -637,6 +650,7 @@
 <sup>70</sup> and he was again denying. And after a little again, those standing near said to Peter, ‘Truly thou art of them, for thou also art a Galilean, and thy speech is alike;’
 <sup>71</sup> and he began to anathematize, and to swear-‘I have not known this man of whom ye speak;’
 <sup>72</sup> and a second time a cock crew, and Peter remembered the saying that Jesus said to him-‘Before a cock crow twice, thou mayest deny me thrice;’ and having thought thereon-he was weeping.
+
 ## Chapter 15
 
 <sup>1</sup> And immediately, in the morning, the chief priests having made a consultation, with the elders, and scribes, and the whole sanhedrim, having bound Jesus, did lead away, and delivered him to Pilate;
@@ -686,6 +700,7 @@
 <sup>45</sup> and having known it from the centurion, he granted the body to Joseph.
 <sup>46</sup> And he, having brought fine linen, and having taken him down, wrapped him in the linen, and laid him in a sepulchre that had been hewn out of a rock, and he rolled a stone unto the door of the sepulchre,
 <sup>47</sup> and Mary the Magdalene, and Mary of Joses, were beholding where he is laid.
+
 ## Chapter 16
 
 <sup>1</sup> And the sabbath having past, Mary the Magdalene, and Mary of James, and Salome, bought spices, that having come, they may anoint him,

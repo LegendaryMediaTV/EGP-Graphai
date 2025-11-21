@@ -15,6 +15,7 @@
 <sup>13</sup> Thus said Jehovah: For three transgressions of the sons of Ammon, And for four, I do not reverse it, Because of their ripping up the pregnant ones of Gilead, To enlarge their border,
 <sup>14</sup> And I have kindled a fire against the wall of Rabbah, And it hath consumed her palaces, With a shout in a day of battle, With a whirlwind in a day of hurricane,
 <sup>15</sup> And gone hath their king in a removal, He and his heads together, said Jehovah!
+
 ## Chapter 2
 
 <sup>1</sup> Thus said Jehovah: For three transgressions of Moab, And for four, I do not reverse it, Because of his burning the bones of the king of Edom to lime,
@@ -33,6 +34,7 @@
 <sup>14</sup> And perished hath refuge from the swift, And the strong strengtheneth not his power, And the mighty delivereth not his soul.
 <sup>15</sup> And the handler of the bow standeth not, And the swift with his feet delivereth not himself, And the rider of the horse delivereth not his soul.
 <sup>16</sup> And the courageous of heart among the mighty, Naked doth flee in that day, An affirmation of Jehovah!
+
 ## Chapter 3
 
 <sup>1</sup> Hear ye this word that Jehovah hath spoken concerning you, O sons of Israel, concerning all the family that I brought up from the land of Egypt, saying:
@@ -50,6 +52,7 @@
 <sup>13</sup> Hear ye and testify to the house of Jacob, An affirmation of the Lord Jehovah, God of Hosts.
 <sup>14</sup> For in the day of My charging the transgressions of Israel on him, I have laid a charge on the altars of Beth-El, And cut off have been the horns of the altar, And they have fallen to the earth.
 <sup>15</sup> And I have smitten the winter-house with the summer-house, And perished have houses of ivory, And consumed have been many houses, An affirmation of Jehovah!
+
 ## Chapter 4
 
 <sup>1</sup> Hear this word, ye kine of Bashan, Who are in the mountain of Samaria, Who are oppressing the poor, Who are bruising the needy, Who are saying to their lords: ‘Bring in, and we do drink.’
@@ -65,6 +68,7 @@
 <sup>11</sup> I have overturned among you, Like the overturn by God of Sodom and Gomorrah, And ye are as a brand delivered from a burning, And ye have not turned back unto Me, An affirmation of Jehovah.
 <sup>12</sup> Therefore, thus I do to thee, O Israel, at last, Because this I do to thee, Prepare to meet thy God, O Israel.
 <sup>13</sup> For, lo, the former of mountains, and creator of wind, And the declarer to man what is His thought, He is making dawn obscurity, And is treading on high places of earth, Jehovah, God of Hosts, is His name!
+
 ## Chapter 5
 
 <sup>1</sup> Hear this word that I am bearing to you, A lamentation, O house of Israel:
@@ -94,6 +98,7 @@
 <sup>25</sup> Sacrifices and offering did ye bring nigh to Me, In a wilderness forty years, O house of Israel?
 <sup>26</sup> And ye bare Succoth your king, and Chiun your images, The star of your god, that ye made for yourselves.
 <sup>27</sup> And I removed you beyond Damascus, Said Jehovah, God of Hosts is His name.
+
 ## Chapter 6
 
 <sup>1</sup> Woe to those secure in Zion, And those confident in the mount of Samaria, The marked of the chief of the nations, And come to them have the house of Israel.
@@ -110,6 +115,7 @@
 <sup>12</sup> Do horses run on a rock? Doth one plough it with oxen? For ye have turned to gall judgment, And the fruit of righteousness to wormwood.
 <sup>13</sup> O ye who are rejoicing at nothing, Who are saying, ‘Have we not by our strength taken to ourselves horns?’
 <sup>14</sup> Surely, lo, I am raising against you a nation, O house of Israel, An affirmation of Jehovah, God of Hosts, And they have oppressed you from the coming in to Hamath, Unto the stream of the desert.
+
 ## Chapter 7
 
 <sup>1</sup> Thus hath the Lord Jehovah shewed me, and lo, He is forming locusts at the beginning of the ascending of the latter growth, and lo, the latter growth is after the mowings of the king;
@@ -129,6 +135,7 @@
 <sup>15</sup> and Jehovah taketh me from after the flock, and Jehovah saith unto me, Go, prophesy unto My people Israel.
 <sup>16</sup> And now, hear a word of Jehovah: thou art saying, Do not prophesy against Israel, nor drop any thing against the house of Isaac,
 <sup>17</sup> therefore thus said Jehovah: Thy wife in the city doth go a-whoring, And thy sons and thy daughters by sword do fall, And thy land by line is apportioned, And thou on an unclean land diest, And Israel certainly removeth from off its land.’
+
 ## Chapter 8
 
 <sup>1</sup> Thus hath the Lord Jehovah shewed me, and, lo, a basket of summer-fruit.
@@ -145,6 +152,7 @@
 <sup>12</sup> And they have wandered from sea unto sea, And from north even unto east, They go to and fro to seek the word of Jehovah, And they do not find.
 <sup>13</sup> In that day faint do the fair virgins, And the young men, with thirst.
 <sup>14</sup> Those swearing by the guilt of Samaria, And have said, Live doth thy god, O Dan, And, Live doth the way of Beer-Sheba, And they have fallen-and rise not again!’
+
 ## Chapter 9
 
 <sup>1</sup> I have seen the Lord standing by the altar, and He saith: ‘Smite the knob, and the thresholds shake, And cut them off by the head-all of them, And their posterity with a sword I do slay, Not flee to them doth the fleer, Nor escape to them doth a fugitive.

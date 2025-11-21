@@ -17,6 +17,7 @@
 <sup>15</sup> and the priest hath brought it near unto the altar, and hath wrung off its head, and hath made perfume on the altar, and its blood hath been wrung out by the side of the altar;
 <sup>16</sup> and he hath turned aside its crop with its feathers, and hath cast it near the altar, eastward, unto the place of ashes;
 <sup>17</sup> and he hath cleaved it with its wings (he doth not separate it), and the priest hath made it a perfume on the altar, on the wood, which is on the fire; it is a burnt-offering, a fire-offering of sweet fragrance to Jehovah.
+
 ## Chapter 2
 
 <sup>1</sup> ‘And when a person bringeth near an offering, a present to Jehovah, of flour is his offering, and he hath poured on it oil, and hath put on it frankincense;
@@ -35,6 +36,7 @@
 <sup>14</sup> ‘And if thou bring near a present of first-ripe fruits to Jehovah,-of green ears, roasted with fire, beaten out corn of a fruitful field thou dost bring near the present of thy first-ripe fruits,
 <sup>15</sup> and thou hast put on it oil, and laid on it frankincense, it is a present;
 <sup>16</sup> and the priest hath made perfume with its memorial from its beaten out corn, and from its oil, besides all its frankincense-a fire-offering to Jehovah.
+
 ## Chapter 3
 
 <sup>1</sup> ‘And if his offering is a sacrifice of peace-offerings, if out of the herd he is bringing near, whether male or female, a perfect one he doth bring near before Jehovah,
@@ -54,6 +56,7 @@
 <sup>15</sup> and the two kidneys, and the fat which is upon them, which is on the flanks, and the redundance above the liver, (beside the kidneys he doth turn it aside),
 <sup>16</sup> and the priest hath made them a perfume on the altar-bread of a fire-offering, for sweet fragrance; all the fat is Jehovah’s.
 <sup>17</sup> ‘A statute age-during to your generations in all your dwellings: any fat or any blood ye do not eat.’
+
 ## Chapter 4
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -91,6 +94,7 @@
 <sup>33</sup> and he hath laid his hand on the head of the sin-offering, and hath slaughtered it for a sin-offering in the place where he slaughtereth the burnt-offering.
 <sup>34</sup> ‘And the priest hath taken of the blood of the sin-offering with his finger, and hath put on the horns of the altar of the burnt-offering, and all its blood he poureth out at the foundation of the altar,
 <sup>35</sup> and all its fat he turneth aside, as the fat of the sheep is turned aside from the sacrifice of the peace-offerings, and the priest hath made them a perfume on the altar, according to the fire-offerings of Jehovah, and the priest hath made atonement for him, for his sin which he hath sinned, and it hath been forgiven him.
+
 ## Chapter 5
 
 <sup>1</sup> ‘And when a person doth sin, and hath heard the voice of an oath, and he is witness, or hath seen, or hath known-if he declare not, then he hath borne his iniquity:
@@ -112,6 +116,7 @@
 <sup>17</sup> ‘And when any person sinneth, and hath done something against one of all the commands of Jehovah regarding things which are not to be done, and hath not known, and he hath been guilty, and hath borne his iniquity,
 <sup>18</sup> ‘Then he hath brought in a ram, a perfect one, out of the flock, at thy valuation, for a guilt-offering, unto the priest; and the priest hath made atonement for him, for his ignorance in which he hath erred and he hath not known, and it hath been forgiven him;
 <sup>19</sup> it is a guilt-offering; he hath been certainly guilty before Jehovah.’
+
 ## Chapter 6
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -144,6 +149,7 @@
 <sup>28</sup> and an earthen vessel in which it is boiled is broken, and if in a brass vessel it is boiled, then it is scoured and rinsed with water.
 <sup>29</sup> ‘Every male among the priests doth eat it-it is most holy;
 <sup>30</sup> and no sin-offering, any of whose blood is brought in unto the tent of meeting to make atonement in the sanctuary is eaten; with fire it is burnt.
+
 ## Chapter 7
 
 <sup>1</sup> ‘And this is a law of the guilt-offering: it is most holy;
@@ -184,6 +190,7 @@
 <sup>36</sup> which Jehovah hath commanded to give to them in the day of His anointing them, from the sons of Israel-a statute age-during to their generations.
 <sup>37</sup> This is the law for burnt-offering, for present, and for sin-offering, and for guilt-offering, and for consecrations, and for a sacrifice of the peace-offerings,
 <sup>38</sup> which Jehovah hath commanded Moses in Mount Sinai, in the day of his commanding the sons of Israel to bring near their offerings to Jehovah, in the wilderness of Sinai.
+
 ## Chapter 8
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -222,6 +229,7 @@
 <sup>34</sup> as he hath done on this day, Jehovah hath commanded to do, to make atonement for you;
 <sup>35</sup> and at the opening of the tent of meeting ye abide, by day and by night seven days, and ye have kept the charge of Jehovah, and die not, for so I have been commanded.’
 <sup>36</sup> And Aaron doth-his sons also-all the things which Jehovah hath commanded by the hand of Moses.
+
 ## Chapter 9
 
 <sup>1</sup> And it cometh to pass on the eighth day, Moses hath called for Aaron and for his sons, and for the elders of Israel,
@@ -248,6 +256,7 @@
 <sup>22</sup> And Aaron lifteth up his hand towards the people, and blesseth them, and cometh down from making the sin-offering, and the burnt-offering, and the peace-offerings.
 <sup>23</sup> And Moses goeth in-Aaron also-unto the tent of meeting, and they come out, and bless the people, and the honour of Jehovah appeareth unto all the people;
 <sup>24</sup> and fire cometh out from before Jehovah, and consumeth on the altar the burnt-offering, and the fat; and all the people see, and cry aloud, and fall on their faces.
+
 ## Chapter 10
 
 <sup>1</sup> And the sons of Aaron, Nadab and Abihu, take each his censer, and put in them fire, and put on it perfume, and bring near before Jehovah strange fire, which He hath not commanded them;
@@ -270,6 +279,7 @@
 <sup>18</sup> lo, its blood hath not been brought in unto the holy place within; eating ye do eat it in the holy place, as I have commanded.’
 <sup>19</sup> And Aaron speaketh unto Moses, ‘Lo, to-day they have brought near their sin-offering and their burnt-offering before Jehovah; and things like these meet me, yet I have eaten a sin-offering to-day; is it good in the eyes of Jehovah?’
 <sup>20</sup> And Moses hearkeneth, and it is good in his eyes.
+
 ## Chapter 11
 
 <sup>1</sup> And Jehovah speaketh unto Moses and unto Aaron, saying unto them,
@@ -319,6 +329,7 @@
 <sup>45</sup> for I am Jehovah who am bringing you up out of the land of Egypt to become your God; and ye have been holy, for I am holy.
 <sup>46</sup> ‘This is a law of the beasts, and of the fowl, and of every living creature which is moving in the waters, and of every creature which is teeming on the earth,
 <sup>47</sup> to make separation between the unclean and the pure, and between the beast that is eaten, and the beast that is not eaten.’
+
 ## Chapter 12
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -329,6 +340,7 @@
 <sup>6</sup> ‘And in the fulness of the days of her cleansing for son or for daughter she doth bring in a lamb, a son of a year, for a burnt-offering, and a young pigeon or a turtle-dove for a sin-offering, unto the opening of the tent of meeting, unto the priest;
 <sup>7</sup> and he hath brought it near before Jehovah, and hath made atonement for her, and she hath been cleansed from the fountain of her blood; this is the law of her who is bearing, in regard to a male or to a female.
 <sup>8</sup> ‘And if her hand find not the sufficiency of a sheep, then she hath taken two turtle-doves, or two young pigeons, one for a burnt-offering, and one for a sin-offering, and the priest hath made atonement for her, and she hath been cleansed.’
+
 ## Chapter 13
 
 <sup>1</sup> And Jehovah speaketh unto Moses, and unto Aaron, saying,
@@ -390,6 +402,7 @@
 <sup>57</sup> and if it still be seen in the garment, or in the warp, or in the woof, or in any vessel of skin, it is a fretting; with fire thou dost burn it-that in which the plague is.
 <sup>58</sup> ‘And the garment, or the warp, or the woof, or any vessel of skin which thou dost wash when the plague hath turned aside from them, then it hath been washed a second time, and hath been clean.
 <sup>59</sup> ‘This is the law of a plague of leprosy in a garment of wool or of linen, or of the warp or of the woof, or of any vessel of skin, to pronounce it clean or to pronounce it unclean.’
+
 ## Chapter 14
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -449,6 +462,7 @@
 <sup>55</sup> and for leprosy of a garment, and of a house,
 <sup>56</sup> and for a rising, and for a scab, and for a bright spot,-
 <sup>57</sup> to direct in the day of being unclean, and in the day of being clean; this is the law of the leprosy.’
+
 ## Chapter 15
 
 <sup>1</sup> And Jehovah speaketh unto Moses, and unto Aaron, saying,
@@ -484,6 +498,7 @@
 <sup>31</sup> ‘And ye have separated the sons of Israel from their uncleanness, and they die not in their uncleanness, in their defiling My tabernacle which is in their midst.
 <sup>32</sup> ‘This is the law of him who hath an issue, and of him whose seed of copulation goeth out from him, for uncleanness thereby,
 <sup>33</sup> and of her who is sick in her separation, and of him who hath an issue, the issue of a male or of a female, and of a man who lieth with an unclean woman.’
+
 ## Chapter 16
 
 <sup>1</sup> And Jehovah speaketh unto Moses, after the death of the two sons of Aaron, in their drawing near before Jehovah, and they die;
@@ -520,6 +535,7 @@
 <sup>32</sup> ‘And the priest whom he doth anoint, and whose hand he doth consecrate to act as priest instead of his father, hath made atonement, and hath put on the linen garments, the holy garments;
 <sup>33</sup> and he hath made atonement for the holy sanctuary; and for the tent of meeting, even for the altar he doth make atonement; yea, for the priests, and for all the people of the assembly he maketh atonement.
 <sup>34</sup> ‘And this hath been to you for a statute age-during, to make atonement for the sons of Israel, because of all their sins, once in a year;’ and he doth as Jehovah hath commanded Moses.
+
 ## Chapter 17
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -538,6 +554,7 @@
 <sup>14</sup> for it is the life of all flesh, its blood is for its life; and I say to the sons of Israel, Blood of any flesh ye do not eat, for the life of all flesh is its blood; any one eating it is cut off.
 <sup>15</sup> ‘And any person who eateth a carcase or torn thing, among natives or among sojourners-hath both washed his garments, and hath bathed with water, and hath been unclean until the evening-then he hath been clean;
 <sup>16</sup> and if he wash not, and his flesh bathe not-then he hath borne his iniquity.’
+
 ## Chapter 18
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -570,6 +587,7 @@
 <sup>28</sup> and the land doth not vomit you out in your defiling it, as it hath vomited out the nation which is before you;
 <sup>29</sup> for any one who doth any of all these abominations-even the persons who are doing so, have been cut off from the midst of their people;
 <sup>30</sup> and ye have kept My charge, so as not to do any of the abominable statutes which have been done before you, and ye do not defile yourselves with them; I am Jehovah your God.’
+
 ## Chapter 19
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -609,6 +627,7 @@
 <sup>35</sup> ‘Ye do not do perversity in judgment, in mete-yard, in weight, or in liquid measure;
 <sup>36</sup> righteous balances, righteous weights, a righteous ephah, and a righteous hin ye have; I am Jehovah your God, who hath brought you out from the land of Egypt;
 <sup>37</sup> and ye have observed all my statutes, and all my judgments, and have done them; I am Jehovah.’
+
 ## Chapter 20
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -638,6 +657,7 @@
 <sup>25</sup> ‘And ye have made separation between the pure beasts and the unclean, and between the unclean fowl and the pure, and ye do not make yourselves abominable by beast or by fowl, or by anything which creepeth on the ground which I have separated to you for unclean;
 <sup>26</sup> and ye have been holy to Me; for holy am I, Jehovah; and I separate you from the peoples to become Mine.
 <sup>27</sup> ‘And a man or woman-when there is in them a familiar spirit, or who are wizards-are certainly put to death; with stones they stone them; their blood is on them.’
+
 ## Chapter 21
 
 <sup>1</sup> And Jehovah saith unto Moses, ‘Speak unto the priests, sons of Aaron, and thou hast said unto them, For any person a priest is not defiled among his people,
@@ -664,6 +684,7 @@
 <sup>22</sup> ‘Bread of his God-of the most holy things, and of the holy things-he doth eat;
 <sup>23</sup> only, unto the vail he doth not enter, and unto the altar he doth not draw nigh; for blemish is in him; and he doth not pollute My sanctuaries; for I am Jehovah, sanctifying them.’
 <sup>24</sup> And Moses speaketh unto Aaron, and unto his sons, and unto all the sons of Israel.
+
 ## Chapter 22
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -699,6 +720,7 @@
 <sup>31</sup> and ye have kept my commands, and have done them; I am Jehovah;
 <sup>32</sup> and ye do not pollute My holy name, and I have been hallowed in the midst of the sons of Israel; I am Jehovah, sanctifying you,
 <sup>33</sup> who am bringing you up out of the land of Egypt, to become your God; I am Jehovah.’
+
 ## Chapter 23
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -745,6 +767,7 @@
 <sup>42</sup> ‘In booths ye dwell seven days; all who are natives in Israel dwell in booths,
 <sup>43</sup> so that your generations do know that in booths I caused the sons of Israel to dwell; in my bringing them out of the land of Egypt; I, Jehovah, am your God.’
 <sup>44</sup> And Moses speaketh concerning the appointed seasons of Jehovah unto the sons of Israel.
+
 ## Chapter 24
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -770,6 +793,7 @@
 <sup>21</sup> ‘And he who smiteth a beast repayeth it, and he who smiteth the life of man is put to death;
 <sup>22</sup> one judgment is to you; as a sojourner so is a native; for I am Jehovah your God.’
 <sup>23</sup> And Moses speaketh unto the sons of Israel, and they bring out the reviler unto the outside of the camp, and stone him with stones; and the sons of Israel have done as Jehovah hath commanded Moses.
+
 ## Chapter 25
 
 <sup>1</sup> And Jehovah speaketh unto Moses, in mount Sinai, saying,
@@ -827,6 +851,7 @@
 <sup>53</sup> as an hireling, year by year, he is with him, and he doth not rule him with rigour before thine eyes.
 <sup>54</sup> ‘And if he is not redeemed in these years, then he hath gone out in the year of jubilee, he and his sons with him.
 <sup>55</sup> For to Me are the sons of Israel servants; My servants they are, whom I have brought out of the land of Egypt; I, Jehovah, am your God.
+
 ## Chapter 26
 
 <sup>1</sup> ‘Ye do not make to yourselves idols; and graven image or standing image ye do not set up to yourselves; and a stone of imagery ye do not put in your land, to bow yourselves to it; for I am Jehovah your God.
@@ -875,6 +900,7 @@
 <sup>44</sup> and also even this, in their being in the land of their enemies, I have not rejected them, nor have I loathed them, to consume them, to break My covenant with them; for I am Jehovah their God;-
 <sup>45</sup> then I have remembered for them the covenant of the ancestors, whom I brought forth out of the land of Egypt before the eyes of the nations to become their God; I am Jehovah.’
 <sup>46</sup> These are the statutes, and the judgments, and the laws, which Jehovah hath given between Him and the sons of Israel, in mount Sinai, by the hand of Moses.
+
 ## Chapter 27
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,

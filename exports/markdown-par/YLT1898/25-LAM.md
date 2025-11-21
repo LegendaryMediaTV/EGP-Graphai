@@ -22,6 +22,7 @@
 <sup>20</sup> See, O Jehovah, for distress is to me, My bowels have been troubled, Turned hath been my heart in my midst, For I have greatly provoked, From without bereaved hath the sword, In the house it is as death.
 <sup>21</sup> They have heard that I have sighed, There is no comforter for me, All my enemies have heard of my calamity, They have rejoiced that Thou hast done it, Thou hast brought in the day Thou hast called, And they are like to me.
 <sup>22</sup> Come in doth all their evil before Thee, And one is doing to them as Thou hast done to me, For all my transgressions, For many are my sighs, and my heart is sick!
+
 ## Chapter 2
 
 <sup>1</sup> How doth the Lord cloud in His anger the daughter of Zion, He hath cast from heaven to earth the beauty of Israel, And hath not remembered His footstool in the day of His anger.
@@ -46,6 +47,7 @@
 <sup>20</sup> See, O Jehovah, and look attentively, To whom Thou hast acted thus, Do women eat their fruit, infants of a handbreadth? Slain in the sanctuary of the Lord are priest and prophet?
 <sup>21</sup> Lain on the earth in out-places have young and old, My virgins and my young men have fallen by the sword, Thou hast slain in a day of Thine anger, Thou hast slaughtered-Thou hast not pitied.
 <sup>22</sup> Thou dost call as at a day of appointment, My fears from round about, And there hath not been in the day of the anger of Jehovah, An escaped and remaining one, They whom I stretched out and nourished, My enemy hath consumed!
+
 ## Chapter 3
 
 <sup>1</sup> I am the man who hath seen affliction By the rod of His wrath.
@@ -114,6 +116,7 @@
 <sup>64</sup> Thou returnest to them the deed, O Jehovah, According to the work of their hands.
 <sup>65</sup> Thou givest to them a covered heart, Thy curse to them.
 <sup>66</sup> Thou pursuest in anger, and destroyest them, From under the heavens of Jehovah!
+
 ## Chapter 4
 
 <sup>1</sup> How is the gold become dim, Changed the best-the pure gold? Poured out are stones of the sanctuary At the head of all out-places.
@@ -138,6 +141,7 @@
 <sup>20</sup> The breath of our nostrils-the anointed of Jehovah, Hath been captured in their pits, of whom we said: ‘In his shadow we do live among nations.’
 <sup>21</sup> Joy and rejoice, O daughter of Edom, Dwelling in the land of Uz, Even unto thee pass over doth a cup, Thou art drunk, and makest thyself naked.
 <sup>22</sup> Completed is thy iniquity, daughter of Zion, He doth not add to remove thee, He hath inspected thy iniquity, O daughter of Edom, He hath removed thee because of thy sins!
+
 ## Chapter 5
 
 <sup>1</sup> Remember, O Jehovah, what hath befallen us, Look attentively, and see our reproach.

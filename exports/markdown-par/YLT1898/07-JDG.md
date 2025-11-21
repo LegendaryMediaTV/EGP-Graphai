@@ -36,6 +36,7 @@
 <sup>34</sup> And the Amorites press the sons of Dan to the mountain, for they have not suffered them to go down to the valley;
 <sup>35</sup> and the Amorite is desirous to dwell in mount Heres, in Aijalon, and in Shaalbim, and the hand of the house of Joseph is heavy, and they become tributary;
 <sup>36</sup> and the border of the Amorite is from the ascent of Akrabbim, from the rock and upward.
+
 ## Chapter 2
 
 <sup>1</sup> And a messenger of Jehovah goeth up from Gilgal unto Bochim,
@@ -61,6 +62,7 @@
 <sup>21</sup> I also continue not to dispossess any from before them of the nations which Joshua hath left when he dieth,
 <sup>22</sup> in order to try Israel by them, whether they are keeping the way of Jehovah, to go in it, as their fathers kept it or not.’
 <sup>23</sup> And Jehovah leaveth these nations, so as not to dispossess them hastily, and did not give them into the hand of Joshua.
+
 ## Chapter 3
 
 <sup>1</sup> And these are the nations which Jehovah left, to try Israel by them, all who have not known all the wars of Canaan;
@@ -94,6 +96,7 @@
 <sup>29</sup> And they smite Moab at that time, about ten thousand men, all robust, and every one a man of valour, and not a man hath escaped,
 <sup>30</sup> and Moab is humbled in that day under the hand of Israel; and the land resteth eighty years.
 <sup>31</sup> And after him hath been Shamgar son of Anath, and he smiteth the Philistines-six hundred men-with an ox-goad, and he saveth-he also-Israel.
+
 ## Chapter 4
 
 <sup>1</sup> And the sons of Israel add to do the evil thing in the eyes of Jehovah when Ehud is dead,
@@ -120,6 +123,7 @@
 <sup>22</sup> And lo, Barak is pursuing Sisera, and Jael cometh out to meet him, and saith to him, ‘Come, and I shew thee the man whom thou art seeking;’ and he cometh in unto her, and lo, Sisera is fallen-dead, and the pin in his temples.
 <sup>23</sup> And God humbleth on that day Jabin king of Canaan before the sons of Israel,
 <sup>24</sup> and the hand of the sons of Israel goeth, going on and becoming hard on Jabin king of Canaan, till that they have cut off Jabin king of Canaan.
+
 ## Chapter 5
 
 <sup>1</sup> And Deborah singeth-also Barak son of Abinoam-on that day, saying:-
@@ -153,6 +157,7 @@
 <sup>29</sup> The wise ones, her princesses, answer her, Yea, she returneth her sayings to herself:
 <sup>30</sup> Do they not find?-they apportion spoil, A female-two females-for every head, Spoil of finger-work for Sisera, Spoil of embroidered finger-work, Finger-work-a pair of embroidered things, For the necks of the spoil!
 <sup>31</sup> So do all Thine enemies perish, O Jehovah, And those loving Him are As the going out of the sun in its might!’ and the land resteth forty years.
+
 ## Chapter 6
 
 <sup>1</sup> And the sons of Israel do the evil thing in the eyes of Jehovah, and Jehovah giveth them into the hand of Midian seven years,
@@ -195,6 +200,7 @@
 <sup>38</sup> and it is so, and he riseth early on the morrow, and presseth the fleece, and wringeth dew out of the fleece-the fulness of the bowl, of water.
 <sup>39</sup> And Gideon saith unto God, ‘Let not Thine anger burn against me, and I speak only this time; let me try, I pray Thee, only this time with the fleece-let there be, I pray Thee, drought on the fleece alone, and on all the earth let there be dew.’
 <sup>40</sup> And God doth so on that night, and there is drought on the fleece alone, and on all the earth there hath been dew.
+
 ## Chapter 7
 
 <sup>1</sup> And Jerubbaal (he is Gideon) riseth early, and all the people who are with him, and they encamp by the well of Harod, and the camp of Midian hath been on the south of him, on the height of Moreh, in the valley.
@@ -222,6 +228,7 @@
 <sup>23</sup> And the men of Israel are called from Naphtali, and from Asher, and from all Manasseh, and pursue after Midian.
 <sup>24</sup> And messengers hath sent Gideon into all the hill-country of Ephraim, saying, ‘Come down to meet Midian, and capture before them the waters unto Beth-Barah, and the Jordan;’ and every man of Ephraim is called, and they capture the waters unto Beth-Barah, and the Jordan,
 <sup>25</sup> and they capture two of the heads of Midian, Oreb, and Zeeb, and slay Oreb at the rock of Oreb, and Zeeb they have slain at the wine-vat of Zeeb, and they pursue unto Midian; and the heads of Oreb and Zeeb they have brought in unto Gideon beyond the Jordan.
+
 ## Chapter 8
 
 <sup>1</sup> And the men of Ephraim say unto him, ‘What is this thing thou hast done to us-not to call for us when thou didst go to fight with Midian?’ and they strive with him severely;
@@ -259,6 +266,7 @@
 <sup>33</sup> And it cometh to pass, when Gideon is dead, that the sons of Israel turn back and go a-whoring after the Baalim, and set over them Baal-Berith for a god;
 <sup>34</sup> and the sons of Israel have not remembered Jehovah their God, who is delivering them out of the hand of all their enemies round about,
 <sup>35</sup> neither have they done kindness with the house of Jerubbaal-Gideon-according to all the good which he did with Israel.
+
 ## Chapter 9
 
 <sup>1</sup> And Abimelech son of Jerubbaal goeth to Shechem, unto his mother’s brethren, and speaketh unto them, and unto all the family of the house of his mother’s father, saying,
@@ -318,6 +326,7 @@
 <sup>55</sup> And the men of Israel see that Abimelech is dead, and go each one to his place;
 <sup>56</sup> and God turneth back the evil of Abimelech which he did to his father to slay his seventy brethren;
 <sup>57</sup> and all the evil of the men of Shechem hath God turned back on their head, and come unto them doth the cursing of Jotham son of Jerubbaal.
+
 ## Chapter 10
 
 <sup>1</sup> And there riseth after Abimelech, to save Israel, Tola son of Puah, son of Dodo, a man of Issachar, and he is dwelling in Shamir, in the hill-country of Ephraim,
@@ -338,6 +347,7 @@
 <sup>16</sup> And they turn aside the gods of the stranger out of their midst, and serve Jehovah, and His soul is grieved with the misery of Israel.
 <sup>17</sup> And the Bene-Ammon are called together, and encamp in Gilead, and the sons of Israel are gathered together, and encamp in Mizpah.
 <sup>18</sup> And the people-heads of Gilead-say one unto another, ‘Who is the man that doth begin to fight against the Bene-Ammon? he is for head to all inhabitants of Gilead.’
+
 ## Chapter 11
 
 <sup>1</sup> And Jephthah the Gileadite hath been a mighty man of valour, and he is son of a woman, a harlot; and Gilead begetteth Jephthah,
@@ -380,6 +390,7 @@
 <sup>38</sup> And he saith, ‘Go;’ and he sendeth her away two months, and she goeth, she and her friends, and she weepeth for her virginity on the hills;
 <sup>39</sup> and it cometh to pass at the end of two months that she turneth back unto her father, and he doth to her his vow which he hath vowed, and she knew not a man; and it is a statute in Israel:
 <sup>40</sup> from time to time the daughters of Israel go to talk to the daughter of Jephthah the Gileadite, four days in a year.
+
 ## Chapter 12
 
 <sup>1</sup> And the men of Ephraim are called together, and pass over northward, and say to Jephthah, ‘Wherefore has thou passed over to fight against the Bene-Ammon, and on us hast not called to go with thee? thy house we burn over thee with fire.’
@@ -397,6 +408,7 @@
 <sup>13</sup> And after him, Abdon son of Hillel, the Pirathonite, judgeth Israel,
 <sup>14</sup> and he hath forty sons, and thirty grandsons, riding on seventy ass-colts, and he judgeth Israel eight years.
 <sup>15</sup> And Abdon son of Hillel, the Pirathonite, dieth, and is buried in Pirathon, in the land of Ephraim, in the hill-country of the Amalekite.
+
 ## Chapter 13
 
 <sup>1</sup> And the sons of Israel add to do the evil thing in the eyes of Jehovah, and Jehovah giveth them into the hand of the Philistines forty years.
@@ -424,6 +436,7 @@
 <sup>23</sup> And his wife saith to him, ‘If Jehovah were desirous to put us to death, He had not received from our hands burnt-offering and present, nor shewed us all these things, nor as at this time caused us to hear anything like this.’
 <sup>24</sup> And the woman beareth a son, and calleth his name Samson, and the youth groweth, and Jehovah doth bless him,
 <sup>25</sup> and the Spirit of Jehovah beginneth to move him in the camp of Dan, between Zorah and Eshtaol.
+
 ## Chapter 14
 
 <sup>1</sup> And Samson goeth down to Timnath, and seeth a woman in Timnath of the daughters of the Philistines,
@@ -446,6 +459,7 @@
 <sup>18</sup> And the men of the city say to him on the seventh day, before the sun goeth in:- ‘What is sweeter than honey? And what stronger than a lion?’ And he saith to them: ‘Unless ye had ploughed with my heifer, Ye had not found out my riddle.’
 <sup>19</sup> And the Spirit of Jehovah prospereth over him, and he goeth down to Ashkelon, and smiteth of them thirty men, and taketh their armour, and giveth the changes to those declaring the riddle; and his anger burneth, and he goeth up to the house of his father;
 <sup>20</sup> and Samson’s wife becometh his companion’s, who is his friend.
+
 ## Chapter 15
 
 <sup>1</sup> And it cometh to pass, after some days, in the days of wheat-harvest, that Samson looketh after his wife, with a kid of the goats, and saith, ‘I go in unto my wife, to the inner chamber;’ and her father hath not permitted him to go in,
@@ -468,6 +482,7 @@
 <sup>18</sup> and he thirsteth exceedingly, and calleth unto Jehovah, and saith, ‘Thou-Thou hast given by the hand of Thy servant this great salvation; and now, I die with thirst, and have fallen into the hand of the uncircumcised.’
 <sup>19</sup> And God cleaveth the hollow place which is in Lehi, and waters come out of it, and he drinketh, and his spirit cometh back, and he reviveth; therefore hath one called its name ‘The fountain of him who is calling,’ which is in Lehi unto this day.
 <sup>20</sup> And he judgeth Israel in the days of the Philistines twenty years.
+
 ## Chapter 16
 
 <sup>1</sup> And Samson goeth to Gaza, and seeth there a woman, a harlot, and goeth in unto her;
@@ -501,6 +516,7 @@
 <sup>29</sup> And Samson turneth aside to the two middle pillars, on which the house is established, and on which it is supported, to the one with his right hand, and one with his left;
 <sup>30</sup> and Samson saith, ‘Let me die with the Philistines,’ and he inclineth himself powerfully, and the house falleth on the princes, and on all the people who are in it, and the dead whom he hath put to death in his death are more than those whom he put to death in his life.
 <sup>31</sup> And his brethren come down, and all the house of his father, and lift him up, and bring him up, and bury him between Zorah and Eshtaol, in the burying-place of Manoah his father; and he hath judged Israel twenty years.
+
 ## Chapter 17
 
 <sup>1</sup> And there is a man of the hill-country of Ephraim, and his name is Micah,
@@ -516,6 +532,7 @@
 <sup>11</sup> And the Levite is willing to dwell with the man, and the young man is to him as one of his sons.
 <sup>12</sup> And Micah consecrateth the hand of the Levite, and the young man is to him for a priest, and he is in the house of Micah,
 <sup>13</sup> and Micah saith, ‘Now I have known that Jehovah doth good to me, for the Levite hath been to me for a priest.’
+
 ## Chapter 18
 
 <sup>1</sup> In those days there is no king in Israel, and in those days the tribe of the Danite is seeking for itself an inheritance to inhabit, for that hath not fallen to it unto that day in the midst of the tribes of Israel by inheritance.
@@ -549,6 +566,7 @@
 <sup>29</sup> and call the name of the city Dan, by the name of Dan their father, who was born to Israel; and yet Laish is the name of the city at the first.
 <sup>30</sup> And the sons of Dan raise up for themselves the graven image, and Jonathan son of Gershom, son of Manasseh, he and his sons have been priests to the tribe of the Danite, till the day of the removal of the people of the land.
 <sup>31</sup> And they appoint for them the graven image of Micah, which he had made, all the days of the house of God being in Shiloh.
+
 ## Chapter 19
 
 <sup>1</sup> And it cometh to pass, in those days, when there is no king in Israel, that there is a man a Levite, a sojourner in the sides of the hill-country of Ephraim, and he taketh to him a wife, a concubine, out of Beth-Lehem-Judah;
@@ -581,6 +599,7 @@
 <sup>28</sup> and he saith unto her, ‘Rise, and we go;’ and there is none answering, and he taketh her on the ass, and the man riseth and goeth to his place,
 <sup>29</sup> and cometh in unto his house, and taketh the knife, and layeth hold on his concubine, and cutteth her in pieces to her bones-into twelve pieces, and sendeth her into all the border of Israel.
 <sup>30</sup> And it hath come to pass, every one who seeth hath said, ‘There hath not been-yea, there hath not been seen like this, from the day of the coming up of the sons of Israel out of the land of Egypt till this day; set your heart upon it, take counsel, and speak.’
+
 ## Chapter 20
 
 <sup>1</sup> And all the sons of Israel go out, and the company is assembled as one man, from Dan even unto Beer-Sheba, and the land of Gilead, unto Jehovah, at Mizpeh.
@@ -631,6 +650,7 @@
 <sup>46</sup> And all those falling of Benjamin are twenty and five thousand men drawing sword, on that day-the whole of these are men of valour;
 <sup>47</sup> and there turn and flee into the wilderness, unto the rock of Rimmon six hundred men, and they dwell in the rock Rimmon four months.
 <sup>48</sup> And the men of Israel have turned back unto the sons of Benjamin, and smite them by the mouth of the sword out of the city,-men unto cattle, unto all that is found; also all the cities which are found they have sent into fire.
+
 ## Chapter 21
 
 <sup>1</sup> And the men of Israel have sworn in Mizpeh, saying, ‘None of us doth give his daughter to Benjamin for a wife.’

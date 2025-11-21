@@ -21,6 +21,7 @@
 <sup>19</sup> And I say unto the messenger who is speaking with me, ‘What are these?’ And he saith unto me, ‘These are the horns that have scattered Judah, Israel, and Jerusalem.’
 <sup>20</sup> And Jehovah doth shew me four artisans.
 <sup>21</sup> And I say, ‘What are these coming in to do?’ And He speaketh, saying: ‘These are the horns that have scattered Judah, so that no one hath lifted up his head, and these come in to trouble them, to cast down the horns of the nations who are lifting up a horn against the land of Judah-to scatter it.’
+
 ## Chapter 2
 
 <sup>1</sup> And I lift up mine eyes, and look, and lo, a man, and in his hand a measuring line.
@@ -36,6 +37,7 @@
 <sup>11</sup> And joined have been many nations unto Jehovah in that day, And they have been to Me for a people, And I have dwelt in thy midst, And thou hast known that Jehovah of Hosts hath sent me unto thee.
 <sup>12</sup> And Jehovah hath inherited Judah, His portion on the holy ground, And He hath fixed again on Jerusalem.
 <sup>13</sup> Hush, all flesh, because of Jehovah, For He hath been roused up from His holy habitation!’
+
 ## Chapter 3
 
 <sup>1</sup> And he sheweth me Joshua the high priest standing before the messenger of Jehovah, and the Adversary standing at his right hand, to be an adversary to him.
@@ -48,6 +50,7 @@
 <sup>8</sup> Hear, I pray thee, Joshua, the high priest, Thou and thy companions sitting before thee, (For men of type are they,) For lo, I am bringing in My servant-a Shoot.
 <sup>9</sup> For lo, the stone that I put before Joshua, On one stone are seven eyes, Lo, I am graving its graving, An affirmation of Jehovah of Hosts, And I have removed the iniquity of that land in one day.
 <sup>10</sup> In that day-an affirmation of Jehovah of Hosts, Ye do call, each unto his neighbour, Unto the place of the vine, And unto the place of the fig-tree!’
+
 ## Chapter 4
 
 <sup>1</sup> And the messenger who is speaking with me doth turn back, and stir me up as one who is stirred up out of his sleep,
@@ -64,6 +67,7 @@
 <sup>12</sup> And I answer a second time, and say unto him, ‘What are the two branches of the olive trees that, by means of the two golden pipes, are emptying out of themselves the oil?’
 <sup>13</sup> And he speaketh unto me, saying, ‘Hast thou not known what these are?’ And I say, ‘No, my lord.’
 <sup>14</sup> And he saith, ‘These are the two sons of the oil, who are standing by the Lord of the whole earth.’
+
 ## Chapter 5
 
 <sup>1</sup> And I turn back, and lift up mine eyes, and look, and lo, a flying roll.
@@ -77,6 +81,7 @@
 <sup>9</sup> And I lift up mine eyes, and see, and lo, two women are coming forth, and wind in their wings; and they have wings like wings of the stork, and they lift up the ephah between the earth and the heavens.
 <sup>10</sup> And I say unto the messenger who is speaking with me, ‘Whither are they causing the ephah to go?’
 <sup>11</sup> And he saith unto me, ‘To build to it a house in the land of Shinar.’ And it hath been prepared and hath been placed there on its base.
+
 ## Chapter 6
 
 <sup>1</sup> And I turn back, and lift up mine eyes, and look, and lo, four chariots are coming forth from between two of the mountains, and the mountains are mountains of brass.
@@ -94,6 +99,7 @@
 <sup>13</sup> Yea, he doth build the temple of Jehovah, And he doth bear away honour, And he hath sat and ruled on His throne, And hath been a priest on His throne, And a counsel of peace is between both.
 <sup>14</sup> And the crown is to Helem, and to Tobijah, and to Jedaiah, and to Hen son of Zephaniah, for a memorial in the temple of Jehovah.
 <sup>15</sup> And the far-off come in, and they have built in the temple of Jehovah, and ye have known that Jehovah of Hosts hath sent me unto you, yea, it hath come to pass, if ye do certainly hearken to the voice of Jehovah your God.’
+
 ## Chapter 7
 
 <sup>1</sup> And it cometh to pass, in the fourth year of Darius the king hath a word of Jehovah been unto Zechariah, in the fourth of the ninth month, in Chisleu.
@@ -110,6 +116,7 @@
 <sup>12</sup> And their heart they have made adamant, Against hearing the law, and the words, That Jehovah of Hosts sent by His Spirit, By the hand of the former prophets, And their is great wrath from Jehovah of Hosts.
 <sup>13</sup> And it cometh to pass, as He called, And they have not hearkened, So do they call, and I do not hearken, Said Jehovah of Hosts.
 <sup>14</sup> And I toss them on all the nations, That they have not known, The land hath been desolate behind them, Of any passing by and turning back, And they set a desirable land for a desolation!
+
 ## Chapter 8
 
 <sup>1</sup> And there is a word of Jehovah of Hosts, saying:
@@ -135,6 +142,7 @@
 <sup>21</sup> Yea, gone have inhabitants of one To another, saying: We go diligently, To appease the face of Jehovah, To seek Jehovah of Hosts-I go, even I.
 <sup>22</sup> Yea, come in have many peoples, and mighty nations, To seek Jehovah of Hosts in Jerusalem, And to appease the face of Jehovah.
 <sup>23</sup> Thus said Jehovah of Hosts: In those days take hold do ten men of all languages of the nations, Yea, they have taken hold on the skirt of a man, a Jew, saying: We go with you, for we heard God is with you!
+
 ## Chapter 9
 
 <sup>1</sup> The burden of a word of Jehovah against the land of Hadrach, and Demmeseh-his place of rest: (When to Jehovah is the eye of man, And of all the tribes of Israel.)
@@ -154,6 +162,7 @@
 <sup>15</sup> Jehovah of Hosts doth cover them over, And they consumed, and subdued sling-stones, Yea, they have drunk, They have made a noise as wine, And they have been full as a bowl, As corners of an altar.
 <sup>16</sup> And saved them hath Jehovah their God In that day, as a flock of His people, For stones of a crown are displaying themselves over His ground.
 <sup>17</sup> For what His goodness! and what His beauty! Corn the young men, And new wine the virgins-make fruitful!
+
 ## Chapter 10
 
 <sup>1</sup> They asked of Jehovah rain in a time of latter rain, Jehovah is making lightnings, And rain in showers He doth give to them. To each-the herb in the field.
@@ -168,6 +177,7 @@
 <sup>10</sup> And I have brought them back from the land of Egypt, And from Asshur I do gather them, And unto the land of Gilead and Lebanon I do bring them in, And there is not found for them space.
 <sup>11</sup> And He hath passed over through the sea, And hath pressed and smitten billows in the sea, And dried up have been all depths of a flood, And brought down hath been the excellency of Asshur, And the rod of Egypt doth turn aside.
 <sup>12</sup> And I have made them mighty in Jehovah, And in His name they walk up and down, An affirmation of Jehovah!
+
 ## Chapter 11
 
 <sup>1</sup> Open, O Lebanon, thy doors, And fire doth devour among thy cedars.
@@ -187,6 +197,7 @@
 <sup>15</sup> And Jehovah saith unto me, ‘Again take to thee the instrument of a foolish shepherd.
 <sup>16</sup> For lo, I am raising up a shepherd in the land, The cut off he doth not inspect, The shaken off he doth not seek, And the broken he doth not heal, The standing he doth not sustain, And the flesh of the fat he doth eat, And their hoofs he doth break off.
 <sup>17</sup> Woe to the worthless shepherd, forsaking the flock, A sword is on his arm, and on his right eye, His arm is utterly dried up, And his right eye is very dim!’
+
 ## Chapter 12
 
 <sup>1</sup> The burden of a word of Jehovah on Israel. An affirmation of Jehovah, Stretching out heaven, and founding earth, And forming the spirit of man in his midst.
@@ -203,6 +214,7 @@
 <sup>12</sup> And mourned hath the land-every family apart, The family of the house of David apart, And their women apart; The family of the house of Nathan apart, And their women apart;
 <sup>13</sup> The family of the house of Levi apart, And their women apart; The family of Shimei apart, And their women apart,
 <sup>14</sup> All the families that are left, Every family apart, and their women apart!
+
 ## Chapter 13
 
 <sup>1</sup> In that day there is a fountain opened To the house of David And to the inhabitants of Jerusalem, For sin and for impurity.
@@ -214,6 +226,7 @@
 <sup>7</sup> Sword, awake against My shepherd, And against a hero-My fellow, An affirmation of Jehovah of Hosts. Smite the shepherd, and scattered is the flock, And I have put back My hand on the little ones.
 <sup>8</sup> And it hath come to pass, In all the land, an affirmation of Jehovah, Two parts in it are cut off-they expire, And the third is left in it.
 <sup>9</sup> And I have brought the third into fire, And refined them like a refining of silver, And have tried them like a trying of gold, It doth call in My name, and I answer it, I have said, ‘My people it is,’ And it saith, ‘Jehovah is my God!’
+
 ## Chapter 14
 
 <sup>1</sup> Lo, a day hath come to Jehovah, And divided hath been thy spoil in thy midst.

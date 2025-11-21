@@ -30,6 +30,7 @@
 <sup>28</sup> and not terrified in anything by those opposing, which to them indeed is a token of destruction, and to you of salvation, and that from God;
 <sup>29</sup> because to you it was granted, on behalf of Christ, not only to believe in him, but also on behalf of him to suffer;
 <sup>30</sup> the same conflict having, such as ye saw in me, and now hear of in me.
+
 ## Chapter 2
 
 <sup>1</sup> If, then, any exhortation is in Christ, if any comfort of love, if any fellowship of spirit, if any bowels and mercies,
@@ -62,6 +63,7 @@
 <sup>28</sup> The more eagerly, therefore, I did send him, that having seen him again ye may rejoice, and I may be the less sorrowful;
 <sup>29</sup> receive him, therefore, in the Lord, with all joy, and hold such in honour,
 <sup>30</sup> because on account of the work of the Christ he drew near to death, having hazarded the life that he might fill up your deficiency of service unto me.
+
 ## Chapter 3
 
 <sup>1</sup> As to the rest, my brethren, rejoice in the Lord; the same things to write to you to me indeed is not tiresome, and for you is sure;
@@ -85,6 +87,7 @@
 <sup>19</sup> whose end is destruction, whose god is the belly, and whose glory is in their shame, who the things on earth are minding.
 <sup>20</sup> For our citizenship is in the heavens, whence also a Saviour we await-the Lord Jesus Christ-
 <sup>21</sup> who shall transform the body of our humiliation to its becoming conformed to the body of his glory, according to the working of his power, even to subject to himself the all things.
+
 ## Chapter 4
 
 <sup>1</sup> So then, my brethren, beloved and longed for, my joy and crown, so stand ye in the Lord, beloved.

@@ -18,6 +18,7 @@
 <sup>16</sup> I-I spake with my heart, saying, ‘I, lo, I have magnified and added wisdom above every one who hath been before me at Jerusalem, and my heart hath seen abundantly wisdom and knowledge.
 <sup>17</sup> And I give my heart to know wisdom, and to know madness and folly: I have known that even this is vexation of spirit;
 <sup>18</sup> for, in abundance of wisdom is abundance of sadness, and he who addeth knowledge addeth pain.’
+
 ## Chapter 2
 
 <sup>1</sup> I said in my heart, ‘Pray, come, I try thee with mirth, and look thou on gladness;’ and lo, even it is vanity.
@@ -46,6 +47,7 @@
 <sup>24</sup> There is nothing good in a man who eateth, and hath drunk, and hath shewn his soul good in his labour. This also I have seen that it is from the hand of God.
 <sup>25</sup> For who eateth and who hasteth out more than I?
 <sup>26</sup> For to a man who is good before Him, He hath given wisdom, and knowledge, and joy; and to a sinner He hath given travail, to gather and to heap up, to give to the good before God. Even this is vanity and vexation of spirit.
+
 ## Chapter 3
 
 <sup>1</sup> To everything-a season, and a time to every delight under the heavens:
@@ -70,6 +72,7 @@
 <sup>20</sup> The whole are going unto one place, the whole have been from the dust, and the whole are turning back unto the dust.
 <sup>21</sup> Who knoweth the spirit of the sons of man that is going up on high, and the spirit of the beast that is going down below to the earth?
 <sup>22</sup> And I have seen that there is nothing better than that man rejoice in his works, for it is his portion; for who doth bring him in to look on that which is after him?
+
 ## Chapter 4
 
 <sup>1</sup> And I have turned, and I see all the oppressions that are done under the sun, and lo, the tear of the oppressed, and they have no comforter; and at the hand of their oppressors is power, and they have no comforter.
@@ -88,6 +91,7 @@
 <sup>14</sup> For from a house of prisoners he hath come out to reign, for even in his own kingdom he hath been poor.
 <sup>15</sup> I have seen all the living, who are walking under the sun, with the second youth who doth stand in his place;
 <sup>16</sup> there is no end to all the people, to all who were before them; also, the latter rejoice not in him. Surely this also is vanity and vexation of spirit.
+
 ## Chapter 5
 
 <sup>1</sup> Keep thy feet when thou goest unto a house of God, and draw near to hear rather than to give of fools the sacrifice, for they do not know they do evil.
@@ -110,6 +114,7 @@
 <sup>18</sup> Lo, that which I have seen: It is good, because beautiful, to eat, and to drink, and to see good in all one’s labour that he laboureth at under the sun, the number of the days of his life that God hath given to him, for it is his portion.
 <sup>19</sup> Every man also to whom God hath given wealth and riches, and hath given him power to eat of it, and to accept his portion, and to rejoice in his labour, this is a gift of God.
 <sup>20</sup> For he doth not much remember the days of his life, for God is answering through the joy of his heart.
+
 ## Chapter 6
 
 <sup>1</sup> There is an evil that I have seen under the sun, and it is great on man:
@@ -124,6 +129,7 @@
 <sup>10</sup> What is that which hath been? already is its name called, and it is known that it is man, and he is not able to contend with him who is stronger than he.
 <sup>11</sup> For there are many things multiplying vanity; what advantage is to man?
 <sup>12</sup> For who knoweth what is good for a man in life, the number of the days of the life of his vanity, and he maketh them as a shadow? for who declareth to man what is after him under the sun?
+
 ## Chapter 7
 
 <sup>1</sup> Better is a name than good perfume, And the day of death than the day of birth.
@@ -155,6 +161,7 @@
 <sup>27</sup> See, this I have found, said the Preacher, one to one, to find out the reason
 <sup>28</sup> (that still my soul had sought, and I had not found), One man, a teacher, I have found, and a woman among all these I have not found.
 <sup>29</sup> See, this alone I have found, that God made man upright, and they-they have sought out many devices.
+
 ## Chapter 8
 
 <sup>1</sup> Who is as the wise? and who knoweth the interpretation of a thing? The wisdom of man causeth his face to shine, and the hardness of his face is changed.
@@ -174,6 +181,7 @@
 <sup>15</sup> And I have praised mirth because there is no good to man under the sun except to eat and to drink, and to rejoice, and it remaineth with him of his labour the days of his life that God hath given to him under the sun.
 <sup>16</sup> When I gave my heart to know wisdom and to see the business that hath been done on the earth, (for there is also a spectator in whose eyes sleep is not by day and by night),
 <sup>17</sup> then I considered all the work of God, that man is not able to find out the work that hath been done under the sun, because though man labour to seek, yet he doth not find; and even though the wise man speak of knowing he is not able to find.
+
 ## Chapter 9
 
 <sup>1</sup> But all this I have laid unto my heart, so as to clear up the whole of this, that the righteous and the wise, and their works, are in the hand of God, neither love nor hatred doth man know, the whole is before them.
@@ -194,6 +202,7 @@
 <sup>16</sup> And I said, ‘Better is wisdom than might, and the wisdom of the poor is despised, and his words are not heard.’-
 <sup>17</sup> The words of the wise in quiet are heard, More than the cry of a ruler over fools.
 <sup>18</sup> Better is wisdom than weapons of conflict, And one sinner destroyeth much good!
+
 ## Chapter 10
 
 <sup>1</sup> Dead flies cause a perfumer’s perfume To send forth a stink; The precious by reason of wisdom- By reason of honour-a little folly!
@@ -216,6 +225,7 @@
 <sup>18</sup> By slothfulness is the wall brought low, And by idleness of the hands doth the house drop.
 <sup>19</sup> For mirth they are making a feast, And wine maketh life joyful, And the silver answereth with all.
 <sup>20</sup> Even in thy mind a king revile not, And in the inner parts of thy bed-chamber Revile not the rich: For a fowl of the heavens causeth the voice to go, And a possessor of wings declareth the word.
+
 ## Chapter 11
 
 <sup>1</sup> Send forth thy bread on the face of the waters, For in the multitude of the days thou dost find it.
@@ -228,6 +238,7 @@
 <sup>8</sup> But, if man liveth many years, In all of them let him rejoice, And remember the days of darkness, For they are many! all that is coming is vanity.
 <sup>9</sup> Rejoice, O young man, in thy childhood, And let thy heart gladden thee in days of thy youth, And walk in the ways of thy heart, And in the sight of thine eyes, And know thou that for all these, Doth God bring thee into judgment.
 <sup>10</sup> And turn aside anger from thy heart, And cause evil to pass from thy flesh, For the childhood and the age are vanity!
+
 ## Chapter 12
 
 <sup>1</sup> Remember also thy Creators in days of thy youth, While that the evil days come not, Nor the years have arrived, that thou sayest, ‘I have no pleasure in them.’

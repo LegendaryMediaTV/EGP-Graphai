@@ -21,6 +21,7 @@
 <sup>19</sup> And the king speaketh with them, and there hath none been found among them all like Daniel, Hananiah, Mishael, and Azariah, and they stand before the king;
 <sup>20</sup> and in any matter of wisdom and understanding that the king hath sought of them, he findeth them ten hands above all the scribes, the enchanters, who are in all his kingdom.
 <sup>21</sup> And Daniel is unto the first year of Cyrus the king.
+
 ## Chapter 2
 
 <sup>1</sup> And in the second year of the reign of Nebuchadnezzar, dreamed hath Nebuchadnezzar dreams, and his spirit doth move itself, and his sleep hath been against him;
@@ -72,6 +73,7 @@
 <sup>47</sup> The king hath answered Daniel and said, ‘Of a truth it is that your God is a God of gods, and a Lord of kings, and a revealer of secrets, since thou hast been able to reveal this secret.’
 <sup>48</sup> Then the king hath made Daniel great, and many great gifts he hath given to him, and hath caused him to rule over all the province of Babylon, and chief of the perfects over all the wise men of Babylon.
 <sup>49</sup> And Daniel hath sought from the king, and he hath appointed over the work of the province of Babylon, Shadrach, Meshach, and Abed-Nego, and Daniel is in the gate of the king.
+
 ## Chapter 3
 
 <sup>1</sup> Nebuchadnezzar the king hath made an image of gold, its height sixty cubits, its breadth six cubits; he hath raised it up in the valley of Dura, in the province of Babylon;
@@ -104,6 +106,7 @@
 <sup>28</sup> Nebuchadnezzar hath answered and hath said, ‘Blessed is the God of Shadrach, Meshach, and Abed-Nego, who hath sent His messenger, and hath delivered His servants who trusted on Him, and the word of the king changed, and gave up their bodies that they might not serve nor do obeisance to any god except to their own God.
 <sup>29</sup> And by me a decree is made, that any people, nation, and language, that doth speak erroneously concerning the God of Shadrach, Meshach, and Abed-Nego, pieces he is made, and its house is made a dunghill, because that there is no other god who is able thus to deliver.’
 <sup>30</sup> Then the king hath caused Shadrach, Meshach, and Abed-Nego, to prosper in the province of Babylon.
+
 ## Chapter 4
 
 <sup>1</sup> ‘Nebuchadnezzar the king to all peoples, nations, and languages, who are dwelling in all the earth: Your peace be great!
@@ -143,6 +146,7 @@
 <sup>35</sup> and all who are dwelling on the earth as nothing are reckoned, and according to his will He is doing among the forces of the heavens and those dwelling on the earth, and there is none that doth clap with his hand, and saith to Him, What hast Thou done?
 <sup>36</sup> ‘At that time my understanding doth return unto me, and for the glory of my kingdom, my honour and my brightness doth return unto me, and to me my counsellors and my great men do seek, and over my kingdom I have been made right, and abundant greatness hath been added to me.
 <sup>37</sup> ‘Now, I, Nebuchadnezzar, am praising and exalting and honouring the King of the heavens, for all His works are truth, and His paths judgment, and those walking in pride He is able to humble.’
+
 ## Chapter 5
 
 <sup>1</sup> Belshazzar the king hath made a great feast to a thousand of his great men, and before the thousand he is drinking wine;
@@ -176,6 +180,7 @@
 <sup>29</sup> Then hath Belshazzar said, and they have clothed Daniel with purple, and a bracelet of gold is on his neck, and they have proclaimed concerning him that he is the third ruler in the kingdom.
 <sup>30</sup> In that night Belshazzar king of the Chaldeans is slain,
 <sup>31</sup> and Darius the Mede hath received the kingdom, when a son of sixty and two years.
+
 ## Chapter 6
 
 <sup>1</sup> It hath been good before Darius, and he hath established over the kingdom satraps-a hundred and twenty-that they may be throughout the whole kingdom,
@@ -206,6 +211,7 @@
 <sup>26</sup> From before me is made a decree, that in every dominion of my kingdom they are trembling and fearing before the God of Daniel, for He is the living God, and abiding to the ages, and His kingdom that which is not destroyed, and His dominion is unto the end.
 <sup>27</sup> A deliverer, and rescuer, and doer of signs and wonders in the heavens and in earth is He who hath delivered Daniel from the paw of the lions.’
 <sup>28</sup> And this Daniel hath prospered in the reign of Darius, and in the reign of Cyrus the Persian.
+
 ## Chapter 7
 
 <sup>1</sup> In the first year of Belshazzar king of Babylon, Daniel hath seen a dream, and the visions of his head on his bed, then the dream he hath written, the chief of the things he hath said.
@@ -236,6 +242,7 @@
 <sup>26</sup> ‘And the Judge is seated, and its dominion they cause to pass away, to cut off, and to destroy-unto the end;
 <sup>27</sup> and the kingdom, and the dominion, even the greatness of the kingdom under the whole heavens, is given to the people-the saints of the Most High, His kingdom is a kingdom age-during, and all dominions do serve and obey Him.
 <sup>28</sup> ‘Hitherto is the end of the matter. I, Daniel, greatly do my thoughts trouble me, and my countenance is changed on me, and the matter in my heart I have kept.
+
 ## Chapter 8
 
 <sup>1</sup> ‘In the third year of the reign of Belshazzar the king, a vision hath appeared unto me-I Daniel-after that which had appeared unto me at the beginning.
@@ -265,6 +272,7 @@
 <sup>25</sup> ‘And by his understanding he hath also caused deceit to prosper in his hand, and in his heart he exerteth himself, and by ease he destroyeth many; and against the prince of princes he standeth-and without hand he is broken.
 <sup>26</sup> And the appearance of the evening and of the morning, that is told, is true; and thou, hide thou the vision, for it is after many days.’
 <sup>27</sup> And I, Daniel, have been, yea, I became sick for days, and I rise, and do the king’s work, and am astonished at the appearance, and there is none understanding.
+
 ## Chapter 9
 
 <sup>1</sup> In the first year of Darius, son of Ahasuerus, of the seed of the Medes, who hath been made king over the kingdom of the Chaldeans,
@@ -294,6 +302,7 @@
 <sup>25</sup> And thou dost know, and dost consider wisely, from the going forth of the word to restore and to build Jerusalem till Messiah the Leader is seven weeks, and sixty and two weeks: the broad place hath been built again, and the rampart, even in the distress of the times.
 <sup>26</sup> And after the sixty and two weeks, cut off is Messiah, and the city and the holy place are not his, the Leader who hath come doth destroy the people; and its end is with a flood, and till the end is war, determined are desolations.
 <sup>27</sup> And he hath strengthened a covenant with many-one week, and in the midst of the week he causeth sacrifice and present to cease, and by the wing of abominations he is making desolate, even till the consummation, and that which is determined is poured on the desolate one.’
+
 ## Chapter 10
 
 <sup>1</sup> In the third year of Cyrus king of Persia, a thing is revealed to Daniel, whose name is called Belteshazzar, and the thing is true, and the warfare is great: and he hath understood the thing, and hath understanding about the appearance.
@@ -317,6 +326,7 @@
 <sup>19</sup> and he saith: Do not fear, O man greatly desired, peace to thee, be strong, yea, be strong; and when he speaketh with me, I have strengthened myself, and I say, Let my lord speak, for thou hast strengthened me.
 <sup>20</sup> And he saith, Hast thou known why I have come unto thee? and now I turn back to fight with the head of Persia; yea, I am going forth, and lo, the head of Javan hath come;
 <sup>21</sup> but I declare to thee that which is noted down in the Writing of Truth, and there is not one strengthening himself with me, concerning these, except Michael your head.
+
 ## Chapter 11
 
 <sup>1</sup> ‘And I, in the first year of Darius the Mede, my standing is for a strengthener, and for a stronghold to him;
@@ -364,6 +374,7 @@
 <sup>43</sup> and he hath ruled over treasures of gold and of silver, and over all the desirable things of Egypt, and Lubim and Cushim are at his steps.
 <sup>44</sup> ‘And reports trouble him out of the east and out of the north, and he hath gone forth in great fury to destroy, and to devote many to destruction;
 <sup>45</sup> and he planteth the tents of his palace between the seas and the holy desirable mountain, and hath come unto his end, and there is no helper to him.
+
 ## Chapter 12
 
 <sup>1</sup> ‘And at that time stand up doth Michael, the great head, who is standing up for the sons of thy people, and there hath been a time of distress, such as hath not been since there hath been a nation till that time, and at that time do thy people escape, every one who is found written in the book.

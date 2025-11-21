@@ -22,6 +22,7 @@
 <sup>20</sup> And she saith unto them, ‘Call me not Naomi; call me Mara, for the Almighty hath dealt very bitterly to me,
 <sup>21</sup> I went out full, and empty hath Jehovah brought me back, why do ye call me Naomi, and Jehovah hath testified against me, and the Almighty hath done evil to me?’
 <sup>22</sup> And Naomi turneth back, and Ruth the Moabitess her daughter-in-law with her, who hath turned back from the fields of Moab, and they have come in to Beth-Lehem at the commencement of barley-harvest.
+
 ## Chapter 2
 
 <sup>1</sup> And Naomi hath an acquaintance of her husband’s, a man mighty in wealth, of the family of Elimelech, and his name is Boaz.
@@ -47,6 +48,7 @@
 <sup>21</sup> And Ruth the Moabitess saith, ‘Also he surely said unto me, Near the young people whom I have thou dost cleave till they have completed the whole of the harvest which I have.’
 <sup>22</sup> And Naomi saith unto Ruth her daughter-in-law, ‘Good, my daughter, that thou goest out with his young women, and they come not against thee in another field.’
 <sup>23</sup> And she cleaveth to the young women of Boaz to glean, till the completion of the barley-harvest, and of the wheat-harvest, and she dwelleth with her mother-in-law.
+
 ## Chapter 3
 
 <sup>1</sup> And Naomi her mother-in-law saith to her, ‘My daughter, do not I seek for thee rest, that it may be well with thee?
@@ -67,6 +69,7 @@
 <sup>16</sup> And she cometh in unto her mother-in-law, and she saith, ‘Who art thou, my daughter?’ and she declareth to her all that the man hath done to her.
 <sup>17</sup> And she saith, ‘These six measures of barley he hath given to me, for he said, Thou dost not go in empty unto thy mother-in-law.’
 <sup>18</sup> And she saith, ‘Sit still, my daughter, till thou dost know how the matter falleth, for the man doth not rest except he hath completed the matter to-day.’
+
 ## Chapter 4
 
 <sup>1</sup> And Boaz hath gone up to the gate, and sitteth there, and lo, the redeemer is passing by of whom Boaz had spoken, and he saith, ‘Turn aside, sit down here, such a one, such a one;’ and he turneth aside and sitteth down.
