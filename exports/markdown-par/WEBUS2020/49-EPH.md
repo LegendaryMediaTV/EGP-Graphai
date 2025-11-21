@@ -54,6 +54,7 @@
 <sup>20</sup> being built on the foundation of the apostles and prophets, Christ Jesus himself being the chief cornerstone;
 <sup>21</sup> in whom the whole building, fitted together, grows into a holy temple in the Lord;
 <sup>22</sup> in whom you also are built together for a habitation of God in the Spirit.
+
 ## Chapter 3
 
 <sup>1</sup> For this cause I, Paul, am the prisoner of Christ Jesus on behalf of you Gentiles,

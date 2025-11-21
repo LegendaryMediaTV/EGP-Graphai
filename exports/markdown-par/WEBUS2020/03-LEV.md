@@ -69,6 +69,7 @@
 <sup>16</sup> The priest shall burn them on the altar: it is the food of the offering made by fire, for a pleasant aroma; all the fat is Yahweh’s.
 
 <sup>17</sup> “ ‘It shall be a perpetual statute throughout your generations in all your dwellings, that you shall eat neither fat nor blood.’ ”
+
 ## Chapter 4
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -110,6 +111,7 @@
 <sup>33</sup> He shall lay his hand on the head of the sin offering, and kill it for a sin offering in the place where they kill the burnt offering.
 <sup>34</sup> The priest shall take some of the blood of the sin offering with his finger, and put it on the horns of the altar of burnt offering; and all the rest of its blood he shall pour out at the base of the altar.
 <sup>35</sup> He shall remove all its fat, like the fat of the lamb is removed from the sacrifice of peace offerings. The priest shall burn them on the altar, on the offerings of Yahweh made by fire. The priest shall make atonement for him concerning his sin that he has sinned, and he will be forgiven.
+
 ## Chapter 5
 
 <sup>1</sup> “ ‘If anyone sins, in that he hears a public adjuration to testify, he being a witness, whether he has seen or known, if he doesn’t report it, then he shall bear his iniquity.
@@ -228,6 +230,7 @@
 <sup>36</sup> which Yahweh commanded to be given them of the children of Israel, in the day that he anointed them. It is their portion forever throughout their generations.
 <sup>37</sup> This is the law of the burnt offering, the meal offering, the sin offering, the trespass offering, the consecration, and the sacrifice of peace offerings
 <sup>38</sup> which Yahweh commanded Moses in Mount Sinai in the day that he commanded the children of Israel to offer their offerings to Yahweh, in the wilderness of Sinai.
+
 ## Chapter 8
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -269,6 +272,7 @@
 <sup>34</sup> What has been done today, so Yahweh has commanded to do, to make atonement for you.
 <sup>35</sup> You shall stay at the door of the Tent of Meeting day and night seven days, and keep Yahweh’s command, that you don’t die: for so I am commanded.”
 <sup>36</sup> Aaron and his sons did all the things which Yahweh commanded by Moses.
+
 ## Chapter 9
 
 <sup>1</sup> On the eighth day, Moses called Aaron and his sons, and the elders of Israel;
@@ -298,12 +302,15 @@
 
 <sup>23</sup> Moses and Aaron went into the Tent of Meeting, and came out, and blessed the people; and Yahweh’s glory appeared to all the people.
 <sup>24</sup> Fire came out from before Yahweh, and consumed the burnt offering and the fat upon the altar. When all the people saw it, they shouted, and fell on their faces.
+
 ## Chapter 10
 
 <sup>1</sup> Nadab and Abihu, the sons of Aaron, each took his censer, and put fire in it, and laid incense on it, and offered strange fire before Yahweh, which he had not commanded them.
 <sup>2</sup> Fire came out from before Yahweh, and devoured them, and they died before Yahweh.
 
-<sup>3</sup> Then Moses said to Aaron, “This is what Yahweh spoke of, saying,<br>‘I will show myself holy to those who come near me,<br>and before all the people I will be glorified.’ ” Aaron held his peace.
+<sup>3</sup> Then Moses said to Aaron, “This is what Yahweh spoke of, saying,<br>‘I will show myself holy to those who come near me,<br>and before all the people I will be glorified.’ ”
+
+Aaron held his peace.
 <sup>4</sup> Moses called Mishael and Elzaphan, the sons of Uzziel the uncle of Aaron, and said to them, “Draw near, carry your brothers from before the sanctuary out of the camp.”
 <sup>5</sup> So they came near, and carried them in their tunics out of the camp, as Moses had said.
 
@@ -400,8 +407,11 @@
 <sup>5</sup> But if she bears a female child, then she shall be unclean two weeks, as in her period; and she shall continue in the blood of purification sixty-six days.
 
 <sup>6</sup> “ ‘When the days of her purification are completed for a son or for a daughter, she shall bring to the priest at the door of the Tent of Meeting, a year old lamb for a burnt offering, and a young pigeon or a turtledove, for a sin offering.
-<sup>7</sup> He shall offer it before Yahweh, and make atonement for her; then she shall be cleansed from the fountain of her blood. “ ‘This is the law for her who bears, whether a male or a female.
+<sup>7</sup> He shall offer it before Yahweh, and make atonement for her; then she shall be cleansed from the fountain of her blood.
+
+“ ‘This is the law for her who bears, whether a male or a female.
 <sup>8</sup> If she cannot afford a lamb, then she shall take two turtledoves or two young pigeons: the one for a burnt offering, and the other for a sin offering. The priest shall make atonement for her, and she shall be clean.’ ”
+
 ## Chapter 13
 
 <sup>1</sup> Yahweh spoke to Moses and to Aaron, saying,
@@ -548,7 +558,9 @@
 <sup>54</sup> This is the law for any plague of leprosy, and for an itch,
 <sup>55</sup> and for the destructive mildew of a garment, and for a house,
 <sup>56</sup> and for a swelling, and for a scab, and for a bright spot;
-<sup>57</sup> to teach when it is unclean, and when it is clean. This is the law of leprosy.
+<sup>57</sup> to teach when it is unclean, and when it is clean.
+
+This is the law of leprosy.
 
 > - <sup>a</sup> 10. 1 ephah is about 22 liters or about 2/3 of a bushel
 > - <sup>b</sup> 10. a log is a liquid measure of about 300 ml or 10 ounces
@@ -606,6 +618,7 @@
 
 <sup>32</sup> This is the law of him who has a discharge, and of him who has an emission of semen, so that he is unclean by it;
 <sup>33</sup> and of her who has her period, and of a man or woman who has a discharge, and of him who lies with her who is unclean.
+
 ## Chapter 16
 
 <sup>1</sup> Yahweh spoke to Moses after the death of the two sons of Aaron, when they came near before Yahweh, and died;
@@ -651,7 +664,10 @@
 <sup>32</sup> The priest, who is anointed and who is consecrated to be priest in his father’s place, shall make the atonement, and shall put on the linen garments, even the holy garments.
 <sup>33</sup> Then he shall make atonement for the Holy Sanctuary; and he shall make atonement for the Tent of Meeting and for the altar; and he shall make atonement for the priests and for all the people of the assembly.
 
-<sup>34</sup> “This shall be an everlasting statute for you, to make atonement for the children of Israel once in the year because of all their sins.” It was done as Yahweh commanded Moses.
+<sup>34</sup> “This shall be an everlasting statute for you, to make atonement for the children of Israel once in the year because of all their sins.”
+
+It was done as Yahweh commanded Moses.
+
 ## Chapter 17
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -674,6 +690,7 @@
 
 <sup>15</sup> “ ‘Every person that eats what dies of itself, or that which is torn by animals, whether he is native-born or a foreigner, shall wash his clothes, and bathe himself in water, and be unclean until the evening. Then he shall be clean.
 <sup>16</sup> But if he doesn’t wash them, or bathe his flesh, then he shall bear his iniquity.’ ”
+
 ## Chapter 18
 
 <sup>1</sup> Yahweh said to Moses,
@@ -726,6 +743,7 @@
 
 <sup>29</sup> “ ‘For whoever shall do any of these abominations, even the souls that do them shall be cut off from among their people.
 <sup>30</sup> Therefore you shall keep my requirements, that you do not practice any of these abominable customs which were practiced before you, and that you do not defile yourselves with them. I am Yahweh your God.’ ”
+
 ## Chapter 19
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -743,29 +761,43 @@
 <sup>9</sup> “ ‘When you reap the harvest of your land, you shall not wholly reap the corners of your field, neither shall you gather the gleanings of your harvest.
 <sup>10</sup> You shall not glean your vineyard, neither shall you gather the fallen grapes of your vineyard. You shall leave them for the poor and for the foreigner. I am Yahweh your God.
 
-<sup>11</sup> “ ‘You shall not steal. “ ‘You shall not lie. “ ‘You shall not deceive one another.
+<sup>11</sup> “ ‘You shall not steal.
+
+“ ‘You shall not lie.
+
+“ ‘You shall not deceive one another.
 
 <sup>12</sup> “ ‘You shall not swear by my name falsely, and profane the name of your God. I am Yahweh.
 
-<sup>13</sup> “ ‘You shall not oppress your neighbor, nor rob him. “ ‘The wages of a hired servant shall not remain with you all night until the morning.
+<sup>13</sup> “ ‘You shall not oppress your neighbor, nor rob him.
+
+“ ‘The wages of a hired servant shall not remain with you all night until the morning.
 
 <sup>14</sup> “ ‘You shall not curse the deaf, nor put a stumbling block before the blind; but you shall fear your God. I am Yahweh.
 
 <sup>15</sup> “ ‘You shall do no injustice in judgment. You shall not be partial to the poor, nor show favoritism to the great; but you shall judge your neighbor in righteousness.
 
-<sup>16</sup> “ ‘You shall not go around as a slanderer among your people. “ ‘You shall not endanger the life<sup>a</sup> of your neighbor. I am Yahweh.
+<sup>16</sup> “ ‘You shall not go around as a slanderer among your people.<sup>a</sup>
+
+“ ‘You shall not endanger the life<sup>b</sup> of your neighbor. I am Yahweh.
 
 <sup>17</sup> “ ‘You shall not hate your brother in your heart. You shall surely rebuke your neighbor, and not bear sin because of him.
 
 <sup>18</sup> “ ‘You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself. I am Yahweh.
 
-<sup>19</sup> “ ‘You shall keep my statutes. “ ‘You shall not cross-breed different kinds of animals. “ ‘You shall not sow your field with two kinds of seed; “ ‘Don’t wear a garment made of two kinds of material.
+<sup>19</sup> “ ‘You shall keep my statutes.
+
+“ ‘You shall not cross-breed different kinds of animals.
+
+“ ‘You shall not sow your field with two kinds of seed;
+
+“ ‘Don’t wear a garment made of two kinds of material.
 
 <sup>20</sup> “ ‘If a man lies carnally with a woman who is a slave girl, pledged to be married to another man, and not ransomed or given her freedom; they shall be punished. They shall not be put to death, because she was not free.
 <sup>21</sup> He shall bring his trespass offering to Yahweh, to the door of the Tent of Meeting, even a ram for a trespass offering.
 <sup>22</sup> The priest shall make atonement for him with the ram of the trespass offering before Yahweh for his sin which he has committed; and the sin which he has committed shall be forgiven him.
 
-<sup>23</sup> “ ‘When you come into the land, and have planted all kinds of trees for food, then you shall count their fruit as forbidden.<sup>b</sup> For three years it shall be forbidden to you. It shall not be eaten.
+<sup>23</sup> “ ‘When you come into the land, and have planted all kinds of trees for food, then you shall count their fruit as forbidden.<sup>c</sup> For three years it shall be forbidden to you. It shall not be eaten.
 <sup>24</sup> But in the fourth year all its fruit shall be holy, for giving praise to Yahweh.
 <sup>25</sup> In the fifth year you shall eat its fruit, that it may yield its increase to you. I am Yahweh your God.
 
@@ -787,14 +819,15 @@
 <sup>34</sup> The stranger who lives as a foreigner with you shall be to you as the native-born among you, and you shall love him as yourself; for you lived as foreigners in the land of Egypt. I am Yahweh your God.
 
 <sup>35</sup> “ ‘You shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity.
-<sup>36</sup> You shall have just balances, just weights, a just ephah,<sup>c</sup> and a just hin.<sup>d</sup> I am Yahweh your God, who brought you out of the land of Egypt.
+<sup>36</sup> You shall have just balances, just weights, a just ephah,<sup>d</sup> and a just hin.<sup>e</sup> I am Yahweh your God, who brought you out of the land of Egypt.
 
 <sup>37</sup> “ ‘You shall observe all my statutes and all my ordinances, and do them. I am Yahweh.’ ”
 
 > - <sup>a</sup> 16. literally, “blood”
-> - <sup>b</sup> 23. literally, “uncircumcised”
-> - <sup>c</sup> 36. 1 ephah is about 22 liters or about 2/3 of a bushel
-> - <sup>d</sup> 36. A hin is about 6.5 liters or 1.7 gallons.
+> - <sup>b</sup> 16. literally, “blood”
+> - <sup>c</sup> 23. literally, “uncircumcised”
+> - <sup>d</sup> 36. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>e</sup> 36. A hin is about 6.5 liters or 1.7 gallons.
 
 ## Chapter 20
 
@@ -878,6 +911,7 @@
 <sup>23</sup> He shall not come near to the veil, nor come near to the altar, because he has a defect; that he may not profane my sanctuaries, for I am Yahweh who sanctifies them.’ ”
 
 <sup>24</sup> So Moses spoke to Aaron, and to his sons, and to all the children of Israel.
+
 ## Chapter 22
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -922,6 +956,7 @@
 <sup>31</sup> “Therefore you shall keep my commandments, and do them. I am Yahweh.
 <sup>32</sup> You shall not profane my holy name, but I will be made holy among the children of Israel. I am Yahweh who makes you holy,
 <sup>33</sup> who brought you out of the land of Egypt, to be your God. I am Yahweh.”
+
 ## Chapter 23
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -1089,6 +1124,7 @@
 <sup>53</sup> As a servant hired year by year shall he be with him. He shall not rule with harshness over him in your sight.
 <sup>54</sup> If he isn’t redeemed by these means, then he shall be released in the Year of Jubilee: he and his children with him.
 <sup>55</sup> For to me the children of Israel are servants; they are my servants whom I brought out of the land of Egypt. I am Yahweh your God.
+
 ## Chapter 26
 
 <sup>1</sup> “ ‘You shall make for yourselves no idols, and you shall not raise up a carved image or a pillar, and you shall not place any figured stone in your land, to bow down to it; for I am Yahweh your God.
@@ -1149,6 +1185,7 @@
 <sup>45</sup> But I will for their sake remember the covenant of their ancestors, whom I brought out of the land of Egypt in the sight of the nations, that I might be their God. I am Yahweh.’ ”
 
 <sup>46</sup> These are the statutes, ordinances, and laws, which Yahweh made between him and the children of Israel in Mount Sinai by Moses.
+
 ## Chapter 27
 
 <sup>1</sup> Yahweh spoke to Moses, saying,

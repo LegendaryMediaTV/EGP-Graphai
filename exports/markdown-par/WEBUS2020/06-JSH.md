@@ -123,6 +123,7 @@
 <sup>22</sup> Then you shall let your children know, saying, ‘Israel came over this Jordan on dry land.
 <sup>23</sup> For Yahweh your God dried up the waters of the Jordan from before you until you had crossed over, as Yahweh your God did to the Red Sea, which he dried up from before us, until we had crossed over,
 <sup>24</sup> that all the peoples of the earth may know that Yahweh’s hand is mighty, and that you may fear Yahweh your God forever.’ ”
+
 ## Chapter 5
 
 <sup>1</sup> When all the kings of the Amorites, who were beyond the Jordan westward, and all the kings of the Canaanites, who were by the sea, heard how Yahweh had dried up the waters of the Jordan from before the children of Israel until we had crossed over, their heart melted, and there was no more spirit in them, because of the children of Israel.
@@ -141,7 +142,9 @@
 
 <sup>13</sup> When Joshua was by Jericho, he lifted up his eyes and looked, and behold, a man stood in front of him with his sword drawn in his hand. Joshua went to him and said to him, “Are you for us, or for our enemies?”
 
-<sup>14</sup> He said, “No; but I have come now as commander of Yahweh’s army.” Joshua fell on his face to the earth, and worshiped, and asked him, “What does my lord say to his servant?”
+<sup>14</sup> He said, “No; but I have come now as commander of Yahweh’s army.”
+
+Joshua fell on his face to the earth, and worshiped, and asked him, “What does my lord say to his servant?”
 
 <sup>15</sup> The prince of Yahweh’s army said to Joshua, “Take off your sandals, for the place on which you stand is holy.” Joshua did so.
 
@@ -183,10 +186,13 @@
 
 <sup>26</sup> Joshua commanded them with an oath at that time, saying, “Cursed is the man before Yahweh who rises up and builds this city Jericho. With the loss of his firstborn he will lay its foundation, and with the loss of his youngest son he will set up its gates.”
 <sup>27</sup> So Yahweh was with Joshua; and his fame was in all the land.
+
 ## Chapter 7
 
 <sup>1</sup> But the children of Israel committed a trespass in the devoted things; for Achan, the son of Carmi, the son of Zabdi, the son of Zerah, of the tribe of Judah, took some of the devoted things. Therefore Yahweh’s anger burned against the children of Israel.
-<sup>2</sup> Joshua sent men from Jericho to Ai, which is beside Beth Aven, on the east side of Bethel, and spoke to them, saying, “Go up and spy out the land.” The men went up and spied out Ai.
+<sup>2</sup> Joshua sent men from Jericho to Ai, which is beside Beth Aven, on the east side of Bethel, and spoke to them, saying, “Go up and spy out the land.”
+
+The men went up and spied out Ai.
 <sup>3</sup> They returned to Joshua, and said to him, “Don’t let all the people go up, but let about two or three thousand men go up and strike Ai. Don’t make all the people to toil there, for there are only a few of them.”
 <sup>4</sup> So about three thousand men of the people went up there, and they fled before the men of Ai.
 <sup>5</sup> The men of Ai struck about thirty-six men of them. They chased them from before the gate even to Shebarim, and struck them at the descent. The hearts of the people melted, and became like water.
@@ -240,7 +246,9 @@
 <sup>16</sup> All the people who were in the city were called together to pursue after them. They pursued Joshua, and were drawn away from the city.
 <sup>17</sup> There was not a man left in Ai or Bethel who didn’t go out after Israel. They left the city open, and pursued Israel.
 
-<sup>18</sup> Yahweh said to Joshua, “Stretch out the javelin that is in your hand toward Ai, for I will give it into your hand.” Joshua stretched out the javelin that was in his hand toward the city.
+<sup>18</sup> Yahweh said to Joshua, “Stretch out the javelin that is in your hand toward Ai, for I will give it into your hand.”
+
+Joshua stretched out the javelin that was in his hand toward the city.
 <sup>19</sup> The ambush arose quickly out of their place, and they ran as soon as he had stretched out his hand and entered into the city and took it. They hurried and set the city on fire.
 <sup>20</sup> When the men of Ai looked behind them, they saw, and behold, the smoke of the city ascended up to heaven, and they had no power to flee this way or that way. The people who fled to the wilderness turned back on the pursuers.
 <sup>21</sup> When Joshua and all Israel saw that the ambush had taken the city, and that the smoke of the city ascended, then they turned back and killed the men of Ai.
@@ -260,6 +268,7 @@
 <sup>33</sup> All Israel, with their elders, officers, and judges, stood on both sides of the ark before the Levitical priests, who carried the ark of Yahweh’s covenant, the foreigner as well as the native; half of them in front of Mount Gerizim, and half of them in front of Mount Ebal, as Moses the servant of Yahweh had commanded at the first, that they should bless the people of Israel.
 <sup>34</sup> Afterward he read all the words of the law, the blessing and the curse, according to all that is written in the book of the law.
 <sup>35</sup> There was not a word of all that Moses commanded which Joshua didn’t read before all the assembly of Israel, with the women, the little ones, and the foreigners who were among them.
+
 ## Chapter 9
 
 <sup>1</sup> When all the kings who were beyond the Jordan, in the hill country, and in the lowland, and on all the shore of the great sea in front of Lebanon, the Hittite, the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite, heard of it
@@ -271,7 +280,9 @@
 
 <sup>7</sup> The men of Israel said to the Hivites, “What if you live among us? How could we make a covenant with you?”
 
-<sup>8</sup> They said to Joshua, “We are your servants.” Joshua said to them, “Who are you? Where do you come from?”
+<sup>8</sup> They said to Joshua, “We are your servants.”
+
+Joshua said to them, “Who are you? Where do you come from?”
 
 <sup>9</sup> They said to him, “Your servants have come from a very far country because of the name of Yahweh your God; for we have heard of his fame, all that he did in Egypt,
 <sup>10</sup> and all that he did to the two kings of the Amorites who were beyond the Jordan, to Sihon king of Heshbon and to Og king of Bashan, who was at Ashtaroth.
@@ -296,6 +307,7 @@
 
 <sup>26</sup> He did so to them, and delivered them out of the hand of the children of Israel, so that they didn’t kill them.
 <sup>27</sup> That day Joshua made them wood cutters and drawers of water for the congregation and for Yahweh’s altar to this day, in the place which he should choose.
+
 ## Chapter 10
 
 <sup>1</sup> Now when Adoni-Zedek king of Jerusalem heard how Joshua had taken Ai, and had utterly destroyed it; as he had done to Jericho and her king, so he had done to Ai and her king; and how the inhabitants of Gibeon had made peace with Israel, and were among them,
@@ -329,7 +341,9 @@
 <sup>22</sup> Then Joshua said, “Open the cave entrance, and bring those five kings out of the cave to me.”
 
 <sup>23</sup> They did so, and brought those five kings out of the cave to him: the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, and the king of Eglon.
-<sup>24</sup> When they brought those kings out to Joshua, Joshua called for all the men of Israel, and said to the chiefs of the men of war who went with him, “Come near. Put your feet on the necks of these kings.” They came near, and put their feet on their necks.
+<sup>24</sup> When they brought those kings out to Joshua, Joshua called for all the men of Israel, and said to the chiefs of the men of war who went with him, “Come near. Put your feet on the necks of these kings.”
+
+They came near, and put their feet on their necks.
 
 <sup>25</sup> Joshua said to them, “Don’t be afraid, nor be dismayed. Be strong and courageous, for Yahweh will do this to all your enemies against whom you fight.”
 
@@ -357,6 +371,7 @@
 <sup>41</sup> Joshua struck them from Kadesh Barnea even to Gaza, and all the country of Goshen, even to Gibeon.
 <sup>42</sup> Joshua took all these kings and their land at one time because Yahweh, the God of Israel, fought for Israel.
 <sup>43</sup> Joshua returned, and all Israel with him, to the camp to Gilgal.
+
 ## Chapter 11
 
 <sup>1</sup> When Jabin king of Hazor heard of it, he sent to Jobab king of Madon, to the king of Shimron, to the king of Achshaph,
@@ -385,6 +400,7 @@
 <sup>21</sup> Joshua came at that time, and cut off the Anakim from the hill country, from Hebron, from Debir, from Anab, and from all the hill country of Judah, and from all the hill country of Israel. Joshua utterly destroyed them with their cities.
 <sup>22</sup> There were none of the Anakim left in the land of the children of Israel. Only in Gaza, in Gath, and in Ashdod, did some remain.
 <sup>23</sup> So Joshua took the whole land, according to all that Yahweh spoke to Moses; and Joshua gave it for an inheritance to Israel according to their divisions by their tribes. Then the land had rest from war.
+
 ## Chapter 12
 
 <sup>1</sup> Now these are the kings of the land, whom the children of Israel struck, and possessed their land beyond the Jordan toward the sunrise, from the valley of the Arnon to Mount Hermon, and all the Arabah eastward:
@@ -412,6 +428,7 @@
 <sup>22</sup> the king of Kedesh, one;
 <sup>23</sup> the king of Dor in the height of Dor, one;
 <sup>24</sup> the king of Tirzah, one:
+
 ## Chapter 13
 
 <sup>1</sup> Now Joshua was old and well advanced in years. Yahweh said to him, “You are old and advanced in years, and there remains yet very much land to be possessed.
@@ -452,6 +469,7 @@
 
 <sup>32</sup> These are the inheritances which Moses distributed in the plains of Moab, beyond the Jordan at Jericho, eastward.
 <sup>33</sup> But Moses gave no inheritance to the tribe of Levi. Yahweh, the God of Israel, is their inheritance, as he spoke to them.
+
 ## Chapter 14
 
 <sup>1</sup> These are the inheritances which the children of Israel took in the land of Canaan, which Eleazar the priest, Joshua the son of Nun, and the heads of the fathers’ houses of the tribes of the children of Israel, distributed to them,
@@ -472,6 +490,7 @@
 <sup>13</sup> Joshua blessed him; and he gave Hebron to Caleb the son of Jephunneh for an inheritance.
 <sup>14</sup> Therefore Hebron became the inheritance of Caleb the son of Jephunneh the Kenizzite to this day, because he followed Yahweh, the God of Israel wholeheartedly.
 <sup>15</sup> Now the name of Hebron before was Kiriath Arba, after the greatest man among the Anakim. Then the land had rest from war.
+
 ## Chapter 15
 
 <sup>1</sup> The lot for the tribe of the children of Judah according to their families was to the border of Edom, even to the wilderness of Zin southward, at the uttermost part of the south.
@@ -494,7 +513,9 @@
 <sup>17</sup> Othniel the son of Kenaz, the brother of Caleb, took it: and he gave him Achsah his daughter as wife.
 <sup>18</sup> When she came, she had him ask her father for a field. She got off her donkey, and Caleb said, “What do you want?”
 
-<sup>19</sup> She said, “Give me a blessing. Because you have set me in the land of the South, give me also springs of water.” So he gave her the upper springs and the lower springs.
+<sup>19</sup> She said, “Give me a blessing. Because you have set me in the land of the South, give me also springs of water.”
+
+So he gave her the upper springs and the lower springs.
 
 <sup>20</sup> This is the inheritance of the tribe of the children of Judah according to their families.
 <sup>21</sup> The farthest cities of the tribe of the children of Judah toward the border of Edom in the South were Kabzeel, Eder, Jagur,
@@ -541,6 +562,7 @@
 <sup>62</sup> Nibshan, the City of Salt, and En Gedi; six cities with their villages.
 
 <sup>63</sup> As for the Jebusites, the inhabitants of Jerusalem, the children of Judah couldn’t drive them out; but the Jebusites live with the children of Judah at Jerusalem to this day.
+
 ## Chapter 16
 
 <sup>1</sup> The lot came out for the children of Joseph from the Jordan at Jericho, at the waters of Jericho on the east, even the wilderness, going up from Jericho through the hill country to Bethel.
@@ -554,6 +576,7 @@
 <sup>8</sup> From Tappuah the border went along westward to the brook of Kanah; and ended at the sea. This is the inheritance of the tribe of the children of Ephraim according to their families;
 <sup>9</sup> together with the cities which were set apart for the children of Ephraim in the middle of the inheritance of the children of Manasseh, all the cities with their villages.
 <sup>10</sup> They didn’t drive out the Canaanites who lived in Gezer; but the Canaanites dwell in the territory of Ephraim to this day, and have become servants to do forced labor.
+
 ## Chapter 17
 
 <sup>1</sup> This was the lot for the tribe of Manasseh, for he was the firstborn of Joseph. As for Machir the firstborn of Manasseh, the father of Gilead, because he was a man of war, therefore he had Gilead and Bashan.
@@ -578,6 +601,7 @@
 
 <sup>17</sup> Joshua spoke to the house of Joseph, that is, to Ephraim and to Manasseh, saying, “You are a numerous people, and have great power. You shall not have one lot only;
 <sup>18</sup> but the hill country shall be yours. Although it is a forest, you shall cut it down, and it’s farthest extent shall be yours; for you shall drive out the Canaanites, though they have chariots of iron, and though they are strong.”
+
 ## Chapter 18
 
 <sup>1</sup> The whole congregation of the children of Israel assembled themselves together at Shiloh, and set up the Tent of Meeting there. The land was subdued before them.
@@ -611,6 +635,7 @@
 <sup>26</sup> Mizpeh, Chephirah, Mozah,
 <sup>27</sup> Rekem, Irpeel, Taralah,
 <sup>28</sup> Zelah, Eleph, the Jebusite (also called Jerusalem), Gibeath, and Kiriath; fourteen cities with their villages. This is the inheritance of the children of Benjamin according to their families.
+
 ## Chapter 19
 
 <sup>1</sup> The second lot came out for Simeon, even for the tribe of the children of Simeon according to their families. Their inheritance was in the middle of the inheritance of the children of Judah.
@@ -670,6 +695,7 @@
 <sup>49</sup> So they finished distributing the land for inheritance by its borders. The children of Israel gave an inheritance to Joshua the son of Nun among them.
 <sup>50</sup> According to Yahweh’s commandment, they gave him the city which he asked, even Timnathserah in the hill country of Ephraim; and he built the city, and lived there.
 <sup>51</sup> These are the inheritances, which Eleazar the priest, Joshua the son of Nun, and the heads of the fathers’ houses of the tribes of the children of Israel, distributed for inheritance by lot in Shiloh before Yahweh, at the door of the Tent of Meeting. So they finished dividing the land.
+
 ## Chapter 20
 
 <sup>1</sup> Yahweh spoke to Joshua, saying,
@@ -682,6 +708,7 @@
 <sup>7</sup> They set apart Kedesh in Galilee in the hill country of Naphtali, Shechem in the hill country of Ephraim, and Kiriath Arba (also called Hebron) in the hill country of Judah.
 <sup>8</sup> Beyond the Jordan at Jericho eastward, they assigned Bezer in the wilderness in the plain out of the tribe of Reuben, Ramoth in Gilead out of the tribe of Gad, and Golan in Bashan out of the tribe of Manasseh.
 <sup>9</sup> These were the appointed cities for all the children of Israel, and for the alien who lives among them, that whoever kills any person unintentionally might flee there, and not die by the hand of the avenger of blood, until he stands trial before the congregation.
+
 ## Chapter 21
 
 <sup>1</sup> Then the heads of fathers’ houses of the Levites came near to Eleazar the priest, and to Joshua the son of Nun, and to the heads of fathers’ houses of the tribes of the children of Israel.
@@ -735,6 +762,7 @@
 <sup>43</sup> So Yahweh gave to Israel all the land which he swore to give to their fathers. They possessed it, and lived in it.
 <sup>44</sup> Yahweh gave them rest all around, according to all that he swore to their fathers. Not a man of all their enemies stood before them. Yahweh delivered all their enemies into their hand.
 <sup>45</sup> Nothing failed of any good thing which Yahweh had spoken to the house of Israel. All came to pass.
+
 ## Chapter 22
 
 <sup>1</sup> Then Joshua called the Reubenites, the Gadites, and the half-tribe of Manasseh,
@@ -779,6 +807,7 @@
 <sup>32</sup> Phinehas the son of Eleazar the priest, and the princes, returned from the children of Reuben, and from the children of Gad, out of the land of Gilead, to the land of Canaan, to the children of Israel, and brought them word again.
 <sup>33</sup> The thing pleased the children of Israel; and the children of Israel blessed God, and spoke no more of going up against them to war, to destroy the land in which the children of Reuben and the children of Gad lived.
 <sup>34</sup> The children of Reuben and the children of Gad named the altar “A Witness Between Us that Yahweh is God.”
+
 ## Chapter 23
 
 <sup>1</sup> After many days, when Yahweh had given rest to Israel from their enemies all around, and Joshua was old and well advanced in years,
@@ -801,6 +830,7 @@
 <sup>14</sup> “Behold, today I am going the way of all the earth. You know in all your hearts and in all your souls that not one thing has failed of all the good things which Yahweh your God spoke concerning you. All have happened to you. Not one thing has failed of it.
 <sup>15</sup> It shall happen that as all the good things have come on you of which Yahweh your God spoke to you, so Yahweh will bring on you all the evil things, until he has destroyed you from off this good land which Yahweh your God has given you,
 <sup>16</sup> when you disobey the covenant of Yahweh your God, which he commanded you, and go and serve other gods, and bow down yourselves to them. Then Yahweh’s anger will be kindled against you, and you will perish quickly from off the good land which he has given to you.”
+
 ## Chapter 24
 
 <sup>1</sup> Joshua gathered all the tribes of Israel to Shechem, and called for the elders of Israel, for their heads, for their judges, and for their officers; and they presented themselves before God.
@@ -831,7 +861,9 @@
 <sup>20</sup> If you forsake Yahweh, and serve foreign gods, then he will turn and do you evil, and consume you, after he has done you good.”
 
 <sup>21</sup> The people said to Joshua, “No, but we will serve Yahweh.”
-<sup>22</sup> Joshua said to the people, “You are witnesses against yourselves that you have chosen Yahweh yourselves, to serve him.” They said, “We are witnesses.”
+<sup>22</sup> Joshua said to the people, “You are witnesses against yourselves that you have chosen Yahweh yourselves, to serve him.”
+
+They said, “We are witnesses.”
 
 <sup>23</sup> “Now therefore put away the foreign gods which are among you, and incline your heart to Yahweh, the God of Israel.”
 

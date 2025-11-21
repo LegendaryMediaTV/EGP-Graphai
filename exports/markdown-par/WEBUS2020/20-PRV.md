@@ -106,6 +106,7 @@
 <sup>33</sup> Yahweh’s curse is in the house of the wicked,<br>but he blesses the habitation of the righteous.<br>
 <sup>34</sup> Surely he mocks the mockers,<br>but he gives grace to the humble.<br>
 <sup>35</sup> The wise will inherit glory,<br>but shame will be the promotion of fools.
+
 ## Chapter 4
 
 <sup>1</sup> Listen, sons, to a father’s instruction.<br>Pay attention and know understanding;<br>
@@ -137,6 +138,7 @@
 <sup>25</sup> Let your eyes look straight ahead.<br>Fix your gaze directly before you.<br>
 <sup>26</sup> Make the path of your feet level.<br>Let all of your ways be established.<br>
 <sup>27</sup> Don’t turn to the right hand nor to the left.<br>Remove your foot from evil.
+
 ## Chapter 5
 
 <sup>1</sup> My son, pay attention to my wisdom.<br>Turn your ear to my understanding,<br>
@@ -208,6 +210,7 @@
 <sup>33</sup> He will get wounds and dishonor.<br>His reproach will not be wiped away.<br>
 <sup>34</sup> For jealousy arouses the fury of the husband.<br>He won’t spare in the day of vengeance.<br>
 <sup>35</sup> He won’t regard any ransom,<br>neither will he rest content, though you give many gifts.
+
 ## Chapter 7
 
 <sup>1</sup> My son, keep my words.<br>Lay up my commandments within you.<br>
@@ -282,6 +285,7 @@
 <sup>34</sup> Blessed is the man who hears me,<br>watching daily at my gates,<br>waiting at my door posts.<br>
 <sup>35</sup> For whoever finds me finds life,<br>and will obtain favor from Yahweh.<br>
 <sup>36</sup> But he who sins against me wrongs his own soul.<br>All those who hate me love death.”
+
 ## Chapter 9
 
 <sup>1</sup> Wisdom has built her house.<br>She has carved out her seven pillars.<br>
@@ -341,6 +345,7 @@
 <sup>30</sup> The righteous will never be removed,<br>but the wicked will not dwell in the land.<br>
 <sup>31</sup> The mouth of the righteous produces wisdom,<br>but the perverse tongue will be cut off.<br>
 <sup>32</sup> The lips of the righteous know what is acceptable,<br>but the mouth of the wicked is perverse.
+
 ## Chapter 11
 
 <sup>1</sup> A false balance is an abomination to Yahweh,<br>but accurate weights are his delight.<br>
@@ -407,6 +412,7 @@
 <sup>26</sup> A righteous person is cautious in friendship,<br>but the way of the wicked leads them astray.<br>
 <sup>27</sup> The slothful man doesn’t roast his game,<br>but the possessions of diligent men are prized.<br>
 <sup>28</sup> In the way of righteousness is life;<br>in its path there is no death.
+
 ## Chapter 13
 
 <sup>1</sup> A wise son listens to his father’s instruction,<br>but a scoffer doesn’t listen to rebuke.<br>
@@ -434,6 +440,7 @@
 <sup>23</sup> An abundance of food is in poor people’s fields,<br>but injustice sweeps it away.<br>
 <sup>24</sup> One who spares the rod hates his son,<br>but one who loves him is careful to discipline him.<br>
 <sup>25</sup> The righteous one eats to the satisfying of his soul,<br>but the belly of the wicked goes hungry.
+
 ## Chapter 14
 
 <sup>1</sup> Every wise woman builds her house,<br>but the foolish one tears it down with her own hands.<br>
@@ -471,6 +478,7 @@
 <sup>33</sup> Wisdom rests in the heart of one who has understanding,<br>and is even made known in the inward part of fools.<br>
 <sup>34</sup> Righteousness exalts a nation,<br>but sin is a disgrace to any people.<br>
 <sup>35</sup> The king’s favor is toward a servant who deals wisely,<br>but his wrath is toward one who causes shame.
+
 ## Chapter 15
 
 <sup>1</sup> A gentle answer turns away wrath,<br>but a harsh word stirs up anger.<br>
@@ -545,6 +553,7 @@
 <sup>31</sup> Gray hair is a crown of glory.<br>It is attained by a life of righteousness.<br>
 <sup>32</sup> One who is slow to anger is better than the mighty;<br>one who rules his spirit, than he who takes a city.<br>
 <sup>33</sup> The lot is cast into the lap,<br>but its every decision is from Yahweh.
+
 ## Chapter 17
 
 <sup>1</sup> Better is a dry morsel with quietness,<br>than a house full of feasting with strife.<br>
@@ -575,6 +584,7 @@
 <sup>26</sup> Also to punish the righteous is not good,<br>nor to flog officials for their integrity.<br>
 <sup>27</sup> He who spares his words has knowledge.<br>He who is even tempered is a man of understanding.<br>
 <sup>28</sup> Even a fool, when he keeps silent, is counted wise.<br>When he shuts his lips, he is thought to be discerning.
+
 ## Chapter 18
 
 <sup>1</sup> A man who isolates himself pursues selfishness,<br>and defies all sound judgment.<br>
@@ -601,6 +611,7 @@
 <sup>22</sup> Whoever finds a wife finds a good thing,<br>and obtains favor of Yahweh.<br>
 <sup>23</sup> The poor plead for mercy,<br>but the rich answer harshly.<br>
 <sup>24</sup> A man of many companions may be ruined,<br>but there is a friend who sticks closer than a brother.
+
 ## Chapter 19
 
 <sup>1</sup> Better is the poor who walks in his integrity<br>than he who is perverse in his lips and is a fool.<br>
@@ -632,6 +643,9 @@
 <sup>27</sup> If you stop listening to instruction, my son,<br>you will stray from the words of knowledge.<br>
 <sup>28</sup> A corrupt witness mocks justice,<br>and the mouth of the wicked gulps down iniquity.<br>
 <sup>29</sup> Penalties are prepared for scoffers,<br>and beatings for the backs of fools.
+
+
+
 ## Chapter 20
 
 <sup>1</sup> Wine is a mocker and beer is a brawler.<br>Whoever is led astray by them is not wise.<br>
@@ -664,6 +678,9 @@
 <sup>28</sup> Love and faithfulness keep the king safe.<br>His throne is sustained by love.<br>
 <sup>29</sup> The glory of young men is their strength.<br>The splendor of old men is their gray hair.<br>
 <sup>30</sup> Wounding blows cleanse away evil,<br>and beatings purge the innermost parts.
+
+
+
 ## Chapter 21
 
 <sup>1</sup> The king’s heart is in Yahweh’s hand like the watercourses.<br>He turns it wherever he desires.<br>
@@ -697,6 +714,9 @@
 <sup>29</sup> A wicked man hardens his face;<br>but as for the upright, he establishes his ways.<br>
 <sup>30</sup> There is no wisdom nor understanding<br>nor counsel against Yahweh.<br>
 <sup>31</sup> The horse is prepared for the day of battle;<br>but victory is with Yahweh.
+
+
+
 ## Chapter 22
 
 <sup>1</sup> A good name is more desirable than great riches,<br>and loving favor is better than silver and gold.<br>
@@ -718,7 +738,7 @@
 
 <sup>17</sup> Turn your ear, and listen to the words of the wise.<br>Apply your heart to my teaching.<br>
 <sup>18</sup> For it is a pleasant thing if you keep them within you,<br>if all of them are ready on your lips.<br>
-<sup>19</sup> I teach you today, even you,<br>so that your trust may be in Yahweh.<br>
+<sup>19</sup>  I teach you today, even you,<br>so that your trust may be in Yahweh.<br>
 <sup>20</sup> Haven’t I written to you thirty excellent things<br>of counsel and knowledge,<br>
 <sup>21</sup> To teach you truth, reliable words,<br>to give sound answers to the ones who sent you?
 
@@ -734,6 +754,9 @@
 <sup>28</sup> Don’t move the ancient boundary stone<br>which your fathers have set up.
 
 <sup>29</sup> Do you see a man skilled in his work?<br>He will serve kings.<br>He won’t serve obscure men.
+
+
+
 ## Chapter 23
 
 <sup>1</sup> When you sit to eat with a ruler,<br>consider diligently what is before you;<br>
@@ -777,6 +800,8 @@
 <sup>34</sup> Yes, you will be as he who lies down in the middle of the sea,<br>or as he who lies on top of the rigging:<br>
 <sup>35</sup> “They hit me, and I was not hurt!<br>They beat me, and I don’t feel it!<br>When will I wake up? I can do it again.<br>I will look for more.”
 
+
+
 > - <sup>a</sup> 14. Sheol is the place of the dead.
 
 ## Chapter 24
@@ -804,7 +829,9 @@
 <sup>21</sup> My son, fear Yahweh and the king.<br>Don’t join those who are rebellious,<br>
 <sup>22</sup> for their calamity will rise suddenly.<br>Who knows what destruction may come from them both?
 
-<sup>23</sup> These also are sayings of the wise: To show partiality in judgment is not good.<br>
+<sup>23</sup> These also are sayings of the wise:<br>
+
+To show partiality in judgment is not good.<br>
 <sup>24</sup> He who says to the wicked, “You are righteous,”<br>peoples will curse him, and nations will abhor him—<br>
 <sup>25</sup> but it will go well with those who convict the guilty,<br>and a rich blessing will come on them.<br>
 <sup>26</sup> An honest answer<br>is like a kiss on the lips.<br>
@@ -816,6 +843,7 @@
 <sup>32</sup> Then I saw, and considered well.<br>I saw, and received instruction:<br>
 <sup>33</sup> a little sleep, a little slumber,<br>a little folding of the hands to sleep,<br>
 <sup>34</sup> so your poverty will come as a robber<br>and your want as an armed man.
+
 ## Chapter 25
 
 <sup>1</sup> These also are proverbs of Solomon, which the men of Hezekiah king of Judah copied out.<br>
@@ -847,6 +875,7 @@
 <sup>26</sup> Like a muddied spring and a polluted well,<br>so is a righteous man who gives way before the wicked.<br>
 <sup>27</sup> It is not good to eat much honey,<br>nor is it honorable to seek one’s own honor.<br>
 <sup>28</sup> Like a city that is broken down and without walls<br>is a man whose spirit is without restraint.
+
 ## Chapter 26
 
 <sup>1</sup> Like snow in summer, and as rain in harvest,<br>so honor is not fitting for a fool.<br>
@@ -877,6 +906,7 @@
 <sup>26</sup> His malice may be concealed by deception,<br>but his wickedness will be exposed in the assembly.<br>
 <sup>27</sup> Whoever digs a pit shall fall into it.<br>Whoever rolls a stone, it will come back on him.<br>
 <sup>28</sup> A lying tongue hates those it hurts;<br>and a flattering mouth works ruin.
+
 ## Chapter 27
 
 <sup>1</sup> Don’t boast about tomorrow;<br>for you don’t know what a day may bring.<br>
@@ -941,6 +971,7 @@
 <sup>26</sup> One who trusts in himself is a fool;<br>but one who walks in wisdom is kept safe.<br>
 <sup>27</sup> One who gives to the poor has no lack;<br>but one who closes his eyes will have many curses.<br>
 <sup>28</sup> When the wicked rise, men hide themselves;<br>but when they perish, the righteous thrive.
+
 ## Chapter 29
 
 <sup>1</sup> He who is often rebuked and stiffens his neck<br>will be destroyed suddenly, with no remedy.<br>
@@ -970,6 +1001,7 @@
 <sup>25</sup> The fear of man proves to be a snare,<br>but whoever puts his trust in Yahweh is kept safe.<br>
 <sup>26</sup> Many seek the ruler’s favor,<br>but a man’s justice comes from Yahweh.<br>
 <sup>27</sup> A dishonest man detests the righteous,<br>and the upright in their ways detest the wicked.
+
 ## Chapter 30
 
 <sup>1</sup> The words of Agur the son of Jakeh, the revelation:<br>the man says to Ithiel,<br>to Ithiel and Ucal:<br>
@@ -991,7 +1023,9 @@
 <sup>13</sup> There is a generation, oh how lofty are their eyes!<br>Their eyelids are lifted up.<br>
 <sup>14</sup> There is a generation whose teeth are like swords,<br>and their jaws like knives,<br>to devour the poor from the earth, and the needy from among men.
 
-<sup>15</sup> “The leech has two daughters:<br>‘Give, give.’ “There are three things that are never satisfied;<br>four that don’t say, ‘Enough!’:<br>
+<sup>15</sup> “The leech has two daughters:<br>‘Give, give.’<br>
+
+“There are three things that are never satisfied;<br>four that don’t say, ‘Enough!’:<br>
 <sup>16</sup> Sheol,<sup>a</sup><br>the barren womb,<br>the earth that is not satisfied with water,<br>and the fire that doesn’t say, ‘Enough!’
 
 <sup>17</sup> “The eye that mocks at his father,<br>and scorns obedience to his mother,<br>the ravens of the valley shall pick it out,<br>the young eagles shall eat it.
@@ -1033,7 +1067,9 @@
 <sup>8</sup> Open your mouth for the mute,<br>in the cause of all who are left desolate.<br>
 <sup>9</sup> Open your mouth, judge righteously,<br>and serve justice to the poor and needy.”
 
-<sup>10</sup> Who can find a worthy woman?<br>For her value is far above rubies.<br>
+<sup>10</sup> 
+
+Who can find a worthy woman?<br>For her value is far above rubies.<br>
 <sup>11</sup> The heart of her husband trusts in her.<br>He shall have no lack of gain.<br>
 <sup>12</sup> She does him good, and not harm,<br>all the days of her life.<br>
 <sup>13</sup> She seeks wool and flax,<br>and works eagerly with her hands.<br>

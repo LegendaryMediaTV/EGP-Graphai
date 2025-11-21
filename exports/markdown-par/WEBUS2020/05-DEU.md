@@ -113,6 +113,7 @@
 <sup>35</sup> Only the livestock we took for plunder for ourselves, with the plunder of the cities which we had taken.
 <sup>36</sup> From Aroer, which is on the edge of the valley of the Arnon, and the city that is in the valley, even to Gilead, there was not a city too high for us. Yahweh our God delivered up all before us.
 <sup>37</sup> Only to the land of the children of Ammon you didn’t come near: all the banks of the river Jabbok, and the cities of the hill country, and wherever Yahweh our God forbade us.
+
 ## Chapter 3
 
 <sup>1</sup> Then we turned, and went up the way to Bashan. Og the king of Bashan came out against us, he and all his people, to battle at Edrei.
@@ -207,6 +208,7 @@
 <sup>47</sup> They took possession of his land and the land of Og king of Bashan, the two kings of the Amorites, who were beyond the Jordan toward the sunrise;
 <sup>48</sup> from Aroer, which is on the edge of the valley of the Arnon, even to Mount Zion (also called Hermon),
 <sup>49</sup> and all the Arabah beyond the Jordan eastward, even to the sea of the Arabah, under the slopes of Pisgah.
+
 ## Chapter 5
 
 <sup>1</sup> Moses called to all Israel, and said to them, “Hear, Israel, the statutes and the ordinances which I speak in your ears today, that you may learn them, and observe to do them.”
@@ -289,6 +291,7 @@
 <sup>23</sup> and he brought us out from there, that he might bring us in, to give us the land which he swore to our fathers.
 <sup>24</sup> Yahweh commanded us to do all these statutes, to fear Yahweh our God, for our good always, that he might preserve us alive, as we are today.
 <sup>25</sup> It shall be righteousness to us, if we observe to do all these commandments before Yahweh our God, as he has commanded us.”
+
 ## Chapter 7
 
 <sup>1</sup> When Yahweh your God brings you into the land where you go to possess it, and casts out many nations before you—the Hittite, the Girgashite, the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite—seven nations greater and mightier than you;
@@ -317,6 +320,7 @@
 <sup>24</sup> He will deliver their kings into your hand, and you shall make their name perish from under the sky. No one will be able to stand before you until you have destroyed them.
 <sup>25</sup> You shall burn the engraved images of their gods with fire. You shall not covet the silver or the gold that is on them, nor take it for yourself, lest you be snared in it; for it is an abomination to Yahweh your God.
 <sup>26</sup> You shall not bring an abomination into your house and become a devoted thing like it. You shall utterly detest it. You shall utterly abhor it; for it is a devoted thing.
+
 ## Chapter 8
 
 <sup>1</sup> You shall observe to do all the commandments which I command you today, that you may live, and multiply, and go in and possess the land which Yahweh swore to your fathers.
@@ -341,6 +345,7 @@
 
 <sup>19</sup> It shall be, if you shall forget Yahweh your God, and walk after other gods, and serve them and worship them, I testify against you today that you shall surely perish.
 <sup>20</sup> As the nations that Yahweh makes to perish before you, so you shall perish, because you wouldn’t listen to Yahweh your God’s voice.
+
 ## Chapter 9
 
 <sup>1</sup> Hear, Israel! You are to pass over the Jordan today, to go in to dispossess nations greater and mightier than yourself, cities great and fortified up to the sky,
@@ -376,6 +381,7 @@
 <sup>27</sup> Remember your servants, Abraham, Isaac, and Jacob. Don’t look at the stubbornness of this people, nor at their wickedness, nor at their sin,
 <sup>28</sup> lest the land you brought us out from say, ‘Because Yahweh was not able to bring them into the land which he promised to them, and because he hated them, he has brought them out to kill them in the wilderness.’
 <sup>29</sup> Yet they are your people and your inheritance, which you brought out by your great power and by your outstretched arm.”
+
 ## Chapter 10
 
 <sup>1</sup> At that time Yahweh said to me, “Cut two stone tablets like the first, and come up to me onto the mountain, and make an ark of wood.
@@ -403,6 +409,7 @@
 <sup>20</sup> You shall fear Yahweh your God. You shall serve him. You shall cling to him, and you shall swear by his name.
 <sup>21</sup> He is your praise, and he is your God, who has done for you these great and awesome things which your eyes have seen.
 <sup>22</sup> Your fathers went down into Egypt with seventy persons; and now Yahweh your God has made you as the stars of the sky for multitude.
+
 ## Chapter 11
 
 <sup>1</sup> Therefore you shall love Yahweh your God, and keep his instructions, his statutes, his ordinances, and his commandments, always.
@@ -438,6 +445,7 @@
 <sup>30</sup> Aren’t they beyond the Jordan, behind the way of the going down of the sun, in the land of the Canaanites who dwell in the Arabah near Gilgal, beside the oaks of Moreh?
 <sup>31</sup> For you are to pass over the Jordan to go in to possess the land which Yahweh your God gives you, and you shall possess it and dwell in it.
 <sup>32</sup> You shall observe to do all the statutes and the ordinances which I set before you today.
+
 ## Chapter 12
 
 <sup>1</sup> These are the statutes and the ordinances which you shall observe to do in the land which Yahweh, the God of your fathers, has given you to possess all the days that you live on the earth.
@@ -475,6 +483,7 @@
 <sup>30</sup> be careful that you are not ensnared to follow them after they are destroyed from before you, and that you not inquire after their gods, saying, “How do these nations serve their gods? I will do likewise.”
 <sup>31</sup> You shall not do so to Yahweh your God; for every abomination to Yahweh, which he hates, they have done to their gods; for they even burn their sons and their daughters in the fire to their gods.
 <sup>32</sup> Whatever thing I command you, that you shall observe to do. You shall not add to it, nor take away from it.
+
 ## Chapter 13
 
 <sup>1</sup> If a prophet or a dreamer of dreams arises among you, and he gives you a sign or a wonder,
@@ -497,6 +506,7 @@
 <sup>16</sup> You shall gather all its plunder into the middle of its street, and shall burn with fire the city, with all of its plunder, to Yahweh your God. It shall be a heap forever. It shall not be built again.
 <sup>17</sup> Nothing of the devoted thing shall cling to your hand, that Yahweh may turn from the fierceness of his anger and show you mercy, and have compassion on you and multiply you, as he has sworn to your fathers,
 <sup>18</sup> when you listen to Yahweh your God’s voice, to keep all his commandments which I command you today, to do that which is right in Yahweh your God’s eyes.
+
 ## Chapter 14
 
 <sup>1</sup> You are the children of Yahweh your God. You shall not cut yourselves, nor make any baldness between your eyes for the dead.
@@ -521,7 +531,9 @@
 <sup>19</sup> All winged creeping things are unclean to you. They shall not be eaten.
 <sup>20</sup> Of all clean birds you may eat.
 
-<sup>21</sup> You shall not eat of anything that dies of itself. You may give it to the foreigner living among you who is within your gates, that he may eat it; or you may sell it to a foreigner; for you are a holy people to Yahweh your God. You shall not boil a young goat in its mother’s milk.
+<sup>21</sup> You shall not eat of anything that dies of itself. You may give it to the foreigner living among you who is within your gates, that he may eat it; or you may sell it to a foreigner; for you are a holy people to Yahweh your God.
+
+You shall not boil a young goat in its mother’s milk.
 
 <sup>22</sup> You shall surely tithe all the increase of your seed, that which comes out of the field year by year.
 <sup>23</sup> You shall eat before Yahweh your God, in the place which he chooses to cause his name to dwell, the tithe of your grain, of your new wine, and of your oil, and the firstborn of your herd and of your flock; that you may learn to fear Yahweh your God always.
@@ -531,6 +543,7 @@
 <sup>27</sup> You shall not forsake the Levite who is within your gates, for he has no portion nor inheritance with you.
 <sup>28</sup> At the end of every three years you shall bring all the tithe of your increase in the same year, and shall store it within your gates.
 <sup>29</sup> The Levite, because he has no portion nor inheritance with you, as well as the foreigner living among you, the fatherless, and the widow who are within your gates shall come, and shall eat and be satisfied; that Yahweh your God may bless you in all the work of your hand which you do.
+
 ## Chapter 15
 
 <sup>1</sup> At the end of every seven years, you shall cancel debts.
@@ -556,6 +569,7 @@
 <sup>21</sup> If it has any defect—is lame or blind, or has any defect whatever, you shall not sacrifice it to Yahweh your God.
 <sup>22</sup> You shall eat it within your gates. The unclean and the clean shall eat it alike, as the gazelle and as the deer.
 <sup>23</sup> Only you shall not eat its blood. You shall pour it out on the ground like water.
+
 ## Chapter 16
 
 <sup>1</sup> Observe the month of Abib, and keep the Passover to Yahweh your God; for in the month of Abib Yahweh your God brought you out of Egypt by night.
@@ -582,6 +596,7 @@
 <sup>20</sup> You shall follow that which is altogether just, that you may live and inherit the land which Yahweh your God gives you.
 <sup>21</sup> You shall not plant for yourselves an Asherah of any kind of tree beside Yahweh your God’s altar, which you shall make for yourselves.
 <sup>22</sup> Neither shall you set yourself up a sacred stone which Yahweh your God hates.
+
 ## Chapter 17
 
 <sup>1</sup> You shall not sacrifice to Yahweh your God an ox or a sheep in which is a defect or anything evil; for that is an abomination to Yahweh your God.
@@ -608,6 +623,7 @@
 <sup>18</sup> It shall be, when he sits on the throne of his kingdom, that he shall write himself a copy of this law in a book, out of that which is before the Levitical priests.
 <sup>19</sup> It shall be with him, and he shall read from it all the days of his life, that he may learn to fear Yahweh his God, to keep all the words of this law and these statutes, to do them;
 <sup>20</sup> that his heart not be lifted up above his brothers, and that he not turn away from the commandment to the right hand, or to the left, to the end that he may prolong his days in his kingdom, he and his children, in the middle of Israel.
+
 ## Chapter 18
 
 <sup>1</sup> The priests and the Levites—all the tribe of Levi—shall have no portion nor inheritance with Israel. They shall eat the offerings of Yahweh made by fire and his portion.
@@ -636,6 +652,7 @@
 
 <sup>21</sup> You may say in your heart, “How shall we know the word which Yahweh has not spoken?”
 <sup>22</sup> When a prophet speaks in Yahweh’s name, if the thing doesn’t follow, nor happen, that is the thing which Yahweh has not spoken. The prophet has spoken it presumptuously. You shall not be afraid of him.
+
 ## Chapter 19
 
 <sup>1</sup> When Yahweh your God cuts off the nations whose land Yahweh your God gives you, and you succeed them and dwell in their cities and in their houses,
@@ -661,6 +678,7 @@
 <sup>19</sup> then you shall do to him as he had thought to do to his brother. So you shall remove the evil from among you.
 <sup>20</sup> Those who remain shall hear, and fear, and will never again commit any such evil among you.
 <sup>21</sup> Your eyes shall not pity: life for life, eye for eye, tooth for tooth, hand for hand, foot for foot.
+
 ## Chapter 20
 
 <sup>1</sup> When you go out to battle against your enemies, and see horses, chariots, and a people more numerous than you, you shall not be afraid of them; for Yahweh your God, who brought you up out of the land of Egypt, is with you.
@@ -685,6 +703,7 @@
 <sup>18</sup> that they not teach you to follow all their abominations, which they have done for their gods; so would you sin against Yahweh your God.
 <sup>19</sup> When you shall besiege a city a long time, in making war against it to take it, you shall not destroy its trees by wielding an ax against them; for you may eat of them. You shall not cut them down, for is the tree of the field man, that it should be besieged by you?
 <sup>20</sup> Only the trees that you know are not trees for food, you shall destroy and cut them down. You shall build bulwarks against the city that makes war with you, until it falls.
+
 ## Chapter 21
 
 <sup>1</sup> If someone is found slain in the land which Yahweh your God gives you to possess, lying in the field, and it isn’t known who has struck him,
@@ -714,6 +733,7 @@
 
 <sup>22</sup> If a man has committed a sin worthy of death, and he is put to death, and you hang him on a tree,
 <sup>23</sup> his body shall not remain all night on the tree, but you shall surely bury him the same day; for he who is hanged is accursed of God. Don’t defile your land which Yahweh your God gives you for an inheritance.
+
 ## Chapter 22
 
 <sup>1</sup> You shall not see your brother’s ox or his sheep go astray and hide yourself from them. You shall surely bring them again to your brother.
@@ -827,6 +847,7 @@
 
 <sup>21</sup> When you harvest your vineyard, you shall not glean it after yourselves. It shall be for the foreigner, for the fatherless, and for the widow.
 <sup>22</sup> You shall remember that you were a slave in the land of Egypt. Therefore I command you to do this thing.
+
 ## Chapter 25
 
 <sup>1</sup> If there is a controversy between men, and they come to judgment and the judges judge them, then they shall justify the righteous and condemn the wicked.
@@ -854,6 +875,7 @@
 <sup>17</sup> Remember what Amalek did to you by the way as you came out of Egypt,
 <sup>18</sup> how he met you by the way, and struck the rearmost of you, all who were feeble behind you, when you were faint and weary; and he didn’t fear God.
 <sup>19</sup> Therefore it shall be, when Yahweh your God has given you rest from all your enemies all around, in the land which Yahweh your God gives you for an inheritance to possess it, that you shall blot out the memory of Amalek from under the sky. You shall not forget.
+
 ## Chapter 26
 
 <sup>1</sup> It shall be, when you have come in to the land which Yahweh your God gives you for an inheritance, possess it, and dwell in it,
@@ -898,29 +920,53 @@
 <sup>12</sup> “These shall stand on Mount Gerizim to bless the people, when you have crossed over the Jordan: Simeon, Levi, Judah, Issachar, Joseph, and Benjamin.
 <sup>13</sup> These shall stand on Mount Ebal for the curse: Reuben, Gad, Asher, Zebulun, Dan, and Naphtali.
 <sup>14</sup> With a loud voice, the Levites shall say to all the men of Israel,
-<sup>15</sup> ‘Cursed is the man who makes an engraved or molten image, an abomination to Yahweh, the work of the hands of the craftsman, and sets it up in secret.’ All the people shall answer and say, ‘Amen.’
+<sup>15</sup> ‘Cursed is the man who makes an engraved or molten image, an abomination to Yahweh, the work of the hands of the craftsman, and sets it up in secret.’
 
-<sup>16</sup> ‘Cursed is he who dishonors his father or his mother.’ All the people shall say, ‘Amen.’
+All the people shall answer and say, ‘Amen.’
 
-<sup>17</sup> ‘Cursed is he who removes his neighbor’s landmark.’ All the people shall say, ‘Amen.’
+<sup>16</sup> ‘Cursed is he who dishonors his father or his mother.’
 
-<sup>18</sup> ‘Cursed is he who leads the blind astray on the road.’ All the people shall say, ‘Amen.’
+All the people shall say, ‘Amen.’
 
-<sup>19</sup> ‘Cursed is he who withholds justice from the foreigner, fatherless, and widow.’ All the people shall say, ‘Amen.’
+<sup>17</sup> ‘Cursed is he who removes his neighbor’s landmark.’
 
-<sup>20</sup> ‘Cursed is he who lies with<sup>a</sup> his father’s wife, because he dishonors his father’s bed.’ All the people shall say, ‘Amen.’
+All the people shall say, ‘Amen.’
 
-<sup>21</sup> ‘Cursed is he who lies with any kind of animal.’ All the people shall say, ‘Amen.’
+<sup>18</sup> ‘Cursed is he who leads the blind astray on the road.’
 
-<sup>22</sup> ‘Cursed is he who lies with his sister, his father’s daughter or his mother’s daughter.’ All the people shall say, ‘Amen.’
+All the people shall say, ‘Amen.’
 
-<sup>23</sup> ‘Cursed is he who lies with his mother-in-law.’ All the people shall say, ‘Amen.’
+<sup>19</sup> ‘Cursed is he who withholds justice from the foreigner, fatherless, and widow.’
 
-<sup>24</sup> ‘Cursed is he who secretly kills his neighbor.’ All the people shall say, ‘Amen.’
+All the people shall say, ‘Amen.’
 
-<sup>25</sup> ‘Cursed is he who takes a bribe to kill an innocent person.’ All the people shall say, ‘Amen.’
+<sup>20</sup> ‘Cursed is he who lies with<sup>a</sup> his father’s wife, because he dishonors his father’s bed.’
 
-<sup>26</sup> ‘Cursed is he who doesn’t uphold the words of this law by doing them.’ All the people shall say, ‘Amen.’ ”
+All the people shall say, ‘Amen.’
+
+<sup>21</sup> ‘Cursed is he who lies with any kind of animal.’
+
+All the people shall say, ‘Amen.’
+
+<sup>22</sup> ‘Cursed is he who lies with his sister, his father’s daughter or his mother’s daughter.’
+
+All the people shall say, ‘Amen.’
+
+<sup>23</sup> ‘Cursed is he who lies with his mother-in-law.’
+
+All the people shall say, ‘Amen.’
+
+<sup>24</sup> ‘Cursed is he who secretly kills his neighbor.’
+
+All the people shall say, ‘Amen.’
+
+<sup>25</sup> ‘Cursed is he who takes a bribe to kill an innocent person.’
+
+All the people shall say, ‘Amen.’
+
+<sup>26</sup> ‘Cursed is he who doesn’t uphold the words of this law by doing them.’
+
+All the people shall say, ‘Amen.’ ”
 
 > - <sup>a</sup> 20. i.e., has sexual relations with
 
@@ -996,10 +1042,13 @@
 <sup>66</sup> Your life will hang in doubt before you. You will be afraid night and day, and will have no assurance of your life.
 <sup>67</sup> In the morning you will say, “I wish it were evening!” and at evening you will say, “I wish it were morning!” for the fear of your heart which you will fear, and for the sights which your eyes will see.
 <sup>68</sup> Yahweh will bring you into Egypt again with ships, by the way of which I told to you that you would never see it again. There you will offer yourselves to your enemies for male and female slaves, and nobody will buy you.
+
 ## Chapter 29
 
 <sup>1</sup> These are the words of the covenant which Yahweh commanded Moses to make with the children of Israel in the land of Moab, in addition to the covenant which he made with them in Horeb.
-<sup>2</sup> Moses called to all Israel, and said to them: Your eyes have seen all that Yahweh did in the land of Egypt to Pharaoh, and to all his servants, and to all his land;
+<sup>2</sup> Moses called to all Israel, and said to them:
+
+Your eyes have seen all that Yahweh did in the land of Egypt to Pharaoh, and to all his servants, and to all his land;
 <sup>3</sup> the great trials which your eyes saw, the signs, and those great wonders.
 <sup>4</sup> But Yahweh has not given you a heart to know, eyes to see, and ears to hear, to this day.
 <sup>5</sup> I have led you forty years in the wilderness. Your clothes have not grown old on you, and your sandals have not grown old on your feet.
@@ -1021,7 +1070,7 @@
 <sup>21</sup> Yahweh will set him apart for evil out of all the tribes of Israel, according to all the curses of the covenant written in this book of the law.
 
 <sup>22</sup> The generation to come—your children who will rise up after you, and the foreigner who will come from a far land—will say, when they see the plagues of that land, and the sicknesses with which Yahweh has made it sick,
-<sup>23</sup> that all of its land is sulfur, salt, and burning, that it is not sown, doesn’t produce, nor does any grass grow in it, like the overthrow of Sodom, Gomorrah, Admah, and Zeboiim, which Yahweh overthrew in his anger, and in his wrath.
+<sup>23</sup>  that all of its land is sulfur, salt, and burning, that it is not sown, doesn’t produce, nor does any grass grow in it, like the overthrow of Sodom, Gomorrah, Admah, and Zeboiim, which Yahweh overthrew in his anger, and in his wrath.
 <sup>24</sup> Even all the nations will say, “Why has Yahweh done this to this land? What does the heat of this great anger mean?”
 
 <sup>25</sup> Then men will say, “Because they abandoned the covenant of Yahweh, the God of their fathers, which he made with them when he brought them out of the land of Egypt,
@@ -1030,6 +1079,7 @@
 <sup>28</sup> Yahweh rooted them out of their land in anger, in wrath, and in great indignation, and thrust them into another land, as it is today.”
 
 <sup>29</sup> The secret things belong to Yahweh our God; but the things that are revealed belong to us and to our children forever, that we may do all the words of this law.
+
 ## Chapter 30
 
 <sup>1</sup> It shall happen, when all these things have come on you, the blessing and the curse, which I have set before you, and you shall call them to mind among all the nations where Yahweh your God has driven you,
@@ -1053,6 +1103,7 @@
 <sup>18</sup> I declare to you today that you will surely perish. You will not prolong your days in the land where you pass over the Jordan to go in to possess it.
 <sup>19</sup> I call heaven and earth to witness against you today that I have set before you life and death, the blessing and the curse. Therefore choose life, that you may live, you and your descendants,
 <sup>20</sup> to love Yahweh your God, to obey his voice, and to cling to him; for he is your life, and the length of your days, that you may dwell in the land which Yahweh swore to your fathers, to Abraham, to Isaac, and to Jacob, to give them.
+
 ## Chapter 31
 
 <sup>1</sup> Moses went and spoke these words to all Israel.
@@ -1071,7 +1122,9 @@
 <sup>12</sup> Assemble the people, the men and the women and the little ones, and the foreigners who are within your gates, that they may hear, learn, fear Yahweh your God, and observe to do all the words of this law,
 <sup>13</sup> and that their children, who have not known, may hear and learn to fear Yahweh your God, as long as you live in the land where you go over the Jordan to possess it.”
 
-<sup>14</sup> Yahweh said to Moses, “Behold, your days approach that you must die. Call Joshua, and present yourselves in the Tent of Meeting, that I may commission him.” Moses and Joshua went, and presented themselves in the Tent of Meeting.
+<sup>14</sup> Yahweh said to Moses, “Behold, your days approach that you must die. Call Joshua, and present yourselves in the Tent of Meeting, that I may commission him.”
+
+Moses and Joshua went, and presented themselves in the Tent of Meeting.
 
 <sup>15</sup> Yahweh appeared in the Tent in a pillar of cloud, and the pillar of cloud stood over the Tent’s door.
 <sup>16</sup> Yahweh said to Moses, “Behold, you shall sleep with your fathers. This people will rise up and play the prostitute after the strange gods of the land where they go to be among them, and will forsake me and break my covenant which I have made with them.
@@ -1094,6 +1147,7 @@
 <sup>29</sup> For I know that after my death you will utterly corrupt yourselves, and turn away from the way which I have commanded you; and evil will happen to you in the latter days, because you will do that which is evil in Yahweh’s sight, to provoke him to anger through the work of your hands.”
 
 <sup>30</sup> Moses spoke in the ears of all the assembly of Israel the words of this song, until they were finished.
+
 ## Chapter 32
 
 <sup>1</sup> Give ear, you heavens, and I will speak.<br>Let the earth hear the words of my mouth.<br>

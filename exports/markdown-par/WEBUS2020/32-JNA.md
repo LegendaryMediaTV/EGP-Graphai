@@ -63,6 +63,7 @@
 <sup>9</sup> Who knows whether God will not turn and relent, and turn away from his fierce anger, so that we might not perish?”
 
 <sup>10</sup> God saw their works, that they turned from their evil way. God relented of the disaster which he said he would do to them, and he didn’t do it.
+
 ## Chapter 4
 
 <sup>1</sup> But it displeased Jonah exceedingly, and he was angry.
@@ -76,7 +77,9 @@
 <sup>7</sup> But God prepared a worm at dawn the next day, and it chewed on the vine so that it withered.
 <sup>8</sup> When the sun arose, God prepared a sultry east wind; and the sun beat on Jonah’s head, so that he was faint and requested for himself that he might die. He said, “It is better for me to die than to live.”
 
-<sup>9</sup> God said to Jonah, “Is it right for you to be angry about the vine?” He said, “I am right to be angry, even to death.”
+<sup>9</sup> God said to Jonah, “Is it right for you to be angry about the vine?”
+
+He said, “I am right to be angry, even to death.”
 
 <sup>10</sup> Yahweh said, “You have been concerned for the vine, for which you have not labored, neither made it grow; which came up in a night and perished in a night.
 <sup>11</sup> Shouldn’t I be concerned for Nineveh, that great city, in which are more than one hundred twenty thousand persons who can’t discern between their right hand and their left hand, and also many animals?”

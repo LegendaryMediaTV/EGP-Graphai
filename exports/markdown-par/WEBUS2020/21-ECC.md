@@ -56,6 +56,7 @@
 <sup>24</sup> There is nothing better for a man than that he should eat and drink, and make his soul enjoy good in his labor. This also I saw, that it is from the hand of God.
 <sup>25</sup> For who can eat, or who can have enjoyment, more than I?
 <sup>26</sup> For to the man who pleases him, God gives wisdom, knowledge, and joy; but to the sinner he gives travail, to gather and to heap up, that he may give to him who pleases God. This also is vanity and a chasing after wind.
+
 ## Chapter 3
 
 <sup>1</sup> For everything there is a season, and a time for every purpose under heaven:<br>
@@ -83,6 +84,7 @@
 <sup>21</sup> Who knows the spirit of man, whether it goes upward, and the spirit of the animal, whether it goes downward to the earth?”
 
 <sup>22</sup> Therefore I saw that there is nothing better than that a man should rejoice in his works, for that is his portion; for who can bring him to see what will be after him?
+
 ## Chapter 4
 
 <sup>1</sup> Then I returned and saw all the oppressions that are done under the sun: and behold, the tears of those who were oppressed, and they had no comforter; and on the side of their oppressors there was power; but they had no comforter.
@@ -105,6 +107,7 @@
 <sup>14</sup> For out of prison he came out to be king; yes, even in his kingdom he was born poor.
 <sup>15</sup> I saw all the living who walk under the sun, that they were with the youth, the other, who succeeded him.
 <sup>16</sup> There was no end of all the people, even of all them over whom he was—yet those who come after shall not rejoice in him. Surely this also is vanity and a chasing after wind.
+
 ## Chapter 5
 
 <sup>1</sup> Guard your steps when you go to God’s house; for to draw near to listen is better than to give the sacrifice of fools, for they don’t know that they do evil.
@@ -132,6 +135,7 @@
 <sup>18</sup> Behold, that which I have seen to be good and proper is for one to eat and to drink, and to enjoy good in all his labor, in which he labors under the sun, all the days of his life which God has given him; for this is his portion.
 <sup>19</sup> Every man also to whom God has given riches and wealth, and has given him power to eat of it, and to take his portion, and to rejoice in his labor—this is the gift of God.
 <sup>20</sup> For he shall not often reflect on the days of his life, because God occupies him with the joy of his heart.
+
 ## Chapter 6
 
 <sup>1</sup> There is an evil which I have seen under the sun, and it is heavy on men:
@@ -147,6 +151,7 @@
 <sup>10</sup> Whatever has been, its name was given long ago; and it is known what man is; neither can he contend with him who is mightier than he.
 <sup>11</sup> For there are many words that create vanity. What does that profit man?
 <sup>12</sup> For who knows what is good for man in life, all the days of his vain life which he spends like a shadow? For who can tell a man what will be after him under the sun?
+
 ## Chapter 7
 
 <sup>1</sup> A good name is better than fine perfume; and the day of death better than the day of one’s birth.
@@ -156,7 +161,9 @@
 <sup>5</sup> It is better to hear the rebuke of the wise than for a man to hear the song of fools.
 <sup>6</sup> For as the crackling of thorns under a pot, so is the laughter of the fool. This also is vanity.
 <sup>7</sup> Surely extortion makes the wise man foolish; and a bribe destroys the understanding.
-<sup>8</sup> Better is the end of a thing than its beginning. The patient in spirit is better than the proud in spirit.
+<sup>8</sup> Better is the end of a thing than its beginning.
+
+The patient in spirit is better than the proud in spirit.
 <sup>9</sup> Don’t be hasty in your spirit to be angry, for anger rests in the bosom of fools.
 <sup>10</sup> Don’t say, “Why were the former days better than these?” For you do not ask wisely about this.
 
@@ -183,6 +190,7 @@
 <sup>27</sup> “Behold, I have found this,” says the Preacher, “to one another, to find an explanation
 <sup>28</sup> which my soul still seeks, but I have not found. I have found one man among a thousand, but I have not found a woman among all those.
 <sup>29</sup> Behold, I have only found this: that God made mankind upright; but they search for many inventions.”
+
 ## Chapter 8
 
 <sup>1</sup> Who is like the wise man? And who knows the interpretation of a thing? A man’s wisdom makes his face shine, and the hardness of his face is changed.
@@ -206,6 +214,7 @@
 
 <sup>16</sup> When I applied my heart to know wisdom, and to see the business that is done on the earth (even though eyes see no sleep day or night),
 <sup>17</sup> then I saw all the work of God, that man can’t find out the work that is done under the sun, because however much a man labors to seek it out, yet he won’t find it. Yes even though a wise man thinks he can comprehend it, he won’t be able to find it.
+
 ## Chapter 9
 
 <sup>1</sup> For all this I laid to my heart, even to explore all this: that the righteous, and the wise, and their works, are in the hand of God; whether it is love or hatred, man doesn’t know it; all is before them.
@@ -249,13 +258,16 @@
 <sup>11</sup> If the snake bites before it is charmed, then is there no profit for the charmer’s tongue.
 <sup>12</sup> The words of a wise man’s mouth are gracious; but a fool is swallowed by his own lips.
 <sup>13</sup> The beginning of the words of his mouth is foolishness; and the end of his talk is mischievous madness.
-<sup>14</sup> A fool also multiplies words. Man doesn’t know what will be; and that which will be after him, who can tell him?
+<sup>14</sup> A fool also multiplies words.
+
+Man doesn’t know what will be; and that which will be after him, who can tell him?
 <sup>15</sup> The labor of fools wearies every one of them; for he doesn’t know how to go to the city.<br>
 <sup>16</sup> Woe to you, land, when your king is a child,<br>and your princes eat in the morning!<br>
 <sup>17</sup> Happy are you, land, when your king is the son of nobles,<br>and your princes eat in due season,<br>for strength, and not for drunkenness!<br>
 <sup>18</sup> By slothfulness the roof sinks in;<br>and through idleness of the hands the house leaks.<br>
 <sup>19</sup> A feast is made for laughter,<br>and wine makes the life glad;<br>and money is the answer for all things.<br>
 <sup>20</sup> Don’t curse the king, no, not in your thoughts;<br>and don’t curse the rich in your bedroom,<br>for a bird of the sky may carry your voice,<br>and that which has wings may tell the matter.
+
 ## Chapter 11
 
 <sup>1</sup> Cast your bread on the waters;<br>for you shall find it after many days.<br>
@@ -268,6 +280,7 @@
 <sup>8</sup> Yes, if a man lives many years, let him rejoice in them all;<br>but let him remember the days of darkness, for they shall be many.<br>All that comes is vanity.<br>
 <sup>9</sup> Rejoice, young man, in your youth,<br>and let your heart cheer you in the days of your youth,<br>and walk in the ways of your heart,<br>and in the sight of your eyes;<br>but know that for all these things God will bring you into judgment.<br>
 <sup>10</sup> Therefore remove sorrow from your heart,<br>and put away evil from your flesh;<br>for youth and the dawn of life are vanity.
+
 ## Chapter 12
 
 <sup>1</sup> Remember also your Creator in the days of your youth,<br>before the evil days come, and the years draw near,<br>when you will say, “I have no pleasure in them;”<br>

@@ -194,6 +194,7 @@
 <sup>19</sup> For as through the one man’s disobedience many were made sinners, even so through the obedience of the one, many will be made righteous.
 <sup>20</sup> The law came in that the trespass might abound; but where sin abounded, grace abounded more exceedingly,
 <sup>21</sup> that as sin reigned in death, even so grace might reign through righteousness to eternal life through Jesus Christ our Lord.
+
 ## Chapter 6
 
 <sup>1</sup> What shall we say then? Shall we continue in sin, that grace may abound?
@@ -223,6 +224,7 @@
 <sup>21</sup> What fruit then did you have at that time in the things of which you are now ashamed? For the end of those things is death.
 <sup>22</sup> But now, being made free from sin and having become servants of God, you have your fruit of sanctification and the result of eternal life.
 <sup>23</sup> For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.
+
 ## Chapter 7
 
 <sup>1</sup> Or don’t you know, brothers<sup>a</sup> (for I speak to men who know the law), that the law has dominion over a man for as long as he lives?
@@ -638,7 +640,9 @@
 <sup>17</sup> Now I beg you, brothers, look out for those who are causing the divisions and occasions of stumbling, contrary to the doctrine which you learned, and turn away from them.
 <sup>18</sup> For those who are such don’t serve our Lord Jesus Christ, but their own belly; and by their smooth and flattering speech they deceive the hearts of the innocent.
 <sup>19</sup> For your obedience has become known to all. I rejoice therefore over you. But I desire to have you wise in that which is good, but innocent in that which is evil.
-<sup>20</sup> And the God of peace will quickly crush Satan under your feet. The grace of our Lord Jesus Christ be with you.
+<sup>20</sup> And the God of peace will quickly crush Satan under your feet.
+
+The grace of our Lord Jesus Christ be with you.
 
 <sup>21</sup> Timothy, my fellow worker, greets you, as do Lucius, Jason, and Sosipater, my relatives.
 <sup>22</sup> I, Tertius, who write the letter, greet you in the Lord.

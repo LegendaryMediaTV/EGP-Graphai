@@ -41,6 +41,7 @@
 <sup>14</sup> who gave himself for us, that he might redeem us from all iniquity and purify for himself a people for his own possession, zealous for good works.
 
 <sup>15</sup> Say these things and exhort and reprove with all authority. Let no one despise you.
+
 ## Chapter 3
 
 <sup>1</sup> Remind them to be in subjection to rulers and to authorities, to be obedient, to be ready for every good work,
@@ -59,4 +60,6 @@
 <sup>13</sup> Send Zenas the lawyer and Apollos on their journey speedily, that nothing may be lacking for them.
 <sup>14</sup> Let our people also learn to maintain good works to meet necessary needs, that they may not be unfruitful.
 
-<sup>15</sup> All who are with me greet you. Greet those who love us in faith. Grace be with you all. Amen.
+<sup>15</sup> All who are with me greet you. Greet those who love us in faith.
+
+Grace be with you all. Amen.

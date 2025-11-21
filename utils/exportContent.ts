@@ -255,14 +255,15 @@ function convertVerseToText(verse: VerseSchema): string {
       }
       if (
         part.match(/^[<° .,;:!?]/) ||
-        (prev.match(/[,.;:!?<>}]/) && !part.match(/^[A-Za-z0-9]/)) ||
+        (prev.match(/[,.;:!?<>}]/) && !part.match(/^[A-Za-z0-9¶]/)) ||
         part.startsWith(" ")
       ) {
         return part;
       }
       return " " + part;
     })
-    .join("");
+    .join("")
+    .trim(); // Remove leading/trailing whitespace
 
   // Combine text and footnote parts
   const fullText = joinedText;

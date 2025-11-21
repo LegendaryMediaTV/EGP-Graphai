@@ -19,7 +19,9 @@
 ## Chapter 2
 
 <sup>1</sup> Now these are the children of the province who went up out of the captivity of those who had been carried away, whom Nebuchadnezzar the king of Babylon had carried away to Babylon, and who returned to Jerusalem and Judah, everyone to his city;
-<sup>2</sup> who came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah. The number of the men of the people of Israel:
+<sup>2</sup> who came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah.
+
+The number of the men of the people of Israel:
 <sup>3</sup> The children of Parosh, two thousand one hundred seventy-two.
 <sup>4</sup> The children of Shephatiah, three hundred seventy-two.
 <sup>5</sup> The children of Arah, seven hundred seventy-five.
@@ -119,6 +121,7 @@
 
 <sup>12</sup> But many of the priests and Levites and heads of fathers’ households, the old men who had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice. Many also shouted aloud for joy,
 <sup>13</sup> so that the people could not discern the noise of the shout of joy from the noise of the weeping of the people; for the people shouted with a loud shout, and the noise was heard far away.
+
 ## Chapter 4
 
 <sup>1</sup> Now when the adversaries of Judah and Benjamin heard that the children of the captivity were building a temple to Yahweh, the God of Israel,
@@ -145,6 +148,8 @@
 
 <sup>17</sup> Then the king sent an answer to Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions who live in Samaria, and in the rest of the country beyond the River:
 
+
+
 <sup>18</sup> The letter which you sent to us has been plainly read before me.
 <sup>19</sup> I decreed, and search has been made, and it was found that this city has made insurrection against kings in the past, and that rebellion and revolts have been made in it.
 <sup>20</sup> There have also been mighty kings over Jerusalem who have ruled over all the country beyond the River; and tribute, custom, and toll was paid to them.
@@ -153,6 +158,7 @@
 
 <sup>23</sup> Then when the copy of King Artaxerxes’ letter was read before Rehum, Shimshai the scribe, and their companions, they went in haste to Jerusalem to the Jews, and made them to cease by force of arms.
 <sup>24</sup> Then work stopped on God’s house which is at Jerusalem. It stopped until the second year of the reign of Darius king of Persia.
+
 ## Chapter 5
 
 <sup>1</sup> Now the prophets, Haggai the prophet and Zechariah the son of Iddo, prophesied to the Jews who were in Judah and Jerusalem. They prophesied to them in the name of the God of Israel.
@@ -175,6 +181,7 @@
 <sup>15</sup> He said to him, ‘Take these vessels, go, put them in the temple that is in Jerusalem, and let God’s house be built in its place.’
 <sup>16</sup> Then the same Sheshbazzar came and laid the foundations of God’s house which is in Jerusalem. Since that time even until now it has been being built, and yet it is not completed.
 <sup>17</sup> Now therefore, if it seems good to the king, let a search be made in the king’s treasure house, which is there at Babylon, whether it is so that a decree was made by Cyrus the king to build this house of God at Jerusalem; and let the king send his pleasure to us concerning this matter.”
+
 ## Chapter 6
 
 <sup>1</sup> Then Darius the king made a decree, and the house of the archives, where the treasures were laid up in Babylon, was searched.

@@ -5,11 +5,15 @@
 <sup>3</sup> Therefore tell them, Yahweh of Armies says: ‘Return to me,’ says Yahweh of Armies, ‘and I will return to you,’ says Yahweh of Armies.
 <sup>4</sup> Don’t you be like your fathers, to whom the former prophets proclaimed, saying: Yahweh of Armies says, ‘Return now from your evil ways and from your evil doings;’ but they didn’t hear nor listen to me, says Yahweh.
 <sup>5</sup> Your fathers, where are they? And the prophets, do they live forever?
-<sup>6</sup> But my words and my decrees, which I commanded my servants the prophets, didn’t they overtake your fathers? “Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’ ”
+<sup>6</sup> But my words and my decrees, which I commanded my servants the prophets, didn’t they overtake your fathers?
+
+“Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’ ”
 
 <sup>7</sup> On the twenty-fourth day of the eleventh month, which is the month Shebat, in the second year of Darius, Yahweh’s word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,
 <sup>8</sup> “I had a vision in the night, and behold,<sup>b</sup> a man riding on a red horse, and he stood among the myrtle trees that were in a ravine; and behind him there were red, brown, and white horses.
-<sup>9</sup> Then I asked, ‘My lord, what are these?’ ” The angel who talked with me said to me, “I will show you what these are.”
+<sup>9</sup> Then I asked, ‘My lord, what are these?’ ”
+
+The angel who talked with me said to me, “I will show you what these are.”
 
 <sup>10</sup> The man who stood among the myrtle trees answered, “They are the ones Yahweh has sent to go back and forth through the earth.”
 
@@ -25,10 +29,14 @@
 <sup>17</sup> “Proclaim further, saying, ‘Yahweh of Armies says: “My cities will again overflow with prosperity, and Yahweh will again comfort Zion, and will again choose Jerusalem.” ’ ”
 
 <sup>18</sup> I lifted up my eyes and saw, and behold, four horns.
-<sup>19</sup> I asked the angel who talked with me, “What are these?” He answered me, “These are the horns which have scattered Judah, Israel, and Jerusalem.”
+<sup>19</sup> I asked the angel who talked with me, “What are these?”
+
+He answered me, “These are the horns which have scattered Judah, Israel, and Jerusalem.”
 
 <sup>20</sup> Yahweh showed me four craftsmen.
-<sup>21</sup> Then I asked, “What are these coming to do?” He said, “These are the horns which scattered Judah, so that no man lifted up his head; but these have come to terrify them, to cast down the horns of the nations that lifted up their horn against the land of Judah to scatter it.”
+<sup>21</sup> Then I asked, “What are these coming to do?”
+
+He said, “These are the horns which scattered Judah, so that no man lifted up his head; but these have come to terrify them, to cast down the horns of the nations that lifted up their horn against the land of Judah to scatter it.”
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 8. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
@@ -36,7 +44,9 @@
 ## Chapter 2
 
 <sup>1</sup> I lifted up my eyes, and saw, and behold, a man with a measuring line in his hand.
-<sup>2</sup> Then I asked, “Where are you going?” He said to me, “To measure Jerusalem, to see what is its width and what is its length.”
+<sup>2</sup> Then I asked, “Where are you going?”
+
+He said to me, “To measure Jerusalem, to see what is its width and what is its length.”
 
 <sup>3</sup> Behold, the angel who talked with me went out, and another angel went out to meet him,
 <sup>4</sup> and said to him, “Run, speak to this young man, saying, ‘Jerusalem will be inhabited as villages without walls, because of the multitude of men and livestock in it.
@@ -50,6 +60,7 @@
 <sup>11</sup> Many nations shall join themselves to Yahweh in that day, and shall be my people; and I will dwell among you, and you shall know that Yahweh of Armies has sent me to you.
 <sup>12</sup> Yahweh will inherit Judah as his portion in the holy land, and will again choose Jerusalem.
 <sup>13</sup> Be silent, all flesh, before Yahweh; for he has roused himself from his holy habitation!”
+
 ## Chapter 3
 
 <sup>1</sup> He showed me Joshua the high priest standing before Yahweh’s angel, and Satan standing at his right hand to be his adversary.
@@ -58,22 +69,29 @@
 <sup>3</sup> Now Joshua was clothed with filthy garments, and was standing before the angel.
 <sup>4</sup> He answered and spoke to those who stood before him, saying, “Take the filthy garments off him.” To him he said, “Behold, I have caused your iniquity to pass from you, and I will clothe you with rich clothing.”
 
-<sup>5</sup> I said, “Let them set a clean turban on his head.” So they set a clean turban on his head, and clothed him; and Yahweh’s angel was standing by.
+<sup>5</sup> I said, “Let them set a clean turban on his head.”
+
+So they set a clean turban on his head, and clothed him; and Yahweh’s angel was standing by.
 
 <sup>6</sup> Yahweh’s angel solemnly assured Joshua, saying,
 <sup>7</sup> “Yahweh of Armies says: ‘If you will walk in my ways, and if you will follow my instructions, then you also shall judge my house, and shall also keep my courts, and I will give you a place of access among these who stand by.
 <sup>8</sup> Hear now, Joshua the high priest, you and your fellows who sit before you, for they are men who are a sign; for, behold, I will bring out my servant, the Branch.
 <sup>9</sup> For, behold, the stone that I have set before Joshua: on one stone are seven eyes; behold, I will engrave its inscription,’ says Yahweh of Armies, ‘and I will remove the iniquity of that land in one day.
 <sup>10</sup> In that day,’ says Yahweh of Armies, ‘you will invite every man his neighbor under the vine and under the fig tree.’ ”
+
 ## Chapter 4
 
 <sup>1</sup> The angel who talked with me came again and wakened me, as a man who is wakened out of his sleep.
-<sup>2</sup> He said to me, “What do you see?” I said, “I have seen, and behold, a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it; there are seven pipes to each of the lamps which are on the top of it;
+<sup>2</sup> He said to me, “What do you see?”
+
+I said, “I have seen, and behold, a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it; there are seven pipes to each of the lamps which are on the top of it;
 <sup>3</sup> and two olive trees by it, one on the right side of the bowl, and the other on the left side of it.”
 
 <sup>4</sup> I answered and spoke to the angel who talked with me, saying, “What are these, my lord?”
 
-<sup>5</sup> Then the angel who talked with me answered me, “Don’t you know what these are?” I said, “No, my lord.”
+<sup>5</sup> Then the angel who talked with me answered me, “Don’t you know what these are?”
+
+I said, “No, my lord.”
 
 <sup>6</sup> Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.
 <sup>7</sup> Who are you, great mountain? Before Zerubbabel you are a plain; and he will bring out the capstone with shouts of ‘Grace, grace, to it!’ ”
@@ -86,7 +104,9 @@
 
 <sup>12</sup> I asked him the second time, “What are these two olive branches, which are beside the two golden spouts that pour the golden oil out of themselves?”
 
-<sup>13</sup> He answered me, “Don’t you know what these are?” I said, “No, my lord.”
+<sup>13</sup> He answered me, “Don’t you know what these are?”
+
+I said, “No, my lord.”
 
 <sup>14</sup> Then he said, “These are the two anointed ones who stand by the Lord<sup>a</sup> of the whole earth.”
 
@@ -95,15 +115,19 @@
 ## Chapter 5
 
 <sup>1</sup> Then again I lifted up my eyes and saw, and behold, a flying scroll.
-<sup>2</sup> He said to me, “What do you see?” I answered, “I see a flying scroll; its length is twenty cubits,<sup>a</sup> and its width ten cubits.”
+<sup>2</sup> He said to me, “What do you see?”<sup>a</sup>
+
+I answered, “I see a flying scroll; its length is twenty cubits,<sup>b</sup> and its width ten cubits.”
 
 <sup>3</sup> Then he said to me, “This is the curse that goes out over the surface of the whole land, for everyone who steals shall be cut off according to it on the one side; and everyone who swears falsely shall be cut off according to it on the other side.
 <sup>4</sup> I will cause it to go out,” says Yahweh of Armies, “and it will enter into the house of the thief, and into the house of him who swears falsely by my name; and it will remain in the middle of his house, and will destroy it with its timber and its stones.”
 
 <sup>5</sup> Then the angel who talked with me came forward and said to me, “Lift up now your eyes and see what this is that is appearing.”
 
-<sup>6</sup> I said, “What is it?” He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said moreover, “This is their appearance in all the land—
-<sup>7</sup> and behold, a lead cover weighing one talent<sup>c</sup> was lifted up—and there was a woman sitting in the middle of the ephah<sup>d</sup> basket.”
+<sup>6</sup> I said, “What is it?”<sup>c</sup>
+
+He said, “This is the ephah<sup>d</sup> basket that is appearing.” He said moreover, “This is their appearance in all the land—
+<sup>7</sup> and behold, a lead cover weighing one talent<sup>e</sup> was lifted up—and there was a woman sitting in the middle of the ephah<sup>f</sup> basket.”
 <sup>8</sup> He said, “This is Wickedness;” and he threw her down into the middle of the ephah basket; and he threw the lead weight on its mouth.
 
 <sup>9</sup> Then I lifted up my eyes and saw, and behold, there were two women; and the wind was in their wings. Now they had wings like the wings of a stork, and they lifted up the ephah basket between earth and the sky.
@@ -112,9 +136,11 @@
 <sup>11</sup> He said to me, “To build her a house in the land of Shinar. When it is prepared, she will be set there in her own place.”
 
 > - <sup>a</sup> 2. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
-> - <sup>b</sup> 6. An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about 2/3 of a bushel.
-> - <sup>c</sup> 7. A talent is about 30 kilograms or 66 pounds.
-> - <sup>d</sup> 7. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>b</sup> 2. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
+> - <sup>c</sup> 6. An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about 2/3 of a bushel.
+> - <sup>d</sup> 6. An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about 2/3 of a bushel.
+> - <sup>e</sup> 7. A talent is about 30 kilograms or 66 pounds.
+> - <sup>f</sup> 7. 1 ephah is about 22 liters or about 2/3 of a bushel
 
 ## Chapter 6
 
@@ -158,6 +184,7 @@
 <sup>12</sup> Yes, they made their hearts as hard as flint, lest they might hear the law and the words which Yahweh of Armies had sent by his Spirit by the former prophets. Therefore great wrath came from Yahweh of Armies.
 <sup>13</sup> It has come to pass that, as he called and they refused to listen, so they will call and I will not listen,” said Yahweh of Armies;
 <sup>14</sup> “but I will scatter them with a whirlwind among all the nations which they have not known. Thus the land was desolate after them, so that no man passed through nor returned; for they made the pleasant land desolate.”
+
 ## Chapter 8
 
 <sup>1</sup> The word of Yahweh of Armies came to me.
@@ -191,6 +218,7 @@
 <sup>21</sup> The inhabitants of one will go to another, saying, ‘Let’s go speedily to entreat the favor of Yahweh, and to seek Yahweh of Armies. I will go also.’
 <sup>22</sup> Yes, many peoples and strong nations will come to seek Yahweh of Armies in Jerusalem and to entreat the favor of Yahweh.”
 <sup>23</sup> Yahweh of Armies says: “In those days, ten men out of all the languages of the nations will take hold of the skirt of him who is a Jew, saying, ‘We will go with you, for we have heard that God is with you.’ ”
+
 ## Chapter 9
 
 <sup>1</sup> A revelation.<br>Yahweh’s word is against the land of Hadrach,<br>and will rest upon Damascus—<br>for the eye of man<br>and of all the tribes of Israel is toward Yahweh—<br>
@@ -215,6 +243,7 @@
 
 <sup>16</sup> Yahweh their God will save them in that day as the flock of his people;<br>for they are like the jewels of a crown,<br>lifted on high over his land.<br>
 <sup>17</sup> For how great is his goodness,<br>and how great is his beauty!<br>Grain will make the young men flourish,<br>and new wine the virgins.
+
 ## Chapter 10
 
 <sup>1</sup> Ask of Yahweh rain in the spring time,<br>Yahweh who makes storm clouds,<br>and he gives rain showers to everyone for the plants in the field.<br>
@@ -256,6 +285,7 @@
 <sup>15</sup> Yahweh said to me, “Take for yourself yet again the equipment of a foolish shepherd.
 <sup>16</sup> For, behold, I will raise up a shepherd in the land who will not visit those who are cut off, neither will seek those who are scattered, nor heal that which is broken, nor feed that which is sound; but he will eat the meat of the fat sheep, and will tear their hoofs in pieces.
 <sup>17</sup> Woe to the worthless shepherd who leaves the flock! The sword will strike his arm and his right eye. His arm will be completely withered, and his right eye will be totally blinded!”
+
 ## Chapter 12
 
 <sup>1</sup> A revelation of Yahweh’s word concerning Israel: Yahweh, who stretches out the heavens and lays the foundation of the earth, and forms the spirit of man within him says:
@@ -291,6 +321,7 @@
 <sup>7</sup> “Awake, sword, against my shepherd,<br>and against the man who is close to me,” says Yahweh of Armies.<br>“Strike the shepherd, and the sheep will be scattered;<br>and I will turn my hand against the little ones.<br>
 <sup>8</sup> It shall happen that in all the land,” says Yahweh,<br>“two parts in it will be cut off and die;<br>but the third will be left in it.<br>
 <sup>9</sup> I will bring the third part into the fire,<br>and will refine them as silver is refined,<br>and will test them like gold is tested.<br>They will call on my name, and I will hear them.<br>I will say, ‘It is my people;’<br>and they will say, ‘Yahweh is my God.’ ”
+
 ## Chapter 14
 
 <sup>1</sup> Behold, a day of Yahweh comes, when your plunder will be divided within you.
