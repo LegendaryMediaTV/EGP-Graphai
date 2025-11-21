@@ -16,6 +16,7 @@
 <sup>14</sup> Therefore shalt thou give a parting gift to Moresheth-gath: the houses of Achzib shall be a deceitful thing unto the kings of Israel.
 <sup>15</sup> I will yet bring unto thee, O inhabitant of Mareshah, him that shall possess thee: the glory of Israel shall come even unto Adullam.
 <sup>16</sup> Make thee bald, and cut off thy hair for the children of thy delight: enlarge thy baldness as the eagle; for they are gone into captivity from thee.
+
 ## Chapter 2
 
 <sup>1</sup> Woe to them that devise iniquity and work evil upon their beds! when the morning is light, they practise it, because it is in the power of their hand.
@@ -31,6 +32,7 @@
 <sup>11</sup> If a man walking in a spirit of falsehood do lie, saying, I will prophesy unto thee of wine and of strong drink; he shall even be the prophet of this people.
 <sup>12</sup> I will surely assemble, O Jacob, all of thee; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as a flock in the midst of their pasture; they shall make great noise by reason of the multitude of men.
 <sup>13</sup> The breaker is gone up before them: they have broken forth and passed on to the gate, and are gone out thereat; and their king is passed on before them, and Jehovah at the head of them.
+
 ## Chapter 3
 
 <sup>1</sup> And I said, Hear, I pray you, ye heads of Jacob, and rulers of the house of Israel: is it not for you to know justice?
@@ -45,6 +47,7 @@
 <sup>10</sup> They build up Zion with blood, and Jerusalem with iniquity.
 <sup>11</sup> The heads thereof judge for reward, and the priests thereof teach for hire, and the prophets thereof divine for money: yet they lean upon Jehovah, and say, Is not Jehovah in the midst of us? no evil shall come upon us.
 <sup>12</sup> Therefore shall Zion for your sake be plowed as a field, and Jerusalem shall become heaps, and the mountain of the house as the high places of a forest.
+
 ## Chapter 4
 
 <sup>1</sup> But in the latter days it shall come to pass, that the mountain of Jehovah’s house shall be established on the top of the mountains, and it shall be exalted above the hills; and peoples shall flow unto it.
@@ -60,6 +63,7 @@
 <sup>11</sup> And now many nations are assembled against thee, that say, Let her be defiled, and let our eye see our desire upon Zion.
 <sup>12</sup> But they know not the thoughts of Jehovah, neither understand they his counsel; for he hath gathered them as the sheaves to the threshing-floor.
 <sup>13</sup> Arise and thresh, O daughter of Zion; for I will make thy horn iron, and I will make thy hoofs brass; and thou shalt beat in pieces many peoples: and I will devote their gain unto Jehovah, and their substance unto the Lord of the whole earth.
+
 ## Chapter 5
 
 <sup>1</sup> Now shalt thou gather thyself in troops, O daughter of troops: he hath laid siege against us; they shall smite the judge of Israel with a rod upon the cheek.
@@ -77,6 +81,7 @@
 <sup>13</sup> and I will cut off thy graven images and thy pillars out of the midst of thee; and thou shalt no more worship the work of thy hands;
 <sup>14</sup> and I will pluck up thine Asherim out of the midst of thee; and I will destroy thy cities.
 <sup>15</sup> And I will execute vengeance in anger and wrath upon the nations which hearkened not.
+
 ## Chapter 6
 
 <sup>1</sup> Hear ye now what Jehovah saith: Arise, contend thou before the mountains, and let the hills hear thy voice.
@@ -95,6 +100,7 @@
 <sup>14</sup> Thou shalt eat, but not be satisfied; and thy humiliation shall be in the midst of thee: and thou shalt put away, but shalt not save; and that which thou savest will I give up to the sword.
 <sup>15</sup> Thou shalt sow, but shalt not reap; thou shalt tread the olives, but shalt not anoint thee with oil; and the vintage, but shalt not drink the wine.
 <sup>16</sup> For the statutes of Omri are kept, and all the works of the house of Ahab, and ye walk in their counsels; that I may make thee a desolation, and the inhabitants thereof a hissing: and ye shall bear the reproach of my people.
+
 ## Chapter 7
 
 <sup>1</sup> Woe is me! for I am as when they have gathered the summer fruits, as the grape gleanings of the vintage: there is no cluster to eat; my soul desireth the first-ripe fig.

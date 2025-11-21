@@ -14,6 +14,7 @@
 <sup>12</sup> But ye profane it, in that ye say, The table of Jehovah is polluted, and the fruit thereof, even its food, is contemptible.
 <sup>13</sup> Ye say also, Behold, what a weariness is it! and ye have snuffed at it, saith Jehovah of hosts; and ye have brought that which was taken by violence, and the lame, and the sick; thus ye bring the offering: should I accept this at your hand? saith Jehovah.
 <sup>14</sup> But cursed be the deceiver, who hath in his flock a male, and voweth, and sacrificeth unto the Lord a blemished thing; for I am a great King, saith Jehovah of hosts, and my name is terrible among the Gentiles.
+
 ## Chapter 2
 
 <sup>1</sup> And now, O ye priests, this commandment is for you.
@@ -33,6 +34,7 @@
 <sup>15</sup> And did he not make one, although he had the residue of the Spirit? And wherefore one? He sought a godly seed. Therefore take heed to your spirit, and let none deal treacherously against the wife of his youth.
 <sup>16</sup> For I hate putting away, saith Jehovah, the God of Israel, and him that covereth his garment with violence, saith Jehovah of hosts: therefore take heed to your spirit, that ye deal not treacherously.
 <sup>17</sup> Ye have wearied Jehovah with your words. Yet ye say, Wherein have we wearied him? In that ye say, Every one that doeth evil is good in the sight of Jehovah, and he delighteth in them; or where is the God of justice?
+
 ## Chapter 3
 
 <sup>1</sup> Behold, I send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, will suddenly come to his temple; and the messenger of the covenant, whom ye desire, behold, he cometh, saith Jehovah of hosts.
@@ -53,6 +55,7 @@
 <sup>16</sup> Then they that feared Jehovah spake one with another; and Jehovah hearkened, and heard, and a book of remembrance was written before him, for them that feared Jehovah, and that thought upon his name.
 <sup>17</sup> And they shall be mine, saith Jehovah of hosts, even mine own possession, in the day that I make; and I will spare them, as a man spareth his own son that serveth him.
 <sup>18</sup> Then shall ye return and discern between the righteous and the wicked, between him that serveth God and him that serveth him not.
+
 ## Chapter 4
 
 <sup>1</sup> For, behold, the day cometh, it burneth as a furnace; and all the proud, and all that work wickedness, shall be stubble; and the day that cometh shall burn them up, saith Jehovah of hosts, that it shall leave them neither root nor branch.

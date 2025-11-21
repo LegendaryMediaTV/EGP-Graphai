@@ -31,6 +31,7 @@
 <sup>29</sup> For they shall be ashamed of the oaks which ye have desired, and ye shall be confounded for the gardens that ye have chosen.
 <sup>30</sup> For ye shall be as an oak whose leaf fadeth, and as a garden that hath no water.
 <sup>31</sup> And the strong shall be as tow, and his work as a spark; and they shall both burn together, and none shall quench them.
+
 ## Chapter 2
 
 <sup>1</sup> The word that Isaiah the son of Amoz saw concerning Judah and Jerusalem.
@@ -55,6 +56,7 @@
 <sup>20</sup> In that day men shall cast away their idols of silver, and their idols of gold, which have been made for them to worship, to the moles and to the bats;
 <sup>21</sup> to go into the caverns of the rocks, and into the clefts of the ragged rocks, from before the terror of Jehovah, and from the glory of his majesty, when he ariseth to shake mightily the earth.
 <sup>22</sup> Cease ye from man, whose breath is in his nostrils; for wherein is he to be accounted of?
+
 ## Chapter 3
 
 <sup>1</sup> For, behold, the Lord, Jehovah of hosts, doth take away from Jerusalem and from Judah stay and staff, the whole stay of bread, and the whole stay of water;
@@ -83,6 +85,7 @@
 <sup>24</sup> And it shall come to pass, that instead of sweet spices there shall be rottenness; and instead of a girdle, a rope; and instead of well set hair, baldness; and instead of a robe, a girding of sackcloth; branding instead of beauty.
 <sup>25</sup> Thy men shall fall by the sword, and thy mighty in the war.
 <sup>26</sup> And her gates shall lament and mourn; and she shall be desolate and sit upon the ground.
+
 ## Chapter 4
 
 <sup>1</sup> And seven women shall take hold of one man in that day, saying, We will eat our own bread, and wear our own apparel: only let us be called by thy name; take thou away our reproach.
@@ -91,6 +94,7 @@
 <sup>4</sup> when the Lord shall have washed away the filth of the daughters of Zion, and shall have purged the blood of Jerusalem from the midst thereof, by the spirit of justice, and by the spirit of burning.
 <sup>5</sup> And Jehovah will create over the whole habitation of mount Zion, and over her assemblies, a cloud and smoke by day, and the shining of a flaming fire by night; for over all the glory shall be spread a covering.
 <sup>6</sup> And there shall be a pavilion for a shade in the day-time from the heat, and for a refuge and for a covert from storm and from rain.
+
 ## Chapter 5
 
 <sup>1</sup> Let me sing for my wellbeloved a song of my beloved touching his vineyard. My wellbeloved had a vineyard in a very fruitful hill:
@@ -123,6 +127,7 @@
 <sup>28</sup> whose arrows are sharp, and all their bows bent; their horses’ hoofs shall be accounted as flint, and their wheels as a whirlwind:
 <sup>29</sup> their roaring shall be like a lioness, they shall roar like young lions; yea, they shall roar, and lay hold of the prey, and carry it away safe, and there shall be none to deliver.
 <sup>30</sup> And they shall roar against them in that day like the roaring of the sea: and if one look unto the land, behold, darkness and distress; and the light is darkened in the clouds thereof.
+
 ## Chapter 6
 
 <sup>1</sup> In the year that king Uzziah died I saw the Lord sitting upon a throne, high and lifted up; and his train filled the temple.
@@ -138,6 +143,7 @@
 <sup>11</sup> Then said I, Lord, how long? And he answered, Until cities be waste without inhabitant, and houses without man, and the land become utterly waste,
 <sup>12</sup> and Jehovah have removed men far away, and the forsaken places be many in the midst of the land.
 <sup>13</sup> And if there be yet a tenth in it, it also shall in turn be eaten up: as a terebinth, and as an oak, whose stock remaineth, when they are felled; so the holy seed is the stock thereof.
+
 ## Chapter 7
 
 <sup>1</sup> And it came to pass in the days of Ahaz the son of Jotham, the son of Uzziah, king of Judah, that Rezin the king of Syria, and Pekah the son of Remaliah, king of Israel, went up to Jerusalem to war against it, but could not prevail against it.
@@ -165,6 +171,7 @@
 <sup>23</sup> And it shall come to pass in that day, that every place, where there were a thousand vines at a thousand silverlings, shall be for briers and thorns.
 <sup>24</sup> With arrows and with bow shall one come thither, because all the land shall be briers and thorns.
 <sup>25</sup> And all the hills that were digged with the mattock, thou shalt not come thither for fear of briers and thorns; but it shall be for the sending forth of oxen, and for the treading of sheep.
+
 ## Chapter 8
 
 <sup>1</sup> And Jehovah said unto me, Take thee a great tablet, and write upon it with the pen of a man, For Maher-shalal-hash-baz;
@@ -189,6 +196,7 @@
 <sup>20</sup> To the law and to the testimony! if they speak not according to this word, surely there is no morning for them.
 <sup>21</sup> And they shall pass through it, sore distressed and hungry; and it shall come to pass that, when they shall be hungry, they shall fret themselves, and curse by their king and by their God, and turn their faces upward:
 <sup>22</sup> and they shall look unto the earth, and behold, distress and darkness, the gloom of anguish; and into thick darkness they shall be driven away.
+
 ## Chapter 9
 
 <sup>1</sup> But there shall be no gloom to her that was in anguish. In the former time he brought into contempt the land of Zebulun and the land of Naphtali; but in the latter time hath he made it glorious, by the way of the sea, beyond the Jordan, Galilee of the nations.
@@ -212,6 +220,7 @@
 <sup>19</sup> Through the wrath of Jehovah of hosts is the land burnt up; and the people are as the fuel of fire: no man spareth his brother.
 <sup>20</sup> And one shall snatch on the right hand, and be hungry; and he shall eat on the left hand, and they shall not be satisfied: they shall eat every man the flesh of his own arm:
 <sup>21</sup> Manasseh, Ephraim; and Ephraim, Manasseh; and they together shall be against Judah. For all this his anger is not turned away, but his hand is stretched out still.
+
 ## Chapter 10
 
 <sup>1</sup> Woe unto them that decree unrighteous decrees, and to the writers that write perverseness;
@@ -248,6 +257,7 @@
 <sup>32</sup> This very day shall he halt at Nob: he shaketh his hand at the mount of the daughter of Zion, the hill of Jerusalem.
 <sup>33</sup> Behold, the Lord, Jehovah of hosts, will lop the boughs with terror: and the high of stature shall be hewn down, and the lofty shall be brought low.
 <sup>34</sup> And he will cut down the thickets of the forest with iron, and Lebanon shall fall by a mighty one.
+
 ## Chapter 11
 
 <sup>1</sup> And there shall come forth a shoot out of the stock of Jesse, and a branch out of his roots shall bear fruit.
@@ -266,6 +276,7 @@
 <sup>14</sup> And they shall fly down upon the shoulder of the Philistines on the west; together shall they despoil the children of the east: they shall put forth their hand upon Edom and Moab; and the children of Ammon shall obey them.
 <sup>15</sup> And Jehovah will utterly destroy the tongue of the Egyptian sea; and with his scorching wind will he wave his hand over the River, and will smite it into seven streams, and cause men to march over dryshod.
 <sup>16</sup> And there shall be a highway for the remnant of his people, that shall remain, from Assyria; like as there was for Israel in the day that he came up out of the land of Egypt.
+
 ## Chapter 12
 
 <sup>1</sup> And in that day thou shalt say, I will give thanks unto thee, O Jehovah; for though thou wast angry with me, thine anger is turned away and thou comfortest me.
@@ -274,6 +285,7 @@
 <sup>4</sup> And in that day shall ye say, Give thanks unto Jehovah, call upon his name, declare his doings among the peoples, make mention that his name is exalted.
 <sup>5</sup> Sing unto Jehovah; for he hath done excellent things: let this be known in all the earth.
 <sup>6</sup> Cry aloud and shout, thou inhabitant of Zion; for great in the midst of thee is the Holy One of Israel.
+
 ## Chapter 13
 
 <sup>1</sup> The burden of Babylon, which Isaiah the son of Amoz did see.
@@ -298,6 +310,7 @@
 <sup>20</sup> It shall never be inhabited, neither shall it be dwelt in from generation to generation: neither shall the Arabian pitch tent there; neither shall shepherds make their flocks to lie down there.
 <sup>21</sup> But wild beasts of the desert shall lie there; and their houses shall be full of doleful creatures; and ostriches shall dwell there, and wild goats shall dance there.
 <sup>22</sup> And wolves shall cry in their castles, and jackals in the pleasant palaces: and her time is near to come, and her days shall not be prolonged.
+
 ## Chapter 14
 
 <sup>1</sup> For Jehovah will have compassion on Jacob, and will yet choose Israel, and set them in their own land: and the sojourner shall join himself with them, and they shall cleave to the house of Jacob.
@@ -332,6 +345,7 @@
 <sup>30</sup> And the first-born of the poor shall feed, and the needy shall lie down in safety; and I will kill thy root with famine, and thy remnant shall be slain.
 <sup>31</sup> Howl, O gate; cry, O city; thou art melted away, O Philistia, all of thee; for there cometh a smoke out of the north, and there is no straggler in his ranks.
 <sup>32</sup> What then shall one answer the messengers of the nation? That Jehovah hath founded Zion, and in her shall the afflicted of his people take refuge.
+
 ## Chapter 15
 
 <sup>1</sup> The burden of Moab. For in a night Ar of Moab is laid waste, and brought to nought; for in a night Kir of Moab is laid waste, and brought to nought.
@@ -343,6 +357,7 @@
 <sup>7</sup> Therefore the abundance they have gotten, and that which they have laid up, shall they carry away over the brook of the willows.
 <sup>8</sup> For the cry is gone round about the borders of Moab; the wailing thereof unto Eglaim, and the wailing thereof unto Beer-elim.
 <sup>9</sup> For the waters of Dimon are full of blood; for I will bring yet more upon Dimon, a lion upon them of Moab that escape, and upon the remnant of the land.
+
 ## Chapter 16
 
 <sup>1</sup> Send ye the lambs for the ruler of the land from Selah to the wilderness, unto the mount of the daughter of Zion.
@@ -359,6 +374,7 @@
 <sup>12</sup> And it shall come to pass, when Moab presenteth himself, when he wearieth himself upon the high place, and shall come to his sanctuary to pray, that he shall not prevail.
 <sup>13</sup> This is the word that Jehovah spake concerning Moab in time past.
 <sup>14</sup> But now Jehovah hath spoken, saying, Within three years, as the years of a hireling, the glory of Moab shall be brought into contempt, with all his great multitude; and the remnant shall be very small and of no account.
+
 ## Chapter 17
 
 <sup>1</sup> The burden of Damascus. Behold, Damascus is taken away from being a city, and it shall be a ruinous heap.
@@ -375,6 +391,7 @@
 <sup>12</sup> Ah, the uproar of many peoples, that roar like the roaring of the seas; and the rushing of nations, that rush like the rushing of mighty waters!
 <sup>13</sup> The nations shall rush like the rushing of many waters: but he shall rebuke them, and they shall flee far off, and shall be chased as the chaff of the mountains before the wind, and like the whirling dust before the storm.
 <sup>14</sup> At eventide, behold, terror; and before the morning they are not. This is the portion of them that despoil us, and the lot of them that rob us.
+
 ## Chapter 18
 
 <sup>1</sup> Ah, the land of the rustling of wings, which is beyond the rivers of Ethiopia;
@@ -384,6 +401,7 @@
 <sup>5</sup> For before the harvest, when the blossom is over, and the flower becometh a ripening grape, he will cut off the sprigs with pruning-hooks, and the spreading branches will he take away and cut down.
 <sup>6</sup> They shall be left together unto the ravenous birds of the mountains, and to the beasts of the earth; and the ravenous birds shall summer upon them, and all the beasts of the earth shall winter upon them.
 <sup>7</sup> In that time shall a present be brought unto Jehovah of hosts from a people tall and smooth, even from a people terrible from their beginning onward, a nation that meteth out and treadeth down, whose land the rivers divide, to the place of the name of Jehovah of hosts, the mount Zion.
+
 ## Chapter 19
 
 <sup>1</sup> The burden of Egypt. Behold, Jehovah rideth upon a swift cloud, and cometh unto Egypt: and the idols of Egypt shall tremble at his presence; and the heart of Egypt shall melt in the midst of it.
@@ -411,6 +429,7 @@
 <sup>23</sup> In that day shall there be a highway out of Egypt to Assyria, and the Assyrian shall come into Egypt, and the Egyptian into Assyria; and the Egyptians shall worship with the Assyrians.
 <sup>24</sup> In that day shall Israel be the third with Egypt and with Assyria, a blessing in the midst of the earth;
 <sup>25</sup> for that Jehovah of hosts hath blessed them, saying, Blessed be Egypt my people, and Assyria the work of my hands, and Israel mine inheritance.
+
 ## Chapter 20
 
 <sup>1</sup> In the year that Tartan came unto Ashdod, when Sargon the king of Assyria sent him, and he fought against Ashdod and took it;
@@ -419,6 +438,7 @@
 <sup>4</sup> so shall the king of Assyria lead away the captives of Egypt, and the exiles of Ethiopia, young and old, naked and barefoot, and with buttocks uncovered, to the shame of Egypt.
 <sup>5</sup> And they shall be dismayed and confounded, because of Ethiopia their expectation, and of Egypt their glory.
 <sup>6</sup> And the inhabitant of this coast-land shall say in that day, Behold, such is our expectation, whither we fled for help to be delivered from the king of Assyria: and we, how shall we escape?
+
 ## Chapter 21
 
 <sup>1</sup> The burden of the wilderness of the sea. As whirlwinds in the South sweep through, it cometh from the wilderness, from a terrible land.
@@ -438,6 +458,7 @@
 <sup>15</sup> For they fled away from the swords, from the drawn sword, and from the bent bow, and from the grievousness of war.
 <sup>16</sup> For thus hath the Lord said unto me, Within a year, according to the years of a hireling, all the glory of Kedar shall fail;
 <sup>17</sup> and the residue of the number of the archers, the mighty men of the children of Kedar, shall be few; for Jehovah, the God of Israel, hath spoken it.
+
 ## Chapter 22
 
 <sup>1</sup> The burden of the valley of vision. What aileth thee now, that thou art wholly gone up to the housetops?
@@ -465,6 +486,7 @@
 <sup>23</sup> And I will fasten him as a nail in a sure place; and he shall be for a throne of glory to his father’s house.
 <sup>24</sup> And they shall hang upon him all the glory of his father’s house, the offspring and the issue, every small vessel, from the cups even to all the flagons.
 <sup>25</sup> In that day, saith Jehovah of hosts, shall the nail that was fastened in a sure place give way; and it shall be hewn down, and fall; and the burden that was upon it shall be cut off; for Jehovah hath spoken it.
+
 ## Chapter 23
 
 <sup>1</sup> The burden of Tyre. Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no entering in: from the land of Kittim it is revealed to them.
@@ -485,6 +507,7 @@
 <sup>16</sup> Take a harp, go about the city, thou harlot that hast been forgotten; make sweet melody, sing many songs, that thou mayest be remembered.
 <sup>17</sup> And it shall come to pass after the end of seventy years, that Jehovah will visit Tyre, and she shall return to her hire, and shall play the harlot with all the kingdoms of the world upon the face of the earth.
 <sup>18</sup> And her merchandise and her hire shall be holiness to Jehovah: it shall not be treasured nor laid up; for her merchandise shall be for them that dwell before Jehovah, to eat sufficiently, and for durable clothing.
+
 ## Chapter 24
 
 <sup>1</sup> Behold, Jehovah maketh the earth empty, and maketh it waste, and turneth it upside down, and scattereth abroad the inhabitants thereof.
@@ -510,6 +533,7 @@
 <sup>21</sup> And it shall come to pass in that day, that Jehovah will punish the host of the high ones on high, and the kings of the earth upon the earth.
 <sup>22</sup> And they shall be gathered together, as prisoners are gathered in the pit, and shall be shut up in the prison; and after many days shall they be visited.
 <sup>23</sup> Then the moon shall be confounded, and the sun ashamed; for Jehovah of hosts will reign in mount Zion, and in Jerusalem; and before his elders shall be glory.
+
 ## Chapter 25
 
 <sup>1</sup> O Jehovah, thou art my God; I will exalt thee, I will praise thy name; for thou hast done wonderful things, even counsels of old, in faithfulness and truth.
@@ -524,6 +548,7 @@
 <sup>10</sup> For in this mountain will the hand of Jehovah rest; and Moab shall be trodden down in his place, even as straw is trodden down in the water of the dung-hill.
 <sup>11</sup> And he shall spread forth his hands in the midst thereof, as he that swimmeth spreadeth forth his hands to swim; but Jehovah will lay low his pride together with the craft of his hands.
 <sup>12</sup> And the high fortess of thy walls hath he brought down, laid low, and brought to the ground, even to the dust.
+
 ## Chapter 26
 
 <sup>1</sup> In that day shall this song be sung in the land of Judah: we have a strong city; salvation will he appoint for walls and bulwarks.
@@ -547,6 +572,7 @@
 <sup>19</sup> Thy dead shall live; my dead bodies shall arise. Awake and sing, ye that dwell in the dust; for thy dew is as the dew of herbs, and the earth shall cast forth the dead.
 <sup>20</sup> Come, my people, enter thou into thy chambers, and shut thy doors about thee: hide thyself for a little moment, until the indignation be overpast.
 <sup>21</sup> For, behold, Jehovah cometh forth out of his place to punish the inhabitants of the earth for their iniquity: the earth also shall disclose her blood, and shall no more cover her slain.
+
 ## Chapter 27
 
 <sup>1</sup> In that day Jehovah with his hard and great and strong sword will punish leviathan the swift serpent, and leviathan the crooked serpent; and he will slay the monster that is in the sea.
@@ -562,6 +588,7 @@
 <sup>11</sup> When the boughs thereof are withered, they shall be broken off; the women shall come, and set them on fire; for it is a people of no understanding: therefore he that made them will not have compassion upon them, and he that formed them will show them no favor.
 <sup>12</sup> And it shall come to pass in that day, that Jehovah will beat off his fruit from the flood of the River unto the brook of Egypt; and ye shall be gathered one by one, O ye children of Israel.
 <sup>13</sup> And it shall come to pass in that day, that a great trumpet shall be blown; and they shall come that were ready to perish in the land of Assyria, and they that were outcasts in the land of Egypt; and they shall worship Jehovah in the holy mountain at Jerusalem.
+
 ## Chapter 28
 
 <sup>1</sup> Woe to the crown of pride of the drunkards of Ephraim, and to the fading flower of his glorious beauty, which is on the head of the fat valley of them that are overcome with wine!
@@ -593,6 +620,7 @@
 <sup>27</sup> For the fitches are not threshed with a sharp threshing instrument, neither is a cart wheel turned about upon the cummin; but the fitches are beaten out with a staff, and the cummin with a rod.
 <sup>28</sup> Bread grain is ground; for he will not be always threshing it: and though the wheel of his cart and his horses scatter it, he doth not grind it.
 <sup>29</sup> This also cometh forth from Jehovah of hosts, who is wonderful in counsel, and excellent in wisdom.
+
 ## Chapter 29
 
 <sup>1</sup> Ho Ariel, Ariel, the city where David encamped! add ye year to year; let the feasts come round:
@@ -619,6 +647,7 @@
 <sup>22</sup> Therefore thus saith Jehovah, who redeemed Abraham, concerning the house of Jacob: Jacob shall not now be ashamed, neither shall his face now wax pale.
 <sup>23</sup> But when he seeth his children, the work of my hands, in the midst of him, they shall sanctify my name; yea, they shall sanctify the Holy One of Jacob, and shall stand in awe of the God of Israel.
 <sup>24</sup> They also that err in spirit shall come to understanding, and they that murmur shall receive instruction.
+
 ## Chapter 30
 
 <sup>1</sup> Woe to the rebellious children, saith Jehovah, that take counsel, but not of me; and that make a league, but not of my Spirit, that they may add sin to sin,
@@ -654,6 +683,7 @@
 <sup>31</sup> For through the voice of Jehovah shall the Assyrian be dismayed; with his rod will he smite him.
 <sup>32</sup> And every stroke of the appointed staff, which Jehovah shall lay upon him, shall be with the sound of tabrets and harps; and in battles with the brandishing of his arm will he fight with them.
 <sup>33</sup> For a Topheth is prepared of old; yea, for the king it is made ready; he hath made it deep and large; the pile thereof is fire and much wood; the breath of Jehovah, like a stream of brimstone, doth kindle it.
+
 ## Chapter 31
 
 <sup>1</sup> Woe to them that go down to Egypt for help, and rely on horses, and trust in chariots because they are many, and in horsemen because they are very strong, but they look not unto the Holy One of Israel, neither seek Jehovah!
@@ -665,6 +695,7 @@
 <sup>7</sup> For in that day they shall cast away every man his idols of silver, and his idols of gold, which your own hands have made unto you for a sin.
 <sup>8</sup> And the Assyrian shall fall by the sword, not of man; and the sword, not of men, shall devour him; and he shall flee from the sword, and his young men shall become subject to taskwork.
 <sup>9</sup> And his rock shall pass away by reason of terror, and his princes shall be dismayed at the ensign, saith Jehovah, whose fire is in Zion, and his furnace in Jerusalem.
+
 ## Chapter 32
 
 <sup>1</sup> Behold, a king shall reign in righteousness, and princes shall rule in justice.
@@ -687,6 +718,7 @@
 <sup>18</sup> And my people shall abide in a peaceable habitation, and in safe dwellings, and in quiet resting-places.
 <sup>19</sup> But it shall hail in the downfall of the forest; and the city shall be utterly laid low.
 <sup>20</sup> Blessed are yet that sow beside all waters, that send forth the feet of the ox and the ass.
+
 ## Chapter 33
 
 <sup>1</sup> Woe to thee that destroyest, and thou wast not destroyed; and dealest treacherously, and they dealt not treacherously with thee! When thou hast ceased to destroy, thou shalt be destroyed; and when thou hast made an end of dealing treacherously, they shall deal treacherously with thee.
@@ -713,6 +745,7 @@
 <sup>22</sup> For Jehovah is our judge, Jehovah is our lawgiver, Jehovah is our king; he will save us.
 <sup>23</sup> Thy tacklings are loosed; they could not strengthen the foot of their mast, they could not spread the sail: then was the prey of a great spoil divided; the lame took the prey.
 <sup>24</sup> And the inhabitant shall not say, I am sick: the people that dwell therein shall be forgiven their iniquity.
+
 ## Chapter 34
 
 <sup>1</sup> Come near, ye nations, to hear; and hearken, ye peoples: let the earth hear, and the fulness thereof; the world, and all things that come forth from it.
@@ -732,6 +765,7 @@
 <sup>15</sup> There shall the dart-snake make her nest, and lay, and hatch, and gather under her shade; yea, there shall the kites be gathered, every one with her mate.
 <sup>16</sup> Seek ye out of the book of Jehovah, and read: no one of these shall be missing, none shall want her mate; for my mouth, it hath commanded, and his Spirit, it hath gathered them.
 <sup>17</sup> And he hath cast the lot for them, and his hand hath divided it unto them by line: they shall possess it for ever; from generation to generation shall they dwell therein.
+
 ## Chapter 35
 
 <sup>1</sup> The wilderness and the dry land shall be glad; and the desert shall rejoice, and blossom as the rose.
@@ -744,6 +778,7 @@
 <sup>8</sup> And a highway shall be there, and a way, and it shall be called The way of holiness; the unclean shall not pass over it; but is shall be for the redeemed: the wayfaring men, yea fools, shall not err therein.
 <sup>9</sup> No lion shall be there, nor shall any ravenous beast go up thereon; they shall not be found there; but the redeemed shall walk there:
 <sup>10</sup> and the ransomed of Jehovah shall return, and come with singing unto Zion; and everlasting joy shall be upon their heads: they shall obtain gladness and joy, and sorrow and sighing shall flee away.
+
 ## Chapter 36
 
 <sup>1</sup> Now it came to pass in the fourteenth year of king Hezekiah, that Sennacherib king of Assyria came up against all the fortified cities of Judah, and took them.
@@ -768,6 +803,7 @@
 <sup>20</sup> Who are they among all the gods of these countries, that have delivered their country out of my hand, that Jehovah should deliver Jerusalem out of my hand?
 <sup>21</sup> But they held their peace, and answered him not a word; for the king’s commandment was, saying, Answer him not.
 <sup>22</sup> Then came Eliakim the son of Hilkiah, that was over the household, and Shebna the scribe, and Joah, the son of Asaph, the recorder, to Hezekiah with their clothes rent, and told him the words of Rabshakeh.
+
 ## Chapter 37
 
 <sup>1</sup> And it came to pass, when king Hezekiah heard it, that he rent his clothes, and covered himself with sackcloth, and went into the house of Jehovah.
@@ -808,6 +844,7 @@
 <sup>36</sup> And the angel of Jehovah went forth, and smote in the camp of the Assyrians a hundred and fourscore and five thousand; and when men arose early in the morning, behold, these were all dead bodies.
 <sup>37</sup> So Sennacherib king of Assyria departed, and went and returned, and dwelt at Nineveh.
 <sup>38</sup> And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword; and they escaped into the land of Ararat. And Esar-haddon his son reigned in his stead.
+
 ## Chapter 38
 
 <sup>1</sup> In those days was Hezekiah sick unto death. And Isaiah the prophet the son of Amoz came to him, and said unto him, Thus saith Jehovah, Set thy house in order; for thou shalt die, and not live.
@@ -832,6 +869,7 @@
 <sup>20</sup> Jehovah is ready to save me: Therefore we will sing my songs with stringed instruments All the days of our life in the house of Jehovah.
 <sup>21</sup> Now Isaiah had said, Let them take a cake of figs, and lay it for a plaster upon the boil, and he shall recover.
 <sup>22</sup> Hezekiah also had said, What is the sign that I shall go up to the house of Jehovah?
+
 ## Chapter 39
 
 <sup>1</sup> At that time Merodach-baladan the son of Baladan, king of Babylon, sent letters and a present to Hezekiah; for he heard that he had been sick, and was recovered.
@@ -842,6 +880,7 @@
 <sup>6</sup> Behold, the days are coming, when all that is in thy house, and that which thy fathers have laid up in store until this day, shall be carried to Babylon: nothing shall be left, saith Jehovah.
 <sup>7</sup> And of thy sons that shall issue from thee, whom thou shalt beget, shall they take away; and they shall be eunuchs in the palace of the king of Babylon.
 <sup>8</sup> Then said Hezekiah unto Isaiah, Good is the word of Jehovah which thou hast spoken. He said moreover, For there shall be peace and truth in my days.
+
 ## Chapter 40
 
 <sup>1</sup> Comfort ye, comfort ye my people, saith your God.
@@ -875,6 +914,7 @@
 <sup>29</sup> He giveth power to the faint; and to him that hath no might he increaseth strength.
 <sup>30</sup> Even the youths shall faint and be weary, and the young men shall utterly fall:
 <sup>31</sup> but they that wait for Jehovah shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; they shall walk, and not faint.
+
 ## Chapter 41
 
 <sup>1</sup> Keep silence before me, O islands; and let the peoples renew their strength: let them come near; then let them speak; let us come near together to judgment.
@@ -906,6 +946,7 @@
 <sup>27</sup> I am the first that saith unto Zion, Behold, behold them; and I will give to Jerusalem one that bringeth good tidings.
 <sup>28</sup> And when I look, there is no man: even among them there is no counsellor, that, when I ask of them, can answer a word.
 <sup>29</sup> Behold, all of them, their works are vanity and nought; their molten images are wind and confusion.
+
 ## Chapter 42
 
 <sup>1</sup> Behold, my servant, whom I uphold; my chosen, in whom my soul delighteth: I have put my Spirit upon him; he will bring forth justice to the Gentiles.
@@ -933,6 +974,7 @@
 <sup>23</sup> Who is there among you that will give ear to this? that will hearken and hear for the time to come?
 <sup>24</sup> Who gave Jacob for a spoil, and Israel to the robbers? did not Jehovah? he against whom we have sinned, and in whose ways they would not walk, neither were they obedient unto his law.
 <sup>25</sup> Therefore he poured upon him the fierceness of his anger, and the strength of battle; and it set him on fire round about, yet he knew not; and it burned him, yet he laid it not to heart.
+
 ## Chapter 43
 
 <sup>1</sup> But now thus saith Jehovah that created thee, O Jacob, and he that formed thee, O Israel: Fear not, for I have redeemed thee; I have called thee by thy name, thou art mine.
@@ -963,6 +1005,7 @@
 <sup>26</sup> Put me in remembrance; let us plead together: set thou forth thy cause, that thou mayest be justified.
 <sup>27</sup> Thy first father sinned, and thy teachers have transgressed against me.
 <sup>28</sup> Therefore I will profane the princes of the sanctuary; and I will make Jacob a curse, and Israel a reviling.
+
 ## Chapter 44
 
 <sup>1</sup> Yet now hear, O Jacob my servant, and Israel, who I have chosen:
@@ -993,6 +1036,7 @@
 <sup>26</sup> that confirmeth the word of his servant, and performeth the counsel of his messengers; that saith of Jerusalem, She shall be inhabited; and of the cities of Judah, They shall be built, and I will raise up the waste places thereof;
 <sup>27</sup> that saith to the deep, Be dry, and I will dry up thy rivers;
 <sup>28</sup> That saith of Cyrus, He is my shepherd, and shall perform all my pleasure, even saying of Jerusalem, She shall be built; and of the temple, Thy foundation shall be laid.
+
 ## Chapter 45
 
 <sup>1</sup> Thus saith Jehovah to his anointed, to Cyrus, whose right hand I have holden, to subdue nations before him, and I will loose the loins of kings; to open the doors before him, and the gates shall not be shut:
@@ -1020,6 +1064,7 @@
 <sup>23</sup> By myself have I sworn, the word is gone forth from my mouth in righteousness, and shall not return, that unto me every knee shall bow, every tongue shall swear.
 <sup>24</sup> Only in Jehovah, it is said of me, is righteousness and strength; even to him shall men come; and all they that were incensed against him shall be put to shame.
 <sup>25</sup> In Jehovah shall all the seed of Israel be justified, and shall glory.
+
 ## Chapter 46
 
 <sup>1</sup> Bel boweth down, Nebo stoopeth; their idols are upon the beasts, and upon the cattle: the things that ye carried about are made a load, a burden to the weary beast.
@@ -1035,6 +1080,7 @@
 <sup>11</sup> calling a ravenous bird from the east, the man of my counsel from a far country; yea, I have spoken, I will also bring it to pass; I have purposed, I will also do it.
 <sup>12</sup> Hearken unto me, ye stout-hearted, that are far from righteousness:
 <sup>13</sup> I bring near my righteousness, it shall not be far off, and my salvation shall not tarry; and I will place salvation in Zion for Israel my glory.
+
 ## Chapter 47
 
 <sup>1</sup> Come down, and sit in the dust, O virgin daughter of Babylon; sit on the ground without a throne, O daughter of the Chaldeans: for thou shalt no more be called tender and delicate.
@@ -1052,6 +1098,7 @@
 <sup>13</sup> Thou art wearied in the multitude of thy counsels: let now the astrologers, the star-gazers, the monthly prognosticators, stand up, and save thee from the things that shall come upon thee.
 <sup>14</sup> Behold, they shall be as stubble; the fire shall burn them; they shall not deliver themselves from the power of the flame: it shall not be a coal to warm at, nor a fire to sit before.
 <sup>15</sup> Thus shall the things be unto thee wherein thou hast labored: they that have trafficked with thee from thy youth shall wander every one to his quarter; there shall be none to save thee.
+
 ## Chapter 48
 
 <sup>1</sup> Hear ye this, O house of Jacob, who are called by the name of Israel, and are come forth out of the waters of Judah; who swear by the name of Jehovah, and make mention of the God of Israel, but not in truth, nor in righteousness
@@ -1076,6 +1123,7 @@
 <sup>20</sup> Go ye forth from Babylon, flee ye from the Chaldeans; with a voice of singing declare ye, tell this, utter it even to the end of the earth: say ye, Jehovah hath redeemed his servant Jacob.
 <sup>21</sup> And they thirsted not when he led them through the deserts; he caused the waters to flow out of the rock for them; he clave the rock also, and the waters gushed out.
 <sup>22</sup> There is no peace, saith Jehovah, to the wicked.
+
 ## Chapter 49
 
 <sup>1</sup> Listen, O isles, unto me; and hearken, ye peoples, from far: Jehovah hath called me from the womb; from the bowels of my mother hath he made mention of my name:
@@ -1104,6 +1152,7 @@
 <sup>24</sup> Shall the prey be taken from the mighty, or the lawful captives be delivered?
 <sup>25</sup> But thus saith Jehovah, Even the captives of the mighty shall be taken away, and the prey of the terrible shall be delivered; for I will contend with him that contendeth with thee, and I will save thy children.
 <sup>26</sup> And I will feed them that oppress thee with their own flesh; and they shall be drunken with their own blood, as with sweet wine: and all flesh shall know that I, Jehovah, am thy Saviour, and thy Redeemer, the Mighty One of Jacob.
+
 ## Chapter 50
 
 <sup>1</sup> Thus saith Jehovah, Where is the bill of your mother’s divorcement, wherewith I have put her away? or which of my creditors is it to whom I have sold you? Behold, for your iniquities were ye sold, and for your transgressions was your mother put away.
@@ -1117,6 +1166,7 @@
 <sup>9</sup> Behold, the Lord Jehovah will help me; who is he that shall condemn me? behold, all they shall wax old as a garment, the moth shall eat them up.
 <sup>10</sup> Who is among you that feareth Jehovah, that obeyeth the voice of his servant? he that walketh in darkness, and hath no light, let him trust in the name of Jehovah, and rely upon his God.
 <sup>11</sup> Behold, all ye that kindle a fire, that gird yourselves about with firebrands; walk ye in the flame of your fire, and among the brands that ye have kindled. This shall ye have of my hand; ye shall lie down in sorrow.
+
 ## Chapter 51
 
 <sup>1</sup> Hearken to me, ye that follow after righteousness, ye that seek Jehovah: look unto the rock whence ye were hewn, and to the hold of the pit whence ye were digged.
@@ -1142,6 +1192,7 @@
 <sup>21</sup> Therefore hear now this, thou afflicted, and drunken, but now with wine:
 <sup>22</sup> Thus saith thy Lord Jehovah, and thy God that pleadeth the cause of his people, Behold, I have taken out of thy hand the cup of staggering, even the bowl of the cup of my wrath; thou shalt no more drink it again:
 <sup>23</sup> and I will put it into the hand of them that afflict thee, that have said to thy soul, Bow down, that we may go over; and thou hast laid thy back as the ground, and as the street, to them that go over.
+
 ## Chapter 52
 
 <sup>1</sup> Awake, awake, put on thy strength, O Zion; put on thy beautiful garments, O Jerusalem, the holy city: for henceforth there shall no more come into thee the uncircumcised and the unclean.
@@ -1159,6 +1210,7 @@
 <sup>13</sup> Behold, my servant shall deal wisely, he shall be exalted and lifted up, and shall be very high.
 <sup>14</sup> Like as many were astonished at thee (his visage was so marred more than any man, and his form more than the sons of men),
 <sup>15</sup> so shall he sprinkle many nations; kings shall shut their mouths at him: for that which had not been told them shall they see; and that which they had not heard shall they understand.
+
 ## Chapter 53
 
 <sup>1</sup> Who hath believed our message? and to whom hath the arm of Jehovah been revealed?
@@ -1173,6 +1225,7 @@
 <sup>10</sup> Yet it pleased Jehovah to bruise him; he hath put him to grief: when thou shalt make his soul an offering for sin, he shall see his seed, he shall prolong his days, and the pleasure of Jehovah shall prosper in his hand.
 <sup>11</sup> He shall see of the travail of his soul, and shall be satisfied: by the knowledge of himself shall my righteous servant justify many; and he shall bear their iniquities.
 <sup>12</sup> Therefore will I divide him a portion with the great, and he shall divide the spoil with the strong; because he poured out his soul unto death, and was numbered with the transgressors: yet he bare the sin of many, and made intercession for the transgressors.
+
 ## Chapter 54
 
 <sup>1</sup> Sing, O barren, thou that didst not bear; break forth into singing, and cry aloud, thou that didst not travail with child: for more are the children of the desolate than the children of the married wife, saith Jehovah.
@@ -1192,6 +1245,7 @@
 <sup>15</sup> Behold, they may gather together, but not by me: whosoever shall gather together against thee shall fall because of thee.
 <sup>16</sup> Behold, I have created the smith that bloweth the fire of coals, and bringeth forth a weapon for his work; and I have created the waster to destroy.
 <sup>17</sup> No weapon that is formed against thee shall prosper; and every tongue that shall rise against thee in judgment thou shalt condemn. This is the heritage of the servants of Jehovah, and their righteousness which is of me, saith Jehovah.
+
 ## Chapter 55
 
 <sup>1</sup> Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price.
@@ -1207,6 +1261,7 @@
 <sup>11</sup> so shall my word be that goeth forth out of my mouth: it shall not return unto me void, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it.
 <sup>12</sup> For ye shall go out with joy, and be led forth with peace: the mountains and the hills shall break forth before you into singing; and all the trees of the fields shall clap their hands.
 <sup>13</sup> Instead of the thorn shall come up the fir-tree; and instead of the brier shall come up the myrtle-tree: and it shall be to Jehovah for a name, for an everlasting sign that shall not be cut off.
+
 ## Chapter 56
 
 <sup>1</sup> Thus saith Jehovah, Keep ye justice, and do righteousness; for my salvation is near to come, and my righteousness to be revealed.
@@ -1221,6 +1276,7 @@
 <sup>10</sup> His watchmen are blind, they are all without knowledge; they are all dumb dogs, they cannot bark; dreaming, lying down, loving to slumber.
 <sup>11</sup> Yea, the dogs are greedy, they can never have enough; and these are shepherds that cannot understand: they have all turned to their own way, each one to his gain, from every quarter.
 <sup>12</sup> Come ye, say they, I will fetch wine, and we will fill ourselves with strong drink; and to-morrow shall be as this day, a day great beyond measure.
+
 ## Chapter 57
 
 <sup>1</sup> The righteous perisheth, and no man layeth it to heart; and merciful men are taken away, none considering that the righteous is taken away from the evil to come.
@@ -1244,6 +1300,7 @@
 <sup>19</sup> I create the fruit of the lips: Peace, peace, to him that is far off and to him that is near, saith Jehovah; and I will heal him.
 <sup>20</sup> But the wicked are like the troubled sea; for it cannot rest, and its waters cast up mire and dirt.
 <sup>21</sup> There is no peace, saith my God, to the wicked.
+
 ## Chapter 58
 
 <sup>1</sup> Cry aloud, spare not, lift up thy voice like a trumpet, and declare unto my people their transgression, and to the house of Jacob their sins.
@@ -1260,6 +1317,7 @@
 <sup>12</sup> And they that shall be of thee shall build the old waste places; thou shalt raise up the foundations of many generations; and thou shalt be called The repairer of the breach, The restorer of paths to dwell in.
 <sup>13</sup> If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy day; and call the sabbath a delight, and the holy of Jehovah honorable; and shalt honor it, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words:
 <sup>14</sup> then shalt thou delight thyself in Jehovah; and I will make thee to ride upon the high places of the earth; and I will feed thee with the heritage of Jacob thy father: for the mouth of Jehovah hath spoken it.
+
 ## Chapter 59
 
 <sup>1</sup> Behold, Jehovah’s hand is not shortened, that it cannot save; neither his ear heavy, that it cannot hear:
@@ -1283,6 +1341,7 @@
 <sup>19</sup> So shall they fear the name of Jehovah from the west, and his glory from the rising of the sun; for he will come as a rushing stream, which the breath of Jehovah driveth.
 <sup>20</sup> And a Redeemer will come to Zion, and unto them that turn from transgression in Jacob, saith Jehovah.
 <sup>21</sup> And as for me, this is my covenant with them, saith Jehovah: my Spirit that is upon thee, and my words which I have put in thy mouth, shall not depart out of thy mouth, nor out of the mouth of thy seed, nor out of the mouth of thy seed’s seed, saith Jehovah, from henceforth and for ever.
+
 ## Chapter 60
 
 <sup>1</sup> Arise, shine; for thy light is come, and the glory of Jehovah is risen upon thee.
@@ -1307,6 +1366,7 @@
 <sup>20</sup> Thy sun shall no more go down, neither shall thy moon withdraw itself; for Jehovah will be thine everlasting light, and the days of thy mourning shall be ended.
 <sup>21</sup> Thy people also shall be all righteous; they shall inherit the land for ever, the branch of my planting, the work of my hands, that I may be glorified.
 <sup>22</sup> The little one shall become a thousand, and the small one a strong nation; I, Jehovah, will hasten it in its time.
+
 ## Chapter 61
 
 <sup>1</sup> The Spirit of the Lord Jehovah is upon me; because Jehovah hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the broken-hearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound;
@@ -1320,6 +1380,7 @@
 <sup>9</sup> And their seed shall be known among the nations, and their offspring among the peoples; all that see them shall acknowledge them, that they are the seed which Jehovah hath blessed.
 <sup>10</sup> I will greatly rejoice in Jehovah, my soul shall be joyful in my God; for he hath clothed me with the garments of salvation, he hath covered me with the robe of righteousness, as a bridegroom decketh himself with a garland, and as a bride adorneth herself with her jewels.
 <sup>11</sup> For as the earth bringeth forth its bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord Jehovah will cause righteousness and praise to spring forth before all the nations.
+
 ## Chapter 62
 
 <sup>1</sup> For Zion’s sake will I not hold my peace, and for Jerusalem’s sake I will not rest, until her righteousness go forth as brightness, and her salvation as a lamp that burneth.
@@ -1334,6 +1395,7 @@
 <sup>10</sup> Go through, go through the gates; prepare ye the way of the people; cast up, cast up the highway; gather out the stones; lift up an ensign for the peoples.
 <sup>11</sup> Behold, Jehovah hath proclaimed unto the end of the earth, Say ye to the daughter of Zion, Behold, thy salvation cometh; behold, his reward is with him, and his recompense before him.
 <sup>12</sup> And they shall call them The holy people, The redeemed of Jehovah: and thou shalt be called Sought out, A city not forsaken.
+
 ## Chapter 63
 
 <sup>1</sup> Who is this that cometh from Edom, with dyed garments from Bozrah? this that is glorious in his apparel, marching in the greatness of his strength? I that speak in righteousness, mighty to save.
@@ -1355,6 +1417,7 @@
 <sup>17</sup> O Jehovah, why dost thou make us to err from thy ways, and hardenest our heart from thy fear? Return for thy servants’ sake, the tribes of thine inheritance.
 <sup>18</sup> Thy holy people possessed it but a little while: our adversaries have trodden down thy sanctuary.
 <sup>19</sup> We are become as they over whom thou never barest rule, as they that were not called by thy name.
+
 ## Chapter 64
 
 <sup>1</sup> Oh that thou wouldest rend the heavens, that thou wouldest come down, that the mountains might quake at thy presence,
@@ -1369,6 +1432,7 @@
 <sup>10</sup> Thy holy cities are become a wilderness, Zion is become a wilderness, Jerusalem a desolation.
 <sup>11</sup> Our holy and our beautiful house, where our fathers praised thee, is burned with fire; and all our pleasant places are laid waste.
 <sup>12</sup> Wilt thou refrain thyself for these things, O Jehovah? wilt thou hold thy peace, and afflict us very sore?
+
 ## Chapter 65
 
 <sup>1</sup> I am inquired of by them that asked not for me; I am found of them that sought me not: I said, Behold me, behold me, unto a nation that was not called by my name.
@@ -1396,6 +1460,7 @@
 <sup>23</sup> They shall not labor in vain, nor bring forth for calamity; for they are the seed of the blessed of Jehovah, and their offspring with them.
 <sup>24</sup> And it shall come to pass that, before they call, I will answer; and while they are yet speaking, I will hear.
 <sup>25</sup> The wolf and the lamb shall feed together, and the lion shall eat straw like the ox; and dust shall be the serpent’s food. They shall not hurt nor destroy in all my holy mountain, saith Jehovah.
+
 ## Chapter 66
 
 <sup>1</sup> Thus saith Jehovah, Heaven is my throne, and the earth is my footstool: what manner of house will ye build unto me? and what place shall be my rest?

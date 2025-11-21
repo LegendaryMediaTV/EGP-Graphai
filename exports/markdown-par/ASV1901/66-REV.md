@@ -20,6 +20,7 @@
 <sup>18</sup> and the Living one; and I was dead, and behold, I am alive for evermore, and I have the keys of death and of Hades.
 <sup>19</sup> Write therefore the things which thou sawest, and the things which are, and the things which shall come to pass hereafter;
 <sup>20</sup> the mystery of the seven stars which thou sawest in my right hand, and the seven golden candlesticks. The seven stars are the angels of the seven churches: and the seven candlesticks are seven churches.
+
 ## Chapter 2
 
 <sup>1</sup> To the angel of the church in Ephesus write: These things saith he that holdeth the seven stars in his right hand, he that walketh in the midst of the seven golden candlesticks:
@@ -51,6 +52,7 @@
 <sup>27</sup> and he shall rule them with a rod of iron, as the vessels of the potter are broken to shivers; as I also have received of my Father:
 <sup>28</sup> and I will give him the morning star.
 <sup>29</sup> He that hath an ear, let him hear what the Spirit saith to the churches.
+
 ## Chapter 3
 
 <sup>1</sup> And to the angel of the church in Sardis write: These things saith he that hath the seven Spirits of God, and the seven stars: I know thy works, that thou hast a name that thou livest, and thou art dead.
@@ -75,6 +77,7 @@
 <sup>20</sup> Behold, I stand at the door and knock: if any man hear my voice and open the door, I will come in to him, and will sup with him, and he with me.
 <sup>21</sup> He that overcometh, I will give to him to sit down with me in my throne, as I also overcame, and sat down with my Father in his throne.
 <sup>22</sup> He that hath an ear, let him hear what the Spirit saith to the churches.
+
 ## Chapter 4
 
 <sup>1</sup> After these things I saw, and behold, a door opened in heaven, and the first voice that I heard, a voice as of a trumpet speaking with me, one saying, Come up hither, and I will show thee the things which must come to pass hereafter.
@@ -88,6 +91,7 @@
 <sup>9</sup> And when the living creatures shall give glory and honor and thanks to him that sitteth on the throne, to him that liveth for ever and ever,
 <sup>10</sup> the four and twenty elders shall fall down before him that sitteth on the throne, and shall worship him that liveth for ever and ever, and shall cast their crowns before the throne, saying,
 <sup>11</sup> Worthy art thou, our Lord and our God, to receive the glory and the honor and the power: for thou didst create all things, and because of thy will they were, and were created.
+
 ## Chapter 5
 
 <sup>1</sup> And I saw in the right hand of him that sat on the throne a book written within and on the back, close sealed with seven seals.
@@ -104,6 +108,7 @@
 <sup>12</sup> saying with a great voice, Worthy is the Lamb that hath been slain to receive the power, and riches, and wisdom, and might and honor, and glory, and blessing.
 <sup>13</sup> And every created thing which is in the heaven, and on the earth, and under the earth, and on the sea, and all things are in them, heard I saying, Unto him that sitteth on the throne, and unto the Lamb, be the blessing, and the honor, and the glory, and the dominion, for ever and ever.
 <sup>14</sup> And the four living creatures said, Amen. And the elders fell down and worshipped.
+
 ## Chapter 6
 
 <sup>1</sup> And I saw when the Lamb opened one of the seven seals, and I heard one of the four living creatures saying as with a voice of thunder, Come.
@@ -123,6 +128,7 @@
 <sup>15</sup> And the kings of the earth, and the princes, and the chief captains, and the rich, and the strong, and every bondman and freeman, hid themselves in the caves and in the rocks of the mountains;
 <sup>16</sup> and they say to the mountains and to the rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb:
 <sup>17</sup> for the great day of their wrath is come; and who is able to stand?
+
 ## Chapter 7
 
 <sup>1</sup> After his I saw four angels standing at the four corners of the earth, holding the four winds of the earth, that no wind should blow on the earth, or on the sea, or upon any tree.
@@ -142,6 +148,7 @@
 <sup>15</sup> Therefore are they before the throne of God; and they serve him day and night in his temple: and he that sitteth on the throne shall spread his tabernacle over them.
 <sup>16</sup> They shall hunger no more, neither thirst any more; neither shall the sun strike upon them, nor any heat:
 <sup>17</sup> for the Lamb that is in the midst of the throne shall be their shepherd, and shall guide them unto fountains of waters of life: and God shall wipe away every tear from their eyes.
+
 ## Chapter 8
 
 <sup>1</sup> And when he opened the seventh seal, there followed a silence in heaven about the space of half an hour.
@@ -157,6 +164,7 @@
 <sup>11</sup> and the name of the star is called Wormwood: and the third part of the waters became wormwood; and many men died of the waters, because they were made bitter.
 <sup>12</sup> And the fourth angel sounded, and the third part of the sun was smitten, and the third part of the moon, and the third part of the stars; that the third part of them should be darkened, and the day should not shine for the third part of it, and the night in like manner.
 <sup>13</sup> And I saw, and I heard an eagle, flying in mid heaven, saying with a great voice, Woe, woe, woe, for them that dwell on the earth, by reason of the other voices of the trumpet of the three angels, who are yet to sound.
+
 ## Chapter 9
 
 <sup>1</sup> And the fifth angel sounded, and I saw a star from heaven fallen unto the earth: and there was given to him the key of the pit of the abyss.
@@ -180,6 +188,7 @@
 <sup>19</sup> For the power of the horses is in their mouth, and in their tails: for their tails are like unto serpents, and have heads; and with them they hurt.
 <sup>20</sup> And the rest of mankind, who were not killed with these plagues, repented not of the works of their hands, that they should not worship demons, and the idols of gold, and of silver, and of brass, and of stone, and of wood; which can neither see, nor hear, nor walk:
 <sup>21</sup> and they repented not of their murders, nor of their sorceries, nor of their fornication, nor of their thefts.
+
 ## Chapter 10
 
 <sup>1</sup> And I saw another strong angel coming down out of heaven, arrayed with a cloud; and the rainbow was upon his head, and his face was as the sun, and his feet as pillars of fire;
@@ -193,6 +202,7 @@
 <sup>9</sup> And I went unto the angel, saying unto him that he should give me the little book. And he saith unto me, Take it, and eat it up; and it shall make thy belly bitter, but in thy mouth it shall be sweet as honey.
 <sup>10</sup> And I took the little book out of the angel’s hand, and ate it up; and it was in my mouth sweet as honey: and when I had eaten it, my belly was made bitter.
 <sup>11</sup> And they say unto me, Thou must prophesy again over many peoples and nations and tongues and kings.
+
 ## Chapter 11
 
 <sup>1</sup> And there was given me a reed like unto a rod: and one said, Rise, and measure the temple of God, and the altar, and them that worship therein.
@@ -214,6 +224,7 @@
 <sup>17</sup> saying, We give thee thanks, O Lord God, the Almighty, who art and who wast; because thou hast taken thy great power, and didst reign.
 <sup>18</sup> And the nations were wroth, and thy wrath came, and the time of the dead to be judged, and the time to give their reward to thy servants the prophets, and to the saints, and to them that fear thy name, the small and the great; and to destroy them that destroy the earth.
 <sup>19</sup> And there was opened the temple of God that is in heaven; and there was seen in his temple the ark of his covenant; and there followed lightnings, and voices, and thunders, and an earthquake, and great hail.
+
 ## Chapter 12
 
 <sup>1</sup> And a great sign was seen in heaven: a woman arrayed with the sun, and the moon under her feet, and upon her head a crown of twelve stars;
@@ -233,6 +244,7 @@
 <sup>15</sup> And the serpent cast out of his mouth after the woman water as a river, that he might cause her to be carried away by the stream.
 <sup>16</sup> And the earth helped the woman, and the earth opened her mouth and swallowed up the river which the dragon cast out of his mouth.
 <sup>17</sup> And the dragon waxed wroth with the woman, and went away to make war with the rest of her seed, that keep the commandments of God, and hold the testimony of Jesus:
+
 ## Chapter 13
 
 <sup>1</sup> and he stood upon the sand of the sea. And I saw a beast coming up out of the sea, having ten horns, and seven heads, and on his horns ten diadems, and upon his heads names of blasphemy.
@@ -253,6 +265,7 @@
 <sup>16</sup> And he causeth all, the small and the great, and the rich and the poor, and the free and the bond, that there be given them a mark on their right hand, or upon their forehead;
 <sup>17</sup> and that no man should be able to buy or to sell, save he that hath the mark, even the name of the beast or the number of his name.
 <sup>18</sup> Here is wisdom. He that hath understanding, let him count the number of the beast; for it is the number of a man: and his number is Six hundred and sixty and six.
+
 ## Chapter 14
 
 <sup>1</sup> And I saw, and behold, the Lamb standing on the mount Zion, and with him a hundred and forty and four thousand, having his name, and the name of his Father, written on their foreheads.
@@ -275,6 +288,7 @@
 <sup>18</sup> And another angel came out from the altar, he that hath power over fire; and he called with a great voice to him that had the sharp sickle, saying, Send forth thy sharp sickle, and gather the clusters of the vine of the earth; for her grapes are fully ripe.
 <sup>19</sup> And the angel cast his sickle into the earth, and gathered the vintage of the earth, and cast it into the winepress, the great winepress, of the wrath of God.
 <sup>20</sup> And the winepress are trodden without the city, and there came out blood from the winepress, even unto the bridles of the horses, as far as a thousand and six hundred furlongs.
+
 ## Chapter 15
 
 <sup>1</sup> And I saw another sign in heaven, great and marvellous, seven angels having seven plagues, which are the last, for in them is finished the wrath of God.
@@ -285,6 +299,7 @@
 <sup>6</sup> and there came out from the temple the seven angels that had the seven plagues, arrayed with precious stone, pure and bright, and girt about their breasts with golden girdles.
 <sup>7</sup> And one of the four living creatures gave unto the seven angels seven golden bowls full of the wrath of God, who liveth for ever and ever.
 <sup>8</sup> And the temple was filled with smoke from the glory of God, and from his power; and none was able to enter into the temple, till the seven plagues of the seven angels should be finished.
+
 ## Chapter 16
 
 <sup>1</sup> And I heard a great voice out of the temple, saying to the seven angels, Go ye, and pour out the seven bowls of the wrath of God into the earth.
@@ -308,6 +323,7 @@
 <sup>19</sup> And the great city was divided into into three parts, and the cities of the nations fell: and Babylon the great was remembered in the sight of God, to give unto her the cup of the wine of the fierceness of his wrath.
 <sup>20</sup> And every island fled away, and the mountains were not found.
 <sup>21</sup> And great hail, every stone about the weight of a talent, cometh down out of heaven upon men: and men blasphemed God because of the plague of the hail; for the plague thereof is exceeding great.
+
 ## Chapter 17
 
 <sup>1</sup> And there came one of the seven angels that had the seven bowls, and spake with me, saying, Come hither, I will show thee the judgment of the great harlot that sitteth upon many waters;
@@ -328,6 +344,7 @@
 <sup>16</sup> And the ten horns which thou sawest, and the beast, these shall hate the harlot, and shall make her desolate and naked, and shall eat her flesh, and shall burn her utterly with fire.
 <sup>17</sup> For God did put in their hearts to do his mind, and to come to one mind, and to give their kingdom unto the beast, until the words of God should be accomplished.
 <sup>18</sup> And the woman whom thou sawest is the great city, which reigneth over the kings of the earth.
+
 ## Chapter 18
 
 <sup>1</sup> After these things I saw another angel coming down out of heaven, having great authority; and the earth was lightened with his glory.
@@ -354,6 +371,7 @@
 <sup>22</sup> And the voice of harpers and minstrels and flute-players and trumpeters shall be heard no more at all in thee; and no craftsman, of whatsoever craft, shall be found any more at all in thee; and the voice of a mill shall be heard no more at all in thee;
 <sup>23</sup> and the light of a lamp shall shine no more at all in thee; and the voice of the bridegroom and of the bride shall be heard no more at all in thee: for thy merchants were the princes of the earth; for with thy sorcery were all the nations deceived.
 <sup>24</sup> And in her was found the blood of prophets and of saints, and of all that have been slain upon the earth.
+
 ## Chapter 19
 
 <sup>1</sup> After these things I heard as it were a great voice of a great multitude in heaven, saying, Hallelujah; Salvation, and glory, and power, belong to our God:
@@ -377,6 +395,7 @@
 <sup>19</sup> And I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him that sat upon the horse, and against his army.
 <sup>20</sup> And the beast was taken, and with him the false prophet that wrought the signs in his sight, wherewith he deceived them that had received the mark of the beast and them that worshipped his image: they two were cast alive into the lake of fire that burneth with brimstone:
 <sup>21</sup> and the rest were killed with the sword of him that sat upon the horse, even the sword which came forth out of his mouth: and all the birds were filled with their flesh.
+
 ## Chapter 20
 
 <sup>1</sup> And I saw an angel coming down out of heaven, having the key of the abyss and a great chain in his hand.
@@ -394,6 +413,7 @@
 <sup>13</sup> And the sea gave up the dead that were in it; and death and Hades gave up the dead that were in them: and they were judged every man according to their works.
 <sup>14</sup> And death and Hades were cast into the lake of fire. This is the second death, even the lake of fire.
 <sup>15</sup> And if any was not found written in the book of life, he was cast into the lake of fire.
+
 ## Chapter 21
 
 <sup>1</sup> And I saw a new heaven and a new earth: for the first heaven and the first earth are passed away; and the sea is no more.
@@ -423,6 +443,7 @@
 <sup>25</sup> And the gates thereof shall in no wise be shut by day (for there shall be no night there):
 <sup>26</sup> and they shall bring the glory and the honor of the nations into it:
 <sup>27</sup> and there shall in no wise enter into it anything unclean, or he that maketh an abomination and a lie: but only they that are written in the Lamb’s book of life.
+
 ## Chapter 22
 
 <sup>1</sup> And he showed me a river of water of life, bright as crystal, proceeding out of the throne of God and of the Lamb,

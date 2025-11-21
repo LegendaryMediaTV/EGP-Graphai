@@ -54,6 +54,7 @@
 <sup>52</sup> And the children of Israel shall pitch their tents, every man by his own camp, and every man by his own standard, according to their hosts.
 <sup>53</sup> But the Levites shall encamp round about the tabernacle of the testimony, that there be no wrath upon the congregation of the children of Israel: and the Levites shall keep the charge of the tabernacle of the testimony.
 <sup>54</sup> Thus did the children of Israel; according to all that Jehovah commanded Moses, so did they.
+
 ## Chapter 2
 
 <sup>1</sup> And Jehovah spake unto Moses and unto Aaron, saying,
@@ -90,6 +91,7 @@
 <sup>32</sup> These are they that were numbered of the children of Israel by their fathers’ houses: all that were numbered of the camps according to their hosts were six hundred thousand and three thousand and five hundred and fifty.
 <sup>33</sup> But the Levites were not numbered among the children of Israel; as Jehovah commanded Moses.
 <sup>34</sup> Thus did the children of Israel; according to all that Jehovah commanded Moses, so they encamped by their standards, and so they set forward, every one by their families, according to their fathers’ houses.
+
 ## Chapter 3
 
 <sup>1</sup> Now these are the generations of Aaron and Moses in the day that Jehovah spake with Moses in mount Sinai.
@@ -143,6 +145,7 @@
 <sup>49</sup> And Moses took the redemption-money from them that were over and above them that were redeemed by the Levites;
 <sup>50</sup> from the first-born of the children of Israel took he the money, a thousand three hundred and threescore and five shekels, after the shekel of the sanctuary:
 <sup>51</sup> and Moses gave the redemption-money unto Aaron and to his sons, according to the word of Jehovah, as Jehovah commanded Moses.
+
 ## Chapter 4
 
 <sup>1</sup> And Jehovah spake unto Moses and unto Aaron, saying,
@@ -194,6 +197,7 @@
 <sup>47</sup> from thirty years old and upward even unto fifty years old, every one that entered in to do the work of service, and the work of bearing burdens in the tent of meeting,
 <sup>48</sup> even those that were numbered of them, were eight thousand and five hundred and fourscore.
 <sup>49</sup> According to the commandment of Jehovah they were numbered by Moses, every one according to his service, and according to his burden: thus were they numbered of him, as Jehovah commanded Moses.
+
 ## Chapter 5
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -227,6 +231,7 @@
 <sup>29</sup> This is the law of jealousy, when a wife, being under her husband, goeth aside, and is defiled;
 <sup>30</sup> or when the spirit of jealousy cometh upon a man, and he is jealous of his wife; then shall he set the woman before Jehovah, and the priest shall execute upon her all this law.
 <sup>31</sup> And the man shall be free from iniquity, and that woman shall bear her iniquity.
+
 ## Chapter 6
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -256,6 +261,7 @@
 <sup>25</sup> Jehovah make his face to shine upon thee, and be gracious unto thee:
 <sup>26</sup> Jehovah lift up his countenance upon thee, and give thee peace.
 <sup>27</sup> So shall they put my name upon the children of Israel; and I will bless them.
+
 ## Chapter 7
 
 <sup>1</sup> And it came to pass on the day that Moses had made an end of setting up the tabernacle, and had anointed it and sanctified it, and all the furniture thereof, and the altar and all the vessels thereof, and had anointed them and sanctified them;
@@ -347,6 +353,7 @@
 <sup>87</sup> all the oxen for the burnt-offering twelve bullocks, the rams twelve, the he-lambs a year old twelve, and their meal-offering; and the males of the goats for a sin-offering twelve;
 <sup>88</sup> and all the oxen for the sacrifice of peace-offerings twenty and four bullocks, the rams sixty, the he-goats sixty, the he-lambs a year old sixty. This was the dedication of the altar, after that it was anointed.
 <sup>89</sup> And when Moses went into the tent of meeting to speak with him, then he heard the Voice speaking unto him from above the mercy-seat that was upon the ark of the testimony, from between the two cherubim: and he spake unto him.
+
 ## Chapter 8
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -375,6 +382,7 @@
 <sup>24</sup> This is that which belongeth unto the Levites: from twenty and five years old and upward they shall go in to wait upon the service in the work of the tent of meeting:
 <sup>25</sup> and from the age of fifty years they shall cease waiting upon the work, and shall serve no more,
 <sup>26</sup> but shall minister with their brethren in the tent of meeting, to keep the charge, and shall do no service. Thus shalt thou do unto the Levites touching their charges.
+
 ## Chapter 9
 
 <sup>1</sup> And Jehovah spake unto Moses in the wilderness of Sinai, in the first month of the second year after they were come out of the land of Egypt, saying,
@@ -400,6 +408,7 @@
 <sup>21</sup> And sometimes the cloud was from evening until morning; and when the cloud was taken up in the morning, they journeyed: or if it continued by day and by night, when the cloud was taken up, they journeyed.
 <sup>22</sup> Whether it were two days, or a month, or a year, that the cloud tarried upon the tabernacle, abiding thereon, the children of Israel remained encamped, and journeyed not; but when it was taken up, they journeyed.
 <sup>23</sup> At the commandment of Jehovah they encamped, and at the commandment of Jehovah they journeyed: they kept the charge of Jehovah, at the commandment of Jehovah by Moses.
+
 ## Chapter 10
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -438,6 +447,7 @@
 <sup>34</sup> And the cloud of Jehovah was over them by day, when they set forward from the camp.
 <sup>35</sup> And it came to pass, when the ark set forward, that Moses said, Rise up, O Jehovah, and let thine enemies be scattered; and let them that hate thee flee before thee.
 <sup>36</sup> And when it rested, he said, Return, O Jehovah, unto the ten thousands of the thousands of Israel.
+
 ## Chapter 11
 
 <sup>1</sup> And the people were as murmurers, speaking evil in the ears of Jehovah: and when Jehovah heard it, his anger was kindled; and the fire of Jehovah burnt among them, and devoured in the uttermost part of the camp.
@@ -475,6 +485,7 @@
 <sup>33</sup> While the flesh was yet between their teeth, ere it was chewed, the anger of Jehovah was kindled against the people, and Jehovah smote the people with a very great plague.
 <sup>34</sup> And the name of that place was called Kibrothhattaavah, because there they buried the people that lusted.
 <sup>35</sup> From Kibrothhattaavah the people journeyed unto Hazeroth; and they abode at Hazeroth.
+
 ## Chapter 12
 
 <sup>1</sup> And Miriam and Aaron spake against Moses because of the Cushite woman whom he had married; for he had married a Cushite woman.
@@ -493,6 +504,7 @@
 <sup>14</sup> And Jehovah said unto Moses, If her father had but spit in her face, should she not be ashamed seven days? let her be shut up without the camp seven days, and after that she shall be brought in again.
 <sup>15</sup> And Miriam was shut up without the camp seven days: and the people journeyed not till Miriam was brought in again.
 <sup>16</sup> And afterward the people journeyed from Hazeroth, and encamped in the wilderness of Paran.
+
 ## Chapter 13
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -528,6 +540,7 @@
 <sup>31</sup> But the men that went up with him said, We are not able to go up against the people; for they are stronger than we.
 <sup>32</sup> And they brought up an evil report of the land which they had spied out unto the children of Israel, saying, The land, through which we have gone to spy it out, is a land that eateth up the inhabitants thereof; and all the people that we saw in it are men of great stature.
 <sup>33</sup> And there we saw the Nephilim, the sons of Anak, who come of the Nephilim: and we were in our own sight as grasshoppers, and so we were in their sight.
+
 ## Chapter 14
 
 <sup>1</sup> And all the congregation lifted up their voice, and cried; and the people wept that night.
@@ -575,6 +588,7 @@
 <sup>43</sup> For there the Amalekite and the Canaanite are before you, and ye shall fall by the sword: because ye are turned back from following Jehovah, therefore Jehovah will not be with you.
 <sup>44</sup> But they presumed to go up to the top of the mountain: nevertheless the ark of the covenant of Jehovah, and Moses, departed not out of the camp.
 <sup>45</sup> Then the Amalekite came down, and the Canaanite who dwelt in that mountain, and smote them and beat them down, even unto Hormah.
+
 ## Chapter 15
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -618,6 +632,7 @@
 <sup>39</sup> and it shall be unto you for a fringe, that ye may look upon it, and remember all the commandments of Jehovah, and do them; and that ye follow not after your own heart and your own eyes, after which ye use to play the harlot;
 <sup>40</sup> that ye may remember and do all my commandments, and be holy unto your God.
 <sup>41</sup> I am Jehovah your God, who brought you out of the land of Egypt, to be your God: I am Jehovah your God.
+
 ## Chapter 16
 
 <sup>1</sup> Now Korah, the son of Izhar, the son of Kohath, the son of Levi, with Dathan and Abiram, the sons of Eliab, and On, the son of Peleth, sons of Reuben, took men:
@@ -670,6 +685,7 @@
 <sup>48</sup> And he stood between the dead and the living; and the plague was stayed.
 <sup>49</sup> Now they that died by the plague were fourteen thousand and seven hundred, besides them that died about the matter of Korah.
 <sup>50</sup> And Aaron returned unto Moses unto the door of the tent of meeting: and the plague was stayed.
+
 ## Chapter 17
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -685,6 +701,7 @@
 <sup>11</sup> Thus did Moses: as Jehovah commanded him, so did he.
 <sup>12</sup> And the children of Israel spake unto Moses, saying, Behold, we perish, we are undone, we are all undone.
 <sup>13</sup> Every one that cometh near, that cometh near unto the tabernacle of Jehovah, dieth: shall we perish all of us?
+
 ## Chapter 18
 
 <sup>1</sup> And Jehovah said unto Aaron, Thou and thy sons and thy fathers’ house with thee shall bear the iniquity of the sanctuary; and thou and thy sons with thee shall bear the iniquity of your priesthood.
@@ -719,6 +736,7 @@
 <sup>30</sup> Therefore thou shalt say unto them, When ye heave the best thereof from it, then it shall be reckoned unto the Levites as the increase of the threshing-floor, and as the increase of the wine-press.
 <sup>31</sup> And ye shall eat it in every place, ye and your households: for it is your reward in return for your service in the tent of meeting.
 <sup>32</sup> And ye shall bear no sin by reason of it, when ye have heaved from it the best thereof: and ye shall not profane the holy things of the children of Israel, that ye die not.
+
 ## Chapter 19
 
 <sup>1</sup> And Jehovah spake unto Moses and unto Aaron, saying,
@@ -743,6 +761,7 @@
 <sup>20</sup> But the man that shall be unclean, and shall not purify himself, that soul shall be cut off from the midst of the assembly, because he hath defiled the sanctuary of Jehovah: the water for impurity hath not been sprinkled upon him; he is unclean.
 <sup>21</sup> And it shall be a perpetual statute unto them: and he that sprinkleth the water for impurity shall wash his clothes, and he that toucheth the water for impurity shall be unclean until even.
 <sup>22</sup> And whatsoever the unclean person toucheth shall be unclean; and the soul that toucheth it shall be unclean until even.
+
 ## Chapter 20
 
 <sup>1</sup> And the children of Israel, even the whole congregation, came into the wilderness of Zin in the first month: and the people abode in Kadesh; and Miriam died there, and was buried there.
@@ -774,6 +793,7 @@
 <sup>27</sup> And Moses did as Jehovah commanded: and they went up into mount Hor in the sight of all the congregation.
 <sup>28</sup> And Moses stripped Aaron of his garments, and put them upon Eleazar his son; and Aaron died there on the top of the mount: and Moses and Eleazar came down from the mount.
 <sup>29</sup> And when all the congregation saw that Aaron was dead, they wept for Aaron thirty days, even all the house of Israel.
+
 ## Chapter 21
 
 <sup>1</sup> And the Canaanite, the king of Arad, who dwelt in the South, heard tell that Israel came by the way of Atharim; and he fought against Israel, and took some of them captive.
@@ -811,6 +831,7 @@
 <sup>33</sup> And they turned and went up by the way of Bashan: and Og the king of Bashan went out against them, he and all his people, to battle at Edrei.
 <sup>34</sup> And Jehovah said unto Moses, Fear him not: for I have delivered him into thy hand, and all his people, and his land; and thou shalt do to him as thou didst unto Sihon king of the Amorites, who dwelt at Heshbon.
 <sup>35</sup> So they smote him, and his sons and all his people, until there was none left him remaining: and they possessed his land.
+
 ## Chapter 22
 
 <sup>1</sup> And the children of Israel journeyed, and encamped in the plains of Moab beyond the Jordan at Jericho.
@@ -854,6 +875,7 @@
 <sup>39</sup> And Balaam went with Balak, and they came unto Kiriath-huzoth.
 <sup>40</sup> And Balak sacrificed oxen and sheep, and sent to Balaam, and to the princes that were with him.
 <sup>41</sup> And it came to pass in the morning, that Balak took Balaam, and brought him up into the high places of Baal; and he saw from thence the utmost part of the people.
+
 ## Chapter 23
 
 <sup>1</sup> And Balaam said unto Balak, Build me here seven altars, and prepare me here seven bullocks and seven rams.
@@ -886,6 +908,7 @@
 <sup>28</sup> And Balak took Balaam unto the top of Peor, that looketh down upon the desert.
 <sup>29</sup> And Balaam said unto Balak, Build me here seven altars, and prepare me here seven bullocks and seven rams.
 <sup>30</sup> And Balak did as Balaam had said, and offered up a bullock and a ram on every altar.
+
 ## Chapter 24
 
 <sup>1</sup> And when Balaam saw that it pleased Jehovah to bless Israel, he went not, as at the other times, to meet with enchantments, but he set his face toward the wilderness.
@@ -913,6 +936,7 @@
 <sup>23</sup> And he took up his parable, and said, Alas, who shall live when God doeth this?
 <sup>24</sup> But ships shall come from the coast of Kittim, And they shall afflict Asshur, and shall afflict Eber; And he also shall come to destruction.
 <sup>25</sup> And Balaam rose up, and went and returned to his place; and Balak also went his way.
+
 ## Chapter 25
 
 <sup>1</sup> And Israel abode in Shittim; and the people began to play the harlot with the daughters of Moab:
@@ -933,6 +957,7 @@
 <sup>16</sup> And Jehovah spake unto Moses, saying,
 <sup>17</sup> Vex the Midianites, and smite them;
 <sup>18</sup> for they vex you with their wiles, wherewith they have beguiled you in the matter of Peor, and in the matter of Cozbi, the daughter of the prince of Midian, their sister, who was slain on the day of the plague in the matter of Peor.
+
 ## Chapter 26
 
 <sup>1</sup> And it came to pass after the plague, that Jehovah spake unto Moses and unto Eleazar the son of Aaron the priest, saying,
@@ -1000,6 +1025,7 @@
 <sup>63</sup> These are they that were numbered by Moses and Eleazar the priest, who numbered the children of Israel in the plains of Moab by the Jordan at Jericho.
 <sup>64</sup> But among these there was not a man of them that were numbered by Moses and Aaron the priest, who numbered the children of Israel in the wilderness of Sinai.
 <sup>65</sup> For Jehovah had said of them, They shall surely die in the wilderness. And there was not left a man of them, save Caleb the son of Jephunneh, and Joshua the son of Nun.
+
 ## Chapter 27
 
 <sup>1</sup> Then drew near the daughters of Zelophehad, the son of Hepher, the son of Gilead, the son of Machir, the son of Manasseh, of the families of Manasseh the son of Joseph; and these are the names of his daughters: Mahlah, Noah, and Hoglah, and Milcah, and Tirzah.
@@ -1025,6 +1051,7 @@
 <sup>21</sup> And he shall stand before Eleazar the priest, who shall inquire for him by the judgment of the Urim before Jehovah: at his word shall they go out, and at his word they shall come in, both he, and all the children of Israel with him, even all the congregation.
 <sup>22</sup> And Moses did as Jehovah commanded him; and he took Joshua, and set him before Eleazar the priest, and before all the congregation:
 <sup>23</sup> and he laid his hands upon him, and gave him a charge, as Jehovah spake by Moses.
+
 ## Chapter 28
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -1058,6 +1085,7 @@
 <sup>29</sup> a tenth part for every lamb of the seven lambs;
 <sup>30</sup> one he-goat, to make atonement for you.
 <sup>31</sup> Besides the continual burnt-offering, and the meal-offering thereof, ye shall offer them (they shall be unto you without blemish), and their drink-offerings.
+
 ## Chapter 29
 
 <sup>1</sup> And in the seventh month, on the first day of the month, ye shall have a holy convocation; ye shall do no servile work: it is a day of blowing of trumpets unto you.
@@ -1100,6 +1128,7 @@
 <sup>38</sup> and one he-goat for a sin-offering, besides the continual burnt-offering, and the meal-offering thereof, and the drink-offering thereof.
 <sup>39</sup> These ye shall offer unto Jehovah in your set feasts, besides your vows, and your freewill-offerings, for your burnt-offerings, and for your meal-offerings, and for your drink-offerings, and for your peace-offerings.
 <sup>40</sup> And Moses told the children of Israel according to all that Jehovah commanded Moses.
+
 ## Chapter 30
 
 <sup>1</sup> And Moses spake unto the heads of the tribes of the children of Israel, saying, This is the thing which Jehovah hath commanded.
@@ -1118,6 +1147,7 @@
 <sup>14</sup> But if her husband altogether hold his peace at her from day to day, then he establisheth all her vows, or all her bonds, which are upon her: he hath established them, because he held his peace at her in the day that he heard them.
 <sup>15</sup> But if he shall make them null and void after that he hath heard them, then he shall bear her iniquity.
 <sup>16</sup> These are the statutes, which Jehovah commanded Moses, between a man and his wife, between a father and his daughter, being in her youth, in her father’s house.
+
 ## Chapter 31
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -1174,6 +1204,7 @@
 <sup>52</sup> And all the gold of the heave-offering that they offered up to Jehovah, of the captains of thousands, and of the captains of hundreds, was sixteen thousand seven hundred and fifty shekels.
 <sup>53</sup> (For the men of war had taken booty, every man for himself.)
 <sup>54</sup> And Moses and Eleazar the priest took the gold of the captains of thousands and of hundreds, and brought it into the tent of meeting, for a memorial for the children of Israel before Jehovah.
+
 ## Chapter 32
 
 <sup>1</sup> Now the children of Reuben and the children of Gad had a very great multitude of cattle: and when they saw the land of Jazer, and the land of Gilead, that, behold, the place was a place for cattle;
@@ -1218,6 +1249,7 @@
 <sup>40</sup> And Moses gave Gilead unto Machir the son of Manasseh; and he dwelt therein.
 <sup>41</sup> And Jair the son of Manasseh went and took the towns thereof, and called them Havvoth-jair.
 <sup>42</sup> And Nobah went and took Kenath, and the villages thereof, and called it Nobah, after his own name.
+
 ## Chapter 33
 
 <sup>1</sup> These are the journeys of the children of Israel, when they went forth out of the land of Egypt by their hosts under the hand of Moses and Aaron.
@@ -1276,6 +1308,7 @@
 <sup>54</sup> And ye shall inherit the land by lot according to your families; to the more ye shall give the more inheritance, and to the fewer thou shalt give the less inheritance: wheresoever the lot falleth to any man, that shall be his; according to the tribes of your fathers shall ye inherit.
 <sup>55</sup> But if ye will not drive out the inhabitants of the land from before you, then shall those that ye let remain of them be as pricks in your eyes, and as thorns in your sides, and they shall vex you in the land wherein ye dwell.
 <sup>56</sup> And it shall come to pass, that, as I thought to do unto them, so will I do unto you.
+
 ## Chapter 34
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -1307,6 +1340,7 @@
 <sup>27</sup> And of the tribe of the children of Asher a prince, Ahihud the son of Shelomi.
 <sup>28</sup> And of the tribe of the children of Naphtali a prince, Pedahel the son of Ammihud.
 <sup>29</sup> These are they whom Jehovah commanded to divide the inheritance unto the children of Israel in the land of Canaan.
+
 ## Chapter 35
 
 <sup>1</sup> And Jehovah spake unto Moses in the plains of Moab by the Jordan at Jericho, saying,
@@ -1343,6 +1377,7 @@
 <sup>32</sup> And ye shall take no ransom for him that is fled to his city of refuge, that he may come again to dwell in the land, until the death of the priest.
 <sup>33</sup> So ye shall not pollute the land wherein ye are: for blood, it polluteth the land; and no expiation can be made for the land for the blood that is shed therein, but by the blood of him that shed it.
 <sup>34</sup> And thou shalt not defile the land which ye inhabit, in the midst of which I dwell: for I, Jehovah, dwell in the midst of the children of Israel.
+
 ## Chapter 36
 
 <sup>1</sup> And the heads of the fathers’ houses of the family of the children of Gilead, the son of Machir, the son of Manasseh, of the families of the sons of Joseph, came near, and spake before Moses, and before the princes, the heads of the fathers’ houses of the children of Israel:
