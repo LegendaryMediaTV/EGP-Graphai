@@ -317,6 +317,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by David, when he fled from Absalom his son."
+      },
+      {
         "paragraph": true,
         "text": "Yahweh, how my adversaries have increased!",
         "break": true
@@ -462,6 +465,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician; on stringed instruments. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Answer me when I call, God of my righteousness.",
         "break": true
@@ -587,6 +593,9 @@
     "chapter": 5,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician, with the flutes. A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "Give ear to my words, Yahweh.",
@@ -786,6 +795,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician; on stringed instruments, upon the eight-stringed lyre. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Yahweh, don’t rebuke me in your anger,",
         "break": true
@@ -944,6 +956,9 @@
     "chapter": 7,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A meditation by David, which he sang to Yahweh, concerning the words of Cush, the Benjamite."
+      },
       {
         "paragraph": true,
         "text": "Yahweh, my God, I take refuge in you.",
@@ -1234,6 +1249,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician; on an instrument of Gath. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Yahweh, our Lord, how majestic is your name in all the earth!",
         "break": true
@@ -1370,6 +1388,9 @@
     "chapter": 9,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. Set to “The Death of the Son.” A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "I will give thanks to Yahweh with my whole heart.",
@@ -1989,6 +2010,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. By David."
+      },
+      {
         "paragraph": true,
         "text": "In Yahweh, I take refuge.",
         "break": true
@@ -2107,6 +2131,9 @@
     "chapter": 12,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician; upon an eight-stringed lyre. A Psalm of David."
+      },
       {
         "paragraph": true,
         "text": "Help, Yahweh; for the godly man ceases.",
@@ -2234,6 +2261,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "How long, Yahweh?",
         "break": true
@@ -2327,6 +2357,9 @@
     "chapter": 14,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. By David."
+      },
       {
         "paragraph": true,
         "text": "The fool has said in his heart, “There is no God.”",
@@ -2455,6 +2488,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Yahweh, who shall dwell in your sanctuary?",
         "break": true
@@ -2538,11 +2574,16 @@
     "book": "PSA",
     "chapter": 16,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Preserve me, God, for I take refuge in you.",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Poem by David."
+      },
+      {
+        "paragraph": true,
+        "text": "Preserve me, God, for I take refuge in you.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -2704,6 +2745,9 @@
     "chapter": 17,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Prayer by David."
+      },
       {
         "paragraph": true,
         "text": "Hear, Yahweh, my righteous plea.",
@@ -2954,11 +2998,16 @@
     "book": "PSA",
     "chapter": 18,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I love you, Yahweh, my strength.",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "For the Chief Musician. By David the servant of Yahweh, who spoke to Yahweh the words of this song in the day that Yahweh delivered him from the hand of all his enemies, and from the hand of Saul. He said,"
+      },
+      {
+        "paragraph": true,
+        "text": "I love you, Yahweh, my strength.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -3758,6 +3807,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "The heavens declare the glory of God.",
         "break": true
@@ -3982,6 +4034,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "May Yahweh answer you in the day of trouble.",
         "break": true
@@ -4124,6 +4179,9 @@
     "chapter": 21,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "The king rejoices in your strength, Yahweh!",
@@ -4323,6 +4381,9 @@
     "chapter": 22,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician; set to “The Doe of the Morning.” A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "My God, my God, why have you forsaken me?",
@@ -4821,6 +4882,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Yahweh is my shepherd;",
         "break": true
@@ -4924,6 +4988,9 @@
     "chapter": 24,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "The earth is Yahweh’s, with its fullness;",
@@ -5091,11 +5158,16 @@
     "book": "PSA",
     "chapter": 25,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "To you, Yahweh, I lift up my soul.",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "By David."
+      },
+      {
+        "paragraph": true,
+        "text": "To you, Yahweh, I lift up my soul.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -5423,6 +5495,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
         "text": "Judge me, Yahweh, for I have walked in my integrity.",
         "break": true
@@ -5598,6 +5673,9 @@
     "chapter": 27,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "By David."
+      },
       {
         "paragraph": true,
         "text": "Yahweh is my light and my salvation.",
@@ -5857,6 +5935,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
         "text": "To you, Yahweh, I call.",
         "break": true
@@ -6024,6 +6105,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Ascribe to Yahweh, you sons of the mighty,",
         "break": true
@@ -6180,6 +6264,9 @@
     "chapter": 30,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Psalm. A Song for the Dedication of the Temple. By David."
+      },
       {
         "paragraph": true,
         "text": "I will extol you, Yahweh, for you have raised me up,",
@@ -6374,6 +6461,9 @@
     "chapter": 31,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "In you, Yahweh, I take refuge.",
@@ -6784,6 +6874,9 @@
     "chapter": 32,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "By David. A contemplative psalm."
+      },
       {
         "paragraph": true,
         "text": "Blessed is he whose disobedience is forgiven,",
@@ -7282,6 +7375,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "By David; when he pretended to be insane before Abimelech, who drove him away, and he departed."
+      },
+      {
         "paragraph": true,
         "foot": {
           "type": "stu",
@@ -7613,6 +7709,9 @@
     "chapter": 35,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "By David."
+      },
       {
         "paragraph": true,
         "text": "Contend, Yahweh, with those who contend with me.",
@@ -8044,6 +8143,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. By David, the servant of Yahweh."
+      },
+      {
         "paragraph": true,
         "text": "A revelation is within my heart about the disobedience of the wicked:",
         "break": true
@@ -8227,6 +8329,9 @@
     "chapter": 37,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "By David."
+      },
       {
         "paragraph": true,
         "text": "Don’t fret because of evildoers,",
@@ -8856,6 +8961,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by David, for a memorial."
+      },
+      {
         "paragraph": true,
         "text": "Yahweh, don’t rebuke me in your wrath,",
         "break": true
@@ -9192,6 +9300,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. For Jeduthun. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "I said, “I will watch my ways, so that I don’t sin with my tongue.",
         "break": true
@@ -9424,6 +9535,9 @@
     "chapter": 40,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "I waited patiently for Yahweh.",
@@ -9712,6 +9826,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Blessed is he who considers the poor.",
         "break": true
@@ -9916,6 +10033,9 @@
     "chapter": 42,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A contemplation by the sons of Korah."
+      },
       {
         "paragraph": true,
         "text": "As the deer pants for the water brooks,",
@@ -10220,6 +10340,9 @@
     "chapter": 44,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. By the sons of Korah. A contemplative psalm."
+      },
       {
         "paragraph": true,
         "text": "We have heard with our ears, God;",
@@ -10647,6 +10770,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. Set to “The Lilies.” A contemplation by the sons of Korah. A wedding song."
+      },
+      {
         "paragraph": true,
         "text": "My heart overflows with a noble theme.",
         "break": true
@@ -10908,6 +11034,15 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": {
+          "text": "For the Chief Musician. By the sons of Korah. According to Alamoth.",
+          "foot": {
+            "type": "stu",
+            "content": "Alamoth is a musical term."
+          }
+        }
+      },
+      {
         "paragraph": true,
         "text": "God is our refuge and strength,",
         "break": true
@@ -11090,6 +11225,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A Psalm by the sons of Korah."
+      },
+      {
         "paragraph": true,
         "text": "Oh clap your hands, all you nations.",
         "break": true
@@ -11232,6 +11370,9 @@
     "chapter": 48,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Song. A Psalm by the sons of Korah."
+      },
       {
         "paragraph": true,
         "text": "Great is Yahweh, and greatly to be praised,",
@@ -11450,6 +11591,9 @@
     "chapter": 49,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by the sons of Korah."
+      },
       {
         "paragraph": true,
         "text": "Hear this, all you peoples.",
@@ -11782,6 +11926,9 @@
     "chapter": 50,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Psalm by Asaph."
+      },
       {
         "paragraph": true,
         "text": "The Mighty One, God, Yahweh, speaks,",
@@ -12138,6 +12285,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A Psalm by David, when Nathan the prophet came to him, after he had gone in to Bathsheba."
+      },
+      {
         "paragraph": true,
         "text": "Have mercy on me, God, according to your loving kindness.",
         "break": true
@@ -12431,6 +12581,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A contemplation by David, when Doeg the Edomite came and told Saul, “David has come to Ahimelech’s house.”"
+      },
+      {
         "paragraph": true,
         "text": "Why do you boast of mischief, mighty man?",
         "break": true
@@ -12580,6 +12733,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. To the tune of “Mahalath.” A contemplation by David."
+      },
+      {
         "paragraph": true,
         "text": "The fool has said in his heart, “There is no God.”",
         "break": true
@@ -12700,6 +12856,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. On stringed instruments. A contemplation by David, when the Ziphites came and said to Saul, “Isn’t David hiding himself among us?”"
+      },
+      {
         "paragraph": true,
         "text": "Save me, God, by your name.",
         "break": true
@@ -12808,6 +12967,9 @@
     "chapter": 55,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. On stringed instruments. A contemplation by David."
+      },
       {
         "paragraph": true,
         "text": "Listen to my prayer, God.",
@@ -13197,6 +13359,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. To the tune of “Silent Dove in Distant Lands.” A poem by David, when the Philistines seized him in Gath."
+      },
+      {
         "paragraph": true,
         "text": "Be merciful to me, God, for man wants to swallow me up.",
         "break": true
@@ -13414,6 +13579,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when he fled from Saul, in the cave."
+      },
+      {
         "paragraph": true,
         "text": "Be merciful to me, God, be merciful to me,",
         "break": true
@@ -13614,6 +13782,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David."
+      },
+      {
         "paragraph": true,
         "text": "Do you indeed speak righteousness, silent ones?",
         "break": true
@@ -13776,6 +13947,9 @@
     "chapter": 59,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when Saul sent, and they watched the house to kill him."
+      },
       {
         "paragraph": true,
         "text": "Deliver me from my enemies, my God.",
@@ -14064,6 +14238,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. To the tune of “The Lily of the Covenant.” A teaching poem by David, when he fought with Aram Naharaim and with Aram Zobah, and Joab returned, and killed twelve thousand of Edom in the Valley of Salt."
+      },
+      {
         "paragraph": true,
         "text": "God, you have rejected us.",
         "break": true
@@ -14274,6 +14451,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. For a stringed instrument. By David."
+      },
+      {
         "paragraph": true,
         "text": "Hear my cry, God.",
         "break": true
@@ -14393,6 +14573,9 @@
     "chapter": 62,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. To Jeduthun. A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "My soul rests in God alone.",
@@ -14608,6 +14791,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by David, when he was in the desert of Judah."
+      },
+      {
         "paragraph": true,
         "text": "God, you are my God.",
         "break": true
@@ -14787,6 +14973,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Hear my voice, God, in my complaint.",
         "break": true
@@ -14946,6 +15135,9 @@
     "chapter": 65,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by David. A song."
+      },
       {
         "paragraph": true,
         "text": "Praise waits for you, God, in Zion.",
@@ -15182,11 +15374,16 @@
     "book": "PSA",
     "chapter": 66,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Make a joyful shout to God, all the earth!",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "For the Chief Musician. A song. A Psalm."
+      },
+      {
+        "paragraph": true,
+        "text": "Make a joyful shout to God, all the earth!",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -15499,6 +15696,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. With stringed instruments. A Psalm. A song."
+      },
+      {
         "paragraph": true,
         "text": "May God be merciful to us, bless us,",
         "break": true
@@ -15609,6 +15809,9 @@
     "chapter": 68,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by David. A song."
+      },
       {
         "paragraph": true,
         "text": "Let God arise!",
@@ -16201,6 +16404,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. To the tune of “Lilies.” By David."
+      },
+      {
         "paragraph": true,
         "text": "Save me, God,",
         "break": true
@@ -16759,6 +16965,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. By David. A reminder."
+      },
+      {
         "paragraph": true,
         "text": "Hurry, God, to deliver me.",
         "break": true
@@ -17233,6 +17442,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "By Solomon."
+      },
+      {
         "paragraph": true,
         "text": "God, give the king your justice;",
         "break": true
@@ -17546,6 +17758,9 @@
     "chapter": 73,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Psalm by Asaph."
+      },
       {
         "paragraph": true,
         "text": "Surely God",
@@ -18000,6 +18215,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A contemplation by Asaph."
+      },
+      {
         "paragraph": true,
         "text": "God, why have you rejected us forever?",
         "break": true
@@ -18344,6 +18562,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. To the tune of “Do Not Destroy.” A Psalm by Asaph. A song."
+      },
+      {
         "paragraph": true,
         "text": "We give thanks to you, God.",
         "break": true
@@ -18504,6 +18725,9 @@
     "chapter": 76,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. On stringed instruments. A Psalm by Asaph. A song."
+      },
       {
         "paragraph": true,
         "text": "In Judah, God is known.",
@@ -18693,6 +18917,9 @@
     "chapter": 77,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. To Jeduthun. A Psalm by Asaph."
+      },
       {
         "paragraph": true,
         "text": "My cry goes to God!",
@@ -19028,6 +19255,9 @@
     "chapter": 78,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A contemplation by Asaph."
+      },
       {
         "paragraph": true,
         "text": "Hear my teaching, my people.",
@@ -20170,6 +20400,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by Asaph."
+      },
+      {
         "paragraph": true,
         "text": "God, the nations have come into your inheritance.",
         "break": true
@@ -20385,6 +20618,9 @@
     "chapter": 80,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. To the tune of “The Lilies of the Covenant.” A Psalm by Asaph."
+      },
       {
         "paragraph": true,
         "text": "Hear us, Shepherd of Israel,",
@@ -20681,6 +20917,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. On an instrument of Gath. By Asaph."
+      },
+      {
         "paragraph": true,
         "text": "Sing aloud to God, our strength!",
         "break": true
@@ -20933,6 +21172,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by Asaph."
+      },
+      {
         "paragraph": true,
         "text": "God presides in the great assembly.",
         "break": true
@@ -21056,6 +21298,9 @@
     "chapter": 83,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A song. A Psalm by Asaph."
+      },
       {
         "paragraph": true,
         "text": "God, don’t keep silent.",
@@ -21325,6 +21570,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. On an instrument of Gath. A Psalm by the sons of Korah."
+      },
+      {
         "paragraph": true,
         "text": "How lovely are your dwellings,",
         "break": true
@@ -21518,6 +21766,9 @@
     "chapter": 85,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by the sons of Korah."
+      },
       {
         "paragraph": true,
         "text": "Yahweh, you have been favorable to your land.",
@@ -21717,6 +21968,9 @@
     "chapter": 86,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Prayer by David."
+      },
       {
         "paragraph": true,
         "text": "Hear, Yahweh, and answer me,",
@@ -21989,11 +22243,16 @@
     "book": "PSA",
     "chapter": 87,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "His foundation is in the holy mountains.",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Psalm by the sons of Korah; a Song."
+      },
+      {
+        "paragraph": true,
+        "text": "His foundation is in the holy mountains.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -22092,6 +22351,9 @@
     "chapter": 88,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Song. A Psalm by the sons of Korah. For the Chief Musician. To the tune of “The Suffering of Affliction.” A contemplation by Heman, the Ezrahite."
+      },
       {
         "paragraph": true,
         "text": "Yahweh, the God of my salvation,",
@@ -22384,6 +22646,9 @@
     "chapter": 89,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A contemplation by Ethan, the Ezrahite."
+      },
       {
         "paragraph": true,
         "text": "I will sing of the loving kindness of Yahweh forever.",
@@ -23189,6 +23454,22 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": {
+          "text": "A Prayer by Moses, the man of God.",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "The Hebrew word rendered “God” is “",
+              {
+                "text": "אֱלֹהִ֑ים",
+                "script": "H"
+              },
+              "” (Elohim)."
+            ]
+          }
+        }
+      },
+      {
         "paragraph": true,
         "text": "Lord,",
         "foot": {
@@ -23718,6 +23999,9 @@
     "chapter": 92,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Psalm. A song for the Sabbath day."
+      },
       {
         "paragraph": true,
         "text": "It is a good thing to give thanks to Yahweh,",
@@ -24978,6 +25262,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm."
+      },
+      {
         "paragraph": true,
         "text": "Sing to Yahweh a new song,",
         "break": true
@@ -25278,11 +25565,16 @@
     "book": "PSA",
     "chapter": 100,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Shout for joy to Yahweh, all you lands!",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Psalm of thanksgiving."
+      },
+      {
+        "paragraph": true,
+        "text": "Shout for joy to Yahweh, all you lands!",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -25358,6 +25650,9 @@
     "chapter": 101,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "I will sing of loving kindness and justice.",
@@ -25492,6 +25787,9 @@
     "chapter": 102,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Prayer of the afflicted, when he is overwhelmed and pours out his complaint before Yahweh."
+      },
       {
         "paragraph": true,
         "text": "Hear my prayer, Yahweh!",
@@ -25912,6 +26210,9 @@
     "chapter": 103,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "By David."
+      },
       {
         "paragraph": true,
         "text": "Praise Yahweh, my soul!",
@@ -28484,7 +28785,7 @@
     "content": [
       {
         "paragraph": true,
-        "text": " For he has broken the gates of bronze,",
+        "text": "For he has broken the gates of bronze,",
         "break": true
       },
       "and cut through bars of iron."
@@ -28891,6 +29192,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Song. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "My heart is steadfast, God.",
         "break": true
@@ -29090,11 +29394,16 @@
     "book": "PSA",
     "chapter": 109,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "God of my praise, don’t remain silent,",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
+        "paragraph": true,
+        "text": "God of my praise, don’t remain silent,",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -29565,6 +29874,9 @@
     "chapter": 110,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "Yahweh says to my Lord, “Sit at my right hand,",
@@ -31297,6 +31609,9 @@
     "verse": 1,
     "content": [
       {
+        "heading": "ALEPH"
+      },
+      {
         "paragraph": true,
         "text": "Blessed are those whose ways are blameless,",
         "break": true
@@ -31414,6 +31729,9 @@
     "chapter": 119,
     "verse": 9,
     "content": [
+      {
+        "heading": "BETH"
+      },
       {
         "paragraph": true,
         "text": "How can a young man keep his way pure?",
@@ -31533,6 +31851,9 @@
     "verse": 17,
     "content": [
       {
+        "heading": "GIMEL"
+      },
+      {
         "paragraph": true,
         "text": "Do good to your servant.",
         "break": true
@@ -31644,6 +31965,9 @@
     "chapter": 119,
     "verse": 25,
     "content": [
+      {
+        "heading": "DALETH"
+      },
       {
         "paragraph": true,
         "text": "My soul is laid low in the dust.",
@@ -31763,6 +32087,9 @@
     "verse": 33,
     "content": [
       {
+        "heading": "HE"
+      },
+      {
         "paragraph": true,
         "text": "Teach me, Yahweh, the way of your statutes.",
         "break": true
@@ -31880,6 +32207,9 @@
     "chapter": 119,
     "verse": 41,
     "content": [
+      {
+        "heading": "VAV"
+      },
       {
         "paragraph": true,
         "text": "Let your loving kindness also come to me, Yahweh,",
@@ -31999,6 +32329,9 @@
     "verse": 49,
     "content": [
       {
+        "heading": "ZAYIN"
+      },
+      {
         "paragraph": true,
         "text": "Remember your word to your servant,",
         "break": true
@@ -32116,6 +32449,9 @@
     "chapter": 119,
     "verse": 57,
     "content": [
+      {
+        "heading": "HETH"
+      },
       {
         "paragraph": true,
         "text": "Yahweh is my portion.",
@@ -32235,6 +32571,9 @@
     "verse": 65,
     "content": [
       {
+        "heading": "TETH"
+      },
+      {
         "paragraph": true,
         "text": "You have treated your servant well,",
         "break": true
@@ -32346,6 +32685,9 @@
     "chapter": 119,
     "verse": 73,
     "content": [
+      {
+        "heading": "YODH"
+      },
       {
         "paragraph": true,
         "text": "Your hands have made me and formed me.",
@@ -32464,6 +32806,9 @@
     "chapter": 119,
     "verse": 81,
     "content": [
+      {
+        "heading": "KAPF"
+      },
       {
         "paragraph": true,
         "text": "My soul faints for your salvation.",
@@ -32585,11 +32930,16 @@
     "book": "PSA",
     "chapter": 119,
     "verse": 89,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh, your word is settled in heaven forever.",
-      "break": true
-    }
+    "content": [
+      {
+        "heading": "LAMEDH"
+      },
+      {
+        "paragraph": true,
+        "text": "Yahweh, your word is settled in heaven forever.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -32698,6 +33048,9 @@
     "chapter": 119,
     "verse": 97,
     "content": [
+      {
+        "heading": "MEM"
+      },
       {
         "paragraph": true,
         "text": "How I love your law!",
@@ -32817,6 +33170,9 @@
     "verse": 105,
     "content": [
       {
+        "heading": "NUN"
+      },
+      {
         "paragraph": true,
         "text": "Your word is a lamp to my feet,",
         "break": true
@@ -32934,6 +33290,9 @@
     "chapter": 119,
     "verse": 113,
     "content": [
+      {
+        "heading": "SAMEKH"
+      },
       {
         "paragraph": true,
         "text": "I hate double-minded men,",
@@ -33053,6 +33412,9 @@
     "verse": 121,
     "content": [
       {
+        "heading": "AYIN"
+      },
+      {
         "paragraph": true,
         "text": "I have done what is just and righteous.",
         "break": true
@@ -33170,6 +33532,9 @@
     "chapter": 119,
     "verse": 129,
     "content": [
+      {
+        "heading": "PE"
+      },
       {
         "paragraph": true,
         "text": "Your testimonies are wonderful,",
@@ -33289,6 +33654,9 @@
     "verse": 137,
     "content": [
       {
+        "heading": "TZADHE"
+      },
+      {
         "paragraph": true,
         "text": "You are righteous, Yahweh.",
         "break": true
@@ -33406,6 +33774,9 @@
     "chapter": 119,
     "verse": 145,
     "content": [
+      {
+        "heading": "QOPH"
+      },
       {
         "paragraph": true,
         "text": "I have called with my whole heart.",
@@ -33529,6 +33900,9 @@
     "verse": 153,
     "content": [
       {
+        "heading": "RESH"
+      },
+      {
         "paragraph": true,
         "text": "Consider my affliction, and deliver me,",
         "break": true
@@ -33646,6 +34020,9 @@
     "chapter": 119,
     "verse": 161,
     "content": [
+      {
+        "heading": "SIN AND SHIN"
+      },
       {
         "paragraph": true,
         "text": "Princes have persecuted me without a cause,",
@@ -33765,6 +34142,9 @@
     "verse": 169,
     "content": [
       {
+        "heading": "TAV"
+      },
+      {
         "paragraph": true,
         "text": "Let my cry come before you, Yahweh.",
         "break": true
@@ -33883,6 +34263,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
         "text": "In my distress, I cried to Yahweh.",
         "break": true
@@ -33985,6 +34368,9 @@
     "chapter": 121,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Song of Ascents."
+      },
       {
         "paragraph": true,
         "text": "I will lift up my eyes to the hills.",
@@ -34101,6 +34487,9 @@
     "chapter": 122,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Song of Ascents. By David."
+      },
       {
         "paragraph": true,
         "text": "I was glad when they said to me,",
@@ -34227,6 +34616,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
         "text": "I lift up my eyes to you,",
         "break": true
@@ -34292,6 +34684,9 @@
     "chapter": 124,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Song of Ascents. By David."
+      },
       {
         "paragraph": true,
         "text": "If it had not been Yahweh who was on our side,",
@@ -34405,6 +34800,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
         "text": "Those who trust in Yahweh are as Mount Zion,",
         "break": true
@@ -34481,6 +34879,9 @@
     "chapter": 126,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Song of Ascents."
+      },
       {
         "paragraph": true,
         "text": "When Yahweh brought back those who returned to Zion,",
@@ -34572,6 +34973,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Song of Ascents. By Solomon."
+      },
+      {
         "paragraph": true,
         "text": "Unless Yahweh builds the house,",
         "break": true
@@ -34661,6 +35065,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
         "text": "Blessed is everyone who fears Yahweh,",
         "break": true
@@ -34742,6 +35149,9 @@
     "chapter": 129,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Song of Ascents."
+      },
       {
         "paragraph": true,
         "text": "Many times they have afflicted me from my youth up.",
@@ -34863,11 +35273,16 @@
     "book": "PSA",
     "chapter": 130,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Out of the depths I have cried to you, Yahweh.",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Song of Ascents."
+      },
+      {
+        "paragraph": true,
+        "text": "Out of the depths I have cried to you, Yahweh.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -34979,6 +35394,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Song of Ascents. By David."
+      },
+      {
         "paragraph": true,
         "text": "Yahweh, my heart isn’t arrogant, nor my eyes lofty;",
         "break": true
@@ -35028,11 +35446,16 @@
     "book": "PSA",
     "chapter": 132,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh, remember David and all his affliction,",
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Song of Ascents."
+      },
+      {
+        "paragraph": true,
+        "text": "Yahweh, remember David and all his affliction,",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -35300,6 +35723,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Song of Ascents. By David."
+      },
+      {
         "paragraph": true,
         "text": "See how good and how pleasant it is",
         "break": true
@@ -35358,6 +35784,9 @@
     "chapter": 134,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Song of Ascents."
+      },
       {
         "paragraph": true,
         "text": "Look! Praise Yahweh, all you servants of Yahweh,",
@@ -36256,6 +36685,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
         "text": "I will give you thanks with my whole heart.",
         "break": true
@@ -36392,6 +36824,9 @@
     "chapter": 139,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "Yahweh, you have searched me,",
@@ -36786,6 +37221,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Deliver me, Yahweh, from evil men.",
         "break": true
@@ -36993,6 +37431,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
         "text": "Yahweh, I have called on you.",
         "break": true
@@ -37165,6 +37606,9 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A contemplation by David, when he was in the cave. A Prayer."
+      },
+      {
         "paragraph": true,
         "text": "I cry with my voice to Yahweh.",
         "break": true
@@ -37303,6 +37747,9 @@
     "chapter": 143,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "A Psalm by David."
+      },
       {
         "paragraph": true,
         "text": "Hear my prayer, Yahweh.",
@@ -37523,6 +37970,9 @@
     "chapter": 144,
     "verse": 1,
     "content": [
+      {
+        "subtitle": "By David."
+      },
       {
         "paragraph": true,
         "text": "Blessed be Yahweh, my rock,",
@@ -37768,6 +38218,15 @@
     "chapter": 145,
     "verse": 1,
     "content": [
+      {
+        "subtitle": {
+          "text": "A praise psalm by David.",
+          "foot": {
+            "type": "stu",
+            "content": "This is an acrostic psalm, with every verse (including the second half of verse 13) starting with a consecutive letter of the Hebrew alphabet."
+          }
+        }
+      },
       {
         "paragraph": true,
         "text": "I will exalt you, my God, the King.",
