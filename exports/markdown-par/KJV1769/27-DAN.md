@@ -21,6 +21,7 @@
 <sup>19</sup> And the king communed with them; and among them all was found none like Daniel, Hananiah, Mishael, and Azariah: therefore stood they before the king.
 <sup>20</sup> And in all matters of wisdom [and] understanding, that the king enquired of them, he found them ten times better than all the magicians [and] astrologers that [were] in all his realm.
 <sup>21</sup> And Daniel continued [even] unto the first year of king Cyrus.
+
 ## Chapter 2
 
 <sup>1</sup> And in the second year of the reign of Nebuchadnezzar Nebuchadnezzar dreamed dreams, wherewith his spirit was troubled, and his sleep brake from him.
@@ -57,13 +58,13 @@
 <sup>32</sup> This image’s head [was] of fine gold, his breast and his arms of silver, his belly and his thighs of brass,
 <sup>33</sup> His legs of iron, his feet part of iron and part of clay.
 <sup>34</sup> Thou sawest till that a stone was cut out without hands, which smote the image upon his feet [that were] of iron and clay, and brake them to pieces.
-<sup>35</sup> Then was the iron, the clay, the brass, the silver, and the gold, broken to pieces (8676) together, and became like the chaff of the summer threshingfloors; and the wind carried them away, that no place was found for them: and the stone that smote the image became a great mountain, and filled the whole earth.
+<sup>35</sup> Then was the iron, the clay, the brass, the silver, and the gold, broken to pieces together, and became like the chaff of the summer threshingfloors; and the wind carried them away, that no place was found for them: and the stone that smote the image became a great mountain, and filled the whole earth.
 <sup>36</sup> This [is] the dream; and we will tell the interpretation thereof before the king.
 <sup>37</sup> Thou, O king, [art] a king of kings: for the God of heaven hath given thee a kingdom, power, and strength, and glory.
 <sup>38</sup> And wheresoever the children of men dwell, the beasts of the field and the fowls of the heaven hath he given into thine hand, and hath made thee ruler over them all. Thou [art] this head of gold.
 <sup>39</sup> And after thee shall arise another kingdom inferior to thee, and another third kingdom of brass, which shall bear rule over all the earth.
 <sup>40</sup> And the fourth kingdom shall be strong as iron: forasmuch as iron breaketh in pieces and subdueth all [things]: and as iron that breaketh all these, shall it break in pieces and bruise.
-<sup>41</sup> And whereas thou sawest the feet and toes, part of potters ’ clay, and part of iron, the kingdom shall be divided; but there shall be in it of the strength of the iron, forasmuch as thou sawest the iron mixed with miry clay.
+<sup>41</sup> And whereas thou sawest the feet and toes, part of potters’ clay, and part of iron, the kingdom shall be divided; but there shall be in it of the strength of the iron, forasmuch as thou sawest the iron mixed with miry clay.
 <sup>42</sup> And [as] the toes of the feet [were] part of iron, and part of clay, [so] the kingdom shall be partly strong, and partly broken.
 <sup>43</sup> And whereas thou sawest iron mixed with miry clay, they shall mingle themselves with the seed of men: but they shall not cleave one to another, even as iron is not mixed with clay.
 <sup>44</sup> And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, [but] it shall break in pieces and consume all these kingdoms, and it shall stand for ever.
@@ -72,6 +73,7 @@
 <sup>47</sup> The king answered unto Daniel, and said, Of a truth [it is], that your God [is] a God of gods, and a Lord of kings, and a revealer of secrets, seeing thou couldest reveal this secret.
 <sup>48</sup> Then the king made Daniel a great man, and gave him many great gifts, and made him ruler over the whole province of Babylon, and chief of the governors over all the wise [men] of Babylon.
 <sup>49</sup> Then Daniel requested of the king, and he set Shadrach, Meshach, and Abednego, over the affairs of the province of Babylon: but Daniel [sat] in the gate of the king.
+
 ## Chapter 3
 
 <sup>1</sup> Nebuchadnezzar the king made an image of gold, whose height [was] threescore cubits, [and] the breadth thereof six cubits: he set it up in the plain of Dura, in the province of Babylon.
@@ -104,6 +106,7 @@
 <sup>28</sup> [Then] Nebuchadnezzar spake, and said, Blessed [be] the God of Shadrach, Meshach, and Abednego, who hath sent his angel, and delivered his servants that trusted in him, and have changed the king’s word, and yielded their bodies, that they might not serve nor worship any god, except their own God.
 <sup>29</sup> Therefore I make a decree, That every people, nation, and language, which speak any thing amiss against the God of Shadrach, Meshach, and Abednego, shall be cut in pieces, and their houses shall be made a dunghill: because there is no other God that can deliver after this sort.
 <sup>30</sup> Then the king promoted Shadrach, Meshach, and Abednego, in the province of Babylon.
+
 ## Chapter 4
 
 <sup>1</sup> Nebuchadnezzar the king, unto all people, nations, and languages, that dwell in all the earth; Peace be multiplied unto you.
@@ -138,11 +141,12 @@
 <sup>30</sup> The king spake, and said, Is not this great Babylon, that I have built for the house of the kingdom by the might of my power, and for the honour of my majesty?
 <sup>31</sup> While the word [was] in the king’s mouth, there fell a voice from heaven, [saying], O king Nebuchadnezzar, to thee it is spoken; The kingdom is departed from thee.
 <sup>32</sup> And they shall drive thee from men, and thy dwelling [shall be] with the beasts of the field: they shall make thee to eat grass as oxen, and seven times shall pass over thee, until thou know that the most High ruleth in the kingdom of men, and giveth it to whomsoever he will.
-<sup>33</sup> The same hour was the thing fulfilled upon Nebuchadnezzar: and he was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles ’ [feathers], and his nails like birds’ [claws].
+<sup>33</sup> The same hour was the thing fulfilled upon Nebuchadnezzar: and he was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles’ [feathers], and his nails like birds’ [claws].
 <sup>34</sup> And at the end of the days I Nebuchadnezzar lifted up mine eyes unto heaven, and mine understanding returned unto me, and I blessed the most High, and I praised and honoured him that liveth for ever, whose dominion [is] an everlasting dominion, and his kingdom [is] from generation to generation:
 <sup>35</sup> And all the inhabitants of the earth [are] reputed as nothing: and he doeth according to his will in the army of heaven, and [among] the inhabitants of the earth: and none can stay his hand, or say unto him, What doest thou?
 <sup>36</sup> At the same time my reason returned unto me; and for the glory of my kingdom, mine honour and brightness returned unto me; and my counsellors and my lords sought unto me; and I was established in my kingdom, and excellent majesty was added unto me.
 <sup>37</sup> Now I Nebuchadnezzar praise and extol and honour the King of heaven, all whose works [are] truth, and his ways judgment: and those that walk in pride he is able to abase.
+
 ## Chapter 5
 
 <sup>1</sup> Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.
@@ -176,6 +180,7 @@
 <sup>29</sup> Then commanded Belshazzar, and they clothed Daniel with scarlet, and [put] a chain of gold about his neck, and made a proclamation concerning him, that he should be the third ruler in the kingdom.
 <sup>30</sup> In that night was Belshazzar the king of the Chaldeans slain.
 <sup>31</sup> And Darius the Median took the kingdom, [being] about threescore and two years old.
+
 ## Chapter 6
 
 <sup>1</sup> It pleased Darius to set over the kingdom an hundred and twenty princes, which should be over the whole kingdom;
@@ -199,13 +204,14 @@
 <sup>19</sup> Then the king arose very early in the morning, and went in haste unto the den of lions.
 <sup>20</sup> And when he came to the den, he cried with a lamentable voice unto Daniel: [and] the king spake and said to Daniel, O Daniel, servant of the living God, is thy God, whom thou servest continually, able to deliver thee from the lions?
 <sup>21</sup> Then said Daniel unto the king, O king, live for ever.
-<sup>22</sup> My God hath sent his angel, and hath shut the lions ’ mouths, that they have not hurt me: forasmuch as before him innocency was found in me; and also before thee, O king, have I done no hurt.
+<sup>22</sup> My God hath sent his angel, and hath shut the lions’ mouths, that they have not hurt me: forasmuch as before him innocency was found in me; and also before thee, O king, have I done no hurt.
 <sup>23</sup> Then was the king exceeding glad for him, and commanded that they should take Daniel up out of the den. So Daniel was taken up out of the den, and no manner of hurt was found upon him, because he believed in his God.
 <sup>24</sup> And the king commanded, and they brought those men which had accused Daniel, and they cast [them] into the den of lions, them, their children, and their wives; and the lions had the mastery of them, and brake all their bones in pieces or ever they came at the bottom of the den.
 <sup>25</sup> Then king Darius wrote unto all people, nations, and languages, that dwell in all the earth; Peace be multiplied unto you.
 <sup>26</sup> I make a decree, That in every dominion of my kingdom men tremble and fear before the God of Daniel: for he [is] the living God, and stedfast for ever, and his kingdom [that] which shall not be destroyed, and his dominion [shall be even] unto the end.
 <sup>27</sup> He delivereth and rescueth, and he worketh signs and wonders in heaven and in earth, who hath delivered Daniel from the power of the lions.
 <sup>28</sup> So this Daniel prospered in the reign of Darius, and in the reign of Cyrus the Persian.
+
 ## Chapter 7
 
 <sup>1</sup> In the first year of Belshazzar king of Babylon Daniel had a dream and visions of his head upon his bed: then he wrote the dream, [and] told the sum of the matters.
@@ -236,6 +242,7 @@
 <sup>26</sup> But the judgment shall sit, and they shall take away his dominion, to consume and to destroy [it] unto the end.
 <sup>27</sup> And the kingdom and dominion, and the greatness of the kingdom under the whole heaven, shall be given to the people of the saints of the most High, whose kingdom [is] an everlasting kingdom, and all dominions shall serve and obey him.
 <sup>28</sup> Hitherto [is] the end of the matter. As for me Daniel, my cogitations much troubled me, and my countenance changed in me: but I kept the matter in my heart.
+
 ## Chapter 8
 
 <sup>1</sup> In the third year of the reign of king Belshazzar a vision appeared unto me, [even unto] me Daniel, after that which appeared unto me at the first.
@@ -248,7 +255,7 @@
 <sup>8</sup> Therefore the he goat waxed very great: and when he was strong, the great horn was broken; and for it came up four notable ones toward the four winds of heaven.
 <sup>9</sup> And out of one of them came forth a little horn, which waxed exceeding great, toward the south, and toward the east, and toward the pleasant [land].
 <sup>10</sup> And it waxed great, [even] to the host of heaven; and it cast down [some] of the host and of the stars to the ground, and stamped upon them.
-<sup>11</sup> Yea, he magnified [himself] even to the prince of the host, and by him the daily [sacrifice] was taken away (8675), and the place of his sanctuary was cast down.
+<sup>11</sup> Yea, he magnified [himself] even to the prince of the host, and by him the daily [sacrifice] was taken away, and the place of his sanctuary was cast down.
 <sup>12</sup> And an host was given [him] against the daily [sacrifice] by reason of transgression, and it cast down the truth to the ground; and it practised, and prospered.
 <sup>13</sup> Then I heard one saint speaking, and another saint said unto that certain [saint] which spake, How long [shall be] the vision [concerning] the daily [sacrifice], and the transgression of desolation, to give both the sanctuary and the host to be trodden under foot?
 <sup>14</sup> And he said unto me, Unto two thousand and three hundred days; then shall the sanctuary be cleansed.
@@ -265,6 +272,7 @@
 <sup>25</sup> And through his policy also he shall cause craft to prosper in his hand; and he shall magnify [himself] in his heart, and by peace shall destroy many: he shall also stand up against the Prince of princes; but he shall be broken without hand.
 <sup>26</sup> And the vision of the evening and the morning which was told [is] true: wherefore shut thou up the vision; for it [shall be] for many days.
 <sup>27</sup> And I Daniel fainted, and was sick [certain] days; afterward I rose up, and did the king’s business; and I was astonished at the vision, but none understood [it].
+
 ## Chapter 9
 
 <sup>1</sup> In the first year of Darius the son of Ahasuerus, of the seed of the Medes, which was made king over the realm of the Chaldeans;
@@ -290,10 +298,11 @@
 <sup>21</sup> Yea, whiles I [was] speaking in prayer, even the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, touched me about the time of the evening oblation.
 <sup>22</sup> And he informed [me], and talked with me, and said, O Daniel, I am now come forth to give thee skill and understanding.
 <sup>23</sup> At the beginning of thy supplications the commandment came forth, and I am come to shew [thee]; for thou [art] greatly beloved: therefore understand the matter, and consider the vision.
-<sup>24</sup> Seventy weeks are determined upon thy people and upon thy holy city, to finish the transgression, and to make an end (8675) of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up the vision and prophecy, and to anoint the most Holy.
+<sup>24</sup> Seventy weeks are determined upon thy people and upon thy holy city, to finish the transgression, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up the vision and prophecy, and to anoint the most Holy.
 <sup>25</sup> Know therefore and understand, [that] from the going forth of the commandment to restore and to build Jerusalem unto the Messiah the Prince [shall be] seven weeks, and threescore and two weeks: the street shall be built again, and the wall, even in troublous times.
 <sup>26</sup> And after threescore and two weeks shall Messiah be cut off, but not for himself: and the people of the prince that shall come shall destroy the city and the sanctuary; and the end thereof [shall be] with a flood, and unto the end of the war desolations are determined.
 <sup>27</sup> And he shall confirm the covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the oblation to cease, and for the overspreading of abominations he shall make [it] desolate, even until the consummation, and that determined shall be poured upon the desolate.
+
 ## Chapter 10
 
 <sup>1</sup> In the third year of Cyrus king of Persia a thing was revealed unto Daniel, whose name was called Belteshazzar; and the thing [was] true, but the time appointed [was] long: and he understood the thing, and had understanding of the vision.
@@ -317,6 +326,7 @@
 <sup>19</sup> And said, O man greatly beloved, fear not: peace [be] unto thee, be strong, yea, be strong. And when he had spoken unto me, I was strengthened, and said, Let my lord speak; for thou hast strengthened me.
 <sup>20</sup> Then said he, Knowest thou wherefore I come unto thee? and now will I return to fight with the prince of Persia: and when I am gone forth, lo, the prince of Grecia shall come.
 <sup>21</sup> But I will shew thee that which is noted in the scripture of truth: and [there is] none that holdeth with me in these things, but Michael your prince.
+
 ## Chapter 11
 
 <sup>1</sup> Also I in the first year of Darius the Mede, [even] I, stood to confirm and to strengthen him.
@@ -330,22 +340,22 @@
 <sup>9</sup> So the king of the south shall come into [his] kingdom, and shall return into his own land.
 <sup>10</sup> But his sons shall be stirred up, and shall assemble a multitude of great forces: and [one] shall certainly come, and overflow, and pass through: then shall he return, and be stirred up, [even] to his fortress.
 <sup>11</sup> And the king of the south shall be moved with choler, and shall come forth and fight with him, [even] with the king of the north: and he shall set forth a great multitude; but the multitude shall be given into his hand.
-<sup>12</sup> [And] when he hath taken away the multitude, his heart shall be lifted up (8675); and he shall cast down [many] ten thousands: but he shall not be strengthened [by it].
+<sup>12</sup> [And] when he hath taken away the multitude, his heart shall be lifted up; and he shall cast down [many] ten thousands: but he shall not be strengthened [by it].
 <sup>13</sup> For the king of the north shall return, and shall set forth a multitude greater than the former, and shall certainly come after certain years with a great army and with much riches.
 <sup>14</sup> And in those times there shall many stand up against the king of the south: also the robbers of thy people shall exalt themselves to establish the vision; but they shall fall.
 <sup>15</sup> So the king of the north shall come, and cast up a mount, and take the most fenced cities: and the arms of the south shall not withstand, neither his chosen people, neither [shall there be any] strength to withstand.
 <sup>16</sup> But he that cometh against him shall do according to his own will, and none shall stand before him: and he shall stand in the glorious land, which by his hand shall be consumed.
 <sup>17</sup> He shall also set his face to enter with the strength of his whole kingdom, and upright ones with him; thus shall he do: and he shall give him the daughter of women, corrupting her: but she shall not stand [on his side], neither be for him.
-<sup>18</sup> After this shall he turn (8675) his face unto the isles, and shall take many: but a prince for his own behalf shall cause the reproach offered by him to cease; without his own reproach he shall cause [it] to turn upon him.
+<sup>18</sup> After this shall he turn his face unto the isles, and shall take many: but a prince for his own behalf shall cause the reproach offered by him to cease; without his own reproach he shall cause [it] to turn upon him.
 <sup>19</sup> Then he shall turn his face toward the fort of his own land: but he shall stumble and fall, and not be found.
 <sup>20</sup> Then shall stand up in his estate a raiser of taxes [in] the glory of the kingdom: but within few days he shall be destroyed, neither in anger, nor in battle.
 <sup>21</sup> And in his estate shall stand up a vile person, to whom they shall not give the honour of the kingdom: but he shall come in peaceably, and obtain the kingdom by flatteries.
 <sup>22</sup> And with the arms of a flood shall they be overflown from before him, and shall be broken; yea, also the prince of the covenant.
 <sup>23</sup> And after the league [made] with him he shall work deceitfully: for he shall come up, and shall become strong with a small people.
-<sup>24</sup> He shall enter peaceably even upon the fattest places of the province; and he shall do [that] which his fathers have not done, nor his fathers ’ fathers; he shall scatter among them the prey, and spoil, and riches: [yea], and he shall forecast his devices against the strong holds, even for a time.
+<sup>24</sup> He shall enter peaceably even upon the fattest places of the province; and he shall do [that] which his fathers have not done, nor his fathers’ fathers; he shall scatter among them the prey, and spoil, and riches: [yea], and he shall forecast his devices against the strong holds, even for a time.
 <sup>25</sup> And he shall stir up his power and his courage against the king of the south with a great army; and the king of the south shall be stirred up to battle with a very great and mighty army; but he shall not stand: for they shall forecast devices against him.
 <sup>26</sup> Yea, they that feed of the portion of his meat shall destroy him, and his army shall overflow: and many shall fall down slain.
-<sup>27</sup> And both these kings ’ hearts [shall be] to do mischief, and they shall speak lies at one table; but it shall not prosper: for yet the end [shall be] at the time appointed.
+<sup>27</sup> And both these kings’ hearts [shall be] to do mischief, and they shall speak lies at one table; but it shall not prosper: for yet the end [shall be] at the time appointed.
 <sup>28</sup> Then shall he return into his land with great riches; and his heart [shall be] against the holy covenant; and he shall do [exploits], and return to his own land.
 <sup>29</sup> At the time appointed he shall return, and come toward the south; but it shall not be as the former, or as the latter.
 <sup>30</sup> For the ships of Chittim shall come against him: therefore he shall be grieved, and return, and have indignation against the holy covenant: so shall he do; he shall even return, and have intelligence with them that forsake the holy covenant.
@@ -357,13 +367,14 @@
 <sup>36</sup> And the king shall do according to his will; and he shall exalt himself, and magnify himself above every god, and shall speak marvellous things against the God of gods, and shall prosper till the indignation be accomplished: for that that is determined shall be done.
 <sup>37</sup> Neither shall he regard the God of his fathers, nor the desire of women, nor regard any god: for he shall magnify himself above all.
 <sup>38</sup> But in his estate shall he honour the God of forces: and a god whom his fathers knew not shall he honour with gold, and silver, and with precious stones, and pleasant things.
-<sup>39</sup> Thus shall he do in the most strong holds with a strange god, whom he shall acknowledge (8675) [and] increase with glory: and he shall cause them to rule over many, and shall divide the land for gain.
+<sup>39</sup> Thus shall he do in the most strong holds with a strange god, whom he shall acknowledge [and] increase with glory: and he shall cause them to rule over many, and shall divide the land for gain.
 <sup>40</sup> And at the time of the end shall the king of the south push at him: and the king of the north shall come against him like a whirlwind, with chariots, and with horsemen, and with many ships; and he shall enter into the countries, and shall overflow and pass over.
 <sup>41</sup> He shall enter also into the glorious land, and many [countries] shall be overthrown: but these shall escape out of his hand, [even] Edom, and Moab, and the chief of the children of Ammon.
 <sup>42</sup> He shall stretch forth his hand also upon the countries: and the land of Egypt shall not escape.
 <sup>43</sup> But he shall have power over the treasures of gold and of silver, and over all the precious things of Egypt: and the Libyans and the Ethiopians [shall be] at his steps.
 <sup>44</sup> But tidings out of the east and out of the north shall trouble him: therefore he shall go forth with great fury to destroy, and utterly to make away many.
 <sup>45</sup> And he shall plant the tabernacles of his palace between the seas in the glorious holy mountain; yet he shall come to his end, and none shall help him.
+
 ## Chapter 12
 
 <sup>1</sup> And at that time shall Michael stand up, the great prince which standeth for the children of thy people: and there shall be a time of trouble, such as never was since there was a nation [even] to that same time: and at that time thy people shall be delivered, every one that shall be found written in the book.

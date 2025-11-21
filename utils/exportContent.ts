@@ -39,7 +39,11 @@ function convertContentToText(content: Content): string {
 
   // Check for subtitle
   if ("subtitle" in content) {
-    return `«${content.subtitle}» `;
+    const subtitleText =
+      typeof content.subtitle === "string"
+        ? content.subtitle
+        : convertContentToText(content.subtitle);
+    return `«${subtitleText}» `;
   }
 
   // Handle text object
@@ -86,6 +90,56 @@ function renderContentToText(content: Content[]): string {
   return joined;
 }
 
+/**
+ * Convert content to plain text for markdown (without Strong's numbers or morph codes)
+ */
+function convertContentToMarkdownText(content: Content): string {
+  // Handle string content
+  if (typeof content === "string") {
+    return content;
+  }
+
+  // Handle array content
+  if (Array.isArray(content)) {
+    return content.map((item) => convertContentToMarkdownText(item)).join("");
+  }
+
+  // Handle object content
+  // Check for heading (skip in exports)
+  if ("heading" in content) {
+    return "";
+  }
+
+  // Check for paragraph wrapper (not paragraph property on text)
+  if ("paragraph" in content && !("text" in content)) {
+    const paragraphContent = (content as any).paragraph as Content;
+    if (
+      paragraphContent !== undefined &&
+      typeof paragraphContent !== "boolean"
+    ) {
+      return convertContentToMarkdownText(paragraphContent);
+    }
+    return "";
+  }
+
+  // Check for subtitle
+  if ("subtitle" in content) {
+    const subtitleText =
+      typeof content.subtitle === "string"
+        ? content.subtitle
+        : convertContentToMarkdownText(content.subtitle);
+    return subtitleText;
+  }
+
+  // Handle text object
+  const obj = content as ContentObject;
+  let result = obj.text || "";
+
+  // Skip strong numbers and morph codes in markdown export
+
+  return result;
+}
+
 function convertFootnoteToText(footnote: Footnote): string {
   const contentText = convertContentToText(footnote.content);
   return `° {${contentText}}`;
@@ -120,7 +174,11 @@ function convertVerseToText(verse: VerseSchema): string {
     }
 
     if ("subtitle" in content) {
-      textParts.push(`«${content.subtitle}»`);
+      const subtitleText =
+        typeof content.subtitle === "string"
+          ? content.subtitle
+          : convertContentToText(content.subtitle);
+      textParts.push(`«${subtitleText}»`);
       return;
     }
 
@@ -318,8 +376,12 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
         if (Array.isArray(firstContent) && firstContent.length > 0) {
           const firstItem = firstContent[0];
           if (typeof firstItem === "object" && "subtitle" in firstItem) {
+            const subtitleText =
+              typeof firstItem.subtitle === "string"
+                ? firstItem.subtitle
+                : convertContentToMarkdownText(firstItem.subtitle);
             markdownLines.push("");
-            markdownLines.push(`> _${firstItem.subtitle}_`);
+            markdownLines.push(`> _${subtitleText}_`);
             // Remove the subtitle from the verse content
             chapterVerses[0].content = firstContent.slice(1);
             hasSubtitle = true;
@@ -400,7 +462,11 @@ function convertVerseToMarkdown(
     }
 
     if ("subtitle" in content) {
-      textParts.push(`> _${content.subtitle}_`);
+      const subtitleText =
+        typeof content.subtitle === "string"
+          ? content.subtitle
+          : convertContentToMarkdownText(content.subtitle);
+      textParts.push(`> _${subtitleText}_`);
       return;
     }
 
@@ -437,7 +503,7 @@ function convertVerseToMarkdown(
         ); // 97 = 'a'
         textParts.push(`<sup>${footnoteLetter}</sup>`);
 
-        const footnoteContent = convertContentToText(obj.foot.content);
+        const footnoteContent = convertContentToMarkdownText(obj.foot.content);
         chapterFootnotes.push(
           `- <sup>${footnoteLetter}</sup> ${verseNum}. ${footnoteContent}`
         );

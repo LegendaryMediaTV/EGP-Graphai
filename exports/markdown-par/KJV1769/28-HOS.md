@@ -11,6 +11,7 @@
 <sup>9</sup> Then said [God], Call his name Loammi: for ye [are] not my people, and I will not be your [God].
 <sup>10</sup> Yet the number of the children of Israel shall be as the sand of the sea, which cannot be measured nor numbered; and it shall come to pass, [that] in the place where it was said unto them, Ye [are] not my people, [there] it shall be said unto them, [Ye are] the sons of the living God.
 <sup>11</sup> Then shall the children of Judah and the children of Israel be gathered together, and appoint themselves one head, and they shall come up out of the land: for great [shall be] the day of Jezreel.
+
 ## Chapter 2
 
 <sup>1</sup> Say ye unto your brethren, Ammi; and to your sisters, Ruhamah.
@@ -35,7 +36,8 @@
 <sup>20</sup> I will even betroth thee unto me in faithfulness: and thou shalt know the LORD.
 <sup>21</sup> And it shall come to pass in that day, I will hear, saith the LORD, I will hear the heavens, and they shall hear the earth;
 <sup>22</sup> And the earth shall hear the corn, and the wine, and the oil; and they shall hear Jezreel.
-<sup>23</sup> And I will sow her unto me in the earth; and I will have mercy upon her that had not obtained mercy (8677); and I will say to [them which were] not my people, Thou [art] my people; and they shall say, [Thou art] my God.
+<sup>23</sup> And I will sow her unto me in the earth; and I will have mercy upon her that had not obtained mercy; and I will say to [them which were] not my people, Thou [art] my people; and they shall say, [Thou art] my God.
+
 ## Chapter 3
 
 <sup>1</sup> Then said the LORD unto me, Go yet, love a woman beloved of [her] friend, yet an adulteress, according to the love of the LORD toward the children of Israel, who look to other gods, and love flagons of wine.
@@ -43,6 +45,7 @@
 <sup>3</sup> And I said unto her, Thou shalt abide for me many days; thou shalt not play the harlot, and thou shalt not be for [another] man: so [will] I also [be] for thee.
 <sup>4</sup> For the children of Israel shall abide many days without a king, and without a prince, and without a sacrifice, and without an image, and without an ephod, and [without] teraphim:
 <sup>5</sup> Afterward shall the children of Israel return, and seek the LORD their God, and David their king; and shall fear the LORD and his goodness in the latter days.
+
 ## Chapter 4
 
 <sup>1</sup> Hear the word of the LORD, ye children of Israel: for the LORD hath a controversy with the inhabitants of the land, because [there is] no truth, nor mercy, nor knowledge of God in the land.
@@ -64,6 +67,7 @@
 <sup>17</sup> Ephraim [is] joined to idols: let him alone.
 <sup>18</sup> Their drink is sour: they have committed whoredom continually: her rulers [with] shame do love, Give ye.
 <sup>19</sup> The wind hath bound her up in her wings, and they shall be ashamed because of their sacrifices.
+
 ## Chapter 5
 
 <sup>1</sup> Hear ye this, O priests; and hearken, ye house of Israel; and give ye ear, O house of the king; for judgment [is] toward you, because ye have been a snare on Mizpah, and a net spread upon Tabor.
@@ -81,6 +85,7 @@
 <sup>13</sup> When Ephraim saw his sickness, and Judah [saw] his wound, then went Ephraim to the Assyrian, and sent to king Jareb: yet could he not heal you, nor cure you of your wound.
 <sup>14</sup> For I [will be] unto Ephraim as a lion, and as a young lion to the house of Judah: I, [even] I, will tear and go away; I will take away, and none shall rescue [him].
 <sup>15</sup> I will go [and] return to my place, till they acknowledge their offence, and seek my face: in their affliction they will seek me early.
+
 ## Chapter 6
 
 <sup>1</sup> Come, and let us return unto the LORD: for he hath torn, and he will heal us; he hath smitten, and he will bind us up.
@@ -94,6 +99,7 @@
 <sup>9</sup> And as troops of robbers wait for a man, [so] the company of priests murder in the way by consent: for they commit lewdness.
 <sup>10</sup> I have seen an horrible thing in the house of Israel: there [is] the whoredom of Ephraim, Israel is defiled.
 <sup>11</sup> Also, O Judah, he hath set an harvest for thee, when I returned the captivity of my people.
+
 ## Chapter 7
 
 <sup>1</sup> When I would have healed Israel, then the iniquity of Ephraim was discovered, and the wickedness of Samaria: for they commit falsehood; and the thief cometh in, [and] the troop of robbers spoileth without.
@@ -112,6 +118,7 @@
 <sup>14</sup> And they have not cried unto me with their heart, when they howled upon their beds: they assemble themselves for corn and wine, [and] they rebel against me.
 <sup>15</sup> Though I have bound [and] strengthened their arms, yet do they imagine mischief against me.
 <sup>16</sup> They return, [but] not to the most High: they are like a deceitful bow: their princes shall fall by the sword for the rage of their tongue: this [shall be] their derision in the land of Egypt.
+
 ## Chapter 8
 
 <sup>1</sup> [Set] the trumpet to thy mouth. [He shall come] as an eagle against the house of the LORD, because they have transgressed my covenant, and trespassed against my law.
@@ -128,6 +135,7 @@
 <sup>12</sup> I have written to him the great things of my law, [but] they were counted as a strange thing.
 <sup>13</sup> They sacrifice flesh [for] the sacrifices of mine offerings, and eat [it; but] the LORD accepteth them not; now will he remember their iniquity, and visit their sins: they shall return to Egypt.
 <sup>14</sup> For Israel hath forgotten his Maker, and buildeth temples; and Judah hath multiplied fenced cities: but I will send a fire upon his cities, and it shall devour the palaces thereof.
+
 ## Chapter 9
 
 <sup>1</sup> Rejoice not, O Israel, for joy, as [other] people: for thou hast gone a whoring from thy God, thou hast loved a reward upon every cornfloor.
@@ -147,6 +155,7 @@
 <sup>15</sup> All their wickedness [is] in Gilgal: for there I hated them: for the wickedness of their doings I will drive them out of mine house, I will love them no more: all their princes [are] revolters.
 <sup>16</sup> Ephraim is smitten, their root is dried up, they shall bear no fruit: yea, though they bring forth, yet will I slay [even] the beloved [fruit] of their womb.
 <sup>17</sup> My God will cast them away, because they did not hearken unto him: and they shall be wanderers among the nations.
+
 ## Chapter 10
 
 <sup>1</sup> Israel [is] an empty vine, he bringeth forth fruit unto himself: according to the multitude of his fruit he hath increased the altars; according to the goodness of his land they have made goodly images.
@@ -164,6 +173,7 @@
 <sup>13</sup> Ye have plowed wickedness, ye have reaped iniquity; ye have eaten the fruit of lies: because thou didst trust in thy way, in the multitude of thy mighty men.
 <sup>14</sup> Therefore shall a tumult arise among thy people, and all thy fortresses shall be spoiled, as Shalman spoiled Betharbel in the day of battle: the mother was dashed in pieces upon [her] children.
 <sup>15</sup> So shall Bethel do unto you because of your great wickedness: in a morning shall the king of Israel utterly be cut off.
+
 ## Chapter 11
 
 <sup>1</sup> When Israel [was] a child, then I loved him, and called my son out of Egypt.
@@ -178,6 +188,7 @@
 <sup>10</sup> They shall walk after the LORD: he shall roar like a lion: when he shall roar, then the children shall tremble from the west.
 <sup>11</sup> They shall tremble as a bird out of Egypt, and as a dove out of the land of Assyria: and I will place them in their houses, saith the LORD.
 <sup>12</sup> Ephraim compasseth me about with lies, and the house of Israel with deceit: but Judah yet ruleth with God, and is faithful with the saints.
+
 ## Chapter 12
 
 <sup>1</sup> Ephraim feedeth on wind, and followeth after the east wind: he daily increaseth lies and desolation; and they do make a covenant with the Assyrians, and oil is carried into Egypt.
@@ -194,6 +205,7 @@
 <sup>12</sup> And Jacob fled into the country of Syria, and Israel served for a wife, and for a wife he kept [sheep].
 <sup>13</sup> And by a prophet the LORD brought Israel out of Egypt, and by a prophet was he preserved.
 <sup>14</sup> Ephraim provoked [him] to anger most bitterly: therefore shall he leave his blood upon him, and his reproach shall his Lord return unto him.
+
 ## Chapter 13
 
 <sup>1</sup> When Ephraim spake trembling, he exalted himself in Israel; but when he offended in Baal, he died.
@@ -212,6 +224,7 @@
 <sup>14</sup> I will ransom them from the power of the grave; I will redeem them from death: O death, I will be thy plagues; O grave, I will be thy destruction: repentance shall be hid from mine eyes.
 <sup>15</sup> Though he be fruitful among [his] brethren, an east wind shall come, the wind of the LORD shall come up from the wilderness, and his spring shall become dry, and his fountain shall be dried up: he shall spoil the treasure of all pleasant vessels.
 <sup>16</sup> Samaria shall become desolate; for she hath rebelled against her God: they shall fall by the sword: their infants shall be dashed in pieces, and their women with child shall be ripped up.
+
 ## Chapter 14
 
 <sup>1</sup> O Israel, return unto the LORD thy God; for thou hast fallen by thine iniquity.

@@ -22,6 +22,7 @@
 <sup>20</sup> And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.
 <sup>21</sup> I went out full, and the LORD hath brought me home again empty: why [then] call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me?
 <sup>22</sup> So Naomi returned, and Ruth the Moabitess, her daughter in law, with her, which returned out of the country of Moab: and they came to Bethlehem in the beginning of barley harvest.
+
 ## Chapter 2
 
 <sup>1</sup> And Naomi had a kinsman of her husband’s, a mighty man of wealth, of the family of Elimelech; and his name [was] Boaz.
@@ -47,6 +48,7 @@
 <sup>21</sup> And Ruth the Moabitess said, He said unto me also, Thou shalt keep fast by my young men, until they have ended all my harvest.
 <sup>22</sup> And Naomi said unto Ruth her daughter in law, [It is] good, my daughter, that thou go out with his maidens, that they meet thee not in any other field.
 <sup>23</sup> So she kept fast by the maidens of Boaz to glean unto the end of barley harvest and of wheat harvest; and dwelt with her mother in law.
+
 ## Chapter 3
 
 <sup>1</sup> Then Naomi her mother in law said unto her, My daughter, shall I not seek rest for thee, that it may be well with thee?
@@ -67,6 +69,7 @@
 <sup>16</sup> And when she came to her mother in law, she said, Who [art] thou, my daughter? And she told her all that the man had done to her.
 <sup>17</sup> And she said, These six [measures] of barley gave he me; for he said to me, Go not empty unto thy mother in law.
 <sup>18</sup> Then said she, Sit still, my daughter, until thou know how the matter will fall: for the man will not be in rest, until he have finished the thing this day.
+
 ## Chapter 4
 
 <sup>1</sup> Then went Boaz up to the gate, and sat him down there: and, behold, the kinsman of whom Boaz spake came by; unto whom he said, Ho, such a one! turn aside, sit down here. And he turned aside, and sat down.

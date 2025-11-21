@@ -15,6 +15,7 @@
 <sup>13</sup> Thus saith the LORD; For three transgressions of the children of Ammon, and for four, I will not turn away [the punishment] thereof; because they have ripped up the women with child of Gilead, that they might enlarge their border:
 <sup>14</sup> But I will kindle a fire in the wall of Rabbah, and it shall devour the palaces thereof, with shouting in the day of battle, with a tempest in the day of the whirlwind:
 <sup>15</sup> And their king shall go into captivity, he and his princes together, saith the LORD.
+
 ## Chapter 2
 
 <sup>1</sup> Thus saith the LORD; For three transgressions of Moab, and for four, I will not turn away [the punishment] thereof; because he burned the bones of the king of Edom into lime:
@@ -33,6 +34,7 @@
 <sup>14</sup> Therefore the flight shall perish from the swift, and the strong shall not strengthen his force, neither shall the mighty deliver himself:
 <sup>15</sup> Neither shall he stand that handleth the bow; and [he that is] swift of foot shall not deliver [himself]: neither shall he that rideth the horse deliver himself.
 <sup>16</sup> And [he that is] courageous among the mighty shall flee away naked in that day, saith the LORD.
+
 ## Chapter 3
 
 <sup>1</sup> Hear this word that the LORD hath spoken against you, O children of Israel, against the whole family which I brought up from the land of Egypt, saying,
@@ -50,6 +52,7 @@
 <sup>13</sup> Hear ye, and testify in the house of Jacob, saith the Lord GOD, the God of hosts,
 <sup>14</sup> That in the day that I shall visit the transgressions of Israel upon him I will also visit the altars of Bethel: and the horns of the altar shall be cut off, and fall to the ground.
 <sup>15</sup> And I will smite the winter house with the summer house; and the houses of ivory shall perish, and the great houses shall have an end, saith the LORD.
+
 ## Chapter 4
 
 <sup>1</sup> Hear this word, ye kine of Bashan, that [are] in the mountain of Samaria, which oppress the poor, which crush the needy, which say to their masters, Bring, and let us drink.
@@ -65,6 +68,7 @@
 <sup>11</sup> I have overthrown [some] of you, as God overthrew Sodom and Gomorrah, and ye were as a firebrand plucked out of the burning: yet have ye not returned unto me, saith the LORD.
 <sup>12</sup> Therefore thus will I do unto thee, O Israel: [and] because I will do this unto thee, prepare to meet thy God, O Israel.
 <sup>13</sup> For, lo, he that formeth the mountains, and createth the wind, and declareth unto man what [is] his thought, that maketh the morning darkness, and treadeth upon the high places of the earth, The LORD, The God of hosts, [is] his name.
+
 ## Chapter 5
 
 <sup>1</sup> Hear ye this word which I take up against you, [even] a lamentation, O house of Israel.
@@ -94,6 +98,7 @@
 <sup>25</sup> Have ye offered unto me sacrifices and offerings in the wilderness forty years, O house of Israel?
 <sup>26</sup> But ye have borne the tabernacle of your Moloch and Chiun your images, the star of your god, which ye made to yourselves.
 <sup>27</sup> Therefore will I cause you to go into captivity beyond Damascus, saith the LORD, whose name [is] The God of hosts.
+
 ## Chapter 6
 
 <sup>1</sup> Woe to them [that are] at ease in Zion, and trust in the mountain of Samaria, [which are] named chief of the nations, to whom the house of Israel came!
@@ -110,6 +115,7 @@
 <sup>12</sup> Shall horses run upon the rock? will [one] plow [there] with oxen? for ye have turned judgment into gall, and the fruit of righteousness into hemlock:
 <sup>13</sup> Ye which rejoice in a thing of nought, which say, Have we not taken to us horns by our own strength?
 <sup>14</sup> But, behold, I will raise up against you a nation, O house of Israel, saith the LORD the God of hosts; and they shall afflict you from the entering in of Hemath unto the river of the wilderness.
+
 ## Chapter 7
 
 <sup>1</sup> Thus hath the Lord GOD shewed unto me; and, behold, he formed grasshoppers in the beginning of the shooting up of the latter growth; and, lo, [it was] the latter growth after the king’s mowings.
@@ -129,6 +135,7 @@
 <sup>15</sup> And the LORD took me as I followed the flock, and the LORD said unto me, Go, prophesy unto my people Israel.
 <sup>16</sup> Now therefore hear thou the word of the LORD: Thou sayest, Prophesy not against Israel, and drop not [thy word] against the house of Isaac.
 <sup>17</sup> Therefore thus saith the LORD; Thy wife shall be an harlot in the city, and thy sons and thy daughters shall fall by the sword, and thy land shall be divided by line; and thou shalt die in a polluted land: and Israel shall surely go into captivity forth of his land.
+
 ## Chapter 8
 
 <sup>1</sup> Thus hath the Lord GOD shewed unto me: and behold a basket of summer fruit.
@@ -138,13 +145,14 @@
 <sup>5</sup> Saying, When will the new moon be gone, that we may sell corn? and the sabbath, that we may set forth wheat, making the ephah small, and the shekel great, and falsifying the balances by deceit?
 <sup>6</sup> That we may buy the poor for silver, and the needy for a pair of shoes; [yea], and sell the refuse of the wheat?
 <sup>7</sup> The LORD hath sworn by the excellency of Jacob, Surely I will never forget any of their works.
-<sup>8</sup> Shall not the land tremble for this, and every one mourn that dwelleth therein? and it shall rise up wholly as a flood; and it shall be cast out and drowned (8675), as [by] the flood of Egypt.
+<sup>8</sup> Shall not the land tremble for this, and every one mourn that dwelleth therein? and it shall rise up wholly as a flood; and it shall be cast out and drowned, as [by] the flood of Egypt.
 <sup>9</sup> And it shall come to pass in that day, saith the Lord GOD, that I will cause the sun to go down at noon, and I will darken the earth in the clear day:
 <sup>10</sup> And I will turn your feasts into mourning, and all your songs into lamentation; and I will bring up sackcloth upon all loins, and baldness upon every head; and I will make it as the mourning of an only [son], and the end thereof as a bitter day.
 <sup>11</sup> Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the LORD:
 <sup>12</sup> And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek the word of the LORD, and shall not find [it].
 <sup>13</sup> In that day shall the fair virgins and young men faint for thirst.
 <sup>14</sup> They that swear by the sin of Samaria, and say, Thy god, O Dan, liveth; and, The manner of Beersheba liveth; even they shall fall, and never rise up again.
+
 ## Chapter 9
 
 <sup>1</sup> I saw the Lord standing upon the altar: and he said, Smite the lintel of the door, that the posts may shake: and cut them in the head, all of them; and I will slay the last of them with the sword: he that fleeth of them shall not flee away, and he that escapeth of them shall not be delivered.

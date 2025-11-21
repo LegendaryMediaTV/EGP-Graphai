@@ -14,6 +14,7 @@
 <sup>12</sup> And as a vesture shalt thou fold them up, and they shall be changed: but thou art the same, and thy years shall not fail.
 <sup>13</sup> But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool?
 <sup>14</sup> Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?
+
 ## Chapter 2
 
 <sup>1</sup> Therefore we ought to give the more earnest heed to the things which we have heard, lest at any time we should let [them] slip.
@@ -34,6 +35,7 @@
 <sup>16</sup> For verily he took not on [him the nature of] angels; but he took on [him] the seed of Abraham.
 <sup>17</sup> Wherefore in all things it behoved him to be made like unto [his] brethren, that he might be a merciful and faithful high priest in things [pertaining] to God, to make reconciliation for the sins of the people.
 <sup>18</sup> For in that he himself hath suffered being tempted, he is able to succour them that are tempted.
+
 ## Chapter 3
 
 <sup>1</sup> Wherefore, holy brethren, partakers of the heavenly calling, consider the Apostle and High Priest of our profession, Christ Jesus;
@@ -55,6 +57,7 @@
 <sup>17</sup> But with whom was he grieved forty years? [was it] not with them that had sinned, whose carcases fell in the wilderness?
 <sup>18</sup> And to whom sware he that they should not enter into his rest, but to them that believed not?
 <sup>19</sup> So we see that they could not enter in because of unbelief.
+
 ## Chapter 4
 
 <sup>1</sup> Let us therefore fear, lest, a promise being left [us] of entering into his rest, any of you should seem to come short of it.
@@ -73,6 +76,7 @@
 <sup>14</sup> Seeing then that we have a great high priest, that is passed into the heavens, Jesus the Son of God, let us hold fast [our] profession.
 <sup>15</sup> For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as [we are, yet] without sin.
 <sup>16</sup> Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need.
+
 ## Chapter 5
 
 <sup>1</sup> For every high priest taken from among men is ordained for men in things [pertaining] to God, that he may offer both gifts and sacrifices for sins:
@@ -89,6 +93,7 @@
 <sup>12</sup> For when for the time ye ought to be teachers, ye have need that one teach you again which [be] the first principles of the oracles of God; and are become such as have need of milk, and not of strong meat.
 <sup>13</sup> For every one that useth milk [is] unskilful in the word of righteousness: for he is a babe.
 <sup>14</sup> But strong meat belongeth to them that are of full age, [even] those who by reason of use have their senses exercised to discern both good and evil.
+
 ## Chapter 6
 
 <sup>1</sup> Therefore leaving the principles of the doctrine of Christ, let us go on unto perfection; not laying again the foundation of repentance from dead works, and of faith toward God,
@@ -111,6 +116,7 @@
 <sup>18</sup> That by two immutable things, in which [it was] impossible for God to lie, we might have a strong consolation, who have fled for refuge to lay hold upon the hope set before us:
 <sup>19</sup> Which [hope] we have as an anchor of the soul, both sure and stedfast, and which entereth into that within the veil;
 <sup>20</sup> Whither the forerunner is for us entered, [even] Jesus, made an high priest for ever after the order of Melchisedec.
+
 ## Chapter 7
 
 <sup>1</sup> For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;
@@ -141,6 +147,7 @@
 <sup>26</sup> For such an high priest became us, [who is] holy, harmless, undefiled, separate from sinners, and made higher than the heavens;
 <sup>27</sup> Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people’s: for this he did once, when he offered up himself.
 <sup>28</sup> For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, [maketh] the Son, who is consecrated for evermore.
+
 ## Chapter 8
 
 <sup>1</sup> Now of the things which we have spoken [this is] the sum: We have such an high priest, who is set on the right hand of the throne of the Majesty in the heavens;
@@ -156,6 +163,7 @@
 <sup>11</sup> And they shall not teach every man his neighbour, and every man his brother, saying, Know the Lord: for all shall know me, from the least to the greatest.
 <sup>12</sup> For I will be merciful to their unrighteousness, and their sins and their iniquities will I remember no more.
 <sup>13</sup> In that he saith, A new [covenant], he hath made the first old. Now that which decayeth and waxeth old [is] ready to vanish away.
+
 ## Chapter 9
 
 <sup>1</sup> Then verily the first [covenant] had also ordinances of divine service, and a worldly sanctuary.
@@ -186,6 +194,7 @@
 <sup>26</sup> For then must he often have suffered since the foundation of the world: but now once in the end of the world hath he appeared to put away sin by the sacrifice of himself.
 <sup>27</sup> And as it is appointed unto men once to die, but after this the judgment:
 <sup>28</sup> So Christ was once offered to bear the sins of many; and unto them that look for him shall he appear the second time without sin unto salvation.
+
 ## Chapter 10
 
 <sup>1</sup> For the law having a shadow of good things to come, [and] not the very image of the things, can never with those sacrifices which they offered year by year continually make the comers thereunto perfect.
@@ -215,7 +224,7 @@
 <sup>25</sup> Not forsaking the assembling of ourselves together, as the manner of some [is]; but exhorting [one another]: and so much the more, as ye see the day approaching.
 <sup>26</sup> For if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins,
 <sup>27</sup> But a certain fearful looking for of judgment and fiery indignation, which shall devour the adversaries.
-<sup>28</sup> He that despised Moses ’ law died without mercy under two or three witnesses:
+<sup>28</sup> He that despised Moses’ law died without mercy under two or three witnesses:
 <sup>29</sup> Of how much sorer punishment, suppose ye, shall he be thought worthy, who hath trodden under foot the Son of God, and hath counted the blood of the covenant, wherewith he was sanctified, an unholy thing, and hath done despite unto the Spirit of grace?
 <sup>30</sup> For we know him that hath said, Vengeance [belongeth] unto me, I will recompense, saith the Lord. And again, The Lord shall judge his people.
 <sup>31</sup> [It is] a fearful thing to fall into the hands of the living God.
@@ -227,6 +236,7 @@
 <sup>37</sup> For yet a little while, and he that shall come will come, and will not tarry.
 <sup>38</sup> Now the just shall live by faith: but if [any man] draw back, my soul shall have no pleasure in him.
 <sup>39</sup> But we are not of them who draw back unto perdition; but of them that believe to the saving of the soul.
+
 ## Chapter 11
 
 <sup>1</sup> Now faith is the substance of things hoped for, the evidence of things not seen.
@@ -269,6 +279,7 @@
 <sup>38</sup> (Of whom the world was not worthy:) they wandered in deserts, and [in] mountains, and [in] dens and caves of the earth.
 <sup>39</sup> And these all, having obtained a good report through faith, received not the promise:
 <sup>40</sup> God having provided some better thing for us, that they without us should not be made perfect.
+
 ## Chapter 12
 
 <sup>1</sup> Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset [us], and let us run with patience the race that is set before us,
@@ -300,6 +311,7 @@
 <sup>27</sup> And this [word], Yet once more, signifieth the removing of those things that are shaken, as of things that are made, that those things which cannot be shaken may remain.
 <sup>28</sup> Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear:
 <sup>29</sup> For our God [is] a consuming fire.
+
 ## Chapter 13
 
 <sup>1</sup> Let brotherly love continue.

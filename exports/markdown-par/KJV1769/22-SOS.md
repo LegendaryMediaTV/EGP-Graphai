@@ -7,16 +7,17 @@
 <sup>5</sup> I [am] black, but comely, O ye daughters of Jerusalem, as the tents of Kedar, as the curtains of Solomon.
 <sup>6</sup> Look not upon me, because I [am] black, because the sun hath looked upon me: my mother’s children were angry with me; they made me the keeper of the vineyards; [but] mine own vineyard have I not kept.
 <sup>7</sup> Tell me, O thou whom my soul loveth, where thou feedest, where thou makest [thy flock] to rest at noon: for why should I be as one that turneth aside by the flocks of thy companions?
-<sup>8</sup> If thou know not, O thou fairest among women, go thy way forth by the footsteps of the flock, and feed thy kids beside the shepherds ’ tents.
+<sup>8</sup> If thou know not, O thou fairest among women, go thy way forth by the footsteps of the flock, and feed thy kids beside the shepherds’ tents.
 <sup>9</sup> I have compared thee, O my love, to a company of horses in Pharaoh’s chariots.
 <sup>10</sup> Thy cheeks are comely with rows [of jewels], thy neck with chains [of gold].
 <sup>11</sup> We will make thee borders of gold with studs of silver.
 <sup>12</sup> While the king [sitteth] at his table, my spikenard sendeth forth the smell thereof.
 <sup>13</sup> A bundle of myrrh [is] my wellbeloved unto me; he shall lie all night betwixt my breasts.
 <sup>14</sup> My beloved [is] unto me [as] a cluster of camphire in the vineyards of Engedi.
-<sup>15</sup> Behold, thou [art] fair, my love; behold, thou [art] fair; thou [hast] doves ’ eyes.
+<sup>15</sup> Behold, thou [art] fair, my love; behold, thou [art] fair; thou [hast] doves’ eyes.
 <sup>16</sup> Behold, thou [art] fair, my beloved, yea, pleasant: also our bed [is] green.
 <sup>17</sup> The beams of our house [are] cedar, [and] our rafters of fir.
+
 ## Chapter 2
 
 <sup>1</sup> I [am] the rose of Sharon, [and] the lily of the valleys.
@@ -36,6 +37,7 @@
 <sup>15</sup> Take us the foxes, the little foxes, that spoil the vines: for our vines [have] tender grapes.
 <sup>16</sup> My beloved [is] mine, and I [am] his: he feedeth among the lilies.
 <sup>17</sup> Until the day break, and the shadows flee away, turn, my beloved, and be thou like a roe or a young hart upon the mountains of Bether.
+
 ## Chapter 3
 
 <sup>1</sup> By night on my bed I sought him whom my soul loveth: I sought him, but I found him not.
@@ -49,16 +51,17 @@
 <sup>9</sup> King Solomon made himself a chariot of the wood of Lebanon.
 <sup>10</sup> He made the pillars thereof [of] silver, the bottom thereof [of] gold, the covering of it [of] purple, the midst thereof being paved [with] love, for the daughters of Jerusalem.
 <sup>11</sup> Go forth, O ye daughters of Zion, and behold king Solomon with the crown wherewith his mother crowned him in the day of his espousals, and in the day of the gladness of his heart.
+
 ## Chapter 4
 
-<sup>1</sup> Behold, thou [art] fair, my love; behold, thou [art] fair; thou [hast] doves ’ eyes within thy locks: thy hair [is] as a flock of goats, that appear from mount Gilead.
+<sup>1</sup> Behold, thou [art] fair, my love; behold, thou [art] fair; thou [hast] doves’ eyes within thy locks: thy hair [is] as a flock of goats, that appear from mount Gilead.
 <sup>2</sup> Thy teeth [are] like a flock [of sheep that are even] shorn, which came up from the washing; whereof every one bear twins, and none [is] barren among them.
 <sup>3</sup> Thy lips [are] like a thread of scarlet, and thy speech [is] comely: thy temples [are] like a piece of a pomegranate within thy locks.
 <sup>4</sup> Thy neck [is] like the tower of David builded for an armoury, whereon there hang a thousand bucklers, all shields of mighty men.
 <sup>5</sup> Thy two breasts [are] like two young roes that are twins, which feed among the lilies.
 <sup>6</sup> Until the day break, and the shadows flee away, I will get me to the mountain of myrrh, and to the hill of frankincense.
 <sup>7</sup> Thou [art] all fair, my love; [there is] no spot in thee.
-<sup>8</sup> Come with me from Lebanon, [my] spouse, with me from Lebanon: look from the top of Amana, from the top of Shenir and Hermon, from the lions ’ dens, from the mountains of the leopards.
+<sup>8</sup> Come with me from Lebanon, [my] spouse, with me from Lebanon: look from the top of Amana, from the top of Shenir and Hermon, from the lions’ dens, from the mountains of the leopards.
 <sup>9</sup> Thou hast ravished my heart, my sister, [my] spouse; thou hast ravished my heart with one of thine eyes, with one chain of thy neck.
 <sup>10</sup> How fair is thy love, my sister, [my] spouse! how much better is thy love than wine! and the smell of thine ointments than all spices!
 <sup>11</sup> Thy lips, O [my] spouse, drop [as] the honeycomb: honey and milk [are] under thy tongue; and the smell of thy garments [is] like the smell of Lebanon.
@@ -67,6 +70,7 @@
 <sup>14</sup> Spikenard and saffron; calamus and cinnamon, with all trees of frankincense; myrrh and aloes, with all the chief spices:
 <sup>15</sup> A fountain of gardens, a well of living waters, and streams from Lebanon.
 <sup>16</sup> Awake, O north wind; and come, thou south; blow upon my garden, [that] the spices thereof may flow out. Let my beloved come into his garden, and eat his pleasant fruits.
+
 ## Chapter 5
 
 <sup>1</sup> I am come into my garden, my sister, [my] spouse: I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk: eat, O friends; drink, yea, drink abundantly, O beloved.
@@ -85,6 +89,7 @@
 <sup>14</sup> His hands [are as] gold rings set with the beryl: his belly [is as] bright ivory overlaid [with] sapphires.
 <sup>15</sup> His legs [are as] pillars of marble, set upon sockets of fine gold: his countenance [is] as Lebanon, excellent as the cedars.
 <sup>16</sup> His mouth [is] most sweet: yea, he [is] altogether lovely. This [is] my beloved, and this [is] my friend, O daughters of Jerusalem.
+
 ## Chapter 6
 
 <sup>1</sup> Whither is thy beloved gone, O thou fairest among women? whither is thy beloved turned aside? that we may seek him with thee.
@@ -100,6 +105,7 @@
 <sup>11</sup> I went down into the garden of nuts to see the fruits of the valley, [and] to see whether the vine flourished, [and] the pomegranates budded.
 <sup>12</sup> Or ever I was aware, my soul made me [like] the chariots of Amminadib.
 <sup>13</sup> Return, return, O Shulamite; return, return, that we may look upon thee. What will ye see in the Shulamite? As it were the company of two armies.
+
 ## Chapter 7
 
 <sup>1</sup> How beautiful are thy feet with shoes, O prince’s daughter! the joints of thy thighs [are] like jewels, the work of the hands of a cunning workman.
@@ -115,6 +121,7 @@
 <sup>11</sup> Come, my beloved, let us go forth into the field; let us lodge in the villages.
 <sup>12</sup> Let us get up early to the vineyards; let us see if the vine flourish, [whether] the tender grape appear, [and] the pomegranates bud forth: there will I give thee my loves.
 <sup>13</sup> The mandrakes give a smell, and at our gates [are] all manner of pleasant [fruits], new and old, [which] I have laid up for thee, O my beloved.
+
 ## Chapter 8
 
 <sup>1</sup> O that thou [wert] as my brother, that sucked the breasts of my mother! [when] I should find thee without, I would kiss thee; yea, I should not be despised.

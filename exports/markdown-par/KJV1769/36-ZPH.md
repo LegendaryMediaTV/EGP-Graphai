@@ -8,7 +8,7 @@
 <sup>6</sup> And them that are turned back from the LORD; and [those] that have not sought the LORD, nor enquired for him.
 <sup>7</sup> Hold thy peace at the presence of the Lord GOD: for the day of the LORD [is] at hand: for the LORD hath prepared a sacrifice, he hath bid his guests.
 <sup>8</sup> And it shall come to pass in the day of the LORD’S sacrifice, that I will punish the princes, and the king’s children, and all such as are clothed with strange apparel.
-<sup>9</sup> In the same day also will I punish all those that leap on the threshold, which fill their masters ’ houses with violence and deceit.
+<sup>9</sup> In the same day also will I punish all those that leap on the threshold, which fill their masters’ houses with violence and deceit.
 <sup>10</sup> And it shall come to pass in that day, saith the LORD, [that there shall be] the noise of a cry from the fish gate, and an howling from the second, and a great crashing from the hills.
 <sup>11</sup> Howl, ye inhabitants of Maktesh, for all the merchant people are cut down; all they that bear silver are cut off.
 <sup>12</sup> And it shall come to pass at that time, [that] I will search Jerusalem with candles, and punish the men that are settled on their lees: that say in their heart, The LORD will not do good, neither will he do evil.
@@ -18,6 +18,7 @@
 <sup>16</sup> A day of the trumpet and alarm against the fenced cities, and against the high towers.
 <sup>17</sup> And I will bring distress upon men, that they shall walk like blind men, because they have sinned against the LORD: and their blood shall be poured out as dust, and their flesh as the dung.
 <sup>18</sup> Neither their silver nor their gold shall be able to deliver them in the day of the LORD’S wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land.
+
 ## Chapter 2
 
 <sup>1</sup> Gather yourselves together, yea, gather together, O nation not desired;
@@ -35,6 +36,7 @@
 <sup>13</sup> And he will stretch out his hand against the north, and destroy Assyria; and will make Nineveh a desolation, [and] dry like a wilderness.
 <sup>14</sup> And flocks shall lie down in the midst of her, all the beasts of the nations: both the cormorant and the bittern shall lodge in the upper lintels of it; [their] voice shall sing in the windows; desolation [shall be] in the thresholds: for he shall uncover the cedar work.
 <sup>15</sup> This [is] the rejoicing city that dwelt carelessly, that said in her heart, I [am], and [there is] none beside me: how is she become a desolation, a place for beasts to lie down in! every one that passeth by her shall hiss, [and] wag his hand.
+
 ## Chapter 3
 
 <sup>1</sup> Woe to her that is filthy and polluted, to the oppressing city!

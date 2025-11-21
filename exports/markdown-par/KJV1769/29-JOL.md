@@ -20,6 +20,7 @@
 <sup>18</sup> How do the beasts groan! the herds of cattle are perplexed, because they have no pasture; yea, the flocks of sheep are made desolate.
 <sup>19</sup> O LORD, to thee will I cry: for the fire hath devoured the pastures of the wilderness, and the flame hath burned all the trees of the field.
 <sup>20</sup> The beasts of the field cry also unto thee: for the rivers of waters are dried up, and the fire hath devoured the pastures of the wilderness.
+
 ## Chapter 2
 
 <sup>1</sup> Blow ye the trumpet in Zion, and sound an alarm in my holy mountain: let all the inhabitants of the land tremble: for the day of the LORD cometh, for [it is] nigh at hand;
@@ -54,9 +55,10 @@
 <sup>30</sup> And I will shew wonders in the heavens and in the earth, blood, and fire, and pillars of smoke.
 <sup>31</sup> The sun shall be turned into darkness, and the moon into blood, before the great and the terrible day of the LORD come.
 <sup>32</sup> And it shall come to pass, [that] whosoever shall call on the name of the LORD shall be delivered: for in mount Zion and in Jerusalem shall be deliverance, as the LORD hath said, and in the remnant whom the LORD shall call.
+
 ## Chapter 3
 
-<sup>1</sup> For, behold, in those days, and in that time, when I shall bring again (8675) the captivity of Judah and Jerusalem,
+<sup>1</sup> For, behold, in those days, and in that time, when I shall bring again the captivity of Judah and Jerusalem,
 <sup>2</sup> I will also gather all nations, and will bring them down into the valley of Jehoshaphat, and will plead with them there for my people and [for] my heritage Israel, whom they have scattered among the nations, and parted my land.
 <sup>3</sup> And they have cast lots for my people; and have given a boy for an harlot, and sold a girl for wine, that they might drink.
 <sup>4</sup> Yea, and what have ye to do with me, O Tyre, and Zidon, and all the coasts of Palestine? will ye render me a recompence? and if ye recompense me, swiftly [and] speedily will I return your recompence upon your own head;
