@@ -31,6 +31,7 @@
 <sup>29</sup> And God said, Behold, I have given you every herb yielding seed, which is upon the face of all the earth, and every tree, in which is the fruit of a tree yielding seed; to you it shall be for food:
 <sup>30</sup> and to every beast of the earth, and to every bird of the heavens, and to everything that creepeth upon the earth, wherein there is life, I have given every green herb for food: and it was so.
 <sup>31</sup> And God saw everything that he had made, and, behold, it was very good. And there was evening and there was morning, the sixth day.
+
 ## Chapter 2
 
 <sup>1</sup> And the heavens and the earth were finished, and all the host of them.
@@ -58,6 +59,7 @@
 <sup>23</sup> And the man said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.
 <sup>24</sup> Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.
 <sup>25</sup> And they were both naked, the man and his wife, and were not ashamed.
+
 ## Chapter 3
 
 <sup>1</sup> Now the serpent was more subtle than any beast of the field which Jehovah God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of any tree of the garden?
@@ -84,6 +86,7 @@
 <sup>22</sup> And Jehovah God said, Behold, the man is become as one of us, to know good and evil; and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:
 <sup>23</sup> therefore Jehovah God sent him forth from the garden of Eden, to till the ground from whence he was taken.
 <sup>24</sup> So he drove out the man; and he placed at the east of the garden of Eden the Cherubim, and the flame of a sword which turned every way, to keep the way of the tree of life.
+
 ## Chapter 4
 
 <sup>1</sup> And the man knew Eve his wife; and she conceived, and bare Cain, and said, I have gotten a man with the help of Jehovah.
@@ -112,6 +115,7 @@
 <sup>24</sup> If Cain shall be avenged sevenfold, Truly Lamech seventy and sevenfold.
 <sup>25</sup> And Adam knew his wife again; and she bare a son, and called his name Seth. For, said she, God hath appointed me another seed instead of Abel; for Cain slew him.
 <sup>26</sup> And to Seth, to him also there was born a son; and he called his name Enosh. Then began men to call upon the name of Jehovah.
+
 ## Chapter 5
 
 <sup>1</sup> This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him;
@@ -146,6 +150,7 @@
 <sup>30</sup> And Lamech lived after he begat Noah five hundred ninety and five years, and begat sons and daughters:
 <sup>31</sup> And all the days of Lamech were seven hundred seventy and seven years: and he died.
 <sup>32</sup> And Noah was five hundred years old: And Noah begat Shem, Ham, and Japheth.
+
 ## Chapter 6
 
 <sup>1</sup> And it came to pass, when men began to multiply on the face of the ground, and daughters were born unto them,
@@ -170,6 +175,7 @@
 <sup>20</sup> Of the birds after their kind, and of the cattle after their kind, of every creeping thing of the ground after its kind, two of every sort shall come unto thee, to keep them alive.
 <sup>21</sup> And take thou unto thee of all food that is eaten, and gather it to thee; and it shall be for food for thee, and for them.
 <sup>22</sup> Thus did Noah; according to all that God commanded him, so did he.
+
 ## Chapter 7
 
 <sup>1</sup> And Jehovah said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation.
@@ -196,6 +202,7 @@
 <sup>22</sup> all in whose nostrils was the breath of the spirit of life, of all that was on the dry land, died.
 <sup>23</sup> And every living thing was destroyed that was upon the face of the ground, both man, and cattle, and creeping things, and birds of the heavens; and they were destroyed from the earth: and Noah only was left, and they that were with him in the ark.
 <sup>24</sup> And the waters prevailed upon the earth a hundred and fifty days.
+
 ## Chapter 8
 
 <sup>1</sup> And God remembered Noah, and all the beasts, and all the cattle that were with him in the ark: and God made a wind to pass over the earth, and the waters assuaged;
@@ -220,6 +227,7 @@
 <sup>20</sup> And Noah builded an altar unto Jehovah, and took of every clean beast, and of every clean bird, and offered burnt-offerings on the altar.
 <sup>21</sup> And Jehovah smelled the sweet savor; and Jehovah said in his heart, I will not again curse the ground any more for man’s sake, for that the imagination of man’s heart is evil from his youth; neither will I again smite any more everything living, as I have done.
 <sup>22</sup> While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.
+
 ## Chapter 9
 
 <sup>1</sup> And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth.
@@ -251,6 +259,7 @@
 <sup>27</sup> God enlarge Japheth, And let him dwell in the tents of Shem. And let Canaan be his servant.
 <sup>28</sup> And Noah lived after the flood three hundred and fifty years.
 <sup>29</sup> And all the days of Noah were nine hundred and fifty years. And he died.
+
 ## Chapter 10
 
 <sup>1</sup> Now these are the generations of the sons of Noah, namely, of Shem, Ham, and Japheth. And unto them were sons born after the flood.
@@ -285,6 +294,7 @@
 <sup>30</sup> And their dwelling was from Mesha, as thou goest toward Sephar, the mountain of the east.
 <sup>31</sup> These are the sons of Shem, after their families, after their tongues, in their lands, after their nations.
 <sup>32</sup> These are the families of the sons of Noah, after their generations, in their nations. And of these were the nations divided in the earth after the flood.
+
 ## Chapter 11
 
 <sup>1</sup> And the whole earth was of one language and of one speech.
@@ -319,6 +329,7 @@
 <sup>30</sup> And Sarai was barren. She had no child.
 <sup>31</sup> And Terah took Abram his son, and Lot the son of Haran, his son’s son, and Sarai his daughter-in-law, his son Abram’s wife. And they went forth with them from Ur of the Chaldees, to go into the land of Canaan. And they came unto Haran, and dwelt there.
 <sup>32</sup> And the days of Terah were two hundred and five years. And Terah died in Haran.
+
 ## Chapter 12
 
 <sup>1</sup> Now Jehovah said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father’s house, unto the land that I will show thee.
@@ -341,6 +352,7 @@
 <sup>18</sup> And Pharaoh called Abram, and said, What is this that thou hast done unto me? Why didst thou not tell me that she was thy wife?
 <sup>19</sup> Why saidst thou, She is my sister, so that I took her to be my wife? Now therefore behold thy wife, take her, and go thy way.
 <sup>20</sup> And Pharoah gave men charge concerning him. And they brought him on the way, and his wife, and all that he had.
+
 ## Chapter 13
 
 <sup>1</sup> And Abram went up out of Egypt, he, and his wife, and all that he had, and Lot with him, into the South.
@@ -361,6 +373,7 @@
 <sup>16</sup> And I will make thy seed as the dust of the earth. So that if a man can number the dust of the earth, then may thy seed also be numbered.
 <sup>17</sup> Arise, walk through the land in the length of it and in the breadth of it. For unto thee will I give it.
 <sup>18</sup> And Abram moved his tent, and came and dwelt by the oaks of Mamre, which are in Hebron, and built there an altar unto Jehovah.
+
 ## Chapter 14
 
 <sup>1</sup> And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of Goiim,
@@ -387,6 +400,7 @@
 <sup>22</sup> And Abram said to the king of Sodom, I have lifted up my hand unto Jehovah, God Most High, possessor of heaven and earth,
 <sup>23</sup> that I will not take a thread nor a shoe-latchet nor aught that is thine, lest thou shouldest say, I have made Abram rich.
 <sup>24</sup> Save only that which the young men have eaten, and the portion of the men that went with me, Aner, Eshcol, and Mamre. Let them taken their portion.
+
 ## Chapter 15
 
 <sup>1</sup> After these things the word of Jehovah came unto Abram in a vision, saying, Fear not, Abram. I am thy shield, and thy exceeding great reward.
@@ -410,6 +424,7 @@
 <sup>19</sup> The Kenite, and the Kenizzite, and the Kadmonite,
 <sup>20</sup> and the Hittite, and the Perizzite, and the Rephaim,
 <sup>21</sup> and the Amorite, and the Canaanite, and the Girgashite, and the Jebusite.
+
 ## Chapter 16
 
 <sup>1</sup> Now Sarai, Abram’s wife, bare him no children. And she had a handmaid, an Egyptian, whose name was Hagar.
@@ -428,6 +443,7 @@
 <sup>14</sup> Wherefore the well was called Beer-lahai-roi. Behold, it is between Kadesh and Bered.
 <sup>15</sup> And Hagar bare Abram a son. And Abram called the name of his son, whom Hagar bare, Ishmael.
 <sup>16</sup> And Abram was fourscore and six years old, when Hagar bare Ishmael to Abram.
+
 ## Chapter 17
 
 <sup>1</sup> And when Abram was ninety years old and nine, Jehovah appeared to Abram, and said unto him, I am God Almighty. Walk before me, and be thou perfect.
@@ -457,6 +473,7 @@
 <sup>25</sup> And Ishmael his son was thirteen years old, when he was circumcised in the flesh of his foreskin.
 <sup>26</sup> In the selfsame day was Abraham circumcised, and Ishmael his son.
 <sup>27</sup> And all the men of his house, those born in the house, and those bought with money of a foreigner, were circumcised with him.
+
 ## Chapter 18
 
 <sup>1</sup> And Jehovah appeared unto him by the oaks of Mamre, as he sat in the tent door in the heat of the day.
@@ -492,6 +509,7 @@
 <sup>31</sup> And he said, Behold now, I have taken upon me to speak unto the Lord. Peradventure there shall be twenty found there. And he said, I will not destroy it for the twenty’s sake.
 <sup>32</sup> And he said, Oh let not the Lord be angry, and I will speak yet but this once. Peradventure ten shall be found there. And he said, I will not destroy it for the ten’s sake.
 <sup>33</sup> And Jehovah went his way, as soon as he had left off communing with Abraham. And Abraham returned unto his place.
+
 ## Chapter 19
 
 <sup>1</sup> And the two angels came to Sodom at even. And Lot sat in the gate of Sodom. And Lot saw them, and rose up to meet them. And he bowed himself with his face to the earth.
@@ -532,6 +550,7 @@
 <sup>36</sup> Thus were both the daughters of Lot with child by their father.
 <sup>37</sup> And the first-born bare a son, and called his name Moab. The same is the father of the Moabites unto this day.
 <sup>38</sup> And the younger, she also bare a son, and called his name Ben-ammi. The same is the father of the children of Ammon unto this day.
+
 ## Chapter 20
 
 <sup>1</sup> And Abraham journeyed from thence toward the land of the South, and dwelt between Kadesh and Shur. And he sojourned in Gerar.
@@ -552,6 +571,7 @@
 <sup>16</sup> And unto Sarah he said, Behold, I have given thy brother a thousand pieces of silver. Behold, it is for thee a covering of the eyes to all that are with thee. And in respect of all thou art righted.
 <sup>17</sup> And Abraham prayed unto God. And God healed Abimelech, and his wife, and his maid-servants. And they bare children.
 <sup>18</sup> For Jehovah had fast closed up all the wombs of the house of Abimelech, because of Sarah, Abraham’s wife.
+
 ## Chapter 21
 
 <sup>1</sup> And Jehovah visited Sarah as he had said, and Jehovah did unto Sarah as he had spoken.
@@ -588,6 +608,7 @@
 <sup>32</sup> So they made a covenant at Beer-sheba. And Abimelech rose up, and Phicol the captain of his host, and they returned into the land of the Philistines.
 <sup>33</sup> And Abraham planted a tamarisk tree in Beer-sheba, and called there on the name of Jehovah, the Everlasting God.
 <sup>34</sup> And Abraham sojourned in the land of the Philistines many days.
+
 ## Chapter 22
 
 <sup>1</sup> And it came to pass after these things, that God did prove Abraham, and said unto him, Abraham. And he said, Here am I.
@@ -614,6 +635,7 @@
 <sup>22</sup> And Chesed, and Hazo, and Pildash, and Jidlaph, and Bethuel.
 <sup>23</sup> And Bethuel begat Rebekah. These eight did Milcah bear to Nahor, Abraham’s brother.
 <sup>24</sup> And his concubine, whose name was Reumah, she also bare Tebah, and Gaham, and Tahash, and Maacah.
+
 ## Chapter 23
 
 <sup>1</sup> And the life of Sarah was a hundred and seven and twenty years. These were the years of the life of Sarah.
@@ -636,6 +658,7 @@
 <sup>18</sup> unto Abraham for a possession in the presence of the children of Heth, before all that went in at the gate of his city.
 <sup>19</sup> And after this, Abraham buried Sarah his wife in the cave of the field of Machpelah before Mamre (the same is Hebron), in the land of Canaan.
 <sup>20</sup> And the field, and the cave that is therein, were made sure unto Abraham for a possession of a burying-place by the children of Heth.
+
 ## Chapter 24
 
 <sup>1</sup> And Abraham was old, and well stricken in age. And Jehovah had blessed Abraham in all things.
@@ -705,6 +728,7 @@
 <sup>65</sup> And she said unto the servant, What man is this that walketh in the field to meet us? And the servant said, It is my master. And she took her veil, and covered herself.
 <sup>66</sup> And the servant told Isaac all the things that he had done.
 <sup>67</sup> And Isaac brought her into his mother Sarah’s tent, and took Rebekah, and she became his wife. And he loved her. And Isaac was comforted after his mother’s death.
+
 ## Chapter 25
 
 <sup>1</sup> And Abraham took another wife, and her name was Keturah.
@@ -741,6 +765,7 @@
 <sup>32</sup> And Esau said, Behold, I am about to die. And what profit shall the birthright do to me?
 <sup>33</sup> And Jacob said, Swear to me first. And he sware unto him. And he sold his birthright unto Jacob.
 <sup>34</sup> And Jacob gave Esau bread and pottage of lentils. And he did eat and drink, and rose up, and went his way. So Esau despised his birthright.
+
 ## Chapter 26
 
 <sup>1</sup> And there was a famine in the land, besides the first famine that was in the days of Abraham. And Isaac went unto Abimelech king of the Philistines, unto Gerar.
@@ -778,6 +803,7 @@
 <sup>33</sup> And he called it Shibah. Therefore the name of the city is Beer-sheba unto this day.
 <sup>34</sup> And when Esau was forty years old he took to wife Judith the daughter of Beeri the Hittite, and Basemath the daughter of Elon the Hittite.
 <sup>35</sup> And they were a grief of mind unto Isaac and to Rebekah.
+
 ## Chapter 27
 
 <sup>1</sup> And it came to pass, that when Isaac was old, and his eyes were dim, so that he could not see, he called Esau his elder son, and said unto him, My son. And he said unto him, Here am I.
@@ -826,6 +852,7 @@
 <sup>44</sup> And tarry with him a few days, until thy brother’s fury turn away.
 <sup>45</sup> Until thy brother’s anger turn away from thee, and he forget that which thou hast done to him. Then I will send, and fetch thee from thence. Why should I be bereaved of you both in one day?
 <sup>46</sup> And Rebekah said to Isaac, I am weary of my life because of the daughters of Heth. If Jacob take a wife of the daughters of Heth, such as these, of the daughters of the land, what good shall my life do me?
+
 ## Chapter 28
 
 <sup>1</sup> And Isaac called Jacob, and blessed him, and charged him, and said unto him, Thou shalt not take a wife of the daughters of Canaan.
@@ -850,6 +877,7 @@
 <sup>20</sup> And Jacob vowed a vow, saying, If God will be with me, and will keep me in this way that I go, and will give me bread to eat, and raiment to put on,
 <sup>21</sup> so that I come again to my father’s house in peace, and Jehovah will be my God,
 <sup>22</sup> then this stone, which I have set up for a pillar, shall be God’s house. And of all that thou shalt give me I will surely give the tenth unto thee.
+
 ## Chapter 29
 
 <sup>1</sup> Then Jacob went on his journey, and came to the land of the children of the east.
@@ -887,6 +915,7 @@
 <sup>33</sup> And she conceived again, and bare a son. And said, Because Jehovah hath heard that I am hated, he hath therefore given me this son also. And she called his name Simeon.
 <sup>34</sup> And she conceived again, and bare a son. And said, Now this time will my husband be joined unto me, because I have borne him three sons. Therefore was his name called Levi.
 <sup>35</sup> And she conceived again, and bare a son. And she said, This time will I praise Jehovah. Therefore she called his name Judah. And she left off bearing.
+
 ## Chapter 30
 
 <sup>1</sup> And when Rachel saw that she bare Jacob no children, Rachel envied her sister; and she said unto Jacob, Give me children, or else I die.
@@ -932,6 +961,7 @@
 <sup>41</sup> And it came to pass, whensoever the stronger of the flock did conceive, that Jacob laid the rods before the eyes of the flock in the gutters, that they might conceive among the rods;
 <sup>42</sup> but when the flock were feeble, he put them not in: so the feebler were Laban’s, and the stronger Jacob’s.
 <sup>43</sup> And the man increased exceedingly, and had large flocks, and maid-servants and men-servants, and camels and asses.
+
 ## Chapter 31
 
 <sup>1</sup> And he heard the words of Laban’s sons, saying, Jacob hath taken away all that was our father’s; and of that which was our father’s hath he gotten all this glory.
@@ -989,6 +1019,7 @@
 <sup>53</sup> The God of Abraham, and the God of Nahor, the God of their father, judge betwixt us. And Jacob sware by the Fear of his father Isaac.
 <sup>54</sup> And Jacob offered a sacrifice in the mountain, and called his brethren to eat bread: and they did eat bread, and tarried all night in the mountain.
 <sup>55</sup> And early in the morning Laban rose up, and kissed his sons and his daughters, and blessed them: and Laban departed and returned unto his place.
+
 ## Chapter 32
 
 <sup>1</sup> And Jacob went on his way, and the angels of God met him.
@@ -1023,6 +1054,7 @@
 <sup>30</sup> And Jacob called the name of the place Peniel: for, said he, I have seen God face to face, and my life is preserved.
 <sup>31</sup> And the sun rose upon him as he passed over Penuel, and he limped upon his thigh.
 <sup>32</sup> Therefore the children of Israel eat not the sinew of the hip which is upon the hollow of the thigh, unto this day: because he touched the hollow of Jacob’s thigh in the sinew of the hip.
+
 ## Chapter 33
 
 <sup>1</sup> And Jacob lifted up his eyes, and looked, and, behold, Esau was coming, and with him four hundred men. And he divided the children unto Leah, and unto Rachel, and unto the two handmaids.
@@ -1045,6 +1077,7 @@
 <sup>18</sup> And Jacob came in peace to the city of Shechem, which is in the land of Canaan, when he came from Paddan-aram; and encamped before the city.
 <sup>19</sup> And he bought the parcel of ground, where he had spread his tent, at the hand of the children of Hamor, Shechem’s father, for a hundred pieces of money.
 <sup>20</sup> And he erected there an altar, and called it El-Elohe-Israel.
+
 ## Chapter 34
 
 <sup>1</sup> And Dinah the daughter of Leah, whom she bare unto Jacob, went out to see the daughters of the land.
@@ -1078,6 +1111,7 @@
 <sup>29</sup> and all their wealth, and all their little ones and their wives, took they captive and made a prey, even all that was in the house.
 <sup>30</sup> And Jacob said to Simeon and Levi, Ye have troubled me, to make me odious to the inhabitants of the land, among the Canaanites and the Perizzites: and, I being few in number, they will gather themselves together against me and smite me; and I shall be destroyed, I and my house.
 <sup>31</sup> And they said, Should he deal with our sister as with a harlot?
+
 ## Chapter 35
 
 <sup>1</sup> And God said unto Jacob, Arise, go up to Beth-el, and dwell there: and make there an altar unto God, who appeared unto thee when thou fleddest from the face of Esau thy brother.
@@ -1109,6 +1143,7 @@
 <sup>27</sup> And Jacob came unto Isaac his father to Mamre, to Kiriath-arba (the same is Hebron), where Abraham and Isaac sojourned.
 <sup>28</sup> And the days of Isaac were a hundred and fourscore years.
 <sup>29</sup> And Isaac gave up the ghost, and died, and was gathered unto his people, old and full of days: and Esau and Jacob his sons buried him.
+
 ## Chapter 36
 
 <sup>1</sup> Now these are the generations of Esau (the same is Edom).
@@ -1154,6 +1189,7 @@
 <sup>41</sup> chief Oholibamah, chief Elah, chief Pinon,
 <sup>42</sup> chief Kenaz, chief Teman, chief Mibzar,
 <sup>43</sup> chief Magdiel, chief Iram: these are the chiefs of Edom, according to their habitations in the land of their possession. This is Esau, the father of the Edomites.
+
 ## Chapter 37
 
 <sup>1</sup> And Jacob dwelt in the land of his father’s sojournings, in the land of Canaan.
@@ -1192,6 +1228,7 @@
 <sup>34</sup> And Jacob rent his garments, and put sackcloth upon his loins, and mourned for his son many days.
 <sup>35</sup> And all his sons and all his daughters rose up to comfort him; but he refused to be comforted; and he said, For I will go down to Sheol to my son mourning. And his father wept for him.
 <sup>36</sup> And the Midianites sold him into Egypt unto Potiphar, an officer of Pharaoh’s, the captain of the guard.
+
 ## Chapter 38
 
 <sup>1</sup> And it came to pass at that time, that Judah went down from his brethren, and turned in to a certain Adullamite, whose name was Hirah.
@@ -1224,6 +1261,7 @@
 <sup>28</sup> And it came to pass, when she travailed, that one put out a hand: and the midwife took and bound upon his hand a scarlet thread, saying, This came out first.
 <sup>29</sup> And it came to pass, as he drew back his hand, that, behold, his brother came out: and she said, Wherefore hast thou made a breach for thyself? Therefore his name was called Perez.
 <sup>30</sup> And afterward came out his brother, that had the scarlet thread upon his hand: and his name was called Zerah.
+
 ## Chapter 39
 
 <sup>1</sup> And Joseph was brought down to Egypt; and Potiphar, an officer of Pharaoh’s, the captain of the guard, an Egyptian, bought him of the hand of the Ishmaelites, that had brought him down thither.
@@ -1249,6 +1287,7 @@
 <sup>21</sup> But Jehovah was with Joseph, and showed kindness unto him, and gave him favor in the sight of the keeper of the prison.
 <sup>22</sup> And the keeper of the prison committed to Joseph’s hand all the prisoners that were in the prison; and whatsoever they did there, he was the doer of it.
 <sup>23</sup> The keeper of the prison looked not to anything that was under his hand, because Jehovah was with him; and that which he did, Jehovah made it prosper.
+
 ## Chapter 40
 
 <sup>1</sup> And it came to pass after these things, that the butler of the king of Egypt and his baker offended their lord the king of Egypt.
@@ -1274,6 +1313,7 @@
 <sup>21</sup> And he restored the chief butler unto his butlership again; and he gave the cup into Pharaoh’s hand:
 <sup>22</sup> but he hanged the chief baker: as Joseph had interpreted to them.
 <sup>23</sup> Yet did not the chief butler remember Joseph, but forgat him.
+
 ## Chapter 41
 
 <sup>1</sup> And it came to pass at the end of two full years, that Pharaoh dreamed: and, behold, he stood by the river.
@@ -1333,6 +1373,7 @@
 <sup>55</sup> And when all the land of Egypt was famished, the people cried to Pharaoh for bread: and Pharaoh said unto all the Egyptians, Go unto Joseph; what he saith to you, do.
 <sup>56</sup> And the famine was over all the face of the earth: and Joseph opened all the store-houses, and sold unto the Egyptians; and the famine was sore in the land of Egypt.
 <sup>57</sup> And all countries came into Egypt to Joseph to buy grain, because the famine was sore in all the earth.
+
 ## Chapter 42
 
 <sup>1</sup> Now Jacob saw that there was grain in Egypt, and Jacob said unto his sons, Why do ye look one upon another?
@@ -1373,6 +1414,7 @@
 <sup>36</sup> And Jacob their father said unto them, Me have ye bereaved of my children: Joseph is not, and Simeon is not, and ye will take Benjamin away: all these things are against me.
 <sup>37</sup> And Reuben spake unto his father, saying, Slay my two sons, if I bring him not to thee: deliver him into my hand, and I will bring him to thee again.
 <sup>38</sup> And he said, My son shall not go down with you; for his brother is dead, and he only is left: if harm befall him by the way in which ye go, then will ye bring down my gray hairs with sorrow to Sheol.
+
 ## Chapter 43
 
 <sup>1</sup> And the famine was sore in the land.
@@ -1409,6 +1451,7 @@
 <sup>32</sup> And they set on for him by himself, and for them by themselves, and for the Egyptians, that did eat with him, by themselves: because the Egyptians might not eat bread with the Hebrews; for that is an abomination unto the Egyptians.
 <sup>33</sup> And they sat before him, the first-born according to his birthright, and the youngest according to his youth: and the men marvelled one with another.
 <sup>34</sup> And he took and sent messes unto them from before him: but Benjamin’s mess was five times so much as any of theirs. And they drank, and were merry with him.
+
 ## Chapter 44
 
 <sup>1</sup> And he commanded the steward of his house, saying, Fill the men’s sacks with food, as much as they can carry, and put every man’s money in his sack’s mouth.
@@ -1445,6 +1488,7 @@
 <sup>32</sup> For thy servant became surety for the lad unto my father, saying, If I bring him not unto thee, then shall I bear the blame to my father for ever.
 <sup>33</sup> Now therefore, let thy servant, I pray thee, abide instead of the lad a bondman to my lord; and let the lad go up with his brethren.
 <sup>34</sup> For how shall I go up to my father, if the lad be not with me? lest I see the evil that shall come on my father.
+
 ## Chapter 45
 
 <sup>1</sup> Then Joseph could not refrain himself before all them that stood before him; and he cried, Cause every man to go out from me. And there stood no man with him, while Joseph made himself known unto his brethren.
@@ -1475,6 +1519,7 @@
 <sup>26</sup> And they told him, saying, Joseph is yet alive, and he is ruler over all the land of Egypt. And his heart fainted, for he believed them not.
 <sup>27</sup> And they told him all the words of Joseph, which he had said unto them: and when he saw the wagons which Joseph had sent to carry him, the spirit of Jacob their father revived:
 <sup>28</sup> and Israel said, It is enough; Joseph my son is yet alive: I will go and see him before I die.
+
 ## Chapter 46
 
 <sup>1</sup> And Israel took his journey with all that he had, and came to Beer-sheba, and offered sacrifices unto the God of his father Isaac.
@@ -1511,6 +1556,7 @@
 <sup>32</sup> and the men are shepherds, for they have been keepers of cattle; and they have brought their flocks, and their herds, and all that they have.
 <sup>33</sup> And it shall come to pass, when Pharaoh shall call you, and shall say, What is your occupation?
 <sup>34</sup> that ye shall say, Thy servants have been keepers of cattle from our youth even until now, both we, and our fathers: that ye may dwell in the land of Goshen; for every shepherd is an abomination unto the Egyptians.
+
 ## Chapter 47
 
 <sup>1</sup> Then Joseph went in and told Pharaoh, and said, My father and my brethren, and their flocks, and their herds, and all that they have, are come out of the land of Canaan; and, behold, they are in the land of Goshen.
@@ -1544,6 +1590,7 @@
 <sup>29</sup> And the time drew near that Israel must die: and he called his son Joseph, and said unto him, If now I have found favor in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me: bury me not, I pray thee, in Egypt;
 <sup>30</sup> but when I sleep with my fathers, thou shalt carry me out of Egypt, and bury me in their burying-place. And he said, I will do as thou hast said.
 <sup>31</sup> And he said, Swear unto me: and he sware unto him. And Israel bowed himself upon the bed’s head.
+
 ## Chapter 48
 
 <sup>1</sup> And it came to pass after these things, that one said to Joseph, Behold, thy father is sick: and he took with him his two sons, Manasseh and Ephraim.
@@ -1568,6 +1615,7 @@
 <sup>20</sup> And he blessed them that day, saying, In thee will Israel bless, saying, God make thee as Ephraim and as Manasseh: and he set Ephraim before Manasseh.
 <sup>21</sup> And Israel said unto Joseph, Behold, I die: but God will be with you, and bring you again unto the land of your fathers.
 <sup>22</sup> Moreover I have given to thee one portion above thy brethren, which I took out of the hand of the Amorite with my sword and with my bow.
+
 ## Chapter 49
 
 <sup>1</sup> And Jacob called unto his sons, and said: gather yourselves together, that I may tell you that which shall befall you in the latter days.
@@ -1603,6 +1651,7 @@
 <sup>31</sup> there they buried Abraham and Sarah his wife; there they buried Isaac and Rebekah his wife; and there I buried Leah:
 <sup>32</sup> the field and the cave that is therein, which was purchased from the children of Heth.
 <sup>33</sup> And when Jacob made an end of charging his sons, he gathered up his feet into the bed, and yielded up the ghost, and was gathered unto his people.
+
 ## Chapter 50
 
 <sup>1</sup> And Joseph fell upon his father’s face, and wept upon him, and kissed him.

@@ -17,6 +17,7 @@
 <sup>15</sup> So they took up Jonah, and cast him forth into the sea; and the sea ceased from its raging.
 <sup>16</sup> Then the men feared Jehovah exceedingly; and they offered a sacrifice unto Jehovah, and made vows.
 <sup>17</sup> And Jehovah prepared a great fish to swallow up Jonah; and Jonah was in the belly of the fish three days and three nights.
+
 ## Chapter 2
 
 <sup>1</sup> Then Jonah prayed unto Jehovah his God out of the fish’s belly.
@@ -29,6 +30,7 @@
 <sup>8</sup> They that regard lying vanities Forsake their own mercy.
 <sup>9</sup> But I will sacrifice unto thee with the voice of thanksgiving; I will pay that which I have vowed. Salvation is of Jehovah.
 <sup>10</sup> And Jehovah spake unto the fish, and it vomited out Jonah upon the dry land.
+
 ## Chapter 3
 
 <sup>1</sup> And the word of Jehovah came unto Jonah the second time, saying,
@@ -41,6 +43,7 @@
 <sup>8</sup> but let them be covered with sackcloth, both man and beast, and let them cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in his hands.
 <sup>9</sup> Who knoweth whether God will not turn and repent, and turn away from his fierce anger, that we perish not?
 <sup>10</sup> And God saw their works, that they turned from their evil way; and God repented of the evil which he said he would do unto them; and he did it not.
+
 ## Chapter 4
 
 <sup>1</sup> But it displeased Jonah exceedingly, and he was angry.

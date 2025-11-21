@@ -16,6 +16,7 @@
 <sup>14</sup> not giving heed to Jewish fables, and commandments of men who turn away from the truth.
 <sup>15</sup> To the pure all things are pure: but to them that are defiled and unbelieving nothing is pure; but both their mind and their conscience are defiled.
 <sup>16</sup> They profess that they know God; but by their works they deny him, being abominable, and disobedient, and unto every good work reprobate.
+
 ## Chapter 2
 
 <sup>1</sup> But speak thou the things which befit the sound doctrine:
@@ -33,6 +34,7 @@
 <sup>13</sup> looking for the blessed hope and appearing of the glory of the great God and our Saviour Jesus Christ;
 <sup>14</sup> who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a people for his own possession, zealous of good works.
 <sup>15</sup> These things speak and exhort and reprove with all authority. Let no man despise thee.
+
 ## Chapter 3
 
 <sup>1</sup> Put them in mind to be in subjection to rulers, to authorities, to be obedient, to be ready unto every good work,

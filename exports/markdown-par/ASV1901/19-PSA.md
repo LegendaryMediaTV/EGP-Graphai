@@ -6,6 +6,7 @@
 <sup>4</sup> The wicked are not so, But are like the chaff which the wind driveth away.
 <sup>5</sup> Therefore the wicked shall not stand in the judgment, Nor sinners in the congregation of the righteous.
 <sup>6</sup> For Jehovah knoweth the way of the righteous; But the way of the wicked shall perish.
+
 ## Chapter 2
 
 <sup>1</sup> Why do the nations rage, And the peoples meditate a vain thing?
@@ -20,6 +21,7 @@
 <sup>10</sup> Now therefore be wise, O ye kings: Be instructed, ye judges of the earth.
 <sup>11</sup> Serve Jehovah with fear, And rejoice with trembling.
 <sup>12</sup> Kiss the son, lest he be angry, and ye perish in the way, For his wrath will soon be kindled. Blessed are all they that take refuge in him.
+
 ## Chapter 3
 
 <sup>1</sup> Jehovah, how are mine adversaries increased! Many are they that rise up against me.
@@ -30,6 +32,7 @@
 <sup>6</sup> I will not be afraid of ten thousands of the people That have set themselves against me round about.
 <sup>7</sup> Arise, O Jehovah; Save me, O my God: For thou hast smitten all mine enemies upon the cheek bone; Thou hast broken the teeth of the wicked.
 <sup>8</sup> Salvation belongeth unto Jehovah: Thy blessing be upon thy people.[Selah
+
 ## Chapter 4
 
 <sup>1</sup> Answer me when I call, O God of my righteousness; Thou hast set me at large when I was in distress: Have mercy upon me, and hear my prayer.
@@ -40,6 +43,7 @@
 <sup>6</sup> Many there are that say, Who will show us any good? Jehovah, lift thou up the light of thy countenance upon us.
 <sup>7</sup> Thou hast put gladness in my heart, More than they have when their grain and their new wine are increased.
 <sup>8</sup> In peace will I both lay me down and sleep; For thou, Jehovah, alone makest me dwell in safety.
+
 ## Chapter 5
 
 <sup>1</sup> Give ear to my words, O Jehovah, Consider my meditation.
@@ -54,6 +58,7 @@
 <sup>10</sup> Hold them guilty, O God; Let them fall by their own counsels; Thrust them out in the multitude of their transgressions; For they have rebelled against thee.
 <sup>11</sup> But let all those that take refuge in thee rejoice, Let them ever shout for joy, because thou defendest them: Let them also that love thy name be joyful in thee.
 <sup>12</sup> For thou wilt bless the righteous; O Jehovah, thou wilt compass him with favor as with a shield.
+
 ## Chapter 6
 
 <sup>1</sup> O Jehovah, rebuke me not in thine anger, Neither chasten me in thy hot displeasure.
@@ -66,6 +71,7 @@
 <sup>8</sup> Depart from me, all ye workers of iniquity; For Jehovah hath heard the voice of my weeping.
 <sup>9</sup> Jehovah hath heard my supplication; Jehovah will receive my prayer.
 <sup>10</sup> All mine enemies shall be put to shame and sore troubled: They shall turn back, they shall be put to shame suddenly.
+
 ## Chapter 7
 
 <sup>1</sup> O Jehovah my God, in thee do I take refuge: Save me from all them that pursue me, and deliver me,
@@ -85,6 +91,7 @@
 <sup>15</sup> He hath made a pit, and digged it, And is fallen into the ditch which he made.
 <sup>16</sup> His mischief shall return upon his own head, And his violence shall come down upon his own pate.
 <sup>17</sup> I will give thanks unto Jehovah according to his righteousness, And will sing praise to the name of Jehovah Most High.
+
 ## Chapter 8
 
 <sup>1</sup> O Jehovah, our Lord, How excellent is thy name in all the earth, Who hast set thy glory upon the heavens!
@@ -96,6 +103,7 @@
 <sup>7</sup> All sheep and oxen, Yea, and the beasts of the field,
 <sup>8</sup> The birds of the heavens, and the fish of the sea, Whatsoever passeth through the paths of the seas.
 <sup>9</sup> O Jehovah, our Lord, How excellent is thy name in all the earth!
+
 ## Chapter 9
 
 <sup>1</sup> I will give thanks unto Jehovah with my whole heart; I will show forth all thy marvellous works.
@@ -118,6 +126,7 @@
 <sup>18</sup> For the needy shall not alway be forgotten, Nor the expectation of the poor perish for ever.
 <sup>19</sup> Arise, O Jehovah; Let not man prevail: Let the nations be judged in thy sight.
 <sup>20</sup> Put them in fear, O Jehovah: Let the nations know themselves to be but men.[Selah
+
 ## Chapter 10
 
 <sup>1</sup> Why standest thou afar off, O Jehovah? Why hidest thou thyself in times of trouble?
@@ -138,6 +147,7 @@
 <sup>16</sup> Jehovah is King for ever and ever: The nations are perished out of his land.
 <sup>17</sup> Jehovah, thou hast heard the desire of the meek: Thou wilt prepare their heart, thou wilt cause thine ear to hear;
 <sup>18</sup> To judge the fatherless and the oppressed, That man who is of the earth may be terrible no more.
+
 ## Chapter 11
 
 <sup>1</sup> In Jehovah do I take refuge: How say ye to my soul, Flee as a bird to your mountain;
@@ -147,6 +157,7 @@
 <sup>5</sup> Jehovah trieth the righteous; But the wicked and him that loveth violence his soul hateth.
 <sup>6</sup> Upon the wicked he will rain snares; Fire and brimstone and burning wind shall be the portion of their cup.
 <sup>7</sup> For Jehovah is righteous; He loveth righteousness: The upright shall behold his face.
+
 ## Chapter 12
 
 <sup>1</sup> Help, Jehovah; For the godly man ceaseth; For the faithful fail from among the children of men.
@@ -157,6 +168,7 @@
 <sup>6</sup> The words of Jehovah are pure words; As silver tried in a furnace on the earth, Purified seven times.
 <sup>7</sup> Thou wilt keep them, O Jehovah, Thou wilt preserve them from this generation for ever.
 <sup>8</sup> The wicked walk on every side, When vileness is exalted among the sons of men.
+
 ## Chapter 13
 
 <sup>1</sup> How long, O Jehovah? wilt thou forget me for ever? How long wilt thou hide thy face from me?
@@ -165,6 +177,7 @@
 <sup>4</sup> Lest mine enemy say, I have prevailed against him; Lest mine adversaries rejoice when I am moved.
 <sup>5</sup> But I have trusted in thy lovingkindness; My heart shall rejoice in thy salvation.
 <sup>6</sup> I will sing unto Jehovah, Because he hath dealt bountifully with me.
+
 ## Chapter 14
 
 <sup>1</sup> The fool hath said in his heart, There is no God. They are corrupt, they have done abominable works; There is none that doeth good.
@@ -174,6 +187,7 @@
 <sup>5</sup> There were they in great fear; For God is in the generation of the righteous.
 <sup>6</sup> Ye put to shame the counsel of the poor, Because Jehovah is his refuge.
 <sup>7</sup> Oh that the salvation of Israel were come out of Zion! When Jehovah bringeth back the captivity of his people, Then shall Jacob rejoice, and Israel shall be glad.
+
 ## Chapter 15
 
 <sup>1</sup> Jehovah, who shall sojourn in thy tabernacle? Who shall dwell in thy holy hill?
@@ -181,6 +195,7 @@
 <sup>3</sup> He that slandereth not with his tongue, Nor doeth evil to his friend, Nor taketh up a reproach against his neighbor;
 <sup>4</sup> In whose eyes a reprobate is despised, But who honoreth them that fear Jehovah; He that sweareth to his own hurt, and changeth not;
 <sup>5</sup> He that putteth not out his money to interest, Nor taketh reward against the innocent. He that doeth these things shall never be moved.
+
 ## Chapter 16
 
 <sup>1</sup> Preserve me, O God; For in thee do I take refuge.
@@ -194,6 +209,7 @@
 <sup>9</sup> Therefore my heart is glad, and my glory rejoiceth; My flesh also shall dwell in safety.
 <sup>10</sup> For thou wilt not leave my soul to Sheol; Neither wilt thou suffer thy holy one to see corruption.
 <sup>11</sup> Thou wilt show me the path of life: In thy presence is fulness of joy; In thy right hand there are pleasures for evermore.
+
 ## Chapter 17
 
 <sup>1</sup> Hear the right, O Jehovah, attend unto my cry; Give ear unto my prayer, that goeth not out of feigned lips.
@@ -211,6 +227,7 @@
 <sup>13</sup> Arise, O Jehovah, Confront him, cast him down: Deliver my soul from the wicked by thy sword;
 <sup>14</sup> From men by thy hand, O Jehovah, From men of the world, whose portion is in this life, And whose belly thou fillest with thy treasure: They are satisfied with children, And leave the rest of their substance to their babes.
 <sup>15</sup> As for me, I shall behold thy face in righteousness; I shall be satisfied, when I awake, with beholding thy form.
+
 ## Chapter 18
 
 <sup>1</sup> I love thee, O Jehovah, my strength.
@@ -263,6 +280,7 @@
 <sup>48</sup> He rescueth me from mine enemies; Yea, thou liftest me up above them that rise up against me; Thou deliverest me from the violent man.
 <sup>49</sup> Therefore I will give thanks unto thee, O Jehovah, among the nations, And will sing praises unto thy name.
 <sup>50</sup> Great deliverance giveth he to his king, And showeth lovingkindness to his anointed, To David and to his seed, for evermore.
+
 ## Chapter 19
 
 <sup>1</sup> The heavens declare the glory of God; And the firmament showeth his handiwork.
@@ -279,6 +297,7 @@
 <sup>12</sup> Who can discern his errors? Clear thou me from hidden faults.
 <sup>13</sup> Keep back thy servant also from presumptuous sins; Let them not have dominion over me: Then shall I be upright, And I shall be clear from great transgression.
 <sup>14</sup> Let the words of my mouth and the meditation of my heart Be acceptable in thy sight, O Jehovah, my rock, and my redeemer.
+
 ## Chapter 20
 
 <sup>1</sup> Jehovah answer thee in the day of trouble; The name of the God of Jacob set thee up on high;
@@ -290,6 +309,7 @@
 <sup>7</sup> Some trust in chariots, and some in horses; But we will make mention of the name of Jehovah our God.
 <sup>8</sup> They are bowed down and fallen; But we are risen, and stand upright.
 <sup>9</sup> Save, Jehovah: Let the King answer us when we call.
+
 ## Chapter 21
 
 <sup>1</sup> The king shall joy in thy strength, O Jehovah; And in thy salvation how greatly shall he rejoice!
@@ -305,6 +325,7 @@
 <sup>11</sup> For they intended evil against thee; They conceived a device which they are not able to perform.
 <sup>12</sup> For thou wilt make them turn their back; Thou wilt make ready with thy bowstrings against their face.
 <sup>13</sup> Be thou exalted, O Jehovah, in thy strength: So will we sing and praise thy power.
+
 ## Chapter 22
 
 <sup>1</sup> My God, my God, why hast thou forsaken me? Why art thou so far from helping me, and from the words of my groaning?
@@ -338,6 +359,7 @@
 <sup>29</sup> All the fat ones of the earth shall eat and worship: All they that go down to the dust shall bow before him, Even he that cannot keep his soul alive.
 <sup>30</sup> A seed shall serve him; It shall be told of the Lord unto the next generation.
 <sup>31</sup> They shall come and shall declare his righteousness Unto a people that shall be born, that he hath done it.
+
 ## Chapter 23
 
 <sup>1</sup> Jehovah is my shepherd; I shall not want.
@@ -346,6 +368,7 @@
 <sup>4</sup> Yea, thou I walk through the valley of the shadow of death, I will fear no evil; for thou art with me; Thy rod and thy staff, they comfort me.
 <sup>5</sup> Thou preparest a table before me in the presence of mine enemies: Thou hast anointed my head with oil; My cup runneth over.
 <sup>6</sup> Surely goodness and lovingkindness shall follow me all the days of my life; And I shall dwell in the house of Jehovah for ever.
+
 ## Chapter 24
 
 <sup>1</sup> The earth is Jehovah’s, and the fulness thereof; The world, and they that dwell therein.
@@ -358,6 +381,7 @@
 <sup>8</sup> Who is the King of glory? Jehovah strong and mighty, Jehovah mighty in battle.
 <sup>9</sup> Lift up your heads, O ye gates; Yea, lift them up, ye everlasting doors: And the King of glory will come in.
 <sup>10</sup> Who is this King of glory? Jehovah of hosts, He is the King of glory. [Selah
+
 ## Chapter 25
 
 <sup>1</sup> Unto thee, O Jehovah, do I lift up my soul.
@@ -382,6 +406,7 @@
 <sup>20</sup> Oh keep my soul, and deliver me: Let me not be put to shame, for I take refuge in thee.
 <sup>21</sup> Let integrity and uprightness preserve me, For I wait for thee.
 <sup>22</sup> Redeem Israel, O God, Out all of his troubles.
+
 ## Chapter 26
 
 <sup>1</sup> Judge me, O Jehovah, for I have walked in mine integrity: I have trusted also in Jehovah without wavering.
@@ -396,6 +421,7 @@
 <sup>10</sup> In whose hands is wickedness, And their right hand is full of bribes.
 <sup>11</sup> But as for me, I will walk in mine integrity: Redeem me, and be merciful unto me.
 <sup>12</sup> My foot standeth in an even place: In the congregations will I bless Jehovah.
+
 ## Chapter 27
 
 <sup>1</sup> Jehovah is my light and my salvation; Whom shall I fear? Jehovah is the strength of my life; Of whom shall I be afraid?
@@ -412,6 +438,7 @@
 <sup>12</sup> Deliver me not over unto the will of mine adversaries: For false witnesses are risen up against me, And such as breathe out cruelty.
 <sup>13</sup> I had fainted, unless I had believed to see the goodness of Jehovah In the land of the living.
 <sup>14</sup> Wait for Jehovah: Be strong, And let thy heart take courage; Yea, wait thou for Jehovah.
+
 ## Chapter 28
 
 <sup>1</sup> Unto thee, O Jehovah, will I call: My rock, be not thou deaf unto me; Lest, if thou be silent unto me, I become like them that go down into the pit.
@@ -423,6 +450,7 @@
 <sup>7</sup> Jehovah is my strength and my shield; My heart hath trusted in him, and I am helped: Therefore my heart greatly rejoiceth; And with my song will I praise him.
 <sup>8</sup> Jehovah is their strength, And he is a stronghold of salvation to his anointed.
 <sup>9</sup> Save thy people, and bless thine inheritance: Be their shepherd also, and bear them up for ever.
+
 ## Chapter 29
 
 <sup>1</sup> Ascribe unto Jehovah, O ye sons of the mighty, Ascribe unto Jehovah glory and strength.
@@ -436,6 +464,7 @@
 <sup>9</sup> The voice of Jehovah maketh the hinds to calve, And strippeth the forests bare: And in his temple everything saith, Glory.
 <sup>10</sup> Jehovah sat as King at the Flood; Yea, Jehovah sitteth as King for ever.
 <sup>11</sup> Jehovah will give strength unto his people; Jehovah will bless his people with peace.
+
 ## Chapter 30
 
 <sup>1</sup> I will extol thee, O Jehovah; For thou hast raised me up, And hast not made my foes to rejoice over me.
@@ -450,6 +479,7 @@
 <sup>10</sup> Hear, O Jehovah, and have mercy upon me: Jehovah, be thou my helper.
 <sup>11</sup> Thou hast turned for me my mourning into dancing; Thou hast loosed my sackcloth, and girded me with gladness;
 <sup>12</sup> To the end that my glory may sing praise to thee, and not be silent. O Jehovah my God, I will give thanks unto thee for ever.
+
 ## Chapter 31
 
 <sup>1</sup> In thee, O Jehovah, do I take refuge; Let me never be put to shame: Deliver me in thy righteousness.
@@ -476,6 +506,7 @@
 <sup>22</sup> As for me, I said in my haste, I am cut off from before thine eyes: Nevertheless thou heardest the voice of my supplications When I cried unto thee.
 <sup>23</sup> Oh love Jehovah, all ye his saints: Jehovah preserveth the faithful, And plentifully rewardeth him that dealeth proudly.
 <sup>24</sup> Be strong, and let your heart take courage, All ye that hope in Jehovah.
+
 ## Chapter 32
 
 <sup>1</sup> Blessed is he whose transgression is forgiven, Whose sin is covered.
@@ -489,6 +520,7 @@
 <sup>9</sup> Be ye not as the horse, or as the mule, which have no understanding; Whose trappings must be bit and bridle to hold them in, Else they will not come near unto thee.
 <sup>10</sup> Many sorrows shall be to the wicked; But he that trusteth in Jehovah, lovingkindness shall compass him about.
 <sup>11</sup> Be glad in Jehovah, and rejoice, ye righteous; And shout for joy, all ye that are upright in heart.
+
 ## Chapter 33
 
 <sup>1</sup> Rejoice in Jehovah, O ye righteous: Praise is comely for the upright.
@@ -513,6 +545,7 @@
 <sup>20</sup> Our soul hath waited for Jehovah: He is our help and our shield.
 <sup>21</sup> For our heart shall rejoice in him, Because we have trusted in his holy name.
 <sup>22</sup> Let thy lovingkindness, O Jehovah, be upon us, According as we have hoped in thee.
+
 ## Chapter 34
 
 <sup>1</sup> I will bless Jehovah at all times: His praise shall continually be in my mouth.
@@ -537,6 +570,7 @@
 <sup>20</sup> He keepeth all his bones: Not one of them is broken.
 <sup>21</sup> Evil shall slay the wicked; And they that hate the righteous shall be condemned.
 <sup>22</sup> Jehovah redeemeth the soul of his servants; And none of them that take refuge in him shall be condemned.
+
 ## Chapter 35
 
 <sup>1</sup> Strive thou, O Jehovah, with them that strive with me: Fight thou against them that fight against me.
@@ -567,6 +601,7 @@
 <sup>26</sup> Let them be put to shame and confounded together that rejoice at my hurt: Let them be clothed with shame and dishonor that magnify themselves against me.
 <sup>27</sup> Let them shout for joy, and be glad, that favor my righteous cause: Yea, let them say continually, Jehovah be magnified, Who hath pleasure in the prosperity of his servant.
 <sup>28</sup> And my tongue shall talk of thy righteousness And of thy praise all the day long.
+
 ## Chapter 36
 
 <sup>1</sup> The transgression of the wicked saith within my heart, There is no fear of God before his eyes.
@@ -581,6 +616,7 @@
 <sup>10</sup> Oh continue thy lovingkindness unto them that know thee, And thy righteousness to the upright in heart.
 <sup>11</sup> Let not the foot of pride come against me, And let not the hand of the wicked drive me away.
 <sup>12</sup> There are the workers of iniquity fallen: They are thrust down, and shall not be able to rise.
+
 ## Chapter 37
 
 <sup>1</sup> Fret not thyself because of evil-doers, Neither be thou envious against them that work unrighteousness.
@@ -623,6 +659,7 @@
 <sup>38</sup> As for transgressors, they shall be destroyed together; The end of the wicked shall be cut off.
 <sup>39</sup> But the salvation of the righteous is of Jehovah; He is their stronghold in the time of trouble.
 <sup>40</sup> And Jehovah helpeth them, and rescueth them; He rescueth them from the wicked, and saveth them, Because they have taken refuge in him.
+
 ## Chapter 38
 
 <sup>1</sup> O Jehovah, rebuke me not in thy wrath; Neither chasten me in thy hot displeasure.
@@ -647,6 +684,7 @@
 <sup>20</sup> They also that render evil for good Are adversaries unto me, because I follow the thing that is good.
 <sup>21</sup> Forsake me not, O Jehovah: O my God, be not far from me.
 <sup>22</sup> Make haste to help me, O Lord, my salvation.
+
 ## Chapter 39
 
 <sup>1</sup> I said, I will take heed to my ways, That I sin not with my tongue: I will keep my mouth with a bridle, While the wicked is before me.
@@ -662,6 +700,7 @@
 <sup>11</sup> When thou with rebukes dost correct man for iniquity, Thou makest his beauty to consume away like a moth: Surely every man is vanity. [Selah
 <sup>12</sup> Hear my prayer, O Jehovah, and give ear unto my cry; Hold not thy peace at my tears: For I am a stranger with thee, A sojourner, as all my fathers were.
 <sup>13</sup> Oh spare me, that I may recover strength, Before I go hence, and be no more.
+
 ## Chapter 40
 
 <sup>1</sup> I waited patiently for Jehovah; And he inclined unto me, and heard my cry.
@@ -681,6 +720,7 @@
 <sup>15</sup> Let them be desolate by reason of their shame That say unto me, Aha, aha.
 <sup>16</sup> Let all those that seek thee rejoice and be glad in thee: Let such as love thy salvation say continually, Jehovah be magnified.
 <sup>17</sup> But I am poor and needy; Yet the Lord thinketh upon me: Thou art my help and my deliverer; Make no tarrying, O my God.
+
 ## Chapter 41
 
 <sup>1</sup> Blessed is he that considereth the poor: Jehovah will deliver him in the day of evil.
@@ -696,6 +736,7 @@
 <sup>11</sup> By this I know that thou delightest in me, Because mine enemy doth not triumph over me.
 <sup>12</sup> And as for me, thou upholdest me in mine integrity, And settest me before thy face for ever.
 <sup>13</sup> Blessed be Jehovah, the God of Israel, From everlasting and to everlasting. Amen, and Amen.
+
 ## Chapter 42
 
 <sup>1</sup> As the hart panteth after the water brooks, So panteth my soul after thee, O God.
@@ -709,6 +750,7 @@
 <sup>9</sup> I will say unto God my rock, Why hast thou forgotten me? Why go I mourning because of the oppression of the enemy?
 <sup>10</sup> As with a sword in my bones, mine adversaries reproach me, While they continually say unto me, Where is thy God?
 <sup>11</sup> Why art thou cast down, O my soul? And why art thou disquieted within me? Hope thou in God; For I shall yet praise him, Who is the help of my countenance, and my God.
+
 ## Chapter 43
 
 <sup>1</sup> Judge me, O God, and plead my cause against an ungodly nation: Oh deliver me from the deceitful and unjust man.
@@ -716,6 +758,7 @@
 <sup>3</sup> Oh send out thy light and thy truth; Let them lead me: Let them bring me unto thy holy hill, And to thy tabernacles.
 <sup>4</sup> Then will I go unto the altar of God, Unto God my exceeding joy; And upon the harp will I praise thee, O God, my God.
 <sup>5</sup> Why art thou cast down, O my soul? And why art thou disquieted within me? Hope thou in God; For I shall yet praise him, Who is the help of my countenance, and my God.
+
 ## Chapter 44
 
 <sup>1</sup> We have heard with our ears, O God, Our fathers have told us, What work thou didst in their days, In the days of old.
@@ -744,6 +787,7 @@
 <sup>24</sup> Wherefore hidest thou thy face, And forgettest our affliction and our oppression?
 <sup>25</sup> For our soul is bowed down to the dust: Our body cleaveth unto the earth.
 <sup>26</sup> Rise up for our help, And redeem us for thy lovingkindness’ sake.
+
 ## Chapter 45
 
 <sup>1</sup> My heart overfloweth with a goodly matter; I speak the things which I have made touching the king: My tongue is the pen of a ready writer.
@@ -763,6 +807,7 @@
 <sup>15</sup> With gladness and rejoicing shall they be led: They shall enter into the king’s palace.
 <sup>16</sup> Instead of thy fathers shall be thy children, Whom thou shalt make princes in all the earth.
 <sup>17</sup> I will make thy name to be remembered in all generations: Therefore shall the peoples give thee thanks for ever and ever.
+
 ## Chapter 46
 
 <sup>1</sup> God is our refuge and strength, A very present help in trouble.
@@ -776,6 +821,7 @@
 <sup>9</sup> He maketh wars to cease unto the end of the earth; He breaketh the bow, and cutteth the spear in sunder; He burneth the chariots in the fire.
 <sup>10</sup> Be still, and know that I am God: I will be exalted among the nations, I will be exalted in the earth.
 <sup>11</sup> Jehovah of hosts is with us; The God of Jacob is our refuge. [Selah
+
 ## Chapter 47
 
 <sup>1</sup> Oh clap your hands, all ye peoples; Shout unto God with the voice of triumph.
@@ -787,6 +833,7 @@
 <sup>7</sup> For God is the King of all the earth: Sing ye praises with understanding.
 <sup>8</sup> God reigneth over the nations: God sitteth upon his holy throne.
 <sup>9</sup> The princes of the peoples are gathered together To be the people of the God of Abraham: For the shields of the earth belong unto God; He is greatly exalted.
+
 ## Chapter 48
 
 <sup>1</sup> Great is Jehovah, and greatly to be praised, In the city of our God, in his holy mountain.
@@ -803,6 +850,7 @@
 <sup>12</sup> Walk about Zion, and go round about her; Number the towers thereof;
 <sup>13</sup> Mark ye well her bulwarks; Consider her palaces: That ye may tell it to the generation following.
 <sup>14</sup> For this God is our God for ever and ever: He will be our guide even unto death.
+
 ## Chapter 49
 
 <sup>1</sup> Hear this, all ye peoples; Give ear, all ye inhabitants of the world,
@@ -825,6 +873,7 @@
 <sup>18</sup> Though while he lived he blessed his soul (And men praise thee, when thou doest well to thyself,)
 <sup>19</sup> He shall go to the generation of his fathers; They shall never see the light.
 <sup>20</sup> Man that is in honor, and understandeth not, Is like the beasts that perish.
+
 ## Chapter 50
 
 <sup>1</sup> The Mighty One, God, Jehovah, hath spoken, And called the earth from the rising of the sun unto the going down thereof.
@@ -850,6 +899,7 @@
 <sup>21</sup> These things hast thou done, and I kept silence; Thou thoughtest that I was altogether such a one as thyself: But I will reprove thee, and set them in order before thine eyes.
 <sup>22</sup> Now consider this, ye that forget God, Lest I tear you in pieces, and there be none to deliver:
 <sup>23</sup> Whoso offereth the sacrifice of thanksgiving glorifieth me; And to him that ordereth his way aright Will I show the salvation of God.
+
 ## Chapter 51
 
 <sup>1</sup> Have mercy upon me, O God, according to thy lovingkindness: According to the multitude of thy tender mercies blot out my transgressions.
@@ -871,6 +921,7 @@
 <sup>17</sup> The sacrifices of God are a broken spirit: A broken and contrite heart, O God, thou wilt not despise.
 <sup>18</sup> Do good in thy good pleasure unto Zion: Build thou the walls of Jerusalem.
 <sup>19</sup> Then will thou delight in the sacrifices of righteousness, In burnt-offering and in whole burnt-offering: Then will they offer bullocks upon thine altar.
+
 ## Chapter 52
 
 <sup>1</sup> Why boastest thou thyself in mischief, O mighty man? The lovingkindness of God endureth continually.
@@ -882,6 +933,7 @@
 <sup>7</sup> Lo, this is the man that made not God his strength, But trusted in the abundance of his riches, And strengthened himself in his wickedness.
 <sup>8</sup> But as for me, I am like a green olive-tree in the house of God: I trust in the lovingkindness of God for ever and ever.
 <sup>9</sup> I will give thee thanks for ever, because thou hast done it; And I will hope in thy name, for it is good, in the presence of thy saints.
+
 ## Chapter 53
 
 <sup>1</sup> The fool hath said in his heart, There is no God. Corrupt are they, and have done abominable iniquity; There is none that doeth good.
@@ -890,6 +942,7 @@
 <sup>4</sup> Have the workers of iniquity no knowledge, Who eat up my people as they eat bread, And call not upon God?
 <sup>5</sup> There were they in great fear, where no fear was; For God hath scattered the bones of him that encampeth against thee: Thou hast put them to shame, because of God hath rejected them.
 <sup>6</sup> Oh that the salvation of Israel were come out of Zion! When God bringeth back the captivity of his people, Then shall Jacob rejoice, and Israel shall be glad.
+
 ## Chapter 54
 
 <sup>1</sup> Save me, O God, by thy name, And judge me in thy might.
@@ -899,6 +952,7 @@
 <sup>5</sup> He will requite the evil unto mine enemies: Destroy thou them in thy truth.
 <sup>6</sup> With a freewill-offering will I sacrifice unto thee: I will give thanks unto thy name, O Jehovah, for it is good.
 <sup>7</sup> For he hath delivered me out of all trouble; And mine eye hath seen my desire upon mine enemies.
+
 ## Chapter 55
 
 <sup>1</sup> Give ear to my prayer, O God; And hide not thyself from my supplication.
@@ -924,6 +978,7 @@
 <sup>21</sup> His mouth was smooth as butter, But his heart was war: His words were softer than oil, Yet were they drawn swords.
 <sup>22</sup> Cast thy burden upon Jehovah, and he will sustain thee: He will never suffer the righteous to be moved.
 <sup>23</sup> But thou, O God, wilt bring them down into the pit of destruction: Bloodthirsty and deceitful men shall not live out half their days; But I will trust in thee.
+
 ## Chapter 56
 
 <sup>1</sup> Be merciful unto me, O God; For man would swallow me up: All the day long he fighting oppresseth me.
@@ -939,6 +994,7 @@
 <sup>11</sup> In God have I put my trust, I will not be afraid; What can man do unto me?
 <sup>12</sup> Thy vows are upon me, O God: I will render thank-offerings unto thee.
 <sup>13</sup> For thou hast delivered my soul from death: Hast thou not delivered my feet from falling, That I may walk before God In the light of the living?
+
 ## Chapter 57
 
 <sup>1</sup> Be merciful unto me, O God, be merciful unto me; For my soul taketh refuge in thee: Yea, in the shadow of thy wings will I take refuge, Until these calamities be overpast.
@@ -952,6 +1008,7 @@
 <sup>9</sup> I will give thanks unto thee, O Lord, among the peoples: I will sing praises unto thee among the nations.
 <sup>10</sup> For thy lovingkindness is great unto the heavens, And thy truth unto the skies.
 <sup>11</sup> Be thou exalted, O God, above the heavens; Let thy glory be above all the earth.
+
 ## Chapter 58
 
 <sup>1</sup> Do ye indeed in silence speak righteousness? Do ye judge uprightly, O ye sons of men?
@@ -965,6 +1022,7 @@
 <sup>9</sup> Before your pots can feel the thorns, He will take them away with a whirlwind, the green and the burning alike.
 <sup>10</sup> The righteous shall rejoice when he seeth the vengeance: He shall wash his feet in the blood of the wicked;
 <sup>11</sup> So that men shall say, Verily there is a reward for the righteous: Verily there is a God that judgeth in the earth.
+
 ## Chapter 59
 
 <sup>1</sup> Deliver me from mine enemies, O my God: Set me on high from them that rise up against me.
@@ -984,6 +1042,7 @@
 <sup>15</sup> They shall wander up and down for food, And tarry all night if they be not satisfied.
 <sup>16</sup> But I will sing of thy strength; Yea, I will sing aloud of thy lovingkindness in the morning: For thou hast been my high tower, And a refuge in the day of my distress.
 <sup>17</sup> Unto thee, O my strength, will I sing praises: For God is my high tower, the God of my mercy.
+
 ## Chapter 60
 
 <sup>1</sup> O God thou hast cast us off, thou hast broken us down; Thou hast been angry; oh restore us again.
@@ -998,6 +1057,7 @@
 <sup>10</sup> Hast not thou, O God, cast us off? And thou goest not forth, O God, with our hosts.
 <sup>11</sup> Give us help against the adversary; For vain is the help of man.
 <sup>12</sup> Through God we shall do valiantly; For he it is that will tread down our adversaries.
+
 ## Chapter 61
 
 <sup>1</sup> Hear my cry, O God; Attend unto my prayer.
@@ -1008,6 +1068,7 @@
 <sup>6</sup> Thou wilt prolong the king’s life; His years shall be as many generations.
 <sup>7</sup> He shall abide before God for ever: Oh prepare lovingkindness and truth, that they may preserve him.
 <sup>8</sup> So will I sing praise unto thy name for ever, That I may daily perform my vows.
+
 ## Chapter 62
 
 <sup>1</sup> My soul waiteth in silence for God only: From him cometh my salvation.
@@ -1022,6 +1083,7 @@
 <sup>10</sup> Trust not in oppression, And become not vain in robbery: If riches increase, set not your heart thereon.
 <sup>11</sup> God hath spoken once, Twice have I heard this, That power belongeth unto God.
 <sup>12</sup> Also unto thee, O Lord, belongeth lovingkindness; For thou renderest to every man according to his work.
+
 ## Chapter 63
 
 <sup>1</sup> O God, thou art my God; earnestly will I seek thee: My soul thirsteth for thee, my flesh longeth for thee, In a dry and weary land, where no water is.
@@ -1035,6 +1097,7 @@
 <sup>9</sup> But those that seek my soul, to destroy it, Shall go into the lower parts of the earth.
 <sup>10</sup> They shall be given over to the power of the sword: They shall be a portion for foxes.
 <sup>11</sup> But the king shall rejoice in God: Every one that sweareth by him shall glory; For the mouth of them that speak lies shall be stopped.
+
 ## Chapter 64
 
 <sup>1</sup> Hear my voice, O God, in my complaint: Preserve my life from fear of the enemy.
@@ -1047,6 +1110,7 @@
 <sup>8</sup> So they shall be made to stumble, their own tongue being against them: All that see them shall wag the head.
 <sup>9</sup> And all men shall fear; And they shall declare the work of God, And shall wisely consider of his doing.
 <sup>10</sup> The righteous shall be glad in Jehovah, and shall take refuge in him; And all the upright in heart shall glory.
+
 ## Chapter 65
 
 <sup>1</sup> Praise waiteth for thee, O God, in Zion; And unto thee shall the vow be performed.
@@ -1062,6 +1126,7 @@
 <sup>11</sup> Thou crownest the year with thy goodness; And thy paths drop fatness.
 <sup>12</sup> They drop upon the pastures of the wilderness; And the hills are girded with joy.
 <sup>13</sup> The pastures are clothed with flocks; The valleys also are covered over with grain; They shout for joy, they also sing.
+
 ## Chapter 66
 
 <sup>1</sup> Make a joyful noise unto God, all the earth:
@@ -1084,6 +1149,7 @@
 <sup>18</sup> If I regard iniquity in my heart, The Lord will not hear:
 <sup>19</sup> But verily God hath heard; He hath attended to the voice of my prayer.
 <sup>20</sup> Blessed be God, Who hath not turned away my prayer, Nor his lovingkindness from me.
+
 ## Chapter 67
 
 <sup>1</sup> God be merciful unto us, and bless us, And cause his face to shine upon us; [Selah
@@ -1093,6 +1159,7 @@
 <sup>5</sup> Let the peoples praise thee, O God; Let all the peoples praise thee.
 <sup>6</sup> The earth hath yielded its increase: God, even our own God, will bless us.
 <sup>7</sup> God will bless us; And all the ends of the earth shall fear him.
+
 ## Chapter 68
 
 <sup>1</sup> Let God arise, let his enemies be scattered; Let them also that hate him flee before him.
@@ -1130,6 +1197,7 @@
 <sup>33</sup> To him that rideth upon the heaven of heavens, which are of old; Lo, he uttereth his voice, a mighty voice.
 <sup>34</sup> Ascribe ye strength unto God: His excellency is over Israel, And his strength is in the skies.
 <sup>35</sup> O God, thou art terrible out of thy holy places: The God of Israel, he giveth strength and power unto his people. Blessed be God.
+
 ## Chapter 69
 
 <sup>1</sup> Save me, O God; For the waters are come in unto my soul.
@@ -1168,6 +1236,7 @@
 <sup>34</sup> Let heaven and earth praise him, The seas, and everything that moveth therein.
 <sup>35</sup> For God will save Zion, and build the cities of Judah; And they shall abide there, and have it in possession.
 <sup>36</sup> The seed also of his servants shall inherit it; And they that love his name shall dwell therein.
+
 ## Chapter 70
 
 <sup>1</sup> Make haste, O God, to deliver me; Make haste to help me, O Jehovah.
@@ -1175,6 +1244,7 @@
 <sup>3</sup> Let them be turned back by reason of their shame That say, Aha, aha.
 <sup>4</sup> Let all those that seek thee rejoice and be glad in thee; And let such as love thy salvation say continually, Let God be magnified.
 <sup>5</sup> But I am poor and needy; Make haste unto me, O God: Thou art my help and my deliverer; O Jehovah, make no tarrying.
+
 ## Chapter 71
 
 <sup>1</sup> In thee, O Jehovah, do I take refuge: Let me never be put to shame.
@@ -1201,6 +1271,7 @@
 <sup>22</sup> I will also praise thee with the psaltery, Even thy truth, O my God: Unto thee will I sing praises with the harp, O thou Holy One of Israel.
 <sup>23</sup> My lips shall shout for joy when I sing praises unto thee; And my soul, which thou hast redeemed.
 <sup>24</sup> My tongue also shall talk of thy righteousness all the day long; For they are put to shame, for they are confounded, that seek my hurt.
+
 ## Chapter 72
 
 <sup>1</sup> Give the king thy judgments, O God, And thy righteousness unto the king’s son.
@@ -1223,6 +1294,7 @@
 <sup>18</sup> Blessed be Jehovah God, the God of Israel, Who only doeth wondrous things:
 <sup>19</sup> And blessed be his glorious name for ever; And let the whole earth be filled with his glory. Amen, and Amen.
 <sup>20</sup> The prayers of David the son of Jesse are ended.
+
 ## Chapter 73
 
 <sup>1</sup> Surely God is good to Israel, Even to such as are pure in heart.
@@ -1253,6 +1325,7 @@
 <sup>26</sup> My flesh and my heart faileth; But God is the strength of my heart and my portion for ever.
 <sup>27</sup> For, lo, they that are far from thee shall perish: Thou hast destroyed all them that play the harlot, departing from thee.
 <sup>28</sup> But it is good for me to draw near unto God: I have made the Lord Jehovah my refuge, That I may tell of all thy works.
+
 ## Chapter 74
 
 <sup>1</sup> O God, why hast thou cast us off for ever? Why doth thine anger smoke against the sheep of thy pasture?
@@ -1278,6 +1351,7 @@
 <sup>21</sup> Oh let not the oppressed return ashamed: Let the poor and needy praise thy name.
 <sup>22</sup> Arise, O God, plead thine own cause: Remember how the foolish man reproacheth thee all the day.
 <sup>23</sup> Forget not the voice of thine adversaries: The tumult of those that rise up against thee ascendeth continually.
+
 ## Chapter 75
 
 <sup>1</sup> We give thanks unto thee, O God; We give thanks, for thy name is near: Men tell of thy wondrous works.
@@ -1290,6 +1364,7 @@
 <sup>8</sup> For in the hand of Jehovah there is a cup, and the wine foameth; It is full of mixture, and he poureth out of the same: Surely the dregs thereof, all the wicked of the earth shall drain them, and drink them.
 <sup>9</sup> But I will declare for ever, I will sing praises to the God of Jacob.
 <sup>10</sup> All the horns of the wicked also will I cut off; But the horns of the righteous shall be lifted up.
+
 ## Chapter 76
 
 <sup>1</sup> In Judah is God known: His name is great in Israel.
@@ -1304,6 +1379,7 @@
 <sup>10</sup> Surely the wrath of man shall praise thee: The residue of wrath shalt thou gird upon thee.
 <sup>11</sup> Vow, and pay unto Jehovah your God: Let all that are round about him bring presents unto him that ought to be feared.
 <sup>12</sup> He will cut off the spirit of princes: He is terrible to the kings of the earth.
+
 ## Chapter 77
 
 <sup>1</sup> I will cry unto God with my voice, Even unto God with my voice; and he will give ear unto me.
@@ -1326,6 +1402,7 @@
 <sup>18</sup> The voice of thy thunder was in the whirlwind; The lightnings lightened the world: The earth trembled and shook.
 <sup>19</sup> Thy way was in the sea, And thy paths in the great waters, And thy footsteps were not known.
 <sup>20</sup> Thou leddest thy people like a flock, By the hand of Moses and Aaron.
+
 ## Chapter 78
 
 <sup>1</sup> Give ear, O my people, to my law: Incline your ears to the words of my mouth.
@@ -1400,6 +1477,7 @@
 <sup>70</sup> He chose David also his servant, And took him from the sheepfolds:
 <sup>71</sup> From following the ewes that have their young he brought him, To be the shepherd of Jacob his people, and Israel his inheritance.
 <sup>72</sup> So he was their shepherd according to the integrity of his heart, And guided them by the skilfulness of his hands.
+
 ## Chapter 79
 
 <sup>1</sup> O God, the nations are come into thine inheritance; Thy holy temple have they defiled; They have laid Jerusalem in heaps.
@@ -1415,6 +1493,7 @@
 <sup>11</sup> Let the sighing of the prisoner come before thee: According to the greatness of thy power preserve thou those that are appointed to death;
 <sup>12</sup> And render unto our neighbors sevenfold into their bosom Their reproach, wherewith they have reproached thee, O Lord.
 <sup>13</sup> So we thy people and sheep of thy pasture Will give thee thanks for ever: We will show forth thy praise to all generations.
+
 ## Chapter 80
 
 <sup>1</sup> Give ear, O Shepherd of Israel, Thou that leadest Joseph like a flock; Thou that sittest above the cherubim, shine forth.
@@ -1436,6 +1515,7 @@
 <sup>17</sup> Let thy hand be upon the man of thy right hand, Upon the son of man whom thou madest strong for thyself.
 <sup>18</sup> So shall we not go back from thee: Quicken thou us, and we will call upon thy name.
 <sup>19</sup> Turn us again, O Jehovah God of hosts; Cause thy face to shine, and we shall be saved.
+
 ## Chapter 81
 
 <sup>1</sup> Sing aloud unto God our strength: Make a joyful noise unto the God of Jacob.
@@ -1454,6 +1534,7 @@
 <sup>14</sup> I would soon subdue their enemies, And turn my hand against their adversaries.
 <sup>15</sup> The haters of Jehovah should submit themselves unto him: But their time should endure for ever.
 <sup>16</sup> He would feed them also with the finest of the wheat; And with honey out of the rock would I satisfy thee.
+
 ## Chapter 82
 
 <sup>1</sup> God standeth in the congregation of God; He judgeth among the gods.
@@ -1464,6 +1545,7 @@
 <sup>6</sup> I said, Ye are gods, And all of you sons of the Most High.
 <sup>7</sup> Nevertheless ye shall die like men, And fall like one of the princes.
 <sup>8</sup> Arise, O God, judge the earth; For thou shalt inherit all the nations.
+
 ## Chapter 83
 
 <sup>1</sup> O God, keep not thou silence: Hold not thy peace, and be not still, O God.
@@ -1484,6 +1566,7 @@
 <sup>16</sup> Fill their faces with confusion, That they may seek thy name, O Jehovah.
 <sup>17</sup> Let them be put to shame and dismayed for ever; Yea, let them be confounded and perish;
 <sup>18</sup> That they may know that thou alone, whose name is Jehovah, Art the Most High over all the earth.
+
 ## Chapter 84
 
 <sup>1</sup> How amiable are thy tabernacles, O Jehovah of hosts!
@@ -1498,6 +1581,7 @@
 <sup>10</sup> For a day in thy courts is better than a thousand. I had rather be a doorkeeper in the house of my God, Than to dwell in the tents of wickedness.
 <sup>11</sup> For Jehovah God is a sun and a shield: Jehovah will give grace and glory; No good thing will he withhold from them that walk uprightly.
 <sup>12</sup> O Jehovah of hosts, Blessed is the man that trusteth in thee.
+
 ## Chapter 85
 
 <sup>1</sup> Jehovah, thou hast been favorable unto thy land; Thou hast brought back the captivity of Jacob.
@@ -1513,6 +1597,7 @@
 <sup>11</sup> Truth springeth out of the earth; And righteousness hath looked down from heaven.
 <sup>12</sup> Yea, Jehovah will give that which is good; And our land shall yield its increase.
 <sup>13</sup> Righteousness shall go before him, And shall make his footsteps a way to walk in.
+
 ## Chapter 86
 
 <sup>1</sup> Bow down thine ear, O Jehovah, and answer me; For I am poor and needy.
@@ -1532,6 +1617,7 @@
 <sup>15</sup> But thou, O Lord, art a God merciful and gracious, Slow to anger, and abundant in lovingkindness and truth.
 <sup>16</sup> Oh turn unto me, and have mercy upon me; Give thy strength unto thy servant, And save the son of thy handmaid.
 <sup>17</sup> Show me a token for good, That they who hate me may see it, and be put to shame, Because thou, Jehovah, hast helped me, and comforted me.
+
 ## Chapter 87
 
 <sup>1</sup> His foundation is in the holy mountains.
@@ -1541,6 +1627,7 @@
 <sup>5</sup> Yea, of Zion it shall be said, This one and that one was born in her; And the Most High himself will establish her.
 <sup>6</sup> Jehovah will count, when he writeth up the peoples, This one was born there. [Selah
 <sup>7</sup> They that sing as well as they that dance shall say, All my fountains are in thee.
+
 ## Chapter 88
 
 <sup>1</sup> O Jehovah, the God of my salvation, I have cried day and night before thee.
@@ -1561,6 +1648,7 @@
 <sup>16</sup> Thy fierce wrath is gone over me; Thy terrors have cut me off.
 <sup>17</sup> They came round about me like water all the day long; They compassed me about together.
 <sup>18</sup> Lover and friend hast thou put far from me, And mine acquaintance into darkness.
+
 ## Chapter 89
 
 <sup>1</sup> I will sing of the lovingkindness of Jehovah for ever: With my mouth will I make known thy faithfulness to all generations.
@@ -1615,6 +1703,7 @@
 <sup>50</sup> Remember, Lord, the reproach of thy servants; How I do bear in my bosom the reproach of all the mighty peoples,
 <sup>51</sup> Wherewith thine enemies have reproached, O Jehovah, Wherewith they have reproached the footsteps of thine anointed.
 <sup>52</sup> Blessed be Jehovah for evermore. Amen, and Amen.
+
 ## Chapter 90
 
 <sup>1</sup> Lord, thou hast been our dwelling-place In all generations.
@@ -1634,6 +1723,7 @@
 <sup>15</sup> Make us glad according to the days wherein thou hast afflicted us, And the years wherein we have seen evil.
 <sup>16</sup> Let thy work appear unto thy servants, And thy glory upon their children.
 <sup>17</sup> And let the favor of the Lord our God be upon us; And establish thou the work of our hands upon us; Yea, the work of our hands establish thou it.
+
 ## Chapter 91
 
 <sup>1</sup> He that dwelleth in the secret place of the Most High Shall abide under the shadow of the Almighty.
@@ -1652,6 +1742,7 @@
 <sup>14</sup> Because he hath set his love upon me, therefore will I deliver him: I will set him on high, because he hath known my name.
 <sup>15</sup> He shall call upon me, and I will answer him; I will be with him in trouble: I will deliver him, and honor him.
 <sup>16</sup> With long life will I satisfy him, And show him my salvation.
+
 ## Chapter 92
 
 <sup>1</sup> It is a good thing to give thanks unto Jehovah, And to sing praises unto thy name, O Most High;
@@ -1669,6 +1760,7 @@
 <sup>13</sup> They are planted in the house of Jehovah; They shall flourish in the courts of our God.
 <sup>14</sup> They shall still bring forth fruit in old age; They shall be full of sap and green:
 <sup>15</sup> To show that Jehovah is upright; He is my rock, and there is no unrighteousness in him.
+
 ## Chapter 93
 
 <sup>1</sup> Jehovah reigneth; He is clothed with mjesty; Jehovah is clothed with strength; he hath girded himself therewith: The world also is established, that it cannot be moved.
@@ -1676,6 +1768,7 @@
 <sup>3</sup> The floods have lifted up, O Jehovah, The floods have lifted up their voice; The floods lift up their waves.
 <sup>4</sup> Above the voices of many waters, The mighty breakers of the sea, Jehovah on high is mighty.
 <sup>5</sup> Thy testimonies are very sure: Holiness becometh thy house, O Jehovah, for evermore.
+
 ## Chapter 94
 
 <sup>1</sup> O Jehovah, thou God to whom vengeance belongeth, Thou God to whom vengeance belongeth, shine forth.
@@ -1701,6 +1794,7 @@
 <sup>21</sup> They gather themselves together against the soul of the righteous, And condemn the innocent blood.
 <sup>22</sup> But Jehovah hath been my high tower, And my God the rock of my refuge.
 <sup>23</sup> And he hath brought upon them their own iniquity, And will cut them off in their own wickedness; Jehovah our God will cut them off.
+
 ## Chapter 95
 
 <sup>1</sup> Oh come, let us sing unto Jehovah; Let us make a joyful noise to the rock of our salvation.
@@ -1714,6 +1808,7 @@
 <sup>9</sup> When your fathers tempted me, Proved me, and saw my work.
 <sup>10</sup> Forty years long was I grieved with that generation, And said, It is a people that do err in their heart, And they have not known my ways:
 <sup>11</sup> Wherefore I sware in my wrath, That they should not enter into my rest.
+
 ## Chapter 96
 
 <sup>1</sup> Oh sing unto Jehovah a new song: Sing unto Jehovah, all the earth.
@@ -1729,6 +1824,7 @@
 <sup>11</sup> Let the heavens be glad, and let the earth rejoice; Let the sea roar, and the fulness thereof;
 <sup>12</sup> Let the field exult, and all that is therein; Then shall all the trees of the wood sing for joy
 <sup>13</sup> Before Jehovah; For he cometh, For he cometh to judge the earth: He will judge the world with righteousness, And the peoples with his truth.
+
 ## Chapter 97
 
 <sup>1</sup> Jehovah reigneth; Let the earth rejoice; Let the multitude of isles be glad.
@@ -1743,6 +1839,7 @@
 <sup>10</sup> O ye that love Jehovah, hate evil: He preserveth the souls of his saints; He delivereth them out of the hand of the wicked.
 <sup>11</sup> Light is sown for the righteous, And gladness for the upright in heart.
 <sup>12</sup> Be glad in Jehovah, ye righteous; And give thanks to his holy memorial name.
+
 ## Chapter 98
 
 <sup>1</sup> Oh sing unto Jehovah a new song; For he hath done marvellous things: His right hand, and his holy arm, hath wrought salvation for him.
@@ -1754,6 +1851,7 @@
 <sup>7</sup> Let the sea roar, and the fulness thereof; The world, and they that dwell therein;
 <sup>8</sup> Let the floods clap their hands; Let the hills sing for joy together
 <sup>9</sup> Before Jehovah; For he cometh to judge the earth: He will judge the world with righteousness, And the peoples with equity.
+
 ## Chapter 99
 
 <sup>1</sup> Jehovah reigneth; let the peoples tremble: He sitteth above the cherubim; let the earth be moved.
@@ -1765,6 +1863,7 @@
 <sup>7</sup> He spake unto them in the pillar of cloud: They kept his testimonies, And the statute that he gave them.
 <sup>8</sup> Thou answeredst them, O Jehovah our God: Thou wast a God that forgavest them, Though thou tookest vengeance of their doings.
 <sup>9</sup> Exalt ye Jehovah our God, And worship at his holy hill; For Jehovah our God is holy.
+
 ## Chapter 100
 
 <sup>1</sup> Make a joyful noise unto Jehovah, all ye lands.
@@ -1772,6 +1871,7 @@
 <sup>3</sup> Know ye that Jehovah, he is God: It is he that hath made us, and we are his; We are his people, and the sheep of his pasture.
 <sup>4</sup> Enter into his gates with thanksgiving, And into his courts with praise: Give thanks unto him, and bless his name.
 <sup>5</sup> For Jehovah is good; His lovingkindness endureth for ever, And his faithfulness unto all generations.
+
 ## Chapter 101
 
 <sup>1</sup> I will sing of lovingkindness and justice: Unto thee, O Jehovah, will I sing praises.
@@ -1782,6 +1882,7 @@
 <sup>6</sup> Mine eyes shall be upon the faithful of the land, that they may dwell with me: He that walketh in a perfect way, he shall minister unto me.
 <sup>7</sup> He that worketh deceit shall not dwell within my house: He that speaketh falsehood shall not be established before mine eyes.
 <sup>8</sup> Morning by morning will I destroy all the wicked of the land; To cut off all the workers of iniquity from the city of Jehovah.
+
 ## Chapter 102
 
 <sup>1</sup> Hear my prayer, O Jehovah, And let my cry come unto thee.
@@ -1812,6 +1913,7 @@
 <sup>26</sup> They shall perish, but thou shalt endure; Yea, all of them shall wax old like a garment; As a vesture shalt thou change them, and they shall be changed:
 <sup>27</sup> But thou art the same, And thy years shall have no end.
 <sup>28</sup> The children of thy servants shall continue, And their seed shall be established before thee.
+
 ## Chapter 103
 
 <sup>1</sup> Bless Jehovah, O my soul; And all that is within me, bless his holy name.
@@ -1836,6 +1938,7 @@
 <sup>20</sup> Bless Jehovah, ye his angels, That are mighty in strength, that fulfil his word, Hearkening unto the voice of his word.
 <sup>21</sup> Bless Jehovah, all ye his hosts, Ye ministers of his, that do his pleasure.
 <sup>22</sup> Bless Jehovah, all ye his works, In all places of his dominion: Bless Jehovah, O my soul.
+
 ## Chapter 104
 
 <sup>1</sup> Bless Jehovah, O my soul. O Jehovah my God, thou art very great; Thou art clothed with honor and majesty:
@@ -1873,6 +1976,7 @@
 <sup>33</sup> I will sing unto Jehovah as long as I live: I will sing priase to my God while I have any being.
 <sup>34</sup> Let thy meditation be sweet unto him: I will rejoice in Jehovah.
 <sup>35</sup> Let sinners be consumed out of the earth. And let the wicked be no more. Bless Jehovah, O my soul. Praise ye Jehovah.
+
 ## Chapter 105
 
 <sup>1</sup> Oh give thanks unto Jehovah, call upon his name; Make known among the peoples his doings.
@@ -1920,6 +2024,7 @@
 <sup>43</sup> And he brought forth his people with joy, And his chosen with singing.
 <sup>44</sup> And he gave them the lands of the nations; And they took the labor of the peoples in possession:
 <sup>45</sup> That they might keep his statutes, And observe his laws. Praise ye Jehovah.
+
 ## Chapter 106
 
 <sup>1</sup> Praise ye Jehovah. Oh give thanks unto Jehovah; for he is good; For his lovingkindness endureth forever.
@@ -1970,6 +2075,7 @@
 <sup>46</sup> He made them also to be pitied Of all those that carried them captive.
 <sup>47</sup> Save us, O Jehovah our God, And gather us from among the nations, To give thanks unto thy holy name, And to triumph in thy praise.
 <sup>48</sup> Blessed be Jehovah, the God of Israel, From everlasting even to everlasting. And let all the people say, Amen. Praise ye Jehovah.
+
 ## Chapter 107
 
 <sup>1</sup> O give thanks unto Jehovah; For he is good; For his lovingkindness endureth for ever.
@@ -2015,6 +2121,7 @@
 <sup>41</sup> Yet setteth he the needy on high from affliction, And maketh him families like a flock.
 <sup>42</sup> The upright shall see it, and be glad; And all iniquity shall stop her mouth.
 <sup>43</sup> Whoso is wise will give heed to these things; And they will consider the lovingkindnesses of Jehovah.
+
 ## Chapter 108
 
 <sup>1</sup> My heart is fixed, O God; I will sing, yea, I will sing praises, even with my glory.
@@ -2030,6 +2137,7 @@
 <sup>11</sup> Hast not thou cast us off, O God? And thou goest not forth, O God, with our hosts.
 <sup>12</sup> Give us help against the adversary; For vain is the help of man.
 <sup>13</sup> Through God we shall do valiantly: For he it is that will tread down our adversaries.
+
 ## Chapter 109
 
 <sup>1</sup> Hold not thy peace, O God of my praise;
@@ -2063,6 +2171,7 @@
 <sup>29</sup> Let mine adversaries be clothed with dishonor, And let them cover themselves with their own shame as with a robe.
 <sup>30</sup> I will give great thanks unto Jehovah with my mouth; Yea, I will praise him among the multitude.
 <sup>31</sup> For he will stand at the right hand of the needy, To save him from them that judge his soul.
+
 ## Chapter 110
 
 <sup>1</sup> Jehovah saith unto my Lord, Sit thou at my right hand, Until I make thine enemies thy footstool.
@@ -2072,6 +2181,7 @@
 <sup>5</sup> The Lord at thy right hand Will strike through kings in the day of his wrath.
 <sup>6</sup> He will judge among the nations, He will fill the places with dead bodies; He will strike through the head in many countries.
 <sup>7</sup> He will drink of the brook in the way: Therefore will he lift up the head.
+
 ## Chapter 111
 
 <sup>1</sup> Praise ye Jehovah. I will give thanks unto Jehovah with my whole heart, In the council of the upright, and in the congregation.
@@ -2084,6 +2194,7 @@
 <sup>8</sup> They are established for ever and ever; They are done in truth and uprightness.
 <sup>9</sup> He hath sent redemption unto his people; He hath commanded his covenant for ever: Holy and reverend is his name.
 <sup>10</sup> The fear of Jehovah is the beginning of wisdom; A good understanding have all they that do his commandments: His praise endureth for ever.
+
 ## Chapter 112
 
 <sup>1</sup> Praise ye Jehovah. Blessed is the man that feareth Jehovah, That delighteth greatly in his commandments.
@@ -2096,6 +2207,7 @@
 <sup>8</sup> His heart is established, he shall not be afraid, Until he see his desire upon his adversaries.
 <sup>9</sup> He hath dispersed, he hath given to the needy; His righteousness endureth for ever: His horn shall be exalted with honor.
 <sup>10</sup> The wicked shall see it, and be grieved; He shall gnash with his teeth, and melt away: The desire of the wicked shall perish.
+
 ## Chapter 113
 
 <sup>1</sup> Praise ye Jehovah. Praise, O ye servants of Jehovah, Praise the name of Jehovah.
@@ -2107,6 +2219,7 @@
 <sup>7</sup> He raiseth up the poor out of the dust, And lifteth up the needy from the dunghill;
 <sup>8</sup> That he may set him with princes, Even with the princes of his people.
 <sup>9</sup> He maketh the barren woman to keep house, And to be a joyful mother of children. Praise ye Jehovah.
+
 ## Chapter 114
 
 <sup>1</sup> When Israel went forth out of Egypt, The house of Jacob from a people of strange language;
@@ -2117,6 +2230,7 @@
 <sup>6</sup> Ye mountains, that ye skip like rams; Ye little hills, like lambs?
 <sup>7</sup> Tremble, thou earth, at the presence of the Lord, At the presence of the God of Jacob,
 <sup>8</sup> Who turned the rock into a pool of water, The flint into a fountain of waters.
+
 ## Chapter 115
 
 <sup>1</sup> Not unto us, O Jehovah, not unto us, But unto thy name give glory, For thy lovingkindness, and for thy truth’s sake.
@@ -2137,6 +2251,7 @@
 <sup>16</sup> The heavens are the heavens of Jehovah; But the earth hath he given to the children of men.
 <sup>17</sup> The dead praise not Jehovah, Neither any that go down into silence;
 <sup>18</sup> But we will bless Jehovah From this time forth and for evermore. Praise ye Jehovah.
+
 ## Chapter 116
 
 <sup>1</sup> I love Jehovah, because he heareth My voice and my supplications.
@@ -2158,10 +2273,12 @@
 <sup>17</sup> I will offer to thee the sacrifice of thanksgiving, And will call upon the name of Jehovah.
 <sup>18</sup> I will pay my vows unto Jehovah, Yea, in the presence of all his people,
 <sup>19</sup> In the courts of Jehovah’s house, In the midst of thee, O Jerusalem. Praise ye Jehovah.
+
 ## Chapter 117
 
 <sup>1</sup> O praise Jehovah, all ye nations; Laud him, all ye peoples.
 <sup>2</sup> For his lovingkindness is great toward us; And the truth of Jehovah endureth for ever. Praise ye Jehovah.
+
 ## Chapter 118
 
 <sup>1</sup> Oh give thanks unto Jehovah; For he is good; For his lovingkindness endureth for ever.
@@ -2193,6 +2310,7 @@
 <sup>27</sup> Jehovah is God, and he hath given us light: Bind the sacrifice with cords, even unto the horns of the altar.
 <sup>28</sup> Thou art my God, and I will give thanks unto thee: Thou art my God, I will exalt thee.
 <sup>29</sup> Oh give thanks unto Jehovah; For he is good; For his lovingkindness endureth for ever.
+
 ## Chapter 119
 
 <sup>1</sup> Blessed are they that are perfect in the way, Who walk in the law of Jehovah.
@@ -2371,6 +2489,7 @@
 <sup>174</sup> I have longed for thy salvation, O Jehovah; And thy law is my delight.
 <sup>175</sup> Let my soul live, and it shall praise thee; And let thine ordinances help me.
 <sup>176</sup> I have gone astray like a lost sheep; Seek thy servant; For I do not forget thy commandments.
+
 ## Chapter 120
 
 <sup>1</sup> In my distress I cried unto Jehovah, And he answered me.
@@ -2380,6 +2499,7 @@
 <sup>5</sup> Woe is me, that I sojourn in Meshech, That I dwell among the tents of Kedar!
 <sup>6</sup> My soul hath long had her dwelling With him that hateth peace.
 <sup>7</sup> I am for peace: But when I speak, they are for war.
+
 ## Chapter 121
 
 <sup>1</sup> I will lift up mine eyes unto the mountains: From whence shall my help come?
@@ -2390,6 +2510,7 @@
 <sup>6</sup> The sun shall not smite thee by day, Nor the moon by night.
 <sup>7</sup> Jehovah will keep thee from all evil; He will keep thy soul.
 <sup>8</sup> Jehovah will keep thy going out and thy coming in From this time forth and for evermore.
+
 ## Chapter 122
 
 <sup>1</sup> I was glad when they said unto me, Let us go unto the house of Jehovah.
@@ -2401,12 +2522,14 @@
 <sup>7</sup> Peace be within thy walls, And prosperity within thy palaces.
 <sup>8</sup> For my brethren and companions’ sakes, I will now say, Peace be within thee.
 <sup>9</sup> For the sake of the house of Jehovah our God I will seek thy good.
+
 ## Chapter 123
 
 <sup>1</sup> Unto thee do I lift up mine eyes, O thou that sittest in the heavens.
 <sup>2</sup> Behold, as the eyes of servants look unto the hand of their master, As the eyes of a maid unto the hand of her mistress; So our eyes look unto Jehovah our God, Until he have mercy upon us.
 <sup>3</sup> Have mercy upon us, O Jehovah, have mercy upon us; For we are exceedingly filled with contempt.
 <sup>4</sup> Our soul is exceedingly filled With the scoffing of those that are at ease, And with the contempt of the proud.
+
 ## Chapter 124
 
 <sup>1</sup> If it had not been Jehovah who was on our side, Let Israel now say,
@@ -2417,6 +2540,7 @@
 <sup>6</sup> Blessed be Jehovah, Who hath not given us as a prey to their teeth.
 <sup>7</sup> Our soul is escaped as a bird out of the snare of the fowlers: The snare is broken, and we are escaped.
 <sup>8</sup> Our help is in the name of Jehovah, Who made heaven and earth.
+
 ## Chapter 125
 
 <sup>1</sup> They that trust in Jehovah Are as mount Zion, which cannot be moved, but abideth for ever.
@@ -2424,6 +2548,7 @@
 <sup>3</sup> For the sceptre of wickedness shall not rest upon the lot of the righteous; That the righteous put not forth their hands unto iniquity.
 <sup>4</sup> Do good, O Jehovah, unto those that are good, And to them that are upright in their hearts.
 <sup>5</sup> But as for such as turn aside unto their crooked ways, Jehovah will lead them forth with the workers of iniquity. Peace be upon Israel.
+
 ## Chapter 126
 
 <sup>1</sup> When Jehovah brought back those that returned to Zion, We were like unto them that dream.
@@ -2432,6 +2557,7 @@
 <sup>4</sup> Turn again our captivity, O Jehovah, As the streams in the South.
 <sup>5</sup> They that sow in tears shall reap in joy.
 <sup>6</sup> He that goeth forth and weepeth, bearing seed for sowing, Shall doubtless come again with joy, bringing his sheaves with him.
+
 ## Chapter 127
 
 <sup>1</sup> Except Jehovah build the house, They labor in vain that build it: Except Jehovah keep the city, The watchman waketh but in vain.
@@ -2439,6 +2565,7 @@
 <sup>3</sup> Lo, children are a heritage of Jehovah; And the fruit of the womb is his reward.
 <sup>4</sup> As arrows in the hand of a mighty man, So are the children of youth.
 <sup>5</sup> Happy is the man that hath his quiver full of them: They shall not be put to shame, When they speak with their enemies in the gate.
+
 ## Chapter 128
 
 <sup>1</sup> Blessed is every one that feareth Jehovah, That walketh in his ways.
@@ -2447,6 +2574,7 @@
 <sup>4</sup> Behold, thus shall the man be blessed That feareth Jehovah.
 <sup>5</sup> Jehovah bless thee out of Zion: And see thou the good of Jerusalem all the days of thy life.
 <sup>6</sup> Yea, see thou thy children’s children. Peace be upon Israel.
+
 ## Chapter 129
 
 <sup>1</sup> Many a time have they afflicted me from my youth up, Let Israel now say,
@@ -2457,6 +2585,7 @@
 <sup>6</sup> Let them be as the grass upon the housetops, Which withereth before it groweth up;
 <sup>7</sup> Wherewith the reaper filleth not his hand, Nor he that bindeth sheaves his bosom.
 <sup>8</sup> Neither do they that go by say, The blessing of Jehovah be upon you; We bless you in the name of Jehovah.
+
 ## Chapter 130
 
 <sup>1</sup> Out of the depths have I cried unto thee, O Jehovah.
@@ -2467,11 +2596,13 @@
 <sup>6</sup> My soul waiteth for the Lord More than watchmen wait for the morning; Yea, more than watchmen for the morning.
 <sup>7</sup> O Israel, hope in Jehovah; For with Jehovah there is lovingkindness, And with him is plenteous redemption.
 <sup>8</sup> And he will redeem Israel From all his iniquities.
+
 ## Chapter 131
 
 <sup>1</sup> Jehovah, my heart is not haughty, nor mine eyes lofty; Neither do I exercise myself in great matters, Or in things too wonderful for me.
 <sup>2</sup> Surely I have stilled and quieted my soul; Like a weaned child with his mother, Like a weaned child is my soul within me.
 <sup>3</sup> O Israel, hope in Jehovah From this time forth and for evermore.
+
 ## Chapter 132
 
 <sup>1</sup> Jehovah, remember for David All his affliction;
@@ -2492,16 +2623,19 @@
 <sup>16</sup> Her priests also will I clothe with salvation; And her saints shall shout aloud for joy.
 <sup>17</sup> There will I make the horn of David to bud: I have ordained a lamp for mine anointed.
 <sup>18</sup> His enemies will I clothe with shame; But upon himself shall his crown flourish.
+
 ## Chapter 133
 
 <sup>1</sup> Behold, how good and how pleasant it is For brethren to dwell together in unity!
 <sup>2</sup> It is like the precious oil upon the head, That ran down upon the beard, Even Aaron’s beard; That came down upon the skirt of his garments;
 <sup>3</sup> Like the dew of Hermon, That cometh down upon the mountains of Zion: For there Jehovah commanded the blessing, Even life for evermore.
+
 ## Chapter 134
 
 <sup>1</sup> Behold, bless ye Jehovah, all ye servants of Jehovah, That by night stand in the house of Jehovah.
 <sup>2</sup> Lift up your hands to the sanctuary, And bless ye Jehovah.
 <sup>3</sup> Jehovah bless thee out of Zion; Even he that made heaven and earth.
+
 ## Chapter 135
 
 <sup>1</sup> Praise ye Jehovah. Praise ye the name of Jehovah; Praise him, O ye servants of Jehovah,
@@ -2525,6 +2659,7 @@
 <sup>19</sup> O house of Israel, bless ye Jehovah: O house of Aaron, bless ye Jehovah:
 <sup>20</sup> O house of Levi, bless ye Jehovah: Ye that fear Jehovah, bless ye Jehovah.
 <sup>21</sup> Blessed be Jehovah out of Zion, Who dwelleth at Jerusalem. Praise ye Jehovah.
+
 ## Chapter 136
 
 <sup>1</sup> Oh give thanks unto Jehovah; For he is good; For his lovingkindness endureth for ever.
@@ -2553,6 +2688,7 @@
 <sup>24</sup> And hath delivered us from our adversaries; For his lovingkindness endureth for ever:
 <sup>25</sup> Who giveth food to all flesh; For his lovingkindness endureth for ever.
 <sup>26</sup> Oh give thanks unto the God of heaven; For his lovingkindness endureth for ever.
+
 ## Chapter 137
 
 <sup>1</sup> By the rivers of Babylon, There we sat down, yea, we wept, When we remembered Zion.
@@ -2564,6 +2700,7 @@
 <sup>7</sup> Remember, O Jehovah, against the children of Edom The day of Jerusalem; Who said, Rase it, rase it, Even to the foundation thereof.
 <sup>8</sup> O daughter of Babylon, that art to be destroyed, Happy shall he be, that rewardeth thee As thou hast served us.
 <sup>9</sup> Happy shall he be, that taketh and dasheth thy little ones Against the rock.
+
 ## Chapter 138
 
 <sup>1</sup> I will give thee thanks with my whole heart: Before the gods will I sing praises unto thee.
@@ -2574,6 +2711,7 @@
 <sup>6</sup> For though Jehovah is high, yet hath he respect unto the lowly; But the haughty he knoweth from afar.
 <sup>7</sup> Though I walk in the midst of trouble, thou wilt revive me; Thou wilt stretch forth thy hand against the wrath of mine enemies, And thy right hand will save me.
 <sup>8</sup> Jehovah will perfect that which concerneth me: Thy lovingkindness, O Jehovah, endureth for ever; Forsake not the works of thine own hands.
+
 ## Chapter 139
 
 <sup>1</sup> O Jehovah, thou hast searched me, and known me.
@@ -2600,6 +2738,7 @@
 <sup>22</sup> I hate them with perfect hatred: They are become mine enemies.
 <sup>23</sup> Search me, O God, and know my heart: Try me, and know my thoughts;
 <sup>24</sup> And see if there be any wicked way in me, And lead me in the way everlasting.
+
 ## Chapter 140
 
 <sup>1</sup> Deliver me, O Jehovah, from the evil man; Preserve me from the violent man:
@@ -2615,6 +2754,7 @@
 <sup>11</sup> An evil speaker shall not be established in the earth: Evil shall hunt the violent man to overthrow him.
 <sup>12</sup> I know that Jehovah will maintain the cause of the afflicted, And justice for the needy.
 <sup>13</sup> Surely the righteous shall give thanks unto thy name: The upright shall dwell in thy presence.
+
 ## Chapter 141
 
 <sup>1</sup> Jehovah, I have called upon thee; Make haste unto me: Give ear unto my voice, when I call unto thee.
@@ -2627,6 +2767,7 @@
 <sup>8</sup> For mine eyes are unto thee, O Jehovah the Lord: In thee do I take refuge; Leave not my soul destitute.
 <sup>9</sup> Keep me from the snare which they have laid for me, And from the gins of the workers of iniquity.
 <sup>10</sup> Let the wicked fall into their own nets, Whilst that I withal escape.
+
 ## Chapter 142
 
 <sup>1</sup> I cry with my voice unto Jehovah; With my voice unto Jehovah do I make supplication.
@@ -2636,6 +2777,7 @@
 <sup>5</sup> I cried unto thee, O Jehovah; I said, Thou art my refuge, My portion in the land of the living.
 <sup>6</sup> Attend unto my cry; For I am brought very low: Deliver me from my persecutors; For they are stronger than I.
 <sup>7</sup> Bring my soul out of prison, That I may give thanks unto thy name: The righteous shall compass me about; For thou wilt deal bountifully with me.
+
 ## Chapter 143
 
 <sup>1</sup> Hear my prayer, O Jehovah; Give ear to my supplications: In thy faithfulness answer me, and in thy righteousness.
@@ -2650,6 +2792,7 @@
 <sup>10</sup> Teach me to do thy will; For thou art my God: Thy Spirit is good; Lead me in the land of uprightness.
 <sup>11</sup> Quicken me, O Jehovah, for thy name’s sake: In thy righteousness bring my soul out of trouble.
 <sup>12</sup> And in thy lovingkindness cut off mine enemies, And destroy all them that afflict my soul; For I am thy servant.
+
 ## Chapter 144
 
 <sup>1</sup> Blessed be Jehovah my rock, Who teacheth my hands to war, And my fingers to fight:
@@ -2667,6 +2810,7 @@
 <sup>13</sup> When our garners are full, affording all manner of store, And our sheep bring forth thousands and ten thousands in our fields;
 <sup>14</sup> When our oxen are well laden; When there is no breaking in, and no going forth, And no outcry in our streets:
 <sup>15</sup> Happy is the people that is in such a case; Yea, happy is the people whose God is Jehovah.
+
 ## Chapter 145
 
 <sup>1</sup> I will extol thee, my God, O King; And I will bless thy name for ever and ever.
@@ -2690,6 +2834,7 @@
 <sup>19</sup> He will fulfil the desire of them that fear him; He also will hear their cry and will save them.
 <sup>20</sup> Jehovah preserveth all them that love him; But all the wicked will he destroy.
 <sup>21</sup> My mouth shall speak the praise of Jehovah; And let all flesh bless his holy name for ever and ever.
+
 ## Chapter 146
 
 <sup>1</sup> Praise ye Jehovah. Praise Jehovah, O my soul.
@@ -2702,6 +2847,7 @@
 <sup>8</sup> Jehovah openeth the eyes of the blind; Jehovah raiseth up them that are bowed down; Jehovah loveth the righteous;
 <sup>9</sup> Jehovah preserveth the sojourners; He upholdeth the fatherless and widow; But the way of the wicked he turneth upside down.
 <sup>10</sup> Jehovah will reign for ever, Thy God, O Zion, unto all generations. Praise ye Jehovah.
+
 ## Chapter 147
 
 <sup>1</sup> Praise ye Jehovah; For it is good to sing praises unto our God; For it is pleasant, and praise is comely.
@@ -2724,6 +2870,7 @@
 <sup>18</sup> He sendeth out his word, and melteth them: He causeth his wind to blow, and the waters flow.
 <sup>19</sup> He showeth his word unto Jacob, His statutes and his ordinances unto Israel.
 <sup>20</sup> He hath not dealt so with any nation; And as for his ordinances, they have not known them. Praise ye Jehovah.
+
 ## Chapter 148
 
 <sup>1</sup> Praise ye Jehovah. Praise ye Jehovah from the heavens: Praise him in the heights.
@@ -2740,6 +2887,7 @@
 <sup>12</sup> Both young men and virgins; Old men and children:
 <sup>13</sup> Let them praise the name of Jehovah; For his name alone is exalted; His glory is above the earth and the heavens.
 <sup>14</sup> And he hath lifted up the horn of his people, The praise of all his saints; Even of the children of Israel, a people near unto him. Praise ye Jehovah.
+
 ## Chapter 149
 
 <sup>1</sup> Praise ye Jehovah. Sing unto Jehovah a new song, And his praise in the assembly of the saints.
@@ -2751,6 +2899,7 @@
 <sup>7</sup> To execute vengeance upon the nations, And punishments upon the peoples;
 <sup>8</sup> To bind their kings with chains, And their nobles with fetters of iron;
 <sup>9</sup> To execute upon them the judgment written: This honor have all his saints. Praise ye Jehovah.
+
 ## Chapter 150
 
 <sup>1</sup> Praise ye Jehovah. Praise God in his sanctuary: Praise him in the firmament of his power.

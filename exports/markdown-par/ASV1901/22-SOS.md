@@ -17,6 +17,7 @@
 <sup>15</sup> Behold, thou art fair, my love; Behold thou art fair; Thine eyes are as doves.
 <sup>16</sup> Behold, thou art fair, my beloved, yea, pleasant: Also our couch is green.
 <sup>17</sup> The beams of our house are cedars, And our rafters are firs.
+
 ## Chapter 2
 
 <sup>1</sup> I am a rose of Sharon, A lily of the valleys.
@@ -36,6 +37,7 @@
 <sup>15</sup> Take us the foxes, the little foxes, That spoil the vineyards; For our vineyards are in blossom.
 <sup>16</sup> My beloved is mine, and I am his: He feedeth his flock among the lilies.
 <sup>17</sup> Until the day be cool, and the shadows flee away, Turn, my beloved, and be thou like a roe or a young hart Upon the mountains of Bether.
+
 ## Chapter 3
 
 <sup>1</sup> By night on my bed I sought him whom my soul loveth: I sought him, but I found him not.
@@ -49,6 +51,7 @@
 <sup>9</sup> King Solomon made himself a palanquin Of the wood of Lebanon.
 <sup>10</sup> He made the pillars thereof of silver, The bottom thereof of gold, the seat of it of purple, The midst thereof being paved with love, From the daughters of Jerusalem.
 <sup>11</sup> Go forth, O ye daughters of Zion, and behold king Solomon, With the crown wherewith his mother hath crowned him In the day of his espousals, And in the day of the gladness of his heart.
+
 ## Chapter 4
 
 <sup>1</sup> Behold, thou art fair, my love; behold, thou art fair; Thine eyes are as doves behind thy veil. Thy hair is as a flock of goats, That lie along the side of mount Gilead.
@@ -67,6 +70,7 @@
 <sup>14</sup> Spikenard and saffron, Calamus and cinnamon, with all trees of frankincense; Myrrh and aloes, with all the chief spices.
 <sup>15</sup> Thou art a fountain of gardens, A well of living waters, And flowing streams from Lebanon.
 <sup>16</sup> Awake, O north wind; And come, thou south; Blow upon my garden, that the spices thereof may flow out. Let my beloved come into his garden, And eat his precious fruits.
+
 ## Chapter 5
 
 <sup>1</sup> I am come into my garden, my sister, my bride: I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk. Eat, O friends; Drink, yea, drink abundantly, O beloved.
@@ -85,6 +89,7 @@
 <sup>14</sup> His hands are as rings of gold set with beryl: His body is as ivory work overlaid with sapphires.
 <sup>15</sup> His legs are as pillars of marble, set upon sockets of fine gold: His aspect is like Lebanon, excellent as the cedars.
 <sup>16</sup> His mouth is most sweet; Yea, he is altogether lovely. This is my beloved, and this is my friend, O daughters of Jerusalem.
+
 ## Chapter 6
 
 <sup>1</sup> Whither is thy beloved gone, O thou fairest among women? Whither hath thy beloved turned him, That we may seek him with thee?
@@ -100,6 +105,7 @@
 <sup>11</sup> I went down into the garden of nuts, To see the green plants of the valley, To see whether the vine budded, And the pomegranates were in flower.
 <sup>12</sup> Before I was aware, my soul set me Among the chariots of my princely people.
 <sup>13</sup> Return, return, O Shulammite; Return, return, that we may look upon thee. Why will ye look upon the Shulammite, As upon the dance of Mahanaim?
+
 ## Chapter 7
 
 <sup>1</sup> How beautiful are thy feet in sandals, O prince’s daughter! Thy rounded thighs are like jewels, The work of the hands of a skilful workman.
@@ -115,6 +121,7 @@
 <sup>11</sup> Come, my beloved, let us go forth into the field; Let us lodge in the villages.
 <sup>12</sup> Let us get up early to the vineyards; Let us see whether the vine hath budded, And its blossom is open, And the pomegranates are in flower: There will I give thee my love.
 <sup>13</sup> The mandrakes give forth fragrance; And at our doors are all manner of precious fruits, new and old, Which I have laid up for thee, O my beloved.
+
 ## Chapter 8
 
 <sup>1</sup> Oh that thou wert as my brother, That sucked the breasts of my mother! When I should find thee without, I would kiss thee; Yea, and none would despise me.

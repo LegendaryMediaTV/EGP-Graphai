@@ -22,6 +22,7 @@
 <sup>20</sup> Behold, O Jehovah; for I am in distress; my heart is troubled; My heart is turned within me; for I have grievously rebelled: Abroad the sword bereaveth, at home there is as death.
 <sup>21</sup> They have heard that I sigh; there is none to comfort me; all mine enemies have heard of my trouble; they are glad that thou hast done it: Thou wilt bring the day that thou hast proclaimed, and they shall be like unto me.
 <sup>22</sup> Let all their wickedness come before thee; And do unto them, as thou hast done unto me for all my transgressions: For my sighs are many, and my heart is faint.
+
 ## Chapter 2
 
 <sup>1</sup> How hath the Lord covered the daughter of Zion with a cloud in his anger! He hath cast down from heaven unto the earth the beauty of Israel, And hath not remembered his footstool in the day of his anger.
@@ -46,6 +47,7 @@
 <sup>20</sup> See, O Jehovah, and behold to whom thou hast done thus! Shall the women eat their fruit, the children that are dandled in the hands? Shall the priest and the prophet be slain in the sanctuary of the Lord?
 <sup>21</sup> The youth and the old man lie on the ground in the streets; My virgins and my young men are fallen by the sword: Thou hast slain them in the day of thine anger; Thou hast slaughtered, and not pitied.
 <sup>22</sup> Thou hast called, as in the day of a solemn assembly, my terrors on every side; And there was none that escaped or remained in the day of Jehovah’s anger: Those that I have dandled and brought up hath mine enemy consumed.
+
 ## Chapter 3
 
 <sup>1</sup> I am the man that hath seen affliction by the rod of his wrath.
@@ -114,6 +116,7 @@
 <sup>64</sup> Thou wilt render unto them a recompense, O Jehovah, according to the work of their hands.
 <sup>65</sup> Thou wilt give them hardness of heart, thy curse unto them.
 <sup>66</sup> Thou wilt pursue them in anger, and destroy them from under the heavens of Jehovah.
+
 ## Chapter 4
 
 <sup>1</sup> How is the gold become dim! how is the most pure gold changed! The stones of the sanctuary are poured out at the head of every street.
@@ -138,6 +141,7 @@
 <sup>20</sup> The breath of our nostrils, the anointed of Jehovah, was taken in their pits; Of whom we said, Under his shadow we shall live among the nations.
 <sup>21</sup> Rejoice and be glad, O daughter of Edom, that dwellest in the land of Uz: The cup shall pass through unto thee also; thou shalt be drunken, and shalt make thyself naked.
 <sup>22</sup> The punishment of thine iniquity is accomplished, O daughter of Zion; He will no more carry thee away into captivity: He will visit thine iniquity, O daughter of Edom; he will uncover thy sins.
+
 ## Chapter 5
 
 <sup>1</sup> Remember, O Jehovah, what is come upon us: Behold, and see our reproach.

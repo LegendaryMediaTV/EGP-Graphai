@@ -30,6 +30,7 @@
 <sup>28</sup> and in nothing affrighted by the adversaries: which is for them an evident token of perdition, but of your salvation, and that from God;
 <sup>29</sup> because to you it hath been granted in the behalf of Christ, not only to believe on him, but also to suffer in his behalf:
 <sup>30</sup> having the same conflict which ye saw in me, and now hear to be in me.
+
 ## Chapter 2
 
 <sup>1</sup> If there is therefore any exhortation in Christ, if any consolation of love, if any fellowship of the Spirit, if any tender mercies and compassions,
@@ -62,6 +63,7 @@
 <sup>28</sup> I have sent him therefore the more diligently, that, when ye see him again, ye may rejoice, and that I may be the less sorrowful.
 <sup>29</sup> Receive him therefore in the Lord with all joy; and hold such in honor:
 <sup>30</sup> because for the work of Christ he came nigh unto death, hazarding his life to supply that which was lacking in your service toward me.
+
 ## Chapter 3
 
 <sup>1</sup> Finally, my brethren, rejoice in the Lord. To write the same things to you, to me indeed is not irksome, but for you it is safe.
@@ -85,6 +87,7 @@
 <sup>19</sup> whose end is perdition, whose god is the belly, and whose glory is in their shame, who mind earthly things.
 <sup>20</sup> For our citizenship is in heaven; whence also we wait for a Saviour, the Lord Jesus Christ:
 <sup>21</sup> who shall fashion anew the body of our humiliation, that it may be conformed to the body of his glory, according to the working whereby he is able even to subject all things unto himself.
+
 ## Chapter 4
 
 <sup>1</sup> Wherefore, my brethren beloved and longed for, my joy and crown, so stand fast in the Lord, my beloved.

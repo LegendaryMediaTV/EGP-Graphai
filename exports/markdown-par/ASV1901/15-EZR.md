@@ -11,6 +11,7 @@
 <sup>9</sup> And this is the number of them: thirty platters of gold, a thousand platters of silver, nine and twenty knives,
 <sup>10</sup> thirty bowls of gold, silver bowls of a second sort four hundred and ten, and other vessels a thousand.
 <sup>11</sup> All the vessels of gold and of silver were five thousand and four hundred. All these did Sheshbazzar bring up, when they of the captivity were brought up from Babylon unto Jerusalem.
+
 ## Chapter 2
 
 <sup>1</sup> Now these are the children of the province, that went up out of the captivity of those that had been carried away, whom Nebuchadnezzar the king of Babylon had carried away unto Babylon, and that returned unto Jerusalem and Judah, every one unto his city;
@@ -83,6 +84,7 @@
 <sup>68</sup> And some of the heads of fathers’ houses, when they came to the house of Jehovah which is in Jerusalem, offered willingly for the house of God to set it up in its place:
 <sup>69</sup> they gave after their ability into the treasury of the work threescore and one thousand darics of gold, and five thousand pounds of silver, and one hundred priests’ garments.
 <sup>70</sup> So the priests, and the Levites, and some of the people, and the singers, and the porters, and the Nethinim, dwelt in their cities, and all Israel in their cities.
+
 ## Chapter 3
 
 <sup>1</sup> And when the seventh month was come, and the children of Israel were in the cities, the people gathered themselves together as one man to Jerusalem.
@@ -98,6 +100,7 @@
 <sup>11</sup> And they sang one to another in praising and giving thanks unto Jehovah, saying, For he is good, for his lovingkindness endureth for ever toward Israel. And all the people shouted with a great shout, when they praised Jehovah, because the foundation of the house of Jehovah was laid.
 <sup>12</sup> But many of the priests and Levites and heads of fathers’ houses, the old men that had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice; and many shouted aloud for joy:
 <sup>13</sup> so that the people could not discern the noise of the shout of joy from the noise of the weeping of the people; for the people shouted with a loud shout, and the noise was heard afar off.
+
 ## Chapter 4
 
 <sup>1</sup> Now when the adversaries of Judah and Benjamin heard that the children of the captivity were building a temple unto Jehovah, the God of Israel;
@@ -124,6 +127,7 @@
 <sup>22</sup> And take heed that ye be not slack herein: why should damage grow to the hurt of the kings?
 <sup>23</sup> Then when the copy of king Artaxerxes’ letter was read before Rehum, and Shimshai the scribe, and their companions, they went in haste to Jerusalem unto the Jews, and made them to cease by force and power.
 <sup>24</sup> Then ceased the work of the house of God which is at Jerusalem; and it ceased until the second year of the reign of Darius king of Persia.
+
 ## Chapter 5
 
 <sup>1</sup> Now the prophets, Haggai the prophet, and Zechariah the son of Iddo, prophesied unto the Jews that were in Judah and Jerusalem; in the name of the God of Israel prophesied they unto them.
@@ -143,6 +147,7 @@
 <sup>15</sup> and he said unto him, Take these vessels, go, put them in the temple that is in Jerusalem, and let the house of God be builded in its place.
 <sup>16</sup> Then came the same Sheshbazzar, and laid the foundations of the house of God which is in Jerusalem: and since that time even until now hath it been in building, and yet it is not completed.
 <sup>17</sup> Now therefore, if it seem good to the king, let there be search made in the king’s treasure-house, which is there at Babylon, whether it be so, that a decree was made of Cyrus the king to build this house of God at Jerusalem; and let the king send his pleasure to us concerning this matter.
+
 ## Chapter 6
 
 <sup>1</sup> Then Darius the king made a decree, and search was made in the house of the archives, where the treasures were laid up in Babylon.
@@ -167,6 +172,7 @@
 <sup>20</sup> For the priests and the Levites had purified themselves together; all of them were pure: and they killed the passover for all the children of the captivity, and for their brethren the priests, and for themselves.
 <sup>21</sup> And the children of Israel that were come again out of the captivity, and all such as had separated themselves unto them from the filthiness of the nations of the land, to seek Jehovah, the God of Israel, did eat,
 <sup>22</sup> and kept the feast of unleavened bread seven days with joy: for Jehovah had made them joyful, and had turned the heart of the king of Assyria unto them, to strengthen their hands in the work of the house of God, the God of Israel.
+
 ## Chapter 7
 
 <sup>1</sup> Now after these things, in the reign of Artaxerxes king of Persia, Ezra the son of Seraiah, the son of Azariah, the son of Hilkiah,
@@ -197,6 +203,7 @@
 <sup>26</sup> And whosoever will not do the law of thy God, and the law of the king, let judgment be executed upon him with all diligence, whether it be unto death, or to banishment, or to confiscation of goods, or to imprisonment.
 <sup>27</sup> Blessed be Jehovah, the God of our fathers, who hath put such a thing as this in the king’s heart, to beautify the house of Jehovah which is in Jerusalem;
 <sup>28</sup> and hath extended lovingkindness unto me before the king, and his counsellors, and before all the king’s mighty princes. And I was strengthened according to the hand of Jehovah my God upon me, and I gathered together out of Israel chief men to go up with me.
+
 ## Chapter 8
 
 <sup>1</sup> Now these are the heads of their fathers’ houses, and this is the genealogy of them that went up with me from Babylon, in the reign of Artaxerxes the king:
@@ -235,6 +242,7 @@
 <sup>34</sup> the whole by number and by weight: and all the weight was written at that time.
 <sup>35</sup> The children of the captivity, that were come out of exile, offered burnt-offerings unto the God of Israel, twelve bullocks for all Israel, ninety and six rams, seventy and seven lambs, twelve he-goats for a sin-offering: all this was a burnt-offering unto Jehovah.
 <sup>36</sup> And they delivered the king’s commissions unto the king’s satraps, and to the governors beyond the River: and they furthered the people and the house of God.
+
 ## Chapter 9
 
 <sup>1</sup> Now when these things were done, the princes drew near unto me, saying, The people of Israel, and the priests and the Levites, have not separated themselves from the peoples of the lands, doing according to their abominations, even of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites.
@@ -252,6 +260,7 @@
 <sup>13</sup> And after all that is come upon us for our evil deeds, and for our great guilt, seeing that thou our God hast punished us less than our iniquities deserve, and hast given us such a remnant,
 <sup>14</sup> shall we again break thy commandments, and join in affinity with the peoples that do these abominations? wouldest not thou be angry with us till thou hadst consumed us, so that there should be no remnant, nor any to escape?
 <sup>15</sup> O Jehovah, the God of Israel, thou art righteous; for we are left a remnant that is escaped, as it is this day: behold, we are before thee in our guiltiness; for none can stand before thee because of this.
+
 ## Chapter 10
 
 <sup>1</sup> Now while Ezra prayed and made confession, weeping and casting himself down before the house of God, there was gathered together unto him out of Israel a very great assembly of men and women and children; for the people wept very sore.

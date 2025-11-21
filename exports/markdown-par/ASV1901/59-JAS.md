@@ -27,6 +27,7 @@
 <sup>25</sup> But he that looketh into the perfect law, the law of liberty, and so continueth, being not a hearer that forgetteth but a doer that worketh, this man shall be blessed in his doing.
 <sup>26</sup> If any man thinketh himself to be religious, while he bridleth not his tongue but deceiveth his heart, this man’s religion is vain.
 <sup>27</sup> Pure religion and undefiled before our God and Father is this, to visit the fatherless and widows in their affliction, and to keep oneself unspotted from the world.
+
 ## Chapter 2
 
 <sup>1</sup> My brethren, hold not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons.
@@ -55,6 +56,7 @@
 <sup>24</sup> Ye see that by works a man is justified, and not only by faith.
 <sup>25</sup> And in like manner was not also Rahab the harlot justified by works, in that she received the messengers, and sent them out another way?
 <sup>26</sup> For as the body apart from the spirit is dead, even so faith apart from works is dead.
+
 ## Chapter 3
 
 <sup>1</sup> Be not many of you teachers, my brethren, knowing that we shall receive heavier judgment.
@@ -75,6 +77,7 @@
 <sup>16</sup> For where jealousy and faction are, there is confusion and every vile deed.
 <sup>17</sup> But the wisdom that is from above is first pure, then peaceable, gentle, easy to be entreated, full of mercy and good fruits, without variance, without hypocrisy.
 <sup>18</sup> And the fruit of righteousness is sown in peace for them that make peace.
+
 ## Chapter 4
 
 <sup>1</sup> Whence come wars and whence come fightings among you? come they not hence, even of your pleasures that war in your members?
@@ -94,6 +97,7 @@
 <sup>15</sup> For that ye ought to say, If the Lord will, we shall both live, and do this or that.
 <sup>16</sup> But now ye glory in your vauntings: all such glorying is evil.
 <sup>17</sup> To him therefore that knoweth to do good, and doeth it not, to him it is sin.
+
 ## Chapter 5
 
 <sup>1</sup> Come now, ye rich, weep and howl for your miseries that are coming upon you.

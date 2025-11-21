@@ -22,6 +22,7 @@
 <sup>20</sup> And when the king’s decree which he shall make shall be published throughout all his kingdom (for it is great), all the wives will give to their husbands honor, both to great and small.
 <sup>21</sup> And the saying pleased the king and the princes; and the king did according to the word of Memucan:
 <sup>22</sup> for he sent letters into all the king’s provinces, into every province according to the writing thereof, and to every people after their language, that every man should bear rule in his own house, and should speak according to the language of his people.
+
 ## Chapter 2
 
 <sup>1</sup> After these things, when the wrath of king Ahasuerus was pacified, he remembered Vashti, and what she had done, and what was decreed against her.
@@ -47,6 +48,7 @@
 <sup>21</sup> In those days, while Mordecai was sitting in the king’s gate, two of the king’s chamberlains, Bigthan and Teresh, of those that kept the threshold, were wroth, and sought to lay hands on the king Ahasuerus.
 <sup>22</sup> And the thing became known to Mordecai, who showed it unto Esther the queen; and Esther told the king thereof in Modecai’s name.
 <sup>23</sup> And when inquisition was made of the matter, and it was found to be so, they were both hanged on a tree: and it was written in the book of the chronicles before the king.
+
 ## Chapter 3
 
 <sup>1</sup> After these things did king Ahasuerus promote Haman the son of Hammedatha the Agagite, and advanced him, and set his seat above all the princes that were with him.
@@ -64,6 +66,7 @@
 <sup>13</sup> And letters were sent by posts into all the king’s provinces, to destroy, to slay, and to cause to perish, all Jews, both young and old, little children and women, in one day, even upon the thirteenth day of the twelfth month, which is the month Adar, and to take the spoil of them for a prey.
 <sup>14</sup> A copy of the writing, that the decree should be given out in every province, was published unto all the peoples, that they should be ready against that day.
 <sup>15</sup> The posts went forth in haste by the king’s commandment, and the decree was given out in Shushan the palace. And the king and Haman sat down to drink; but the city of Shushan was perplexed.
+
 ## Chapter 4
 
 <sup>1</sup> Now when Mordecai knew all that was done, Mordecai rent his clothes, and put on sackcloth with ashes, and went out into the midst of the city, and cried with a loud and a bitter cry;
@@ -83,6 +86,7 @@
 <sup>15</sup> Then Esther bade them return answer unto Mordecai,
 <sup>16</sup> Go, gather together all the Jews that are present in Shushan, and fast ye for me, and neither eat nor drink three days, night or day: I also and my maidens will fast in like manner; and so will I go in unto the king, which is not according to the law: and if I perish, I perish.
 <sup>17</sup> So Mordecai went his way, and did according to all that Esther had commanded him.
+
 ## Chapter 5
 
 <sup>1</sup> Now it came to pass on the third day, that Esther put on her royal apparel, and stood in the inner court of the king’s house, over against the king’s house: and the king sat upon his royal throne in the royal house, over against the entrance of the house.
@@ -99,6 +103,7 @@
 <sup>12</sup> Haman said moreover, Yea, Esther the queen did let no man come in with the king unto the banquet that she had prepared but myself; and to-morrow also am I invited by her together with the king.
 <sup>13</sup> Yet all this availeth me nothing, so long as I see Mordecai the Jew sitting at the king’s gate.
 <sup>14</sup> Then said Zeresh his wife and all his friends unto him, Let a gallows be made fifty cubits high, and in the morning speak thou unto the king that Mordecai may be hanged thereon: then go thou in merrily with the king unto the banquet. And the thing pleased Haman; and he caused the gallows to be made.
+
 ## Chapter 6
 
 <sup>1</sup> On that night could not the king sleep; and he commanded to bring the book of records of the chronicles, and they were read before the king.
@@ -115,6 +120,7 @@
 <sup>12</sup> And Mordecai came again to the king’s gate. But Haman hasted to his house, mourning and having his head covered.
 <sup>13</sup> And Haman recounted unto Zeresh his wife and all his friends everything that had befallen him. Then said his wise men and Zeresh his wife unto him, If Mordecai, before whom thou hast begun to fall, be of the seed of the Jews, thou shalt not prevail against him, but shalt surely fall before him.
 <sup>14</sup> While they were yet talking with him, came the king’s chamberlains, and hasted to bring Haman unto the banquet that Esther had prepared.
+
 ## Chapter 7
 
 <sup>1</sup> So the king and Haman came to banquet with Esther the queen.
@@ -127,6 +133,7 @@
 <sup>8</sup> Then the king returned out of the palace garden into the place of the banquet of wine; and Haman was fallen upon the couch whereon Esther was. Then said the king, Will he even force the queen before me in the house? As the word went out of the king’s mouth, they covered Haman’s face.
 <sup>9</sup> Then said Harbonah, one of the chamberlains that were before the king, Behold also, the gallows fifty cubits high, which Haman hath made for Mordecai, who spake good for the king, standeth in the house of Haman. And the king said, Hang him thereon.
 <sup>10</sup> So they hanged Haman on the gallows that he had prepared for Mordecai. Then was the king’s wrath pacified.
+
 ## Chapter 8
 
 <sup>1</sup> On that day did the king Ahasuerus give the house of Haman the Jews’ enemy unto Esther the queen. And Mordecai came before the king; for Esther had told what he was unto her.
@@ -146,6 +153,7 @@
 <sup>15</sup> And Mordecai went forth from the presence of the king in royal apparel of blue and white, and with a great crown of gold, and with a robe of fine linen and purple: and the city of Shushan shouted and was glad.
 <sup>16</sup> The Jews had light and gladness, and joy and honor.
 <sup>17</sup> And in every province, and in every city, whithersoever the king’s commandment and his decree came, the Jews had gladness and joy, a feast and a good day. And many from among the peoples of the land became Jews; for the fear of the Jews was fallen upon them.
+
 ## Chapter 9
 
 <sup>1</sup> Now in the twelfth month, which is the month Adar, on the thirteenth day of the same, when the king’s commandment and his decree drew near to be put in execution, on the day that the enemies of the Jews hoped to have rule over them,(whereas it was turned to the contrary, that the Jews had rule over them that hated them,)
@@ -180,6 +188,7 @@
 <sup>30</sup> And he sent letters unto all the Jews, to the hundred twenty and seven provinces of the kingdom of Ahasuerus, with words of peace and truth,
 <sup>31</sup> to confirm these days of Purim in their appointed times, according as Mordecai the Jew and Esther the queen had enjoined them, and as they had ordained for themselves and for their seed, in the matter of the fastings and their cry.
 <sup>32</sup> And the commandment of Esther confirmed these matters of Purim; and it was written in the book.
+
 ## Chapter 10
 
 <sup>1</sup> And the king Ahasuerus laid a tribute upon the land, and upon the isles of the sea.

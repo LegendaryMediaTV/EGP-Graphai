@@ -15,6 +15,7 @@
 <sup>13</sup> Then spake Haggai Jehovah’s messenger in Jehovah’s message unto the people, saying, I am with you, saith Jehovah.
 <sup>14</sup> And Jehovah stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Jehozadak, the high priest, and the spirit of all the remnant of the people; and they came and did work on the house of Jehovah of hosts, their God,
 <sup>15</sup> in the four and twentieth day of the month, in the sixth month, in the second year of Darius the king.
+
 ## Chapter 2
 
 <sup>1</sup> In the seventh month, in the one and twentieth day of the month, came the word of Jehovah by Haggai the prophet, saying,

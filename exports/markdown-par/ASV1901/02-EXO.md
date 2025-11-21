@@ -22,6 +22,7 @@
 <sup>20</sup> And God dealt well with the midwives: and the people multiplied, and waxed very mighty.
 <sup>21</sup> And it came to pass, because the midwives feared God, that he made them households.
 <sup>22</sup> And Pharaoh charged all his people, saying, Every son that is born ye shall cast into the river, and every daughter ye shall save alive.
+
 ## Chapter 2
 
 <sup>1</sup> And there went a man of the house of Levi, and took to wife a daughter of Levi.
@@ -49,6 +50,7 @@
 <sup>23</sup> And it came to pass in the course of those many days, that the king of Egypt died: and the children of Israel sighed by reason of the bondage, and they cried, and their cry came up unto God by reason of the bondage.
 <sup>24</sup> And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.
 <sup>25</sup> And God saw the children of Israel, and God took knowledge of them.
+
 ## Chapter 3
 
 <sup>1</sup> Now Moses was keeping the flock of Jethro his father-in-law, the priest of Midian: and he led the flock to the back of the wilderness, and came to the mountain of God, unto Horeb.
@@ -73,6 +75,7 @@
 <sup>20</sup> And I will put forth my hand, and smite Egypt with all my wonders which I will do in the midst thereof: and after that he will let you go.
 <sup>21</sup> And I will give this people favor in the sight of the Egyptians: and it shall come to pass, that, when ye go, ye shall not go empty.
 <sup>22</sup> But every woman shall ask of her neighbor, and of her that sojourneth in her house, jewels of silver, and jewels of gold, and raiment: and ye shall put them upon your sons, and upon your daughters; and ye shall despoil the Egyptians.
+
 ## Chapter 4
 
 <sup>1</sup> And Moses answered and said, But, behold, they will not believe me, nor hearken unto my voice; for they will say, Jehovah hath not appeared unto thee.
@@ -106,6 +109,7 @@
 <sup>29</sup> And Moses and Aaron went and gathered together all the elders of the children of Israel:
 <sup>30</sup> and Aaron spake all the words which Jehovah had spoken unto Moses, and did the signs in the sight of the people.
 <sup>31</sup> And the people believed: and when they heard that Jehovah had visited the children of Israel, and that he had seen their affliction, then they bowed their heads and worshipped.
+
 ## Chapter 5
 
 <sup>1</sup> And afterward Moses and Aaron came, and said unto Pharaoh, Thus saith Jehovah, the God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.
@@ -131,6 +135,7 @@
 <sup>21</sup> and they said unto them, Jehovah look upon you, and judge: because ye have made our savor to be abhorred in the eyes of Pharaoh, and in the eyes of his servants, to put a sword in their hand to slay us.
 <sup>22</sup> And Moses returned unto Jehovah, and said, Lord, wherefore hast thou dealt ill with this people? why is it that thou hast sent me?
 <sup>23</sup> For since I came to Pharaoh to speak in thy name, he hath dealt ill with this people; neither hast thou delivered thy people at all.
+
 ## Chapter 6
 
 <sup>1</sup> And Jehovah said unto Moses, Now shalt thou see what I will do to Pharaoh: for by a strong hand shall he let them go, and by a strong hand shall he drive them out of his land.
@@ -163,6 +168,7 @@
 <sup>28</sup> And it came to pass on the day when Jehovah spake unto Moses in the land of Egypt,
 <sup>29</sup> that Jehovah spake unto Moses, saying, I am Jehovah: speak thou unto Pharaoh king of Egypt all that I speak unto thee.
 <sup>30</sup> And Moses said before Jehovah, Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me?
+
 ## Chapter 7
 
 <sup>1</sup> And Jehovah said unto Moses, See, I have made thee as God to Pharaoh; and Aaron thy brother shall be thy prophet.
@@ -190,6 +196,7 @@
 <sup>23</sup> And Pharaoh turned and went into his house, neither did he lay even this to heart.
 <sup>24</sup> And all the Egyptians digged round about the river for water to drink; for they could not drink of the water of the river.
 <sup>25</sup> And seven days were fulfilled, after that Jehovah had smitten the river.
+
 ## Chapter 8
 
 <sup>1</sup> And Jehovah spake unto Moses, Go in unto Pharaoh, and say unto him, Thus saith Jehovah, Let my people go, that they may serve me.
@@ -224,6 +231,7 @@
 <sup>30</sup> And Moses went out from Pharaoh, and entreated Jehovah.
 <sup>31</sup> And Jehovah did according to the word of Moses; and he removed the swarms of flies from Pharaoh, from his servants, and from his people; there remained not one.
 <sup>32</sup> And Pharaoh hardened his heart this time also, and he did not let the people go.
+
 ## Chapter 9
 
 <sup>1</sup> Then Jehovah said unto Moses, Go in unto Pharaoh, and tell him, Thus saith Jehovah, the God of the Hebrews, Let my people go, that they may serve me.
@@ -261,6 +269,7 @@
 <sup>33</sup> And Moses went out of the city from Pharaoh, and spread abroad his hands unto Jehovah: and the thunders and hail ceased, and the rain was not poured upon the earth.
 <sup>34</sup> And when Pharaoh saw that the rain and the hail and the thunders were ceased, he sinned yet more, and hardened his heart, he and his servants.
 <sup>35</sup> And the heart of Pharaoh was hardened, and he did not let the children of Israel go, as Jehovah had spoken by Moses.
+
 ## Chapter 10
 
 <sup>1</sup> And Jehovah said unto Moses, Go in unto Pharaoh: for I have hardened his heart, and the heart of his servants, that I may show these my signs in the midst of them,
@@ -292,6 +301,7 @@
 <sup>27</sup> But Jehovah hardened Pharaoh’s heart, and he would not let them go.
 <sup>28</sup> And Pharaoh said unto him, Get thee from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die.
 <sup>29</sup> And Moses said, Thou hast spoken well. I will see thy face again no more.
+
 ## Chapter 11
 
 <sup>1</sup> And Jehovah said unto Moses, Yet one plague more will I bring upon Pharaoh, and upon Egypt; afterwards he will let you go hence: when he shall let you go, he shall surely thrust you out hence altogether.
@@ -304,6 +314,7 @@
 <sup>8</sup> And all these thy servants shall come down unto me, and bow down themselves unto me, saying, Get thee out, and all the people that follow thee: and after that I will go out. And he went out from Pharaoh in hot anger.
 <sup>9</sup> And Jehovah said unto Moses, Pharaoh will not hearken unto you; that my wonders may be multiplied in the land of Egypt.
 <sup>10</sup> And Moses and Aaron did all these wonders before Pharaoh: and Jehovah hardened Pharaoh’s heart, and he did not let the children of Israel go out of his land.
+
 ## Chapter 12
 
 <sup>1</sup> And Jehovah spake unto Moses and Aaron in the land of Egypt, saying,
@@ -357,6 +368,7 @@
 <sup>49</sup> One law shall be to him that is home-born, and unto the stranger that sojourneth among you.
 <sup>50</sup> Thus did all the children of Israel; as Jehovah commanded Moses and Aaron, so did they.
 <sup>51</sup> And it came to pass the selfsame day, that Jehovah did bring the children of Israel out of the land of Egypt by their hosts.
+
 ## Chapter 13
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -381,6 +393,7 @@
 <sup>20</sup> And they took their journey from Succoth, and encamped in Etham, in the edge of the wilderness.
 <sup>21</sup> And Jehovah went before them by day in a pillar of cloud, to lead them the way, and by night in a pillar of fire, to give them light, that they might go by day and by night:
 <sup>22</sup> the pillar of cloud by day, and the pillar of fire by night, departed not from before the people.
+
 ## Chapter 14
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -414,6 +427,7 @@
 <sup>29</sup> But the children of Israel walked upon dry land in the midst of the sea; and the waters were a wall unto them on their right hand, and on their left.
 <sup>30</sup> Thus Jehovah saved Israel that day out of the hand of the Egyptians; and Israel saw the Egyptians dead upon the sea-shore.
 <sup>31</sup> And Israel saw the great work which Jehovah did upon the Egyptians, and the people feared Jehovah: and they believed in Jehovah, and in his servant Moses.
+
 ## Chapter 15
 
 <sup>1</sup> Then sang Moses and the children of Israel this song unto Jehovah, and spake, saying, I will sing unto Jehovah, for he hath triumphed gloriously: The horse and his rider hath he thrown into the sea.
@@ -443,6 +457,7 @@
 <sup>25</sup> An he cried unto Jehovah; And Jehovah showed him a tree, and he cast it into the waters, and the waters were made sweet. There he made for them a statute and an ordinance, and there he proved them;
 <sup>26</sup> and he said, If thou wilt diligently hearken to the voice of Jehovah thy God, and wilt do that which is right in his eyes, and wilt give ear to his commandments, and keep all his statutes, I will put none of the diseases upon thee, which I have put upon the Egyptians: for I am Jehovah that healeth thee.
 <sup>27</sup> And they came to Elim, where were twelve springs of water, and threescore and ten palm-trees: and they encamped there by the waters.
+
 ## Chapter 16
 
 <sup>1</sup> And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.
@@ -481,6 +496,7 @@
 <sup>34</sup> As Jehovah commanded Moses, so Aaron laid it up before the Testimony, to be kept.
 <sup>35</sup> And the children of Israel did eat the manna forty years, until they came to a land inhabited; they did eat the manna, until they came unto the borders of the land of Canaan.
 <sup>36</sup> Now an omer is the tenth part of an ephah.
+
 ## Chapter 17
 
 <sup>1</sup> And all the congregation of the children of Israel journeyed from the wilderness of Sin, by their journeys, according to the commandment of Jehovah, and encamped in Rephidim: and there was no water for the people to drink.
@@ -499,6 +515,7 @@
 <sup>14</sup> And Jehovah said unto Moses, Write this for a memorial in a book, and rehearse it in the ears of Joshua: that I will utterly blot out the remembrance of Amalek from under heaven.
 <sup>15</sup> And Moses built an altar, and called the name of it Jehovah-nissi;
 <sup>16</sup> And he said, Jehovah hath sworn: Jehovah will have war with Amalek from generation to generation.
+
 ## Chapter 18
 
 <sup>1</sup> Now Jethro, the priest of Midian, Moses’ father-in-law, heard of all that God had done for Moses, and for Israel his people, how that Jehovah had brought Israel out of Egypt.
@@ -528,6 +545,7 @@
 <sup>25</sup> And Moses chose able men out of all Israel, and made them heads over the people, rulers of thousands, rulers of hundreds, rulers of fifties, and rulers of tens.
 <sup>26</sup> And they judged the people at all seasons: the hard causes they brought unto Moses, but every small matter they judged themselves.
 <sup>27</sup> And Moses let his father-in-law depart; and he went his way into his own land.
+
 ## Chapter 19
 
 <sup>1</sup> In the third month after the children of Israel were gone forth out of the land of Egypt, the same day came they into the wilderness of Sinai.
@@ -555,6 +573,7 @@
 <sup>23</sup> And Moses said unto Jehovah, The people cannot come up to mount Sinai: for thou didst charge us, saying, Set bounds about the mount, and sanctify it.
 <sup>24</sup> And Jehovah said unto him, Go, get thee down; and thou shalt come up, thou, and Aaron with thee: but let not the priests and the people break through to come up unto Jehovah, lest he break forth upon them.
 <sup>25</sup> So Moses went down unto the people, and told them.
+
 ## Chapter 20
 
 <sup>1</sup> And God spake all these words, saying,
@@ -583,6 +602,7 @@
 <sup>24</sup> An altar of earth thou shalt make unto me, and shalt sacrifice thereon thy burnt-offerings, and thy peace-offerings, thy sheep, and thine oxen: in every place where I record my name I will come unto thee and I will bless thee.
 <sup>25</sup> And if thou make me an altar of stone, thou shalt not build it of hewn stones; for if thou lift up thy tool upon it, thou hast polluted it.
 <sup>26</sup> Neither shalt thou go up by steps unto mine altar, that thy nakedness be not uncovered thereon.
+
 ## Chapter 21
 
 <sup>1</sup> Now these are the ordinances which thou shalt set before them.
@@ -621,6 +641,7 @@
 <sup>34</sup> the owner of the pit shall make it good; he shall give money unto the owner thereof, and the dead beast shall be his.
 <sup>35</sup> And if one man’s ox hurt another’s, so that it dieth, then they shall sell the live ox, and divide the price of it: and the dead also they shall divide.
 <sup>36</sup> Or if it be known that the ox was wont to gore in time past, and its owner hath not kept it in, he shall surely pay ox for ox, and the dead beast shall be his own.
+
 ## Chapter 22
 
 <sup>1</sup> If a man shall steal an ox, or a sheep, and kill it, or sell it; he shall pay five oxen for an ox, and four sheep for a sheep.
@@ -654,6 +675,7 @@
 <sup>29</sup> Thou shalt not delay to offer of thy harvest, and of the outflow of thy presses. The first-born of thy sons shalt thou give unto me.
 <sup>30</sup> Likewise shalt thou do with thine oxen, and with thy sheep: seven days it shall be with its dam; on the eighth day thou shalt give it me.
 <sup>31</sup> And ye shall be holy men unto me: therefore ye shall not eat any flesh that is torn of beasts in the field; ye shall cast it to the dogs.
+
 ## Chapter 23
 
 <sup>1</sup> Thou shalt not take up a false report: put not thy hand with the wicked to be an unrighteous witness.
@@ -689,6 +711,7 @@
 <sup>31</sup> And I will set thy border from the Red Sea even unto the sea of the Philistines, and from the wilderness unto the River: for I will deliver the inhabitants of the land into your hand: and thou shalt drive them out before thee.
 <sup>32</sup> Thou shalt make no covenant with them, nor with their gods.
 <sup>33</sup> They shall not dwell in thy land, lest they make thee sin against me; for if thou serve their gods, it will surely be a snare unto thee.
+
 ## Chapter 24
 
 <sup>1</sup> And he said unto Moses, Come up unto Jehovah, thou, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship ye afar off:
@@ -709,6 +732,7 @@
 <sup>16</sup> And the glory of Jehovah abode upon mount Sinai, and the cloud covered it six days: and the seventh day he called unto Moses out of the midst of the cloud.
 <sup>17</sup> And the appearance of the glory of Jehovah was like devouring fire on the top of the mount in the eyes of the children of Israel.
 <sup>18</sup> And Moses entered into the midst of the cloud, and went up into the mount: and Moses was in the mount forty days and forty nights.
+
 ## Chapter 25
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -751,6 +775,7 @@
 <sup>38</sup> And the snuffers thereof, and the snuffdishes thereof, shall be of pure gold.
 <sup>39</sup> Of a talent of pure gold shall it be made, with all these vessels.
 <sup>40</sup> And see that thou make them after their pattern, which hath been showed thee in the mount.
+
 ## Chapter 26
 
 <sup>1</sup> Moreover thou shalt make the tabernacle with ten curtains; of fine twined linen, and blue, and purple, and scarlet, with cherubim the work of the skilful workman shalt thou make them.
@@ -790,6 +815,7 @@
 <sup>35</sup> And thou shalt set the table without the veil, and the candlestick over against the table on the side of the tabernacle toward the south: and thou shalt put the table on the north side.
 <sup>36</sup> And thou shalt make a screen for the door of the Tent, of blue, and purple, and scarlet, and fine twined linen, the work of the embroiderer.
 <sup>37</sup> And thou shalt make for the screen five pillars of acacia, and overlay them with gold: their hooks shall be of gold: and thou shalt cast five sockets of brass for them.
+
 ## Chapter 27
 
 <sup>1</sup> And thou shalt make the altar of acacia wood, five cubits long, and five cubits broad; the altar shall be foursquare: and the height thereof shall be three cubits.
@@ -813,6 +839,7 @@
 <sup>19</sup> All the instruments of the tabernacle in all the service thereof, and all the pins thereof, and all the pins of the court, shall be of brass.
 <sup>20</sup> And thou shalt command the children of Israel, that they bring unto thee pure olive oil beaten for the light, to cause a lamp to burn continually.
 <sup>21</sup> In the tent of meeting, without the veil which is before the testimony, Aaron and his sons shall keep it in order from evening to morning before Jehovah: it shall be a statue for ever throughout their generations on the behalf of the children of Israel.
+
 ## Chapter 28
 
 <sup>1</sup> And bring thou near unto thee Aaron thy brother, and his sons with him, from among the children of Israel, that he may minister unto me in the priest’s office, even Aaron, Nadab and Abihu, Eleazar and Ithamar, Aaron’s sons.
@@ -858,6 +885,7 @@
 <sup>41</sup> And thou shalt put them upon Aaron thy brother, and upon his sons with him, and shalt anoint them, and consecrate them, and sanctify them, that they may minister unto me in the priest’s office.
 <sup>42</sup> And thou shalt make them linen breeches to cover the flesh of their nakedness; from the loins even unto the thighs they shall reach:
 <sup>43</sup> And they shall be upon Aaron, and upon his sons, when they go in unto the tent of meeting, or when they come near unto the altar to minister in the holy place; that they bear not iniquity, and die: it shall be a statute for ever unto him and unto his seed after him.
+
 ## Chapter 29
 
 <sup>1</sup> And this is the thing that thou shalt do unto them to hallow them, to minister unto me in the priest’s office: take one young bullock and two rams without blemish,
@@ -906,6 +934,7 @@
 <sup>44</sup> And I will sanctify the tent of meeting, and the altar: Aaron also and his sons will I sanctify, to minister to me in the priest’s office.
 <sup>45</sup> And I will dwell among the children of Israel, and will be their God.
 <sup>46</sup> And they shall know that I am Jehovah their God, that brought them forth out of the land of Egypt, that I might dwell among them: I am Jehovah their God.
+
 ## Chapter 30
 
 <sup>1</sup> And thou shalt make an altar to burn incense upon: of acacia wood shalt thou make it.
@@ -946,6 +975,7 @@
 <sup>36</sup> and thou shalt beat some of it very small, and put of it before the testimony in the tent of meeting, where I will meet with thee: it shall be unto you most holy.
 <sup>37</sup> And the incense which thou shalt make, according to the composition thereof ye shall not make for yourselves: it shall be unto thee holy for Jehovah.
 <sup>38</sup> Whosoever shall make like unto that, to smell thereof, he shall be cut off from his people.
+
 ## Chapter 31
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -966,6 +996,7 @@
 <sup>16</sup> Wherefore the children of Israel shall keep the sabbath, to observe the sabbath throughout their generations, for a perpetual covenant.
 <sup>17</sup> It is a sign between me and the children of Israel for ever: for in six days Jehovah made heaven and earth, and on the seventh day he rested, and was refreshed.
 <sup>18</sup> And he gave unto Moses, when he had made an end of communing with him upon mount Sinai, the two tables of the testimony, tables of stone, written with the finger of God.
+
 ## Chapter 32
 
 <sup>1</sup> And when the people saw that Moses delayed to come down from the mount, the people gathered themselves together unto Aaron, and said unto him, Up, make us gods, which shall go before us; for as for this Moses, the man that brought us up out of the land of Egypt, we know not what is become of him.
@@ -1003,6 +1034,7 @@
 <sup>33</sup> And Jehovah said unto Moses, Whosoever hath sinned against me, him will I blot out of my book.
 <sup>34</sup> And now go, lead the people unto the place of which I have spoken unto thee: behold, mine angel shall go before thee; nevertheless in the day when I visit, I will visit their sin upon them.
 <sup>35</sup> And Jehovah smote the people, because they made the calf, which Aaron made.
+
 ## Chapter 33
 
 <sup>1</sup> And Jehovah spake unto Moses, Depart, go up hence, thou and the people that thou hast brought up out of the land of Egypt, unto the land of which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it:
@@ -1028,6 +1060,7 @@
 <sup>21</sup> and Jehovah said, Behold, there is a place by me, and thou shalt stand upon the rock:
 <sup>22</sup> and it shall come to pass, while my glory passeth by, that I will put thee in a cleft of the rock, and will cover thee with my hand until I have passed by:
 <sup>23</sup> and I will take away my hand, and thou shalt see my back; but my face shall not be seen.
+
 ## Chapter 34
 
 <sup>1</sup> And Jehovah said unto Moses, Hew thee two tables of stone like unto the first: and I will write upon the tables the words that were on the first tables, which thou brakest.
@@ -1065,6 +1098,7 @@
 <sup>33</sup> And when Moses had done speaking with them, he put a veil on his face.
 <sup>34</sup> But when Moses went in before Jehovah to speak with him, he took the veil off, until he came out; and he came out, and spake unto the children of Israel that which he was commanded.
 <sup>35</sup> And the children of Israel saw the face of Moses, that the skin of Moses’ face shone: and Moses put the veil upon his face again, until he went in to speak with him.
+
 ## Chapter 35
 
 <sup>1</sup> And Moses assembled all the congregation of the children of Israel, and said unto them, These are the words which Jehovah hath commanded, that ye should do them.
@@ -1102,6 +1136,7 @@
 <sup>33</sup> and in cutting of stones for setting, and in carving of wood, to work in all manner of skilful workmanship.
 <sup>34</sup> And he hath put in his heart that he may teach, both he, and Oholiab, the son of Ahisamach, of the tribe of Dan.
 <sup>35</sup> Them hath he filled with wisdom of heart, to work all manner of workmanship, of the engraver, and of the skilful workman, and of the embroiderer, in blue, and in purple, in scarlet, and in fine linen, and of the weaver, even of them that do any workmanship, and of those that devise skilful works.
+
 ## Chapter 36
 
 <sup>1</sup> And Bezalel and Oholiab shall work, and every wise-hearted man, in whom Jehovah hath put wisdom and understanding to know how to work all the work for the service of the sanctuary, according to all that Jehovah hath commanded.
@@ -1142,6 +1177,7 @@
 <sup>36</sup> And he made thereunto four pillars of acacia, and overlaid them with gold: their hooks were of gold; And he cast for them four sockets of silver.
 <sup>37</sup> And he made a screen for the door of the Tent, of blue, and purple, and scarlet, and fine twined linen, the work of the embroiderer;
 <sup>38</sup> and the five pillars of it with their hooks: and he overlaid their capitals and their fillets with gold; and their five sockets were of brass.
+
 ## Chapter 37
 
 <sup>1</sup> And Bezalel made the ark of acacia wood: two cubits and a half was the length of it, and a cubit and a half the breadth of it, and a cubit and a half the height of it:
@@ -1173,6 +1209,7 @@
 <sup>27</sup> And he made for it two golden rings under the crown thereof, upon the two ribs thereof, upon the two sides of it, for places for staves wherewith to bear it.
 <sup>28</sup> And he made the staves of acacia wood, and overlaid them with gold.
 <sup>29</sup> And he made the holy anointing oil, and the pure incense of sweet spices, after the art of the perfumer.
+
 ## Chapter 38
 
 <sup>1</sup> And he made the altar of burnt-offering of acacia wood: five cubits was the length thereof, and five cubits the breadth thereof, foursquare; and three cubits the height thereof.
@@ -1206,6 +1243,7 @@
 <sup>29</sup> And the brass of the offering was seventy talents, and two thousand and four hundred shekels.
 <sup>30</sup> And therewith he made the sockets to the door of the tent of meeting, and the brazen altar, and the brazen grating for it, and all the vessels of the altar,
 <sup>31</sup> and the sockets of the court round about, and the sockets of the gate of the court, and all the pins of the tabernacle, and all the pins of the court round about.
+
 ## Chapter 39
 
 <sup>1</sup> And of the blue, and purple, and scarlet, they made finely wrought garments, for ministering in the holy place, and made the holy garments for Aaron; as Jehovah commanded Moses.
@@ -1251,6 +1289,7 @@
 <sup>41</sup> the finely wrought garments for ministering in the holy place, and the holy garments for Aaron the priest, and the garments of his sons, to minister in the priest’s office.
 <sup>42</sup> According to all that Jehovah commanded Moses, so the children of Israel did all the work.
 <sup>43</sup> And Moses saw all the work, and, behold, they had done it; as Jehovah had commanded, even so had they done it: and Moses blessed them.
+
 ## Chapter 40
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,

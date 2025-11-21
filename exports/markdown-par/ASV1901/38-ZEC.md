@@ -21,6 +21,7 @@
 <sup>19</sup> And I said unto the angel that talked with me, What are these? And he answered me, These are the horns which have scattered Judah, Israel, and Jerusalem.
 <sup>20</sup> And Jehovah showed me four smiths.
 <sup>21</sup> Then said I, What come these to do? And he spake, saying, These are the horns which scattered Judah, so that no man did lift up his head; but these are come to terrify them, to cast down the horns of the nations, which lifted up their horn against the land of Judah to scatter it.
+
 ## Chapter 2
 
 <sup>1</sup> And I lifted up mine eyes, and saw, and, behold, a man with a measuring line in his hand.
@@ -36,6 +37,7 @@
 <sup>11</sup> And many nations shall join themselves to Jehovah in that day, and shall be my people; and I will dwell in the midst of thee, and thou shalt know that Jehovah of hosts has sent me unto thee.
 <sup>12</sup> And Jehovah shall inherit Judah as his portion in the holy land, and shall yet choose Jerusalem.
 <sup>13</sup> Be silent, all flesh, before Jehovah; for he is waked up out of his holy habitation.
+
 ## Chapter 3
 
 <sup>1</sup> And he showed me Joshua the high priest standing before the angel of Jehovah, and Satan standing at his right hand to be his adversary.
@@ -48,6 +50,7 @@
 <sup>8</sup> Hear now, O Joshua the high priest, thou and thy fellows that sit before thee; for they are men that are a sign: for, behold, I will bring forth my servant the Branch.
 <sup>9</sup> For, behold, the stone that I have set before Joshua; upon one stone are seven eyes: behold, I will engrave the graving thereof, saith Jehovah of hosts, and I will remove the iniquity of that land in one day.
 <sup>10</sup> In that day, saith Jehovah of hosts, shall ye invite every man his neighbor under the vine and under the fig-tree.
+
 ## Chapter 4
 
 <sup>1</sup> And the angel that talked with me came again, and waked me, as a man that is wakened out of his sleep.
@@ -64,6 +67,7 @@
 <sup>12</sup> And I answered the second time, and said unto him, What are these two olive-branches, which are beside the two golden spouts, that empty the golden oil out of themselves?
 <sup>13</sup> And he answered me and said, Knowest thou not what these are? And I said, No, my lord.
 <sup>14</sup> Then said he, These are the two anointed ones, that stand by the Lord of the whole earth.
+
 ## Chapter 5
 
 <sup>1</sup> Then again I lifted up mine eyes, and saw, and, behold, a flying roll.
@@ -77,6 +81,7 @@
 <sup>9</sup> Then lifted I up mine eyes, and saw, and, behold, there came forth two women, and the wind was in their wings; now they had wings like the wings of a stork; and they lifted up the ephah between earth and heaven.
 <sup>10</sup> Then said I to the angel that talked with me, Whither do these bear the ephah?
 <sup>11</sup> And he said unto me, To build her a house in the land of Shinar: and when it is prepared, she shall be set there in her own place.
+
 ## Chapter 6
 
 <sup>1</sup> And again I lifted up mine eyes, and saw, and, behold, there came four chariots out from between two mountains; and the mountains were mountains of brass.
@@ -94,6 +99,7 @@
 <sup>13</sup> even he shall build the temple of Jehovah; and he shall bear the glory, and shall sit and rule upon his throne; and he shall be a priest upon his throne; and the counsel of peace shall be between them both.
 <sup>14</sup> And the crowns shall be to Helem, and to Tobijah, and to Jedaiah, and to Hen the son of Zephaniah, for a memorial in the temple of Jehovah.
 <sup>15</sup> And they that are far off shall come and build in the temple of Jehovah; and ye shall know that Jehovah of hosts hath sent me unto you. And this shall come to pass, if ye will diligently obey the voice of Jehovah your God.
+
 ## Chapter 7
 
 <sup>1</sup> And it came to pass in the fourth year of king Darius, that the word of Jehovah came unto Zechariah in the fourth day of the ninth month, even in Chislev.
@@ -110,6 +116,7 @@
 <sup>12</sup> Yea, they made their hearts as an adamant stone, lest they should hear the law, and the words which Jehovah of hosts had sent by his Spirit by the former prophets: therefore there came great wrath from Jehovah of hosts.
 <sup>13</sup> And it is come to pass that, as he cried, and they would not hear, so they shall cry, and I will not hear, said Jehovah of hosts;
 <sup>14</sup> but I will scatter them with a whirlwind among all the nations which they have not known. Thus the land was desolate after them, so that no man passed through nor returned: for they laid the pleasant land desolate.
+
 ## Chapter 8
 
 <sup>1</sup> And the word of Jehovah of hosts came to me, saying,
@@ -135,6 +142,7 @@
 <sup>21</sup> and the inhabitants of one city shall go to another, saying, Let us go speedily to entreat the favor of Jehovah, and to seek Jehovah of hosts: I will go also.
 <sup>22</sup> Yea, many peoples and strong nations shall come to seek Jehovah of hosts in Jerusalem, and to entreat the favor of Jehovah.
 <sup>23</sup> Thus saith Jehovah of hosts: In those days it shall come to pass, that ten men shall take hold, out of all the languages of the nations, they shall take hold of the skirt of him that is a Jew, saying, We will go with you, for we have heard that God is with you.
+
 ## Chapter 9
 
 <sup>1</sup> The burden of the word of Jehovah upon the land of Hadrach, and Damascus shall be its resting-place (for the eye of man and of all the tribes of Israel is toward Jehovah);
@@ -154,6 +162,7 @@
 <sup>15</sup> Jehovah of hosts will defend them; and they shall devour, and shall tread down the sling-stones; and they shall drink, and make a noise as through wine; and they shall be filled like bowls, like the corners of the altar.
 <sup>16</sup> And Jehovah their God will save them in that day as the flock of his people; for they shall be as the stones of a crown, lifted on high over his land.
 <sup>17</sup> For how great is his goodness, and how great is his beauty! grain shall make the young men flourish, and new wine the virgins.
+
 ## Chapter 10
 
 <sup>1</sup> Ask ye of Jehovah rain in the time of the latter rain, even of Jehovah that maketh lightnings; and he will give them showers of rain, to every one grass in the field.
@@ -168,6 +177,7 @@
 <sup>10</sup> I will bring them again also out of the land of Egypt, and gather them out of Assyria; and I will bring them into the land of Gilead and Lebanon; and place shall not be found for them.
 <sup>11</sup> And he will pass through the sea of affliction, and will smite the waves in the sea, and all the depths of the Nile shall dry up; and the pride of Assyria shall be brought down, and the sceptre of Egypt shall depart.
 <sup>12</sup> And I will strengthen them in Jehovah; and they shall walk up and down in his name, saith Jehovah.
+
 ## Chapter 11
 
 <sup>1</sup> Open thy doors, O Lebanon, that the fire may devour thy cedars.
@@ -187,6 +197,7 @@
 <sup>15</sup> And Jehovah said unto me, Take unto thee yet again the instruments of a foolish shepherd.
 <sup>16</sup> For, lo, I will raise up a shepherd in the land, who will not visit those that are cut off, neither will seek those that are scattered, nor heal that which is broken, nor feed that which is sound; but he will eat the flesh of the fat sheep, and will tear their hoofs in pieces.
 <sup>17</sup> Woe to the worthless shepherd that leaveth the flock! the sword shall be upon his arm, and upon his right eye: his arm shall be clean dried up, and his right eye shall be utterly darkened.
+
 ## Chapter 12
 
 <sup>1</sup> The burden of the word of Jehovah concerning Israel. Thus saith Jehovah, who stretcheth forth the heavens, and layeth the foundation of the earth, and formeth the spirit of man within him:
@@ -203,6 +214,7 @@
 <sup>12</sup> And the land shall mourn, every family apart; the family of the house of David apart, and their wives apart; the family of the house of Nathan apart, and their wives apart;
 <sup>13</sup> the family of the house of Levi apart, and their wives apart; the family of the Shimeites apart, and their wives apart;
 <sup>14</sup> all the families that remain, every family apart, and their wives apart.
+
 ## Chapter 13
 
 <sup>1</sup> In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem, for sin and for uncleanness.
@@ -214,6 +226,7 @@
 <sup>7</sup> Awake, O sword, against my shepherd, and against the man that is my fellow, saith Jehovah of hosts: smite the shepherd, and the sheep shall be scattered; and I will turn my hand upon the little ones.
 <sup>8</sup> And it shall come to pass, that in all the land, saith Jehovah, two parts therein shall be cut off and die; but the third shall be left therein.
 <sup>9</sup> And I will bring the third part into the fire, and will refine them as silver is refined, and will try them as gold is tried. They shall call on my name, and I will hear them: I will say, It is my people; and they shall say, Jehovah is my God.
+
 ## Chapter 14
 
 <sup>1</sup> Behold, a day of Jehovah cometh, when thy spoil shall be divided in the midst of thee.

@@ -15,6 +15,7 @@
 <sup>13</sup> And now will I break his yoke from off thee, and will burst thy bonds in sunder.
 <sup>14</sup> And Jehovah hath given commandment concerning thee, that no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image; I will make thy grave; for thou art vile.
 <sup>15</sup> Behold, upon the mountains the feet of him that bringeth good tidings, that publisheth peace! Keep thy feasts, O Judah, perform thy vows; for the wicked one shall no more pass through thee; he is utterly cut off.
+
 ## Chapter 2
 
 <sup>1</sup> He that dasheth in pieces is come up against thee: keep the fortress, watch the way, make thy loins strong, fortify thy power mightily.
@@ -30,6 +31,7 @@
 <sup>11</sup> Where is the den of the lions, and the feeding-place of the young lions, where the lion and the lioness walked, the lion’s whelp, and none made them afraid?
 <sup>12</sup> The lion did tear in pieces enough for his whelps, and strangled for his lionesses, and filled his caves with prey, and his dens with ravin.
 <sup>13</sup> Behold, I am against thee, saith Jehovah of hosts, and I will burn her chariots in the smoke, and the sword shall devour thy young lions; and I will cut off thy prey from the earth, and the voice of thy messengers shall no more be heard.
+
 ## Chapter 3
 
 <sup>1</sup> Woe to the bloody city! it is all full of lies and rapine; the prey departeth not.

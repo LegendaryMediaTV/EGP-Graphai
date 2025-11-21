@@ -17,6 +17,7 @@
 <sup>15</sup> And the priest shall bring it unto the altar, and wring off its head, and burn it on the altar; and the blood thereof shall be drained out on the side of the altar;
 <sup>16</sup> and he shall take away its crop with the filth thereof, and cast it beside the altar on the east part, in the place of the ashes:
 <sup>17</sup> and he shall rend it by the wings thereof, but shall not divide it asunder; and the priest shall burn it upon the altar, upon the wood that is upon the fire: it is a burnt-offering, an offering made by fire, of a sweet savor unto Jehovah.
+
 ## Chapter 2
 
 <sup>1</sup> And when any one offereth an oblation of a meal-offering unto Jehovah, his oblation shall be of fine flour; and he shall pour oil upon it, and put frankincense thereon:
@@ -35,6 +36,7 @@
 <sup>14</sup> And if thou offer a meal-offering of first-fruits unto Jehovah, thou shalt offer for the meal-offering of thy first-fruits grain in the ear parched with fire, bruised grain of the fresh ear.
 <sup>15</sup> And thou shalt put oil upon it, and lay frankincense thereon: it is a meal-offering.
 <sup>16</sup> And the priest shall burn the memorial of it, part of the bruised grain thereof, and part of the oil thereof, with all the frankincense thereof: it is an offering made by fire unto Jehovah.
+
 ## Chapter 3
 
 <sup>1</sup> And if his oblation be a sacrifice of peace-offerings; if he offer of the herd, whether male or female, he shall offer it without blemish before Jehovah.
@@ -54,6 +56,7 @@
 <sup>15</sup> and the two kidneys, and the fat that is upon them, which is by the loins, and the caul upon the liver, with the kidneys, shall he take away.
 <sup>16</sup> And the priest shall burn them upon the altar: it is the food of the offering made by fire, for a sweet savor; all the fat is Jehovah’s.
 <sup>17</sup> It shall be a perpetual statute throughout your generations in all your dwellings, that ye shall eat neither fat nor blood.
+
 ## Chapter 4
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -91,6 +94,7 @@
 <sup>33</sup> And he shall lay his hand upon the head of the sin-offering, and kill it for a sin-offering in the place where they kill the burnt-offering.
 <sup>34</sup> And the priest shall take of the blood of the sin-offering with his finger, and put it upon the horns of the altar of burnt-offering; and all the blood thereof shall he pour out at the base of the altar:
 <sup>35</sup> and all the fat thereof shall he take away, as the fat of the lamb is taken away from the sacrifice of peace-offerings; and the priest shall burn them on the altar, upon the offerings of Jehovah made by fire; and the priest shall make atonement for him as touching his sin that he hath sinned, and he shall be forgiven.
+
 ## Chapter 5
 
 <sup>1</sup> And if any one sin, in that he heareth the voice of adjuration, he being a witness, whether he hath seen or known, if he do not utter it, then he shall bear his iniquity.
@@ -112,6 +116,7 @@
 <sup>17</sup> And if any one sin, and do any of the things which Jehovah hath commanded not to be done; though he knew it not, yet is he guilty, and shall bear his iniquity.
 <sup>18</sup> And he shall bring a ram without blemish out of the flock, according to thy estimation, for a trespass-offering, unto the priest; and the priest shall make atonement for him concerning the thing wherein he erred unwittingly and knew it not, and he shall be forgiven.
 <sup>19</sup> It is a trespass-offering: he is certainly guilty before Jehovah.
+
 ## Chapter 6
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -144,6 +149,7 @@
 <sup>28</sup> But the earthen vessel wherein it is boiled shall be broken; and if it be boiled in a brazen vessel, it shall be scoured, and rinsed in water.
 <sup>29</sup> Every male among the priests shall eat thereof: it is most holy.
 <sup>30</sup> And no sin-offering, whereof any of the blood is brought into the tent of meeting to make atonement in the holy place, shall be eaten: it shall be burnt with fire.
+
 ## Chapter 7
 
 <sup>1</sup> And this is the law of the trespass-offering: it is most holy.
@@ -184,6 +190,7 @@
 <sup>36</sup> which Jehovah commanded to be given them of the children of Israel, in the day that he anointed them. It is their portion for ever throughout their generations.
 <sup>37</sup> This is the law of the burnt-offering, of the meal-offering, and of the sin-offering, and of the trespass-offering, and of the consecration, and of the sacrifice of peace-offerings;
 <sup>38</sup> which Jehovah commanded Moses in mount Sinai, in the day that he commanded the children of Israel to offer their oblations unto Jehovah, in the wilderness of Sinai.
+
 ## Chapter 8
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -222,6 +229,7 @@
 <sup>34</sup> As hath been done this day, so Jehovah hath commanded to do, to make atonement for you.
 <sup>35</sup> And at the door of the tent of meeting shall ye abide day and night seven days, and keep the charge of Jehovah, that ye die not: for so I am commanded.
 <sup>36</sup> And Aaron and his sons did all the things which Jehovah commanded by Moses.
+
 ## Chapter 9
 
 <sup>1</sup> And it came to pass on the eighth day, that Moses called Aaron and his sons, and the elders of Israel;
@@ -248,6 +256,7 @@
 <sup>22</sup> And Aaron lifted up his hands toward the people, and blessed them; and he came down from offering the sin-offering, and the burnt-offering, and the peace-offerings.
 <sup>23</sup> And Moses and Aaron went into the tent of meeting, and came out, and blessed the people: and the glory of Jehovah appeared unto all the people.
 <sup>24</sup> And there came forth fire from before Jehovah, and consumed upon the altar the burnt-offering and the fat: and when all the people saw it, they shouted, and fell on their faces.
+
 ## Chapter 10
 
 <sup>1</sup> And Nadab and Abihu, the sons of Aaron, took each of them his censer, and put fire therein, and laid incense thereon, and offered strange fire before Jehovah, which he had not commanded them.
@@ -270,6 +279,7 @@
 <sup>18</sup> Behold, the blood of it was not brought into the sanctuary within: ye should certainly have eaten it in the sanctuary, as I commanded.
 <sup>19</sup> And Aaron spake unto Moses, Behold, this day have they offered their sin-offering and their burnt-offering before Jehovah; and there have befallen me such things as these: and if I had eaten the sin-offering to-day, would it have been well-pleasing in the sight of Jehovah?
 <sup>20</sup> And when Moses heard that, it was well-pleasing in his sight.
+
 ## Chapter 11
 
 <sup>1</sup> And Jehovah spake unto Moses and to Aaron, saying unto them,
@@ -319,6 +329,7 @@
 <sup>45</sup> For I am Jehovah that brought you up out of the land of Egypt, to be your God: ye shall therefore be holy, for I am holy.
 <sup>46</sup> This is the law of the beast, and of the bird, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth;
 <sup>47</sup> to make a distinction between the unclean and the clean, and between the living thing that may be eaten and the living thing that may not be eaten.
+
 ## Chapter 12
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -329,6 +340,7 @@
 <sup>6</sup> And when the days of her purifying are fulfilled, for a son, or for a daughter, she shall bring a lamb a year old for a burnt-offering, and a young pigeon, or a turtle-dove, for a sin-offering, unto the door of the tent of meeting, unto the priest:
 <sup>7</sup> and he shall offer it before Jehovah, and make atonement for her; and she shall be cleansed from the fountain of her blood. This is the law for her that beareth, whether a male or a female.
 <sup>8</sup> And if her means suffice not for a lamb, then she shall take two turtle-doves, or two young pigeons; the one for a burnt-offering, and the other for a sin-offering: and the priest shall make atonement for her, and she shall be clean.
+
 ## Chapter 13
 
 <sup>1</sup> And Jehovah spake unto Moses and unto Aaron, saying,
@@ -390,6 +402,7 @@
 <sup>57</sup> and if it appear still in the garment, either in the warp, or in the woof, or in anything of skin, it is breaking out: thou shalt burn that wherein the plague is with fire.
 <sup>58</sup> And the garment, either the warp, or the woof, or whatsoever thing of skin it be, which thou shalt wash, if the plague be departed from them, then it shall be washed the second time, and shall be clean.
 <sup>59</sup> This is the law of th plague of leprosy in a garment of woollen or linen, either in the warp, or the woof, or anything of skin, to pronounce it clean, or to pronounce it unclean.
+
 ## Chapter 14
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -449,6 +462,7 @@
 <sup>55</sup> and for the leprosy of a garment, and for a house,
 <sup>56</sup> and for a rising, and for a scab, and for a bright spot;
 <sup>57</sup> to teach when it is unclean, and when it is clean: this is the law of leprosy.
+
 ## Chapter 15
 
 <sup>1</sup> And Jehovah spake unto Moses and to Aaron, saying,
@@ -484,6 +498,7 @@
 <sup>31</sup> Thus shall ye separate the children of Israel from their uncleanness, that they die not in their uncleanness, when they defile my tabernacle that is in the midst of them.
 <sup>32</sup> This is the law of him that hath an issue, and of him whose seed of copulation goeth from him, so that he is unclean thereby;
 <sup>33</sup> and of her that is sick with her impurity, and of him that hath an issue, of the man, and of the woman, and of him that lieth with her that is unclean.
+
 ## Chapter 16
 
 <sup>1</sup> And Jehovah spake unto Moses, after the death of the two sons of Aaron, when they drew near before Jehovah, and died;
@@ -520,6 +535,7 @@
 <sup>32</sup> And the priest, who shall be anointed and who shall be consecrated to be priest in his father’s stead, shall make the atonement, and shall put on the linen garments, even the holy garments:
 <sup>33</sup> and he shall make atonement for the holy sanctuary; and he shall make atonement for the tent of meeting and for the altar; and he shall make atonement for the priests and for all the people of the assembly.
 <sup>34</sup> And this shall be an everlasting statute unto you, to make atonement for the children of Israel because of all their sins once in the year. And he did as Jehovah commanded Moses.
+
 ## Chapter 17
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -538,6 +554,7 @@
 <sup>14</sup> For as to the life of all flesh, the blood thereof is all one with the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh; for the life of all flesh is the blood thereof: whosoever eateth it shall be cut off.
 <sup>15</sup> And every soul that eateth that which dieth of itself, or that which is torn of beasts, whether he be home-born or a sojourner, he shall wash his clothes, and bathe himself in water, and be unclean until the even: then shall he be clean.
 <sup>16</sup> But if he wash them not, nor bathe his flesh, then he shall bear his iniquity.
+
 ## Chapter 18
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -570,6 +587,7 @@
 <sup>28</sup> that the land vomit not you out also, when ye defile it, as it vomited out the nation that was before you.
 <sup>29</sup> For whosoever shall do any of these abominations, even the souls that do them shall be cut off from among their people.
 <sup>30</sup> Therefore shall ye keep my charge, that ye practise not any of these abominable customs, which were practised before you, and that ye defile not yourselves therein: I am Jehovah your God.
+
 ## Chapter 19
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -609,6 +627,7 @@
 <sup>35</sup> Ye shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity.
 <sup>36</sup> Just balances, just weights, a just ephah, and a just hin, shall ye have: I am Jehovah your God, who brought you out of the land of Egypt.
 <sup>37</sup> And ye shall observe all my statutes, and all mine ordinances, and do them: I am Jehovah.
+
 ## Chapter 20
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -638,6 +657,7 @@
 <sup>25</sup> Ye shall therefore make a distinction between the clean beast and the unclean, and between the unclean fowl and the clean: and ye shall not make your souls abominable by beast, or by bird, or by anything wherewith the ground teemeth, which I have separated from you as unclean.
 <sup>26</sup> And ye shall be holy unto me: for I, Jehovah, am holy, and have set you apart from the peoples, that ye should be mine.
 <sup>27</sup> A man also or a woman that hath a familiar spirit, or that is a wizard, shall surely be put to death: they shall stone them with stones; their blood shall be upon them.
+
 ## Chapter 21
 
 <sup>1</sup> And Jehovah said unto Moses, Speak unto the priests, the sons of Aaron, and say unto them, There shall none defile himself for the dead among his people;
@@ -664,6 +684,7 @@
 <sup>22</sup> He shall eat the bread of his God, both of the most holy, and of the holy:
 <sup>23</sup> only he shall not go in unto the veil, nor come nigh unto the altar, because he hath a blemish; that he profane not my sanctuaries: for I am Jehovah who sanctifieth them.
 <sup>24</sup> So Moses spake unto Aaron, and to his sons, and unto all the children of Israel.
+
 ## Chapter 22
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -699,6 +720,7 @@
 <sup>31</sup> Therefore shall ye keep my commandments, and do them: I am Jehovah.
 <sup>32</sup> And ye shall not profane my holy name; but I will be hallowed among the children of Israel: I am Jehovah who halloweth you,
 <sup>33</sup> who brought you out of the land of Egypt, to be your God: I am Jehovah.
+
 ## Chapter 23
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -745,6 +767,7 @@
 <sup>42</sup> Ye shall dwell in booths seven days; all that are home-born in Israel shall dwell in booths;
 <sup>43</sup> that your generations may know that I made the children of Israel to dwell in booths, when I brought them out of the land of Egypt: I am Jehovah your God.
 <sup>44</sup> And Moses declared unto the children of Israel the set feasts of Jehovah.
+
 ## Chapter 24
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,
@@ -770,6 +793,7 @@
 <sup>21</sup> And he that killeth a beast shall make it good: and he that killeth a man shall be put to death.
 <sup>22</sup> Ye shall have one manner of law, as well for the sojourner, as for the home-born: for I am Jehovah your God.
 <sup>23</sup> And Moses spake to the children of Israel; and they brought forth him that had cursed out of the camp, and stoned him with stones. And the children of Israel did as Jehovah commanded Moses.
+
 ## Chapter 25
 
 <sup>1</sup> And Jehovah spake unto Moses in mount Sinai, saying,
@@ -827,6 +851,7 @@
 <sup>53</sup> As a servant hired year by year shall he be with him: he shall not rule with rigor over him in thy sight.
 <sup>54</sup> And if he be not redeemed by these means, then he shall go out in the year of jubilee, he, and his children with him.
 <sup>55</sup> For unto me the children of Israel are servants; they are my servants whom I brought forth out of the land of Egypt: I am Jehovah your God.
+
 ## Chapter 26
 
 <sup>1</sup> Ye shall make you no idols, neither shall ye rear you up a graven image, or a pillar, neither shall ye place any figured stone in your land, to bow down unto it: for I am Jehovah your God.
@@ -875,6 +900,7 @@
 <sup>44</sup> And yet for all that, when they are in the land of their enemies, I will not reject them, neither will I abhor them, to destroy them utterly, and to break my covenant with them; for I am Jehovah their God;
 <sup>45</sup> but I will for their sakes remember the covenant of their ancestors, whom I brought forth out of the land of Egypt in the sight of the nations, that I might be their God: I am Jehovah.
 <sup>46</sup> These are the statutes and ordinances and laws, which Jehovah made between him and the children of Israel in mount Sinai by Moses.
+
 ## Chapter 27
 
 <sup>1</sup> And Jehovah spake unto Moses, saying,

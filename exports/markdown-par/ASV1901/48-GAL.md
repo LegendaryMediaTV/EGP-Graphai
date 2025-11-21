@@ -24,6 +24,7 @@
 <sup>22</sup> And I was still unknown by face unto the churches of Judaea which were in Christ:
 <sup>23</sup> but they only heard say, He that once persecuted us now preacheth the faith of which he once made havoc;
 <sup>24</sup> and they glorified God in me.
+
 ## Chapter 2
 
 <sup>1</sup> Then after the space of fourteen years I went up again to Jerusalem with Barnabas, taking Titus also with me.
@@ -47,6 +48,7 @@
 <sup>19</sup> For I through the law died unto the law, that I might live unto God.
 <sup>20</sup> I have been crucified with Christ; and it is no longer I that live, but Christ living in me: and that life which I now live in the flesh I live in faith, the faith which is in the Son of God, who loved me, and gave himself up for me.
 <sup>21</sup> I do not make void the grace of God: for if righteousness is through the law, then Christ died for nought.
+
 ## Chapter 3
 
 <sup>1</sup> O foolish Galatians, who did bewitch you, before whose eyes Jesus Christ was openly set forth crucified?
@@ -78,6 +80,7 @@
 <sup>27</sup> For as many of you as were baptized into Christ did put on Christ.
 <sup>28</sup> There can be neither Jew nor Greek, there can be neither bond nor free, there can be no male and female; for ye all are one man in Christ Jesus.
 <sup>29</sup> And if ye are Christ’s, then are ye Abraham’s seed, heirs according to promise.
+
 ## Chapter 4
 
 <sup>1</sup> But I say that so long as the heir is a child, he differeth nothing from a bondservant though he is lord of all;
@@ -111,6 +114,7 @@
 <sup>29</sup> But as then he that was born after the flesh persecuted him that was born after the Spirit, so also it is now.
 <sup>30</sup> Howbeit what saith the scripture? Cast out the handmaid and her son: for the son of the handmaid shall not inherit with the son of the freewoman.
 <sup>31</sup> Wherefore, brethren, we are not children of a handmaid, but of the freewoman.
+
 ## Chapter 5
 
 <sup>1</sup> For freedom did Christ set us free: stand fast therefore, and be not entangled again in a yoke of bondage.
@@ -139,6 +143,7 @@
 <sup>24</sup> And they that are of Christ Jesus have crucified the flesh with the passions and the lusts thereof.
 <sup>25</sup> If we live by the Spirit, by the Spirit let us also walk.
 <sup>26</sup> Let us not become vainglorious, provoking one another, envying one another.
+
 ## Chapter 6
 
 <sup>1</sup> Brethren, even if a man be overtaken in any trepass, ye who are spiritual, restore such a one in a spirit of gentleness; looking to thyself, lest thou also be tempted.

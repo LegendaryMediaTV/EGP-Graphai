@@ -26,6 +26,7 @@
 <sup>24</sup> And they prayed, and said, Thou, Lord, who knowest the hearts of all men, show of these two the one whom thou hast chosen,
 <sup>25</sup> to take the place in this ministry and apostleship from which Judas fell away, that he might go to his own place.
 <sup>26</sup> And they gave lots for them; and the lot fell upon Matthias; and he was numbered with the eleven apostles.
+
 ## Chapter 2
 
 <sup>1</sup> And when the day of Pentecost was now come, they were all together in one place.
@@ -75,6 +76,7 @@
 <sup>45</sup> and they sold their possessions and goods, and parted them to all, according as any man had need.
 <sup>46</sup> And day by day, continuing stedfastly with one accord in the temple, and breaking bread at home, they took their food with gladness and singleness of heart,
 <sup>47</sup> praising God, and having favor with all the people. And the Lord added to them day by day those that were saved.
+
 ## Chapter 3
 
 <sup>1</sup> Now Peter and John were going up into the temple at the hour of prayer, being the ninth hour.
@@ -103,6 +105,7 @@
 <sup>24</sup> Yea and all the prophets from Samuel and them that followed after, as many as have spoken, they also told of these days.
 <sup>25</sup> Ye are the sons of the prophets, and of the covenant which God made with your fathers, saying unto Abraham, And in thy seed shall all the families of the earth be blessed.
 <sup>26</sup> Unto you first God, having raised up his Servant, sent him to bless you, in turning away every one of you from your iniquities.
+
 ## Chapter 4
 
 <sup>1</sup> And as they spake unto the people, the priests and the captain of the temple and the Sadducees came upon them,
@@ -142,6 +145,7 @@
 <sup>35</sup> and laid them at the apostles’ feet: and distribution was made unto each, according as any one had need.
 <sup>36</sup> And Joseph, who by the apostles was surnamed Barnabas (which is, being interpreted, Son of exhortation), a Levite, a man of Cyprus by race,
 <sup>37</sup> having a field, sold it, and brought the money and laid it at the apostles’ feet.
+
 ## Chapter 5
 
 <sup>1</sup> But a certain man named Ananias, with Sapphira his wife, sold a possession,
@@ -186,6 +190,7 @@
 <sup>40</sup> And to him they agreed: and when they had called the apostles unto them, they beat them and charged them not to speak in the name of Jesus, and let them go.
 <sup>41</sup> They therefore departed from the presence of the council, rejoicing that they were counted worthy to suffer dishonor for the Name.
 <sup>42</sup> And every day, in the temple and at home, they ceased not to teach and to preach Jesus as the Christ.
+
 ## Chapter 6
 
 <sup>1</sup> Now in these days, when the number of the disciples was multiplying, there arose a murmuring of the Grecian Jews against the Hebrews, because their widows were neglected in the daily ministration.
@@ -203,6 +208,7 @@
 <sup>13</sup> and set up false witnesses, who said, This man ceaseth not to speak words against this holy place, and the law:
 <sup>14</sup> for we have heard him say, that this Jesus of Nazareth shall destroy this place, and shall change the customs which Moses delivered unto us.
 <sup>15</sup> And all that sat in the council, fastening their eyes on him, saw his face as it had been the face of an angel.
+
 ## Chapter 7
 
 <sup>1</sup> And the high priest said, Are these things so?
@@ -265,6 +271,7 @@
 <sup>58</sup> and they cast him out of the city, and stoned him: and the witnesses laid down their garments at the feet of a young man named Saul.
 <sup>59</sup> And they stoned Stephen, calling upon the Lord, and saying, Lord Jesus, receive my spirit.
 <sup>60</sup> And he kneeled down, and cried with a loud voice, Lord, lay not this sin to their charge. And when he had said this, he fell asleep.
+
 ## Chapter 8
 
 <sup>1</sup> And Saul was consenting unto his death. And there arose on that day a great persecution against the church which was in Jerusalem; and they were all scattered abroad throughout the regions of Judaea and Samaria, except the apostles.
@@ -307,6 +314,7 @@
 <sup>38</sup> And he commanded the chariot to stand still: and they both went down into the water, both Philip and the eunuch, and he baptized him.
 <sup>39</sup> And when they came up out of the water, the Spirit of the Lord caught away Philip; and the eunuch saw him no more, for he went on his way rejoicing.
 <sup>40</sup> But Philip was found at Azotus: and passing through he preached the gospel to all the cities, till he came to Caesarea.
+
 ## Chapter 9
 
 <sup>1</sup> But Saul, yet breathing threatening and slaughter against the disciples of the Lord, went unto the high priest,
@@ -352,6 +360,7 @@
 <sup>41</sup> And he gave her his hand, and raised her up; and calling the saints and widows, he presented her alive.
 <sup>42</sup> And it became known throughout all Joppa: and many believed on the Lord.
 <sup>43</sup> And it came to pass, that he abode many days in Joppa with one Simon a tanner.
+
 ## Chapter 10
 
 <sup>1</sup> Now there was a certain man in Caesarea, Cornelius by name, a centurion of the band called the Italian band,
@@ -402,6 +411,7 @@
 <sup>46</sup> For they heard them speak with tongues, and magnify God. Then answered Peter,
 <sup>47</sup> Can any man forbid the water, that these should not be baptized, who have received the Holy Spirit as well as we?
 <sup>48</sup> And he commanded them to be baptized in the name of Jesus Christ. Then prayed they him to tarry certain days.
+
 ## Chapter 11
 
 <sup>1</sup> Now the apostles and the brethren that were in Judaea heard that the Gentiles also had received the word of God.
@@ -434,6 +444,7 @@
 <sup>28</sup> And there stood up one of them named Agabus, and signified by the Spirit that there should be a great famine over all the world: which came to pass in the days of Claudius.
 <sup>29</sup> And the disciples, every man according to his ability, determined to send relief unto the brethren that dwelt in Judea:
 <sup>30</sup> which also they did, sending it to the elders by the hand of Barnabas and Saul.
+
 ## Chapter 12
 
 <sup>1</sup> Now about that time Herod the king put forth his hands to afflict certain of the church.
@@ -461,6 +472,7 @@
 <sup>23</sup> And immediately an angel of the Lord smote him, because he gave not God the glory: and he was eaten of worms, and gave up the ghost.
 <sup>24</sup> But the word of God grew and multiplied.
 <sup>25</sup> And Barnabas and Saul returned from Jerusalem, when they had fulfilled their ministration, taking with them John whose surname was Mark.
+
 ## Chapter 13
 
 <sup>1</sup> Now there were at Antioch, in the church that was there, prophets and teachers, Barnabas, and Symeon that was called Niger, and Lucius of Cyrene, and Manaen the foster-brother of Herod the tetrarch, and Saul.
@@ -515,6 +527,7 @@
 <sup>50</sup> But the Jews urged on the devout women of honorable estate, and the chief men of the city, and stirred up a persecution against Paul and Barnabas, and cast them out of their borders.
 <sup>51</sup> But they shook off the dust of their feet against them, and came unto Iconium.
 <sup>52</sup> And the disciples were filled with joy with the Holy Spirit.
+
 ## Chapter 14
 
 <sup>1</sup> And it came to pass in Iconium that they entered together into the synagogue of the Jews, and so spake that a great multitude both of Jews and of Greeks believed.
@@ -545,6 +558,7 @@
 <sup>26</sup> and thence they sailed to Antioch, from whence they had been committed to the grace of God for the work which they had fulfilled.
 <sup>27</sup> And when they were come, and had gathered the church together, they rehearsed all things that God had done with them, and that he had opened a door of faith unto the Gentiles.
 <sup>28</sup> And they tarried no little time with the disciples.
+
 ## Chapter 15
 
 <sup>1</sup> And certain men came down from Judaea and taught the brethren, saying, Except ye be circumcised after the custom of Moses, ye cannot be saved.
@@ -588,6 +602,7 @@
 <sup>39</sup> And there arose a sharp contention, so that they parted asunder one from the other, and Barnabas took Mark with him, and sailed away unto Cyprus;
 <sup>40</sup> but Paul choose Silas, and went forth, being commended by the brethren to the grace of the Lord.
 <sup>41</sup> And he went through Syria and Cilicia, confirming the churches.
+
 ## Chapter 16
 
 <sup>1</sup> And he came also to Derbe and to Lystra: and behold, a certain disciple was there, named Timothy, the son of a Jewess that believed; but his father was a Greek.
@@ -630,6 +645,7 @@
 <sup>38</sup> And the sergeants reported these words unto the magistrates: and they feared when they heard that they were Romans;
 <sup>39</sup> and they came and besought them; and when they had brought them out, they asked them to go away from the city.
 <sup>40</sup> And they went out of the prison, and entered into the house of Lydia: and when they had seen the brethren, they comforted them, and departed.
+
 ## Chapter 17
 
 <sup>1</sup> Now when they had passed through Amphipolis and Apollonia, they came to Thessalonica, where was a synagogue of the Jews:
@@ -666,6 +682,7 @@
 <sup>32</sup> Now when they heard of the resurrection of the dead, some mocked; but others said, We will hear thee concerning this yet again.
 <sup>33</sup> Thus Paul went out from among them.
 <sup>34</sup> But certain men clave unto him, and believed: among whom also was Dionysius the Areopagite, and a woman named Damaris, and others with them.
+
 ## Chapter 18
 
 <sup>1</sup> After these things he departed from Athens, and came to Corinth.
@@ -696,6 +713,7 @@
 <sup>26</sup> and he began to speak boldly in the synagogue. But when Priscilla and Aquila heard him, they took him unto them, and expounded unto him the way of God more accurately.
 <sup>27</sup> And when he was minded to pass over into Achaia, the brethren encouraged him, and wrote to the disciples to receive him: and when he was come, he helped them much that had believed through grace;
 <sup>28</sup> for he powerfully confuted the Jews, and that publicly, showing by the scriptures that Jesus was the Christ.
+
 ## Chapter 19
 
 <sup>1</sup> And it came to pass, that, while Apollos was at Corinth, Paul having passed through the upper country came to Ephesus, and found certain disciples:
@@ -739,6 +757,7 @@
 <sup>39</sup> But if ye seek anything about other matters, it shall be settled in the regular assembly.
 <sup>40</sup> For indeed we are in danger to be accused concerning this day’s riot, there being no cause for it: and as touching it we shall not be able to give account of this concourse.
 <sup>41</sup> And when he had thus spoken, he dismissed the assembly.
+
 ## Chapter 20
 
 <sup>1</sup> And after the uproar ceased, Paul having sent for the disciples and exhorted them, took leave of them, and departed to go into Macedonia.
@@ -779,6 +798,7 @@
 <sup>36</sup> And when he had thus spoken, he kneeled down and prayed with them all.
 <sup>37</sup> And they all wept sore, and fell on Paul’s neck and kissed him,
 <sup>38</sup> sorrowing most of all for the word which he had spoken, that they should behold his face no more. And they brought him on his way unto the ship.
+
 ## Chapter 21
 
 <sup>1</sup> And when it came to pass that were parted from them and had set sail, we came with a straight course unto Cos, and the next day unto Rhodes, and from thence unto Patara:
@@ -821,6 +841,7 @@
 <sup>38</sup> Art thou not then the Egyptian, who before these days stirred up to sedition and led out into the wilderness the four thousand men of the Assassins?
 <sup>39</sup> But Paul said, I am a Jew, of Tarsus in Cilicia, a citizen of no mean city: and I beseech thee, give me leave to speak unto the people.
 <sup>40</sup> And when he had given him leave, Paul, standing on the stairs, beckoned with the hand unto the people; and when there was made a great silence, he spake unto them in the Hebrew language, saying,
+
 ## Chapter 22
 
 <sup>1</sup> Brethren and fathers, hear ye the defence which I now make unto you.
@@ -853,6 +874,7 @@
 <sup>28</sup> And the chief captain answered, With a great sum obtained I this citizenship. And Paul said, But I am a Roman born.
 <sup>29</sup> They then that were about to examine him straightway departed from him: and the chief captain also was afraid when he knew that he was a Roman, and because he had bound him.
 <sup>30</sup> But on the morrow, desiring to know the certainty wherefore he was accused of the Jews, he loosed him, and commanded the chief priests and all the council to come together, and brought Paul down and set him before them.
+
 ## Chapter 23
 
 <sup>1</sup> And Paul, looking stedfastly on the council, said, Brethren, I have lived before God in all good conscience until this day.
@@ -890,6 +912,7 @@
 <sup>33</sup> and they, when they came to Caesarea and delivered the letter to the governor, presented Paul also before him.
 <sup>34</sup> And when he had read it, he asked of what province he was; and when he understood that he was of Cilicia,
 <sup>35</sup> I will hear thee fully, said he, when thine accusers also are come: and he commanded him to be kept in Herod’s palace.
+
 ## Chapter 24
 
 <sup>1</sup> And after five days the high priest Ananias came down with certain elders, and with an orator, one Tertullus; and they informed the governor against Paul.
@@ -919,6 +942,7 @@
 <sup>25</sup> And as he reasoned of righteousness, and self-control, and the judgment to come, Felix was terrified, and answered, Go thy way for this time; and when I have a convenient season, I will call thee unto me.
 <sup>26</sup> He hoped withal that money would be given him of Paul: wherefore also he sent for him the oftener, and communed with him.
 <sup>27</sup> But when two years were fulfilled, Felix was succeeded by Porcius Festus; and desiring to gain favor with the Jews, Felix left Paul in bonds.
+
 ## Chapter 25
 
 <sup>1</sup> Festus therefore, having come into the province, after three days went up to Jerusalem from Caesarea.
@@ -948,6 +972,7 @@
 <sup>25</sup> But I found that he had committed nothing worthy of death: and as he himself appealed to the emperor I determined to send him.
 <sup>26</sup> Of whom I have no certain thing to write unto my lord. Wherefore I have brought him forth before you, and specially before thee, king Agrippa, that, after examination had, I may have somewhat to write.
 <sup>27</sup> For it seemeth to me unreasonable, in sending a prisoner, not withal to signify the charges against him.
+
 ## Chapter 26
 
 <sup>1</sup> And Agrippa said unto Paul, Thou art permitted to speak for thyself. Then Paul stretched forth his hand, and made his defense:
@@ -982,6 +1007,7 @@
 <sup>30</sup> And the king rose up, and the governor, and Bernice, and they that sat with them:
 <sup>31</sup> and when they had withdrawn, they spake one to another, saying, This man doeth nothing worthy of death or of bonds.
 <sup>32</sup> And Agrippa said unto Festus, This man might have been set at liberty, if he had not appealed unto Caesar.
+
 ## Chapter 27
 
 <sup>1</sup> And when it was determined that we should sail for Italy, they delivered Paul and certain other prisoners to a centurion named Julius, of the Augustan band.
@@ -1028,6 +1054,7 @@
 <sup>42</sup> And the soldiers’ counsel was to kill the prisoners, lest any of them should swim out, and escape.
 <sup>43</sup> But the centurion, desiring to save Paul, stayed them from their purpose; and commanded that they who could swim should cast themselves overboard, and get first to the land;
 <sup>44</sup> and the rest, some on planks, and some on other things from the ship. And so it came to pass, that they all escaped safe to the land.
+
 ## Chapter 28
 
 <sup>1</sup> And when we were escaped, then we knew that the island was called Melita.

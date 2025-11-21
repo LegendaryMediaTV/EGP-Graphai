@@ -14,6 +14,7 @@
 <sup>12</sup> And as a mantle shalt thou roll them up, As a garment, and they shall be changed: But thou art the same, And thy years shall not fail.
 <sup>13</sup> But of which of the angels hath he said at any time, Sit thou on my right hand, Till I make thine enemies the footstool of thy feet?
 <sup>14</sup> Are they not all ministering spirits, sent forth to do service for the sake of them that shall inherit salvation?
+
 ## Chapter 2
 
 <sup>1</sup> Therefore we ought to give the more earnest heed to the things that were heard, lest haply we drift away from them.
@@ -34,6 +35,7 @@
 <sup>16</sup> For verily not to angels doth he give help, but he giveth help to the seed of Abraham.
 <sup>17</sup> Wherefore it behooved him in all things to be made like unto his brethren, that he might become a merciful and faithful high priest in things pertaining to God, to make propitiation for the sins of the people.
 <sup>18</sup> For in that he himself hath suffered being tempted, he is able to succor them that are tempted.
+
 ## Chapter 3
 
 <sup>1</sup> Wherefore, holy brethren, partakers of a heavenly calling, consider the Apostle and High Priest of our confession, even Jesus;
@@ -55,6 +57,7 @@
 <sup>17</sup> And with whom was he displeased forty years? was it not with them that sinned, whose bodies fell in the wilderness?
 <sup>18</sup> And to whom sware he that they should not enter into his rest, but to them that were disobedient?
 <sup>19</sup> And we see that they were not able to enter in because of unbelief.
+
 ## Chapter 4
 
 <sup>1</sup> Let us fear therefore, lest haply, a promise being left of entering into his rest, any one of you should seem to have come short of it.
@@ -73,6 +76,7 @@
 <sup>14</sup> Having then a great high priest, who hath passed through the heavens, Jesus the Son of God, let us hold fast our confession.
 <sup>15</sup> For we have not a high priest that cannot be touched with the feeling of our infirmities; but one that hath been in all points tempted like as we are, yet without sin.
 <sup>16</sup> Let us therefore draw near with boldness unto the throne of grace, that we may receive mercy, and may find grace to help us in time of need.
+
 ## Chapter 5
 
 <sup>1</sup> For every high priest, being taken from among men, is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins:
@@ -89,6 +93,7 @@
 <sup>12</sup> For when by reason of the time ye ought to be teachers, ye have need again that some one teach you the rudiments of the first principles of the oracles of God; and are become such as have need of milk, and not of solid food.
 <sup>13</sup> For every one that partaketh of milk is without experience of the word of righteousness; for he is a babe.
 <sup>14</sup> But solid food is for fullgrown men, even those who by reason of use have their senses exercised to discern good and evil.
+
 ## Chapter 6
 
 <sup>1</sup> Wherefore leaving the doctrine of the first principles of Christ, let us press on unto perfection; not laying again a foundation of repentance from dead works, and of faith toward God,
@@ -111,6 +116,7 @@
 <sup>18</sup> that by two immutable things, in which it is impossible for God to lie, we may have a strong encouragement, who have fled for refuge to lay hold of the hope set before us:
 <sup>19</sup> which we have as an anchor of the soul, a hope both sure and stedfast and entering into that which is within the veil;
 <sup>20</sup> whither as a forerunner Jesus entered for us, having become a high priest for ever after the order of Melchizedek.
+
 ## Chapter 7
 
 <sup>1</sup> For this Melchizedek, king of Salem, priest of God Most High, who met Abraham returning from the slaughter of the kings and blessed him,
@@ -141,6 +147,7 @@
 <sup>26</sup> For such a high priest became us, holy, guileless, undefiled, separated from sinners, and made higher than the heavens;
 <sup>27</sup> who needeth not daily, like those high priests, to offer up sacrifices, first for his own sins, and then for the sins of the people: for this he did once for all, when he offered up himself.
 <sup>28</sup> For the law appointeth men high priests, having infirmity; but the word of the oath, which was after the law, appointeth a Son, perfected for evermore.
+
 ## Chapter 8
 
 <sup>1</sup> Now in the things which we are saying the chief point is this: We have such a high priest, who sat down on the right hand of the throne of the Majesty in the heavens,
@@ -156,6 +163,7 @@
 <sup>11</sup> And they shall not teach every man his fellow-citizen, And every man his brother, saying, Know the Lord: For all shall know me, From the least to the greatest of them.
 <sup>12</sup> For I will be merciful to their iniquities, And their sins will I remember no more.
 <sup>13</sup> In that he saith, A new covenant he hath made the first old. But that which is becoming old and waxeth aged is nigh unto vanishing away.
+
 ## Chapter 9
 
 <sup>1</sup> Now even a first covenant had ordinances of divine service, and its sanctuary, a sanctuary of this world.
@@ -186,6 +194,7 @@
 <sup>26</sup> else must he often have suffered since the foundation of the world: but now once at the end of the ages hath he been manifested to put away sin by the sacrifice of himself.
 <sup>27</sup> And inasmuch as it is appointed unto men once to die, and after this cometh judgment;
 <sup>28</sup> so Christ also, having been once offered to bear the sins of many, shall appear a second time, apart from sin, to them that wait for him, unto salvation.
+
 ## Chapter 10
 
 <sup>1</sup> For the law having a shadow of the good things to come, not the very image of the things, can never with the same sacrifices year by year, which they offer continually, make perfect them that draw nigh.
@@ -227,6 +236,7 @@
 <sup>37</sup> For yet a very little while, He that cometh shall come, and shall not tarry.
 <sup>38</sup> But my righteous one shall live by faith: And if he shrink back, my soul hath no pleasure in him.
 <sup>39</sup> But we are not of them that shrink back unto perdition; but of them that have faith unto the saving of the soul.
+
 ## Chapter 11
 
 <sup>1</sup> Now faith is assurance of things hoped for, a conviction of things not seen.
@@ -269,6 +279,7 @@
 <sup>38</sup> (of whom the world was not worthy), wandering in deserts and mountains and caves, and the holes of the earth.
 <sup>39</sup> And these all, having had witness borne to them through their faith, received not the promise,
 <sup>40</sup> God having provided some better thing concerning us, that apart from us they should not be made perfect.
+
 ## Chapter 12
 
 <sup>1</sup> Therefore let us also, seeing we are compassed about with so great a cloud of witnesses, lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us,
@@ -300,6 +311,7 @@
 <sup>27</sup> And this word, Yet once more, signifieth the removing of those things that are shaken, as of things that have been made, that those things which are not shaken may remain.
 <sup>28</sup> Wherefore, receiving a kingdom that cannot be shaken, let us have grace, whereby we may offer service well-pleasing to God with reverence and awe:
 <sup>29</sup> for our God is a consuming fire.
+
 ## Chapter 13
 
 <sup>1</sup> Let love of the brethren continue.

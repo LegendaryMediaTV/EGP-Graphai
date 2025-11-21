@@ -18,6 +18,7 @@
 <sup>16</sup> a day of the trumpet and alarm, against the fortified cities, and against the high battlements.
 <sup>17</sup> And I will bring distress upon men, that they shall walk like blind men, because they have sinned against Jehovah; and their blood shall be poured out as dust, and their flesh as dung.
 <sup>18</sup> Neither their silver nor their gold shall be able to deliver them in the day of Jehovah’s wrath; but the whole land shall be devoured by the fire of his jealousy: for he will make an end, yea, a terrible end, of all them that dwell in the land.
+
 ## Chapter 2
 
 <sup>1</sup> Gather yourselves together, yea, gather together, O nation that hath no shame;
@@ -35,6 +36,7 @@
 <sup>13</sup> And he will stretch out his hand against the north, and destroy Assyria, and will make Nineveh a desolation, and dry like the wilderness.
 <sup>14</sup> And herds shall lie down in the midst of her, all the beasts of the nations: both the pelican and the porcupine shall lodge in the capitals thereof; their voice shall sing in the windows; desolation shall be in the thresholds: for he hath laid bare the cedar-work.
 <sup>15</sup> This is the joyous city that dwelt carelessly, that said in her heart, I am, and there is none besides me: how is she become a desolation, a place for beasts to lie down in! every one that passeth by her shall hiss, and wag his hand.
+
 ## Chapter 3
 
 <sup>1</sup> Woe to her that is rebellious and polluted! to the oppressing city!

@@ -20,6 +20,7 @@
 <sup>18</sup> How do the beasts groan! the herds of cattle are perplexed, because they have no pasture; yea, the flocks of sheep are made desolate.
 <sup>19</sup> O Jehovah, to thee do I cry; for the fire hath devoured the pastures of the wilderness, and the flame hath burned all the trees of the field.
 <sup>20</sup> Yea, the beasts of the field pant unto thee; for the water brooks are dried up, and the fire hath devoured the pastures of the wilderness.
+
 ## Chapter 2
 
 <sup>1</sup> Blow ye the trumpet in Zion, and sound an alarm in my holy mountain; let all the inhabitants of the land tremble: for the day of Jehovah cometh, for it is nigh at hand;
@@ -54,6 +55,7 @@
 <sup>30</sup> And I will show wonders in the heavens and in the earth: blood, and fire, and pillars of smoke.
 <sup>31</sup> The sun shall be turned into darkness, and the moon into blood, before the great and terrible day of Jehovah cometh.
 <sup>32</sup> And it shall come to pass, that whosoever shall call on the name of Jehovah shall be delivered; for in mount Zion and in Jerusalem there shall be those that escape, as Jehovah hath said, and among the remnant those whom Jehovah doth call.
+
 ## Chapter 3
 
 <sup>1</sup> For, behold, in those days, and in that time, when I shall bring back the captivity of Judah and Jerusalem,
