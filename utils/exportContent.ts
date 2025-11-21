@@ -132,42 +132,42 @@ function convertVerseToText(verse: VerseSchema): string {
 
     // Handle text object
     const obj = content as ContentObject;
-    if (obj.text) {
-      let textPart = obj.text || "";
+    let textPart = obj.text || "";
 
-      if (obj.foot) {
-        // For words with footnotes: text° Strong's (morph) {footnote}
-        textPart += "°";
-        if (obj.strong) {
+    if (obj.foot) {
+      // For words with footnotes: text° Strong's (morph) {footnote}
+      textPart += "°";
+      if (obj.strong) {
+        textPart += " " + obj.strong;
+      }
+      if (obj.morph) {
+        textPart += " (" + obj.morph + ")";
+      }
+      textPart += convertFootnoteToText(obj.foot).replace("° ", " "); // replace ° with space to add space before {
+    } else {
+      // For words without footnotes: text Strong's (morph)
+      if (obj.strong) {
+        if (textPart.trim() === "") {
+          textPart += obj.strong;
+        } else {
           textPart += " " + obj.strong;
         }
-        if (obj.morph) {
-          textPart += " (" + obj.morph + ")";
-        }
-        textPart += convertFootnoteToText(obj.foot).replace("° ", " "); // replace ° with space to add space before {
-      } else {
-        // For words without footnotes: text Strong's (morph)
-        if (obj.strong) {
-          if (textPart.trim() === "") {
-            textPart += obj.strong;
-          } else {
-            textPart += " " + obj.strong;
-          }
-        }
-        if (obj.morph) {
-          textPart += " (" + obj.morph + ")";
-        }
       }
-
-      if (obj.paragraph) {
-        textPart = "¶ " + textPart;
+      if (obj.morph) {
+        textPart += " (" + obj.morph + ")";
       }
+    }
 
+    if (obj.paragraph) {
+      textPart = "¶ " + textPart;
+    }
+
+    if (textPart.trim()) {
       textParts.push(textPart);
+    }
 
-      if (obj.break) {
-        textParts.push("␤");
-      }
+    if (obj.break) {
+      textParts.push("␤");
     }
   }
 
@@ -192,7 +192,7 @@ function convertVerseToText(verse: VerseSchema): string {
       }
       if (
         part.match(/^[<° .,;:!?]/) ||
-        prev.match(/[,.;:!?<>}]/) ||
+        (prev.match(/[,.;:!?<>}]/) && !part.match(/^[A-Za-z0-9]/)) ||
         part.startsWith(" ")
       ) {
         return part;
