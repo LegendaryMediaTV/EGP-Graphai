@@ -22,6 +22,7 @@
 <sup>20</sup> bene ergo fecit Deus obsetricibus et crevit populus confortatusque est nimis
 <sup>21</sup> et quia timuerant obsetrices Deum aedificavit illis domos
 <sup>22</sup> praecepit autem Pharao omni populo suo dicens quicquid masculini sexus natum fuerit in flumen proicite quicquid feminei reservate
+
 ## Chapter 2
 
 <sup>1</sup> egressus est post haec vir de domo Levi accepta uxore stirpis suae
@@ -49,6 +50,7 @@
 <sup>23</sup> post multum temporis mortuus est rex Aegypti et ingemescentes filii Israhel propter opera vociferati sunt ascenditque clamor eorum ad Deum ab operibus
 <sup>24</sup> et audivit gemitum eorum ac recordatus foederis quod pepigerat cum Abraham et Isaac et Iacob
 <sup>25</sup> respexit filios Israhel et cognovit eos
+
 ## Chapter 3
 
 <sup>1</sup> Moses autem pascebat oves Iethro cognati sui sacerdotis Madian cumque minasset gregem ad interiora deserti venit ad montem Dei Horeb
@@ -73,6 +75,7 @@
 <sup>20</sup> extendam enim manum meam et percutiam Aegyptum in cunctis mirabilibus meis quae facturus sum in medio eorum post haec dimittet vos
 <sup>21</sup> daboque gratiam populo huic coram Aegyptiis et cum egrediemini non exibitis vacui
 <sup>22</sup> sed postulabit mulier a vicina sua et ab hospita vasa argentea et aurea ac vestes ponetisque eas super filios et filias vestras et spoliabitis Aegyptum
+
 ## Chapter 4
 
 <sup>1</sup> respondens Moses ait non credent mihi neque audient vocem meam sed dicent non apparuit tibi Dominus
@@ -106,6 +109,7 @@
 <sup>29</sup> veneruntque simul et congregaverunt cunctos seniores filiorum Israhel
 <sup>30</sup> locutusque est Aaron omnia verba quae dixerat Dominus ad Mosen et fecit signa coram populo
 <sup>31</sup> et credidit populus audieruntque quod visitasset Dominus filios Israhel et quod respexisset adflictionem eorum et proni adoraverunt
+
 ## Chapter 5
 
 <sup>1</sup> post haec ingressi sunt Moses et Aaron et dixerunt Pharaoni haec dicit Dominus Deus Israhel dimitte populum meum ut sacrificet mihi in deserto
@@ -131,6 +135,7 @@
 <sup>21</sup> et dixerunt ad eos videat Dominus et iudicet quoniam fetere fecistis odorem nostrum coram Pharao et servis eius et praebuistis ei gladium ut occideret nos
 <sup>22</sup> reversusque Moses ad Dominum ait Domine cur adflixisti populum istum quare misisti me
 <sup>23</sup> ex eo enim quo ingressus sum ad Pharaonem ut loquerer nomine tuo adflixit populum tuum et non liberasti eos
+
 ## Chapter 6
 
 <sup>1</sup> dixit Dominus ad Mosen nunc videbis quae facturus sum Pharaoni per manum enim fortem dimittet eos et in manu robusta eiciet illos de terra sua
@@ -163,6 +168,7 @@
 <sup>28</sup> in die qua locutus est Dominus ad Mosen in terra Aegypti
 <sup>29</sup> et locutus est Dominus ad Mosen dicens ego Dominus loquere ad Pharao regem Aegypti omnia quae ego loquor tibi
 <sup>30</sup> et ait Moses coram Domino en incircumcisus labiis sum quomodo audiet me Pharao
+
 ## Chapter 7
 
 <sup>1</sup> dixitque Dominus ad Mosen ecce constitui te Deum Pharaonis Aaron frater tuus erit propheta tuus
@@ -190,6 +196,7 @@
 <sup>23</sup> avertitque se et ingressus est domum suam nec adposuit cor etiam hac vice
 <sup>24</sup> foderunt autem omnes Aegyptii per circuitum fluminis aquam ut biberent non enim poterant bibere de aqua fluminis
 <sup>25</sup> impletique sunt septem dies postquam percussit Dominus fluvium
+
 ## Chapter 8
 
 <sup>1</sup> dixitque Dominus ad Mosen ingredere ad Pharao et dices ad eum haec dicit Dominus dimitte populum meum ut sacrificet mihi
@@ -224,6 +231,7 @@
 <sup>30</sup> egressusque Moses a Pharao oravit Dominum
 <sup>31</sup> qui fecit iuxta verbum illius et abstulit muscas a Pharao et a servis et a populo eius non superfuit ne una quidem
 <sup>32</sup> et ingravatum est cor Pharaonis ita ut ne hac quidem vice dimitteret populum
+
 ## Chapter 9
 
 <sup>1</sup> dixit autem Dominus ad Mosen ingredere ad Pharaonem et loquere ad eum haec dicit Dominus Deus Hebraeorum dimitte populum meum ut sacrificet mihi
@@ -261,6 +269,7 @@
 <sup>33</sup> egressusque Moses a Pharaone et ex urbe tetendit manus ad Dominum et cessaverunt tonitrua et grando nec ultra stillavit pluvia super terram
 <sup>34</sup> videns autem Pharao quod cessasset pluvia et grando et tonitrua auxit peccatum
 <sup>35</sup> et ingravatum est cor eius et servorum illius et induratum nimis nec dimisit filios Israhel sicut praeceperat Dominus per manum Mosi
+
 ## Chapter 10
 
 <sup>1</sup> et dixit Dominus ad Mosen ingredere ad Pharao ego enim induravi cor eius et servorum illius ut faciam signa mea haec in eo
@@ -292,6 +301,7 @@
 <sup>27</sup> induravit autem Dominus cor Pharaonis et noluit dimittere eos
 <sup>28</sup> dixitque Pharao ad eum recede a me cave ne ultra videas faciem meam quocumque die apparueris mihi morieris
 <sup>29</sup> respondit Moses ita fiat ut locutus es non videbo ultra faciem tuam
+
 ## Chapter 11
 
 <sup>1</sup> et dixit Dominus ad Mosen adhuc una plaga tangam Pharaonem et Aegyptum et post haec dimittet vos et exire conpellet
@@ -304,6 +314,7 @@
 <sup>8</sup> descendentque omnes servi tui isti ad me et adorabunt me dicentes egredere tu et omnis populus qui subiectus est tibi post haec egrediemur
 <sup>9</sup> et exivit a Pharaone iratus nimis dixit autem Dominus ad Mosen non audiet vos Pharao ut multa signa fiant in terra Aegypti
 <sup>10</sup> Moses autem et Aaron fecerunt omnia ostenta quae scripta sunt coram Pharaone et induravit Dominus cor Pharaonis nec dimisit filios Israhel de terra sua
+
 ## Chapter 12
 
 <sup>1</sup> dixit quoque Dominus ad Mosen et Aaron in terra Aegypti
@@ -357,6 +368,7 @@
 <sup>49</sup> eadem lex erit indigenae et colono qui peregrinatur apud vos
 <sup>50</sup> fecerunt omnes filii Israhel sicut praeceperat Dominus Mosi et Aaron
 <sup>51</sup> et in eadem die eduxit Dominus filios Israhel de terra Aegypti per turmas suas
+
 ## Chapter 13
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens
@@ -381,6 +393,7 @@
 <sup>20</sup> profectique de Soccoth castrametati sunt in Etham in extremis finibus solitudinis
 <sup>21</sup> Dominus autem praecedebat eos ad ostendendam viam per diem in columna nubis et per noctem in columna ignis ut dux esset itineris utroque tempore
 <sup>22</sup> numquam defuit columna nubis per diem nec columna ignis per noctem coram populo
+
 ## Chapter 14
 
 <sup>1</sup> locutus est autem Dominus ad Mosen dicens
@@ -414,6 +427,7 @@
 <sup>29</sup> filii autem Israhel perrexerunt per medium sicci maris et aquae eis erant quasi pro muro a dextris et a sinistris
 <sup>30</sup> liberavitque Dominus in die illo Israhel de manu Aegyptiorum
 <sup>31</sup> et viderunt Aegyptios mortuos super litus maris et manum magnam quam exercuerat Dominus contra eos timuitque populus Dominum et crediderunt Domino et Mosi servo eius
+
 ## Chapter 15
 
 <sup>1</sup> tunc cecinit Moses et filii Israhel carmen hoc Domino et dixerunt cantemus Domino gloriose enim magnificatus est equum et ascensorem deiecit in mare
@@ -443,6 +457,7 @@
 <sup>25</sup> at ille clamavit ad Dominum qui ostendit ei lignum quod cum misisset in aquas in dulcedinem versae sunt ibi constituit ei praecepta atque iudicia et ibi temptavit eum
 <sup>26</sup> dicens si audieris vocem Domini Dei tui et quod rectum est coram eo feceris et oboedieris mandatis eius custodierisque omnia praecepta illius cunctum languorem quem posui in Aegypto non inducam super te ego enim Dominus sanator tuus
 <sup>27</sup> venerunt autem in Helim ubi erant duodecim fontes aquarum et septuaginta palmae et castrametati sunt iuxta aquas
+
 ## Chapter 16
 
 <sup>1</sup> profectique sunt de Helim et venit omnis multitudo filiorum Israhel in desertum Sin quod est inter Helim et Sinai quintodecimo die mensis secundi postquam egressi sunt de terra Aegypti
@@ -481,6 +496,7 @@
 <sup>34</sup> sicut praecepit Dominus Mosi posuitque illud Aaron in tabernaculo reservandum
 <sup>35</sup> filii autem Israhel comederunt man quadraginta annis donec venirent in terram habitabilem hoc cibo aliti sunt usquequo tangerent fines terrae Chanaan
 <sup>36</sup> gomor autem decima pars est oephi
+
 ## Chapter 17
 
 <sup>1</sup> igitur profecta omnis multitudo filiorum Israhel de deserto Sin per mansiones suas iuxta sermonem Domini castrametata est in Raphidim ubi non erat aqua ad bibendum populo
@@ -499,6 +515,7 @@
 <sup>14</sup> dixit autem Dominus ad Mosen scribe hoc ob monumentum in libro et trade auribus Iosue delebo enim memoriam Amalech sub caelo
 <sup>15</sup> aedificavitque Moses altare et vocavit nomen eius Dominus exaltatio mea dicens
 <sup>16</sup> quia manus solii Domini et bellum Dei erit contra Amalech a generatione in generationem
+
 ## Chapter 18
 
 <sup>1</sup> cumque audisset Iethro sacerdos Madian cognatus Mosi omnia quae fecerat Deus Mosi et Israhel populo suo eo quod eduxisset Dominus Israhel de Aegypto
@@ -528,6 +545,7 @@
 <sup>25</sup> et electis viris strenuis de cuncto Israhel constituit eos principes populi tribunos et centuriones et quinquagenarios et decanos
 <sup>26</sup> qui iudicabant plebem omni tempore quicquid autem gravius erat referebant ad eum faciliora tantummodo iudicantes
 <sup>27</sup> dimisitque cognatum qui reversus abiit in terram suam
+
 ## Chapter 19
 
 <sup>1</sup> mense tertio egressionis Israhel de terra Aegypti in die hac venerunt in solitudinem Sinai
@@ -555,6 +573,7 @@
 <sup>23</sup> dixitque Moses ad Dominum non poterit vulgus ascendere in montem Sinai tu enim testificatus es et iussisti dicens pone terminos circa montem et sanctifica illum
 <sup>24</sup> cui ait Dominus vade descende ascendesque tu et Aaron tecum sacerdotes autem et populus ne transeant terminos nec ascendant ad Dominum ne forte interficiat illos
 <sup>25</sup> descendit Moses ad populum et omnia narravit eis
+
 ## Chapter 20
 
 <sup>1</sup> locutus quoque est Dominus cunctos sermones hos
@@ -583,6 +602,7 @@
 <sup>24</sup> altare de terra facietis mihi et offeretis super eo holocausta et pacifica vestra oves vestras et boves in omni loco in quo memoria fuerit nominis mei veniam ad te et benedicam tibi
 <sup>25</sup> quod si altare lapideum feceris mihi non aedificabis illud de sectis lapidibus si enim levaveris cultrum tuum super eo polluetur
 <sup>26</sup> non ascendes per gradus ad altare meum ne reveletur turpitudo tua
+
 ## Chapter 21
 
 <sup>1</sup> haec sunt iudicia quae propones eis
@@ -621,6 +641,7 @@
 <sup>34</sup> dominus cisternae reddet pretium iumentorum quod autem mortuum est ipsius erit
 <sup>35</sup> si bos alienus bovem alterius vulnerarit et ille mortuus fuerit vendent bovem vivum et divident pretium cadaver autem mortui inter se dispertient
 <sup>36</sup> sin autem sciebat quod bos cornipeta esset ab heri et nudius tertius et non custodivit eum dominus suus reddet bovem pro bove et cadaver integrum accipiet
+
 ## Chapter 22
 
 <sup>1</sup> si quis furatus fuerit bovem aut ovem et occiderit vel vendiderit quinque boves pro uno bove restituet et quattuor oves pro una ove
@@ -654,6 +675,7 @@
 <sup>29</sup> decimas tuas et primitias non tardabis offerre primogenitum filiorum tuorum dabis mihi
 <sup>30</sup> de bubus quoque et ovibus similiter facies septem diebus sit cum matre sua die octavo reddes illum mihi
 <sup>31</sup> viri sancti eritis mihi carnem quae a bestiis fuerit praegustata non comedetis sed proicietis canibus
+
 ## Chapter 23
 
 <sup>1</sup> non suscipies vocem mendacii nec iunges manum tuam ut pro impio dicas falsum testimonium
@@ -689,6 +711,7 @@
 <sup>31</sup> ponam autem terminos tuos a mari Rubro usque ad mare Palestinorum et a deserto usque ad Fluvium tradam manibus vestris habitatores terrae et eiciam eos de conspectu vestro
 <sup>32</sup> non inibis cum eis foedus nec cum diis eorum
 <sup>33</sup> non habitent in terra tua ne forte peccare te faciant in me si servieris diis eorum quod tibi certo erit in scandalum
+
 ## Chapter 24
 
 <sup>1</sup> Mosi quoque dixit ascende ad Dominum tu et Aaron Nadab et Abiu et septuaginta senes ex Israhel et adorabitis procul
@@ -709,6 +732,7 @@
 <sup>16</sup> et habitavit gloria Domini super Sinai tegens illum nube sex diebus septimo autem die vocavit eum de medio caliginis
 <sup>17</sup> erat autem species gloriae Domini quasi ignis ardens super verticem montis in conspectu filiorum Israhel
 <sup>18</sup> ingressusque Moses medium nebulae ascendit in montem et fuit ibi quadraginta diebus et quadraginta noctibus
+
 ## Chapter 25
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens
@@ -751,6 +775,7 @@
 <sup>38</sup> emunctoria quoque et ubi quae emuncta sunt extinguantur fient de auro purissimo
 <sup>39</sup> omne pondus candelabri cum universis vasis suis habebit talentum auri mundissimi
 <sup>40</sup> inspice et fac secundum exemplar quod tibi in monte monstratum est
+
 ## Chapter 26
 
 <sup>1</sup> tabernaculum vero ita fiet decem cortinas de bysso retorta et hyacintho ac purpura coccoque bis tincto variatas opere plumario facies
@@ -790,6 +815,7 @@
 <sup>35</sup> mensamque extra velum et contra mensam candelabrum in latere tabernaculi meridiano mensa enim stabit in parte aquilonis
 <sup>36</sup> facies et tentorium in introitu tabernaculi de hyacintho et purpura coccoque bis tincto et bysso retorta opere plumarii
 <sup>37</sup> et quinque columnas deaurabis lignorum setthim ante quas ducetur tentorium quarum erunt capita aurea et bases aeneae
+
 ## Chapter 27
 
 <sup>1</sup> facies et altare de lignis setthim quod habebit quinque cubitos in longitudine et totidem in latitudine id est quadrum et tres cubitos in altitudine
@@ -813,6 +839,7 @@
 <sup>19</sup> cuncta vasa tabernaculi in omnes usus et caerimonias tam paxillos eius quam atrii ex aere facies
 <sup>20</sup> praecipe filiis Israhel ut adferant tibi oleum de arboribus olivarum purissimum piloque contusum ut ardeat lucerna semper
 <sup>21</sup> in tabernaculo testimonii extra velum quod oppansum est testimonio et conlocabunt eam Aaron et filii eius ut usque mane luceat coram Domino perpetuus erit cultus per successiones eorum a filiis Israhel
+
 ## Chapter 28
 
 <sup>1</sup> adplica quoque ad te Aaron fratrem tuum cum filiis suis de medio filiorum Israhel ut sacerdotio fungantur mihi Aaron Nadab et Abiu Eleazar et Ithamar
@@ -858,6 +885,7 @@
 <sup>41</sup> vestiesque his omnibus Aaron fratrem tuum et filios eius cum eo et cunctorum consecrabis manus sanctificabisque illos ut sacerdotio fungantur mihi
 <sup>42</sup> facies et feminalia linea ut operiant carnem turpitudinis suae a renibus usque ad femina
 <sup>43</sup> et utentur eis Aaron et filii eius quando ingredientur tabernaculum testimonii vel quando adpropinquant ad altare ut ministrent in sanctuario ne iniquitatis rei moriantur legitimum sempiternum erit Aaron et semini eius post eum
+
 ## Chapter 29
 
 <sup>1</sup> sed et hoc facies ut mihi in sacerdotio consecrentur tolle vitulum de armento et arietes duos inmaculatos
@@ -906,6 +934,7 @@
 <sup>44</sup> sanctificabo et tabernaculum testimonii cum altari et Aaron cum filiis eius ut sacerdotio fungantur mihi
 <sup>45</sup> et habitabo in medio filiorum Israhel eroque eis Deus
 <sup>46</sup> et scient quia ego Dominus Deus eorum qui eduxi eos de terra Aegypti ut manerem inter illos ego Dominus Deus ipsorum
+
 ## Chapter 30
 
 <sup>1</sup> facies quoque altare in adolendum thymiama de lignis setthim
@@ -946,6 +975,7 @@
 <sup>36</sup> cumque in tenuissimum pulverem universa contuderis pones ex eo coram testimonio tabernaculi in quo loco apparebo tibi sanctum sanctorum erit vobis thymiama
 <sup>37</sup> talem conpositionem non facietis in usus vestros quia sanctum est Domino
 <sup>38</sup> homo quicumque fecerit simile ut odore illius perfruatur peribit de populis suis
+
 ## Chapter 31
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens
@@ -966,6 +996,7 @@
 <sup>16</sup> custodiant filii Israhel sabbatum et celebrent illud in generationibus suis pactum est sempiternum
 <sup>17</sup> inter me et filios Israhel signumque perpetuum sex enim diebus fecit Dominus caelum et terram et in septimo ab opere cessavit
 <sup>18</sup> dedit quoque Mosi conpletis huiuscemodi sermonibus in monte Sinai duas tabulas testimonii lapideas scriptas digito Dei
+
 ## Chapter 32
 
 <sup>1</sup> videns autem populus quod moram faceret descendendi de monte Moses congregatus adversus Aaron ait surge fac nobis deos qui nos praecedant Mosi enim huic viro qui nos eduxit de terra Aegypti ignoramus quid acciderit
@@ -1003,6 +1034,7 @@
 <sup>33</sup> cui respondit Dominus qui peccaverit mihi delebo eum de libro meo
 <sup>34</sup> tu autem vade et duc populum istum quo locutus sum tibi angelus meus praecedet te ego autem in die ultionis visitabo et hoc peccatum eorum
 <sup>35</sup> percussit ergo Dominus populum pro reatu vituli quem fecit Aaron
+
 ## Chapter 33
 
 <sup>1</sup> locutusque est Dominus ad Mosen vade ascende de loco isto tu et populus tuus quem eduxisti de terra Aegypti in terram quam iuravi Abraham Isaac et Iacob dicens semini tuo dabo eam
@@ -1028,6 +1060,7 @@
 <sup>21</sup> et iterum ecce inquit est locus apud me stabis super petram
 <sup>22</sup> cumque transibit gloria mea ponam te in foramine petrae et protegam dextera mea donec transeam
 <sup>23</sup> tollamque manum meam et videbis posteriora mea faciem autem meam videre non poteris
+
 ## Chapter 34
 
 <sup>1</sup> ac deinceps praecide ait tibi duas tabulas lapideas instar priorum et scribam super eas verba quae habuerunt tabulae quas fregisti
@@ -1065,6 +1098,7 @@
 <sup>33</sup> impletisque sermonibus posuit velamen super faciem suam
 <sup>34</sup> quod ingressus ad Dominum et loquens cum eo auferebat donec exiret et tunc loquebatur ad filios Israhel omnia quae sibi fuerant imperata
 <sup>35</sup> qui videbant faciem egredientis Mosi esse cornutam sed operiebat rursus ille faciem suam si quando loquebatur ad eos
+
 ## Chapter 35
 
 <sup>1</sup> igitur congregata omni turba filiorum Israhel dixit ad eos haec sunt quae iussit Dominus fieri
@@ -1102,6 +1136,7 @@
 <sup>33</sup> ad excogitandum et faciendum opus in auro et argento et aere sculpendisque lapidibus et opere carpentario quicquid fabre adinveniri potest
 <sup>34</sup> dedit in corde eius Hooliab quoque filium Achisamech de tribu Dan
 <sup>35</sup> ambos erudivit sapientia ut faciant opera abietarii polymitarii ac plumarii de hyacintho et purpura coccoque bis tincto et bysso et texant omnia ac nova quaeque repperiant
+
 ## Chapter 36
 
 <sup>1</sup> fecit ergo Beselehel et Hooliab et omnis vir sapiens quibus dedit Dominus sapientiam et intellectum ut scirent fabre operari quae in usus sanctuarii necessaria sunt et quae praecepit Dominus
@@ -1142,6 +1177,7 @@
 <sup>36</sup> et quattuor columnas de lignis setthim quas cum capitibus deauravit fusis basibus earum argenteis
 <sup>37</sup> fecit et tentorium in introitu tabernaculi ex hyacintho purpura vermiculo byssoque retorta opere plumarii
 <sup>38</sup> et columnas quinque cum capitibus suis quas operuit auro basesque earum fudit aeneas
+
 ## Chapter 37
 
 <sup>1</sup> fecit autem Beselehel et arcam de lignis setthim habentem duos semis cubitos in longitudinem et cubitum ac semissem in latitudinem altitudo quoque uno cubito fuit et dimidio vestivitque eam auro purissimo intus ac foris
@@ -1173,6 +1209,7 @@
 <sup>27</sup> fecitque ei coronam aureolam per gyrum et duos anulos aureos sub corona per singula latera ut mittantur in eos vectes et possit altare portari
 <sup>28</sup> ipsos autem vectes fecit de lignis setthim et operuit lamminis aureis
 <sup>29</sup> conposuit et oleum ad sanctificationis unguentum et thymiama de aromatibus mundissimis opere pigmentarii
+
 ## Chapter 38
 
 <sup>1</sup> fecit et altare holocausti de lignis setthim quinque cubitorum per quadrum et trium in altitudine
@@ -1206,6 +1243,7 @@
 <sup>29</sup> aeris quoque oblata sunt talenta septuaginta duo milia et quadringenti supra sicli
 <sup>30</sup> ex quibus fusae sunt bases in introitu tabernaculi testimonii et altare aeneum cum craticula sua omniaque vasa quae ad usum eius pertinent
 <sup>31</sup> et bases atrii tam in circuitu quam in ingressu eius et paxilli tabernaculi atque atrii per gyrum
+
 ## Chapter 39
 
 <sup>1</sup> de hyacintho vero et purpura vermiculo ac bysso fecit vestes quibus indueretur Aaron quando ministrabat in sanctis sicut praecepit Dominus Mosi
@@ -1251,6 +1289,7 @@
 <sup>41</sup> vestes quoque quibus sacerdotes utuntur in sanctuario Aaron scilicet et filii eius
 <sup>42</sup> obtulerunt filii Israhel sicut praeceperat Dominus
 <sup>43</sup> quae postquam Moses cuncta vidit expleta benedixit eis
+
 ## Chapter 40
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens

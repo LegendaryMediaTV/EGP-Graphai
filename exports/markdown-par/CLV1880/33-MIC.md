@@ -16,6 +16,7 @@
 <sup>14</sup> propterea dabit emissarios super hereditatem Geth domus Mendacii in deceptionem regibus Israhel
 <sup>15</sup> adhuc heredem adducam tibi quae habitas in Maresa usque Adollam veniet gloria Israhel
 <sup>16</sup> decalvare et tondere super filios deliciarum tuarum dilata calvitium tuum sicut aquila quoniam captivi ducti sunt ex te
+
 ## Chapter 2
 
 <sup>1</sup> vae qui cogitatis inutile et operamini malum in cubilibus vestris in luce matutina faciunt illud quoniam contra Deum est manus eorum
@@ -31,6 +32,7 @@
 <sup>11</sup> utinam non essem vir habens spiritum et mendacium potius loquerer stillabo tibi in vinum et in ebrietatem et erit super quem stillatur populus iste
 <sup>12</sup> congregatione congregabo Iacob totum te in unum conducam reliquias Israhel pariter ponam illum quasi gregem in ovili quasi pecus in medio caularum tumultuabuntur a multitudine hominum
 <sup>13</sup> ascendet enim pandens iter ante eos divident et transibunt portam et egredientur per eam et transibit rex eorum coram eis et Dominus in capite eorum
+
 ## Chapter 3
 
 <sup>1</sup> et dixi audite principes Iacob et duces domus Israhel numquid non vestrum est scire iudicium
@@ -45,6 +47,7 @@
 <sup>10</sup> qui aedificatis Sion in sanguinibus et Hierusalem in iniquitate
 <sup>11</sup> principes eius in muneribus iudicabant et sacerdotes eius in mercede docebant et prophetae eius in pecunia divinabant et super Dominum requiescebant dicentes numquid non Dominus in medio nostrum non venient super nos mala
 <sup>12</sup> propter hoc causa vestri Sion quasi ager arabitur et Hierusalem quasi acervus lapidum erit et mons templi in excelsa silvarum
+
 ## Chapter 4
 
 <sup>1</sup> et in novissimo dierum erit mons domus Domini praeparatus in vertice montium et sublimis super colles et fluent ad eum populi
@@ -60,6 +63,7 @@
 <sup>11</sup> et nunc congregatae sunt super te gentes multae quae dicunt lapidetur et aspiciat in Sion oculus noster
 <sup>12</sup> ipsi autem non cognoverunt cogitationes Domini et non intellexerunt consilium eius quia congregavit eos quasi faenum areae
 <sup>13</sup> surge et tritura filia Sion quia cornu tuum ponam ferreum et ungulas tuas ponam aereas et comminues populos multos et interficiam Domino rapinas eorum et fortitudinem eorum Domino universae terrae
+
 ## Chapter 5
 
 <sup>1</sup> nunc vastaberis filia latronis obsidionem posuerunt super nos in virga percutient maxillam iudicis Israhel
@@ -77,6 +81,7 @@
 <sup>13</sup> (5-12) et perire faciam sculptilia tua et statuas tuas de medio tui et non adorabis ultra opera manuum tuarum
 <sup>14</sup> (5-13) et evellam lucos tuos de medio tui et conteram civitates tuas
 <sup>15</sup> (5-14) et faciam in furore et in indignatione ultionem in omnibus gentibus quae non audierunt
+
 ## Chapter 6
 
 <sup>1</sup> audite quae Dominus loquitur surge contende iudicio adversum montes et audiant colles vocem tuam
@@ -95,6 +100,7 @@
 <sup>14</sup> tu comedes et non saturaberis et humiliatio tua in medio tui et adprehendes et non salvabis et quos salvaveris in gladium dabo
 <sup>15</sup> tu seminabis et non metes tu calcabis olivam et non ungueris oleo et mustum et non bibes vinum
 <sup>16</sup> et custodisti praecepta Omri et omne opus domus Achab et ambulasti in voluntatibus eorum ut darem te in perditionem et habitantes in ea in sibilum et obprobrium populi mei portabitis
+
 ## Chapter 7
 
 <sup>1</sup> vae mihi quia factus sum sicut qui colligit in autumno racemos vindemiae non est botrus ad comedendum praecoquas ficus desideravit anima mea

@@ -20,6 +20,7 @@
 <sup>18</sup> et vivus et fui mortuus et ecce sum vivens in saecula saeculorum et habeo claves mortis et inferni
 <sup>19</sup> scribe ergo quae vidisti et quae sunt et quae oportet fieri post haec
 <sup>20</sup> sacramentum septem stellarum quas vidisti in dextera mea et septem candelabra aurea septem stellae angeli sunt septem ecclesiarum et candelabra septem septem ecclesiae sunt
+
 ## Chapter 2
 
 <sup>1</sup> angelo Ephesi ecclesiae scribe haec dicit qui tenet septem stellas in dextera sua qui ambulat in medio septem candelabrorum aureorum
@@ -51,6 +52,7 @@
 <sup>27</sup> et reget illas in virga ferrea tamquam vas figuli confringentur
 <sup>28</sup> sicut et ego accepi a Patre meo et dabo illi stellam matutinam
 <sup>29</sup> qui habet aurem audiat quid Spiritus dicat ecclesiis
+
 ## Chapter 3
 
 <sup>1</sup> et angelo ecclesiae Sardis scribe haec dicit qui habet septem spiritus Dei et septem stellas scio opera tua quia nomen habes quod vivas et mortuus es
@@ -75,6 +77,7 @@
 <sup>20</sup> ecce sto ad ostium et pulso si quis audierit vocem meam et aperuerit ianuam introibo ad illum et cenabo cum illo et ipse mecum
 <sup>21</sup> qui vicerit dabo ei sedere mecum in throno meo sicut et ego vici et sedi cum Patre meo in throno eius
 <sup>22</sup> qui habet aurem audiat quid Spiritus dicat ecclesiis
+
 ## Chapter 4
 
 <sup>1</sup> post haec vidi et ecce ostium apertum in caelo et vox prima quam audivi tamquam tubae loquentis mecum dicens ascende huc et ostendam tibi quae oportet fieri post haec
@@ -88,6 +91,7 @@
 <sup>9</sup> et cum darent illa animalia gloriam et honorem et benedictionem sedenti super thronum viventi in saecula saeculorum
 <sup>10</sup> procident viginti quattuor seniores ante sedentem in throno et adorabunt viventem in saecula saeculorum et mittent coronas suas ante thronum dicentes
 <sup>11</sup> dignus es Domine et Deus noster accipere gloriam et honorem et virtutem quia tu creasti omnia et propter voluntatem tuam erant et creata sunt
+
 ## Chapter 5
 
 <sup>1</sup> et vidi in dextera sedentis super thronum librum scriptum intus et foris signatum sigillis septem
@@ -104,6 +108,7 @@
 <sup>12</sup> dicentium voce magna dignus est agnus qui occisus est accipere virtutem et divinitatem et sapientiam et fortitudinem et honorem et gloriam et benedictionem
 <sup>13</sup> et omnem creaturam quae in caelo est et super terram et sub terram et quae sunt in mari et quae in ea omnes audivi dicentes sedenti in throno et agno benedictio et honor et gloria et potestas in saecula saeculorum
 <sup>14</sup> et quattuor animalia dicebant amen et seniores ceciderunt et adoraverunt
+
 ## Chapter 6
 
 <sup>1</sup> et vidi quod aperuisset agnus unum de septem signaculis et audivi unum de quattuor animalibus dicentem tamquam vocem tonitrui veni
@@ -123,6 +128,7 @@
 <sup>15</sup> et reges terrae et principes et tribuni et divites et fortes et omnis servus et liber absconderunt se in speluncis et petris montium
 <sup>16</sup> et dicunt montibus et petris cadite super nos et abscondite nos a facie sedentis super thronum et ab ira agni
 <sup>17</sup> quoniam venit dies magnus irae ipsorum et quis poterit stare
+
 ## Chapter 7
 
 <sup>1</sup> post haec vidi quattuor angelos stantes super quattuor angulos terrae tenentes quattuor ventos terrae ne flaret ventus super terram neque super mare neque in ullam arborem
@@ -142,6 +148,7 @@
 <sup>15</sup> ideo sunt ante thronum Dei et serviunt ei die ac nocte in templo eius et qui sedet in throno habitabit super illos
 <sup>16</sup> non esurient neque sitient amplius neque cadet super illos sol neque ullus aestus
 <sup>17</sup> quoniam agnus qui in medio throni est reget illos et deducet eos ad vitae fontes aquarum et absterget Deus omnem lacrimam ex oculis eorum
+
 ## Chapter 8
 
 <sup>1</sup> et cum aperuisset sigillum septimum factum est silentium in caelo quasi media hora
@@ -157,6 +164,7 @@
 <sup>11</sup> et nomen stellae dicitur Absinthius et facta est tertia pars aquarum in absinthium et multi hominum mortui sunt de aquis quia amarae factae sunt
 <sup>12</sup> et quartus angelus tuba cecinit et percussa est tertia pars solis et tertia pars lunae et tertia pars stellarum ut obscuraretur tertia pars eorum et diei non luceret pars tertia et nox similiter
 <sup>13</sup> et vidi et audivi vocem unius aquilae volantis per medium caelum dicentis voce magna vae vae vae habitantibus in terra de ceteris vocibus tubae trium angelorum qui erant tuba canituri
+
 ## Chapter 9
 
 <sup>1</sup> et quintus angelus tuba cecinit et vidi stellam de caelo cecidisse in terram et data est illi clavis putei abyssi
@@ -180,6 +188,7 @@
 <sup>19</sup> potestas enim equorum in ore eorum est et in caudis eorum nam caudae illorum similes serpentibus habentes capita et in his nocent
 <sup>20</sup> et ceteri homines qui non sunt occisi in his plagis neque paenitentiam egerunt de operibus manuum suarum ut non adorarent daemonia et simulacra aurea et argentea et aerea et lapidea et lignea quae neque videre possunt neque audire neque ambulare
 <sup>21</sup> et non egerunt paenitentiam ab homicidiis suis neque a veneficiis suis neque a fornicatione sua neque a furtis suis
+
 ## Chapter 10
 
 <sup>1</sup> et vidi alium angelum fortem descendentem de caelo amictum nube et iris in capite eius et facies eius erat ut sol et pedes eius tamquam columna ignis
@@ -193,6 +202,7 @@
 <sup>9</sup> et abii ad angelum dicens ei ut daret mihi librum et dicit mihi accipe et devora illum et faciet amaricare ventrem tuum sed in ore tuo erit dulce tamquam mel
 <sup>10</sup> et accepi librum de manu angeli et devoravi eum et erat in ore meo tamquam mel dulce et cum devorassem eum amaricatus est venter meus
 <sup>11</sup> et dicunt mihi oportet te iterum prophetare populis et gentibus et linguis et regibus multis
+
 ## Chapter 11
 
 <sup>1</sup> et datus est mihi calamus similis virgae dicens surge et metire templum Dei et altare et adorantes in eo
@@ -214,6 +224,7 @@
 <sup>17</sup> dicentes gratias agimus tibi Domine Deus omnipotens qui es et qui eras quia accepisti virtutem tuam magnam et regnasti
 <sup>18</sup> et iratae sunt gentes et advenit ira tua et tempus mortuorum iudicari et reddere mercedem servis tuis prophetis et sanctis et timentibus nomen tuum pusillis et magnis et exterminandi eos qui corruperunt terram
 <sup>19</sup> et apertum est templum Dei in caelo et visa est arca testamenti eius in templo eius et facta sunt fulgora et voces et terraemotus et grando magna
+
 ## Chapter 12
 
 <sup>1</sup> et signum magnum paruit in caelo mulier amicta sole et luna sub pedibus eius et in capite eius corona stellarum duodecim
@@ -233,9 +244,12 @@
 <sup>15</sup> et misit serpens ex ore suo post mulierem aquam tamquam flumen ut eam faceret trahi a flumine
 <sup>16</sup> et adiuvit terra mulierem et aperuit terra os suum et absorbuit flumen quod misit draco de ore suo
 <sup>17</sup> et iratus est draco in mulierem et abiit facere proelium cum reliquis de semine eius qui custodiunt mandata Dei et habent testimonium Iesu
+
 ## Chapter 13
 
-<sup>1</sup> [verse]12:17[/verse] et stetit super harenam maris [verse]13:1[/verse] et vidi de mare bestiam ascendentem habentem capita septem et cornua decem et super cornua eius decem diademata et super capita eius nomina blasphemiae
+<sup>1</sup> 
+
+et stetit super harenam maris <sup>a</sup>et vidi de mare bestiam ascendentem habentem capita septem et cornua decem et super cornua eius decem diademata et super capita eius nomina blasphemiae
 <sup>2</sup> et bestiam quam vidi similis erat pardo et pedes eius sicut ursi et os eius sicut os leonis et dedit illi draco virtutem suam et potestatem magnam
 <sup>3</sup> et unum de capitibus suis quasi occisum in mortem et plaga mortis eius curata est et admirata est universa terra post bestiam
 <sup>4</sup> et adoraverunt draconem quia dedit potestatem bestiae et adoraverunt bestiam dicentes quis similis bestiae et quis poterit pugnare cum ea
@@ -253,6 +267,9 @@
 <sup>16</sup> et faciet omnes pusillos et magnos et divites et pauperes et liberos et servos habere caracter in dextera manu aut in frontibus suis
 <sup>17</sup> et ne quis possit emere aut vendere nisi qui habet caracter nomen bestiae aut numerum nominis eius
 <sup>18</sup> hic sapientia est qui habet intellectum conputet numerum bestiae numerus enim hominis est et numerus eius est sescenti sexaginta sex
+
+> - <sup>a</sup> 1. Originally verse 13:1.
+
 ## Chapter 14
 
 <sup>1</sup> et vidi et ecce agnus stabat supra montem Sion et cum illo centum quadraginta quattuor milia habentes nomen eius et nomen Patris eius scriptum in frontibus suis
@@ -275,6 +292,7 @@
 <sup>18</sup> et alius angelus de altari qui habet potestatem supra ignem et clamavit voce magna qui habebat falcem acutam dicens mitte falcem tuam acutam et vindemia botros vineae terrae quoniam maturae sunt uvae eius
 <sup>19</sup> et misit angelus falcem suam in terram et vindemiavit vineam terrae et misit in lacum irae Dei magnum
 <sup>20</sup> et calcatus est lacus extra civitatem et exivit sanguis de lacu usque ad frenos equorum per stadia mille sescenta
+
 ## Chapter 15
 
 <sup>1</sup> et vidi aliud signum in caelo magnum et mirabile angelos septem habentes plagas septem novissimas quoniam in illis consummata est ira Dei
@@ -285,6 +303,7 @@
 <sup>6</sup> et exierunt septem angeli habentes septem plagas de templo vestiti lapide mundo candido et praecincti circa pectora zonis aureis
 <sup>7</sup> et unus ex quattuor animalibus dedit septem angelis septem fialas aureas plenas iracundiae Dei viventis in saecula saeculorum
 <sup>8</sup> et impletum est templum fumo a maiestate Dei et de virtute eius et nemo poterat introire in templum donec consummarentur septem plagae septem angelorum
+
 ## Chapter 16
 
 <sup>1</sup> et audivi vocem magnam de templo dicentem septem angelis ite et effundite septem fialas irae Dei in terram
@@ -308,6 +327,7 @@
 <sup>19</sup> et facta est civitas magna in tres partes et civitates gentium ceciderunt et Babylon magna venit in memoriam ante Deum dare ei calicem vini indignationis irae eius
 <sup>20</sup> et omnis insula fugit et montes non sunt inventi
 <sup>21</sup> et grando magna sicut talentum descendit de caelo in homines et blasphemaverunt homines Deum propter plagam grandinis quoniam magna facta est vehementer
+
 ## Chapter 17
 
 <sup>1</sup> et venit unus de septem angelis qui habebant septem fialas et locutus est mecum dicens veni ostendam tibi damnationem meretricis magnae quae sedet super aquas multas
@@ -328,6 +348,7 @@
 <sup>16</sup> et decem cornua quae vidisti et bestiam hii odient fornicariam et desolatam facient illam et nudam et carnes eius manducabunt et ipsam igni concremabunt
 <sup>17</sup> Deus enim dedit in corda eorum ut faciant quod illi placitum est ut dent regnum suum bestiae donec consummentur verba Dei
 <sup>18</sup> et mulier quam vidisti est civitas magna quae habet regnum super reges terrae
+
 ## Chapter 18
 
 <sup>1</sup> et post haec vidi alium angelum descendentem de caelo habentem potestatem magnam et terra inluminata est a gloria eius
@@ -354,6 +375,7 @@
 <sup>22</sup> et vox citharoedorum et musicorum et tibia canentium et tuba non audietur in te amplius et omnis artifex omnis artis non invenietur in te amplius et vox molae non audietur in te amplius
 <sup>23</sup> et lux lucernae non lucebit tibi amplius et vox sponsi et sponsae non audietur adhuc in te quia mercatores tui erant principes terrae quia in veneficiis tuis erraverunt omnes gentes
 <sup>24</sup> et in ea sanguis prophetarum et sanctorum inventus est et omnium qui interfecti sunt in terra
+
 ## Chapter 19
 
 <sup>1</sup> post haec audivi quasi vocem magnam turbarum multarum in caelo dicentium alleluia salus et gloria et virtus Deo nostro est
@@ -377,6 +399,7 @@
 <sup>19</sup> et vidi bestiam et reges terrae et exercitus eorum congregatos ad faciendum proelium cum illo qui sedebat in equo et cum exercitu eius
 <sup>20</sup> et adprehensa est bestia et cum illo pseudopropheta qui fecit signa coram ipso quibus seduxit eos qui acceperunt caracterem bestiae qui et adorant imaginem eius vivi missi sunt hii duo in stagnum ignis ardentis sulphure
 <sup>21</sup> et ceteri occisi sunt in gladio sedentis super equum qui procedit de ore ipsius et omnes aves saturatae sunt carnibus eorum
+
 ## Chapter 20
 
 <sup>1</sup> et vidi angelum descendentem de caelo habentem clavem abyssi et catenam magnam in manu sua
@@ -394,6 +417,7 @@
 <sup>13</sup> et dedit mare mortuos qui in eo erant et mors et inferus dederunt mortuos qui in ipsis erant et iudicatum est de singulis secundum opera ipsorum
 <sup>14</sup> et inferus et mors missi sunt in stagnum ignis haec mors secunda est stagnum ignis
 <sup>15</sup> et qui non est inventus in libro vitae scriptus missus est in stagnum ignis
+
 ## Chapter 21
 
 <sup>1</sup> et vidi caelum novum et terram novam primum enim caelum et prima terra abiit et mare iam non est
@@ -423,6 +447,7 @@
 <sup>25</sup> et portae eius non cludentur per diem nox enim non erit illic
 <sup>26</sup> et adferent gloriam et honorem gentium in illam
 <sup>27</sup> nec intrabit in ea aliquid coinquinatum et faciens abominationem et mendacium nisi qui scripti sunt in libro vitae agni
+
 ## Chapter 22
 
 <sup>1</sup> et ostendit mihi fluvium aquae vitae splendidum tamquam cristallum procedentem de sede Dei et agni

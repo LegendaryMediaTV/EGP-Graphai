@@ -15,6 +15,7 @@
 <sup>13</sup> et dixit Aggeus nuntius Domini de nuntiis Domini populo dicens ego vobiscum dicit Dominus
 <sup>14</sup> et suscitavit Dominus spiritum Zorobabel filii Salathihel ducis Iuda et spiritum Iesu filii Iosedech sacerdotis magni et spiritum reliquorum de omni populo et ingressi sunt et faciebant opus in domo Domini exercituum Dei sui
 <sup>15</sup> (2-1) in die vicesima et quarta mensis in sexto mense in anno secundo Darii regis
+
 ## Chapter 2
 
 <sup>1</sup> (2-2) in septimo mense vicesima et prima mensis factum est verbum Domini in manu Aggei prophetae dicens

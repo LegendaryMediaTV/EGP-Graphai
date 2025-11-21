@@ -36,6 +36,7 @@
 <sup>34</sup> artavitque Amorreus filios Dan in monte nec dedit eis locum ut ad planiora descenderent
 <sup>35</sup> habitavitque in monte Hares quod interpretatur testaceo in Ahilon et Salabim et adgravata est manus domus Ioseph factusque est ei tributarius
 <sup>36</sup> fuit autem terminus Amorrei ab ascensu Scorpionis Petra et superiora loca
+
 ## Chapter 2
 
 <sup>1</sup> ascenditque angelus Domini de Galgal ad locum Flentium et ait eduxi vos de Aegypto et introduxi in terram pro qua iuravi patribus vestris et pollicitus sum ut non facerem irritum pactum meum vobiscum in sempiternum
@@ -61,6 +62,7 @@
 <sup>21</sup> et ego non delebo gentes quas dimisit Iosue et mortuus est
 <sup>22</sup> ut in ipsis experiar Israhel utrum custodiant viam Domini et ambulent in ea sicut custodierunt patres eorum an non
 <sup>23</sup> dimisit ergo Dominus omnes has nationes et cito subvertere noluit nec tradidit in manibus Iosue
+
 ## Chapter 3
 
 <sup>1</sup> hae sunt gentes quas Dominus dereliquit ut erudiret in eis Israhelem et omnes qui non noverant bella Chananeorum
@@ -94,6 +96,7 @@
 <sup>29</sup> sed percusserunt Moabitas in tempore illo circiter decem milia omnes robustos et fortes viros nullus eorum evadere potuit
 <sup>30</sup> humiliatusque est Moab die illo sub manu Israhel et quievit terra octoginta annis
 <sup>31</sup> post hunc fuit Samgar filius Anath qui percussit de Philisthim sescentos viros vomere et ipse quoque defendit Israhel
+
 ## Chapter 4
 
 <sup>1</sup> addideruntque filii Israhel facere malum in conspectu Domini post mortem Ahoth
@@ -120,6 +123,7 @@
 <sup>22</sup> et ecce Barac sequens Sisaram veniebat egressaque Iahel in occursum eius dixit ei veni et ostendam tibi virum quem quaeris qui cum intrasset ad eam vidit Sisaram iacentem mortuum et clavum infixum in tempore eius
 <sup>23</sup> humiliavit ergo Deus in die illo Iabin regem Chanaan coram filiis Israhel
 <sup>24</sup> qui crescebant cotidie et forti manu opprimebant Iabin regem Chanaan donec delerent eum
+
 ## Chapter 5
 
 <sup>1</sup> cecineruntque Debbora et Barac filius Abinoem in die illo dicentes
@@ -153,6 +157,7 @@
 <sup>29</sup> una sapientior ceteris uxoribus eius haec socrui verba respondit
 <sup>30</sup> forsitan nunc dividit spolia et pulcherrima feminarum eligitur ei vestes diversorum colorum Sisarae traduntur in praedam et supellex varia ad ornanda colla congeritur
 <sup>31</sup> sic pereant omnes inimici tui Domine qui autem diligunt te sicut sol in ortu suo splendet ita rutilent (5-32) quievitque terra per quadraginta annos
+
 ## Chapter 6
 
 <sup>1</sup> fecerunt autem filii Israhel malum in conspectu Domini qui tradidit eos in manu Madian septem annis
@@ -195,6 +200,7 @@
 <sup>38</sup> factumque est ita et de nocte consurgens expresso vellere concam rore conplevit
 <sup>39</sup> dixitque rursus ad Dominum ne irascatur furor tuus contra me si adhuc semel temptavero signum quaerens in vellere oro ut solum vellus siccum sit et omnis terra rore madens
 <sup>40</sup> fecitque Dominus nocte illa ut postulaverat et fuit siccitas in solo vellere et ros in omni terra
+
 ## Chapter 7
 
 <sup>1</sup> igitur Hierobbaal qui est et Gedeon de nocte consurgens et omnis populus cum eo venit ad fontem qui vocatur Arad erant autem castra Madian in valle ad septentrionalem plagam collis Excelsi
@@ -222,6 +228,7 @@
 <sup>23</sup> fugientes usque Bethseta et crepidinem Abelmeula in Tebbath conclamantes autem viri Israhel de Nepthali et Aser et omni Manasse persequebantur Madian
 <sup>24</sup> misitque Gedeon nuntios in omnem montem Ephraim dicens descendite in occursum Madian et occupate aquas usque Bethbera atque Iordanem clamavitque omnis Ephraim et praeoccupavit aquas atque Iordanem usque Bethbera
 <sup>25</sup> adprehensosque duos viros Madian Oreb et Zeb interfecit Oreb in petra Oreb Zeb vero in torculari Zeb et persecuti sunt Madian capita Oreb et Zeb portantes ad Gedeon trans fluenta Iordanis
+
 ## Chapter 8
 
 <sup>1</sup> dixeruntque ad eum viri Ephraim quid est hoc quod facere voluisti ut non nos vocares cum ad pugnam pergeres contra Madian iurgantes fortiter et prope vim inferentes
@@ -259,6 +266,7 @@
 <sup>33</sup> postquam autem mortuus est Gedeon aversi sunt filii Israhel et fornicati cum Baalim percusseruntque cum Baal foedus ut esset eis in deum
 <sup>34</sup> nec recordati sunt Domini Dei sui qui eruit eos de manu omnium inimicorum suorum per circuitum
 <sup>35</sup> nec fecerunt misericordiam cum domo Hierobbaal Gedeon iuxta omnia bona quae fecerat Israheli
+
 ## Chapter 9
 
 <sup>1</sup> abiit autem Abimelech filius Hierobbaal in Sychem ad fratres matris suae et locutus est ad eos et ad omnem cognationem domus patris matris suae dicens
@@ -318,6 +326,7 @@
 <sup>55</sup> illoque mortuo omnes qui cum eo erant de Israhel reversi sunt in sedes suas
 <sup>56</sup> et reddidit Deus malum quod fecerat Abimelech contra patrem suum interfectis septuaginta fratribus suis
 <sup>57</sup> Sycimitis quoque quod operati erant retributum est et venit super eos maledictio Ioatham filii Hierobbaal
+
 ## Chapter 10
 
 <sup>1</sup> post Abimelech surrexit dux in Israhel Thola filius Phoa patrui Abimelech vir de Isachar qui habitavit in Sanir montis Ephraim
@@ -338,6 +347,7 @@
 <sup>16</sup> quae dicentes omnia de finibus suis alienorum deorum idola proiecerunt et servierunt Deo qui doluit super miseriis eorum
 <sup>17</sup> itaque filii Ammon conclamantes in Galaad fixere tentoria contra quos congregati filii Israhel in Maspha castrametati sunt
 <sup>18</sup> dixeruntque principes Galaad singuli ad proximos suos qui primus e nobis contra filios Ammon coeperit dimicare erit dux populi Galaad
+
 ## Chapter 11
 
 <sup>1</sup> fuit illo tempore Iepthae Galaadites vir fortissimus atque pugnator filius meretricis mulieris qui natus est de Galaad
@@ -380,6 +390,7 @@
 <sup>38</sup> cui ille respondit vade et dimisit eam duobus mensibus cumque abisset cum sociis ac sodalibus suis flebat virginitatem suam in montibus
 <sup>39</sup> expletisque duobus mensibus reversa est ad patrem suum et fecit ei sicut voverat quae ignorabat virum exinde mos increbuit in Israhel et consuetudo servata est
 <sup>40</sup> ut post anni circulum conveniant in unum filiae Israhel et plangant filiam Iepthae Galaaditae diebus quattuor
+
 ## Chapter 12
 
 <sup>1</sup> ecce autem in Ephraim orta seditio est nam transeuntes contra aquilonem dixerunt ad Iepthae quare vadens ad pugnam contra filios Ammon vocare nos noluisti ut pergeremus tecum igitur incendimus domum tuam
@@ -397,6 +408,7 @@
 <sup>13</sup> post hunc iudicavit in Israhel Abdon filius Hellel Farathonites
 <sup>14</sup> qui habuit quadraginta filios et triginta ex eis nepotes ascendentes super septuaginta pullos asinarum et iudicavit in Israhel octo annis
 <sup>15</sup> mortuusque est ac sepultus in Farathon terrae Ephraim in monte Amalech
+
 ## Chapter 13
 
 <sup>1</sup> rursumque filii Israhel fecerunt malum in conspectu Domini qui tradidit eos in manus Philisthinorum quadraginta annis
@@ -424,6 +436,7 @@
 <sup>23</sup> cui respondit mulier si Dominus nos vellet occidere de manibus nostris holocaustum et libamenta non suscepisset nec ostendisset nobis haec omnia neque ea quae sunt ventura dixisset
 <sup>24</sup> peperit itaque filium et vocavit nomen eius Samson crevitque puer et benedixit ei Dominus
 <sup>25</sup> coepitque spiritus Domini esse cum eo in castris Dan inter Saraa et Esthaol
+
 ## Chapter 14
 
 <sup>1</sup> descendit igitur Samson in Thamnatha vidensque ibi mulierem de filiabus Philisthim
@@ -446,6 +459,7 @@
 <sup>18</sup> et illi dixerunt ei die septimo ante solis occubitum quid dulcius melle et quid leone fortius qui ait ad eos si non arassetis in vitula mea non invenissetis propositionem meam
 <sup>19</sup> inruit itaque in eo spiritus Domini descenditque Ascalonem et percussit ibi triginta viros quorum ablatas vestes dedit his qui problema solverant iratusque nimis ascendit in domum patris sui
 <sup>20</sup> uxor autem eius accepit maritum unum de amicis eius et pronubis
+
 ## Chapter 15
 
 <sup>1</sup> post aliquantum autem temporis cum dies triticeae messis instarent venit Samson invisere volens uxorem suam et adtulit ei hedum de capris cumque cubiculum eius solito vellet intrare prohibuit eum pater illius dicens
@@ -468,6 +482,7 @@
 <sup>18</sup> sitiensque valde clamavit ad Dominum et ait tu dedisti in manu servi tui salutem hanc maximam atque victoriam et en siti morior incidamque in manus incircumcisorum
 <sup>19</sup> aperuit itaque Dominus molarem dentem in maxilla asini et egressae sunt ex eo aquae quibus haustis refocilavit spiritum et vires recepit idcirco appellatum est nomen loci illius Fons invocantis de maxilla usque in praesentem diem
 <sup>20</sup> iudicavitque Israhel in diebus Philisthim viginti annis
+
 ## Chapter 16
 
 <sup>1</sup> abiit quoque in Gazam et vidit ibi meretricem mulierem ingressusque est ad eam
@@ -501,6 +516,7 @@
 <sup>29</sup> et adprehendens ambas columnas quibus innitebatur domus alteramque earum dextera et alteram leva tenens
 <sup>30</sup> ait moriatur anima mea cum Philisthim concussisque fortiter columnis cecidit domus super omnes principes et ceteram multitudinem quae ibi erat multoque plures interfecit moriens quam ante vivus occiderat
 <sup>31</sup> descendentes autem fratres eius et universa cognatio tulerunt corpus eius et sepelierunt inter Saraa et Esthaol in sepulchro patris Manue iudicavitque Israhel viginti annis
+
 ## Chapter 17
 
 <sup>1</sup> fuit eo tempore vir quidam de monte Ephraim nomine Michas
@@ -516,6 +532,7 @@
 <sup>11</sup> adquievit et mansit apud hominem fuitque illi quasi unus de filiis
 <sup>12</sup> implevitque Micha manum eius et habuit apud se puerum sacerdotem
 <sup>13</sup> nunc scio dicens quod bene mihi faciat Deus habenti levitici generis sacerdotem
+
 ## Chapter 18
 
 <sup>1</sup> in diebus illis non erat rex in Israhel et tribus Dan quaerebat possessionem sibi ut habitaret in ea usque ad illum enim diem inter ceteras tribus sortem non acceperat
@@ -549,6 +566,7 @@
 <sup>29</sup> vocato nomine civitatis Dan iuxta vocabulum patris sui quem genuerat Israhel quae prius Lais dicebatur
 <sup>30</sup> posueruntque sibi sculptile et Ionathan filium Gersan filii Mosi ac filios eius sacerdotes in tribu Dan usque ad diem captivitatis suae
 <sup>31</sup> mansitque apud eos idolum Michae omni tempore quo fuit domus Dei in Silo in diebus illis non erat rex in Israhel
+
 ## Chapter 19
 
 <sup>1</sup> fuit quidam vir Levites habitans in latere montis Ephraim qui accepit uxorem de Bethleem Iuda
@@ -581,6 +599,7 @@
 <sup>28</sup> cui ille putans eam quiescere loquebatur surge ut ambulemus qua nihil respondente intellegens quod erat tulit eam et inposuit asino reversusque est in domum suam
 <sup>29</sup> quam cum esset ingressus arripuit gladium et cadaver uxoris cum ossibus suis in duodecim partes ac frusta concidens misit in omnes terminos Israhel
 <sup>30</sup> quod cum vidissent singuli conclamabant numquam res talis facta est in Israhel ex eo die quo ascenderunt patres nostri de Aegypto usque in praesens tempus ferte sententiam et in commune decernite quid facto opus sit
+
 ## Chapter 20
 
 <sup>1</sup> egressi sunt itaque omnes filii Israhel et pariter congregati quasi vir unus de Dan usque Bersabee et terra Galaad ad Dominum in Maspha
@@ -631,6 +650,7 @@
 <sup>46</sup> et sic factum est ut omnes qui ceciderant de Beniamin in diversis locis essent viginti quinque milia pugnatores ad bella promptissimi
 <sup>47</sup> remanserunt itaque de omni numero Beniamin qui evadere potuerant et fugere in solitudinem sescenti viri sederuntque in petra Remmon mensibus quattuor
 <sup>48</sup> regressi autem filii Israhel omnes reliquias civitatis a viris usque ad iumenta gladio percusserunt cunctasque urbes et viculos Beniamin vorax flamma consumpsit
+
 ## Chapter 21
 
 <sup>1</sup> iuraverunt quoque filii Israhel in Maspha et dixerunt nullus nostrum dabit filiis Beniamin de filiabus suis uxorem

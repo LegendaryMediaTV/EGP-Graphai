@@ -18,6 +18,7 @@
 <sup>16</sup> responderuntque ad Iosue atque dixerunt omnia quae praecepisti nobis faciemus et quocumque miseris ibimus
 <sup>17</sup> sicut oboedivimus in cunctis Mosi ita oboediemus et tibi tantum sit Dominus Deus tecum sicut fuit cum Mose
 <sup>18</sup> qui contradixerit ori tuo et non oboedierit cunctis sermonibus quos praeceperis ei moriatur tu tantum confortare et viriliter age
+
 ## Chapter 2
 
 <sup>1</sup> misit ergo Iosue filius Nun de Setthim duos viros exploratores abscondito et dixit eis ite et considerate terram urbemque Hiericho qui pergentes ingressi sunt domum mulieris meretricis nomine Raab et quieverunt apud eam
@@ -44,6 +45,7 @@
 <sup>22</sup> illi vero ambulantes pervenerunt ad montana et manserunt ibi tres dies donec reverterentur qui fuerant persecuti quaerentes enim per omnem viam non reppererunt eos
 <sup>23</sup> quibus urbem ingressis reversi sunt et descenderunt exploratores de monte et Iordane transmisso venerunt ad Iosue filium Nun narraveruntque ei omnia quae acciderant sibi
 <sup>24</sup> atque dixerunt tradidit Dominus in manus nostras omnem terram hanc et timore prostrati sunt cuncti habitatores eius
+
 ## Chapter 3
 
 <sup>1</sup> igitur Iosue de nocte consurgens movit castra egredientesque de Setthim venerunt ad Iordanem ipse et omnes filii Israhel et morati sunt ibi per tres dies
@@ -63,6 +65,7 @@
 <sup>15</sup> ingressisque eis Iordanem et pedibus eorum tinctis in parte aquae cum Iordanis autem ripas alvei sui tempore messis impleret
 <sup>16</sup> steterunt aquae descendentes in uno loco et instar montis intumescentes apparebant procul ab urbe quae vocatur Adom usque ad locum Sarthan quae autem inferiores erant in mare Solitudinis quod nunc vocatur Mortuum descenderunt usquequo omnino deficerent
 <sup>17</sup> populus autem incedebat contra Iordanem et sacerdotes qui portabant arcam foederis Domini stabant super siccam humum in medio Iordanis accincti omnisque populus per arentem alveum transiebat
+
 ## Chapter 4
 
 <sup>1</sup> quibus transgressis dixit Dominus ad Iosue
@@ -89,6 +92,7 @@
 <sup>22</sup> docebitis eos atque dicetis per arentem alveum transivit Israhel Iordanem istum
 <sup>23</sup> siccante Domino Deo vestro aquas eius in conspectu vestro donec transiretis
 <sup>24</sup> sicut fecerat prius in mari Rubro quod siccavit donec transiremus (4-25) ut discant omnes terrarum populi fortissimam Domini manum et ut vos timeatis Dominum Deum vestrum omni tempore
+
 ## Chapter 5
 
 <sup>1</sup> postquam ergo audierunt omnes reges Amorreorum qui habitabant trans Iordanem ad occidentalem plagam et cuncti reges Chanaan qui propinqua possidebant Magno mari loca quod siccasset Dominus fluenta Iordanis coram filiis Israhel donec transirent dissolutum est cor eorum et non remansit in eis spiritus timentium introitum filiorum Israhel
@@ -106,6 +110,7 @@
 <sup>13</sup> cum autem esset Iosue in agro urbis Hiericho levavit oculos et vidit virum stantem contra se et evaginatum tenentem gladium perrexitque ad eum et ait noster es an adversariorum
 <sup>14</sup> qui respondit nequaquam sed sum princeps exercitus Domini et nunc venio (5-15) cecidit Iosue pronus in terram et adorans ait quid dominus meus loquitur ad servum suum
 <sup>15</sup> (5-16) solve inquit calciamentum de pedibus tuis locus enim in quo stas sanctus est fecitque Iosue ut sibi fuerat imperatum
+
 ## Chapter 6
 
 <sup>1</sup> Hiericho autem clausa erat atque munita timore filiorum Israhel et nullus egredi audebat aut ingredi
@@ -135,6 +140,7 @@
 <sup>25</sup> Raab vero meretricem et domum patris eius atque omnia quae habebat fecit Iosue vivere et habitaverunt in medio Israhel usque in praesentem diem eo quod absconderit nuntios quos miserat ut explorarent Hiericho in tempore illo inprecatus est Iosue dicens
 <sup>26</sup> maledictus vir coram Domino qui suscitaverit et aedificaverit civitatem Hiericho in primogenito suo fundamenta illius iaciat et in novissimo liberorum ponat portas eius
 <sup>27</sup> fuit ergo Dominus cum Iosue et nomen eius in omni terra vulgatum est
+
 ## Chapter 7
 
 <sup>1</sup> filii autem Israhel praevaricati sunt mandatum et usurpaverunt de anathemate nam Achan filius Charmi filii Zabdi filii Zare de tribu Iuda tulit aliquid de anathemate iratusque est Dominus contra filios Israhel
@@ -163,6 +169,7 @@
 <sup>24</sup> tollens itaque Iosue Achan filium Zare argentumque et pallium et auream regulam filiosque eius et filias boves et asinos et oves ipsumque tabernaculum et cunctam supellectilem et omnis Israhel cum eo duxerunt eos ad vallem Achor
 <sup>25</sup> ubi dixit Iosue quia turbasti nos exturbet te Dominus in die hac lapidavitque eum omnis Israhel et cuncta quae illius erant igne consumpta sunt
 <sup>26</sup> congregaverunt quoque super eum acervum magnum lapidum qui permanet usque in praesentem diem et aversus est furor Domini ab eis vocatumque est nomen loci illius vallis Achor usque hodie
+
 ## Chapter 8
 
 <sup>1</sup> dixit autem Dominus ad Iosue ne timeas neque formides tolle tecum omnem multitudinem pugnatorum et consurgens ascende in oppidum Ahi ecce tradidi in manu tua regem eius et populum urbemque et terram
@@ -200,6 +207,7 @@
 <sup>33</sup> omnis autem populus et maiores natu ducesque ac iudices stabant ex utraque parte arcae in conspectu sacerdotum qui portabant arcam foederis Domini ut advena ita et indigena media eorum pars iuxta montem Garizim et media iuxta montem Hebal sicut praeceperat Moses famulus Domini et primum quidem benedixit populo Israhel
 <sup>34</sup> post haec legit omnia verba benedictionis et maledictionis et cuncta quae scripta erant in legis volumine
 <sup>35</sup> nihil ex his quae Moses iusserat reliquit intactum sed universa replicavit coram omni multitudine Israhel mulieribus ac parvulis et advenis qui inter eos morabantur
+
 ## Chapter 9
 
 <sup>1</sup> quibus auditis cuncti reges trans Iordanem qui versabantur in montanis et in campestribus in maritimis ac litore maris Magni hii quoque qui habitabant iuxta Libanum Hettheus et Amorreus et Chananeus Ferezeus et Eveus et Iebuseus
@@ -229,6 +237,7 @@
 <sup>25</sup> nunc autem in manu tua sumus quod tibi bonum et rectum videtur fac nobis
 <sup>26</sup> fecit ergo Iosue ut dixerat et liberavit eos de manibus filiorum Israhel ut non occiderentur
 <sup>27</sup> decrevitque in illo die esse eos in ministerium cuncti populi et altaris Domini caedentes ligna et aquas conportantes usque in praesens tempus in loco quem Dominus elegisset
+
 ## Chapter 10
 
 <sup>1</sup> quae cum audisset Adonisedec rex Hierusalem quod scilicet cepisset Iosue Ahi et subvertisset eam sicut enim fecerat Hiericho et regi eius sic fecit Ahi et regi illius et quod transfugissent Gabaonitae ad Israhel et essent foederati eorum
@@ -274,6 +283,7 @@
 <sup>41</sup> (10-42) a Cadesbarne usque Gazam omnem terram Gosen usque Gabaon
 <sup>42</sup> (10-43) universos reges et regiones eorum uno cepit impetu atque vastavit Dominus enim Deus Israhel pugnabat pro eo
 <sup>43</sup> (10-44) reversusque est cum omni Israhele ad locum castrorum in Galgala
+
 ## Chapter 11
 
 <sup>1</sup> quae cum audisset Iabin rex Asor misit ad Iobab regem Madon et ad regem Someron atque ad regem Acsaph
@@ -299,6 +309,7 @@
 <sup>21</sup> in tempore illo venit Iosue et interfecit Enacim de montanis Hebron et Dabir et Anab et de omni monte Iuda et Israhel urbesque eorum delevit
 <sup>22</sup> non reliquit ullum de stirpe Enacim in terra filiorum Israhel absque civitatibus Gaza et Geth et Azoto in quibus solis relicti sunt
 <sup>23</sup> cepit ergo Iosue omnem terram sicut locutus est Dominus ad Mosen et tradidit eam in possessionem filiis Israhel secundum partes et tribus suas quievitque terra a proeliis
+
 ## Chapter 12
 
 <sup>1</sup> hii sunt reges quos percusserunt filii Israhel et possederunt terram eorum trans Iordanem ad solis ortum a torrente Arnon usque ad montem Hermon et omnem orientalem plagam quae respicit solitudinem
@@ -325,6 +336,7 @@
 <sup>22</sup> rex Cades unus rex Iachanaem Chermeli unus
 <sup>23</sup> rex Dor et provinciae Dor unus rex gentium Galgal unus
 <sup>24</sup> rex Thersa unus omnes reges triginta et unus
+
 ## Chapter 13
 
 <sup>1</sup> Iosue senex provectaeque aetatis erat et dixit Dominus ad eum senuisti et longevus es terraque latissima derelicta est quae necdum est sorte divisa
@@ -360,6 +372,7 @@
 <sup>31</sup> et dimidiam partem Galaad Astharoth et Edrai urbes regni Og in Basan filiis Machir filii Manasse dimidiae parti filiorum Machir iuxta cognationes suas
 <sup>32</sup> hanc possessionem divisit Moses in campestribus Moab trans Iordanem contra Hiericho ad orientalem plagam
 <sup>33</sup> tribui autem Levi non dedit possessionem quoniam Dominus Deus Israhel ipse est possessio eius ut locutus est illi
+
 ## Chapter 14
 
 <sup>1</sup> hoc est quod possederunt filii Israhel in terra Chanaan quam dederunt eis Eleazar sacerdos et Iosue filius Nun et principes familiarum per tribus Israhel
@@ -377,6 +390,7 @@
 <sup>13</sup> benedixitque ei Iosue et tradidit Hebron in possessionem
 <sup>14</sup> atque ex eo fuit Hebron Chaleb filio Iepphonne Cenezeo usque in praesentem diem quia secutus est Dominum Deum Israhel
 <sup>15</sup> nomen Hebron antea vocabatur Cariatharbe Adam maximus ibi inter Enacim situs est et terra cessavit a proeliis
+
 ## Chapter 15
 
 <sup>1</sup> igitur sors filiorum Iudae per cognationes suas ista fuit a termino Edom desertum Sin contra meridiem et usque ad extremam partem australis plagae
@@ -442,6 +456,7 @@
 <sup>61</sup> in deserto Betharaba Meddin et Schacha
 <sup>62</sup> Anepsan et civitas Salis et Engaddi civitates sex et villae earum
 <sup>63</sup> Iebuseum autem habitatorem Hierusalem non potuerunt filii Iuda delere habitavitque Iebuseus cum filiis Iuda in Hierusalem usque in praesentem diem
+
 ## Chapter 16
 
 <sup>1</sup> cecidit quoque sors filiorum Ioseph ab Iordane contra Hiericho et aquas eius ab oriente solitudo quae ascendit de Hiericho ad montana Bethel
@@ -454,6 +469,7 @@
 <sup>8</sup> de Taffua pertransitque contra mare in valle Harundineti suntque egressus eius in mare Salsissimum haec est possessio tribus filiorum Ephraim per familias suas
 <sup>9</sup> urbesque quae separatae sunt filiis Ephraim in medio possessionis filiorum Manasse et villae earum
 <sup>10</sup> et non interfecerunt filii Ephraim Chananeum qui habitabat in Gazer habitavitque Chananeus in medio Ephraim usque in diem hanc tributarius
+
 ## Chapter 17
 
 <sup>1</sup> cecidit autem sors tribui Manasse ipse est enim primogenitus Ioseph Machir primogenito Manasse patri Galaad qui fuit vir pugnator habuitque possessionem Galaad et Basan
@@ -474,6 +490,7 @@
 <sup>16</sup> cui responderunt filii Ioseph non poterimus ad montana conscendere cum ferreis curribus utantur Chananei qui habitant in terra campestri in qua sitae sunt Bethsan cum viculis suis et Iezrahel mediam possidens vallem
 <sup>17</sup> dixitque Iosue ad domum Ioseph Ephraim et Manasse populus multus es et magnae fortitudinis non habebis sortem unam
 <sup>18</sup> sed transibis ad montem et succides tibi atque purgabis ad habitandum spatia et poteris ultra procedere cum subverteris Chananeum quem dicis ferreos habere currus et esse fortissimum
+
 ## Chapter 18
 
 <sup>1</sup> congregatique sunt omnes filii Israhel in Silo ibique fixerunt tabernaculum testimonii et fuit eis terra subiecta
@@ -504,6 +521,7 @@
 <sup>26</sup> et Mesfe Cafera et Ammosa
 <sup>27</sup> et Recem Iarafel et Tharala
 <sup>28</sup> et Sela Eleph et Iebus quae est Hierusalem Gabaath et Cariath civitates quattuordecim et villae earum haec est possessio filiorum Beniamin iuxta familias suas
+
 ## Chapter 19
 
 <sup>1</sup> et egressa est sors secunda filiorum Symeon per cognationes suas fuitque hereditas
@@ -557,6 +575,7 @@
 <sup>49</sup> cumque conplesset terram sorte dividere singulis per tribus suas dederunt filii Israhel possessionem Iosue filio Nun in medio sui
 <sup>50</sup> iuxta praeceptum Domini urbem quam postulavit Thamnathseraa in monte Ephraim et aedificavit civitatem habitavitque in ea
 <sup>51</sup> hae sunt possessiones quas sorte diviserunt Eleazar sacerdos et Iosue filius Nun et principes familiarum ac tribuum filiorum Israhel in Silo coram Domino ad ostium tabernaculi testimonii partitique sunt terram
+
 ## Chapter 20
 
 <sup>1</sup> et locutus est Dominus ad Iosue dicens loquere filiis Israhel et dic eis
@@ -568,6 +587,7 @@
 <sup>7</sup> decreveruntque Cedes in Galilea montis Nepthali et Sychem in monte Ephraim et Cariatharbe ipsa est Hebron in monte Iuda
 <sup>8</sup> et trans Iordanem contra orientalem plagam Hiericho statuerunt Bosor quae sita est in campestri solitudine de tribu Ruben et Ramoth in Galaad de tribu Gad et Gaulon in Basan de tribu Manasse
 <sup>9</sup> hae civitates constitutae sunt cunctis filiis Israhel et advenis qui habitant inter eos ut fugeret ad eas qui animam nescius percussisset et non moreretur in manu proximi effusum sanguinem vindicare cupientis donec staret ante populum expositurus causam suam
+
 ## Chapter 21
 
 <sup>1</sup> accesseruntque principes familiarum Levi ad Eleazar sacerdotem et Iosue filium Nun et ad duces cognationum per singulas tribus filiorum Israhel
@@ -615,6 +635,7 @@
 <sup>43</sup> (21-41) deditque Dominus Israheli omnem terram quam traditurum se patribus eorum iuraverat et possederunt illam atque habitaverunt in ea
 <sup>44</sup> (21-42) dataque est ab eo pax in omnes per circuitum nationes nullusque eis hostium resistere ausus est sed cuncti in eorum dicionem redacti sunt
 <sup>45</sup> (21-43) ne unum quidem verbum quod illis praestaturum se esse promiserat irritum fuit sed rebus expleta sunt omnia
+
 ## Chapter 22
 
 <sup>1</sup> eodem tempore vocavit Iosue Rubenitas et Gadditas et dimidiam tribum Manasse
@@ -651,6 +672,7 @@
 <sup>32</sup> reversusque est cum principibus a filiis Ruben et Gad de terra Galaad finium Chanaan ad filios Israhel et rettulit eis
 <sup>33</sup> placuitque sermo cunctis audientibus et laudaverunt Deum filii Israhel et nequaquam ultra dixerunt ut ascenderent contra eos atque pugnarent et delerent terram possessionis eorum
 <sup>34</sup> vocaveruntque filii Ruben et filii Gad altare quod extruxerant Testimonium nostrum quod Dominus ipse sit Deus
+
 ## Chapter 23
 
 <sup>1</sup> evoluto autem multo tempore postquam pacem Dominus dederat Israheli subiectis in gyro nationibus universis et Iosue iam longevo et persenilis aetatis
@@ -669,6 +691,7 @@
 <sup>14</sup> en ego hodie ingrediar viam universae terrae et toto animo cognoscetis quod de omnibus verbis quae se Dominus praestaturum nobis esse pollicitus est unum non praeterierit in cassum
 <sup>15</sup> sicut ergo implevit opere quod promisit et prospera cuncta venerunt sic adducet super vos quicquid malorum comminatus est donec vos auferat atque disperdat de terra hac optima quam tradidit vobis
 <sup>16</sup> eo quod praeterieritis pactum Domini Dei vestri quod pepigit vobiscum et servieritis diis alienis et adoraveritis eos cito atque velociter consurget in vos furor Domini et auferemini de terra hac optima quam tradidit vobis
+
 ## Chapter 24
 
 <sup>1</sup> congregavitque Iosue omnes tribus Israhel in Sychem et vocavit maiores natu ac principes et iudices et magistros steteruntque in conspectu Domini

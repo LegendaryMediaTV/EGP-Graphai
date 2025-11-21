@@ -51,6 +51,7 @@
 <sup>49</sup> respondit ei Nathanahel et ait rabbi tu es Filius Dei tu es rex Israhel
 <sup>50</sup> respondit Iesus et dixit ei quia dixi tibi vidi te sub ficu credis maius his videbis
 <sup>51</sup> et dicit ei amen amen dico vobis videbitis caelum apertum et angelos Dei ascendentes et descendentes supra Filium hominis
+
 ## Chapter 2
 
 <sup>1</sup> et die tertio nuptiae factae sunt in Cana Galilaeae et erat mater Iesu ibi
@@ -78,6 +79,7 @@
 <sup>23</sup> cum autem esset Hierosolymis in pascha in die festo multi crediderunt in nomine eius videntes signa eius quae faciebat
 <sup>24</sup> ipse autem Iesus non credebat semet ipsum eis eo quod ipse nosset omnes
 <sup>25</sup> et quia opus ei non erat ut quis testimonium perhiberet de homine ipse enim sciebat quid esset in homine
+
 ## Chapter 3
 
 <sup>1</sup> erat autem homo ex Pharisaeis Nicodemus nomine princeps Iudaeorum
@@ -116,6 +118,7 @@
 <sup>34</sup> quem enim misit Deus verba Dei loquitur non enim ad mensuram dat Deus Spiritum
 <sup>35</sup> Pater diligit Filium et omnia dedit in manu eius
 <sup>36</sup> qui credit in Filium habet vitam aeternam qui autem incredulus est Filio non videbit vitam sed ira Dei manet super eum
+
 ## Chapter 4
 
 <sup>1</sup> ut ergo cognovit Iesus quia audierunt Pharisaei quia Iesus plures discipulos facit et baptizat quam Iohannes
@@ -172,6 +175,7 @@
 <sup>52</sup> interrogabat ergo horam ab eis in qua melius habuerit et dixerunt ei quia heri hora septima reliquit eum febris
 <sup>53</sup> cognovit ergo pater quia illa hora erat in qua dixit ei Iesus filius tuus vivit et credidit ipse et domus eius tota
 <sup>54</sup> hoc iterum secundum signum fecit Iesus cum venisset a Iudaea in Galilaeam
+
 ## Chapter 5
 
 <sup>1</sup> post haec erat dies festus Iudaeorum et ascendit Iesus Hierosolymis
@@ -220,6 +224,7 @@
 <sup>45</sup> nolite putare quia ego accusaturus sim vos apud Patrem est qui accuset vos Moses in quo vos speratis
 <sup>46</sup> si enim crederetis Mosi crederetis forsitan et mihi de me enim ille scripsit
 <sup>47</sup> si autem illius litteris non creditis quomodo meis verbis credetis
+
 ## Chapter 6
 
 <sup>1</sup> post haec abiit Iesus trans mare Galilaeae quod est Tiberiadis
@@ -293,6 +298,7 @@
 <sup>69</sup> et nos credidimus et cognovimus quia tu es Christus Filius Dei
 <sup>70</sup> respondit eis Iesus nonne ego vos duodecim elegi et ex vobis unus diabolus est
 <sup>71</sup> dicebat autem Iudam Simonis Scariotis hic enim erat traditurus eum cum esset unus ex duodecim
+
 ## Chapter 7
 
 <sup>1</sup> post haec ambulabat Iesus in Galilaeam non enim volebat in Iudaeam ambulare quia quaerebant eum Iudaei interficere
@@ -348,6 +354,7 @@
 <sup>51</sup> numquid lex nostra iudicat hominem nisi audierit ab ipso prius et cognoverit quid faciat
 <sup>52</sup> responderunt et dixerunt ei numquid et tu Galilaeus es scrutare et vide quia propheta a Galilaea non surgit
 <sup>53</sup> et reversi sunt unusquisque in domum suam
+
 ## Chapter 8
 
 <sup>1</sup> Iesus autem perrexit in montem Oliveti
@@ -409,6 +416,7 @@
 <sup>57</sup> dixerunt ergo Iudaei ad eum quinquaginta annos nondum habes et Abraham vidisti
 <sup>58</sup> dixit eis Iesus amen amen dico vobis antequam Abraham fieret ego sum
 <sup>59</sup> tulerunt ergo lapides ut iacerent in eum Iesus autem abscondit se et exivit de templo
+
 ## Chapter 9
 
 <sup>1</sup> et praeteriens vidit hominem caecum a nativitate
@@ -452,6 +460,7 @@
 <sup>39</sup> dixit ei Iesus in iudicium ego in hunc mundum veni ut qui non vident videant et qui vident caeci fiant
 <sup>40</sup> et audierunt ex Pharisaeis qui cum ipso erant et dixerunt ei numquid et nos caeci sumus
 <sup>41</sup> dixit eis Iesus si caeci essetis non haberetis peccatum nunc vero dicitis quia videmus peccatum vestrum manet
+
 ## Chapter 10
 
 <sup>1</sup> amen amen dico vobis qui non intrat per ostium in ovile ovium sed ascendit aliunde ille fur est et latro
@@ -496,6 +505,7 @@
 <sup>40</sup> et abiit iterum trans Iordanen in eum locum ubi erat Iohannes baptizans primum et mansit illic
 <sup>41</sup> et multi venerunt ad eum et dicebant quia Iohannes quidem signum fecit nullum
 <sup>42</sup> omnia autem quaecumque dixit Iohannes de hoc vera erant et multi crediderunt in eum
+
 ## Chapter 11
 
 <sup>1</sup> erat autem quidam languens Lazarus a Bethania de castello Mariae et Marthae sororis eius
@@ -555,6 +565,7 @@
 <sup>55</sup> proximum autem erat pascha Iudaeorum et ascenderunt multi Hierosolyma de regione ante pascha ut sanctificarent se ipsos
 <sup>56</sup> quaerebant ergo Iesum et conloquebantur ad invicem in templo stantes quid putatis quia non veniat ad diem festum
 <sup>57</sup> dederant autem pontifices et Pharisaei mandatum ut si quis cognoverit ubi sit indicet ut adprehendant eum
+
 ## Chapter 12
 
 <sup>1</sup> Iesus ergo ante sex dies paschae venit Bethaniam ubi fuerat Lazarus mortuus quem suscitavit Iesus
@@ -607,6 +618,7 @@
 <sup>48</sup> qui spernit me et non accipit verba mea habet qui iudicet eum sermo quem locutus sum ille iudicabit eum in novissimo die
 <sup>49</sup> quia ego ex me ipso non sum locutus sed qui misit me Pater ipse mihi mandatum dedit quid dicam et quid loquar
 <sup>50</sup> et scio quia mandatum eius vita aeterna est quae ergo ego loquor sicut dixit mihi Pater sic loquor
+
 ## Chapter 13
 
 <sup>1</sup> ante diem autem festum paschae sciens Iesus quia venit eius hora ut transeat ex hoc mundo ad Patrem cum dilexisset suos qui erant in mundo in finem dilexit eos
@@ -647,6 +659,7 @@
 <sup>36</sup> dicit ei Simon Petrus Domine quo vadis respondit Iesus quo ego vado non potes me modo sequi sequeris autem postea
 <sup>37</sup> dicit ei Petrus quare non possum sequi te modo animam meam pro te ponam
 <sup>38</sup> respondit Iesus animam tuam pro me ponis amen amen dico tibi non cantabit gallus donec me ter neges
+
 ## Chapter 14
 
 <sup>1</sup> non turbetur cor vestrum creditis in Deum et in me credite
@@ -680,6 +693,7 @@
 <sup>29</sup> et nunc dixi vobis priusquam fiat ut cum factum fuerit credatis
 <sup>30</sup> iam non multa loquar vobiscum venit enim princeps mundi huius et in me non habet quicquam
 <sup>31</sup> sed ut cognoscat mundus quia diligo Patrem et sicut mandatum dedit mihi Pater sic facio surgite eamus hinc
+
 ## Chapter 15
 
 <sup>1</sup> ego sum vitis vera et Pater meus agricola est
@@ -709,6 +723,7 @@
 <sup>25</sup> sed ut impleatur sermo qui in lege eorum scriptus est quia odio me habuerunt gratis
 <sup>26</sup> cum autem venerit paracletus quem ego mittam vobis a Patre Spiritum veritatis qui a Patre procedit ille testimonium perhibebit de me
 <sup>27</sup> et vos testimonium perhibetis quia ab initio mecum estis
+
 ## Chapter 16
 
 <sup>1</sup> haec locutus sum vobis ut non scandalizemini
@@ -744,6 +759,7 @@
 <sup>31</sup> respondit eis Iesus modo creditis
 <sup>32</sup> ecce venit hora et iam venit ut dispergamini unusquisque in propria et me solum relinquatis et non sum solus quia Pater mecum est
 <sup>33</sup> haec locutus sum vobis ut in me pacem habeatis in mundo pressuram habetis sed confidite ego vici mundum
+
 ## Chapter 17
 
 <sup>1</sup> haec locutus est Iesus et sublevatis oculis in caelum dixit Pater venit hora clarifica Filium tuum ut Filius tuus clarificet te
@@ -772,6 +788,7 @@
 <sup>24</sup> Pater quos dedisti mihi volo ut ubi ego sum et illi sint mecum ut videant claritatem meam quam dedisti mihi quia dilexisti me ante constitutionem mundi
 <sup>25</sup> Pater iuste et mundus te non cognovit ego autem te cognovi et hii cognoverunt quia tu me misisti
 <sup>26</sup> et notum feci eis nomen tuum et notum faciam ut dilectio qua dilexisti me in ipsis sit et ego in ipsis
+
 ## Chapter 18
 
 <sup>1</sup> haec cum dixisset Iesus egressus est cum discipulis suis trans torrentem Cedron ubi erat hortus in quem introivit ipse et discipuli eius
@@ -814,6 +831,7 @@
 <sup>38</sup> dicit ei Pilatus quid est veritas et cum hoc dixisset iterum exivit ad Iudaeos et dicit eis ego nullam invenio in eo causam
 <sup>39</sup> est autem consuetudo vobis ut unum dimittam vobis in pascha vultis ergo dimittam vobis regem Iudaeorum
 <sup>40</sup> clamaverunt rursum omnes dicentes non hunc sed Barabban erat autem Barabbas latro
+
 ## Chapter 19
 
 <sup>1</sup> tunc ergo adprehendit Pilatus Iesum et flagellavit
@@ -858,6 +876,7 @@
 <sup>40</sup> acceperunt ergo corpus Iesu et ligaverunt eum linteis cum aromatibus sicut mos Iudaeis est sepelire
 <sup>41</sup> erat autem in loco ubi crucifixus est hortus et in horto monumentum novum in quo nondum quisquam positus erat
 <sup>42</sup> ibi ergo propter parasceven Iudaeorum quia iuxta erat monumentum posuerunt Iesum
+
 ## Chapter 20
 
 <sup>1</sup> una autem sabbati Maria Magdalene venit mane cum adhuc tenebrae essent ad monumentum et videt lapidem sublatum a monumento
@@ -891,6 +910,7 @@
 <sup>29</sup> dicit ei Iesus quia vidisti me credidisti beati qui non viderunt et crediderunt
 <sup>30</sup> multa quidem et alia signa fecit Iesus in conspectu discipulorum suorum quae non sunt scripta in libro hoc
 <sup>31</sup> haec autem scripta sunt ut credatis quia Iesus est Christus Filius Dei et ut credentes vitam habeatis in nomine eius
+
 ## Chapter 21
 
 <sup>1</sup> postea manifestavit se iterum Iesus ad mare Tiberiadis manifestavit autem sic

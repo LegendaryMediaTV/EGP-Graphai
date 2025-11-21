@@ -31,6 +31,7 @@
 <sup>29</sup> confundentur enim ab idolis quibus sacrificaverunt et erubescetis super hortis quos elegeratis
 <sup>30</sup> cum fueritis velut quercus defluentibus foliis et velut hortus absque aqua
 <sup>31</sup> et erit fortitudo vestra ut favilla stuppae et opus vestrum quasi scintilla et succendetur utrumque simul et non erit qui extinguat
+
 ## Chapter 2
 
 <sup>1</sup> verbum quod vidit Isaias filius Amos super Iudam et Hierusalem
@@ -55,6 +56,7 @@
 <sup>20</sup> in die illa proiciet homo idola argenti sui et simulacra auri sui quae fecerat sibi ut adoraret talpas et vespertiliones
 <sup>21</sup> et ingredietur fissuras petrarum et cavernas saxorum a facie formidinis Domini et a gloria maiestatis eius cum surrexerit percutere terram
 <sup>22</sup> quiescite ergo ab homine cuius spiritus in naribus eius quia excelsus reputatus est ipse
+
 ## Chapter 3
 
 <sup>1</sup> ecce enim Dominator Deus exercituum auferet ab Hierusalem et ab Iuda validum et fortem omne robur panis et omne robur aquae
@@ -83,6 +85,7 @@
 <sup>24</sup> et erit pro suavi odore fetor et pro zona funiculus et pro crispanti crine calvitium et pro fascia pectorali cilicium
 <sup>25</sup> pulcherrimi quoque viri tui gladio cadent et fortes tui in proelio
 <sup>26</sup> et maerebunt atque lugebunt portae eius et desolata in terra sedebit
+
 ## Chapter 4
 
 <sup>1</sup> et adprehendent septem mulieres virum unum in die illa dicentes panem nostrum comedemus et vestimentis nostris operiemur tantummodo vocetur nomen tuum super nos aufer obprobrium nostrum
@@ -91,6 +94,7 @@
 <sup>4</sup> si abluerit Dominus sordem filiarum Sion et sanguinem Hierusalem laverit de medio eius spiritu iudicii et spiritu ardoris
 <sup>5</sup> et creabit Dominus super omnem locum montis Sion et ubi invocatus est nubem per diem et fumum et splendorem ignis flammantis in nocte super omnem enim gloriam protectio
 <sup>6</sup> et tabernaculum erit in umbraculum diei ab aestu et in securitatem et absconsionem a turbine et a pluvia
+
 ## Chapter 5
 
 <sup>1</sup> cantabo dilecto meo canticum patruelis mei vineae suae vinea facta est dilecto meo in cornu filio olei
@@ -123,6 +127,7 @@
 <sup>28</sup> sagittae eius acutae et omnes arcus eius extenti ungulae equorum eius ut silex et rotae eius quasi impetus tempestatis
 <sup>29</sup> rugitus eius ut leonis rugiet ut catuli leonum et frendet et tenebit praedam et amplexabitur et non erit qui eruat
 <sup>30</sup> et sonabit super eum in die illa sicut sonitus maris aspiciemus in terram et ecce tenebrae tribulationis et lux obtenebrata est in caligine eius
+
 ## Chapter 6
 
 <sup>1</sup> in anno quo mortuus est rex Ozias vidi Dominum sedentem super solium excelsum et elevatum et ea quae sub eo erant implebant templum
@@ -138,6 +143,7 @@
 <sup>11</sup> et dixi usquequo Domine et dixit donec desolentur civitates absque habitatore et domus sine homine et terra relinquetur deserta
 <sup>12</sup> et longe faciet Dominus homines et multiplicabitur quae derelicta fuerat in medio terrae
 <sup>13</sup> et adhuc in ea decimatio et convertetur et erit in ostensionem sicut terebinthus et sicuti quercus quae expandit ramos suos semen sanctum erit id quod steterit in ea
+
 ## Chapter 7
 
 <sup>1</sup> et factum est in diebus Ahaz filii Ioatham filii Oziae regis Iuda ascendit Rasin rex Syriae et Phacee filius Romeliae rex Israhel in Hierusalem ad proeliandum contra eam et non potuerunt debellare eam
@@ -165,6 +171,7 @@
 <sup>23</sup> et erit in die illa omnis locus ubi fuerint mille vites mille argenteis et in spinas et in vepres erunt
 <sup>24</sup> cum sagittis et arcu ingredientur illuc vepres enim et spinae erunt in universa terra
 <sup>25</sup> et omnes montes qui in sarculo sarientur non veniet illuc terror spinarum et veprium et erit in pascua bovis et in conculcationem pecoris
+
 ## Chapter 8
 
 <sup>1</sup> et dixit Dominus ad me sume tibi librum grandem et scribe in eo stilo hominis Velociter spolia detrahe Cito praedare
@@ -189,6 +196,7 @@
 <sup>20</sup> ad legem magis et ad testimonium quod si non dixerint iuxta verbum hoc non erit eis matutina lux
 <sup>21</sup> et transibit per eam corruet et esuriet et cum esurierit irascetur et maledicet regi suo et Deo suo et suspiciet sursum
 <sup>22</sup> et ad terram intuebitur et ecce tribulatio et tenebrae dissolutio angustia et caligo persequens et non poterit avolare de angustia sua
+
 ## Chapter 9
 
 <sup>1</sup> primo tempore adleviata est terra Zabulon et terra Nepthalim et novissimo adgravata est via maris trans Iordanem Galileae gentium
@@ -212,6 +220,7 @@
 <sup>19</sup> in ira Domini exercituum conturbata est terra et erit populus quasi esca ignis vir fratri suo non parcet
 <sup>20</sup> et declinabit ad dexteram et esuriet et comedet ad sinistram et non saturabitur unusquisque carnem brachii sui vorabit Manasses Ephraim et Ephraim Manassen simul ipsi contra Iudam
 <sup>21</sup> in omnibus his non est aversus furor eius sed adhuc manus eius extenta
+
 ## Chapter 10
 
 <sup>1</sup> vae qui condunt leges iniquas et scribentes iniustitiam scripserunt
@@ -248,6 +257,7 @@
 <sup>32</sup> adhuc dies est ut in Nob stetur agitabit manum suam super montem filiae Sion collem Hierusalem
 <sup>33</sup> ecce Dominator Dominus exercituum confringet lagunculam in terrore et excelsi statura succidentur et sublimes humiliabuntur
 <sup>34</sup> et subvertentur condensa saltus ferro et Libanus cum excelsis cadet
+
 ## Chapter 11
 
 <sup>1</sup> et egredietur virga de radice Iesse et flos de radice eius ascendet
@@ -266,6 +276,7 @@
 <sup>14</sup> et volabunt in umeros Philisthim per mare simul praedabuntur filios orientis Idumea et Moab praeceptum manus eorum et filii Ammon oboedientes erunt
 <sup>15</sup> et desolabit Dominus linguam maris Aegypti et levabit manum suam super Flumen in fortitudine spiritus sui et percutiet eum in septem rivis ita ut transeant per eum calciati
 <sup>16</sup> et erit via residuo populo meo qui relinquetur ab Assyriis sicut fuit Israhel in die qua ascendit de terra Aegypti
+
 ## Chapter 12
 
 <sup>1</sup> et dices in illa die confitebor tibi Domine quoniam iratus es mihi conversus est furor tuus et consolatus es me
@@ -274,6 +285,7 @@
 <sup>4</sup> et dicetis in illa die confitemini Domino et invocate nomen eius notas facite in populis adinventiones eius mementote quoniam excelsum est nomen eius
 <sup>5</sup> cantate Domino quoniam magnifice fecit adnuntiate hoc in universa terra
 <sup>6</sup> exulta et lauda habitatio Sion quia magnus in medio tui Sanctus Israhel
+
 ## Chapter 13
 
 <sup>1</sup> onus Babylonis quod vidit Isaias filius Amos
@@ -298,6 +310,7 @@
 <sup>20</sup> non habitabitur usque in finem et non fundabitur usque ad generationem et generationem nec ponet ibi tentoria Arabs nec pastores requiescent ibi
 <sup>21</sup> sed requiescent ibi bestiae et replebuntur domus eorum draconibus et habitabunt ibi strutiones et pilosi saltabunt ibi
 <sup>22</sup> et respondebunt ibi ululae in aedibus eius et sirenae in delubris voluptatis
+
 ## Chapter 14
 
 <sup>1</sup> prope est ut veniat tempus eius et dies eius non elongabuntur miserebitur enim Dominus Iacob et eliget adhuc de Israhel et requiescere eos faciet super humum suam adiungetur advena ad eos et adherebit domui Iacob
@@ -332,6 +345,7 @@
 <sup>30</sup> et pascentur primogeniti pauperum et pauperes fiducialiter requiescent et interire faciam in fame radicem tuam et reliquias tuas interficiam
 <sup>31</sup> ulula porta clama civitas prostrata est Philisthea omnis ab aquilone enim fumus venit et non est qui effugiat agmen eius
 <sup>32</sup> et quid respondebitur nuntiis gentis quia Dominus fundavit Sion et in ipsa sperabunt pauperes populi eius
+
 ## Chapter 15
 
 <sup>1</sup> onus Moab quia nocte vastata est Ar Moab conticuit quia nocte vastatus est murus Moab conticuit
@@ -343,6 +357,7 @@
 <sup>7</sup> secundum magnitudinem operis et visitatio eorum ad torrentem salicum ducent eos
 <sup>8</sup> quoniam circumiit clamor terminum Moab usque ad Gallim ululatus eius et usque ad puteum Helim clamor eius
 <sup>9</sup> quia aquae Dibon repletae sunt sanguine ponam enim super Dibon additamenta his qui fugerint de Moab leonem et reliquiis terrae
+
 ## Chapter 16
 
 <sup>1</sup> emitte agnum dominatorem terrae de Petra deserti ad montem filiae Sion
@@ -359,6 +374,7 @@
 <sup>12</sup> et erit cum apparuerit quod laboravit Moab super excelsis suis ingredietur ad sancta sua ut obsecret et non valebit
 <sup>13</sup> hoc verbum quod locutus est Dominus ad Moab ex tunc
 <sup>14</sup> et nunc locutus est Dominus dicens in tribus annis quasi anni mercennarii auferetur gloria Moab super omni populo multo et relinquetur parvus et modicus nequaquam multus
+
 ## Chapter 17
 
 <sup>1</sup> onus Damasci ecce Damascus desinet esse civitas et erit sicut acervus lapidum in ruina
@@ -375,6 +391,7 @@
 <sup>12</sup> vae multitudo populorum multorum ut multitudo maris sonantis et tumultus turbarum sicut sonitus aquarum multarum
 <sup>13</sup> sonabunt populi sicut sonitus aquarum inundantium et increpabit eum et fugiet procul et rapietur sicut pulvis montium a facie venti et sicut turbo coram tempestate
 <sup>14</sup> in tempore vespere et ecce turbatio in matutino et non subsistet haec est pars eorum qui vastaverunt nos et sors diripientium nos
+
 ## Chapter 18
 
 <sup>1</sup> vae terrae cymbalo alarum quae est trans flumina Aethiopiae
@@ -384,6 +401,7 @@
 <sup>5</sup> ante messem enim totus effloruit et inmatura perfectio germinabit et praecidentur ramusculi eius falcibus et quae derelicta fuerint abscidentur excutientur
 <sup>6</sup> et relinquentur simul avibus montium et bestiis terrae et aestate perpetua erunt super eum volucres et omnes bestiae terrae super illum hiemabunt
 <sup>7</sup> in tempore illo deferetur munus Domino exercituum a populo divulso et dilacerato a populo terribili post quem non fuit alius a gente expectante expectante et conculcata cuius diripuerunt flumina terram eius ad locum nominis Domini exercituum montem Sion
+
 ## Chapter 19
 
 <sup>1</sup> onus Aegypti ecce Dominus ascendet super nubem levem et ingredietur Aegyptum et movebuntur simulacra Aegypti a facie eius et cor Aegypti tabescet in medio eius
@@ -411,6 +429,7 @@
 <sup>23</sup> in die illa erit via de Aegypto in Assyrios et intrabit Assyrius Aegyptum et Aegyptius in Assyrios et servient Aegyptii Assur
 <sup>24</sup> in die illa erit Israhel tertius Aegyptio et Assyrio benedictio in medio terrae
 <sup>25</sup> cui benedixit Dominus exercituum dicens benedictus populus meus Aegypti et opus manuum mearum Assyrio hereditas autem mea Israhel
+
 ## Chapter 20
 
 <sup>1</sup> in anno quo ingressus est Tharthan in Azotum cum misisset eum Sargon rex Assyriorum et pugnasset contra Azotum et cepisset eam
@@ -419,6 +438,7 @@
 <sup>4</sup> sic minabit rex Assyriorum captivitatem Aegypti et transmigrationem Aethiopiae iuvenum et senum nudam et disculciatam discopertis natibus ignominiam Aegypti
 <sup>5</sup> et timebunt et confundentur ab Aethiopia spe sua et ab Aegypto gloria sua
 <sup>6</sup> et dicet habitator insulae huius in die illa ecce haec erat spes nostra ad quos confugimus in auxilium ut liberaret nos a facie regis Assyriorum et quomodo effugere poterimus nos
+
 ## Chapter 21
 
 <sup>1</sup> onus deserti maris sicut turbines ab africo veniunt de deserto venit de terra horribili
@@ -438,6 +458,7 @@
 <sup>15</sup> a facie enim gladiorum fugerunt a facie gladii inminentis a facie arcus extenti a facie gravis proelii
 <sup>16</sup> quoniam haec dicit Dominus ad me adhuc in uno anno quasi in anno mercennarii et auferetur omnis gloria Cedar
 <sup>17</sup> et reliquiae numeri sagittariorum fortium de filiis Cedar inminuentur Dominus enim Deus Israhel locutus est
+
 ## Chapter 22
 
 <sup>1</sup> onus vallis Visionis quidnam tibi quoque est quia ascendisti et tu omnis in tecta
@@ -465,6 +486,7 @@
 <sup>23</sup> et figam illum paxillum in loco fideli et erit in solium gloriae domui patris sui
 <sup>24</sup> et suspendent super eum omnem gloriam domus patris eius vasorum diversa genera omne vas parvulum a vasis craterarum usque ad omne vas musicorum
 <sup>25</sup> in die illo dicit Dominus exercituum auferetur paxillus qui fixus fuerat in loco fideli et frangetur et cadet et peribit quod pependerat in eo quia Dominus locutus est
+
 ## Chapter 23
 
 <sup>1</sup> onus Tyri ululate naves maris quia vastata est domus unde venire consueverant de terra Cetthim revelatum est eis
@@ -485,6 +507,7 @@
 <sup>16</sup> sume citharam circui civitatem meretrix oblivioni tradita bene cane frequenta canticum ut memoria tui sit
 <sup>17</sup> et erit post septuaginta annos visitabit Dominus Tyrum et reducet eam ad mercedes suas et rursum fornicabitur cum universis regnis terrae super faciem terrae
 <sup>18</sup> et erunt negotiatio eius et mercedes eius sanctificatae Domino non condentur neque reponentur quia his qui habitaverint coram Domino erit negotiatio eius ut manducent in saturitatem et vestiantur usque ad vetustatem
+
 ## Chapter 24
 
 <sup>1</sup> ecce Dominus dissipabit terram et nudabit eam et adfliget faciem eius et disperget habitatores eius
@@ -510,6 +533,7 @@
 <sup>21</sup> et erit in die illa visitabit Dominus super militiam caeli in excelso et super reges terrae qui sunt super terram
 <sup>22</sup> et congregabuntur in congregationem unius fascis in lacum et cludentur ibi in carcerem et post multos dies visitabuntur
 <sup>23</sup> et erubescet luna et confundetur sol cum regnaverit Dominus exercituum in monte Sion et in Hierusalem et in conspectu senum suorum fuerit glorificatus
+
 ## Chapter 25
 
 <sup>1</sup> Domine Deus meus es tu exaltabo te confitebor nomini tuo quoniam fecisti mirabilia cogitationes antiquas fideles amen
@@ -524,6 +548,7 @@
 <sup>10</sup> quia requiescet manus Domini in monte isto et triturabitur Moab sub eo sicuti teruntur paleae in plaustro
 <sup>11</sup> et extendet manus suas sub eo sicut extendit natans ad natandum et humiliabit gloriam eius cum adlisione manuum eius
 <sup>12</sup> et munimenta sublimium murorum tuorum concident et humiliabuntur et detrahentur in terram usque ad pulverem
+
 ## Chapter 26
 
 <sup>1</sup> in die illa cantabitur canticum istud in terra Iuda urbs fortitudinis nostrae salvator ponetur in ea murus et antemurale
@@ -547,6 +572,7 @@
 <sup>19</sup> vivent mortui tui interfecti mei resurgent expergiscimini et laudate qui habitatis in pulvere quia ros lucis ros tuus et terram gigantum detrahes in ruinam
 <sup>20</sup> vade populus meus intra in cubicula tua claude ostia tua super te abscondere modicum ad momentum donec pertranseat indignatio
 <sup>21</sup> ecce enim Dominus egreditur de loco suo ut visitet iniquitatem habitatoris terrae contra eum et revelabit terra sanguinem suum et non operiet ultra interfectos suos
+
 ## Chapter 27
 
 <sup>1</sup> in die illo visitabit Dominus in gladio suo duro et grandi et forti super Leviathan serpentem vectem et super Leviathan serpentem tortuosum et occidet cetum qui in mari est
@@ -562,6 +588,7 @@
 <sup>11</sup> in siccitate messis illius conterentur mulieres venientes et docentes eam non est enim populus sapiens propterea non miserebitur eius qui fecit eum et qui formavit eum non parcet ei
 <sup>12</sup> et erit in die illa percutiet Dominus ab alveo Fluminis usque ad torrentem Aegypti et vos congregabimini unus et unus filii Israhel
 <sup>13</sup> et erit in die illa clangetur in tuba magna et venient qui perditi fuerant de terra Assyriorum et qui eiecti erant in terra Aegypti et adorabunt Dominum in monte sancto in Hierusalem
+
 ## Chapter 28
 
 <sup>1</sup> vae coronae superbiae ebriis Ephraim et flori decidenti gloriae exultationis eius qui erant in vertice vallis pinguissimae errantes a vino
@@ -593,6 +620,7 @@
 <sup>27</sup> non enim in serris triturabitur gith nec rota plaustri super cyminum circumiet sed in virga excutietur gith et cyminum in baculo
 <sup>28</sup> panis autem comminuetur verum non in perpetuum triturans triturabit illum neque vexabit eum rota plaustri nec in ungulis suis comminuet eum
 <sup>29</sup> et hoc a Domino Deo exercituum exivit ut mirabile faceret consilium et magnificaret iustitiam
+
 ## Chapter 29
 
 <sup>1</sup> vae Arihel Arihel civitas quam circumdedit David additus est annus ad annum sollemnitates evolutae sunt
@@ -619,6 +647,7 @@
 <sup>22</sup> propter hoc haec dicit Dominus ad domum Iacob qui redemit Abraham non modo confundetur Iacob nec modo vultus eius erubescet
 <sup>23</sup> sed cum viderit filios suos opera manuum mearum in medio sui sanctificantes nomen meum et sanctificabunt Sanctum Iacob et Deum Israhel praedicabunt
 <sup>24</sup> et scient errantes spiritu intellectum et mussitatores discent legem
+
 ## Chapter 30
 
 <sup>1</sup> vae filii desertores dicit Dominus ut faceretis consilium et non ex me et ordiremini telam et non per spiritum meum ut adderetur peccatum super peccatum
@@ -654,6 +683,7 @@
 <sup>31</sup> a voce enim Domini pavebit Assur virga percussus
 <sup>32</sup> et erit transitus virgae fundatus quam requiescere faciet Dominus super eum in tympanis et in citharis et in bellis praecipuis expugnabit eos
 <sup>33</sup> praeparata est enim ab heri Thofeth a rege praeparata profunda et dilatata nutrimenta eius ignis et ligna multa flatus Domini sicut torrens sulphuris succendens eam
+
 ## Chapter 31
 
 <sup>1</sup> vae qui descendunt in Aegyptum ad auxilium in equis sperantes et habentes fiduciam super quadrigis quia multae sunt et super equitibus quia praevalidi nimis et non sunt confisi super Sanctum Israhel et Dominum non requisierunt
@@ -665,6 +695,7 @@
 <sup>7</sup> in die enim illa abiciet vir idola argenti sui et idola auri sui quae fecerunt vobis manus vestrae in peccatum
 <sup>8</sup> et cadet Assur in gladio non viri et gladius non hominis vorabit eum et fugiet non a facie gladii et iuvenes eius vectigales erunt
 <sup>9</sup> et fortitudo eius a terrore transibit et pavebunt fugientes principes eius dixit Dominus cuius ignis est in Sion et caminus eius in Hierusalem
+
 ## Chapter 32
 
 <sup>1</sup> ecce in iustitia regnabit rex et principes in iudicio praeerunt
@@ -687,6 +718,7 @@
 <sup>18</sup> et sedebit populus meus in pulchritudine pacis et in tabernaculis fiduciae et in requie opulenta
 <sup>19</sup> grando autem in descensione saltus et humilitate humiliabitur civitas
 <sup>20</sup> beati qui seminatis super omnes aquas inmittentes pedem bovis et asini
+
 ## Chapter 33
 
 <sup>1</sup> vae qui praedaris nonne et ipse praedaberis et qui spernis nonne et ipse sperneris cum consummaveris depraedationem depraedaberis cum fatigatus desiveris contemnere contemneris
@@ -713,6 +745,7 @@
 <sup>22</sup> Dominus enim iudex noster Dominus legifer noster Dominus rex noster ipse salvabit nos
 <sup>23</sup> laxati sunt funiculi tui sed non praevalebunt sic erit malus tuus ut dilatare signum non queas tunc dividentur spolia praedarum multarum claudi diripient rapinam
 <sup>24</sup> nec dicet vicinus elangui populus qui habitat in ea auferetur ab eo iniquitas
+
 ## Chapter 34
 
 <sup>1</sup> accedite gentes et audite et populi adtendite audiat terra et plenitudo eius orbis et omne germen eius
@@ -732,6 +765,7 @@
 <sup>15</sup> ibi habuit foveam ericius et enutrivit catulos et circumfodit et fovit in umbra eius illuc congregati sunt milvi alter ad alterum
 <sup>16</sup> requirite diligenter in libro Domini et legite unum ex eis non defuit alter ad alterum non quaesivit quia quod ex ore meo procedit ille mandavit et spiritus eius ipse congregavit ea
 <sup>17</sup> et ipse misit eis sortem et manus eius divisit eam illis in mensuram usque in aeternum possidebunt eam in generatione et generatione habitabunt in ea
+
 ## Chapter 35
 
 <sup>1</sup> laetabitur deserta et invia et exultabit solitudo et florebit quasi lilium
@@ -744,6 +778,7 @@
 <sup>8</sup> et erit ibi semita et via et via sancta vocabitur non transibit per eam pollutus et haec erit nobis directa via ita ut stulti non errent per eam
 <sup>9</sup> non erit ibi leo et mala bestia non ascendet per eam nec invenietur ibi et ambulabunt qui liberati fuerint
 <sup>10</sup> et redempti a Domino convertentur et venient in Sion cum laude et laetitia sempiterna super caput eorum gaudium et laetitiam obtinebunt et fugiet dolor et gemitus
+
 ## Chapter 36
 
 <sup>1</sup> et factum est in quartodecimo anno regis Ezechiae ascendit Sennacherib rex Assyriorum super omnes civitates Iuda munitas et cepit eas
@@ -768,6 +803,7 @@
 <sup>20</sup> quis est ex omnibus diis terrarum istarum qui eruerit terram suam de manu mea ut eruat Dominus Hierusalem de manu mea
 <sup>21</sup> et siluerunt et non responderunt ei verbum mandaverat enim rex dicens ne respondeatis ei
 <sup>22</sup> et ingressus est Eliachim filius Helciae qui erat super domum et Sobna scriba et Ioae filius Asaph a commentariis ad Ezechiam scissis vestibus et nuntiaverunt ei verba Rabsacis
+
 ## Chapter 37
 
 <sup>1</sup> et factum est cum audisset rex Ezechias scidit vestimenta sua et obvolutus est sacco et intravit in domum Domini
@@ -808,6 +844,7 @@
 <sup>36</sup> egressus est autem angelus Domini et percussit in castris Assyriorum centum octoginta quinque milia et surrexerunt mane et ecce omnes cadavera mortuorum
 <sup>37</sup> et egressus est et abiit et reversus est Sennacherib rex Assyriorum et habitavit in Nineve
 <sup>38</sup> et factum est cum adoraret in templo Nesrach deum suum Adramelech et Sarasar filii eius percusserunt eum gladio fugeruntque in terram Ararat et regnavit Asoraddon filius eius pro eo
+
 ## Chapter 38
 
 <sup>1</sup> in diebus illis aegrotavit Ezechias usque ad mortem et introivit ad eum Isaias filius Amos propheta et dixit ei haec dicit Dominus dispone domui tuae quia morieris tu et non vives
@@ -832,6 +869,7 @@
 <sup>20</sup> Domine salvum me fac et psalmos nostros cantabimus cunctis diebus vitae nostrae in domo Domini
 <sup>21</sup> et iussit Isaias ut tollerent massam de ficis et cataplasmarent super vulnus et sanaretur
 <sup>22</sup> et dixit Ezechias quod erit signum quia ascendam in domo Domini
+
 ## Chapter 39
 
 <sup>1</sup> in tempore illo misit Marodach Baladan filius Baladan rex Babylonis libros et munera ad Ezechiam audierat enim quod aegrotasset et convaluisset
@@ -842,6 +880,7 @@
 <sup>6</sup> ecce dies venient et auferentur omnia quae in domo tua sunt et quae thesaurizaverunt patres tui usque ad diem hanc in Babylonem non relinquetur quicquam dicit Dominus
 <sup>7</sup> et de filiis tuis qui exibunt de te quos genueris tollent et erunt eunuchi in palatio regis Babylonis
 <sup>8</sup> et dixit Ezechias ad Isaiam bonum verbum Domini quod locutus est et dixit fiat tantum pax et veritas in diebus meis
+
 ## Chapter 40
 
 <sup>1</sup> consolamini consolamini populus meus dicit Deus vester
@@ -875,6 +914,7 @@
 <sup>29</sup> qui dat lasso virtutem et his qui non sunt fortitudinem et robur multiplicat
 <sup>30</sup> deficient pueri et laborabunt et iuvenes in infirmitate cadent
 <sup>31</sup> qui autem sperant in Domino mutabunt fortitudinem adsument pinnas sicut aquilae current et non laborabunt ambulabunt et non deficient
+
 ## Chapter 41
 
 <sup>1</sup> taceant ad me insulae et gentes mutent fortitudinem accedant et tunc loquantur simul ad iudicium propinquemus
@@ -906,6 +946,7 @@
 <sup>27</sup> primus ad Sion dicet ecce adsunt et Hierusalem evangelistam dabo
 <sup>28</sup> et vidi et non erat neque ex istis quisquam qui iniret consilium et interrogatus responderet verbum
 <sup>29</sup> ecce omnes iniusti et vana opera eorum ventus et inane simulacra eorum
+
 ## Chapter 42
 
 <sup>1</sup> ecce servus meus suscipiam eum electus meus conplacuit sibi in illo anima mea dedi spiritum meum super eum iudicium gentibus proferet
@@ -933,6 +974,7 @@
 <sup>23</sup> quis est in vobis qui audiat hoc adtendat et auscultet futura
 <sup>24</sup> quis dedit in direptionem Iacob et Israhel vastantibus nonne Dominus ipse cui peccavimus et noluerunt in viis eius ambulare et non audierunt legem eius
 <sup>25</sup> et effudit super eum indignationem furoris sui et forte bellum et conbusit eum in circuitu et non cognovit et succendit eum et non intellexit
+
 ## Chapter 43
 
 <sup>1</sup> et nunc haec dicit Dominus creans te Iacob et formans te Israhel noli timere quia redemi te et vocavi nomine tuo meus es tu
@@ -963,6 +1005,7 @@
 <sup>26</sup> reduc me in memoriam et iudicemur simul narra si quid habes ut iustificeris
 <sup>27</sup> pater tuus primus peccavit et interpretes tui praevaricati sunt in me
 <sup>28</sup> et contaminavi principes sanctos dedi ad internicionem Iacob et Israhel in blasphemiam
+
 ## Chapter 44
 
 <sup>1</sup> et nunc audi Iacob serve meus et Israhel quem elegi
@@ -993,6 +1036,7 @@
 <sup>26</sup> suscitans verbum servi sui et consilium nuntiorum suorum conplens qui dico Hierusalem habitaberis et civitatibus Iuda aedificabimini et deserta eius suscitabo
 <sup>27</sup> qui dico profundo desolare et flumina tua arefaciam
 <sup>28</sup> qui dico Cyro pastor meus es et omnem voluntatem meam conplebis qui dico Hierusalem aedificaberis et templo fundaberis
+
 ## Chapter 45
 
 <sup>1</sup> haec dicit Dominus christo meo Cyro cuius adprehendi dexteram ut subiciam ante faciem eius gentes et dorsa regum vertam et aperiam coram eo ianuas et portae non cludentur
@@ -1020,6 +1064,7 @@
 <sup>23</sup> in memet ipso iuravi egredietur de ore meo iustitiae verbum et non revertetur quia mihi curvabunt omnia genu et iurabit omnis lingua
 <sup>24</sup> ergo in Domino dicet meae sunt iustitiae et imperium ad eum venient et confundentur omnes qui repugnant ei
 <sup>25</sup> in Domino iustificabitur et laudabitur omne semen Israhel
+
 ## Chapter 46
 
 <sup>1</sup> conflatus est Bel contritus est Nabo facta sunt simulacra eorum bestiis et iumentis onera vestra gravi pondere usque ad lassitudinem
@@ -1035,6 +1080,7 @@
 <sup>11</sup> vocans ab oriente avem et de terra longinqua virum voluntatis meae et locutus sum et adducam illud creavi et faciam illud
 <sup>12</sup> audite me duro corde qui longe estis a iustitia
 <sup>13</sup> prope feci iustitiam meam non elongabitur et salus mea non morabitur dabo in Sion salutem et Israheli gloriam meam
+
 ## Chapter 47
 
 <sup>1</sup> descende sede in pulverem virgo filia Babylon sede in terra non est solium filiae Chaldeorum quia ultra non vocaberis mollis et tenera
@@ -1052,6 +1098,7 @@
 <sup>13</sup> defecisti in multitudine consiliorum tuorum stent et salvent te augures caeli qui contemplabantur sidera et supputabant menses ut ex eis adnuntiarent ventura tibi
 <sup>14</sup> ecce facti sunt quasi stipula ignis conbusit eos non liberabunt animam suam de manu flammae non sunt prunae quibus calefiant nec focus ut sedeant ad eum
 <sup>15</sup> sic facta sunt tibi in quibuscumque laboraveras negotiatores tui ab adulescentia tua unusquisque in via sua erraverunt non est qui salvet te
+
 ## Chapter 48
 
 <sup>1</sup> audite hoc domus Iacob qui vocamini nomine Israhel et de aquis Iuda existis qui iuratis in nomine Domini et Dei Israhel recordamini non in veritate neque in iustitia
@@ -1076,6 +1123,7 @@
 <sup>20</sup> egredimini de Babylone fugite a Chaldeis in voce exultationis adnuntiate auditum facite hoc efferte illud usque ad extrema terrae dicite redemit Dominus servum suum Iacob
 <sup>21</sup> non sitierunt in deserto cum educeret eos aquam de petra produxit eis et scidit petram et fluxerunt aquae
 <sup>22</sup> non est pax dicit Dominus impiis
+
 ## Chapter 49
 
 <sup>1</sup> audite insulae et adtendite populi de longe Dominus ab utero vocavit me de ventre matris meae recordatus est nominis mei
@@ -1104,6 +1152,7 @@
 <sup>24</sup> numquid tolletur a forte praeda aut quod captum fuerit a robusto salvum esse poterit
 <sup>25</sup> quia haec dicit Dominus equidem et captivitas a forte tolletur et quod ablatum fuerit a robusto salvabitur eos vero qui iudicaverunt te ego iudicabo et filios tuos ego salvabo
 <sup>26</sup> et cibabo hostes tuos carnibus suis et quasi musto sanguine suo inebriabuntur et sciet omnis caro quia ego Dominus salvans te et redemptor tuus Fortis Iacob
+
 ## Chapter 50
 
 <sup>1</sup> haec dicit Dominus quis est hic liber repudii matris vestrae quo dimisi eam aut quis est creditor meus cui vendidi vos ecce in iniquitatibus vestris venditi estis et in sceleribus vestris dimisi matrem vestram
@@ -1117,6 +1166,7 @@
 <sup>9</sup> ecce Dominus Deus auxiliator meus quis est qui condemnet me ecce omnes quasi vestimentum conterentur tinea comedet eos
 <sup>10</sup> quis ex vobis timens Dominum audiens vocem servi sui qui ambulavit in tenebris et non est lumen ei speret in nomine Domini et innitatur super Deum suum
 <sup>11</sup> ecce omnes vos accendentes ignem accincti flammis ambulate in lumine ignis vestri et in flammis quas succendistis de manu mea factum est hoc vobis in doloribus dormietis
+
 ## Chapter 51
 
 <sup>1</sup> audite me qui sequimini quod iustum est et quaeritis Dominum adtendite ad petram unde excisi estis et ad cavernam laci de qua praecisi estis
@@ -1142,6 +1192,7 @@
 <sup>21</sup> idcirco audi hoc paupercula et ebria non a vino
 <sup>22</sup> haec dicit Dominator tuus Dominus et Deus tuus qui pugnavit pro populo suo ecce tuli de manu tua calicem soporis fundum calicis indignationis meae non adicies ut bibas illud ultra
 <sup>23</sup> et ponam illud in manu eorum qui te humiliaverunt et dixerunt animae tuae incurvare ut transeamus et posuisti ut terram corpus tuum et quasi viam transeuntibus
+
 ## Chapter 52
 
 <sup>1</sup> consurge consurge induere fortitudine tua Sion induere vestimentis gloriae tuae Hierusalem civitas sancti quia non adiciet ultra ut pertranseat per te incircumcisus et inmundus
@@ -1159,6 +1210,7 @@
 <sup>13</sup> ecce intelleget servus meus exaltabitur et elevabitur et sublimis erit valde
 <sup>14</sup> sicut obstipuerunt super te multi sic inglorius erit inter viros aspectus eius et forma eius inter filios hominum
 <sup>15</sup> iste asperget gentes multas super ipsum continebunt reges os suum quia quibus non est narratum de eo viderunt et qui non audierunt contemplati sunt
+
 ## Chapter 53
 
 <sup>1</sup> quis credidit auditui nostro et brachium Domini cui revelatum est
@@ -1173,6 +1225,7 @@
 <sup>10</sup> et Dominus voluit conterere eum in infirmitate si posuerit pro peccato animam suam videbit semen longevum et voluntas Domini in manu eius dirigetur
 <sup>11</sup> pro eo quod laboravit anima eius videbit et saturabitur in scientia sua iustificabit ipse iustus servus meus multos et iniquitates eorum ipse portabit
 <sup>12</sup> ideo dispertiam ei plurimos et fortium dividet spolia pro eo quod tradidit in morte animam suam et cum sceleratis reputatus est et ipse peccatum multorum tulit et pro transgressoribus rogavit
+
 ## Chapter 54
 
 <sup>1</sup> lauda sterilis quae non paris decanta laudem et hinni quae non pariebas quoniam multi filii desertae magis quam eius quae habebat virum dicit Dominus
@@ -1192,6 +1245,7 @@
 <sup>15</sup> ecce accola veniet qui non erat mecum advena quondam tuus adiungetur tibi
 <sup>16</sup> ecce ego creavi fabrum sufflantem in igne prunas et proferentem vas in opus suum et ego creavi interfectorem ad disperdendum
 <sup>17</sup> omne vas quod fictum est contra te non dirigetur et omnem linguam resistentem tibi in iudicio iudicabis haec hereditas servorum Domini et iustitia eorum apud me dicit Dominus
+
 ## Chapter 55
 
 <sup>1</sup> o omnes sitientes venite ad aquas et qui non habetis argentum properate emite et comedite venite emite absque argento et absque ulla commutatione vinum et lac
@@ -1207,6 +1261,7 @@
 <sup>11</sup> sic erit verbum meum quod egredietur de ore meo non revertetur ad me vacuum sed faciet quaecumque volui et prosperabitur in his ad quae misi illud
 <sup>12</sup> quia in laetitia egrediemini et in pace deducemini montes et colles cantabunt coram vobis laudem et omnia ligna regionis plaudent manu
 <sup>13</sup> pro saliunca ascendet abies et pro urtica crescet myrtus et erit Dominus nominatus in signum aeternum quod non auferetur
+
 ## Chapter 56
 
 <sup>1</sup> haec dicit Dominus custodite iudicium et facite iustitiam quia iuxta est salus mea ut veniat et iustitia mea ut reveletur
@@ -1221,6 +1276,7 @@
 <sup>10</sup> speculatores eius caeci omnes nescierunt universi canes muti non valentes latrare videntes vana dormientes et amantes somnia
 <sup>11</sup> et canes inpudentissimi nescierunt saturitatem ipsi pastores ignoraverunt intellegentiam omnes in viam suam declinaverunt unusquisque ad avaritiam suam a summo usque ad novissimum
 <sup>12</sup> venite sumamus vinum et impleamur ebrietate et erit sicut hodie sic et cras et multo amplius
+
 ## Chapter 57
 
 <sup>1</sup> iustus perit et nemo est qui recogitet in corde suo et viri misericordiae colliguntur quia non est qui intellegat a facie enim malitiae collectus est iustus
@@ -1244,6 +1300,7 @@
 <sup>19</sup> creavi fructum labiorum pacem pacem ei qui longe est et qui prope dixit Dominus et sanavi eum
 <sup>20</sup> impii autem quasi mare fervens quod quiescere non potest et redundant fluctus eius in conculcationem et lutum
 <sup>21</sup> non est pax dixit Deus meus impiis
+
 ## Chapter 58
 
 <sup>1</sup> clama ne cesses quasi tuba exalta vocem tuam et adnuntia populo meo scelera eorum et domui Iacob peccata eorum
@@ -1260,6 +1317,7 @@
 <sup>12</sup> et aedificabuntur in te deserta saeculorum fundamenta generationis et generationis suscitabis et vocaberis aedificator sepium avertens semitas in quietem
 <sup>13</sup> si averteris a sabbato pedem tuum facere voluntatem tuam in die sancto meo et vocaveris sabbatum delicatum et sanctum Domini gloriosum et glorificaveris eum dum non facis vias tuas et non invenitur voluntas tua ut loquaris sermonem
 <sup>14</sup> tunc delectaberis super Domino et sustollam te super altitudines terrae et cibabo te hereditate Iacob patris tui os enim Domini locutum est
+
 ## Chapter 59
 
 <sup>1</sup> ecce non est adbreviata manus Domini ut salvare nequeat neque adgravata est auris eius ut non exaudiat
@@ -1283,6 +1341,7 @@
 <sup>19</sup> et timebunt qui ab occidente nomen Domini et qui ab ortu solis gloriam eius cum venerit quasi fluvius violentus quem spiritus Domini cogit
 <sup>20</sup> et venerit Sion redemptor et eis qui redeunt ab iniquitate in Iacob dicit Dominus
 <sup>21</sup> hoc foedus meum cum eis dicit Dominus spiritus meus qui est in te et verba mea quae posui in ore tuo non recedent de ore tuo et de ore seminis tui et de ore seminis seminis tui dixit Dominus amodo et usque in sempiternum
+
 ## Chapter 60
 
 <sup>1</sup> surge inluminare quia venit lumen tuum et gloria Domini super te orta est
@@ -1307,6 +1366,7 @@
 <sup>20</sup> non occidet ultra sol tuus et luna tua non minuetur quia Dominus erit in lucem sempiternam et conplebuntur dies luctus tui
 <sup>21</sup> populus autem tuus omnes iusti in perpetuum hereditabunt terram germen plantationis meae opus manus meae ad glorificandum
 <sup>22</sup> minimus erit in mille et parvulus in gentem fortissimam ego Dominus in tempore eius subito faciam istud
+
 ## Chapter 61
 
 <sup>1</sup> spiritus Domini super me eo quod unxerit Dominus me ad adnuntiandum mansuetis misit me ut mederer contritis corde et praedicarem captivis indulgentiam et clausis apertionem
@@ -1320,6 +1380,7 @@
 <sup>9</sup> et scietur in gentibus semen eorum et germen eorum in medio populorum omnes qui viderint eos cognoscent eos quia isti sunt semen cui benedixit Dominus
 <sup>10</sup> gaudens gaudebo in Domino et exultabit anima mea in Deo meo quia induit me vestimentis salutis et indumento iustitiae circumdedit me quasi sponsum decoratum corona et quasi sponsam ornatam monilibus suis
 <sup>11</sup> sicut enim terra profert germen suum et sicut hortus semen suum germinat sic Dominus Deus germinabit iustitiam et laudem coram universis gentibus
+
 ## Chapter 62
 
 <sup>1</sup> propter Sion non tacebo et propter Hierusalem non quiescam donec egrediatur ut splendor iustus eius et salvator eius ut lampas accendatur
@@ -1334,6 +1395,7 @@
 <sup>10</sup> transite transite per portas praeparate viam populo planum facite iter et eligite lapides elevate signum ad populos
 <sup>11</sup> ecce Dominus auditum fecit in extremis terrae dicite filiae Sion ecce salvator tuus venit ecce merces eius cum eo et opus eius coram illo
 <sup>12</sup> et vocabunt eos Populus sanctus Redempti a Domino tu autem vocaberis Quaesita civitas et non Derelicta
+
 ## Chapter 63
 
 <sup>1</sup> quis est iste qui venit de Edom tinctis vestibus de Bosra iste formonsus in stola sua gradiens in multitudine fortitudinis suae ego qui loquor iustitiam et propugnator sum ad salvandum
@@ -1355,6 +1417,7 @@
 <sup>17</sup> quare errare nos fecisti Domine de viis tuis indurasti cor nostrum ne timeremus te convertere propter servos tuos tribus hereditatis tuae
 <sup>18</sup> quasi nihilum possederunt populum sanctum tuum hostes nostri conculcaverunt sanctificationem tuam
 <sup>19</sup> facti sumus quasi in principio cum non dominareris nostri neque invocaretur nomen tuum super nos
+
 ## Chapter 64
 
 <sup>1</sup> utinam disrumperes caelos et descenderes a facie tua montes defluerent
@@ -1369,6 +1432,7 @@
 <sup>10</sup> civitas sancti tui facta est deserta Sion deserta facta est Hierusalem desolata
 <sup>11</sup> domus sanctificationis nostrae et gloriae nostrae ubi laudaverunt te patres nostri facta est in exustionem ignis et omnia desiderabilia nostra versa sunt in ruinas
 <sup>12</sup> numquid super his continebis te Domine tacebis et adfliges nos vehementer
+
 ## Chapter 65
 
 <sup>1</sup> quaesierunt me qui ante non interrogabant invenerunt qui non quaesierunt me dixi ecce ego ecce ego ad gentem quae non vocabat nomen meum
@@ -1396,6 +1460,7 @@
 <sup>23</sup> electis meis non laborabunt frustra neque generabunt in conturbatione quia semen benedictorum Domini est et nepotes eorum cum eis
 <sup>24</sup> eritque antequam clament ego exaudiam adhuc illis loquentibus ego audiam
 <sup>25</sup> lupus et agnus pascentur simul et leo et bos comedent paleas et serpenti pulvis panis eius non nocebunt neque occident in omni monte sancto meo dicit Dominus
+
 ## Chapter 66
 
 <sup>1</sup> haec dicit Dominus caelum sedis mea et terra scabillum pedum meorum quae ista domus quam aedificabitis mihi et quis iste locus quietis meae

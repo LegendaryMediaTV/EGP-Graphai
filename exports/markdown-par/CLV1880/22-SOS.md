@@ -16,6 +16,7 @@
 <sup>15</sup> (1-14) ecce tu pulchra es amica mea ecce tu pulchra oculi tui columbarum
 <sup>16</sup> (1-15) ecce tu pulcher es dilecte mi et decorus lectulus noster floridus
 <sup>17</sup> (1-16) tigna domorum nostrarum cedrina laquearia nostra cypressina
+
 ## Chapter 2
 
 <sup>1</sup> ego flos campi et lilium convallium
@@ -35,6 +36,7 @@
 <sup>15</sup> capite nobis vulpes vulpes parvulas quae demoliuntur vineas nam vinea nostra floruit
 <sup>16</sup> dilectus meus mihi et ego illi qui pascitur inter lilia
 <sup>17</sup> donec adspiret dies et inclinentur umbrae revertere similis esto dilecte mi capreae aut hinulo cervorum super montes Bether
+
 ## Chapter 3
 
 <sup>1</sup> in lectulo meo per noctes quaesivi quem diligit anima mea quaesivi illum et non inveni
@@ -48,6 +50,7 @@
 <sup>9</sup> ferculum fecit sibi rex Salomon de lignis Libani
 <sup>10</sup> columnas eius fecit argenteas reclinatorium aureum ascensum purpureum media caritate constravit propter filias Hierusalem
 <sup>11</sup> egredimini et videte filiae Sion regem Salomonem in diademate quo coronavit eum mater sua in die disponsionis illius et in die laetitiae cordis eius
+
 ## Chapter 4
 
 <sup>1</sup> quam pulchra es amica mea quam pulchra es oculi tui columbarum absque eo quod intrinsecus latet capilli tui sicut greges caprarum quae ascenderunt de monte Galaad
@@ -66,6 +69,7 @@
 <sup>14</sup> nardus et crocus fistula et cinnamomum cum universis lignis Libani murra et aloe cum omnibus primis unguentis
 <sup>15</sup> fons hortorum puteus aquarum viventium quae fluunt impetu de Libano
 <sup>16</sup> surge aquilo et veni auster perfla hortum meum et fluant aromata illius
+
 ## Chapter 5
 
 <sup>1</sup> veniat dilectus meus in hortum suum et comedat fructum pomorum suorum veni in hortum meum soror mea sponsa messui murram meam cum aromatibus meis comedi favum cum melle meo bibi vinum meum cum lacte meo comedite amici bibite et inebriamini carissimi
@@ -84,6 +88,7 @@
 <sup>14</sup> manus illius tornatiles aureae plenae hyacinthis venter eius eburneus distinctus sapphyris
 <sup>15</sup> crura illius columnae marmoreae quae fundatae sunt super bases aureas species eius ut Libani electus ut cedri
 <sup>16</sup> guttur illius suavissimum et totus desiderabilis talis est dilectus meus et iste est amicus meus filiae Hierusalem
+
 ## Chapter 6
 
 <sup>1</sup> (5-17) quo abiit dilectus tuus o pulcherrima mulierum quo declinavit dilectus tuus et quaeremus eum tecum
@@ -99,6 +104,7 @@
 <sup>11</sup> (6-10) descendi ad hortum nucum ut viderem poma convallis ut inspicerem si floruisset vinea et germinassent mala punica
 <sup>12</sup> (6-11) nescivi anima mea conturbavit me propter quadrigas Aminadab
 <sup>13</sup> (6-12) revertere revertere Sulamitis revertere revertere ut intueamur te
+
 ## Chapter 7
 
 <sup>1</sup> quid videbis in Sulamiten nisi choros castrorum quam pulchri sunt gressus tui in calciamentis filia principis iunctura feminum tuorum sicut monilia quae fabricata sunt manu artificis
@@ -114,6 +120,7 @@
 <sup>11</sup> veni dilecte mi egrediamur in agrum commoremur in villis
 <sup>12</sup> mane surgamus ad vineas videamus si floruit vinea si flores fructus parturiunt si floruerunt mala punica ibi dabo tibi ubera mea
 <sup>13</sup> mandragorae dederunt odorem in portis nostris omnia poma nova et vetera dilecte mi servavi tibi
+
 ## Chapter 8
 
 <sup>1</sup> quis mihi det te fratrem meum sugentem ubera matris meae ut inveniam te foris et deosculer et iam me nemo despiciat

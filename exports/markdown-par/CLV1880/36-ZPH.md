@@ -18,6 +18,7 @@
 <sup>16</sup> dies tubae et clangoris super civitates munitas et super angulos excelsos
 <sup>17</sup> et tribulabo homines et ambulabunt ut caeci quia Domino peccaverunt et effundetur sanguis eorum sicut humus et corpus eorum sicut stercora
 <sup>18</sup> sed et argentum eorum et aurum eorum non poterit liberare eos in die irae Domini in igne zeli eius devorabitur omnis terra quia consummationem cum festinatione faciet cunctis habitantibus terram
+
 ## Chapter 2
 
 <sup>1</sup> convenite congregamini gens non amabilis
@@ -35,6 +36,7 @@
 <sup>13</sup> et extendet manum suam super aquilonem et perdet Assur et ponet speciosam in solitudinem et in invium et quasi desertum
 <sup>14</sup> et accubabunt in medio eius greges omnes bestiae gentium et onocrotalus et ericius in liminibus eius morabuntur vox cantantis in fenestra corvus in superliminari quoniam adtenuabo robur eius
 <sup>15</sup> haec est civitas gloriosa habitans in confidentia quae dicebat in corde suo ego sum et extra me non est alia amplius quomodo facta est in desertum cubile bestiae omnis qui transit per eam sibilabit et movebit manum suam
+
 ## Chapter 3
 
 <sup>1</sup> vae provocatrix et redempta civitas columba

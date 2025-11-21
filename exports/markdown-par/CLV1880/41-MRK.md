@@ -45,6 +45,7 @@
 <sup>43</sup> et comminatus ei statim eiecit illum
 <sup>44</sup> et dicit ei vide nemini dixeris sed vade ostende te principi sacerdotum et offer pro emundatione tua quae praecepit Moses in testimonium illis
 <sup>45</sup> at ille egressus coepit praedicare et diffamare sermonem ita ut iam non posset manifeste in civitatem introire sed foris in desertis locis esse et conveniebant ad eum undique
+
 ## Chapter 2
 
 <sup>1</sup> et iterum intravit Capharnaum post dies
@@ -75,6 +76,7 @@
 <sup>26</sup> quomodo introiit in domum Dei sub Abiathar principe sacerdotum et panes propositionis manducavit quos non licet manducare nisi sacerdotibus et dedit eis qui cum eo erant
 <sup>27</sup> et dicebat eis sabbatum propter hominem factum est et non homo propter sabbatum
 <sup>28</sup> itaque dominus est Filius hominis etiam sabbati
+
 ## Chapter 3
 
 <sup>1</sup> et introivit iterum synagogam et erat ibi homo habens manum aridam
@@ -112,6 +114,7 @@
 <sup>33</sup> et respondens eis ait quae est mater mea et fratres mei
 <sup>34</sup> et circumspiciens eos qui in circuitu eius sedebant ait ecce mater mea et fratres mei
 <sup>35</sup> qui enim fecerit voluntatem Dei hic frater meus et soror mea et mater est
+
 ## Chapter 4
 
 <sup>1</sup> et iterum coepit docere ad mare et congregata est ad eum turba multa ita ut in navem ascendens sederet in mari et omnis turba circa mare super terram erat
@@ -154,7 +157,8 @@
 <sup>38</sup> et erat ipse in puppi supra cervical dormiens et excitant eum et dicunt ei magister non ad te pertinet quia perimus
 <sup>39</sup> et exsurgens comminatus est vento et dixit mari tace obmutesce et cessavit ventus et facta est tranquillitas magna
 <sup>40</sup> et ait illis quid timidi estis necdum habetis fidem
-<sup>41</sup> [verse]4:40[/verse] et timuerunt magno timore et dicebant ad alterutrum quis putas est iste quia et ventus et mare oboediunt ei
+<sup>41</sup> et timuerunt magno timore et dicebant ad alterutrum quis putas est iste quia et ventus et mare oboediunt ei
+
 ## Chapter 5
 
 <sup>1</sup> et venerunt trans fretum maris in regionem Gerasenorum
@@ -200,6 +204,7 @@
 <sup>41</sup> et tenens manum puellae ait illi talitha cumi quod est interpretatum puella tibi dico surge
 <sup>42</sup> et confestim surrexit puella et ambulabat erat autem annorum duodecim et obstipuerunt stupore maximo
 <sup>43</sup> et praecepit illis vehementer ut nemo id sciret et dixit dari illi manducare
+
 ## Chapter 6
 
 <sup>1</sup> et egressus inde abiit in patriam suam et sequebantur illum discipuli sui
@@ -258,6 +263,7 @@
 <sup>54</sup> cumque egressi essent de navi continuo cognoverunt eum
 <sup>55</sup> et percurrentes universam regionem illam coeperunt in grabattis eos qui se male habebant circumferre ubi audiebant eum esse
 <sup>56</sup> et quocumque introibat in vicos vel in villas aut civitates in plateis ponebant infirmos et deprecabantur eum ut vel fimbriam vestimenti eius tangerent et quotquot tangebant eum salvi fiebant
+
 ## Chapter 7
 
 <sup>1</sup> et conveniunt ad eum Pharisaei et quidam de scribis venientes ab Hierosolymis
@@ -297,6 +303,7 @@
 <sup>35</sup> et statim apertae sunt aures eius et solutum est vinculum linguae eius et loquebatur recte
 <sup>36</sup> et praecepit illis ne cui dicerent quanto autem eis praecipiebat tanto magis plus praedicabant
 <sup>37</sup> et eo amplius admirabantur dicentes bene omnia fecit et surdos facit audire et mutos loqui
+
 ## Chapter 8
 
 <sup>1</sup> in illis diebus iterum cum turba multa esset nec haberent quod manducarent convocatis discipulis ait illis
@@ -337,6 +344,7 @@
 <sup>36</sup> quid enim proderit homini si lucretur mundum totum et detrimentum faciat animae suae
 <sup>37</sup> aut quid dabit homo commutationem pro anima sua
 <sup>38</sup> qui enim me confusus fuerit et mea verba in generatione ista adultera et peccatrice et Filius hominis confundetur eum cum venerit in gloria Patris sui cum angelis sanctis
+
 ## Chapter 9
 
 <sup>1</sup> (8-39) et dicebat illis amen dico vobis quia sunt quidam de hic stantibus qui non gustabunt mortem donec videant regnum Dei veniens in virtute
@@ -389,6 +397,7 @@
 <sup>48</sup> (9-47) ubi vermis eorum non moritur et ignis non extinguitur
 <sup>49</sup> (9-48) omnis enim igne sallietur et omnis victima sallietur
 <sup>50</sup> (9-49) bonum est sal quod si sal insulsum fuerit in quo illud condietis habete in vobis sal et pacem habete inter vos
+
 ## Chapter 10
 
 <sup>1</sup> et inde exsurgens venit in fines Iudaeae ultra Iordanen et conveniunt iterum turbae ad eum et sicut consueverat iterum docebat illos
@@ -443,6 +452,7 @@
 <sup>50</sup> qui proiecto vestimento suo exiliens venit ad eum
 <sup>51</sup> et respondens illi Iesus dixit quid vis tibi faciam caecus autem dixit ei rabboni ut videam
 <sup>52</sup> Iesus autem ait illi vade fides tua te salvum fecit et confestim vidit et sequebatur eum in via
+
 ## Chapter 11
 
 <sup>1</sup> et cum adpropinquarent Hierosolymae et Bethaniae ad montem Olivarum mittit duos ex discipulis suis
@@ -478,6 +488,7 @@
 <sup>31</sup> at illi cogitabant secum dicentes si dixerimus de caelo dicet quare ergo non credidistis ei
 <sup>32</sup> sed dicemus ex hominibus timebant populum omnes enim habebant Iohannem quia vere propheta esset
 <sup>33</sup> et respondentes dicunt Iesu nescimus respondens Iesus ait illis neque ego dico vobis in qua potestate haec faciam
+
 ## Chapter 12
 
 <sup>1</sup> et coepit illis in parabolis loqui vineam pastinavit homo et circumdedit sepem et fodit lacum et aedificavit turrem et locavit eam agricolis et peregre profectus est
@@ -524,6 +535,7 @@
 <sup>42</sup> cum venisset autem una vidua pauper misit duo minuta quod est quadrans
 <sup>43</sup> et convocans discipulos suos ait illis amen dico vobis quoniam vidua haec pauper plus omnibus misit qui miserunt in gazofilacium
 <sup>44</sup> omnes enim ex eo quod abundabat illis miserunt haec vero de penuria sua omnia quae habuit misit totum victum suum
+
 ## Chapter 13
 
 <sup>1</sup> et cum egrederetur de templo ait illi unus ex discipulis suis magister aspice quales lapides et quales structurae
@@ -563,6 +575,7 @@
 <sup>35</sup> vigilate ergo nescitis enim quando dominus domus veniat sero an media nocte an galli cantu an mane
 <sup>36</sup> ne cum venerit repente inveniat vos dormientes
 <sup>37</sup> quod autem vobis dico omnibus dico vigilate
+
 ## Chapter 14
 
 <sup>1</sup> erat autem pascha et azyma post biduum et quaerebant summi sacerdotes et scribae quomodo eum dolo tenerent et occiderent
@@ -637,6 +650,7 @@
 <sup>70</sup> at ille iterum negavit et post pusillum rursus qui adstabant dicebant Petro vere ex illis es nam et Galilaeus es
 <sup>71</sup> ille autem coepit anathematizare et iurare quia nescio hominem istum quem dicitis
 <sup>72</sup> et statim iterum gallus cantavit et recordatus est Petrus verbi quod dixerat ei Iesus priusquam gallus cantet bis ter me negabis et coepit flere
+
 ## Chapter 15
 
 <sup>1</sup> et confestim mane consilium facientes summi sacerdotes cum senioribus et scribis et universo concilio vincientes Iesum duxerunt et tradiderunt Pilato
@@ -686,6 +700,7 @@
 <sup>45</sup> et cum cognovisset a centurione donavit corpus Ioseph
 <sup>46</sup> Ioseph autem mercatus sindonem et deponens eum involvit sindone et posuit eum in monumento quod erat excisum de petra et advolvit lapidem ad ostium monumenti
 <sup>47</sup> Maria autem Magdalene et Maria Ioseph aspiciebant ubi poneretur
+
 ## Chapter 16
 
 <sup>1</sup> et cum transisset sabbatum Maria Magdalene et Maria Iacobi et Salome emerunt aromata ut venientes unguerent eum

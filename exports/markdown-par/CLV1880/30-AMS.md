@@ -15,6 +15,7 @@
 <sup>13</sup> haec dicit Dominus super tribus sceleribus filiorum Ammon et super quattuor non convertam eum eo quod dissecuerit praegnantes Galaad ad dilatandum terminum suum
 <sup>14</sup> et succendam ignem in muro Rabbae et devorabit aedes eius in ululatu in die belli et in turbine in die commotionis
 <sup>15</sup> et ibit Melchom in captivitatem ipse et principes eius simul dicit Dominus
+
 ## Chapter 2
 
 <sup>1</sup> haec dicit Dominus super tribus sceleribus Moab et super quattuor non convertam eum eo quod incenderit ossa regis Idumeae usque ad cinerem
@@ -33,6 +34,7 @@
 <sup>14</sup> et peribit fuga a veloce et fortis non obtinebit virtutem suam et robustus non salvabit animam suam
 <sup>15</sup> et tenens arcum non stabit et velox pedibus suis non salvabitur et ascensor equi non salvabit animam suam
 <sup>16</sup> et robustus corde inter fortes nudus fugiet in die illa dicit Dominus
+
 ## Chapter 3
 
 <sup>1</sup> audite verbum quod locutus est Dominus super vos filii Israhel super omni cognatione quam eduxi de terra Aegypti dicens
@@ -50,6 +52,7 @@
 <sup>13</sup> audite et contestamini in domo Iacob dicit Dominus Deus exercituum
 <sup>14</sup> quia in die cum visitare coepero praevaricationes Israhel super eum visitabo et super altaria Bethel et amputabuntur cornua altaris et cadent in terram
 <sup>15</sup> et percutiam domum hiemalem cum domo aestiva et peribunt domus eburneae et dissipabuntur aedes multae dicit Dominus
+
 ## Chapter 4
 
 <sup>1</sup> audite verbum hoc vaccae pingues quae estis in monte Samariae quae calumniam facitis egenis et confringitis pauperes quae dicitis dominis vestris adferte et bibemus
@@ -65,6 +68,7 @@
 <sup>11</sup> subverti vos sicut subvertit Deus Sodomam et Gomorram et facti estis quasi torris raptus de incendio et non redistis ad me dicit Dominus
 <sup>12</sup> quapropter haec faciam tibi Israhel postquam autem haec fecero tibi praeparare in occursum Dei tui Israhel
 <sup>13</sup> quia ecce formans montes et creans ventum et adnuntians homini eloquium suum faciens matutinam nebulam et gradiens super excelsa terrae Dominus Deus exercituum nomen eius
+
 ## Chapter 5
 
 <sup>1</sup> audite verbum istud quod ego levo super vos planctum domus Israhel cecidit non adiciet ut resurgat
@@ -94,6 +98,7 @@
 <sup>25</sup> numquid hostias et sacrificium obtulistis mihi in deserto quadraginta annis domus Israhel
 <sup>26</sup> et portastis tabernaculum Moloch vestro et imaginem idolorum vestrorum sidus dei vestri quae fecistis vobis
 <sup>27</sup> et migrare vos faciam trans Damascum dixit Dominus Deus exercituum nomen eius
+
 ## Chapter 6
 
 <sup>1</sup> vae qui opulenti estis in Sion et confiditis in monte Samariae optimates capita populorum ingredientes pompatice domum Israhel
@@ -110,6 +115,7 @@
 <sup>12</sup> quia ecce Dominus mandabit et percutiet domum maiorem ruinis et domum minorem scissionibus
 <sup>13</sup> numquid currere queunt in petris equi aut arari potest in bubalis quoniam convertistis in amaritudinem iudicium et fructum iustitiae in absinthium
 <sup>14</sup> qui laetamini in nihili qui dicitis numquid non in fortitudine nostra adsumpsimus nobis cornua (6-15) ecce enim suscitabo super vos domus Israhel dicit Dominus Deus exercituum gentem et conterent vos ab introitu Emath usque ad torrentem Deserti
+
 ## Chapter 7
 
 <sup>1</sup> haec ostendit mihi Dominus Deus et ecce fictor lucustae in principio germinantium serotini imbris et ecce serotinus post tonsorem regis
@@ -129,6 +135,7 @@
 <sup>15</sup> et tulit me Dominus cum sequerer gregem et dixit ad me Dominus vade propheta ad populum meum Israhel
 <sup>16</sup> et nunc audi verbum Domini tu dicis non prophetabis super Israhel et non stillabis super domum idoli
 <sup>17</sup> propter hoc haec dicit Dominus uxor tua in civitate fornicabitur et filii tui et filiae tuae in gladio cadent et humus tua funiculo metietur et tu in terra polluta morieris et Israhel captivus migrabit de terra sua
+
 ## Chapter 8
 
 <sup>1</sup> haec ostendit mihi Dominus Deus et ecce uncinus pomorum
@@ -145,6 +152,7 @@
 <sup>12</sup> et commovebuntur a mari usque ad mare et ab aquilone usque ad orientem circumibunt quaerentes verbum Domini et non invenient
 <sup>13</sup> in die illa deficient virgines pulchrae et adulescentes in siti
 <sup>14</sup> qui iurant in delicto Samariae et dicunt vivit deus tuus Dan et vivit via Bersabee et cadent et non resurgent ultra
+
 ## Chapter 9
 
 <sup>1</sup> vidi Dominum stantem super altare et dixit percute cardinem et commoveantur superliminaria avaritia enim in capite omnium et novissimum eorum in gladio interficiam non erit fuga eis fugiet et non salvabitur ex eis qui fugerit

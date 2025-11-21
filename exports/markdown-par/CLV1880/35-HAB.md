@@ -17,6 +17,7 @@
 <sup>15</sup> totum in hamo sublevavit traxit illud in sagena sua et congregavit in rete suo super hoc laetabitur et exultabit
 <sup>16</sup> propterea immolabit sagenae suae et sacrificabit reti suo quia in ipsis incrassata est pars eius et cibus eius electus
 <sup>17</sup> propter hoc ergo expandit sagenam suam et semper interficere gentes non parcet
+
 ## Chapter 2
 
 <sup>1</sup> super custodiam meam stabo et figam gradum super munitionem et contemplabor ut videam quid dicatur mihi et quid respondeam ad arguentem me
@@ -39,6 +40,7 @@
 <sup>18</sup> quid prodest sculptile quia sculpsit illud fictor suus conflatile et imaginem falsam quia speravit in figmento fictor eius ut faceret simulacra muta
 <sup>19</sup> vae qui dicit ligno expergiscere surge lapidi tacenti numquid ipse docere poterit ecce iste coopertus est auro et argento et omnis spiritus non est in visceribus eius
 <sup>20</sup> Dominus autem in templo sancto suo sileat a facie eius omnis terra
+
 ## Chapter 3
 
 <sup>1</sup> oratio Abacuc prophetae pro ignorationibus

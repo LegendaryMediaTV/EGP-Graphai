@@ -21,6 +21,7 @@
 <sup>19</sup> cumque locutus eis fuisset rex non sunt inventi de universis tales ut Danihel Ananias Misahel et Azarias et steterunt in conspectu regis
 <sup>20</sup> et omne verbum sapientiae et intellectus quod sciscitatus est ab eis rex invenit in eis decuplum super cunctos ariolos et magos qui erant in universo regno eius
 <sup>21</sup> fuit autem Danihel usque ad annum primum Cyri regis
+
 ## Chapter 2
 
 <sup>1</sup> in anno secundo regni Nabuchodonosor vidit Nabuchodonosor somnium et conterritus est spiritus eius et somnium eius fugit ab eo
@@ -72,6 +73,7 @@
 <sup>47</sup> loquens ergo rex ait Daniheli vere Deus vester Deus deorum est et Dominus regum et revelans mysteria quoniam potuisti aperire sacramentum hoc
 <sup>48</sup> tunc rex Danihelum in sublime extulit et munera multa et magna dedit ei et constituit eum principem super omnes provincias Babylonis et praefectum magistratuum super cunctos sapientes Babylonis
 <sup>49</sup> Danihel autem postulavit a rege et constituit super opera provinciae Babylonis Sedrac Misac et Abdenago ipse autem Danihel erat in foribus regis
+
 ## Chapter 3
 
 <sup>1</sup> Nabuchodonosor rex fecit statuam auream altitudine cubitorum sexaginta latitudine cubitorum sex et statuit eam in campo Duram provinciae Babylonis
@@ -104,6 +106,7 @@
 <sup>28</sup> et erumpens Nabuchodonosor ait benedictus Deus eorum Sedrac videlicet Misac et Abdenago qui misit angelum suum et eruit servos suos quia crediderunt in eo et verbum regis inmutaverunt et tradiderunt corpora sua ne servirent et ne adorarent omnem deum excepto Deo suo
 <sup>29</sup> a me ergo positum est hoc decretum ut omnis populus et tribus et lingua quaecumque locuta fuerit blasphemiam contra Deum Sedrac Misac et Abdenago dispereat et domus eius vastetur neque enim est Deus alius qui possit ita salvare
 <sup>30</sup> tunc rex promovit Sedrac Misac et Abdenago in provincia Babylonis
+
 ## Chapter 4
 
 <sup>1</sup> (3-31) Nabuchodonosor rex omnibus populis gentibus et linguis quae habitant in universa terra pax vobis multiplicetur
@@ -143,6 +146,7 @@
 <sup>35</sup> (4-32) et omnes habitatores terrae apud eum in nihilum reputati sunt iuxta voluntatem enim suam facit tam in virtutibus caeli quam in habitatoribus terrae et non est qui resistat manui eius et dicat ei quare fecisti
 <sup>36</sup> (4-33) in ipso tempore sensus meus reversus est ad me et ad honorem regni mei decoremque perveni et figura mea reversa est ad me et optimates mei et magistratus mei requisierunt me et in regno meo constitutus sum et magnificentia amplior addita est mihi
 <sup>37</sup> (4-34) nunc igitur ego Nabuchodonosor laudo et magnifico et glorifico Regem caeli quia omnia opera eius vera et viae eius iudicia et gradientes in superbia potest humiliare
+
 ## Chapter 5
 
 <sup>1</sup> Balthasar rex fecit grande convivium optimatibus suis mille et unusquisque secundum suam bibebat aetatem
@@ -176,6 +180,7 @@
 <sup>29</sup> tunc iubente rege indutus est Danihel purpura et circumdata est torques aurea collo eius et praedicatum est de eo quod haberet potestatem tertius in regno
 <sup>30</sup> eadem nocte interfectus est Balthasar rex Chaldeus
 <sup>31</sup> et Darius Medus successit in regnum annos natus sexaginta duo
+
 ## Chapter 6
 
 <sup>1</sup> placuit Dario et constituit supra regnum satrapas centum viginti ut essent in toto regno suo
@@ -206,6 +211,7 @@
 <sup>26</sup> a me constitutum est decretum ut in universo imperio et regno meo tremescant et paveant Deum Danihelis ipse est enim Deus vivens et aeternus in saecula et regnum eius non dissipabitur et potestas eius usque in aeternum
 <sup>27</sup> ipse liberator atque salvator faciens signa et mirabilia in caelo et in terra qui liberavit Danihelem de manu leonum
 <sup>28</sup> porro Danihel perseveravit usque ad regnum Darii regnumque Cyri Persae
+
 ## Chapter 7
 
 <sup>1</sup> anno primo Balthasar regis Babylonis Danihel somnium vidit visio autem capitis eius in cubili suo et somnium scribens brevi sermone conprehendit summatimque perstringens ait
@@ -236,6 +242,7 @@
 <sup>26</sup> et iudicium sedebit ut auferatur potentia et conteratur et dispereat usque in finem
 <sup>27</sup> regnum autem et potestas et magnitudo regni quae est subter omne caelum detur populo sanctorum Altissimi cuius regnum regnum sempiternum est et omnes reges servient ei et oboedient
 <sup>28</sup> hucusque finis verbi ego Danihel multum cogitationibus meis conturbabar et facies mea mutata est in me verbum autem in corde meo conservavi
+
 ## Chapter 8
 
 <sup>1</sup> anno tertio regni Balthasar regis visio apparuit mihi ego Danihel post id quod videram in principio
@@ -265,6 +272,7 @@
 <sup>25</sup> secundum voluntatem suam et dirigetur dolus in manu eius et cor suum magnificabit et in copia rerum omnium occidet plurimos et contra principem principum consurget et sine manu conteretur
 <sup>26</sup> et visio vespere et mane quae dicta est vera est tu ergo signa visionem quia post dies multos erit
 <sup>27</sup> et ego Danihel langui et aegrotavi per dies cumque surrexissem faciebam opera regis et stupebam ad visionem et non erat qui interpretaretur
+
 ## Chapter 9
 
 <sup>1</sup> in anno primo Darii filii Asueri de semine Medorum qui imperavit super regnum Chaldeorum
@@ -294,6 +302,7 @@
 <sup>25</sup> scito ergo et animadverte ab exitu sermonis ut iterum aedificetur Hierusalem usque ad christum ducem ebdomades septem et ebdomades sexaginta duae erunt et rursum aedificabitur platea et muri in angustia temporum
 <sup>26</sup> et post ebdomades sexaginta duas occidetur christus et non erit eius et civitatem et sanctuarium dissipabit populus cum duce venturo et finis eius vastitas et post finem belli statuta desolatio
 <sup>27</sup> confirmabit autem pactum multis ebdomas una et in dimidio ebdomadis deficiet hostia et sacrificium et in templo erit abominatio desolationis et usque ad consummationem et finem perseverabit desolatio
+
 ## Chapter 10
 
 <sup>1</sup> anno tertio Cyri regis Persarum verbum revelatum est Daniheli cognomento Balthasar et verum verbum et fortitudo magna intellexitque sermonem intellegentia est enim opus in visione
@@ -317,6 +326,7 @@
 <sup>19</sup> et dixit noli timere vir desideriorum pax tibi confortare et esto robustus cumque loqueretur mecum convalui et dixi loquere domine mi quia confortasti me
 <sup>20</sup> et ait numquid scis quare venerim ad te et nunc revertar ut proelier adversum principem Persarum cum enim egrederer apparuit princeps Graecorum veniens
 <sup>21</sup> verumtamen adnuntiabo tibi quod expressum est in scriptura veritatis et nemo est adiutor meus in omnibus his nisi Michahel princeps vester
+
 ## Chapter 11
 
 <sup>1</sup> ego autem ab anno primo Darii Medi stabam ut confortaretur et roboraretur
@@ -364,6 +374,7 @@
 <sup>43</sup> et dominabitur thesaurorum auri et argenti et in omnibus pretiosis Aegypti per Lybias quoque et Aethiopias transibit
 <sup>44</sup> et fama turbabit eum ab oriente et ab aquilone et veniet in multitudine magna ut conterat et interficiat plurimos
 <sup>45</sup> et figet tabernaculum suum Apedno inter maria super montem inclitum et sanctum et veniet usque ad summitatem eius et nemo auxiliabitur ei
+
 ## Chapter 12
 
 <sup>1</sup> in tempore autem illo consurget Michahel princeps magnus qui stat pro filiis populi tui et veniet tempus quale non fuit ab eo quo gentes esse coeperunt usque ad tempus illud et in tempore illo salvabitur populus tuus omnis qui inventus fuerit scriptus in libro

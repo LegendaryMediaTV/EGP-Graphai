@@ -6,6 +6,7 @@
 <sup>4</sup> non sic impii non sic; sed tamquam pulvis quem proicit ventus a facie terrae;
 <sup>5</sup> ideo non resurgent impii in iudicio neque peccatores in consilio iustorum
 <sup>6</sup> quoniam novit Dominus viam iustorum et iter impiorum peribit
+
 ## Chapter 2
 
 <sup>1</sup> psalmus David quare fremuerunt gentes et populi meditati sunt inania
@@ -20,9 +21,12 @@
 <sup>10</sup> et nunc reges intellegite erudimini qui iudicatis terram
 <sup>11</sup> servite Domino in timore et exultate ei in tremore
 <sup>12</sup> adprehendite disciplinam nequando irascatur Dominus et pereatis de via iusta (2-13) cum exarserit in brevi ira eius beati omnes qui confidunt in eo
+
 ## Chapter 3
 
-<sup>1</sup> «psalmus David cum fugeret a facie Abessalon filii sui» (3-2) Domine quid multiplicati sunt qui tribulant me multi insurgunt adversum me
+> _psalmus David cum fugeret a facie Abessalon filii sui_
+
+<sup>1</sup> (3-2) Domine quid multiplicati sunt qui tribulant me multi insurgunt adversum me
 <sup>2</sup> (3-3) multi dicunt animae meae non est salus ipsi in Deo eius; diapsalma
 <sup>3</sup> (3-4) tu autem Domine susceptor meus es gloria mea et exaltans caput meum
 <sup>4</sup> (3-5) voce mea ad Dominum clamavi et exaudivit me de monte sancto suo diapsalma
@@ -30,9 +34,12 @@
 <sup>6</sup> (3-7) non timebo milia populi circumdantis me exsurge Domine salvum me fac Deus meus
 <sup>7</sup> (3-8) quoniam tu percussisti omnes adversantes mihi sine causa dentes peccatorum contrivisti
 <sup>8</sup> (3-9) Domini est salus et super populum tuum benedictio tua
+
 ## Chapter 4
 
-<sup>1</sup> «in finem in carminibus psalmus David» (4-2) cum invocarem exaudivit me Deus iustitiae meae in tribulatione dilatasti mihi miserere mei et exaudi orationem meam
+> _in finem in carminibus psalmus David_
+
+<sup>1</sup> (4-2) cum invocarem exaudivit me Deus iustitiae meae in tribulatione dilatasti mihi miserere mei et exaudi orationem meam
 <sup>2</sup> (4-3) filii hominum usquequo gravi corde ut quid diligitis vanitatem et quaeritis mendacium diapsalma
 <sup>3</sup> (4-4) et scitote quoniam mirificavit Dominus sanctum suum Dominus exaudiet me cum clamavero ad eum
 <sup>4</sup> (4-5) irascimini et nolite peccare quae dicitis in cordibus vestris in cubilibus vestris conpungimini diapsalma
@@ -40,9 +47,12 @@
 <sup>6</sup> (4-7) signatum est super nos lumen vultus tui Domine dedisti laetitiam in corde meo
 <sup>7</sup> (4-8) a fructu frumenti et vini et olei sui multiplicati sunt
 <sup>8</sup> (4-9) in pace in id ipsum dormiam et requiescam (4-10) quoniam tu Domine singulariter in spe constituisti me
+
 ## Chapter 5
 
-<sup>1</sup> «in finem pro ea quae hereditatem consequitur psalmus David» (5-2) verba mea auribus percipe Domine intellege clamorem meum
+> _in finem pro ea quae hereditatem consequitur psalmus David_
+
+<sup>1</sup> (5-2) verba mea auribus percipe Domine intellege clamorem meum
 <sup>2</sup> (5-3) intende voci orationis meae rex meus et Deus meus
 <sup>3</sup> (5-4) quoniam ad te orabo Domine mane exaudies vocem meam
 <sup>4</sup> (5-5) mane adstabo tibi et videbo quoniam non deus volens iniquitatem tu es
@@ -54,9 +64,12 @@
 <sup>10</sup> (5-11) sepulchrum patens est guttur eorum linguis suis dolose agebant iudica illos Deus decidant a cogitationibus suis secundum multitudinem impietatum eorum expelle eos quoniam inritaverunt te Domine
 <sup>11</sup> (5-12) et laetentur omnes qui sperant in te in aeternum exultabunt et habitabis in eis et gloriabuntur in te omnes qui diligunt nomen tuum
 <sup>12</sup> (5-13) quoniam tu benedices iusto Domine ut scuto bonae voluntatis coronasti nos
+
 ## Chapter 6
 
-<sup>1</sup> «in finem in carminibus pro octava psalmus David» (6-2) Domine ne in furore tuo arguas me neque in ira tua corripias me
+> _in finem in carminibus pro octava psalmus David_
+
+<sup>1</sup> (6-2) Domine ne in furore tuo arguas me neque in ira tua corripias me
 <sup>2</sup> (6-3) miserere mei Domine quoniam infirmus sum sana me Domine quoniam conturbata sunt ossa mea
 <sup>3</sup> (6-4) et anima mea turbata est valde et tu Domine usquequo
 <sup>4</sup> (6-5) convertere Domine eripe animam meam salvum me fac propter misericordiam tuam
@@ -66,9 +79,12 @@
 <sup>8</sup> (6-9) discedite a me omnes qui operamini iniquitatem quoniam exaudivit Dominus vocem fletus mei
 <sup>9</sup> (6-10) exaudivit Dominus deprecationem meam Dominus orationem meam suscepit
 <sup>10</sup> (6-11) erubescant et conturbentur vehementer omnes inimici mei convertantur et erubescant valde velociter
+
 ## Chapter 7
 
-<sup>1</sup> «psalmus David quem cantavit Domino pro verbis Chusi filii Iemini» (7-2) Domine Deus meus in te speravi salvum me fac ex omnibus persequentibus me et libera me
+> _psalmus David quem cantavit Domino pro verbis Chusi filii Iemini_
+
+<sup>1</sup> (7-2) Domine Deus meus in te speravi salvum me fac ex omnibus persequentibus me et libera me
 <sup>2</sup> (7-3) nequando rapiat ut leo animam meam dum non est qui redimat neque qui salvum faciat
 <sup>3</sup> (7-4) Domine Deus meus si feci istud si est iniquitas in manibus meis
 <sup>4</sup> (7-5) si reddidi retribuentibus mihi mala decidam merito ab inimicis meis inanis
@@ -85,9 +101,12 @@
 <sup>15</sup> (7-16) lacum aperuit et effodit eum et incidet in foveam quam fecit
 <sup>16</sup> (7-17) convertetur dolor eius in caput eius et in verticem ipsius iniquitas eius descendet
 <sup>17</sup> (7-18) confitebor Domino secundum iustitiam eius et psallam nomini Domini altissimi
+
 ## Chapter 8
 
-<sup>1</sup> «in finem pro torcularibus psalmus David» (8-2) Domine Dominus noster quam admirabile est nomen tuum in universa terra quoniam elevata est magnificentia tua super caelos
+> _in finem pro torcularibus psalmus David_
+
+<sup>1</sup> (8-2) Domine Dominus noster quam admirabile est nomen tuum in universa terra quoniam elevata est magnificentia tua super caelos
 <sup>2</sup> (8-3) ex ore infantium et lactantium perfecisti laudem propter inimicos tuos ut destruas inimicum et ultorem
 <sup>3</sup> (8-4) quoniam videbo caelos tuos; opera digitorum tuorum lunam et stellas quae tu fundasti
 <sup>4</sup> (8-5) quid est homo quod memor es eius aut filius hominis quoniam visitas eum
@@ -96,9 +115,12 @@
 <sup>7</sup> (8-8) omnia subiecisti sub pedibus eius oves et boves universas insuper et pecora campi
 <sup>8</sup> (8-9) volucres caeli et pisces maris qui perambulant semitas maris
 <sup>9</sup> (8-10) Domine Dominus noster quam admirabile est nomen tuum in universa terra
+
 ## Chapter 9
 
-<sup>1</sup> «in finem pro occultis filii psalmus David» (9-2) confitebor tibi Domine in toto corde meo narrabo omnia mirabilia tua
+> _in finem pro occultis filii psalmus David_
+
+<sup>1</sup> (9-2) confitebor tibi Domine in toto corde meo narrabo omnia mirabilia tua
 <sup>2</sup> (9-3) laetabor et exultabo in te psallam nomini tuo Altissime
 <sup>3</sup> (9-4) in convertendo inimicum meum retrorsum infirmabuntur et peribunt a facie tua
 <sup>4</sup> (9-5) quoniam fecisti iudicium meum et causam meam sedisti super thronum qui iudicas iustitiam
@@ -118,6 +140,7 @@
 <sup>18</sup> (9-19) quoniam non in finem oblivio erit pauperis patientia pauperum non peribit in finem
 <sup>19</sup> (9-20) exsurge Domine non confortetur homo iudicentur gentes in conspectu tuo
 <sup>20</sup> (9-21) constitue Domine legislatorem super eos sciant gentes quoniam homines sunt diapsalma
+
 ## Chapter 10
 
 <sup>1</sup> (9-22) «ut quid Domine recessisti longe dispicis in oportunitatibus in tribulatione»
@@ -138,6 +161,7 @@
 <sup>16</sup> (9-37) Dominus regnabit in aeternum et in saeculum saeculi; peribitis gentes de terra illius
 <sup>17</sup> (9-38) desiderium pauperum exaudivit Dominus praeparationem cordis eorum audivit auris tua
 <sup>18</sup> (9-39) iudicare pupillo et humili ut non adponat ultra magnificare se homo super terram
+
 ## Chapter 11
 
 <sup>1</sup> (10-1) «in finem psalmus David» (10-2) in Domino confido quomodo dicitis animae meae transmigra in montes sicut passer
@@ -147,6 +171,7 @@
 <sup>5</sup> (10-6) Dominus interrogat iustum et impium qui autem diligit iniquitatem odit animam suam
 <sup>6</sup> (10-7) pluet super peccatores laqueos ignis et sulphur et spiritus procellarum pars calicis eorum
 <sup>7</sup> (10-8) quoniam iustus Dominus et; iustitias dilexit aequitatem vidit vultus eius
+
 ## Chapter 12
 
 <sup>1</sup> (11-1) «in finem pro octava psalmus David» (11-2) salvum me fac Domine quoniam defecit sanctus quoniam deminutae sunt veritates a filiis hominum
@@ -157,6 +182,7 @@
 <sup>6</sup> (11-7) eloquia Domini eloquia casta argentum igne examinatum probatum terrae purgatum septuplum
 <sup>7</sup> (11-8) tu Domine servabis nos et custodies nos a generatione hac et in aeternum
 <sup>8</sup> (11-9) in circuitu impii ambulant secundum altitudinem tuam multiplicasti filios hominum
+
 ## Chapter 13
 
 <sup>1</sup> (12-1) «in finem psalmus David» usquequo Domine oblivisceris me in finem usquequo avertis faciem tuam a me
@@ -165,6 +191,7 @@
 <sup>4</sup> (12-5) nequando dicat inimicus meus praevalui adversus eum qui tribulant me exultabunt si motus fuero
 <sup>5</sup> (12-6) ego autem in misericordia tua speravi exultabit cor meum in salutari tuo
 <sup>6</sup> (12-7) (12-6) cantabo Domino qui bona tribuit mihi et psallam nomini Domini altissimi
+
 ## Chapter 14
 
 <sup>1</sup> (13-1) «in finem psalmus David» dixit insipiens in corde suo non est Deus corrupti sunt et abominabiles facti sunt in studiis suis; non est qui faciat bonum non est usque ad unum;
@@ -174,6 +201,7 @@
 <sup>5</sup> (13-5) Dominum non invocaverunt illic trepidaverunt timore ubi non erat timor;
 <sup>6</sup> (13-6) quoniam Deus in generatione iusta consilium inopis confudistis quoniam Dominus spes eius est
 <sup>7</sup> (13-7) quis dabit ex Sion salutare Israhel cum averterit Dominus captivitatem plebis suae exultabit Iacob et laetabitur Israhel
+
 ## Chapter 15
 
 <sup>1</sup> (14-1) «psalmus David» Domine quis habitabit in tabernaculo tuo aut quis requiescet in monte sancto tuo
@@ -181,6 +209,7 @@
 <sup>3</sup> (14-3) qui loquitur veritatem in corde suo qui non egit dolum in lingua sua nec fecit proximo suo malum et obprobrium non accepit adversus proximos suos
 <sup>4</sup> (14-4) ad nihilum deductus est in conspectu eius malignus timentes autem Dominum glorificat qui iurat proximo suo et non decipit
 <sup>5</sup> (14-5) qui pecuniam suam non dedit ad usuram et munera super innocentes non accepit qui facit haec non movebitur in aeternum
+
 ## Chapter 16
 
 <sup>1</sup> (15-1) «tituli inscriptio ipsi David» conserva me Domine quoniam in te speravi
@@ -194,6 +223,7 @@
 <sup>9</sup> (15-9) propter hoc laetatum est cor meum et exultavit lingua mea insuper et caro mea requiescet in spe
 <sup>10</sup> (15-10) quoniam non derelinques animam meam in inferno non dabis sanctum tuum videre corruptionem
 <sup>11</sup> (15-11) (15-10) notas mihi fecisti vias vitae adimplebis me laetitia cum vultu tuo delectatio in dextera tua usque in finem
+
 ## Chapter 17
 
 <sup>1</sup> (16-1) «oratio David» exaudi Domine iustitiam meam intende deprecationem meam auribus percipe orationem meam non in labiis dolosis
@@ -211,6 +241,7 @@
 <sup>13</sup> (16-13) exsurge Domine praeveni eum et subplanta eum eripe animam meam ab impio frameam tuam
 <sup>14</sup> (16-14) ab inimicis manus tuae Domine a paucis de terra divide eos in vita eorum de absconditis tuis adimpletus est venter eorum saturati sunt filiis et dimiserunt reliquias suas parvulis suis
 <sup>15</sup> (16-15) ego autem in iustitia apparebo conspectui tuo satiabor cum apparuerit gloria tua
+
 ## Chapter 18
 
 <sup>1</sup> (17-1) «in finem puero Domini David quae locutus est Domino verba cantici huius in die qua eripuit eum Dominus de manu omnium inimicorum eius et de manu Saul et dixit» (17-2) diligam te Domine fortitudo mea
@@ -263,6 +294,7 @@
 <sup>48</sup> (17-49) et ab insurgentibus in me exaltabis me a viro iniquo eripies me
 <sup>49</sup> (17-50) propterea confitebor tibi in nationibus Domine et psalmum dicam nomini tuo
 <sup>50</sup> (17-51) magnificans salutes regis eius et faciens misericordiam christo suo David et semini eius usque in saeculum
+
 ## Chapter 19
 
 <sup>1</sup> (18-1) «in finem psalmus David» (18-2) caeli enarrant gloriam Dei et opera manuum eius adnuntiat firmamentum
@@ -279,6 +311,7 @@
 <sup>12</sup> (18-13) delicta quis intellegit ab occultis meis munda me
 <sup>13</sup> (18-14) et ab alienis parce servo tuo si mei non fuerint dominati tunc inmaculatus ero et emundabor a delicto maximo
 <sup>14</sup> (18-15) et erunt ut conplaceant eloquia oris mei et meditatio cordis mei in conspectu tuo semper Domine adiutor meus et redemptor meus
+
 ## Chapter 20
 
 <sup>1</sup> (19-1) «in finem psalmus David» (19-2) exaudiat te Dominus in die tribulationis protegat te nomen Dei Iacob
@@ -290,6 +323,7 @@
 <sup>7</sup> (19-8) hii in curribus et hii in equis nos autem in nomine Domini Dei nostri invocabimus
 <sup>8</sup> (19-9) ipsi obligati sunt et ceciderunt nos vero surreximus et erecti sumus
 <sup>9</sup> (19-10) Domine salvum fac regem et exaudi nos in die qua invocaverimus te
+
 ## Chapter 21
 
 <sup>1</sup> (20-1) «in finem psalmus David» (20-2) Domine in virtute tua laetabitur rex et super salutare tuum exultabit vehementer
@@ -305,6 +339,7 @@
 <sup>11</sup> (20-12) quoniam declinaverunt in te mala cogitaverunt consilia quae non potuerunt stabilire;
 <sup>12</sup> (20-13) quoniam pones eos dorsum in reliquis tuis praeparabis vultum eorum
 <sup>13</sup> (20-14) exaltare Domine in virtute tua cantabimus et psallemus virtutes tuas
+
 ## Chapter 22
 
 <sup>1</sup> (21-1) «in finem pro adsumptione matutina psalmus David» (21-2) Deus Deus meus respice me; quare me dereliquisti longe a salute mea verba delictorum meorum
@@ -338,6 +373,7 @@
 <sup>29</sup> (21-30) manducaverunt et adoraverunt omnes pingues terrae in conspectu eius cadent omnes qui descendunt in terram
 <sup>30</sup> (21-31) et anima mea illi vivet et semen meum serviet ipsi
 <sup>31</sup> (21-32) adnuntiabitur Domino generatio ventura et adnuntiabunt iustitiam eius populo qui nascetur quem fecit Dominus;
+
 ## Chapter 23
 
 <sup>1</sup> (22-1) «psalmus David» Dominus reget me et nihil mihi deerit
@@ -346,6 +382,7 @@
 <sup>4</sup> (22-4) nam et si ambulavero in medio umbrae mortis non timebo mala quoniam tu mecum es virga tua et baculus tuus ipsa me consolata sunt
 <sup>5</sup> (22-5) parasti in conspectu meo mensam adversus eos qui tribulant me inpinguasti in oleo caput meum et calix meus inebrians quam praeclarus est
 <sup>6</sup> (22-6) et misericordia tua subsequitur me omnibus diebus vitae meae et ut inhabitem in domo Domini in longitudinem dierum
+
 ## Chapter 24
 
 <sup>1</sup> (23-1) «psalmus David prima sabbati» Domini est terra et plenitudo eius orbis terrarum et universi; qui habitant in eo
@@ -358,6 +395,7 @@
 <sup>8</sup> (23-8) quis est iste rex gloriae Dominus fortis et potens Dominus potens in proelio
 <sup>9</sup> (23-9) adtollite portas principes vestras et elevamini portae aeternales et introibit rex gloriae
 <sup>10</sup> (23-10) quis est iste rex gloriae Dominus virtutum ipse est rex gloriae diapsalma
+
 ## Chapter 25
 
 <sup>1</sup> (24-1) «psalmus David» ad te Domine levavi animam meam
@@ -382,6 +420,7 @@
 <sup>20</sup> (24-20) custodi animam meam et erue me non erubescam quoniam speravi in te
 <sup>21</sup> (24-21) innocentes et recti adheserunt mihi quia sustinui te
 <sup>22</sup> (24-22) libera Deus Israhel ex omnibus tribulationibus suis
+
 ## Chapter 26
 
 <sup>1</sup> (25-1) «psalmus David» iudica me Domine quoniam ego in innocentia mea ingressus sum et in Domino sperans non infirmabor
@@ -396,6 +435,7 @@
 <sup>10</sup> (25-10) in quorum manibus iniquitates sunt dextera eorum repleta est muneribus
 <sup>11</sup> (25-11) ego autem in innocentia mea ingressus sum redime me et miserere mei
 <sup>12</sup> (25-12) pes meus stetit in directo in ecclesiis benedicam te; Domine
+
 ## Chapter 27
 
 <sup>1</sup> (26-1) «David» priusquam liniretur Dominus inluminatio mea et salus mea quem timebo Dominus protector vitae meae a quo trepidabo
@@ -412,6 +452,7 @@
 <sup>12</sup> (26-12) ne tradideris me in animas tribulantium me quoniam insurrexerunt in me testes iniqui et mentita est iniquitas sibi
 <sup>13</sup> (26-13) credo videre bona Domini in terra viventium
 <sup>14</sup> (26-14) expecta Dominum viriliter age et confortetur cor tuum et sustine Dominum
+
 ## Chapter 28
 
 <sup>1</sup> (27-1) «huic David» ad te Domine clamabo Deus meus ne sileas a me nequando taceas a me et adsimilabor descendentibus in lacum
@@ -423,6 +464,7 @@
 <sup>7</sup> (27-7) Dominus adiutor meus et protector meus in ipso speravit cor meum et adiutus sum et refloruit caro mea et ex voluntate mea confitebor ei
 <sup>8</sup> (27-8) Dominus fortitudo plebis suae et protector salvationum christi sui est
 <sup>9</sup> (27-9) salvam fac plebem tuam et benedic hereditati tuae et rege eos et extolle eos usque in aeternum
+
 ## Chapter 29
 
 <sup>1</sup> (28-1) «psalmus David in consummatione tabernaculi» adferte Domino filii Dei adferte Domino filios arietum
@@ -436,6 +478,7 @@
 <sup>9</sup> (28-9) vox Domini praeparantis cervos et revelabit condensa et in templo eius omnis dicet gloriam
 <sup>10</sup> (28-10) Dominus diluvium inhabitare facit et sedebit Dominus rex in aeternum
 <sup>11</sup> (28-11) Dominus virtutem populo suo dabit Dominus benedicet populo suo in pace
+
 ## Chapter 30
 
 <sup>1</sup> (29-1) «psalmus cantici in dedicatione domus David» (29-2) exaltabo te Domine quoniam suscepisti me nec delectasti inimicos meos super me
@@ -450,6 +493,7 @@
 <sup>10</sup> (29-11) audivit Dominus et misertus est mei Dominus factus est adiutor meus
 <sup>11</sup> (29-12) convertisti planctum meum in gaudium mihi conscidisti saccum meum et circumdedisti me laetitia
 <sup>12</sup> (29-13) ut cantet tibi gloria mea et non conpungar Domine Deus meus in aeternum confitebor tibi
+
 ## Chapter 31
 
 <sup>1</sup> (30-1) «in finem psalmus David» (30-2) in te Domine speravi non confundar in aeternum in iustitia tua libera me
@@ -476,6 +520,7 @@
 <sup>22</sup> (30-23) ego autem dixi in excessu mentis meae proiectus sum a facie oculorum tuorum ideo exaudisti vocem orationis meae dum clamarem ad te
 <sup>23</sup> (30-24) diligite Dominum omnes sancti eius quoniam; veritates requirit Dominus et retribuit abundanter facientibus superbiam
 <sup>24</sup> (30-25) viriliter agite et confortetur cor vestrum omnes qui speratis in Domino
+
 ## Chapter 32
 
 <sup>1</sup> (31-1) «huic David intellectus» beati quorum remissae sunt iniquitates et quorum tecta sunt peccata
@@ -489,6 +534,7 @@
 <sup>9</sup> (31-9) nolite fieri sicut equus et mulus quibus non est intellectus in camo et freno maxillas eorum constringe qui non adproximant ad te
 <sup>10</sup> (31-10) multa flagella peccatoris sperantem autem in Domino misericordia circumdabit
 <sup>11</sup> (31-11) laetamini in Domino et exultate iusti et gloriamini omnes recti corde
+
 ## Chapter 33
 
 <sup>1</sup> (32-1) psalmus David exultate iusti in Domino rectos decet laudatio
@@ -513,6 +559,7 @@
 <sup>20</sup> (32-20) anima nostra sustinet Dominum quoniam adiutor et protector noster est
 <sup>21</sup> (32-21) quia in eo laetabitur cor nostrum et in nomine sancto eius speravimus
 <sup>22</sup> (32-22) fiat misericordia tua Domine super nos quemadmodum speravimus in te
+
 ## Chapter 34
 
 <sup>1</sup> (33-1) «David cum inmutavit vultum suum coram Abimelech et dimisit eum et abiit» (33-2) benedicam Dominum in omni tempore semper laus eius in ore meo
@@ -537,6 +584,7 @@
 <sup>20</sup> (33-21) Dominus custodit omnia ossa eorum unum ex his non conteretur
 <sup>21</sup> (33-22) mors peccatorum pessima et qui oderunt iustum delinquent
 <sup>22</sup> (33-23) redimet Dominus animas servorum suorum et non delinquent omnes qui sperant in eum
+
 ## Chapter 35
 
 <sup>1</sup> (34-1) «huic David» iudica Domine nocentes me expugna expugnantes me
@@ -567,6 +615,7 @@
 <sup>26</sup> (34-26) erubescant et revereantur simul qui gratulantur malis meis induantur confusione et reverentia qui magna loquuntur super me
 <sup>27</sup> (34-27) exultent et laetentur qui volunt iustitiam meam et dicant semper magnificetur Dominus qui volunt pacem servi eius
 <sup>28</sup> (34-28) et lingua mea meditabitur iustitiam tuam tota die laudem tuam
+
 ## Chapter 36
 
 <sup>1</sup> (35-1) «in finem servo Domini David» (35-2) dixit iniustus ut delinquat in semet ipso non est timor Dei ante oculos eius
@@ -581,6 +630,7 @@
 <sup>10</sup> (35-11) praetende misericordiam tuam scientibus te et iustitiam tuam his qui recto sunt corde
 <sup>11</sup> (35-12) non veniat mihi pes superbiae et manus peccatoris non moveat me
 <sup>12</sup> (35-13) ibi ceciderunt qui operantur iniquitatem expulsi sunt nec potuerunt stare
+
 ## Chapter 37
 
 <sup>1</sup> (36-1) «ipsi David» noli aemulari in malignantibus neque zelaveris facientes iniquitatem
@@ -623,6 +673,7 @@
 <sup>38</sup> (36-38) iniusti autem disperibunt simul reliquiae impiorum peribunt
 <sup>39</sup> (36-39) salus autem iustorum a Domino et protector eorum in tempore tribulationis
 <sup>40</sup> (36-40) et adiuvabit eos Dominus et liberabit eos et eruet eos a peccatoribus et salvabit eos quia speraverunt in eo
+
 ## Chapter 38
 
 <sup>1</sup> (37-1) «psalmus David in rememorationem de sabbato» (37-2) Domine ne in furore tuo arguas me neque in ira tua corripias me
@@ -647,6 +698,7 @@
 <sup>20</sup> (37-21) qui retribuunt mala pro bonis detrahebant mihi quoniam sequebar bonitatem
 <sup>21</sup> (37-22) non derelinquas me Domine Deus meus ne discesseris a me
 <sup>22</sup> (37-23) intende in adiutorium meum Domine salutis meae
+
 ## Chapter 39
 
 <sup>1</sup> (38-1) «in finem Idithun canticum David» (38-2) dixi custodiam vias meas ut non delinquam in lingua mea posui ori meo custodiam cum consisteret peccator adversum me
@@ -662,6 +714,7 @@
 <sup>11</sup> (38-12) a fortitudine manus tuae ego defeci in increpationibus propter iniquitatem corripuisti hominem et tabescere fecisti sicut araneam animam eius verumtamen vane conturbatur; omnis homo diapsalma
 <sup>12</sup> (38-13) exaudi orationem meam Domine et deprecationem meam auribus percipe lacrimas meas ne sileas quoniam advena sum apud te et peregrinus sicut omnes patres mei
 <sup>13</sup> (38-14) remitte mihi ut refrigerer priusquam abeam et amplius non ero
+
 ## Chapter 40
 
 <sup>1</sup> (39-1) «in finem David psalmus» (39-2) expectans expectavi Dominum et intendit mihi
@@ -681,6 +734,7 @@
 <sup>15</sup> (39-16) ferant confestim confusionem suam qui dicunt mihi euge euge
 <sup>16</sup> (39-17) exultent et laetentur super te omnes quaerentes te et dicant semper magnificetur Dominus qui diligunt salutare tuum
 <sup>17</sup> (39-18) ego autem mendicus sum et pauper Dominus sollicitus est mei adiutor meus et protector meus tu es Deus meus ne tardaveris
+
 ## Chapter 41
 
 <sup>1</sup> (40-1) «in finem psalmus David» (40-2) beatus qui intellegit super egenum et pauperem in die mala liberabit eum Dominus
@@ -696,6 +750,7 @@
 <sup>11</sup> (40-12) in hoc cognovi quoniam voluisti me quoniam non gaudebit inimicus meus super me
 <sup>12</sup> (40-13) me autem propter innocentiam suscepisti et confirmasti me in conspectu tuo in aeternum
 <sup>13</sup> (40-14) benedictus Dominus Deus Israhel a saeculo et in saeculum fiat fiat
+
 ## Chapter 42
 
 <sup>1</sup> (41-1) «in finem in intellectum filiis Core» (41-2) quemadmodum desiderat cervus ad fontes aquarum ita desiderat anima mea ad te Deus
@@ -709,6 +764,7 @@
 <sup>9</sup> (41-10) dicam Deo susceptor meus es quare oblitus es mei quare contristatus incedo dum adfligit me inimicus
 <sup>10</sup> (41-11) dum confringuntur ossa mea exprobraverunt mihi qui tribulant me dum dicunt mihi per singulos dies ubi est Deus tuus
 <sup>11</sup> (41-12) quare tristis es anima mea et quare conturbas me spera in Deum quoniam adhuc; confitebor illi salutare vultus mei et; Deus meus
+
 ## Chapter 43
 
 <sup>1</sup> (42-1) psalmus David iudica me Deus et discerne causam meam de gente non sancta ab homine iniquo et doloso erue me
@@ -716,6 +772,7 @@
 <sup>3</sup> (42-3) emitte lucem tuam et veritatem tuam ipsa me deduxerunt et adduxerunt in montem sanctum tuum et in tabernacula tua
 <sup>4</sup> (42-4) et introibo ad altare Dei ad Deum qui laetificat iuventutem meam confitebor tibi in cithara Deus Deus meus
 <sup>5</sup> (42-5) quare tristis es anima mea et quare conturbas me spera in Deum quoniam adhuc; confitebor illi salutare vultus mei et; Deus meus
+
 ## Chapter 44
 
 <sup>1</sup> (43-1) «in finem filiis Core ad intellectum» (43-2) Deus auribus nostris audivimus patres nostri adnuntiaverunt nobis opus quod operatus es in diebus eorum in diebus antiquis
@@ -744,6 +801,7 @@
 <sup>24</sup> (43-24) quare faciem tuam avertis oblivisceris inopiae nostrae et tribulationis nostrae
 <sup>25</sup> (43-25) quoniam humiliata est in pulvere anima nostra conglutinatus est in terra venter noster
 <sup>26</sup> (43-26) exsurge adiuva nos et redime nos propter nomen tuum
+
 ## Chapter 45
 
 <sup>1</sup> (44-1) «in finem pro his qui commutabuntur filiis Core ad intellectum canticum pro dilecto» (44-2) eructavit cor meum verbum bonum dico ego opera mea regi lingua mea calamus scribae velociter scribentis
@@ -763,6 +821,7 @@
 <sup>15</sup> (44-16) adferentur in laetitia et exultatione adducentur in templum regis
 <sup>16</sup> (44-17) pro patribus tuis nati sunt tibi filii constitues eos principes super omnem terram
 <sup>17</sup> (44-18) memor ero nominis tui in omni generatione et generatione propterea populi confitebuntur tibi in aeternum et in saeculum saeculi
+
 ## Chapter 46
 
 <sup>1</sup> (45-1) «in finem pro filiis Core pro arcanis psalmus» (45-2) Deus noster refugium et virtus adiutor in tribulationibus quae invenerunt nos nimis
@@ -776,6 +835,7 @@
 <sup>9</sup> (45-10) auferens bella usque ad finem terrae arcum conteret et confringet arma et scuta conburet in igne
 <sup>10</sup> (45-11) vacate et videte quoniam ego sum Deus exaltabor in gentibus exaltabor in terra
 <sup>11</sup> (45-12) Dominus virtutum nobiscum susceptor noster Deus Iacob
+
 ## Chapter 47
 
 <sup>1</sup> (46-1) «in finem pro filiis Core psalmus» (46-2) omnes gentes plaudite manibus iubilate Deo in voce exultationis
@@ -787,6 +847,7 @@
 <sup>7</sup> (46-8) quoniam rex omnis terrae Deus psallite sapienter
 <sup>8</sup> (46-9) regnavit Deus super gentes Deus sedit super sedem sanctam suam
 <sup>9</sup> (46-10) principes populorum congregati sunt cum Deo Abraham quoniam Dei fortes terrae vehementer elevati sunt
+
 ## Chapter 48
 
 <sup>1</sup> (47-1) «canticum psalmi filiis Core secunda sabbati» (47-2) magnus Dominus et laudabilis nimis in civitate Dei nostri in monte sancto eius
@@ -803,6 +864,7 @@
 <sup>12</sup> (47-13) circumdate Sion et conplectimini eam narrate in turribus eius
 <sup>13</sup> (47-14) ponite corda vestra in virtute eius et distribuite domus eius ut enarretis in progeniem alteram
 <sup>14</sup> (47-15) quoniam hic est Deus Deus noster in aeternum et in saeculum saeculi ipse reget nos in saecula
+
 ## Chapter 49
 
 <sup>1</sup> (48-1) «in finem filiis Core psalmus» (48-2) audite haec omnes gentes auribus percipite omnes qui habitatis orbem
@@ -825,6 +887,7 @@
 <sup>18</sup> (48-19) quia anima eius in vita ipsius benedicetur confitebitur tibi cum benefeceris ei
 <sup>19</sup> (48-20) introibit usque in progenies patrum suorum usque in aeternum non videbit lumen
 <sup>20</sup> (48-21) homo in honore cum esset non intellexit conparatus est iumentis insipientibus; et similis factus est illis
+
 ## Chapter 50
 
 <sup>1</sup> (49-1) «psalmus Asaph» Deus deorum Dominus locutus est et vocavit terram a solis ortu usque ad occasum
@@ -850,6 +913,7 @@
 <sup>21</sup> (49-21) haec fecisti et tacui existimasti inique quod ero tui similis arguam te et statuam contra faciem tuam
 <sup>22</sup> (49-22) intellegite nunc haec qui obliviscimini Deum nequando rapiat et non sit qui eripiat
 <sup>23</sup> (49-23) sacrificium laudis honorificabit me et illic iter quod ostendam illi salutare Dei
+
 ## Chapter 51
 
 <sup>1</sup> (50-1) «in finem psalmus David (50-2) cum venit ad eum Nathan propheta quando intravit ad Bethsabee» (50-3) miserere mei Deus secundum magnam; misericordiam tuam et; secundum multitudinem miserationum tuarum dele iniquitatem meam
@@ -871,6 +935,7 @@
 <sup>17</sup> (50-19) sacrificium Deo spiritus contribulatus cor contritum et humiliatum Deus non spernet
 <sup>18</sup> (50-20) benigne fac Domine in bona voluntate tua Sion et aedificentur muri Hierusalem
 <sup>19</sup> (50-21) tunc acceptabis sacrificium iustitiae oblationes et holocausta tunc inponent super altare tuum vitulos
+
 ## Chapter 52
 
 <sup>1</sup> (51-1) «in finem intellectus David (51-2) cum venit Doec Idumeus et adnuntiavit Saul et dixit venit David in domo Achimelech» (51-3) quid gloriatur in malitia qui potens est iniquitate
@@ -882,6 +947,7 @@
 <sup>7</sup> (51-9) ecce homo qui non posuit Deum adiutorem suum sed speravit in multitudine divitiarum suarum et praevaluit in vanitate sua
 <sup>8</sup> (51-10) ego autem sicut oliva fructifera in domo Dei speravi in misericordia Dei in aeternum et in saeculum saeculi
 <sup>9</sup> (51-11) confitebor tibi in saeculum quia fecisti et expectabo nomen tuum quoniam bonum in conspectu sanctorum tuorum
+
 ## Chapter 53
 
 <sup>1</sup> (52-1) «in finem pro Melech intellegentiae David» dixit insipiens in corde suo non est Deus (52-2) corrupti sunt et abominabiles facti sunt in iniquitatibus non est qui faciat bonum
@@ -890,6 +956,7 @@
 <sup>4</sup> (52-5) nonne scient omnes; qui operantur iniquitatem qui devorant plebem meam ut cibum panis
 <sup>5</sup> (52-6) Deum non invocaverunt illic trepidabunt timore ubi non fuit timor quoniam Deus dissipavit ossa eorum qui hominibus placent confusi sunt quoniam Deus sprevit eos
 <sup>6</sup> (52-7) quis dabit ex Sion salutare Israhel dum convertit Deus captivitatem plebis suae exultabit Iacob et laetabitur Israhel
+
 ## Chapter 54
 
 <sup>1</sup> (53-1) «in finem in carminibus intellectus David (53-2) cum venissent Ziphei et dixissent ad Saul nonne David absconditus est apud nos» (53-3) Deus in nomine tuo salvum me fac et in virtute tua iudica me
@@ -899,6 +966,7 @@
 <sup>5</sup> (53-7) avertet mala inimicis meis in veritate tua disperde illos
 <sup>6</sup> (53-8) voluntarie sacrificabo tibi confitebor nomini tuo Domine quoniam bonum
 <sup>7</sup> (53-9) quoniam ex omni tribulatione eripuisti me et super inimicos meos despexit oculus meus
+
 ## Chapter 55
 
 <sup>1</sup> (54-1) «in finem in carminibus intellectus David» (54-2) exaudi Deus orationem meam et ne despexeris deprecationem meam
@@ -924,6 +992,7 @@
 <sup>21</sup> (54-22) divisi sunt ab ira vultus eius et adpropinquavit cor illius molliti sunt sermones eius super oleum et ipsi sunt iacula
 <sup>22</sup> (54-23) iacta super Dominum curam tuam et ipse te enutriet non dabit in aeternum fluctuationem iusto
 <sup>23</sup> (54-24) tu vero Deus deduces eos in puteum interitus viri sanguinum et doli non dimidiabunt dies suos ego autem sperabo in te Domine
+
 ## Chapter 56
 
 <sup>1</sup> (55-1) «in finem pro populo qui a sanctis longe factus est David in tituli inscriptione cum tenuerunt eum Allophili in Geth» (55-2) miserere mei Deus quoniam conculcavit me homo tota die inpugnans tribulavit me
@@ -939,6 +1008,7 @@
 <sup>11</sup> (55-11) in Deo speravi non timebo quid faciat mihi homo
 <sup>12</sup> (55-12) in me sunt Deus vota tua; quae; reddam laudationes tibi
 <sup>13</sup> (55-13) quoniam eripuisti animam meam de morte et pedes meos de lapsu ut placeam coram Deo in lumine viventium
+
 ## Chapter 57
 
 <sup>1</sup> (56-1) «in finem ne disperdas David in tituli inscriptione cum fugeret a facie Saul in spelunca» (56-2) miserere mei Deus miserere mei quoniam in te confidit anima mea et in umbra alarum tuarum sperabo donec transeat iniquitas
@@ -952,6 +1022,7 @@
 <sup>9</sup> (56-10) confitebor tibi in populis Domine psalmum dicam tibi in gentibus
 <sup>10</sup> (56-11) quoniam magnificata est usque ad caelos misericordia tua et usque ad nubes veritas tua
 <sup>11</sup> (56-12) exaltare super caelos Deus et super omnem terram gloria tua
+
 ## Chapter 58
 
 <sup>1</sup> (57-1) «in finem ne disperdas David in tituli inscriptione» (57-2) si vere utique iustitiam loquimini recta iudicate filii hominum
@@ -965,6 +1036,7 @@
 <sup>9</sup> (57-10) priusquam intellegerent spinae vestrae ramnum sicut viventes sicut in ira absorbet vos
 <sup>10</sup> (57-11) laetabitur iustus cum viderit vindictam manus suas lavabit in sanguine peccatoris
 <sup>11</sup> (57-12) et dicet homo si utique est fructus iusto utique est Deus iudicans eos in terra
+
 ## Chapter 59
 
 <sup>1</sup> (58-1) «in finem ne disperdas David in tituli inscriptione quando misit Saul et custodivit domum eius ut interficeret eum» (58-2) eripe me de inimicis meis Deus et ab insurgentibus in me libera me
@@ -984,6 +1056,7 @@
 <sup>15</sup> (58-16) ipsi dispergentur ad manducandum si vero non fuerint saturati et murmurabunt
 <sup>16</sup> (58-17) ego autem cantabo fortitudinem tuam et exultabo mane misericordiam tuam quia factus es susceptor meus et refugium meum in die tribulationis meae
 <sup>17</sup> (58-18) adiutor meus tibi psallam quia Deus susceptor meus es Deus meus misericordia mea
+
 ## Chapter 60
 
 <sup>1</sup> (59-1) «in finem his qui inmutabuntur in tituli inscriptione David in doctrina (59-2) cum succendit Syriam Mesopotamiam et Syriam Soba et convertit Ioab et percussit vallem Salinarum duodecim milia» (59-3) Deus reppulisti nos et destruxisti nos iratus es et misertus es nobis
@@ -998,6 +1071,7 @@
 <sup>10</sup> (59-12) nonne tu Deus qui reppulisti nos et non egredieris Deus in virtutibus nostris
 <sup>11</sup> (59-13) da nobis auxilium de tribulatione et vana salus hominis
 <sup>12</sup> (59-14) in Deo faciemus virtutem et ipse ad nihilum deducet tribulantes nos
+
 ## Chapter 61
 
 <sup>1</sup> (60-1) «in finem in hymnis David» (60-2) exaudi Deus deprecationem meam intende orationi meae
@@ -1008,6 +1082,7 @@
 <sup>6</sup> (60-7) dies super dies regis adicies annos eius usque in diem generationis et generationis
 <sup>7</sup> (60-8) permanet in aeternum in conspectu Dei misericordiam et veritatem quis requiret eius
 <sup>8</sup> (60-9) sic psalmum dicam nomini tuo in saeculum saeculi ut reddam vota mea de die in diem
+
 ## Chapter 62
 
 <sup>1</sup> (61-1) «in finem pro Idithun psalmus David» (61-2) nonne Deo subiecta erit anima mea ab ipso enim salutare meum
@@ -1022,6 +1097,7 @@
 <sup>10</sup> (61-11) nolite sperare in iniquitate et rapinas nolite concupiscere divitiae si affluant nolite cor adponere
 <sup>11</sup> (61-12) semel locutus est Deus duo haec audivi quia potestas Dei
 <sup>12</sup> (61-13) et tibi Domine misericordia quia tu reddes unicuique iuxta opera sua
+
 ## Chapter 63
 
 <sup>1</sup> (62-1) «psalmus David cum esset in deserto Iudaeae» (62-2) Deus Deus meus ad te de luce vigilo sitivit in te anima mea quam multipliciter tibi caro mea
@@ -1035,6 +1111,7 @@
 <sup>9</sup> (62-10) ipsi vero in vanum quaesierunt animam meam introibunt in inferiora terrae
 <sup>10</sup> (62-11) tradentur in manus gladii partes vulpium erunt
 <sup>11</sup> (62-12) rex vero laetabitur in Deo laudabitur omnis qui iurat in eo quia obstructum est os loquentium iniqua
+
 ## Chapter 64
 
 <sup>1</sup> (63-1) «in finem psalmus David» (63-2) exaudi Deus orationem meam cum deprecor a timore inimici eripe animam meam
@@ -1047,6 +1124,7 @@
 <sup>8</sup> (63-9) et infirmatae sunt contra eos linguae eorum conturbati sunt omnes qui videbant eos
 <sup>9</sup> (63-10) et timuit omnis homo et adnuntiaverunt opera Dei et facta eius intellexerunt
 <sup>10</sup> (63-11) laetabitur iustus in Domino et sperabit in eo et laudabuntur omnes recti corde
+
 ## Chapter 65
 
 <sup>1</sup> (64-1) «in finem psalmus David canticum; Hieremiae et Aggei de verbo peregrinationis quando incipiebant proficisci» (64-2) te decet hymnus Deus in Sion et tibi reddetur votum in Hierusalem
@@ -1062,6 +1140,7 @@
 <sup>11</sup> (64-12) benedices coronae anni benignitatis tuae et campi tui replebuntur ubertate
 <sup>12</sup> (64-13) pinguescent speciosa deserti et exultatione colles accingentur
 <sup>13</sup> (64-14) induti sunt arietes ovium et valles abundabunt frumento clamabunt etenim hymnum dicent
+
 ## Chapter 66
 
 <sup>1</sup> (65-1) «in finem canticum psalmi resurrectionis» iubilate Deo omnis terra
@@ -1084,6 +1163,7 @@
 <sup>18</sup> (65-18) iniquitatem si aspexi in corde meo non exaudiat Dominus
 <sup>19</sup> (65-19) propterea exaudivit Deus adtendit voci deprecationis meae
 <sup>20</sup> (65-20) benedictus Deus qui non amovit orationem meam et misericordiam suam a me
+
 ## Chapter 67
 
 <sup>1</sup> (66-1) «in finem in hymnis psalmus cantici» (66-2) Deus misereatur nostri et benedicat nobis inluminet vultum suum super nos et misereatur nostri diapsalma
@@ -1093,6 +1173,7 @@
 <sup>5</sup> (66-6) confiteantur tibi populi Deus confiteantur tibi populi omnes
 <sup>6</sup> (66-7) terra dedit fructum suum benedicat nos Deus Deus noster
 <sup>7</sup> (66-8) benedicat nos Deus et metuant eum omnes fines terrae
+
 ## Chapter 68
 
 <sup>1</sup> (67-1) «in finem David psalmus cantici» (67-2) exsurgat Deus et dissipentur inimici eius et fugiant qui oderunt eum a facie eius
@@ -1130,6 +1211,7 @@
 <sup>33</sup> (67-34) qui ascendit super caelum caeli ad orientem ecce dabit voci suae vocem virtutis
 <sup>34</sup> (67-35) date gloriam Deo super Israhel magnificentia eius et virtus eius in nubibus
 <sup>35</sup> (67-36) mirabilis Deus in sanctis suis Deus Israhel ipse dabit virtutem et fortitudinem plebi suae benedictus Deus
+
 ## Chapter 69
 
 <sup>1</sup> (68-1) «in finem pro his qui commutabuntur David» (68-2) salvum me fac Deus quoniam intraverunt aquae usque ad animam meam
@@ -1168,6 +1250,7 @@
 <sup>34</sup> (68-35) laudent illum caeli et terra mare et omnia reptilia in eis
 <sup>35</sup> (68-36) quoniam Deus salvam faciet Sion et aedificabuntur civitates Iudaeae et inhabitabunt ibi et hereditate adquirent eam
 <sup>36</sup> (68-37) et semen servorum eius possidebunt eam et qui diligunt nomen eius habitabunt in ea
+
 ## Chapter 70
 
 <sup>1</sup> (69-1) «in finem David in rememoratione eo quod salvum me fecit Dominus» (69-2) Deus in adiutorium meum intende Domine ad adiuvandum me festina;
@@ -1175,6 +1258,7 @@
 <sup>3</sup> (69-4) avertantur retrorsum et erubescant qui volunt mihi mala avertantur statim erubescentes qui dicunt mihi; euge euge
 <sup>4</sup> (69-5) exultent et laetentur in te omnes qui quaerunt te et dicant semper magnificetur Deus qui diligunt salutare tuum
 <sup>5</sup> (69-6) ego vero egenus et pauper Deus adiuva me adiutor meus et liberator meus es tu Domine ne moreris
+
 ## Chapter 71
 
 <sup>1</sup> (70-1) David psalmus filiorum Ionadab et priorum captivorum in te Domine speravi non confundar in aeternum
@@ -1201,6 +1285,7 @@
 <sup>22</sup> (70-22) nam et ego confitebor tibi in vasis psalmi veritatem tuam Deus psallam tibi in cithara Sanctus Israhel
 <sup>23</sup> (70-23) exultabunt labia mea cum cantavero tibi et anima mea quam redemisti
 <sup>24</sup> (70-24) sed et lingua mea tota die meditabitur iustitiam tuam cum confusi et reveriti fuerint qui quaerunt mala mihi
+
 ## Chapter 72
 
 <sup>1</sup> (71-1) «in Salomonem» (71-2) Deus iudicium tuum regi da et iustitiam tuam filio regis
@@ -1223,6 +1308,7 @@
 <sup>18</sup> (71-18) benedictus Dominus Deus Deus Israhel qui facit mirabilia solus
 <sup>19</sup> (71-19) et benedictum nomen maiestatis eius in aeternum et replebitur maiestate eius omnis terra fiat fiat
 <sup>20</sup> (71-20) defecerunt laudes David filii Iesse
+
 ## Chapter 73
 
 <sup>1</sup> (72-1) «psalmus Asaph» quam bonus Israhel Deus his qui recto sunt corde
@@ -1253,6 +1339,7 @@
 <sup>26</sup> (72-26) defecit caro mea et cor meum Deus cordis mei et pars mea Deus in aeternum
 <sup>27</sup> (72-27) quia ecce qui elongant se a te peribunt perdidisti omnem qui fornicatur abs te
 <sup>28</sup> (72-28) mihi autem adherere Deo bonum est ponere in Domino Deo spem meam ut adnuntiem omnes praedicationes tuas in portis filiae Sion;
+
 ## Chapter 74
 
 <sup>1</sup> (73-1) «intellectus Asaph» ut quid Deus reppulisti in finem iratus est furor tuus super oves pascuae tuae
@@ -1278,6 +1365,7 @@
 <sup>21</sup> (73-21) ne avertatur humilis factus confusus pauper et inops laudabunt nomen tuum
 <sup>22</sup> (73-22) exsurge Deus iudica causam tuam memor esto inproperiorum tuorum eorum qui ab insipiente sunt tota die
 <sup>23</sup> (73-23) ne obliviscaris voces inimicorum tuorum superbia eorum qui te oderunt ascendit semper
+
 ## Chapter 75
 
 <sup>1</sup> (74-1) «in finem ne corrumpas psalmus Asaph cantici» (74-2) confitebimur tibi Deus confitebimur et invocabimus nomen tuum narrabimus mirabilia tua
@@ -1290,6 +1378,7 @@
 <sup>8</sup> (74-9) quia calix in manu Domini vini meri plenus mixto et inclinavit ex hoc in hoc verum fex eius non est exinanita bibent omnes peccatores terrae
 <sup>9</sup> (74-10) ego autem adnuntiabo in saeculum cantabo Deo Iacob
 <sup>10</sup> (74-11) et omnia cornua peccatorum confringam et exaltabuntur cornua iusti
+
 ## Chapter 76
 
 <sup>1</sup> (75-1) «in finem in laudibus psalmus Asaph canticum ad Assyrium» (75-2) notus in Iudaea Deus in Israhel magnum nomen eius
@@ -1304,6 +1393,7 @@
 <sup>10</sup> (75-11) quoniam cogitatio hominis confitebitur tibi et reliquiae cogitationis diem festum agent tibi
 <sup>11</sup> (75-12) vovete et reddite Domino Deo vestro omnes qui in circuitu eius adferent munera terribili
 <sup>12</sup> (75-13) et ei qui aufert spiritus principum terribili apud reges terrae
+
 ## Chapter 77
 
 <sup>1</sup> (76-1) «in finem pro Idithun psalmus Asaph» (76-2) voce mea ad Dominum clamavi voce mea ad Deum et intendit me
@@ -1326,6 +1416,7 @@
 <sup>18</sup> (76-19) vox tonitrui tui in rota inluxerunt coruscationes tuae orbi terrae commota est et contremuit terra
 <sup>19</sup> (76-20) in mari via tua et semitae tuae in aquis multis et vestigia tua non cognoscentur
 <sup>20</sup> (76-21) deduxisti sicut oves populum tuum in manu Mosi et Aaron
+
 ## Chapter 78
 
 <sup>1</sup> (77-1) «intellectus Asaph» adtendite populus meus legem meam inclinate aurem vestram in verba oris mei
@@ -1400,6 +1491,7 @@
 <sup>70</sup> (77-70) et elegit David servum suum et sustulit eum de gregibus ovium de post fetantes accepit eum
 <sup>71</sup> (77-71) pascere Iacob servum suum et Israhel hereditatem suam
 <sup>72</sup> (77-72) et pavit eos in innocentia cordis sui et in intellectibus manuum suarum deduxit eos
+
 ## Chapter 79
 
 <sup>1</sup> (78-1) «psalmus Asaph» Deus venerunt gentes in hereditatem tuam polluerunt templum sanctum tuum posuerunt Hierusalem in pomorum custodiam
@@ -1415,6 +1507,7 @@
 <sup>11</sup> (78-11) introeat in conspectu tuo gemitus conpeditorum secundum magnitudinem brachii tui posside filios mortificatorum
 <sup>12</sup> (78-12) et redde vicinis nostris septuplum in sinu eorum inproperium ipsorum quod exprobraverunt tibi Domine
 <sup>13</sup> (78-13) nos autem populus tuus et oves pascuae tuae confitebimur tibi in saeculum in generationem et generationem adnuntiabimus laudem tuam
+
 ## Chapter 80
 
 <sup>1</sup> (79-1) «in finem pro his qui commutabuntur testimonium Asaph psalmus» (79-2) qui regis Israhel intende qui deducis tamquam oves Ioseph qui sedes super cherubin manifestare
@@ -1436,6 +1529,7 @@
 <sup>17</sup> (79-18) fiat manus tua super virum dexterae tuae et super filium hominis quem confirmasti tibi
 <sup>18</sup> (79-19) et non discedimus a te vivificabis nos et nomen tuum invocabimus
 <sup>19</sup> (79-20) Domine Deus virtutum converte nos et ostende faciem tuam et salvi erimus
+
 ## Chapter 81
 
 <sup>1</sup> (80-1) «in finem pro torcularibus Asaph» (80-2) exultate Deo adiutori nostro iubilate Deo Iacob
@@ -1454,6 +1548,7 @@
 <sup>14</sup> (80-15) pro nihilo forsitan inimicos eorum humiliassem et super tribulantes eos misissem manum meam
 <sup>15</sup> (80-16) inimici Domini mentiti sunt ei et erit tempus eorum in saeculo
 <sup>16</sup> (80-17) et cibavit illos ex adipe frumenti et de petra melle saturavit illos
+
 ## Chapter 82
 
 <sup>1</sup> (81-1) «psalmus Asaph» Deus stetit in synagoga deorum in medio autem Deus deiudicat
@@ -1464,6 +1559,7 @@
 <sup>6</sup> (81-6) ego dixi dii estis et filii Excelsi omnes
 <sup>7</sup> (81-7) vos autem sicut homines moriemini et sicut unus de principibus cadetis
 <sup>8</sup> (81-8) surge Deus iudica terram quoniam tu hereditabis in omnibus gentibus
+
 ## Chapter 83
 
 <sup>1</sup> (82-1) «canticum psalmi Asaph» (82-2) Deus quis similis erit tibi ne taceas neque conpescaris Deus
@@ -1484,6 +1580,7 @@
 <sup>16</sup> (82-17) imple facies illorum ignominia et quaerent nomen tuum Domine
 <sup>17</sup> (82-18) erubescant et conturbentur in saeculum saeculi et confundantur et pereant
 <sup>18</sup> (82-19) et cognoscant quia nomen tibi Dominus tu solus Altissimus in omni terra
+
 ## Chapter 84
 
 <sup>1</sup> (83-1) «in finem pro torcularibus filiis Core psalmus» (83-2) quam dilecta tabernacula tua Domine virtutum
@@ -1498,6 +1595,7 @@
 <sup>10</sup> (83-11) quia melior est dies una in atriis tuis super milia elegi abiectus esse in domo Dei mei magis quam habitare in tabernaculis peccatorum
 <sup>11</sup> (83-12) quia misericordiam et veritatem diligit; Deus gratiam et gloriam dabit Dominus
 <sup>12</sup> (83-13) non privabit bonis eos qui ambulant in innocentia Domine virtutum beatus vir qui sperat in te
+
 ## Chapter 85
 
 <sup>1</sup> (84-1) «in finem filiis Core psalmus» (84-2) benedixisti Domine terram tuam avertisti captivitatem Iacob
@@ -1513,6 +1611,7 @@
 <sup>11</sup> (84-12) veritas de terra orta est et iustitia de caelo prospexit
 <sup>12</sup> (84-13) etenim Dominus dabit benignitatem et terra nostra dabit fructum suum
 <sup>13</sup> (84-14) iustitia ante eum ambulabit et ponet in via gressus suos
+
 ## Chapter 86
 
 <sup>1</sup> (85-1) «oratio ipsi David» inclina Domine aurem tuam et; exaudi me quoniam inops et pauper sum ego
@@ -1532,6 +1631,7 @@
 <sup>15</sup> (85-15) et tu Domine Deus miserator et misericors patiens et multae misericordiae et verax
 <sup>16</sup> (85-16) respice in me et miserere mei da imperium tuum puero tuo et salvum fac filium ancillae tuae
 <sup>17</sup> (85-17) fac mecum signum in bono et videant qui oderunt me et confundantur quoniam tu Domine adiuvasti me et consolatus es me
+
 ## Chapter 87
 
 <sup>1</sup> (86-1) «filiis Core psalmus cantici» fundamenta eius in montibus sanctis
@@ -1541,6 +1641,7 @@
 <sup>5</sup> (86-5) numquid Sion dicet homo et homo natus est in ea et ipse fundavit eam Altissimus
 <sup>6</sup> (86-6) Dominus narrabit in scriptura populorum et principum horum qui fuerunt in ea diapsalma
 <sup>7</sup> (86-7) sicut laetantium omnium habitatio in te
+
 ## Chapter 88
 
 <sup>1</sup> (87-1) «canticum psalmi filiis Core in finem pro Maeleth ad respondendum intellectus Eman Ezraitae» (87-2) Domine Deus salutis meae die clamavi et nocte coram te
@@ -1561,6 +1662,7 @@
 <sup>16</sup> (87-17) in me transierunt irae tuae et terrores tui conturbaverunt me
 <sup>17</sup> (87-18) circuierunt me sicut aqua tota die circumdederunt me simul
 <sup>18</sup> (87-19) elongasti a me amicum et proximum et notos meos a miseria
+
 ## Chapter 89
 
 <sup>1</sup> (88-1) «intellectus Aethan Ezraitae» (88-2) misericordias Domini in aeternum cantabo in generationem et generationem adnuntiabo veritatem tuam in ore meo
@@ -1615,6 +1717,7 @@
 <sup>50</sup> (88-51) memor esto Domine obprobrii servorum tuorum quod continui in sinu meo multarum gentium
 <sup>51</sup> (88-52) quod exprobraverunt inimici tui Domine quod exprobraverunt commutationem christi tui
 <sup>52</sup> (88-53) benedictus Dominus in aeternum fiat fiat
+
 ## Chapter 90
 
 <sup>1</sup> (89-1) «oratio Mosi hominis Dei» Domine refugium tu factus es nobis in generatione et generatione
@@ -1634,6 +1737,7 @@
 <sup>15</sup> (89-15) laetati sumus pro diebus quibus nos humiliasti annis quibus vidimus mala
 <sup>16</sup> (89-16) et respice in servos tuos et in opera tua et dirige filios eorum
 <sup>17</sup> (89-17) et sit splendor Domini Dei nostri super nos et opera manuum nostrarum dirige super nos et opus manuum nostrarum dirige;
+
 ## Chapter 91
 
 <sup>1</sup> (90-1) laus cantici David qui habitat in adiutorio Altissimi in protectione Dei caeli commorabitur
@@ -1652,6 +1756,7 @@
 <sup>14</sup> (90-14) quoniam in me speravit et liberabo eum protegam eum quia cognovit nomen meum
 <sup>15</sup> (90-15) clamabit ad me et exaudiam eum cum ipso sum in tribulatione eripiam eum et clarificabo eum
 <sup>16</sup> (90-16) longitudine dierum replebo eum et ostendam illi salutare meum
+
 ## Chapter 92
 
 <sup>1</sup> (91-1) «psalmus cantici in die sabbati» (91-2) bonum est confiteri Domino et psallere nomini tuo Altissime
@@ -1669,6 +1774,7 @@
 <sup>13</sup> (91-14) plantati in domo Domini in atriis Dei nostri florebunt
 <sup>14</sup> (91-15) adhuc multiplicabuntur in senecta uberi et bene patientes erunt
 <sup>15</sup> (91-16) ut adnuntient quoniam rectus Dominus Deus noster et non est iniquitas in eo
+
 ## Chapter 93
 
 <sup>1</sup> (92-1) laus cantici David in die ante sabbatum quando inhabitata est terra Dominus regnavit decore indutus est indutus est Dominus fortitudine et praecinxit se etenim firmavit orbem terrae qui non commovebitur
@@ -1676,6 +1782,7 @@
 <sup>3</sup> (92-3) elevaverunt flumina Domine elevaverunt flumina vocem suam elevabunt flumina fluctus suos;
 <sup>4</sup> (92-4) a vocibus aquarum multarum mirabiles elationes maris mirabilis in altis Dominus
 <sup>5</sup> (92-5) testimonia tua credibilia facta sunt nimis domum tuam decet sanctitudo Domine in longitudine dierum
+
 ## Chapter 94
 
 <sup>1</sup> (93-1) psalmus David quarta sabbati Deus ultionum Dominus Deus ultionum libere egit
@@ -1701,6 +1808,7 @@
 <sup>21</sup> (93-21) captabunt in animam iusti et sanguinem innocentem condemnabunt
 <sup>22</sup> (93-22) et factus est Dominus mihi in refugium et Deus meus in adiutorem spei meae
 <sup>23</sup> (93-23) et reddet illis iniquitatem ipsorum et in malitia eorum disperdet eos disperdet illos Dominus Deus noster
+
 ## Chapter 95
 
 <sup>1</sup> (94-1) «laus cantici David» venite exultemus Domino iubilemus Deo salutari nostro
@@ -1714,6 +1822,7 @@
 <sup>9</sup> (94-9) sicut in inritatione secundum diem temptationis in deserto ubi temptaverunt me patres vestri probaverunt me; et viderunt opera mea
 <sup>10</sup> (94-10) quadraginta annis offensus fui generationi illi et dixi semper errant corde et isti non cognoverunt vias meas
 <sup>11</sup> (94-10) ut iuravi in ira mea si intrabunt in requiem meam
+
 ## Chapter 96
 
 <sup>1</sup> (95-1) quando domus aedificabatur post captivitatem canticum huic David cantate Domino canticum novum cantate Domino omnis terra
@@ -1729,6 +1838,7 @@
 <sup>11</sup> (95-11) laetentur caeli et exultet terra commoveatur mare et plenitudo eius
 <sup>12</sup> (95-12) gaudebunt campi et omnia quae in eis sunt tunc exultabunt omnia ligna silvarum
 <sup>13</sup> (95-13) a facie Domini quia venit quoniam venit iudicare terram iudicabit orbem terrae in aequitate et populos in veritate sua
+
 ## Chapter 97
 
 <sup>1</sup> (96-1) «huic David quando terra eius restituta est» Dominus regnavit exultet terra laetentur insulae multae
@@ -1743,6 +1853,7 @@
 <sup>10</sup> (96-10) qui diligitis Dominum odite malum custodit animas sanctorum suorum de manu peccatoris liberabit eos
 <sup>11</sup> (96-11) lux orta est iusto et rectis corde laetitia
 <sup>12</sup> (96-12) laetamini iusti in Domino et confitemini memoriae sanctificationis eius
+
 ## Chapter 98
 
 <sup>1</sup> (97-1) «psalmus David» cantate Domino canticum novum quoniam mirabilia fecit salvavit sibi dextera eius et brachium sanctum eius
@@ -1754,6 +1865,7 @@
 <sup>7</sup> (97-7) moveatur mare et plenitudo eius orbis terrarum et qui habitant in eo
 <sup>8</sup> (97-8) flumina plaudent manu simul montes exultabunt
 <sup>9</sup> (97-9) a conspectu Domini quoniam venit iudicare terram iudicabit orbem terrarum in iustitia et populos in aequitate
+
 ## Chapter 99
 
 <sup>1</sup> (98-1) «psalmus David» Dominus regnavit irascantur populi qui sedet super cherubin moveatur terra
@@ -1765,6 +1877,7 @@
 <sup>7</sup> (98-7) in columna nubis loquebatur ad eos custodiebant testimonia eius et praeceptum quod dedit illis
 <sup>8</sup> (98-8) Domine Deus noster tu exaudiebas illos Deus tu propitius fuisti eis et ulciscens in omnes adinventiones eorum
 <sup>9</sup> (98-9) exaltate Dominum Deum nostrum et adorate in monte sancto eius quoniam sanctus Dominus Deus noster
+
 ## Chapter 100
 
 <sup>1</sup> (99-1) «psalmus in confessione» (99-1) iubilate Domino omnis terra
@@ -1772,6 +1885,7 @@
 <sup>3</sup> (99-3) scitote quoniam Dominus ipse est Deus ipse fecit nos et non ipsi nos populus eius et oves pascuae eius
 <sup>4</sup> (99-4) introite portas eius in confessione atria eius in hymnis confitemini illi laudate nomen eius
 <sup>5</sup> (99-5) quoniam suavis Dominus in aeternum misericordia eius et usque in generationem et generationem veritas eius
+
 ## Chapter 101
 
 <sup>1</sup> (100-1) «David psalmus» misericordiam et iudicium cantabo tibi Domine psallam
@@ -1782,6 +1896,7 @@
 <sup>6</sup> (100-6) oculi mei ad fideles terrae ut sederent mecum ambulans in via inmaculata hic mihi ministrabat
 <sup>7</sup> (100-7) non habitabat in medio domus meae qui facit superbiam qui loquitur iniqua non direxit in conspectu oculorum meorum
 <sup>8</sup> (100-8) in matutino interficiebam omnes peccatores terrae ut disperderem de civitate Domini omnes operantes iniquitatem
+
 ## Chapter 102
 
 <sup>1</sup> (101-1) «oratio pauperis cum anxius fuerit et coram Domino effuderit precem suam» (101-2) Domine exaudi orationem meam et clamor meus ad te veniat
@@ -1812,6 +1927,7 @@
 <sup>26</sup> (101-27) ipsi peribunt tu autem permanes et omnes sicut vestimentum veterescent et sicut opertorium mutabis eos et mutabuntur
 <sup>27</sup> (101-28) tu autem idem ipse es et anni tui non deficient
 <sup>28</sup> (101-29) filii servorum tuorum habitabunt et semen eorum in saeculum dirigetur
+
 ## Chapter 103
 
 <sup>1</sup> (102-1) «ipsi David» benedic anima mea Domino et omnia quae intra me sunt nomini sancto eius
@@ -1836,6 +1952,7 @@
 <sup>20</sup> (102-20) benedicite Domino angeli eius potentes virtute facientes verbum illius ad audiendam vocem sermonum eius
 <sup>21</sup> (102-21) benedicite Domino omnes virtutes eius ministri eius qui facitis voluntatem eius
 <sup>22</sup> (102-22) benedicite Domino omnia opera eius in omni loco dominationis ipsius benedic anima mea Domino
+
 ## Chapter 104
 
 <sup>1</sup> (103-1) «ipsi David» benedic anima mea Domino Domine Deus meus magnificatus es vehementer confessionem et decorem induisti
@@ -1873,6 +1990,7 @@
 <sup>33</sup> (103-33) cantabo Domino in vita mea psallam Deo meo quamdiu sum
 <sup>34</sup> (103-34) iucundum sit ei eloquium meum ego vero delectabor in Domino
 <sup>35</sup> (103-35) deficiant peccatores a terra et iniqui ita ut non sint benedic anima mea Domino
+
 ## Chapter 105
 
 <sup>1</sup> (104-1) «alleluia» confitemini Domino et invocate nomen eius adnuntiate inter gentes opera eius
@@ -1920,6 +2038,7 @@
 <sup>43</sup> (104-43) et eduxit populum suum in exultatione et; electos suos in laetitia
 <sup>44</sup> (104-44) et dedit illis regiones gentium et labores populorum possederunt
 <sup>45</sup> (104-45) ut custodiant iustificationes eius et legem eius requirant
+
 ## Chapter 106
 
 <sup>1</sup> (105-1) «alleluia» confitemini Domino quoniam bonus quoniam in saeculum misericordia eius
@@ -1970,6 +2089,7 @@
 <sup>46</sup> (105-46) et dedit eos in misericordias in conspectu omnium qui ceperant eos
 <sup>47</sup> (105-47) salvos fac nos Domine Deus noster et congrega nos de nationibus ut confiteamur nomini tuo sancto et gloriemur in laude tua
 <sup>48</sup> (105-48) benedictus Dominus Deus Israhel a saeculo et usque in saeculum et dicet omnis populus fiat fiat
+
 ## Chapter 107
 
 <sup>1</sup> (106-1) «alleluia» confitemini Domino quoniam bonus quoniam in saeculum misericordia eius
@@ -2015,6 +2135,7 @@
 <sup>41</sup> (106-41) et adiuvit pauperem de inopia et posuit sicut oves familias
 <sup>42</sup> (106-42) videbunt recti et laetabuntur et omnis iniquitas oppilabit os suum
 <sup>43</sup> (106-43) quis sapiens et custodiet haec et intellegent misericordias Domini
+
 ## Chapter 108
 
 <sup>1</sup> (107-1) «canticum psalmi David» (107-2) paratum cor meum Deus paratum cor meum cantabo et psallam in gloria mea
@@ -2030,6 +2151,7 @@
 <sup>11</sup> (107-12) nonne tu Deus qui reppulisti nos et non exibis Deus in virtutibus nostris
 <sup>12</sup> (107-13) da nobis auxilium de tribulatione quia vana salus hominis
 <sup>13</sup> (107-14) in Deo faciemus virtutem et ipse ad nihilum deducet inimicos nostros
+
 ## Chapter 109
 
 <sup>1</sup> (108-1) «in finem David psalmus» (108-2) Deus laudem meam ne tacueris quia os peccatoris et os dolosi super me apertum est
@@ -2063,6 +2185,7 @@
 <sup>29</sup> (108-29) induantur qui detrahunt mihi pudore et operiantur sicut deploide confusione sua
 <sup>30</sup> (108-30) confitebor Domino nimis in ore meo et in medio multorum laudabo eum
 <sup>31</sup> (108-31) quia adstetit a dextris pauperis ut salvam faceret a persequentibus animam meam
+
 ## Chapter 110
 
 <sup>1</sup> (109-1) «David psalmus» dixit Dominus Domino meo sede a dextris meis donec ponam inimicos tuos scabillum pedum tuorum
@@ -2072,6 +2195,7 @@
 <sup>5</sup> (109-5) Dominus a dextris tuis confregit in die irae suae reges
 <sup>6</sup> (109-6) iudicabit in nationibus implebit cadavera conquassabit capita in terra multorum
 <sup>7</sup> (109-7) de torrente in via bibet propterea exaltabit caput
+
 ## Chapter 111
 
 <sup>1</sup> (110-1) «alleluia» reversionis Aggei et Zacchariae confitebor tibi Domine in toto corde meo in consilio iustorum et congregatione
@@ -2084,6 +2208,7 @@
 <sup>8</sup> (110-8) fidelia omnia mandata eius confirmata in saeculum saeculi facta in veritate et aequitate
 <sup>9</sup> (110-9) redemptionem misit populo suo mandavit in aeternum testamentum suum sanctum et terribile nomen eius
 <sup>10</sup> (110-10) initium sapientiae timor Domini intellectus bonus omnibus facientibus eum laudatio eius manet in saeculum saeculi;
+
 ## Chapter 112
 
 <sup>1</sup> (111-1) «alleluia reversionis Aggei et Zacchariae» beatus vir qui timet Dominum in mandatis eius volet nimis
@@ -2096,6 +2221,7 @@
 <sup>8</sup> (111-8) confirmatum est cor eius non commovebitur donec dispiciat inimicos suos
 <sup>9</sup> (111-9) dispersit dedit pauperibus iustitia eius manet in saeculum saeculi cornu eius exaltabitur in gloria
 <sup>10</sup> (111-10) peccator videbit et irascetur dentibus suis fremet et tabescet desiderium peccatorum peribit
+
 ## Chapter 113
 
 <sup>1</sup> (112-1) «alleluia» laudate pueri Dominum laudate nomen Domini
@@ -2107,6 +2233,7 @@
 <sup>7</sup> (112-7) suscitans a terra inopem et de stercore erigens pauperem
 <sup>8</sup> (112-8) ut conlocet eum cum principibus cum principibus populi sui
 <sup>9</sup> (112-9) qui habitare facit sterilem in domo matrem filiorum laetantem
+
 ## Chapter 114
 
 <sup>1</sup> (113-1) «alleluia» in exitu Israhel de Aegypto domus Iacob de populo barbaro
@@ -2117,6 +2244,7 @@
 <sup>6</sup> (113-6) montes exultastis sicut arietes et colles sicut agni ovium
 <sup>7</sup> (113-7) a facie Domini mota est terra a facie Dei Iacob
 <sup>8</sup> (113-8) qui convertit petram in stagna aquarum et rupem in fontes aquarum
+
 ## Chapter 115
 
 <sup>1</sup> (113-9) non nobis Domine non nobis sed nomini tuo da gloriam
@@ -2137,6 +2265,7 @@
 <sup>16</sup> (113-24) caelum caeli Domino terram autem dedit filiis hominum
 <sup>17</sup> (113-25) non mortui laudabunt te Domine neque omnes qui descendunt in infernum
 <sup>18</sup> (113-26) sed nos qui vivimus benedicimus Domino ex hoc nunc et usque in saeculum
+
 ## Chapter 116
 
 <sup>1</sup> (114-1) «alleluia» dilexi quoniam exaudiet Dominus vocem orationis meae
@@ -2158,10 +2287,12 @@
 <sup>17</sup> (115-17) tibi sacrificabo hostiam laudis et in nomine Domini invocabo
 <sup>18</sup> (115-18) vota mea Domino reddam in conspectu omnis populi eius
 <sup>19</sup> (115-19) in atriis domus Domini in medio tui Hierusalem
+
 ## Chapter 117
 
 <sup>1</sup> (116-1) alleluia laudate Dominum omnes gentes laudate eum omnes populi
 <sup>2</sup> (116-2) quoniam confirmata est super nos misericordia eius et veritas Domini manet in saeculum
+
 ## Chapter 118
 
 <sup>1</sup> (117-1) alleluia confitemini Domino quoniam bonus quoniam in saeculum misericordia eius
@@ -2193,6 +2324,7 @@
 <sup>27</sup> (117-27) Deus Dominus et inluxit nobis constituite diem sollemnem in condensis usque ad cornua altaris
 <sup>28</sup> (117-28) Deus meus es tu et confitebor tibi Deus meus es tu; et exaltabo te confitebor tibi quoniam exaudisti me et factus es mihi in salutem
 <sup>29</sup> (117-29) confitemini Domino quoniam bonus quoniam in saeculum misericordia eius
+
 ## Chapter 119
 
 <sup>1</sup> (118-1) «alleluia» «aleph» beati inmaculati in via qui ambulant in lege Domini
@@ -2371,6 +2503,7 @@
 <sup>174</sup> (118-174) concupivi salutare tuum Domine et lex tua meditatio mea
 <sup>175</sup> (118-175) vivet anima mea et laudabit te et iudicia tua adiuvabunt me
 <sup>176</sup> (118-176) erravi sicut ovis quae periit quaere servum tuum quia mandata tua non sum oblitus
+
 ## Chapter 120
 
 <sup>1</sup> (119-1) «canticum graduum» ad Dominum cum tribularer clamavi et exaudivit me
@@ -2380,6 +2513,7 @@
 <sup>5</sup> (119-5) heu mihi quia incolatus meus prolongatus est habitavi cum habitationibus Cedar
 <sup>6</sup> (119-6) multum incola fuit anima mea
 <sup>7</sup> (119-7) cum his qui oderant pacem eram pacificus cum loquebar illis inpugnabant me gratis
+
 ## Chapter 121
 
 <sup>1</sup> (120-1) «canticum graduum» levavi oculos meos in montes unde veniet auxilium mihi
@@ -2390,6 +2524,7 @@
 <sup>6</sup> (120-6) per diem sol non uret te neque luna per noctem
 <sup>7</sup> (120-7) Dominus custodit te ab omni malo custodiat animam tuam Dominus
 <sup>8</sup> (120-8) Dominus custodiat introitum tuum et exitum tuum ex hoc nunc et usque in saeculum
+
 ## Chapter 122
 
 <sup>1</sup> (121-1) «canticum graduum huic David» laetatus sum in his quae dicta sunt mihi in domum Domini ibimus
@@ -2401,12 +2536,14 @@
 <sup>7</sup> (121-7) fiat pax in virtute tua et abundantia in turribus tuis
 <sup>8</sup> (121-8) propter fratres meos et proximos meos loquebar pacem de te
 <sup>9</sup> (121-9) propter domum Domini Dei nostri quaesivi bona tibi
+
 ## Chapter 123
 
 <sup>1</sup> (122-1) «canticum graduum» ad te levavi oculos meos qui habitas in caelo
 <sup>2</sup> (122-2) ecce sicut oculi servorum in manibus dominorum suorum sicut oculi ancillae in manibus dominae eius ita oculi nostri ad Dominum Deum nostrum donec misereatur nostri
 <sup>3</sup> (122-3) miserere nostri Domine miserere nostri quia multum repleti sumus despectione
 <sup>4</sup> (122-4) quia multum repleta est anima nostra obprobrium abundantibus et despectio superbis
+
 ## Chapter 124
 
 <sup>1</sup> (123-1) «canticum graduum huic David» nisi quia Dominus erat in nobis dicat nunc Israhel
@@ -2417,6 +2554,7 @@
 <sup>6</sup> (123-6) benedictus Dominus qui non dedit nos in captionem dentibus eorum
 <sup>7</sup> (123-7) anima nostra sicut passer erepta est de laqueo venantium laqueus contritus est et nos liberati sumus
 <sup>8</sup> (123-8) adiutorium nostrum in nomine Domini qui fecit caelum et terram
+
 ## Chapter 125
 
 <sup>1</sup> (124-1) «canticum graduum» qui confidunt in Domino sicut mons Sion non commovebitur in aeternum qui habitat
@@ -2424,6 +2562,7 @@
 <sup>3</sup> (124-3) quia non relinquet virgam peccatorum super sortem iustorum ut non extendant iusti ad iniquitatem manus suas
 <sup>4</sup> (124-4) benefac Domine bonis et rectis corde
 <sup>5</sup> (124-5) declinantes autem in obligationes adducet Dominus cum operantibus iniquitatem pax super Israhel
+
 ## Chapter 126
 
 <sup>1</sup> (125-1) «canticum graduum» in convertendo Dominum captivitatem Sion facti sumus sicut consolati
@@ -2432,6 +2571,7 @@
 <sup>4</sup> (125-4) converte Domine captivitatem nostram sicut torrens in austro
 <sup>5</sup> (125-5) qui seminant in lacrimis in exultatione metent
 <sup>6</sup> (125-6) euntes ibant et flebant portantes semina sua venientes autem venient in exultatione portantes manipulos suos
+
 ## Chapter 127
 
 <sup>1</sup> (126-1) «canticum graduum Salomonis» nisi Dominus aedificaverit domum in vanum laboraverunt qui aedificant eam nisi Dominus custodierit civitatem frustra vigilavit qui custodit
@@ -2439,6 +2579,7 @@
 <sup>3</sup> (126-3) ecce hereditas Domini filii mercis fructus ventris
 <sup>4</sup> (126-4) sicut sagittae in manu potentis ita filii excussorum
 <sup>5</sup> (126-5) beatus vir qui implebit desiderium suum ex ipsis non confundentur cum loquentur inimicis suis in porta
+
 ## Chapter 128
 
 <sup>1</sup> (127-1) «canticum graduum» beati omnes qui timent Dominum qui ambulant in viis eius
@@ -2447,6 +2588,7 @@
 <sup>4</sup> (127-4) ecce sic benedicetur homo qui timet Dominum
 <sup>5</sup> (127-5) benedicat te Dominus ex Sion et videas bona Hierusalem omnibus diebus vitae tuae
 <sup>6</sup> (127-6) et videas filios filiorum tuorum pax super Israhel
+
 ## Chapter 129
 
 <sup>1</sup> (128-1) «canticum graduum» saepe expugnaverunt me a iuventute mea dicat nunc Israhel
@@ -2457,6 +2599,7 @@
 <sup>6</sup> (128-6) fiant sicut faenum tectorum quod priusquam evellatur exaruit
 <sup>7</sup> (128-7) de quo non implevit manum suam qui metit et sinum suum qui manipulos colligit
 <sup>8</sup> (128-8) et non dixerunt qui praeteribant benedictio Domini super vos benediximus vobis in nomine Domini
+
 ## Chapter 130
 
 <sup>1</sup> (129-1) «canticum graduum» de profundis clamavi ad te Domine
@@ -2467,11 +2610,13 @@
 <sup>6</sup> (129-6) a custodia matutina usque ad noctem speret Israhel in Domino
 <sup>7</sup> (129-7) quia apud Dominum misericordia et copiosa apud eum redemptio
 <sup>8</sup> (129-8) et ipse redimet Israhel ex omnibus iniquitatibus eius
+
 ## Chapter 131
 
 <sup>1</sup> (130-1) «canticum graduum David» Domine non est exaltatum cor meum neque elati sunt oculi mei neque ambulavi in magnis neque in mirabilibus super me
 <sup>2</sup> (130-2) si non humiliter sentiebam sed exaltavi animam meam sicut ablactatum super matrem suam ita retributio in anima mea
 <sup>3</sup> (130-3) speret Israhel in Domino ex hoc nunc et usque in saeculum
+
 ## Chapter 132
 
 <sup>1</sup> (131-1) canticum graduum memento Domine David et omnis mansuetudinis eius
@@ -2492,16 +2637,19 @@
 <sup>16</sup> (131-16) sacerdotes eius induam salutari et sancti eius exultatione exultabunt
 <sup>17</sup> (131-17) illic producam cornu David paravi lucernam christo meo
 <sup>18</sup> (131-18) inimicos eius induam confusione super ipsum autem efflorebit sanctificatio mea
+
 ## Chapter 133
 
 <sup>1</sup> (132-1) «canticum graduum David» ecce quam bonum et quam iucundum habitare fratres in unum
 <sup>2</sup> (132-2) sicut unguentum in capite quod descendit in barbam barbam Aaron quod descendit in ora vestimenti eius
 <sup>3</sup> (132-3) sicut ros Hermon qui descendit in montes Sion quoniam illic mandavit Dominus benedictionem et vitam usque in saeculum
+
 ## Chapter 134
 
 <sup>1</sup> (133-1) «canticum graduum» ecce nunc benedicite Dominum omnes servi Domini qui statis in domo Domini in atriis domus Dei nostri;
 <sup>2</sup> (133-2) in noctibus extollite manus vestras in sancta et benedicite Domino
 <sup>3</sup> (133-3) benedicat te Dominus ex Sion qui fecit caelum et terram
+
 ## Chapter 135
 
 <sup>1</sup> (134-1) «alleluia» laudate nomen Domini laudate servi Dominum
@@ -2525,6 +2673,7 @@
 <sup>19</sup> (134-19) domus Israhel benedicite Domino domus Aaron benedicite Domino
 <sup>20</sup> (134-20) domus Levi benedicite Domino qui timetis Dominum benedicite Domino
 <sup>21</sup> (134-21) benedictus Dominus ex Sion qui habitat in Hierusalem
+
 ## Chapter 136
 
 <sup>1</sup> (135-1) «alleluia» confitemini Domino quoniam bonus quoniam in aeternum misericordia eius
@@ -2553,6 +2702,7 @@
 <sup>24</sup> (135-24) et redemit nos ab inimicis nostris quoniam in aeternum misericordia eius
 <sup>25</sup> (135-25) qui dat escam omni carni quoniam in aeternum misericordia eius
 <sup>26</sup> (135-26) confitemini Deo caeli quoniam in aeternum misericordia eius confitemini Domino dominorum quoniam in aeternum misericordia eius
+
 ## Chapter 137
 
 <sup>1</sup> (136-1) «David Hieremiae» super flumina Babylonis illic sedimus et flevimus cum recordaremur Sion
@@ -2564,6 +2714,7 @@
 <sup>7</sup> (136-7) memor esto Domine filiorum Edom diem Hierusalem qui dicunt exinanite exinanite usque ad fundamentum in ea
 <sup>8</sup> (136-8) filia Babylonis misera beatus qui retribuet tibi retributionem tuam quam retribuisti nobis
 <sup>9</sup> (136-9) beatus qui tenebit et adlidet parvulos tuos ad petram
+
 ## Chapter 138
 
 <sup>1</sup> (137-1) «ipsi David» confitebor tibi Domine in toto corde meo quoniam audisti verba oris mei in conspectu angelorum psallam tibi
@@ -2574,6 +2725,7 @@
 <sup>6</sup> (137-6) quoniam excelsus Dominus et humilia respicit et alta a longe cognoscit
 <sup>7</sup> (137-7) si ambulavero in medio tribulationis vivificabis me super iram inimicorum meorum extendisti manum tuam et salvum me fecit dextera tua
 <sup>8</sup> (137-8) Dominus retribuet propter me Domine misericordia tua in saeculum opera manuum tuarum ne dispicias
+
 ## Chapter 139
 
 <sup>1</sup> (138-1) «in finem David psalmus» (138-2) Domine probasti me et cognovisti
@@ -2600,6 +2752,7 @@
 <sup>22</sup> (138-22) perfecto odio oderam illos inimici facti sunt mihi
 <sup>23</sup> (138-23) proba me Deus et scito cor meum interroga me et cognosce semitas meas
 <sup>24</sup> (138-24) et vide si via iniquitatis in me est et deduc me in via aeterna
+
 ## Chapter 140
 
 <sup>1</sup> (139-1) «in finem psalmus David» (139-2) eripe me Domine ab homine malo a viro iniquo eripe me
@@ -2615,6 +2768,7 @@
 <sup>11</sup> (139-12) vir linguosus non dirigetur in terra virum iniustum mala capient in interitu
 <sup>12</sup> (139-13) cognovi quia faciet Dominus iudicium inopis et vindictam pauperum
 <sup>13</sup> (139-14) verumtamen iusti confitebuntur nomini tuo habitabunt recti cum vultu tuo
+
 ## Chapter 141
 
 <sup>1</sup> (140-1) «psalmus David» Domine clamavi ad te exaudi me intende voci meae cum clamavero ad te
@@ -2627,6 +2781,7 @@
 <sup>8</sup> (140-8) quia ad te Domine Domine oculi mei in te speravi non auferas animam meam
 <sup>9</sup> (140-9) custodi me a laqueo quem statuerunt mihi et ab scandalis operantium iniquitatem
 <sup>10</sup> (140-10) cadent in retiaculo eius peccatores singulariter sum ego donec transeam
+
 ## Chapter 142
 
 <sup>1</sup> (141-1) «intellectus David cum esset in spelunca oratio» (141-2) voce mea ad Dominum clamavi voce mea ad Dominum deprecatus sum
@@ -2636,6 +2791,7 @@
 <sup>5</sup> (141-6) clamavi ad te Domine dixi tu es spes mea portio mea in terra viventium
 <sup>6</sup> (141-7) intende ad deprecationem meam quia humiliatus sum nimis libera me a persequentibus me quia confortati sunt super me
 <sup>7</sup> (141-8) educ de custodia animam meam ad confitendum nomini tuo me expectant iusti donec retribuas mihi
+
 ## Chapter 143
 
 <sup>1</sup> (142-1) «psalmus David» quando filius eum persequebatur Domine exaudi orationem meam auribus percipe obsecrationem meam in veritate tua exaudi me in tua iustitia
@@ -2650,6 +2806,7 @@
 <sup>10</sup> (142-10) doce me facere voluntatem tuam quia Deus meus es tu spiritus tuus bonus deducet me in terra recta
 <sup>11</sup> (142-11) propter nomen tuum Domine vivificabis me in aequitate tua educes de tribulatione animam meam
 <sup>12</sup> (142-12) et in misericordia tua disperdes inimicos meos et perdes omnes qui tribulant animam meam quoniam ego servus tuus sum
+
 ## Chapter 144
 
 <sup>1</sup> (143-1) «David adversus Goliad» benedictus Dominus Deus meus qui docet manus meas ad proelium digitos meos ad bellum
@@ -2667,6 +2824,7 @@
 <sup>13</sup> (143-13) promptuaria eorum plena eructantia ex hoc in illud oves eorum fetosae abundantes in egressibus suis
 <sup>14</sup> (143-14) boves eorum crassi non est ruina maceriae neque transitus neque clamor in plateis eorum
 <sup>15</sup> (143-15) beatum dixerunt populum cui haec sunt beatus populus cuius Dominus Deus eius
+
 ## Chapter 145
 
 <sup>1</sup> (144-1) «laudatio David» exaltabo te Deus meus rex et benedicam nomini tuo in saeculum et in saeculum saeculi
@@ -2690,6 +2848,7 @@
 <sup>19</sup> (144-19) voluntatem timentium se faciet et deprecationem eorum exaudiet et salvos faciet eos
 <sup>20</sup> (144-20) custodit Dominus omnes diligentes se et omnes peccatores disperdet
 <sup>21</sup> (144-21) laudationem Domini loquetur os meum et benedicat omnis caro nomini sancto eius in saeculum et in saeculum saeculi
+
 ## Chapter 146
 
 <sup>1</sup> (145-1) «alleluia Aggei et Zacchariae» (145-2) lauda anima mea Dominum
@@ -2702,6 +2861,7 @@
 <sup>8</sup> (145-8) Dominus inluminat caecos Dominus erigit adlisos Dominus diligit iustos
 <sup>9</sup> (145-9) Dominus custodit advenas pupillum et viduam suscipiet et viam peccatorum disperdet
 <sup>10</sup> (145-10) regnabit Dominus in saecula Deus tuus Sion in generationem et generationem
+
 ## Chapter 147
 
 <sup>1</sup> (146-1) «alleluia Aggei et Zacchariae» laudate Dominum quoniam bonum psalmus Deo nostro sit iucunda decoraque; laudatio
@@ -2715,7 +2875,7 @@
 <sup>9</sup> (146-9) et dat iumentis escam ipsorum et pullis corvorum invocantibus eum
 <sup>10</sup> (146-10) non in fortitudine equi voluntatem habebit nec in tibiis viri beneplacitum erit ei
 <sup>11</sup> (146-11) beneplacitum est Domino super timentes eum et in eis qui sperant super misericordia eius
-<sup>12</sup> «alleluia» lauda Hierusalem Dominum lauda Deum tuum Sion
+<sup>12</sup> > _alleluia_lauda Hierusalem Dominum lauda Deum tuum Sion
 <sup>13</sup> quoniam confortavit seras portarum tuarum benedixit filiis tuis in te
 <sup>14</sup> qui posuit fines tuos pacem et adipe frumenti satiat te
 <sup>15</sup> qui emittit eloquium suum terrae velociter currit sermo eius
@@ -2724,9 +2884,12 @@
 <sup>18</sup> emittet verbum suum et liquefaciet ea flabit spiritus eius et fluent aquae
 <sup>19</sup> qui adnuntiat verbum suum Iacob iustitias et iudicia sua Israhel
 <sup>20</sup> non fecit taliter omni nationi et iudicia sua non manifestavit eis
+
 ## Chapter 148
 
-<sup>1</sup> «alleluia» laudate Dominum de caelis laudate eum in excelsis
+> _alleluia_
+
+<sup>1</sup> laudate Dominum de caelis laudate eum in excelsis
 <sup>2</sup> laudate eum omnes angeli eius laudate eum omnes virtutes eius
 <sup>3</sup> laudate eum sol et luna laudate eum omnes stellae et lumen
 <sup>4</sup> laudate eum caeli caelorum et aqua quae super caelum est
@@ -2740,9 +2903,12 @@
 <sup>12</sup> iuvenes et virgines senes cum iunioribus laudent nomen Domini
 <sup>13</sup> quia exaltatum est nomen eius solius
 <sup>14</sup> confessio eius super caelum et terram et exaltabit cornu populi sui hymnus omnibus sanctis eius filiis Israhel populo adpropinquanti sibi
+
 ## Chapter 149
 
-<sup>1</sup> «alleluia» cantate Domino canticum novum laus eius in ecclesia sanctorum
+> _alleluia_
+
+<sup>1</sup> cantate Domino canticum novum laus eius in ecclesia sanctorum
 <sup>2</sup> laetetur Israhel in eo qui fecit eum et filii Sion exultent in rege suo
 <sup>3</sup> laudent nomen eius in choro in tympano et psalterio psallant ei
 <sup>4</sup> quia beneplacitum est Domino in populo suo et exaltabit mansuetos in salute
@@ -2751,9 +2917,12 @@
 <sup>7</sup> ad faciendam vindictam in nationibus increpationes in populis
 <sup>8</sup> ad alligandos reges eorum in conpedibus et nobiles eorum in manicis ferreis
 <sup>9</sup> ut faciant in eis iudicium conscriptum gloria haec est omnibus sanctis eius
+
 ## Chapter 150
 
-<sup>1</sup> «alleluia» laudate Dominum in sanctis eius laudate eum in firmamento virtutis eius
+> _alleluia_
+
+<sup>1</sup> laudate Dominum in sanctis eius laudate eum in firmamento virtutis eius
 <sup>2</sup> laudate eum in virtutibus eius laudate eum secundum multitudinem magnitudinis eius
 <sup>3</sup> laudate eum in sono tubae laudate eum in psalterio et cithara
 <sup>4</sup> laudate eum in tympano et choro laudate eum in cordis et organo

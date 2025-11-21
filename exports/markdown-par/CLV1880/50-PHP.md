@@ -30,6 +30,7 @@
 <sup>28</sup> et in nullo terreamini ab adversariis quae est illis causa perditionis vobis autem salutis et hoc a Deo
 <sup>29</sup> quia vobis donatum est pro Christo non solum ut in eum credatis sed ut etiam pro illo patiamini
 <sup>30</sup> eundem certamen habentes qualem et vidistis in me et nunc audistis de me
+
 ## Chapter 2
 
 <sup>1</sup> si qua ergo consolatio in Christo si quod solacium caritatis si qua societas spiritus si quid viscera et miserationes
@@ -62,6 +63,7 @@
 <sup>28</sup> festinantius ergo misi illum ut viso eo iterum gaudeatis et ego sine tristitia sim
 <sup>29</sup> excipite itaque illum cum omni gaudio in Domino et eiusmodi cum honore habetote
 <sup>30</sup> quoniam propter opus Christi usque ad mortem accessit tradens animam suam ut impleret id quod ex vobis deerat erga meum obsequium
+
 ## Chapter 3
 
 <sup>1</sup> de cetero fratres mei gaudete in Domino eadem vobis scribere mihi quidem non pigrum vobis autem necessarium
@@ -85,6 +87,7 @@
 <sup>19</sup> quorum finis interitus quorum deus venter et gloria in confusione ipsorum qui terrena sapiunt
 <sup>20</sup> nostra autem conversatio in caelis est unde etiam salvatorem expectamus Dominum Iesum Christum
 <sup>21</sup> qui reformabit corpus humilitatis nostrae configuratum corpori claritatis suae secundum operationem qua possit etiam subicere sibi omnia
+
 ## Chapter 4
 
 <sup>1</sup> itaque fratres mei carissimi et desiderantissimi gaudium meum et corona mea sic state in Domino carissimi

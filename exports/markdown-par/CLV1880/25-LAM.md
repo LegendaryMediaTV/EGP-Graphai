@@ -22,6 +22,7 @@
 <sup>20</sup> RES vide Domine quoniam tribulor venter meus conturbatus est subversum est cor meum in memet ipsa quoniam amaritudine plena sum foris interfecit gladius et domi mors similis est
 <sup>21</sup> SEN audierunt quia ingemesco ego et non est qui consoletur me omnes inimici mei audierunt malum meum laetati sunt quoniam tu fecisti adduxisti diem consolationis et fient similes mei
 <sup>22</sup> THAU ingrediatur omne malum eorum coram te et devindemia eos sicut vindemiasti me propter omnes iniquitates meas multi enim gemitus mei et cor meum maerens
+
 ## Chapter 2
 
 <sup>1</sup> ALEPH quomodo obtexit caligine in furore suo Dominus filiam Sion proiecit de caelo terram inclitam Israhel et non recordatus est scabilli pedum suorum in die furoris sui
@@ -46,6 +47,7 @@
 <sup>20</sup> RES vide Domine et considera quem vindemiaveris ita ergone comedent mulieres fructum suum parvulos ad mensuram palmae si occidetur in sanctuario Domini sacerdos et propheta
 <sup>21</sup> SEN iacuerunt in terra foris puer et senex virgines meae et iuvenes mei ceciderunt in gladio interfecisti in die furoris tui percussisti nec misertus es
 <sup>22</sup> THAU vocasti quasi ad diem sollemnem qui terrerent me de circuitu et non fuit in die furoris Domini qui effugeret et relinqueretur quos educavi et enutrivi inimicus meus consumpsit eos
+
 ## Chapter 3
 
 <sup>1</sup> ALEPH ego vir videns paupertatem meam in virga indignationis eius
@@ -114,6 +116,7 @@
 <sup>64</sup> THAU reddes eis vicem Domine iuxta opera manuum suarum
 <sup>65</sup> THAU dabis eis scutum cordis laborem tuum
 <sup>66</sup> THAU persequeris in furore et conteres eos sub caelis Domine
+
 ## Chapter 4
 
 <sup>1</sup> ALEPH quomodo obscuratum est aurum mutatus est color optimus dispersi sunt lapides sanctuarii in capite omnium platearum
@@ -138,6 +141,7 @@
 <sup>20</sup> RES spiritus oris nostri christus dominus captus est in peccatis nostris cui diximus in umbra tua vivemus in gentibus
 <sup>21</sup> SEN gaude et laetare filia Edom quae habitas in terra Hus ad te quoque perveniet calix inebriaberis atque nudaberis
 <sup>22</sup> THAU conpleta est iniquitas tua filia Sion non addet ultra ut transmigret te visitavit iniquitatem tuam filia Edom discoperuit peccata tua
+
 ## Chapter 5
 
 <sup>1</sup> recordare Domine quid acciderit nobis intuere et respice obprobrium nostrum

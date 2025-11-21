@@ -20,6 +20,7 @@
 <sup>18</sup> quid ingemuit animal mugierunt greges armenti quia non est pascua eis sed et greges pecorum disperierunt
 <sup>19</sup> ad te Domine clamabo quia ignis comedit speciosa deserti et flamma succendit omnia ligna regionis
 <sup>20</sup> sed et bestiae agri quasi area sitiens imbrem suspexerunt ad te quoniam exsiccati sunt fontes aquarum et ignis devoravit speciosa deserti
+
 ## Chapter 2
 
 <sup>1</sup> canite tuba in Sion ululate in monte sancto meo conturbentur omnes habitatores terrae quia venit dies Domini quia prope est
@@ -54,6 +55,7 @@
 <sup>30</sup> et dabo prodigia in caelo et in terra sanguinem et ignem et vaporem fumi
 <sup>31</sup> sol vertetur in tenebras et luna in sanguinem antequam veniat dies Domini magnus et horribilis
 <sup>32</sup> et erit omnis qui invocaverit nomen Domini salvus erit quia in monte Sion et in Hierusalem erit salvatio sicut dixit Dominus et in residuis quos Dominus vocaverit
+
 ## Chapter 3
 
 <sup>1</sup> quia ecce in diebus illis et in tempore illo cum convertero captivitatem Iuda et Hierusalem

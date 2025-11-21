@@ -31,6 +31,7 @@
 <sup>29</sup> dixitque Deus ecce dedi vobis omnem herbam adferentem semen super terram et universa ligna quae habent in semet ipsis sementem generis sui ut sint vobis in escam
 <sup>30</sup> et cunctis animantibus terrae omnique volucri caeli et universis quae moventur in terra et in quibus est anima vivens ut habeant ad vescendum et factum est ita
 <sup>31</sup> viditque Deus cuncta quae fecit et erant valde bona et factum est vespere et mane dies sextus
+
 ## Chapter 2
 
 <sup>1</sup> igitur perfecti sunt caeli et terra et omnis ornatus eorum
@@ -58,6 +59,7 @@
 <sup>23</sup> dixitque Adam hoc nunc os ex ossibus meis et caro de carne mea haec vocabitur virago quoniam de viro sumpta est
 <sup>24</sup> quam ob rem relinquet homo patrem suum et matrem et adherebit uxori suae et erunt duo in carne una
 <sup>25</sup> erant autem uterque nudi Adam scilicet et uxor eius et non erubescebant
+
 ## Chapter 3
 
 <sup>1</sup> sed et serpens erat callidior cunctis animantibus terrae quae fecerat Dominus Deus qui dixit ad mulierem cur praecepit vobis Deus ut non comederetis de omni ligno paradisi
@@ -84,6 +86,7 @@
 <sup>22</sup> et ait ecce Adam factus est quasi unus ex nobis sciens bonum et malum nunc ergo ne forte mittat manum suam et sumat etiam de ligno vitae et comedat et vivat in aeternum
 <sup>23</sup> emisit eum Dominus Deus de paradiso voluptatis ut operaretur terram de qua sumptus est
 <sup>24</sup> eiecitque Adam et conlocavit ante paradisum voluptatis cherubin et flammeum gladium atque versatilem ad custodiendam viam ligni vitae
+
 ## Chapter 4
 
 <sup>1</sup> Adam vero cognovit Havam uxorem suam quae concepit et peperit Cain dicens possedi hominem per Dominum
@@ -112,6 +115,7 @@
 <sup>24</sup> septuplum ultio dabitur de Cain de Lamech vero septuagies septies
 <sup>25</sup> cognovit quoque adhuc Adam uxorem suam et peperit filium vocavitque nomen eius Seth dicens posuit mihi Deus semen aliud pro Abel quem occidit Cain
 <sup>26</sup> sed et Seth natus est filius quem vocavit Enos iste coepit invocare nomen Domini
+
 ## Chapter 5
 
 <sup>1</sup> hic est liber generationis Adam in die qua creavit Deus hominem ad similitudinem Dei fecit illum
@@ -146,6 +150,7 @@
 <sup>30</sup> vixitque Lamech postquam genuit Noe quingentos nonaginta quinque annos et genuit filios et filias
 <sup>31</sup> et facti sunt omnes dies Lamech septingenti septuaginta septem anni et mortuus est
 <sup>32</sup> Noe vero cum quingentorum esset annorum genuit Sem et Ham et Iafeth
+
 ## Chapter 6
 
 <sup>1</sup> cumque coepissent homines multiplicari super terram et filias procreassent
@@ -170,6 +175,7 @@
 <sup>20</sup> de volucribus iuxta genus suum et de iumentis in genere suo et ex omni reptili terrae secundum genus suum bina de omnibus ingredientur tecum ut possint vivere
 <sup>21</sup> tolles igitur tecum ex omnibus escis quae mandi possunt et conportabis apud te et erunt tam tibi quam illis in cibum
 <sup>22</sup> fecit ergo Noe omnia quae praeceperat illi Deus
+
 ## Chapter 7
 
 <sup>1</sup> dixitque Dominus ad eum ingredere tu et omnis domus tua arcam te enim vidi iustum coram me in generatione hac
@@ -196,6 +202,7 @@
 <sup>22</sup> et cuncta in quibus spiraculum vitae est in terra mortua sunt
 <sup>23</sup> et delevit omnem substantiam quae erat super terram ab homine usque ad pecus tam reptile quam volucres caeli et deleta sunt de terra remansit autem solus Noe et qui cum eo erant in arca
 <sup>24</sup> obtinueruntque aquae terras centum quinquaginta diebus
+
 ## Chapter 8
 
 <sup>1</sup> recordatus autem Deus Noe cunctarumque animantium et omnium iumentorum quae erant cum eo in arca adduxit spiritum super terram et inminutae sunt aquae
@@ -220,6 +227,7 @@
 <sup>20</sup> aedificavit autem Noe altare Domino et tollens de cunctis pecoribus et volucribus mundis obtulit holocausta super altare
 <sup>21</sup> odoratusque est Dominus odorem suavitatis et ait ad eum nequaquam ultra maledicam terrae propter homines sensus enim et cogitatio humani cordis in malum prona sunt ab adulescentia sua non igitur ultra percutiam omnem animantem sicut feci
 <sup>22</sup> cunctis diebus terrae sementis et messis frigus et aestus aestas et hiemps nox et dies non requiescent
+
 ## Chapter 9
 
 <sup>1</sup> benedixitque Deus Noe et filiis eius et dixit ad eos crescite et multiplicamini et implete terram
@@ -251,6 +259,7 @@
 <sup>27</sup> dilatet Deus Iafeth et habitet in tabernaculis Sem sitque Chanaan servus eius
 <sup>28</sup> vixit autem Noe post diluvium trecentis quinquaginta annis
 <sup>29</sup> et impleti sunt omnes dies eius nongentorum quinquaginta annorum et mortuus est
+
 ## Chapter 10
 
 <sup>1</sup> hae generationes filiorum Noe Sem Ham Iafeth natique sunt eis filii post diluvium
@@ -285,6 +294,7 @@
 <sup>30</sup> et facta est habitatio eorum de Messa pergentibus usque Sephar montem orientalem
 <sup>31</sup> isti filii Sem secundum cognationes et linguas et regiones in gentibus suis
 <sup>32</sup> hae familiae Noe iuxta populos et nationes suas ab his divisae sunt gentes in terra post diluvium
+
 ## Chapter 11
 
 <sup>1</sup> erat autem terra labii unius et sermonum eorundem
@@ -319,6 +329,7 @@
 <sup>30</sup> erat autem Sarai sterilis nec habebat liberos
 <sup>31</sup> tulit itaque Thare Abram filium suum et Loth filium Aran filium filii sui et Sarai nurum suam uxorem Abram filii sui et eduxit eos de Ur Chaldeorum ut irent in terram Chanaan veneruntque usque Haran et habitaverunt ibi
 <sup>32</sup> et facti sunt dies Thare ducentorum quinque annorum et mortuus est in Haran
+
 ## Chapter 12
 
 <sup>1</sup> dixit autem Dominus ad Abram egredere de terra tua et de cognatione tua et de domo patris tui in terram quam monstrabo tibi
@@ -341,6 +352,7 @@
 <sup>18</sup> vocavitque Pharao Abram et dixit ei quidnam est quod fecisti mihi quare non indicasti quod uxor tua esset
 <sup>19</sup> quam ob causam dixisti esse sororem tuam ut tollerem eam mihi in uxorem nunc igitur ecce coniux tua accipe eam et vade
 <sup>20</sup> praecepitque Pharao super Abram viris et deduxerunt eum et uxorem illius et omnia quae habebat
+
 ## Chapter 13
 
 <sup>1</sup> ascendit ergo Abram de Aegypto ipse et uxor eius et omnia quae habebat et Loth cum eo ad australem plagam
@@ -361,6 +373,7 @@
 <sup>16</sup> faciamque semen tuum sicut pulverem terrae si quis potest hominum numerare pulverem semen quoque tuum numerare poterit
 <sup>17</sup> surge et perambula terram in longitudine et in latitudine sua quia tibi daturus sum eam
 <sup>18</sup> movens igitur Abram tabernaculum suum venit et habitavit iuxta convallem Mambre quod est in Hebron aedificavitque ibi altare Domino
+
 ## Chapter 14
 
 <sup>1</sup> factum est autem in illo tempore ut Amrafel rex Sennaar et Arioch rex Ponti et Chodorlahomor rex Aelamitarum et Thadal rex Gentium
@@ -387,6 +400,7 @@
 <sup>22</sup> qui respondit ei levo manum meam ad Dominum Deum excelsum possessorem caeli et terrae
 <sup>23</sup> quod a filo subteminis usque ad corrigiam caligae non accipiam ex omnibus quae tua sunt ne dicas ego ditavi Abram
 <sup>24</sup> exceptis his quae comederunt iuvenes et partibus virorum qui venerunt mecum Aner Eschol et Mambre isti accipient partes suas
+
 ## Chapter 15
 
 <sup>1</sup> his itaque transactis factus est sermo Domini ad Abram per visionem dicens noli timere Abram ego protector tuus sum et merces tua magna nimis
@@ -410,6 +424,7 @@
 <sup>19</sup> Cineos et Cenezeos et Cedmoneos
 <sup>20</sup> et Hettheos et Ferezeos Rafaim quoque
 <sup>21</sup> et Amorreos et Chananeos et Gergeseos et Iebuseos
+
 ## Chapter 16
 
 <sup>1</sup> igitur Sarai uxor Abram non genuerat liberos sed habens ancillam aegyptiam nomine Agar
@@ -428,6 +443,7 @@
 <sup>14</sup> propterea appellavit puteum illum puteum Viventis et videntis me ipse est inter Cades et Barad
 <sup>15</sup> peperitque Abrae filium qui vocavit nomen eius Ismahel
 <sup>16</sup> octoginta et sex annorum erat quando peperit ei Agar Ismahelem
+
 ## Chapter 17
 
 <sup>1</sup> postquam vero nonaginta et novem annorum esse coeperat apparuit ei Dominus dixitque ad eum ego Deus omnipotens ambula coram me et esto perfectus
@@ -457,6 +473,7 @@
 <sup>25</sup> et Ismahel filius eius tredecim annos impleverat tempore circumcisionis suae
 <sup>26</sup> eadem die circumcisus est Abraham et Ismahel filius eius
 <sup>27</sup> et omnes viri domus illius tam vernaculi quam empticii et alienigenae pariter circumcisi sunt
+
 ## Chapter 18
 
 <sup>1</sup> apparuit autem ei Dominus in convalle Mambre sedenti in ostio tabernaculi sui in ipso fervore diei
@@ -492,6 +509,7 @@
 <sup>31</sup> quia semel ait coepi loquar ad Dominum meum quid si inventi fuerint ibi viginti dixit non interficiam propter viginti
 <sup>32</sup> obsecro inquit ne irascaris Domine si loquar adhuc semel quid si inventi fuerint ibi decem dixit non delebo propter decem
 <sup>33</sup> abiit Dominus postquam cessavit loqui ad Abraham et ille reversus est in locum suum
+
 ## Chapter 19
 
 <sup>1</sup> veneruntque duo angeli Sodomam vespere sedente Loth in foribus civitatis qui cum vidisset surrexit et ivit obviam eis adoravitque pronus in terra
@@ -532,6 +550,7 @@
 <sup>36</sup> conceperunt ergo duae filiae Loth de patre suo
 <sup>37</sup> peperitque maior filium et vocavit nomen eius Moab ipse est pater Moabitarum usque in praesentem diem
 <sup>38</sup> minor quoque peperit filium et vocavit nomen eius Ammon id est filius populi mei ipse est pater Ammanitarum usque hodie
+
 ## Chapter 20
 
 <sup>1</sup> profectus inde Abraham in terram australem habitavit inter Cades et Sur et peregrinatus est in Geraris
@@ -552,6 +571,7 @@
 <sup>16</sup> Sarrae autem dixit ecce mille argenteos dedi fratri tuo hoc erit tibi in velamen oculorum ad omnes qui tecum sunt et quocumque perrexeris mementoque te deprehensam
 <sup>17</sup> orante autem Abraham sanavit Deus Abimelech et uxorem ancillasque eius et pepererunt
 <sup>18</sup> concluserat enim Deus omnem vulvam domus Abimelech propter Sarram uxorem Abraham
+
 ## Chapter 21
 
 <sup>1</sup> visitavit autem Dominus Sarram sicut promiserat et implevit quae locutus est
@@ -588,6 +608,7 @@
 <sup>32</sup> et inierunt foedus pro puteo Iuramenti
 <sup>33</sup> surrexit autem Abimelech et Fichol princeps militiae eius reversique sunt in terram Palestinorum Abraham vero plantavit nemus in Bersabee et invocavit ibi nomen Domini Dei aeterni
 <sup>34</sup> et fuit colonus terrae Philisthinorum diebus multis
+
 ## Chapter 22
 
 <sup>1</sup> quae postquam gesta sunt temptavit Deus Abraham et dixit ad eum Abraham ille respondit adsum
@@ -614,6 +635,7 @@
 <sup>22</sup> et Chased et Azau Pheldas quoque et Iedlaph
 <sup>23</sup> ac Bathuel de quo nata est Rebecca octo istos genuit Melcha Nahor fratri Abraham
 <sup>24</sup> concubina vero illius nomine Roma peperit Tabee et Gaom et Thaas et Maacha
+
 ## Chapter 23
 
 <sup>1</sup> vixit autem Sarra centum viginti septem annis
@@ -636,6 +658,7 @@
 <sup>18</sup> Abrahae in possessionem videntibus filiis Heth et cunctis qui intrabant portam civitatis illius
 <sup>19</sup> atque ita sepelivit Abraham Sarram uxorem suam in spelunca agri duplici qui respiciebat Mambre haec est Hebron in terra Chanaan
 <sup>20</sup> et confirmatus est ager et antrum quod erat in eo Abrahae in possessionem monumenti a filiis Heth
+
 ## Chapter 24
 
 <sup>1</sup> erat autem Abraham senex dierumque multorum et Dominus in cunctis benedixerat ei
@@ -705,6 +728,7 @@
 <sup>65</sup> et ait ad puerum quis est ille homo qui venit per agrum in occursum nobis dixit ei ipse est dominus meus at illa tollens cito pallium operuit se
 <sup>66</sup> servus autem cuncta quae gesserat narravit Isaac
 <sup>67</sup> qui introduxit eam in tabernaculum Sarrae matris suae et accepit uxorem et in tantum dilexit ut dolorem qui ex morte matris acciderat temperaret
+
 ## Chapter 25
 
 <sup>1</sup> Abraham vero aliam duxit uxorem nomine Cetthuram
@@ -741,6 +765,7 @@
 <sup>32</sup> ille respondit en morior quid mihi proderunt primogenita
 <sup>33</sup> ait Iacob iura ergo mihi iuravit Esau et vendidit primogenita
 <sup>34</sup> et sic accepto pane et lentis edulio comedit et bibit et abiit parvipendens quod primogenita vendidisset
+
 ## Chapter 26
 
 <sup>1</sup> orta autem fame super terram post eam sterilitatem quae acciderat in diebus Abraham abiit Isaac ad Abimelech regem Palestinorum in Gerara
@@ -778,6 +803,7 @@
 <sup>33</sup> unde appellavit eum Abundantiam et nomen urbi inpositum est Bersabee usque in praesentem diem
 <sup>34</sup> Esau vero quadragenarius duxit uxores Iudith filiam Beeri Hetthei et Basemath filiam Helon eiusdem loci
 <sup>35</sup> quae ambae offenderant animum Isaac et Rebeccae
+
 ## Chapter 27
 
 <sup>1</sup> senuit autem Isaac et caligaverunt oculi eius et videre non poterat vocavitque Esau filium suum maiorem et dixit ei fili mi qui respondit adsum
@@ -826,6 +852,7 @@
 <sup>44</sup> habitabisque cum eo dies paucos donec requiescat furor fratris tui
 <sup>45</sup> et cesset indignatio eius obliviscaturque eorum quae fecisti in eum postea mittam et adducam te inde huc cur utroque orbabor filio in una die
 <sup>46</sup> dixit quoque Rebecca ad Isaac taedet me vitae meae propter filias Heth si acceperit Iacob uxorem de stirpe huius terrae nolo vivere
+
 ## Chapter 28
 
 <sup>1</sup> vocavit itaque Isaac Iacob et benedixit praecepitque ei dicens noli accipere coniugem de genere Chanaan
@@ -850,6 +877,7 @@
 <sup>20</sup> vovit etiam votum dicens si fuerit Deus mecum et custodierit me in via per quam ambulo et dederit mihi panem ad vescendum et vestem ad induendum
 <sup>21</sup> reversusque fuero prospere ad domum patris mei erit mihi Dominus in Deum
 <sup>22</sup> et lapis iste quem erexi in titulum vocabitur Domus Dei cunctorumque quae dederis mihi decimas offeram tibi
+
 ## Chapter 29
 
 <sup>1</sup> profectus ergo Iacob venit ad terram orientalem
@@ -887,6 +915,7 @@
 <sup>33</sup> rursumque concepit et peperit filium et ait quoniam audivit Dominus haberi me contemptui dedit etiam istum mihi vocavitque nomen illius Symeon
 <sup>34</sup> concepit tertio et genuit alium dixitque nunc quoque copulabitur mihi maritus meus eo quod pepererim illi tres filios et idcirco appellavit nomen eius Levi
 <sup>35</sup> quarto concepit et peperit filium et ait modo confitebor Domino et ob hoc vocavit eum Iudam cessavitque parere
+
 ## Chapter 30
 
 <sup>1</sup> cernens autem Rahel quod infecunda esset invidit sorori et ait marito suo da mihi liberos alioquin moriar
@@ -932,6 +961,7 @@
 <sup>41</sup> igitur quando primo tempore ascendebantur oves ponebat Iacob virgas in canalibus aquarum ante oculos arietum et ovium ut in earum contemplatione conciperent
 <sup>42</sup> quando vero serotina admissura erat et conceptus extremus non ponebat eas factaque sunt ea quae erant serotina Laban et quae primi temporis Iacob
 <sup>43</sup> ditatusque est homo ultra modum et habuit greges multos ancillas et servos camelos et asinos
+
 ## Chapter 31
 
 <sup>1</sup> postquam autem audivit verba filiorum Laban dicentium tulit Iacob omnia quae fuerunt patris nostri et de illius facultate ditatus factus est inclitus
@@ -989,6 +1019,7 @@
 <sup>53</sup> Deus Abraham et Deus Nahor iudicet inter nos Deus patris eorum iuravit Iacob per Timorem patris sui Isaac
 <sup>54</sup> immolatisque victimis in monte vocavit fratres suos ut ederent panem qui cum comedissent manserunt ibi
 <sup>55</sup> Laban vero de nocte consurgens osculatus est filios et filias suas et benedixit illis reversus in locum suum
+
 ## Chapter 32
 
 <sup>1</sup> Iacob quoque abiit itinere quo coeperat fueruntque ei obviam angeli Dei
@@ -1023,6 +1054,7 @@
 <sup>30</sup> vocavitque Iacob nomen loci illius Phanuhel dicens vidi Deum facie ad faciem et salva facta est anima mea
 <sup>31</sup> ortusque est ei statim sol postquam transgressus est Phanuhel ipse vero claudicabat pede
 <sup>32</sup> quam ob causam non comedunt filii Israhel nervum qui emarcuit in femore Iacob usque in praesentem diem eo quod tetigerit nervum femoris eius et obstipuerit
+
 ## Chapter 33
 
 <sup>1</sup> levans autem Iacob oculos suos vidit venientem Esau et cum eo quadringentos viros divisitque filios Liae et Rahel ambarumque famularum
@@ -1045,6 +1077,7 @@
 <sup>18</sup> transivitque in Salem urbem Sycimorum quae est in terra Chanaan postquam regressus est de Mesopotamiam Syriae et habitavit iuxta oppidum
 <sup>19</sup> emitque partem agri in qua fixerat tabernaculum a filiis Emor patris Sychem centum agnis
 <sup>20</sup> et erecto ibi altari invocavit super illud Fortissimum Deum Israhel
+
 ## Chapter 34
 
 <sup>1</sup> egressa est autem Dina filia Liae ut videret mulieres regionis illius
@@ -1078,6 +1111,7 @@
 <sup>29</sup> parvulos quoque et uxores eorum duxere captivas
 <sup>30</sup> quibus patratis audacter Iacob dixit ad Symeon et Levi turbastis me et odiosum fecistis Chananeis et Ferezeis habitatoribus terrae huius nos pauci sumus illi congregati percutient me et delebor ego et domus mea
 <sup>31</sup> responderunt numquid ut scorto abuti debuere sorore nostra
+
 ## Chapter 35
 
 <sup>1</sup> interea locutus est Deus ad Iacob surge et ascende Bethel et habita ibi facque altare Deo qui apparuit tibi quando fugiebas Esau fratrem tuum
@@ -1109,6 +1143,7 @@
 <sup>27</sup> venit etiam ad Isaac patrem suum in Mambre civitatem Arbee haec est Hebron in qua peregrinatus est Abraham et Isaac
 <sup>28</sup> et conpleti sunt dies Isaac centum octoginta annorum
 <sup>29</sup> consumptusque aetate mortuus est et adpositus populo suo senex et plenus dierum et sepelierunt eum Esau et Iacob filii sui
+
 ## Chapter 36
 
 <sup>1</sup> hae sunt autem generationes Esau ipse est Edom
@@ -1154,6 +1189,7 @@
 <sup>41</sup> dux Oolibama dux Ela dux Phinon
 <sup>42</sup> dux Cenez dux Theman dux Mabsar
 <sup>43</sup> dux Mabdiel dux Iram hii duces Edom habitantes in terra imperii sui ipse est Esau pater Idumeorum
+
 ## Chapter 37
 
 <sup>1</sup> habitavit autem Iacob in terra Chanaan in qua peregrinatus est pater suus
@@ -1192,6 +1228,7 @@
 <sup>34</sup> scissisque vestibus indutus est cilicio lugens filium multo tempore
 <sup>35</sup> congregatis autem cunctis liberis eius ut lenirent dolorem patris noluit consolationem recipere et ait descendam ad filium meum lugens in infernum et illo perseverante in fletu
 <sup>36</sup> Madianei vendiderunt Ioseph in Aegypto Putiphar eunucho Pharaonis magistro militiae
+
 ## Chapter 38
 
 <sup>1</sup> eo tempore descendens Iudas a fratribus suis divertit ad virum odollamitem nomine Hiram
@@ -1224,6 +1261,7 @@
 <sup>28</sup> iste egreditur prior
 <sup>29</sup> illo vero retrahente manum egressus est alter dixitque mulier quare divisa est propter te maceria et ob hanc causam vocavit nomen eius Phares
 <sup>30</sup> postea egressus est frater in cuius manu erat coccinum quem appellavit Zara
+
 ## Chapter 39
 
 <sup>1</sup> igitur Ioseph ductus est in Aegyptum emitque eum Putiphar eunuchus Pharaonis princeps exercitus vir aegyptius de manu Ismahelitarum a quibus perductus erat
@@ -1249,6 +1287,7 @@
 <sup>21</sup> fuit autem Dominus cum Ioseph et misertus illius dedit ei gratiam in conspectu principis carceris
 <sup>22</sup> qui tradidit in manu ipsius universos vinctos qui in custodia tenebantur et quicquid fiebat sub ipso erat
 <sup>23</sup> nec noverat aliquid cunctis ei creditis Dominus enim erat cum illo et omnia eius opera dirigebat
+
 ## Chapter 40
 
 <sup>1</sup> his ita gestis accidit ut peccarent duo eunuchi pincerna regis Aegypti et pistor domino suo
@@ -1274,6 +1313,7 @@
 <sup>21</sup> restituitque alterum in locum suum ut porrigeret regi poculum
 <sup>22</sup> alterum suspendit in patibulo ut coniectoris veritas probaretur
 <sup>23</sup> et tamen succedentibus prosperis praepositus pincernarum oblitus est interpretis sui
+
 ## Chapter 41
 
 <sup>1</sup> post duos annos vidit Pharao somnium putabat se stare super fluvium
@@ -1333,6 +1373,7 @@
 <sup>55</sup> qua esuriente clamavit populus ad Pharaonem alimenta petens quibus ille respondit ite ad Ioseph et quicquid vobis dixerit facite
 <sup>56</sup> crescebat autem cotidie fames in omni terra aperuitque Ioseph universa horrea et vendebat Aegyptiis nam et illos oppresserat fames
 <sup>57</sup> omnesque provinciae veniebant in Aegyptum ut emerent escas et malum inopiae temperarent
+
 ## Chapter 42
 
 <sup>1</sup> audiens autem Iacob quod alimenta venderentur in Aegypto dixit filiis suis quare neglegitis
@@ -1373,6 +1414,7 @@
 <sup>36</sup> dixit pater Iacob absque liberis me esse fecistis Ioseph non est super Symeon tenetur in vinculis Beniamin auferetis in me haec mala omnia reciderunt
 <sup>37</sup> cui respondit Ruben duos filios meos interfice si non reduxero illum tibi trade in manu mea et ego eum restituam
 <sup>38</sup> at ille non descendet inquit filius meus vobiscum frater eius mortuus est ipse solus remansit si quid ei adversi acciderit in terra ad quam pergitis deducetis canos meos cum dolore ad inferos
+
 ## Chapter 43
 
 <sup>1</sup> interim fames omnem terram vehementer premebat
@@ -1409,6 +1451,7 @@
 <sup>32</sup> quibus adpositis seorsum Ioseph et seorsum fratribus Aegyptiis quoque qui vescebantur simul seorsum inlicitum est enim Aegyptiis comedere cum Hebraeis et profanum putant huiuscemodi convivium
 <sup>33</sup> sederunt coram eo primogenitus iuxta primogenita sua et minimus iuxta aetatem suam et mirabantur nimis
 <sup>34</sup> sumptis partibus quas ab eo acceperant maiorque pars venit Beniamin ita ut quinque partibus excederet biberuntque et inebriati sunt cum eo
+
 ## Chapter 44
 
 <sup>1</sup> praecepit autem Ioseph dispensatori domus suae dicens imple saccos eorum frumento quantum possunt capere et pone pecuniam singulorum in summitate sacci
@@ -1445,6 +1488,7 @@
 <sup>32</sup> ego proprie servus tuus qui in meam hunc recepi fidem et spopondi dicens nisi reduxero eum peccati reus ero in patrem meum omni tempore
 <sup>33</sup> manebo itaque servus tuus pro puero in ministerium domini mei et puer ascendat cum fratribus suis
 <sup>34</sup> non enim possum redire ad patrem absente puero ne calamitatis quae oppressura est patrem meum testis adsistam
+
 ## Chapter 45
 
 <sup>1</sup> non se poterat ultra cohibere Ioseph multis coram adstantibus unde praecepit ut egrederentur cuncti foras et nullus interesset alienus agnitioni mutuae
@@ -1475,6 +1519,7 @@
 <sup>26</sup> et nuntiaverunt ei dicentes Ioseph vivit et ipse dominatur in omni terra Aegypti quo audito quasi de gravi somno evigilans tamen non credebat eis
 <sup>27</sup> illi contra referebant omnem ordinem rei cumque vidisset plaustra et universa quae miserat revixit spiritus eius
 <sup>28</sup> et ait sufficit mihi si adhuc Ioseph filius meus vivit vadam et videbo illum antequam moriar
+
 ## Chapter 46
 
 <sup>1</sup> profectusque Israhel cum omnibus quae habebat venit ad puteum Iuramenti et mactatis ibi victimis Deo patris sui Isaac
@@ -1511,6 +1556,7 @@
 <sup>32</sup> et sunt viri pastores ovium curamque habent alendorum gregum pecora sua et armenta et omnia quae habere potuerunt adduxerunt secum
 <sup>33</sup> cumque vocaverit vos et dixerit quod est opus vestrum
 <sup>34</sup> respondebitis viri pastores sumus servi tui ab infantia nostra usque in praesens et nos et patres nostri haec autem dicetis ut habitare possitis in terra Gessen quia detestantur Aegyptii omnes pastores ovium
+
 ## Chapter 47
 
 <sup>1</sup> ingressus ergo Ioseph nuntiavit Pharaoni dicens pater meus et fratres oves eorum et armenta et cuncta quae possident venerunt de terra Chanaan et ecce consistunt in terra Gessen
@@ -1544,6 +1590,7 @@
 <sup>29</sup> cumque adpropinquare cerneret mortis diem vocavit filium suum Ioseph et dixit ad eum si inveni gratiam in conspectu tuo pone manum sub femore meo et facies mihi misericordiam et veritatem ut non sepelias me in Aegypto
 <sup>30</sup> sed dormiam cum patribus meis et auferas me de hac terra condasque in sepulchro maiorum cui respondit Ioseph ego faciam quod iussisti
 <sup>31</sup> et ille iura ergo inquit mihi quo iurante adoravit Israhel Deum conversus ad lectuli caput
+
 ## Chapter 48
 
 <sup>1</sup> his ita transactis nuntiatum est Ioseph quod aegrotaret pater eius qui adsumptis duobus filiis Manasse et Ephraim ire perrexit
@@ -1568,6 +1615,7 @@
 <sup>20</sup> benedixitque eis in ipso tempore dicens in te benedicetur Israhel atque dicetur faciat tibi Deus sicut Ephraim et sicut Manasse constituitque Ephraim ante Manassen
 <sup>21</sup> et ait ad Ioseph filium suum en ego morior et erit Deus vobiscum reducetque vos ad terram patrum vestrorum
 <sup>22</sup> do tibi partem unam extra fratres tuos quam tuli de manu Amorrei in gladio et arcu meo
+
 ## Chapter 49
 
 <sup>1</sup> vocavit autem Iacob filios suos et ait eis congregamini ut adnuntiem quae ventura sunt vobis diebus novissimis
@@ -1602,6 +1650,7 @@
 <sup>30</sup> contra Mambre in terra Chanaan quam emit Abraham cum agro ab Ephron Hettheo in possessionem sepulchri
 <sup>31</sup> ibi sepelierunt eum et Sarram uxorem eius ibi sepultus est Isaac cum Rebecca coniuge ibi et Lia condita iacet
 <sup>32</sup> finitisque mandatis quibus filios instruebat collegit pedes suos super lectulum et obiit adpositusque est ad populum suum
+
 ## Chapter 50
 
 <sup>1</sup> quod cernens Ioseph ruit super faciem patris flens et deosculans eum

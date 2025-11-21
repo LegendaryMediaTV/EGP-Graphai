@@ -17,6 +17,7 @@
 <sup>15</sup> offeret eam sacerdos ad altare et retorto ad collum capite ac rupto vulneris loco decurrere faciet sanguinem super crepidinem altaris
 <sup>16</sup> vesiculam vero gutturis et plumas proiciet propter altare ad orientalem plagam in loco in quo cineres effundi solent
 <sup>17</sup> confringetque ascellas eius et non secabit nec ferro dividet eam et adolebit super altare lignis igne subposito holocaustum est et oblatio suavissimi odoris Domino
+
 ## Chapter 2
 
 <sup>1</sup> anima cum obtulerit oblationem sacrificii Domino simila erit eius oblatio fundetque super eam oleum et ponet tus
@@ -35,6 +36,7 @@
 <sup>14</sup> sin autem obtuleris munus primarum frugum tuarum Domino de spicis adhuc virentibus torres eas igni et confringes in morem farris et sic offeres primitias tuas Domino
 <sup>15</sup> fundens supra oleum et tus inponens quia oblatio Domini est
 <sup>16</sup> de qua adolebit sacerdos in memoriam muneris partem farris fracti et olei ac totum tus
+
 ## Chapter 3
 
 <sup>1</sup> quod si hostia pacificorum fuerit eius oblatio et de bubus voluerit offerre marem sive feminam inmaculata offeret coram Domino
@@ -54,6 +56,7 @@
 <sup>15</sup> duos renunculos cum reticulo qui est super eos iuxta ilia et arvinam iecoris cum renunculis
 <sup>16</sup> adolebitque ea sacerdos super altare in alimoniam ignis et suavissimi odoris omnis adeps Domini erit
 <sup>17</sup> iure perpetuo in generationibus et cunctis habitaculis vestris nec adipes nec sanguinem omnino comedetis
+
 ## Chapter 4
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens
@@ -91,6 +94,7 @@
 <sup>33</sup> ponet manum super caput eius et immolabit eam in loco ubi solent holocaustorum caedi hostiae
 <sup>34</sup> sumetque sacerdos de sanguine eius digito suo et tangens cornua altaris holocausti reliquum fundet ad basim eius
 <sup>35</sup> omnem quoque auferens adipem sicut auferri solet adeps arietis qui immolatur pro pacificis et cremabit super altare in incensum Domini rogabitque pro eo et pro peccato eius et dimittetur illi
+
 ## Chapter 5
 
 <sup>1</sup> si peccaverit anima et audierit vocem iurantis testisque fuerit quod aut ipse vidit aut conscius est nisi indicaverit portabit iniquitatem suam
@@ -112,6 +116,7 @@
 <sup>17</sup> anima si peccaverit per ignorantiam feceritque unum ex his quae Domini lege prohibentur et peccati rea intellexerit iniquitatem suam
 <sup>18</sup> offeret arietem inmaculatum de gregibus sacerdoti iuxta mensuram aestimationemque peccati qui orabit pro eo quod nesciens fecerit et dimittetur ei
 <sup>19</sup> quia per errorem deliquit in Dominum
+
 ## Chapter 6
 
 <sup>1</sup> locutus est Dominus ad Mosen dicens
@@ -144,6 +149,7 @@
 <sup>28</sup> vas autem fictile in quo cocta est confringetur quod si vas aeneum fuerit defricabitur et lavabitur aqua
 <sup>29</sup> omnis masculus de genere sacerdotali vescetur carnibus eius quia sanctum sanctorum est
 <sup>30</sup> hostia enim quae caeditur pro peccato cuius sanguis infertur in tabernaculum testimonii ad expiandum in sanctuario non comedetur sed conburetur igni
+
 ## Chapter 7
 
 <sup>1</sup> haec quoque est lex hostiae pro delicto sancta sanctorum est
@@ -184,6 +190,7 @@
 <sup>36</sup> et quae praecepit dari eis Dominus a filiis Israhel religione perpetua in generationibus suis
 <sup>37</sup> ista est lex holocausti et sacrificii pro peccato atque delicto et pro consecratione et pacificorum victimis
 <sup>38</sup> quas constituit Dominus Mosi in monte Sinai quando mandavit filiis Israhel ut offerrent oblationes suas Domino in deserto Sinai
+
 ## Chapter 8
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens
@@ -222,6 +229,7 @@
 <sup>34</sup> sicut et inpraesentiarum factum est ut ritus sacrificii conpleretur
 <sup>35</sup> die ac nocte manebitis in tabernaculo observantes custodias Domini ne moriamini sic enim mihi praeceptum est
 <sup>36</sup> feceruntque Aaron et filii eius cuncta quae locutus est Dominus per manum Mosi
+
 ## Chapter 9
 
 <sup>1</sup> facto autem octavo die vocavit Moses Aaron et filios eius ac maiores natu Israhel dixitque ad Aaron
@@ -248,6 +256,7 @@
 <sup>22</sup> et tendens manum contra populum benedixit eis sicque conpletis hostiis pro peccato et holocaustis et pacificis descendit
 <sup>23</sup> ingressi autem Moses et Aaron tabernaculum testimonii et deinceps egressi benedixerunt populo apparuitque gloria Domini omni multitudini
 <sup>24</sup> et ecce egressus ignis a Domino devoravit holocaustum et adipes qui erant super altare quod cum vidissent turbae laudaverunt Dominum ruentes in facies suas
+
 ## Chapter 10
 
 <sup>1</sup> arreptisque Nadab et Abiu filii Aaron turibulis posuerunt ignem et incensum desuper offerentes coram Domino ignem alienum quod eis praeceptum non erat
@@ -270,6 +279,7 @@
 <sup>18</sup> praesertim cum de sanguine illius non sit inlatum intra sancta et comedere eam debueritis in sanctuario sicut praeceptum est mihi
 <sup>19</sup> respondit Aaron oblata est hodie victima pro peccato et holocaustum coram Domino mihi autem accidit quod vides quomodo potui comedere eam aut placere Domino in caerimoniis mente lugubri
 <sup>20</sup> quod cum audisset Moses recepit satisfactionem
+
 ## Chapter 11
 
 <sup>1</sup> locutus est Dominus ad Mosen et Aaron dicens
@@ -319,6 +329,7 @@
 <sup>45</sup> ego sum Dominus qui eduxi vos de terra Aegypti ut essem vobis in Deum sancti eritis quia et ego sanctus sum
 <sup>46</sup> ista est lex animantium et volucrum et omnis animae viventis quae movetur in aqua et reptat in terra
 <sup>47</sup> ut differentias noveritis mundi et inmundi et sciatis quid comedere et quid respuere debeatis
+
 ## Chapter 12
 
 <sup>1</sup> locutus est Dominus ad Mosen dicens
@@ -329,6 +340,7 @@
 <sup>6</sup> cumque expleti fuerint dies purificationis eius pro filio sive pro filia deferet agnum anniculum in holocaustum et pullum columbae sive turturem pro peccato ad ostium tabernaculi testimonii et tradet sacerdoti
 <sup>7</sup> qui offeret illa coram Domino et rogabit pro ea et sic mundabitur a profluvio sanguinis sui ista est lex parientis masculum ac feminam
 <sup>8</sup> quod si non invenerit manus eius nec potuerit offerre agnum sumet duos turtures vel duos pullos columbae unum in holocaustum et alterum pro peccato orabitque pro ea sacerdos et sic mundabitur
+
 ## Chapter 13
 
 <sup>1</sup> locutus est Dominus ad Mosen et Aaron dicens
@@ -390,6 +402,7 @@
 <sup>57</sup> quod si ultra apparuerit in his locis quae prius inmaculata erant lepra volatilis et vaga debet igne conburi
 <sup>58</sup> si cessaverit lavabit ea quae pura sunt secundo et munda erunt
 <sup>59</sup> ista est lex leprae vestimenti lanei et linei staminis atque subteminis omnisque supellectilis pelliciae quomodo mundari debeat vel contaminari
+
 ## Chapter 14
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens
@@ -449,6 +462,7 @@
 <sup>55</sup> leprae vestium et domorum
 <sup>56</sup> cicatricis et erumpentium papularum lucentis maculae et in varias species coloribus inmutatis
 <sup>57</sup> ut possit sciri quo tempore mundum quid vel inmundum sit
+
 ## Chapter 15
 
 <sup>1</sup> locutusque est Dominus ad Mosen et Aaron dicens
@@ -484,6 +498,7 @@
 <sup>31</sup> docebitis ergo filios Israhel ut caveant inmunditiam et non moriantur in sordibus suis cum polluerint tabernaculum meum quod est inter eos
 <sup>32</sup> ista est lex eius qui patitur fluxum seminis et qui polluitur coitu
 <sup>33</sup> et quae menstruis temporibus separatur vel quae iugi fluit sanguine et hominis qui dormierit cum ea
+
 ## Chapter 16
 
 <sup>1</sup> locutusque est Dominus ad Mosen post mortem duum filiorum Aaron quando offerentes ignem alienum interfecti sunt
@@ -520,6 +535,7 @@
 <sup>32</sup> expiabit autem sacerdos qui unctus fuerit et cuius initiatae manus ut sacerdotio fungatur pro patre suo indueturque stola linea et vestibus sanctis
 <sup>33</sup> et expiabit sanctuarium et tabernaculum testimonii atque altare sacerdotes quoque et universum populum
 <sup>34</sup> eritque hoc vobis legitimum sempiternum ut oretis pro filiis Israhel et pro cunctis peccatis eorum semel in anno fecit igitur sicut praeceperat Dominus Mosi
+
 ## Chapter 17
 
 <sup>1</sup> et locutus est Dominus ad Mosen dicens
@@ -538,6 +554,7 @@
 <sup>14</sup> anima enim omnis carnis in sanguine est unde dixi filiis Israhel sanguinem universae carnis non comedetis quia anima carnis in sanguine est et quicumque comederit illum interibit
 <sup>15</sup> anima quae comederit morticinum vel captum a bestia tam de indigenis quam de advenis lavabit vestes suas et semet ipsum aqua et contaminatus erit usque ad vesperum et hoc ordine mundus fiet
 <sup>16</sup> quod si non laverit vestimenta sua nec corpus portabit iniquitatem suam
+
 ## Chapter 18
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens
@@ -570,6 +587,7 @@
 <sup>28</sup> cavete ergo ne et vos similiter evomat cum paria feceritis sicut evomuit gentem quae fuit ante vos
 <sup>29</sup> omnis anima quae fecerit de abominationibus his quippiam peribit de medio populi sui
 <sup>30</sup> custodite mandata mea nolite facere quae fecerunt hii qui fuerunt ante vos et ne polluamini in eis ego Dominus Deus vester
+
 ## Chapter 19
 
 <sup>1</sup> locutus est Dominus ad Mosen dicens
@@ -609,6 +627,7 @@
 <sup>35</sup> nolite facere iniquum aliquid in iudicio in regula in pondere in mensura
 <sup>36</sup> statera iusta et aequa sint pondera iustus modius aequusque sextarius ego Dominus Deus vester qui eduxi vos de terra Aegypti
 <sup>37</sup> custodite omnia praecepta mea et universa iudicia et facite ea ego Dominus
+
 ## Chapter 20
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens
@@ -638,6 +657,7 @@
 <sup>25</sup> separate ergo et vos iumentum mundum ab inmundo et avem mundam ab inmunda ne polluatis animas vestras in pecore et in avibus et cunctis quae moventur in terra et quae vobis ostendi esse polluta
 <sup>26</sup> eritis sancti mihi quia sanctus ego sum Dominus et separavi vos a ceteris populis ut essetis mei
 <sup>27</sup> vir sive mulier in quibus pythonicus vel divinationis fuerit spiritus morte moriantur lapidibus obruent eos sanguis eorum sit super illos
+
 ## Chapter 21
 
 <sup>1</sup> dixit quoque Dominus ad Mosen loquere ad sacerdotes filios Aaron et dices eis ne contaminetur sacerdos in mortibus civium suorum
@@ -664,6 +684,7 @@
 <sup>22</sup> vescetur tamen panibus qui offeruntur in sanctuario
 <sup>23</sup> ita dumtaxat ut intra velum non ingrediatur nec accedat ad altare quia maculam habet et contaminare non debet sanctuarium meum ego Dominus qui sanctifico eos
 <sup>24</sup> locutus est ergo Moses ad Aaron et filios eius et ad omnem Israhel cuncta quae sibi fuerant imperata
+
 ## Chapter 22
 
 <sup>1</sup> locutus quoque est Dominus ad Mosen dicens
@@ -699,6 +720,7 @@
 <sup>31</sup> custodite mandata mea et facite ea ego Dominus
 <sup>32</sup> ne polluatis nomen meum sanctum ut sanctificer in medio filiorum Israhel ego Dominus qui sanctifico vos
 <sup>33</sup> et eduxi de terra Aegypti ut essem vobis in Deum ego Dominus
+
 ## Chapter 23
 
 <sup>1</sup> locutus est Dominus ad Mosen dicens
@@ -745,6 +767,7 @@
 <sup>42</sup> et habitabitis in umbraculis septem diebus omnis qui de genere est Israhel manebit in tabernaculis
 <sup>43</sup> ut discant posteri vestri quod in tabernaculis habitare fecerim filios Israhel cum educerem eos de terra Aegypti ego Dominus Deus vester
 <sup>44</sup> locutusque est Moses super sollemnitatibus Domini ad filios Israhel
+
 ## Chapter 24
 
 <sup>1</sup> et locutus est Dominus ad Mosen dicens
@@ -770,6 +793,7 @@
 <sup>21</sup> qui percusserit iumentum reddet aliud qui percusserit hominem punietur
 <sup>22</sup> aequum iudicium sit inter vos sive peregrinus sive civis peccaverit quia ego sum Dominus Deus vester
 <sup>23</sup> locutusque est Moses ad filios Israhel et eduxerunt eum qui blasphemaverat extra castra ac lapidibus oppresserunt feceruntque filii Israhel sicut praeceperat Dominus Mosi
+
 ## Chapter 25
 
 <sup>1</sup> locutusque est Dominus ad Mosen in monte Sinai dicens
@@ -827,6 +851,7 @@
 <sup>53</sup> quibus ante servivit mercedibus inputatis non adfliget eum violenter in conspectu tuo
 <sup>54</sup> quod si per haec redimi non potuerit anno iobeleo egredietur cum liberis suis
 <sup>55</sup> mei sunt enim servi filii Israhel quos eduxi de terra Aegypti
+
 ## Chapter 26
 
 <sup>1</sup> ego Dominus Deus vester non facietis vobis idolum et sculptile nec titulos erigetis nec insignem lapidem ponetis in terra vestra ut adoretis eum ego enim sum Dominus Deus vester
@@ -875,6 +900,7 @@
 <sup>44</sup> et tamen etiam cum essent in terra hostili non penitus abieci eos neque sic despexi ut consumerentur et irritum facerem pactum meum cum eis ego enim sum Dominus Deus eorum
 <sup>45</sup> et recordabor foederis mei pristini quando eduxi eos de terra Aegypti in conspectu gentium ut essem Deus eorum ego Dominus Deus
 <sup>46</sup> (26-25) haec sunt praecepta atque iudicia et leges quas dedit Dominus inter se et inter filios Israhel in monte Sinai per manum Mosi
+
 ## Chapter 27
 
 <sup>1</sup> locutusque est Dominus ad Mosen dicens

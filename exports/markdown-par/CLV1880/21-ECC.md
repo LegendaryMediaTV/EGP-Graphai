@@ -18,6 +18,7 @@
 <sup>16</sup> locutus sum in corde meo dicens ecce magnus effectus sum et praecessi sapientia omnes qui fuerunt ante me in Hierusalem et mens mea contemplata est multa sapienter et didicit
 <sup>17</sup> dedique cor meum ut scirem prudentiam atque doctrinam erroresque et stultitiam et agnovi quod in his quoque esset labor et adflictio spiritus
 <sup>18</sup> eo quod in multa sapientia multa sit indignatio et qui addit scientiam addat et laborem
+
 ## Chapter 2
 
 <sup>1</sup> dixi ego in corde meo vadam et affluam deliciis et fruar bonis et vidi quod hoc quoque esset vanitas
@@ -46,6 +47,7 @@
 <sup>24</sup> nonne melius est comedere et bibere et ostendere animae suae bona de laboribus suis et hoc de manu Dei est
 <sup>25</sup> quis ita vorabit et deliciis affluet ut ego
 <sup>26</sup> homini bono in conspectu suo dedit Deus sapientiam et scientiam et laetitiam peccatori autem dedit adflictionem et curam superfluam ut addat et congreget et tradat ei qui placuit Deo sed et hoc vanitas et cassa sollicitudo mentis
+
 ## Chapter 3
 
 <sup>1</sup> omnia tempus habent et suis spatiis transeunt universa sub caelo
@@ -70,6 +72,7 @@
 <sup>20</sup> et omnia pergunt ad unum locum de terra facta sunt et in terram pariter revertentur
 <sup>21</sup> quis novit si spiritus filiorum Adam ascendat sursum et si spiritus iumentorum descendat deorsum
 <sup>22</sup> et deprehendi nihil esse melius quam laetari hominem in opere suo et hanc esse partem illius quis enim eum adducet ut post se futura cognoscat
+
 ## Chapter 4
 
 <sup>1</sup> verti me ad alia et vidi calumnias quae sub sole geruntur et lacrimas innocentum et consolatorem neminem nec posse resistere eorum violentiae cunctorum auxilio destitutos
@@ -88,6 +91,7 @@
 <sup>14</sup> quod et de carcere catenisque interdum quis egrediatur ad regnum et alius natus in regno inopia consumatur
 <sup>15</sup> vidi cunctos viventes qui ambulant sub sole cum adulescente secundo qui consurgit pro eo
 <sup>16</sup> infinitus numerus est populi omnium qui fuerunt ante eum et qui postea futuri sunt non laetabuntur in eo sed et hoc vanitas et adflictio spiritus
+
 ## Chapter 5
 
 <sup>1</sup> (4-17) custodi pedem tuum ingrediens domum Dei multo enim melior est oboedientia quam stultorum victimae qui nesciunt quid faciant mali
@@ -110,6 +114,7 @@
 <sup>18</sup> (5-17) hoc itaque mihi visum est bonum ut comedat quis et bibat et fruatur laetitia ex labore suo quod laboravit ipse sub sole numerum dierum vitae suae quos dedit ei Deus et haec est pars illius
 <sup>19</sup> (5-18) et omni homini cui dedit Deus divitias atque substantiam potestatemque ei tribuit ut comedat ex eis et fruatur parte sua et laetetur de labore suo hoc est donum Dei
 <sup>20</sup> (5-19) non enim satis recordabitur dierum vitae suae eo quod Deus occupet deliciis cor eius
+
 ## Chapter 6
 
 <sup>1</sup> est et aliud malum quod vidi sub sole et quidem frequens apud homines
@@ -124,6 +129,7 @@
 <sup>10</sup> qui futurus est iam vocatum est nomen eius et scitur quod homo sit et non possit contra fortiorem se in iudicio contendere
 <sup>11</sup> verba sunt plurima multa in disputando habentia vanitatem
 <sup>12</sup> (7-1) quid necesse est homini maiora se quaerere cum ignoret quid conducat sibi in vita sua numero dierum peregrinationis suae et tempore quo velut umbra praeterit aut quis ei poterit indicare quid post eum futurum sub sole sit
+
 ## Chapter 7
 
 <sup>1</sup> (7-2) melius est nomen bonum quam unguenta pretiosa et dies mortis die nativitatis
@@ -155,6 +161,7 @@
 <sup>27</sup> (7-28) ecce hoc inveni dicit Ecclesiastes unum et alterum ut invenirem rationem
 <sup>28</sup> (7-29) quam adhuc quaerit anima mea et non inveni virum de mille unum repperi mulierem ex omnibus non inveni
 <sup>29</sup> (7-30) solummodo hoc inveni quod fecerit Deus hominem rectum et ipse se infinitis miscuerit quaestionibus quis talis ut sapiens est et quis cognovit solutionem verbi
+
 ## Chapter 8
 
 <sup>1</sup> sapientia hominis lucet in vultu eius et potentissimus faciem illius commutavit
@@ -174,6 +181,7 @@
 <sup>15</sup> laudavi igitur laetitiam quod non esset homini bonum sub sole nisi quod comederet et biberet atque gauderet et hoc solum secum auferret de labore suo in diebus vitae quos dedit ei Deus sub sole
 <sup>16</sup> et adposui cor meum ut scirem sapientiam et intellegerem distentionem quae versatur in terra est homo qui diebus ac noctibus somnum oculis non capit
 <sup>17</sup> et intellexi quod omnium operum Dei nullam possit homo invenire rationem eorum quae fiunt sub sole et quanto plus laboraverit ad quaerendum tanto minus inveniat etiam si dixerit sapiens se nosse non poterit repperire
+
 ## Chapter 9
 
 <sup>1</sup> omnia haec tractavi in corde meo ut curiose intellegerem sunt iusti atque sapientes et opera eorum in manu Dei et tamen nescit homo utrum amore an odio dignus sit
@@ -194,6 +202,7 @@
 <sup>16</sup> et dicebam ego meliorem esse sapientiam fortitudine quomodo ergo sapientia pauperis contempta est et verba eius non sunt audita
 <sup>17</sup> verba sapientium audiuntur in silentio plus quam clamor principis inter stultos
 <sup>18</sup> melior est sapientia quam arma bellica et qui in uno peccaverit multa bona perdet
+
 ## Chapter 10
 
 <sup>1</sup> muscae morientes perdunt suavitatem unguenti pretiosior est sapientia et gloria parva ad tempus stultitia
@@ -216,6 +225,7 @@
 <sup>18</sup> in pigritiis humiliabitur contignatio et in infirmitate manuum perstillabit domus
 <sup>19</sup> in risu faciunt panem ac vinum ut epulentur viventes et pecuniae oboedient omnia
 <sup>20</sup> in cogitatione tua regi ne detrahas et in secreto cubiculi tui ne maledixeris diviti quia avis caeli portabit vocem tuam et qui habet pinnas adnuntiabit sententiam
+
 ## Chapter 11
 
 <sup>1</sup> mitte panem tuum super transeuntes aquas quia post multa tempora invenies illum
@@ -228,6 +238,7 @@
 <sup>8</sup> si annis multis vixerit homo et in omnibus his laetatus fuerit meminisse debet tenebrosi temporis et dierum multorum qui cum venerint vanitatis arguentur praeterita
 <sup>9</sup> laetare ergo iuvenis in adulescentia tua et in bono sit cor tuum in diebus iuventutis tuae et ambula in viis cordis tui et in intuitu oculorum tuorum et scito quod pro omnibus his adducet te Deus in iudicium
 <sup>10</sup> aufer iram a corde tuo et amove malitiam a carne tua adulescentia enim et voluptas vana sunt
+
 ## Chapter 12
 
 <sup>1</sup> memento creatoris tui in diebus iuventutis tuae antequam veniat tempus adflictionis et adpropinquent anni de quibus dicas non mihi placent

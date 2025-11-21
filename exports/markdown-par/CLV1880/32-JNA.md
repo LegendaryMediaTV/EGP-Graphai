@@ -17,6 +17,7 @@
 <sup>15</sup> et tulerunt Ionam et miserunt in mare et stetit mare a fervore suo
 <sup>16</sup> et timuerunt viri timore magno Dominum et immolaverunt hostias Domino et voverunt vota
 <sup>17</sup> (2-1) et praeparavit Dominus piscem grandem ut degluttiret Ionam et erat Iona in ventre piscis tribus diebus et tribus noctibus
+
 ## Chapter 2
 
 <sup>1</sup> (2-2) et oravit Iona ad Dominum Deum suum de utero piscis
@@ -29,6 +30,7 @@
 <sup>8</sup> (2-9) qui custodiunt vanitates frustra misericordiam suam derelinquunt
 <sup>9</sup> (2-10) ego autem in voce laudis immolabo tibi quaecumque vovi reddam pro salute Domino
 <sup>10</sup> (2-11) et dixit Dominus pisci et evomuit Ionam in aridam
+
 ## Chapter 3
 
 <sup>1</sup> et factum est verbum Domini ad Ionam secundo dicens
@@ -41,6 +43,7 @@
 <sup>8</sup> et operiantur saccis homines et iumenta et clament ad Dominum in fortitudine et convertatur vir a via sua mala et ab iniquitate quae est in manibus eorum
 <sup>9</sup> quis scit si convertatur et ignoscat Deus et revertatur a furore irae suae et non peribimus
 <sup>10</sup> et vidit Deus opera eorum quia conversi sunt a via sua mala et misertus est Deus super malitiam quam locutus fuerat ut faceret eis et non fecit
+
 ## Chapter 4
 
 <sup>1</sup> et adflictus est Iona adflictione magna et iratus est

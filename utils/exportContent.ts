@@ -37,9 +37,9 @@ function convertContentToText(content: Content): string {
     return "";
   }
 
-  // Check for subtitle (future feature, skip for now)
+  // Check for subtitle
   if ("subtitle" in content) {
-    return "";
+    return `«${content.subtitle}» `;
   }
 
   // Handle text object
@@ -115,8 +115,13 @@ function convertVerseToText(verse: VerseSchema): string {
     }
 
     // Handle object content
-    if ("heading" in content || "subtitle" in content) {
-      return; // Skip headings and subtitles in text export
+    if ("heading" in content) {
+      return; // Skip headings in text export
+    }
+
+    if ("subtitle" in content) {
+      textParts.push(`«${content.subtitle}»`);
+      return;
     }
 
     if ("paragraph" in content && !("text" in content)) {
@@ -299,8 +304,28 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
     const markdownLines: string[] = [];
 
     for (const [chapterNum, chapterVerses] of sortedChapters) {
+      // Add blank line before chapter header if not the first chapter
+      if (chapterNum > 1) {
+        markdownLines.push("");
+      }
       // Chapter header
       markdownLines.push(`## Chapter ${chapterNum}`);
+
+      // Check for subtitle in first verse
+      let hasSubtitle = false;
+      if (chapterVerses.length > 0) {
+        const firstContent = chapterVerses[0].content;
+        if (Array.isArray(firstContent) && firstContent.length > 0) {
+          const firstItem = firstContent[0];
+          if (typeof firstItem === "object" && "subtitle" in firstItem) {
+            markdownLines.push("");
+            markdownLines.push(`> _${firstItem.subtitle}_`);
+            // Remove the subtitle from the verse content
+            chapterVerses[0].content = firstContent.slice(1);
+            hasSubtitle = true;
+          }
+        }
+      }
 
       // Check if first verse starts with paragraph break
       let firstVerseHasLeadingParagraph = false;
@@ -318,7 +343,7 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
         }
       }
 
-      // Only add blank line after chapter header if first verse doesn't start with paragraph
+      // Add blank line after chapter header/subtitle if no leading paragraph
       if (!firstVerseHasLeadingParagraph) {
         markdownLines.push("");
       }
@@ -330,18 +355,17 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
         markdownLines.push(verseText);
       }
 
-      // Add chapter footnotes if any
+      // Add chapter footnotes if any (no trailing blank line)
       if (chapterFootnotes.length > 0) {
         markdownLines.push("");
         for (const footnote of chapterFootnotes) {
           markdownLines.push(`> ${footnote}`);
         }
-        markdownLines.push("");
       }
     }
 
     const outputPath = path.join(outputDir, file.replace(".json", ".md"));
-    fs.writeFileSync(outputPath, markdownLines.join("\n"), "utf-8");
+    fs.writeFileSync(outputPath, markdownLines.join("\n") + "\n", "utf-8");
     console.log(`Markdown conversion complete: ${outputPath}`);
   }
 }
@@ -376,7 +400,8 @@ function convertVerseToMarkdown(
     }
 
     if ("subtitle" in content) {
-      return; // Skip subtitles in markdown export
+      textParts.push(`> _${content.subtitle}_`);
+      return;
     }
 
     if ("paragraph" in content && !("text" in content)) {

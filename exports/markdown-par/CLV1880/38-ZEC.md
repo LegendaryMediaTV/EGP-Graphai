@@ -21,6 +21,7 @@
 <sup>19</sup> et dixi ad angelum qui loquebatur in me quid sunt haec et dixit ad me haec sunt cornua quae ventilaverunt Iudam et Israhel et Hierusalem
 <sup>20</sup> et ostendit mihi Dominus quattuor fabros
 <sup>21</sup> et dixi quid isti veniunt facere qui ait dicens haec sunt cornua quae ventilaverunt Iudam per singulos viros et nemo eorum levavit caput suum et venerunt isti deterrere ea ut deiciant cornua gentium quae levaverunt cornu super terram Iuda ut dispergerent eam
+
 ## Chapter 2
 
 <sup>1</sup> et levavi oculos meos et vidi et ecce vir et in manu eius funiculus mensorum
@@ -36,6 +37,7 @@
 <sup>11</sup> et adplicabuntur gentes multae ad Dominum in die illa et erunt mihi in populum et habitabo in medio tui et scies quia Dominus exercituum misit me ad te
 <sup>12</sup> et possidebit Dominus Iudam partem suam in terra sanctificata et eliget adhuc Hierusalem
 <sup>13</sup> sileat omnis caro a facie Domini quia consurrexit de habitaculo sancto suo
+
 ## Chapter 3
 
 <sup>1</sup> et ostendit mihi Iesum sacerdotem magnum stantem coram angelo Domini et Satan stabat a dextris eius ut adversaretur ei
@@ -48,6 +50,7 @@
 <sup>8</sup> audi Iesu sacerdos magne tu et amici tui qui habitant coram te quia viri portendentes sunt ecce enim ego adducam servum meum orientem
 <sup>9</sup> quia ecce lapis quem dedi coram Iesu super lapidem unum septem oculi sunt ecce ego celabo sculpturam eius ait Dominus exercituum et auferam iniquitatem terrae illius in die una
 <sup>10</sup> in die illa dicit Dominus exercituum vocabit vir amicum suum subter vineam et subter ficum
+
 ## Chapter 4
 
 <sup>1</sup> et reversus est angelus qui loquebatur in me et suscitavit me quasi virum qui suscitatur de somno suo
@@ -64,6 +67,7 @@
 <sup>12</sup> et respondi secundo et dixi ad eum quid sunt duae spicae olivarum quae sunt iuxta duo rostra aurea in quibus sunt suffusoria ex auro
 <sup>13</sup> et ait ad me dicens numquid nescis quid sunt haec et dixi non domine
 <sup>14</sup> et dixit isti duo filii olei qui adsistunt Dominatori universae terrae
+
 ## Chapter 5
 
 <sup>1</sup> et conversus sum et levavi oculos meos et vidi et ecce volumen volans
@@ -77,6 +81,7 @@
 <sup>9</sup> et levavi oculos meos et vidi et ecce duae mulieres egredientes et spiritus in alis earum et habebant alas quasi alas milvi et levaverunt amphoram inter terram et caelum
 <sup>10</sup> et dixi ad angelum qui loquebatur in me quo istae deferunt amphoram
 <sup>11</sup> et dixit ad me ut aedificetur ei domus in terra Sennaar et stabiliatur et ponatur ibi super basem suam
+
 ## Chapter 6
 
 <sup>1</sup> et conversus sum et levavi oculos meos et vidi et ecce quattuor quadrigae egredientes de medio duorum montium et montes montes aerei
@@ -94,6 +99,7 @@
 <sup>13</sup> et ipse extruet templum Domino et ipse portabit gloriam et sedebit et dominabitur super solio suo et erit sacerdos super solio suo et consilium pacis erit inter duos illos
 <sup>14</sup> et coronae erunt Helem et Tobiae et Idaiae et Hen filio Sofoniae memoriale in templo Domini
 <sup>15</sup> et qui procul sunt venient et aedificabunt in templo Domini et scietis quia Dominus exercituum misit me ad vos erit autem hoc si auditu audieritis vocem Domini Dei vestri
+
 ## Chapter 7
 
 <sup>1</sup> et factum est in anno quarto Darii regis factum est verbum Domini ad Zacchariam in quarta mensis noni qui est casleu
@@ -110,6 +116,7 @@
 <sup>12</sup> et cor suum posuerunt adamantem ne audirent legem et verba quae misit Dominus exercituum in spiritu suo per manum prophetarum priorum et facta est indignatio magna a Domino exercituum
 <sup>13</sup> et factum est sicut locutus est et non audierunt sic clamabunt et non exaudiam dicit Dominus exercituum
 <sup>14</sup> et dispersi eos per omnia regna quae nesciunt et terra desolata est ab eis eo quod non esset transiens et revertens et posuerunt terram desiderabilem in desertum
+
 ## Chapter 8
 
 <sup>1</sup> et factum est verbum Domini exercituum dicens
@@ -135,6 +142,7 @@
 <sup>21</sup> et vadant habitatores unus ad alterum dicentes eamus et deprecemur faciem Domini et quaeramus Dominum exercituum vadam etiam ego
 <sup>22</sup> et venient populi multi et gentes robustae ad quaerendum Dominum exercituum in Hierusalem et deprecandam faciem Domini
 <sup>23</sup> haec dicit Dominus exercituum in diebus illis in quibus adprehendent decem homines ex omnibus linguis gentium et adprehendent fimbriam viri iudaei dicentes ibimus vobiscum audivimus enim quoniam Deus vobiscum est
+
 ## Chapter 9
 
 <sup>1</sup> onus verbi Domini in terra Adrach et Damasci requiei eius quia Domini est oculus hominis et omnium tribuum Israhel
@@ -154,6 +162,7 @@
 <sup>15</sup> Dominus exercituum proteget eos et devorabunt et subicient lapidibus fundae et bibentes inebriabuntur quasi vino et replebuntur ut fialae et quasi cornua altaris
 <sup>16</sup> et salvabit eos Dominus Deus eorum in die illa ut gregem populi sui quia lapides sancti elevantur super terram eius
 <sup>17</sup> quid enim bonum eius est et quid pulchrum eius nisi frumentum electorum et vinum germinans virgines
+
 ## Chapter 10
 
 <sup>1</sup> petite a Domino pluviam in tempore serotino et Dominus faciet nives et pluviam imbris dabit eis singulis herbam in agro
@@ -168,6 +177,7 @@
 <sup>10</sup> et reducam eos de terra Aegypti et de Assyriis congregabo eos et ad terram Galaad et Libani adducam eos et non invenietur eis locus
 <sup>11</sup> et transibit in maris freto et percutiet in mari fluctus et confundentur omnia profunda Fluminis et humiliabitur superbia Assur et sceptrum Aegypti recedet
 <sup>12</sup> confortabo eos in Domino et in nomine eius ambulabunt dicit Dominus
+
 ## Chapter 11
 
 <sup>1</sup> aperi Libane portas tuas et comedat ignis cedros tuas
@@ -187,6 +197,7 @@
 <sup>15</sup> et dixit Dominus ad me adhuc sume tibi vasa pastoris stulti
 <sup>16</sup> quia ecce ego suscitabo pastorem in terra qui derelicta non visitabit dispersum non quaeret et contritum non sanabit et id quod stat non enutriet et carnes pinguium comedet et ungulas eorum dissolvet
 <sup>17</sup> o pastor et idolum derelinquens gregem gladius super brachium eius et super oculum dextrum eius brachium eius ariditate siccabitur et oculus dexter eius tenebrescens obscurabitur
+
 ## Chapter 12
 
 <sup>1</sup> onus verbi Domini super Israhel dixit Dominus extendens caelum et fundans terram et fingens spiritum hominis in eo
@@ -203,6 +214,7 @@
 <sup>12</sup> et planget terra familiae et familiae seorsum familiae domus David seorsum et mulieres eorum seorsum
 <sup>13</sup> familiae domus Nathan seorsum et mulieres eorum seorsum familiae domus Levi seorsum et mulieres eorum seorsum familiae Semei seorsum et mulieres eorum seorsum
 <sup>14</sup> omnes familiae reliquae familiae et familiae seorsum et mulieres eorum seorsum
+
 ## Chapter 13
 
 <sup>1</sup> in die illa erit fons patens domus David et habitantibus Hierusalem in ablutionem peccatoris et menstruatae
@@ -214,6 +226,7 @@
 <sup>7</sup> framea suscitare super pastorem meum et super virum coherentem mihi dicit Dominus exercituum percute pastorem et dispergantur oves et convertam manum meam ad parvulos
 <sup>8</sup> et erunt in omni terra dicit Dominus partes duae in ea disperdentur et deficient et tertia pars relinquetur in ea
 <sup>9</sup> et ducam tertiam partem per ignem et uram eas sicut uritur argentum et probabo eos sicut probatur aurum ipse vocabit nomen meum et ego exaudiam eum dicam populus meus es et ipse dicet Dominus Deus meus
+
 ## Chapter 14
 
 <sup>1</sup> ecce dies veniunt Domini et dividentur spolia tua in medio tui
