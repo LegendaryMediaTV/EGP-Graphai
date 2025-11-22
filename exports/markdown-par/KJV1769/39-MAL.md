@@ -14,6 +14,7 @@
 <sup>12</sup> But ye have profaned it, in that ye say, The table of the LORD [is] polluted; and the fruit thereof, [even] his meat, [is] contemptible.
 <sup>13</sup> Ye said also, Behold, what a weariness [is it]! and ye have snuffed at it, saith the LORD of hosts; and ye brought [that which was] torn, and the lame, and the sick; thus ye brought an offering: should I accept this of your hand? saith the LORD.
 <sup>14</sup> But cursed [be] the deceiver, which hath in his flock a male, and voweth, and sacrificeth unto the Lord a corrupt thing: for I [am] a great King, saith the LORD of hosts, and my name [is] dreadful among the heathen.
+
 ## Chapter 2
 
 <sup>1</sup> And now, O ye priests, this commandment [is] for you.
@@ -33,10 +34,11 @@
 <sup>15</sup> And did not he make one? Yet had he the residue of the spirit. And wherefore one? That he might seek a godly seed. Therefore take heed to your spirit, and let none deal treacherously against the wife of his youth.
 <sup>16</sup> For the LORD, the God of Israel, saith that he hateth putting away: for [one] covereth violence with his garment, saith the LORD of hosts: therefore take heed to your spirit, that ye deal not treacherously.
 <sup>17</sup> Ye have wearied the LORD with your words. Yet ye say, Wherein have we wearied [him]? When ye say, Every one that doeth evil [is] good in the sight of the LORD, and he delighteth in them; or, Where [is] the God of judgment?
+
 ## Chapter 3
 
 <sup>1</sup> Behold, I will send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.
-<sup>2</sup> But who may abide the day of his coming? and who shall stand when he appeareth? for he [is] like a refiner’s fire, and like fullers ’ soap:
+<sup>2</sup> But who may abide the day of his coming? and who shall stand when he appeareth? for he [is] like a refiner’s fire, and like fullers’ soap:
 <sup>3</sup> And he shall sit [as] a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the LORD an offering in righteousness.
 <sup>4</sup> Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old, and as in former years.
 <sup>5</sup> And I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against those that oppress the hireling in [his] wages, the widow, and the fatherless, and that turn aside the stranger [from his right], and fear not me, saith the LORD of hosts.
@@ -53,6 +55,7 @@
 <sup>16</sup> Then they that feared the LORD spake often one to another: and the LORD hearkened, and heard [it], and a book of remembrance was written before him for them that feared the LORD, and that thought upon his name.
 <sup>17</sup> And they shall be mine, saith the LORD of hosts, in that day when I make up my jewels; and I will spare them, as a man spareth his own son that serveth him.
 <sup>18</sup> Then shall ye return, and discern between the righteous and the wicked, between him that serveth God and him that serveth him not.
+
 ## Chapter 4
 
 <sup>1</sup> For, behold, the day cometh, that shall burn as an oven; and all the proud, yea, and all that do wickedly, shall be stubble: and the day that cometh shall burn them up, saith the LORD of hosts, that it shall leave them neither root nor branch.

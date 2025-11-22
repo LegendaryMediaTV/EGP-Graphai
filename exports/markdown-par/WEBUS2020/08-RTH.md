@@ -8,7 +8,9 @@
 <sup>6</sup> Then she arose with her daughters-in-law, that she might return from the country of Moab; for she had heard in the country of Moab how Yahweh<sup>a</sup> had visited his people in giving them bread.
 <sup>7</sup> She went out of the place where she was, and her two daughters-in-law with her. They went on the way to return to the land of Judah.
 <sup>8</sup> Naomi said to her two daughters-in-law, “Go, return each of you to her mother’s house. May Yahweh deal kindly with you, as you have dealt with the dead and with me.
-<sup>9</sup> May Yahweh grant you that you may find rest, each of you in the house of her husband.” Then she kissed them, and they lifted up their voices, and wept.
+<sup>9</sup> May Yahweh grant you that you may find rest, each of you in the house of her husband.”
+
+Then she kissed them, and they lifted up their voices, and wept.
 <sup>10</sup> They said to her, “No, but we will return with you to your people.”
 
 <sup>11</sup> Naomi said, “Go back, my daughters. Why do you want to go with me? Do I still have sons in my womb, that they may be your husbands?
@@ -38,10 +40,14 @@
 ## Chapter 2
 
 <sup>1</sup> Naomi had a relative of her husband’s, a mighty man of wealth, of the family of Elimelech, and his name was Boaz.
-<sup>2</sup> Ruth the Moabitess said to Naomi, “Let me now go to the field, and glean among the ears of grain after him in whose sight I find favor.” She said to her, “Go, my daughter.”
+<sup>2</sup> Ruth the Moabitess said to Naomi, “Let me now go to the field, and glean among the ears of grain after him in whose sight I find favor.”
+
+She said to her, “Go, my daughter.”
 <sup>3</sup> She went, and came and gleaned in the field after the reapers; and she happened to come to the portion of the field belonging to Boaz, who was of the family of Elimelech.
 
-<sup>4</sup> Behold, Boaz came from Bethlehem, and said to the reapers, “May Yahweh be with you.” They answered him, “May Yahweh bless you.”
+<sup>4</sup> Behold, Boaz came from Bethlehem, and said to the reapers, “May Yahweh be with you.”
+
+They answered him, “May Yahweh bless you.”
 
 <sup>5</sup> Then Boaz said to his servant who was set over the reapers, “Whose young lady is this?”
 
@@ -58,14 +64,18 @@
 
 <sup>13</sup> Then she said, “Let me find favor in your sight, my lord, because you have comforted me, and because you have spoken kindly to your servant, though I am not as one of your servants.”
 
-<sup>14</sup> At meal time Boaz said to her, “Come here, and eat some bread, and dip your morsel in the vinegar.” She sat beside the reapers, and they passed her parched grain. She ate, was satisfied, and left some of it.
+<sup>14</sup> At meal time Boaz said to her, “Come here, and eat some bread, and dip your morsel in the vinegar.”
+
+She sat beside the reapers, and they passed her parched grain. She ate, was satisfied, and left some of it.
 <sup>15</sup> When she had risen up to glean, Boaz commanded his young men, saying, “Let her glean even among the sheaves, and don’t reproach her.
 <sup>16</sup> Also pull out some for her from the bundles, and leave it. Let her glean, and don’t rebuke her.”
 
 <sup>17</sup> So she gleaned in the field until evening; and she beat out that which she had gleaned, and it was about an ephah<sup>a</sup> of barley.
 <sup>18</sup> She took it up, and went into the city. Then her mother-in-law saw what she had gleaned; and she brought out and gave to her that which she had left after she had enough.
 
-<sup>19</sup> Her mother-in-law said to her, “Where have you gleaned today? Where have you worked? Blessed be he who noticed you.” She told her mother-in-law with whom she had worked, “The man’s name with whom I worked today is Boaz.”
+<sup>19</sup> Her mother-in-law said to her, “Where have you gleaned today? Where have you worked? Blessed be he who noticed you.”
+
+She told her mother-in-law with whom she had worked, “The man’s name with whom I worked today is Boaz.”
 <sup>20</sup> Naomi said to her daughter-in-law, “May he be blessed by Yahweh, who has not abandoned his kindness to the living and to the dead.” Naomi said to her, “The man is a close relative to us, one of our near kinsmen.”
 
 <sup>21</sup> Ruth the Moabitess said, “Yes, he said to me, ‘You shall stay close to my young men until they have finished all my harvest.’ ”
@@ -86,7 +96,9 @@
 <sup>6</sup> She went down to the threshing floor, and did everything that her mother-in-law told her.
 <sup>7</sup> When Boaz had eaten and drunk, and his heart was merry, he went to lie down at the end of the heap of grain. She came softly, uncovered his feet, and lay down.
 <sup>8</sup> At midnight, the man was startled and turned himself; and behold, a woman lay at his feet.
-<sup>9</sup> He said, “Who are you?” She answered, “I am Ruth your servant. Therefore spread the corner of your garment over your servant; for you are a near kinsman.”
+<sup>9</sup> He said, “Who are you?”
+
+She answered, “I am Ruth your servant. Therefore spread the corner of your garment over your servant; for you are a near kinsman.”
 
 <sup>10</sup> He said, “You are blessed by Yahweh, my daughter. You have shown more kindness in the latter end than at the beginning, because you didn’t follow young men, whether poor or rich.
 <sup>11</sup> Now, my daughter, don’t be afraid. I will do to you all that you say; for all the city of my people knows that you are a worthy woman.
@@ -96,16 +108,21 @@
 <sup>14</sup> She lay at his feet until the morning, then she rose up before one could discern another. For he said, “Let it not be known that the woman came to the threshing floor.”
 <sup>15</sup> He said, “Bring the mantle that is on you, and hold it.” She held it; and he measured six measures of barley, and laid it on her; then he went into the city.
 
-<sup>16</sup> When she came to her mother-in-law, she said, “How did it go, my daughter?” She told her all that the man had done for her.
+<sup>16</sup> When she came to her mother-in-law, she said, “How did it go, my daughter?”
+
+She told her all that the man had done for her.
 <sup>17</sup> She said, “He gave me these six measures of barley; for he said, ‘Don’t go empty to your mother-in-law.’ ”
 
 <sup>18</sup> Then she said, “Wait, my daughter, until you know what will happen; for the man will not rest until he has settled this today.”
+
 ## Chapter 4
 
 <sup>1</sup> Now Boaz went up to the gate and sat down there. Behold, the near kinsman of whom Boaz spoke came by. Boaz said to him, “Come over here, friend, and sit down!” He came over, and sat down.
 <sup>2</sup> Boaz took ten men of the elders of the city, and said, “Sit down here,” and they sat down.
 <sup>3</sup> He said to the near kinsman, “Naomi, who has come back out of the country of Moab, is selling the parcel of land, which was our brother Elimelech’s.
-<sup>4</sup> I thought I should tell you, saying, ‘Buy it before those who sit here, and before the elders of my people.’ If you will redeem it, redeem it; but if you will not redeem it, then tell me, that I may know. For there is no one to redeem it besides you; and I am after you.” He said, “I will redeem it.”
+<sup>4</sup> I thought I should tell you, saying, ‘Buy it before those who sit here, and before the elders of my people.’ If you will redeem it, redeem it; but if you will not redeem it, then tell me, that I may know. For there is no one to redeem it besides you; and I am after you.”
+
+He said, “I will redeem it.”
 
 <sup>5</sup> Then Boaz said, “On the day you buy the field from the hand of Naomi, you must buy it also from Ruth the Moabitess, the wife of the dead, to raise up the name of the dead on his inheritance.”
 

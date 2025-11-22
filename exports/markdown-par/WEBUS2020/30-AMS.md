@@ -5,11 +5,15 @@
 
 <sup>3</sup> Yahweh says:<br>“For three transgressions of Damascus, yes, for four,<br>I will not turn away its punishment,<br>because they have threshed Gilead with threshing instruments of iron;<br>
 <sup>4</sup> but I will send a fire into the house of Hazael,<br>and it will devour the palaces of Ben Hadad.<br>
-<sup>5</sup> I will break the bar of Damascus,<br>and cut off the inhabitant from the valley of Aven,<br>and him who holds the scepter from the house of Eden;<br>and the people of Syria shall go into captivity to Kir,” says Yahweh.
+<sup>5</sup> I will break the bar of Damascus,<br>and cut off the inhabitant from the valley of Aven,<br>and him who holds the scepter from the house of Eden;<br>and the people of Syria shall go into captivity to Kir,”
+
+says Yahweh.
 
 <sup>6</sup> Yahweh says:<br>“For three transgressions of Gaza, yes, for four,<br>I will not turn away its punishment,<br>because they carried away captive the whole community,<br>to deliver them up to Edom;<br>
 <sup>7</sup> but I will send a fire on the wall of Gaza,<br>and it will devour its palaces.<br>
-<sup>8</sup> I will cut off the inhabitant from Ashdod,<br>and him who holds the scepter from Ashkelon;<br>and I will turn my hand against Ekron;<br>and the remnant of the Philistines will perish,” says the Lord<sup>b</sup> Yahweh.
+<sup>8</sup> I will cut off the inhabitant from Ashdod,<br>and him who holds the scepter from Ashkelon;<br>and I will turn my hand against Ekron;<br>and the remnant of the Philistines will perish,”<sup>b</sup>
+
+says the Lord<sup>c</sup> Yahweh.
 
 <sup>9</sup> Yahweh says:<br>“For three transgressions of Tyre, yes, for four,<br>I will not turn away its punishment;<br>because they delivered up the whole community to Edom,<br>and didn’t remember the brotherly covenant;<br>
 <sup>10</sup> but I will send a fire on the wall of Tyre,<br>and it will devour its palaces.”
@@ -19,16 +23,21 @@
 
 <sup>13</sup> Yahweh says:<br>“For three transgressions of the children of Ammon, yes, for four,<br>I will not turn away its punishment,<br>because they have ripped open the pregnant women of Gilead,<br>that they may enlarge their border.<br>
 <sup>14</sup> But I will kindle a fire in the wall of Rabbah,<br>and it will devour its palaces,<br>with shouting in the day of battle,<br>with a storm in the day of the whirlwind;<br>
-<sup>15</sup> and their king will go into captivity,<br>he and his princes together,” says Yahweh.
+<sup>15</sup> and their king will go into captivity,<br>he and his princes together,”
+
+says Yahweh.
 
 > - <sup>a</sup> 2. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 8. The word translated “Lord” is “Adonai.”
+> - <sup>c</sup> 8. The word translated “Lord” is “Adonai.”
 
 ## Chapter 2
 
 <sup>1</sup> Yahweh says:<br>“For three transgressions of Moab, yes, for four,<br>I will not turn away its punishment,<br>because he burned the bones of the king of Edom into lime;<br>
 <sup>2</sup> but I will send a fire on Moab,<br>and it will devour the palaces of Kerioth;<br>and Moab will die with tumult, with shouting, and with the sound of the trumpet;<br>
-<sup>3</sup> and I will cut off the judge from among them,<br>and will kill all its princes with him,” says Yahweh.
+<sup>3</sup> and I will cut off the judge from among them,<br>and will kill all its princes with him,”
+
+says Yahweh.
 
 <sup>4</sup> Yahweh says:<br>“For three transgressions of Judah, yes, for four,<br>I will not turn away its punishment,<br>because they have rejected Yahweh’s law,<br>and have not kept his statutes,<br>and their lies have led them astray,<br>after which their fathers walked;<br>
 <sup>5</sup> but I will send a fire on Judah,<br>and it will devour the palaces of Jerusalem.”
@@ -43,7 +52,9 @@
 <sup>13</sup> Behold,<sup>b</sup> I will crush you in your place,<br>as a cart crushes that is full of grain.<br>
 <sup>14</sup> Flight will perish from the swift.<br>The strong won’t strengthen his force.<br>The mighty won’t deliver himself.<br>
 <sup>15</sup> He who handles the bow won’t stand.<br>He who is swift of foot won’t escape.<br>He who rides the horse won’t deliver himself.<br>
-<sup>16</sup> He who is courageous among the mighty<br>will flee away naked on that day,” says Yahweh.
+<sup>16</sup> He who is courageous among the mighty<br>will flee away naked on that day,”
+
+says Yahweh.
 
 > - <sup>a</sup> 8. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 > - <sup>b</sup> 13. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
@@ -67,7 +78,10 @@
 
 <sup>13</sup> “Listen, and testify against the house of Jacob,” says the Lord Yahweh, the God of Armies.<br>
 <sup>14</sup> “For in the day that I visit the transgressions of Israel on him,<br>I will also visit the altars of Bethel;<br>and the horns of the altar will be cut off,<br>and fall to the ground.<br>
-<sup>15</sup> I will strike the winter house with the summer house;<br>and the houses of ivory will perish,<br>and the great houses will have an end,” says Yahweh.
+<sup>15</sup> I will strike the winter house with the summer house;<br>and the houses of ivory will perish,<br>and the great houses will have an end,”
+
+says Yahweh.
+
 ## Chapter 4
 
 <sup>1</sup> Listen to this word, you cows of Bashan, who are on the mountain of Samaria, who oppress the poor, who crush the needy, who tell their husbands, “Bring us drinks!”<br>
@@ -83,6 +97,7 @@
 <sup>11</sup> “I have overthrown some of you,<br>as when God overthrew Sodom and Gomorrah,<br>and you were like a burning stick plucked out of the fire;<br>yet you haven’t returned to me,” says Yahweh.<br>
 <sup>12</sup> “Therefore I will do this to you, Israel;<br>because I will do this to you,<br>prepare to meet your God, Israel.<br>
 <sup>13</sup> For, behold, he who forms the mountains, creates the wind, declares to man what is his thought,<br>who makes the morning darkness, and treads on the high places of the earth:<br>Yahweh, the God of Armies, is his name.”
+
 ## Chapter 5
 
 <sup>1</sup> Listen to this word which I take up for a lamentation over you, O house of Israel:<br>
@@ -116,6 +131,7 @@
 <sup>25</sup> “Did you bring to me sacrifices and offerings in the wilderness forty years, house of Israel?
 <sup>26</sup> You also carried the tent of your king and the shrine of your images, the star of your god, which you made for yourselves.
 <sup>27</sup> Therefore I will cause you to go into captivity beyond Damascus,” says Yahweh, whose name is the God of Armies.
+
 ## Chapter 6
 
 <sup>1</sup> Woe to those who are at ease in Zion,<br>and to those who are secure on the mountain of Samaria,<br>the notable men of the chief of the nations,<br>to whom the house of Israel come!<br>
@@ -134,6 +150,7 @@
 <sup>12</sup> Do horses run on the rocky crags?<br>Does one plow there with oxen?<br>But you have turned justice into poison,<br>and the fruit of righteousness into bitterness,<br>
 <sup>13</sup> you who rejoice in a thing of nothing, who say,<br>‘Haven’t we taken for ourselves horns by our own strength?’<br>
 <sup>14</sup> For, behold, I will raise up against you a nation, house of Israel,”<br>says Yahweh, the God of Armies;<br>“and they will afflict you from the entrance of Hamath to the brook of the Arabah.”
+
 ## Chapter 7
 
 <sup>1</sup> Thus the Lord Yahweh showed me: behold, he formed locusts in the beginning of the shooting up of the latter growth; and behold, it was the latter growth after the king’s harvest.
@@ -147,7 +164,11 @@
 <sup>6</sup> Yahweh relented concerning this. “This also shall not be,” says the Lord Yahweh.
 
 <sup>7</sup> Thus he showed me: behold, the Lord stood beside a wall made by a plumb line, with a plumb line in his hand.
-<sup>8</sup> Yahweh said to me, “Amos, what do you see?” I said, “A plumb line.” Then the Lord said, “Behold, I will set a plumb line in the middle of my people Israel. I will not again pass by them any more.
+<sup>8</sup> Yahweh said to me, “Amos, what do you see?”
+
+I said, “A plumb line.”
+
+Then the Lord said, “Behold, I will set a plumb line in the middle of my people Israel. I will not again pass by them any more.
 <sup>9</sup> The high places of Isaac will be desolate, the sanctuaries of Israel will be laid waste; and I will rise against the house of Jeroboam with the sword.”
 
 <sup>10</sup> Then Amaziah the priest of Bethel sent to Jeroboam king of Israel, saying, “Amos has conspired against you in the middle of the house of Israel. The land is not able to bear all his words.
@@ -160,11 +181,16 @@
 <sup>15</sup> and Yahweh took me from following the flock, and Yahweh said to me, ‘Go, prophesy to my people Israel.’
 <sup>16</sup> Now therefore listen to Yahweh’s word: ‘You say, Don’t prophesy against Israel, and don’t preach against the house of Isaac.’
 <sup>17</sup> Therefore Yahweh says: ‘Your wife shall be a prostitute in the city, and your sons and your daughters shall fall by the sword, and your land shall be divided by line; and you yourself shall die in a land that is unclean, and Israel shall surely be led away captive out of his land.’ ”
+
 ## Chapter 8
 
 <sup>1</sup> Thus the Lord Yahweh showed me: behold, a basket of summer fruit.
 
-<sup>2</sup> He said, “Amos, what do you see?” I said, “A basket of summer fruit.” Then Yahweh said to me,<br>“The end has come on my people Israel.<br>I will not again pass by them any more.<br>
+<sup>2</sup> He said, “Amos, what do you see?”<br>
+
+I said, “A basket of summer fruit.”<br>
+
+Then Yahweh said to me,<br>“The end has come on my people Israel.<br>I will not again pass by them any more.<br>
 <sup>3</sup> The songs of the temple will be wailing in that day,” says the Lord Yahweh.<br>“The dead bodies will be many. In every place they will throw them out with silence.<br>
 <sup>4</sup> Hear this, you who desire to swallow up the needy,<br>and cause the poor of the land to fail,<br>
 <sup>5</sup> saying, ‘When will the new moon be gone, that we may sell grain?<br>And the Sabbath, that we may market wheat,<br>making the ephah<sup>a</sup> small, and the shekel<sup>b</sup> large,<br>and dealing falsely with balances of deceit;<br>

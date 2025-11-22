@@ -19,6 +19,7 @@
 <sup>17</sup> tu ergo accinge lumbos tuos et surge et loquere ad eos omnia quae ego praecipio tibi ne formides a facie eorum nec enim timere te faciam vultum eorum
 <sup>18</sup> ego quippe dedi te hodie in civitatem munitam et in columnam ferream et in murum aereum super omnem terram regibus Iuda principibus eius et sacerdotibus et populo terrae
 <sup>19</sup> et bellabunt adversum te et non praevalebunt quia tecum ego sum ait Dominus ut liberem te
+
 ## Chapter 2
 
 <sup>1</sup> et factum est verbum Domini ad me dicens
@@ -58,6 +59,7 @@
 <sup>35</sup> et dixisti absque peccato et innocens ego sum et propterea avertatur furor tuus a me ecce ego iudicio contendam tecum eo quod dixeris non peccavi
 <sup>36</sup> quam vilis es facta nimis iterans vias tuas et ab Aegypto confunderis sicut confusa es ab Assur
 <sup>37</sup> nam et ab ista egredieris et manus tuae erunt super caput tuum quoniam obtrivit Dominus confidentiam tuam et nihil habebis prosperum
+
 ## Chapter 3
 
 <sup>1</sup> vulgo dicitur si dimiserit vir uxorem suam et recedens ab eo duxerit virum alterum numquid revertetur ad eam ultra numquid non polluta et contaminata erit mulier illa tu autem fornicata es cum amatoribus multis tamen revertere ad me dicit Dominus
@@ -85,6 +87,7 @@
 <sup>23</sup> vere mendaces erant colles multitudo montium vere in Domino Deo nostro salus Israhel
 <sup>24</sup> confusio comedit laborem patrum nostrorum ab adulescentia nostra greges eorum et armenta eorum filios eorum et filias eorum
 <sup>25</sup> dormiemus in confusione nostra et operiet nos ignominia nostra quoniam Domino Deo nostro peccavimus nos et patres nostri ab adulescentia nostra usque ad hanc diem et non audivimus vocem Domini Dei nostri
+
 ## Chapter 4
 
 <sup>1</sup> si converteris Israhel ait Dominus ad me convertere si abstuleris offendicula tua a facie mea non commoveberis
@@ -118,6 +121,7 @@
 <sup>29</sup> a voce equitis et mittentis sagittam fugit omnis civitas ingressi sunt ardua et ascenderunt rupes universae urbes derelictae sunt et non habitat in eis homo
 <sup>30</sup> tu autem vastata quid facies cum vestieris te coccino cum ornata fueris monili aureo et pinxeris stibio oculos tuos frustra conponeris contempserunt te amatores tui animam tuam quaerent
 <sup>31</sup> vocem enim quasi parturientis audivi angustias ut puerperae vox filiae Sion intermorientis expandentisque manus suas vae mihi quia defecit anima mea propter interfectos
+
 ## Chapter 5
 
 <sup>1</sup> circuite vias Hierusalem et aspicite et considerate et quaerite in plateis eius an inveniatis virum facientem iudicium et quaerentem fidem et propitius ero eius
@@ -151,6 +155,7 @@
 <sup>29</sup> numquid super his non visitabo dicit Dominus aut super gentem huiuscemodi non ulciscetur anima mea
 <sup>30</sup> stupor et mirabilia facta sunt in terra
 <sup>31</sup> prophetae prophetabant mendacium et sacerdotes adplaudebant manibus suis et populus meus dilexit talia quid igitur fiet in novissimo eius
+
 ## Chapter 6
 
 <sup>1</sup> confortamini filii Beniamin in medio Hierusalem et in Thecua clangite bucina et super Bethaccharem levate vexillum quia malum visum est ab aquilone et contritio magna
@@ -183,6 +188,7 @@
 <sup>28</sup> omnes isti principes declinantum ambulantes fraudulenter aes et ferrum universi corrupti sunt
 <sup>29</sup> defecit sufflatorium in igne consumptum est plumbum frustra conflavit conflator malitiae enim eorum non sunt consumptae
 <sup>30</sup> argentum reprobum vocate eos quia Dominus proiecit illos
+
 ## Chapter 7
 
 <sup>1</sup> verbum quod factum est ad Hieremiam a Domino dicens
@@ -219,6 +225,7 @@
 <sup>32</sup> ideo ecce dies venient dicit Dominus et non dicetur amplius Thofeth et vallis filii Ennom sed vallis Interfectionis et sepelient in Thofeth eo quod non sit locus
 <sup>33</sup> et erit morticinum populi huius in cibum volucribus caeli et bestiis terrae et non erit qui abigat
 <sup>34</sup> et quiescere faciam de urbibus Iuda et de plateis Hierusalem vocem gaudii et vocem laetitiae vocem sponsi et vocem sponsae in desolatione enim erit terra
+
 ## Chapter 8
 
 <sup>1</sup> in tempore illo ait Dominus eicient ossa regis Iuda et ossa principum eius et ossa sacerdotum et ossa prophetarum et ossa eorum qui habitaverunt Hierusalem de sepulchris suis
@@ -243,6 +250,7 @@
 <sup>20</sup> transiit messis finita est aestas et nos salvati non sumus
 <sup>21</sup> super contritionem filiae populi mei contritus sum et contristatus stupor obtinuit me
 <sup>22</sup> numquid resina non est in Galaad aut medicus non est ibi quare igitur non est obducta cicatrix filiae populi mei
+
 ## Chapter 9
 
 <sup>1</sup> quis dabit capiti meo aquam et oculis meis fontem lacrimarum et plorabo die et nocte interfectos filiae populi mei
@@ -271,6 +279,7 @@
 <sup>24</sup> sed in hoc glorietur qui gloriatur scire et nosse me quia ego sum Dominus qui facio misericordiam et iudicium et iustitiam in terra haec enim placent mihi ait Dominus
 <sup>25</sup> ecce dies veniunt dicit Dominus et visitabo super omnem qui circumcisum habet praeputium
 <sup>26</sup> super Aegyptum et super Iudam et super Edom et super filios Ammon et super Moab et super omnes qui adtonsi sunt in comam habitantes in deserto quia omnes gentes habent praeputium omnis autem domus Israhel incircumcisi sunt corde
+
 ## Chapter 10
 
 <sup>1</sup> audite verbum quod locutus est Dominus super vos domus Israhel
@@ -298,6 +307,7 @@
 <sup>23</sup> scio Domine quia non est hominis via eius nec viri est ut ambulet et dirigat gressus suos
 <sup>24</sup> corripe me Domine verumtamen in iudicio et non in furore tuo ne forte ad nihilum redigas me
 <sup>25</sup> effunde indignationem tuam super gentes quae non cognoverunt te et super provincias quae nomen tuum non invocaverunt quia comederunt Iacob et devoraverunt eum et consumpserunt illum et decus eius dissipaverunt
+
 ## Chapter 11
 
 <sup>1</sup> verbum quod factum est ad Hieremiam a Domino dicens
@@ -323,6 +333,7 @@
 <sup>21</sup> propterea haec dicit Dominus ad viros Anathoth qui quaerunt animam tuam et dicunt non prophetabis in nomine Domini et non morieris in manibus nostris
 <sup>22</sup> propterea haec dicit Dominus exercituum ecce ego visitabo super eos iuvenes morientur in gladio filii eorum et filiae eorum morientur in fame
 <sup>23</sup> et reliquiae non erunt ex eis inducam enim malum super viros Anathoth annum visitationis eorum
+
 ## Chapter 12
 
 <sup>1</sup> iustus quidem tu es Domine si disputem tecum verumtamen iusta loquar ad te quare via impiorum prosperatur bene est omnibus qui praevaricantur et inique agunt
@@ -342,6 +353,7 @@
 <sup>15</sup> et cum evellero eos convertar et miserebor eorum et reducam eos virum ad hereditatem suam et virum in terram suam
 <sup>16</sup> et erit si eruditi didicerint vias populi mei ut iurent in nomine meo vivit Dominus sicut docuerunt populum meum iurare in Baal aedificabuntur in medio populi mei
 <sup>17</sup> quod si non audierint evellam gentem illam evulsione et perditione ait Dominus
+
 ## Chapter 13
 
 <sup>1</sup> haec dicit Dominus ad me vade et posside tibi lumbare lineum et pones illud super lumbos tuos et in aquam non inferes illud
@@ -371,6 +383,7 @@
 <sup>25</sup> haec sors tua parsque mensurae tuae a me dicit Dominus quia oblita es mei et confisa es in mendacio
 <sup>26</sup> unde et ego nudavi femora tua contra faciem tuam et apparuit ignominia tua
 <sup>27</sup> adulteria tua et hinnitus tuus scelus fornicationis tuae super colles in agro vidi abominationes tuas vae tibi Hierusalem non mundaberis post me usquequo adhuc
+
 ## Chapter 14
 
 <sup>1</sup> quod factum est verbum Domini ad Hieremiam de sermonibus siccitatis
@@ -395,6 +408,7 @@
 <sup>20</sup> cognovimus Domine impietates nostras iniquitatem patrum nostrorum quia peccavimus tibi
 <sup>21</sup> ne nos des in obprobrium propter nomen tuum neque facias nobis contumeliam solii gloriae tuae recordare ne irritum facias foedus tuum nobiscum
 <sup>22</sup> numquid sunt in sculptilibus gentium qui pluant aut caeli possunt dare imbres nonne tu es Domine Deus noster quem expectavimus tu enim fecisti omnia haec
+
 ## Chapter 15
 
 <sup>1</sup> et dixit Dominus ad me si steterit Moses et Samuhel coram me non est anima mea ad populum istum eice illos a facie mea et egrediantur
@@ -418,6 +432,7 @@
 <sup>19</sup> propter hoc haec dicit Dominus si converteris convertam te et ante faciem meam stabis et si separaveris pretiosum a vili quasi os meum eris convertentur ipsi ad te et tu non converteris ad eos
 <sup>20</sup> et dabo te populo huic in murum aereum fortem et bellabunt adversum te et non praevalebunt quia ego tecum sum ut salvem te et eruam dicit Dominus
 <sup>21</sup> et liberabo te de manu pessimorum et redimam te de manu fortium
+
 ## Chapter 16
 
 <sup>1</sup> et factum est verbum Domini ad me dicens
@@ -441,6 +456,7 @@
 <sup>19</sup> Domine fortitudo mea et robur meum et refugium meum in die tribulationis ad te gentes venient ab extremis terrae et dicent vere mendacium possederunt patres nostri vanitatem quae eis non profuit
 <sup>20</sup> numquid faciet sibi homo deos et ipsi non sunt dii
 <sup>21</sup> idcirco ecce ego ostendam eis per vicem hanc ostendam eis manum meam et virtutem meam et scient quia nomen mihi Dominus
+
 ## Chapter 17
 
 <sup>1</sup> peccatum Iuda scriptum est stilo ferreo in ungue adamantino exaratum super latitudinem cordis eorum et in cornibus ararum eorum
@@ -470,6 +486,7 @@
 <sup>25</sup> ingredientur per portas civitatis huius reges et principes sedentes super solium David et ascendentes in curribus et equis ipsi et principes eorum vir Iuda et habitatores Hierusalem et habitabitur civitas haec in sempiternum
 <sup>26</sup> et venient de civitate Iuda et de circuitu Hierusalem et de terra Beniamin et de campestribus et de montuosis et ab austro portantes holocaustum et victimam et sacrificium et tus et inferent oblationem in domum Domini
 <sup>27</sup> si autem non audieritis me ut sanctificetis diem sabbati et ne portetis onus et ne inferatis per portas Hierusalem in die sabbati succendam ignem in portis eius et devorabit domos Hierusalem et non extinguetur
+
 ## Chapter 18
 
 <sup>1</sup> verbum quod factum est ad Hieremiam a Domino dicens
@@ -495,6 +512,7 @@
 <sup>21</sup> propterea da filios eorum in famem et deduc eos in manus gladii fiant uxores eorum absque liberis et viduae et viri earum interficiantur morte iuvenes eorum confodiantur gladio in proelio
 <sup>22</sup> audiatur clamor de domibus eorum adduces enim super eos latronem repente quia foderunt foveam ut caperent me et laqueos absconderunt pedibus meis
 <sup>23</sup> tu autem Domine scis omne consilium eorum adversum me in mortem ne propitieris iniquitati eorum et peccatum eorum a facie tua non deleatur fiant corruentes in conspectu tuo in tempore furoris tui abutere eis
+
 ## Chapter 19
 
 <sup>1</sup> haec dicit Dominus vade et accipe lagunculam figuli testeam a senioribus populi et a senioribus sacerdotum
@@ -512,6 +530,7 @@
 <sup>13</sup> et erunt domus Hierusalem et domus regum Iuda sicut locus Thofeth inmundae omnes domus in quarum domatibus sacrificaverunt omni militiae caeli et libaverunt libamina diis alienis
 <sup>14</sup> venit autem Hieremias de Thofeth quo miserat eum Dominus ad prophetandum et stetit in atrio domus Domini et dixit ad omnem populum
 <sup>15</sup> haec dicit Dominus exercituum Deus Israhel ecce ego inducam super civitatem hanc et super omnes urbes eius universa mala quae locutus sum adversum eam quoniam induraverunt cervicem suam ut non audirent sermones meos
+
 ## Chapter 20
 
 <sup>1</sup> et audivit Phassur filius Emmer sacerdos qui constitutus erat princeps in domo Domini Hieremiam prophetantem sermones istos
@@ -532,6 +551,7 @@
 <sup>16</sup> sit homo ille ut sunt civitates quas subvertit Dominus et non paenituit eum audiat clamorem mane et ululatum in tempore meridiano
 <sup>17</sup> qui non me interfecit a vulva ut fieret mihi mater mea sepulchrum et vulva eius conceptus aeternus
 <sup>18</sup> quare de vulva egressus sum ut viderem laborem et dolorem et consumerentur in confusione dies mei
+
 ## Chapter 21
 
 <sup>1</sup> verbum quod factum est ad Hieremiam a Domino quando misit ad eum rex Sedecias Phassur filium Melchiae et Sophoniam filium Maasiae sacerdotem dicens
@@ -548,6 +568,7 @@
 <sup>12</sup> domus David haec dicit Dominus iudicate mane iudicium et eruite vi oppressum de manu calumniantis ne forte egrediatur ut ignis indignatio mea et succendatur et non sit qui extinguat propter malitiam studiorum vestrorum
 <sup>13</sup> ecce ego ad te habitatricem vallis solidae atque campestris ait Dominus qui dicitis quis percutiet nos et quis ingredietur domos nostras
 <sup>14</sup> et visitabo super vos iuxta fructum studiorum vestrorum dicit Dominus et succendam ignem in saltu eius et devorabit omnia in circuitu eius
+
 ## Chapter 22
 
 <sup>1</sup> haec dicit Dominus descende in domum regis Iuda et loqueris ibi verbum hoc
@@ -580,6 +601,7 @@
 <sup>28</sup> numquid vas fictile atque contritum vir iste Iechonias numquid vas absque omni voluptate quare abiecti sunt ipse et semen eius et proiecti in terram quam ignoraverunt
 <sup>29</sup> terra terra terra audi sermonem Domini
 <sup>30</sup> haec dicit Dominus scribe virum istum sterilem virum qui in diebus suis non prosperabitur nec enim erit de semine eius vir qui sedeat super solium David et potestatem habeat ultra in Iuda
+
 ## Chapter 23
 
 <sup>1</sup> vae pastoribus qui disperdunt et dilacerant gregem pascuae meae dicit Dominus
@@ -622,6 +644,7 @@
 <sup>38</sup> si autem onus Domini dixeritis propter hoc haec dicit Dominus quia dixistis sermonem istum onus Domini et misi ad vos dicens nolite dicere onus Domini
 <sup>39</sup> propterea ecce ego tollam vos portans et derelinquam vos et civitatem quam dedi vobis et patribus vestris a facie mea
 <sup>40</sup> et dabo vos in obprobrium sempiternum et in ignominiam aeternam quae numquam oblivione delebitur
+
 ## Chapter 24
 
 <sup>1</sup> ostendit mihi Dominus et ecce duo calathi pleni ficis positi ante templum Domini postquam transtulit Nabuchodonosor rex Babylonis Iechoniam filium Ioachim regem Iuda et principes eius et fabrum et inclusorem de Hierusalem et adduxit eos in Babylonem
@@ -634,6 +657,7 @@
 <sup>8</sup> et sicut ficus pessimae quae comedi non possunt eo quod sint malae haec dicit Dominus sic dabo Sedeciam regem Iuda et principes eius et reliquos de Hierusalem qui remanserunt in urbe hac et qui habitant in terra Aegypti
 <sup>9</sup> et dabo eos in vexationem adflictionemque omnibus regnis terrae in obprobrium et in parabolam et in proverbium et in maledictionem in universis locis ad quos eieci eos
 <sup>10</sup> et mittam in eis gladium et famem et pestem donec consumantur de terra quam dedi eis et patribus eorum
+
 ## Chapter 25
 
 <sup>1</sup> verbum quod factum est ad Hieremiam de omni populo Iudae in anno quarto Ioachim filii Iosiae regis Iuda ipse est annus primus Nabuchodonosor regis Babylonis
@@ -674,6 +698,7 @@
 <sup>36</sup> vox clamoris pastorum et ululatus optimatium gregis quia vastavit Dominus pascuam eorum
 <sup>37</sup> et conticuerunt arva pacis a facie irae furoris Domini
 <sup>38</sup> dereliquit quasi leo umbraculum suum facta est terra eorum in desolationem a facie irae columbae et a facie irae furoris Domini
+
 ## Chapter 26
 
 <sup>1</sup> in principio regis Ioachim filii Iosiae regis Iuda factum est verbum istud a Domino dicens
@@ -700,6 +725,7 @@
 <sup>22</sup> et misit rex Ioachim viros in Aegyptum Elnathan filium Achobor et viros cum eo in Aegyptum
 <sup>23</sup> et eduxerunt Uriam de Aegypto et adduxerunt eum ad regem Ioachim et percussit eum gladio et proiecit cadaver eius in sepulchris vulgi ignobilis
 <sup>24</sup> igitur manus Ahicam filii Saphan fuit cum Hieremia ut non traderetur in manu populi et interficerent eum
+
 ## Chapter 27
 
 <sup>1</sup> in principio regni Ioachim filii Iosiae regis Iuda factum est verbum istud ad Hieremiam a Domino dicens
@@ -724,6 +750,7 @@
 <sup>20</sup> quae non tulit Nabuchodonosor rex Babylonis cum transferret Iechoniam filium Ioachim regem Iuda de Hierusalem in Babylonem et omnes optimates Iuda et Hierusalem
 <sup>21</sup> quia haec dicit Dominus exercituum Deus Israhel ad vasa quae derelicta sunt in domum Domini et in domum regis Iuda et Hierusalem
 <sup>22</sup> in Babylonem transferentur et ibi erunt usque ad diem visitationis suae dicit Dominus et adferri faciam ea et restitui in loco isto
+
 ## Chapter 28
 
 <sup>1</sup> et factum est in anno illo in principio regni Sedeciae regis Iuda in anno quarto in mense quinto dixit ad me Ananias filius Azur propheta de Gabaon in domo Domini coram sacerdotibus et omni populo dicens
@@ -743,6 +770,7 @@
 <sup>15</sup> et dixit Hieremias propheta ad Ananiam prophetam audi Anania non misit te Dominus et tu confidere fecisti populum istum in mendacio
 <sup>16</sup> idcirco haec dicit Dominus ecce emittam te a facie terrae hoc anno morieris adversum Dominum enim locutus es
 <sup>17</sup> et mortuus est Ananias propheta in anno illo mense septimo
+
 ## Chapter 29
 
 <sup>1</sup> et haec sunt verba libri quae misit Hieremias propheta de Hierusalem ad reliquias seniorum transmigrationis et ad sacerdotes et ad prophetas et ad omnem populum quem transduxerat Nabuchodonosor de Hierusalem in Babylonem
@@ -777,6 +805,7 @@
 <sup>30</sup> et factum est verbum Domini ad Hieremiam dicens
 <sup>31</sup> mitte ad omnem transmigrationem dicens haec dicit Dominus ad Semeiam Neelamiten pro eo quod prophetavit vobis Semeias et ego non misi eum et fecit vos confidere in mendacio
 <sup>32</sup> idcirco haec dicit Dominus ecce ego visitabo super Semeiam Neelamiten et super semen eius non erit ei vir sedens in medio populi huius et non videbit bonum quod ego faciam populo meo ait Dominus quia praevaricationem locutus est adversum Dominum
+
 ## Chapter 30
 
 <sup>1</sup> hoc verbum quod factum est ad Hieremiam a Domino dicens
@@ -803,6 +832,7 @@
 <sup>22</sup> et eritis mihi in populum et ego ero vobis in Deum
 <sup>23</sup> ecce turbo Domini furor egrediens procella ruens in capite impiorum conquiescet
 <sup>24</sup> non avertet iram indignationis Dominus donec faciat et conpleat cogitationem cordis sui in novissimo dierum intellegetis ea
+
 ## Chapter 31
 
 <sup>1</sup> in tempore illo dicit Dominus ero Deus universis cognationibus Israhel et ipsi erunt mihi in populum
@@ -845,6 +875,7 @@
 <sup>38</sup> ecce dies veniunt dicit Dominus et aedificabitur civitas Domino a turre Ananehel usque ad portam Anguli
 <sup>39</sup> et exibit ultra norma mensurae in conspectu eius super collem Gareb et circuibit Goatha
 <sup>40</sup> et omnem vallem cadaverum et cineris et universam regionem mortis usque ad torrentem Cedron et usque ad angulum portae Equorum orientalis sanctum Domini non evelletur et non destruetur ultra in perpetuum
+
 ## Chapter 32
 
 <sup>1</sup> verbum quod factum est ad Hieremiam a Domino in anno decimo Sedeciae regis Iuda ipse est annus octavusdecimus Nabuchodonosor
@@ -891,6 +922,7 @@
 <sup>42</sup> quia haec dicit Dominus sicut adduxi super populum istum omne malum hoc grande sic adducam super eos omne bonum quod ego loquor ad eos
 <sup>43</sup> et possidebuntur agri in terra ista de qua vos dicitis quod deserta sit eo quod non remanserit homo et iumentum et data sit in manu Chaldeorum
 <sup>44</sup> agri pecunia ementur et scribentur in libro et inprimetur signum et testis adhibebitur in terra Beniamin et in circuitu Hierusalem in civitatibus Iuda et in civitatibus montanis et in civitatibus campestribus et in civitatibus quae ad austrum sunt quia convertam captivitatem eorum ait Dominus
+
 ## Chapter 33
 
 <sup>1</sup> et factum est verbum Domini ad Hieremiam secundo cum adhuc clausus esset in atrio carceris dicens
@@ -919,6 +951,7 @@
 <sup>24</sup> numquid non vidisti quid populus hic locutus sit dicens duae cognationes quas elegerat Dominus abiectae sunt et populum meum despexerunt eo quod non sit ultra gens coram eis
 <sup>25</sup> haec dicit Dominus si pactum meum inter diem et noctem et leges caelo et terrae non posui
 <sup>26</sup> equidem et semen Iacob et David servi mei proiciam ut non adsumam de semine eius principes seminis Abraham et Isaac et Iacob reducam enim conversionem eorum et miserebor eis
+
 ## Chapter 34
 
 <sup>1</sup> verbum quod factum est ad Hieremiam a Domino quando Nabuchodonosor rex Babylonis et omnis exercitus eius universaque regna terrae quae erant sub potestate manus eius et omnes populi bellabant contra Hierusalem et contra omnes urbes eius dicens
@@ -943,6 +976,7 @@
 <sup>20</sup> et dabo eos in manu inimicorum suorum et in manu quaerentium animam eorum et erit morticinum eorum in escam volucribus caeli et bestiis terrae
 <sup>21</sup> et Sedeciam regem Iuda et principes eius dabo in manu inimicorum suorum et in manu quaerentium animam eorum et in manu exercituum regis Babylonis qui recesserunt a vobis
 <sup>22</sup> ecce ego praecipio dicit Dominus et reducam eos in civitatem hanc et proeliabuntur adversum eam et capient eam et incendent igni et civitates Iuda dabo in solitudinem eo quod non sit habitator
+
 ## Chapter 35
 
 <sup>1</sup> verbum quod factum est ad Hieremiam a Domino in diebus Ioachim filii Iosiae regis Iuda dicens
@@ -964,6 +998,7 @@
 <sup>17</sup> idcirco haec dicit Dominus exercituum Deus Israhel ecce ego adduco super Iudam et super omnes habitatores Hierusalem universam adflictionem quam locutus sum adversum eos eo quod locutus sum ad illos et non audierunt vocavi illos et non responderunt mihi
 <sup>18</sup> domui autem Rechabitarum dixit Hieremias haec dicit Dominus exercituum Deus Israhel pro eo quod oboedistis praecepto Ionadab patris vestri et custodistis omnia mandata eius et fecistis universa quae praecepit vobis
 <sup>19</sup> propterea haec dicit Dominus exercituum Deus Israhel non deficiet vir de stirpe Ionadab filii Rechab stans in conspectu meo cunctis diebus
+
 ## Chapter 36
 
 <sup>1</sup> et factum est in anno quarto Ioachim filii Iosiae regis Iuda factum est verbum hoc ad Hieremiam a Domino dicens
@@ -998,6 +1033,7 @@
 <sup>30</sup> propterea haec dicit Dominus contra Ioachim regem Iuda non erit ex eo qui sedeat super solium David et cadaver eius proicietur ad aestum per diem et ad gelu per noctem
 <sup>31</sup> et visitabo contra eum et contra semen eius et contra servos eius iniquitates suas et adducam super eos et super habitatores Hierusalem et super viros Iuda omne malum quod locutus sum ad eos et non audierunt
 <sup>32</sup> Hieremias autem tulit volumen aliud et dedit illud Baruch filio Neriae scribae qui scripsit in eo ex ore Hieremiae omnes sermones libri quem conbuserat Ioachim rex Iuda igni et insuper additi sunt sermones multo plures quam ante fuerant
+
 ## Chapter 37
 
 <sup>1</sup> et regnavit rex Sedecias filius Iosiae pro Iechonia filio Ioachim quem constituit regem Nabuchodonosor rex Babylonis in terra Iuda
@@ -1012,15 +1048,26 @@
 <sup>10</sup> ergo cum recessisset exercitus Chaldeorum ab Hierusalem propter exercitum Pharaonis
 <sup>11</sup> egressus est Hieremias de Hierusalem ut iret in terram Beniamin et divideret ibi possessionem in conspectu civium
 <sup>12</sup> cumque pervenisset ad portam Beniamin erat ibi custos portae per vices
-<sup>13</sup> (37-12) nomine Hierias filius Selemiae filii Ananiae et adprehendit Hieremiam prophetam dicens ad Chaldeos profugis
-<sup>14</sup> (37-13) et respondit Hieremias falsum est non fugio ad Chaldeos et non audivit eum sed conprehendit Hierias Hieremiam et adduxit eum ad principes
-<sup>15</sup> (37-14) quam ob rem irati principes contra Hieremiam caesum eum miserunt in carcerem qui erat in domo Ionathan scribae ipse enim praepositus erat super carcerem
-<sup>16</sup> (37-15) itaque ingressus est Hieremias in domum laci et in ergastula et sedit ibi Hieremias diebus multis
-<sup>17</sup> (37-16) mittens autem rex Sedecias tulit eum et interrogavit in domo sua abscondite et dixit putasne est sermo a Domino et dixit Hieremias est et ait in manu regis Babylonis traderis
-<sup>18</sup> (37-17) et dixit Hieremias ad regem Sedeciam quid peccavi tibi et servis tuis et populo tuo quia misisti me in domum carceris
-<sup>19</sup> (37-18) ubi sunt prophetae vestri qui prophetabant vobis et dicebant non veniet rex Babylonis super vos et super terram hanc
-<sup>20</sup> (37-19) nunc ergo audi obsecro domine mi rex valeat deprecatio mea in conspectu tuo et ne me remittas in domum Ionathan scribae ne moriar ibi
-<sup>21</sup> (37-20) praecepit ergo rex Sedecias ut traderetur Hieremias in vestibulo carceris et daretur ei torta panis cotidie excepto pulmento donec consumerentur omnes panes de civitate et mansit Hieremias in vestibulo carceris
+<sup>13</sup> <sup>a</sup>nomine Hierias filius Selemiae filii Ananiae et adprehendit Hieremiam prophetam dicens ad Chaldeos profugis
+<sup>14</sup> <sup>b</sup>et respondit Hieremias falsum est non fugio ad Chaldeos et non audivit eum sed conprehendit Hierias Hieremiam et adduxit eum ad principes
+<sup>15</sup> <sup>c</sup>quam ob rem irati principes contra Hieremiam caesum eum miserunt in carcerem qui erat in domo Ionathan scribae ipse enim praepositus erat super carcerem
+<sup>16</sup> <sup>d</sup>itaque ingressus est Hieremias in domum laci et in ergastula et sedit ibi Hieremias diebus multis
+<sup>17</sup> <sup>e</sup>mittens autem rex Sedecias tulit eum et interrogavit in domo sua abscondite et dixit putasne est sermo a Domino et dixit Hieremias est et ait in manu regis Babylonis traderis
+<sup>18</sup> <sup>f</sup>et dixit Hieremias ad regem Sedeciam quid peccavi tibi et servis tuis et populo tuo quia misisti me in domum carceris
+<sup>19</sup> <sup>g</sup>ubi sunt prophetae vestri qui prophetabant vobis et dicebant non veniet rex Babylonis super vos et super terram hanc
+<sup>20</sup> <sup>h</sup>nunc ergo audi obsecro domine mi rex valeat deprecatio mea in conspectu tuo et ne me remittas in domum Ionathan scribae ne moriar ibi
+<sup>21</sup> <sup>i</sup>praecepit ergo rex Sedecias ut traderetur Hieremias in vestibulo carceris et daretur ei torta panis cotidie excepto pulmento donec consumerentur omnes panes de civitate et mansit Hieremias in vestibulo carceris
+
+> - <sup>a</sup> 13. Originally verse 37:12.
+> - <sup>b</sup> 14. Originally verse 37:13.
+> - <sup>c</sup> 15. Originally verse 37:14.
+> - <sup>d</sup> 16. Originally verse 37:15.
+> - <sup>e</sup> 17. Originally verse 37:16.
+> - <sup>f</sup> 18. Originally verse 37:17.
+> - <sup>g</sup> 19. Originally verse 37:18.
+> - <sup>h</sup> 20. Originally verse 37:19.
+> - <sup>i</sup> 21. Originally verse 37:20.
+
 ## Chapter 38
 
 <sup>1</sup> audivit autem Saphatias filius Matthan et Gedelias filius Phassur et Iuchal filius Selemiae et Phassur filius Melchiae sermones quos Hieremias loquebatur ad omnem populum dicens
@@ -1051,6 +1098,7 @@
 <sup>26</sup> dices ad eos prostravi ego preces meas coram rege ne me reduci iuberet in domum Ionathan et ibi morerer
 <sup>27</sup> venerunt ergo omnes principes ad Hieremiam et interrogaverunt eum et locutus est eis iuxta omnia verba quae praeceperat ei rex et cessaverunt ab eo nihil enim fuerat auditum
 <sup>28</sup> mansit vero Hieremias in vestibulo carceris usque ad diem quo capta est Hierusalem et factum est ut caperetur Hierusalem
+
 ## Chapter 39
 
 <sup>1</sup> anno nono Sedeciae regis Iuda mense decimo venit Nabuchodonosor rex Babylonis et omnis exercitus eius ad Hierusalem et obsidebant eam
@@ -1071,6 +1119,7 @@
 <sup>16</sup> vade et dic Abdemelech Aethiopi dicens haec dicit Dominus exercituum Deus Israhel ecce ego inducam sermones meos super civitatem hanc in malum et non in bonum et erunt in conspectu tuo in die illa
 <sup>17</sup> et liberabo te in die illa ait Dominus et non traderis in manus virorum quos tu formidas
 <sup>18</sup> sed eruens liberabo te et gladio non cades sed erit tibi anima tua in salutem quia in me habuisti fiduciam ait Dominus
+
 ## Chapter 40
 
 <sup>1</sup> sermo qui factus est ad Hieremiam a Domino postquam dimissus est a Nabuzardan magistro militiae de Rama quando tulit eum vinctum catenis in medio omnium qui migrabant de Hierusalem et Iuda et ducebantur in Babylonem
@@ -1089,6 +1138,7 @@
 <sup>14</sup> et dixerunt ei scito quia Baalis rex filiorum Ammon misit Ismahel filium Nathaniae percutere animam tuam et non credidit eis Godolias filius Ahicam
 <sup>15</sup> Iohanan vero filius Caree dixit ad Godoliam seorsum in Masphat loquens ibo et percutiam Ismahel filium Nathaniae nullo sciente ne interficiat animam tuam et dissipentur omnes Iudaei qui congregati sunt ad te et peribunt reliquiae Iuda
 <sup>16</sup> et ait Godolias filius Ahicam ad Iohanan filium Caree noli facere verbum hoc falsum enim tu loqueris de Ismahel
+
 ## Chapter 41
 
 <sup>1</sup> et factum est in mense septimo venit Ismahel filius Nathaniae filii Elisama de semine regali et optimates regis et decem viri cum eo ad Godoliam filium Ahicam in Masphat et comederunt ibi panes simul in Masphat
@@ -1109,6 +1159,7 @@
 <sup>16</sup> tulit ergo Iohanan filius Caree et omnes principes bellatorum qui erant cum eo universas reliquias vulgi quas reduxerat ab Ismahel filio Nathaniae de Masphat postquam percussit Godoliam filium Ahicam fortes viros ad proelium et mulieres et pueros et eunuchos quos reduxerat de Gabaon
 <sup>17</sup> et abierunt et sederunt peregrinantes in Chamaam quae est iuxta Bethleem ut pergerent et introirent Aegyptum
 <sup>18</sup> a facie Chaldeorum timebant enim eos quia percusserat Ismahel filius Nathaniae Godoliam filium Ahicam quem praeposuerat rex Babylonis in terra Iuda
+
 ## Chapter 42
 
 <sup>1</sup> et accesserunt omnes principes bellatorum et Iohanan filius Caree et Iezonias filius Osaiae et reliquum vulgus a parvo usque ad magnum
@@ -1133,6 +1184,7 @@
 <sup>20</sup> quia decepistis animas vestras vos enim misistis me ad Dominum Deum nostrum dicentes ora pro nobis ad Dominum Deum nostrum et iuxta omnia quaecumque dixerit tibi Dominus Deus noster sic adnuntia nobis et faciemus
 <sup>21</sup> et adnuntiavi vobis hodie et non audistis vocem Domini Dei vestri super universis pro quibus misit me ad vos
 <sup>22</sup> nunc ergo scientes scietis quia gladio et fame et peste moriemini in loco ad quem voluistis intrare ut habitaretis ibi
+
 ## Chapter 43
 
 <sup>1</sup> factum est autem cum conplesset Hieremias loquens ad populum universos sermones Domini Dei eorum pro quibus miserat eum Dominus Deus eorum ad illos omnia verba haec
@@ -1148,6 +1200,7 @@
 <sup>11</sup> veniensque percutiet terram Aegypti quos in morte in morte et quos in captivitate in captivitate et quos in gladio in gladio
 <sup>12</sup> et succendet ignem in delubris deorum Aegypti et conburet ea et captivos ducet illos et amicietur terra Aegypti sicut amicitur pastor pallio suo et egredietur inde in pace
 <sup>13</sup> et conteret statuas domus Solis quae sunt in terra Aegypti et delubra deorum Aegypti conburet igni
+
 ## Chapter 44
 
 <sup>1</sup> verbum quod factum est ad Hieremiam ad omnes Iudaeos qui habitant in terra Aegypti habitantes in Magdolo et in Tafnis et in Memphis et in terra Fatures dicens
@@ -1180,6 +1233,7 @@
 <sup>28</sup> et qui fugerint gladium revertentur de terra Aegypti in terram Iuda viri pauci et scient omnes reliquiae Iuda ingredientium terram Aegypti ut habitent ibi cuius sermo conpleatur meus an illorum
 <sup>29</sup> et hoc vobis signum ait Dominus quod visitem ego super vos in loco isto ut sciatis quia vere conplebuntur sermones mei contra vos in malum
 <sup>30</sup> haec dicit Dominus ecce ego tradam Pharaonem Efree regem Aegypti in manu inimicorum eius et in manu quaerentium animam illius sicut tradidi Sedeciam regem Iuda in manu Nabuchodonosor regis Babylonis inimici sui et quaerentis animam eius
+
 ## Chapter 45
 
 <sup>1</sup> verbum quod locutus est Hieremias propheta ad Baruch filium Neri cum scripsisset verba haec in libro de ore Hieremiae anno quarto Ioachim filii Iosiae regis Iuda dicens
@@ -1187,6 +1241,7 @@
 <sup>3</sup> dixisti vae misero mihi quoniam addidit Dominus dolorem dolori meo laboravi in gemitu meo et requiem non inveni
 <sup>4</sup> haec dices ad eum sic dicit Dominus ecce quos aedificavi ego destruo et quos plantavi ego evello et universam terram hanc
 <sup>5</sup> et tu quaeris tibi grandia noli quaerere quia ecce ego adducam malum super omnem carnem ait Dominus et dabo tibi animam tuam in salutem in omnibus locis ad quaecumque perrexeris
+
 ## Chapter 46
 
 <sup>1</sup> quod factum est verbum Domini ad Hieremiam prophetam contra gentes
@@ -1217,6 +1272,7 @@
 <sup>26</sup> et dabo eos in manu quaerentium animam eorum et in manu Nabuchodonosor regis Babylonis et in manu servorum eius et post haec habitabitur sicut diebus pristinis ait Dominus
 <sup>27</sup> et tu ne timeas serve meus Iacob et ne paveas Israhel quia ecce ego salvum te faciam de longinquo et semen tuum de terra captivitatis suae et revertetur Iacob et quiescet et prosperabitur et non erit qui exterreat eum
 <sup>28</sup> et tu noli timere serve meus Iacob ait Dominus quia tecum ego sum quia consumam ego cunctas gentes ad quas eieci te te vero non consumam sed castigabo te in iudicio nec quasi innocenti parcam tibi
+
 ## Chapter 47
 
 <sup>1</sup> quod factum est verbum Domini ad Hieremiam prophetam contra Palestinos antequam percuteret Pharao Gazam
@@ -1226,6 +1282,7 @@
 <sup>5</sup> venit calvitium super Gazam conticuit Ascalon et reliquiae vallis earum usquequo concideris
 <sup>6</sup> o mucro Domini usquequo non quiescis ingredere in vaginam tuam refrigerare et sile
 <sup>7</sup> quomodo quiescet cum Dominus praeceperit ei adversus Ascalonem et adversus maritimas eius regiones ibique condixerit illi
+
 ## Chapter 48
 
 <sup>1</sup> ad Moab haec dicit Dominus exercituum Deus Israhel vae super Nabo quoniam vastata est et confusa capta est Cariathaim confusa est fortis et tremuit
@@ -1275,6 +1332,7 @@
 <sup>45</sup> in umbra Esebon steterunt de laqueo fugientes quia ignis egressus est de Esebon et flamma de medio Seon et devorabit partem Moab et verticem filiorum tumultus
 <sup>46</sup> vae tibi Moab peristi popule Chamos quia conprehensi sunt filii tui et filiae tuae in captivitatem
 <sup>47</sup> et convertam captivitatem Moab in novissimis diebus ait Dominus hucusque iudicia Moab
+
 ## Chapter 49
 
 <sup>1</sup> ad filios Ammon haec dicit Dominus numquid filii non sunt Israhel aut heres non est ei cur igitur hereditate possedit Melchom Gad et populus eius in urbibus eius habitavit
@@ -1316,6 +1374,7 @@
 <sup>37</sup> et pavere faciam Aelam coram inimicis suis et in conspectu quaerentium animam eorum et adducam super eos malum iram furoris mei dicit Dominus et emittam post eos gladium donec consumam eos
 <sup>38</sup> et ponam solium meum in Aelam et perdam inde reges et principes ait Dominus
 <sup>39</sup> in novissimis autem diebus reverti faciam captivos Aelam dicit Dominus
+
 ## Chapter 50
 
 <sup>1</sup> verbum quod locutus est Dominus de Babylone et de terra Chaldeorum in manu Hieremiae prophetae
@@ -1364,6 +1423,7 @@
 <sup>44</sup> ecce quasi leo ascendet de superbia Iordanis ad pulchritudinem robustam quia subito currere eum faciam ad illam et quis erit electus quem praeponam ei quis enim similis mei et quis sustinebit me et quis est iste pastor qui resistat vultui meo
 <sup>45</sup> propterea audite consilium Domini quod mente concepit adversum Babylonem et cogitationes eius quas cogitavit super terram Chaldeorum nisi detraxerint eos parvuli gregum nisi dissipatum fuerit cum ipsis habitaculum eorum
 <sup>46</sup> a voce captivitatis Babylonis commota est terra et clamor inter gentes auditus est
+
 ## Chapter 51
 
 <sup>1</sup> haec dicit Dominus ecce ego suscitabo super Babylonem et super habitatores eius qui cor suum levaverunt contra me quasi ventum pestilentem
@@ -1430,6 +1490,7 @@
 <sup>62</sup> dices Domine tu locutus es contra locum istum ut disperderes eum ne sit qui in eo habitet ab homine usque ad pecus et ut sit perpetua solitudo
 <sup>63</sup> cumque conpleveris legere librum istum ligabis ad eum lapidem et proicies illum in medio Eufraten
 <sup>64</sup> et dices sic submergetur Babylon et non consurget a facie adflictionis quam ego adduco super eam et dissolventur hucusque verba Hieremiae
+
 ## Chapter 52
 
 <sup>1</sup> filius viginti et unius anni Sedecias cum regnare coepisset et undecim annis regnavit in Hierusalem et nomen matris eius Amithal filia Hieremiae de Lobna

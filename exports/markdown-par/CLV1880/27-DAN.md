@@ -21,6 +21,7 @@
 <sup>19</sup> cumque locutus eis fuisset rex non sunt inventi de universis tales ut Danihel Ananias Misahel et Azarias et steterunt in conspectu regis
 <sup>20</sup> et omne verbum sapientiae et intellectus quod sciscitatus est ab eis rex invenit in eis decuplum super cunctos ariolos et magos qui erant in universo regno eius
 <sup>21</sup> fuit autem Danihel usque ad annum primum Cyri regis
+
 ## Chapter 2
 
 <sup>1</sup> in anno secundo regni Nabuchodonosor vidit Nabuchodonosor somnium et conterritus est spiritus eius et somnium eius fugit ab eo
@@ -72,6 +73,7 @@
 <sup>47</sup> loquens ergo rex ait Daniheli vere Deus vester Deus deorum est et Dominus regum et revelans mysteria quoniam potuisti aperire sacramentum hoc
 <sup>48</sup> tunc rex Danihelum in sublime extulit et munera multa et magna dedit ei et constituit eum principem super omnes provincias Babylonis et praefectum magistratuum super cunctos sapientes Babylonis
 <sup>49</sup> Danihel autem postulavit a rege et constituit super opera provinciae Babylonis Sedrac Misac et Abdenago ipse autem Danihel erat in foribus regis
+
 ## Chapter 3
 
 <sup>1</sup> Nabuchodonosor rex fecit statuam auream altitudine cubitorum sexaginta latitudine cubitorum sex et statuit eam in campo Duram provinciae Babylonis
@@ -104,45 +106,85 @@
 <sup>28</sup> et erumpens Nabuchodonosor ait benedictus Deus eorum Sedrac videlicet Misac et Abdenago qui misit angelum suum et eruit servos suos quia crediderunt in eo et verbum regis inmutaverunt et tradiderunt corpora sua ne servirent et ne adorarent omnem deum excepto Deo suo
 <sup>29</sup> a me ergo positum est hoc decretum ut omnis populus et tribus et lingua quaecumque locuta fuerit blasphemiam contra Deum Sedrac Misac et Abdenago dispereat et domus eius vastetur neque enim est Deus alius qui possit ita salvare
 <sup>30</sup> tunc rex promovit Sedrac Misac et Abdenago in provincia Babylonis
+
 ## Chapter 4
 
-<sup>1</sup> (3-31) Nabuchodonosor rex omnibus populis gentibus et linguis quae habitant in universa terra pax vobis multiplicetur
-<sup>2</sup> (3-32) signa et mirabilia fecit apud me Deus excelsus placuit ergo mihi praedicare
-<sup>3</sup> (3-33) signa eius quia magna sunt et mirabilia eius quia fortia et regnum eius regnum sempiternum et potestas eius in generationem et generationem
-<sup>4</sup> (4-1) ego Nabuchodonosor quietus eram in domo mea et florens in palatio meo
-<sup>5</sup> (4-2) somnium vidi quod perterruit me et cogitationes meae in stratu meo et visiones capitis mei conturbaverunt me
-<sup>6</sup> (4-3) et per me propositum est decretum ut introducerentur in conspectu meo cuncti sapientes Babylonis et ut solutionem somnii indicarent mihi
-<sup>7</sup> (4-4) tunc ingrediebantur arioli magi Chaldei et aruspices et somnium narravi in conspectu eorum et solutionem eius non indicaverunt mihi
-<sup>8</sup> (4-5) donec collega ingressus est in conspectu meo Danihel cuius nomen Balthasar secundum nomen dei mei qui habet spiritum deorum sanctorum in semet ipso et somnium coram eo locutus sum
-<sup>9</sup> (4-6) Balthasar princeps ariolorum quem ego scio quod spiritum deorum sanctorum habeas in te et omne sacramentum non est inpossibile tibi visiones somniorum meorum quas vidi et solutionem eorum narra
-<sup>10</sup> (4-7) visio capitis mei in cubili meo videbam et ecce arbor in medio terrae et altitudo eius nimia
-<sup>11</sup> (4-8) magna arbor et fortis et proceritas eius contingens caelum aspectus illius erat usque ad terminos universae terrae
-<sup>12</sup> (4-9) folia eius pulcherrima et fructus eius nimius et esca universorum in ea subter eam habitabant animalia et bestiae et in ramis eius conversabantur volucres caeli et ex ea vescebatur omnis caro
-<sup>13</sup> (4-10) videbam in visione capitis mei super stratum meum et ecce vigil et sanctus de caelo descendit
-<sup>14</sup> (4-11) clamavit fortiter et sic ait succidite arborem et praecidite ramos eius excutite folia eius et dispergite fructum eius fugiant bestiae quae subter eam sunt et volucres de ramis eius
-<sup>15</sup> (4-12) verumtamen germen radicum eius in terra sinite et alligetur vinculo ferreo et aereo in herbis quae foris sunt et rore caeli tinguatur et cum feris pars eius in herba terrae
-<sup>16</sup> (4-13) cor eius ab humano commutetur et cor ferae detur ei et septem tempora mutentur super eum
-<sup>17</sup> (4-14) in sententia vigilum decretum est et sermo sanctorum et petitio donec cognoscant viventes quoniam dominatur Excelsus in regno hominum et cuicumque voluerit dabit illud et humillimum hominem constituet super eo
-<sup>18</sup> (4-15) hoc somnium vidi ego rex Nabuchodonosor tu ergo Balthasar interpretationem narra festinus quia omnes sapientes regni mei non queunt solutionem edicere mihi tu autem potes quia spiritus deorum sanctorum in te est
-<sup>19</sup> (4-16) tunc Danihel cuius nomen Balthasar coepit intra semet ipsum tacitus cogitare quasi hora una et cogitationes eius conturbabant eum respondens autem rex ait Balthasar somnium et interpretatio eius non conturbent te respondit Balthasar et dixit domine mi somnium his qui te oderunt et interpretatio eius hostibus tuis sit
-<sup>20</sup> (4-17) arborem quam vidisti sublimem atque robustam cuius altitudo pertingit ad caelum et aspectus illius in omnem terram
-<sup>21</sup> (4-18) et rami eius pulcherrimi et fructus eius nimius et esca omnium in ea subter eam habitantes bestiae agri et in ramis eius commorantes aves caeli
-<sup>22</sup> (4-19) tu es rex qui magnificatus es et invaluisti et magnitudo tua crevit et pervenit usque ad caelum et potestas tua in terminos universae terrae
-<sup>23</sup> (4-20) quod autem vidit rex vigilem et sanctum descendere de caelo et dicere succidite arborem et dissipate illam attamen germen radicum eius in terra dimittite et vinciatur ferro et aere in herbis foris et rore caeli conspergatur et cum feris sit pabulum eius donec septem tempora commutentur super eum
-<sup>24</sup> (4-21) haec est interpretatio sententiae Altissimi quae pervenit super dominum meum regem
-<sup>25</sup> (4-22) eicient te ab hominibus et cum bestiis feris erit habitatio tua et faenum ut bos comedes et rore caeli infunderis septem quoque tempora mutabuntur super te donec scias quod dominetur Excelsus super regnum hominum et cuicumque voluerit det illud
-<sup>26</sup> (4-23) quod autem praecepit ut relinqueretur germen radicum eius id est arboris regnum tuum tibi manebit postquam cognoveris potestatem esse caelestem
-<sup>27</sup> (4-24) quam ob rem rex consilium meum placeat tibi et peccata tua elemosynis redime et iniquitates tuas misericordiis pauperum forsitan ignoscat delictis tuis
-<sup>28</sup> (4-25) omnia venerunt super Nabuchodonosor regem
-<sup>29</sup> (4-26) post finem mensuum duodecim in aula Babylonis deambulabat
-<sup>30</sup> (4-27) responditque rex et ait nonne haec est Babylon magna quam ego aedificavi in domum regni in robore fortitudinis meae et in gloria decoris mei
-<sup>31</sup> (4-28) cum adhuc sermo esset in ore regis vox de caelo ruit tibi dicitur Nabuchodonosor rex regnum transiit a te
-<sup>32</sup> (4-29) et ab hominibus te eicient et cum bestiis feris erit habitatio tua faenum quasi bos comedes et septem tempora mutabuntur super te donec scias quod dominetur Excelsus in regno hominum et cuicumque voluerit det illud
-<sup>33</sup> (4-30) eadem hora sermo conpletus est super Nabuchodonosor ex hominibus abiectus est et faenum ut bos comedit et rore caeli corpus eius infectum est donec capilli eius in similitudinem aquilarum crescerent et ungues eius quasi avium
-<sup>34</sup> (4-31) igitur post finem dierum ego Nabuchodonosor oculos meos ad caelum levavi et sensus meus redditus est mihi et Altissimo benedixi et viventem in sempiternum laudavi et glorificavi quia potestas eius potestas sempiterna et regnum eius in generationem et generationem
-<sup>35</sup> (4-32) et omnes habitatores terrae apud eum in nihilum reputati sunt iuxta voluntatem enim suam facit tam in virtutibus caeli quam in habitatoribus terrae et non est qui resistat manui eius et dicat ei quare fecisti
-<sup>36</sup> (4-33) in ipso tempore sensus meus reversus est ad me et ad honorem regni mei decoremque perveni et figura mea reversa est ad me et optimates mei et magistratus mei requisierunt me et in regno meo constitutus sum et magnificentia amplior addita est mihi
-<sup>37</sup> (4-34) nunc igitur ego Nabuchodonosor laudo et magnifico et glorifico Regem caeli quia omnia opera eius vera et viae eius iudicia et gradientes in superbia potest humiliare
+<sup>1</sup> <sup>a</sup>Nabuchodonosor rex omnibus populis gentibus et linguis quae habitant in universa terra pax vobis multiplicetur
+<sup>2</sup> <sup>b</sup>signa et mirabilia fecit apud me Deus excelsus placuit ergo mihi praedicare
+<sup>3</sup> <sup>c</sup>signa eius quia magna sunt et mirabilia eius quia fortia et regnum eius regnum sempiternum et potestas eius in generationem et generationem
+<sup>4</sup> <sup>d</sup>ego Nabuchodonosor quietus eram in domo mea et florens in palatio meo
+<sup>5</sup> <sup>e</sup>somnium vidi quod perterruit me et cogitationes meae in stratu meo et visiones capitis mei conturbaverunt me
+<sup>6</sup> <sup>f</sup>et per me propositum est decretum ut introducerentur in conspectu meo cuncti sapientes Babylonis et ut solutionem somnii indicarent mihi
+<sup>7</sup> <sup>g</sup>tunc ingrediebantur arioli magi Chaldei et aruspices et somnium narravi in conspectu eorum et solutionem eius non indicaverunt mihi
+<sup>8</sup> <sup>h</sup>donec collega ingressus est in conspectu meo Danihel cuius nomen Balthasar secundum nomen dei mei qui habet spiritum deorum sanctorum in semet ipso et somnium coram eo locutus sum
+<sup>9</sup> <sup>i</sup>Balthasar princeps ariolorum quem ego scio quod spiritum deorum sanctorum habeas in te et omne sacramentum non est inpossibile tibi visiones somniorum meorum quas vidi et solutionem eorum narra
+<sup>10</sup> <sup>j</sup>visio capitis mei in cubili meo videbam et ecce arbor in medio terrae et altitudo eius nimia
+<sup>11</sup> <sup>k</sup>magna arbor et fortis et proceritas eius contingens caelum aspectus illius erat usque ad terminos universae terrae
+<sup>12</sup> <sup>l</sup>folia eius pulcherrima et fructus eius nimius et esca universorum in ea subter eam habitabant animalia et bestiae et in ramis eius conversabantur volucres caeli et ex ea vescebatur omnis caro
+<sup>13</sup> <sup>m</sup>videbam in visione capitis mei super stratum meum et ecce vigil et sanctus de caelo descendit
+<sup>14</sup> <sup>n</sup>clamavit fortiter et sic ait succidite arborem et praecidite ramos eius excutite folia eius et dispergite fructum eius fugiant bestiae quae subter eam sunt et volucres de ramis eius
+<sup>15</sup> <sup>o</sup>verumtamen germen radicum eius in terra sinite et alligetur vinculo ferreo et aereo in herbis quae foris sunt et rore caeli tinguatur et cum feris pars eius in herba terrae
+<sup>16</sup> <sup>p</sup>cor eius ab humano commutetur et cor ferae detur ei et septem tempora mutentur super eum
+<sup>17</sup> <sup>q</sup>in sententia vigilum decretum est et sermo sanctorum et petitio donec cognoscant viventes quoniam dominatur Excelsus in regno hominum et cuicumque voluerit dabit illud et humillimum hominem constituet super eo
+<sup>18</sup> <sup>r</sup>hoc somnium vidi ego rex Nabuchodonosor tu ergo Balthasar interpretationem narra festinus quia omnes sapientes regni mei non queunt solutionem edicere mihi tu autem potes quia spiritus deorum sanctorum in te est
+<sup>19</sup> <sup>s</sup>tunc Danihel cuius nomen Balthasar coepit intra semet ipsum tacitus cogitare quasi hora una et cogitationes eius conturbabant eum respondens autem rex ait Balthasar somnium et interpretatio eius non conturbent te respondit Balthasar et dixit domine mi somnium his qui te oderunt et interpretatio eius hostibus tuis sit
+<sup>20</sup> <sup>t</sup>arborem quam vidisti sublimem atque robustam cuius altitudo pertingit ad caelum et aspectus illius in omnem terram
+<sup>21</sup> <sup>u</sup>et rami eius pulcherrimi et fructus eius nimius et esca omnium in ea subter eam habitantes bestiae agri et in ramis eius commorantes aves caeli
+<sup>22</sup> <sup>v</sup>tu es rex qui magnificatus es et invaluisti et magnitudo tua crevit et pervenit usque ad caelum et potestas tua in terminos universae terrae
+<sup>23</sup> <sup>w</sup>quod autem vidit rex vigilem et sanctum descendere de caelo et dicere succidite arborem et dissipate illam attamen germen radicum eius in terra dimittite et vinciatur ferro et aere in herbis foris et rore caeli conspergatur et cum feris sit pabulum eius donec septem tempora commutentur super eum
+<sup>24</sup> <sup>x</sup>haec est interpretatio sententiae Altissimi quae pervenit super dominum meum regem
+<sup>25</sup> <sup>y</sup>eicient te ab hominibus et cum bestiis feris erit habitatio tua et faenum ut bos comedes et rore caeli infunderis septem quoque tempora mutabuntur super te donec scias quod dominetur Excelsus super regnum hominum et cuicumque voluerit det illud
+<sup>26</sup> <sup>z</sup>quod autem praecepit ut relinqueretur germen radicum eius id est arboris regnum tuum tibi manebit postquam cognoveris potestatem esse caelestem
+<sup>27</sup> <sup>a</sup>quam ob rem rex consilium meum placeat tibi et peccata tua elemosynis redime et iniquitates tuas misericordiis pauperum forsitan ignoscat delictis tuis
+<sup>28</sup> <sup>b</sup>omnia venerunt super Nabuchodonosor regem
+<sup>29</sup> <sup>c</sup>post finem mensuum duodecim in aula Babylonis deambulabat
+<sup>30</sup> <sup>d</sup>responditque rex et ait nonne haec est Babylon magna quam ego aedificavi in domum regni in robore fortitudinis meae et in gloria decoris mei
+<sup>31</sup> <sup>e</sup>cum adhuc sermo esset in ore regis vox de caelo ruit tibi dicitur Nabuchodonosor rex regnum transiit a te
+<sup>32</sup> <sup>f</sup>et ab hominibus te eicient et cum bestiis feris erit habitatio tua faenum quasi bos comedes et septem tempora mutabuntur super te donec scias quod dominetur Excelsus in regno hominum et cuicumque voluerit det illud
+<sup>33</sup> <sup>g</sup>eadem hora sermo conpletus est super Nabuchodonosor ex hominibus abiectus est et faenum ut bos comedit et rore caeli corpus eius infectum est donec capilli eius in similitudinem aquilarum crescerent et ungues eius quasi avium
+<sup>34</sup> <sup>h</sup>igitur post finem dierum ego Nabuchodonosor oculos meos ad caelum levavi et sensus meus redditus est mihi et Altissimo benedixi et viventem in sempiternum laudavi et glorificavi quia potestas eius potestas sempiterna et regnum eius in generationem et generationem
+<sup>35</sup> <sup>i</sup>et omnes habitatores terrae apud eum in nihilum reputati sunt iuxta voluntatem enim suam facit tam in virtutibus caeli quam in habitatoribus terrae et non est qui resistat manui eius et dicat ei quare fecisti
+<sup>36</sup> <sup>j</sup>in ipso tempore sensus meus reversus est ad me et ad honorem regni mei decoremque perveni et figura mea reversa est ad me et optimates mei et magistratus mei requisierunt me et in regno meo constitutus sum et magnificentia amplior addita est mihi
+<sup>37</sup> <sup>k</sup>nunc igitur ego Nabuchodonosor laudo et magnifico et glorifico Regem caeli quia omnia opera eius vera et viae eius iudicia et gradientes in superbia potest humiliare
+
+> - <sup>a</sup> 1. Originally verse 3:31.
+> - <sup>b</sup> 2. Originally verse 3:32.
+> - <sup>c</sup> 3. Originally verse 3:33.
+> - <sup>d</sup> 4. Originally verse 4:1.
+> - <sup>e</sup> 5. Originally verse 4:2.
+> - <sup>f</sup> 6. Originally verse 4:3.
+> - <sup>g</sup> 7. Originally verse 4:4.
+> - <sup>h</sup> 8. Originally verse 4:5.
+> - <sup>i</sup> 9. Originally verse 4:6.
+> - <sup>j</sup> 10. Originally verse 4:7.
+> - <sup>k</sup> 11. Originally verse 4:8.
+> - <sup>l</sup> 12. Originally verse 4:9.
+> - <sup>m</sup> 13. Originally verse 4:10.
+> - <sup>n</sup> 14. Originally verse 4:11.
+> - <sup>o</sup> 15. Originally verse 4:12.
+> - <sup>p</sup> 16. Originally verse 4:13.
+> - <sup>q</sup> 17. Originally verse 4:14.
+> - <sup>r</sup> 18. Originally verse 4:15.
+> - <sup>s</sup> 19. Originally verse 4:16.
+> - <sup>t</sup> 20. Originally verse 4:17.
+> - <sup>u</sup> 21. Originally verse 4:18.
+> - <sup>v</sup> 22. Originally verse 4:19.
+> - <sup>w</sup> 23. Originally verse 4:20.
+> - <sup>x</sup> 24. Originally verse 4:21.
+> - <sup>y</sup> 25. Originally verse 4:22.
+> - <sup>z</sup> 26. Originally verse 4:23.
+> - <sup>a</sup> 27. Originally verse 4:24.
+> - <sup>b</sup> 28. Originally verse 4:25.
+> - <sup>c</sup> 29. Originally verse 4:26.
+> - <sup>d</sup> 30. Originally verse 4:27.
+> - <sup>e</sup> 31. Originally verse 4:28.
+> - <sup>f</sup> 32. Originally verse 4:29.
+> - <sup>g</sup> 33. Originally verse 4:30.
+> - <sup>h</sup> 34. Originally verse 4:31.
+> - <sup>i</sup> 35. Originally verse 4:32.
+> - <sup>j</sup> 36. Originally verse 4:33.
+> - <sup>k</sup> 37. Originally verse 4:34.
+
 ## Chapter 5
 
 <sup>1</sup> Balthasar rex fecit grande convivium optimatibus suis mille et unusquisque secundum suam bibebat aetatem
@@ -176,6 +218,7 @@
 <sup>29</sup> tunc iubente rege indutus est Danihel purpura et circumdata est torques aurea collo eius et praedicatum est de eo quod haberet potestatem tertius in regno
 <sup>30</sup> eadem nocte interfectus est Balthasar rex Chaldeus
 <sup>31</sup> et Darius Medus successit in regnum annos natus sexaginta duo
+
 ## Chapter 6
 
 <sup>1</sup> placuit Dario et constituit supra regnum satrapas centum viginti ut essent in toto regno suo
@@ -206,6 +249,7 @@
 <sup>26</sup> a me constitutum est decretum ut in universo imperio et regno meo tremescant et paveant Deum Danihelis ipse est enim Deus vivens et aeternus in saecula et regnum eius non dissipabitur et potestas eius usque in aeternum
 <sup>27</sup> ipse liberator atque salvator faciens signa et mirabilia in caelo et in terra qui liberavit Danihelem de manu leonum
 <sup>28</sup> porro Danihel perseveravit usque ad regnum Darii regnumque Cyri Persae
+
 ## Chapter 7
 
 <sup>1</sup> anno primo Balthasar regis Babylonis Danihel somnium vidit visio autem capitis eius in cubili suo et somnium scribens brevi sermone conprehendit summatimque perstringens ait
@@ -236,6 +280,7 @@
 <sup>26</sup> et iudicium sedebit ut auferatur potentia et conteratur et dispereat usque in finem
 <sup>27</sup> regnum autem et potestas et magnitudo regni quae est subter omne caelum detur populo sanctorum Altissimi cuius regnum regnum sempiternum est et omnes reges servient ei et oboedient
 <sup>28</sup> hucusque finis verbi ego Danihel multum cogitationibus meis conturbabar et facies mea mutata est in me verbum autem in corde meo conservavi
+
 ## Chapter 8
 
 <sup>1</sup> anno tertio regni Balthasar regis visio apparuit mihi ego Danihel post id quod videram in principio
@@ -265,6 +310,7 @@
 <sup>25</sup> secundum voluntatem suam et dirigetur dolus in manu eius et cor suum magnificabit et in copia rerum omnium occidet plurimos et contra principem principum consurget et sine manu conteretur
 <sup>26</sup> et visio vespere et mane quae dicta est vera est tu ergo signa visionem quia post dies multos erit
 <sup>27</sup> et ego Danihel langui et aegrotavi per dies cumque surrexissem faciebam opera regis et stupebam ad visionem et non erat qui interpretaretur
+
 ## Chapter 9
 
 <sup>1</sup> in anno primo Darii filii Asueri de semine Medorum qui imperavit super regnum Chaldeorum
@@ -294,6 +340,7 @@
 <sup>25</sup> scito ergo et animadverte ab exitu sermonis ut iterum aedificetur Hierusalem usque ad christum ducem ebdomades septem et ebdomades sexaginta duae erunt et rursum aedificabitur platea et muri in angustia temporum
 <sup>26</sup> et post ebdomades sexaginta duas occidetur christus et non erit eius et civitatem et sanctuarium dissipabit populus cum duce venturo et finis eius vastitas et post finem belli statuta desolatio
 <sup>27</sup> confirmabit autem pactum multis ebdomas una et in dimidio ebdomadis deficiet hostia et sacrificium et in templo erit abominatio desolationis et usque ad consummationem et finem perseverabit desolatio
+
 ## Chapter 10
 
 <sup>1</sup> anno tertio Cyri regis Persarum verbum revelatum est Daniheli cognomento Balthasar et verum verbum et fortitudo magna intellexitque sermonem intellegentia est enim opus in visione
@@ -317,6 +364,7 @@
 <sup>19</sup> et dixit noli timere vir desideriorum pax tibi confortare et esto robustus cumque loqueretur mecum convalui et dixi loquere domine mi quia confortasti me
 <sup>20</sup> et ait numquid scis quare venerim ad te et nunc revertar ut proelier adversum principem Persarum cum enim egrederer apparuit princeps Graecorum veniens
 <sup>21</sup> verumtamen adnuntiabo tibi quod expressum est in scriptura veritatis et nemo est adiutor meus in omnibus his nisi Michahel princeps vester
+
 ## Chapter 11
 
 <sup>1</sup> ego autem ab anno primo Darii Medi stabam ut confortaretur et roboraretur
@@ -364,6 +412,7 @@
 <sup>43</sup> et dominabitur thesaurorum auri et argenti et in omnibus pretiosis Aegypti per Lybias quoque et Aethiopias transibit
 <sup>44</sup> et fama turbabit eum ab oriente et ab aquilone et veniet in multitudine magna ut conterat et interficiat plurimos
 <sup>45</sup> et figet tabernaculum suum Apedno inter maria super montem inclitum et sanctum et veniet usque ad summitatem eius et nemo auxiliabitur ei
+
 ## Chapter 12
 
 <sup>1</sup> in tempore autem illo consurget Michahel princeps magnus qui stat pro filiis populi tui et veniet tempus quale non fuit ab eo quo gentes esse coeperunt usque ad tempus illud et in tempore illo salvabitur populus tuus omnis qui inventus fuerit scriptus in libro

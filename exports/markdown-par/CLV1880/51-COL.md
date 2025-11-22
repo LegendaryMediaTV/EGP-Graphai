@@ -29,6 +29,7 @@
 <sup>27</sup> quibus voluit Deus notas facere divitias gloriae sacramenti huius in gentibus quod est Christus in vobis spes gloriae
 <sup>28</sup> quem nos adnuntiamus corripientes omnem hominem et docentes omnem hominem in omni sapientia ut exhibeamus omnem hominem perfectum in Christo Iesu
 <sup>29</sup> in quo et laboro certando secundum operationem eius quam operatur in me in virtute
+
 ## Chapter 2
 
 <sup>1</sup> volo enim vos scire qualem sollicitudinem habeam pro vobis et pro his qui sunt Laodiciae et quicumque non viderunt faciem meam in carne
@@ -54,6 +55,7 @@
 <sup>21</sup> ne tetigeris neque gustaveris neque contrectaveris
 <sup>22</sup> quae sunt omnia in interitu ipso usu secundum praecepta et doctrinas hominum
 <sup>23</sup> quae sunt rationem quidem habentia sapientiae in superstitione et humilitate et ad non parcendum corpori non in honore aliquo ad saturitatem carnis
+
 ## Chapter 3
 
 <sup>1</sup> igitur si conresurrexistis Christo quae sursum sunt quaerite ubi Christus est in dextera Dei sedens
@@ -81,6 +83,7 @@
 <sup>23</sup> quodcumque facitis ex animo operamini sicut Domino et non hominibus
 <sup>24</sup> scientes quod a Domino accipietis retributionem hereditatis Domino Christo servite
 <sup>25</sup> qui enim iniuriam facit recipiet id quod inique gessit et non est personarum acceptio
+
 ## Chapter 4
 
 <sup>1</sup> domini quod iustum est et aequum servis praestate scientes quoniam et vos Dominum habetis in caelo

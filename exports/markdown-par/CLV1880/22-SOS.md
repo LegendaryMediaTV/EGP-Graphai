@@ -1,21 +1,39 @@
 ## Chapter 1
 
-<sup>2</sup> (1-1) osculetur me osculo oris sui quia meliora sunt ubera tua vino
-<sup>3</sup> (1-2) fraglantia unguentis optimis oleum effusum nomen tuum ideo adulescentulae dilexerunt te
-<sup>4</sup> (1-3) trahe me post te curremus introduxit me rex in cellaria sua exultabimus et laetabimur in te memores uberum tuorum super vinum recti diligunt te
-<sup>5</sup> (1-4) nigra sum sed formonsa filiae Hierusalem sicut tabernacula Cedar sicut pelles Salomonis
-<sup>6</sup> (1-5) nolite me considerare quod fusca sim quia decoloravit me sol filii matris meae pugnaverunt contra me posuerunt me custodem in vineis vineam meam non custodivi
-<sup>7</sup> (1-6) indica mihi quem diligit anima mea ubi pascas ubi cubes in meridie ne vagari incipiam per greges sodalium tuorum
-<sup>8</sup> (1-7) si ignoras te o pulchra inter mulieres egredere et abi post vestigia gregum et pasce hedos tuos iuxta tabernacula pastorum
-<sup>9</sup> (1-8) equitatui meo in curribus Pharaonis adsimilavi te amica mea
-<sup>10</sup> (1-9) pulchrae sunt genae tuae sicut turturis collum tuum sicut monilia
-<sup>11</sup> (1-10) murenulas aureas faciemus tibi vermiculatas argento
-<sup>12</sup> (1-11) dum esset rex in accubitu suo nardus mea dedit odorem suum
-<sup>13</sup> (1-12) fasciculus murrae dilectus meus mihi inter ubera mea commorabitur
-<sup>14</sup> (1-13) botrus cypri dilectus meus mihi in vineis Engaddi
-<sup>15</sup> (1-14) ecce tu pulchra es amica mea ecce tu pulchra oculi tui columbarum
-<sup>16</sup> (1-15) ecce tu pulcher es dilecte mi et decorus lectulus noster floridus
-<sup>17</sup> (1-16) tigna domorum nostrarum cedrina laquearia nostra cypressina
+<sup>2</sup> <sup>a</sup>osculetur me osculo oris sui quia meliora sunt ubera tua vino
+<sup>3</sup> <sup>b</sup>fraglantia unguentis optimis oleum effusum nomen tuum ideo adulescentulae dilexerunt te
+<sup>4</sup> <sup>c</sup>trahe me post te curremus introduxit me rex in cellaria sua exultabimus et laetabimur in te memores uberum tuorum super vinum recti diligunt te
+<sup>5</sup> <sup>d</sup>nigra sum sed formonsa filiae Hierusalem sicut tabernacula Cedar sicut pelles Salomonis
+<sup>6</sup> <sup>e</sup>nolite me considerare quod fusca sim quia decoloravit me sol filii matris meae pugnaverunt contra me posuerunt me custodem in vineis vineam meam non custodivi
+<sup>7</sup> <sup>f</sup>indica mihi quem diligit anima mea ubi pascas ubi cubes in meridie ne vagari incipiam per greges sodalium tuorum
+<sup>8</sup> <sup>g</sup>si ignoras te o pulchra inter mulieres egredere et abi post vestigia gregum et pasce hedos tuos iuxta tabernacula pastorum
+<sup>9</sup> <sup>h</sup>equitatui meo in curribus Pharaonis adsimilavi te amica mea
+<sup>10</sup> <sup>i</sup>pulchrae sunt genae tuae sicut turturis collum tuum sicut monilia
+<sup>11</sup> <sup>j</sup>murenulas aureas faciemus tibi vermiculatas argento
+<sup>12</sup> <sup>k</sup>dum esset rex in accubitu suo nardus mea dedit odorem suum
+<sup>13</sup> <sup>l</sup>fasciculus murrae dilectus meus mihi inter ubera mea commorabitur
+<sup>14</sup> <sup>m</sup>botrus cypri dilectus meus mihi in vineis Engaddi
+<sup>15</sup> <sup>n</sup>ecce tu pulchra es amica mea ecce tu pulchra oculi tui columbarum
+<sup>16</sup> <sup>o</sup>ecce tu pulcher es dilecte mi et decorus lectulus noster floridus
+<sup>17</sup> <sup>p</sup>tigna domorum nostrarum cedrina laquearia nostra cypressina
+
+> - <sup>a</sup> 2. Originally verse 1:1.
+> - <sup>b</sup> 3. Originally verse 1:2.
+> - <sup>c</sup> 4. Originally verse 1:3.
+> - <sup>d</sup> 5. Originally verse 1:4.
+> - <sup>e</sup> 6. Originally verse 1:5.
+> - <sup>f</sup> 7. Originally verse 1:6.
+> - <sup>g</sup> 8. Originally verse 1:7.
+> - <sup>h</sup> 9. Originally verse 1:8.
+> - <sup>i</sup> 10. Originally verse 1:9.
+> - <sup>j</sup> 11. Originally verse 1:10.
+> - <sup>k</sup> 12. Originally verse 1:11.
+> - <sup>l</sup> 13. Originally verse 1:12.
+> - <sup>m</sup> 14. Originally verse 1:13.
+> - <sup>n</sup> 15. Originally verse 1:14.
+> - <sup>o</sup> 16. Originally verse 1:15.
+> - <sup>p</sup> 17. Originally verse 1:16.
+
 ## Chapter 2
 
 <sup>1</sup> ego flos campi et lilium convallium
@@ -35,6 +53,7 @@
 <sup>15</sup> capite nobis vulpes vulpes parvulas quae demoliuntur vineas nam vinea nostra floruit
 <sup>16</sup> dilectus meus mihi et ego illi qui pascitur inter lilia
 <sup>17</sup> donec adspiret dies et inclinentur umbrae revertere similis esto dilecte mi capreae aut hinulo cervorum super montes Bether
+
 ## Chapter 3
 
 <sup>1</sup> in lectulo meo per noctes quaesivi quem diligit anima mea quaesivi illum et non inveni
@@ -48,6 +67,7 @@
 <sup>9</sup> ferculum fecit sibi rex Salomon de lignis Libani
 <sup>10</sup> columnas eius fecit argenteas reclinatorium aureum ascensum purpureum media caritate constravit propter filias Hierusalem
 <sup>11</sup> egredimini et videte filiae Sion regem Salomonem in diademate quo coronavit eum mater sua in die disponsionis illius et in die laetitiae cordis eius
+
 ## Chapter 4
 
 <sup>1</sup> quam pulchra es amica mea quam pulchra es oculi tui columbarum absque eo quod intrinsecus latet capilli tui sicut greges caprarum quae ascenderunt de monte Galaad
@@ -66,6 +86,7 @@
 <sup>14</sup> nardus et crocus fistula et cinnamomum cum universis lignis Libani murra et aloe cum omnibus primis unguentis
 <sup>15</sup> fons hortorum puteus aquarum viventium quae fluunt impetu de Libano
 <sup>16</sup> surge aquilo et veni auster perfla hortum meum et fluant aromata illius
+
 ## Chapter 5
 
 <sup>1</sup> veniat dilectus meus in hortum suum et comedat fructum pomorum suorum veni in hortum meum soror mea sponsa messui murram meam cum aromatibus meis comedi favum cum melle meo bibi vinum meum cum lacte meo comedite amici bibite et inebriamini carissimi
@@ -84,21 +105,37 @@
 <sup>14</sup> manus illius tornatiles aureae plenae hyacinthis venter eius eburneus distinctus sapphyris
 <sup>15</sup> crura illius columnae marmoreae quae fundatae sunt super bases aureas species eius ut Libani electus ut cedri
 <sup>16</sup> guttur illius suavissimum et totus desiderabilis talis est dilectus meus et iste est amicus meus filiae Hierusalem
+
 ## Chapter 6
 
-<sup>1</sup> (5-17) quo abiit dilectus tuus o pulcherrima mulierum quo declinavit dilectus tuus et quaeremus eum tecum
-<sup>2</sup> (6-1) dilectus meus descendit in hortum suum ad areolam aromatis ut pascatur in hortis et lilia colligat
-<sup>3</sup> (6-2) ego dilecto meo et dilectus meus mihi qui pascitur inter lilia
-<sup>4</sup> (6-3) pulchra es amica mea suavis et decora sicut Hierusalem terribilis ut castrorum acies ordinata
-<sup>5</sup> (6-4) averte oculos tuos a me quia ipsi me avolare fecerunt capilli tui sicut grex caprarum quae apparuerunt de Galaad
-<sup>6</sup> (6-5) dentes tui sicut grex ovium quae ascenderunt de lavacro omnes gemellis fetibus et sterilis non est in eis
-<sup>7</sup> (6-6) sicut cortex mali punici genae tuae absque occultis tuis
-<sup>8</sup> (6-7) sexaginta sunt reginae et octoginta concubinae et adulescentularum non est numerus
-<sup>9</sup> (6-8) una est columba mea perfecta mea una est matris suae electa genetrici suae viderunt illam filiae et beatissimam praedicaverunt reginae et concubinae et laudaverunt eam
-<sup>10</sup> (6-9) quae est ista quae progreditur quasi aurora consurgens pulchra ut luna electa ut sol terribilis ut acies ordinata
-<sup>11</sup> (6-10) descendi ad hortum nucum ut viderem poma convallis ut inspicerem si floruisset vinea et germinassent mala punica
-<sup>12</sup> (6-11) nescivi anima mea conturbavit me propter quadrigas Aminadab
-<sup>13</sup> (6-12) revertere revertere Sulamitis revertere revertere ut intueamur te
+<sup>1</sup> <sup>a</sup>quo abiit dilectus tuus o pulcherrima mulierum quo declinavit dilectus tuus et quaeremus eum tecum
+<sup>2</sup> <sup>b</sup>dilectus meus descendit in hortum suum ad areolam aromatis ut pascatur in hortis et lilia colligat
+<sup>3</sup> <sup>c</sup>ego dilecto meo et dilectus meus mihi qui pascitur inter lilia
+<sup>4</sup> <sup>d</sup>pulchra es amica mea suavis et decora sicut Hierusalem terribilis ut castrorum acies ordinata
+<sup>5</sup> <sup>e</sup>averte oculos tuos a me quia ipsi me avolare fecerunt capilli tui sicut grex caprarum quae apparuerunt de Galaad
+<sup>6</sup> <sup>f</sup>dentes tui sicut grex ovium quae ascenderunt de lavacro omnes gemellis fetibus et sterilis non est in eis
+<sup>7</sup> <sup>g</sup>sicut cortex mali punici genae tuae absque occultis tuis
+<sup>8</sup> <sup>h</sup>sexaginta sunt reginae et octoginta concubinae et adulescentularum non est numerus
+<sup>9</sup> <sup>i</sup>una est columba mea perfecta mea una est matris suae electa genetrici suae viderunt illam filiae et beatissimam praedicaverunt reginae et concubinae et laudaverunt eam
+<sup>10</sup> <sup>j</sup>quae est ista quae progreditur quasi aurora consurgens pulchra ut luna electa ut sol terribilis ut acies ordinata
+<sup>11</sup> <sup>k</sup>descendi ad hortum nucum ut viderem poma convallis ut inspicerem si floruisset vinea et germinassent mala punica
+<sup>12</sup> <sup>l</sup>nescivi anima mea conturbavit me propter quadrigas Aminadab
+<sup>13</sup> <sup>m</sup>revertere revertere Sulamitis revertere revertere ut intueamur te
+
+> - <sup>a</sup> 1. Originally verse 5:17.
+> - <sup>b</sup> 2. Originally verse 6:1.
+> - <sup>c</sup> 3. Originally verse 6:2.
+> - <sup>d</sup> 4. Originally verse 6:3.
+> - <sup>e</sup> 5. Originally verse 6:4.
+> - <sup>f</sup> 6. Originally verse 6:5.
+> - <sup>g</sup> 7. Originally verse 6:6.
+> - <sup>h</sup> 8. Originally verse 6:7.
+> - <sup>i</sup> 9. Originally verse 6:8.
+> - <sup>j</sup> 10. Originally verse 6:9.
+> - <sup>k</sup> 11. Originally verse 6:10.
+> - <sup>l</sup> 12. Originally verse 6:11.
+> - <sup>m</sup> 13. Originally verse 6:12.
+
 ## Chapter 7
 
 <sup>1</sup> quid videbis in Sulamiten nisi choros castrorum quam pulchri sunt gressus tui in calciamentis filia principis iunctura feminum tuorum sicut monilia quae fabricata sunt manu artificis
@@ -114,6 +151,7 @@
 <sup>11</sup> veni dilecte mi egrediamur in agrum commoremur in villis
 <sup>12</sup> mane surgamus ad vineas videamus si floruit vinea si flores fructus parturiunt si floruerunt mala punica ibi dabo tibi ubera mea
 <sup>13</sup> mandragorae dederunt odorem in portis nostris omnia poma nova et vetera dilecte mi servavi tibi
+
 ## Chapter 8
 
 <sup>1</sup> quis mihi det te fratrem meum sugentem ubera matris meae ut inveniam te foris et deosculer et iam me nemo despiciat

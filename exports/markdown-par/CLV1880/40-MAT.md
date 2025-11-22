@@ -25,6 +25,7 @@
 <sup>23</sup> ecce virgo in utero habebit et pariet filium et vocabunt nomen eius Emmanuhel quod est interpretatum Nobiscum Deus
 <sup>24</sup> exsurgens autem Ioseph a somno fecit sicut praecepit ei angelus Domini et accepit coniugem suam
 <sup>25</sup> et non cognoscebat eam donec peperit filium suum primogenitum et vocavit nomen eius Iesum
+
 ## Chapter 2
 
 <sup>1</sup> cum ergo natus esset Iesus in Bethleem Iudaeae in diebus Herodis regis ecce magi ab oriente venerunt Hierosolymam
@@ -50,6 +51,7 @@
 <sup>21</sup> qui surgens accepit puerum et matrem eius et venit in terram Israhel
 <sup>22</sup> audiens autem quod Archelaus regnaret in Iudaea pro Herode patre suo timuit illo ire et admonitus in somnis secessit in partes Galilaeae
 <sup>23</sup> et veniens habitavit in civitate quae vocatur Nazareth ut adimpleretur quod dictum est per prophetas quoniam Nazareus vocabitur
+
 ## Chapter 3
 
 <sup>1</sup> in diebus autem illis venit Iohannes Baptista praedicans in deserto Iudaeae
@@ -69,6 +71,7 @@
 <sup>15</sup> respondens autem Iesus dixit ei sine modo sic enim decet nos implere omnem iustitiam tunc dimisit eum
 <sup>16</sup> baptizatus autem confestim ascendit de aqua et ecce aperti sunt ei caeli et vidit Spiritum Dei descendentem sicut columbam venientem super se
 <sup>17</sup> et ecce vox de caelis dicens hic est Filius meus dilectus in quo mihi conplacui
+
 ## Chapter 4
 
 <sup>1</sup> tunc Iesus ductus est in desertum ab Spiritu ut temptaretur a diabolo
@@ -96,6 +99,7 @@
 <sup>23</sup> et circumibat Iesus totam Galilaeam docens in synagogis eorum et praedicans evangelium regni et sanans omnem languorem et omnem infirmitatem in populo
 <sup>24</sup> et abiit opinio eius in totam Syriam et obtulerunt ei omnes male habentes variis languoribus et tormentis conprehensos et qui daemonia habebant et lunaticos et paralyticos et curavit eos
 <sup>25</sup> et secutae sunt eum turbae multae de Galilaea et Decapoli et Hierosolymis et Iudaea et de trans Iordanen
+
 ## Chapter 5
 
 <sup>1</sup> videns autem turbas ascendit in montem et cum sedisset accesserunt ad eum discipuli eius
@@ -146,6 +150,7 @@
 <sup>46</sup> si enim diligatis eos qui vos diligunt quam mercedem habebitis nonne et publicani hoc faciunt
 <sup>47</sup> et si salutaveritis fratres vestros tantum quid amplius facitis nonne et ethnici hoc faciunt
 <sup>48</sup> estote ergo vos perfecti sicut et Pater vester caelestis perfectus est
+
 ## Chapter 6
 
 <sup>1</sup> adtendite ne iustitiam vestram faciatis coram hominibus ut videamini ab eis alioquin mercedem non habebitis apud Patrem vestrum qui in caelis est
@@ -182,6 +187,7 @@
 <sup>32</sup> haec enim omnia gentes inquirunt scit enim Pater vester quia his omnibus indigetis
 <sup>33</sup> quaerite autem primum regnum et iustitiam eius et omnia haec adicientur vobis
 <sup>34</sup> nolite ergo esse solliciti in crastinum crastinus enim dies sollicitus erit sibi ipse sufficit diei malitia sua
+
 ## Chapter 7
 
 <sup>1</sup> nolite iudicare ut non iudicemini
@@ -213,6 +219,7 @@
 <sup>27</sup> et descendit pluvia et venerunt flumina et flaverunt venti et inruerunt in domum illam et cecidit et fuit ruina eius magna
 <sup>28</sup> et factum est cum consummasset Iesus verba haec admirabantur turbae super doctrinam eius
 <sup>29</sup> erat enim docens eos sicut potestatem habens non sicut scribae eorum et Pharisaei
+
 ## Chapter 8
 
 <sup>1</sup> cum autem descendisset de monte secutae sunt eum turbae multae
@@ -249,6 +256,7 @@
 <sup>32</sup> et ait illis ite at illi exeuntes abierunt in porcos et ecce impetu abiit totus grex per praeceps in mare et mortui sunt in aquis
 <sup>33</sup> pastores autem fugerunt et venientes in civitatem nuntiaverunt omnia et de his qui daemonia habuerant
 <sup>34</sup> et ecce tota civitas exiit obviam Iesu et viso eo rogabant ut transiret a finibus eorum
+
 ## Chapter 9
 
 <sup>1</sup> et ascendens in naviculam transfretavit et venit in civitatem suam
@@ -289,6 +297,7 @@
 <sup>36</sup> videns autem turbas misertus est eis quia erant vexati et iacentes sicut oves non habentes pastorem
 <sup>37</sup> tunc dicit discipulis suis messis quidem multa operarii autem pauci
 <sup>38</sup> rogate ergo dominum messis ut eiciat operarios in messem suam
+
 ## Chapter 10
 
 <sup>1</sup> et convocatis duodecim discipulis suis dedit illis potestatem spirituum inmundorum ut eicerent eos et curarent omnem languorem et omnem infirmitatem
@@ -333,6 +342,7 @@
 <sup>40</sup> qui recipit vos me recipit et qui me recipit recipit eum qui me misit
 <sup>41</sup> qui recipit prophetam in nomine prophetae mercedem prophetae accipiet et qui recipit iustum in nomine iusti mercedem iusti accipiet
 <sup>42</sup> et quicumque potum dederit uni ex minimis istis calicem aquae frigidae tantum in nomine discipuli amen dico vobis non perdet mercedem suam
+
 ## Chapter 11
 
 <sup>1</sup> et factum est cum consummasset Iesus praecipiens duodecim discipulis suis transiit inde ut doceret et praedicaret in civitatibus eorum
@@ -365,6 +375,7 @@
 <sup>28</sup> venite ad me omnes qui laboratis et onerati estis et ego reficiam vos
 <sup>29</sup> tollite iugum meum super vos et discite a me quia mitis sum et humilis corde et invenietis requiem animabus vestris
 <sup>30</sup> iugum enim meum suave est et onus meum leve est
+
 ## Chapter 12
 
 <sup>1</sup> in illo tempore abiit Iesus sabbato per sata discipuli autem eius esurientes coeperunt vellere spicas et manducare
@@ -417,6 +428,7 @@
 <sup>48</sup> at ipse respondens dicenti sibi ait quae est mater mea et qui sunt fratres mei
 <sup>49</sup> et extendens manum in discipulos suos dixit ecce mater mea et fratres mei
 <sup>50</sup> quicumque enim fecerit voluntatem Patris mei qui in caelis est ipse meus et frater et soror et mater est
+
 ## Chapter 13
 
 <sup>1</sup> in illo die exiens Iesus de domo sedebat secus mare
@@ -477,6 +489,7 @@
 <sup>56</sup> et sorores eius nonne omnes apud nos sunt unde ergo huic omnia ista
 <sup>57</sup> et scandalizabantur in eo Iesus autem dixit eis non est propheta sine honore nisi in patria sua et in domo sua
 <sup>58</sup> et non fecit ibi virtutes multas propter incredulitatem illorum
+
 ## Chapter 14
 
 <sup>1</sup> in illo tempore audiit Herodes tetrarcha famam Iesu
@@ -515,6 +528,7 @@
 <sup>34</sup> et cum transfretassent venerunt in terram Gennesar
 <sup>35</sup> et cum cognovissent eum viri loci illius miserunt in universam regionem illam et obtulerunt ei omnes male habentes
 <sup>36</sup> et rogabant eum ut vel fimbriam vestimenti eius tangerent et quicumque tetigerunt salvi facti sunt
+
 ## Chapter 15
 
 <sup>1</sup> tunc accesserunt ad eum ab Hierosolymis scribae et Pharisaei dicentes
@@ -556,6 +570,7 @@
 <sup>37</sup> et comederunt omnes et saturati sunt et quod superfuit de fragmentis tulerunt septem sportas plenas
 <sup>38</sup> erant autem qui manducaverant quattuor milia hominum extra parvulos et mulieres
 <sup>39</sup> et dimissa turba ascendit in naviculam et venit in fines Magedan
+
 ## Chapter 16
 
 <sup>1</sup> et accesserunt ad eum Pharisaei et Sadducaei temptantes et rogaverunt eum ut signum de caelo ostenderet eis
@@ -586,6 +601,7 @@
 <sup>26</sup> quid enim prodest homini si mundum universum lucretur animae vero suae detrimentum patiatur aut quam dabit homo commutationem pro anima sua
 <sup>27</sup> Filius enim hominis venturus est in gloria Patris sui cum angelis suis et tunc reddet unicuique secundum opus eius
 <sup>28</sup> amen dico vobis sunt quidam de hic stantibus qui non gustabunt mortem donec videant Filium hominis venientem in regno suo
+
 ## Chapter 17
 
 <sup>1</sup> et post dies sex adsumpsit Iesus Petrum et Iacobum et Iohannem fratrem eius et ducit illos in montem excelsum seorsum
@@ -615,6 +631,7 @@
 <sup>25</sup> ait etiam et cum intrasset domum praevenit eum Iesus dicens quid tibi videtur Simon reges terrae a quibus accipiunt tributum vel censum a filiis suis an ab alienis
 <sup>26</sup> et ille dixit ab alienis dixit illi Iesus ergo liberi sunt filii
 <sup>27</sup> ut autem non scandalizemus eos vade ad mare et mitte hamum et eum piscem qui primus ascenderit tolle et aperto ore eius invenies staterem illum sumens da eis pro me et te
+
 ## Chapter 18
 
 <sup>1</sup> in illa hora accesserunt discipuli ad Iesum dicentes quis putas maior est in regno caelorum
@@ -652,6 +669,7 @@
 <sup>33</sup> non ergo oportuit et te misereri conservi tui sicut et ego tui misertus sum
 <sup>34</sup> et iratus dominus eius tradidit eum tortoribus quoadusque redderet universum debitum
 <sup>35</sup> sic et Pater meus caelestis faciet vobis si non remiseritis unusquisque fratri suo de cordibus vestris
+
 ## Chapter 19
 
 <sup>1</sup> et factum est cum consummasset Iesus sermones istos migravit a Galilaea et venit in fines Iudaeae trans Iordanen
@@ -684,6 +702,7 @@
 <sup>28</sup> Iesus autem dixit illis amen dico vobis quod vos qui secuti estis me in regeneratione cum sederit Filius hominis in sede maiestatis suae sedebitis et vos super sedes duodecim iudicantes duodecim tribus Israhel
 <sup>29</sup> et omnis qui reliquit domum vel fratres aut sorores aut patrem aut matrem aut uxorem aut filios aut agros propter nomen meum centuplum accipiet et vitam aeternam possidebit
 <sup>30</sup> multi autem erunt primi novissimi et novissimi primi
+
 ## Chapter 20
 
 <sup>1</sup> simile est enim regnum caelorum homini patri familias qui exiit primo mane conducere operarios in vineam suam
@@ -720,6 +739,7 @@
 <sup>32</sup> et stetit Iesus et vocavit eos et ait quid vultis ut faciam vobis
 <sup>33</sup> dicunt illi Domine ut aperiantur oculi nostri
 <sup>34</sup> misertus autem eorum Iesus tetigit oculos eorum et confestim viderunt et secuti sunt eum
+
 ## Chapter 21
 
 <sup>1</sup> et cum adpropinquassent Hierosolymis et venissent Bethfage ad montem Oliveti tunc Iesus misit duos discipulos
@@ -768,6 +788,7 @@
 <sup>44</sup> et qui ceciderit super lapidem istum confringetur super quem vero ceciderit conteret eum
 <sup>45</sup> et cum audissent principes sacerdotum et Pharisaei parabolas eius cognoverunt quod de ipsis diceret
 <sup>46</sup> et quaerentes eum tenere timuerunt turbas quoniam sicut prophetam eum habebant
+
 ## Chapter 22
 
 <sup>1</sup> et respondens Iesus dixit iterum in parabolis eis dicens
@@ -816,6 +837,7 @@
 <sup>44</sup> dixit Dominus Domino meo sede a dextris meis donec ponam inimicos tuos scabillum pedum tuorum
 <sup>45</sup> si ergo David vocat eum Dominum quomodo filius eius est
 <sup>46</sup> et nemo poterat respondere ei verbum neque ausus fuit quisquam ex illa die eum amplius interrogare
+
 ## Chapter 23
 
 <sup>1</sup> tunc Iesus locutus est ad turbas et discipulos suos
@@ -856,6 +878,7 @@
 <sup>37</sup> Hierusalem Hierusalem quae occidis prophetas et lapidas eos qui ad te missi sunt quotiens volui congregare filios tuos quemadmodum gallina congregat pullos suos sub alas et noluisti
 <sup>38</sup> ecce relinquitur vobis domus vestra deserta
 <sup>39</sup> dico enim vobis non me videbitis amodo donec dicatis benedictus qui venit in nomine Domini
+
 ## Chapter 24
 
 <sup>1</sup> et egressus Iesus de templo ibat et accesserunt discipuli eius ut ostenderent ei aedificationes templi
@@ -909,6 +932,7 @@
 <sup>49</sup> et coeperit percutere conservos suos manducet autem et bibat cum ebriis
 <sup>50</sup> veniet dominus servi illius in die qua non sperat et hora qua ignorat
 <sup>51</sup> et dividet eum partemque eius ponet cum hypocritis illic erit fletus et stridor dentium
+
 ## Chapter 25
 
 <sup>1</sup> tunc simile erit regnum caelorum decem virginibus quae accipientes lampadas suas exierunt obviam sponso et sponsae
@@ -957,6 +981,7 @@
 <sup>44</sup> tunc respondebunt et ipsi dicentes Domine quando te vidimus esurientem aut sitientem aut hospitem aut nudum aut infirmum vel in carcere et non ministravimus tibi
 <sup>45</sup> tunc respondebit illis dicens amen dico vobis quamdiu non fecistis uni de minoribus his nec mihi fecistis
 <sup>46</sup> et ibunt hii in supplicium aeternum iusti autem in vitam aeternam
+
 ## Chapter 26
 
 <sup>1</sup> et factum est cum consummasset Iesus sermones hos omnes dixit discipulis suis
@@ -1034,6 +1059,7 @@
 <sup>73</sup> et post pusillum accesserunt qui stabant et dixerunt Petro vere et tu ex illis es nam et loquella tua manifestum te facit
 <sup>74</sup> tunc coepit detestari et iurare quia non novisset hominem et continuo gallus cantavit
 <sup>75</sup> et recordatus est Petrus verbi Iesu quod dixerat priusquam gallus cantet ter me negabis et egressus foras ploravit amare
+
 ## Chapter 27
 
 <sup>1</sup> mane autem facto consilium inierunt omnes principes sacerdotum et seniores populi adversus Iesum ut eum morti traderent
@@ -1102,6 +1128,7 @@
 <sup>64</sup> iube ergo custodiri sepulchrum usque in diem tertium ne forte veniant discipuli eius et furentur eum et dicant plebi surrexit a mortuis et erit novissimus error peior priore
 <sup>65</sup> ait illis Pilatus habetis custodiam ite custodite sicut scitis
 <sup>66</sup> illi autem abeuntes munierunt sepulchrum signantes lapidem cum custodibus
+
 ## Chapter 28
 
 <sup>1</sup> vespere autem sabbati quae lucescit in primam sabbati venit Maria Magdalene et altera Maria videre sepulchrum

@@ -5,11 +5,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Παῦλος,",
         "script": "G",
         "strong": "G3972",
-        "morph": "N-NSM",
-        "paragraph": true
+        "morph": "N-NSM"
       },
       {
         "text": " ἀπόστολος",
@@ -209,11 +209,11 @@
     "verse": 3,
     "content": [
       {
+        "paragraph": true,
         "text": "Χάριν",
         "script": "G",
         "strong": "G5485",
-        "morph": "N-ASF",
-        "paragraph": true
+        "morph": "N-ASF"
       },
       {
         "text": " ἔχω",
@@ -1718,11 +1718,11 @@
     "verse": 15,
     "content": [
       {
+        "paragraph": true,
         "text": "Οἶδας",
         "script": "G",
         "strong": "G1492",
-        "morph": "V-RAI-2S",
-        "paragraph": true
+        "morph": "V-RAI-2S"
       },
       {
         "text": " τοῦτο,",
@@ -2128,11 +2128,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Σὺ",
         "script": "G",
         "strong": "G4771",
-        "morph": "P-2NS",
-        "paragraph": true
+        "morph": "P-2NS"
       },
       {
         "text": " οὖν,",
@@ -2584,7 +2584,6 @@
         "morph": "ADV-S"
       },
       {
-        "text": " ",
         "strong": "G4413",
         "morph": "A-ASN-S"
       },
@@ -3221,11 +3220,11 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Ταῦτα",
         "script": "G",
         "strong": "G3778",
-        "morph": "D-APN",
-        "paragraph": true
+        "morph": "D-APN"
       },
       {
         "text": " ὑπομίμνῃσκε,",
@@ -4479,12 +4478,7 @@
             },
             " ⇒ ",
             {
-              "text": "πραύ",
-              "script": "G"
-            },
-            " ̈ ",
-            {
-              "text": "τητι",
+              "text": "πρα̈ύτητι",
               "script": "G"
             }
           ]
@@ -4678,11 +4672,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Τοῦτο",
         "script": "G",
         "strong": "G3778",
-        "morph": "D-ASN",
-        "paragraph": true
+        "morph": "D-ASN"
       },
       {
         "text": " δὲ",
@@ -6309,11 +6303,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Διαμαρτύρομαι",
         "script": "G",
         "strong": "G1263",
-        "morph": "V-PNI-1S",
-        "paragraph": true
+        "morph": "V-PNI-1S"
       },
       {
         "text": " οὖν",
@@ -7286,11 +7280,11 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "Σπούδασον",
         "script": "G",
         "strong": "G4704",
-        "morph": "V-AAM-2S",
-        "paragraph": true
+        "morph": "V-AAM-2S"
       },
       {
         "text": " ἐλθεῖν",
@@ -8347,11 +8341,11 @@
     "verse": 19,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἄσπασαι",
         "script": "G",
         "strong": "G782",
-        "morph": "V-ADM-2S",
-        "paragraph": true
+        "morph": "V-ADM-2S"
       },
       {
         "text": " Πρίσκαν",
@@ -8579,11 +8573,11 @@
     "verse": 22,
     "content": [
       {
+        "paragraph": true,
         "text": "Ὁ",
         "script": "G",
         "strong": "G3588",
-        "morph": "T-NSM",
-        "paragraph": true
+        "morph": "T-NSM"
       },
       {
         "text": " κύριος",

@@ -27,6 +27,7 @@
 <sup>25</sup> qui autem perspexerit in lege perfecta libertatis et permanserit non auditor obliviosus factus sed factor operis hic beatus in facto suo erit
 <sup>26</sup> si quis autem putat se religiosum esse non refrenans linguam suam sed seducens cor suum huius vana est religio
 <sup>27</sup> religio munda et inmaculata apud Deum et Patrem haec est visitare pupillos et viduas in tribulatione eorum inmaculatum se custodire ab hoc saeculo
+
 ## Chapter 2
 
 <sup>1</sup> fratres mei nolite in personarum acceptione habere fidem Domini nostri Iesu Christi gloriae
@@ -55,6 +56,7 @@
 <sup>24</sup> videtis quoniam ex operibus iustificatur homo et non ex fide tantum
 <sup>25</sup> similiter autem et Raab meretrix nonne ex operibus iustificata est suscipiens nuntios et alia via eiciens
 <sup>26</sup> sicut enim corpus sine spiritu emortuum est ita et fides sine operibus mortua est
+
 ## Chapter 3
 
 <sup>1</sup> nolite plures magistri fieri fratres mei scientes quoniam maius iudicium sumitis
@@ -75,6 +77,7 @@
 <sup>16</sup> ubi enim zelus et contentio ibi inconstantia et omne opus pravum
 <sup>17</sup> quae autem desursum est sapientia primum quidem pudica est deinde pacifica modesta suadibilis plena misericordia et fructibus bonis non iudicans sine simulatione
 <sup>18</sup> fructus autem iustitiae in pace seminatur facientibus pacem
+
 ## Chapter 4
 
 <sup>1</sup> unde bella et lites in vobis nonne hinc ex concupiscentiis vestris quae militant in membris vestris
@@ -94,6 +97,7 @@
 <sup>15</sup> pro eo ut dicatis si Dominus voluerit et vixerimus faciemus hoc aut illud
 <sup>16</sup> nunc autem exultatis in superbiis vestris omnis exultatio talis maligna est
 <sup>17</sup> scienti igitur bonum facere et non facienti peccatum est illi
+
 ## Chapter 5
 
 <sup>1</sup> age nunc divites plorate ululantes in miseriis quae advenient vobis

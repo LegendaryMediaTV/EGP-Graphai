@@ -17,7 +17,7 @@
 <sup>13</sup> Harness the chariot to the swift steed, inhabitant of Lachish.<br>She was the beginning of sin to the daughter of Zion;<br>for the transgressions of Israel were found in you.<br>
 <sup>14</sup> Therefore you will give a parting gift to Moresheth Gath.<br>The houses of Achzib will be a deceitful thing to the kings of Israel.<br>
 <sup>15</sup> I will yet bring a conqueror to you, inhabitants of Mareshah.<br>The glory of Israel will come to Adullam.<br>
-<sup>16</sup> Shave your heads,<br>and cut off your hair for the children of your delight.<br>Enlarge your baldness like the vulture,<br>for they have gone into captivity from you!
+<sup>16</sup> Shave your heads,<br>and cut off your hair for the children of your delight.<br>Enlarge your baldness like the vulture,<br>for they have gone into captivity from you! 
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 2. The word translated “Lord” is “Adonai.”
@@ -39,6 +39,7 @@
 <sup>11</sup> If a man walking in a spirit of falsehood lies, saying,<br>“I will prophesy to you of wine and of strong drink,”<br>he would be the prophet of this people.<br>
 <sup>12</sup> I will surely assemble all of you, Jacob.<br>I will surely gather the remnant of Israel.<br>I will put them together as the sheep of Bozrah,<br>as a flock in the middle of their pasture.<br>They will swarm with people.<br>
 <sup>13</sup> He who breaks open the way goes up before them.<br>They break through the gate, and go out.<br>Their king passes on before them,<br>with Yahweh at their head.
+
 ## Chapter 3
 
 <sup>1</sup> I said,<br>“Please listen, you heads of Jacob,<br>and rulers of the house of Israel:<br>Isn’t it for you to know justice?<br>
@@ -73,7 +74,8 @@
 
 <sup>11</sup> Now many nations have assembled against you, that say,<br>“Let her be defiled,<br>and let our eye gloat over Zion.”<br>
 <sup>12</sup> But they don’t know the thoughts of Yahweh,<br>neither do they understand his counsel;<br>for he has gathered them like the sheaves to the threshing floor.<br>
-<sup>13</sup> Arise and thresh, daughter of Zion,<br>for I will make your horn iron,<br>and I will make your hoofs bronze.<br>You will beat in pieces many peoples.<br>I will devote their gain to Yahweh,<br>and their substance to the Lord of the whole earth.
+<sup>13</sup> Arise and thresh, daughter of Zion,<br>for I will make your horn iron,<br>and I will make your hoofs bronze.<br>You will beat in pieces many peoples.<br>I will devote their gain to Yahweh,<br>and their substance to the Lord of the whole earth. 
+
 ## Chapter 5
 
 <sup>1</sup> Now you shall gather yourself in troops,<br>daughter of troops.<br>He has laid siege against us.<br>They will strike the judge of Israel with a rod on the cheek.<br>
@@ -91,6 +93,7 @@
 <sup>13</sup> I will cut off your engraved images and your pillars from among you;<br>and you shall no more worship the work of your hands.<br>
 <sup>14</sup> I will uproot your Asherah poles from among you;<br>and I will destroy your cities.<br>
 <sup>15</sup> I will execute vengeance in anger<br>and wrath on the nations that didn’t listen.”
+
 ## Chapter 6
 
 <sup>1</sup> Listen now to what Yahweh says:<br>“Arise, plead your case before the mountains,<br>and let the hills hear what you have to say.<br>

@@ -22,6 +22,7 @@
 <sup>20</sup> et hoc in omne quod latissimum est provinciarum tuarum divulgetur imperium et cunctae uxores tam maiorum quam minorum deferant maritis suis
 <sup>21</sup> placuit consilium eius regi et principibus fecitque rex iuxta consultum Mamuchan
 <sup>22</sup> et misit epistulas ad universas provincias regni sui ut quaeque gens audire et legere poterat diversis linguis et litteris esse viros principes ac maiores in domibus suis et hoc per cunctos populos divulgari
+
 ## Chapter 2
 
 <sup>1</sup> his itaque gestis postquam regis Asueri deferbuerat indignatio recordatus est Vasthi et quae fecisset vel quae passa esset
@@ -47,6 +48,7 @@
 <sup>21</sup> eo igitur tempore quo Mardocheus ad regis ianuam morabatur irati sunt Bagathan et Thares duo eunuchi regis qui ianitores erant et in primo palatii limine praesidebant volueruntque insurgere in regem et occidere eum
 <sup>22</sup> quod Mardocheum non latuit statimque nuntiavit reginae Hester et illa regi ex nomine Mardochei qui ad se rem detulerat
 <sup>23</sup> quaesitum est et inventum et adpensus uterque eorum in patibulo mandatumque historiis et annalibus traditum coram rege
+
 ## Chapter 3
 
 <sup>1</sup> post haec rex Asuerus exaltavit Aman filium Amadathi qui erat de stirpe Agag et posuit solium eius super omnes principes quos habebat
@@ -64,6 +66,7 @@
 <sup>13</sup> missae sunt per cursores regis ad universas provincias ut occiderent atque delerent omnes Iudaeos a puero usque ad senem parvulos et mulieres uno die hoc est tertiodecimo mensis duodecimi qui vocatur adar et bona eorum diriperent
 <sup>14</sup> summa autem epistularum haec fuit ut omnes provinciae scirent et pararent se ad praedictam diem
 <sup>15</sup> festinabant cursores qui missi erant explere regis imperium statimque in Susis pependit edictum rege et Aman celebrante convivium et cunctis qui in urbe erant flentibus
+
 ## Chapter 4
 
 <sup>1</sup> quae cum audisset Mardocheus scidit vestimenta sua et indutus est sacco spargens cinerem capiti et in platea mediae civitatis voce magna clamabat ostendens amaritudinem animi sui
@@ -83,6 +86,7 @@
 <sup>15</sup> rursumque Hester haec Mardocheo verba mandavit
 <sup>16</sup> vade et congrega omnes Iudaeos quos in Susis reppereris et orate pro me non comedatis et non bibatis tribus diebus ac noctibus et ego cum ancillulis meis similiter ieiunabo et tunc ingrediar ad regem contra legem faciens invocata tradensque me morti et periculo
 <sup>17</sup> ivit itaque Mardocheus et fecit omnia quae ei Hester praeceperat
+
 ## Chapter 5
 
 <sup>1</sup> die autem tertio induta est Hester regalibus vestimentis et stetit in atrio domus regiae quod erat interius contra basilicam regis at ille sedebat super solium in consistorio palatii contra ostium domus
@@ -99,6 +103,7 @@
 <sup>12</sup> et post haec ait regina quoque Hester nullum alium vocavit cum rege ad convivium praeter me apud quam etiam cras cum rege pransurus sum
 <sup>13</sup> et cum haec omnia habeam nihil me habere puto quamdiu videro Mardocheum Iudaeum sedentem ante fores regias
 <sup>14</sup> responderuntque ei Zares uxor eius et ceteri amici iube parari excelsam trabem habentem altitudinem quinquaginta cubitos et dic mane regi ut adpendatur super eam Mardocheus et sic ibis cum rege laetus ad convivium placuit ei consilium et iussit excelsam parari crucem
+
 ## Chapter 6
 
 <sup>1</sup> noctem illam rex duxit insomnem iussitque adferri sibi historias et annales priorum temporum qui cum illo praesente legerentur
@@ -115,6 +120,7 @@
 <sup>12</sup> reversus est Mardocheus ad ianuam palatii et Aman festinavit ire in domum suam lugens et operto capite
 <sup>13</sup> narravitque Zares uxori suae et amicis omnia quae evenissent sibi cui responderunt sapientes quos habebat in consilio et uxor eius si de semine Iudaeorum est Mardocheus ante quem cadere coepisti non poteris ei resistere sed cades in conspectu eius
 <sup>14</sup> adhuc illis loquentibus venerunt eunuchi regis et cito eum ad convivium quod regina paraverat pergere conpulerunt
+
 ## Chapter 7
 
 <sup>1</sup> intravit itaque rex et Aman ut biberent cum regina
@@ -127,6 +133,7 @@
 <sup>8</sup> qui cum reversus esset de horto nemoribus consito et intrasset convivii locum repperit Aman super lectulum corruisse in quo iacebat Hester et ait etiam reginam vult opprimere me praesente in domo mea necdum verbum de ore regis exierat et statim operuerunt faciem eius
 <sup>9</sup> dixitque Arbona unus de eunuchis qui stabant in ministerio regis en lignum quod paraverat Mardocheo qui locutus est pro rege stat in domo Aman habens altitudinis quinquaginta cubitos cui dixit rex adpendite eum in eo
 <sup>10</sup> suspensus est itaque Aman in patibulo quod paraverat Mardocheo et regis ira quievit
+
 ## Chapter 8
 
 <sup>1</sup> die illo dedit rex Asuerus Hester reginae domum Aman adversarii Iudaeorum et Mardocheus ingressus est ante faciem regis confessa est enim ei Hester quod esset patruus suus
@@ -146,6 +153,7 @@
 <sup>15</sup> Mardocheus autem de palatio et de conspectu regis egrediens fulgebat vestibus regiis hyacinthinis videlicet et aerinis coronam auream portans capite et amictus pallio serico atque purpureo omnisque civitas exultavit atque laetata est
 <sup>16</sup> Iudaeis autem nova lux oriri visa est gaudium honor et tripudium
 <sup>17</sup> apud omnes populos urbes atque provincias quocumque regis iussa veniebant mira exultatio epulae atque convivia et festus dies in tantum ut plures alterius gentis et sectae eorum religioni et caerimoniis iungerentur grandis enim cunctos iudaici nominis terror invaserat
+
 ## Chapter 9
 
 <sup>1</sup> igitur duodecimi mensis quem adar vocari ante iam diximus tertiadecima die quando cunctis Iudaeis interfectio parabatur et hostes eorum inhiabant sanguini versa vice Iudaei superiores esse coeperunt et se de adversariis vindicare
@@ -180,6 +188,7 @@
 <sup>30</sup> et miserunt ad omnes Iudaeos qui in centum viginti septem regis Asueri provinciis versabantur ut haberent pacem et susciperent veritatem
 <sup>31</sup> observantes dies Sortium et suo tempore cum gaudio celebrarent sicut constituerat Mardocheus et Hester et illi observanda susceperant a se et a semine suo ieiunia atque clamores et Sortium dies
 <sup>32</sup> et omnia quae libri huius qui vocatur Hester historia continentur
+
 ## Chapter 10
 
 <sup>1</sup> rex vero Asuerus omnem terram et cunctas maris insulas fecit tributarias

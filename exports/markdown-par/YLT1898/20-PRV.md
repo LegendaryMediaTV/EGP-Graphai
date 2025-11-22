@@ -33,6 +33,7 @@
 <sup>31</sup> And they eat of the fruit of their way, And from their own counsels they are filled.
 <sup>32</sup> For the turning of the simple slayeth them, And the security of the foolish destroyeth them.
 <sup>33</sup> And whoso is hearkening to me dwelleth confidently, And is quiet from fear of evil!’
+
 ## Chapter 2
 
 <sup>1</sup> My son, if thou dost accept my sayings, And my commands dost lay up with thee,
@@ -57,6 +58,7 @@
 <sup>20</sup> That thou dost go in the way of the good, And the paths of the righteous dost keep.
 <sup>21</sup> For the upright do inhabit the earth, And the perfect are left in it,
 <sup>22</sup> And the wicked from the earth are cut off, And treacherous dealers plucked out of it!
+
 ## Chapter 3
 
 <sup>1</sup> My son! my law forget not, And my commands let thy heart keep,
@@ -94,6 +96,7 @@
 <sup>33</sup> The curse of Jehovah is in the house of the wicked. And the habitation of the righteous He blesseth.
 <sup>34</sup> If the scorners He doth scorn, Yet to the humble He doth give grace.
 <sup>35</sup> Honour do the wise inherit, And fools are bearing away shame!
+
 ## Chapter 4
 
 <sup>1</sup> Hear, ye sons, the instruction of a father, And give attention to know understanding.
@@ -123,6 +126,7 @@
 <sup>25</sup> Thine eyes do look straightforward, And thine eyelids look straight before thee.
 <sup>26</sup> Ponder thou the path of thy feet, And all thy ways are established.
 <sup>27</sup> Incline not to the right or to the left, Turn aside thy foot from evil!
+
 ## Chapter 5
 
 <sup>1</sup> My son! to my wisdom give attention, To mine understanding incline thine ear,
@@ -148,6 +152,7 @@
 <sup>21</sup> For over-against the eyes of Jehovah are the ways of each, And all his paths He is pondering.
 <sup>22</sup> His own iniquities do capture the wicked, And with the ropes of his sin he is holden.
 <sup>23</sup> He dieth without instruction, And in the abundance of his folly magnifieth himself!
+
 ## Chapter 6
 
 <sup>1</sup> My son! if thou hast been surety for thy friend, Hast stricken for a stranger thy hand,
@@ -185,6 +190,7 @@
 <sup>33</sup> A stroke and shame he doth find, And his reproach is not wiped away,
 <sup>34</sup> For jealousy is the fury of a man, And he doth not spare in a day of vengeance.
 <sup>35</sup> He accepteth not the appearance of any atonement, Yea, he doth not consent, Though thou dost multiply bribes!
+
 ## Chapter 7
 
 <sup>1</sup> My son! keep my sayings, And my commands lay up with thee.
@@ -214,6 +220,7 @@
 <sup>25</sup> Let not thy heart turn unto her ways, Do not wander in her paths,
 <sup>26</sup> For many are the wounded she caused to fall, And mighty are all her slain ones.
 <sup>27</sup> The ways of Sheol-her house, Going down unto inner chambers of death!
+
 ## Chapter 8
 
 <sup>1</sup> Doth not wisdom call? And understanding give forth her voice?
@@ -252,6 +259,7 @@
 <sup>34</sup> O the happiness of the man hearkening to me, To watch at my doors day by day, To watch at the door-posts of my entrance.
 <sup>35</sup> For whoso is finding me, hath found life, And bringeth out good-will from Jehovah.
 <sup>36</sup> And whoso is missing me, is wronging his soul, All hating me have loved death!
+
 ## Chapter 9
 
 <sup>1</sup> Wisdom hath builded her house, She hath hewn out her pillars-seven.
@@ -272,6 +280,7 @@
 <sup>16</sup> ‘Who is simple? let him turn aside hither.’ And whoso lacketh heart-she said to him,
 <sup>17</sup> ‘Stolen waters are sweet, And hidden bread is pleasant.’
 <sup>18</sup> And he hath not known that Rephaim are there, In deep places of Sheol her invited ones!
+
 ## Chapter 10
 
 <sup>1</sup> Proverbs of Solomon. A wise son causeth a father to rejoice, And a foolish son is an affliction to his mother.
@@ -306,6 +315,7 @@
 <sup>30</sup> The righteous to the age is not moved, And the wicked inhabit not the earth.
 <sup>31</sup> The mouth of the righteous uttereth wisdom, And the tongue of frowardness is cut out.
 <sup>32</sup> The lips of the righteous know a pleasing thing, And the mouth of the wicked perverseness!
+
 ## Chapter 11
 
 <sup>1</sup> Balances of deceit are an abomination to Jehovah, And a perfect weight is His delight.
@@ -339,6 +349,7 @@
 <sup>29</sup> Whoso is troubling his own house inheriteth wind, And a servant is the fool to the wise of heart.
 <sup>30</sup> The fruit of the righteous is a tree of life, And whoso is taking souls is wise.
 <sup>31</sup> Lo, the righteous in the earth is recompensed, Surely also the wicked and the sinner!
+
 ## Chapter 12
 
 <sup>1</sup> Whoso is loving instruction, is loving knowledge, And whoso is hating reproof is brutish.
@@ -369,6 +380,7 @@
 <sup>26</sup> The righteous searcheth his companion, And the way of the wicked causeth them to err.
 <sup>27</sup> The slothful roasteth not his hunting, And the wealth of a diligent man is precious.
 <sup>28</sup> In the path of righteousness is life, And in the way of that path is no death!
+
 ## Chapter 13
 
 <sup>1</sup> A wise son-the instruction of a father, And a scorner-he hath not heard rebuke.
@@ -396,6 +408,7 @@
 <sup>23</sup> Abundance of food-the tillage of the poor, And substance is consumed without judgment.
 <sup>24</sup> Whoso is sparing his rod is hating his son, And whoso is loving him hath hastened him chastisement.
 <sup>25</sup> The righteous is eating to the satiety of his soul, And the belly of the wicked lacketh!
+
 ## Chapter 14
 
 <sup>1</sup> Every wise woman hath builded her house, And the foolish with her hands breaketh it down.
@@ -433,6 +446,7 @@
 <sup>33</sup> In the heart of the intelligent wisdom doth rest. And in the midst of fools it is known.
 <sup>34</sup> Righteousness exalteth a nation, And the goodliness of peoples is a sin-offering.
 <sup>35</sup> The favour of a king is to a wise servant, And an object of his wrath is one causing shame!
+
 ## Chapter 15
 
 <sup>1</sup> A soft answer turneth back fury, And a grievous word raiseth up anger.
@@ -468,6 +482,7 @@
 <sup>31</sup> An ear that is hearing the reproof of life Doth lodge among the wise.
 <sup>32</sup> Whoso is refusing instruction is despising his soul, And whoso is hearing reproof Is getting understanding.
 <sup>33</sup> The fear of Jehovah is the instruction of wisdom, And before honour is humility!
+
 ## Chapter 16
 
 <sup>1</sup> Of man are arrangements of the heart, And from Jehovah an answer of the tongue.
@@ -503,6 +518,7 @@
 <sup>31</sup> A crown of beauty are grey hairs, In the way of righteousness it is found.
 <sup>32</sup> Better is the slow to anger than the mighty, And the ruler over his spirit than he who is taking a city.
 <sup>33</sup> Into the centre is the lot cast, And from Jehovah is all its judgment!
+
 ## Chapter 17
 
 <sup>1</sup> Better is a dry morsel, and rest with it, Than a house full of the sacrifices of strife.
@@ -533,6 +549,7 @@
 <sup>26</sup> Also, to fine the righteous is not good, To smite nobles for uprightness.
 <sup>27</sup> One acquainted with knowledge is sparing his words, And the cool of temper is a man of understanding.
 <sup>28</sup> Even a fool keeping silence is reckoned wise, He who is shutting his lips intelligent!
+
 ## Chapter 18
 
 <sup>1</sup> For an object of desire he who is separated doth seek, With all wisdom he intermeddleth.
@@ -559,6 +576,7 @@
 <sup>22</sup> Whoso hath found a wife hath found good, And bringeth out good-will from Jehovah.
 <sup>23</sup> With supplications doth the poor speak, And the rich answereth fierce things.
 <sup>24</sup> A man with friends is to show himself friendly, And there is a lover adhering more than a brother!
+
 ## Chapter 19
 
 <sup>1</sup> Better is the poor walking in his integrity, Than the perverse in his lips, who is a fool.
@@ -590,6 +608,7 @@
 <sup>27</sup> Cease, my son, to hear instruction- To err from sayings of knowledge.
 <sup>28</sup> A worthless witness scorneth judgment, And the mouth of the wicked swalloweth iniquity.
 <sup>29</sup> Judgments have been prepared for scorners, And stripes for the back of fools!
+
 ## Chapter 20
 
 <sup>1</sup> Wine is a scorner-strong drink is noisy, And any going astray in it is not wise.
@@ -622,6 +641,7 @@
 <sup>28</sup> Kindness and truth keep a king, And he hath supported by kindness his throne.
 <sup>29</sup> The beauty of young men is their strength, And the honour of old men is grey hairs.
 <sup>30</sup> The bandages of a wound thou removest with the evil, Also the plagues of the inner parts of the heart!
+
 ## Chapter 21
 
 <sup>1</sup> Rivulets of waters is the heart of a king in the hand of Jehovah, Wherever He pleaseth He inclineth it.
@@ -655,6 +675,7 @@
 <sup>29</sup> A wicked man hath hardened by his face, And the upright-he prepareth his way.
 <sup>30</sup> There is no wisdom, nor understanding, Nor counsel, over-against Jehovah.
 <sup>31</sup> A horse is prepared for a day of battle, And the deliverance is of Jehovah!
+
 ## Chapter 22
 
 <sup>1</sup> A name is chosen rather than much wealth, Than silver and than gold-good grace.
@@ -686,6 +707,7 @@
 <sup>27</sup> If thou hast nothing to pay, Why doth he take thy bed from under thee?
 <sup>28</sup> Remove not a border of olden times, ‘That thy fathers have made.
 <sup>29</sup> Hast thou seen a man speedy in his business? Before kings he doth station himself, He stations not himself before obscure men!
+
 ## Chapter 23
 
 <sup>1</sup> When thou sittest to eat with a ruler, Thou considerest diligently that which is before thee,
@@ -723,6 +745,7 @@
 <sup>33</sup> Thine eyes see strange women, And thy heart speaketh perverse things.
 <sup>34</sup> And thou hast been as one lying down in the heart of the sea, And as one lying down on the top of a mast.
 <sup>35</sup> ‘They smote me, I have not been sick, They beat me, I have not known. When I awake-I seek it yet again!’
+
 ## Chapter 24
 
 <sup>1</sup> Be not envious of evil men, And desire not to be with them.
@@ -759,6 +782,7 @@
 <sup>32</sup> And I see-I-I do set my heart, I have seen-I have received instruction,
 <sup>33</sup> A little sleep-a little slumber- A little folding of the hands to lie down.
 <sup>34</sup> And thy poverty hath come as a traveller, And thy want as an armed man!
+
 ## Chapter 25
 
 <sup>1</sup> Also these are Proverbs of Solomon, that men of Hezekiah king of Judah transcribed:-
@@ -789,6 +813,7 @@
 <sup>26</sup> A spring troubled, and a fountain corrupt, Is the righteous falling before the wicked.
 <sup>27</sup> The eating of much honey is not good, Nor a searching out of one’s own honour-honour.
 <sup>28</sup> A city broken down without walls, Is a man without restraint over his spirit!
+
 ## Chapter 26
 
 <sup>1</sup> As snow in summer, and as rain in harvest, So honour is not comely for a fool.
@@ -819,6 +844,7 @@
 <sup>26</sup> Hatred is covered by deceit, Revealed is its wickedness in an assembly.
 <sup>27</sup> Whoso is digging a pit falleth into it, And the roller of a stone, to him it turneth.
 <sup>28</sup> A lying tongue hateth its bruised ones, And a flattering mouth worketh an overthrow!
+
 ## Chapter 27
 
 <sup>1</sup> Boast not thyself of to-morrow, For thou knowest not what a day bringeth forth.
@@ -848,6 +874,7 @@
 <sup>25</sup> Revealed was the hay, and seen the tender grass, And gathered the herbs of mountains.
 <sup>26</sup> Lambs are for thy clothing, And the price of the field are he-goats,
 <sup>27</sup> And a sufficiency of goats’ milk is for thy bread, For bread to thy house, and life to thy damsels!
+
 ## Chapter 28
 
 <sup>1</sup> The wicked have fled and there is no pursuer. And the righteous as a young lion is confident.
@@ -878,6 +905,7 @@
 <sup>26</sup> Whoso is trusting in his heart is a fool, And whoso is walking in wisdom is delivered.
 <sup>27</sup> Whoso is giving to the poor hath no lack, And whoso is hiding his eyes multiplied curses.
 <sup>28</sup> In the rising of the wicked a man is hidden, And in their destruction the righteous multiply!
+
 ## Chapter 29
 
 <sup>1</sup> A man often reproved, hardening the neck, Is suddenly broken, and there is no healing.
@@ -907,6 +935,7 @@
 <sup>25</sup> Fear of man causeth a snare, And the confident in Jehovah is set on high.
 <sup>26</sup> Many are seeking the face of a ruler, And from Jehovah is the judgment of each.
 <sup>27</sup> An abomination to the righteous is the perverse man, And an abomination to the wicked is the upright in the way!
+
 ## Chapter 30
 
 <sup>1</sup> Words of a Gatherer, son of an obedient one, the declaration, an affirmation of the man:- I have wearied myself for God, I have wearied myself for God, and am consumed.
@@ -942,6 +971,7 @@
 <sup>31</sup> A girt one of the loins, or a he-goat, And a king-no rising up with him.
 <sup>32</sup> If thou hast been foolish in lifting up thyself, And if thou hast devised evil-hand to mouth!
 <sup>33</sup> For the churning of milk bringeth out butter, And the wringing of the nose bringeth out blood, And the forcing of anger bringeth out strife!
+
 ## Chapter 31
 
 <sup>1</sup> Words of Lemuel a king, a declaration that his mother taught him:

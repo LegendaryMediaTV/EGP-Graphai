@@ -5,8 +5,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Blessed is the man who doesn’t walk in the counsel of the wicked,",
         "paragraph": true,
+        "text": "Blessed is the man who doesn’t walk in the counsel of the wicked,",
         "break": true
       },
       {
@@ -112,8 +112,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Why do the nations rage,",
         "paragraph": true,
+        "text": "Why do the nations rage,",
         "break": true
       },
       {
@@ -317,8 +317,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, how my adversaries have increased!",
+        "subtitle": "A Psalm by David, when he fled from Absalom his son."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, how my adversaries have increased!",
         "break": true
       },
       {
@@ -338,6 +341,7 @@
       },
       {
         "text": "“There is no help for him in God.”",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": [
@@ -348,8 +352,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "break": true
+        }
       },
       "Selah."
     ]
@@ -360,8 +363,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "But you, Yahweh, are a shield around me,",
         "paragraph": true,
+        "text": "But you, Yahweh, are a shield around me,",
         "break": true
       },
       {
@@ -392,8 +395,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "I laid myself down and slept.",
         "paragraph": true,
+        "text": "I laid myself down and slept.",
         "break": true
       },
       {
@@ -462,8 +465,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Answer me when I call, God of my righteousness.",
+        "subtitle": "For the Chief Musician; on stringed instruments. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Answer me when I call, God of my righteousness.",
         "break": true
       },
       {
@@ -498,8 +504,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "But know that Yahweh has set apart for himself him who is godly;",
         "paragraph": true,
+        "text": "But know that Yahweh has set apart for himself him who is godly;",
         "break": true
       },
       {
@@ -530,8 +536,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "Offer the sacrifices of righteousness.",
         "paragraph": true,
+        "text": "Offer the sacrifices of righteousness.",
         "break": true
       },
       {
@@ -588,8 +594,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Give ear to my words, Yahweh.",
+        "subtitle": "For the Chief Musician, with the flutes. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Give ear to my words, Yahweh.",
         "break": true
       },
       {
@@ -786,8 +795,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, don’t rebuke me in your anger,",
+        "subtitle": "For the Chief Musician; on stringed instruments, upon the eight-stringed lyre. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, don’t rebuke me in your anger,",
         "break": true
       },
       {
@@ -945,8 +957,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, my God, I take refuge in you.",
+        "subtitle": "A meditation by David, which he sang to Yahweh, concerning the words of Cush, the Benjamite."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, my God, I take refuge in you.",
         "break": true
       },
       {
@@ -1026,8 +1041,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "Arise, Yahweh, in your anger.",
         "paragraph": true,
+        "text": "Arise, Yahweh, in your anger.",
         "break": true
       },
       {
@@ -1234,8 +1249,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, our Lord, how majestic is your name in all the earth!",
+        "subtitle": "For the Chief Musician; on an instrument of Gath. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, our Lord, how majestic is your name in all the earth!",
         "break": true
       },
       {
@@ -1296,11 +1314,11 @@
     "content": [
       {
         "text": "For you have made him a little lower than the angels,",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Hebrew: Elohim. The word Elohim, used here, usually means “God”, but can also mean “gods”, “princes”, or “angels”. The Septuagint reads “angels” here. See also the quote from the Septuagint in Hebrews 2:7."
-        },
-        "break": true
+        }
       },
       {
         "text": "and crowned him with glory and honor.",
@@ -1371,8 +1389,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I will give thanks to Yahweh with my whole heart.",
+        "subtitle": "For the Chief Musician. Set to “The Death of the Son.” A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "I will give thanks to Yahweh with my whole heart.",
         "break": true
       },
       {
@@ -1625,13 +1646,13 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "The wicked shall be turned back to Sheol,",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "paragraph": true,
-        "break": true
+        }
       },
       {
         "text": "even all the nations that forget God.",
@@ -1691,8 +1712,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Why do you stand far off, Yahweh?",
         "paragraph": true,
+        "text": "Why do you stand far off, Yahweh?",
         "break": true
       },
       {
@@ -1874,8 +1895,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "Arise, Yahweh!",
         "paragraph": true,
+        "text": "Arise, Yahweh!",
         "break": true
       },
       {
@@ -1989,8 +2010,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "In Yahweh, I take refuge.",
+        "subtitle": "For the Chief Musician. By David."
+      },
+      {
         "paragraph": true,
+        "text": "In Yahweh, I take refuge.",
         "break": true
       },
       {
@@ -2108,8 +2132,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Help, Yahweh; for the godly man ceases.",
+        "subtitle": "For the Chief Musician; upon an eight-stringed lyre. A Psalm of David."
+      },
+      {
         "paragraph": true,
+        "text": "Help, Yahweh; for the godly man ceases.",
         "break": true
       },
       {
@@ -2234,8 +2261,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "How long, Yahweh?",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "How long, Yahweh?",
         "break": true
       },
       {
@@ -2300,8 +2330,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "But I trust in your loving kindness.",
         "paragraph": true,
+        "text": "But I trust in your loving kindness.",
         "break": true
       },
       {
@@ -2328,8 +2358,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "The fool has said in his heart, “There is no God.”",
+        "subtitle": "For the Chief Musician. By David."
+      },
+      {
         "paragraph": true,
+        "text": "The fool has said in his heart, “There is no God.”",
         "break": true
       },
       {
@@ -2455,8 +2488,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, who shall dwell in your sanctuary?",
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, who shall dwell in your sanctuary?",
         "break": true
       },
       {
@@ -2527,18 +2563,27 @@
         "text": "he who doesn’t lend out his money for usury,",
         "break": true
       },
-      "nor take a bribe against the innocent. He who does these things shall never be shaken."
+      "nor take a bribe against the innocent.",
+      {
+        "paragraph": true,
+        "text": "He who does these things shall never be shaken."
+      }
     ]
   },
   {
     "book": "PSA",
     "chapter": 16,
     "verse": 1,
-    "content": {
-      "text": "Preserve me, God, for I take refuge in you.",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Poem by David."
+      },
+      {
+        "paragraph": true,
+        "text": "Preserve me, God, for I take refuge in you.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -2573,8 +2618,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "Their sorrows shall be multiplied who give gifts to another god.",
         "paragraph": true,
+        "text": "Their sorrows shall be multiplied who give gifts to another god.",
         "break": true
       },
       {
@@ -2605,8 +2650,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "The lines have fallen to me in pleasant places.",
         "paragraph": true,
+        "text": "The lines have fallen to me in pleasant places.",
         "break": true
       },
       {
@@ -2667,11 +2712,11 @@
     "content": [
       {
         "text": "For you will not leave my soul in Sheol,",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       {
         "text": "neither will you allow your holy one to see corruption.",
@@ -2701,8 +2746,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear, Yahweh, my righteous plea.",
+        "subtitle": "A Prayer by David."
+      },
+      {
         "paragraph": true,
+        "text": "Hear, Yahweh, my righteous plea.",
         "break": true
       },
       {
@@ -2950,11 +2998,16 @@
     "book": "PSA",
     "chapter": 18,
     "verse": 1,
-    "content": {
-      "text": "I love you, Yahweh, my strength.",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "For the Chief Musician. By David the servant of Yahweh, who spoke to Yahweh the words of this song in the day that Yahweh delivered him from the hand of all his enemies, and from the hand of Saul. He said,"
+      },
+      {
+        "paragraph": true,
+        "text": "I love you, Yahweh, my strength.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -3754,8 +3807,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "The heavens declare the glory of God.",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "The heavens declare the glory of God.",
         "break": true
       },
       {
@@ -3850,8 +3906,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Yahweh’s law is perfect, restoring the soul.",
         "paragraph": true,
+        "text": "Yahweh’s law is perfect, restoring the soul.",
         "break": true
       },
       {
@@ -3938,8 +3994,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "Keep back your servant also from presumptuous sins.",
         "paragraph": true,
+        "text": "Keep back your servant also from presumptuous sins.",
         "break": true
       },
       {
@@ -3978,8 +4034,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "May Yahweh answer you in the day of trouble.",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "May Yahweh answer you in the day of trouble.",
         "break": true
       },
       {
@@ -4025,8 +4084,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "May he grant you your heart’s desire,",
         "paragraph": true,
+        "text": "May he grant you your heart’s desire,",
         "break": true
       },
       {
@@ -4121,8 +4180,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "The king rejoices in your strength, Yahweh!",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "The king rejoices in your strength, Yahweh!",
         "break": true
       },
       {
@@ -4153,8 +4215,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "For you meet him with the blessings of goodness.",
         "paragraph": true,
+        "text": "For you meet him with the blessings of goodness.",
         "break": true
       },
       {
@@ -4320,8 +4382,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "My God, my God, why have you forsaken me?",
+        "subtitle": "For the Chief Musician; set to “The Doe of the Morning.” A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "My God, my God, why have you forsaken me?",
         "break": true
       },
       {
@@ -4571,11 +4636,11 @@
       },
       {
         "text": "They have pierced my hands and feet.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "So Dead Sea Scrolls. Masoretic Text reads, “Like a lion, they pin my hands and feet.”"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -4612,8 +4677,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "But don’t be far off, Yahweh.",
         "paragraph": true,
+        "text": "But don’t be far off, Yahweh.",
         "break": true
       },
       {
@@ -4655,8 +4720,8 @@
     "verse": 22,
     "content": [
       {
-        "text": "I will declare your name to my brothers.",
         "paragraph": true,
+        "text": "I will declare your name to my brothers.",
         "break": true
       },
       {
@@ -4706,8 +4771,8 @@
     "verse": 25,
     "content": [
       {
-        "text": "My praise of you comes in the great assembly.",
         "paragraph": true,
+        "text": "My praise of you comes in the great assembly.",
         "break": true
       },
       {
@@ -4817,8 +4882,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh is my shepherd;",
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh is my shepherd;",
         "break": true
       },
       {
@@ -4921,8 +4989,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "The earth is Yahweh’s, with its fullness;",
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "The earth is Yahweh’s, with its fullness;",
         "break": true
       },
       {
@@ -4949,8 +5020,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "Who may ascend to Yahweh’s hill?",
         "paragraph": true,
+        "text": "Who may ascend to Yahweh’s hill?",
         "break": true
       },
       {
@@ -5015,8 +5086,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Lift up your heads, you gates!",
         "paragraph": true,
+        "text": "Lift up your heads, you gates!",
         "break": true
       },
       {
@@ -5087,11 +5158,16 @@
     "book": "PSA",
     "chapter": 25,
     "verse": 1,
-    "content": {
-      "text": "To you, Yahweh, I lift up my soul.",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "By David."
+      },
+      {
+        "paragraph": true,
+        "text": "To you, Yahweh, I lift up my soul.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -5130,8 +5206,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "Show me your ways, Yahweh.",
         "paragraph": true,
+        "text": "Show me your ways, Yahweh.",
         "break": true
       },
       {
@@ -5301,8 +5377,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "My eyes are ever on Yahweh,",
         "paragraph": true,
+        "text": "My eyes are ever on Yahweh,",
         "break": true
       },
       {
@@ -5419,8 +5495,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Judge me, Yahweh, for I have walked in my integrity.",
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
+        "text": "Judge me, Yahweh, for I have walked in my integrity.",
         "break": true
       },
       {
@@ -5567,8 +5646,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "But as for me, I will walk in my integrity.",
         "paragraph": true,
+        "text": "But as for me, I will walk in my integrity.",
         "break": true
       },
       {
@@ -5595,8 +5674,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh is my light and my salvation.",
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh is my light and my salvation.",
         "break": true
       },
       {
@@ -5715,8 +5797,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Hear, Yahweh, when I cry with my voice.",
         "paragraph": true,
+        "text": "Hear, Yahweh, when I cry with my voice.",
         "break": true
       },
       {
@@ -5853,8 +5935,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "To you, Yahweh, I call.",
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
+        "text": "To you, Yahweh, I call.",
         "break": true
       },
       {
@@ -5946,8 +6031,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "Blessed be Yahweh,",
         "paragraph": true,
+        "text": "Blessed be Yahweh,",
         "break": true
       },
       {
@@ -6020,8 +6105,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Ascribe to Yahweh, you sons of the mighty,",
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Ascribe to Yahweh, you sons of the mighty,",
         "break": true
       },
       {
@@ -6048,8 +6136,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "Yahweh’s voice is on the waters.",
         "paragraph": true,
+        "text": "Yahweh’s voice is on the waters.",
         "break": true
       },
       {
@@ -6149,8 +6237,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Yahweh sat enthroned at the Flood.",
         "paragraph": true,
+        "text": "Yahweh sat enthroned at the Flood.",
         "break": true
       },
       {
@@ -6177,8 +6265,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I will extol you, Yahweh, for you have raised me up,",
+        "subtitle": "A Psalm. A Song for the Dedication of the Temple. By David."
+      },
+      {
         "paragraph": true,
+        "text": "I will extol you, Yahweh, for you have raised me up,",
         "break": true
       },
       {
@@ -6209,11 +6300,11 @@
     "content": [
       {
         "text": "Yahweh, you have brought up my soul from Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       {
         "text": "You have kept me alive, that I should not go down to the pit.",
@@ -6371,8 +6462,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "In you, Yahweh, I take refuge.",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "In you, Yahweh, I take refuge.",
         "break": true
       },
       {
@@ -6653,11 +6747,11 @@
       },
       {
         "text": "Let them be silent in Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -6781,8 +6875,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Blessed is he whose disobedience is forgiven,",
+        "subtitle": "By David. A contemplative psalm."
+      },
+      {
         "paragraph": true,
+        "text": "Blessed is he whose disobedience is forgiven,",
         "break": true
       },
       {
@@ -6837,8 +6934,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "I acknowledged my sin to you.",
         "paragraph": true,
+        "text": "I acknowledged my sin to you.",
         "break": true
       },
       {
@@ -6862,8 +6959,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "For this, let everyone who is godly pray to you in a time when you may be found.",
         "paragraph": true,
+        "text": "For this, let everyone who is godly pray to you in a time when you may be found.",
         "break": true
       },
       {
@@ -6898,8 +6995,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "I will instruct you and teach you in the way which you shall go.",
         "paragraph": true,
+        "text": "I will instruct you and teach you in the way which you shall go.",
         "break": true
       },
       {
@@ -6956,8 +7053,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Rejoice in Yahweh, you righteous!",
         "paragraph": true,
+        "text": "Rejoice in Yahweh, you righteous!",
         "break": true
       },
       {
@@ -7278,15 +7375,17 @@
     "verse": 1,
     "content": [
       {
-        "text": "",
+        "subtitle": "By David; when he pretended to be insane before Abimelech, who drove him away, and he departed."
+      },
+      {
+        "paragraph": true,
         "foot": {
           "type": "stu",
           "content": "Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav)."
-        },
-        "paragraph": true
+        }
       },
       {
-        "text": "I will bless Yahweh at all times.",
+        "text": " I will bless Yahweh at all times.",
         "break": true
       },
       {
@@ -7433,8 +7532,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "Come, you children, listen to me.",
         "paragraph": true,
+        "text": "Come, you children, listen to me.",
         "break": true
       },
       {
@@ -7611,8 +7710,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Contend, Yahweh, with those who contend with me.",
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
+        "text": "Contend, Yahweh, with those who contend with me.",
         "break": true
       },
       {
@@ -7733,8 +7835,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "My soul shall be joyful in Yahweh.",
         "paragraph": true,
+        "text": "My soul shall be joyful in Yahweh.",
         "break": true
       },
       {
@@ -7795,8 +7897,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "But as for me, when they were sick, my clothing was sackcloth.",
         "paragraph": true,
+        "text": "But as for me, when they were sick, my clothing was sackcloth.",
         "break": true
       },
       {
@@ -8015,8 +8117,8 @@
     "verse": 27,
     "content": [
       {
-        "text": "Let those who favor my righteous cause shout for joy and be glad.",
         "paragraph": true,
+        "text": "Let those who favor my righteous cause shout for joy and be glad.",
         "break": true
       },
       {
@@ -8041,8 +8143,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "A revelation is within my heart about the disobedience of the wicked:",
+        "subtitle": "For the Chief Musician. By David, the servant of Yahweh."
+      },
+      {
         "paragraph": true,
+        "text": "A revelation is within my heart about the disobedience of the wicked:",
         "break": true
       },
       {
@@ -8103,8 +8208,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "Your loving kindness, Yahweh, is in the heavens.",
         "paragraph": true,
+        "text": "Your loving kindness, Yahweh, is in the heavens.",
         "break": true
       },
       {
@@ -8225,8 +8330,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Don’t fret because of evildoers,",
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
+        "text": "Don’t fret because of evildoers,",
         "break": true
       },
       {
@@ -8516,8 +8624,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "But the wicked shall perish.",
         "paragraph": true,
+        "text": "But the wicked shall perish.",
         "break": true
       },
       {
@@ -8684,8 +8792,8 @@
     "verse": 30,
     "content": [
       {
-        "text": "The mouth of the righteous talks of wisdom.",
         "paragraph": true,
+        "text": "The mouth of the righteous talks of wisdom.",
         "break": true
       },
       {
@@ -8761,8 +8869,8 @@
     "verse": 35,
     "content": [
       {
-        "text": "I have seen the wicked in great power,",
         "paragraph": true,
+        "text": "I have seen the wicked in great power,",
         "break": true
       },
       {
@@ -8853,8 +8961,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, don’t rebuke me in your wrath,",
+        "subtitle": "A Psalm by David, for a memorial."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, don’t rebuke me in your wrath,",
         "break": true
       },
       {
@@ -9189,8 +9300,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I said, “I will watch my ways, so that I don’t sin with my tongue.",
+        "subtitle": "For the Chief Musician. For Jeduthun. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "I said, “I will watch my ways, so that I don’t sin with my tongue.",
         "break": true
       },
       {
@@ -9282,8 +9396,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "“Surely every man walks like a shadow.",
         "paragraph": true,
+        "text": "“Surely every man walks like a shadow.",
         "break": true
       },
       {
@@ -9386,8 +9500,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "“Hear my prayer, Yahweh, and give ear to my cry.",
         "paragraph": true,
+        "text": "“Hear my prayer, Yahweh, and give ear to my cry.",
         "break": true
       },
       {
@@ -9422,8 +9536,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I waited patiently for Yahweh.",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "I waited patiently for Yahweh.",
         "break": true
       },
       {
@@ -9709,8 +9826,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Blessed is he who considers the poor.",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Blessed is he who considers the poor.",
         "break": true
       },
       {
@@ -9854,8 +9974,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "But you, Yahweh, have mercy on me, and raise me up,",
         "paragraph": true,
+        "text": "But you, Yahweh, have mercy on me, and raise me up,",
         "break": true
       },
       {
@@ -9897,8 +10017,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "Blessed be Yahweh, the God of Israel,",
         "paragraph": true,
+        "text": "Blessed be Yahweh, the God of Israel,",
         "break": true
       },
       {
@@ -9914,12 +10034,16 @@
     "verse": 1,
     "content": [
       {
-        "text": "As the deer pants for the water brooks,",
+        "subtitle": "For the Chief Musician. A contemplation by the sons of Korah."
+      },
+      {
         "paragraph": true,
+        "text": "As the deer pants for the water brooks,",
         "break": true
       },
       {
         "text": "so my soul pants after you, God.",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": [
@@ -9930,8 +10054,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -10044,12 +10167,12 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Yahweh",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " will command his loving kindness in the daytime.",
@@ -10121,8 +10244,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Vindicate me, God, and plead my cause against an ungodly nation.",
         "paragraph": true,
+        "text": "Vindicate me, God, and plead my cause against an ungodly nation.",
         "break": true
       },
       {
@@ -10218,8 +10341,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "We have heard with our ears, God;",
+        "subtitle": "For the Chief Musician. By the sons of Korah. A contemplative psalm."
+      },
+      {
         "paragraph": true,
+        "text": "We have heard with our ears, God;",
         "break": true
       },
       {
@@ -10360,8 +10486,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "But now you rejected us, and brought us to dishonor,",
         "paragraph": true,
+        "text": "But now you rejected us, and brought us to dishonor,",
         "break": true
       },
       {
@@ -10580,11 +10706,11 @@
       },
       {
         "text": "Why do you sleep, Lord?",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": "The word translated “Lord” is “Adonai.”"
-        },
-        "break": true
+        }
       },
       {
         "text": "Arise!",
@@ -10644,8 +10770,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "My heart overflows with a noble theme.",
+        "subtitle": "For the Chief Musician. Set to “The Lilies.” A contemplation by the sons of Korah. A wedding song."
+      },
+      {
         "paragraph": true,
+        "text": "My heart overflows with a noble theme.",
         "break": true
       },
       {
@@ -10905,8 +11034,17 @@
     "verse": 1,
     "content": [
       {
-        "text": "God is our refuge and strength,",
+        "subtitle": {
+          "text": "For the Chief Musician. By the sons of Korah. According to Alamoth.",
+          "foot": {
+            "type": "stu",
+            "content": "Alamoth is a musical term."
+          }
+        }
+      },
+      {
         "paragraph": true,
+        "text": "God is our refuge and strength,",
         "break": true
       },
       {
@@ -10952,8 +11090,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "There is a river, the streams of which make the city of God glad,",
         "paragraph": true,
+        "text": "There is a river, the streams of which make the city of God glad,",
         "break": true
       },
       {
@@ -11014,8 +11152,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "Come, see Yahweh’s works,",
         "paragraph": true,
+        "text": "Come, see Yahweh’s works,",
         "break": true
       },
       {
@@ -11084,8 +11222,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Oh clap your hands, all you nations.",
+        "subtitle": "For the Chief Musician. A Psalm by the sons of Korah."
+      },
+      {
         "paragraph": true,
+        "text": "Oh clap your hands, all you nations.",
         "break": true
       },
       {
@@ -11146,8 +11287,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "God has gone up with a shout,",
         "paragraph": true,
+        "text": "God has gone up with a shout,",
         "break": true
       },
       {
@@ -11227,8 +11368,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Great is Yahweh, and greatly to be praised,",
+        "subtitle": "A Song. A Psalm by the sons of Korah."
+      },
+      {
         "paragraph": true,
+        "text": "Great is Yahweh, and greatly to be praised,",
         "break": true
       },
       {
@@ -11349,8 +11493,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "We have thought about your loving kindness, God,",
         "paragraph": true,
+        "text": "We have thought about your loving kindness, God,",
         "break": true
       },
       {
@@ -11445,8 +11589,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear this, all you peoples.",
+        "subtitle": "For the Chief Musician. A Psalm by the sons of Korah."
+      },
+      {
         "paragraph": true,
+        "text": "Hear this, all you peoples.",
         "break": true
       },
       {
@@ -11631,8 +11778,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "This is the destiny of those who are foolish,",
         "paragraph": true,
+        "text": "This is the destiny of those who are foolish,",
         "break": true
       },
       {
@@ -11648,13 +11795,13 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "They are appointed as a flock for Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "paragraph": true,
-        "break": true
+        }
       },
       {
         "text": "Death shall be their shepherd.",
@@ -11666,11 +11813,11 @@
       },
       {
         "text": "Their beauty shall decay in Sheol,",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       {
         "text": "far from their mansion.",
@@ -11685,11 +11832,11 @@
     "content": [
       {
         "text": "But God will redeem my soul from the power of Sheol,",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       {
         "text": "for he will receive me.",
@@ -11704,8 +11851,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "Don’t be afraid when a man is made rich,",
         "paragraph": true,
+        "text": "Don’t be afraid when a man is made rich,",
         "break": true
       },
       {
@@ -11777,8 +11924,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "The Mighty One, God, Yahweh, speaks,",
+        "subtitle": "A Psalm by Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "The Mighty One, God, Yahweh, speaks,",
         "break": true
       },
       {
@@ -11873,8 +12023,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "“Hear, my people, and I will speak.",
         "paragraph": true,
+        "text": "“Hear, my people, and I will speak.",
         "break": true
       },
       {
@@ -12010,8 +12160,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "But to the wicked God says,",
         "paragraph": true,
+        "text": "But to the wicked God says,",
         "break": true
       },
       {
@@ -12057,8 +12207,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "“You give your mouth to evil.",
         "paragraph": true,
+        "text": "“You give your mouth to evil.",
         "break": true
       },
       {
@@ -12104,8 +12254,8 @@
     "verse": 22,
     "content": [
       {
-        "text": "“Now consider this, you who forget God,",
         "paragraph": true,
+        "text": "“Now consider this, you who forget God,",
         "break": true
       },
       {
@@ -12132,8 +12282,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Have mercy on me, God, according to your loving kindness.",
+        "subtitle": "For the Chief Musician. A Psalm by David, when Nathan the prophet came to him, after he had gone in to Bathsheba."
+      },
+      {
         "paragraph": true,
+        "text": "Have mercy on me, God, according to your loving kindness.",
         "break": true
       },
       {
@@ -12393,8 +12546,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "Do well in your good pleasure to Zion.",
         "paragraph": true,
+        "text": "Do well in your good pleasure to Zion.",
         "break": true
       },
       {
@@ -12425,8 +12578,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Why do you boast of mischief, mighty man?",
+        "subtitle": "For the Chief Musician. A contemplation by David, when Doeg the Edomite came and told Saul, “David has come to Ahimelech’s house.”"
+      },
+      {
         "paragraph": true,
+        "text": "Why do you boast of mischief, mighty man?",
         "break": true
       },
       {
@@ -12472,8 +12628,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "You love all devouring words,",
         "paragraph": true,
+        "text": "You love all devouring words,",
         "break": true
       },
       {
@@ -12508,8 +12664,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "The righteous also will see it, and fear,",
         "paragraph": true,
+        "text": "The righteous also will see it, and fear,",
         "break": true
       },
       {
@@ -12574,8 +12730,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "The fool has said in his heart, “There is no God.”",
+        "subtitle": "For the Chief Musician. To the tune of “Mahalath.” A contemplation by David."
+      },
+      {
         "paragraph": true,
+        "text": "The fool has said in his heart, “There is no God.”",
         "break": true
       },
       {
@@ -12694,8 +12853,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Save me, God, by your name.",
+        "subtitle": "For the Chief Musician. On stringed instruments. A contemplation by David, when the Ziphites came and said to Saul, “Isn’t David hiding himself among us?”"
+      },
+      {
         "paragraph": true,
+        "text": "Save me, God, by your name.",
         "break": true
       },
       {
@@ -12745,8 +12907,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "Behold, God is my helper.",
         "paragraph": true,
+        "text": "Behold, God is my helper.",
         "break": true
       },
       {
@@ -12803,8 +12965,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Listen to my prayer, God.",
+        "subtitle": "For the Chief Musician. On stringed instruments. A contemplation by David."
+      },
+      {
         "paragraph": true,
+        "text": "Listen to my prayer, God.",
         "break": true
       },
       {
@@ -12918,8 +13083,8 @@
     "chapter": 55,
     "verse": 8,
     "content": {
-      "text": "“I would hurry to a shelter from the stormy wind and storm.”",
       "paragraph": true,
+      "text": "“I would hurry to a shelter from the stormy wind and storm.”",
       "break": true
     }
   },
@@ -13032,11 +13197,11 @@
       },
       {
         "text": "Let them go down alive into Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       {
         "text": "For wickedness is among them, in their dwelling.",
@@ -13103,7 +13268,12 @@
         "break": true
       },
       {
-        "text": "Selah. They never change",
+        "text": "Selah.",
+        "break": true
+      },
+      {
+        "paragraph": true,
+        "text": "They never change",
         "break": true
       },
       {
@@ -13118,8 +13288,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "He raises his hands against his friends.",
         "paragraph": true,
+        "text": "He raises his hands against his friends.",
         "break": true
       },
       {
@@ -13154,8 +13324,8 @@
     "verse": 22,
     "content": [
       {
-        "text": "Cast your burden on Yahweh and he will sustain you.",
         "paragraph": true,
+        "text": "Cast your burden on Yahweh and he will sustain you.",
         "break": true
       },
       {
@@ -13186,8 +13356,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Be merciful to me, God, for man wants to swallow me up.",
+        "subtitle": "For the Chief Musician. To the tune of “Silent Dove in Distant Lands.” A poem by David, when the Philistines seized him in Gath."
+      },
+      {
         "paragraph": true,
+        "text": "Be merciful to me, God, for man wants to swallow me up.",
         "break": true
       },
       {
@@ -13403,8 +13576,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Be merciful to me, God, be merciful to me,",
+        "subtitle": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when he fled from Saul, in the cave."
+      },
+      {
         "paragraph": true,
+        "text": "Be merciful to me, God, be merciful to me,",
         "break": true
       },
       {
@@ -13465,8 +13641,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "My soul is among lions.",
         "paragraph": true,
+        "text": "My soul is among lions.",
         "break": true
       },
       {
@@ -13501,8 +13677,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "They have prepared a net for my steps.",
         "paragraph": true,
+        "text": "They have prepared a net for my steps.",
         "break": true
       },
       {
@@ -13526,8 +13702,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "My heart is steadfast, God.",
         "paragraph": true,
+        "text": "My heart is steadfast, God.",
         "break": true
       },
       {
@@ -13603,8 +13779,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Do you indeed speak righteousness, silent ones?",
+        "subtitle": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David."
+      },
+      {
         "paragraph": true,
+        "text": "Do you indeed speak righteousness, silent ones?",
         "break": true
       },
       {
@@ -13766,8 +13945,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Deliver me from my enemies, my God.",
+        "subtitle": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when Saul sent, and they watched the house to kill him."
+      },
+      {
         "paragraph": true,
+        "text": "Deliver me from my enemies, my God.",
         "break": true
       },
       {
@@ -13851,8 +14033,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "They return at evening, howling like dogs,",
         "paragraph": true,
+        "text": "They return at evening, howling like dogs,",
         "break": true
       },
       {
@@ -13989,8 +14171,8 @@
     "verse": 14,
     "content": [
       {
-        "text": "At evening let them return.",
         "paragraph": true,
+        "text": "At evening let them return.",
         "break": true
       },
       {
@@ -14017,8 +14199,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "But I will sing of your strength.",
         "paragraph": true,
+        "text": "But I will sing of your strength.",
         "break": true
       },
       {
@@ -14053,8 +14235,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "God, you have rejected us.",
+        "subtitle": "For the Chief Musician. To the tune of “The Lily of the Covenant.” A teaching poem by David, when he fought with Aram Naharaim and with Aram Zobah, and Joab returned, and killed twelve thousand of Edom in the Valley of Salt."
+      },
+      {
         "paragraph": true,
+        "text": "God, you have rejected us.",
         "break": true
       },
       {
@@ -14131,8 +14316,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "So that your beloved may be delivered,",
         "paragraph": true,
+        "text": "So that your beloved may be delivered,",
         "break": true
       },
       {
@@ -14205,8 +14390,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Who will bring me into the strong city?",
         "paragraph": true,
+        "text": "Who will bring me into the strong city?",
         "break": true
       },
       {
@@ -14263,8 +14448,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear my cry, God.",
+        "subtitle": "For the Chief Musician. For a stringed instrument. By David."
+      },
+      {
         "paragraph": true,
+        "text": "Hear my cry, God.",
         "break": true
       },
       {
@@ -14325,8 +14513,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "For you, God, have heard my vows.",
         "paragraph": true,
+        "text": "For you, God, have heard my vows.",
         "break": true
       },
       {
@@ -14383,8 +14571,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "My soul rests in God alone.",
+        "subtitle": "For the Chief Musician. To Jeduthun. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "My soul rests in God alone.",
         "break": true
       },
       {
@@ -14453,8 +14644,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "My soul, wait in silence for God alone,",
         "paragraph": true,
+        "text": "My soul, wait in silence for God alone,",
         "break": true
       },
       {
@@ -14519,8 +14710,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Surely men of low degree are just a breath,",
         "paragraph": true,
+        "text": "Surely men of low degree are just a breath,",
         "break": true
       },
       {
@@ -14597,8 +14788,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "God, you are my God.",
+        "subtitle": "A Psalm by David, when he was in the desert of Judah."
+      },
+      {
         "paragraph": true,
+        "text": "God, you are my God.",
         "break": true
       },
       {
@@ -14776,8 +14970,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear my voice, God, in my complaint.",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Hear my voice, God, in my complaint.",
         "break": true
       },
       {
@@ -14936,8 +15133,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise waits for you, God, in Zion.",
+        "subtitle": "For the Chief Musician. A Psalm by David. A song."
+      },
+      {
         "paragraph": true,
+        "text": "Praise waits for you, God, in Zion.",
         "break": true
       },
       {
@@ -15171,11 +15371,16 @@
     "book": "PSA",
     "chapter": 66,
     "verse": 1,
-    "content": {
-      "text": "Make a joyful shout to God, all the earth!",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "For the Chief Musician. A song. A Psalm."
+      },
+      {
+        "paragraph": true,
+        "text": "Make a joyful shout to God, all the earth!",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -15233,8 +15438,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "Come, and see God’s deeds—",
         "paragraph": true,
+        "text": "Come, and see God’s deeds—",
         "break": true
       },
       {
@@ -15288,8 +15493,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "Praise our God, you peoples!",
         "paragraph": true,
+        "text": "Praise our God, you peoples!",
         "break": true
       },
       {
@@ -15415,8 +15620,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "Come and hear, all you who fear God.",
         "paragraph": true,
+        "text": "Come and hear, all you who fear God.",
         "break": true
       },
       {
@@ -15488,8 +15693,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "May God be merciful to us, bless us,",
+        "subtitle": "For the Chief Musician. With stringed instruments. A Psalm. A song."
+      },
+      {
         "paragraph": true,
+        "text": "May God be merciful to us, bless us,",
         "break": true
       },
       {
@@ -15505,8 +15713,8 @@
     "verse": 2,
     "content": [
       {
-        "text": "That your way may be known on earth,",
         "paragraph": true,
+        "text": "That your way may be known on earth,",
         "break": true
       },
       {
@@ -15556,8 +15764,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "Let the peoples praise you, God.",
         "paragraph": true,
+        "text": "Let the peoples praise you, God.",
         "break": true
       },
       {
@@ -15599,8 +15807,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Let God arise!",
+        "subtitle": "For the Chief Musician. A Psalm by David. A song."
+      },
+      {
         "paragraph": true,
+        "text": "Let God arise!",
         "break": true
       },
       {
@@ -15715,8 +15926,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "God, when you went out before your people,",
         "paragraph": true,
+        "text": "God, when you went out before your people,",
         "break": true
       },
       {
@@ -15732,8 +15943,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "The earth trembled.",
         "paragraph": true,
+        "text": "The earth trembled.",
         "break": true
       },
       {
@@ -15915,8 +16126,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "Blessed be the Lord, who daily bears our burdens,",
         "paragraph": true,
+        "text": "Blessed be the Lord, who daily bears our burdens,",
         "break": true
       },
       {
@@ -15932,8 +16143,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "God is to us a God of deliverance.",
         "paragraph": true,
+        "text": "God is to us a God of deliverance.",
         "break": true
       },
       {
@@ -16054,8 +16265,8 @@
     "verse": 28,
     "content": [
       {
-        "text": "Your God has commanded your strength.",
         "paragraph": true,
+        "text": "Your God has commanded your strength.",
         "break": true
       },
       {
@@ -16139,8 +16350,8 @@
     "verse": 33,
     "content": [
       {
-        "text": "to him who rides on the heaven of heavens, which are of old;",
         "paragraph": true,
+        "text": "to him who rides on the heaven of heavens, which are of old;",
         "break": true
       },
       {
@@ -16190,8 +16401,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Save me, God,",
+        "subtitle": "For the Chief Musician. To the tune of “Lilies.” By David."
+      },
+      {
         "paragraph": true,
+        "text": "Save me, God,",
         "break": true
       },
       {
@@ -16748,8 +16962,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hurry, God, to deliver me.",
+        "subtitle": "For the Chief Musician. By David. A reminder."
+      },
+      {
         "paragraph": true,
+        "text": "Hurry, God, to deliver me.",
         "break": true
       },
       {
@@ -16833,8 +17050,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "In you, Yahweh, I take refuge.",
         "paragraph": true,
+        "text": "In you, Yahweh, I take refuge.",
         "break": true
       },
       {
@@ -17219,8 +17436,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "God, give the king your justice;",
+        "subtitle": "By Solomon."
+      },
+      {
         "paragraph": true,
+        "text": "God, give the king your justice;",
         "break": true
       },
       {
@@ -17492,8 +17712,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "Praise be to Yahweh God, the God of Israel,",
         "paragraph": true,
+        "text": "Praise be to Yahweh God, the God of Israel,",
         "break": true
       },
       {
@@ -17523,8 +17743,8 @@
     "chapter": 72,
     "verse": 20,
     "content": {
-      "text": "This ends the prayers by David, the son of Jesse.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This ends the prayers by David, the son of Jesse."
     }
   },
   {
@@ -17533,6 +17753,10 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": "A Psalm by Asaph."
+      },
+      {
+        "paragraph": true,
         "text": "Surely God",
         "foot": {
           "type": "trn",
@@ -17544,8 +17768,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " is good to Israel,",
@@ -17983,8 +18206,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "God, why have you rejected us forever?",
+        "subtitle": "A contemplation by Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "God, why have you rejected us forever?",
         "break": true
       },
       {
@@ -18148,8 +18374,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "Yet God is my King of old,",
         "paragraph": true,
+        "text": "Yet God is my King of old,",
         "break": true
       },
       {
@@ -18236,8 +18462,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "Remember this, that the enemy has mocked you, Yahweh.",
         "paragraph": true,
+        "text": "Remember this, that the enemy has mocked you, Yahweh.",
         "break": true
       },
       {
@@ -18324,8 +18550,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "We give thanks to you, God.",
+        "subtitle": "For the Chief Musician. To the tune of “Do Not Destroy.” A Psalm by Asaph. A song."
+      },
+      {
         "paragraph": true,
+        "text": "We give thanks to you, God.",
         "break": true
       },
       {
@@ -18341,8 +18570,8 @@
     "verse": 2,
     "content": [
       {
-        "text": "When I choose the appointed time,",
         "paragraph": true,
+        "text": "When I choose the appointed time,",
         "break": true
       },
       {
@@ -18373,8 +18602,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "I said to the arrogant, “Don’t boast!”",
         "paragraph": true,
+        "text": "I said to the arrogant, “Don’t boast!”",
         "break": true
       },
       {
@@ -18454,8 +18683,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "But I will declare this forever:",
         "paragraph": true,
+        "text": "But I will declare this forever:",
         "break": true
       },
       {
@@ -18482,8 +18711,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "In Judah, God is known.",
+        "subtitle": "For the Chief Musician. On stringed instruments. A Psalm by Asaph. A song."
+      },
+      {
         "paragraph": true,
+        "text": "In Judah, God is known.",
         "break": true
       },
       {
@@ -18529,8 +18761,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "Glorious are you, and excellent,",
         "paragraph": true,
+        "text": "Glorious are you, and excellent,",
         "break": true
       },
       {
@@ -18625,8 +18857,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Surely the wrath of man praises you.",
         "paragraph": true,
+        "text": "Surely the wrath of man praises you.",
         "break": true
       },
       {
@@ -18668,8 +18900,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "My cry goes to God!",
+        "subtitle": "For the Chief Musician. To Jeduthun. A Psalm by Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "My cry goes to God!",
         "break": true
       },
       {
@@ -18723,8 +18958,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "You hold my eyelids open.",
         "paragraph": true,
+        "text": "You hold my eyelids open.",
         "break": true
       },
       {
@@ -18819,8 +19054,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Then I thought, “I will appeal to this:",
         "paragraph": true,
+        "text": "Then I thought, “I will appeal to this:",
         "break": true
       },
       {
@@ -18911,8 +19146,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "The waters saw you, God.",
         "paragraph": true,
+        "text": "The waters saw you, God.",
         "break": true
       },
       {
@@ -19000,8 +19235,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear my teaching, my people.",
+        "subtitle": "A contemplation by Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "Hear my teaching, my people.",
         "break": true
       },
       {
@@ -20138,8 +20376,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "God, the nations have come into your inheritance.",
+        "subtitle": "A Psalm by Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "God, the nations have come into your inheritance.",
         "break": true
       },
       {
@@ -20351,8 +20592,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear us, Shepherd of Israel,",
+        "subtitle": "For the Chief Musician. To the tune of “The Lilies of the Covenant.” A Psalm by Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "Hear us, Shepherd of Israel,",
         "break": true
       },
       {
@@ -20402,8 +20646,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "Yahweh God of Armies,",
         "paragraph": true,
+        "text": "Yahweh God of Armies,",
         "break": true
       },
       {
@@ -20464,8 +20708,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "You brought a vine out of Egypt.",
         "paragraph": true,
+        "text": "You brought a vine out of Egypt.",
         "break": true
       },
       {
@@ -20646,8 +20890,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Sing aloud to God, our strength!",
+        "subtitle": "For the Chief Musician. On an instrument of Gath. By Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "Sing aloud to God, our strength!",
         "break": true
       },
       {
@@ -20761,8 +21008,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "“Hear, my people, and I will testify to you,",
         "paragraph": true,
+        "text": "“Hear, my people, and I will testify to you,",
         "break": true
       },
       {
@@ -20898,8 +21145,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "God presides in the great assembly.",
+        "subtitle": "A Psalm by Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "God presides in the great assembly.",
         "break": true
       },
       {
@@ -20930,8 +21180,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "“Defend the weak, the poor, and the fatherless.",
         "paragraph": true,
+        "text": "“Defend the weak, the poor, and the fatherless.",
         "break": true
       },
       {
@@ -21022,8 +21272,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "God, don’t keep silent.",
+        "subtitle": "A song. A Psalm by Asaph."
+      },
+      {
         "paragraph": true,
+        "text": "God, don’t keep silent.",
         "break": true
       },
       {
@@ -21148,8 +21401,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Do to them as you did to Midian,",
         "paragraph": true,
+        "text": "Do to them as you did to Midian,",
         "break": true
       },
       {
@@ -21290,8 +21543,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "How lovely are your dwellings,",
+        "subtitle": "For the Chief Musician. On an instrument of Gath. A Psalm by the sons of Korah."
+      },
+      {
         "paragraph": true,
+        "text": "How lovely are your dwellings,",
         "break": true
       },
       {
@@ -21356,8 +21612,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "Blessed are those whose strength is in you,",
         "paragraph": true,
+        "text": "Blessed are those whose strength is in you,",
         "break": true
       },
       {
@@ -21418,8 +21674,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Behold, God our shield,",
         "paragraph": true,
+        "text": "Behold, God our shield,",
         "break": true
       },
       {
@@ -21484,8 +21740,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, you have been favorable to your land.",
+        "subtitle": "For the Chief Musician. A Psalm by the sons of Korah."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, you have been favorable to your land.",
         "break": true
       },
       {
@@ -21516,8 +21775,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "You have taken away all your wrath.",
         "paragraph": true,
+        "text": "You have taken away all your wrath.",
         "break": true
       },
       {
@@ -21683,8 +21942,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear, Yahweh, and answer me,",
+        "subtitle": "A Prayer by David."
+      },
+      {
         "paragraph": true,
+        "text": "Hear, Yahweh, and answer me,",
         "break": true
       },
       {
@@ -21873,11 +22135,11 @@
       },
       {
         "text": "You have delivered my soul from the lowest Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -21954,11 +22216,16 @@
     "book": "PSA",
     "chapter": 87,
     "verse": 1,
-    "content": {
-      "text": "His foundation is in the holy mountains.",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Psalm by the sons of Korah; a Song."
+      },
+      {
+        "paragraph": true,
+        "text": "His foundation is in the holy mountains.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -21987,12 +22254,12 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "I will record Rahab",
         "foot": {
           "type": "stu",
           "content": "Rahab is a reference to Egypt."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " and Babylon among those who acknowledge me.",
@@ -22045,8 +22312,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Those who sing as well as those who dance say,",
         "paragraph": true,
+        "text": "Those who sing as well as those who dance say,",
         "break": true
       },
       "“All my springs are in you.”"
@@ -22058,8 +22325,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, the God of my salvation,",
+        "subtitle": "A Song. A Psalm by the sons of Korah. For the Chief Musician. To the tune of “The Suffering of Affliction.” A contemplation by Heman, the Ezrahite."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, the God of my salvation,",
         "break": true
       },
       {
@@ -22094,11 +22364,11 @@
       },
       {
         "text": "My life draws near to Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -22177,8 +22447,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "You have taken my friends from me.",
         "paragraph": true,
+        "text": "You have taken my friends from me.",
         "break": true
       },
       {
@@ -22232,8 +22502,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "Is your loving kindness declared in the grave?",
         "paragraph": true,
+        "text": "Is your loving kindness declared in the grave?",
         "break": true
       },
       {
@@ -22350,8 +22620,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I will sing of the loving kindness of Yahweh forever.",
+        "subtitle": "A contemplation by Ethan, the Ezrahite."
+      },
+      {
         "paragraph": true,
+        "text": "I will sing of the loving kindness of Yahweh forever.",
         "break": true
       },
       {
@@ -22382,8 +22655,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "“I have made a covenant with my chosen one,",
         "paragraph": true,
+        "text": "“I have made a covenant with my chosen one,",
         "break": true
       },
       {
@@ -22414,8 +22687,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "The heavens will praise your wonders, Yahweh,",
         "paragraph": true,
+        "text": "The heavens will praise your wonders, Yahweh,",
         "break": true
       },
       {
@@ -22630,8 +22903,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "Then you spoke in vision to your saints,",
         "paragraph": true,
+        "text": "Then you spoke in vision to your saints,",
         "break": true
       },
       {
@@ -22921,8 +23194,8 @@
     "verse": 38,
     "content": [
       {
-        "text": "But you have rejected and spurned.",
         "paragraph": true,
+        "text": "But you have rejected and spurned.",
         "break": true
       },
       {
@@ -23043,8 +23316,8 @@
     "verse": 46,
     "content": [
       {
-        "text": "How long, Yahweh?",
         "paragraph": true,
+        "text": "How long, Yahweh?",
         "break": true
       },
       {
@@ -23083,11 +23356,11 @@
       },
       {
         "text": "who shall deliver his soul from the power of Sheol?",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       "Selah."
     ]
@@ -23098,8 +23371,8 @@
     "verse": 49,
     "content": [
       {
-        "text": "Lord, where are your former loving kindnesses,",
         "paragraph": true,
+        "text": "Lord, where are your former loving kindnesses,",
         "break": true
       },
       {
@@ -23141,8 +23414,8 @@
     "verse": 52,
     "content": [
       {
-        "text": "Blessed be Yahweh forever more.",
         "paragraph": true,
+        "text": "Blessed be Yahweh forever more.",
         "break": true
       },
       "Amen, and Amen."
@@ -23154,12 +23427,28 @@
     "verse": 1,
     "content": [
       {
+        "subtitle": {
+          "text": "A Prayer by Moses, the man of God.",
+          "foot": {
+            "type": "trn",
+            "content": [
+              "The Hebrew word rendered “God” is “",
+              {
+                "text": "אֱלֹהִ֑ים",
+                "script": "H"
+              },
+              "” (Elohim)."
+            ]
+          }
+        }
+      },
+      {
+        "paragraph": true,
         "text": "Lord,",
         "foot": {
           "type": "trn",
           "content": "The word translated “Lord” is “Adonai.”"
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " you have been our dwelling place for all generations.",
@@ -23351,11 +23640,11 @@
     "content": [
       {
         "text": "Relent, Yahweh!",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "break": true
+        }
       },
       {
         "text": "How long?",
@@ -23434,8 +23723,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "He who dwells in the secret place of the Most High",
         "paragraph": true,
+        "text": "He who dwells in the secret place of the Most High",
         "break": true
       },
       {
@@ -23684,8 +23973,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "It is a good thing to give thanks to Yahweh,",
+        "subtitle": "A Psalm. A song for the Sabbath day."
+      },
+      {
         "paragraph": true,
+        "text": "It is a good thing to give thanks to Yahweh,",
         "break": true
       },
       {
@@ -23913,8 +24205,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh reigns!",
         "paragraph": true,
+        "text": "Yahweh reigns!",
         "break": true
       },
       {
@@ -24010,8 +24302,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, you God to whom vengeance belongs,",
         "paragraph": true,
+        "text": "Yahweh, you God to whom vengeance belongs,",
         "break": true
       },
       {
@@ -24357,8 +24649,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Oh come, let’s sing to Yahweh.",
         "paragraph": true,
+        "text": "Oh come, let’s sing to Yahweh.",
         "break": true
       },
       {
@@ -24532,8 +24824,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Sing to Yahweh a new song!",
         "paragraph": true,
+        "text": "Sing to Yahweh a new song!",
         "break": true
       },
       {
@@ -24745,8 +25037,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh reigns!",
         "paragraph": true,
+        "text": "Yahweh reigns!",
         "break": true
       },
       {
@@ -24849,11 +25141,11 @@
       },
       {
         "text": "Worship him, all you gods!",
+        "break": true,
         "foot": {
           "type": "var",
           "content": "LXX reads “angels” instead of “gods”."
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -24943,8 +25235,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Sing to Yahweh a new song,",
+        "subtitle": "A Psalm."
+      },
+      {
         "paragraph": true,
+        "text": "Sing to Yahweh a new song,",
         "break": true
       },
       {
@@ -25088,8 +25383,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh reigns! Let the peoples tremble.",
         "paragraph": true,
+        "text": "Yahweh reigns! Let the peoples tremble.",
         "break": true
       },
       {
@@ -25135,8 +25430,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "The King’s strength also loves justice.",
         "paragraph": true,
+        "text": "The King’s strength also loves justice.",
         "break": true
       },
       {
@@ -25171,8 +25466,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "Moses and Aaron were among his priests,",
         "paragraph": true,
+        "text": "Moses and Aaron were among his priests,",
         "break": true
       },
       {
@@ -25243,11 +25538,16 @@
     "book": "PSA",
     "chapter": 100,
     "verse": 1,
-    "content": {
-      "text": "Shout for joy to Yahweh, all you lands!",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Psalm of thanksgiving."
+      },
+      {
+        "paragraph": true,
+        "text": "Shout for joy to Yahweh, all you lands!",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -25324,8 +25624,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I will sing of loving kindness and justice.",
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "I will sing of loving kindness and justice.",
         "break": true
       },
       {
@@ -25458,8 +25761,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear my prayer, Yahweh!",
+        "subtitle": "A Prayer of the afflicted, when he is overwhelmed and pours out his complaint before Yahweh."
+      },
+      {
         "paragraph": true,
+        "text": "Hear my prayer, Yahweh!",
         "break": true
       },
       {
@@ -25619,8 +25925,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "But you, Yahweh, will remain forever;",
         "paragraph": true,
+        "text": "But you, Yahweh, will remain forever;",
         "break": true
       },
       {
@@ -25786,8 +26092,8 @@
     "verse": 23,
     "content": [
       {
-        "text": "He weakened my strength along the course.",
         "paragraph": true,
+        "text": "He weakened my strength along the course.",
         "break": true
       },
       {
@@ -25878,8 +26184,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yahweh, my soul!",
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
+        "text": "Praise Yahweh, my soul!",
         "break": true
       },
       {
@@ -26214,8 +26523,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Bless Yahweh, my soul.",
         "paragraph": true,
+        "text": "Bless Yahweh, my soul.",
         "break": true
       },
       {
@@ -26780,8 +27089,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Give thanks to Yahweh! Call on his name!",
         "paragraph": true,
+        "text": "Give thanks to Yahweh! Call on his name!",
         "break": true
       },
       {
@@ -27457,8 +27766,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yahweh!",
         "paragraph": true,
+        "text": "Praise Yahweh!",
         "break": true
       },
       {
@@ -27538,8 +27847,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "We have sinned with our fathers.",
         "paragraph": true,
+        "text": "We have sinned with our fathers.",
         "break": true
       },
       {
@@ -27649,8 +27958,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "They soon forgot his works.",
         "paragraph": true,
+        "text": "They soon forgot his works.",
         "break": true
       },
       {
@@ -28167,8 +28476,8 @@
     "verse": 47,
     "content": [
       {
-        "text": "Save us, Yahweh, our God,",
         "paragraph": true,
+        "text": "Save us, Yahweh, our God,",
         "break": true
       },
       {
@@ -28188,8 +28497,8 @@
     "verse": 48,
     "content": [
       {
-        "text": "Blessed be Yahweh, the God of Israel,",
         "paragraph": true,
+        "text": "Blessed be Yahweh, the God of Israel,",
         "break": true
       },
       {
@@ -28209,12 +28518,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Give thanks to Yahweh,",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " for he is good,",
@@ -28263,8 +28572,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "They wandered in the wilderness in a desert way.",
         "paragraph": true,
+        "text": "They wandered in the wilderness in a desert way.",
         "break": true
       },
       {
@@ -28336,8 +28645,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "For he satisfies the longing soul.",
         "paragraph": true,
+        "text": "For he satisfies the longing soul.",
         "break": true
       },
       "He fills the hungry soul with good."
@@ -28349,8 +28658,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Some sat in darkness and in the shadow of death,",
         "paragraph": true,
+        "text": "Some sat in darkness and in the shadow of death,",
         "break": true
       },
       {
@@ -28366,6 +28675,7 @@
     "content": [
       {
         "text": "because they rebelled against the words of God,",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": [
@@ -28376,8 +28686,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "break": true
+        }
       },
       {
         "text": "and condemned the counsel of the Most High.",
@@ -28448,8 +28757,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "For he has broken the gates of bronze,",
         "paragraph": true,
+        "text": "For he has broken the gates of bronze,",
         "break": true
       },
       "and cut through bars of iron."
@@ -28461,8 +28770,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "Fools are afflicted because of their disobedience,",
         "paragraph": true,
+        "text": "Fools are afflicted because of their disobedience,",
         "break": true
       },
       {
@@ -28534,8 +28843,8 @@
     "verse": 22,
     "content": [
       {
-        "text": "Let them offer the sacrifices of thanksgiving,",
         "paragraph": true,
+        "text": "Let them offer the sacrifices of thanksgiving,",
         "break": true
       },
       "and declare his deeds with singing."
@@ -28547,8 +28856,8 @@
     "verse": 23,
     "content": [
       {
-        "text": "Those who go down to the sea in ships,",
         "paragraph": true,
+        "text": "Those who go down to the sea in ships,",
         "break": true
       },
       {
@@ -28680,8 +28989,8 @@
     "verse": 32,
     "content": [
       {
-        "text": "Let them exalt him also in the assembly of the people,",
         "paragraph": true,
+        "text": "Let them exalt him also in the assembly of the people,",
         "break": true
       },
       "and praise him in the seat of the elders."
@@ -28693,8 +29002,8 @@
     "verse": 33,
     "content": [
       {
-        "text": "He turns rivers into a desert,",
         "paragraph": true,
+        "text": "He turns rivers into a desert,",
         "break": true
       },
       {
@@ -28856,8 +29165,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "My heart is steadfast, God.",
+        "subtitle": "A Song. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "My heart is steadfast, God.",
         "break": true
       },
       {
@@ -29055,11 +29367,16 @@
     "book": "PSA",
     "chapter": 109,
     "verse": 1,
-    "content": {
-      "text": "God of my praise, don’t remain silent,",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
+        "paragraph": true,
+        "text": "God of my praise, don’t remain silent,",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -29357,12 +29674,12 @@
     "verse": 21,
     "content": [
       {
+        "paragraph": true,
         "text": "But deal with me, Yahweh the Lord,",
         "foot": {
           "type": "trn",
           "content": "The word translated “Lord” is “Adonai.”"
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " for your name’s sake,",
@@ -29531,8 +29848,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh says to my Lord, “Sit at my right hand,",
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh says to my Lord, “Sit at my right hand,",
         "break": true
       },
       {
@@ -29638,13 +29958,13 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Praise Yah!",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Psalm 111 is an acrostic poem, with each verse after the initial “Praise Yah!” starting with a letter of the alphabet (ordered from Alef to Tav)."
-        },
-        "paragraph": true,
-        "break": true
+        }
       },
       {
         "text": "I will give thanks to Yahweh with my whole heart,",
@@ -29802,13 +30122,13 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Praise Yah!",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Psalm 112 is an acrostic poem, with each verse after the initial “Praise Yah!” starting with a letter of the alphabet (ordered from Alef to Tav)."
-        },
-        "paragraph": true,
-        "break": true
+        }
       },
       {
         "text": "Blessed is the man who fears Yahweh,",
@@ -29966,8 +30286,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yah!",
         "paragraph": true,
+        "text": "Praise Yah!",
         "break": true
       },
       {
@@ -30101,8 +30421,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "When Israel went out of Egypt,",
         "paragraph": true,
+        "text": "When Israel went out of Egypt,",
         "break": true
       },
       {
@@ -30219,8 +30539,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Not to us, Yahweh, not to us,",
         "paragraph": true,
+        "text": "Not to us, Yahweh, not to us,",
         "break": true
       },
       {
@@ -30503,8 +30823,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "I love Yahweh, because he listens to my voice,",
         "paragraph": true,
+        "text": "I love Yahweh, because he listens to my voice,",
         "break": true
       },
       {
@@ -30785,8 +31105,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yahweh, all you nations!",
         "paragraph": true,
+        "text": "Praise Yahweh, all you nations!",
         "break": true
       },
       {
@@ -30817,8 +31137,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Give thanks to Yahweh, for he is good,",
         "paragraph": true,
+        "text": "Give thanks to Yahweh, for he is good,",
         "break": true
       },
       {
@@ -31146,11 +31466,11 @@
       },
       {
         "text": "has become the cornerstone.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Literally, head of the corner"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -31262,8 +31582,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Blessed are those whose ways are blameless,",
+        "heading": "ALEPH"
+      },
+      {
         "paragraph": true,
+        "text": "Blessed are those whose ways are blameless,",
         "break": true
       },
       {
@@ -31380,8 +31703,11 @@
     "verse": 9,
     "content": [
       {
-        "text": "How can a young man keep his way pure?",
+        "heading": "BETH"
+      },
+      {
         "paragraph": true,
+        "text": "How can a young man keep his way pure?",
         "break": true
       },
       {
@@ -31498,8 +31824,11 @@
     "verse": 17,
     "content": [
       {
-        "text": "Do good to your servant.",
+        "heading": "GIMEL"
+      },
+      {
         "paragraph": true,
+        "text": "Do good to your servant.",
         "break": true
       },
       {
@@ -31610,8 +31939,11 @@
     "verse": 25,
     "content": [
       {
-        "text": "My soul is laid low in the dust.",
+        "heading": "DALETH"
+      },
+      {
         "paragraph": true,
+        "text": "My soul is laid low in the dust.",
         "break": true
       },
       {
@@ -31728,8 +32060,11 @@
     "verse": 33,
     "content": [
       {
-        "text": "Teach me, Yahweh, the way of your statutes.",
+        "heading": "HE"
+      },
+      {
         "paragraph": true,
+        "text": "Teach me, Yahweh, the way of your statutes.",
         "break": true
       },
       {
@@ -31846,8 +32181,11 @@
     "verse": 41,
     "content": [
       {
-        "text": "Let your loving kindness also come to me, Yahweh,",
+        "heading": "VAV"
+      },
+      {
         "paragraph": true,
+        "text": "Let your loving kindness also come to me, Yahweh,",
         "break": true
       },
       {
@@ -31964,8 +32302,11 @@
     "verse": 49,
     "content": [
       {
-        "text": "Remember your word to your servant,",
+        "heading": "ZAYIN"
+      },
+      {
         "paragraph": true,
+        "text": "Remember your word to your servant,",
         "break": true
       },
       {
@@ -32082,8 +32423,11 @@
     "verse": 57,
     "content": [
       {
-        "text": "Yahweh is my portion.",
+        "heading": "HETH"
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh is my portion.",
         "break": true
       },
       {
@@ -32200,8 +32544,11 @@
     "verse": 65,
     "content": [
       {
-        "text": "You have treated your servant well,",
+        "heading": "TETH"
+      },
+      {
         "paragraph": true,
+        "text": "You have treated your servant well,",
         "break": true
       },
       {
@@ -32312,8 +32659,11 @@
     "verse": 73,
     "content": [
       {
-        "text": "Your hands have made me and formed me.",
+        "heading": "YODH"
+      },
+      {
         "paragraph": true,
+        "text": "Your hands have made me and formed me.",
         "break": true
       },
       {
@@ -32430,8 +32780,11 @@
     "verse": 81,
     "content": [
       {
-        "text": "My soul faints for your salvation.",
+        "heading": "KAPF"
+      },
+      {
         "paragraph": true,
+        "text": "My soul faints for your salvation.",
         "break": true
       },
       {
@@ -32550,11 +32903,16 @@
     "book": "PSA",
     "chapter": 119,
     "verse": 89,
-    "content": {
-      "text": "Yahweh, your word is settled in heaven forever.",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "heading": "LAMEDH"
+      },
+      {
+        "paragraph": true,
+        "text": "Yahweh, your word is settled in heaven forever.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -32664,8 +33022,11 @@
     "verse": 97,
     "content": [
       {
-        "text": "How I love your law!",
+        "heading": "MEM"
+      },
+      {
         "paragraph": true,
+        "text": "How I love your law!",
         "break": true
       },
       {
@@ -32782,8 +33143,11 @@
     "verse": 105,
     "content": [
       {
-        "text": "Your word is a lamp to my feet,",
+        "heading": "NUN"
+      },
+      {
         "paragraph": true,
+        "text": "Your word is a lamp to my feet,",
         "break": true
       },
       {
@@ -32900,8 +33264,11 @@
     "verse": 113,
     "content": [
       {
-        "text": "I hate double-minded men,",
+        "heading": "SAMEKH"
+      },
+      {
         "paragraph": true,
+        "text": "I hate double-minded men,",
         "break": true
       },
       {
@@ -33018,8 +33385,11 @@
     "verse": 121,
     "content": [
       {
-        "text": "I have done what is just and righteous.",
+        "heading": "AYIN"
+      },
+      {
         "paragraph": true,
+        "text": "I have done what is just and righteous.",
         "break": true
       },
       {
@@ -33136,8 +33506,11 @@
     "verse": 129,
     "content": [
       {
-        "text": "Your testimonies are wonderful,",
+        "heading": "PE"
+      },
+      {
         "paragraph": true,
+        "text": "Your testimonies are wonderful,",
         "break": true
       },
       {
@@ -33254,8 +33627,11 @@
     "verse": 137,
     "content": [
       {
-        "text": "You are righteous, Yahweh.",
+        "heading": "TZADHE"
+      },
+      {
         "paragraph": true,
+        "text": "You are righteous, Yahweh.",
         "break": true
       },
       {
@@ -33372,8 +33748,11 @@
     "verse": 145,
     "content": [
       {
-        "text": "I have called with my whole heart.",
+        "heading": "QOPH"
+      },
+      {
         "paragraph": true,
+        "text": "I have called with my whole heart.",
         "break": true
       },
       {
@@ -33494,8 +33873,11 @@
     "verse": 153,
     "content": [
       {
-        "text": "Consider my affliction, and deliver me,",
+        "heading": "RESH"
+      },
+      {
         "paragraph": true,
+        "text": "Consider my affliction, and deliver me,",
         "break": true
       },
       {
@@ -33612,8 +33994,11 @@
     "verse": 161,
     "content": [
       {
-        "text": "Princes have persecuted me without a cause,",
+        "heading": "SIN AND SHIN"
+      },
+      {
         "paragraph": true,
+        "text": "Princes have persecuted me without a cause,",
         "break": true
       },
       {
@@ -33730,8 +34115,11 @@
     "verse": 169,
     "content": [
       {
-        "text": "Let my cry come before you, Yahweh.",
+        "heading": "TAV"
+      },
+      {
         "paragraph": true,
+        "text": "Let my cry come before you, Yahweh.",
         "break": true
       },
       {
@@ -33848,8 +34236,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "In my distress, I cried to Yahweh.",
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
+        "text": "In my distress, I cried to Yahweh.",
         "break": true
       },
       {
@@ -33951,8 +34342,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I will lift up my eyes to the hills.",
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
+        "text": "I will lift up my eyes to the hills.",
         "break": true
       },
       {
@@ -33979,8 +34373,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "He will not allow your foot to be moved.",
         "paragraph": true,
+        "text": "He will not allow your foot to be moved.",
         "break": true
       },
       {
@@ -34067,8 +34461,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I was glad when they said to me,",
+        "subtitle": "A Song of Ascents. By David."
+      },
+      {
         "paragraph": true,
+        "text": "I was glad when they said to me,",
         "break": true
       },
       {
@@ -34192,8 +34589,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I lift up my eyes to you,",
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
+        "text": "I lift up my eyes to you,",
         "break": true
       },
       {
@@ -34258,8 +34658,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "If it had not been Yahweh who was on our side,",
+        "subtitle": "A Song of Ascents. By David."
+      },
+      {
         "paragraph": true,
+        "text": "If it had not been Yahweh who was on our side,",
         "break": true
       },
       {
@@ -34370,8 +34773,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Those who trust in Yahweh are as Mount Zion,",
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
+        "text": "Those who trust in Yahweh are as Mount Zion,",
         "break": true
       },
       {
@@ -34447,8 +34853,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "When Yahweh brought back those who returned to Zion,",
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
+        "text": "When Yahweh brought back those who returned to Zion,",
         "break": true
       },
       {
@@ -34537,8 +34946,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Unless Yahweh builds the house,",
+        "subtitle": "A Song of Ascents. By Solomon."
+      },
+      {
         "paragraph": true,
+        "text": "Unless Yahweh builds the house,",
         "break": true
       },
       {
@@ -34626,8 +35038,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Blessed is everyone who fears Yahweh,",
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
+        "text": "Blessed is everyone who fears Yahweh,",
         "break": true
       },
       {
@@ -34708,8 +35123,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Many times they have afflicted me from my youth up.",
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
+        "text": "Many times they have afflicted me from my youth up.",
         "break": true
       },
       {
@@ -34828,11 +35246,16 @@
     "book": "PSA",
     "chapter": 130,
     "verse": 1,
-    "content": {
-      "text": "Out of the depths I have cried to you, Yahweh.",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Song of Ascents."
+      },
+      {
+        "paragraph": true,
+        "text": "Out of the depths I have cried to you, Yahweh.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -34944,8 +35367,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, my heart isn’t arrogant, nor my eyes lofty;",
+        "subtitle": "A Song of Ascents. By David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, my heart isn’t arrogant, nor my eyes lofty;",
         "break": true
       },
       {
@@ -34993,11 +35419,16 @@
     "book": "PSA",
     "chapter": 132,
     "verse": 1,
-    "content": {
-      "text": "Yahweh, remember David and all his affliction,",
-      "paragraph": true,
-      "break": true
-    }
+    "content": [
+      {
+        "subtitle": "A Song of Ascents."
+      },
+      {
+        "paragraph": true,
+        "text": "Yahweh, remember David and all his affliction,",
+        "break": true
+      }
+    ]
   },
   {
     "book": "PSA",
@@ -35265,8 +35696,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "See how good and how pleasant it is",
+        "subtitle": "A Song of Ascents. By David."
+      },
+      {
         "paragraph": true,
+        "text": "See how good and how pleasant it is",
         "break": true
       },
       {
@@ -35324,8 +35758,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Look! Praise Yahweh, all you servants of Yahweh,",
+        "subtitle": "A Song of Ascents."
+      },
+      {
         "paragraph": true,
+        "text": "Look! Praise Yahweh, all you servants of Yahweh,",
         "break": true
       },
       {
@@ -35367,8 +35804,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yah!",
         "paragraph": true,
+        "text": "Praise Yah!",
         "break": true
       },
       {
@@ -35587,8 +36024,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "The idols of the nations are silver and gold,",
         "paragraph": true,
+        "text": "The idols of the nations are silver and gold,",
         "break": true
       },
       {
@@ -35694,8 +36131,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Give thanks to Yahweh, for he is good,",
         "paragraph": true,
+        "text": "Give thanks to Yahweh, for he is good,",
         "break": true
       },
       {
@@ -36082,8 +36519,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "By the rivers of Babylon, there we sat down.",
         "paragraph": true,
+        "text": "By the rivers of Babylon, there we sat down.",
         "break": true
       },
       {
@@ -36221,8 +36658,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I will give you thanks with my whole heart.",
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
+        "text": "I will give you thanks with my whole heart.",
         "break": true
       },
       {
@@ -36358,8 +36798,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, you have searched me,",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, you have searched me,",
         "break": true
       },
       {
@@ -36751,8 +37194,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Deliver me, Yahweh, from evil men.",
+        "subtitle": "For the Chief Musician. A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Deliver me, Yahweh, from evil men.",
         "break": true
       },
       {
@@ -36798,8 +37244,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "Yahweh, keep me from the hands of the wicked.",
         "paragraph": true,
+        "text": "Yahweh, keep me from the hands of the wicked.",
         "break": true
       },
       {
@@ -36834,8 +37280,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "I said to Yahweh, “You are my God.”",
         "paragraph": true,
+        "text": "I said to Yahweh, “You are my God.”",
         "break": true
       },
       {
@@ -36881,8 +37327,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "As for the head of those who surround me,",
         "paragraph": true,
+        "text": "As for the head of those who surround me,",
         "break": true
       },
       {
@@ -36958,8 +37404,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Yahweh, I have called on you.",
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Yahweh, I have called on you.",
         "break": true
       },
       {
@@ -37070,11 +37519,11 @@
       },
       {
         "text": "our bones are scattered at the mouth of Sheol.”",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -37130,8 +37579,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "I cry with my voice to Yahweh.",
+        "subtitle": "A contemplation by David, when he was in the cave. A Prayer."
+      },
+      {
         "paragraph": true,
+        "text": "I cry with my voice to Yahweh.",
         "break": true
       },
       {
@@ -37269,8 +37721,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear my prayer, Yahweh.",
+        "subtitle": "A Psalm by David."
+      },
+      {
         "paragraph": true,
+        "text": "Hear my prayer, Yahweh.",
         "break": true
       },
       {
@@ -37373,8 +37828,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "Hurry to answer me, Yahweh.",
         "paragraph": true,
+        "text": "Hurry to answer me, Yahweh.",
         "break": true
       },
       {
@@ -37489,8 +37944,11 @@
     "verse": 1,
     "content": [
       {
-        "text": "Blessed be Yahweh, my rock,",
+        "subtitle": "By David."
+      },
+      {
         "paragraph": true,
+        "text": "Blessed be Yahweh, my rock,",
         "break": true
       },
       {
@@ -37672,8 +38130,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "Then our sons will be like well-nurtured plants,",
         "paragraph": true,
+        "text": "Then our sons will be like well-nurtured plants,",
         "break": true
       },
       {
@@ -37734,8 +38192,17 @@
     "verse": 1,
     "content": [
       {
-        "text": "I will exalt you, my God, the King.",
+        "subtitle": {
+          "text": "A praise psalm by David.",
+          "foot": {
+            "type": "stu",
+            "content": "This is an acrostic psalm, with every verse (including the second half of verse 13) starting with a consecutive letter of the Hebrew alphabet."
+          }
+        }
+      },
+      {
         "paragraph": true,
+        "text": "I will exalt you, my God, the King.",
         "break": true
       },
       {
@@ -37928,11 +38395,11 @@
       },
       {
         "text": "and loving in all his deeds.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Some manuscripts omit these last two lines."
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -38059,8 +38526,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yah!",
         "paragraph": true,
+        "text": "Praise Yah!",
         "break": true
       },
       {
@@ -38227,8 +38694,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yah,",
         "paragraph": true,
+        "text": "Praise Yah,",
         "break": true
       },
       {
@@ -38537,8 +39004,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yah!",
         "paragraph": true,
+        "text": "Praise Yah!",
         "break": true
       },
       {
@@ -38761,8 +39228,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yahweh!",
         "paragraph": true,
+        "text": "Praise Yahweh!",
         "break": true
       },
       {
@@ -38902,8 +39369,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Praise Yah!",
         "paragraph": true,
+        "text": "Praise Yah!",
         "break": true
       },
       {

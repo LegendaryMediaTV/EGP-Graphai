@@ -29,6 +29,7 @@
 <sup>27</sup> To whom God would make known what [is] the riches of the glory of this mystery among the Gentiles; which is Christ in you, the hope of glory:
 <sup>28</sup> Whom we preach, warning every man, and teaching every man in all wisdom; that we may present every man perfect in Christ Jesus:
 <sup>29</sup> Whereunto I also labour, striving according to his working, which worketh in me mightily.
+
 ## Chapter 2
 
 <sup>1</sup> For I would that ye knew what great conflict I have for you, and [for] them at Laodicea, and [for] as many as have not seen my face in the flesh;
@@ -54,6 +55,7 @@
 <sup>21</sup> (Touch not; taste not; handle not;
 <sup>22</sup> Which all are to perish with the using;) after the commandments and doctrines of men?
 <sup>23</sup> Which things have indeed a shew of wisdom in will worship, and humility, and neglecting of the body; not in any honour to the satisfying of the flesh.
+
 ## Chapter 3
 
 <sup>1</sup> If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.
@@ -81,6 +83,7 @@
 <sup>23</sup> And whatsoever ye do, do [it] heartily, as to the Lord, and not unto men;
 <sup>24</sup> Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.
 <sup>25</sup> But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons.
+
 ## Chapter 4
 
 <sup>1</sup> Masters, give unto [your] servants that which is just and equal; knowing that ye also have a Master in heaven.

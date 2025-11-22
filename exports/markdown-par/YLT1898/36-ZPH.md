@@ -18,6 +18,7 @@
 <sup>16</sup> A day of trumpet and shouting against the fenced cities, And against the high corners.
 <sup>17</sup> And I have sent distress to men, And they have walked as the blind, For against Jehovah they have sinned, And poured out is their blood as dust, And their flesh is as dung.
 <sup>18</sup> Even their silver, even their gold, Is not able to deliver them in a day of the wrath of Jehovah, And in the fire of His jealousy consumed is the whole land, For only a hastened end doth He make Of all the inhabitants of the land!
+
 ## Chapter 2
 
 <sup>1</sup> Bend yourselves, yea, bend ye, O nation not desired,
@@ -35,6 +36,7 @@
 <sup>13</sup> And He stretcheth His hand against the north, And doth destroy Asshur, And he setteth Nineveh for a desolation, A dry land like a wilderness.
 <sup>14</sup> And crouched in her midst have droves, Every beast of the nation, Both pelican and hedge-hog in her knobs lodge, A voice doth sing at the window, ‘Destruction is at the threshold, For the cedar-work is exposed.’
 <sup>15</sup> This is the exulting city that is dwelling confidently, That is saying in her heart, ‘I am, and beside me there is none,’ How hath she been for a desolation,
+
 ## Chapter 3
 
 <sup>1</sup> Woe to the rebellious and polluted, The oppressing city!

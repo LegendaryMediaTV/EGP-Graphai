@@ -27,6 +27,7 @@
 <sup>25</sup> and he who did look into the perfect law-that of liberty, and did continue there, this one-not a forgetful hearer becoming, but a doer of work-this one shall be happy in his doing.
 <sup>26</sup> If any one doth think to be religious among you, not bridling his tongue, but deceiving his heart, of this one vain is the religion;
 <sup>27</sup> religion pure and undefiled with the God and Father is this, to look after orphans and widows in their tribulation-unspotted to keep himself from the world.
+
 ## Chapter 2
 
 <sup>1</sup> My brethren, hold not, in respect of persons, the faith of the glory of our Lord Jesus Christ,
@@ -55,6 +56,7 @@
 <sup>24</sup> Ye see, then, that out of works is man declared righteous, and not out of faith only;
 <sup>25</sup> and in like manner also Rahab the harlot-was she not out of works declared righteous, having received the messengers, and by another way having sent forth?
 <sup>26</sup> for as the body apart from the spirit is dead, so also the faith apart from the works is dead.
+
 ## Chapter 3
 
 <sup>1</sup> Many teachers become not, my brethren, having known that greater judgment we shall receive,
@@ -75,6 +77,7 @@
 <sup>16</sup> for where zeal and rivalry are, there is insurrection and every evil matter;
 <sup>17</sup> and the wisdom from above, first, indeed, is pure, then peaceable, gentle, easily entreated, full of kindness and good fruits, uncontentious, and unhypocritical:-
 <sup>18</sup> and the fruit of the righteousness in peace is sown to those making peace.
+
 ## Chapter 4
 
 <sup>1</sup> Whence are wars and fightings among you? not thence-out of your passions, that are as soldiers in your members?
@@ -94,6 +97,7 @@
 <sup>15</sup> instead of your saying, ‘If the Lord may will, we shall live, and do this or that;’
 <sup>16</sup> and now ye glory in your pride; all such glorying is evil;
 <sup>17</sup> to him, then, knowing to do good, and not doing, sin it is to him.
+
 ## Chapter 5
 
 <sup>1</sup> Go, now, ye rich! weep, howling over your miseries that are coming upon you;

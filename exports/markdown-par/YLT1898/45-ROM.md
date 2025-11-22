@@ -32,6 +32,7 @@
 <sup>30</sup> evil-speakers, God-haters, insulting, proud, boasters, inventors of evil things, disobedient to parents,
 <sup>31</sup> unintelligent, faithless, without natural affection, implacable, unmerciful;
 <sup>32</sup> who the righteous judgment of God having known-that those practising such things are worthy of death-not only do them, but also have delight with those practising them.
+
 ## Chapter 2
 
 <sup>1</sup> Therefore, thou art inexcusable, O man-every one who is judging-for in that in which thou dost judge the other, thyself thou dost condemn, for the same things thou dost practise who art judging,
@@ -63,6 +64,7 @@
 <sup>27</sup> and the uncircumcision, by nature, fulfilling the law, shall judge thee who, through letter and circumcision, art a transgressor of law.
 <sup>28</sup> For he is not a Jew who is so outwardly, neither is circumcision that which is outward in flesh;
 <sup>29</sup> but a Jew is he who is so inwardly, and circumcision is of the heart, in spirit, not in letter, of which the praise is not of men, but of God.
+
 ## Chapter 3
 
 <sup>1</sup> What, then, is the superiority of the Jew? or what the profit of the circumcision?
@@ -96,6 +98,7 @@
 <sup>29</sup> The God of Jews only is He, and not also of nations?
 <sup>30</sup> yes, also of nations; since one is God who shall declare righteous the circumcision by faith, and the uncircumcision through the faith.
 <sup>31</sup> Law then do we make useless through the faith? let it not be! yea, we do establish law.
+
 ## Chapter 4
 
 <sup>1</sup> What, then, shall we say Abraham our father, to have found, according to flesh?
@@ -123,6 +126,7 @@
 <sup>23</sup> And it was not written on his account alone, that it was reckoned to him,
 <sup>24</sup> but also on ours, to whom it is about to be reckoned-to us believing on Him who did raise up Jesus our Lord out of the dead,
 <sup>25</sup> who was delivered up because of our offences, and was raised up because of our being declared righteous.
+
 ## Chapter 5
 
 <sup>1</sup> Having been declared righteous, then, by faith, we have peace toward God through our Lord Jesus Christ,
@@ -146,6 +150,7 @@
 <sup>19</sup> for as through the disobedience of the one man, the many were constituted sinners: so also through the obedience of the one, shall the many be constituted righteous.
 <sup>20</sup> And law came in, that the offence might abound, and where the sin did abound, the grace did overabound,
 <sup>21</sup> that even as the sin did reign in the death, so also the grace may reign, through righteousness, to life age-during, through Jesus Christ our Lord.
+
 ## Chapter 6
 
 <sup>1</sup> What, then, shall we say? shall we continue in the sin that the grace may abound?
@@ -171,6 +176,7 @@
 <sup>21</sup> what fruit, therefore, were ye having then, in the things of which ye are now ashamed? for the end of those is death.
 <sup>22</sup> And now, having been freed from the sin, and having become servants to God, ye have your fruit-to sanctification, and the end life age-during;
 <sup>23</sup> for the wages of the sin is death, and the gift of God is life age-during in Christ Jesus our Lord.
+
 ## Chapter 7
 
 <sup>1</sup> Are ye ignorant, brethren-for to those knowing law I speak-that the law hath lordship over the man as long as he liveth?
@@ -198,6 +204,7 @@
 <sup>23</sup> and I behold another law in my members, warring against the law of my mind, and bringing me into captivity to the law of the sin that is in my members.
 <sup>24</sup> A wretched man I am! who shall deliver me out of the body of this death?
 <sup>25</sup> I thank God-through Jesus Christ our Lord; so then, I myself indeed with the mind do serve the law of God, and with the flesh, the law of sin.
+
 ## Chapter 8
 
 <sup>1</sup> There is, then, now no condemnation to those in Christ Jesus, who walk not according to the flesh, but according to the Spirit;
@@ -239,6 +246,7 @@
 <sup>37</sup> but in all these we more than conquer, through him who loved us;
 <sup>38</sup> for I am persuaded that neither death, nor life, nor messengers, nor principalities, nor powers, nor things present,
 <sup>39</sup> nor things about to be, nor height, nor depth, nor any other created thing, shall be able to separate us from the love of god, that is in Christ Jesus our Lord.
+
 ## Chapter 9
 
 <sup>1</sup> Truth I say in Christ, I lie not, my conscience bearing testimony with me in the Holy Spirit,
@@ -274,6 +282,7 @@
 <sup>31</sup> and Israel, pursuing a law of righteousness, at a law of righteousness did not arrive;
 <sup>32</sup> wherefore? because-not by faith, but as by works of law; for they did stumble at the stone of stumbling,
 <sup>33</sup> according as it hath been written, ‘Lo, I place in Sion a stone of stumbling and a rock of offence; and every one who is believing thereon shall not be ashamed.’
+
 ## Chapter 10
 
 <sup>1</sup> Brethren, the pleasure indeed of my heart, and my supplication that is to God for Israel, is-for salvation;
@@ -297,6 +306,7 @@
 <sup>19</sup> But I say, Did not Israel know? first Moses saith, ‘I will provoke you to jealousy by that which is not a nation; by an unintelligent nation I will anger you,’
 <sup>20</sup> and Isaiah is very bold, and saith, ‘I was found by those not seeking Me; I became manifest to those not inquiring after Me;’
 <sup>21</sup> and unto Israel He saith, ‘All the day I did stretch out My hands unto a people unbelieving and gainsaying.’
+
 ## Chapter 11
 
 <sup>1</sup> I say, then, Did God cast away His people? let it not be! for I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin:
@@ -335,6 +345,7 @@
 <sup>34</sup> for who did know the mind of the Lord? or who did become His counsellor?
 <sup>35</sup> or who did first give to Him, and it shall be given back to him again?
 <sup>36</sup> because of Him, and through Him, and to Him are the all things; to Him is the glory-to the ages. Amen.
+
 ## Chapter 12
 
 <sup>1</sup> I call upon you, therefore, brethren, through the compassions of God, to present your bodies a sacrifice-living, sanctified, acceptable to God-your intelligent service;
@@ -358,6 +369,7 @@
 <sup>19</sup> not avenging yourselves, beloved, but give place to the wrath, for it hath been written, ‘Vengeance is Mine,
 <sup>20</sup> I will recompense again, saith the Lord;’ if, then, thine enemy doth hunger, feed him; if he doth thirst, give him drink; for this doing, coals of fire thou shalt heap upon his head;
 <sup>21</sup> Be not overcome by the evil, but overcome, in the good, the evil.
+
 ## Chapter 13
 
 <sup>1</sup> Let every soul to the higher authorities be subject, for there is no authority except from God, and the authorities existing are appointed by God,
@@ -374,6 +386,7 @@
 <sup>12</sup> the night did advance, and the day came nigh; let us lay aside, therefore, the works of the darkness, and let us put on the armour of the light;
 <sup>13</sup> as in day-time, let us walk becomingly; not in revellings and drunkennesses, not in chamberings and lasciviousnesses, not in strife and emulation;
 <sup>14</sup> but put ye on the Lord Jesus Christ, and for the flesh take no forethought-for desires.
+
 ## Chapter 14
 
 <sup>1</sup> And him who is weak in the faith receive ye-not to determinations of reasonings;
@@ -399,6 +412,7 @@
 <sup>21</sup> Right it is not to eat flesh, nor to drink wine, nor to do anything in which thy brother doth stumble, or is made to fall, or is weak.
 <sup>22</sup> Thou hast faith! to thyself have it before God; happy is he who is not judging himself in what he doth approve,
 <sup>23</sup> and he who is making a difference, if he may eat, hath been condemned, because it is not of faith; and all that is not of faith is sin.
+
 ## Chapter 15
 
 <sup>1</sup> And we ought-we who are strong-to bear the infirmities of the weak, and not to please ourselves;
@@ -434,6 +448,7 @@
 <sup>31</sup> that I may be delivered from those not believing in Judea, and that my ministration, that is for Jerusalem, may become acceptable to the saints;
 <sup>32</sup> that in joy I may come unto you, through the will of God, and may be refreshed with you,
 <sup>33</sup> and the God of the peace be with you all. Amen.
+
 ## Chapter 16
 
 <sup>1</sup> And I commend you to Phebe our sister-being a ministrant of the assembly that is in Cenchrea-

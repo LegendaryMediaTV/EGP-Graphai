@@ -22,6 +22,7 @@
 <sup>20</sup> Behold, O LORD; for I [am] in distress: my bowels are troubled; mine heart is turned within me; for I have grievously rebelled: abroad the sword bereaveth, at home [there is] as death.
 <sup>21</sup> They have heard that I sigh: [there is] none to comfort me: all mine enemies have heard of my trouble; they are glad that thou hast done [it]: thou wilt bring the day [that] thou hast called, and they shall be like unto me.
 <sup>22</sup> Let all their wickedness come before thee; and do unto them, as thou hast done unto me for all my transgressions: for my sighs [are] many, and my heart [is] faint.
+
 ## Chapter 2
 
 <sup>1</sup> How hath the Lord covered the daughter of Zion with a cloud in his anger, [and] cast down from heaven unto the earth the beauty of Israel, and remembered not his footstool in the day of his anger!
@@ -35,8 +36,8 @@
 <sup>9</sup> Her gates are sunk into the ground; he hath destroyed and broken her bars: her king and her princes [are] among the Gentiles: the law [is] no [more]; her prophets also find no vision from the LORD.
 <sup>10</sup> The elders of the daughter of Zion sit upon the ground, [and] keep silence: they have cast up dust upon their heads; they have girded themselves with sackcloth: the virgins of Jerusalem hang down their heads to the ground.
 <sup>11</sup> Mine eyes do fail with tears, my bowels are troubled, my liver is poured upon the earth, for the destruction of the daughter of my people; because the children and the sucklings swoon in the streets of the city.
-<sup>12</sup> They say to their mothers, Where [is] corn and wine? when they swooned as the wounded in the streets of the city, when their soul was poured out into their mothers ’ bosom.
-<sup>13</sup> What thing shall I take to witness (8675) for thee? what thing shall I liken to thee, O daughter of Jerusalem? what shall I equal to thee, that I may comfort thee, O virgin daughter of Zion? for thy breach [is] great like the sea: who can heal thee?
+<sup>12</sup> They say to their mothers, Where [is] corn and wine? when they swooned as the wounded in the streets of the city, when their soul was poured out into their mothers’ bosom.
+<sup>13</sup> What thing shall I take to witness for thee? what thing shall I liken to thee, O daughter of Jerusalem? what shall I equal to thee, that I may comfort thee, O virgin daughter of Zion? for thy breach [is] great like the sea: who can heal thee?
 <sup>14</sup> Thy prophets have seen vain and foolish things for thee: and they have not discovered thine iniquity, to turn away thy captivity; but have seen for thee false burdens and causes of banishment.
 <sup>15</sup> All that pass by clap [their] hands at thee; they hiss and wag their head at the daughter of Jerusalem, [saying, Is] this the city that [men] call The perfection of beauty, The joy of the whole earth?
 <sup>16</sup> All thine enemies have opened their mouth against thee: they hiss and gnash the teeth: they say, We have swallowed [her] up: certainly this [is] the day that we looked for; we have found, we have seen [it].
@@ -46,6 +47,7 @@
 <sup>20</sup> Behold, O LORD, and consider to whom thou hast done this. Shall the women eat their fruit, [and] children of a span long? shall the priest and the prophet be slain in the sanctuary of the Lord?
 <sup>21</sup> The young and the old lie on the ground in the streets: my virgins and my young men are fallen by the sword; thou hast slain [them] in the day of thine anger; thou hast killed, [and] not pitied.
 <sup>22</sup> Thou hast called as in a solemn day my terrors round about, so that in the day of the LORD’S anger none escaped nor remained: those that I have swaddled and brought up hath mine enemy consumed.
+
 ## Chapter 3
 
 <sup>1</sup> I [am] the man [that] hath seen affliction by the rod of his wrath.
@@ -114,6 +116,7 @@
 <sup>64</sup> Render unto them a recompence, O LORD, according to the work of their hands.
 <sup>65</sup> Give them sorrow of heart, thy curse unto them.
 <sup>66</sup> Persecute and destroy them in anger from under the heavens of the LORD.
+
 ## Chapter 4
 
 <sup>1</sup> How is the gold become dim! [how] is the most fine gold changed! the stones of the sanctuary are poured out in the top of every street.
@@ -138,6 +141,7 @@
 <sup>20</sup> The breath of our nostrils, the anointed of the LORD, was taken in their pits, of whom we said, Under his shadow we shall live among the heathen.
 <sup>21</sup> Rejoice and be glad, O daughter of Edom, that dwellest in the land of Uz; the cup also shall pass through unto thee: thou shalt be drunken, and shalt make thyself naked.
 <sup>22</sup> The punishment of thine iniquity is accomplished, O daughter of Zion; he will no more carry thee away into captivity: he will visit thine iniquity, O daughter of Edom; he will discover thy sins.
+
 ## Chapter 5
 
 <sup>1</sup> Remember, O LORD, what is come upon us: consider, and behold our reproach.

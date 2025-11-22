@@ -24,6 +24,7 @@
 <sup>22</sup> eram autem ignotus facie ecclesiis Iudaeae quae erant in Christo
 <sup>23</sup> tantum autem auditum habebant quoniam qui persequebatur nos aliquando nunc evangelizat fidem quam aliquando expugnabat
 <sup>24</sup> et in me clarificabant Deum
+
 ## Chapter 2
 
 <sup>1</sup> deinde post annos quattuordecim iterum ascendi Hierosolyma cum Barnaba adsumpto et Tito
@@ -47,6 +48,7 @@
 <sup>19</sup> ego enim per legem legi mortuus sum ut Deo vivam Christo confixus sum cruci
 <sup>20</sup> vivo autem iam non ego vivit vero in me Christus quod autem nunc vivo in carne in fide vivo Filii Dei qui dilexit me et tradidit se ipsum pro me
 <sup>21</sup> non abicio gratiam Dei si enim per legem iustitia ergo Christus gratis mortuus est
+
 ## Chapter 3
 
 <sup>1</sup> o insensati Galatae quis vos fascinavit ante quorum oculos Iesus Christus proscriptus est crucifixus
@@ -78,6 +80,7 @@
 <sup>27</sup> quicumque enim in Christo baptizati estis Christum induistis
 <sup>28</sup> non est Iudaeus neque Graecus non est servus neque liber non est masculus neque femina omnes enim vos unum estis in Christo Iesu
 <sup>29</sup> si autem vos Christi ergo Abrahae semen estis secundum promissionem heredes
+
 ## Chapter 4
 
 <sup>1</sup> dico autem quanto tempore heres parvulus est nihil differt servo cum sit dominus omnium
@@ -111,6 +114,7 @@
 <sup>29</sup> sed quomodo tunc qui secundum carnem natus fuerat persequebatur eum qui secundum spiritum ita et nunc
 <sup>30</sup> sed quid dicit scriptura eice ancillam et filium eius non enim heres erit filius ancillae cum filio liberae
 <sup>31</sup> itaque fratres non sumus ancillae filii sed liberae qua libertate nos Christus liberavit
+
 ## Chapter 5
 
 <sup>1</sup> state et nolite iterum iugo servitutis contineri
@@ -139,6 +143,7 @@
 <sup>24</sup> qui autem sunt Christi carnem crucifixerunt cum vitiis et concupiscentiis
 <sup>25</sup> si vivimus spiritu spiritu et ambulemus
 <sup>26</sup> non efficiamur inanis gloriae cupidi invicem provocantes invicem invidentes
+
 ## Chapter 6
 
 <sup>1</sup> fratres et si praeoccupatus fuerit homo in aliquo delicto vos qui spiritales estis huiusmodi instruite in spiritu lenitatis considerans te ipsum ne et tu tempteris

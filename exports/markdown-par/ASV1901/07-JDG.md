@@ -36,6 +36,7 @@
 <sup>34</sup> And the Amorites forced the children of Dan into the hill-country; for they would not suffer them to come down to the valley;
 <sup>35</sup> but the Amorites would dwell in mount Heres, in Aijalon, and in Shaalbim: yet the hand of the house of Joseph prevailed, so that they became subject to taskwork.
 <sup>36</sup> And the border of the Amorites was from the ascent of Akrabbim, from the rock, and upward.
+
 ## Chapter 2
 
 <sup>1</sup> And the angel of Jehovah came up from Gilgal to Bochim. And he said, I made you to go up out of Egypt, and have brought you unto the land which I sware unto your fathers; and I said, I will never break my covenant with you:
@@ -61,6 +62,7 @@
 <sup>21</sup> I also will not henceforth drive out any from before them of the nations that Joshua left when he died;
 <sup>22</sup> that by them I may prove Israel, whether they will keep the way of Jehovah to walk therein, as their fathers did keep it, or not.
 <sup>23</sup> So Jehovah left those nations, without driving them out hastily; neither delivered he them into the hand of Joshua.
+
 ## Chapter 3
 
 <sup>1</sup> Now these are the nations which Jehovah left, to prove Israel by them, even as many of Israel as had not known all the wars of Canaan;
@@ -94,6 +96,7 @@
 <sup>29</sup> And they smote of Moab at that time about ten thousand men, every lusty man, and every man of valor; and there escaped not a man.
 <sup>30</sup> So Moab was subdued that day under the hand of Israel. And the land had rest fourscore years.
 <sup>31</sup> And after him was Shamgar the son of Anath, who smote of the Philistines six hundred men with an ox-goad: and he also saved Israel.
+
 ## Chapter 4
 
 <sup>1</sup> And the children of Israel again did that which was evil in the sight of Jehovah, when Ehud was dead.
@@ -120,6 +123,7 @@
 <sup>22</sup> And, behold, as Barak pursued Sisera, Jael came out to meet him, and said unto him, Come, and I will show thee the man whom thou seekest. And he came unto her; and, behold, Sisera lay dead, and the tent-pin was in his temples.
 <sup>23</sup> So God subdued on that day Jabin the king of Canaan before the children of Israel.
 <sup>24</sup> And the hand of the children of Israel prevailed more and more against Jabin the king of Canaan, until they had destroyed Jabin king of Canaan.
+
 ## Chapter 5
 
 <sup>1</sup> Then sang Deborah and Barak the son of Abinoam on that day, saying,
@@ -153,6 +157,7 @@
 <sup>29</sup> Her wise ladies answered her, Yea, she returned answer to herself,
 <sup>30</sup> Have they not found, have they not divided the spoil? A damsel, two damsels to every man; To Sisera a spoil of dyed garments, A spoil of dyed garments embroidered, Of dyed garments embroidered on both sides, on the necks of the spoil?
 <sup>31</sup> So let all thine enemies perish, O Jehovah: But let them that love him be as the sun when he goeth forth in his might. And the land had rest forty years.
+
 ## Chapter 6
 
 <sup>1</sup> And the children of Israel did that which was evil in the sight of Jehovah: and Jehovah delivered them into the hand of Midian seven years.
@@ -195,6 +200,7 @@
 <sup>38</sup> And it was so; for he rose up early on the morrow, and pressed the fleece together, and wrung the dew out of the fleece, a bowlful of water.
 <sup>39</sup> And Gideon said unto God, Let not thine anger be kindled against me, and I will speak but this once: let me make trial, I pray thee, but this once with the fleece; let it now be dry only upon the fleece, and upon all the ground let there be dew.
 <sup>40</sup> And God did so that night: for it was dry upon the fleece only, and there was dew on all the ground.
+
 ## Chapter 7
 
 <sup>1</sup> Then Jerubbaal, who is Gideon, and all the people that were with him, rose up early, and encamped beside the spring of Harod: and the camp of Midian was on the north side of them, by the hill of Moreh, in the valley.
@@ -222,6 +228,7 @@
 <sup>23</sup> And the men of Israel were gathered together out of Naphtali, and out of Asher, and out of all Manasseh, and pursued after Midian.
 <sup>24</sup> And Gideon sent messengers throughout all the hill-country of Ephraim, saying, Come down against Midian, and take before them the waters, as far as Beth-barah, even the Jordan. So all the men of Ephraim were gathered together, and took the waters as far as Beth-barah, even the Jordan.
 <sup>25</sup> And they took the two princes of Midian, Oreb and Zeeb; and they slew Oreb at the rock of Oreb, and Zeeb they slew at the winepress of Zeeb, and pursued Midian: and they brought the heads of Oreb and Zeeb to Gideon beyond the Jordan.
+
 ## Chapter 8
 
 <sup>1</sup> And the men of Ephraim said unto him, Why hast thou served us thus, that thou calledst us not, when thou wentest to fight with Midian? And they did chide with him sharply.
@@ -259,6 +266,7 @@
 <sup>33</sup> And it came to pass, as soon as Gideon was dead, that the children of Israel turned again, and played the harlot after the Baalim, and made Baal-berith their god.
 <sup>34</sup> And the children of Israel remembered not Jehovah their God, who had delivered them out of the hand of all their enemies on every side;
 <sup>35</sup> neither showed they kindness to the house of Jerubbaal, who is Gideon, according to all the goodness which he had showed unto Israel.
+
 ## Chapter 9
 
 <sup>1</sup> And Abimelech the son of Jerubbaal went to Shechem unto his mother’s brethren, and spake with them, and with all the family of the house of his mother’s father, saying,
@@ -318,6 +326,7 @@
 <sup>55</sup> And when the men of Israel saw that Abimelech was dead, they departed every man unto his place.
 <sup>56</sup> Thus God requited the wickedness of Abimelech, which he did unto his father, in slaying his seventy brethren;
 <sup>57</sup> and all the wickedness of the men of Shechem did God requite upon their heads: and upon them came the curse of Jotham the son of Jerubbaal.
+
 ## Chapter 10
 
 <sup>1</sup> And after Abimelech there arose to save Israel Tola the son of Puah, the son of Dodo, a man of Issachar; and he dwelt in Shamir in the hill- country of Ephraim.
@@ -338,6 +347,7 @@
 <sup>16</sup> And they put away the foreign gods from among them, and served Jehovah; and his soul was grieved for the misery of Israel.
 <sup>17</sup> Then the children of Ammon were gathered together, and encamped in Gilead. And the children of Israel assembled themselves together, and encamped in Mizpah.
 <sup>18</sup> And the people, the princes of Gilead, said one to another, What man is he that will begin to fight against the children of Ammon? he shall be head over all the inhabitants of Gilead.
+
 ## Chapter 11
 
 <sup>1</sup> Now Jephthah the Gileadite was a mighty man of valor, and he was the son of a harlot: and Gilead begat Jephthah.
@@ -380,6 +390,7 @@
 <sup>38</sup> And he said, Go. And he sent her away for two months: and she departed, she and her companions, and bewailed her virginity upon the mountains.
 <sup>39</sup> And it came to pass at the end of two months, that she returned unto her father, who did with her according to his vow which he had vowed: and she knew not man. And it was a custom in Israel,
 <sup>40</sup> that the daughters of Israel went yearly to celebrate the daughter of Jephthah the Gileadite four days in a year.
+
 ## Chapter 12
 
 <sup>1</sup> And the men of Ephraim were gathered together, and passed northward; and they said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thy house upon thee with fire.
@@ -397,6 +408,7 @@
 <sup>13</sup> And after him Abdon the son of Hillel the Pirathonite judged Israel.
 <sup>14</sup> And he had forty sons and thirty sons’ sons, that rode on threescore and ten ass colts: and he judged Israel eight years.
 <sup>15</sup> And Abdon the son of Hillel the Pirathonite died, and was buried in Pirathon in the land of Ephraim, in the hill-country of the Amalekites.
+
 ## Chapter 13
 
 <sup>1</sup> And the children of Israel again did that which was evil in the sight of Jehovah; and Jehovah delivered them into the hand of the Philistines forty years.
@@ -424,6 +436,7 @@
 <sup>23</sup> But his wife said unto him, If Jehovah were pleased to kill us, he would not have received a burnt-offering and a meal-offering at our hand, neither would he have showed us all these things, nor would at this time have told such things as these.
 <sup>24</sup> And the woman bare a son, and called his name Samson: and the child grew, and Jehovah blessed him.
 <sup>25</sup> And the Spirit of Jehovah began to move him in Mahaneh-dan, between Zorah and Eshtaol.
+
 ## Chapter 14
 
 <sup>1</sup> And Samson went down to Timnah, and saw a woman in Timnah of the daughters of the Philistines.
@@ -446,6 +459,7 @@
 <sup>18</sup> And the men of the city said unto him on the seventh day before the sun went down, What is sweeter than honey? and what is stronger than a lion? And he said unto them, If ye had not plowed with my heifer, Ye had not found out my riddle.
 <sup>19</sup> And the Spirit of Jehovah came mightily upon him, and he went down to Ashkelon, and smote thirty men of them, and took their spoil, and gave the changes of raiment unto them that declared the riddle. And his anger was kindled, and he went up to his father’s house.
 <sup>20</sup> But Samson’s wife was given to his companion, whom he had used as his friend.
+
 ## Chapter 15
 
 <sup>1</sup> But it came to pass after a while, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in.
@@ -468,6 +482,7 @@
 <sup>18</sup> And he was sore athirst, and called on Jehovah, and said, Thou hast given this great deliverance by the hand of thy servant; and now shall I die for thirst, and fall into the hand of the uncircumcised.
 <sup>19</sup> But God clave the hollow place that is in Lehi, and there came water thereout; and when he had drunk, his spirit came again, and he revived: wherefore the name thereof was called En-hakkore, which is in Lehi, unto this day.
 <sup>20</sup> And he judged Israel in the days of the Philistines twenty years.
+
 ## Chapter 16
 
 <sup>1</sup> And Samson went to Gaza, and saw there a harlot, and went in unto her.
@@ -501,6 +516,7 @@
 <sup>29</sup> And Samson took hold of the two middle pillars upon which the house rested, and leaned upon them, the one with his right hand, and the other with his left.
 <sup>30</sup> And Samson said, Let me die with the Philistines. And he bowed himself with all his might; and the house fell upon the lords, and upon all the people that were therein. So the dead that he slew at his death were more than they that he slew in his life.
 <sup>31</sup> Then his brethren and all the house of his father came down, and took him, and brought him up, and buried him between Zorah and Eshtaol in the burying-place of Manoah his father. And he judged Israel twenty years.
+
 ## Chapter 17
 
 <sup>1</sup> And there was a man of the hill-country of Ephraim, whose name was Micah.
@@ -516,6 +532,7 @@
 <sup>11</sup> And the Levite was content to dwell with the man; and the young man was unto him as one of his sons.
 <sup>12</sup> And Micah consecrated the Levite, and the young man became his priest, and was in the house of Micah.
 <sup>13</sup> Then said Micah, Now know I that Jehovah will do me good, seeing I have a Levite to my priest.
+
 ## Chapter 18
 
 <sup>1</sup> In those days there was no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day their inheritance had not fallen unto them among the tribes of Israel.
@@ -549,6 +566,7 @@
 <sup>29</sup> And they called the name of the city Dan, after the name of Dan their father, who was born unto Israel: howbeit the name of the city was Laish at the first.
 <sup>30</sup> And the children of Dan set up for themselves the graven image: and Jonathan, the son of Gershom, the son of Moses, he and his sons were priests to the tribe of the Danites until the day of the captivity of the land.
 <sup>31</sup> So they set them up Micah’s graven image which he made, all the time that the house of God was in Shiloh.
+
 ## Chapter 19
 
 <sup>1</sup> And it came to pass in those days, when there was no king in Israel, that there was a certain Levite sojourning on the farther side of the hill-country of Ephraim, who took to him a concubine out of Beth-lehem-judah.
@@ -581,6 +599,7 @@
 <sup>28</sup> And he said unto her, Up, and let us be going; but none answered: then he took her up upon the ass; and the man rose up, and gat him unto his place.
 <sup>29</sup> And when he was come into his house, he took a knife, and laid hold on his concubine, and divided her, limb by limb, into twelve pieces, and sent her throughout all the borders of Israel.
 <sup>30</sup> And it was so, that all that saw it said, There was no such deed done nor seen from the day that the children of Israel came up out of the land of Egypt unto this day: consider it, take counsel, and speak.
+
 ## Chapter 20
 
 <sup>1</sup> Then all the children of Israel went out, and the congregation was assembled as one man, from Dan even to Beer-sheba, with the land of Gilead, unto Jehovah at Mizpah.
@@ -631,6 +650,7 @@
 <sup>46</sup> So that all who fell that day of Benjamin were twenty and five thousand men that drew the sword; all these were men of valor.
 <sup>47</sup> But six hundred men turned and fled toward the wilderness unto the rock of Rimmon, and abode in the rock of Rimmon four months.
 <sup>48</sup> And the men of Israel turned again upon the children of Benjamin, and smote them with the edge of the sword, both the entire city, and the cattle, and all that they found: moreover all the cities which they found they set on fire.
+
 ## Chapter 21
 
 <sup>1</sup> Now the men of Israel had sworn in Mizpah, saying, There shall not any of us give his daughter unto Benjamin to wife.

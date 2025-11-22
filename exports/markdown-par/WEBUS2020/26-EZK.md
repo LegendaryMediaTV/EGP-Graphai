@@ -34,7 +34,9 @@
 <sup>25</sup> There was a voice above the expanse that was over their heads. When they stood, they let down their wings.
 <sup>26</sup> Above the expanse that was over their heads was the likeness of a throne, as the appearance of a sapphire<sup>d</sup> stone. On the likeness of the throne was a likeness as the appearance of a man on it above.
 <sup>27</sup> I saw as it were glowing metal, as the appearance of fire within it all around, from the appearance of his waist and upward; and from the appearance of his waist and downward I saw as it were the appearance of fire, and there was brightness around him.
-<sup>28</sup> As the appearance of the rainbow that is in the cloud in the day of rain, so was the appearance of the brightness all around. This was the appearance of the likeness of Yahweh’s glory. When I saw it, I fell on my face, and I heard a voice of one that spoke.
+<sup>28</sup> As the appearance of the rainbow that is in the cloud in the day of rain, so was the appearance of the brightness all around.
+
+This was the appearance of the likeness of Yahweh’s glory. When I saw it, I fell on my face, and I heard a voice of one that spoke.
 
 > - <sup>a</sup> 1. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 > - <sup>b</sup> 3. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
@@ -64,7 +66,9 @@
 
 <sup>2</sup> So I opened my mouth, and he caused me to eat the scroll.
 
-<sup>3</sup> He said to me, “Son of man, eat this scroll that I give you and fill your belly and your bowels with it.” Then I ate it. It was as sweet as honey in my mouth.
+<sup>3</sup> He said to me, “Son of man, eat this scroll that I give you and fill your belly and your bowels with it.”
+
+Then I ate it. It was as sweet as honey in my mouth.
 
 <sup>4</sup> He said to me, “Son of man, go to the house of Israel, and speak my words to them.
 <sup>5</sup> For you are not sent to a people of a strange speech and of a hard language, but to the house of Israel—
@@ -152,6 +156,7 @@
 <sup>15</sup> So it will be a reproach and a taunt, an instruction and an astonishment, to the nations that are around you, when I execute judgments on you in anger and in wrath, and in wrathful rebukes—I, Yahweh, have spoken it—
 <sup>16</sup> when I send on them the evil arrows of famine that are for destruction, which I will send to destroy you. I will increase the famine on you and will break your staff of bread.
 <sup>17</sup> I will send on you famine and evil animals, and they will bereave you. Pestilence and blood will pass through you. I will bring the sword on you. I, Yahweh, have spoken it.’ ”
+
 ## Chapter 6
 
 <sup>1</sup> Yahweh’s word came to me, saying,
@@ -170,6 +175,7 @@
 <sup>12</sup> He who is far off will die of the pestilence. He who is near will fall by the sword. He who remains and is besieged will die by the famine. Thus I will accomplish my wrath on them.
 <sup>13</sup> You will know that I am Yahweh when their slain men are among their idols around their altars, on every high hill, on all the tops of the mountains, under every green tree, and under every thick oak—the places where they offered pleasant aroma to all their idols.
 <sup>14</sup> I will stretch out my hand on them and make the land desolate and waste, from the wilderness toward Diblah, throughout all their habitations. Then they will know that I am Yahweh.’ ”
+
 ## Chapter 7
 
 <sup>1</sup> Moreover Yahweh’s word came to me, saying,
@@ -203,6 +209,7 @@
 <sup>25</sup> Destruction comes! They will seek peace, and there will be none.
 <sup>26</sup> Mischief will come on mischief, and rumor will be on rumor. They will seek a vision of the prophet; but the law will perish from the priest, and counsel from the elders.
 <sup>27</sup> The king will mourn, and the prince will be clothed with desolation. The hands of the people of the land will be troubled. I will do to them after their way, and according to their own judgments I will judge them. Then they will know that I am Yahweh.’ ”
+
 ## Chapter 8
 
 <sup>1</sup> In the sixth year, in the sixth month, in the fifth day of the month, as I sat in my house, and the elders of Judah sat before me, the Lord Yahweh’s hand fell on me there.
@@ -210,12 +217,16 @@
 <sup>3</sup> He stretched out the form of a hand, and took me by a lock of my head; and the Spirit lifted me up between earth and the sky, and brought me in the visions of God to Jerusalem, to the door of the gate of the inner court that looks toward the north, where there was the seat of the image of jealousy, which provokes to jealousy.
 <sup>4</sup> Behold, the glory of the God of Israel was there, according to the appearance that I saw in the plain.
 
-<sup>5</sup> Then he said to me, “Son of man, lift up your eyes now the way toward the north.” So I lifted up my eyes the way toward the north, and saw, northward of the gate of the altar this image of jealousy in the entry.
+<sup>5</sup> Then he said to me, “Son of man, lift up your eyes now the way toward the north.”
+
+So I lifted up my eyes the way toward the north, and saw, northward of the gate of the altar this image of jealousy in the entry.
 
 <sup>6</sup> He said to me, “Son of man, do you see what they do? Even the great abominations that the house of Israel commit here, that I should go far off from my sanctuary? But you will again see yet other great abominations.”
 
 <sup>7</sup> He brought me to the door of the court; and when I looked, behold, a hole in the wall.
-<sup>8</sup> Then he said to me, “Son of man, dig now in the wall.” When I had dug in the wall, I saw a door.
+<sup>8</sup> Then he said to me, “Son of man, dig now in the wall.”
+
+When I had dug in the wall, I saw a door.
 
 <sup>9</sup> He said to me, “Go in, and see the wicked abominations that they do here.”
 
@@ -232,6 +243,7 @@
 
 <sup>17</sup> Then he said to me, “Have you seen this, son of man? Is it a light thing to the house of Judah that they commit the abominations which they commit here? For they have filled the land with violence, and have turned again to provoke me to anger. Behold, they put the branch to their nose.
 <sup>18</sup> Therefore I will also deal in wrath. My eye won’t spare, neither will I have pity. Though they cry in my ears with a loud voice, yet I will not hear them.”
+
 ## Chapter 9
 
 <sup>1</sup> Then he cried in my ears with a loud voice, saying, “Cause those who are in charge of the city to draw near, each man with his destroying weapon in his hand.”
@@ -241,9 +253,13 @@
 <sup>4</sup> Yahweh said to him, “Go through the middle of the city, through the middle of Jerusalem, and set a mark on the foreheads of the men that sigh and that cry over all the abominations that are done within it.”
 
 <sup>5</sup> To the others he said in my hearing, “Go through the city after him, and strike. Don’t let your eye spare, neither have pity.
-<sup>6</sup> Kill utterly the old man, the young man, the virgin, little children and women; but don’t come near any man on whom is the mark. Begin at my sanctuary.” Then they began at the old men who were before the house.
+<sup>6</sup> Kill utterly the old man, the young man, the virgin, little children and women; but don’t come near any man on whom is the mark. Begin at my sanctuary.”
 
-<sup>7</sup> He said to them, “Defile the house, and fill the courts with the slain. Go out!” They went out, and struck in the city.
+Then they began at the old men who were before the house.
+
+<sup>7</sup> He said to them, “Defile the house, and fill the courts with the slain. Go out!”
+
+They went out, and struck in the city.
 
 <sup>8</sup> While they were killing, and I was left, I fell on my face, and cried, and said, “Ah Lord Yahweh! Will you destroy all the residue of Israel in your pouring out of your wrath on Jerusalem?”
 
@@ -251,10 +267,13 @@
 <sup>10</sup> As for me also, my eye won’t spare, neither will I have pity, but I will bring their way on their head.”
 
 <sup>11</sup> Behold, the man clothed in linen, who had the inkhorn by his side, reported the matter, saying, “I have done as you have commanded me.”
+
 ## Chapter 10
 
 <sup>1</sup> Then I looked, and see, in the expanse that was over the head of the cherubim there appeared above them as it were a sapphire<sup>a</sup> stone, as the appearance of the likeness of a throne.
-<sup>2</sup> He spoke to the man clothed in linen, and said, “Go in between the whirling wheels, even under the cherub, and fill both your hands with coals of fire from between the cherubim, and scatter them over the city.” He went in as I watched.
+<sup>2</sup> He spoke to the man clothed in linen, and said, “Go in between the whirling wheels, even under the cherub, and fill both your hands with coals of fire from between the cherubim, and scatter them over the city.”
+
+He went in as I watched.
 <sup>3</sup> Now the cherubim stood on the right side of the house when the man went in; and the cloud filled the inner court.
 <sup>4</sup> Yahweh’s glory mounted up from the cherub, and stood over the threshold of the house; and the house was filled with the cloud, and the court was full of the brightness of Yahweh’s glory.
 <sup>5</sup> The sound of the wings of the cherubim was heard even to the outer court, as the voice of God Almighty when he speaks.
@@ -316,8 +335,11 @@
 
 <sup>22</sup> Then the cherubim lifted up their wings, and the wheels were beside them. The glory of the God of Israel was over them above.
 <sup>23</sup> Yahweh’s glory went up from the middle of the city, and stood on the mountain which is on the east side of the city.
-<sup>24</sup> The Spirit lifted me up, and brought me in the vision by the Spirit of God into Chaldea, to the captives. So the vision that I had seen went up from me.
+<sup>24</sup> The Spirit lifted me up, and brought me in the vision by the Spirit of God into Chaldea, to the captives.
+
+So the vision that I had seen went up from me.
 <sup>25</sup> Then I spoke to the captives all the things that Yahweh had shown me.
+
 ## Chapter 12
 
 <sup>1</sup> Yahweh’s word also came to me, saying,
@@ -359,6 +381,7 @@
 <sup>27</sup> “Son of man, behold, they of the house of Israel say, ‘The vision that he sees is for many days to come, and he prophesies of times that are far off.’
 
 <sup>28</sup> “Therefore tell them, ‘The Lord Yahweh says: “None of my words will be deferred any more, but the word which I speak will be performed,” says the Lord Yahweh.’ ”
+
 ## Chapter 13
 
 <sup>1</sup> Yahweh’s word came to me, saying,
@@ -389,6 +412,7 @@
 <sup>21</sup> I will also tear your veils and deliver my people out of your hand; and they will no longer be in your hand to be ensnared. Then you will know that I am Yahweh.
 <sup>22</sup> Because with lies you have grieved the heart of the righteous, whom I have not made sad; and strengthened the hands of the wicked, that he should not return from his wicked way, and be saved alive.
 <sup>23</sup> Therefore you shall no more see false visions nor practice divination. I will deliver my people out of your hand. Then you will know that I am Yahweh.’ ”
+
 ## Chapter 14
 
 <sup>1</sup> Then some of the elders of Israel came to me and sat before me.
@@ -422,6 +446,7 @@
 <sup>21</sup> For the Lord Yahweh says: “How much more when I send my four severe judgments on Jerusalem—the sword, the famine, the evil animals, and the pestilence—to cut off from it man and animal!
 <sup>22</sup> Yet, behold, there will be left a remnant in it that will be carried out, both sons and daughters. Behold, they will come out to you, and you will see their way and their doings. Then you will be comforted concerning the evil that I have brought on Jerusalem, even concerning all that I have brought on it.
 <sup>23</sup> They will comfort you, when you see their way and their doings; then you will know that I have not done all that I have done in it without cause,” says the Lord Yahweh.
+
 ## Chapter 15
 
 <sup>1</sup> Yahweh’s word came to me, saying,
@@ -433,6 +458,7 @@
 <sup>6</sup> Therefore the Lord Yahweh says: “As the vine wood among the trees of the forest, which I have given to the fire for fuel, so I will give the inhabitants of Jerusalem.
 <sup>7</sup> I will set my face against them. They will go out from the fire, but the fire will still devour them. Then you will know that I am Yahweh, when I set my face against them.
 <sup>8</sup> I will make the land desolate, because they have acted unfaithfully,” says the Lord Yahweh.
+
 ## Chapter 16
 
 <sup>1</sup> Again Yahweh’s word came to me, saying,
@@ -512,6 +538,7 @@
 <sup>61</sup> Then you will remember your ways and be ashamed when you receive your sisters, your elder sisters and your younger; and I will give them to you for daughters, but not by your covenant.
 <sup>62</sup> I will establish my covenant with you. Then you will know that I am Yahweh;
 <sup>63</sup> that you may remember, and be confounded, and never open your mouth any more because of your shame, when I have forgiven you all that you have done,” says the Lord Yahweh.’ ”
+
 ## Chapter 17
 
 <sup>1</sup> Yahweh’s word came to me, saying,
@@ -544,7 +571,9 @@
 
 <sup>22</sup> “The Lord Yahweh says: ‘I will also take some of the lofty top of the cedar, and will plant it. I will crop off from the topmost of its young twigs a tender one, and I will plant it on a high and lofty mountain.
 <sup>23</sup> I will plant it in the mountain of the height of Israel; and it will produce boughs, and bear fruit, and be a good cedar. Birds of every kind will dwell in the shade of its branches.
-<sup>24</sup> All the trees of the field will know that I, Yahweh, have brought down the high tree, have exalted the low tree, have dried up the green tree, and have made the dry tree flourish. “ ‘I, Yahweh, have spoken and have done it.’ ”
+<sup>24</sup> All the trees of the field will know that I, Yahweh, have brought down the high tree, have exalted the low tree, have dried up the green tree, and have made the dry tree flourish.
+
+“ ‘I, Yahweh, have spoken and have done it.’ ”
 
 > - <sup>a</sup> 13. or, seed
 
@@ -591,6 +620,7 @@
 <sup>30</sup> “Therefore I will judge you, house of Israel, everyone according to his ways,” says the Lord Yahweh. “Return, and turn yourselves from all your transgressions, so iniquity will not be your ruin.
 <sup>31</sup> Cast away from you all your transgressions in which you have transgressed; and make yourself a new heart and a new spirit. For why will you die, house of Israel?
 <sup>32</sup> For I have no pleasure in the death of him who dies,” says the Lord Yahweh. “Therefore turn yourselves, and live!
+
 ## Chapter 19
 
 <sup>1</sup> “Moreover, take up a lamentation for the princes of Israel,
@@ -609,6 +639,7 @@
 <sup>12</sup> But it was plucked up in fury.<br>It was cast down to the ground,<br>and the east wind dried up its fruit.<br>Its strong branches were broken off and withered.<br>The fire consumed them.<br>
 <sup>13</sup> Now it is planted in the wilderness,<br>in a dry and thirsty land.<br>
 <sup>14</sup> Fire has gone out of its branches.<br>It has devoured its fruit,<br>so that there is in it no strong branch to be a scepter to rule.’
+
 ## Chapter 20
 
 <sup>1</sup> In the seventh year, in the fifth month, the tenth day of the month, some of the elders of Israel came to inquire of Yahweh, and sat before me.
@@ -824,6 +855,7 @@
 
 <sup>48</sup> “ ‘Thus I will cause lewdness to cease out of the land, that all women may be taught not to be lewd like you.
 <sup>49</sup> They will recompense your lewdness on you, and you will bear the sins of your idols. Then you will know that I am the Lord Yahweh.’ ”
+
 ## Chapter 24
 
 <sup>1</sup> Again, in the ninth year, in the tenth month, in the tenth day of the month, Yahweh’s word came to me, saying,
@@ -861,6 +893,7 @@
 <sup>25</sup> “You, son of man, shouldn’t it be in the day when I take from them their strength, the joy of their glory, the desire of their eyes, and that whereupon they set their heart—their sons and their daughters—
 <sup>26</sup> that in that day he who escapes will come to you, to cause you to hear it with your ears?
 <sup>27</sup> In that day your mouth will be opened to him who has escaped, and you will speak and be no more mute. So you will be a sign to them. Then they will know that I am Yahweh.”
+
 ## Chapter 25
 
 <sup>1</sup> Yahweh’s word came to me, saying,
@@ -883,6 +916,7 @@
 <sup>15</sup> “ ‘The Lord Yahweh says: “Because the Philistines have taken revenge, and have taken vengeance with contempt of soul to destroy with perpetual hostility,”
 <sup>16</sup> therefore the Lord Yahweh says, “Behold, I will stretch out my hand on the Philistines, and I will cut off the Cherethites, and destroy the remnant of the sea coast.
 <sup>17</sup> I will execute great vengeance on them with wrathful rebukes. Then they will know that I am Yahweh, when I lay my vengeance on them.” ’ ”
+
 ## Chapter 26
 
 <sup>1</sup> In the eleventh year, in the first of the month, Yahweh’s word came to me, saying,
@@ -909,6 +943,7 @@
 <sup>19</sup> “For the Lord Yahweh says: ‘When I make you a desolate city, like the cities that are not inhabited, when I bring up the deep on you, and the great waters cover you,
 <sup>20</sup> then I will bring you down with those who descend into the pit, to the people of old time, and will make you dwell in the lower parts of the earth, in the places that are desolate of old, with those who go down to the pit, that you be not inhabited; and I will set glory in the land of the living.
 <sup>21</sup> I will make you a terror, and you will no more have any being. Though you are sought for, yet you will never be found again,’ says the Lord Yahweh.”
+
 ## Chapter 27
 
 <sup>1</sup> Yahweh’s word came again to me, saying,
@@ -960,6 +995,7 @@
 <sup>34</sup> In the time that you were broken by the seas,<br>in the depths of the waters,<br>your merchandise and all your company fell within you.<br>
 <sup>35</sup> All the inhabitants of the islands are astonished at you,<br>and their kings are horribly afraid.<br>They are troubled in their face.<br>
 <sup>36</sup> The merchants among the peoples hiss at you.<br>You have come to a terrible end,<br>and you will be no more.” ’ ”
+
 ## Chapter 28
 
 <sup>1</sup> Yahweh’s word came again to me, saying,
@@ -1008,7 +1044,9 @@
 <sup>7</sup> When they took hold of you by your hand, you broke and tore all their shoulders. When they leaned on you, you broke and paralyzed all of their thighs.”
 
 <sup>8</sup> “ ‘Therefore the Lord Yahweh says: “Behold, I will bring a sword on you, and will cut off man and animal from you.
-<sup>9</sup> The land of Egypt will be a desolation and a waste. Then they will know that I am Yahweh. “ ‘ “Because he has said, ‘The river is mine, and I have made it,’
+<sup>9</sup> The land of Egypt will be a desolation and a waste. Then they will know that I am Yahweh.
+
+“ ‘ “Because he has said, ‘The river is mine, and I have made it,’
 <sup>10</sup> therefore, behold, I am against you and against your rivers. I will make the land of Egypt an utter waste and desolation, from the tower of Seveneh even to the border of Ethiopia.
 <sup>11</sup> No foot of man will pass through it, nor will any animal foot pass through it. It won’t be inhabited for forty years.
 <sup>12</sup> I will make the land of Egypt a desolation in the middle of the countries that are desolate. Her cities among the cities that are laid waste will be a desolation forty years. I will scatter the Egyptians among the nations, and will disperse them through the countries.”
@@ -1024,6 +1062,7 @@
 <sup>20</sup> I have given him the land of Egypt as his payment for which he served, because they worked for me,’ says the Lord Yahweh.
 
 <sup>21</sup> “In that day I will cause a horn to sprout for the house of Israel, and I will open your mouth among them. Then they will know that I am Yahweh.”
+
 ## Chapter 30
 
 <sup>1</sup> Yahweh’s word came again to me, saying,
@@ -1058,6 +1097,7 @@
 <sup>24</sup> I will strengthen the arms of the king of Babylon, and put my sword in his hand; but I will break the arms of Pharaoh, and he will groan before the king of Babylon with the groaning of a mortally wounded man.
 <sup>25</sup> I will hold up the arms of the king of Babylon, but the arms of Pharaoh will fall down. Then they will know that I am Yahweh when I put my sword into the hand of the king of Babylon, and he stretches it out on the land of Egypt.
 <sup>26</sup> I will scatter the Egyptians among the nations and disperse them through the countries. Then they will know that I am Yahweh.’ ”
+
 ## Chapter 31
 
 <sup>1</sup> In the eleventh year, in the third month, in the first day of the month, Yahweh’s word came to me, saying,
@@ -1080,7 +1120,9 @@
 <sup>16</sup> I made the nations to shake at the sound of his fall, when I cast him down to Sheol<sup>b</sup> with those who descend into the pit. All the trees of Eden, the choice and best of Lebanon, all that drink water, were comforted in the lower parts of the earth.
 <sup>17</sup> They also went down into Sheol with him to those who are slain by the sword; yes, those who were his arm, who lived under his shadow in the middle of the nations.
 
-<sup>18</sup> “ ‘To whom are you thus like in glory and in greatness among the trees of Eden? Yet you will be brought down with the trees of Eden to the lower parts of the earth. You will lie in the middle of the uncircumcised, with those who are slain by the sword. “ ‘This is Pharaoh and all his multitude,’ says the Lord Yahweh.”
+<sup>18</sup> “ ‘To whom are you thus like in glory and in greatness among the trees of Eden? Yet you will be brought down with the trees of Eden to the lower parts of the earth. You will lie in the middle of the uncircumcised, with those who are slain by the sword.
+
+“ ‘This is Pharaoh and all his multitude,’ says the Lord Yahweh.”
 
 > - <sup>a</sup> 15. Sheol is the place of the dead.
 > - <sup>b</sup> 16. Sheol is the place of the dead.
@@ -1175,6 +1217,7 @@
 <sup>32</sup> Behold, you are to them as a very lovely song of one who has a pleasant voice, and can play well on an instrument; for they hear your words, but they don’t do them.
 
 <sup>33</sup> “When this comes to pass—behold, it comes—then they will know that a prophet has been among them.”
+
 ## Chapter 34
 
 <sup>1</sup> Yahweh’s word came to me, saying,
@@ -1213,6 +1256,7 @@
 <sup>29</sup> I will raise up to them a plantation for renown, and they will no more be consumed with famine in the land, and not bear the shame of the nations any more.
 <sup>30</sup> They will know that I, Yahweh, their God am with them, and that they, the house of Israel, are my people, says the Lord Yahweh.
 <sup>31</sup> You my sheep, the sheep of my pasture, are men, and I am your God,’ says the Lord Yahweh.”
+
 ## Chapter 35
 
 <sup>1</sup> Moreover Yahweh’s word came to me, saying,
@@ -1232,6 +1276,7 @@
 <sup>13</sup> You have magnified yourselves against me with your mouth, and have multiplied your words against me. I have heard it.”
 <sup>14</sup> The Lord Yahweh says: “When the whole earth rejoices, I will make you desolate.
 <sup>15</sup> As you rejoiced over the inheritance of the house of Israel because it was desolate, so I will do to you. You will be desolate, Mount Seir, and all Edom, even all of it. Then they will know that I am Yahweh.’ ”
+
 ## Chapter 36
 
 <sup>1</sup> You, son of man, prophesy to the mountains of Israel, and say, “You mountains of Israel, hear Yahweh’s word.
@@ -1280,11 +1325,14 @@
 
 <sup>37</sup> “ ‘The Lord Yahweh says: “For this, moreover, I will be inquired of by the house of Israel, to do it for them: I will increase them with men like a flock.
 <sup>38</sup> As the flock for sacrifice, as the flock of Jerusalem in her appointed feasts, so the waste cities will be filled with flocks of men. Then they will know that I am Yahweh.’ ”
+
 ## Chapter 37
 
 <sup>1</sup> Yahweh’s hand was on me, and he brought me out in Yahweh’s Spirit, and set me down in the middle of the valley; and it was full of bones.
 <sup>2</sup> He caused me to pass by them all around; and behold, there were very many in the open valley, and behold, they were very dry.
-<sup>3</sup> He said to me, “Son of man, can these bones live?” I answered, “Lord Yahweh, you know.”
+<sup>3</sup> He said to me, “Son of man, can these bones live?”
+
+I answered, “Lord Yahweh, you know.”
 
 <sup>4</sup> Again he said to me, “Prophesy over these bones, and tell them, ‘You dry bones, hear Yahweh’s word.
 <sup>5</sup> The Lord Yahweh says to these bones: “Behold, I will cause breath to enter into you, and you will live.
@@ -1318,6 +1366,7 @@
 <sup>26</sup> Moreover I will make a covenant of peace with them. It will be an everlasting covenant with them. I will place them, multiply them, and will set my sanctuary among them forever more.
 <sup>27</sup> My tent also will be with them. I will be their God, and they will be my people.
 <sup>28</sup> The nations will know that I am Yahweh who sanctifies Israel, when my sanctuary is among them forever more.” ’ ”
+
 ## Chapter 38
 
 <sup>1</sup> Yahweh’s word came to me, saying,
@@ -1347,6 +1396,7 @@
 <sup>21</sup> I will call for a sword against him to all my mountains,” says the Lord Yahweh. “Every man’s sword will be against his brother.
 <sup>22</sup> I will enter into judgment with him with pestilence and with blood. I will rain on him, on his hordes, and on the many peoples who are with him, torrential rains with great hailstones, fire, and sulfur.
 <sup>23</sup> I will magnify myself and sanctify myself, and I will make myself known in the eyes of many nations. Then they will know that I am Yahweh.” ’
+
 ## Chapter 39
 
 <sup>1</sup> “You, son of man, prophesy against Gog, and say, ‘The Lord Yahweh says: “Behold, I am against you, Gog, prince of Rosh, Meshech, and Tubal.
@@ -1386,6 +1436,7 @@
 <sup>27</sup> when I have brought them back from the peoples, gathered them out of their enemies’ lands, and am shown holy among them in the sight of many nations.
 <sup>28</sup> They will know that I am Yahweh their God, in that I caused them to go into captivity among the nations, and have gathered them to their own land. Then I will leave none of them captive any more.
 <sup>29</sup> I won’t hide my face from them any more, for I have poured out my Spirit on the house of Israel,’ says the Lord Yahweh.”
+
 ## Chapter 40
 
 <sup>1</sup> In the twenty-fifth year of our captivity, in the beginning of the year, in the tenth day of the month, in the fourteenth year after the city was struck, in the same day, Yahweh’s hand was on me, and he brought me there.
@@ -1601,6 +1652,7 @@
 <sup>29</sup> They shall eat the meal offering, and the sin offering, and the trespass offering; and every devoted thing in Israel shall be theirs.
 <sup>30</sup> The first of all the first fruits of every thing, and every offering of everything, of all your offerings, shall be for the priest. You shall also give to the priests the first of your dough, to cause a blessing to rest on your house.
 <sup>31</sup> The priests shall not eat of anything that dies of itself or is torn, whether it is bird or animal.
+
 ## Chapter 45
 
 <sup>1</sup> “ ‘ “Moreover, when you divide by lot the land for inheritance, you shall offer an offering to Yahweh, a holy portion of the land. The length shall be the length of twenty-five thousand reeds, and the width shall be ten thousand. It shall be holy in all its border all around.
@@ -1694,7 +1746,9 @@
 <sup>4</sup> Again he measured one thousand, and caused me to pass through the waters, waters that were to the knees. Again he measured one thousand, and caused me to pass through waters that were to the waist.
 <sup>5</sup> Afterward he measured one thousand; and it was a river that I could not pass through, for the waters had risen, waters to swim in, a river that could not be walked through.
 
-<sup>6</sup> He said to me, “Son of man, have you seen this?” Then he brought me and caused me to return to the bank of the river.
+<sup>6</sup> He said to me, “Son of man, have you seen this?”
+
+Then he brought me and caused me to return to the bank of the river.
 <sup>7</sup> Now when I had returned, behold, on the bank of the river were very many trees on the one side and on the other.
 <sup>8</sup> Then he said to me, “These waters flow out toward the eastern region and will go down into the Arabah. Then they will go toward the sea and flow into the sea which will be made to flow out; and the waters will be healed.
 <sup>9</sup> It will happen that every living creature which swarms, in every place where the rivers come, will live. Then there will be a very great multitude of fish; for these waters have come there, and the waters of the sea will be healed, and everything will live wherever the river comes.
@@ -1705,7 +1759,9 @@
 <sup>13</sup> The Lord Yahweh says: “This shall be the border by which you shall divide the land for inheritance according to the twelve tribes of Israel. Joseph shall have two portions.
 <sup>14</sup> You shall inherit it, one as well as another; for I swore to give it to your fathers. This land will fall to you for inheritance.
 
-<sup>15</sup> “This shall be the border of the land: “On the north side, from the great sea, by the way of Hethlon, to the entrance of Zedad;
+<sup>15</sup> “This shall be the border of the land:
+
+“On the north side, from the great sea, by the way of Hethlon, to the entrance of Zedad;
 <sup>16</sup> Hamath, Berothah, Sibraim (which is between the border of Damascus and the border of Hamath), to Hazer Hatticon, which is by the border of Hauran.
 <sup>17</sup> The border from the sea shall be Hazar Enon at the border of Damascus; and on the north northward is the border of Hamath. This is the north side.
 

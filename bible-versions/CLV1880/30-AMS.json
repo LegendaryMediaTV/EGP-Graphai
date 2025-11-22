@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "verba Amos qui fuit in pastoralibus de Thecuae quae vidit super Israhel in diebus Oziae regis Iuda et in diebus Hieroboam filii Ioas regis Israhel ante duos annos terraemotus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "verba Amos qui fuit in pastoralibus de Thecuae quae vidit super Israhel in diebus Oziae regis Iuda et in diebus Hieroboam filii Ioas regis Israhel ante duos annos terraemotus"
     }
   },
   {
@@ -97,8 +97,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "haec dicit Dominus super tribus sceleribus Moab et super quattuor non convertam eum eo quod incenderit ossa regis Idumeae usque ad cinerem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "haec dicit Dominus super tribus sceleribus Moab et super quattuor non convertam eum eo quod incenderit ossa regis Idumeae usque ad cinerem"
     }
   },
   {
@@ -196,8 +196,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "audite verbum quod locutus est Dominus super vos filii Israhel super omni cognatione quam eduxi de terra Aegypti dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "audite verbum quod locutus est Dominus super vos filii Israhel super omni cognatione quam eduxi de terra Aegypti dicens"
     }
   },
   {
@@ -289,8 +289,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "audite verbum hoc vaccae pingues quae estis in monte Samariae quae calumniam facitis egenis et confringitis pauperes quae dicitis dominis vestris adferte et bibemus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "audite verbum hoc vaccae pingues quae estis in monte Samariae quae calumniam facitis egenis et confringitis pauperes quae dicitis dominis vestris adferte et bibemus"
     }
   },
   {
@@ -370,8 +370,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "audite verbum istud quod ego levo super vos planctum domus Israhel cecidit non adiciet ut resurgat",
-      "paragraph": true
+      "paragraph": true,
+      "text": "audite verbum istud quod ego levo super vos planctum domus Israhel cecidit non adiciet ut resurgat"
     }
   },
   {
@@ -535,8 +535,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "vae qui opulenti estis in Sion et confiditis in monte Samariae optimates capita populorum ingredientes pompatice domum Israhel",
-      "paragraph": true
+      "paragraph": true,
+      "text": "vae qui opulenti estis in Sion et confiditis in monte Samariae optimates capita populorum ingredientes pompatice domum Israhel"
     }
   },
   {
@@ -615,15 +615,24 @@
     "book": "AMS",
     "chapter": 6,
     "verse": 14,
-    "content": "qui laetamini in nihili qui dicitis numquid non in fortitudine nostra adsumpsimus nobis cornua (6-15) ecce enim suscitabo super vos domus Israhel dicit Dominus Deus exercituum gentem et conterent vos ab introitu Emath usque ad torrentem Deserti"
+    "content": [
+      {
+        "text": "qui laetamini in nihili qui dicitis numquid non in fortitudine nostra adsumpsimus nobis cornua ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 6:15."
+        }
+      },
+      "ecce enim suscitabo super vos domus Israhel dicit Dominus Deus exercituum gentem et conterent vos ab introitu Emath usque ad torrentem Deserti"
+    ]
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "haec ostendit mihi Dominus Deus et ecce fictor lucustae in principio germinantium serotini imbris et ecce serotinus post tonsorem regis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "haec ostendit mihi Dominus Deus et ecce fictor lucustae in principio germinantium serotini imbris et ecce serotinus post tonsorem regis"
     }
   },
   {
@@ -727,8 +736,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "haec ostendit mihi Dominus Deus et ecce uncinus pomorum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "haec ostendit mihi Dominus Deus et ecce uncinus pomorum"
     }
   },
   {
@@ -814,8 +823,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "vidi Dominum stantem super altare et dixit percute cardinem et commoveantur superliminaria avaritia enim in capite omnium et novissimum eorum in gladio interficiam non erit fuga eis fugiet et non salvabitur ex eis qui fugerit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "vidi Dominum stantem super altare et dixit percute cardinem et commoveantur superliminaria avaritia enim in capite omnium et novissimum eorum in gladio interficiam non erit fuga eis fugiet et non salvabitur ex eis qui fugerit"
     }
   },
   {

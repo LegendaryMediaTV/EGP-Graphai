@@ -40,6 +40,7 @@
 <sup>11</sup> Where is the den of the lions, and the feeding place of the young lions, where the lion and the lioness walked with the lion’s cubs, and no one made them afraid?
 <sup>12</sup> The lion tore in pieces enough for his cubs, and strangled prey for his lionesses, and filled his caves with the kill and his dens with prey.
 <sup>13</sup> “Behold, I am against you,” says Yahweh of Armies, “and I will burn her chariots in the smoke, and the sword will devour your young lions; and I will cut off your prey from the earth, and the voice of your messengers will no longer be heard.”
+
 ## Chapter 3
 
 <sup>1</sup> Woe to the bloody city! It is all full of lies and robbery—no end to the prey.

@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Yahweh",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       " spoke to Moses in the wilderness of Sinai, in the Tent of Meeting, on the first day of the second month, in the second year after they had come out of the land of Egypt, saying,"
     ]
@@ -37,15 +37,21 @@
     "book": "NUM",
     "chapter": 1,
     "verse": 5,
-    "content": "These are the names of the men who shall stand with you: Of Reuben: Elizur the son of Shedeur."
+    "content": [
+      "These are the names of the men who shall stand with you:",
+      {
+        "paragraph": true,
+        "text": "Of Reuben: Elizur the son of Shedeur."
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 1,
     "verse": 6,
     "content": {
-      "text": "Of Simeon: Shelumiel the son of Zurishaddai.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Simeon: Shelumiel the son of Zurishaddai."
     }
   },
   {
@@ -53,8 +59,8 @@
     "chapter": 1,
     "verse": 7,
     "content": {
-      "text": "Of Judah: Nahshon the son of Amminadab.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Judah: Nahshon the son of Amminadab."
     }
   },
   {
@@ -62,8 +68,8 @@
     "chapter": 1,
     "verse": 8,
     "content": {
-      "text": "Of Issachar: Nethanel the son of Zuar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Issachar: Nethanel the son of Zuar."
     }
   },
   {
@@ -71,8 +77,8 @@
     "chapter": 1,
     "verse": 9,
     "content": {
-      "text": "Of Zebulun: Eliab the son of Helon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Zebulun: Eliab the son of Helon."
     }
   },
   {
@@ -80,8 +86,8 @@
     "chapter": 1,
     "verse": 10,
     "content": {
-      "text": "Of the children of Joseph: of Ephraim: Elishama the son of Ammihud; of Manasseh: Gamaliel the son of Pedahzur.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Joseph: of Ephraim: Elishama the son of Ammihud; of Manasseh: Gamaliel the son of Pedahzur."
     }
   },
   {
@@ -89,8 +95,8 @@
     "chapter": 1,
     "verse": 11,
     "content": {
-      "text": "Of Benjamin: Abidan the son of Gideoni.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Benjamin: Abidan the son of Gideoni."
     }
   },
   {
@@ -98,8 +104,8 @@
     "chapter": 1,
     "verse": 12,
     "content": {
-      "text": "Of Dan: Ahiezer the son of Ammishaddai.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Dan: Ahiezer the son of Ammishaddai."
     }
   },
   {
@@ -107,8 +113,8 @@
     "chapter": 1,
     "verse": 13,
     "content": {
-      "text": "Of Asher: Pagiel the son of Ochran.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Asher: Pagiel the son of Ochran."
     }
   },
   {
@@ -116,8 +122,8 @@
     "chapter": 1,
     "verse": 14,
     "content": {
-      "text": "Of Gad: Eliasaph the son of Deuel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Gad: Eliasaph the son of Deuel."
     }
   },
   {
@@ -125,8 +131,8 @@
     "chapter": 1,
     "verse": 15,
     "content": {
-      "text": "Of Naphtali: Ahira the son of Enan.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Naphtali: Ahira the son of Enan.”"
     }
   },
   {
@@ -135,12 +141,12 @@
     "verse": 16,
     "content": [
       {
+        "paragraph": true,
         "text": "These are those who were called of the congregation, the princes",
         "foot": {
           "type": "trn",
           "content": "or, chiefs, or, leaders"
-        },
-        "paragraph": true
+        }
       },
       " of the tribes of their fathers; they were the heads of the thousands of Israel."
     ]
@@ -168,8 +174,8 @@
     "chapter": 1,
     "verse": 20,
     "content": {
-      "text": "The children of Reuben, Israel’s firstborn, their generations, by their families, by their fathers’ houses, according to the number of the names, one by one, every male from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Reuben, Israel’s firstborn, their generations, by their families, by their fathers’ houses, according to the number of the names, one by one, every male from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -183,8 +189,8 @@
     "chapter": 1,
     "verse": 22,
     "content": {
-      "text": "Of the children of Simeon, their generations, by their families, by their fathers’ houses, those who were counted of it, according to the number of the names, one by one, every male from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Simeon, their generations, by their families, by their fathers’ houses, those who were counted of it, according to the number of the names, one by one, every male from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -198,8 +204,8 @@
     "chapter": 1,
     "verse": 24,
     "content": {
-      "text": "Of the children of Gad, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Gad, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -213,8 +219,8 @@
     "chapter": 1,
     "verse": 26,
     "content": {
-      "text": "Of the children of Judah, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Judah, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -228,8 +234,8 @@
     "chapter": 1,
     "verse": 28,
     "content": {
-      "text": "Of the children of Issachar, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Issachar, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -243,8 +249,8 @@
     "chapter": 1,
     "verse": 30,
     "content": {
-      "text": "Of the children of Zebulun, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Zebulun, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -258,8 +264,8 @@
     "chapter": 1,
     "verse": 32,
     "content": {
-      "text": "Of the children of Joseph: of the children of Ephraim, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Joseph: of the children of Ephraim, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -273,8 +279,8 @@
     "chapter": 1,
     "verse": 34,
     "content": {
-      "text": "Of the children of Manasseh, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Manasseh, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -288,8 +294,8 @@
     "chapter": 1,
     "verse": 36,
     "content": {
-      "text": "Of the children of Benjamin, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Benjamin, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -303,8 +309,8 @@
     "chapter": 1,
     "verse": 38,
     "content": {
-      "text": "Of the children of Dan, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Dan, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -318,8 +324,8 @@
     "chapter": 1,
     "verse": 40,
     "content": {
-      "text": "Of the children of Asher, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Asher, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -333,8 +339,8 @@
     "chapter": 1,
     "verse": 42,
     "content": {
-      "text": "Of the children of Naphtali, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of the children of Naphtali, their generations, by their families, by their fathers’ houses, according to the number of the names, from twenty years old and upward, all who were able to go out to war:"
     }
   },
   {
@@ -348,8 +354,8 @@
     "chapter": 1,
     "verse": 44,
     "content": {
-      "text": "These are those who were counted, whom Moses and Aaron counted, and the twelve men who were princes of Israel, each one for his fathers’ house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are those who were counted, whom Moses and Aaron counted, and the twelve men who were princes of Israel, each one for his fathers’ house."
     }
   },
   {
@@ -411,8 +417,8 @@
     "chapter": 1,
     "verse": 54,
     "content": {
-      "text": "Thus the children of Israel did. According to all that Yahweh commanded Moses, so they did.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus the children of Israel did. According to all that Yahweh commanded Moses, so they did."
     }
   },
   {
@@ -420,8 +426,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses and to Aaron, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses and to Aaron, saying,"
     }
   },
   {
@@ -435,8 +441,8 @@
     "chapter": 2,
     "verse": 3,
     "content": {
-      "text": "“Those who encamp on the east side toward the sunrise shall be of the standard of the camp of Judah, according to their divisions. The prince of the children of Judah shall be Nahshon the son of Amminadab.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Those who encamp on the east side toward the sunrise shall be of the standard of the camp of Judah, according to their divisions. The prince of the children of Judah shall be Nahshon the son of Amminadab."
     }
   },
   {
@@ -450,8 +456,8 @@
     "chapter": 2,
     "verse": 5,
     "content": {
-      "text": "“Those who encamp next to him shall be the tribe of Issachar. The prince of the children of Issachar shall be Nethanel the son of Zuar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Those who encamp next to him shall be the tribe of Issachar. The prince of the children of Issachar shall be Nethanel the son of Zuar."
     }
   },
   {
@@ -465,8 +471,8 @@
     "chapter": 2,
     "verse": 7,
     "content": {
-      "text": "“The tribe of Zebulun: the prince of the children of Zebulun shall be Eliab the son of Helon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The tribe of Zebulun: the prince of the children of Zebulun shall be Eliab the son of Helon."
     }
   },
   {
@@ -480,8 +486,8 @@
     "chapter": 2,
     "verse": 9,
     "content": {
-      "text": "“All who were counted of the camp of Judah were one hundred eighty-six thousand four hundred, according to their divisions. They shall set out first.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“All who were counted of the camp of Judah were one hundred eighty-six thousand four hundred, according to their divisions. They shall set out first."
     }
   },
   {
@@ -489,8 +495,8 @@
     "chapter": 2,
     "verse": 10,
     "content": {
-      "text": "“On the south side shall be the standard of the camp of Reuben according to their divisions. The prince of the children of Reuben shall be Elizur the son of Shedeur.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“On the south side shall be the standard of the camp of Reuben according to their divisions. The prince of the children of Reuben shall be Elizur the son of Shedeur."
     }
   },
   {
@@ -504,8 +510,8 @@
     "chapter": 2,
     "verse": 12,
     "content": {
-      "text": "“Those who encamp next to him shall be the tribe of Simeon. The prince of the children of Simeon shall be Shelumiel the son of Zurishaddai.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Those who encamp next to him shall be the tribe of Simeon. The prince of the children of Simeon shall be Shelumiel the son of Zurishaddai."
     }
   },
   {
@@ -519,8 +525,8 @@
     "chapter": 2,
     "verse": 14,
     "content": {
-      "text": "“The tribe of Gad: the prince of the children of Gad shall be Eliasaph the son of Reuel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The tribe of Gad: the prince of the children of Gad shall be Eliasaph the son of Reuel."
     }
   },
   {
@@ -534,8 +540,8 @@
     "chapter": 2,
     "verse": 16,
     "content": {
-      "text": "“All who were counted of the camp of Reuben were one hundred fifty-one thousand four hundred fifty, according to their armies. They shall set out second.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“All who were counted of the camp of Reuben were one hundred fifty-one thousand four hundred fifty, according to their armies. They shall set out second."
     }
   },
   {
@@ -543,8 +549,8 @@
     "chapter": 2,
     "verse": 17,
     "content": {
-      "text": "“Then the Tent of Meeting shall set out, with the camp of the Levites in the middle of the camps. As they encamp, so shall they set out, every man in his place, by their standards.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Then the Tent of Meeting shall set out, with the camp of the Levites in the middle of the camps. As they encamp, so shall they set out, every man in his place, by their standards."
     }
   },
   {
@@ -552,8 +558,8 @@
     "chapter": 2,
     "verse": 18,
     "content": {
-      "text": "“On the west side shall be the standard of the camp of Ephraim according to their divisions. The prince of the children of Ephraim shall be Elishama the son of Ammihud.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“On the west side shall be the standard of the camp of Ephraim according to their divisions. The prince of the children of Ephraim shall be Elishama the son of Ammihud."
     }
   },
   {
@@ -567,8 +573,8 @@
     "chapter": 2,
     "verse": 20,
     "content": {
-      "text": "“Next to him shall be the tribe of Manasseh. The prince of the children of Manasseh shall be Gamaliel the son of Pedahzur.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Next to him shall be the tribe of Manasseh. The prince of the children of Manasseh shall be Gamaliel the son of Pedahzur."
     }
   },
   {
@@ -582,8 +588,8 @@
     "chapter": 2,
     "verse": 22,
     "content": {
-      "text": "“The tribe of Benjamin: the prince of the children of Benjamin shall be Abidan the son of Gideoni.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The tribe of Benjamin: the prince of the children of Benjamin shall be Abidan the son of Gideoni."
     }
   },
   {
@@ -597,8 +603,8 @@
     "chapter": 2,
     "verse": 24,
     "content": {
-      "text": "“All who were counted of the camp of Ephraim were one hundred eight thousand one hundred, according to their divisions. They shall set out third.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“All who were counted of the camp of Ephraim were one hundred eight thousand one hundred, according to their divisions. They shall set out third."
     }
   },
   {
@@ -606,8 +612,8 @@
     "chapter": 2,
     "verse": 25,
     "content": {
-      "text": "“On the north side shall be the standard of the camp of Dan according to their divisions. The prince of the children of Dan shall be Ahiezer the son of Ammishaddai.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“On the north side shall be the standard of the camp of Dan according to their divisions. The prince of the children of Dan shall be Ahiezer the son of Ammishaddai."
     }
   },
   {
@@ -621,8 +627,8 @@
     "chapter": 2,
     "verse": 27,
     "content": {
-      "text": "“Those who encamp next to him shall be the tribe of Asher. The prince of the children of Asher shall be Pagiel the son of Ochran.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Those who encamp next to him shall be the tribe of Asher. The prince of the children of Asher shall be Pagiel the son of Ochran."
     }
   },
   {
@@ -636,8 +642,8 @@
     "chapter": 2,
     "verse": 29,
     "content": {
-      "text": "“The tribe of Naphtali: the prince of the children of Naphtali shall be Ahira the son of Enan.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The tribe of Naphtali: the prince of the children of Naphtali shall be Ahira the son of Enan."
     }
   },
   {
@@ -651,8 +657,8 @@
     "chapter": 2,
     "verse": 31,
     "content": {
-      "text": "“All who were counted of the camp of Dan were one hundred fifty-seven thousand six hundred. They shall set out last by their standards.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“All who were counted of the camp of Dan were one hundred fifty-seven thousand six hundred. They shall set out last by their standards.”"
     }
   },
   {
@@ -660,8 +666,8 @@
     "chapter": 2,
     "verse": 32,
     "content": {
-      "text": "These are those who were counted of the children of Israel by their fathers’ houses. All who were counted of the camps according to their armies were six hundred three thousand five hundred fifty.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are those who were counted of the children of Israel by their fathers’ houses. All who were counted of the camps according to their armies were six hundred three thousand five hundred fifty."
     }
   },
   {
@@ -675,8 +681,8 @@
     "chapter": 2,
     "verse": 34,
     "content": {
-      "text": "Thus the children of Israel did. According to all that Yahweh commanded Moses, so they encamped by their standards, and so they set out, everyone by their families, according to their fathers’ houses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus the children of Israel did. According to all that Yahweh commanded Moses, so they encamped by their standards, and so they set out, everyone by their families, according to their fathers’ houses."
     }
   },
   {
@@ -684,8 +690,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Now this is the history of the generations of Aaron and Moses in the day that Yahweh spoke with Moses in Mount Sinai.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now this is the history of the generations of Aaron and Moses in the day that Yahweh spoke with Moses in Mount Sinai."
     }
   },
   {
@@ -699,8 +705,8 @@
     "chapter": 3,
     "verse": 3,
     "content": {
-      "text": "These are the names of the sons of Aaron, the priests who were anointed, whom he consecrated to minister in the priest’s office.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are the names of the sons of Aaron, the priests who were anointed, whom he consecrated to minister in the priest’s office."
     }
   },
   {
@@ -714,8 +720,8 @@
     "chapter": 3,
     "verse": 5,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -753,8 +759,8 @@
     "chapter": 3,
     "verse": 11,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -790,8 +796,8 @@
     "chapter": 3,
     "verse": 14,
     "content": {
-      "text": "Yahweh spoke to Moses in the wilderness of Sinai, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses in the wilderness of Sinai, saying,"
     }
   },
   {
@@ -805,8 +811,8 @@
     "chapter": 3,
     "verse": 16,
     "content": {
-      "text": "Moses counted them according to Yahweh’s word, as he was commanded.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses counted them according to Yahweh’s word, as he was commanded."
     }
   },
   {
@@ -814,8 +820,8 @@
     "chapter": 3,
     "verse": 17,
     "content": {
-      "text": "These were the sons of Levi by their names: Gershon, Kohath, and Merari.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These were the sons of Levi by their names: Gershon, Kohath, and Merari."
     }
   },
   {
@@ -823,8 +829,8 @@
     "chapter": 3,
     "verse": 18,
     "content": {
-      "text": "These are the names of the sons of Gershon by their families: Libni and Shimei.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are the names of the sons of Gershon by their families: Libni and Shimei."
     }
   },
   {
@@ -832,26 +838,32 @@
     "chapter": 3,
     "verse": 19,
     "content": {
-      "text": "The sons of Kohath by their families: Amram, Izhar, Hebron, and Uzziel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The sons of Kohath by their families: Amram, Izhar, Hebron, and Uzziel."
     }
   },
   {
     "book": "NUM",
     "chapter": 3,
     "verse": 20,
-    "content": {
-      "text": "The sons of Merari by their families: Mahli and Mushi. These are the families of the Levites according to their fathers’ houses.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The sons of Merari by their families: Mahli and Mushi."
+      },
+      {
+        "paragraph": true,
+        "text": "These are the families of the Levites according to their fathers’ houses."
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 3,
     "verse": 21,
     "content": {
-      "text": "Of Gershon was the family of the Libnites, and the family of the Shimeites. These are the families of the Gershonites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Gershon was the family of the Libnites, and the family of the Shimeites. These are the families of the Gershonites."
     }
   },
   {
@@ -859,8 +871,8 @@
     "chapter": 3,
     "verse": 22,
     "content": {
-      "text": "Those who were counted of them, according to the number of all the males from a month old and upward, even those who were counted of them were seven thousand five hundred.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Those who were counted of them, according to the number of all the males from a month old and upward, even those who were counted of them were seven thousand five hundred."
     }
   },
   {
@@ -868,8 +880,8 @@
     "chapter": 3,
     "verse": 23,
     "content": {
-      "text": "The families of the Gershonites shall encamp behind the tabernacle westward.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The families of the Gershonites shall encamp behind the tabernacle westward."
     }
   },
   {
@@ -877,8 +889,8 @@
     "chapter": 3,
     "verse": 24,
     "content": {
-      "text": "Eliasaph the son of Lael shall be the prince of the fathers’ house of the Gershonites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Eliasaph the son of Lael shall be the prince of the fathers’ house of the Gershonites."
     }
   },
   {
@@ -898,8 +910,8 @@
     "chapter": 3,
     "verse": 27,
     "content": {
-      "text": "Of Kohath was the family of the Amramites, the family of the Izharites, the family of the Hebronites, and the family of the Uzzielites. These are the families of the Kohathites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Kohath was the family of the Amramites, the family of the Izharites, the family of the Hebronites, and the family of the Uzzielites. These are the families of the Kohathites."
     }
   },
   {
@@ -913,8 +925,8 @@
     "chapter": 3,
     "verse": 29,
     "content": {
-      "text": "The families of the sons of Kohath shall encamp on the south side of the tabernacle.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The families of the sons of Kohath shall encamp on the south side of the tabernacle."
     }
   },
   {
@@ -940,8 +952,8 @@
     "chapter": 3,
     "verse": 33,
     "content": {
-      "text": "Of Merari was the family of the Mahlites and the family of the Mushites. These are the families of Merari.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Of Merari was the family of the Mahlites and the family of the Mushites. These are the families of Merari."
     }
   },
   {
@@ -961,8 +973,8 @@
     "chapter": 3,
     "verse": 35,
     "content": {
-      "text": "The prince of the fathers’ house of the families of Merari was Zuriel the son of Abihail. They shall encamp on the north side of the tabernacle.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The prince of the fathers’ house of the families of Merari was Zuriel the son of Abihail. They shall encamp on the north side of the tabernacle."
     }
   },
   {
@@ -982,8 +994,8 @@
     "chapter": 3,
     "verse": 38,
     "content": {
-      "text": "Those who encamp before the tabernacle eastward, in front of the Tent of Meeting toward the sunrise, shall be Moses, with Aaron and his sons, keeping the requirements of the sanctuary for the duty of the children of Israel. The outsider who comes near shall be put to death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Those who encamp before the tabernacle eastward, in front of the Tent of Meeting toward the sunrise, shall be Moses, with Aaron and his sons, keeping the requirements of the sanctuary for the duty of the children of Israel. The outsider who comes near shall be put to death."
     }
   },
   {
@@ -997,8 +1009,8 @@
     "chapter": 3,
     "verse": 40,
     "content": {
-      "text": "Yahweh said to Moses, “Count all the firstborn males of the children of Israel from a month old and upward, and take the number of their names.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Count all the firstborn males of the children of Israel from a month old and upward, and take the number of their names."
     }
   },
   {
@@ -1012,8 +1024,8 @@
     "chapter": 3,
     "verse": 42,
     "content": {
-      "text": "Moses counted, as Yahweh commanded him, all the firstborn among the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses counted, as Yahweh commanded him, all the firstborn among the children of Israel."
     }
   },
   {
@@ -1027,8 +1039,8 @@
     "chapter": 3,
     "verse": 44,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -1076,8 +1088,8 @@
     "chapter": 3,
     "verse": 49,
     "content": {
-      "text": "Moses took the redemption money from those who exceeded the number of those who were redeemed by the Levites;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses took the redemption money from those who exceeded the number of those who were redeemed by the Levites;"
     }
   },
   {
@@ -1106,8 +1118,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses and to Aaron, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses and to Aaron, saying,"
     }
   },
   {
@@ -1127,8 +1139,8 @@
     "chapter": 4,
     "verse": 4,
     "content": {
-      "text": "“This is the service of the sons of Kohath in the Tent of Meeting, regarding the most holy things.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“This is the service of the sons of Kohath in the Tent of Meeting, regarding the most holy things."
     }
   },
   {
@@ -1148,8 +1160,8 @@
     "chapter": 4,
     "verse": 7,
     "content": {
-      "text": "“On the table of show bread they shall spread a blue cloth, and put on it the dishes, the spoons, the bowls, and the cups with which to pour out; and the continual bread shall be on it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“On the table of show bread they shall spread a blue cloth, and put on it the dishes, the spoons, the bowls, and the cups with which to pour out; and the continual bread shall be on it."
     }
   },
   {
@@ -1163,8 +1175,8 @@
     "chapter": 4,
     "verse": 9,
     "content": {
-      "text": "“They shall take a blue cloth and cover the lamp stand of the light, its lamps, its snuffers, its snuff dishes, and all its oil vessels, with which they minister to it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“They shall take a blue cloth and cover the lamp stand of the light, its lamps, its snuffers, its snuff dishes, and all its oil vessels, with which they minister to it."
     }
   },
   {
@@ -1178,8 +1190,8 @@
     "chapter": 4,
     "verse": 11,
     "content": {
-      "text": "“On the golden altar they shall spread a blue cloth, and cover it with a covering of sealskin, and shall put in its poles.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“On the golden altar they shall spread a blue cloth, and cover it with a covering of sealskin, and shall put in its poles."
     }
   },
   {
@@ -1187,8 +1199,8 @@
     "chapter": 4,
     "verse": 12,
     "content": {
-      "text": "“They shall take all the vessels of ministry with which they minister in the sanctuary, and put them in a blue cloth, cover them with a covering of sealskin, and shall put them on the frame.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“They shall take all the vessels of ministry with which they minister in the sanctuary, and put them in a blue cloth, cover them with a covering of sealskin, and shall put them on the frame."
     }
   },
   {
@@ -1196,8 +1208,8 @@
     "chapter": 4,
     "verse": 13,
     "content": {
-      "text": "“They shall take away the ashes from the altar, and spread a purple cloth on it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“They shall take away the ashes from the altar, and spread a purple cloth on it."
     }
   },
   {
@@ -1211,8 +1223,8 @@
     "chapter": 4,
     "verse": 15,
     "content": {
-      "text": "“When Aaron and his sons have finished covering the sanctuary and all the furniture of the sanctuary, as the camp moves forward; after that, the sons of Kohath shall come to carry it; but they shall not touch the sanctuary, lest they die. The sons of Kohath shall carry these things belonging to the Tent of Meeting.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“When Aaron and his sons have finished covering the sanctuary and all the furniture of the sanctuary, as the camp moves forward; after that, the sons of Kohath shall come to carry it; but they shall not touch the sanctuary, lest they die. The sons of Kohath shall carry these things belonging to the Tent of Meeting."
     }
   },
   {
@@ -1220,8 +1232,8 @@
     "chapter": 4,
     "verse": 16,
     "content": {
-      "text": "“The duty of Eleazar the son of Aaron the priest shall be the oil for the light, the sweet incense, the continual meal offering, and the anointing oil, the requirements of all the tabernacle, and of all that is in it, the sanctuary, and its furnishings.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The duty of Eleazar the son of Aaron the priest shall be the oil for the light, the sweet incense, the continual meal offering, and the anointing oil, the requirements of all the tabernacle, and of all that is in it, the sanctuary, and its furnishings.”"
     }
   },
   {
@@ -1229,8 +1241,8 @@
     "chapter": 4,
     "verse": 17,
     "content": {
-      "text": "Yahweh spoke to Moses and to Aaron, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses and to Aaron, saying,"
     }
   },
   {
@@ -1256,8 +1268,8 @@
     "chapter": 4,
     "verse": 21,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -1277,8 +1289,8 @@
     "chapter": 4,
     "verse": 24,
     "content": {
-      "text": "“This is the service of the families of the Gershonites, in serving and in bearing burdens:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“This is the service of the families of the Gershonites, in serving and in bearing burdens:"
     }
   },
   {
@@ -1310,8 +1322,8 @@
     "chapter": 4,
     "verse": 29,
     "content": {
-      "text": "“As for the sons of Merari, you shall count them by their families, by their fathers’ houses;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“As for the sons of Merari, you shall count them by their families, by their fathers’ houses;"
     }
   },
   {
@@ -1343,8 +1355,8 @@
     "chapter": 4,
     "verse": 34,
     "content": {
-      "text": "Moses and Aaron and the princes of the congregation counted the sons of the Kohathites by their families, and by their fathers’ houses,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron and the princes of the congregation counted the sons of the Kohathites by their families, and by their fathers’ houses,"
     }
   },
   {
@@ -1370,8 +1382,8 @@
     "chapter": 4,
     "verse": 38,
     "content": {
-      "text": "Those who were counted of the sons of Gershon, by their families, and by their fathers’ houses,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Those who were counted of the sons of Gershon, by their families, and by their fathers’ houses,"
     }
   },
   {
@@ -1397,8 +1409,8 @@
     "chapter": 4,
     "verse": 42,
     "content": {
-      "text": "Those who were counted of the families of the sons of Merari, by their families, by their fathers’ houses,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Those who were counted of the families of the sons of Merari, by their families, by their fathers’ houses,"
     }
   },
   {
@@ -1424,8 +1436,8 @@
     "chapter": 4,
     "verse": 46,
     "content": {
-      "text": "All those who were counted of the Levites whom Moses and Aaron and the princes of Israel counted, by their families and by their fathers’ houses,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All those who were counted of the Levites whom Moses and Aaron and the princes of Israel counted, by their families and by their fathers’ houses,"
     }
   },
   {
@@ -1451,8 +1463,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -1472,8 +1484,8 @@
     "chapter": 5,
     "verse": 4,
     "content": {
-      "text": "The children of Israel did so, and put them outside of the camp; as Yahweh spoke to Moses, so the children of Israel did.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel did so, and put them outside of the camp; as Yahweh spoke to Moses, so the children of Israel did."
     }
   },
   {
@@ -1481,8 +1493,8 @@
     "chapter": 5,
     "verse": 5,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -1520,8 +1532,8 @@
     "chapter": 5,
     "verse": 11,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -1604,8 +1616,8 @@
     "chapter": 5,
     "verse": 23,
     "content": {
-      "text": "“ ‘The priest shall write these curses in a book, and he shall wipe them into the water of bitterness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘The priest shall write these curses in a book, and he shall wipe them into the water of bitterness."
     }
   },
   {
@@ -1649,8 +1661,8 @@
     "chapter": 5,
     "verse": 29,
     "content": {
-      "text": "“ ‘This is the law of jealousy, when a wife, being under her husband, goes astray, and is defiled,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘This is the law of jealousy, when a wife, being under her husband, goes astray, and is defiled,"
     }
   },
   {
@@ -1670,8 +1682,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -1697,8 +1709,8 @@
     "chapter": 6,
     "verse": 5,
     "content": {
-      "text": "“ ‘All the days of his vow of separation no razor shall come on his head, until the days are fulfilled in which he separates himself to Yahweh. He shall be holy. He shall let the locks of the hair of his head grow long.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘All the days of his vow of separation no razor shall come on his head, until the days are fulfilled in which he separates himself to Yahweh. He shall be holy. He shall let the locks of the hair of his head grow long."
     }
   },
   {
@@ -1706,8 +1718,8 @@
     "chapter": 6,
     "verse": 6,
     "content": {
-      "text": "“ ‘All the days that he separates himself to Yahweh he shall not go near a dead body.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘All the days that he separates himself to Yahweh he shall not go near a dead body."
     }
   },
   {
@@ -1743,8 +1755,8 @@
     "chapter": 6,
     "verse": 9,
     "content": {
-      "text": "“ ‘If any man dies very suddenly beside him, and he defiles the head of his separation, then he shall shave his head in the day of his cleansing. On the seventh day he shall shave it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘If any man dies very suddenly beside him, and he defiles the head of his separation, then he shall shave his head in the day of his cleansing. On the seventh day he shall shave it."
     }
   },
   {
@@ -1770,8 +1782,8 @@
     "chapter": 6,
     "verse": 13,
     "content": {
-      "text": "“ ‘This is the law of the Nazirite: when the days of his separation are fulfilled, he shall be brought to the door of the Tent of Meeting,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘This is the law of the Nazirite: when the days of his separation are fulfilled, he shall be brought to the door of the Tent of Meeting,"
     }
   },
   {
@@ -1821,8 +1833,8 @@
     "chapter": 6,
     "verse": 21,
     "content": {
-      "text": "“ ‘This is the law of the Nazirite who vows and of his offering to Yahweh for his separation, in addition to that which he is able to afford. According to his vow which he vows, so he must do after the law of his separation.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘This is the law of the Nazirite who vows and of his offering to Yahweh for his separation, in addition to that which he is able to afford. According to his vow which he vows, so he must do after the law of his separation.’ ”"
     }
   },
   {
@@ -1830,8 +1842,8 @@
     "chapter": 6,
     "verse": 22,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -1884,8 +1896,8 @@
     "chapter": 6,
     "verse": 27,
     "content": {
-      "text": "“So they shall put my name on the children of Israel; and I will bless them.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“So they shall put my name on the children of Israel; and I will bless them.”"
     }
   },
   {
@@ -1893,8 +1905,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "On the day that Moses had finished setting up the tabernacle, and had anointed it and sanctified it with all its furniture, and the altar with all its vessels, and had anointed and sanctified them;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the day that Moses had finished setting up the tabernacle, and had anointed it and sanctified it with all its furniture, and the altar with all its vessels, and had anointed and sanctified them;"
     }
   },
   {
@@ -1926,8 +1938,8 @@
     "chapter": 7,
     "verse": 6,
     "content": {
-      "text": "Moses took the wagons and the oxen, and gave them to the Levites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses took the wagons and the oxen, and gave them to the Levites."
     }
   },
   {
@@ -1953,8 +1965,8 @@
     "chapter": 7,
     "verse": 10,
     "content": {
-      "text": "The princes gave offerings for the dedication of the altar in the day that it was anointed. The princes gave their offerings before the altar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The princes gave offerings for the dedication of the altar in the day that it was anointed. The princes gave their offerings before the altar."
     }
   },
   {
@@ -1962,8 +1974,8 @@
     "chapter": 7,
     "verse": 11,
     "content": {
-      "text": "Yahweh said to Moses, “They shall offer their offering, each prince on his day, for the dedication of the altar.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “They shall offer their offering, each prince on his day, for the dedication of the altar.”"
     }
   },
   {
@@ -1971,8 +1983,8 @@
     "chapter": 7,
     "verse": 12,
     "content": {
-      "text": "He who offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He who offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah,"
     }
   },
   {
@@ -1981,13 +1993,24 @@
     "verse": 13,
     "content": [
       {
-        "text": "and his offering was: one silver platter, the weight of which was one hundred thirty shekels,",
+        "text": "and his offering was:",
         "foot": {
           "type": "stu",
           "content": "A shekel is about 10 grams or about 0.35 ounces."
         }
       },
-      " one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,",
+        "foot": {
+          "type": "stu",
+          "content": "A shekel is about 10 grams or about 0.35 ounces."
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
     ]
   },
   {
@@ -1995,26 +2018,36 @@
     "chapter": 7,
     "verse": 14,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 15,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 16,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2022,8 +2055,8 @@
     "chapter": 7,
     "verse": 17,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Nahshon the son of Amminadab.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Nahshon the son of Amminadab."
     }
   },
   {
@@ -2031,41 +2064,61 @@
     "chapter": 7,
     "verse": 18,
     "content": {
-      "text": "On the second day Nethanel the son of Zuar, prince of Issachar, gave his offering.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the second day Nethanel the son of Zuar, prince of Issachar, gave his offering."
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 19,
-    "content": "He offered for his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "He offered for his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 20,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 21,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 22,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2073,8 +2126,8 @@
     "chapter": 7,
     "verse": 23,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, five male lambs a year old. This was the offering of Nethanel the son of Zuar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, five male lambs a year old. This was the offering of Nethanel the son of Zuar."
     }
   },
   {
@@ -2082,41 +2135,61 @@
     "chapter": 7,
     "verse": 24,
     "content": {
-      "text": "On the third day Eliab the son of Helon, prince of the children of Zebulun,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the third day Eliab the son of Helon, prince of the children of Zebulun,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 25,
-    "content": "gave his offering: one silver platter, the weight of which was a hundred and thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was a hundred and thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 26,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 27,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 28,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2124,8 +2197,8 @@
     "chapter": 7,
     "verse": 29,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliab the son of Helon.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliab the son of Helon."
     }
   },
   {
@@ -2133,41 +2206,61 @@
     "chapter": 7,
     "verse": 30,
     "content": {
-      "text": "On the fourth day Elizur the son of Shedeur, prince of the children of Reuben,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the fourth day Elizur the son of Shedeur, prince of the children of Reuben,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 31,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 32,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 33,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 34,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2175,8 +2268,8 @@
     "chapter": 7,
     "verse": 35,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elizur the son of Shedeur.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elizur the son of Shedeur."
     }
   },
   {
@@ -2184,41 +2277,61 @@
     "chapter": 7,
     "verse": 36,
     "content": {
-      "text": "On the fifth day Shelumiel the son of Zurishaddai, prince of the children of Simeon,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the fifth day Shelumiel the son of Zurishaddai, prince of the children of Simeon,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 37,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 38,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 39,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 40,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2226,8 +2339,8 @@
     "chapter": 7,
     "verse": 41,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old: this was the offering of Shelumiel the son of Zurishaddai.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old: this was the offering of Shelumiel the son of Zurishaddai."
     }
   },
   {
@@ -2235,41 +2348,61 @@
     "chapter": 7,
     "verse": 42,
     "content": {
-      "text": "On the sixth day, Eliasaph the son of Deuel, prince of the children of Gad,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the sixth day, Eliasaph the son of Deuel, prince of the children of Gad,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 43,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 44,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 45,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 46,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2277,8 +2410,8 @@
     "chapter": 7,
     "verse": 47,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliasaph the son of Deuel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliasaph the son of Deuel."
     }
   },
   {
@@ -2286,41 +2419,61 @@
     "chapter": 7,
     "verse": 48,
     "content": {
-      "text": "On the seventh day Elishama the son of Ammihud, prince of the children of Ephraim,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the seventh day Elishama the son of Ammihud, prince of the children of Ephraim,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 49,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 50,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 51,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 52,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2328,8 +2481,8 @@
     "chapter": 7,
     "verse": 53,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elishama the son of Ammihud.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elishama the son of Ammihud."
     }
   },
   {
@@ -2337,41 +2490,61 @@
     "chapter": 7,
     "verse": 54,
     "content": {
-      "text": "On the eighth day Gamaliel the son of Pedahzur, prince of the children of Manasseh,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the eighth day Gamaliel the son of Pedahzur, prince of the children of Manasseh,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 55,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 56,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 57,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 58,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2379,8 +2552,8 @@
     "chapter": 7,
     "verse": 59,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Gamaliel the son of Pedahzur.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Gamaliel the son of Pedahzur."
     }
   },
   {
@@ -2388,41 +2561,61 @@
     "chapter": 7,
     "verse": 60,
     "content": {
-      "text": "On the ninth day Abidan the son of Gideoni, prince of the children of Benjamin,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the ninth day Abidan the son of Gideoni, prince of the children of Benjamin,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 61,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 62,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 63,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 64,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2430,8 +2623,8 @@
     "chapter": 7,
     "verse": 65,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Abidan the son of Gideoni.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Abidan the son of Gideoni."
     }
   },
   {
@@ -2439,41 +2632,61 @@
     "chapter": 7,
     "verse": 66,
     "content": {
-      "text": "On the tenth day Ahiezer the son of Ammishaddai, prince of the children of Dan,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the tenth day Ahiezer the son of Ammishaddai, prince of the children of Dan,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 67,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 68,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 69,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 70,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2481,8 +2694,8 @@
     "chapter": 7,
     "verse": 71,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahiezer the son of Ammishaddai.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahiezer the son of Ammishaddai."
     }
   },
   {
@@ -2490,41 +2703,61 @@
     "chapter": 7,
     "verse": 72,
     "content": {
-      "text": "On the eleventh day Pagiel the son of Ochran, prince of the children of Asher,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the eleventh day Pagiel the son of Ochran, prince of the children of Asher,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 73,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 74,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 75,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 76,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2532,8 +2765,8 @@
     "chapter": 7,
     "verse": 77,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Pagiel the son of Ochran.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Pagiel the son of Ochran."
     }
   },
   {
@@ -2541,41 +2774,61 @@
     "chapter": 7,
     "verse": 78,
     "content": {
-      "text": "On the twelfth day Ahira the son of Enan, prince of the children of Naphtali,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the twelfth day Ahira the son of Enan, prince of the children of Naphtali,"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 79,
-    "content": "gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+    "content": [
+      "gave his offering:",
+      {
+        "paragraph": true,
+        "text": "one silver platter, the weight of which was one hundred thirty shekels,"
+      },
+      {
+        "paragraph": true,
+        "text": "one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 80,
     "content": {
-      "text": "one golden ladle of ten shekels, full of incense;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one golden ladle of ten shekels, full of incense;"
     }
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 81,
-    "content": {
-      "text": "one young bull, one ram, one male lamb a year old, for a burnt offering;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "one young bull,"
+      },
+      {
+        "paragraph": true,
+        "text": "one ram,"
+      },
+      {
+        "paragraph": true,
+        "text": "one male lamb a year old, for a burnt offering;"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 7,
     "verse": 82,
     "content": {
-      "text": "one male goat for a sin offering;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "one male goat for a sin offering;"
     }
   },
   {
@@ -2583,8 +2836,8 @@
     "chapter": 7,
     "verse": 83,
     "content": {
-      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahira the son of Enan.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahira the son of Enan."
     }
   },
   {
@@ -2592,8 +2845,8 @@
     "chapter": 7,
     "verse": 84,
     "content": {
-      "text": "This was the dedication offering of the altar, on the day when it was anointed, by the princes of Israel: twelve silver platters, twelve silver bowls, twelve golden ladles;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This was the dedication offering of the altar, on the day when it was anointed, by the princes of Israel: twelve silver platters, twelve silver bowls, twelve golden ladles;"
     }
   },
   {
@@ -2625,8 +2878,8 @@
     "chapter": 7,
     "verse": 89,
     "content": {
-      "text": "When Moses went into the Tent of Meeting to speak with Yahweh, he heard his voice speaking to him from above the mercy seat that was on the ark of the Testimony, from between the two cherubim; and he spoke to him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Moses went into the Tent of Meeting to speak with Yahweh, he heard his voice speaking to him from above the mercy seat that was on the ark of the Testimony, from between the two cherubim; and he spoke to him."
     }
   },
   {
@@ -2634,8 +2887,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -2649,8 +2902,8 @@
     "chapter": 8,
     "verse": 3,
     "content": {
-      "text": "Aaron did so. He lit its lamps to light the area in front of the lamp stand, as Yahweh commanded Moses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Aaron did so. He lit its lamps to light the area in front of the lamp stand, as Yahweh commanded Moses."
     }
   },
   {
@@ -2664,8 +2917,8 @@
     "chapter": 8,
     "verse": 5,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -2709,8 +2962,8 @@
     "chapter": 8,
     "verse": 12,
     "content": {
-      "text": "“The Levites shall lay their hands on the heads of the bulls, and you shall offer the one for a sin offering and the other for a burnt offering to Yahweh, to make atonement for the Levites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The Levites shall lay their hands on the heads of the bulls, and you shall offer the one for a sin offering and the other for a burnt offering to Yahweh, to make atonement for the Levites."
     }
   },
   {
@@ -2730,8 +2983,8 @@
     "chapter": 8,
     "verse": 15,
     "content": {
-      "text": "“After that, the Levites shall go in to do the service of the Tent of Meeting. You shall cleanse them, and offer them as a wave offering.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“After that, the Levites shall go in to do the service of the Tent of Meeting. You shall cleanse them, and offer them as a wave offering."
     }
   },
   {
@@ -2763,8 +3016,8 @@
     "chapter": 8,
     "verse": 20,
     "content": {
-      "text": "Moses, and Aaron, and all the congregation of the children of Israel did so to the Levites. According to all that Yahweh commanded Moses concerning the Levites, so the children of Israel did to them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses, and Aaron, and all the congregation of the children of Israel did so to the Levites. According to all that Yahweh commanded Moses concerning the Levites, so the children of Israel did to them."
     }
   },
   {
@@ -2784,8 +3037,8 @@
     "chapter": 8,
     "verse": 23,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -2811,8 +3064,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses in the wilderness of Sinai, in the first month of the second year after they had come out of the land of Egypt, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses in the wilderness of Sinai, in the first month of the second year after they had come out of the land of Egypt, saying,"
     }
   },
   {
@@ -2832,8 +3085,8 @@
     "chapter": 9,
     "verse": 4,
     "content": {
-      "text": "Moses told the children of Israel that they should keep the Passover.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses told the children of Israel that they should keep the Passover."
     }
   },
   {
@@ -2859,8 +3112,8 @@
     "chapter": 9,
     "verse": 8,
     "content": {
-      "text": "Moses answered them, “Wait, that I may hear what Yahweh will command concerning you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses answered them, “Wait, that I may hear what Yahweh will command concerning you.”"
     }
   },
   {
@@ -2868,8 +3121,8 @@
     "chapter": 9,
     "verse": 9,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -2901,8 +3154,8 @@
     "chapter": 9,
     "verse": 14,
     "content": {
-      "text": "“ ‘If a foreigner lives among you and desires to keep the Passover to Yahweh, then he shall do so according to the statute of the Passover, and according to its ordinance. You shall have one statute, both for the foreigner and for him who is born in the land.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘If a foreigner lives among you and desires to keep the Passover to Yahweh, then he shall do so according to the statute of the Passover, and according to its ordinance. You shall have one statute, both for the foreigner and for him who is born in the land.’ ”"
     }
   },
   {
@@ -2910,8 +3163,8 @@
     "chapter": 9,
     "verse": 15,
     "content": {
-      "text": "On the day that the tabernacle was raised up, the cloud covered the tabernacle, even the Tent of the Testimony. At evening it was over the tabernacle, as it were the appearance of fire, until morning.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the day that the tabernacle was raised up, the cloud covered the tabernacle, even the Tent of the Testimony. At evening it was over the tabernacle, as it were the appearance of fire, until morning."
     }
   },
   {
@@ -2967,8 +3220,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -3012,8 +3265,8 @@
     "chapter": 10,
     "verse": 8,
     "content": {
-      "text": "“The sons of Aaron, the priests, shall blow the trumpets. This shall be to you for a statute forever throughout your generations.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The sons of Aaron, the priests, shall blow the trumpets. This shall be to you for a statute forever throughout your generations."
     }
   },
   {
@@ -3027,8 +3280,8 @@
     "chapter": 10,
     "verse": 10,
     "content": {
-      "text": "“Also in the day of your gladness, and in your set feasts, and in the beginnings of your months, you shall blow the trumpets over your burnt offerings, and over the sacrifices of your peace offerings; and they shall be to you for a memorial before your God. I am Yahweh your God.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Also in the day of your gladness, and in your set feasts, and in the beginnings of your months, you shall blow the trumpets over your burnt offerings, and over the sacrifices of your peace offerings; and they shall be to you for a memorial before your God. I am Yahweh your God.”"
     }
   },
   {
@@ -3036,8 +3289,8 @@
     "chapter": 10,
     "verse": 11,
     "content": {
-      "text": "In the second year, in the second month, on the twentieth day of the month, the cloud was taken up from over the tabernacle of the covenant.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the second year, in the second month, on the twentieth day of the month, the cloud was taken up from over the tabernacle of the covenant."
     }
   },
   {
@@ -3057,8 +3310,8 @@
     "chapter": 10,
     "verse": 14,
     "content": {
-      "text": "First, the standard of the camp of the children of Judah went forward according to their armies. Nahshon the son of Amminadab was over his army.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "First, the standard of the camp of the children of Judah went forward according to their armies. Nahshon the son of Amminadab was over his army."
     }
   },
   {
@@ -3102,8 +3355,8 @@
     "chapter": 10,
     "verse": 21,
     "content": {
-      "text": "The Kohathites set forward, bearing the sanctuary. The others set up the tabernacle before they arrived.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Kohathites set forward, bearing the sanctuary. The others set up the tabernacle before they arrived."
     }
   },
   {
@@ -3111,8 +3364,8 @@
     "chapter": 10,
     "verse": 22,
     "content": {
-      "text": "The standard of the camp of the children of Ephraim set forward according to their armies. Elishama the son of Ammihud was over his army.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The standard of the camp of the children of Ephraim set forward according to their armies. Elishama the son of Ammihud was over his army."
     }
   },
   {
@@ -3132,8 +3385,8 @@
     "chapter": 10,
     "verse": 25,
     "content": {
-      "text": "The standard of the camp of the children of Dan, which was the rear guard of all the camps, set forward according to their armies. Ahiezer the son of Ammishaddai was over his army.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The standard of the camp of the children of Dan, which was the rear guard of all the camps, set forward according to their armies. Ahiezer the son of Ammishaddai was over his army."
     }
   },
   {
@@ -3159,8 +3412,8 @@
     "chapter": 10,
     "verse": 29,
     "content": {
-      "text": "Moses said to Hobab, the son of Reuel the Midianite, Moses’ father-in-law, “We are journeying to the place of which Yahweh said, ‘I will give it to you.’ Come with us, and we will treat you well; for Yahweh has spoken good concerning Israel.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Hobab, the son of Reuel the Midianite, Moses’ father-in-law, “We are journeying to the place of which Yahweh said, ‘I will give it to you.’ Come with us, and we will treat you well; for Yahweh has spoken good concerning Israel.”"
     }
   },
   {
@@ -3168,8 +3421,8 @@
     "chapter": 10,
     "verse": 30,
     "content": {
-      "text": "He said to him, “I will not go; but I will depart to my own land, and to my relatives.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to him, “I will not go; but I will depart to my own land, and to my relatives.”"
     }
   },
   {
@@ -3177,8 +3430,8 @@
     "chapter": 10,
     "verse": 31,
     "content": {
-      "text": "Moses said, “Don’t leave us, please; because you know how we are to encamp in the wilderness, and you can be our eyes.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “Don’t leave us, please; because you know how we are to encamp in the wilderness, and you can be our eyes."
     }
   },
   {
@@ -3192,8 +3445,8 @@
     "chapter": 10,
     "verse": 33,
     "content": {
-      "text": "They set forward from the Mount of Yahweh three days’ journey. The ark of Yahweh’s covenant went before them three days’ journey, to seek out a resting place for them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They set forward from the Mount of Yahweh three days’ journey. The ark of Yahweh’s covenant went before them three days’ journey, to seek out a resting place for them."
     }
   },
   {
@@ -3219,8 +3472,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "The people were complaining in the ears of Yahweh. When Yahweh heard it, his anger burned; and Yahweh’s fire burned among them, and consumed some of the outskirts of the camp.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The people were complaining in the ears of Yahweh. When Yahweh heard it, his anger burned; and Yahweh’s fire burned among them, and consumed some of the outskirts of the camp."
     }
   },
   {
@@ -3249,8 +3502,8 @@
     "chapter": 11,
     "verse": 4,
     "content": {
-      "text": "The mixed multitude that was among them lusted exceedingly; and the children of Israel also wept again, and said, “Who will give us meat to eat?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The mixed multitude that was among them lusted exceedingly; and the children of Israel also wept again, and said, “Who will give us meat to eat?"
     }
   },
   {
@@ -3294,8 +3547,8 @@
     "chapter": 11,
     "verse": 10,
     "content": {
-      "text": "Moses heard the people weeping throughout their families, every man at the door of his tent; and Yahweh’s anger burned greatly; and Moses was displeased.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses heard the people weeping throughout their families, every man at the door of his tent; and Yahweh’s anger burned greatly; and Moses was displeased."
     }
   },
   {
@@ -3333,8 +3586,8 @@
     "chapter": 11,
     "verse": 16,
     "content": {
-      "text": "Yahweh said to Moses, “Gather to me seventy men of the elders of Israel, whom you know to be the elders of the people and officers over them; and bring them to the Tent of Meeting, that they may stand there with you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Gather to me seventy men of the elders of Israel, whom you know to be the elders of the people and officers over them; and bring them to the Tent of Meeting, that they may stand there with you."
     }
   },
   {
@@ -3348,8 +3601,8 @@
     "chapter": 11,
     "verse": 18,
     "content": {
-      "text": "“Say to the people, ‘Sanctify yourselves in preparation for tomorrow, and you will eat meat; for you have wept in the ears of Yahweh, saying, “Who will give us meat to eat? For it was well with us in Egypt.” Therefore Yahweh will give you meat, and you will eat.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Say to the people, ‘Sanctify yourselves in preparation for tomorrow, and you will eat meat; for you have wept in the ears of Yahweh, saying, “Who will give us meat to eat? For it was well with us in Egypt.” Therefore Yahweh will give you meat, and you will eat."
     }
   },
   {
@@ -3369,8 +3622,8 @@
     "chapter": 11,
     "verse": 21,
     "content": {
-      "text": "Moses said, “The people, among whom I am, are six hundred thousand men on foot; and you have said, ‘I will give them meat, that they may eat a whole month.’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “The people, among whom I am, are six hundred thousand men on foot; and you have said, ‘I will give them meat, that they may eat a whole month.’"
     }
   },
   {
@@ -3384,8 +3637,8 @@
     "chapter": 11,
     "verse": 23,
     "content": {
-      "text": "Yahweh said to Moses, “Has Yahweh’s hand grown short? Now you will see whether my word will happen to you or not.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Has Yahweh’s hand grown short? Now you will see whether my word will happen to you or not.”"
     }
   },
   {
@@ -3393,8 +3646,8 @@
     "chapter": 11,
     "verse": 24,
     "content": {
-      "text": "Moses went out, and told the people Yahweh’s words; and he gathered seventy men of the elders of the people, and set them around the Tent.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses went out, and told the people Yahweh’s words; and he gathered seventy men of the elders of the people, and set them around the Tent."
     }
   },
   {
@@ -3420,8 +3673,8 @@
     "chapter": 11,
     "verse": 28,
     "content": {
-      "text": "Joshua the son of Nun, the servant of Moses, one of his chosen men, answered, “My lord Moses, forbid them!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Joshua the son of Nun, the servant of Moses, one of his chosen men, answered, “My lord Moses, forbid them!”"
     }
   },
   {
@@ -3429,8 +3682,8 @@
     "chapter": 11,
     "verse": 29,
     "content": {
-      "text": "Moses said to him, “Are you jealous for my sake? I wish that all Yahweh’s people were prophets, that Yahweh would put his Spirit on them!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to him, “Are you jealous for my sake? I wish that all Yahweh’s people were prophets, that Yahweh would put his Spirit on them!”"
     }
   },
   {
@@ -3438,8 +3691,8 @@
     "chapter": 11,
     "verse": 30,
     "content": {
-      "text": "Moses went into the camp, he and the elders of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses went into the camp, he and the elders of Israel."
     }
   },
   {
@@ -3498,8 +3751,8 @@
     "chapter": 11,
     "verse": 35,
     "content": {
-      "text": "From Kibroth Hattaavah the people traveled to Hazeroth; and they stayed at Hazeroth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "From Kibroth Hattaavah the people traveled to Hazeroth; and they stayed at Hazeroth."
     }
   },
   {
@@ -3507,8 +3760,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "Miriam and Aaron spoke against Moses because of the Cushite woman whom he had married; for he had married a Cushite woman.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Miriam and Aaron spoke against Moses because of the Cushite woman whom he had married; for he had married a Cushite woman."
     }
   },
   {
@@ -3522,15 +3775,21 @@
     "chapter": 12,
     "verse": 3,
     "content": {
-      "text": "Now the man Moses was very humble, more than all the men who were on the surface of the earth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the man Moses was very humble, more than all the men who were on the surface of the earth."
     }
   },
   {
     "book": "NUM",
     "chapter": 12,
     "verse": 4,
-    "content": "Yahweh spoke suddenly to Moses, to Aaron, and to Miriam, “You three come out to the Tent of Meeting!” The three of them came out."
+    "content": [
+      "Yahweh spoke suddenly to Moses, to Aaron, and to Miriam, “You three come out to the Tent of Meeting!”",
+      {
+        "paragraph": true,
+        "text": "The three of them came out."
+      }
+    ]
   },
   {
     "book": "NUM",
@@ -3567,8 +3826,8 @@
     "chapter": 12,
     "verse": 10,
     "content": {
-      "text": "The cloud departed from over the Tent; and behold, Miriam was leprous, as white as snow. Aaron looked at Miriam, and behold, she was leprous.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The cloud departed from over the Tent; and behold, Miriam was leprous, as white as snow. Aaron looked at Miriam, and behold, she was leprous."
     }
   },
   {
@@ -3576,8 +3835,8 @@
     "chapter": 12,
     "verse": 11,
     "content": {
-      "text": "Aaron said to Moses, “Oh, my lord, please don’t count this sin against us, in which we have done foolishly, and in which we have sinned.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Aaron said to Moses, “Oh, my lord, please don’t count this sin against us, in which we have done foolishly, and in which we have sinned."
     }
   },
   {
@@ -3591,8 +3850,8 @@
     "chapter": 12,
     "verse": 13,
     "content": {
-      "text": "Moses cried to Yahweh, saying, “Heal her, God, I beg you!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses cried to Yahweh, saying, “Heal her, God, I beg you!”"
     }
   },
   {
@@ -3600,8 +3859,8 @@
     "chapter": 12,
     "verse": 14,
     "content": {
-      "text": "Yahweh said to Moses, “If her father had but spit in her face, shouldn’t she be ashamed seven days? Let her be shut up outside of the camp seven days, and after that she shall be brought in again.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “If her father had but spit in her face, shouldn’t she be ashamed seven days? Let her be shut up outside of the camp seven days, and after that she shall be brought in again.”"
     }
   },
   {
@@ -3609,8 +3868,8 @@
     "chapter": 12,
     "verse": 15,
     "content": {
-      "text": "Miriam was shut up outside of the camp seven days, and the people didn’t travel until Miriam was brought in again.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Miriam was shut up outside of the camp seven days, and the people didn’t travel until Miriam was brought in again."
     }
   },
   {
@@ -3624,8 +3883,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -3639,8 +3898,8 @@
     "chapter": 13,
     "verse": 3,
     "content": {
-      "text": "Moses sent them from the wilderness of Paran according to the commandment of Yahweh. All of them were men who were heads of the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses sent them from the wilderness of Paran according to the commandment of Yahweh. All of them were men who were heads of the children of Israel."
     }
   },
   {
@@ -3750,8 +4009,8 @@
     "chapter": 13,
     "verse": 21,
     "content": {
-      "text": "So they went up, and spied out the land from the wilderness of Zin to Rehob, to the entrance of Hamath.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So they went up, and spied out the land from the wilderness of Zin to Rehob, to the entrance of Hamath."
     }
   },
   {
@@ -3807,8 +4066,8 @@
     "chapter": 13,
     "verse": 30,
     "content": {
-      "text": "Caleb stilled the people before Moses, and said, “Let’s go up at once, and possess it; for we are well able to overcome it!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Caleb stilled the people before Moses, and said, “Let’s go up at once, and possess it; for we are well able to overcome it!”"
     }
   },
   {
@@ -3816,8 +4075,8 @@
     "chapter": 13,
     "verse": 31,
     "content": {
-      "text": "But the men who went up with him said, “We aren’t able to go up against the people; for they are stronger than we.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But the men who went up with him said, “We aren’t able to go up against the people; for they are stronger than we.”"
     }
   },
   {
@@ -3853,8 +4112,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "All the congregation lifted up their voice, and cried; and the people wept that night.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the congregation lifted up their voice, and cried; and the people wept that night."
     }
   },
   {
@@ -3880,8 +4139,8 @@
     "chapter": 14,
     "verse": 5,
     "content": {
-      "text": "Then Moses and Aaron fell on their faces before all the assembly of the congregation of the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Moses and Aaron fell on their faces before all the assembly of the congregation of the children of Israel."
     }
   },
   {
@@ -3889,8 +4148,8 @@
     "chapter": 14,
     "verse": 6,
     "content": {
-      "text": "Joshua the son of Nun and Caleb the son of Jephunneh, who were of those who spied out the land, tore their clothes.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Joshua the son of Nun and Caleb the son of Jephunneh, who were of those who spied out the land, tore their clothes."
     }
   },
   {
@@ -3915,10 +4174,16 @@
     "book": "NUM",
     "chapter": 14,
     "verse": 10,
-    "content": {
-      "text": "But all the congregation threatened to stone them with stones. Yahweh’s glory appeared in the Tent of Meeting to all the children of Israel.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But all the congregation threatened to stone them with stones."
+      },
+      {
+        "paragraph": true,
+        "text": "Yahweh’s glory appeared in the Tent of Meeting to all the children of Israel."
+      }
+    ]
   },
   {
     "book": "NUM",
@@ -3937,8 +4202,8 @@
     "chapter": 14,
     "verse": 13,
     "content": {
-      "text": "Moses said to Yahweh, “Then the Egyptians will hear it; for you brought up this people in your might from among them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Yahweh, “Then the Egyptians will hear it; for you brought up this people in your might from among them."
     }
   },
   {
@@ -3991,8 +4256,8 @@
     "chapter": 14,
     "verse": 20,
     "content": {
-      "text": "Yahweh said, “I have pardoned according to your word;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said, “I have pardoned according to your word;"
     }
   },
   {
@@ -4090,8 +4355,8 @@
     "chapter": 14,
     "verse": 36,
     "content": {
-      "text": "The men whom Moses sent to spy out the land, who returned and made all the congregation to murmur against him by bringing up an evil report against the land,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The men whom Moses sent to spy out the land, who returned and made all the congregation to murmur against him by bringing up an evil report against the land,"
     }
   },
   {
@@ -4111,8 +4376,8 @@
     "chapter": 14,
     "verse": 39,
     "content": {
-      "text": "Moses told these words to all the children of Israel, and the people mourned greatly.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses told these words to all the children of Israel, and the people mourned greatly."
     }
   },
   {
@@ -4126,8 +4391,8 @@
     "chapter": 14,
     "verse": 41,
     "content": {
-      "text": "Moses said, “Why now do you disobey the commandment of Yahweh, since it shall not prosper?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “Why now do you disobey the commandment of Yahweh, since it shall not prosper?"
     }
   },
   {
@@ -4147,8 +4412,8 @@
     "chapter": 14,
     "verse": 44,
     "content": {
-      "text": "But they presumed to go up to the top of the mountain. Nevertheless, the ark of Yahweh’s covenant and Moses didn’t depart out of the camp.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But they presumed to go up to the top of the mountain. Nevertheless, the ark of Yahweh’s covenant and Moses didn’t depart out of the camp."
     }
   },
   {
@@ -4162,8 +4427,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -4212,12 +4477,12 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "“ ‘For a ram, you shall prepare for a meal offering two tenths of an ephah",
         "foot": {
           "type": "stu",
           "content": "1 ephah is about 22 liters or about 2/3 of a bushel"
-        },
-        "paragraph": true
+        }
       },
       " of fine flour mixed with the third part of a hin of oil;"
     ]
@@ -4272,8 +4537,8 @@
     "chapter": 15,
     "verse": 13,
     "content": {
-      "text": "“ ‘All who are native-born shall do these things in this way, in offering an offering made by fire, of a pleasant aroma to Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘All who are native-born shall do these things in this way, in offering an offering made by fire, of a pleasant aroma to Yahweh."
     }
   },
   {
@@ -4299,8 +4564,8 @@
     "chapter": 15,
     "verse": 17,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -4332,8 +4597,8 @@
     "chapter": 15,
     "verse": 22,
     "content": {
-      "text": "“ ‘When you err, and don’t observe all these commandments which Yahweh has spoken to Moses—",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘When you err, and don’t observe all these commandments which Yahweh has spoken to Moses—"
     }
   },
   {
@@ -4365,8 +4630,8 @@
     "chapter": 15,
     "verse": 27,
     "content": {
-      "text": "“ ‘If a person sins unwittingly, then he shall offer a female goat a year old for a sin offering.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘If a person sins unwittingly, then he shall offer a female goat a year old for a sin offering."
     }
   },
   {
@@ -4386,8 +4651,8 @@
     "chapter": 15,
     "verse": 30,
     "content": {
-      "text": "“ ‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, blasphemes Yahweh. That soul shall be cut off from among his people.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘But the soul who does anything with a high hand, whether he is native-born or a foreigner, blasphemes Yahweh. That soul shall be cut off from among his people."
     }
   },
   {
@@ -4401,8 +4666,8 @@
     "chapter": 15,
     "verse": 32,
     "content": {
-      "text": "While the children of Israel were in the wilderness, they found a man gathering sticks on the Sabbath day.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "While the children of Israel were in the wilderness, they found a man gathering sticks on the Sabbath day."
     }
   },
   {
@@ -4422,8 +4687,8 @@
     "chapter": 15,
     "verse": 35,
     "content": {
-      "text": "Yahweh said to Moses, “The man shall surely be put to death. All the congregation shall stone him with stones outside of the camp.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “The man shall surely be put to death. All the congregation shall stone him with stones outside of the camp.”"
     }
   },
   {
@@ -4437,8 +4702,8 @@
     "chapter": 15,
     "verse": 37,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -4502,8 +4767,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "Now Korah, the son of Izhar, the son of Kohath, the son of Levi, with Dathan and Abiram, the sons of Eliab, and On, the son of Peleth, sons of Reuben, took some men.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Korah, the son of Izhar, the son of Kohath, the son of Levi, with Dathan and Abiram, the sons of Eliab, and On, the son of Peleth, sons of Reuben, took some men."
     }
   },
   {
@@ -4523,8 +4788,8 @@
     "chapter": 16,
     "verse": 4,
     "content": {
-      "text": "When Moses heard it, he fell on his face.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Moses heard it, he fell on his face."
     }
   },
   {
@@ -4550,8 +4815,8 @@
     "chapter": 16,
     "verse": 8,
     "content": {
-      "text": "Moses said to Korah, “Hear now, you sons of Levi!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Korah, “Hear now, you sons of Levi!"
     }
   },
   {
@@ -4577,8 +4842,8 @@
     "chapter": 16,
     "verse": 12,
     "content": {
-      "text": "Moses sent to call Dathan and Abiram, the sons of Eliab; and they said, “We won’t come up!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses sent to call Dathan and Abiram, the sons of Eliab; and they said, “We won’t come up!"
     }
   },
   {
@@ -4598,8 +4863,8 @@
     "chapter": 16,
     "verse": 15,
     "content": {
-      "text": "Moses was very angry, and said to Yahweh, “Don’t respect their offering. I have not taken one donkey from them, neither have I hurt one of them.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses was very angry, and said to Yahweh, “Don’t respect their offering. I have not taken one donkey from them, neither have I hurt one of them.”"
     }
   },
   {
@@ -4607,8 +4872,8 @@
     "chapter": 16,
     "verse": 16,
     "content": {
-      "text": "Moses said to Korah, “You and all your company go before Yahweh, you, and they, and Aaron, tomorrow.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Korah, “You and all your company go before Yahweh, you, and they, and Aaron, tomorrow."
     }
   },
   {
@@ -4622,15 +4887,21 @@
     "chapter": 16,
     "verse": 18,
     "content": {
-      "text": "They each took his censer, and put fire in it, and laid incense on it, and stood at the door of the Tent of Meeting with Moses and Aaron.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They each took his censer, and put fire in it, and laid incense on it, and stood at the door of the Tent of Meeting with Moses and Aaron."
     }
   },
   {
     "book": "NUM",
     "chapter": 16,
     "verse": 19,
-    "content": "Korah assembled all the congregation opposite them to the door of the Tent of Meeting. Yahweh’s glory appeared to all the congregation."
+    "content": [
+      "Korah assembled all the congregation opposite them to the door of the Tent of Meeting.",
+      {
+        "paragraph": true,
+        "text": "Yahweh’s glory appeared to all the congregation."
+      }
+    ]
   },
   {
     "book": "NUM",
@@ -4649,8 +4920,8 @@
     "chapter": 16,
     "verse": 22,
     "content": {
-      "text": "They fell on their faces, and said, “God, the God of the spirits of all flesh, shall one man sin, and will you be angry with all the congregation?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They fell on their faces, and said, “God, the God of the spirits of all flesh, shall one man sin, and will you be angry with all the congregation?”"
     }
   },
   {
@@ -4658,8 +4929,8 @@
     "chapter": 16,
     "verse": 23,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -4673,8 +4944,8 @@
     "chapter": 16,
     "verse": 25,
     "content": {
-      "text": "Moses rose up and went to Dathan and Abiram; and the elders of Israel followed him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses rose up and went to Dathan and Abiram; and the elders of Israel followed him."
     }
   },
   {
@@ -4688,8 +4959,8 @@
     "chapter": 16,
     "verse": 27,
     "content": {
-      "text": "So they went away from the tent of Korah, Dathan, and Abiram, on every side. Dathan and Abiram came out, and stood at the door of their tents with their wives, their sons, and their little ones.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So they went away from the tent of Korah, Dathan, and Abiram, on every side. Dathan and Abiram came out, and stood at the door of their tents with their wives, their sons, and their little ones."
     }
   },
   {
@@ -4697,8 +4968,8 @@
     "chapter": 16,
     "verse": 28,
     "content": {
-      "text": "Moses said, “Hereby you shall know that Yahweh has sent me to do all these works; for they are not from my own mind.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said, “Hereby you shall know that Yahweh has sent me to do all these works; for they are not from my own mind."
     }
   },
   {
@@ -4727,8 +4998,8 @@
     "chapter": 16,
     "verse": 31,
     "content": {
-      "text": "As he finished speaking all these words, the ground that was under them split apart.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "As he finished speaking all these words, the ground that was under them split apart."
     }
   },
   {
@@ -4769,8 +5040,8 @@
     "chapter": 16,
     "verse": 36,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -4790,8 +5061,8 @@
     "chapter": 16,
     "verse": 39,
     "content": {
-      "text": "Eleazar the priest took the bronze censers which those who were burned had offered; and they beat them out for a covering of the altar,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Eleazar the priest took the bronze censers which those who were burned had offered; and they beat them out for a covering of the altar,"
     }
   },
   {
@@ -4805,8 +5076,8 @@
     "chapter": 16,
     "verse": 41,
     "content": {
-      "text": "But on the next day all the congregation of the children of Israel complained against Moses and against Aaron, saying, “You have killed Yahweh’s people!”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But on the next day all the congregation of the children of Israel complained against Moses and against Aaron, saying, “You have killed Yahweh’s people!”"
     }
   },
   {
@@ -4814,8 +5085,8 @@
     "chapter": 16,
     "verse": 42,
     "content": {
-      "text": "When the congregation was assembled against Moses and against Aaron, they looked toward the Tent of Meeting. Behold, the cloud covered it, and Yahweh’s glory appeared.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When the congregation was assembled against Moses and against Aaron, they looked toward the Tent of Meeting. Behold, the cloud covered it, and Yahweh’s glory appeared."
     }
   },
   {
@@ -4841,8 +5112,8 @@
     "chapter": 16,
     "verse": 46,
     "content": {
-      "text": "Moses said to Aaron, “Take your censer, put fire from the altar in it, lay incense on it, carry it quickly to the congregation, and make atonement for them; for wrath has gone out from Yahweh! The plague has begun.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to Aaron, “Take your censer, put fire from the altar in it, lay incense on it, carry it quickly to the congregation, and make atonement for them; for wrath has gone out from Yahweh! The plague has begun.”"
     }
   },
   {
@@ -4850,8 +5121,8 @@
     "chapter": 16,
     "verse": 47,
     "content": {
-      "text": "Aaron did as Moses said, and ran into the middle of the assembly. The plague had already begun among the people. He put on the incense, and made atonement for the people.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Aaron did as Moses said, and ran into the middle of the assembly. The plague had already begun among the people. He put on the incense, and made atonement for the people."
     }
   },
   {
@@ -4877,8 +5148,8 @@
     "chapter": 17,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -4910,8 +5181,8 @@
     "chapter": 17,
     "verse": 6,
     "content": {
-      "text": "Moses spoke to the children of Israel; and all their princes gave him rods, for each prince one, according to their fathers’ houses, a total of twelve rods. Aaron’s rod was among their rods.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses spoke to the children of Israel; and all their princes gave him rods, for each prince one, according to their fathers’ houses, a total of twelve rods. Aaron’s rod was among their rods."
     }
   },
   {
@@ -4925,8 +5196,8 @@
     "chapter": 17,
     "verse": 8,
     "content": {
-      "text": "On the next day, Moses went into the Tent of the Testimony; and behold, Aaron’s rod for the house of Levi had sprouted, budded, produced blossoms, and bore ripe almonds.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the next day, Moses went into the Tent of the Testimony; and behold, Aaron’s rod for the house of Levi had sprouted, budded, produced blossoms, and bore ripe almonds."
     }
   },
   {
@@ -4940,8 +5211,8 @@
     "chapter": 17,
     "verse": 10,
     "content": {
-      "text": "Yahweh said to Moses, “Put back the rod of Aaron before the covenant, to be kept for a token against the children of rebellion; that you may make an end of their complaining against me, that they not die.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Put back the rod of Aaron before the covenant, to be kept for a token against the children of rebellion; that you may make an end of their complaining against me, that they not die.”"
     }
   },
   {
@@ -4955,8 +5226,8 @@
     "chapter": 17,
     "verse": 12,
     "content": {
-      "text": "The children of Israel spoke to Moses, saying, “Behold, we perish! We are undone! We are all undone!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel spoke to Moses, saying, “Behold, we perish! We are undone! We are all undone!"
     }
   },
   {
@@ -4970,8 +5241,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "Yahweh said to Aaron, “You and your sons and your fathers’ house with you shall bear the iniquity of the sanctuary; and you and your sons with you shall bear the iniquity of your priesthood.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Aaron, “You and your sons and your fathers’ house with you shall bear the iniquity of the sanctuary; and you and your sons with you shall bear the iniquity of your priesthood."
     }
   },
   {
@@ -4997,8 +5268,8 @@
     "chapter": 18,
     "verse": 5,
     "content": {
-      "text": "“You shall perform the duty of the sanctuary and the duty of the altar, that there be no more wrath on the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“You shall perform the duty of the sanctuary and the duty of the altar, that there be no more wrath on the children of Israel."
     }
   },
   {
@@ -5018,8 +5289,8 @@
     "chapter": 18,
     "verse": 8,
     "content": {
-      "text": "Yahweh spoke to Aaron, “Behold, I myself have given you the command of my wave offerings, even all the holy things of the children of Israel. I have given them to you by reason of the anointing, and to your sons, as a portion forever.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Aaron, “Behold, I myself have given you the command of my wave offerings, even all the holy things of the children of Israel. I have given them to you by reason of the anointing, and to your sons, as a portion forever."
     }
   },
   {
@@ -5039,8 +5310,8 @@
     "chapter": 18,
     "verse": 11,
     "content": {
-      "text": "“This is yours, too: the wave offering of their gift, even all the wave offerings of the children of Israel. I have given them to you, and to your sons and to your daughters with you, as a portion forever. Everyone who is clean in your house shall eat of it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“This is yours, too: the wave offering of their gift, even all the wave offerings of the children of Israel. I have given them to you, and to your sons and to your daughters with you, as a portion forever. Everyone who is clean in your house shall eat of it."
     }
   },
   {
@@ -5048,8 +5319,8 @@
     "chapter": 18,
     "verse": 12,
     "content": {
-      "text": "“I have given to you all the best of the oil, all the best of the vintage, and of the grain, the first fruits of them which they give to Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“I have given to you all the best of the oil, all the best of the vintage, and of the grain, the first fruits of them which they give to Yahweh."
     }
   },
   {
@@ -5063,8 +5334,8 @@
     "chapter": 18,
     "verse": 14,
     "content": {
-      "text": "“Everything devoted in Israel shall be yours.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Everything devoted in Israel shall be yours."
     }
   },
   {
@@ -5099,8 +5370,8 @@
     "chapter": 18,
     "verse": 17,
     "content": {
-      "text": "“But you shall not redeem the firstborn of a cow, or the firstborn of a sheep, or the firstborn of a goat. They are holy. You shall sprinkle their blood on the altar, and shall burn their fat for an offering made by fire, for a pleasant aroma to Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“But you shall not redeem the firstborn of a cow, or the firstborn of a sheep, or the firstborn of a goat. They are holy. You shall sprinkle their blood on the altar, and shall burn their fat for an offering made by fire, for a pleasant aroma to Yahweh."
     }
   },
   {
@@ -5120,8 +5391,8 @@
     "chapter": 18,
     "verse": 20,
     "content": {
-      "text": "Yahweh said to Aaron, “You shall have no inheritance in their land, neither shall you have any portion among them. I am your portion and your inheritance among the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Aaron, “You shall have no inheritance in their land, neither shall you have any portion among them. I am your portion and your inheritance among the children of Israel."
     }
   },
   {
@@ -5129,8 +5400,8 @@
     "chapter": 18,
     "verse": 21,
     "content": {
-      "text": "“To the children of Levi, behold, I have given all the tithe in Israel for an inheritance, in return for their service which they serve, even the service of the Tent of Meeting.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“To the children of Levi, behold, I have given all the tithe in Israel for an inheritance, in return for their service which they serve, even the service of the Tent of Meeting."
     }
   },
   {
@@ -5156,8 +5427,8 @@
     "chapter": 18,
     "verse": 25,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -5189,8 +5460,8 @@
     "chapter": 18,
     "verse": 30,
     "content": {
-      "text": "“Therefore you shall tell them, ‘When you heave its best from it, then it shall be credited to the Levites as the increase of the threshing floor, and as the increase of the wine press.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Therefore you shall tell them, ‘When you heave its best from it, then it shall be credited to the Levites as the increase of the threshing floor, and as the increase of the wine press."
     }
   },
   {
@@ -5210,8 +5481,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses and to Aaron, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses and to Aaron, saying,"
     }
   },
   {
@@ -5261,8 +5532,8 @@
     "chapter": 19,
     "verse": 9,
     "content": {
-      "text": "“A man who is clean shall gather up the ashes of the heifer, and lay them up outside of the camp in a clean place; and it shall be kept for the congregation of the children of Israel for use in water for cleansing impurity. It is a sin offering.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“A man who is clean shall gather up the ashes of the heifer, and lay them up outside of the camp in a clean place; and it shall be kept for the congregation of the children of Israel for use in water for cleansing impurity. It is a sin offering."
     }
   },
   {
@@ -5276,8 +5547,8 @@
     "chapter": 19,
     "verse": 11,
     "content": {
-      "text": "“He who touches the dead body of any man shall be unclean seven days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“He who touches the dead body of any man shall be unclean seven days."
     }
   },
   {
@@ -5297,8 +5568,8 @@
     "chapter": 19,
     "verse": 14,
     "content": {
-      "text": "“This is the law when a man dies in a tent: everyone who comes into the tent, and everyone who is in the tent, shall be unclean seven days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“This is the law when a man dies in a tent: everyone who comes into the tent, and everyone who is in the tent, shall be unclean seven days."
     }
   },
   {
@@ -5312,8 +5583,8 @@
     "chapter": 19,
     "verse": 16,
     "content": {
-      "text": "“Whoever in the open field touches one who is slain with a sword, or a dead body, or a bone of a man, or a grave, shall be unclean seven days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Whoever in the open field touches one who is slain with a sword, or a dead body, or a bone of a man, or a grave, shall be unclean seven days."
     }
   },
   {
@@ -5321,8 +5592,8 @@
     "chapter": 19,
     "verse": 17,
     "content": {
-      "text": "“For the unclean, they shall take of the ashes of the burning of the sin offering; and running water shall be poured on them in a vessel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“For the unclean, they shall take of the ashes of the burning of the sin offering; and running water shall be poured on them in a vessel."
     }
   },
   {
@@ -5354,8 +5625,8 @@
     "chapter": 19,
     "verse": 22,
     "content": {
-      "text": "“Whatever the unclean person touches shall be unclean; and the soul that touches it shall be unclean until evening.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Whatever the unclean person touches shall be unclean; and the soul that touches it shall be unclean until evening.”"
     }
   },
   {
@@ -5363,8 +5634,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "The children of Israel, even the whole congregation, came into the wilderness of Zin in the first month. The people stayed in Kadesh. Miriam died there, and was buried there.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel, even the whole congregation, came into the wilderness of Zin in the first month. The people stayed in Kadesh. Miriam died there, and was buried there."
     }
   },
   {
@@ -5396,8 +5667,8 @@
     "chapter": 20,
     "verse": 6,
     "content": {
-      "text": "Moses and Aaron went from the presence of the assembly to the door of the Tent of Meeting, and fell on their faces. Yahweh’s glory appeared to them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Aaron went from the presence of the assembly to the door of the Tent of Meeting, and fell on their faces. Yahweh’s glory appeared to them."
     }
   },
   {
@@ -5417,8 +5688,8 @@
     "chapter": 20,
     "verse": 9,
     "content": {
-      "text": "Moses took the rod from before Yahweh, as he commanded him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses took the rod from before Yahweh, as he commanded him."
     }
   },
   {
@@ -5438,8 +5709,8 @@
     "chapter": 20,
     "verse": 12,
     "content": {
-      "text": "Yahweh said to Moses and Aaron, “Because you didn’t believe in me, to sanctify me in the eyes of the children of Israel, therefore you shall not bring this assembly into the land which I have given them.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses and Aaron, “Because you didn’t believe in me, to sanctify me in the eyes of the children of Israel, therefore you shall not bring this assembly into the land which I have given them.”"
     }
   },
   {
@@ -5448,12 +5719,12 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "These are the waters of Meribah;",
         "foot": {
           "type": "stu",
           "content": "“Meribah” means “quarreling”."
-        },
-        "paragraph": true
+        }
       },
       " because the children of Israel strove with Yahweh, and he was sanctified in them."
     ]
@@ -5462,10 +5733,16 @@
     "book": "NUM",
     "chapter": 20,
     "verse": 14,
-    "content": {
-      "text": "Moses sent messengers from Kadesh to the king of Edom, saying: “Your brother Israel says: You know all the travail that has happened to us;",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Moses sent messengers from Kadesh to the king of Edom, saying:"
+      },
+      {
+        "paragraph": true,
+        "text": "“Your brother Israel says: You know all the travail that has happened to us;"
+      }
+    ]
   },
   {
     "book": "NUM",
@@ -5484,8 +5761,8 @@
     "chapter": 20,
     "verse": 17,
     "content": {
-      "text": "“Please let us pass through your land. We will not pass through field or through vineyard, neither will we drink from the water of the wells. We will go along the king’s highway. We will not turn away to the right hand nor to the left, until we have passed your border.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Please let us pass through your land. We will not pass through field or through vineyard, neither will we drink from the water of the wells. We will go along the king’s highway. We will not turn away to the right hand nor to the left, until we have passed your border.”"
     }
   },
   {
@@ -5493,8 +5770,8 @@
     "chapter": 20,
     "verse": 18,
     "content": {
-      "text": "Edom said to him, “You shall not pass through me, lest I come out with the sword against you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Edom said to him, “You shall not pass through me, lest I come out with the sword against you.”"
     }
   },
   {
@@ -5502,8 +5779,8 @@
     "chapter": 20,
     "verse": 19,
     "content": {
-      "text": "The children of Israel said to him, “We will go up by the highway; and if we drink your water, I and my livestock, then I will give its price. Only let me, without doing anything else, pass through on my feet.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel said to him, “We will go up by the highway; and if we drink your water, I and my livestock, then I will give its price. Only let me, without doing anything else, pass through on my feet.”"
     }
   },
   {
@@ -5511,8 +5788,8 @@
     "chapter": 20,
     "verse": 20,
     "content": {
-      "text": "He said, “You shall not pass through.” Edom came out against him with many people, and with a strong hand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “You shall not pass through.” Edom came out against him with many people, and with a strong hand."
     }
   },
   {
@@ -5526,8 +5803,8 @@
     "chapter": 20,
     "verse": 22,
     "content": {
-      "text": "They traveled from Kadesh, and the children of Israel, even the whole congregation, came to Mount Hor.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They traveled from Kadesh, and the children of Israel, even the whole congregation, came to Mount Hor."
     }
   },
   {
@@ -5559,8 +5836,8 @@
     "chapter": 20,
     "verse": 27,
     "content": {
-      "text": "Moses did as Yahweh commanded. They went up onto Mount Hor in the sight of all the congregation.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses did as Yahweh commanded. They went up onto Mount Hor in the sight of all the congregation."
     }
   },
   {
@@ -5580,8 +5857,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "The Canaanite, the king of Arad, who lived in the South, heard that Israel came by the way of Atharim. He fought against Israel, and took some of them captive.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Canaanite, the king of Arad, who lived in the South, heard that Israel came by the way of Atharim. He fought against Israel, and took some of them captive."
     }
   },
   {
@@ -5607,8 +5884,8 @@
     "chapter": 21,
     "verse": 4,
     "content": {
-      "text": "They traveled from Mount Hor by the way to the Red Sea, to go around the land of Edom. The soul of the people was very discouraged because of the journey.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They traveled from Mount Hor by the way to the Red Sea, to go around the land of Edom. The soul of the people was very discouraged because of the journey."
     }
   },
   {
@@ -5622,8 +5899,8 @@
     "chapter": 21,
     "verse": 6,
     "content": {
-      "text": "Yahweh sent venomous snakes among the people, and they bit the people. Many people of Israel died.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh sent venomous snakes among the people, and they bit the people. Many people of Israel died."
     }
   },
   {
@@ -5637,8 +5914,8 @@
     "chapter": 21,
     "verse": 8,
     "content": {
-      "text": "Yahweh said to Moses, “Make a venomous snake, and set it on a pole. It shall happen that everyone who is bitten, when he sees it, shall live.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Make a venomous snake, and set it on a pole. It shall happen that everyone who is bitten, when he sees it, shall live.”"
     }
   },
   {
@@ -5652,8 +5929,8 @@
     "chapter": 21,
     "verse": 10,
     "content": {
-      "text": "The children of Israel traveled, and encamped in Oboth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel traveled, and encamped in Oboth."
     }
   },
   {
@@ -5691,8 +5968,8 @@
     "chapter": 21,
     "verse": 16,
     "content": {
-      "text": "From there they traveled to Beer; that is the well of which Yahweh said to Moses, “Gather the people together, and I will give them water.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "From there they traveled to Beer; that is the well of which Yahweh said to Moses, “Gather the people together, and I will give them water.”"
     }
   },
   {
@@ -5701,8 +5978,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "Then Israel sang this song:",
         "paragraph": true,
+        "text": "Then Israel sang this song:",
         "break": true
       },
       {
@@ -5724,7 +6001,11 @@
         "text": "which the nobles of the people dug,",
         "break": true
       },
-      "with the scepter, and with their poles.” From the wilderness they traveled to Mattanah;"
+      "with the scepter, and with their poles.”",
+      {
+        "paragraph": true,
+        "text": "From the wilderness they traveled to Mattanah;"
+      }
     ]
   },
   {
@@ -5756,8 +6037,8 @@
     "chapter": 21,
     "verse": 23,
     "content": {
-      "text": "Sihon would not allow Israel to pass through his border, but Sihon gathered all his people together, and went out against Israel into the wilderness, and came to Jahaz. He fought against Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Sihon would not allow Israel to pass through his border, but Sihon gathered all his people together, and went out against Israel into the wilderness, and came to Jahaz. He fought against Israel."
     }
   },
   {
@@ -5872,8 +6153,8 @@
     "chapter": 21,
     "verse": 31,
     "content": {
-      "text": "Thus Israel lived in the land of the Amorites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Thus Israel lived in the land of the Amorites."
     }
   },
   {
@@ -5893,8 +6174,8 @@
     "chapter": 21,
     "verse": 34,
     "content": {
-      "text": "Yahweh said to Moses, “Don’t fear him, for I have delivered him into your hand, with all his people, and his land. You shall do to him as you did to Sihon king of the Amorites, who lived at Heshbon.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Don’t fear him, for I have delivered him into your hand, with all his people, and his land. You shall do to him as you did to Sihon king of the Amorites, who lived at Heshbon.”"
     }
   },
   {
@@ -5902,8 +6183,8 @@
     "chapter": 21,
     "verse": 35,
     "content": {
-      "text": "So they struck him, with his sons and all his people, until there were no survivors; and they possessed his land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So they struck him, with his sons and all his people, until there were no survivors; and they possessed his land."
     }
   },
   {
@@ -5911,8 +6192,8 @@
     "chapter": 22,
     "verse": 1,
     "content": {
-      "text": "The children of Israel traveled, and encamped in the plains of Moab beyond the Jordan at Jericho.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Israel traveled, and encamped in the plains of Moab beyond the Jordan at Jericho."
     }
   },
   {
@@ -5931,7 +6212,13 @@
     "book": "NUM",
     "chapter": 22,
     "verse": 4,
-    "content": "Moab said to the elders of Midian, “Now this multitude will lick up all that is around us, as the ox licks up the grass of the field.” Balak the son of Zippor was king of Moab at that time."
+    "content": [
+      "Moab said to the elders of Midian, “Now this multitude will lick up all that is around us, as the ox licks up the grass of the field.”",
+      {
+        "paragraph": true,
+        "text": "Balak the son of Zippor was king of Moab at that time."
+      }
+    ]
   },
   {
     "book": "NUM",
@@ -5950,8 +6237,8 @@
     "chapter": 22,
     "verse": 7,
     "content": {
-      "text": "The elders of Moab and the elders of Midian departed with the rewards of divination in their hand. They came to Balaam, and spoke to him the words of Balak.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The elders of Moab and the elders of Midian departed with the rewards of divination in their hand. They came to Balaam, and spoke to him the words of Balak."
     }
   },
   {
@@ -5959,8 +6246,8 @@
     "chapter": 22,
     "verse": 8,
     "content": {
-      "text": "He said to them, “Lodge here this night, and I will bring you word again, as Yahweh shall speak to me.” The princes of Moab stayed with Balaam.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to them, “Lodge here this night, and I will bring you word again, as Yahweh shall speak to me.” The princes of Moab stayed with Balaam."
     }
   },
   {
@@ -5968,8 +6255,8 @@
     "chapter": 22,
     "verse": 9,
     "content": {
-      "text": "God came to Balaam, and said, “Who are these men with you?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God came to Balaam, and said, “Who are these men with you?”"
     }
   },
   {
@@ -5977,8 +6264,8 @@
     "chapter": 22,
     "verse": 10,
     "content": {
-      "text": "Balaam said to God, “Balak the son of Zippor, king of Moab, has said to me,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam said to God, “Balak the son of Zippor, king of Moab, has said to me,"
     }
   },
   {
@@ -5992,8 +6279,8 @@
     "chapter": 22,
     "verse": 12,
     "content": {
-      "text": "God said to Balaam, “You shall not go with them. You shall not curse the people, for they are blessed.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God said to Balaam, “You shall not go with them. You shall not curse the people, for they are blessed.”"
     }
   },
   {
@@ -6001,8 +6288,8 @@
     "chapter": 22,
     "verse": 13,
     "content": {
-      "text": "Balaam rose up in the morning, and said to the princes of Balak, “Go to your land; for Yahweh refuses to permit me to go with you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam rose up in the morning, and said to the princes of Balak, “Go to your land; for Yahweh refuses to permit me to go with you.”"
     }
   },
   {
@@ -6010,8 +6297,8 @@
     "chapter": 22,
     "verse": 14,
     "content": {
-      "text": "The princes of Moab rose up, and they went to Balak, and said, “Balaam refuses to come with us.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The princes of Moab rose up, and they went to Balak, and said, “Balaam refuses to come with us.”"
     }
   },
   {
@@ -6019,8 +6306,8 @@
     "chapter": 22,
     "verse": 15,
     "content": {
-      "text": "Balak again sent princes, more, and more honorable than they.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak again sent princes, more, and more honorable than they."
     }
   },
   {
@@ -6040,8 +6327,8 @@
     "chapter": 22,
     "verse": 18,
     "content": {
-      "text": "Balaam answered the servants of Balak, “If Balak would give me his house full of silver and gold, I can’t go beyond the word of Yahweh my God, to do less or more.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam answered the servants of Balak, “If Balak would give me his house full of silver and gold, I can’t go beyond the word of Yahweh my God, to do less or more."
     }
   },
   {
@@ -6055,8 +6342,8 @@
     "chapter": 22,
     "verse": 20,
     "content": {
-      "text": "God came to Balaam at night, and said to him, “If the men have come to call you, rise up, go with them; but only the word which I speak to you, that you shall do.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God came to Balaam at night, and said to him, “If the men have come to call you, rise up, go with them; but only the word which I speak to you, that you shall do.”"
     }
   },
   {
@@ -6064,8 +6351,8 @@
     "chapter": 22,
     "verse": 21,
     "content": {
-      "text": "Balaam rose up in the morning, and saddled his donkey, and went with the princes of Moab.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam rose up in the morning, and saddled his donkey, and went with the princes of Moab."
     }
   },
   {
@@ -6097,8 +6384,8 @@
     "chapter": 22,
     "verse": 26,
     "content": {
-      "text": "Yahweh’s angel went further, and stood in a narrow place, where there was no way to turn either to the right hand or to the left.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s angel went further, and stood in a narrow place, where there was no way to turn either to the right hand or to the left."
     }
   },
   {
@@ -6112,8 +6399,8 @@
     "chapter": 22,
     "verse": 28,
     "content": {
-      "text": "Yahweh opened the mouth of the donkey, and she said to Balaam, “What have I done to you, that you have struck me these three times?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh opened the mouth of the donkey, and she said to Balaam, “What have I done to you, that you have struck me these three times?”"
     }
   },
   {
@@ -6121,26 +6408,32 @@
     "chapter": 22,
     "verse": 29,
     "content": {
-      "text": "Balaam said to the donkey, “Because you have mocked me, I wish there were a sword in my hand, for now I would have killed you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam said to the donkey, “Because you have mocked me, I wish there were a sword in my hand, for now I would have killed you.”"
     }
   },
   {
     "book": "NUM",
     "chapter": 22,
     "verse": 30,
-    "content": {
-      "text": "The donkey said to Balaam, “Am I not your donkey, on which you have ridden all your life long until today? Was I ever in the habit of doing so to you?” He said, “No.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The donkey said to Balaam, “Am I not your donkey, on which you have ridden all your life long until today? Was I ever in the habit of doing so to you?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “No.”"
+      }
+    ]
   },
   {
     "book": "NUM",
     "chapter": 22,
     "verse": 31,
     "content": {
-      "text": "Then Yahweh opened the eyes of Balaam, and he saw Yahweh’s angel standing in the way, with his sword drawn in his hand; and he bowed his head, and fell on his face.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh opened the eyes of Balaam, and he saw Yahweh’s angel standing in the way, with his sword drawn in his hand; and he bowed his head, and fell on his face."
     }
   },
   {
@@ -6160,18 +6453,24 @@
     "chapter": 22,
     "verse": 34,
     "content": {
-      "text": "Balaam said to Yahweh’s angel, “I have sinned; for I didn’t know that you stood in the way against me. Now therefore, if it displeases you, I will go back again.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam said to Yahweh’s angel, “I have sinned; for I didn’t know that you stood in the way against me. Now therefore, if it displeases you, I will go back again.”"
     }
   },
   {
     "book": "NUM",
     "chapter": 22,
     "verse": 35,
-    "content": {
-      "text": "Yahweh’s angel said to Balaam, “Go with the men; but you shall only speak the word that I shall speak to you.” So Balaam went with the princes of Balak.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Yahweh’s angel said to Balaam, “Go with the men; but you shall only speak the word that I shall speak to you.”"
+      },
+      {
+        "paragraph": true,
+        "text": "So Balaam went with the princes of Balak."
+      }
+    ]
   },
   {
     "book": "NUM",
@@ -6190,8 +6489,8 @@
     "chapter": 22,
     "verse": 38,
     "content": {
-      "text": "Balaam said to Balak, “Behold, I have come to you. Have I now any power at all to speak anything? I will speak the word that God puts in my mouth.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam said to Balak, “Behold, I have come to you. Have I now any power at all to speak anything? I will speak the word that God puts in my mouth.”"
     }
   },
   {
@@ -6199,8 +6498,8 @@
     "chapter": 22,
     "verse": 39,
     "content": {
-      "text": "Balaam went with Balak, and they came to Kiriath Huzoth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam went with Balak, and they came to Kiriath Huzoth."
     }
   },
   {
@@ -6220,8 +6519,8 @@
     "chapter": 23,
     "verse": 1,
     "content": {
-      "text": "Balaam said to Balak, “Build here seven altars for me, and prepare here seven bulls and seven rams for me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam said to Balak, “Build here seven altars for me, and prepare here seven bulls and seven rams for me.”"
     }
   },
   {
@@ -6229,15 +6528,21 @@
     "chapter": 23,
     "verse": 2,
     "content": {
-      "text": "Balak did as Balaam had spoken; and Balak and Balaam offered on every altar a bull and a ram.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak did as Balaam had spoken; and Balak and Balaam offered on every altar a bull and a ram."
     }
   },
   {
     "book": "NUM",
     "chapter": 23,
     "verse": 3,
-    "content": "Balaam said to Balak, “Stand by your burnt offering, and I will go. Perhaps Yahweh will come to meet me. Whatever he shows me I will tell you.” He went to a bare height."
+    "content": [
+      "Balaam said to Balak, “Stand by your burnt offering, and I will go. Perhaps Yahweh will come to meet me. Whatever he shows me I will tell you.”",
+      {
+        "paragraph": true,
+        "text": "He went to a bare height."
+      }
+    ]
   },
   {
     "book": "NUM",
@@ -6250,8 +6555,8 @@
     "chapter": 23,
     "verse": 5,
     "content": {
-      "text": "Yahweh put a word in Balaam’s mouth, and said, “Return to Balak, and thus you shall speak.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh put a word in Balaam’s mouth, and said, “Return to Balak, and thus you shall speak.”"
     }
   },
   {
@@ -6259,8 +6564,8 @@
     "chapter": 23,
     "verse": 6,
     "content": {
-      "text": "He returned to him, and behold, he was standing by his burnt offering, he, and all the princes of Moab.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He returned to him, and behold, he was standing by his burnt offering, he, and all the princes of Moab."
     }
   },
   {
@@ -6353,8 +6658,8 @@
     "chapter": 23,
     "verse": 11,
     "content": {
-      "text": "Balak said to Balaam, “What have you done to me? I took you to curse my enemies, and behold, you have blessed them altogether.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak said to Balaam, “What have you done to me? I took you to curse my enemies, and behold, you have blessed them altogether.”"
     }
   },
   {
@@ -6362,8 +6667,8 @@
     "chapter": 23,
     "verse": 12,
     "content": {
-      "text": "He answered and said, “Must I not take heed to speak that which Yahweh puts in my mouth?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He answered and said, “Must I not take heed to speak that which Yahweh puts in my mouth?”"
     }
   },
   {
@@ -6371,8 +6676,8 @@
     "chapter": 23,
     "verse": 13,
     "content": {
-      "text": "Balak said to him, “Please come with me to another place, where you may see them. You shall see just part of them, and shall not see them all. Curse them from there for me.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak said to him, “Please come with me to another place, where you may see them. You shall see just part of them, and shall not see them all. Curse them from there for me.”"
     }
   },
   {
@@ -6380,8 +6685,8 @@
     "chapter": 23,
     "verse": 14,
     "content": {
-      "text": "He took him into the field of Zophim, to the top of Pisgah, and built seven altars, and offered up a bull and a ram on every altar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He took him into the field of Zophim, to the top of Pisgah, and built seven altars, and offered up a bull and a ram on every altar."
     }
   },
   {
@@ -6395,8 +6700,8 @@
     "chapter": 23,
     "verse": 16,
     "content": {
-      "text": "Yahweh met Balaam, and put a word in his mouth, and said, “Return to Balak, and say this.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh met Balaam, and put a word in his mouth, and said, “Return to Balak, and say this.”"
     }
   },
   {
@@ -6404,8 +6709,8 @@
     "chapter": 23,
     "verse": 17,
     "content": {
-      "text": "He came to him, and behold, he was standing by his burnt offering, and the princes of Moab with him. Balak said to him, “What has Yahweh spoken?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He came to him, and behold, he was standing by his burnt offering, and the princes of Moab with him. Balak said to him, “What has Yahweh spoken?”"
     }
   },
   {
@@ -6414,8 +6719,8 @@
     "verse": 18,
     "content": [
       {
-        "text": "He took up his parable, and said,",
         "paragraph": true,
+        "text": "He took up his parable, and said,",
         "break": true
       },
       {
@@ -6552,8 +6857,8 @@
     "chapter": 23,
     "verse": 25,
     "content": {
-      "text": "Balak said to Balaam, “Neither curse them at all, nor bless them at all.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak said to Balaam, “Neither curse them at all, nor bless them at all.”"
     }
   },
   {
@@ -6561,8 +6866,8 @@
     "chapter": 23,
     "verse": 26,
     "content": {
-      "text": "But Balaam answered Balak, “Didn’t I tell you, saying, ‘All that Yahweh speaks, that I must do’?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Balaam answered Balak, “Didn’t I tell you, saying, ‘All that Yahweh speaks, that I must do’?”"
     }
   },
   {
@@ -6570,8 +6875,8 @@
     "chapter": 23,
     "verse": 27,
     "content": {
-      "text": "Balak said to Balaam, “Come now, I will take you to another place; perhaps it will please God that you may curse them for me from there.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak said to Balaam, “Come now, I will take you to another place; perhaps it will please God that you may curse them for me from there.”"
     }
   },
   {
@@ -6579,8 +6884,8 @@
     "chapter": 23,
     "verse": 28,
     "content": {
-      "text": "Balak took Balaam to the top of Peor, that looks down on the desert.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak took Balaam to the top of Peor, that looks down on the desert."
     }
   },
   {
@@ -6594,8 +6899,8 @@
     "chapter": 23,
     "verse": 30,
     "content": {
-      "text": "Balak did as Balaam had said, and offered up a bull and a ram on every altar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak did as Balaam had said, and offered up a bull and a ram on every altar."
     }
   },
   {
@@ -6603,8 +6908,8 @@
     "chapter": 24,
     "verse": 1,
     "content": {
-      "text": "When Balaam saw that it pleased Yahweh to bless Israel, he didn’t go, as at the other times, to use divination, but he set his face toward the wilderness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Balaam saw that it pleased Yahweh to bless Israel, he didn’t go, as at the other times, to use divination, but he set his face toward the wilderness."
     }
   },
   {
@@ -6768,8 +7073,8 @@
     "chapter": 24,
     "verse": 10,
     "content": {
-      "text": "Balak’s anger burned against Balaam, and he struck his hands together. Balak said to Balaam, “I called you to curse my enemies, and, behold, you have altogether blessed them these three times.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balak’s anger burned against Balaam, and he struck his hands together. Balak said to Balaam, “I called you to curse my enemies, and, behold, you have altogether blessed them these three times."
     }
   },
   {
@@ -6783,8 +7088,8 @@
     "chapter": 24,
     "verse": 12,
     "content": {
-      "text": "Balaam said to Balak, “Didn’t I also tell your messengers whom you sent to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam said to Balak, “Didn’t I also tell your messengers whom you sent to me, saying,"
     }
   },
   {
@@ -6805,8 +7110,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "He took up his parable, and said,",
         "paragraph": true,
+        "text": "He took up his parable, and said,",
         "break": true
       },
       {
@@ -6910,8 +7215,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "He looked at Amalek, and took up his parable, and said,",
         "paragraph": true,
+        "text": "He looked at Amalek, and took up his parable, and said,",
         "break": true
       },
       {
@@ -6927,8 +7232,8 @@
     "verse": 21,
     "content": [
       {
-        "text": "He looked at the Kenite, and took up his parable, and said,",
         "paragraph": true,
+        "text": "He looked at the Kenite, and took up his parable, and said,",
         "break": true
       },
       {
@@ -6959,8 +7264,8 @@
     "verse": 23,
     "content": [
       {
-        "text": "He took up his parable, and said,",
         "paragraph": true,
+        "text": "He took up his parable, and said,",
         "break": true
       },
       {
@@ -6990,8 +7295,8 @@
     "chapter": 24,
     "verse": 25,
     "content": {
-      "text": "Balaam rose up, and went and returned to his place; and Balak also went his way.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Balaam rose up, and went and returned to his place; and Balak also went his way."
     }
   },
   {
@@ -6999,8 +7304,8 @@
     "chapter": 25,
     "verse": 1,
     "content": {
-      "text": "Israel stayed in Shittim; and the people began to play the prostitute with the daughters of Moab;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Israel stayed in Shittim; and the people began to play the prostitute with the daughters of Moab;"
     }
   },
   {
@@ -7026,8 +7331,8 @@
     "chapter": 25,
     "verse": 5,
     "content": {
-      "text": "Moses said to the judges of Israel, “Everyone kill his men who have joined themselves to Baal Peor.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to the judges of Israel, “Everyone kill his men who have joined themselves to Baal Peor.”"
     }
   },
   {
@@ -7035,8 +7340,8 @@
     "chapter": 25,
     "verse": 6,
     "content": {
-      "text": "Behold, one of the children of Israel came and brought to his brothers a Midianite woman in the sight of Moses, and in the sight of all the congregation of the children of Israel, while they were weeping at the door of the Tent of Meeting.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Behold, one of the children of Israel came and brought to his brothers a Midianite woman in the sight of Moses, and in the sight of all the congregation of the children of Israel, while they were weeping at the door of the Tent of Meeting."
     }
   },
   {
@@ -7062,8 +7367,8 @@
     "chapter": 25,
     "verse": 10,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -7089,8 +7394,8 @@
     "chapter": 25,
     "verse": 14,
     "content": {
-      "text": "Now the name of the man of Israel that was slain, who was slain with the Midianite woman, was Zimri, the son of Salu, a prince of a fathers’ house among the Simeonites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the name of the man of Israel that was slain, who was slain with the Midianite woman, was Zimri, the son of Salu, a prince of a fathers’ house among the Simeonites."
     }
   },
   {
@@ -7104,8 +7409,8 @@
     "chapter": 25,
     "verse": 16,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -7125,8 +7430,8 @@
     "chapter": 26,
     "verse": 1,
     "content": {
-      "text": "After the plague, Yahweh spoke to Moses and to Eleazar the son of Aaron the priest, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "After the plague, Yahweh spoke to Moses and to Eleazar the son of Aaron the priest, saying,"
     }
   },
   {
@@ -7145,7 +7450,13 @@
     "book": "NUM",
     "chapter": 26,
     "verse": 4,
-    "content": "“Take a census, from twenty years old and upward, as Yahweh commanded Moses and the children of Israel.” These are those who came out of the land of Egypt."
+    "content": [
+      "“Take a census, from twenty years old and upward, as Yahweh commanded Moses and the children of Israel.”",
+      {
+        "paragraph": true,
+        "text": "These are those who came out of the land of Egypt."
+      }
+    ]
   },
   {
     "book": "NUM",
@@ -7434,8 +7745,8 @@
     "chapter": 26,
     "verse": 52,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -7467,8 +7778,8 @@
     "chapter": 26,
     "verse": 57,
     "content": {
-      "text": "These are those who were counted of the Levites after their families: of Gershon, the family of the Gershonites; of Kohath, the family of the Kohathites; of Merari, the family of the Merarites.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are those who were counted of the Levites after their families: of Gershon, the family of the Gershonites; of Kohath, the family of the Kohathites; of Merari, the family of the Merarites."
     }
   },
   {
@@ -7524,8 +7835,8 @@
     "chapter": 27,
     "verse": 1,
     "content": {
-      "text": "Then the daughters of Zelophehad, the son of Hepher, the son of Gilead, the son of Machir, the son of Manasseh, of the families of Manasseh the son of Joseph came near. These are the names of his daughters: Mahlah, Noah, Hoglah, Milcah, and Tirzah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the daughters of Zelophehad, the son of Hepher, the son of Gilead, the son of Machir, the son of Manasseh, of the families of Manasseh the son of Joseph came near. These are the names of his daughters: Mahlah, Noah, Hoglah, Milcah, and Tirzah."
     }
   },
   {
@@ -7551,8 +7862,8 @@
     "chapter": 27,
     "verse": 5,
     "content": {
-      "text": "Moses brought their cause before Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses brought their cause before Yahweh."
     }
   },
   {
@@ -7596,8 +7907,8 @@
     "chapter": 27,
     "verse": 12,
     "content": {
-      "text": "Yahweh said to Moses, “Go up into this mountain of Abarim, and see the land which I have given to the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Go up into this mountain of Abarim, and see the land which I have given to the children of Israel."
     }
   },
   {
@@ -7617,8 +7928,8 @@
     "chapter": 27,
     "verse": 15,
     "content": {
-      "text": "Moses spoke to Yahweh, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses spoke to Yahweh, saying,"
     }
   },
   {
@@ -7638,8 +7949,8 @@
     "chapter": 27,
     "verse": 18,
     "content": {
-      "text": "Yahweh said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to Moses, “Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on him."
     }
   },
   {
@@ -7665,8 +7976,8 @@
     "chapter": 27,
     "verse": 22,
     "content": {
-      "text": "Moses did as Yahweh commanded him. He took Joshua, and set him before Eleazar the priest and before all the congregation.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses did as Yahweh commanded him. He took Joshua, and set him before Eleazar the priest and before all the congregation."
     }
   },
   {
@@ -7680,8 +7991,8 @@
     "chapter": 28,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -7757,12 +8068,12 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "“ ‘On the Sabbath day, you shall offer two male lambs a year old without defect, and two tenths of an ephah",
         "foot": {
           "type": "stu",
           "content": "1 ephah is about 22 liters or about 2/3 of a bushel"
-        },
-        "paragraph": true
+        }
       },
       " of fine flour for a meal offering mixed with oil, and its drink offering:"
     ]
@@ -7778,8 +8089,8 @@
     "chapter": 28,
     "verse": 11,
     "content": {
-      "text": "“ ‘In the beginnings of your months, you shall offer a burnt offering to Yahweh: two young bulls, one ram, seven male lambs a year old without defect,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘In the beginnings of your months, you shall offer a burnt offering to Yahweh: two young bulls, one ram, seven male lambs a year old without defect,"
     }
   },
   {
@@ -7820,8 +8131,8 @@
     "chapter": 28,
     "verse": 16,
     "content": {
-      "text": "“ ‘In the first month, on the fourteenth day of the month, is Yahweh’s Passover.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘In the first month, on the fourteenth day of the month, is Yahweh’s Passover."
     }
   },
   {
@@ -7883,8 +8194,8 @@
     "chapter": 28,
     "verse": 26,
     "content": {
-      "text": "“ ‘Also in the day of the first fruits, when you offer a new meal offering to Yahweh in your feast of weeks, you shall have a holy convocation. You shall do no regular work;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘Also in the day of the first fruits, when you offer a new meal offering to Yahweh in your feast of weeks, you shall have a holy convocation. You shall do no regular work;"
     }
   },
   {
@@ -7922,8 +8233,8 @@
     "chapter": 29,
     "verse": 1,
     "content": {
-      "text": "“ ‘In the seventh month, on the first day of the month, you shall have a holy convocation; you shall do no regular work. It is a day of blowing of trumpets to you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘In the seventh month, on the first day of the month, you shall have a holy convocation; you shall do no regular work. It is a day of blowing of trumpets to you."
     }
   },
   {
@@ -7961,8 +8272,8 @@
     "chapter": 29,
     "verse": 7,
     "content": {
-      "text": "“ ‘On the tenth day of this seventh month you shall have a holy convocation. You shall afflict your souls. You shall do no kind of work;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the tenth day of this seventh month you shall have a holy convocation. You shall afflict your souls. You shall do no kind of work;"
     }
   },
   {
@@ -7994,8 +8305,8 @@
     "chapter": 29,
     "verse": 12,
     "content": {
-      "text": "“ ‘On the fifteenth day of the seventh month you shall have a holy convocation. You shall do no regular work. You shall keep a feast to Yahweh seven days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the fifteenth day of the seventh month you shall have a holy convocation. You shall do no regular work. You shall keep a feast to Yahweh seven days."
     }
   },
   {
@@ -8027,8 +8338,8 @@
     "chapter": 29,
     "verse": 17,
     "content": {
-      "text": "“ ‘On the second day you shall offer twelve young bulls, two rams, and fourteen male lambs a year old without defect;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the second day you shall offer twelve young bulls, two rams, and fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -8048,8 +8359,8 @@
     "chapter": 29,
     "verse": 20,
     "content": {
-      "text": "“ ‘On the third day: eleven bulls, two rams, fourteen male lambs a year old without defect;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the third day: eleven bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -8069,8 +8380,8 @@
     "chapter": 29,
     "verse": 23,
     "content": {
-      "text": "“ ‘On the fourth day ten bulls, two rams, fourteen male lambs a year old without defect;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the fourth day ten bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -8090,8 +8401,8 @@
     "chapter": 29,
     "verse": 26,
     "content": {
-      "text": "“ ‘On the fifth day: nine bulls, two rams, fourteen male lambs a year old without defect;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the fifth day: nine bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -8111,8 +8422,8 @@
     "chapter": 29,
     "verse": 29,
     "content": {
-      "text": "“ ‘On the sixth day: eight bulls, two rams, fourteen male lambs a year old without defect;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the sixth day: eight bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -8132,8 +8443,8 @@
     "chapter": 29,
     "verse": 32,
     "content": {
-      "text": "“ ‘On the seventh day: seven bulls, two rams, fourteen male lambs a year old without defect;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the seventh day: seven bulls, two rams, fourteen male lambs a year old without defect;"
     }
   },
   {
@@ -8153,8 +8464,8 @@
     "chapter": 29,
     "verse": 35,
     "content": {
-      "text": "“ ‘On the eighth day you shall have a solemn assembly. You shall do no regular work;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘On the eighth day you shall have a solemn assembly. You shall do no regular work;"
     }
   },
   {
@@ -8180,8 +8491,8 @@
     "chapter": 29,
     "verse": 39,
     "content": {
-      "text": "“ ‘You shall offer these to Yahweh in your set feasts—in addition to your vows and your free will offerings—for your burnt offerings, your meal offerings, your drink offerings, and your peace offerings.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘You shall offer these to Yahweh in your set feasts—in addition to your vows and your free will offerings—for your burnt offerings, your meal offerings, your drink offerings, and your peace offerings.’ ”"
     }
   },
   {
@@ -8189,8 +8500,8 @@
     "chapter": 29,
     "verse": 40,
     "content": {
-      "text": "Moses told the children of Israel according to all that Yahweh commanded Moses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses told the children of Israel according to all that Yahweh commanded Moses."
     }
   },
   {
@@ -8198,8 +8509,8 @@
     "chapter": 30,
     "verse": 1,
     "content": {
-      "text": "Moses spoke to the heads of the tribes of the children of Israel, saying, “This is the thing which Yahweh has commanded.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses spoke to the heads of the tribes of the children of Israel, saying, “This is the thing which Yahweh has commanded."
     }
   },
   {
@@ -8213,8 +8524,8 @@
     "chapter": 30,
     "verse": 3,
     "content": {
-      "text": "“Also, when a woman vows a vow to Yahweh and binds herself by a pledge, being in her father’s house, in her youth,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Also, when a woman vows a vow to Yahweh and binds herself by a pledge, being in her father’s house, in her youth,"
     }
   },
   {
@@ -8234,8 +8545,8 @@
     "chapter": 30,
     "verse": 6,
     "content": {
-      "text": "“If she has a husband, while her vows are on her, or the rash utterance of her lips with which she has bound her soul,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If she has a husband, while her vows are on her, or the rash utterance of her lips with which she has bound her soul,"
     }
   },
   {
@@ -8255,8 +8566,8 @@
     "chapter": 30,
     "verse": 9,
     "content": {
-      "text": "“But the vow of a widow, or of her who is divorced, everything with which she has bound her soul shall stand against her.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“But the vow of a widow, or of her who is divorced, everything with which she has bound her soul shall stand against her."
     }
   },
   {
@@ -8264,8 +8575,8 @@
     "chapter": 30,
     "verse": 10,
     "content": {
-      "text": "“If she vowed in her husband’s house or bound her soul by a bond with an oath,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“If she vowed in her husband’s house or bound her soul by a bond with an oath,"
     }
   },
   {
@@ -8303,8 +8614,8 @@
     "chapter": 30,
     "verse": 16,
     "content": {
-      "text": "These are the statutes which Yahweh commanded Moses, between a man and his wife, between a father and his daughter, being in her youth, in her father’s house.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are the statutes which Yahweh commanded Moses, between a man and his wife, between a father and his daughter, being in her youth, in her father’s house."
     }
   },
   {
@@ -8312,8 +8623,8 @@
     "chapter": 31,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -8327,8 +8638,8 @@
     "chapter": 31,
     "verse": 3,
     "content": {
-      "text": "Moses spoke to the people, saying, “Arm men from among you for war, that they may go against Midian, to execute Yahweh’s vengeance on Midian.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses spoke to the people, saying, “Arm men from among you for war, that they may go against Midian, to execute Yahweh’s vengeance on Midian."
     }
   },
   {
@@ -8426,8 +8737,8 @@
     "chapter": 31,
     "verse": 19,
     "content": {
-      "text": "“Encamp outside of the camp for seven days. Whoever has killed any person, and whoever has touched any slain, purify yourselves on the third day and on the seventh day, you and your captives.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Encamp outside of the camp for seven days. Whoever has killed any person, and whoever has touched any slain, purify yourselves on the third day and on the seventh day, you and your captives."
     }
   },
   {
@@ -8441,8 +8752,8 @@
     "chapter": 31,
     "verse": 21,
     "content": {
-      "text": "Eleazar the priest said to the men of war who went to the battle, “This is the statute of the law which Yahweh has commanded Moses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Eleazar the priest said to the men of war who went to the battle, “This is the statute of the law which Yahweh has commanded Moses."
     }
   },
   {
@@ -8468,8 +8779,8 @@
     "chapter": 31,
     "verse": 25,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -8507,8 +8818,8 @@
     "chapter": 31,
     "verse": 31,
     "content": {
-      "text": "Moses and Eleazar the priest did as Yahweh commanded Moses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Eleazar the priest did as Yahweh commanded Moses."
     }
   },
   {
@@ -8516,8 +8827,8 @@
     "chapter": 31,
     "verse": 32,
     "content": {
-      "text": "Now the plunder, over and above the booty which the men of war took, was six hundred seventy-five thousand sheep,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the plunder, over and above the booty which the men of war took, was six hundred seventy-five thousand sheep,"
     }
   },
   {
@@ -8615,8 +8926,8 @@
     "chapter": 31,
     "verse": 48,
     "content": {
-      "text": "The officers who were over the thousands of the army, the captains of thousands, and the captains of hundreds, came near to Moses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The officers who were over the thousands of the army, the captains of thousands, and the captains of hundreds, came near to Moses."
     }
   },
   {
@@ -8636,8 +8947,8 @@
     "chapter": 31,
     "verse": 51,
     "content": {
-      "text": "Moses and Eleazar the priest took their gold, even all worked jewels.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses and Eleazar the priest took their gold, even all worked jewels."
     }
   },
   {
@@ -8669,8 +8980,8 @@
     "chapter": 32,
     "verse": 1,
     "content": {
-      "text": "Now the children of Reuben and the children of Gad had a very great multitude of livestock. They saw the land of Jazer, and the land of Gilead. Behold, the place was a place for livestock.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now the children of Reuben and the children of Gad had a very great multitude of livestock. They saw the land of Jazer, and the land of Gilead. Behold, the place was a place for livestock."
     }
   },
   {
@@ -8702,8 +9013,8 @@
     "chapter": 32,
     "verse": 6,
     "content": {
-      "text": "Moses said to the children of Gad, and to the children of Reuben, “Shall your brothers go to war while you sit here?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to the children of Gad, and to the children of Reuben, “Shall your brothers go to war while you sit here?"
     }
   },
   {
@@ -8753,8 +9064,8 @@
     "chapter": 32,
     "verse": 14,
     "content": {
-      "text": "“Behold, you have risen up in your fathers’ place, an increase of sinful men, to increase the fierce anger of Yahweh toward Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Behold, you have risen up in your fathers’ place, an increase of sinful men, to increase the fierce anger of Yahweh toward Israel."
     }
   },
   {
@@ -8768,8 +9079,8 @@
     "chapter": 32,
     "verse": 16,
     "content": {
-      "text": "They came near to him, and said, “We will build sheepfolds here for our livestock, and cities for our little ones;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They came near to him, and said, “We will build sheepfolds here for our livestock, and cities for our little ones;"
     }
   },
   {
@@ -8795,8 +9106,8 @@
     "chapter": 32,
     "verse": 20,
     "content": {
-      "text": "Moses said to them: “If you will do this thing, if you will arm yourselves to go before Yahweh to the war,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses said to them: “If you will do this thing, if you will arm yourselves to go before Yahweh to the war,"
     }
   },
   {
@@ -8816,8 +9127,8 @@
     "chapter": 32,
     "verse": 23,
     "content": {
-      "text": "“But if you will not do so, behold, you have sinned against Yahweh; and be sure your sin will find you out.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“But if you will not do so, behold, you have sinned against Yahweh; and be sure your sin will find you out."
     }
   },
   {
@@ -8831,8 +9142,8 @@
     "chapter": 32,
     "verse": 25,
     "content": {
-      "text": "The children of Gad and the children of Reuben spoke to Moses, saying, “Your servants will do as my lord commands.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Gad and the children of Reuben spoke to Moses, saying, “Your servants will do as my lord commands."
     }
   },
   {
@@ -8852,8 +9163,8 @@
     "chapter": 32,
     "verse": 28,
     "content": {
-      "text": "So Moses commanded concerning them to Eleazar the priest, and to Joshua the son of Nun, and to the heads of the fathers’ households of the tribes of the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Moses commanded concerning them to Eleazar the priest, and to Joshua the son of Nun, and to the heads of the fathers’ households of the tribes of the children of Israel."
     }
   },
   {
@@ -8873,8 +9184,8 @@
     "chapter": 32,
     "verse": 31,
     "content": {
-      "text": "The children of Gad and the children of Reuben answered, saying, “As Yahweh has said to your servants, so will we do.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The children of Gad and the children of Reuben answered, saying, “As Yahweh has said to your servants, so will we do."
     }
   },
   {
@@ -8888,8 +9199,8 @@
     "chapter": 32,
     "verse": 33,
     "content": {
-      "text": "Moses gave to them, even to the children of Gad, and to the children of Reuben, and to the half-tribe of Manasseh the son of Joseph, the kingdom of Sihon king of the Amorites, and the kingdom of Og king of Bashan; the land, according to its cities and borders, even the cities of the surrounding land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses gave to them, even to the children of Gad, and to the children of Reuben, and to the half-tribe of Manasseh the son of Joseph, the kingdom of Sihon king of the Amorites, and the kingdom of Og king of Bashan; the land, according to its cities and borders, even the cities of the surrounding land."
     }
   },
   {
@@ -8951,8 +9262,8 @@
     "chapter": 33,
     "verse": 1,
     "content": {
-      "text": "These are the journeys of the children of Israel, when they went out of the land of Egypt by their armies under the hand of Moses and Aaron.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are the journeys of the children of Israel, when they went out of the land of Egypt by their armies under the hand of Moses and Aaron."
     }
   },
   {
@@ -9278,8 +9589,8 @@
     "chapter": 33,
     "verse": 55,
     "content": {
-      "text": "“But if you do not drive out the inhabitants of the land from before you, then those you let remain of them will be like pricks in your eyes and thorns in your sides. They will harass you in the land in which you dwell.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“But if you do not drive out the inhabitants of the land from before you, then those you let remain of them will be like pricks in your eyes and thorns in your sides. They will harass you in the land in which you dwell."
     }
   },
   {
@@ -9293,8 +9604,8 @@
     "chapter": 34,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -9326,8 +9637,8 @@
     "chapter": 34,
     "verse": 6,
     "content": {
-      "text": "“ ‘For the western border, you shall have the great sea and its border. This shall be your west border.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘For the western border, you shall have the great sea and its border. This shall be your west border."
     }
   },
   {
@@ -9335,8 +9646,8 @@
     "chapter": 34,
     "verse": 7,
     "content": {
-      "text": "“ ‘This shall be your north border: from the great sea you shall mark out for yourselves Mount Hor.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘This shall be your north border: from the great sea you shall mark out for yourselves Mount Hor."
     }
   },
   {
@@ -9356,8 +9667,8 @@
     "chapter": 34,
     "verse": 10,
     "content": {
-      "text": "“ ‘You shall mark out your east border from Hazar Enan to Shepham.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘You shall mark out your east border from Hazar Enan to Shepham."
     }
   },
   {
@@ -9377,8 +9688,8 @@
     "chapter": 34,
     "verse": 13,
     "content": {
-      "text": "Moses commanded the children of Israel, saying, “This is the land which you shall inherit by lot, which Yahweh has commanded to give to the nine tribes, and to the half-tribe;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses commanded the children of Israel, saying, “This is the land which you shall inherit by lot, which Yahweh has commanded to give to the nine tribes, and to the half-tribe;"
     }
   },
   {
@@ -9398,8 +9709,8 @@
     "chapter": 34,
     "verse": 16,
     "content": {
-      "text": "Yahweh spoke to Moses, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses, saying,"
     }
   },
   {
@@ -9485,8 +9796,8 @@
     "chapter": 35,
     "verse": 1,
     "content": {
-      "text": "Yahweh spoke to Moses in the plains of Moab by the Jordan at Jericho, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh spoke to Moses in the plains of Moab by the Jordan at Jericho, saying,"
     }
   },
   {
@@ -9507,12 +9818,12 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "“The pasture lands of the cities, which you shall give to the Levites, shall be from the wall of the city and outward one thousand cubits",
         "foot": {
           "type": "stu",
           "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
-        },
-        "paragraph": true
+        }
       },
       " around it."
     ]
@@ -9528,8 +9839,8 @@
     "chapter": 35,
     "verse": 6,
     "content": {
-      "text": "“The cities which you shall give to the Levites, they shall be the six cities of refuge, which you shall give for the man slayer to flee to. Besides them you shall give forty-two cities.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“The cities which you shall give to the Levites, they shall be the six cities of refuge, which you shall give for the man slayer to flee to. Besides them you shall give forty-two cities."
     }
   },
   {
@@ -9591,8 +9902,8 @@
     "chapter": 35,
     "verse": 16,
     "content": {
-      "text": "“ ‘But if he struck him with an instrument of iron, so that he died, he is a murderer. The murderer shall surely be put to death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘But if he struck him with an instrument of iron, so that he died, he is a murderer. The murderer shall surely be put to death."
     }
   },
   {
@@ -9630,8 +9941,8 @@
     "chapter": 35,
     "verse": 22,
     "content": {
-      "text": "“ ‘But if he shoved him suddenly without hostility, or hurled on him anything without lying in wait,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘But if he shoved him suddenly without hostility, or hurled on him anything without lying in wait,"
     }
   },
   {
@@ -9657,8 +9968,8 @@
     "chapter": 35,
     "verse": 26,
     "content": {
-      "text": "“ ‘But if the man slayer shall at any time go beyond the border of his city of refuge where he flees,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘But if the man slayer shall at any time go beyond the border of his city of refuge where he flees,"
     }
   },
   {
@@ -9678,8 +9989,8 @@
     "chapter": 35,
     "verse": 29,
     "content": {
-      "text": "“ ‘These things shall be for a statute and ordinance to you throughout your generations in all your dwellings.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘These things shall be for a statute and ordinance to you throughout your generations in all your dwellings."
     }
   },
   {
@@ -9687,8 +9998,8 @@
     "chapter": 35,
     "verse": 30,
     "content": {
-      "text": "“ ‘Whoever kills any person, the murderer shall be slain based on the testimony of witnesses; but one witness shall not testify alone against any person so that he dies.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘Whoever kills any person, the murderer shall be slain based on the testimony of witnesses; but one witness shall not testify alone against any person so that he dies."
     }
   },
   {
@@ -9696,8 +10007,8 @@
     "chapter": 35,
     "verse": 31,
     "content": {
-      "text": "“ ‘Moreover you shall take no ransom for the life of a murderer who is guilty of death. He shall surely be put to death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘Moreover you shall take no ransom for the life of a murderer who is guilty of death. He shall surely be put to death."
     }
   },
   {
@@ -9705,8 +10016,8 @@
     "chapter": 35,
     "verse": 32,
     "content": {
-      "text": "“ ‘You shall take no ransom for him who has fled to his city of refuge, that he may come again to dwell in the land before the death of the priest.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘You shall take no ransom for him who has fled to his city of refuge, that he may come again to dwell in the land before the death of the priest."
     }
   },
   {
@@ -9714,8 +10025,8 @@
     "chapter": 35,
     "verse": 33,
     "content": {
-      "text": "“ ‘So you shall not pollute the land where you live; for blood pollutes the land. No atonement can be made for the land for the blood that is shed in it, but by the blood of him who shed it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“ ‘So you shall not pollute the land where you live; for blood pollutes the land. No atonement can be made for the land for the blood that is shed in it, but by the blood of him who shed it."
     }
   },
   {
@@ -9729,8 +10040,8 @@
     "chapter": 36,
     "verse": 1,
     "content": {
-      "text": "The heads of the fathers’ households of the family of the children of Gilead, the son of Machir, the son of Manasseh, of the families of the sons of Joseph, came near and spoke before Moses and before the princes, the heads of the fathers’ households of the children of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The heads of the fathers’ households of the family of the children of Gilead, the son of Machir, the son of Manasseh, of the families of the sons of Joseph, came near and spoke before Moses and before the princes, the heads of the fathers’ households of the children of Israel."
     }
   },
   {
@@ -9756,8 +10067,8 @@
     "chapter": 36,
     "verse": 5,
     "content": {
-      "text": "Moses commanded the children of Israel according to Yahweh’s word, saying, “The tribe of the sons of Joseph speak what is right.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moses commanded the children of Israel according to Yahweh’s word, saying, “The tribe of the sons of Joseph speak what is right."
     }
   },
   {
@@ -9789,8 +10100,8 @@
     "chapter": 36,
     "verse": 10,
     "content": {
-      "text": "The daughters of Zelophehad did as Yahweh commanded Moses:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The daughters of Zelophehad did as Yahweh commanded Moses:"
     }
   },
   {
@@ -9810,8 +10121,8 @@
     "chapter": 36,
     "verse": 13,
     "content": {
-      "text": "These are the commandments and the ordinances which Yahweh commanded by Moses to the children of Israel in the plains of Moab by the Jordan at Jericho.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These are the commandments and the ordinances which Yahweh commanded by Moses to the children of Israel in the plains of Moab by the Jordan at Jericho."
     }
   }
 ]

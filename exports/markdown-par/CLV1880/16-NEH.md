@@ -11,6 +11,7 @@
 <sup>9</sup> et si revertamini ad me et custodiatis mandata mea et faciatis ea etiam si abducti fueritis ad extrema caeli inde congregabo vos et inducam in locum quem elegi ut habitaret nomen meum ibi
 <sup>10</sup> et ipsi servi tui et populus tuus quos redemisti in fortitudine tua magna et in manu tua valida
 <sup>11</sup> obsecro Domine sit auris tua adtendens ad orationem servi tui et ad orationem servorum tuorum qui volunt timere nomen tuum et dirige servum tuum hodie et da ei misericordiam ante virum hunc ego enim eram pincerna regis
+
 ## Chapter 2
 
 <sup>1</sup> factum est autem in mense nisan anno vicesimo Artarxersis regis et vinum erat ante eum et levavi vinum et dedi regi et non eram quasi languidus ante faciem eius
@@ -33,6 +34,7 @@
 <sup>18</sup> et indicavi eis manum Dei mei quod esset bona mecum et verba regis quae locutus est mihi et aio surgamus et aedificemus et confortatae sunt manus eorum in bono
 <sup>19</sup> audierunt autem Sanaballat Horonites et Tobias servus ammanites et Gosem Arabs et subsannaverunt nos et despexerunt dixeruntque quae est haec res quam facitis numquid contra regem vos rebellatis
 <sup>20</sup> et reddidi eis sermonem dixique ad eos Deus caeli ipse nos iuvat et nos servi eius sumus surgamus et aedificemus vobis autem non est pars et iustitia et memoria in Hierusalem
+
 ## Chapter 3
 
 <sup>1</sup> et surrexit Eliasib sacerdos magnus et fratres eius sacerdotes et aedificaverunt portam Gregis ipsi sanctificaverunt eam et statuerunt valvas eius et usque ad turrem centum cubitorum sanctificaverunt eam usque ad turrem Ananehel
@@ -65,8 +67,12 @@
 <sup>28</sup> sursum autem a porta Equorum aedificaverunt sacerdotes unusquisque contra domum suam
 <sup>29</sup> post eos aedificavit Seddo filius Emmer contra domum suam et post eum aedificavit Semeia filius Secheniae custos portae orientalis
 <sup>30</sup> post eum aedificavit Anania filius Selemiae et Anon filius Selo sextus mensuram secundam post eum aedificavit Mosollam filius Barachiae contra gazofilacium suum
-<sup>31</sup> (3-30) post eum aedificavit Melchias filius aurificis usque ad domum Nathinneorum et scruta vendentium contra portam Iudicialem et usque ad cenaculum Anguli
-<sup>32</sup> (3-31) et inter cenaculum Anguli in porta Gregis aedificaverunt artifices et negotiatores
+<sup>31</sup> <sup>a</sup>post eum aedificavit Melchias filius aurificis usque ad domum Nathinneorum et scruta vendentium contra portam Iudicialem et usque ad cenaculum Anguli
+<sup>32</sup> <sup>b</sup>et inter cenaculum Anguli in porta Gregis aedificaverunt artifices et negotiatores
+
+> - <sup>a</sup> 31. Originally verse 3:30.
+> - <sup>b</sup> 32. Originally verse 3:31.
+
 ## Chapter 4
 
 <sup>1</sup> factum est autem cum audisset Sanaballat quod aedificaremus murum iratus est valde et motus nimis subsannavit Iudaeos
@@ -92,6 +98,7 @@
 <sup>21</sup> et nos ipsi faciamus opus et media pars nostrum teneat lanceas ab ascensu aurorae donec egrediantur astra
 <sup>22</sup> in tempore quoque illo dixi populo unusquisque cum puero suo maneat in medio Hierusalem et sint vobis vices per noctem et diem ad operandum
 <sup>23</sup> ego autem et fratres mei et pueri mei et custodes qui erant post me non deponebamus vestimenta nostra unusquisque tantum nudabatur ad baptismum
+
 ## Chapter 5
 
 <sup>1</sup> et factus est clamor populi et uxorum eius magnus adversus fratres suos iudaeos
@@ -113,6 +120,7 @@
 <sup>17</sup> Iudaei quoque et magistratus centum quinquaginta viri et qui veniebant ad nos de gentibus quae in circuitu nostro sunt in mensa mea erant
 <sup>18</sup> parabatur autem mihi per dies singulos bos unus arietes sex electi exceptis volatilibus et inter dies decem vina diversa et alia multa tribuebam insuper et annonas ducatus mei non quaesivi valde enim erat adtenuatus populus
 <sup>19</sup> memento mei Deus meus in bonum secundum omnia quae feci populo huic
+
 ## Chapter 6
 
 <sup>1</sup> factum est autem cum audisset Sanaballat et Tobia et Gosem Arabs et ceteri inimici nostri quod aedificassem ego murum et non esset in ipso residua interruptio usque ad tempus autem illud valvas non posueram in portis
@@ -134,6 +142,7 @@
 <sup>17</sup> sed et in diebus illis multae optimatium Iudaeorum epistulae mittebantur ad Tobiam et a Tobia veniebant ad eos
 <sup>18</sup> multi enim erant in Iudaea habentes iuramentum eius quia gener erat Secheniae filii Orei et Iohanan filius eius acceperat filiam Mosollam filii Barachiae
 <sup>19</sup> sed et laudabant eum coram me et verba mea nuntiabant ei et Tobias mittebat epistulas ut terreret me
+
 ## Chapter 7
 
 <sup>1</sup> postquam autem aedificatus est murus et posui valvas et recensui ianitores et cantores et Levitas
@@ -208,6 +217,7 @@
 <sup>71</sup> et de principibus familiarum dederunt in thesaurum operis auri dragmas viginti milia et argenti minas duo milia ducentas
 <sup>72</sup> et quod dedit reliquus populus auri dragmas viginti milia et argenti minas duo milia et tunicas sacerdotales sexaginta septem
 <sup>73</sup> habitaverunt autem sacerdotes et Levitae et ianitores et cantores et reliquum vulgus et Nathinnei et omnis Israhel in civitatibus suis
+
 ## Chapter 8
 
 <sup>1</sup> et venerat mensis septimus filii autem Israhel erant in civitatibus suis congregatusque est omnis populus quasi vir unus ad plateam quae est ante portam Aquarum et dixerunt Ezrae scribae ut adferret librum legis Mosi quam praecepit Dominus Israheli
@@ -228,6 +238,7 @@
 <sup>16</sup> et egressus est populus et adtulerunt feceruntque sibi tabernacula unusquisque in domate suo et in atriis suis et in atriis domus Dei et in platea portae Aquarum et in platea portae Ephraim
 <sup>17</sup> fecit ergo universa ecclesia eorum qui redierant de captivitate tabernacula et habitaverunt in tabernaculis non enim fecerant a diebus Iosue filii Nun taliter filii Israhel usque ad diem illum et fuit laetitia magna nimis
 <sup>18</sup> legit autem in libro legis Dei per dies singulos a die primo usque ad diem novissimum et fecerunt sollemnitatem septem diebus et in die octavo collectum iuxta ritum
+
 ## Chapter 9
 
 <sup>1</sup> in die autem vicesimo quarto mensis huius convenerunt filii Israhel in ieiunio et in saccis et humus super eos
@@ -268,6 +279,7 @@
 <sup>36</sup> ecce nos ipsi hodie servi sumus et terram quam dedisti patribus nostris ut comederent panem eius et quae bona sunt eius et nos ipsi servi sumus in ea
 <sup>37</sup> et fruges eius multiplicantur regibus quos posuisti super nos propter peccata nostra et in corporibus nostris dominantur et in iumentis nostris secundum voluntatem suam et in tribulatione magna sumus
 <sup>38</sup> super omnibus ergo his nos ipsi percutimus foedus et scribimus et signant principes nostri Levitae nostri et sacerdotes nostri
+
 ## Chapter 10
 
 <sup>1</sup> signatores autem fuerunt Neemias Athersatha filius Achelai et Sedecias
@@ -309,6 +321,7 @@
 <sup>37</sup> et primitias ciborum nostrorum et libaminum nostrorum et poma omnis ligni vindemiae quoque et olei adferemus sacerdotibus ad gazofilacium Dei nostri et decimam partem terrae nostrae Levitis ipsi Levitae decimas accipient ex omnibus civitatibus operum nostrorum
 <sup>38</sup> erit autem sacerdos filius Aaron cum Levitis in decimis Levitarum et Levitae offerent decimam partem decimae suae in domum Dei nostri ad gazofilacium in domo thesauri
 <sup>39</sup> ad gazofilacium enim deportabunt filii Israhel et filii Levi primitias frumenti vini et olei et ibi erunt vasa sanctificata et sacerdotes et cantores et ianitores et ministri et non dimittemus domum Dei nostri
+
 ## Chapter 11
 
 <sup>1</sup> habitaverunt autem principes populi in Hierusalem reliqua vero plebs misit sortem ut tollerent unam partem de decem qui habitaturi essent in Hierusalem in civitate sancta novem vero partes in civitatibus
@@ -347,6 +360,7 @@
 <sup>34</sup> Adid Seboim Neballa Loth
 <sup>35</sup> et Ono valle Artificum
 <sup>36</sup> et de Levitis partitiones Iuda et Beniamin
+
 ## Chapter 12
 
 <sup>1</sup> hii autem sacerdotes et Levitae qui ascenderunt cum Zorobabel filio Salathihel et Iosue Saraia Hieremias Ezra
@@ -382,20 +396,36 @@
 <sup>31</sup> ascendere autem feci principes Iuda super murum et statui duos choros laudantium magnos et ierunt ad dexteram super murum ad portam Sterquilinii
 <sup>32</sup> et ivit post eos Osaias et media pars principum Iuda
 <sup>33</sup> et Azarias Ezras et Mosollam
-<sup>34</sup> (12-33) Iuda et Beniamin et Semeia et Hieremia
-<sup>35</sup> (12-34) et de filiis sacerdotum in tubis Zaccharias filius Ionathan filius Semeiae filius Mathaniae filius Michaiae filius Zecchur filius Asaph
-<sup>36</sup> (12-35) et fratres eius Semeia et Azarel Malalai Galalai Maai Nathanel et Iuda et Anani in vasis cantici David viri Dei et Ezras scriba ante eos in porta Fontis
-<sup>37</sup> (12-36) et contra eos ascenderunt in gradibus civitatis David in ascensu muri super domum David et usque ad portam Aquarum ad orientem
-<sup>38</sup> (12-37) et chorus secundus gratias referentium ibat ex adverso et ego post eum et media pars populi super murum et super turrem Furnorum et usque ad murum latissimum
-<sup>39</sup> (12-38) et super portam Ephraim et super portam Antiquam et super portam Piscium et turrem Ananehel et turrem Ema et usque ad portam Gregis et steterunt in porta Custodiae
-<sup>40</sup> (12-39) steteruntque duo chori laudantium in domo Dei et ego et dimidia pars magistratuum mecum
-<sup>41</sup> (12-40) et sacerdotes Eliachim Maasia Miniamin Michea Elioenai Zaccharia Anania in tubis
-<sup>42</sup> (12-41) et Maasia et Semea et Eleazar et Azi et Iohanan et Melchia et Elam et Ezer et clare cecinerunt cantores et Iezraia praepositus
-<sup>43</sup> (12-42) et immolaverunt in die illa victimas magnas et laetati sunt Deus enim laetificaverat eos laetitia magna sed et uxores eorum et liberi gavisi sunt et audita est laetitia Hierusalem procul
-<sup>44</sup> (12-43) recensuerunt quoque in die illa viros super gazofilacia thesauri ad libamina et ad primitias et ad decimas ut introferrent per eos principes civitatis in decore gratiarum actionis sacerdotes et Levitas quia laetatus est Iuda in sacerdotibus et Levitis adstantibus
-<sup>45</sup> (12-44) et custodierunt observationem Dei sui et observationem expiationis et cantores et ianitores iuxta praeceptum David et Salomonis filii eius
-<sup>46</sup> (12-45) quia in diebus David et Asaph ab exordio erant principes constituti cantorum in carmine laudantium et confitentium Deo
-<sup>47</sup> (12-46) et omnis Israhel in diebus Zorobabel et in diebus Neemiae dabat partes cantoribus et ianitoribus per dies singulos et sanctificabant Levitas et Levitae sanctificabant filios Aaron
+<sup>34</sup> <sup>a</sup>Iuda et Beniamin et Semeia et Hieremia
+<sup>35</sup> <sup>b</sup>et de filiis sacerdotum in tubis Zaccharias filius Ionathan filius Semeiae filius Mathaniae filius Michaiae filius Zecchur filius Asaph
+<sup>36</sup> <sup>c</sup>et fratres eius Semeia et Azarel Malalai Galalai Maai Nathanel et Iuda et Anani in vasis cantici David viri Dei et Ezras scriba ante eos in porta Fontis
+<sup>37</sup> <sup>d</sup>et contra eos ascenderunt in gradibus civitatis David in ascensu muri super domum David et usque ad portam Aquarum ad orientem
+<sup>38</sup> <sup>e</sup>et chorus secundus gratias referentium ibat ex adverso et ego post eum et media pars populi super murum et super turrem Furnorum et usque ad murum latissimum
+<sup>39</sup> <sup>f</sup>et super portam Ephraim et super portam Antiquam et super portam Piscium et turrem Ananehel et turrem Ema et usque ad portam Gregis et steterunt in porta Custodiae
+<sup>40</sup> <sup>g</sup>steteruntque duo chori laudantium in domo Dei et ego et dimidia pars magistratuum mecum
+<sup>41</sup> <sup>h</sup>et sacerdotes Eliachim Maasia Miniamin Michea Elioenai Zaccharia Anania in tubis
+<sup>42</sup> <sup>i</sup>et Maasia et Semea et Eleazar et Azi et Iohanan et Melchia et Elam et Ezer et clare cecinerunt cantores et Iezraia praepositus
+<sup>43</sup> <sup>j</sup>et immolaverunt in die illa victimas magnas et laetati sunt Deus enim laetificaverat eos laetitia magna sed et uxores eorum et liberi gavisi sunt et audita est laetitia Hierusalem procul
+<sup>44</sup> <sup>k</sup>recensuerunt quoque in die illa viros super gazofilacia thesauri ad libamina et ad primitias et ad decimas ut introferrent per eos principes civitatis in decore gratiarum actionis sacerdotes et Levitas quia laetatus est Iuda in sacerdotibus et Levitis adstantibus
+<sup>45</sup> <sup>l</sup>et custodierunt observationem Dei sui et observationem expiationis et cantores et ianitores iuxta praeceptum David et Salomonis filii eius
+<sup>46</sup> <sup>m</sup>quia in diebus David et Asaph ab exordio erant principes constituti cantorum in carmine laudantium et confitentium Deo
+<sup>47</sup> <sup>n</sup>et omnis Israhel in diebus Zorobabel et in diebus Neemiae dabat partes cantoribus et ianitoribus per dies singulos et sanctificabant Levitas et Levitae sanctificabant filios Aaron
+
+> - <sup>a</sup> 34. Originally verse 12:33.
+> - <sup>b</sup> 35. Originally verse 12:34.
+> - <sup>c</sup> 36. Originally verse 12:35.
+> - <sup>d</sup> 37. Originally verse 12:36.
+> - <sup>e</sup> 38. Originally verse 12:37.
+> - <sup>f</sup> 39. Originally verse 12:38.
+> - <sup>g</sup> 40. Originally verse 12:39.
+> - <sup>h</sup> 41. Originally verse 12:40.
+> - <sup>i</sup> 42. Originally verse 12:41.
+> - <sup>j</sup> 43. Originally verse 12:42.
+> - <sup>k</sup> 44. Originally verse 12:43.
+> - <sup>l</sup> 45. Originally verse 12:44.
+> - <sup>m</sup> 46. Originally verse 12:45.
+> - <sup>n</sup> 47. Originally verse 12:46.
+
 ## Chapter 13
 
 <sup>1</sup> in die autem illo lectum est in volumine Mosi audiente populo et inventum est scriptum in eo quod non debeat introire Ammanites et Moabites in ecclesiam Dei usque in aeternum

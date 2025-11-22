@@ -22,6 +22,7 @@
 <sup>20</sup> And God doth good to the midwives, and the people multiply, and are very mighty;
 <sup>21</sup> and it cometh to pass, because the midwives have feared God, that He maketh for them households;
 <sup>22</sup> and Pharaoh layeth a charge on all his people, saying, ‘Every son who is born-into the River ye do cast him, and every daughter ye do keep alive.’
+
 ## Chapter 2
 
 <sup>1</sup> And there goeth a man of the house of Levi, and he taketh the daughter of Levi,
@@ -49,6 +50,7 @@
 <sup>23</sup> And it cometh to pass during these many days, that the king of Egypt dieth, and the sons of Israel sigh because of the service, and cry, and their cry goeth up unto God, because of the service;
 <sup>24</sup> and God heareth their groaning, and God remembereth His covenant with Abraham, with Isaac, and with Jacob;
 <sup>25</sup> and God seeth the sons of Israel, and God knoweth.
+
 ## Chapter 3
 
 <sup>1</sup> And Moses hath been feeding the flock of Jethro his father-in-law, priest of Midian, and he leadeth the flock behind the wilderness, and cometh in unto the mount of God, to Horeb;
@@ -73,6 +75,7 @@
 <sup>20</sup> and I have put forth My hand, and have smitten Egypt with all My wonders, which I do in its midst-and afterwards he doth send you away.
 <sup>21</sup> ‘And I have given the grace of this people in the eyes of the Egyptians, and it hath come to pass, when ye go, ye go not empty;
 <sup>22</sup> and every woman hath asked from her neighbour, and from her who is sojourning in her house, vessels of silver, and vessels of gold, and garments, and ye have put them on your sons and on your daughters, and have spoiled the Egyptians.’
+
 ## Chapter 4
 
 <sup>1</sup> And Moses answereth and saith, ‘And, if they do not give credence to me, nor hearken to my voice, and say, Jehovah hath not appeared unto thee?’
@@ -106,6 +109,7 @@
 <sup>29</sup> And Moses goeth-Aaron also-and they gather all the elders of the sons of Israel,
 <sup>30</sup> and Aaron speaketh all the words which Jehovah hath spoken unto Moses, and doth the signs before the eyes of the people;
 <sup>31</sup> and the people believe when they hear that Jehovah hath looked after the sons of Israel, and that He hath seen their affliction; and they bow and do obeisance.
+
 ## Chapter 5
 
 <sup>1</sup> And afterwards have Moses and Aaron entered, and they say unto Pharaoh, ‘Thus said Jehovah, God of Israel, Send My people away, and they keep a feast to Me in the wilderness;’
@@ -131,6 +135,7 @@
 <sup>21</sup> and say unto them, ‘Jehovah look upon you, and judge, because ye have caused our fragrance to stink in the eyes of Pharaoh, and in the eyes of his servants-to give a sword into their hand to slay us.’
 <sup>22</sup> And Moses turneth back unto Jehovah, and saith, ‘Lord, why hast Thou done evil to this people? why is this?-Thou hast sent me!
 <sup>23</sup> and since I have come unto Pharaoh, to speak in Thy name, he hath done evil to this people, and Thou hast not at all delivered Thy people.’
+
 ## Chapter 6
 
 <sup>1</sup> And Jehovah saith unto Moses, ‘Now dost thou see that which I do to Pharaoh, for with a strong hand he doth send them away, yea, with a strong hand he doth cast them out of his land.’
@@ -163,6 +168,7 @@
 <sup>28</sup> And it cometh to pass in the day of Jehovah’s speaking unto Moses in the land of Egypt,
 <sup>29</sup> that Jehovah speaketh unto Moses, saying, ‘I am Jehovah, speak unto Pharaoh king of Egypt all that I am speaking unto thee.’
 <sup>30</sup> And Moses saith before Jehovah, ‘Lo, I am of uncircumcised lips, and how doth Pharaoh hearken unto me?’
+
 ## Chapter 7
 
 <sup>1</sup> And Jehovah saith unto Moses, ‘See, I have given thee a god to Pharaoh, and Aaron thy brother is thy prophet;
@@ -190,6 +196,7 @@
 <sup>23</sup> and Pharaoh turneth and goeth in unto his house, and hath not set his heart even to this;
 <sup>24</sup> and all the Egyptians seek water round about the river to drink, for they have not been able to drink of the waters of the River.
 <sup>25</sup> And seven days are completed after Jehovah’s smiting the River,
+
 ## Chapter 8
 
 <sup>1</sup> And Jehovah saith unto Moses, ‘Go in unto Pharaoh: and thou hast said unto him, Thus said Jehovah, Send My people away, and they serve Me;
@@ -224,6 +231,7 @@
 <sup>30</sup> And Moses goeth out from Pharaoh, and maketh supplication unto Jehovah,
 <sup>31</sup> and Jehovah doth according to the word of Moses, and turneth aside the beetle from Pharaoh, from his servants, and from his people-there hath not been left one;
 <sup>32</sup> and Pharaoh hardeneth his heart also at this time, and hath not sent the people away.
+
 ## Chapter 9
 
 <sup>1</sup> And Jehovah saith unto Moses, ‘Go in unto Pharaoh, and thou hast spoken unto him, Thus said Jehovah, God of the Hebrews, Send My people away, and they serve me,
@@ -261,6 +269,7 @@
 <sup>33</sup> And Moses goeth out from Pharaoh, from the city, and spreadeth his hands unto Jehovah, and the voices and the hail cease, and rain hath not been poured out to the earth;
 <sup>34</sup> and Pharaoh seeth that the rain hath ceased, and the hail and the voices, and he continueth to sin, and hardeneth his heart, he and his servants;
 <sup>35</sup> and the heart of Pharaoh is strong, and he hath not sent the sons of Israel away, as Jehovah hath spoken by the hand of Moses.
+
 ## Chapter 10
 
 <sup>1</sup> And Jehovah saith unto Moses, ‘Go in unto Pharaoh, for I have declared hard his heart, and the heart of his servants, so that I set these My signs in their midst,
@@ -292,6 +301,7 @@
 <sup>27</sup> And Jehovah strengtheneth the heart of Pharaoh, and he hath not been willing to send them away;
 <sup>28</sup> and Pharaoh saith to him, ‘Go from me, take heed to thyself, add not to see my face, for in the day thou seest my face thou diest;’
 <sup>29</sup> and Moses saith, ‘Rightly hast thou spoken, I add not any more to see thy face.’
+
 ## Chapter 11
 
 <sup>1</sup> And Jehovah saith unto Moses, ‘One plague more I do bring in on Pharaoh, and on Egypt, afterwards he doth send you away from this; when he is sending you away, he surely casteth you out altogether from this place;
@@ -304,6 +314,7 @@
 <sup>8</sup> and all these thy servants have come down unto me, and bowed themselves to me, saying, Go out, thou and all the people who are at thy feet; and afterwards I do go out,’-and he goeth out from Pharaoh in the heat of anger.
 <sup>9</sup> And Jehovah saith unto Moses, ‘Pharaoh doth not hearken unto you, so as to multiply My wonders in the land of Egypt;’
 <sup>10</sup> and Moses and Aaron have done all these wonders before Pharaoh, and Jehovah strengtheneth Pharaoh’s heart, and he hath not sent the sons of Israel out of his land.
+
 ## Chapter 12
 
 <sup>1</sup> And Jehovah speaketh unto Moses and unto Aaron, in the land of Egypt, saying,
@@ -357,6 +368,7 @@
 <sup>49</sup> one law is to a native, and to a sojourner who is sojourning in your midst.’
 <sup>50</sup> And all the sons of Israel do as Jehovah commanded Moses and Aaron; so have they done.
 <sup>51</sup> And it cometh to pass in this self-same day, Jehovah hath brought out the sons of Israel from the land of Egypt, by their hosts.
+
 ## Chapter 13
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -381,6 +393,7 @@
 <sup>20</sup> And they journey from Succoth, and encamp in Etham at the extremity of the wilderness,
 <sup>21</sup> and Jehovah is going before them by day in a pillar of a cloud, to lead them in the way, and by night in a pillar of fire, to give light to them, to go by day and by night;
 <sup>22</sup> He removeth not the pillar of the cloud by day, and the pillar of the fire by night, from before the people.
+
 ## Chapter 14
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -414,6 +427,7 @@
 <sup>29</sup> And the sons of Israel have gone on dry land in the midst of the sea, and the waters are to them a wall, on their right and on their left;
 <sup>30</sup> and Jehovah saveth Israel in that day out of the hand of the Egyptians, and Israel seeth the Egyptians dead on the sea-shore,
 <sup>31</sup> and Israel seeth the great hand with which Jehovah hath wrought against the Egyptians, and the people fear Jehovah, and remain stedfast in Jehovah, and in Moses His servant.
+
 ## Chapter 15
 
 <sup>1</sup> Then singeth Moses and the sons of Israel this song to Jehovah, and they speak, saying:- ‘I sing to Jehovah, For triumphing He hath triumphed; The horse and its rider He hath thrown into the sea.
@@ -443,6 +457,7 @@
 <sup>25</sup> and he crieth unto Jehovah, and Jehovah sheweth him a tree, and he casteth unto the waters, and the waters become sweet. There He hath made for them a statute, and an ordinance, and there He hath tried them,
 <sup>26</sup> and He saith, ‘If thou dost really hearken to the voice of Jehovah thy God, and dost that which is right in His eyes, and hast hearkened to His commands, and kept all His statutes: none of the sickness which I laid on the Egyptians do I lay on thee, for I, Jehovah, am healing thee.
 <sup>27</sup> And they come to Elim, and there are twelve fountains of water, and seventy palm trees; and they encamp there by the waters.
+
 ## Chapter 16
 
 <sup>1</sup> And they journey from Elim, and all the company of the sons of Israel come in unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month of their going out from the land of Egypt.
@@ -481,6 +496,7 @@
 <sup>34</sup> as Jehovah hath given commandment unto Moses, so doth Aaron let it rest before the Testimony, for a charge.
 <sup>35</sup> And the sons of Israel have eaten the manna forty years, until their coming in unto the land to be inhabited; the manna they have eaten till their coming in unto the extremity of the land of Canaan.
 <sup>36</sup> and the omer is a tenth of the ephah.
+
 ## Chapter 17
 
 <sup>1</sup> And all the company of the sons of Israel journey from the wilderness of Sin, on their journeyings, by the command of Jehovah, and encamp in Rephidim, and there is no water for the people to drink;
@@ -499,6 +515,7 @@
 <sup>14</sup> And Jehovah saith unto Moses, ‘Write this, a memorial in a Book, and set it in the ears of Joshua, that I do utterly wipe away the remembrance of Amalek from under the heavens;’
 <sup>15</sup> and Moses buildeth an altar, and calleth its name Jehovah-Nissi,
 <sup>16</sup> and saith, ‘Because a hand is on the throne of Jah, war is to Jehovah with Amalek from generation-generation.’
+
 ## Chapter 18
 
 <sup>1</sup> And Jethro priest of Midian, father-in-law of Moses, heareth all that God hath done for Moses, and for Israel his people, that Jehovah hath brought out Israel from Egypt,
@@ -528,6 +545,7 @@
 <sup>25</sup> and Moses chooseth men of ability out of all Israel, and maketh them chiefs over the people, heads of thousands, heads of hundreds, heads of fifties, and heads of tens,
 <sup>26</sup> and they have judged the people at all times; the hard matter they bring in unto Moses, and every small matter they judge themselves.
 <sup>27</sup> And Moses sendeth his father-in-law away, and he goeth away unto his own land.
+
 ## Chapter 19
 
 <sup>1</sup> In the third month of the going out of the sons of Israel from the land of Egypt, in this day they have come into the wilderness of Sinai,
@@ -555,6 +573,7 @@
 <sup>23</sup> And Moses saith unto Jehovah, ‘The people is unable to come up unto mount Sinai, for Thou-Thou hast protested to us, saying, Make a border for the mount, then thou hast sanctified it.’
 <sup>24</sup> And Jehovah saith unto him, ‘Go, descend, then thou hast come up, thou, and Aaron with thee; and the priests and the people do not break through, to come up unto Jehovah, lest He break forth upon them.’
 <sup>25</sup> And Moses goeth down unto the people, and saith unto them:-
+
 ## Chapter 20
 
 <sup>1</sup> ‘And God speaketh all these words, saying,
@@ -583,6 +602,7 @@
 <sup>24</sup> ‘An altar of earth thou dost make for Me, and thou hast sacrificed on it thy burnt-offerings and thy peace-offerings, thy flock and thy herd; in every place where I cause My name to be remembered I come in unto thee, and have blessed thee.
 <sup>25</sup> ‘And if an altar of stones thou dost make to Me, thou dost not build them of hewn work; when thy tool thou hast waved over it, then thou dost pollute it;
 <sup>26</sup> neither dost thou go up by steps on Mine altar, that thy nakedness be not revealed upon it.
+
 ## Chapter 21
 
 <sup>1</sup> ‘And these are the judgments which thou dost set before them:
@@ -621,6 +641,7 @@
 <sup>34</sup> the owner of the pit doth repay, money he doth give back to its owner, and the dead is his.
 <sup>35</sup> ‘And when a man’s ox doth smite the ox of his neighbour, and it hath died, then they have sold the living ox, and halved its money, and also the dead one they do halve;
 <sup>36</sup> or, it hath been known that the ox is one accustomed to gore heretofore, and its owner doth not watch it, he certainly repayeth ox for ox, and the dead is his.
+
 ## Chapter 22
 
 <sup>1</sup> ‘When a man doth steal an ox or sheep, and hath slaughtered it or sold it, five of the herd he doth repay for the ox, and four of the flock for the sheep.
@@ -654,6 +675,7 @@
 <sup>29</sup> ‘Thy fulness and thy liquids thou dost not delay; the first-born of thy sons thou dost give to Me;
 <sup>30</sup> so thou dost to thine ox, to thy sheep; seven days it is with its dam, on the eighth day thou dost give it to Me.
 <sup>31</sup> ‘And ye are holy men to Me, and flesh torn in the field ye do not eat, to a dog ye do cast it.
+
 ## Chapter 23
 
 <sup>1</sup> ‘Thou dost not lift up a vain report; thou dost not put thy hand with a wicked man to be a violent witness.
@@ -689,6 +711,7 @@
 <sup>31</sup> ‘And I have set thy border from the Red Sea, even unto the sea of the Philistines, and from the wilderness unto the River: for I give into your hand the inhabitants of the land, and thou hast cast them out from before thee;
 <sup>32</sup> thou dost not make a covenant with them, and with their gods;
 <sup>33</sup> they do not dwell in thy land, lest they cause thee to sin against Me when thou servest their gods, when it becometh a snare to thee.’
+
 ## Chapter 24
 
 <sup>1</sup> And unto Moses He said, ‘Come up unto Jehovah, thou, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel, and ye have bowed yourselves afar off;’
@@ -709,6 +732,7 @@
 <sup>16</sup> and the honour of Jehovah doth tabernacle on mount Sinai, and the cloud covereth it six days, and He calleth unto Moses on the seventh day from the midst of the cloud.
 <sup>17</sup> And the appearance of the honour of Jehovah is as a consuming fire on the top of the mount, before the eyes of the sons of Israel;
 <sup>18</sup> and Moses goeth into the midst of the cloud, and goeth up unto the mount, and Moses is on the mount forty days and forty nights.
+
 ## Chapter 25
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -751,6 +775,7 @@
 <sup>38</sup> ‘And its snuffers and its snuff dishes are of pure gold;
 <sup>39</sup> of a talent of pure gold he doth make it, with all these vessels.
 <sup>40</sup> And see thou and do them by their pattern which thou art shewn in the mount.
+
 ## Chapter 26
 
 <sup>1</sup> ‘And thou dost make the tabernacle: ten curtains of twined linen, and blue, and purple, and scarlet; with cherubs, work of a designer, thou dost make them;
@@ -790,6 +815,7 @@
 <sup>35</sup> ‘And thou hast set the table at the outside of the vail, and the candlestick over-against the table on the side of the tabernacle southward, and the table thou dost put on the north side.
 <sup>36</sup> ‘And thou hast made a covering for the opening of the tent, blue, and purple, and scarlet, and twined linen, work of an embroiderer;
 <sup>37</sup> and thou hast made for the covering five pillars of shittim wood, and hast overlaid them with gold, their pegs are of gold, and thou hast cast for them five sockets of brass.
+
 ## Chapter 27
 
 <sup>1</sup> ‘And thou hast made the altar of shittim wood, five cubits the length, and five cubits the breadth-the altar is square-and three cubits its height.
@@ -813,6 +839,7 @@
 <sup>19</sup> even all the vessels of the tabernacle, in all its service, and all its pins, and all the pins of the court, are brass.
 <sup>20</sup> ‘And thou-thou dost command the sons of Israel, and they bring unto thee pure beaten olive oil for the light, to cause the lamp to go up continually;
 <sup>21</sup> in the tent of meeting, at the outside of the vail, which is over the testimony, doth Aaron-his sons also-arrange it from evening till morning before Jehovah-a statute age-during to their generations, from the sons of Israel.
+
 ## Chapter 28
 
 <sup>1</sup> ‘And thou, bring thou near unto thee Aaron thy brother, and his sons with him, from the midst of the sons of Israel, for his being priest to Me, even Aaron, Nadab, and Abihu, Eleazar and Ithamar, sons of Aaron;
@@ -858,6 +885,7 @@
 <sup>41</sup> and thou hast clothed Aaron thy brother with them, and his sons with him, and hast anointed them, and hast consecrated their hand, and hast sanctified them, and they have been priests to Me.
 <sup>42</sup> ‘And make thou for them linen trousers to cover the naked flesh: they are from the loins even unto the thighs;
 <sup>43</sup> and they have been on Aaron and on his sons, in their going in unto the tent of meeting, or in their drawing nigh unto the altar to minister in the sanctuary, and they do not bear iniquity nor have they died; a statute age-during to him, and to his seed after him.
+
 ## Chapter 29
 
 <sup>1</sup> ‘And this is the thing which thou dost to them, to hallow them, for being priests to Me: Take one bullock, a son of the herd, and two rams, perfect ones,
@@ -906,6 +934,7 @@
 <sup>44</sup> ‘And I have sanctified the tent of meeting, and the altar, and Aaron and his sons I sanctify for being priests to Me,
 <sup>45</sup> and I have tabernacled in the midst of the sons of Israel, and have become their God,
 <sup>46</sup> and they have known that I am Jehovah their God, who hath brought them out of the land of Egypt, that I may tabernacle in their midst; I am Jehovah their God.
+
 ## Chapter 30
 
 <sup>1</sup> ‘And thou hast made an altar for making perfume; of shittim wood thou dost make it;
@@ -946,6 +975,7 @@
 <sup>36</sup> and thou hast beaten some of it small, and hast put of it before the testimony, in the tent of meeting, whither I am met with thee; most holy it is to you.
 <sup>37</sup> ‘As to the perfume which thou makest, with its proper proportion ye do not make to yourselves, holy it is to thee to Jehovah;
 <sup>38</sup> a man who maketh any like it-to be refreshed by it-hath even been cut off from his people.’
+
 ## Chapter 31
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,
@@ -966,6 +996,7 @@
 <sup>16</sup> and the sons of Israel have observed the sabbath; to keep the sabbath to their generations is a covenant age-during,
 <sup>17</sup> between Me and the sons of Israel it is a sign-to the age; for six days Jehovah made the heavens and the earth, and in the seventh day He hath ceased, and is refreshed.’
 <sup>18</sup> And He giveth unto Moses, when He finisheth speaking with him in mount Sinai, two tables of the testimony, tables of stone, written by the finger of God.
+
 ## Chapter 32
 
 <sup>1</sup> And the people see that Moses is delaying to come down from the mount, and the people assemble against Aaron, and say unto him, ‘Rise, make for us gods who go before us, for this Moses-the man who brought us up out of the land of Egypt-we have not known what hath happened to him.’
@@ -1003,6 +1034,7 @@
 <sup>33</sup> And Jehovah saith unto Moses, ‘Whoso hath sinned against Me-I blot him out of My book;
 <sup>34</sup> and now, go, lead the people whithersoever I have spoken to thee of; lo, My messenger goeth before thee, and in the day of my charging-then I have charged upon them their sin.’
 <sup>35</sup> And Jehovah plagueth the people, because they made the calf which Aaron made.
+
 ## Chapter 33
 
 <sup>1</sup> And Jehovah speaketh unto Moses, ‘Go, ascend from this place, thou and the people, whom thou hast brought up out of the land of Egypt, unto the land which I have sworn to Abraham, to Isaac, and to Jacob, saying, To thy seed I give it,’
@@ -1028,6 +1060,7 @@
 <sup>21</sup> Jehovah also saith, ‘Lo, a place is by Me, and thou hast stood on the rock,
 <sup>22</sup> and it hath come to pass, in the passing by of Mine honour, that I have set thee in a cleft of the rock, and spread out My hands over thee, until My passing by,
 <sup>23</sup> and I have turned aside My hands, and thou hast seen My back parts, and My face is not seen.’
+
 ## Chapter 34
 
 <sup>1</sup> And Jehovah saith unto Moses, ‘Hew for thyself two tables of stone like the first, and I have written on the tables the words which were on the first tables which thou hast broken;
@@ -1065,6 +1098,7 @@
 <sup>33</sup> And Moses finisheth speaking with them, and putteth on his face a vail;
 <sup>34</sup> and in the going in of Moses before Jehovah to speak with Him, he turneth aside the vail until his coming out; and he hath come out and hath spoken unto the sons of Israel that which he is commanded;
 <sup>35</sup> and the sons of Israel have seen the face of Moses that the skin of the face of Moses hath shone, and Moses hath put back the vail on his face until his going in to speak with Him.
+
 ## Chapter 35
 
 <sup>1</sup> And Moses assembleth all the company of the sons of Israel, and saith unto them, ‘These are the things which Jehovah hath commanded-to do them:
@@ -1102,6 +1136,7 @@
 <sup>33</sup> and in graving of stones for settings, and in graving of wood to work in any work of design.
 <sup>34</sup> ‘And to direct He hath put in his heart, he and Aholiab, son of Ahisamach, of the tribe of Dan;
 <sup>35</sup> He hath filled them with wisdom of heart to do every work, of engraver, and designer, and embroiderer (in blue, and in purple, in scarlet, and in linen), and weaver, who do any work, and of designers of designs.
+
 ## Chapter 36
 
 <sup>1</sup> And Bezaleel, and Aholiab, and every wise-hearted man, in whom Jehovah hath given wisdom and understanding to know to do every work of the service of the sanctuary, have done according to all that Jehovah commanded.
@@ -1142,6 +1177,7 @@
 <sup>36</sup> and he maketh for it four pillars of shittim wood, and overlayeth them with gold; their pegs are of gold; and he casteth for them four sockets of silver.
 <sup>37</sup> And he maketh a covering for the opening of the tent, of blue, and purple, and scarlet, and twined linen, work of an embroiderer,
 <sup>38</sup> also its five pillars, and their pegs; and he overlaid their tops and their fillets with gold, and their five sockets are brass.
+
 ## Chapter 37
 
 <sup>1</sup> And Bezaleel maketh the ark of shittim wood, two cubits and a half its length, and a cubit and a half its breadth, and a cubit and a half its height;
@@ -1173,6 +1209,7 @@
 <sup>27</sup> and two rings of gold he hath made for it under its wreath, at its two corners, at its two sides, for places for staves to bear it with them.
 <sup>28</sup> And he maketh the staves of shittim wood, and overlayeth them with gold;
 <sup>29</sup> and he maketh the holy anointing oil, and the pure spice-perfume-work of a compounder.
+
 ## Chapter 38
 
 <sup>1</sup> And he maketh the altar of burnt-offering of shittim wood, five cubits its length, and five cubits its breadth (square), and three cubits its height;
@@ -1206,6 +1243,7 @@
 <sup>29</sup> And the brass of the wave-offering is seventy talents, and two thousand and four hundred shekels;
 <sup>30</sup> and he maketh with it the sockets of the opening of the tent of meeting, and the brazen altar, and the brazen grate which it hath, and all the vessels of the altar,
 <sup>31</sup> and the sockets of the court round about, and the sockets of the gate of the court, and all the pins of the tabernacle, and all the pins of the court round about.
+
 ## Chapter 39
 
 <sup>1</sup> And of the blue, and the purple, and the scarlet, they made coloured garments, to minister in the sanctuary; and they make the holy garments which are for Aaron, as Jehovah hath commanded Moses.
@@ -1251,6 +1289,7 @@
 <sup>41</sup> the coloured clothes to minister in the sanctuary, the holy garments for Aaron the priest, and the garments of his sons, to act as priest in.
 <sup>42</sup> According to all that Jehovah hath commanded Moses, so have the sons of Israel done all the service;
 <sup>43</sup> and Moses seeth all the work, and lo, they have done it as Jehovah hath commanded; so they have done. And Moses doth bless them.
+
 ## Chapter 40
 
 <sup>1</sup> And Jehovah speaketh unto Moses, saying,

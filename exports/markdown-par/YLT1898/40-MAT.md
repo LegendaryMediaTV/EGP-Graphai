@@ -25,6 +25,7 @@
 <sup>23</sup> ‘Lo, the virgin shall conceive, and she shall bring forth a son, and they shall call his name Emmanuel,’ which is, being interpreted ‘With us he is God.’
 <sup>24</sup> And Joseph, having risen from the sleep, did as the messenger of the Lord directed him, and received his wife,
 <sup>25</sup> and did not know her till she brought forth her son-the first-born, and he called his name Jesus.
+
 ## Chapter 2
 
 <sup>1</sup> And Jesus having been born in Beth-Lehem of Judea, in the days of Herod the king, lo, mages from the east came to Jerusalem,
@@ -50,6 +51,7 @@
 <sup>21</sup> And he, having risen, took the child and his mother, and came to the land of Israel,
 <sup>22</sup> and having heard that Archelaus doth reign over Judea instead of Herod his father, he was afraid to go thither, and having been divinely warned in a dream, he withdrew to the parts of Galilee,
 <sup>23</sup> and coming, he dwelt in a city named Nazareth, that it might be fulfilled that was spoken through the prophets, that ‘A Nazarene he shall be called.’
+
 ## Chapter 3
 
 <sup>1</sup> And in those days cometh John the Baptist, proclaiming in the wilderness of Judea,
@@ -69,6 +71,7 @@
 <sup>15</sup> But Jesus answering said to him, ‘Suffer now, for thus it is becoming to us to fulfil all righteousness,’ then he doth suffer him.
 <sup>16</sup> And having been baptized, Jesus went up immediately from the water, and lo, opened to him were the heavens, and he saw the Spirit of God descending as a dove, and coming upon him,
 <sup>17</sup> and lo, a voice out of the heavens, saying, ‘This is My Son-the Beloved, in whom I did delight.’
+
 ## Chapter 4
 
 <sup>1</sup> Then Jesus was led up to the wilderness by the Spirit, to be tempted by the Devil,
@@ -96,6 +99,7 @@
 <sup>23</sup> And Jesus was going about all Galilee teaching in their synagogues, and proclaiming the good news of the reign, and healing every disease, and every malady among the people,
 <sup>24</sup> and his fame went forth to all Syria, and they brought to him all having ailments, pressed with manifold sicknesses and pains, and demoniacs, and lunatics, and paralytics, and he healed them.
 <sup>25</sup> And there followed him many multitudes from Galilee, and Decapolis, and Jerusalem, and Judea, and beyond the Jordan.
+
 ## Chapter 5
 
 <sup>1</sup> And having seen the multitudes, he went up to the mount, and he having sat down, his disciples came to him,
@@ -146,6 +150,7 @@
 <sup>46</sup> ‘For, if ye may love those loving you, what reward have ye? do not also the tax-gatherers the same?
 <sup>47</sup> and if ye may salute your brethren only, what do ye abundant? do not also the tax-gatherers so?
 <sup>48</sup> ye shall therefore be perfect, as your Father who is in the heavens is perfect.
+
 ## Chapter 6
 
 <sup>1</sup> ‘Take heed your kindness not to do before men, to be seen by them, and if not-reward ye have not from your Father who is in the heavens;
@@ -182,6 +187,7 @@
 <sup>32</sup> for all these do the nations seek for, for your heavenly Father doth know that ye have need of all these;
 <sup>33</sup> but seek ye first the reign of God and His righteousness, and all these shall be added to you.
 <sup>34</sup> Be not therefore anxious for the morrow, for the morrow shall be anxious for its own things; sufficient for the day is the evil of it.
+
 ## Chapter 7
 
 <sup>1</sup> ‘Judge not, that ye may not be judged,
@@ -213,6 +219,7 @@
 <sup>27</sup> and the rain did descend, and the streams came, and the winds blew, and they beat on that house, and it fell, and its fall was great.’
 <sup>28</sup> And it came to pass, when Jesus ended these words, the multitudes were astonished at his teaching,
 <sup>29</sup> for he was teaching them as having authority, and not as the scribes.
+
 ## Chapter 8
 
 <sup>1</sup> And when he came down from the mount, great multitudes did follow him,
@@ -249,6 +256,7 @@
 <sup>32</sup> and he saith to them, ‘Go.’ And having come forth, they went to the herd of the swine, and lo, the whole herd of the swine rushed down the steep, to the sea, and died in the waters,
 <sup>33</sup> and those feeding did flee, and, having gone to the city, they declared all, and the matter of the demoniacs.
 <sup>34</sup> And lo, all the city came forth to meet Jesus, and having seen him, they called on him that he might depart from their borders.
+
 ## Chapter 9
 
 <sup>1</sup> And having gone to the boat, he passed over, and came to his own city,
@@ -289,6 +297,7 @@
 <sup>36</sup> And having seen the multitudes, he was moved with compassion for them, that they were faint and cast aside, as sheep not having a shepherd,
 <sup>37</sup> then saith he to his disciples, ‘The harvest indeed is abundant, but the workmen few;
 <sup>38</sup> beseech ye therefore the Lord of the harvest, that he may put forth workmen to His harvest.’
+
 ## Chapter 10
 
 <sup>1</sup> And having called to him his twelve disciples, he gave to them power over unclean spirits, so as to be casting them out, and to be healing every sickness, and every malady.
@@ -333,6 +342,7 @@
 <sup>40</sup> ‘He who is receiving you doth receive me, and he who is receiving me doth receive Him who sent me,
 <sup>41</sup> he who is receiving a prophet in the name of a prophet, shall receive a prophet’s reward, and he who is receiving a righteous man in the name of a righteous man, shall receive a righteous man’s reward,
 <sup>42</sup> and whoever may give to drink to one of these little ones a cup of cold water only in the name of a disciple, verily I say to you, he may not lose his reward.’
+
 ## Chapter 11
 
 <sup>1</sup> And it came to pass, when Jesus ended directing his twelve disciples, he departed thence to teach and to preach in their cities.
@@ -365,6 +375,7 @@
 <sup>28</sup> ‘Come unto me, all ye labouring and burdened ones, and I will give you rest,
 <sup>29</sup> take up my yoke upon you, and learn from me, because I am meek and humble in heart, and ye shall find rest to your souls,
 <sup>30</sup> for my yoke is easy, and my burden is light.’
+
 ## Chapter 12
 
 <sup>1</sup> At that time did Jesus go on the sabbaths through the corn, and his disciples were hungry, and they began to pluck ears, and to eat,
@@ -417,6 +428,7 @@
 <sup>48</sup> And he answering said to him who spake to him, ‘Who is my mother? and who are my brethren?’
 <sup>49</sup> And having stretched forth his hand toward his disciples, he said, ‘Lo, my mother and my brethren!
 <sup>50</sup> for whoever may do the will of my Father who is in the heavens, he is my brother, and sister, and mother.’
+
 ## Chapter 13
 
 <sup>1</sup> And in that day Jesus, having gone forth from the house, was sitting by the sea,
@@ -477,6 +489,7 @@
 <sup>56</sup> and his sisters-are they not all with us? whence, then, to this one all these?’
 <sup>57</sup> and they were stumbled at him. And Jesus said to them, ‘A prophet is not without honour except in his own country, and in his own house:’
 <sup>58</sup> and he did not there many mighty works, because of their unbelief.
+
 ## Chapter 14
 
 <sup>1</sup> At that time did Herod the tetrarch hear the fame of Jesus,
@@ -515,6 +528,7 @@
 <sup>34</sup> And having passed over, they came to the land of Gennesaret,
 <sup>35</sup> and having recognized him, the men of that place sent forth to all that region round about, and they brought to him all who were ill,
 <sup>36</sup> and were calling on him that they might only touch the fringe of his garment, and as many as did touch were saved.
+
 ## Chapter 15
 
 <sup>1</sup> Then come unto Jesus do they from Jerusalem-scribes and Pharisees-saying,
@@ -556,6 +570,7 @@
 <sup>37</sup> And they did all eat, and were filled, and they took up what was over of the broken pieces seven baskets full,
 <sup>38</sup> and those eating were four thousand men, apart from women and children.
 <sup>39</sup> And having let away the multitudes, he went into the boat, and did come to the borders of Magdala.
+
 ## Chapter 16
 
 <sup>1</sup> And the Pharisees and Sadducees having come, tempting, did question him, to shew to them a sign from the heaven,
@@ -586,6 +601,7 @@
 <sup>26</sup> for what is a man profited if he may gain the whole world, but of his life suffer loss? or what shall a man give as an exchange for his life?
 <sup>27</sup> ‘For, the Son of Man is about to come in the glory of his Father, with his messengers, and then he will reward each, according to his work.
 <sup>28</sup> Verily I say to you, there are certain of those standing here who shall not taste of death till they may see the Son of Man coming in his reign.’
+
 ## Chapter 17
 
 <sup>1</sup> And after six days Jesus taketh Peter, and James, and John his brother, and doth bring them up to a high mount by themselves,
@@ -615,6 +631,7 @@
 <sup>25</sup> And when he came into the house, Jesus anticipated him, saying, ‘What thinkest thou, Simon? the kings of the earth-from whom do they receive custom or poll-tax? from their sons or from the strangers?’
 <sup>26</sup> Peter saith to him, ‘From the strangers.’ Jesus said to him, ‘Then are the sons free;
 <sup>27</sup> but, that we may not cause them to stumble, having gone to the sea, cast a hook, and the fish that hath come up first take thou up, and having opened its mouth, thou shalt find a stater, that having taken, give to them for me and thee.’
+
 ## Chapter 18
 
 <sup>1</sup> At that hour came the disciples near to Jesus, saying, ‘Who, now, is greater in the reign of the heavens?’
@@ -652,6 +669,7 @@
 <sup>33</sup> did it not behove also thee to have dealt kindly with thy fellow-servant, as I also dealt kindly with thee?
 <sup>34</sup> ‘And having been wroth, his lord delivered him to the inquisitors, till he might pay all that was owing to him;
 <sup>35</sup> so also my heavenly Father will do to you, if ye may not forgive each one his brother from your hearts their trespasses.’
+
 ## Chapter 19
 
 <sup>1</sup> And it came to pass, when Jesus finished these words, he removed from Galilee, and did come to the borders of Judea, beyond the Jordan,
@@ -684,6 +702,7 @@
 <sup>28</sup> And Jesus said to them, ‘Verily I say to you, that ye who did follow me, in the regeneration, when the Son of Man may sit upon a throne of his glory, shall sit-ye also-upon twelve thrones, judging the twelve tribes of Israel;
 <sup>29</sup> and every one who left houses, or brothers, or sisters, or father, or mother, or wife, or children, or fields, for my name’s sake, an hundredfold shall receive, and life age-during shall inherit;
 <sup>30</sup> and many first shall be last, and last first.
+
 ## Chapter 20
 
 <sup>1</sup> ‘For the reign of the heavens is like to a man, a householder, who went forth with the morning to hire workmen for his vineyard,
@@ -720,6 +739,7 @@
 <sup>32</sup> And having stood, Jesus called them, and said, ‘What will ye that I may do to you?’
 <sup>33</sup> they say to him, ‘Sir, that our eyes may be opened;’
 <sup>34</sup> and having been moved with compassion, Jesus touched their eyes, and immediately their eyes received sight, and they followed him.
+
 ## Chapter 21
 
 <sup>1</sup> And when they came nigh to Jerusalem, and came to Bethphage, unto the mount of the Olives, then Jesus sent two disciples,
@@ -768,6 +788,7 @@
 <sup>44</sup> and he who is falling on this stone shall be broken, and on whomsoever it may fall it will crush him to pieces.’
 <sup>45</sup> And the chief priests and the Pharisees having heard his similes, knew that of them he speaketh,
 <sup>46</sup> and seeking to lay hold on him, they feared the multitudes, seeing they were holding him as a prophet.
+
 ## Chapter 22
 
 <sup>1</sup> And Jesus answering, again spake to them in similes, saying,
@@ -816,6 +837,7 @@
 <sup>44</sup> The Lord said to my lord, Sit at my right hand, till I may make thine enemies thy footstool?
 <sup>45</sup> If then David doth call him lord, how is he his son?’
 <sup>46</sup> And no one was able to answer him a word, nor durst any from that day question him any more.
+
 ## Chapter 23
 
 <sup>1</sup> Then Jesus spake to the multitudes, and to his disciples,
@@ -857,6 +879,7 @@
 <sup>37</sup> ‘Jerusalem, Jerusalem, that art killing the prophets, and stoning those sent unto thee, how often did I will to gather thy children together, as a hen doth gather her own chickens under the wings, and ye did not will.
 <sup>38</sup> Lo, left desolate to you is your house;
 <sup>39</sup> for I say to you, ye may not see me henceforth, till ye may say, Blessed is he who is coming in the name of the Lord.’
+
 ## Chapter 24
 
 <sup>1</sup> And having gone forth, Jesus departed from the temple, and his disciples came near to show him the buildings of the temple,
@@ -910,6 +933,7 @@
 <sup>49</sup> and may begin to beat the fellow-servants, and to eat and to drink with the drunken,
 <sup>50</sup> the lord of that servant will arrive in a day when he doth not expect, and in an hour of which he doth not know,
 <sup>51</sup> and will cut him off, and his portion with the hypocrites will appoint; there shall be the weeping and the gnashing of the teeth.
+
 ## Chapter 25
 
 <sup>1</sup> ‘Then shall the reign of the heavens be likened to ten virgins, who, having taken their lamps, went forth to meet the bridegroom;
@@ -958,6 +982,7 @@
 <sup>44</sup> ‘Then shall they answer, they also, saying, Lord, when did we see thee hungering, or thirsting, or a stranger, or naked, or infirm, or in prison, and we did not minister to thee?
 <sup>45</sup> ‘Then shall he answer them, saying, Verily I say to you, Inasmuch as ye did it not to one of these, the least, ye did it not to me.
 <sup>46</sup> And these shall go away to punishment age-during, but the righteous to life age-during.’
+
 ## Chapter 26
 
 <sup>1</sup> And it came to pass, when Jesus finished all these words, he said to his disciples,
@@ -1035,6 +1060,7 @@
 <sup>73</sup> And after a little those standing near having come, said to Peter, ‘Truly thou also art of them, for even thy speech doth make thee manifest.’
 <sup>74</sup> Then began he to anathematise, and to swear-‘I have not known the man;’ and immediately did a cock crow,
 <sup>75</sup> and Peter remembered the saying of Jesus, he having said to him-‘Before cock-crowing, thrice thou wilt deny me;’ and having gone without, he did weep bitterly.
+
 ## Chapter 27
 
 <sup>1</sup> And morning having come, all the chief priests and the elders of the people took counsel against Jesus, so as to put him to death;
@@ -1103,6 +1129,7 @@
 <sup>64</sup> command, then, the sepulchre to be made secure till the third day, lest his disciples, having come by night, may steal him away, and may say to the people, He rose from the dead, and the last deceit shall be worse than the first.’
 <sup>65</sup> And Pilate said to them, ‘Ye have a watch, go away, make secure-as ye have known;’
 <sup>66</sup> and they, having gone, did make the sepulchre secure, having sealed the stone, together with the watch.
+
 ## Chapter 28
 
 <sup>1</sup> And on the eve of the sabbaths, at the dawn, toward the first of the sabbaths, came Mary the Magdalene, and the other Mary, to see the sepulchre,

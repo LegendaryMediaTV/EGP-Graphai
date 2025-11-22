@@ -15,6 +15,7 @@
 <sup>13</sup> Thus saith Jehovah: For three transgressions of the children of Ammon, yea, for four, I will not turn away the punishment thereof; because they have ripped up the women with child of Gilead, that they may enlarge their border:
 <sup>14</sup> but I will kindle a fire in the wall of Rabbah, and it shall devour the palaces thereof, with shouting in the day of battle, with a tempest in the day of the whirlwind;
 <sup>15</sup> and their king shall go into captivity, he and his princes together, saith Jehovah.
+
 ## Chapter 2
 
 <sup>1</sup> Thus saith Jehovah: For three transgressions of Moab, yea, for four, I will not turn away the punishment thereof; because he burned the bones of the king of Edom into lime:
@@ -33,6 +34,7 @@
 <sup>14</sup> And flight shall perish from the swift; and the strong shall not strengthen his force; neither shall the mighty deliver himself;
 <sup>15</sup> neither shall he stand that handleth the bow; and he that is swift of foot shall not deliver himself; neither shall he that rideth the horse deliver himself;
 <sup>16</sup> and he that is courageous among the mighty shall flee away naked in that day, saith Jehovah.
+
 ## Chapter 3
 
 <sup>1</sup> Hear this word that Jehovah hath spoken against you, O children of Israel, against the whole family which I brought up out of the land of Egypt, saying,
@@ -50,6 +52,7 @@
 <sup>13</sup> Hear ye, and testify against the house of Jacob, saith the Lord Jehovah, the God of hosts.
 <sup>14</sup> For in the day that I shall visit the transgressions of Israel upon him, I will also visit the altars of Beth-el; and the horns of the altar shall be cut off, and fall to the ground.
 <sup>15</sup> And I will smite the winter-house with the summer-house; and the houses of ivory shall perish, and the great houses shall have an end, saith Jehovah.
+
 ## Chapter 4
 
 <sup>1</sup> Hear this word, ye kine of Bashan, that are in the mountain of Samaria, that oppress the poor, that crush the needy, that say unto their lords, Bring, and let us drink.
@@ -65,6 +68,7 @@
 <sup>11</sup> I have overthrown cities among you, as when God overthrew Sodom and Gomorrah, and ye were as a brand plucked out of the burning: yet have ye not returned unto me, saith Jehovah.
 <sup>12</sup> Therefore thus will I do unto thee, O Israel; and because I will do this unto thee, prepare to meet thy God, O Israel.
 <sup>13</sup> For, lo, he that formeth the mountains, and createth the wind, and declareth unto man what is his thought; that maketh the morning darkness, and treadeth upon the high places of the earth—Jehovah, the God of hosts, is his name.
+
 ## Chapter 5
 
 <sup>1</sup> Hear ye this word which I take up for a lamentation over you, O house of Israel.
@@ -94,6 +98,7 @@
 <sup>25</sup> Did ye bring unto me sacrifices and offerings in the wilderness forty years, O house of Israel?
 <sup>26</sup> Yea, ye have borne the tabernacle of your king and the shrine of your images, the star of your god, which ye made to yourselves.
 <sup>27</sup> Therefore will I cause you to go into captivity beyond Damascus, saith Jehovah, whose name is the God of hosts.
+
 ## Chapter 6
 
 <sup>1</sup> Woe to them that are at ease in Zion, and to them that are secure in the mountain of Samaria, the notable men of the chief of the nations, to whom the house of Israel come!
@@ -110,6 +115,7 @@
 <sup>12</sup> Shall horses run upon the rock? will one plow there with oxen? that ye have turned justice into gall, and the fruit of righteousness into wormwood;
 <sup>13</sup> ye that rejoice in a thing of nought, that say, Have we not taken to us horns by our own strength?
 <sup>14</sup> For, behold, I will raise up against you a nation, O house of Israel, saith Jehovah, the God of hosts; and they shall afflict you from the entrance of Hamath unto the brook of the Arabah.
+
 ## Chapter 7
 
 <sup>1</sup> Thus the Lord Jehovah showed me: and, behold, he formed locusts in the beginning of the shooting up of the latter growth; and, lo, it was the latter growth after the king’s mowings.
@@ -129,6 +135,7 @@
 <sup>15</sup> and Jehovah took me from following the flock, and Jehovah said unto me, Go, prophesy unto my people Israel.
 <sup>16</sup> Now therefore hear thou the word of Jehovah: Thou sayest, Prophesy not against Israel, and drop not thy word against the house of Isaac;
 <sup>17</sup> therefore thus saith Jehovah: Thy wife shall be a harlot in the city, and thy sons and thy daughters shall fall by the sword, and thy land shall be divided by line; and thou thyself shalt die in a land that is unclean, and Israel shall surely be led away captive out of his land.
+
 ## Chapter 8
 
 <sup>1</sup> Thus the Lord Jehovah showed me: and, behold, a basket of summer fruit.
@@ -145,6 +152,7 @@
 <sup>12</sup> And they shall wander from sea to sea, and from the north even to the east; they shall run to and fro to seek the word of Jehovah, and shall not find it.
 <sup>13</sup> In that day shall the fair virgins and the young men faint for thirst.
 <sup>14</sup> They that swear by the sin of Samaria, and say, As thy god, O Dan, liveth; and, As the way of Beer-sheba liveth; they shall fall, and never rise up again.
+
 ## Chapter 9
 
 <sup>1</sup> I saw the Lord standing beside the altar: and he said, Smite the capitals, that the thresholds may shake; and break them in pieces on the head of all of them; and I will slay the last of them with the sword: there shall not one of them flee away, and there shall not one of them escape.

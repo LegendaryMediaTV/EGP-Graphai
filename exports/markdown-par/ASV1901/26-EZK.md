@@ -28,6 +28,7 @@
 <sup>26</sup> And above the firmament that was over their heads was the likeness of a throne, as the appearance of a sapphire stone; and upon the likeness of the throne was a likeness as the appearance of a man upon it above.
 <sup>27</sup> And I saw as it were glowing metal, as the appearance of fire within it round about, from the appearance of his loins and upward; and from the appearance of his loins and downward I saw as it were the appearance of fire, and there was brightness round about him.
 <sup>28</sup> As the appearance of the bow that is in the cloud in the day of rain, so was the appearance of the brightness round about. This was the appearance of the likeness of the glory of Jehovah. And when I saw it, I fell upon my face, and I heard a voice of one that spake.
+
 ## Chapter 2
 
 <sup>1</sup> And he said unto me, Son of man, stand upon thy feet, and I will speak with thee.
@@ -40,6 +41,7 @@
 <sup>8</sup> But thou, son of man, hear what I say unto thee; be not thou rebellious like that rebellious house: open thy mouth, and eat that which I give thee.
 <sup>9</sup> And when I looked, behold, a hand was put forth unto me; and, lo, a roll of a book was therein;
 <sup>10</sup> And he spread it before me: and it was written within and without; and there were written therein lamentations, and mourning, and woe.
+
 ## Chapter 3
 
 <sup>1</sup> And he said unto me, Son of man, eat that which thou findest; eat this roll, and go, speak unto the house of Israel.
@@ -69,6 +71,7 @@
 <sup>25</sup> But thou, son of man, behold, they shall lay bands upon thee, and shall bind thee with them, and thou shalt not go out among them:
 <sup>26</sup> and I will make thy tongue cleave to the roof of thy mouth, that thou shalt be dumb, and shalt not be to them a reprover; for they are a rebellious house.
 <sup>27</sup> But when I speak with thee, I will open thy mouth, and thou shalt say unto them, Thus saith the Lord Jehovah: He that heareth, let him hear; and he that forbeareth, let him forbear: for they are a rebellious house.
+
 ## Chapter 4
 
 <sup>1</sup> Thou also, son of man, take thee a tile, and lay it before thee, and portray upon it a city, even Jerusalem:
@@ -88,6 +91,7 @@
 <sup>15</sup> Then he said unto me, See, I have given thee cow’s dung for man’s dung, and thou shalt prepare thy bread thereon.
 <sup>16</sup> Moreover he said unto me, Son of man, behold, I will break the staff of bread in Jerusalem: and they shall eat bread by weight, and with fearfulness; and they shall drink water by measure, and in dismay:
 <sup>17</sup> that they may want bread and water, and be dismayed one with another, and pine away in their iniquity.
+
 ## Chapter 5
 
 <sup>1</sup> And thou, son of man, take thee a sharp sword; as a barber’s razor shalt thou take it unto thee, and shalt cause it to pass upon thy head and upon thy beard: then take thee balances to weigh, and divide the hair.
@@ -107,6 +111,7 @@
 <sup>15</sup> So it shall be a reproach and a taunt, an instruction and an astonishment, unto the nations that are round about thee, when I shall execute judgments on thee in anger and in wrath, and in wrathful rebukes; (I, Jehovah, have spoken it;)
 <sup>16</sup> when I shall send upon them the evil arrows of famine, that are for destruction, which I will send to destroy you: and I will increase the famine upon you, and will break your staff of bread;
 <sup>17</sup> and I will send upon you famine and evil beasts, and they shall bereave thee; and pestilence and blood shall pass through thee; and I will bring the sword upon thee: I, Jehovah, have spoken it.
+
 ## Chapter 6
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -123,6 +128,7 @@
 <sup>12</sup> He that is far off shall die of the pestilence; and he that is near shall fall by the sword; and he that remaineth and is besieged shall die by the famine: thus will I accomplish my wrath upon them.
 <sup>13</sup> And ye shall know that I am Jehovah, when their slain men shall be among their idols round about their altars, upon every high hill, on all the tops of the mountains, and under every green tree, and under every thick oak, the places where they offered sweet savor to all their idols.
 <sup>14</sup> And I will stretch out my hand upon them, and make the land desolate and waste, from the wilderness toward Diblah, throughout all their habitations: and they shall know that I am Jehovah.
+
 ## Chapter 7
 
 <sup>1</sup> Moreover the word of Jehovah came unto me, saying,
@@ -152,6 +158,7 @@
 <sup>25</sup> Destruction cometh; and they shall seek peace, and there shall be none.
 <sup>26</sup> Mischief shall come upon mischief, and rumor shall be upon rumor; and they shall seek a vision of the prophet; but the law shall perish from the priest, and counsel from the elders.
 <sup>27</sup> The king shall mourn, and the prince shall be clothed with desolation, and the hands of the people of the land shall be troubled: I will do unto them after their way, and according to their deserts will I judge them; and they shall know that I am Jehovah.
+
 ## Chapter 8
 
 <sup>1</sup> And it came to pass in the sixth year, in the sixth month, in the fifth day of the month, as I sat in my house, and the elders of Judah sat before me, that the hand of the Lord Jehovah fell there upon me.
@@ -172,6 +179,7 @@
 <sup>16</sup> And he brought me into the inner court of Jehovah’s house; and behold, at the door of the temple of Jehovah, between the porch and the altar, were about five and twenty men, with their backs toward the temple of Jehovah, and their faces toward the east; and they were worshipping the sun toward the east.
 <sup>17</sup> Then he said unto me, Hast thou seen this, O son of man? Is it a light thing to the house of Judah that they commit the abominations which they commit here? for they have filled the land with violence, and have turned again to provoke me to anger: and, lo, they put the branch to their nose.
 <sup>18</sup> Therefore will I also deal in wrath; mine eye shall not spare, neither will I have pity; and though they cry in mine ears with a loud voice, yet will I not hear them.
+
 ## Chapter 9
 
 <sup>1</sup> Then he cried in mine ears with a loud voice, saying, Cause ye them that have charge over the city to draw near, every man with his destroying weapon in his hand.
@@ -185,6 +193,7 @@
 <sup>9</sup> Then said he unto me, The iniquity of the house of Israel and Judah is exceeding great, and the land is full of blood, and the city full of wrestling of judgment: for they say, Jehovah hath forsaken the land, and Jehovah seeth not.
 <sup>10</sup> And as for me also, mine eye shall not spare, neither will I have pity, but I will bring their way upon their head.
 <sup>11</sup> And behold, the man clothed in linen, who had the inkhorn by his side, reported the matter, saying, I have done as thou hast commanded me.
+
 ## Chapter 10
 
 <sup>1</sup> Then I looked, and behold, in the firmament that was over the head of the cherubim there appeared above them as it were a sapphire stone, as the appearance of the likeness of a throne.
@@ -209,6 +218,7 @@
 <sup>20</sup> This is the living creature that I saw under the God of Israel by the river Chebar; and I knew that they were cherubim.
 <sup>21</sup> Every one had four faces, and every one four wings; and the likeness of the hands of a man was under their wings.
 <sup>22</sup> And as for the likeness of their faces, they were the faces which I saw by the river Chebar, their appearances and themselves; they went every one straight forward.
+
 ## Chapter 11
 
 <sup>1</sup> Moreover the Spirit lifted me up, and brought me unto the east gate of Jehovah’s house, which looketh eastward: and behold, at the door of the gate five and twenty men; and I saw in the midst of them Jaazaniah the son of Azzur, and Pelatiah the son of Benaiah, princes of the people.
@@ -236,6 +246,7 @@
 <sup>23</sup> And the glory of Jehovah went up from the midst of the city, and stood upon the mountain which is on the east side of the city.
 <sup>24</sup> And the Spirit lifted me up, and brought me in the vision by the Spirit of God into Chaldea, to them of the captivity. So the vision that I had seen went up from me.
 <sup>25</sup> Then I spake unto them of the captivity all the things that Jehovah had showed me.
+
 ## Chapter 12
 
 <sup>1</sup> The word of Jehovah also came unto me, saying,
@@ -266,6 +277,7 @@
 <sup>26</sup> Again the word of Jehovah came to me, saying,
 <sup>27</sup> Son of man, behold, they of the house of Israel say, The vision that he seeth is for many day to come, and he prophesieth of times that are far off.
 <sup>28</sup> Therefore say unto them, Thus saith the Lord Jehovah: There shall none of my words be deferred any more, but the word which I shall speak shall be performed, saith the Lord Jehovah.
+
 ## Chapter 13
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -291,6 +303,7 @@
 <sup>21</sup> Your kerchiefs also will I tear, and deliver my people out of your hand, and they shall be no more in your hand to be hunted; and ye shall know that I am Jehovah.
 <sup>22</sup> Because with lies ye have grieved the heart of the righteous, whom I have not made sad; and strengthened the hands of the wicked, that he should not return from his wicked way, and be saved alive:
 <sup>23</sup> Therefore ye shall no more see false visions, nor divine divinations: and I will deliver my people out of your hand; and ye shall know that I am Jehovah.
+
 ## Chapter 14
 
 <sup>1</sup> Then came certain of the elders of Israel unto me, and sat before me.
@@ -316,6 +329,7 @@
 <sup>21</sup> For thus saith the Lord Jehovah: How much more when I send my four sore judgments upon Jerusalem, the sword, and the famine, and the evil beasts, and the pestilence, to cut off from it man and beast!
 <sup>22</sup> Yet, behold, therein shall be left a remnant that shall be carried forth, both sons and daughters: behold, they shall come forth unto you, and ye shall see their way and their doings; and ye shall be comforted concerning the evil that I have brought upon Jerusalem, even concerning all that I have brought upon it.
 <sup>23</sup> And they shall comfort you, when ye see their way and their doings; and ye shall know that I have not done without cause all that I have done in it, saith the Lord Jehovah.
+
 ## Chapter 15
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -326,6 +340,7 @@
 <sup>6</sup> Therefore thus saith the Lord Jehovah: As the vine-tree among the trees of the forest, which I have given to the fire for fuel, so will I give the inhabitants of Jerusalem.
 <sup>7</sup> And I will set my face against them; they shall go forth from the fire, but the fire shall devour them; and ye shall know that I am Jehovah, when I set my face against them.
 <sup>8</sup> And I will make the land desolate, because they have committed a trespass, saith the Lord Jehovah.
+
 ## Chapter 16
 
 <sup>1</sup> Again the word of Jehovah came unto me, saying,
@@ -391,6 +406,7 @@
 <sup>61</sup> Then shalt thou remember thy ways, and be ashamed, when thou shalt receive thy sisters, thine elder sisters and thy younger; and I will give them unto thee for daughters, but not by thy covenant.
 <sup>62</sup> And I will establish my covenant with thee; and thou shalt know that I am Jehovah;
 <sup>63</sup> that thou mayest remember, and be confounded, and never open thy mouth any more, because of thy shame, when I have forgiven thee all that thou hast done, saith the Lord Jehovah.
+
 ## Chapter 17
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -417,6 +433,7 @@
 <sup>22</sup> Thus saith the Lord Jehovah: I will also take of the lofty top of the cedar, and will set it; I will crop off from the topmost of its young twigs a tender one, and I will plant it upon a high and lofty mountain:
 <sup>23</sup> in the mountain of the height of Israel will I plant it; and it shall bring forth boughs, and bear fruit, and be a goodly cedar: and under it shall dwell all birds of every wing; in the shade of the branches thereof shall they dwell.
 <sup>24</sup> And all the trees of the field shall know that I, Jehovah, have brought down the high tree, have exalted the low tree, have dried up the green tree, and have made the dry tree to flourish; I, Jehovah, have spoken and have done it.
+
 ## Chapter 18
 
 <sup>1</sup> The word of Jehovah came unto me again, saying,
@@ -451,6 +468,7 @@
 <sup>30</sup> Therefore I will judge you, O house of Israel, every one according to his ways, saith the Lord Jehovah. Return ye, and turn yourselves from all your transgressions; so iniquity shall not be your ruin.
 <sup>31</sup> Cast away from you all your transgressions, wherein ye have transgressed; and make you a new heart and a new spirit: for why will ye die, O house of Israel?
 <sup>32</sup> For I have no pleasure in the death of him that dieth, saith the Lord Jehovah: wherefore turn yourselves, and live.
+
 ## Chapter 19
 
 <sup>1</sup> Moreover, take thou up a lamentation for the princes of Israel,
@@ -467,6 +485,7 @@
 <sup>12</sup> But it was plucked up in fury, it was cast down to the ground, and the east wind dried up its fruit: its strong rods were broken off and withered; the fire consumed them.
 <sup>13</sup> And now it is planted in the wilderness, in a dry and thirsty land.
 <sup>14</sup> And fire is gone out of the rods of its branches, it hath devoured its fruit, so that there is in it no strong rod to be a sceptre to rule. This is a lamentation, and shall be for a lamentation.
+
 ## Chapter 20
 
 <sup>1</sup> And it came to pass in the seventh year, in the fifth month, the tenth day of the month, that certain of the elders of Israel came to inquire of Jehovah, and sat before me.
@@ -518,6 +537,7 @@
 <sup>47</sup> and say to the forest of the South, Hear the word of Jehovah: Thus saith the Lord Jehovah, Behold, I will kindle a fire in thee, and it shall devour every green tree in thee, and every dry tree: the flaming flame shall not be quenched, and all faces from the south to the north shall be burnt thereby.
 <sup>48</sup> And all flesh shall see that I, Jehovah, have kindled it; it shall not be quenched.
 <sup>49</sup> Then said I, Ah Lord Jehovah! they say of me, Is he not a speaker of parables?
+
 ## Chapter 21
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -552,6 +572,7 @@
 <sup>30</sup> Cause it to return into its sheath. In the place where thou wast created, in the land of thy birth, will I judge thee.
 <sup>31</sup> And I will pour out mine indignation upon thee; I will blow upon thee with the fire of my wrath; and I will deliver thee into the hand of brutish men, skilful to destroy.
 <sup>32</sup> Thou shalt be for fuel to the fire; thy blood shall be in the midst of the land; thou shalt be no more remembered: for I, Jehovah, have spoken it.
+
 ## Chapter 22
 
 <sup>1</sup> Moreover the word of Jehovah came unto me, saying,
@@ -585,6 +606,7 @@
 <sup>29</sup> The people of the land have used oppression, and exercised robbery; yea, they have vexed the poor and needy, and have oppressed the sojourner wrongfully.
 <sup>30</sup> And I sought for a man among them, that should build up the wall, and stand in the gap before me for the land, that I should not destroy it; but I found none.
 <sup>31</sup> Therefore have I poured out mine indignation upon them; I have consumed them with the fire of my wrath: their own way have I brought upon their heads, saith the Lord Jehovah.
+
 ## Chapter 23
 
 <sup>1</sup> The word of Jehovah came again unto me, saying,
@@ -636,6 +658,7 @@
 <sup>47</sup> And the company shall stone them with stones, and despatch them with their swords; they shall slay their sons and their daughters, and burn up their houses with fire.
 <sup>48</sup> Thus will I cause lewdness to cease out of the land, that all women may be taught not to do after your lewdness.
 <sup>49</sup> And they shall recompense your lewdness upon you, and ye shall bear the sins of your idols; and ye shall know that I am the Lord Jehovah.
+
 ## Chapter 24
 
 <sup>1</sup> Again, in the ninth year, in the tenth month, in the tenth day of the month, the word of Jehovah came unto me, saying,
@@ -665,6 +688,7 @@
 <sup>25</sup> And thou, son of man, shall it not be in the day when I take from them their strength, the joy of their glory, the desire of their eyes, and that whereupon they set their heart, their sons and their daughters,
 <sup>26</sup> that in that day he that escapeth shall come unto thee, to cause thee to hear it with thine ears?
 <sup>27</sup> In that day shall thy mouth be opened to him that is escaped, and thou shalt speak, and be no more dumb: so shalt thou be a sign unto them; and they shall know that I am Jehovah.
+
 ## Chapter 25
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -684,6 +708,7 @@
 <sup>15</sup> Thus saith the Lord Jehovah: Because the Philistines have dealt by revenge, and have taken vengeance with despite of soul to detroy with perpetual enmity;
 <sup>16</sup> therefore thus saith the Lord Jehovah, Behold, I will stretch out my hand upon the Philistines, and I will cut off the Cherethites, and destroy the remnant of the sea coast.
 <sup>17</sup> And I will execute great vengeance upon them with wrathful rebukes; and they shall know that I am Jehovah, when I shall lay my vengeance upon them.
+
 ## Chapter 26
 
 <sup>1</sup> And it came to pass in the eleventh year, in the first day of the month, that the word of Jehovah came unto me, saying,
@@ -707,6 +732,7 @@
 <sup>19</sup> For thus saith the Lord Jehovah: When I shall make thee a desolate city, like the cities that are not inhabited; when I shall bring up the deep upon thee, and the great waters shall cover thee;
 <sup>20</sup> then will I bring thee down with them that descend into the pit, to the people of old time, and will make thee to dwell in the nether parts of the earth, in the places that are desolate of old, with them that go down to the pit, that thou be not inhabited; and I will set glory in the land of the living:
 <sup>21</sup> I will make thee a terror, and thou shalt no more have any being; though thou be sought for, yet shalt thou never be found again, saith the Lord Jehovah.
+
 ## Chapter 27
 
 <sup>1</sup> The word of Jehovah came again unto me, saying,
@@ -745,6 +771,7 @@
 <sup>34</sup> In the time that thou wast broken by the seas in the depths of the waters, thy merchandise and all thy company did fall in the midst of thee.
 <sup>35</sup> All the inhabitants of the isles are astonished at thee, and their kings are horribly afraid; they are troubled in their countenance.
 <sup>36</sup> The merchants among the peoples hiss at thee; thou art become a terror, and thou shalt nevermore have any being.
+
 ## Chapter 28
 
 <sup>1</sup> The word of Jehovah came again unto me, saying,
@@ -773,6 +800,7 @@
 <sup>24</sup> And there shall be no more a pricking brier unto the house of Israel, nor a hurting thorn of any that are round about them, that did despite unto them; and they shall know that I am the Lord Jehovah.
 <sup>25</sup> Thus saith the Lord Jehovah: When I shall have gathered the house of Israel from the peoples among whom they are scattered, and shall be sanctified in them in the sight of the nations, then shall they dwell in their own land which I gave to my servant Jacob.
 <sup>26</sup> And they shall dwell securely therein; yea, they shall build houses, and plant vineyards, and shall dwell securely, when I have executed judgments upon all those that do them despite round about them; and they shall know that I am Jehovah their God.
+
 ## Chapter 29
 
 <sup>1</sup> In the tenth year, in the tenth month, in the twelfth day of the month, the word of Jehovah came unto me, saying,
@@ -796,6 +824,7 @@
 <sup>19</sup> Therefore thus saith the Lord Jehovah: Behold, I will give the land of Egypt unto Nebuchadrezzar king of Babylon; and he shall carry off her multitude, and take her spoil, and take her prey; and it shall be the wages for his army.
 <sup>20</sup> I have given him the land of Egypt as his recompense for which he served, because they wrought for me, saith the Lord Jehovah.
 <sup>21</sup> In that day will I cause a horn to bud forth unto the house of Israel, and I will give thee the opening of the mouth in the midst of them; and they shall know that I am Jehovah.
+
 ## Chapter 30
 
 <sup>1</sup> The word of Jehovah came again unto me, saying,
@@ -824,6 +853,7 @@
 <sup>24</sup> And I will strengthen the arms of the king of Babylon, and put my sword in his hand: but I will break the arms of Pharaoh, and he shall groan before him with the groanings of a deadly wounded man.
 <sup>25</sup> And I will hold up the arms of the king of Babylon; and the arms of Pharaoh shall fall down; and they shall know that I am Jehovah, when I shall put my sword into the hand of the king of Babylon, and he shall stretch it out upon the land of Egypt.
 <sup>26</sup> And I will scatter the Egyptians among the nations, and disperse them through the countries; and they shall know that I am Jehovah.
+
 ## Chapter 31
 
 <sup>1</sup> And it came to pass in the eleventh year, in the third month, in the first day of the month, that the word of Jehovah came unto me, saying,
@@ -844,6 +874,7 @@
 <sup>16</sup> I made the nations to shake at the sound of his fall, when I cast him down to Sheol with them that descend into the pit; and all the trees of Eden, the choice and best of Lebanon, all that drink water, were comforted in the nether parts of the earth.
 <sup>17</sup> They also went down into Sheol with him unto them that are slain by the sword; yea, they that were his arm, that dwelt under his shadow in the midst of the nations.
 <sup>18</sup> To whom art thou thus like in glory and in greatness among the trees of Eden? yet shalt thou be brought down with the trees of Eden unto the nether parts of the earth: thou shalt lie in the midst of the uncircumcised, with them that are slain by the sword. This is Pharaoh and all his multitude, saith the Lord Jehovah.
+
 ## Chapter 32
 
 <sup>1</sup> And it came to pass in the twelfth year, in the twelfth month, in the first day of the month, that the word of Jehovah came unto me, saying,
@@ -878,6 +909,7 @@
 <sup>30</sup> There are the princes of the north, all of them, and all the Sidonians, who are gone down with the slain; in the terror which they caused by their might they are put to shame; and they lie uncircumcised with them that are slain by the sword, and bear their shame with them that go down to the pit.
 <sup>31</sup> Pharoah shall see them, and shall be comforted over all his multitude, even Pharaoh and all his army, slain by the sword, saith the Lord Jehovah.
 <sup>32</sup> For I have put his terror in the land of the living; and he shall be laid in the midst of the uncircumcised, with them that are slain by the sword, even Pharaoah and all his multitude, saith the Lord Jehovah.
+
 ## Chapter 33
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -913,6 +945,7 @@
 <sup>31</sup> And they come unto thee as the people cometh, and they sit before thee as my people, and they hear thy words, but do them not; for with their mouth they show much love, but their heart goeth after their gain.
 <sup>32</sup> And, lo, thou art unto them as a very lovely song of one that hath a pleasant voice, and can play well on an instrument; for they hear thy words, but they do them not.
 <sup>33</sup> And when this cometh to pass, (behold, it cometh,) then shall they know that a prophet hath been among them.
+
 ## Chapter 34
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -946,6 +979,7 @@
 <sup>29</sup> And I will raise up unto them a plantation for renown, and they shall be no more consumed with famine in the land, neither bear the shame of the nations any more.
 <sup>30</sup> And they shall know that I, Jehovah, their God am with them, and that they, the house of Israel, are my people, saith the Lord Jehovah.
 <sup>31</sup> And ye my sheep, the sheep of my pasture, are men, and I am your God, saith the Lord Jehovah.
+
 ## Chapter 35
 
 <sup>1</sup> Moreover the word of Jehovah came unto me, saying,
@@ -963,6 +997,7 @@
 <sup>13</sup> And ye have magnified yourselves against me with your mouth, and have multiplied your words against me: I have heard it.
 <sup>14</sup> Thus saith the Lord Jehovah: When the whole earth rejoiceth, I will make thee desolate.
 <sup>15</sup> As thou didst rejoice over the inheritance of the house of Israel, because it was desolate, so will I do unto thee: thou shalt be desolate, O mount Seir, and all Edom, even all of it; and they shall know that I am Jehovah.
+
 ## Chapter 36
 
 <sup>1</sup> And thou, son of man, prophesy unto the mountains of Israel, and say, Ye mountains of Israel, hear the word of Jehovah.
@@ -1003,6 +1038,7 @@
 <sup>36</sup> Then the nations that are left round about you shall know that I, Jehovah, have builded the ruined places, and planted that which was desolate: I, Jehovah, have spoken it, and I will do it.
 <sup>37</sup> Thus saith the Lord Jehovah: For this, moreover, will I be inquired of by the house of Israel, to do it for them: I will increase them with men like a flock.
 <sup>38</sup> As the flock for sacrifice, as the flock of Jerusalem in her appointed feasts, so shall the waste cities be filled with flocks of men; and they shall know that I am Jehovah.
+
 ## Chapter 37
 
 <sup>1</sup> The hand of Jehovah was upon me, and he brought me out in the Spirit of Jehovah, and set me down in the midst of the valley; and it was full of bones.
@@ -1033,6 +1069,7 @@
 <sup>26</sup> Moreover I will make a covenant of peace with them; it shall be an everlasting covenant with them; and I will place them, and multiply them, and will set my sanctuary in the midst of them for evermore.
 <sup>27</sup> My tabernacle also shall be with them; and I will be their God, and they shall be my people.
 <sup>28</sup> And the nations shall know that I am Jehovah that sanctifieth Israel, when my sanctuary shall be in the midst of them for evermore.
+
 ## Chapter 38
 
 <sup>1</sup> And the word of Jehovah came unto me, saying,
@@ -1058,6 +1095,7 @@
 <sup>21</sup> And I will call for a sword against him unto all my mountains, saith the Lord Jehovah: every man’s sword shall be against his brother.
 <sup>22</sup> And with pestilence and with blood will I enter into judgment with him; and I will rain upon him, and upon his hordes, and upon the many peoples that are with him, an overflowing shower, and great hailstones, fire, and brimstone.
 <sup>23</sup> And I will magnify myself, and sanctify myself, and I will make myself known in the eyes of many nations; and they shall know that I am Jehovah.
+
 ## Chapter 39
 
 <sup>1</sup> And thou, son of man, prophesy against Gog, and say, Thus saith the Lord Jehovah: Behold, I am against thee, O Gog, prince of Rosh, Meshech, and Tubal:
@@ -1089,6 +1127,7 @@
 <sup>27</sup> when I have brought them back from the peoples, and gathered them out of their enemies’ lands, and am sanctified in them in the sight of many nations.
 <sup>28</sup> And they shall know that I am Jehovah their God, in that I caused them to go into captivity among the nations, and have gathered them unto their own land; and I will leave none of them any more there;
 <sup>29</sup> neither will I hide my face any more from them; for I have poured out my Spirit upon the house of Israel, saith the Lord Jehovah.
+
 ## Chapter 40
 
 <sup>1</sup> In the five and twentieth year of our captivity, in the beginning of the year, in the tenth day of the month, in the fourteenth year after that the city was smitten, in the selfsame day, the hand of Jehovah was upon me, and he brought me thither.
@@ -1140,6 +1179,7 @@
 <sup>47</sup> And he measured the court, a hundred cubits long, and a hundred cubits broad, foursquare; and the altar was before the house.
 <sup>48</sup> Then he brought me to the porch of the house, and measured each post of the porch, five cubits on this side, and five cubits on that side: and the breadth of the gate was three cubits on this side, and three cubits on that side.
 <sup>49</sup> The length of the porch was twenty cubits, and the breadth eleven cubits; even by the steps whereby they went up to it: and there were pillars by the posts, one on this side, and another on that side.
+
 ## Chapter 41
 
 <sup>1</sup> And he brought me to the temple, and measured the posts, six cubits broad on the one side, and six cubits broad on the other side, which was the breadth of the tabernacle.
@@ -1168,6 +1208,7 @@
 <sup>24</sup> And the doors had two leaves apiece, two turning leaves; two leaves for the one door, and two leaves for the other.
 <sup>25</sup> And there were made on them, on the doors of the temple, cherubim and palm-trees, like as were made upon the walls; and there was a threshold of wood upon the face of the porch without.
 <sup>26</sup> And there were closed windows and palm-trees on the one side and on the other side, on the sides of the porch: thus were the side-chambers of the house, and the thresholds.
+
 ## Chapter 42
 
 <sup>1</sup> Then he brought me forth into the outer court, the way toward the north: and he brought me into the chamber that was over against the separate place, and which was over against the building toward the north.
@@ -1190,6 +1231,7 @@
 <sup>18</sup> He measured on the south side five hundred reeds with the measuring reed.
 <sup>19</sup> He turned about to the west side, and measured five hundred reeds with the measuring reed.
 <sup>20</sup> He measured it on the four sides: it had a wall round about, the length five hundred, and the breadth five hundred, to make a separation between that which was holy and that which was common.
+
 ## Chapter 43
 
 <sup>1</sup> Afterward he brought me to the gate, even the gate that looketh toward the east:
@@ -1219,6 +1261,7 @@
 <sup>25</sup> Seven days shalt thou prepare every day a goat for a sin-offering: they shall also prepare a young bullock, and a ram out of the flock, without blemish.
 <sup>26</sup> Seven days shall they make atonement for the altar and purify it; so shall they consecrate it.
 <sup>27</sup> And when they have accomplished the days, it shall be that upon the eighth day, and forward, the priests shall make your burnt-offerings upon the altar, and your peace-offerings; and I will accept you, saith the Lord Jehovah.
+
 ## Chapter 44
 
 <sup>1</sup> Then he brought me back by the way of the outer gate of the sanctuary, which looketh toward the east; and it was shut.
@@ -1252,6 +1295,7 @@
 <sup>29</sup> They shall eat the meal-offering, and the sin-offering, and the trespass-offering; and every devoted thing in Israel shall be theirs.
 <sup>30</sup> And the first of all the first-fruits of every thing, and every oblation of everything, of all your oblations, shall be for the priest: ye shall also give unto the priests the first of your dough, to cause a blessing to rest on thy house.
 <sup>31</sup> The priests shall not eat of anything that dieth of itself, or is torn, whether it be bird or beast.
+
 ## Chapter 45
 
 <sup>1</sup> Moreover, when ye shall divide by lot the land for inheritance, ye shall offer an oblation unto Jehovah, a holy portion of the land; the length shall be the length of five and twenty thousand reeds, and the breadth shall be ten thousand: it shall be holy in all the border thereof round about.
@@ -1279,6 +1323,7 @@
 <sup>23</sup> And the seven days of the feast he shall prepare a burnt-offering to Jehovah, seven bullocks and seven rams without blemish daily the seven days; and a he-goat daily for a sin-offering.
 <sup>24</sup> And he shall prepare a meal-offering, an ephah for a bullock, and an ephah for a ram, and a hin of oil to an ephah.
 <sup>25</sup> In the seventh month, in the fifteenth day of the month, in the feast, shall he do the like the seven days; according to the sin-offering, according to the burnt-offering, and according to the meal-offering, and according to the oil.
+
 ## Chapter 46
 
 <sup>1</sup> Thus saith the Lord Jehovah: The gate of the inner court that looketh toward the east shall be shut the six working days; but on the sabbath day it shall be opened, and on the day of the new moon it shall be opened.
@@ -1305,6 +1350,7 @@
 <sup>22</sup> In the four corners of the court there were courts inclosed, forty cubits long and thirty broad: these four in the corners were of one measure.
 <sup>23</sup> And there was a wall round about in them, round about the four, and boiling-places were made under the walls round about.
 <sup>24</sup> Then said he unto me, These are the boiling-houses, where the ministers of the house shall boil the sacrifice of the people.
+
 ## Chapter 47
 
 <sup>1</sup> And he brought me back unto the door of the house; and, behold, waters issued out from under the threshold of the house eastward; (for the forefront of the house was toward the east;) and the waters came down from under, from the right side of the house, on the south of the altar.
@@ -1330,6 +1376,7 @@
 <sup>21</sup> So shall ye divide this land unto you according to the tribes of Israel.
 <sup>22</sup> And it shall come to pass, that ye shall divide it by lot for an inheritance unto you and to the strangers that sojourn among you, who shall beget children among you; and they shall be unto you as the home-born among the children of Israel; they shall have inheritance with you among the tribes of Israel.
 <sup>23</sup> And it shall come to pass, that in what tribe the stranger sojourneth, there shall ye give him his inheritance, saith the Lord Jehovah.
+
 ## Chapter 48
 
 <sup>1</sup> Now these are the names of the tribes: From the north end, beside the way of Hethlon to the entrance of Hamath, Hazar-enan at the border of Damascus, northward beside Hamath, (and they shall have their sides east and west,) Dan, one portion.

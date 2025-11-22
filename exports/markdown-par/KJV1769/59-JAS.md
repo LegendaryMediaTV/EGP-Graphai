@@ -27,6 +27,7 @@
 <sup>25</sup> But whoso looketh into the perfect law of liberty, and continueth [therein], he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed.
 <sup>26</sup> If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man’s religion [is] vain.
 <sup>27</sup> Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, [and] to keep himself unspotted from the world.
+
 ## Chapter 2
 
 <sup>1</sup> My brethren, have not the faith of our Lord Jesus Christ, [the Lord] of glory, with respect of persons.
@@ -55,11 +56,12 @@
 <sup>24</sup> Ye see then how that by works a man is justified, and not by faith only.
 <sup>25</sup> Likewise also was not Rahab the harlot justified by works, when she had received the messengers, and had sent [them] out another way?
 <sup>26</sup> For as the body without the spirit is dead, so faith without works is dead also.
+
 ## Chapter 3
 
 <sup>1</sup> My brethren, be not many masters, knowing that we shall receive the greater condemnation.
 <sup>2</sup> For in many things we offend all. If any man offend not in word, the same [is] a perfect man, [and] able also to bridle the whole body.
-<sup>3</sup> Behold, we put bits in the horses ’ mouths, that they may obey us; and we turn about their whole body.
+<sup>3</sup> Behold, we put bits in the horses’ mouths, that they may obey us; and we turn about their whole body.
 <sup>4</sup> Behold also the ships, which though [they be] so great, and [are] driven of fierce winds, yet are they turned about with a very small helm, whithersoever the governor listeth.
 <sup>5</sup> Even so the tongue is a little member, and boasteth great things. Behold, how great a matter a little fire kindleth!
 <sup>6</sup> And the tongue [is] a fire, a world of iniquity: so is the tongue among our members, that it defileth the whole body, and setteth on fire the course of nature; and it is set on fire of hell.
@@ -75,6 +77,7 @@
 <sup>16</sup> For where envying and strife [is], there [is] confusion and every evil work.
 <sup>17</sup> But the wisdom that is from above is first pure, then peaceable, gentle, [and] easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.
 <sup>18</sup> And the fruit of righteousness is sown in peace of them that make peace.
+
 ## Chapter 4
 
 <sup>1</sup> From whence [come] wars and fightings among you? [come they] not hence, [even] of your lusts that war in your members?
@@ -94,6 +97,7 @@
 <sup>15</sup> For that ye [ought] to say, If the Lord will, we shall live, and do this, or that.
 <sup>16</sup> But now ye rejoice in your boastings: all such rejoicing is evil.
 <sup>17</sup> Therefore to him that knoweth to do good, and doeth [it] not, to him it is sin.
+
 ## Chapter 5
 
 <sup>1</sup> Go to now, [ye] rich men, weep and howl for your miseries that shall come upon [you].

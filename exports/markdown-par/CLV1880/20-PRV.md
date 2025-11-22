@@ -33,6 +33,7 @@
 <sup>31</sup> comedent igitur fructus viae suae suisque consiliis saturabuntur
 <sup>32</sup> aversio parvulorum interficiet eos et prosperitas stultorum perdet illos
 <sup>33</sup> qui autem me audierit absque terrore requiescet et abundantia perfruetur malorum timore sublato
+
 ## Chapter 2
 
 <sup>1</sup> fili mi si susceperis sermones meos et mandata mea absconderis penes te
@@ -57,6 +58,7 @@
 <sup>20</sup> ut ambules in via bona et calles iustorum custodias
 <sup>21</sup> qui enim recti sunt habitabunt in terra et simplices permanebunt in ea
 <sup>22</sup> impii vero de terra perdentur et qui inique agunt auferentur ex ea
+
 ## Chapter 3
 
 <sup>1</sup> fili mi ne obliviscaris legis meae et praecepta mea custodiat cor tuum
@@ -94,6 +96,7 @@
 <sup>33</sup> egestas a Domino in domo impii habitacula autem iustorum benedicentur
 <sup>34</sup> inlusores ipse deludet et mansuetis dabit gratiam
 <sup>35</sup> gloriam sapientes possidebunt stultorum exaltatio ignominia
+
 ## Chapter 4
 
 <sup>1</sup> audite filii disciplinam patris et adtendite ut sciatis prudentiam
@@ -123,6 +126,7 @@
 <sup>25</sup> oculi tui recta videant et palpebrae tuae praecedant gressus tuos
 <sup>26</sup> dirige semitam pedibus tuis et omnes viae tuae stabilientur
 <sup>27</sup> ne declines ad dexteram et ad sinistram averte pedem tuum a malo
+
 ## Chapter 5
 
 <sup>1</sup> fili mi adtende sapientiam meam et prudentiae meae inclina aurem tuam
@@ -148,6 +152,7 @@
 <sup>21</sup> respicit Dominus vias hominis et omnes gressus illius considerat
 <sup>22</sup> iniquitates suae capiunt impium et funibus peccatorum suorum constringitur
 <sup>23</sup> ipse morietur quia non habuit disciplinam et multitudine stultitiae suae decipietur
+
 ## Chapter 6
 
 <sup>1</sup> fili mi si spoponderis pro amico tuo defixisti apud extraneum manum tuam
@@ -185,6 +190,7 @@
 <sup>33</sup> turpitudinem et ignominiam congregat sibi et obprobrium illius non delebitur
 <sup>34</sup> quia zelus et furor viri non parcet in die vindictae
 <sup>35</sup> nec adquiescet cuiusquam precibus nec suscipiet pro redemptione dona plurima
+
 ## Chapter 7
 
 <sup>1</sup> fili mi custodi sermones meos et praecepta mea reconde tibi
@@ -214,6 +220,7 @@
 <sup>25</sup> ne abstrahatur in viis illius mens tua neque decipiaris semitis eius
 <sup>26</sup> multos enim vulneratos deiecit et fortissimi quique interfecti sunt ab ea
 <sup>27</sup> viae inferi domus eius penetrantes interiora mortis
+
 ## Chapter 8
 
 <sup>1</sup> numquid non sapientia clamitat et prudentia dat vocem suam
@@ -252,6 +259,7 @@
 <sup>34</sup> beatus homo qui audit me qui vigilat ad fores meas cotidie et observat ad postes ostii mei
 <sup>35</sup> qui me invenerit inveniet vitam et hauriet salutem a Domino
 <sup>36</sup> qui autem in me peccaverit laedet animam suam omnes qui me oderunt diligunt mortem
+
 ## Chapter 9
 
 <sup>1</sup> sapientia aedificavit sibi domum excidit columnas septem
@@ -272,6 +280,7 @@
 <sup>16</sup> quis est parvulus declinet ad me et vecordi locuta est
 <sup>17</sup> aquae furtivae dulciores sunt et panis absconditus suavior
 <sup>18</sup> et ignoravit quod gigantes ibi sint et in profundis inferni convivae eius
+
 ## Chapter 10
 
 <sup>1</sup> parabolae Salomonis filius sapiens laetificat patrem filius vero stultus maestitia est matris suae
@@ -306,6 +315,7 @@
 <sup>30</sup> iustus in aeternum non commovebitur impii autem non habitabunt in terram
 <sup>31</sup> os iusti parturiet sapientiam lingua pravorum peribit
 <sup>32</sup> labia iusti considerant placita et os impiorum perversa
+
 ## Chapter 11
 
 <sup>1</sup> statera dolosa abominatio apud Dominum et pondus aequum voluntas eius
@@ -339,6 +349,7 @@
 <sup>29</sup> qui conturbat domum suam possidebit ventos et qui stultus est serviet sapienti
 <sup>30</sup> fructus iusti lignum vitae et qui suscipit animas sapiens est
 <sup>31</sup> si iustus in terra recipit quanto magis impius et peccator
+
 ## Chapter 12
 
 <sup>1</sup> qui diligit disciplinam diligit scientiam qui autem odit increpationes insipiens est
@@ -369,6 +380,7 @@
 <sup>26</sup> qui neglegit damnum propter amicum iustus est iter autem impiorum decipiet eos
 <sup>27</sup> non inveniet fraudulentus lucrum et substantia hominis erit auri pretium
 <sup>28</sup> in semita iustitiae vita iter autem devium ducit ad mortem
+
 ## Chapter 13
 
 <sup>1</sup> filius sapiens doctrina patris qui autem inlusor est non audit cum arguitur
@@ -396,6 +408,7 @@
 <sup>23</sup> multi cibi in novalibus patrum et alii congregantur absque iudicio
 <sup>24</sup> qui parcit virgae suae odit filium suum qui autem diligit illum instanter erudit
 <sup>25</sup> iustus comedit et replet animam suam venter autem impiorum insaturabilis
+
 ## Chapter 14
 
 <sup>1</sup> sapiens mulier aedificavit domum suam insipiens instructam quoque destruet manibus
@@ -433,6 +446,7 @@
 <sup>33</sup> in corde prudentis requiescit sapientia et indoctos quoque erudiet
 <sup>34</sup> iustitia elevat gentem miseros facit populos peccatum
 <sup>35</sup> acceptus est regi minister intellegens iracundiam eius inutilis sustinebit
+
 ## Chapter 15
 
 <sup>1</sup> responsio mollis frangit iram sermo durus suscitat furorem
@@ -468,6 +482,7 @@
 <sup>31</sup> auris quae audit increpationes vitae in medio sapientium commorabitur
 <sup>32</sup> qui abicit disciplinam despicit animam suam qui adquiescit increpationibus possessor est cordis
 <sup>33</sup> timor Domini disciplina sapientiae et gloriam praecedit humilitas
+
 ## Chapter 16
 
 <sup>1</sup> hominis est animum praeparare et Dei gubernare linguam
@@ -503,6 +518,7 @@
 <sup>31</sup> corona dignitatis senectus in viis iustitiae repperietur
 <sup>32</sup> melior est patiens viro forte et qui dominatur animo suo expugnatore urbium
 <sup>33</sup> sortes mittuntur in sinu sed a Domino temperantur
+
 ## Chapter 17
 
 <sup>1</sup> melior est buccella sicca cum gaudio quam domus plena victimis cum iurgio
@@ -533,6 +549,7 @@
 <sup>26</sup> non est bonum damnum inferre iusto nec percutere principem qui recta iudicat
 <sup>27</sup> qui moderatur sermones suos doctus et prudens est et pretiosi spiritus vir eruditus
 <sup>28</sup> stultus quoque si tacuerit sapiens putabitur et si conpresserit labia sua intellegens
+
 ## Chapter 18
 
 <sup>1</sup> occasiones quaerit qui vult recedere ab amico omni tempore erit exprobrabilis
@@ -559,6 +576,7 @@
 <sup>22</sup> qui invenit mulierem invenit bonum et hauriet iucunditatem a Domino
 <sup>23</sup> cum obsecrationibus loquetur pauper et dives effabitur rigide
 <sup>24</sup> vir amicalis ad societatem magis amicus erit quam frater
+
 ## Chapter 19
 
 <sup>1</sup> melior est pauper qui ambulat in simplicitate sua quam torquens labia insipiens
@@ -590,6 +608,7 @@
 <sup>27</sup> non cesses fili audire doctrinam nec ignores sermones scientiae
 <sup>28</sup> testis iniquus deridet iudicium et os impiorum devorat iniquitatem
 <sup>29</sup> parata sunt derisoribus iudicia et mallei percutientes stultorum corporibus
+
 ## Chapter 20
 
 <sup>1</sup> luxuriosa res vinum et tumultuosa ebrietas quicumque his delectatur non erit sapiens
@@ -622,6 +641,7 @@
 <sup>28</sup> misericordia et veritas custodiunt regem et roboratur clementia thronus eius
 <sup>29</sup> exultatio iuvenum fortitudo eorum et dignitas senum canities
 <sup>30</sup> livor vulneris absterget mala et plagae in secretioribus ventris
+
 ## Chapter 21
 
 <sup>1</sup> sicut divisiones aquarum ita cor regis in manu Domini quocumque voluerit inclinabit illud
@@ -655,6 +675,7 @@
 <sup>29</sup> vir impius procaciter obfirmat vultum suum qui autem rectus est corrigit viam suam
 <sup>30</sup> non est sapientia non est prudentia non est consilium contra Dominum
 <sup>31</sup> equus paratur ad diem belli Dominus autem salutem tribuet
+
 ## Chapter 22
 
 <sup>1</sup> melius est nomen bonum quam divitiae multae super argentum et aurum gratia bona
@@ -686,6 +707,7 @@
 <sup>27</sup> si enim non habes unde restituas quid causae est ut tollat operimentum de cubili tuo
 <sup>28</sup> ne transgrediaris terminos antiquos quos posuerunt patres tui
 <sup>29</sup> vidisti virum velocem in opere suo coram regibus stabit nec erit ante ignobiles
+
 ## Chapter 23
 
 <sup>1</sup> quando sederis ut comedas cum principe diligenter adtende quae posita sunt ante faciem tuam
@@ -723,6 +745,7 @@
 <sup>33</sup> oculi tui videbunt extraneas et cor tuum loquetur perversa
 <sup>34</sup> et eris sicut dormiens in medio mari et quasi sopitus gubernator amisso clavo
 <sup>35</sup> et dices verberaverunt me sed non dolui traxerunt me et ego non sensi quando evigilabo et rursum vina repperiam
+
 ## Chapter 24
 
 <sup>1</sup> ne aemuleris viros malos nec desideres esse cum eis
@@ -759,6 +782,7 @@
 <sup>32</sup> quod cum vidissem posui in corde meo et exemplo didici disciplinam
 <sup>33</sup> parum inquam dormies modicum dormitabis pauxillum manus conseres ut quiescas
 <sup>34</sup> et veniet quasi cursor egestas tua et mendicitas quasi vir armatus
+
 ## Chapter 25
 
 <sup>1</sup> haec quoque parabolae Salomonis quas transtulerunt viri Ezechiae regis Iuda
@@ -789,6 +813,7 @@
 <sup>26</sup> fons turbatus pede et vena corrupta iustus cadens coram impio
 <sup>27</sup> sicut qui mel multum comedit non est ei bonum sic qui scrutator est maiestatis opprimitur gloria
 <sup>28</sup> sicut urbs patens et absque murorum ambitu ita vir qui non potest in loquendo cohibere spiritum suum
+
 ## Chapter 26
 
 <sup>1</sup> quomodo nix aestate et pluvia in messe sic indecens est stulto gloria
@@ -819,6 +844,7 @@
 <sup>26</sup> qui operit odium fraudulenter revelabitur malitia eius in concilio
 <sup>27</sup> qui fodit foveam incidet in eam et qui volvit lapidem revertetur ad eum
 <sup>28</sup> lingua fallax non amat veritatem et os lubricum operatur ruinas
+
 ## Chapter 27
 
 <sup>1</sup> ne glorieris in crastinum ignorans quid superventura pariat dies
@@ -848,6 +874,7 @@
 <sup>25</sup> aperta sunt prata et apparuerunt herbae virentes et collecta sunt faena de montibus
 <sup>26</sup> agni ad vestimentum tuum et hedi agri pretium
 <sup>27</sup> sufficiat tibi lac caprarum in cibos tuos in necessaria domus tuae et ad victum ancillis tuis
+
 ## Chapter 28
 
 <sup>1</sup> fugit impius nemine persequente iustus autem quasi leo confidens absque terrore erit
@@ -878,6 +905,7 @@
 <sup>26</sup> qui confidit in corde suo stultus est qui autem graditur sapienter iste salvabitur
 <sup>27</sup> qui dat pauperi non indigebit qui despicit deprecantem sustinebit penuriam
 <sup>28</sup> cum surrexerint impii abscondentur homines cum illi perierint multiplicabuntur iusti
+
 ## Chapter 29
 
 <sup>1</sup> viro qui corripientem dura cervice contemnit repentinus superveniet interitus et eum sanitas non sequitur
@@ -907,6 +935,7 @@
 <sup>25</sup> qui timet hominem cito corruet qui sperat in Domino sublevabitur
 <sup>26</sup> multi requirunt faciem principis et a Domino iudicium egreditur singulorum
 <sup>27</sup> abominantur iusti virum impium et abominantur impii eos qui in recta sunt via
+
 ## Chapter 30
 
 <sup>1</sup> verba Congregantis filii Vomentis visio quam locutus est vir cum quo est Deus et qui Deo secum morante confortatus ait
@@ -942,6 +971,7 @@
 <sup>31</sup> gallus succinctus lumbos et aries nec est rex qui resistat ei
 <sup>32</sup> et qui stultus apparuit postquam elatus est in sublime si enim intellexisset ori inposuisset manum
 <sup>33</sup> qui autem fortiter premit ubera ad eliciendum lac exprimit butyrum et qui vehementer emungitur elicit sanguinem et qui provocat iras producit discordias
+
 ## Chapter 31
 
 <sup>1</sup> verba Lamuhel regis visio qua erudivit eum mater sua

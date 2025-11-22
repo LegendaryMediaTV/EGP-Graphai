@@ -22,6 +22,7 @@
 <sup>20</sup> quibus ait ne vocetis me Noemi id est pulchram sed vocate me Mara hoc est amaram quia valde me amaritudine replevit Omnipotens
 <sup>21</sup> egressa sum plena et vacuam reduxit me Dominus cur igitur vocatis me Noemi quam humiliavit Dominus et adflixit Omnipotens
 <sup>22</sup> venit ergo Noemi cum Ruth Moabitide nuru sua de terra peregrinationis suae ac reversa est in Bethleem quando primum hordea metebantur
+
 ## Chapter 2
 
 <sup>1</sup> erat autem vir Helimelech consanguineus homo potens et magnarum opum nomine Booz
@@ -47,6 +48,7 @@
 <sup>21</sup> et Ruth hoc quoque inquit praecepit mihi ut tamdiu messoribus eius iungerer donec omnes segetes meterentur
 <sup>22</sup> cui dixit socrus melius est filia mi ut cum puellis eius exeas ad metendum ne in alieno agro quispiam resistat tibi
 <sup>23</sup> iuncta est itaque puellis Booz et tamdiu cum eis messuit donec hordea et triticum in horreis conderentur
+
 ## Chapter 3
 
 <sup>1</sup> postquam autem reversa est ad socrum suam audivit ab ea filia mi quaeram tibi requiem et providebo ut bene sit tibi
@@ -67,6 +69,7 @@
 <sup>16</sup> et venit ad socrum suam quae dixit ei quid egisti filia narravitque ei omnia quae sibi fecisset homo
 <sup>17</sup> et ait ecce sex modios hordei dedit mihi et ait nolo vacuam te reverti ad socrum tuam
 <sup>18</sup> dixitque Noemi expecta filia donec videamus quem res exitum habeat neque enim cessabit homo nisi conpleverit quod locutus est
+
 ## Chapter 4
 
 <sup>1</sup> ascendit ergo Booz ad portam et sedit ibi cumque vidisset propinquum praeterire de quo prius sermo habitus est dixit ad eum declina paulisper et sede hic vocans eum nomine suo qui devertit et sedit

@@ -16,6 +16,7 @@
 <sup>14</sup> non intendentes iudaicis fabulis et mandatis hominum aversantium se a veritate
 <sup>15</sup> omnia munda mundis coinquinatis autem et infidelibus nihil mundum sed inquinatae sunt eorum et mens et conscientia
 <sup>16</sup> confitentur se nosse Deum factis autem negant cum sunt abominati et incredibiles et ad omne opus bonum reprobi
+
 ## Chapter 2
 
 <sup>1</sup> tu autem loquere quae decet sanam doctrinam
@@ -33,6 +34,7 @@
 <sup>13</sup> expectantes beatam spem et adventum gloriae magni Dei et salvatoris nostri Iesu Christi
 <sup>14</sup> qui dedit semet ipsum pro nobis ut nos redimeret ab omni iniquitate et mundaret sibi populum acceptabilem sectatorem bonorum operum
 <sup>15</sup> haec loquere et exhortare et argue cum omni imperio nemo te contemnat
+
 ## Chapter 3
 
 <sup>1</sup> admone illos principibus et potestatibus subditos esse dicto oboedire ad omne opus bonum paratos esse

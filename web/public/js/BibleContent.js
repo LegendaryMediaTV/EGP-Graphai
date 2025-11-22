@@ -1,6 +1,6 @@
 const { useState, useEffect, useMemo, useRef } = React;
 
-function BibleContent({ content, settings }) {
+function BibleContent({ content, settings, onFootnoteClick }) {
   if (!content || content.length === 0)
     return (
       <div className="text-center text-gray-400 mt-10">
@@ -49,8 +49,9 @@ function BibleContent({ content, settings }) {
             <VerseRenderer
               key={`${verse.book}-${verse.chapter}-${verse.verse}`}
               verse={verse}
-              mode="paragraph"
+              mode={settings.paragraphMode ? "paragraph" : "verse"}
               settings={settings}
+              onFootnoteClick={onFootnoteClick}
             />
           ))}
         </div>
@@ -67,7 +68,12 @@ function BibleContent({ content, settings }) {
                 </span>
               )}
               <div className="">
-                <VerseRenderer verse={verse} mode="verse" settings={settings} />
+                <VerseRenderer
+                  verse={verse}
+                  mode="verse"
+                  settings={settings}
+                  onFootnoteClick={onFootnoteClick}
+                />
               </div>
             </div>
           ))}

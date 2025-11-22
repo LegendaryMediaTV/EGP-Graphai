@@ -14,6 +14,7 @@
 <sup>12</sup> et vos polluistis illud in eo quod dicitis mensa Domini contaminata est et quod superponitur contemptibile est cum igni qui illud devorat
 <sup>13</sup> et dixistis ecce de labore et exsuflastis illud dicit Dominus exercituum et intulistis de rapinis claudum et languidum et intulistis munus numquid suscipiam illud de manu vestra dicit Dominus
 <sup>14</sup> maledictus dolosus qui habet in grege suo masculum et votum faciens immolat debile Domino quia rex magnus ego dicit Dominus exercituum et nomen meum horribile in gentibus
+
 ## Chapter 2
 
 <sup>1</sup> et nunc ad vos mandatum hoc o sacerdotes
@@ -33,6 +34,7 @@
 <sup>15</sup> nonne unus fecit et residuum spiritus eius est et quid unus quaerit nisi semen Dei custodite ergo spiritum vestrum et uxorem adulescentiae tuae noli despicere
 <sup>16</sup> cum odio habueris dimitte dicit Dominus Deus Israhel operiet autem iniquitas vestimentum eius dicit Dominus exercituum custodite spiritum vestrum et nolite despicere
 <sup>17</sup> laborare fecistis Dominum in sermonibus vestris et dixistis in quo eum fecimus laborare in eo cum diceretis omnis qui facit malum bonus est in conspectu Domini et tales ei placent aut certe ubi est Deus iudicii
+
 ## Chapter 3
 
 <sup>1</sup> ecce ego mittam angelum meum et praeparabit viam ante faciem meam et statim veniet ad templum suum dominator quem vos quaeritis et angelus testamenti quem vos vultis ecce venit dicit Dominus exercituum
@@ -53,6 +55,7 @@
 <sup>16</sup> tunc locuti sunt timentes Deum unusquisque cum proximo suo et adtendit Dominus et audivit et scriptus est liber monumenti coram eo timentibus Dominum et cogitantibus nomen eius
 <sup>17</sup> et erunt mihi ait Dominus exercituum in die qua ego facio in peculium et parcam eis sicut parcit vir filio suo servienti sibi
 <sup>18</sup> et convertemini et videbitis quid sit inter iustum et impium et inter servientem Deo et non servientem ei
+
 ## Chapter 4
 
 <sup>1</sup> ecce enim dies veniet succensa quasi caminus et erunt omnes superbi et omnes facientes impietatem stipula et inflammabit eos dies veniens dicit Dominus exercituum quae non relinquet eis radicem et germen

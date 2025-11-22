@@ -22,6 +22,7 @@
 <sup>20</sup> tunc surrexit Iob et scidit tunicam suam et tonso capite corruens in terram adoravit
 <sup>21</sup> et dixit nudus egressus sum de utero matris meae et nudus revertar illuc Dominus dedit Dominus abstulit sit nomen Domini benedictum
 <sup>22</sup> in omnibus his non peccavit Iob neque stultum quid contra Deum locutus est
+
 ## Chapter 2
 
 <sup>1</sup> factum est autem cum quadam die venissent filii Dei et starent coram Domino venisset quoque Satan inter eos et staret in conspectu eius
@@ -37,6 +38,7 @@
 <sup>11</sup> igitur audientes tres amici Iob omne malum quod accidisset ei venerunt singuli de loco suo Eliphaz Themanites et Baldad Suites et Sophar Naamathites condixerant enim ut pariter venientes visitarent eum et consolarentur
 <sup>12</sup> cumque levassent procul oculos suos non cognoverunt eum et exclamantes ploraverunt scissisque vestibus sparserunt pulverem super caput suum in caelum
 <sup>13</sup> et sederunt cum eo in terram septem diebus et septem noctibus et nemo loquebatur ei verbum videbant enim dolorem esse vehementem
+
 ## Chapter 3
 
 <sup>1</sup> post haec aperuit Iob os suum et maledixit diei suo
@@ -65,6 +67,7 @@
 <sup>24</sup> antequam comedam suspiro et quasi inundantes aquae sic rugitus meus
 <sup>25</sup> quia timor quem timebam evenit mihi et quod verebar accidit
 <sup>26</sup> nonne dissimulavi nonne silui nonne quievi et venit super me indignatio
+
 ## Chapter 4
 
 <sup>1</sup> respondens autem Eliphaz Themanites dixit
@@ -88,6 +91,7 @@
 <sup>19</sup> quanto magis hii qui habitant domos luteas qui terrenum habent fundamentum consumentur velut a tinea
 <sup>20</sup> de mane usque ad vesperum succidentur et quia nullus intellegit in aeternum peribunt
 <sup>21</sup> qui autem reliqui fuerint auferentur ex eis morientur et non in sapientia
+
 ## Chapter 5
 
 <sup>1</sup> voca ergo si est qui tibi respondeat et ad aliquem sanctorum convertere
@@ -117,6 +121,7 @@
 <sup>25</sup> scies quoque quoniam multiplex erit semen tuum et progenies tua quasi herba terrae
 <sup>26</sup> ingredieris in abundantia sepulchrum sicut infertur acervus in tempore suo
 <sup>27</sup> ecce hoc ut investigavimus ita est quod auditum mente pertracta
+
 ## Chapter 6
 
 <sup>1</sup> respondens autem Iob dixit
@@ -149,6 +154,7 @@
 <sup>28</sup> verumtamen quod coepistis explete praebete aurem et videte an mentiar
 <sup>29</sup> respondete obsecro absque contentione et loquentes id quod iustum est iudicate
 <sup>30</sup> et non invenietis in lingua mea iniquitatem nec in faucibus meis stultitia personabit
+
 ## Chapter 7
 
 <sup>1</sup> militia est vita hominis super terram et sicut dies mercennarii dies eius
@@ -172,6 +178,7 @@
 <sup>19</sup> usquequo non parces mihi nec dimittis me ut gluttiam salivam meam
 <sup>20</sup> peccavi quid faciam tibi o custos hominum quare posuisti me contrarium tibi et factus sum mihimet ipsi gravis
 <sup>21</sup> cur non tolles peccatum meum et quare non auferes iniquitatem meam ecce nunc in pulvere dormiam et si mane me quaesieris non subsistam
+
 ## Chapter 8
 
 <sup>1</sup> respondens autem Baldad Suites dixit
@@ -196,6 +203,7 @@
 <sup>20</sup> Deus non proiciet simplicem nec porriget manum malignis
 <sup>21</sup> donec impleatur risu os tuum et labia tua iubilo
 <sup>22</sup> qui oderunt te induentur confusione et tabernaculum impiorum non subsistet
+
 ## Chapter 9
 
 <sup>1</sup> et respondens Iob ait
@@ -233,6 +241,7 @@
 <sup>33</sup> non est qui utrumque valeat arguere et ponere manum suam in ambobus
 <sup>34</sup> auferat a me virgam suam et pavor eius non me terreat
 <sup>35</sup> loquar et non timebo eum neque enim possum metuens respondere
+
 ## Chapter 10
 
 <sup>1</sup> taedet animam meam vitae meae dimittam adversum me eloquium meum loquar in amaritudine animae meae
@@ -257,6 +266,7 @@
 <sup>20</sup> numquid non paucitas dierum meorum finietur brevi dimitte ergo me ut plangam paululum dolorem meum
 <sup>21</sup> antequam vadam et non revertar ad terram tenebrosam et opertam mortis caligine
 <sup>22</sup> terram miseriae et tenebrarum ubi umbra mortis et nullus ordo et sempiternus horror inhabitans
+
 ## Chapter 11
 
 <sup>1</sup> respondens autem Sophar Naamathites dixit
@@ -279,6 +289,7 @@
 <sup>18</sup> et habebis fiduciam proposita tibi spe et defossus securus dormies
 <sup>19</sup> requiesces et non erit qui te exterreat et deprecabuntur faciem tuam plurimi
 <sup>20</sup> oculi autem impiorum deficient et effugium peribit ab eis et spes eorum abominatio animae
+
 ## Chapter 12
 
 <sup>1</sup> respondens autem Iob dixit
@@ -306,6 +317,7 @@
 <sup>23</sup> qui multiplicat gentes et perdet eas et subversas in integrum restituet
 <sup>24</sup> qui inmutat cor principum populi terrae et decipit eos ut frustra incedant per invium
 <sup>25</sup> palpabunt quasi in tenebris et non in luce et errare eos faciet quasi ebrios
+
 ## Chapter 13
 
 <sup>1</sup> ecce omnia et vidit oculus meus et audivit auris mea et intellexi singula
@@ -336,6 +348,7 @@
 <sup>26</sup> scribis enim contra me amaritudines et consumere me vis peccatis adulescentiae meae
 <sup>27</sup> posuisti in nervo pedem meum et observasti omnes semitas meas et vestigia pedum meorum considerasti
 <sup>28</sup> qui quasi putredo consumendus sum et quasi vestimentum quod comeditur a tinea
+
 ## Chapter 14
 
 <sup>1</sup> homo natus de muliere brevi vivens tempore repletus multis miseriis
@@ -360,6 +373,7 @@
 <sup>20</sup> roborasti eum paululum ut in perpetuum pertransiret inmutabis faciem eius et emittes eum
 <sup>21</sup> sive nobiles fuerint filii eius sive ignobiles non intelleget
 <sup>22</sup> attamen caro eius dum vivet dolebit et anima illius super semet ipso lugebit
+
 ## Chapter 15
 
 <sup>1</sup> respondens autem Eliphaz Themanites dixit
@@ -397,30 +411,51 @@
 <sup>33</sup> laedetur quasi vinea in primo flore botrus eius et quasi oliva proiciens florem suum
 <sup>34</sup> congregatio enim hypocritae sterilis et ignis devorabit tabernacula eorum qui munera libenter accipiunt
 <sup>35</sup> concepit dolorem et peperit iniquitatem et uterus eius praeparat dolos
+
 ## Chapter 16
 
 <sup>1</sup> respondens autem Iob dixit
 <sup>2</sup> audivi frequenter talia consolatores onerosi omnes vos estis
 <sup>3</sup> numquid habebunt finem verba ventosa aut aliquid tibi molestum est si loquaris
 <sup>4</sup> poteram et ego similia vestri loqui atque utinam esset anima vestra pro anima mea
-<sup>5</sup> consolarer et ego vos sermonibus et moverem caput meum super vos (16-6) roborarem vos ore meo et moverem labia quasi parcens vobis
-<sup>6</sup> (16-7) sed quid agam si locutus fuero non quiescet dolor meus et si tacuero non recedet a me
-<sup>7</sup> (16-8) nunc autem oppressit me dolor meus et in nihili redacti sunt omnes artus mei
-<sup>8</sup> (16-9) rugae meae testimonium dicunt contra me et suscitatur falsiloquus adversus faciem meam contradicens mihi
-<sup>9</sup> (16-10) collegit furorem suum in me et comminans mihi infremuit contra me dentibus suis hostis meus terribilibus oculis me intuitus est
-<sup>10</sup> (16-11) aperuerunt super me ora sua exprobrantes percusserunt maxillam meam satiati sunt poenis meis
-<sup>11</sup> (16-12) conclusit me Deus apud iniquum et manibus impiorum me tradidit
-<sup>12</sup> (16-13) ego ille quondam opulentus repente contritus sum tenuit cervicem meam confregit me et posuit sibi quasi in signum
-<sup>13</sup> (16-14) circumdedit me lanceis suis convulneravit lumbos meos non pepercit et effudit in terra viscera mea
-<sup>14</sup> (16-15) concidit me vulnere super vulnus inruit in me quasi gigans
-<sup>15</sup> (16-16) saccum consui super cutem meam et operui cinere cornu meum
-<sup>16</sup> (16-17) facies mea intumuit a fletu et palpebrae meae caligaverunt
-<sup>17</sup> (16-18) haec passus sum absque iniquitate manus meae cum haberem mundas ad Deum preces
-<sup>18</sup> (16-19) terra ne operias sanguinem meum neque inveniat locum in te latendi clamor meus
-<sup>19</sup> (16-20) ecce enim in caelo testis meus et conscius meus in excelsis
-<sup>20</sup> (16-21) verbosi mei amici mei ad Deum stillat oculus meus
-<sup>21</sup> (16-22) atque utinam sic iudicaretur vir cum Deo quomodo iudicatur filius hominis cum collega suo
-<sup>22</sup> (16-23) ecce enim breves anni transeunt et semitam per quam non revertar ambulo
+<sup>5</sup> consolarer et ego vos sermonibus et moverem caput meum super vos <sup>a</sup>roborarem vos ore meo et moverem labia quasi parcens vobis
+<sup>6</sup> <sup>b</sup>sed quid agam si locutus fuero non quiescet dolor meus et si tacuero non recedet a me
+<sup>7</sup> <sup>c</sup>nunc autem oppressit me dolor meus et in nihili redacti sunt omnes artus mei
+<sup>8</sup> <sup>d</sup>rugae meae testimonium dicunt contra me et suscitatur falsiloquus adversus faciem meam contradicens mihi
+<sup>9</sup> <sup>e</sup>collegit furorem suum in me et comminans mihi infremuit contra me dentibus suis hostis meus terribilibus oculis me intuitus est
+<sup>10</sup> <sup>f</sup>aperuerunt super me ora sua exprobrantes percusserunt maxillam meam satiati sunt poenis meis
+<sup>11</sup> <sup>g</sup>conclusit me Deus apud iniquum et manibus impiorum me tradidit
+<sup>12</sup> <sup>h</sup>ego ille quondam opulentus repente contritus sum tenuit cervicem meam confregit me et posuit sibi quasi in signum
+<sup>13</sup> <sup>i</sup>circumdedit me lanceis suis convulneravit lumbos meos non pepercit et effudit in terra viscera mea
+<sup>14</sup> <sup>j</sup>concidit me vulnere super vulnus inruit in me quasi gigans
+<sup>15</sup> <sup>k</sup>saccum consui super cutem meam et operui cinere cornu meum
+<sup>16</sup> <sup>l</sup>facies mea intumuit a fletu et palpebrae meae caligaverunt
+<sup>17</sup> <sup>m</sup>haec passus sum absque iniquitate manus meae cum haberem mundas ad Deum preces
+<sup>18</sup> <sup>n</sup>terra ne operias sanguinem meum neque inveniat locum in te latendi clamor meus
+<sup>19</sup> <sup>o</sup>ecce enim in caelo testis meus et conscius meus in excelsis
+<sup>20</sup> <sup>p</sup>verbosi mei amici mei ad Deum stillat oculus meus
+<sup>21</sup> <sup>q</sup>atque utinam sic iudicaretur vir cum Deo quomodo iudicatur filius hominis cum collega suo
+<sup>22</sup> <sup>r</sup>ecce enim breves anni transeunt et semitam per quam non revertar ambulo
+
+> - <sup>a</sup> 5. Originally verse 16:6.
+> - <sup>b</sup> 6. Originally verse 16:7.
+> - <sup>c</sup> 7. Originally verse 16:8.
+> - <sup>d</sup> 8. Originally verse 16:9.
+> - <sup>e</sup> 9. Originally verse 16:10.
+> - <sup>f</sup> 10. Originally verse 16:11.
+> - <sup>g</sup> 11. Originally verse 16:12.
+> - <sup>h</sup> 12. Originally verse 16:13.
+> - <sup>i</sup> 13. Originally verse 16:14.
+> - <sup>j</sup> 14. Originally verse 16:15.
+> - <sup>k</sup> 15. Originally verse 16:16.
+> - <sup>l</sup> 16. Originally verse 16:17.
+> - <sup>m</sup> 17. Originally verse 16:18.
+> - <sup>n</sup> 18. Originally verse 16:19.
+> - <sup>o</sup> 19. Originally verse 16:20.
+> - <sup>p</sup> 20. Originally verse 16:21.
+> - <sup>q</sup> 21. Originally verse 16:22.
+> - <sup>r</sup> 22. Originally verse 16:23.
+
 ## Chapter 17
 
 <sup>1</sup> spiritus meus adtenuabitur dies mei breviabuntur et solum mihi superest sepulchrum
@@ -439,6 +474,7 @@
 <sup>14</sup> putredini dixi pater meus es mater mea et soror mea vermibus
 <sup>15</sup> ubi est ergo nunc praestolatio mea et patientiam meam quis considerat
 <sup>16</sup> in profundissimum infernum descendent omnia mea putasne saltim ibi erit requies mihi
+
 ## Chapter 18
 
 <sup>1</sup> respondens autem Baldad Suites dixit
@@ -462,6 +498,7 @@
 <sup>19</sup> non erit semen eius neque progenies in populo suo nec ullae reliquiae in regionibus eius
 <sup>20</sup> in die eius stupebunt novissimi et primos invadet horror
 <sup>21</sup> haec sunt ergo tabernacula iniqui et iste locus eius qui ignorat Deum
+
 ## Chapter 19
 
 <sup>1</sup> respondens autem Iob dixit
@@ -493,6 +530,7 @@
 <sup>27</sup> quem visurus sum ego ipse et oculi mei conspecturi sunt et non alius reposita est haec spes mea in sinu meo
 <sup>28</sup> quare ergo nunc dicitis persequamur eum et radicem verbi inveniamus contra eum
 <sup>29</sup> fugite ergo a facie gladii quoniam ultor iniquitatum gladius est et scitote esse iudicium
+
 ## Chapter 20
 
 <sup>1</sup> respondens autem Sophar Naamathites dixit
@@ -524,6 +562,7 @@
 <sup>27</sup> revelabunt caeli iniquitatem eius et terra consurget adversus eum
 <sup>28</sup> apertum erit germen domus illius detrahetur in die furoris Dei
 <sup>29</sup> haec est pars hominis impii a Deo et hereditas verborum eius a Domino
+
 ## Chapter 21
 
 <sup>1</sup> respondens autem Iob dixit
@@ -560,6 +599,7 @@
 <sup>32</sup> ipse ad sepulchra ducetur et in congerie mortuorum vigilabit
 <sup>33</sup> dulcis fuit glareis Cocyti et post se omnem hominem trahet et ante se innumerabiles
 <sup>34</sup> quomodo igitur consolamini me frustra cum responsio vestra repugnare ostensa sit veritati
+
 ## Chapter 22
 
 <sup>1</sup> respondens autem Eliphaz Themanites dixit
@@ -592,6 +632,7 @@
 <sup>28</sup> decernes rem et veniet tibi et in viis tuis splendebit lumen
 <sup>29</sup> qui enim humiliatus fuerit erit in gloria et qui inclinaverit oculos suos ipse salvabitur
 <sup>30</sup> salvabitur innocens salvabitur autem munditia manuum suarum
+
 ## Chapter 23
 
 <sup>1</sup> respondens autem Iob dixit
@@ -611,6 +652,7 @@
 <sup>15</sup> et idcirco a facie eius turbatus sum et considerans eum timore sollicitor
 <sup>16</sup> Deus mollivit cor meum et Omnipotens conturbavit me
 <sup>17</sup> non enim perii propter inminentes tenebras nec faciem meam operuit caligo
+
 ## Chapter 24
 
 <sup>1</sup> ab Omnipotente non sunt abscondita tempora qui autem noverunt eum ignorant dies illius
@@ -638,6 +680,7 @@
 <sup>23</sup> dedit ei Deus locum paenitentiae et ille abutitur eo in superbiam oculi autem eius sunt in viis illius
 <sup>24</sup> elevati sunt ad modicum et non subsistent et humiliabuntur sicut omnia et auferentur et sicut summitates spicarum conterentur
 <sup>25</sup> quod si non est ita quis me potest arguere esse mentitum et ponere ante Deum verba mea
+
 ## Chapter 25
 
 <sup>1</sup> respondens autem Baldad Suites dixit
@@ -646,6 +689,7 @@
 <sup>4</sup> numquid iustificari potest homo conparatus Deo aut apparere mundus natus de muliere
 <sup>5</sup> ecce etiam luna non splendet et stellae non sunt mundae in conspectu eius
 <sup>6</sup> quanto magis homo putredo et filius hominis vermis
+
 ## Chapter 26
 
 <sup>1</sup> respondens autem Iob dixit
@@ -662,6 +706,7 @@
 <sup>12</sup> in fortitudine illius repente maria congregata sunt et prudentia eius percussit superbum
 <sup>13</sup> spiritus eius ornavit caelos et obsetricante manu eius eductus est coluber tortuosus
 <sup>14</sup> ecce haec ex parte dicta sunt viarum eius et cum vix parvam stillam sermonis eius audierimus quis poterit tonitruum magnitudinis illius intueri
+
 ## Chapter 27
 
 <sup>1</sup> addidit quoque Iob adsumens parabolam suam et dixit
@@ -687,6 +732,7 @@
 <sup>21</sup> tollet eum ventus urens et auferet et velut turbo rapiet eum de loco suo
 <sup>22</sup> et mittet super eum et non parcet de manu eius fugiens fugiet
 <sup>23</sup> stringet super eum manus suas et sibilabit super illum intuens locum eius
+
 ## Chapter 28
 
 <sup>1</sup> habet argentum venarum suarum principia et auro locus est in quo conflatur
@@ -717,6 +763,7 @@
 <sup>26</sup> quando ponebat pluviis legem et viam procellis sonantibus
 <sup>27</sup> tunc vidit illam et enarravit et praeparavit et investigavit
 <sup>28</sup> et dixit homini ecce timor Domini ipsa est sapientia et recedere a malo intellegentia
+
 ## Chapter 29
 
 <sup>1</sup> addidit quoque Iob adsumens parabolam suam et dixit
@@ -744,6 +791,7 @@
 <sup>23</sup> expectabant me sicut pluviam et os suum aperiebant quasi ad imbrem serotinum
 <sup>24</sup> si quando ridebam ad eos non credebant et lux vultus mei non cadebat in terram
 <sup>25</sup> si voluissem ire ad eos sedebam primus cumque sederem quasi rex circumstante exercitu eram tamen maerentium consolator
+
 ## Chapter 30
 
 <sup>1</sup> nunc autem derident me iuniores tempore quorum non dignabar patres ponere cum canibus gregis mei
@@ -777,6 +825,7 @@
 <sup>29</sup> frater fui draconum et socius strutionum
 <sup>30</sup> cutis mea denigrata est super me et ossa mea aruerunt prae caumate
 <sup>31</sup> versa est in luctum cithara mea et organum meum in vocem flentium
+
 ## Chapter 31
 
 <sup>1</sup> pepigi foedus cum oculis meis ut ne cogitarem quidem de virgine
@@ -819,6 +868,7 @@
 <sup>38</sup> si adversum me terra mea clamat et cum ipsa sulci eius deflent
 <sup>39</sup> si fructus eius comedi absque pecunia et animam agricolarum eius adflixi
 <sup>40</sup> pro frumento oriatur mihi tribulus et pro hordeo spina finita sunt verba Iob
+
 ## Chapter 32
 
 <sup>1</sup> omiserunt autem tres viri isti respondere Iob eo quod iustus sibi videretur
@@ -843,6 +893,7 @@
 <sup>20</sup> loquar et respirabo paululum aperiam labia mea et respondebo
 <sup>21</sup> non accipiam personam viri et Deum homini non aequabo
 <sup>22</sup> nescio enim quamdiu subsistam et si post modicum tollat me factor meus
+
 ## Chapter 33
 
 <sup>1</sup> audi igitur Iob eloquia mea et omnes sermones meos ausculta
@@ -878,6 +929,7 @@
 <sup>31</sup> adtende Iob et audi me et tace dum ego loquar
 <sup>32</sup> si autem habes quod loquaris responde mihi loquere volo enim te apparere iustum
 <sup>33</sup> quod si non habes audi me tace et docebo te sapientiam
+
 ## Chapter 34
 
 <sup>1</sup> pronuntians itaque Heliu etiam haec locutus est
@@ -917,6 +969,7 @@
 <sup>35</sup> Iob autem stulte locutus est et verba illius non sonant disciplinam
 <sup>36</sup> pater mi probetur Iob usque ad finem ne desinas in hominibus iniquitatis
 <sup>37</sup> quia addit super peccata sua blasphemiam inter nos interim constringatur et tunc ad iudicium provocet sermonibus suis Deum
+
 ## Chapter 35
 
 <sup>1</sup> igitur Heliu haec rursum locutus est
@@ -935,6 +988,7 @@
 <sup>14</sup> etiam cum dixeris non considerat iudicare coram eo et expecta eum
 <sup>15</sup> nunc enim non infert furorem suum nec ulciscitur scelus valde
 <sup>16</sup> ergo Iob frustra aperit os suum et absque scientia verba multiplicat
+
 ## Chapter 36
 
 <sup>1</sup> addens quoque Heliu haec locutus est
@@ -970,6 +1024,7 @@
 <sup>31</sup> per haec enim iudicat populos et dat escas multis mortalibus
 <sup>32</sup> in manibus abscondit lucem et praecipit ei ut rursus adveniat
 <sup>33</sup> adnuntiat de ea amico suo quod possessio eius sit et ad eam possit ascendere
+
 ## Chapter 37
 
 <sup>1</sup> super hoc expavit cor meum et emotum est de loco suo
@@ -996,6 +1051,7 @@
 <sup>22</sup> ab aquilone aurum venit et ad Deum formidolosa laudatio
 <sup>23</sup> digne eum invenire non possumus magnus fortitudine et iudicio et iustitia et enarrari non potest
 <sup>24</sup> ideo timebunt eum viri et non audebunt contemplari omnes qui sibi videntur esse sapientes
+
 ## Chapter 38
 
 <sup>1</sup> respondens autem Dominus Iob de turbine dixit
@@ -1039,6 +1095,7 @@
 <sup>39</sup> numquid capies leaenae praedam et animam catulorum eius implebis
 <sup>40</sup> quando cubant in antris et in specubus insidiantur
 <sup>41</sup> quis praeparat corvo escam suam quando pulli eius ad Deum clamant vagantes eo quod non habeant cibos
+
 ## Chapter 39
 
 <sup>1</sup> numquid nosti tempus partus hibicum in petris vel parturientes cervas observasti
@@ -1071,68 +1128,131 @@
 <sup>28</sup> in petris manet et in praeruptis silicibus commoratur atque inaccessis rupibus
 <sup>29</sup> inde contemplatur escam et de longe oculi eius prospiciunt
 <sup>30</sup> pulli eius lambent sanguinem et ubicumque cadaver fuerit statim adest
+
 ## Chapter 40
 
-<sup>1</sup> (39-31) et adiecit Dominus et locutus est ad Iob
-<sup>2</sup> (39-32) numquid qui contendit cum Deo tam facile conquiescit utique qui arguit Deum debet respondere ei
-<sup>3</sup> (39-33) respondens autem Iob Domino dixit
-<sup>4</sup> (39-34) qui leviter locutus sum respondere quid possum manum meam ponam super os meum
-<sup>5</sup> (39-35) unum locutus sum quod utinam non dixissem et alterum quibus ultra non addam
-<sup>6</sup> (40-1) respondens autem Dominus Iob de turbine ait
-<sup>7</sup> (40-2) accinge sicut vir lumbos tuos interrogabo te et indica mihi
-<sup>8</sup> (40-3) numquid irritum facies iudicium meum et condemnabis me ut tu iustificeris
-<sup>9</sup> (40-4) et si habes brachium sicut Deus et si voce simili tonas
-<sup>10</sup> (40-5) circumda tibi decorem et in sublime erigere et esto gloriosus et speciosis induere vestibus
-<sup>11</sup> (40-6) disperge superbos furore tuo et respiciens omnem arrogantem humilia
-<sup>12</sup> (40-7) respice cunctos superbos et confunde eos et contere impios in loco suo
-<sup>13</sup> (40-8) absconde eos in pulvere simul et facies eorum demerge in foveam
-<sup>14</sup> (40-9) et ego confitebor quod salvare te possit dextera tua
-<sup>15</sup> (40-10) ecce Behemoth quem feci tecum faenum quasi bos comedet
-<sup>16</sup> (40-11) fortitudo eius in lumbis eius et virtus illius in umbilicis ventris eius
-<sup>17</sup> (40-12) constringit caudam suam quasi cedrum nervi testiculorum eius perplexi sunt
-<sup>18</sup> (40-13) ossa eius velut fistulae aeris cartilago illius quasi lamminae ferreae
-<sup>19</sup> (40-14) ipse principium est viarum Dei qui fecit eum adplicabit gladium eius
-<sup>20</sup> (40-15) huic montes herbas ferunt omnes bestiae agri ludent ibi
-<sup>21</sup> (40-16) sub umbra dormit in secreto calami et locis humentibus
-<sup>22</sup> (40-17) protegunt umbrae umbram eius circumdabunt eum salices torrentis
-<sup>23</sup> (40-18) ecce absorbebit fluvium et non mirabitur habet fiduciam quod influat Iordanis in os eius
-<sup>24</sup> (40-19) in oculis eius quasi hamo capiet eum et in sudibus perforabit nares eius
+<sup>1</sup> <sup>a</sup>et adiecit Dominus et locutus est ad Iob
+<sup>2</sup> <sup>b</sup>numquid qui contendit cum Deo tam facile conquiescit utique qui arguit Deum debet respondere ei
+<sup>3</sup> <sup>c</sup>respondens autem Iob Domino dixit
+<sup>4</sup> <sup>d</sup>qui leviter locutus sum respondere quid possum manum meam ponam super os meum
+<sup>5</sup> <sup>e</sup>unum locutus sum quod utinam non dixissem et alterum quibus ultra non addam
+<sup>6</sup> <sup>f</sup>respondens autem Dominus Iob de turbine ait
+<sup>7</sup> <sup>g</sup>accinge sicut vir lumbos tuos interrogabo te et indica mihi
+<sup>8</sup> <sup>h</sup>numquid irritum facies iudicium meum et condemnabis me ut tu iustificeris
+<sup>9</sup> <sup>i</sup>et si habes brachium sicut Deus et si voce simili tonas
+<sup>10</sup> <sup>j</sup>circumda tibi decorem et in sublime erigere et esto gloriosus et speciosis induere vestibus
+<sup>11</sup> <sup>k</sup>disperge superbos furore tuo et respiciens omnem arrogantem humilia
+<sup>12</sup> <sup>l</sup>respice cunctos superbos et confunde eos et contere impios in loco suo
+<sup>13</sup> <sup>m</sup>absconde eos in pulvere simul et facies eorum demerge in foveam
+<sup>14</sup> <sup>n</sup>et ego confitebor quod salvare te possit dextera tua
+<sup>15</sup> <sup>o</sup>ecce Behemoth quem feci tecum faenum quasi bos comedet
+<sup>16</sup> <sup>p</sup>fortitudo eius in lumbis eius et virtus illius in umbilicis ventris eius
+<sup>17</sup> <sup>q</sup>constringit caudam suam quasi cedrum nervi testiculorum eius perplexi sunt
+<sup>18</sup> <sup>r</sup>ossa eius velut fistulae aeris cartilago illius quasi lamminae ferreae
+<sup>19</sup> <sup>s</sup>ipse principium est viarum Dei qui fecit eum adplicabit gladium eius
+<sup>20</sup> <sup>t</sup>huic montes herbas ferunt omnes bestiae agri ludent ibi
+<sup>21</sup> <sup>u</sup>sub umbra dormit in secreto calami et locis humentibus
+<sup>22</sup> <sup>v</sup>protegunt umbrae umbram eius circumdabunt eum salices torrentis
+<sup>23</sup> <sup>w</sup>ecce absorbebit fluvium et non mirabitur habet fiduciam quod influat Iordanis in os eius
+<sup>24</sup> <sup>x</sup>in oculis eius quasi hamo capiet eum et in sudibus perforabit nares eius
+
+> - <sup>a</sup> 1. Originally verse 39:31.
+> - <sup>b</sup> 2. Originally verse 39:32.
+> - <sup>c</sup> 3. Originally verse 39:33.
+> - <sup>d</sup> 4. Originally verse 39:34.
+> - <sup>e</sup> 5. Originally verse 39:35.
+> - <sup>f</sup> 6. Originally verse 40:1.
+> - <sup>g</sup> 7. Originally verse 40:2.
+> - <sup>h</sup> 8. Originally verse 40:3.
+> - <sup>i</sup> 9. Originally verse 40:4.
+> - <sup>j</sup> 10. Originally verse 40:5.
+> - <sup>k</sup> 11. Originally verse 40:6.
+> - <sup>l</sup> 12. Originally verse 40:7.
+> - <sup>m</sup> 13. Originally verse 40:8.
+> - <sup>n</sup> 14. Originally verse 40:9.
+> - <sup>o</sup> 15. Originally verse 40:10.
+> - <sup>p</sup> 16. Originally verse 40:11.
+> - <sup>q</sup> 17. Originally verse 40:12.
+> - <sup>r</sup> 18. Originally verse 40:13.
+> - <sup>s</sup> 19. Originally verse 40:14.
+> - <sup>t</sup> 20. Originally verse 40:15.
+> - <sup>u</sup> 21. Originally verse 40:16.
+> - <sup>v</sup> 22. Originally verse 40:17.
+> - <sup>w</sup> 23. Originally verse 40:18.
+> - <sup>x</sup> 24. Originally verse 40:19.
+
 ## Chapter 41
 
-<sup>1</sup> (40-20) an extrahere poteris Leviathan hamo et fune ligabis linguam eius
-<sup>2</sup> (40-21) numquid pones circulum in naribus eius et armilla perforabis maxillam eius
-<sup>3</sup> (40-22) numquid multiplicabit ad te preces aut loquetur tibi mollia
-<sup>4</sup> (40-23) numquid feriet tecum pactum et accipies eum servum sempiternum
-<sup>5</sup> (40-24) numquid inludes ei quasi avi aut ligabis illum ancillis tuis
-<sup>6</sup> (40-25) concident eum amici divident illum negotiatores
-<sup>7</sup> (40-26) numquid implebis sagenas pelle eius et gurgustium piscium capite illius
-<sup>8</sup> (40-27) pone super eum manum tuam memento belli nec ultra addas loqui
-<sup>9</sup> (40-28) ecce spes eius frustrabitur eum et videntibus cunctis praecipitabitur
-<sup>10</sup> (41-1) non quasi crudelis suscitabo eum quis enim resistere potest vultui meo
-<sup>11</sup> (41-2) quis ante dedit mihi ut reddam ei omnia quae sub caelo sunt mea sunt
-<sup>12</sup> (41-3) non parcam ei et verbis potentibus et ad deprecandum conpositis
-<sup>13</sup> (41-4) quis revelavit faciem indumenti eius et in medium oris eius quis intrabit
-<sup>14</sup> (41-5) portas vultus eius quis aperiet per gyrum dentium eius formido
-<sup>15</sup> (41-6) corpus illius quasi scuta fusilia et conpactum squamis se prementibus
-<sup>16</sup> (41-7) una uni coniungitur et ne spiraculum quidem incedit per eas
-<sup>17</sup> (41-8) una alteri adherebunt et tenentes se nequaquam separabuntur
-<sup>18</sup> (41-9) sternutatio eius splendor ignis et oculi eius ut palpebrae diluculi
-<sup>19</sup> (41-10) de ore eius lampades procedunt sicut taedae ignis accensae
-<sup>20</sup> (41-11) de naribus eius procedit fumus sicut ollae succensae atque ferventis
-<sup>21</sup> (41-12) halitus eius prunas ardere facit et flamma de ore eius egreditur
-<sup>22</sup> (41-13) in collo eius morabitur fortitudo et faciem eius praecedet egestas
-<sup>23</sup> (41-14) membra carnium eius coherentia sibi mittet contra eum fulmina et ad locum alium non ferentur
-<sup>24</sup> (41-15) cor eius indurabitur quasi lapis et stringetur quasi malleatoris incus
-<sup>25</sup> (41-16) cum sublatus fuerit timebunt angeli et territi purgabuntur
-<sup>26</sup> (41-17) cum adprehenderit eum gladius subsistere non poterit neque hasta neque torax
-<sup>27</sup> (41-18) reputabit enim quasi paleas ferrum et quasi lignum putridum aes
-<sup>28</sup> (41-19) non fugabit eum vir sagittarius in stipulam versi sunt ei lapides fundae
-<sup>29</sup> (41-20) quasi stipulam aestimabit malleum et deridebit vibrantem hastam
-<sup>30</sup> (41-21) sub ipso erunt radii solis sternet sibi aurum quasi lutum
-<sup>31</sup> (41-22) fervescere faciet quasi ollam profundum mare ponet quasi cum unguenta bulliunt
-<sup>32</sup> (41-23) post eum lucebit semita aestimabit abyssum quasi senescentem
-<sup>33</sup> (41-24) non est super terram potestas quae conparetur ei qui factus est ut nullum timeret
-<sup>34</sup> (41-25) omne sublime videt ipse est rex super universos filios superbiae
+<sup>1</sup> <sup>a</sup>an extrahere poteris Leviathan hamo et fune ligabis linguam eius
+<sup>2</sup> <sup>b</sup>numquid pones circulum in naribus eius et armilla perforabis maxillam eius
+<sup>3</sup> <sup>c</sup>numquid multiplicabit ad te preces aut loquetur tibi mollia
+<sup>4</sup> <sup>d</sup>numquid feriet tecum pactum et accipies eum servum sempiternum
+<sup>5</sup> <sup>e</sup>numquid inludes ei quasi avi aut ligabis illum ancillis tuis
+<sup>6</sup> <sup>f</sup>concident eum amici divident illum negotiatores
+<sup>7</sup> <sup>g</sup>numquid implebis sagenas pelle eius et gurgustium piscium capite illius
+<sup>8</sup> <sup>h</sup>pone super eum manum tuam memento belli nec ultra addas loqui
+<sup>9</sup> <sup>i</sup>ecce spes eius frustrabitur eum et videntibus cunctis praecipitabitur
+<sup>10</sup> <sup>j</sup>non quasi crudelis suscitabo eum quis enim resistere potest vultui meo
+<sup>11</sup> <sup>k</sup>quis ante dedit mihi ut reddam ei omnia quae sub caelo sunt mea sunt
+<sup>12</sup> <sup>l</sup>non parcam ei et verbis potentibus et ad deprecandum conpositis
+<sup>13</sup> <sup>m</sup>quis revelavit faciem indumenti eius et in medium oris eius quis intrabit
+<sup>14</sup> <sup>n</sup>portas vultus eius quis aperiet per gyrum dentium eius formido
+<sup>15</sup> <sup>o</sup>corpus illius quasi scuta fusilia et conpactum squamis se prementibus
+<sup>16</sup> <sup>p</sup>una uni coniungitur et ne spiraculum quidem incedit per eas
+<sup>17</sup> <sup>q</sup>una alteri adherebunt et tenentes se nequaquam separabuntur
+<sup>18</sup> <sup>r</sup>sternutatio eius splendor ignis et oculi eius ut palpebrae diluculi
+<sup>19</sup> <sup>s</sup>de ore eius lampades procedunt sicut taedae ignis accensae
+<sup>20</sup> <sup>t</sup>de naribus eius procedit fumus sicut ollae succensae atque ferventis
+<sup>21</sup> <sup>u</sup>halitus eius prunas ardere facit et flamma de ore eius egreditur
+<sup>22</sup> <sup>v</sup>in collo eius morabitur fortitudo et faciem eius praecedet egestas
+<sup>23</sup> <sup>w</sup>membra carnium eius coherentia sibi mittet contra eum fulmina et ad locum alium non ferentur
+<sup>24</sup> <sup>x</sup>cor eius indurabitur quasi lapis et stringetur quasi malleatoris incus
+<sup>25</sup> <sup>y</sup>cum sublatus fuerit timebunt angeli et territi purgabuntur
+<sup>26</sup> <sup>z</sup>cum adprehenderit eum gladius subsistere non poterit neque hasta neque torax
+<sup>27</sup> <sup>a</sup>reputabit enim quasi paleas ferrum et quasi lignum putridum aes
+<sup>28</sup> <sup>b</sup>non fugabit eum vir sagittarius in stipulam versi sunt ei lapides fundae
+<sup>29</sup> <sup>c</sup>quasi stipulam aestimabit malleum et deridebit vibrantem hastam
+<sup>30</sup> <sup>d</sup>sub ipso erunt radii solis sternet sibi aurum quasi lutum
+<sup>31</sup> <sup>e</sup>fervescere faciet quasi ollam profundum mare ponet quasi cum unguenta bulliunt
+<sup>32</sup> <sup>f</sup>post eum lucebit semita aestimabit abyssum quasi senescentem
+<sup>33</sup> <sup>g</sup>non est super terram potestas quae conparetur ei qui factus est ut nullum timeret
+<sup>34</sup> <sup>h</sup>omne sublime videt ipse est rex super universos filios superbiae
+
+> - <sup>a</sup> 1. Originally verse 40:20.
+> - <sup>b</sup> 2. Originally verse 40:21.
+> - <sup>c</sup> 3. Originally verse 40:22.
+> - <sup>d</sup> 4. Originally verse 40:23.
+> - <sup>e</sup> 5. Originally verse 40:24.
+> - <sup>f</sup> 6. Originally verse 40:25.
+> - <sup>g</sup> 7. Originally verse 40:26.
+> - <sup>h</sup> 8. Originally verse 40:27.
+> - <sup>i</sup> 9. Originally verse 40:28.
+> - <sup>j</sup> 10. Originally verse 41:1.
+> - <sup>k</sup> 11. Originally verse 41:2.
+> - <sup>l</sup> 12. Originally verse 41:3.
+> - <sup>m</sup> 13. Originally verse 41:4.
+> - <sup>n</sup> 14. Originally verse 41:5.
+> - <sup>o</sup> 15. Originally verse 41:6.
+> - <sup>p</sup> 16. Originally verse 41:7.
+> - <sup>q</sup> 17. Originally verse 41:8.
+> - <sup>r</sup> 18. Originally verse 41:9.
+> - <sup>s</sup> 19. Originally verse 41:10.
+> - <sup>t</sup> 20. Originally verse 41:11.
+> - <sup>u</sup> 21. Originally verse 41:12.
+> - <sup>v</sup> 22. Originally verse 41:13.
+> - <sup>w</sup> 23. Originally verse 41:14.
+> - <sup>x</sup> 24. Originally verse 41:15.
+> - <sup>y</sup> 25. Originally verse 41:16.
+> - <sup>z</sup> 26. Originally verse 41:17.
+> - <sup>a</sup> 27. Originally verse 41:18.
+> - <sup>b</sup> 28. Originally verse 41:19.
+> - <sup>c</sup> 29. Originally verse 41:20.
+> - <sup>d</sup> 30. Originally verse 41:21.
+> - <sup>e</sup> 31. Originally verse 41:22.
+> - <sup>f</sup> 32. Originally verse 41:23.
+> - <sup>g</sup> 33. Originally verse 41:24.
+> - <sup>h</sup> 34. Originally verse 41:25.
+
 ## Chapter 42
 
 <sup>1</sup> respondens autem Iob Domino dixit
@@ -1151,4 +1271,6 @@
 <sup>14</sup> et vocavit nomen unius Diem et nomen secundae Cassia et nomen tertiae Cornu stibii
 <sup>15</sup> non sunt autem inventae mulieres speciosae sicut filiae Iob in universa terra deditque eis pater suus hereditatem inter fratres earum
 <sup>16</sup> vixit autem Iob post haec centum quadraginta annis et vidit filios suos et filios filiorum suorum usque ad quartam generationem
-<sup>17</sup> (42-16) et mortuus est senex et plenus dierum
+<sup>17</sup> <sup>a</sup>et mortuus est senex et plenus dierum
+
+> - <sup>a</sup> 17. Originally verse 42:16.

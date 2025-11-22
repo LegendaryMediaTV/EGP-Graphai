@@ -5,11 +5,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Παῦλος,",
         "script": "G",
         "strong": "G3972",
-        "morph": "N-NSM",
-        "paragraph": true
+        "morph": "N-NSM"
       },
       {
         "text": " δοῦλος",
@@ -460,11 +460,11 @@
     "verse": 5,
     "content": [
       {
+        "paragraph": true,
         "text": "Τούτου",
         "script": "G",
         "strong": "G3778",
-        "morph": "D-GSN",
-        "paragraph": true
+        "morph": "D-GSN"
       },
       {
         "text": " χάριν",
@@ -1003,11 +1003,11 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "Εἰσὶν",
         "script": "G",
         "strong": "G1510",
-        "morph": "V-PAI-3P",
-        "paragraph": true
+        "morph": "V-PAI-3P"
       },
       {
         "text": " γὰρ",
@@ -1738,11 +1738,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Σὺ",
         "script": "G",
         "strong": "G4771",
-        "morph": "P-2NS",
-        "paragraph": true
+        "morph": "P-2NS"
       },
       {
         "text": " δὲ",
@@ -3021,11 +3021,11 @@
     "verse": 15,
     "content": [
       {
+        "paragraph": true,
         "text": "Ταῦτα",
         "script": "G",
         "strong": "G3778",
-        "morph": "D-APN",
-        "paragraph": true
+        "morph": "D-APN"
       },
       {
         "text": " λάλει,",
@@ -3101,11 +3101,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Ὑπομίμνῃσκε",
         "script": "G",
         "strong": "G5279",
-        "morph": "V-PAM-2S",
-        "paragraph": true
+        "morph": "V-PAM-2S"
       },
       {
         "text": " αὐτοὺς",
@@ -3252,12 +3252,7 @@
             },
             " ⇒ ",
             {
-              "text": "πραύ",
-              "script": "G"
-            },
-            " ̈ ",
-            {
-              "text": "τητα",
+              "text": "πρα̈ύτητα",
               "script": "G"
             }
           ]
@@ -4226,11 +4221,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Ὅταν",
         "script": "G",
         "strong": "G3752",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " πέμψω",
@@ -4527,11 +4522,11 @@
     "verse": 15,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἀσπάζονταί",
         "script": "G",
         "strong": "G782",
-        "morph": "V-PNI-3P",
-        "paragraph": true
+        "morph": "V-PNI-3P"
       },
       {
         "text": " σε",

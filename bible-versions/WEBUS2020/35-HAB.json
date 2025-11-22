@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "The revelation which Habakkuk the prophet saw.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The revelation which Habakkuk the prophet saw."
     }
   },
   {
@@ -40,8 +40,8 @@
     "chapter": 1,
     "verse": 5,
     "content": {
-      "text": "“Look among the nations, watch, and wonder marvelously; for I am working a work in your days which you will not believe though it is told you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Look among the nations, watch, and wonder marvelously; for I am working a work in your days which you will not believe though it is told you."
     }
   },
   {
@@ -102,6 +102,7 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Aren’t you from everlasting, Yahweh my God,",
         "foot": {
           "type": "trn",
@@ -113,8 +114,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "paragraph": true
+        }
       },
       " my Holy One? We will not die. Yahweh, you have appointed them for judgment. You, Rock, have established him to punish."
     ]
@@ -154,8 +154,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "I will stand at my watch and set myself on the ramparts, and will look out to see what he will say to me, and what I will answer concerning my complaint.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I will stand at my watch and set myself on the ramparts, and will look out to see what he will say to me, and what I will answer concerning my complaint."
     }
   },
   {
@@ -163,8 +163,8 @@
     "chapter": 2,
     "verse": 2,
     "content": {
-      "text": "Yahweh answered me, “Write the vision, and make it plain on tablets, that he who runs may read it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh answered me, “Write the vision, and make it plain on tablets, that he who runs may read it."
     }
   },
   {
@@ -199,8 +199,8 @@
     "chapter": 2,
     "verse": 6,
     "content": {
-      "text": "Won’t all these take up a parable against him, and a taunting proverb against him, and say, ‘Woe to him who increases that which is not his, and who enriches himself by extortion! How long?’",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Won’t all these take up a parable against him, and a taunting proverb against him, and say, ‘Woe to him who increases that which is not his, and who enriches himself by extortion! How long?’"
     }
   },
   {
@@ -220,8 +220,8 @@
     "chapter": 2,
     "verse": 9,
     "content": {
-      "text": "Woe to him who gets an evil gain for his house, that he may set his nest on high, that he may be delivered from the hand of evil!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Woe to him who gets an evil gain for his house, that he may set his nest on high, that he may be delivered from the hand of evil!"
     }
   },
   {
@@ -241,8 +241,8 @@
     "chapter": 2,
     "verse": 12,
     "content": {
-      "text": "Woe to him who builds a town with blood, and establishes a city by iniquity!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Woe to him who builds a town with blood, and establishes a city by iniquity!"
     }
   },
   {
@@ -262,8 +262,8 @@
     "chapter": 2,
     "verse": 15,
     "content": {
-      "text": "“Woe to him who gives his neighbor drink, pouring your inflaming wine until they are drunk, so that you may gaze at their naked bodies!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Woe to him who gives his neighbor drink, pouring your inflaming wine until they are drunk, so that you may gaze at their naked bodies!"
     }
   },
   {
@@ -283,8 +283,8 @@
     "chapter": 2,
     "verse": 18,
     "content": {
-      "text": "“What value does the engraved image have, that its maker has engraved it; the molten image, even the teacher of lies, that he who fashions its form trusts in it, to make mute idols?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“What value does the engraved image have, that its maker has engraved it; the molten image, even the teacher of lies, that he who fashions its form trusts in it, to make mute idols?"
     }
   },
   {
@@ -304,8 +304,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "A prayer of Habakkuk, the prophet, set to victorious music.",
       "paragraph": true,
+      "text": "A prayer of Habakkuk, the prophet, set to victorious music.",
       "break": true
     }
   },
@@ -350,7 +350,12 @@
         "break": true
       },
       {
-        "text": "Selah. His glory covered the heavens,",
+        "text": "Selah.",
+        "break": true
+      },
+      {
+        "paragraph": true,
+        "text": "His glory covered the heavens,",
         "break": true
       },
       {
@@ -365,8 +370,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "His splendor is like the sunrise.",
         "paragraph": true,
+        "text": "His splendor is like the sunrise.",
         "break": true
       },
       {
@@ -488,8 +493,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "The mountains saw you, and were afraid.",
         "paragraph": true,
+        "text": "The mountains saw you, and were afraid.",
         "break": true
       },
       {
@@ -566,8 +571,8 @@
     "verse": 14,
     "content": [
       {
-        "text": "You pierced the heads of his warriors with their own spears.",
         "paragraph": true,
+        "text": "You pierced the heads of his warriors with their own spears.",
         "break": true
       },
       {
@@ -688,7 +693,11 @@
         "text": "He makes my feet like deer’s feet,",
         "break": true
       },
-      "and enables me to go in high places. For the music director, on my stringed instruments."
+      "and enables me to go in high places.",
+      {
+        "paragraph": true,
+        "text": "For the music director, on my stringed instruments."
+      }
     ]
   }
 ]

@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "In the eighth month, in the second year of Darius, Yahweh’s",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       " word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,"
     ]
@@ -43,15 +43,21 @@
     "book": "ZEC",
     "chapter": 1,
     "verse": 6,
-    "content": "But my words and my decrees, which I commanded my servants the prophets, didn’t they overtake your fathers? “Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’ ”"
+    "content": [
+      "But my words and my decrees, which I commanded my servants the prophets, didn’t they overtake your fathers?",
+      {
+        "paragraph": true,
+        "text": "“Then they repented and said, ‘Just as Yahweh of Armies determined to do to us, according to our ways and according to our practices, so he has dealt with us.’ ”"
+      }
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 7,
     "content": {
-      "text": "On the twenty-fourth day of the eleventh month, which is the month Shebat, in the second year of Darius, Yahweh’s word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "On the twenty-fourth day of the eleventh month, which is the month Shebat, in the second year of Darius, Yahweh’s word came to the prophet Zechariah the son of Berechiah, the son of Iddo, saying,"
     }
   },
   {
@@ -80,15 +86,21 @@
     "book": "ZEC",
     "chapter": 1,
     "verse": 9,
-    "content": "Then I asked, ‘My lord, what are these?’ ” The angel who talked with me said to me, “I will show you what these are.”"
+    "content": [
+      "Then I asked, ‘My lord, what are these?’ ”",
+      {
+        "paragraph": true,
+        "text": "The angel who talked with me said to me, “I will show you what these are.”"
+      }
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 10,
     "content": {
-      "text": "The man who stood among the myrtle trees answered, “They are the ones Yahweh has sent to go back and forth through the earth.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The man who stood among the myrtle trees answered, “They are the ones Yahweh has sent to go back and forth through the earth.”"
     }
   },
   {
@@ -96,8 +108,8 @@
     "chapter": 1,
     "verse": 11,
     "content": {
-      "text": "They reported to Yahweh’s angel who stood among the myrtle trees, and said, “We have walked back and forth through the earth, and behold, all the earth is at rest and in peace.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They reported to Yahweh’s angel who stood among the myrtle trees, and said, “We have walked back and forth through the earth, and behold, all the earth is at rest and in peace.”"
     }
   },
   {
@@ -105,8 +117,8 @@
     "chapter": 1,
     "verse": 12,
     "content": {
-      "text": "Then Yahweh’s angel replied, “O Yahweh of Armies, how long will you not have mercy on Jerusalem and on the cities of Judah, against which you have had indignation these seventy years?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh’s angel replied, “O Yahweh of Armies, how long will you not have mercy on Jerusalem and on the cities of Judah, against which you have had indignation these seventy years?”"
     }
   },
   {
@@ -114,8 +126,8 @@
     "chapter": 1,
     "verse": 13,
     "content": {
-      "text": "Yahweh answered the angel who talked with me with kind and comforting words.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh answered the angel who talked with me with kind and comforting words."
     }
   },
   {
@@ -141,8 +153,8 @@
     "chapter": 1,
     "verse": 17,
     "content": {
-      "text": "“Proclaim further, saying, ‘Yahweh of Armies says: “My cities will again overflow with prosperity, and Yahweh will again comfort Zion, and will again choose Jerusalem.” ’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Proclaim further, saying, ‘Yahweh of Armies says: “My cities will again overflow with prosperity, and Yahweh will again comfort Zion, and will again choose Jerusalem.” ’ ”"
     }
   },
   {
@@ -150,53 +162,71 @@
     "chapter": 1,
     "verse": 18,
     "content": {
-      "text": "I lifted up my eyes and saw, and behold, four horns.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I lifted up my eyes and saw, and behold, four horns."
     }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 19,
-    "content": "I asked the angel who talked with me, “What are these?” He answered me, “These are the horns which have scattered Judah, Israel, and Jerusalem.”"
+    "content": [
+      "I asked the angel who talked with me, “What are these?”",
+      {
+        "paragraph": true,
+        "text": "He answered me, “These are the horns which have scattered Judah, Israel, and Jerusalem.”"
+      }
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 20,
     "content": {
-      "text": "Yahweh showed me four craftsmen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh showed me four craftsmen."
     }
   },
   {
     "book": "ZEC",
     "chapter": 1,
     "verse": 21,
-    "content": "Then I asked, “What are these coming to do?” He said, “These are the horns which scattered Judah, so that no man lifted up his head; but these have come to terrify them, to cast down the horns of the nations that lifted up their horn against the land of Judah to scatter it.”"
+    "content": [
+      "Then I asked, “What are these coming to do?”",
+      {
+        "paragraph": true,
+        "text": "He said, “These are the horns which scattered Judah, so that no man lifted up his head; but these have come to terrify them, to cast down the horns of the nations that lifted up their horn against the land of Judah to scatter it.”"
+      }
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "I lifted up my eyes, and saw, and behold, a man with a measuring line in his hand.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I lifted up my eyes, and saw, and behold, a man with a measuring line in his hand."
     }
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 2,
-    "content": "Then I asked, “Where are you going?” He said to me, “To measure Jerusalem, to see what is its width and what is its length.”"
+    "content": [
+      "Then I asked, “Where are you going?”",
+      {
+        "paragraph": true,
+        "text": "He said to me, “To measure Jerusalem, to see what is its width and what is its length.”"
+      }
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 2,
     "verse": 3,
     "content": {
-      "text": "Behold, the angel who talked with me went out, and another angel went out to meet him,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Behold, the angel who talked with me went out, and another angel went out to meet him,"
     }
   },
   {
@@ -216,8 +246,8 @@
     "chapter": 2,
     "verse": 6,
     "content": {
-      "text": "Come! Come! Flee from the land of the north,’ says Yahweh; ‘for I have spread you abroad as the four winds of the sky,’ says Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Come! Come! Flee from the land of the north,’ says Yahweh; ‘for I have spread you abroad as the four winds of the sky,’ says Yahweh."
     }
   },
   {
@@ -267,8 +297,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "He showed me Joshua the high priest standing before Yahweh’s angel, and Satan standing at his right hand to be his adversary.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He showed me Joshua the high priest standing before Yahweh’s angel, and Satan standing at his right hand to be his adversary."
     }
   },
   {
@@ -282,8 +312,8 @@
     "chapter": 3,
     "verse": 3,
     "content": {
-      "text": "Now Joshua was clothed with filthy garments, and was standing before the angel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Joshua was clothed with filthy garments, and was standing before the angel."
     }
   },
   {
@@ -296,18 +326,24 @@
     "book": "ZEC",
     "chapter": 3,
     "verse": 5,
-    "content": {
-      "text": "I said, “Let them set a clean turban on his head.” So they set a clean turban on his head, and clothed him; and Yahweh’s angel was standing by.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I said, “Let them set a clean turban on his head.”"
+      },
+      {
+        "paragraph": true,
+        "text": "So they set a clean turban on his head, and clothed him; and Yahweh’s angel was standing by."
+      }
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 3,
     "verse": 6,
     "content": {
-      "text": "Yahweh’s angel solemnly assured Joshua, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s angel solemnly assured Joshua, saying,"
     }
   },
   {
@@ -339,15 +375,21 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "The angel who talked with me came again and wakened me, as a man who is wakened out of his sleep.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The angel who talked with me came again and wakened me, as a man who is wakened out of his sleep."
     }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 2,
-    "content": "He said to me, “What do you see?” I said, “I have seen, and behold, a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it; there are seven pipes to each of the lamps which are on the top of it;"
+    "content": [
+      "He said to me, “What do you see?”",
+      {
+        "paragraph": true,
+        "text": "I said, “I have seen, and behold, a lamp stand all of gold, with its bowl on the top of it, and its seven lamps on it; there are seven pipes to each of the lamps which are on the top of it;"
+      }
+    ]
   },
   {
     "book": "ZEC",
@@ -360,26 +402,32 @@
     "chapter": 4,
     "verse": 4,
     "content": {
-      "text": "I answered and spoke to the angel who talked with me, saying, “What are these, my lord?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I answered and spoke to the angel who talked with me, saying, “What are these, my lord?”"
     }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 5,
-    "content": {
-      "text": "Then the angel who talked with me answered me, “Don’t you know what these are?” I said, “No, my lord.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then the angel who talked with me answered me, “Don’t you know what these are?”"
+      },
+      {
+        "paragraph": true,
+        "text": "I said, “No, my lord.”"
+      }
+    ]
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 6,
     "content": {
-      "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then he answered and spoke to me, saying, “This is Yahweh’s word to Zerubbabel, saying, ‘Not by might, nor by power, but by my Spirit,’ says Yahweh of Armies."
     }
   },
   {
@@ -393,8 +441,8 @@
     "chapter": 4,
     "verse": 8,
     "content": {
-      "text": "Moreover Yahweh’s word came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Moreover Yahweh’s word came to me, saying,"
     }
   },
   {
@@ -414,8 +462,8 @@
     "chapter": 4,
     "verse": 11,
     "content": {
-      "text": "Then I asked him, “What are these two olive trees on the right side of the lamp stand and on the left side of it?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I asked him, “What are these two olive trees on the right side of the lamp stand and on the left side of it?”"
     }
   },
   {
@@ -423,18 +471,24 @@
     "chapter": 4,
     "verse": 12,
     "content": {
-      "text": "I asked him the second time, “What are these two olive branches, which are beside the two golden spouts that pour the golden oil out of themselves?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I asked him the second time, “What are these two olive branches, which are beside the two golden spouts that pour the golden oil out of themselves?”"
     }
   },
   {
     "book": "ZEC",
     "chapter": 4,
     "verse": 13,
-    "content": {
-      "text": "He answered me, “Don’t you know what these are?” I said, “No, my lord.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "He answered me, “Don’t you know what these are?”"
+      },
+      {
+        "paragraph": true,
+        "text": "I said, “No, my lord.”"
+      }
+    ]
   },
   {
     "book": "ZEC",
@@ -442,12 +496,12 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Then he said, “These are the two anointed ones who stand by the Lord",
         "foot": {
           "type": "trn",
           "content": "The word translated “Lord” is “Adonai.”"
-        },
-        "paragraph": true
+        }
       },
       " of the whole earth.”"
     ]
@@ -457,8 +511,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Then again I lifted up my eyes and saw, and behold, a flying scroll.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then again I lifted up my eyes and saw, and behold, a flying scroll."
     }
   },
   {
@@ -467,7 +521,15 @@
     "verse": 2,
     "content": [
       {
-        "text": "He said to me, “What do you see?” I answered, “I see a flying scroll; its length is twenty cubits,",
+        "text": "He said to me, “What do you see?”",
+        "foot": {
+          "type": "stu",
+          "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "I answered, “I see a flying scroll; its length is twenty cubits,",
         "foot": {
           "type": "stu",
           "content": "A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters."
@@ -481,8 +543,8 @@
     "chapter": 5,
     "verse": 3,
     "content": {
-      "text": "Then he said to me, “This is the curse that goes out over the surface of the whole land, for everyone who steals shall be cut off according to it on the one side; and everyone who swears falsely shall be cut off according to it on the other side.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then he said to me, “This is the curse that goes out over the surface of the whole land, for everyone who steals shall be cut off according to it on the one side; and everyone who swears falsely shall be cut off according to it on the other side."
     }
   },
   {
@@ -496,8 +558,8 @@
     "chapter": 5,
     "verse": 5,
     "content": {
-      "text": "Then the angel who talked with me came forward and said to me, “Lift up now your eyes and see what this is that is appearing.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the angel who talked with me came forward and said to me, “Lift up now your eyes and see what this is that is appearing.”"
     }
   },
   {
@@ -506,12 +568,20 @@
     "verse": 6,
     "content": [
       {
-        "text": "I said, “What is it?” He said, “This is the ephah",
+        "paragraph": true,
+        "text": "I said, “What is it?”",
         "foot": {
           "type": "stu",
           "content": "An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about 2/3 of a bushel."
-        },
-        "paragraph": true
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “This is the ephah",
+        "foot": {
+          "type": "stu",
+          "content": "An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about 2/3 of a bushel."
+        }
       },
       " basket that is appearing.” He said moreover, “This is their appearance in all the land—"
     ]
@@ -549,8 +619,8 @@
     "chapter": 5,
     "verse": 9,
     "content": {
-      "text": "Then I lifted up my eyes and saw, and behold, there were two women; and the wind was in their wings. Now they had wings like the wings of a stork, and they lifted up the ephah basket between earth and the sky.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then I lifted up my eyes and saw, and behold, there were two women; and the wind was in their wings. Now they had wings like the wings of a stork, and they lifted up the ephah basket between earth and the sky."
     }
   },
   {
@@ -564,8 +634,8 @@
     "chapter": 5,
     "verse": 11,
     "content": {
-      "text": "He said to me, “To build her a house in the land of Shinar. When it is prepared, she will be set there in her own place.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to me, “To build her a house in the land of Shinar. When it is prepared, she will be set there in her own place.”"
     }
   },
   {
@@ -573,8 +643,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "Again I lifted up my eyes, and saw, and behold, four chariots came out from between two mountains; and the mountains were mountains of bronze.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Again I lifted up my eyes, and saw, and behold, four chariots came out from between two mountains; and the mountains were mountains of bronze."
     }
   },
   {
@@ -600,8 +670,8 @@
     "chapter": 6,
     "verse": 5,
     "content": {
-      "text": "The angel answered me, “These are the four winds of the sky, which go out from standing before the Lord of all the earth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The angel answered me, “These are the four winds of the sky, which go out from standing before the Lord of all the earth."
     }
   },
   {
@@ -621,8 +691,8 @@
     "chapter": 6,
     "verse": 8,
     "content": {
-      "text": "Then he called to me, and spoke to me, saying, “Behold, those who go toward the north country have quieted my spirit in the north country.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then he called to me, and spoke to me, saying, “Behold, those who go toward the north country have quieted my spirit in the north country.”"
     }
   },
   {
@@ -630,8 +700,8 @@
     "chapter": 6,
     "verse": 9,
     "content": {
-      "text": "Yahweh’s word came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to me, saying,"
     }
   },
   {
@@ -669,6 +739,7 @@
     "chapter": 6,
     "verse": 15,
     "content": {
+      "paragraph": true,
       "text": "Those who are far off shall come and build in Yahweh’s temple; and you shall know that Yahweh of Armies has sent me to you. This will happen, if you will diligently obey Yahweh your God’s voice.” ’ ”",
       "foot": {
         "type": "trn",
@@ -680,8 +751,7 @@
           },
           "” (Elohim)."
         ]
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -689,8 +759,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "In the fourth year of King Darius, Yahweh’s word came to Zechariah in the fourth day of the ninth month, the month of Chislev.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the fourth year of King Darius, Yahweh’s word came to Zechariah in the fourth day of the ninth month, the month of Chislev."
     }
   },
   {
@@ -710,8 +780,8 @@
     "chapter": 7,
     "verse": 4,
     "content": {
-      "text": "Then the word of Yahweh of Armies came to me, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the word of Yahweh of Armies came to me, saying,"
     }
   },
   {
@@ -737,8 +807,8 @@
     "chapter": 7,
     "verse": 8,
     "content": {
-      "text": "Yahweh’s word came to Zechariah, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to Zechariah, saying,"
     }
   },
   {
@@ -782,8 +852,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "The word of Yahweh of Armies came to me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word of Yahweh of Armies came to me."
     }
   },
   {
@@ -797,8 +867,8 @@
     "chapter": 8,
     "verse": 3,
     "content": {
-      "text": "Yahweh says: “I have returned to Zion, and will dwell in the middle of Jerusalem. Jerusalem shall be called ‘The City of Truth;’ and the mountain of Yahweh of Armies, ‘The Holy Mountain.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh says: “I have returned to Zion, and will dwell in the middle of Jerusalem. Jerusalem shall be called ‘The City of Truth;’ and the mountain of Yahweh of Armies, ‘The Holy Mountain.’ ”"
     }
   },
   {
@@ -806,8 +876,8 @@
     "chapter": 8,
     "verse": 4,
     "content": {
-      "text": "Yahweh of Armies says: “Old men and old women will again dwell in the streets of Jerusalem, every man with his staff in his hand because of their old age.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies says: “Old men and old women will again dwell in the streets of Jerusalem, every man with his staff in his hand because of their old age."
     }
   },
   {
@@ -821,8 +891,8 @@
     "chapter": 8,
     "verse": 6,
     "content": {
-      "text": "Yahweh of Armies says: “If it is marvelous in the eyes of the remnant of this people in those days, should it also be marvelous in my eyes?” says Yahweh of Armies.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies says: “If it is marvelous in the eyes of the remnant of this people in those days, should it also be marvelous in my eyes?” says Yahweh of Armies."
     }
   },
   {
@@ -830,8 +900,8 @@
     "chapter": 8,
     "verse": 7,
     "content": {
-      "text": "Yahweh of Armies says: “Behold, I will save my people from the east country and from the west country.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies says: “Behold, I will save my people from the east country and from the west country."
     }
   },
   {
@@ -845,8 +915,8 @@
     "chapter": 8,
     "verse": 9,
     "content": {
-      "text": "Yahweh of Armies says: “Let your hands be strong, you who hear in these days these words from the mouth of the prophets who were in the day that the foundation of the house of Yahweh of Armies was laid, even the temple, that it might be built.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies says: “Let your hands be strong, you who hear in these days these words from the mouth of the prophets who were in the day that the foundation of the house of Yahweh of Armies was laid, even the temple, that it might be built."
     }
   },
   {
@@ -878,8 +948,8 @@
     "chapter": 8,
     "verse": 14,
     "content": {
-      "text": "For Yahweh of Armies says: “As I thought to do evil to you when your fathers provoked me to wrath,” says Yahweh of Armies, “and I didn’t repent,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For Yahweh of Armies says: “As I thought to do evil to you when your fathers provoked me to wrath,” says Yahweh of Armies, “and I didn’t repent,"
     }
   },
   {
@@ -905,8 +975,8 @@
     "chapter": 8,
     "verse": 18,
     "content": {
-      "text": "The word of Yahweh of Armies came to me.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The word of Yahweh of Armies came to me."
     }
   },
   {
@@ -920,8 +990,8 @@
     "chapter": 8,
     "verse": 20,
     "content": {
-      "text": "Yahweh of Armies says: “Many peoples and the inhabitants of many cities will yet come.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh of Armies says: “Many peoples and the inhabitants of many cities will yet come."
     }
   },
   {
@@ -948,8 +1018,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "A revelation.",
         "paragraph": true,
+        "text": "A revelation.",
         "break": true
       },
       {
@@ -1026,8 +1096,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "Ashkelon will see it, and fear;",
         "paragraph": true,
+        "text": "Ashkelon will see it, and fear;",
         "break": true
       },
       {
@@ -1116,8 +1186,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Rejoice greatly, daughter of Zion!",
         "paragraph": true,
+        "text": "Rejoice greatly, daughter of Zion!",
         "break": true
       },
       {
@@ -1176,8 +1246,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "As for you also,",
         "paragraph": true,
+        "text": "As for you also,",
         "break": true
       },
       {
@@ -1235,8 +1305,8 @@
     "verse": 14,
     "content": [
       {
-        "text": "Yahweh will be seen over them.",
         "paragraph": true,
+        "text": "Yahweh will be seen over them.",
         "break": true
       },
       {
@@ -1283,8 +1353,8 @@
     "verse": 16,
     "content": [
       {
-        "text": "Yahweh their God will save them in that day as the flock of his people;",
         "paragraph": true,
+        "text": "Yahweh their God will save them in that day as the flock of his people;",
         "break": true
       },
       {
@@ -1323,8 +1393,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Ask of Yahweh rain in the spring time,",
         "paragraph": true,
+        "text": "Ask of Yahweh rain in the spring time,",
         "break": true
       },
       {
@@ -1378,8 +1448,8 @@
     "verse": 3,
     "content": [
       {
-        "text": "My anger is kindled against the shepherds,",
         "paragraph": true,
+        "text": "My anger is kindled against the shepherds,",
         "break": true
       },
       {
@@ -1445,8 +1515,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "“I will strengthen the house of Judah,",
         "paragraph": true,
+        "text": "“I will strengthen the house of Judah,",
         "break": true
       },
       {
@@ -1600,8 +1670,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Open your doors, Lebanon,",
         "paragraph": true,
+        "text": "Open your doors, Lebanon,",
         "break": true
       },
       {
@@ -1654,8 +1724,8 @@
     "chapter": 11,
     "verse": 4,
     "content": {
-      "text": "Yahweh my God says: “Feed the flock of slaughter.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh my God says: “Feed the flock of slaughter."
     }
   },
   {
@@ -1675,8 +1745,8 @@
     "chapter": 11,
     "verse": 7,
     "content": {
-      "text": "So I fed the flock to be slaughtered, especially the oppressed of the flock. I took for myself two staffs. The one I called “Favor” and the other I called “Union”, and I fed the flock.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So I fed the flock to be slaughtered, especially the oppressed of the flock. I took for myself two staffs. The one I called “Favor” and the other I called “Union”, and I fed the flock."
     }
   },
   {
@@ -1726,8 +1796,8 @@
     "chapter": 11,
     "verse": 15,
     "content": {
-      "text": "Yahweh said to me, “Take for yourself yet again the equipment of a foolish shepherd.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to me, “Take for yourself yet again the equipment of a foolish shepherd."
     }
   },
   {
@@ -1747,8 +1817,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "A revelation of Yahweh’s word concerning Israel: Yahweh, who stretches out the heavens and lays the foundation of the earth, and forms the spirit of man within him says:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "A revelation of Yahweh’s word concerning Israel: Yahweh, who stretches out the heavens and lays the foundation of the earth, and forms the spirit of man within him says:"
     }
   },
   {
@@ -1780,8 +1850,8 @@
     "chapter": 12,
     "verse": 6,
     "content": {
-      "text": "In that day I will make the chieftains of Judah like a pan of fire among wood, and like a flaming torch among sheaves. They will devour all the surrounding peoples on the right hand and on the left; and Jerusalem will yet again dwell in their own place, even in Jerusalem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In that day I will make the chieftains of Judah like a pan of fire among wood, and like a flaming torch among sheaves. They will devour all the surrounding peoples on the right hand and on the left; and Jerusalem will yet again dwell in their own place, even in Jerusalem."
     }
   },
   {
@@ -1789,8 +1859,8 @@
     "chapter": 12,
     "verse": 7,
     "content": {
-      "text": "Yahweh also will save the tents of Judah first, that the glory of David’s house and the glory of the inhabitants of Jerusalem not be magnified above Judah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh also will save the tents of Judah first, that the glory of David’s house and the glory of the inhabitants of Jerusalem not be magnified above Judah."
     }
   },
   {
@@ -1811,12 +1881,12 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "I will pour on David’s house and on the inhabitants of Jerusalem the spirit of grace and of supplication. They will look to me",
         "foot": {
           "type": "stu",
           "content": "After “me”, the Hebrew has the two letters “Aleph Tav” (the first and last letters of the Hebrew alphabet), not as a word, but as a grammatical marker."
-        },
-        "paragraph": true
+        }
       },
       " whom they have pierced; and they shall mourn for him as one mourns for his only son, and will grieve bitterly for him as one grieves for his firstborn."
     ]
@@ -1850,8 +1920,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "“In that day there will be a fountain opened to David’s house and to the inhabitants of Jerusalem, for sin and for uncleanness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“In that day there will be a fountain opened to David’s house and to the inhabitants of Jerusalem, for sin and for uncleanness."
     }
   },
   {
@@ -1859,8 +1929,8 @@
     "chapter": 13,
     "verse": 2,
     "content": {
-      "text": "It will come to pass in that day, says Yahweh of Armies, that I will cut off the names of the idols out of the land, and they will be remembered no more. I will also cause the prophets and the spirit of impurity to pass out of the land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "It will come to pass in that day, says Yahweh of Armies, that I will cut off the names of the idols out of the land, and they will be remembered no more. I will also cause the prophets and the spirit of impurity to pass out of the land."
     }
   },
   {
@@ -1893,8 +1963,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "“Awake, sword, against my shepherd,",
         "paragraph": true,
+        "text": "“Awake, sword, against my shepherd,",
         "break": true
       },
       {
@@ -1963,8 +2033,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "Behold, a day of Yahweh comes, when your plunder will be divided within you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Behold, a day of Yahweh comes, when your plunder will be divided within you."
     }
   },
   {
@@ -2002,8 +2072,8 @@
     "chapter": 14,
     "verse": 6,
     "content": {
-      "text": "It will happen in that day that there will not be light, cold, or frost.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "It will happen in that day that there will not be light, cold, or frost."
     }
   },
   {
@@ -2017,8 +2087,8 @@
     "chapter": 14,
     "verse": 8,
     "content": {
-      "text": "It will happen in that day that living waters will go out from Jerusalem, half of them toward the eastern sea, and half of them toward the western sea. It will be so in summer and in winter.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "It will happen in that day that living waters will go out from Jerusalem, half of them toward the eastern sea, and half of them toward the western sea. It will be so in summer and in winter."
     }
   },
   {
@@ -2026,8 +2096,8 @@
     "chapter": 14,
     "verse": 9,
     "content": {
-      "text": "Yahweh will be King over all the earth. In that day Yahweh will be one, and his name one.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh will be King over all the earth. In that day Yahweh will be one, and his name one."
     }
   },
   {
@@ -2035,8 +2105,8 @@
     "chapter": 14,
     "verse": 10,
     "content": {
-      "text": "All the land will be made like the Arabah, from Geba to Rimmon south of Jerusalem; and she will be lifted up and will dwell in her place, from Benjamin’s gate to the place of the first gate, to the corner gate, and from the tower of Hananel to the king’s wine presses.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the land will be made like the Arabah, from Geba to Rimmon south of Jerusalem; and she will be lifted up and will dwell in her place, from Benjamin’s gate to the place of the first gate, to the corner gate, and from the tower of Hananel to the king’s wine presses."
     }
   },
   {
@@ -2050,8 +2120,8 @@
     "chapter": 14,
     "verse": 12,
     "content": {
-      "text": "This will be the plague with which Yahweh will strike all the peoples who have fought against Jerusalem: their flesh will consume away while they stand on their feet, and their eyes will consume away in their sockets, and their tongue will consume away in their mouth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This will be the plague with which Yahweh will strike all the peoples who have fought against Jerusalem: their flesh will consume away while they stand on their feet, and their eyes will consume away in their sockets, and their tongue will consume away in their mouth."
     }
   },
   {
@@ -2071,8 +2141,8 @@
     "chapter": 14,
     "verse": 15,
     "content": {
-      "text": "A plague like this will fall on the horse, on the mule, on the camel, on the donkey, and on all the animals that will be in those camps.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "A plague like this will fall on the horse, on the mule, on the camel, on the donkey, and on all the animals that will be in those camps."
     }
   },
   {
@@ -2080,8 +2150,8 @@
     "chapter": 14,
     "verse": 16,
     "content": {
-      "text": "It will happen that everyone who is left of all the nations that came against Jerusalem will go up from year to year to worship the King, Yahweh of Armies, and to keep the feast of booths.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "It will happen that everyone who is left of all the nations that came against Jerusalem will go up from year to year to worship the King, Yahweh of Armies, and to keep the feast of booths."
     }
   },
   {
@@ -2107,8 +2177,8 @@
     "chapter": 14,
     "verse": 20,
     "content": {
-      "text": "In that day there will be inscribed on the bells of the horses, “HOLY TO YAHWEH”; and the pots in Yahweh’s house will be like the bowls before the altar.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In that day there will be inscribed on the bells of the horses, “HOLY TO YAHWEH”; and the pots in Yahweh’s house will be like the bowls before the altar."
     }
   },
   {

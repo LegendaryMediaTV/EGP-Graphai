@@ -5,11 +5,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Συμεὼν",
         "script": "G",
         "strong": "G4826",
-        "morph": "N-PRI",
-        "paragraph": true
+        "morph": "N-PRI"
       },
       {
         "text": " Πέτρος,",
@@ -1340,11 +1340,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Διὸ",
         "script": "G",
         "strong": "G1352",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " οὐκ",
@@ -2593,11 +2593,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐγένοντο",
         "script": "G",
         "strong": "G1096",
-        "morph": "V-2ADI-3P",
-        "paragraph": true
+        "morph": "V-2ADI-3P"
       },
       {
         "text": " δὲ",
@@ -3290,12 +3290,12 @@
               "text": "ἀσεβέ",
               "script": "G"
             },
-            " [",
+            "[",
             {
               "text": "ς",
               "script": "G"
             },
-            "] ",
+            "]",
             {
               "text": "ιν",
               "script": "G"
@@ -4746,7 +4746,6 @@
         "morph": "R-DSM"
       },
       {
-        "text": " ",
         "strong": "G3739",
         "morph": "R-DSN"
       },
@@ -4775,7 +4774,6 @@
         "morph": "D-DSM"
       },
       {
-        "text": " ",
         "strong": "G3778",
         "morph": "D-DSN"
       },
@@ -5283,11 +5281,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Ταύτην",
         "script": "G",
         "strong": "G3778",
-        "morph": "D-ASF",
-        "paragraph": true
+        "morph": "D-ASF"
       },
       {
         "text": " ἤδη,",
@@ -6135,11 +6133,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἓν",
         "script": "G",
         "strong": "G1520",
-        "morph": "A-NSN",
-        "paragraph": true
+        "morph": "A-NSN"
       },
       {
         "text": " δὲ",
@@ -6993,11 +6991,11 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Διό,",
         "script": "G",
         "strong": "G1352",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἀγαπητοί,",

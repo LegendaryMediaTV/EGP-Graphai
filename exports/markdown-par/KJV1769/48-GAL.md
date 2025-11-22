@@ -24,6 +24,7 @@
 <sup>22</sup> And was unknown by face unto the churches of Judaea which were in Christ:
 <sup>23</sup> But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed.
 <sup>24</sup> And they glorified God in me.
+
 ## Chapter 2
 
 <sup>1</sup> Then fourteen years after I went up again to Jerusalem with Barnabas, and took Titus with [me] also.
@@ -47,6 +48,7 @@
 <sup>19</sup> For I through the law am dead to the law, that I might live unto God.
 <sup>20</sup> I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.
 <sup>21</sup> I do not frustrate the grace of God: for if righteousness [come] by the law, then Christ is dead in vain.
+
 ## Chapter 3
 
 <sup>1</sup> O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose eyes Jesus Christ hath been evidently set forth, crucified among you?
@@ -78,6 +80,7 @@
 <sup>27</sup> For as many of you as have been baptized into Christ have put on Christ.
 <sup>28</sup> There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.
 <sup>29</sup> And if ye [be] Christ’s, then are ye Abraham’s seed, and heirs according to the promise.
+
 ## Chapter 4
 
 <sup>1</sup> Now I say, [That] the heir, as long as he is a child, differeth nothing from a servant, though he be lord of all;
@@ -111,6 +114,7 @@
 <sup>29</sup> But as then he that was born after the flesh persecuted him [that was born] after the Spirit, even so [it is] now.
 <sup>30</sup> Nevertheless what saith the scripture? Cast out the bondwoman and her son: for the son of the bondwoman shall not be heir with the son of the freewoman.
 <sup>31</sup> So then, brethren, we are not children of the bondwoman, but of the free.
+
 ## Chapter 5
 
 <sup>1</sup> Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.
@@ -139,6 +143,7 @@
 <sup>24</sup> And they that are Christ’s have crucified the flesh with the affections and lusts.
 <sup>25</sup> If we live in the Spirit, let us also walk in the Spirit.
 <sup>26</sup> Let us not be desirous of vain glory, provoking one another, envying one another.
+
 ## Chapter 6
 
 <sup>1</sup> Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted.

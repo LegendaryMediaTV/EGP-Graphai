@@ -23,6 +23,7 @@
 <sup>21</sup> far above all principality, and authority, and might, and lordship, and every name named, not only in this age, but also in the coming one;
 <sup>22</sup> and all things He did put under his feet, and did give him-head over all things to the assembly,
 <sup>23</sup> which is his body, the fulness of Him who is filling the all in all,
+
 ## Chapter 2
 
 <sup>1</sup> Also you-being dead in the trespasses and the sins,
@@ -47,6 +48,7 @@
 <sup>20</sup> being built upon the foundation of the apostles and prophets, Jesus Christ himself being chief corner-stone,
 <sup>21</sup> in whom all the building fitly framed together doth increase to an holy sanctuary in the Lord,
 <sup>22</sup> in whom also ye are builded together, for a habitation of God in the Spirit.
+
 ## Chapter 3
 
 <sup>1</sup> For this cause, I Paul, the prisoner of Christ Jesus for you the nations,
@@ -70,6 +72,7 @@
 <sup>19</sup> to know also the love of the Christ that is exceeding the knowledge, that ye may be filled-to all the fulness of God;
 <sup>20</sup> and to Him who is able above all things to do exceeding abundantly what we ask or think, according to the power that is working in us,
 <sup>21</sup> to Him is the glory in the assembly in Christ Jesus, to all the generations of the age of the ages. Amen.
+
 ## Chapter 4
 
 <sup>1</sup> Call upon you, then, do I-the prisoner of the Lord-to walk worthily of the calling with which ye were called,
@@ -104,6 +107,7 @@
 <sup>30</sup> and make not sorrowful the Holy Spirit of God, in which ye were sealed to a day of redemption.
 <sup>31</sup> Let all bitterness, and wrath, and anger, and clamour, and evil-speaking, be put away from you, with all malice,
 <sup>32</sup> and become one to another kind, tender-hearted, forgiving one another, according as also God in Christ did forgive you.
+
 ## Chapter 5
 
 <sup>1</sup> Become, then, followers of God, as children beloved,
@@ -139,6 +143,7 @@
 <sup>31</sup> ?’for this cause shall a man leave his father and mother, and shall be joined to his wife, and they shall be-the two-for one flesh;’
 <sup>32</sup> this secret is great, and I speak in regard to Christ and to the assembly;
 <sup>33</sup> but ye also, every one in particular-let each his own wife so love as himself, and the wife-that she may reverence the husband.
+
 ## Chapter 6
 
 <sup>1</sup> The children! obey your parents in the Lord, for this is righteous;

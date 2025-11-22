@@ -9,19 +9,22 @@
 <sup>4</sup> Yahweh said to him, “Call his name Jezreel, for yet a little while, and I will avenge the blood of Jezreel on the house of Jehu, and will cause the kingdom of the house of Israel to cease.
 <sup>5</sup> It will happen in that day that I will break the bow of Israel in the valley of Jezreel.”
 
-<sup>6</sup> She conceived again, and bore a daughter. Then he said to him, “Call her name Lo-Ruhamah,<sup>b</sup> for I will no longer have mercy on the house of Israel, that I should in any way pardon them.
-<sup>7</sup> But I will have mercy on the house of Judah, and will save them by Yahweh their God,<sup>c</sup> and will not save them by bow, sword, battle, horses, or horsemen.”
+<sup>6</sup> She conceived again, and bore a daughter.<sup>b</sup>
+
+Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no longer have mercy on the house of Israel, that I should in any way pardon them.
+<sup>7</sup> But I will have mercy on the house of Judah, and will save them by Yahweh their God,<sup>d</sup> and will not save them by bow, sword, battle, horses, or horsemen.”
 
 <sup>8</sup> Now when she had weaned Lo-Ruhamah, she conceived, and bore a son.
 
-<sup>9</sup> He said, “Call his name Lo-Ammi,<sup>d</sup> for you are not my people, and I will not be yours.
+<sup>9</sup> He said, “Call his name Lo-Ammi,<sup>e</sup> for you are not my people, and I will not be yours.
 <sup>10</sup> Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured or counted; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’
 <sup>11</sup> The children of Judah and the children of Israel will be gathered together, and they will appoint themselves one head, and will go up from the land; for great will be the day of Jezreel.
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 6. Lo-Ruhamah means “not loved”.
-> - <sup>c</sup> 7. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
-> - <sup>d</sup> 9. Lo-Ammi means “not my people”.
+> - <sup>c</sup> 6. Lo-Ruhamah means “not loved”.
+> - <sup>d</sup> 7. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
+> - <sup>e</sup> 9. Lo-Ammi means “not my people”.
 
 ## Chapter 2
 
@@ -88,6 +91,7 @@
 <sup>17</sup> Ephraim is joined to idols.<br>Leave him alone!<br>
 <sup>18</sup> Their drink has become sour.<br>They play the prostitute continually.<br>Her rulers dearly love their shameful way.<br>
 <sup>19</sup> The wind has wrapped her up in its wings;<br>and they shall be disappointed because of their sacrifices.
+
 ## Chapter 5
 
 <sup>1</sup> “Listen to this, you priests!<br>Listen, house of Israel,<br>and give ear, house of the king!<br>For the judgment is against you;<br>for you have been a snare at Mizpah,<br>and a net spread on Tabor.<br>
@@ -107,6 +111,7 @@
 <sup>13</sup> “When Ephraim saw his sickness,<br>and Judah his wound,<br>then Ephraim went to Assyria,<br>and sent to King Jareb:<br>but he is not able to heal you,<br>neither will he cure you of your wound.<br>
 <sup>14</sup> For I will be to Ephraim like a lion,<br>and like a young lion to the house of Judah.<br>I myself will tear in pieces and go away.<br>I will carry off, and there will be no one to deliver.<br>
 <sup>15</sup> I will go and return to my place,<br>until they acknowledge their offense,<br>and seek my face.<br>In their affliction they will seek me earnestly.”
+
 ## Chapter 6
 
 <sup>1</sup> “Come! Let’s return to Yahweh;<br>for he has torn us to pieces,<br>and he will heal us;<br>he has injured us,<br>and he will bind up our wounds.<br>
@@ -122,6 +127,7 @@
 <sup>10</sup> In the house of Israel I have seen a horrible thing.<br>There is prostitution in Ephraim.<br>Israel is defiled.
 
 <sup>11</sup> “Also, Judah, there is a harvest appointed for you,<br>when I restore the fortunes of my people.
+
 ## Chapter 7
 
 <sup>1</sup> When I would heal Israel,<br>then the iniquity of Ephraim is uncovered,<br>also the wickedness of Samaria;<br>for they commit falsehood,<br>and the thief enters in,<br>and the gang of robbers ravages outside.<br>
@@ -141,6 +147,7 @@
 <sup>14</sup> They haven’t cried to me with their heart,<br>but they howl on their beds.<br>They assemble themselves for grain and new wine.<br>They turn away from me.<br>
 <sup>15</sup> Though I have taught and strengthened their arms,<br>yet they plot evil against me.<br>
 <sup>16</sup> They return, but not to the Most High.<br>They are like a faulty bow.<br>Their princes will fall by the sword for the rage of their tongue.<br>This will be their derision in the land of Egypt.
+
 ## Chapter 8
 
 <sup>1</sup> “Put the trumpet to your lips!<br>Something like an eagle is over Yahweh’s house,<br>because they have broken my covenant<br>and rebelled against my law.<br>
@@ -157,6 +164,7 @@
 <sup>12</sup> I wrote for him the many things of my law,<br>but they were regarded as a strange thing.<br>
 <sup>13</sup> As for the sacrifices of my offerings,<br>they sacrifice meat and eat it,<br>but Yahweh doesn’t accept them.<br>Now he will remember their iniquity,<br>and punish their sins.<br>They will return to Egypt.<br>
 <sup>14</sup> For Israel has forgotten his Maker and built palaces;<br>and Judah has multiplied fortified cities;<br>but I will send a fire on his cities,<br>and it will devour its fortresses.”
+
 ## Chapter 9
 
 <sup>1</sup> Don’t rejoice, Israel, to jubilation like the nations;<br>for you were unfaithful to your God.<br>You love the wages of a prostitute at every grain threshing floor.<br>
@@ -178,6 +186,7 @@
 <sup>16</sup> Ephraim is struck.<br>Their root has dried up.<br>They will bear no fruit.<br>Even though they give birth, yet I will kill the beloved ones of their womb.”
 
 <sup>17</sup> My God will cast them away, because they didn’t listen to him;<br>and they will be wanderers among the nations.
+
 ## Chapter 10
 
 <sup>1</sup> Israel is a luxuriant vine that produces his fruit.<br>According to the abundance of his fruit he has multiplied his altars.<br>As their land has prospered, they have adorned their sacred stones.<br>
@@ -196,6 +205,7 @@
 <sup>13</sup> You have plowed wickedness.<br>You have reaped iniquity.<br>You have eaten the fruit of lies,<br>for you trusted in your way, in the multitude of your mighty men.<br>
 <sup>14</sup> Therefore a battle roar will arise among your people,<br>and all your fortresses will be destroyed,<br>as Shalman destroyed Beth Arbel in the day of battle.<br>The mother was dashed in pieces with her children.<br>
 <sup>15</sup> So Bethel will do to you because of your great wickedness.<br>At daybreak the king of Israel will be destroyed.
+
 ## Chapter 11
 
 <sup>1</sup> “When Israel was a child, then I loved him,<br>and called my son out of Egypt.<br>
@@ -213,6 +223,7 @@
 <sup>11</sup> They will come trembling like a bird out of Egypt,<br>and like a dove out of the land of Assyria;<br>and I will settle them in their houses,” says Yahweh.
 
 <sup>12</sup> Ephraim surrounds me with falsehood,<br>and the house of Israel with deceit.<br>Judah still strays from God,<br>and is unfaithful to the Holy One.
+
 ## Chapter 12
 
 <sup>1</sup> Ephraim feeds on wind,<br>and chases the east wind.<br>He continually multiplies lies and desolation.<br>They make a covenant with Assyria,<br>and oil is carried into Egypt.<br>
@@ -250,7 +261,9 @@
 <sup>11</sup> I have given you a king in my anger,<br>and have taken him away in my wrath.<br>
 <sup>12</sup> The guilt of Ephraim is stored up.<br>His sin is stored up.<br>
 <sup>13</sup> The sorrows of a travailing woman will come on him.<br>He is an unwise son,<br>for when it is time, he doesn’t come to the opening of the womb.<br>
-<sup>14</sup> I will ransom them from the power of Sheol.<sup>a</sup><br>I will redeem them from death!<br>Death, where are your plagues?<br>Sheol, where is your destruction? “Compassion will be hidden from my eyes.<br>
+<sup>14</sup> I will ransom them from the power of Sheol.<sup>a</sup><br>I will redeem them from death!<br>Death, where are your plagues?<br>Sheol, where is your destruction?<br>
+
+“Compassion will be hidden from my eyes.<br>
 <sup>15</sup> Though he is fruitful among his brothers, an east wind will come,<br>the breath of Yahweh coming up from the wilderness;<br>and his spring will become dry,<br>and his fountain will be dried up.<br>He will plunder the storehouse of treasure.<br>
 <sup>16</sup> Samaria will bear her guilt,<br>for she has rebelled against her God.<br>They will fall by the sword.<br>Their infants will be dashed in pieces,<br>and their pregnant women will be ripped open.”
 

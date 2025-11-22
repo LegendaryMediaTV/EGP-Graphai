@@ -23,6 +23,7 @@
 <sup>21</sup> supra omnem principatum et potestatem et virtutem et dominationem et omne nomen quod nominatur non solum in hoc saeculo sed et in futuro
 <sup>22</sup> et omnia subiecit sub pedibus eius et ipsum dedit caput supra omnia ecclesiae
 <sup>23</sup> quae est corpus ipsius plenitudo eius qui omnia in omnibus adimpletur
+
 ## Chapter 2
 
 <sup>1</sup> et vos cum essetis mortui delictis et peccatis vestris
@@ -47,6 +48,7 @@
 <sup>20</sup> superaedificati super fundamentum apostolorum et prophetarum ipso summo angulari lapide Christo Iesu
 <sup>21</sup> in quo omnis aedificatio constructa crescit in templum sanctum in Domino
 <sup>22</sup> in quo et vos coaedificamini in habitaculum Dei in Spiritu
+
 ## Chapter 3
 
 <sup>1</sup> huius rei gratia ego Paulus vinctus Christi Iesu pro vobis gentibus
@@ -70,6 +72,7 @@
 <sup>19</sup> scire etiam supereminentem scientiae caritatem Christi ut impleamini in omnem plenitudinem Dei
 <sup>20</sup> ei autem qui potens est omnia facere superabundanter quam petimus aut intellegimus secundum virtutem quae operatur in nobis
 <sup>21</sup> ipsi gloria in ecclesia et in Christo Iesu in omnes generationes saeculi saeculorum amen
+
 ## Chapter 4
 
 <sup>1</sup> obsecro itaque vos ego vinctus in Domino ut digne ambuletis vocatione qua vocati estis
@@ -104,6 +107,7 @@
 <sup>30</sup> et nolite contristare Spiritum Sanctum Dei in quo signati estis in die redemptionis
 <sup>31</sup> omnis amaritudo et ira et indignatio et clamor et blasphemia tollatur a vobis cum omni malitia
 <sup>32</sup> estote autem invicem benigni misericordes donantes invicem sicut et Deus in Christo donavit nobis
+
 ## Chapter 5
 
 <sup>1</sup> estote ergo imitatores Dei sicut filii carissimi
@@ -139,6 +143,7 @@
 <sup>31</sup> propter hoc relinquet homo patrem et matrem suam et adherebit uxori suae et erunt duo in carne una
 <sup>32</sup> sacramentum hoc magnum est ego autem dico in Christo et in ecclesia
 <sup>33</sup> verumtamen et vos singuli unusquisque suam uxorem sicut se ipsum diligat uxor autem ut timeat virum
+
 ## Chapter 6
 
 <sup>1</sup> filii oboedite parentibus vestris in Domino hoc enim est iustum

@@ -84,7 +84,7 @@
 
 <sup>8</sup> Immediately Jesus, perceiving in his spirit that they so reasoned within themselves, said to them, “Why do you reason these things in your hearts?
 <sup>9</sup> Which is easier, to tell the paralytic, ‘Your sins are forgiven;’ or to say, ‘Arise, and take up your bed, and walk’?
-<sup>10</sup> But that you may know that the Son of Man has authority on earth to forgive sins” —he said to the paralytic—
+<sup>10</sup> But that you may know that the Son of Man has authority on earth to forgive sins”—he said to the paralytic—
 <sup>11</sup> “I tell you, arise, take up your mat, and go to your house.”
 
 <sup>12</sup> He arose, and immediately took up the mat and went out in front of them all, so that they were all amazed and glorified God, saying, “We never saw anything like this!”
@@ -112,6 +112,7 @@
 
 <sup>27</sup> He said to them, “The Sabbath was made for man, not man for the Sabbath.
 <sup>28</sup> Therefore the Son of Man is lord even of the Sabbath.”
+
 ## Chapter 3
 
 <sup>1</sup> He entered again into the synagogue, and there was a man there whose hand was withered.
@@ -134,7 +135,9 @@
 <sup>16</sup> Simon (to whom he gave the name Peter);
 <sup>17</sup> James the son of Zebedee; and John, the brother of James, (whom he called Boanerges, which means, Sons of Thunder);
 <sup>18</sup> Andrew; Philip; Bartholomew; Matthew; Thomas; James, the son of Alphaeus; Thaddaeus; Simon the Zealot;
-<sup>19</sup> and Judas Iscariot, who also betrayed him. Then he came into a house.
+<sup>19</sup> and Judas Iscariot, who also betrayed him.
+
+Then he came into a house.
 <sup>20</sup> The multitude came together again, so that they could not so much as eat bread.
 <sup>21</sup> When his friends heard it, they went out to seize him; for they said, “He is insane.”
 <sup>22</sup> The scribes who came down from Jerusalem said, “He has Beelzebul,” and, “By the prince of the demons he casts out the demons.”
@@ -228,13 +231,17 @@
 <sup>7</sup> and crying out with a loud voice, he said, “What have I to do with you, Jesus, you Son of the Most High God? I adjure you by God, don’t torment me.”
 <sup>8</sup> For he said to him, “Come out of the man, you unclean spirit!”
 
-<sup>9</sup> He asked him, “What is your name?” He said to him, “My name is Legion, for we are many.”
+<sup>9</sup> He asked him, “What is your name?”
+
+He said to him, “My name is Legion, for we are many.”
 <sup>10</sup> He begged him much that he would not send them away out of the country.
 <sup>11</sup> Now on the mountainside there was a great herd of pigs feeding.
 <sup>12</sup> All the demons begged him, saying, “Send us into the pigs, that we may enter into them.”
 
 <sup>13</sup> At once Jesus gave them permission. The unclean spirits came out and entered into the pigs. The herd of about two thousand rushed down the steep bank into the sea, and they were drowned in the sea.
-<sup>14</sup> Those who fed the pigs fled, and told it in the city and in the country. The people came to see what it was that had happened.
+<sup>14</sup> Those who fed the pigs fled, and told it in the city and in the country.
+
+The people came to see what it was that had happened.
 <sup>15</sup> They came to Jesus, and saw him who had been possessed by demons sitting, clothed, and in his right mind, even him who had the legion; and they were afraid.
 <sup>16</sup> Those who saw it declared to them what happened to him who was possessed by demons, and about the pigs.
 <sup>17</sup> They began to beg him to depart from their region.
@@ -275,6 +282,7 @@
 <sup>41</sup> Taking the child by the hand, he said to her, “Talitha cumi!” which means, being interpreted, “Girl, I tell you, get up!”
 <sup>42</sup> Immediately the girl rose up and walked, for she was twelve years old. They were amazed with great amazement.
 <sup>43</sup> He strictly ordered them that no one should know this, and commanded that something should be given to her to eat.
+
 ## Chapter 6
 
 <sup>1</sup> He went out from there. He came into his own country, and his disciples followed him.
@@ -283,7 +291,9 @@
 
 <sup>4</sup> Jesus said to them, “A prophet is not without honor, except in his own country, and among his own relatives, and in his own house.”
 <sup>5</sup> He could do no mighty work there, except that he laid his hands on a few sick people and healed them.
-<sup>6</sup> He marveled because of their unbelief. He went around the villages teaching.
+<sup>6</sup> He marveled because of their unbelief.
+
+He went around the villages teaching.
 <sup>7</sup> He called to himself the twelve, and began to send them out two by two; and he gave them authority over the unclean spirits.
 <sup>8</sup> He commanded them that they should take nothing for their journey, except a staff only: no bread, no wallet, no money in their purse,
 <sup>9</sup> but to wear sandals, and not put on two tunics.
@@ -304,7 +314,9 @@
 <sup>22</sup> When the daughter of Herodias herself came in and danced, she pleased Herod and those sitting with him. The king said to the young lady, “Ask me whatever you want, and I will give it to you.”
 <sup>23</sup> He swore to her, “Whatever you ask of me, I will give you, up to half of my kingdom.”
 
-<sup>24</sup> She went out and said to her mother, “What shall I ask?” She said, “The head of John the Baptizer.”
+<sup>24</sup> She went out and said to her mother, “What shall I ask?”
+
+She said, “The head of John the Baptizer.”
 
 <sup>25</sup> She came in immediately with haste to the king and requested, “I want you to give me right now the head of John the Baptizer on a platter.”
 
@@ -322,9 +334,13 @@
 <sup>35</sup> When it was late in the day, his disciples came to him and said, “This place is deserted, and it is late in the day.
 <sup>36</sup> Send them away, that they may go into the surrounding country and villages and buy themselves bread, for they have nothing to eat.”
 
-<sup>37</sup> But he answered them, “You give them something to eat.” They asked him, “Shall we go and buy two hundred denarii<sup>b</sup> worth of bread and give them something to eat?”
+<sup>37</sup> But he answered them, “You give them something to eat.”
 
-<sup>38</sup> He said to them, “How many loaves do you have? Go see.” When they knew, they said, “Five, and two fish.”
+They asked him, “Shall we go and buy two hundred denarii<sup>b</sup> worth of bread and give them something to eat?”
+
+<sup>38</sup> He said to them, “How many loaves do you have? Go see.”
+
+When they knew, they said, “Five, and two fish.”
 
 <sup>39</sup> He commanded them that everyone should sit down in groups on the green grass.
 <sup>40</sup> They sat down in ranks, by hundreds and by fifties.
@@ -419,7 +435,9 @@
 
 <sup>4</sup> His disciples answered him, “From where could one satisfy these people with bread here in a deserted place?”
 
-<sup>5</sup> He asked them, “How many loaves do you have?” They said, “Seven.”
+<sup>5</sup> He asked them, “How many loaves do you have?”
+
+They said, “Seven.”
 
 <sup>6</sup> He commanded the multitude to sit down on the ground, and he took the seven loaves. Having given thanks, he broke them and gave them to his disciples to serve, and they served the multitude.
 <sup>7</sup> They also had a few small fish. Having blessed them, he said to serve these also.
@@ -438,9 +456,13 @@
 
 <sup>17</sup> Jesus, perceiving it, said to them, “Why do you reason that it’s because you have no bread? Don’t you perceive yet or understand? Is your heart still hardened?
 <sup>18</sup> Having eyes, don’t you see? Having ears, don’t you hear? Don’t you remember?
-<sup>19</sup> When I broke the five loaves among the five thousand, how many baskets full of broken pieces did you take up?” They told him, “Twelve.”
+<sup>19</sup> When I broke the five loaves among the five thousand, how many baskets full of broken pieces did you take up?”
 
-<sup>20</sup> “When the seven loaves fed the four thousand, how many baskets full of broken pieces did you take up?” They told him, “Seven.”
+They told him, “Twelve.”
+
+<sup>20</sup> “When the seven loaves fed the four thousand, how many baskets full of broken pieces did you take up?”
+
+They told him, “Seven.”
 
 <sup>21</sup> He asked them, “Don’t you understand yet?”
 
@@ -456,7 +478,9 @@
 
 <sup>28</sup> They told him, “John the Baptizer, and others say Elijah, but others, one of the prophets.”
 
-<sup>29</sup> He said to them, “But who do you say that I am?” Peter answered, “You are the Christ.”
+<sup>29</sup> He said to them, “But who do you say that I am?”
+
+Peter answered, “You are the Christ.”
 
 <sup>30</sup> He commanded them that they should tell no one about him.
 <sup>31</sup> He began to teach them that the Son of Man must suffer many things, and be rejected by the elders, the chief priests, and the scribes, and be killed, and after three days rise again.
@@ -505,7 +529,9 @@
 
 <sup>20</sup> They brought him to him, and when he saw him, immediately the spirit convulsed him and he fell on the ground, wallowing and foaming at the mouth.
 
-<sup>21</sup> He asked his father, “How long has it been since this has been happening to him?” He said, “From childhood.
+<sup>21</sup> He asked his father, “How long has it been since this has been happening to him?”
+
+He said, “From childhood.
 <sup>22</sup> Often it has cast him both into the fire and into the water to destroy him. But if you can do anything, have compassion on us and help us.”
 
 <sup>23</sup> Jesus said to him, “If you can believe, all things are possible to him who believes.”
@@ -620,7 +646,9 @@
 
 <sup>38</sup> But Jesus said to them, “You don’t know what you are asking. Are you able to drink the cup that I drink, and to be baptized with the baptism that I am baptized with?”
 
-<sup>39</sup> They said to him, “We are able.” Jesus said to them, “You shall indeed drink the cup that I drink, and you shall be baptized with the baptism that I am baptized with;
+<sup>39</sup> They said to him, “We are able.”
+
+Jesus said to them, “You shall indeed drink the cup that I drink, and you shall be baptized with the baptism that I am baptized with;
 <sup>40</sup> but to sit at my right hand and at my left hand is not mine to give, but for whom it has been prepared.”
 
 <sup>41</sup> When the ten heard it, they began to be indignant toward James and John.
@@ -634,11 +662,15 @@
 <sup>47</sup> When he heard that it was Jesus the Nazarene, he began to cry out and say, “Jesus, you son of David, have mercy on me!”
 <sup>48</sup> Many rebuked him, that he should be quiet, but he cried out much more, “You son of David, have mercy on me!”
 
-<sup>49</sup> Jesus stood still and said, “Call him.” They called the blind man, saying to him, “Cheer up! Get up. He is calling you!”
+<sup>49</sup> Jesus stood still and said, “Call him.”
+
+They called the blind man, saying to him, “Cheer up! Get up. He is calling you!”
 
 <sup>50</sup> He, casting away his cloak, sprang up, and came to Jesus.
 
-<sup>51</sup> Jesus asked him, “What do you want me to do for you?” The blind man said to him, “Rabboni,<sup>d</sup> that I may see again.”
+<sup>51</sup> Jesus asked him, “What do you want me to do for you?”
+
+The blind man said to him, “Rabboni,<sup>d</sup> that I may see again.”
 
 <sup>52</sup> Jesus said to him, “Go your way. Your faith has made you well.” Immediately he received his sight and followed Jesus on the way.
 
@@ -692,7 +724,9 @@
 
 <sup>31</sup> They reasoned with themselves, saying, “If we should say, ‘From heaven;’ he will say, ‘Why then did you not believe him?’
 <sup>32</sup> If we should say, ‘From men’ ”—they feared the people, for all held John to really be a prophet.
-<sup>33</sup> They answered Jesus, “We don’t know.” Jesus said to them, “Neither will I tell you by what authority I do these things.”
+<sup>33</sup> They answered Jesus, “We don’t know.”
+
+Jesus said to them, “Neither will I tell you by what authority I do these things.”
 
 > - <sup>a</sup> 1. TR &amp; NU read “Bethphage” instead of “Bethsphage”
 > - <sup>b</sup> 9. “Hosanna” means “save us” or “help us, we pray”.
@@ -718,11 +752,19 @@
 <sup>12</sup> They tried to seize him, but they feared the multitude; for they perceived that he spoke the parable against them. They left him and went away.
 <sup>13</sup> They sent some of the Pharisees and the Herodians to him, that they might trap him with words.
 <sup>14</sup> When they had come, they asked him, “Teacher, we know that you are honest, and don’t defer to anyone; for you aren’t partial to anyone, but truly teach the way of God. Is it lawful to pay taxes to Caesar, or not?
-<sup>15</sup> Shall we give, or shall we not give?” But he, knowing their hypocrisy, said to them, “Why do you test me? Bring me a denarius, that I may see it.”
+<sup>15</sup> Shall we give, or shall we not give?”
 
-<sup>16</sup> They brought it. He said to them, “Whose is this image and inscription?” They said to him, “Caesar’s.”
+But he, knowing their hypocrisy, said to them, “Why do you test me? Bring me a denarius, that I may see it.”
 
-<sup>17</sup> Jesus answered them, “Render to Caesar the things that are Caesar’s, and to God the things that are God’s.” They marveled greatly at him.
+<sup>16</sup> They brought it.
+
+He said to them, “Whose is this image and inscription?”
+
+They said to him, “Caesar’s.”
+
+<sup>17</sup> Jesus answered them, “Render to Caesar the things that are Caesar’s, and to God the things that are God’s.”
+
+They marveled greatly at him.
 
 <sup>18</sup> Some Sadducees, who say that there is no resurrection, came to him. They asked him, saying,
 <sup>19</sup> “Teacher, Moses wrote to us, ‘If a man’s brother dies and leaves a wife behind him, and leaves no children, that his brother should take his wife and raise up offspring for his brother.’
@@ -745,11 +787,15 @@
 <sup>32</sup> The scribe said to him, “Truly, teacher, you have said well that he is one, and there is none other but he;
 <sup>33</sup> and to love him with all the heart, with all the understanding, all the soul, and with all the strength, and to love his neighbor as himself, is more important than all whole burnt offerings and sacrifices.”
 
-<sup>34</sup> When Jesus saw that he answered wisely, he said to him, “You are not far from God’s Kingdom.” No one dared ask him any question after that.
+<sup>34</sup> When Jesus saw that he answered wisely, he said to him, “You are not far from God’s Kingdom.”
+
+No one dared ask him any question after that.
 <sup>35</sup> Jesus responded, as he taught in the temple, “How is it that the scribes say that the Christ is the son of David?
 <sup>36</sup> For David himself said in the Holy Spirit,<br>‘The Lord said to my Lord,<br>“Sit at my right hand,<br>until I make your enemies the footstool of your feet.” ’<sup>e</sup>
 
-<sup>37</sup> Therefore David himself calls him Lord, so how can he be his son?” The common people heard him gladly.
+<sup>37</sup> Therefore David himself calls him Lord, so how can he be his son?”
+
+The common people heard him gladly.
 <sup>38</sup> In his teaching he said to them, “Beware of the scribes, who like to walk in long robes, and to get greetings in the marketplaces,
 <sup>39</sup> and to get the best seats in the synagogues and the best places at feasts,
 <sup>40</sup> those who devour widows’ houses, and for a pretense make long prayers. These will receive greater condemnation.”
@@ -798,7 +844,9 @@
 <sup>20</sup> Unless the Lord had shortened the days, no flesh would have been saved; but for the sake of the chosen ones, whom he picked out, he shortened the days.
 <sup>21</sup> Then if anyone tells you, ‘Look, here is the Christ!’ or, ‘Look, there!’ don’t believe it.
 <sup>22</sup> For false christs and false prophets will arise and will show signs and wonders, that they may lead astray, if possible, even the chosen ones.
-<sup>23</sup> But you watch. “Behold, I have told you all things beforehand.
+<sup>23</sup> But you watch.
+
+“Behold, I have told you all things beforehand.
 <sup>24</sup> But in those days, after that oppression, the sun will be darkened, the moon will not give its light,
 <sup>25</sup> the stars will be falling from the sky, and the powers that are in the heavens will be shaken.<sup>c</sup>
 <sup>26</sup> Then they will see the Son of Man coming in clouds with great power and glory.
@@ -934,7 +982,9 @@
 ## Chapter 15
 
 <sup>1</sup> Immediately in the morning the chief priests, with the elders, scribes, and the whole council, held a consultation, bound Jesus, carried him away, and delivered him up to Pilate.
-<sup>2</sup> Pilate asked him, “Are you the King of the Jews?” He answered, “So you say.”
+<sup>2</sup> Pilate asked him, “Are you the King of the Jews?”
+
+He answered, “So you say.”
 
 <sup>3</sup> The chief priests accused him of many things.
 <sup>4</sup> Pilate again asked him, “Have you no answer? See how many things they testify against you!”
@@ -951,7 +1001,9 @@
 
 <sup>13</sup> They cried out again, “Crucify him!”
 
-<sup>14</sup> Pilate said to them, “Why, what evil has he done?” But they cried out exceedingly, “Crucify him!”
+<sup>14</sup> Pilate said to them, “Why, what evil has he done?”
+
+But they cried out exceedingly, “Crucify him!”
 
 <sup>15</sup> Pilate, wishing to please the multitude, released Barabbas to them, and handed over Jesus, when he had flogged him, to be crucified.
 
@@ -1018,7 +1070,7 @@
 
 <sup>8</sup> They went out,<sup>a</sup> and fled from the tomb, for trembling and astonishment had come on them. They said nothing to anyone; for they were afraid.<sup>b</sup>
 
-<sup>9</sup> Now when he had risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons.
+<sup>9</sup> <sup>c</sup>Now when he had risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons.
 <sup>10</sup> She went and told those who had been with him, as they mourned and wept.
 <sup>11</sup> When they heard that he was alive and had been seen by her, they disbelieved.
 
@@ -1031,9 +1083,10 @@
 <sup>17</sup> These signs will accompany those who believe: in my name they will cast out demons; they will speak with new languages;
 <sup>18</sup> they will take up serpents; and if they drink any deadly thing, it will in no way hurt them; they will lay hands on the sick, and they will recover.”
 
-<sup>19</sup> So then the Lord,<sup>c</sup> after he had spoken to them, was received up into heaven and sat down at the right hand of God.
+<sup>19</sup> So then the Lord,<sup>d</sup> after he had spoken to them, was received up into heaven and sat down at the right hand of God.
 <sup>20</sup> They went out and preached everywhere, the Lord working with them and confirming the word by the signs that followed. Amen.
 
 > - <sup>a</sup> 8. TR adds “quickly”
 > - <sup>b</sup> 8. One isolated manuscript omits verses 9-20 but adds this “short ending of Mark” to the end of verse 8: They told all that had been commanded them briefly to those around Peter. After that, Jesus himself sent them out, from east to west, with the sacred and imperishable proclamation of eternal salvation.
-> - <sup>c</sup> 19. NU adds “Jesus”
+> - <sup>c</sup> 9. NU includes the text of verses 9-20, but mentions in a footnote that a few manuscripts omitted it. The translators of the World English Bible regard Mark 16:9-20 as reliable based on an overwhelming majority of textual evidence, including not only the authoritative Greek Majority Text New Testament, but also the TR and many of the manuscripts cited in the NU text.
+> - <sup>d</sup> 19. NU adds “Jesus”

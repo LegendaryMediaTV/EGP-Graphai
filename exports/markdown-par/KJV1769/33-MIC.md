@@ -9,13 +9,14 @@
 <sup>7</sup> And all the graven images thereof shall be beaten to pieces, and all the hires thereof shall be burned with the fire, and all the idols thereof will I lay desolate: for she gathered [it] of the hire of an harlot, and they shall return to the hire of an harlot.
 <sup>8</sup> Therefore I will wail and howl, I will go stripped and naked: I will make a wailing like the dragons, and mourning as the owls.
 <sup>9</sup> For her wound [is] incurable; for it is come unto Judah; he is come unto the gate of my people, [even] to Jerusalem.
-<sup>10</sup> Declare ye [it] not at Gath, weep ye not at all: in the house of Aphrah roll (8675) thyself in the dust.
+<sup>10</sup> Declare ye [it] not at Gath, weep ye not at all: in the house of Aphrah roll thyself in the dust.
 <sup>11</sup> Pass ye away, thou inhabitant of Saphir, having thy shame naked: the inhabitant of Zaanan came not forth in the mourning of Bethezel; he shall receive of you his standing.
 <sup>12</sup> For the inhabitant of Maroth waited carefully for good: but evil came down from the LORD unto the gate of Jerusalem.
 <sup>13</sup> O thou inhabitant of Lachish, bind the chariot to the swift beast: she [is] the beginning of the sin to the daughter of Zion: for the transgressions of Israel were found in thee.
 <sup>14</sup> Therefore shalt thou give presents to Moreshethgath: the houses of Achzib [shall be] a lie to the kings of Israel.
 <sup>15</sup> Yet will I bring an heir unto thee, O inhabitant of Mareshah: he shall come unto Adullam the glory of Israel.
 <sup>16</sup> Make thee bald, and poll thee for thy delicate children; enlarge thy baldness as the eagle; for they are gone into captivity from thee.
+
 ## Chapter 2
 
 <sup>1</sup> Woe to them that devise iniquity, and work evil upon their beds! when the morning is light, they practise it, because it is in the power of their hand.
@@ -31,6 +32,7 @@
 <sup>11</sup> If a man walking in the spirit and falsehood do lie, [saying], I will prophesy unto thee of wine and of strong drink; he shall even be the prophet of this people.
 <sup>12</sup> I will surely assemble, O Jacob, all of thee; I will surely gather the remnant of Israel; I will put them together as the sheep of Bozrah, as the flock in the midst of their fold: they shall make great noise by reason of [the multitude of] men.
 <sup>13</sup> The breaker is come up before them: they have broken up, and have passed through the gate, and are gone out by it: and their king shall pass before them, and the LORD on the head of them.
+
 ## Chapter 3
 
 <sup>1</sup> And I said, Hear, I pray you, O heads of Jacob, and ye princes of the house of Israel; [Is it] not for you to know judgment?
@@ -45,6 +47,7 @@
 <sup>10</sup> They build up Zion with blood, and Jerusalem with iniquity.
 <sup>11</sup> The heads thereof judge for reward, and the priests thereof teach for hire, and the prophets thereof divine for money: yet will they lean upon the LORD, and say, [Is] not the LORD among us? none evil can come upon us.
 <sup>12</sup> Therefore shall Zion for your sake be plowed [as] a field, and Jerusalem shall become heaps, and the mountain of the house as the high places of the forest.
+
 ## Chapter 4
 
 <sup>1</sup> But in the last days it shall come to pass, [that] the mountain of the house of the LORD shall be established in the top of the mountains, and it shall be exalted above the hills; and people shall flow unto it.
@@ -60,6 +63,7 @@
 <sup>11</sup> Now also many nations are gathered against thee, that say, Let her be defiled, and let our eye look upon Zion.
 <sup>12</sup> But they know not the thoughts of the LORD, neither understand they his counsel: for he shall gather them as the sheaves into the floor.
 <sup>13</sup> Arise and thresh, O daughter of Zion: for I will make thine horn iron, and I will make thy hoofs brass: and thou shalt beat in pieces many people: and I will consecrate their gain unto the LORD, and their substance unto the Lord of the whole earth.
+
 ## Chapter 5
 
 <sup>1</sup> Now gather thyself in troops, O daughter of troops: he hath laid siege against us: they shall smite the judge of Israel with a rod upon the cheek.
@@ -77,6 +81,7 @@
 <sup>13</sup> Thy graven images also will I cut off, and thy standing images out of the midst of thee; and thou shalt no more worship the work of thine hands.
 <sup>14</sup> And I will pluck up thy groves out of the midst of thee: so will I destroy thy cities.
 <sup>15</sup> And I will execute vengeance in anger and fury upon the heathen, such as they have not heard.
+
 ## Chapter 6
 
 <sup>1</sup> Hear ye now what the LORD saith; Arise, contend thou before the mountains, and let the hills hear thy voice.
@@ -95,6 +100,7 @@
 <sup>14</sup> Thou shalt eat, but not be satisfied; and thy casting down [shall be] in the midst of thee; and thou shalt take hold, but shalt not deliver; and [that] which thou deliverest will I give up to the sword.
 <sup>15</sup> Thou shalt sow, but thou shalt not reap; thou shalt tread the olives, but thou shalt not anoint thee with oil; and sweet wine, but shalt not drink wine.
 <sup>16</sup> For the statutes of Omri are kept, and all the works of the house of Ahab, and ye walk in their counsels; that I should make thee a desolation, and the inhabitants thereof an hissing: therefore ye shall bear the reproach of my people.
+
 ## Chapter 7
 
 <sup>1</sup> Woe is me! for I am as when they have gathered the summer fruits, as the grapegleanings of the vintage: [there is] no cluster to eat: my soul desired the firstripe fruit.

@@ -15,6 +15,7 @@
 <sup>13</sup> Then spake Haggai the LORD’S messenger in the LORD’S message unto the people, saying, I [am] with you, saith the LORD.
 <sup>14</sup> And the LORD stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Josedech, the high priest, and the spirit of all the remnant of the people; and they came and did work in the house of the LORD of hosts, their God,
 <sup>15</sup> In the four and twentieth day of the sixth month, in the second year of Darius the king.
+
 ## Chapter 2
 
 <sup>1</sup> In the seventh [month], in the one and twentieth [day] of the month, came the word of the LORD by the prophet Haggai, saying,

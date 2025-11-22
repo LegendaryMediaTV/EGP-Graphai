@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Paul, an apostle of Christ",
         "foot": {
           "type": "stu",
           "content": "“Christ” means “Anointed One”."
-        },
-        "paragraph": true
+        }
       },
       " Jesus through the will of God, to the saints who are at Ephesus, and the faithful in Christ Jesus:"
     ]
@@ -26,8 +26,8 @@
     "chapter": 1,
     "verse": 3,
     "content": {
-      "text": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ,"
     }
   },
   {
@@ -101,8 +101,8 @@
     "chapter": 1,
     "verse": 15,
     "content": {
-      "text": "For this cause I also, having heard of the faith in the Lord Jesus which is among you and the love which you have toward all the saints,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this cause I also, having heard of the faith in the Lord Jesus which is among you and the love which you have toward all the saints,"
     }
   },
   {
@@ -167,8 +167,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "You were made alive when you were dead in transgressions and sins,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "You were made alive when you were dead in transgressions and sins,"
     }
   },
   {
@@ -230,8 +230,8 @@
     "chapter": 2,
     "verse": 11,
     "content": {
-      "text": "Therefore remember that once you, the Gentiles in the flesh, who are called “uncircumcision” by that which is called “circumcision” (in the flesh, made by hands),",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore remember that once you, the Gentiles in the flesh, who are called “uncircumcision” by that which is called “circumcision” (in the flesh, made by hands),"
     }
   },
   {
@@ -305,8 +305,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "For this cause I, Paul, am the prisoner of Christ Jesus on behalf of you Gentiles,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this cause I, Paul, am the prisoner of Christ Jesus on behalf of you Gentiles,"
     }
   },
   {
@@ -395,8 +395,8 @@
     "chapter": 3,
     "verse": 14,
     "content": {
-      "text": "For this cause, I bow my knees to the Father of our Lord Jesus Christ,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this cause, I bow my knees to the Father of our Lord Jesus Christ,"
     }
   },
   {
@@ -434,8 +434,8 @@
     "chapter": 3,
     "verse": 20,
     "content": {
-      "text": "Now to him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now to him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us,"
     }
   },
   {
@@ -449,8 +449,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "I therefore, the prisoner in the Lord, beg you to walk worthily of the calling with which you were called,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I therefore, the prisoner in the Lord, beg you to walk worthily of the calling with which you were called,"
     }
   },
   {
@@ -533,12 +533,12 @@
     "verse": 11,
     "content": [
       {
+        "paragraph": true,
         "text": "He gave some to be apostles; and some, prophets; and some, evangelists; and some, shepherds",
         "foot": {
           "type": "trn",
           "content": "or, pastors"
-        },
-        "paragraph": true
+        }
       },
       " and teachers;"
     ]
@@ -578,8 +578,8 @@
     "chapter": 4,
     "verse": 17,
     "content": {
-      "text": "This I say therefore, and testify in the Lord, that you no longer walk as the rest of the Gentiles also walk, in the futility of their mind,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This I say therefore, and testify in the Lord, that you no longer walk as the rest of the Gentiles also walk, in the futility of their mind,"
     }
   },
   {
@@ -629,8 +629,8 @@
     "chapter": 4,
     "verse": 25,
     "content": {
-      "text": "Therefore, putting away falsehood, speak truth each one with his neighbor, for we are members of one another.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore, putting away falsehood, speak truth each one with his neighbor, for we are members of one another."
     }
   },
   {
@@ -698,8 +698,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Be therefore imitators of God, as beloved children.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Be therefore imitators of God, as beloved children."
     }
   },
   {
@@ -713,8 +713,8 @@
     "chapter": 5,
     "verse": 3,
     "content": {
-      "text": "But sexual immorality, and all uncleanness or covetousness, let it not even be mentioned among you, as becomes saints;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But sexual immorality, and all uncleanness or covetousness, let it not even be mentioned among you, as becomes saints;"
     }
   },
   {
@@ -728,8 +728,8 @@
     "chapter": 5,
     "verse": 5,
     "content": {
-      "text": "Know this for sure, that no sexually immoral person, nor unclean person, nor covetous man (who is an idolater), has any inheritance in the Kingdom of Christ and God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Know this for sure, that no sexually immoral person, nor unclean person, nor covetous man (who is an idolater), has any inheritance in the Kingdom of Christ and God."
     }
   },
   {
@@ -737,8 +737,8 @@
     "chapter": 5,
     "verse": 6,
     "content": {
-      "text": "Let no one deceive you with empty words, for because of these things the wrath of God comes on the children of disobedience.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Let no one deceive you with empty words, for because of these things the wrath of God comes on the children of disobedience."
     }
   },
   {
@@ -794,8 +794,8 @@
     "chapter": 5,
     "verse": 15,
     "content": {
-      "text": "Therefore watch carefully how you walk, not as unwise, but as wise,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore watch carefully how you walk, not as unwise, but as wise,"
     }
   },
   {
@@ -839,8 +839,8 @@
     "chapter": 5,
     "verse": 22,
     "content": {
-      "text": "Wives, be subject to your own husbands, as to the Lord.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Wives, be subject to your own husbands, as to the Lord."
     }
   },
   {
@@ -860,8 +860,8 @@
     "chapter": 5,
     "verse": 25,
     "content": {
-      "text": "Husbands, love your wives, even as Christ also loved the assembly and gave himself up for her,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Husbands, love your wives, even as Christ also loved the assembly and gave himself up for her,"
     }
   },
   {
@@ -923,8 +923,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "Children, obey your parents in the Lord, for this is right.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Children, obey your parents in the Lord, for this is right."
     }
   },
   {
@@ -950,8 +950,8 @@
     "chapter": 6,
     "verse": 4,
     "content": {
-      "text": "You fathers, don’t provoke your children to wrath, but nurture them in the discipline and instruction of the Lord.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "You fathers, don’t provoke your children to wrath, but nurture them in the discipline and instruction of the Lord."
     }
   },
   {
@@ -959,8 +959,8 @@
     "chapter": 6,
     "verse": 5,
     "content": {
-      "text": "Servants, be obedient to those who according to the flesh are your masters, with fear and trembling, in singleness of your heart, as to Christ,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Servants, be obedient to those who according to the flesh are your masters, with fear and trembling, in singleness of your heart, as to Christ,"
     }
   },
   {
@@ -986,8 +986,8 @@
     "chapter": 6,
     "verse": 9,
     "content": {
-      "text": "You masters, do the same things to them, and give up threatening, knowing that he who is both their Master and yours is in heaven, and there is no partiality with him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "You masters, do the same things to them, and give up threatening, knowing that he who is both their Master and yours is in heaven, and there is no partiality with him."
     }
   },
   {
@@ -995,8 +995,8 @@
     "chapter": 6,
     "verse": 10,
     "content": {
-      "text": "Finally, be strong in the Lord and in the strength of his might.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Finally, be strong in the Lord and in the strength of his might."
     }
   },
   {
@@ -1080,8 +1080,8 @@
     "chapter": 6,
     "verse": 21,
     "content": {
-      "text": "But that you also may know my affairs, how I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make known to you all things.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But that you also may know my affairs, how I am doing, Tychicus, the beloved brother and faithful servant in the Lord, will make known to you all things."
     }
   },
   {
@@ -1095,8 +1095,8 @@
     "chapter": 6,
     "verse": 23,
     "content": {
-      "text": "Peace be to the brothers, and love with faith, from God the Father and the Lord Jesus Christ.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Peace be to the brothers, and love with faith, from God the Father and the Lord Jesus Christ."
     }
   },
   {

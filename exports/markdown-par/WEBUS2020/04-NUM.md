@@ -4,7 +4,9 @@
 <sup>2</sup> “Take a census of all the congregation of the children of Israel, by their families, by their fathers’ houses, according to the number of the names, every male, one by one,
 <sup>3</sup> from twenty years old and upward, all who are able to go out to war in Israel. You and Aaron shall count them by their divisions.
 <sup>4</sup> With you there shall be a man of every tribe, each one head of his fathers’ house.
-<sup>5</sup> These are the names of the men who shall stand with you: Of Reuben: Elizur the son of Shedeur.
+<sup>5</sup> These are the names of the men who shall stand with you:
+
+Of Reuben: Elizur the son of Shedeur.
 
 <sup>6</sup> Of Simeon: Shelumiel the son of Zurishaddai.
 
@@ -138,6 +140,7 @@
 <sup>33</sup> But the Levites were not counted among the children of Israel, as Yahweh commanded Moses.
 
 <sup>34</sup> Thus the children of Israel did. According to all that Yahweh commanded Moses, so they encamped by their standards, and so they set out, everyone by their families, according to their fathers’ houses.
+
 ## Chapter 3
 
 <sup>1</sup> Now this is the history of the generations of Aaron and Moses in the day that Yahweh spoke with Moses in Mount Sinai.
@@ -168,7 +171,9 @@
 
 <sup>19</sup> The sons of Kohath by their families: Amram, Izhar, Hebron, and Uzziel.
 
-<sup>20</sup> The sons of Merari by their families: Mahli and Mushi. These are the families of the Levites according to their fathers’ houses.
+<sup>20</sup> The sons of Merari by their families: Mahli and Mushi.
+
+These are the families of the Levites according to their fathers’ houses.
 
 <sup>21</sup> Of Gershon was the family of the Libnites, and the family of the Shimeites. These are the families of the Gershonites.
 
@@ -287,6 +292,7 @@
 <sup>47</sup> from thirty years old and upward even to fifty years old, everyone who entered in to do the work of service and the work of bearing burdens in the Tent of Meeting,
 <sup>48</sup> even those who were counted of them, were eight thousand five hundred eighty.
 <sup>49</sup> According to the commandment of Yahweh they were counted by Moses, everyone according to his service and according to his burden. Thus they were counted by him, as Yahweh commanded Moses.
+
 ## Chapter 5
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -386,132 +392,228 @@
 <sup>11</sup> Yahweh said to Moses, “They shall offer their offering, each prince on his day, for the dedication of the altar.”
 
 <sup>12</sup> He who offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah,
-<sup>13</sup> and his offering was: one silver platter, the weight of which was one hundred thirty shekels,<sup>a</sup> one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>13</sup> and his offering was:<sup>a</sup>
+
+one silver platter, the weight of which was one hundred thirty shekels,<sup>b</sup>
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>14</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>15</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>15</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>16</sup> one male goat for a sin offering;
 
 <sup>17</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Nahshon the son of Amminadab.
 
 <sup>18</sup> On the second day Nethanel the son of Zuar, prince of Issachar, gave his offering.
-<sup>19</sup> He offered for his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>19</sup> He offered for his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>20</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>21</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>21</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>22</sup> one male goat for a sin offering;
 
 <sup>23</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, five male lambs a year old. This was the offering of Nethanel the son of Zuar.
 
 <sup>24</sup> On the third day Eliab the son of Helon, prince of the children of Zebulun,
-<sup>25</sup> gave his offering: one silver platter, the weight of which was a hundred and thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>25</sup> gave his offering:
+
+one silver platter, the weight of which was a hundred and thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>26</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>27</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>27</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>28</sup> one male goat for a sin offering;
 
 <sup>29</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliab the son of Helon.
 
 <sup>30</sup> On the fourth day Elizur the son of Shedeur, prince of the children of Reuben,
-<sup>31</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>31</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>32</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>33</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>33</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>34</sup> one male goat for a sin offering;
 
 <sup>35</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elizur the son of Shedeur.
 
 <sup>36</sup> On the fifth day Shelumiel the son of Zurishaddai, prince of the children of Simeon,
-<sup>37</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>37</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>38</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>39</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>39</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>40</sup> one male goat for a sin offering;
 
 <sup>41</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old: this was the offering of Shelumiel the son of Zurishaddai.
 
 <sup>42</sup> On the sixth day, Eliasaph the son of Deuel, prince of the children of Gad,
-<sup>43</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>43</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>44</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>45</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>45</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>46</sup> one male goat for a sin offering;
 
 <sup>47</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Eliasaph the son of Deuel.
 
 <sup>48</sup> On the seventh day Elishama the son of Ammihud, prince of the children of Ephraim,
-<sup>49</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>49</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>50</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>51</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>51</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>52</sup> one male goat for a sin offering;
 
 <sup>53</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Elishama the son of Ammihud.
 
 <sup>54</sup> On the eighth day Gamaliel the son of Pedahzur, prince of the children of Manasseh,
-<sup>55</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>55</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>56</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>57</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>57</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>58</sup> one male goat for a sin offering;
 
 <sup>59</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Gamaliel the son of Pedahzur.
 
 <sup>60</sup> On the ninth day Abidan the son of Gideoni, prince of the children of Benjamin,
-<sup>61</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>61</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>62</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>63</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>63</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>64</sup> one male goat for a sin offering;
 
 <sup>65</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Abidan the son of Gideoni.
 
 <sup>66</sup> On the tenth day Ahiezer the son of Ammishaddai, prince of the children of Dan,
-<sup>67</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>67</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>68</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>69</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>69</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>70</sup> one male goat for a sin offering;
 
 <sup>71</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Ahiezer the son of Ammishaddai.
 
 <sup>72</sup> On the eleventh day Pagiel the son of Ochran, prince of the children of Asher,
-<sup>73</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>73</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>74</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>75</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>75</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>76</sup> one male goat for a sin offering;
 
 <sup>77</sup> and for the sacrifice of peace offerings, two head of cattle, five rams, five male goats, and five male lambs a year old. This was the offering of Pagiel the son of Ochran.
 
 <sup>78</sup> On the twelfth day Ahira the son of Enan, prince of the children of Naphtali,
-<sup>79</sup> gave his offering: one silver platter, the weight of which was one hundred thirty shekels, one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
+<sup>79</sup> gave his offering:
+
+one silver platter, the weight of which was one hundred thirty shekels,
+
+one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
 <sup>80</sup> one golden ladle of ten shekels, full of incense;
 
-<sup>81</sup> one young bull, one ram, one male lamb a year old, for a burnt offering;
+<sup>81</sup> one young bull,
+
+one ram,
+
+one male lamb a year old, for a burnt offering;
 
 <sup>82</sup> one male goat for a sin offering;
 
@@ -526,6 +628,7 @@
 <sup>89</sup> When Moses went into the Tent of Meeting to speak with Yahweh, he heard his voice speaking to him from above the mercy seat that was on the ark of the Testimony, from between the two cherubim; and he spoke to him.
 
 > - <sup>a</sup> 13. A shekel is about 10 grams or about 0.35 ounces.
+> - <sup>b</sup> 13. A shekel is about 10 grams or about 0.35 ounces.
 
 ## Chapter 8
 
@@ -561,6 +664,7 @@
 <sup>24</sup> “This is what is assigned to the Levites: from twenty-five years old and upward they shall go in to wait on the service in the work of the Tent of Meeting;
 <sup>25</sup> and from the age of fifty years they shall retire from doing the work, and shall serve no more,
 <sup>26</sup> but shall assist their brothers in the Tent of Meeting, to perform the duty, and shall perform no service. This is how you shall have the Levites do their duties.”
+
 ## Chapter 9
 
 <sup>1</sup> Yahweh spoke to Moses in the wilderness of Sinai, in the first month of the second year after they had come out of the land of Egypt, saying,
@@ -591,6 +695,7 @@
 <sup>21</sup> Sometimes the cloud was from evening until morning; and when the cloud was taken up in the morning, they traveled; or by day and by night, when the cloud was taken up, they traveled.
 <sup>22</sup> Whether it was two days, or a month, or a year that the cloud stayed on the tabernacle, remaining on it, the children of Israel remained encamped, and didn’t travel; but when it was taken up, they traveled.
 <sup>23</sup> At the commandment of Yahweh they encamped, and at the commandment of Yahweh they traveled. They kept Yahweh’s command, at the commandment of Yahweh by Moses.
+
 ## Chapter 10
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -640,6 +745,7 @@
 <sup>34</sup> The cloud of Yahweh was over them by day, when they set forward from the camp.
 <sup>35</sup> When the ark went forward, Moses said, “Rise up, Yahweh, and let your enemies be scattered! Let those who hate you flee before you!”
 <sup>36</sup> When it rested, he said, “Return, Yahweh, to the ten thousands of the thousands of Israel.”
+
 ## Chapter 11
 
 <sup>1</sup> The people were complaining in the ears of Yahweh. When Yahweh heard it, his anger burned; and Yahweh’s fire burned among them, and consumed some of the outskirts of the camp.
@@ -701,7 +807,9 @@
 <sup>2</sup> They said, “Has Yahweh indeed spoken only with Moses? Hasn’t he spoken also with us?” And Yahweh heard it.
 
 <sup>3</sup> Now the man Moses was very humble, more than all the men who were on the surface of the earth.
-<sup>4</sup> Yahweh spoke suddenly to Moses, to Aaron, and to Miriam, “You three come out to the Tent of Meeting!” The three of them came out.
+<sup>4</sup> Yahweh spoke suddenly to Moses, to Aaron, and to Miriam, “You three come out to the Tent of Meeting!”
+
+The three of them came out.
 <sup>5</sup> Yahweh came down in a pillar of cloud, and stood at the door of the Tent, and called Aaron and Miriam; and they both came forward.
 <sup>6</sup> He said, “Now hear my words. If there is a prophet among you, I, Yahweh, will make myself known to him in a vision. I will speak with him in a dream.
 <sup>7</sup> My servant Moses is not so. He is faithful in all my house.
@@ -719,6 +827,7 @@
 
 <sup>15</sup> Miriam was shut up outside of the camp seven days, and the people didn’t travel until Miriam was brought in again.
 <sup>16</sup> Afterward the people traveled from Hazeroth, and encamped in the wilderness of Paran.
+
 ## Chapter 13
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -776,7 +885,9 @@
 <sup>8</sup> If Yahweh delights in us, then he will bring us into this land, and give it to us: a land which flows with milk and honey.
 <sup>9</sup> Only don’t rebel against Yahweh, neither fear the people of the land; for they are bread for us. Their defense is removed from over them, and Yahweh is with us. Don’t fear them.”
 
-<sup>10</sup> But all the congregation threatened to stone them with stones. Yahweh’s glory appeared in the Tent of Meeting to all the children of Israel.
+<sup>10</sup> But all the congregation threatened to stone them with stones.
+
+Yahweh’s glory appeared in the Tent of Meeting to all the children of Israel.
 <sup>11</sup> Yahweh said to Moses, “How long will this people despise me? How long will they not believe in me, for all the signs which I have worked among them?
 <sup>12</sup> I will strike them with the pestilence, and disinherit them, and will make of you a nation greater and mightier than they.”
 
@@ -908,7 +1019,9 @@
 <sup>17</sup> Each man take his censer and put incense on it, and each man bring before Yahweh his censer, two hundred fifty censers; you also, and Aaron, each with his censer.”
 
 <sup>18</sup> They each took his censer, and put fire in it, and laid incense on it, and stood at the door of the Tent of Meeting with Moses and Aaron.
-<sup>19</sup> Korah assembled all the congregation opposite them to the door of the Tent of Meeting. Yahweh’s glory appeared to all the congregation.
+<sup>19</sup> Korah assembled all the congregation opposite them to the door of the Tent of Meeting.
+
+Yahweh’s glory appeared to all the congregation.
 <sup>20</sup> Yahweh spoke to Moses and to Aaron, saying,
 <sup>21</sup> “Separate yourselves from among this congregation, that I may consume them in a moment!”
 
@@ -975,6 +1088,7 @@
 
 <sup>12</sup> The children of Israel spoke to Moses, saying, “Behold, we perish! We are undone! We are all undone!
 <sup>13</sup> Everyone who keeps approaching Yahweh’s tabernacle, dies! Will we all perish?”
+
 ## Chapter 18
 
 <sup>1</sup> Yahweh said to Aaron, “You and your sons and your fathers’ house with you shall bear the iniquity of the sanctuary; and you and your sons with you shall bear the iniquity of your priesthood.
@@ -1053,6 +1167,7 @@
 <sup>21</sup> It shall be a perpetual statute to them. He who sprinkles the water for impurity shall wash his clothes, and he who touches the water for impurity shall be unclean until evening.
 
 <sup>22</sup> “Whatever the unclean person touches shall be unclean; and the soul that touches it shall be unclean until evening.”
+
 ## Chapter 20
 
 <sup>1</sup> The children of Israel, even the whole congregation, came into the wilderness of Zin in the first month. The people stayed in Kadesh. Miriam died there, and was buried there.
@@ -1073,7 +1188,9 @@
 
 <sup>13</sup> These are the waters of Meribah;<sup>a</sup> because the children of Israel strove with Yahweh, and he was sanctified in them.
 
-<sup>14</sup> Moses sent messengers from Kadesh to the king of Edom, saying: “Your brother Israel says: You know all the travail that has happened to us;
+<sup>14</sup> Moses sent messengers from Kadesh to the king of Edom, saying:
+
+“Your brother Israel says: You know all the travail that has happened to us;
 <sup>15</sup> how our fathers went down into Egypt, and we lived in Egypt a long time. The Egyptians mistreated us and our fathers.
 <sup>16</sup> When we cried to Yahweh, he heard our voice, sent an angel, and brought us out of Egypt. Behold, we are in Kadesh, a city in the edge of your border.
 
@@ -1123,7 +1240,9 @@
 <sup>16</sup> From there they traveled to Beer; that is the well of which Yahweh said to Moses, “Gather the people together, and I will give them water.”
 
 <sup>17</sup> Then Israel sang this song:<br>“Spring up, well! Sing to it,<br>
-<sup>18</sup> the well, which the princes dug,<br>which the nobles of the people dug,<br>with the scepter, and with their poles.” From the wilderness they traveled to Mattanah;
+<sup>18</sup> the well, which the princes dug,<br>which the nobles of the people dug,<br>with the scepter, and with their poles.”
+
+From the wilderness they traveled to Mattanah;
 <sup>19</sup> and from Mattanah to Nahaliel; and from Nahaliel to Bamoth;
 <sup>20</sup> and from Bamoth to the valley that is in the field of Moab, to the top of Pisgah, which looks down on the desert.
 <sup>21</sup> Israel sent messengers to Sihon king of the Amorites, saying,
@@ -1153,7 +1272,9 @@
 <sup>1</sup> The children of Israel traveled, and encamped in the plains of Moab beyond the Jordan at Jericho.
 <sup>2</sup> Balak the son of Zippor saw all that Israel had done to the Amorites.
 <sup>3</sup> Moab was very afraid of the people, because they were many. Moab was distressed because of the children of Israel.
-<sup>4</sup> Moab said to the elders of Midian, “Now this multitude will lick up all that is around us, as the ox licks up the grass of the field.” Balak the son of Zippor was king of Moab at that time.
+<sup>4</sup> Moab said to the elders of Midian, “Now this multitude will lick up all that is around us, as the ox licks up the grass of the field.”
+
+Balak the son of Zippor was king of Moab at that time.
 <sup>5</sup> He sent messengers to Balaam the son of Beor, to Pethor, which is by the River, to the land of the children of his people, to call him, saying, “Behold, there is a people who came out of Egypt. Behold, they cover the surface of the earth, and they are staying opposite me.
 <sup>6</sup> Please come now therefore, and curse this people for me; for they are too mighty for me. Perhaps I shall prevail, that we may strike them, and that I may drive them out of the land; for I know that he whom you bless is blessed, and he whom you curse is cursed.”
 
@@ -1194,7 +1315,9 @@
 
 <sup>29</sup> Balaam said to the donkey, “Because you have mocked me, I wish there were a sword in my hand, for now I would have killed you.”
 
-<sup>30</sup> The donkey said to Balaam, “Am I not your donkey, on which you have ridden all your life long until today? Was I ever in the habit of doing so to you?” He said, “No.”
+<sup>30</sup> The donkey said to Balaam, “Am I not your donkey, on which you have ridden all your life long until today? Was I ever in the habit of doing so to you?”
+
+He said, “No.”
 
 <sup>31</sup> Then Yahweh opened the eyes of Balaam, and he saw Yahweh’s angel standing in the way, with his sword drawn in his hand; and he bowed his head, and fell on his face.
 <sup>32</sup> Yahweh’s angel said to him, “Why have you struck your donkey these three times? Behold, I have come out as an adversary, because your way is perverse before me.
@@ -1202,7 +1325,9 @@
 
 <sup>34</sup> Balaam said to Yahweh’s angel, “I have sinned; for I didn’t know that you stood in the way against me. Now therefore, if it displeases you, I will go back again.”
 
-<sup>35</sup> Yahweh’s angel said to Balaam, “Go with the men; but you shall only speak the word that I shall speak to you.” So Balaam went with the princes of Balak.
+<sup>35</sup> Yahweh’s angel said to Balaam, “Go with the men; but you shall only speak the word that I shall speak to you.”
+
+So Balaam went with the princes of Balak.
 <sup>36</sup> When Balak heard that Balaam had come, he went out to meet him to the City of Moab, which is on the border of the Arnon, which is in the utmost part of the border.
 <sup>37</sup> Balak said to Balaam, “Didn’t I earnestly send for you to summon you? Why didn’t you come to me? Am I not able indeed to promote you to honor?”
 
@@ -1211,12 +1336,15 @@
 <sup>39</sup> Balaam went with Balak, and they came to Kiriath Huzoth.
 <sup>40</sup> Balak sacrificed cattle and sheep, and sent to Balaam, and to the princes who were with him.
 <sup>41</sup> In the morning, Balak took Balaam, and brought him up into the high places of Baal; and he saw from there part of the people.
+
 ## Chapter 23
 
 <sup>1</sup> Balaam said to Balak, “Build here seven altars for me, and prepare here seven bulls and seven rams for me.”
 
 <sup>2</sup> Balak did as Balaam had spoken; and Balak and Balaam offered on every altar a bull and a ram.
-<sup>3</sup> Balaam said to Balak, “Stand by your burnt offering, and I will go. Perhaps Yahweh will come to meet me. Whatever he shows me I will tell you.” He went to a bare height.
+<sup>3</sup> Balaam said to Balak, “Stand by your burnt offering, and I will go. Perhaps Yahweh will come to meet me. Whatever he shows me I will tell you.”
+
+He went to a bare height.
 <sup>4</sup> God met Balaam, and he said to him, “I have prepared the seven altars, and I have offered up a bull and a ram on every altar.”
 
 <sup>5</sup> Yahweh put a word in Balaam’s mouth, and said, “Return to Balak, and thus you shall speak.”
@@ -1258,6 +1386,7 @@
 <sup>29</sup> Balaam said to Balak, “Build seven altars for me here, and prepare seven bulls and seven rams for me here.”
 
 <sup>30</sup> Balak did as Balaam had said, and offered up a bull and a ram on every altar.
+
 ## Chapter 24
 
 <sup>1</sup> When Balaam saw that it pleased Yahweh to bless Israel, he didn’t go, as at the other times, to use divination, but he set his face toward the wilderness.
@@ -1292,6 +1421,7 @@
 <sup>24</sup> But ships shall come from the coast of Kittim.<br>They shall afflict Asshur, and shall afflict Eber.<br>He also shall come to destruction.”
 
 <sup>25</sup> Balaam rose up, and went and returned to his place; and Balak also went his way.
+
 ## Chapter 25
 
 <sup>1</sup> Israel stayed in Shittim; and the people began to play the prostitute with the daughters of Moab;
@@ -1317,12 +1447,15 @@
 <sup>16</sup> Yahweh spoke to Moses, saying,
 <sup>17</sup> “Harass the Midianites, and strike them;
 <sup>18</sup> for they harassed you with their wiles, wherein they have deceived you in the matter of Peor, and in the incident regarding Cozbi, the daughter of the prince of Midian, their sister, who was slain on the day of the plague in the matter of Peor.”
+
 ## Chapter 26
 
 <sup>1</sup> After the plague, Yahweh spoke to Moses and to Eleazar the son of Aaron the priest, saying,
 <sup>2</sup> “Take a census of all the congregation of the children of Israel, from twenty years old and upward, by their fathers’ houses, all who are able to go out to war in Israel.”
 <sup>3</sup> Moses and Eleazar the priest spoke with them in the plains of Moab by the Jordan at Jericho, saying,
-<sup>4</sup> “Take a census, from twenty years old and upward, as Yahweh commanded Moses and the children of Israel.” These are those who came out of the land of Egypt.
+<sup>4</sup> “Take a census, from twenty years old and upward, as Yahweh commanded Moses and the children of Israel.”
+
+These are those who came out of the land of Egypt.
 <sup>5</sup> Reuben, the firstborn of Israel; the sons of Reuben: of Hanoch, the family of the Hanochites; of Pallu, the family of the Palluites;
 <sup>6</sup> of Hezron, the family of the Hezronites; of Carmi, the family of the Carmites.
 <sup>7</sup> These are the families of the Reubenites; and those who were counted of them were forty-three thousand seven hundred thirty.
@@ -1386,6 +1519,7 @@
 <sup>63</sup> These are those who were counted by Moses and Eleazar the priest, who counted the children of Israel in the plains of Moab by the Jordan at Jericho.
 <sup>64</sup> But among these there was not a man of them who were counted by Moses and Aaron the priest, who counted the children of Israel in the wilderness of Sinai.
 <sup>65</sup> For Yahweh had said of them, “They shall surely die in the wilderness.” There was not a man left of them, except Caleb the son of Jephunneh, and Joshua the son of Nun.
+
 ## Chapter 27
 
 <sup>1</sup> Then the daughters of Zelophehad, the son of Hepher, the son of Gilead, the son of Machir, the son of Manasseh, of the families of Manasseh the son of Joseph came near. These are the names of his daughters: Mahlah, Noah, Hoglah, Milcah, and Tirzah.
@@ -1416,6 +1550,7 @@
 
 <sup>22</sup> Moses did as Yahweh commanded him. He took Joshua, and set him before Eleazar the priest and before all the congregation.
 <sup>23</sup> He laid his hands on him and commissioned him, as Yahweh spoke by Moses.
+
 ## Chapter 28
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -1513,6 +1648,7 @@
 <sup>39</sup> “ ‘You shall offer these to Yahweh in your set feasts—in addition to your vows and your free will offerings—for your burnt offerings, your meal offerings, your drink offerings, and your peace offerings.’ ”
 
 <sup>40</sup> Moses told the children of Israel according to all that Yahweh commanded Moses.
+
 ## Chapter 30
 
 <sup>1</sup> Moses spoke to the heads of the tribes of the children of Israel, saying, “This is the thing which Yahweh has commanded.
@@ -1536,6 +1672,7 @@
 <sup>15</sup> But if he makes them null and void after he has heard them, then he shall bear her iniquity.”
 
 <sup>16</sup> These are the statutes which Yahweh commanded Moses, between a man and his wife, between a father and his daughter, being in her youth, in her father’s house.
+
 ## Chapter 31
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -1656,6 +1793,7 @@
 <sup>40</sup> Moses gave Gilead to Machir the son of Manasseh; and he lived therein.
 <sup>41</sup> Jair the son of Manasseh went and took its villages, and called them Havvoth Jair.
 <sup>42</sup> Nobah went and took Kenath and its villages, and called it Nobah, after his own name.
+
 ## Chapter 33
 
 <sup>1</sup> These are the journeys of the children of Israel, when they went out of the land of Egypt by their armies under the hand of Moses and Aaron.
@@ -1715,6 +1853,7 @@
 
 <sup>55</sup> “But if you do not drive out the inhabitants of the land from before you, then those you let remain of them will be like pricks in your eyes and thorns in your sides. They will harass you in the land in which you dwell.
 <sup>56</sup> It shall happen that as I thought to do to them, so I will do to you.”
+
 ## Chapter 34
 
 <sup>1</sup> Yahweh spoke to Moses, saying,
@@ -1751,6 +1890,7 @@
 <sup>27</sup> Of the tribe of the children of Asher a prince, Ahihud the son of Shelomi.
 <sup>28</sup> Of the tribe of the children of Naphtali a prince, Pedahel the son of Ammihud.”
 <sup>29</sup> These are they whom Yahweh commanded to divide the inheritance to the children of Israel in the land of Canaan.
+
 ## Chapter 35
 
 <sup>1</sup> Yahweh spoke to Moses in the plains of Moab by the Jordan at Jericho, saying,

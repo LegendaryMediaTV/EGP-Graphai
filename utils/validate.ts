@@ -13,82 +13,92 @@ const result = validateJsonAgainstSchema(schemaPath, jsonPath);
 
 console.log("Schema validation result:", result);
 
-if (result.valid) {
-  // Additional validation: Check books array integrity for each version
-  const versionsContent = fs.readFileSync(versionsJsonPath, "utf-8");
-  const versions = JSON.parse(versionsContent);
-
-  let booksValidationPassed = true;
-
-  for (const version of versions) {
-    const books = version.books || [];
-    if (books.length === 0) {
-      console.log(`✅ ${version._id}: no books specified`);
-      continue;
-    }
-
-    // Collect order values
-    const orderValues = books.map((item: any) => item.order);
-    const sortedOrders = _.sortBy(orderValues);
-
-    // Check for duplicates
-    const duplicates = _.filter(
-      _.groupBy(books, "order"),
-      (group) => group.length > 1
-    );
-
-    if (duplicates.length > 0) {
-      console.error(`\n❌ ${version._id} has duplicate order numbers:`);
-      duplicates.forEach((group) => {
-        const bookIds = group.map((item: any) => item._id).join(", ");
-        console.error(`  Order ${group[0].order}: ${bookIds}`);
-      });
-      booksValidationPassed = false;
-    }
-
-    // Check if starts at 1
-    if (sortedOrders[0] !== 1) {
-      console.error(
-        `\n❌ ${version._id} does not start at 1 (starts at ${sortedOrders[0]})`
-      );
-      booksValidationPassed = false;
-    }
-
-    // Check for gaps in sequence
-    const expectedCount = sortedOrders[sortedOrders.length - 1];
-    if (sortedOrders.length !== expectedCount) {
-      const allExpected = _.range(1, expectedCount + 1);
-      const missing = _.difference(allExpected, sortedOrders);
-      if (missing.length > 0) {
+if (!result.valid) {
+  console.error("\n❌ Bible books schema validation failed:");
+  if (result.errors) {
+    result.errors.forEach((error) => {
+      console.error(`  - ${error.instancePath || "Root"}: ${error.message}`);
+      if (error.params && error.params.additionalProperty) {
         console.error(
-          `\n❌ ${version._id} has gaps in numbering. Missing: ${missing.join(
-            ", "
-          )}`
+          `    Extra property: "${error.params.additionalProperty}"`
         );
-        booksValidationPassed = false;
       }
-    }
-
-    // Success message
-    if (
-      sortedOrders[0] === 1 &&
-      sortedOrders.length === expectedCount &&
-      duplicates.length === 0
-    ) {
-      console.log(
-        `✅ ${version._id}: ${sortedOrders.length} books, numbered 1–${expectedCount}`
-      );
-    }
+    });
   }
-
-  if (!booksValidationPassed) {
-    console.error("\n❌ Books validation failed!");
-    process.exit(1);
-  } else {
-    console.log("\n✅ All order validations passed!");
-  }
-} else {
   process.exit(1);
+}
+// Additional validation: Check books array integrity for each version
+const versionsContent = fs.readFileSync(versionsJsonPath, "utf-8");
+const versions = JSON.parse(versionsContent);
+
+let booksValidationPassed = true;
+
+for (const version of versions) {
+  const books = version.books || [];
+  if (books.length === 0) {
+    console.log(`✅ ${version._id}: no books specified`);
+    continue;
+  }
+
+  // Collect order values
+  const orderValues = books.map((item: any) => item.order);
+  const sortedOrders = _.sortBy(orderValues);
+
+  // Check for duplicates
+  const duplicates = _.filter(
+    _.groupBy(books, "order"),
+    (group) => group.length > 1
+  );
+
+  if (duplicates.length > 0) {
+    console.error(`\n❌ ${version._id} has duplicate order numbers:`);
+    duplicates.forEach((group) => {
+      const bookIds = group.map((item: any) => item._id).join(", ");
+      console.error(`  Order ${group[0].order}: ${bookIds}`);
+    });
+    booksValidationPassed = false;
+  }
+
+  // Check if starts at 1
+  if (sortedOrders[0] !== 1) {
+    console.error(
+      `\n❌ ${version._id} does not start at 1 (starts at ${sortedOrders[0]})`
+    );
+    booksValidationPassed = false;
+  }
+
+  // Check for gaps in sequence
+  const expectedCount = sortedOrders[sortedOrders.length - 1];
+  if (sortedOrders.length !== expectedCount) {
+    const allExpected = _.range(1, expectedCount + 1);
+    const missing = _.difference(allExpected, sortedOrders);
+    if (missing.length > 0) {
+      console.error(
+        `\n❌ ${version._id} has gaps in numbering. Missing: ${missing.join(
+          ", "
+        )}`
+      );
+      booksValidationPassed = false;
+    }
+  }
+
+  // Success message
+  if (
+    sortedOrders[0] === 1 &&
+    sortedOrders.length === expectedCount &&
+    duplicates.length === 0
+  ) {
+    console.log(
+      `✅ ${version._id}: ${sortedOrders.length} books, numbered 1–${expectedCount}`
+    );
+  }
+}
+
+if (!booksValidationPassed) {
+  console.error("\n❌ Books validation failed!");
+  process.exit(1);
+} else {
+  console.log("\n✅ All order validations passed!");
 }
 
 // Now, validate bible-versions
@@ -100,6 +110,27 @@ const versionsResult = validateJsonAgainstSchema(
 console.log("\nBible versions schema validation result:", versionsResult);
 
 if (!versionsResult.valid) {
+  console.error("\n❌ Bible versions schema validation failed:");
+  if (versionsResult.errors) {
+    versionsResult.errors.forEach((error) => {
+      if (error.instancePath.startsWith("/")) {
+        const arrayIndex = parseInt(error.instancePath.slice(1));
+        const version = versions[arrayIndex];
+        console.error(
+          `  - Version ${version?._id || `at index ${arrayIndex}`}: ${
+            error.message
+          }`
+        );
+        if (error.params && error.params.additionalProperty) {
+          console.error(
+            `    Extra property: "${error.params.additionalProperty}"`
+          );
+        }
+      } else {
+        console.error(`  - ${error.instancePath || "Root"}: ${error.message}`);
+      }
+    });
+  }
   process.exit(1);
 } else {
   console.log("\n✅ Bible versions validation passed!");
@@ -124,7 +155,6 @@ const books = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
 const validBookIds = new Set(books.map((book: any) => book._id));
 
 // Load versions for book list validation
-const versions = JSON.parse(fs.readFileSync(versionsJsonPath, "utf-8"));
 const versionMap = new Map(versions.map((v: any) => [v._id, v]));
 
 // Load and compile the verse schema once

@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Yahweh’s",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " word that came to Micah of Morasheth in the days of Jotham, Ahaz, and Hezekiah, kings of Judah, which he saw concerning Samaria and Jerusalem.",
@@ -99,8 +99,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "“All this is for the disobedience of Jacob,",
         "paragraph": true,
+        "text": "“All this is for the disobedience of Jacob,",
         "break": true
       },
       {
@@ -178,8 +178,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "For this I will lament and wail.",
         "paragraph": true,
+        "text": "For this I will lament and wail.",
         "break": true
       },
       {
@@ -345,7 +345,7 @@
         "text": "Enlarge your baldness like the vulture,",
         "break": true
       },
-      "for they have gone into captivity from you!"
+      "for they have gone into captivity from you! "
     ]
   },
   {
@@ -354,8 +354,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Woe to those who devise iniquity",
         "paragraph": true,
+        "text": "Woe to those who devise iniquity",
         "break": true
       },
       {
@@ -625,8 +625,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "I said,",
         "paragraph": true,
+        "text": "I said,",
         "break": true
       },
       {
@@ -718,8 +718,8 @@
     "chapter": 3,
     "verse": 5,
     "content": {
-      "text": "Yahweh says concerning the prophets who lead my people astray—for those who feed their teeth, they proclaim, “Peace!” and whoever doesn’t provide for their mouths, they prepare war against him:",
       "paragraph": true,
+      "text": "Yahweh says concerning the prophets who lead my people astray—for those who feed their teeth, they proclaim, “Peace!” and whoever doesn’t provide for their mouths, they prepare war against him:",
       "break": true
     }
   },
@@ -765,6 +765,7 @@
       },
       {
         "text": "for there is no answer from God.”",
+        "break": true,
         "foot": {
           "type": "trn",
           "content": [
@@ -775,8 +776,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -894,8 +894,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "But in the latter days,",
         "paragraph": true,
+        "text": "But in the latter days,",
         "break": true
       },
       {
@@ -1077,8 +1077,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Now why do you cry out aloud?",
         "paragraph": true,
+        "text": "Now why do you cry out aloud?",
         "break": true
       },
       {
@@ -1133,8 +1133,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "Now many nations have assembled against you, that say,",
         "paragraph": true,
+        "text": "Now many nations have assembled against you, that say,",
         "break": true
       },
       {
@@ -1191,7 +1191,7 @@
         "text": "I will devote their gain to Yahweh,",
         "break": true
       },
-      "and their substance to the Lord of the whole earth."
+      "and their substance to the Lord of the whole earth. "
     ]
   },
   {
@@ -1200,8 +1200,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Now you shall gather yourself in troops,",
         "paragraph": true,
+        "text": "Now you shall gather yourself in troops,",
         "break": true
       },
       {
@@ -1495,8 +1495,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Listen now to what Yahweh says:",
         "paragraph": true,
+        "text": "Listen now to what Yahweh says:",
         "break": true
       },
       {
@@ -1592,8 +1592,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "How shall I come before Yahweh,",
         "paragraph": true,
+        "text": "How shall I come before Yahweh,",
         "break": true
       },
       {
@@ -1655,8 +1655,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Yahweh’s voice calls to the city—",
         "paragraph": true,
+        "text": "Yahweh’s voice calls to the city—",
         "break": true
       },
       {
@@ -1820,8 +1820,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Misery is mine!",
         "paragraph": true,
+        "text": "Misery is mine!",
         "break": true
       },
       {

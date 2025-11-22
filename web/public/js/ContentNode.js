@@ -1,11 +1,16 @@
 const { useState, useEffect, useMemo, useRef } = React;
 
-function ContentNode({ node, settings }) {
+function ContentNode({ node, settings, onFootnoteClick }) {
   if (!node) return null;
 
   if (Array.isArray(node)) {
     return node.map((child, i) => (
-      <ContentNode key={i} node={child} settings={settings} />
+      <ContentNode
+        key={i}
+        node={child}
+        settings={settings}
+        onFootnoteClick={onFootnoteClick}
+      />
     ));
   }
 
@@ -25,7 +30,11 @@ function ContentNode({ node, settings }) {
       ) {
         return (
           <p className="mb-4 indent-6">
-            <ContentNode node={node.paragraph} settings={settings} />
+            <ContentNode
+              node={node.paragraph}
+              settings={settings}
+              onFootnoteClick={onFootnoteClick}
+            />
           </p>
         );
       }
@@ -36,7 +45,11 @@ function ContentNode({ node, settings }) {
       if (!settings.showHeadings) return null;
       return (
         <h3 className="text-xl font-bold mt-6 mb-3 text-gray-800 dark:text-gray-200 font-sans">
-          <ContentNode node={node.heading} settings={settings} />
+          <ContentNode
+            node={node.heading}
+            settings={settings}
+            onFootnoteClick={onFootnoteClick}
+          />
         </h3>
       );
     }
@@ -45,7 +58,11 @@ function ContentNode({ node, settings }) {
       if (!settings.showSubtitles) return null;
       return (
         <h4 className="text-lg font-semibold text-gray-600 dark:text-gray-400 mt-2 mb-2 font-sans italic">
-          <ContentNode node={node.subtitle} settings={settings} />
+          <ContentNode
+            node={node.subtitle}
+            settings={settings}
+            onFootnoteClick={onFootnoteClick}
+          />
         </h4>
       );
     }
@@ -110,7 +127,11 @@ function ContentNode({ node, settings }) {
           className="text-blue-600 dark:text-blue-400 text-[0.6em] align-top cursor-pointer ml-0.5 hover:underline"
           title={getFootnoteText(node.foot.content)}
           onClick={() => {
-            alert(getFootnoteText(node.foot.content));
+            if (onFootnoteClick) {
+              onFootnoteClick(node.foot.content);
+            } else {
+              alert(getFootnoteText(node.foot.content));
+            }
           }}
         >
           <Icons.Info />
@@ -130,7 +151,7 @@ function ContentNode({ node, settings }) {
           href={strongsLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-mono font-bold text-gray-500 dark:text-gray-400 hover:underline mr-1"
+          className="font-mono font-bold text-gray-500 dark:text-gray-400 hover:underline"
         >
           {node.strong}
         </a>
@@ -138,14 +159,24 @@ function ContentNode({ node, settings }) {
     }
     if (settings.showLemma && node.lemma) {
       parsingInfo.push(
-        <span key="l" className="italic text-gray-400 mr-1">
+        <span
+          key="l"
+          className={`italic text-gray-400 ${
+            parsingInfo.length > 0 ? "ml-1" : ""
+          }`}
+        >
           {node.lemma}
         </span>
       );
     }
     if (settings.showMorph && node.morph) {
       parsingInfo.push(
-        <span key="m" className="text-gray-500 dark:text-gray-400">
+        <span
+          key="m"
+          className={`text-gray-500 dark:text-gray-400 ${
+            parsingInfo.length > 0 ? "ml-1" : ""
+          }`}
+        >
           {node.morph}
         </span>
       );
@@ -166,15 +197,18 @@ function ContentNode({ node, settings }) {
         : "";
 
     return (
-      <span
-        className={`${isBlock ? "block mt-2" : ""} inline ${scriptClass}`}
-        dir={node.script === "H" ? "rtl" : "ltr"}
-      >
-        {content}
-        {parsingSpan}
-        {footnote}
-        {node.break && <br />}
-      </span>
+      <React.Fragment>
+        {isBlock && <span className="block mt-4 w-full"></span>}
+        <span
+          className={`inline ${scriptClass}`}
+          dir={node.script === "H" ? "rtl" : "ltr"}
+        >
+          {content}
+          {parsingSpan}
+          {footnote}
+          {node.break && <br />}
+        </span>
+      </React.Fragment>
     );
   }
 

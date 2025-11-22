@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "vir erat in terra Hus nomine Iob et erat vir ille simplex et rectus ac timens Deum et recedens a malo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "vir erat in terra Hus nomine Iob et erat vir ille simplex et rectus ac timens Deum et recedens a malo"
     }
   },
   {
@@ -139,8 +139,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "factum est autem cum quadam die venissent filii Dei et starent coram Domino venisset quoque Satan inter eos et staret in conspectu eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "factum est autem cum quadam die venissent filii Dei et starent coram Domino venisset quoque Satan inter eos et staret in conspectu eius"
     }
   },
   {
@@ -220,8 +220,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "post haec aperuit Iob os suum et maledixit diei suo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "post haec aperuit Iob os suum et maledixit diei suo"
     }
   },
   {
@@ -379,8 +379,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "respondens autem Eliphaz Themanites dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Eliphaz Themanites dixit"
     }
   },
   {
@@ -508,8 +508,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "voca ergo si est qui tibi respondeat et ad aliquem sanctorum convertere",
-      "paragraph": true
+      "paragraph": true,
+      "text": "voca ergo si est qui tibi respondeat et ad aliquem sanctorum convertere"
     }
   },
   {
@@ -673,8 +673,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "respondens autem Iob dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Iob dixit"
     }
   },
   {
@@ -856,8 +856,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "militia est vita hominis super terram et sicut dies mercennarii dies eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "militia est vita hominis super terram et sicut dies mercennarii dies eius"
     }
   },
   {
@@ -985,8 +985,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "respondens autem Baldad Suites dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Baldad Suites dixit"
     }
   },
   {
@@ -1120,8 +1120,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "et respondens Iob ait",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et respondens Iob ait"
     }
   },
   {
@@ -1333,8 +1333,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "taedet animam meam vitae meae dimittam adversum me eloquium meum loquar in amaritudine animae meae",
-      "paragraph": true
+      "paragraph": true,
+      "text": "taedet animam meam vitae meae dimittam adversum me eloquium meum loquar in amaritudine animae meae"
     }
   },
   {
@@ -1468,8 +1468,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "respondens autem Sophar Naamathites dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Sophar Naamathites dixit"
     }
   },
   {
@@ -1591,8 +1591,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "respondens autem Iob dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Iob dixit"
     }
   },
   {
@@ -1744,8 +1744,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "ecce omnia et vidit oculus meus et audivit auris mea et intellexi singula",
-      "paragraph": true
+      "paragraph": true,
+      "text": "ecce omnia et vidit oculus meus et audivit auris mea et intellexi singula"
     }
   },
   {
@@ -1915,8 +1915,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "homo natus de muliere brevi vivens tempore repletus multis miseriis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "homo natus de muliere brevi vivens tempore repletus multis miseriis"
     }
   },
   {
@@ -2050,8 +2050,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "respondens autem Eliphaz Themanites dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Eliphaz Themanites dixit"
     }
   },
   {
@@ -2263,8 +2263,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "respondens autem Iob dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Iob dixit"
     }
   },
   {
@@ -2289,117 +2289,262 @@
     "book": "JOB",
     "chapter": 16,
     "verse": 5,
-    "content": "consolarer et ego vos sermonibus et moverem caput meum super vos (16-6) roborarem vos ore meo et moverem labia quasi parcens vobis"
+    "content": [
+      {
+        "text": "consolarer et ego vos sermonibus et moverem caput meum super vos ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:6."
+        }
+      },
+      "roborarem vos ore meo et moverem labia quasi parcens vobis"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 6,
-    "content": "(16-7) sed quid agam si locutus fuero non quiescet dolor meus et si tacuero non recedet a me"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:7."
+        }
+      },
+      "sed quid agam si locutus fuero non quiescet dolor meus et si tacuero non recedet a me"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 7,
-    "content": "(16-8) nunc autem oppressit me dolor meus et in nihili redacti sunt omnes artus mei"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:8."
+        }
+      },
+      "nunc autem oppressit me dolor meus et in nihili redacti sunt omnes artus mei"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 8,
-    "content": "(16-9) rugae meae testimonium dicunt contra me et suscitatur falsiloquus adversus faciem meam contradicens mihi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:9."
+        }
+      },
+      "rugae meae testimonium dicunt contra me et suscitatur falsiloquus adversus faciem meam contradicens mihi"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 9,
-    "content": "(16-10) collegit furorem suum in me et comminans mihi infremuit contra me dentibus suis hostis meus terribilibus oculis me intuitus est"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:10."
+        }
+      },
+      "collegit furorem suum in me et comminans mihi infremuit contra me dentibus suis hostis meus terribilibus oculis me intuitus est"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 10,
-    "content": "(16-11) aperuerunt super me ora sua exprobrantes percusserunt maxillam meam satiati sunt poenis meis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:11."
+        }
+      },
+      "aperuerunt super me ora sua exprobrantes percusserunt maxillam meam satiati sunt poenis meis"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 11,
-    "content": "(16-12) conclusit me Deus apud iniquum et manibus impiorum me tradidit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:12."
+        }
+      },
+      "conclusit me Deus apud iniquum et manibus impiorum me tradidit"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 12,
-    "content": "(16-13) ego ille quondam opulentus repente contritus sum tenuit cervicem meam confregit me et posuit sibi quasi in signum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:13."
+        }
+      },
+      "ego ille quondam opulentus repente contritus sum tenuit cervicem meam confregit me et posuit sibi quasi in signum"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 13,
-    "content": "(16-14) circumdedit me lanceis suis convulneravit lumbos meos non pepercit et effudit in terra viscera mea"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:14."
+        }
+      },
+      "circumdedit me lanceis suis convulneravit lumbos meos non pepercit et effudit in terra viscera mea"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 14,
-    "content": "(16-15) concidit me vulnere super vulnus inruit in me quasi gigans"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:15."
+        }
+      },
+      "concidit me vulnere super vulnus inruit in me quasi gigans"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 15,
-    "content": "(16-16) saccum consui super cutem meam et operui cinere cornu meum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:16."
+        }
+      },
+      "saccum consui super cutem meam et operui cinere cornu meum"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 16,
-    "content": "(16-17) facies mea intumuit a fletu et palpebrae meae caligaverunt"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:17."
+        }
+      },
+      "facies mea intumuit a fletu et palpebrae meae caligaverunt"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 17,
-    "content": "(16-18) haec passus sum absque iniquitate manus meae cum haberem mundas ad Deum preces"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:18."
+        }
+      },
+      "haec passus sum absque iniquitate manus meae cum haberem mundas ad Deum preces"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 18,
-    "content": "(16-19) terra ne operias sanguinem meum neque inveniat locum in te latendi clamor meus"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:19."
+        }
+      },
+      "terra ne operias sanguinem meum neque inveniat locum in te latendi clamor meus"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 19,
-    "content": "(16-20) ecce enim in caelo testis meus et conscius meus in excelsis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:20."
+        }
+      },
+      "ecce enim in caelo testis meus et conscius meus in excelsis"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 20,
-    "content": "(16-21) verbosi mei amici mei ad Deum stillat oculus meus"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:21."
+        }
+      },
+      "verbosi mei amici mei ad Deum stillat oculus meus"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 21,
-    "content": "(16-22) atque utinam sic iudicaretur vir cum Deo quomodo iudicatur filius hominis cum collega suo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:22."
+        }
+      },
+      "atque utinam sic iudicaretur vir cum Deo quomodo iudicatur filius hominis cum collega suo"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 16,
     "verse": 22,
-    "content": "(16-23) ecce enim breves anni transeunt et semitam per quam non revertar ambulo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 16:23."
+        }
+      },
+      "ecce enim breves anni transeunt et semitam per quam non revertar ambulo"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 17,
     "verse": 1,
     "content": {
-      "text": "spiritus meus adtenuabitur dies mei breviabuntur et solum mihi superest sepulchrum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "spiritus meus adtenuabitur dies mei breviabuntur et solum mihi superest sepulchrum"
     }
   },
   {
@@ -2497,8 +2642,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "respondens autem Baldad Suites dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Baldad Suites dixit"
     }
   },
   {
@@ -2626,8 +2771,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "respondens autem Iob dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Iob dixit"
     }
   },
   {
@@ -2803,8 +2948,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "respondens autem Sophar Naamathites dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Sophar Naamathites dixit"
     }
   },
   {
@@ -2980,8 +3125,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "respondens autem Iob dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Iob dixit"
     }
   },
   {
@@ -3187,8 +3332,8 @@
     "chapter": 22,
     "verse": 1,
     "content": {
-      "text": "respondens autem Eliphaz Themanites dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Eliphaz Themanites dixit"
     }
   },
   {
@@ -3370,8 +3515,8 @@
     "chapter": 23,
     "verse": 1,
     "content": {
-      "text": "respondens autem Iob dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Iob dixit"
     }
   },
   {
@@ -3475,8 +3620,8 @@
     "chapter": 24,
     "verse": 1,
     "content": {
-      "text": "ab Omnipotente non sunt abscondita tempora qui autem noverunt eum ignorant dies illius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "ab Omnipotente non sunt abscondita tempora qui autem noverunt eum ignorant dies illius"
     }
   },
   {
@@ -3628,8 +3773,8 @@
     "chapter": 25,
     "verse": 1,
     "content": {
-      "text": "respondens autem Baldad Suites dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Baldad Suites dixit"
     }
   },
   {
@@ -3667,8 +3812,8 @@
     "chapter": 26,
     "verse": 1,
     "content": {
-      "text": "respondens autem Iob dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Iob dixit"
     }
   },
   {
@@ -3754,8 +3899,8 @@
     "chapter": 27,
     "verse": 1,
     "content": {
-      "text": "addidit quoque Iob adsumens parabolam suam et dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "addidit quoque Iob adsumens parabolam suam et dixit"
     }
   },
   {
@@ -3895,8 +4040,8 @@
     "chapter": 28,
     "verse": 1,
     "content": {
-      "text": "habet argentum venarum suarum principia et auro locus est in quo conflatur",
-      "paragraph": true
+      "paragraph": true,
+      "text": "habet argentum venarum suarum principia et auro locus est in quo conflatur"
     }
   },
   {
@@ -4066,8 +4211,8 @@
     "chapter": 29,
     "verse": 1,
     "content": {
-      "text": "addidit quoque Iob adsumens parabolam suam et dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "addidit quoque Iob adsumens parabolam suam et dixit"
     }
   },
   {
@@ -4219,8 +4364,8 @@
     "chapter": 30,
     "verse": 1,
     "content": {
-      "text": "nunc autem derident me iuniores tempore quorum non dignabar patres ponere cum canibus gregis mei",
-      "paragraph": true
+      "paragraph": true,
+      "text": "nunc autem derident me iuniores tempore quorum non dignabar patres ponere cum canibus gregis mei"
     }
   },
   {
@@ -4408,8 +4553,8 @@
     "chapter": 31,
     "verse": 1,
     "content": {
-      "text": "pepigi foedus cum oculis meis ut ne cogitarem quidem de virgine",
-      "paragraph": true
+      "paragraph": true,
+      "text": "pepigi foedus cum oculis meis ut ne cogitarem quidem de virgine"
     }
   },
   {
@@ -4651,8 +4796,8 @@
     "chapter": 32,
     "verse": 1,
     "content": {
-      "text": "omiserunt autem tres viri isti respondere Iob eo quod iustus sibi videretur",
-      "paragraph": true
+      "paragraph": true,
+      "text": "omiserunt autem tres viri isti respondere Iob eo quod iustus sibi videretur"
     }
   },
   {
@@ -4786,8 +4931,8 @@
     "chapter": 33,
     "verse": 1,
     "content": {
-      "text": "audi igitur Iob eloquia mea et omnes sermones meos ausculta",
-      "paragraph": true
+      "paragraph": true,
+      "text": "audi igitur Iob eloquia mea et omnes sermones meos ausculta"
     }
   },
   {
@@ -4987,8 +5132,8 @@
     "chapter": 34,
     "verse": 1,
     "content": {
-      "text": "pronuntians itaque Heliu etiam haec locutus est",
-      "paragraph": true
+      "paragraph": true,
+      "text": "pronuntians itaque Heliu etiam haec locutus est"
     }
   },
   {
@@ -5212,8 +5357,8 @@
     "chapter": 35,
     "verse": 1,
     "content": {
-      "text": "igitur Heliu haec rursum locutus est",
-      "paragraph": true
+      "paragraph": true,
+      "text": "igitur Heliu haec rursum locutus est"
     }
   },
   {
@@ -5311,8 +5456,8 @@
     "chapter": 36,
     "verse": 1,
     "content": {
-      "text": "addens quoque Heliu haec locutus est",
-      "paragraph": true
+      "paragraph": true,
+      "text": "addens quoque Heliu haec locutus est"
     }
   },
   {
@@ -5512,8 +5657,8 @@
     "chapter": 37,
     "verse": 1,
     "content": {
-      "text": "super hoc expavit cor meum et emotum est de loco suo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "super hoc expavit cor meum et emotum est de loco suo"
     }
   },
   {
@@ -5659,8 +5804,8 @@
     "chapter": 38,
     "verse": 1,
     "content": {
-      "text": "respondens autem Dominus Iob de turbine dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Dominus Iob de turbine dixit"
     }
   },
   {
@@ -5908,8 +6053,8 @@
     "chapter": 39,
     "verse": 1,
     "content": {
-      "text": "numquid nosti tempus partus hibicum in petris vel parturientes cervas observasti",
-      "paragraph": true
+      "paragraph": true,
+      "text": "numquid nosti tempus partus hibicum in petris vel parturientes cervas observasti"
     }
   },
   {
@@ -6090,363 +6235,823 @@
     "book": "JOB",
     "chapter": 40,
     "verse": 1,
-    "content": {
-      "text": "(39-31) et adiecit Dominus et locutus est ad Iob",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 39:31."
+        }
+      },
+      "et adiecit Dominus et locutus est ad Iob"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 2,
-    "content": "(39-32) numquid qui contendit cum Deo tam facile conquiescit utique qui arguit Deum debet respondere ei"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 39:32."
+        }
+      },
+      "numquid qui contendit cum Deo tam facile conquiescit utique qui arguit Deum debet respondere ei"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 3,
-    "content": "(39-33) respondens autem Iob Domino dixit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 39:33."
+        }
+      },
+      "respondens autem Iob Domino dixit"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 4,
-    "content": "(39-34) qui leviter locutus sum respondere quid possum manum meam ponam super os meum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 39:34."
+        }
+      },
+      "qui leviter locutus sum respondere quid possum manum meam ponam super os meum"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 5,
-    "content": "(39-35) unum locutus sum quod utinam non dixissem et alterum quibus ultra non addam"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 39:35."
+        }
+      },
+      "unum locutus sum quod utinam non dixissem et alterum quibus ultra non addam"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 6,
-    "content": "(40-1) respondens autem Dominus Iob de turbine ait"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:1."
+        }
+      },
+      "respondens autem Dominus Iob de turbine ait"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 7,
-    "content": "(40-2) accinge sicut vir lumbos tuos interrogabo te et indica mihi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:2."
+        }
+      },
+      "accinge sicut vir lumbos tuos interrogabo te et indica mihi"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 8,
-    "content": "(40-3) numquid irritum facies iudicium meum et condemnabis me ut tu iustificeris"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:3."
+        }
+      },
+      "numquid irritum facies iudicium meum et condemnabis me ut tu iustificeris"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 9,
-    "content": "(40-4) et si habes brachium sicut Deus et si voce simili tonas"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:4."
+        }
+      },
+      "et si habes brachium sicut Deus et si voce simili tonas"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 10,
-    "content": "(40-5) circumda tibi decorem et in sublime erigere et esto gloriosus et speciosis induere vestibus"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:5."
+        }
+      },
+      "circumda tibi decorem et in sublime erigere et esto gloriosus et speciosis induere vestibus"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 11,
-    "content": "(40-6) disperge superbos furore tuo et respiciens omnem arrogantem humilia"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:6."
+        }
+      },
+      "disperge superbos furore tuo et respiciens omnem arrogantem humilia"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 12,
-    "content": "(40-7) respice cunctos superbos et confunde eos et contere impios in loco suo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:7."
+        }
+      },
+      "respice cunctos superbos et confunde eos et contere impios in loco suo"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 13,
-    "content": "(40-8) absconde eos in pulvere simul et facies eorum demerge in foveam"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:8."
+        }
+      },
+      "absconde eos in pulvere simul et facies eorum demerge in foveam"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 14,
-    "content": "(40-9) et ego confitebor quod salvare te possit dextera tua"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:9."
+        }
+      },
+      "et ego confitebor quod salvare te possit dextera tua"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 15,
-    "content": "(40-10) ecce Behemoth quem feci tecum faenum quasi bos comedet"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:10."
+        }
+      },
+      "ecce Behemoth quem feci tecum faenum quasi bos comedet"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 16,
-    "content": "(40-11) fortitudo eius in lumbis eius et virtus illius in umbilicis ventris eius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:11."
+        }
+      },
+      "fortitudo eius in lumbis eius et virtus illius in umbilicis ventris eius"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 17,
-    "content": "(40-12) constringit caudam suam quasi cedrum nervi testiculorum eius perplexi sunt"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:12."
+        }
+      },
+      "constringit caudam suam quasi cedrum nervi testiculorum eius perplexi sunt"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 18,
-    "content": "(40-13) ossa eius velut fistulae aeris cartilago illius quasi lamminae ferreae"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:13."
+        }
+      },
+      "ossa eius velut fistulae aeris cartilago illius quasi lamminae ferreae"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 19,
-    "content": "(40-14) ipse principium est viarum Dei qui fecit eum adplicabit gladium eius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:14."
+        }
+      },
+      "ipse principium est viarum Dei qui fecit eum adplicabit gladium eius"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 20,
-    "content": "(40-15) huic montes herbas ferunt omnes bestiae agri ludent ibi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:15."
+        }
+      },
+      "huic montes herbas ferunt omnes bestiae agri ludent ibi"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 21,
-    "content": "(40-16) sub umbra dormit in secreto calami et locis humentibus"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:16."
+        }
+      },
+      "sub umbra dormit in secreto calami et locis humentibus"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 22,
-    "content": "(40-17) protegunt umbrae umbram eius circumdabunt eum salices torrentis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:17."
+        }
+      },
+      "protegunt umbrae umbram eius circumdabunt eum salices torrentis"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 23,
-    "content": "(40-18) ecce absorbebit fluvium et non mirabitur habet fiduciam quod influat Iordanis in os eius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:18."
+        }
+      },
+      "ecce absorbebit fluvium et non mirabitur habet fiduciam quod influat Iordanis in os eius"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 40,
     "verse": 24,
-    "content": "(40-19) in oculis eius quasi hamo capiet eum et in sudibus perforabit nares eius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:19."
+        }
+      },
+      "in oculis eius quasi hamo capiet eum et in sudibus perforabit nares eius"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 1,
-    "content": {
-      "text": "(40-20) an extrahere poteris Leviathan hamo et fune ligabis linguam eius",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:20."
+        }
+      },
+      "an extrahere poteris Leviathan hamo et fune ligabis linguam eius"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 2,
-    "content": "(40-21) numquid pones circulum in naribus eius et armilla perforabis maxillam eius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:21."
+        }
+      },
+      "numquid pones circulum in naribus eius et armilla perforabis maxillam eius"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 3,
-    "content": "(40-22) numquid multiplicabit ad te preces aut loquetur tibi mollia"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:22."
+        }
+      },
+      "numquid multiplicabit ad te preces aut loquetur tibi mollia"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 4,
-    "content": "(40-23) numquid feriet tecum pactum et accipies eum servum sempiternum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:23."
+        }
+      },
+      "numquid feriet tecum pactum et accipies eum servum sempiternum"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 5,
-    "content": "(40-24) numquid inludes ei quasi avi aut ligabis illum ancillis tuis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:24."
+        }
+      },
+      "numquid inludes ei quasi avi aut ligabis illum ancillis tuis"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 6,
-    "content": "(40-25) concident eum amici divident illum negotiatores"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:25."
+        }
+      },
+      "concident eum amici divident illum negotiatores"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 7,
-    "content": "(40-26) numquid implebis sagenas pelle eius et gurgustium piscium capite illius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:26."
+        }
+      },
+      "numquid implebis sagenas pelle eius et gurgustium piscium capite illius"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 8,
-    "content": "(40-27) pone super eum manum tuam memento belli nec ultra addas loqui"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:27."
+        }
+      },
+      "pone super eum manum tuam memento belli nec ultra addas loqui"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 9,
-    "content": "(40-28) ecce spes eius frustrabitur eum et videntibus cunctis praecipitabitur"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 40:28."
+        }
+      },
+      "ecce spes eius frustrabitur eum et videntibus cunctis praecipitabitur"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 10,
-    "content": "(41-1) non quasi crudelis suscitabo eum quis enim resistere potest vultui meo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:1."
+        }
+      },
+      "non quasi crudelis suscitabo eum quis enim resistere potest vultui meo"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 11,
-    "content": "(41-2) quis ante dedit mihi ut reddam ei omnia quae sub caelo sunt mea sunt"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:2."
+        }
+      },
+      "quis ante dedit mihi ut reddam ei omnia quae sub caelo sunt mea sunt"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 12,
-    "content": "(41-3) non parcam ei et verbis potentibus et ad deprecandum conpositis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:3."
+        }
+      },
+      "non parcam ei et verbis potentibus et ad deprecandum conpositis"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 13,
-    "content": "(41-4) quis revelavit faciem indumenti eius et in medium oris eius quis intrabit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:4."
+        }
+      },
+      "quis revelavit faciem indumenti eius et in medium oris eius quis intrabit"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 14,
-    "content": "(41-5) portas vultus eius quis aperiet per gyrum dentium eius formido"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:5."
+        }
+      },
+      "portas vultus eius quis aperiet per gyrum dentium eius formido"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 15,
-    "content": "(41-6) corpus illius quasi scuta fusilia et conpactum squamis se prementibus"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:6."
+        }
+      },
+      "corpus illius quasi scuta fusilia et conpactum squamis se prementibus"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 16,
-    "content": "(41-7) una uni coniungitur et ne spiraculum quidem incedit per eas"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:7."
+        }
+      },
+      "una uni coniungitur et ne spiraculum quidem incedit per eas"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 17,
-    "content": "(41-8) una alteri adherebunt et tenentes se nequaquam separabuntur"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:8."
+        }
+      },
+      "una alteri adherebunt et tenentes se nequaquam separabuntur"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 18,
-    "content": "(41-9) sternutatio eius splendor ignis et oculi eius ut palpebrae diluculi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:9."
+        }
+      },
+      "sternutatio eius splendor ignis et oculi eius ut palpebrae diluculi"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 19,
-    "content": "(41-10) de ore eius lampades procedunt sicut taedae ignis accensae"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:10."
+        }
+      },
+      "de ore eius lampades procedunt sicut taedae ignis accensae"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 20,
-    "content": "(41-11) de naribus eius procedit fumus sicut ollae succensae atque ferventis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:11."
+        }
+      },
+      "de naribus eius procedit fumus sicut ollae succensae atque ferventis"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 21,
-    "content": "(41-12) halitus eius prunas ardere facit et flamma de ore eius egreditur"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:12."
+        }
+      },
+      "halitus eius prunas ardere facit et flamma de ore eius egreditur"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 22,
-    "content": "(41-13) in collo eius morabitur fortitudo et faciem eius praecedet egestas"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:13."
+        }
+      },
+      "in collo eius morabitur fortitudo et faciem eius praecedet egestas"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 23,
-    "content": "(41-14) membra carnium eius coherentia sibi mittet contra eum fulmina et ad locum alium non ferentur"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:14."
+        }
+      },
+      "membra carnium eius coherentia sibi mittet contra eum fulmina et ad locum alium non ferentur"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 24,
-    "content": "(41-15) cor eius indurabitur quasi lapis et stringetur quasi malleatoris incus"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:15."
+        }
+      },
+      "cor eius indurabitur quasi lapis et stringetur quasi malleatoris incus"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 25,
-    "content": "(41-16) cum sublatus fuerit timebunt angeli et territi purgabuntur"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:16."
+        }
+      },
+      "cum sublatus fuerit timebunt angeli et territi purgabuntur"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 26,
-    "content": "(41-17) cum adprehenderit eum gladius subsistere non poterit neque hasta neque torax"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:17."
+        }
+      },
+      "cum adprehenderit eum gladius subsistere non poterit neque hasta neque torax"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 27,
-    "content": "(41-18) reputabit enim quasi paleas ferrum et quasi lignum putridum aes"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:18."
+        }
+      },
+      "reputabit enim quasi paleas ferrum et quasi lignum putridum aes"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 28,
-    "content": "(41-19) non fugabit eum vir sagittarius in stipulam versi sunt ei lapides fundae"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:19."
+        }
+      },
+      "non fugabit eum vir sagittarius in stipulam versi sunt ei lapides fundae"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 29,
-    "content": "(41-20) quasi stipulam aestimabit malleum et deridebit vibrantem hastam"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:20."
+        }
+      },
+      "quasi stipulam aestimabit malleum et deridebit vibrantem hastam"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 30,
-    "content": "(41-21) sub ipso erunt radii solis sternet sibi aurum quasi lutum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:21."
+        }
+      },
+      "sub ipso erunt radii solis sternet sibi aurum quasi lutum"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 31,
-    "content": "(41-22) fervescere faciet quasi ollam profundum mare ponet quasi cum unguenta bulliunt"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:22."
+        }
+      },
+      "fervescere faciet quasi ollam profundum mare ponet quasi cum unguenta bulliunt"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 32,
-    "content": "(41-23) post eum lucebit semita aestimabit abyssum quasi senescentem"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:23."
+        }
+      },
+      "post eum lucebit semita aestimabit abyssum quasi senescentem"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 33,
-    "content": "(41-24) non est super terram potestas quae conparetur ei qui factus est ut nullum timeret"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:24."
+        }
+      },
+      "non est super terram potestas quae conparetur ei qui factus est ut nullum timeret"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 41,
     "verse": 34,
-    "content": "(41-25) omne sublime videt ipse est rex super universos filios superbiae"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 41:25."
+        }
+      },
+      "omne sublime videt ipse est rex super universos filios superbiae"
+    ]
   },
   {
     "book": "JOB",
     "chapter": 42,
     "verse": 1,
     "content": {
-      "text": "respondens autem Iob Domino dixit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "respondens autem Iob Domino dixit"
     }
   },
   {
@@ -6543,6 +7148,14 @@
     "book": "JOB",
     "chapter": 42,
     "verse": 17,
-    "content": "(42-16) et mortuus est senex et plenus dierum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 42:16."
+        }
+      },
+      "et mortuus est senex et plenus dierum"
+    ]
   }
 ]

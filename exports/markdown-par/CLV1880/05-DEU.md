@@ -46,6 +46,7 @@
 <sup>44</sup> itaque egressus Amorreus qui habitabat in montibus et obviam veniens persecutus est vos sicut solent apes persequi et cecidit de Seir usque Horma
 <sup>45</sup> cumque reversi ploraretis coram Domino non audivit vos nec voci vestrae voluit adquiescere
 <sup>46</sup> sedistis ergo in Cadesbarne multo tempore
+
 ## Chapter 2
 
 <sup>1</sup> profectique inde venimus in solitudinem quae ducit ad mare Rubrum sicut mihi dixerat Dominus et circumivimus montem Seir longo tempore
@@ -85,6 +86,7 @@
 <sup>35</sup> absque iumentis quae in partem venere praedantium et spoliis urbium quas cepimus
 <sup>36</sup> ab Aroer quae est super ripam torrentis Arnon oppido quod in valle situm est usque Galaad non fuit vicus et civitas quae nostras effugeret manus omnes tradidit Dominus Deus noster nobis
 <sup>37</sup> absque terra filiorum Ammon ad quam non accessimus et cunctis quae adiacent torrenti Ieboc et urbibus montanis universisque locis a quibus nos prohibuit Dominus Deus noster
+
 ## Chapter 3
 
 <sup>1</sup> itaque conversi ascendimus per iter Basan egressusque est Og rex Basan in occursum nobis cum populo suo ad bellandum in Edrai
@@ -116,6 +118,7 @@
 <sup>27</sup> ascende cacumen Phasgae et oculos tuos circumfer ad occidentem et aquilonem austrumque et orientem et aspice nec enim transibis Iordanem istum
 <sup>28</sup> praecipe Iosue et corrobora eum atque conforta quia ipse praecedet populum istum et dividet eis terram quam visurus es
 <sup>29</sup> mansimusque in valle contra fanum Phogor
+
 ## Chapter 4
 
 <sup>1</sup> et nunc Israhel audi praecepta et iudicia quae ego doceo te ut faciens ea vivas et ingrediens possideas terram quam Dominus Deus patrum vestrorum daturus est vobis
@@ -167,6 +170,7 @@
 <sup>47</sup> possederunt terram eius et terram Og regis Basan duorum regum Amorreorum qui erant trans Iordanem ad solis ortum
 <sup>48</sup> ab Aroer quae sita est super ripam torrentis Arnon usque ad montem Sion qui est et Hermon
 <sup>49</sup> omnem planitiem trans Iordanem ad orientalem plagam usque ad mare Solitudinis et usque ad radices montis Phasga
+
 ## Chapter 5
 
 <sup>1</sup> vocavitque Moses omnem Israhelem et dixit ad eum audi Israhel caerimonias atque iudicia quae ego loquor in auribus vestris hodie discite ea et opere conplete
@@ -202,6 +206,7 @@
 <sup>31</sup> tu vero hic sta mecum et loquar tibi omnia mandata et caerimonias atque iudicia quae docebis eos ut faciant ea in terra quam dabo illis in possessionem
 <sup>32</sup> custodite igitur et facite quae praecepit Dominus Deus vobis non declinabitis neque ad dextram neque ad sinistram
 <sup>33</sup> sed per viam quam praecepit Dominus Deus vester ambulabitis ut vivatis et bene sit vobis et protelentur dies in terra possessionis vestrae
+
 ## Chapter 6
 
 <sup>1</sup> haec sunt praecepta et caerimoniae atque iudicia quae mandavit Dominus Deus vester ut docerem vos et faciatis ea in terra ad quam transgredimini possidendam
@@ -229,6 +234,7 @@
 <sup>23</sup> et eduxit nos inde ut introductis daret terram super qua iuravit patribus nostris
 <sup>24</sup> praecepitque nobis Dominus ut faciamus omnia legitima haec et timeamus Dominum Deum nostrum et bene sit nobis cunctis diebus vitae nostrae sicut est hodie
 <sup>25</sup> eritque nostri misericors si custodierimus et fecerimus omnia praecepta eius coram Domino Deo nostro sicut mandavit nobis
+
 ## Chapter 7
 
 <sup>1</sup> cum introduxerit te Dominus Deus tuus in terram quam possessurus ingredieris et deleverit gentes multas coram te Hettheum et Gergeseum et Amorreum Chananeum et Ferezeum et Eveum et Iebuseum septem gentes multo maioris numeri quam tu es et robustiores te
@@ -257,6 +263,7 @@
 <sup>24</sup> tradet reges eorum in manus tuas et disperdes nomina eorum sub caelo nullus poterit resistere tibi donec conteras eos
 <sup>25</sup> sculptilia eorum igne conbures non concupisces argentum et aurum de quibus facta sunt neque adsumes ex eis tibi quicquam ne offendas propter ea quia abominatio est Domini Dei tui
 <sup>26</sup> nec inferes quippiam ex idolo in domum tuam ne fias anathema sicut et illud est quasi spurcitiam detestaberis et velut inquinamentum ac sordes abominationi habebis quia anathema est
+
 ## Chapter 8
 
 <sup>1</sup> omne mandatum quod ego praecipio tibi hodie cave diligenter ut facias ut possitis vivere et multiplicemini ingressique possideatis terram pro qua iuravit Dominus patribus vestris
@@ -279,6 +286,7 @@
 <sup>18</sup> sed recorderis Domini Dei tui quod ipse tibi vires praebuerit ut impleret pactum suum super quo iuravit patribus tuis sicut praesens indicat dies
 <sup>19</sup> sin autem oblitus Domini Dei tui secutus fueris alienos deos coluerisque illos et adoraveris ecce nunc praedico tibi quod omnino dispereas
 <sup>20</sup> sicut gentes quas delevit Dominus in introitu tuo ita et vos peribitis si inoboedientes fueritis voci Domini Dei vestri
+
 ## Chapter 9
 
 <sup>1</sup> audi Israhel tu transgredieris hodie Iordanem ut possideas nationes maximas et fortiores te civitates ingentes et ad caelum usque muratas
@@ -310,6 +318,7 @@
 <sup>27</sup> recordare servorum tuorum Abraham Isaac et Iacob ne aspicias duritiam populi huius et impietatem atque peccatum
 <sup>28</sup> ne forte dicant habitatores terrae de qua eduxisti nos non poterat Dominus introducere eos in terram quam pollicitus est eis et oderat illos idcirco eduxit ut interficeret eos in solitudine
 <sup>29</sup> qui sunt populus tuus et hereditas tua quos eduxisti in fortitudine tua magna et in brachio tuo extento
+
 ## Chapter 10
 
 <sup>1</sup> in tempore illo dixit Dominus ad me dola tibi duas tabulas lapideas sicut priores fuerunt et ascende ad me in montem faciesque arcam ligneam
@@ -334,6 +343,7 @@
 <sup>20</sup> Dominum Deum tuum timebis et ei servies ipsi adherebis iurabisque in nomine illius
 <sup>21</sup> ipse est laus tua et Deus tuus qui fecit tibi haec magnalia et terribilia quae viderunt oculi tui
 <sup>22</sup> in septuaginta animabus descenderunt patres tui in Aegyptum et ecce nunc multiplicavit te Dominus Deus tuus sicut astra caeli
+
 ## Chapter 11
 
 <sup>1</sup> ama itaque Dominum Deum tuum et observa praecepta eius et caerimonias iudicia atque mandata omni tempore
@@ -368,6 +378,7 @@
 <sup>30</sup> qui sunt trans Iordanem post viam quae vergit ad solis occubitum in terra Chananei qui habitat in campestribus contra Galgalam quae est iuxta vallem tendentem et intrantem procul
 <sup>31</sup> vos enim transibitis Iordanem ut possideatis terram quam Dominus Deus vester daturus est vobis et habeatis ac possideatis illam
 <sup>32</sup> videte ergo ut impleatis caerimonias atque iudicia quae ego hodie ponam in conspectu vestro
+
 ## Chapter 12
 
 <sup>1</sup> haec sunt praecepta atque iudicia quae facere debetis in terra quam Dominus Deus patrum tuorum daturus est tibi ut possideas eam cunctis diebus quibus super humum gradieris
@@ -402,6 +413,7 @@
 <sup>30</sup> cave ne imiteris eas postquam te fuerint introeunte subversae et requiras caerimonias earum dicens sicut coluerunt gentes istae deos suos ita et ego colam
 <sup>31</sup> non facies similiter Domino Deo tuo omnes enim abominationes quas aversatur Dominus fecerunt diis suis offerentes filios et filias et conburentes igne
 <sup>32</sup> quod praecipio tibi hoc tantum facito Domino nec addas quicquam nec minuas
+
 ## Chapter 13
 
 <sup>1</sup> si surrexerit in medio tui prophetes aut qui somnium vidisse se dicat et praedixerit signum atque portentum
@@ -422,6 +434,7 @@
 <sup>16</sup> quicquid etiam supellectilis fuerit congregabis in medium platearum eius et cum ipsa civitate succendes ita ut universa consumas Domino Deo tuo et sit tumulus sempiternus non aedificabitur amplius
 <sup>17</sup> et non adherebit de illo anathemate quicquam in manu tua ut avertatur Dominus ab ira furoris sui et misereatur tui multiplicetque te sicut iuravit patribus tuis
 <sup>18</sup> quando audieris vocem Domini Dei tui custodiens omnia praecepta eius quae ego praecipio tibi hodie ut facias quod placitum est in conspectu Domini Dei tui
+
 ## Chapter 14
 
 <sup>1</sup> filii estote Domini Dei vestri non vos incidetis nec facietis calvitium super mortuo
@@ -453,6 +466,7 @@
 <sup>27</sup> et Levita qui intra portas tuas est cave ne derelinquas eum quia non habet aliam partem in possessione tua
 <sup>28</sup> anno tertio separabis aliam decimam ex omnibus quae nascuntur tibi eo tempore et repones intra ianuas tuas
 <sup>29</sup> venietque Levites qui aliam non habet partem nec possessionem tecum et peregrinus et pupillus ac vidua qui intra portas tuas sunt et comedent et saturabuntur ut benedicat tibi Dominus Deus tuus in cunctis operibus manuum tuarum quae feceris
+
 ## Chapter 15
 
 <sup>1</sup> septimo anno facies remissionem
@@ -478,6 +492,7 @@
 <sup>21</sup> sin autem habuerit maculam et vel claudum fuerit vel caecum aut in aliqua parte deforme vel debile non immolabitur Domino Deo tuo
 <sup>22</sup> sed intra portas urbis tuae comedes illud tam mundus quam inmundus similiter vescentur eis quasi caprea et cervo
 <sup>23</sup> hoc solum observabis ut sanguinem eorum non comedas sed effundas in terram quasi aquam
+
 ## Chapter 16
 
 <sup>1</sup> observa mensem novarum frugum et verni primum temporis ut facias phase Domino Deo tuo quoniam in isto mense eduxit te Dominus Deus tuus de Aegypto nocte
@@ -502,6 +517,7 @@
 <sup>20</sup> iuste quod iustum est persequeris ut vivas et possideas terram quam Dominus Deus tuus dederit tibi
 <sup>21</sup> non plantabis lucum et omnem arborem iuxta altare Domini Dei tui
 <sup>22</sup> nec facies tibi atque constitues statuam quae odit Dominus Deus tuus
+
 ## Chapter 17
 
 <sup>1</sup> non immolabis Domino Deo tuo bovem et ovem in quo est macula aut quippiam vitii quia abominatio est Domini Dei tui
@@ -524,6 +540,7 @@
 <sup>18</sup> postquam autem sederit in solio regni sui describet sibi deuteronomium legis huius in volumine accipiens exemplar a sacerdotibus leviticae tribus
 <sup>19</sup> et habebit secum legetque illud omnibus diebus vitae suae ut discat timere Dominum Deum suum et custodire verba et caerimonias eius quae lege praecepta sunt
 <sup>20</sup> nec elevetur cor eius in superbiam super fratres suos neque declinet in partem dextram vel sinistram ut longo tempore regnet ipse et filii eius super Israhel
+
 ## Chapter 18
 
 <sup>1</sup> non habebunt sacerdotes et Levitae et omnes qui de eadem tribu sunt partem et hereditatem cum reliquo Israhel quia sacrificia Domini et oblationes eius comedent
@@ -548,6 +565,7 @@
 <sup>20</sup> propheta autem qui arrogantia depravatus voluerit loqui in nomine meo quae ego non praecepi illi ut diceret aut ex nomine alienorum deorum interficietur
 <sup>21</sup> quod si tacita cogitatione responderis quomodo possum intellegere verbum quod non est locutus Dominus
 <sup>22</sup> hoc habebis signum quod in nomine Domini propheta ille praedixerit et non evenerit hoc Dominus non locutus est sed per tumorem animi sui propheta confinxit et idcirco non timebis eum
+
 ## Chapter 19
 
 <sup>1</sup> cum disperderit Dominus Deus tuus gentes quarum tibi traditurus est terram et possederis eam habitaverisque in urbibus eius et in aedibus
@@ -571,6 +589,7 @@
 <sup>19</sup> reddent ei sicut fratri suo facere cogitavit et auferes malum de medio tui
 <sup>20</sup> ut audientes ceteri timorem habeant et nequaquam talia audeant facere
 <sup>21</sup> non misereberis eius sed animam pro anima oculum pro oculo dentem pro dente manum pro manu pedem pro pede exiges
+
 ## Chapter 20
 
 <sup>1</sup> si exieris ad bellum contra hostes tuos et videris equitatum et currus et maiorem quam tu habes adversarii exercitus multitudinem non timebis eos quia Dominus Deus tuus tecum est qui eduxit te de terra Aegypti
@@ -593,6 +612,7 @@
 <sup>18</sup> ne forte doceant vos facere cunctas abominationes quas ipsi operati sunt diis suis et peccetis in Dominum Deum vestrum
 <sup>19</sup> quando obsederis civitatem multo tempore et munitionibus circumdederis ut expugnes eam non succides arbores de quibus vesci potest nec securibus per circuitum debes vastare regionem quoniam lignum est et non homo nec potest bellantium contra te augere numerum
 <sup>20</sup> si qua autem ligna non sunt pomifera sed agrestia et in ceteros apta usus succide et extrue machinas donec capias civitatem quae contra te dimicat
+
 ## Chapter 21
 
 <sup>1</sup> quando inventum fuerit in terra quam Dominus Deus tuus daturus est tibi hominis cadaver occisi et ignoratur caedis reus
@@ -618,6 +638,7 @@
 <sup>21</sup> lapidibus eum obruet populus civitatis et morietur ut auferatis malum de medio vestri et universus Israhel audiens pertimescat
 <sup>22</sup> quando peccaverit homo quod morte plectendum est et adiudicatus morti adpensus fuerit in patibulo
 <sup>23</sup> non permanebit cadaver eius in ligno sed in eadem die sepelietur quia maledictus a Deo est qui pendet in ligno et nequaquam contaminabis terram tuam quam Dominus Deus tuus dederit tibi in possessionem
+
 ## Chapter 22
 
 <sup>1</sup> non videbis bovem fratris tui aut ovem errantem et praeteribis sed reduces fratri tuo
@@ -650,6 +671,7 @@
 <sup>28</sup> si invenerit vir puellam virginem quae non habet sponsum et adprehendens concubuerit cum ea et res ad iudicium venerit
 <sup>29</sup> dabit qui dormivit cum ea patri puellae quinquaginta siclos argenti et habebit eam uxorem quia humiliavit illam non poterit dimittere cunctis diebus vitae suae
 <sup>30</sup> non accipiet homo uxorem patris sui nec revelabit operimentum eius
+
 ## Chapter 23
 
 <sup>1</sup> non intrabit eunuchus adtritis vel amputatis testiculis et absciso veretro ecclesiam Domini
@@ -677,6 +699,7 @@
 <sup>23</sup> quod autem semel egressum est de labiis tuis observabis et facies sicut promisisti Domino Deo tuo et propria voluntate et ore tuo locutus es
 <sup>24</sup> ingressus vineam proximi tui comede uvas quantum tibi placuerit foras autem ne efferas tecum
 <sup>25</sup> si intraveris in segetem amici tui franges spicas et manu conteres falce autem non metes
+
 ## Chapter 24
 
 <sup>1</sup> si acceperit homo uxorem et habuerit eam et non invenerit gratiam ante oculos eius propter aliquam foeditatem scribet libellum repudii et dabit in manu illius et dimittet eam de domo sua
@@ -701,6 +724,7 @@
 <sup>20</sup> si fruges colliges olivarum quicquid remanserit in arboribus non reverteris ut colligas sed relinques advenae pupillo ac viduae
 <sup>21</sup> si vindemiaveris vineam tuam non colliges remanentes racemos sed cedent in usus advenae pupilli ac viduae
 <sup>22</sup> memento quod et tu servieris in Aegypto et idcirco praecipiam tibi ut facias hanc rem
+
 ## Chapter 25
 
 <sup>1</sup> si fuerit causa inter aliquos et interpellaverint iudices quem iustum esse perspexerint illi iustitiae palmam dabunt quem impium condemnabunt impietatis
@@ -722,6 +746,7 @@
 <sup>17</sup> memento quae fecerit tibi Amalech in via quando egrediebaris ex Aegypto
 <sup>18</sup> quomodo occurrerit tibi et extremos agminis tui qui lassi residebant ceciderit quando tu eras fame et labore confectus et non timuerit Deum
 <sup>19</sup> cum ergo Dominus Deus tuus dederit tibi requiem et subiecerit cunctas per circuitum nationes in terra quam tibi pollicitus est delebis nomen eius sub caelo cave ne obliviscaris
+
 ## Chapter 26
 
 <sup>1</sup> cumque intraveris terram quam Dominus Deus tuus tibi daturus est possidendam et obtinueris eam atque habitaveris in illa
@@ -743,6 +768,7 @@
 <sup>17</sup> Dominum elegisti hodie ut sit tibi Deus et ambules in viis eius et custodias caerimonias illius et mandata atque iudicia et oboedias eius imperio
 <sup>18</sup> et Dominus elegit te hodie ut sis ei populus peculiaris sicut locutus est tibi et custodias omnia praecepta eius
 <sup>19</sup> et faciat te excelsiorem cunctis gentibus quas creavit in laudem et nomen et gloriam suam ut sis populus sanctus Domini Dei tui sicut locutus est
+
 ## Chapter 27
 
 <sup>1</sup> praecepit autem Moses et seniores Israhel populo dicentes custodite omne mandatum quod praecipio vobis hodie
@@ -771,6 +797,7 @@
 <sup>24</sup> maledictus qui clam percusserit proximum suum et dicet omnis populus amen
 <sup>25</sup> maledictus qui accipit munera ut percutiat animam sanguinis innocentis et dicet omnis populus amen
 <sup>26</sup> maledictus qui non permanet in sermonibus legis huius nec eos opere perficit et dicet omnis populus amen
+
 ## Chapter 28
 
 <sup>1</sup> sin autem audieris vocem Domini Dei tui ut facias atque custodias omnia mandata eius quae ego praecipio tibi hodie faciet te Dominus Deus tuus excelsiorem cunctis gentibus quae versantur in terra
@@ -841,6 +868,7 @@
 <sup>66</sup> et erit vita tua quasi pendens ante te timebis nocte et die et non credes vitae tuae
 <sup>67</sup> mane dices quis mihi det vesperum et vespere quis mihi det mane propter cordis tui formidinem qua terreberis et propter ea quae tuis videbis oculis
 <sup>68</sup> reducet te Dominus classibus in Aegyptum per viam de qua dixi tibi ut eam amplius non videres ibi venderis inimicis tuis in servos et ancillas et non erit qui emat
+
 ## Chapter 29
 
 <sup>1</sup> haec sunt verba foederis quod praecepit Dominus Mosi ut feriret cum filiis Israhel in terra Moab praeter illud foedus quod cum eis pepigit in Horeb
@@ -872,6 +900,7 @@
 <sup>27</sup> idcirco iratus est furor Domini contra terram istam ut induceret super eam omnia maledicta quae in hoc volumine scripta sunt
 <sup>28</sup> et eiecit eos de terra sua in ira et furore et indignatione maxima proiecitque in terram alienam sicut hodie conprobatur
 <sup>29</sup> abscondita Domino Deo nostro quae manifesta sunt nobis et filiis nostris usque in aeternum ut faciamus universa legis huius
+
 ## Chapter 30
 
 <sup>1</sup> cum ergo venerint super te omnes sermones isti benedictio sive maledictio quam proposui in conspectu tuo et ductus paenitudine cordis tui in universis gentibus in quas disperserit te Dominus Deus tuus
@@ -894,6 +923,7 @@
 <sup>18</sup> praedico tibi hodie quod pereas et parvo tempore moreris in terra ad quam Iordane transmisso ingredieris possidendam
 <sup>19</sup> testes invoco hodie caelum et terram quod proposuerim vobis vitam et mortem bonum et malum benedictionem et maledictionem elige ergo vitam ut et tu vivas et semen tuum
 <sup>20</sup> et diligas Dominum Deum tuum atque oboedias voci eius et illi adhereas ipse est enim vita tua et longitudo dierum tuorum ut habites in terra pro qua iuravit Dominus patribus tuis Abraham Isaac et Iacob ut daret eam illis
+
 ## Chapter 31
 
 <sup>1</sup> abiit itaque Moses et locutus est omnia verba haec ad universum Israhel
@@ -926,6 +956,7 @@
 <sup>28</sup> congregate ad me omnes maiores natu per tribus vestras atque doctores et loquar audientibus eis sermones istos et invocabo contra eos caelum et terram
 <sup>29</sup> novi enim quod post mortem meam inique agetis et declinabitis cito de via quam praecepi vobis et occurrent vobis mala in extremo tempore quando feceritis malum in conspectu Domini ut inritetis eum per opera manuum vestrarum
 <sup>30</sup> locutus est ergo Moses audiente universo coetu Israhel verba carminis huius et ad finem usque conplevit
+
 ## Chapter 32
 
 <sup>1</sup> audite caeli quae loquor audiat terra verba oris mei
@@ -980,6 +1011,7 @@
 <sup>50</sup> quem conscendens iungeris populis tuis sicut mortuus est Aaron frater tuus in monte Hor et adpositus populis suis
 <sup>51</sup> quia praevaricati estis contra me in medio filiorum Israhel ad aquas Contradictionis in Cades deserti Sin et non sanctificastis me inter filios Israhel
 <sup>52</sup> e contra videbis terram et non ingredieris in eam quam ego dabo filiis Israhel
+
 ## Chapter 33
 
 <sup>1</sup> haec est benedictio qua benedixit Moses homo Dei filiis Israhel ante mortem suam
@@ -1011,6 +1043,7 @@
 <sup>27</sup> habitaculum eius sursum et subter brachia sempiterna eiciet a facie tua inimicum dicetque conterere
 <sup>28</sup> habitabit Israhel confidenter et solus oculus Iacob in terra frumenti et vini caelique caligabunt rore
 <sup>29</sup> beatus tu Israhel quis similis tui popule qui salvaris in Domino scutum auxilii tui et gladius gloriae tuae negabunt te inimici tui et tu eorum colla calcabis
+
 ## Chapter 34
 
 <sup>1</sup> ascendit ergo Moses de campestribus Moab super montem Nebo in verticem Phasga contra Hiericho ostenditque ei Dominus omnem terram Galaad usque Dan

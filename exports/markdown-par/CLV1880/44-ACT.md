@@ -26,6 +26,7 @@
 <sup>24</sup> et orantes dixerunt tu Domine qui corda nosti omnium ostende quem elegeris ex his duobus unum
 <sup>25</sup> accipere locum ministerii huius et apostolatus de quo praevaricatus est Iudas ut abiret in locum suum
 <sup>26</sup> et dederunt sortes eis et cecidit sors super Matthiam et adnumeratus est cum undecim apostolis
+
 ## Chapter 2
 
 <sup>1</sup> et cum conplerentur dies pentecostes erant omnes pariter in eodem loco
@@ -75,6 +76,7 @@
 <sup>45</sup> possessiones et substantias vendebant et dividebant illa omnibus prout cuique opus erat
 <sup>46</sup> cotidie quoque perdurantes unianimiter in templo et frangentes circa domos panem sumebant cibum cum exultatione et simplicitate cordis
 <sup>47</sup> conlaudantes Deum et habentes gratiam ad omnem plebem Dominus autem augebat qui salvi fierent cotidie in id ipsum
+
 ## Chapter 3
 
 <sup>1</sup> Petrus autem et Iohannes ascendebant in templum ad horam orationis nonam
@@ -103,6 +105,7 @@
 <sup>24</sup> et omnes prophetae a Samuhel et deinceps qui locuti sunt et adnuntiaverunt dies istos
 <sup>25</sup> vos estis filii prophetarum et testamenti quod disposuit Deus ad patres vestros dicens ad Abraham et in semine tuo benedicentur omnes familiae terrae
 <sup>26</sup> vobis primum Deus suscitans Filium suum misit eum benedicentem vobis ut convertat se unusquisque a nequitia sua
+
 ## Chapter 4
 
 <sup>1</sup> loquentibus autem illis ad populum supervenerunt sacerdotes et magistratus templi et Sadducaei
@@ -142,6 +145,7 @@
 <sup>35</sup> et ponebant ante pedes apostolorum dividebantur autem singulis prout cuique opus erat
 <sup>36</sup> Ioseph autem qui cognominatus est Barnabas ab apostolis quod est interpretatum Filius consolationis Levites Cyprius genere
 <sup>37</sup> cum haberet agrum vendidit illum et adtulit pretium et posuit ante pedes apostolorum
+
 ## Chapter 5
 
 <sup>1</sup> vir autem quidam nomine Ananias cum Saffira uxore sua vendidit agrum
@@ -186,6 +190,7 @@
 <sup>40</sup> et convocantes apostolos caesis denuntiaverunt ne loquerentur in nomine Iesu et dimiserunt eos
 <sup>41</sup> et illi quidem ibant gaudentes a conspectu concilii quoniam digni habiti sunt pro nomine Iesu contumeliam pati
 <sup>42</sup> omni autem die in templo et circa domos non cessabant docentes et evangelizantes Christum Iesum
+
 ## Chapter 6
 
 <sup>1</sup> in diebus autem illis crescente numero discipulorum factus est murmur Graecorum adversus Hebraeos eo quod dispicerentur in ministerio cotidiano viduae eorum
@@ -203,6 +208,7 @@
 <sup>13</sup> et statuerunt testes falsos dicentes homo iste non cessat loqui verba adversus locum sanctum et legem
 <sup>14</sup> audivimus enim eum dicentem quoniam Iesus Nazarenus hic destruet locum istum et mutabit traditiones quas tradidit nobis Moses
 <sup>15</sup> et intuentes eum omnes qui sedebant in concilio viderunt faciem eius tamquam faciem angeli
+
 ## Chapter 7
 
 <sup>1</sup> dixit autem princeps sacerdotum si haec ita se habent
@@ -265,6 +271,7 @@
 <sup>58</sup> et eicientes eum extra civitatem lapidabant et testes deposuerunt vestimenta sua secus pedes adulescentis qui vocabatur Saulus
 <sup>59</sup> et lapidabant Stephanum invocantem et dicentem Domine Iesu suscipe spiritum meum
 <sup>60</sup> positis autem genibus clamavit voce magna Domine ne statuas illis hoc peccatum et cum hoc dixisset obdormivit Saulus autem erat consentiens neci eius
+
 ## Chapter 8
 
 <sup>1</sup> facta est autem in illa die persecutio magna in ecclesia quae erat Hierosolymis et omnes dispersi sunt per regiones Iudaeae et Samariae praeter apostolos
@@ -306,6 +313,7 @@
 <sup>38</sup> et iussit stare currum et descenderunt uterque in aquam Philippus et eunuchus et baptizavit eum
 <sup>39</sup> cum autem ascendissent de aqua Spiritus Domini rapuit Philippum et amplius non vidit eum eunuchus ibat enim per viam suam gaudens
 <sup>40</sup> Philippus autem inventus est in Azoto et pertransiens evangelizabat civitatibus cunctis donec veniret Caesaream
+
 ## Chapter 9
 
 <sup>1</sup> Saulus autem adhuc inspirans minarum et caedis in discipulos Domini accessit ad principem sacerdotum
@@ -350,6 +358,7 @@
 <sup>41</sup> dans autem illi manum erexit eam et cum vocasset sanctos et viduas adsignavit eam vivam
 <sup>42</sup> notum autem factum est per universam Ioppen et crediderunt multi in Domino
 <sup>43</sup> factum est autem ut dies multos moraretur in Ioppe apud quendam Simonem coriarium
+
 ## Chapter 10
 
 <sup>1</sup> vir autem quidam erat in Caesarea nomine Cornelius centurio cohortis quae dicitur Italica
@@ -400,6 +409,7 @@
 <sup>46</sup> audiebant enim illos loquentes linguis et magnificantes Deum
 <sup>47</sup> tunc respondit Petrus numquid aquam quis prohibere potest ut non baptizentur hii qui Spiritum Sanctum acceperunt sicut et nos
 <sup>48</sup> et iussit eos in nomine Iesu Christi baptizari tunc rogaverunt eum ut maneret aliquot diebus
+
 ## Chapter 11
 
 <sup>1</sup> audierunt autem apostoli et fratres qui erant in Iudaea quoniam et gentes receperunt verbum Dei
@@ -432,6 +442,7 @@
 <sup>28</sup> et surgens unus ex eis nomine Agabus significabat per Spiritum famem magnam futuram in universo orbe terrarum quae facta est sub Claudio
 <sup>29</sup> discipuli autem prout quis habebat proposuerunt singuli eorum in ministerium mittere habitantibus in Iudaea fratribus
 <sup>30</sup> quod et fecerunt mittentes ad seniores per manus Barnabae et Sauli
+
 ## Chapter 12
 
 <sup>1</sup> eodem autem tempore misit Herodes rex manus ut adfligeret quosdam de ecclesia
@@ -459,6 +470,7 @@
 <sup>23</sup> confestim autem percussit eum angelus Domini eo quod non dedisset honorem Deo et consumptus a vermibus exspiravit
 <sup>24</sup> verbum autem Domini crescebat et multiplicabatur
 <sup>25</sup> Barnabas autem et Saulus reversi sunt ab Hierosolymis expleto ministerio adsumpto Iohanne qui cognominatus est Marcus
+
 ## Chapter 13
 
 <sup>1</sup> erant autem in ecclesia quae erat Antiochiae prophetae et doctores in quibus Barnabas et Symeon qui vocabatur Niger et Lucius Cyrenensis et Manaen qui erat Herodis tetrarchae conlactaneus et Saulus
@@ -513,6 +525,7 @@
 <sup>50</sup> Iudaei autem concitaverunt religiosas mulieres et honestas et primos civitatis et excitaverunt persecutionem in Paulum et Barnaban et eiecerunt eos de finibus suis
 <sup>51</sup> at illi excusso pulvere pedum in eos venerunt Iconium
 <sup>52</sup> discipuli quoque replebantur gaudio et Spiritu Sancto
+
 ## Chapter 14
 
 <sup>1</sup> factum est autem Iconii ut simul introirent synagogam Iudaeorum et loquerentur ita ut crederet Iudaeorum et Graecorum copiosa multitudo
@@ -543,6 +556,7 @@
 <sup>26</sup> et inde navigaverunt Antiochiam unde erant traditi gratiae Dei in opus quod conpleverunt
 <sup>27</sup> cum autem venissent et congregassent ecclesiam rettulerunt quanta fecisset Deus cum illis quia aperuisset gentibus ostium fidei
 <sup>28</sup> morati sunt autem tempus non modicum cum discipulis
+
 ## Chapter 15
 
 <sup>1</sup> et quidam descendentes de Iudaea docebant fratres quia nisi circumcidamini secundum morem Mosi non potestis salvi fieri
@@ -585,6 +599,7 @@
 <sup>39</sup> facta est autem dissensio ita ut discederent ab invicem et Barnabas adsumpto Marco navigaret Cyprum
 <sup>40</sup> Paulus vero electo Sila profectus est traditus gratiae Domini a fratribus
 <sup>41</sup> perambulabat autem Syriam et Ciliciam confirmans ecclesias
+
 ## Chapter 16
 
 <sup>1</sup> pervenit autem in Derben et Lystram et ecce discipulus quidam erat ibi nomine Timotheus filius mulieris iudaeae fidelis patre gentili
@@ -627,6 +642,7 @@
 <sup>38</sup> et ipsi nos eiciant nuntiaverunt autem magistratibus lictores verba haec timueruntque audito quod Romani essent
 <sup>39</sup> et venientes deprecati sunt eos et educentes rogabant ut egrederentur urbem
 <sup>40</sup> exeuntes autem de carcere introierunt ad Lydiam et visis fratribus consolati sunt eos et profecti sunt
+
 ## Chapter 17
 
 <sup>1</sup> cum autem perambulassent Amphipolim et Apolloniam venerunt Thessalonicam ubi erat synagoga Iudaeorum
@@ -663,6 +679,7 @@
 <sup>32</sup> cum audissent autem resurrectionem mortuorum quidam quidem inridebant quidam vero dixerunt audiemus te de hoc iterum
 <sup>33</sup> sic Paulus exivit de medio eorum
 <sup>34</sup> quidam vero viri adherentes ei crediderunt in quibus et Dionisius Ariopagita et mulier nomine Damaris et alii cum eis
+
 ## Chapter 18
 
 <sup>1</sup> post haec egressus ab Athenis venit Corinthum
@@ -692,6 +709,7 @@
 <sup>26</sup> hic ergo coepit fiducialiter agere in synagoga quem cum audissent Priscilla et Aquila adsumpserunt eum et diligentius exposuerunt ei viam Dei
 <sup>27</sup> cum autem vellet ire Achaiam exhortati fratres scripserunt discipulis ut susciperent eum qui cum venisset contulit multum his qui crediderant
 <sup>28</sup> vehementer enim Iudaeos revincebat publice ostendens per scripturas esse Christum Iesum
+
 ## Chapter 19
 
 <sup>1</sup> factum est autem cum Apollo esset Corinthi ut Paulus peragratis superioribus partibus veniret Ephesum et inveniret quosdam discipulos
@@ -734,7 +752,10 @@
 <sup>38</sup> quod si Demetrius et qui cum eo sunt artifices habent adversus aliquem causam conventus forenses aguntur et pro consulibus sunt accusent invicem
 <sup>39</sup> si quid autem alterius rei quaeritis in legitima ecclesia poterit absolvi
 <sup>40</sup> nam et periclitamur argui seditionis hodiernae cum nullus obnoxius sit de quo non possimus reddere rationem concursus istius
-<sup>41</sup> [verse]19:40[/verse] et cum haec dixisset dimisit ecclesiam
+<sup>41</sup> <sup>a</sup>et cum haec dixisset dimisit ecclesiam
+
+> - <sup>a</sup> 41. Originally verse 19:40.
+
 ## Chapter 20
 
 <sup>1</sup> postquam autem cessavit tumultus vocatis Paulus discipulis et exhortatus eos valedixit et profectus est ut iret in Macedoniam
@@ -775,6 +796,7 @@
 <sup>36</sup> et cum haec dixisset positis genibus suis cum omnibus illis oravit
 <sup>37</sup> magnus autem fletus factus est omnium et procumbentes super collum Pauli osculabantur eum
 <sup>38</sup> dolentes maxime in verbo quo dixerat quoniam amplius faciem eius non essent visuri et deducebant eum ad navem
+
 ## Chapter 21
 
 <sup>1</sup> cum autem factum esset ut navigaremus abstracti ab eis recto cursu venimus Cho et sequenti die Rhodum et inde Patara
@@ -817,6 +839,7 @@
 <sup>38</sup> nonne tu es Aegyptius qui ante hos dies tumultum concitasti et eduxisti in desertum quattuor milia virorum sicariorum
 <sup>39</sup> et dixit ad eum Paulus ego homo sum quidem iudaeus a Tarso Ciliciae non ignotae civitatis municeps rogo autem te permitte mihi loqui ad populum
 <sup>40</sup> et cum ille permisisset Paulus stans in gradibus annuit manu ad plebem et magno silentio facto adlocutus est hebraea lingua dicens
+
 ## Chapter 22
 
 <sup>1</sup> viri fratres et patres audite quam ad vos nunc reddo rationem
@@ -849,6 +872,7 @@
 <sup>28</sup> et respondit tribunus ego multa summa civitatem hanc consecutus sum et Paulus ait ego autem et natus sum
 <sup>29</sup> protinus ergo discesserunt ab illo qui eum torturi erant tribunus quoque timuit postquam rescivit quia civis romanus esset et quia alligasset eum
 <sup>30</sup> postera autem die volens scire diligentius qua ex causa accusaretur a Iudaeis solvit eum et iussit sacerdotes convenire et omne concilium et producens Paulum statuit inter illos
+
 ## Chapter 23
 
 <sup>1</sup> intendens autem concilium Paulus ait viri fratres ego omni conscientia bona conversatus sum ante Deum usque in hodiernum diem
@@ -885,6 +909,7 @@
 <sup>33</sup> qui cum venissent Caesaream et tradidissent epistulam praesidi statuerunt ante illum et Paulum
 <sup>34</sup> cum legisset autem et interrogasset de qua provincia esset et cognoscens quia de Cilicia
 <sup>35</sup> audiam te inquit cum et accusatores tui venerint iussitque in praetorio Herodis custodiri eum
+
 ## Chapter 24
 
 <sup>1</sup> post quinque autem dies descendit princeps sacerdotum Ananias cum senioribus quibusdam et Tertullo quodam oratore qui adierunt praesidem adversus Paulum
@@ -913,6 +938,7 @@
 <sup>25</sup> disputante autem illo de iustitia et castitate et de iudicio futuro timefactus Felix respondit quod nunc adtinet vade tempore autem oportuno accersiam te
 <sup>26</sup> simul et sperans quia pecunia daretur a Paulo propter quod et frequenter accersiens eum loquebatur cum eo
 <sup>27</sup> biennio autem expleto accepit successorem Felix Porcium Festum volens autem gratiam praestare Iudaeis Felix reliquit Paulum vinctum
+
 ## Chapter 25
 
 <sup>1</sup> Festus ergo cum venisset in provinciam post triduum ascendit Hierosolymam a Caesarea
@@ -942,6 +968,7 @@
 <sup>25</sup> ego vero conperi nihil dignum eum morte admisisse ipso autem hoc appellante Augustum iudicavi mittere
 <sup>26</sup> de quo quid certum scribam domino non habeo propter quod produxi eum ad vos et maxime ad te rex Agrippa ut interrogatione facta habeam quid scribam
 <sup>27</sup> sine ratione enim mihi videtur mittere vinctum et causas eius non significare
+
 ## Chapter 26
 
 <sup>1</sup> Agrippa vero ad Paulum ait permittitur tibi loqui pro temet ipso tunc Paulus extenta manu coepit rationem reddere
@@ -976,6 +1003,7 @@
 <sup>30</sup> et exsurrexit rex et praeses et Bernice et qui adsidebant eis
 <sup>31</sup> et cum secessissent loquebantur ad invicem dicentes quia nihil morte aut vinculorum dignum quid facit homo iste
 <sup>32</sup> Agrippa autem Festo dixit dimitti poterat homo hic si non appellasset Caesarem
+
 ## Chapter 27
 
 <sup>1</sup> ut autem iudicatum est eum navigare in Italiam et tradi Paulum cum reliquis custodiis centurioni nomine Iulio cohortis Augustae
@@ -1022,6 +1050,7 @@
 <sup>42</sup> militum autem consilium fuit ut custodias occiderent ne quis cum enatasset effugeret
 <sup>43</sup> centurio autem volens servare Paulum prohibuit fieri iussitque eos qui possent natare mittere se primos et evadere et ad terram exire
 <sup>44</sup> et ceteros alios in tabulis ferebant quosdam super ea quae de navi essent et sic factum est ut omnes animae evaderent ad terram
+
 ## Chapter 28
 
 <sup>1</sup> et cum evasissemus tunc cognovimus quia Militene insula vocatur barbari vero praestabant non modicam humanitatem nobis

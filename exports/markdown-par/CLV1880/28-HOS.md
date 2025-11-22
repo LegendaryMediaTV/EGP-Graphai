@@ -11,6 +11,7 @@
 <sup>9</sup> et dixit voca nomen eius Non populus meus quia vos non populus meus et ego non ero vester
 <sup>10</sup> et erit numerus filiorum Israhel quasi harena maris quae sine mensura est et non numerabitur et erit in loco ubi dicetur eis non populus meus vos dicetur eis filii Dei viventis
 <sup>11</sup> et congregabuntur filii Iuda et filii Israhel pariter et ponent sibimet caput unum et ascendent de terra quia magnus dies Hiezrahel
+
 ## Chapter 2
 
 <sup>1</sup> dicite fratribus vestris Populus meus et sorori vestrae Misericordiam consecuta
@@ -35,7 +36,10 @@
 <sup>20</sup> et sponsabo te mihi in fide et scies quia ego Dominus
 <sup>21</sup> et erit in illa die exaudiam dicit Dominus exaudiam caelos et illi exaudient terram
 <sup>22</sup> et terra exaudiet triticum et vinum et oleum et haec exaudient Hiezrahel
-<sup>23</sup> et seminabo eam mihi in terram et miserebor eius quae fuit absque misericordia (2-24) et dicam non populo meo populus meus tu et ipse dicet Dominus meus es tu
+<sup>23</sup> et seminabo eam mihi in terram et miserebor eius quae fuit absque misericordia <sup>a</sup>et dicam non populo meo populus meus tu et ipse dicet Dominus meus es tu
+
+> - <sup>a</sup> 23. Originally verse 2:24.
+
 ## Chapter 3
 
 <sup>1</sup> et dixit Dominus ad me adhuc vade dilige mulierem dilectam amico et adulteram sicut diligit Dominus filios Israhel et ipsi respectant ad deos alienos et diligunt vinacea uvarum
@@ -43,6 +47,7 @@
 <sup>3</sup> et dixi ad eam dies multos expectabis me non fornicaberis et non eris viro sed et ego expectabo te
 <sup>4</sup> quia dies multos sedebunt filii Israhel sine rege et sine principe et sine sacrificio et sine altari et sine ephod et sine therafin
 <sup>5</sup> et post haec revertentur filii Israhel et quaerent Dominum Deum suum et David regem suum et pavebunt ad Dominum et ad bonum eius in novissimo dierum
+
 ## Chapter 4
 
 <sup>1</sup> audite verbum Domini filii Israhel quia iudicium Domino cum habitatoribus terrae non est enim veritas et non est misericordia et non est scientia Dei in terra
@@ -64,6 +69,7 @@
 <sup>17</sup> particeps idolorum Ephraim dimitte eum
 <sup>18</sup> separatum est convivium eorum fornicatione fornicati sunt dilexerunt adferre ignominiam protectores eius
 <sup>19</sup> ligavit spiritus eam in alis suis et confundentur a sacrificiis suis
+
 ## Chapter 5
 
 <sup>1</sup> audite hoc sacerdotes et adtendite domus Israhel et domus regis auscultate quia vobis iudicium est quoniam laqueus facti estis speculationi et rete expansum super Thabor
@@ -81,6 +87,7 @@
 <sup>13</sup> et vidit Ephraim languorem suum et Iudas vinculum suum et abiit Ephraim ad Assur et misit ad regem ultorem et ipse non poterit sanare vos nec solvere poterit a vobis vinculum
 <sup>14</sup> quoniam ego quasi leaena Ephraim et quasi catulus leonis domui Iuda ego ego capiam et vadam tollam et non est qui eruat
 <sup>15</sup> vadens revertar ad locum meum donec deficiatis et quaeratis faciem meam
+
 ## Chapter 6
 
 <sup>1</sup> in tribulatione sua mane consurgunt ad me venite et revertamur ad Dominum
@@ -94,6 +101,7 @@
 <sup>9</sup> et quasi fauces virorum latronum particeps sacerdotum in via interficientium pergentes de Sychem quia scelus operati sunt
 <sup>10</sup> in domo Israhel vidi horrendum ibi fornicationes Ephraim contaminatus est Israhel
 <sup>11</sup> sed et Iuda pone messem tibi cum convertero captivitatem populi mei
+
 ## Chapter 7
 
 <sup>1</sup> cum sanare vellem Israhel revelata est iniquitas Ephraim et malitia Samariae quia operati sunt mendacium et fur ingressus est spolians latrunculus foris
@@ -112,6 +120,7 @@
 <sup>14</sup> et non clamaverunt ad me in corde suo sed ululabant in cubilibus suis super triticum et vinum ruminabant recesserunt a me
 <sup>15</sup> et ego erudivi et confortavi brachia eorum et in me cogitaverunt malitiam
 <sup>16</sup> reversi sunt ut essent absque iugo facti sunt quasi arcus dolosus cadent in gladio principes eorum a furore linguae suae ista subsannatio eorum in terra Aegypti
+
 ## Chapter 8
 
 <sup>1</sup> in gutture tuo sit tuba quasi aquila super domum Domini pro eo quod transgressi sunt foedus meum et legem meam praevaricati sunt
@@ -128,6 +137,7 @@
 <sup>12</sup> scribam ei multiplices leges meas quae velut alienae conputatae sunt
 <sup>13</sup> hostias adfer adfer immolabunt carnes et comedent Dominus non suscipiet eas nunc recordabitur iniquitatis eorum et visitabit peccata eorum ipsi in Aegyptum convertentur
 <sup>14</sup> et oblitus est Israhel factoris sui et aedificavit delubra et Iudas multiplicavit urbes munitas et mittam ignem in civitates eius et devorabit aedes illius
+
 ## Chapter 9
 
 <sup>1</sup> noli laetari Israhel noli exultare sicut populi quia fornicatus es a Deo tuo dilexisti mercedem super omnes areas tritici
@@ -147,6 +157,7 @@
 <sup>15</sup> omnes nequitiae eorum in Galgal quia ibi exosos habui eos propter malitiam adinventionum eorum de domo mea eiciam eos non addam ut diligam eos omnes principes eorum recedentes
 <sup>16</sup> percussus est Ephraim radix eorum exsiccata est fructum nequaquam facient quod si et genuerint interficiam amantissima uteri eorum
 <sup>17</sup> abiciet eos Deus meus quia non audierunt eum et erunt vagi in nationibus
+
 ## Chapter 10
 
 <sup>1</sup> vitis frondosa Israhel fructus adaequatus est ei secundum multitudinem fructus sui multiplicavit altaria iuxta ubertatem terrae suae exuberavit simulacris
@@ -164,6 +175,7 @@
 <sup>13</sup> arastis impietatem iniquitatem messuistis comedistis frugem mendacii quia confisus es in viis tuis in multitudine fortium tuorum
 <sup>14</sup> consurget tumultus in populo tuo et omnes munitiones tuae vastabuntur sicut vastatus est Salman a domo eius qui iudicavit Baal in die proelii matre super filios adlisa
 <sup>15</sup> sic fecit vobis Bethel a facie malitiae nequitiarum vestrarum
+
 ## Chapter 11
 
 <sup>1</sup> sicuti mane transit pertransiit rex Israhel quia puer Israhel et dilexi eum et ex Aegypto vocavi filium meum
@@ -178,6 +190,7 @@
 <sup>10</sup> post Dominum ambulabunt quasi leo rugiet quia ipse rugiet et formidabunt filii maris
 <sup>11</sup> et avolabunt quasi avis ex Aegypto et quasi columba de terra Assyriorum et conlocabo eos in domibus suis dicit Dominus
 <sup>12</sup> circumdedit me in negatione Ephraim et in dolo domus Israhel Iudas autem testis descendit cum Deo et cum sanctis fidelis
+
 ## Chapter 12
 
 <sup>1</sup> Ephraim pascit ventum et sequitur aestum tota die mendacium et vastitatem multiplicat et foedus cum Assyriis iniit et oleum in Aegyptum ferebat
@@ -194,6 +207,7 @@
 <sup>12</sup> fugit Iacob in regionem Syriae et servivit Israhel in uxore et in uxore servavit
 <sup>13</sup> in propheta autem eduxit Dominus Israhel de Aegypto et in propheta servatus est
 <sup>14</sup> ad iracundiam me provocavit Ephraim in amaritudinibus suis et sanguis eius super eum veniet et obprobrium eius restituet ei Dominus suus
+
 ## Chapter 13
 
 <sup>1</sup> loquente Ephraim horror invasit Israhel et deliquit in Baal et mortuus est
@@ -211,15 +225,28 @@
 <sup>13</sup> dolores parturientis venient ei ipse filius non sapiens nunc enim non stabit in contritione filiorum
 <sup>14</sup> de manu mortis liberabo eos de morte redimam eos ero mors tua o mors ero morsus tuus inferne consolatio abscondita est ab oculis meis
 <sup>15</sup> quia ipse inter fratres dividet adducet urentem ventum Dominus de deserto ascendentem et siccabit venas eius et desolabit fontem eius et ipse diripiet thesaurum omnis vasis desiderabilis
-<sup>16</sup> (14-1) pereat Samaria quoniam ad amaritudinem concitavit Dominum suum in gladio pereat parvuli eorum elidantur et fetae eius discindantur
+<sup>16</sup> <sup>a</sup>pereat Samaria quoniam ad amaritudinem concitavit Dominum suum in gladio pereat parvuli eorum elidantur et fetae eius discindantur
+
+> - <sup>a</sup> 16. Originally verse 14:1.
+
 ## Chapter 14
 
-<sup>1</sup> (14-2) convertere Israhel ad Dominum Deum tuum quoniam corruisti in iniquitate tua
-<sup>2</sup> (14-3) tollite vobiscum verba et convertimini ad Dominum dicite ei omnem aufer iniquitatem et accipe bonum et reddemus vitulos labiorum nostrorum
-<sup>3</sup> (14-4) Assur non salvabit nos super equum non ascendemus nec dicemus ultra dii nostri opera manuum nostrarum quia eius qui in te est misereberis pupilli
-<sup>4</sup> (14-5) sanabo contritiones eorum diligam eos spontanee quia aversus est furor meus ab eo
-<sup>5</sup> (14-6) ero quasi ros Israhel germinabit quasi lilium et erumpet radix eius ut Libani
-<sup>6</sup> (14-7) ibunt rami eius et erit quasi oliva gloria eius et odor eius ut Libani
-<sup>7</sup> (14-8) convertentur sedentes in umbra eius vivent tritico et germinabunt quasi vinea memoriale eius sicut vinum Libani
-<sup>8</sup> (14-9) Ephraim quid mihi ultra idola ego exaudiam et dirigam eum ego ut abietem virentem ex me fructus tuus inventus est
-<sup>9</sup> (14-10) quis sapiens et intelleget ista intellegens et sciet haec quia rectae viae Domini et iusti ambulabunt in eis praevaricatores vero corruent in eis
+<sup>1</sup> <sup>a</sup>convertere Israhel ad Dominum Deum tuum quoniam corruisti in iniquitate tua
+<sup>2</sup> <sup>b</sup>tollite vobiscum verba et convertimini ad Dominum dicite ei omnem aufer iniquitatem et accipe bonum et reddemus vitulos labiorum nostrorum
+<sup>3</sup> <sup>c</sup>Assur non salvabit nos super equum non ascendemus nec dicemus ultra dii nostri opera manuum nostrarum quia eius qui in te est misereberis pupilli
+<sup>4</sup> <sup>d</sup>sanabo contritiones eorum diligam eos spontanee quia aversus est furor meus ab eo
+<sup>5</sup> <sup>e</sup>ero quasi ros Israhel germinabit quasi lilium et erumpet radix eius ut Libani
+<sup>6</sup> <sup>f</sup>ibunt rami eius et erit quasi oliva gloria eius et odor eius ut Libani
+<sup>7</sup> <sup>g</sup>convertentur sedentes in umbra eius vivent tritico et germinabunt quasi vinea memoriale eius sicut vinum Libani
+<sup>8</sup> <sup>h</sup>Ephraim quid mihi ultra idola ego exaudiam et dirigam eum ego ut abietem virentem ex me fructus tuus inventus est
+<sup>9</sup> <sup>i</sup>quis sapiens et intelleget ista intellegens et sciet haec quia rectae viae Domini et iusti ambulabunt in eis praevaricatores vero corruent in eis
+
+> - <sup>a</sup> 1. Originally verse 14:2.
+> - <sup>b</sup> 2. Originally verse 14:3.
+> - <sup>c</sup> 3. Originally verse 14:4.
+> - <sup>d</sup> 4. Originally verse 14:5.
+> - <sup>e</sup> 5. Originally verse 14:6.
+> - <sup>f</sup> 6. Originally verse 14:7.
+> - <sup>g</sup> 7. Originally verse 14:8.
+> - <sup>h</sup> 8. Originally verse 14:9.
+> - <sup>i</sup> 9. Originally verse 14:10.

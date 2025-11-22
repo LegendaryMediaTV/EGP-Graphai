@@ -139,11 +139,15 @@
 <sup>22</sup> Therefore because the king’s commandment was urgent and the furnace exceedingly hot, the flame of the fire killed those men who took up Shadrach, Meshach, and Abednego.
 <sup>23</sup> These three men, Shadrach, Meshach, and Abednego, fell down bound into the middle of the burning fiery furnace.
 
-<sup>24</sup> Then Nebuchadnezzar the king was astonished and rose up in haste. He spoke and said to his counselors, “Didn’t we cast three men bound into the middle of the fire?” They answered the king, “True, O king.”
+<sup>24</sup> Then Nebuchadnezzar the king was astonished and rose up in haste. He spoke and said to his counselors, “Didn’t we cast three men bound into the middle of the fire?”
+
+They answered the king, “True, O king.”
 
 <sup>25</sup> He answered, “Look, I see four men loose, walking in the middle of the fire, and they are unharmed. The appearance of the fourth is like a son of the gods.<sup>b</sup>”
 
-<sup>26</sup> Then Nebuchadnezzar came near to the mouth of the burning fiery furnace. He spoke and said, “Shadrach, Meshach, and Abednego, you servants of the Most High God, come out, and come here!” Then Shadrach, Meshach, and Abednego came out of the middle of the fire.
+<sup>26</sup> Then Nebuchadnezzar came near to the mouth of the burning fiery furnace. He spoke and said, “Shadrach, Meshach, and Abednego, you servants of the Most High God, come out, and come here!”
+
+Then Shadrach, Meshach, and Abednego came out of the middle of the fire.
 <sup>27</sup> The local governors, the deputies, and the governors, and the king’s counselors, being gathered together, saw these men, that the fire had no power on their bodies. The hair of their head wasn’t singed. Their pants weren’t changed. The smell of fire wasn’t even on them.
 
 <sup>28</sup> Nebuchadnezzar spoke and said, “Blessed be the God of Shadrach, Meshach, and Abednego, who has sent his angel and delivered his servants who trusted in him, and have changed the king’s word, and have yielded their bodies, that they might not serve nor worship any god except their own God.
@@ -193,6 +197,7 @@
 <sup>35</sup> All the inhabitants of the earth are reputed as nothing;<br>and he does according to his will in the army of heaven,<br>and among the inhabitants of the earth;<br>and no one can stop his hand,<br>or ask him, “What are you doing?”
 <sup>36</sup> At the same time my understanding returned to me; and for the glory of my kingdom, my majesty and brightness returned to me. My counselors and my lords sought me; and I was established in my kingdom, and excellent greatness was added to me.
 <sup>37</sup> Now I, Nebuchadnezzar, praise and extol and honor the King of heaven; for all his works are truth, and his ways justice; and those who walk in pride he is able to abase.
+
 ## Chapter 5
 
 <sup>1</sup> Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.
@@ -238,6 +243,7 @@
 
 <sup>30</sup> In that night Belshazzar the Chaldean King was slain.
 <sup>31</sup> Darius the Mede received the kingdom, being about sixty-two years old.
+
 ## Chapter 6
 
 <sup>1</sup> It pleased Darius to set over the kingdom one hundred twenty local governors, who should be throughout the whole kingdom;
@@ -254,7 +260,9 @@
 
 <sup>10</sup> When Daniel knew that the writing was signed, he went into his house (now his windows were open in his room toward Jerusalem) and he kneeled on his knees three times a day, and prayed, and gave thanks before his God, as he did before.
 <sup>11</sup> Then these men assembled together, and found Daniel making petition and supplication before his God.
-<sup>12</sup> Then they came near, and spoke before the king concerning the king’s decree: “Haven’t you signed a decree that every man who makes a petition to any god or man within thirty days, except to you, O king, shall be cast into the den of lions?” The king answered, “This thing is true, according to the law of the Medes and Persians, which doesn’t alter.”
+<sup>12</sup> Then they came near, and spoke before the king concerning the king’s decree: “Haven’t you signed a decree that every man who makes a petition to any god or man within thirty days, except to you, O king, shall be cast into the den of lions?”
+
+The king answered, “This thing is true, according to the law of the Medes and Persians, which doesn’t alter.”
 
 <sup>13</sup> Then they answered and said before the king, “That Daniel, who is of the children of the captivity of Judah, doesn’t respect you, O king, nor the decree that you have signed, but makes his petition three times a day.”
 <sup>14</sup> Then the king, when he heard these words, was very displeased, and set his heart on Daniel to deliver him; and he labored until the going down of the sun to rescue him.
@@ -281,6 +289,7 @@
 <sup>27</sup> He delivers and rescues.<br>He works signs and wonders in heaven and in earth,<br>who has delivered Daniel from the power of the lions.”
 
 <sup>28</sup> So this Daniel prospered in the reign of Darius and in the reign of Cyrus the Persian.
+
 ## Chapter 7
 
 <sup>1</sup> In the first year of Belshazzar king of Babylon, Daniel had a dream and visions of his head while on his bed. Then he wrote the dream and told the sum of the matters.
@@ -307,7 +316,9 @@
 <sup>14</sup> Dominion was given him, and glory, and a kingdom, that all the peoples, nations, and languages should serve him. His dominion is an everlasting dominion, which will not pass away, and his kingdom one that will not be destroyed.
 
 <sup>15</sup> “As for me, Daniel, my spirit was grieved within my body, and the visions of my head troubled me.
-<sup>16</sup> I came near to one of those who stood by, and asked him the truth concerning all this. “So he told me, and made me know the interpretation of the things.
+<sup>16</sup> I came near to one of those who stood by, and asked him the truth concerning all this.
+
+“So he told me, and made me know the interpretation of the things.
 <sup>17</sup> ‘These great animals, which are four, are four kings, who will arise out of the earth.
 <sup>18</sup> But the saints of the Most High will receive the kingdom, and possess the kingdom forever, even forever and ever.’
 
@@ -324,6 +335,7 @@
 <sup>27</sup> The kingdom and the dominion, and the greatness of the kingdoms under the whole sky, will be given to the people of the saints of the Most High. His kingdom is an everlasting kingdom, and all dominions will serve and obey him.’
 
 <sup>28</sup> “Here is the end of the matter. As for me, Daniel, my thoughts troubled me greatly, and my face was changed in me; but I kept the matter in my heart.”
+
 ## Chapter 8
 
 <sup>1</sup> In the third year of the reign of King Belshazzar, a vision appeared to me, even to me, Daniel, after that which appeared to me at the first.
@@ -364,6 +376,7 @@
 <sup>26</sup> “The vision of the evenings and mornings which has been told is true; but seal up the vision, for it belongs to many days to come.”
 
 <sup>27</sup> I, Daniel, fainted, and was sick for some days. Then I rose up and did the king’s business. I wondered at the vision, but no one understood it.
+
 ## Chapter 9
 
 <sup>1</sup> In the first year of Darius the son of Ahasuerus, of the offspring of the Medes, who was made king over the realm of the Chaldeans—
@@ -429,7 +442,9 @@
 <sup>17</sup> For how can the servant of this my lord talk with this my lord? For as for me, immediately there remained no strength in me. There was no breath left in me.”
 
 <sup>18</sup> Then one like the appearance of a man touched me again, and he strengthened me.
-<sup>19</sup> He said, “Greatly beloved man, don’t be afraid. Peace be to you. Be strong. Yes, be strong.” When he spoke to me, I was strengthened, and said, “Let my lord speak, for you have strengthened me.”
+<sup>19</sup> He said, “Greatly beloved man, don’t be afraid. Peace be to you. Be strong. Yes, be strong.”
+
+When he spoke to me, I was strengthened, and said, “Let my lord speak, for you have strengthened me.”
 
 <sup>20</sup> Then he said, “Do you know why I have come to you? Now I will return to fight with the prince of Persia. When I go out, behold, the prince of Greece will come.
 <sup>21</sup> But I will tell you that which is inscribed in the writing of truth. There is no one who holds with me against these but Michael your prince.
@@ -496,6 +511,7 @@
 <sup>43</sup> But he will have power over the treasures of gold and of silver, and over all the precious things of Egypt. The Libyans and the Ethiopians will follow his steps.
 <sup>44</sup> But news out of the east and out of the north will trouble him; and he will go out with great fury to destroy and utterly to sweep away many.
 <sup>45</sup> He will plant the tents of his palace between the sea and the glorious holy mountain; yet he will come to his end, and no one will help him.
+
 ## Chapter 12
 
 <sup>1</sup> “At that time Michael will stand up, the great prince who stands for the children of your people; and there will be a time of trouble, such as never was since there was a nation even to that same time. At that time your people will be delivered, everyone who is found written in the book.

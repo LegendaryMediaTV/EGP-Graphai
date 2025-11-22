@@ -32,6 +32,7 @@
 <sup>30</sup> detractores Deo odibiles contumeliosos superbos elatos inventores malorum parentibus non oboedientes
 <sup>31</sup> insipientes inconpositos sine affectione absque foedere sine misericordia
 <sup>32</sup> qui cum iustitiam Dei cognovissent non intellexerunt quoniam qui talia agunt digni sunt morte non solum ea faciunt sed et consentiunt facientibus
+
 ## Chapter 2
 
 <sup>1</sup> propter quod inexcusabilis es o homo omnis qui iudicas in quo enim iudicas alterum te ipsum condemnas eadem enim agis qui iudicas
@@ -63,6 +64,7 @@
 <sup>27</sup> et iudicabit quod ex natura est praeputium legem consummans te qui per litteram et circumcisionem praevaricator legis es
 <sup>28</sup> non enim qui in manifesto Iudaeus est neque quae in manifesto in carne circumcisio
 <sup>29</sup> sed qui in abscondito Iudaeus et circumcisio cordis in spiritu non littera cuius laus non ex hominibus sed ex Deo est
+
 ## Chapter 3
 
 <sup>1</sup> quid ergo amplius est Iudaeo aut quae utilitas circumcisionis
@@ -96,6 +98,7 @@
 <sup>29</sup> an Iudaeorum Deus tantum nonne et gentium immo et gentium
 <sup>30</sup> quoniam quidem unus Deus qui iustificabit circumcisionem ex fide et praeputium per fidem
 <sup>31</sup> legem ergo destruimus per fidem absit sed legem statuimus
+
 ## Chapter 4
 
 <sup>1</sup> quid ergo dicemus invenisse Abraham patrem nostrum secundum carnem
@@ -123,6 +126,7 @@
 <sup>23</sup> non est autem scriptum tantum propter ipsum quia reputatum est illi
 <sup>24</sup> sed et propter nos quibus reputabitur credentibus in eum qui suscitavit Iesum Dominum nostrum a mortuis
 <sup>25</sup> qui traditus est propter delicta nostra et resurrexit propter iustificationem nostram
+
 ## Chapter 5
 
 <sup>1</sup> iustificati igitur ex fide pacem habeamus ad Deum per Dominum nostrum Iesum Christum
@@ -146,6 +150,7 @@
 <sup>19</sup> sicut enim per inoboedientiam unius hominis peccatores constituti sunt multi ita et per unius oboeditionem iusti constituentur multi
 <sup>20</sup> lex autem subintravit ut abundaret delictum ubi autem abundavit delictum superabundavit gratia
 <sup>21</sup> ut sicut regnavit peccatum in morte ita et gratia regnet per iustitiam in vitam aeternam per Iesum Christum Dominum nostrum
+
 ## Chapter 6
 
 <sup>1</sup> quid ergo dicemus permanebimus in peccato ut gratia abundet
@@ -171,6 +176,7 @@
 <sup>21</sup> quem ergo fructum habuistis tunc in quibus nunc erubescitis nam finis illorum mors est
 <sup>22</sup> nunc vero liberati a peccato servi autem facti Deo habetis fructum vestrum in sanctificationem finem vero vitam aeternam
 <sup>23</sup> stipendia enim peccati mors gratia autem Dei vita aeterna in Christo Iesu Domino nostro
+
 ## Chapter 7
 
 <sup>1</sup> an ignoratis fratres scientibus enim legem loquor quia lex in homine dominatur quanto tempore vivit
@@ -198,6 +204,7 @@
 <sup>23</sup> video autem aliam legem in membris meis repugnantem legi mentis meae et captivantem me in lege peccati quae est in membris meis
 <sup>24</sup> infelix ego homo quis me liberabit de corpore mortis huius
 <sup>25</sup> gratia Dei per Iesum Christum Dominum nostrum igitur ego ipse mente servio legi Dei carne autem legi peccati
+
 ## Chapter 8
 
 <sup>1</sup> nihil ergo nunc damnationis est his qui sunt in Christo Iesu qui non secundum carnem ambulant
@@ -239,6 +246,7 @@
 <sup>37</sup> sed in his omnibus superamus propter eum qui dilexit nos
 <sup>38</sup> certus sum enim quia neque mors neque vita neque angeli neque principatus neque instantia neque futura neque fortitudines
 <sup>39</sup> neque altitudo neque profundum neque creatura alia poterit nos separare a caritate Dei quae est in Christo Iesu Domino nostro
+
 ## Chapter 9
 
 <sup>1</sup> veritatem dico in Christo non mentior testimonium mihi perhibente conscientia mea in Spiritu Sancto
@@ -274,6 +282,7 @@
 <sup>31</sup> Israhel vero sectans legem iustitiae in legem iustitiae non pervenit
 <sup>32</sup> quare quia non ex fide sed quasi ex operibus offenderunt in lapidem offensionis
 <sup>33</sup> sicut scriptum est ecce pono in Sion lapidem offensionis et petram scandali et omnis qui credit in eum non confundetur
+
 ## Chapter 10
 
 <sup>1</sup> fratres voluntas quidem cordis mei et obsecratio ad Deum fit pro illis in salutem
@@ -297,6 +306,7 @@
 <sup>19</sup> sed dico numquid Israhel non cognovit primus Moses dicit ego ad aemulationem vos adducam in non gentem in gentem insipientem in iram vos mittam
 <sup>20</sup> Esaias autem audet et dicit inventus sum non quaerentibus me palam apparui his qui me non interrogabant
 <sup>21</sup> ad Israhel autem dicit tota die expandi manus meas ad populum non credentem et contradicentem
+
 ## Chapter 11
 
 <sup>1</sup> dico ergo numquid reppulit Deus populum suum absit nam et ego Israhelita sum ex semine Abraham tribu Beniamin
@@ -335,6 +345,7 @@
 <sup>34</sup> quis enim cognovit sensum Domini aut quis consiliarius eius fuit
 <sup>35</sup> aut quis prior dedit illi et retribuetur ei
 <sup>36</sup> quoniam ex ipso et per ipsum et in ipso omnia ipsi gloria in saecula amen
+
 ## Chapter 12
 
 <sup>1</sup> obsecro itaque vos fratres per misericordiam Dei ut exhibeatis corpora vestra hostiam viventem sanctam Deo placentem rationabile obsequium vestrum
@@ -358,6 +369,7 @@
 <sup>19</sup> non vosmet ipsos defendentes carissimi sed date locum irae scriptum est enim mihi vindictam ego retribuam dicit Dominus
 <sup>20</sup> sed si esurierit inimicus tuus ciba illum si sitit potum da illi hoc enim faciens carbones ignis congeres super caput eius
 <sup>21</sup> noli vinci a malo sed vince in bono malum
+
 ## Chapter 13
 
 <sup>1</sup> omnis anima potestatibus sublimioribus subdita sit non est enim potestas nisi a Deo quae autem sunt a Deo ordinatae sunt
@@ -374,6 +386,7 @@
 <sup>12</sup> nox praecessit dies autem adpropiavit abiciamus ergo opera tenebrarum et induamur arma lucis
 <sup>13</sup> sicut in die honeste ambulemus non in comesationibus et ebrietatibus non in cubilibus et inpudicitiis non in contentione et aemulatione
 <sup>14</sup> sed induite Dominum Iesum Christum et carnis curam ne feceritis in desideriis
+
 ## Chapter 14
 
 <sup>1</sup> infirmum autem in fide adsumite non in disceptationibus cogitationum
@@ -399,6 +412,7 @@
 <sup>21</sup> bonum est non manducare carnem et non bibere vinum neque in quo frater tuus offendit aut scandalizatur aut infirmatur
 <sup>22</sup> tu fidem habes penes temet ipsum habe coram Deo beatus qui non iudicat semet ipsum in eo quo probat
 <sup>23</sup> qui autem discernit si manducaverit damnatus est quia non ex fide omne autem quod non ex fide peccatum est
+
 ## Chapter 15
 
 <sup>1</sup> debemus autem nos firmiores inbecillitates infirmorum sustinere et non nobis placere
@@ -434,6 +448,7 @@
 <sup>31</sup> ut liberer ab infidelibus qui sunt in Iudaea et obsequii mei oblatio accepta fiat in Hierosolyma sanctis
 <sup>32</sup> ut veniam ad vos in gaudio per voluntatem Dei et refrigerer vobiscum
 <sup>33</sup> Deus autem pacis sit cum omnibus vobis amen
+
 ## Chapter 16
 
 <sup>1</sup> commendo autem vobis Phoebem sororem nostram quae est in ministerio ecclesiae quae est Cenchris
