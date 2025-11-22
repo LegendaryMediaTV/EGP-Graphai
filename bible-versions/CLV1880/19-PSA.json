@@ -3531,7 +3531,6 @@
       {
         "subtitle": [
           {
-            "paragraph": true,
             "foot": {
               "type": "var",
               "content": "Originally verse 20:1."
@@ -3541,6 +3540,7 @@
         ]
       },
       {
+        "paragraph": true,
         "foot": {
           "type": "var",
           "content": "Originally verse 20:2."

@@ -91,15 +91,13 @@ function renderContentToText(content: Content[]): string {
 }
 
 /**
- * Process subtitle content, extracting text and footnotes
+ * Process subtitle content for markdown, extracting footnotes into chapter footnotes array
  */
-function processSubtitleContent(
+function processSubtitleForMarkdown(
   content: Content,
-  footnotes: string[],
-  footnoteStartIndex: number = 0
+  chapterFootnotes: string[]
 ): string {
   const textParts: string[] = [];
-  let footnoteIndex = footnoteStartIndex;
 
   function processItem(item: Content): void {
     if (typeof item === "string") {
@@ -120,56 +118,18 @@ function processSubtitleContent(
     }
 
     if (obj.foot) {
-      const letter = String.fromCharCode(97 + (footnoteIndex % 26));
+      const letter = String.fromCharCode(97 + (chapterFootnotes.length % 26));
       textParts.push(`<sup>${letter}</sup>`);
       const footnoteContent =
         typeof obj.foot.content === "string"
           ? obj.foot.content
           : convertContentToMarkdownText(obj.foot.content);
-      footnotes.push(`- <sup>${letter}</sup> Subtitle. ${footnoteContent}`);
-      footnoteIndex++;
-    }
-  }
-
-  processItem(content);
-  return textParts.join("");
-}
-/**
- * Process subtitle content for text export, extracting text and footnotes
- */
-function processSubtitleContentText(
-  content: Content,
-  footnotes: Array<{ content: string }>
-): string {
-  const textParts: string[] = [];
-
-  function processItem(item: Content): void {
-    if (typeof item === "string") {
-      textParts.push(item);
-      return;
+      chapterFootnotes.push(
+        `- <sup>${letter}</sup> Subtitle. ${footnoteContent}`
+      );
     }
 
-    if (Array.isArray(item)) {
-      item.forEach(processItem);
-      return;
-    }
-
-    // Handle object
-    const obj = item as ContentObject;
-
-    if (obj.text) {
-      textParts.push(obj.text);
-    }
-
-    if (obj.foot) {
-      textParts.push("°");
-      const footnoteContent =
-        typeof obj.foot.content === "string"
-          ? obj.foot.content
-          : convertContentToText(obj.foot.content);
-      textParts.push(` {${footnoteContent}}`);
-      footnotes.push({ content: footnoteContent });
-    }
+    // Note: Strong's and morph are intentionally not included in markdown subtitles
   }
 
   processItem(content);
@@ -265,16 +225,11 @@ function convertVerseToText(verse: VerseSchema): string {
     }
 
     if ("subtitle" in content) {
-      const subtitleFootnotes: Array<{ content: string }> = [];
-      const subtitleText =
-        typeof content.subtitle === "string"
-          ? content.subtitle
-          : processSubtitleContentText(content.subtitle, subtitleFootnotes);
-      textParts.push(`«${subtitleText}»`);
-      // Add subtitle footnotes to the footnote parts
-      for (const fn of subtitleFootnotes) {
-        footnoteParts.push(`Subtitle. ${fn.content}`);
-      }
+      // Process subtitle content recursively to get all text with Strong's numbers and footnotes
+      const subtitleParts: string[] = [];
+      extractTextAndFootnotes(content.subtitle, subtitleParts, footnoteParts);
+      // Wrap subtitle text in guillemets
+      textParts.push(`«${subtitleParts.join("")}»`);
       return;
     }
 
@@ -488,10 +443,9 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
             const subtitleText =
               typeof firstItem.subtitle === "string"
                 ? firstItem.subtitle
-                : processSubtitleContent(
+                : processSubtitleForMarkdown(
                     firstItem.subtitle,
-                    chapterFootnotes,
-                    0
+                    chapterFootnotes
                   );
             markdownLines.push("");
             markdownLines.push(`> _${subtitleText}_`);
