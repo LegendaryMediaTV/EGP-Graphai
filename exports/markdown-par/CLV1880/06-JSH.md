@@ -91,7 +91,9 @@
 <sup>21</sup> et dixit ad filios Israhel quando interrogaverint filii vestri cras patres suos et dixerint eis quid sibi volunt isti lapides
 <sup>22</sup> docebitis eos atque dicetis per arentem alveum transivit Israhel Iordanem istum
 <sup>23</sup> siccante Domino Deo vestro aquas eius in conspectu vestro donec transiretis
-<sup>24</sup> sicut fecerat prius in mari Rubro quod siccavit donec transiremus (4-25) ut discant omnes terrarum populi fortissimam Domini manum et ut vos timeatis Dominum Deum vestrum omni tempore
+<sup>24</sup> sicut fecerat prius in mari Rubro quod siccavit donec transiremus <sup>a</sup>ut discant omnes terrarum populi fortissimam Domini manum et ut vos timeatis Dominum Deum vestrum omni tempore
+
+> - <sup>a</sup> 24. Originally verse 4:25.
 
 ## Chapter 5
 
@@ -108,8 +110,11 @@
 <sup>11</sup> et comederunt de frugibus terrae die altero azymos panes et pulentam eiusdem anni
 <sup>12</sup> defecitque manna postquam comederunt de frugibus terrae nec usi sunt ultra illo cibo filii Israhel sed comederunt de frugibus praesentis anni terrae Chanaan
 <sup>13</sup> cum autem esset Iosue in agro urbis Hiericho levavit oculos et vidit virum stantem contra se et evaginatum tenentem gladium perrexitque ad eum et ait noster es an adversariorum
-<sup>14</sup> qui respondit nequaquam sed sum princeps exercitus Domini et nunc venio (5-15) cecidit Iosue pronus in terram et adorans ait quid dominus meus loquitur ad servum suum
-<sup>15</sup> (5-16) solve inquit calciamentum de pedibus tuis locus enim in quo stas sanctus est fecitque Iosue ut sibi fuerat imperatum
+<sup>14</sup> qui respondit nequaquam sed sum princeps exercitus Domini et nunc venio <sup>a</sup>cecidit Iosue pronus in terram et adorans ait quid dominus meus loquitur ad servum suum
+<sup>15</sup> <sup>b</sup>solve inquit calciamentum de pedibus tuis locus enim in quo stas sanctus est fecitque Iosue ut sibi fuerat imperatum
+
+> - <sup>a</sup> 14. Originally verse 5:15.
+> - <sup>b</sup> 15. Originally verse 5:16.
 
 ## Chapter 6
 
@@ -277,12 +282,19 @@
 <sup>35</sup> atque expugnavit eam eadem die percussitque in ore gladii omnes animas quae erant in ea iuxta omnia quae fecerat Lachis
 <sup>36</sup> ascendit quoque cum omni Israhele de Eglon in Hebron et pugnavit contra eam
 <sup>37</sup> cepitque et percussit in ore gladii regem quoque eius et omnia oppida regionis illius universasque animas quae in ea fuerant commoratae non reliquit in ea ullas reliquias sicut fecerat Eglon sic fecit et Hebron cuncta quae in ea repperit consumens gladio
-<sup>38</sup> inde reversus in Dabir (10-39) cepit eam atque vastavit
-<sup>39</sup> (10-40) regem quoque eius et omnia per circuitum oppida percussit in ore gladii non dimisit in ea ullas reliquias sicut fecerat Hebron et Lebna et regibus earum sic fecit Dabir et regi illius
-<sup>40</sup> (10-41) percussit itaque Iosue omnem terram montanam et meridianam atque campestrem et Asedoth cum regibus suis non dimisit in ea ullas reliquias sed omne quod spirare poterat interfecit sicut praeceperat ei Dominus Deus Israhel
-<sup>41</sup> (10-42) a Cadesbarne usque Gazam omnem terram Gosen usque Gabaon
-<sup>42</sup> (10-43) universos reges et regiones eorum uno cepit impetu atque vastavit Dominus enim Deus Israhel pugnabat pro eo
-<sup>43</sup> (10-44) reversusque est cum omni Israhele ad locum castrorum in Galgala
+<sup>38</sup> inde reversus in Dabir <sup>a</sup>cepit eam atque vastavit
+<sup>39</sup> <sup>b</sup>regem quoque eius et omnia per circuitum oppida percussit in ore gladii non dimisit in ea ullas reliquias sicut fecerat Hebron et Lebna et regibus earum sic fecit Dabir et regi illius
+<sup>40</sup> <sup>c</sup>percussit itaque Iosue omnem terram montanam et meridianam atque campestrem et Asedoth cum regibus suis non dimisit in ea ullas reliquias sed omne quod spirare poterat interfecit sicut praeceperat ei Dominus Deus Israhel
+<sup>41</sup> <sup>d</sup>a Cadesbarne usque Gazam omnem terram Gosen usque Gabaon
+<sup>42</sup> <sup>e</sup>universos reges et regiones eorum uno cepit impetu atque vastavit Dominus enim Deus Israhel pugnabat pro eo
+<sup>43</sup> <sup>f</sup>reversusque est cum omni Israhele ad locum castrorum in Galgala
+
+> - <sup>a</sup> 38. Originally verse 10:39.
+> - <sup>b</sup> 39. Originally verse 10:40.
+> - <sup>c</sup> 40. Originally verse 10:41.
+> - <sup>d</sup> 41. Originally verse 10:42.
+> - <sup>e</sup> 42. Originally verse 10:43.
+> - <sup>f</sup> 43. Originally verse 10:44.
 
 ## Chapter 11
 
@@ -627,14 +639,23 @@
 <sup>35</sup> et Damna et Nalol civitates quattuor cum suburbanis suis
 <sup>36</sup> [de tribu quoque Ruben ciuitates confugii Bosor in solitudine et Cedson]
 <sup>37</sup> [et Misor et Ocho ciuitates quattuor cum suburbanis suis]
-<sup>38</sup> (21-37) et de tribu Gad civitates confugii Ramoth in Galaad et Manaim
-<sup>39</sup> (21-37) et Esebon et Iazer civitates quattuor cum suburbanis suis
-<sup>40</sup> (21-38) omnes urbes filiorum Merari per familias et cognationes suas duodecim
-<sup>41</sup> (21-39) itaque universae civitates Levitarum in medio possessionis filiorum Israhel fuerunt quadraginta octo
-<sup>42</sup> (21-40) cum suburbanis suis singulae per familias distributae
-<sup>43</sup> (21-41) deditque Dominus Israheli omnem terram quam traditurum se patribus eorum iuraverat et possederunt illam atque habitaverunt in ea
-<sup>44</sup> (21-42) dataque est ab eo pax in omnes per circuitum nationes nullusque eis hostium resistere ausus est sed cuncti in eorum dicionem redacti sunt
-<sup>45</sup> (21-43) ne unum quidem verbum quod illis praestaturum se esse promiserat irritum fuit sed rebus expleta sunt omnia
+<sup>38</sup> <sup>a</sup>et de tribu Gad civitates confugii Ramoth in Galaad et Manaim
+<sup>39</sup> <sup>b</sup>et Esebon et Iazer civitates quattuor cum suburbanis suis
+<sup>40</sup> <sup>c</sup>omnes urbes filiorum Merari per familias et cognationes suas duodecim
+<sup>41</sup> <sup>d</sup>itaque universae civitates Levitarum in medio possessionis filiorum Israhel fuerunt quadraginta octo
+<sup>42</sup> <sup>e</sup>cum suburbanis suis singulae per familias distributae
+<sup>43</sup> <sup>f</sup>deditque Dominus Israheli omnem terram quam traditurum se patribus eorum iuraverat et possederunt illam atque habitaverunt in ea
+<sup>44</sup> <sup>g</sup>dataque est ab eo pax in omnes per circuitum nationes nullusque eis hostium resistere ausus est sed cuncti in eorum dicionem redacti sunt
+<sup>45</sup> <sup>h</sup>ne unum quidem verbum quod illis praestaturum se esse promiserat irritum fuit sed rebus expleta sunt omnia
+
+> - <sup>a</sup> 38. Originally verse 21:37.
+> - <sup>b</sup> 39. Originally verse 21:37.
+> - <sup>c</sup> 40. Originally verse 21:38.
+> - <sup>d</sup> 41. Originally verse 21:39.
+> - <sup>e</sup> 42. Originally verse 21:40.
+> - <sup>f</sup> 43. Originally verse 21:41.
+> - <sup>g</sup> 44. Originally verse 21:42.
+> - <sup>h</sup> 45. Originally verse 21:43.
 
 ## Chapter 22
 

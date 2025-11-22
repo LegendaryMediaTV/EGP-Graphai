@@ -36,7 +36,9 @@
 <sup>20</sup> et sponsabo te mihi in fide et scies quia ego Dominus
 <sup>21</sup> et erit in illa die exaudiam dicit Dominus exaudiam caelos et illi exaudient terram
 <sup>22</sup> et terra exaudiet triticum et vinum et oleum et haec exaudient Hiezrahel
-<sup>23</sup> et seminabo eam mihi in terram et miserebor eius quae fuit absque misericordia (2-24) et dicam non populo meo populus meus tu et ipse dicet Dominus meus es tu
+<sup>23</sup> et seminabo eam mihi in terram et miserebor eius quae fuit absque misericordia <sup>a</sup>et dicam non populo meo populus meus tu et ipse dicet Dominus meus es tu
+
+> - <sup>a</sup> 23. Originally verse 2:24.
 
 ## Chapter 3
 
@@ -223,16 +225,28 @@
 <sup>13</sup> dolores parturientis venient ei ipse filius non sapiens nunc enim non stabit in contritione filiorum
 <sup>14</sup> de manu mortis liberabo eos de morte redimam eos ero mors tua o mors ero morsus tuus inferne consolatio abscondita est ab oculis meis
 <sup>15</sup> quia ipse inter fratres dividet adducet urentem ventum Dominus de deserto ascendentem et siccabit venas eius et desolabit fontem eius et ipse diripiet thesaurum omnis vasis desiderabilis
-<sup>16</sup> (14-1) pereat Samaria quoniam ad amaritudinem concitavit Dominum suum in gladio pereat parvuli eorum elidantur et fetae eius discindantur
+<sup>16</sup> <sup>a</sup>pereat Samaria quoniam ad amaritudinem concitavit Dominum suum in gladio pereat parvuli eorum elidantur et fetae eius discindantur
+
+> - <sup>a</sup> 16. Originally verse 14:1.
 
 ## Chapter 14
 
-<sup>1</sup> (14-2) convertere Israhel ad Dominum Deum tuum quoniam corruisti in iniquitate tua
-<sup>2</sup> (14-3) tollite vobiscum verba et convertimini ad Dominum dicite ei omnem aufer iniquitatem et accipe bonum et reddemus vitulos labiorum nostrorum
-<sup>3</sup> (14-4) Assur non salvabit nos super equum non ascendemus nec dicemus ultra dii nostri opera manuum nostrarum quia eius qui in te est misereberis pupilli
-<sup>4</sup> (14-5) sanabo contritiones eorum diligam eos spontanee quia aversus est furor meus ab eo
-<sup>5</sup> (14-6) ero quasi ros Israhel germinabit quasi lilium et erumpet radix eius ut Libani
-<sup>6</sup> (14-7) ibunt rami eius et erit quasi oliva gloria eius et odor eius ut Libani
-<sup>7</sup> (14-8) convertentur sedentes in umbra eius vivent tritico et germinabunt quasi vinea memoriale eius sicut vinum Libani
-<sup>8</sup> (14-9) Ephraim quid mihi ultra idola ego exaudiam et dirigam eum ego ut abietem virentem ex me fructus tuus inventus est
-<sup>9</sup> (14-10) quis sapiens et intelleget ista intellegens et sciet haec quia rectae viae Domini et iusti ambulabunt in eis praevaricatores vero corruent in eis
+<sup>1</sup> <sup>a</sup>convertere Israhel ad Dominum Deum tuum quoniam corruisti in iniquitate tua
+<sup>2</sup> <sup>b</sup>tollite vobiscum verba et convertimini ad Dominum dicite ei omnem aufer iniquitatem et accipe bonum et reddemus vitulos labiorum nostrorum
+<sup>3</sup> <sup>c</sup>Assur non salvabit nos super equum non ascendemus nec dicemus ultra dii nostri opera manuum nostrarum quia eius qui in te est misereberis pupilli
+<sup>4</sup> <sup>d</sup>sanabo contritiones eorum diligam eos spontanee quia aversus est furor meus ab eo
+<sup>5</sup> <sup>e</sup>ero quasi ros Israhel germinabit quasi lilium et erumpet radix eius ut Libani
+<sup>6</sup> <sup>f</sup>ibunt rami eius et erit quasi oliva gloria eius et odor eius ut Libani
+<sup>7</sup> <sup>g</sup>convertentur sedentes in umbra eius vivent tritico et germinabunt quasi vinea memoriale eius sicut vinum Libani
+<sup>8</sup> <sup>h</sup>Ephraim quid mihi ultra idola ego exaudiam et dirigam eum ego ut abietem virentem ex me fructus tuus inventus est
+<sup>9</sup> <sup>i</sup>quis sapiens et intelleget ista intellegens et sciet haec quia rectae viae Domini et iusti ambulabunt in eis praevaricatores vero corruent in eis
+
+> - <sup>a</sup> 1. Originally verse 14:2.
+> - <sup>b</sup> 2. Originally verse 14:3.
+> - <sup>c</sup> 3. Originally verse 14:4.
+> - <sup>d</sup> 4. Originally verse 14:5.
+> - <sup>e</sup> 5. Originally verse 14:6.
+> - <sup>f</sup> 6. Originally verse 14:7.
+> - <sup>g</sup> 7. Originally verse 14:8.
+> - <sup>h</sup> 8. Originally verse 14:9.
+> - <sup>i</sup> 9. Originally verse 14:10.

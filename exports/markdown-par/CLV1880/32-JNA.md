@@ -16,20 +16,33 @@
 <sup>14</sup> et clamaverunt ad Dominum et dixerunt quaesumus Domine ne pereamus in anima viri istius et ne des super nos sanguinem innocentem quia tu Domine sicut voluisti fecisti
 <sup>15</sup> et tulerunt Ionam et miserunt in mare et stetit mare a fervore suo
 <sup>16</sup> et timuerunt viri timore magno Dominum et immolaverunt hostias Domino et voverunt vota
-<sup>17</sup> (2-1) et praeparavit Dominus piscem grandem ut degluttiret Ionam et erat Iona in ventre piscis tribus diebus et tribus noctibus
+<sup>17</sup> <sup>a</sup>et praeparavit Dominus piscem grandem ut degluttiret Ionam et erat Iona in ventre piscis tribus diebus et tribus noctibus
+
+> - <sup>a</sup> 17. Originally verse 2:1.
 
 ## Chapter 2
 
-<sup>1</sup> (2-2) et oravit Iona ad Dominum Deum suum de utero piscis
-<sup>2</sup> (2-3) et dixit clamavi de tribulatione mea ad Dominum et exaudivit me de ventre inferni clamavi et exaudisti vocem meam
-<sup>3</sup> (2-4) et proiecisti me in profundum in corde maris et flumen circumdedit me omnes gurgites tui et fluctus tui super me transierunt
-<sup>4</sup> (2-5) et ego dixi abiectus sum a conspectu oculorum tuorum verumtamen rursus videbo templum sanctum tuum
-<sup>5</sup> (2-6) circumdederunt me aquae usque ad animam abyssus vallavit me pelagus operuit caput meum
-<sup>6</sup> (2-7) ad extrema montium descendi terrae vectes concluserunt me in aeternum et sublevabis de corruptione vitam meam Domine Deus meus
-<sup>7</sup> (2-8) cum angustiaretur in me anima mea Domini recordatus sum ut veniat ad te oratio mea ad templum sanctum tuum
-<sup>8</sup> (2-9) qui custodiunt vanitates frustra misericordiam suam derelinquunt
-<sup>9</sup> (2-10) ego autem in voce laudis immolabo tibi quaecumque vovi reddam pro salute Domino
-<sup>10</sup> (2-11) et dixit Dominus pisci et evomuit Ionam in aridam
+<sup>1</sup> <sup>a</sup>et oravit Iona ad Dominum Deum suum de utero piscis
+<sup>2</sup> <sup>b</sup>et dixit clamavi de tribulatione mea ad Dominum et exaudivit me de ventre inferni clamavi et exaudisti vocem meam
+<sup>3</sup> <sup>c</sup>et proiecisti me in profundum in corde maris et flumen circumdedit me omnes gurgites tui et fluctus tui super me transierunt
+<sup>4</sup> <sup>d</sup>et ego dixi abiectus sum a conspectu oculorum tuorum verumtamen rursus videbo templum sanctum tuum
+<sup>5</sup> <sup>e</sup>circumdederunt me aquae usque ad animam abyssus vallavit me pelagus operuit caput meum
+<sup>6</sup> <sup>f</sup>ad extrema montium descendi terrae vectes concluserunt me in aeternum et sublevabis de corruptione vitam meam Domine Deus meus
+<sup>7</sup> <sup>g</sup>cum angustiaretur in me anima mea Domini recordatus sum ut veniat ad te oratio mea ad templum sanctum tuum
+<sup>8</sup> <sup>h</sup>qui custodiunt vanitates frustra misericordiam suam derelinquunt
+<sup>9</sup> <sup>i</sup>ego autem in voce laudis immolabo tibi quaecumque vovi reddam pro salute Domino
+<sup>10</sup> <sup>j</sup>et dixit Dominus pisci et evomuit Ionam in aridam
+
+> - <sup>a</sup> 1. Originally verse 2:2.
+> - <sup>b</sup> 2. Originally verse 2:3.
+> - <sup>c</sup> 3. Originally verse 2:4.
+> - <sup>d</sup> 4. Originally verse 2:5.
+> - <sup>e</sup> 5. Originally verse 2:6.
+> - <sup>f</sup> 6. Originally verse 2:7.
+> - <sup>g</sup> 7. Originally verse 2:8.
+> - <sup>h</sup> 8. Originally verse 2:9.
+> - <sup>i</sup> 9. Originally verse 2:10.
+> - <sup>j</sup> 10. Originally verse 2:11.
 
 ## Chapter 3
 

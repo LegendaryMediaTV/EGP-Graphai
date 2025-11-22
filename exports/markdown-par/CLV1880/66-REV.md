@@ -247,9 +247,7 @@
 
 ## Chapter 13
 
-<sup>1</sup> 
-
-et stetit super harenam maris <sup>a</sup>et vidi de mare bestiam ascendentem habentem capita septem et cornua decem et super cornua eius decem diademata et super capita eius nomina blasphemiae
+<sup>1</sup> <sup>a</sup>et stetit super harenam maris <sup>b</sup>et vidi de mare bestiam ascendentem habentem capita septem et cornua decem et super cornua eius decem diademata et super capita eius nomina blasphemiae
 <sup>2</sup> et bestiam quam vidi similis erat pardo et pedes eius sicut ursi et os eius sicut os leonis et dedit illi draco virtutem suam et potestatem magnam
 <sup>3</sup> et unum de capitibus suis quasi occisum in mortem et plaga mortis eius curata est et admirata est universa terra post bestiam
 <sup>4</sup> et adoraverunt draconem quia dedit potestatem bestiae et adoraverunt bestiam dicentes quis similis bestiae et quis poterit pugnare cum ea
@@ -268,7 +266,8 @@ et stetit super harenam maris <sup>a</sup>et vidi de mare bestiam ascendentem ha
 <sup>17</sup> et ne quis possit emere aut vendere nisi qui habet caracter nomen bestiae aut numerum nominis eius
 <sup>18</sup> hic sapientia est qui habet intellectum conputet numerum bestiae numerus enim hominis est et numerus eius est sescenti sexaginta sex
 
-> - <sup>a</sup> 1. Originally verse 13:1.
+> - <sup>a</sup> 1. Originally verse 12:17.
+> - <sup>b</sup> 1. Originally verse 13:1.
 
 ## Chapter 14
 

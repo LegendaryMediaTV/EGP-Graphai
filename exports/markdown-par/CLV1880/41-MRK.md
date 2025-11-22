@@ -157,7 +157,9 @@
 <sup>38</sup> et erat ipse in puppi supra cervical dormiens et excitant eum et dicunt ei magister non ad te pertinet quia perimus
 <sup>39</sup> et exsurgens comminatus est vento et dixit mari tace obmutesce et cessavit ventus et facta est tranquillitas magna
 <sup>40</sup> et ait illis quid timidi estis necdum habetis fidem
-<sup>41</sup> et timuerunt magno timore et dicebant ad alterutrum quis putas est iste quia et ventus et mare oboediunt ei
+<sup>41</sup> <sup>a</sup>et timuerunt magno timore et dicebant ad alterutrum quis putas est iste quia et ventus et mare oboediunt ei
+
+> - <sup>a</sup> 41. Originally verse 4:40.
 
 ## Chapter 5
 
@@ -347,56 +349,107 @@
 
 ## Chapter 9
 
-<sup>1</sup> (8-39) et dicebat illis amen dico vobis quia sunt quidam de hic stantibus qui non gustabunt mortem donec videant regnum Dei veniens in virtute
-<sup>2</sup> (9-1) et post dies sex adsumit Iesus Petrum et Iacobum et Iohannem et ducit illos in montem excelsum seorsum solos et transfiguratus est coram ipsis
-<sup>3</sup> (9-2) et vestimenta eius facta sunt splendentia candida nimis velut nix qualia fullo super terram non potest candida facere
-<sup>4</sup> (9-3) et apparuit illis Helias cum Mose et erant loquentes cum Iesu
-<sup>5</sup> (9-4) et respondens Petrus ait Iesu rabbi bonum est hic nos esse et faciamus tria tabernacula tibi unum et Mosi unum et Heliae unum
-<sup>6</sup> (9-5) non enim sciebat quid diceret erant enim timore exterriti
-<sup>7</sup> (9-6) et facta est nubes obumbrans eos et venit vox de nube dicens hic est Filius meus carissimus audite illum
-<sup>8</sup> (9-7) et statim circumspicientes neminem amplius viderunt nisi Iesum tantum secum
-<sup>9</sup> (9-8) et descendentibus illis de monte praecepit illis ne cui quae vidissent narrarent nisi cum Filius hominis a mortuis resurrexerit
-<sup>10</sup> (9-9) et verbum continuerunt apud se conquirentes quid esset cum a mortuis resurrexerit
-<sup>11</sup> (9-10) et interrogabant eum dicentes quid ergo dicunt Pharisaei et scribae quia Heliam oporteat venire primum
-<sup>12</sup> (9-11) qui respondens ait illis Helias cum venerit primo restituet omnia et quomodo scriptum est in Filium hominis ut multa patiatur et contemnatur
-<sup>13</sup> (9-12) sed dico vobis quia et Helias venit et fecerunt illi quaecumque voluerunt sicut scriptum est de eo
-<sup>14</sup> (9-13) et veniens ad discipulos suos vidit turbam magnam circa eos et scribas conquirentes cum illis
-<sup>15</sup> (9-14) et confestim omnis populus videns eum stupefactus est et adcurrentes salutabant eum
-<sup>16</sup> (9-15) et interrogavit eos quid inter vos conquiritis
-<sup>17</sup> (9-16) et respondens unus de turba dixit magister adtuli filium meum ad te habentem spiritum mutum
-<sup>18</sup> (9-17) qui ubicumque eum adprehenderit adlidit eum et spumat et stridet dentibus et arescit et dixi discipulis tuis ut eicerent illum et non potuerunt
-<sup>19</sup> (9-18) qui respondens eis dicit o generatio incredula quamdiu apud vos ero quamdiu vos patiar adferte illum ad me
-<sup>20</sup> (9-19) et adtulerunt eum et cum vidisset illum statim spiritus conturbavit eum et elisus in terram volutabatur spumans
-<sup>21</sup> (9-20) et interrogavit patrem eius quantum temporis est ex quo hoc ei accidit at ille ait ab infantia
-<sup>22</sup> (9-21) et frequenter eum et in ignem et in aquas misit ut eum perderet sed si quid potes adiuva nos misertus nostri
-<sup>23</sup> (9-22) Iesus autem ait illi si potes credere omnia possibilia credenti
-<sup>24</sup> (9-23) et continuo exclamans pater pueri cum lacrimis aiebat credo adiuva incredulitatem meam
-<sup>25</sup> (9-24) et cum videret Iesus concurrentem turbam comminatus est spiritui inmundo dicens illi surde et mute spiritus ego tibi praecipio exi ab eo et amplius ne introeas in eum
-<sup>26</sup> (9-25) et clamans et multum discerpens eum exiit ab eo et factus est sicut mortuus ita ut multi dicerent quia mortuus est
-<sup>27</sup> (9-26) Iesus autem tenens manum eius elevavit illum et surrexit
-<sup>28</sup> (9-27) et cum introisset in domum discipuli eius secreto interrogabant eum quare nos non potuimus eicere eum
-<sup>29</sup> (9-28) et dixit illis hoc genus in nullo potest exire nisi in oratione et ieiunio
-<sup>30</sup> (9-29) et inde profecti praetergrediebantur Galilaeam nec volebat quemquam scire
-<sup>31</sup> (9-30) docebat autem discipulos suos et dicebat illis quoniam Filius hominis tradetur in manus hominum et occident eum et occisus tertia die resurget
-<sup>32</sup> (9-31) at illi ignorabant verbum et timebant eum interrogare
-<sup>33</sup> (9-32) et venerunt Capharnaum qui cum domi esset interrogabat eos quid in via tractabatis
-<sup>34</sup> (9-33) at illi tacebant siquidem inter se in via disputaverant quis esset illorum maior
-<sup>35</sup> (9-34) et residens vocavit duodecim et ait illis si quis vult primus esse erit omnium novissimus et omnium minister
-<sup>36</sup> (9-35) et accipiens puerum statuit eum in medio eorum quem cum conplexus esset ait illis
-<sup>37</sup> (9-36) quisquis unum ex huiusmodi pueris receperit in nomine meo me recipit et quicumque me susceperit non me suscipit sed eum qui me misit
-<sup>38</sup> (9-37) respondit illi Iohannes dicens magister vidimus quendam in nomine tuo eicientem daemonia qui non sequitur nos et prohibuimus eum
-<sup>39</sup> (9-38) Iesus autem ait nolite prohibere eum nemo est enim qui faciat virtutem in nomine meo et possit cito male loqui de me
-<sup>40</sup> (9-39) qui enim non est adversum vos pro vobis est
-<sup>41</sup> (9-40) quisquis enim potum dederit vobis calicem aquae in nomine meo quia Christi estis amen dico vobis non perdet mercedem suam
-<sup>42</sup> (9-41) et quisquis scandalizaverit unum ex his pusillis credentibus in me bonum est ei magis si circumdaretur mola asinaria collo eius et in mare mitteretur
-<sup>43</sup> (9-42) et si scandalizaverit te manus tua abscide illam bonum est tibi debilem introire in vitam quam duas manus habentem ire in gehennam in ignem inextinguibilem
-<sup>44</sup> (9-43) ubi vermis eorum non moritur et ignis non extinguitur
-<sup>45</sup> (9-44) et si pes tuus te scandalizat amputa illum bonum est tibi claudum introire in vitam aeternam quam duos pedes habentem mitti in gehennam ignis inextinguibilis
-<sup>46</sup> (9-45) ubi vermis eorum non moritur et ignis non extinguitur
-<sup>47</sup> (9-46) quod si oculus tuus scandalizat te eice eum bonum est tibi luscum introire in regnum Dei quam duos oculos habentem mitti in gehennam ignis
-<sup>48</sup> (9-47) ubi vermis eorum non moritur et ignis non extinguitur
-<sup>49</sup> (9-48) omnis enim igne sallietur et omnis victima sallietur
-<sup>50</sup> (9-49) bonum est sal quod si sal insulsum fuerit in quo illud condietis habete in vobis sal et pacem habete inter vos
+<sup>1</sup> <sup>a</sup>et dicebat illis amen dico vobis quia sunt quidam de hic stantibus qui non gustabunt mortem donec videant regnum Dei veniens in virtute
+<sup>2</sup> <sup>b</sup>et post dies sex adsumit Iesus Petrum et Iacobum et Iohannem et ducit illos in montem excelsum seorsum solos et transfiguratus est coram ipsis
+<sup>3</sup> <sup>c</sup>et vestimenta eius facta sunt splendentia candida nimis velut nix qualia fullo super terram non potest candida facere
+<sup>4</sup> <sup>d</sup>et apparuit illis Helias cum Mose et erant loquentes cum Iesu
+<sup>5</sup> <sup>e</sup>et respondens Petrus ait Iesu rabbi bonum est hic nos esse et faciamus tria tabernacula tibi unum et Mosi unum et Heliae unum
+<sup>6</sup> <sup>f</sup>non enim sciebat quid diceret erant enim timore exterriti
+<sup>7</sup> <sup>g</sup>et facta est nubes obumbrans eos et venit vox de nube dicens hic est Filius meus carissimus audite illum
+<sup>8</sup> <sup>h</sup>et statim circumspicientes neminem amplius viderunt nisi Iesum tantum secum
+<sup>9</sup> <sup>i</sup>et descendentibus illis de monte praecepit illis ne cui quae vidissent narrarent nisi cum Filius hominis a mortuis resurrexerit
+<sup>10</sup> <sup>j</sup>et verbum continuerunt apud se conquirentes quid esset cum a mortuis resurrexerit
+<sup>11</sup> <sup>k</sup>et interrogabant eum dicentes quid ergo dicunt Pharisaei et scribae quia Heliam oporteat venire primum
+<sup>12</sup> <sup>l</sup>qui respondens ait illis Helias cum venerit primo restituet omnia et quomodo scriptum est in Filium hominis ut multa patiatur et contemnatur
+<sup>13</sup> <sup>m</sup>sed dico vobis quia et Helias venit et fecerunt illi quaecumque voluerunt sicut scriptum est de eo
+<sup>14</sup> <sup>n</sup>et veniens ad discipulos suos vidit turbam magnam circa eos et scribas conquirentes cum illis
+<sup>15</sup> <sup>o</sup>et confestim omnis populus videns eum stupefactus est et adcurrentes salutabant eum
+<sup>16</sup> <sup>p</sup>et interrogavit eos quid inter vos conquiritis
+<sup>17</sup> <sup>q</sup>et respondens unus de turba dixit magister adtuli filium meum ad te habentem spiritum mutum
+<sup>18</sup> <sup>r</sup>qui ubicumque eum adprehenderit adlidit eum et spumat et stridet dentibus et arescit et dixi discipulis tuis ut eicerent illum et non potuerunt
+<sup>19</sup> <sup>s</sup>qui respondens eis dicit o generatio incredula quamdiu apud vos ero quamdiu vos patiar adferte illum ad me
+<sup>20</sup> <sup>t</sup>et adtulerunt eum et cum vidisset illum statim spiritus conturbavit eum et elisus in terram volutabatur spumans
+<sup>21</sup> <sup>u</sup>et interrogavit patrem eius quantum temporis est ex quo hoc ei accidit at ille ait ab infantia
+<sup>22</sup> <sup>v</sup>et frequenter eum et in ignem et in aquas misit ut eum perderet sed si quid potes adiuva nos misertus nostri
+<sup>23</sup> <sup>w</sup>Iesus autem ait illi si potes credere omnia possibilia credenti
+<sup>24</sup> <sup>x</sup>et continuo exclamans pater pueri cum lacrimis aiebat credo adiuva incredulitatem meam
+<sup>25</sup> <sup>y</sup>et cum videret Iesus concurrentem turbam comminatus est spiritui inmundo dicens illi surde et mute spiritus ego tibi praecipio exi ab eo et amplius ne introeas in eum
+<sup>26</sup> <sup>z</sup>et clamans et multum discerpens eum exiit ab eo et factus est sicut mortuus ita ut multi dicerent quia mortuus est
+<sup>27</sup> <sup>a</sup>Iesus autem tenens manum eius elevavit illum et surrexit
+<sup>28</sup> <sup>b</sup>et cum introisset in domum discipuli eius secreto interrogabant eum quare nos non potuimus eicere eum
+<sup>29</sup> <sup>c</sup>et dixit illis hoc genus in nullo potest exire nisi in oratione et ieiunio
+<sup>30</sup> <sup>d</sup>et inde profecti praetergrediebantur Galilaeam nec volebat quemquam scire
+<sup>31</sup> <sup>e</sup>docebat autem discipulos suos et dicebat illis quoniam Filius hominis tradetur in manus hominum et occident eum et occisus tertia die resurget
+<sup>32</sup> <sup>f</sup>at illi ignorabant verbum et timebant eum interrogare
+<sup>33</sup> <sup>g</sup>et venerunt Capharnaum qui cum domi esset interrogabat eos quid in via tractabatis
+<sup>34</sup> <sup>h</sup>at illi tacebant siquidem inter se in via disputaverant quis esset illorum maior
+<sup>35</sup> <sup>i</sup>et residens vocavit duodecim et ait illis si quis vult primus esse erit omnium novissimus et omnium minister
+<sup>36</sup> <sup>j</sup>et accipiens puerum statuit eum in medio eorum quem cum conplexus esset ait illis
+<sup>37</sup> <sup>k</sup>quisquis unum ex huiusmodi pueris receperit in nomine meo me recipit et quicumque me susceperit non me suscipit sed eum qui me misit
+<sup>38</sup> <sup>l</sup>respondit illi Iohannes dicens magister vidimus quendam in nomine tuo eicientem daemonia qui non sequitur nos et prohibuimus eum
+<sup>39</sup> <sup>m</sup>Iesus autem ait nolite prohibere eum nemo est enim qui faciat virtutem in nomine meo et possit cito male loqui de me
+<sup>40</sup> <sup>n</sup>qui enim non est adversum vos pro vobis est
+<sup>41</sup> <sup>o</sup>quisquis enim potum dederit vobis calicem aquae in nomine meo quia Christi estis amen dico vobis non perdet mercedem suam
+<sup>42</sup> <sup>p</sup>et quisquis scandalizaverit unum ex his pusillis credentibus in me bonum est ei magis si circumdaretur mola asinaria collo eius et in mare mitteretur
+<sup>43</sup> <sup>q</sup>et si scandalizaverit te manus tua abscide illam bonum est tibi debilem introire in vitam quam duas manus habentem ire in gehennam in ignem inextinguibilem
+<sup>44</sup> <sup>r</sup>ubi vermis eorum non moritur et ignis non extinguitur
+<sup>45</sup> <sup>s</sup>et si pes tuus te scandalizat amputa illum bonum est tibi claudum introire in vitam aeternam quam duos pedes habentem mitti in gehennam ignis inextinguibilis
+<sup>46</sup> <sup>t</sup>ubi vermis eorum non moritur et ignis non extinguitur
+<sup>47</sup> <sup>u</sup>quod si oculus tuus scandalizat te eice eum bonum est tibi luscum introire in regnum Dei quam duos oculos habentem mitti in gehennam ignis
+<sup>48</sup> <sup>v</sup>ubi vermis eorum non moritur et ignis non extinguitur
+<sup>49</sup> <sup>w</sup>omnis enim igne sallietur et omnis victima sallietur
+<sup>50</sup> <sup>x</sup>bonum est sal quod si sal insulsum fuerit in quo illud condietis habete in vobis sal et pacem habete inter vos
+
+> - <sup>a</sup> 1. Originally verse 8:39.
+> - <sup>b</sup> 2. Originally verse 9:1.
+> - <sup>c</sup> 3. Originally verse 9:2.
+> - <sup>d</sup> 4. Originally verse 9:3.
+> - <sup>e</sup> 5. Originally verse 9:4.
+> - <sup>f</sup> 6. Originally verse 9:5.
+> - <sup>g</sup> 7. Originally verse 9:6.
+> - <sup>h</sup> 8. Originally verse 9:7.
+> - <sup>i</sup> 9. Originally verse 9:8.
+> - <sup>j</sup> 10. Originally verse 9:9.
+> - <sup>k</sup> 11. Originally verse 9:10.
+> - <sup>l</sup> 12. Originally verse 9:11.
+> - <sup>m</sup> 13. Originally verse 9:12.
+> - <sup>n</sup> 14. Originally verse 9:13.
+> - <sup>o</sup> 15. Originally verse 9:14.
+> - <sup>p</sup> 16. Originally verse 9:15.
+> - <sup>q</sup> 17. Originally verse 9:16.
+> - <sup>r</sup> 18. Originally verse 9:17.
+> - <sup>s</sup> 19. Originally verse 9:18.
+> - <sup>t</sup> 20. Originally verse 9:19.
+> - <sup>u</sup> 21. Originally verse 9:20.
+> - <sup>v</sup> 22. Originally verse 9:21.
+> - <sup>w</sup> 23. Originally verse 9:22.
+> - <sup>x</sup> 24. Originally verse 9:23.
+> - <sup>y</sup> 25. Originally verse 9:24.
+> - <sup>z</sup> 26. Originally verse 9:25.
+> - <sup>a</sup> 27. Originally verse 9:26.
+> - <sup>b</sup> 28. Originally verse 9:27.
+> - <sup>c</sup> 29. Originally verse 9:28.
+> - <sup>d</sup> 30. Originally verse 9:29.
+> - <sup>e</sup> 31. Originally verse 9:30.
+> - <sup>f</sup> 32. Originally verse 9:31.
+> - <sup>g</sup> 33. Originally verse 9:32.
+> - <sup>h</sup> 34. Originally verse 9:33.
+> - <sup>i</sup> 35. Originally verse 9:34.
+> - <sup>j</sup> 36. Originally verse 9:35.
+> - <sup>k</sup> 37. Originally verse 9:36.
+> - <sup>l</sup> 38. Originally verse 9:37.
+> - <sup>m</sup> 39. Originally verse 9:38.
+> - <sup>n</sup> 40. Originally verse 9:39.
+> - <sup>o</sup> 41. Originally verse 9:40.
+> - <sup>p</sup> 42. Originally verse 9:41.
+> - <sup>q</sup> 43. Originally verse 9:42.
+> - <sup>r</sup> 44. Originally verse 9:43.
+> - <sup>s</sup> 45. Originally verse 9:44.
+> - <sup>t</sup> 46. Originally verse 9:45.
+> - <sup>u</sup> 47. Originally verse 9:46.
+> - <sup>v</sup> 48. Originally verse 9:47.
+> - <sup>w</sup> 49. Originally verse 9:48.
+> - <sup>x</sup> 50. Originally verse 9:49.
 
 ## Chapter 10
 

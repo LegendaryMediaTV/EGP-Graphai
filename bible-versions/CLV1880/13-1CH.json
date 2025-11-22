@@ -2838,7 +2838,15 @@
     "book": "1CH",
     "chapter": 11,
     "verse": 47,
-    "content": "(11-46) Elihel et Obed et Iasihel de Masobia"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 11:46."
+        }
+      },
+      "Elihel et Obed et Iasihel de Masobia"
+    ]
   },
   {
     "book": "1CH",
@@ -4149,7 +4157,15 @@
     "book": "1CH",
     "chapter": 20,
     "verse": 8,
-    "content": "(20-7) hii sunt filii Rapha in Geth qui ceciderunt in manu David et servorum eius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 20:7."
+        }
+      },
+      "hii sunt filii Rapha in Geth qui ceciderunt in manu David et servorum eius"
+    ]
   },
   {
     "book": "1CH",

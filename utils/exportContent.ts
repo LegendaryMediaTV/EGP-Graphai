@@ -91,6 +91,92 @@ function renderContentToText(content: Content[]): string {
 }
 
 /**
+ * Process subtitle content, extracting text and footnotes
+ */
+function processSubtitleContent(
+  content: Content,
+  footnotes: string[],
+  footnoteStartIndex: number = 0
+): string {
+  const textParts: string[] = [];
+  let footnoteIndex = footnoteStartIndex;
+
+  function processItem(item: Content): void {
+    if (typeof item === "string") {
+      textParts.push(item);
+      return;
+    }
+
+    if (Array.isArray(item)) {
+      item.forEach(processItem);
+      return;
+    }
+
+    // Handle object
+    const obj = item as ContentObject;
+
+    if (obj.text) {
+      textParts.push(obj.text);
+    }
+
+    if (obj.foot) {
+      const letter = String.fromCharCode(97 + (footnoteIndex % 26));
+      textParts.push(`<sup>${letter}</sup>`);
+      const footnoteContent =
+        typeof obj.foot.content === "string"
+          ? obj.foot.content
+          : convertContentToMarkdownText(obj.foot.content);
+      footnotes.push(`- <sup>${letter}</sup> Subtitle. ${footnoteContent}`);
+      footnoteIndex++;
+    }
+  }
+
+  processItem(content);
+  return textParts.join("");
+}
+/**
+ * Process subtitle content for text export, extracting text and footnotes
+ */
+function processSubtitleContentText(
+  content: Content,
+  footnotes: Array<{ content: string }>
+): string {
+  const textParts: string[] = [];
+
+  function processItem(item: Content): void {
+    if (typeof item === "string") {
+      textParts.push(item);
+      return;
+    }
+
+    if (Array.isArray(item)) {
+      item.forEach(processItem);
+      return;
+    }
+
+    // Handle object
+    const obj = item as ContentObject;
+
+    if (obj.text) {
+      textParts.push(obj.text);
+    }
+
+    if (obj.foot) {
+      textParts.push("°");
+      const footnoteContent =
+        typeof obj.foot.content === "string"
+          ? obj.foot.content
+          : convertContentToText(obj.foot.content);
+      textParts.push(` {${footnoteContent}}`);
+      footnotes.push({ content: footnoteContent });
+    }
+  }
+
+  processItem(content);
+  return textParts.join("");
+}
+
+/**
  * Convert content to plain text for markdown (without Strong's numbers or morph codes)
  */
 function convertContentToMarkdownText(content: Content): string {
@@ -170,19 +256,33 @@ function convertVerseToText(verse: VerseSchema): string {
 
     // Handle object content
     if ("heading" in content) {
-      return; // Skip headings in text export
-    }
-
-    if ("subtitle" in content) {
-      const subtitleText =
-        typeof content.subtitle === "string"
-          ? content.subtitle
-          : convertContentToText(content.subtitle);
-      textParts.push(`«${subtitleText}»`);
+      const headingText =
+        typeof content.heading === "string"
+          ? content.heading
+          : convertContentToText(content.heading);
+      textParts.push(`[[${headingText}]]`);
       return;
     }
 
-    if ("paragraph" in content && !("text" in content)) {
+    if ("subtitle" in content) {
+      const subtitleFootnotes: Array<{ content: string }> = [];
+      const subtitleText =
+        typeof content.subtitle === "string"
+          ? content.subtitle
+          : processSubtitleContentText(content.subtitle, subtitleFootnotes);
+      textParts.push(`«${subtitleText}»`);
+      // Add subtitle footnotes to the footnote parts
+      for (const fn of subtitleFootnotes) {
+        footnoteParts.push(`Subtitle. ${fn.content}`);
+      }
+      return;
+    }
+
+    if (
+      "paragraph" in content &&
+      !("text" in content) &&
+      !("foot" in content)
+    ) {
       const paragraphContent = (content as any).paragraph as Content;
       if (
         paragraphContent !== undefined &&
@@ -199,7 +299,12 @@ function convertVerseToText(verse: VerseSchema): string {
 
     if (obj.foot) {
       // For words with footnotes: text° Strong's (morph) {footnote}
-      textPart += "°";
+      // If there's no text, just add the footnote marker
+      if (textPart) {
+        textPart += "°";
+      } else {
+        textPart = "°";
+      }
       if (obj.strong) {
         textPart += " " + obj.strong;
       }
@@ -225,7 +330,8 @@ function convertVerseToText(verse: VerseSchema): string {
       textPart = "¶ " + textPart;
     }
 
-    if (textPart.trim()) {
+    // Always add textPart if there's content (including just footnote markers)
+    if (textPart) {
       textParts.push(textPart);
     }
 
@@ -370,6 +476,8 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
       // Chapter header
       markdownLines.push(`## Chapter ${chapterNum}`);
 
+      const chapterFootnotes: string[] = [];
+
       // Check for subtitle in first verse
       let hasSubtitle = false;
       if (chapterVerses.length > 0) {
@@ -380,12 +488,34 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
             const subtitleText =
               typeof firstItem.subtitle === "string"
                 ? firstItem.subtitle
-                : convertContentToMarkdownText(firstItem.subtitle);
+                : processSubtitleContent(
+                    firstItem.subtitle,
+                    chapterFootnotes,
+                    0
+                  );
             markdownLines.push("");
             markdownLines.push(`> _${subtitleText}_`);
             // Remove the subtitle from the verse content
             chapterVerses[0].content = firstContent.slice(1);
             hasSubtitle = true;
+          }
+        }
+      }
+
+      // Check for heading in first verse (after subtitle removal)
+      if (chapterVerses.length > 0) {
+        const firstContent = chapterVerses[0].content;
+        if (Array.isArray(firstContent) && firstContent.length > 0) {
+          const firstItem = firstContent[0];
+          if (typeof firstItem === "object" && "heading" in firstItem) {
+            const headingText =
+              typeof firstItem.heading === "string"
+                ? firstItem.heading
+                : convertContentToMarkdownText(firstItem.heading);
+            markdownLines.push("");
+            markdownLines.push(`### ${headingText}`);
+            // Remove the heading from the verse content
+            chapterVerses[0].content = firstContent.slice(1);
           }
         }
       }
@@ -410,8 +540,6 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
       if (!firstVerseHasLeadingParagraph) {
         markdownLines.push("");
       }
-
-      const chapterFootnotes: string[] = [];
 
       for (const verse of chapterVerses) {
         const verseText = convertVerseToMarkdown(verse, chapterFootnotes);
@@ -459,7 +587,8 @@ function convertVerseToMarkdown(
 
     // Handle object content
     if ("heading" in content) {
-      return; // Skip headings in markdown export
+      // Headings should have been extracted at chapter level, skip if encountered here
+      return;
     }
 
     if ("subtitle" in content) {
@@ -471,7 +600,11 @@ function convertVerseToMarkdown(
       return;
     }
 
-    if ("paragraph" in content && !("text" in content)) {
+    if (
+      "paragraph" in content &&
+      !("text" in content) &&
+      !("foot" in content)
+    ) {
       if (!(isFirst && !hasLeadingParagraph)) {
         textParts.push("\n\n");
       }
@@ -494,26 +627,28 @@ function convertVerseToMarkdown(
       textParts.push("\n\n");
     }
 
+    // Process text if present
     if (obj.text) {
       textParts.push(obj.text);
+    }
 
-      if (obj.foot) {
-        // Add footnote marker using letters (a, b, c...) cycling back to 'a' after 'z'
-        const footnoteLetter = String.fromCharCode(
-          97 + (chapterFootnotes.length % 26)
-        ); // 97 = 'a'
-        textParts.push(`<sup>${footnoteLetter}</sup>`);
+    // Process footnote (can exist with or without text)
+    if (obj.foot) {
+      // Add footnote marker using letters (a, b, c...) cycling back to 'a' after 'z'
+      const footnoteLetter = String.fromCharCode(
+        97 + (chapterFootnotes.length % 26)
+      ); // 97 = 'a'
+      textParts.push(`<sup>${footnoteLetter}</sup>`);
 
-        const footnoteContent = convertContentToMarkdownText(obj.foot.content);
-        chapterFootnotes.push(
-          `- <sup>${footnoteLetter}</sup> ${verseNum}. ${footnoteContent}`
-        );
-      }
+      const footnoteContent = convertContentToMarkdownText(obj.foot.content);
+      chapterFootnotes.push(
+        `- <sup>${footnoteLetter}</sup> ${verseNum}. ${footnoteContent}`
+      );
+    }
 
-      // Add line break if needed
-      if (obj.break) {
-        textParts.push("<br>");
-      }
+    // Add line break if needed
+    if (obj.break) {
+      textParts.push("<br>");
     }
   }
 

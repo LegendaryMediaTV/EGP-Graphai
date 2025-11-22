@@ -77,10 +77,15 @@
 <sup>9</sup> exaltabitur manus tua super hostes tuos et omnes inimici tui interibunt
 <sup>10</sup> et erit in die illa dicit Dominus auferam equos tuos de medio tui et disperdam quadrigas tuas
 <sup>11</sup> et perdam civitates terrae tuae et destruam omnes munitiones tuas
-<sup>12</sup> (5-11) et auferam maleficia de manu tua et divinationes non erunt in te
-<sup>13</sup> (5-12) et perire faciam sculptilia tua et statuas tuas de medio tui et non adorabis ultra opera manuum tuarum
-<sup>14</sup> (5-13) et evellam lucos tuos de medio tui et conteram civitates tuas
-<sup>15</sup> (5-14) et faciam in furore et in indignatione ultionem in omnibus gentibus quae non audierunt
+<sup>12</sup> <sup>a</sup>et auferam maleficia de manu tua et divinationes non erunt in te
+<sup>13</sup> <sup>b</sup>et perire faciam sculptilia tua et statuas tuas de medio tui et non adorabis ultra opera manuum tuarum
+<sup>14</sup> <sup>c</sup>et evellam lucos tuos de medio tui et conteram civitates tuas
+<sup>15</sup> <sup>d</sup>et faciam in furore et in indignatione ultionem in omnibus gentibus quae non audierunt
+
+> - <sup>a</sup> 12. Originally verse 5:11.
+> - <sup>b</sup> 13. Originally verse 5:12.
+> - <sup>c</sup> 14. Originally verse 5:13.
+> - <sup>d</sup> 15. Originally verse 5:14.
 
 ## Chapter 6
 

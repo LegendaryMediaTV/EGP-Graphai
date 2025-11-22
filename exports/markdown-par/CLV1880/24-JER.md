@@ -1048,15 +1048,25 @@
 <sup>10</sup> ergo cum recessisset exercitus Chaldeorum ab Hierusalem propter exercitum Pharaonis
 <sup>11</sup> egressus est Hieremias de Hierusalem ut iret in terram Beniamin et divideret ibi possessionem in conspectu civium
 <sup>12</sup> cumque pervenisset ad portam Beniamin erat ibi custos portae per vices
-<sup>13</sup> (37-12) nomine Hierias filius Selemiae filii Ananiae et adprehendit Hieremiam prophetam dicens ad Chaldeos profugis
-<sup>14</sup> (37-13) et respondit Hieremias falsum est non fugio ad Chaldeos et non audivit eum sed conprehendit Hierias Hieremiam et adduxit eum ad principes
-<sup>15</sup> (37-14) quam ob rem irati principes contra Hieremiam caesum eum miserunt in carcerem qui erat in domo Ionathan scribae ipse enim praepositus erat super carcerem
-<sup>16</sup> (37-15) itaque ingressus est Hieremias in domum laci et in ergastula et sedit ibi Hieremias diebus multis
-<sup>17</sup> (37-16) mittens autem rex Sedecias tulit eum et interrogavit in domo sua abscondite et dixit putasne est sermo a Domino et dixit Hieremias est et ait in manu regis Babylonis traderis
-<sup>18</sup> (37-17) et dixit Hieremias ad regem Sedeciam quid peccavi tibi et servis tuis et populo tuo quia misisti me in domum carceris
-<sup>19</sup> (37-18) ubi sunt prophetae vestri qui prophetabant vobis et dicebant non veniet rex Babylonis super vos et super terram hanc
-<sup>20</sup> (37-19) nunc ergo audi obsecro domine mi rex valeat deprecatio mea in conspectu tuo et ne me remittas in domum Ionathan scribae ne moriar ibi
-<sup>21</sup> (37-20) praecepit ergo rex Sedecias ut traderetur Hieremias in vestibulo carceris et daretur ei torta panis cotidie excepto pulmento donec consumerentur omnes panes de civitate et mansit Hieremias in vestibulo carceris
+<sup>13</sup> <sup>a</sup>nomine Hierias filius Selemiae filii Ananiae et adprehendit Hieremiam prophetam dicens ad Chaldeos profugis
+<sup>14</sup> <sup>b</sup>et respondit Hieremias falsum est non fugio ad Chaldeos et non audivit eum sed conprehendit Hierias Hieremiam et adduxit eum ad principes
+<sup>15</sup> <sup>c</sup>quam ob rem irati principes contra Hieremiam caesum eum miserunt in carcerem qui erat in domo Ionathan scribae ipse enim praepositus erat super carcerem
+<sup>16</sup> <sup>d</sup>itaque ingressus est Hieremias in domum laci et in ergastula et sedit ibi Hieremias diebus multis
+<sup>17</sup> <sup>e</sup>mittens autem rex Sedecias tulit eum et interrogavit in domo sua abscondite et dixit putasne est sermo a Domino et dixit Hieremias est et ait in manu regis Babylonis traderis
+<sup>18</sup> <sup>f</sup>et dixit Hieremias ad regem Sedeciam quid peccavi tibi et servis tuis et populo tuo quia misisti me in domum carceris
+<sup>19</sup> <sup>g</sup>ubi sunt prophetae vestri qui prophetabant vobis et dicebant non veniet rex Babylonis super vos et super terram hanc
+<sup>20</sup> <sup>h</sup>nunc ergo audi obsecro domine mi rex valeat deprecatio mea in conspectu tuo et ne me remittas in domum Ionathan scribae ne moriar ibi
+<sup>21</sup> <sup>i</sup>praecepit ergo rex Sedecias ut traderetur Hieremias in vestibulo carceris et daretur ei torta panis cotidie excepto pulmento donec consumerentur omnes panes de civitate et mansit Hieremias in vestibulo carceris
+
+> - <sup>a</sup> 13. Originally verse 37:12.
+> - <sup>b</sup> 14. Originally verse 37:13.
+> - <sup>c</sup> 15. Originally verse 37:14.
+> - <sup>d</sup> 16. Originally verse 37:15.
+> - <sup>e</sup> 17. Originally verse 37:16.
+> - <sup>f</sup> 18. Originally verse 37:17.
+> - <sup>g</sup> 19. Originally verse 37:18.
+> - <sup>h</sup> 20. Originally verse 37:19.
+> - <sup>i</sup> 21. Originally verse 37:20.
 
 ## Chapter 38
 

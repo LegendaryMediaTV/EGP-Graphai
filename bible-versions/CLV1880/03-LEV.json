@@ -5025,7 +5025,15 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 46,
-    "content": "(26-25) haec sunt praecepta atque iudicia et leges quas dedit Dominus inter se et inter filios Israhel in monte Sinai per manum Mosi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 26:25."
+        }
+      },
+      "haec sunt praecepta atque iudicia et leges quas dedit Dominus inter se et inter filios Israhel in monte Sinai per manum Mosi"
+    ]
   },
   {
     "book": "LEV",

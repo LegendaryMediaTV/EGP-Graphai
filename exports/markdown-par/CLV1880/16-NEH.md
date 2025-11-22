@@ -67,8 +67,11 @@
 <sup>28</sup> sursum autem a porta Equorum aedificaverunt sacerdotes unusquisque contra domum suam
 <sup>29</sup> post eos aedificavit Seddo filius Emmer contra domum suam et post eum aedificavit Semeia filius Secheniae custos portae orientalis
 <sup>30</sup> post eum aedificavit Anania filius Selemiae et Anon filius Selo sextus mensuram secundam post eum aedificavit Mosollam filius Barachiae contra gazofilacium suum
-<sup>31</sup> (3-30) post eum aedificavit Melchias filius aurificis usque ad domum Nathinneorum et scruta vendentium contra portam Iudicialem et usque ad cenaculum Anguli
-<sup>32</sup> (3-31) et inter cenaculum Anguli in porta Gregis aedificaverunt artifices et negotiatores
+<sup>31</sup> <sup>a</sup>post eum aedificavit Melchias filius aurificis usque ad domum Nathinneorum et scruta vendentium contra portam Iudicialem et usque ad cenaculum Anguli
+<sup>32</sup> <sup>b</sup>et inter cenaculum Anguli in porta Gregis aedificaverunt artifices et negotiatores
+
+> - <sup>a</sup> 31. Originally verse 3:30.
+> - <sup>b</sup> 32. Originally verse 3:31.
 
 ## Chapter 4
 
@@ -393,20 +396,35 @@
 <sup>31</sup> ascendere autem feci principes Iuda super murum et statui duos choros laudantium magnos et ierunt ad dexteram super murum ad portam Sterquilinii
 <sup>32</sup> et ivit post eos Osaias et media pars principum Iuda
 <sup>33</sup> et Azarias Ezras et Mosollam
-<sup>34</sup> (12-33) Iuda et Beniamin et Semeia et Hieremia
-<sup>35</sup> (12-34) et de filiis sacerdotum in tubis Zaccharias filius Ionathan filius Semeiae filius Mathaniae filius Michaiae filius Zecchur filius Asaph
-<sup>36</sup> (12-35) et fratres eius Semeia et Azarel Malalai Galalai Maai Nathanel et Iuda et Anani in vasis cantici David viri Dei et Ezras scriba ante eos in porta Fontis
-<sup>37</sup> (12-36) et contra eos ascenderunt in gradibus civitatis David in ascensu muri super domum David et usque ad portam Aquarum ad orientem
-<sup>38</sup> (12-37) et chorus secundus gratias referentium ibat ex adverso et ego post eum et media pars populi super murum et super turrem Furnorum et usque ad murum latissimum
-<sup>39</sup> (12-38) et super portam Ephraim et super portam Antiquam et super portam Piscium et turrem Ananehel et turrem Ema et usque ad portam Gregis et steterunt in porta Custodiae
-<sup>40</sup> (12-39) steteruntque duo chori laudantium in domo Dei et ego et dimidia pars magistratuum mecum
-<sup>41</sup> (12-40) et sacerdotes Eliachim Maasia Miniamin Michea Elioenai Zaccharia Anania in tubis
-<sup>42</sup> (12-41) et Maasia et Semea et Eleazar et Azi et Iohanan et Melchia et Elam et Ezer et clare cecinerunt cantores et Iezraia praepositus
-<sup>43</sup> (12-42) et immolaverunt in die illa victimas magnas et laetati sunt Deus enim laetificaverat eos laetitia magna sed et uxores eorum et liberi gavisi sunt et audita est laetitia Hierusalem procul
-<sup>44</sup> (12-43) recensuerunt quoque in die illa viros super gazofilacia thesauri ad libamina et ad primitias et ad decimas ut introferrent per eos principes civitatis in decore gratiarum actionis sacerdotes et Levitas quia laetatus est Iuda in sacerdotibus et Levitis adstantibus
-<sup>45</sup> (12-44) et custodierunt observationem Dei sui et observationem expiationis et cantores et ianitores iuxta praeceptum David et Salomonis filii eius
-<sup>46</sup> (12-45) quia in diebus David et Asaph ab exordio erant principes constituti cantorum in carmine laudantium et confitentium Deo
-<sup>47</sup> (12-46) et omnis Israhel in diebus Zorobabel et in diebus Neemiae dabat partes cantoribus et ianitoribus per dies singulos et sanctificabant Levitas et Levitae sanctificabant filios Aaron
+<sup>34</sup> <sup>a</sup>Iuda et Beniamin et Semeia et Hieremia
+<sup>35</sup> <sup>b</sup>et de filiis sacerdotum in tubis Zaccharias filius Ionathan filius Semeiae filius Mathaniae filius Michaiae filius Zecchur filius Asaph
+<sup>36</sup> <sup>c</sup>et fratres eius Semeia et Azarel Malalai Galalai Maai Nathanel et Iuda et Anani in vasis cantici David viri Dei et Ezras scriba ante eos in porta Fontis
+<sup>37</sup> <sup>d</sup>et contra eos ascenderunt in gradibus civitatis David in ascensu muri super domum David et usque ad portam Aquarum ad orientem
+<sup>38</sup> <sup>e</sup>et chorus secundus gratias referentium ibat ex adverso et ego post eum et media pars populi super murum et super turrem Furnorum et usque ad murum latissimum
+<sup>39</sup> <sup>f</sup>et super portam Ephraim et super portam Antiquam et super portam Piscium et turrem Ananehel et turrem Ema et usque ad portam Gregis et steterunt in porta Custodiae
+<sup>40</sup> <sup>g</sup>steteruntque duo chori laudantium in domo Dei et ego et dimidia pars magistratuum mecum
+<sup>41</sup> <sup>h</sup>et sacerdotes Eliachim Maasia Miniamin Michea Elioenai Zaccharia Anania in tubis
+<sup>42</sup> <sup>i</sup>et Maasia et Semea et Eleazar et Azi et Iohanan et Melchia et Elam et Ezer et clare cecinerunt cantores et Iezraia praepositus
+<sup>43</sup> <sup>j</sup>et immolaverunt in die illa victimas magnas et laetati sunt Deus enim laetificaverat eos laetitia magna sed et uxores eorum et liberi gavisi sunt et audita est laetitia Hierusalem procul
+<sup>44</sup> <sup>k</sup>recensuerunt quoque in die illa viros super gazofilacia thesauri ad libamina et ad primitias et ad decimas ut introferrent per eos principes civitatis in decore gratiarum actionis sacerdotes et Levitas quia laetatus est Iuda in sacerdotibus et Levitis adstantibus
+<sup>45</sup> <sup>l</sup>et custodierunt observationem Dei sui et observationem expiationis et cantores et ianitores iuxta praeceptum David et Salomonis filii eius
+<sup>46</sup> <sup>m</sup>quia in diebus David et Asaph ab exordio erant principes constituti cantorum in carmine laudantium et confitentium Deo
+<sup>47</sup> <sup>n</sup>et omnis Israhel in diebus Zorobabel et in diebus Neemiae dabat partes cantoribus et ianitoribus per dies singulos et sanctificabant Levitas et Levitae sanctificabant filios Aaron
+
+> - <sup>a</sup> 34. Originally verse 12:33.
+> - <sup>b</sup> 35. Originally verse 12:34.
+> - <sup>c</sup> 36. Originally verse 12:35.
+> - <sup>d</sup> 37. Originally verse 12:36.
+> - <sup>e</sup> 38. Originally verse 12:37.
+> - <sup>f</sup> 39. Originally verse 12:38.
+> - <sup>g</sup> 40. Originally verse 12:39.
+> - <sup>h</sup> 41. Originally verse 12:40.
+> - <sup>i</sup> 42. Originally verse 12:41.
+> - <sup>j</sup> 43. Originally verse 12:42.
+> - <sup>k</sup> 44. Originally verse 12:43.
+> - <sup>l</sup> 45. Originally verse 12:44.
+> - <sup>m</sup> 46. Originally verse 12:45.
+> - <sup>n</sup> 47. Originally verse 12:46.
 
 ## Chapter 13
 

@@ -114,7 +114,9 @@
 <sup>11</sup> et respondebit finis est et dicet ei tace et non recorderis nominis Domini
 <sup>12</sup> quia ecce Dominus mandabit et percutiet domum maiorem ruinis et domum minorem scissionibus
 <sup>13</sup> numquid currere queunt in petris equi aut arari potest in bubalis quoniam convertistis in amaritudinem iudicium et fructum iustitiae in absinthium
-<sup>14</sup> qui laetamini in nihili qui dicitis numquid non in fortitudine nostra adsumpsimus nobis cornua (6-15) ecce enim suscitabo super vos domus Israhel dicit Dominus Deus exercituum gentem et conterent vos ab introitu Emath usque ad torrentem Deserti
+<sup>14</sup> qui laetamini in nihili qui dicitis numquid non in fortitudine nostra adsumpsimus nobis cornua <sup>a</sup>ecce enim suscitabo super vos domus Israhel dicit Dominus Deus exercituum gentem et conterent vos ab introitu Emath usque ad torrentem Deserti
+
+> - <sup>a</sup> 14. Originally verse 6:15.
 
 ## Chapter 7
 

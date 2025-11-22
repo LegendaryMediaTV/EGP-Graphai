@@ -40,7 +40,9 @@
 <sup>7</sup> loqueris ergo verba mea ad eos si forte audiant et quiescant quoniam inritatores sunt
 <sup>8</sup> tu autem fili hominis audi quaecumque loquor ad te et noli esse exasperans sicut domus exasperatrix est aperi os tuum et comede quaecumque ego do tibi
 <sup>9</sup> et vidi et ecce manus missa ad me in qua erat involutus liber
-<sup>10</sup> (2-9) et expandit illum coram me qui erat scriptus intus et foris et scriptae erant in eo lamentationes et carmen et vae
+<sup>10</sup> <sup>a</sup>et expandit illum coram me qui erat scriptus intus et foris et scriptae erant in eo lamentationes et carmen et vae
+
+> - <sup>a</sup> 10. Originally verse 2:9.
 
 ## Chapter 3
 

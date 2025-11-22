@@ -1304,27 +1304,52 @@
 <sup>10</sup> altare holocausti et omnia vasa eius
 <sup>11</sup> labrum cum basi sua omnia unctionis oleo consecrabis ut sint sancta sanctorum
 <sup>12</sup> adplicabisque Aaron et filios eius ad fores tabernaculi testimonii et lotos aqua
-<sup>15</sup> (40-13) indues sanctis vestibus ut ministrent mihi et unctio eorum in sacerdotium proficiat sempiternum
-<sup>16</sup> (40-14) fecitque Moses omnia quae praeceperat Dominus
-<sup>17</sup> (40-15) igitur mense primo anni secundi in prima die mensis conlocatum est tabernaculum
-<sup>18</sup> (40-16) erexitque illud Moses et posuit tabulas ac bases et vectes statuitque columnas
-<sup>19</sup> (40-17) et expandit tectum super tabernaculum inposito desuper operimento sicut Dominus imperarat
-<sup>20</sup> (40-18) posuit et testimonium in arca subditis infra vectibus et oraculum desuper
-<sup>21</sup> (40-19) cumque intulisset arcam in tabernaculum adpendit ante eam velum ut expleret Domini iussionem
-<sup>22</sup> (40-20) posuit et mensam in tabernaculo testimonii ad plagam septentrionalem extra velum
-<sup>23</sup> (40-21) ordinatis coram propositionis panibus sicut praeceperat Dominus Mosi
-<sup>24</sup> (40-22) posuit et candelabrum in tabernaculum testimonii e regione mensae in parte australi
-<sup>25</sup> (40-23) locatis per ordinem lucernis iuxta praeceptum Domini
-<sup>26</sup> (40-24) posuit et altare aureum sub tecto testimonii contra velum
-<sup>27</sup> (40-25) et adolevit super eo incensum aromatum sicut iusserat Dominus
-<sup>28</sup> (40-26) posuit et tentorium in introitu tabernaculi
-<sup>29</sup> (40-27) et altare holocausti in vestibulo testimonii offerens in eo holocaustum et sacrificia ut Dominus imperarat
-<sup>30</sup> (40-28) labrum quoque statuit inter tabernaculum testimonii et altare implens illud aqua
-<sup>31</sup> (40-29) laveruntque Moses et Aaron ac filii eius manus suas et pedes
-<sup>32</sup> (40-30) cum ingrederentur tectum foederis et accederent ad altare sicut praeceperat Dominus
-<sup>33</sup> (40-31) erexit et atrium per gyrum tabernaculi et altaris ducto in introitu eius tentorio postquam cuncta perfecta sunt
-<sup>34</sup> (40-32) operuit nubes tabernaculum testimonii et gloria Domini implevit illud
-<sup>35</sup> (40-33) nec poterat Moses ingredi tectum foederis nube operiente omnia et maiestate Domini coruscante quia cuncta nubes operuerat
-<sup>36</sup> (40-34) si quando nubes tabernaculum deserebat proficiscebantur filii Israhel per turmas suas
-<sup>37</sup> (40-35) si pendebat desuper manebant in eodem loco
-<sup>38</sup> (40-36) nubes quippe Domini incubabat per diem tabernaculo et ignis in nocte videntibus populis Israhel per cunctas mansiones suas
+<sup>15</sup> <sup>a</sup>indues sanctis vestibus ut ministrent mihi et unctio eorum in sacerdotium proficiat sempiternum
+<sup>16</sup> <sup>b</sup>fecitque Moses omnia quae praeceperat Dominus
+<sup>17</sup> <sup>c</sup>igitur mense primo anni secundi in prima die mensis conlocatum est tabernaculum
+<sup>18</sup> <sup>d</sup>erexitque illud Moses et posuit tabulas ac bases et vectes statuitque columnas
+<sup>19</sup> <sup>e</sup>et expandit tectum super tabernaculum inposito desuper operimento sicut Dominus imperarat
+<sup>20</sup> <sup>f</sup>posuit et testimonium in arca subditis infra vectibus et oraculum desuper
+<sup>21</sup> <sup>g</sup>cumque intulisset arcam in tabernaculum adpendit ante eam velum ut expleret Domini iussionem
+<sup>22</sup> <sup>h</sup>posuit et mensam in tabernaculo testimonii ad plagam septentrionalem extra velum
+<sup>23</sup> <sup>i</sup>ordinatis coram propositionis panibus sicut praeceperat Dominus Mosi
+<sup>24</sup> <sup>j</sup>posuit et candelabrum in tabernaculum testimonii e regione mensae in parte australi
+<sup>25</sup> <sup>k</sup>locatis per ordinem lucernis iuxta praeceptum Domini
+<sup>26</sup> <sup>l</sup>posuit et altare aureum sub tecto testimonii contra velum
+<sup>27</sup> <sup>m</sup>et adolevit super eo incensum aromatum sicut iusserat Dominus
+<sup>28</sup> <sup>n</sup>posuit et tentorium in introitu tabernaculi
+<sup>29</sup> <sup>o</sup>et altare holocausti in vestibulo testimonii offerens in eo holocaustum et sacrificia ut Dominus imperarat
+<sup>30</sup> <sup>p</sup>labrum quoque statuit inter tabernaculum testimonii et altare implens illud aqua
+<sup>31</sup> <sup>q</sup>laveruntque Moses et Aaron ac filii eius manus suas et pedes
+<sup>32</sup> <sup>r</sup>cum ingrederentur tectum foederis et accederent ad altare sicut praeceperat Dominus
+<sup>33</sup> <sup>s</sup>erexit et atrium per gyrum tabernaculi et altaris ducto in introitu eius tentorio postquam cuncta perfecta sunt
+<sup>34</sup> <sup>t</sup>operuit nubes tabernaculum testimonii et gloria Domini implevit illud
+<sup>35</sup> <sup>u</sup>nec poterat Moses ingredi tectum foederis nube operiente omnia et maiestate Domini coruscante quia cuncta nubes operuerat
+<sup>36</sup> <sup>v</sup>si quando nubes tabernaculum deserebat proficiscebantur filii Israhel per turmas suas
+<sup>37</sup> <sup>w</sup>si pendebat desuper manebant in eodem loco
+<sup>38</sup> <sup>x</sup>nubes quippe Domini incubabat per diem tabernaculo et ignis in nocte videntibus populis Israhel per cunctas mansiones suas
+
+> - <sup>a</sup> 15. Originally verse 40:13.
+> - <sup>b</sup> 16. Originally verse 40:14.
+> - <sup>c</sup> 17. Originally verse 40:15.
+> - <sup>d</sup> 18. Originally verse 40:16.
+> - <sup>e</sup> 19. Originally verse 40:17.
+> - <sup>f</sup> 20. Originally verse 40:18.
+> - <sup>g</sup> 21. Originally verse 40:19.
+> - <sup>h</sup> 22. Originally verse 40:20.
+> - <sup>i</sup> 23. Originally verse 40:21.
+> - <sup>j</sup> 24. Originally verse 40:22.
+> - <sup>k</sup> 25. Originally verse 40:23.
+> - <sup>l</sup> 26. Originally verse 40:24.
+> - <sup>m</sup> 27. Originally verse 40:25.
+> - <sup>n</sup> 28. Originally verse 40:26.
+> - <sup>o</sup> 29. Originally verse 40:27.
+> - <sup>p</sup> 30. Originally verse 40:28.
+> - <sup>q</sup> 31. Originally verse 40:29.
+> - <sup>r</sup> 32. Originally verse 40:30.
+> - <sup>s</sup> 33. Originally verse 40:31.
+> - <sup>t</sup> 34. Originally verse 40:32.
+> - <sup>u</sup> 35. Originally verse 40:33.
+> - <sup>v</sup> 36. Originally verse 40:34.
+> - <sup>w</sup> 37. Originally verse 40:35.
+> - <sup>x</sup> 38. Originally verse 40:36.

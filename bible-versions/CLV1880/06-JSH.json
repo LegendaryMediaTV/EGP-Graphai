@@ -507,7 +507,16 @@
     "book": "JSH",
     "chapter": 4,
     "verse": 24,
-    "content": "sicut fecerat prius in mari Rubro quod siccavit donec transiremus (4-25) ut discant omnes terrarum populi fortissimam Domini manum et ut vos timeatis Dominum Deum vestrum omni tempore"
+    "content": [
+      {
+        "text": "sicut fecerat prius in mari Rubro quod siccavit donec transiremus ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 4:25."
+        }
+      },
+      "ut discant omnes terrarum populi fortissimam Domini manum et ut vos timeatis Dominum Deum vestrum omni tempore"
+    ]
   },
   {
     "book": "JSH",
@@ -594,13 +603,30 @@
     "book": "JSH",
     "chapter": 5,
     "verse": 14,
-    "content": "qui respondit nequaquam sed sum princeps exercitus Domini et nunc venio (5-15) cecidit Iosue pronus in terram et adorans ait quid dominus meus loquitur ad servum suum"
+    "content": [
+      {
+        "text": "qui respondit nequaquam sed sum princeps exercitus Domini et nunc venio ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:15."
+        }
+      },
+      "cecidit Iosue pronus in terram et adorans ait quid dominus meus loquitur ad servum suum"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 5,
     "verse": 15,
-    "content": "(5-16) solve inquit calciamentum de pedibus tuis locus enim in quo stas sanctus est fecitque Iosue ut sibi fuerat imperatum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:16."
+        }
+      },
+      "solve inquit calciamentum de pedibus tuis locus enim in quo stas sanctus est fecitque Iosue ut sibi fuerat imperatum"
+    ]
   },
   {
     "book": "JSH",
@@ -1533,37 +1559,86 @@
     "book": "JSH",
     "chapter": 10,
     "verse": 38,
-    "content": "inde reversus in Dabir (10-39) cepit eam atque vastavit"
+    "content": [
+      {
+        "text": "inde reversus in Dabir ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:39."
+        }
+      },
+      "cepit eam atque vastavit"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 39,
-    "content": "(10-40) regem quoque eius et omnia per circuitum oppida percussit in ore gladii non dimisit in ea ullas reliquias sicut fecerat Hebron et Lebna et regibus earum sic fecit Dabir et regi illius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:40."
+        }
+      },
+      "regem quoque eius et omnia per circuitum oppida percussit in ore gladii non dimisit in ea ullas reliquias sicut fecerat Hebron et Lebna et regibus earum sic fecit Dabir et regi illius"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 40,
-    "content": "(10-41) percussit itaque Iosue omnem terram montanam et meridianam atque campestrem et Asedoth cum regibus suis non dimisit in ea ullas reliquias sed omne quod spirare poterat interfecit sicut praeceperat ei Dominus Deus Israhel"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:41."
+        }
+      },
+      "percussit itaque Iosue omnem terram montanam et meridianam atque campestrem et Asedoth cum regibus suis non dimisit in ea ullas reliquias sed omne quod spirare poterat interfecit sicut praeceperat ei Dominus Deus Israhel"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 41,
-    "content": "(10-42) a Cadesbarne usque Gazam omnem terram Gosen usque Gabaon"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:42."
+        }
+      },
+      "a Cadesbarne usque Gazam omnem terram Gosen usque Gabaon"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 42,
-    "content": "(10-43) universos reges et regiones eorum uno cepit impetu atque vastavit Dominus enim Deus Israhel pugnabat pro eo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:43."
+        }
+      },
+      "universos reges et regiones eorum uno cepit impetu atque vastavit Dominus enim Deus Israhel pugnabat pro eo"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 43,
-    "content": "(10-44) reversusque est cum omni Israhele ad locum castrorum in Galgala"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:44."
+        }
+      },
+      "reversusque est cum omni Israhele ad locum castrorum in Galgala"
+    ]
   },
   {
     "book": "JSH",
@@ -3468,49 +3543,113 @@
     "book": "JSH",
     "chapter": 21,
     "verse": 38,
-    "content": "(21-37) et de tribu Gad civitates confugii Ramoth in Galaad et Manaim"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:37."
+        }
+      },
+      "et de tribu Gad civitates confugii Ramoth in Galaad et Manaim"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 39,
-    "content": "(21-37) et Esebon et Iazer civitates quattuor cum suburbanis suis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:37."
+        }
+      },
+      "et Esebon et Iazer civitates quattuor cum suburbanis suis"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 40,
-    "content": "(21-38) omnes urbes filiorum Merari per familias et cognationes suas duodecim"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:38."
+        }
+      },
+      "omnes urbes filiorum Merari per familias et cognationes suas duodecim"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 41,
-    "content": "(21-39) itaque universae civitates Levitarum in medio possessionis filiorum Israhel fuerunt quadraginta octo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:39."
+        }
+      },
+      "itaque universae civitates Levitarum in medio possessionis filiorum Israhel fuerunt quadraginta octo"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 42,
-    "content": "(21-40) cum suburbanis suis singulae per familias distributae"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:40."
+        }
+      },
+      "cum suburbanis suis singulae per familias distributae"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 43,
-    "content": "(21-41) deditque Dominus Israheli omnem terram quam traditurum se patribus eorum iuraverat et possederunt illam atque habitaverunt in ea"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:41."
+        }
+      },
+      "deditque Dominus Israheli omnem terram quam traditurum se patribus eorum iuraverat et possederunt illam atque habitaverunt in ea"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 44,
-    "content": "(21-42) dataque est ab eo pax in omnes per circuitum nationes nullusque eis hostium resistere ausus est sed cuncti in eorum dicionem redacti sunt"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:42."
+        }
+      },
+      "dataque est ab eo pax in omnes per circuitum nationes nullusque eis hostium resistere ausus est sed cuncti in eorum dicionem redacti sunt"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 45,
-    "content": "(21-43) ne unum quidem verbum quod illis praestaturum se esse promiserat irritum fuit sed rebus expleta sunt omnia"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:43."
+        }
+      },
+      "ne unum quidem verbum quod illis praestaturum se esse promiserat irritum fuit sed rebus expleta sunt omnia"
+    ]
   },
   {
     "book": "JSH",

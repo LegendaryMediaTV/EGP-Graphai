@@ -94,26 +94,47 @@
 
 ## Chapter 5
 
-<sup>1</sup> (4-17) custodi pedem tuum ingrediens domum Dei multo enim melior est oboedientia quam stultorum victimae qui nesciunt quid faciant mali
-<sup>2</sup> (5-1) ne temere quid loquaris neque cor tuum sit velox ad proferendum sermonem coram Deo Deus enim in caelo et tu super terram idcirco sint pauci sermones tui
-<sup>3</sup> (5-2) multas curas sequuntur somnia et in multis sermonibus invenitur stultitia
-<sup>4</sup> (5-3) si quid vovisti Deo ne moreris reddere displicet enim ei infidelis et stulta promissio sed quodcumque voveris redde
-<sup>5</sup> (5-4) multoque melius est non vovere quam post votum promissa non conplere
-<sup>6</sup> (5-5) ne dederis os tuum ut peccare faciat carnem tuam neque dicas coram angelo non est providentia ne forte iratus Deus super sermone tuo dissipet cuncta opera manuum tuarum
-<sup>7</sup> (5-6) ubi multa sunt somnia plurimae vanitates et sermones innumeri tu vero Deum time
-<sup>8</sup> (5-7) si videris calumnias egenorum et violenta iudicia et subverti iustitiam in provincia non mireris super hoc negotio quia excelso alius excelsior est et super hos quoque eminentiores sunt alii
-<sup>9</sup> (5-8) et insuper universae terrae rex imperat servienti
-<sup>10</sup> (5-9) avarus non implebitur pecunia et qui amat divitias fructus non capiet ex eis et hoc ergo vanitas
-<sup>11</sup> (5-10) ubi multae sunt opes multi et qui comedant eas et quid prodest possessori nisi quod cernit divitias oculis suis
-<sup>12</sup> (5-11) dulcis est somnus operanti sive parum sive multum comedat saturitas autem divitis non sinit dormire eum
-<sup>13</sup> (5-12) est et alia infirmitas pessima quam vidi sub sole divitiae conservatae in malum domini sui
-<sup>14</sup> (5-13) pereunt enim in adflictione pessima generavit filium qui in summa egestate erit
-<sup>15</sup> (5-14) sicut egressus est nudus de utero matris suae sic revertetur et nihil auferet secum de labore suo
-<sup>16</sup> (5-15) miserabilis prorsus infirmitas quomodo venit sic revertetur quid ergo prodest ei quod laboravit in ventum
-<sup>17</sup> (5-16) cunctis diebus vitae suae comedit in tenebris et in curis multis et in aerumna atque tristitia
-<sup>18</sup> (5-17) hoc itaque mihi visum est bonum ut comedat quis et bibat et fruatur laetitia ex labore suo quod laboravit ipse sub sole numerum dierum vitae suae quos dedit ei Deus et haec est pars illius
-<sup>19</sup> (5-18) et omni homini cui dedit Deus divitias atque substantiam potestatemque ei tribuit ut comedat ex eis et fruatur parte sua et laetetur de labore suo hoc est donum Dei
-<sup>20</sup> (5-19) non enim satis recordabitur dierum vitae suae eo quod Deus occupet deliciis cor eius
+<sup>1</sup> <sup>a</sup>custodi pedem tuum ingrediens domum Dei multo enim melior est oboedientia quam stultorum victimae qui nesciunt quid faciant mali
+<sup>2</sup> <sup>b</sup>ne temere quid loquaris neque cor tuum sit velox ad proferendum sermonem coram Deo Deus enim in caelo et tu super terram idcirco sint pauci sermones tui
+<sup>3</sup> <sup>c</sup>multas curas sequuntur somnia et in multis sermonibus invenitur stultitia
+<sup>4</sup> <sup>d</sup>si quid vovisti Deo ne moreris reddere displicet enim ei infidelis et stulta promissio sed quodcumque voveris redde
+<sup>5</sup> <sup>e</sup>multoque melius est non vovere quam post votum promissa non conplere
+<sup>6</sup> <sup>f</sup>ne dederis os tuum ut peccare faciat carnem tuam neque dicas coram angelo non est providentia ne forte iratus Deus super sermone tuo dissipet cuncta opera manuum tuarum
+<sup>7</sup> <sup>g</sup>ubi multa sunt somnia plurimae vanitates et sermones innumeri tu vero Deum time
+<sup>8</sup> <sup>h</sup>si videris calumnias egenorum et violenta iudicia et subverti iustitiam in provincia non mireris super hoc negotio quia excelso alius excelsior est et super hos quoque eminentiores sunt alii
+<sup>9</sup> <sup>i</sup>et insuper universae terrae rex imperat servienti
+<sup>10</sup> <sup>j</sup>avarus non implebitur pecunia et qui amat divitias fructus non capiet ex eis et hoc ergo vanitas
+<sup>11</sup> <sup>k</sup>ubi multae sunt opes multi et qui comedant eas et quid prodest possessori nisi quod cernit divitias oculis suis
+<sup>12</sup> <sup>l</sup>dulcis est somnus operanti sive parum sive multum comedat saturitas autem divitis non sinit dormire eum
+<sup>13</sup> <sup>m</sup>est et alia infirmitas pessima quam vidi sub sole divitiae conservatae in malum domini sui
+<sup>14</sup> <sup>n</sup>pereunt enim in adflictione pessima generavit filium qui in summa egestate erit
+<sup>15</sup> <sup>o</sup>sicut egressus est nudus de utero matris suae sic revertetur et nihil auferet secum de labore suo
+<sup>16</sup> <sup>p</sup>miserabilis prorsus infirmitas quomodo venit sic revertetur quid ergo prodest ei quod laboravit in ventum
+<sup>17</sup> <sup>q</sup>cunctis diebus vitae suae comedit in tenebris et in curis multis et in aerumna atque tristitia
+<sup>18</sup> <sup>r</sup>hoc itaque mihi visum est bonum ut comedat quis et bibat et fruatur laetitia ex labore suo quod laboravit ipse sub sole numerum dierum vitae suae quos dedit ei Deus et haec est pars illius
+<sup>19</sup> <sup>s</sup>et omni homini cui dedit Deus divitias atque substantiam potestatemque ei tribuit ut comedat ex eis et fruatur parte sua et laetetur de labore suo hoc est donum Dei
+<sup>20</sup> <sup>t</sup>non enim satis recordabitur dierum vitae suae eo quod Deus occupet deliciis cor eius
+
+> - <sup>a</sup> 1. Originally verse 4:17.
+> - <sup>b</sup> 2. Originally verse 5:1.
+> - <sup>c</sup> 3. Originally verse 5:2.
+> - <sup>d</sup> 4. Originally verse 5:3.
+> - <sup>e</sup> 5. Originally verse 5:4.
+> - <sup>f</sup> 6. Originally verse 5:5.
+> - <sup>g</sup> 7. Originally verse 5:6.
+> - <sup>h</sup> 8. Originally verse 5:7.
+> - <sup>i</sup> 9. Originally verse 5:8.
+> - <sup>j</sup> 10. Originally verse 5:9.
+> - <sup>k</sup> 11. Originally verse 5:10.
+> - <sup>l</sup> 12. Originally verse 5:11.
+> - <sup>m</sup> 13. Originally verse 5:12.
+> - <sup>n</sup> 14. Originally verse 5:13.
+> - <sup>o</sup> 15. Originally verse 5:14.
+> - <sup>p</sup> 16. Originally verse 5:15.
+> - <sup>q</sup> 17. Originally verse 5:16.
+> - <sup>r</sup> 18. Originally verse 5:17.
+> - <sup>s</sup> 19. Originally verse 5:18.
+> - <sup>t</sup> 20. Originally verse 5:19.
 
 ## Chapter 6
 
@@ -128,39 +149,71 @@
 <sup>9</sup> melius est videre quod cupias quam desiderare quod nescias sed et hoc vanitas est et praesumptio spiritus
 <sup>10</sup> qui futurus est iam vocatum est nomen eius et scitur quod homo sit et non possit contra fortiorem se in iudicio contendere
 <sup>11</sup> verba sunt plurima multa in disputando habentia vanitatem
-<sup>12</sup> (7-1) quid necesse est homini maiora se quaerere cum ignoret quid conducat sibi in vita sua numero dierum peregrinationis suae et tempore quo velut umbra praeterit aut quis ei poterit indicare quid post eum futurum sub sole sit
+<sup>12</sup> <sup>a</sup>quid necesse est homini maiora se quaerere cum ignoret quid conducat sibi in vita sua numero dierum peregrinationis suae et tempore quo velut umbra praeterit aut quis ei poterit indicare quid post eum futurum sub sole sit
+
+> - <sup>a</sup> 12. Originally verse 7:1.
 
 ## Chapter 7
 
-<sup>1</sup> (7-2) melius est nomen bonum quam unguenta pretiosa et dies mortis die nativitatis
-<sup>2</sup> (7-3) melius est ire ad domum luctus quam ad domum convivii in illa enim finis cunctorum admonetur hominum et vivens cogitat quid futurum sit
-<sup>3</sup> (7-4) melior est ira risu quia per tristitiam vultus corrigitur animus delinquentis
-<sup>4</sup> (7-5) cor sapientium ubi tristitia est et cor stultorum ubi laetitia
-<sup>5</sup> (7-6) melius est a sapiente corripi quam stultorum adulatione decipi
-<sup>6</sup> (7-7) quia sicut sonitus spinarum ardentium sub olla sic risus stulti sed et hoc vanitas
-<sup>7</sup> (7-8) calumnia conturbat sapientem et perdet robur cordis illius
-<sup>8</sup> (7-9) melior est finis orationis quam principium melior est patiens arrogante
-<sup>9</sup> (7-10) ne velox sis ad irascendum quia ira in sinu stulti requiescit
-<sup>10</sup> (7-11) ne dicas quid putas causae est quod priora tempora meliora fuere quam nunc sunt stulta est enim huiuscemodi interrogatio
-<sup>11</sup> (7-12) utilior est sapientia cum divitiis et magis prodest videntibus solem
-<sup>12</sup> (7-13) sicut enim protegit sapientia sic protegit pecunia hoc autem plus habet eruditio et sapientia quod vitam tribuunt possessori suo
-<sup>13</sup> (7-14) considera opera Dei quod nemo possit corrigere quem ille despexerit
-<sup>14</sup> (7-15) in die bona fruere bonis et malam diem praecave sicut enim hanc sic et illam fecit Deus ut non inveniat homo contra eum iustas querimonias
-<sup>15</sup> (7-16) haec quoque vidi in diebus vanitatis meae iustus perit in iustitia sua et impius multo vivit tempore in malitia sua
-<sup>16</sup> (7-17) noli esse iustus multum neque plus sapias quam necesse est ne obstupescas
-<sup>17</sup> (7-18) ne impie agas multum et noli esse stultus ne moriaris in tempore non tuo
-<sup>18</sup> (7-19) bonum est te sustentare iustum sed et ab illo ne subtrahas manum tuam quia qui Deum timet nihil neglegit
-<sup>19</sup> (7-20) sapientia confortabit sapientem super decem principes civitatis
-<sup>20</sup> (7-21) non est enim homo iustus in terra qui faciat bonum et non peccet
-<sup>21</sup> (7-22) sed et cunctis sermonibus qui dicuntur ne accommodes cor tuum ne forte audias servum tuum maledicentem tibi
-<sup>22</sup> (7-23) scit enim tua conscientia quia et tu crebro maledixisti aliis
-<sup>23</sup> (7-24) cuncta temptavi in sapientia dixi sapiens efficiar et ipsa longius recessit a me
-<sup>24</sup> (7-25) multo magis quam erat et alta profunditas quis inveniet eam
-<sup>25</sup> (7-26) lustravi universa animo meo ut scirem et considerarem et quaererem sapientiam et rationem et ut cognoscerem impietatem stulti et errorem inprudentium
-<sup>26</sup> (7-27) et inveni amariorem morte mulierem quae laqueus venatorum est et sagena cor eius vincula sunt manus illius qui placet Deo effugiet eam qui autem peccator est capietur ab illa
-<sup>27</sup> (7-28) ecce hoc inveni dicit Ecclesiastes unum et alterum ut invenirem rationem
-<sup>28</sup> (7-29) quam adhuc quaerit anima mea et non inveni virum de mille unum repperi mulierem ex omnibus non inveni
-<sup>29</sup> (7-30) solummodo hoc inveni quod fecerit Deus hominem rectum et ipse se infinitis miscuerit quaestionibus quis talis ut sapiens est et quis cognovit solutionem verbi
+<sup>1</sup> <sup>a</sup>melius est nomen bonum quam unguenta pretiosa et dies mortis die nativitatis
+<sup>2</sup> <sup>b</sup>melius est ire ad domum luctus quam ad domum convivii in illa enim finis cunctorum admonetur hominum et vivens cogitat quid futurum sit
+<sup>3</sup> <sup>c</sup>melior est ira risu quia per tristitiam vultus corrigitur animus delinquentis
+<sup>4</sup> <sup>d</sup>cor sapientium ubi tristitia est et cor stultorum ubi laetitia
+<sup>5</sup> <sup>e</sup>melius est a sapiente corripi quam stultorum adulatione decipi
+<sup>6</sup> <sup>f</sup>quia sicut sonitus spinarum ardentium sub olla sic risus stulti sed et hoc vanitas
+<sup>7</sup> <sup>g</sup>calumnia conturbat sapientem et perdet robur cordis illius
+<sup>8</sup> <sup>h</sup>melior est finis orationis quam principium melior est patiens arrogante
+<sup>9</sup> <sup>i</sup>ne velox sis ad irascendum quia ira in sinu stulti requiescit
+<sup>10</sup> <sup>j</sup>ne dicas quid putas causae est quod priora tempora meliora fuere quam nunc sunt stulta est enim huiuscemodi interrogatio
+<sup>11</sup> <sup>k</sup>utilior est sapientia cum divitiis et magis prodest videntibus solem
+<sup>12</sup> <sup>l</sup>sicut enim protegit sapientia sic protegit pecunia hoc autem plus habet eruditio et sapientia quod vitam tribuunt possessori suo
+<sup>13</sup> <sup>m</sup>considera opera Dei quod nemo possit corrigere quem ille despexerit
+<sup>14</sup> <sup>n</sup>in die bona fruere bonis et malam diem praecave sicut enim hanc sic et illam fecit Deus ut non inveniat homo contra eum iustas querimonias
+<sup>15</sup> <sup>o</sup>haec quoque vidi in diebus vanitatis meae iustus perit in iustitia sua et impius multo vivit tempore in malitia sua
+<sup>16</sup> <sup>p</sup>noli esse iustus multum neque plus sapias quam necesse est ne obstupescas
+<sup>17</sup> <sup>q</sup>ne impie agas multum et noli esse stultus ne moriaris in tempore non tuo
+<sup>18</sup> <sup>r</sup>bonum est te sustentare iustum sed et ab illo ne subtrahas manum tuam quia qui Deum timet nihil neglegit
+<sup>19</sup> <sup>s</sup>sapientia confortabit sapientem super decem principes civitatis
+<sup>20</sup> <sup>t</sup>non est enim homo iustus in terra qui faciat bonum et non peccet
+<sup>21</sup> <sup>u</sup>sed et cunctis sermonibus qui dicuntur ne accommodes cor tuum ne forte audias servum tuum maledicentem tibi
+<sup>22</sup> <sup>v</sup>scit enim tua conscientia quia et tu crebro maledixisti aliis
+<sup>23</sup> <sup>w</sup>cuncta temptavi in sapientia dixi sapiens efficiar et ipsa longius recessit a me
+<sup>24</sup> <sup>x</sup>multo magis quam erat et alta profunditas quis inveniet eam
+<sup>25</sup> <sup>y</sup>lustravi universa animo meo ut scirem et considerarem et quaererem sapientiam et rationem et ut cognoscerem impietatem stulti et errorem inprudentium
+<sup>26</sup> <sup>z</sup>et inveni amariorem morte mulierem quae laqueus venatorum est et sagena cor eius vincula sunt manus illius qui placet Deo effugiet eam qui autem peccator est capietur ab illa
+<sup>27</sup> <sup>a</sup>ecce hoc inveni dicit Ecclesiastes unum et alterum ut invenirem rationem
+<sup>28</sup> <sup>b</sup>quam adhuc quaerit anima mea et non inveni virum de mille unum repperi mulierem ex omnibus non inveni
+<sup>29</sup> <sup>c</sup>solummodo hoc inveni quod fecerit Deus hominem rectum et ipse se infinitis miscuerit quaestionibus quis talis ut sapiens est et quis cognovit solutionem verbi
+
+> - <sup>a</sup> 1. Originally verse 7:2.
+> - <sup>b</sup> 2. Originally verse 7:3.
+> - <sup>c</sup> 3. Originally verse 7:4.
+> - <sup>d</sup> 4. Originally verse 7:5.
+> - <sup>e</sup> 5. Originally verse 7:6.
+> - <sup>f</sup> 6. Originally verse 7:7.
+> - <sup>g</sup> 7. Originally verse 7:8.
+> - <sup>h</sup> 8. Originally verse 7:9.
+> - <sup>i</sup> 9. Originally verse 7:10.
+> - <sup>j</sup> 10. Originally verse 7:11.
+> - <sup>k</sup> 11. Originally verse 7:12.
+> - <sup>l</sup> 12. Originally verse 7:13.
+> - <sup>m</sup> 13. Originally verse 7:14.
+> - <sup>n</sup> 14. Originally verse 7:15.
+> - <sup>o</sup> 15. Originally verse 7:16.
+> - <sup>p</sup> 16. Originally verse 7:17.
+> - <sup>q</sup> 17. Originally verse 7:18.
+> - <sup>r</sup> 18. Originally verse 7:19.
+> - <sup>s</sup> 19. Originally verse 7:20.
+> - <sup>t</sup> 20. Originally verse 7:21.
+> - <sup>u</sup> 21. Originally verse 7:22.
+> - <sup>v</sup> 22. Originally verse 7:23.
+> - <sup>w</sup> 23. Originally verse 7:24.
+> - <sup>x</sup> 24. Originally verse 7:25.
+> - <sup>y</sup> 25. Originally verse 7:26.
+> - <sup>z</sup> 26. Originally verse 7:27.
+> - <sup>a</sup> 27. Originally verse 7:28.
+> - <sup>b</sup> 28. Originally verse 7:29.
+> - <sup>c</sup> 29. Originally verse 7:30.
 
 ## Chapter 8
 

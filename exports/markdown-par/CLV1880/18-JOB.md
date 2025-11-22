@@ -418,24 +418,43 @@
 <sup>2</sup> audivi frequenter talia consolatores onerosi omnes vos estis
 <sup>3</sup> numquid habebunt finem verba ventosa aut aliquid tibi molestum est si loquaris
 <sup>4</sup> poteram et ego similia vestri loqui atque utinam esset anima vestra pro anima mea
-<sup>5</sup> consolarer et ego vos sermonibus et moverem caput meum super vos (16-6) roborarem vos ore meo et moverem labia quasi parcens vobis
-<sup>6</sup> (16-7) sed quid agam si locutus fuero non quiescet dolor meus et si tacuero non recedet a me
-<sup>7</sup> (16-8) nunc autem oppressit me dolor meus et in nihili redacti sunt omnes artus mei
-<sup>8</sup> (16-9) rugae meae testimonium dicunt contra me et suscitatur falsiloquus adversus faciem meam contradicens mihi
-<sup>9</sup> (16-10) collegit furorem suum in me et comminans mihi infremuit contra me dentibus suis hostis meus terribilibus oculis me intuitus est
-<sup>10</sup> (16-11) aperuerunt super me ora sua exprobrantes percusserunt maxillam meam satiati sunt poenis meis
-<sup>11</sup> (16-12) conclusit me Deus apud iniquum et manibus impiorum me tradidit
-<sup>12</sup> (16-13) ego ille quondam opulentus repente contritus sum tenuit cervicem meam confregit me et posuit sibi quasi in signum
-<sup>13</sup> (16-14) circumdedit me lanceis suis convulneravit lumbos meos non pepercit et effudit in terra viscera mea
-<sup>14</sup> (16-15) concidit me vulnere super vulnus inruit in me quasi gigans
-<sup>15</sup> (16-16) saccum consui super cutem meam et operui cinere cornu meum
-<sup>16</sup> (16-17) facies mea intumuit a fletu et palpebrae meae caligaverunt
-<sup>17</sup> (16-18) haec passus sum absque iniquitate manus meae cum haberem mundas ad Deum preces
-<sup>18</sup> (16-19) terra ne operias sanguinem meum neque inveniat locum in te latendi clamor meus
-<sup>19</sup> (16-20) ecce enim in caelo testis meus et conscius meus in excelsis
-<sup>20</sup> (16-21) verbosi mei amici mei ad Deum stillat oculus meus
-<sup>21</sup> (16-22) atque utinam sic iudicaretur vir cum Deo quomodo iudicatur filius hominis cum collega suo
-<sup>22</sup> (16-23) ecce enim breves anni transeunt et semitam per quam non revertar ambulo
+<sup>5</sup> consolarer et ego vos sermonibus et moverem caput meum super vos <sup>a</sup>roborarem vos ore meo et moverem labia quasi parcens vobis
+<sup>6</sup> <sup>b</sup>sed quid agam si locutus fuero non quiescet dolor meus et si tacuero non recedet a me
+<sup>7</sup> <sup>c</sup>nunc autem oppressit me dolor meus et in nihili redacti sunt omnes artus mei
+<sup>8</sup> <sup>d</sup>rugae meae testimonium dicunt contra me et suscitatur falsiloquus adversus faciem meam contradicens mihi
+<sup>9</sup> <sup>e</sup>collegit furorem suum in me et comminans mihi infremuit contra me dentibus suis hostis meus terribilibus oculis me intuitus est
+<sup>10</sup> <sup>f</sup>aperuerunt super me ora sua exprobrantes percusserunt maxillam meam satiati sunt poenis meis
+<sup>11</sup> <sup>g</sup>conclusit me Deus apud iniquum et manibus impiorum me tradidit
+<sup>12</sup> <sup>h</sup>ego ille quondam opulentus repente contritus sum tenuit cervicem meam confregit me et posuit sibi quasi in signum
+<sup>13</sup> <sup>i</sup>circumdedit me lanceis suis convulneravit lumbos meos non pepercit et effudit in terra viscera mea
+<sup>14</sup> <sup>j</sup>concidit me vulnere super vulnus inruit in me quasi gigans
+<sup>15</sup> <sup>k</sup>saccum consui super cutem meam et operui cinere cornu meum
+<sup>16</sup> <sup>l</sup>facies mea intumuit a fletu et palpebrae meae caligaverunt
+<sup>17</sup> <sup>m</sup>haec passus sum absque iniquitate manus meae cum haberem mundas ad Deum preces
+<sup>18</sup> <sup>n</sup>terra ne operias sanguinem meum neque inveniat locum in te latendi clamor meus
+<sup>19</sup> <sup>o</sup>ecce enim in caelo testis meus et conscius meus in excelsis
+<sup>20</sup> <sup>p</sup>verbosi mei amici mei ad Deum stillat oculus meus
+<sup>21</sup> <sup>q</sup>atque utinam sic iudicaretur vir cum Deo quomodo iudicatur filius hominis cum collega suo
+<sup>22</sup> <sup>r</sup>ecce enim breves anni transeunt et semitam per quam non revertar ambulo
+
+> - <sup>a</sup> 5. Originally verse 16:6.
+> - <sup>b</sup> 6. Originally verse 16:7.
+> - <sup>c</sup> 7. Originally verse 16:8.
+> - <sup>d</sup> 8. Originally verse 16:9.
+> - <sup>e</sup> 9. Originally verse 16:10.
+> - <sup>f</sup> 10. Originally verse 16:11.
+> - <sup>g</sup> 11. Originally verse 16:12.
+> - <sup>h</sup> 12. Originally verse 16:13.
+> - <sup>i</sup> 13. Originally verse 16:14.
+> - <sup>j</sup> 14. Originally verse 16:15.
+> - <sup>k</sup> 15. Originally verse 16:16.
+> - <sup>l</sup> 16. Originally verse 16:17.
+> - <sup>m</sup> 17. Originally verse 16:18.
+> - <sup>n</sup> 18. Originally verse 16:19.
+> - <sup>o</sup> 19. Originally verse 16:20.
+> - <sup>p</sup> 20. Originally verse 16:21.
+> - <sup>q</sup> 21. Originally verse 16:22.
+> - <sup>r</sup> 22. Originally verse 16:23.
 
 ## Chapter 17
 
@@ -1112,67 +1131,127 @@
 
 ## Chapter 40
 
-<sup>1</sup> (39-31) et adiecit Dominus et locutus est ad Iob
-<sup>2</sup> (39-32) numquid qui contendit cum Deo tam facile conquiescit utique qui arguit Deum debet respondere ei
-<sup>3</sup> (39-33) respondens autem Iob Domino dixit
-<sup>4</sup> (39-34) qui leviter locutus sum respondere quid possum manum meam ponam super os meum
-<sup>5</sup> (39-35) unum locutus sum quod utinam non dixissem et alterum quibus ultra non addam
-<sup>6</sup> (40-1) respondens autem Dominus Iob de turbine ait
-<sup>7</sup> (40-2) accinge sicut vir lumbos tuos interrogabo te et indica mihi
-<sup>8</sup> (40-3) numquid irritum facies iudicium meum et condemnabis me ut tu iustificeris
-<sup>9</sup> (40-4) et si habes brachium sicut Deus et si voce simili tonas
-<sup>10</sup> (40-5) circumda tibi decorem et in sublime erigere et esto gloriosus et speciosis induere vestibus
-<sup>11</sup> (40-6) disperge superbos furore tuo et respiciens omnem arrogantem humilia
-<sup>12</sup> (40-7) respice cunctos superbos et confunde eos et contere impios in loco suo
-<sup>13</sup> (40-8) absconde eos in pulvere simul et facies eorum demerge in foveam
-<sup>14</sup> (40-9) et ego confitebor quod salvare te possit dextera tua
-<sup>15</sup> (40-10) ecce Behemoth quem feci tecum faenum quasi bos comedet
-<sup>16</sup> (40-11) fortitudo eius in lumbis eius et virtus illius in umbilicis ventris eius
-<sup>17</sup> (40-12) constringit caudam suam quasi cedrum nervi testiculorum eius perplexi sunt
-<sup>18</sup> (40-13) ossa eius velut fistulae aeris cartilago illius quasi lamminae ferreae
-<sup>19</sup> (40-14) ipse principium est viarum Dei qui fecit eum adplicabit gladium eius
-<sup>20</sup> (40-15) huic montes herbas ferunt omnes bestiae agri ludent ibi
-<sup>21</sup> (40-16) sub umbra dormit in secreto calami et locis humentibus
-<sup>22</sup> (40-17) protegunt umbrae umbram eius circumdabunt eum salices torrentis
-<sup>23</sup> (40-18) ecce absorbebit fluvium et non mirabitur habet fiduciam quod influat Iordanis in os eius
-<sup>24</sup> (40-19) in oculis eius quasi hamo capiet eum et in sudibus perforabit nares eius
+<sup>1</sup> <sup>a</sup>et adiecit Dominus et locutus est ad Iob
+<sup>2</sup> <sup>b</sup>numquid qui contendit cum Deo tam facile conquiescit utique qui arguit Deum debet respondere ei
+<sup>3</sup> <sup>c</sup>respondens autem Iob Domino dixit
+<sup>4</sup> <sup>d</sup>qui leviter locutus sum respondere quid possum manum meam ponam super os meum
+<sup>5</sup> <sup>e</sup>unum locutus sum quod utinam non dixissem et alterum quibus ultra non addam
+<sup>6</sup> <sup>f</sup>respondens autem Dominus Iob de turbine ait
+<sup>7</sup> <sup>g</sup>accinge sicut vir lumbos tuos interrogabo te et indica mihi
+<sup>8</sup> <sup>h</sup>numquid irritum facies iudicium meum et condemnabis me ut tu iustificeris
+<sup>9</sup> <sup>i</sup>et si habes brachium sicut Deus et si voce simili tonas
+<sup>10</sup> <sup>j</sup>circumda tibi decorem et in sublime erigere et esto gloriosus et speciosis induere vestibus
+<sup>11</sup> <sup>k</sup>disperge superbos furore tuo et respiciens omnem arrogantem humilia
+<sup>12</sup> <sup>l</sup>respice cunctos superbos et confunde eos et contere impios in loco suo
+<sup>13</sup> <sup>m</sup>absconde eos in pulvere simul et facies eorum demerge in foveam
+<sup>14</sup> <sup>n</sup>et ego confitebor quod salvare te possit dextera tua
+<sup>15</sup> <sup>o</sup>ecce Behemoth quem feci tecum faenum quasi bos comedet
+<sup>16</sup> <sup>p</sup>fortitudo eius in lumbis eius et virtus illius in umbilicis ventris eius
+<sup>17</sup> <sup>q</sup>constringit caudam suam quasi cedrum nervi testiculorum eius perplexi sunt
+<sup>18</sup> <sup>r</sup>ossa eius velut fistulae aeris cartilago illius quasi lamminae ferreae
+<sup>19</sup> <sup>s</sup>ipse principium est viarum Dei qui fecit eum adplicabit gladium eius
+<sup>20</sup> <sup>t</sup>huic montes herbas ferunt omnes bestiae agri ludent ibi
+<sup>21</sup> <sup>u</sup>sub umbra dormit in secreto calami et locis humentibus
+<sup>22</sup> <sup>v</sup>protegunt umbrae umbram eius circumdabunt eum salices torrentis
+<sup>23</sup> <sup>w</sup>ecce absorbebit fluvium et non mirabitur habet fiduciam quod influat Iordanis in os eius
+<sup>24</sup> <sup>x</sup>in oculis eius quasi hamo capiet eum et in sudibus perforabit nares eius
+
+> - <sup>a</sup> 1. Originally verse 39:31.
+> - <sup>b</sup> 2. Originally verse 39:32.
+> - <sup>c</sup> 3. Originally verse 39:33.
+> - <sup>d</sup> 4. Originally verse 39:34.
+> - <sup>e</sup> 5. Originally verse 39:35.
+> - <sup>f</sup> 6. Originally verse 40:1.
+> - <sup>g</sup> 7. Originally verse 40:2.
+> - <sup>h</sup> 8. Originally verse 40:3.
+> - <sup>i</sup> 9. Originally verse 40:4.
+> - <sup>j</sup> 10. Originally verse 40:5.
+> - <sup>k</sup> 11. Originally verse 40:6.
+> - <sup>l</sup> 12. Originally verse 40:7.
+> - <sup>m</sup> 13. Originally verse 40:8.
+> - <sup>n</sup> 14. Originally verse 40:9.
+> - <sup>o</sup> 15. Originally verse 40:10.
+> - <sup>p</sup> 16. Originally verse 40:11.
+> - <sup>q</sup> 17. Originally verse 40:12.
+> - <sup>r</sup> 18. Originally verse 40:13.
+> - <sup>s</sup> 19. Originally verse 40:14.
+> - <sup>t</sup> 20. Originally verse 40:15.
+> - <sup>u</sup> 21. Originally verse 40:16.
+> - <sup>v</sup> 22. Originally verse 40:17.
+> - <sup>w</sup> 23. Originally verse 40:18.
+> - <sup>x</sup> 24. Originally verse 40:19.
 
 ## Chapter 41
 
-<sup>1</sup> (40-20) an extrahere poteris Leviathan hamo et fune ligabis linguam eius
-<sup>2</sup> (40-21) numquid pones circulum in naribus eius et armilla perforabis maxillam eius
-<sup>3</sup> (40-22) numquid multiplicabit ad te preces aut loquetur tibi mollia
-<sup>4</sup> (40-23) numquid feriet tecum pactum et accipies eum servum sempiternum
-<sup>5</sup> (40-24) numquid inludes ei quasi avi aut ligabis illum ancillis tuis
-<sup>6</sup> (40-25) concident eum amici divident illum negotiatores
-<sup>7</sup> (40-26) numquid implebis sagenas pelle eius et gurgustium piscium capite illius
-<sup>8</sup> (40-27) pone super eum manum tuam memento belli nec ultra addas loqui
-<sup>9</sup> (40-28) ecce spes eius frustrabitur eum et videntibus cunctis praecipitabitur
-<sup>10</sup> (41-1) non quasi crudelis suscitabo eum quis enim resistere potest vultui meo
-<sup>11</sup> (41-2) quis ante dedit mihi ut reddam ei omnia quae sub caelo sunt mea sunt
-<sup>12</sup> (41-3) non parcam ei et verbis potentibus et ad deprecandum conpositis
-<sup>13</sup> (41-4) quis revelavit faciem indumenti eius et in medium oris eius quis intrabit
-<sup>14</sup> (41-5) portas vultus eius quis aperiet per gyrum dentium eius formido
-<sup>15</sup> (41-6) corpus illius quasi scuta fusilia et conpactum squamis se prementibus
-<sup>16</sup> (41-7) una uni coniungitur et ne spiraculum quidem incedit per eas
-<sup>17</sup> (41-8) una alteri adherebunt et tenentes se nequaquam separabuntur
-<sup>18</sup> (41-9) sternutatio eius splendor ignis et oculi eius ut palpebrae diluculi
-<sup>19</sup> (41-10) de ore eius lampades procedunt sicut taedae ignis accensae
-<sup>20</sup> (41-11) de naribus eius procedit fumus sicut ollae succensae atque ferventis
-<sup>21</sup> (41-12) halitus eius prunas ardere facit et flamma de ore eius egreditur
-<sup>22</sup> (41-13) in collo eius morabitur fortitudo et faciem eius praecedet egestas
-<sup>23</sup> (41-14) membra carnium eius coherentia sibi mittet contra eum fulmina et ad locum alium non ferentur
-<sup>24</sup> (41-15) cor eius indurabitur quasi lapis et stringetur quasi malleatoris incus
-<sup>25</sup> (41-16) cum sublatus fuerit timebunt angeli et territi purgabuntur
-<sup>26</sup> (41-17) cum adprehenderit eum gladius subsistere non poterit neque hasta neque torax
-<sup>27</sup> (41-18) reputabit enim quasi paleas ferrum et quasi lignum putridum aes
-<sup>28</sup> (41-19) non fugabit eum vir sagittarius in stipulam versi sunt ei lapides fundae
-<sup>29</sup> (41-20) quasi stipulam aestimabit malleum et deridebit vibrantem hastam
-<sup>30</sup> (41-21) sub ipso erunt radii solis sternet sibi aurum quasi lutum
-<sup>31</sup> (41-22) fervescere faciet quasi ollam profundum mare ponet quasi cum unguenta bulliunt
-<sup>32</sup> (41-23) post eum lucebit semita aestimabit abyssum quasi senescentem
-<sup>33</sup> (41-24) non est super terram potestas quae conparetur ei qui factus est ut nullum timeret
-<sup>34</sup> (41-25) omne sublime videt ipse est rex super universos filios superbiae
+<sup>1</sup> <sup>a</sup>an extrahere poteris Leviathan hamo et fune ligabis linguam eius
+<sup>2</sup> <sup>b</sup>numquid pones circulum in naribus eius et armilla perforabis maxillam eius
+<sup>3</sup> <sup>c</sup>numquid multiplicabit ad te preces aut loquetur tibi mollia
+<sup>4</sup> <sup>d</sup>numquid feriet tecum pactum et accipies eum servum sempiternum
+<sup>5</sup> <sup>e</sup>numquid inludes ei quasi avi aut ligabis illum ancillis tuis
+<sup>6</sup> <sup>f</sup>concident eum amici divident illum negotiatores
+<sup>7</sup> <sup>g</sup>numquid implebis sagenas pelle eius et gurgustium piscium capite illius
+<sup>8</sup> <sup>h</sup>pone super eum manum tuam memento belli nec ultra addas loqui
+<sup>9</sup> <sup>i</sup>ecce spes eius frustrabitur eum et videntibus cunctis praecipitabitur
+<sup>10</sup> <sup>j</sup>non quasi crudelis suscitabo eum quis enim resistere potest vultui meo
+<sup>11</sup> <sup>k</sup>quis ante dedit mihi ut reddam ei omnia quae sub caelo sunt mea sunt
+<sup>12</sup> <sup>l</sup>non parcam ei et verbis potentibus et ad deprecandum conpositis
+<sup>13</sup> <sup>m</sup>quis revelavit faciem indumenti eius et in medium oris eius quis intrabit
+<sup>14</sup> <sup>n</sup>portas vultus eius quis aperiet per gyrum dentium eius formido
+<sup>15</sup> <sup>o</sup>corpus illius quasi scuta fusilia et conpactum squamis se prementibus
+<sup>16</sup> <sup>p</sup>una uni coniungitur et ne spiraculum quidem incedit per eas
+<sup>17</sup> <sup>q</sup>una alteri adherebunt et tenentes se nequaquam separabuntur
+<sup>18</sup> <sup>r</sup>sternutatio eius splendor ignis et oculi eius ut palpebrae diluculi
+<sup>19</sup> <sup>s</sup>de ore eius lampades procedunt sicut taedae ignis accensae
+<sup>20</sup> <sup>t</sup>de naribus eius procedit fumus sicut ollae succensae atque ferventis
+<sup>21</sup> <sup>u</sup>halitus eius prunas ardere facit et flamma de ore eius egreditur
+<sup>22</sup> <sup>v</sup>in collo eius morabitur fortitudo et faciem eius praecedet egestas
+<sup>23</sup> <sup>w</sup>membra carnium eius coherentia sibi mittet contra eum fulmina et ad locum alium non ferentur
+<sup>24</sup> <sup>x</sup>cor eius indurabitur quasi lapis et stringetur quasi malleatoris incus
+<sup>25</sup> <sup>y</sup>cum sublatus fuerit timebunt angeli et territi purgabuntur
+<sup>26</sup> <sup>z</sup>cum adprehenderit eum gladius subsistere non poterit neque hasta neque torax
+<sup>27</sup> <sup>a</sup>reputabit enim quasi paleas ferrum et quasi lignum putridum aes
+<sup>28</sup> <sup>b</sup>non fugabit eum vir sagittarius in stipulam versi sunt ei lapides fundae
+<sup>29</sup> <sup>c</sup>quasi stipulam aestimabit malleum et deridebit vibrantem hastam
+<sup>30</sup> <sup>d</sup>sub ipso erunt radii solis sternet sibi aurum quasi lutum
+<sup>31</sup> <sup>e</sup>fervescere faciet quasi ollam profundum mare ponet quasi cum unguenta bulliunt
+<sup>32</sup> <sup>f</sup>post eum lucebit semita aestimabit abyssum quasi senescentem
+<sup>33</sup> <sup>g</sup>non est super terram potestas quae conparetur ei qui factus est ut nullum timeret
+<sup>34</sup> <sup>h</sup>omne sublime videt ipse est rex super universos filios superbiae
+
+> - <sup>a</sup> 1. Originally verse 40:20.
+> - <sup>b</sup> 2. Originally verse 40:21.
+> - <sup>c</sup> 3. Originally verse 40:22.
+> - <sup>d</sup> 4. Originally verse 40:23.
+> - <sup>e</sup> 5. Originally verse 40:24.
+> - <sup>f</sup> 6. Originally verse 40:25.
+> - <sup>g</sup> 7. Originally verse 40:26.
+> - <sup>h</sup> 8. Originally verse 40:27.
+> - <sup>i</sup> 9. Originally verse 40:28.
+> - <sup>j</sup> 10. Originally verse 41:1.
+> - <sup>k</sup> 11. Originally verse 41:2.
+> - <sup>l</sup> 12. Originally verse 41:3.
+> - <sup>m</sup> 13. Originally verse 41:4.
+> - <sup>n</sup> 14. Originally verse 41:5.
+> - <sup>o</sup> 15. Originally verse 41:6.
+> - <sup>p</sup> 16. Originally verse 41:7.
+> - <sup>q</sup> 17. Originally verse 41:8.
+> - <sup>r</sup> 18. Originally verse 41:9.
+> - <sup>s</sup> 19. Originally verse 41:10.
+> - <sup>t</sup> 20. Originally verse 41:11.
+> - <sup>u</sup> 21. Originally verse 41:12.
+> - <sup>v</sup> 22. Originally verse 41:13.
+> - <sup>w</sup> 23. Originally verse 41:14.
+> - <sup>x</sup> 24. Originally verse 41:15.
+> - <sup>y</sup> 25. Originally verse 41:16.
+> - <sup>z</sup> 26. Originally verse 41:17.
+> - <sup>a</sup> 27. Originally verse 41:18.
+> - <sup>b</sup> 28. Originally verse 41:19.
+> - <sup>c</sup> 29. Originally verse 41:20.
+> - <sup>d</sup> 30. Originally verse 41:21.
+> - <sup>e</sup> 31. Originally verse 41:22.
+> - <sup>f</sup> 32. Originally verse 41:23.
+> - <sup>g</sup> 33. Originally verse 41:24.
+> - <sup>h</sup> 34. Originally verse 41:25.
 
 ## Chapter 42
 
@@ -1192,4 +1271,6 @@
 <sup>14</sup> et vocavit nomen unius Diem et nomen secundae Cassia et nomen tertiae Cornu stibii
 <sup>15</sup> non sunt autem inventae mulieres speciosae sicut filiae Iob in universa terra deditque eis pater suus hereditatem inter fratres earum
 <sup>16</sup> vixit autem Iob post haec centum quadraginta annis et vidit filios suos et filios filiorum suorum usque ad quartam generationem
-<sup>17</sup> (42-16) et mortuus est senex et plenus dierum
+<sup>17</sup> <sup>a</sup>et mortuus est senex et plenus dierum
+
+> - <sup>a</sup> 17. Originally verse 42:16.

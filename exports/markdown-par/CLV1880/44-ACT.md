@@ -752,7 +752,9 @@
 <sup>38</sup> quod si Demetrius et qui cum eo sunt artifices habent adversus aliquem causam conventus forenses aguntur et pro consulibus sunt accusent invicem
 <sup>39</sup> si quid autem alterius rei quaeritis in legitima ecclesia poterit absolvi
 <sup>40</sup> nam et periclitamur argui seditionis hodiernae cum nullus obnoxius sit de quo non possimus reddere rationem concursus istius
-<sup>41</sup> et cum haec dixisset dimisit ecclesiam
+<sup>41</sup> <sup>a</sup>et cum haec dixisset dimisit ecclesiam
+
+> - <sup>a</sup> 41. Originally verse 19:40.
 
 ## Chapter 20
 

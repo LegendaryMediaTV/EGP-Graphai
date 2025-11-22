@@ -156,7 +156,9 @@
 <sup>28</sup> per fenestram prospiciens ululabat mater eius et de cenaculo loquebatur cur moratur regredi currus eius quare tardaverunt pedes quadrigarum illius
 <sup>29</sup> una sapientior ceteris uxoribus eius haec socrui verba respondit
 <sup>30</sup> forsitan nunc dividit spolia et pulcherrima feminarum eligitur ei vestes diversorum colorum Sisarae traduntur in praedam et supellex varia ad ornanda colla congeritur
-<sup>31</sup> sic pereant omnes inimici tui Domine qui autem diligunt te sicut sol in ortu suo splendet ita rutilent (5-32) quievitque terra per quadraginta annos
+<sup>31</sup> sic pereant omnes inimici tui Domine qui autem diligunt te sicut sol in ortu suo splendet ita rutilent <sup>a</sup>quievitque terra per quadraginta annos
+
+> - <sup>a</sup> 31. Originally verse 5:32.
 
 ## Chapter 6
 

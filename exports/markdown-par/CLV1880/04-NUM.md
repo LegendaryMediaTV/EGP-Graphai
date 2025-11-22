@@ -484,7 +484,9 @@
 <sup>32</sup> surgens ergo populus toto die illo et nocte ac die altero congregavit coturnicum qui parum decem choros et siccaverunt eas per gyrum castrorum
 <sup>33</sup> adhuc carnes erant in dentibus eorum nec defecerat huiuscemodi cibus et ecce furor Domini concitatus in populum percussit eum plaga magna nimis
 <sup>34</sup> vocatusque est ille locus sepulchra Concupiscentiae ibi enim sepelierunt populum qui desideraverat
-<sup>35</sup> (11-34) egressi autem de sepulchris Concupiscentiae venerunt in Aseroth et manserunt ibi
+<sup>35</sup> <sup>a</sup>egressi autem de sepulchris Concupiscentiae venerunt in Aseroth et manserunt ibi
+
+> - <sup>a</sup> 35. Originally verse 11:34.
 
 ## Chapter 12
 
@@ -503,43 +505,79 @@
 <sup>13</sup> clamavitque Moses ad Dominum dicens Deus obsecro sana eam
 <sup>14</sup> cui respondit Dominus si pater eius spuisset in faciem illius nonne debuerat saltem septem dierum rubore suffundi separetur septem diebus extra castra et postea revocabitur
 <sup>15</sup> exclusa est itaque Maria extra castra septem diebus et populus non est motus de loco illo donec revocata est Maria
-<sup>16</sup> (13-1) profectus est de Aseroth fixis tentoriis in deserto Pharan
+<sup>16</sup> <sup>a</sup>profectus est de Aseroth fixis tentoriis in deserto Pharan
+
+> - <sup>a</sup> 16. Originally verse 13:1.
 
 ## Chapter 13
 
-<sup>1</sup> (13-2) ibi locutus est Dominus ad Mosen dicens
-<sup>2</sup> (13-3) mitte viros qui considerent terram Chanaan quam daturus sum filiis Israhel singulos de singulis tribubus ex principibus
-<sup>3</sup> (13-4) fecit Moses quod Dominus imperarat de deserto Pharan mittens principes viros quorum ista sunt nomina
-<sup>4</sup> (13-5) de tribu Ruben Semmua filium Zecchur
-<sup>5</sup> (13-6) de tribu Symeon Saphat filium Huri
-<sup>6</sup> (13-7) de tribu Iuda Chaleb filium Iepphonne
-<sup>7</sup> (13-8) de tribu Isachar Igal filium Ioseph
-<sup>8</sup> (13-9) de tribu Ephraim Osee filium Nun
-<sup>9</sup> (13-10) de tribu Beniamin Phalti filium Raphu
-<sup>10</sup> (13-11) de tribu Zabulon Geddihel filium Sodi
-<sup>11</sup> (13-12) de tribu Ioseph sceptri Manasse Gaddi filium Susi
-<sup>12</sup> (13-13) de tribu Dan Ammihel filium Gemalli
-<sup>13</sup> (13-14) de tribu Aser Sthur filium Michahel
-<sup>14</sup> (13-15) de tribu Nepthali Naabbi filium Vaphsi
-<sup>15</sup> (13-16) de tribu Gad Guhel filium Machi
-<sup>16</sup> (13-17) haec sunt nomina virorum quos misit Moses ad considerandam terram vocavitque Osee filium Nun Iosue
-<sup>17</sup> (13-18) misit ergo eos Moses ad considerandam terram Chanaan et dixit ad eos ascendite per meridianam plagam cumque veneritis ad montes
-<sup>18</sup> (13-19) considerate terram qualis sit et populum qui habitator est eius utrum fortis sit an infirmus pauci numero an plures
-<sup>19</sup> (13-20) ipsa terra bona an mala urbes quales muratae an absque muris
-<sup>20</sup> (13-21) humus pinguis an sterilis nemorosa an absque arboribus confortamini et adferte nobis de fructibus terrae erat autem tempus quando iam praecoquae uvae vesci possunt
-<sup>21</sup> (13-22) cumque ascendissent exploraverunt terram a deserto Sin usque Roob intrantibus Emath
-<sup>22</sup> (13-23) ascenderuntque ad meridiem et venerunt in Hebron ubi erant Ahiman et Sisai et Tholmai filii Enach nam Hebron septem annis ante Tanim urbem Aegypti condita est
-<sup>23</sup> (13-24) pergentesque usque ad torrentem Botri absciderunt palmitem cum uva sua quem portaverunt in vecte duo viri de malis quoque granatis et de ficis loci illius tulerunt
-<sup>24</sup> (13-25) qui appellatus est Neelescol id est torrens Botri eo quod botrum inde portassent filii Israhel
-<sup>25</sup> (13-26) reversique exploratores terrae post quadraginta dies omni regione circuita
-<sup>26</sup> (13-27) venerunt ad Mosen et Aaron et ad omnem coetum filiorum Israhel in desertum Pharan quod est in Cades locutique eis et omni multitudini ostenderunt fructus terrae
-<sup>27</sup> (13-28) et narraverunt dicentes venimus in terram ad quam misisti nos quae re vera fluit lacte et melle ut ex his fructibus cognosci potest
-<sup>28</sup> (13-29) sed cultores fortissimos habet et urbes grandes atque muratas stirpem Enach vidimus ibi
-<sup>29</sup> (13-30) Amalech habitat in meridie Hettheus et Iebuseus et Amorreus in montanis Chananeus vero moratur iuxta mare et circa fluenta Iordanis
-<sup>30</sup> (13-31) inter haec Chaleb conpescens murmur populi qui oriebatur contra Mosen ait ascendamus et possideamus terram quoniam poterimus obtinere eam
-<sup>31</sup> (13-32) alii vero qui fuerant cum eo dicebant nequaquam ad hunc populum valemus ascendere quia fortior nobis est
-<sup>32</sup> (13-33) detraxeruntque terrae quam inspexerant apud filios Israhel dicentes terram quam lustravimus devorat habitatores suos populum quem aspeximus procerae staturae est
-<sup>33</sup> (13-34) ibi vidimus monstra quaedam filiorum Enach de genere giganteo quibus conparati quasi lucustae videbamur
+<sup>1</sup> <sup>a</sup>ibi locutus est Dominus ad Mosen dicens
+<sup>2</sup> <sup>b</sup>mitte viros qui considerent terram Chanaan quam daturus sum filiis Israhel singulos de singulis tribubus ex principibus
+<sup>3</sup> <sup>c</sup>fecit Moses quod Dominus imperarat de deserto Pharan mittens principes viros quorum ista sunt nomina
+<sup>4</sup> <sup>d</sup>de tribu Ruben Semmua filium Zecchur
+<sup>5</sup> <sup>e</sup>de tribu Symeon Saphat filium Huri
+<sup>6</sup> <sup>f</sup>de tribu Iuda Chaleb filium Iepphonne
+<sup>7</sup> <sup>g</sup>de tribu Isachar Igal filium Ioseph
+<sup>8</sup> <sup>h</sup>de tribu Ephraim Osee filium Nun
+<sup>9</sup> <sup>i</sup>de tribu Beniamin Phalti filium Raphu
+<sup>10</sup> <sup>j</sup>de tribu Zabulon Geddihel filium Sodi
+<sup>11</sup> <sup>k</sup>de tribu Ioseph sceptri Manasse Gaddi filium Susi
+<sup>12</sup> <sup>l</sup>de tribu Dan Ammihel filium Gemalli
+<sup>13</sup> <sup>m</sup>de tribu Aser Sthur filium Michahel
+<sup>14</sup> <sup>n</sup>de tribu Nepthali Naabbi filium Vaphsi
+<sup>15</sup> <sup>o</sup>de tribu Gad Guhel filium Machi
+<sup>16</sup> <sup>p</sup>haec sunt nomina virorum quos misit Moses ad considerandam terram vocavitque Osee filium Nun Iosue
+<sup>17</sup> <sup>q</sup>misit ergo eos Moses ad considerandam terram Chanaan et dixit ad eos ascendite per meridianam plagam cumque veneritis ad montes
+<sup>18</sup> <sup>r</sup>considerate terram qualis sit et populum qui habitator est eius utrum fortis sit an infirmus pauci numero an plures
+<sup>19</sup> <sup>s</sup>ipsa terra bona an mala urbes quales muratae an absque muris
+<sup>20</sup> <sup>t</sup>humus pinguis an sterilis nemorosa an absque arboribus confortamini et adferte nobis de fructibus terrae erat autem tempus quando iam praecoquae uvae vesci possunt
+<sup>21</sup> <sup>u</sup>cumque ascendissent exploraverunt terram a deserto Sin usque Roob intrantibus Emath
+<sup>22</sup> <sup>v</sup>ascenderuntque ad meridiem et venerunt in Hebron ubi erant Ahiman et Sisai et Tholmai filii Enach nam Hebron septem annis ante Tanim urbem Aegypti condita est
+<sup>23</sup> <sup>w</sup>pergentesque usque ad torrentem Botri absciderunt palmitem cum uva sua quem portaverunt in vecte duo viri de malis quoque granatis et de ficis loci illius tulerunt
+<sup>24</sup> <sup>x</sup>qui appellatus est Neelescol id est torrens Botri eo quod botrum inde portassent filii Israhel
+<sup>25</sup> <sup>y</sup>reversique exploratores terrae post quadraginta dies omni regione circuita
+<sup>26</sup> <sup>z</sup>venerunt ad Mosen et Aaron et ad omnem coetum filiorum Israhel in desertum Pharan quod est in Cades locutique eis et omni multitudini ostenderunt fructus terrae
+<sup>27</sup> <sup>a</sup>et narraverunt dicentes venimus in terram ad quam misisti nos quae re vera fluit lacte et melle ut ex his fructibus cognosci potest
+<sup>28</sup> <sup>b</sup>sed cultores fortissimos habet et urbes grandes atque muratas stirpem Enach vidimus ibi
+<sup>29</sup> <sup>c</sup>Amalech habitat in meridie Hettheus et Iebuseus et Amorreus in montanis Chananeus vero moratur iuxta mare et circa fluenta Iordanis
+<sup>30</sup> <sup>d</sup>inter haec Chaleb conpescens murmur populi qui oriebatur contra Mosen ait ascendamus et possideamus terram quoniam poterimus obtinere eam
+<sup>31</sup> <sup>e</sup>alii vero qui fuerant cum eo dicebant nequaquam ad hunc populum valemus ascendere quia fortior nobis est
+<sup>32</sup> <sup>f</sup>detraxeruntque terrae quam inspexerant apud filios Israhel dicentes terram quam lustravimus devorat habitatores suos populum quem aspeximus procerae staturae est
+<sup>33</sup> <sup>g</sup>ibi vidimus monstra quaedam filiorum Enach de genere giganteo quibus conparati quasi lucustae videbamur
+
+> - <sup>a</sup> 1. Originally verse 13:2.
+> - <sup>b</sup> 2. Originally verse 13:3.
+> - <sup>c</sup> 3. Originally verse 13:4.
+> - <sup>d</sup> 4. Originally verse 13:5.
+> - <sup>e</sup> 5. Originally verse 13:6.
+> - <sup>f</sup> 6. Originally verse 13:7.
+> - <sup>g</sup> 7. Originally verse 13:8.
+> - <sup>h</sup> 8. Originally verse 13:9.
+> - <sup>i</sup> 9. Originally verse 13:10.
+> - <sup>j</sup> 10. Originally verse 13:11.
+> - <sup>k</sup> 11. Originally verse 13:12.
+> - <sup>l</sup> 12. Originally verse 13:13.
+> - <sup>m</sup> 13. Originally verse 13:14.
+> - <sup>n</sup> 14. Originally verse 13:15.
+> - <sup>o</sup> 15. Originally verse 13:16.
+> - <sup>p</sup> 16. Originally verse 13:17.
+> - <sup>q</sup> 17. Originally verse 13:18.
+> - <sup>r</sup> 18. Originally verse 13:19.
+> - <sup>s</sup> 19. Originally verse 13:20.
+> - <sup>t</sup> 20. Originally verse 13:21.
+> - <sup>u</sup> 21. Originally verse 13:22.
+> - <sup>v</sup> 22. Originally verse 13:23.
+> - <sup>w</sup> 23. Originally verse 13:24.
+> - <sup>x</sup> 24. Originally verse 13:25.
+> - <sup>y</sup> 25. Originally verse 13:26.
+> - <sup>z</sup> 26. Originally verse 13:27.
+> - <sup>a</sup> 27. Originally verse 13:28.
+> - <sup>b</sup> 28. Originally verse 13:29.
+> - <sup>c</sup> 29. Originally verse 13:30.
+> - <sup>d</sup> 30. Originally verse 13:31.
+> - <sup>e</sup> 31. Originally verse 13:32.
+> - <sup>f</sup> 32. Originally verse 13:33.
+> - <sup>g</sup> 33. Originally verse 13:34.
 
 ## Chapter 14
 
@@ -791,8 +829,11 @@
 <sup>25</sup> tolle Aaron et filium eius cum eo et duces eos in montem Or
 <sup>26</sup> cumque nudaveris patrem veste sua indues ea Eleazarum filium eius et Aaron colligetur et morietur ibi
 <sup>27</sup> fecit Moses ut praeceperat Dominus et ascenderunt in montem Or coram omni multitudine
-<sup>28</sup> cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius (20-29) illo mortuo in montis supercilio descendit cum Eleazaro
-<sup>29</sup> (20-30) omnis autem multitudo videns occubuisse Aaron flevit super eo triginta diebus per cunctas familias suas
+<sup>28</sup> cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius <sup>a</sup>illo mortuo in montis supercilio descendit cum Eleazaro
+<sup>29</sup> <sup>b</sup>omnis autem multitudo videns occubuisse Aaron flevit super eo triginta diebus per cunctas familias suas
+
+> - <sup>a</sup> 28. Originally verse 20:29.
+> - <sup>b</sup> 29. Originally verse 20:30.
 
 ## Chapter 21
 
@@ -1127,26 +1168,45 @@
 <sup>37</sup> sacrificiaque et libamina singulorum per vitulos et arietes et agnos rite celebrabis
 <sup>38</sup> et hircum pro peccato absque holocausto sempiterno sacrificioque eius et libamine
 <sup>39</sup> haec offeretis Domino in sollemnitatibus vestris praeter vota et oblationes spontaneas in holocausto in sacrificio in libamine et in hostiis pacificis
-<sup>40</sup> (30-1) narravitque Moses filiis Israhel omnia quae ei Dominus imperarat
+<sup>40</sup> <sup>a</sup>narravitque Moses filiis Israhel omnia quae ei Dominus imperarat
+
+> - <sup>a</sup> 40. Originally verse 30:1.
 
 ## Chapter 30
 
-<sup>1</sup> (30-2) et locutus est ad principes tribuum filiorum Israhel iste est sermo quem praecepit Dominus
-<sup>2</sup> (30-3) si quis virorum votum Domino voverit aut se constrinxerit iuramento non faciet irritum verbum suum sed omne quod promisit implebit
-<sup>3</sup> (30-4) mulier si quippiam voverit et se constrinxerit iuramento quae est in domo patris sui et in aetate adhuc puellari si cognoverit pater votum quod pollicita est et iuramentum quo obligavit animam suam et tacuerit voti rea erit
-<sup>4</sup> (30-5) quicquid pollicita est et iuravit opere conplebit
-<sup>5</sup> (30-6) sin autem statim ut audierit contradixerit pater et vota et iuramenta eius irrita erunt nec obnoxia tenebitur sponsioni eo quod contradixerit pater
-<sup>6</sup> (30-7) si maritum habuerit et voverit aliquid et semel verbum de ore eius egrediens animam illius obligaverit iuramento
-<sup>7</sup> (30-8) quo die audierit vir et non contradixerit voti rea erit reddet quodcumque promiserat
-<sup>8</sup> (30-9) sin autem audiens statim contradixerit et irritas fecerit pollicitationes eius verbaque quibus obstrinxerat animam suam propitius ei erit Dominus
-<sup>9</sup> (30-10) vidua et repudiata quicquid voverint reddent
-<sup>10</sup> (30-11) uxor in domo viri cum se voto constrinxerit et iuramento
-<sup>11</sup> (30-12) si audierit vir et tacuerit nec contradixerit sponsioni reddet quodcumque promiserat
-<sup>12</sup> (30-13) sin autem extemplo contradixerit non tenebitur promissionis rea quia maritus contradixit et Dominus ei propitius erit
-<sup>13</sup> (30-14) si voverit et iuramento se constrinxerit ut per ieiunium vel ceterarum rerum abstinentiam adfligat animam suam in arbitrio viri erit ut faciat sive non faciat
-<sup>14</sup> (30-15) quod si audiens vir tacuerit et in alteram diem distulerit sententiam quicquid voverat atque promiserat reddet quia statim ut audivit tacuit
-<sup>15</sup> (30-16) sin autem contradixerit postquam rescivit portabit ipse iniquitatem eius
-<sup>16</sup> (30-17) istae sunt leges quas constituit Dominus Mosi inter virum et uxorem inter patrem et filiam quae in puellari adhuc aetate est vel quae manet in parentis domo
+<sup>1</sup> <sup>a</sup>et locutus est ad principes tribuum filiorum Israhel iste est sermo quem praecepit Dominus
+<sup>2</sup> <sup>b</sup>si quis virorum votum Domino voverit aut se constrinxerit iuramento non faciet irritum verbum suum sed omne quod promisit implebit
+<sup>3</sup> <sup>c</sup>mulier si quippiam voverit et se constrinxerit iuramento quae est in domo patris sui et in aetate adhuc puellari si cognoverit pater votum quod pollicita est et iuramentum quo obligavit animam suam et tacuerit voti rea erit
+<sup>4</sup> <sup>d</sup>quicquid pollicita est et iuravit opere conplebit
+<sup>5</sup> <sup>e</sup>sin autem statim ut audierit contradixerit pater et vota et iuramenta eius irrita erunt nec obnoxia tenebitur sponsioni eo quod contradixerit pater
+<sup>6</sup> <sup>f</sup>si maritum habuerit et voverit aliquid et semel verbum de ore eius egrediens animam illius obligaverit iuramento
+<sup>7</sup> <sup>g</sup>quo die audierit vir et non contradixerit voti rea erit reddet quodcumque promiserat
+<sup>8</sup> <sup>h</sup>sin autem audiens statim contradixerit et irritas fecerit pollicitationes eius verbaque quibus obstrinxerat animam suam propitius ei erit Dominus
+<sup>9</sup> <sup>i</sup>vidua et repudiata quicquid voverint reddent
+<sup>10</sup> <sup>j</sup>uxor in domo viri cum se voto constrinxerit et iuramento
+<sup>11</sup> <sup>k</sup>si audierit vir et tacuerit nec contradixerit sponsioni reddet quodcumque promiserat
+<sup>12</sup> <sup>l</sup>sin autem extemplo contradixerit non tenebitur promissionis rea quia maritus contradixit et Dominus ei propitius erit
+<sup>13</sup> <sup>m</sup>si voverit et iuramento se constrinxerit ut per ieiunium vel ceterarum rerum abstinentiam adfligat animam suam in arbitrio viri erit ut faciat sive non faciat
+<sup>14</sup> <sup>n</sup>quod si audiens vir tacuerit et in alteram diem distulerit sententiam quicquid voverat atque promiserat reddet quia statim ut audivit tacuit
+<sup>15</sup> <sup>o</sup>sin autem contradixerit postquam rescivit portabit ipse iniquitatem eius
+<sup>16</sup> <sup>p</sup>istae sunt leges quas constituit Dominus Mosi inter virum et uxorem inter patrem et filiam quae in puellari adhuc aetate est vel quae manet in parentis domo
+
+> - <sup>a</sup> 1. Originally verse 30:2.
+> - <sup>b</sup> 2. Originally verse 30:3.
+> - <sup>c</sup> 3. Originally verse 30:4.
+> - <sup>d</sup> 4. Originally verse 30:5.
+> - <sup>e</sup> 5. Originally verse 30:6.
+> - <sup>f</sup> 6. Originally verse 30:7.
+> - <sup>g</sup> 7. Originally verse 30:8.
+> - <sup>h</sup> 8. Originally verse 30:9.
+> - <sup>i</sup> 9. Originally verse 30:10.
+> - <sup>j</sup> 10. Originally verse 30:11.
+> - <sup>k</sup> 11. Originally verse 30:12.
+> - <sup>l</sup> 12. Originally verse 30:13.
+> - <sup>m</sup> 13. Originally verse 30:14.
+> - <sup>n</sup> 14. Originally verse 30:15.
+> - <sup>o</sup> 15. Originally verse 30:16.
+> - <sup>p</sup> 16. Originally verse 30:17.
 
 ## Chapter 31
 

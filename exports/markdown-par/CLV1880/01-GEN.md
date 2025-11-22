@@ -1675,7 +1675,12 @@
 <sup>20</sup> vos cogitastis de me malum et Deus vertit illud in bonum ut exaltaret me sicut inpraesentiarum cernitis et salvos faceret multos populos
 <sup>21</sup> nolite metuere ego pascam vos et parvulos vestros consolatusque est eos et blande ac leniter est locutus
 <sup>22</sup> et habitavit in Aegypto cum omni domo patris sui vixitque centum decem annis
-<sup>23</sup> (50-22) et vidit Ephraim filios usque ad tertiam generationem filii quoque Machir filii Manasse nati sunt in genibus Ioseph
-<sup>24</sup> (50-23) quibus transactis locutus est fratribus suis post mortem meam Deus visitabit vos et ascendere faciet de terra ista ad terram quam iuravit Abraham Isaac et Iacob
-<sup>25</sup> (50-24) cumque adiurasset eos atque dixisset Deus visitabit vos asportate vobiscum ossa mea de loco isto
-<sup>26</sup> (50-25) mortuus est expletis centum decem vitae suae annis et conditus aromatibus repositus est in loculo in Aegypto
+<sup>23</sup> <sup>a</sup>et vidit Ephraim filios usque ad tertiam generationem filii quoque Machir filii Manasse nati sunt in genibus Ioseph
+<sup>24</sup> <sup>b</sup>quibus transactis locutus est fratribus suis post mortem meam Deus visitabit vos et ascendere faciet de terra ista ad terram quam iuravit Abraham Isaac et Iacob
+<sup>25</sup> <sup>c</sup>cumque adiurasset eos atque dixisset Deus visitabit vos asportate vobiscum ossa mea de loco isto
+<sup>26</sup> <sup>d</sup>mortuus est expletis centum decem vitae suae annis et conditus aromatibus repositus est in loculo in Aegypto
+
+> - <sup>a</sup> 23. Originally verse 50:22.
+> - <sup>b</sup> 24. Originally verse 50:23.
+> - <sup>c</sup> 25. Originally verse 50:24.
+> - <sup>d</sup> 26. Originally verse 50:25.

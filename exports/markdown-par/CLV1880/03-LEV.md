@@ -899,7 +899,9 @@
 <sup>43</sup> quae cum relicta fuerit ab eis conplacebit sibi in sabbatis suis patiens solitudinem propter illos ipsi vero rogabunt pro peccatis suis eo quod abiecerint iudicia mea et leges meas despexerint
 <sup>44</sup> et tamen etiam cum essent in terra hostili non penitus abieci eos neque sic despexi ut consumerentur et irritum facerem pactum meum cum eis ego enim sum Dominus Deus eorum
 <sup>45</sup> et recordabor foederis mei pristini quando eduxi eos de terra Aegypti in conspectu gentium ut essem Deus eorum ego Dominus Deus
-<sup>46</sup> (26-25) haec sunt praecepta atque iudicia et leges quas dedit Dominus inter se et inter filios Israhel in monte Sinai per manum Mosi
+<sup>46</sup> <sup>a</sup>haec sunt praecepta atque iudicia et leges quas dedit Dominus inter se et inter filios Israhel in monte Sinai per manum Mosi
+
+> - <sup>a</sup> 46. Originally verse 26:25.
 
 ## Chapter 27
 
