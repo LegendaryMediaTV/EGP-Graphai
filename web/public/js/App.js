@@ -9,6 +9,7 @@ function App() {
   const [selectedChapter, setSelectedChapter] = useState(1);
   const [bookContent, setBookContent] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [activeFootnote, setActiveFootnote] = useState(null);
 
   // UI State
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
@@ -18,8 +19,8 @@ function App() {
   const [settings, setSettings] = useState({
     paragraphMode: true,
     showVerseNumbers: true,
-    showStrongs: false,
-    showMorph: false,
+    showStrongs: true,
+    showMorph: true,
     showLemma: false,
     showFootnotes: true,
     showHeadings: true,
@@ -206,7 +207,11 @@ function App() {
                   <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
                 </div>
               ) : (
-                <BibleContent content={chapterContent} settings={settings} />
+                <BibleContent
+                  content={chapterContent}
+                  settings={settings}
+                  onFootnoteClick={setActiveFootnote}
+                />
               )}
             </div>
           </div>
@@ -218,6 +223,12 @@ function App() {
           settings={settings}
           setSettings={setSettings}
           toggleSetting={toggleSetting}
+        />
+
+        <FootnoteModal
+          content={activeFootnote}
+          onClose={() => setActiveFootnote(null)}
+          settings={settings}
         />
       </div>
     </div>

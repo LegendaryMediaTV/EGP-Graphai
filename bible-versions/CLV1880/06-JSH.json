@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "et factum est ut post mortem Mosi servi Domini loqueretur Dominus ad Iosue filium Nun ministrum Mosi et diceret ei",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et factum est ut post mortem Mosi servi Domini loqueretur Dominus ad Iosue filium Nun ministrum Mosi et diceret ei"
     }
   },
   {
@@ -115,8 +115,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "misit ergo Iosue filius Nun de Setthim duos viros exploratores abscondito et dixit eis ite et considerate terram urbemque Hiericho qui pergentes ingressi sunt domum mulieris meretricis nomine Raab et quieverunt apud eam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "misit ergo Iosue filius Nun de Setthim duos viros exploratores abscondito et dixit eis ite et considerate terram urbemque Hiericho qui pergentes ingressi sunt domum mulieris meretricis nomine Raab et quieverunt apud eam"
     }
   },
   {
@@ -262,8 +262,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "igitur Iosue de nocte consurgens movit castra egredientesque de Setthim venerunt ad Iordanem ipse et omnes filii Israhel et morati sunt ibi per tres dies",
-      "paragraph": true
+      "paragraph": true,
+      "text": "igitur Iosue de nocte consurgens movit castra egredientesque de Setthim venerunt ad Iordanem ipse et omnes filii Israhel et morati sunt ibi per tres dies"
     }
   },
   {
@@ -367,8 +367,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "quibus transgressis dixit Dominus ad Iosue",
-      "paragraph": true
+      "paragraph": true,
+      "text": "quibus transgressis dixit Dominus ad Iosue"
     }
   },
   {
@@ -507,15 +507,24 @@
     "book": "JSH",
     "chapter": 4,
     "verse": 24,
-    "content": "sicut fecerat prius in mari Rubro quod siccavit donec transiremus (4-25) ut discant omnes terrarum populi fortissimam Domini manum et ut vos timeatis Dominum Deum vestrum omni tempore"
+    "content": [
+      {
+        "text": "sicut fecerat prius in mari Rubro quod siccavit donec transiremus ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 4:25."
+        }
+      },
+      "ut discant omnes terrarum populi fortissimam Domini manum et ut vos timeatis Dominum Deum vestrum omni tempore"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "postquam ergo audierunt omnes reges Amorreorum qui habitabant trans Iordanem ad occidentalem plagam et cuncti reges Chanaan qui propinqua possidebant Magno mari loca quod siccasset Dominus fluenta Iordanis coram filiis Israhel donec transirent dissolutum est cor eorum et non remansit in eis spiritus timentium introitum filiorum Israhel",
-      "paragraph": true
+      "paragraph": true,
+      "text": "postquam ergo audierunt omnes reges Amorreorum qui habitabant trans Iordanem ad occidentalem plagam et cuncti reges Chanaan qui propinqua possidebant Magno mari loca quod siccasset Dominus fluenta Iordanis coram filiis Israhel donec transirent dissolutum est cor eorum et non remansit in eis spiritus timentium introitum filiorum Israhel"
     }
   },
   {
@@ -594,21 +603,38 @@
     "book": "JSH",
     "chapter": 5,
     "verse": 14,
-    "content": "qui respondit nequaquam sed sum princeps exercitus Domini et nunc venio (5-15) cecidit Iosue pronus in terram et adorans ait quid dominus meus loquitur ad servum suum"
+    "content": [
+      {
+        "text": "qui respondit nequaquam sed sum princeps exercitus Domini et nunc venio ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:15."
+        }
+      },
+      "cecidit Iosue pronus in terram et adorans ait quid dominus meus loquitur ad servum suum"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 5,
     "verse": 15,
-    "content": "(5-16) solve inquit calciamentum de pedibus tuis locus enim in quo stas sanctus est fecitque Iosue ut sibi fuerat imperatum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:16."
+        }
+      },
+      "solve inquit calciamentum de pedibus tuis locus enim in quo stas sanctus est fecitque Iosue ut sibi fuerat imperatum"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "Hiericho autem clausa erat atque munita timore filiorum Israhel et nullus egredi audebat aut ingredi",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Hiericho autem clausa erat atque munita timore filiorum Israhel et nullus egredi audebat aut ingredi"
     }
   },
   {
@@ -772,8 +798,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "filii autem Israhel praevaricati sunt mandatum et usurpaverunt de anathemate nam Achan filius Charmi filii Zabdi filii Zare de tribu Iuda tulit aliquid de anathemate iratusque est Dominus contra filios Israhel",
-      "paragraph": true
+      "paragraph": true,
+      "text": "filii autem Israhel praevaricati sunt mandatum et usurpaverunt de anathemate nam Achan filius Charmi filii Zabdi filii Zare de tribu Iuda tulit aliquid de anathemate iratusque est Dominus contra filios Israhel"
     }
   },
   {
@@ -931,8 +957,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "dixit autem Dominus ad Iosue ne timeas neque formides tolle tecum omnem multitudinem pugnatorum et consurgens ascende in oppidum Ahi ecce tradidi in manu tua regem eius et populum urbemque et terram",
-      "paragraph": true
+      "paragraph": true,
+      "text": "dixit autem Dominus ad Iosue ne timeas neque formides tolle tecum omnem multitudinem pugnatorum et consurgens ascende in oppidum Ahi ecce tradidi in manu tua regem eius et populum urbemque et terram"
     }
   },
   {
@@ -1144,8 +1170,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "quibus auditis cuncti reges trans Iordanem qui versabantur in montanis et in campestribus in maritimis ac litore maris Magni hii quoque qui habitabant iuxta Libanum Hettheus et Amorreus et Chananeus Ferezeus et Eveus et Iebuseus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "quibus auditis cuncti reges trans Iordanem qui versabantur in montanis et in campestribus in maritimis ac litore maris Magni hii quoque qui habitabant iuxta Libanum Hettheus et Amorreus et Chananeus Ferezeus et Eveus et Iebuseus"
     }
   },
   {
@@ -1309,8 +1335,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "quae cum audisset Adonisedec rex Hierusalem quod scilicet cepisset Iosue Ahi et subvertisset eam sicut enim fecerat Hiericho et regi eius sic fecit Ahi et regi illius et quod transfugissent Gabaonitae ad Israhel et essent foederati eorum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "quae cum audisset Adonisedec rex Hierusalem quod scilicet cepisset Iosue Ahi et subvertisset eam sicut enim fecerat Hiericho et regi eius sic fecit Ahi et regi illius et quod transfugissent Gabaonitae ad Israhel et essent foederati eorum"
     }
   },
   {
@@ -1533,45 +1559,94 @@
     "book": "JSH",
     "chapter": 10,
     "verse": 38,
-    "content": "inde reversus in Dabir (10-39) cepit eam atque vastavit"
+    "content": [
+      {
+        "text": "inde reversus in Dabir ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:39."
+        }
+      },
+      "cepit eam atque vastavit"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 39,
-    "content": "(10-40) regem quoque eius et omnia per circuitum oppida percussit in ore gladii non dimisit in ea ullas reliquias sicut fecerat Hebron et Lebna et regibus earum sic fecit Dabir et regi illius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:40."
+        }
+      },
+      "regem quoque eius et omnia per circuitum oppida percussit in ore gladii non dimisit in ea ullas reliquias sicut fecerat Hebron et Lebna et regibus earum sic fecit Dabir et regi illius"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 40,
-    "content": "(10-41) percussit itaque Iosue omnem terram montanam et meridianam atque campestrem et Asedoth cum regibus suis non dimisit in ea ullas reliquias sed omne quod spirare poterat interfecit sicut praeceperat ei Dominus Deus Israhel"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:41."
+        }
+      },
+      "percussit itaque Iosue omnem terram montanam et meridianam atque campestrem et Asedoth cum regibus suis non dimisit in ea ullas reliquias sed omne quod spirare poterat interfecit sicut praeceperat ei Dominus Deus Israhel"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 41,
-    "content": "(10-42) a Cadesbarne usque Gazam omnem terram Gosen usque Gabaon"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:42."
+        }
+      },
+      "a Cadesbarne usque Gazam omnem terram Gosen usque Gabaon"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 42,
-    "content": "(10-43) universos reges et regiones eorum uno cepit impetu atque vastavit Dominus enim Deus Israhel pugnabat pro eo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:43."
+        }
+      },
+      "universos reges et regiones eorum uno cepit impetu atque vastavit Dominus enim Deus Israhel pugnabat pro eo"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 10,
     "verse": 43,
-    "content": "(10-44) reversusque est cum omni Israhele ad locum castrorum in Galgala"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 10:44."
+        }
+      },
+      "reversusque est cum omni Israhele ad locum castrorum in Galgala"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "quae cum audisset Iabin rex Asor misit ad Iobab regem Madon et ad regem Someron atque ad regem Acsaph",
-      "paragraph": true
+      "paragraph": true,
+      "text": "quae cum audisset Iabin rex Asor misit ad Iobab regem Madon et ad regem Someron atque ad regem Acsaph"
     }
   },
   {
@@ -1711,8 +1786,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "hii sunt reges quos percusserunt filii Israhel et possederunt terram eorum trans Iordanem ad solis ortum a torrente Arnon usque ad montem Hermon et omnem orientalem plagam quae respicit solitudinem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "hii sunt reges quos percusserunt filii Israhel et possederunt terram eorum trans Iordanem ad solis ortum a torrente Arnon usque ad montem Hermon et omnem orientalem plagam quae respicit solitudinem"
     }
   },
   {
@@ -1858,8 +1933,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "Iosue senex provectaeque aetatis erat et dixit Dominus ad eum senuisti et longevus es terraque latissima derelicta est quae necdum est sorte divisa",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Iosue senex provectaeque aetatis erat et dixit Dominus ad eum senuisti et longevus es terraque latissima derelicta est quae necdum est sorte divisa"
     }
   },
   {
@@ -2059,8 +2134,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "hoc est quod possederunt filii Israhel in terra Chanaan quam dederunt eis Eleazar sacerdos et Iosue filius Nun et principes familiarum per tribus Israhel",
-      "paragraph": true
+      "paragraph": true,
+      "text": "hoc est quod possederunt filii Israhel in terra Chanaan quam dederunt eis Eleazar sacerdos et Iosue filius Nun et principes familiarum per tribus Israhel"
     }
   },
   {
@@ -2152,8 +2227,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "igitur sors filiorum Iudae per cognationes suas ista fuit a termino Edom desertum Sin contra meridiem et usque ad extremam partem australis plagae",
-      "paragraph": true
+      "paragraph": true,
+      "text": "igitur sors filiorum Iudae per cognationes suas ista fuit a termino Edom desertum Sin contra meridiem et usque ad extremam partem australis plagae"
     }
   },
   {
@@ -2533,8 +2608,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "cecidit quoque sors filiorum Ioseph ab Iordane contra Hiericho et aquas eius ab oriente solitudo quae ascendit de Hiericho ad montana Bethel",
-      "paragraph": true
+      "paragraph": true,
+      "text": "cecidit quoque sors filiorum Ioseph ab Iordane contra Hiericho et aquas eius ab oriente solitudo quae ascendit de Hiericho ad montana Bethel"
     }
   },
   {
@@ -2596,8 +2671,8 @@
     "chapter": 17,
     "verse": 1,
     "content": {
-      "text": "cecidit autem sors tribui Manasse ipse est enim primogenitus Ioseph Machir primogenito Manasse patri Galaad qui fuit vir pugnator habuitque possessionem Galaad et Basan",
-      "paragraph": true
+      "paragraph": true,
+      "text": "cecidit autem sors tribui Manasse ipse est enim primogenitus Ioseph Machir primogenito Manasse patri Galaad qui fuit vir pugnator habuitque possessionem Galaad et Basan"
     }
   },
   {
@@ -2707,8 +2782,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "congregatique sunt omnes filii Israhel in Silo ibique fixerunt tabernaculum testimonii et fuit eis terra subiecta",
-      "paragraph": true
+      "paragraph": true,
+      "text": "congregatique sunt omnes filii Israhel in Silo ibique fixerunt tabernaculum testimonii et fuit eis terra subiecta"
     }
   },
   {
@@ -2878,8 +2953,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "et egressa est sors secunda filiorum Symeon per cognationes suas fuitque hereditas",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et egressa est sors secunda filiorum Symeon per cognationes suas fuitque hereditas"
     }
   },
   {
@@ -3187,8 +3262,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "et locutus est Dominus ad Iosue dicens loquere filiis Israhel et dic eis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et locutus est Dominus ad Iosue dicens loquere filiis Israhel et dic eis"
     }
   },
   {
@@ -3244,8 +3319,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "accesseruntque principes familiarum Levi ad Eleazar sacerdotem et Iosue filium Nun et ad duces cognationum per singulas tribus filiorum Israhel",
-      "paragraph": true
+      "paragraph": true,
+      "text": "accesseruntque principes familiarum Levi ad Eleazar sacerdotem et Iosue filium Nun et ad duces cognationum per singulas tribus filiorum Israhel"
     }
   },
   {
@@ -3468,57 +3543,121 @@
     "book": "JSH",
     "chapter": 21,
     "verse": 38,
-    "content": "(21-37) et de tribu Gad civitates confugii Ramoth in Galaad et Manaim"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:37."
+        }
+      },
+      "et de tribu Gad civitates confugii Ramoth in Galaad et Manaim"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 39,
-    "content": "(21-37) et Esebon et Iazer civitates quattuor cum suburbanis suis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:37."
+        }
+      },
+      "et Esebon et Iazer civitates quattuor cum suburbanis suis"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 40,
-    "content": "(21-38) omnes urbes filiorum Merari per familias et cognationes suas duodecim"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:38."
+        }
+      },
+      "omnes urbes filiorum Merari per familias et cognationes suas duodecim"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 41,
-    "content": "(21-39) itaque universae civitates Levitarum in medio possessionis filiorum Israhel fuerunt quadraginta octo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:39."
+        }
+      },
+      "itaque universae civitates Levitarum in medio possessionis filiorum Israhel fuerunt quadraginta octo"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 42,
-    "content": "(21-40) cum suburbanis suis singulae per familias distributae"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:40."
+        }
+      },
+      "cum suburbanis suis singulae per familias distributae"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 43,
-    "content": "(21-41) deditque Dominus Israheli omnem terram quam traditurum se patribus eorum iuraverat et possederunt illam atque habitaverunt in ea"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:41."
+        }
+      },
+      "deditque Dominus Israheli omnem terram quam traditurum se patribus eorum iuraverat et possederunt illam atque habitaverunt in ea"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 44,
-    "content": "(21-42) dataque est ab eo pax in omnes per circuitum nationes nullusque eis hostium resistere ausus est sed cuncti in eorum dicionem redacti sunt"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:42."
+        }
+      },
+      "dataque est ab eo pax in omnes per circuitum nationes nullusque eis hostium resistere ausus est sed cuncti in eorum dicionem redacti sunt"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 21,
     "verse": 45,
-    "content": "(21-43) ne unum quidem verbum quod illis praestaturum se esse promiserat irritum fuit sed rebus expleta sunt omnia"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 21:43."
+        }
+      },
+      "ne unum quidem verbum quod illis praestaturum se esse promiserat irritum fuit sed rebus expleta sunt omnia"
+    ]
   },
   {
     "book": "JSH",
     "chapter": 22,
     "verse": 1,
     "content": {
-      "text": "eodem tempore vocavit Iosue Rubenitas et Gadditas et dimidiam tribum Manasse",
-      "paragraph": true
+      "paragraph": true,
+      "text": "eodem tempore vocavit Iosue Rubenitas et Gadditas et dimidiam tribum Manasse"
     }
   },
   {
@@ -3724,8 +3863,8 @@
     "chapter": 23,
     "verse": 1,
     "content": {
-      "text": "evoluto autem multo tempore postquam pacem Dominus dederat Israheli subiectis in gyro nationibus universis et Iosue iam longevo et persenilis aetatis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "evoluto autem multo tempore postquam pacem Dominus dederat Israheli subiectis in gyro nationibus universis et Iosue iam longevo et persenilis aetatis"
     }
   },
   {
@@ -3823,8 +3962,8 @@
     "chapter": 24,
     "verse": 1,
     "content": {
-      "text": "congregavitque Iosue omnes tribus Israhel in Sychem et vocavit maiores natu ac principes et iudices et magistros steteruntque in conspectu Domini",
-      "paragraph": true
+      "paragraph": true,
+      "text": "congregavitque Iosue omnes tribus Israhel in Sychem et vocavit maiores natu ac principes et iudices et magistros steteruntque in conspectu Domini"
     }
   },
   {

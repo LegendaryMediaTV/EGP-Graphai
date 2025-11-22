@@ -30,6 +30,7 @@
 <sup>28</sup> And in nothing terrified by your adversaries: which is to them an evident token of perdition, but to you of salvation, and that of God.
 <sup>29</sup> For unto you it is given in the behalf of Christ, not only to believe on him, but also to suffer for his sake;
 <sup>30</sup> Having the same conflict which ye saw in me, and now hear [to be] in me.
+
 ## Chapter 2
 
 <sup>1</sup> If [there be] therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit, if any bowels and mercies,
@@ -62,6 +63,7 @@
 <sup>28</sup> I sent him therefore the more carefully, that, when ye see him again, ye may rejoice, and that I may be the less sorrowful.
 <sup>29</sup> Receive him therefore in the Lord with all gladness; and hold such in reputation:
 <sup>30</sup> Because for the work of Christ he was nigh unto death, not regarding his life, to supply your lack of service toward me.
+
 ## Chapter 3
 
 <sup>1</sup> Finally, my brethren, rejoice in the Lord. To write the same things to you, to me indeed [is] not grievous, but for you [it is] safe.
@@ -85,6 +87,7 @@
 <sup>19</sup> Whose end [is] destruction, whose God [is their] belly, and [whose] glory [is] in their shame, who mind earthly things.)
 <sup>20</sup> For our conversation is in heaven; from whence also we look for the Saviour, the Lord Jesus Christ:
 <sup>21</sup> Who shall change our vile body, that it may be fashioned like unto his glorious body, according to the working whereby he is able even to subdue all things unto himself.
+
 ## Chapter 4
 
 <sup>1</sup> Therefore, my brethren dearly beloved and longed for, my joy and crown, so stand fast in the Lord, [my] dearly beloved.

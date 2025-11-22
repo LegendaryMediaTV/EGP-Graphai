@@ -42,6 +42,7 @@
 <sup>15</sup> Catch for us the foxes,<br>the little foxes that plunder the vineyards;<br>for our vineyards are in blossom.
 <sup>16</sup> My beloved is mine, and I am his.<br>He browses among the lilies.<br>
 <sup>17</sup> Until the day is cool, and the shadows flee away,<br>turn, my beloved,<br>and be like a roe or a young deer on the mountains of Bether.
+
 ## Chapter 3
 
 <sup>1</sup> By night on my bed,<br>I sought him whom my soul loves.<br>I sought him, but I didn’t find him.<br>
@@ -58,6 +59,7 @@
 <sup>9</sup> King Solomon made himself a carriage<br>of the wood of Lebanon.<br>
 <sup>10</sup> He made its pillars of silver,<br>its bottom of gold, its seat of purple,<br>the middle of it being paved with love,<br>from the daughters of Jerusalem.<br>
 <sup>11</sup> Go out, you daughters of Zion, and see King Solomon,<br>with the crown with which his mother has crowned him,<br>in the day of his weddings,<br>in the day of the gladness of his heart.
+
 ## Chapter 4
 
 <sup>1</sup> Behold, you are beautiful, my love.<br>Behold, you are beautiful.<br>Your eyes are like doves behind your veil.<br>Your hair is as a flock of goats,<br>that descend from Mount Gilead.<br>
@@ -79,6 +81,7 @@
 <sup>14</sup> spikenard and saffron,<br>calamus and cinnamon, with every kind of incense tree;<br>myrrh and aloes, with all the best spices,<br>
 <sup>15</sup> a fountain of gardens,<br>a well of living waters,<br>flowing streams from Lebanon.
 <sup>16</sup> Awake, north wind, and come, you south!<br>Blow on my garden, that its spices may flow out.<br>Let my beloved come into his garden,<br>and taste his precious fruits.
+
 ## Chapter 5
 
 <sup>1</sup> I have come into my garden, my sister, my bride.<br>I have gathered my myrrh with my spice;<br>I have eaten my honeycomb with my honey;<br>I have drunk my wine with my milk.<br>Eat, friends!<br>Drink, yes, drink abundantly, beloved.
@@ -98,6 +101,7 @@
 <sup>14</sup> His hands are like rings of gold set with beryl.<br>His body is like ivory work overlaid with sapphires.<br>
 <sup>15</sup> His legs are like pillars of marble set on sockets of fine gold.<br>His appearance is like Lebanon, excellent as the cedars.<br>
 <sup>16</sup> His mouth is sweetness;<br>yes, he is altogether lovely.<br>This is my beloved, and this is my friend,<br>daughters of Jerusalem.
+
 ## Chapter 6
 
 <sup>1</sup> Where has your beloved gone, you fairest among women?<br>Where has your beloved turned, that we may seek him with you?
@@ -117,6 +121,7 @@
 <sup>11</sup> I went down into the nut tree grove,<br>to see the green plants of the valley,<br>to see whether the vine budded,<br>and the pomegranates were in flower.<br>
 <sup>12</sup> Without realizing it,<br>my desire set me with my royal people’s chariots.
 <sup>13</sup> Return, return, Shulammite!<br>Return, return, that we may gaze at you.<br>Why do you desire to gaze at the Shulammite,<br>as at the dance of Mahanaim?
+
 ## Chapter 7
 
 <sup>1</sup> How beautiful are your feet in sandals, prince’s daughter!<br>Your rounded thighs are like jewels,<br>the work of the hands of a skillful workman.<br>
@@ -132,6 +137,7 @@
 <sup>11</sup> Come, my beloved! Let’s go out into the field.<br>Let’s lodge in the villages.<br>
 <sup>12</sup> Let’s go early up to the vineyards.<br>Let’s see whether the vine has budded,<br>its blossom is open,<br>and the pomegranates are in flower.<br>There I will give you my love.<br>
 <sup>13</sup> The mandrakes produce fragrance.<br>At our doors are all kinds of precious fruits, new and old,<br>which I have stored up for you, my beloved.
+
 ## Chapter 8
 
 <sup>1</sup> Oh that you were like my brother,<br>who nursed from the breasts of my mother!<br>If I found you outside, I would kiss you;<br>yes, and no one would despise me.<br>
@@ -139,7 +145,9 @@
 <sup>3</sup> His left hand would be under my head.<br>His right hand would embrace me.
 
 <sup>4</sup> I adjure you, daughters of Jerusalem,<br>that you not stir up, nor awaken love,<br>until it so desires.
-<sup>5</sup> Who is this who comes up from the wilderness,<br>leaning on her beloved? Under the apple tree I awakened you.<br>There your mother conceived you.<br>There she was in labor and bore you.
+<sup>5</sup> Who is this who comes up from the wilderness,<br>leaning on her beloved?<br>
+
+Under the apple tree I awakened you.<br>There your mother conceived you.<br>There she was in labor and bore you.
 
 <sup>6</sup> Set me as a seal on your heart,<br>as a seal on your arm;<br>for love is strong as death.<br>Jealousy is as cruel as Sheol.<sup>a</sup><br>Its flashes are flashes of fire,<br>a very flame of Yah.<sup>b</sup><br>
 <sup>7</sup> Many waters can’t quench love,<br>neither can floods drown it.<br>If a man would give all the wealth of his house for love,<br>he would be utterly scorned.

@@ -16,6 +16,7 @@
 <sup>14</sup> not giving heed to Jewish fables and commands of men, turning themselves away from the truth;
 <sup>15</sup> all things, indeed, are pure to the pure, and to the defiled and unstedfast is nothing pure, but of them defiled are even the mind and the conscience;
 <sup>16</sup> God they profess to know, and in the works they deny Him, being abominable, and disobedient, and unto every good work disapproved.
+
 ## Chapter 2
 
 <sup>1</sup> And thou-be speaking what doth become the sound teaching;
@@ -33,6 +34,7 @@
 <sup>13</sup> waiting for the blessed hope and manifestation of the glory of our great God and Saviour Jesus Christ,
 <sup>14</sup> who did give himself for us, that he might ransom us from all lawlessness, and might purify to himself a peculiar people, zealous of good works;
 <sup>15</sup> these things be speaking, and exhorting, and convicting, with all charge; let no one despise thee!
+
 ## Chapter 3
 
 <sup>1</sup> Remind them to be subject to principalities and authorities, to obey rule, unto every good work to be ready,

@@ -11,6 +11,7 @@
 <sup>9</sup> et hic est numerus eorum fialae aureae triginta fialae argenteae mille cultri viginti novem scyphi aurei triginta
 <sup>10</sup> scyphi argentei secundi quadringenti decem vasa alia mille
 <sup>11</sup> omnia vasa aurea et argentea quinque milia quadringenta universa tulit Sasabassar cum his qui ascendebant de transmigratione Babylonis in Hierusalem
+
 ## Chapter 2
 
 <sup>1</sup> hii sunt autem filii provinciae qui ascenderunt de captivitate quam transtulerat Nabuchodonosor rex Babylonis in Babylonem et reversi sunt in Hierusalem et Iudam unusquisque in civitatem suam
@@ -83,6 +84,7 @@
 <sup>68</sup> et de principibus patrum cum ingrederentur templum Domini quod est in Hierusalem sponte obtulerunt in domum Dei ad extruendam eam in loco suo
 <sup>69</sup> secundum vires suas dederunt in inpensas operis auri solidos sexaginta milia et mille argenti minas quinque milia et vestes sacerdotales centum
 <sup>70</sup> habitaverunt ergo sacerdotes et Levitae et de populo et cantores et ianitores et Nathinnei in urbibus suis universusque Israhel in civitatibus suis
+
 ## Chapter 3
 
 <sup>1</sup> iamque venerat mensis septimus et erant filii Israhel in civitatibus suis congregatus est ergo populus quasi vir unus in Hierusalem
@@ -98,6 +100,7 @@
 <sup>11</sup> et concinebant in hymnis et confessione Domino quoniam bonus quoniam in aeternum misericordia eius super Israhel omnis quoque populus vociferabatur clamore magno in laudando Dominum eo quod fundatum esset templum Domini
 <sup>12</sup> plurimi etiam de sacerdotibus et Levitis et principes patrum seniores qui viderant templum prius cum fundatum esset et hoc templum in oculis eorum flebant voce magna et multi vociferantes in laetitia elevabant vocem
 <sup>13</sup> nec poterat quisquam agnoscere vocem clamoris laetantium et vocem fletus populi commixtim enim populus vociferabatur clamore magno et vox audiebatur procul
+
 ## Chapter 4
 
 <sup>1</sup> audierunt autem hostes Iudae et Beniamin quia filii captivitatis aedificarent templum Domino Deo Israhel
@@ -124,6 +127,7 @@
 <sup>22</sup> videte ne neglegenter hoc impleatis et paulatim crescat malum contra reges
 <sup>23</sup> itaque exemplum edicti Artarxersis regis lectum est coram Reum et Samsai scriba et consiliariis eorum et abierunt festini in Hierusalem ad Iudaeos et prohibuerunt eos in brachio et robore
 <sup>24</sup> tunc intermissum est opus domus Dei in Hierusalem et non fiebat usque ad annum secundum regni Darii regis Persarum
+
 ## Chapter 5
 
 <sup>1</sup> prophetaverunt autem Aggeus propheta et Zaccharias filius Addo prophetantes ad Iudaeos qui erant in Iudaea et Hierusalem in nomine Dei Israhel
@@ -143,6 +147,7 @@
 <sup>15</sup> dixitque ei haec vasa tolle et vade et pone ea in templo quod est in Hierusalem et domus Dei aedificetur in loco suo
 <sup>16</sup> tunc itaque Sasabassar ille venit et posuit fundamenta templi Dei in Hierusalem et ex eo tempore usque nunc aedificatur et necdum conpletum est
 <sup>17</sup> nunc ergo si videtur regi bonum recenseat in bibliotheca regis quae est in Babylone utrumnam a Cyro rege iussum sit ut aedificaretur domus Dei in Hierusalem et voluntatem regis super hac re mittat ad nos
+
 ## Chapter 6
 
 <sup>1</sup> tunc Darius rex praecepit et recensuerunt in bibliotheca librorum qui erant repositi in Babylone
@@ -167,6 +172,7 @@
 <sup>20</sup> purificati enim fuerant sacerdotes et Levitae quasi unus omnes mundi ad immolandum pascha universis filiis transmigrationis et fratribus suis sacerdotibus et sibi
 <sup>21</sup> et comederunt filii Israhel qui reversi fuerant de transmigratione et omnis qui se separaverat a coinquinatione gentium terrae ad eos ut quaererent Dominum Deum Israhel
 <sup>22</sup> et fecerunt sollemnitatem azymorum septem diebus in laetitia quoniam laetificaverat eos Dominus et converterat cor regis Assur ad eos ut adiuvaret manus eorum in opere domus Domini Dei Israhel
+
 ## Chapter 7
 
 <sup>1</sup> post haec autem verba in regno Artarxersis regis Persarum Ezras filius Saraiae filii Azariae filii Helciae
@@ -197,6 +203,7 @@
 <sup>26</sup> et omnis qui non fecerit legem Dei tui et legem regis diligenter iudicium erit de eo sive in mortem sive in exilium sive in condemnationem substantiae eius vel certe in carcerem
 <sup>27</sup> benedictus Dominus Deus patrum nostrorum qui dedit hoc in corde regis ut glorificaret domum Domini quae est in Hierusalem
 <sup>28</sup> et in me inclinavit misericordiam coram rege et consiliatoribus eius et universis principibus regis potentibus et ego confortatus manu Domini Dei mei quae erat in me congregavi de Israhel principes qui ascenderent mecum
+
 ## Chapter 8
 
 <sup>1</sup> hii sunt ergo principes familiarum et genealogia eorum qui ascenderunt mecum in regno Artarxersis regis de Babylone
@@ -235,6 +242,7 @@
 <sup>34</sup> iuxta numerum et pondus omnium descriptumque est omne pondus in tempore illo
 <sup>35</sup> sed et qui venerant de captivitate filii transmigrationis obtulerunt holocaustomata Deo Israhel vitulos duodecim pro omni Israhel arietes nonaginta sex agnos septuaginta septem hircos pro peccato duodecim omnia in holocaustum Domino
 <sup>36</sup> dederunt autem edicta regis satrapis qui erant de conspectu regis et ducibus trans Flumen et elevaverunt populum et domum Dei
+
 ## Chapter 9
 
 <sup>1</sup> postquam autem haec conpleta sunt accesserunt ad me principes dicentes non est separatus populus Israhel et sacerdotes et Levitae a populis terrarum et de abominationibus eorum Chananei videlicet et Hetthei et Ferezei et Iebusei et Ammanitarum et Moabitarum et Aegyptiorum et Amorreorum
@@ -252,6 +260,7 @@
 <sup>13</sup> et post omnia quae venerunt super nos in operibus nostris pessimis et in delicto nostro magno quia tu Deus noster liberasti nos de iniquitate nostra et dedisti nobis salutem sicut est hodie
 <sup>14</sup> ut non converteremur et irrita faceremus mandata tua neque matrimonia iungeremus cum populis abominationum istarum numquid iratus es nobis usque ad consummationem ne dimitteres nobis reliquias et salutem
 <sup>15</sup> Domine Deus Israhel iustus tu quoniam derelicti sumus qui salvaremur sicut die hac ecce coram te sumus in delicto nostro non enim stari potest coram te super hoc
+
 ## Chapter 10
 
 <sup>1</sup> sic ergo orante Ezra et inplorante eo et flente et iacente ante templum Dei collectus est ad eum de Israhel coetus grandis nimis virorum et mulierum puerorumque et flevit populus multo fletu

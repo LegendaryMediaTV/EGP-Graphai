@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Now Yahweh’s",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       " word came to Jonah the son of Amittai, saying,"
     ]
@@ -26,8 +26,8 @@
     "chapter": 1,
     "verse": 3,
     "content": {
-      "text": "But Jonah rose up to flee to Tarshish from the presence of Yahweh. He went down to Joppa, and found a ship going to Tarshish; so he paid its fare, and went down into it, to go with them to Tarshish from the presence of Yahweh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Jonah rose up to flee to Tarshish from the presence of Yahweh. He went down to Joppa, and found a ship going to Tarshish; so he paid its fare, and went down into it, to go with them to Tarshish from the presence of Yahweh."
     }
   },
   {
@@ -35,8 +35,8 @@
     "chapter": 1,
     "verse": 4,
     "content": {
-      "text": "But Yahweh sent out a great wind on the sea, and there was a mighty storm on the sea, so that the ship was likely to break up.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Yahweh sent out a great wind on the sea, and there was a mighty storm on the sea, so that the ship was likely to break up."
     }
   },
   {
@@ -72,8 +72,8 @@
     "chapter": 1,
     "verse": 7,
     "content": {
-      "text": "They all said to each other, “Come! Let’s cast lots, that we may know who is responsible for this evil that is on us.” So they cast lots, and the lot fell on Jonah.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They all said to each other, “Come! Let’s cast lots, that we may know who is responsible for this evil that is on us.” So they cast lots, and the lot fell on Jonah."
     }
   },
   {
@@ -88,6 +88,7 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "He said to them, “I am a Hebrew, and I fear Yahweh, the God",
         "foot": {
           "type": "trn",
@@ -99,8 +100,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "paragraph": true
+        }
       },
       " of heaven, who has made the sea and the dry land.”"
     ]
@@ -110,8 +110,8 @@
     "chapter": 1,
     "verse": 10,
     "content": {
-      "text": "Then the men were exceedingly afraid, and said to him, “What have you done?” For the men knew that he was fleeing from the presence of Yahweh, because he had told them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then the men were exceedingly afraid, and said to him, “What have you done?” For the men knew that he was fleeing from the presence of Yahweh, because he had told them."
     }
   },
   {
@@ -125,8 +125,8 @@
     "chapter": 1,
     "verse": 12,
     "content": {
-      "text": "He said to them, “Take me up, and throw me into the sea. Then the sea will be calm for you; for I know that because of me this great storm is on you.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said to them, “Take me up, and throw me into the sea. Then the sea will be calm for you; for I know that because of me this great storm is on you.”"
     }
   },
   {
@@ -134,8 +134,8 @@
     "chapter": 1,
     "verse": 13,
     "content": {
-      "text": "Nevertheless the men rowed hard to get them back to the land; but they could not, for the sea grew more and more stormy against them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Nevertheless the men rowed hard to get them back to the land; but they could not, for the sea grew more and more stormy against them."
     }
   },
   {
@@ -161,8 +161,8 @@
     "chapter": 1,
     "verse": 17,
     "content": {
-      "text": "Yahweh prepared a huge fish to swallow up Jonah, and Jonah was in the belly of the fish three days and three nights.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh prepared a huge fish to swallow up Jonah, and Jonah was in the belly of the fish three days and three nights."
     }
   },
   {
@@ -170,8 +170,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Then Jonah prayed to Yahweh, his God, out of the fish’s belly.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jonah prayed to Yahweh, his God, out of the fish’s belly."
     }
   },
   {
@@ -291,8 +291,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "“When my soul fainted within me, I remembered Yahweh.",
         "paragraph": true,
+        "text": "“When my soul fainted within me, I remembered Yahweh.",
         "break": true
       },
       {
@@ -331,8 +331,8 @@
     "chapter": 2,
     "verse": 10,
     "content": {
-      "text": "Then Yahweh spoke to the fish, and it vomited out Jonah on the dry land.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Yahweh spoke to the fish, and it vomited out Jonah on the dry land."
     }
   },
   {
@@ -340,8 +340,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Yahweh’s word came to Jonah the second time, saying,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh’s word came to Jonah the second time, saying,"
     }
   },
   {
@@ -355,8 +355,8 @@
     "chapter": 3,
     "verse": 3,
     "content": {
-      "text": "So Jonah arose, and went to Nineveh, according to Yahweh’s word. Now Nineveh was an exceedingly great city, three days’ journey across.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Jonah arose, and went to Nineveh, according to Yahweh’s word. Now Nineveh was an exceedingly great city, three days’ journey across."
     }
   },
   {
@@ -370,8 +370,8 @@
     "chapter": 3,
     "verse": 5,
     "content": {
-      "text": "The people of Nineveh believed God; and they proclaimed a fast and put on sackcloth, from their greatest even to their least.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The people of Nineveh believed God; and they proclaimed a fast and put on sackcloth, from their greatest even to their least."
     }
   },
   {
@@ -403,8 +403,8 @@
     "chapter": 3,
     "verse": 10,
     "content": {
-      "text": "God saw their works, that they turned from their evil way. God relented of the disaster which he said he would do to them, and he didn’t do it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God saw their works, that they turned from their evil way. God relented of the disaster which he said he would do to them, and he didn’t do it."
     }
   },
   {
@@ -412,8 +412,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "But it displeased Jonah exceedingly, and he was angry.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But it displeased Jonah exceedingly, and he was angry."
     }
   },
   {
@@ -433,8 +433,8 @@
     "chapter": 4,
     "verse": 4,
     "content": {
-      "text": "Yahweh said, “Is it right for you to be angry?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said, “Is it right for you to be angry?”"
     }
   },
   {
@@ -442,8 +442,8 @@
     "chapter": 4,
     "verse": 5,
     "content": {
-      "text": "Then Jonah went out of the city and sat on the east side of the city, and there made himself a booth and sat under it in the shade, until he might see what would become of the city.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Jonah went out of the city and sat on the east side of the city, and there made himself a booth and sat under it in the shade, until he might see what would become of the city."
     }
   },
   {
@@ -468,18 +468,24 @@
     "book": "JNA",
     "chapter": 4,
     "verse": 9,
-    "content": {
-      "text": "God said to Jonah, “Is it right for you to be angry about the vine?” He said, “I am right to be angry, even to death.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "God said to Jonah, “Is it right for you to be angry about the vine?”"
+      },
+      {
+        "paragraph": true,
+        "text": "He said, “I am right to be angry, even to death.”"
+      }
+    ]
   },
   {
     "book": "JNA",
     "chapter": 4,
     "verse": 10,
     "content": {
-      "text": "Yahweh said, “You have been concerned for the vine, for which you have not labored, neither made it grow; which came up in a night and perished in a night.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said, “You have been concerned for the vine, for which you have not labored, neither made it grow; which came up in a night and perished in a night."
     }
   },
   {

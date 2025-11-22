@@ -19,6 +19,7 @@
 <sup>17</sup> Thou therefore gird up thy loins, and arise, and speak unto them all that I command thee: be not dismayed at their faces, lest I confound thee before them.
 <sup>18</sup> For, behold, I have made thee this day a defenced city, and an iron pillar, and brasen walls against the whole land, against the kings of Judah, against the princes thereof, against the priests thereof, and against the people of the land.
 <sup>19</sup> And they shall fight against thee; but they shall not prevail against thee; for I [am] with thee, saith the LORD, to deliver thee.
+
 ## Chapter 2
 
 <sup>1</sup> Moreover the word of the LORD came to me, saying,
@@ -40,7 +41,7 @@
 <sup>17</sup> Hast thou not procured this unto thyself, in that thou hast forsaken the LORD thy God, when he led thee by the way?
 <sup>18</sup> And now what hast thou to do in the way of Egypt, to drink the waters of Sihor? or what hast thou to do in the way of Assyria, to drink the waters of the river?
 <sup>19</sup> Thine own wickedness shall correct thee, and thy backslidings shall reprove thee: know therefore and see that [it is] an evil [thing] and bitter, that thou hast forsaken the LORD thy God, and that my fear [is] not in thee, saith the Lord GOD of hosts.
-<sup>20</sup> For of old time I have broken thy yoke, [and] burst thy bands; and thou saidst, I will not transgress (8675); when upon every high hill and under every green tree thou wanderest, playing the harlot.
+<sup>20</sup> For of old time I have broken thy yoke, [and] burst thy bands; and thou saidst, I will not transgress; when upon every high hill and under every green tree thou wanderest, playing the harlot.
 <sup>21</sup> Yet I had planted thee a noble vine, wholly a right seed: how then art thou turned into the degenerate plant of a strange vine unto me?
 <sup>22</sup> For though thou wash thee with nitre, and take thee much soap, [yet] thine iniquity is marked before me, saith the Lord GOD.
 <sup>23</sup> How canst thou say, I am not polluted, I have not gone after Baalim? see thy way in the valley, know what thou hast done: [thou art] a swift dromedary traversing her ways;
@@ -58,10 +59,11 @@
 <sup>35</sup> Yet thou sayest, Because I am innocent, surely his anger shall turn from me. Behold, I will plead with thee, because thou sayest, I have not sinned.
 <sup>36</sup> Why gaddest thou about so much to change thy way? thou also shalt be ashamed of Egypt, as thou wast ashamed of Assyria.
 <sup>37</sup> Yea, thou shalt go forth from him, and thine hands upon thine head: for the LORD hath rejected thy confidences, and thou shalt not prosper in them.
+
 ## Chapter 3
 
 <sup>1</sup> They say, If a man put away his wife, and she go from him, and become another man’s, shall he return unto her again? shall not that land be greatly polluted? but thou hast played the harlot with many lovers; yet return again to me, saith the LORD.
-<sup>2</sup> Lift up thine eyes unto the high places, and see where thou hast not been lien (8676) with. In the ways hast thou sat for them, as the Arabian in the wilderness; and thou hast polluted the land with thy whoredoms and with thy wickedness.
+<sup>2</sup> Lift up thine eyes unto the high places, and see where thou hast not been lien with. In the ways hast thou sat for them, as the Arabian in the wilderness; and thou hast polluted the land with thy whoredoms and with thy wickedness.
 <sup>3</sup> Therefore the showers have been withholden, and there hath been no latter rain; and thou hadst a whore’s forehead, thou refusedst to be ashamed.
 <sup>4</sup> Wilt thou not from this time cry unto me, My father, thou [art] the guide of my youth?
 <sup>5</sup> Will he reserve [his anger] for ever? will he keep [it] to the end? Behold, thou hast spoken and done evil things as thou couldest.
@@ -85,6 +87,7 @@
 <sup>23</sup> Truly in vain [is salvation hoped for] from the hills, [and from] the multitude of mountains: truly in the LORD our God [is] the salvation of Israel.
 <sup>24</sup> For shame hath devoured the labour of our fathers from our youth; their flocks and their herds, their sons and their daughters.
 <sup>25</sup> We lie down in our shame, and our confusion covereth us: for we have sinned against the LORD our God, we and our fathers, from our youth even unto this day, and have not obeyed the voice of the LORD our God.
+
 ## Chapter 4
 
 <sup>1</sup> If thou wilt return, O Israel, saith the LORD, return unto me: and if thou wilt put away thine abominations out of my sight, then shalt thou not remove.
@@ -105,7 +108,7 @@
 <sup>16</sup> Make ye mention to the nations; behold, publish against Jerusalem, [that] watchers come from a far country, and give out their voice against the cities of Judah.
 <sup>17</sup> As keepers of a field, are they against her round about; because she hath been rebellious against me, saith the LORD.
 <sup>18</sup> Thy way and thy doings have procured these [things] unto thee; this [is] thy wickedness, because it is bitter, because it reacheth unto thine heart.
-<sup>19</sup> My bowels, my bowels! I am pained (8675) at my very heart; my heart maketh a noise in me; I cannot hold my peace, because thou hast heard, O my soul, the sound of the trumpet, the alarm of war.
+<sup>19</sup> My bowels, my bowels! I am pained at my very heart; my heart maketh a noise in me; I cannot hold my peace, because thou hast heard, O my soul, the sound of the trumpet, the alarm of war.
 <sup>20</sup> Destruction upon destruction is cried; for the whole land is spoiled: suddenly are my tents spoiled, [and] my curtains in a moment.
 <sup>21</sup> How long shall I see the standard, [and] hear the sound of the trumpet?
 <sup>22</sup> For my people [is] foolish, they have not known me; they [are] sottish children, and they have none understanding: they [are] wise to do evil, but to do good they have no knowledge.
@@ -118,6 +121,7 @@
 <sup>29</sup> The whole city shall flee for the noise of the horsemen and bowmen; they shall go into thickets, and climb up upon the rocks: every city [shall be] forsaken, and not a man dwell therein.
 <sup>30</sup> And [when] thou [art] spoiled, what wilt thou do? Though thou clothest thyself with crimson, though thou deckest thee with ornaments of gold, though thou rentest thy face with painting, in vain shalt thou make thyself fair; [thy] lovers will despise thee, they will seek thy life.
 <sup>31</sup> For I have heard a voice as of a woman in travail, [and] the anguish as of her that bringeth forth her first child, the voice of the daughter of Zion, [that] bewaileth herself, [that] spreadeth her hands, [saying], Woe [is] me now! for my soul is wearied because of murderers.
+
 ## Chapter 5
 
 <sup>1</sup> Run ye to and fro through the streets of Jerusalem, and see now, and know, and seek in the broad places thereof, if ye can find a man, if there be [any] that executeth judgment, that seeketh the truth; and I will pardon it.
@@ -126,7 +130,7 @@
 <sup>4</sup> Therefore I said, Surely these [are] poor; they are foolish: for they know not the way of the LORD, [nor] the judgment of their God.
 <sup>5</sup> I will get me unto the great men, and will speak unto them; for they have known the way of the LORD, [and] the judgment of their God: but these have altogether broken the yoke, [and] burst the bonds.
 <sup>6</sup> Wherefore a lion out of the forest shall slay them, [and] a wolf of the evenings shall spoil them, a leopard shall watch over their cities: every one that goeth out thence shall be torn in pieces: because their transgressions are many, [and] their backslidings are increased.
-<sup>7</sup> How shall I pardon thee for this? thy children have forsaken me, and sworn by [them that are] no gods: when I had fed them to the full, they then committed adultery, and assembled themselves by troops in the harlots ’ houses.
+<sup>7</sup> How shall I pardon thee for this? thy children have forsaken me, and sworn by [them that are] no gods: when I had fed them to the full, they then committed adultery, and assembled themselves by troops in the harlots’ houses.
 <sup>8</sup> They were [as] fed horses in the morning: every one neighed after his neighbour’s wife.
 <sup>9</sup> Shall I not visit for these [things]? saith the LORD: and shall not my soul be avenged on such a nation as this?
 <sup>10</sup> Go ye up upon her walls, and destroy; but make not a full end: take away her battlements; for they [are] not the LORD’S.
@@ -151,6 +155,7 @@
 <sup>29</sup> Shall I not visit for these [things]? saith the LORD: shall not my soul be avenged on such a nation as this?
 <sup>30</sup> A wonderful and horrible thing is committed in the land;
 <sup>31</sup> The prophets prophesy falsely, and the priests bear rule by their means; and my people love [to have it] so: and what will ye do in the end thereof?
+
 ## Chapter 6
 
 <sup>1</sup> O ye children of Benjamin, gather yourselves to flee out of the midst of Jerusalem, and blow the trumpet in Tekoa, and set up a sign of fire in Bethhaccerem: for evil appeareth out of the north, and great destruction.
@@ -166,7 +171,7 @@
 <sup>11</sup> Therefore I am full of the fury of the LORD; I am weary with holding in: I will pour it out upon the children abroad, and upon the assembly of young men together: for even the husband with the wife shall be taken, the aged with [him that is] full of days.
 <sup>12</sup> And their houses shall be turned unto others, [with their] fields and wives together: for I will stretch out my hand upon the inhabitants of the land, saith the LORD.
 <sup>13</sup> For from the least of them even unto the greatest of them every one [is] given to covetousness; and from the prophet even unto the priest every one dealeth falsely.
-<sup>14</sup> They have healed also the hurt [of the daughter ] of my people slightly, saying, Peace, peace; when [there is] no peace.
+<sup>14</sup> They have healed also the hurt [of the daughter] of my people slightly, saying, Peace, peace; when [there is] no peace.
 <sup>15</sup> Were they ashamed when they had committed abomination? nay, they were not at all ashamed, neither could they blush: therefore they shall fall among them that fall: at the time [that] I visit them they shall be cast down, saith the LORD.
 <sup>16</sup> Thus saith the LORD, Stand ye in the ways, and see, and ask for the old paths, where [is] the good way, and walk therein, and ye shall find rest for your souls. But they said, We will not walk [therein].
 <sup>17</sup> Also I set watchmen over you, [saying], Hearken to the sound of the trumpet. But they said, We will not hearken.
@@ -183,6 +188,7 @@
 <sup>28</sup> They [are] all grievous revolters, walking with slanders: [they are] brass and iron; they [are] all corrupters.
 <sup>29</sup> The bellows are burned, the lead is consumed of the fire; the founder melteth in vain: for the wicked are not plucked away.
 <sup>30</sup> Reprobate silver shall [men] call them, because the LORD hath rejected them.
+
 ## Chapter 7
 
 <sup>1</sup> The word that came to Jeremiah from the LORD, saying,
@@ -219,6 +225,7 @@
 <sup>32</sup> Therefore, behold, the days come, saith the LORD, that it shall no more be called Tophet, nor the valley of the son of Hinnom, but the valley of slaughter: for they shall bury in Tophet, till there be no place.
 <sup>33</sup> And the carcases of this people shall be meat for the fowls of the heaven, and for the beasts of the earth; and none shall fray [them] away.
 <sup>34</sup> Then will I cause to cease from the cities of Judah, and from the streets of Jerusalem, the voice of mirth, and the voice of gladness, the voice of the bridegroom, and the voice of the bride: for the land shall be desolate.
+
 ## Chapter 8
 
 <sup>1</sup> At that time, saith the LORD, they shall bring out the bones of the kings of Judah, and the bones of his princes, and the bones of the priests, and the bones of the prophets, and the bones of the inhabitants of Jerusalem, out of their graves:
@@ -243,6 +250,7 @@
 <sup>20</sup> The harvest is past, the summer is ended, and we are not saved.
 <sup>21</sup> For the hurt of the daughter of my people am I hurt; I am black; astonishment hath taken hold on me.
 <sup>22</sup> [Is there] no balm in Gilead; [is there] no physician there? why then is not the health of the daughter of my people recovered?
+
 ## Chapter 9
 
 <sup>1</sup> Oh that my head were waters, and mine eyes a fountain of tears, that I might weep day and night for the slain of the daughter of my people!
@@ -271,6 +279,7 @@
 <sup>24</sup> But let him that glorieth glory in this, that he understandeth and knoweth me, that I [am] the LORD which exercise lovingkindness, judgment, and righteousness, in the earth: for in these [things] I delight, saith the LORD.
 <sup>25</sup> Behold, the days come, saith the LORD, that I will punish all [them which are] circumcised with the uncircumcised;
 <sup>26</sup> Egypt, and Judah, and Edom, and the children of Ammon, and Moab, and all [that are] in the utmost corners, that dwell in the wilderness: for all [these] nations [are] uncircumcised, and all the house of Israel [are] uncircumcised in the heart.
+
 ## Chapter 10
 
 <sup>1</sup> Hear ye the word which the LORD speaketh unto you, O house of Israel:
@@ -298,6 +307,7 @@
 <sup>23</sup> O LORD, I know that the way of man [is] not in himself: [it is] not in man that walketh to direct his steps.
 <sup>24</sup> O LORD, correct me, but with judgment; not in thine anger, lest thou bring me to nothing.
 <sup>25</sup> Pour out thy fury upon the heathen that know thee not, and upon the families that call not on thy name: for they have eaten up Jacob, and devoured him, and consumed him, and have made his habitation desolate.
+
 ## Chapter 11
 
 <sup>1</sup> The word that came to Jeremiah from the LORD, saying,
@@ -323,6 +333,7 @@
 <sup>21</sup> Therefore thus saith the LORD of the men of Anathoth, that seek thy life, saying, Prophesy not in the name of the LORD, that thou die not by our hand:
 <sup>22</sup> Therefore thus saith the LORD of hosts, Behold, I will punish them: the young men shall die by the sword; their sons and their daughters shall die by famine:
 <sup>23</sup> And there shall be no remnant of them: for I will bring evil upon the men of Anathoth, [even] the year of their visitation.
+
 ## Chapter 12
 
 <sup>1</sup> Righteous [art] thou, O LORD, when I plead with thee: yet let me talk with thee of [thy] judgments: Wherefore doth the way of the wicked prosper? [wherefore] are all they happy that deal very treacherously?
@@ -342,6 +353,7 @@
 <sup>15</sup> And it shall come to pass, after that I have plucked them out I will return, and have compassion on them, and will bring them again, every man to his heritage, and every man to his land.
 <sup>16</sup> And it shall come to pass, if they will diligently learn the ways of my people, to swear by my name, The LORD liveth; as they taught my people to swear by Baal; then shall they be built in the midst of my people.
 <sup>17</sup> But if they will not obey, I will utterly pluck up and destroy that nation, saith the LORD.
+
 ## Chapter 13
 
 <sup>1</sup> Thus saith the LORD unto me, Go and get thee a linen girdle, and put it upon thy loins, and put it not in water.
@@ -359,7 +371,7 @@
 <sup>13</sup> Then shalt thou say unto them, Thus saith the LORD, Behold, I will fill all the inhabitants of this land, even the kings that sit upon David’s throne, and the priests, and the prophets, and all the inhabitants of Jerusalem, with drunkenness.
 <sup>14</sup> And I will dash them one against another, even the fathers and the sons together, saith the LORD: I will not pity, nor spare, nor have mercy, but destroy them.
 <sup>15</sup> Hear ye, and give ear; be not proud: for the LORD hath spoken.
-<sup>16</sup> Give glory to the LORD your God, before he cause darkness, and before your feet stumble upon the dark mountains, and, while ye look for light, he turn it into the shadow of death, [and] make (8675) [it] gross darkness.
+<sup>16</sup> Give glory to the LORD your God, before he cause darkness, and before your feet stumble upon the dark mountains, and, while ye look for light, he turn it into the shadow of death, [and] make [it] gross darkness.
 <sup>17</sup> But if ye will not hear it, my soul shall weep in secret places for [your] pride; and mine eye shall weep sore, and run down with tears, because the LORD’S flock is carried away captive.
 <sup>18</sup> Say unto the king and to the queen, Humble yourselves, sit down: for your principalities shall come down, [even] the crown of your glory.
 <sup>19</sup> The cities of the south shall be shut up, and none shall open [them]: Judah shall be carried away captive all of it, it shall be wholly carried away captive.
@@ -371,6 +383,7 @@
 <sup>25</sup> This [is] thy lot, the portion of thy measures from me, saith the LORD; because thou hast forgotten me, and trusted in falsehood.
 <sup>26</sup> Therefore will I discover thy skirts upon thy face, that thy shame may appear.
 <sup>27</sup> I have seen thine adulteries, and thy neighings, the lewdness of thy whoredom, [and] thine abominations on the hills in the fields. Woe unto thee, O Jerusalem! wilt thou not be made clean? when [shall it] once [be]?
+
 ## Chapter 14
 
 <sup>1</sup> The word of the LORD that came to Jeremiah concerning the dearth.
@@ -395,6 +408,7 @@
 <sup>20</sup> We acknowledge, O LORD, our wickedness, [and] the iniquity of our fathers: for we have sinned against thee.
 <sup>21</sup> Do not abhor [us], for thy name’s sake, do not disgrace the throne of thy glory: remember, break not thy covenant with us.
 <sup>22</sup> Are there [any] among the vanities of the Gentiles that can cause rain? or can the heavens give showers? [art] not thou he, O LORD our God? therefore we will wait upon thee: for thou hast made all these [things].
+
 ## Chapter 15
 
 <sup>1</sup> Then said the LORD unto me, Though Moses and Samuel stood before me, [yet] my mind [could] not [be] toward this people: cast [them] out of my sight, and let them go forth.
@@ -407,7 +421,7 @@
 <sup>8</sup> Their widows are increased to me above the sand of the seas: I have brought upon them against the mother of the young men a spoiler at noonday: I have caused [him] to fall upon it suddenly, and terrors upon the city.
 <sup>9</sup> She that hath borne seven languisheth: she hath given up the ghost; her sun is gone down while [it was] yet day: she hath been ashamed and confounded: and the residue of them will I deliver to the sword before their enemies, saith the LORD.
 <sup>10</sup> Woe is me, my mother, that thou hast borne me a man of strife and a man of contention to the whole earth! I have neither lent on usury, nor men have lent to me on usury; [yet] every one of them doth curse me.
-<sup>11</sup> The LORD said, Verily it shall be well with thy remnant (8675); verily I will cause the enemy to entreat thee [well] in the time of evil and in the time of affliction.
+<sup>11</sup> The LORD said, Verily it shall be well with thy remnant; verily I will cause the enemy to entreat thee [well] in the time of evil and in the time of affliction.
 <sup>12</sup> Shall iron break the northern iron and the steel?
 <sup>13</sup> Thy substance and thy treasures will I give to the spoil without price, and [that] for all thy sins, even in all thy borders.
 <sup>14</sup> And I will make [thee] to pass with thine enemies into a land [which] thou knowest not: for a fire is kindled in mine anger, [which] shall burn upon you.
@@ -418,6 +432,7 @@
 <sup>19</sup> Therefore thus saith the LORD, If thou return, then will I bring thee again, [and] thou shalt stand before me: and if thou take forth the precious from the vile, thou shalt be as my mouth: let them return unto thee; but return not thou unto them.
 <sup>20</sup> And I will make thee unto this people a fenced brasen wall: and they shall fight against thee, but they shall not prevail against thee: for I [am] with thee to save thee and to deliver thee, saith the LORD.
 <sup>21</sup> And I will deliver thee out of the hand of the wicked, and I will redeem thee out of the hand of the terrible.
+
 ## Chapter 16
 
 <sup>1</sup> The word of the LORD came also unto me, saying,
@@ -441,6 +456,7 @@
 <sup>19</sup> O LORD, my strength, and my fortress, and my refuge in the day of affliction, the Gentiles shall come unto thee from the ends of the earth, and shall say, Surely our fathers have inherited lies, vanity, and [things] wherein [there is] no profit.
 <sup>20</sup> Shall a man make gods unto himself, and they [are] no gods?
 <sup>21</sup> Therefore, behold, I will this once cause them to know, I will cause them to know mine hand and my might; and they shall know that my name [is] The LORD.
+
 ## Chapter 17
 
 <sup>1</sup> The sin of Judah [is] written with a pen of iron, [and] with the point of a diamond: [it is] graven upon the table of their heart, and upon the horns of your altars;
@@ -470,6 +486,7 @@
 <sup>25</sup> Then shall there enter into the gates of this city kings and princes sitting upon the throne of David, riding in chariots and on horses, they, and their princes, the men of Judah, and the inhabitants of Jerusalem: and this city shall remain for ever.
 <sup>26</sup> And they shall come from the cities of Judah, and from the places about Jerusalem, and from the land of Benjamin, and from the plain, and from the mountains, and from the south, bringing burnt offerings, and sacrifices, and meat offerings, and incense, and bringing sacrifices of praise, unto the house of the LORD.
 <sup>27</sup> But if ye will not hearken unto me to hallow the sabbath day, and not to bear a burden, even entering in at the gates of Jerusalem on the sabbath day; then will I kindle a fire in the gates thereof, and it shall devour the palaces of Jerusalem, and it shall not be quenched.
+
 ## Chapter 18
 
 <sup>1</sup> The word which came to Jeremiah from the LORD, saying,
@@ -495,6 +512,7 @@
 <sup>21</sup> Therefore deliver up their children to the famine, and pour out their [blood] by the force of the sword; and let their wives be bereaved of their children, and [be] widows; and let their men be put to death; [let] their young men [be] slain by the sword in battle.
 <sup>22</sup> Let a cry be heard from their houses, when thou shalt bring a troop suddenly upon them: for they have digged a pit to take me, and hid snares for my feet.
 <sup>23</sup> Yet, LORD, thou knowest all their counsel against me to slay [me]: forgive not their iniquity, neither blot out their sin from thy sight, but let them be overthrown before thee; deal [thus] with them in the time of thine anger.
+
 ## Chapter 19
 
 <sup>1</sup> Thus saith the LORD, Go and get a potter’s earthen bottle, and [take] of the ancients of the people, and of the ancients of the priests;
@@ -512,6 +530,7 @@
 <sup>13</sup> And the houses of Jerusalem, and the houses of the kings of Judah, shall be defiled as the place of Tophet, because of all the houses upon whose roofs they have burned incense unto all the host of heaven, and have poured out drink offerings unto other gods.
 <sup>14</sup> Then came Jeremiah from Tophet, whither the LORD had sent him to prophesy; and he stood in the court of the LORD’S house; and said to all the people,
 <sup>15</sup> Thus saith the LORD of hosts, the God of Israel; Behold, I will bring upon this city and upon all her towns all the evil that I have pronounced against it, because they have hardened their necks, that they might not hear my words.
+
 ## Chapter 20
 
 <sup>1</sup> Now Pashur the son of Immer the priest, who [was] also chief governor in the house of the LORD, heard that Jeremiah prophesied these things.
@@ -532,6 +551,7 @@
 <sup>16</sup> And let that man be as the cities which the LORD overthrew, and repented not: and let him hear the cry in the morning, and the shouting at noontide;
 <sup>17</sup> Because he slew me not from the womb; or that my mother might have been my grave, and her womb [to be] always great [with me].
 <sup>18</sup> Wherefore came I forth out of the womb to see labour and sorrow, that my days should be consumed with shame?
+
 ## Chapter 21
 
 <sup>1</sup> The word which came unto Jeremiah from the LORD, when king Zedekiah sent unto him Pashur the son of Melchiah, and Zephaniah the son of Maaseiah the priest, saying,
@@ -542,12 +562,13 @@
 <sup>6</sup> And I will smite the inhabitants of this city, both man and beast: they shall die of a great pestilence.
 <sup>7</sup> And afterward, saith the LORD, I will deliver Zedekiah king of Judah, and his servants, and the people, and such as are left in this city from the pestilence, from the sword, and from the famine, into the hand of Nebuchadrezzar king of Babylon, and into the hand of their enemies, and into the hand of those that seek their life: and he shall smite them with the edge of the sword; he shall not spare them, neither have pity, nor have mercy.
 <sup>8</sup> And unto this people thou shalt say, Thus saith the LORD; Behold, I set before you the way of life, and the way of death.
-<sup>9</sup> He that abideth in this city shall die by the sword, and by the famine, and by the pestilence: but he that goeth out, and falleth to the Chaldeans that besiege you, he shall live (8675), and his life shall be unto him for a prey.
+<sup>9</sup> He that abideth in this city shall die by the sword, and by the famine, and by the pestilence: but he that goeth out, and falleth to the Chaldeans that besiege you, he shall live, and his life shall be unto him for a prey.
 <sup>10</sup> For I have set my face against this city for evil, and not for good, saith the LORD: it shall be given into the hand of the king of Babylon, and he shall burn it with fire.
 <sup>11</sup> And touching the house of the king of Judah, [say], Hear ye the word of the LORD;
 <sup>12</sup> O house of David, thus saith the LORD; Execute judgment in the morning, and deliver [him that is] spoiled out of the hand of the oppressor, lest my fury go out like fire, and burn that none can quench [it], because of the evil of your doings.
 <sup>13</sup> Behold, I [am] against thee, O inhabitant of the valley, [and] rock of the plain, saith the LORD; which say, Who shall come down against us? or who shall enter into our habitations?
 <sup>14</sup> But I will punish you according to the fruit of your doings, saith the LORD: and I will kindle a fire in the forest thereof, and it shall devour all things round about it.
+
 ## Chapter 22
 
 <sup>1</sup> Thus saith the LORD; Go down to the house of the king of Judah, and speak there this word,
@@ -555,7 +576,7 @@
 <sup>3</sup> Thus saith the LORD; Execute ye judgment and righteousness, and deliver the spoiled out of the hand of the oppressor: and do no wrong, do no violence to the stranger, the fatherless, nor the widow, neither shed innocent blood in this place.
 <sup>4</sup> For if ye do this thing indeed, then shall there enter in by the gates of this house kings sitting upon the throne of David, riding in chariots and on horses, he, and his servants, and his people.
 <sup>5</sup> But if ye will not hear these words, I swear by myself, saith the LORD, that this house shall become a desolation.
-<sup>6</sup> For thus saith the LORD unto the king’s house of Judah; Thou [art] Gilead unto me, [and] the head of Lebanon: [yet] surely I will make thee a wilderness, [and] cities [which] are not inhabited (8675).
+<sup>6</sup> For thus saith the LORD unto the king’s house of Judah; Thou [art] Gilead unto me, [and] the head of Lebanon: [yet] surely I will make thee a wilderness, [and] cities [which] are not inhabited.
 <sup>7</sup> And I will prepare destroyers against thee, every one with his weapons: and they shall cut down thy choice cedars, and cast [them] into the fire.
 <sup>8</sup> And many nations shall pass by this city, and they shall say every man to his neighbour, Wherefore hath the LORD done thus unto this great city?
 <sup>9</sup> Then they shall answer, Because they have forsaken the covenant of the LORD their God, and worshipped other gods, and served them.
@@ -576,10 +597,11 @@
 <sup>24</sup> [As] I live, saith the LORD, though Coniah the son of Jehoiakim king of Judah were the signet upon my right hand, yet would I pluck thee thence;
 <sup>25</sup> And I will give thee into the hand of them that seek thy life, and into the hand [of them] whose face thou fearest, even into the hand of Nebuchadrezzar king of Babylon, and into the hand of the Chaldeans.
 <sup>26</sup> And I will cast thee out, and thy mother that bare thee, into another country, where ye were not born; and there shall ye die.
-<sup>27</sup> But to the land whereunto they desire (8676) to return, thither shall they not return.
+<sup>27</sup> But to the land whereunto they desire to return, thither shall they not return.
 <sup>28</sup> [Is] this man Coniah a despised broken idol? [is he] a vessel wherein [is] no pleasure? wherefore are they cast out, he and his seed, and are cast into a land which they know not?
 <sup>29</sup> O earth, earth, earth, hear the word of the LORD.
 <sup>30</sup> Thus saith the LORD, Write ye this man childless, a man [that] shall not prosper in his days: for no man of his seed shall prosper, sitting upon the throne of David, and ruling any more in Judah.
+
 ## Chapter 23
 
 <sup>1</sup> Woe be unto the pastors that destroy and scatter the sheep of my pasture! saith the LORD.
@@ -622,6 +644,7 @@
 <sup>38</sup> But since ye say, The burden of the LORD; therefore thus saith the LORD; Because ye say this word, The burden of the LORD, and I have sent unto you, saying, Ye shall not say, The burden of the LORD;
 <sup>39</sup> Therefore, behold, I, even I, will utterly forget you, and I will forsake you, and the city that I gave you and your fathers, [and cast you] out of my presence:
 <sup>40</sup> And I will bring an everlasting reproach upon you, and a perpetual shame, which shall not be forgotten.
+
 ## Chapter 24
 
 <sup>1</sup> The LORD shewed me, and, behold, two baskets of figs [were] set before the temple of the LORD, after that Nebuchadrezzar king of Babylon had carried away captive Jeconiah the son of Jehoiakim king of Judah, and the princes of Judah, with the carpenters and smiths, from Jerusalem, and had brought them to Babylon.
@@ -634,6 +657,7 @@
 <sup>8</sup> And as the evil figs, which cannot be eaten, they are so evil; surely thus saith the LORD, So will I give Zedekiah the king of Judah, and his princes, and the residue of Jerusalem, that remain in this land, and them that dwell in the land of Egypt:
 <sup>9</sup> And I will deliver them to be removed into all the kingdoms of the earth for [their] hurt, [to be] a reproach and a proverb, a taunt and a curse, in all places whither I shall drive them.
 <sup>10</sup> And I will send the sword, the famine, and the pestilence, among them, till they be consumed from off the land that I gave unto them and to their fathers.
+
 ## Chapter 25
 
 <sup>1</sup> The word that came to Jeremiah concerning all the people of Judah in the fourth year of Jehoiakim the son of Josiah king of Judah, that [was] the first year of Nebuchadrezzar king of Babylon;
@@ -674,6 +698,7 @@
 <sup>36</sup> A voice of the cry of the shepherds, and an howling of the principal of the flock, [shall be heard]: for the LORD hath spoiled their pasture.
 <sup>37</sup> And the peaceable habitations are cut down because of the fierce anger of the LORD.
 <sup>38</sup> He hath forsaken his covert, as the lion: for their land is desolate because of the fierceness of the oppressor, and because of his fierce anger.
+
 ## Chapter 26
 
 <sup>1</sup> In the beginning of the reign of Jehoiakim the son of Josiah king of Judah came this word from the LORD, saying,
@@ -700,6 +725,7 @@
 <sup>22</sup> And Jehoiakim the king sent men into Egypt, [namely], Elnathan the son of Achbor, and [certain] men with him into Egypt.
 <sup>23</sup> And they fetched forth Urijah out of Egypt, and brought him unto Jehoiakim the king; who slew him with the sword, and cast his dead body into the graves of the common people.
 <sup>24</sup> Nevertheless the hand of Ahikam the son of Shaphan was with Jeremiah, that they should not give him into the hand of the people to put him to death.
+
 ## Chapter 27
 
 <sup>1</sup> In the beginning of the reign of Jehoiakim the son of Josiah king of Judah came this word unto Jeremiah from the LORD, saying,
@@ -724,6 +750,7 @@
 <sup>20</sup> Which Nebuchadnezzar king of Babylon took not, when he carried away captive Jeconiah the son of Jehoiakim king of Judah from Jerusalem to Babylon, and all the nobles of Judah and Jerusalem;
 <sup>21</sup> Yea, thus saith the LORD of hosts, the God of Israel, concerning the vessels that remain [in] the house of the LORD, and [in] the house of the king of Judah and of Jerusalem;
 <sup>22</sup> They shall be carried to Babylon, and there shall they be until the day that I visit them, saith the LORD; then will I bring them up, and restore them to this place.
+
 ## Chapter 28
 
 <sup>1</sup> And it came to pass the same year, in the beginning of the reign of Zedekiah king of Judah, in the fourth year, [and] in the fifth month, [that] Hananiah the son of Azur the prophet, which [was] of Gibeon, spake unto me in the house of the LORD, in the presence of the priests and of all the people, saying,
@@ -743,11 +770,12 @@
 <sup>15</sup> Then said the prophet Jeremiah unto Hananiah the prophet, Hear now, Hananiah; The LORD hath not sent thee; but thou makest this people to trust in a lie.
 <sup>16</sup> Therefore thus saith the LORD; Behold, I will cast thee from off the face of the earth: this year thou shalt die, because thou hast taught rebellion against the LORD.
 <sup>17</sup> So Hananiah the prophet died the same year in the seventh month.
+
 ## Chapter 29
 
 <sup>1</sup> Now these [are] the words of the letter that Jeremiah the prophet sent from Jerusalem unto the residue of the elders which were carried away captives, and to the priests, and to the prophets, and to all the people whom Nebuchadnezzar had carried away captive from Jerusalem to Babylon;
 <sup>2</sup> (After that Jeconiah the king, and the queen, and the eunuchs, the princes of Judah and Jerusalem, and the carpenters, and the smiths, were departed from Jerusalem;)
-<sup>3</sup> By the hand of Elasah the son of Shaphan, and Gemariah the son of Hilkiah, (whom Zedekiah king of Judah sent unto Babylon to Nebuchadnezzar king of Babylon ) saying,
+<sup>3</sup> By the hand of Elasah the son of Shaphan, and Gemariah the son of Hilkiah, (whom Zedekiah king of Judah sent unto Babylon to Nebuchadnezzar king of Babylon) saying,
 <sup>4</sup> Thus saith the LORD of hosts, the God of Israel, unto all that are carried away captives, whom I have caused to be carried away from Jerusalem unto Babylon;
 <sup>5</sup> Build ye houses, and dwell [in them]; and plant gardens, and eat the fruit of them;
 <sup>6</sup> Take ye wives, and beget sons and daughters; and take wives for your sons, and give your daughters to husbands, that they may bear sons and daughters; that ye may be increased there, and not diminished.
@@ -767,7 +795,7 @@
 <sup>20</sup> Hear ye therefore the word of the LORD, all ye of the captivity, whom I have sent from Jerusalem to Babylon:
 <sup>21</sup> Thus saith the LORD of hosts, the God of Israel, of Ahab the son of Kolaiah, and of Zedekiah the son of Maaseiah, which prophesy a lie unto you in my name; Behold, I will deliver them into the hand of Nebuchadrezzar king of Babylon; and he shall slay them before your eyes;
 <sup>22</sup> And of them shall be taken up a curse by all the captivity of Judah which [are] in Babylon, saying, The LORD make thee like Zedekiah and like Ahab, whom the king of Babylon roasted in the fire;
-<sup>23</sup> Because they have committed villany in Israel, and have committed adultery with their neighbours ’ wives, and have spoken lying words in my name, which I have not commanded them; even I know, and [am] a witness, saith the LORD.
+<sup>23</sup> Because they have committed villany in Israel, and have committed adultery with their neighbours’ wives, and have spoken lying words in my name, which I have not commanded them; even I know, and [am] a witness, saith the LORD.
 <sup>24</sup> [Thus] shalt thou also speak to Shemaiah the Nehelamite, saying,
 <sup>25</sup> Thus speaketh the LORD of hosts, the God of Israel, saying, Because thou hast sent letters in thy name unto all the people that [are] at Jerusalem, and to Zephaniah the son of Maaseiah the priest, and to all the priests, saying,
 <sup>26</sup> The LORD hath made thee priest in the stead of Jehoiada the priest, that ye should be officers in the house of the LORD, for every man [that is] mad, and maketh himself a prophet, that thou shouldest put him in prison, and in the stocks.
@@ -777,6 +805,7 @@
 <sup>30</sup> Then came the word of the LORD unto Jeremiah, saying,
 <sup>31</sup> Send to all them of the captivity, saying, Thus saith the LORD concerning Shemaiah the Nehelamite; Because that Shemaiah hath prophesied unto you, and I sent him not, and he caused you to trust in a lie:
 <sup>32</sup> Therefore thus saith the LORD; Behold, I will punish Shemaiah the Nehelamite, and his seed: he shall not have a man to dwell among this people; neither shall he behold the good that I will do for my people, saith the LORD; because he hath taught rebellion against the LORD.
+
 ## Chapter 30
 
 <sup>1</sup> The word that came to Jeremiah from the LORD, saying,
@@ -794,7 +823,7 @@
 <sup>13</sup> [There is] none to plead thy cause, that thou mayest be bound up: thou hast no healing medicines.
 <sup>14</sup> All thy lovers have forgotten thee; they seek thee not; for I have wounded thee with the wound of an enemy, with the chastisement of a cruel one, for the multitude of thine iniquity; [because] thy sins were increased.
 <sup>15</sup> Why criest thou for thine affliction? thy sorrow [is] incurable for the multitude of thine iniquity: [because] thy sins were increased, I have done these things unto thee.
-<sup>16</sup> Therefore all they that devour thee shall be devoured; and all thine adversaries, every one of them, shall go into captivity; and they that spoil (8675) thee shall be a spoil, and all that prey upon thee will I give for a prey.
+<sup>16</sup> Therefore all they that devour thee shall be devoured; and all thine adversaries, every one of them, shall go into captivity; and they that spoil thee shall be a spoil, and all that prey upon thee will I give for a prey.
 <sup>17</sup> For I will restore health unto thee, and I will heal thee of thy wounds, saith the LORD; because they called thee an Outcast, [saying], This [is] Zion, whom no man seeketh after.
 <sup>18</sup> Thus saith the LORD; Behold, I will bring again the captivity of Jacob’s tents, and have mercy on his dwellingplaces; and the city shall be builded upon her own heap, and the palace shall remain after the manner thereof.
 <sup>19</sup> And out of them shall proceed thanksgiving and the voice of them that make merry: and I will multiply them, and they shall not be few; I will also glorify them, and they shall not be small.
@@ -803,6 +832,7 @@
 <sup>22</sup> And ye shall be my people, and I will be your God.
 <sup>23</sup> Behold, the whirlwind of the LORD goeth forth with fury, a continuing whirlwind: it shall fall with pain upon the head of the wicked.
 <sup>24</sup> The fierce anger of the LORD shall not return, until he have done [it], and until he have performed the intents of his heart: in the latter days ye shall consider it.
+
 ## Chapter 31
 
 <sup>1</sup> At the same time, saith the LORD, will I be the God of all the families of Israel, and they shall be my people.
@@ -845,6 +875,7 @@
 <sup>38</sup> Behold, the days come, saith the LORD, that the city shall be built to the LORD from the tower of Hananeel unto the gate of the corner.
 <sup>39</sup> And the measuring line shall yet go forth over against it upon the hill Gareb, and shall compass about to Goath.
 <sup>40</sup> And the whole valley of the dead bodies, and of the ashes, and all the fields unto the brook of Kidron, unto the corner of the horse gate toward the east, [shall be] holy unto the LORD; it shall not be plucked up, nor thrown down any more for ever.
+
 ## Chapter 32
 
 <sup>1</sup> The word that came to Jeremiah from the LORD in the tenth year of Zedekiah king of Judah, which [was] the eighteenth year of Nebuchadrezzar.
@@ -891,6 +922,7 @@
 <sup>42</sup> For thus saith the LORD; Like as I have brought all this great evil upon this people, so will I bring upon them all the good that I have promised them.
 <sup>43</sup> And fields shall be bought in this land, whereof ye say, [It is] desolate without man or beast; it is given into the hand of the Chaldeans.
 <sup>44</sup> Men shall buy fields for money, and subscribe evidences, and seal [them], and take witnesses in the land of Benjamin, and in the places about Jerusalem, and in the cities of Judah, and in the cities of the mountains, and in the cities of the valley, and in the cities of the south: for I will cause their captivity to return, saith the LORD.
+
 ## Chapter 33
 
 <sup>1</sup> Moreover the word of the LORD came unto Jeremiah the second time, while he was yet shut up in the court of the prison, saying,
@@ -918,7 +950,8 @@
 <sup>23</sup> Moreover the word of the LORD came to Jeremiah, saying,
 <sup>24</sup> Considerest thou not what this people have spoken, saying, The two families which the LORD hath chosen, he hath even cast them off? thus they have despised my people, that they should be no more a nation before them.
 <sup>25</sup> Thus saith the LORD; If my covenant [be] not with day and night, [and if] I have not appointed the ordinances of heaven and earth;
-<sup>26</sup> Then will I cast away the seed of Jacob, and David my servant, [so] that I will not take [any] of his seed [to be] rulers over the seed of Abraham, Isaac, and Jacob: for I will cause their captivity to return (8675), and have mercy on them.
+<sup>26</sup> Then will I cast away the seed of Jacob, and David my servant, [so] that I will not take [any] of his seed [to be] rulers over the seed of Abraham, Isaac, and Jacob: for I will cause their captivity to return, and have mercy on them.
+
 ## Chapter 34
 
 <sup>1</sup> The word which came unto Jeremiah from the LORD, when Nebuchadnezzar king of Babylon, and all his army, and all the kingdoms of the earth of his dominion, and all the people, fought against Jerusalem, and against all the cities thereof, saying,
@@ -931,7 +964,7 @@
 <sup>8</sup> [This is] the word that came unto Jeremiah from the LORD, after that the king Zedekiah had made a covenant with all the people which [were] at Jerusalem, to proclaim liberty unto them;
 <sup>9</sup> That every man should let his manservant, and every man his maidservant, [being] an Hebrew or an Hebrewess, go free; that none should serve himself of them, [to wit], of a Jew his brother.
 <sup>10</sup> Now when all the princes, and all the people, which had entered into the covenant, heard that every one should let his manservant, and every one his maidservant, go free, that none should serve themselves of them any more, then they obeyed, and let [them] go.
-<sup>11</sup> But afterward they turned, and caused the servants and the handmaids, whom they had let go free, to return, and brought them into subjection (8675) for servants and for handmaids.
+<sup>11</sup> But afterward they turned, and caused the servants and the handmaids, whom they had let go free, to return, and brought them into subjection for servants and for handmaids.
 <sup>12</sup> Therefore the word of the LORD came to Jeremiah from the LORD, saying,
 <sup>13</sup> Thus saith the LORD, the God of Israel; I made a covenant with your fathers in the day that I brought them forth out of the land of Egypt, out of the house of bondmen, saying,
 <sup>14</sup> At the end of seven years let ye go every man his brother an Hebrew, which hath been sold unto thee; and when he hath served thee six years, thou shalt let him go free from thee: but your fathers hearkened not unto me, neither inclined their ear.
@@ -943,6 +976,7 @@
 <sup>20</sup> I will even give them into the hand of their enemies, and into the hand of them that seek their life: and their dead bodies shall be for meat unto the fowls of the heaven, and to the beasts of the earth.
 <sup>21</sup> And Zedekiah king of Judah and his princes will I give into the hand of their enemies, and into the hand of them that seek their life, and into the hand of the king of Babylon’s army, which are gone up from you.
 <sup>22</sup> Behold, I will command, saith the LORD, and cause them to return to this city; and they shall fight against it, and take it, and burn it with fire: and I will make the cities of Judah a desolation without an inhabitant.
+
 ## Chapter 35
 
 <sup>1</sup> The word which came unto Jeremiah from the LORD in the days of Jehoiakim the son of Josiah king of Judah, saying,
@@ -964,6 +998,7 @@
 <sup>17</sup> Therefore thus saith the LORD God of hosts, the God of Israel; Behold, I will bring upon Judah and upon all the inhabitants of Jerusalem all the evil that I have pronounced against them: because I have spoken unto them, but they have not heard; and I have called unto them, but they have not answered.
 <sup>18</sup> And Jeremiah said unto the house of the Rechabites, Thus saith the LORD of hosts, the God of Israel; Because ye have obeyed the commandment of Jonadab your father, and kept all his precepts, and done according unto all that he hath commanded you:
 <sup>19</sup> Therefore thus saith the LORD of hosts, the God of Israel; Jonadab the son of Rechab shall not want a man to stand before me for ever.
+
 ## Chapter 36
 
 <sup>1</sup> And it came to pass in the fourth year of Jehoiakim the son of Josiah king of Judah, [that] this word came unto Jeremiah from the LORD, saying,
@@ -998,6 +1033,7 @@
 <sup>30</sup> Therefore thus saith the LORD of Jehoiakim king of Judah; He shall have none to sit upon the throne of David: and his dead body shall be cast out in the day to the heat, and in the night to the frost.
 <sup>31</sup> And I will punish him and his seed and his servants for their iniquity; and I will bring upon them, and upon the inhabitants of Jerusalem, and upon the men of Judah, all the evil that I have pronounced against them; but they hearkened not.
 <sup>32</sup> Then took Jeremiah another roll, and gave it to Baruch the scribe, the son of Neriah; who wrote therein from the mouth of Jeremiah all the words of the book which Jehoiakim king of Judah had burned in the fire: and there were added besides unto them many like words.
+
 ## Chapter 37
 
 <sup>1</sup> And king Zedekiah the son of Josiah reigned instead of Coniah the son of Jehoiakim, whom Nebuchadrezzar king of Babylon made king in the land of Judah.
@@ -1020,11 +1056,12 @@
 <sup>18</sup> Moreover Jeremiah said unto king Zedekiah, What have I offended against thee, or against thy servants, or against this people, that ye have put me in prison?
 <sup>19</sup> Where [are] now your prophets which prophesied unto you, saying, The king of Babylon shall not come against you, nor against this land?
 <sup>20</sup> Therefore hear now, I pray thee, O my lord the king: let my supplication, I pray thee, be accepted before thee; that thou cause me not to return to the house of Jonathan the scribe, lest I die there.
-<sup>21</sup> Then Zedekiah the king commanded that they should commit Jeremiah into the court of the prison, and that they should give him daily a piece of bread out of the bakers ’ street, until all the bread in the city were spent. Thus Jeremiah remained in the court of the prison.
+<sup>21</sup> Then Zedekiah the king commanded that they should commit Jeremiah into the court of the prison, and that they should give him daily a piece of bread out of the bakers’ street, until all the bread in the city were spent. Thus Jeremiah remained in the court of the prison.
+
 ## Chapter 38
 
 <sup>1</sup> Then Shephatiah the son of Mattan, and Gedaliah the son of Pashur, and Jucal the son of Shelemiah, and Pashur the son of Malchiah, heard the words that Jeremiah had spoken unto all the people, saying,
-<sup>2</sup> Thus saith the LORD, He that remaineth in this city shall die by the sword, by the famine, and by the pestilence: but he that goeth forth to the Chaldeans shall live; for he shall have his life for a prey, and shall live (8675).
+<sup>2</sup> Thus saith the LORD, He that remaineth in this city shall die by the sword, by the famine, and by the pestilence: but he that goeth forth to the Chaldeans shall live; for he shall have his life for a prey, and shall live.
 <sup>3</sup> Thus saith the LORD, This city shall surely be given into the hand of the king of Babylon’s army, which shall take it.
 <sup>4</sup> Therefore the princes said unto the king, We beseech thee, let this man be put to death: for thus he weakeneth the hands of the men of war that remain in this city, and the hands of all the people, in speaking such words unto them: for this man seeketh not the welfare of this people, but the hurt.
 <sup>5</sup> Then Zedekiah the king said, Behold, he [is] in your hand: for the king [is] not [he that] can do [any] thing against you.
@@ -1051,13 +1088,14 @@
 <sup>26</sup> Then thou shalt say unto them, I presented my supplication before the king, that he would not cause me to return to Jonathan’s house, to die there.
 <sup>27</sup> Then came all the princes unto Jeremiah, and asked him: and he told them according to all these words that the king had commanded. So they left off speaking with him; for the matter was not perceived.
 <sup>28</sup> So Jeremiah abode in the court of the prison until the day that Jerusalem was taken: and he was [there] when Jerusalem was taken.
+
 ## Chapter 39
 
 <sup>1</sup> In the ninth year of Zedekiah king of Judah, in the tenth month, came Nebuchadrezzar king of Babylon and all his army against Jerusalem, and they besieged it.
 <sup>2</sup> [And] in the eleventh year of Zedekiah, in the fourth month, the ninth [day] of the month, the city was broken up.
 <sup>3</sup> And all the princes of the king of Babylon came in, and sat in the middle gate, [even] Nergalsharezer, Samgarnebo, Sarsechim, Rabsaris, Nergalsharezer, Rabmag, with all the residue of the princes of the king of Babylon.
 <sup>4</sup> And it came to pass, [that] when Zedekiah the king of Judah saw them, and all the men of war, then they fled, and went forth out of the city by night, by the way of the king’s garden, by the gate betwixt the two walls: and he went out the way of the plain.
-<sup>5</sup> But the Chaldeans ’ army pursued after them, and overtook Zedekiah in the plains of Jericho: and when they had taken him, they brought him up to Nebuchadnezzar king of Babylon to Riblah in the land of Hamath, where he gave judgment upon him.
+<sup>5</sup> But the Chaldeans’ army pursued after them, and overtook Zedekiah in the plains of Jericho: and when they had taken him, they brought him up to Nebuchadnezzar king of Babylon to Riblah in the land of Hamath, where he gave judgment upon him.
 <sup>6</sup> Then the king of Babylon slew the sons of Zedekiah in Riblah before his eyes: also the king of Babylon slew all the nobles of Judah.
 <sup>7</sup> Moreover he put out Zedekiah’s eyes, and bound him with chains, to carry him to Babylon.
 <sup>8</sup> And the Chaldeans burned the king’s house, and the houses of the people, with fire, and brake down the walls of Jerusalem.
@@ -1071,6 +1109,7 @@
 <sup>16</sup> Go and speak to Ebedmelech the Ethiopian, saying, Thus saith the LORD of hosts, the God of Israel; Behold, I will bring my words upon this city for evil, and not for good; and they shall be [accomplished] in that day before thee.
 <sup>17</sup> But I will deliver thee in that day, saith the LORD: and thou shalt not be given into the hand of the men of whom thou [art] afraid.
 <sup>18</sup> For I will surely deliver thee, and thou shalt not fall by the sword, but thy life shall be for a prey unto thee: because thou hast put thy trust in me, saith the LORD.
+
 ## Chapter 40
 
 <sup>1</sup> The word that came to Jeremiah from the LORD, after that Nebuzaradan the captain of the guard had let him go from Ramah, when he had taken him being bound in chains among all that were carried away captive of Jerusalem and Judah, which were carried away captive unto Babylon.
@@ -1089,6 +1128,7 @@
 <sup>14</sup> And said unto him, Dost thou certainly know that Baalis the king of the Ammonites hath sent Ishmael the son of Nethaniah to slay thee? But Gedaliah the son of Ahikam believed them not.
 <sup>15</sup> Then Johanan the son of Kareah spake to Gedaliah in Mizpah secretly, saying, Let me go, I pray thee, and I will slay Ishmael the son of Nethaniah, and no man shall know [it]: wherefore should he slay thee, that all the Jews which are gathered unto thee should be scattered, and the remnant in Judah perish?
 <sup>16</sup> But Gedaliah the son of Ahikam said unto Johanan the son of Kareah, Thou shalt not do this thing: for thou speakest falsely of Ishmael.
+
 ## Chapter 41
 
 <sup>1</sup> Now it came to pass in the seventh month, [that] Ishmael the son of Nethaniah the son of Elishama, of the seed royal, and the princes of the king, even ten men with him, came unto Gedaliah the son of Ahikam to Mizpah; and there they did eat bread together in Mizpah.
@@ -1109,6 +1149,7 @@
 <sup>16</sup> Then took Johanan the son of Kareah, and all the captains of the forces that [were] with him, all the remnant of the people whom he had recovered from Ishmael the son of Nethaniah, from Mizpah, after [that] he had slain Gedaliah the son of Ahikam, [even] mighty men of war, and the women, and the children, and the eunuchs, whom he had brought again from Gibeon:
 <sup>17</sup> And they departed, and dwelt in the habitation of Chimham, which is by Bethlehem, to go to enter into Egypt,
 <sup>18</sup> Because of the Chaldeans: for they were afraid of them, because Ishmael the son of Nethaniah had slain Gedaliah the son of Ahikam, whom the king of Babylon made governor in the land.
+
 ## Chapter 42
 
 <sup>1</sup> Then all the captains of the forces, and Johanan the son of Kareah, and Jezaniah the son of Hoshaiah, and all the people from the least even unto the greatest, came near,
@@ -1133,6 +1174,7 @@
 <sup>20</sup> For ye dissembled in your hearts, when ye sent me unto the LORD your God, saying, Pray for us unto the LORD our God; and according unto all that the LORD our God shall say, so declare unto us, and we will do [it].
 <sup>21</sup> And [now] I have this day declared [it] to you; but ye have not obeyed the voice of the LORD your God, nor any [thing] for the which he hath sent me unto you.
 <sup>22</sup> Now therefore know certainly that ye shall die by the sword, by the famine, and by the pestilence, in the place whither ye desire to go [and] to sojourn.
+
 ## Chapter 43
 
 <sup>1</sup> And it came to pass, [that] when Jeremiah had made an end of speaking unto all the people all the words of the LORD their God, for which the LORD their God had sent him to them, [even] all these words,
@@ -1148,6 +1190,7 @@
 <sup>11</sup> And when he cometh, he shall smite the land of Egypt, [and deliver] such [as are] for death to death; and such [as are] for captivity to captivity; and such [as are] for the sword to the sword.
 <sup>12</sup> And I will kindle a fire in the houses of the gods of Egypt; and he shall burn them, and carry them away captives: and he shall array himself with the land of Egypt, as a shepherd putteth on his garment; and he shall go forth from thence in peace.
 <sup>13</sup> He shall break also the images of Bethshemesh, that [is] in the land of Egypt; and the houses of the gods of the Egyptians shall he burn with fire.
+
 ## Chapter 44
 
 <sup>1</sup> The word that came to Jeremiah concerning all the Jews which dwell in the land of Egypt, which dwell at Migdol, and at Tahpanhes, and at Noph, and in the country of Pathros, saying,
@@ -1180,6 +1223,7 @@
 <sup>28</sup> Yet a small number that escape the sword shall return out of the land of Egypt into the land of Judah, and all the remnant of Judah, that are gone into the land of Egypt to sojourn there, shall know whose words shall stand, mine, or theirs.
 <sup>29</sup> And this [shall be] a sign unto you, saith the LORD, that I will punish you in this place, that ye may know that my words shall surely stand against you for evil:
 <sup>30</sup> Thus saith the LORD; Behold, I will give Pharaohhophra king of Egypt into the hand of his enemies, and into the hand of them that seek his life; as I gave Zedekiah king of Judah into the hand of Nebuchadrezzar king of Babylon, his enemy, and that sought his life.
+
 ## Chapter 45
 
 <sup>1</sup> The word that Jeremiah the prophet spake unto Baruch the son of Neriah, when he had written these words in a book at the mouth of Jeremiah, in the fourth year of Jehoiakim the son of Josiah king of Judah, saying,
@@ -1187,6 +1231,7 @@
 <sup>3</sup> Thou didst say, Woe is me now! for the LORD hath added grief to my sorrow; I fainted in my sighing, and I find no rest.
 <sup>4</sup> Thus shalt thou say unto him, The LORD saith thus; Behold, [that] which I have built will I break down, and that which I have planted I will pluck up, even this whole land.
 <sup>5</sup> And seekest thou great things for thyself? seek [them] not: for, behold, I will bring evil upon all flesh, saith the LORD: but thy life will I give unto thee for a prey in all places whither thou goest.
+
 ## Chapter 46
 
 <sup>1</sup> The word of the LORD which came to Jeremiah the prophet against the Gentiles;
@@ -1217,6 +1262,7 @@
 <sup>26</sup> And I will deliver them into the hand of those that seek their lives, and into the hand of Nebuchadrezzar king of Babylon, and into the hand of his servants: and afterward it shall be inhabited, as in the days of old, saith the LORD.
 <sup>27</sup> But fear not thou, O my servant Jacob, and be not dismayed, O Israel: for, behold, I will save thee from afar off, and thy seed from the land of their captivity; and Jacob shall return, and be in rest and at ease, and none shall make [him] afraid.
 <sup>28</sup> Fear thou not, O Jacob my servant, saith the LORD: for I [am] with thee; for I will make a full end of all the nations whither I have driven thee: but I will not make a full end of thee, but correct thee in measure; yet will I not leave thee wholly unpunished.
+
 ## Chapter 47
 
 <sup>1</sup> The word of the LORD that came to Jeremiah the prophet against the Philistines, before that Pharaoh smote Gaza.
@@ -1226,6 +1272,7 @@
 <sup>5</sup> Baldness is come upon Gaza; Ashkelon is cut off [with] the remnant of their valley: how long wilt thou cut thyself?
 <sup>6</sup> O thou sword of the LORD, how long [will it be] ere thou be quiet? put up thyself into thy scabbard, rest, and be still.
 <sup>7</sup> How can it be quiet, seeing the LORD hath given it a charge against Ashkelon, and against the sea shore? there hath he appointed it.
+
 ## Chapter 48
 
 <sup>1</sup> Against Moab thus saith the LORD of hosts, the God of Israel; Woe unto Nebo! for it is spoiled: Kiriathaim is confounded [and] taken: Misgab is confounded and dismayed.
@@ -1256,7 +1303,7 @@
 <sup>26</sup> Make ye him drunken: for he magnified [himself] against the LORD: Moab also shall wallow in his vomit, and he also shall be in derision.
 <sup>27</sup> For was not Israel a derision unto thee? was he found among thieves? for since thou spakest of him, thou skippedst for joy.
 <sup>28</sup> O ye that dwell in Moab, leave the cities, and dwell in the rock, and be like the dove [that] maketh her nest in the sides of the hole’s mouth.
-<sup>29</sup> We have heard the pride of Moab, (he is exceeding proud ) his loftiness, and his arrogancy, and his pride, and the haughtiness of his heart.
+<sup>29</sup> We have heard the pride of Moab, (he is exceeding proud) his loftiness, and his arrogancy, and his pride, and the haughtiness of his heart.
 <sup>30</sup> I know his wrath, saith the LORD; but [it shall] not [be] so; his lies shall not so effect [it].
 <sup>31</sup> Therefore will I howl for Moab, and I will cry out for all Moab; [mine heart] shall mourn for the men of Kirheres.
 <sup>32</sup> O vine of Sibmah, I will weep for thee with the weeping of Jazer: thy plants are gone over the sea, they reach [even] to the sea of Jazer: the spoiler is fallen upon thy summer fruits and upon thy vintage.
@@ -1271,10 +1318,11 @@
 <sup>41</sup> Kerioth is taken, and the strong holds are surprised, and the mighty men’s hearts in Moab at that day shall be as the heart of a woman in her pangs.
 <sup>42</sup> And Moab shall be destroyed from [being] a people, because he hath magnified [himself] against the LORD.
 <sup>43</sup> Fear, and the pit, and the snare, [shall be] upon thee, O inhabitant of Moab, saith the LORD.
-<sup>44</sup> He that fleeth (8675) from the fear shall fall into the pit; and he that getteth up out of the pit shall be taken in the snare: for I will bring upon it, [even] upon Moab, the year of their visitation, saith the LORD.
+<sup>44</sup> He that fleeth from the fear shall fall into the pit; and he that getteth up out of the pit shall be taken in the snare: for I will bring upon it, [even] upon Moab, the year of their visitation, saith the LORD.
 <sup>45</sup> They that fled stood under the shadow of Heshbon because of the force: but a fire shall come forth out of Heshbon, and a flame from the midst of Sihon, and shall devour the corner of Moab, and the crown of the head of the tumultuous ones.
 <sup>46</sup> Woe be unto thee, O Moab! the people of Chemosh perisheth: for thy sons are taken captives, and thy daughters captives.
 <sup>47</sup> Yet will I bring again the captivity of Moab in the latter days, saith the LORD. Thus far [is] the judgment of Moab.
+
 ## Chapter 49
 
 <sup>1</sup> Concerning the Ammonites, thus saith the LORD; Hath Israel no sons? hath he no heir? why [then] doth their king inherit Gad, and his people dwell in his cities?
@@ -1315,7 +1363,8 @@
 <sup>36</sup> And upon Elam will I bring the four winds from the four quarters of heaven, and will scatter them toward all those winds; and there shall be no nation whither the outcasts of Elam shall not come.
 <sup>37</sup> For I will cause Elam to be dismayed before their enemies, and before them that seek their life: and I will bring evil upon them, [even] my fierce anger, saith the LORD; and I will send the sword after them, till I have consumed them:
 <sup>38</sup> And I will set my throne in Elam, and will destroy from thence the king and the princes, saith the LORD.
-<sup>39</sup> But it shall come to pass in the latter days, [that] I will bring again (8675) the captivity of Elam, saith the LORD.
+<sup>39</sup> But it shall come to pass in the latter days, [that] I will bring again the captivity of Elam, saith the LORD.
+
 ## Chapter 50
 
 <sup>1</sup> The word that the LORD spake against Babylon [and] against the land of the Chaldeans by Jeremiah the prophet.
@@ -1323,10 +1372,10 @@
 <sup>3</sup> For out of the north there cometh up a nation against her, which shall make her land desolate, and none shall dwell therein: they shall remove, they shall depart, both man and beast.
 <sup>4</sup> In those days, and in that time, saith the LORD, the children of Israel shall come, they and the children of Judah together, going and weeping: they shall go, and seek the LORD their God.
 <sup>5</sup> They shall ask the way to Zion with their faces thitherward, [saying], Come, and let us join ourselves to the LORD in a perpetual covenant [that] shall not be forgotten.
-<sup>6</sup> My people hath been lost sheep: their shepherds have caused them to go astray, they have turned them away (8675) [on] the mountains: they have gone from mountain to hill, they have forgotten their restingplace.
+<sup>6</sup> My people hath been lost sheep: their shepherds have caused them to go astray, they have turned them away [on] the mountains: they have gone from mountain to hill, they have forgotten their restingplace.
 <sup>7</sup> All that found them have devoured them: and their adversaries said, We offend not, because they have sinned against the LORD, the habitation of justice, even the LORD, the hope of their fathers.
-<sup>8</sup> Remove out of the midst of Babylon, and go forth (8675) out of the land of the Chaldeans, and be as the he goats before the flocks.
-<sup>9</sup> For, lo, I will raise and cause to come up against Babylon an assembly of great nations from the north country: and they shall set themselves in array against her; from thence she shall be taken: their arrows [shall be] as of a mighty expert man (8676); none shall return in vain.
+<sup>8</sup> Remove out of the midst of Babylon, and go forth out of the land of the Chaldeans, and be as the he goats before the flocks.
+<sup>9</sup> For, lo, I will raise and cause to come up against Babylon an assembly of great nations from the north country: and they shall set themselves in array against her; from thence she shall be taken: their arrows [shall be] as of a mighty expert man; none shall return in vain.
 <sup>10</sup> And Chaldea shall be a spoil: all that spoil her shall be satisfied, saith the LORD.
 <sup>11</sup> Because ye were glad, because ye rejoiced, O ye destroyers of mine heritage, because ye are grown fat as the heifer at grass, and bellow as bulls;
 <sup>12</sup> Your mother shall be sore confounded; she that bare you shall be ashamed: behold, the hindermost of the nations [shall be] a wilderness, a dry land, and a desert.
@@ -1361,9 +1410,10 @@
 <sup>41</sup> Behold, a people shall come from the north, and a great nation, and many kings shall be raised up from the coasts of the earth.
 <sup>42</sup> They shall hold the bow and the lance: they [are] cruel, and will not shew mercy: their voice shall roar like the sea, and they shall ride upon horses, [every one] put in array, like a man to the battle, against thee, O daughter of Babylon.
 <sup>43</sup> The king of Babylon hath heard the report of them, and his hands waxed feeble: anguish took hold of him, [and] pangs as of a woman in travail.
-<sup>44</sup> Behold, he shall come up like a lion from the swelling of Jordan unto the habitation of the strong: but I will make them suddenly run away (8675) from her: and who [is] a chosen [man, that] I may appoint over her? for who [is] like me? and who will appoint me the time? and who [is] that shepherd that will stand before me?
+<sup>44</sup> Behold, he shall come up like a lion from the swelling of Jordan unto the habitation of the strong: but I will make them suddenly run away from her: and who [is] a chosen [man, that] I may appoint over her? for who [is] like me? and who will appoint me the time? and who [is] that shepherd that will stand before me?
 <sup>45</sup> Therefore hear ye the counsel of the LORD, that he hath taken against Babylon; and his purposes, that he hath purposed against the land of the Chaldeans: Surely the least of the flock shall draw them out: surely he shall make [their] habitation desolate with them.
 <sup>46</sup> At the noise of the taking of Babylon the earth is moved, and the cry is heard among the nations.
+
 ## Chapter 51
 
 <sup>1</sup> Thus saith the LORD; Behold, I will raise up against Babylon, and against them that dwell in the midst of them that rise up against me, a destroying wind;
@@ -1378,7 +1428,7 @@
 <sup>10</sup> The LORD hath brought forth our righteousness: come, and let us declare in Zion the work of the LORD our God.
 <sup>11</sup> Make bright the arrows; gather the shields: the LORD hath raised up the spirit of the kings of the Medes: for his device [is] against Babylon, to destroy it; because it [is] the vengeance of the LORD, the vengeance of his temple.
 <sup>12</sup> Set up the standard upon the walls of Babylon, make the watch strong, set up the watchmen, prepare the ambushes: for the LORD hath both devised and done that which he spake against the inhabitants of Babylon.
-<sup>13</sup> O thou that dwellest (8675) upon many waters, abundant in treasures, thine end is come, [and] the measure of thy covetousness.
+<sup>13</sup> O thou that dwellest upon many waters, abundant in treasures, thine end is come, [and] the measure of thy covetousness.
 <sup>14</sup> The LORD of hosts hath sworn by himself, [saying], Surely I will fill thee with men, as with caterpillers; and they shall lift up a shout against thee.
 <sup>15</sup> He hath made the earth by his power, he hath established the world by his wisdom, and hath stretched out the heaven by his understanding.
 <sup>16</sup> When he uttereth [his] voice, [there is] a multitude of waters in the heavens; and he causeth the vapours to ascend from the ends of the earth: he maketh lightnings with rain, and bringeth forth the wind out of his treasures.
@@ -1403,7 +1453,7 @@
 <sup>35</sup> The violence done to me and to my flesh [be] upon Babylon, shall the inhabitant of Zion say; and my blood upon the inhabitants of Chaldea, shall Jerusalem say.
 <sup>36</sup> Therefore thus saith the LORD; Behold, I will plead thy cause, and take vengeance for thee; and I will dry up her sea, and make her springs dry.
 <sup>37</sup> And Babylon shall become heaps, a dwellingplace for dragons, an astonishment, and an hissing, without an inhabitant.
-<sup>38</sup> They shall roar together like lions: they shall yell as lions ’ whelps.
+<sup>38</sup> They shall roar together like lions: they shall yell as lions’ whelps.
 <sup>39</sup> In their heat I will make their feasts, and I will make them drunken, that they may rejoice, and sleep a perpetual sleep, and not wake, saith the LORD.
 <sup>40</sup> I will bring them down like lambs to the slaughter, like rams with he goats.
 <sup>41</sup> How is Sheshach taken! and how is the praise of the whole earth surprised! how is Babylon become an astonishment among the nations!
@@ -1430,6 +1480,7 @@
 <sup>62</sup> Then shalt thou say, O LORD, thou hast spoken against this place, to cut it off, that none shall remain in it, neither man nor beast, but that it shall be desolate for ever.
 <sup>63</sup> And it shall be, when thou hast made an end of reading this book, [that] thou shalt bind a stone to it, and cast it into the midst of Euphrates:
 <sup>64</sup> And thou shalt say, Thus shall Babylon sink, and shall not rise from the evil that I will bring upon her: and they shall be weary. Thus far [are] the words of Jeremiah.
+
 ## Chapter 52
 
 <sup>1</sup> Zedekiah [was] one and twenty years old when he began to reign, and he reigned eleven years in Jerusalem. And his mother’s name [was] Hamutal the daughter of Jeremiah of Libnah.

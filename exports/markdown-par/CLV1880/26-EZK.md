@@ -28,6 +28,7 @@
 <sup>26</sup> et super firmamentum quod erat inminens capiti eorum quasi aspectus lapidis sapphyri similitudo throni et super similitudinem throni similitudo quasi aspectus hominis desuper
 <sup>27</sup> et vidi quasi speciem electri velut aspectum ignis intrinsecus eius per circuitum a lumbis eius et desuper et a lumbis eius usque deorsum vidi quasi speciem ignis splendentis in circuitu
 <sup>28</sup> velut aspectum arcus cum fuerit in nube in die pluviae hic erat aspectus splendoris per gyrum
+
 ## Chapter 2
 
 <sup>1</sup> haec visio similitudinis gloriae Domini et vidi et cecidi in faciem meam et audivi vocem loquentis et dixit ad me fili hominis sta supra pedes tuos et loquar tecum
@@ -39,7 +40,10 @@
 <sup>7</sup> loqueris ergo verba mea ad eos si forte audiant et quiescant quoniam inritatores sunt
 <sup>8</sup> tu autem fili hominis audi quaecumque loquor ad te et noli esse exasperans sicut domus exasperatrix est aperi os tuum et comede quaecumque ego do tibi
 <sup>9</sup> et vidi et ecce manus missa ad me in qua erat involutus liber
-<sup>10</sup> (2-9) et expandit illum coram me qui erat scriptus intus et foris et scriptae erant in eo lamentationes et carmen et vae
+<sup>10</sup> <sup>a</sup>et expandit illum coram me qui erat scriptus intus et foris et scriptae erant in eo lamentationes et carmen et vae
+
+> - <sup>a</sup> 10. Originally verse 2:9.
+
 ## Chapter 3
 
 <sup>1</sup> et dixit ad me fili hominis quodcumque inveneris comede comede volumen istud et vadens loquere ad filios Israhel
@@ -69,6 +73,7 @@
 <sup>25</sup> et tu fili hominis ecce data sunt super te vincula et ligabunt te in eis et non egredieris in medio eorum
 <sup>26</sup> et linguam tuam adherescere faciam palato tuo et eris mutus nec quasi vir obiurgans quia domus exasperans est
 <sup>27</sup> cum autem locutus fuero tibi aperiam os tuum et dices ad eos haec dicit Dominus Deus qui audit audiat et qui quiescit quiescat quia domus exasperans est
+
 ## Chapter 4
 
 <sup>1</sup> et tu fili hominis sume tibi laterem et pones eum coram te et describes in eo civitatem Hierusalem
@@ -88,6 +93,7 @@
 <sup>15</sup> et dixit ad me ecce dedi tibi fimum boum pro stercoribus humanis et facies panem tuum in eo
 <sup>16</sup> et dixit ad me fili hominis ecce ego conteram baculum panis in Hierusalem et comedent panem in pondere et in sollicitudine et aquam in mensura et in angustia bibent
 <sup>17</sup> ut deficientibus pane et aqua corruat unusquisque ad fratrem suum et contabescant in iniquitatibus suis
+
 ## Chapter 5
 
 <sup>1</sup> et tu fili hominis sume tibi gladium acutum radentem pilos adsumes eum et duces per caput tuum et per barbam tuam et adsumes tibi stateram ponderis et divides eos
@@ -107,6 +113,7 @@
 <sup>15</sup> et eris obprobrium et blasphemia exemplum et stupor in gentibus quae in circuitu tuo sunt cum fecero in te iudicia in furore et in indignatione et in increpationibus irae
 <sup>16</sup> ego Dominus locutus sum quando misero sagittas famis pessimas in eos quae erunt mortiferae et quas mittam ut disperdam vos et famem congregabo super vos et conteram vobis baculum panis
 <sup>17</sup> et inmittam in vos famem et bestias pessimas usque ad internicionem et pestilentia et sanguis transibunt per te et gladium inducam super te ego Dominus locutus sum
+
 ## Chapter 6
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -123,6 +130,7 @@
 <sup>12</sup> qui longe est peste morietur qui autem prope gladio corruet et qui relictus fuerit et obsessus fame morietur et conpleam indignationem meam in eis
 <sup>13</sup> et scietis quia ego Dominus cum fuerint interfecti vestri in medio idolorum vestrorum in circuitu ararum vestrarum in omni colle excelso in cunctis summitatibus montium et subtus omne lignum nemorosum et subtus universam quercum frondosam locum ubi accenderunt tura redolentia universis idolis suis
 <sup>14</sup> et extendam manum meam super eos et faciam terram desolatam et destitutam a deserto Deblatha in omnibus habitationibus eorum et scient quia ego Dominus
+
 ## Chapter 7
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -152,6 +160,7 @@
 <sup>25</sup> angustia superveniente requirent pacem et non erit
 <sup>26</sup> conturbatio super conturbationem veniet et auditus super auditum et quaerent visionem de propheta et lex peribit a sacerdote et consilium a senioribus
 <sup>27</sup> rex lugebit et princeps induetur maerore et manus populi terrae conturbabuntur secundum viam eorum faciam eis et secundum iudicia eorum iudicabo eos et scient quia ego Dominus
+
 ## Chapter 8
 
 <sup>1</sup> et factum est in anno sexto in sexto mense in quinta mensis ego sedebam in domo mea et senes Iuda sedebant coram me et cecidit super me ibi manus Domini Dei
@@ -172,6 +181,7 @@
 <sup>16</sup> et introduxit me in atrium domus Domini interius et ecce in ostio templi Domini inter vestibulum et altare quasi viginti quinque viri dorsa habentes contra templum Domini et facies ad orientem et adorabant ad ortum solis
 <sup>17</sup> et dixit ad me certe vidisti fili hominis numquid leve est hoc domui Iuda ut facerent abominationes istas quas fecerunt hic quia replentes terram iniquitate conversi sunt ad inritandum me et ecce adplicant ramum ad nares suas
 <sup>18</sup> ergo et ego faciam in furore non parcet oculus meus nec miserebor et cum clamaverint ad aures meas voce magna non exaudiam eos
+
 ## Chapter 9
 
 <sup>1</sup> et clamavit in auribus meis voce magna dicens adpropinquaverunt visitationes urbis et unusquisque vas interfectionis habet in manu sua
@@ -185,6 +195,7 @@
 <sup>9</sup> et dixit ad me iniquitas domus Israhel et Iuda magna est nimis valde et repleta est terra sanguinibus et civitas repleta est aversione dixerunt enim dereliquit Dominus terram et Dominus non videt
 <sup>10</sup> igitur et meus non parcet oculus neque miserebor viam eorum super caput eorum reddam
 <sup>11</sup> et ecce vir qui indutus erat lineis qui habebat atramentarium in dorso suo respondit verbum dicens feci sicut praecepisti mihi
+
 ## Chapter 10
 
 <sup>1</sup> et vidi et ecce in firmamento quod erat super caput cherubin quasi lapis sapphyrus quasi species similitudinis solii apparuit super ea
@@ -209,6 +220,7 @@
 <sup>20</sup> ipsum est animal quod vidi subter Deum Israhel iuxta fluvium Chobar et intellexi quia cherubin essent
 <sup>21</sup> quattuor per quattuor vultus uni et quattuor alae uni et similitudo manus hominis sub alis eorum
 <sup>22</sup> et similitudo vultuum eorum ipsi vultus quos videram iuxta fluvium Chobar et intuitus eorum et impetus singulorum ante faciem suam ingredi
+
 ## Chapter 11
 
 <sup>1</sup> et elevavit me spiritus et introduxit me ad portam domus Domini orientalem quae respicit solis ortum et ecce in introitu portae viginti quinque viri et vidi in medio eorum Hiezoniam filium Azur et Pheltiam filium Banaiae principes populi
@@ -236,6 +248,7 @@
 <sup>23</sup> et ascendit gloria Domini de medio civitatis stetitque super montem qui est ad orientem urbis
 <sup>24</sup> et spiritus levavit me adduxitque in Chaldeam ad transmigrationem in visione in spiritu Dei et sublata est a me visio quam videram
 <sup>25</sup> et locutus sum ad transmigrationem omnia verba Domini quae ostenderat mihi
+
 ## Chapter 12
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -266,6 +279,7 @@
 <sup>26</sup> et factus est sermo Domini ad me dicens
 <sup>27</sup> fili hominis ecce domus Israhel dicentium visio quam hic videt in dies multos et in tempora longa iste prophetat
 <sup>28</sup> propterea dic ad eos haec dicit Dominus Deus non prolongabitur ultra omnis sermo meus verbum quod locutus fuero conplebitur dicit Dominus Deus
+
 ## Chapter 13
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -291,6 +305,7 @@
 <sup>21</sup> et disrumpam cervicalia vestra et liberabo populum meum de manu vestra neque erunt ultra in manibus vestris ad praedandum et scietis quia ego Dominus
 <sup>22</sup> pro eo quod maerere fecistis cor iusti mendaciter quem ego non contristavi et confortastis manus impii ut non reverteretur a via sua mala et viveret
 <sup>23</sup> propterea vana non videbitis et divinationes non divinabitis amplius et eruam populum meum de manu vestra et scietis quoniam ego Dominus
+
 ## Chapter 14
 
 <sup>1</sup> et venerunt ad me viri seniorum Israhel et sederunt coram me
@@ -316,6 +331,7 @@
 <sup>21</sup> quoniam haec dicit Dominus Deus quod si et quattuor iudicia mea pessima gladium et famem et bestias malas et pestilentiam misero in Hierusalem ut interficiam de ea hominem et pecus
 <sup>22</sup> tamen relinquetur in ea salvatio educentium filios et filias ecce ipsi egredientur ad vos et videbitis viam eorum et adinventiones eorum et consolabimini super malo quod induxi in Hierusalem in omnibus quae inportavi super eam
 <sup>23</sup> et consolabuntur vos cum videritis viam eorum et adinventiones eorum et cognoscetis quod non frustra fecerim omnia quae feci in ea ait Dominus Deus
+
 ## Chapter 15
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -326,6 +342,7 @@
 <sup>6</sup> propterea haec dicit Dominus Deus quomodo lignum vitis inter ligna silvarum quod dedi igni ad devorandum sic tradidi habitatores Hierusalem
 <sup>7</sup> et ponam faciem meam in eos de igne egredientur et ignis consumet eos et scietis quia ego Dominus cum posuero faciem meam in eos
 <sup>8</sup> et dedero terram inviam et desolatam eo quod praevaricatores extiterint dicit Dominus Deus
+
 ## Chapter 16
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -391,6 +408,7 @@
 <sup>61</sup> et recordaberis viarum tuarum et confunderis cum receperis sorores tuas te maiores cum minoribus tuis et dabo eas tibi in filias sed non ex pacto tuo
 <sup>62</sup> et suscitabo ego pactum meum tecum et scies quia ego Dominus
 <sup>63</sup> ut recorderis et confundaris et non sit tibi ultra aperire os prae confusione tua cum placatus fuero tibi in omnibus quae fecisti ait Dominus Deus
+
 ## Chapter 17
 
 <sup>1</sup> et factum est verbum Domini ad me dicens
@@ -417,6 +435,7 @@
 <sup>22</sup> haec dicit Dominus Deus et sumam ego de medulla cedri sublimis et ponam de vertice ramorum eius tenerum distringam et plantabo super montem excelsum et eminentem
 <sup>23</sup> in monte sublimi Israhel plantabo illud et erumpet in germen et faciet fructum et erit in cedrum magnam et habitabunt sub eo omnes volucres universum volatile sub umbra frondium eius nidificabit
 <sup>24</sup> et scient omnia ligna regionis quia ego Dominus humiliavi lignum sublime et exaltavi lignum humile et siccavi lignum viride et frondere feci lignum aridum ego Dominus locutus sum et feci
+
 ## Chapter 18
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -451,6 +470,7 @@
 <sup>30</sup> idcirco unumquemque iuxta vias suas iudicabo domus Israhel ait Dominus Deus convertimini et agite paenitentiam ab omnibus iniquitatibus vestris et non erit vobis in ruinam iniquitas
 <sup>31</sup> proicite a vobis omnes praevaricationes vestras in quibus praevaricati estis et facite vobis cor novum et spiritum novum et quare moriemini domus Israhel
 <sup>32</sup> quia nolo mortem morientis dicit Dominus Deus revertimini et vivite
+
 ## Chapter 19
 
 <sup>1</sup> et tu adsume planctum super principes Israhel
@@ -467,6 +487,7 @@
 <sup>12</sup> et evulsa est in ira in terramque proiecta et ventus urens siccavit fructum eius marcuerunt et arefactae sunt virgae roboris eius ignis comedit eam
 <sup>13</sup> et nunc transplantata est in desertum in terra invia et sitienti
 <sup>14</sup> et egressus est ignis de virga ramorum eius qui fructum eius comedit et non fuit in ea virga fortis sceptrum dominantium planctus est et erit in planctum
+
 ## Chapter 20
 
 <sup>1</sup> et factum est in anno septimo in quinto mense in decima mensis venerunt viri de senioribus Israhel ut interrogarent Dominum et sederunt coram me
@@ -518,6 +539,7 @@
 <sup>47</sup> et dices saltui meridiano audi verbum Domini haec dicit Dominus Deus ecce ego succendam in te ignem et conburam in te omne lignum viride et omne lignum aridum non extinguetur flamma succensionis et conburetur in ea omnis facies ab austro usque ad aquilonem
 <sup>48</sup> et videbit universa caro quia ego Dominus succendi eam nec extinguetur
 <sup>49</sup> et dixi ha ha ha Domine Deus ipsi dicunt de me numquid non per parabolas loquitur iste
+
 ## Chapter 21
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -552,6 +574,7 @@
 <sup>30</sup> revertere ad vaginam tuam in loco in quo creatus es in terra nativitatis tuae iudicabo te
 <sup>31</sup> et effundam super te indignationem meam in igne furoris mei sufflabo in te daboque te in manus hominum insipientium et fabricantium interitum
 <sup>32</sup> igni eris cibus sanguis tuus erit in medio terrae oblivioni traderis quia ego Dominus locutus sum
+
 ## Chapter 22
 
 <sup>1</sup> et factum est verbum Domini ad me dicens
@@ -585,6 +608,7 @@
 <sup>29</sup> populi terrae calumniabantur calumniam et rapiebant violenter egenum et pauperem adfligebant et advenam opprimebant calumnia absque iudicio
 <sup>30</sup> et quaesivi de eis virum qui interponeret sepem et staret oppositus contra me pro terra ne dissiparem eam et non inveni
 <sup>31</sup> et effudi super eos indignationem meam in igne irae meae consumpsi eos viam eorum in caput eorum reddidi ait Dominus Deus
+
 ## Chapter 23
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -636,6 +660,7 @@
 <sup>47</sup> et lapidentur lapidibus populorum et confodiantur gladiis eorum filios et filias earum interficient et domos earum igne succendent
 <sup>48</sup> et auferam scelus de terra et discent omnes mulieres ne faciant secundum scelus earum
 <sup>49</sup> et dabunt scelus vestrum super vos et peccata idolorum vestrorum portabitis et scietis quia ego Dominus Deus
+
 ## Chapter 24
 
 <sup>1</sup> et factum est verbum Domini ad me in anno nono in mense decimo decima mensis dicens
@@ -665,6 +690,7 @@
 <sup>25</sup> et tu fili hominis ecce in die quo tollam ab eis fortitudinem eorum et gaudium dignitatis et desiderium oculorum eorum super quo requiescunt animae eorum filios et filias eorum
 <sup>26</sup> in die illa cum venerit fugiens ad te ut adnuntiet tibi
 <sup>27</sup> in die inquam illa aperietur os tuum cum eo qui fugit et loqueris et non silebis ultra erisque eis in portentum et scietis quia ego Dominus
+
 ## Chapter 25
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -684,6 +710,7 @@
 <sup>15</sup> haec dicit Dominus Deus pro eo quod fecerunt Palestini in vindictam et ulti se sunt toto animo interficientes et implentes inimicitias veteres
 <sup>16</sup> propterea haec dicit Dominus Deus ecce ego extendam manum meam super Palestinos et interficiam interfectores et perdam reliquias maritimae regionis
 <sup>17</sup> faciamque in eis ultiones magnas arguens in furore et scient quia ego Dominus cum dedero vindictam meam super eos
+
 ## Chapter 26
 
 <sup>1</sup> et factum est in undecimo anno prima mensis factus est sermo Domini ad me dicens
@@ -707,6 +734,7 @@
 <sup>19</sup> quia haec dicit Dominus Deus cum dedero te urbem desolatam sicut civitates quae non habitantur et adduxero super te abyssum et operuerint te aquae multae
 <sup>20</sup> et detraxero te cum his qui descendunt in lacum ad populum sempiternum et conlocavero te in terra novissima sicut solitudines veteres cum his qui deducuntur in lacum ut non habiteris porro dedero gloriam in terra viventium
 <sup>21</sup> in nihilum redigam te et non eris et requisita non invenieris ultra in sempiternum dicit Dominus Deus
+
 ## Chapter 27
 
 <sup>1</sup> et factum est verbum Domini ad me dicens
@@ -745,6 +773,7 @@
 <sup>34</sup> nunc contrita es a mari in profundis aquarum opes tuae et omnis multitudo tua quae erat in medio tui ceciderunt
 <sup>35</sup> universi habitatores insularum obstipuerunt super te et reges earum omnes tempestate perculsi mutaverunt vultus
 <sup>36</sup> negotiatores populorum sibilaverunt super te ad nihilum deducta es et non eris usque in perpetuum
+
 ## Chapter 28
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -773,6 +802,7 @@
 <sup>24</sup> et non erit ultra domui Israhel offendiculum amaritudinis et spina dolorem inferens undique per circuitum eorum qui adversantur eis et scient quia ego Dominus Deus
 <sup>25</sup> haec dicit Dominus Deus quando congregavero domum Israhel de populis in quibus dispersi sunt sanctificabor in eis coram gentibus et habitabunt in terra sua quam dedi servo meo Iacob
 <sup>26</sup> et habitabunt in ea securi et aedificabunt domos plantabuntque vineas et habitabunt confidenter cum fecero iudicia in omnibus qui adversantur eis per circuitum et scient quia ego Dominus Deus eorum
+
 ## Chapter 29
 
 <sup>1</sup> in anno decimo in decimo mense undecima mensis factum est verbum Domini ad me dicens
@@ -796,6 +826,7 @@
 <sup>19</sup> propterea haec dicit Dominus Deus ecce ego dabo Nabuchodonosor regem Babylonis in terra Aegypti et accipiet multitudinem eius et depraedabitur manubias eius et diripiet spolia eius et erit merces exercitui illius
 <sup>20</sup> et operi pro quo servivit adversum eam dedi ei terram Aegypti pro eo quod laboraverunt mihi ait Dominus Deus
 <sup>21</sup> in die illo pullulabit cornu domui Israhel et tibi dabo apertum os in medio eorum et scient quoniam ego Dominus
+
 ## Chapter 30
 
 <sup>1</sup> et factum est verbum Domini ad me dicens
@@ -824,6 +855,7 @@
 <sup>24</sup> et confortabo brachia regis Babylonis daboque gladium meum in manu eius et confringam brachia Pharaonis et gement gemitibus interfecti coram facie eius
 <sup>25</sup> et confortabo brachia regis Babylonis et brachia Pharaonis concident et scient quia ego Dominus cum dedero gladium meum in manu regis Babylonis et extenderit eum super terram Aegypti
 <sup>26</sup> et dispergam Aegyptum in nationes et ventilabo eos in terris et scient quia ego Dominus
+
 ## Chapter 31
 
 <sup>1</sup> et factum est in undecimo anno tertio una mensis factum est verbum Domini ad me dicens
@@ -844,6 +876,7 @@
 <sup>16</sup> a sonitu ruinae eius commovi gentes cum deducerem eum ad infernum cum his qui descendebant in lacum et consolata sunt in terra infima omnia ligna voluptatis egregia atque praeclara in Libano universa quae inrigabantur aquis
 <sup>17</sup> nam et ipsi cum ea descendent ad infernum ad interfectos gladio et brachium uniuscuiusque sedebit sub umbraculo eius in medio nationum
 <sup>18</sup> cui adsimilatus es o inclite atque sublimis inter ligna voluptatis ecce deductus es cum lignis voluptatis ad terram ultimam in medio incircumcisorum dormies cum his qui interfecti sunt gladio ipse est Pharao et omnis multitudo eius dicit Dominus Deus
+
 ## Chapter 32
 
 <sup>1</sup> et factum est duodecimo anno in mense duodecimo in una mensis factum est verbum Domini ad me dicens
@@ -878,6 +911,7 @@
 <sup>30</sup> ibi principes aquilonis omnes et universi venatores qui deducti sunt cum interfectis paventes et in sua fortitudine confusi qui dormierunt incircumcisi cum interfectis gladio et portaverunt confusionem suam cum his qui descendunt in lacum
 <sup>31</sup> vidit eos Pharao et consolatus est super universa multitudine sua quae interfecta est gladio Pharao et omnis exercitus eius ait Dominus Deus
 <sup>32</sup> quia dedi terrorem meum in terra viventium et dormivit in medio incircumcisorum cum interfectis gladio Pharao et omnis multitudo eius ait Dominus Deus
+
 ## Chapter 33
 
 <sup>1</sup> et factum est verbum Domini ad me dicens
@@ -913,6 +947,7 @@
 <sup>31</sup> et veniunt ad te quasi si ingrediatur populus et sedent coram te populus meus et audiunt sermones tuos et non faciunt eos quia in canticum oris sui vertunt illos et avaritiam suam sequitur cor eorum
 <sup>32</sup> et es eis quasi carmen musicum quod suavi dulcique sono canitur et audient verba tua et non facient ea
 <sup>33</sup> et cum venerit quod praedictum est ecce enim venit tunc scient quod prophetes fuerit inter eos
+
 ## Chapter 34
 
 <sup>1</sup> et factum est verbum Domini ad me dicens
@@ -946,6 +981,7 @@
 <sup>29</sup> et suscitabo eis germen nominatum et non erunt ultra inminuti fame in terra neque portabunt amplius obprobria gentium
 <sup>30</sup> et scient quia ego Dominus Deus eorum cum eis et ipsi populus meus domus Israhel ait Dominus Deus
 <sup>31</sup> vos autem greges mei greges pascuae meae homines estis et ego Dominus Deus vester dicit Dominus Deus
+
 ## Chapter 35
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -963,6 +999,7 @@
 <sup>13</sup> et insurrexistis super me ore vestro et rogastis adversum me verba vestra ego audivi
 <sup>14</sup> haec dicit Dominus Deus laetante universa terra in solitudinem te redigam
 <sup>15</sup> sicuti gavisus es super hereditatem domus Israhel eo quod fuerit dissipata sic faciam tibi dissipatus eris mons Seir et Idumea omnis et scient quia ego Dominus
+
 ## Chapter 36
 
 <sup>1</sup> tu autem fili hominis propheta super montes Israhel et dices montes Israhel audite verbum Domini
@@ -1003,6 +1040,7 @@
 <sup>36</sup> et scient gentes quaecumque derelictae fuerint in circuitu vestro quia ego Dominus aedificavi dissipata plantavique inculta ego Dominus locutus sum et fecerim
 <sup>37</sup> haec dicit Dominus Deus adhuc in hoc invenient me domus Israhel ut faciam eis multiplicabo eos sicut gregem hominum
 <sup>38</sup> ut gregem sanctum ut gregem Hierusalem in sollemnitatibus eius sic erunt civitates desertae plenaeque gregibus hominum et scient quia ego Dominus
+
 ## Chapter 37
 
 <sup>1</sup> facta est super me manus Domini et eduxit me in spiritu Domini et dimisit me in medio campi qui erat plenus ossibus
@@ -1033,6 +1071,7 @@
 <sup>26</sup> et percutiam illis foedus pacis pactum sempiternum erit eis et fundabo eos et multiplicabo et dabo sanctificationem meam in medio eorum in perpetuum
 <sup>27</sup> et erit tabernaculum meum in eis et ero eis Deus et ipsi erunt mihi populus
 <sup>28</sup> et scient gentes quia ego Dominus sanctificator Israhel cum fuerit sanctificatio mea in medio eorum in perpetuum
+
 ## Chapter 38
 
 <sup>1</sup> et factus est sermo Domini ad me dicens
@@ -1058,6 +1097,7 @@
 <sup>21</sup> et convocabo adversum eum in cunctis montibus meis gladium ait Dominus Deus gladius uniuscuiusque in fratrem suum dirigetur
 <sup>22</sup> et iudicabo eum peste et sanguine et imbre vehementi et lapidibus inmensis ignem et sulphur pluam super eum et super exercitum eius et super populos multos qui sunt cum eo
 <sup>23</sup> et magnificabor et sanctificabor et notus ero in oculis gentium multarum et scient quia ego Dominus
+
 ## Chapter 39
 
 <sup>1</sup> tu autem fili hominis vaticinare adversum Gog et dices haec dicit Dominus Deus ecce ego super te Gog principem capitis Mosoch et Thubal
@@ -1089,6 +1129,7 @@
 <sup>27</sup> et reduxero eos de populis et congregavero de terris inimicorum suorum et sanctificatus fuero in eis in oculis gentium plurimarum
 <sup>28</sup> et scient quia ego Dominus Deus eorum eo quod transtulerim eos in nationes et congregavero eos super terram suam et non dereliquerim quemquam ex eis ibi
 <sup>29</sup> et non abscondam ultra faciem meam ab eis eo quod effuderim spiritum meum super omnem domum Israhel ait Dominus Deus
+
 ## Chapter 40
 
 <sup>1</sup> in vicesimo et quinto anno transmigrationis nostrae in exordio anni decima mensis quartodecimo anno postquam percussa est civitas in ipsa hac die facta est super me manus Domini et adduxit me illuc
@@ -1140,6 +1181,7 @@
 <sup>47</sup> et mensus est atrium longitudine centum cubitorum et latitudine centum cubitorum per quadrum et altare ante faciem templi
 <sup>48</sup> et introduxit me in vestibulum templi et mensus est vestibulum quinque cubitis hinc et quinque cubitis inde et latitudinem portae trium cubitorum hinc et trium cubitorum inde
 <sup>49</sup> longitudinem autem vestibuli viginti cubitorum et latitudinem undecim cubitorum et octo gradibus ascendebatur ad eam et columnae erant in frontibus una hinc et altera inde
+
 ## Chapter 41
 
 <sup>1</sup> et introduxit me in templum et mensus est frontes sex cubitos latitudinis hinc et sex cubitos latitudinis inde latitudinem tabernaculi
@@ -1168,6 +1210,7 @@
 <sup>24</sup> et in duobus ostiis ex utraque parte bina erant ostiola quae in se invicem plicabantur bina enim ostia erant ex utraque parte ostiorum
 <sup>25</sup> et celata erant in ipsis ostiis templi cherubin et scalptura palmarum sicut in parietibus quoque expressa erat quam ob rem erant et grossiora ligna in vestibuli fronte forinsecus
 <sup>26</sup> super quae fenestrae obliquae et similitudo palmarum hinc atque inde in umerulis vestibuli secundum latera domus latitudinemque parietum
+
 ## Chapter 42
 
 <sup>1</sup> et eduxit me in atrium exterius per viam ducentem ad aquilonem et eduxit me in gazofilacium quod erat contra separatum aedificium et contra aedem vergentem ad aquilonem
@@ -1190,6 +1233,7 @@
 <sup>18</sup> et ad ventum australem mensus est quingentos calamos in calamo mensurae per circuitum
 <sup>19</sup> et ad ventum occidentalem mensus est quingentos calamos in calamo mensurae
 <sup>20</sup> per quattuor ventos mensus est illud murum eius undique per circuitum longitudine quingentorum cubitorum et latitudine quingentorum cubitorum dividentem inter sanctuarium et vulgi locum
+
 ## Chapter 43
 
 <sup>1</sup> et duxit me ad portam quae respiciebat ad viam orientalem
@@ -1219,6 +1263,7 @@
 <sup>25</sup> septem diebus facies hircum pro peccato cotidie et vitulum de armento et arietem de pecoribus inmaculatos offerent
 <sup>26</sup> septem diebus expiabunt altare et mundabunt illud et implebunt manum eius
 <sup>27</sup> expletis autem diebus in die octava et ultra facient sacerdotes super altare holocausta vestra et quae pro pace offerunt et placatus ero vobis ait Dominus Deus
+
 ## Chapter 44
 
 <sup>1</sup> et convertit me ad viam portae sanctuarii exterioris quae respiciebat ad orientem et erat clausa
@@ -1252,6 +1297,7 @@
 <sup>29</sup> victimam et pro peccato et pro delicto ipsi comedent et omne votum in Israhel ipsorum erit
 <sup>30</sup> et primitiva omnium primogenitorum et omnia libamenta ex omnibus quae offeruntur sacerdotum erunt et primitiva ciborum vestrorum dabitis sacerdoti ut reponat benedictionem domui suae
 <sup>31</sup> omne morticinum et captum a bestia de avibus et de pecoribus non comedent sacerdotes
+
 ## Chapter 45
 
 <sup>1</sup> cumque coeperitis terram dividere sortito separate primitias Domino sanctificatum de terra longitudine viginti quinque milia et latitudine decem milia sanctificatum erit in omni termino eius per circuitum
@@ -1279,6 +1325,7 @@
 <sup>23</sup> et in septem dierum sollemnitate faciet holocaustum Domino septem vitulos et septem arietes inmaculatos cotidie septem diebus et pro peccato hircum caprarum cotidie
 <sup>24</sup> et sacrificium oephi per vitulum et oephi per arietem faciet et olei hin per singula oephi
 <sup>25</sup> septimo mense quintadecima die mensis in sollemnitate faciet sicut supra dicta sunt per septem dies tam pro peccato quam pro holocausto et in sacrificio et in oleo
+
 ## Chapter 46
 
 <sup>1</sup> haec dicit Dominus Deus porta atrii interioris quae respicit ad orientem erit clausa sex diebus in quibus opus fit die autem sabbati aperietur sed et in die kalendarum aperietur
@@ -1305,6 +1352,7 @@
 <sup>22</sup> in quattuor angulos atrii atriola disposita quadraginta cubitorum per longum et triginta per latum mensurae unius quattuor erant
 <sup>23</sup> et paries per circuitum ambiens quattuor atriola et culinae fabricatae erant subter porticus per gyrum
 <sup>24</sup> et dixit ad me haec est domus culinarum in qua coquent ministri domus Domini victimas populi
+
 ## Chapter 47
 
 <sup>1</sup> et convertit me ad portam domus et ecce aquae egrediebantur subter limen domus ad orientem facies enim domus respiciebat ad orientem aquae autem descendebant in latus templi dextrum ad meridiem altaris
@@ -1330,6 +1378,7 @@
 <sup>21</sup> et dividetis terram istam vobis per tribus Israhel
 <sup>22</sup> et mittetis eam in hereditatem vobis et advenis qui accesserint ad vos qui genuerint filios in medio vestrum et erunt vobis sicut indigenae inter filios Israhel vobiscum divident possessionem in medio tribuum Israhel
 <sup>23</sup> in tribu autem quacumque fuerit advena ibi dabitis possessionem illi ait Dominus Deus
+
 ## Chapter 48
 
 <sup>1</sup> et haec nomina tribuum a finibus aquilonis iuxta viam Aethlon pergentibus Emath atrium Aenon terminus Damasci ad aquilonem iuxta Emath et erit ei plaga orientalis mare Dan una

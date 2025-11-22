@@ -29,6 +29,7 @@
 <sup>27</sup> to whom God did will to make known what is the riches of the glory of this secret among the nations-which is Christ in you, the hope of the glory,
 <sup>28</sup> whom we proclaim, warning every man, and teaching every man, in all wisdom, that we may present every man perfect in Christ Jesus,
 <sup>29</sup> for which also I labour, striving according to his working that is working in me in power.
+
 ## Chapter 2
 
 <sup>1</sup> For I wish you to know how great a conflict I have for you and those in Laodicea, and as many as have not seen my face in the flesh,
@@ -54,6 +55,7 @@
 <sup>21</sup> -thou mayest not touch, nor taste, nor handle-
 <sup>22</sup> which are all for destruction with the using, after the commands and teachings of men,
 <sup>23</sup> which are, indeed, having a matter of wisdom in will-worship, and humble-mindedness, and neglecting of body-not in any honour, unto a satisfying of the flesh.
+
 ## Chapter 3
 
 <sup>1</sup> If, then, ye were raised with the Christ, the things above seek ye, where the Christ is, on the right hand of God seated,
@@ -81,6 +83,7 @@
 <sup>23</sup> and all, whatever ye may do-out of soul work-as to the Lord, and not to men,
 <sup>24</sup> having known that from the Lord ye shall receive the recompense of the inheritance-for the Lord Christ ye serve;
 <sup>25</sup> and he who is doing unrighteously shall receive what he did unrighteously, and there is no acceptance of persons.
+
 ## Chapter 4
 
 <sup>1</sup> The masters! that which is righteous and equal to the servants give ye, having known that ye also have a Master in the heavens.

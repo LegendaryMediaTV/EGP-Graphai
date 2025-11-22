@@ -14,6 +14,7 @@
 <sup>12</sup> et velut amictum involves eos et mutabuntur tu autem idem es et anni tui non deficient
 <sup>13</sup> ad quem autem angelorum dixit aliquando sede a dextris meis quoadusque ponam inimicos tuos scabillum pedum tuorum
 <sup>14</sup> nonne omnes sunt administratorii spiritus in ministerium missi propter eos qui hereditatem capient salutis
+
 ## Chapter 2
 
 <sup>1</sup> propterea abundantius oportet observare nos ea quae audivimus ne forte pereffluamus
@@ -34,6 +35,7 @@
 <sup>16</sup> nusquam enim angelos adprehendit sed semen Abrahae adprehendit
 <sup>17</sup> unde debuit per omnia fratribus similare ut misericors fieret et fidelis pontifex ad Deum ut repropitiaret delicta populi
 <sup>18</sup> in eo enim in quo passus est ipse temptatus potens est eis qui temptantur auxiliari
+
 ## Chapter 3
 
 <sup>1</sup> unde fratres sancti vocationis caelestis participes considerate apostolum et pontificem confessionis nostrae Iesum
@@ -55,6 +57,7 @@
 <sup>17</sup> quibus autem infensus est quadraginta annos nonne illis qui peccaverunt quorum cadavera prostrata sunt in deserto
 <sup>18</sup> quibus autem iuravit non introire in requiem ipsius nisi illis qui increduli fuerunt
 <sup>19</sup> et videmus quia non potuerunt introire propter incredulitatem
+
 ## Chapter 4
 
 <sup>1</sup> timeamus ergo ne forte relicta pollicitatione introeundi in requiem eius existimetur aliqui ex vobis deesse
@@ -73,6 +76,7 @@
 <sup>14</sup> habentes ergo pontificem magnum qui penetraverit caelos Iesum Filium Dei teneamus confessionem
 <sup>15</sup> non enim habemus pontificem qui non possit conpati infirmitatibus nostris temptatum autem per omnia pro similitudine absque peccato
 <sup>16</sup> adeamus ergo cum fiducia ad thronum gratiae ut misericordiam consequamur et gratiam inveniamus in auxilio oportuno
+
 ## Chapter 5
 
 <sup>1</sup> omnis namque pontifex ex hominibus adsumptus pro hominibus constituitur in his quae sunt ad Deum ut offerat dona et sacrificia pro peccatis
@@ -89,6 +93,7 @@
 <sup>12</sup> etenim cum deberetis magistri esse propter tempus rursum indigetis ut vos doceamini quae sint elementa exordii sermonum Dei et facti estis quibus lacte opus sit non solido cibo
 <sup>13</sup> omnis enim qui lactis est particeps expers est sermonis iustitiae parvulus enim est
 <sup>14</sup> perfectorum autem est solidus cibus eorum qui pro consuetudine exercitatos habent sensus ad discretionem boni ac mali
+
 ## Chapter 6
 
 <sup>1</sup> quapropter intermittentes inchoationis Christi sermonem ad perfectionem feramur non rursum iacientes fundamentum paenitentiae ab operibus mortuis et fidei ad Deum
@@ -111,6 +116,7 @@
 <sup>18</sup> ut per duas res inmobiles quibus inpossibile est mentiri Deum fortissimum solacium habeamus qui confugimus ad tenendam propositam spem
 <sup>19</sup> quam sicut anchoram habemus animae tutam ac firmam et incedentem usque in interiora velaminis
 <sup>20</sup> ubi praecursor pro nobis introiit Iesus secundum ordinem Melchisedech pontifex factus in aeternum
+
 ## Chapter 7
 
 <sup>1</sup> hic enim Melchisedech rex Salem sacerdos Dei summi qui obviavit Abrahae regresso a caede regum et benedixit ei
@@ -141,6 +147,7 @@
 <sup>26</sup> talis enim decebat ut nobis esset pontifex sanctus innocens inpollutus segregatus a peccatoribus et excelsior caelis factus
 <sup>27</sup> qui non habet cotidie necessitatem quemadmodum sacerdotes prius pro suis delictis hostias offerre deinde pro populi hoc enim fecit semel se offerendo
 <sup>28</sup> lex enim homines constituit sacerdotes infirmitatem habentes sermo autem iurisiurandi qui post legem est Filium in aeternum perfectum
+
 ## Chapter 8
 
 <sup>1</sup> capitulum autem super ea quae dicuntur talem habemus pontificem qui consedit in dextera sedis Magnitudinis in caelis
@@ -156,6 +163,7 @@
 <sup>11</sup> et non docebit unusquisque proximum suum et unusquisque fratrem suum dicens cognosce Dominum quoniam omnes scient me a minore usque ad maiorem eorum
 <sup>12</sup> quia propitius ero iniquitatibus eorum et peccatorum illorum iam non memorabor
 <sup>13</sup> dicendo autem novum veteravit prius quod autem antiquatur et senescit prope interitum est
+
 ## Chapter 9
 
 <sup>1</sup> habuit quidem et prius iustificationes culturae et sanctum saeculare
@@ -186,6 +194,7 @@
 <sup>26</sup> alioquin oportebat eum frequenter pati ab origine mundi nunc autem semel in consummatione saeculorum ad destitutionem peccati per hostiam suam apparuit
 <sup>27</sup> et quemadmodum statutum est hominibus semel mori post hoc autem iudicium
 <sup>28</sup> sic et Christus semel oblatus ad multorum exhaurienda peccata secundo sine peccato apparebit expectantibus se in salutem
+
 ## Chapter 10
 
 <sup>1</sup> umbram enim habens lex bonorum futurorum non ipsam imaginem rerum per singulos annos hisdem ipsis hostiis quas offerunt indesinenter numquam potest accedentes perfectos facere
@@ -227,6 +236,7 @@
 <sup>37</sup> adhuc enim modicum quantulum qui venturus est veniet et non tardabit
 <sup>38</sup> iustus autem meus ex fide vivit quod si subtraxerit se non placebit animae meae
 <sup>39</sup> nos autem non sumus subtractionis in perditionem sed fidei in adquisitionem animae
+
 ## Chapter 11
 
 <sup>1</sup> est autem fides sperandorum substantia rerum argumentum non parentum
@@ -269,6 +279,7 @@
 <sup>38</sup> quibus dignus non erat mundus in solitudinibus errantes et montibus et speluncis et in cavernis terrae
 <sup>39</sup> et hii omnes testimonio fidei probati non acceperunt repromissionem
 <sup>40</sup> Deo pro nobis melius aliquid providente ut ne sine nobis consummarentur
+
 ## Chapter 12
 
 <sup>1</sup> ideoque et nos tantam habentes inpositam nubem testium deponentes omne pondus et circumstans nos peccatum per patientiam curramus propositum nobis certamen
@@ -300,6 +311,7 @@
 <sup>27</sup> quod autem adhuc semel dicit declarat mobilium translationem tamquam factorum ut maneant ea quae sunt inmobilia
 <sup>28</sup> itaque regnum inmobile suscipientes habemus gratiam per quam serviamus placentes Deo cum metu et reverentia
 <sup>29</sup> etenim Deus noster ignis consumens est
+
 ## Chapter 13
 
 <sup>1</sup> caritas fraternitatis maneat

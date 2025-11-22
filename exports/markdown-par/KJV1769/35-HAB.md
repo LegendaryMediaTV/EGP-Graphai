@@ -17,6 +17,7 @@
 <sup>15</sup> They take up all of them with the angle, they catch them in their net, and gather them in their drag: therefore they rejoice and are glad.
 <sup>16</sup> Therefore they sacrifice unto their net, and burn incense unto their drag; because by them their portion [is] fat, and their meat plenteous.
 <sup>17</sup> Shall they therefore empty their net, and not spare continually to slay the nations?
+
 ## Chapter 2
 
 <sup>1</sup> I will stand upon my watch, and set me upon the tower, and will watch to see what he will say unto me, and what I shall answer when I am reproved.
@@ -39,6 +40,7 @@
 <sup>18</sup> What profiteth the graven image that the maker thereof hath graven it; the molten image, and a teacher of lies, that the maker of his work trusteth therein, to make dumb idols?
 <sup>19</sup> Woe unto him that saith to the wood, Awake; to the dumb stone, Arise, it shall teach! Behold, it [is] laid over with gold and silver, and [there is] no breath at all in the midst of it.
 <sup>20</sup> But the LORD [is] in his holy temple: let all the earth keep silence before him.
+
 ## Chapter 3
 
 <sup>1</sup> A prayer of Habakkuk the prophet upon Shigionoth.
@@ -59,4 +61,4 @@
 <sup>16</sup> When I heard, my belly trembled; my lips quivered at the voice: rottenness entered into my bones, and I trembled in myself, that I might rest in the day of trouble: when he cometh up unto the people, he will invade them with his troops.
 <sup>17</sup> Although the fig tree shall not blossom, neither [shall] fruit [be] in the vines; the labour of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and [there shall be] no herd in the stalls:
 <sup>18</sup> Yet I will rejoice in the LORD, I will joy in the God of my salvation.
-<sup>19</sup> The LORD God [is] my strength, and he will make my feet like hinds ’ [feet], and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+<sup>19</sup> The LORD God [is] my strength, and he will make my feet like hinds’ [feet], and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.

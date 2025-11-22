@@ -18,6 +18,7 @@
 <sup>16</sup> And they answered Joshua, saying, All that thou hast commanded us we will do, and whithersoever thou sendest us we will go.
 <sup>17</sup> According as we hearkened unto Moses in all things, so will we hearken unto thee: only Jehovah thy God be with thee, as he was with Moses.
 <sup>18</sup> Whosoever he be that shall rebel against thy commandment, and shall not hearken unto thy words in all that thou commandest him, he shall be put to death: only be strong and of good courage.
+
 ## Chapter 2
 
 <sup>1</sup> And Joshua the son of Nun sent out of Shittim two men as spies secretly, saying, Go, view the land, and Jericho. And they went and came into the house of a harlot whose name was Rahab, and lay there.
@@ -44,6 +45,7 @@
 <sup>22</sup> And they went, and came unto the mountain, and abode there three days, until the pursuers were returned: and the pursuers sought them throughout all the way, but found them not.
 <sup>23</sup> Then the two men returned, and descended from the mountain, and passed over, and came to Joshua the son of Nun; and they told him all that had befallen them.
 <sup>24</sup> And they said unto Joshua, Truly Jehovah hath delivered into our hands all the land; and moreover all the inhabitants of the land do melt away before us.
+
 ## Chapter 3
 
 <sup>1</sup> And Joshua rose up early in the morning; and they removed from Shittim, and came to the Jordan, he and all the children of Israel; and they lodged there before they passed over.
@@ -63,6 +65,7 @@
 <sup>15</sup> and when they that bare the ark were come unto the Jordan, and the feet of the priests that bare the ark were dipped in the brink of the water (for the Jordan overfloweth all its banks all the time of harvest,)
 <sup>16</sup> that the waters which came down from above stood, and rose up in one heap, a great way off, at Adam, the city that is beside Zarethan; and those that went down toward the sea of the Arabah, even the Salt Sea, were wholly cut off: and the people passed over right against Jericho.
 <sup>17</sup> And the priests that bare the ark of the covenant of Jehovah stood firm on dry ground in the midst of the Jordan; and all Israel passed over on dry ground, until all the nation were passed clean over the Jordan.
+
 ## Chapter 4
 
 <sup>1</sup> And it came to pass, when all the nation were clean passed over the Jordan, that Jehovah spake unto Joshua, saying,
@@ -89,6 +92,7 @@
 <sup>22</sup> Then ye shall let your children know, saying, Israel came over this Jordan on dry land.
 <sup>23</sup> For Jehovah your God dried up the waters of the Jordan from before you, until ye were passed over, as Jehovah your God did to the Red Sea, which he dried up from before us, until we were passed over;
 <sup>24</sup> that all the peoples of the earth may know the hand of Jehovah, that it is mighty; that ye may fear Jehovah your God for ever.
+
 ## Chapter 5
 
 <sup>1</sup> And it came to pass, when all the kings of the Amorites, that were beyond the Jordan westward, and all the kings of the Canaanites, that were by the sea, heard how that Jehovah had dried up the waters of the Jordan from before the children of Israel, until we were passed over, that their heart melted, neither was there spirit in them any more, because of the children of Israel.
@@ -106,6 +110,7 @@
 <sup>13</sup> And it came to pass, when Joshua was by Jericho, that he lifted up his eyes and looked, and, behold, there stood a man over against him with his sword drawn in his hand: and Joshua went unto him, and said unto him, Art thou for us, or for our adversaries?
 <sup>14</sup> And he said, Nay; but as prince of the host of Jehovah am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?
 <sup>15</sup> And the prince of Jehovah’s host said unto Joshua, Put off thy shoe from off thy foot; for the place whereon thou standest is holy. And Joshua did so.
+
 ## Chapter 6
 
 <sup>1</sup> Now Jericho was straitly shut up because of the children of Israel: none went out, and none came in.
@@ -135,6 +140,7 @@
 <sup>25</sup> But Rahab the harlot, and her father’s household, and all that she had, did Joshua save alive; and she dwelt in the midst of Israel unto this day, because she hid the messengers, whom Joshua sent to spy out Jericho.
 <sup>26</sup> And Joshua charged them with an oath at that time, saying, Cursed be the man before Jehovah, that riseth up and buildeth this city Jericho: with the loss of his first-born shall he lay the foundation thereof, and with the loss of his youngest son shall he set up the gates of it.
 <sup>27</sup> So Jehovah was with Joshua; and his fame was in all the land.
+
 ## Chapter 7
 
 <sup>1</sup> But the children of Israel committed a trespass in the devoted thing; for Achan, the son of Carmi, the son of Zabdi, the son of Zerah, of the tribe of Judah, took of the devoted thing: and the anger of Jehovah was kindled against the children of Israel.
@@ -163,6 +169,7 @@
 <sup>24</sup> And Joshua, and all Israel with him, took Achan the son of Zerah, and the silver, and the mantle, and the wedge of gold, and his sons, and his daughters, and his oxen, and his asses, and his sheep, and his tent, and all that he had: and they brought them up unto the valley of Achor.
 <sup>25</sup> And Joshua said, Why hast thou troubled us? Jehovah shall trouble thee this day. And all Israel stoned him with stones; and they burned them with fire, and stoned them with stones.
 <sup>26</sup> And they raised over him a great heap of stones, unto this day; and Jehovah turned from the fierceness of his anger. Wherefore the name of that place was called, The valley of Achor, unto this day.
+
 ## Chapter 8
 
 <sup>1</sup> And Jehovah said unto Joshua, Fear not, neither be thou dismayed: take all the people of war with thee, and arise, go up to Ai; see, I have given into thy hand the king of Ai, and his people, and his city, and his land;
@@ -200,6 +207,7 @@
 <sup>33</sup> And all Israel, and their elders and officers, and their judges, stood on this side of the ark and on that side before the priests the Levites, that bare the ark of the covenant of Jehovah, as well the sojourner as the homeborn; half of them in front of mount Gerizim, and half of them in front of mount Ebal; as Moses the servant of Jehovah had commanded at the first, that they should bless the people of Israel.
 <sup>34</sup> And afterward he read all the words of the law, the blessing and the curse, according to all that is written in the book of the law.
 <sup>35</sup> There was not a word of all that Moses commanded, which Joshua read not before all the assembly of Israel, and the women, and the little ones, and the sojourners that were among them.
+
 ## Chapter 9
 
 <sup>1</sup> And it came to pass, when all the kings that were beyond the Jordan, in the hill-country, and in the lowland, and on all the shore of the great sea in front of Lebanon, the Hittite, and the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite, heard thereof;
@@ -229,6 +237,7 @@
 <sup>25</sup> And now, behold, we are in thy hand: as it seemeth good and right unto thee to do unto us, do.
 <sup>26</sup> And so did he unto them, and delivered them out of the hand of the children of Israel, that they slew them not.
 <sup>27</sup> And Joshua made them that day hewers of wood and drawers of water for the congregation, and for the altar of Jehovah, unto this day, in the place which he should choose.
+
 ## Chapter 10
 
 <sup>1</sup> Now it came to pass, when Adoni-zedek king of Jerusalem heard how Joshua had taken Ai, and had utterly destroyed it; as he had done to Jericho and her king, so he had done to Ai and her king; and how the inhabitants of Gibeon had made peace with Israel, and were among them;
@@ -274,6 +283,7 @@
 <sup>41</sup> And Joshua smote them from Kadesh-barnea even unto Gaza, and all the country of Goshen, even unto Gibeon.
 <sup>42</sup> And all these kings and their land did Joshua take at one time, because Jehovah, the God of Israel, fought for Israel.
 <sup>43</sup> And Joshua returned, and all Israel with him, unto the camp to Gilgal.
+
 ## Chapter 11
 
 <sup>1</sup> And it came to pass, when Jabin king of Hazor heard thereof, that he sent to Jobab king of Madon, and to the king of Shimron, and to the king of Achshaph,
@@ -299,6 +309,7 @@
 <sup>21</sup> And Joshua came at that time, and cut off the Anakim from the hill-country, from Hebron, from Debir, from Anab, and from all the hill-country of Judah, and from all the hill-country of Israel: Joshua utterly destroyed them with their cities.
 <sup>22</sup> There was none of the Anakim left in the land of the children of Israel: only in Gaza, in Gath, and in Ashdod, did some remain.
 <sup>23</sup> So Joshua took the whole land, according to all that Jehovah spake unto Moses; and Joshua gave it for an inheritance unto Israel according to their divisions by their tribes. And the land had rest from war.
+
 ## Chapter 12
 
 <sup>1</sup> Now these are the kings of the land, whom the children of Israel smote, and possessed their land beyond the Jordan toward the sunrising, from the valley of the Arnon unto mount Hermon, and all the Arabah eastward:
@@ -325,6 +336,7 @@
 <sup>22</sup> the king of Kedesh, one; the king of Jokneam in Carmel, one;
 <sup>23</sup> the king of Dor in the height of Dor, one; the king of Goiim in Gilgal, one;
 <sup>24</sup> the king of Tirzah, one: all the kings thirty and one.
+
 ## Chapter 13
 
 <sup>1</sup> Now Joshua was old and well stricken in years; and Jehovah said unto him, Thou art old and well stricken in years, and there remaineth yet very much land to be possessed.
@@ -360,6 +372,7 @@
 <sup>31</sup> and half Gilead, and Ashtaroth, and Edrei, the cities of the kingdom of Og in Bashan, were for the children of Machir the son of Manasseh, even for the half of the children of Machir according to their families.
 <sup>32</sup> These are the inheritances which Moses distributed in the plains of Moab, beyond the Jordan at Jericho, eastward.
 <sup>33</sup> But unto the tribe of Levi Moses gave no inheritance: Jehovah, the God of Israel, is their inheritance, as he spake unto them.
+
 ## Chapter 14
 
 <sup>1</sup> And these are the inheritances which the children of Israel took in the land of Canaan, which Eleazar the priest, and Joshua the son of Nun, and the heads of the fathers’ houses of the tribes of the children of Israel, distributed unto them,
@@ -377,6 +390,7 @@
 <sup>13</sup> And Joshua blessed him; and he gave Hebron unto Caleb the son of Jephunneh for an inheritance.
 <sup>14</sup> Therefore Hebron became the inheritance of Caleb the son of Jephunneh the Kenizzite unto this day; because that he wholly followed Jehovah, the God of Israel.
 <sup>15</sup> Now the name of Hebron beforetime was Kiriath-arba; which Arba was the greatest man among the Anakim. And the land had rest from war.
+
 ## Chapter 15
 
 <sup>1</sup> And the lot for the tribe of the children of Judah according to their families was unto the border of Edom, even to the wilderness of Zin southward, at the uttermost part of the south.
@@ -442,6 +456,7 @@
 <sup>61</sup> In the wilderness, Beth-arabah, Middin, and Secacah,
 <sup>62</sup> and Nibshan, and the City of Salt, and En-gedi; six cities with their villages.
 <sup>63</sup> And as for the Jebusites, the inhabitants of Jerusalem, the children of Judah could not drive them out: but the Jebusites dwell with the children of Judah at Jerusalem unto this day.
+
 ## Chapter 16
 
 <sup>1</sup> And the lot came out for the children of Joseph from the Jordan at Jericho, at the waters of Jericho on the east, even the wilderness, going up from Jericho through the hill-country to Beth-el;
@@ -454,6 +469,7 @@
 <sup>8</sup> From Tappuah the border went along westward to the brook of Kanah; and the goings out thereof were at the sea. This is the inheritance of the tribe of the children of Ephraim according to their families;
 <sup>9</sup> together with the cities which were set apart for the children of Ephraim in the midst of the inheritance of the children of Manasseh, all the cities with their villages.
 <sup>10</sup> And they drove not out the Canaanites that dwelt in Gezer: but the Canaanites dwell in the midst of Ephraim unto this day, and are become servants to do taskwork.
+
 ## Chapter 17
 
 <sup>1</sup> And this was the lot for the tribe of Manasseh; for he was the first-born of Joseph. As for Machir the first-born of Manasseh, the father of Gilead, because he was a man of war, therefore he had Gilead and Bashan.
@@ -474,6 +490,7 @@
 <sup>16</sup> And the children of Joseph said, The hill-country is not enough for us: and all the Canaanites that dwell in the land of the valley have chariots of iron, both they who are in Beth-shean and its towns, and they who are in the valley of Jezreel.
 <sup>17</sup> And Joshua spake unto the house of Joseph, even to Ephraim and to Manasseh, saying, Thou art a great people, and hast great power; thou shalt not have one lot only:
 <sup>18</sup> but the hill-country shall be thine; for though it is a forest, thou shalt cut it down, and the goings out thereof shall be thine; for thou shalt drive out the Canaanites, though they have chariots of iron, and though they are strong.
+
 ## Chapter 18
 
 <sup>1</sup> And the whole congregation of the children of Israel assembled themselves together at Shiloh, and set up the tent of meeting there: and the land was subdued before them.
@@ -504,6 +521,7 @@
 <sup>26</sup> and Mizpeh, and Chephirah, and Mozah,
 <sup>27</sup> and Rekem, and Irpeel, and Taralah,
 <sup>28</sup> and Zelah, Eleph, and the Jebusite (the same is Jerusalem), Gibeath, and Kiriath; fourteen cities with their villages. This is the inheritance of the children of Benjamin according to their families.
+
 ## Chapter 19
 
 <sup>1</sup> And the second lot came out for Simeon, even for the tribe of the children of Simeon according to their families: and their inheritance was in the midst of the inheritance of the children of Judah.
@@ -557,6 +575,7 @@
 <sup>49</sup> So they made an end of distributing the land for inheritance by the borders thereof; and the children of Israel gave an inheritance to Joshua the son of Nun in the midst of them:
 <sup>50</sup> according to the commandment of Jehovah they gave him the city which he asked, even Timnath-serah in the hill-country of Ephraim; and he built the city, and dwelt therein.
 <sup>51</sup> These are the inheritances, which Eleazar the priest, and Joshua the son of Nun, and the heads of the fathers’ houses of the tribes of the children of Israel, distributed for inheritance by lot in Shiloh before Jehovah, at the door of the tent of meeting. So they made an end of dividing the land.
+
 ## Chapter 20
 
 <sup>1</sup> And Jehovah spake unto Joshua, saying,
@@ -568,6 +587,7 @@
 <sup>7</sup> And they set apart Kedesh in Galilee in the hill-country of Naphtali, and Shechem in the hill-country of Ephraim, and Kiriath-arba (the same is Hebron) in the hill-country of Judah.
 <sup>8</sup> And beyond the Jordan at Jericho eastward, they assigned Bezer in the wilderness in the plain out of the tribe of Reuben, and Ramoth in Gilead out of the tribe of Gad, and Golan in Bashan out of the tribe of Manasseh.
 <sup>9</sup> These were the appointed cities for all the children of Israel, and for the stranger that sojourneth among them, that whosoever killeth any person unwittingly might flee thither, and not die by the hand of the avenger of blood, until he stood before the congregation.
+
 ## Chapter 21
 
 <sup>1</sup> Then came near the heads of fathers’ houses of the Levites unto Eleazar the priest, and unto Joshua the son of Nun, and unto the heads of fathers’ houses of the tribes of the children of Israel;
@@ -615,6 +635,7 @@
 <sup>43</sup> So Jehovah gave unto Israel all the land which he sware to give unto their fathers; and they possessed it, and dwelt therein.
 <sup>44</sup> And Jehovah gave them rest round about, according to all that he sware unto their fathers: and there stood not a man of all their enemies before them; Jehovah delivered all their enemies into their hand.
 <sup>45</sup> There failed not aught of any good thing which Jehovah had spoken unto the house of Israel; all came to pass.
+
 ## Chapter 22
 
 <sup>1</sup> Then Joshua called the Reubenites, and the Gadites, and the half-tribe of Manasseh,
@@ -651,6 +672,7 @@
 <sup>32</sup> And Phinehas the son of Eleazar the priest, and the princes, returned from the children of Reuben, and from the children of Gad, out of the land of Gilead, unto the land of Canaan, to the children of Israel, and brought them word again.
 <sup>33</sup> And the thing pleased the children of Israel; and the children of Israel blessed God, and spake no more of going up against them to war, to destroy the land wherein the children of Reuben and the children of Gad dwelt.
 <sup>34</sup> And the children of Reuben and the children of Gad called the altar Ed: For, said they, it is a witness between us that Jehovah is God.
+
 ## Chapter 23
 
 <sup>1</sup> And it came to pass after many days, when Jehovah had given rest unto Israel from all their enemies round about, and Joshua was old and well stricken in years;
@@ -669,6 +691,7 @@
 <sup>14</sup> And, behold, this day I am going the way of all the earth: and ye know in all your hearts and in all your souls, that not one thing hath failed of all the good things which Jehovah your God spake concerning you; all are come to pass unto you, not one thing hath failed thereof.
 <sup>15</sup> And it shall come to pass, that as all the good things are come upon you of which Jehovah your God spake unto you, so will Jehovah bring upon you all the evil things, until he have destroyed you from off this good land which Jehovah your God hath given you.
 <sup>16</sup> When ye transgress the covenant of Jehovah your God, which he commanded you, and go and serve other gods, and bow down yourselves to them; then will the anger of Jehovah be kindled against you, and ye shall perish quickly from off the good land which he hath given unto you.
+
 ## Chapter 24
 
 <sup>1</sup> And Joshua gathered all the tribes of Israel to Shechem, and called for the elders of Israel, and for their heads, and for their judges, and for their officers; and they presented themselves before God.

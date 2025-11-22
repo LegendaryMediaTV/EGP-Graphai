@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Jude,",
         "foot": {
           "type": "trn",
           "content": "or, Judah"
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " a servant of Jesus Christ,",
@@ -33,8 +33,8 @@
     "chapter": 1,
     "verse": 3,
     "content": {
-      "text": "Beloved, while I was very eager to write to you about our common salvation, I was constrained to write to you exhorting you to contend earnestly for the faith which was once for all delivered to the saints.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beloved, while I was very eager to write to you about our common salvation, I was constrained to write to you exhorting you to contend earnestly for the faith which was once for all delivered to the saints."
     }
   },
   {
@@ -48,8 +48,8 @@
     "chapter": 1,
     "verse": 5,
     "content": {
-      "text": "Now I desire to remind you, though you already know this, that the Lord, having saved a people out of the land of Egypt, afterward destroyed those who didn’t believe.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now I desire to remind you, though you already know this, that the Lord, having saved a people out of the land of Egypt, afterward destroyed those who didn’t believe."
     }
   },
   {
@@ -139,8 +139,8 @@
     "chapter": 1,
     "verse": 17,
     "content": {
-      "text": "But you, beloved, remember the words which have been spoken before by the apostles of our Lord Jesus Christ.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But you, beloved, remember the words which have been spoken before by the apostles of our Lord Jesus Christ."
     }
   },
   {
@@ -160,8 +160,8 @@
     "chapter": 1,
     "verse": 20,
     "content": {
-      "text": "But you, beloved, keep building up yourselves on your most holy faith, praying in the Holy Spirit.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But you, beloved, keep building up yourselves on your most holy faith, praying in the Holy Spirit."
     }
   },
   {
@@ -188,12 +188,12 @@
     "verse": 24,
     "content": [
       {
+        "paragraph": true,
         "text": "Now to him who is able to keep them",
         "foot": {
           "type": "stu",
           "content": "TR and NU read “you”"
-        },
-        "paragraph": true
+        }
       },
       " from stumbling, and to present you faultless before the presence of his glory in great joy,"
     ]

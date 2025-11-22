@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "locutusque est Dominus ad Mosen in deserto Sinai in tabernaculo foederis prima die mensis secundi anno altero egressionis eorum ex Aegypto dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutusque est Dominus ad Mosen in deserto Sinai in tabernaculo foederis prima die mensis secundi anno altero egressionis eorum ex Aegypto dicens"
     }
   },
   {
@@ -331,8 +331,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "locutusque est Dominus ad Mosen et Aaron dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutusque est Dominus ad Mosen et Aaron dicens"
     }
   },
   {
@@ -538,8 +538,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "haec sunt generationes Aaron et Mosi in die qua locutus est Dominus ad Mosen in monte Sinai",
-      "paragraph": true
+      "paragraph": true,
+      "text": "haec sunt generationes Aaron et Mosi in die qua locutus est Dominus ad Mosen in monte Sinai"
     }
   },
   {
@@ -847,8 +847,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "locutusque est Dominus ad Mosen et Aaron dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutusque est Dominus ad Mosen et Aaron dicens"
     }
   },
   {
@@ -1144,8 +1144,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "locutusque est Dominus ad Mosen dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutusque est Dominus ad Mosen dicens"
     }
   },
   {
@@ -1333,8 +1333,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "locutus est Dominus ad Mosen dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutus est Dominus ad Mosen dicens"
     }
   },
   {
@@ -1498,8 +1498,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "factum est autem in die qua conplevit Moses tabernaculum et erexit illud unxitque et sanctificavit cum omnibus vasis suis altare similiter et vasa eius",
-      "paragraph": true
+      "paragraph": true,
+      "text": "factum est autem in die qua conplevit Moses tabernaculum et erexit illud unxitque et sanctificavit cum omnibus vasis suis altare similiter et vasa eius"
     }
   },
   {
@@ -2035,8 +2035,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "locutus est Dominus ad Mosen dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutus est Dominus ad Mosen dicens"
     }
   },
   {
@@ -2194,8 +2194,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "locutus est Dominus ad Mosen in deserto Sinai anno secundo postquam egressi sunt de terra Aegypti mense primo dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutus est Dominus ad Mosen in deserto Sinai anno secundo postquam egressi sunt de terra Aegypti mense primo dicens"
     }
   },
   {
@@ -2335,8 +2335,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "locutus est Dominus ad Mosen dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutus est Dominus ad Mosen dicens"
     }
   },
   {
@@ -2554,8 +2554,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "interea ortum est murmur populi quasi dolentium pro labore contra Dominum quod cum audisset iratus est et accensus in eos ignis Domini devoravit extremam castrorum partem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "interea ortum est murmur populi quasi dolentium pro labore contra Dominum quod cum audisset iratus est et accensus in eos ignis Domini devoravit extremam castrorum partem"
     }
   },
   {
@@ -2760,15 +2760,23 @@
     "book": "NUM",
     "chapter": 11,
     "verse": 35,
-    "content": "(11-34) egressi autem de sepulchris Concupiscentiae venerunt in Aseroth et manserunt ibi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 11:34."
+        }
+      },
+      "egressi autem de sepulchris Concupiscentiae venerunt in Aseroth et manserunt ibi"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "locutaque est Maria et Aaron contra Mosen propter uxorem eius aethiopissam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutaque est Maria et Aaron contra Mosen propter uxorem eius aethiopissam"
     }
   },
   {
@@ -2859,216 +2867,486 @@
     "book": "NUM",
     "chapter": 12,
     "verse": 16,
-    "content": "(13-1) profectus est de Aseroth fixis tentoriis in deserto Pharan"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:1."
+        }
+      },
+      "profectus est de Aseroth fixis tentoriis in deserto Pharan"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "text": "(13-2) ibi locutus est Dominus ad Mosen dicens",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:2."
+        }
+      },
+      "ibi locutus est Dominus ad Mosen dicens"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 2,
-    "content": "(13-3) mitte viros qui considerent terram Chanaan quam daturus sum filiis Israhel singulos de singulis tribubus ex principibus"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:3."
+        }
+      },
+      "mitte viros qui considerent terram Chanaan quam daturus sum filiis Israhel singulos de singulis tribubus ex principibus"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 3,
-    "content": "(13-4) fecit Moses quod Dominus imperarat de deserto Pharan mittens principes viros quorum ista sunt nomina"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:4."
+        }
+      },
+      "fecit Moses quod Dominus imperarat de deserto Pharan mittens principes viros quorum ista sunt nomina"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 4,
-    "content": "(13-5) de tribu Ruben Semmua filium Zecchur"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:5."
+        }
+      },
+      "de tribu Ruben Semmua filium Zecchur"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 5,
-    "content": "(13-6) de tribu Symeon Saphat filium Huri"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:6."
+        }
+      },
+      "de tribu Symeon Saphat filium Huri"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 6,
-    "content": "(13-7) de tribu Iuda Chaleb filium Iepphonne"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:7."
+        }
+      },
+      "de tribu Iuda Chaleb filium Iepphonne"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 7,
-    "content": "(13-8) de tribu Isachar Igal filium Ioseph"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:8."
+        }
+      },
+      "de tribu Isachar Igal filium Ioseph"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 8,
-    "content": "(13-9) de tribu Ephraim Osee filium Nun"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:9."
+        }
+      },
+      "de tribu Ephraim Osee filium Nun"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 9,
-    "content": "(13-10) de tribu Beniamin Phalti filium Raphu"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:10."
+        }
+      },
+      "de tribu Beniamin Phalti filium Raphu"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 10,
-    "content": "(13-11) de tribu Zabulon Geddihel filium Sodi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:11."
+        }
+      },
+      "de tribu Zabulon Geddihel filium Sodi"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 11,
-    "content": "(13-12) de tribu Ioseph sceptri Manasse Gaddi filium Susi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:12."
+        }
+      },
+      "de tribu Ioseph sceptri Manasse Gaddi filium Susi"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 12,
-    "content": "(13-13) de tribu Dan Ammihel filium Gemalli"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:13."
+        }
+      },
+      "de tribu Dan Ammihel filium Gemalli"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 13,
-    "content": "(13-14) de tribu Aser Sthur filium Michahel"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:14."
+        }
+      },
+      "de tribu Aser Sthur filium Michahel"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 14,
-    "content": "(13-15) de tribu Nepthali Naabbi filium Vaphsi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:15."
+        }
+      },
+      "de tribu Nepthali Naabbi filium Vaphsi"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 15,
-    "content": "(13-16) de tribu Gad Guhel filium Machi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:16."
+        }
+      },
+      "de tribu Gad Guhel filium Machi"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 16,
-    "content": "(13-17) haec sunt nomina virorum quos misit Moses ad considerandam terram vocavitque Osee filium Nun Iosue"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:17."
+        }
+      },
+      "haec sunt nomina virorum quos misit Moses ad considerandam terram vocavitque Osee filium Nun Iosue"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 17,
-    "content": "(13-18) misit ergo eos Moses ad considerandam terram Chanaan et dixit ad eos ascendite per meridianam plagam cumque veneritis ad montes"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:18."
+        }
+      },
+      "misit ergo eos Moses ad considerandam terram Chanaan et dixit ad eos ascendite per meridianam plagam cumque veneritis ad montes"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 18,
-    "content": "(13-19) considerate terram qualis sit et populum qui habitator est eius utrum fortis sit an infirmus pauci numero an plures"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:19."
+        }
+      },
+      "considerate terram qualis sit et populum qui habitator est eius utrum fortis sit an infirmus pauci numero an plures"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 19,
-    "content": "(13-20) ipsa terra bona an mala urbes quales muratae an absque muris"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:20."
+        }
+      },
+      "ipsa terra bona an mala urbes quales muratae an absque muris"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 20,
-    "content": "(13-21) humus pinguis an sterilis nemorosa an absque arboribus confortamini et adferte nobis de fructibus terrae erat autem tempus quando iam praecoquae uvae vesci possunt"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:21."
+        }
+      },
+      "humus pinguis an sterilis nemorosa an absque arboribus confortamini et adferte nobis de fructibus terrae erat autem tempus quando iam praecoquae uvae vesci possunt"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 21,
-    "content": "(13-22) cumque ascendissent exploraverunt terram a deserto Sin usque Roob intrantibus Emath"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:22."
+        }
+      },
+      "cumque ascendissent exploraverunt terram a deserto Sin usque Roob intrantibus Emath"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 22,
-    "content": "(13-23) ascenderuntque ad meridiem et venerunt in Hebron ubi erant Ahiman et Sisai et Tholmai filii Enach nam Hebron septem annis ante Tanim urbem Aegypti condita est"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:23."
+        }
+      },
+      "ascenderuntque ad meridiem et venerunt in Hebron ubi erant Ahiman et Sisai et Tholmai filii Enach nam Hebron septem annis ante Tanim urbem Aegypti condita est"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 23,
-    "content": "(13-24) pergentesque usque ad torrentem Botri absciderunt palmitem cum uva sua quem portaverunt in vecte duo viri de malis quoque granatis et de ficis loci illius tulerunt"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:24."
+        }
+      },
+      "pergentesque usque ad torrentem Botri absciderunt palmitem cum uva sua quem portaverunt in vecte duo viri de malis quoque granatis et de ficis loci illius tulerunt"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 24,
-    "content": "(13-25) qui appellatus est Neelescol id est torrens Botri eo quod botrum inde portassent filii Israhel"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:25."
+        }
+      },
+      "qui appellatus est Neelescol id est torrens Botri eo quod botrum inde portassent filii Israhel"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 25,
-    "content": "(13-26) reversique exploratores terrae post quadraginta dies omni regione circuita"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:26."
+        }
+      },
+      "reversique exploratores terrae post quadraginta dies omni regione circuita"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 26,
-    "content": "(13-27) venerunt ad Mosen et Aaron et ad omnem coetum filiorum Israhel in desertum Pharan quod est in Cades locutique eis et omni multitudini ostenderunt fructus terrae"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:27."
+        }
+      },
+      "venerunt ad Mosen et Aaron et ad omnem coetum filiorum Israhel in desertum Pharan quod est in Cades locutique eis et omni multitudini ostenderunt fructus terrae"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 27,
-    "content": "(13-28) et narraverunt dicentes venimus in terram ad quam misisti nos quae re vera fluit lacte et melle ut ex his fructibus cognosci potest"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:28."
+        }
+      },
+      "et narraverunt dicentes venimus in terram ad quam misisti nos quae re vera fluit lacte et melle ut ex his fructibus cognosci potest"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 28,
-    "content": "(13-29) sed cultores fortissimos habet et urbes grandes atque muratas stirpem Enach vidimus ibi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:29."
+        }
+      },
+      "sed cultores fortissimos habet et urbes grandes atque muratas stirpem Enach vidimus ibi"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 29,
-    "content": "(13-30) Amalech habitat in meridie Hettheus et Iebuseus et Amorreus in montanis Chananeus vero moratur iuxta mare et circa fluenta Iordanis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:30."
+        }
+      },
+      "Amalech habitat in meridie Hettheus et Iebuseus et Amorreus in montanis Chananeus vero moratur iuxta mare et circa fluenta Iordanis"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 30,
-    "content": "(13-31) inter haec Chaleb conpescens murmur populi qui oriebatur contra Mosen ait ascendamus et possideamus terram quoniam poterimus obtinere eam"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:31."
+        }
+      },
+      "inter haec Chaleb conpescens murmur populi qui oriebatur contra Mosen ait ascendamus et possideamus terram quoniam poterimus obtinere eam"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 31,
-    "content": "(13-32) alii vero qui fuerant cum eo dicebant nequaquam ad hunc populum valemus ascendere quia fortior nobis est"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:32."
+        }
+      },
+      "alii vero qui fuerant cum eo dicebant nequaquam ad hunc populum valemus ascendere quia fortior nobis est"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 32,
-    "content": "(13-33) detraxeruntque terrae quam inspexerant apud filios Israhel dicentes terram quam lustravimus devorat habitatores suos populum quem aspeximus procerae staturae est"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:33."
+        }
+      },
+      "detraxeruntque terrae quam inspexerant apud filios Israhel dicentes terram quam lustravimus devorat habitatores suos populum quem aspeximus procerae staturae est"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 13,
     "verse": 33,
-    "content": "(13-34) ibi vidimus monstra quaedam filiorum Enach de genere giganteo quibus conparati quasi lucustae videbamur"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:34."
+        }
+      },
+      "ibi vidimus monstra quaedam filiorum Enach de genere giganteo quibus conparati quasi lucustae videbamur"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "igitur vociferans omnis turba flevit nocte illa",
-      "paragraph": true
+      "paragraph": true,
+      "text": "igitur vociferans omnis turba flevit nocte illa"
     }
   },
   {
@@ -3340,8 +3618,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "locutus est Dominus ad Mosen dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutus est Dominus ad Mosen dicens"
     }
   },
   {
@@ -3589,8 +3867,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "ecce autem Core filius Isaar filii Caath filii Levi et Dathan atque Abiram filii Heliab Hon quoque filius Pheleth de filiis Ruben",
-      "paragraph": true
+      "paragraph": true,
+      "text": "ecce autem Core filius Isaar filii Caath filii Levi et Dathan atque Abiram filii Heliab Hon quoque filius Pheleth de filiis Ruben"
     }
   },
   {
@@ -3892,8 +4170,8 @@
     "chapter": 17,
     "verse": 1,
     "content": {
-      "text": "et locutus est Dominus ad Mosen dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "et locutus est Dominus ad Mosen dicens"
     }
   },
   {
@@ -3973,8 +4251,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "dixitque Dominus ad Aaron tu et filii tui et domus patris tui tecum portabitis iniquitatem sanctuarii et tu et filii tui simul sustinebitis peccata sacerdotii vestri",
-      "paragraph": true
+      "paragraph": true,
+      "text": "dixitque Dominus ad Aaron tu et filii tui et domus patris tui tecum portabitis iniquitatem sanctuarii et tu et filii tui simul sustinebitis peccata sacerdotii vestri"
     }
   },
   {
@@ -4168,8 +4446,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "locutusque est Dominus ad Mosen et Aaron dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutusque est Dominus ad Mosen et Aaron dicens"
     }
   },
   {
@@ -4303,8 +4581,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "veneruntque filii Israhel et omnis multitudo in desertum Sin mense primo et mansit populus in Cades mortuaque est ibi Maria et sepulta in eodem loco",
-      "paragraph": true
+      "paragraph": true,
+      "text": "veneruntque filii Israhel et omnis multitudo in desertum Sin mense primo et mansit populus in Cades mortuaque est ibi Maria et sepulta in eodem loco"
     }
   },
   {
@@ -4467,21 +4745,38 @@
     "book": "NUM",
     "chapter": 20,
     "verse": 28,
-    "content": "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius (20-29) illo mortuo in montis supercilio descendit cum Eleazaro"
+    "content": [
+      {
+        "text": "cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 20:29."
+        }
+      },
+      "illo mortuo in montis supercilio descendit cum Eleazaro"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 20,
     "verse": 29,
-    "content": "(20-30) omnis autem multitudo videns occubuisse Aaron flevit super eo triginta diebus per cunctas familias suas"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 20:30."
+        }
+      },
+      "omnis autem multitudo videns occubuisse Aaron flevit super eo triginta diebus per cunctas familias suas"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "quod cum audisset Chananeus rex Arad qui habitabat ad meridiem venisse scilicet Israhel per exploratorum viam pugnavit contra illum et victor existens duxit ex eo praedam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "quod cum audisset Chananeus rex Arad qui habitabat ad meridiem venisse scilicet Israhel per exploratorum viam pugnavit contra illum et victor existens duxit ex eo praedam"
     }
   },
   {
@@ -4693,8 +4988,8 @@
     "chapter": 22,
     "verse": 1,
     "content": {
-      "text": "profectique castrametati sunt in campestribus Moab ubi trans Iordanem Hierichus sita est",
-      "paragraph": true
+      "paragraph": true,
+      "text": "profectique castrametati sunt in campestribus Moab ubi trans Iordanem Hierichus sita est"
     }
   },
   {
@@ -4942,8 +5237,8 @@
     "chapter": 23,
     "verse": 1,
     "content": {
-      "text": "dixitque Balaam ad Balac aedifica mihi hic septem aras et para totidem vitulos eiusdemque numeri arietes",
-      "paragraph": true
+      "paragraph": true,
+      "text": "dixitque Balaam ad Balac aedifica mihi hic septem aras et para totidem vitulos eiusdemque numeri arietes"
     }
   },
   {
@@ -5125,8 +5420,8 @@
     "chapter": 24,
     "verse": 1,
     "content": {
-      "text": "cumque vidisset Balaam quod placeret Domino ut benediceret Israheli nequaquam abiit ut ante perrexerat ut augurium quaereret sed dirigens contra desertum vultum suum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "cumque vidisset Balaam quod placeret Domino ut benediceret Israheli nequaquam abiit ut ante perrexerat ut augurium quaereret sed dirigens contra desertum vultum suum"
     }
   },
   {
@@ -5278,8 +5573,8 @@
     "chapter": 25,
     "verse": 1,
     "content": {
-      "text": "morabatur autem eo tempore Israhel in Setthim et fornicatus est populus cum filiabus Moab",
-      "paragraph": true
+      "paragraph": true,
+      "text": "morabatur autem eo tempore Israhel in Setthim et fornicatus est populus cum filiabus Moab"
     }
   },
   {
@@ -5389,8 +5684,8 @@
     "chapter": 26,
     "verse": 1,
     "content": {
-      "text": "postquam noxiorum sanguis effusus est dixit Dominus ad Mosen et Eleazarum filium Aaron sacerdotem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "postquam noxiorum sanguis effusus est dixit Dominus ad Mosen et Eleazarum filium Aaron sacerdotem"
     }
   },
   {
@@ -5782,8 +6077,8 @@
     "chapter": 27,
     "verse": 1,
     "content": {
-      "text": "accesserunt autem filiae Salphaad filii Epher filii Galaad filii Machir filii Manasse qui fuit filius Ioseph quarum sunt nomina Maala et Noa et Egla et Melcha et Thersa",
-      "paragraph": true
+      "paragraph": true,
+      "text": "accesserunt autem filiae Salphaad filii Epher filii Galaad filii Machir filii Manasse qui fuit filius Ioseph quarum sunt nomina Maala et Noa et Egla et Melcha et Thersa"
     }
   },
   {
@@ -5923,8 +6218,8 @@
     "chapter": 28,
     "verse": 1,
     "content": {
-      "text": "dixit quoque Dominus ad Mosen",
-      "paragraph": true
+      "paragraph": true,
+      "text": "dixit quoque Dominus ad Mosen"
     }
   },
   {
@@ -6112,8 +6407,8 @@
     "chapter": 29,
     "verse": 1,
     "content": {
-      "text": "mensis etiam septimi prima dies venerabilis et sancta erit vobis omne opus servile non facietis in ea quia dies clangoris est et tubarum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "mensis etiam septimi prima dies venerabilis et sancta erit vobis omne opus servile non facietis in ea quia dies clangoris est et tubarum"
     }
   },
   {
@@ -6348,114 +6643,248 @@
     "book": "NUM",
     "chapter": 29,
     "verse": 40,
-    "content": "(30-1) narravitque Moses filiis Israhel omnia quae ei Dominus imperarat"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:1."
+        }
+      },
+      "narravitque Moses filiis Israhel omnia quae ei Dominus imperarat"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 1,
-    "content": {
-      "text": "(30-2) et locutus est ad principes tribuum filiorum Israhel iste est sermo quem praecepit Dominus",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:2."
+        }
+      },
+      "et locutus est ad principes tribuum filiorum Israhel iste est sermo quem praecepit Dominus"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 2,
-    "content": "(30-3) si quis virorum votum Domino voverit aut se constrinxerit iuramento non faciet irritum verbum suum sed omne quod promisit implebit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:3."
+        }
+      },
+      "si quis virorum votum Domino voverit aut se constrinxerit iuramento non faciet irritum verbum suum sed omne quod promisit implebit"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 3,
-    "content": "(30-4) mulier si quippiam voverit et se constrinxerit iuramento quae est in domo patris sui et in aetate adhuc puellari si cognoverit pater votum quod pollicita est et iuramentum quo obligavit animam suam et tacuerit voti rea erit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:4."
+        }
+      },
+      "mulier si quippiam voverit et se constrinxerit iuramento quae est in domo patris sui et in aetate adhuc puellari si cognoverit pater votum quod pollicita est et iuramentum quo obligavit animam suam et tacuerit voti rea erit"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 4,
-    "content": "(30-5) quicquid pollicita est et iuravit opere conplebit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:5."
+        }
+      },
+      "quicquid pollicita est et iuravit opere conplebit"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 5,
-    "content": "(30-6) sin autem statim ut audierit contradixerit pater et vota et iuramenta eius irrita erunt nec obnoxia tenebitur sponsioni eo quod contradixerit pater"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:6."
+        }
+      },
+      "sin autem statim ut audierit contradixerit pater et vota et iuramenta eius irrita erunt nec obnoxia tenebitur sponsioni eo quod contradixerit pater"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 6,
-    "content": "(30-7) si maritum habuerit et voverit aliquid et semel verbum de ore eius egrediens animam illius obligaverit iuramento"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:7."
+        }
+      },
+      "si maritum habuerit et voverit aliquid et semel verbum de ore eius egrediens animam illius obligaverit iuramento"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 7,
-    "content": "(30-8) quo die audierit vir et non contradixerit voti rea erit reddet quodcumque promiserat"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:8."
+        }
+      },
+      "quo die audierit vir et non contradixerit voti rea erit reddet quodcumque promiserat"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 8,
-    "content": "(30-9) sin autem audiens statim contradixerit et irritas fecerit pollicitationes eius verbaque quibus obstrinxerat animam suam propitius ei erit Dominus"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:9."
+        }
+      },
+      "sin autem audiens statim contradixerit et irritas fecerit pollicitationes eius verbaque quibus obstrinxerat animam suam propitius ei erit Dominus"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 9,
-    "content": "(30-10) vidua et repudiata quicquid voverint reddent"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:10."
+        }
+      },
+      "vidua et repudiata quicquid voverint reddent"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 10,
-    "content": "(30-11) uxor in domo viri cum se voto constrinxerit et iuramento"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:11."
+        }
+      },
+      "uxor in domo viri cum se voto constrinxerit et iuramento"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 11,
-    "content": "(30-12) si audierit vir et tacuerit nec contradixerit sponsioni reddet quodcumque promiserat"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:12."
+        }
+      },
+      "si audierit vir et tacuerit nec contradixerit sponsioni reddet quodcumque promiserat"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 12,
-    "content": "(30-13) sin autem extemplo contradixerit non tenebitur promissionis rea quia maritus contradixit et Dominus ei propitius erit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:13."
+        }
+      },
+      "sin autem extemplo contradixerit non tenebitur promissionis rea quia maritus contradixit et Dominus ei propitius erit"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 13,
-    "content": "(30-14) si voverit et iuramento se constrinxerit ut per ieiunium vel ceterarum rerum abstinentiam adfligat animam suam in arbitrio viri erit ut faciat sive non faciat"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:14."
+        }
+      },
+      "si voverit et iuramento se constrinxerit ut per ieiunium vel ceterarum rerum abstinentiam adfligat animam suam in arbitrio viri erit ut faciat sive non faciat"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 14,
-    "content": "(30-15) quod si audiens vir tacuerit et in alteram diem distulerit sententiam quicquid voverat atque promiserat reddet quia statim ut audivit tacuit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:15."
+        }
+      },
+      "quod si audiens vir tacuerit et in alteram diem distulerit sententiam quicquid voverat atque promiserat reddet quia statim ut audivit tacuit"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 15,
-    "content": "(30-16) sin autem contradixerit postquam rescivit portabit ipse iniquitatem eius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:16."
+        }
+      },
+      "sin autem contradixerit postquam rescivit portabit ipse iniquitatem eius"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 30,
     "verse": 16,
-    "content": "(30-17) istae sunt leges quas constituit Dominus Mosi inter virum et uxorem inter patrem et filiam quae in puellari adhuc aetate est vel quae manet in parentis domo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 30:17."
+        }
+      },
+      "istae sunt leges quas constituit Dominus Mosi inter virum et uxorem inter patrem et filiam quae in puellari adhuc aetate est vel quae manet in parentis domo"
+    ]
   },
   {
     "book": "NUM",
     "chapter": 31,
     "verse": 1,
     "content": {
-      "text": "locutusque est Dominus ad Mosen dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutusque est Dominus ad Mosen dicens"
     }
   },
   {
@@ -6781,8 +7210,8 @@
     "chapter": 32,
     "verse": 1,
     "content": {
-      "text": "filii autem Ruben et Gad habebant pecora multa et erat illis in iumentis infinita substantia cumque vidissent Iazer et Galaad aptas alendis animalibus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "filii autem Ruben et Gad habebant pecora multa et erat illis in iumentis infinita substantia cumque vidissent Iazer et Galaad aptas alendis animalibus"
     }
   },
   {
@@ -7036,8 +7465,8 @@
     "chapter": 33,
     "verse": 1,
     "content": {
-      "text": "hae sunt mansiones filiorum Israhel qui egressi sunt de Aegypto per turmas suas in manu Mosi et Aaron",
-      "paragraph": true
+      "paragraph": true,
+      "text": "hae sunt mansiones filiorum Israhel qui egressi sunt de Aegypto per turmas suas in manu Mosi et Aaron"
     }
   },
   {
@@ -7375,8 +7804,8 @@
     "chapter": 34,
     "verse": 1,
     "content": {
-      "text": "locutus est Dominus ad Mosen",
-      "paragraph": true
+      "paragraph": true,
+      "text": "locutus est Dominus ad Mosen"
     }
   },
   {
@@ -7552,8 +7981,8 @@
     "chapter": 35,
     "verse": 1,
     "content": {
-      "text": "haec quoque locutus est Dominus ad Mosen in campestribus Moab super Iordanem contra Hiericho",
-      "paragraph": true
+      "paragraph": true,
+      "text": "haec quoque locutus est Dominus ad Mosen in campestribus Moab super Iordanem contra Hiericho"
     }
   },
   {
@@ -7759,8 +8188,8 @@
     "chapter": 36,
     "verse": 1,
     "content": {
-      "text": "accesserunt autem et principes familiarum Galaad filii Machir filii Manasse de stirpe filiorum Ioseph locutique sunt Mosi coram principibus Israhel atque dixerunt",
-      "paragraph": true
+      "paragraph": true,
+      "text": "accesserunt autem et principes familiarum Galaad filii Machir filii Manasse de stirpe filiorum Ioseph locutique sunt Mosi coram principibus Israhel atque dixerunt"
     }
   },
   {

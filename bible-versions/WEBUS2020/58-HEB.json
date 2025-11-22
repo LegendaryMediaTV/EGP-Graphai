@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "God, having in the past spoken to the fathers through the prophets at many times and in various ways,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "God, having in the past spoken to the fathers through the prophets at many times and in various ways,"
     }
   },
   {
@@ -41,11 +41,11 @@
       },
       {
         "text": "Today I have become your father?”",
+        "break": true,
         "foot": {
           "type": "xrf",
           "content": "Psalm 2:7"
-        },
-        "break": true
+        }
       },
       {
         "text": "“I will be to him a Father,",
@@ -65,12 +65,12 @@
     "chapter": 1,
     "verse": 6,
     "content": {
+      "paragraph": true,
       "text": "When he again brings in the firstborn into the world he says, “Let all the angels of God worship him.”",
       "foot": {
         "type": "xrf",
         "content": "Deuteronomy 32:43 LXX"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -101,8 +101,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "But of the Son he says,",
         "paragraph": true,
+        "text": "But of the Son he says,",
         "break": true
       },
       {
@@ -139,8 +139,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "And,",
         "paragraph": true,
+        "text": "And,",
         "break": true
       },
       {
@@ -200,8 +200,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "But which of the angels has he told at any time,",
         "paragraph": true,
+        "text": "But which of the angels has he told at any time,",
         "break": true
       },
       {
@@ -222,8 +222,8 @@
     "chapter": 1,
     "verse": 14,
     "content": {
-      "text": "Aren’t they all serving spirits, sent out to do service for the sake of those who will inherit salvation?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Aren’t they all serving spirits, sent out to do service for the sake of those who will inherit salvation?"
     }
   },
   {
@@ -231,8 +231,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Therefore we ought to pay greater attention to the things that were heard, lest perhaps we drift away.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore we ought to pay greater attention to the things that were heard, lest perhaps we drift away."
     }
   },
   {
@@ -258,8 +258,8 @@
     "chapter": 2,
     "verse": 5,
     "content": {
-      "text": "For he didn’t subject the world to come, of which we speak, to angels.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For he didn’t subject the world to come, of which we speak, to angels."
     }
   },
   {
@@ -292,11 +292,11 @@
       },
       {
         "text": "You crowned him with glory and honor.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "TR adds “and set him over the works of your hands”"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -312,7 +312,10 @@
           "content": "Psalm 8:4-6"
         }
       },
-      " For in that he subjected all things to him, he left nothing that is not subject to him. But now we don’t yet see all things subjected to him."
+      {
+        "paragraph": true,
+        "text": "For in that he subjected all things to him, he left nothing that is not subject to him. But now we don’t yet see all things subjected to him."
+      }
     ]
   },
   {
@@ -326,8 +329,8 @@
     "chapter": 2,
     "verse": 10,
     "content": {
-      "text": "For it became him, for whom are all things and through whom are all things, in bringing many children to glory, to make the author of their salvation perfect through sufferings.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For it became him, for whom are all things and through whom are all things, in bringing many children to glory, to make the author of their salvation perfect through sufferings."
     }
   },
   {
@@ -369,12 +372,12 @@
     "chapter": 2,
     "verse": 13,
     "content": {
+      "paragraph": true,
       "text": "Again, “I will put my trust in him.” Again, “Behold, here I am with the children whom God has given me.”",
       "foot": {
         "type": "xrf",
         "content": "Isaiah 8:18"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -421,8 +424,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Therefore, holy brothers, partakers of a heavenly calling, consider the Apostle and High Priest of our confession: Jesus,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore, holy brothers, partakers of a heavenly calling, consider the Apostle and High Priest of our confession: Jesus,"
     }
   },
   {
@@ -551,8 +554,8 @@
     "chapter": 3,
     "verse": 12,
     "content": {
-      "text": "Beware, brothers, lest perhaps there might be in any one of you an evil heart of unbelief, in falling away from the living God;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Beware, brothers, lest perhaps there might be in any one of you an evil heart of unbelief, in falling away from the living God;"
     }
   },
   {
@@ -594,8 +597,8 @@
     "chapter": 3,
     "verse": 16,
     "content": {
-      "text": "For who, when they heard, rebelled? Wasn’t it all those who came out of Egypt led by Moses?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For who, when they heard, rebelled? Wasn’t it all those who came out of Egypt led by Moses?"
     }
   },
   {
@@ -621,8 +624,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Let’s fear therefore, lest perhaps anyone of you should seem to have come short of a promise of entering into his rest.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Let’s fear therefore, lest perhaps anyone of you should seem to have come short of a promise of entering into his rest."
     }
   },
   {
@@ -675,8 +678,8 @@
     "chapter": 4,
     "verse": 6,
     "content": {
-      "text": "Seeing therefore it remains that some should enter into it, and they to whom the good news was preached before failed to enter in because of disobedience,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Seeing therefore it remains that some should enter into it, and they to whom the good news was preached before failed to enter in because of disobedience,"
     }
   },
   {
@@ -706,8 +709,8 @@
     "chapter": 4,
     "verse": 8,
     "content": {
-      "text": "For if Joshua had given them rest, he would not have spoken afterward of another day.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For if Joshua had given them rest, he would not have spoken afterward of another day."
     }
   },
   {
@@ -745,8 +748,8 @@
     "chapter": 4,
     "verse": 14,
     "content": {
-      "text": "Having then a great high priest who has passed through the heavens, Jesus, the Son of God, let’s hold tightly to our confession.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Having then a great high priest who has passed through the heavens, Jesus, the Son of God, let’s hold tightly to our confession."
     }
   },
   {
@@ -766,8 +769,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "For every high priest, being taken from among men, is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For every high priest, being taken from among men, is appointed for men in things pertaining to God, that he may offer both gifts and sacrifices for sins."
     }
   },
   {
@@ -816,8 +819,8 @@
     "verse": 6,
     "content": [
       {
-        "text": "As he says also in another place,",
         "paragraph": true,
+        "text": "As he says also in another place,",
         "break": true
       },
       {
@@ -838,8 +841,8 @@
     "chapter": 5,
     "verse": 7,
     "content": {
-      "text": "He, in the days of his flesh, having offered up prayers and petitions with strong crying and tears to him who was able to save him from death, and having been heard for his godly fear,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He, in the days of his flesh, having offered up prayers and petitions with strong crying and tears to him who was able to save him from death, and having been heard for his godly fear,"
     }
   },
   {
@@ -865,8 +868,8 @@
     "chapter": 5,
     "verse": 11,
     "content": {
-      "text": "About him we have many words to say, and hard to interpret, seeing you have become dull of hearing.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "About him we have many words to say, and hard to interpret, seeing you have become dull of hearing."
     }
   },
   {
@@ -892,8 +895,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "Therefore leaving the teaching of the first principles of Christ, let’s press on to perfection—not laying again a foundation of repentance from dead works, of faith toward God,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore leaving the teaching of the first principles of Christ, let’s press on to perfection—not laying again a foundation of repentance from dead works, of faith toward God,"
     }
   },
   {
@@ -943,8 +946,8 @@
     "chapter": 6,
     "verse": 9,
     "content": {
-      "text": "But, beloved, we are persuaded of better things for you, and things that accompany salvation, even though we speak like this.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But, beloved, we are persuaded of better things for you, and things that accompany salvation, even though we speak like this."
     }
   },
   {
@@ -970,8 +973,8 @@
     "chapter": 6,
     "verse": 13,
     "content": {
-      "text": "For when God made a promise to Abraham, since he could swear by no one greater, he swore by himself,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For when God made a promise to Abraham, since he could swear by no one greater, he swore by himself,"
     }
   },
   {
@@ -1027,8 +1030,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "For this Melchizedek, king of Salem, priest of God Most High, who met Abraham returning from the slaughter of the kings and blessed him,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this Melchizedek, king of Salem, priest of God Most High, who met Abraham returning from the slaughter of the kings and blessed him,"
     }
   },
   {
@@ -1048,8 +1051,8 @@
     "chapter": 7,
     "verse": 4,
     "content": {
-      "text": "Now consider how great this man was, to whom even Abraham the patriarch gave a tenth out of the best plunder.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now consider how great this man was, to whom even Abraham the patriarch gave a tenth out of the best plunder."
     }
   },
   {
@@ -1093,8 +1096,8 @@
     "chapter": 7,
     "verse": 11,
     "content": {
-      "text": "Now if perfection was through the Levitical priesthood (for under it the people have received the law), what further need was there for another priest to arise after the order of Melchizedek, and not be called after the order of Aaron?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now if perfection was through the Levitical priesthood (for under it the people have received the law), what further need was there for another priest to arise after the order of Melchizedek, and not be called after the order of Aaron?"
     }
   },
   {
@@ -1154,8 +1157,8 @@
     "chapter": 7,
     "verse": 18,
     "content": {
-      "text": "For there is an annulling of a foregoing commandment because of its weakness and uselessness",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For there is an annulling of a foregoing commandment because of its weakness and uselessness"
     }
   },
   {
@@ -1201,8 +1204,8 @@
     "chapter": 7,
     "verse": 22,
     "content": {
-      "text": "By so much, Jesus has become the guarantee of a better covenant.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By so much, Jesus has become the guarantee of a better covenant."
     }
   },
   {
@@ -1210,8 +1213,8 @@
     "chapter": 7,
     "verse": 23,
     "content": {
-      "text": "Many, indeed, have been made priests, because they are hindered from continuing by death.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Many, indeed, have been made priests, because they are hindered from continuing by death."
     }
   },
   {
@@ -1231,8 +1234,8 @@
     "chapter": 7,
     "verse": 26,
     "content": {
-      "text": "For such a high priest was fitting for us: holy, guiltless, undefiled, separated from sinners, and made higher than the heavens;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For such a high priest was fitting for us: holy, guiltless, undefiled, separated from sinners, and made higher than the heavens;"
     }
   },
   {
@@ -1252,8 +1255,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "Now in the things which we are saying, the main point is this: we have such a high priest, who sat down on the right hand of the throne of the Majesty in the heavens,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now in the things which we are saying, the main point is this: we have such a high priest, who sat down on the right hand of the throne of the Majesty in the heavens,"
     }
   },
   {
@@ -1297,8 +1300,8 @@
     "chapter": 8,
     "verse": 7,
     "content": {
-      "text": "For if that first covenant had been faultless, then no place would have been sought for a second.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For if that first covenant had been faultless, then no place would have been sought for a second."
     }
   },
   {
@@ -1395,11 +1398,11 @@
     "content": [
       {
         "text": "They will not teach every man his fellow citizen",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "TR reads “neighbor” instead of “fellow citizen”"
-        },
-        "break": true
+        }
       },
       {
         "text": "and every man his brother, saying, ‘Know the Lord,’",
@@ -1438,8 +1441,8 @@
     "chapter": 8,
     "verse": 13,
     "content": {
-      "text": "In that he says, “A new covenant”, he has made the first obsolete. But that which is becoming obsolete and grows aged is near to vanishing away.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In that he says, “A new covenant”, he has made the first obsolete. But that which is becoming obsolete and grows aged is near to vanishing away."
     }
   },
   {
@@ -1448,12 +1451,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Now indeed even the first",
         "foot": {
           "type": "stu",
           "content": "TR adds “tabernacle”"
-        },
-        "paragraph": true
+        }
       },
       " covenant had ordinances of divine service and an earthly sanctuary."
     ]
@@ -1487,8 +1490,8 @@
     "chapter": 9,
     "verse": 6,
     "content": {
-      "text": "Now these things having been thus prepared, the priests go in continually into the first tabernacle, accomplishing the services,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now these things having been thus prepared, the priests go in continually into the first tabernacle, accomplishing the services,"
     }
   },
   {
@@ -1520,8 +1523,8 @@
     "chapter": 9,
     "verse": 11,
     "content": {
-      "text": "But Christ having come as a high priest of the coming good things, through the greater and more perfect tabernacle, not made with hands, that is to say, not of this creation,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Christ having come as a high priest of the coming good things, through the greater and more perfect tabernacle, not made with hands, that is to say, not of this creation,"
     }
   },
   {
@@ -1589,8 +1592,8 @@
     "chapter": 9,
     "verse": 21,
     "content": {
-      "text": "He sprinkled the tabernacle and all the vessels of the ministry in the same way with the blood.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He sprinkled the tabernacle and all the vessels of the ministry in the same way with the blood."
     }
   },
   {
@@ -1604,8 +1607,8 @@
     "chapter": 9,
     "verse": 23,
     "content": {
-      "text": "It was necessary therefore that the copies of the things in the heavens should be cleansed with these, but the heavenly things themselves with better sacrifices than these.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "It was necessary therefore that the copies of the things in the heavens should be cleansed with these, but the heavenly things themselves with better sacrifices than these."
     }
   },
   {
@@ -1643,8 +1646,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "For the law, having a shadow of the good to come, not the very image of the things, can never with the same sacrifices year by year, which they offer continually, make perfect those who draw near.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For the law, having a shadow of the good to come, not the very image of the things, can never with the same sacrifices year by year, which they offer continually, make perfect those who draw near."
     }
   },
   {
@@ -1716,8 +1719,8 @@
     "chapter": 10,
     "verse": 8,
     "content": {
-      "text": "Previously saying, “Sacrifices and offerings and whole burnt offerings and sacrifices for sin you didn’t desire, neither had pleasure in them” (those which are offered according to the law),",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Previously saying, “Sacrifices and offerings and whole burnt offerings and sacrifices for sin you didn’t desire, neither had pleasure in them” (those which are offered according to the law),"
     }
   },
   {
@@ -1737,8 +1740,8 @@
     "chapter": 10,
     "verse": 11,
     "content": {
-      "text": "Every priest indeed stands day by day serving and offering often the same sacrifices, which can never take away sins,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Every priest indeed stands day by day serving and offering often the same sacrifices, which can never take away sins,"
     }
   },
   {
@@ -1793,7 +1796,8 @@
         }
       },
       {
-        "text": " then he says,",
+        "paragraph": true,
+        "text": "then he says,",
         "break": true
       }
     ]
@@ -1815,8 +1819,8 @@
     "chapter": 10,
     "verse": 18,
     "content": {
-      "text": "Now where remission of these is, there is no more offering for sin.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now where remission of these is, there is no more offering for sin."
     }
   },
   {
@@ -1824,8 +1828,8 @@
     "chapter": 10,
     "verse": 19,
     "content": {
-      "text": "Having therefore, brothers, boldness to enter into the holy place by the blood of Jesus,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Having therefore, brothers, boldness to enter into the holy place by the blood of Jesus,"
     }
   },
   {
@@ -1857,8 +1861,8 @@
     "chapter": 10,
     "verse": 24,
     "content": {
-      "text": "Let’s consider how to provoke one another to love and good works,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Let’s consider how to provoke one another to love and good works,"
     }
   },
   {
@@ -1872,8 +1876,8 @@
     "chapter": 10,
     "verse": 26,
     "content": {
-      "text": "For if we sin willfully after we have received the knowledge of the truth, there remains no more a sacrifice for sins,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For if we sin willfully after we have received the knowledge of the truth, there remains no more a sacrifice for sins,"
     }
   },
   {
@@ -1926,8 +1930,8 @@
     "chapter": 10,
     "verse": 32,
     "content": {
-      "text": "But remember the former days, in which, after you were enlightened, you endured a great struggle with sufferings:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But remember the former days, in which, after you were enlightened, you endured a great struggle with sufferings:"
     }
   },
   {
@@ -1995,8 +1999,8 @@
     "chapter": 10,
     "verse": 39,
     "content": {
-      "text": "But we are not of those who shrink back to destruction, but of those who have faith to the saving of the soul.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But we are not of those who shrink back to destruction, but of those who have faith to the saving of the soul."
     }
   },
   {
@@ -2004,8 +2008,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "Now faith is assurance of things hoped for, proof of things not seen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now faith is assurance of things hoped for, proof of things not seen."
     }
   },
   {
@@ -2025,8 +2029,8 @@
     "chapter": 11,
     "verse": 4,
     "content": {
-      "text": "By faith Abel offered to God a more excellent sacrifice than Cain, through which he had testimony given to him that he was righteous, God testifying with respect to his gifts; and through it he, being dead, still speaks.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Abel offered to God a more excellent sacrifice than Cain, through which he had testimony given to him that he was righteous, God testifying with respect to his gifts; and through it he, being dead, still speaks."
     }
   },
   {
@@ -2034,8 +2038,8 @@
     "chapter": 11,
     "verse": 5,
     "content": {
-      "text": "By faith Enoch was taken away, so that he wouldn’t see death, and he was not found, because God translated him. For he has had testimony given to him that before his translation he had been well pleasing to God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Enoch was taken away, so that he wouldn’t see death, and he was not found, because God translated him. For he has had testimony given to him that before his translation he had been well pleasing to God."
     }
   },
   {
@@ -2050,12 +2054,12 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "By faith Noah, being warned about things not yet seen, moved with godly fear,",
         "foot": {
           "type": "trn",
           "content": "or, reverence"
-        },
-        "paragraph": true
+        }
       },
       " prepared a ship for the saving of his house, through which he condemned the world and became heir of the righteousness which is according to faith."
     ]
@@ -2065,8 +2069,8 @@
     "chapter": 11,
     "verse": 8,
     "content": {
-      "text": "By faith Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Abraham, when he was called, obeyed to go out to the place which he was to receive for an inheritance. He went out, not knowing where he went."
     }
   },
   {
@@ -2086,8 +2090,8 @@
     "chapter": 11,
     "verse": 11,
     "content": {
-      "text": "By faith even Sarah herself received power to conceive, and she bore a child when she was past age, since she counted him faithful who had promised.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith even Sarah herself received power to conceive, and she bore a child when she was past age, since she counted him faithful who had promised."
     }
   },
   {
@@ -2102,12 +2106,12 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "These all died in faith, not having received the promises, but having seen",
         "foot": {
           "type": "stu",
           "content": "TR adds “and being convinced of”"
-        },
-        "paragraph": true
+        }
       },
       " them and embraced them from afar, and having confessed that they were strangers and pilgrims on the earth."
     ]
@@ -2136,6 +2140,7 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "By faith, Abraham, being tested, offered up Isaac. Yes, he who had gladly received the promises was offering up his only born",
         "foot": {
           "type": "trn",
@@ -2147,8 +2152,7 @@
             },
             "”, which is sometimes translated “only begotten” or “one and only”."
           ]
-        },
-        "paragraph": true
+        }
       },
       " son,"
     ]
@@ -2176,8 +2180,8 @@
     "chapter": 11,
     "verse": 20,
     "content": {
-      "text": "By faith Isaac blessed Jacob and Esau, even concerning things to come.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Isaac blessed Jacob and Esau, even concerning things to come."
     }
   },
   {
@@ -2185,8 +2189,8 @@
     "chapter": 11,
     "verse": 21,
     "content": {
-      "text": "By faith Jacob, when he was dying, blessed each of the sons of Joseph, and worshiped, leaning on the top of his staff.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Jacob, when he was dying, blessed each of the sons of Joseph, and worshiped, leaning on the top of his staff."
     }
   },
   {
@@ -2194,8 +2198,8 @@
     "chapter": 11,
     "verse": 22,
     "content": {
-      "text": "By faith Joseph, when his end was near, made mention of the departure of the children of Israel, and gave instructions concerning his bones.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Joseph, when his end was near, made mention of the departure of the children of Israel, and gave instructions concerning his bones."
     }
   },
   {
@@ -2203,8 +2207,8 @@
     "chapter": 11,
     "verse": 23,
     "content": {
-      "text": "By faith Moses, when he was born, was hidden for three months by his parents, because they saw that he was a beautiful child; and they were not afraid of the king’s commandment.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Moses, when he was born, was hidden for three months by his parents, because they saw that he was a beautiful child; and they were not afraid of the king’s commandment."
     }
   },
   {
@@ -2212,8 +2216,8 @@
     "chapter": 11,
     "verse": 24,
     "content": {
-      "text": "By faith Moses, when he had grown up, refused to be called the son of Pharaoh’s daughter,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Moses, when he had grown up, refused to be called the son of Pharaoh’s daughter,"
     }
   },
   {
@@ -2245,8 +2249,8 @@
     "chapter": 11,
     "verse": 29,
     "content": {
-      "text": "By faith they passed through the Red Sea as on dry land. When the Egyptians tried to do so, they were swallowed up.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith they passed through the Red Sea as on dry land. When the Egyptians tried to do so, they were swallowed up."
     }
   },
   {
@@ -2254,8 +2258,8 @@
     "chapter": 11,
     "verse": 30,
     "content": {
-      "text": "By faith the walls of Jericho fell down after they had been encircled for seven days.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith the walls of Jericho fell down after they had been encircled for seven days."
     }
   },
   {
@@ -2263,8 +2267,8 @@
     "chapter": 11,
     "verse": 31,
     "content": {
-      "text": "By faith Rahab the prostitute didn’t perish with those who were disobedient, having received the spies in peace.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "By faith Rahab the prostitute didn’t perish with those who were disobedient, having received the spies in peace."
     }
   },
   {
@@ -2272,8 +2276,8 @@
     "chapter": 11,
     "verse": 32,
     "content": {
-      "text": "What more shall I say? For the time would fail me if I told of Gideon, Barak, Samson, Jephthah, David, Samuel, and the prophets—",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What more shall I say? For the time would fail me if I told of Gideon, Barak, Samson, Jephthah, David, Samuel, and the prophets—"
     }
   },
   {
@@ -2364,8 +2368,8 @@
     "chapter": 11,
     "verse": 39,
     "content": {
-      "text": "These all, having been commended for their faith, didn’t receive the promise,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "These all, having been commended for their faith, didn’t receive the promise,"
     }
   },
   {
@@ -2379,8 +2383,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with perseverance the race that is set before us,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with perseverance the race that is set before us,"
     }
   },
   {
@@ -2394,8 +2398,8 @@
     "chapter": 12,
     "verse": 3,
     "content": {
-      "text": "For consider him who has endured such contradiction of sinners against himself, that you don’t grow weary, fainting in your souls.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For consider him who has endured such contradiction of sinners against himself, that you don’t grow weary, fainting in your souls."
     }
   },
   {
@@ -2446,8 +2450,8 @@
     "chapter": 12,
     "verse": 7,
     "content": {
-      "text": "It is for discipline that you endure. God deals with you as with children, for what son is there whom his father doesn’t discipline?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "It is for discipline that you endure. God deals with you as with children, for what son is there whom his father doesn’t discipline?"
     }
   },
   {
@@ -2506,8 +2510,8 @@
     "chapter": 12,
     "verse": 14,
     "content": {
-      "text": "Follow after peace with all men, and the sanctification without which no man will see the Lord,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Follow after peace with all men, and the sanctification without which no man will see the Lord,"
     }
   },
   {
@@ -2533,8 +2537,8 @@
     "chapter": 12,
     "verse": 18,
     "content": {
-      "text": "For you have not come to a mountain that might be touched and that burned with fire, and to blackness, darkness, storm,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For you have not come to a mountain that might be touched and that burned with fire, and to blackness, darkness, storm,"
     }
   },
   {
@@ -2572,8 +2576,8 @@
     "chapter": 12,
     "verse": 22,
     "content": {
-      "text": "But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable multitudes of angels,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable multitudes of angels,"
     }
   },
   {
@@ -2602,8 +2606,8 @@
     "chapter": 12,
     "verse": 25,
     "content": {
-      "text": "See that you don’t refuse him who speaks. For if they didn’t escape when they refused him who warned on the earth, how much more will we not escape who turn away from him who warns from heaven,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "See that you don’t refuse him who speaks. For if they didn’t escape when they refused him who warned on the earth, how much more will we not escape who turn away from him who warns from heaven,"
     }
   },
   {
@@ -2647,8 +2651,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "Let brotherly love continue.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Let brotherly love continue."
     }
   },
   {
@@ -2674,12 +2678,12 @@
     "chapter": 13,
     "verse": 5,
     "content": {
+      "paragraph": true,
       "text": "Be free from the love of money, content with such things as you have, for he has said, “I will in no way leave you, neither will I in any way forsake you.”",
       "foot": {
         "type": "xrf",
         "content": "Deuteronomy 31:6"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -2709,8 +2713,8 @@
     "chapter": 13,
     "verse": 7,
     "content": {
-      "text": "Remember your leaders, men who spoke to you the word of God, and considering the results of their conduct, imitate their faith.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Remember your leaders, men who spoke to you the word of God, and considering the results of their conduct, imitate their faith."
     }
   },
   {
@@ -2730,8 +2734,8 @@
     "chapter": 13,
     "verse": 10,
     "content": {
-      "text": "We have an altar from which those who serve the holy tabernacle have no right to eat.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "We have an altar from which those who serve the holy tabernacle have no right to eat."
     }
   },
   {
@@ -2790,8 +2794,8 @@
     "chapter": 13,
     "verse": 17,
     "content": {
-      "text": "Obey your leaders and submit to them, for they watch on behalf of your souls, as those who will give account, that they may do this with joy and not with groaning, for that would be unprofitable for you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Obey your leaders and submit to them, for they watch on behalf of your souls, as those who will give account, that they may do this with joy and not with groaning, for that would be unprofitable for you."
     }
   },
   {
@@ -2799,8 +2803,8 @@
     "chapter": 13,
     "verse": 18,
     "content": {
-      "text": "Pray for us, for we are persuaded that we have a good conscience, desiring to live honorably in all things.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Pray for us, for we are persuaded that we have a good conscience, desiring to live honorably in all things."
     }
   },
   {
@@ -2814,8 +2818,8 @@
     "chapter": 13,
     "verse": 20,
     "content": {
-      "text": "Now may the God of peace, who brought again from the dead the great shepherd of the sheep with the blood of an eternal covenant, our Lord Jesus,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now may the God of peace, who brought again from the dead the great shepherd of the sheep with the blood of an eternal covenant, our Lord Jesus,"
     }
   },
   {
@@ -2829,8 +2833,8 @@
     "chapter": 13,
     "verse": 22,
     "content": {
-      "text": "But I exhort you, brothers, endure the word of exhortation, for I have written to you in few words.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But I exhort you, brothers, endure the word of exhortation, for I have written to you in few words."
     }
   },
   {
@@ -2844,8 +2848,8 @@
     "chapter": 13,
     "verse": 24,
     "content": {
-      "text": "Greet all of your leaders and all the saints. The Italians greet you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Greet all of your leaders and all the saints. The Italians greet you."
     }
   },
   {
@@ -2853,8 +2857,8 @@
     "chapter": 13,
     "verse": 25,
     "content": {
-      "text": "Grace be with you all. Amen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Grace be with you all. Amen."
     }
   }
 ]

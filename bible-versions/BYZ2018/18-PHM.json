@@ -5,11 +5,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Παῦλος",
         "script": "G",
         "strong": "G3972",
-        "morph": "N-NSM",
-        "paragraph": true
+        "morph": "N-NSM"
       },
       {
         "text": " δέσμιος",
@@ -288,11 +288,11 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "Εὐχαριστῶ",
         "script": "G",
         "strong": "G2168",
-        "morph": "V-PAI-1S",
-        "paragraph": true
+        "morph": "V-PAI-1S"
       },
       {
         "text": " τῷ",
@@ -745,11 +745,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Διὸ",
         "script": "G",
         "strong": "G1352",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " πολλὴν",
@@ -2212,6 +2212,7 @@
     "verse": 23,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἀσπάζονταί",
         "script": "G",
         "foot": {
@@ -2229,7 +2230,6 @@
             }
           ]
         },
-        "paragraph": true,
         "strong": "G782",
         "morph": "V-PNI-3P"
       },
@@ -2338,11 +2338,11 @@
     "verse": 25,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἡ",
         "script": "G",
         "strong": "G3588",
-        "morph": "T-NSF",
-        "paragraph": true
+        "morph": "T-NSF"
       },
       {
         "text": " χάρις",

@@ -14,6 +14,7 @@
 <sup>12</sup> And ye are polluting it in your saying, ‘The table of Jehovah-it is polluted, As to its fruit-despicable is its food.’
 <sup>13</sup> And ye have said, ‘Lo, what a weariness,’ And ye have puffed at it, said Jehovah of Hosts, And ye have brought in plunder, And the lame and the sick, And ye have brought in the present! Do I accept it from your hand? said Jehovah.
 <sup>14</sup> And cursed is a deceiver, who hath in his drove a male, And is vowing, and is sacrificing a marred thing to the Lord, For a great king am I, said Jehovah of Hosts, And My name is revered among nations!
+
 ## Chapter 2
 
 <sup>1</sup> And now, to you is this charge, O priests,
@@ -33,6 +34,7 @@
 <sup>15</sup> And He did not make one only, And He hath the remnant of the Spirit. And what is the one alone! He is seeking a godly seed. And ye have been watchful over your spirit, And with the wife of thy youth, None doth deal treacherously.
 <sup>16</sup> For I hate sending away, said Jehovah, God of Israel, And He who hath covered violence with his clothing, said Jehovah of Hosts, And ye have been watchful over your spirit, And ye do not deal treacherously.
 <sup>17</sup> Ye have wearied Jehovah with your words, And ye have said: ‘In what have we wearied Him?’ In your saying: ‘Every evil-doer is good in the eyes of Jehovah, And in them He is delighting,’ Or, ‘Where is the God of judgment?’
+
 ## Chapter 3
 
 <sup>1</sup> Lo, I am sending My messenger, And he hath prepared a way before Me, And suddenly come in unto his temple Doth the Lord whom ye are seeking, Even the messenger of the covenant, Whom ye are desiring, Lo, he is coming, said Jehovah of Hosts.
@@ -53,6 +55,7 @@
 <sup>16</sup> Then have those fearing Jehovah spoken one to another, And Jehovah doth attend and hear, And written is a book of memorial before Him Of those fearing Jehovah, And of those esteeming His name.
 <sup>17</sup> And they have been to Me, said Jehovah of Hosts, In the day that I am appointing-a peculiar treasure, And I have had pity on them, As one hath pity on his son who is serving him.
 <sup>18</sup> And ye have turned back and considered, Between the righteous and the wicked, Between the servant of God and him who is not His servant.
+
 ## Chapter 4
 
 <sup>1</sup> For, lo, the day hath come, burning as a furnace, And all the proud, and every wicked doer, have been stubble, And burnt them hath the day that came, Said Jehovah of Hosts, That there is not left to them root or branch,

@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "Paulus apostolus Iesu Christi per voluntatem Dei et Timotheus frater ecclesiae Dei quae est Corinthi cum sanctis omnibus qui sunt in universa Achaia",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Paulus apostolus Iesu Christi per voluntatem Dei et Timotheus frater ecclesiae Dei quae est Corinthi cum sanctis omnibus qui sunt in universa Achaia"
     }
   },
   {
@@ -151,8 +151,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "statui autem hoc ipse apud me ne iterum in tristitia venirem ad vos",
-      "paragraph": true
+      "paragraph": true,
+      "text": "statui autem hoc ipse apud me ne iterum in tristitia venirem ad vos"
     }
   },
   {
@@ -256,8 +256,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "incipimus iterum nosmet ipsos commendare aut numquid egemus sicut quidam commendaticiis epistulis ad vos aut ex vobis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "incipimus iterum nosmet ipsos commendare aut numquid egemus sicut quidam commendaticiis epistulis ad vos aut ex vobis"
     }
   },
   {
@@ -367,8 +367,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "ideo habentes hanc ministrationem iuxta quod misericordiam consecuti sumus non deficimus",
-      "paragraph": true
+      "paragraph": true,
+      "text": "ideo habentes hanc ministrationem iuxta quod misericordiam consecuti sumus non deficimus"
     }
   },
   {
@@ -478,8 +478,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "scimus enim quoniam si terrestris domus nostra huius habitationis dissolvatur quod aedificationem ex Deo habeamus domum non manufactam aeternam in caelis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "scimus enim quoniam si terrestris domus nostra huius habitationis dissolvatur quod aedificationem ex Deo habeamus domum non manufactam aeternam in caelis"
     }
   },
   {
@@ -607,8 +607,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "adiuvantes autem et exhortamur ne in vacuum gratiam Dei recipiatis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "adiuvantes autem et exhortamur ne in vacuum gratiam Dei recipiatis"
     }
   },
   {
@@ -718,8 +718,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "has igitur habentes promissiones carissimi mundemus nos ab omni inquinamento carnis et spiritus perficientes sanctificationem in timore Dei",
-      "paragraph": true
+      "paragraph": true,
+      "text": "has igitur habentes promissiones carissimi mundemus nos ab omni inquinamento carnis et spiritus perficientes sanctificationem in timore Dei"
     }
   },
   {
@@ -817,8 +817,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "notam autem facimus vobis fratres gratiam Dei quae data est in ecclesiis Macedoniae",
-      "paragraph": true
+      "paragraph": true,
+      "text": "notam autem facimus vobis fratres gratiam Dei quae data est in ecclesiis Macedoniae"
     }
   },
   {
@@ -964,8 +964,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "nam de ministerio quod fit in sanctos ex abundanti est mihi scribere vobis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "nam de ministerio quod fit in sanctos ex abundanti est mihi scribere vobis"
     }
   },
   {
@@ -1057,8 +1057,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "ipse autem ego Paulus obsecro vos per mansuetudinem et modestiam Christi qui in facie quidem humilis inter vos absens autem confido in vobis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "ipse autem ego Paulus obsecro vos per mansuetudinem et modestiam Christi qui in facie quidem humilis inter vos absens autem confido in vobis"
     }
   },
   {
@@ -1168,8 +1168,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "utinam sustineretis modicum quid insipientiae meae sed et subportate me",
-      "paragraph": true
+      "paragraph": true,
+      "text": "utinam sustineretis modicum quid insipientiae meae sed et subportate me"
     }
   },
   {
@@ -1369,8 +1369,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "si gloriari oportet non expedit quidem veniam autem ad visiones et revelationes Domini",
-      "paragraph": true
+      "paragraph": true,
+      "text": "si gloriari oportet non expedit quidem veniam autem ad visiones et revelationes Domini"
     }
   },
   {
@@ -1498,8 +1498,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "ecce tertio hoc venio ad vos in ore duorum vel trium testium stabit omne verbum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "ecce tertio hoc venio ad vos in ore duorum vel trium testium stabit omne verbum"
     }
   },
   {
@@ -1572,12 +1572,28 @@
     "book": "2CO",
     "chapter": 13,
     "verse": 13,
-    "content": "[verse]13:12[/verse] salutant vos sancti omnes"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:12."
+        }
+      },
+      "salutant vos sancti omnes"
+    ]
   },
   {
     "book": "2CO",
     "chapter": 13,
     "verse": 14,
-    "content": "[verse]13:13[/verse] gratia Domini nostri Iesu Christi et caritas Dei et communicatio Sancti Spiritus cum omnibus vobis amen"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 13:13."
+        }
+      },
+      "gratia Domini nostri Iesu Christi et caritas Dei et communicatio Sancti Spiritus cum omnibus vobis amen"
+    ]
   }
 ]

@@ -15,6 +15,7 @@
 <sup>13</sup> And now I break his rod from off thee, And thy bands I do draw away.
 <sup>14</sup> And commanded concerning thee hath Jehovah, ‘No more of thy name doth spread abroad, From the house of thy gods I cut off graven and molten image, I appoint thy grave, for thou hast been vile.
 <sup>15</sup> Lo, on the mountains the feet of one proclaiming tidings, sounding peace! Celebrate, O Judah, thy festivals, complete thy vows, For add no more to pass over into thee doth the worthless, He hath been completely cut off!
+
 ## Chapter 2
 
 <sup>1</sup> Come up hath a scatterer to thy face, Keep the bulwark, watch the way, Strengthen the loins, strengthen power mightily.
@@ -30,6 +31,7 @@
 <sup>11</sup> Where is the habitation of lionesses? And a feeding-place it is for young lions Where walked hath a lion, an old lion, A lion’s whelp, and there is none troubling.
 <sup>12</sup> The lion is tearing parts for his whelps, And is strangling for his lionesses, And he doth fill with prey his holes, And his habitations with rapine.
 <sup>13</sup> Lo, I am against thee, An affirmation of Jehovah of Hosts, And I have burned in smoke its chariot, And thy young lions consume doth a sword, And I have cut off from the land thy prey, And not heard any more is the voice of thy messengers!
+
 ## Chapter 3
 
 <sup>1</sup> Woe to the city of blood, She is all with lies-burglary-full, Prey doth not depart.

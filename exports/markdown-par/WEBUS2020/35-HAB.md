@@ -59,7 +59,9 @@
 
 <sup>1</sup> A prayer of Habakkuk, the prophet, set to victorious music.<br>
 <sup>2</sup> Yahweh, I have heard of your fame.<br>I stand in awe of your deeds, Yahweh.<br>Renew your work in the middle of the years.<br>In the middle of the years make it known.<br>In wrath, you remember mercy.<br>
-<sup>3</sup> God came from Teman,<br>the Holy One from Mount Paran.<br>Selah. His glory covered the heavens,<br>and his praise filled the earth.<br>
+<sup>3</sup> God came from Teman,<br>the Holy One from Mount Paran.<br>Selah.<br>
+
+His glory covered the heavens,<br>and his praise filled the earth.<br>
 
 <sup>4</sup> His splendor is like the sunrise.<br>Rays shine from his hand, where his power is hidden.<br>
 <sup>5</sup> Plague went before him,<br>and pestilence followed his feet.<br>
@@ -78,6 +80,8 @@
 <sup>16</sup> I heard, and my body trembled.<br>My lips quivered at the voice.<br>Rottenness enters into my bones, and I tremble in my place<br>because I must wait quietly for the day of trouble,<br>for the coming up of the people who invade us.<br>
 <sup>17</sup> For even though the fig tree doesn’t flourish,<br>nor fruit be in the vines,<br>the labor of the olive fails,<br>the fields yield no food,<br>the flocks are cut off from the fold,<br>and there is no herd in the stalls,<br>
 <sup>18</sup> yet I will rejoice in Yahweh.<br>I will be joyful in the God of my salvation!<br>
-<sup>19</sup> Yahweh, the Lord,<sup>a</sup> is my strength.<br>He makes my feet like deer’s feet,<br>and enables me to go in high places. For the music director, on my stringed instruments.
+<sup>19</sup> Yahweh, the Lord,<sup>a</sup> is my strength.<br>He makes my feet like deer’s feet,<br>and enables me to go in high places.
+
+For the music director, on my stringed instruments.
 
 > - <sup>a</sup> 19. The word translated “Lord” is “Adonai.”

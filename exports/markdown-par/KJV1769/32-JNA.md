@@ -17,6 +17,7 @@
 <sup>15</sup> So they took up Jonah, and cast him forth into the sea: and the sea ceased from her raging.
 <sup>16</sup> Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.
 <sup>17</sup> Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.
+
 ## Chapter 2
 
 <sup>1</sup> Then Jonah prayed unto the LORD his God out of the fish’s belly,
@@ -29,11 +30,12 @@
 <sup>8</sup> They that observe lying vanities forsake their own mercy.
 <sup>9</sup> But I will sacrifice unto thee with the voice of thanksgiving; I will pay [that] that I have vowed. Salvation [is] of the LORD.
 <sup>10</sup> And the LORD spake unto the fish, and it vomited out Jonah upon the dry [land].
+
 ## Chapter 3
 
 <sup>1</sup> And the word of the LORD came unto Jonah the second time, saying,
 <sup>2</sup> Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.
-<sup>3</sup> So Jonah arose, and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding great city of three days ’ journey.
+<sup>3</sup> So Jonah arose, and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding great city of three days’ journey.
 <sup>4</sup> And Jonah began to enter into the city a day’s journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.
 <sup>5</sup> So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them.
 <sup>6</sup> For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered [him] with sackcloth, and sat in ashes.
@@ -41,6 +43,7 @@
 <sup>8</sup> But let man and beast be covered with sackcloth, and cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that [is] in their hands.
 <sup>9</sup> Who can tell [if] God will turn and repent, and turn away from his fierce anger, that we perish not?
 <sup>10</sup> And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did [it] not.
+
 ## Chapter 4
 
 <sup>1</sup> But it displeased Jonah exceedingly, and he was very angry.

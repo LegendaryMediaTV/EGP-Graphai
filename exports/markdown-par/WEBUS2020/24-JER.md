@@ -14,11 +14,15 @@
 <sup>9</sup> Then Yahweh stretched out his hand and touched my mouth. Then Yahweh said to me, “Behold, I have put my words in your mouth.
 <sup>10</sup> Behold, I have today set you over the nations and over the kingdoms, to uproot and to tear down, to destroy and to overthrow, to build and to plant.”
 
-<sup>11</sup> Moreover Yahweh’s word came to me, saying, “Jeremiah, what do you see?” I said, “I see a branch of an almond tree.”
+<sup>11</sup> Moreover Yahweh’s word came to me, saying, “Jeremiah, what do you see?”
+
+I said, “I see a branch of an almond tree.”
 
 <sup>12</sup> Then Yahweh said to me, “You have seen well; for I watch over my word to perform it.”
 
-<sup>13</sup> Yahweh’s word came to me the second time, saying, “What do you see?” I said, “I see a boiling cauldron; and it is tipping away from the north.”
+<sup>13</sup> Yahweh’s word came to me the second time, saying, “What do you see?”
+
+I said, “I see a boiling cauldron; and it is tipping away from the north.”
 
 <sup>14</sup> Then Yahweh said to me, “Out of the north, evil will break out on all the inhabitants of the land.
 <sup>15</sup> For behold, I will call all the families of the kingdoms of the north,” says Yahweh.<br>“They will come, and they will each set his throne at the entrance of the gates of Jerusalem,<br>and against all its walls all around, and against all the cities of Judah.<br>
@@ -105,10 +109,13 @@
 
 <sup>20</sup> “Surely as a wife treacherously departs from her husband, so you have dealt treacherously with me, house of Israel,” says Yahweh.
 <sup>21</sup> A voice is heard on the bare heights, the weeping and the petitions of the children of Israel; because they have perverted their way, they have forgotten Yahweh their God.
-<sup>22</sup> Return, you backsliding children, and I will heal your backsliding. “Behold, we have come to you; for you are Yahweh our God.
+<sup>22</sup> Return, you backsliding children, and I will heal your backsliding.
+
+“Behold, we have come to you; for you are Yahweh our God.
 <sup>23</sup> Truly help from the hills, the tumult on the mountains, is in vain. Truly the salvation of Israel is in Yahweh our God.
 <sup>24</sup> But the shameful thing has devoured the labor of our fathers from our youth, their flocks and their herds, their sons and their daughters.
 <sup>25</sup> Let us lie down in our shame, and let our confusion cover us; for we have sinned against Yahweh our God, we and our fathers, from our youth even to this day. We have not obeyed Yahweh our God’s voice.”
+
 ## Chapter 4
 
 <sup>1</sup> “If you will return, Israel,” says Yahweh, “if you will return to me, and if you will put away your abominations out of my sight; then you will not be removed;
@@ -150,6 +157,7 @@
 <sup>29</sup> Every city flees for the noise of the horsemen and archers. They go into the thickets and climb up on the rocks. Every city is forsaken, and not a man dwells therein.
 <sup>30</sup> You, when you are made desolate, what will you do? Though you clothe yourself with scarlet, though you deck yourself with ornaments of gold, though you enlarge your eyes with makeup, you make yourself beautiful in vain. Your lovers despise you. They seek your life.
 <sup>31</sup> For I have heard a voice as of a woman in travail, the anguish as of her who gives birth to her first child, the voice of the daughter of Zion, who gasps for breath, who spreads her hands, saying, “Woe is me now! For my soul faints before the murderers.”
+
 ## Chapter 5
 
 <sup>1</sup> “Run back and forth through the streets of Jerusalem, and see now, and know, and seek in its wide places, if you can find a man, if there is anyone who does justly, who seeks truth, then I will pardon her.
@@ -195,6 +203,7 @@
 
 <sup>30</sup> “An astonishing and horrible thing has happened in the land.
 <sup>31</sup> The prophets prophesy falsely, and the priests rule by their own authority; and my people love to have it so. What will you do in the end of it?
+
 ## Chapter 6
 
 <sup>1</sup> “Flee for safety, you children of Benjamin, out of the middle of Jerusalem! Blow the trumpet in Tekoa and raise up a signal on Beth Haccherem, for evil looks out from the north with a great destruction.
@@ -234,6 +243,7 @@
 <sup>28</sup> They are all grievous rebels, going around to slander. They are bronze and iron. All of them deal corruptly.
 <sup>29</sup> The bellows blow fiercely. The lead is consumed in the fire. In vain they go on refining, for the wicked are not plucked away.
 <sup>30</sup> Men will call them rejected silver, because Yahweh has rejected them.”
+
 ## Chapter 7
 
 <sup>1</sup> The word that came to Jeremiah from Yahweh, saying,
@@ -303,12 +313,15 @@
 <sup>16</sup> The snorting of his horses is heard from Dan.<br>The whole land trembles at the sound of the neighing of his strong ones;<br>for they have come, and have devoured the land and all that is in it,<br>the city and those who dwell therein.”<br>
 <sup>17</sup> “For, behold, I will send serpents,<br>adders among you,<br>which will not be charmed;<br>and they will bite you,” says Yahweh.<br>
 <sup>18</sup> Oh that I could comfort myself against sorrow!<br>My heart is faint within me.<br>
-<sup>19</sup> Behold, the voice of the cry of the daughter of my people from a land that is very far off:<br>“Isn’t Yahweh in Zion?<br>Isn’t her King in her?” “Why have they provoked me to anger with their engraved images,<br>and with foreign idols?”
+<sup>19</sup> Behold, the voice of the cry of the daughter of my people from a land that is very far off:<br>“Isn’t Yahweh in Zion?<br>Isn’t her King in her?”<br>
+
+“Why have they provoked me to anger with their engraved images,<br>and with foreign idols?”
 
 <sup>20</sup> “The harvest is past.<br>The summer has ended,<br>and we are not saved.”
 
 <sup>21</sup> For the hurt of the daughter of my people, I am hurt.<br>I mourn.<br>Dismay has taken hold of me.<br>
 <sup>22</sup> Is there no balm in Gilead?<br>Is there no physician there?<br>Why then isn’t the health of the daughter of my people recovered?
+
 ## Chapter 9
 
 <sup>1</sup> Oh that my head were waters,<br>and my eyes a spring of tears,<br>that I might weep day and night<br>for the slain of the daughter of my people!<br>
@@ -346,6 +359,7 @@
 
 <sup>25</sup> “Behold, the days come,” says Yahweh, “that I will punish all those who are circumcised only in their flesh:
 <sup>26</sup> Egypt, Judah, Edom, the children of Ammon, Moab, and all who have the corners of their hair cut off, who dwell in the wilderness, for all the nations are uncircumcised, and all the house of Israel are uncircumcised in heart.”
+
 ## Chapter 10
 
 <sup>1</sup> Hear the word which Yahweh speaks to you, house of Israel!
@@ -374,13 +388,16 @@
 <sup>23</sup> Yahweh, I know that the way of man is not in himself.<br>It is not in man who walks to direct his steps.<br>
 <sup>24</sup> Yahweh, correct me, but gently;<br>not in your anger,<br>lest you reduce me to nothing.<br>
 <sup>25</sup> Pour out your wrath on the nations that don’t know you,<br>and on the families that don’t call on your name;<br>for they have devoured Jacob.<br>Yes, they have devoured him, consumed him,<br>and have laid waste his habitation.
+
 ## Chapter 11
 
 <sup>1</sup> The word that came to Jeremiah from Yahweh, saying,
 <sup>2</sup> “Hear the words of this covenant, and speak to the men of Judah, and to the inhabitants of Jerusalem;
 <sup>3</sup> and say to them, Yahweh, the God of Israel says: ‘Cursed is the man who doesn’t hear the words of this covenant,
 <sup>4</sup> which I commanded your fathers in the day that I brought them out of the land of Egypt, out of the iron furnace,’ saying, ‘Obey my voice and do them, according to all which I command you; so you shall be my people, and I will be your God;
-<sup>5</sup> that I may establish the oath which I swore to your fathers, to give them a land flowing with milk and honey,’ as it is today.” Then I answered, and said, “Amen, Yahweh.”
+<sup>5</sup> that I may establish the oath which I swore to your fathers, to give them a land flowing with milk and honey,’ as it is today.”
+
+Then I answered, and said, “Amen, Yahweh.”
 
 <sup>6</sup> Yahweh said to me, “Proclaim all these words in the cities of Judah, and in the streets of Jerusalem, saying, ‘Hear the words of this covenant, and do them.
 <sup>7</sup> For I earnestly protested to your fathers in the day that I brought them up out of the land of Egypt, even to this day, rising early and protesting, saying, “Obey my voice.”
@@ -405,6 +422,7 @@
 <sup>21</sup> “Therefore Yahweh says concerning the men of Anathoth, who seek your life, saying, ‘You shall not prophesy in Yahweh’s name, that you not die by our hand’—
 <sup>22</sup> therefore Yahweh of Armies says, ‘Behold, I will punish them. The young men will die by the sword. Their sons and their daughters will die by famine.
 <sup>23</sup> There will be no remnant to them, for I will bring evil on the men of Anathoth, even the year of their visitation.’ ”
+
 ## Chapter 12
 
 <sup>1</sup> You are righteous, Yahweh,<br>when I contend with you;<br>yet I would like to plead a case with you.<br>Why does the way of the wicked prosper?<br>Why are they all at ease who deal very treacherously?<br>
@@ -426,6 +444,7 @@
 <sup>15</sup> It will happen that after I have plucked them up, I will return and have compassion on them. I will bring them again, every man to his heritage, and every man to his land.
 <sup>16</sup> It will happen, if they will diligently learn the ways of my people, to swear by my name, ‘As Yahweh lives;’ even as they taught my people to swear by Baal, then they will be built up in the middle of my people.
 <sup>17</sup> But if they will not hear, then I will pluck up that nation, plucking up and destroying it,” says Yahweh.
+
 ## Chapter 13
 
 <sup>1</sup> Yahweh said to me, “Go, and buy yourself a linen belt, and put it on your waist, and don’t put it in water.”
@@ -463,6 +482,7 @@
 <sup>25</sup> This is your lot,<br>the portion measured to you from me,” says Yahweh,<br>“because you have forgotten me,<br>and trusted in falsehood.”<br>
 <sup>26</sup> Therefore I will also uncover your skirts on your face,<br>and your shame will appear.<br>
 <sup>27</sup> I have seen your abominations, even your adulteries<br>and your neighing, the lewdness of your prostitution,<br>on the hills in the field.<br>Woe to you, Jerusalem!<br>You will not be made clean.<br>How long will it yet be?”
+
 ## Chapter 14
 
 <sup>1</sup> This is Yahweh’s word that came to Jeremiah concerning the drought:<br>
@@ -493,6 +513,7 @@
 <sup>20</sup> We acknowledge, Yahweh, our wickedness,<br>and the iniquity of our fathers;<br>for we have sinned against you.<br>
 <sup>21</sup> Do not abhor us, for your name’s sake.<br>Do not disgrace the throne of your glory.<br>Remember, and don’t break your covenant with us.<br>
 <sup>22</sup> Are there any among the vanities of the nations that can cause rain?<br>Or can the sky give showers?<br>Aren’t you he, Yahweh our God?<br>Therefore we will wait for you;<br>for you have made all these things.
+
 ## Chapter 15
 
 <sup>1</sup> Then Yahweh said to me, “Though Moses and Samuel stood before me, yet my mind would not turn toward this people. Cast them out of my sight, and let them go out!
@@ -521,6 +542,7 @@
 <sup>19</sup> Therefore Yahweh says,<br>“If you return, then I will bring you again,<br>that you may stand before me;<br>and if you take out the precious from the vile,<br>you will be as my mouth.<br>They will return to you,<br>but you will not return to them.<br>
 <sup>20</sup> I will make you to this people a fortified bronze wall.<br>They will fight against you,<br>but they will not prevail against you;<br>for I am with you to save you<br>and to deliver you,” says Yahweh.<br>
 <sup>21</sup> “I will deliver you out of the hand of the wicked,<br>and I will redeem you out of the hand of the terrible.”
+
 ## Chapter 16
 
 <sup>1</sup> Then Yahweh’s word came to me, saying,
@@ -550,6 +572,7 @@
 <sup>20</sup> Should a man make to himself gods<br>which yet are no gods?”
 
 <sup>21</sup> “Therefore behold, I will cause them to know,<br>this once I will cause them to know my hand and my might.<br>Then they will know that my name is Yahweh.”
+
 ## Chapter 17
 
 <sup>1</sup> “The sin of Judah is written with a pen of iron,<br>and with the point of a diamond.<br>It is engraved on the tablet of their heart,<br>and on the horns of your altars.<br>
@@ -584,6 +607,7 @@
 <sup>25</sup> then there will enter in by the gates of this city kings and princes sitting on David’s throne, riding in chariots and on horses, they and their princes, the men of Judah and the inhabitants of Jerusalem; and this city will remain forever.
 <sup>26</sup> They will come from the cities of Judah, and from the places around Jerusalem, from the land of Benjamin, from the lowland, from the hill country, and from the South, bringing burnt offerings, sacrifices, meal offerings, and frankincense, and bringing sacrifices of thanksgiving to Yahweh’s house.
 <sup>27</sup> But if you will not listen to me to make the Sabbath day holy, and not to bear a burden and enter in at the gates of Jerusalem on the Sabbath day, then I will kindle a fire in its gates, and it will devour the palaces of Jerusalem. It will not be quenched.” ’ ”
+
 ## Chapter 18
 
 <sup>1</sup> The word which came to Jeremiah from Yahweh, saying,
@@ -614,6 +638,7 @@
 <sup>21</sup> Therefore deliver up their children to the famine,<br>and give them over to the power of the sword.<br>Let their wives become childless and widows.<br>Let their men be killed<br>and their young men struck by the sword in battle.<br>
 <sup>22</sup> Let a cry be heard from their houses<br>when you bring a troop suddenly on them;<br>for they have dug a pit to take me<br>and hidden snares for my feet.<br>
 <sup>23</sup> Yet, Yahweh, you know all their counsel against me to kill me.<br>Don’t forgive their iniquity.<br>Don’t blot out their sin from your sight,<br>Let them be overthrown before you.<br>Deal with them in the time of your anger.
+
 ## Chapter 19
 
 <sup>1</sup> Thus said Yahweh, “Go, and buy a potter’s earthen container, and take some of the elders of the people and of the elders of the priests;
@@ -634,6 +659,7 @@
 
 <sup>14</sup> Then Jeremiah came from Topheth, where Yahweh had sent him to prophesy, and he stood in the court of Yahweh’s house, and said to all the people:
 <sup>15</sup> “Yahweh of Armies, the God of Israel says, ‘Behold, I will bring on this city and on all its towns all the evil that I have pronounced against it, because they have made their neck stiff, that they may not hear my words.’ ”
+
 ## Chapter 20
 
 <sup>1</sup> Now Pashhur, the son of Immer the priest, who was chief officer in Yahweh’s house, heard Jeremiah prophesying these things.
@@ -677,6 +703,7 @@
 <sup>12</sup> House of David, Yahweh says,<br>‘Execute justice in the morning,<br>and deliver him who is robbed out of the hand of the oppressor,<br>lest my wrath go out like fire,<br>and burn so that no one can quench it,<br>because of the evil of your doings.<br>
 <sup>13</sup> Behold, I am against you, O inhabitant of the valley,<br>and of the rock of the plain,’ says Yahweh.<br>‘You that say, “Who would come down against us?”<br>or, “Who would enter into our homes?”<br>
 <sup>14</sup> I will punish you according to the fruit of your doings,’ says Yahweh;<br>‘and I will kindle a fire in her forest,<br>and it will devour all that is around her.’ ”
+
 ## Chapter 22
 
 <sup>1</sup> Yahweh said, “Go down to the house of the king of Judah, and speak this word there:
@@ -714,6 +741,7 @@
 <sup>28</sup> Is this man Coniah a despised broken vessel?<br>Is he a vessel in which no one delights?<br>Why are they cast out, he and his offspring,<br>and cast into a land which they don’t know?<br>
 <sup>29</sup> O earth, earth, earth,<br>hear Yahweh’s word!<br>
 <sup>30</sup> Yahweh says,<br>“Record this man as childless,<br>a man who will not prosper in his days;<br>for no more will a man of his offspring prosper,<br>sitting on David’s throne<br>and ruling in Judah.”
+
 ## Chapter 23
 
 <sup>1</sup> “Woe to the shepherds who destroy and scatter the sheep of my pasture!” says Yahweh.
@@ -764,12 +792,15 @@
 <sup>38</sup> Although you say, ‘The message from Yahweh,’ therefore Yahweh says: ‘Because you say this word, “The message from Yahweh,” and I have sent to you, telling you not to say, “The message from Yahweh,”
 <sup>39</sup> therefore behold, I will utterly forget you, and I will cast you off with the city that I gave to you and to your fathers, away from my presence.
 <sup>40</sup> I will bring an everlasting reproach on you, and a perpetual shame, which will not be forgotten.’ ”
+
 ## Chapter 24
 
 <sup>1</sup> Yahweh showed me, and behold, two baskets of figs were set before Yahweh’s temple, after Nebuchadnezzar king of Babylon had carried away captive Jeconiah the son of Jehoiakim, king of Judah, and the princes of Judah, with the craftsmen and smiths, from Jerusalem, and had brought them to Babylon.
 <sup>2</sup> One basket had very good figs, like the figs that are first-ripe; and the other basket had very bad figs, which could not be eaten, they were so bad.
 
-<sup>3</sup> Then Yahweh asked me, “What do you see, Jeremiah?” I said, “Figs. The good figs are very good, and the bad are very bad, so bad that they can’t be eaten.”
+<sup>3</sup> Then Yahweh asked me, “What do you see, Jeremiah?”
+
+I said, “Figs. The good figs are very good, and the bad are very bad, so bad that they can’t be eaten.”
 
 <sup>4</sup> Yahweh’s word came to me, saying,
 <sup>5</sup> “Yahweh, the God of Israel says: ‘Like these good figs, so I will regard the captives of Judah, whom I have sent out of this place into the land of the Chaldeans, as good.
@@ -779,6 +810,7 @@
 <sup>8</sup> “ ‘As the bad figs, which can’t be eaten, they are so bad,’ surely Yahweh says, ‘So I will give up Zedekiah the king of Judah, and his princes, and the remnant of Jerusalem who remain in this land, and those who dwell in the land of Egypt.
 <sup>9</sup> I will even give them up to be tossed back and forth among all the kingdoms of the earth for evil, to be a reproach and a proverb, a taunt and a curse, in all places where I will drive them.
 <sup>10</sup> I will send the sword, the famine, and the pestilence among them, until they are consumed from off the land that I gave to them and to their fathers.’ ”
+
 ## Chapter 25
 
 <sup>1</sup> The word that came to Jeremiah concerning all the people of Judah, in the fourth year of Jehoiakim the son of Josiah, king of Judah (this was the first year of Nebuchadnezzar king of Babylon),
@@ -828,6 +860,7 @@
 <sup>36</sup> A voice of the cry of the shepherds,<br>and the wailing of the leader of the flock,<br>for Yahweh destroys their pasture.<br>
 <sup>37</sup> The peaceful folds are brought to silence<br>because of the fierce anger of Yahweh.<br>
 <sup>38</sup> He has left his covert, as the lion;<br>for their land has become an astonishment because of the fierceness of the oppression,<br>and because of his fierce anger.
+
 ## Chapter 26
 
 <sup>1</sup> In the beginning of the reign of Jehoiakim the son of Josiah, king of Judah, this word came from Yahweh:
@@ -861,6 +894,7 @@
 <sup>23</sup> They fetched Uriah out of Egypt and brought him to Jehoiakim the king, who killed him with the sword and cast his dead body into the graves of the common people.
 
 <sup>24</sup> But the hand of Ahikam the son of Shaphan was with Jeremiah, so that they didn’t give him into the hand of the people to put him to death.
+
 ## Chapter 27
 
 <sup>1</sup> In the beginning of the reign of Jehoiakim the son of Josiah, king of Judah, this word came to Jeremiah from Yahweh, saying,
@@ -888,6 +922,7 @@
 <sup>20</sup> which Nebuchadnezzar king of Babylon didn’t take when he carried away captive Jeconiah the son of Jehoiakim, king of Judah, from Jerusalem to Babylon, and all the nobles of Judah and Jerusalem—
 <sup>21</sup> yes, Yahweh of Armies, the God of Israel, says concerning the vessels that are left in Yahweh’s house, and in the house of the king of Judah, and at Jerusalem:
 <sup>22</sup> ‘They will be carried to Babylon, and there they will be, until the day that I visit them,’ says Yahweh; ‘then I will bring them up, and restore them to this place.’ ”
+
 ## Chapter 28
 
 <sup>1</sup> That same year, in the beginning of the reign of Zedekiah king of Judah, in the fourth year, in the fifth month, Hananiah the son of Azzur, the prophet, who was of Gibeon, spoke to me in Yahweh’s house, in the presence of the priests and of all the people, saying,
@@ -912,6 +947,7 @@
 <sup>16</sup> Therefore Yahweh says, ‘Behold, I will send you away from off the surface of the earth. This year you will die, because you have spoken rebellion against Yahweh.’ ”
 
 <sup>17</sup> So Hananiah the prophet died the same year in the seventh month.
+
 ## Chapter 29
 
 <sup>1</sup> Now these are the words of the letter that Jeremiah the prophet sent from Jerusalem to the residue of the elders of the captivity, and to the priests, to the prophets, and to all the people whom Nebuchadnezzar had carried away captive from Jerusalem to Babylon,
@@ -948,6 +984,7 @@
 <sup>30</sup> Then Yahweh’s word came to Jeremiah, saying,
 <sup>31</sup> “Send to all of the captives, saying, ‘Yahweh says concerning Shemaiah the Nehelamite: “Because Shemaiah has prophesied to you, and I didn’t send him, and he has caused you to trust in a lie,”
 <sup>32</sup> therefore Yahweh says, “Behold, I will punish Shemaiah the Nehelamite and his offspring. He will not have a man to dwell among this people. He won’t see the good that I will do to my people,” says Yahweh, “because he has spoken rebellion against Yahweh.” ’ ”
+
 ## Chapter 30
 
 <sup>1</sup> The word that came to Jeremiah from Yahweh, saying,
@@ -977,6 +1014,7 @@
 <sup>22</sup> “You shall be my people,<br>and I will be your God.<br>
 <sup>23</sup> Behold, Yahweh’s storm, his wrath, has gone out,<br>a sweeping storm;<br>it will burst on the head of the wicked.<br>
 <sup>24</sup> The fierce anger of Yahweh will not return until he has accomplished,<br>and until he has performed the intentions of his heart.<br>In the latter days you will understand it.”
+
 ## Chapter 31
 
 <sup>1</sup> “At that time,” says Yahweh, “I will be the God of all the families of Israel, and they will be my people.”
@@ -1032,6 +1070,7 @@
 <sup>38</sup> “Behold, the days come,” says Yahweh, “that the city will be built to Yahweh from the tower of Hananel to the gate of the corner.
 <sup>39</sup> The measuring line will go out further straight onward to the hill Gareb, and will turn toward Goah.
 <sup>40</sup> The whole valley of the dead bodies and of the ashes, and all the fields to the brook Kidron, to the corner of the horse gate toward the east, will be holy to Yahweh. It will not be plucked up or thrown down any more forever.”
+
 ## Chapter 32
 
 <sup>1</sup> This is the word that came to Jeremiah from Yahweh in the tenth year of Zedekiah king of Judah, which was the eighteenth year of Nebuchadnezzar.
@@ -1044,7 +1083,9 @@
 <sup>6</sup> Jeremiah said, “Yahweh’s word came to me, saying,
 <sup>7</sup> ‘Behold, Hanamel the son of Shallum your uncle will come to you, saying, “Buy my field that is in Anathoth; for the right of redemption is yours to buy it.” ’ ”
 
-<sup>8</sup> “So Hanamel my uncle’s son came to me in the court of the guard according to Yahweh’s word, and said to me, ‘Please buy my field that is in Anathoth, which is in the land of Benjamin; for the right of inheritance is yours, and the redemption is yours. Buy it for yourself.’ “Then I knew that this was Yahweh’s word.
+<sup>8</sup> “So Hanamel my uncle’s son came to me in the court of the guard according to Yahweh’s word, and said to me, ‘Please buy my field that is in Anathoth, which is in the land of Benjamin; for the right of inheritance is yours, and the redemption is yours. Buy it for yourself.’
+
+“Then I knew that this was Yahweh’s word.
 <sup>9</sup> I bought the field that was in Anathoth of Hanamel my uncle’s son, and weighed him the money, even seventeen shekels<sup>a</sup> of silver.
 <sup>10</sup> I signed the deed, sealed it, called witnesses, and weighed the money in the balances to him.
 <sup>11</sup> So I took the deed of the purchase, both that which was sealed, containing the terms and conditions, and that which was open;
@@ -1125,6 +1166,7 @@
 <sup>24</sup> “Don’t consider what this people has spoken, saying, ‘Has Yahweh cast off the two families which he chose?’ Thus they despise my people, that they should be no more a nation before them.”
 <sup>25</sup> Yahweh says: “If my covenant of day and night fails, if I have not appointed the ordinances of heaven and earth,
 <sup>26</sup> then I will also cast away the offspring of Jacob, and of David my servant, so that I will not take of his offspring to be rulers over the offspring of Abraham, Isaac, and Jacob; for I will cause their captivity to be reversed and will have mercy on them.”
+
 ## Chapter 34
 
 <sup>1</sup> The word which came to Jeremiah from Yahweh, when Nebuchadnezzar king of Babylon, with all his army, all the kingdoms of the earth that were under his dominion, and all the peoples, were fighting against Jerusalem and against all its cities, saying:
@@ -1155,6 +1197,7 @@
 
 <sup>21</sup> “I will give Zedekiah king of Judah and his princes into the hands of their enemies, into the hands of those who seek their life and into the hands of the king of Babylon’s army, who has gone away from you.
 <sup>22</sup> Behold, I will command,” says Yahweh, “and cause them to return to this city. They will fight against it, take it, and burn it with fire. I will make the cities of Judah a desolation, without inhabitant.”
+
 ## Chapter 35
 
 <sup>1</sup> The word which came to Jeremiah from Yahweh in the days of Jehoiakim the son of Josiah, king of Judah, saying,
@@ -1181,6 +1224,7 @@
 
 <sup>18</sup> Jeremiah said to the house of the Rechabites, “Yahweh of Armies, the God of Israel, says: ‘Because you have obeyed the commandment of Jonadab your father, and kept all his precepts, and done according to all that he commanded you,’
 <sup>19</sup> therefore Yahweh of Armies, the God of Israel, says: ‘Jonadab the son of Rechab will not lack a man to stand before me forever.’ ”
+
 ## Chapter 36
 
 <sup>1</sup> In the fourth year of Jehoiakim the son of Josiah, king of Judah, this word came to Jeremiah from Yahweh, saying,
@@ -1199,8 +1243,12 @@
 <sup>11</sup> When Micaiah the son of Gemariah, the son of Shaphan, had heard out of the book all Yahweh’s words,
 <sup>12</sup> he went down into the king’s house, into the scribe’s room; and behold, all the princes were sitting there, Elishama the scribe, Delaiah the son of Shemaiah, Elnathan the son of Achbor, Gemariah the son of Shaphan, Zedekiah the son of Hananiah, and all the princes.
 <sup>13</sup> Then Micaiah declared to them all the words that he had heard, when Baruch read the book in the ears of the people.
-<sup>14</sup> Therefore all the princes sent Jehudi the son of Nethaniah, the son of Shelemiah, the son of Cushi, to Baruch, saying, “Take in your hand the scroll in which you have read in the ears of the people, and come.” So Baruch the son of Neriah took the scroll in his hand, and came to them.
-<sup>15</sup> They said to him, “Sit down now, and read it in our hearing.” So Baruch read it in their hearing.
+<sup>14</sup> Therefore all the princes sent Jehudi the son of Nethaniah, the son of Shelemiah, the son of Cushi, to Baruch, saying, “Take in your hand the scroll in which you have read in the ears of the people, and come.”
+
+So Baruch the son of Neriah took the scroll in his hand, and came to them.
+<sup>15</sup> They said to him, “Sit down now, and read it in our hearing.”
+
+So Baruch read it in their hearing.
 
 <sup>16</sup> Now when they had heard all the words, they turned in fear one toward another, and said to Baruch, “We will surely tell the king of all these words.”
 <sup>17</sup> They asked Baruch, saying, “Tell us now, how did you write all these words at his mouth?”
@@ -1224,6 +1272,7 @@
 <sup>31</sup> I will punish him, his offspring, and his servants for their iniquity. I will bring on them, on the inhabitants of Jerusalem, and on the men of Judah, all the evil that I have pronounced against them, but they didn’t listen.” ’ ”
 
 <sup>32</sup> Then Jeremiah took another scroll, and gave it to Baruch the scribe, the son of Neriah, who wrote therein from the mouth of Jeremiah all the words of the book which Jehoiakim king of Judah had burned in the fire; and many similar words were added to them.
+
 ## Chapter 37
 
 <sup>1</sup> Zedekiah the son of Josiah reigned as king instead of Coniah the son of Jehoiakim, whom Nebuchadnezzar king of Babylon made king in the land of Judah.
@@ -1245,17 +1294,22 @@
 <sup>12</sup> then Jeremiah went out of Jerusalem to go into the land of Benjamin, to receive his portion there, in the middle of the people.
 <sup>13</sup> When he was in Benjamin’s gate, a captain of the guard was there, whose name was Irijah, the son of Shelemiah, the son of Hananiah; and he seized Jeremiah the prophet, saying, “You are defecting to the Chaldeans!”
 
-<sup>14</sup> Then Jeremiah said, “That is false! I am not defecting to the Chaldeans.” But he didn’t listen to him; so Irijah seized Jeremiah, and brought him to the princes.
+<sup>14</sup> Then Jeremiah said, “That is false! I am not defecting to the Chaldeans.”
+
+But he didn’t listen to him; so Irijah seized Jeremiah, and brought him to the princes.
 <sup>15</sup> The princes were angry with Jeremiah, and struck him, and put him in prison in the house of Jonathan the scribe; for they had made that the prison.
 
 <sup>16</sup> When Jeremiah had come into the dungeon house and into the cells, and Jeremiah had remained there many days,
-<sup>17</sup> then Zedekiah the king sent and had him brought out. The king asked him secretly in his house, “Is there any word from Yahweh?” Jeremiah said, “There is.” He also said, “You will be delivered into the hand of the king of Babylon.”
+<sup>17</sup> then Zedekiah the king sent and had him brought out. The king asked him secretly in his house, “Is there any word from Yahweh?”
+
+Jeremiah said, “There is.” He also said, “You will be delivered into the hand of the king of Babylon.”
 
 <sup>18</sup> Moreover Jeremiah said to King Zedekiah, “How have I sinned against you, against your servants, or against this people, that you have put me in prison?
 <sup>19</sup> Now where are your prophets who prophesied to you, saying, ‘The king of Babylon will not come against you, nor against this land’?
 <sup>20</sup> Now please hear, my lord the king: please let my supplication be presented before you, that you not cause me to return to the house of Jonathan the scribe, lest I die there.”
 
 <sup>21</sup> Then Zedekiah the king commanded, and they committed Jeremiah into the court of the guard. They gave him daily a loaf of bread out of the bakers’ street, until all the bread in the city was gone. Thus Jeremiah remained in the court of the guard.
+
 ## Chapter 38
 
 <sup>1</sup> Shephatiah the son of Mattan, Gedaliah the son of Pashhur, Jucal the son of Shelemiah, and Pashhur the son of Malchijah heard the words that Jeremiah spoke to all the people, saying,
@@ -1275,7 +1329,9 @@
 <sup>10</sup> Then the king commanded Ebedmelech the Ethiopian, saying, “Take from here thirty men with you, and take up Jeremiah the prophet out of the dungeon, before he dies.”
 
 <sup>11</sup> So Ebedmelech took the men with him, and went into the house of the king under the treasury, and took from there rags and worn-out garments, and let them down by cords into the dungeon to Jeremiah.
-<sup>12</sup> Ebedmelech the Ethiopian said to Jeremiah, “Now put these rags and worn-out garments under your armpits under the cords.” Jeremiah did so.
+<sup>12</sup> Ebedmelech the Ethiopian said to Jeremiah, “Now put these rags and worn-out garments under your armpits under the cords.”
+
+Jeremiah did so.
 <sup>13</sup> So they lifted Jeremiah up with the cords, and took him up out of the dungeon; and Jeremiah remained in the court of the guard.
 
 <sup>14</sup> Then Zedekiah the king sent and took Jeremiah the prophet to himself into the third entry that is in Yahweh’s house. Then the king said to Jeremiah, “I will ask you something. Hide nothing from me.”
@@ -1302,6 +1358,7 @@
 <sup>27</sup> Then all the princes came to Jeremiah, and asked him; and he told them according to all these words that the king had commanded. So they stopped speaking with him, for the matter was not perceived.
 
 <sup>28</sup> So Jeremiah stayed in the court of the guard until the day that Jerusalem was taken.
+
 ## Chapter 39
 
 <sup>1</sup> In the ninth year of Zedekiah king of Judah, in the tenth month, Nebuchadnezzar king of Babylon and all his army came against Jerusalem, and besieged it.
@@ -1327,13 +1384,16 @@
 <sup>16</sup> “Go, and speak to Ebedmelech the Ethiopian, saying, ‘Yahweh of Armies, the God of Israel, says: “Behold, I will bring my words on this city for evil, and not for good; and they will be accomplished before you in that day.
 <sup>17</sup> But I will deliver you in that day,” says Yahweh; “and you will not be given into the hand of the men of whom you are afraid.
 <sup>18</sup> For I will surely save you. You won’t fall by the sword, but you will escape with your life, because you have put your trust in me,” says Yahweh.’ ”
+
 ## Chapter 40
 
 <sup>1</sup> The word which came to Jeremiah from Yahweh, after Nebuzaradan the captain of the guard had let him go from Ramah, when he had taken him being bound in chains among all the captives of Jerusalem and Judah who were carried away captive to Babylon.
 <sup>2</sup> The captain of the guard took Jeremiah and said to him, “Yahweh your God pronounced this evil on this place;
 <sup>3</sup> and Yahweh has brought it, and done according as he spoke. Because you have sinned against Yahweh, and have not obeyed his voice, therefore this thing has come on you.
 <sup>4</sup> Now, behold, I release you today from the chains which are on your hand. If it seems good to you to come with me into Babylon, come, and I will take care of you; but if it seems bad to you to come with me into Babylon, don’t. Behold, all the land is before you. Where it seems good and right to you to go, go there.”
-<sup>5</sup> Now while he had not yet gone back, “Go back then,” he said, “to Gedaliah the son of Ahikam, the son of Shaphan, whom the king of Babylon has made governor over the cities of Judah, and dwell with him among the people; or go wherever it seems right to you to go.” So the captain of the guard gave him food and a present, and let him go.
+<sup>5</sup> Now while he had not yet gone back, “Go back then,” he said, “to Gedaliah the son of Ahikam, the son of Shaphan, whom the king of Babylon has made governor over the cities of Judah, and dwell with him among the people; or go wherever it seems right to you to go.”
+
+So the captain of the guard gave him food and a present, and let him go.
 <sup>6</sup> Then Jeremiah went to Gedaliah the son of Ahikam to Mizpah, and lived with him among the people who were left in the land.
 
 <sup>7</sup> Now when all the captains of the forces who were in the fields, even they and their men, heard that the king of Babylon had made Gedaliah the son of Ahikam governor in the land, and had committed to him men, women, children, and of the poorest of the land, of those who were not carried away captive to Babylon,
@@ -1345,11 +1405,14 @@
 <sup>12</sup> then all the Jews returned out of all places where they were driven, and came to the land of Judah, to Gedaliah, to Mizpah, and gathered very much wine and summer fruits.
 
 <sup>13</sup> Moreover Johanan the son of Kareah, and all the captains of the forces who were in the fields, came to Gedaliah to Mizpah,
-<sup>14</sup> and said to him, “Do you know that Baalis the king of the children of Ammon has sent Ishmael the son of Nethaniah to take your life?” But Gedaliah the son of Ahikam didn’t believe them.
+<sup>14</sup> and said to him, “Do you know that Baalis the king of the children of Ammon has sent Ishmael the son of Nethaniah to take your life?”
+
+But Gedaliah the son of Ahikam didn’t believe them.
 
 <sup>15</sup> Then Johanan the son of Kareah spoke to Gedaliah in Mizpah secretly, saying, “Please let me go, and I will kill Ishmael the son of Nethaniah, and no man will know it. Why should he take your life, that all the Jews who are gathered to you should be scattered, and the remnant of Judah perish?”
 
 <sup>16</sup> But Gedaliah the son of Ahikam said to Johanan the son of Kareah, “You shall not do this thing, for you speak falsely of Ishmael.”
+
 ## Chapter 41
 
 <sup>1</sup> Now in the seventh month, Ishmael the son of Nethaniah, the son of Elishama, of the royal offspring and one of the chief officers of the king, and ten men with him, came to Gedaliah the son of Ahikam to Mizpah; and there they ate bread together in Mizpah.
@@ -1360,7 +1423,9 @@
 <sup>5</sup> men came from Shechem, from Shiloh, and from Samaria, even eighty men, having their beards shaved and their clothes torn, and having cut themselves, with meal offerings and frankincense in their hand, to bring them to Yahweh’s house.
 <sup>6</sup> Ishmael the son of Nethaniah went out from Mizpah to meet them, weeping all along as he went, and as he met them, he said to them, “Come to Gedaliah the son of Ahikam.”
 <sup>7</sup> It was so, when they came into the middle of the city, that Ishmael the son of Nethaniah killed them, and cast them into the middle of the pit, he, and the men who were with him.
-<sup>8</sup> But ten men were found among those who said to Ishmael, “Don’t kill us; for we have stores hidden in the field, of wheat, and of barley, and of oil, and of honey.” So he stopped, and didn’t kill them among their brothers.
+<sup>8</sup> But ten men were found among those who said to Ishmael, “Don’t kill us; for we have stores hidden in the field, of wheat, and of barley, and of oil, and of honey.”
+
+So he stopped, and didn’t kill them among their brothers.
 <sup>9</sup> Now the pit in which Ishmael cast all the dead bodies of the men whom he had killed, by the side of Gedaliah (this was that which Asa the king had made for fear of Baasha king of Israel), Ishmael the son of Nethaniah filled it with those who were killed.
 
 <sup>10</sup> Then Ishmael carried away captive all of the people who were left in Mizpah, even the king’s daughters, and all the people who remained in Mizpah, whom Nebuzaradan the captain of the guard had committed to Gedaliah the son of Ahikam. Ishmael the son of Nethaniah carried them away captive, and departed to go over to the children of Ammon.
@@ -1374,6 +1439,7 @@
 <sup>16</sup> Then Johanan the son of Kareah and all the captains of the forces who were with him took all the remnant of the people whom he had recovered from Ishmael the son of Nethaniah, from Mizpah, after he had killed Gedaliah the son of Ahikam—the men of war, with the women, the children, and the eunuchs, whom he had brought back from Gibeon.
 <sup>17</sup> They departed and lived in Geruth Chimham, which is by Bethlehem, to go to enter into Egypt
 <sup>18</sup> because of the Chaldeans; for they were afraid of them, because Ishmael the son of Nethaniah had killed Gedaliah the son of Ahikam, whom the king of Babylon made governor over the land.
+
 ## Chapter 42
 
 <sup>1</sup> Then all the captains of the forces, and Johanan the son of Kareah, and Jezaniah the son of Hoshaiah, and all the people from the least even to the greatest, came near,
@@ -1403,6 +1469,7 @@
 <sup>20</sup> For you have dealt deceitfully against your own souls; for you sent me to Yahweh your God, saying, ‘Pray for us to Yahweh our God; and according to all that Yahweh our God says, so declare to us, and we will do it.’
 <sup>21</sup> I have declared it to you today; but you have not obeyed Yahweh your God’s voice in anything for which he has sent me to you.
 <sup>22</sup> Now therefore know certainly that you will die by the sword, by the famine, and by the pestilence in the place where you desire to go to live.”
+
 ## Chapter 43
 
 <sup>1</sup> When Jeremiah had finished speaking to all the people all the words of Yahweh their God, with which Yahweh their God had sent him to them, even all these words,
@@ -1420,6 +1487,7 @@
 <sup>11</sup> He will come, and will strike the land of Egypt; such as are for death will be put to death, and such as are for captivity to captivity, and such as are for the sword to the sword.
 <sup>12</sup> I will kindle a fire in the houses of the gods of Egypt. He will burn them, and carry them away captive. He will array himself with the land of Egypt, as a shepherd puts on his garment; and he will go out from there in peace.
 <sup>13</sup> He will also break the pillars of Beth Shemesh that is in the land of Egypt; and he will burn the houses of the gods of Egypt with fire.’ ”
+
 ## Chapter 44
 
 <sup>1</sup> The word that came to Jeremiah concerning all the Jews who lived in the land of Egypt, who lived at Migdol, and at Tahpanhes, and at Memphis, and in the country of Pathros, saying,
@@ -1452,7 +1520,9 @@
 <sup>23</sup> Because you have burned incense and because you have sinned against Yahweh, and have not obeyed Yahweh’s voice, nor walked in his law, nor in his statutes, nor in his testimonies; therefore this evil has happened to you, as it is today.”
 
 <sup>24</sup> Moreover Jeremiah said to all the people, including all the women, “Hear Yahweh’s word, all Judah who are in the land of Egypt!
-<sup>25</sup> Yahweh of Armies, the God of Israel, says, ‘You and your wives have both spoken with your mouths, and with your hands have fulfilled it, saying, “We will surely perform our vows that we have vowed, to burn incense to the queen of the sky, and to pour out drink offerings to her.” “ ‘Establish then your vows, and perform your vows.’
+<sup>25</sup> Yahweh of Armies, the God of Israel, says, ‘You and your wives have both spoken with your mouths, and with your hands have fulfilled it, saying, “We will surely perform our vows that we have vowed, to burn incense to the queen of the sky, and to pour out drink offerings to her.”
+
+“ ‘Establish then your vows, and perform your vows.’
 
 <sup>26</sup> “Therefore hear Yahweh’s word, all Judah who dwell in the land of Egypt: ‘Behold, I have sworn by my great name,’ says Yahweh, ‘that my name will no more be named in the mouth of any man of Judah in all the land of Egypt, saying, “As the Lord Yahweh lives.”
 <sup>27</sup> Behold, I watch over them for evil, and not for good; and all the men of Judah who are in the land of Egypt will be consumed by the sword and by the famine, until they are all gone.
@@ -1460,6 +1530,7 @@
 
 <sup>29</sup> “ ‘This will be the sign to you,’ says Yahweh, ‘that I will punish you in this place, that you may know that my words will surely stand against you for evil.’
 <sup>30</sup> Yahweh says, ‘Behold, I will give Pharaoh Hophra king of Egypt into the hand of his enemies and into the hand of those who seek his life, just as I gave Zedekiah king of Judah into the hand of Nebuchadnezzar king of Babylon, who was his enemy and sought his life.’ ”
+
 ## Chapter 45
 
 <sup>1</sup> The message that Jeremiah the prophet spoke to Baruch the son of Neriah, when he wrote these words in a book at the mouth of Jeremiah, in the fourth year of Jehoiakim the son of Josiah, king of Judah, saying,
@@ -1468,6 +1539,7 @@
 
 <sup>4</sup> “You shall tell him, Yahweh says: ‘Behold, that which I have built, I will break down, and that which I have planted I will pluck up; and this in the whole land.
 <sup>5</sup> Do you seek great things for yourself? Don’t seek them; for, behold, I will bring evil on all flesh,’ says Yahweh, ‘but I will let you escape with your life wherever you go.’ ”
+
 ## Chapter 46
 
 <sup>1</sup> Yahweh’s word which came to Jeremiah the prophet concerning the nations.
@@ -1504,6 +1576,7 @@
 <sup>26</sup> I will deliver them into the hand of those who seek their lives, and into the hand of Nebuchadnezzar king of Babylon, and into the hand of his servants. Afterwards it will be inhabited, as in the days of old,” says Yahweh.<br>
 <sup>27</sup> “But don’t you be afraid, Jacob my servant.<br>Don’t be dismayed, Israel;<br>for, behold, I will save you from afar,<br>and your offspring from the land of their captivity.<br>Jacob will return,<br>and will be quiet and at ease.<br>No one will make him afraid.<br>
 <sup>28</sup> Don’t be afraid, O Jacob my servant,” says Yahweh,<br>“for I am with you;<br>for I will make a full end of all the nations where I have driven you,<br>but I will not make a full end of you,<br>but I will correct you in measure,<br>and will in no way leave you unpunished.”
+
 ## Chapter 47
 
 <sup>1</sup> Yahweh’s word that came to Jeremiah the prophet concerning the Philistines, before Pharaoh struck Gaza.
@@ -1516,6 +1589,7 @@
 <sup>6</sup> “ ‘You sword of Yahweh, how long will it be before you are quiet?<br>Put yourself back into your scabbard;<br>rest, and be still.’
 
 <sup>7</sup> “How can you be quiet,<br>since Yahweh has given you a command?<br>Against Ashkelon, and against the seashore,<br>there he has appointed it.”
+
 ## Chapter 48
 
 <sup>1</sup> Of Moab. Yahweh of Armies, the God of Israel, says:<br>“Woe to Nebo!<br>For it is laid waste.<br>Kiriathaim is disappointed.<br>It is taken.<br>Misgab<sup>a</sup> is put to shame<br>and broken down.<br>
@@ -1572,7 +1646,9 @@
 <sup>45</sup> “Those who fled stand without strength under the shadow of Heshbon;<br>for a fire has gone out of Heshbon,<br>and a flame from the middle of Sihon,<br>and has devoured the corner of Moab,<br>and the crown of the head of the tumultuous ones.<br>
 <sup>46</sup> Woe to you, O Moab!<br>The people of Chemosh are undone;<br>for your sons are taken away captive,<br>and your daughters into captivity.
 
-<sup>47</sup> “Yet I will reverse the captivity of Moab in the latter days,”<br>says Yahweh. Thus far is the judgment of Moab.
+<sup>47</sup> “Yet I will reverse the captivity of Moab in the latter days,”<br>says Yahweh.
+
+Thus far is the judgment of Moab.
 
 > - <sup>a</sup> 1. or, The stronghold
 
@@ -1625,6 +1701,7 @@
 <sup>37</sup> I will cause Elam to be dismayed before their enemies,<br>and before those who seek their life.<br>I will bring evil on them, even my fierce anger,’ says Yahweh;<br>‘and I will send the sword after them,<br>until I have consumed them.<br>
 <sup>38</sup> I will set my throne in Elam,<br>and will destroy from there king and princes,’ says Yahweh.<br>
 <sup>39</sup> ‘But it will happen in the latter days<br>that I will reverse the captivity of Elam,’ says Yahweh.”
+
 ## Chapter 50
 
 <sup>1</sup> The word that Yahweh spoke concerning Babylon, concerning the land of the Chaldeans, by Jeremiah the prophet.<br>
@@ -1682,6 +1759,7 @@
 <sup>44</sup> Behold, the enemy will come up like a lion<br>from the thickets of the Jordan against the strong habitation;<br>for I will suddenly make them run away from it.<br>Whoever is chosen,<br>I will appoint him over it,<br>for who is like me?<br>Who will appoint me a time?<br>Who is the shepherd who can stand before me?”<br>
 <sup>45</sup> Therefore hear the counsel of Yahweh<br>that he has taken against Babylon;<br>and his purposes<br>that he has purposed against the land of the Chaldeans:<br>Surely they will drag them away,<br>even the little ones of the flock.<br>Surely he will make their habitation desolate over them.<br>
 <sup>46</sup> The earth trembles at the noise of the taking of Babylon.<br>The cry is heard among the nations.
+
 ## Chapter 51
 
 <sup>1</sup> Yahweh says:<br>“Behold, I will raise up against Babylon,<br>and against those who dwell in Lebkamai, a destroying wind.<br>
@@ -1767,12 +1845,17 @@
 <sup>61</sup> Jeremiah said to Seraiah, “When you come to Babylon, then see that you read all these words,
 <sup>62</sup> and say, ‘Yahweh, you have spoken concerning this place, to cut it off, that no one will dwell in it, neither man nor animal, but that it will be desolate forever.’
 <sup>63</sup> It will be, when you have finished reading this book, that you shall bind a stone to it, and cast it into the middle of the Euphrates.
-<sup>64</sup> Then you shall say, ‘Thus will Babylon sink, and will not rise again because of the evil that I will bring on her; and they will be weary.’ ” Thus far are the words of Jeremiah.
+<sup>64</sup> Then you shall say, ‘Thus will Babylon sink, and will not rise again because of the evil that I will bring on her; and they will be weary.’ ”
+
+Thus far are the words of Jeremiah.
+
 ## Chapter 52
 
 <sup>1</sup> Zedekiah was twenty-one years old when he began to reign. He reigned eleven years in Jerusalem. His mother’s name was Hamutal the daughter of Jeremiah of Libnah.
 <sup>2</sup> He did that which was evil in Yahweh’s sight, according to all that Jehoiakim had done.
-<sup>3</sup> For through Yahweh’s anger this happened in Jerusalem and Judah, until he had cast them out from his presence. Zedekiah rebelled against the king of Babylon.
+<sup>3</sup> For through Yahweh’s anger this happened in Jerusalem and Judah, until he had cast them out from his presence.
+
+Zedekiah rebelled against the king of Babylon.
 <sup>4</sup> In the ninth year of his reign, in the tenth month, in the tenth day of the month, Nebuchadnezzar king of Babylon came, he and all his army, against Jerusalem, and encamped against it; and they built forts against it round about.
 <sup>5</sup> So the city was besieged to the eleventh year of King Zedekiah.
 
@@ -1801,7 +1884,9 @@
 <sup>24</sup> The captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the threshold,
 <sup>25</sup> and out of the city he took an officer who was set over the men of war; and seven men of those who saw the king’s face, who were found in the city; and the scribe of the captain of the army, who mustered the people of the land; and sixty men of the people of the land, who were found in the middle of the city.
 <sup>26</sup> Nebuzaradan the captain of the guard took them, and brought them to the king of Babylon to Riblah.
-<sup>27</sup> The king of Babylon struck them, and put them to death at Riblah in the land of Hamath. So Judah was carried away captive out of his land.
+<sup>27</sup> The king of Babylon struck them, and put them to death at Riblah in the land of Hamath.
+
+So Judah was carried away captive out of his land.
 <sup>28</sup> This is the number of the people whom Nebuchadnezzar carried away captive:
 <sup>29</sup> in the eighteenth year of Nebuchadnezzar, he carried away captive from Jerusalem eight hundred thirty-two persons;
 <sup>30</sup> in the twenty-third year of Nebuchadnezzar, Nebuzaradan the captain of the guard carried away captive of the Jews seven hundred forty-five people.

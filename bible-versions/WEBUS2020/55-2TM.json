@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Paul, an apostle of Jesus Christ",
         "foot": {
           "type": "stu",
           "content": "“Christ” means “Anointed One”."
-        },
-        "paragraph": true
+        }
       },
       " through the will of God, according to the promise of the life which is in Christ Jesus,"
     ]
@@ -26,8 +26,8 @@
     "chapter": 1,
     "verse": 3,
     "content": {
-      "text": "I thank God, whom I serve as my forefathers did, with a pure conscience. How unceasing is my memory of you in my petitions, night and day",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I thank God, whom I serve as my forefathers did, with a pure conscience. How unceasing is my memory of you in my petitions, night and day"
     }
   },
   {
@@ -47,8 +47,8 @@
     "chapter": 1,
     "verse": 6,
     "content": {
-      "text": "For this cause, I remind you that you should stir up the gift of God which is in you through the laying on of my hands.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this cause, I remind you that you should stir up the gift of God which is in you through the laying on of my hands."
     }
   },
   {
@@ -85,15 +85,21 @@
     "book": "2TM",
     "chapter": 1,
     "verse": 12,
-    "content": "For this cause I also suffer these things. Yet I am not ashamed, for I know him whom I have believed, and I am persuaded that he is able to guard that which I have committed to him against that day."
+    "content": [
+      "For this cause I also suffer these things.",
+      {
+        "paragraph": true,
+        "text": "Yet I am not ashamed, for I know him whom I have believed, and I am persuaded that he is able to guard that which I have committed to him against that day."
+      }
+    ]
   },
   {
     "book": "2TM",
     "chapter": 1,
     "verse": 13,
     "content": {
-      "text": "Hold the pattern of sound words which you have heard from me, in faith and love which is in Christ Jesus.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Hold the pattern of sound words which you have heard from me, in faith and love which is in Christ Jesus."
     }
   },
   {
@@ -107,8 +113,8 @@
     "chapter": 1,
     "verse": 15,
     "content": {
-      "text": "This you know, that all who are in Asia turned away from me, of whom are Phygelus and Hermogenes.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "This you know, that all who are in Asia turned away from me, of whom are Phygelus and Hermogenes."
     }
   },
   {
@@ -134,8 +140,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "You therefore, my child, be strengthened in the grace that is in Christ Jesus.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "You therefore, my child, be strengthened in the grace that is in Christ Jesus."
     }
   },
   {
@@ -180,12 +186,12 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Remember Jesus Christ, risen from the dead, of the offspring",
         "foot": {
           "type": "trn",
           "content": "or, seed"
-        },
-        "paragraph": true
+        }
       },
       " of David, according to my Good News,"
     ]
@@ -265,8 +271,8 @@
     "chapter": 2,
     "verse": 14,
     "content": {
-      "text": "Remind them of these things, charging them in the sight of the Lord that they don’t argue about words to no profit, to the subverting of those who hear.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Remind them of these things, charging them in the sight of the Lord that they don’t argue about words to no profit, to the subverting of those who hear."
     }
   },
   {
@@ -274,8 +280,8 @@
     "chapter": 2,
     "verse": 15,
     "content": {
-      "text": "Give diligence to present yourself approved by God, a workman who doesn’t need to be ashamed, properly handling the Word of Truth.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Give diligence to present yourself approved by God, a workman who doesn’t need to be ashamed, properly handling the Word of Truth."
     }
   },
   {
@@ -323,8 +329,8 @@
     "chapter": 2,
     "verse": 20,
     "content": {
-      "text": "Now in a large house there are not only vessels of gold and of silver, but also of wood and of clay. Some are for honor and some for dishonor.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now in a large house there are not only vessels of gold and of silver, but also of wood and of clay. Some are for honor and some for dishonor."
     }
   },
   {
@@ -338,8 +344,8 @@
     "chapter": 2,
     "verse": 22,
     "content": {
-      "text": "Flee from youthful lusts; but pursue righteousness, faith, love, and peace with those who call on the Lord out of a pure heart.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Flee from youthful lusts; but pursue righteousness, faith, love, and peace with those who call on the Lord out of a pure heart."
     }
   },
   {
@@ -371,8 +377,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "But know this: that in the last days, grievous times will come.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But know this: that in the last days, grievous times will come."
     }
   },
   {
@@ -428,8 +434,8 @@
     "chapter": 3,
     "verse": 10,
     "content": {
-      "text": "But you followed my teaching, conduct, purpose, faith, patience, love, steadfastness,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But you followed my teaching, conduct, purpose, faith, patience, love, steadfastness,"
     }
   },
   {
@@ -488,8 +494,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "I command you therefore before God and the Lord Jesus Christ, who will judge the living and the dead at his appearing and his Kingdom:",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I command you therefore before God and the Lord Jesus Christ, who will judge the living and the dead at his appearing and his Kingdom:"
     }
   },
   {
@@ -521,8 +527,8 @@
     "chapter": 4,
     "verse": 6,
     "content": {
-      "text": "For I am already being offered, and the time of my departure has come.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For I am already being offered, and the time of my departure has come."
     }
   },
   {
@@ -542,8 +548,8 @@
     "chapter": 4,
     "verse": 9,
     "content": {
-      "text": "Be diligent to come to me soon,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Be diligent to come to me soon,"
     }
   },
   {
@@ -587,8 +593,8 @@
     "chapter": 4,
     "verse": 16,
     "content": {
-      "text": "At my first defense, no one came to help me, but all left me. May it not be held against them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "At my first defense, no one came to help me, but all left me. May it not be held against them."
     }
   },
   {
@@ -608,8 +614,8 @@
     "chapter": 4,
     "verse": 19,
     "content": {
-      "text": "Greet Prisca and Aquila, and the house of Onesiphorus.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Greet Prisca and Aquila, and the house of Onesiphorus."
     }
   },
   {
@@ -629,8 +635,8 @@
     "chapter": 4,
     "verse": 22,
     "content": {
-      "text": "The Lord Jesus Christ be with your spirit. Grace be with you. Amen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Lord Jesus Christ be with your spirit. Grace be with you. Amen."
     }
   }
 ]

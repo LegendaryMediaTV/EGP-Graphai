@@ -32,6 +32,7 @@
 <sup>30</sup> Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents,
 <sup>31</sup> Without understanding, covenantbreakers, without natural affection, implacable, unmerciful:
 <sup>32</sup> Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them.
+
 ## Chapter 2
 
 <sup>1</sup> Therefore thou art inexcusable, O man, whosoever thou art that judgest: for wherein thou judgest another, thou condemnest thyself; for thou that judgest doest the same things.
@@ -63,6 +64,7 @@
 <sup>27</sup> And shall not uncircumcision which is by nature, if it fulfil the law, judge thee, who by the letter and circumcision dost transgress the law?
 <sup>28</sup> For he is not a Jew, which is one outwardly; neither [is that] circumcision, which is outward in the flesh:
 <sup>29</sup> But he [is] a Jew, which is one inwardly; and circumcision [is that] of the heart, in the spirit, [and] not in the letter; whose praise [is] not of men, but of God.
+
 ## Chapter 3
 
 <sup>1</sup> What advantage then hath the Jew? or what profit [is there] of circumcision?
@@ -96,6 +98,7 @@
 <sup>29</sup> [Is he] the God of the Jews only? [is he] not also of the Gentiles? Yes, of the Gentiles also:
 <sup>30</sup> Seeing [it is] one God, which shall justify the circumcision by faith, and uncircumcision through faith.
 <sup>31</sup> Do we then make void the law through faith? God forbid: yea, we establish the law.
+
 ## Chapter 4
 
 <sup>1</sup> What shall we say then that Abraham our father, as pertaining to the flesh, hath found?
@@ -123,6 +126,7 @@
 <sup>23</sup> Now it was not written for his sake alone, that it was imputed to him;
 <sup>24</sup> But for us also, to whom it shall be imputed, if we believe on him that raised up Jesus our Lord from the dead;
 <sup>25</sup> Who was delivered for our offences, and was raised again for our justification.
+
 ## Chapter 5
 
 <sup>1</sup> Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:
@@ -139,13 +143,14 @@
 <sup>12</sup> Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned:
 <sup>13</sup> (For until the law sin was in the world: but sin is not imputed when there is no law.
 <sup>14</sup> Nevertheless death reigned from Adam to Moses, even over them that had not sinned after the similitude of Adam’s transgression, who is the figure of him that was to come.
-<sup>15</sup> But not as the offence, so also [is] the free gift. For if through the offence of one many be dead, much more the grace of God, and the gift by grace, [which is ] by one man, Jesus Christ, hath abounded unto many.
+<sup>15</sup> But not as the offence, so also [is] the free gift. For if through the offence of one many be dead, much more the grace of God, and the gift by grace, [which is] by one man, Jesus Christ, hath abounded unto many.
 <sup>16</sup> And not as [it was] by one that sinned, [so is] the gift: for the judgment [was] by one to condemnation, but the free gift [is] of many offences unto justification.
 <sup>17</sup> For if by one man’s offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.)
 <sup>18</sup> Therefore as by the offence of one [judgment came] upon all men to condemnation; even so by the righteousness of one [the free gift came] upon all men unto justification of life.
 <sup>19</sup> For as by one man’s disobedience many were made sinners, so by the obedience of one shall many be made righteous.
 <sup>20</sup> Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound:
 <sup>21</sup> That as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord.
+
 ## Chapter 6
 
 <sup>1</sup> What shall we say then? Shall we continue in sin, that grace may abound?
@@ -171,9 +176,12 @@
 <sup>21</sup> What fruit had ye then in those things whereof ye are now ashamed? for the end of those things [is] death.
 <sup>22</sup> But now being made free from sin, and become servants to God, ye have your fruit unto holiness, and the end everlasting life.
 <sup>23</sup> For the wages of sin [is] death; but the gift of God [is] eternal life through Jesus Christ our Lord.
+
 ## Chapter 7
 
-<sup>1</sup>  Know ye not, brethren, (for I speak to them that know the law,) how that the law hath dominion over a man as long as he liveth?
+<sup>1</sup> 
+
+ Know ye not, brethren, (for I speak to them that know the law,) how that the law hath dominion over a man as long as he liveth?
 <sup>2</sup> For the woman which hath an husband is bound by the law to [her] husband so long as he liveth; but if the husband be dead, she is loosed from the law of [her] husband.
 <sup>3</sup> So then if, while [her] husband liveth, she be married to another man, she shall be called an adulteress: but if her husband be dead, she is free from that law; so that she is no adulteress, though she be married to another man.
 <sup>4</sup> Wherefore, my brethren, ye also are become dead to the law by the body of Christ; that ye should be married to another, [even] to him who is raised from the dead, that we should bring forth fruit unto God.
@@ -198,6 +206,7 @@
 <sup>23</sup> But I see another law in my members, warring against the law of my mind, and bringing me into captivity to the law of sin which is in my members.
 <sup>24</sup> O wretched man that I am! who shall deliver me from the body of this death?
 <sup>25</sup> I thank God through Jesus Christ our Lord. So then with the mind I myself serve the law of God; but with the flesh the law of sin.
+
 ## Chapter 8
 
 <sup>1</sup> [There is] therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.
@@ -239,6 +248,7 @@
 <sup>37</sup> Nay, in all these things we are more than conquerors through him that loved us.
 <sup>38</sup> For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come,
 <sup>39</sup> Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.
+
 ## Chapter 9
 
 <sup>1</sup> I say the truth in Christ, I lie not, my conscience also bearing me witness in the Holy Ghost,
@@ -274,6 +284,7 @@
 <sup>31</sup> But Israel, which followed after the law of righteousness, hath not attained to the law of righteousness.
 <sup>32</sup> Wherefore? Because [they sought it] not by faith, but as it were by the works of the law. For they stumbled at that stumblingstone;
 <sup>33</sup> As it is written, Behold, I lay in Sion a stumblingstone and rock of offence: and whosoever believeth on him shall not be ashamed.
+
 ## Chapter 10
 
 <sup>1</sup> Brethren, my heart’s desire and prayer to God for Israel is, that they might be saved.
@@ -297,6 +308,7 @@
 <sup>19</sup> But I say, Did not Israel know? First Moses saith, I will provoke you to jealousy by [them that are] no people, [and] by a foolish nation I will anger you.
 <sup>20</sup> But Esaias is very bold, and saith, I was found of them that sought me not; I was made manifest unto them that asked not after me.
 <sup>21</sup> But to Israel he saith, All day long I have stretched forth my hands unto a disobedient and gainsaying people.
+
 ## Chapter 11
 
 <sup>1</sup> I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, [of] the tribe of Benjamin.
@@ -326,7 +338,7 @@
 <sup>25</sup> For I would not, brethren, that ye should be ignorant of this mystery, lest ye should be wise in your own conceits; that blindness in part is happened to Israel, until the fulness of the Gentiles be come in.
 <sup>26</sup> And so all Israel shall be saved: as it is written, There shall come out of Sion the Deliverer, and shall turn away ungodliness from Jacob:
 <sup>27</sup> For this [is] my covenant unto them, when I shall take away their sins.
-<sup>28</sup> As concerning the gospel, [they are] enemies for your sakes: but as touching the election, [they are] beloved for the fathers ’ sakes.
+<sup>28</sup> As concerning the gospel, [they are] enemies for your sakes: but as touching the election, [they are] beloved for the fathers’ sakes.
 <sup>29</sup> For the gifts and calling of God [are] without repentance.
 <sup>30</sup> For as ye in times past have not believed God, yet have now obtained mercy through their unbelief:
 <sup>31</sup> Even so have these also now not believed, that through your mercy they also may obtain mercy.
@@ -335,6 +347,7 @@
 <sup>34</sup> For who hath known the mind of the Lord? or who hath been his counsellor?
 <sup>35</sup> Or who hath first given to him, and it shall be recompensed unto him again?
 <sup>36</sup> For of him, and through him, and to him, [are] all things: to whom [be] glory for ever. Amen.
+
 ## Chapter 12
 
 <sup>1</sup> I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, [which is] your reasonable service.
@@ -358,6 +371,7 @@
 <sup>19</sup> Dearly beloved, avenge not yourselves, but [rather] give place unto wrath: for it is written, Vengeance [is] mine; I will repay, saith the Lord.
 <sup>20</sup> Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head.
 <sup>21</sup> Be not overcome of evil, but overcome evil with good.
+
 ## Chapter 13
 
 <sup>1</sup> Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God.
@@ -374,6 +388,7 @@
 <sup>12</sup> The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armour of light.
 <sup>13</sup> Let us walk honestly, as in the day; not in rioting and drunkenness, not in chambering and wantonness, not in strife and envying.
 <sup>14</sup> But put ye on the Lord Jesus Christ, and make not provision for the flesh, to [fulfil] the lusts [thereof].
+
 ## Chapter 14
 
 <sup>1</sup> Him that is weak in the faith receive ye, [but] not to doubtful disputations.
@@ -399,6 +414,7 @@
 <sup>21</sup> [It is] good neither to eat flesh, nor to drink wine, nor [any thing] whereby thy brother stumbleth, or is offended, or is made weak.
 <sup>22</sup> Hast thou faith? have [it] to thyself before God. Happy [is] he that condemneth not himself in that thing which he alloweth.
 <sup>23</sup> And he that doubteth is damned if he eat, because [he eateth] not of faith: for whatsoever [is] not of faith is sin.
+
 ## Chapter 15
 
 <sup>1</sup> We then that are strong ought to bear the infirmities of the weak, and not to please ourselves.
@@ -434,9 +450,12 @@
 <sup>31</sup> That I may be delivered from them that do not believe in Judaea; and that my service which [I have] for Jerusalem may be accepted of the saints;
 <sup>32</sup> That I may come unto you with joy by the will of God, and may with you be refreshed.
 <sup>33</sup> Now the God of peace [be] with you all. Amen.
+
 ## Chapter 16
 
-<sup>1</sup>  I commend unto you Phebe our sister, which is a servant of the church which is at Cenchrea:
+<sup>1</sup> 
+
+ I commend unto you Phebe our sister, which is a servant of the church which is at Cenchrea:
 <sup>2</sup> That ye receive her in the Lord, as becometh saints, and that ye assist her in whatsoever business she hath need of you: for she hath been a succourer of many, and of myself also.
 <sup>3</sup> Greet Priscilla and Aquila my helpers in Christ Jesus:
 <sup>4</sup> Who have for my life laid down their own necks: unto whom not only I give thanks, but also all the churches of the Gentiles.

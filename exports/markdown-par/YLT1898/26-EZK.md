@@ -28,6 +28,7 @@
 <sup>26</sup> And above the expanse that is over their head, as an appearance of a sapphire stone, is the likeness of a throne, and on the likeness of the throne a likeness, as the appearance of man upon it from above.
 <sup>27</sup> And I see as the colour of copper, as the appearance of fire within it round about, from the appearance of his loins and upward, and from the appearance of his loins and downward, I have seen as the appearance of fire, and brightness is to it round about.
 <sup>28</sup> As the appearance of the bow that is in a cloud in a day of rain, so is the appearance of the brightness round about.
+
 ## Chapter 2
 
 <sup>1</sup> It is the appearance of the likeness of the honour of Jehovah, and I see, and fall on my face, and I hear a voice speaking, and He saith unto me, ‘Son of man, stand on thy feet, and I speak with thee.’
@@ -40,6 +41,7 @@
 <sup>8</sup> ‘And thou, son of man, hear that which I am speaking unto thee: Thou art not rebellious like the rebellious house, open thy mouth, and eat that which I am giving unto thee.’
 <sup>9</sup> And I look, and lo, a hand is sent forth unto me, and lo, in it a roll of a book,
 <sup>10</sup> and He spreadeth it before me, and it is written in front and behind, and written on it are lamentations, and mourning, and woe!
+
 ## Chapter 3
 
 <sup>1</sup> And He saith unto me, ‘Son of man, that which thou findest eat, eat this roll, and go, speak unto the house of Israel.’
@@ -69,6 +71,7 @@
 <sup>25</sup> ‘And thou, son of man, lo, they have put on thee thick bands, and have bound thee with them, and thou goest not forth in their midst;
 <sup>26</sup> and thy tongue I cause to cleave unto thy palate, and thou hast been dumb, and art not to them for a reprover, for a rebellious house are they.
 <sup>27</sup> And in My speaking with thee, I do open thy mouth, and thou hast said unto them: Thus said the Lord Jehovah; the hearer doth hear, and the forbearer doth forbear; for a rebellious house are they.
+
 ## Chapter 4
 
 <sup>1</sup> ‘And thou, son of man, take to thee a brick, and thou hast put it before thee, and hast graven on it a city-Jerusalem,
@@ -88,6 +91,7 @@
 <sup>15</sup> And He saith unto me, ‘See, I have given to thee bullock’s dung instead of man’s dung, and thou hast made thy bread by it.’
 <sup>16</sup> And He saith unto me, ‘Son of man, lo, I am breaking the staff of bread in Jerusalem, and they have eaten bread by weight and with fear; and water by measure and with astonishment, they do drink;
 <sup>17</sup> so that they lack bread and water, and have been astonished one with another, and been consumed in their iniquity.
+
 ## Chapter 5
 
 <sup>1</sup> ‘And thou, son of man, take to thee a sharp weapon, the barber’s razor thou dost take to thee, and thou hast caused it to pass over thy head, and over thy beard, and thou hast taken to thee weighing scales, and apportioned them.
@@ -107,6 +111,7 @@
 <sup>15</sup> And it hath been a reproach and a reviling, An instruction and an astonishment, To nations that are round about thee, In My doing in thee judgments, In anger and fury, and in furious reproofs, I, Jehovah, have spoken.
 <sup>16</sup> In My sending the evil arrows of famine among them, That have been for destruction, That I send to destroy you, And famine I am adding upon you, And I have broken to you the staff of bread.
 <sup>17</sup> And I have sent on you famine and evil beasts, And they have bereaved thee, And pestilence and blood pass over on thee, And a sword I do bring in against thee, I, Jehovah, have spoken!’
+
 ## Chapter 6
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying:
@@ -123,6 +128,7 @@
 <sup>12</sup> The far-off by pestilence dieth, And the near by sword falleth, And the left and the besieged by famine dieth, And I have completed my fury upon them.
 <sup>13</sup> And ye have known that I am Jehovah, In their wounded being in the midst of their idols, Round about their altars, On every high hill, on all tops of mountains, And under every green tree, and under every thick oak, The place where they gave sweet fragrance to all their idols.
 <sup>14</sup> And I have stretched out my hand against them, And have made the land a desolation, Even a desolation from the wilderness to Diblath, In all their dwellings, And they have known that I am Jehovah!’
+
 ## Chapter 7
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying, ‘And thou, son of man, Thus said the Lord Jehovah to the ground of Israel:
@@ -152,6 +158,7 @@
 <sup>25</sup> Destruction hath come, And they have sought peace, and there is none.
 <sup>26</sup> Mischief on mischief cometh, and report is on report, And they have sought a vision from a prophet, And law doth perish from the priest, And counsel from the elders,
 <sup>27</sup> The king doth become a mourner, And a prince putteth on desolation, And the hands of the people of the land are troubled, From their own way I deal with them, And with their own judgments I judge them, And they have known that I am Jehovah!’
+
 ## Chapter 8
 
 <sup>1</sup> And it cometh to pass, in the sixth year, in the sixth month, in the fifth of the month, I am sitting in my house, and elders of Judah are sitting before me, and fall on me there doth a hand of the Lord Jehovah,
@@ -172,6 +179,7 @@
 <sup>16</sup> And He bringeth me in unto the inner court of the house of Jehovah, and lo, at the opening of the temple of Jehovah, between the porch and the altar, about twenty-five men, their backs toward the temple of Jehovah, and their faces eastward, and they are bowing themselves eastward to the sun.
 <sup>17</sup> And He saith unto me, ‘Hast thou seen, son of man? hath it been a light thing to the house of Judah to do the abomination that they have done here, that they have filled the land with violence, and turn back to provoke Me to anger? and lo, they are putting forth the branch unto their nose!
 <sup>18</sup> And I also deal in fury, Mine eye doth not pity, nor do I spare, and they have cried in Mine ears-a loud voice-and I do not hear them.’
+
 ## Chapter 9
 
 <sup>1</sup> And He crieth in mine ears-a loud voice-saying, ‘Drawn near have inspectors of the city, and each his destroying weapon in his hand.’
@@ -185,6 +193,7 @@
 <sup>9</sup> And He saith unto me, ‘The iniquity of the house of Israel and Judah is very very great, and the land is full of blood, and the city hath been full of perverseness, for they have said: Jehovah hath forsaken the land, and Jehovah is not seeing.
 <sup>10</sup> And I also, Mine eye doth not pity, nor do I spare; their way on their own head I have put.’
 <sup>11</sup> And lo, the man clothed with linen, at whose loins is the inkhorn, is bringing back word, saying, ‘I have done as Thou hast commanded me.’
+
 ## Chapter 10
 
 <sup>1</sup> And I look, and lo, on the expanse that is above the head of the cherubs, as a sapphire stone, as the appearance of the likeness of a throne, He hath been seen over them.
@@ -209,6 +218,7 @@
 <sup>20</sup> It is the living creature that I saw under the God of Israel by the river Chebar, and I know that they are cherubs.
 <sup>21</sup> Four faces are to each, and four wings to each, and the likeness of the hands of man is under their wings.
 <sup>22</sup> As to the likeness of their faces, they are the faces that I saw by the river Chebar, their appearances and themselves; each straight forward they go.
+
 ## Chapter 11
 
 <sup>1</sup> And lift me up doth a spirit, and it bringeth me in unto the east gate of the house of Jehovah, that is facing the east, and lo, at the opening of the gate twenty and five men, and I see in their midst Jaazaniah son of Azzur, and Pelatiah son of Benaiah, heads of the people.
@@ -236,6 +246,7 @@
 <sup>23</sup> And the honour of Jehovah goeth up from off the midst of the city, and standeth on the mountain, that is on the east of the city.
 <sup>24</sup> And a spirit hath lifted me up, and bringeth me in to Chaldea, unto the Removed, in a vision, by the Spirit of God, and go up from off me doth the vision that I have seen;
 <sup>25</sup> and I speak unto the Removed all the matters of Jehovah that He hath shewed me.
+
 ## Chapter 12
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -266,6 +277,7 @@
 <sup>26</sup> And there is a word of Jehovah unto me, saying:
 <sup>27</sup> ‘Son of man, lo, the house of Israel are saying, The vision that he is seeing is for many days, and of times far off he is prophesying,
 <sup>28</sup> therefore say unto them: Thus said the Lord Jehovah: None of my words are prolonged any more, When I speak a word-it is done, An affirmation of the Lord Jehovah!’
+
 ## Chapter 13
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -291,6 +303,7 @@
 <sup>21</sup> And I have torn your kerchiefs, And delivered My people out of your hand, And they are no more in your hand for a prey, And ye have known that I am Jehovah.
 <sup>22</sup> Because of paining the heart of the righteous with falsehood, And I have not pained it, And strengthening the hands of the wicked, So as not to turn back from his evil way, To keep him alive,
 <sup>23</sup> Therefore, vanity ye do not see, And divination ye do not divine again, And I have delivered My people out of your hand, And ye have known that I am Jehovah!’
+
 ## Chapter 14
 
 <sup>1</sup> And come in unto me do certain of the elders of Israel, and sit before me.
@@ -316,6 +329,7 @@
 <sup>21</sup> ‘For thus said the Lord Jehovah: Although My four sore judgments-sword, and famine, and wild beast, and pestilence-I have sent unto Jerusalem, to cut off from it man and beast,
 <sup>22</sup> yet, lo, there hath been left in it an escape, who are brought forth, sons and daughters, lo, they are coming forth unto you, and ye have seen their way, and their doings, and have been comforted concerning the evil that I have brought in against Jerusalem, all that which I have brought in against it.
 <sup>23</sup> And they have comforted you, for ye see their way and their doings, and ye have known that not for nought have I done all that which I have done in her-an affirmation of the Lord Jehovah.’
+
 ## Chapter 15
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying:
@@ -326,6 +340,7 @@
 <sup>6</sup> Therefore, thus said the Lord Jehovah: As the vine-tree among trees of the forest, That I have given to the fire for fuel, So I have given the inhabitants of Jerusalem.
 <sup>7</sup> And I have set My face against them, From the fire they have gone forth, And the fire doth consume them, And ye have known that I am Jehovah, In My setting My face against them.
 <sup>8</sup> And I have made the land a desolation, Because they have committed a trespass, An affirmation of the Lord Jehovah!’
+
 ## Chapter 16
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -391,6 +406,7 @@
 <sup>61</sup> And thou hast remembered thy ways, And thou hast been ashamed, In thy receiving thy sisters- Thine elder with thy younger, And I have given them to thee for daughters, And not by thy covenant.
 <sup>62</sup> And I-I have established My covenant with thee, And thou hast known that I am Jehovah.
 <sup>63</sup> So that thou dost remember, And thou hast been ashamed, And there is not to thee any more an opening of the mouth because of thy shame, In My receiving atonement for thee, For all that thou hast done, An affirmation of the Lord Jehovah!’
+
 ## Chapter 17
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -417,6 +433,7 @@
 <sup>22</sup> Thus said the Lord Jehovah: I have taken of the foliage of the high cedar, And I have set it, From the top of its tender shoots a tender one I crop, And I-I have planted it on a mountain high and lofty.
 <sup>23</sup> In a mountain-the high place of Israel, I plant it, And it hath borne boughs, and yielded fruit, And become a goodly cedar, And dwelt under it have all birds of every wing, In the shade of its thin shoots they dwell.
 <sup>24</sup> And known have all trees of the field That I, Jehovah, have made low the high tree, I have set on high the low tree, I have dried up the moist tree, And I have caused the dry tree to flourish, I, Jehovah, have spoken, and have done it!’
+
 ## Chapter 18
 
 <sup>1</sup> ‘And there is a word of Jehovah unto me, saying:
@@ -451,6 +468,7 @@
 <sup>30</sup> Therefore, each according to his ways I judge you, O house of Israel? An affirmation of the Lord Jehovah, Turn ye back, yea, turn yourselves back, From all your transgressions, And iniquity is not to you for a stumbling-block,
 <sup>31</sup> Cast from off you all your transgressions, By which ye have transgressed, And make to you a new heart, and a new spirit, And why do ye die, O house of Israel?
 <sup>32</sup> For I have no pleasure in the death of the dying, An affirmation of the Lord Jehovah, And turn ye back and live!
+
 ## Chapter 19
 
 <sup>1</sup> And thou, lift up a lamentation unto princes of Israel,
@@ -467,6 +485,7 @@
 <sup>12</sup> And it is plucked up in fury, To the earth it hath been cast, And the east wind hath dried up its fruit, Broken and withered hath been the rod of its strength, Fire hath consumed it.
 <sup>13</sup> And now-it is planted in a wilderness, In a land dry and thirsty.
 <sup>14</sup> And go forth doth fire from a rod of its boughs, Its fruit it hath devoured, And it hath no rod of strength-a sceptre to rule, Lamentation it is-and it is for a lamentation!’
+
 ## Chapter 20
 
 <sup>1</sup> And it cometh to pass, in the seventh year, in the fifth month, in the tenth of the month, come in have certain of the elders of Israel to seek Jehovah, and they sit before me;
@@ -518,6 +537,7 @@
 <sup>47</sup> and thou hast said to the forest of the south: Hear a word of Jehovah: Thus said the Lord Jehovah: Lo, I am kindling in thee a fire, And it hath devoured in thee every moist tree, and every dry tree, Not quenched is the glowing flames, And burnt by it have been all faces from south to north.
 <sup>48</sup> And seen have all flesh, that I, Jehovah, have kindled it-it is not quenched.’
 <sup>49</sup> And I say, ‘Ah, Lord Jehovah, They are saying of me, Is he not using similes?
+
 ## Chapter 21
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -552,6 +572,7 @@
 <sup>30</sup> Turn it back unto its scabbard, In the place where thou wast produced, In the land of thy birth I do judge thee.
 <sup>31</sup> And I have poured on thee Mine indignation, With fire of My wrath I blow against thee, And have given thee into the hand of brutish men-artificers of destruction.
 <sup>32</sup> To the fire thou art for fuel, Thy blood is in the midst of the land, Thou art not remembered, For I, Jehovah, have spoken!’
+
 ## Chapter 22
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -585,6 +606,7 @@
 <sup>29</sup> The people of the land have used oppression, And have taken plunder violently away, And humble and needy have oppressed, And the sojourner oppressed-without judgment.
 <sup>30</sup> And I seek of them a man making a fence, And standing in the breach before Me, In behalf of the land-not to destroy it, And I have not found.
 <sup>31</sup> And I pour out on them mine indignation, By fire of My wrath I have consumed them, Their way on their own head I have put, An affirmation of the Lord Jehovah!’
+
 ## Chapter 23
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying, ‘Son of man,
@@ -636,6 +658,7 @@
 <sup>47</sup> And they have cast at them the stone of the assembly, And cut them with their swords, Their sons and their daughters they do slay, And their houses with fire they burn.
 <sup>48</sup> And I have caused wickedness to cease from the land, And instructed have been all the women, And they do not according to your wickedness.
 <sup>49</sup> And they have put your wickedness on you, And the sins of your idols ye bear, And ye have known that I am the Lord Jehovah!
+
 ## Chapter 24
 
 <sup>1</sup> And there is a word of Jehovah unto me, in the ninth year, in the tenth month, in the tenth of the month, saying,
@@ -665,6 +688,7 @@
 <sup>25</sup> And thou, son of man, Is it not in the day of My taking from them their strength, The joy of their beauty, the desire of their eyes, And the song of their soul, Their sons and their daughters?
 <sup>26</sup> In that day come doth the escaped one to thee. To cause the ears to hear.
 <sup>27</sup> In that day opened is thy mouth with the escaped, And thou speakest, and art not silent any more, And thou hast been to them for a type. And they have known that I am Jehovah.’
+
 ## Chapter 25
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -684,6 +708,7 @@
 <sup>15</sup> Thus said the Lord Jehovah: Because of the doings of the Philistines in vengeance, And they take vengeance with despite in soul, To destroy-the enmity age-during!
 <sup>16</sup> Therefore, thus said the Lord Jehovah: Lo, I am stretching out My hand against the Philistines, And I have cut off the Cherethim, And destroyed the remnant of the haven of the sea,
 <sup>17</sup> And done upon them great vengeance with furious reproofs, And they have known that I am Jehovah, In My giving out My vengeance on them!
+
 ## Chapter 26
 
 <sup>1</sup> And it cometh to pass, in the eleventh year, in the first of the month, there hath been a word of Jehovah unto me, saying: ‘Son of man,
@@ -707,6 +732,7 @@
 <sup>19</sup> For thus said the Lord Jehovah: In my making thee a city wasted, Like cities that have not been inhabited, In bringing up against thee the deep, Then covered thee have the great waters.
 <sup>20</sup> And I have caused thee to go down, With those going down to the pit, Unto the people of old, And I have caused thee to dwell in the land, The lower parts-in wastes of old, With those going down to the pit, So that thou art not inhabited, And I have given beauty in the land of the living.
 <sup>21</sup> Wastes I do make thee, and thou art not, And thou art sought, and art not found any more-to the age, An affirmation of the Lord Jehovah!’
+
 ## Chapter 27
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying:
@@ -745,6 +771,7 @@
 <sup>34</sup> The time of thy being broken by the seas in the depths of the waters, Thy merchandise and all thy assembly in thy midst have fallen.
 <sup>35</sup> All inhabitants of the isles have been astonished at thee, And their kings have been sore afraid, They have been troubled in countenance.
 <sup>36</sup> Merchants among the peoples have shrieked for thee, Wastes thou hast been, and thou art not-to the age!’
+
 ## Chapter 28
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying:
@@ -773,6 +800,7 @@
 <sup>24</sup> And there is no more to the house of Israel A pricking brier, and paining thorn, Of all round about them-despising them, And they have known that I am the Lord Jehovah.
 <sup>25</sup> Thus said the Lord Jehovah: In My gathering the house of Israel, Out of the peoples among whom they were scattered, I have been sanctified in them, Before the eyes of the nations, And they have dwelt on their ground, That I gave to My servant, to Jacob,
 <sup>26</sup> And they have dwelt on it confidently, And builded houses, and planted vineyards, And dwelt confidently-in My doing judgments, On all those despising them round about, And they have known that I, Jehovah, am their God!’
+
 ## Chapter 29
 
 <sup>1</sup> In the tenth year, in the tenth month, in the twelfth of the month, hath a word of Jehovah been unto me, saying,
@@ -796,6 +824,7 @@
 <sup>19</sup> Therefore, thus said the Lord Jehovah, Lo, I am giving to Nebuchadrezzar king of Babylon the land of Egypt, And he hath taken away its store, And hath taken its spoil, and taken its prey, And it hath been a reward to his force.
 <sup>20</sup> His wage for which he laboured I have given to him, The land of Egypt-in that they wrought for Me, An affirmation of the Lord Jehovah.
 <sup>21</sup> In that day I cause to shoot up a horn to the house of Israel, And to thee I give an opening of the mouth in their midst, And they have known that I am Jehovah!’
+
 ## Chapter 30
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying:
@@ -824,6 +853,7 @@
 <sup>24</sup> And strengthened the arms of the king of Babylon, And I have given My sword into his hand, And I have broken the arms of Pharaoh, And he hath groaned the groans of a pierced one-before him.
 <sup>25</sup> And I have strengthened the arms of the king of Babylon, And the arms of Pharaoh do fall down, And they have known that I am Jehovah, In My giving My sword into the hand of the king of Babylon, And he hath stretched it out toward the land of Egypt.
 <sup>26</sup> And I have scattered the Egyptians among nations, And I have spread them through lands, And they have known that I am Jehovah!’
+
 ## Chapter 31
 
 <sup>1</sup> And it cometh to pass, in the eleventh year, in the third month, in the first of the month, hath a word of Jehovah been unto me, saying:
@@ -844,6 +874,7 @@
 <sup>16</sup> From the sound of his fall I have caused nations to shake, In My causing him to go down to sheol, With those going down to the pit, And comforted in the earth-the lower part, are all trees of Eden, The choice and the good of Lebanon, All drinking waters.
 <sup>17</sup> Also they with him have gone down to sheol, Unto the pierced of the sword, And-his arm-they dwelt in his shade in the midst of nations.
 <sup>18</sup> Unto whom hast thou been thus like, In honour and in greatness among the trees of Eden, And thou hast been brought down with the trees of Eden, Unto the earth-the lower part, In the midst of the uncircumcised thou liest, With the pierced of the sword? It is Pharaoh, and all his multitude, An affirmation of the Lord Jehovah!’
+
 ## Chapter 32
 
 <sup>1</sup> And it cometh to pass, in the twelfth year, in the twelfth month, in the first of the month, hath a word of Jehovah been unto me, saying,
@@ -878,6 +909,7 @@
 <sup>30</sup> There are princes of the north, All of them, and every Zidonian, Who have gone down with the pierced in their terror, Of their might they are ashamed, And they lie uncircumcised with the pierced of the sword, And they bear their shame with those going down to the pit.
 <sup>31</sup> Then doth Pharaoh see, And he hath been comforted for all his multitude, The pierced of the sword-Pharaoh and all his force, An affirmation of the Lord Jehovah.
 <sup>32</sup> For I have given his terror in the land of the living, And he hath been laid down in the midst of the uncircumcised, With the pierced of the sword-Pharaoh, and all his multitude, An affirmation of the Lord Jehovah!’
+
 ## Chapter 33
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -913,6 +945,7 @@
 <sup>31</sup> And they come in unto thee as the coming in of a people, And they sit before thee-My people, And have heard thy words, and they do them not, For doting loves with their mouth they are making, After their dishonest gain their heart is going.
 <sup>32</sup> And lo, thou art to them as a singer of doting loves, A pleasant voice, and playing well on an instrument, And they have heard thy words, and they are not doing them.
 <sup>33</sup> And in its coming in-lo, it hath come, And they have known that a prophet hath been in their midst!’
+
 ## Chapter 34
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -946,6 +979,7 @@
 <sup>29</sup> And I have raised for them a plant for renown, And they are no more consumed by hunger in the land, And they bear no more the shame of the nations.
 <sup>30</sup> And they have known that I, Jehovah, their God, am with them, And they-the house of Israel-My people, An affirmation of the Lord Jehovah.
 <sup>31</sup> And ye, My flock, the flock of My pasture, Men ye are-I am your God, An affirmation of the Lord Jehovah!’
+
 ## Chapter 35
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying:
@@ -963,6 +997,7 @@
 <sup>13</sup> And ye magnify yourselves against Me with your mouth, And have made abundant against Me your words, I-I have heard.
 <sup>14</sup> Thus said the Lord Jehovah: According to the rejoicing of the whole land, A desolation I make of thee.
 <sup>15</sup> According to thy joy at the inheritance of the house of Israel because of desolation, So I do to thee-a desolation thou art, O mount Seir, and all Edom-all of it, And they have known that I am Jehovah!
+
 ## Chapter 36
 
 <sup>1</sup> And thou, son of man, prophesy unto mountains of Israel, and thou hast said, O mountains of Israel, hear a word of Jehovah.
@@ -1003,6 +1038,7 @@
 <sup>36</sup> And known have the nations who are left round about you, That I Jehovah have built the thrown down, I have planted the desolated: I Jehovah have spoken, and I have done it.
 <sup>37</sup> Thus said the Lord Jehovah: Yet this I am required, By the house of Israel to do to them, I multiply them as a flock of men,
 <sup>38</sup> As a flock of holy ones, as a flock of Jerusalem, In her appointed seasons, So are the waste cities full of flocks of men, And they have known that I am Jehovah!’
+
 ## Chapter 37
 
 <sup>1</sup> There hath been upon me a hand of Jehovah, and He taketh me forth in the Spirit of Jehovah, and doth place me in the midst of the valley, and it is full of bones,
@@ -1033,6 +1069,7 @@
 <sup>26</sup> And I have made to them a covenant of peace, A covenant age-during it is with them, And I have placed them, and multiplied them, And placed My sanctuary in their midst-to the age.
 <sup>27</sup> And My tabernacle hath been over them, And I have been to them for God, And they have been to Me for a people.
 <sup>28</sup> And known have the nations that I Jehovah am sanctifying Israel, In My sanctuary being in their midst-to the age!’
+
 ## Chapter 38
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying:
@@ -1058,6 +1095,7 @@
 <sup>21</sup> And I have called against him, to all My mountains a sword, An affirmation of the Lord Jehovah, The sword of each is against his brother.
 <sup>22</sup> And I have been judged with him, With pestilence and with blood, And an overflowing rain and hailstones, Fire and brimstone I rain on him, and on his bands, And on many peoples who are with him.
 <sup>23</sup> And I have magnified Myself, and sanctified Myself, And I have been known before the eyes of many nations, And they have known that I am Jehovah!
+
 ## Chapter 39
 
 <sup>1</sup> And thou, son of man, prophesy concerning Gog, and thou hast said: Thus said the Lord Jehovah: Lo, I am against thee, O Gog, Prince of Rosh, Meshech, and Tubal,
@@ -1089,6 +1127,7 @@
 <sup>27</sup> In My bringing them back from the peoples, I have assembled them from the lands of their enemies, And I have been sanctified in them before the eyes of the many nations,
 <sup>28</sup> And they have known that I am Jehovah their God, In My removing them unto the nations, And I have gathered them unto their land, And I leave none of them any more there.
 <sup>29</sup> And I hide not any more My face from them, In that I have poured out My spirit on the house of Israel, An affirmation of the Lord Jehovah!’
+
 ## Chapter 40
 
 <sup>1</sup> In the twenty and fifth year of our removal, in the beginning of the year, in the tenth of the month, in the fourteenth year after that the city was smitten, in this self-same day hath a hand of Jehovah been upon me, and He bringeth me in thither;
@@ -1140,6 +1179,7 @@
 <sup>47</sup> And he measureth the court: the length a hundred cubits, and the breadth a hundred cubits, square, and the altar is before the house.
 <sup>48</sup> And he bringeth me in unto the porch of the house, and he measureth the post of the porch, five cubits on this side, and five cubits on that side, and the breadth of the gate, three cubits on this side, and three cubits on that side;
 <sup>49</sup> the length of the porch twenty cubits, and the breadth eleven cubits; and by the steps whereby they go up unto it: and pillars are at the posts, one on this side, and one on that side.
+
 ## Chapter 41
 
 <sup>1</sup> And he bringeth me in unto the temple, and he measureth the posts, six cubits the breadth on this side, and six cubits the breadth on that side-the breadth of the tent.
@@ -1168,6 +1208,7 @@
 <sup>24</sup> and two leaves are to the doors, two turning leaves are to the doors, two to the one door, and two leaves to the other.
 <sup>25</sup> And made on them, on the doors of the temple, are cherubs and palm-trees as are made on the walls, and a thickness of wood is at the front of the porch on the outside.
 <sup>26</sup> And narrow windows and palm-trees are on this side, and on that side, at the sides of the porch, and the side-chambers of the house, and the thick places.
+
 ## Chapter 42
 
 <sup>1</sup> And he bringeth me forth unto the outer court, the way northward, and he bringeth me in unto the chamber that is over-against the separate place, and that is over-against the building at the north.
@@ -1190,6 +1231,7 @@
 <sup>18</sup> The south side he hath measured, five hundred reeds, with the measuring-reed.
 <sup>19</sup> He hath turned round unto the west side, he hath measured five hundred reeds with the measuring-reed.
 <sup>20</sup> At the four sides he hath measured it, a wall is to it all round about, the length five hundred, and the breadth five hundred, to separate between the holy and the profane place.
+
 ## Chapter 43
 
 <sup>1</sup> And he causeth me to go to the gate, the gate that is looking eastward.
@@ -1219,6 +1261,7 @@
 <sup>25</sup> Seven days thou dost prepare a goat for a sin-offering daily, and a bullock, a son of the herd, and a ram out of the flock, perfect ones, do they prepare.
 <sup>26</sup> Seven days they purify the altar, and have cleansed it, and filled their hand.
 <sup>27</sup> And the days are completed, and it hath come to pass on the eighth day, and henceforth, the priests prepare on the altar your burnt-offerings and your peace-offerings, and I have accepted you-an affirmation of the Lord Jehovah.’
+
 ## Chapter 44
 
 <sup>1</sup> And he causeth me to turn back the way of the gate of the outer sanctuary that is looking eastward, and it is shut.
@@ -1252,6 +1295,7 @@
 <sup>29</sup> The present, and the sin-offering, and the guilt-offering, they do eat, and every devoted thing in Israel is theirs.
 <sup>30</sup> And the first of all the first-fruits of all, and every heave-offering of all, of all your heave-offerings, are the priest?’: and the first of your dough ye give to the priest, to cause a blessing to rest on thy house.
 <sup>31</sup> Any carcase and torn thing, of the fowl, and of the beasts, the priests do not eat.
+
 ## Chapter 45
 
 <sup>1</sup> And in your causing the land to fall in inheritance, ye lift up a heave-offering to Jehovah, a holy portion of the land: the length-five and twenty thousand is the length, and the breadth ten thousand; it is holy in all its border round about.
@@ -1279,6 +1323,7 @@
 <sup>23</sup> And the seven days of the feast he prepareth a burnt-offering to Jehovah, seven bullocks, and seven rams, perfect ones, daily seven days, and a sin-offering, a kid of the goats, daily.
 <sup>24</sup> And a present of an ephah for a bullock, and an ephah for a ram, he doth prepare, and of oil a hin for an ephah.
 <sup>25</sup> In the seventh month, in the fifteenth day of the month, in the feast, he doth according to these things seven days; as the sin-offering so the burnt-offering, and as the present so also the oil.
+
 ## Chapter 46
 
 <sup>1</sup> ‘Thus said the Lord Jehovah: The gate of the inner court that is looking eastward is shut the six days of work, and on the day of rest it is opened, and in the day of the new moon it is opened;
@@ -1305,6 +1350,7 @@
 <sup>22</sup> In the four corners of the court are perfume courts, forty long, and thirty broad, one measure is to the four corners.
 <sup>23</sup> And a row is round about in them, round about to them four, and made with boilers under the rows round about.
 <sup>24</sup> And he saith unto me, ‘These are the houses of those boiling where the ministrants of the house boil the sacrifice of the people.’
+
 ## Chapter 47
 
 <sup>1</sup> And he causeth me to turn back unto the opening of the house; and lo, water is coming forth from under the threshold of the house eastward, for the front of the house is eastward, and the water is coming down from beneath, from the right side of the house, from the south of the altar.
@@ -1330,6 +1376,7 @@
 <sup>21</sup> ‘And ye have divided this land to you, according to the tribes of Israel;
 <sup>22</sup> and it hath come to pass, ye separate it for an inheritance to yourselves, and to the sojourners who are sojourning in your midst, who have begotten sons in your midst, and they have been to you as native, with the sons of Israel, with you they are separated for an inheritance in the midst of the tribes of Israel.
 <sup>23</sup> And it hath come to pass, in the tribe with which the sojourner sojourneth, there ye give his inheritance-an affirmation of the Lord Jehovah.
+
 ## Chapter 48
 
 <sup>1</sup> And these are the names of the tribes: From the north end unto the side of the way of Hethlon, at the coming in to Hamath, Hazar-Enan, the border of Damascus northward, unto the side of Hamath, and they have been his-side east and west, Dan one,

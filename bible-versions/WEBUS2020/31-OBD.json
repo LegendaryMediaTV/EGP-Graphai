@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "The vision of Obadiah. This is what the Lord",
         "foot": {
           "type": "trn",
           "content": "The word translated “Lord” is “Adonai.”"
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " Yahweh",
@@ -79,8 +79,8 @@
     "chapter": 1,
     "verse": 8,
     "content": {
-      "text": "“Won’t I in that day”, says Yahweh, “destroy the wise men out of Edom, and understanding out of the mountain of Esau?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "“Won’t I in that day”, says Yahweh, “destroy the wise men out of Edom, and understanding out of the mountain of Esau?"
     }
   },
   {
@@ -148,8 +148,8 @@
     "chapter": 1,
     "verse": 19,
     "content": {
-      "text": "Those of the South will possess the mountain of Esau, and those of the lowland, the Philistines. They will possess the field of Ephraim, and the field of Samaria. Benjamin will possess Gilead.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Those of the South will possess the mountain of Esau, and those of the lowland, the Philistines. They will possess the field of Ephraim, and the field of Samaria. Benjamin will possess Gilead."
     }
   },
   {

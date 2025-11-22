@@ -2,7 +2,11 @@
 
 <sup>1</sup> A revelation, Yahweh’s<sup>a</sup> word to Israel by Malachi.
 
-<sup>2</sup> “I have loved you,” says Yahweh. Yet you say, “How have you loved us?” “Wasn’t Esau Jacob’s brother?” says Yahweh, “Yet I loved Jacob;
+<sup>2</sup> “I have loved you,” says Yahweh.
+
+Yet you say, “How have you loved us?”
+
+“Wasn’t Esau Jacob’s brother?” says Yahweh, “Yet I loved Jacob;
 <sup>3</sup> but Esau I hated, and made his mountains a desolation, and gave his heritage to the jackals of the wilderness.”
 <sup>4</sup> Whereas Edom says, “We are beaten down, but we will return and build the waste places,” Yahweh of Armies says, “They shall build, but I will throw down; and men will call them ‘The Wicked Land,’ even the people against whom Yahweh shows wrath forever.”
 
@@ -75,6 +79,7 @@
 <sup>16</sup> Then those who feared Yahweh spoke one with another; and Yahweh listened and heard, and a book of memory was written before him for those who feared Yahweh and who honored his name.
 <sup>17</sup> They shall be mine,” says Yahweh of Armies, “my own possession in the day that I make. I will spare them, as a man spares his own son who serves him.
 <sup>18</sup> Then you shall return and discern between the righteous and the wicked, between him who serves God and him who doesn’t serve him.
+
 ## Chapter 4
 
 <sup>1</sup> “For behold, the day comes, burning like a furnace, when all the proud and all who work wickedness will be stubble. The day that comes will burn them up,” says Yahweh of Armies, “so that it will leave them neither root nor branch.

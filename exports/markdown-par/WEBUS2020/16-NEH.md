@@ -1,6 +1,8 @@
 ## Chapter 1
 
-<sup>1</sup> The words of Nehemiah the son of Hacaliah. Now in the month Chislev, in the twentieth year, as I was in Susa the palace,
+<sup>1</sup> The words of Nehemiah the son of Hacaliah.
+
+Now in the month Chislev, in the twentieth year, as I was in Susa the palace,
 <sup>2</sup> Hanani, one of my brothers, came, he and certain men out of Judah; and I asked them about the Jews who had escaped, who were left of the captivity, and concerning Jerusalem.
 <sup>3</sup> They said to me, “The remnant who are left of the captivity there in the province are in great affliction and reproach. The wall of Jerusalem is also broken down, and its gates are burned with fire.”
 
@@ -13,7 +15,9 @@
 <sup>9</sup> but if you return to me, and keep my commandments and do them, though your outcasts were in the uttermost part of the heavens, yet I will gather them from there, and will bring them to the place that I have chosen, to cause my name to dwell there.’
 
 <sup>10</sup> “Now these are your servants and your people, whom you have redeemed by your great power and by your strong hand.
-<sup>11</sup> Lord,<sup>c</sup> I beg you, let your ear be attentive now to the prayer of your servant, and to the prayer of your servants who delight to fear your name; and please prosper your servant today, and grant him mercy in the sight of this man.” Now I was cup bearer to the king.
+<sup>11</sup> Lord,<sup>c</sup> I beg you, let your ear be attentive now to the prayer of your servant, and to the prayer of your servants who delight to fear your name; and please prosper your servant today, and grant him mercy in the sight of this man.”
+
+Now I was cup bearer to the king.
 
 > - <sup>a</sup> 4. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 > - <sup>b</sup> 5. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
@@ -22,15 +26,23 @@
 ## Chapter 2
 
 <sup>1</sup> In the month Nisan, in the twentieth year of Artaxerxes the king, when wine was before him, I picked up the wine, and gave it to the king. Now I had not been sad before in his presence.
-<sup>2</sup> The king said to me, “Why is your face sad, since you are not sick? This is nothing else but sorrow of heart.” Then I was very much afraid.
+<sup>2</sup> The king said to me, “Why is your face sad, since you are not sick? This is nothing else but sorrow of heart.”
+
+Then I was very much afraid.
 <sup>3</sup> I said to the king, “Let the king live forever! Why shouldn’t my face be sad, when the city, the place of my fathers’ tombs, lies waste, and its gates have been consumed with fire?”
 
-<sup>4</sup> Then the king said to me, “What is your request?” So I prayed to the God of heaven.
+<sup>4</sup> Then the king said to me, “What is your request?”
+
+So I prayed to the God of heaven.
 <sup>5</sup> I said to the king, “If it pleases the king, and if your servant has found favor in your sight, I ask that you would send me to Judah, to the city of my fathers’ tombs, that I may build it.”
 
-<sup>6</sup> The king said to me (the queen was also sitting by him), “How long will your journey be? When will you return?” So it pleased the king to send me, and I set a time for him.
+<sup>6</sup> The king said to me (the queen was also sitting by him), “How long will your journey be? When will you return?”
+
+So it pleased the king to send me, and I set a time for him.
 <sup>7</sup> Moreover I said to the king, “If it pleases the king, let letters be given me to the governors beyond the River, that they may let me pass through until I come to Judah;
-<sup>8</sup> and a letter to Asaph the keeper of the king’s forest, that he may give me timber to make beams for the gates of the citadel by the temple, for the wall of the city, and for the house that I will occupy.” The king granted my requests, because of the good hand of my God on me.
+<sup>8</sup> and a letter to Asaph the keeper of the king’s forest, that he may give me timber to make beams for the gates of the citadel by the temple, for the wall of the city, and for the house that I will occupy.”
+
+The king granted my requests, because of the good hand of my God on me.
 <sup>9</sup> Then I came to the governors beyond the River, and gave them the king’s letters. Now the king had sent captains of the army and horsemen with me.
 <sup>10</sup> When Sanballat the Horonite and Tobiah the Ammonite servant heard of it, it grieved them exceedingly, because a man had come to seek the welfare of the children of Israel.
 
@@ -42,11 +54,14 @@
 <sup>16</sup> The rulers didn’t know where I went, or what I did. I had not as yet told it to the Jews, nor to the priests, nor to the nobles, nor to the rulers, nor to the rest who did the work.
 
 <sup>17</sup> Then I said to them, “You see the bad situation that we are in, how Jerusalem lies waste, and its gates are burned with fire. Come, let’s build up the wall of Jerusalem, that we won’t be disgraced.”
-<sup>18</sup> I told them about the hand of my God which was good on me, and also about the king’s words that he had spoken to me. They said, “Let’s rise up and build.” So they strengthened their hands for the good work.
+<sup>18</sup> I told them about the hand of my God which was good on me, and also about the king’s words that he had spoken to me.
+
+They said, “Let’s rise up and build.” So they strengthened their hands for the good work.
 
 <sup>19</sup> But when Sanballat the Horonite, Tobiah the Ammonite servant, and Geshem the Arabian, heard it, they ridiculed us and despised us, and said, “What is this thing that you are doing? Will you rebel against the king?”
 
 <sup>20</sup> Then I answered them, and said to them, “The God of heaven will prosper us. Therefore we, his servants, will arise and build; but you have no portion, nor right, nor memorial in Jerusalem.”
+
 ## Chapter 3
 
 <sup>1</sup> Then Eliashib the high priest rose up with his brothers the priests, and they built the sheep gate. They sanctified it, and set up its doors. They sanctified it even to the tower of Hammeah, to the tower of Hananel.
@@ -124,6 +139,7 @@
 <sup>21</sup> So we did the work. Half of the people held the spears from the rising of the morning until the stars appeared.
 <sup>22</sup> Likewise at the same time I said to the people, “Let everyone with his servant lodge within Jerusalem, that in the night they may be a guard to us, and may labor in the day.”
 <sup>23</sup> So neither I, nor my brothers, nor my servants, nor the men of the guard who followed me took off our clothes. Everyone took his weapon to the water.
+
 ## Chapter 5
 
 <sup>1</sup> Then there arose a great cry of the people and of their wives against their brothers the Jews.
@@ -139,8 +155,12 @@
 <sup>10</sup> I likewise, my brothers and my servants, lend them money and grain. Please let us stop this usury.
 <sup>11</sup> Please restore to them, even today, their fields, their vineyards, their olive groves, and their houses, also the hundredth part of the money, and of the grain, the new wine, and the oil, that you are charging them.”
 
-<sup>12</sup> Then they said, “We will restore them, and will require nothing of them. We will do so, even as you say.” Then I called the priests, and took an oath of them, that they would do according to this promise.
-<sup>13</sup> Also I shook out my lap, and said, “So may God shake out every man from his house, and from his labor, that doesn’t perform this promise; even may he be shaken out and emptied like this.” All the assembly said, “Amen,” and praised Yahweh. The people did according to this promise.
+<sup>12</sup> Then they said, “We will restore them, and will require nothing of them. We will do so, even as you say.”
+
+Then I called the priests, and took an oath of them, that they would do according to this promise.
+<sup>13</sup> Also I shook out my lap, and said, “So may God shake out every man from his house, and from his labor, that doesn’t perform this promise; even may he be shaken out and emptied like this.”
+
+All the assembly said, “Amen,” and praised Yahweh. The people did according to this promise.
 
 <sup>14</sup> Moreover from the time that I was appointed to be their governor in the land of Judah, from the twentieth year even to the thirty-second year of Artaxerxes the king, that is, twelve years, I and my brothers have not eaten the bread of the governor.
 <sup>15</sup> But the former governors who were before me were supported by the people, and took bread and wine from them, plus forty shekels<sup>b</sup> of silver; yes, even their servants ruled over the people, but I didn’t do so, because of the fear of God.
@@ -179,6 +199,7 @@
 <sup>17</sup> Moreover in those days the nobles of Judah sent many letters to Tobiah, and Tobiah’s letters came to them.
 <sup>18</sup> For there were many in Judah sworn to him because he was the son-in-law of Shecaniah the son of Arah; and his son Jehohanan had taken the daughter of Meshullam the son of Berechiah as wife.
 <sup>19</sup> Also they spoke of his good deeds before me, and reported my words to him. Tobiah sent letters to put me in fear.
+
 ## Chapter 7
 
 <sup>1</sup> Now when the wall was built and I had set up the doors, and the gatekeepers and the singers and the Levites were appointed,
@@ -190,7 +211,9 @@
 <sup>5</sup> My God put into my heart to gather together the nobles, and the rulers, and the people, that they might be listed by genealogy. I found the book of the genealogy of those who came up at the first, and I found this written in it:
 
 <sup>6</sup> These are the children of the province who went up out of the captivity of those who had been carried away, whom Nebuchadnezzar the king of Babylon had carried away, and who returned to Jerusalem and to Judah, everyone to his city,
-<sup>7</sup> who came with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, and Baanah. The number of the men of the people of Israel:
+<sup>7</sup> who came with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, and Baanah.
+
+The number of the men of the people of Israel:
 <sup>8</sup> The children of Parosh: two thousand one hundred seventy-two.
 <sup>9</sup> The children of Shephatiah: three hundred seventy-two.
 <sup>10</sup> The children of Arah: six hundred fifty-two.
@@ -265,7 +288,9 @@
 <sup>71</sup> Some of the heads of fathers’ households gave into the treasury of the work twenty thousand darics of gold, and two thousand two hundred minas<sup>c</sup> of silver.
 <sup>72</sup> That which the rest of the people gave was twenty thousand darics of gold, plus two thousand minas of silver, and sixty-seven priests’ garments.
 
-<sup>73</sup> So the priests, the Levites, the gatekeepers, the singers, some of the people, the temple servants, and all Israel lived in their cities. When the seventh month had come, the children of Israel were in their cities.
+<sup>73</sup> So the priests, the Levites, the gatekeepers, the singers, some of the people, the temple servants, and all Israel lived in their cities.
+
+When the seventh month had come, the children of Israel were in their cities.
 
 > - <sup>a</sup> 61. or, seed
 > - <sup>b</sup> 70. a daric was a gold coin issued by a Persian king, weighing about 8.4 grams or about 0.27 troy ounces each.
@@ -278,7 +303,9 @@
 <sup>3</sup> He read from it before the wide place that was in front of the water gate from early morning until midday, in the presence of the men and the women, and of those who could understand. The ears of all the people were attentive to the book of the law.
 <sup>4</sup> Ezra the scribe stood on a pulpit of wood, which they had made for the purpose; and beside him stood Mattithiah, Shema, Anaiah, Uriah, Hilkiah, and Maaseiah, on his right hand; and on his left hand, Pedaiah, Mishael, Malchijah, Hashum, Hashbaddanah, Zechariah, and Meshullam.
 <sup>5</sup> Ezra opened the book in the sight of all the people (for he was above all the people), and when he opened it, all the people stood up.
-<sup>6</sup> Then Ezra blessed Yahweh, the great God. All the people answered, “Amen, Amen,” with the lifting up of their hands. They bowed their heads, and worshiped Yahweh with their faces to the ground.
+<sup>6</sup> Then Ezra blessed Yahweh, the great God.
+
+All the people answered, “Amen, Amen,” with the lifting up of their hands. They bowed their heads, and worshiped Yahweh with their faces to the ground.
 <sup>7</sup> Also Jeshua, Bani, Sherebiah, Jamin, Akkub, Shabbethai, Hodiah, Maaseiah, Kelita, Azariah, Jozabad, Hanan, Pelaiah, and the Levites, caused the people to understand the law; and the people stayed in their place.
 <sup>8</sup> They read in the book, in the law of God, distinctly; and they gave the sense, so that they understood the reading.
 
@@ -351,6 +378,7 @@
 <sup>36</sup> “Behold, we are servants today, and as for the land that you gave to our fathers to eat its fruit and its good, behold, we are servants in it.
 <sup>37</sup> It yields much increase to the kings whom you have set over us because of our sins. Also they have power over our bodies and over our livestock, at their pleasure, and we are in great distress.
 <sup>38</sup> Yet for all this, we make a sure covenant, and write it; and our princes, our Levites, and our priests, seal it.”
+
 ## Chapter 10
 
 <sup>1</sup> Now those who sealed were: Nehemiah the governor, the son of Hacaliah, and Zedekiah,
@@ -442,6 +470,7 @@
 <sup>34</sup> Hadid, Zeboim, Neballat,
 <sup>35</sup> Lod, and Ono, the valley of craftsmen.
 <sup>36</sup> Of the Levites, certain divisions in Judah settled in Benjamin’s territory.
+
 ## Chapter 12
 
 <sup>1</sup> Now these are the priests and the Levites who went up with Zerubbabel the son of Shealtiel, and Jeshua: Seraiah, Jeremiah, Ezra,
@@ -498,6 +527,7 @@
 <sup>45</sup> They performed the duty of their God and the duty of the purification, and so did the singers and the gatekeepers, according to the commandment of David and of Solomon his son.
 <sup>46</sup> For in the days of David and Asaph of old there was a chief of the singers, and songs of praise and thanksgiving to God.
 <sup>47</sup> All Israel in the days of Zerubbabel and in the days of Nehemiah gave the portions of the singers and the gatekeepers, as every day required; and they set apart that which was for the Levites; and the Levites set apart that which was for the sons of Aaron.
+
 ## Chapter 13
 
 <sup>1</sup> On that day they read in the book of Moses in the hearing of the people; and it was found written in it that an Ammonite and a Moabite should not enter into the assembly of God forever,

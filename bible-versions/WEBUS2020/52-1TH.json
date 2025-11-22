@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Paul, Silvanus, and Timothy, to the assembly of the Thessalonians in God the Father and the Lord Jesus Christ:",
         "foot": {
           "type": "stu",
           "content": "“Christ” means “Anointed One”."
-        },
-        "paragraph": true
+        }
       },
       " Grace to you and peace from God our Father and the Lord Jesus Christ."
     ]
@@ -20,8 +20,8 @@
     "chapter": 1,
     "verse": 2,
     "content": {
-      "text": "We always give thanks to God for all of you, mentioning you in our prayers,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "We always give thanks to God for all of you, mentioning you in our prayers,"
     }
   },
   {
@@ -86,8 +86,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "For you yourselves know, brothers, our visit to you wasn’t in vain,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For you yourselves know, brothers, our visit to you wasn’t in vain,"
     }
   },
   {
@@ -131,8 +131,8 @@
     "chapter": 2,
     "verse": 8,
     "content": {
-      "text": "Even so, affectionately longing for you, we were well pleased to impart to you not the Good News of God only, but also our own souls, because you had become very dear to us.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Even so, affectionately longing for you, we were well pleased to impart to you not the Good News of God only, but also our own souls, because you had become very dear to us."
     }
   },
   {
@@ -164,8 +164,8 @@
     "chapter": 2,
     "verse": 13,
     "content": {
-      "text": "For this cause we also thank God without ceasing that when you received from us the word of the message of God, you accepted it not as the word of men, but as it is in truth, God’s word, which also works in you who believe.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this cause we also thank God without ceasing that when you received from us the word of the message of God, you accepted it not as the word of men, but as it is in truth, God’s word, which also works in you who believe."
     }
   },
   {
@@ -191,8 +191,8 @@
     "chapter": 2,
     "verse": 17,
     "content": {
-      "text": "But we, brothers, being bereaved of you for a short season in presence, not in heart, tried even harder to see your face with great desire,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But we, brothers, being bereaved of you for a short season in presence, not in heart, tried even harder to see your face with great desire,"
     }
   },
   {
@@ -227,8 +227,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Therefore when we couldn’t stand it any longer, we thought it good to be left behind at Athens alone,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore when we couldn’t stand it any longer, we thought it good to be left behind at Athens alone,"
     }
   },
   {
@@ -260,8 +260,8 @@
     "chapter": 3,
     "verse": 6,
     "content": {
-      "text": "But Timothy has just now come to us from you, and brought us glad news of your faith and love, and that you have good memories of us always, longing to see us, even as we also long to see you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But Timothy has just now come to us from you, and brought us glad news of your faith and love, and that you have good memories of us always, longing to see us, even as we also long to see you."
     }
   },
   {
@@ -293,8 +293,8 @@
     "chapter": 3,
     "verse": 11,
     "content": {
-      "text": "Now may our God and Father himself, and our Lord Jesus Christ, direct our way to you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now may our God and Father himself, and our Lord Jesus Christ, direct our way to you."
     }
   },
   {
@@ -314,8 +314,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Finally then, brothers, we beg and exhort you in the Lord Jesus, that as you received from us how you ought to walk and to please God, that you abound more and more.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Finally then, brothers, we beg and exhort you in the Lord Jesus, that as you received from us how you ought to walk and to please God, that you abound more and more."
     }
   },
   {
@@ -374,8 +374,8 @@
     "chapter": 4,
     "verse": 9,
     "content": {
-      "text": "But concerning brotherly love, you have no need that one write to you. For you yourselves are taught by God to love one another,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But concerning brotherly love, you have no need that one write to you. For you yourselves are taught by God to love one another,"
     }
   },
   {
@@ -401,8 +401,8 @@
     "chapter": 4,
     "verse": 13,
     "content": {
-      "text": "But we don’t want you to be ignorant, brothers, concerning those who have fallen asleep, so that you don’t grieve like the rest, who have no hope.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But we don’t want you to be ignorant, brothers, concerning those who have fallen asleep, so that you don’t grieve like the rest, who have no hope."
     }
   },
   {
@@ -440,8 +440,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "But concerning the times and the seasons, brothers, you have no need that anything be written to you.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But concerning the times and the seasons, brothers, you have no need that anything be written to you."
     }
   },
   {
@@ -509,15 +509,21 @@
     "chapter": 5,
     "verse": 12,
     "content": {
-      "text": "But we beg you, brothers, to know those who labor among you, and are over you in the Lord and admonish you,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But we beg you, brothers, to know those who labor among you, and are over you in the Lord and admonish you,"
     }
   },
   {
     "book": "1TH",
     "chapter": 5,
     "verse": 13,
-    "content": "and to respect and honor them in love for their work’s sake. Be at peace among yourselves."
+    "content": [
+      "and to respect and honor them in love for their work’s sake.",
+      {
+        "paragraph": true,
+        "text": "Be at peace among yourselves."
+      }
+    ]
   },
   {
     "book": "1TH",
@@ -536,8 +542,8 @@
     "chapter": 5,
     "verse": 16,
     "content": {
-      "text": "Always rejoice.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Always rejoice."
     }
   },
   {
@@ -581,8 +587,8 @@
     "chapter": 5,
     "verse": 23,
     "content": {
-      "text": "May the God of peace himself sanctify you completely. May your whole spirit, soul, and body be preserved blameless at the coming of our Lord Jesus Christ.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "May the God of peace himself sanctify you completely. May your whole spirit, soul, and body be preserved blameless at the coming of our Lord Jesus Christ."
     }
   },
   {
@@ -590,8 +596,8 @@
     "chapter": 5,
     "verse": 24,
     "content": {
-      "text": "He who calls you is faithful, who will also do it.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He who calls you is faithful, who will also do it."
     }
   },
   {
@@ -599,8 +605,8 @@
     "chapter": 5,
     "verse": 25,
     "content": {
-      "text": "Brothers, pray for us.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Brothers, pray for us."
     }
   },
   {
@@ -608,8 +614,8 @@
     "chapter": 5,
     "verse": 26,
     "content": {
-      "text": "Greet all the brothers with a holy kiss.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Greet all the brothers with a holy kiss."
     }
   },
   {
@@ -623,8 +629,8 @@
     "chapter": 5,
     "verse": 28,
     "content": {
-      "text": "The grace of our Lord Jesus Christ be with you. Amen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The grace of our Lord Jesus Christ be with you. Amen."
     }
   }
 ]

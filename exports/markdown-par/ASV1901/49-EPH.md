@@ -23,6 +23,7 @@
 <sup>21</sup> far above all rule, and authority, and power, and dominion, and every name that is named, not only in this world, but also in that which is to come:
 <sup>22</sup> and he put all things in subjection under his feet, and gave him to be head over all things to the church,
 <sup>23</sup> which is his body, the fulness of him that filleth all in all.
+
 ## Chapter 2
 
 <sup>1</sup> And you did he make alive, when ye were dead through your trepasses and sins,
@@ -47,6 +48,7 @@
 <sup>20</sup> being built upon the foundation of the apostles and prophets, Christ Jesus himself being the chief corner stone;
 <sup>21</sup> in whom each several building, fitly framed together, groweth into a holy temple in the Lord;
 <sup>22</sup> in whom ye also are builded together for a habitation of God in the Spirit.
+
 ## Chapter 3
 
 <sup>1</sup> For this cause I Paul, the prisoner of Christ Jesus in behalf of you Gentiles,—
@@ -70,6 +72,7 @@
 <sup>19</sup> and to know the love of Christ which passeth knowledge, that ye may be filled unto all the fulness of God.
 <sup>20</sup> Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us,
 <sup>21</sup> unto him be the glory in the church and in Christ Jesus unto all generations for ever and ever. Amen.
+
 ## Chapter 4
 
 <sup>1</sup> I therefore, the prisoner in the Lord, beseech you to walk worthily of the calling wherewith ye were called,
@@ -104,6 +107,7 @@
 <sup>30</sup> And grieve not the Holy Spirit of God, in whom ye were sealed unto the day of redemption.
 <sup>31</sup> Let all bitterness, and wrath, and anger, and clamor, and railing, be put away from you, with all malice:
 <sup>32</sup> and be ye kind one to another, tenderhearted, forgiving each other, even as God also in Christ forgave you.
+
 ## Chapter 5
 
 <sup>1</sup> Be ye therefore imitators of God, as beloved children;
@@ -139,6 +143,7 @@
 <sup>31</sup> For this cause shall a man leave his father and mother, and shall cleave to his wife; and the two shall become one flesh.
 <sup>32</sup> This mystery is great: but I speak in regard of Christ and of the church.
 <sup>33</sup> Nevertheless do ye also severally love each one his own wife even as himself; and let the wife see that she fear her husband.
+
 ## Chapter 6
 
 <sup>1</sup> Children, obey your parents in the Lord: for this is right.

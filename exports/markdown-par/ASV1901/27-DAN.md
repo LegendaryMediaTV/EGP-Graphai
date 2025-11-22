@@ -21,6 +21,7 @@
 <sup>19</sup> And the king communed with them; and among them all was found none like Daniel, Hananiah, Mishael, and Azariah: therefore stood they before the king.
 <sup>20</sup> And in every matter of wisdom and understanding, concerning which the king inquired of them, he found them ten times better than all the magicians and enchanters that were in all his realm.
 <sup>21</sup> And Daniel continued even unto the first year of king Cyrus.
+
 ## Chapter 2
 
 <sup>1</sup> And in the second year of the reign of Nebuchadnezzar, Nebuchadnezzar dreamed dreams; and his spirit was troubled, and his sleep went from him.
@@ -72,6 +73,7 @@
 <sup>47</sup> The king answered unto Daniel, and said, Of a truth your God is the God of gods, and the Lord of kings, and a revealer of secrets, seeing thou hast been able to reveal this secret.
 <sup>48</sup> Then the king made Daniel great, and gave him many great gifts, and made him to rule over the whole province of Babylon, and to be chief governor over all the wise men of Babylon.
 <sup>49</sup> And Daniel requested of the king, and he appointed Shadrach, Meshach, and Abed-nego, over the affairs of the province of Babylon: but Daniel was in the gate of the king.
+
 ## Chapter 3
 
 <sup>1</sup> Nebuchadnezzar the king made an image of gold, whose height was threescore cubits, and the breadth thereof six cubits: he set it up in the plain of Dura, in the province of Babylon.
@@ -104,6 +106,7 @@
 <sup>28</sup> Nebuchadnezzar spake and said, Blessed be the God of Shadrach, Meshach, and Abed-nego, who hath sent his angel, and delivered his servants that trusted in him, and have changed the king’s word, and have yielded their bodies, that they might not serve nor worship any god, except their own God.
 <sup>29</sup> Therefore I make a decree, that every people, nation, and language, which speak anything amiss against the God of Shadrach, Meshach, and Abed-nego, shall be cut in pieces, and their houses shall be made a dunghill; because there is no other god that is able to deliver after this sort.
 <sup>30</sup> Then the king promoted Shadrach, Meshach, and Abed-nego in the province of Babylon.
+
 ## Chapter 4
 
 <sup>1</sup> Nebuchadnezzar the king, unto all the peoples, nations, and languages, that dwell in all the earth: Peace be multiplied unto you.
@@ -143,6 +146,7 @@
 <sup>35</sup> And all the inhabitants of the earth are reputed as nothing; and he doeth according to his will in the army of heaven, and among the inhabitants of the earth; and none can stay his hand, or say unto him, What doest thou?
 <sup>36</sup> At the same time mine understanding returned unto me; and for the glory of my kingdom, my majesty and brightness returned unto me; and my counsellors and my lords sought unto me; and I was established in my kingdom, and excellent greatness was added unto me.
 <sup>37</sup> Now I, Nebuchadnezzar, praise and extol and honor the King of heaven; for all his works are truth, and his ways justice; and those that walk in pride he is able to abase.
+
 ## Chapter 5
 
 <sup>1</sup> Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.
@@ -176,6 +180,7 @@
 <sup>29</sup> Then commanded Belshazzar, and they clothed Daniel with purple, and put a chain of gold about his neck, and made proclamation concerning him, that he should be the third ruler in the kingdom.
 <sup>30</sup> In that night Belshazzar the Chaldean King was slain.
 <sup>31</sup> And Darius the Mede received the kingdom, being about threescore and two years old.
+
 ## Chapter 6
 
 <sup>1</sup> It pleased Darius to set over the kingdom a hundred and twenty satraps, who should be throughout the whole kingdom;
@@ -206,6 +211,7 @@
 <sup>26</sup> I make a decree, that in all the dominion of my kingdom men tremble and fear before the God of Daniel; for he is the living God, and stedfast for ever, And his kingdom that which shall not be destroyed; and his dominion shall be even unto the end.
 <sup>27</sup> He delivereth and rescueth, and he worketh signs and wonders in heaven and in earth, who hath delivered Daniel from the power of the lions.
 <sup>28</sup> So this Daniel prospered in the reign of Darius, and in the reign of Cyrus the Persian.
+
 ## Chapter 7
 
 <sup>1</sup> In the first year of Belshazzar king of Babylon Daniel had a dream and visions of his head upon his bed: then he wrote the dream and told the sum of the matters.
@@ -236,6 +242,7 @@
 <sup>26</sup> But the judgment shall be set, and they shall take away his dominion, to consume and to destroy it unto the end.
 <sup>27</sup> And the kingdom and the dominion, and the greatness of the kingdoms under the whole heaven, shall be given to the people of the saints of the Most High: his kingdom is an everlasting kingdom, and all dominions shall serve and obey him.
 <sup>28</sup> Here is the end of the matter. As for me, Daniel, my thoughts much troubled me, and my countenance was changed in me: but I kept the matter in my heart.
+
 ## Chapter 8
 
 <sup>1</sup> In the third year of the reign of king Belshazzar a vision appeared unto me, even unto me, Daniel, after that which appeared unto me at the first.
@@ -265,6 +272,7 @@
 <sup>25</sup> And through his policy he shall cause craft to prosper in his hand; and he shall magnify himself in his heart, and in their security shall he destroy many: he shall also stand up against the prince of princes; but he shall be broken without hand.
 <sup>26</sup> And the vision of the evenings and mornings which hath been told is true: but shut thou up the vision; for it belongeth to many days to come.
 <sup>27</sup> And I, Daniel, fainted, and was sick certain days; then I rose up, and did the king’s business: and I wondered at the vision, but none understood it.
+
 ## Chapter 9
 
 <sup>1</sup> In the first year of Darius the son of Ahasuerus, of the seed of the Medes, who was made king over the realm of the Chaldeans,
@@ -294,6 +302,7 @@
 <sup>25</sup> Know therefore and discern, that from the going forth of the commandment to restore and to build Jerusalem unto the anointed one, the prince, shall be seven weeks, and threescore and two weeks: it shall be built again, with street and moat, even in troublous times.
 <sup>26</sup> And after the threescore and two weeks shall the anointed one be cut off, and shall have nothing: and the people of the prince that shall come shall destroy the city and the sanctuary; and the end thereof shall be with a flood, and even unto the end shall be war; desolations are determined.
 <sup>27</sup> And he shall make a firm covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the oblation to cease; and upon the wing of abominations shall come one that maketh desolate; and even unto the full end, and that determined, shall wrath be poured out upon the desolate.
+
 ## Chapter 10
 
 <sup>1</sup> In the third year of Cyrus king of Persia a thing was revealed unto Daniel, whose name was called Belteshazzar; and the thing was true, even a great warfare: and he understood the thing, and had understanding of the vision.
@@ -317,6 +326,7 @@
 <sup>19</sup> And he said, O man greatly beloved, fear not: peace be unto thee, be strong, yea, be strong. And when he spake unto me, I was strengthened, and said, Let my lord speak; for thou hast strengthened me.
 <sup>20</sup> Then said he, Knowest thou wherefore I am come unto thee? and now will I return to fight with the prince of Persia: and when I go forth, lo, the prince of Greece shall come.
 <sup>21</sup> But I will tell thee that which is inscribed in the writing of truth: and there is none that holdeth with me against these, but Michael your prince.
+
 ## Chapter 11
 
 <sup>1</sup> And as for me, in the first year of Darius the Mede, I stood up to confirm and strengthen him.
@@ -364,6 +374,7 @@
 <sup>43</sup> But he shall have power over the treasures of gold and of silver, and over all the precious things of Egypt; and the Libyans and the Ethiopians shall be at his steps.
 <sup>44</sup> But tidings out of the east and out of the north shall trouble him; and he shall go forth with great fury to destroy and utterly to sweep away many.
 <sup>45</sup> And he shall plant the tents of his palace between the sea and the glorious holy mountain; yet he shall come to his end, and none shall help him.
+
 ## Chapter 12
 
 <sup>1</sup> And at that time shall Michael stand up, the great prince who standeth for the children of thy people; and there shall be a time of trouble, such as never was since there was a nation even to that same time: and at that time thy people shall be delivered, every one that shall be found written in the book.

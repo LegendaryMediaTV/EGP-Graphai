@@ -30,6 +30,8 @@
 
 ## Chapter 3
 
+> _A Psalm by David, when he fled from Absalom his son._
+
 <sup>1</sup> Yahweh, how my adversaries have increased!<br>Many are those who rise up against me.<br>
 <sup>2</sup> Many there are who say of my soul,<br>“There is no help for him in God.”<sup>a</sup><br>Selah.
 
@@ -45,6 +47,8 @@
 
 ## Chapter 4
 
+> _For the Chief Musician; on stringed instruments. A Psalm by David._
+
 <sup>1</sup> Answer me when I call, God of my righteousness.<br>Give me relief from my distress.<br>Have mercy on me, and hear my prayer.<br>
 <sup>2</sup> You sons of men, how long shall my glory be turned into dishonor?<br>Will you love vanity and seek after falsehood?<br>Selah.
 
@@ -55,7 +59,10 @@
 <sup>6</sup> Many say, “Who will show us any good?”<br>Yahweh, let the light of your face shine on us.<br>
 <sup>7</sup> You have put gladness in my heart,<br>more than when their grain and their new wine are increased.<br>
 <sup>8</sup> In peace I will both lay myself down and sleep,<br>for you alone, Yahweh, make me live in safety.
+
 ## Chapter 5
+
+> _For the Chief Musician, with the flutes. A Psalm by David._
 
 <sup>1</sup> Give ear to my words, Yahweh.<br>Consider my meditation.<br>
 <sup>2</sup> Listen to the voice of my cry, my King and my God,<br>for I pray to you.<br>
@@ -69,7 +76,10 @@
 <sup>10</sup> Hold them guilty, God.<br>Let them fall by their own counsels.<br>Thrust them out in the multitude of their transgressions,<br>for they have rebelled against you.<br>
 <sup>11</sup> But let all those who take refuge in you rejoice.<br>Let them always shout for joy, because you defend them.<br>Let them also who love your name be joyful in you.<br>
 <sup>12</sup> For you will bless the righteous.<br>Yahweh, you will surround him with favor as with a shield.
+
 ## Chapter 6
+
+> _For the Chief Musician; on stringed instruments, upon the eight-stringed lyre. A Psalm by David._
 
 <sup>1</sup> Yahweh, don’t rebuke me in your anger,<br>neither discipline me in your wrath.<br>
 <sup>2</sup> Have mercy on me, Yahweh, for I am faint.<br>Yahweh, heal me, for my bones are troubled.<br>
@@ -85,6 +95,8 @@
 > - <sup>a</sup> 5. Sheol is the place of the dead.
 
 ## Chapter 7
+
+> _A meditation by David, which he sang to Yahweh, concerning the words of Cush, the Benjamite._
 
 <sup>1</sup> Yahweh, my God, I take refuge in you.<br>Save me from all those who pursue me, and deliver me,<br>
 <sup>2</sup> lest they tear apart my soul like a lion,<br>ripping it in pieces, while there is no one to deliver.<br>
@@ -109,6 +121,8 @@
 
 ## Chapter 8
 
+> _For the Chief Musician; on an instrument of Gath. A Psalm by David._
+
 <sup>1</sup> Yahweh, our Lord, how majestic is your name in all the earth!<br>You have set your glory above the heavens!<br>
 <sup>2</sup> From the lips of babes and infants you have established strength,<br>because of your adversaries, that you might silence the enemy and the avenger.<br>
 <sup>3</sup> When I consider your heavens, the work of your fingers,<br>the moon and the stars, which you have ordained,<br>
@@ -122,6 +136,8 @@
 > - <sup>a</sup> 5. Hebrew: Elohim. The word Elohim, used here, usually means “God”, but can also mean “gods”, “princes”, or “angels”. The Septuagint reads “angels” here. See also the quote from the Septuagint in Hebrews 2:7.
 
 ## Chapter 9
+
+> _For the Chief Musician. Set to “The Death of the Son.” A Psalm by David._
 
 <sup>1</sup> I will give thanks to Yahweh with my whole heart.<br>I will tell of all your marvelous works.<br>
 <sup>2</sup> I will be glad and rejoice in you.<br>I will sing praise to your name, O Most High.<br>
@@ -168,7 +184,10 @@
 <sup>16</sup> Yahweh is King forever and ever!<br>The nations will perish out of his land.<br>
 <sup>17</sup> Yahweh, you have heard the desire of the humble.<br>You will prepare their heart.<br>You will cause your ear to hear,<br>
 <sup>18</sup> to judge the fatherless and the oppressed,<br>that man who is of the earth may terrify no more.
+
 ## Chapter 11
+
+> _For the Chief Musician. By David._
 
 <sup>1</sup> In Yahweh, I take refuge.<br>How can you say to my soul, “Flee as a bird to your mountain”?<br>
 <sup>2</sup> For, behold, the wicked bend their bows.<br>They set their arrows on the strings,<br>that they may shoot in darkness at the upright in heart.<br>
@@ -177,7 +196,10 @@
 <sup>5</sup> Yahweh examines the righteous,<br>but his soul hates the wicked and him who loves violence.<br>
 <sup>6</sup> On the wicked he will rain blazing coals;<br>fire, sulfur, and scorching wind shall be the portion of their cup.<br>
 <sup>7</sup> For Yahweh is righteous.<br>He loves righteousness.<br>The upright shall see his face.
+
 ## Chapter 12
+
+> _For the Chief Musician; upon an eight-stringed lyre. A Psalm of David._
 
 <sup>1</sup> Help, Yahweh; for the godly man ceases.<br>For the faithful fail from among the children of men.<br>
 <sup>2</sup> Everyone lies to his neighbor.<br>They speak with flattering lips, and with a double heart.<br>
@@ -187,7 +209,10 @@
 <sup>6</sup> Yahweh’s words are flawless words,<br>as silver refined in a clay furnace, purified seven times.<br>
 <sup>7</sup> You will keep them, Yahweh.<br>You will preserve them from this generation forever.<br>
 <sup>8</sup> The wicked walk on every side,<br>when what is vile is exalted among the sons of men.
+
 ## Chapter 13
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> How long, Yahweh?<br>Will you forget me forever?<br>How long will you hide your face from me?<br>
 <sup>2</sup> How long shall I take counsel in my soul,<br>having sorrow in my heart every day?<br>How long shall my enemy triumph over me?<br>
@@ -196,7 +221,10 @@
 
 <sup>5</sup> But I trust in your loving kindness.<br>My heart rejoices in your salvation.<br>
 <sup>6</sup> I will sing to Yahweh,<br>because he has been good to me.
+
 ## Chapter 14
+
+> _For the Chief Musician. By David._
 
 <sup>1</sup> The fool has said in his heart, “There is no God.”<br>They are corrupt.<br>They have done abominable deeds.<br>There is no one who does good.<br>
 <sup>2</sup> Yahweh looked down from heaven on the children of men,<br>to see if there were any who understood,<br>who sought after God.<br>
@@ -205,14 +233,22 @@
 <sup>5</sup> There they were in great fear,<br>for God is in the generation of the righteous.<br>
 <sup>6</sup> You frustrate the plan of the poor,<br>because Yahweh is his refuge.<br>
 <sup>7</sup> Oh that the salvation of Israel would come out of Zion!<br>When Yahweh restores the fortunes of his people,<br>then Jacob shall rejoice, and Israel shall be glad.
+
 ## Chapter 15
+
+> _A Psalm by David._
 
 <sup>1</sup> Yahweh, who shall dwell in your sanctuary?<br>Who shall live on your holy hill?<br>
 <sup>2</sup> He who walks blamelessly and does what is right,<br>and speaks truth in his heart;<br>
 <sup>3</sup> he who doesn’t slander with his tongue,<br>nor does evil to his friend,<br>nor casts slurs against his fellow man;<br>
 <sup>4</sup> in whose eyes a vile man is despised,<br>but who honors those who fear Yahweh;<br>he who keeps an oath even when it hurts, and doesn’t change;<br>
-<sup>5</sup> he who doesn’t lend out his money for usury,<br>nor take a bribe against the innocent. He who does these things shall never be shaken.
+<sup>5</sup> he who doesn’t lend out his money for usury,<br>nor take a bribe against the innocent.
+
+He who does these things shall never be shaken.
+
 ## Chapter 16
+
+> _A Poem by David._
 
 <sup>1</sup> Preserve me, God, for I take refuge in you.<br>
 <sup>2</sup> My soul, you have said to Yahweh, “You are my Lord.<br>Apart from you I have no good thing.”<br>
@@ -232,6 +268,8 @@
 
 ## Chapter 17
 
+> _A Prayer by David._
+
 <sup>1</sup> Hear, Yahweh, my righteous plea.<br>Give ear to my prayer that doesn’t go out of deceitful lips.<br>
 <sup>2</sup> Let my sentence come out of your presence.<br>Let your eyes look on equity.<br>
 <sup>3</sup> You have proved my heart.<br>You have visited me in the night.<br>You have tried me, and found nothing.<br>I have resolved that my mouth shall not disobey.<br>
@@ -247,7 +285,10 @@
 <sup>13</sup> Arise, Yahweh, confront him.<br>Cast him down.<br>Deliver my soul from the wicked by your sword,<br>
 <sup>14</sup> from men by your hand, Yahweh,<br>from men of the world, whose portion is in this life.<br>You fill the belly of your cherished ones.<br>Your sons have plenty,<br>and they store up wealth for their children.<br>
 <sup>15</sup> As for me, I shall see your face in righteousness.<br>I shall be satisfied, when I awake, with seeing your form.
+
 ## Chapter 18
+
+> _For the Chief Musician. By David the servant of Yahweh, who spoke to Yahweh the words of this song in the day that Yahweh delivered him from the hand of all his enemies, and from the hand of Saul. He said,_
 
 <sup>1</sup> I love you, Yahweh, my strength.<br>
 <sup>2</sup> Yahweh is my rock, my fortress, and my deliverer;<br>my God, my rock, in whom I take refuge;<br>my shield, and the horn of my salvation, my high tower.<br>
@@ -305,6 +346,8 @@
 
 ## Chapter 19
 
+> _For the Chief Musician. A Psalm by David._
+
 <sup>1</sup> The heavens declare the glory of God.<br>The expanse shows his handiwork.<br>
 <sup>2</sup> Day after day they pour out speech,<br>and night after night they display knowledge.<br>
 <sup>3</sup> There is no speech nor language<br>where their voice is not heard.<br>
@@ -321,7 +364,10 @@
 
 <sup>13</sup> Keep back your servant also from presumptuous sins.<br>Let them not have dominion over me.<br>Then I will be upright.<br>I will be blameless and innocent of great transgression.<br>
 <sup>14</sup> Let the words of my mouth and the meditation of my heart<br>be acceptable in your sight,<br>Yahweh, my rock, and my redeemer.
+
 ## Chapter 20
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> May Yahweh answer you in the day of trouble.<br>May the name of the God of Jacob set you up on high,<br>
 <sup>2</sup> send you help from the sanctuary,<br>grant you support from Zion,<br>
@@ -333,7 +379,10 @@
 <sup>7</sup> Some trust in chariots, and some in horses,<br>but we trust in the name of Yahweh our God.<br>
 <sup>8</sup> They are bowed down and fallen,<br>but we rise up, and stand upright.<br>
 <sup>9</sup> Save, Yahweh!<br>Let the King answer us when we call!
+
 ## Chapter 21
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> The king rejoices in your strength, Yahweh!<br>How greatly he rejoices in your salvation!<br>
 <sup>2</sup> You have given him his heart’s desire,<br>and have not withheld the request of his lips.<br>Selah.
@@ -349,7 +398,10 @@
 <sup>11</sup> For they intended evil against you.<br>They plotted evil against you which cannot succeed.<br>
 <sup>12</sup> For you will make them turn their back,<br>when you aim drawn bows at their face.<br>
 <sup>13</sup> Be exalted, Yahweh, in your strength,<br>so we will sing and praise your power.
+
 ## Chapter 22
+
+> _For the Chief Musician; set to “The Doe of the Morning.” A Psalm by David._
 
 <sup>1</sup> My God, my God, why have you forsaken me?<br>Why are you so far from helping me, and from the words of my groaning?<br>
 <sup>2</sup> My God, I cry in the daytime, but you don’t answer;<br>in the night season, and am not silent.<br>
@@ -390,13 +442,18 @@
 
 ## Chapter 23
 
+> _A Psalm by David._
+
 <sup>1</sup> Yahweh is my shepherd;<br>I shall lack nothing.<br>
 <sup>2</sup> He makes me lie down in green pastures.<br>He leads me beside still waters.<br>
 <sup>3</sup> He restores my soul.<br>He guides me in the paths of righteousness for his name’s sake.<br>
 <sup>4</sup> Even though I walk through the valley of the shadow of death,<br>I will fear no evil, for you are with me.<br>Your rod and your staff,<br>they comfort me.<br>
 <sup>5</sup> You prepare a table before me<br>in the presence of my enemies.<br>You anoint my head with oil.<br>My cup runs over.<br>
 <sup>6</sup> Surely goodness and loving kindness shall follow me all the days of my life,<br>and I will dwell in Yahweh’s house forever.
+
 ## Chapter 24
+
+> _A Psalm by David._
 
 <sup>1</sup> The earth is Yahweh’s, with its fullness;<br>the world, and those who dwell in it.<br>
 <sup>2</sup> For he has founded it on the seas,<br>and established it on the floods.
@@ -410,7 +467,10 @@
 <sup>8</sup> Who is the King of glory?<br>Yahweh strong and mighty,<br>Yahweh mighty in battle.<br>
 <sup>9</sup> Lift up your heads, you gates;<br>yes, lift them up, you everlasting doors,<br>and the King of glory will come in.<br>
 <sup>10</sup> Who is this King of glory?<br>Yahweh of Armies is the King of glory!<br>Selah.
+
 ## Chapter 25
+
+> _By David._
 
 <sup>1</sup> To you, Yahweh, I lift up my soul.<br>
 <sup>2</sup> My God, I have trusted in you.<br>Don’t let me be shamed.<br>Don’t let my enemies triumph over me.<br>
@@ -436,7 +496,10 @@
 <sup>20</sup> Oh keep my soul, and deliver me.<br>Let me not be disappointed, for I take refuge in you.<br>
 <sup>21</sup> Let integrity and uprightness preserve me,<br>for I wait for you.<br>
 <sup>22</sup> God, redeem Israel<br>out of all his troubles.
+
 ## Chapter 26
+
+> _By David._
 
 <sup>1</sup> Judge me, Yahweh, for I have walked in my integrity.<br>I have trusted also in Yahweh without wavering.<br>
 <sup>2</sup> Examine me, Yahweh, and prove me.<br>Try my heart and my mind.<br>
@@ -451,7 +514,10 @@
 
 <sup>11</sup> But as for me, I will walk in my integrity.<br>Redeem me, and be merciful to me.<br>
 <sup>12</sup> My foot stands in an even place.<br>In the congregations I will bless Yahweh.
+
 ## Chapter 27
+
+> _By David._
 
 <sup>1</sup> Yahweh is my light and my salvation.<br>Whom shall I fear?<br>Yahweh is the strength of my life.<br>Of whom shall I be afraid?<br>
 <sup>2</sup> When evildoers came at me to eat up my flesh,<br>even my adversaries and my foes, they stumbled and fell.<br>
@@ -468,7 +534,10 @@
 <sup>12</sup> Don’t deliver me over to the desire of my adversaries,<br>for false witnesses have risen up against me,<br>such as breathe out cruelty.<br>
 <sup>13</sup> I am still confident of this:<br>I will see the goodness of Yahweh in the land of the living.<br>
 <sup>14</sup> Wait for Yahweh.<br>Be strong, and let your heart take courage.<br>Yes, wait for Yahweh.
+
 ## Chapter 28
+
+> _By David._
 
 <sup>1</sup> To you, Yahweh, I call.<br>My rock, don’t be deaf to me,<br>lest, if you are silent to me,<br>I would become like those who go down into the pit.<br>
 <sup>2</sup> Hear the voice of my petitions, when I cry to you,<br>when I lift up my hands toward your Most Holy Place.<br>
@@ -480,7 +549,10 @@
 <sup>7</sup> Yahweh is my strength and my shield.<br>My heart has trusted in him, and I am helped.<br>Therefore my heart greatly rejoices.<br>With my song I will thank him.<br>
 <sup>8</sup> Yahweh is their strength.<br>He is a stronghold of salvation to his anointed.<br>
 <sup>9</sup> Save your people,<br>and bless your inheritance.<br>Be their shepherd also,<br>and bear them up forever.
+
 ## Chapter 29
+
+> _A Psalm by David._
 
 <sup>1</sup> Ascribe to Yahweh, you sons of the mighty,<br>ascribe to Yahweh glory and strength.<br>
 <sup>2</sup> Ascribe to Yahweh the glory due to his name.<br>Worship Yahweh in holy array.
@@ -495,7 +567,10 @@
 
 <sup>10</sup> Yahweh sat enthroned at the Flood.<br>Yes, Yahweh sits as King forever.<br>
 <sup>11</sup> Yahweh will give strength to his people.<br>Yahweh will bless his people with peace.
+
 ## Chapter 30
+
+> _A Psalm. A Song for the Dedication of the Temple. By David._
 
 <sup>1</sup> I will extol you, Yahweh, for you have raised me up,<br>and have not made my foes to rejoice over me.<br>
 <sup>2</sup> Yahweh my God, I cried to you,<br>and you have healed me.<br>
@@ -513,6 +588,8 @@
 > - <sup>a</sup> 3. Sheol is the place of the dead.
 
 ## Chapter 31
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> In you, Yahweh, I take refuge.<br>Let me never be disappointed.<br>Deliver me in your righteousness.<br>
 <sup>2</sup> Bow down your ear to me.<br>Deliver me speedily.<br>Be to me a strong rock,<br>a house of defense to save me.<br>
@@ -543,6 +620,8 @@
 
 ## Chapter 32
 
+> _By David. A contemplative psalm._
+
 <sup>1</sup> Blessed is he whose disobedience is forgiven,<br>whose sin is covered.<br>
 <sup>2</sup> Blessed is the man to whom Yahweh doesn’t impute iniquity,<br>in whose spirit there is no deceit.<br>
 <sup>3</sup> When I kept silence, my bones wasted away through my groaning all day long.<br>
@@ -557,6 +636,7 @@
 <sup>9</sup> Don’t be like the horse, or like the mule, which have no understanding,<br>who are controlled by bit and bridle, or else they will not come near to you.<br>
 <sup>10</sup> Many sorrows come to the wicked,<br>but loving kindness shall surround him who trusts in Yahweh.<br>
 <sup>11</sup> Be glad in Yahweh, and rejoice, you righteous!<br>Shout for joy, all you who are upright in heart!
+
 ## Chapter 33
 
 <sup>1</sup> Rejoice in Yahweh, you righteous!<br>Praise is fitting for the upright.<br>
@@ -581,9 +661,12 @@
 <sup>20</sup> Our soul has waited for Yahweh.<br>He is our help and our shield.<br>
 <sup>21</sup> For our heart rejoices in him,<br>because we have trusted in his holy name.<br>
 <sup>22</sup> Let your loving kindness be on us, Yahweh,<br>since we have hoped in you.
+
 ## Chapter 34
 
-<sup>1</sup> I will bless Yahweh at all times.<br>His praise will always be in my mouth.<br>
+> _By David; when he pretended to be insane before Abimelech, who drove him away, and he departed._
+
+<sup>1</sup> <sup>a</sup> I will bless Yahweh at all times.<br>His praise will always be in my mouth.<br>
 <sup>2</sup> My soul shall boast in Yahweh.<br>The humble shall hear of it and be glad.<br>
 <sup>3</sup> Oh magnify Yahweh with me.<br>Let’s exalt his name together.<br>
 <sup>4</sup> I sought Yahweh, and he answered me,<br>and delivered me from all my fears.<br>
@@ -606,7 +689,12 @@
 <sup>20</sup> He protects all of his bones.<br>Not one of them is broken.<br>
 <sup>21</sup> Evil shall kill the wicked.<br>Those who hate the righteous shall be condemned.<br>
 <sup>22</sup> Yahweh redeems the soul of his servants.<br>None of those who take refuge in him shall be condemned.
+
+> - <sup>a</sup> 1. Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).
+
 ## Chapter 35
+
+> _By David._
 
 <sup>1</sup> Contend, Yahweh, with those who contend with me.<br>Fight against those who fight against me.<br>
 <sup>2</sup> Take hold of shield and buckler,<br>and stand up for my help.<br>
@@ -639,7 +727,10 @@
 
 <sup>27</sup> Let those who favor my righteous cause shout for joy and be glad.<br>Yes, let them say continually, “May Yahweh be magnified,<br>who has pleasure in the prosperity of his servant!”<br>
 <sup>28</sup> My tongue shall talk about your righteousness and about your praise all day long.
+
 ## Chapter 36
+
+> _For the Chief Musician. By David, the servant of Yahweh._
 
 <sup>1</sup> A revelation is within my heart about the disobedience of the wicked:<br>There is no fear of God before his eyes.<br>
 <sup>2</sup> For he flatters himself in his own eyes,<br>too much to detect and hate his sin.<br>
@@ -654,7 +745,10 @@
 <sup>10</sup> Oh continue your loving kindness to those who know you,<br>your righteousness to the upright in heart.<br>
 <sup>11</sup> Don’t let the foot of pride come against me.<br>Don’t let the hand of the wicked drive me away.<br>
 <sup>12</sup> There the workers of iniquity are fallen.<br>They are thrust down, and shall not be able to rise.
+
 ## Chapter 37
+
+> _By David._
 
 <sup>1</sup> Don’t fret because of evildoers,<br>neither be envious against those who work unrighteousness.<br>
 <sup>2</sup> For they shall soon be cut down like the grass,<br>and wither like the green herb.<br>
@@ -699,7 +793,10 @@
 <sup>38</sup> As for transgressors, they shall be destroyed together.<br>The future of the wicked shall be cut off.<br>
 <sup>39</sup> But the salvation of the righteous is from Yahweh.<br>He is their stronghold in the time of trouble.<br>
 <sup>40</sup> Yahweh helps them and rescues them.<br>He rescues them from the wicked and saves them,<br>because they have taken refuge in him.
+
 ## Chapter 38
+
+> _A Psalm by David, for a memorial._
 
 <sup>1</sup> Yahweh, don’t rebuke me in your wrath,<br>neither chasten me in your hot displeasure.<br>
 <sup>2</sup> For your arrows have pierced me,<br>your hand presses hard on me.<br>
@@ -723,7 +820,10 @@
 <sup>20</sup> They who render evil for good are also adversaries to me,<br>because I follow what is good.<br>
 <sup>21</sup> Don’t forsake me, Yahweh.<br>My God, don’t be far from me.<br>
 <sup>22</sup> Hurry to help me,<br>Lord, my salvation.
+
 ## Chapter 39
+
+> _For the Chief Musician. For Jeduthun. A Psalm by David._
 
 <sup>1</sup> I said, “I will watch my ways, so that I don’t sin with my tongue.<br>I will keep my mouth with a bridle while the wicked is before me.”<br>
 <sup>2</sup> I was mute with silence.<br>I held my peace, even from good.<br>My sorrow was stirred.<br>
@@ -740,7 +840,10 @@
 
 <sup>12</sup> “Hear my prayer, Yahweh, and give ear to my cry.<br>Don’t be silent at my tears.<br>For I am a stranger with you,<br>a foreigner, as all my fathers were.<br>
 <sup>13</sup> Oh spare me, that I may recover strength,<br>before I go away and exist no more.”
+
 ## Chapter 40
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> I waited patiently for Yahweh.<br>He turned to me, and heard my cry.<br>
 <sup>2</sup> He brought me up also out of a horrible pit,<br>out of the miry clay.<br>He set my feet on a rock,<br>and gave me a firm place to stand.<br>
@@ -759,7 +862,10 @@
 <sup>15</sup> Let them be desolate by reason of their shame that tell me, “Aha! Aha!”<br>
 <sup>16</sup> Let all those who seek you rejoice and be glad in you.<br>Let such as love your salvation say continually, “Let Yahweh be exalted!”<br>
 <sup>17</sup> But I am poor and needy.<br>May the Lord think about me.<br>You are my help and my deliverer.<br>Don’t delay, my God.
+
 ## Chapter 41
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> Blessed is he who considers the poor.<br>Yahweh will deliver him in the day of evil.<br>
 <sup>2</sup> Yahweh will preserve him, and keep him alive.<br>He shall be blessed on the earth,<br>and he will not surrender him to the will of his enemies.<br>
@@ -776,7 +882,10 @@
 <sup>12</sup> As for me, you uphold me in my integrity,<br>and set me in your presence forever.
 
 <sup>13</sup> Blessed be Yahweh, the God of Israel,<br>from everlasting and to everlasting!<br>Amen and amen.
+
 ## Chapter 42
+
+> _For the Chief Musician. A contemplation by the sons of Korah._
 
 <sup>1</sup> As the deer pants for the water brooks,<br>so my soul pants after you, God.<sup>a</sup><br>
 <sup>2</sup> My soul thirsts for God, for the living God.<br>When shall I come and appear before God?<br>
@@ -801,7 +910,10 @@
 <sup>3</sup> Oh, send out your light and your truth.<br>Let them lead me.<br>Let them bring me to your holy hill,<br>to your tents.<br>
 <sup>4</sup> Then I will go to the altar of God,<br>to God, my exceeding joy.<br>I will praise you on the harp, God, my God.<br>
 <sup>5</sup> Why are you in despair, my soul?<br>Why are you disturbed within me?<br>Hope in God!<br>For I shall still praise him:<br>my Savior, my helper, and my God.
+
 ## Chapter 44
+
+> _For the Chief Musician. By the sons of Korah. A contemplative psalm._
 
 <sup>1</sup> We have heard with our ears, God;<br>our fathers have told us what work you did in their days,<br>in the days of old.<br>
 <sup>2</sup> You drove out the nations with your hand,<br>but you planted them.<br>You afflicted the peoples,<br>but you spread them abroad.<br>
@@ -835,6 +947,8 @@
 
 ## Chapter 45
 
+> _For the Chief Musician. Set to “The Lilies.” A contemplation by the sons of Korah. A wedding song._
+
 <sup>1</sup> My heart overflows with a noble theme.<br>I recite my verses for the king.<br>My tongue is like the pen of a skillful writer.<br>
 <sup>2</sup> You are the most excellent of the sons of men.<br>Grace has anointed your lips,<br>therefore God has blessed you forever.<br>
 <sup>3</sup> Strap your sword on your thigh, O mighty one,<br>in your splendor and your majesty.<br>
@@ -852,7 +966,10 @@
 <sup>15</sup> With gladness and rejoicing they shall be led.<br>They shall enter into the king’s palace.<br>
 <sup>16</sup> Your sons will take the place of your fathers.<br>You shall make them princes in all the earth.<br>
 <sup>17</sup> I will make your name to be remembered in all generations.<br>Therefore the peoples shall give you thanks forever and ever.
+
 ## Chapter 46
+
+> _For the Chief Musician. By the sons of Korah. According to Alamoth.<sup>a</sup>_
 
 <sup>1</sup> God is our refuge and strength,<br>a very present help in trouble.<br>
 <sup>2</sup> Therefore we won’t be afraid, though the earth changes,<br>though the mountains are shaken into the heart of the seas;<br>
@@ -867,7 +984,12 @@
 <sup>9</sup> He makes wars cease to the end of the earth.<br>He breaks the bow, and shatters the spear.<br>He burns the chariots in the fire.<br>
 <sup>10</sup> “Be still, and know that I am God.<br>I will be exalted among the nations.<br>I will be exalted in the earth.”<br>
 <sup>11</sup> Yahweh of Armies is with us.<br>The God of Jacob is our refuge.<br>Selah.
+
+> - <sup>a</sup> Subtitle. Alamoth is a musical term.
+
 ## Chapter 47
+
+> _For the Chief Musician. A Psalm by the sons of Korah._
 
 <sup>1</sup> Oh clap your hands, all you nations.<br>Shout to God with the voice of triumph!<br>
 <sup>2</sup> For Yahweh Most High is awesome.<br>He is a great King over all the earth.<br>
@@ -879,7 +1001,10 @@
 <sup>7</sup> For God is the King of all the earth.<br>Sing praises with understanding.<br>
 <sup>8</sup> God reigns over the nations.<br>God sits on his holy throne.<br>
 <sup>9</sup> The princes of the peoples are gathered together,<br>the people of the God of Abraham.<br>For the shields of the earth belong to God.<br>He is greatly exalted!
+
 ## Chapter 48
+
+> _A Song. A Psalm by the sons of Korah._
 
 <sup>1</sup> Great is Yahweh, and greatly to be praised,<br>in the city of our God, in his holy mountain.<br>
 <sup>2</sup> Beautiful in elevation, the joy of the whole earth,<br>is Mount Zion, on the north sides,<br>the city of the great King.<br>
@@ -896,7 +1021,10 @@
 <sup>12</sup> Walk about Zion, and go around her.<br>Number its towers.<br>
 <sup>13</sup> Notice her bulwarks.<br>Consider her palaces,<br>that you may tell it to the next generation.<br>
 <sup>14</sup> For this God is our God forever and ever.<br>He will be our guide even to death.
+
 ## Chapter 49
+
+> _For the Chief Musician. A Psalm by the sons of Korah._
 
 <sup>1</sup> Hear this, all you peoples.<br>Listen, all you inhabitants of the world,<br>
 <sup>2</sup> both low and high,<br>rich and poor together.<br>
@@ -928,6 +1056,8 @@
 
 ## Chapter 50
 
+> _A Psalm by Asaph._
+
 <sup>1</sup> The Mighty One, God, Yahweh, speaks,<br>and calls the earth from sunrise to sunset.<br>
 <sup>2</sup> Out of Zion, the perfection of beauty,<br>God shines out.<br>
 <sup>3</sup> Our God comes, and does not keep silent.<br>A fire devours before him.<br>It is very stormy around him.<br>
@@ -955,7 +1085,10 @@
 
 <sup>22</sup> “Now consider this, you who forget God,<br>lest I tear you into pieces, and there be no one to deliver.<br>
 <sup>23</sup> Whoever offers the sacrifice of thanksgiving glorifies me,<br>and prepares his way so that I will show God’s salvation to him.”
+
 ## Chapter 51
+
+> _For the Chief Musician. A Psalm by David, when Nathan the prophet came to him, after he had gone in to Bathsheba._
 
 <sup>1</sup> Have mercy on me, God, according to your loving kindness.<br>According to the multitude of your tender mercies, blot out my transgressions.<br>
 <sup>2</sup> Wash me thoroughly from my iniquity.<br>Cleanse me from my sin.<br>
@@ -977,7 +1110,10 @@
 
 <sup>18</sup> Do well in your good pleasure to Zion.<br>Build the walls of Jerusalem.<br>
 <sup>19</sup> Then you will delight in the sacrifices of righteousness,<br>in burnt offerings and in whole burnt offerings.<br>Then they will offer bulls on your altar.
+
 ## Chapter 52
+
+> _For the Chief Musician. A contemplation by David, when Doeg the Edomite came and told Saul, “David has come to Ahimelech’s house.”_
 
 <sup>1</sup> Why do you boast of mischief, mighty man?<br>God’s loving kindness endures continually.<br>
 <sup>2</sup> Your tongue plots destruction,<br>like a sharp razor, working deceitfully.<br>
@@ -990,7 +1126,10 @@
 <sup>7</sup> “Behold, this is the man who didn’t make God his strength,<br>but trusted in the abundance of his riches,<br>and strengthened himself in his wickedness.”<br>
 <sup>8</sup> But as for me, I am like a green olive tree in God’s house.<br>I trust in God’s loving kindness forever and ever.<br>
 <sup>9</sup> I will give you thanks forever, because you have done it.<br>I will hope in your name, for it is good,<br>in the presence of your saints.
+
 ## Chapter 53
+
+> _For the Chief Musician. To the tune of “Mahalath.” A contemplation by David._
 
 <sup>1</sup> The fool has said in his heart, “There is no God.”<br>They are corrupt, and have done abominable iniquity.<br>There is no one who does good.<br>
 <sup>2</sup> God looks down from heaven on the children of men,<br>to see if there are any who understood,<br>who seek after God.<br>
@@ -998,7 +1137,10 @@
 <sup>4</sup> Have the workers of iniquity no knowledge,<br>who eat up my people as they eat bread,<br>and don’t call on God?<br>
 <sup>5</sup> There they were in great fear, where no fear was,<br>for God has scattered the bones of him who encamps against you.<br>You have put them to shame,<br>because God has rejected them.<br>
 <sup>6</sup> Oh that the salvation of Israel would come out of Zion!<br>When God brings back his people from captivity,<br>then Jacob shall rejoice,<br>and Israel shall be glad.
+
 ## Chapter 54
+
+> _For the Chief Musician. On stringed instruments. A contemplation by David, when the Ziphites came and said to Saul, “Isn’t David hiding himself among us?”_
 
 <sup>1</sup> Save me, God, by your name.<br>Vindicate me in your might.<br>
 <sup>2</sup> Hear my prayer, God.<br>Listen to the words of my mouth.<br>
@@ -1008,7 +1150,10 @@
 <sup>5</sup> He will repay the evil to my enemies.<br>Destroy them in your truth.<br>
 <sup>6</sup> With a free will offering, I will sacrifice to you.<br>I will give thanks to your name, Yahweh, for it is good.<br>
 <sup>7</sup> For he has delivered me out of all trouble.<br>My eye has seen triumph over my enemies.
+
 ## Chapter 55
+
+> _For the Chief Musician. On stringed instruments. A contemplation by David._
 
 <sup>1</sup> Listen to my prayer, God.<br>Don’t hide yourself from my supplication.<br>
 <sup>2</sup> Attend to me, and answer me.<br>I am restless in my complaint,<br>and moan
@@ -1029,7 +1174,9 @@
 <sup>16</sup> As for me, I will call on God.<br>Yahweh will save me.<br>
 <sup>17</sup> Evening, morning, and at noon, I will cry out in distress.<br>He will hear my voice.<br>
 <sup>18</sup> He has redeemed my soul in peace from the battle that was against me,<br>although there are many who oppose me.<br>
-<sup>19</sup> God, who is enthroned forever,<br>will hear and answer them.<br>Selah. They never change<br>and don’t fear God.<br>
+<sup>19</sup> God, who is enthroned forever,<br>will hear and answer them.<br>Selah.<br>
+
+They never change<br>and don’t fear God.<br>
 
 <sup>20</sup> He raises his hands against his friends.<br>He has violated his covenant.<br>
 <sup>21</sup> His mouth was smooth as butter,<br>but his heart was war.<br>His words were softer than oil,<br>yet they were drawn swords.
@@ -1040,6 +1187,8 @@
 > - <sup>a</sup> 15. Sheol is the place of the dead.
 
 ## Chapter 56
+
+> _For the Chief Musician. To the tune of “Silent Dove in Distant Lands.” A poem by David, when the Philistines seized him in Gath._
 
 <sup>1</sup> Be merciful to me, God, for man wants to swallow me up.<br>All day long, he attacks and oppresses me.<br>
 <sup>2</sup> My enemies want to swallow me up all day long,<br>for they are many who fight proudly against me.<br>
@@ -1054,7 +1203,10 @@
 <sup>11</sup> I have put my trust in God.<br>I will not be afraid.<br>What can man do to me?<br>
 <sup>12</sup> Your vows are on me, God.<br>I will give thank offerings to you.<br>
 <sup>13</sup> For you have delivered my soul from death,<br>and prevented my feet from falling,<br>that I may walk before God in the light of the living.
+
 ## Chapter 57
+
+> _For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when he fled from Saul, in the cave._
 
 <sup>1</sup> Be merciful to me, God, be merciful to me,<br>for my soul takes refuge in you.<br>Yes, in the shadow of your wings, I will take refuge,<br>until disaster has passed.<br>
 <sup>2</sup> I cry out to God Most High,<br>to God who accomplishes my requests for me.<br>
@@ -1070,7 +1222,10 @@
 <sup>9</sup> I will give thanks to you, Lord, among the peoples.<br>I will sing praises to you among the nations.<br>
 <sup>10</sup> For your great loving kindness reaches to the heavens,<br>and your truth to the skies.<br>
 <sup>11</sup> Be exalted, God, above the heavens.<br>Let your glory be over all the earth.
+
 ## Chapter 58
+
+> _For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David._
 
 <sup>1</sup> Do you indeed speak righteousness, silent ones?<br>Do you judge blamelessly, you sons of men?<br>
 <sup>2</sup> No, in your heart you plot injustice.<br>You measure out the violence of your hands in the earth.<br>
@@ -1083,7 +1238,10 @@
 <sup>9</sup> Before your pots can feel the heat of the thorns,<br>he will sweep away the green and the burning alike.<br>
 <sup>10</sup> The righteous shall rejoice when he sees the vengeance.<br>He shall wash his feet in the blood of the wicked,<br>
 <sup>11</sup> so that men shall say, “Most certainly there is a reward for the righteous.<br>Most certainly there is a God who judges the earth.”
+
 ## Chapter 59
+
+> _For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when Saul sent, and they watched the house to kill him._
 
 <sup>1</sup> Deliver me from my enemies, my God.<br>Set me on high from those who rise up against me.<br>
 <sup>2</sup> Deliver me from the workers of iniquity.<br>Save me from the bloodthirsty men.<br>
@@ -1105,7 +1263,10 @@
 
 <sup>16</sup> But I will sing of your strength.<br>Yes, I will sing aloud of your loving kindness in the morning.<br>For you have been my high tower,<br>a refuge in the day of my distress.<br>
 <sup>17</sup> To you, my strength, I will sing praises.<br>For God is my high tower, the God of my mercy.
+
 ## Chapter 60
+
+> _For the Chief Musician. To the tune of “The Lily of the Covenant.” A teaching poem by David, when he fought with Aram Naharaim and with Aram Zobah, and Joab returned, and killed twelve thousand of Edom in the Valley of Salt._
 
 <sup>1</sup> God, you have rejected us.<br>You have broken us down.<br>You have been angry.<br>Restore us, again.<br>
 <sup>2</sup> You have made the land tremble.<br>You have torn it.<br>Mend its fractures,<br>for it quakes.<br>
@@ -1121,7 +1282,10 @@
 <sup>10</sup> Haven’t you, God, rejected us?<br>You don’t go out with our armies, God.<br>
 <sup>11</sup> Give us help against the adversary,<br>for the help of man is vain.<br>
 <sup>12</sup> Through God we will do valiantly,<br>for it is he who will tread down our adversaries.
+
 ## Chapter 61
+
+> _For the Chief Musician. For a stringed instrument. By David._
 
 <sup>1</sup> Hear my cry, God.<br>Listen to my prayer.<br>
 <sup>2</sup> From the end of the earth, I will call to you when my heart is overwhelmed.<br>Lead me to the rock that is higher than I.<br>
@@ -1132,7 +1296,10 @@
 <sup>6</sup> You will prolong the king’s life.<br>His years will be for generations.<br>
 <sup>7</sup> He shall be enthroned in God’s presence forever.<br>Appoint your loving kindness and truth, that they may preserve him.<br>
 <sup>8</sup> So I will sing praise to your name forever,<br>that I may fulfill my vows daily.
+
 ## Chapter 62
+
+> _For the Chief Musician. To Jeduthun. A Psalm by David._
 
 <sup>1</sup> My soul rests in God alone.<br>My salvation is from him.<br>
 <sup>2</sup> He alone is my rock, my salvation, and my fortress.<br>I will never be greatly shaken.<br>
@@ -1148,7 +1315,10 @@
 <sup>10</sup> Don’t trust in oppression.<br>Don’t become vain in robbery.<br>If riches increase,<br>don’t set your heart on them.<br>
 <sup>11</sup> God has spoken once;<br>twice I have heard this,<br>that power belongs to God.<br>
 <sup>12</sup> Also to you, Lord, belongs loving kindness,<br>for you reward every man according to his work.
+
 ## Chapter 63
+
+> _A Psalm by David, when he was in the desert of Judah._
 
 <sup>1</sup> God, you are my God.<br>I will earnestly seek you.<br>My soul thirsts for you.<br>My flesh longs for you,<br>in a dry and weary land, where there is no water.<br>
 <sup>2</sup> So I have seen you in the sanctuary,<br>watching your power and your glory.<br>
@@ -1161,7 +1331,10 @@
 <sup>9</sup> But those who seek my soul to destroy it<br>shall go into the lower parts of the earth.<br>
 <sup>10</sup> They shall be given over to the power of the sword.<br>They shall be jackal food.<br>
 <sup>11</sup> But the king shall rejoice in God.<br>Everyone who swears by him will praise him,<br>for the mouth of those who speak lies shall be silenced.
+
 ## Chapter 64
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> Hear my voice, God, in my complaint.<br>Preserve my life from fear of the enemy.<br>
 <sup>2</sup> Hide me from the conspiracy of the wicked,<br>from the noisy crowd of the ones doing evil;<br>
@@ -1173,7 +1346,10 @@
 <sup>8</sup> Their own tongues shall ruin them.<br>All who see them will shake their heads.<br>
 <sup>9</sup> All mankind shall be afraid.<br>They shall declare the work of God,<br>and shall wisely ponder what he has done.<br>
 <sup>10</sup> The righteous shall be glad in Yahweh,<br>and shall take refuge in him.<br>All the upright in heart shall praise him!
+
 ## Chapter 65
+
+> _For the Chief Musician. A Psalm by David. A song._
 
 <sup>1</sup> Praise waits for you, God, in Zion.<br>Vows shall be performed to you.<br>
 <sup>2</sup> You who hear prayer,<br>all men will come to you.<br>
@@ -1188,7 +1364,10 @@
 <sup>11</sup> You crown the year with your bounty.<br>Your carts overflow with abundance.<br>
 <sup>12</sup> The wilderness grasslands overflow.<br>The hills are clothed with gladness.<br>
 <sup>13</sup> The pastures are covered with flocks.<br>The valleys also are clothed with grain.<br>They shout for joy!<br>They also sing.
+
 ## Chapter 66
+
+> _For the Chief Musician. A song. A Psalm._
 
 <sup>1</sup> Make a joyful shout to God, all the earth!<br>
 <sup>2</sup> Sing to the glory of his name!<br>Offer glory and praise!<br>
@@ -1213,7 +1392,10 @@
 <sup>18</sup> If I cherished sin in my heart,<br>the Lord wouldn’t have listened.<br>
 <sup>19</sup> But most certainly, God has listened.<br>He has heard the voice of my prayer.<br>
 <sup>20</sup> Blessed be God, who has not turned away my prayer,<br>nor his loving kindness from me.
+
 ## Chapter 67
+
+> _For the Chief Musician. With stringed instruments. A Psalm. A song._
 
 <sup>1</sup> May God be merciful to us, bless us,<br>and cause his face to shine on us.<br>Selah.
 
@@ -1224,7 +1406,10 @@
 <sup>5</sup> Let the peoples praise you, God.<br>Let all the peoples praise you.<br>
 <sup>6</sup> The earth has yielded its increase.<br>God, even our own God, will bless us.<br>
 <sup>7</sup> God will bless us.<br>All the ends of the earth shall fear him.
+
 ## Chapter 68
+
+> _For the Chief Musician. A Psalm by David. A song._
 
 <sup>1</sup> Let God arise!<br>Let his enemies be scattered!<br>Let them who hate him also flee before him.<br>
 <sup>2</sup> As smoke is driven away,<br>so drive them away.<br>As wax melts before the fire,<br>so let the wicked perish at the presence of God.<br>
@@ -1267,7 +1452,10 @@
 <sup>33</sup> to him who rides on the heaven of heavens, which are of old;<br>behold, he utters his voice, a mighty voice.<br>
 <sup>34</sup> Ascribe strength to God!<br>His excellency is over Israel,<br>his strength is in the skies.<br>
 <sup>35</sup> You are awesome, God, in your sanctuaries.<br>The God of Israel gives strength and power to his people.<br>Praise be to God!
+
 ## Chapter 69
+
+> _For the Chief Musician. To the tune of “Lilies.” By David._
 
 <sup>1</sup> Save me, God,<br>for the waters have come up to my neck!<br>
 <sup>2</sup> I sink in deep mire, where there is no foothold.<br>I have come into deep waters, where the floods overflow me.<br>
@@ -1305,13 +1493,17 @@
 <sup>34</sup> Let heaven and earth praise him;<br>the seas, and everything that moves therein!<br>
 <sup>35</sup> For God will save Zion, and build the cities of Judah.<br>They shall settle there, and own it.<br>
 <sup>36</sup> The children also of his servants shall inherit it.<br>Those who love his name shall dwell therein.
+
 ## Chapter 70
+
+> _For the Chief Musician. By David. A reminder._
 
 <sup>1</sup> Hurry, God, to deliver me.<br>Come quickly to help me, Yahweh.<br>
 <sup>2</sup> Let them be disappointed and confounded who seek my soul.<br>Let those who desire my ruin be turned back in disgrace.<br>
 <sup>3</sup> Let them be turned because of their shame<br>who say, “Aha! Aha!”<br>
 <sup>4</sup> Let all those who seek you rejoice and be glad in you.<br>Let those who love your salvation continually say,<br>“Let God be exalted!”<br>
 <sup>5</sup> But I am poor and needy.<br>Come to me quickly, God.<br>You are my help and my deliverer.<br>Yahweh, don’t delay.
+
 ## Chapter 71
 
 <sup>1</sup> In you, Yahweh, I take refuge.<br>Never let me be disappointed.<br>
@@ -1338,7 +1530,10 @@
 <sup>22</sup> I will also praise you with the harp for your faithfulness, my God.<br>I sing praises to you with the lyre, Holy One of Israel.<br>
 <sup>23</sup> My lips shall shout for joy!<br>My soul, which you have redeemed, sings praises to you!<br>
 <sup>24</sup> My tongue will also talk about your righteousness all day long,<br>for they are disappointed, and they are confounded,<br>who want to harm me.
+
 ## Chapter 72
+
+> _By Solomon._
 
 <sup>1</sup> God, give the king your justice;<br>your righteousness to the royal son.<br>
 <sup>2</sup> He will judge your people with righteousness,<br>and your poor with justice.<br>
@@ -1362,7 +1557,10 @@
 <sup>19</sup> Blessed be his glorious name forever!<br>Let the whole earth be filled with his glory!<br>Amen and amen.
 
 <sup>20</sup> This ends the prayers by David, the son of Jesse.
+
 ## Chapter 73
+
+> _A Psalm by Asaph._
 
 <sup>1</sup> Surely God<sup>a</sup> is good to Israel,<br>to those who are pure in heart.<br>
 <sup>2</sup> But as for me, my feet were almost gone.<br>My steps had nearly slipped.<br>
@@ -1399,6 +1597,8 @@
 
 ## Chapter 74
 
+> _A contemplation by Asaph._
+
 <sup>1</sup> God, why have you rejected us forever?<br>Why does your anger smolder against the sheep of your pasture?<br>
 <sup>2</sup> Remember your congregation, which you purchased of old,<br>which you have redeemed to be the tribe of your inheritance:<br>Mount Zion, in which you have lived.<br>
 <sup>3</sup> Lift up your feet to the perpetual ruins,<br>all the evil that the enemy has done in the sanctuary.<br>
@@ -1424,7 +1624,10 @@
 <sup>21</sup> Don’t let the oppressed return ashamed.<br>Let the poor and needy praise your name.<br>
 <sup>22</sup> Arise, God! Plead your own cause.<br>Remember how the foolish man mocks you all day.<br>
 <sup>23</sup> Don’t forget the voice of your adversaries.<br>The tumult of those who rise up against you ascends continually.
+
 ## Chapter 75
+
+> _For the Chief Musician. To the tune of “Do Not Destroy.” A Psalm by Asaph. A song._
 
 <sup>1</sup> We give thanks to you, God.<br>We give thanks, for your Name is near.<br>Men tell about your wondrous works.
 
@@ -1439,7 +1642,10 @@
 
 <sup>9</sup> But I will declare this forever:<br>I will sing praises to the God of Jacob.<br>
 <sup>10</sup> I will cut off all the horns of the wicked,<br>but the horns of the righteous shall be lifted up.
+
 ## Chapter 76
+
+> _For the Chief Musician. On stringed instruments. A Psalm by Asaph. A song._
 
 <sup>1</sup> In Judah, God is known.<br>His name is great in Israel.<br>
 <sup>2</sup> His tabernacle is also in Salem.<br>His dwelling place in Zion.<br>
@@ -1455,7 +1661,10 @@
 <sup>10</sup> Surely the wrath of man praises you.<br>The survivors of your wrath are restrained.<br>
 <sup>11</sup> Make vows to Yahweh your God, and fulfill them!<br>Let all of his neighbors bring presents to him who is to be feared.<br>
 <sup>12</sup> He will cut off the spirit of princes.<br>He is feared by the kings of the earth.
+
 ## Chapter 77
+
+> _For the Chief Musician. To Jeduthun. A Psalm by Asaph._
 
 <sup>1</sup> My cry goes to God!<br>Indeed, I cry to God for help,<br>and for him to listen to me.<br>
 <sup>2</sup> In the day of my trouble I sought the Lord.<br>My hand was stretched out in the night, and didn’t get tired.<br>My soul refused to be comforted.<br>
@@ -1480,7 +1689,10 @@
 <sup>18</sup> The voice of your thunder was in the whirlwind.<br>The lightnings lit up the world.<br>The earth trembled and shook.<br>
 <sup>19</sup> Your way was through the sea,<br>your paths through the great waters.<br>Your footsteps were not known.<br>
 <sup>20</sup> You led your people like a flock,<br>by the hand of Moses and Aaron.
+
 ## Chapter 78
+
+> _A contemplation by Asaph._
 
 <sup>1</sup> Hear my teaching, my people.<br>Turn your ears to the words of my mouth.<br>
 <sup>2</sup> I will open my mouth in a parable.<br>I will utter dark sayings of old,<br>
@@ -1554,7 +1766,10 @@
 <sup>70</sup> He also chose David his servant,<br>and took him from the sheepfolds;<br>
 <sup>71</sup> from following the ewes that have their young,<br>he brought him to be the shepherd of Jacob, his people,<br>and Israel, his inheritance.<br>
 <sup>72</sup> So he was their shepherd according to the integrity of his heart,<br>and guided them by the skillfulness of his hands.
+
 ## Chapter 79
+
+> _A Psalm by Asaph._
 
 <sup>1</sup> God, the nations have come into your inheritance.<br>They have defiled your holy temple.<br>They have laid Jerusalem in heaps.<br>
 <sup>2</sup> They have given the dead bodies of your servants to be food for the birds of the sky,<br>the flesh of your saints to the animals of the earth.<br>
@@ -1569,7 +1784,10 @@
 <sup>11</sup> Let the sighing of the prisoner come before you.<br>According to the greatness of your power, preserve those who are sentenced to death.<br>
 <sup>12</sup> Pay back to our neighbors seven times into their bosom<br>their reproach with which they have reproached you, Lord.<br>
 <sup>13</sup> So we, your people and sheep of your pasture,<br>will give you thanks forever.<br>We will praise you forever, to all generations.
+
 ## Chapter 80
+
+> _For the Chief Musician. To the tune of “The Lilies of the Covenant.” A Psalm by Asaph._
 
 <sup>1</sup> Hear us, Shepherd of Israel,<br>you who lead Joseph like a flock,<br>you who sit above the cherubim, shine out.<br>
 <sup>2</sup> Before Ephraim, Benjamin, and Manasseh, stir up your might!<br>Come to save us!<br>
@@ -1592,7 +1810,10 @@
 <sup>17</sup> Let your hand be on the man of your right hand,<br>on the son of man whom you made strong for yourself.<br>
 <sup>18</sup> So we will not turn away from you.<br>Revive us, and we will call on your name.<br>
 <sup>19</sup> Turn us again, Yahweh God of Armies.<br>Cause your face to shine, and we will be saved.
+
 ## Chapter 81
+
+> _For the Chief Musician. On an instrument of Gath. By Asaph._
 
 <sup>1</sup> Sing aloud to God, our strength!<br>Make a joyful shout to the God of Jacob!<br>
 <sup>2</sup> Raise a song, and bring here the tambourine,<br>the pleasant lyre with the harp.<br>
@@ -1611,7 +1832,10 @@
 <sup>14</sup> I would soon subdue their enemies,<br>and turn my hand against their adversaries.<br>
 <sup>15</sup> The haters of Yahweh would cringe before him,<br>and their punishment would last forever.<br>
 <sup>16</sup> But he would have also fed them with the finest of the wheat.<br>I will satisfy you with honey out of the rock.”
+
 ## Chapter 82
+
+> _A Psalm by Asaph._
 
 <sup>1</sup> God presides in the great assembly.<br>He judges among the gods.<br>
 <sup>2</sup> “How long will you judge unjustly,<br>and show partiality to the wicked?”<br>Selah.
@@ -1622,7 +1846,10 @@
 <sup>6</sup> I said, “You are gods,<br>all of you are sons of the Most High.<br>
 <sup>7</sup> Nevertheless you shall die like men,<br>and fall like one of the rulers.”<br>
 <sup>8</sup> Arise, God, judge the earth,<br>for you inherit all of the nations.
+
 ## Chapter 83
+
+> _A song. A Psalm by Asaph._
 
 <sup>1</sup> God, don’t keep silent.<br>Don’t keep silent,<br>and don’t be still, God.<br>
 <sup>2</sup> For, behold, your enemies are stirred up.<br>Those who hate you have lifted up their heads.<br>
@@ -1643,7 +1870,10 @@
 <sup>16</sup> Fill their faces with confusion,<br>that they may seek your name, Yahweh.<br>
 <sup>17</sup> Let them be disappointed and dismayed forever.<br>Yes, let them be confounded and perish;<br>
 <sup>18</sup> that they may know that you alone, whose name is Yahweh,<br>are the Most High over all the earth.
+
 ## Chapter 84
+
+> _For the Chief Musician. On an instrument of Gath. A Psalm by the sons of Korah._
 
 <sup>1</sup> How lovely are your dwellings,<br>Yahweh of Armies!<br>
 <sup>2</sup> My soul longs, and even faints for the courts of Yahweh.<br>My heart and my flesh cry out for the living God.<br>
@@ -1659,7 +1889,10 @@
 <sup>10</sup> For a day in your courts is better than a thousand.<br>I would rather be a doorkeeper in the house of my God,<br>than to dwell in the tents of wickedness.<br>
 <sup>11</sup> For Yahweh God is a sun and a shield.<br>Yahweh will give grace and glory.<br>He withholds no good thing from those who walk blamelessly.<br>
 <sup>12</sup> Yahweh of Armies,<br>blessed is the man who trusts in you.
+
 ## Chapter 85
+
+> _For the Chief Musician. A Psalm by the sons of Korah._
 
 <sup>1</sup> Yahweh, you have been favorable to your land.<br>You have restored the fortunes of Jacob.<br>
 <sup>2</sup> You have forgiven the iniquity of your people.<br>You have covered all their sin.<br>Selah.
@@ -1675,7 +1908,10 @@
 <sup>11</sup> Truth springs out of the earth.<br>Righteousness has looked down from heaven.<br>
 <sup>12</sup> Yes, Yahweh will give that which is good.<br>Our land will yield its increase.<br>
 <sup>13</sup> Righteousness goes before him,<br>and prepares the way for his steps.
+
 ## Chapter 86
+
+> _A Prayer by David._
 
 <sup>1</sup> Hear, Yahweh, and answer me,<br>for I am poor and needy.<br>
 <sup>2</sup> Preserve my soul, for I am godly.<br>You, my God, save your servant who trusts in you.<br>
@@ -1699,6 +1935,8 @@
 
 ## Chapter 87
 
+> _A Psalm by the sons of Korah; a Song._
+
 <sup>1</sup> His foundation is in the holy mountains.<br>
 <sup>2</sup> Yahweh loves the gates of Zion more than all the dwellings of Jacob.<br>
 <sup>3</sup> Glorious things are spoken about you, city of God.<br>Selah.
@@ -1712,6 +1950,8 @@
 > - <sup>a</sup> 4. Rahab is a reference to Egypt.
 
 ## Chapter 88
+
+> _A Song. A Psalm by the sons of Korah. For the Chief Musician. To the tune of “The Suffering of Affliction.” A contemplation by Heman, the Ezrahite._
 
 <sup>1</sup> Yahweh, the God of my salvation,<br>I have cried day and night before you.<br>
 <sup>2</sup> Let my prayer enter into your presence.<br>Turn your ear to my cry.<br>
@@ -1737,6 +1977,8 @@
 > - <sup>a</sup> 3. Sheol is the place of the dead.
 
 ## Chapter 89
+
+> _A contemplation by Ethan, the Ezrahite._
 
 <sup>1</sup> I will sing of the loving kindness of Yahweh forever.<br>With my mouth, I will make known your faithfulness to all generations.<br>
 <sup>2</sup> I indeed declare, “Love stands firm forever.<br>You established the heavens.<br>Your faithfulness is in them.”
@@ -1802,7 +2044,9 @@
 
 ## Chapter 90
 
-<sup>1</sup> Lord,<sup>a</sup> you have been our dwelling place for all generations.<br>
+> _A Prayer by Moses, the man of God.<sup>a</sup>_
+
+<sup>1</sup> Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>2</sup> Before the mountains were born,<br>before you had formed the earth and the world,<br>even from everlasting to everlasting, you are God.<br>
 <sup>3</sup> You turn man to destruction, saying,<br>“Return, you children of men.”<br>
 <sup>4</sup> For a thousand years in your sight are just like yesterday when it is past,<br>like a watch in the night.<br>
@@ -1814,14 +2058,15 @@
 <sup>10</sup> The days of our years are seventy,<br>or even by reason of strength eighty years;<br>yet their pride is but labor and sorrow,<br>for it passes quickly, and we fly away.<br>
 <sup>11</sup> Who knows the power of your anger,<br>your wrath according to the fear that is due to you?<br>
 <sup>12</sup> So teach us to count our days,<br>that we may gain a heart of wisdom.<br>
-<sup>13</sup> Relent, Yahweh!<sup>b</sup><br>How long?<br>Have compassion on your servants!<br>
+<sup>13</sup> Relent, Yahweh!<sup>c</sup><br>How long?<br>Have compassion on your servants!<br>
 <sup>14</sup> Satisfy us in the morning with your loving kindness,<br>that we may rejoice and be glad all our days.<br>
 <sup>15</sup> Make us glad for as many days as you have afflicted us,<br>for as many years as we have seen evil.<br>
 <sup>16</sup> Let your work appear to your servants,<br>your glory to their children.<br>
 <sup>17</sup> Let the favor of the Lord our God be on us.<br>Establish the work of our hands for us.<br>Yes, establish the work of our hands.
 
-> - <sup>a</sup> 1. The word translated “Lord” is “Adonai.”
-> - <sup>b</sup> 13. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
+> - <sup>a</sup> Subtitle. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
+> - <sup>b</sup> 1. The word translated “Lord” is “Adonai.”
+> - <sup>c</sup> 13. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 
 ## Chapter 91
 
@@ -1841,7 +2086,10 @@
 <sup>14</sup> “Because he has set his love on me, therefore I will deliver him.<br>I will set him on high, because he has known my name.<br>
 <sup>15</sup> He will call on me, and I will answer him.<br>I will be with him in trouble.<br>I will deliver him, and honor him.<br>
 <sup>16</sup> I will satisfy him with long life,<br>and show him my salvation.”
+
 ## Chapter 92
+
+> _A Psalm. A song for the Sabbath day._
 
 <sup>1</sup> It is a good thing to give thanks to Yahweh,<br>to sing praises to your name, Most High,<br>
 <sup>2</sup> to proclaim your loving kindness in the morning,<br>and your faithfulness every night,<br>
@@ -1858,6 +2106,7 @@
 <sup>13</sup> They are planted in Yahweh’s house.<br>They will flourish in our God’s courts.<br>
 <sup>14</sup> They will still produce fruit in old age.<br>They will be full of sap and green,<br>
 <sup>15</sup> to show that Yahweh is upright.<br>He is my rock,<br>and there is no unrighteousness in him.
+
 ## Chapter 93
 
 <sup>1</sup> Yahweh reigns!<br>He is clothed with majesty!<br>Yahweh is armed with strength.<br>The world also is established.<br>It can’t be moved.<br>
@@ -1865,6 +2114,7 @@
 <sup>3</sup> The floods have lifted up, Yahweh,<br>the floods have lifted up their voice.<br>The floods lift up their waves.<br>
 <sup>4</sup> Above the voices of many waters,<br>the mighty breakers of the sea,<br>Yahweh on high is mighty.<br>
 <sup>5</sup> Your statutes stand firm.<br>Holiness adorns your house,<br>Yahweh, forever more.
+
 ## Chapter 94
 
 <sup>1</sup> Yahweh, you God to whom vengeance belongs,<br>you God to whom vengeance belongs, shine out.<br>
@@ -1890,6 +2140,7 @@
 <sup>21</sup> They gather themselves together against the soul of the righteous,<br>and condemn the innocent blood.<br>
 <sup>22</sup> But Yahweh has been my high tower,<br>my God, the rock of my refuge.<br>
 <sup>23</sup> He has brought on them their own iniquity,<br>and will cut them off in their own wickedness.<br>Yahweh, our God, will cut them off.
+
 ## Chapter 95
 
 <sup>1</sup> Oh come, let’s sing to Yahweh.<br>Let’s shout aloud to the rock of our salvation!<br>
@@ -1903,6 +2154,7 @@
 <sup>9</sup> when your fathers tempted me,<br>tested me, and saw my work.<br>
 <sup>10</sup> Forty long years I was grieved with that generation,<br>and said, “They are a people who err in their heart.<br>They have not known my ways.”<br>
 <sup>11</sup> Therefore I swore in my wrath,<br>“They won’t enter into my rest.”
+
 ## Chapter 96
 
 <sup>1</sup> Sing to Yahweh a new song!<br>Sing to Yahweh, all the earth.<br>
@@ -1918,6 +2170,7 @@
 <sup>11</sup> Let the heavens be glad, and let the earth rejoice.<br>Let the sea roar, and its fullness!<br>
 <sup>12</sup> Let the field and all that is in it exult!<br>Then all the trees of the woods shall sing for joy<br>
 <sup>13</sup> before Yahweh; for he comes,<br>for he comes to judge the earth.<br>He will judge the world with righteousness,<br>the peoples with his truth.
+
 ## Chapter 97
 
 <sup>1</sup> Yahweh reigns!<br>Let the earth rejoice!<br>Let the multitude of islands be glad!<br>
@@ -1937,6 +2190,8 @@
 
 ## Chapter 98
 
+> _A Psalm._
+
 <sup>1</sup> Sing to Yahweh a new song,<br>for he has done marvelous things!<br>His right hand and his holy arm have worked salvation for him.<br>
 <sup>2</sup> Yahweh has made known his salvation.<br>He has openly shown his righteousness in the sight of the nations.<br>
 <sup>3</sup> He has remembered his loving kindness and his faithfulness toward the house of Israel.<br>All the ends of the earth have seen the salvation of our God.<br>
@@ -1946,6 +2201,7 @@
 <sup>7</sup> Let the sea roar with its fullness;<br>the world, and those who dwell therein.<br>
 <sup>8</sup> Let the rivers clap their hands.<br>Let the mountains sing for joy together.<br>
 <sup>9</sup> Let them sing before Yahweh,<br>for he comes to judge the earth.<br>He will judge the world with righteousness,<br>and the peoples with equity.
+
 ## Chapter 99
 
 <sup>1</sup> Yahweh reigns! Let the peoples tremble.<br>He sits enthroned among the cherubim.<br>Let the earth be moved.<br>
@@ -1959,14 +2215,20 @@
 <sup>7</sup> He spoke to them in the pillar of cloud.<br>They kept his testimonies,<br>the statute that he gave them.<br>
 <sup>8</sup> You answered them, Yahweh our God.<br>You are a God who forgave them,<br>although you took vengeance for their doings.<br>
 <sup>9</sup> Exalt Yahweh, our God.<br>Worship at his holy hill,<br>for Yahweh, our God, is holy!
+
 ## Chapter 100
+
+> _A Psalm of thanksgiving._
 
 <sup>1</sup> Shout for joy to Yahweh, all you lands!<br>
 <sup>2</sup> Serve Yahweh with gladness.<br>Come before his presence with singing.<br>
 <sup>3</sup> Know that Yahweh, he is God.<br>It is he who has made us, and we are his.<br>We are his people, and the sheep of his pasture.<br>
 <sup>4</sup> Enter into his gates with thanksgiving,<br>and into his courts with praise.<br>Give thanks to him, and bless his name.<br>
 <sup>5</sup> For Yahweh is good.<br>His loving kindness endures forever,<br>his faithfulness to all generations.
+
 ## Chapter 101
+
+> _A Psalm by David._
 
 <sup>1</sup> I will sing of loving kindness and justice.<br>To you, Yahweh, I will sing praises.<br>
 <sup>2</sup> I will be careful to live a blameless life.<br>When will you come to me?<br>I will walk within my house with a blameless heart.<br>
@@ -1976,7 +2238,10 @@
 <sup>6</sup> My eyes will be on the faithful of the land,<br>that they may dwell with me.<br>He who walks in a perfect way,<br>he will serve me.<br>
 <sup>7</sup> He who practices deceit won’t dwell within my house.<br>He who speaks falsehood won’t be established before my eyes.<br>
 <sup>8</sup> Morning by morning, I will destroy all the wicked of the land,<br>to cut off all the workers of iniquity from Yahweh’s city.
+
 ## Chapter 102
+
+> _A Prayer of the afflicted, when he is overwhelmed and pours out his complaint before Yahweh._
 
 <sup>1</sup> Hear my prayer, Yahweh!<br>Let my cry come to you.<br>
 <sup>2</sup> Don’t hide your face from me in the day of my distress.<br>Turn your ear to me.<br>Answer me quickly in the day when I call.<br>
@@ -2008,7 +2273,10 @@
 <sup>26</sup> They will perish, but you will endure.<br>Yes, all of them will wear out like a garment.<br>You will change them like a cloak, and they will be changed.<br>
 <sup>27</sup> But you are the same.<br>Your years will have no end.<br>
 <sup>28</sup> The children of your servants will continue.<br>Their offspring will be established before you.”
+
 ## Chapter 103
+
+> _By David._
 
 <sup>1</sup> Praise Yahweh, my soul!<br>All that is within me, praise his holy name!<br>
 <sup>2</sup> Praise Yahweh, my soul,<br>and don’t forget all his benefits,<br>
@@ -2032,6 +2300,7 @@
 <sup>20</sup> Praise Yahweh, you angels of his,<br>who are mighty in strength, who fulfill his word,<br>obeying the voice of his word.<br>
 <sup>21</sup> Praise Yahweh, all you armies of his,<br>you servants of his, who do his pleasure.<br>
 <sup>22</sup> Praise Yahweh, all you works of his,<br>in all places of his dominion.<br>Praise Yahweh, my soul!
+
 ## Chapter 104
 
 <sup>1</sup> Bless Yahweh, my soul.<br>Yahweh, my God, you are very great.<br>You are clothed with honor and majesty.<br>
@@ -2119,6 +2388,7 @@
 <sup>43</sup> He brought his people out with joy,<br>his chosen with singing.<br>
 <sup>44</sup> He gave them the lands of the nations.<br>They took the labor of the peoples in possession,<br>
 <sup>45</sup> that they might keep his statutes,<br>and observe his laws.<br>Praise Yah!
+
 ## Chapter 106
 
 <sup>1</sup> Praise Yahweh!<br>Give thanks to Yahweh, for he is good,<br>for his loving kindness endures forever.<br>
@@ -2173,6 +2443,7 @@
 <sup>47</sup> Save us, Yahweh, our God,<br>gather us from among the nations,<br>to give thanks to your holy name,<br>to triumph in your praise!
 
 <sup>48</sup> Blessed be Yahweh, the God of Israel,<br>from everlasting even to everlasting!<br>Let all the people say, “Amen.”<br>Praise Yah!
+
 ## Chapter 107
 
 <sup>1</sup> Give thanks to Yahweh,<sup>a</sup> for he is good,<br>for his loving kindness endures forever.<br>
@@ -2233,6 +2504,8 @@
 
 ## Chapter 108
 
+> _A Song. A Psalm by David._
+
 <sup>1</sup> My heart is steadfast, God.<br>I will sing and I will make music with my soul.<br>
 <sup>2</sup> Wake up, harp and lyre!<br>I will wake up the dawn.<br>
 <sup>3</sup> I will give thanks to you, Yahweh, among the nations.<br>I will sing praises to you among the peoples.<br>
@@ -2246,7 +2519,10 @@
 <sup>11</sup> Haven’t you rejected us, God?<br>You don’t go out, God, with our armies.<br>
 <sup>12</sup> Give us help against the enemy,<br>for the help of man is vain.<br>
 <sup>13</sup> Through God, we will do valiantly,<br>for it is he who will tread down our enemies.
+
 ## Chapter 109
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> God of my praise, don’t remain silent,<br>
 <sup>2</sup> for they have opened the mouth of the wicked and the mouth of deceit against me.<br>They have spoken to me with a lying tongue.<br>
@@ -2285,6 +2561,8 @@
 
 ## Chapter 110
 
+> _A Psalm by David._
+
 <sup>1</sup> Yahweh says to my Lord, “Sit at my right hand,<br>until I make your enemies your footstool for your feet.”<br>
 <sup>2</sup> Yahweh will send out the rod of your strength out of Zion.<br>Rule among your enemies.<br>
 <sup>3</sup> Your people offer themselves willingly in the day of your power, in holy array.<br>Out of the womb of the morning, you have the dew of your youth.<br>
@@ -2292,6 +2570,7 @@
 <sup>5</sup> The Lord is at your right hand.<br>He will crush kings in the day of his wrath.<br>
 <sup>6</sup> He will judge among the nations.<br>He will heap up dead bodies.<br>He will crush the ruler of the whole earth.<br>
 <sup>7</sup> He will drink of the brook on the way;<br>therefore he will lift up his head.
+
 ## Chapter 111
 
 <sup>1</sup> Praise Yah!<sup>a</sup><br>I will give thanks to Yahweh with my whole heart,<br>in the council of the upright, and in the congregation.<br>
@@ -2333,6 +2612,7 @@
 <sup>7</sup> He raises up the poor out of the dust,<br>and lifts up the needy from the ash heap,<br>
 <sup>8</sup> that he may set him with princes,<br>even with the princes of his people.<br>
 <sup>9</sup> He settles the barren woman in her home<br>as a joyful mother of children.<br>Praise Yah!
+
 ## Chapter 114
 
 <sup>1</sup> When Israel went out of Egypt,<br>the house of Jacob from a people of foreign language,<br>
@@ -2343,6 +2623,7 @@
 <sup>6</sup> You mountains, that you skipped like rams?<br>You little hills, like lambs?<br>
 <sup>7</sup> Tremble, you earth, at the presence of the Lord,<br>at the presence of the God of Jacob,<br>
 <sup>8</sup> who turned the rock into a pool of water,<br>the flint into a spring of waters.
+
 ## Chapter 115
 
 <sup>1</sup> Not to us, Yahweh, not to us,<br>but to your name give glory,<br>for your loving kindness, and for your truth’s sake.<br>
@@ -2363,6 +2644,7 @@
 <sup>16</sup> The heavens are Yahweh’s heavens,<br>but he has given the earth to the children of men.<br>
 <sup>17</sup> The dead don’t praise Yah,<br>nor any who go down into silence,<br>
 <sup>18</sup> but we will bless Yah,<br>from this time forward and forever more.<br>Praise Yah!
+
 ## Chapter 116
 
 <sup>1</sup> I love Yahweh, because he listens to my voice,<br>and my cries for mercy.<br>
@@ -2391,6 +2673,7 @@
 
 <sup>1</sup> Praise Yahweh, all you nations!<br>Extol him, all you peoples!<br>
 <sup>2</sup> For his loving kindness is great toward us.<br>Yahweh’s faithfulness endures forever.<br>Praise Yah!
+
 ## Chapter 118
 
 <sup>1</sup> Give thanks to Yahweh, for he is good,<br>for his loving kindness endures forever.<br>
@@ -2427,6 +2710,8 @@
 
 ## Chapter 119
 
+### ALEPH
+
 <sup>1</sup> Blessed are those whose ways are blameless,<br>who walk according to Yahweh’s law.<br>
 <sup>2</sup> Blessed are those who keep his statutes,<br>who seek him with their whole heart.<br>
 <sup>3</sup> Yes, they do nothing wrong.<br>They walk in his ways.<br>
@@ -2435,6 +2720,8 @@
 <sup>6</sup> Then I wouldn’t be disappointed,<br>when I consider all of your commandments.<br>
 <sup>7</sup> I will give thanks to you with uprightness of heart,<br>when I learn your righteous judgments.<br>
 <sup>8</sup> I will observe your statutes.<br>Don’t utterly forsake me.
+
+### BETH
 
 <sup>9</sup> How can a young man keep his way pure?<br>By living according to your word.<br>
 <sup>10</sup> With my whole heart I have sought you.<br>Don’t let me wander from your commandments.<br>
@@ -2445,6 +2732,8 @@
 <sup>15</sup> I will meditate on your precepts,<br>and consider your ways.<br>
 <sup>16</sup> I will delight myself in your statutes.<br>I will not forget your word.
 
+### GIMEL
+
 <sup>17</sup> Do good to your servant.<br>I will live and I will obey your word.<br>
 <sup>18</sup> Open my eyes,<br>that I may see wondrous things out of your law.<br>
 <sup>19</sup> I am a stranger on the earth.<br>Don’t hide your commandments from me.<br>
@@ -2453,6 +2742,8 @@
 <sup>22</sup> Take reproach and contempt away from me,<br>for I have kept your statutes.<br>
 <sup>23</sup> Though princes sit and slander me,<br>your servant will meditate on your statutes.<br>
 <sup>24</sup> Indeed your statutes are my delight,<br>and my counselors.
+
+### DALETH
 
 <sup>25</sup> My soul is laid low in the dust.<br>Revive me according to your word!<br>
 <sup>26</sup> I declared my ways, and you answered me.<br>Teach me your statutes.<br>
@@ -2463,6 +2754,8 @@
 <sup>31</sup> I cling to your statutes, Yahweh.<br>Don’t let me be disappointed.<br>
 <sup>32</sup> I run in the path of your commandments,<br>for you have set my heart free.
 
+### HE
+
 <sup>33</sup> Teach me, Yahweh, the way of your statutes.<br>I will keep them to the end.<br>
 <sup>34</sup> Give me understanding, and I will keep your law.<br>Yes, I will obey it with my whole heart.<br>
 <sup>35</sup> Direct me in the path of your commandments,<br>for I delight in them.<br>
@@ -2471,6 +2764,8 @@
 <sup>38</sup> Fulfill your promise to your servant,<br>that you may be feared.<br>
 <sup>39</sup> Take away my disgrace that I dread,<br>for your ordinances are good.<br>
 <sup>40</sup> Behold, I long for your precepts!<br>Revive me in your righteousness.
+
+### VAV
 
 <sup>41</sup> Let your loving kindness also come to me, Yahweh,<br>your salvation, according to your word.<br>
 <sup>42</sup> So I will have an answer for him who reproaches me,<br>for I trust in your word.<br>
@@ -2481,6 +2776,8 @@
 <sup>47</sup> I will delight myself in your commandments,<br>because I love them.<br>
 <sup>48</sup> I reach out my hands for your commandments, which I love.<br>I will meditate on your statutes.
 
+### ZAYIN
+
 <sup>49</sup> Remember your word to your servant,<br>because you gave me hope.<br>
 <sup>50</sup> This is my comfort in my affliction,<br>for your word has revived me.<br>
 <sup>51</sup> The arrogant mock me excessively,<br>but I don’t swerve from your law.<br>
@@ -2489,6 +2786,8 @@
 <sup>54</sup> Your statutes have been my songs<br>in the house where I live.<br>
 <sup>55</sup> I have remembered your name, Yahweh, in the night,<br>and I obey your law.<br>
 <sup>56</sup> This is my way,<br>that I keep your precepts.
+
+### HETH
 
 <sup>57</sup> Yahweh is my portion.<br>I promised to obey your words.<br>
 <sup>58</sup> I sought your favor with my whole heart.<br>Be merciful to me according to your word.<br>
@@ -2499,6 +2798,8 @@
 <sup>63</sup> I am a friend of all those who fear you,<br>of those who observe your precepts.<br>
 <sup>64</sup> The earth is full of your loving kindness, Yahweh.<br>Teach me your statutes.
 
+### TETH
+
 <sup>65</sup> You have treated your servant well,<br>according to your word, Yahweh.<br>
 <sup>66</sup> Teach me good judgment and knowledge,<br>for I believe in your commandments.<br>
 <sup>67</sup> Before I was afflicted, I went astray;<br>but now I observe your word.<br>
@@ -2507,6 +2808,8 @@
 <sup>70</sup> Their heart is as callous as the fat,<br>but I delight in your law.<br>
 <sup>71</sup> It is good for me that I have been afflicted,<br>that I may learn your statutes.<br>
 <sup>72</sup> The law of your mouth is better to me than thousands of pieces of gold and silver.
+
+### YODH
 
 <sup>73</sup> Your hands have made me and formed me.<br>Give me understanding, that I may learn your commandments.<br>
 <sup>74</sup> Those who fear you will see me and be glad,<br>because I have put my hope in your word.<br>
@@ -2517,6 +2820,8 @@
 <sup>79</sup> Let those who fear you turn to me.<br>They will know your statutes.<br>
 <sup>80</sup> Let my heart be blameless toward your decrees,<br>that I may not be disappointed.
 
+### KAPF
+
 <sup>81</sup> My soul faints for your salvation.<br>I hope in your word.<br>
 <sup>82</sup> My eyes fail for your word.<br>I say, “When will you comfort me?”<br>
 <sup>83</sup> For I have become like a wineskin in the smoke.<br>I don’t forget your statutes.<br>
@@ -2525,6 +2830,8 @@
 <sup>86</sup> All of your commandments are faithful.<br>They persecute me wrongfully.<br>Help me!<br>
 <sup>87</sup> They had almost wiped me from the earth,<br>but I didn’t forsake your precepts.<br>
 <sup>88</sup> Preserve my life according to your loving kindness,<br>so I will obey the statutes of your mouth.
+
+### LAMEDH
 
 <sup>89</sup> Yahweh, your word is settled in heaven forever.<br>
 <sup>90</sup> Your faithfulness is to all generations.<br>You have established the earth, and it remains.<br>
@@ -2535,6 +2842,8 @@
 <sup>95</sup> The wicked have waited for me, to destroy me.<br>I will consider your statutes.<br>
 <sup>96</sup> I have seen a limit to all perfection,<br>but your commands are boundless.
 
+### MEM
+
 <sup>97</sup> How I love your law!<br>It is my meditation all day.<br>
 <sup>98</sup> Your commandments make me wiser than my enemies,<br>for your commandments are always with me.<br>
 <sup>99</sup> I have more understanding than all my teachers,<br>for your testimonies are my meditation.<br>
@@ -2543,6 +2852,8 @@
 <sup>102</sup> I have not turned away from your ordinances,<br>for you have taught me.<br>
 <sup>103</sup> How sweet are your promises to my taste,<br>more than honey to my mouth!<br>
 <sup>104</sup> Through your precepts, I get understanding;<br>therefore I hate every false way.
+
+### NUN
 
 <sup>105</sup> Your word is a lamp to my feet,<br>and a light for my path.<br>
 <sup>106</sup> I have sworn, and have confirmed it,<br>that I will obey your righteous ordinances.<br>
@@ -2553,6 +2864,8 @@
 <sup>111</sup> I have taken your testimonies as a heritage forever,<br>for they are the joy of my heart.<br>
 <sup>112</sup> I have set my heart to perform your statutes forever,<br>even to the end.
 
+### SAMEKH
+
 <sup>113</sup> I hate double-minded men,<br>but I love your law.<br>
 <sup>114</sup> You are my hiding place and my shield.<br>I hope in your word.<br>
 <sup>115</sup> Depart from me, you evildoers,<br>that I may keep the commandments of my God.<br>
@@ -2561,6 +2874,8 @@
 <sup>118</sup> You reject all those who stray from your statutes,<br>for their deceit is in vain.<br>
 <sup>119</sup> You put away all the wicked of the earth like dross.<br>Therefore I love your testimonies.<br>
 <sup>120</sup> My flesh trembles for fear of you.<br>I am afraid of your judgments.
+
+### AYIN
 
 <sup>121</sup> I have done what is just and righteous.<br>Don’t leave me to my oppressors.<br>
 <sup>122</sup> Ensure your servant’s well-being.<br>Don’t let the proud oppress me.<br>
@@ -2571,6 +2886,8 @@
 <sup>127</sup> Therefore I love your commandments more than gold,<br>yes, more than pure gold.<br>
 <sup>128</sup> Therefore I consider all of your precepts to be right.<br>I hate every false way.
 
+### PE
+
 <sup>129</sup> Your testimonies are wonderful,<br>therefore my soul keeps them.<br>
 <sup>130</sup> The entrance of your words gives light.<br>It gives understanding to the simple.<br>
 <sup>131</sup> I opened my mouth wide and panted,<br>for I longed for your commandments.<br>
@@ -2579,6 +2896,8 @@
 <sup>134</sup> Redeem me from the oppression of man,<br>so I will observe your precepts.<br>
 <sup>135</sup> Make your face shine on your servant.<br>Teach me your statutes.<br>
 <sup>136</sup> Streams of tears run down my eyes,<br>because they don’t observe your law.
+
+### TZADHE
 
 <sup>137</sup> You are righteous, Yahweh.<br>Your judgments are upright.<br>
 <sup>138</sup> You have commanded your statutes in righteousness.<br>They are fully trustworthy.<br>
@@ -2589,6 +2908,8 @@
 <sup>143</sup> Trouble and anguish have taken hold of me.<br>Your commandments are my delight.<br>
 <sup>144</sup> Your testimonies are righteous forever.<br>Give me understanding, that I may live.
 
+### QOPH
+
 <sup>145</sup> I have called with my whole heart.<br>Answer me, Yahweh!<br>I will keep your statutes.<br>
 <sup>146</sup> I have called to you. Save me!<br>I will obey your statutes.<br>
 <sup>147</sup> I rise before dawn and cry for help.<br>I put my hope in your words.<br>
@@ -2597,6 +2918,8 @@
 <sup>150</sup> They draw near who follow after wickedness.<br>They are far from your law.<br>
 <sup>151</sup> You are near, Yahweh.<br>All your commandments are truth.<br>
 <sup>152</sup> Of old I have known from your testimonies,<br>that you have founded them forever.
+
+### RESH
 
 <sup>153</sup> Consider my affliction, and deliver me,<br>for I don’t forget your law.<br>
 <sup>154</sup> Plead my cause, and redeem me!<br>Revive me according to your promise.<br>
@@ -2607,6 +2930,8 @@
 <sup>159</sup> Consider how I love your precepts.<br>Revive me, Yahweh, according to your loving kindness.<br>
 <sup>160</sup> All of your words are truth.<br>Every one of your righteous ordinances endures forever.
 
+### SIN AND SHIN
+
 <sup>161</sup> Princes have persecuted me without a cause,<br>but my heart stands in awe of your words.<br>
 <sup>162</sup> I rejoice at your word,<br>as one who finds great plunder.<br>
 <sup>163</sup> I hate and abhor falsehood.<br>I love your law.<br>
@@ -2616,6 +2941,8 @@
 <sup>167</sup> My soul has observed your testimonies.<br>I love them exceedingly.<br>
 <sup>168</sup> I have obeyed your precepts and your testimonies,<br>for all my ways are before you.
 
+### TAV
+
 <sup>169</sup> Let my cry come before you, Yahweh.<br>Give me understanding according to your word.<br>
 <sup>170</sup> Let my supplication come before you.<br>Deliver me according to your word.<br>
 <sup>171</sup> Let my lips utter praise,<br>for you teach me your statutes.<br>
@@ -2624,7 +2951,10 @@
 <sup>174</sup> I have longed for your salvation, Yahweh.<br>Your law is my delight.<br>
 <sup>175</sup> Let my soul live, that I may praise you.<br>Let your ordinances help me.<br>
 <sup>176</sup> I have gone astray like a lost sheep.<br>Seek your servant, for I don’t forget your commandments.
+
 ## Chapter 120
+
+> _A Song of Ascents._
 
 <sup>1</sup> In my distress, I cried to Yahweh.<br>He answered me.<br>
 <sup>2</sup> Deliver my soul, Yahweh, from lying lips,<br>from a deceitful tongue.<br>
@@ -2633,7 +2963,10 @@
 <sup>5</sup> Woe is me, that I live in Meshech,<br>that I dwell among the tents of Kedar!<br>
 <sup>6</sup> My soul has had her dwelling too long<br>with him who hates peace.<br>
 <sup>7</sup> I am for peace,<br>but when I speak, they are for war.
+
 ## Chapter 121
+
+> _A Song of Ascents._
 
 <sup>1</sup> I will lift up my eyes to the hills.<br>Where does my help come from?<br>
 <sup>2</sup> My help comes from Yahweh,<br>who made heaven and earth.
@@ -2644,7 +2977,10 @@
 <sup>6</sup> The sun will not harm you by day,<br>nor the moon by night.<br>
 <sup>7</sup> Yahweh will keep you from all evil.<br>He will keep your soul.<br>
 <sup>8</sup> Yahweh will keep your going out and your coming in,<br>from this time forward, and forever more.
+
 ## Chapter 122
+
+> _A Song of Ascents. By David._
 
 <sup>1</sup> I was glad when they said to me,<br>“Let’s go to Yahweh’s house!”<br>
 <sup>2</sup> Our feet are standing within your gates, Jerusalem!<br>
@@ -2655,13 +2991,19 @@
 <sup>7</sup> Peace be within your walls,<br>and prosperity within your palaces.<br>
 <sup>8</sup> For my brothers’ and companions’ sakes,<br>I will now say, “Peace be within you.”<br>
 <sup>9</sup> For the sake of the house of Yahweh our God,<br>I will seek your good.
+
 ## Chapter 123
+
+> _A Song of Ascents._
 
 <sup>1</sup> I lift up my eyes to you,<br>you who sit in the heavens.<br>
 <sup>2</sup> Behold, as the eyes of servants look to the hand of their master,<br>as the eyes of a maid to the hand of her mistress,<br>so our eyes look to Yahweh, our God,<br>until he has mercy on us.<br>
 <sup>3</sup> Have mercy on us, Yahweh, have mercy on us,<br>for we have endured much contempt.<br>
 <sup>4</sup> Our soul is exceedingly filled with the scoffing of those who are at ease,<br>with the contempt of the proud.
+
 ## Chapter 124
+
+> _A Song of Ascents. By David._
 
 <sup>1</sup> If it had not been Yahweh who was on our side,<br>let Israel now say,<br>
 <sup>2</sup> if it had not been Yahweh who was on our side,<br>when men rose up against us,<br>
@@ -2671,14 +3013,20 @@
 <sup>6</sup> Blessed be Yahweh,<br>who has not given us as a prey to their teeth.<br>
 <sup>7</sup> Our soul has escaped like a bird out of the fowler’s snare.<br>The snare is broken, and we have escaped.<br>
 <sup>8</sup> Our help is in Yahweh’s name,<br>who made heaven and earth.
+
 ## Chapter 125
+
+> _A Song of Ascents._
 
 <sup>1</sup> Those who trust in Yahweh are as Mount Zion,<br>which can’t be moved, but remains forever.<br>
 <sup>2</sup> As the mountains surround Jerusalem,<br>so Yahweh surrounds his people from this time forward and forever more.<br>
 <sup>3</sup> For the scepter of wickedness won’t remain over the allotment of the righteous,<br>so that the righteous won’t use their hands to do evil.<br>
 <sup>4</sup> Do good, Yahweh, to those who are good,<br>to those who are upright in their hearts.<br>
 <sup>5</sup> But as for those who turn away to their crooked ways,<br>Yahweh will lead them away with the workers of iniquity.<br>Peace be on Israel.
+
 ## Chapter 126
+
+> _A Song of Ascents._
 
 <sup>1</sup> When Yahweh brought back those who returned to Zion,<br>we were like those who dream.<br>
 <sup>2</sup> Then our mouth was filled with laughter,<br>and our tongue with singing.<br>Then they said among the nations,<br>“Yahweh has done great things for them.”<br>
@@ -2686,14 +3034,20 @@
 <sup>4</sup> Restore our fortunes again, Yahweh,<br>like the streams in the Negev.<br>
 <sup>5</sup> Those who sow in tears will reap in joy.<br>
 <sup>6</sup> He who goes out weeping, carrying seed for sowing,<br>will certainly come again with joy, carrying his sheaves.
+
 ## Chapter 127
+
+> _A Song of Ascents. By Solomon._
 
 <sup>1</sup> Unless Yahweh builds the house,<br>they who build it labor in vain.<br>Unless Yahweh watches over the city,<br>the watchman guards it in vain.<br>
 <sup>2</sup> It is vain for you to rise up early,<br>to stay up late,<br>eating the bread of toil,<br>for he gives sleep to his loved ones.<br>
 <sup>3</sup> Behold, children are a heritage of Yahweh.<br>The fruit of the womb is his reward.<br>
 <sup>4</sup> As arrows in the hand of a mighty man,<br>so are the children of youth.<br>
 <sup>5</sup> Happy is the man who has his quiver full of them.<br>They won’t be disappointed when they speak with their enemies in the gate.
+
 ## Chapter 128
+
+> _A Song of Ascents._
 
 <sup>1</sup> Blessed is everyone who fears Yahweh,<br>who walks in his ways.<br>
 <sup>2</sup> For you will eat the labor of your hands.<br>You will be happy, and it will be well with you.<br>
@@ -2701,7 +3055,10 @@
 <sup>4</sup> Behold, this is how the man who fears Yahweh is blessed.<br>
 <sup>5</sup> May Yahweh bless you out of Zion,<br>and may you see the good of Jerusalem all the days of your life.<br>
 <sup>6</sup> Yes, may you see your children’s children.<br>Peace be upon Israel.
+
 ## Chapter 129
+
+> _A Song of Ascents._
 
 <sup>1</sup> Many times they have afflicted me from my youth up.<br>Let Israel now say:<br>
 <sup>2</sup> many times they have afflicted me from my youth up,<br>yet they have not prevailed against me.<br>
@@ -2711,7 +3068,10 @@
 <sup>6</sup> Let them be as the grass on the housetops,<br>which withers before it grows up,<br>
 <sup>7</sup> with which the reaper doesn’t fill his hand,<br>nor he who binds sheaves, his bosom.<br>
 <sup>8</sup> Neither do those who go by say,<br>“The blessing of Yahweh be on you.<br>We bless you in Yahweh’s name.”
+
 ## Chapter 130
+
+> _A Song of Ascents._
 
 <sup>1</sup> Out of the depths I have cried to you, Yahweh.<br>
 <sup>2</sup> Lord, hear my voice.<br>Let your ears be attentive to the voice of my petitions.<br>
@@ -2721,12 +3081,18 @@
 <sup>6</sup> My soul longs for the Lord more than watchmen long for the morning,<br>more than watchmen for the morning.<br>
 <sup>7</sup> Israel, hope in Yahweh,<br>for there is loving kindness with Yahweh.<br>Abundant redemption is with him.<br>
 <sup>8</sup> He will redeem Israel from all their sins.
+
 ## Chapter 131
+
+> _A Song of Ascents. By David._
 
 <sup>1</sup> Yahweh, my heart isn’t arrogant, nor my eyes lofty;<br>nor do I concern myself with great matters,<br>or things too wonderful for me.<br>
 <sup>2</sup> Surely I have stilled and quieted my soul,<br>like a weaned child with his mother,<br>like a weaned child is my soul within me.<br>
 <sup>3</sup> Israel, hope in Yahweh,<br>from this time forward and forever more.
+
 ## Chapter 132
+
+> _A Song of Ascents._
 
 <sup>1</sup> Yahweh, remember David and all his affliction,<br>
 <sup>2</sup> how he swore to Yahweh,<br>and vowed to the Mighty One of Jacob:<br>
@@ -2746,16 +3112,23 @@
 <sup>16</sup> I will also clothe her priests with salvation.<br>Her saints will shout aloud for joy.<br>
 <sup>17</sup> I will make the horn of David to bud there.<br>I have ordained a lamp for my anointed.<br>
 <sup>18</sup> I will clothe his enemies with shame,<br>but on himself, his crown will shine.”
+
 ## Chapter 133
+
+> _A Song of Ascents. By David._
 
 <sup>1</sup> See how good and how pleasant it is<br>for brothers to live together in unity!<br>
 <sup>2</sup> It is like the precious oil on the head,<br>that ran down on the beard,<br>even Aaron’s beard,<br>that came down on the edge of his robes,<br>
 <sup>3</sup> like the dew of Hermon,<br>that comes down on the hills of Zion;<br>for there Yahweh gives the blessing,<br>even life forever more.
+
 ## Chapter 134
+
+> _A Song of Ascents._
 
 <sup>1</sup> Look! Praise Yahweh, all you servants of Yahweh,<br>who stand by night in Yahweh’s house!<br>
 <sup>2</sup> Lift up your hands in the sanctuary.<br>Praise Yahweh!<br>
 <sup>3</sup> May Yahweh bless you from Zion,<br>even he who made heaven and earth.
+
 ## Chapter 135
 
 <sup>1</sup> Praise Yah!<br>Praise Yahweh’s name!<br>Praise him, you servants of Yahweh,<br>
@@ -2780,6 +3153,7 @@
 <sup>19</sup> House of Israel, praise Yahweh!<br>House of Aaron, praise Yahweh!<br>
 <sup>20</sup> House of Levi, praise Yahweh!<br>You who fear Yahweh, praise Yahweh!<br>
 <sup>21</sup> Blessed be Yahweh from Zion,<br>who dwells in Jerusalem.<br>Praise Yah!
+
 ## Chapter 136
 
 <sup>1</sup> Give thanks to Yahweh, for he is good,<br>for his loving kindness endures forever.<br>
@@ -2808,6 +3182,7 @@
 <sup>24</sup> and has delivered us from our adversaries,<br>for his loving kindness endures forever;<br>
 <sup>25</sup> who gives food to every creature,<br>for his loving kindness endures forever.<br>
 <sup>26</sup> Oh give thanks to the God of heaven,<br>for his loving kindness endures forever.
+
 ## Chapter 137
 
 <sup>1</sup> By the rivers of Babylon, there we sat down.<br>Yes, we wept, when we remembered Zion.<br>
@@ -2819,7 +3194,10 @@
 <sup>7</sup> Remember, Yahweh, against the children of Edom in the day of Jerusalem,<br>who said, “Raze it!<br>Raze it even to its foundation!”<br>
 <sup>8</sup> Daughter of Babylon, doomed to destruction,<br>he will be happy who repays you,<br>as you have done to us.<br>
 <sup>9</sup> Happy shall he be,<br>who takes and dashes your little ones against the rock.
+
 ## Chapter 138
+
+> _By David._
 
 <sup>1</sup> I will give you thanks with my whole heart.<br>Before the gods,<sup>a</sup> I will sing praises to you.<br>
 <sup>2</sup> I will bow down toward your holy temple,<br>and give thanks to your Name for your loving kindness and for your truth;<br>for you have exalted your Name and your Word above all.<br>
@@ -2833,6 +3211,8 @@
 > - <sup>a</sup> 1. The word elohim, used here, usually means “God” but can also mean “gods”, “princes”, or “angels”.
 
 ## Chapter 139
+
+> _For the Chief Musician. A Psalm by David._
 
 <sup>1</sup> Yahweh, you have searched me,<br>and you know me.<br>
 <sup>2</sup> You know my sitting down and my rising up.<br>You perceive my thoughts from afar.<br>
@@ -2863,6 +3243,8 @@
 
 ## Chapter 140
 
+> _For the Chief Musician. A Psalm by David._
+
 <sup>1</sup> Deliver me, Yahweh, from evil men.<br>Preserve me from violent men:<br>
 <sup>2</sup> those who devise mischief in their hearts.<br>They continually gather themselves together for war.<br>
 <sup>3</sup> They have sharpened their tongues like a serpent.<br>Viper’s poison is under their lips.<br>Selah.
@@ -2879,7 +3261,10 @@
 <sup>11</sup> An evil speaker won’t be established in the earth.<br>Evil will hunt the violent man to overthrow him.<br>
 <sup>12</sup> I know that Yahweh will maintain the cause of the afflicted,<br>and justice for the needy.<br>
 <sup>13</sup> Surely the righteous will give thanks to your name.<br>The upright will dwell in your presence.
+
 ## Chapter 141
+
+> _A Psalm by David._
 
 <sup>1</sup> Yahweh, I have called on you.<br>Come to me quickly!<br>Listen to my voice when I call to you.<br>
 <sup>2</sup> Let my prayer be set before you like incense;<br>the lifting up of my hands like the evening sacrifice.<br>
@@ -2896,6 +3281,8 @@
 
 ## Chapter 142
 
+> _A contemplation by David, when he was in the cave. A Prayer._
+
 <sup>1</sup> I cry with my voice to Yahweh.<br>With my voice, I ask Yahweh for mercy.<br>
 <sup>2</sup> I pour out my complaint before him.<br>I tell him my troubles.<br>
 <sup>3</sup> When my spirit was overwhelmed within me,<br>you knew my route.<br>On the path in which I walk,<br>they have hidden a snare for me.<br>
@@ -2903,7 +3290,10 @@
 <sup>5</sup> I cried to you, Yahweh.<br>I said, “You are my refuge,<br>my portion in the land of the living.”<br>
 <sup>6</sup> Listen to my cry,<br>for I am in desperate need.<br>Deliver me from my persecutors,<br>for they are too strong for me.<br>
 <sup>7</sup> Bring my soul out of prison,<br>that I may give thanks to your name.<br>The righteous will surround me,<br>for you will be good to me.
+
 ## Chapter 143
+
+> _A Psalm by David._
 
 <sup>1</sup> Hear my prayer, Yahweh.<br>Listen to my petitions.<br>In your faithfulness and righteousness, relieve me.<br>
 <sup>2</sup> Don’t enter into judgment with your servant,<br>for in your sight no man living is righteous.<br>
@@ -2918,7 +3308,10 @@
 <sup>10</sup> Teach me to do your will,<br>for you are my God.<br>Your Spirit is good.<br>Lead me in the land of uprightness.<br>
 <sup>11</sup> Revive me, Yahweh, for your name’s sake.<br>In your righteousness, bring my soul out of trouble.<br>
 <sup>12</sup> In your loving kindness, cut off my enemies,<br>and destroy all those who afflict my soul,<br>for I am your servant.
+
 ## Chapter 144
+
+> _By David._
 
 <sup>1</sup> Blessed be Yahweh, my rock,<br>who trains my hands to war,<br>and my fingers to battle—<br>
 <sup>2</sup> my loving kindness, my fortress,<br>my high tower, my deliverer,<br>my shield, and he in whom I take refuge,<br>who subdues my people under me.<br>
@@ -2936,7 +3329,10 @@
 <sup>13</sup> Our barns are full, filled with all kinds of provision.<br>Our sheep produce thousands and ten thousands in our fields.<br>
 <sup>14</sup> Our oxen will pull heavy loads.<br>There is no breaking in, and no going away,<br>and no outcry in our streets.<br>
 <sup>15</sup> Happy are the people who are in such a situation.<br>Happy are the people whose God is Yahweh.
+
 ## Chapter 145
+
+> _A praise psalm by David.<sup>a</sup>_
 
 <sup>1</sup> I will exalt you, my God, the King.<br>I will praise your name forever and ever.<br>
 <sup>2</sup> Every day I will praise you.<br>I will extol your name forever and ever.<br>
@@ -2950,7 +3346,7 @@
 <sup>10</sup> All your works will give thanks to you, Yahweh.<br>Your saints will extol you.<br>
 <sup>11</sup> They will speak of the glory of your kingdom,<br>and talk about your power,<br>
 <sup>12</sup> to make known to the sons of men his mighty acts,<br>the glory of the majesty of his kingdom.<br>
-<sup>13</sup> Your kingdom is an everlasting kingdom.<br>Your dominion endures throughout all generations.<br>Yahweh is faithful in all his words,<br>and loving in all his deeds.<sup>a</sup><br>
+<sup>13</sup> Your kingdom is an everlasting kingdom.<br>Your dominion endures throughout all generations.<br>Yahweh is faithful in all his words,<br>and loving in all his deeds.<sup>b</sup><br>
 <sup>14</sup> Yahweh upholds all who fall,<br>and raises up all those who are bowed down.<br>
 <sup>15</sup> The eyes of all wait for you.<br>You give them their food in due season.<br>
 <sup>16</sup> You open your hand,<br>and satisfy the desire of every living thing.<br>
@@ -2960,7 +3356,8 @@
 <sup>20</sup> Yahweh preserves all those who love him,<br>but he will destroy all the wicked.<br>
 <sup>21</sup> My mouth will speak the praise of Yahweh.<br>Let all flesh bless his holy name forever and ever.
 
-> - <sup>a</sup> 13. Some manuscripts omit these last two lines.
+> - <sup>a</sup> Subtitle. This is an acrostic psalm, with every verse (including the second half of verse 13) starting with a consecutive letter of the Hebrew alphabet.
+> - <sup>b</sup> 13. Some manuscripts omit these last two lines.
 
 ## Chapter 146
 
@@ -2974,6 +3371,7 @@
 <sup>8</sup> Yahweh opens the eyes of the blind.<br>Yahweh raises up those who are bowed down.<br>Yahweh loves the righteous.<br>
 <sup>9</sup> Yahweh preserves the foreigners.<br>He upholds the fatherless and widow,<br>but he turns the way of the wicked upside down.<br>
 <sup>10</sup> Yahweh will reign forever;<br>your God, O Zion, to all generations.<br>Praise Yah!
+
 ## Chapter 147
 
 <sup>1</sup> Praise Yah,<br>for it is good to sing praises to our God;<br>for it is pleasant and fitting to praise him.<br>
@@ -2996,6 +3394,7 @@
 <sup>18</sup> He sends out his word, and melts them.<br>He causes his wind to blow, and the waters flow.<br>
 <sup>19</sup> He shows his word to Jacob,<br>his statutes and his ordinances to Israel.<br>
 <sup>20</sup> He has not done this for just any nation.<br>They don’t know his ordinances.<br>Praise Yah!
+
 ## Chapter 148
 
 <sup>1</sup> Praise Yah!<br>Praise Yahweh from the heavens!<br>Praise him in the heights!<br>
@@ -3012,6 +3411,7 @@
 <sup>12</sup> both young men and maidens,<br>old men and children.<br>
 <sup>13</sup> Let them praise Yahweh’s name,<br>for his name alone is exalted.<br>His glory is above the earth and the heavens.<br>
 <sup>14</sup> He has lifted up the horn of his people,<br>the praise of all his saints,<br>even of the children of Israel, a people near to him.<br>Praise Yah!
+
 ## Chapter 149
 
 <sup>1</sup> Praise Yahweh!<br>Sing to Yahweh a new song,<br>his praise in the assembly of the saints.<br>
@@ -3023,6 +3423,7 @@
 <sup>7</sup> to execute vengeance on the nations,<br>and punishments on the peoples;<br>
 <sup>8</sup> to bind their kings with chains,<br>and their nobles with fetters of iron;<br>
 <sup>9</sup> to execute on them the written judgment.<br>All his saints have this honor.<br>Praise Yah!
+
 ## Chapter 150
 
 <sup>1</sup> Praise Yah!<br>Praise God in his sanctuary!<br>Praise him in his heavens for his acts of power!<br>

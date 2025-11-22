@@ -11,6 +11,7 @@
 <sup>9</sup> and He saith, ‘Call his name Lo-Ammi, for ye are not My people, and I am not for you;
 <sup>10</sup> and the number of the sons of Israel hath been as the sand of the sea, that is not measured nor numbered, and it hath come to pass in the place where it is said to them, Ye are not My people, it is said to them, Sons of the Living God;
 <sup>11</sup> and gathered have been the sons of Judah and the sons of Israel together, and they have appointed to themselves one head, and have gone up from the land, for great is the day of Jezreel.
+
 ## Chapter 2
 
 <sup>1</sup> ‘Say ye to your brethren-Ammi, And to your sisters-Ruhamah.
@@ -36,6 +37,7 @@
 <sup>21</sup> And it hath come to pass in that day, I answer-an affirmation of Jehovah, I answer the heavens, and they answer the earth.
 <sup>22</sup> And the earth doth answer the corn, And the new wine, and the oil, And they answer Jezreel.
 <sup>23</sup> And I have sowed her to Me in the land, And I have pitied Lo-Ruhamah, And I have said to Lo-Ammi, My people thou art, and it saith, My God!’
+
 ## Chapter 3
 
 <sup>1</sup> And Jehovah saith unto me: ‘Again, go, love a woman, loved of a friend, and an adulteress, like the loved of Jehovah, the sons of Israel, and they are turning unto other gods, and are lovers of grape-cakes.’
@@ -43,6 +45,7 @@
 <sup>3</sup> and I say unto her, ‘Many days thou dost remain for Me, thou dost not go a-whoring, nor become any one’s; and I also am for thee.’
 <sup>4</sup> For many days remain do the sons of Israel without a king, and there is no prince, and there is no sacrifice, and there is no standing pillar, and there is no ephod and teraphim.
 <sup>5</sup> Afterwards turned back have the sons of Israel, and sought Jehovah their God, and David their king, and have hastened unto Jehovah, and unto His goodness, in the latter end of the days.
+
 ## Chapter 4
 
 <sup>1</sup> ‘Hear a word of Jehovah, sons of Israel, For a strife is to Jehovah with inhabitants of the land, For there is no truth, nor kindness, Nor knowledge of God, in the land,
@@ -64,6 +67,7 @@
 <sup>17</sup> Joined to idols is Ephraim, let him alone.
 <sup>18</sup> Sour is their drink, They have gone diligently a-whoring, Her protectors have loved shame thoroughly.
 <sup>19</sup> Distressed her hath wind with its wings, And they are ashamed of their sacrifices!
+
 ## Chapter 5
 
 <sup>1</sup> ‘Hear this, O priests, and attend, O house of Israel, And, O house of the king, give ear, For the judgment is for you, For, a snare ye have been on Mizpah, And a net spread out on Tabor.
@@ -81,6 +85,7 @@
 <sup>13</sup> And see doth Ephraim his sickness, and Judah his wound, And Ephraim goeth unto Asshur, And sendeth unto a warlike king, And he is not able to give healing to you, Nor doth he remove from you a scar.
 <sup>14</sup> For I am as a lion to Ephraim, And as a young lion to the house of Judah, I-I tear and go, I bear away, and there is no deliverer.
 <sup>15</sup> I go-I turn back unto My place, Till that they are desolate, and have sought My face. In their distress they do seek Me speedily!’
+
 ## Chapter 6
 
 <sup>1</sup> ‘Come, and we turn back unto Jehovah, For He hath torn, and He doth heal us, He doth smite, and He bindeth us up.
@@ -94,6 +99,7 @@
 <sup>9</sup> And as bands do wait for a man, A company of priests do murder-the way to Shechem, For wickedness they have done.
 <sup>10</sup> In the house of Israel I have seen a horrible thing, There is the whoredom of Ephraim-defiled is Israel.
 <sup>11</sup> Also, O Judah, appointed is a harvest to thee, In My turning back to the captivity of My people!
+
 ## Chapter 7
 
 <sup>1</sup> ‘When I give healing to Israel, Then revealed is the iniquity of Ephraim, And the wickedness of Samaria, For they have wrought falsehood, And a thief doth come in, Stript off hath a troop in the street,
@@ -112,6 +118,7 @@
 <sup>14</sup> And have not cried unto Me with their heart, but howl on their beds, For corn and new wine they assemble themselves, They turn aside against Me.
 <sup>15</sup> And I instructed-I strengthened their arms, And concerning Me they think evil!
 <sup>16</sup> They turn back-not to the Most High, They have been as a deceitful bow, Fall by sword do their princes, From the insolence of their tongue, This is their derision in the land of Egypt!
+
 ## Chapter 8
 
 <sup>1</sup> ‘Unto thy mouth-a trumpet, As an eagle against the house of Jehovah, Because they transgressed My covenant, And against My law they have rebelled.
@@ -128,6 +135,7 @@
 <sup>12</sup> I write for him numerous things of My law, As a strange thing they have been reckoned.
 <sup>13</sup> The sacrifices of Mine offerings! They sacrifice flesh, and they eat, Jehovah hath not accepted them, Now doth He remember their iniquity, And inspect their sin, They-to Egypt they turn back.
 <sup>14</sup> And forget doth Israel his Maker, and buildeth temples, And Judah hath multiplied cities of defence, And I have sent a fire into his cities, And it hath consumed their palaces!
+
 ## Chapter 9
 
 <sup>1</sup> ‘Rejoice not, O Israel, be not joyful like the peoples, For thou hast gone a-whoring from thy God, Thou hast loved a gift near all floors of corn.
@@ -147,6 +155,7 @@
 <sup>15</sup> All their evil is in Gilgal, Surely there I have hated them, Because of the evil of their doings, Out of My house I do drive them, I add not to love them, all their heads are apostates.
 <sup>16</sup> Ephraim hath been smitten, Their root hath dried up, fruit they yield not, Yea, though they bring forth, I have put to death the desired of their womb.
 <sup>17</sup> Reject them doth my God, Because they have not hearkened to Him, And they are wanderers among nations!
+
 ## Chapter 10
 
 <sup>1</sup> ‘An empty vine is Israel, Fruit he maketh like to himself, According to the abundance of his fruit, He hath multiplied for the altars, According to the goodness of his land, They have made goodly standing-pillars.
@@ -164,6 +173,7 @@
 <sup>13</sup> Ye have ploughed wickedness, Perversity ye have reaped, Ye have eaten the fruit of lying, For thou hast trusted in thy way, In the abundance of thy might.
 <sup>14</sup> And rise doth a tumult among thy people, And all thy fortresses are spoiled, As the spoiling of Shalman of Beth-Arbel, In a day of battle, Mother against sons dashed in pieces.
 <sup>15</sup> Thus hath Beth-El done to you, Because of the evil of your wickedness, In the dawn cut off utterly is a king of Israel!
+
 ## Chapter 11
 
 <sup>1</sup> Because Israel is a youth, and I love him, Out of Egypt I have called for My Son.
@@ -178,6 +188,7 @@
 <sup>10</sup> After Jehovah they go-as a lion He roareth, When He doth roar, then tremble do the sons from the west.
 <sup>11</sup> They tremble as a sparrow out of Egypt, And as a dove out of the land of Asshur, And I have caused them to dwell in their own houses, An affirmation of Jehovah.
 <sup>12</sup> Compassed Me with feigning hath Ephraim, And with deceit the house of Israel. And Judah again is ruling with God, And with the Holy Ones is faithful!
+
 ## Chapter 12
 
 <sup>1</sup> Ephraim is enjoying wind, And is pursuing an east wind, All the day lying and spoiling he multiplieth, And a covenant with Asshur they make, And oil to Egypt is carried.
@@ -194,6 +205,7 @@
 <sup>12</sup> And Jacob doth flee to the country of Aram, And Israel doth serve for a wife, Yea, for a wife he hath kept watch.
 <sup>13</sup> And by a prophet hath Jehovah brought up Israel out of Egypt, And by a prophet it hath been watched.
 <sup>14</sup> Ephraim hath provoked most bitterly, And his blood on himself he leaveth, And his reproach turn back to him doth his Lord!
+
 ## Chapter 13
 
 <sup>1</sup> When Ephraim speaketh tremblingly, He hath been lifted up in Israel, When he becometh guilty in Baal he dieth.
@@ -212,6 +224,7 @@
 <sup>14</sup> From the hand of Sheol I do ransom them, From death I redeem them, Where is thy plague, O death? Where thy destruction, O Sheol? Repentance is hid from Mine eyes.
 <sup>15</sup> Though he among brethren produceth fruit, Come in doth an east wind, a wind of Jehovah, From a wilderness it is coming up, And it drieth up his fountain, And become dry doth his spring, It-it spoileth a treasure-every desirable vessel.
 <sup>16</sup> Become desolate doth Samaria, Because she hath rebelled against her God, By sword they do fall, Their sucklings are dashed in pieces, And its pregnant ones are ripped up!
+
 ## Chapter 14
 
 <sup>1</sup> Turn back, O Israel, unto Jehovah thy God, For thou hast stumbled by thine iniquity.

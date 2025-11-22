@@ -3,7 +3,7 @@
 <sup>1</sup> The words of the Preacher, the son of David, king in Jerusalem.
 <sup>2</sup> Vanity of vanities, saith the Preacher, vanity of vanities; all [is] vanity.
 <sup>3</sup> What profit hath a man of all his labour which he taketh under the sun?
-<sup>4</sup> [One] generation passeth away, and [another] generation cometh (8676): but the earth abideth for ever.
+<sup>4</sup> [One] generation passeth away, and [another] generation cometh: but the earth abideth for ever.
 <sup>5</sup> The sun also ariseth, and the sun goeth down, and hasteth to his place where he arose.
 <sup>6</sup> The wind goeth toward the south, and turneth about unto the north; it whirleth about continually, and the wind returneth again according to his circuits.
 <sup>7</sup> All the rivers run into the sea; yet the sea [is] not full; unto the place from whence the rivers come, thither they return again.
@@ -18,6 +18,7 @@
 <sup>16</sup> I communed with mine own heart, saying, Lo, I am come to great estate, and have gotten more wisdom than all [they] that have been before me in Jerusalem: yea, my heart had great experience of wisdom and knowledge.
 <sup>17</sup> And I gave my heart to know wisdom, and to know madness and folly: I perceived that this also is vexation of spirit.
 <sup>18</sup> For in much wisdom [is] much grief: and he that increaseth knowledge increaseth sorrow.
+
 ## Chapter 2
 
 <sup>1</sup> I said in mine heart, Go to now, I will prove thee with mirth, therefore enjoy pleasure: and, behold, this also [is] vanity.
@@ -46,6 +47,7 @@
 <sup>24</sup> [There is] nothing better for a man, [than] that he should eat and drink, and [that] he should make his soul enjoy good in his labour. This also I saw, that it [was] from the hand of God.
 <sup>25</sup> For who can eat, or who else can hasten [hereunto], more than I?
 <sup>26</sup> For [God] giveth to a man that [is] good in his sight wisdom, and knowledge, and joy: but to the sinner he giveth travail, to gather and to heap up, that he may give to [him that is] good before God. This also [is] vanity and vexation of spirit.
+
 ## Chapter 3
 
 <sup>1</sup> To every [thing there is] a season, and a time to every purpose under the heaven:
@@ -70,6 +72,7 @@
 <sup>20</sup> All go unto one place; all are of the dust, and all turn to dust again.
 <sup>21</sup> Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth?
 <sup>22</sup> Wherefore I perceive that [there is] nothing better, than that a man should rejoice in his own works; for that [is] his portion: for who shall bring him to see what shall be after him?
+
 ## Chapter 4
 
 <sup>1</sup> So I returned, and considered all the oppressions that are done under the sun: and behold the tears of [such as were] oppressed, and they had no comforter; and on the side of their oppressors [there was] power; but they had no comforter.
@@ -88,6 +91,7 @@
 <sup>14</sup> For out of prison he cometh to reign; whereas also [he that is] born in his kingdom becometh poor.
 <sup>15</sup> I considered all the living which walk under the sun, with the second child that shall stand up in his stead.
 <sup>16</sup> [There is] no end of all the people, [even] of all that have been before them: they also that come after shall not rejoice in him. Surely this also [is] vanity and vexation of spirit.
+
 ## Chapter 5
 
 <sup>1</sup> Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.
@@ -110,6 +114,7 @@
 <sup>18</sup> Behold [that] which I have seen: [it is] good and comely [for one] to eat and to drink, and to enjoy the good of all his labour that he taketh under the sun all the days of his life, which God giveth him: for it [is] his portion.
 <sup>19</sup> Every man also to whom God hath given riches and wealth, and hath given him power to eat thereof, and to take his portion, and to rejoice in his labour; this [is] the gift of God.
 <sup>20</sup> For he shall not much remember the days of his life; because God answereth [him] in the joy of his heart.
+
 ## Chapter 6
 
 <sup>1</sup> There is an evil which I have seen under the sun, and it [is] common among men:
@@ -124,6 +129,7 @@
 <sup>10</sup> That which hath been is named already, and it is known that it [is] man: neither may he contend with him that is mightier than he.
 <sup>11</sup> Seeing there be many things that increase vanity, what [is] man the better?
 <sup>12</sup> For who knoweth what [is] good for man in [this] life, all the days of his vain life which he spendeth as a shadow? for who can tell a man what shall be after him under the sun?
+
 ## Chapter 7
 
 <sup>1</sup> A good name [is] better than precious ointment; and the day of death than the day of one’s birth.
@@ -155,6 +161,7 @@
 <sup>27</sup> Behold, this have I found, saith the preacher, [counting] one by one, to find out the account:
 <sup>28</sup> Which yet my soul seeketh, but I find not: one man among a thousand have I found; but a woman among all those have I not found.
 <sup>29</sup> Lo, this only have I found, that God hath made man upright; but they have sought out many inventions.
+
 ## Chapter 8
 
 <sup>1</sup> Who [is] as the wise [man]? and who knoweth the interpretation of a thing? a man’s wisdom maketh his face to shine, and the boldness of his face shall be changed.
@@ -174,12 +181,13 @@
 <sup>15</sup> Then I commended mirth, because a man hath no better thing under the sun, than to eat, and to drink, and to be merry: for that shall abide with him of his labour the days of his life, which God giveth him under the sun.
 <sup>16</sup> When I applied mine heart to know wisdom, and to see the business that is done upon the earth: (for also [there is that] neither day nor night seeth sleep with his eyes:)
 <sup>17</sup> Then I beheld all the work of God, that a man cannot find out the work that is done under the sun: because though a man labour to seek [it] out, yet he shall not find [it]; yea further; though a wise [man] think to know [it], yet shall he not be able to find [it].
+
 ## Chapter 9
 
 <sup>1</sup> For all this I considered in my heart even to declare all this, that the righteous, and the wise, and their works, [are] in the hand of God: no man knoweth either love or hatred [by] all [that is] before them.
 <sup>2</sup> All [things come] alike to all: [there is] one event to the righteous, and to the wicked; to the good and to the clean, and to the unclean; to him that sacrificeth, and to him that sacrificeth not: as [is] the good, so [is] the sinner; [and] he that sweareth, as [he] that feareth an oath.
 <sup>3</sup> This [is] an evil among all [things] that are done under the sun, that [there is] one event unto all: yea, also the heart of the sons of men is full of evil, and madness [is] in their heart while they live, and after that [they go] to the dead.
-<sup>4</sup> For to him that is joined (8675) to all the living there is hope: for a living dog is better than a dead lion.
+<sup>4</sup> For to him that is joined to all the living there is hope: for a living dog is better than a dead lion.
 <sup>5</sup> For the living know that they shall die: but the dead know not any thing, neither have they any more a reward; for the memory of them is forgotten.
 <sup>6</sup> Also their love, and their hatred, and their envy, is now perished; neither have they any more a portion for ever in any [thing] that is done under the sun.
 <sup>7</sup> Go thy way, eat thy bread with joy, and drink thy wine with a merry heart; for God now accepteth thy works.
@@ -194,6 +202,7 @@
 <sup>16</sup> Then said I, Wisdom [is] better than strength: nevertheless the poor man’s wisdom [is] despised, and his words are not heard.
 <sup>17</sup> The words of wise [men are] heard in quiet more than the cry of him that ruleth among fools.
 <sup>18</sup> Wisdom [is] better than weapons of war: but one sinner destroyeth much good.
+
 ## Chapter 10
 
 <sup>1</sup> Dead flies cause the ointment of the apothecary to send forth a stinking savour: [so doth] a little folly him that is in reputation for wisdom [and] honour.
@@ -216,6 +225,7 @@
 <sup>18</sup> By much slothfulness the building decayeth; and through idleness of the hands the house droppeth through.
 <sup>19</sup> A feast is made for laughter, and wine maketh merry: but money answereth all [things].
 <sup>20</sup> Curse not the king, no not in thy thought; and curse not the rich in thy bedchamber: for a bird of the air shall carry the voice, and that which hath wings shall tell the matter.
+
 ## Chapter 11
 
 <sup>1</sup> Cast thy bread upon the waters: for thou shalt find it after many days.
@@ -228,6 +238,7 @@
 <sup>8</sup> But if a man live many years, [and] rejoice in them all; yet let him remember the days of darkness; for they shall be many. All that cometh [is] vanity.
 <sup>9</sup> Rejoice, O young man, in thy youth; and let thy heart cheer thee in the days of thy youth, and walk in the ways of thine heart, and in the sight of thine eyes: but know thou, that for all these [things] God will bring thee into judgment.
 <sup>10</sup> Therefore remove sorrow from thy heart, and put away evil from thy flesh: for childhood and youth [are] vanity.
+
 ## Chapter 12
 
 <sup>1</sup> Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;
@@ -235,7 +246,7 @@
 <sup>3</sup> In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened,
 <sup>4</sup> And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low;
 <sup>5</sup> Also [when] they shall be afraid of [that which is] high, and fears [shall be] in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets:
-<sup>6</sup> Or ever the silver cord be loosed (8675), or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.
+<sup>6</sup> Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.
 <sup>7</sup> Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.
 <sup>8</sup> Vanity of vanities, saith the preacher; all [is] vanity.
 <sup>9</sup> And moreover, because the preacher was wise, he still taught the people knowledge; yea, he gave good heed, and sought out, [and] set in order many proverbs.

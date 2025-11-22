@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "post mortem Iosue consuluerunt filii Israhel Dominum dicentes quis ascendet ante nos contra Chananeum et erit dux belli",
-      "paragraph": true
+      "paragraph": true,
+      "text": "post mortem Iosue consuluerunt filii Israhel Dominum dicentes quis ascendet ante nos contra Chananeum et erit dux belli"
     }
   },
   {
@@ -223,8 +223,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "ascenditque angelus Domini de Galgal ad locum Flentium et ait eduxi vos de Aegypto et introduxi in terram pro qua iuravi patribus vestris et pollicitus sum ut non facerem irritum pactum meum vobiscum in sempiternum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "ascenditque angelus Domini de Galgal ad locum Flentium et ait eduxi vos de Aegypto et introduxi in terram pro qua iuravi patribus vestris et pollicitus sum ut non facerem irritum pactum meum vobiscum in sempiternum"
     }
   },
   {
@@ -364,8 +364,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "hae sunt gentes quas Dominus dereliquit ut erudiret in eis Israhelem et omnes qui non noverant bella Chananeorum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "hae sunt gentes quas Dominus dereliquit ut erudiret in eis Israhelem et omnes qui non noverant bella Chananeorum"
     }
   },
   {
@@ -553,8 +553,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "addideruntque filii Israhel facere malum in conspectu Domini post mortem Ahoth",
-      "paragraph": true
+      "paragraph": true,
+      "text": "addideruntque filii Israhel facere malum in conspectu Domini post mortem Ahoth"
     }
   },
   {
@@ -700,8 +700,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "cecineruntque Debbora et Barac filius Abinoem in die illo dicentes",
-      "paragraph": true
+      "paragraph": true,
+      "text": "cecineruntque Debbora et Barac filius Abinoem in die illo dicentes"
     }
   },
   {
@@ -882,15 +882,24 @@
     "book": "JDG",
     "chapter": 5,
     "verse": 31,
-    "content": "sic pereant omnes inimici tui Domine qui autem diligunt te sicut sol in ortu suo splendet ita rutilent (5-32) quievitque terra per quadraginta annos"
+    "content": [
+      {
+        "text": "sic pereant omnes inimici tui Domine qui autem diligunt te sicut sol in ortu suo splendet ita rutilent ",
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:32."
+        }
+      },
+      "quievitque terra per quadraginta annos"
+    ]
   },
   {
     "book": "JDG",
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "fecerunt autem filii Israhel malum in conspectu Domini qui tradidit eos in manu Madian septem annis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "fecerunt autem filii Israhel malum in conspectu Domini qui tradidit eos in manu Madian septem annis"
     }
   },
   {
@@ -1132,8 +1141,8 @@
     "chapter": 7,
     "verse": 1,
     "content": {
-      "text": "igitur Hierobbaal qui est et Gedeon de nocte consurgens et omnis populus cum eo venit ad fontem qui vocatur Arad erant autem castra Madian in valle ad septentrionalem plagam collis Excelsi",
-      "paragraph": true
+      "paragraph": true,
+      "text": "igitur Hierobbaal qui est et Gedeon de nocte consurgens et omnis populus cum eo venit ad fontem qui vocatur Arad erant autem castra Madian in valle ad septentrionalem plagam collis Excelsi"
     }
   },
   {
@@ -1285,8 +1294,8 @@
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "dixeruntque ad eum viri Ephraim quid est hoc quod facere voluisti ut non nos vocares cum ad pugnam pergeres contra Madian iurgantes fortiter et prope vim inferentes",
-      "paragraph": true
+      "paragraph": true,
+      "text": "dixeruntque ad eum viri Ephraim quid est hoc quod facere voluisti ut non nos vocares cum ad pugnam pergeres contra Madian iurgantes fortiter et prope vim inferentes"
     }
   },
   {
@@ -1498,8 +1507,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "abiit autem Abimelech filius Hierobbaal in Sychem ad fratres matris suae et locutus est ad eos et ad omnem cognationem domus patris matris suae dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "abiit autem Abimelech filius Hierobbaal in Sychem ad fratres matris suae et locutus est ad eos et ad omnem cognationem domus patris matris suae dicens"
     }
   },
   {
@@ -1843,8 +1852,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "post Abimelech surrexit dux in Israhel Thola filius Phoa patrui Abimelech vir de Isachar qui habitavit in Sanir montis Ephraim",
-      "paragraph": true
+      "paragraph": true,
+      "text": "post Abimelech surrexit dux in Israhel Thola filius Phoa patrui Abimelech vir de Isachar qui habitavit in Sanir montis Ephraim"
     }
   },
   {
@@ -1954,8 +1963,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "fuit illo tempore Iepthae Galaadites vir fortissimus atque pugnator filius meretricis mulieris qui natus est de Galaad",
-      "paragraph": true
+      "paragraph": true,
+      "text": "fuit illo tempore Iepthae Galaadites vir fortissimus atque pugnator filius meretricis mulieris qui natus est de Galaad"
     }
   },
   {
@@ -2197,8 +2206,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "ecce autem in Ephraim orta seditio est nam transeuntes contra aquilonem dixerunt ad Iepthae quare vadens ad pugnam contra filios Ammon vocare nos noluisti ut pergeremus tecum igitur incendimus domum tuam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "ecce autem in Ephraim orta seditio est nam transeuntes contra aquilonem dixerunt ad Iepthae quare vadens ad pugnam contra filios Ammon vocare nos noluisti ut pergeremus tecum igitur incendimus domum tuam"
     }
   },
   {
@@ -2290,8 +2299,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "rursumque filii Israhel fecerunt malum in conspectu Domini qui tradidit eos in manus Philisthinorum quadraginta annis",
-      "paragraph": true
+      "paragraph": true,
+      "text": "rursumque filii Israhel fecerunt malum in conspectu Domini qui tradidit eos in manus Philisthinorum quadraginta annis"
     }
   },
   {
@@ -2443,8 +2452,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "descendit igitur Samson in Thamnatha vidensque ibi mulierem de filiabus Philisthim",
-      "paragraph": true
+      "paragraph": true,
+      "text": "descendit igitur Samson in Thamnatha vidensque ibi mulierem de filiabus Philisthim"
     }
   },
   {
@@ -2566,8 +2575,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "post aliquantum autem temporis cum dies triticeae messis instarent venit Samson invisere volens uxorem suam et adtulit ei hedum de capris cumque cubiculum eius solito vellet intrare prohibuit eum pater illius dicens",
-      "paragraph": true
+      "paragraph": true,
+      "text": "post aliquantum autem temporis cum dies triticeae messis instarent venit Samson invisere volens uxorem suam et adtulit ei hedum de capris cumque cubiculum eius solito vellet intrare prohibuit eum pater illius dicens"
     }
   },
   {
@@ -2689,8 +2698,8 @@
     "chapter": 16,
     "verse": 1,
     "content": {
-      "text": "abiit quoque in Gazam et vidit ibi meretricem mulierem ingressusque est ad eam",
-      "paragraph": true
+      "paragraph": true,
+      "text": "abiit quoque in Gazam et vidit ibi meretricem mulierem ingressusque est ad eam"
     }
   },
   {
@@ -2878,8 +2887,8 @@
     "chapter": 17,
     "verse": 1,
     "content": {
-      "text": "fuit eo tempore vir quidam de monte Ephraim nomine Michas",
-      "paragraph": true
+      "paragraph": true,
+      "text": "fuit eo tempore vir quidam de monte Ephraim nomine Michas"
     }
   },
   {
@@ -2959,8 +2968,8 @@
     "chapter": 18,
     "verse": 1,
     "content": {
-      "text": "in diebus illis non erat rex in Israhel et tribus Dan quaerebat possessionem sibi ut habitaret in ea usque ad illum enim diem inter ceteras tribus sortem non acceperat",
-      "paragraph": true
+      "paragraph": true,
+      "text": "in diebus illis non erat rex in Israhel et tribus Dan quaerebat possessionem sibi ut habitaret in ea usque ad illum enim diem inter ceteras tribus sortem non acceperat"
     }
   },
   {
@@ -3148,8 +3157,8 @@
     "chapter": 19,
     "verse": 1,
     "content": {
-      "text": "fuit quidam vir Levites habitans in latere montis Ephraim qui accepit uxorem de Bethleem Iuda",
-      "paragraph": true
+      "paragraph": true,
+      "text": "fuit quidam vir Levites habitans in latere montis Ephraim qui accepit uxorem de Bethleem Iuda"
     }
   },
   {
@@ -3331,8 +3340,8 @@
     "chapter": 20,
     "verse": 1,
     "content": {
-      "text": "egressi sunt itaque omnes filii Israhel et pariter congregati quasi vir unus de Dan usque Bersabee et terra Galaad ad Dominum in Maspha",
-      "paragraph": true
+      "paragraph": true,
+      "text": "egressi sunt itaque omnes filii Israhel et pariter congregati quasi vir unus de Dan usque Bersabee et terra Galaad ad Dominum in Maspha"
     }
   },
   {
@@ -3622,8 +3631,8 @@
     "chapter": 21,
     "verse": 1,
     "content": {
-      "text": "iuraverunt quoque filii Israhel in Maspha et dixerunt nullus nostrum dabit filiis Beniamin de filiabus suis uxorem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "iuraverunt quoque filii Israhel in Maspha et dixerunt nullus nostrum dabit filiis Beniamin de filiabus suis uxorem"
     }
   },
   {

@@ -5,11 +5,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Παῦλος",
         "script": "G",
         "strong": "G3972",
-        "morph": "N-NSM",
-        "paragraph": true
+        "morph": "N-NSM"
       },
       {
         "text": " κλητὸς",
@@ -389,11 +389,11 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "Εὐχαριστῶ",
         "script": "G",
         "strong": "G2168",
-        "morph": "V-PAI-1S",
-        "paragraph": true
+        "morph": "V-PAI-1S"
       },
       {
         "text": " τῷ",
@@ -952,11 +952,11 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "Παρακαλῶ",
         "script": "G",
         "strong": "G3870",
-        "morph": "V-PAI-1S",
-        "paragraph": true
+        "morph": "V-PAI-1S"
       },
       {
         "text": " δὲ",
@@ -1883,11 +1883,11 @@
     "verse": 18,
     "content": [
       {
+        "paragraph": true,
         "text": "Ὁ",
         "script": "G",
         "strong": "G3588",
-        "morph": "T-NSM",
-        "paragraph": true
+        "morph": "T-NSM"
       },
       {
         "text": " λόγος",
@@ -2768,11 +2768,11 @@
     "verse": 26,
     "content": [
       {
+        "paragraph": true,
         "text": "Βλέπετε",
         "script": "G",
         "strong": "G991",
-        "morph": "V-PAI-2P",
-        "paragraph": true
+        "morph": "V-PAI-2P"
       },
       {
         "text": " γὰρ",
@@ -3438,11 +3438,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Κἀγὼ",
         "script": "G",
         "strong": "G2504",
-        "morph": "P-1NS-K",
-        "paragraph": true
+        "morph": "P-1NS-K"
       },
       {
         "text": " ἐλθὼν",
@@ -3862,7 +3862,7 @@
               "text": "πειθοῖ",
               "script": "G"
             },
-            " [",
+            "[",
             {
               "text": "ς",
               "script": "G"
@@ -4030,11 +4030,11 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "Σοφίαν",
         "script": "G",
         "strong": "G4678",
-        "morph": "N-ASF",
-        "paragraph": true
+        "morph": "N-ASF"
       },
       {
         "text": " δὲ",
@@ -5158,7 +5158,6 @@
         "morph": "A-DPN"
       },
       {
-        "text": " ",
         "strong": "G4152",
         "morph": "A-DPM"
       },
@@ -5489,6 +5488,7 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Καὶ",
         "script": "G",
         "foot": {
@@ -5506,7 +5506,6 @@
             }
           ]
         },
-        "paragraph": true,
         "strong": "G2532",
         "morph": "CONJ"
       },
@@ -6487,11 +6486,11 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "Κατὰ",
         "script": "G",
         "strong": "G2596",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " τὴν",
@@ -7170,11 +7169,11 @@
     "verse": 16,
     "content": [
       {
+        "paragraph": true,
         "text": "Οὐκ",
         "script": "G",
         "strong": "G3756",
-        "morph": "PRT-N",
-        "paragraph": true
+        "morph": "PRT-N"
       },
       {
         "text": " οἴδατε",
@@ -7395,11 +7394,11 @@
     "verse": 18,
     "content": [
       {
+        "paragraph": true,
         "text": "Μηδεὶς",
         "script": "G",
         "strong": "G3367",
-        "morph": "A-NSM-N",
-        "paragraph": true
+        "morph": "A-NSM-N"
       },
       {
         "text": " ἑαυτὸν",
@@ -7959,11 +7958,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Οὕτως",
         "script": "G",
         "strong": "G3779",
-        "morph": "ADV",
-        "paragraph": true
+        "morph": "ADV"
       },
       {
         "text": " ἡμᾶς",
@@ -8532,11 +8531,11 @@
     "verse": 6,
     "content": [
       {
+        "paragraph": true,
         "text": "Ταῦτα",
         "script": "G",
         "strong": "G3778",
-        "morph": "D-APN",
-        "paragraph": true
+        "morph": "D-APN"
       },
       {
         "text": " δέ,",
@@ -9510,11 +9509,11 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Οὐκ",
         "script": "G",
         "strong": "G3756",
-        "morph": "PRT-N",
-        "paragraph": true
+        "morph": "PRT-N"
       },
       {
         "text": " ἐντρέπων",
@@ -9586,7 +9585,7 @@
               "text": "νουθετῶ",
               "script": "G"
             },
-            " [",
+            "[",
             {
               "text": "ν",
               "script": "G"
@@ -10337,12 +10336,7 @@
             },
             " ⇒ ",
             {
-              "text": "πραύ",
-              "script": "G"
-            },
-            " ̈ ",
-            {
-              "text": "τητος",
+              "text": "πρα̈ύτητος",
               "script": "G"
             }
           ]
@@ -10358,11 +10352,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Ὅλως",
         "script": "G",
         "strong": "G3654",
-        "morph": "ADV",
-        "paragraph": true
+        "morph": "ADV"
       },
       {
         "text": " ἀκούεται",
@@ -11443,11 +11437,11 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἔγραψα",
         "script": "G",
         "strong": "G1125",
-        "morph": "V-AAI-1S",
-        "paragraph": true
+        "morph": "V-AAI-1S"
       },
       {
         "text": " ὑμῖν",
@@ -12036,11 +12030,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Τολμᾷ",
         "script": "G",
         "strong": "G5111",
-        "morph": "V-PAI-3S",
-        "paragraph": true
+        "morph": "V-PAI-3S"
       },
       {
         "text": " τις",
@@ -13294,11 +13288,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Πάντα",
         "script": "G",
         "strong": "G3956",
-        "morph": "A-NPN",
-        "paragraph": true
+        "morph": "A-NPN"
       },
       {
         "text": " μοι",
@@ -14404,11 +14398,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Περὶ",
         "script": "G",
         "strong": "G4012",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " δὲ",
@@ -15361,11 +15355,11 @@
     "verse": 8,
     "content": [
       {
+        "paragraph": true,
         "text": "Λέγω",
         "script": "G",
         "strong": "G3004",
-        "morph": "V-PAI-1S",
-        "paragraph": true
+        "morph": "V-PAI-1S"
       },
       {
         "text": " δὲ",
@@ -17243,11 +17237,11 @@
     "verse": 25,
     "content": [
       {
+        "paragraph": true,
         "text": "Περὶ",
         "script": "G",
         "strong": "G4012",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " δὲ",
@@ -18752,7 +18746,6 @@
         "morph": "A-NSM"
       },
       {
-        "text": " ",
         "strong": "G5230",
         "morph": "A-NSF"
       },
@@ -19477,11 +19470,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Περὶ",
         "script": "G",
         "strong": "G4012",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " δὲ",
@@ -21118,11 +21111,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Οὐκ",
         "script": "G",
         "strong": "G3756",
-        "morph": "PRT-N",
-        "paragraph": true
+        "morph": "PRT-N"
       },
       {
         "text": " εἰμὶ",
@@ -24490,11 +24483,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Οὐ",
         "script": "G",
         "strong": "G3756",
-        "morph": "PRT-N",
-        "paragraph": true
+        "morph": "PRT-N"
       },
       {
         "text": " θέλω",
@@ -25989,11 +25982,11 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "Διόπερ,",
         "script": "G",
         "strong": "G1355",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἀγαπητοί",
@@ -26902,11 +26895,11 @@
     "verse": 23,
     "content": [
       {
+        "paragraph": true,
         "text": "Πάντα",
         "script": "G",
         "strong": "G3956",
-        "morph": "A-NPN",
-        "paragraph": true
+        "morph": "A-NPN"
       },
       {
         "text": " μοι",
@@ -28057,11 +28050,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Μιμηταί",
         "script": "G",
         "strong": "G3402",
-        "morph": "N-NPM",
-        "paragraph": true
+        "morph": "N-NPM"
       },
       {
         "text": " μου",
@@ -28101,11 +28094,11 @@
     "verse": 2,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐπαινῶ",
         "script": "G",
         "strong": "G1867",
-        "morph": "V-PAI-1S",
-        "paragraph": true
+        "morph": "V-PAI-1S"
       },
       {
         "text": " δὲ",
@@ -29670,11 +29663,11 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "Τοῦτο",
         "script": "G",
         "strong": "G3778",
-        "morph": "D-ASN",
-        "paragraph": true
+        "morph": "D-ASN"
       },
       {
         "text": " δὲ",
@@ -31886,11 +31879,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Περὶ",
         "script": "G",
         "strong": "G4012",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " δὲ",
@@ -32214,11 +32207,11 @@
     "verse": 4,
     "content": [
       {
+        "paragraph": true,
         "text": "Διαιρέσεις",
         "script": "G",
         "strong": "G1243",
-        "morph": "N-NPF",
-        "paragraph": true
+        "morph": "N-NPF"
       },
       {
         "text": " δὲ",
@@ -32995,11 +32988,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Καθάπερ",
         "script": "G",
         "strong": "G2509",
-        "morph": "ADV",
-        "paragraph": true
+        "morph": "ADV"
       },
       {
         "text": " γὰρ",
@@ -35232,11 +35225,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐὰν",
         "script": "G",
         "strong": "G1437",
-        "morph": "COND",
-        "paragraph": true
+        "morph": "COND"
       },
       {
         "text": " ταῖς",
@@ -36681,11 +36674,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Διώκετε",
         "script": "G",
         "strong": "G1377",
-        "morph": "V-PAM-2P",
-        "paragraph": true
+        "morph": "V-PAM-2P"
       },
       {
         "text": " τὴν",
@@ -38785,10 +38778,9 @@
             },
             " ⇒ ",
             {
-              "text": "τῷ νοί",
+              "text": "τῷ νο̈ί",
               "script": "G"
-            },
-            " ̈"
+            }
           ]
         },
         "strong": "G1223",
@@ -38880,11 +38872,11 @@
     "verse": 20,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἀδελφοί,",
         "script": "G",
         "strong": "G80",
-        "morph": "N-VPM",
-        "paragraph": true
+        "morph": "N-VPM"
       },
       {
         "text": " μὴ",
@@ -39709,11 +39701,11 @@
     "verse": 26,
     "content": [
       {
+        "paragraph": true,
         "text": "Τί",
         "script": "G",
         "strong": "G5101",
-        "morph": "I-NSN",
-        "paragraph": true
+        "morph": "I-NSN"
       },
       {
         "text": " οὖν",
@@ -40404,11 +40396,11 @@
     "verse": 34,
     "content": [
       {
+        "paragraph": true,
         "text": "Αἱ",
         "script": "G",
         "strong": "G3588",
-        "morph": "T-NPF",
-        "paragraph": true
+        "morph": "T-NPF"
       },
       {
         "text": " γυναῖκες",
@@ -40797,11 +40789,11 @@
     "verse": 37,
     "content": [
       {
+        "paragraph": true,
         "text": "Εἴ",
         "script": "G",
         "strong": "G1487",
-        "morph": "COND",
-        "paragraph": true
+        "morph": "COND"
       },
       {
         "text": " τις",
@@ -40962,11 +40954,11 @@
     "verse": 39,
     "content": [
       {
+        "paragraph": true,
         "text": "Ὥστε,",
         "script": "G",
         "strong": "G5620",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " ἀδελφοί,",
@@ -41130,11 +41122,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Γνωρίζω",
         "script": "G",
         "strong": "G1107",
-        "morph": "V-PAI-1S",
-        "paragraph": true
+        "morph": "V-PAI-1S"
       },
       {
         "text": " δὲ",
@@ -42250,11 +42242,11 @@
     "verse": 12,
     "content": [
       {
+        "paragraph": true,
         "text": "Εἰ",
         "script": "G",
         "strong": "G1487",
-        "morph": "COND",
-        "paragraph": true
+        "morph": "COND"
       },
       {
         "text": " δὲ",
@@ -43032,11 +43024,11 @@
     "verse": 20,
     "content": [
       {
+        "paragraph": true,
         "text": "Νυνὶ",
         "script": "G",
         "strong": "G3570",
-        "morph": "ADV",
-        "paragraph": true
+        "morph": "ADV"
       },
       {
         "text": " δὲ",
@@ -44003,11 +43995,11 @@
     "verse": 29,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐπεὶ",
         "script": "G",
         "strong": "G1893",
-        "morph": "CONJ",
-        "paragraph": true
+        "morph": "CONJ"
       },
       {
         "text": " τί",
@@ -44582,6 +44574,7 @@
     "verse": 35,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἀλλ’",
         "script": "G",
         "foot": {
@@ -44599,7 +44592,6 @@
             }
           ]
         },
-        "paragraph": true,
         "strong": "G235",
         "morph": "CONJ"
       },
@@ -46135,11 +46127,11 @@
     "verse": 50,
     "content": [
       {
+        "paragraph": true,
         "text": "Τοῦτο",
         "script": "G",
         "strong": "G3778",
-        "morph": "D-ASN",
-        "paragraph": true
+        "morph": "D-ASN"
       },
       {
         "text": " δέ",
@@ -47134,11 +47126,11 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Περὶ",
         "script": "G",
         "strong": "G4012",
-        "morph": "PREP",
-        "paragraph": true
+        "morph": "PREP"
       },
       {
         "text": " δὲ",
@@ -48053,11 +48045,11 @@
     "verse": 10,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἐὰν",
         "script": "G",
         "strong": "G1437",
-        "morph": "COND",
-        "paragraph": true
+        "morph": "COND"
       },
       {
         "text": " δὲ",
@@ -48480,11 +48472,11 @@
     "verse": 13,
     "content": [
       {
+        "paragraph": true,
         "text": "Γρηγορεῖτε,",
         "script": "G",
         "strong": "G1127",
-        "morph": "V-PAM-2P",
-        "paragraph": true
+        "morph": "V-PAM-2P"
       },
       {
         "text": " στήκετε",
@@ -48567,11 +48559,11 @@
     "verse": 15,
     "content": [
       {
+        "paragraph": true,
         "text": "Παρακαλῶ",
         "script": "G",
         "strong": "G3870",
-        "morph": "V-PAI-1S",
-        "paragraph": true
+        "morph": "V-PAI-1S"
       },
       {
         "text": " δὲ",
@@ -48986,11 +48978,11 @@
     "verse": 19,
     "content": [
       {
+        "paragraph": true,
         "text": "Ἀσπάζονται",
         "script": "G",
         "strong": "G782",
-        "morph": "V-PNI-3P",
-        "paragraph": true
+        "morph": "V-PNI-3P"
       },
       {
         "text": " ὑμᾶς",
@@ -49211,11 +49203,11 @@
     "verse": 21,
     "content": [
       {
+        "paragraph": true,
         "text": "Ὁ",
         "script": "G",
         "strong": "G3588",
-        "morph": "T-NSM",
-        "paragraph": true
+        "morph": "T-NSM"
       },
       {
         "text": " ἀσπασμὸς",

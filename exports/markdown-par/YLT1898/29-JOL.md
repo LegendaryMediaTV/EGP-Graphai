@@ -20,6 +20,7 @@
 <sup>18</sup> How have cattle sighed! Perplexed have been droves of oxen, For there is no pasture for them, Also droves of sheep have been desolated.
 <sup>19</sup> Unto Thee, O Jehovah, I do call, For fire hath consumed comely places of a wilderness, And a flame hath set on fire all trees of the field.
 <sup>20</sup> Also the cattle of the field long for Thee, For dried up have been streams of water, And fire hath consumed comely places of a wilderness!’
+
 ## Chapter 2
 
 <sup>1</sup> Blow ye a trumpet in Zion, And shout ye in My holy hill, Tremble do all inhabitants of the earth, For coming is the day of Jehovah, for it is near!
@@ -54,6 +55,7 @@
 <sup>30</sup> And I have given wonders in the heavens, and in the earth, Blood and fire, and columns of smoke.
 <sup>31</sup> The sun is turned to darkness, and the moon to blood, Before the coming of the day of Jehovah, The great and the fearful.
 <sup>32</sup> And it hath come to pass, Every one who calleth in the name of Jehovah is delivered, For in mount Zion and in Jerusalem there is an escape, As Jehovah hath said, And among the remnants whom Jehovah is calling!
+
 ## Chapter 3
 
 <sup>1</sup> For lo, in those days, and in that time, When I turn back to the captivity of Judah and Jerusalem,

@@ -15,6 +15,7 @@
 <sup>13</sup> For now will I break his yoke from off thee, and will burst thy bonds in sunder.
 <sup>14</sup> And the LORD hath given a commandment concerning thee, [that] no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image: I will make thy grave; for thou art vile.
 <sup>15</sup> Behold upon the mountains the feet of him that bringeth good tidings, that publisheth peace! O Judah, keep thy solemn feasts, perform thy vows: for the wicked shall no more pass through thee; he is utterly cut off.
+
 ## Chapter 2
 
 <sup>1</sup> He that dasheth in pieces is come up before thy face: keep the munition, watch the way, make [thy] loins strong, fortify [thy] power mightily.
@@ -30,11 +31,12 @@
 <sup>11</sup> Where [is] the dwelling of the lions, and the feedingplace of the young lions, where the lion, [even] the old lion, walked, [and] the lion’s whelp, and none made [them] afraid?
 <sup>12</sup> The lion did tear in pieces enough for his whelps, and strangled for his lionesses, and filled his holes with prey, and his dens with ravin.
 <sup>13</sup> Behold, I [am] against thee, saith the LORD of hosts, and I will burn her chariots in the smoke, and the sword shall devour thy young lions: and I will cut off thy prey from the earth, and the voice of thy messengers shall no more be heard.
+
 ## Chapter 3
 
 <sup>1</sup> Woe to the bloody city! it [is] all full of lies [and] robbery; the prey departeth not;
 <sup>2</sup> The noise of a whip, and the noise of the rattling of the wheels, and of the pransing horses, and of the jumping chariots.
-<sup>3</sup> The horseman lifteth up both the bright sword and the glittering spear: and [there is] a multitude of slain, and a great number of carcases; and [there is] none end of [their] corpses; they stumble (8675) upon their corpses:
+<sup>3</sup> The horseman lifteth up both the bright sword and the glittering spear: and [there is] a multitude of slain, and a great number of carcases; and [there is] none end of [their] corpses; they stumble upon their corpses:
 <sup>4</sup> Because of the multitude of the whoredoms of the wellfavoured harlot, the mistress of witchcrafts, that selleth nations through her whoredoms, and families through her witchcrafts.
 <sup>5</sup> Behold, I [am] against thee, saith the LORD of hosts; and I will discover thy skirts upon thy face, and I will shew the nations thy nakedness, and the kingdoms thy shame.
 <sup>6</sup> And I will cast abominable filth upon thee, and make thee vile, and will set thee as a gazingstock.

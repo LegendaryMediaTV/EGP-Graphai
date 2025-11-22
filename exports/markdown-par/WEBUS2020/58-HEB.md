@@ -38,7 +38,9 @@
 <sup>5</sup> For he didn’t subject the world to come, of which we speak, to angels.
 <sup>6</sup> But one has somewhere testified, saying,<br>“What is man, that you think of him?<br>Or the son of man, that you care for him?<br>
 <sup>7</sup> You made him a little lower than the angels.<br>You crowned him with glory and honor.<sup>a</sup><br>
-<sup>8</sup> You have put all things in subjection under his feet.”<sup>b</sup> For in that he subjected all things to him, he left nothing that is not subject to him. But now we don’t yet see all things subjected to him.
+<sup>8</sup> You have put all things in subjection under his feet.”<sup>b</sup>
+
+For in that he subjected all things to him, he left nothing that is not subject to him. But now we don’t yet see all things subjected to him.
 <sup>9</sup> But we see him who has been made a little lower than the angels, Jesus, because of the suffering of death crowned with glory and honor, that by the grace of God he should taste of death for everyone.
 
 <sup>10</sup> For it became him, for whom are all things and through whom are all things, in bringing many children to glory, to make the author of their salvation perfect through sufferings.
@@ -284,7 +286,9 @@
 <sup>13</sup> from that time waiting until his enemies are made the footstool of his feet.
 <sup>14</sup> For by one offering he has perfected forever those who are being sanctified.
 <sup>15</sup> The Holy Spirit also testifies to us, for after saying,<br>
-<sup>16</sup> “This is the covenant that I will make with them<br>after those days,” says the Lord,<br>“I will put my laws on their heart,<br>I will also write them on their mind;”<sup>b</sup> then he says,<br>
+<sup>16</sup> “This is the covenant that I will make with them<br>after those days,” says the Lord,<br>“I will put my laws on their heart,<br>I will also write them on their mind;”<sup>b</sup>
+
+then he says,<br>
 <sup>17</sup> “I will remember their sins and their iniquities no more.”<sup>c</sup>
 
 <sup>18</sup> Now where remission of these is, there is no more offering for sin.

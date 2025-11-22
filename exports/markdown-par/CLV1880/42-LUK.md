@@ -80,6 +80,7 @@
 <sup>78</sup> per viscera misericordiae Dei nostri in quibus visitavit nos oriens ex alto
 <sup>79</sup> inluminare his qui in tenebris et in umbra mortis sedent ad dirigendos pedes nostros in viam pacis
 <sup>80</sup> puer autem crescebat et confortabatur spiritu et erat in deserto usque in diem ostensionis suae ad Israhel
+
 ## Chapter 2
 
 <sup>1</sup> factum est autem in diebus illis exiit edictum a Caesare Augusto ut describeretur universus orbis
@@ -134,6 +135,7 @@
 <sup>50</sup> et ipsi non intellexerunt verbum quod locutus est ad illos
 <sup>51</sup> et descendit cum eis et venit Nazareth et erat subditus illis et mater eius conservabat omnia verba haec in corde suo
 <sup>52</sup> et Iesus proficiebat sapientia aetate et gratia apud Deum et homines
+
 ## Chapter 3
 
 <sup>1</sup> anno autem quintodecimo imperii Tiberii Caesaris procurante Pontio Pilato Iudaeam tetrarcha autem Galilaeae Herode Philippo autem fratre eius tetrarcha Itureae et Trachonitidis regionis et Lysania Abilinae tetrarcha
@@ -174,6 +176,7 @@
 <sup>36</sup> qui fuit Cainan qui fuit Arfaxat qui fuit Sem qui fuit Noe qui fuit Lamech
 <sup>37</sup> qui fuit Mathusalae qui fuit Enoch qui fuit Iared qui fuit Malelehel qui fuit Cainan
 <sup>38</sup> qui fuit Enos qui fuit Seth qui fuit Adam qui fuit Dei
+
 ## Chapter 4
 
 <sup>1</sup> Iesus autem plenus Spiritu Sancto regressus est ab Iordane et agebatur in Spiritu in desertum
@@ -220,6 +223,7 @@
 <sup>42</sup> facta autem die egressus ibat in desertum locum et turbae requirebant eum et venerunt usque ad ipsum et detinebant illum ne discederet ab eis
 <sup>43</sup> quibus ille ait quia et aliis civitatibus oportet me evangelizare regnum Dei quia ideo missus sum
 <sup>44</sup> et erat praedicans in synagogis Galilaeae
+
 ## Chapter 5
 
 <sup>1</sup> factum est autem cum turbae inruerent in eum ut audirent verbum Dei et ipse stabat secus stagnum Gennesareth
@@ -261,6 +265,7 @@
 <sup>37</sup> et nemo mittit vinum novum in utres veteres alioquin rumpet vinum novum utres et ipsum effundetur et utres peribunt
 <sup>38</sup> sed vinum novum in utres novos mittendum est et utraque conservantur
 <sup>39</sup> et nemo bibens vetus statim vult novum dicit enim vetus melius est
+
 ## Chapter 6
 
 <sup>1</sup> factum est autem in sabbato secundoprimo cum transiret per sata vellebant discipuli eius spicas et manducabant confricantes manibus
@@ -312,6 +317,7 @@
 <sup>47</sup> omnis qui venit ad me et audit sermones meos et facit eos ostendam vobis cui similis est
 <sup>48</sup> similis est homini aedificanti domum qui fodit in altum et posuit fundamenta supra petram inundatione autem facta inlisum est flumen domui illi et non potuit eam movere fundata enim erat supra petram
 <sup>49</sup> qui autem audivit et non fecit similis est homini aedificanti domum suam supra terram sine fundamento in quam inlisus est fluvius et continuo concidit et facta est ruina domus illius magna
+
 ## Chapter 7
 
 <sup>1</sup> cum autem implesset omnia verba sua in aures plebis intravit Capharnaum
@@ -364,6 +370,7 @@
 <sup>48</sup> dixit autem ad illam remittuntur tibi peccata
 <sup>49</sup> et coeperunt qui simul accumbebant dicere intra se quis est hic qui etiam peccata dimittit
 <sup>50</sup> dixit autem ad mulierem fides tua te salvam fecit vade in pace
+
 ## Chapter 8
 
 <sup>1</sup> et factum est deinceps et ipse iter faciebat per civitatem et castellum praedicans et evangelizans regnum Dei et duodecim cum illo
@@ -422,6 +429,7 @@
 <sup>54</sup> ipse autem tenens manum eius clamavit dicens puella surge
 <sup>55</sup> et reversus est spiritus eius et surrexit continuo et iussit illi dari manducare
 <sup>56</sup> et stupuerunt parentes eius quibus praecepit ne alicui dicerent quod factum erat
+
 ## Chapter 9
 
 <sup>1</sup> convocatis autem duodecim apostolis dedit illis virtutem et potestatem super omnia daemonia et ut languores curarent
@@ -486,6 +494,7 @@
 <sup>60</sup> dixitque ei Iesus sine ut mortui sepeliant mortuos suos tu autem vade adnuntia regnum Dei
 <sup>61</sup> et ait alter sequar te Domine sed primum permitte mihi renuntiare his qui domi sunt
 <sup>62</sup> ait ad illum Iesus nemo mittens manum suam in aratrum et aspiciens retro aptus est regno Dei
+
 ## Chapter 10
 
 <sup>1</sup> post haec autem designavit Dominus et alios septuaginta duos et misit illos binos ante faciem suam in omnem civitatem et locum quo erat ipse venturus
@@ -530,6 +539,7 @@
 <sup>40</sup> Martha autem satagebat circa frequens ministerium quae stetit et ait Domine non est tibi curae quod soror mea reliquit me solam ministrare dic ergo illi ut me adiuvet
 <sup>41</sup> et respondens dixit illi Dominus Martha Martha sollicita es et turbaris erga plurima
 <sup>42</sup> porro unum est necessarium Maria optimam partem elegit quae non auferetur ab ea
+
 ## Chapter 11
 
 <sup>1</sup> et factum est cum esset in loco quodam orans ut cessavit dixit unus ex discipulis eius ad eum Domine doce nos orare sicut et Iohannes docuit discipulos suos
@@ -586,6 +596,7 @@
 <sup>52</sup> vae vobis legis peritis quia tulistis clavem scientiae ipsi non introistis et eos qui introibant prohibuistis
 <sup>53</sup> cum haec ad illos diceret coeperunt Pharisaei et legis periti graviter insistere et os eius opprimere de multis
 <sup>54</sup> insidiantes et quaerentes capere aliquid ex ore eius ut accusarent eum
+
 ## Chapter 12
 
 <sup>1</sup> multis autem turbis circumstantibus ita ut se invicem conculcarent coepit dicere ad discipulos suos adtendite a fermento Pharisaeorum quae est hypocrisis
@@ -647,6 +658,7 @@
 <sup>57</sup> quid autem et a vobis ipsis non iudicatis quod iustum est
 <sup>58</sup> cum autem vadis cum adversario tuo ad principem in via da operam liberari ab illo ne forte trahat te apud iudicem et iudex tradat te exactori et exactor mittat te in carcerem
 <sup>59</sup> dico tibi non exies inde donec etiam novissimum minutum reddas
+
 ## Chapter 13
 
 <sup>1</sup> aderant autem quidam ipso in tempore nuntiantes illi de Galilaeis quorum sanguinem Pilatus miscuit cum sacrificiis eorum
@@ -684,6 +696,7 @@
 <sup>33</sup> verumtamen oportet me hodie et cras et sequenti ambulare quia non capit prophetam perire extra Hierusalem
 <sup>34</sup> Hierusalem Hierusalem quae occidis prophetas et lapidas eos qui mittuntur ad te quotiens volui congregare filios tuos quemadmodum avis nidum suum sub pinnis et noluisti
 <sup>35</sup> ecce relinquitur vobis domus vestra dico autem vobis quia non videbitis me donec veniat cum dicetis benedictus qui venit in nomine Domini
+
 ## Chapter 14
 
 <sup>1</sup> et factum est cum intraret in domum cuiusdam principis Pharisaeorum sabbato manducare panem et ipsi observabant eum
@@ -721,6 +734,7 @@
 <sup>33</sup> sic ergo omnis ex vobis qui non renuntiat omnibus quae possidet non potest meus esse discipulus
 <sup>34</sup> bonum est sal si autem sal quoque evanuerit in quo condietur
 <sup>35</sup> neque in terram neque in sterquilinium utile est sed foras mittetur qui habet aures audiendi audiat
+
 ## Chapter 15
 
 <sup>1</sup> erant autem adpropinquantes ei publicani et peccatores ut audirent illum
@@ -755,6 +769,7 @@
 <sup>30</sup> sed postquam filius tuus hic qui devoravit substantiam suam cum meretricibus venit occidisti illi vitulum saginatum
 <sup>31</sup> at ipse dixit illi fili tu semper mecum es et omnia mea tua sunt
 <sup>32</sup> epulari autem et gaudere oportebat quia frater tuus hic mortuus erat et revixit perierat et inventus est
+
 ## Chapter 16
 
 <sup>1</sup> dicebat autem et ad discipulos suos homo quidam erat dives qui habebat vilicum et hic diffamatus est apud illum quasi dissipasset bona ipsius
@@ -788,6 +803,7 @@
 <sup>29</sup> et ait illi Abraham habent Mosen et prophetas audiant illos
 <sup>30</sup> at ille dixit non pater Abraham sed si quis ex mortuis ierit ad eos paenitentiam agent
 <sup>31</sup> ait autem illi si Mosen et prophetas non audiunt neque si quis ex mortuis resurrexerit credent
+
 ## Chapter 17
 
 <sup>1</sup> et ad discipulos suos ait inpossibile est ut non veniant scandala vae autem illi per quem veniunt
@@ -827,6 +843,7 @@
 <sup>35</sup> duae erunt molentes in unum una adsumetur et altera relinquetur duo in agro unus adsumetur et alter relinquetur
 <sup>36</sup> respondentes dicunt illi ubi Domine
 <sup>37</sup> qui dixit eis ubicumque fuerit corpus illuc congregabuntur aquilae
+
 ## Chapter 18
 
 <sup>1</sup> dicebat autem et parabolam ad illos quoniam oportet semper orare et non deficere
@@ -872,6 +889,7 @@
 <sup>41</sup> dicens quid tibi vis faciam at ille dixit Domine ut videam
 <sup>42</sup> et Iesus dixit illi respice fides tua te salvum fecit
 <sup>43</sup> et confestim vidit et sequebatur illum magnificans Deum et omnis plebs ut vidit dedit laudem Deo
+
 ## Chapter 19
 
 <sup>1</sup> et ingressus perambulabat Hiericho
@@ -922,6 +940,7 @@
 <sup>46</sup> dicens illis scriptum est quia domus mea domus orationis est vos autem fecistis illam speluncam latronum
 <sup>47</sup> et erat docens cotidie in templo principes autem sacerdotum et scribae et principes plebis quaerebant illum perdere
 <sup>48</sup> et non inveniebant quid facerent illi omnis enim populus suspensus erat audiens illum
+
 ## Chapter 20
 
 <sup>1</sup> et factum est in una dierum docente illo populum in templo et evangelizante convenerunt principes sacerdotum et scribae cum senioribus
@@ -971,6 +990,7 @@
 <sup>45</sup> audiente autem omni populo dixit discipulis suis
 <sup>46</sup> adtendite a scribis qui volunt ambulare in stolis et amant salutationes in foro et primas cathedras in synagogis et primos discubitus in conviviis
 <sup>47</sup> qui devorant domos viduarum simulantes longam orationem hii accipient damnationem maiorem
+
 ## Chapter 21
 
 <sup>1</sup> respiciens autem vidit eos qui mittebant munera sua in gazofilacium divites
@@ -1011,6 +1031,7 @@
 <sup>36</sup> vigilate itaque omni tempore orantes ut digni habeamini fugere ista omnia quae futura sunt et stare ante Filium hominis
 <sup>37</sup> erat autem diebus docens in templo noctibus vero exiens morabatur in monte qui vocatur Oliveti
 <sup>38</sup> et omnis populus manicabat ad eum in templo audire eum
+
 ## Chapter 22
 
 <sup>1</sup> adpropinquabat autem dies festus azymorum qui dicitur pascha
@@ -1084,6 +1105,7 @@
 <sup>69</sup> ex hoc autem erit Filius hominis sedens a dextris virtutis Dei
 <sup>70</sup> dixerunt autem omnes tu ergo es Filius Dei qui ait vos dicitis quia ego sum
 <sup>71</sup> at illi dixerunt quid adhuc desideramus testimonium ipsi enim audivimus de ore eius
+
 ## Chapter 23
 
 <sup>1</sup> et surgens omnis multitudo eorum duxerunt illum ad Pilatum
@@ -1142,6 +1164,7 @@
 <sup>54</sup> et dies erat parasceves et sabbatum inlucescebat
 <sup>55</sup> subsecutae autem mulieres quae cum ipso venerant de Galilaea viderunt monumentum et quemadmodum positum erat corpus eius
 <sup>56</sup> et revertentes paraverunt aromata et unguenta et sabbato quidem siluerunt secundum mandatum
+
 ## Chapter 24
 
 <sup>1</sup> una autem sabbati valde diluculo venerunt ad monumentum portantes quae paraverant aromata

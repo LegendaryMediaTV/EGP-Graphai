@@ -69,6 +69,7 @@
 <sup>21</sup> “Don’t handle, nor taste, nor touch”
 <sup>22</sup> (all of which perish with use), according to the precepts and doctrines of men?
 <sup>23</sup> These things indeed appear like wisdom in self-imposed worship, humility, and severity to the body, but aren’t of any value against the indulgence of the flesh.
+
 ## Chapter 3
 
 <sup>1</sup> If then you were raised together with Christ, seek the things that are above, where Christ is, seated on the right hand of God.
@@ -105,6 +106,7 @@
 <sup>23</sup> And whatever you do, work heartily, as for the Lord and not for men,
 <sup>24</sup> knowing that from the Lord you will receive the reward of the inheritance; for you serve the Lord Christ.
 <sup>25</sup> But he who does wrong will receive again for the wrong that he has done, and there is no partiality.
+
 ## Chapter 4
 
 <sup>1</sup> Masters, give to your servants that which is just and equal, knowing that you also have a Master in heaven.

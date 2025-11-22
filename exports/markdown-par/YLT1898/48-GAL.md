@@ -24,6 +24,7 @@
 <sup>22</sup> and was unknown by face to the assemblies of Judea, that are in Christ,
 <sup>23</sup> and only they were hearing, that ‘he who is persecuting us then, doth now proclaim good news-the faith that then he was wasting;’
 <sup>24</sup> and they were glorifying God in me.
+
 ## Chapter 2
 
 <sup>1</sup> Then, after fourteen years again I went up to Jerusalem with Barnabas, having taken with me also Titus;
@@ -47,6 +48,7 @@
 <sup>19</sup> for I through law, did die, that to God I may live;
 <sup>20</sup> with Christ I have been crucified, and live no more do I, and Christ doth live in me; and that which I now live in the flesh-in the faith I live of the Son of God, who did love me and did give himself for me;
 <sup>21</sup> I do not make void the grace of God, for if righteousness be through law-then Christ died in vain.
+
 ## Chapter 3
 
 <sup>1</sup> O thoughtless Galatians, who did bewitch you, not to obey the truth-before whose eyes Jesus Christ was described before among you crucified?
@@ -78,6 +80,7 @@
 <sup>27</sup> for as many as to Christ were baptized did put on Christ;
 <sup>28</sup> there is not here Jew or Greek, there is not here servant nor freeman, there is not here male and female, for all ye are one in Christ Jesus;
 <sup>29</sup> and if ye are of Christ then of Abraham ye are seed, and according to promise-heirs.
+
 ## Chapter 4
 
 <sup>1</sup> And I say, so long time as the heir is a babe, he differeth nothing from a servant-being lord of all,
@@ -111,6 +114,7 @@
 <sup>29</sup> but as then he who was born according to the flesh did persecute him according to the spirit, so also now;
 <sup>30</sup> but what saith the Writing? ‘Cast forth the maid-servant and her son, for the son of the maid-servant may not be heir with the son of the free-woman;’
 <sup>31</sup> then, brethren, we are not a maid-servant’s children, but the free-woman’s.
+
 ## Chapter 5
 
 <sup>1</sup> In the freedom, then, with which Christ did make you free-stand ye, and be not held fast again by a yoke of servitude;
@@ -139,6 +143,7 @@
 <sup>24</sup> and those who are Christ’s, the flesh did crucify with the affections, and the desires;
 <sup>25</sup> if we may live in the Spirit, in the Spirit also we may walk;
 <sup>26</sup> let us not become vain-glorious-one another provoking, one another envying!
+
 ## Chapter 6
 
 <sup>1</sup> Brethren, if a man also may be overtaken in any trespass, ye who are spiritual restore such a one in a spirit of meekness, considering thyself-lest thou also may be tempted;

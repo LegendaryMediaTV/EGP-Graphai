@@ -22,6 +22,7 @@
 <sup>20</sup> And Job riseth, and rendeth his robe, and shaveth his head, and falleth to the earth, and doth obeisance,
 <sup>21</sup> and he saith, ‘Naked came I forth from the womb of my mother, and naked I turn back thither: Jehovah hath given and Jehovah hath taken: let the name of Jehovah be blessed.’
 <sup>22</sup> In all this Job hath not sinned, nor given folly to God.
+
 ## Chapter 2
 
 <sup>1</sup> And the day is, that sons of God come in to station themselves by Jehovah, and there doth come also the Adversary in their midst to station himself by Jehovah.
@@ -37,6 +38,7 @@
 <sup>11</sup> And three of the friends of Job hear of all this evil that hath come upon him, and they come in each from his place-Eliphaz the Temanite, and Bildad the Shuhite, and Zophar the Naamathite-and they are met together to come in to bemoan him, and to comfort him;
 <sup>12</sup> and they lift up their eyes from afar and have not discerned him, and they lift up their voice and weep, and rend each his robe, and sprinkle dust on their heads-heavenward.
 <sup>13</sup> And they sit with him on the earth seven days and seven nights, and there is none speaking unto him a word when they have seen that the pain hath been very great.
+
 ## Chapter 3
 
 <sup>1</sup> After this hath Job opened his mouth, and revileth his day.
@@ -65,6 +67,7 @@
 <sup>24</sup> For before my food, my sighing cometh, And poured out as waters are my roarings.
 <sup>25</sup> For a fear I feared and it meeteth me, And what I was afraid of doth come to me.
 <sup>26</sup> I was not safe-nor was I quiet- Nor was I at rest-and trouble cometh!
+
 ## Chapter 4
 
 <sup>1</sup> And Eliphaz the Temanite answereth and saith:-
@@ -88,6 +91,7 @@
 <sup>19</sup> Also-the inhabitants of houses of clay, (Whose foundation is in the dust, They bruise them before a moth.)
 <sup>20</sup> From morning to evening are beaten down, Without any regarding, for ever they perish.
 <sup>21</sup> Hath not their excellency been removed with them? They die, and not in wisdom!
+
 ## Chapter 5
 
 <sup>1</sup> Pray, call, is there any to answer thee? And unto which of the holy ones dost thou turn?
@@ -117,6 +121,7 @@
 <sup>25</sup> And hast known that numerous is Thy seed, And thine offspring as the herb of the earth;
 <sup>26</sup> Thou comest in full age unto the grave, As the going up of a stalk in its season.
 <sup>27</sup> Lo, this-we searched it out-it is right, hearken; And thou, know for thyself!
+
 ## Chapter 6
 
 <sup>1</sup> And Job answereth and saith:-
@@ -124,6 +129,7 @@
 <sup>3</sup> For now, than the sands of the sea it is heavier, Therefore my words have been rash.
 <sup>4</sup> For arrows of the Mighty are with me, Whose poison is drinking up my spirit. Terrors of God array themselves for me!
 <sup>5</sup> Brayeth a wild ass over tender grass? Loweth an ox over his provender?
+
 ## Chapter 7
 
 <sup>1</sup> Is there not a warfare to man on earth? And as the days of an hireling his days?
@@ -147,6 +153,7 @@
 <sup>19</sup> How long dost Thou not look from me? Thou dost not desist till I swallow my spittle.
 <sup>20</sup> I have sinned, what do I to Thee, O watcher of man? Why hast Thou set me for a mark to Thee, And I am for a burden to myself-and what?
 <sup>21</sup> Thou dost not take away my transgression, And cause to pass away mine iniquity, Because now, for dust I lie down: And Thou hast sought me-and I am not!
+
 ## Chapter 8
 
 <sup>1</sup> And Bildad the Shuhite answereth and saith:-
@@ -171,6 +178,7 @@
 <sup>20</sup> Lo, God doth not reject the perfect, Nor taketh hold on the hand of evil doers.
 <sup>21</sup> While he filleth with laughter thy mouth, And thy lips with shouting,
 <sup>22</sup> Those hating thee do put on shame, And the tent of the wicked is not!
+
 ## Chapter 9
 
 <sup>1</sup> And Job answereth and saith:-
@@ -208,6 +216,7 @@
 <sup>33</sup> If there were between us an umpire, He doth place his hand on us both.
 <sup>34</sup> He doth turn aside from off me his rod, And His terror doth not make me afraid,
 <sup>35</sup> I speak, and do not fear Him, But I am not right with myself.
+
 ## Chapter 10
 
 <sup>1</sup> My soul hath been weary of my life, I leave off my talking to myself, I speak in the bitterness of my soul.
@@ -232,6 +241,7 @@
 <sup>20</sup> Are not my days few? Cease then, and put from me, And I brighten up a little,
 <sup>21</sup> Before I go, and return not, Unto a land of darkness and death-shade,
 <sup>22</sup> A land of obscurity as thick darkness, Death-shade-and no order, And the shining is as thick darkness.’
+
 ## Chapter 11
 
 <sup>1</sup> And Zophar the Naamathite answereth and saith:-
@@ -254,6 +264,7 @@
 <sup>18</sup> And thou hast trusted because their is hope, And searched-in confidence thou liest down,
 <sup>19</sup> And thou hast rested, And none is causing trembling, And many have entreated thy face;
 <sup>20</sup> And the eyes of the wicked are consumed, And refuge hath perished from them, And their hope is a breathing out of soul!
+
 ## Chapter 12
 
 <sup>1</sup> And Job answereth and saith:-
@@ -281,6 +292,7 @@
 <sup>23</sup> Magnifying the nations, and He destroyeth them, Spreading out the nations, and He quieteth them.
 <sup>24</sup> Turning aside the heart Of the heads of the people of the land, And he causeth them to wander In vacancy-no way!
 <sup>25</sup> They feel darkness, and not light, He causeth them to wander as a drunkard.
+
 ## Chapter 13
 
 <sup>1</sup> Lo, all-hath mine eye seen, Heard hath mine ear, and it attendeth to it.
@@ -311,6 +323,7 @@
 <sup>26</sup> For Thou writest against me bitter things, And causest me to possess iniquities of my youth:
 <sup>27</sup> And puttest in the stocks my feet, And observest all my paths, On the roots of my feet Thou settest a print,
 <sup>28</sup> And he, as a rotten thing, weareth away, As a garment hath a moth consumed him.
+
 ## Chapter 14
 
 <sup>1</sup> Man, born of woman! Of few days, and full of trouble!
@@ -335,6 +348,7 @@
 <sup>20</sup> Thou prevailest over him for ever, and he goeth, He is changing his countenance, And Thou sendest him away.
 <sup>21</sup> Honoured are his sons, and he knoweth not; And they are little, and he attendeth not to them.
 <sup>22</sup> Only-his flesh for him is pained, And his soul for him doth mourn.’
+
 ## Chapter 15
 
 <sup>1</sup> And Eliphaz the Temanite answereth and saith:-
@@ -372,6 +386,7 @@
 <sup>33</sup> He shaketh off as a vine his unripe fruit, And casteth off as an olive his blossom.
 <sup>34</sup> For the company of the profane is gloomy, And fire hath consumed tents of bribery.
 <sup>35</sup> To conceive misery, and to bear iniquity, Even their heart doth prepare deceit.
+
 ## Chapter 16
 
 <sup>1</sup> And Job answereth and saith:-
@@ -396,6 +411,7 @@
 <sup>20</sup> My interpreter is my friend, Unto God hath mine eye dropped:
 <sup>21</sup> And he reasoneth for a man with God, And a son of man for his friend.
 <sup>22</sup> When a few years do come, Then a path I return not do I go.
+
 ## Chapter 17
 
 <sup>1</sup> My spirit hath been destroyed, My days extinguished-graves are for me.
@@ -414,6 +430,7 @@
 <sup>14</sup> To corruption I have called:- ‘Thou art my father.’ ‘My mother’ and ‘my sister?’-to the worm.
 <sup>15</sup> And where is now my hope? Yea, my hope, who doth behold it?
 <sup>16</sup> To the parts of Sheol ye go down, If together on the dust we may rest.
+
 ## Chapter 18
 
 <sup>1</sup> And Bildad the Shuhite answereth and saith:-
@@ -437,6 +454,7 @@
 <sup>19</sup> He hath no continuator, Nor successor among his people, And none is remaining in his dwellings.
 <sup>20</sup> At this day westerns have been astonished And easterns have taken fright.
 <sup>21</sup> Only these are tabernacles of the perverse, And this the place God hath not known.
+
 ## Chapter 19
 
 <sup>1</sup> And Job answereth and saith:-
@@ -468,6 +486,7 @@
 <sup>27</sup> Whom I-I see on my side, And mine eyes have beheld, and not a stranger, Consumed have been my reins in my bosom.
 <sup>28</sup> But ye say, ‘Why do we pursue after him?’ And the root of the matter hath been found in me.
 <sup>29</sup> Be ye afraid because of the sword, For furious are the punishments of the sword, That ye may know that there is a judgment.
+
 ## Chapter 20
 
 <sup>1</sup> And Zophar the Naamathite answereth and saith:-
@@ -499,6 +518,7 @@
 <sup>27</sup> Reveal do the heavens his iniquity, And earth is raising itself against him.
 <sup>28</sup> Remove doth the increase of his house, Poured forth in a day of His anger.
 <sup>29</sup> This is the portion of a wicked man from God. And an inheritance appointed him by God.
+
 ## Chapter 21
 
 <sup>1</sup> And Job answereth and saith:-
@@ -535,6 +555,7 @@
 <sup>32</sup> And he-to the graves he is brought. And over the heap a watch is kept.
 <sup>33</sup> Sweet to him have been the clods of the valley, And after him every man he draweth, And before him there is no numbering.
 <sup>34</sup> And how do ye comfort me with vanity, And in your answers hath been left trespass?
+
 ## Chapter 22
 
 <sup>1</sup> And Eliphaz the Temanite answereth and saith:-
@@ -567,6 +588,7 @@
 <sup>28</sup> And thou decreest a saying, And it is established to thee, And on thy ways hath light shone.
 <sup>29</sup> For they have made low, And thou sayest, ‘Lift up.’ And the bowed down of eyes he saveth.
 <sup>30</sup> He delivereth the not innocent, Yea, he hath been delivered By the cleanness of thy hands.
+
 ## Chapter 23
 
 <sup>1</sup> And Job answereth and saith:-
@@ -586,6 +608,7 @@
 <sup>15</sup> Therefore, from His presence I am troubled, I consider, and am afraid of Him.
 <sup>16</sup> And God hath made my heart soft, And the Mighty hath troubled me.
 <sup>17</sup> For I have not been cut off before darkness, And before me He covered thick darkness.
+
 ## Chapter 24
 
 <sup>1</sup> Wherefore from the Mighty One Times have not been hidden, And those knowing Him have not seen His days.
@@ -613,6 +636,7 @@
 <sup>23</sup> He giveth to him confidence, and he is supported, And his eyes are on their ways.
 <sup>24</sup> High they were for a little, and they are not, And they have been brought low. As all others they are shut up, And as the head of an ear of corn cut off.
 <sup>25</sup> And if not now, who doth prove me a liar, And doth make of nothing my word?
+
 ## Chapter 25
 
 <sup>1</sup> And Bildad the Shuhite answereth and saith:-
@@ -621,6 +645,7 @@
 <sup>4</sup> And what? is man righteous with God? And what? is he pure-born of a woman?
 <sup>5</sup> Lo-unto the moon, and it shineth not, And stars have not been pure in His eyes.
 <sup>6</sup> How much less man-a grub, And the son of man-a worm!
+
 ## Chapter 26
 
 <sup>1</sup> And Job answereth and saith:-
@@ -637,6 +662,7 @@
 <sup>12</sup> By His power He hath quieted the sea, And by His understanding smitten the proud.
 <sup>13</sup> By His Spirit the heavens He beautified, Formed hath His hand the fleeing serpent.
 <sup>14</sup> Lo, these are the borders of His way, And how little a matter is heard of Him, And the thunder of His might Who doth understand?
+
 ## Chapter 27
 
 <sup>1</sup> And Job addeth to lift up his simile, and saith:-
@@ -662,6 +688,7 @@
 <sup>21</sup> Take him up doth an east wind, and he goeth, And it frighteneth him from his place,
 <sup>22</sup> And it casteth at him, and doth not spare, From its hand he diligently fleeth.
 <sup>23</sup> It clappeth at him its hands, And it hisseth at him from his place.
+
 ## Chapter 28
 
 <sup>1</sup> Surely there is for silver a source, And a place for the gold they refine;
@@ -692,6 +719,7 @@
 <sup>26</sup> In His making for the rain a limit, And a way for the brightness of the voices,
 <sup>27</sup> Then He hath seen and declareth it, He hath prepared it, and also searched it out,
 <sup>28</sup> And He saith to man:- ‘Lo, fear of the Lord, that is wisdom, And to turn from evil is understanding.’
+
 ## Chapter 29
 
 <sup>1</sup> And Job addeth to lift up his simile, and saith:-
@@ -719,6 +747,7 @@
 <sup>23</sup> And they wait as for rain for me, And their mouth they have opened wide As for the latter rain.
 <sup>24</sup> I laugh unto them-they give no credence, And the light of my face cause not to fall.
 <sup>25</sup> I choose their way, and sit head, And I dwell as a king in a troop, When mourners he doth comfort.
+
 ## Chapter 30
 
 <sup>1</sup> And now, laughed at me, Have the younger in days than I, Whose fathers I have loathed to set With the dogs of my flock.
@@ -752,6 +781,7 @@
 <sup>29</sup> A brother I have been to dragons, And a companion to daughters of the ostrich.
 <sup>30</sup> My skin hath been black upon me, And my bone hath burned from heat,
 <sup>31</sup> And my harp doth become mourning, And my organ the sound of weeping.
+
 ## Chapter 31
 
 <sup>1</sup> A covenant I made for mine eyes, And what-do I attend to a virgin?
@@ -794,6 +824,7 @@
 <sup>38</sup> If against me my land doth cry out, And together its furrows weep,
 <sup>39</sup> If its strength I consumed without money, And the life of its possessors, I have caused to breathe out,
 <sup>40</sup> Instead of wheat let a thorn go forth, And instead of barley a useless weed! The words of Job are finished.
+
 ## Chapter 32
 
 <sup>1</sup> And these three men cease from answering Job, for he is righteous in his own eyes,
@@ -818,6 +849,7 @@
 <sup>20</sup> I speak, and there is refreshment to me, I open my lips and answer.
 <sup>21</sup> Let me not, I pray you, accept the face of any, Nor unto man give flattering titles,
 <sup>22</sup> For I have not known to give flattering titles, In a little doth my Maker take me away.
+
 ## Chapter 33
 
 <sup>1</sup> And yet, I pray thee, O Job, Hear my speech and to all my words give ear.
@@ -853,6 +885,7 @@
 <sup>31</sup> Attend, O Job, hearken to me, Keep silent, and I-I do speak.
 <sup>32</sup> If there are words-answer me, Speak, for I have a desire to justify thee.
 <sup>33</sup> If there are not-hearken thou to me, Keep silent, and I teach thee wisdom.
+
 ## Chapter 34
 
 <sup>1</sup> And Elihu answereth and saith:
@@ -892,6 +925,7 @@
 <sup>35</sup> Job-not with knowledge doth he speak, And his words are not with wisdom.
 <sup>36</sup> My Father! let Job be tried-unto victory, Because of answers for men of iniquity,
 <sup>37</sup> For he doth add to his sin, Transgression among us he vomiteth, And multiplieth his sayings to God.
+
 ## Chapter 35
 
 <sup>1</sup> And Elihu answereth and saith:-
@@ -910,6 +944,7 @@
 <sup>14</sup> Yea, though thou sayest thou dost not behold Him, Judgment is before Him, and stay for Him.
 <sup>15</sup> And, now, because there is not, He hath appointed His anger, And He hath not known in great extremity.
 <sup>16</sup> And Job with vanity doth open his mouth, Without knowledge words he multiplieth.
+
 ## Chapter 36
 
 <sup>1</sup> And Elihu addeth and saith:-
@@ -945,6 +980,7 @@
 <sup>31</sup> For by them He doth judge peoples, He giveth food in abundance.
 <sup>32</sup> By two palms He hath covered the light, And layeth a charge over it in meeting,
 <sup>33</sup> He sheweth by it to his friend substance, Anger against perversity.
+
 ## Chapter 37
 
 <sup>1</sup> Also, at this my heart trembleth, And it moveth from its place.
@@ -971,6 +1007,7 @@
 <sup>22</sup> From the golden north it cometh, Beside God is fearful honour.
 <sup>23</sup> The Mighty! we have not found Him out, High in power and judgment, He doth not answer! And abundant in righteousness,
 <sup>24</sup> Therefore do men fear Him, He seeth not any of the wise of heart.
+
 ## Chapter 38
 
 <sup>1</sup> And Jehovah answereth Job out of the whirlwind, and saith:-
@@ -1014,6 +1051,7 @@
 <sup>39</sup> Dost thou hunt for a lion prey? And the desire of young lions fulfil?
 <sup>40</sup> When they bow down in dens- Abide in a thicket for a covert?
 <sup>41</sup> Who doth prepare for a raven his provision, When his young ones cry unto God? They wander without food.
+
 ## Chapter 39
 
 <sup>1</sup> Hast thou known the time of The bearing of the wild goats of the rock? The bringing forth of hinds thou dost mark!
@@ -1046,6 +1084,7 @@
 <sup>28</sup> A rock he doth inhabit, Yea, he lodgeth on the tooth of a rock, and fortress.
 <sup>29</sup> From thence he hath sought food, To a far off place his eyes look attentively,
 <sup>30</sup> And his brood gulp up blood, And where the pierced are-there is he!
+
 ## Chapter 40
 
 <sup>1</sup> And Jehovah doth answer Job, and saith:-
@@ -1072,6 +1111,7 @@
 <sup>22</sup> Cover him do shades, with their shadow, Cover him do willows of the brook.
 <sup>23</sup> Lo, a flood oppresseth-he doth not haste, He is confident though Jordan Doth come forth unto his mouth.
 <sup>24</sup> Before his eyes doth one take him, With snares doth one pierce the nose?
+
 ## Chapter 41
 
 <sup>1</sup> Dost thou draw leviathan with an angle? And with a rope thou lettest down-his tongue?
@@ -1108,6 +1148,7 @@
 <sup>32</sup> After him he causeth a path to shine, One thinketh the deep to be hoary.
 <sup>33</sup> There is not on the earth his like, That is made without terror.
 <sup>34</sup> Every high thing he doth see, He is king over all sons of pride.
+
 ## Chapter 42
 
 <sup>1</sup> And Job answereth Jehovah and saith:-

@@ -17,24 +17,26 @@
 <sup>15</sup> And the priest shall bring it unto the altar, and wring off his head, and burn [it] on the altar; and the blood thereof shall be wrung out at the side of the altar:
 <sup>16</sup> And he shall pluck away his crop with his feathers, and cast it beside the altar on the east part, by the place of the ashes:
 <sup>17</sup> And he shall cleave it with the wings thereof, [but] shall not divide [it] asunder: and the priest shall burn it upon the altar, upon the wood that [is] upon the fire: it [is] a burnt sacrifice, an offering made by fire, of a sweet savour unto the LORD.
+
 ## Chapter 2
 
 <sup>1</sup> And when any will offer a meat offering unto the LORD, his offering shall be [of] fine flour; and he shall pour oil upon it, and put frankincense thereon:
 <sup>2</sup> And he shall bring it to Aaron’s sons the priests: and he shall take thereout his handful of the flour thereof, and of the oil thereof, with all the frankincense thereof; and the priest shall burn the memorial of it upon the altar, [to be] an offering made by fire, of a sweet savour unto the LORD:
-<sup>3</sup> And the remnant of the meat offering [shall be] Aaron’s and his sons ’: [it is] a thing most holy of the offerings of the LORD made by fire.
+<sup>3</sup> And the remnant of the meat offering [shall be] Aaron’s and his sons’: [it is] a thing most holy of the offerings of the LORD made by fire.
 <sup>4</sup> And if thou bring an oblation of a meat offering baken in the oven, [it shall be] unleavened cakes of fine flour mingled with oil, or unleavened wafers anointed with oil.
 <sup>5</sup> And if thy oblation [be] a meat offering [baken] in a pan, it shall be [of] fine flour unleavened, mingled with oil.
 <sup>6</sup> Thou shalt part it in pieces, and pour oil thereon: it [is] a meat offering.
 <sup>7</sup> And if thy oblation [be] a meat offering [baken] in the fryingpan, it shall be made [of] fine flour with oil.
 <sup>8</sup> And thou shalt bring the meat offering that is made of these things unto the LORD: and when it is presented unto the priest, he shall bring it unto the altar.
 <sup>9</sup> And the priest shall take from the meat offering a memorial thereof, and shall burn [it] upon the altar: [it is] an offering made by fire, of a sweet savour unto the LORD.
-<sup>10</sup> And that which is left of the meat offering [shall be] Aaron’s and his sons ’: [it is] a thing most holy of the offerings of the LORD made by fire.
+<sup>10</sup> And that which is left of the meat offering [shall be] Aaron’s and his sons’: [it is] a thing most holy of the offerings of the LORD made by fire.
 <sup>11</sup> No meat offering, which ye shall bring unto the LORD, shall be made with leaven: for ye shall burn no leaven, nor any honey, in any offering of the LORD made by fire.
 <sup>12</sup> As for the oblation of the firstfruits, ye shall offer them unto the LORD: but they shall not be burnt on the altar for a sweet savour.
 <sup>13</sup> And every oblation of thy meat offering shalt thou season with salt; neither shalt thou suffer the salt of the covenant of thy God to be lacking from thy meat offering: with all thine offerings thou shalt offer salt.
 <sup>14</sup> And if thou offer a meat offering of thy firstfruits unto the LORD, thou shalt offer for the meat offering of thy firstfruits green ears of corn dried by the fire, [even] corn beaten out of full ears.
 <sup>15</sup> And thou shalt put oil upon it, and lay frankincense thereon: it [is] a meat offering.
 <sup>16</sup> And the priest shall burn the memorial of it, [part] of the beaten corn thereof, and [part] of the oil thereof, with all the frankincense thereof: [it is] an offering made by fire unto the LORD.
+
 ## Chapter 3
 
 <sup>1</sup> And if his oblation [be] a sacrifice of peace offering, if he offer [it] of the herd; whether [it be] a male or female, he shall offer it without blemish before the LORD.
@@ -54,6 +56,7 @@
 <sup>15</sup> And the two kidneys, and the fat that [is] upon them, which [is] by the flanks, and the caul above the liver, with the kidneys, it shall he take away.
 <sup>16</sup> And the priest shall burn them upon the altar: [it is] the food of the offering made by fire for a sweet savour: all the fat [is] the LORD’S.
 <sup>17</sup> [It shall be] a perpetual statute for your generations throughout all your dwellings, that ye eat neither fat nor blood.
+
 ## Chapter 4
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -91,6 +94,7 @@
 <sup>33</sup> And he shall lay his hand upon the head of the sin offering, and slay it for a sin offering in the place where they kill the burnt offering.
 <sup>34</sup> And the priest shall take of the blood of the sin offering with his finger, and put [it] upon the horns of the altar of burnt offering, and shall pour out all the blood thereof at the bottom of the altar:
 <sup>35</sup> And he shall take away all the fat thereof, as the fat of the lamb is taken away from the sacrifice of the peace offerings; and the priest shall burn them upon the altar, according to the offerings made by fire unto the LORD: and the priest shall make an atonement for his sin that he hath committed, and it shall be forgiven him.
+
 ## Chapter 5
 
 <sup>1</sup> And if a soul sin, and hear the voice of swearing, and [is] a witness, whether he hath seen or known [of it]; if he do not utter [it], then he shall bear his iniquity.
@@ -112,6 +116,7 @@
 <sup>17</sup> And if a soul sin, and commit any of these things which are forbidden to be done by the commandments of the LORD; though he wist [it] not, yet is he guilty, and shall bear his iniquity.
 <sup>18</sup> And he shall bring a ram without blemish out of the flock, with thy estimation, for a trespass offering, unto the priest: and the priest shall make an atonement for him concerning his ignorance wherein he erred and wist [it] not, and it shall be forgiven him.
 <sup>19</sup> It [is] a trespass offering: he hath certainly trespassed against the LORD.
+
 ## Chapter 6
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -144,6 +149,7 @@
 <sup>28</sup> But the earthen vessel wherein it is sodden shall be broken: and if it be sodden in a brasen pot, it shall be both scoured, and rinsed in water.
 <sup>29</sup> All the males among the priests shall eat thereof: it [is] most holy.
 <sup>30</sup> And no sin offering, whereof [any] of the blood is brought into the tabernacle of the congregation to reconcile [withal] in the holy [place], shall be eaten: it shall be burnt in the fire.
+
 ## Chapter 7
 
 <sup>1</sup> Likewise this [is] the law of the trespass offering: it [is] most holy.
@@ -184,6 +190,7 @@
 <sup>36</sup> Which the LORD commanded to be given them of the children of Israel, in the day that he anointed them, [by] a statute for ever throughout their generations.
 <sup>37</sup> This [is] the law of the burnt offering, of the meat offering, and of the sin offering, and of the trespass offering, and of the consecrations, and of the sacrifice of the peace offerings;
 <sup>38</sup> Which the LORD commanded Moses in mount Sinai, in the day that he commanded the children of Israel to offer their oblations unto the LORD, in the wilderness of Sinai.
+
 ## Chapter 8
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -212,16 +219,17 @@
 <sup>24</sup> And he brought Aaron’s sons, and Moses put of the blood upon the tip of their right ear, and upon the thumbs of their right hands, and upon the great toes of their right feet: and Moses sprinkled the blood upon the altar round about.
 <sup>25</sup> And he took the fat, and the rump, and all the fat that [was] upon the inwards, and the caul [above] the liver, and the two kidneys, and their fat, and the right shoulder:
 <sup>26</sup> And out of the basket of unleavened bread, that [was] before the LORD, he took one unleavened cake, and a cake of oiled bread, and one wafer, and put [them] on the fat, and upon the right shoulder:
-<sup>27</sup> And he put all upon Aaron’s hands, and upon his sons ’ hands, and waved them [for] a wave offering before the LORD.
+<sup>27</sup> And he put all upon Aaron’s hands, and upon his sons’ hands, and waved them [for] a wave offering before the LORD.
 <sup>28</sup> And Moses took them from off their hands, and burnt [them] on the altar upon the burnt offering: they [were] consecrations for a sweet savour: it [is] an offering made by fire unto the LORD.
-<sup>29</sup> And Moses took the breast, and waved it [for] a wave offering before the LORD: [for] of the ram of consecration it was Moses ’ part; as the LORD commanded Moses.
-<sup>30</sup> And Moses took of the anointing oil, and of the blood which [was] upon the altar, and sprinkled [it] upon Aaron, [and] upon his garments, and upon his sons, and upon his sons ’ garments with him; and sanctified Aaron, [and] his garments, and his sons, and his sons ’ garments with him.
+<sup>29</sup> And Moses took the breast, and waved it [for] a wave offering before the LORD: [for] of the ram of consecration it was Moses’ part; as the LORD commanded Moses.
+<sup>30</sup> And Moses took of the anointing oil, and of the blood which [was] upon the altar, and sprinkled [it] upon Aaron, [and] upon his garments, and upon his sons, and upon his sons’ garments with him; and sanctified Aaron, [and] his garments, and his sons, and his sons’ garments with him.
 <sup>31</sup> And Moses said unto Aaron and to his sons, Boil the flesh [at] the door of the tabernacle of the congregation: and there eat it with the bread that [is] in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it.
 <sup>32</sup> And that which remaineth of the flesh and of the bread shall ye burn with fire.
 <sup>33</sup> And ye shall not go out of the door of the tabernacle of the congregation [in] seven days, until the days of your consecration be at an end: for seven days shall he consecrate you.
 <sup>34</sup> As he hath done this day, [so] the LORD hath commanded to do, to make an atonement for you.
 <sup>35</sup> Therefore shall ye abide [at] the door of the tabernacle of the congregation day and night seven days, and keep the charge of the LORD, that ye die not: for so I am commanded.
 <sup>36</sup> So Aaron and his sons did all things which the LORD commanded by the hand of Moses.
+
 ## Chapter 9
 
 <sup>1</sup> And it came to pass on the eighth day, [that] Moses called Aaron and his sons, and the elders of Israel;
@@ -248,6 +256,7 @@
 <sup>22</sup> And Aaron lifted up his hand toward the people, and blessed them, and came down from offering of the sin offering, and the burnt offering, and peace offerings.
 <sup>23</sup> And Moses and Aaron went into the tabernacle of the congregation, and came out, and blessed the people: and the glory of the LORD appeared unto all the people.
 <sup>24</sup> And there came a fire out from before the LORD, and consumed upon the altar the burnt offering and the fat: [which] when all the people saw, they shouted, and fell on their faces.
+
 ## Chapter 10
 
 <sup>1</sup> And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not.
@@ -262,14 +271,15 @@
 <sup>10</sup> And that ye may put difference between holy and unholy, and between unclean and clean;
 <sup>11</sup> And that ye may teach the children of Israel all the statutes which the LORD hath spoken unto them by the hand of Moses.
 <sup>12</sup> And Moses spake unto Aaron, and unto Eleazar and unto Ithamar, his sons that were left, Take the meat offering that remaineth of the offerings of the LORD made by fire, and eat it without leaven beside the altar: for it [is] most holy:
-<sup>13</sup> And ye shall eat it in the holy place, because it [is] thy due, and thy sons ’ due, of the sacrifices of the LORD made by fire: for so I am commanded.
-<sup>14</sup> And the wave breast and heave shoulder shall ye eat in a clean place; thou, and thy sons, and thy daughters with thee: for [they be] thy due, and thy sons ’ due, [which] are given out of the sacrifices of peace offerings of the children of Israel.
-<sup>15</sup> The heave shoulder and the wave breast shall they bring with the offerings made by fire of the fat, to wave [it for] a wave offering before the LORD; and it shall be thine, and thy sons ’ with thee, by a statute for ever; as the LORD hath commanded.
+<sup>13</sup> And ye shall eat it in the holy place, because it [is] thy due, and thy sons’ due, of the sacrifices of the LORD made by fire: for so I am commanded.
+<sup>14</sup> And the wave breast and heave shoulder shall ye eat in a clean place; thou, and thy sons, and thy daughters with thee: for [they be] thy due, and thy sons’ due, [which] are given out of the sacrifices of peace offerings of the children of Israel.
+<sup>15</sup> The heave shoulder and the wave breast shall they bring with the offerings made by fire of the fat, to wave [it for] a wave offering before the LORD; and it shall be thine, and thy sons’ with thee, by a statute for ever; as the LORD hath commanded.
 <sup>16</sup> And Moses diligently sought the goat of the sin offering, and, behold, it was burnt: and he was angry with Eleazar and Ithamar, the sons of Aaron [which were] left [alive], saying,
 <sup>17</sup> Wherefore have ye not eaten the sin offering in the holy place, seeing it [is] most holy, and [God] hath given it you to bear the iniquity of the congregation, to make atonement for them before the LORD?
 <sup>18</sup> Behold, the blood of it was not brought in within the holy [place]: ye should indeed have eaten it in the holy [place], as I commanded.
 <sup>19</sup> And Aaron said unto Moses, Behold, this day have they offered their sin offering and their burnt offering before the LORD; and such things have befallen me: and [if] I had eaten the sin offering to day, should it have been accepted in the sight of the LORD?
 <sup>20</sup> And when Moses heard [that], he was content.
+
 ## Chapter 11
 
 <sup>1</sup> And the LORD spake unto Moses and to Aaron, saying unto them,
@@ -319,6 +329,7 @@
 <sup>45</sup> For I [am] the LORD that bringeth you up out of the land of Egypt, to be your God: ye shall therefore be holy, for I [am] holy.
 <sup>46</sup> This [is] the law of the beasts, and of the fowl, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth:
 <sup>47</sup> To make a difference between the unclean and the clean, and between the beast that may be eaten and the beast that may not be eaten.
+
 ## Chapter 12
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -329,6 +340,7 @@
 <sup>6</sup> And when the days of her purifying are fulfilled, for a son, or for a daughter, she shall bring a lamb of the first year for a burnt offering, and a young pigeon, or a turtledove, for a sin offering, unto the door of the tabernacle of the congregation, unto the priest:
 <sup>7</sup> Who shall offer it before the LORD, and make an atonement for her; and she shall be cleansed from the issue of her blood. This [is] the law for her that hath born a male or a female.
 <sup>8</sup> And if she be not able to bring a lamb, then she shall bring two turtles, or two young pigeons; the one for the burnt offering, and the other for a sin offering: and the priest shall make an atonement for her, and she shall be clean.
+
 ## Chapter 13
 
 <sup>1</sup> And the LORD spake unto Moses and Aaron, saying,
@@ -390,6 +402,7 @@
 <sup>57</sup> And if it appear still in the garment, either in the warp, or in the woof, or in any thing of skin; it [is] a spreading [plague]: thou shalt burn that wherein the plague [is] with fire.
 <sup>58</sup> And the garment, either warp, or woof, or whatsoever thing of skin [it be], which thou shalt wash, if the plague be departed from them, then it shall be washed the second time, and shall be clean.
 <sup>59</sup> This [is] the law of the plague of leprosy in a garment of woollen or linen, either in the warp, or woof, or any thing of skins, to pronounce it clean, or to pronounce it unclean.
+
 ## Chapter 14
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -449,6 +462,7 @@
 <sup>55</sup> And for the leprosy of a garment, and of a house,
 <sup>56</sup> And for a rising, and for a scab, and for a bright spot:
 <sup>57</sup> To teach when [it is] unclean, and when [it is] clean: this [is] the law of leprosy.
+
 ## Chapter 15
 
 <sup>1</sup> And the LORD spake unto Moses and to Aaron, saying,
@@ -484,6 +498,7 @@
 <sup>31</sup> Thus shall ye separate the children of Israel from their uncleanness; that they die not in their uncleanness, when they defile my tabernacle that [is] among them.
 <sup>32</sup> This [is] the law of him that hath an issue, and [of him] whose seed goeth from him, and is defiled therewith;
 <sup>33</sup> And of her that is sick of her flowers, and of him that hath an issue, of the man, and of the woman, and of him that lieth with her that is unclean.
+
 ## Chapter 16
 
 <sup>1</sup> And the LORD spake unto Moses after the death of the two sons of Aaron, when they offered before the LORD, and died;
@@ -520,6 +535,7 @@
 <sup>32</sup> And the priest, whom he shall anoint, and whom he shall consecrate to minister in the priest’s office in his father’s stead, shall make the atonement, and shall put on the linen clothes, [even] the holy garments:
 <sup>33</sup> And he shall make an atonement for the holy sanctuary, and he shall make an atonement for the tabernacle of the congregation, and for the altar, and he shall make an atonement for the priests, and for all the people of the congregation.
 <sup>34</sup> And this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the LORD commanded Moses.
+
 ## Chapter 17
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -538,6 +554,7 @@
 <sup>14</sup> For [it is] the life of all flesh; the blood of it [is] for the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh: for the life of all flesh [is] the blood thereof: whosoever eateth it shall be cut off.
 <sup>15</sup> And every soul that eateth that which died [of itself], or that which was torn [with beasts, whether it be] one of your own country, or a stranger, he shall both wash his clothes, and bathe [himself] in water, and be unclean until the even: then shall he be clean.
 <sup>16</sup> But if he wash [them] not, nor bathe his flesh; then he shall bear his iniquity.
+
 ## Chapter 18
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -570,6 +587,7 @@
 <sup>28</sup> That the land spue not you out also, when ye defile it, as it spued out the nations that [were] before you.
 <sup>29</sup> For whosoever shall commit any of these abominations, even the souls that commit [them] shall be cut off from among their people.
 <sup>30</sup> Therefore shall ye keep mine ordinance, that [ye] commit not [any one] of these abominable customs, which were committed before you, and that ye defile not yourselves therein: I [am] the LORD your God.
+
 ## Chapter 19
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -609,6 +627,7 @@
 <sup>35</sup> Ye shall do no unrighteousness in judgment, in meteyard, in weight, or in measure.
 <sup>36</sup> Just balances, just weights, a just ephah, and a just hin, shall ye have: I [am] the LORD your God, which brought you out of the land of Egypt.
 <sup>37</sup> Therefore shall ye observe all my statutes, and all my judgments, and do them: I [am] the LORD.
+
 ## Chapter 20
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -638,6 +657,7 @@
 <sup>25</sup> Ye shall therefore put difference between clean beasts and unclean, and between unclean fowls and clean: and ye shall not make your souls abominable by beast, or by fowl, or by any manner of living thing that creepeth on the ground, which I have separated from you as unclean.
 <sup>26</sup> And ye shall be holy unto me: for I the LORD [am] holy, and have severed you from [other] people, that ye should be mine.
 <sup>27</sup> A man also or woman that hath a familiar spirit, or that is a wizard, shall surely be put to death: they shall stone them with stones: their blood [shall be] upon them.
+
 ## Chapter 21
 
 <sup>1</sup> And the LORD said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people:
@@ -664,6 +684,7 @@
 <sup>22</sup> He shall eat the bread of his God, [both] of the most holy, and of the holy.
 <sup>23</sup> Only he shall not go in unto the vail, nor come nigh unto the altar, because he hath a blemish; that he profane not my sanctuaries: for I the LORD do sanctify them.
 <sup>24</sup> And Moses told [it] unto Aaron, and to his sons, and unto all the children of Israel.
+
 ## Chapter 22
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -699,6 +720,7 @@
 <sup>31</sup> Therefore shall ye keep my commandments, and do them: I [am] the LORD.
 <sup>32</sup> Neither shall ye profane my holy name; but I will be hallowed among the children of Israel: I [am] the LORD which hallow you,
 <sup>33</sup> That brought you out of the land of Egypt, to be your God: I [am] the LORD.
+
 ## Chapter 23
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -745,6 +767,7 @@
 <sup>42</sup> Ye shall dwell in booths seven days; all that are Israelites born shall dwell in booths:
 <sup>43</sup> That your generations may know that I made the children of Israel to dwell in booths, when I brought them out of the land of Egypt: I [am] the LORD your God.
 <sup>44</sup> And Moses declared unto the children of Israel the feasts of the LORD.
+
 ## Chapter 24
 
 <sup>1</sup> And the LORD spake unto Moses, saying,
@@ -755,7 +778,7 @@
 <sup>6</sup> And thou shalt set them in two rows, six on a row, upon the pure table before the LORD.
 <sup>7</sup> And thou shalt put pure frankincense upon [each] row, that it may be on the bread for a memorial, [even] an offering made by fire unto the LORD.
 <sup>8</sup> Every sabbath he shall set it in order before the LORD continually, [being taken] from the children of Israel by an everlasting covenant.
-<sup>9</sup> And it shall be Aaron’s and his sons ’; and they shall eat it in the holy place: for it [is] most holy unto him of the offerings of the LORD made by fire by a perpetual statute.
+<sup>9</sup> And it shall be Aaron’s and his sons’; and they shall eat it in the holy place: for it [is] most holy unto him of the offerings of the LORD made by fire by a perpetual statute.
 <sup>10</sup> And the son of an Israelitish woman, whose father [was] an Egyptian, went out among the children of Israel: and this son of the Israelitish [woman] and a man of Israel strove together in the camp;
 <sup>11</sup> And the Israelitish woman’s son blasphemed the name [of the LORD], and cursed. And they brought him unto Moses: (and his mother’s name [was] Shelomith, the daughter of Dibri, of the tribe of Dan:)
 <sup>12</sup> And they put him in ward, that the mind of the LORD might be shewed them.
@@ -770,6 +793,7 @@
 <sup>21</sup> And he that killeth a beast, he shall restore it: and he that killeth a man, he shall be put to death.
 <sup>22</sup> Ye shall have one manner of law, as well for the stranger, as for one of your own country: for I [am] the LORD your God.
 <sup>23</sup> And Moses spake to the children of Israel, that they should bring forth him that had cursed out of the camp, and stone him with stones. And the children of Israel did as the LORD commanded Moses.
+
 ## Chapter 25
 
 <sup>1</sup> And the LORD spake unto Moses in mount Sinai, saying,
@@ -827,6 +851,7 @@
 <sup>53</sup> [And] as a yearly hired servant shall he be with him: [and the other] shall not rule with rigour over him in thy sight.
 <sup>54</sup> And if he be not redeemed in these [years], then he shall go out in the year of jubile, [both] he, and his children with him.
 <sup>55</sup> For unto me the children of Israel [are] servants; they [are] my servants whom I brought forth out of the land of Egypt: I [am] the LORD your God.
+
 ## Chapter 26
 
 <sup>1</sup> Ye shall make you no idols nor graven image, neither rear you up a standing image, neither shall ye set up [any] image of stone in your land, to bow down unto it: for I [am] the LORD your God.
@@ -862,12 +887,12 @@
 <sup>31</sup> And I will make your cities waste, and bring your sanctuaries unto desolation, and I will not smell the savour of your sweet odours.
 <sup>32</sup> And I will bring the land into desolation: and your enemies which dwell therein shall be astonished at it.
 <sup>33</sup> And I will scatter you among the heathen, and will draw out a sword after you: and your land shall be desolate, and your cities waste.
-<sup>34</sup> Then shall the land enjoy her sabbaths, as long as it lieth desolate, and ye [be] in your enemies ’ land; [even] then shall the land rest, and enjoy her sabbaths.
+<sup>34</sup> Then shall the land enjoy her sabbaths, as long as it lieth desolate, and ye [be] in your enemies’ land; [even] then shall the land rest, and enjoy her sabbaths.
 <sup>35</sup> As long as it lieth desolate it shall rest; because it did not rest in your sabbaths, when ye dwelt upon it.
 <sup>36</sup> And upon them that are left [alive] of you I will send a faintness into their hearts in the lands of their enemies; and the sound of a shaken leaf shall chase them; and they shall flee, as fleeing from a sword; and they shall fall when none pursueth.
 <sup>37</sup> And they shall fall one upon another, as it were before a sword, when none pursueth: and ye shall have no power to stand before your enemies.
 <sup>38</sup> And ye shall perish among the heathen, and the land of your enemies shall eat you up.
-<sup>39</sup> And they that are left of you shall pine away in their iniquity in your enemies ’ lands; and also in the iniquities of their fathers shall they pine away with them.
+<sup>39</sup> And they that are left of you shall pine away in their iniquity in your enemies’ lands; and also in the iniquities of their fathers shall they pine away with them.
 <sup>40</sup> If they shall confess their iniquity, and the iniquity of their fathers, with their trespass which they trespassed against me, and that also they have walked contrary unto me;
 <sup>41</sup> And [that] I also have walked contrary unto them, and have brought them into the land of their enemies; if then their uncircumcised hearts be humbled, and they then accept of the punishment of their iniquity:
 <sup>42</sup> Then will I remember my covenant with Jacob, and also my covenant with Isaac, and also my covenant with Abraham will I remember; and I will remember the land.
@@ -875,6 +900,7 @@
 <sup>44</sup> And yet for all that, when they be in the land of their enemies, I will not cast them away, neither will I abhor them, to destroy them utterly, and to break my covenant with them: for I [am] the LORD their God.
 <sup>45</sup> But I will for their sakes remember the covenant of their ancestors, whom I brought forth out of the land of Egypt in the sight of the heathen, that I might be their God: I [am] the LORD.
 <sup>46</sup> These [are] the statutes and judgments and laws, which the LORD made between him and the children of Israel in mount Sinai by the hand of Moses.
+
 ## Chapter 27
 
 <sup>1</sup> And the LORD spake unto Moses, saying,

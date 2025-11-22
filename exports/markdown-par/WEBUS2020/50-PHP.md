@@ -81,6 +81,7 @@
 <sup>28</sup> I have sent him therefore the more diligently, that when you see him again, you may rejoice, and that I may be the less sorrowful.
 <sup>29</sup> Receive him therefore in the Lord with all joy, and hold such people in honor,
 <sup>30</sup> because for the work of Christ he came near to death, risking his life to supply that which was lacking in your service toward me.
+
 ## Chapter 3
 
 <sup>1</sup> Finally, my brothers, rejoice in the Lord! To write the same things to you, to me indeed is not tiresome, but for you it is safe.
@@ -108,6 +109,7 @@
 <sup>19</sup> whose end is destruction, whose god is the belly, and whose glory is in their shame, who think about earthly things.
 <sup>20</sup> For our citizenship is in heaven, from where we also wait for a Savior, the Lord Jesus Christ,
 <sup>21</sup> who will change the body of our humiliation to be conformed to the body of his glory, according to the working by which he is able even to subject all things to himself.
+
 ## Chapter 4
 
 <sup>1</sup> Therefore, my brothers, beloved and longed for, my joy and crown, stand firm in the Lord in this way, my beloved.

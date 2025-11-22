@@ -26,7 +26,13 @@
 
 <sup>20</sup> He declared, and didn’t deny, but he declared, “I am not the Christ.”
 
-<sup>21</sup> They asked him, “What then? Are you Elijah?” He said, “I am not.” “Are you the prophet?” He answered, “No.”
+<sup>21</sup> They asked him, “What then? Are you Elijah?”
+
+He said, “I am not.”
+
+“Are you the prophet?”
+
+He answered, “No.”
 
 <sup>22</sup> They said therefore to him, “Who are you? Give us an answer to take back to those who sent us. What do you say about yourself?”
 
@@ -49,9 +55,13 @@
 <sup>35</sup> Again, the next day, John was standing with two of his disciples,
 <sup>36</sup> and he looked at Jesus as he walked, and said, “Behold, the Lamb of God!”
 <sup>37</sup> The two disciples heard him speak, and they followed Jesus.
-<sup>38</sup> Jesus turned and saw them following, and said to them, “What are you looking for?” They said to him, “Rabbi” (which is to say, being interpreted, Teacher), “where are you staying?”
+<sup>38</sup> Jesus turned and saw them following, and said to them, “What are you looking for?”
 
-<sup>39</sup> He said to them, “Come and see.” They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.<sup>h</sup>
+They said to him, “Rabbi” (which is to say, being interpreted, Teacher), “where are you staying?”
+
+<sup>39</sup> He said to them, “Come and see.”
+
+They came and saw where he was staying, and they stayed with him that day. It was about the tenth hour.<sup>h</sup>
 <sup>40</sup> One of the two who heard John and followed him was Andrew, Simon Peter’s brother.
 <sup>41</sup> He first found his own brother, Simon, and said to him, “We have found the Messiah!” (which is, being interpreted, Christ<sup>i</sup>).
 <sup>42</sup> He brought him to Jesus. Jesus looked at him and said, “You are Simon the son of Jonah. You shall be called Cephas” (which is by interpretation, Peter).<sup>j</sup>
@@ -60,11 +70,15 @@
 <sup>44</sup> Now Philip was from Bethsaida, the city of Andrew and Peter.
 <sup>45</sup> Philip found Nathanael, and said to him, “We have found him of whom Moses in the law and also the prophets, wrote: Jesus of Nazareth, the son of Joseph.”
 
-<sup>46</sup> Nathanael said to him, “Can any good thing come out of Nazareth?” Philip said to him, “Come and see.”
+<sup>46</sup> Nathanael said to him, “Can any good thing come out of Nazareth?”
+
+Philip said to him, “Come and see.”
 
 <sup>47</sup> Jesus saw Nathanael coming to him, and said about him, “Behold, an Israelite indeed, in whom is no deceit!”
 
-<sup>48</sup> Nathanael said to him, “How do you know me?” Jesus answered him, “Before Philip called you, when you were under the fig tree, I saw you.”
+<sup>48</sup> Nathanael said to him, “How do you know me?”
+
+Jesus answered him, “Before Philip called you, when you were under the fig tree, I saw you.”
 
 <sup>49</sup> Nathanael answered him, “Rabbi, you are the Son of God! You are King of Israel!”
 
@@ -200,7 +214,9 @@
 
 <sup>16</sup> Jesus said to her, “Go, call your husband, and come here.”
 
-<sup>17</sup> The woman answered, “I have no husband.” Jesus said to her, “You said well, ‘I have no husband,’
+<sup>17</sup> The woman answered, “I have no husband.”
+
+Jesus said to her, “You said well, ‘I have no husband,’
 <sup>18</sup> for you have had five husbands; and he whom you now have is not your husband. This you have said truly.”
 
 <sup>19</sup> The woman said to him, “Sir, I perceive that you are a prophet.
@@ -269,10 +285,12 @@
 
 <sup>8</sup> Jesus said to him, “Arise, take up your mat, and walk.”
 
-<sup>9</sup> Immediately, the man was made well, and took up his mat and walked. Now that day was a Sabbath.
+<sup>9</sup> Immediately, the man was made well, and took up his mat and walked.
+
+Now that day was a Sabbath.
 <sup>10</sup> So the Jews said to him who was cured, “It is the Sabbath. It is not lawful for you to carry the mat.”
 
-<sup>11</sup> He answered them, “He who made me well said to me, ‘Take up your mat and walk.’”
+<sup>11</sup> He answered them, “He who made me well said to me, ‘Take up your mat and walk.’ ”
 
 <sup>12</sup> Then they asked him, “Who is the man who said to you, ‘Take up your mat and walk’?”
 
@@ -510,14 +528,18 @@
 <sup>3</sup> The scribes and the Pharisees brought a woman taken in adultery. Having set her in the middle,
 <sup>4</sup> they told him, “Teacher, we found this woman in adultery, in the very act.
 <sup>5</sup> Now in our law, Moses commanded us to stone such women.<sup>a</sup> What then do you say about her?”
-<sup>6</sup> They said this testing him, that they might have something to accuse him of. But Jesus stooped down and wrote on the ground with his finger.
+<sup>6</sup> They said this testing him, that they might have something to accuse him of.
+
+But Jesus stooped down and wrote on the ground with his finger.
 <sup>7</sup> But when they continued asking him, he looked up and said to them, “He who is without sin among you, let him throw the first stone at her.”
 <sup>8</sup> Again he stooped down and wrote on the ground with his finger.
 
 <sup>9</sup> They, when they heard it, being convicted by their conscience, went out one by one, beginning from the oldest, even to the last. Jesus was left alone with the woman where she was, in the middle.
 <sup>10</sup> Jesus, standing up, saw her and said, “Woman, where are your accusers? Did no one condemn you?”
 
-<sup>11</sup> She said, “No one, Lord.” Jesus said, “Neither do I condemn you. Go your way. From now on, sin no more.”<sup>b</sup>
+<sup>11</sup> She said, “No one, Lord.”
+
+Jesus said, “Neither do I condemn you. Go your way. From now on, sin no more.”<sup>b</sup>
 
 <sup>12</sup> Again, therefore, Jesus spoke to them, saying, “I am the light of the world.<sup>c</sup> He who follows me will not walk in the darkness, but will have the light of life.”
 
@@ -529,7 +551,9 @@
 <sup>17</sup> It’s also written in your law that the testimony of two people is valid.<sup>d</sup>
 <sup>18</sup> I am one who testifies about myself, and the Father who sent me testifies about me.”
 
-<sup>19</sup> They said therefore to him, “Where is your Father?” Jesus answered, “You know neither me nor my Father. If you knew me, you would know my Father also.”
+<sup>19</sup> They said therefore to him, “Where is your Father?”
+
+Jesus answered, “You know neither me nor my Father. If you knew me, you would know my Father also.”
 <sup>20</sup> Jesus spoke these words in the treasury, as he taught in the temple. Yet no one arrested him, because his hour had not yet come.
 <sup>21</sup> Jesus said therefore again to them, “I am going away, and you will seek me, and you will die in your sins. Where I go, you can’t come.”
 
@@ -538,7 +562,9 @@
 <sup>23</sup> He said to them, “You are from beneath. I am from above. You are of this world. I am not of this world.
 <sup>24</sup> I said therefore to you that you will die in your sins; for unless you believe that I am<sup>e</sup> he, you will die in your sins.”
 
-<sup>25</sup> They said therefore to him, “Who are you?” Jesus said to them, “Just what I have been saying to you from the beginning.
+<sup>25</sup> They said therefore to him, “Who are you?”
+
+Jesus said to them, “Just what I have been saying to you from the beginning.
 <sup>26</sup> I have many things to speak and to judge concerning you. However, he who sent me is true; and the things which I heard from him, these I say to the world.”
 
 <sup>27</sup> They didn’t understand that he spoke to them about the Father.
@@ -557,9 +583,13 @@
 <sup>37</sup> I know that you are Abraham’s offspring, yet you seek to kill me, because my word finds no place in you.
 <sup>38</sup> I say the things which I have seen with my Father; and you also do the things which you have seen with your father.”
 
-<sup>39</sup> They answered him, “Our father is Abraham.” Jesus said to them, “If you were Abraham’s children, you would do the works of Abraham.
+<sup>39</sup> They answered him, “Our father is Abraham.”
+
+Jesus said to them, “If you were Abraham’s children, you would do the works of Abraham.
 <sup>40</sup> But now you seek to kill me, a man who has told you the truth which I heard from God. Abraham didn’t do this.
-<sup>41</sup> You do the works of your father.” They said to him, “We were not born of sexual immorality. We have one Father, God.”
+<sup>41</sup> You do the works of your father.”
+
+They said to him, “We were not born of sexual immorality. We have one Father, God.”
 
 <sup>42</sup> Therefore Jesus said to them, “If God were your father, you would love me, for I came out and have come from God. For I haven’t come of myself, but he sent me.
 <sup>43</sup> Why don’t you understand my speech? Because you can’t hear my word.
@@ -583,7 +613,7 @@
 
 <sup>57</sup> The Jews therefore said to him, “You are not yet fifty years old! Have you seen Abraham?”
 
-<sup>58</sup> Jesus said to them, “Most certainly, I tell you, before Abraham came into existence, I AM.<sup>g</sup> ”
+<sup>58</sup> Jesus said to them, “Most certainly, I tell you, before Abraham came into existence, I AM.<sup>g</sup>”
 
 <sup>59</sup> Therefore they took up stones to throw at him, but Jesus hid himself and went out of the temple, having gone through the middle of them, and so passed by.
 
@@ -607,21 +637,29 @@
 <sup>7</sup> and said to him, “Go, wash in the pool of Siloam” (which means “Sent”). So he went away, washed, and came back seeing.
 
 <sup>8</sup> Therefore the neighbors and those who saw that he was blind before said, “Isn’t this he who sat and begged?”
-<sup>9</sup> Others were saying, “It is he.” Still others were saying, “He looks like him.” He said, “I am he.”
+<sup>9</sup> Others were saying, “It is he.” Still others were saying, “He looks like him.”
+
+He said, “I am he.”
 
 <sup>10</sup> They therefore were asking him, “How were your eyes opened?”
 
 <sup>11</sup> He answered, “A man called Jesus made mud, anointed my eyes, and said to me, ‘Go to the pool of Siloam and wash.’ So I went away and washed, and I received sight.”
 
-<sup>12</sup> Then they asked him, “Where is he?” He said, “I don’t know.”
+<sup>12</sup> Then they asked him, “Where is he?”
+
+He said, “I don’t know.”
 
 <sup>13</sup> They brought him who had been blind to the Pharisees.
 <sup>14</sup> It was a Sabbath when Jesus made the mud and opened his eyes.
 <sup>15</sup> Again therefore the Pharisees also asked him how he received his sight. He said to them, “He put mud on my eyes, I washed, and I see.”
 
-<sup>16</sup> Some therefore of the Pharisees said, “This man is not from God, because he doesn’t keep the Sabbath.” Others said, “How can a man who is a sinner do such signs?” So there was division among them.
+<sup>16</sup> Some therefore of the Pharisees said, “This man is not from God, because he doesn’t keep the Sabbath.”
 
-<sup>17</sup> Therefore they asked the blind man again, “What do you say about him, because he opened your eyes?” He said, “He is a prophet.”
+Others said, “How can a man who is a sinner do such signs?” So there was division among them.
+
+<sup>17</sup> Therefore they asked the blind man again, “What do you say about him, because he opened your eyes?”
+
+He said, “He is a prophet.”
 
 <sup>18</sup> The Jews therefore didn’t believe concerning him, that he had been blind and had received his sight, until they called the parents of him who had received his sight,
 <sup>19</sup> and asked them, “Is this your son, whom you say was born blind? How then does he now see?”
@@ -776,7 +814,9 @@
 <sup>32</sup> Therefore when Mary came to where Jesus was and saw him, she fell down at his feet, saying to him, “Lord, if you would have been here, my brother wouldn’t have died.”
 
 <sup>33</sup> When Jesus therefore saw her weeping, and the Jews weeping who came with her, he groaned in the spirit and was troubled,
-<sup>34</sup> and said, “Where have you laid him?” They told him, “Lord, come and see.”
+<sup>34</sup> and said, “Where have you laid him?”
+
+They told him, “Lord, come and see.”
 
 <sup>35</sup> Jesus wept.
 
@@ -784,7 +824,9 @@
 <sup>37</sup> Some of them said, “Couldn’t this man, who opened the eyes of him who was blind, have also kept this man from dying?”
 
 <sup>38</sup> Jesus therefore, again groaning in himself, came to the tomb. Now it was a cave, and a stone lay against it.
-<sup>39</sup> Jesus said, “Take away the stone.” Martha, the sister of him who was dead, said to him, “Lord, by this time there is a stench, for he has been dead four days.”
+<sup>39</sup> Jesus said, “Take away the stone.”
+
+Martha, the sister of him who was dead, said to him, “Lord, by this time there is a stench, for he has been dead four days.”
 
 <sup>40</sup> Jesus said to her, “Didn’t I tell you that if you believed, you would see God’s glory?”
 
@@ -792,7 +834,9 @@
 <sup>42</sup> I know that you always listen to me, but because of the multitude standing around I said this, that they may believe that you sent me.”
 <sup>43</sup> When he had said this, he cried with a loud voice, “Lazarus, come out!”
 
-<sup>44</sup> He who was dead came out, bound hand and foot with wrappings, and his face was wrapped around with a cloth. Jesus said to them, “Free him, and let him go.”
+<sup>44</sup> He who was dead came out, bound hand and foot with wrappings, and his face was wrapped around with a cloth.
+
+Jesus said to them, “Free him, and let him go.”
 
 <sup>45</sup> Therefore many of the Jews who came to Mary and saw what Jesus did believed in him.
 <sup>46</sup> But some of them went away to the Pharisees and told them the things which Jesus had done.
@@ -851,7 +895,9 @@
 <sup>26</sup> If anyone serves me, let him follow me. Where I am, there my servant will also be. If anyone serves me, the Father will honor him.
 
 <sup>27</sup> “Now my soul is troubled. What shall I say? ‘Father, save me from this time’? But I came to this time for this cause.
-<sup>28</sup> Father, glorify your name!” Then a voice came out of the sky, saying, “I have both glorified it and will glorify it again.”
+<sup>28</sup> Father, glorify your name!”
+
+Then a voice came out of the sky, saying, “I have both glorified it and will glorify it again.”
 
 <sup>29</sup> Therefore the multitude who stood by and heard it said that it had thundered. Others said, “An angel has spoken to him.”
 
@@ -867,7 +913,7 @@
 <sup>37</sup> But though he had done so many signs before them, yet they didn’t believe in him,
 <sup>38</sup> that the word of Isaiah the prophet might be fulfilled, which he spoke:<br>“Lord, who has believed our report?<br>To whom has the arm of the Lord been revealed?”<sup>g</sup>
 
-<sup>39</sup> For this cause they couldn’t believe, for Isaiah said again:<br>
+<sup>39</sup> For this cause they couldn’t believe, for Isaiah said again:
 <sup>40</sup> “He has blinded their eyes and he hardened their heart,<br>lest they should see with their eyes,<br>and perceive with their heart,<br>and would turn,<br>and I would heal them.”<sup>h</sup>
 
 <sup>41</sup> Isaiah said these things when he saw his glory, and spoke of him.<sup>i</sup>
@@ -903,7 +949,9 @@
 
 <sup>7</sup> Jesus answered him, “You don’t know what I am doing now, but you will understand later.”
 
-<sup>8</sup> Peter said to him, “You will never wash my feet!” Jesus answered him, “If I don’t wash you, you have no part with me.”
+<sup>8</sup> Peter said to him, “You will never wash my feet!”
+
+Jesus answered him, “If I don’t wash you, you have no part with me.”
 
 <sup>9</sup> Simon Peter said to him, “Lord, not my feet only, but also my hands and my head!”
 
@@ -928,7 +976,9 @@
 <sup>25</sup> He, leaning back, as he was, on Jesus’ breast, asked him, “Lord, who is it?”
 
 <sup>26</sup> Jesus therefore answered, “It is he to whom I will give this piece of bread when I have dipped it.” So when he had dipped the piece of bread, he gave it to Judas, the son of Simon Iscariot.
-<sup>27</sup> After the piece of bread, then Satan entered into him. Then Jesus said to him, “What you do, do quickly.”
+<sup>27</sup> After the piece of bread, then Satan entered into him.
+
+Then Jesus said to him, “What you do, do quickly.”
 
 <sup>28</sup> Now nobody at the table knew why he said this to him.
 <sup>29</sup> For some thought, because Judas had the money box, that Jesus said to him, “Buy what things we need for the feast,” or that he should give something to the poor.
@@ -940,7 +990,9 @@
 <sup>34</sup> A new commandment I give to you, that you love one another. Just as I have loved you, you also love one another.
 <sup>35</sup> By this everyone will know that you are my disciples, if you have love for one another.”
 
-<sup>36</sup> Simon Peter said to him, “Lord, where are you going?” Jesus answered, “Where I am going, you can’t follow now, but you will follow afterwards.”
+<sup>36</sup> Simon Peter said to him, “Lord, where are you going?”
+
+Jesus answered, “Where I am going, you can’t follow now, but you will follow afterwards.”
 
 <sup>37</sup> Peter said to him, “Lord, why can’t I follow you now? I will lay down my life for you.”
 
@@ -1116,10 +1168,16 @@
 <sup>3</sup> Judas then, having taken a detachment of soldiers and officers from the chief priests and the Pharisees, came there with lanterns, torches, and weapons.
 <sup>4</sup> Jesus therefore, knowing all the things that were happening to him, went out and said to them, “Who are you looking for?”
 
-<sup>5</sup> They answered him, “Jesus of Nazareth.” Jesus said to them, “I am he.” Judas also, who betrayed him, was standing with them.
+<sup>5</sup> They answered him, “Jesus of Nazareth.”
+
+Jesus said to them, “I am he.”
+
+Judas also, who betrayed him, was standing with them.
 <sup>6</sup> When therefore he said to them, “I am he,” they went backward and fell to the ground.
 
-<sup>7</sup> Again therefore he asked them, “Who are you looking for?” They said, “Jesus of Nazareth.”
+<sup>7</sup> Again therefore he asked them, “Who are you looking for?”
+
+They said, “Jesus of Nazareth.”
 
 <sup>8</sup> Jesus answered, “I told you that I am he. If therefore you seek me, let these go their way,”
 <sup>9</sup> that the word might be fulfilled which he spoke, “Of those whom you have given me, I have lost none.”<sup>a</sup>
@@ -1133,7 +1191,9 @@
 
 <sup>15</sup> Simon Peter followed Jesus, as did another disciple. Now that disciple was known to the high priest, and entered in with Jesus into the court of the high priest;
 <sup>16</sup> but Peter was standing at the door outside. So the other disciple, who was known to the high priest, went out and spoke to her who kept the door, and brought in Peter.
-<sup>17</sup> Then the maid who kept the door said to Peter, “Are you also one of this man’s disciples?” He said, “I am not.”
+<sup>17</sup> Then the maid who kept the door said to Peter, “Are you also one of this man’s disciples?”
+
+He said, “I am not.”
 
 <sup>18</sup> Now the servants and the officers were standing there, having made a fire of coals, for it was cold. They were warming themselves. Peter was with them, standing and warming himself.
 
@@ -1148,7 +1208,9 @@
 
 <sup>24</sup> Annas sent him bound to Caiaphas, the high priest.
 
-<sup>25</sup> Now Simon Peter was standing and warming himself. They said therefore to him, “You aren’t also one of his disciples, are you?” He denied it and said, “I am not.”
+<sup>25</sup> Now Simon Peter was standing and warming himself. They said therefore to him, “You aren’t also one of his disciples, are you?”
+
+He denied it and said, “I am not.”
 
 <sup>26</sup> One of the servants of the high priest, being a relative of him whose ear Peter had cut off, said, “Didn’t I see you in the garden with him?”
 
@@ -1159,7 +1221,9 @@
 
 <sup>30</sup> They answered him, “If this man weren’t an evildoer, we wouldn’t have delivered him up to you.”
 
-<sup>31</sup> Pilate therefore said to them, “Take him yourselves, and judge him according to your law.” Therefore the Jews said to him, “It is illegal for us to put anyone to death,”
+<sup>31</sup> Pilate therefore said to them, “Take him yourselves, and judge him according to your law.”
+
+Therefore the Jews said to him, “It is illegal for us to put anyone to death,”
 <sup>32</sup> that the word of Jesus might be fulfilled, which he spoke, signifying by what kind of death he should die.
 
 <sup>33</sup> Pilate therefore entered again into the Praetorium, called Jesus, and said to him, “Are you the King of the Jews?”
@@ -1170,9 +1234,13 @@
 
 <sup>36</sup> Jesus answered, “My Kingdom is not of this world. If my Kingdom were of this world, then my servants would fight, that I wouldn’t be delivered to the Jews. But now my Kingdom is not from here.”
 
-<sup>37</sup> Pilate therefore said to him, “Are you a king then?” Jesus answered, “You say that I am a king. For this reason I have been born, and for this reason I have come into the world, that I should testify to the truth. Everyone who is of the truth listens to my voice.”
+<sup>37</sup> Pilate therefore said to him, “Are you a king then?”
 
-<sup>38</sup> Pilate said to him, “What is truth?” When he had said this, he went out again to the Jews, and said to them, “I find no basis for a charge against him.
+Jesus answered, “You say that I am a king. For this reason I have been born, and for this reason I have come into the world, that I should testify to the truth. Everyone who is of the truth listens to my voice.”
+
+<sup>38</sup> Pilate said to him, “What is truth?”
+
+When he had said this, he went out again to the Jews, and said to them, “I find no basis for a charge against him.
 <sup>39</sup> But you have a custom that I should release someone to you at the Passover. Therefore, do you want me to release to you the King of the Jews?”
 
 <sup>40</sup> Then they all shouted again, saying, “Not this man, but Barabbas!” Now Barabbas was a robber.
@@ -1189,7 +1257,9 @@
 
 <sup>5</sup> Jesus therefore came out, wearing the crown of thorns and the purple garment. Pilate said to them, “Behold, the man!”
 
-<sup>6</sup> When therefore the chief priests and the officers saw him, they shouted, saying, “Crucify! Crucify!” Pilate said to them, “Take him yourselves and crucify him, for I find no basis for a charge against him.”
+<sup>6</sup> When therefore the chief priests and the officers saw him, they shouted, saying, “Crucify! Crucify!”
+
+Pilate said to them, “Take him yourselves and crucify him, for I find no basis for a charge against him.”
 
 <sup>7</sup> The Jews answered him, “We have a law, and by our law he ought to die, because he made himself the Son of God.”
 
@@ -1204,7 +1274,11 @@
 <sup>13</sup> When Pilate therefore heard these words, he brought Jesus out and sat down on the judgment seat at a place called “The Pavement”, but in Hebrew, “Gabbatha.”
 <sup>14</sup> Now it was the Preparation Day of the Passover, at about the sixth hour.<sup>a</sup> He said to the Jews, “Behold, your King!”
 
-<sup>15</sup> They cried out, “Away with him! Away with him! Crucify him!” Pilate said to them, “Shall I crucify your King?” The chief priests answered, “We have no king but Caesar!”
+<sup>15</sup> They cried out, “Away with him! Away with him! Crucify him!”
+
+Pilate said to them, “Shall I crucify your King?”
+
+The chief priests answered, “We have no king but Caesar!”
 
 <sup>16</sup> So then he delivered him to them to be crucified. So they took Jesus and led him away.
 <sup>17</sup> He went out, bearing his cross, to the place called “The Place of a Skull”, which is called in Hebrew, “Golgotha”,
@@ -1263,12 +1337,18 @@
 
 <sup>11</sup> But Mary was standing outside at the tomb weeping. So as she wept, she stooped and looked into the tomb,
 <sup>12</sup> and she saw two angels in white sitting, one at the head and one at the feet, where the body of Jesus had lain.
-<sup>13</sup> They asked her, “Woman, why are you weeping?” She said to them, “Because they have taken away my Lord, and I don’t know where they have laid him.”
+<sup>13</sup> They asked her, “Woman, why are you weeping?”
+
+She said to them, “Because they have taken away my Lord, and I don’t know where they have laid him.”
 <sup>14</sup> When she had said this, she turned around and saw Jesus standing, and didn’t know that it was Jesus.
 
-<sup>15</sup> Jesus said to her, “Woman, why are you weeping? Who are you looking for?” She, supposing him to be the gardener, said to him, “Sir, if you have carried him away, tell me where you have laid him, and I will take him away.”
+<sup>15</sup> Jesus said to her, “Woman, why are you weeping? Who are you looking for?”
 
-<sup>16</sup> Jesus said to her, “Mary.” She turned and said to him, “Rabboni!”<sup>a</sup> which is to say, “Teacher!”<sup>b</sup>
+She, supposing him to be the gardener, said to him, “Sir, if you have carried him away, tell me where you have laid him, and I will take him away.”
+
+<sup>16</sup> Jesus said to her, “Mary.”
+
+She turned and said to him, “Rabboni!”<sup>a</sup> which is to say, “Teacher!”<sup>b</sup>
 
 <sup>17</sup> Jesus said to her, “Don’t hold me, for I haven’t yet ascended to my Father; but go to my brothers and tell them, ‘I am ascending to my Father and your Father, to my God and your God.’ ”
 
@@ -1281,7 +1361,9 @@
 <sup>23</sup> If you forgive anyone’s sins, they have been forgiven them. If you retain anyone’s sins, they have been retained.”
 
 <sup>24</sup> But Thomas, one of the twelve, called Didymus,<sup>c</sup> wasn’t with them when Jesus came.
-<sup>25</sup> The other disciples therefore said to him, “We have seen the Lord!” But he said to them, “Unless I see in his hands the print of the nails, put my finger into the print of the nails, and put my hand into his side, I will not believe.”
+<sup>25</sup> The other disciples therefore said to him, “We have seen the Lord!”
+
+But he said to them, “Unless I see in his hands the print of the nails, put my finger into the print of the nails, and put my hand into his side, I will not believe.”
 
 <sup>26</sup> After eight days, again his disciples were inside and Thomas was with them. Jesus came, the doors being locked, and stood in the middle, and said, “Peace be to you.”
 <sup>27</sup> Then he said to Thomas, “Reach here your finger, and see my hands. Reach here your hand, and put it into my side. Don’t be unbelieving, but believing.”
@@ -1302,25 +1384,47 @@
 
 <sup>1</sup> After these things, Jesus revealed himself again to the disciples at the sea of Tiberias. He revealed himself this way.
 <sup>2</sup> Simon Peter, Thomas called Didymus,<sup>a</sup> Nathanael of Cana in Galilee, and the sons of Zebedee, and two others of his disciples were together.
-<sup>3</sup> Simon Peter said to them, “I’m going fishing.” They told him, “We are also coming with you.” They immediately went out and entered into the boat. That night, they caught nothing.
-<sup>4</sup> But when day had already come, Jesus stood on the beach; yet the disciples didn’t know that it was Jesus.
-<sup>5</sup> Jesus therefore said to them, “Children, have you anything to eat?” They answered him, “No.”
+<sup>3</sup> Simon Peter said to them, “I’m going fishing.”
 
-<sup>6</sup> He said to them, “Cast the net on the right side of the boat, and you will find some.” They cast it therefore, and now they weren’t able to draw it in for the multitude of fish.
-<sup>7</sup> That disciple therefore whom Jesus loved said to Peter, “It’s the Lord!” So when Simon Peter heard that it was the Lord, he wrapped his coat around himself (for he was naked), and threw himself into the sea.
+They told him, “We are also coming with you.” They immediately went out and entered into the boat. That night, they caught nothing.
+<sup>4</sup> But when day had already come, Jesus stood on the beach; yet the disciples didn’t know that it was Jesus.
+<sup>5</sup> Jesus therefore said to them, “Children, have you anything to eat?”
+
+They answered him, “No.”
+
+<sup>6</sup> He said to them, “Cast the net on the right side of the boat, and you will find some.”
+
+They cast it therefore, and now they weren’t able to draw it in for the multitude of fish.
+<sup>7</sup> That disciple therefore whom Jesus loved said to Peter, “It’s the Lord!”
+
+So when Simon Peter heard that it was the Lord, he wrapped his coat around himself (for he was naked), and threw himself into the sea.
 <sup>8</sup> But the other disciples came in the little boat (for they were not far from the land, but about two hundred cubits<sup>b</sup> away), dragging the net full of fish.
 <sup>9</sup> So when they got out on the land, they saw a fire of coals there, with fish and bread laid on it.
 <sup>10</sup> Jesus said to them, “Bring some of the fish which you have just caught.”
 
 <sup>11</sup> Simon Peter went up, and drew the net to land, full of one hundred fifty-three great fish. Even though there were so many, the net wasn’t torn.
 
-<sup>12</sup> Jesus said to them, “Come and eat breakfast!” None of the disciples dared inquire of him, “Who are you?” knowing that it was the Lord.
+<sup>12</sup> Jesus said to them, “Come and eat breakfast!”
+
+None of the disciples dared inquire of him, “Who are you?” knowing that it was the Lord.
 
 <sup>13</sup> Then Jesus came and took the bread, gave it to them, and the fish likewise.
 <sup>14</sup> This is now the third time that Jesus was revealed to his disciples after he had risen from the dead.
-<sup>15</sup> So when they had eaten their breakfast, Jesus said to Simon Peter, “Simon, son of Jonah, do you love me more than these?” He said to him, “Yes, Lord; you know that I have affection for you.” He said to him, “Feed my lambs.”
-<sup>16</sup> He said to him again a second time, “Simon, son of Jonah, do you love me?” He said to him, “Yes, Lord; you know that I have affection for you.” He said to him, “Tend my sheep.”
-<sup>17</sup> He said to him the third time, “Simon, son of Jonah, do you have affection for me?” Peter was grieved because he asked him the third time, “Do you have affection for me?” He said to him, “Lord, you know everything. You know that I have affection for you.” Jesus said to him, “Feed my sheep.
+<sup>15</sup> So when they had eaten their breakfast, Jesus said to Simon Peter, “Simon, son of Jonah, do you love me more than these?”
+
+He said to him, “Yes, Lord; you know that I have affection for you.”
+
+He said to him, “Feed my lambs.”
+<sup>16</sup> He said to him again a second time, “Simon, son of Jonah, do you love me?”
+
+He said to him, “Yes, Lord; you know that I have affection for you.”
+
+He said to him, “Tend my sheep.”
+<sup>17</sup> He said to him the third time, “Simon, son of Jonah, do you have affection for me?”
+
+Peter was grieved because he asked him the third time, “Do you have affection for me?” He said to him, “Lord, you know everything. You know that I have affection for you.”
+
+Jesus said to him, “Feed my sheep.
 <sup>18</sup> Most certainly I tell you, when you were young, you dressed yourself and walked where you wanted to. But when you are old, you will stretch out your hands, and another will dress you and carry you where you don’t want to go.”
 
 <sup>19</sup> Now he said this, signifying by what kind of death he would glorify God. When he had said this, he said to him, “Follow me.”

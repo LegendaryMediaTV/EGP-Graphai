@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "In the days when the judges judged, there was a famine in the land. A certain man of Bethlehem Judah went to live in the country of Moab with his wife and his two sons.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the days when the judges judged, there was a famine in the land. A certain man of Bethlehem Judah went to live in the country of Moab with his wife and his two sons."
     }
   },
   {
@@ -63,7 +63,13 @@
     "book": "RTH",
     "chapter": 1,
     "verse": 9,
-    "content": "May Yahweh grant you that you may find rest, each of you in the house of her husband.” Then she kissed them, and they lifted up their voices, and wept."
+    "content": [
+      "May Yahweh grant you that you may find rest, each of you in the house of her husband.”",
+      {
+        "paragraph": true,
+        "text": "Then she kissed them, and they lifted up their voices, and wept."
+      }
+    ]
   },
   {
     "book": "RTH",
@@ -76,8 +82,8 @@
     "chapter": 1,
     "verse": 11,
     "content": {
-      "text": "Naomi said, “Go back, my daughters. Why do you want to go with me? Do I still have sons in my womb, that they may be your husbands?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Naomi said, “Go back, my daughters. Why do you want to go with me? Do I still have sons in my womb, that they may be your husbands?"
     }
   },
   {
@@ -97,8 +103,8 @@
     "chapter": 1,
     "verse": 14,
     "content": {
-      "text": "They lifted up their voices and wept again; then Orpah kissed her mother-in-law, but Ruth stayed with her.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "They lifted up their voices and wept again; then Orpah kissed her mother-in-law, but Ruth stayed with her."
     }
   },
   {
@@ -129,6 +135,7 @@
     "verse": 16,
     "content": [
       {
+        "paragraph": true,
         "text": "Ruth said, “Don’t urge me to leave you, and to return from following you, for where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God",
         "foot": {
           "type": "trn",
@@ -140,8 +147,7 @@
             },
             "” (Elohim)."
           ]
-        },
-        "paragraph": true
+        }
       },
       " my God."
     ]
@@ -157,8 +163,8 @@
     "chapter": 1,
     "verse": 18,
     "content": {
-      "text": "When Naomi saw that she was determined to go with her, she stopped urging her.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Naomi saw that she was determined to go with her, she stopped urging her."
     }
   },
   {
@@ -166,8 +172,8 @@
     "chapter": 1,
     "verse": 19,
     "content": {
-      "text": "So they both went until they came to Bethlehem. When they had come to Bethlehem, all the city was excited about them, and they asked, “Is this Naomi?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So they both went until they came to Bethlehem. When they had come to Bethlehem, all the city was excited about them, and they asked, “Is this Naomi?”"
     }
   },
   {
@@ -176,12 +182,12 @@
     "verse": 20,
     "content": [
       {
+        "paragraph": true,
         "text": "She said to them, “Don’t call me Naomi.",
         "foot": {
           "type": "stu",
           "content": "“Naomi” means “pleasant”."
-        },
-        "paragraph": true
+        }
       },
       {
         "text": " Call me Mara,",
@@ -210,15 +216,21 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Naomi had a relative of her husband’s, a mighty man of wealth, of the family of Elimelech, and his name was Boaz.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Naomi had a relative of her husband’s, a mighty man of wealth, of the family of Elimelech, and his name was Boaz."
     }
   },
   {
     "book": "RTH",
     "chapter": 2,
     "verse": 2,
-    "content": "Ruth the Moabitess said to Naomi, “Let me now go to the field, and glean among the ears of grain after him in whose sight I find favor.” She said to her, “Go, my daughter.”"
+    "content": [
+      "Ruth the Moabitess said to Naomi, “Let me now go to the field, and glean among the ears of grain after him in whose sight I find favor.”",
+      {
+        "paragraph": true,
+        "text": "She said to her, “Go, my daughter.”"
+      }
+    ]
   },
   {
     "book": "RTH",
@@ -230,18 +242,24 @@
     "book": "RTH",
     "chapter": 2,
     "verse": 4,
-    "content": {
-      "text": "Behold, Boaz came from Bethlehem, and said to the reapers, “May Yahweh be with you.” They answered him, “May Yahweh bless you.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Behold, Boaz came from Bethlehem, and said to the reapers, “May Yahweh be with you.”"
+      },
+      {
+        "paragraph": true,
+        "text": "They answered him, “May Yahweh bless you.”"
+      }
+    ]
   },
   {
     "book": "RTH",
     "chapter": 2,
     "verse": 5,
     "content": {
-      "text": "Then Boaz said to his servant who was set over the reapers, “Whose young lady is this?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Boaz said to his servant who was set over the reapers, “Whose young lady is this?”"
     }
   },
   {
@@ -249,8 +267,8 @@
     "chapter": 2,
     "verse": 6,
     "content": {
-      "text": "The servant who was set over the reapers answered, “It is the Moabite lady who came back with Naomi out of the country of Moab.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The servant who was set over the reapers answered, “It is the Moabite lady who came back with Naomi out of the country of Moab."
     }
   },
   {
@@ -264,8 +282,8 @@
     "chapter": 2,
     "verse": 8,
     "content": {
-      "text": "Then Boaz said to Ruth, “Listen, my daughter. Don’t go to glean in another field, and don’t go from here, but stay here close to my maidens.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Boaz said to Ruth, “Listen, my daughter. Don’t go to glean in another field, and don’t go from here, but stay here close to my maidens."
     }
   },
   {
@@ -279,8 +297,8 @@
     "chapter": 2,
     "verse": 10,
     "content": {
-      "text": "Then she fell on her face and bowed herself to the ground, and said to him, “Why have I found favor in your sight, that you should take knowledge of me, since I am a foreigner?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then she fell on her face and bowed herself to the ground, and said to him, “Why have I found favor in your sight, that you should take knowledge of me, since I am a foreigner?”"
     }
   },
   {
@@ -288,8 +306,8 @@
     "chapter": 2,
     "verse": 11,
     "content": {
-      "text": "Boaz answered her, “I have been told all about what you have done for your mother-in-law since the death of your husband, and how you have left your father, your mother, and the land of your birth, and have come to a people that you didn’t know before.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Boaz answered her, “I have been told all about what you have done for your mother-in-law since the death of your husband, and how you have left your father, your mother, and the land of your birth, and have come to a people that you didn’t know before."
     }
   },
   {
@@ -303,18 +321,24 @@
     "chapter": 2,
     "verse": 13,
     "content": {
-      "text": "Then she said, “Let me find favor in your sight, my lord, because you have comforted me, and because you have spoken kindly to your servant, though I am not as one of your servants.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then she said, “Let me find favor in your sight, my lord, because you have comforted me, and because you have spoken kindly to your servant, though I am not as one of your servants.”"
     }
   },
   {
     "book": "RTH",
     "chapter": 2,
     "verse": 14,
-    "content": {
-      "text": "At meal time Boaz said to her, “Come here, and eat some bread, and dip your morsel in the vinegar.” She sat beside the reapers, and they passed her parched grain. She ate, was satisfied, and left some of it.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "At meal time Boaz said to her, “Come here, and eat some bread, and dip your morsel in the vinegar.”"
+      },
+      {
+        "paragraph": true,
+        "text": "She sat beside the reapers, and they passed her parched grain. She ate, was satisfied, and left some of it."
+      }
+    ]
   },
   {
     "book": "RTH",
@@ -334,12 +358,12 @@
     "verse": 17,
     "content": [
       {
+        "paragraph": true,
         "text": "So she gleaned in the field until evening; and she beat out that which she had gleaned, and it was about an ephah",
         "foot": {
           "type": "stu",
           "content": "1 ephah is about 22 liters or about 2/3 of a bushel"
-        },
-        "paragraph": true
+        }
       },
       " of barley."
     ]
@@ -354,10 +378,16 @@
     "book": "RTH",
     "chapter": 2,
     "verse": 19,
-    "content": {
-      "text": "Her mother-in-law said to her, “Where have you gleaned today? Where have you worked? Blessed be he who noticed you.” She told her mother-in-law with whom she had worked, “The man’s name with whom I worked today is Boaz.”",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Her mother-in-law said to her, “Where have you gleaned today? Where have you worked? Blessed be he who noticed you.”"
+      },
+      {
+        "paragraph": true,
+        "text": "She told her mother-in-law with whom she had worked, “The man’s name with whom I worked today is Boaz.”"
+      }
+    ]
   },
   {
     "book": "RTH",
@@ -370,8 +400,8 @@
     "chapter": 2,
     "verse": 21,
     "content": {
-      "text": "Ruth the Moabitess said, “Yes, he said to me, ‘You shall stay close to my young men until they have finished all my harvest.’ ”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Ruth the Moabitess said, “Yes, he said to me, ‘You shall stay close to my young men until they have finished all my harvest.’ ”"
     }
   },
   {
@@ -379,8 +409,8 @@
     "chapter": 2,
     "verse": 22,
     "content": {
-      "text": "Naomi said to Ruth her daughter-in-law, “It is good, my daughter, that you go out with his maidens, and that they not meet you in any other field.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Naomi said to Ruth her daughter-in-law, “It is good, my daughter, that you go out with his maidens, and that they not meet you in any other field.”"
     }
   },
   {
@@ -394,8 +424,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Naomi her mother-in-law said to her, “My daughter, shall I not seek rest for you, that it may be well with you?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Naomi her mother-in-law said to her, “My daughter, shall I not seek rest for you, that it may be well with you?"
     }
   },
   {
@@ -421,8 +451,8 @@
     "chapter": 3,
     "verse": 5,
     "content": {
-      "text": "She said to her, “All that you say, I will do.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "She said to her, “All that you say, I will do.”"
     }
   },
   {
@@ -447,15 +477,21 @@
     "book": "RTH",
     "chapter": 3,
     "verse": 9,
-    "content": "He said, “Who are you?” She answered, “I am Ruth your servant. Therefore spread the corner of your garment over your servant; for you are a near kinsman.”"
+    "content": [
+      "He said, “Who are you?”",
+      {
+        "paragraph": true,
+        "text": "She answered, “I am Ruth your servant. Therefore spread the corner of your garment over your servant; for you are a near kinsman.”"
+      }
+    ]
   },
   {
     "book": "RTH",
     "chapter": 3,
     "verse": 10,
     "content": {
-      "text": "He said, “You are blessed by Yahweh, my daughter. You have shown more kindness in the latter end than at the beginning, because you didn’t follow young men, whether poor or rich.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "He said, “You are blessed by Yahweh, my daughter. You have shown more kindness in the latter end than at the beginning, because you didn’t follow young men, whether poor or rich."
     }
   },
   {
@@ -481,8 +517,8 @@
     "chapter": 3,
     "verse": 14,
     "content": {
-      "text": "She lay at his feet until the morning, then she rose up before one could discern another. For he said, “Let it not be known that the woman came to the threshing floor.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "She lay at his feet until the morning, then she rose up before one could discern another. For he said, “Let it not be known that the woman came to the threshing floor.”"
     }
   },
   {
@@ -495,10 +531,16 @@
     "book": "RTH",
     "chapter": 3,
     "verse": 16,
-    "content": {
-      "text": "When she came to her mother-in-law, she said, “How did it go, my daughter?” She told her all that the man had done for her.",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "When she came to her mother-in-law, she said, “How did it go, my daughter?”"
+      },
+      {
+        "paragraph": true,
+        "text": "She told her all that the man had done for her."
+      }
+    ]
   },
   {
     "book": "RTH",
@@ -511,8 +553,8 @@
     "chapter": 3,
     "verse": 18,
     "content": {
-      "text": "Then she said, “Wait, my daughter, until you know what will happen; for the man will not rest until he has settled this today.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then she said, “Wait, my daughter, until you know what will happen; for the man will not rest until he has settled this today.”"
     }
   },
   {
@@ -520,8 +562,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "Now Boaz went up to the gate and sat down there. Behold, the near kinsman of whom Boaz spoke came by. Boaz said to him, “Come over here, friend, and sit down!” He came over, and sat down.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now Boaz went up to the gate and sat down there. Behold, the near kinsman of whom Boaz spoke came by. Boaz said to him, “Come over here, friend, and sit down!” He came over, and sat down."
     }
   },
   {
@@ -540,15 +582,21 @@
     "book": "RTH",
     "chapter": 4,
     "verse": 4,
-    "content": "I thought I should tell you, saying, ‘Buy it before those who sit here, and before the elders of my people.’ If you will redeem it, redeem it; but if you will not redeem it, then tell me, that I may know. For there is no one to redeem it besides you; and I am after you.” He said, “I will redeem it.”"
+    "content": [
+      "I thought I should tell you, saying, ‘Buy it before those who sit here, and before the elders of my people.’ If you will redeem it, redeem it; but if you will not redeem it, then tell me, that I may know. For there is no one to redeem it besides you; and I am after you.”",
+      {
+        "paragraph": true,
+        "text": "He said, “I will redeem it.”"
+      }
+    ]
   },
   {
     "book": "RTH",
     "chapter": 4,
     "verse": 5,
     "content": {
-      "text": "Then Boaz said, “On the day you buy the field from the hand of Naomi, you must buy it also from Ruth the Moabitess, the wife of the dead, to raise up the name of the dead on his inheritance.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then Boaz said, “On the day you buy the field from the hand of Naomi, you must buy it also from Ruth the Moabitess, the wife of the dead, to raise up the name of the dead on his inheritance.”"
     }
   },
   {
@@ -556,8 +604,8 @@
     "chapter": 4,
     "verse": 6,
     "content": {
-      "text": "The near kinsman said, “I can’t redeem it for myself, lest I endanger my own inheritance. Take my right of redemption for yourself; for I can’t redeem it.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The near kinsman said, “I can’t redeem it for myself, lest I endanger my own inheritance. Take my right of redemption for yourself; for I can’t redeem it.”"
     }
   },
   {
@@ -565,8 +613,8 @@
     "chapter": 4,
     "verse": 7,
     "content": {
-      "text": "Now this was the custom in former time in Israel concerning redeeming and concerning exchanging, to confirm all things: a man took off his sandal, and gave it to his neighbor; and this was the way of formalizing transactions in Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now this was the custom in former time in Israel concerning redeeming and concerning exchanging, to confirm all things: a man took off his sandal, and gave it to his neighbor; and this was the way of formalizing transactions in Israel."
     }
   },
   {
@@ -580,8 +628,8 @@
     "chapter": 4,
     "verse": 9,
     "content": {
-      "text": "Boaz said to the elders and to all the people, “You are witnesses today, that I have bought all that was Elimelech’s, and all that was Chilion’s and Mahlon’s, from the hand of Naomi.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Boaz said to the elders and to all the people, “You are witnesses today, that I have bought all that was Elimelech’s, and all that was Chilion’s and Mahlon’s, from the hand of Naomi."
     }
   },
   {
@@ -595,8 +643,8 @@
     "chapter": 4,
     "verse": 11,
     "content": {
-      "text": "All the people who were in the gate, and the elders, said, “We are witnesses. May Yahweh make the woman who has come into your house like Rachel and like Leah, which both built the house of Israel; and treat you worthily in Ephrathah, and be famous in Bethlehem.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "All the people who were in the gate, and the elders, said, “We are witnesses. May Yahweh make the woman who has come into your house like Rachel and like Leah, which both built the house of Israel; and treat you worthily in Ephrathah, and be famous in Bethlehem."
     }
   },
   {
@@ -619,8 +667,8 @@
     "chapter": 4,
     "verse": 13,
     "content": {
-      "text": "So Boaz took Ruth and she became his wife; and he went in to her, and Yahweh enabled her to conceive, and she bore a son.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So Boaz took Ruth and she became his wife; and he went in to her, and Yahweh enabled her to conceive, and she bore a son."
     }
   },
   {
@@ -652,8 +700,8 @@
     "chapter": 4,
     "verse": 18,
     "content": {
-      "text": "Now this is the history of the generations of Perez: Perez became the father of Hezron,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now this is the history of the generations of Perez: Perez became the father of Hezron,"
     }
   },
   {

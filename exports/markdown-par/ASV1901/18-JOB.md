@@ -22,6 +22,7 @@
 <sup>20</sup> Then Job arose, and rent his robe, and shaved his head, and fell down upon the ground, and worshipped;
 <sup>21</sup> and he said, Naked came I out of my mother’s womb, and naked shall I return thither: Jehovah gave, and Jehovah hath taken away; blessed be the name of Jehovah.
 <sup>22</sup> In all this Job sinned not, nor charged God foolishly.
+
 ## Chapter 2
 
 <sup>1</sup> Again it came to pass on the day when the sons of God came to present themselves before Jehovah, that Satan came also among them to present himself before Jehovah.
@@ -37,6 +38,7 @@
 <sup>11</sup> Now when Job’s three friends heard of all this evil that was come upon him, they came every one from his own place: Eliphaz the Temanite, and Bildad the Shuhite, and Zophar the Naamathite, and they made an appointment together to come to bemoan him and to comfort him.
 <sup>12</sup> And when they lifted up their eyes afar off, and knew him not, they lifted up their voice, and wept; and they rent every one his robe, and sprinkled dust upon their heads toward heaven.
 <sup>13</sup> So they sat down with him upon the ground seven days and seven nights, and none spake a word unto him: for they saw that his grief was very great.
+
 ## Chapter 3
 
 <sup>1</sup> After this opened Job his mouth, and cursed his day.
@@ -65,6 +67,7 @@
 <sup>24</sup> For my sighing cometh before I eat, And my groanings are poured out like water.
 <sup>25</sup> For the thing which I fear cometh upon me, And that which I am afraid of cometh unto me.
 <sup>26</sup> I am not at ease, neither am I quiet, neither have I rest; But trouble cometh.
+
 ## Chapter 4
 
 <sup>1</sup> Then answered Eliphaz the Temanite, and said,
@@ -88,6 +91,7 @@
 <sup>19</sup> How much more them that dwell in houses of clay, Whose foundation is in the dust, Who are crushed before the moth!
 <sup>20</sup> Betwixt morning and evening they are destroyed: They perish for ever without any regarding it.
 <sup>21</sup> Is not their tent-cord plucked up within them? They die, and that without wisdom.
+
 ## Chapter 5
 
 <sup>1</sup> Call now; is there any that will answer thee? And to which of the holy ones wilt thou turn?
@@ -117,6 +121,7 @@
 <sup>25</sup> Thou shalt know also that thy seed shall be great, And thine offspring as the grass of the earth.
 <sup>26</sup> Thou shalt come to thy grave in a full age, Like as a shock of grain cometh in in its season.
 <sup>27</sup> Lo this, we have searched it, so it is; Hear it, and know thou it for thy good.
+
 ## Chapter 6
 
 <sup>1</sup> Then Job answered and said,
@@ -149,6 +154,7 @@
 <sup>28</sup> Now therefore be pleased to look upon me; For surely I shall not lie to your face.
 <sup>29</sup> Return, I pray you, let there be no injustice; Yea, return again, my cause is righteous.
 <sup>30</sup> Is there injustice on my tongue? Cannot my taste discern mischievous things?
+
 ## Chapter 7
 
 <sup>1</sup> Is there not a warfare to man upon earth? And are not his days like the days of a hireling?
@@ -172,6 +178,7 @@
 <sup>19</sup> How long wilt thou not look away from me, Nor let me alone till I swallow down my spittle?
 <sup>20</sup> If I have sinned, what do I unto thee, O thou watcher of men? Why hast thou set me as a mark for thee, So that I am a burden to myself?
 <sup>21</sup> And why dost thou not pardon my transgression, and take away mine iniquity? For now shall I lie down in the dust; And thou wilt seek me diligently, but I shall not be.
+
 ## Chapter 8
 
 <sup>1</sup> Then answered Bildad the Shuhite, and said,
@@ -196,6 +203,7 @@
 <sup>20</sup> Behold, God will not cast away a perfect man, Neither will he uphold the evil-doers.
 <sup>21</sup> He will yet fill thy mouth with laughter, And thy lips with shouting.
 <sup>22</sup> They that hate thee shall be clothed with shame; And the tent of the wicked shall be no more.
+
 ## Chapter 9
 
 <sup>1</sup> Then Job answered and said,
@@ -233,6 +241,7 @@
 <sup>33</sup> There is no umpire betwixt us, That might lay his hand upon us both.
 <sup>34</sup> Let him take his rod away from me, And let not his terror make me afraid:
 <sup>35</sup> Then would I speak, and not fear him; For I am not so in myself.
+
 ## Chapter 10
 
 <sup>1</sup> My soul is weary of my life; I will give free course to my complaint; I will speak in the bitterness of my soul.
@@ -257,6 +266,7 @@
 <sup>20</sup> Are not my days few? cease then, And let me alone, that I may take comfort a little,
 <sup>21</sup> Before I go whence I shall not return, Even to the land of darkness and of the shadow of death;
 <sup>22</sup> The land dark as midnight, The land of the shadow of death, without any order, And where the light is as midnight.
+
 ## Chapter 11
 
 <sup>1</sup> Then answered Zophar the Naamathite, and said,
@@ -279,6 +289,7 @@
 <sup>18</sup> And thou shalt be secure, because there is hope; Yea, thou shalt search about thee, and shalt take thy rest in safety.
 <sup>19</sup> Also thou shalt lie down, and none shall make thee afraid; Yea, many shall make suit unto thee.
 <sup>20</sup> But the eyes of the wicked shall fail, And they shall have no way to flee; And their hope shall be the giving up of the ghost.
+
 ## Chapter 12
 
 <sup>1</sup> Then Job answered and said,
@@ -306,6 +317,7 @@
 <sup>23</sup> He increaseth the nations, and he destroyeth them: He enlargeth the nations, and he leadeth them captive.
 <sup>24</sup> He taketh away understanding from the chiefs of the people of the earth, And causeth them to wander in a wilderness where there is no way.
 <sup>25</sup> They grope in the dark without light; And he maketh them to stagger like a drunken man.
+
 ## Chapter 13
 
 <sup>1</sup> Lo, mine eye hath seen all this, Mine ear hath heard and understood it.
@@ -336,6 +348,7 @@
 <sup>26</sup> For thou writest bitter things against me, And makest me to inherit the iniquities of my youth:
 <sup>27</sup> Thou puttest my feet also in the stocks, And markest all my paths; Thou settest a bound to the soles of my feet:
 <sup>28</sup> Though I am like a rotten thing that consumeth, Like a garment that is moth-eaten.
+
 ## Chapter 14
 
 <sup>1</sup> Man, that is born of a woman, Is of few days, and full of trouble.
@@ -360,6 +373,7 @@
 <sup>20</sup> Thou prevailest for ever against him, and he passeth; Thou changest his countenance, and sendest him away.
 <sup>21</sup> His sons come to honor, and he knoweth it not; And they are brought low, but he perceiveth it not of them.
 <sup>22</sup> But his flesh upon him hath pain, And his soul within him mourneth.
+
 ## Chapter 15
 
 <sup>1</sup> Then answered Eliphaz the Temanite, and said,
@@ -397,6 +411,7 @@
 <sup>33</sup> He shall shake off his unripe grape as the vine, And shall cast off his flower as the olive-tree.
 <sup>34</sup> For the company of the godless shall be barren, And fire shall consume the tents of bribery.
 <sup>35</sup> They conceive mischief, and bring forth iniquity, And their heart prepareth deceit.
+
 ## Chapter 16
 
 <sup>1</sup> Then Job answered and said,
@@ -421,6 +436,7 @@
 <sup>20</sup> My friends scoff at me: But mine eye poureth out tears unto God,
 <sup>21</sup> That he would maintain the right of a man with God, And of a son of man with his neighbor!
 <sup>22</sup> For when a few years are come, I shall go the way whence I shall not return.
+
 ## Chapter 17
 
 <sup>1</sup> My spirit is consumed, my days are extinct, The grave is ready for me.
@@ -439,6 +455,7 @@
 <sup>14</sup> If I have said to corruption, Thou art my father; To the worm, Thou art my mother, and my sister;
 <sup>15</sup> Where then is my hope? And as for my hope, who shall see it?
 <sup>16</sup> It shall go down to the bars of Sheol, When once there is rest in the dust.
+
 ## Chapter 18
 
 <sup>1</sup> Then answered Bildad the Shuhite, and said,
@@ -462,6 +479,7 @@
 <sup>19</sup> He shall have neither son nor son’s son among his people, Nor any remaining where he sojourned.
 <sup>20</sup> They that come after shall be astonished at his day, As they that went before were affrighted.
 <sup>21</sup> Surely such are the dwellings of the unrighteous, And this is the place of him that knoweth not God.
+
 ## Chapter 19
 
 <sup>1</sup> Then Job answered and said,
@@ -493,6 +511,7 @@
 <sup>27</sup> Whom I, even I, shall see, on my side, And mine eyes shall behold, and not as a stranger. My heart is consumed within me.
 <sup>28</sup> If ye say, How we will persecute him! And that the root of the matter is found in me;
 <sup>29</sup> Be ye afraid of the sword: For wrath bringeth the punishments of the sword, That ye may know there is a judgment.
+
 ## Chapter 20
 
 <sup>1</sup> Then answered Zophar the Naamathite, and said,
@@ -524,6 +543,7 @@
 <sup>27</sup> The heavens shall reveal his iniquity, And the earth shall rise up against him.
 <sup>28</sup> The increase of his house shall depart; His goods shall flow away in the day of his wrath.
 <sup>29</sup> This is the portion of a wicked man from God, And the heritage appointed unto him by God.
+
 ## Chapter 21
 
 <sup>1</sup> Then Job answered and said,
@@ -560,6 +580,7 @@
 <sup>32</sup> Yet shall he be borne to the grave, And men shall keep watch over the tomb.
 <sup>33</sup> The clods of the valley shall be sweet unto him, And all men shall draw after him, As there were innumerable before him.
 <sup>34</sup> How then comfort ye me in vain, Seeing in your answers there remaineth only falsehood?
+
 ## Chapter 22
 
 <sup>1</sup> Then answered Eliphaz the Temanite, and said,
@@ -592,6 +613,7 @@
 <sup>28</sup> Thou shalt also decree a thing, and it shall be established unto thee; And light shall shine upon thy ways.
 <sup>29</sup> When they cast thee down, thou shalt say, There is lifting up; And the humble person he will save.
 <sup>30</sup> He will deliver even him that is not innocent: Yea, he shall be delivered through the cleanness of thy hands.
+
 ## Chapter 23
 
 <sup>1</sup> Then Job answered and said,
@@ -611,6 +633,7 @@
 <sup>15</sup> Therefore am I terrified at his presence; When I consider, I am afraid of him.
 <sup>16</sup> For God hath made my heart faint, And the Almighty hath terrified me;
 <sup>17</sup> Because I was not cut off before the darkness, Neither did he cover the thick darkness from my face.
+
 ## Chapter 24
 
 <sup>1</sup> Why are times not laid up by the Almighty? And why do not they that know him see his days?
@@ -638,6 +661,7 @@
 <sup>23</sup> God giveth them to be in security, and they rest thereon; And his eyes are upon their ways.
 <sup>24</sup> They are exalted; yet a little while, and they are gone; Yea, they are brought low, they are taken out of the way as all others, And are cut off as the tops of the ears of grain.
 <sup>25</sup> And if it be not so now, who will prove me a liar, And make my speech nothing worth?
+
 ## Chapter 25
 
 <sup>1</sup> Then answered Bildad the Shuhite, and said,
@@ -646,6 +670,7 @@
 <sup>4</sup> How then can man be just with God? Or how can he be clean that is born of a woman?
 <sup>5</sup> Behold, even the moon hath no brightness, And the stars are not pure in his sight:
 <sup>6</sup> How much less man, that is a worm! And the son of man, that is a worm!
+
 ## Chapter 26
 
 <sup>1</sup> Then Job answered and said,
@@ -662,6 +687,7 @@
 <sup>12</sup> He stirreth up the sea with his power, And by his understanding he smiteth through Rahab.
 <sup>13</sup> By his Spirit the heavens are garnished; His hand hath pierced the swift serpent.
 <sup>14</sup> Lo, these are but the outskirts of his ways: And how small a whisper do we hear of him! But the thunder of his power who can understand?
+
 ## Chapter 27
 
 <sup>1</sup> And Job again took up his parable, and said,
@@ -687,6 +713,7 @@
 <sup>21</sup> The east wind carrieth him away, and he departeth; And it sweepeth him out of his place.
 <sup>22</sup> For God shall hurl at him, and not spare: He would fain flee out of his hand.
 <sup>23</sup> Men shall clap their hands at him, And shall hiss him out of his place.
+
 ## Chapter 28
 
 <sup>1</sup> Surely there is a mine for silver, And a place for gold which they refine.
@@ -717,6 +744,7 @@
 <sup>26</sup> When he made a decree for the rain, And a way for the lightning of the thunder;
 <sup>27</sup> Then did he see it, and declare it; He established it, yea, and searched it out.
 <sup>28</sup> And unto man he said, Behold, the fear of the Lord, that is wisdom; And to depart from evil is understanding.
+
 ## Chapter 29
 
 <sup>1</sup> And Job again took up his parable, and said,
@@ -744,6 +772,7 @@
 <sup>23</sup> And they waited for me as for the rain; And they opened their mouth wide as for the latter rain.
 <sup>24</sup> I smiled on them, when they had no confidence; And the light of my countenance they cast not down.
 <sup>25</sup> I chose out their way, and sat as chief, And dwelt as a king in the army, As one that comforteth the mourners.
+
 ## Chapter 30
 
 <sup>1</sup> But now they that are younger than I have me in derision, Whose fathers I disdained to set with the dogs of my flock.
@@ -777,6 +806,7 @@
 <sup>29</sup> I am a brother to jackals, And a companion to ostriches.
 <sup>30</sup> My skin is black, and falleth from me, And my bones are burned with heat.
 <sup>31</sup> Therefore is my harp turned to mourning, And my pipe into the voice of them that weep.
+
 ## Chapter 31
 
 <sup>1</sup> I made a covenant with mine eyes; How then should I look upon a virgin?
@@ -819,6 +849,7 @@
 <sup>38</sup> If my land crieth out against me, And the furrows thereof weep together;
 <sup>39</sup> If I have eaten the fruits thereof without money, Or have caused the owners thereof to lose their life:
 <sup>40</sup> Let thistles grow instead of wheat, And cockle instead of barley. The words of Job are ended.
+
 ## Chapter 32
 
 <sup>1</sup> So these three men ceased to answer Job, because he was righteous in his own eyes.
@@ -843,6 +874,7 @@
 <sup>20</sup> I will speak, that I may be refreshed; I will open my lips and answer.
 <sup>21</sup> Let me not, I pray you, respect any man’s person; Neither will I give flattering titles unto any man.
 <sup>22</sup> For I know not to give flattering titles; Else would my Maker soon take me away.
+
 ## Chapter 33
 
 <sup>1</sup> Howbeit, Job, I pray thee, hear my speech, And hearken to all my words.
@@ -878,6 +910,7 @@
 <sup>31</sup> Mark well, O Job, hearken unto me: Hold thy peace, and I will speak.
 <sup>32</sup> If thou hast anything to say, answer me: Speak, for I desire to justify thee.
 <sup>33</sup> If not, hearken thou unto me: Hold thy peace, and I will teach thee wisdom.
+
 ## Chapter 34
 
 <sup>1</sup> Moreover Elihu answered and said,
@@ -917,6 +950,7 @@
 <sup>35</sup> Job speaketh without knowledge, And his words are without wisdom.
 <sup>36</sup> Would that Job were tried unto the end, Because of his answering like wicked men.
 <sup>37</sup> For he addeth rebellion unto his sin; He clappeth his hands among us, And multiplieth his words against God.
+
 ## Chapter 35
 
 <sup>1</sup> Moreover Elihu answered and said,
@@ -935,6 +969,7 @@
 <sup>14</sup> How much less when thou sayest thou beholdest him not, The cause is before him, and thou waitest for him!
 <sup>15</sup> But now, because he hath not visited in his anger, Neither doth he greatly regard arrogance;
 <sup>16</sup> Therefore doth Job open his mouth in vanity; He multiplieth words without knowledge.
+
 ## Chapter 36
 
 <sup>1</sup> Elihu also proceeded, and said,
@@ -970,6 +1005,7 @@
 <sup>31</sup> For by these he judgeth the peoples; He giveth food in abundance.
 <sup>32</sup> He covereth his hands with the lightning, And giveth it a charge that it strike the mark.
 <sup>33</sup> The noise thereof telleth concerning him, The cattle also concerning the storm that cometh up.
+
 ## Chapter 37
 
 <sup>1</sup> Yea, at this my heart trembleth, And is moved out of its place.
@@ -996,6 +1032,7 @@
 <sup>22</sup> Out of the north cometh golden splendor: God hath upon him terrible majesty.
 <sup>23</sup> Touching the Almighty, we cannot find him out: He is excellent in power; And in justice and plenteous righteousness he will not afflict.
 <sup>24</sup> Men do therefore fear him: He regardeth not any that are wise of heart.
+
 ## Chapter 38
 
 <sup>1</sup> Then Jehovah answered Job out of the whirlwind, and said,
@@ -1039,6 +1076,7 @@
 <sup>39</sup> Canst thou hunt the prey for the lioness, Or satisfy the appetite of the young lions,
 <sup>40</sup> When they couch in their dens, And abide in the covert to lie in wait?
 <sup>41</sup> Who provideth for the raven his prey, When his young ones cry unto God, And wander for lack of food?
+
 ## Chapter 39
 
 <sup>1</sup> Knowest thou the time when the wild goats of the rock bring forth? Or canst thou mark when the hinds do calve?
@@ -1071,6 +1109,7 @@
 <sup>28</sup> On the cliff she dwelleth, and maketh her home, Upon the point of the cliff, and the stronghold.
 <sup>29</sup> From thence she spieth out the prey; Her eyes behold it afar off.
 <sup>30</sup> Her young ones also suck up blood: And where the slain are, there is she.
+
 ## Chapter 40
 
 <sup>1</sup> Moreover Jehovah answered Job, and said,
@@ -1097,6 +1136,7 @@
 <sup>22</sup> The lotus-trees cover him with their shade; The willows of the brook compass him about.
 <sup>23</sup> Behold, if a river overflow, he trembleth not; He is confident, though a Jordan swell even to his mouth.
 <sup>24</sup> Shall any take him when he is on the watch, Or pierce through his nose with a snare?
+
 ## Chapter 41
 
 <sup>1</sup> Canst thou draw out leviathan with a fishhook? Or press down his tongue with a cord?
@@ -1133,6 +1173,7 @@
 <sup>32</sup> He maketh a path to shine after him; One would think the deep to be hoary.
 <sup>33</sup> Upon earth there is not his like, That is made without fear.
 <sup>34</sup> He beholdeth everything that is high: He is king over all the sons of pride.
+
 ## Chapter 42
 
 <sup>1</sup> Then Job answered Jehovah, and said,

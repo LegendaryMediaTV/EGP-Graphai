@@ -4,8 +4,8 @@
     "chapter": 1,
     "verse": 1,
     "content": {
-      "text": "verba Ecclesiastes filii David regis Hierusalem",
-      "paragraph": true
+      "paragraph": true,
+      "text": "verba Ecclesiastes filii David regis Hierusalem"
     }
   },
   {
@@ -115,8 +115,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "dixi ego in corde meo vadam et affluam deliciis et fruar bonis et vidi quod hoc quoque esset vanitas",
-      "paragraph": true
+      "paragraph": true,
+      "text": "dixi ego in corde meo vadam et affluam deliciis et fruar bonis et vidi quod hoc quoque esset vanitas"
     }
   },
   {
@@ -274,8 +274,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "omnia tempus habent et suis spatiis transeunt universa sub caelo",
-      "paragraph": true
+      "paragraph": true,
+      "text": "omnia tempus habent et suis spatiis transeunt universa sub caelo"
     }
   },
   {
@@ -409,8 +409,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "verti me ad alia et vidi calumnias quae sub sole geruntur et lacrimas innocentum et consolatorem neminem nec posse resistere eorum violentiae cunctorum auxilio destitutos",
-      "paragraph": true
+      "paragraph": true,
+      "text": "verti me ad alia et vidi calumnias quae sub sole geruntur et lacrimas innocentum et consolatorem neminem nec posse resistere eorum violentiae cunctorum auxilio destitutos"
     }
   },
   {
@@ -507,132 +507,290 @@
     "book": "ECC",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "text": "(4-17) custodi pedem tuum ingrediens domum Dei multo enim melior est oboedientia quam stultorum victimae qui nesciunt quid faciant mali",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 4:17."
+        }
+      },
+      "custodi pedem tuum ingrediens domum Dei multo enim melior est oboedientia quam stultorum victimae qui nesciunt quid faciant mali"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 2,
-    "content": "(5-1) ne temere quid loquaris neque cor tuum sit velox ad proferendum sermonem coram Deo Deus enim in caelo et tu super terram idcirco sint pauci sermones tui"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:1."
+        }
+      },
+      "ne temere quid loquaris neque cor tuum sit velox ad proferendum sermonem coram Deo Deus enim in caelo et tu super terram idcirco sint pauci sermones tui"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 3,
-    "content": "(5-2) multas curas sequuntur somnia et in multis sermonibus invenitur stultitia"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:2."
+        }
+      },
+      "multas curas sequuntur somnia et in multis sermonibus invenitur stultitia"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 4,
-    "content": "(5-3) si quid vovisti Deo ne moreris reddere displicet enim ei infidelis et stulta promissio sed quodcumque voveris redde"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:3."
+        }
+      },
+      "si quid vovisti Deo ne moreris reddere displicet enim ei infidelis et stulta promissio sed quodcumque voveris redde"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 5,
-    "content": "(5-4) multoque melius est non vovere quam post votum promissa non conplere"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:4."
+        }
+      },
+      "multoque melius est non vovere quam post votum promissa non conplere"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 6,
-    "content": "(5-5) ne dederis os tuum ut peccare faciat carnem tuam neque dicas coram angelo non est providentia ne forte iratus Deus super sermone tuo dissipet cuncta opera manuum tuarum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:5."
+        }
+      },
+      "ne dederis os tuum ut peccare faciat carnem tuam neque dicas coram angelo non est providentia ne forte iratus Deus super sermone tuo dissipet cuncta opera manuum tuarum"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 7,
-    "content": "(5-6) ubi multa sunt somnia plurimae vanitates et sermones innumeri tu vero Deum time"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:6."
+        }
+      },
+      "ubi multa sunt somnia plurimae vanitates et sermones innumeri tu vero Deum time"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 8,
-    "content": "(5-7) si videris calumnias egenorum et violenta iudicia et subverti iustitiam in provincia non mireris super hoc negotio quia excelso alius excelsior est et super hos quoque eminentiores sunt alii"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:7."
+        }
+      },
+      "si videris calumnias egenorum et violenta iudicia et subverti iustitiam in provincia non mireris super hoc negotio quia excelso alius excelsior est et super hos quoque eminentiores sunt alii"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 9,
-    "content": "(5-8) et insuper universae terrae rex imperat servienti"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:8."
+        }
+      },
+      "et insuper universae terrae rex imperat servienti"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 10,
-    "content": "(5-9) avarus non implebitur pecunia et qui amat divitias fructus non capiet ex eis et hoc ergo vanitas"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:9."
+        }
+      },
+      "avarus non implebitur pecunia et qui amat divitias fructus non capiet ex eis et hoc ergo vanitas"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 11,
-    "content": "(5-10) ubi multae sunt opes multi et qui comedant eas et quid prodest possessori nisi quod cernit divitias oculis suis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:10."
+        }
+      },
+      "ubi multae sunt opes multi et qui comedant eas et quid prodest possessori nisi quod cernit divitias oculis suis"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 12,
-    "content": "(5-11) dulcis est somnus operanti sive parum sive multum comedat saturitas autem divitis non sinit dormire eum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:11."
+        }
+      },
+      "dulcis est somnus operanti sive parum sive multum comedat saturitas autem divitis non sinit dormire eum"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 13,
-    "content": "(5-12) est et alia infirmitas pessima quam vidi sub sole divitiae conservatae in malum domini sui"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:12."
+        }
+      },
+      "est et alia infirmitas pessima quam vidi sub sole divitiae conservatae in malum domini sui"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 14,
-    "content": "(5-13) pereunt enim in adflictione pessima generavit filium qui in summa egestate erit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:13."
+        }
+      },
+      "pereunt enim in adflictione pessima generavit filium qui in summa egestate erit"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 15,
-    "content": "(5-14) sicut egressus est nudus de utero matris suae sic revertetur et nihil auferet secum de labore suo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:14."
+        }
+      },
+      "sicut egressus est nudus de utero matris suae sic revertetur et nihil auferet secum de labore suo"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 16,
-    "content": "(5-15) miserabilis prorsus infirmitas quomodo venit sic revertetur quid ergo prodest ei quod laboravit in ventum"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:15."
+        }
+      },
+      "miserabilis prorsus infirmitas quomodo venit sic revertetur quid ergo prodest ei quod laboravit in ventum"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 17,
-    "content": "(5-16) cunctis diebus vitae suae comedit in tenebris et in curis multis et in aerumna atque tristitia"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:16."
+        }
+      },
+      "cunctis diebus vitae suae comedit in tenebris et in curis multis et in aerumna atque tristitia"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 18,
-    "content": "(5-17) hoc itaque mihi visum est bonum ut comedat quis et bibat et fruatur laetitia ex labore suo quod laboravit ipse sub sole numerum dierum vitae suae quos dedit ei Deus et haec est pars illius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:17."
+        }
+      },
+      "hoc itaque mihi visum est bonum ut comedat quis et bibat et fruatur laetitia ex labore suo quod laboravit ipse sub sole numerum dierum vitae suae quos dedit ei Deus et haec est pars illius"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 19,
-    "content": "(5-18) et omni homini cui dedit Deus divitias atque substantiam potestatemque ei tribuit ut comedat ex eis et fruatur parte sua et laetetur de labore suo hoc est donum Dei"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:18."
+        }
+      },
+      "et omni homini cui dedit Deus divitias atque substantiam potestatemque ei tribuit ut comedat ex eis et fruatur parte sua et laetetur de labore suo hoc est donum Dei"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 5,
     "verse": 20,
-    "content": "(5-19) non enim satis recordabitur dierum vitae suae eo quod Deus occupet deliciis cor eius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 5:19."
+        }
+      },
+      "non enim satis recordabitur dierum vitae suae eo quod Deus occupet deliciis cor eius"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "est et aliud malum quod vidi sub sole et quidem frequens apud homines",
-      "paragraph": true
+      "paragraph": true,
+      "text": "est et aliud malum quod vidi sub sole et quidem frequens apud homines"
     }
   },
   {
@@ -699,192 +857,430 @@
     "book": "ECC",
     "chapter": 6,
     "verse": 12,
-    "content": "(7-1) quid necesse est homini maiora se quaerere cum ignoret quid conducat sibi in vita sua numero dierum peregrinationis suae et tempore quo velut umbra praeterit aut quis ei poterit indicare quid post eum futurum sub sole sit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:1."
+        }
+      },
+      "quid necesse est homini maiora se quaerere cum ignoret quid conducat sibi in vita sua numero dierum peregrinationis suae et tempore quo velut umbra praeterit aut quis ei poterit indicare quid post eum futurum sub sole sit"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "text": "(7-2) melius est nomen bonum quam unguenta pretiosa et dies mortis die nativitatis",
-      "paragraph": true
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:2."
+        }
+      },
+      "melius est nomen bonum quam unguenta pretiosa et dies mortis die nativitatis"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 2,
-    "content": "(7-3) melius est ire ad domum luctus quam ad domum convivii in illa enim finis cunctorum admonetur hominum et vivens cogitat quid futurum sit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:3."
+        }
+      },
+      "melius est ire ad domum luctus quam ad domum convivii in illa enim finis cunctorum admonetur hominum et vivens cogitat quid futurum sit"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 3,
-    "content": "(7-4) melior est ira risu quia per tristitiam vultus corrigitur animus delinquentis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:4."
+        }
+      },
+      "melior est ira risu quia per tristitiam vultus corrigitur animus delinquentis"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 4,
-    "content": "(7-5) cor sapientium ubi tristitia est et cor stultorum ubi laetitia"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:5."
+        }
+      },
+      "cor sapientium ubi tristitia est et cor stultorum ubi laetitia"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 5,
-    "content": "(7-6) melius est a sapiente corripi quam stultorum adulatione decipi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:6."
+        }
+      },
+      "melius est a sapiente corripi quam stultorum adulatione decipi"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 6,
-    "content": "(7-7) quia sicut sonitus spinarum ardentium sub olla sic risus stulti sed et hoc vanitas"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:7."
+        }
+      },
+      "quia sicut sonitus spinarum ardentium sub olla sic risus stulti sed et hoc vanitas"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 7,
-    "content": "(7-8) calumnia conturbat sapientem et perdet robur cordis illius"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:8."
+        }
+      },
+      "calumnia conturbat sapientem et perdet robur cordis illius"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 8,
-    "content": "(7-9) melior est finis orationis quam principium melior est patiens arrogante"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:9."
+        }
+      },
+      "melior est finis orationis quam principium melior est patiens arrogante"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 9,
-    "content": "(7-10) ne velox sis ad irascendum quia ira in sinu stulti requiescit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:10."
+        }
+      },
+      "ne velox sis ad irascendum quia ira in sinu stulti requiescit"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 10,
-    "content": "(7-11) ne dicas quid putas causae est quod priora tempora meliora fuere quam nunc sunt stulta est enim huiuscemodi interrogatio"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:11."
+        }
+      },
+      "ne dicas quid putas causae est quod priora tempora meliora fuere quam nunc sunt stulta est enim huiuscemodi interrogatio"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 11,
-    "content": "(7-12) utilior est sapientia cum divitiis et magis prodest videntibus solem"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:12."
+        }
+      },
+      "utilior est sapientia cum divitiis et magis prodest videntibus solem"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 12,
-    "content": "(7-13) sicut enim protegit sapientia sic protegit pecunia hoc autem plus habet eruditio et sapientia quod vitam tribuunt possessori suo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:13."
+        }
+      },
+      "sicut enim protegit sapientia sic protegit pecunia hoc autem plus habet eruditio et sapientia quod vitam tribuunt possessori suo"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 13,
-    "content": "(7-14) considera opera Dei quod nemo possit corrigere quem ille despexerit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:14."
+        }
+      },
+      "considera opera Dei quod nemo possit corrigere quem ille despexerit"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 14,
-    "content": "(7-15) in die bona fruere bonis et malam diem praecave sicut enim hanc sic et illam fecit Deus ut non inveniat homo contra eum iustas querimonias"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:15."
+        }
+      },
+      "in die bona fruere bonis et malam diem praecave sicut enim hanc sic et illam fecit Deus ut non inveniat homo contra eum iustas querimonias"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 15,
-    "content": "(7-16) haec quoque vidi in diebus vanitatis meae iustus perit in iustitia sua et impius multo vivit tempore in malitia sua"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:16."
+        }
+      },
+      "haec quoque vidi in diebus vanitatis meae iustus perit in iustitia sua et impius multo vivit tempore in malitia sua"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 16,
-    "content": "(7-17) noli esse iustus multum neque plus sapias quam necesse est ne obstupescas"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:17."
+        }
+      },
+      "noli esse iustus multum neque plus sapias quam necesse est ne obstupescas"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 17,
-    "content": "(7-18) ne impie agas multum et noli esse stultus ne moriaris in tempore non tuo"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:18."
+        }
+      },
+      "ne impie agas multum et noli esse stultus ne moriaris in tempore non tuo"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 18,
-    "content": "(7-19) bonum est te sustentare iustum sed et ab illo ne subtrahas manum tuam quia qui Deum timet nihil neglegit"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:19."
+        }
+      },
+      "bonum est te sustentare iustum sed et ab illo ne subtrahas manum tuam quia qui Deum timet nihil neglegit"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 19,
-    "content": "(7-20) sapientia confortabit sapientem super decem principes civitatis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:20."
+        }
+      },
+      "sapientia confortabit sapientem super decem principes civitatis"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 20,
-    "content": "(7-21) non est enim homo iustus in terra qui faciat bonum et non peccet"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:21."
+        }
+      },
+      "non est enim homo iustus in terra qui faciat bonum et non peccet"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 21,
-    "content": "(7-22) sed et cunctis sermonibus qui dicuntur ne accommodes cor tuum ne forte audias servum tuum maledicentem tibi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:22."
+        }
+      },
+      "sed et cunctis sermonibus qui dicuntur ne accommodes cor tuum ne forte audias servum tuum maledicentem tibi"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 22,
-    "content": "(7-23) scit enim tua conscientia quia et tu crebro maledixisti aliis"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:23."
+        }
+      },
+      "scit enim tua conscientia quia et tu crebro maledixisti aliis"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 23,
-    "content": "(7-24) cuncta temptavi in sapientia dixi sapiens efficiar et ipsa longius recessit a me"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:24."
+        }
+      },
+      "cuncta temptavi in sapientia dixi sapiens efficiar et ipsa longius recessit a me"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 24,
-    "content": "(7-25) multo magis quam erat et alta profunditas quis inveniet eam"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:25."
+        }
+      },
+      "multo magis quam erat et alta profunditas quis inveniet eam"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 25,
-    "content": "(7-26) lustravi universa animo meo ut scirem et considerarem et quaererem sapientiam et rationem et ut cognoscerem impietatem stulti et errorem inprudentium"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:26."
+        }
+      },
+      "lustravi universa animo meo ut scirem et considerarem et quaererem sapientiam et rationem et ut cognoscerem impietatem stulti et errorem inprudentium"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 26,
-    "content": "(7-27) et inveni amariorem morte mulierem quae laqueus venatorum est et sagena cor eius vincula sunt manus illius qui placet Deo effugiet eam qui autem peccator est capietur ab illa"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:27."
+        }
+      },
+      "et inveni amariorem morte mulierem quae laqueus venatorum est et sagena cor eius vincula sunt manus illius qui placet Deo effugiet eam qui autem peccator est capietur ab illa"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 27,
-    "content": "(7-28) ecce hoc inveni dicit Ecclesiastes unum et alterum ut invenirem rationem"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:28."
+        }
+      },
+      "ecce hoc inveni dicit Ecclesiastes unum et alterum ut invenirem rationem"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 28,
-    "content": "(7-29) quam adhuc quaerit anima mea et non inveni virum de mille unum repperi mulierem ex omnibus non inveni"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:29."
+        }
+      },
+      "quam adhuc quaerit anima mea et non inveni virum de mille unum repperi mulierem ex omnibus non inveni"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 7,
     "verse": 29,
-    "content": "(7-30) solummodo hoc inveni quod fecerit Deus hominem rectum et ipse se infinitis miscuerit quaestionibus quis talis ut sapiens est et quis cognovit solutionem verbi"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": "Originally verse 7:30."
+        }
+      },
+      "solummodo hoc inveni quod fecerit Deus hominem rectum et ipse se infinitis miscuerit quaestionibus quis talis ut sapiens est et quis cognovit solutionem verbi"
+    ]
   },
   {
     "book": "ECC",
     "chapter": 8,
     "verse": 1,
     "content": {
-      "text": "sapientia hominis lucet in vultu eius et potentissimus faciem illius commutavit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "sapientia hominis lucet in vultu eius et potentissimus faciem illius commutavit"
     }
   },
   {
@@ -988,8 +1384,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "omnia haec tractavi in corde meo ut curiose intellegerem sunt iusti atque sapientes et opera eorum in manu Dei et tamen nescit homo utrum amore an odio dignus sit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "omnia haec tractavi in corde meo ut curiose intellegerem sunt iusti atque sapientes et opera eorum in manu Dei et tamen nescit homo utrum amore an odio dignus sit"
     }
   },
   {
@@ -1099,8 +1495,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "muscae morientes perdunt suavitatem unguenti pretiosior est sapientia et gloria parva ad tempus stultitia",
-      "paragraph": true
+      "paragraph": true,
+      "text": "muscae morientes perdunt suavitatem unguenti pretiosior est sapientia et gloria parva ad tempus stultitia"
     }
   },
   {
@@ -1222,8 +1618,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "mitte panem tuum super transeuntes aquas quia post multa tempora invenies illum",
-      "paragraph": true
+      "paragraph": true,
+      "text": "mitte panem tuum super transeuntes aquas quia post multa tempora invenies illum"
     }
   },
   {
@@ -1285,8 +1681,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "memento creatoris tui in diebus iuventutis tuae antequam veniat tempus adflictionis et adpropinquent anni de quibus dicas non mihi placent",
-      "paragraph": true
+      "paragraph": true,
+      "text": "memento creatoris tui in diebus iuventutis tuae antequam veniat tempus adflictionis et adpropinquent anni de quibus dicas non mihi placent"
     }
   },
   {

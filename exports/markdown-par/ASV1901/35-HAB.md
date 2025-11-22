@@ -17,6 +17,7 @@
 <sup>15</sup> He taketh up all of them with the angle, he catcheth them in his net, and gathereth them in his drag: therefore he rejoiceth and is glad.
 <sup>16</sup> Therefore he sacrificeth unto his net, and burneth incense unto his drag; because by them his portion is fat, and his food plenteous.
 <sup>17</sup> Shall he therefore empty his net, and spare not to slay the nations continually?
+
 ## Chapter 2
 
 <sup>1</sup> I will stand upon my watch, and set me upon the tower, and will look forth to see what he will speak with me, and what I shall answer concerning my complaint.
@@ -39,6 +40,7 @@
 <sup>18</sup> What profiteth the graven image, that the maker thereof hath graven it; the molten image, even the teacher of lies, that he that fashioneth its form trusteth therein, to make dumb idols?
 <sup>19</sup> Woe unto him that saith to the wood, Awake; to the dumb stone, Arise! Shall this teach? Behold, it is overlaid with gold and silver, and there is no breath at all in the midst of it.
 <sup>20</sup> But Jehovah is in his holy temple: let all the earth keep silence before him.
+
 ## Chapter 3
 
 <sup>1</sup> A prayer of Habakkuk the prophet, set to Shigionoth.

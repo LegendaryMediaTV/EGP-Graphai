@@ -51,6 +51,7 @@
 <sup>49</sup> Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel.
 <sup>50</sup> Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these.
 <sup>51</sup> And he saith unto him, Verily, verily, I say unto you, Hereafter ye shall see heaven open, and the angels of God ascending and descending upon the Son of man.
+
 ## Chapter 2
 
 <sup>1</sup> And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there:
@@ -65,9 +66,9 @@
 <sup>10</sup> And saith unto him, Every man at the beginning doth set forth good wine; and when men have well drunk, then that which is worse: [but] thou hast kept the good wine until now.
 <sup>11</sup> This beginning of miracles did Jesus in Cana of Galilee, and manifested forth his glory; and his disciples believed on him.
 <sup>12</sup> After this he went down to Capernaum, he, and his mother, and his brethren, and his disciples: and they continued there not many days.
-<sup>13</sup> And the Jews ’ passover was at hand, and Jesus went up to Jerusalem,
+<sup>13</sup> And the Jews’ passover was at hand, and Jesus went up to Jerusalem,
 <sup>14</sup> And found in the temple those that sold oxen and sheep and doves, and the changers of money sitting:
-<sup>15</sup> And when he had made a scourge of small cords, he drove them all out of the temple, and the sheep, and the oxen; and poured out the changers ’ money, and overthrew the tables;
+<sup>15</sup> And when he had made a scourge of small cords, he drove them all out of the temple, and the sheep, and the oxen; and poured out the changers’ money, and overthrew the tables;
 <sup>16</sup> And said unto them that sold doves, Take these things hence; make not my Father’s house an house of merchandise.
 <sup>17</sup> And his disciples remembered that it was written, The zeal of thine house hath eaten me up.
 <sup>18</sup> Then answered the Jews and said unto him, What sign shewest thou unto us, seeing that thou doest these things?
@@ -78,9 +79,12 @@
 <sup>23</sup> Now when he was in Jerusalem at the passover, in the feast [day], many believed in his name, when they saw the miracles which he did.
 <sup>24</sup> But Jesus did not commit himself unto them, because he knew all [men],
 <sup>25</sup> And needed not that any should testify of man: for he knew what was in man.
+
 ## Chapter 3
 
-<sup>1</sup>  There was a man of the Pharisees, named Nicodemus, a ruler of the Jews:
+<sup>1</sup> 
+
+ There was a man of the Pharisees, named Nicodemus, a ruler of the Jews:
 <sup>2</sup> The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.
 <sup>3</sup> Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.
 <sup>4</sup> Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother’s womb, and be born?
@@ -116,6 +120,7 @@
 <sup>34</sup> For he whom God hath sent speaketh the words of God: for God giveth not the Spirit by measure [unto him].
 <sup>35</sup> The Father loveth the Son, and hath given all things into his hand.
 <sup>36</sup> He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him.
+
 ## Chapter 4
 
 <sup>1</sup> When therefore the Lord knew how the Pharisees had heard that Jesus made and baptized more disciples than John,
@@ -172,6 +177,7 @@
 <sup>52</sup> Then enquired he of them the hour when he began to amend. And they said unto him, Yesterday at the seventh hour the fever left him.
 <sup>53</sup> So the father knew that [it was] at the same hour, in the which Jesus said unto him, Thy son liveth: and himself believed, and his whole house.
 <sup>54</sup> This [is] again the second miracle [that] Jesus did, when he was come out of Judaea into Galilee.
+
 ## Chapter 5
 
 <sup>1</sup> After this there was a feast of the Jews; and Jesus went up to Jerusalem.
@@ -221,6 +227,7 @@
 <sup>45</sup> Do not think that I will accuse you to the Father: there is [one] that accuseth you, [even] Moses, in whom ye trust.
 <sup>46</sup> For had ye believed Moses, ye would have believed me: for he wrote of me.
 <sup>47</sup> But if ye believe not his writings, how shall ye believe my words?
+
 ## Chapter 6
 
 <sup>1</sup> After these things Jesus went over the sea of Galilee, which is [the sea] of Tiberias.
@@ -294,10 +301,13 @@
 <sup>69</sup> And we believe and are sure that thou art that Christ, the Son of the living God.
 <sup>70</sup> Jesus answered them, Have not I chosen you twelve, and one of you is a devil?
 <sup>71</sup>  He spake of Judas Iscariot [the son] of Simon: for he it was that should betray him, being one of the twelve.
+
 ## Chapter 7
 
-<sup>1</sup>  After these things Jesus walked in Galilee: for he would not walk in Jewry, because the Jews sought to kill him.
-<sup>2</sup> Now the Jews ’ feast of tabernacles was at hand.
+<sup>1</sup> 
+
+ After these things Jesus walked in Galilee: for he would not walk in Jewry, because the Jews sought to kill him.
+<sup>2</sup> Now the Jews’ feast of tabernacles was at hand.
 <sup>3</sup> His brethren therefore said unto him, Depart hence, and go into Judaea, that thy disciples also may see the works that thou doest.
 <sup>4</sup> For [there is] no man [that] doeth any thing in secret, and he himself seeketh to be known openly. If thou do these things, shew thyself to the world.
 <sup>5</sup> For neither did his brethren believe in him.
@@ -349,9 +359,12 @@
 <sup>51</sup> Doth our law judge [any] man, before it hear him, and know what he doeth?
 <sup>52</sup> They answered and said unto him, Art thou also of Galilee? Search, and look: for out of Galilee ariseth no prophet.
 <sup>53</sup> And every man went unto his own house.
+
 ## Chapter 8
 
-<sup>1</sup>  Jesus went unto the mount of Olives.
+<sup>1</sup> 
+
+ Jesus went unto the mount of Olives.
 <sup>2</sup> And early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them.
 <sup>3</sup> And the scribes and Pharisees brought unto him a woman taken in adultery; and when they had set her in the midst,
 <sup>4</sup> They say unto him, Master, this woman was taken in adultery, in the very act.
@@ -410,6 +423,7 @@
 <sup>57</sup> Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham?
 <sup>58</sup> Jesus said unto them, Verily, verily, I say unto you, Before Abraham was, I am.
 <sup>59</sup> Then took they up stones to cast at him: but Jesus hid himself, and went out of the temple, going through the midst of them, and so passed by.
+
 ## Chapter 9
 
 <sup>1</sup> And as [Jesus] passed by, he saw a man which was blind from [his] birth.
@@ -439,7 +453,7 @@
 <sup>25</sup>  He answered and said, Whether he be a sinner [or no], I know not: one thing I know, that, whereas I was blind, now I see.
 <sup>26</sup> Then said they to him again, What did he to thee? how opened he thine eyes?
 <sup>27</sup> He answered them, I have told you already, and ye did not hear: wherefore would ye hear [it] again? will ye also be his disciples?
-<sup>28</sup> Then they reviled him, and said, Thou art his disciple; but we are Moses ’ disciples.
+<sup>28</sup> Then they reviled him, and said, Thou art his disciple; but we are Moses’ disciples.
 <sup>29</sup> We know that God spake unto Moses: [as for] this [fellow], we know not from whence he is.
 <sup>30</sup> The man answered and said unto them, Why herein is a marvellous thing, that ye know not from whence he is, and [yet] he hath opened mine eyes.
 <sup>31</sup> Now we know that God heareth not sinners: but if any man be a worshipper of God, and doeth his will, him he heareth.
@@ -453,6 +467,7 @@
 <sup>39</sup> And Jesus said, For judgment I am come into this world, that they which see not might see; and that they which see might be made blind.
 <sup>40</sup> And [some] of the Pharisees which were with him heard these words, and said unto him, Are we blind also?
 <sup>41</sup> Jesus said unto them, If ye were blind, ye should have no sin: but now ye say, We see; therefore your sin remaineth.
+
 ## Chapter 10
 
 <sup>1</sup> Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber.
@@ -497,6 +512,7 @@
 <sup>40</sup> And went away again beyond Jordan into the place where John at first baptized; and there he abode.
 <sup>41</sup> And many resorted unto him, and said, John did no miracle: but all things that John spake of this man were true.
 <sup>42</sup> And many believed on him there.
+
 ## Chapter 11
 
 <sup>1</sup> Now a certain [man] was sick, [named] Lazarus, of Bethany, the town of Mary and her sister Martha.
@@ -553,9 +569,10 @@
 <sup>52</sup> And not for that nation only, but that also he should gather together in one the children of God that were scattered abroad.
 <sup>53</sup> Then from that day forth they took counsel together for to put him to death.
 <sup>54</sup> Jesus therefore walked no more openly among the Jews; but went thence unto a country near to the wilderness, into a city called Ephraim, and there continued with his disciples.
-<sup>55</sup> And the Jews ’ passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.
+<sup>55</sup> And the Jews’ passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.
 <sup>56</sup> Then sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast?
 <sup>57</sup> Now both the chief priests and the Pharisees had given a commandment, that, if any man knew where he were, he should shew [it], that they might take him.
+
 ## Chapter 12
 
 <sup>1</sup> Then Jesus six days before the passover came to Bethany, where Lazarus was which had been dead, whom he raised from the dead.
@@ -566,7 +583,7 @@
 <sup>6</sup>  This he said, not that he cared for the poor; but because he was a thief, and had the bag, and bare what was put therein.
 <sup>7</sup> Then said Jesus, Let her alone: against the day of my burying hath she kept this.
 <sup>8</sup> For the poor always ye have with you; but me ye have not always.
-<sup>9</sup> Much people of the Jews therefore knew that he was there: and they came not for Jesus ’ sake only, but that they might see Lazarus also, whom he had raised from the dead.
+<sup>9</sup> Much people of the Jews therefore knew that he was there: and they came not for Jesus’ sake only, but that they might see Lazarus also, whom he had raised from the dead.
 <sup>10</sup> But the chief priests consulted that they might put Lazarus also to death;
 <sup>11</sup> Because that by reason of him many of the Jews went away, and believed on Jesus.
 <sup>12</sup> On the next day much people that were come to the feast, when they heard that Jesus was coming to Jerusalem,
@@ -608,13 +625,14 @@
 <sup>48</sup> He that rejecteth me, and receiveth not my words, hath one that judgeth him: the word that I have spoken, the same shall judge him in the last day.
 <sup>49</sup> For I have not spoken of myself; but the Father which sent me, he gave me a commandment, what I should say, and what I should speak.
 <sup>50</sup> And I know that his commandment is life everlasting: whatsoever I speak therefore, even as the Father said unto me, so I speak.
+
 ## Chapter 13
 
 <sup>1</sup> Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, having loved his own which were in the world, he loved them unto the end.
 <sup>2</sup> And supper being ended, the devil having now put into the heart of Judas Iscariot, Simon’s [son], to betray him;
 <sup>3</sup> Jesus knowing that the Father had given all things into his hands, and that he was come from God, and went to God;
 <sup>4</sup> He riseth from supper, and laid aside his garments; and took a towel, and girded himself.
-<sup>5</sup> After that he poureth water into a bason, and began to wash the disciples ’ feet, and to wipe [them] with the towel wherewith he was girded.
+<sup>5</sup> After that he poureth water into a bason, and began to wash the disciples’ feet, and to wipe [them] with the towel wherewith he was girded.
 <sup>6</sup> Then cometh he to Simon Peter: and Peter saith unto him, Lord, dost thou wash my feet?
 <sup>7</sup> Jesus answered and said unto him, What I do thou knowest not now; but thou shalt know hereafter.
 <sup>8</sup> Peter saith unto him, Thou shalt never wash my feet. Jesus answered him, If I wash thee not, thou hast no part with me.
@@ -632,9 +650,9 @@
 <sup>20</sup> Verily, verily, I say unto you, He that receiveth whomsoever I send receiveth me; and he that receiveth me receiveth him that sent me.
 <sup>21</sup> When Jesus had thus said, he was troubled in spirit, and testified, and said, Verily, verily, I say unto you, that one of you shall betray me.
 <sup>22</sup> Then the disciples looked one on another, doubting of whom he spake.
-<sup>23</sup> Now there was leaning on Jesus ’ bosom one of his disciples, whom Jesus loved.
+<sup>23</sup> Now there was leaning on Jesus’ bosom one of his disciples, whom Jesus loved.
 <sup>24</sup> Simon Peter therefore beckoned to him, that he should ask who it should be of whom he spake.
-<sup>25</sup> He then lying on Jesus ’ breast saith unto him, Lord, who is it?
+<sup>25</sup> He then lying on Jesus’ breast saith unto him, Lord, who is it?
 <sup>26</sup> Jesus answered, He it is, to whom I shall give a sop, when I have dipped [it]. And when he had dipped the sop, he gave [it] to Judas Iscariot, [the son] of Simon.
 <sup>27</sup> And after the sop Satan entered into him. Then said Jesus unto him, That thou doest, do quickly.
 <sup>28</sup> Now no man at the table knew for what intent he spake this unto him.
@@ -648,6 +666,7 @@
 <sup>36</sup> Simon Peter said unto him, Lord, whither goest thou? Jesus answered him, Whither I go, thou canst not follow me now; but thou shalt follow me afterwards.
 <sup>37</sup> Peter said unto him, Lord, why cannot I follow thee now? I will lay down my life for thy sake.
 <sup>38</sup> Jesus answered him, Wilt thou lay down thy life for my sake? Verily, verily, I say unto thee, The cock shall not crow, till thou hast denied me thrice.
+
 ## Chapter 14
 
 <sup>1</sup> Let not your heart be troubled: ye believe in God, believe also in me.
@@ -660,7 +679,7 @@
 <sup>8</sup> Philip saith unto him, Lord, shew us the Father, and it sufficeth us.
 <sup>9</sup> Jesus saith unto him, Have I been so long time with you, and yet hast thou not known me, Philip? he that hath seen me hath seen the Father; and how sayest thou [then], Shew us the Father?
 <sup>10</sup> Believest thou not that I am in the Father, and the Father in me? the words that I speak unto you I speak not of myself: but the Father that dwelleth in me, he doeth the works.
-<sup>11</sup> Believe me that I [am] in the Father, and the Father in me: or else believe me for the very works ’ sake.
+<sup>11</sup> Believe me that I [am] in the Father, and the Father in me: or else believe me for the very works’ sake.
 <sup>12</sup> Verily, verily, I say unto you, He that believeth on me, the works that I do shall he do also; and greater [works] than these shall he do; because I go unto my Father.
 <sup>13</sup> And whatsoever ye shall ask in my name, that will I do, that the Father may be glorified in the Son.
 <sup>14</sup> If ye shall ask any thing in my name, I will do [it].
@@ -681,6 +700,7 @@
 <sup>29</sup> And now I have told you before it come to pass, that, when it is come to pass, ye might believe.
 <sup>30</sup> Hereafter I will not talk much with you: for the prince of this world cometh, and hath nothing in me.
 <sup>31</sup> But that the world may know that I love the Father; and as the Father gave me commandment, even so I do. Arise, let us go hence.
+
 ## Chapter 15
 
 <sup>1</sup> I am the true vine, and my Father is the husbandman.
@@ -710,6 +730,7 @@
 <sup>25</sup> But [this cometh to pass], that the word might be fulfilled that is written in their law, They hated me without a cause.
 <sup>26</sup> But when the Comforter is come, whom I will send unto you from the Father, [even] the Spirit of truth, which proceedeth from the Father, he shall testify of me:
 <sup>27</sup> And ye also shall bear witness, because ye have been with me from the beginning.
+
 ## Chapter 16
 
 <sup>1</sup> These things have I spoken unto you, that ye should not be offended.
@@ -745,6 +766,7 @@
 <sup>31</sup> Jesus answered them, Do ye now believe?
 <sup>32</sup> Behold, the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone: and yet I am not alone, because the Father is with me.
 <sup>33</sup> These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.
+
 ## Chapter 17
 
 <sup>1</sup> These words spake Jesus, and lifted up his eyes to heaven, and said, Father, the hour is come; glorify thy Son, that thy Son also may glorify thee:
@@ -773,6 +795,7 @@
 <sup>24</sup> Father, I will that they also, whom thou hast given me, be with me where I am; that they may behold my glory, which thou hast given me: for thou lovedst me before the foundation of the world.
 <sup>25</sup>  O righteous Father, the world hath not known thee: but I have known thee, and these have known that thou hast sent me.
 <sup>26</sup> And I have declared unto them thy name, and will declare [it]: that the love wherewith thou hast loved me may be in them, and I in them.
+
 ## Chapter 18
 
 <sup>1</sup> When Jesus had spoken these words, he went forth with his disciples over the brook Cedron, where was a garden, into the which he entered, and his disciples.
@@ -815,6 +838,7 @@
 <sup>38</sup> Pilate saith unto him, What is truth? And when he had said this, he went out again unto the Jews, and saith unto them, I find in him no fault [at all].
 <sup>39</sup> But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews?
 <sup>40</sup> Then cried they all again, saying, Not this man, but Barabbas. Now Barabbas was a robber.
+
 ## Chapter 19
 
 <sup>1</sup> Then Pilate therefore took Jesus, and scourged [him].
@@ -858,10 +882,13 @@
 <sup>39</sup> And there came also Nicodemus, which at the first came to Jesus by night, and brought a mixture of myrrh and aloes, about an hundred pound [weight].
 <sup>40</sup> Then took they the body of Jesus, and wound it in linen clothes with the spices, as the manner of the Jews is to bury.
 <sup>41</sup> Now in the place where he was crucified there was a garden; and in the garden a new sepulchre, wherein was never man yet laid.
-<sup>42</sup> There laid they Jesus therefore because of the Jews ’ preparation [day]; for the sepulchre was nigh at hand.
+<sup>42</sup> There laid they Jesus therefore because of the Jews’ preparation [day]; for the sepulchre was nigh at hand.
+
 ## Chapter 20
 
-<sup>1</sup>  The first [day] of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
+<sup>1</sup> 
+
+ The first [day] of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
 <sup>2</sup> Then she runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved, and saith unto them, They have taken away the Lord out of the sepulchre, and we know not where they have laid him.
 <sup>3</sup> Peter therefore went forth, and that other disciple, and came to the sepulchre.
 <sup>4</sup> So they ran both together: and the other disciple did outrun Peter, and came first to the sepulchre.
@@ -892,6 +919,7 @@
 <sup>29</sup> Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed [are] they that have not seen, and [yet] have believed.
 <sup>30</sup> And many other signs truly did Jesus in the presence of his disciples, which are not written in this book:
 <sup>31</sup> But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.
+
 ## Chapter 21
 
 <sup>1</sup> After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he [himself].

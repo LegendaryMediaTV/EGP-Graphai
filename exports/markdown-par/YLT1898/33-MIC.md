@@ -16,6 +16,7 @@
 <sup>14</sup> Therefore thou givest presents to Moresheth-Gath, The houses of Achzib become a lying thing to the kings of Israel.
 <sup>15</sup> Yet the possessor I do bring in to thee, O inhabitant of Mareshah, To Adullam come in doth the honour of Israel.
 <sup>16</sup> Make bald and shave, for thy delightful sons, Enlarge thy baldness as an eagle, For they have removed from thee!
+
 ## Chapter 2
 
 <sup>1</sup> Woe to those devising iniquity, And working evil on their beds, In the light of the morning they do it, For their hand is-to God.
@@ -31,6 +32,7 @@
 <sup>11</sup> If one is going with the wind, And with falsehood hath lied: ‘I prophesy to thee of wine, and of strong drink,’ He hath been the prophet of this people!
 <sup>12</sup> I do surely gather thee, O Jacob, all of thee, I surely bring together the remnant of Israel, Together I do set it as the flock of Bozrah, As a drove in the midst of its pasture, It maketh a noise because of man.
 <sup>13</sup> Gone up hath the breaker before them, They have broken through, Yea, they pass through the gate, Yea, they go out through it, And pass on doth their king before them, And Jehovah at their head!
+
 ## Chapter 3
 
 <sup>1</sup> And I say, ‘Hear, I pray you, heads of Jacob, And ye judges of the house of Israel, Is it not for you to know the judgment?
@@ -45,6 +47,7 @@
 <sup>10</sup> Building up Zion with blood, And Jerusalem with iniquity.
 <sup>11</sup> Her heads for a bribe do judge, And her priests for hire do teach, And her prophets for silver divine, And on Jehovah they lean, saying, ‘Is not Jehovah in our midst? Evil doth not come in upon us.’
 <sup>12</sup> Therefore, for your sake, Zion is ploughed a field, and Jerusalem is heaps, And the mount of the house is for high places of a forest!
+
 ## Chapter 4
 
 <sup>1</sup> And it hath come to pass, In the latter end of the days, The mount of the house of Jehovah Is established above the top of the mounts, And it hath been lifted up above the hills, And flowed unto it have peoples.
@@ -60,6 +63,7 @@
 <sup>11</sup> And now, gathered against thee have been many nations, who are saying: ‘Let her be defiled, and our eyes look on Zion.’
 <sup>12</sup> They have not known the thoughts of Jehovah, Nor have they understood His counsel, For He hath gathered them as a sheaf into a threshing-floor.
 <sup>13</sup> Arise, and thresh, O daughter of Zion, For thy horn I make iron, And thy hoofs I make brass, And thou hast beaten small many peoples, And I have devoted to Jehovah their gain, And their wealth to the Lord of the whole earth!
+
 ## Chapter 5
 
 <sup>1</sup> Now gather thyself together, O daughter of troops, A siege he hath laid against us, With a rod they smite on the cheek the judge of Israel.
@@ -77,6 +81,7 @@
 <sup>13</sup> And I have cut off thy graven images, And thy standing-pillars out of thy midst, And thou dost not bow thyself any more To the work of thy hands.
 <sup>14</sup> And I have plucked up thy shrines out of thy midst, And I have destroyed thine enemies.
 <sup>15</sup> And I have done vengeance in anger and in fury, With the nations who have not hearkened!
+
 ## Chapter 6
 
 <sup>1</sup> Hear, I pray you, that which Jehovah is saying: ‘Rise-strive thou with the mountains, And cause thou the hills to hear thy voice.’
@@ -95,6 +100,7 @@
 <sup>14</sup> Thou-thou eatest, and thou art not satisfied, And thy pit is in thy midst, And thou removest, and dost not deliver, And that which thou deliverest, to a sword I give.
 <sup>15</sup> Thou-thou sowest, and thou dost not reap, Thou-thou treadest the olive, And thou pourest not out oil, And new wine-and thou drinkest not wine.
 <sup>16</sup> And kept habitually are the statutes of Omri, And all the work of the house of Ahab, And ye do walk in their counsels, For My giving thee for a desolation, And its inhabitants for a hissing, And the reproach of My people ye do bear!
+
 ## Chapter 7
 
 <sup>1</sup> My woe is to me, for I have been As gatherings of summer-fruit, As gleanings of harvest, There is no cluster to eat, The first-ripe fruit desired hath my soul.

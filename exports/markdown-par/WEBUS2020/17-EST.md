@@ -29,6 +29,7 @@
 
 <sup>21</sup> This advice pleased the king and the princes, and the king did according to the word of Memucan:
 <sup>22</sup> for he sent letters into all the king’s provinces, into every province according to its writing, and to every people in their language, that every man should rule his own house, speaking in the language of his own people.
+
 ## Chapter 2
 
 <sup>1</sup> After these things, when the wrath of King Ahasuerus was pacified, he remembered Vashti, and what she had done, and what was decreed against her.
@@ -61,6 +62,7 @@
 <sup>21</sup> In those days, while Mordecai was sitting in the king’s gate, two of the king’s eunuchs, Bigthan and Teresh, who were doorkeepers, were angry, and sought to lay hands on the King Ahasuerus.
 <sup>22</sup> This thing became known to Mordecai, who informed Esther the queen; and Esther informed the king in Mordecai’s name.
 <sup>23</sup> When this matter was investigated, and it was found to be so, they were both hanged on a gallows; and it was written in the book of the chronicles in the king’s presence.
+
 ## Chapter 3
 
 <sup>1</sup> After these things King Ahasuerus promoted Haman the son of Hammedatha the Agagite, and advanced him, and set his seat above all the princes who were with him.
@@ -107,6 +109,7 @@
 <sup>15</sup> Then Esther asked them to answer Mordecai,
 <sup>16</sup> “Go, gather together all the Jews who are present in Susa, and fast for me, and neither eat nor drink three days, night or day. I and my maidens will also fast the same way. Then I will go in to the king, which is against the law; and if I perish, I perish.”
 <sup>17</sup> So Mordecai went his way, and did according to all that Esther had commanded him.
+
 ## Chapter 5
 
 <sup>1</sup> Now on the third day, Esther put on her royal clothing and stood in the inner court of the king’s house, next to the king’s house. The king sat on his royal throne in the royal house, next to the entrance of the house.
@@ -138,12 +141,18 @@
 
 <sup>1</sup> On that night, the king couldn’t sleep. He commanded the book of records of the chronicles to be brought, and they were read to the king.
 <sup>2</sup> It was found written that Mordecai had told of Bigthana and Teresh, two of the king’s eunuchs, who were doorkeepers, who had tried to lay hands on the King Ahasuerus.
-<sup>3</sup> The king said, “What honor and dignity has been given to Mordecai for this?” Then the king’s servants who attended him said, “Nothing has been done for him.”
+<sup>3</sup> The king said, “What honor and dignity has been given to Mordecai for this?”
+
+Then the king’s servants who attended him said, “Nothing has been done for him.”
 
 <sup>4</sup> The king said, “Who is in the court?” Now Haman had come into the outer court of the king’s house, to speak to the king about hanging Mordecai on the gallows that he had prepared for him.
 
-<sup>5</sup> The king’s servants said to him, “Behold,<sup>a</sup> Haman stands in the court.” The king said, “Let him come in.”
-<sup>6</sup> So Haman came in. The king said to him, “What shall be done to the man whom the king delights to honor?” Now Haman said in his heart, “Who would the king delight to honor more than myself?”
+<sup>5</sup> The king’s servants said to him, “Behold,<sup>a</sup> Haman stands in the court.”
+
+The king said, “Let him come in.”
+<sup>6</sup> So Haman came in. The king said to him, “What shall be done to the man whom the king delights to honor?”
+
+Now Haman said in his heart, “Who would the king delight to honor more than myself?”
 <sup>7</sup> Haman said to the king, “For the man whom the king delights to honor,
 <sup>8</sup> let royal clothing be brought which the king uses to wear, and the horse that the king rides on, and on the head of which a royal crown is set.
 <sup>9</sup> Let the clothing and the horse be delivered to the hand of one of the king’s most noble princes, that they may array the man whom the king delights to honor with them, and have him ride on horseback through the city square, and proclaim before him, ‘Thus it shall be done to the man whom the king delights to honor!’ ”
@@ -168,11 +177,15 @@
 
 <sup>5</sup> Then King Ahasuerus said to Esther the queen, “Who is he, and where is he who dared presume in his heart to do so?”
 
-<sup>6</sup> Esther said, “An adversary and an enemy, even this wicked Haman!” Then Haman was afraid before the king and the queen.
+<sup>6</sup> Esther said, “An adversary and an enemy, even this wicked Haman!”
+
+Then Haman was afraid before the king and the queen.
 <sup>7</sup> The king arose in his wrath from the banquet of wine and went into the palace garden. Haman stood up to make request for his life to Esther the queen, for he saw that there was evil determined against him by the king.
 <sup>8</sup> Then the king returned out of the palace garden into the place of the banquet of wine; and Haman had fallen on the couch where Esther was. Then the king said, “Will he even assault the queen in front of me in the house?” As the word went out of the king’s mouth, they covered Haman’s face.
 
-<sup>9</sup> Then Harbonah, one of the eunuchs who were with the king, said, “Behold, the gallows fifty cubits<sup>a</sup> high, which Haman has made for Mordecai, who spoke good for the king, is standing at Haman’s house.” The king said, “Hang him on it!”
+<sup>9</sup> Then Harbonah, one of the eunuchs who were with the king, said, “Behold, the gallows fifty cubits<sup>a</sup> high, which Haman has made for Mordecai, who spoke good for the king, is standing at Haman’s house.”
+
+The king said, “Hang him on it!”
 
 <sup>10</sup> So they hanged Haman on the gallows that he had prepared for Mordecai. Then the king’s wrath was pacified.
 
@@ -201,6 +214,7 @@
 <sup>15</sup> Mordecai went out of the presence of the king in royal clothing of blue and white, and with a great crown of gold, and with a robe of fine linen and purple; and the city of Susa shouted and was glad.
 <sup>16</sup> The Jews had light, gladness, joy, and honor.
 <sup>17</sup> In every province and in every city, wherever the king’s commandment and his decree came, the Jews had gladness, joy, a feast and a holiday. Many from among the peoples of the land became Jews, for the fear of the Jews had fallen on them.
+
 ## Chapter 9
 
 <sup>1</sup> Now in the twelfth month, which is the month Adar, on the thirteenth day of the month, when the king’s commandment and his decree came near to be put in execution, on the day that the enemies of the Jews hoped to conquer them, (but it turned out that the opposite happened, that the Jews conquered those who hated them),

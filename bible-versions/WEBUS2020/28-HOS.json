@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Yahweh’s",
         "foot": {
           "type": "stu",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
-        },
-        "paragraph": true
+        }
       },
       " word that came to Hosea the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel."
     ]
@@ -20,8 +20,8 @@
     "chapter": 1,
     "verse": 2,
     "content": {
-      "text": "When Yahweh spoke at first by Hosea, Yahweh said to Hosea, “Go, take for yourself a wife of prostitution and children of unfaithfulness; for the land commits great adultery, forsaking Yahweh.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "When Yahweh spoke at first by Hosea, Yahweh said to Hosea, “Go, take for yourself a wife of prostitution and children of unfaithfulness; for the land commits great adultery, forsaking Yahweh.”"
     }
   },
   {
@@ -29,8 +29,8 @@
     "chapter": 1,
     "verse": 3,
     "content": {
-      "text": "So he went and took Gomer the daughter of Diblaim; and she conceived, and bore him a son.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So he went and took Gomer the daughter of Diblaim; and she conceived, and bore him a son."
     }
   },
   {
@@ -38,8 +38,8 @@
     "chapter": 1,
     "verse": 4,
     "content": {
-      "text": "Yahweh said to him, “Call his name Jezreel, for yet a little while, and I will avenge the blood of Jezreel on the house of Jehu, and will cause the kingdom of the house of Israel to cease.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to him, “Call his name Jezreel, for yet a little while, and I will avenge the blood of Jezreel on the house of Jehu, and will cause the kingdom of the house of Israel to cease."
     }
   },
   {
@@ -54,12 +54,20 @@
     "verse": 6,
     "content": [
       {
-        "text": "She conceived again, and bore a daughter. Then he said to him, “Call her name Lo-Ruhamah,",
+        "paragraph": true,
+        "text": "She conceived again, and bore a daughter.",
         "foot": {
           "type": "stu",
           "content": "Lo-Ruhamah means “not loved”."
-        },
-        "paragraph": true
+        }
+      },
+      {
+        "paragraph": true,
+        "text": "Then he said to him, “Call her name Lo-Ruhamah,",
+        "foot": {
+          "type": "stu",
+          "content": "Lo-Ruhamah means “not loved”."
+        }
       },
       " for I will no longer have mercy on the house of Israel, that I should in any way pardon them."
     ]
@@ -91,8 +99,8 @@
     "chapter": 1,
     "verse": 8,
     "content": {
-      "text": "Now when she had weaned Lo-Ruhamah, she conceived, and bore a son.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now when she had weaned Lo-Ruhamah, she conceived, and bore a son."
     }
   },
   {
@@ -101,12 +109,12 @@
     "verse": 9,
     "content": [
       {
+        "paragraph": true,
         "text": "He said, “Call his name Lo-Ammi,",
         "foot": {
           "type": "stu",
           "content": "Lo-Ammi means “not my people”."
-        },
-        "paragraph": true
+        }
       },
       " for you are not my people, and I will not be yours."
     ]
@@ -129,21 +137,21 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "“Say to your brothers, ‘My people!’",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "‘Ammi’ in Hebrew"
-        },
-        "paragraph": true,
-        "break": true
+        }
       },
       {
         "text": "and to your sisters, ‘My loved one!’",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "‘Ruhamah’ in Hebrew"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -621,8 +629,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Yahweh said to me, “Go again, love a woman loved by another, and an adulteress, even as Yahweh loves the children of Israel, though they turn to other gods, and love cakes of raisins.”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Yahweh said to me, “Go again, love a woman loved by another, and an adulteress, even as Yahweh loves the children of Israel, though they turn to other gods, and love cakes of raisins.”"
     }
   },
   {
@@ -631,12 +639,12 @@
     "verse": 2,
     "content": [
       {
+        "paragraph": true,
         "text": "So I bought her for myself for fifteen pieces of silver and a homer",
         "foot": {
           "type": "stu",
           "content": "1 homer is about 220 liters or 6 bushels"
-        },
-        "paragraph": true
+        }
       },
       " and a half of barley."
     ]
@@ -652,8 +660,8 @@
     "chapter": 3,
     "verse": 4,
     "content": {
-      "text": "For the children of Israel shall live many days without king, without prince, without sacrifice, without sacred stone, and without ephod or idols.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For the children of Israel shall live many days without king, without prince, without sacrifice, without sacred stone, and without ephod or idols."
     }
   },
   {
@@ -668,8 +676,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Hear Yahweh’s word, you children of Israel,",
         "paragraph": true,
+        "text": "Hear Yahweh’s word, you children of Israel,",
         "break": true
       },
       {
@@ -731,8 +739,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "“Yet let no man bring a charge, neither let any man accuse;",
         "paragraph": true,
+        "text": "“Yet let no man bring a charge, neither let any man accuse;",
         "break": true
       },
       {
@@ -944,8 +952,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "“Though you, Israel, play the prostitute,",
         "paragraph": true,
+        "text": "“Though you, Israel, play the prostitute,",
         "break": true
       },
       {
@@ -1033,8 +1041,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "“Listen to this, you priests!",
         "paragraph": true,
+        "text": "“Listen to this, you priests!",
         "break": true
       },
       {
@@ -1176,8 +1184,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "“Blow the cornet in Gibeah,",
         "paragraph": true,
+        "text": "“Blow the cornet in Gibeah,",
         "break": true
       },
       {
@@ -1257,8 +1265,8 @@
     "verse": 13,
     "content": [
       {
-        "text": "“When Ephraim saw his sickness,",
         "paragraph": true,
+        "text": "“When Ephraim saw his sickness,",
         "break": true
       },
       {
@@ -1332,8 +1340,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "“Come! Let’s return to Yahweh;",
         "paragraph": true,
+        "text": "“Come! Let’s return to Yahweh;",
         "break": true
       },
       {
@@ -1407,8 +1415,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "“Ephraim, what shall I do to you?",
         "paragraph": true,
+        "text": "“Ephraim, what shall I do to you?",
         "break": true
       },
       {
@@ -1530,8 +1538,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "“Also, Judah, there is a harvest appointed for you,",
         "paragraph": true,
+        "text": "“Also, Judah, there is a harvest appointed for you,",
         "break": true
       },
       "when I restore the fortunes of my people."
@@ -1543,8 +1551,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "When I would heal Israel,",
         "paragraph": true,
+        "text": "When I would heal Israel,",
         "break": true
       },
       {
@@ -1743,8 +1751,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "“Ephraim is like an easily deceived dove, without understanding.",
         "paragraph": true,
+        "text": "“Ephraim is like an easily deceived dove, without understanding.",
         "break": true
       },
       {
@@ -1871,8 +1879,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "“Put the trumpet to your lips!",
         "paragraph": true,
+        "text": "“Put the trumpet to your lips!",
         "break": true
       },
       {
@@ -2141,8 +2149,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Don’t rejoice, Israel, to jubilation like the nations;",
         "paragraph": true,
+        "text": "Don’t rejoice, Israel, to jubilation like the nations;",
         "break": true
       },
       {
@@ -2425,8 +2433,8 @@
     "verse": 15,
     "content": [
       {
-        "text": "“All their wickedness is in Gilgal;",
         "paragraph": true,
+        "text": "“All their wickedness is in Gilgal;",
         "break": true
       },
       {
@@ -2473,8 +2481,8 @@
     "verse": 17,
     "content": [
       {
-        "text": "My God will cast them away, because they didn’t listen to him;",
         "paragraph": true,
+        "text": "My God will cast them away, because they didn’t listen to him;",
         "break": true
       },
       "and they will be wanderers among the nations."
@@ -2486,8 +2494,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Israel is a luxuriant vine that produces his fruit.",
         "paragraph": true,
+        "text": "Israel is a luxuriant vine that produces his fruit.",
         "break": true
       },
       {
@@ -2632,8 +2640,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "“Israel, you have sinned from the days of Gibeah.",
         "paragraph": true,
+        "text": "“Israel, you have sinned from the days of Gibeah.",
         "break": true
       },
       {
@@ -2783,8 +2791,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "“When Israel was a child, then I loved him,",
         "paragraph": true,
+        "text": "“When Israel was a child, then I loved him,",
         "break": true
       },
       {
@@ -2853,8 +2861,8 @@
     "verse": 5,
     "content": [
       {
-        "text": "“They won’t return into the land of Egypt;",
         "paragraph": true,
+        "text": "“They won’t return into the land of Egypt;",
         "break": true
       },
       {
@@ -2908,8 +2916,8 @@
     "verse": 8,
     "content": [
       {
-        "text": "“How can I give you up, Ephraim?",
         "paragraph": true,
+        "text": "“How can I give you up, Ephraim?",
         "break": true
       },
       {
@@ -2998,8 +3006,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "Ephraim surrounds me with falsehood,",
         "paragraph": true,
+        "text": "Ephraim surrounds me with falsehood,",
         "break": true
       },
       {
@@ -3019,8 +3027,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Ephraim feeds on wind,",
         "paragraph": true,
+        "text": "Ephraim feeds on wind,",
         "break": true
       },
       {
@@ -3131,8 +3139,8 @@
     "verse": 7,
     "content": [
       {
-        "text": "A merchant has dishonest scales in his hand.",
         "paragraph": true,
+        "text": "A merchant has dishonest scales in his hand.",
         "break": true
       },
       {
@@ -3163,8 +3171,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "“But I am Yahweh your God from the land of Egypt.",
         "paragraph": true,
+        "text": "“But I am Yahweh your God from the land of Egypt.",
         "break": true
       },
       {
@@ -3282,8 +3290,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "When Ephraim spoke, there was trembling.",
         "paragraph": true,
+        "text": "When Ephraim spoke, there was trembling.",
         "break": true
       },
       {
@@ -3349,8 +3357,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "“Yet I am Yahweh your God from the land of Egypt;",
         "paragraph": true,
+        "text": "“Yet I am Yahweh your God from the land of Egypt;",
         "break": true
       },
       {
@@ -3521,11 +3529,11 @@
     "content": [
       {
         "text": "I will ransom them from the power of Sheol.",
+        "break": true,
         "foot": {
           "type": "stu",
           "content": "Sheol is the place of the dead."
-        },
-        "break": true
+        }
       },
       {
         "text": "I will redeem them from death!",
@@ -3536,7 +3544,12 @@
         "break": true
       },
       {
-        "text": "Sheol, where is your destruction? “Compassion will be hidden from my eyes.",
+        "text": "Sheol, where is your destruction?",
+        "break": true
+      },
+      {
+        "paragraph": true,
+        "text": "“Compassion will be hidden from my eyes.",
         "break": true
       }
     ]
@@ -3598,8 +3611,8 @@
     "verse": 1,
     "content": [
       {
-        "text": "Israel, return to Yahweh your God;",
         "paragraph": true,
+        "text": "Israel, return to Yahweh your God;",
         "break": true
       },
       {
@@ -3657,8 +3670,8 @@
     "verse": 4,
     "content": [
       {
-        "text": "“I will heal their waywardness.",
         "paragraph": true,
+        "text": "“I will heal their waywardness.",
         "break": true
       },
       {
@@ -3758,8 +3771,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "Who is wise, that he may understand these things?",
         "paragraph": true,
+        "text": "Who is wise, that he may understand these things?",
         "break": true
       },
       {

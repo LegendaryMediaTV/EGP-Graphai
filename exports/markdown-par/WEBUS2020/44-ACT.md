@@ -24,7 +24,9 @@
 <sup>17</sup> For he was counted with us, and received his portion in this ministry.
 <sup>18</sup> Now this man obtained a field with the reward for his wickedness; and falling headlong, his body burst open and all his intestines gushed out.
 <sup>19</sup> It became known to everyone who lived in Jerusalem that in their language that field was called ‘Akeldama,’ that is, ‘The field of blood.’
-<sup>20</sup> For it is written in the book of Psalms,<br>‘Let his habitation be made desolate.<br>Let no one dwell in it;’<sup>b</sup> and,<br>‘Let another take his office.’<sup>c</sup>
+<sup>20</sup> For it is written in the book of Psalms,<br>‘Let his habitation be made desolate.<br>Let no one dwell in it;’<sup>b</sup>
+
+and,<br>‘Let another take his office.’<sup>c</sup>
 
 <sup>21</sup> “Of the men therefore who have accompanied us all the time that the Lord Jesus went in and out among us,
 <sup>22</sup> beginning from the baptism of John to the day that he was received up from us, of these one must become a witness with us of his resurrection.”
@@ -205,7 +207,9 @@
 <sup>5</sup> Ananias, hearing these words, fell down and died. Great fear came on all who heard these things.
 <sup>6</sup> The young men arose and wrapped him up, and they carried him out and buried him.
 <sup>7</sup> About three hours later, his wife, not knowing what had happened, came in.
-<sup>8</sup> Peter answered her, “Tell me whether you sold the land for so much.” She said, “Yes, for so much.”
+<sup>8</sup> Peter answered her, “Tell me whether you sold the land for so much.”
+
+She said, “Yes, for so much.”
 
 <sup>9</sup> But Peter asked her, “How is it that you have agreed together to tempt the Spirit of the Lord? Behold, the feet of those who have buried your husband are at the door, and they will carry you out.”
 
@@ -251,6 +255,7 @@
 <sup>41</sup> They therefore departed from the presence of the council, rejoicing that they were counted worthy to suffer dishonor for Jesus’ name.
 
 <sup>42</sup> Every day, in the temple and at home, they never stopped teaching and preaching Jesus, the Christ.
+
 ## Chapter 6
 
 <sup>1</sup> Now in those days, when the number of the disciples was multiplying, a complaint arose from the Hellenists<sup>a</sup> against the Hebrews, because their widows were neglected in the daily service.
@@ -409,13 +414,14 @@
 <sup>35</sup> Philip opened his mouth, and beginning from this Scripture, preached to him about Jesus.
 <sup>36</sup> As they went on the way, they came to some water; and the eunuch said, “Behold, here is water. What is keeping me from being baptized?”
 
-<sup>37</sup> 
+<sup>37</sup> <sup>b</sup>
 <sup>38</sup> He commanded the chariot to stand still, and they both went down into the water, both Philip and the eunuch, and he baptized him.
 
 <sup>39</sup> When they came up out of the water, the Spirit of the Lord caught Philip away, and the eunuch didn’t see him any more, for he went on his way rejoicing.
 <sup>40</sup> But Philip was found at Azotus. Passing through, he preached the Good News to all the cities until he came to Caesarea.
 
 > - <sup>a</sup> 33. Isaiah 53:7,8
+> - <sup>b</sup> 37. TR adds Philip said, “If you believe with all your heart, you may.” He answered, “I believe that Jesus Christ is the Son of God.”
 
 ## Chapter 9
 
@@ -424,14 +430,18 @@
 <sup>3</sup> As he traveled, he got close to Damascus, and suddenly a light from the sky shone around him.
 <sup>4</sup> He fell on the earth, and heard a voice saying to him, “Saul, Saul, why do you persecute me?”
 
-<sup>5</sup> He said, “Who are you, Lord?” The Lord said, “I am Jesus, whom you are persecuting.<sup>a</sup>
+<sup>5</sup> He said, “Who are you, Lord?”
+
+The Lord said, “I am Jesus, whom you are persecuting.<sup>a</sup>
 <sup>6</sup> But<sup>b</sup> rise up and enter into the city, then you will be told what you must do.”
 
 <sup>7</sup> The men who traveled with him stood speechless, hearing the sound, but seeing no one.
 <sup>8</sup> Saul arose from the ground, and when his eyes were opened, he saw no one. They led him by the hand and brought him into Damascus.
 <sup>9</sup> He was without sight for three days, and neither ate nor drank.
 
-<sup>10</sup> Now there was a certain disciple at Damascus named Ananias. The Lord said to him in a vision, “Ananias!” He said, “Behold, it’s me, Lord.”
+<sup>10</sup> Now there was a certain disciple at Damascus named Ananias. The Lord said to him in a vision, “Ananias!”
+
+He said, “Behold, it’s me, Lord.”
 
 <sup>11</sup> The Lord said to him, “Arise and go to the street which is called Straight, and inquire in the house of Judah<sup>c</sup> for one named Saul, a man of Tarsus. For behold, he is praying,
 <sup>12</sup> and in a vision he has seen a man named Ananias coming in and laying his hands on him, that he might receive his sight.”
@@ -444,7 +454,9 @@
 
 <sup>17</sup> Ananias departed and entered into the house. Laying his hands on him, he said, “Brother Saul, the Lord, who appeared to you on the road by which you came, has sent me that you may receive your sight and be filled with the Holy Spirit.”
 <sup>18</sup> Immediately something like scales fell from his eyes, and he received his sight. He arose and was baptized.
-<sup>19</sup> He took food and was strengthened. Saul stayed several days with the disciples who were at Damascus.
+<sup>19</sup> He took food and was strengthened.
+
+Saul stayed several days with the disciples who were at Damascus.
 <sup>20</sup> Immediately in the synagogues he proclaimed the Christ, that he is the Son of God.
 <sup>21</sup> All who heard him were amazed, and said, “Isn’t this he who in Jerusalem made havoc of those who called on this name? And he had come here intending to bring them bound before the chief priests!”
 
@@ -491,7 +503,9 @@
 <sup>2</sup> a devout man, and one who feared God with all his house, who gave gifts for the needy generously to the people, and always prayed to God.
 <sup>3</sup> At about the ninth hour of the day,<sup>a</sup> he clearly saw in a vision an angel of God coming to him and saying to him, “Cornelius!”
 
-<sup>4</sup> He, fastening his eyes on him and being frightened, said, “What is it, Lord?” He said to him, “Your prayers and your gifts to the needy have gone up for a memorial before God.
+<sup>4</sup> He, fastening his eyes on him and being frightened, said, “What is it, Lord?”
+
+He said to him, “Your prayers and your gifts to the needy have gone up for a memorial before God.
 <sup>5</sup> Now send men to Joppa, and get Simon, who is also called Peter.
 <sup>6</sup> He is staying with a tanner named Simon, whose house is by the seaside.<sup>b</sup>
 
@@ -517,7 +531,9 @@
 <sup>21</sup> Peter went down to the men, and said, “Behold, I am he whom you seek. Why have you come?”
 
 <sup>22</sup> They said, “Cornelius, a centurion, a righteous man and one who fears God, and well spoken of by all the nation of the Jews, was directed by a holy angel to invite you to his house, and to listen to what you say.”
-<sup>23</sup> So he called them in and provided a place to stay. On the next day Peter arose and went out with them, and some of the brothers from Joppa accompanied him.
+<sup>23</sup> So he called them in and provided a place to stay.
+
+On the next day Peter arose and went out with them, and some of the brothers from Joppa accompanied him.
 <sup>24</sup> On the next day they entered into Caesarea. Cornelius was waiting for them, having called together his relatives and his near friends.
 <sup>25</sup> When Peter entered, Cornelius met him, fell down at his feet, and worshiped him.
 <sup>26</sup> But Peter raised him up, saying, “Stand up! I myself am also a man.”
@@ -543,7 +559,9 @@
 
 <sup>44</sup> While Peter was still speaking these words, the Holy Spirit fell on all those who heard the word.
 <sup>45</sup> They of the circumcision who believed were amazed, as many as came with Peter, because the gift of the Holy Spirit was also poured out on the Gentiles.
-<sup>46</sup> For they heard them speaking in other languages and magnifying God. Then Peter answered,
+<sup>46</sup> For they heard them speaking in other languages and magnifying God.
+
+Then Peter answered,
 <sup>47</sup> “Can anyone forbid these people from being baptized with water? They have received the Holy Spirit just like us.”
 <sup>48</sup> He commanded them to be baptized in the name of Jesus Christ. Then they asked him to stay some days.
 
@@ -643,7 +661,9 @@
 <sup>8</sup> But Elymas the sorcerer (for so is his name by interpretation) withstood them, seeking to turn the proconsul away from the faith.
 <sup>9</sup> But Saul, who is also called Paul, filled with the Holy Spirit, fastened his eyes on him
 <sup>10</sup> and said, “You son of the devil, full of all deceit and all cunning, you enemy of all righteousness, will you not cease to pervert the right ways of the Lord?
-<sup>11</sup> Now, behold, the hand of the Lord is on you, and you will be blind, not seeing the sun for a season!” Immediately a mist and darkness fell on him. He went around seeking someone to lead him by the hand.
+<sup>11</sup> Now, behold, the hand of the Lord is on you, and you will be blind, not seeing the sun for a season!”
+
+Immediately a mist and darkness fell on him. He went around seeking someone to lead him by the hand.
 <sup>12</sup> Then the proconsul, when he saw what was done, believed, being astonished at the teaching of the Lord.
 
 <sup>13</sup> Now Paul and his company set sail from Paphos and came to Perga in Pamphylia. John departed from them and returned to Jerusalem.
@@ -773,7 +793,9 @@
 <sup>21</sup> For Moses from generations of old has in every city those who preach him, being read in the synagogues every Sabbath.”
 
 <sup>22</sup> Then it seemed good to the apostles and the elders, with the whole assembly, to choose men out of their company, and send them to Antioch with Paul and Barnabas: Judas called Barsabbas, and Silas, chief men among the brothers.<sup>d</sup>
-<sup>23</sup> They wrote these things by their hand: “The apostles, the elders, and the brothers, to the brothers who are of the Gentiles in Antioch, Syria, and Cilicia: greetings.
+<sup>23</sup> They wrote these things by their hand:
+
+“The apostles, the elders, and the brothers, to the brothers who are of the Gentiles in Antioch, Syria, and Cilicia: greetings.
 <sup>24</sup> Because we have heard that some who went out from us have troubled you with words, unsettling your souls, saying, ‘You must be circumcised and keep the law,’ to whom we gave no commandment;
 <sup>25</sup> it seemed good to us, having come to one accord, to choose out men and send them to you with our beloved Barnabas and Paul,
 <sup>26</sup> men who have risked their lives for the name of our Lord Jesus Christ.
@@ -785,7 +807,7 @@
 <sup>31</sup> When they had read it, they rejoiced over the encouragement.
 <sup>32</sup> Judas and Silas, also being prophets themselves, encouraged the brothers with many words and strengthened them.
 <sup>33</sup> After they had spent some time there, they were dismissed in peace from the brothers to the apostles.
-<sup>34</sup> 
+<sup>34</sup> <sup>e</sup>
 <sup>35</sup> But Paul and Barnabas stayed in Antioch, teaching and preaching the word of the Lord, with many others also.
 
 <sup>36</sup> After some days Paul said to Barnabas, “Let’s return now and visit our brothers in every city in which we proclaimed the word of the Lord, to see how they are doing.”
@@ -799,6 +821,7 @@
 > - <sup>b</sup> 11. TR adds “Christ”
 > - <sup>c</sup> 17. Amos 9:11-12
 > - <sup>d</sup> 22. The word for “brothers” here and where the context allows may also be correctly translated “brothers and sisters” or “siblings.”
+> - <sup>e</sup> 34. Some manuscripts add: But it seemed good to Silas to stay there.
 
 ## Chapter 16
 
@@ -822,7 +845,9 @@
 
 <sup>16</sup> As we were going to prayer, a certain girl having a spirit of divination met us, who brought her masters much gain by fortune telling.
 <sup>17</sup> Following Paul and us, she cried out, “These men are servants of the Most High God, who proclaim to us a way of salvation!”
-<sup>18</sup> She was doing this for many days. But Paul, becoming greatly annoyed, turned and said to the spirit, “I command you in the name of Jesus Christ to come out of her!” It came out that very hour.
+<sup>18</sup> She was doing this for many days.
+
+But Paul, becoming greatly annoyed, turned and said to the spirit, “I command you in the name of Jesus Christ to come out of her!” It came out that very hour.
 <sup>19</sup> But when her masters saw that the hope of their gain was gone, they seized Paul and Silas and dragged them into the marketplace before the rulers.
 <sup>20</sup> When they had brought them to the magistrates, they said, “These men, being Jews, are agitating our city
 <sup>21</sup> and advocate customs which it is not lawful for us to accept or to observe, being Romans.”
@@ -854,6 +879,7 @@
 <sup>38</sup> The sergeants reported these words to the magistrates, and they were afraid when they heard that they were Romans,
 <sup>39</sup> and they came and begged them. When they had brought them out, they asked them to depart from the city.
 <sup>40</sup> They went out of the prison and entered into Lydia’s house. When they had seen the brothers, they encouraged them, then departed.
+
 ## Chapter 17
 
 <sup>1</sup> Now when they had passed through Amphipolis and Apollonia, they came to Thessalonica, where there was a Jewish synagogue.
@@ -877,7 +903,9 @@
 
 <sup>16</sup> Now while Paul waited for them at Athens, his spirit was provoked within him as he saw the city full of idols.
 <sup>17</sup> So he reasoned in the synagogue with the Jews and the devout persons, and in the marketplace every day with those who met him.
-<sup>18</sup> Some of the Epicurean and Stoic philosophers also<sup>c</sup> were conversing with him. Some said, “What does this babbler want to say?” Others said, “He seems to be advocating foreign deities,” because he preached Jesus and the resurrection.
+<sup>18</sup> Some of the Epicurean and Stoic philosophers also<sup>c</sup> were conversing with him. Some said, “What does this babbler want to say?”
+
+Others said, “He seems to be advocating foreign deities,” because he preached Jesus and the resurrection.
 
 <sup>19</sup> They took hold of him and brought him to the Areopagus, saying, “May we know what this new teaching is, which you are speaking about?
 <sup>20</sup> For you bring certain strange things to our ears. We want to know therefore what these things mean.”
@@ -947,9 +975,13 @@
 ## Chapter 19
 
 <sup>1</sup> While Apollos was at Corinth, Paul, having passed through the upper country, came to Ephesus and found certain disciples.
-<sup>2</sup> He said to them, “Did you receive the Holy Spirit when you believed?” They said to him, “No, we haven’t even heard that there is a Holy Spirit.”
+<sup>2</sup> He said to them, “Did you receive the Holy Spirit when you believed?”
 
-<sup>3</sup> He said, “Into what then were you baptized?” They said, “Into John’s baptism.”
+They said to him, “No, we haven’t even heard that there is a Holy Spirit.”
+
+<sup>3</sup> He said, “Into what then were you baptized?”
+
+They said, “Into John’s baptism.”
 
 <sup>4</sup> Paul said, “John indeed baptized with the baptism of repentance, saying to the people that they should believe in the one who would come after him, that is, in Christ Jesus.”<sup>a</sup>
 
@@ -1043,7 +1075,7 @@
 <sup>32</sup> Now, brothers,<sup>d</sup> I entrust you to God and to the word of his grace, which is able to build up and to give you the inheritance among all those who are sanctified.
 <sup>33</sup> I coveted no one’s silver, gold, or clothing.
 <sup>34</sup> You yourselves know that these hands served my necessities, and those who were with me.
-<sup>35</sup> In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’”
+<sup>35</sup> In all things I gave you an example, that so laboring you ought to help the weak, and to remember the words of the Lord Jesus, that he himself said, ‘It is more blessed to give than to receive.’ ”
 
 <sup>36</sup> When he had spoken these things, he knelt down and prayed with them all.
 <sup>37</sup> They all wept freely, and fell on Paul’s neck and kissed him,
@@ -1064,7 +1096,9 @@
 <sup>6</sup> After saying goodbye to each other, we went on board the ship, and they returned home again.
 
 <sup>7</sup> When we had finished the voyage from Tyre, we arrived at Ptolemais. We greeted the brothers and stayed with them one day.
-<sup>8</sup> On the next day, we who were Paul’s companions departed and came to Caesarea. We entered into the house of Philip the evangelist, who was one of the seven, and stayed with him.
+<sup>8</sup> On the next day, we who were Paul’s companions departed and came to Caesarea.
+
+We entered into the house of Philip the evangelist, who was one of the seven, and stayed with him.
 <sup>9</sup> Now this man had four virgin daughters who prophesied.
 <sup>10</sup> As we stayed there some days, a certain prophet named Agabus came down from Judea.
 <sup>11</sup> Coming to us and taking Paul’s belt, he bound his own feet and hands, and said, “The Holy Spirit says: ‘So the Jews at Jerusalem will bind the man who owns this belt, and will deliver him into the hands of the Gentiles.’ ”
@@ -1100,17 +1134,22 @@
 
 <sup>35</sup> When he came to the stairs, he was carried by the soldiers because of the violence of the crowd;
 <sup>36</sup> for the multitude of the people followed after, crying out, “Away with him!”
-<sup>37</sup> As Paul was about to be brought into the barracks, he asked the commanding officer, “May I speak to you?” He said, “Do you know Greek?
+<sup>37</sup> As Paul was about to be brought into the barracks, he asked the commanding officer, “May I speak to you?”
+
+He said, “Do you know Greek?
 <sup>38</sup> Aren’t you then the Egyptian who before these days stirred up to sedition and led out into the wilderness the four thousand men of the Assassins?”
 
 <sup>39</sup> But Paul said, “I am a Jew from Tarsus in Cilicia, a citizen of no insignificant city. I beg you, allow me to speak to the people.”
 
 <sup>40</sup> When he had given him permission, Paul, standing on the stairs, beckoned with his hand to the people. When there was a great silence, he spoke to them in the Hebrew language, saying,
+
 ## Chapter 22
 
 <sup>1</sup> “Brothers and fathers, listen to the defense which I now make to you.”
 
-<sup>2</sup> When they heard that he spoke to them in the Hebrew language, they were even more quiet. He said,
+<sup>2</sup> When they heard that he spoke to them in the Hebrew language, they were even more quiet.
+
+He said,
 <sup>3</sup> “I am indeed a Jew, born in Tarsus of Cilicia, but brought up in this city at the feet of Gamaliel, instructed according to the strict tradition of the law of our fathers, being zealous for God, even as you all are today.
 <sup>4</sup> I persecuted this Way to the death, binding and delivering into prisons both men and women,
 <sup>5</sup> as also the high priest and all the council of the elders testify, from whom also I received letters to the brothers, and traveled to Damascus to bring them also who were there to Jerusalem in bonds to be punished.
@@ -1134,7 +1173,7 @@
 <sup>19</sup> I said, ‘Lord, they themselves know that I imprisoned and beat in every synagogue those who believed in you.
 <sup>20</sup> When the blood of Stephen, your witness, was shed, I also was standing by, consenting to his death, and guarding the cloaks of those who killed him.’
 
-<sup>21</sup> “He said to me, ‘Depart, for I will send you out far from here to the Gentiles.’”
+<sup>21</sup> “He said to me, ‘Depart, for I will send you out far from here to the Gentiles.’ ”
 
 <sup>22</sup> They listened to him until he said that; then they lifted up their voice and said, “Rid the earth of this fellow, for he isn’t fit to live!”
 
@@ -1144,12 +1183,17 @@
 
 <sup>26</sup> When the centurion heard it, he went to the commanding officer and told him, “Watch what you are about to do, for this man is a Roman!”
 
-<sup>27</sup> The commanding officer came and asked him, “Tell me, are you a Roman?” He said, “Yes.”
+<sup>27</sup> The commanding officer came and asked him, “Tell me, are you a Roman?”
 
-<sup>28</sup> The commanding officer answered, “I bought my citizenship for a great price.” Paul said, “But I was born a Roman.”
+He said, “Yes.”
+
+<sup>28</sup> The commanding officer answered, “I bought my citizenship for a great price.”
+
+Paul said, “But I was born a Roman.”
 
 <sup>29</sup> Immediately those who were about to examine him departed from him, and the commanding officer also was afraid when he realized that he was a Roman, because he had bound him.
 <sup>30</sup> But on the next day, desiring to know the truth about why he was accused by the Jews, he freed him from the bonds and commanded the chief priests and all the council to come together, and brought Paul down and set him before them.
+
 ## Chapter 23
 
 <sup>1</sup> Paul, looking steadfastly at the council, said, “Brothers, I have lived before God in all good conscience until today.”
@@ -1217,8 +1261,8 @@
 <sup>4</sup> But that I don’t delay you, I entreat you to bear with us and hear a few words.
 <sup>5</sup> For we have found this man to be a plague, an instigator of insurrections among all the Jews throughout the world, and a ringleader of the sect of the Nazarenes.
 <sup>6</sup> He even tried to profane the temple, and we arrested him.<sup>a</sup>
-<sup>7</sup> 
-<sup>8</sup> By examining him yourself you may ascertain all these things of which we accuse him.”
+<sup>7</sup> <sup>b</sup>
+<sup>8</sup> <sup>c</sup>By examining him yourself you may ascertain all these things of which we accuse him.”
 
 <sup>9</sup> The Jews also joined in the attack, affirming that these things were so.
 
@@ -1245,6 +1289,8 @@
 <sup>27</sup> But when two years were fulfilled, Felix was succeeded by Porcius Festus, and desiring to gain favor with the Jews, Felix left Paul in bonds.
 
 > - <sup>a</sup> 6. TR adds “We wanted to judge him according to our law,”
+> - <sup>b</sup> 7. TR adds “but the commanding officer, Lysias, came by and with great violence took him out of our hands,”
+> - <sup>c</sup> 8. TR adds “commanding his accusers to come to you.”
 
 ## Chapter 25
 
@@ -1275,16 +1321,21 @@
 <sup>20</sup> Being perplexed how to inquire concerning these things, I asked whether he was willing to go to Jerusalem and there be judged concerning these matters.
 <sup>21</sup> But when Paul had appealed to be kept for the decision of the emperor, I commanded him to be kept until I could send him to Caesar.”
 
-<sup>22</sup> Agrippa said to Festus, “I also would like to hear the man myself.” “Tomorrow,” he said, “you shall hear him.”
+<sup>22</sup> Agrippa said to Festus, “I also would like to hear the man myself.”
+
+“Tomorrow,” he said, “you shall hear him.”
 
 <sup>23</sup> So on the next day, when Agrippa and Bernice had come with great pomp, and they had entered into the place of hearing with the commanding officers and the principal men of the city, at the command of Festus, Paul was brought in.
 <sup>24</sup> Festus said, “King Agrippa, and all men who are here present with us, you see this man about whom all the multitude of the Jews petitioned me, both at Jerusalem and here, crying that he ought not to live any longer.
 <sup>25</sup> But when I found that he had committed nothing worthy of death, and as he himself appealed to the emperor, I determined to send him,
 <sup>26</sup> of whom I have no certain thing to write to my lord. Therefore I have brought him out before you, and especially before you, King Agrippa, that, after examination I may have something to write.
 <sup>27</sup> For it seems to me unreasonable, in sending a prisoner, not to also specify the charges against him.”
+
 ## Chapter 26
 
-<sup>1</sup> Agrippa said to Paul, “You may speak for yourself.” Then Paul stretched out his hand, and made his defense.
+<sup>1</sup> Agrippa said to Paul, “You may speak for yourself.”
+
+Then Paul stretched out his hand, and made his defense.
 <sup>2</sup> “I think myself happy, King Agrippa, that I am to make my defense before you today concerning all the things that I am accused by the Jews,
 <sup>3</sup> especially because you are expert in all customs and questions which are among the Jews. Therefore I beg you to hear me patiently.
 
@@ -1302,7 +1353,9 @@
 <sup>13</sup> at noon, O king, I saw on the way a light from the sky, brighter than the sun, shining around me and those who traveled with me.
 <sup>14</sup> When we had all fallen to the earth, I heard a voice saying to me in the Hebrew language, ‘Saul, Saul, why are you persecuting me? It is hard for you to kick against the goads.’
 
-<sup>15</sup> “I said, ‘Who are you, Lord?’ “He said, ‘I am Jesus, whom you are persecuting.
+<sup>15</sup> “I said, ‘Who are you, Lord?’
+
+“He said, ‘I am Jesus, whom you are persecuting.
 <sup>16</sup> But arise, and stand on your feet, for I have appeared to you for this purpose: to appoint you a servant and a witness both of the things which you have seen and of the things which I will reveal to you;
 <sup>17</sup> delivering you from the people and from the Gentiles, to whom I send you,
 <sup>18</sup> to open their eyes, that they may turn from darkness to light and from the power of Satan to God, that they may receive remission of sins and an inheritance among those who are sanctified by faith in me.’
@@ -1326,6 +1379,7 @@
 <sup>30</sup> The king rose up with the governor and Bernice, and those who sat with them.
 <sup>31</sup> When they had withdrawn, they spoke to one another, saying, “This man does nothing worthy of death or of bonds.”
 <sup>32</sup> Agrippa said to Festus, “This man might have been set free if he had not appealed to Caesar.”
+
 ## Chapter 27
 
 <sup>1</sup> When it was determined that we should sail for Italy, they delivered Paul and certain other prisoners to a centurion named Julius, of the Augustan band.

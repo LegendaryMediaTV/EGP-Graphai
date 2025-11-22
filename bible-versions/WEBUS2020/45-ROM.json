@@ -5,12 +5,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Paul, a servant of Jesus Christ,",
         "foot": {
           "type": "stu",
           "content": "“Christ” means “Anointed One”."
-        },
-        "paragraph": true
+        }
       },
       " called to be an apostle, set apart for the Good News of God,"
     ]
@@ -65,8 +65,8 @@
     "chapter": 1,
     "verse": 8,
     "content": {
-      "text": "First, I thank my God through Jesus Christ for all of you, that your faith is proclaimed throughout the whole world.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "First, I thank my God through Jesus Christ for all of you, that your faith is proclaimed throughout the whole world."
     }
   },
   {
@@ -98,8 +98,8 @@
     "chapter": 1,
     "verse": 13,
     "content": {
-      "text": "Now I don’t desire to have you unaware, brothers, that I often planned to come to you (and was hindered so far), that I might have some fruit among you also, even as among the rest of the Gentiles.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now I don’t desire to have you unaware, brothers, that I often planned to come to you (and was hindered so far), that I might have some fruit among you also, even as among the rest of the Gentiles."
     }
   },
   {
@@ -119,8 +119,8 @@
     "chapter": 1,
     "verse": 16,
     "content": {
-      "text": "For I am not ashamed of the Good News of Christ, because it is the power of God for salvation for everyone who believes, for the Jew first, and also for the Greek.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For I am not ashamed of the Good News of Christ, because it is the power of God for salvation for everyone who believes, for the Jew first, and also for the Greek."
     }
   },
   {
@@ -140,8 +140,8 @@
     "chapter": 1,
     "verse": 18,
     "content": {
-      "text": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men who suppress the truth in unrighteousness,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men who suppress the truth in unrighteousness,"
     }
   },
   {
@@ -167,8 +167,8 @@
     "chapter": 1,
     "verse": 22,
     "content": {
-      "text": "Professing themselves to be wise, they became fools,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Professing themselves to be wise, they became fools,"
     }
   },
   {
@@ -194,8 +194,8 @@
     "chapter": 1,
     "verse": 26,
     "content": {
-      "text": "For this reason, God gave them up to vile passions. For their women changed the natural function into that which is against nature.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this reason, God gave them up to vile passions. For their women changed the natural function into that which is against nature."
     }
   },
   {
@@ -239,8 +239,8 @@
     "chapter": 2,
     "verse": 1,
     "content": {
-      "text": "Therefore you are without excuse, O man, whoever you are who judge. For in that which you judge another, you condemn yourself. For you who judge practice the same things.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore you are without excuse, O man, whoever you are who judge. For in that which you judge another, you condemn yourself. For you who judge practice the same things."
     }
   },
   {
@@ -302,8 +302,8 @@
     "chapter": 2,
     "verse": 10,
     "content": {
-      "text": "But glory, honor, and peace go to every man who does good, to the Jew first, and also to the Greek.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But glory, honor, and peace go to every man who does good, to the Jew first, and also to the Greek."
     }
   },
   {
@@ -347,8 +347,8 @@
     "chapter": 2,
     "verse": 17,
     "content": {
-      "text": "Indeed you bear the name of a Jew, rest on the law, glory in God,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Indeed you bear the name of a Jew, rest on the law, glory in God,"
     }
   },
   {
@@ -437,8 +437,8 @@
     "chapter": 3,
     "verse": 1,
     "content": {
-      "text": "Then what advantage does the Jew have? Or what is the profit of circumcision?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Then what advantage does the Jew have? Or what is the profit of circumcision?"
     }
   },
   {
@@ -480,8 +480,8 @@
     "chapter": 3,
     "verse": 5,
     "content": {
-      "text": "But if our unrighteousness commends the righteousness of God, what will we say? Is God unrighteous who inflicts wrath? I speak like men do.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But if our unrighteousness commends the righteousness of God, what will we say? Is God unrighteous who inflicts wrath? I speak like men do."
     }
   },
   {
@@ -507,8 +507,8 @@
     "chapter": 3,
     "verse": 9,
     "content": {
-      "text": "What then? Are we better than they? No, in no way. For we previously warned both Jews and Greeks that they are all under sin.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What then? Are we better than they? No, in no way. For we previously warned both Jews and Greeks that they are all under sin."
     }
   },
   {
@@ -564,11 +564,11 @@
       },
       {
         "text": "no, not so much as one.”",
+        "break": true,
         "foot": {
           "type": "xrf",
           "content": "Psalm 14:1-3; 53:1-3; Ecclesiastes 7:20"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -583,19 +583,19 @@
       },
       {
         "text": "With their tongues they have used deceit.”",
+        "break": true,
         "foot": {
           "type": "xrf",
           "content": "Psalm 5:9"
-        },
-        "break": true
+        }
       },
       {
         "text": "“The poison of vipers is under their lips.”",
+        "break": true,
         "foot": {
           "type": "xrf",
           "content": "Psalm 140:3"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -605,11 +605,11 @@
     "verse": 14,
     "content": {
       "text": "“Their mouth is full of cursing and bitterness.”",
+      "break": true,
       "foot": {
         "type": "xrf",
         "content": "Psalm 10:7"
-      },
-      "break": true
+      }
     }
   },
   {
@@ -636,11 +636,11 @@
     "verse": 17,
     "content": {
       "text": "The way of peace, they haven’t known.”",
+      "break": true,
       "foot": {
         "type": "xrf",
         "content": "Isaiah 59:7-8"
-      },
-      "break": true
+      }
     }
   },
   {
@@ -660,8 +660,8 @@
     "chapter": 3,
     "verse": 19,
     "content": {
-      "text": "Now we know that whatever things the law says, it speaks to those who are under the law, that every mouth may be closed, and all the world may be brought under the judgment of God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now we know that whatever things the law says, it speaks to those who are under the law, that every mouth may be closed, and all the world may be brought under the judgment of God."
     }
   },
   {
@@ -675,8 +675,8 @@
     "chapter": 3,
     "verse": 21,
     "content": {
-      "text": "But now apart from the law, a righteousness of God has been revealed, being testified by the law and the prophets;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But now apart from the law, a righteousness of God has been revealed, being testified by the law and the prophets;"
     }
   },
   {
@@ -723,8 +723,8 @@
     "chapter": 3,
     "verse": 27,
     "content": {
-      "text": "Where then is the boasting? It is excluded. By what kind of law? Of works? No, but by a law of faith.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Where then is the boasting? It is excluded. By what kind of law? Of works? No, but by a law of faith."
     }
   },
   {
@@ -750,8 +750,8 @@
     "chapter": 3,
     "verse": 31,
     "content": {
-      "text": "Do we then nullify the law through faith? May it never be! No, we establish the law.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Do we then nullify the law through faith? May it never be! No, we establish the law."
     }
   },
   {
@@ -759,8 +759,8 @@
     "chapter": 4,
     "verse": 1,
     "content": {
-      "text": "What then will we say that Abraham, our forefather, has found according to the flesh?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What then will we say that Abraham, our forefather, has found according to the flesh?"
     }
   },
   {
@@ -834,8 +834,8 @@
     "chapter": 4,
     "verse": 9,
     "content": {
-      "text": "Is this blessing then pronounced only on the circumcised, or on the uncircumcised also? For we say that faith was accounted to Abraham for righteousness.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Is this blessing then pronounced only on the circumcised, or on the uncircumcised also? For we say that faith was accounted to Abraham for righteousness."
     }
   },
   {
@@ -861,8 +861,8 @@
     "chapter": 4,
     "verse": 13,
     "content": {
-      "text": "For the promise to Abraham and to his offspring that he would be heir of the world wasn’t through the law, but through the righteousness of faith.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For the promise to Abraham and to his offspring that he would be heir of the world wasn’t through the law, but through the righteousness of faith."
     }
   },
   {
@@ -882,8 +882,8 @@
     "chapter": 4,
     "verse": 16,
     "content": {
-      "text": "For this cause it is of faith, that it may be according to grace, to the end that the promise may be sure to all the offspring, not to that only which is of the law, but to that also which is of the faith of Abraham, who is the father of us all.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For this cause it is of faith, that it may be according to grace, to the end that the promise may be sure to all the offspring, not to that only which is of the law, but to that also which is of the faith of Abraham, who is the father of us all."
     }
   },
   {
@@ -966,8 +966,8 @@
     "chapter": 5,
     "verse": 1,
     "content": {
-      "text": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ;"
     }
   },
   {
@@ -999,8 +999,8 @@
     "chapter": 5,
     "verse": 6,
     "content": {
-      "text": "For while we were yet weak, at the right time Christ died for the ungodly.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For while we were yet weak, at the right time Christ died for the ungodly."
     }
   },
   {
@@ -1020,8 +1020,8 @@
     "chapter": 5,
     "verse": 9,
     "content": {
-      "text": "Much more then, being now justified by his blood, we will be saved from God’s wrath through him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Much more then, being now justified by his blood, we will be saved from God’s wrath through him."
     }
   },
   {
@@ -1035,8 +1035,8 @@
     "chapter": 5,
     "verse": 11,
     "content": {
-      "text": "Not only so, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received the reconciliation.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Not only so, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received the reconciliation."
     }
   },
   {
@@ -1062,8 +1062,8 @@
     "chapter": 5,
     "verse": 15,
     "content": {
-      "text": "But the free gift isn’t like the trespass. For if by the trespass of the one the many died, much more did the grace of God and the gift by the grace of the one man, Jesus Christ, abound to the many.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But the free gift isn’t like the trespass. For if by the trespass of the one the many died, much more did the grace of God and the gift by the grace of the one man, Jesus Christ, abound to the many."
     }
   },
   {
@@ -1083,8 +1083,8 @@
     "chapter": 5,
     "verse": 18,
     "content": {
-      "text": "So then as through one trespass, all men were condemned; even so through one act of righteousness, all men were justified to life.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So then as through one trespass, all men were condemned; even so through one act of righteousness, all men were justified to life."
     }
   },
   {
@@ -1110,8 +1110,8 @@
     "chapter": 6,
     "verse": 1,
     "content": {
-      "text": "What shall we say then? Shall we continue in sin, that grace may abound?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What shall we say then? Shall we continue in sin, that grace may abound?"
     }
   },
   {
@@ -1137,8 +1137,8 @@
     "chapter": 6,
     "verse": 5,
     "content": {
-      "text": "For if we have become united with him in the likeness of his death, we will also be part of his resurrection;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For if we have become united with him in the likeness of his death, we will also be part of his resurrection;"
     }
   },
   {
@@ -1182,8 +1182,8 @@
     "chapter": 6,
     "verse": 12,
     "content": {
-      "text": "Therefore don’t let sin reign in your mortal body, that you should obey it in its lusts.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore don’t let sin reign in your mortal body, that you should obey it in its lusts."
     }
   },
   {
@@ -1203,8 +1203,8 @@
     "chapter": 6,
     "verse": 15,
     "content": {
-      "text": "What then? Shall we sin because we are not under law but under grace? May it never be!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What then? Shall we sin because we are not under law but under grace? May it never be!"
     }
   },
   {
@@ -1230,8 +1230,8 @@
     "chapter": 6,
     "verse": 19,
     "content": {
-      "text": "I speak in human terms because of the weakness of your flesh; for as you presented your members as servants to uncleanness and to wickedness upon wickedness, even so now present your members as servants to righteousness for sanctification.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I speak in human terms because of the weakness of your flesh; for as you presented your members as servants to uncleanness and to wickedness upon wickedness, even so now present your members as servants to righteousness for sanctification."
     }
   },
   {
@@ -1264,12 +1264,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "Or don’t you know, brothers",
         "foot": {
           "type": "trn",
           "content": "The word for “brothers” here and where context allows may also be correctly translated “brothers and sisters” or “siblings.”"
-        },
-        "paragraph": true
+        }
       },
       " (for I speak to men who know the law), that the law has dominion over a man for as long as he lives?"
     ]
@@ -1309,12 +1309,12 @@
     "chapter": 7,
     "verse": 7,
     "content": {
+      "paragraph": true,
       "text": "What shall we say then? Is the law sin? May it never be! However, I wouldn’t have known sin except through the law. For I wouldn’t have known coveting unless the law had said, “You shall not covet.”",
       "foot": {
         "type": "xrf",
         "content": "Exodus 20:17; Deuteronomy 5:21"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -1352,8 +1352,8 @@
     "chapter": 7,
     "verse": 13,
     "content": {
-      "text": "Did then that which is good become death to me? May it never be! But sin, that it might be shown to be sin, was producing death in me through that which is good; that through the commandment sin might become exceedingly sinful.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Did then that which is good become death to me? May it never be! But sin, that it might be shown to be sin, was producing death in me through that which is good; that through the commandment sin might become exceedingly sinful."
     }
   },
   {
@@ -1433,12 +1433,12 @@
     "chapter": 8,
     "verse": 1,
     "content": {
+      "paragraph": true,
       "text": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.",
       "foot": {
         "type": "stu",
         "content": "NU omits “who don’t walk according to the flesh, but according to the Spirit”"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -1488,8 +1488,8 @@
     "chapter": 8,
     "verse": 9,
     "content": {
-      "text": "But you are not in the flesh but in the Spirit, if it is so that the Spirit of God dwells in you. But if any man doesn’t have the Spirit of Christ, he is not his.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But you are not in the flesh but in the Spirit, if it is so that the Spirit of God dwells in you. But if any man doesn’t have the Spirit of Christ, he is not his."
     }
   },
   {
@@ -1509,8 +1509,8 @@
     "chapter": 8,
     "verse": 12,
     "content": {
-      "text": "So then, brothers, we are debtors, not to the flesh, to live after the flesh.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So then, brothers, we are debtors, not to the flesh, to live after the flesh."
     }
   },
   {
@@ -1545,8 +1545,8 @@
     "chapter": 8,
     "verse": 16,
     "content": {
-      "text": "The Spirit himself testifies with our spirit that we are children of God;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "The Spirit himself testifies with our spirit that we are children of God;"
     }
   },
   {
@@ -1560,8 +1560,8 @@
     "chapter": 8,
     "verse": 18,
     "content": {
-      "text": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which will be revealed toward us.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which will be revealed toward us."
     }
   },
   {
@@ -1611,8 +1611,8 @@
     "chapter": 8,
     "verse": 26,
     "content": {
-      "text": "In the same way, the Spirit also helps our weaknesses, for we don’t know how to pray as we ought. But the Spirit himself makes intercession for us with groanings which can’t be uttered.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "In the same way, the Spirit also helps our weaknesses, for we don’t know how to pray as we ought. But the Spirit himself makes intercession for us with groanings which can’t be uttered."
     }
   },
   {
@@ -1626,8 +1626,8 @@
     "chapter": 8,
     "verse": 28,
     "content": {
-      "text": "We know that all things work together for good for those who love God, for those who are called according to his purpose.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "We know that all things work together for good for those who love God, for those who are called according to his purpose."
     }
   },
   {
@@ -1653,8 +1653,8 @@
     "chapter": 8,
     "verse": 31,
     "content": {
-      "text": "What then shall we say about these things? If God is for us, who can be against us?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What then shall we say about these things? If God is for us, who can be against us?"
     }
   },
   {
@@ -1680,8 +1680,8 @@
     "chapter": 8,
     "verse": 35,
     "content": {
-      "text": "Who shall separate us from the love of Christ? Could oppression, or anguish, or persecution, or famine, or nakedness, or peril, or sword?",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Who shall separate us from the love of Christ? Could oppression, or anguish, or persecution, or famine, or nakedness, or peril, or sword?"
     }
   },
   {
@@ -1729,8 +1729,8 @@
     "chapter": 9,
     "verse": 1,
     "content": {
-      "text": "I tell the truth in Christ. I am not lying, my conscience testifying with me in the Holy Spirit",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I tell the truth in Christ. I am not lying, my conscience testifying with me in the Holy Spirit"
     }
   },
   {
@@ -1762,8 +1762,8 @@
     "chapter": 9,
     "verse": 6,
     "content": {
-      "text": "But it is not as though the word of God has come to nothing. For they are not all Israel that are of Israel.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But it is not as though the word of God has come to nothing. For they are not all Israel that are of Israel."
     }
   },
   {
@@ -1843,8 +1843,8 @@
     "chapter": 9,
     "verse": 14,
     "content": {
-      "text": "What shall we say then? Is there unrighteousness with God? May it never be!",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What shall we say then? Is there unrighteousness with God? May it never be!"
     }
   },
   {
@@ -1888,8 +1888,8 @@
     "chapter": 9,
     "verse": 19,
     "content": {
-      "text": "You will say then to me, “Why does he still find fault? For who withstands his will?”",
-      "paragraph": true
+      "paragraph": true,
+      "text": "You will say then to me, “Why does he still find fault? For who withstands his will?”"
     }
   },
   {
@@ -1943,11 +1943,11 @@
       },
       {
         "text": "and her ‘beloved,’ who was not beloved.”",
+        "break": true,
         "foot": {
           "type": "xrf",
           "content": "Hosea 2:23"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -1975,8 +1975,8 @@
     "verse": 27,
     "content": [
       {
-        "text": "Isaiah cries concerning Israel,",
         "paragraph": true,
+        "text": "Isaiah cries concerning Israel,",
         "break": true
       },
       {
@@ -2013,8 +2013,8 @@
     "verse": 29,
     "content": [
       {
-        "text": "As Isaiah has said before,",
         "paragraph": true,
+        "text": "As Isaiah has said before,",
         "break": true
       },
       {
@@ -2046,8 +2046,8 @@
     "chapter": 9,
     "verse": 30,
     "content": {
-      "text": "What shall we say then? That the Gentiles, who didn’t follow after righteousness, attained to righteousness, even the righteousness which is of faith;",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What shall we say then? That the Gentiles, who didn’t follow after righteousness, attained to righteousness, even the righteousness which is of faith;"
     }
   },
   {
@@ -2103,8 +2103,8 @@
     "chapter": 10,
     "verse": 1,
     "content": {
-      "text": "Brothers, my heart’s desire and my prayer to God is for Israel, that they may be saved.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Brothers, my heart’s desire and my prayer to God is for Israel, that they may be saved."
     }
   },
   {
@@ -2139,12 +2139,12 @@
     "chapter": 10,
     "verse": 5,
     "content": {
+      "paragraph": true,
       "text": "For Moses writes about the righteousness of the law, “The one who does them will live by them.”",
       "foot": {
         "type": "xrf",
         "content": "Leviticus 18:5"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -2221,8 +2221,8 @@
     "chapter": 10,
     "verse": 12,
     "content": {
-      "text": "For there is no distinction between Jew and Greek; for the same Lord is Lord of all, and is rich to all who call on him.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For there is no distinction between Jew and Greek; for the same Lord is Lord of all, and is rich to all who call on him."
     }
   },
   {
@@ -2270,12 +2270,12 @@
     "chapter": 10,
     "verse": 16,
     "content": {
+      "paragraph": true,
       "text": "But they didn’t all listen to the glad news. For Isaiah says, “Lord, who has believed our report?”",
       "foot": {
         "type": "xrf",
         "content": "Isaiah 53:1"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -2312,8 +2312,8 @@
     "verse": 19,
     "content": [
       {
-        "text": "But I ask, didn’t Israel know? First Moses says,",
         "paragraph": true,
+        "text": "But I ask, didn’t Israel know? First Moses says,",
         "break": true
       },
       {
@@ -2335,8 +2335,8 @@
     "verse": 20,
     "content": [
       {
-        "text": "Isaiah is very bold and says,",
         "paragraph": true,
+        "text": "Isaiah is very bold and says,",
         "break": true
       },
       {
@@ -2357,12 +2357,12 @@
     "chapter": 10,
     "verse": 21,
     "content": {
+      "paragraph": true,
       "text": "But about Israel he says, “All day long I stretched out my hands to a disobedient and contrary people.”",
       "foot": {
         "type": "xrf",
         "content": "Isaiah 65:2"
-      },
-      "paragraph": true
+      }
     }
   },
   {
@@ -2370,8 +2370,8 @@
     "chapter": 11,
     "verse": 1,
     "content": {
-      "text": "I ask then, did God reject his people? May it never be! For I also am an Israelite, a descendant of Abraham, of the tribe of Benjamin.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I ask then, did God reject his people? May it never be! For I also am an Israelite, a descendant of Abraham, of the tribe of Benjamin."
     }
   },
   {
@@ -2421,8 +2421,8 @@
     "chapter": 11,
     "verse": 7,
     "content": {
-      "text": "What then? That which Israel seeks for, that he didn’t obtain, but the chosen ones obtained it, and the rest were hardened.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "What then? That which Israel seeks for, that he didn’t obtain, but the chosen ones obtained it, and the rest were hardened."
     }
   },
   {
@@ -2443,8 +2443,8 @@
     "verse": 9,
     "content": [
       {
-        "text": "David says,",
         "paragraph": true,
+        "text": "David says,",
         "break": true
       },
       {
@@ -2480,8 +2480,8 @@
     "chapter": 11,
     "verse": 11,
     "content": {
-      "text": "I ask then, did they stumble that they might fall? May it never be! But by their fall salvation has come to the Gentiles, to provoke them to jealousy.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "I ask then, did they stumble that they might fall? May it never be! But by their fall salvation has come to the Gentiles, to provoke them to jealousy."
     }
   },
   {
@@ -2495,8 +2495,8 @@
     "chapter": 11,
     "verse": 13,
     "content": {
-      "text": "For I speak to you who are Gentiles. Since then as I am an apostle to Gentiles, I glorify my ministry,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For I speak to you who are Gentiles. Since then as I am an apostle to Gentiles, I glorify my ministry,"
     }
   },
   {
@@ -2516,8 +2516,8 @@
     "chapter": 11,
     "verse": 16,
     "content": {
-      "text": "If the first fruit is holy, so is the lump. If the root is holy, so are the branches.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "If the first fruit is holy, so is the lump. If the root is holy, so are the branches."
     }
   },
   {
@@ -2574,12 +2574,12 @@
     "verse": 25,
     "content": [
       {
+        "paragraph": true,
         "text": "For I don’t desire you to be ignorant, brothers,",
         "foot": {
           "type": "trn",
           "content": "The word for “brothers” here and where context allows may also be correctly translated “brothers and sisters” or “siblings.”"
-        },
-        "paragraph": true
+        }
       },
       " of this mystery, so that you won’t be wise in your own conceits, that a partial hardening has happened to Israel, until the fullness of the Gentiles has come in,"
     ]
@@ -2626,8 +2626,8 @@
     "chapter": 11,
     "verse": 28,
     "content": {
-      "text": "Concerning the Good News, they are enemies for your sake. But concerning the election, they are beloved for the fathers’ sake.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Concerning the Good News, they are enemies for your sake. But concerning the election, they are beloved for the fathers’ sake."
     }
   },
   {
@@ -2659,8 +2659,8 @@
     "chapter": 11,
     "verse": 33,
     "content": {
-      "text": "Oh the depth of the riches both of the wisdom and the knowledge of God! How unsearchable are his judgments, and his ways past tracing out!",
       "paragraph": true,
+      "text": "Oh the depth of the riches both of the wisdom and the knowledge of God! How unsearchable are his judgments, and his ways past tracing out!",
       "break": true
     }
   },
@@ -2675,11 +2675,11 @@
       },
       {
         "text": "Or who has been his counselor?”",
+        "break": true,
         "foot": {
           "type": "xrf",
           "content": "Isaiah 40:13"
-        },
-        "break": true
+        }
       }
     ]
   },
@@ -2706,8 +2706,8 @@
     "chapter": 11,
     "verse": 36,
     "content": {
-      "text": "For of him and through him and to him are all things. To him be the glory for ever! Amen.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For of him and through him and to him are all things. To him be the glory for ever! Amen."
     }
   },
   {
@@ -2715,8 +2715,8 @@
     "chapter": 12,
     "verse": 1,
     "content": {
-      "text": "Therefore I urge you, brothers, by the mercies of God, to present your bodies a living sacrifice, holy, acceptable to God, which is your spiritual service.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore I urge you, brothers, by the mercies of God, to present your bodies a living sacrifice, holy, acceptable to God, which is your spiritual service."
     }
   },
   {
@@ -2730,8 +2730,8 @@
     "chapter": 12,
     "verse": 3,
     "content": {
-      "text": "For I say through the grace that was given me, to everyone who is among you, not to think of yourself more highly than you ought to think; but to think reasonably, as God has apportioned to each person a measure of faith.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "For I say through the grace that was given me, to everyone who is among you, not to think of yourself more highly than you ought to think; but to think reasonably, as God has apportioned to each person a measure of faith."
     }
   },
   {
@@ -2769,8 +2769,8 @@
     "chapter": 12,
     "verse": 9,
     "content": {
-      "text": "Let love be without hypocrisy. Abhor that which is evil. Cling to that which is good.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Let love be without hypocrisy. Abhor that which is evil. Cling to that which is good."
     }
   },
   {
@@ -2802,8 +2802,8 @@
     "chapter": 12,
     "verse": 14,
     "content": {
-      "text": "Bless those who persecute you; bless, and don’t curse.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Bless those who persecute you; bless, and don’t curse."
     }
   },
   {
@@ -2873,8 +2873,8 @@
     "chapter": 12,
     "verse": 21,
     "content": {
-      "text": "Don’t be overcome by evil, but overcome evil with good.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Don’t be overcome by evil, but overcome evil with good."
     }
   },
   {
@@ -2882,8 +2882,8 @@
     "chapter": 13,
     "verse": 1,
     "content": {
-      "text": "Let every soul be in subjection to the higher authorities, for there is no authority except from God, and those who exist are ordained by God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Let every soul be in subjection to the higher authorities, for there is no authority except from God, and those who exist are ordained by God."
     }
   },
   {
@@ -2927,8 +2927,8 @@
     "chapter": 13,
     "verse": 8,
     "content": {
-      "text": "Owe no one anything, except to love one another; for he who loves his neighbor has fulfilled the law.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Owe no one anything, except to love one another; for he who loves his neighbor has fulfilled the law."
     }
   },
   {
@@ -2970,8 +2970,8 @@
     "chapter": 13,
     "verse": 11,
     "content": {
-      "text": "Do this, knowing the time, that it is already time for you to awaken out of sleep, for salvation is now nearer to us than when we first believed.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Do this, knowing the time, that it is already time for you to awaken out of sleep, for salvation is now nearer to us than when we first believed."
     }
   },
   {
@@ -2997,8 +2997,8 @@
     "chapter": 14,
     "verse": 1,
     "content": {
-      "text": "Now accept one who is weak in faith, but not for disputes over opinions.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now accept one who is weak in faith, but not for disputes over opinions."
     }
   },
   {
@@ -3024,8 +3024,8 @@
     "chapter": 14,
     "verse": 5,
     "content": {
-      "text": "One man esteems one day as more important. Another esteems every day alike. Let each man be fully assured in his own mind.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "One man esteems one day as more important. Another esteems every day alike. Let each man be fully assured in his own mind."
     }
   },
   {
@@ -3057,8 +3057,8 @@
     "chapter": 14,
     "verse": 10,
     "content": {
-      "text": "But you, why do you judge your brother? Or you again, why do you despise your brother? For we will all stand before the judgment seat of Christ.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "But you, why do you judge your brother? Or you again, why do you despise your brother? For we will all stand before the judgment seat of Christ."
     }
   },
   {
@@ -3088,8 +3088,8 @@
     "chapter": 14,
     "verse": 12,
     "content": {
-      "text": "So then each one of us will give account of himself to God.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "So then each one of us will give account of himself to God."
     }
   },
   {
@@ -3097,8 +3097,8 @@
     "chapter": 14,
     "verse": 13,
     "content": {
-      "text": "Therefore let’s not judge one another any more, but judge this rather, that no man put a stumbling block in his brother’s way, or an occasion for falling.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore let’s not judge one another any more, but judge this rather, that no man put a stumbling block in his brother’s way, or an occasion for falling."
     }
   },
   {
@@ -3154,8 +3154,8 @@
     "chapter": 14,
     "verse": 22,
     "content": {
-      "text": "Do you have faith? Have it to yourself before God. Happy is he who doesn’t judge himself in that which he approves.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Do you have faith? Have it to yourself before God. Happy is he who doesn’t judge himself in that which he approves."
     }
   },
   {
@@ -3169,8 +3169,8 @@
     "chapter": 14,
     "verse": 24,
     "content": {
-      "text": "Now to him who is able to establish you according to my Good News and the preaching of Jesus Christ, according to the revelation of the mystery which has been kept secret through long ages,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now to him who is able to establish you according to my Good News and the preaching of Jesus Christ, according to the revelation of the mystery which has been kept secret through long ages,"
     }
   },
   {
@@ -3196,8 +3196,8 @@
     "chapter": 15,
     "verse": 1,
     "content": {
-      "text": "Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now we who are strong ought to bear the weaknesses of the weak, and not to please ourselves."
     }
   },
   {
@@ -3242,12 +3242,12 @@
     "verse": 7,
     "content": [
       {
+        "paragraph": true,
         "text": "Therefore accept one another, even as Christ also accepted you,",
         "foot": {
           "type": "stu",
           "content": "TR reads “us” instead of “you”"
-        },
-        "paragraph": true
+        }
       },
       " to the glory of God."
     ]
@@ -3286,8 +3286,8 @@
     "verse": 10,
     "content": [
       {
-        "text": "Again he says,",
         "paragraph": true,
+        "text": "Again he says,",
         "break": true
       },
       {
@@ -3305,8 +3305,8 @@
     "verse": 11,
     "content": [
       {
-        "text": "Again,",
         "paragraph": true,
+        "text": "Again,",
         "break": true
       },
       {
@@ -3328,8 +3328,8 @@
     "verse": 12,
     "content": [
       {
-        "text": "Again, Isaiah says,",
         "paragraph": true,
+        "text": "Again, Isaiah says,",
         "break": true
       },
       {
@@ -3354,8 +3354,8 @@
     "chapter": 15,
     "verse": 13,
     "content": {
-      "text": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope in the power of the Holy Spirit.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope in the power of the Holy Spirit."
     }
   },
   {
@@ -3364,12 +3364,12 @@
     "verse": 14,
     "content": [
       {
+        "paragraph": true,
         "text": "I myself am also persuaded about you, my brothers,",
         "foot": {
           "type": "trn",
           "content": "The word for “brothers” here and where context allows may also be correctly translated “brothers and sisters” or “siblings.”"
-        },
-        "paragraph": true
+        }
       },
       " that you yourselves are full of goodness, filled with all knowledge, able also to admonish others."
     ]
@@ -3437,8 +3437,8 @@
     "chapter": 15,
     "verse": 22,
     "content": {
-      "text": "Therefore also I was hindered these many times from coming to you,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Therefore also I was hindered these many times from coming to you,"
     }
   },
   {
@@ -3488,8 +3488,8 @@
     "chapter": 15,
     "verse": 30,
     "content": {
-      "text": "Now I beg you, brothers, by our Lord Jesus Christ and by the love of the Spirit, that you strive together with me in your prayers to God for me,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now I beg you, brothers, by our Lord Jesus Christ and by the love of the Spirit, that you strive together with me in your prayers to God for me,"
     }
   },
   {
@@ -3516,12 +3516,12 @@
     "verse": 1,
     "content": [
       {
+        "paragraph": true,
         "text": "I commend to you Phoebe, our sister, who is a servant",
         "foot": {
           "type": "trn",
           "content": "or, deacon"
-        },
-        "paragraph": true
+        }
       },
       " of the assembly that is at Cenchreae,"
     ]
@@ -3537,8 +3537,8 @@
     "chapter": 16,
     "verse": 3,
     "content": {
-      "text": "Greet Prisca and Aquila, my fellow workers in Christ Jesus,",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Greet Prisca and Aquila, my fellow workers in Christ Jesus,"
     }
   },
   {
@@ -3633,8 +3633,8 @@
     "chapter": 16,
     "verse": 17,
     "content": {
-      "text": "Now I beg you, brothers, look out for those who are causing the divisions and occasions of stumbling, contrary to the doctrine which you learned, and turn away from them.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Now I beg you, brothers, look out for those who are causing the divisions and occasions of stumbling, contrary to the doctrine which you learned, and turn away from them."
     }
   },
   {
@@ -3653,15 +3653,21 @@
     "book": "ROM",
     "chapter": 16,
     "verse": 20,
-    "content": "And the God of peace will quickly crush Satan under your feet. The grace of our Lord Jesus Christ be with you."
+    "content": [
+      "And the God of peace will quickly crush Satan under your feet.",
+      {
+        "paragraph": true,
+        "text": "The grace of our Lord Jesus Christ be with you."
+      }
+    ]
   },
   {
     "book": "ROM",
     "chapter": 16,
     "verse": 21,
     "content": {
-      "text": "Timothy, my fellow worker, greets you, as do Lucius, Jason, and Sosipater, my relatives.",
-      "paragraph": true
+      "paragraph": true,
+      "text": "Timothy, my fellow worker, greets you, as do Lucius, Jason, and Sosipater, my relatives."
     }
   },
   {
@@ -3687,7 +3693,6 @@
     "chapter": 16,
     "verse": 25,
     "content": {
-      "text": "",
       "foot": {
         "type": "stu",
         "content": "TR places Romans 14:24-26 at the end of Romans instead of at the end of chapter 14, and numbers these verses 16:25-27."

@@ -92,6 +92,7 @@
 <sup>21</sup> “The youth and the old man lie on the ground in the streets.<br>My virgins and my young men have fallen by the sword.<br>You have killed them in the day of your anger.<br>You have slaughtered, and not pitied.
 
 <sup>22</sup> “You have called, as in the day of a solemn assembly, my terrors on every side.<br>There was no one that escaped or remained in the day of Yahweh’s anger.<br>My enemy has consumed those whom I have cared for and brought up.
+
 ## Chapter 3
 
 <sup>1</sup> I am the man who has seen affliction<br>by the rod of his wrath.<br>
@@ -230,6 +231,7 @@
 <sup>21</sup> Rejoice and be glad, daughter of Edom,<br>who dwells in the land of Uz.<br>The cup will pass through to you also.<br>You will be drunken,<br>and will make yourself naked.
 
 <sup>22</sup> The punishment of your iniquity is accomplished, daughter of Zion.<br>He will no more carry you away into captivity.<br>He will visit your iniquity, daughter of Edom.<br>He will uncover your sins.
+
 ## Chapter 5
 
 <sup>1</sup> Remember, Yahweh, what has come on us.<br>Look, and see our reproach.<br>

@@ -15,6 +15,7 @@
 <sup>13</sup> et nunc conteram virgam eius de dorso tuo et vincula tua disrumpam
 <sup>14</sup> et praecipiet super te Dominus non seminabitur ex nomine tuo amplius de domo Dei tui interficiam sculptile et conflatile ponam sepulchrum tuum quia inhonoratus es
 <sup>15</sup> ecce super montes pedes evangelizantis et adnuntiantis pacem celebra Iuda festivitates tuas et redde vota tua quia non adiciet ultra ut pertranseat in te Belial universus interiit
+
 ## Chapter 2
 
 <sup>1</sup> ascendit qui dispergat coram te qui custodit obsidionem contemplare viam conforta lumbos robora virtutem valde
@@ -30,6 +31,7 @@
 <sup>11</sup> ubi est habitaculum leonum et pascua catulorum leonum ad quam ivit leo ut ingrederetur illuc catulus leonis et non est qui exterreat
 <sup>12</sup> leo cepit sufficienter catulis suis et necavit leaenis suis et implevit praeda speluncas suas et cubile suum rapina
 <sup>13</sup> ecce ego ad te dicit Dominus exercituum et succendam usque ad fumum quadrigas eius et leunculos tuos comedet gladius et exterminabo de terra praedam tuam et non audietur ultra vox nuntiorum tuorum
+
 ## Chapter 3
 
 <sup>1</sup> vae civitas sanguinum universa mendacii dilaceratione plena non recedet a te rapina

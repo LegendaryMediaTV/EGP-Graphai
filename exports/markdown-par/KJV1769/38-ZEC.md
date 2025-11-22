@@ -21,6 +21,7 @@
 <sup>19</sup> And I said unto the angel that talked with me, What [be] these? And he answered me, These [are] the horns which have scattered Judah, Israel, and Jerusalem.
 <sup>20</sup> And the LORD shewed me four carpenters.
 <sup>21</sup> Then said I, What come these to do? And he spake, saying, These [are] the horns which have scattered Judah, so that no man did lift up his head: but these are come to fray them, to cast out the horns of the Gentiles, which lifted up [their] horn over the land of Judah to scatter it.
+
 ## Chapter 2
 
 <sup>1</sup> I lifted up mine eyes again, and looked, and behold a man with a measuring line in his hand.
@@ -36,6 +37,7 @@
 <sup>11</sup> And many nations shall be joined to the LORD in that day, and shall be my people: and I will dwell in the midst of thee, and thou shalt know that the LORD of hosts hath sent me unto thee.
 <sup>12</sup> And the LORD shall inherit Judah his portion in the holy land, and shall choose Jerusalem again.
 <sup>13</sup> Be silent, O all flesh, before the LORD: for he is raised up out of his holy habitation.
+
 ## Chapter 3
 
 <sup>1</sup> And he shewed me Joshua the high priest standing before the angel of the LORD, and Satan standing at his right hand to resist him.
@@ -48,6 +50,7 @@
 <sup>8</sup> Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they [are] men wondered at: for, behold, I will bring forth my servant the BRANCH.
 <sup>9</sup> For behold the stone that I have laid before Joshua; upon one stone [shall be] seven eyes: behold, I will engrave the graving thereof, saith the LORD of hosts, and I will remove the iniquity of that land in one day.
 <sup>10</sup> In that day, saith the LORD of hosts, shall ye call every man his neighbour under the vine and under the fig tree.
+
 ## Chapter 4
 
 <sup>1</sup> And the angel that talked with me came again, and waked me, as a man that is wakened out of his sleep,
@@ -64,6 +67,7 @@
 <sup>12</sup> And I answered again, and said unto him, What [be these] two olive branches which through the two golden pipes empty the golden [oil] out of themselves?
 <sup>13</sup> And he answered me and said, Knowest thou not what these [be]? And I said, No, my lord.
 <sup>14</sup> Then said he, These [are] the two anointed ones, that stand by the Lord of the whole earth.
+
 ## Chapter 5
 
 <sup>1</sup> Then I turned, and lifted up mine eyes, and looked, and behold a flying roll.
@@ -77,6 +81,7 @@
 <sup>9</sup> Then lifted I up mine eyes, and looked, and, behold, there came out two women, and the wind [was] in their wings; for they had wings like the wings of a stork: and they lifted up the ephah between the earth and the heaven.
 <sup>10</sup> Then said I to the angel that talked with me, Whither do these bear the ephah?
 <sup>11</sup> And he said unto me, To build it an house in the land of Shinar: and it shall be established, and set there upon her own base.
+
 ## Chapter 6
 
 <sup>1</sup> And I turned, and lifted up mine eyes, and looked, and, behold, there came four chariots out from between two mountains; and the mountains [were] mountains of brass.
@@ -94,6 +99,7 @@
 <sup>13</sup> Even he shall build the temple of the LORD; and he shall bear the glory, and shall sit and rule upon his throne; and he shall be a priest upon his throne: and the counsel of peace shall be between them both.
 <sup>14</sup> And the crowns shall be to Helem, and to Tobijah, and to Jedaiah, and to Hen the son of Zephaniah, for a memorial in the temple of the LORD.
 <sup>15</sup> And they [that are] far off shall come and build in the temple of the LORD, and ye shall know that the LORD of hosts hath sent me unto you. And [this] shall come to pass, if ye will diligently obey the voice of the LORD your God.
+
 ## Chapter 7
 
 <sup>1</sup> And it came to pass in the fourth year of king Darius, [that] the word of the LORD came unto Zechariah in the fourth [day] of the ninth month, [even] in Chisleu;
@@ -110,6 +116,7 @@
 <sup>12</sup> Yea, they made their hearts [as] an adamant stone, lest they should hear the law, and the words which the LORD of hosts hath sent in his spirit by the former prophets: therefore came a great wrath from the LORD of hosts.
 <sup>13</sup> Therefore it is come to pass, [that] as he cried, and they would not hear; so they cried, and I would not hear, saith the LORD of hosts:
 <sup>14</sup> But I scattered them with a whirlwind among all the nations whom they knew not. Thus the land was desolate after them, that no man passed through nor returned: for they laid the pleasant land desolate.
+
 ## Chapter 8
 
 <sup>1</sup> Again the word of the LORD of hosts came [to me], saying,
@@ -135,6 +142,7 @@
 <sup>21</sup> And the inhabitants of one [city] shall go to another, saying, Let us go speedily to pray before the LORD, and to seek the LORD of hosts: I will go also.
 <sup>22</sup> Yea, many people and strong nations shall come to seek the LORD of hosts in Jerusalem, and to pray before the LORD.
 <sup>23</sup> Thus saith the LORD of hosts; In those days [it shall come to pass], that ten men shall take hold out of all languages of the nations, even shall take hold of the skirt of him that is a Jew, saying, We will go with you: for we have heard [that] God [is] with you.
+
 ## Chapter 9
 
 <sup>1</sup> The burden of the word of the LORD in the land of Hadrach, and Damascus [shall be] the rest thereof: when the eyes of man, as of all the tribes of Israel, [shall be] toward the LORD.
@@ -154,6 +162,7 @@
 <sup>15</sup> The LORD of hosts shall defend them; and they shall devour, and subdue with sling stones; and they shall drink, [and] make a noise as through wine; and they shall be filled like bowls, [and] as the corners of the altar.
 <sup>16</sup> And the LORD their God shall save them in that day as the flock of his people: for they [shall be as] the stones of a crown, lifted up as an ensign upon his land.
 <sup>17</sup> For how great [is] his goodness, and how great [is] his beauty! corn shall make the young men cheerful, and new wine the maids.
+
 ## Chapter 10
 
 <sup>1</sup> Ask ye of the LORD rain in the time of the latter rain; [so] the LORD shall make bright clouds, and give them showers of rain, to every one grass in the field.
@@ -168,6 +177,7 @@
 <sup>10</sup> I will bring them again also out of the land of Egypt, and gather them out of Assyria; and I will bring them into the land of Gilead and Lebanon; and [place] shall not be found for them.
 <sup>11</sup> And he shall pass through the sea with affliction, and shall smite the waves in the sea, and all the deeps of the river shall dry up: and the pride of Assyria shall be brought down, and the sceptre of Egypt shall depart away.
 <sup>12</sup> And I will strengthen them in the LORD; and they shall walk up and down in his name, saith the LORD.
+
 ## Chapter 11
 
 <sup>1</sup> Open thy doors, O Lebanon, that the fire may devour thy cedars.
@@ -187,6 +197,7 @@
 <sup>15</sup> And the LORD said unto me, Take unto thee yet the instruments of a foolish shepherd.
 <sup>16</sup> For, lo, I will raise up a shepherd in the land, [which] shall not visit those that be cut off, neither shall seek the young one, nor heal that that is broken, nor feed that that standeth still: but he shall eat the flesh of the fat, and tear their claws in pieces.
 <sup>17</sup> Woe to the idol shepherd that leaveth the flock! the sword [shall be] upon his arm, and upon his right eye: his arm shall be clean dried up, and his right eye shall be utterly darkened.
+
 ## Chapter 12
 
 <sup>1</sup> The burden of the word of the LORD for Israel, saith the LORD, which stretcheth forth the heavens, and layeth the foundation of the earth, and formeth the spirit of man within him.
@@ -203,6 +214,7 @@
 <sup>12</sup> And the land shall mourn, every family apart; the family of the house of David apart, and their wives apart; the family of the house of Nathan apart, and their wives apart;
 <sup>13</sup> The family of the house of Levi apart, and their wives apart; the family of Shimei apart, and their wives apart;
 <sup>14</sup> All the families that remain, every family apart, and their wives apart.
+
 ## Chapter 13
 
 <sup>1</sup> In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem for sin and for uncleanness.
@@ -214,10 +226,11 @@
 <sup>7</sup> Awake, O sword, against my shepherd, and against the man [that is] my fellow, saith the LORD of hosts: smite the shepherd, and the sheep shall be scattered: and I will turn mine hand upon the little ones.
 <sup>8</sup> And it shall come to pass, [that] in all the land, saith the LORD, two parts therein shall be cut off [and] die; but the third shall be left therein.
 <sup>9</sup> And I will bring the third part through the fire, and will refine them as silver is refined, and will try them as gold is tried: they shall call on my name, and I will hear them: I will say, It [is] my people: and they shall say, The LORD [is] my God.
+
 ## Chapter 14
 
 <sup>1</sup> Behold, the day of the LORD cometh, and thy spoil shall be divided in the midst of thee.
-<sup>2</sup> For I will gather all nations against Jerusalem to battle; and the city shall be taken, and the houses rifled, and the women ravished (8675); and half of the city shall go forth into captivity, and the residue of the people shall not be cut off from the city.
+<sup>2</sup> For I will gather all nations against Jerusalem to battle; and the city shall be taken, and the houses rifled, and the women ravished; and half of the city shall go forth into captivity, and the residue of the people shall not be cut off from the city.
 <sup>3</sup> Then shall the LORD go forth, and fight against those nations, as when he fought in the day of battle.
 <sup>4</sup> And his feet shall stand in that day upon the mount of Olives, which [is] before Jerusalem on the east, and the mount of Olives shall cleave in the midst thereof toward the east and toward the west, [and there shall be] a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south.
 <sup>5</sup> And ye shall flee [to] the valley of the mountains; for the valley of the mountains shall reach unto Azal: yea, ye shall flee, like as ye fled from before the earthquake in the days of Uzziah king of Judah: and the LORD my God shall come, [and] all the saints with thee.

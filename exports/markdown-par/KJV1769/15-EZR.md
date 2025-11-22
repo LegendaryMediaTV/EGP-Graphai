@@ -11,6 +11,7 @@
 <sup>9</sup> And this [is] the number of them: thirty chargers of gold, a thousand chargers of silver, nine and twenty knives,
 <sup>10</sup> Thirty basons of gold, silver basons of a second [sort] four hundred and ten, [and] other vessels a thousand.
 <sup>11</sup> All the vessels of gold and of silver [were] five thousand and four hundred. All [these] did Sheshbazzar bring up with [them of] the captivity that were brought up from Babylon unto Jerusalem.
+
 ## Chapter 2
 
 <sup>1</sup> Now these [are] the children of the province that went up out of the captivity, of those which had been carried away, whom Nebuchadnezzar the king of Babylon had carried away unto Babylon, and came again unto Jerusalem and Judah, every one unto his city;
@@ -81,8 +82,9 @@
 <sup>66</sup> Their horses [were] seven hundred thirty and six; their mules, two hundred forty and five;
 <sup>67</sup> Their camels, four hundred thirty and five; [their] asses, six thousand seven hundred and twenty.
 <sup>68</sup> And [some] of the chief of the fathers, when they came to the house of the LORD which [is] at Jerusalem, offered freely for the house of God to set it up in his place:
-<sup>69</sup> They gave after their ability unto the treasure of the work threescore and one thousand drams of gold, and five thousand pound of silver, and one hundred priests ’ garments.
+<sup>69</sup> They gave after their ability unto the treasure of the work threescore and one thousand drams of gold, and five thousand pound of silver, and one hundred priests’ garments.
 <sup>70</sup> So the priests, and the Levites, and [some] of the people, and the singers, and the porters, and the Nethinims, dwelt in their cities, and all Israel in their cities.
+
 ## Chapter 3
 
 <sup>1</sup> And when the seventh month was come, and the children of Israel [were] in the cities, the people gathered themselves together as one man to Jerusalem.
@@ -98,12 +100,13 @@
 <sup>11</sup> And they sang together by course in praising and giving thanks unto the LORD; because [he is] good, for his mercy [endureth] for ever toward Israel. And all the people shouted with a great shout, when they praised the LORD, because the foundation of the house of the LORD was laid.
 <sup>12</sup> But many of the priests and Levites and chief of the fathers, [who were] ancient men, that had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice; and many shouted aloud for joy:
 <sup>13</sup> So that the people could not discern the noise of the shout of joy from the noise of the weeping of the people: for the people shouted with a loud shout, and the noise was heard afar off.
+
 ## Chapter 4
 
 <sup>1</sup> Now when the adversaries of Judah and Benjamin heard that the children of the captivity builded the temple unto the LORD God of Israel;
 <sup>2</sup> Then they came to Zerubbabel, and to the chief of the fathers, and said unto them, Let us build with you: for we seek your God, as ye [do]; and we do sacrifice unto him since the days of Esarhaddon king of Assur, which brought us up hither.
 <sup>3</sup> But Zerubbabel, and Jeshua, and the rest of the chief of the fathers of Israel, said unto them, Ye have nothing to do with us to build an house unto our God; but we ourselves together will build unto the LORD God of Israel, as king Cyrus the king of Persia hath commanded us.
-<sup>4</sup> Then the people of the land weakened the hands of the people of Judah, and troubled (8675) them in building,
+<sup>4</sup> Then the people of the land weakened the hands of the people of Judah, and troubled them in building,
 <sup>5</sup> And hired counsellors against them, to frustrate their purpose, all the days of Cyrus king of Persia, even until the reign of Darius king of Persia.
 <sup>6</sup> And in the reign of Ahasuerus, in the beginning of his reign, wrote they [unto him] an accusation against the inhabitants of Judah and Jerusalem.
 <sup>7</sup> And in the days of Artaxerxes wrote Bishlam, Mithredath, Tabeel, and the rest of their companions, unto Artaxerxes king of Persia; and the writing of the letter [was] written in the Syrian tongue, and interpreted in the Syrian tongue.
@@ -111,7 +114,7 @@
 <sup>9</sup> Then [wrote] Rehum the chancellor, and Shimshai the scribe, and the rest of their companions; the Dinaites, the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Susanchites, the Dehavites, [and] the Elamites,
 <sup>10</sup> And the rest of the nations whom the great and noble Asnappar brought over, and set in the cities of Samaria, and the rest [that are] on this side the river, and at such a time.
 <sup>11</sup> This [is] the copy of the letter that they sent unto him, [even] unto Artaxerxes the king; Thy servants the men on this side the river, and at such a time.
-<sup>12</sup> Be it known unto the king, that the Jews which came up from thee to us are come unto Jerusalem, building the rebellious and the bad city, and have set up (8675) the walls [thereof], and joined the foundations.
+<sup>12</sup> Be it known unto the king, that the Jews which came up from thee to us are come unto Jerusalem, building the rebellious and the bad city, and have set up the walls [thereof], and joined the foundations.
 <sup>13</sup> Be it known now unto the king, that, if this city be builded, and the walls set up [again, then] will they not pay toll, tribute, and custom, and [so] thou shalt endamage the revenue of the kings.
 <sup>14</sup> Now because we have maintenance from [the king’s] palace, and it was not meet for us to see the king’s dishonour, therefore have we sent and certified the king;
 <sup>15</sup> That search may be made in the book of the records of thy fathers: so shalt thou find in the book of the records, and know that this city [is] a rebellious city, and hurtful unto kings and provinces, and that they have moved sedition within the same of old time: for which cause was this city destroyed.
@@ -122,8 +125,9 @@
 <sup>20</sup> There have been mighty kings also over Jerusalem, which have ruled over all [countries] beyond the river; and toll, tribute, and custom, was paid unto them.
 <sup>21</sup> Give ye now commandment to cause these men to cease, and that this city be not builded, until [another] commandment shall be given from me.
 <sup>22</sup> Take heed now that ye fail not to do this: why should damage grow to the hurt of the kings?
-<sup>23</sup> Now when the copy of king Artaxerxes ’ letter [was] read before Rehum, and Shimshai the scribe, and their companions, they went up in haste to Jerusalem unto the Jews, and made them to cease by force and power.
+<sup>23</sup> Now when the copy of king Artaxerxes’ letter [was] read before Rehum, and Shimshai the scribe, and their companions, they went up in haste to Jerusalem unto the Jews, and made them to cease by force and power.
 <sup>24</sup> Then ceased the work of the house of God which [is] at Jerusalem. So it ceased unto the second year of the reign of Darius king of Persia.
+
 ## Chapter 5
 
 <sup>1</sup> Then the prophets, Haggai the prophet, and Zechariah the son of Iddo, prophesied unto the Jews that [were] in Judah and Jerusalem in the name of the God of Israel, [even] unto them.
@@ -143,6 +147,7 @@
 <sup>15</sup> And said unto him, Take these vessels, go, carry them into the temple that [is] in Jerusalem, and let the house of God be builded in his place.
 <sup>16</sup> Then came the same Sheshbazzar, [and] laid the foundation of the house of God which [is] in Jerusalem: and since that time even until now hath it been in building, and [yet] it is not finished.
 <sup>17</sup> Now therefore, if [it seem] good to the king, let there be search made in the king’s treasure house, which [is] there at Babylon, whether it be [so], that a decree was made of Cyrus the king to build this house of God at Jerusalem, and let the king send his pleasure to us concerning this matter.
+
 ## Chapter 6
 
 <sup>1</sup> Then Darius the king made a decree, and search was made in the house of the rolls, where the treasures were laid up in Babylon.
@@ -167,6 +172,7 @@
 <sup>20</sup> For the priests and the Levites were purified together, all of them [were] pure, and killed the passover for all the children of the captivity, and for their brethren the priests, and for themselves.
 <sup>21</sup> And the children of Israel, which were come again out of captivity, and all such as had separated themselves unto them from the filthiness of the heathen of the land, to seek the LORD God of Israel, did eat,
 <sup>22</sup> And kept the feast of unleavened bread seven days with joy: for the LORD had made them joyful, and turned the heart of the king of Assyria unto them, to strengthen their hands in the work of the house of God, the God of Israel.
+
 ## Chapter 7
 
 <sup>1</sup> Now after these things, in the reign of Artaxerxes king of Persia, Ezra the son of Seraiah, the son of Azariah, the son of Hilkiah,
@@ -197,6 +203,7 @@
 <sup>26</sup> And whosoever will not do the law of thy God, and the law of the king, let judgment be executed speedily upon him, whether [it be] unto death, or to banishment, or to confiscation of goods, or to imprisonment.
 <sup>27</sup> Blessed [be] the LORD God of our fathers, which hath put [such a thing] as this in the king’s heart, to beautify the house of the LORD which [is] in Jerusalem:
 <sup>28</sup> And hath extended mercy unto me before the king, and his counsellors, and before all the king’s mighty princes. And I was strengthened as the hand of the LORD my God [was] upon me, and I gathered together out of Israel chief men to go up with me.
+
 ## Chapter 8
 
 <sup>1</sup> These [are] now the chief of their fathers, and [this is] the genealogy of them that went up with me from Babylon, in the reign of Artaxerxes the king.
@@ -235,6 +242,7 @@
 <sup>34</sup> By number [and] by weight of every one: and all the weight was written at that time.
 <sup>35</sup> [Also] the children of those that had been carried away, which were come out of the captivity, offered burnt offerings unto the God of Israel, twelve bullocks for all Israel, ninety and six rams, seventy and seven lambs, twelve he goats [for] a sin offering: all [this was] a burnt offering unto the LORD.
 <sup>36</sup> And they delivered the king’s commissions unto the king’s lieutenants, and to the governors on this side the river: and they furthered the people, and the house of God.
+
 ## Chapter 9
 
 <sup>1</sup> Now when these things were done, the princes came to me, saying, The people of Israel, and the priests, and the Levites, have not separated themselves from the people of the lands, [doing] according to their abominations, [even] of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites.
@@ -252,6 +260,7 @@
 <sup>13</sup> And after all that is come upon us for our evil deeds, and for our great trespass, seeing that thou our God hast punished us less than our iniquities [deserve], and hast given us [such] deliverance as this;
 <sup>14</sup> Should we again break thy commandments, and join in affinity with the people of these abominations? wouldest not thou be angry with us till thou hadst consumed [us], so that [there should be] no remnant nor escaping?
 <sup>15</sup> O LORD God of Israel, thou [art] righteous: for we remain yet escaped, as [it is] this day: behold, we [are] before thee in our trespasses: for we cannot stand before thee because of this.
+
 ## Chapter 10
 
 <sup>1</sup> Now when Ezra had prayed, and when he had confessed, weeping and casting himself down before the house of God, there assembled unto him out of Israel a very great congregation of men and women and children: for the people wept very sore.
@@ -297,4 +306,4 @@
 <sup>41</sup> Azareel, and Shelemiah, Shemariah,
 <sup>42</sup> Shallum, Amariah, [and] Joseph.
 <sup>43</sup> Of the sons of Nebo; Jeiel, Mattithiah, Zabad, Zebina, Jadau, and Joel, Benaiah.
-<sup>44</sup> All these had taken (8675) strange wives: and [some] of them had wives by whom they had children.
+<sup>44</sup> All these had taken strange wives: and [some] of them had wives by whom they had children.

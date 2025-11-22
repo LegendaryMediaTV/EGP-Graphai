@@ -19,6 +19,7 @@
 <sup>17</sup> ‘And thou, thou dost gird up thy loins, and hast arisen, and spoken unto them all that I command thee: be not affrighted because of them, lest I affright thee before them.
 <sup>18</sup> And I, lo, I have given thee this day for a fenced city, and for an iron pillar, and for brazen walls over all the land, to the kings of Judah, to its heads, to its priests, and to the people of the land;
 <sup>19</sup> and they have fought against thee, and they prevail not against thee; for with thee am I,-an affirmation of Jehovah-to deliver thee.
+
 ## Chapter 2
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying,
@@ -58,6 +59,7 @@
 <sup>35</sup> And thou sayest, ‘Because I have been innocent, Surely turned back hath His anger from me?’ Lo, I have been judged with thee, Because of thy saying, ‘I have not sinned.’
 <sup>36</sup> What? thou art very vile to repeat thy way, Even of Egypt thou art ashamed, As thou hast been ashamed of Asshur,
 <sup>37</sup> Also from this thou goest out, And thy hands on thy head, For Jehovah hath kicked at thy confidences, And thou dost not give prosperity to them!
+
 ## Chapter 3
 
 <sup>1</sup> Saying, ‘Lo, one sendeth away his wife, And she hath gone from him, And she hath been to another man, Doth he turn back unto her again? Greatly defiled is not that land? And thou hast committed whoredom with many lovers, And turn again to Me, an affirmation of Jehovah.
@@ -85,6 +87,7 @@
 <sup>23</sup> Surely in vain from the heights, The multitude of mountains -Surely in Jehovah our God is the salvation of Israel.
 <sup>24</sup> And the shameful thing hath devoured The labour of our fathers from our youth, Their flock and their herd, Their sons and their daughters.
 <sup>25</sup> We have lain down in our shame, and cover us doth our confusion, For against Jehovah our God we have sinned, We, and our fathers, from our youth even unto this day, Nor have we hearkened to the voice of Jehovah our God!
+
 ## Chapter 4
 
 <sup>1</sup> If thou dost turn back, O Israel, An affirmation of Jehovah, unto Me turn back, And if thou dost turn aside Thine abominations from My face, Then thou dost not bemoan.
@@ -118,6 +121,7 @@
 <sup>29</sup> From the voice of the horseman, And of him shooting with the bow, all the city is fleeing, They have come into thickets, And on cliffs they have gone up, All the city is forsaken, And there is no one dwelling in them.
 <sup>30</sup> And thou, O spoiled one, what dost thou? For thou puttest on scarlet, For thou adornest thyself with ornaments of gold. For thou rendest with pain thine eyes, In vain thou dost make thyself fair, Kicked against thee have doting ones, Thy life they do seek.
 <sup>31</sup> For a voice as of a sick woman I have heard, Distress, as of one bringing forth a first-born, The voice of the daughter of Zion, She bewaileth herself, she spreadeth out her hands, ‘Woe to me now, for weary is my soul of slayers!’
+
 ## Chapter 5
 
 <sup>1</sup> Go to and fro in streets of Jerusalem, And see, I pray you, and know, And seek in her broad places, if ye find a man, If there be one doing judgment, seeking stedfastness- Then am I propitious to her.
@@ -151,6 +155,7 @@
 <sup>29</sup> For these do not I inspect, an affirmation of Jehovah, On a nation such as this, Doth not My soul avenge itself?
 <sup>30</sup> An astonishing and horrible thing hath been in the land.
 <sup>31</sup> The prophets have prophesied falsely, And the priests bear rule by their means, And My people have loved it so, And what do they at its latter end?
+
 ## Chapter 6
 
 <sup>1</sup> Strengthen yourselves, sons of Benjamin, From the midst of Jerusalem, And in Tekoa blow ye a trumpet, And over Beth-Haccerem lift ye up a flame, For evil hath been seen from the north, And great destruction.
@@ -183,6 +188,7 @@
 <sup>28</sup> All of them are turned aside by apostates, Walking slanderously-brass and iron, All of them are corrupters.
 <sup>29</sup> The bellows have been burnt, By fire hath the lead been consumed, In vain hath a refiner refined, And the wicked have not been drawn away.
 <sup>30</sup> ‘Silver rejected,’ they have called to them, For Jehovah hath kicked against them!
+
 ## Chapter 7
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah, saying,
@@ -219,6 +225,7 @@
 <sup>32</sup> Therefore, lo, days are coming, An affirmation of Jehovah, And it is not said any more, ‘The Tophet,’ And ‘Valley of the son of Hinnom,’ But ‘Valley of the slaughter,’ And they have buried in Tophet-without place.
 <sup>33</sup> And the carcase of this people hath been for food To a fowl of the heavens, and to a beast of the earth, And there is none troubling.
 <sup>34</sup> And I have caused to cease from cities of Judah, And from streets of Jerusalem, The voice of joy, and the voice of gladness, Voice of bridegroom, and voice of bride, For the land doth become a desolation!
+
 ## Chapter 8
 
 <sup>1</sup> At that time, an affirmation of Jehovah, They bring the bones of the kings of Judah, And the bones of its princes, And the bones of the priests, And the bones of the prophets, And the bones of inhabitants of Jerusalem, Out of their graves,
@@ -243,6 +250,7 @@
 <sup>20</sup> Harvest hath passed, summer hath ended, And we-we have not been saved.
 <sup>21</sup> For a breach of the daughter of my people have I been broken, I have been black, astonishment hath seized me.
 <sup>22</sup> Is there no balm in Gilead? Is there no physician there? For wherefore hath not the health of the daughter of my people gone up?
+
 ## Chapter 9
 
 <sup>1</sup> Who doth make my head waters, And mine eye a fountain of tears? And I weep by day and by night, For the wounded of the daughter of my people.
@@ -271,6 +279,7 @@
 <sup>24</sup> But-in this let the boaster boast himself, In understanding and knowing Me, For I am Jehovah, doing kindness, Judgment, and righteousness, in the earth, For in these I have delighted, An affirmation of Jehovah.
 <sup>25</sup> Lo, days are coming-an affirmation of Jehovah, And I have laid a charge on all circumcised in the foreskin,
 <sup>26</sup> On Egypt, and on Judah, and on Edom, And on the sons of Ammon, and on Moab, And on all cutting the corner of the beard, Who are dwelling in the wilderness, For all the nations are uncircumcised, And all the house of Israel are uncircumcised in heart!
+
 ## Chapter 10
 
 <sup>1</sup> Hear ye the word, O house of Israel, That Jehovah hath spoken for you.
@@ -298,6 +307,7 @@
 <sup>23</sup> I have known, O Jehovah, that not of man is his way, Not of man the going and establishing of his step.
 <sup>24</sup> Chastise me, O Jehovah, only in judgment, Not in Thine anger, lest Thou make me small.
 <sup>25</sup> Pour out Thy fury on the nations that have not known Thee, And on the families that have not called in Thy name, For they have eaten up Jacob, Yea, they have eaten him up, yea, they consume him, And his habitation they have made desolate!
+
 ## Chapter 11
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah, saying:
@@ -323,6 +333,7 @@
 <sup>21</sup> Therefore, thus said Jehovah concerning the men of Anathoth, who are seeking thy life, saying: Do not prophesy in the name of Jehovah, And thou dost not die by our hands.
 <sup>22</sup> Therefore, thus said Jehovah of Hosts: ‘Lo, I am seeing after them, The chosen ones die by sword, Their sons and their daughters die by famine,
 <sup>23</sup> And they have no remnant, For I bring evil unto the men of Anathoth, The year of their inspection!’
+
 ## Chapter 12
 
 <sup>1</sup> Righteous art Thou, O Jehovah, When I plead towards thee, Only, judgments do I speak with Thee, Wherefore did the way of the wicked prosper? At rest have been all treacherous dealers.
@@ -342,6 +353,7 @@
 <sup>15</sup> And it hath been, after My plucking them out, I turn back, and have pitied them, And I have brought them back, Each to his inheritance, and each to his land.
 <sup>16</sup> And it hath come to pass, If they learn well the ways of My people, To swear by My name, ‘Jehovah liveth,’ As they taught My people to swear by Baal, Then they have been built up in the midst of My people.
 <sup>17</sup> And if they do not hearken, Then I have plucked up that nation, Plucking up and destroying, An affirmation of Jehovah!’
+
 ## Chapter 13
 
 <sup>1</sup> Thus said Jehovah unto me, ‘Go, and thou hast got for thee a girdle of linen, and hast placed it on thy loins, and into water thou dost not cause it to enter:’
@@ -371,6 +383,7 @@
 <sup>25</sup> This is thy lot, the portion of thy measures from Me-an affirmation of Jehovah, Because thou hast forgotten me, And dost trust in falsehood.
 <sup>26</sup> I also have made bare thy skirts before thy face, And thy shame hath been seen.
 <sup>27</sup> Thine adulteries, and thy neighings, The wickedness of thy whoredom, on heights in a field, I have seen thine abominations. Woe to thee, O Jerusalem, Thou art not cleansed, after when is it again?
+
 ## Chapter 14
 
 <sup>1</sup> That which hath been the word of Jehovah unto Jeremiah concerning the matters of the dearths:
@@ -395,6 +408,7 @@
 <sup>20</sup> We have known, O Jehovah, our wickedness, The iniquity of our fathers, For we have sinned against Thee.
 <sup>21</sup> Do not despise, for Thy name’s sake, Dishonour not the throne of Thine honour, Remember, break not Thy covenant with us.
 <sup>22</sup> Are there among the vanities of the nations any causing rain? And do the heavens give showers? Art not Thou He, O Jehovah our God? And we wait for thee, for Thou-Thou hast done all these!
+
 ## Chapter 15
 
 <sup>1</sup> And Jehovah saith unto me: Though Moses and Samuel should stand before Me, My soul is not toward this people, Send from before My face, and they go out.
@@ -418,6 +432,7 @@
 <sup>19</sup> Therefore, thus said Jehovah: If thou turnest back, then I bring thee back, Before Me thou dost stand, And if thou bringest out the precious from the vile, As My mouth thou art! They-they turn back unto thee, And thou dost not turn back unto them.
 <sup>20</sup> And I have made thee to this people For a wall-brazen-fenced, And they have fought against thee, And they do not prevail against thee, For with thee am I to save thee, And to deliver thee-an affirmation of Jehovah,
 <sup>21</sup> And I have delivered thee from the hand of evil doers, And I have ransomed thee From the hand of the terrible!
+
 ## Chapter 16
 
 <sup>1</sup> And there is a word of Jehovah unto me, saying:
@@ -441,6 +456,7 @@
 <sup>19</sup> O Jehovah, my strength, and my fortress, And my refuge in a day of adversity, Unto Thee nations do come from the ends of earth, And say, Only falsehood did our fathers inherit, Vanity, and none among them is profitable.
 <sup>20</sup> Doth man make for himself gods, And they-no gods?
 <sup>21</sup> Therefore, lo, I am causing them to know at this time, I cause them to know My hand and My might, And they have known that My name is Jehovah!
+
 ## Chapter 17
 
 <sup>1</sup> The sin of Judah is written with a pen of iron, With the point of a diamond, Graven on the tablet of their heart, And on the horns of your altars,
@@ -470,6 +486,7 @@
 <sup>25</sup> Then entered by the gates of this city have kings and princes, Sitting on the throne of David, Riding in a chariot, and on horses, They, and their princes, the man of Judah, And inhabitants of Jerusalem, And this city hath remained to the age.
 <sup>26</sup> And they have come in from cities of Judah, And from suburbs of Jerusalem, And from the land of Benjamin, And from the low country, And from the hill-country, and from the south, Bringing in burnt-offering, and sacrifice, And present, and frankincense, And bringing praise to the house of Jehovah.
 <sup>27</sup> And if ye do not hearken unto me to sanctify the day of rest, And so as not to bear a burden, And to come in at the gates of Jerusalem on the day of rest, Then I have kindled a fire in its gates, And it hath consumed the high places of Jerusalem, And it is not quenched!’
+
 ## Chapter 18
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah, saying,
@@ -495,6 +512,7 @@
 <sup>21</sup> Therefore, give up their sons to famine, And cause them to run on the sides of the sword, And their wives are bereaved and widows, And their men are slain by death, Their young men smitten by sword in battle,
 <sup>22</sup> A cry is heard from their houses, For Thou bringest against them suddenly a troop, For they dug a pit to capture me, And snares they have hidden for my feet.
 <sup>23</sup> And Thou, O Jehovah, Thou hast known, All their counsel against me is for death, Thou dost not cover over their iniquity, Nor their sin from before Thee blottest out, And they are made to stumble before Thee, In the time of Thine anger work against them!
+
 ## Chapter 19
 
 <sup>1</sup> Thus said Jehovah, ‘Go, and thou hast got a potter’s earthen vessel, and of the elders of the people, and of the elders of the priests,
@@ -512,6 +530,7 @@
 <sup>13</sup> and the houses of Jerusalem, and the houses of the kings of Judah, have been-as the place of Tophet-defiled, even all the houses on whose roofs they have made perfume to all the host of the heavens, so as to pour out oblations to other gods.’
 <sup>14</sup> And Jeremiah cometh in from Tophet, whither Jehovah had sent him to prophesy, and he standeth in the court of the house of Jehovah, and he saith unto all the people:
 <sup>15</sup> ‘Thus said Jehovah of Hosts, God of Israel: Lo, I am bringing in unto this city, and on all its cities, all the evil that I have spoken against it, for they have hardened their neck-not to hear My words!’
+
 ## Chapter 20
 
 <sup>1</sup> And Pashhur son of Immer the priest-who also is overseer, leader in the house of Jehovah-heareth Jeremiah prophesying these things,
@@ -532,6 +551,7 @@
 <sup>16</sup> Then hath that man been as the cities, That Jehovah overthrew, and repented not, And he hath heard a cry at morning, And a shout at time of noon.
 <sup>17</sup> Because he hath not put me to death from the womb, And my mother is to me-my grave, And her womb a pregnancy age-during.
 <sup>18</sup> Why is this? from the womb I have come out, To see labour and sorrow, Yea, consumed in shame are my days!
+
 ## Chapter 21
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah, in the king Zedekiah’s sending unto him Pashhur son of Malchiah, and Zephaniah son of Maaseiah the priest, saying,
@@ -548,6 +568,7 @@
 <sup>12</sup> O house of David, thus said Jehovah: Decide ye judgment at morning, And deliver the plundered from the hand of the oppressor, Lest My fury go forth as fire, And hath burned, and none is quenching, Because of the evil of your doings.
 <sup>13</sup> Lo, I am against thee-an affirmation of Jehovah, O inhabitant of the valley, rock of the plain, Who are saying, Who cometh down against us? And who cometh into our habitations?
 <sup>14</sup> And I have laid a charge against you, According to the fruit of your doings, An affirmation of Jehovah, And I have kindled a fire in its forest, And it hath consumed-all its suburbs!
+
 ## Chapter 22
 
 <sup>1</sup> Thus said Jehovah, ‘Go down to the house of the king of Judah, and thou hast spoken there this word, and hast said,
@@ -580,6 +601,7 @@
 <sup>28</sup> A grief-a despised broken thing-is this man Coniah? A vessel in which there is no pleasure? Wherefore have they been cast up and down, He and his seed, Yea, they were cast on to a land that they knew not?
 <sup>29</sup> Earth, earth, earth, hear a word of Jehovah,
 <sup>30</sup> Thus said Jehovah: Write ye this man childless, A man-he doth not prosper in his days, For none of his seed doth prosper, Sitting on the throne of David, And ruling again in Judah!
+
 ## Chapter 23
 
 <sup>1</sup> Woe to shepherds destroying, And scattering the flock of My pasture, An affirmation of Jehovah.
@@ -622,6 +644,7 @@
 <sup>38</sup> And if the burden of Jehovah ye say, Therefore thus said Jehovah: Because of your saying this word, The burden of Jehovah, And I do send unto you, saying, Ye do not say, The burden of Jehovah.
 <sup>39</sup> Therefore, lo, I-I have taken you utterly away, And I have sent you out, And the city that I gave to you, And to your fathers, from before My face,
 <sup>40</sup> And I have put on you reproach age-during, And shame age-during that is not forgotten!
+
 ## Chapter 24
 
 <sup>1</sup> Jehovah hath shewed me, and lo, two baskets of figs, appointed before the temple of Jehovah,-after the removing by Nebuchadrezzar king of Babylon, of Jeconiah, son of Jehoiakim king of Judah, and the heads of Judah, and the artisan, and the smith, from Jerusalem, when he bringeth them into Babylon-
@@ -634,6 +657,7 @@
 <sup>8</sup> And like the bad figs, that are not eaten for badness, Surely thus said Jehovah: So do I make Zedekiah king of Judah, And his heads, and the remnant of Jerusalem, Who are left in this land, And who are dwelling in the land of Egypt,
 <sup>9</sup> And I have given them for a trembling, For evil-to all kingdoms of the earth, For a reproach, and for a simile, For a byword, and for a reviling, In all the places whither I drive them.
 <sup>10</sup> And I have sent against them the sword, The famine and the pestilence, Till their consumption from off the ground, That I gave to them and to their fathers!
+
 ## Chapter 25
 
 <sup>1</sup> The word that hath been unto Jeremiah concerning all the people of Judah, in the fourth year of Jehoiakim son of Josiah king of Judah,-it is the first year of Nebuchadrezzar king of Babylon,-
@@ -674,6 +698,7 @@
 <sup>36</sup> A voice is of the cry of the shepherds, And a howling of the honourable of the flock, For Jehovah is spoiling their pasture.
 <sup>37</sup> And the peaceable habitations have been cut down, Because of the fierceness of the anger of Jehovah.
 <sup>38</sup> He hath forsaken, as a young lion, His covert, Surely their land hath become a desolation, Because of the oppressing fierceness, And because of the fierceness of His anger!
+
 ## Chapter 26
 
 <sup>1</sup> In the beginning of the reign of Jehoiakim son of Josiah, king of Judah, hath this word been from Jehovah, saying:
@@ -700,6 +725,7 @@
 <sup>22</sup> And the king Jehoiakim sendeth men to Egypt-Elnathan son of Achbor, and men with him unto Egypt-
 <sup>23</sup> And they bring out Urijah from Egypt, and bring him in unto the king Jehoiakim, and he smiteth him with a sword, and casteth his corpse unto the graves of the sons of the people.’
 <sup>24</sup> Only, the hand of Ahikam son of Shaphan hath been with Jeremiah so as not to give him up into the hand of the people to put him to death.
+
 ## Chapter 27
 
 <sup>1</sup> In the beginning of the reign of Jehoiakim son of Josiah, king of Judah, hath this word been unto Jeremiah from Jehovah, saying,
@@ -724,6 +750,7 @@
 <sup>20</sup> That Nebuchadnezzar king of Babylon hath not taken, in his removing Jeconiah son of Jehoiakim king of Judah from Jerusalem to Babylon with all the freemen of Judah and Jerusalem,
 <sup>21</sup> Surely thus said Jehovah of Hosts, God of Israel, concerning the vessels that are left of the house of Jehovah, and of the house of the king of Judah, and in Jerusalem:
 <sup>22</sup> To Babylon they are brought, and there they are till the day of My inspecting them-an affirmation of Jehovah; then I have brought them up, and have brought them back unto this place.’
+
 ## Chapter 28
 
 <sup>1</sup> And it cometh to pass, in that year, in the beginning of the reign of Zedekiah king of Judah, in the fourth year, in the fifth month, spoken unto me hath Hananiah son of Azur the prophet, who is of Gibeon, in the house of Jehovah, before the eyes of the priests, and all the people, saying,
@@ -743,6 +770,7 @@
 <sup>15</sup> And Jeremiah the prophet saith unto Hananiah the prophet, ‘Hear, I pray thee, O Hananiah; Jehovah hath not sent thee, and thou hast caused this people to trust on falsehood.
 <sup>16</sup> Therefore thus said Jehovah, Lo, I am casting thee from off the face of the ground; this year thou diest, for apostasy thou hast spoken concerning Jehovah.’
 <sup>17</sup> And Hananiah the prophet dieth in that year, in the seventh month.
+
 ## Chapter 29
 
 <sup>1</sup> And these are words of the letter that Jeremiah the prophet sent from Jerusalem unto the remnant of the elders of the removal, and unto the priests, and unto the prophets, and unto all the people-whom Nebuchadnezzar removed from Jerusalem to Babylon,
@@ -777,6 +805,7 @@
 <sup>30</sup> And there is a word of Jehovah unto Jeremiah, saying,
 <sup>31</sup> ‘Send unto all the removal, saying, Thus said Jehovah concerning Shemaiah the Nehelamite, Because that Shemaiah prophesied to you, and I-I have not sent him, and he doth cause you to trust on falsehood,
 <sup>32</sup> Therefore, thus said Jehovah, Lo, I am seeing after Shemaiah the Nehelamite, and after his seed, he hath none dwelling in the midst of this people, nor doth he look on the good that I am doing to My people-an affirmation of Jehovah-for apostasy he hath spoken against Jehovah.’
+
 ## Chapter 30
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah, saying,
@@ -803,6 +832,7 @@
 <sup>22</sup> And ye have been to Me for a people, And I am to you for God.
 <sup>23</sup> Lo, a whirlwind of Jehovah- Fury hath gone forth-a cutting whirlwind, On the head of the wicked it stayeth.
 <sup>24</sup> The fierceness of the anger of Jehovah Doth not turn back till His doing, Yea, till His establishing the devices of His heart, In the latter end of the days we consider it!
+
 ## Chapter 31
 
 <sup>1</sup> At that time, an affirmation of Jehovah, I am for God to all families of Israel, And they-they are to Me for a people.
@@ -845,6 +875,7 @@
 <sup>38</sup> Lo, days are coming, an affirmation of Jehovah, And the city hath been built to Jehovah, From the tower of Hananeel to the gate of the corner.
 <sup>39</sup> And gone out again hath the measuring line Over-against it, unto the height of Gareb, And it hath compassed to Goah.
 <sup>40</sup> And all the valley of the carcases and of the ashes, And all the fields unto the brook Kidron, Unto the corner of the horse-gate eastward, Are holy to Jehovah, it is not plucked up, Nor is it thrown down any more to the age!
+
 ## Chapter 32
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah, in the tenth year of Zedekiah king of Judah-it is the eighteenth year of Nebuchadrezzar,
@@ -891,6 +922,7 @@
 <sup>42</sup> ‘For thus said Jehovah: As I brought in unto this people all this great evil, so I am bringing in on them all the good that I am speaking concerning them;
 <sup>43</sup> and bought hath been the field in this land of which ye are saying, A desolation it is, without man and beast, it hath been given into the hand of the Chaldeans.
 <sup>44</sup> Fields with money they buy, so as to write in a book, and to seal, and to cause witnesses to testify, in the land of Benjamin, and in suburbs of Jerusalem, and in cities of Judah, and in cities of the hill-country, and in cities of the low country, and in cities of the south, for I turn back their captivity-an affirmation of Jehovah.’
+
 ## Chapter 33
 
 <sup>1</sup> And there is a word of Jehovah unto Jeremiah a second time-and he is yet detained in the court of the prison-saying:
@@ -919,6 +951,7 @@
 <sup>24</sup> ‘Hast thou not considered what this people have spoken, saying: The two families on which Jehovah fixed, He doth reject them, And my people they despise- So that they are no more a people before them!
 <sup>25</sup> Thus said Jehovah: If My covenant is not daily and nightly, The statutes of heaven and earth I have not appointed-
 <sup>26</sup> Also the seed of Jacob, and David My servant, I reject, Against taking from his seed rulers For the seed of Abraham, Isaac, and Jacob, For I turn back to their captivity, and have pitied them.’
+
 ## Chapter 34
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah-and Nebuchadnezzar king of Babylon, and all his force, and all kingdoms of the land of the dominion of his hand, and all the peoples are fighting against Jerusalem, and against all its cities-saying:
@@ -943,6 +976,7 @@
 <sup>20</sup> yea, I have given them into the hand of their enemies, and into the hand of those seeking their soul, and their carcase hath been for food to the fowl of the heavens, and to the beast of the earth.
 <sup>21</sup> ‘And Zedekiah king of Judah, and his heads, I give into the hand of their enemies, and into the hand of those seeking their soul, and into the hand of the forces of the king of Babylon, that are going up from off you.
 <sup>22</sup> Lo, I am commanding-an affirmation of Jehovah-and have brought them back unto this city, and they have fought against it, and captured it, and burned it with fire, and the cities of Judah I do make a desolation-without inhabitant.’
+
 ## Chapter 35
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah, in the days of Jehoiakim son of Josiah king of Judah, saying:
@@ -964,6 +998,7 @@
 <sup>17</sup> therefore thus said Jehovah, God of Hosts, God of Israel: Lo, I am bringing in unto Judah, and unto all inhabitants of Jerusalem, all the evil that I have spoken against them, because I have spoken unto them, and they have not hearkened, yea, I call to them, and they have not answered.’
 <sup>18</sup> And to the house of the Rechabites said Jeremiah: ‘Thus said Jehovah of Hosts, God of Israel, Because that ye have hearkened unto the command of Jonadab your father, and ye observe all his commands, and do according to all that he commanded you;
 <sup>19</sup> therefore, thus said Jehovah of Hosts, God of Israel, Of Jonadab son of Rechab one standing before me is not cut off all the days.’
+
 ## Chapter 36
 
 <sup>1</sup> And it cometh to pass, in the fourth year of Jehoiakim son of Josiah king of Judah, this word hath been unto Jeremiah from Jehovah, saying:
@@ -998,6 +1033,7 @@
 <sup>30</sup> ‘Therefore, thus said Jehovah, concerning Jehoiakim king of Judah: He hath none sitting on the throne of David, and his carcase is cast out to heat by day, and to cold by night;
 <sup>31</sup> and I have charged on him, and on his seed, and on his servants, their iniquity; and I have brought in on them, and on the inhabitants of Jerusalem, and unto the men of Judah, all the evil that I have spoken unto them, and they hearkened not.’
 <sup>32</sup> And Jeremiah hath taken another roll, and giveth it unto Baruch son of Neriah the scribe, and he writeth on it from the mouth of Jeremiah all the words of the book that Jehoiakim king of Judah hath burnt in the fire; and again there were added unto them many words like these.
+
 ## Chapter 37
 
 <sup>1</sup> And reign doth king Zedekiah son of Josiah instead of Coniah son of Jehoiakim whom Nebuchadrezzar king of Babylon had caused to reign in the land of Judah,
@@ -1021,6 +1057,7 @@
 <sup>19</sup> And where are your prophets who prophesied to you, saying, The king of Babylon doth not come in against you, and against this land?
 <sup>20</sup> And now, hearken, I pray thee, my lord, O king, let my supplication fall, I pray thee, before thee, and cause me not to return to the house of Jonathan the scribe, that I die not there.’
 <sup>21</sup> And the king Zedekiah commandeth, and they commit Jeremiah into the court of the prison, also to give to him a cake of bread daily from the bakers’ street, till the consumption of all the bread of the city, and Jeremiah dwelleth in the court of the prison.
+
 ## Chapter 38
 
 <sup>1</sup> And Shephatiah son of Mattan, and Gedaliah son of Pashhur, and Jucal son of Shelemiah, and Pashhur son of Malchiah, hear the words that Jeremiah is speaking unto all the people, saying,
@@ -1051,6 +1088,7 @@
 <sup>26</sup> then thou hast said unto them, I am causing my supplication to fall before the king, not to cause me to return to the house of Jonathan, to die there.’
 <sup>27</sup> And all the heads come in unto Jeremiah, and ask him, and he declareth to them according to all these words that the king commanded, and they keep silent from him, for the matter was not heard;
 <sup>28</sup> and Jeremiah dwelleth in the court of the prison till the day that Jerusalem hath been captured, and he was there when Jerusalem was captured.
+
 ## Chapter 39
 
 <sup>1</sup> In the ninth year of Zedekiah king of Judah, in the tenth month, come hath Nebuchadrezzar king of Babylon and all his force unto Jerusalem, and they lay siege against it;
@@ -1071,6 +1109,7 @@
 <sup>16</sup> ‘Go, and thou hast spoken to Ebed-Melech the Cushite, saying: Thus said Jehovah of Hosts, God of Israel: Lo, I am bringing in My words unto this city for evil, and not for good, and they have been before thee in that day.
 <sup>17</sup> And I have delivered thee in that day-an affirmation of Jehovah-and thou art not given into the hand of the men of whose face thou art afraid,
 <sup>18</sup> for I do certainly deliver thee, and by sword thou fallest not, and thy life hath been to thee for a spoil, for thou hast trusted in Me-an affirmation of Jehovah.’
+
 ## Chapter 40
 
 <sup>1</sup> The word that hath been unto Jeremiah from Jehovah, after Nebuzar-Adan, chief of the executioners, hath sent him from Ramah, in his taking him-and he a prisoner in chains-in the midst of all the removal of Jerusalem and of Judah, who are removed to Babylon.
@@ -1089,6 +1128,7 @@
 <sup>14</sup> and they say unto him, ‘Dost thou really know that Baalis king of the sons of Ammon hath sent Ishmael son of Nethaniah to smite thy soul?’ And Gedaliah son of Ahikam hath not given to them credence.
 <sup>15</sup> And Johanan son of Kareah hath spoken unto Gedaliah in secret, in Mizpah, saying, ‘Let me go, I pray thee, and I smite Ishmael son of Nethaniah, and no one doth know; why doth he smite thy soul? and scattered have been all Judah who are gathered unto thee, and perished hath the remnant of Judah.’
 <sup>16</sup> And Gedaliah son of Ahikam saith unto Johanan son of Kareah, ‘Thou dost not do this thing, for falsehood thou art speaking concerning Ishmael.’
+
 ## Chapter 41
 
 <sup>1</sup> And it cometh to pass, in the seventh month, come hath Ishmael son of Nethaniah, son of Elishama, of the seed royal, and of the chiefs of the king, and ten men with him, unto Gedaliah son of Ahikam, to Mizpah, and they eat there bread together in Mizpah.
@@ -1109,6 +1149,7 @@
 <sup>16</sup> And Johanan son of Kareah, and all the heads of the forces who are with him, take all the remnant of the people whom he hath brought back from Ishmael son of Nethaniah, from Mizpah-after he had smitten Gedaliah son of Ahikam-mighty ones, men of war, and women, and infants, and eunuchs, whom he had brought back from Gibeon,
 <sup>17</sup> and they go and abide in the habitations of Chimham, that are near Beth-Lehem, to go to enter Egypt,
 <sup>18</sup> from the presence of the Chaldeans, for they have been afraid of them, for Ishmael son of Nethaniah had smitten Gedaliah son of Ahikam, whom the king of Babylon had appointed over the land.
+
 ## Chapter 42
 
 <sup>1</sup> And they come nigh-all the heads of the forces, and Johanan son of Kareah, and Jezaniah son of Hoshaiah, and all the people from the least even unto the greatest-
@@ -1133,6 +1174,7 @@
 <sup>20</sup> for ye have shewed yourselves perverse in your souls, for ye sent me unto Jehovah your God, saying, Pray for us unto Jehovah our God, and according to all that Jehovah our God saith, so declare to us, and we have done it;
 <sup>21</sup> and I declare to you to-day, and ye have not hearkened to the voice of Jehovah your God, and to anything with which He hath sent me unto you.
 <sup>22</sup> And now, know ye certainly that by sword, by famine, and by pestilence ye die, in the place that ye have desired to go in to sojourn there.’
+
 ## Chapter 43
 
 <sup>1</sup> And it cometh to pass, when Jeremiah doth finish to speak unto all the people all the words of Jehovah their God, with which Jehovah their God hath sent him unto them-all these words-
@@ -1148,6 +1190,7 @@
 <sup>11</sup> and he hath come, and smitten the land of Egypt-those who are for death to death, and those who are for captivity to captivity, and those who are for the sword to the sword.
 <sup>12</sup> And I have kindled a fire in the houses of the gods of Egypt, and it hath burned them, and he hath taken them captive, and covered himself with the land of Egypt, as cover himself doth the shepherd with his garment, and he hath gone forth thence in peace;
 <sup>13</sup> and he hath broken the standing pillars of the house of the sun, that is in the land of Egypt, and the houses of the gods of Egypt he doth burn with fire.’
+
 ## Chapter 44
 
 <sup>1</sup> The word that hath been unto Jeremiah concerning all the Jews who are dwelling in the land of Egypt-who are dwelling in Migdol, and in Tahpanhes, and in Noph, and in the land of Pathros-saying,
@@ -1180,6 +1223,7 @@
 <sup>28</sup> ‘And the escaped of the sword turn back out of the land of Egypt to the land of Judah, few in number, and known have all the remnant of Judah who are coming into the land of Egypt to sojourn there, whose word is established, Mine or theirs.
 <sup>29</sup> ‘And this is to you the sign-an affirmation of Jehovah-that I am seeing after you in this place, so that ye know that My words are certainly established against you for evil;
 <sup>30</sup> Thus said Jehovah, Lo, I am giving Pharaoh-Hophra king of Egypt into the hand of his enemies, and into the hand of those seeking his life, as I have given Zedekiah king of Judah into the hand of Nebuchadrezzar king of Babylon, his enemy, and who is seeking his life.’
+
 ## Chapter 45
 
 <sup>1</sup> The word that Jeremiah the prophet hath spoken unto Baruch son of Neriah, in his writing these words on a book from the mouth of Jeremiah, in the fourth year of Jehoiakim son of Josiah king of Judah, saying:
@@ -1187,6 +1231,7 @@
 <sup>3</sup> ‘Thou hast said, Woe to me, now, for Jehovah hath added sorrow to my pain, I have been wearied with my sighing, and rest I have not found.
 <sup>4</sup> Thus dost thou say unto him: Thus said Jehovah: Lo, that which I have built I am throwing down, and that which I have planted I am plucking up, even the whole land itself.
 <sup>5</sup> And thou-thou seekest for thee great things-do not seek, for lo, I am bringing in evil on all flesh-an affirmation of Jehovah-and I have given to thee thy life for a spoil, in all places whither thou goest.’
+
 ## Chapter 46
 
 <sup>1</sup> That which hath been the word of Jehovah unto Jeremiah the prophet concerning the nations,
@@ -1217,6 +1262,7 @@
 <sup>26</sup> And I have given them into the hand of those seeking their life, And into the hand of Nebuchadrezzar king of Babylon, And into the hand of his servants, And afterwards it is inhabited, As in days of old-an affirmation of Jehovah.
 <sup>27</sup> And thou, thou dost not fear, my servant Jacob, Nor art thou dismayed, O Israel, For lo, I am saving thee from afar, And thy seed from the land of their captivity, And Jacob hath turned back, And hath been at rest, and been at ease, And there is none disturbing.
 <sup>28</sup> Thou, thou dost not fear, My servant Jacob, An affirmation of Jehovah-for with thee I am, For I make an end of all the nations Whither I have driven thee, And of thee I do not make an end, And I have reproved thee in judgment, And do not entirely acquit thee!’
+
 ## Chapter 47
 
 <sup>1</sup> That which hath been the word of Jehovah unto Jeremiah concerning the Philistines, before Pharaoh smiteth Gaza:
@@ -1226,6 +1272,7 @@
 <sup>5</sup> Come hath baldness unto Gaza, Cut off hath been Ashkelon, O remnant of their valley, Till when dost thou cut thyself?
 <sup>6</sup> Ho, sword of Jehovah, till when art thou not quiet? Be removed unto thy sheath, rest and cease.
 <sup>7</sup> How shall it be quiet, And Jehovah hath given a charge to it, Against Ashkelon, and against the sea shore? There hath He appointed it!’
+
 ## Chapter 48
 
 <sup>1</sup> Concerning Moab: ‘Thus said Jehovah of Hosts, God of Israel: Woe unto Nebo, for it is spoiled, Put to shame, captured hath been Kiriathaim, Put to shame hath been the high tower, Yea, it hath been broken down.
@@ -1275,6 +1322,7 @@
 <sup>45</sup> In the shadow of Heshbon stood powerless have fugitives, For fire hath gone forth from Heshbon, And a flame from within Sihon, And it consumeth the corner of Moab, And the crown of the sons of Shaon.
 <sup>46</sup> Woe to thee, O Moab, Perished hath the people of Chemosh, For thy sons were taken with the captives, And thy daughters with the captivity.
 <sup>47</sup> And I have turned back to the captivity of Moab, In the latter end of the days, An affirmation of Jehovah! Hitherto is the judgment of Moab.
+
 ## Chapter 49
 
 <sup>1</sup> Concerning the sons of Ammon: ‘Thus said Jehovah: Sons-hath Israel none? heir-hath he none? Wherefore hath Malcam possessed Gad? And his people in its cities have dwelt?
@@ -1316,6 +1364,7 @@
 <sup>37</sup> And I have affrighted Elam before their enemies, And before those seeking their life, And I have brought in against them evil, The heat of Mine anger, An affirmation of Jehovah, And I have sent after them the sword, Till I have consumed them;
 <sup>38</sup> And I have set My throne in Elam, And I have destroyed thence King and princes-an affirmation of Jehovah.
 <sup>39</sup> And it hath come to pass, in the latter end of the days, I turn back to the captivity of Elam, An affirmation of Jehovah!’
+
 ## Chapter 50
 
 <sup>1</sup> The word that Jehovah hath spoken concerning Babylon, concerning the land of the Chaldeans, by the hand of Jeremiah the prophet:
@@ -1364,6 +1413,7 @@
 <sup>44</sup> Lo, as a lion he cometh up, Because of the rising of the Jordan, Unto the enduring habitation, But I cause to rest, I cause them to run from off her. And who is chosen? on her I lay a charge, For who is like Me? And who doth convene Me? And who is this shepherd who standeth before Me?
 <sup>45</sup> Therefore, hear ye the counsel of Jehovah, That He counselled concerning Babylon, And His devices that He hath devised Concerning the land of the Chaldeans; Drag them out do not little ones of the flock, Doth He not make desolate over them the habitation?
 <sup>46</sup> From the voice: Captured was Babylon, Hath the earth been shaken, And a cry among nations hath been heard!
+
 ## Chapter 51
 
 <sup>1</sup> Thus said Jehovah: Lo, I am stirring up against Babylon, And the inhabitants of Leb-My withstanders, A destroying wind,
@@ -1430,6 +1480,7 @@
 <sup>62</sup> and hast said: Jehovah, Thou, Thou hast spoken concerning this place, to cut it off, that there is none dwelling in it, from man even unto cattle, for it is a desolation age-during.
 <sup>63</sup> And it hath come to pass, when thou dost finish reading this book, thou dost bind to it a stone, and hast cast it into the midst of Phrat,
 <sup>64</sup> and said, Thus sink doth Babylon, and it doth not arise, because of the evil that I am bringing in against it, and they have been weary.’ Hitherto are words of Jeremiah.
+
 ## Chapter 52
 
 <sup>1</sup> A son of twenty and one years is Zedekiah in his reigning, and eleven years he hath reigned in Jerusalem, and the name of his mother is Hamutal daughter of Jeremiah of Libnah.
