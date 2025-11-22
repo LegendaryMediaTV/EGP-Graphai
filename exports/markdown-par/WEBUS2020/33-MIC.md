@@ -19,8 +19,6 @@
 <sup>15</sup> I will yet bring a conqueror to you, inhabitants of Mareshah.<br>The glory of Israel will come to Adullam.<br>
 <sup>16</sup> Shave your heads,<br>and cut off your hair for the children of your delight.<br>Enlarge your baldness like the vulture,<br>for they have gone into captivity from you! 
 
-
-
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 2. The word translated “Lord” is “Adonai.”
 > - <sup>c</sup> 3. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
@@ -57,8 +55,6 @@
 <sup>10</sup> who build up Zion with blood,<br>and Jerusalem with iniquity.<br>
 <sup>11</sup> Her leaders judge for bribes,<br>and her priests teach for a price,<br>and her prophets of it tell fortunes for money;<br>yet they lean on Yahweh, and say,<br>“Isn’t Yahweh among us?<br>No disaster will come on us.”<br>
 <sup>12</sup> Therefore Zion for your sake will be plowed like a field,<br>and Jerusalem will become heaps of rubble,<br>and the mountain of the temple like the high places of a forest.
-
-
 
 > - <sup>a</sup> 7. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
@@ -118,8 +114,6 @@
 <sup>14</sup> You shall eat, but not be satisfied.<br>Your hunger will be within you.<br>You will store up, but not save,<br>and that which you save I will give up to the sword.<br>
 <sup>15</sup> You will sow, but won’t reap.<br>You will tread the olives, but won’t anoint yourself with oil;<br>and crush grapes, but won’t drink the wine.<br>
 <sup>16</sup> For the statutes of Omri are kept,<br>and all the works of Ahab’s house.<br>You walk in their counsels,<br>that I may make you a ruin,<br>and your inhabitants a hissing.<br>You will bear the reproach of my people.”
-
-
 
 > - <sup>a</sup> 10. An ephah is a measure of volume (about 22 liters or about 2/3 of a bushel), and a short ephah is made smaller than a full ephah for the purpose of cheating customers.
 

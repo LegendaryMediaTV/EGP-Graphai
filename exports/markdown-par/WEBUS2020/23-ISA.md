@@ -945,8 +945,6 @@ Through the land of trouble and anguish, of the lioness and the lion, the viper 
 <sup>16</sup> Search in the book of Yahweh, and read:<br>not one of these will be missing.<br>None will lack her mate.<br>For my mouth has commanded,<br>and his Spirit has gathered them.<br>
 <sup>17</sup> He has cast the lot for them,<br>and his hand has divided it to them with a measuring line.<br>They shall possess it forever.<br>From generation to generation they will dwell in it.
 
-
-
 > - <sup>a</sup> 14. literally, lilith, which could also be a night demon or night monster
 
 ## Chapter 35
@@ -1339,8 +1337,6 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>12</sup> Listen to me, you stubborn-hearted,<br>who are far from righteousness!<br>
 <sup>13</sup> I bring my righteousness near.<br>It is not far off,<br>and my salvation will not wait.<br>I will grant salvation to Zion,<br>my glory to Israel. 
 
-
-
 ## Chapter 47
 
 <sup>1</sup> “Come down and sit in the dust, virgin daughter of Babylon.<br>Sit on the ground without a throne, daughter of the Chaldeans.<br>For you will no longer be called tender and delicate.<br>
@@ -1362,8 +1358,6 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>13</sup> You are wearied in the multitude of your counsels.<br>Now let the astrologers, the stargazers, and the monthly prognosticators stand up and save you from the things that will happen to you.<br>
 <sup>14</sup> Behold, they are like stubble.<br>The fire will burn them.<br>They won’t deliver themselves from the power of the flame.<br>It won’t be a coal to warm at<br>or a fire to sit by.<br>
 <sup>15</sup> The things that you labored in will be like this:<br>those who have trafficked with you from your youth will each wander in his own way.<br>There will be no one to save you.
-
-
 
 ## Chapter 48
 

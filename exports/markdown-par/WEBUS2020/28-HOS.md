@@ -92,8 +92,6 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no long
 <sup>18</sup> Their drink has become sour.<br>They play the prostitute continually.<br>Her rulers dearly love their shameful way.<br>
 <sup>19</sup> The wind has wrapped her up in its wings;<br>and they shall be disappointed because of their sacrifices.
 
-
-
 ## Chapter 5
 
 <sup>1</sup> “Listen to this, you priests!<br>Listen, house of Israel,<br>and give ear, house of the king!<br>For the judgment is against you;<br>for you have been a snare at Mizpah,<br>and a net spread on Tabor.<br>
@@ -113,8 +111,6 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no long
 <sup>13</sup> “When Ephraim saw his sickness,<br>and Judah his wound,<br>then Ephraim went to Assyria,<br>and sent to King Jareb:<br>but he is not able to heal you,<br>neither will he cure you of your wound.<br>
 <sup>14</sup> For I will be to Ephraim like a lion,<br>and like a young lion to the house of Judah.<br>I myself will tear in pieces and go away.<br>I will carry off, and there will be no one to deliver.<br>
 <sup>15</sup> I will go and return to my place,<br>until they acknowledge their offense,<br>and seek my face.<br>In their affliction they will seek me earnestly.”
-
-
 
 ## Chapter 6
 
@@ -152,8 +148,6 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no long
 <sup>15</sup> Though I have taught and strengthened their arms,<br>yet they plot evil against me.<br>
 <sup>16</sup> They return, but not to the Most High.<br>They are like a faulty bow.<br>Their princes will fall by the sword for the rage of their tongue.<br>This will be their derision in the land of Egypt.
 
-
-
 ## Chapter 8
 
 <sup>1</sup> “Put the trumpet to your lips!<br>Something like an eagle is over Yahweh’s house,<br>because they have broken my covenant<br>and rebelled against my law.<br>
@@ -170,8 +164,6 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no long
 <sup>12</sup> I wrote for him the many things of my law,<br>but they were regarded as a strange thing.<br>
 <sup>13</sup> As for the sacrifices of my offerings,<br>they sacrifice meat and eat it,<br>but Yahweh doesn’t accept them.<br>Now he will remember their iniquity,<br>and punish their sins.<br>They will return to Egypt.<br>
 <sup>14</sup> For Israel has forgotten his Maker and built palaces;<br>and Judah has multiplied fortified cities;<br>but I will send a fire on his cities,<br>and it will devour its fortresses.”
-
-
 
 ## Chapter 9
 
@@ -213,8 +205,6 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no long
 <sup>13</sup> You have plowed wickedness.<br>You have reaped iniquity.<br>You have eaten the fruit of lies,<br>for you trusted in your way, in the multitude of your mighty men.<br>
 <sup>14</sup> Therefore a battle roar will arise among your people,<br>and all your fortresses will be destroyed,<br>as Shalman destroyed Beth Arbel in the day of battle.<br>The mother was dashed in pieces with her children.<br>
 <sup>15</sup> So Bethel will do to you because of your great wickedness.<br>At daybreak the king of Israel will be destroyed.
-
-
 
 ## Chapter 11
 
@@ -276,8 +266,6 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no long
 “Compassion will be hidden from my eyes.<br>
 <sup>15</sup> Though he is fruitful among his brothers, an east wind will come,<br>the breath of Yahweh coming up from the wilderness;<br>and his spring will become dry,<br>and his fountain will be dried up.<br>He will plunder the storehouse of treasure.<br>
 <sup>16</sup> Samaria will bear her guilt,<br>for she has rebelled against her God.<br>They will fall by the sword.<br>Their infants will be dashed in pieces,<br>and their pregnant women will be ripped open.”
-
-
 
 > - <sup>a</sup> 14. Sheol is the place of the dead.
 

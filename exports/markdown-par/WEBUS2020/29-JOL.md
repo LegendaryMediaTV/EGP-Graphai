@@ -21,8 +21,6 @@
 <sup>19</sup> Yahweh, I cry to you,<br>for the fire has devoured the pastures of the wilderness,<br>and the flame has burned all the trees of the field.<br>
 <sup>20</sup> Yes, the animals of the field pant to you,<br>for the water brooks have dried up,<br>and the fire has devoured the pastures of the wilderness.
 
-
-
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 13. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 
@@ -62,8 +60,6 @@
 <sup>30</sup> I will show wonders in the heavens and in the earth:<br>blood, fire, and pillars of smoke.<br>
 <sup>31</sup> The sun will be turned into darkness,<br>and the moon into blood,<br>before the great and terrible day of Yahweh comes.<br>
 <sup>32</sup> It will happen that whoever will call on Yahweh’s name shall be saved;<br>for in Mount Zion and in Jerusalem there will be those who escape,<br>as Yahweh has said,<br>and among the remnant, those whom Yahweh calls.
-
-
 
 > - <sup>a</sup> 19. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 

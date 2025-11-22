@@ -148,8 +148,6 @@ The number of the men of the people of Israel:
 
 <sup>17</sup> Then the king sent an answer to Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions who live in Samaria, and in the rest of the country beyond the River:
 
-
-
 <sup>18</sup> The letter which you sent to us has been plainly read before me.
 <sup>19</sup> I decreed, and search has been made, and it was found that this city has made insurrection against kings in the past, and that rebellion and revolts have been made in it.
 <sup>20</sup> There have also been mighty kings over Jerusalem who have ruled over all the country beyond the River; and tribute, custom, and toll was paid to them.

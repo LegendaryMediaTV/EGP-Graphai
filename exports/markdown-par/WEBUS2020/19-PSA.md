@@ -666,9 +666,7 @@ He who does these things shall never be shaken.
 
 > _By David; when he pretended to be insane before Abimelech, who drove him away, and he departed._
 
-<sup>1</sup> 
-
- I will bless Yahweh at all times.<br>His praise will always be in my mouth.<br>
+<sup>1</sup> <sup>a</sup> I will bless Yahweh at all times.<br>His praise will always be in my mouth.<br>
 <sup>2</sup> My soul shall boast in Yahweh.<br>The humble shall hear of it and be glad.<br>
 <sup>3</sup> Oh magnify Yahweh with me.<br>Let’s exalt his name together.<br>
 <sup>4</sup> I sought Yahweh, and he answered me,<br>and delivered me from all my fears.<br>
@@ -691,6 +689,8 @@ He who does these things shall never be shaken.
 <sup>20</sup> He protects all of his bones.<br>Not one of them is broken.<br>
 <sup>21</sup> Evil shall kill the wicked.<br>Those who hate the righteous shall be condemned.<br>
 <sup>22</sup> Yahweh redeems the soul of his servants.<br>None of those who take refuge in him shall be condemned.
+
+> - <sup>a</sup> 1. Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav).
 
 ## Chapter 35
 
@@ -969,7 +969,7 @@ He who does these things shall never be shaken.
 
 ## Chapter 46
 
-> _For the Chief Musician. By the sons of Korah. According to Alamoth._
+> _For the Chief Musician. By the sons of Korah. According to Alamoth.<sup>a</sup>_
 
 <sup>1</sup> God is our refuge and strength,<br>a very present help in trouble.<br>
 <sup>2</sup> Therefore we won’t be afraid, though the earth changes,<br>though the mountains are shaken into the heart of the seas;<br>
@@ -985,7 +985,7 @@ He who does these things shall never be shaken.
 <sup>10</sup> “Be still, and know that I am God.<br>I will be exalted among the nations.<br>I will be exalted in the earth.”<br>
 <sup>11</sup> Yahweh of Armies is with us.<br>The God of Jacob is our refuge.<br>Selah.
 
-
+> - <sup>a</sup> Subtitle. Alamoth is a musical term.
 
 ## Chapter 47
 
@@ -1502,9 +1502,7 @@ They never change<br>and don’t fear God.<br>
 <sup>2</sup> Let them be disappointed and confounded who seek my soul.<br>Let those who desire my ruin be turned back in disgrace.<br>
 <sup>3</sup> Let them be turned because of their shame<br>who say, “Aha! Aha!”<br>
 <sup>4</sup> Let all those who seek you rejoice and be glad in you.<br>Let those who love your salvation continually say,<br>“Let God be exalted!”<br>
-<sup>5</sup> But I am poor and needy.<br>Come to me quickly, God.<br>You are my help and my deliverer.<br>Yahweh, don’t delay. 
-
-
+<sup>5</sup> But I am poor and needy.<br>Come to me quickly, God.<br>You are my help and my deliverer.<br>Yahweh, don’t delay.
 
 ## Chapter 71
 
@@ -1593,8 +1591,6 @@ They never change<br>and don’t fear God.<br>
 <sup>27</sup> For, behold, those who are far from you shall perish.<br>You have destroyed all those who are unfaithful to you.<br>
 <sup>28</sup> But it is good for me to come close to God.<br>I have made the Lord Yahweh<sup>c</sup> my refuge,<br>that I may tell of all your works.
 
-
-
 > - <sup>a</sup> 1. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
 > - <sup>b</sup> 20. The word translated “Lord” is “Adonai.”
 > - <sup>c</sup> 28. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
@@ -1629,8 +1625,6 @@ They never change<br>and don’t fear God.<br>
 <sup>22</sup> Arise, God! Plead your own cause.<br>Remember how the foolish man mocks you all day.<br>
 <sup>23</sup> Don’t forget the voice of your adversaries.<br>The tumult of those who rise up against you ascends continually.
 
-
-
 ## Chapter 75
 
 > _For the Chief Musician. To the tune of “Do Not Destroy.” A Psalm by Asaph. A song._
@@ -1648,8 +1642,6 @@ They never change<br>and don’t fear God.<br>
 
 <sup>9</sup> But I will declare this forever:<br>I will sing praises to the God of Jacob.<br>
 <sup>10</sup> I will cut off all the horns of the wicked,<br>but the horns of the righteous shall be lifted up.
-
-
 
 ## Chapter 76
 
@@ -1669,8 +1661,6 @@ They never change<br>and don’t fear God.<br>
 <sup>10</sup> Surely the wrath of man praises you.<br>The survivors of your wrath are restrained.<br>
 <sup>11</sup> Make vows to Yahweh your God, and fulfill them!<br>Let all of his neighbors bring presents to him who is to be feared.<br>
 <sup>12</sup> He will cut off the spirit of princes.<br>He is feared by the kings of the earth.
-
-
 
 ## Chapter 77
 
@@ -1699,8 +1689,6 @@ They never change<br>and don’t fear God.<br>
 <sup>18</sup> The voice of your thunder was in the whirlwind.<br>The lightnings lit up the world.<br>The earth trembled and shook.<br>
 <sup>19</sup> Your way was through the sea,<br>your paths through the great waters.<br>Your footsteps were not known.<br>
 <sup>20</sup> You led your people like a flock,<br>by the hand of Moses and Aaron.
-
-
 
 ## Chapter 78
 
@@ -1779,8 +1767,6 @@ They never change<br>and don’t fear God.<br>
 <sup>71</sup> from following the ewes that have their young,<br>he brought him to be the shepherd of Jacob, his people,<br>and Israel, his inheritance.<br>
 <sup>72</sup> So he was their shepherd according to the integrity of his heart,<br>and guided them by the skillfulness of his hands.
 
-
-
 ## Chapter 79
 
 > _A Psalm by Asaph._
@@ -1798,8 +1784,6 @@ They never change<br>and don’t fear God.<br>
 <sup>11</sup> Let the sighing of the prisoner come before you.<br>According to the greatness of your power, preserve those who are sentenced to death.<br>
 <sup>12</sup> Pay back to our neighbors seven times into their bosom<br>their reproach with which they have reproached you, Lord.<br>
 <sup>13</sup> So we, your people and sheep of your pasture,<br>will give you thanks forever.<br>We will praise you forever, to all generations.
-
-
 
 ## Chapter 80
 
@@ -2060,9 +2044,9 @@ They never change<br>and don’t fear God.<br>
 
 ## Chapter 90
 
-> _A Prayer by Moses, the man of God._
+> _A Prayer by Moses, the man of God.<sup>a</sup>_
 
-<sup>1</sup> Lord,<sup>a</sup> you have been our dwelling place for all generations.<br>
+<sup>1</sup> Lord,<sup>b</sup> you have been our dwelling place for all generations.<br>
 <sup>2</sup> Before the mountains were born,<br>before you had formed the earth and the world,<br>even from everlasting to everlasting, you are God.<br>
 <sup>3</sup> You turn man to destruction, saying,<br>“Return, you children of men.”<br>
 <sup>4</sup> For a thousand years in your sight are just like yesterday when it is past,<br>like a watch in the night.<br>
@@ -2074,14 +2058,15 @@ They never change<br>and don’t fear God.<br>
 <sup>10</sup> The days of our years are seventy,<br>or even by reason of strength eighty years;<br>yet their pride is but labor and sorrow,<br>for it passes quickly, and we fly away.<br>
 <sup>11</sup> Who knows the power of your anger,<br>your wrath according to the fear that is due to you?<br>
 <sup>12</sup> So teach us to count our days,<br>that we may gain a heart of wisdom.<br>
-<sup>13</sup> Relent, Yahweh!<sup>b</sup><br>How long?<br>Have compassion on your servants!<br>
+<sup>13</sup> Relent, Yahweh!<sup>c</sup><br>How long?<br>Have compassion on your servants!<br>
 <sup>14</sup> Satisfy us in the morning with your loving kindness,<br>that we may rejoice and be glad all our days.<br>
 <sup>15</sup> Make us glad for as many days as you have afflicted us,<br>for as many years as we have seen evil.<br>
 <sup>16</sup> Let your work appear to your servants,<br>your glory to their children.<br>
 <sup>17</sup> Let the favor of the Lord our God be on us.<br>Establish the work of our hands for us.<br>Yes, establish the work of our hands.
 
-> - <sup>a</sup> 1. The word translated “Lord” is “Adonai.”
-> - <sup>b</sup> 13. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
+> - <sup>a</sup> Subtitle. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
+> - <sup>b</sup> 1. The word translated “Lord” is “Adonai.”
+> - <sup>c</sup> 13. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 
 ## Chapter 91
 
@@ -2725,9 +2710,9 @@ They never change<br>and don’t fear God.<br>
 
 ## Chapter 119
 
-<sup>1</sup> 
+### ALEPH
 
-Blessed are those whose ways are blameless,<br>who walk according to Yahweh’s law.<br>
+<sup>1</sup> Blessed are those whose ways are blameless,<br>who walk according to Yahweh’s law.<br>
 <sup>2</sup> Blessed are those who keep his statutes,<br>who seek him with their whole heart.<br>
 <sup>3</sup> Yes, they do nothing wrong.<br>They walk in his ways.<br>
 <sup>4</sup> You have commanded your precepts,<br>that we should fully obey them.<br>
@@ -2735,9 +2720,10 @@ Blessed are those whose ways are blameless,<br>who walk according to Yahweh’s 
 <sup>6</sup> Then I wouldn’t be disappointed,<br>when I consider all of your commandments.<br>
 <sup>7</sup> I will give thanks to you with uprightness of heart,<br>when I learn your righteous judgments.<br>
 <sup>8</sup> I will observe your statutes.<br>Don’t utterly forsake me.
-<sup>9</sup> 
 
-How can a young man keep his way pure?<br>By living according to your word.<br>
+### BETH
+
+<sup>9</sup> How can a young man keep his way pure?<br>By living according to your word.<br>
 <sup>10</sup> With my whole heart I have sought you.<br>Don’t let me wander from your commandments.<br>
 <sup>11</sup> I have hidden your word in my heart,<br>that I might not sin against you.<br>
 <sup>12</sup> Blessed are you, Yahweh.<br>Teach me your statutes.<br>
@@ -2745,9 +2731,10 @@ How can a young man keep his way pure?<br>By living according to your word.<br>
 <sup>14</sup> I have rejoiced in the way of your testimonies,<br>as much as in all riches.<br>
 <sup>15</sup> I will meditate on your precepts,<br>and consider your ways.<br>
 <sup>16</sup> I will delight myself in your statutes.<br>I will not forget your word.
-<sup>17</sup> 
 
-Do good to your servant.<br>I will live and I will obey your word.<br>
+### GIMEL
+
+<sup>17</sup> Do good to your servant.<br>I will live and I will obey your word.<br>
 <sup>18</sup> Open my eyes,<br>that I may see wondrous things out of your law.<br>
 <sup>19</sup> I am a stranger on the earth.<br>Don’t hide your commandments from me.<br>
 <sup>20</sup> My soul is consumed with longing for your ordinances at all times.<br>
@@ -2755,9 +2742,10 @@ Do good to your servant.<br>I will live and I will obey your word.<br>
 <sup>22</sup> Take reproach and contempt away from me,<br>for I have kept your statutes.<br>
 <sup>23</sup> Though princes sit and slander me,<br>your servant will meditate on your statutes.<br>
 <sup>24</sup> Indeed your statutes are my delight,<br>and my counselors.
-<sup>25</sup> 
 
-My soul is laid low in the dust.<br>Revive me according to your word!<br>
+### DALETH
+
+<sup>25</sup> My soul is laid low in the dust.<br>Revive me according to your word!<br>
 <sup>26</sup> I declared my ways, and you answered me.<br>Teach me your statutes.<br>
 <sup>27</sup> Let me understand the teaching of your precepts!<br>Then I will meditate on your wondrous works.<br>
 <sup>28</sup> My soul is weary with sorrow;<br>strengthen me according to your word.<br>
@@ -2765,9 +2753,10 @@ My soul is laid low in the dust.<br>Revive me according to your word!<br>
 <sup>30</sup> I have chosen the way of truth.<br>I have set your ordinances before me.<br>
 <sup>31</sup> I cling to your statutes, Yahweh.<br>Don’t let me be disappointed.<br>
 <sup>32</sup> I run in the path of your commandments,<br>for you have set my heart free.
-<sup>33</sup> 
 
-Teach me, Yahweh, the way of your statutes.<br>I will keep them to the end.<br>
+### HE
+
+<sup>33</sup> Teach me, Yahweh, the way of your statutes.<br>I will keep them to the end.<br>
 <sup>34</sup> Give me understanding, and I will keep your law.<br>Yes, I will obey it with my whole heart.<br>
 <sup>35</sup> Direct me in the path of your commandments,<br>for I delight in them.<br>
 <sup>36</sup> Turn my heart toward your statutes,<br>not toward selfish gain.<br>
@@ -2775,9 +2764,10 @@ Teach me, Yahweh, the way of your statutes.<br>I will keep them to the end.<br>
 <sup>38</sup> Fulfill your promise to your servant,<br>that you may be feared.<br>
 <sup>39</sup> Take away my disgrace that I dread,<br>for your ordinances are good.<br>
 <sup>40</sup> Behold, I long for your precepts!<br>Revive me in your righteousness.
-<sup>41</sup> 
 
-Let your loving kindness also come to me, Yahweh,<br>your salvation, according to your word.<br>
+### VAV
+
+<sup>41</sup> Let your loving kindness also come to me, Yahweh,<br>your salvation, according to your word.<br>
 <sup>42</sup> So I will have an answer for him who reproaches me,<br>for I trust in your word.<br>
 <sup>43</sup> Don’t snatch the word of truth out of my mouth,<br>for I put my hope in your ordinances.<br>
 <sup>44</sup> So I will obey your law continually,<br>forever and ever.<br>
@@ -2785,9 +2775,10 @@ Let your loving kindness also come to me, Yahweh,<br>your salvation, according t
 <sup>46</sup> I will also speak of your statutes before kings,<br>and will not be disappointed.<br>
 <sup>47</sup> I will delight myself in your commandments,<br>because I love them.<br>
 <sup>48</sup> I reach out my hands for your commandments, which I love.<br>I will meditate on your statutes.
-<sup>49</sup> 
 
-Remember your word to your servant,<br>because you gave me hope.<br>
+### ZAYIN
+
+<sup>49</sup> Remember your word to your servant,<br>because you gave me hope.<br>
 <sup>50</sup> This is my comfort in my affliction,<br>for your word has revived me.<br>
 <sup>51</sup> The arrogant mock me excessively,<br>but I don’t swerve from your law.<br>
 <sup>52</sup> I remember your ordinances of old, Yahweh,<br>and have comforted myself.<br>
@@ -2795,9 +2786,10 @@ Remember your word to your servant,<br>because you gave me hope.<br>
 <sup>54</sup> Your statutes have been my songs<br>in the house where I live.<br>
 <sup>55</sup> I have remembered your name, Yahweh, in the night,<br>and I obey your law.<br>
 <sup>56</sup> This is my way,<br>that I keep your precepts.
-<sup>57</sup> 
 
-Yahweh is my portion.<br>I promised to obey your words.<br>
+### HETH
+
+<sup>57</sup> Yahweh is my portion.<br>I promised to obey your words.<br>
 <sup>58</sup> I sought your favor with my whole heart.<br>Be merciful to me according to your word.<br>
 <sup>59</sup> I considered my ways,<br>and turned my steps to your statutes.<br>
 <sup>60</sup> I will hurry, and not delay,<br>to obey your commandments.<br>
@@ -2805,9 +2797,10 @@ Yahweh is my portion.<br>I promised to obey your words.<br>
 <sup>62</sup> At midnight I will rise to give thanks to you,<br>because of your righteous ordinances.<br>
 <sup>63</sup> I am a friend of all those who fear you,<br>of those who observe your precepts.<br>
 <sup>64</sup> The earth is full of your loving kindness, Yahweh.<br>Teach me your statutes.
-<sup>65</sup> 
 
-You have treated your servant well,<br>according to your word, Yahweh.<br>
+### TETH
+
+<sup>65</sup> You have treated your servant well,<br>according to your word, Yahweh.<br>
 <sup>66</sup> Teach me good judgment and knowledge,<br>for I believe in your commandments.<br>
 <sup>67</sup> Before I was afflicted, I went astray;<br>but now I observe your word.<br>
 <sup>68</sup> You are good, and do good.<br>Teach me your statutes.<br>
@@ -2815,9 +2808,10 @@ You have treated your servant well,<br>according to your word, Yahweh.<br>
 <sup>70</sup> Their heart is as callous as the fat,<br>but I delight in your law.<br>
 <sup>71</sup> It is good for me that I have been afflicted,<br>that I may learn your statutes.<br>
 <sup>72</sup> The law of your mouth is better to me than thousands of pieces of gold and silver.
-<sup>73</sup> 
 
-Your hands have made me and formed me.<br>Give me understanding, that I may learn your commandments.<br>
+### YODH
+
+<sup>73</sup> Your hands have made me and formed me.<br>Give me understanding, that I may learn your commandments.<br>
 <sup>74</sup> Those who fear you will see me and be glad,<br>because I have put my hope in your word.<br>
 <sup>75</sup> Yahweh, I know that your judgments are righteous,<br>that in faithfulness you have afflicted me.<br>
 <sup>76</sup> Please let your loving kindness be for my comfort,<br>according to your word to your servant.<br>
@@ -2825,9 +2819,10 @@ Your hands have made me and formed me.<br>Give me understanding, that I may lear
 <sup>78</sup> Let the proud be disappointed, for they have overthrown me wrongfully.<br>I will meditate on your precepts.<br>
 <sup>79</sup> Let those who fear you turn to me.<br>They will know your statutes.<br>
 <sup>80</sup> Let my heart be blameless toward your decrees,<br>that I may not be disappointed.
-<sup>81</sup> 
 
-My soul faints for your salvation.<br>I hope in your word.<br>
+### KAPF
+
+<sup>81</sup> My soul faints for your salvation.<br>I hope in your word.<br>
 <sup>82</sup> My eyes fail for your word.<br>I say, “When will you comfort me?”<br>
 <sup>83</sup> For I have become like a wineskin in the smoke.<br>I don’t forget your statutes.<br>
 <sup>84</sup> How many are the days of your servant?<br>When will you execute judgment on those who persecute me?<br>
@@ -2835,9 +2830,10 @@ My soul faints for your salvation.<br>I hope in your word.<br>
 <sup>86</sup> All of your commandments are faithful.<br>They persecute me wrongfully.<br>Help me!<br>
 <sup>87</sup> They had almost wiped me from the earth,<br>but I didn’t forsake your precepts.<br>
 <sup>88</sup> Preserve my life according to your loving kindness,<br>so I will obey the statutes of your mouth.
-<sup>89</sup> 
 
-Yahweh, your word is settled in heaven forever.<br>
+### LAMEDH
+
+<sup>89</sup> Yahweh, your word is settled in heaven forever.<br>
 <sup>90</sup> Your faithfulness is to all generations.<br>You have established the earth, and it remains.<br>
 <sup>91</sup> Your laws remain to this day,<br>for all things serve you.<br>
 <sup>92</sup> Unless your law had been my delight,<br>I would have perished in my affliction.<br>
@@ -2845,9 +2841,10 @@ Yahweh, your word is settled in heaven forever.<br>
 <sup>94</sup> I am yours.<br>Save me, for I have sought your precepts.<br>
 <sup>95</sup> The wicked have waited for me, to destroy me.<br>I will consider your statutes.<br>
 <sup>96</sup> I have seen a limit to all perfection,<br>but your commands are boundless.
-<sup>97</sup> 
 
-How I love your law!<br>It is my meditation all day.<br>
+### MEM
+
+<sup>97</sup> How I love your law!<br>It is my meditation all day.<br>
 <sup>98</sup> Your commandments make me wiser than my enemies,<br>for your commandments are always with me.<br>
 <sup>99</sup> I have more understanding than all my teachers,<br>for your testimonies are my meditation.<br>
 <sup>100</sup> I understand more than the aged,<br>because I have kept your precepts.<br>
@@ -2855,9 +2852,10 @@ How I love your law!<br>It is my meditation all day.<br>
 <sup>102</sup> I have not turned away from your ordinances,<br>for you have taught me.<br>
 <sup>103</sup> How sweet are your promises to my taste,<br>more than honey to my mouth!<br>
 <sup>104</sup> Through your precepts, I get understanding;<br>therefore I hate every false way.
-<sup>105</sup> 
 
-Your word is a lamp to my feet,<br>and a light for my path.<br>
+### NUN
+
+<sup>105</sup> Your word is a lamp to my feet,<br>and a light for my path.<br>
 <sup>106</sup> I have sworn, and have confirmed it,<br>that I will obey your righteous ordinances.<br>
 <sup>107</sup> I am afflicted very much.<br>Revive me, Yahweh, according to your word.<br>
 <sup>108</sup> Accept, I beg you, the willing offerings of my mouth.<br>Yahweh, teach me your ordinances.<br>
@@ -2865,9 +2863,10 @@ Your word is a lamp to my feet,<br>and a light for my path.<br>
 <sup>110</sup> The wicked have laid a snare for me,<br>yet I haven’t gone astray from your precepts.<br>
 <sup>111</sup> I have taken your testimonies as a heritage forever,<br>for they are the joy of my heart.<br>
 <sup>112</sup> I have set my heart to perform your statutes forever,<br>even to the end.
-<sup>113</sup> 
 
-I hate double-minded men,<br>but I love your law.<br>
+### SAMEKH
+
+<sup>113</sup> I hate double-minded men,<br>but I love your law.<br>
 <sup>114</sup> You are my hiding place and my shield.<br>I hope in your word.<br>
 <sup>115</sup> Depart from me, you evildoers,<br>that I may keep the commandments of my God.<br>
 <sup>116</sup> Uphold me according to your word, that I may live.<br>Let me not be ashamed of my hope.<br>
@@ -2875,9 +2874,10 @@ I hate double-minded men,<br>but I love your law.<br>
 <sup>118</sup> You reject all those who stray from your statutes,<br>for their deceit is in vain.<br>
 <sup>119</sup> You put away all the wicked of the earth like dross.<br>Therefore I love your testimonies.<br>
 <sup>120</sup> My flesh trembles for fear of you.<br>I am afraid of your judgments.
-<sup>121</sup> 
 
-I have done what is just and righteous.<br>Don’t leave me to my oppressors.<br>
+### AYIN
+
+<sup>121</sup> I have done what is just and righteous.<br>Don’t leave me to my oppressors.<br>
 <sup>122</sup> Ensure your servant’s well-being.<br>Don’t let the proud oppress me.<br>
 <sup>123</sup> My eyes fail looking for your salvation,<br>for your righteous word.<br>
 <sup>124</sup> Deal with your servant according to your loving kindness.<br>Teach me your statutes.<br>
@@ -2885,9 +2885,10 @@ I have done what is just and righteous.<br>Don’t leave me to my oppressors.<br
 <sup>126</sup> It is time to act, Yahweh,<br>for they break your law.<br>
 <sup>127</sup> Therefore I love your commandments more than gold,<br>yes, more than pure gold.<br>
 <sup>128</sup> Therefore I consider all of your precepts to be right.<br>I hate every false way.
-<sup>129</sup> 
 
-Your testimonies are wonderful,<br>therefore my soul keeps them.<br>
+### PE
+
+<sup>129</sup> Your testimonies are wonderful,<br>therefore my soul keeps them.<br>
 <sup>130</sup> The entrance of your words gives light.<br>It gives understanding to the simple.<br>
 <sup>131</sup> I opened my mouth wide and panted,<br>for I longed for your commandments.<br>
 <sup>132</sup> Turn to me, and have mercy on me,<br>as you always do to those who love your name.<br>
@@ -2895,9 +2896,10 @@ Your testimonies are wonderful,<br>therefore my soul keeps them.<br>
 <sup>134</sup> Redeem me from the oppression of man,<br>so I will observe your precepts.<br>
 <sup>135</sup> Make your face shine on your servant.<br>Teach me your statutes.<br>
 <sup>136</sup> Streams of tears run down my eyes,<br>because they don’t observe your law.
-<sup>137</sup> 
 
-You are righteous, Yahweh.<br>Your judgments are upright.<br>
+### TZADHE
+
+<sup>137</sup> You are righteous, Yahweh.<br>Your judgments are upright.<br>
 <sup>138</sup> You have commanded your statutes in righteousness.<br>They are fully trustworthy.<br>
 <sup>139</sup> My zeal wears me out,<br>because my enemies ignore your words.<br>
 <sup>140</sup> Your promises have been thoroughly tested,<br>and your servant loves them.<br>
@@ -2905,9 +2907,10 @@ You are righteous, Yahweh.<br>Your judgments are upright.<br>
 <sup>142</sup> Your righteousness is an everlasting righteousness.<br>Your law is truth.<br>
 <sup>143</sup> Trouble and anguish have taken hold of me.<br>Your commandments are my delight.<br>
 <sup>144</sup> Your testimonies are righteous forever.<br>Give me understanding, that I may live.
-<sup>145</sup> 
 
-I have called with my whole heart.<br>Answer me, Yahweh!<br>I will keep your statutes.<br>
+### QOPH
+
+<sup>145</sup> I have called with my whole heart.<br>Answer me, Yahweh!<br>I will keep your statutes.<br>
 <sup>146</sup> I have called to you. Save me!<br>I will obey your statutes.<br>
 <sup>147</sup> I rise before dawn and cry for help.<br>I put my hope in your words.<br>
 <sup>148</sup> My eyes stay open through the night watches,<br>that I might meditate on your word.<br>
@@ -2915,9 +2918,10 @@ I have called with my whole heart.<br>Answer me, Yahweh!<br>I will keep your sta
 <sup>150</sup> They draw near who follow after wickedness.<br>They are far from your law.<br>
 <sup>151</sup> You are near, Yahweh.<br>All your commandments are truth.<br>
 <sup>152</sup> Of old I have known from your testimonies,<br>that you have founded them forever.
-<sup>153</sup> 
 
-Consider my affliction, and deliver me,<br>for I don’t forget your law.<br>
+### RESH
+
+<sup>153</sup> Consider my affliction, and deliver me,<br>for I don’t forget your law.<br>
 <sup>154</sup> Plead my cause, and redeem me!<br>Revive me according to your promise.<br>
 <sup>155</sup> Salvation is far from the wicked,<br>for they don’t seek your statutes.<br>
 <sup>156</sup> Great are your tender mercies, Yahweh.<br>Revive me according to your ordinances.<br>
@@ -2925,9 +2929,10 @@ Consider my affliction, and deliver me,<br>for I don’t forget your law.<br>
 <sup>158</sup> I look at the faithless with loathing,<br>because they don’t observe your word.<br>
 <sup>159</sup> Consider how I love your precepts.<br>Revive me, Yahweh, according to your loving kindness.<br>
 <sup>160</sup> All of your words are truth.<br>Every one of your righteous ordinances endures forever.
-<sup>161</sup> 
 
-Princes have persecuted me without a cause,<br>but my heart stands in awe of your words.<br>
+### SIN AND SHIN
+
+<sup>161</sup> Princes have persecuted me without a cause,<br>but my heart stands in awe of your words.<br>
 <sup>162</sup> I rejoice at your word,<br>as one who finds great plunder.<br>
 <sup>163</sup> I hate and abhor falsehood.<br>I love your law.<br>
 <sup>164</sup> Seven times a day, I praise you,<br>because of your righteous ordinances.<br>
@@ -2935,9 +2940,10 @@ Princes have persecuted me without a cause,<br>but my heart stands in awe of you
 <sup>166</sup> I have hoped for your salvation, Yahweh.<br>I have done your commandments.<br>
 <sup>167</sup> My soul has observed your testimonies.<br>I love them exceedingly.<br>
 <sup>168</sup> I have obeyed your precepts and your testimonies,<br>for all my ways are before you.
-<sup>169</sup> 
 
-Let my cry come before you, Yahweh.<br>Give me understanding according to your word.<br>
+### TAV
+
+<sup>169</sup> Let my cry come before you, Yahweh.<br>Give me understanding according to your word.<br>
 <sup>170</sup> Let my supplication come before you.<br>Deliver me according to your word.<br>
 <sup>171</sup> Let my lips utter praise,<br>for you teach me your statutes.<br>
 <sup>172</sup> Let my tongue sing of your word,<br>for all your commandments are righteousness.<br>
@@ -3326,7 +3332,7 @@ Let my cry come before you, Yahweh.<br>Give me understanding according to your w
 
 ## Chapter 145
 
-> _A praise psalm by David._
+> _A praise psalm by David.<sup>a</sup>_
 
 <sup>1</sup> I will exalt you, my God, the King.<br>I will praise your name forever and ever.<br>
 <sup>2</sup> Every day I will praise you.<br>I will extol your name forever and ever.<br>
@@ -3340,7 +3346,7 @@ Let my cry come before you, Yahweh.<br>Give me understanding according to your w
 <sup>10</sup> All your works will give thanks to you, Yahweh.<br>Your saints will extol you.<br>
 <sup>11</sup> They will speak of the glory of your kingdom,<br>and talk about your power,<br>
 <sup>12</sup> to make known to the sons of men his mighty acts,<br>the glory of the majesty of his kingdom.<br>
-<sup>13</sup> Your kingdom is an everlasting kingdom.<br>Your dominion endures throughout all generations.<br>Yahweh is faithful in all his words,<br>and loving in all his deeds.<sup>a</sup><br>
+<sup>13</sup> Your kingdom is an everlasting kingdom.<br>Your dominion endures throughout all generations.<br>Yahweh is faithful in all his words,<br>and loving in all his deeds.<sup>b</sup><br>
 <sup>14</sup> Yahweh upholds all who fall,<br>and raises up all those who are bowed down.<br>
 <sup>15</sup> The eyes of all wait for you.<br>You give them their food in due season.<br>
 <sup>16</sup> You open your hand,<br>and satisfy the desire of every living thing.<br>
@@ -3350,9 +3356,8 @@ Let my cry come before you, Yahweh.<br>Give me understanding according to your w
 <sup>20</sup> Yahweh preserves all those who love him,<br>but he will destroy all the wicked.<br>
 <sup>21</sup> My mouth will speak the praise of Yahweh.<br>Let all flesh bless his holy name forever and ever.
 
-
-
-> - <sup>a</sup> 13. Some manuscripts omit these last two lines.
+> - <sup>a</sup> Subtitle. This is an acrostic psalm, with every verse (including the second half of verse 13) starting with a consecutive letter of the Hebrew alphabet.
+> - <sup>b</sup> 13. Some manuscripts omit these last two lines.
 
 ## Chapter 146
 
@@ -3365,9 +3370,7 @@ Let my cry come before you, Yahweh.<br>Give me understanding according to your w
 <sup>7</sup> who executes justice for the oppressed;<br>who gives food to the hungry.<br>Yahweh frees the prisoners.<br>
 <sup>8</sup> Yahweh opens the eyes of the blind.<br>Yahweh raises up those who are bowed down.<br>Yahweh loves the righteous.<br>
 <sup>9</sup> Yahweh preserves the foreigners.<br>He upholds the fatherless and widow,<br>but he turns the way of the wicked upside down.<br>
-<sup>10</sup> Yahweh will reign forever;<br>your God, O Zion, to all generations.<br>Praise Yah! 
-
-
+<sup>10</sup> Yahweh will reign forever;<br>your God, O Zion, to all generations.<br>Praise Yah!
 
 ## Chapter 147
 
@@ -3390,9 +3393,7 @@ Let my cry come before you, Yahweh.<br>Give me understanding according to your w
 <sup>17</sup> He hurls down his hail like pebbles.<br>Who can stand before his cold?<br>
 <sup>18</sup> He sends out his word, and melts them.<br>He causes his wind to blow, and the waters flow.<br>
 <sup>19</sup> He shows his word to Jacob,<br>his statutes and his ordinances to Israel.<br>
-<sup>20</sup> He has not done this for just any nation.<br>They don’t know his ordinances.<br>Praise Yah! 
-
-
+<sup>20</sup> He has not done this for just any nation.<br>They don’t know his ordinances.<br>Praise Yah!
 
 ## Chapter 148
 
@@ -3409,9 +3410,7 @@ Let my cry come before you, Yahweh.<br>Give me understanding according to your w
 <sup>11</sup> kings of the earth and all peoples,<br>princes and all judges of the earth,<br>
 <sup>12</sup> both young men and maidens,<br>old men and children.<br>
 <sup>13</sup> Let them praise Yahweh’s name,<br>for his name alone is exalted.<br>His glory is above the earth and the heavens.<br>
-<sup>14</sup> He has lifted up the horn of his people,<br>the praise of all his saints,<br>even of the children of Israel, a people near to him.<br>Praise Yah! 
-
-
+<sup>14</sup> He has lifted up the horn of his people,<br>the praise of all his saints,<br>even of the children of Israel, a people near to him.<br>Praise Yah!
 
 ## Chapter 149
 
@@ -3423,9 +3422,7 @@ Let my cry come before you, Yahweh.<br>Give me understanding according to your w
 <sup>6</sup> May the high praises of God be in their mouths,<br>and a two-edged sword in their hand,<br>
 <sup>7</sup> to execute vengeance on the nations,<br>and punishments on the peoples;<br>
 <sup>8</sup> to bind their kings with chains,<br>and their nobles with fetters of iron;<br>
-<sup>9</sup> to execute on them the written judgment.<br>All his saints have this honor.<br>Praise Yah! 
-
-
+<sup>9</sup> to execute on them the written judgment.<br>All his saints have this honor.<br>Praise Yah!
 
 ## Chapter 150
 

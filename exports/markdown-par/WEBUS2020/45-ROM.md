@@ -648,7 +648,8 @@ The grace of our Lord Jesus Christ be with you.
 <sup>22</sup> I, Tertius, who write the letter, greet you in the Lord.
 <sup>23</sup> Gaius, my host and host of the whole assembly, greets you. Erastus, the treasurer of the city, greets you, as does Quartus, the brother.
 <sup>24</sup> The grace of our Lord Jesus Christ be with you all! Amen.
-<sup>25</sup> 
+<sup>25</sup> <sup>c</sup>
 
 > - <sup>a</sup> 1. or, deacon
 > - <sup>b</sup> 14. The word for “brothers” here and where context allows may also be correctly translated “brothers and sisters” or “siblings.”
+> - <sup>c</sup> 25. TR places Romans 14:24-26 at the end of Romans instead of at the end of chapter 14, and numbers these verses 16:25-27.

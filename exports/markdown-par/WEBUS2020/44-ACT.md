@@ -3,13 +3,13 @@
 <sup>1</sup> The first book I wrote, Theophilus, concerned all that Jesus began both to do and to teach,
 <sup>2</sup> until the day in which he was received up, after he had given commandment through the Holy Spirit to the apostles whom he had chosen.
 <sup>3</sup> To these he also showed himself alive after he suffered, by many proofs, appearing to them over a period of forty days and speaking about God’s Kingdom.
-<sup>4</sup> Being assembled together with them, he commanded them, “Don’t depart from Jerusalem, but wait for the promise of the Father, which you heard from me. 
-<sup>5</sup>  For John indeed baptized in water, but you will be baptized in the Holy Spirit not many days from now.”
+<sup>4</sup> Being assembled together with them, he commanded them, “Don’t depart from Jerusalem, but wait for the promise of the Father, which you heard from me.
+<sup>5</sup> For John indeed baptized in water, but you will be baptized in the Holy Spirit not many days from now.”
 
 <sup>6</sup> Therefore, when they had come together, they asked him, “Lord, are you now restoring the kingdom to Israel?”
 
-<sup>7</sup> He said to them, “It isn’t for you to know times or seasons which the Father has set within his own authority. 
-<sup>8</sup>  But you will receive power when the Holy Spirit has come upon you. You will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth.”
+<sup>7</sup> He said to them, “It isn’t for you to know times or seasons which the Father has set within his own authority.
+<sup>8</sup> But you will receive power when the Holy Spirit has come upon you. You will be witnesses to me in Jerusalem, in all Judea and Samaria, and to the uttermost parts of the earth.”
 
 <sup>9</sup> When he had said these things, as they were looking, he was taken up, and a cloud received him out of their sight.
 <sup>10</sup> While they were looking steadfastly into the sky as he went, behold,<sup>a</sup> two men stood by them in white clothing,
@@ -414,15 +414,14 @@ She said, “Yes, for so much.”
 <sup>35</sup> Philip opened his mouth, and beginning from this Scripture, preached to him about Jesus.
 <sup>36</sup> As they went on the way, they came to some water; and the eunuch said, “Behold, here is water. What is keeping me from being baptized?”
 
-<sup>37</sup> 
-
-
+<sup>37</sup> <sup>b</sup>
 <sup>38</sup> He commanded the chariot to stand still, and they both went down into the water, both Philip and the eunuch, and he baptized him.
 
 <sup>39</sup> When they came up out of the water, the Spirit of the Lord caught Philip away, and the eunuch didn’t see him any more, for he went on his way rejoicing.
 <sup>40</sup> But Philip was found at Azotus. Passing through, he preached the Good News to all the cities until he came to Caesarea.
 
 > - <sup>a</sup> 33. Isaiah 53:7,8
+> - <sup>b</sup> 37. TR adds Philip said, “If you believe with all your heart, you may.” He answered, “I believe that Jesus Christ is the Son of God.”
 
 ## Chapter 9
 
@@ -434,7 +433,7 @@ She said, “Yes, for so much.”
 <sup>5</sup> He said, “Who are you, Lord?”
 
 The Lord said, “I am Jesus, whom you are persecuting.<sup>a</sup>
-<sup>6</sup>  But<sup>b</sup> rise up and enter into the city, then you will be told what you must do.”
+<sup>6</sup> But<sup>b</sup> rise up and enter into the city, then you will be told what you must do.”
 
 <sup>7</sup> The men who traveled with him stood speechless, hearing the sound, but seeing no one.
 <sup>8</sup> Saul arose from the ground, and when his eyes were opened, he saw no one. They led him by the hand and brought him into Damascus.
@@ -445,13 +444,13 @@ The Lord said, “I am Jesus, whom you are persecuting.<sup>a</sup>
 He said, “Behold, it’s me, Lord.”
 
 <sup>11</sup> The Lord said to him, “Arise and go to the street which is called Straight, and inquire in the house of Judah<sup>c</sup> for one named Saul, a man of Tarsus. For behold, he is praying,
-<sup>12</sup>  and in a vision he has seen a man named Ananias coming in and laying his hands on him, that he might receive his sight.”
+<sup>12</sup> and in a vision he has seen a man named Ananias coming in and laying his hands on him, that he might receive his sight.”
 
 <sup>13</sup> But Ananias answered, “Lord, I have heard from many about this man, how much evil he did to your saints at Jerusalem.
 <sup>14</sup> Here he has authority from the chief priests to bind all who call on your name.”
 
-<sup>15</sup> But the Lord said to him, “Go your way, for he is my chosen vessel to bear my name before the nations and kings, and the children of Israel. 
-<sup>16</sup>  For I will show him how many things he must suffer for my name’s sake.”
+<sup>15</sup> But the Lord said to him, “Go your way, for he is my chosen vessel to bear my name before the nations and kings, and the children of Israel.
+<sup>16</sup> For I will show him how many things he must suffer for my name’s sake.”
 
 <sup>17</sup> Ananias departed and entered into the house. Laying his hands on him, he said, “Brother Saul, the Lord, who appeared to you on the road by which you came, has sent me that you may receive your sight and be filled with the Holy Spirit.”
 <sup>18</sup> Immediately something like scales fell from his eyes, and he received his sight. He arose and was baptized.
@@ -581,7 +580,7 @@ Then Peter answered,
 <sup>4</sup> But Peter began, and explained to them in order, saying,
 <sup>5</sup> “I was in the city of Joppa praying, and in a trance I saw a vision: a certain container descending, like it was a great sheet let down from heaven by four corners. It came as far as me.
 <sup>6</sup> When I had looked intently at it, I considered, and saw the four-footed animals of the earth, wild animals, creeping things, and birds of the sky.
-<sup>7</sup> I also heard a voice saying to me, ‘Rise, Peter, kill and eat!’ 
+<sup>7</sup> I also heard a voice saying to me, ‘Rise, Peter, kill and eat!’
 <sup>8</sup> But I said, ‘Not so, Lord, for nothing unholy or unclean has ever entered into my mouth.’
 <sup>9</sup> But a voice answered me the second time out of heaven, ‘What God has cleansed, don’t you call unclean.’
 <sup>10</sup> This was done three times, and all were drawn up again into heaven.
@@ -808,7 +807,7 @@ Immediately a mist and darkness fell on him. He went around seeking someone to l
 <sup>31</sup> When they had read it, they rejoiced over the encouragement.
 <sup>32</sup> Judas and Silas, also being prophets themselves, encouraged the brothers with many words and strengthened them.
 <sup>33</sup> After they had spent some time there, they were dismissed in peace from the brothers to the apostles.
-<sup>34</sup> 
+<sup>34</sup> <sup>e</sup>
 <sup>35</sup> But Paul and Barnabas stayed in Antioch, teaching and preaching the word of the Lord, with many others also.
 
 <sup>36</sup> After some days Paul said to Barnabas, “Let’s return now and visit our brothers in every city in which we proclaimed the word of the Lord, to see how they are doing.”
@@ -822,6 +821,7 @@ Immediately a mist and darkness fell on him. He went around seeking someone to l
 > - <sup>b</sup> 11. TR adds “Christ”
 > - <sup>c</sup> 17. Amos 9:11-12
 > - <sup>d</sup> 22. The word for “brothers” here and where the context allows may also be correctly translated “brothers and sisters” or “siblings.”
+> - <sup>e</sup> 34. Some manuscripts add: But it seemed good to Silas to stay there.
 
 ## Chapter 16
 
@@ -943,8 +943,8 @@ Others said, “He seems to be advocating foreign deities,” because he preache
 
 <sup>7</sup> He departed there and went into the house of a certain man named Justus, one who worshiped God, whose house was next door to the synagogue.
 <sup>8</sup> Crispus, the ruler of the synagogue, believed in the Lord with all his house. Many of the Corinthians, when they heard, believed and were baptized.
-<sup>9</sup> The Lord said to Paul in the night by a vision, “Don’t be afraid, but speak and don’t be silent; 
-<sup>10</sup>  for I am with you, and no one will attack you to harm you, for I have many people in this city.”
+<sup>9</sup> The Lord said to Paul in the night by a vision, “Don’t be afraid, but speak and don’t be silent;
+<sup>10</sup> for I am with you, and no one will attack you to harm you, for I have many people in this city.”
 
 <sup>11</sup> He lived there a year and six months, teaching the word of God among them.
 <sup>12</sup> But when Gallio was proconsul of Achaia, the Jews with one accord rose up against Paul and brought him before the judgment seat,
@@ -1261,8 +1261,8 @@ Paul said, “But I was born a Roman.”
 <sup>4</sup> But that I don’t delay you, I entreat you to bear with us and hear a few words.
 <sup>5</sup> For we have found this man to be a plague, an instigator of insurrections among all the Jews throughout the world, and a ringleader of the sect of the Nazarenes.
 <sup>6</sup> He even tried to profane the temple, and we arrested him.<sup>a</sup>
-<sup>7</sup> 
-<sup>8</sup> By examining him yourself you may ascertain all these things of which we accuse him.”
+<sup>7</sup> <sup>b</sup>
+<sup>8</sup> <sup>c</sup>By examining him yourself you may ascertain all these things of which we accuse him.”
 
 <sup>9</sup> The Jews also joined in the attack, affirming that these things were so.
 
@@ -1289,6 +1289,8 @@ Paul said, “But I was born a Roman.”
 <sup>27</sup> But when two years were fulfilled, Felix was succeeded by Porcius Festus, and desiring to gain favor with the Jews, Felix left Paul in bonds.
 
 > - <sup>a</sup> 6. TR adds “We wanted to judge him according to our law,”
+> - <sup>b</sup> 7. TR adds “but the commanding officer, Lysias, came by and with great violence took him out of our hands,”
+> - <sup>c</sup> 8. TR adds “commanding his accusers to come to you.”
 
 ## Chapter 25
 
@@ -1353,10 +1355,10 @@ Then Paul stretched out his hand, and made his defense.
 
 <sup>15</sup> “I said, ‘Who are you, Lord?’
 
-“He said, ‘I am Jesus, whom you are persecuting. 
-<sup>16</sup>  But arise, and stand on your feet, for I have appeared to you for this purpose: to appoint you a servant and a witness both of the things which you have seen and of the things which I will reveal to you; 
-<sup>17</sup>  delivering you from the people and from the Gentiles, to whom I send you, 
-<sup>18</sup>  to open their eyes, that they may turn from darkness to light and from the power of Satan to God, that they may receive remission of sins and an inheritance among those who are sanctified by faith in me.’
+“He said, ‘I am Jesus, whom you are persecuting.
+<sup>16</sup> But arise, and stand on your feet, for I have appeared to you for this purpose: to appoint you a servant and a witness both of the things which you have seen and of the things which I will reveal to you;
+<sup>17</sup> delivering you from the people and from the Gentiles, to whom I send you,
+<sup>18</sup> to open their eyes, that they may turn from darkness to light and from the power of Satan to God, that they may receive remission of sins and an inheritance among those who are sanctified by faith in me.’
 
 <sup>19</sup> “Therefore, King Agrippa, I was not disobedient to the heavenly vision,
 <sup>20</sup> but declared first to them of Damascus, at Jerusalem, and throughout all the country of Judea, and also to the Gentiles, that they should repent and turn to God, doing works worthy of repentance.

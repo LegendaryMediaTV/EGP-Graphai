@@ -153,8 +153,6 @@ In all this Job didn’t sin with his lips.
 <sup>26</sup> You will come to your grave in a full age,<br>like a shock of grain comes in its season.<br>
 <sup>27</sup> Behold, we have researched it. It is so.<br>Hear it, and know it for your good.”
 
-
-
 > - <sup>a</sup> 25. or, seed
 
 ## Chapter 6
@@ -289,8 +287,6 @@ In all this Job didn’t sin with his lips.
 <sup>34</sup> Let him take his rod away from me.<br>Let his terror not make me afraid;<br>
 <sup>35</sup> then I would speak, and not fear him,<br>for I am not so in myself.
 
-
-
 ## Chapter 10
 
 <sup>1</sup> “My soul is weary of my life.<br>I will give free course to my complaint.<br>I will speak in the bitterness of my soul.<br>
@@ -375,8 +371,6 @@ In all this Job didn’t sin with his lips.
 <sup>24</sup> He takes away understanding from the chiefs of the people of the earth,<br>and causes them to wander in a wilderness where there is no way.<br>
 <sup>25</sup> They grope in the dark without light.<br>He makes them stagger like a drunken man.
 
-
-
 ## Chapter 13
 
 <sup>1</sup> “Behold, my eye has seen all this.<br>My ear has heard and understood it.<br>
@@ -411,8 +405,6 @@ In all this Job didn’t sin with his lips.
 <sup>27</sup> You also put my feet in the stocks,<br>and mark all my paths.<br>You set a bound to the soles of my feet,<br>
 <sup>28</sup> though I am decaying like a rotten thing,<br>like a garment that is moth-eaten.
 
-
-
 ## Chapter 14
 
 <sup>1</sup> “Man, who is born of a woman,<br>is of few days, and full of trouble.<br>
@@ -440,8 +432,6 @@ In all this Job didn’t sin with his lips.
 <sup>20</sup> You forever prevail against him, and he departs.<br>You change his face, and send him away.<br>
 <sup>21</sup> His sons come to honor, and he doesn’t know it.<br>They are brought low, but he doesn’t perceive it of them.<br>
 <sup>22</sup> But his flesh on him has pain,<br>and his soul within him mourns.”
-
-
 
 > - <sup>a</sup> 13. Sheol is the place of the dead.
 
@@ -485,8 +475,6 @@ In all this Job didn’t sin with his lips.
 <sup>34</sup> For the company of the godless will be barren,<br>and fire will consume the tents of bribery.<br>
 <sup>35</sup> They conceive mischief and produce iniquity.<br>Their heart prepares deceit.”
 
-
-
 ## Chapter 16
 
 <sup>1</sup> Then Job answered,<br>
@@ -514,8 +502,6 @@ In all this Job didn’t sin with his lips.
 <sup>21</sup> that he would maintain the right of a man with God,<br>of a son of man with his neighbor!<br>
 <sup>22</sup> For when a few years have come,<br>I will go the way of no return.
 
-
-
 ## Chapter 17
 
 <sup>1</sup> “My spirit is consumed.<br>My days are extinct<br>and the grave is ready for me.<br>
@@ -536,8 +522,6 @@ In all this Job didn’t sin with his lips.
 <sup>14</sup> if I have said to corruption, ‘You are my father,’<br>and to the worm, ‘My mother,’ and ‘My sister,’<br>
 <sup>15</sup> where then is my hope?<br>As for my hope, who will see it?<br>
 <sup>16</sup> Shall it go down with me to the gates of Sheol,<sup>b</sup><br>or descend together into the dust?”
-
-
 
 > - <sup>a</sup> 13. Sheol is the place of the dead.
 > - <sup>b</sup> 16. Sheol is the place of the dead.
@@ -739,8 +723,6 @@ In all this Job didn’t sin with his lips.
 <sup>16</sup> For God has made my heart faint.<br>The Almighty has terrified me.<br>
 <sup>17</sup> Because I was not cut off before the darkness,<br>neither did he cover the thick darkness from my face.
 
-
-
 ## Chapter 24
 
 <sup>1</sup> “Why aren’t times laid up by the Almighty?<br>Why don’t those who know him see his days?<br>
@@ -770,8 +752,6 @@ In all this Job didn’t sin with his lips.
 <sup>23</sup> God gives them security, and they rest in it.<br>His eyes are on their ways.<br>
 <sup>24</sup> They are exalted; yet a little while, and they are gone.<br>Yes, they are brought low, they are taken out of the way as all others,<br>and are cut off as the tops of the ears of grain.<br>
 <sup>25</sup> If it isn’t so now, who will prove me a liar,<br>and make my speech worth nothing?”
-
-
 
 > - <sup>a</sup> 19. Sheol is the place of the dead.
 
@@ -834,8 +814,6 @@ In all this Job didn’t sin with his lips.
 <sup>22</sup> For it hurls at him, and does not spare,<br>as he flees away from his hand.<br>
 <sup>23</sup> Men will clap their hands at him,<br>and will hiss him out of his place.
 
-
-
 ## Chapter 28
 
 <sup>1</sup> “Surely there is a mine for silver,<br>and a place for gold which they refine.<br>
@@ -869,8 +847,6 @@ In all this Job didn’t sin with his lips.
 <sup>27</sup> then he saw it, and declared it.<br>He established it, yes, and searched it out.<br>
 <sup>28</sup> To man he said,<br>‘Behold, the fear of the Lord,<sup>b</sup> that is wisdom.<br>To depart from evil is understanding.’ ”
 
-
-
 > - <sup>a</sup> 16. or, lapis lazuli
 > - <sup>b</sup> 28. The word translated “Lord” is “Adonai.”
 
@@ -902,8 +878,6 @@ In all this Job didn’t sin with his lips.
 <sup>23</sup> They waited for me as for the rain.<br>Their mouths drank as with the spring rain.<br>
 <sup>24</sup> I smiled on them when they had no confidence.<br>They didn’t reject the light of my face.<br>
 <sup>25</sup> I chose out their way, and sat as chief.<br>I lived as a king in the army,<br>as one who comforts the mourners.
-
-
 
 ## Chapter 30
 
@@ -941,8 +915,6 @@ In all this Job didn’t sin with his lips.
 <sup>29</sup> I am a brother to jackals,<br>and a companion to ostriches.<br>
 <sup>30</sup> My skin grows black and peels from me.<br>My bones are burned with heat.<br>
 <sup>31</sup> Therefore my harp has turned to mourning,<br>and my pipe into the voice of those who weep.
-
-
 
 ## Chapter 31
 
@@ -1021,8 +993,6 @@ The words of Job are ended.
 <sup>21</sup> Please don’t let me respect any man’s person,<br>neither will I give flattering titles to any man.<br>
 <sup>22</sup> For I don’t know how to give flattering titles,<br>or else my Maker would soon take me away.
 
-
-
 > - <sup>a</sup> 8. or, breath
 
 ## Chapter 33
@@ -1065,8 +1035,6 @@ The words of Job are ended.
 <sup>31</sup> Mark well, Job, and listen to me.<br>Hold your peace, and I will speak.<br>
 <sup>32</sup> If you have anything to say, answer me.<br>Speak, for I desire to justify you.<br>
 <sup>33</sup> If not, listen to me.<br>Hold your peace, and I will teach you wisdom.”
-
-
 
 ## Chapter 34
 
@@ -1112,8 +1080,6 @@ The words of Job are ended.
 <sup>36</sup> I wish that Job were tried to the end,<br>because of his answering like wicked men.<br>
 <sup>37</sup> For he adds rebellion to his sin.<br>He claps his hands among us,<br>and multiplies his words against God.”
 
-
-
 ## Chapter 35
 
 <sup>1</sup> Moreover Elihu answered,<br>
@@ -1133,8 +1099,6 @@ The words of Job are ended.
 <sup>14</sup> How much less when you say you don’t see him.<br>The cause is before him, and you wait for him!<br>
 <sup>15</sup> But now, because he has not visited in his anger,<br>neither does he greatly regard arrogance,<br>
 <sup>16</sup> therefore Job opens his mouth with empty talk,<br>and he multiplies words without knowledge.”
-
-
 
 ## Chapter 36
 
@@ -1176,8 +1140,6 @@ The words of Job are ended.
 <sup>32</sup> He covers his hands with the lightning,<br>and commands it to strike the mark.<br>
 <sup>33</sup> Its noise tells about him,<br>and the livestock also, concerning the storm that comes up.
 
-
-
 ## Chapter 37
 
 <sup>1</sup> “Yes, at this my heart trembles,<br>and is moved out of its place.<br>
@@ -1206,8 +1168,6 @@ The words of Job are ended.
 <sup>22</sup> Out of the north comes golden splendor.<br>With God is awesome majesty.<br>
 <sup>23</sup> We can’t reach the Almighty.<br>He is exalted in power.<br>In justice and great righteousness, he will not oppress.<br>
 <sup>24</sup> Therefore men revere him.<br>He doesn’t regard any who are wise of heart.”
-
-
 
 ## Chapter 38
 
@@ -1262,8 +1222,6 @@ The words of Job are ended.
 <sup>40</sup> when they crouch in their dens,<br>and lie in wait in the thicket?<br>
 <sup>41</sup> Who provides for the raven his prey,<br>when his young ones cry to God,<br>and wander for lack of food?
 
-
-
 ## Chapter 39
 
 <sup>1</sup> “Do you know the time when the mountain goats give birth?<br>Do you watch when the doe bears fawns?<br>
@@ -1302,8 +1260,6 @@ The words of Job are ended.
 <sup>29</sup> From there he spies out the prey.<br>His eyes see it afar off.<br>
 <sup>30</sup> His young ones also suck up blood.<br>Where the slain are, there he is.”
 
-
-
 ## Chapter 40
 
 <sup>1</sup> Moreover Yahweh answered Job,<br>
@@ -1335,8 +1291,6 @@ The words of Job are ended.
 <sup>22</sup> The lotuses cover him with their shade.<br>The willows of the brook surround him.<br>
 <sup>23</sup> Behold, if a river overflows, he doesn’t tremble.<br>He is confident, though the Jordan swells even to his mouth.<br>
 <sup>24</sup> Shall any take him when he is on the watch,<br>or pierce through his nose with a snare?
-
-
 
 ## Chapter 41
 
@@ -1377,8 +1331,6 @@ The words of Job are ended.
 <sup>32</sup> He makes a path shine after him.<br>One would think the deep had white hair.<br>
 <sup>33</sup> On earth there is not his equal,<br>that is made without fear.<br>
 <sup>34</sup> He sees everything that is high.<br>He is king over all the sons of pride.”
-
-
 
 > - <sup>a</sup> 1. Leviathan is a name for a crocodile or similar creature.
 

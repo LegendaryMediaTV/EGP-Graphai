@@ -644,8 +644,6 @@
 <sup>28</sup> A corrupt witness mocks justice,<br>and the mouth of the wicked gulps down iniquity.<br>
 <sup>29</sup> Penalties are prepared for scoffers,<br>and beatings for the backs of fools.
 
-
-
 ## Chapter 20
 
 <sup>1</sup> Wine is a mocker and beer is a brawler.<br>Whoever is led astray by them is not wise.<br>
@@ -678,8 +676,6 @@
 <sup>28</sup> Love and faithfulness keep the king safe.<br>His throne is sustained by love.<br>
 <sup>29</sup> The glory of young men is their strength.<br>The splendor of old men is their gray hair.<br>
 <sup>30</sup> Wounding blows cleanse away evil,<br>and beatings purge the innermost parts.
-
-
 
 ## Chapter 21
 
@@ -714,8 +710,6 @@
 <sup>29</sup> A wicked man hardens his face;<br>but as for the upright, he establishes his ways.<br>
 <sup>30</sup> There is no wisdom nor understanding<br>nor counsel against Yahweh.<br>
 <sup>31</sup> The horse is prepared for the day of battle;<br>but victory is with Yahweh.
-
-
 
 ## Chapter 22
 
@@ -754,8 +748,6 @@
 <sup>28</sup> Don’t move the ancient boundary stone<br>which your fathers have set up.
 
 <sup>29</sup> Do you see a man skilled in his work?<br>He will serve kings.<br>He won’t serve obscure men.
-
-
 
 ## Chapter 23
 
@@ -799,8 +791,6 @@
 <sup>33</sup> Your eyes will see strange things,<br>and your mind will imagine confusing things.<br>
 <sup>34</sup> Yes, you will be as he who lies down in the middle of the sea,<br>or as he who lies on top of the rigging:<br>
 <sup>35</sup> “They hit me, and I was not hurt!<br>They beat me, and I don’t feel it!<br>When will I wake up? I can do it again.<br>I will look for more.”
-
-
 
 > - <sup>a</sup> 14. Sheol is the place of the dead.
 
@@ -1067,9 +1057,7 @@ To show partiality in judgment is not good.<br>
 <sup>8</sup> Open your mouth for the mute,<br>in the cause of all who are left desolate.<br>
 <sup>9</sup> Open your mouth, judge righteously,<br>and serve justice to the poor and needy.”
 
-<sup>10</sup> 
-
-Who can find a worthy woman?<br>For her value is far above rubies.<br>
+<sup>10</sup> <sup>a</sup>Who can find a worthy woman?<br>For her value is far above rubies.<br>
 <sup>11</sup> The heart of her husband trusts in her.<br>He shall have no lack of gain.<br>
 <sup>12</sup> She does him good, and not harm,<br>all the days of her life.<br>
 <sup>13</sup> She seeks wool and flax,<br>and works eagerly with her hands.<br>
@@ -1091,3 +1079,5 @@ Who can find a worthy woman?<br>For her value is far above rubies.<br>
 <sup>29</sup> “Many women do noble things,<br>but you excel them all.”<br>
 <sup>30</sup> Charm is deceitful, and beauty is vain;<br>but a woman who fears Yahweh, she shall be praised.<br>
 <sup>31</sup> Give her of the fruit of her hands!<br>Let her works praise her in the gates!
+
+> - <sup>a</sup> 10. Proverbs 31:10-31 form an acrostic, with each verse starting with each letter of the Hebrew alphabet, in order.

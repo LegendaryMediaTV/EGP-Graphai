@@ -568,6 +568,23 @@ function convertVerseToMarkdown(
   // Use verse number from the verse object
   const verseNum = verse.verse;
 
+  // Check if verse starts with a heading and extract it
+  let headingPrefix = "";
+  let processedContent = verse.content;
+
+  if (Array.isArray(verse.content) && verse.content.length > 0) {
+    const firstItem = verse.content[0];
+    if (typeof firstItem === "object" && "heading" in firstItem) {
+      const headingText =
+        typeof firstItem.heading === "string"
+          ? firstItem.heading
+          : convertContentToMarkdownText(firstItem.heading);
+      headingPrefix = `\n### ${headingText}\n`;
+      // Remove heading from content to process
+      processedContent = verse.content.slice(1);
+    }
+  }
+
   const textParts: string[] = [];
   let hasLeadingParagraph = false;
 
@@ -652,14 +669,19 @@ function convertVerseToMarkdown(
     }
   }
 
-  // Check if content starts with paragraph
-  const content = verse.content;
-  if (typeof content === "object" && !Array.isArray(content)) {
-    if ("paragraph" in content || (content as ContentObject).paragraph) {
+  // Check if content starts with paragraph (using processedContent after heading extraction)
+  if (
+    typeof processedContent === "object" &&
+    !Array.isArray(processedContent)
+  ) {
+    if (
+      "paragraph" in processedContent ||
+      (processedContent as ContentObject).paragraph
+    ) {
       hasLeadingParagraph = true;
     }
-  } else if (Array.isArray(content) && content.length > 0) {
-    const first = content[0];
+  } else if (Array.isArray(processedContent) && processedContent.length > 0) {
+    const first = processedContent[0];
     if (
       typeof first === "object" &&
       ("paragraph" in first || (first as ContentObject).paragraph)
@@ -668,7 +690,7 @@ function convertVerseToMarkdown(
     }
   }
 
-  processContent(content, true);
+  processContent(processedContent, true);
 
   // Join text parts without adding spaces, as source data should include them
   let joinedText = textParts.join("");
@@ -682,8 +704,8 @@ function convertVerseToMarkdown(
   // Handle leading paragraph break
   const paragraphPrefix = hasLeadingParagraph ? "\n" : "";
 
-  // Return with superscript verse number and space
-  return `${paragraphPrefix}<sup>${verseNum}</sup> ${joinedText}`;
+  // Return with heading prefix (if any), paragraph prefix, verse number and text
+  return `${headingPrefix}${paragraphPrefix}<sup>${verseNum}</sup> ${joinedText}`;
 }
 
 function main(): void {

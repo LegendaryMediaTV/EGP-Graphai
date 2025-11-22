@@ -176,8 +176,6 @@ Then I ate it. It was as sweet as honey in my mouth.
 <sup>13</sup> You will know that I am Yahweh when their slain men are among their idols around their altars, on every high hill, on all the tops of the mountains, under every green tree, and under every thick oak—the places where they offered pleasant aroma to all their idols.
 <sup>14</sup> I will stretch out my hand on them and make the land desolate and waste, from the wilderness toward Diblah, throughout all their habitations. Then they will know that I am Yahweh.’ ”
 
-
-
 ## Chapter 7
 
 <sup>1</sup> Moreover Yahweh’s word came to me, saying,
