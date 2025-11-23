@@ -7600,6 +7600,23 @@
         "morph": "N-ASM"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "φελόνην",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "φαιλόνην",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ὃν",
         "script": "G",
         "strong": "G3739",

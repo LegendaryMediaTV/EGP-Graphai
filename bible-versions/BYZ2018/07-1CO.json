@@ -13824,6 +13824,28 @@
         "morph": "PRT-N"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "Οὐκ",
+              "script": "G"
+            },
+            " ⇒ [",
+            {
+              "text": "Ἢ",
+              "script": "G"
+            },
+            "] ",
+            {
+              "text": "οὐκ",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " οἴδατε",
         "script": "G",
         "strong": "G1492",
@@ -35655,6 +35677,23 @@
         },
         "strong": "G2545",
         "morph": "V-FPI-1S"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "καυθήσωμαι",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "καυχήσωμαι",
+              "script": "G"
+            }
+          ]
+        }
       },
       {
         "text": " ἀγάπην",

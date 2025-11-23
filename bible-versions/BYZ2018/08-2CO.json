@@ -5263,6 +5263,23 @@
         "morph": "A-NPM"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "λοιποί",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "πολλοί",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " καπηλεύοντες",
         "script": "G",
         "strong": "G2585",
@@ -5348,12 +5365,12 @@
           "content": [
             "N ",
             {
-              "text": "λοιποί",
+              "text": "κατενώπιον τοῦ",
               "script": "G"
             },
             " ⇒ ",
             {
-              "text": "πολλοί",
+              "text": "κατέναντι",
               "script": "G"
             }
           ]
@@ -15528,6 +15545,57 @@
         "morph": "PREP"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "B ",
+            {
+              "text": "εἵνεκεν",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ἕνεκεν",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "B ",
+            {
+              "text": "εἵνεκεν",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ἕνεκεν",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "οὐχ εἵνεκεν",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "οὐχ ἕνεκεν",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " τοῦ",
         "script": "G",
         "strong": "G3588",
@@ -15553,12 +15621,12 @@
           "content": [
             "N ",
             {
-              "text": "οὐχ εἵνεκεν",
+              "text": "οὐδὲ εἵνεκεν",
               "script": "G"
             },
             " ⇒ ",
             {
-              "text": "οὐχ ἕνεκεν",
+              "text": "οὐδὲ ἕνεκεν",
               "script": "G"
             }
           ]
@@ -15590,14 +15658,14 @@
         "foot": {
           "type": "var",
           "content": [
-            "B ",
+            "N ",
             {
-              "text": "εἵνεκεν",
+              "text": "ἀλλ’ εἵνεκεν",
               "script": "G"
             },
             " ⇒ ",
             {
-              "text": "ἕνεκεν",
+              "text": "ἀλλ’ ἕνεκεν",
               "script": "G"
             }
           ]
@@ -15765,8 +15833,6 @@
         "morph": "P-2GP"
       },
       {
-        "text": " περισσοτέρως",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -15781,7 +15847,11 @@
               "script": "G"
             }
           ]
-        },
+        }
+      },
+      {
+        "text": " περισσοτέρως",
+        "script": "G",
         "strong": "G4057",
         "morph": "ADV-C"
       },
@@ -23705,6 +23775,23 @@
         },
         "strong": "G430",
         "morph": "V-INI-2P"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἠνείχεσθε",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ἀνέχεσθε",
+              "script": "G"
+            }
+          ]
+        }
       }
     ]
   },

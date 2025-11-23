@@ -3395,6 +3395,23 @@
         "morph": "ADV"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ὡσεὶ",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ὡς",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " περιστερὰν",
         "script": "G",
         "strong": "G4058",
@@ -11953,6 +11970,23 @@
         "morph": "N-PRI"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "Σαλήμ",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "Σαλείμ",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ὅτι",
         "script": "G",
         "strong": "G3754",
@@ -19374,6 +19408,23 @@
         "morph": "V-IAI-3S"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἔμελλεν",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ἤμελλεν",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " γὰρ",
         "script": "G",
         "strong": "G1063",
@@ -20412,6 +20463,19 @@
         "morph": "T-NSF"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἡ",
+              "script": "G"
+            },
+            " ⇒ -"
+          ]
+        }
+      },
+      {
         "text": " ἑορτὴ",
         "script": "G",
         "strong": "G1859",
@@ -20449,7 +20513,7 @@
           "content": [
             "N ",
             {
-              "text": "ἡ",
+              "text": "ὁ",
               "script": "G"
             },
             " ⇒ -"
@@ -20880,6 +20944,10 @@
       {
         "text": " νοσήματι.",
         "script": "G",
+        "foot": {
+          "type": "var",
+          "content": "N ~"
+        },
         "strong": "G3553",
         "morph": "N-DSN"
       }
@@ -22165,6 +22233,23 @@
         },
         "strong": "G4771",
         "morph": "P-2DS"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "τί σοι",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "σοί τι",
+              "script": "G"
+            }
+          ]
+        }
       },
       {
         "text": " γένηται.",
@@ -26116,6 +26201,23 @@
         "morph": "N-DSM"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "Μωσῇ",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "Μωϋσεῖ",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ἐπιστεύετε",
         "script": "G",
         "strong": "G4100",
@@ -27358,6 +27460,23 @@
         "morph": "V-2AAI-3P"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "Ἀνέπεσον",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "Ἀνέπεσαν",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " οὖν",
         "script": "G",
         "strong": "G3767",
@@ -27395,12 +27514,12 @@
           "content": [
             "N ",
             {
-              "text": "Ἀνέπεσον",
+              "text": "ὡσεὶ",
               "script": "G"
             },
             " ⇒ ",
             {
-              "text": "Ἀνέπεσαν",
+              "text": "ὡς",
               "script": "G"
             }
           ]
@@ -31348,6 +31467,28 @@
         "morph": "T-DSF"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "τῇ",
+              "script": "G"
+            },
+            " ⇒ [",
+            {
+              "text": "ἐν",
+              "script": "G"
+            },
+            "] ",
+            {
+              "text": "τῇ",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ἐσχάτῃ",
         "script": "G",
         "strong": "G2078",
@@ -34014,6 +34155,23 @@
         },
         "strong": "G2198",
         "morph": "V-FDI-3S"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ζήσεται",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ζήσει",
+              "script": "G"
+            }
+          ]
+        }
       },
       {
         "text": " εἰς",
@@ -40253,6 +40411,23 @@
         "morph": "R-GSN"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "οὗ",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ὃ",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ἔμελλον",
         "script": "G",
         "strong": "G3195",
@@ -40278,12 +40453,12 @@
           "content": [
             "N ",
             {
-              "text": "οὗ",
+              "text": "πιστεύοντες",
               "script": "G"
             },
             " ⇒ ",
             {
-              "text": "ὃ",
+              "text": "πιστεύσαντες",
               "script": "G"
             }
           ]
@@ -40335,14 +40510,10 @@
           "content": [
             "N ",
             {
-              "text": "πιστεύοντες",
+              "text": "ἅγιον",
               "script": "G"
             },
-            " ⇒ ",
-            {
-              "text": "πιστεύσαντες",
-              "script": "G"
-            }
+            " ⇒ -"
           ]
         },
         "strong": "G40",
@@ -41832,11 +42003,12 @@
               "text": "Καὶ",
               "script": "G"
             },
-            " ⇒ [[",
+            " ⇒ [",
             {
               "text": "Καὶ",
               "script": "G"
-            }
+            },
+            "]"
           ]
         },
         "strong": "G2532",
@@ -42333,6 +42505,23 @@
         "morph": "A-DSN"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "αὐτοφόρῳ",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "αὐτοφώρῳ",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " μοιχευομένη.",
         "script": "G",
         "strong": "G3431",
@@ -42391,6 +42580,23 @@
         "morph": "N-NSM"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "Μωσῆς ἡμῖν",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ἡμῖν Μωϋσῆς",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ἡμῖν",
         "script": "G",
         "strong": "G1473",
@@ -42422,12 +42628,12 @@
           "content": [
             "N ",
             {
-              "text": "Μωσῆς ἡμῖν",
+              "text": "λιθοβολεῖσθαι",
               "script": "G"
             },
             " ⇒ ",
             {
-              "text": "ἡμῖν Μωϋσῆς",
+              "text": "λιθάζειν",
               "script": "G"
             }
           ]
@@ -42584,6 +42790,23 @@
         "morph": "V-IAI-3S"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἔγραφεν",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "κατέγραφεν",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " εἰς",
         "script": "G",
         "strong": "G1519",
@@ -42609,14 +42832,10 @@
           "content": [
             "N ",
             {
-              "text": "ἔγραφεν",
+              "text": "μὴ προσποιούμενος",
               "script": "G"
             },
-            " ⇒ ",
-            {
-              "text": "κατέγραφεν",
-              "script": "G"
-            }
+            " ⇒ -"
           ]
         },
         "strong": "G3361",
@@ -42744,6 +42963,23 @@
         "morph": "ADV-S"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "πρῶτον",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "πρῶτος",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ἐπ’",
         "script": "G",
         "strong": "G1909",
@@ -42761,20 +42997,33 @@
         "foot": {
           "type": "var",
           "content": [
-            "N ",
+            "B ",
             {
-              "text": "πρῶτον",
+              "text": "τὸν",
               "script": "G"
             },
-            " ⇒ ",
-            {
-              "text": "πρῶτος",
-              "script": "G"
-            }
+            " ⇒ -"
           ]
         },
         "strong": "G3588",
         "morph": "T-ASM"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "τὸν λίθον βαλέτω",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "βαλέτω λίθον",
+              "script": "G"
+            }
+          ]
+        }
       },
       {
         "text": " λίθον",
@@ -42790,10 +43039,14 @@
           "content": [
             "B ",
             {
-              "text": "τὸν",
+              "text": "βαλέτω",
               "script": "G"
             },
-            " ⇒ -"
+            " ⇒ ",
+            {
+              "text": "βαλλέτω",
+              "script": "G"
+            }
           ]
         },
         "strong": "G906",
@@ -50873,6 +51126,28 @@
         },
         "strong": "G455",
         "morph": "V-API-3P"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἀνεῴχθησάν",
+              "script": "G"
+            },
+            " ⇒ [",
+            {
+              "text": "οὖν",
+              "script": "G"
+            },
+            "] ",
+            {
+              "text": "ἠνεῴχθησάν",
+              "script": "G"
+            }
+          ]
+        }
       },
       {
         "text": " σου",
@@ -59683,6 +59958,28 @@
         },
         "strong": "G3767",
         "morph": "CONJ"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "οὖν πάλιν αὐτὸν",
+              "script": "G"
+            },
+            " ⇒ [",
+            {
+              "text": "οὖν",
+              "script": "G"
+            },
+            "] ",
+            {
+              "text": "αὐτὸν πάλιν",
+              "script": "G"
+            }
+          ]
+        }
       },
       {
         "text": " πάλιν",
@@ -78355,19 +78652,13 @@
               "text": "καὶ ἑτοιμάσω",
               "script": "G"
             },
-            " = ",
-            {
-              "text": "ἑτοιμάσαι",
-              "script": "G"
-            }
+            " = E(TOIMA/SAI"
           ]
         },
         "strong": "G2090",
         "morph": "V-FAI-1S"
       },
       {
-        "text": " ὑμῖν",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -78379,6 +78670,25 @@
             " ⇒ ",
             {
               "text": "καὶ ἑτοιμάσω",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
+        "text": " ὑμῖν",
+        "script": "G",
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ὑμῖν τόπον",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "τόπον ὑμῖν",
               "script": "G"
             }
           ]
@@ -78418,12 +78728,12 @@
           "content": [
             "N ",
             {
-              "text": "ὑμῖν τόπον",
+              "text": "παραλήψομαι",
               "script": "G"
             },
             " ⇒ ",
             {
-              "text": "τόπον ὑμῖν",
+              "text": "παραλήμψομαι",
               "script": "G"
             }
           ]
@@ -93324,6 +93634,23 @@
         "morph": "V-AAI-2S"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἔδωκάς",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "δέδωκάς",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " μοι,",
         "script": "G",
         "strong": "G1473",
@@ -97986,6 +98313,23 @@
         },
         "strong": "G3195",
         "morph": "V-IAI-3S"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἔμελλεν",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ἤμελλεν",
+              "script": "G"
+            }
+          ]
+        }
       },
       {
         "text": " ἀποθνῄσκειν.",
@@ -103157,6 +103501,23 @@
         "morph": "V-2AMM-2S"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἰδοὺ",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ἴδε",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ὁ",
         "script": "G",
         "strong": "G3588",
@@ -104366,8 +104727,6 @@
         "morph": "V-PAI-3S"
       },
       {
-        "text": " αὐτοῦ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -104382,7 +104741,11 @@
               "script": "G"
             }
           ]
-        },
+        }
+      },
+      {
+        "text": " αὐτοῦ",
+        "script": "G",
         "strong": "G846",
         "morph": "P-GSM"
       },
@@ -106617,14 +106980,6 @@
         "morph": "PREP"
       },
       {
-        "text": " τὸ",
-        "script": "G",
-        "strong": "G3588",
-        "morph": "T-ASN"
-      },
-      {
-        "text": " μνημεῖον",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -106639,7 +106994,17 @@
               "script": "G"
             }
           ]
-        },
+        }
+      },
+      {
+        "text": " τὸ",
+        "script": "G",
+        "strong": "G3588",
+        "morph": "T-ASN"
+      },
+      {
+        "text": " μνημεῖον",
+        "script": "G",
         "strong": "G3419",
         "morph": "N-ASN"
       },
