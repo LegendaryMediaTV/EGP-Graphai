@@ -201,13 +201,13 @@ function ContentNode({ node, settings, onFootnoteClick }) {
         {isBlock && <span className="block mt-4 w-full"></span>}
         <span
           className={`inline ${scriptClass}`}
-          dir={node.script === "H" ? "rtl" : "ltr"}
+          {...(node.script === "H" ? { dir: "rtl" } : {})}
         >
           {content}
           {parsingSpan}
-          {footnote}
           {node.break && <br />}
         </span>
+        {footnote}
       </React.Fragment>
     );
   }
