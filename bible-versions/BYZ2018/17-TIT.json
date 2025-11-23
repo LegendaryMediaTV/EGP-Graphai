@@ -1821,6 +1821,23 @@
         "morph": "A-APM"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "νηφαλέους",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "νηφαλίους",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " εἶναι,",
         "script": "G",
         "strong": "G1510",

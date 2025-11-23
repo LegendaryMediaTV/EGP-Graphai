@@ -9777,6 +9777,23 @@
         "morph": "V-FDI-3S"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἔσται",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "ἐστε",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ἡ",
         "script": "G",
         "strong": "G3588",
@@ -9814,14 +9831,10 @@
           "content": [
             "N ",
             {
-              "text": "ἔσται",
+              "text": "δὲ",
               "script": "G"
             },
-            " ⇒ ",
-            {
-              "text": "ἐστε",
-              "script": "G"
-            }
+            " ⇒ -"
           ]
         },
         "strong": "G1161",
@@ -11361,6 +11374,23 @@
         "morph": "V-2AAM-2P"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "ἴδετε",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "εἴδετε",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ὅτι",
         "script": "G",
         "strong": "G3754",
@@ -11380,12 +11410,12 @@
           "content": [
             "N ",
             {
-              "text": "ἴδετε",
+              "text": "ἐστιν",
               "script": "G"
             },
             " ⇒ ",
             {
-              "text": "εἴδετε",
+              "text": "ἐστιν ὁ κύριος",
               "script": "G"
             }
           ]

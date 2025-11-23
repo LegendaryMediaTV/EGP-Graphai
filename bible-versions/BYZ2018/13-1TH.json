@@ -6666,6 +6666,23 @@
         "morph": "V-2AAI-1P"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "προείπομεν",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "προείπαμεν",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " ὑμῖν",
         "script": "G",
         "strong": "G4771",

@@ -620,8 +620,6 @@
         "morph": "P-2AP"
       },
       {
-        "text": " ἅπαξ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -636,7 +634,11 @@
               "script": "G"
             }
           ]
-        },
+        }
+      },
+      {
+        "text": " ἅπαξ",
+        "script": "G",
         "strong": "G530",
         "morph": "ADV"
       },
@@ -2440,20 +2442,6 @@
         "morph": "CONJ"
       },
       {
-        "text": " ἐν",
-        "script": "G",
-        "strong": "G1722",
-        "morph": "PREP"
-      },
-      {
-        "text": " ἐσχάτῳ",
-        "script": "G",
-        "strong": "G2078",
-        "morph": "A-DSM-S"
-      },
-      {
-        "text": " χρόνῳ",
-        "script": "G",
         "foot": {
           "type": "var",
           "content": [
@@ -2468,7 +2456,23 @@
               "script": "G"
             }
           ]
-        },
+        }
+      },
+      {
+        "text": " ἐν",
+        "script": "G",
+        "strong": "G1722",
+        "morph": "PREP"
+      },
+      {
+        "text": " ἐσχάτῳ",
+        "script": "G",
+        "strong": "G2078",
+        "morph": "A-DSM-S"
+      },
+      {
+        "text": " χρόνῳ",
+        "script": "G",
         "strong": "G5550",
         "morph": "N-DSM"
       },
