@@ -5538,6 +5538,23 @@
         "morph": "X-NPM"
       },
       {
+        "foot": {
+          "type": "var",
+          "content": [
+            "N ",
+            {
+              "text": "Τινὲς",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "Τίνες",
+              "script": "G"
+            }
+          ]
+        }
+      },
+      {
         "text": " γὰρ",
         "script": "G",
         "strong": "G1063",

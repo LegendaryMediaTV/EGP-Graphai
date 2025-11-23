@@ -6654,6 +6654,24 @@
         },
         "strong": "G2618",
         "morph": "V-2FPI-3S"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "E ",
+            {
+              "text": "κατακαήσεται",
+              "script": "G"
+            },
+            " ⇒ ",
+            {
+              "text": "οὐχ εὑρεθήσεται",
+              "script": "G"
+            },
+            " (cj)"
+          ]
+        }
       }
     ]
   },
@@ -7720,6 +7738,19 @@
         },
         "strong": "G281",
         "morph": "HEB"
+      },
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "E ",
+            {
+              "text": "Ἀμήν",
+              "script": "G"
+            },
+            " ⇒ -"
+          ]
+        }
       }
     ]
   }
