@@ -1,5 +1,6 @@
 interface BBResult {
-  text: string;
+  text?: string;
+  subtitle?: { text: string; footnotes?: { text: string; type?: string }[] };
   paragraphs?: number[];
   footnotes?: { type?: string; text: string }[];
 }
@@ -12,6 +13,7 @@ export function convertGraphaiToBB(content: any): BBResult {
 
   // Handle arrays - process each element and concatenate
   if (Array.isArray(content)) {
+    const result: BBResult = {};
     let text = "";
     const paragraphs: number[] = [];
     const footnotes: { type?: string; text: string }[] = [];
@@ -20,6 +22,8 @@ export function convertGraphaiToBB(content: any): BBResult {
     for (let i = 0; i < content.length; i++) {
       const item = content[i];
       const itemResult = convertGraphaiToBB(item);
+
+      if (!itemResult.text) itemResult.text = "";
 
       // Check if this item starts with a strongs tag
       const startsWithStrongs = itemResult.text.trim().startsWith("[strongs");
@@ -57,6 +61,11 @@ export function convertGraphaiToBB(content: any): BBResult {
       // Append text
       text += itemResult.text;
 
+      // If item has subtitle, set it
+      if (itemResult.subtitle) {
+        result.subtitle = itemResult.subtitle;
+      }
+
       // Add space after subtitle
       if (itemResult.text && itemResult.text.endsWith("»")) {
         text += " ";
@@ -71,7 +80,7 @@ export function convertGraphaiToBB(content: any): BBResult {
       }
     }
 
-    const result: BBResult = { text };
+    result.text = text;
     if (paragraphs.length > 0) result.paragraphs = paragraphs;
     if (footnotes.length > 0) result.footnotes = footnotes;
     return result;
@@ -79,15 +88,25 @@ export function convertGraphaiToBB(content: any): BBResult {
 
   // Handle objects
   if (typeof content === "object" && content !== null) {
-    // Drop unsupported features
+    // Handle heading
     if (content.heading) {
-      return { text: "" };
+      const headingResult = convertGraphaiToBB(content.heading);
+      return { text: `[heading]${headingResult.text}[/heading]` };
     }
 
     // Handle subtitle
     if (content.subtitle !== undefined) {
-      const subtitleResult = convertGraphaiToBB(content.subtitle);
-      return { text: `«${subtitleResult.text}»` };
+      const subResult = convertGraphaiToBB(content.subtitle);
+      const subtitle: {
+        text: string;
+        footnotes?: { text: string; type?: string }[];
+      } = {
+        text: subResult.text || "",
+      };
+      if (subResult.footnotes && subResult.footnotes.length > 0) {
+        subtitle.footnotes = subResult.footnotes;
+      }
+      return { subtitle };
     }
 
     let text = "";

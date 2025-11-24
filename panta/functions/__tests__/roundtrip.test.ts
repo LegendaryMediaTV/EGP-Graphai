@@ -40,7 +40,13 @@ describe("Round-trip conversion", () => {
         }
       );
 
-      const expectedBB: any = { text: normalizedSample.text };
+      // Extract subtitle from text if present
+      const subtitleMatch = normalizedSample.text.match(/^«(.*?)»(?:\s|$)/);
+      let expectedBB: any = { text: normalizedSample.text };
+      if (subtitleMatch) {
+        expectedBB.subtitle = { text: subtitleMatch[1] };
+        expectedBB.text = expectedBB.text.substring(subtitleMatch[0].length);
+      }
       if (sample.paragraphs) expectedBB.paragraphs = sample.paragraphs;
       if (sample.footnotes) expectedBB.footnotes = sample.footnotes;
 

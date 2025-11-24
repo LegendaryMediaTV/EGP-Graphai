@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "_id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+-[0-9]+$"
+      },
+      "version": {
+        "type": "string",
+        "minLength": 1
+      },
+      "chapter": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+-[0-9]+$"
+      },
+      "sequence": {
+        "type": "string",
+        "pattern": "^[0-9]+$"
+      },
+      "number": {
+        "type": "number",
+        "minimum": 1
+      },
+      "text": {
+        "type": "string"
+      },
+      "paragraphs": {
+        "type": "array",
+        "items": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "footnotes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string",
+              "enum": ["trn", "var", "xrf", "map", "stu"]
+            }
+          },
+          "required": ["text"],
+          "additionalProperties": false
+        }
+      },
+      "subtitle": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "footnotes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": ["trn", "var", "xrf", "map", "stu"]
+                }
+              },
+              "required": ["text"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["text"],
+        "additionalProperties": false
+      }
+    },
+    "required": ["_id", "version", "chapter", "sequence", "number", "text"],
+    "additionalProperties": false
+  }
+}

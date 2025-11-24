@@ -40,9 +40,31 @@ export function convertBBToGraphai(bb: {
   footnotes?: { type?: string; text: string }[];
   heading?: string;
   headingFootnote?: { type?: string; text: string };
+  subtitle?: { text: string; footnotes?: { type?: string; text: string }[] };
 }): any[] {
   const footnotes = bb.footnotes ? [...bb.footnotes] : [];
 
+  // Handle subtitle sub-object (new format)
+  if (bb.subtitle) {
+    const subtitleContent = parseBBText(
+      bb.subtitle.text,
+      bb.subtitle.footnotes || []
+    );
+    const mergedSubtitle = mergeConsecutiveStrings(subtitleContent);
+    const subtitleElement = {
+      subtitle:
+        mergedSubtitle.length === 1 && typeof mergedSubtitle[0] === "string"
+          ? mergedSubtitle[0]
+          : mergedSubtitle,
+    };
+    // Add subtitle footnotes to the main footnotes array
+    if (bb.subtitle.footnotes) {
+      footnotes.push(...bb.subtitle.footnotes);
+    }
+    return [subtitleElement, ...parseBBText(bb.text, footnotes)];
+  }
+
+  // Fallback to legacy subtitle parsing from text
   // Inject paragraph markers into the text before processing
   // This avoids issues with indices shifting due to preprocessing or parsing
   let textWithMarkers = bb.text;
@@ -341,6 +363,15 @@ function parseBBText(
           } else {
             elements.push({ foot: foot });
           }
+        } else if (tag === "heading") {
+          const headingContent = parseBBText(innerText, []);
+          const mergedHeading = mergeConsecutiveStrings(headingContent);
+          elements.push({
+            heading:
+              mergedHeading.length === 1 && typeof mergedHeading[0] === "string"
+                ? mergedHeading[0]
+                : mergedHeading,
+          });
         } else if (
           tag === "i" ||
           tag === "b" ||

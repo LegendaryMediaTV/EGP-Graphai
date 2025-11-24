@@ -12,9 +12,10 @@ BB format consists of three primary parts:
 
 ```typescript
 interface BBVerse {
+  subtitle?: { text: string; footnotes?: { text: string; type?: string }[] }; // Subtitle sub-object with optional footnotes G (referenced by ° marker in `text`)
   text: string; // Main content with BB markup tags
   paragraphs?: number[]; // Character positions where paragraphs begin (0-indexed)
-  footnotes?: { text: string; type?: string }[]; // Footnote content (referenced by ° marker)
+  footnotes?: { type?: string; text: string }[]; // Footnote content (referenced by ° marker in `text`)
 }
 ```
 
@@ -47,6 +48,7 @@ BB uses bracket-based tags similar to BBCode:
 - `[b]text[/b]` - Bold text (maps to `marks: ["b"]`)
 - `[sc]text[/sc]` - Small caps (maps to `marks: ["sc"]`)
 - `[red]text[/red]` - Words of Christ (maps to `marks: ["woc"]`)
+- `[heading]text[/heading]` - Section heading (maps to `{ heading: [...] }`)
 
 #### 3. Lexical Tags (Strong's & Morphology)
 
@@ -93,7 +95,7 @@ In [strongs id="g1722" /] the beginning [strongs id="g746" /]
 [greek]λόγος,[/greek] [strongs id="g3056" m="N-NSM" /]
 ```
 
-#### 4. Subtitle Markers (Psalm Inscriptions)
+#### 4. Subtitle Markers (deprecated)
 
 **Format:** `«text»` (guillemets U+00AB and U+00BB, followed by a space)
 
@@ -112,7 +114,34 @@ In [strongs id="g1722" /] the beginning [strongs id="g746" /]
 - Not a BB tag type—just special characters in the text
 - In Graphai: Preserved as plain text within the content array
 
-#### 5. Italicized/Supplied Words
+#### 5. Subtitles Sub-object (preferred over markers)
+
+**Format:** `subtitle` sub-object with text and optional footnotes array
+
+**Usage:** Subtitle content for verses with support for multiple footnotes
+
+**Example:**
+
+```json
+{
+  "subtitle": {
+    "text": "A Psalm by David, when he fled from Absalom his son.",
+    "footnotes": [
+      { "type": "stu", "text": "First explanatory note" },
+      { "type": "var", "text": "Second note" }
+    ]
+  }
+}
+```
+
+**Key Points:**
+
+- Optional sub-object at verse level
+- Contains plain text and array of footnotes
+- Supports multiple footnotes unlike legacy format
+- In Graphai: Maps directly to `subtitle` content
+
+#### 6. Italicized/Supplied Words
 
 **Format:** `[word]` - literal square brackets in text (NOT BB markup)
 
@@ -162,25 +191,25 @@ In [strongs id="g1722" /] the beginning [strongs id="g746" /]
 
 ## Graphai Schema Comparison
 
-| Feature                 | BB Format                             | Graphai Format                     | Notes                               |
-| ----------------------- | ------------------------------------- | ---------------------------------- | ----------------------------------- |
-| **Plain Text**          | String in `.text`                     | String or `{ text: "..." }`        | Graphai more flexible               |
-| **Greek Text**          | `[greek]Λόγος[/greek]`                | `{ text: "Λόγος", script: "G" }`   |                                     |
-| **Hebrew Text**         | `[hebrew]...[/hebrew]`                | `{ text: "...", script: "H" }`     |                                     |
-| **Italic**              | `[i]text[/i]`                         | `{ text: "text", marks: ["i"] }`   |                                     |
-| **Bold**                | `[b]text[/b]`                         | `{ text: "text", marks: ["b"] }`   |                                     |
-| **Small Caps**          | `[sc]text[/sc]`                       | `{ text: "text", marks: ["sc"] }`  |                                     |
-| **Words of Christ**     | `[red]text[/red]`                     | `{ text: "text", marks: ["woc"] }` |                                     |
-| **Strong's Number**     | `id="g1234"` (lowercase)              | `strong: "G1234"` (uppercase)      | Case conversion, no zero-padding    |
-| **Morphology (Greek)**  | `m="D-NSM"` or `tvm="PresActInd"`     | `morph: "D-NSM"`                   | Single morph field                  |
-| **Morphology (Hebrew)** | `tvm="8804"`                          | `morph: "8804"`                    | Numeric codes preserved             |
-| **Morphology Dual**     | `tvm="..." tvm2="..."`                | `morph: ".../..."`                 | Slash separator for ambiguous forms |
-| **Paragraphs**          | `paragraphs: [0, 156]` (char offsets) | `paragraph: true` on element       | Position-based → marker-based       |
-| **Line Breaks**         | `\n` in text                          | `break: true` on element           | Structural conversion               |
-| **Footnotes**           | `°` + separate array                  | `foot: { content: [...] }` inline  | Externalized → inline               |
-| **Subtitles**           | `«text»` in text                      | String in content array            | Preserved as plain text             |
-| **Headings**            | ❌ Not supported                      | `{ heading: [...] }`               | Graphai-only feature                |
-| **Supplied Words**      | `[was]` literal brackets              | `"[was]"` in text                  | Preserved as-is                     |
+| Feature                 | BB Format                                      | Graphai Format                     | Notes                               |
+| ----------------------- | ---------------------------------------------- | ---------------------------------- | ----------------------------------- |
+| **Plain Text**          | String in `.text`                              | String or `{ text: "..." }`        | Graphai more flexible               |
+| **Greek Text**          | `[greek]Λόγος[/greek]`                         | `{ text: "Λόγος", script: "G" }`   |                                     |
+| **Hebrew Text**         | `[hebrew]...[/hebrew]`                         | `{ text: "...", script: "H" }`     |                                     |
+| **Italic**              | `[i]text[/i]`                                  | `{ text: "text", marks: ["i"] }`   |                                     |
+| **Bold**                | `[b]text[/b]`                                  | `{ text: "text", marks: ["b"] }`   |                                     |
+| **Small Caps**          | `[sc]text[/sc]`                                | `{ text: "text", marks: ["sc"] }`  |                                     |
+| **Words of Christ**     | `[red]text[/red]`                              | `{ text: "text", marks: ["woc"] }` |                                     |
+| **Strong's Number**     | `id="g1234"` (lowercase)                       | `strong: "G1234"` (uppercase)      | Case conversion, no zero-padding    |
+| **Morphology (Greek)**  | `m="D-NSM"` or `tvm="PresActInd"`              | `morph: "D-NSM"`                   | Single morph field                  |
+| **Morphology (Hebrew)** | `tvm="8804"`                                   | `morph: "8804"`                    | Numeric codes preserved             |
+| **Morphology Dual**     | `tvm="..." tvm2="..."`                         | `morph: ".../..."`                 | Slash separator for ambiguous forms |
+| **Paragraphs**          | `paragraphs: [0, 156]` (char offsets)          | `paragraph: true` on element       | Position-based → marker-based       |
+| **Line Breaks**         | `\n` in text                                   | `break: true` on element           | Structural conversion               |
+| **Footnotes**           | `°` + separate array                           | `foot: { content: [...] }` inline  | Externalized → inline               |
+| **Subtitles**           | `subtitle` and `subtitleFootnotes` sub-objects | `subtitle` content                 |                                     |
+| **Headings**            | `[heading]text[/heading]` in text              | `{ heading: [...] }`               |                                     |
+| **Supplied Words**      | `[was]` literal brackets                       | `"[was]"` in text                  | Preserved as-is                     |
 
 **Key Concept: Whitespace Handling**
 
@@ -207,7 +236,8 @@ Spaces are part of the text content, not special parsing tokens. Tags wrap their
    - Otherwise → Opening tag
 3. **Supplied Words:** If tag doesn't match known types, treat as literal text
 4. **Footnote Markers:** Process `°` symbols and correlate with footnotes array
-5. **Subtitle Markers:** Detect `«` at start, parse until `»`, preserve as plain text
+5. **Heading Tags:** `[heading]...[/heading]` maps to Graphai heading content
+6. **Subtitle Sub-object:** `subtitle` field maps to Graphai subtitle content
 
 ### Paragraph Position Calculation
 
@@ -237,11 +267,15 @@ Dual morphology codes indicate ambiguous word forms. Concatenate with "/" separa
 
 ## Graphai → BB Conversion Logic
 
+### Supported Features
+
+- `subtitle` content → `subtitle` sub-object with footnotes
+- `heading` content → `[heading]...[/heading]` in text (footnotes stored along with text footnotes)
+
 ### Unsupported Features
 
 When converting Graphai → BB:
 
-- `{ heading: [...] }` - **Dropped** (not supported in BB)
 - Wrapper objects like `{ paragraph: [...] }` - Unwrapped, content processed
 
 ### Strong's Number Normalization
@@ -363,12 +397,11 @@ The conversion is designed for **lossless conversion of supported features**, wi
 
 ### Unsupported Features
 
-- **Headings:** Silently dropped during BB export
 - **TVM2 Morphology:** Secondary morphology code may not round-trip perfectly
 - **Paragraph Positions:** Character positions may shift slightly due to spacing
 
 ### Recommended Usage
 
 - **BB → Graphai:** Full fidelity for supported features
-- **Graphai → BB:** Acceptable data loss for unsupported features (headings)
+- **Graphai → BB:** Full fidelity for supported features
 - **Round-trip:** Expect minor formatting differences, not data loss

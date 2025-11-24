@@ -449,13 +449,13 @@ describe("convertGraphaiToBB", () => {
       expect(convertGraphaiToBB(input)).toEqual(expected);
     });
 
-    it("should drop unsupported features like headings", () => {
+    it("should convert headings to BB tags", () => {
       const input = [
         { heading: [{ text: "Chapter 1" }] },
         { text: "Some content" },
       ];
       const expected = {
-        text: "Some content",
+        text: "[heading]Chapter 1[/heading]Some content",
       };
       expect(convertGraphaiToBB(input)).toEqual(expected);
     });
@@ -557,28 +557,69 @@ describe("convertGraphaiToBB", () => {
 
   describe("Subtitles", () => {
     it("should convert subtitle object to BB format", () => {
-      const input = {
-        subtitle: [
-          { text: "A Psalm", strong: "H4210" },
-          { text: " of David", strong: "H1732" },
-          ".",
-        ],
-      };
+      const input = [
+        {
+          subtitle: [
+            { text: "A Psalm", strong: "H4210" },
+            { text: " of David", strong: "H1732" },
+            ".",
+          ],
+        },
+        { text: "O LORD", strong: "H3068" },
+        { text: " my God", strong: "H430" },
+        ".",
+      ];
 
       const expected = {
-        text: '«A Psalm [strongs id="h4210" /] of David [strongs id="h1732" /].»',
+        subtitle: {
+          text: 'A Psalm [strongs id="h4210" /] of David [strongs id="h1732" /].',
+        },
+        text: 'O LORD [strongs id="h3068" /] my God [strongs id="h430" /].',
       };
 
       expect(convertGraphaiToBB(input)).toEqual(expected);
     });
 
     it("should convert simple subtitle string to BB format", () => {
-      const input = {
-        subtitle: "A Psalm of David.",
-      };
+      const input = [
+        { subtitle: "A Psalm of David." },
+        { text: "O LORD", strong: "H3068" },
+        { text: " my God", strong: "H430" },
+        ".",
+      ];
 
       const expected = {
-        text: "«A Psalm of David.»",
+        subtitle: {
+          text: "A Psalm of David.",
+        },
+        text: 'O LORD [strongs id="h3068" /] my God [strongs id="h430" /].',
+      };
+
+      expect(convertGraphaiToBB(input)).toEqual(expected);
+    });
+
+    it("should convert subtitle with footnotes to BB format", () => {
+      const input = [
+        {
+          subtitle: [
+            {
+              text: "A Psalm",
+              strong: "H4210",
+              foot: { content: "A musical term", type: "stu" },
+            },
+            { text: " of David", strong: "H1732" },
+            ".",
+          ],
+        },
+        { text: "O LORD", strong: "H3068" },
+      ];
+
+      const expected = {
+        subtitle: {
+          text: 'A Psalm [strongs id="h4210" /]° of David [strongs id="h1732" /].',
+          footnotes: [{ text: "A musical term", type: "stu" }],
+        },
+        text: 'O LORD [strongs id="h3068" /]',
       };
 
       expect(convertGraphaiToBB(input)).toEqual(expected);
