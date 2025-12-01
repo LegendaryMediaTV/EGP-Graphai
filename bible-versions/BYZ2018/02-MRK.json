@@ -12283,7 +12283,8 @@
         "morph": "P-ASM"
       },
       {
-        "text": " Καὶ",
+        "paragraph": true,
+        "text": "Καὶ",
         "script": "G",
         "foot": {
           "type": "var",
@@ -25885,7 +25886,8 @@
         "morph": "P-GPM"
       },
       {
-        "text": " Καὶ",
+        "paragraph": true,
+        "text": "Καὶ",
         "script": "G",
         "strong": "G2532",
         "morph": "CONJ"
