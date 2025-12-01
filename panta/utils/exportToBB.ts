@@ -2,6 +2,7 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { execSync } from "child_process";
 import { convertGraphaiToBB } from "../functions/convertGraphaiToBB";
 import { crosswalkVersionID } from "../functions/crosswalkVersionID";
 import { crosswalkBookSequence } from "../functions/crosswalkBookSequence";
@@ -13,16 +14,28 @@ interface ExportOptions {
 }
 
 // Helper function to extract subtitle from content
-function extractSubtitle(content: any[]): {
-  subtitle?: { text: string; footnotes?: { text: string; type?: string }[] };
+function extractSubtitle(content: any): {
+  subtitle?: { text: string; footnotes?: { type?: string; text: string }[] };
   cleanedContent: any[];
 } {
   let subtitle:
-    | { text: string; footnotes?: { text: string; type?: string }[] }
+    | { text: string; footnotes?: { type?: string; text: string }[] }
     | undefined;
   const cleanedContent: any[] = [];
 
-  for (const item of content) {
+  // Normalize content to array
+  let contentArray: any[];
+  if (Array.isArray(content)) {
+    contentArray = content;
+  } else if (typeof content === "object" && content !== null) {
+    contentArray = [content];
+  } else if (typeof content === "string") {
+    contentArray = [{ text: content }];
+  } else {
+    contentArray = [];
+  }
+
+  for (const item of contentArray) {
     if (
       typeof item === "object" &&
       item !== null &&
@@ -43,8 +56,8 @@ function extractSubtitle(content: any[]): {
         subtitle.footnotes = item.foot.map((foot: any) => {
           const footResult = convertGraphaiToBB(foot.content);
           return {
-            text: footResult.text,
             type: foot.type,
+            text: footResult.text || "",
           };
         });
       }
@@ -217,7 +230,7 @@ const bookAbbrevToName: Record<string, string> = {
   PSA: "psalms",
   PRV: "proverbs",
   ECC: "ecclesiastes",
-  SOS: "song",
+  SOS: "song-of-songs",
   ISA: "isaiah",
   JER: "jeremiah",
   LAM: "lamentations",
@@ -288,16 +301,18 @@ async function exportVersion(
   let selectedBooks: string[] = bookFiles;
 
   if (bookFilter) {
-    // Map book name to sequence
-    const bookSequence = bookNameToSequence[bookFilter.toLowerCase()];
-    if (!bookSequence) {
-      throw new Error(`Book '${bookFilter}' not found`);
+    // Validate book sequence
+    if (!/^\d{3}$/.test(bookFilter)) {
+      throw new Error(
+        `Book sequence must be a 3-digit number (101-139 OT, 201-227 NT), got '${bookFilter}'`
+      );
     }
+    const bookSequence = bookFilter;
 
     // Get book metadata
     const bookMeta = crosswalkBookSequence(bookSequence);
     if (!bookMeta) {
-      throw new Error(`Book metadata not found for '${bookFilter}'`);
+      throw new Error(`Book metadata not found for sequence '${bookFilter}'`);
     }
 
     // Find the specific book file
@@ -320,36 +335,104 @@ async function exportVersion(
   // Sort verses by sequence
   allVerses.sort((a, b) => parseInt(a.sequence) - parseInt(b.sequence));
 
-  // Convert to BB format
-  const bbData = allVerses.map((verse: any) => {
-    // Extract subtitle from content
-    const { subtitle, cleanedContent } = extractSubtitle(verse.content);
+  // Group Graphai verses by book
+  const bookGroups: Record<string, any[]> = {};
+  for (const verse of allVerses) {
+    const bookAbbrev = verse.book;
+    if (!bookGroups[bookAbbrev]) bookGroups[bookAbbrev] = [];
+    bookGroups[bookAbbrev].push(verse);
+  }
 
-    const bbResult = convertGraphaiToBB(cleanedContent);
+  // Write book-based BB files and collect all BB verses
+  const bbVersionDir = path.join(__dirname, "../../exports/bb", versionId);
+  if (!fs.existsSync(bbVersionDir)) {
+    fs.mkdirSync(bbVersionDir, { recursive: true });
+  }
 
-    // Calculate sequence: bookNum * 1000000 + chapter * 1000 + verse
-    const bookSequence = bookAbbrevToSequence[verse.book];
-    const bookNum = parseInt(bookSequence);
-    const sequence = bookNum * 1000000 + verse.chapter * 1000 + verse.verse;
+  const allBBVerses: any[] = [];
 
-    return {
-      _id: `${version}-${sequence}`,
-      version,
-      chapter: `${bookAbbrevToName[verse.book]}-${verse.chapter}`,
-      sequence: sequence.toString(),
-      number: verse.verse,
-      text: bbResult.text,
-      ...(bbResult.paragraphs && { paragraphs: bbResult.paragraphs }),
-      ...(bbResult.footnotes && { footnotes: bbResult.footnotes }),
-      ...(subtitle && { subtitle }),
-    };
-  });
+  for (const [bookAbbrev, bookVerses] of Object.entries(bookGroups)) {
+    console.log(
+      `Exporting book: ${bookAbbrevToName[bookAbbrev] || bookAbbrev}`
+    );
+
+    // Convert book verses to BB format
+    const bbBookVerses = bookVerses.map((verse: any) => {
+      // Extract subtitle from content
+      const { subtitle, cleanedContent } = extractSubtitle(verse.content);
+
+      const bbResult = convertGraphaiToBB(cleanedContent);
+
+      // Calculate sequence: bookNum * 1000000 + chapter * 1000 + verse
+      const bookSequence = bookAbbrevToSequence[verse.book];
+      const bookNum = parseInt(bookSequence);
+      const sequence = bookNum * 1000000 + verse.chapter * 1000 + verse.verse;
+
+      return {
+        _id: `${version}-${sequence}`,
+        version,
+        chapter: `${bookAbbrevToName[verse.book]}-${verse.chapter}`,
+        sequence: sequence.toString(),
+        number: verse.verse,
+        text: bbResult.text,
+        ...(bbResult.footnotes && { footnotes: bbResult.footnotes }),
+        ...(bbResult.paragraphs && { paragraphs: bbResult.paragraphs }),
+        ...(subtitle && { subtitle }),
+      };
+    });
+
+    // Write book file
+    const bookOrder = bookAbbrevToSequence[bookAbbrev];
+    const bookInfo = crosswalkBookSequence(bookOrder.toString());
+    const bookOrderPadded = bookInfo.order.toString().padStart(2, "0");
+    const bookFileName = `${bookOrderPadded}-${bookInfo._id}.json`;
+    const bookFilePath = path.join(bbVersionDir, bookFileName);
+    fs.writeFileSync(
+      bookFilePath,
+      JSON.stringify(bbBookVerses, null, 2) + "\n"
+    );
+
+    // Format with Prettier
+    execSync(`prettier --write "${bookFilePath}"`);
+
+    // Collect for full export
+    allBBVerses.push(...bbBookVerses);
+  }
+
+  // Sort all BB verses by sequence
+  allBBVerses.sort((a, b) => parseInt(a.sequence) - parseInt(b.sequence));
+
+  // Prepare final bbData
+  let bbData: any[];
+  if (bookFilter) {
+    // Single book: merge with existing file
+    const outputPath = path.join(
+      __dirname,
+      "../../exports/bb",
+      `BibleDB.bibleVerses-${version}.json`
+    );
+    let existingVerses: any[] = [];
+    if (fs.existsSync(outputPath)) {
+      existingVerses = JSON.parse(fs.readFileSync(outputPath, "utf-8"));
+    }
+    // Remove existing verses for this book
+    const bookSequencePrefix = bookFilter;
+    existingVerses = existingVerses.filter(
+      (v) => !v.sequence.startsWith(bookSequencePrefix)
+    );
+    // Add new verses
+    bbData = [...existingVerses, ...allBBVerses];
+    bbData.sort((a, b) => parseInt(a.sequence) - parseInt(b.sequence));
+  } else {
+    // Full version: replace
+    bbData = allBBVerses;
+  }
 
   // Validate the output
   const { default: validateBBExport } = await import("./validateBBExport");
   const tempFile = path.join(
     __dirname,
-    "../../exports",
+    "../../exports/bb",
     `BibleDB.bibleVerses-${version}.json.tmp`
   );
   fs.writeFileSync(tempFile, JSON.stringify(bbData, null, 2));
@@ -367,11 +450,15 @@ async function exportVersion(
   // Write to output
   const outputPath = path.join(
     __dirname,
-    "../../exports",
+    "../../exports/bb",
     `BibleDB.bibleVerses-${version}.json`
   );
   fs.writeFileSync(outputPath, JSON.stringify(bbData, null, 2) + "\n");
-  console.log(`Exported ${bbData.length} verses to ${outputPath}`);
+
+  // Format with Prettier
+  execSync(`prettier --write "${outputPath}"`);
+
+  console.log(`Exported ${allBBVerses.length} verses to ${outputPath}`);
 }
 
 export async function exportToBB(options: ExportOptions): Promise<void> {
@@ -384,7 +471,10 @@ export async function exportToBB(options: ExportOptions): Promise<void> {
       try {
         await exportVersion(v);
       } catch (error) {
-        console.error(`Failed to export ${v}:`, error.message);
+        console.error(
+          `Failed to export ${v}:`,
+          error instanceof Error ? error.message : String(error)
+        );
       }
     }
   } else {
@@ -404,7 +494,9 @@ if (require.main === module) {
     console.error(
       "  [version]: Optional BB version ID (asv, byz, kjv, vul, webp, ylt)"
     );
-    console.error("  [book]: Optional book name for single-book export");
+    console.error(
+      "  [book]: Optional book sequence (101-139 OT, 201-227 NT) for single-book export"
+    );
     console.error("  If no version specified, exports all versions");
     process.exit(1);
   }

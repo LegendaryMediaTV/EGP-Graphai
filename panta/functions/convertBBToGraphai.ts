@@ -35,7 +35,7 @@ function reorderObjectKeys(obj: any): any {
 }
 
 export function convertBBToGraphai(bb: {
-  text: string;
+  text?: string;
   paragraphs?: number[];
   footnotes?: { type?: string; text: string }[];
   heading?: string;
@@ -61,13 +61,13 @@ export function convertBBToGraphai(bb: {
     if (bb.subtitle.footnotes) {
       footnotes.push(...bb.subtitle.footnotes);
     }
-    return [subtitleElement, ...parseBBText(bb.text, footnotes)];
+    return [subtitleElement, ...parseBBText(bb.text || "", footnotes)];
   }
 
   // Fallback to legacy subtitle parsing from text
   // Inject paragraph markers into the text before processing
   // This avoids issues with indices shifting due to preprocessing or parsing
-  let textWithMarkers = bb.text;
+  let textWithMarkers = bb.text || "";
   let hasFirstParagraph = false;
 
   if (bb.paragraphs && bb.paragraphs.length > 0) {

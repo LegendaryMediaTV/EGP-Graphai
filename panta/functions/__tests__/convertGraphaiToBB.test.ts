@@ -353,6 +353,31 @@ describe("convertGraphaiToBB", () => {
     expect(convertGraphaiToBB(input)).toEqual(expected);
   });
 
+  it("should place footnote markers before Strong's tags", () => {
+    const input = [
+      {
+        text: "word",
+        foot: {
+          type: "note",
+          content: ["Footnote text"],
+        },
+        strong: "G1234",
+      },
+    ];
+
+    const expected = {
+      text: 'word° [strongs id="g1234" /]',
+      footnotes: [
+        {
+          type: "note",
+          text: "Footnote text",
+        },
+      ],
+    };
+
+    expect(convertGraphaiToBB(input)).toEqual(expected);
+  });
+
   describe("KJVS Strong's and TVM", () => {
     it("should convert Strong's with leading zeros and TVM", () => {
       const input = [
@@ -616,13 +641,33 @@ describe("convertGraphaiToBB", () => {
 
       const expected = {
         subtitle: {
-          text: 'A Psalm [strongs id="h4210" /]° of David [strongs id="h1732" /].',
+          text: 'A Psalm° [strongs id="h4210" /] of David [strongs id="h1732" /].',
           footnotes: [{ text: "A musical term", type: "stu" }],
         },
         text: 'O LORD [strongs id="h3068" /]',
       };
 
       expect(convertGraphaiToBB(input)).toEqual(expected);
+    });
+
+    it("should place footnote markers before strongs tags and order footnote keys correctly", () => {
+      const input = [
+        { paragraph: true, text: "word " },
+        {
+          text: "strong",
+          strong: "G1234",
+          foot: { content: [{ text: "footnote text" }], type: "stu" },
+        },
+        " end",
+      ];
+
+      const result = convertGraphaiToBB(input);
+
+      expect(result.paragraphs).toEqual([0]);
+      expect(result.text).toBe('word strong° [strongs id="g1234" /] end');
+      expect(result.footnotes).toEqual([
+        { type: "stu", text: "footnote text" },
+      ]);
     });
   });
 });

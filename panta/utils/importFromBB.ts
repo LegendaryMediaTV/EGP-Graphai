@@ -1,6 +1,7 @@
 #!/usr/bin/env ts-node
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
+import * as fs from "fs";
+import * as path from "path";
 import { execSync } from "child_process";
 import { crosswalkVersionID } from "../functions/crosswalkVersionID";
 import { crosswalkBookSequence } from "../functions/crosswalkBookSequence";
@@ -9,28 +10,20 @@ import { convertBBToGraphai } from "../functions/convertBBToGraphai";
 
 // Load book registry for progress messages
 const bookRegistry: Array<{ _id: string; name: string }> = JSON.parse(
-  readFileSync("./bible-books/bible-books.json", "utf-8")
+  fs.readFileSync("./bible-books/bible-books.json", "utf-8")
 );
 
 // Load version registry for book order lookup
 const versionRegistry: Array<{
   _id: string;
   books: Array<{ _id: string; order: number }>;
-}> = JSON.parse(readFileSync("./bible-versions/bible-versions.json", "utf-8"));
+}> = JSON.parse(
+  fs.readFileSync("./bible-versions/bible-versions.json", "utf-8")
+);
 
 function getBookName(bookId: string): string {
   const book = bookRegistry.find((b) => b._id === bookId);
   return book ? book.name : bookId;
-}
-
-function getBookOrderInVersion(
-  versionId: string,
-  bookId: string
-): number | null {
-  const version = versionRegistry.find((v) => v._id === versionId);
-  if (!version) return null;
-  const book = version.books.find((b) => b._id === bookId);
-  return book ? book.order : null;
 }
 
 function main() {
@@ -62,8 +55,8 @@ function main() {
     const graphaiVersionId = crosswalkVersionID(bbVersionId);
 
     // Load BB export file
-    const bbFilePath = `./exports/BibleDB.bibleVerses-${bbVersionId}.json`;
-    if (!existsSync(bbFilePath)) {
+    const bbFilePath = `./exports/bb/BibleDB.bibleVerses-${bbVersionId}.json`;
+    if (!fs.existsSync(bbFilePath)) {
       throw new Error(`BB export file not found: ${bbFilePath}`);
     }
 
@@ -74,17 +67,48 @@ function main() {
       text: string;
       paragraphs?: number[];
       footnotes?: { type?: string; text: string }[];
-    }> = JSON.parse(readFileSync(bbFilePath, "utf-8"));
+    }> = JSON.parse(fs.readFileSync(bbFilePath, "utf-8"));
 
     console.log(`Loaded ${bbVerses.length} verses from ${bbFilePath}`);
+
+    // Split into individual book files
+    const versionDir = path.join(
+      __dirname,
+      "../../exports/bb",
+      graphaiVersionId
+    );
+    if (!fs.existsSync(versionDir)) {
+      fs.mkdirSync(versionDir, { recursive: true });
+    }
+
+    const books: Record<string, any[]> = {};
+    for (const verse of bbVerses) {
+      const bookSeq = verse.sequence.substring(0, 3);
+      if (!books[bookSeq]) books[bookSeq] = [];
+      books[bookSeq].push(verse);
+    }
+
+    for (const [bookSeq, verses] of Object.entries(books)) {
+      const bookData = crosswalkBookSequence(bookSeq);
+      const bookOrder = bookData.order.toString().padStart(2, "0");
+      const bookID = bookData._id;
+      const bookFileName = `${bookOrder}-${bookID}.json`;
+      const bookFilePath = path.join(versionDir, bookFileName);
+      fs.writeFileSync(bookFilePath, JSON.stringify(verses, null, 2) + "\n");
+
+      // Format with Prettier
+      execSync(`prettier --write "${bookFilePath}"`);
+    }
+
+    console.log(`Split into ${Object.keys(books).length} book files`);
 
     // Determine migration mode
     if (bbBookSequence) {
       // Single-book migration
-      migrateSingleBook(bbVerses, bbBookSequence, graphaiVersionId);
+      migrateSingleBookFromFile(bbBookSequence, graphaiVersionId);
     } else {
       // Full-version migration
-      migrateFullVersion(bbVerses, graphaiVersionId);
+      migrateFullVersionFromFiles(graphaiVersionId);
     }
 
     // Run validation
@@ -101,22 +125,25 @@ function main() {
   }
 }
 
-function migrateSingleBook(
-  bbVerses: Array<any>,
+function migrateSingleBookFromFile(
   bbBookSequence: string,
   graphaiVersionId: string
 ) {
   // Validate book sequence
   const bookInfo = crosswalkBookSequence(bbBookSequence);
 
-  // Filter verses for this book
-  const bookVerses = bbVerses.filter((verse) =>
-    verse.sequence.startsWith(bbBookSequence)
-  );
+  // Load the book file
+  const versionDir = path.join(__dirname, "../../exports/bb", graphaiVersionId);
+  const bookOrder = bookInfo.order.toString().padStart(2, "0");
+  const bookID = bookInfo._id;
+  const bookFileName = `${bookOrder}-${bookID}.json`;
+  const bookFilePath = path.join(versionDir, bookFileName);
 
-  if (bookVerses.length === 0) {
-    throw new Error(`No verses found for book sequence ${bbBookSequence}`);
+  if (!fs.existsSync(bookFilePath)) {
+    throw new Error(`Book file not found: ${bookFilePath}`);
   }
+
+  const bookVerses: any[] = JSON.parse(fs.readFileSync(bookFilePath, "utf-8"));
 
   console.log(
     `Migrating ${bookVerses.length} verses for ${bookInfo._id} (${getBookName(
@@ -142,7 +169,7 @@ function migrateSingleBook(
     content: any[];
   }> = [];
 
-  for (const [chapterNum, chapterVerses] of chapters) {
+  for (const [chapterNum, chapterVerses] of Array.from(chapters.entries())) {
     // Sort verses by verse number
     chapterVerses.sort((a, b) => a.number - b.number);
 
@@ -194,42 +221,32 @@ function migrateSingleBook(
 
   // Create output directory
   const outputDir = `./bible-versions/${graphaiVersionId}`;
-  if (!existsSync(outputDir)) {
-    mkdirSync(outputDir, { recursive: true });
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Write book file
-  const bookOrder = getBookOrderInVersion(graphaiVersionId, bookInfo._id);
-  if (bookOrder === null) {
-    throw new Error(
-      `Book ${bookInfo._id} not found in version ${graphaiVersionId}`
-    );
-  }
-  const orderPadded = bookOrder.toString().padStart(2, "0");
-  const outputPath = `${outputDir}/${orderPadded}-${bookInfo._id}.json`;
+  // Write the book file
+  const outputFile = path.join(outputDir, bookFileName);
+  fs.writeFileSync(outputFile, JSON.stringify(graphaiVerses, null, 2) + "\n");
 
-  writeFileSync(outputPath, JSON.stringify(graphaiVerses, null, 2) + "\n");
-  console.log(`Processing ${getBookName(bookInfo._id)}... Done`);
+  // Format with Prettier
+  execSync(`prettier --write "${outputFile}"`);
+
+  console.log(`Wrote ${graphaiVerses.length} verses to ${outputFile}`);
 }
 
-function migrateFullVersion(bbVerses: Array<any>, graphaiVersionId: string) {
-  // Group verses by book sequence
-  const books = new Map<string, Array<any>>();
-
-  for (const verse of bbVerses) {
-    const bookSequence = verse.sequence.substring(0, 3);
-    if (!books.has(bookSequence)) {
-      books.set(bookSequence, []);
-    }
-    books.get(bookSequence)!.push(verse);
+function migrateFullVersionFromFiles(graphaiVersionId: string) {
+  const versionDir = path.join(__dirname, "../../exports/bb", graphaiVersionId);
+  if (!fs.existsSync(versionDir)) {
+    throw new Error(`Version directory not found: ${versionDir}`);
   }
 
-  // Sort book sequences numerically
-  const sortedBookSequences = Array.from(books.keys()).sort(
-    (a, b) => parseInt(a) - parseInt(b)
-  );
+  const bookFiles = fs
+    .readdirSync(versionDir)
+    .filter((f) => f.endsWith(".json"))
+    .sort();
 
-  console.log(`Migrating ${sortedBookSequences.length} books...`);
+  console.log(`Migrating ${bookFiles.length} books...`);
 
   let totalBooks = 0;
   let totalChapters = 0;
@@ -237,14 +254,23 @@ function migrateFullVersion(bbVerses: Array<any>, graphaiVersionId: string) {
 
   // Create output directory
   const outputDir = `./bible-versions/${graphaiVersionId}`;
-  if (!existsSync(outputDir)) {
-    mkdirSync(outputDir, { recursive: true });
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Process each book in order
-  for (const bookSequence of sortedBookSequences) {
-    const bookVerses = books.get(bookSequence)!;
-    const bookInfo = crosswalkBookSequence(bookSequence);
+  // Process each book file
+  for (const bookFile of bookFiles) {
+    const bookFilePath = path.join(versionDir, bookFile);
+    const bookVerses: any[] = JSON.parse(
+      fs.readFileSync(bookFilePath, "utf-8")
+    );
+
+    // Extract book ID from filename
+    const match = bookFile.match(/^(\d{2})-(\w+)\.json$/);
+    if (!match) continue;
+    const bookID = match[2];
+
+    console.log(`Processing ${getBookName(bookID)}...`);
 
     // Group verses by chapter
     const chapters = new Map<number, Array<any>>();
@@ -264,7 +290,7 @@ function migrateFullVersion(bbVerses: Array<any>, graphaiVersionId: string) {
       content: any[];
     }> = [];
 
-    for (const [chapterNum, chapterVerses] of chapters) {
+    for (const [chapterNum, chapterVerses] of Array.from(chapters.entries())) {
       // Sort verses by verse number
       chapterVerses.sort((a, b) => a.number - b.number);
 
@@ -315,17 +341,11 @@ function migrateFullVersion(bbVerses: Array<any>, graphaiVersionId: string) {
     });
 
     // Write book file
-    const bookOrder = getBookOrderInVersion(graphaiVersionId, bookInfo._id);
-    if (bookOrder === null) {
-      throw new Error(
-        `Book ${bookInfo._id} not found in version ${graphaiVersionId}`
-      );
-    }
-    const orderPadded = bookOrder.toString().padStart(2, "0");
-    const outputPath = `${outputDir}/${orderPadded}-${bookInfo._id}.json`;
+    const outputPath = path.join(outputDir, bookFile);
+    fs.writeFileSync(outputPath, JSON.stringify(graphaiVerses, null, 2) + "\n");
 
-    writeFileSync(outputPath, JSON.stringify(graphaiVerses, null, 2) + "\n");
-    console.log(`Processing ${getBookName(bookInfo._id)}... Done`);
+    // Format with Prettier
+    execSync(`prettier --write "${outputPath}"`);
 
     totalBooks++;
     totalChapters += chapters.size;

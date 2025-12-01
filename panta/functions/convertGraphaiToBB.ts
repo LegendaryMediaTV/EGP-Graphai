@@ -1,6 +1,6 @@
 interface BBResult {
   text?: string;
-  subtitle?: { text: string; footnotes?: { text: string; type?: string }[] };
+  subtitle?: { text: string; footnotes?: { type?: string; text: string }[] };
   paragraphs?: number[];
   footnotes?: { type?: string; text: string }[];
 }
@@ -144,6 +144,17 @@ export function convertGraphaiToBB(content: any): BBResult {
       text = leadingSpace + text;
     }
 
+    // Add footnote marker and collect footnote
+    if (content.foot) {
+      text += "°";
+      const footResult = convertGraphaiToBB(content.foot.content);
+      const footnote: { type?: string; text: string } = {
+        type: content.foot.type,
+        text: footResult.text || "",
+      };
+      footnotes.push(footnote);
+    }
+
     // Add Strong's tag
     if (content.strong) {
       // Normalize: uppercase to lowercase, strip leading zeros
@@ -184,21 +195,6 @@ export function convertGraphaiToBB(content: any): BBResult {
 
       text += `[strongs id="${normalized}"${morphAttr} /]`;
     }
-
-    // Add footnote marker and collect footnote
-    if (content.foot) {
-      text += "°";
-      const footResult = convertGraphaiToBB(content.foot.content);
-      const footnote: { type?: string; text: string } = {
-        text: footResult.text,
-      };
-      if (content.foot.type) {
-        footnote.type = content.foot.type;
-      }
-      footnotes.push(footnote);
-    }
-
-    // Add line break
     if (content.break) {
       text += "\n";
     }

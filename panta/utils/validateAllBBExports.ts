@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as path from "path";
 import validateBBExport from "./validateBBExport";
 
-const exportsDir = path.join(__dirname, "../../exports");
+const exportsDir = path.join(__dirname, "../../exports/bb");
 const files = fs
   .readdirSync(exportsDir)
   .filter((f) => f.startsWith("BibleDB.bibleVerses-") && f.endsWith(".json"));

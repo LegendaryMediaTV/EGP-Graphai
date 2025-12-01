@@ -68,7 +68,7 @@ ts-node panta/utils/exportToBB.ts kjv
 **Export single book:**
 
 ```bash
-ts-node panta/utils/exportToBB.ts kjv genesis
+ts-node panta/utils/exportToBB.ts kjv 101    # Genesis
 ```
 
 **Export all versions:**
