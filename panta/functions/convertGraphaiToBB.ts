@@ -66,8 +66,12 @@ export function convertGraphaiToBB(content: any): BBResult {
         result.subtitle = itemResult.subtitle;
       }
 
-      // Add space after subtitle
-      if (itemResult.text && itemResult.text.endsWith("»")) {
+      // Add space after subtitle (but not if it's the last element)
+      if (
+        itemResult.text &&
+        itemResult.text.endsWith("»") &&
+        i < content.length - 1
+      ) {
         text += " ";
       }
 

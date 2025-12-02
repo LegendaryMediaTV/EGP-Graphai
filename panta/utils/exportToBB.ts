@@ -68,144 +68,23 @@ function extractSubtitle(content: any): {
 
   return { subtitle, cleanedContent };
 }
-const bookNameToSequence: Record<string, string> = {
-  genesis: "101",
-  exodus: "102",
-  leviticus: "103",
-  numbers: "104",
-  deuteronomy: "105",
-  joshua: "106",
-  judges: "107",
-  ruth: "108",
-  "1-samuel": "109",
-  "2-samuel": "110",
-  "1-kings": "111",
-  "2-kings": "112",
-  "1-chronicles": "113",
-  "2-chronicles": "114",
-  ezra: "115",
-  nehemiah: "116",
-  esther: "117",
-  job: "118",
-  psalms: "119",
-  proverbs: "120",
-  ecclesiastes: "121",
-  song: "122",
-  isaiah: "123",
-  jeremiah: "124",
-  lamentations: "125",
-  ezekiel: "126",
-  daniel: "127",
-  hosea: "128",
-  joel: "129",
-  amos: "130",
-  obadiah: "131",
-  jonah: "132",
-  micah: "133",
-  nahum: "134",
-  habakkuk: "135",
-  zephaniah: "136",
-  haggai: "137",
-  zechariah: "138",
-  malachi: "139",
-  matthew: "201",
-  mark: "202",
-  luke: "203",
-  john: "204",
-  acts: "205",
-  romans: "206",
-  "1-corinthians": "207",
-  "2-corinthians": "208",
-  galatians: "209",
-  ephesians: "210",
-  philippians: "211",
-  colossians: "212",
-  "1-thessalonians": "213",
-  "2-thessalonians": "214",
-  "1-timothy": "215",
-  "2-timothy": "216",
-  titus: "217",
-  philemon: "218",
-  hebrews: "219",
-  james: "220",
-  "1-peter": "221",
-  "2-peter": "222",
-  "1-john": "223",
-  "2-john": "224",
-  "3-john": "225",
-  jude: "226",
-  revelation: "227",
-};
 
-// Mapping from book abbreviation to sequence
-const bookAbbrevToSequence: Record<string, string> = {
-  GEN: "101",
-  EXO: "102",
-  LEV: "103",
-  NUM: "104",
-  DEU: "105",
-  JSH: "106",
-  JDG: "107",
-  RTH: "108",
-  "1SM": "109",
-  "2SM": "110",
-  "1KG": "111",
-  "2KG": "112",
-  "1CH": "113",
-  "2CH": "114",
-  EZR: "115",
-  NEH: "116",
-  EST: "117",
-  JOB: "118",
-  PSA: "119",
-  PRV: "120",
-  ECC: "121",
-  SOS: "122",
-  ISA: "123",
-  JER: "124",
-  LAM: "125",
-  EZK: "126",
-  DAN: "127",
-  HOS: "128",
-  JOL: "129",
-  AMS: "130",
-  OBD: "131",
-  JNA: "132",
-  MIC: "133",
-  NAH: "134",
-  HAB: "135",
-  ZPH: "136",
-  HAG: "137",
-  ZEC: "138",
-  MAL: "139",
-  MAT: "201",
-  MRK: "202",
-  LUK: "203",
-  JHN: "204",
-  ACT: "205",
-  ROM: "206",
-  "1CO": "207",
-  "2CO": "208",
-  GAL: "209",
-  EPH: "210",
-  PHP: "211",
-  COL: "212",
-  "1TH": "213",
-  "2TH": "214",
-  "1TM": "215",
-  "2TM": "216",
-  TIT: "217",
-  PHM: "218",
-  HEB: "219",
-  JAS: "220",
-  "1PT": "221",
-  "2PT": "222",
-  "1JN": "223",
-  "2JN": "224",
-  "3JN": "225",
-  JUD: "226",
-  REV: "227",
-};
+// Build reverse lookup from crosswalkBookSequence: abbreviation -> sequence
+function getBookSequenceFromAbbrev(abbrev: string): string {
+  // All possible sequences
+  const sequences = [
+    ...Array.from({ length: 39 }, (_, i) => (101 + i).toString()),
+    ...Array.from({ length: 27 }, (_, i) => (201 + i).toString()),
+  ];
+
+  for (const seq of sequences) {
+    const bookInfo = crosswalkBookSequence(seq);
+    if (bookInfo._id === abbrev) {
+      return seq;
+    }
+  }
+  throw new Error(`Unknown book abbreviation: ${abbrev}`);
+}
 
 // Mapping from book abbreviation to full name
 const bookAbbrevToName: Record<string, string> = {
@@ -364,7 +243,7 @@ async function exportVersion(
       const bbResult = convertGraphaiToBB(cleanedContent);
 
       // Calculate sequence: bookNum * 1000000 + chapter * 1000 + verse
-      const bookSequence = bookAbbrevToSequence[verse.book];
+      const bookSequence = getBookSequenceFromAbbrev(verse.book);
       const bookNum = parseInt(bookSequence);
       const sequence = bookNum * 1000000 + verse.chapter * 1000 + verse.verse;
 
@@ -374,16 +253,16 @@ async function exportVersion(
         chapter: `${bookAbbrevToName[verse.book]}-${verse.chapter}`,
         sequence: sequence.toString(),
         number: verse.verse,
+        ...(subtitle && { subtitle }),
         text: bbResult.text,
         ...(bbResult.footnotes && { footnotes: bbResult.footnotes }),
         ...(bbResult.paragraphs && { paragraphs: bbResult.paragraphs }),
-        ...(subtitle && { subtitle }),
       };
     });
 
     // Write book file
-    const bookOrder = bookAbbrevToSequence[bookAbbrev];
-    const bookInfo = crosswalkBookSequence(bookOrder.toString());
+    const bookOrder = getBookSequenceFromAbbrev(bookAbbrev);
+    const bookInfo = crosswalkBookSequence(bookOrder);
     const bookOrderPadded = bookInfo.order.toString().padStart(2, "0");
     const bookFileName = `${bookOrderPadded}-${bookInfo._id}.json`;
     const bookFilePath = path.join(bbVersionDir, bookFileName);
