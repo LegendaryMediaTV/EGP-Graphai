@@ -9,22 +9,21 @@
 <sup>4</sup> Yahweh said to him, “Call his name Jezreel, for yet a little while, and I will avenge the blood of Jezreel on the house of Jehu, and will cause the kingdom of the house of Israel to cease.
 <sup>5</sup> It will happen in that day that I will break the bow of Israel in the valley of Jezreel.”
 
-<sup>6</sup> She conceived again, and bore a daughter.<sup>b</sup>
+<sup>6</sup> She conceived again, and bore a daughter.
 
-Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no longer have mercy on the house of Israel, that I should in any way pardon them.
-<sup>7</sup> But I will have mercy on the house of Judah, and will save them by Yahweh their God,<sup>d</sup> and will not save them by bow, sword, battle, horses, or horsemen.”
+Then he said to him, “Call her name Lo-Ruhamah,<sup>b</sup> for I will no longer have mercy on the house of Israel, that I should in any way pardon them.
+<sup>7</sup> But I will have mercy on the house of Judah, and will save them by Yahweh their God,<sup>c</sup> and will not save them by bow, sword, battle, horses, or horsemen.”
 
 <sup>8</sup> Now when she had weaned Lo-Ruhamah, she conceived, and bore a son.
 
-<sup>9</sup> He said, “Call his name Lo-Ammi,<sup>e</sup> for you are not my people, and I will not be yours.
+<sup>9</sup> He said, “Call his name Lo-Ammi,<sup>d</sup> for you are not my people, and I will not be yours.
 <sup>10</sup> Yet the number of the children of Israel will be as the sand of the sea, which can’t be measured or counted; and it will come to pass that, in the place where it was said to them, ‘You are not my people,’ they will be called ‘sons of the living God.’
 <sup>11</sup> The children of Judah and the children of Israel will be gathered together, and they will appoint themselves one head, and will go up from the land; for great will be the day of Jezreel.
 
 > - <sup>a</sup> 1. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 6. Lo-Ruhamah means “not loved”.
-> - <sup>c</sup> 6. Lo-Ruhamah means “not loved”.
-> - <sup>d</sup> 7. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
-> - <sup>e</sup> 9. Lo-Ammi means “not my people”.
+> - <sup>c</sup> 7. The Hebrew word rendered “God” is “אֱלֹהִ֑ים” (Elohim).
+> - <sup>d</sup> 9. Lo-Ammi means “not my people”.
 
 ## Chapter 2
 
@@ -52,8 +51,8 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no long
 <sup>22</sup> and the earth will respond to the grain, and the new wine, and the oil;<br>and they will respond to Jezreel.<br>
 <sup>23</sup> I will sow her to me in the earth;<br>and I will have mercy on her who had not obtained mercy;<br>and I will tell those who were not my people, ‘You are my people;’<br>and they will say, ‘You are My God!’ ”
 
-> - <sup>a</sup> 1. ‘Ammi’ in Hebrew
-> - <sup>b</sup> 1. ‘Ruhamah’ in Hebrew
+> - <sup>a</sup> 1. “Ammi” in Hebrew
+> - <sup>b</sup> 1. “Ruhamah” in Hebrew
 > - <sup>c</sup> 6. “Behold”, from “הִנֵּה”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection.
 
 ## Chapter 3
@@ -261,7 +260,7 @@ Then he said to him, “Call her name Lo-Ruhamah,<sup>c</sup> for I will no long
 <sup>11</sup> I have given you a king in my anger,<br>and have taken him away in my wrath.<br>
 <sup>12</sup> The guilt of Ephraim is stored up.<br>His sin is stored up.<br>
 <sup>13</sup> The sorrows of a travailing woman will come on him.<br>He is an unwise son,<br>for when it is time, he doesn’t come to the opening of the womb.<br>
-<sup>14</sup> I will ransom them from the power of Sheol.<sup>a</sup><br>I will redeem them from death!<br>Death, where are your plagues?<br>Sheol, where is your destruction?<br>
+<sup>14</sup> I will ransom them from the power of Sheol.<sup>a</sup><br>I will redeem them from death!<br>Death, where are your plagues?<br>Sheol, where is your destruction?
 
 “Compassion will be hidden from my eyes.<br>
 <sup>15</sup> Though he is fruitful among his brothers, an east wind will come,<br>the breath of Yahweh coming up from the wilderness;<br>and his spring will become dry,<br>and his fountain will be dried up.<br>He will plunder the storehouse of treasure.<br>

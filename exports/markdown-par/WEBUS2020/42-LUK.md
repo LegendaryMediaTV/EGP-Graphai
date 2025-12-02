@@ -440,7 +440,7 @@ Immediately the leprosy left him.
 
 > - <sup>a</sup> 26. TR adds “to you”
 > - <sup>b</sup> 26. TR adds “all”
-> - <sup>c</sup> 38. literally, into your bosom.
+> - <sup>c</sup> 38. Literally, into your bosom.
 
 ## Chapter 7
 
@@ -620,9 +620,9 @@ When all denied it, Peter and those with him said, “Master, the multitudes pre
 <sup>8</sup> and by some that Elijah had appeared, and by others that one of the old prophets had risen again.
 <sup>9</sup> Herod said, “I beheaded John, but who is this about whom I hear such things?” He sought to see him.
 
-<sup>10</sup> The apostles, when they had returned, told him what things they had done.<sup>b</sup>
+<sup>10</sup> The apostles, when they had returned, told him what things they had done.
 
-He took them and withdrew apart to a desert region of<sup>c</sup> a city called Bethsaida.
+He took them and withdrew apart to a desert region of<sup>b</sup> a city called Bethsaida.
 <sup>11</sup> But the multitudes, perceiving it, followed him. He welcomed them, spoke to them of God’s Kingdom, and he cured those who needed healing.
 <sup>12</sup> The day began to wear away; and the twelve came and said to him, “Send the multitude away, that they may go into the surrounding villages and farms and lodge and get food, for we are here in a deserted place.”
 
@@ -647,7 +647,7 @@ Peter answered, “The Christ of God.”
 <sup>21</sup> But he warned them and commanded them to tell this to no one,
 <sup>22</sup> saying, “The Son of Man must suffer many things, and be rejected by the elders, chief priests, and scribes, and be killed, and the third day be raised up.”
 
-<sup>23</sup> He said to all, “If anyone desires to come after me, let him deny himself, take up his cross,<sup>d</sup> and follow me.
+<sup>23</sup> He said to all, “If anyone desires to come after me, let him deny himself, take up his cross,<sup>c</sup> and follow me.
 <sup>24</sup> For whoever desires to save his life will lose it, but whoever will lose his life for my sake will save it.
 <sup>25</sup> For what does it profit a man if he gains the whole world, and loses or forfeits his own self?
 <sup>26</sup> For whoever will be ashamed of me and of my words, of him will the Son of Man be ashamed when he comes in his glory, and the glory of the Father, and of the holy angels.
@@ -656,7 +656,7 @@ Peter answered, “The Christ of God.”
 <sup>28</sup> About eight days after these sayings, he took with him Peter, John, and James, and went up onto the mountain to pray.
 <sup>29</sup> As he was praying, the appearance of his face was altered, and his clothing became white and dazzling.
 <sup>30</sup> Behold, two men were talking with him, who were Moses and Elijah,
-<sup>31</sup> who appeared in glory and spoke of his departure,<sup>e</sup> which he was about to accomplish at Jerusalem.
+<sup>31</sup> who appeared in glory and spoke of his departure,<sup>d</sup> which he was about to accomplish at Jerusalem.
 
 <sup>32</sup> Now Peter and those who were with him were heavy with sleep, but when they were fully awake, they saw his glory, and the two men who stood with him.
 <sup>33</sup> As they were parting from him, Peter said to Jesus, “Master, it is good for us to be here. Let’s make three tents: one for you, one for Moses, and one for Elijah,” not knowing what he said.
@@ -666,7 +666,7 @@ Peter answered, “The Christ of God.”
 <sup>36</sup> When the voice came, Jesus was found alone. They were silent, and told no one in those days any of the things which they had seen.
 
 <sup>37</sup> On the next day, when they had come down from the mountain, a great multitude met him.
-<sup>38</sup> Behold, a man from the crowd called out, saying, “Teacher, I beg you to look at my son, for he is my only born<sup>f</sup> child.
+<sup>38</sup> Behold, a man from the crowd called out, saying, “Teacher, I beg you to look at my son, for he is my only born<sup>e</sup> child.
 <sup>39</sup> Behold, a spirit takes him, he suddenly cries out, and it convulses him so that he foams; and it hardly departs from him, bruising him severely.
 <sup>40</sup> I begged your disciples to cast it out, and they couldn’t.”
 
@@ -712,10 +712,9 @@ But he said, “Lord, allow me first to go and bury my father.”
 
 > - <sup>a</sup> 1. TR reads “his twelve disciples” instead of “the twelve”
 > - <sup>b</sup> 10. NU omits “a desert region of”.
-> - <sup>c</sup> 10. NU omits “a desert region of”.
-> - <sup>d</sup> 23. TR, NU add “daily”
-> - <sup>e</sup> 31. literally, “exodus”
-> - <sup>f</sup> 38. The phrase “only born” is from the Greek word “μονογενη”, which is sometimes translated “only begotten” or “one and only”.
+> - <sup>c</sup> 23. TR, NU add “daily”
+> - <sup>d</sup> 31. Literally, “exodus”
+> - <sup>e</sup> 38. The phrase “only born” is from the Greek word “μονογενη”, which is sometimes translated “only begotten” or “one and only”.
 
 ## Chapter 10
 
@@ -779,7 +778,7 @@ Then Jesus said to him, “Go and do likewise.”
 <sup>41</sup> Jesus answered her, “Martha, Martha, you are anxious and troubled about many things,
 <sup>42</sup> but one thing is needed. Mary has chosen the good part, which will not be taken away from her.”
 
-> - <sup>a</sup> 1. literally, “before his face”
+> - <sup>a</sup> 1. Literally, “before his face”
 > - <sup>b</sup> 15. Hades is the lower realm of the dead, or Hell.
 > - <sup>c</sup> 27. Deuteronomy 6:5
 > - <sup>d</sup> 27. Leviticus 19:18
@@ -939,7 +938,7 @@ Then Jesus said to him, “Go and do likewise.”
 > - <sup>b</sup> 6. An assarion was a small copper coin worth about an hour’s wages for an agricultural laborer.
 > - <sup>c</sup> 25. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
 > - <sup>d</sup> 53. Micah 7:6
-> - <sup>e</sup> 59. literally, lepton. A lepton is a very small brass Jewish coin worth half a Roman quadrans each, which is worth a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages.
+> - <sup>e</sup> 59. Literally, lepton. A lepton is a very small brass Jewish coin worth half a Roman quadrans each, which is worth a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages.
 
 ## Chapter 13
 
@@ -992,7 +991,7 @@ He said to them,
 <sup>34</sup> “Jerusalem, Jerusalem, you who kills the prophets and stones those who are sent to her! How often I wanted to gather your children together, like a hen gathers her own brood under her wings, and you refused!
 <sup>35</sup> Behold, your house is left to you desolate. I tell you, you will not see me until you say, ‘Blessed is he who comes in the name of the Lord!’ ”<sup>b</sup>
 
-> - <sup>a</sup> 21. literally, three sata. 3 sata is about 39 liters or a bit more than a bushel.
+> - <sup>a</sup> 21. Literally, three sata. 3 sata is about 39 liters or a bit more than a bushel.
 > - <sup>b</sup> 35. Psalm 118:26
 
 ## Chapter 14
@@ -1469,7 +1468,7 @@ They answered, “Caesar’s.”
 <sup>37</sup> Every day Jesus was teaching in the temple, and every night he would go out and spend the night on the mountain that is called Olivet.
 <sup>38</sup> All the people came early in the morning to him in the temple to hear him.
 
-> - <sup>a</sup> 2. literally, “two lepta.” 2 lepta was about 1% of a day’s wages for an agricultural laborer.
+> - <sup>a</sup> 2. Literally, “two lepta.” 2 lepta was about 1% of a day’s wages for an agricultural laborer.
 > - <sup>b</sup> 8. or, I AM
 
 ## Chapter 22

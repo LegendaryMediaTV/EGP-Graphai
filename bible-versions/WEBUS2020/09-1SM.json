@@ -22,7 +22,7 @@
       {
         "text": "This man went up out of his city from year to year to worship and to sacrifice to Yahweh",
         "foot": {
-          "type": "stu",
+          "type": "trn",
           "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
         }
       },
@@ -440,10 +440,7 @@
         "text": "Those who strive with Yahweh shall be broken to pieces.",
         "break": true
       },
-      {
-        "text": "He will thunder against them in the sky.",
-        "break": true
-      },
+      "He will thunder against them in the sky.",
       {
         "paragraph": true,
         "text": "“Yahweh will judge the ends of the earth.",
@@ -2287,7 +2284,7 @@
       "paragraph": true,
       "text": "Saul was thirty years old when he became king, and he reigned over Israel forty-two years.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "The traditional Hebrew text omits “thirty” and “forty-”. The blanks are filled in here from a few manuscripts of the Septuagint."
       }
     }

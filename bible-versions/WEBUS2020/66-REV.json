@@ -103,7 +103,7 @@
         "text": "“I am the Alpha and the Omega,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “the Beginning and the End”"
         }
       },
@@ -114,7 +114,7 @@
       {
         "text": " says the Lord God,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “God”"
         }
       },
@@ -148,7 +148,7 @@
       {
         "text": "saying,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “I am the Alpha and the Omega, the First and the Last.”"
         }
       },
@@ -157,7 +157,7 @@
         "text": "“What you see, write in a book and send to the seven assemblies:",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “which are in Asia”"
         }
       },
@@ -322,7 +322,7 @@
         "text": "You have perseverance and have endured for my name’s sake, and have",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “have labored and”"
         }
       },
@@ -501,7 +501,7 @@
         "text": "So also you likewise have some who hold to the teaching of the Nicolaitans.",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “which I hate” instead of “likewise”"
         }
       }
@@ -587,7 +587,7 @@
         "text": "But I have this against you, that you tolerate your",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR, NU read “that” instead of “your”"
         }
       },
@@ -754,8 +754,8 @@
         "text": "Wake up and strengthen the things that remain, which you were about to throw away,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "NU &amp; TR read “which were about to die” instead of “which you were about to throw away”."
+          "type": "var",
+          "content": "NU & TR read “which were about to die” instead of “which you were about to throw away”."
         }
       },
       " ",
@@ -1096,7 +1096,7 @@
       {
         "text": "The four living creatures, each one of them having six wings, are full of eyes around and within. They have no rest day and night, saying, “Holy, holy, holy",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "Hodges/Farstad MT reads “holy” 9 times instead of 3."
         }
       },
@@ -1126,7 +1126,7 @@
       {
         "text": "“Worthy are you, our Lord and God, the Holy One,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “and God, the Holy One,”"
         }
       },
@@ -1253,7 +1253,7 @@
       "paragraph": true,
       "text": "I heard every created thing which is in heaven, on the earth, under the earth, on the sea, and everything in them, saying, “To him who sits on the throne and to the Lamb be the blessing, the honor, the glory, and the dominion, forever and ever! Amen!”",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR omits “Amen!”"
       }
     }
@@ -1267,14 +1267,14 @@
         "paragraph": true,
         "text": "The four living creatures said, “Amen!” Then the",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “twenty-four”"
         }
       },
       {
         "text": " elders fell down and worshiped.",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “the one living forever and ever”"
         }
       }
@@ -1576,11 +1576,7 @@
     "content": [
       {
         "paragraph": true,
-        "text": "I told him, “My lord, you know.”",
-        "foot": {
-          "type": "trn",
-          "content": "or, oppression"
-        }
+        "text": "I told him, “My lord, you know.”"
       },
       {
         "paragraph": true,
@@ -1665,7 +1661,7 @@
         "paragraph": true,
         "text": "The first sounded, and there followed hail and fire, mixed with blood, and they were thrown to the earth. One third of the earth was burned up,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “One third of the earth was burned up”"
         }
       },
@@ -1719,7 +1715,7 @@
       {
         "text": "I saw, and I heard an eagle,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “angel” instead of “eagle”"
         }
       },
@@ -1743,7 +1739,7 @@
       {
         "text": "He opened the pit of the abyss, and smoke went up out of the pit, like the smoke from a",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “great”"
         }
       },
@@ -1863,8 +1859,8 @@
       {
         "text": "The number of the armies of the horsemen was two hundred million.",
         "foot": {
-          "type": "stu",
-          "content": "literally, “ten thousands of ten thousands”"
+          "type": "trn",
+          "content": "Literally, “ten thousands of ten thousands”"
         }
       },
       " I heard the number of them."
@@ -2001,7 +1997,7 @@
       {
         "text": "They",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “He” instead of “They”"
         }
       },
@@ -2133,7 +2129,7 @@
       {
         "text": "saying: “We give you thanks, Lord God, the Almighty, the one who is and who was,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “and who is coming”"
         }
       },
@@ -2356,7 +2352,7 @@
       {
         "text": "If anyone is to go into captivity, he will go into captivity. If anyone is to be killed with the sword, he must be killed.",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “If anyone leads into captivity, into captivity he goes. If anyone will kill with the sword, he must be killed with a sword.” instead of “If anyone is to go into captivity, he will go into captivity. If anyone is to be killed with the sword, he must be killed.”"
         }
       },
@@ -2392,7 +2388,7 @@
       {
         "text": "He deceives my own",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “my own”"
         }
       },
@@ -2457,7 +2453,7 @@
     "content": {
       "text": "In their mouth was found no lie, for they are blameless.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR adds “before the throne of God”"
       }
     }
@@ -2610,7 +2606,7 @@
         "paragraph": true,
         "text": "I saw something like a sea of glass mixed with fire, and those who overcame the beast, his image,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “his mark,”"
         }
       },
@@ -2920,7 +2916,7 @@
     "content": {
       "text": "The beast that you saw was, and is not; and is about to come up out of the abyss and to go into destruction. Those who dwell on the earth and whose names have not been written in the book of life from the foundation of the world will marvel when they see that the beast was, and is not, and shall be present.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR reads “yet is” instead of “shall be present”"
       }
     }
@@ -3281,7 +3277,7 @@
       "paragraph": true,
       "text": "I saw an angel standing in the sun. He cried with a loud voice, saying to all the birds that fly in the sky, “Come! Be gathered together to the great supper of God,",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR reads “supper of the great God” instead of “great supper of God”"
       }
     }
@@ -3327,7 +3323,7 @@
       {
         "text": "He seized the dragon, the old serpent, who is the devil and Satan, who deceives the whole inhabited earth,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR and NU omit “who deceives the whole inhabited earth”."
         }
       },
@@ -3520,7 +3516,7 @@
         "text": "But for the cowardly, unbelieving, sinners,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR and NU omit “sinners”"
         }
       },
@@ -3699,7 +3695,7 @@
         "paragraph": true,
         "text": "He showed me a",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “pure”"
         }
       },
@@ -3879,7 +3875,7 @@
       {
         "text": "If anyone takes away from the words of the book of this prophecy, God will take away his part from the tree",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “Book” instead of “tree”"
         }
       },

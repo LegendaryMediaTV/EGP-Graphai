@@ -392,9 +392,9 @@ These are the families of the Levites according to their fathers’ houses.
 <sup>11</sup> Yahweh said to Moses, “They shall offer their offering, each prince on his day, for the dedication of the altar.”
 
 <sup>12</sup> He who offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah,
-<sup>13</sup> and his offering was:<sup>a</sup>
+<sup>13</sup> and his offering was:
 
-one silver platter, the weight of which was one hundred thirty shekels,<sup>b</sup>
+one silver platter, the weight of which was one hundred thirty shekels,<sup>a</sup>
 
 one silver bowl of seventy shekels, according to the shekel of the sanctuary, both of them full of fine flour mixed with oil for a meal offering;
 
@@ -628,7 +628,6 @@ one male lamb a year old, for a burnt offering;
 <sup>89</sup> When Moses went into the Tent of Meeting to speak with Yahweh, he heard his voice speaking to him from above the mercy seat that was on the ark of the Testimony, from between the two cherubim; and he spoke to him.
 
 > - <sup>a</sup> 13. A shekel is about 10 grams or about 0.35 ounces.
-> - <sup>b</sup> 13. A shekel is about 10 grams or about 0.35 ounces.
 
 ## Chapter 8
 

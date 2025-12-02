@@ -812,7 +812,7 @@ You shall not boil a young goat in its mother’s milk.
 <sup>24</sup> When you come into your neighbor’s vineyard, then you may eat your fill of grapes at your own pleasure; but you shall not put any in your container.
 <sup>25</sup> When you come into your neighbor’s standing grain, then you may pluck the ears with your hand; but you shall not use a sickle on your neighbor’s standing grain.
 
-> - <sup>a</sup> 18. literally, dog
+> - <sup>a</sup> 18. Literally, dog
 
 ## Chapter 24
 
@@ -1257,7 +1257,7 @@ Moses and Joshua went, and presented themselves in the Tent of Meeting.
 <sup>28</sup> Israel dwells in safety,<br>the fountain of Jacob alone,<br>In a land of grain and new wine.<br>Yes, his heavens drop down dew.<br>
 <sup>29</sup> You are happy, Israel!<br>Who is like you, a people saved by Yahweh,<br>the shield of your help,<br>the sword of your excellency?<br>Your enemies will submit themselves to you.<br>You will tread on their high places.”
 
-> - <sup>a</sup> 2. another manuscript reads “He came with myriads of holy ones from the south, from his mountain slopes.”
+> - <sup>a</sup> 2. Another manuscript reads “He came with myriads of holy ones from the south, from his mountain slopes.”
 > - <sup>b</sup> 16. i.e., the burning bush of Exodus 3:3-4.
 
 ## Chapter 34

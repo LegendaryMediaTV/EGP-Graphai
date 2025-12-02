@@ -305,7 +305,7 @@
       {
         "text": "He came and took her by the hand and raised her up. The fever left her immediately,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “immediately”."
         }
       },
@@ -996,7 +996,7 @@
       {
         "text": "A multitude was sitting around him, and they told him, “Behold, your mother, your brothers, and your sisters",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “your sisters”"
         }
       },
@@ -1076,7 +1076,7 @@
         "text": "As he sowed, some seed fell by the road, and the birds",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “of the air”"
         }
       },
@@ -1283,8 +1283,8 @@
         "text": "“Is a lamp brought to be put under a basket",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "literally, a modion, a dry measuring basket containing about a peck (about 9 liters)"
+          "type": "trn",
+          "content": "Literally, a modion, a dry measuring basket containing about a peck (about 9 liters)"
         }
       },
       {
@@ -2137,7 +2137,7 @@
       {
         "text": "They",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “The multitudes” instead of “They”"
         }
       },
@@ -2246,7 +2246,7 @@
       {
         "text": "Those who ate the loaves were",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “about”"
         }
       },
@@ -2565,7 +2565,7 @@
         "text": "If anyone has ears to hear, let him hear!”",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits verse 16."
         }
       }
@@ -2601,7 +2601,7 @@
         "text": "because it doesn’t go into his heart, but into his stomach, then into the latrine, making all foods clean?”",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU ends Jesus’ direct quote and question after “latrine”, ending the verse with “Thus he declared all foods clean."
         }
       }
@@ -3642,8 +3642,15 @@
       {
         "text": "‘where their worm doesn’t die, and the fire is not quenched.’",
         "marks": ["woc"],
+
         "foot": {
-          "type": "stu",
+          "type": "xrf",
+          "content": "Isaiah 66:24"
+        }
+      },
+      {
+        "foot": {
+          "type": "var",
           "content": "NU omits verse 44."
         }
       }
@@ -3677,7 +3684,7 @@
         "text": "‘where their worm doesn’t die, and the fire is not quenched.’",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits verse 46."
         }
       }
@@ -4369,8 +4376,8 @@
         "paragraph": true,
         "text": "When they came near to Jerusalem, to Bethsphage",
         "foot": {
-          "type": "stu",
-          "content": "TR &amp; NU read “Bethphage” instead of “Bethsphage”"
+          "type": "var",
+          "content": "TR & NU read “Bethphage” instead of “Bethsphage”"
         }
       },
       " and Bethany, at the Mount of Olives, he sent two of his disciples"
@@ -4625,7 +4632,7 @@
         "text": "But if you do not forgive, neither will your Father in heaven forgive your transgressions.”",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits verse 26."
         }
       }
@@ -5223,8 +5230,8 @@
       {
         "text": "A poor widow came and she cast in two small brass coins,",
         "foot": {
-          "type": "stu",
-          "content": "literally, lepta (or widow’s mites). Lepta are very small brass coins worth half a quadrans each, which is a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages."
+          "type": "trn",
+          "content": "Literally, lepta (or widow’s mites). Lepta are very small brass coins worth half a quadrans each, which is a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages."
         }
       },
       {
@@ -6634,7 +6641,7 @@
     "content": {
       "text": "The Scripture was fulfilled which says, “He was counted with transgressors.”",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "NU omits verse 28."
       }
     }
@@ -6671,7 +6678,7 @@
       {
         "text": "Let the Christ, the King of Israel, now come down from the cross, that we may see and believe him.”",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “him”"
         }
       },
@@ -6871,14 +6878,14 @@
         "paragraph": true,
         "text": "They went out,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “quickly”"
         }
       },
       {
         "text": " and fled from the tomb, for trembling and astonishment had come on them. They said nothing to anyone; for they were afraid.",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "One isolated manuscript omits verses 9-20 but adds this “short ending of Mark” to the end of verse 8: They told all that had been commanded them briefly to those around Peter. After that, Jesus himself sent them out, from east to west, with the sacred and imperishable proclamation of eternal salvation."
         }
       }
@@ -6989,7 +6996,7 @@
         "paragraph": true,
         "text": "So then the Lord,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU adds “Jesus”"
         }
       },

@@ -135,13 +135,14 @@ and,<br>‘Let another take his office.’<sup>c</sup>
 <sup>22</sup> For Moses indeed said to the fathers, ‘The Lord God will raise up a prophet for you from among your brothers, like me. You shall listen to him in all things whatever he says to you.
 <sup>23</sup> It will be that every soul that will not listen to that prophet will be utterly destroyed from among the people.’<sup>c</sup>
 <sup>24</sup> Yes, and all the prophets from Samuel and those who followed after, as many as have spoken, also told of these days.
-<sup>25</sup> You are the children of the prophets, and of the covenant which God made with our fathers, saying to Abraham, ‘All the families of the earth will be blessed through your offspring.’<sup>d</sup>
+<sup>25</sup> You are the children of the prophets, and of the covenant which God made with our fathers, saying to Abraham, ‘All the families of the earth will be blessed through your offspring.’<sup>d</sup><sup>e</sup>
 <sup>26</sup> God, having raised up his servant Jesus, sent him to you first to bless you, in turning away every one of you from your wickedness.”
 
 > - <sup>a</sup> 1. 3:00 p.m.
 > - <sup>b</sup> 17. The word for “brothers” here may be also correctly translated “brothers and sisters” or “siblings.”
 > - <sup>c</sup> 23. Deuteronomy 18:15,18-19
-> - <sup>d</sup> 25. Genesis 22:18; 26:4
+> - <sup>d</sup> 25. or, seed
+> - <sup>e</sup> 25. Genesis 22:18; 26:4
 
 ## Chapter 4
 
@@ -176,9 +177,9 @@ and,<br>‘Let another take his office.’<sup>c</sup>
 <sup>23</sup> Being let go, they came to their own company and reported all that the chief priests and the elders had said to them.
 <sup>24</sup> When they heard it, they lifted up their voice to God with one accord and said, “O Lord, you are God, who made the heaven, the earth, the sea, and all that is in them;
 <sup>25</sup> who by the mouth of your servant David, said,<br>‘Why do the nations rage,<br>and the peoples plot a vain thing?<br>
-<sup>26</sup> The kings of the earth take a stand,<br>and the rulers plot together,<br>against the Lord, and against his Christ.’<sup>b</sup>
+<sup>26</sup> The kings of the earth take a stand,<br>and the rulers plot together,<br>against the Lord, and against his Christ.’<sup>b</sup><sup>c</sup>
 
-<sup>27</sup> “For truly,<sup>c</sup> both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,
+<sup>27</sup> “For truly,<sup>d</sup> both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,
 <sup>28</sup> to do whatever your hand and your counsel foreordained to happen.
 <sup>29</sup> Now, Lord, look at their threats, and grant to your servants to speak your word with all boldness,
 <sup>30</sup> while you stretch out your hand to heal; and that signs and wonders may be done through the name of your holy Servant Jesus.”
@@ -194,8 +195,9 @@ and,<br>‘Let another take his office.’<sup>c</sup>
 <sup>37</sup> having a field, sold it and brought the money and laid it at the apostles’ feet.
 
 > - <sup>a</sup> 11. Psalm 118:22
-> - <sup>b</sup> 26. Psalm 2:1-2
-> - <sup>c</sup> 27. nu adds “in this city,”
+> - <sup>b</sup> 26. Christ (Greek) and Messiah (Hebrew) both mean Anointed One.
+> - <sup>c</sup> 26. Psalm 2:1-2
+> - <sup>d</sup> 27. NU adds “in this city,”
 
 ## Chapter 5
 
@@ -323,13 +325,13 @@ She said, “Yes, for so much.”
 
 <sup>35</sup> “This Moses whom they refused, saying, ‘Who made you a ruler and a judge?’—God has sent him as both a ruler and a deliverer by the hand of the angel who appeared to him in the bush.
 <sup>36</sup> This man led them out, having worked wonders and signs in Egypt, in the Red Sea, and in the wilderness for forty years.
-<sup>37</sup> This is that Moses who said to the children of Israel, ‘The Lord our God will raise up a prophet for you from among your brothers, like me.’<sup>g</sup>
+<sup>37</sup> This is that Moses who said to the children of Israel, ‘The Lord our God will raise up a prophet for you from among your brothers, like me.’<sup>g</sup><sup>h</sup>
 <sup>38</sup> This is he who was in the assembly in the wilderness with the angel that spoke to him on Mount Sinai, and with our fathers, who received living revelations to give to us,
 <sup>39</sup> to whom our fathers wouldn’t be obedient, but rejected him and turned back in their hearts to Egypt,
-<sup>40</sup> saying to Aaron, ‘Make us gods that will go before us, for as for this Moses who led us out of the land of Egypt, we don’t know what has become of him.’<sup>h</sup>
+<sup>40</sup> saying to Aaron, ‘Make us gods that will go before us, for as for this Moses who led us out of the land of Egypt, we don’t know what has become of him.’<sup>i</sup>
 <sup>41</sup> They made a calf in those days, and brought a sacrifice to the idol, and rejoiced in the works of their hands.
-<sup>42</sup> But God turned away and gave them up to serve the army of the sky,<sup>i</sup> as it is written in the book of the prophets,<br>‘Did you offer to me slain animals and sacrifices<br>forty years in the wilderness, O house of Israel?<br>
-<sup>43</sup> You took up the tabernacle of Moloch,<br>the star of your god Rephan,<br>the figures which you made to worship,<br>so I will carry you away<sup>j</sup> beyond Babylon.’
+<sup>42</sup> But God turned away and gave them up to serve the army of the sky,<sup>j</sup> as it is written in the book of the prophets,<br>‘Did you offer to me slain animals and sacrifices<br>forty years in the wilderness, O house of Israel?<br>
+<sup>43</sup> You took up the tabernacle of Moloch,<br>the star of your god Rephan,<br>the figures which you made to worship,<br>so I will carry you away<sup>k</sup> beyond Babylon.’
 
 <sup>44</sup> “Our fathers had the tabernacle of the testimony in the wilderness, even as he who spoke to Moses commanded him to make it according to the pattern that he had seen;
 <sup>45</sup> which also our fathers, in their turn, brought in with Joshua when they entered into the possession of the nations whom God drove out before the face of our fathers to the days of David,
@@ -337,7 +339,7 @@ She said, “Yes, for so much.”
 <sup>47</sup> But Solomon built him a house.
 <sup>48</sup> However, the Most High doesn’t dwell in temples made with hands, as the prophet says,<br>
 <sup>49</sup> ‘heaven is my throne,<br>and the earth a footstool for my feet.<br>What kind of house will you build me?’ says the Lord.<br>‘Or what is the place of my rest?<br>
-<sup>50</sup> Didn’t my hand make all these things?’<sup>k</sup>
+<sup>50</sup> Didn’t my hand make all these things?’<sup>l</sup>
 
 <sup>51</sup> “You stiff-necked and uncircumcised in heart and ears, you always resist the Holy Spirit! As your fathers did, so you do.
 <sup>52</sup> Which of the prophets didn’t your fathers persecute? They killed those who foretold the coming of the Righteous One, of whom you have now become betrayers and murderers.
@@ -358,11 +360,12 @@ She said, “Yes, for so much.”
 > - <sup>d</sup> 28. Exodus 2:14
 > - <sup>e</sup> 32. Exodus 3:6
 > - <sup>f</sup> 34. Exodus 3:5,7-8,10
-> - <sup>g</sup> 37. Deuteronomy 18:15
-> - <sup>h</sup> 40. Exodus 32:1
-> - <sup>i</sup> 42. This idiom could also be translated “host of heaven”, or “angelic beings”, or “heavenly bodies.”
-> - <sup>j</sup> 43. Amos 5:25-27
-> - <sup>k</sup> 50. Isaiah 66:1-2
+> - <sup>g</sup> 37. TR adds “You shall listen to him.”
+> - <sup>h</sup> 37. Deuteronomy 18:15
+> - <sup>i</sup> 40. Exodus 32:1
+> - <sup>j</sup> 42. This idiom could also be translated “host of heaven”, or “angelic beings”, or “heavenly bodies.”
+> - <sup>k</sup> 43. Amos 5:25-27
+> - <sup>l</sup> 50. Isaiah 66:1-2
 
 ## Chapter 8
 
@@ -491,7 +494,7 @@ Saul stayed several days with the disciples who were at Damascus.
 > - <sup>b</sup> 6. TR omits “But”
 > - <sup>c</sup> 11. or, Judas
 > - <sup>d</sup> 28. TR and NU add “and going out”
-> - <sup>e</sup> 29. TR and NU omit “Jesus” and reverse the order of verses 28 &amp; 29.
+> - <sup>e</sup> 29. TR and NU omit “Jesus” and reverse the order of verses 28 & 29.
 > - <sup>f</sup> 29. The Hellenists were Hebrews who used Greek language and culture.
 > - <sup>g</sup> 30. The word for “brothers” here and where the context allows may also be correctly translated “brothers and sisters” or “siblings.”
 > - <sup>h</sup> 36. “Dorcas” is Greek for “Gazelle.”

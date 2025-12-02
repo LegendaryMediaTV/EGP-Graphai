@@ -422,27 +422,28 @@ then he says,<br>
 
 <sup>18</sup> For you have not come to a mountain that might be touched and that burned with fire, and to blackness, darkness, storm,
 <sup>19</sup> the sound of a trumpet, and the voice of words; which those who heard it begged that not one more word should be spoken to them,
-<sup>20</sup> for they could not stand that which was commanded, “If even an animal touches the mountain, it shall be stoned”.<sup>d</sup>
-<sup>21</sup> So fearful was the appearance that Moses said, “I am terrified and trembling.”<sup>e</sup>
+<sup>20</sup> for they could not stand that which was commanded, “If even an animal touches the mountain, it shall be stoned”.<sup>d</sup><sup>e</sup>
+<sup>21</sup> So fearful was the appearance that Moses said, “I am terrified and trembling.”<sup>f</sup>
 
 <sup>22</sup> But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable multitudes of angels,
 <sup>23</sup> to the festal gathering and assembly of the firstborn who are enrolled in heaven, to God the Judge of all, to the spirits of just men made perfect,
-<sup>24</sup> to Jesus, the mediator of a new covenant,<sup>f</sup> and to the blood of sprinkling that speaks better than that of Abel.
+<sup>24</sup> to Jesus, the mediator of a new covenant,<sup>g</sup> and to the blood of sprinkling that speaks better than that of Abel.
 
 <sup>25</sup> See that you don’t refuse him who speaks. For if they didn’t escape when they refused him who warned on the earth, how much more will we not escape who turn away from him who warns from heaven,
-<sup>26</sup> whose voice shook the earth then, but now he has promised, saying, “Yet once more I will shake not only the earth, but also the heavens.”<sup>g</sup>
+<sup>26</sup> whose voice shook the earth then, but now he has promised, saying, “Yet once more I will shake not only the earth, but also the heavens.”<sup>h</sup>
 <sup>27</sup> This phrase, “Yet once more” signifies the removing of those things that are shaken, as of things that have been made, that those things which are not shaken may remain.
 <sup>28</sup> Therefore, receiving a Kingdom that can’t be shaken, let’s have grace, through which we serve God acceptably, with reverence and awe,
-<sup>29</sup> for our God is a consuming fire.<sup>h</sup>
+<sup>29</sup> for our God is a consuming fire.<sup>i</sup>
 
 > - <sup>a</sup> 6. Proverbs 3:11-12
 > - <sup>b</sup> 12. Isaiah 35:3
 > - <sup>c</sup> 13. Proverbs 4:26
-> - <sup>d</sup> 20. Exodus 19:12-13
-> - <sup>e</sup> 21. Deuteronomy 9:19
-> - <sup>f</sup> 24. Jeremiah 31:31
-> - <sup>g</sup> 26. Haggai 2:6
-> - <sup>h</sup> 29. Deuteronomy 4:24
+> - <sup>d</sup> 20. TR adds “or shot with an arrow”
+> - <sup>e</sup> 20. Exodus 19:12-13
+> - <sup>f</sup> 21. Deuteronomy 9:19
+> - <sup>g</sup> 24. Jeremiah 31:31
+> - <sup>h</sup> 26. Haggai 2:6
+> - <sup>i</sup> 29. Deuteronomy 4:24
 
 ## Chapter 13
 
