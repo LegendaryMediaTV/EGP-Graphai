@@ -8,6 +8,7 @@
     "text": "Yahweh’s° word that came to Hosea the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.",
     "footnotes": [
       {
+        "type": "trn",
         "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
       }
     ],
@@ -57,6 +58,7 @@
     "text": "She conceived again, and bore a daughter. Then he said to him, “Call her name Lo-Ruhamah,° for I will no longer have mercy on the house of Israel, that I should in any way pardon them.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Lo-Ruhamah means “not loved”."
       }
     ],
@@ -94,6 +96,7 @@
     "text": "He said, “Call his name Lo-Ammi,° for you are not my people, and I will not be yours.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Lo-Ammi means “not my people”."
       }
     ],
@@ -124,10 +127,12 @@
     "text": "“Say to your brothers, ‘My people!’°\nand to your sisters, ‘My loved one!’°\n",
     "footnotes": [
       {
-        "text": "‘Ammi’ in Hebrew"
+        "type": "trn",
+        "text": "“Ammi” in Hebrew"
       },
       {
-        "text": "‘Ruhamah’ in Hebrew"
+        "type": "trn",
+        "text": "“Ruhamah” in Hebrew"
       }
     ],
     "paragraphs": [0]
@@ -332,6 +337,7 @@
     "text": "So I bought her for myself for fifteen pieces of silver and a homer° and a half of barley.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "1 homer is about 220 liters or 6 bushels"
       }
     ],
@@ -515,8 +521,7 @@
     "chapter": "hosea-4",
     "sequence": "128004019",
     "number": 19,
-    "text": "The wind has wrapped her up in its wings;\nand they shall be disappointed because of their sacrifices. ",
-    "paragraphs": [101]
+    "text": "The wind has wrapped her up in its wings;\nand they shall be disappointed because of their sacrifices."
   },
   {
     "_id": "webp-128005001",
@@ -639,8 +644,7 @@
     "chapter": "hosea-5",
     "sequence": "128005015",
     "number": 15,
-    "text": "I will go and return to my place,\nuntil they acknowledge their offense,\nand seek my face.\nIn their affliction they will seek me earnestly.” ",
-    "paragraphs": [139]
+    "text": "I will go and return to my place,\nuntil they acknowledge their offense,\nand seek my face.\nIn their affliction they will seek me earnestly.”"
   },
   {
     "_id": "webp-128006001",
@@ -861,8 +865,7 @@
     "chapter": "hosea-7",
     "sequence": "128007016",
     "number": 16,
-    "text": "They return, but not to the Most High.\nThey are like a faulty bow.\nTheir princes will fall by the sword for the rage of their tongue.\nThis will be their derision in the land of Egypt. ",
-    "paragraphs": [183]
+    "text": "They return, but not to the Most High.\nThey are like a faulty bow.\nTheir princes will fall by the sword for the rage of their tongue.\nThis will be their derision in the land of Egypt."
   },
   {
     "_id": "webp-128008001",
@@ -975,8 +978,7 @@
     "chapter": "hosea-8",
     "sequence": "128008014",
     "number": 14,
-    "text": "For Israel has forgotten his Maker and built palaces;\nand Judah has multiplied fortified cities;\nbut I will send a fire on his cities,\nand it will devour its fortresses.” ",
-    "paragraphs": [170]
+    "text": "For Israel has forgotten his Maker and built palaces;\nand Judah has multiplied fortified cities;\nbut I will send a fire on his cities,\nand it will devour its fortresses.”"
   },
   {
     "_id": "webp-128009001",
@@ -1237,8 +1239,7 @@
     "chapter": "hosea-10",
     "sequence": "128010015",
     "number": 15,
-    "text": "So Bethel will do to you because of your great wickedness.\nAt daybreak the king of Israel will be destroyed. ",
-    "paragraphs": [108]
+    "text": "So Bethel will do to you because of your great wickedness.\nAt daybreak the king of Israel will be destroyed."
   },
   {
     "_id": "webp-128011001",
@@ -1576,6 +1577,7 @@
     "text": "I will ransom them from the power of Sheol.°\nI will redeem them from death!\nDeath, where are your plagues?\nSheol, where is your destruction? “Compassion will be hidden from my eyes.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ],
@@ -1595,8 +1597,7 @@
     "chapter": "hosea-13",
     "sequence": "128013016",
     "number": 16,
-    "text": "Samaria will bear her guilt,\nfor she has rebelled against her God.\nThey will fall by the sword.\nTheir infants will be dashed in pieces,\nand their pregnant women will be ripped open.” ",
-    "paragraphs": [182]
+    "text": "Samaria will bear her guilt,\nfor she has rebelled against her God.\nThey will fall by the sword.\nTheir infants will be dashed in pieces,\nand their pregnant women will be ripped open.”"
   },
   {
     "_id": "webp-128014001",
@@ -1604,7 +1605,8 @@
     "chapter": "hosea-14",
     "sequence": "128014001",
     "number": 1,
-    "text": "Israel, return to Yahweh your God;\nfor you have fallen because of your sin.\n"
+    "text": "Israel, return to Yahweh your God;\nfor you have fallen because of your sin.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-128014002",

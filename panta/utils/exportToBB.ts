@@ -41,25 +41,45 @@ function extractSubtitle(content: any): {
       item !== null &&
       item.subtitle !== undefined
     ) {
-      // Extract subtitle
-      const subtitleText =
-        typeof item.subtitle === "string"
-          ? item.subtitle
-          : Array.isArray(item.subtitle)
-          ? convertGraphaiToBB(item.subtitle).text
-          : "";
+      // Extract subtitle - handle both string and object formats
+      let subtitleText = "";
+      let subtitleFoot: any = null;
+
+      if (typeof item.subtitle === "string") {
+        subtitleText = item.subtitle;
+      } else if (Array.isArray(item.subtitle)) {
+        subtitleText = convertGraphaiToBB(item.subtitle).text || "";
+      } else if (typeof item.subtitle === "object" && item.subtitle !== null) {
+        // Subtitle is an object with text and possibly foot properties
+        subtitleText = item.subtitle.text || "";
+        subtitleFoot = item.subtitle.foot;
+      }
 
       subtitle = { text: subtitleText };
 
-      // Extract footnotes if present
+      // Extract footnote from subtitle object (single foot)
+      if (subtitleFoot) {
+        const footResult = convertGraphaiToBB(subtitleFoot.content);
+        subtitle.footnotes = [
+          {
+            type: subtitleFoot.type,
+            text: footResult.text || "",
+          },
+        ];
+      }
+
+      // Extract footnotes if present at item level (array of feet)
       if (item.foot && Array.isArray(item.foot)) {
-        subtitle.footnotes = item.foot.map((foot: any) => {
+        const footArray = item.foot.map((foot: any) => {
           const footResult = convertGraphaiToBB(foot.content);
           return {
             type: foot.type,
             text: footResult.text || "",
           };
         });
+        subtitle.footnotes = subtitle.footnotes
+          ? [...subtitle.footnotes, ...footArray]
+          : footArray;
       }
     } else {
       cleanedContent.push(item);
@@ -106,10 +126,10 @@ const bookAbbrevToName: Record<string, string> = {
   NEH: "nehemiah",
   EST: "esther",
   JOB: "job",
-  PSA: "psalms",
+  PSA: "psalm",
   PRV: "proverbs",
   ECC: "ecclesiastes",
-  SOS: "song-of-songs",
+  SOS: "song-of-solomon",
   ISA: "isaiah",
   JER: "jeremiah",
   LAM: "lamentations",

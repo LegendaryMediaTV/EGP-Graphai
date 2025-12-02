@@ -17,6 +17,7 @@
     "text": "but his delight is in Yahweh’s° law.\nOn his law he meditates day and night.\n",
     "footnotes": [
       {
+        "type": "trn",
         "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
       }
     ]
@@ -174,9 +175,11 @@
     "chapter": "psalm-3",
     "sequence": "119003001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David, when he fled from Absalom his son."
+    },
     "text": "Yahweh, how my adversaries have increased!\nMany are those who rise up against me.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David, when he fled from Absalom his son."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119003002",
@@ -248,9 +251,11 @@
     "chapter": "psalm-4",
     "sequence": "119004001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician; on stringed instruments. A Psalm by David."
+    },
     "text": "Answer me when I call, God of my righteousness.\nGive me relief from my distress.\nHave mercy on me, and hear my prayer.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician; on stringed instruments. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119004002",
@@ -316,9 +321,11 @@
     "chapter": "psalm-5",
     "sequence": "119005001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician, with the flutes. A Psalm by David."
+    },
     "text": "Give ear to my words, Yahweh.\nConsider my meditation.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician, with the flutes. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119005002",
@@ -414,9 +421,11 @@
     "chapter": "psalm-6",
     "sequence": "119006001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician; on stringed instruments, upon the eight-stringed lyre. A Psalm by David."
+    },
     "text": "Yahweh, don’t rebuke me in your anger,\nneither discipline me in your wrath.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician; on stringed instruments, upon the eight-stringed lyre. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119006002",
@@ -451,6 +460,7 @@
     "text": "For in death there is no memory of you.\nIn Sheol,° who shall give you thanks?\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -501,9 +511,11 @@
     "chapter": "psalm-7",
     "sequence": "119007001",
     "number": 1,
+    "subtitle": {
+      "text": "A meditation by David, which he sang to Yahweh, concerning the words of Cush, the Benjamite."
+    },
     "text": "Yahweh, my God, I take refuge in you.\nSave me from all those who pursue me, and deliver me,\n",
-    "paragraphs": [0],
-    "heading": "A meditation by David, which he sang to Yahweh, concerning the words of Cush, the Benjamite."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119007002",
@@ -646,9 +658,11 @@
     "chapter": "psalm-8",
     "sequence": "119008001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician; on an instrument of Gath. A Psalm by David."
+    },
     "text": "Yahweh, our Lord, how majestic is your name in all the earth!\nYou have set your glory above the heavens!\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician; on an instrument of Gath. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119008002",
@@ -683,6 +697,7 @@
     "text": "For you have made him a little lower than the angels,°\nand crowned him with glory and honor.\n",
     "footnotes": [
       {
+        "type": "trn",
         "text": "Hebrew: Elohim. The word Elohim, used here, usually means “God”, but can also mean “gods”, “princes”, or “angels”. The Septuagint reads “angels” here. See also the quote from the Septuagint in Hebrews 2:7."
       }
     ]
@@ -725,9 +740,11 @@
     "chapter": "psalm-9",
     "sequence": "119009001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. Set to “The Death of the Son.” A Psalm by David."
+    },
     "text": "I will give thanks to Yahweh with my whole heart.\nI will tell of all your marvelous works.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. Set to “The Death of the Son.” A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119009002",
@@ -858,6 +875,7 @@
     "text": "The wicked shall be turned back to Sheol,°\neven all the nations that forget God.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ],
@@ -1039,9 +1057,11 @@
     "chapter": "psalm-11",
     "sequence": "119011001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. By David."
+    },
     "text": "In Yahweh, I take refuge.\nHow can you say to my soul, “Flee as a bird to your mountain”?\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119011002",
@@ -1097,9 +1117,11 @@
     "chapter": "psalm-12",
     "sequence": "119012001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician; upon an eight-stringed lyre. A Psalm of David."
+    },
     "text": "Help, Yahweh; for the godly man ceases.\nFor the faithful fail from among the children of men.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician; upon an eight-stringed lyre. A Psalm of David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119012002",
@@ -1163,9 +1185,11 @@
     "chapter": "psalm-13",
     "sequence": "119013001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "How long, Yahweh?\nWill you forget me forever?\nHow long will you hide your face from me?\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119013002",
@@ -1214,9 +1238,11 @@
     "chapter": "psalm-14",
     "sequence": "119014001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. By David."
+    },
     "text": "The fool has said in his heart, “There is no God.”\nThey are corrupt.\nThey have done abominable deeds.\nThere is no one who does good.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119014002",
@@ -1272,9 +1298,11 @@
     "chapter": "psalm-15",
     "sequence": "119015001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David."
+    },
     "text": "Yahweh, who shall dwell in your sanctuary?\nWho shall live on your holy hill?\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119015002",
@@ -1315,9 +1343,11 @@
     "chapter": "psalm-16",
     "sequence": "119016001",
     "number": 1,
+    "subtitle": {
+      "text": "A Poem by David."
+    },
     "text": "Preserve me, God, for I take refuge in you.\n",
-    "paragraphs": [0],
-    "heading": "A Poem by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119016002",
@@ -1394,6 +1424,7 @@
     "text": "For you will not leave my soul in Sheol,°\nneither will you allow your holy one to see corruption.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -1412,9 +1443,11 @@
     "chapter": "psalm-17",
     "sequence": "119017001",
     "number": 1,
+    "subtitle": {
+      "text": "A Prayer by David."
+    },
     "text": "Hear, Yahweh, my righteous plea.\nGive ear to my prayer that doesn’t go out of deceitful lips.\n",
-    "paragraphs": [0],
-    "heading": "A Prayer by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119017002",
@@ -1534,9 +1567,11 @@
     "chapter": "psalm-18",
     "sequence": "119018001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. By David the servant of Yahweh, who spoke to Yahweh the words of this song in the day that Yahweh delivered him from the hand of all his enemies, and from the hand of Saul. He said,"
+    },
     "text": "I love you, Yahweh, my strength.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. By David the servant of Yahweh, who spoke to Yahweh the words of this song in the day that Yahweh delivered him from the hand of all his enemies, and from the hand of Saul. He said,"
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119018002",
@@ -1571,6 +1606,7 @@
     "text": "The cords of Sheol° were around me.\nThe snares of death came on me.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -1947,9 +1983,11 @@
     "chapter": "psalm-19",
     "sequence": "119019001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "The heavens declare the glory of God.\nThe expanse shows his handiwork.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119019002",
@@ -2063,9 +2101,11 @@
     "chapter": "psalm-20",
     "sequence": "119020001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "May Yahweh answer you in the day of trouble.\nMay the name of the God of Jacob set you up on high,\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119020002",
@@ -2138,9 +2178,11 @@
     "chapter": "psalm-21",
     "sequence": "119021001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "The king rejoices in your strength, Yahweh!\nHow greatly he rejoices in your salvation!\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119021002",
@@ -2245,9 +2287,11 @@
     "chapter": "psalm-22",
     "sequence": "119022001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician; set to “The Doe of the Morning.” A Psalm by David."
+    },
     "text": "My God, my God, why have you forsaken me?\nWhy are you so far from helping me, and from the words of my groaning?\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician; set to “The Doe of the Morning.” A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119022002",
@@ -2370,6 +2414,7 @@
     "text": "For dogs have surrounded me.\nA company of evildoers have enclosed me.\nThey have pierced my hands and feet.°\n",
     "footnotes": [
       {
+        "type": "var",
         "text": "So Dead Sea Scrolls. Masoretic Text reads, “Like a lion, they pin my hands and feet.”"
       }
     ]
@@ -2503,9 +2548,11 @@
     "chapter": "psalm-23",
     "sequence": "119023001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David."
+    },
     "text": "Yahweh is my shepherd;\nI shall lack nothing.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119023002",
@@ -2553,9 +2600,11 @@
     "chapter": "psalm-24",
     "sequence": "119024001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David."
+    },
     "text": "The earth is Yahweh’s, with its fullness;\nthe world, and those who dwell in it.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119024002",
@@ -2637,9 +2686,11 @@
     "chapter": "psalm-25",
     "sequence": "119025001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "To you, Yahweh, I lift up my soul.\n",
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119025002",
@@ -2817,9 +2868,11 @@
     "chapter": "psalm-26",
     "sequence": "119026001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "Judge me, Yahweh, for I have walked in my integrity.\nI have trusted also in Yahweh without wavering.\n",
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119026002",
@@ -2916,9 +2969,11 @@
     "chapter": "psalm-27",
     "sequence": "119027001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "Yahweh is my light and my salvation.\nWhom shall I fear?\nYahweh is the strength of my life.\nOf whom shall I be afraid?\n",
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119027002",
@@ -3031,9 +3086,11 @@
     "chapter": "psalm-28",
     "sequence": "119028001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "To you, Yahweh, I call.\nMy rock, don’t be deaf to me,\nlest, if you are silent to me,\nI would become like those who go down into the pit.\n",
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119028002",
@@ -3106,9 +3163,11 @@
     "chapter": "psalm-29",
     "sequence": "119029001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David."
+    },
     "text": "Ascribe to Yahweh, you sons of the mighty,\nascribe to Yahweh glory and strength.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119029002",
@@ -3198,9 +3257,11 @@
     "chapter": "psalm-30",
     "sequence": "119030001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm. A Song for the Dedication of the Temple. By David."
+    },
     "text": "I will extol you, Yahweh, for you have raised me up,\nand have not made my foes to rejoice over me.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm. A Song for the Dedication of the Temple. By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119030002",
@@ -3219,6 +3280,7 @@
     "text": "Yahweh, you have brought up my soul from Sheol.°\nYou have kept me alive, that I should not go down to the pit.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -3301,9 +3363,11 @@
     "chapter": "psalm-31",
     "sequence": "119031001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "In you, Yahweh, I take refuge.\nLet me never be disappointed.\nDeliver me in your righteousness.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119031002",
@@ -3434,6 +3498,7 @@
     "text": "Let me not be disappointed, Yahweh, for I have called on you.\nLet the wicked be disappointed.\nLet them be silent in Sheol.°\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -3500,9 +3565,11 @@
     "chapter": "psalm-32",
     "sequence": "119032001",
     "number": 1,
+    "subtitle": {
+      "text": "By David. A contemplative psalm."
+    },
     "text": "Blessed is he whose disobedience is forgiven,\nwhose sin is covered.\n",
-    "paragraphs": [0],
-    "heading": "By David. A contemplative psalm."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119032002",
@@ -3770,14 +3837,17 @@
     "chapter": "psalm-34",
     "sequence": "119034001",
     "number": 1,
+    "subtitle": {
+      "text": "By David; when he pretended to be insane before Abimelech, who drove him away, and he departed."
+    },
     "text": "° I will bless Yahweh at all times.\nHis praise will always be in my mouth.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Psalm 34 is an acrostic poem, with each verse starting with a letter of the alphabet (ordered from Alef to Tav)."
       }
     ],
-    "paragraphs": [0],
-    "heading": "By David; when he pretended to be insane before Abimelech, who drove him away, and he departed."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119034002",
@@ -3954,9 +4024,11 @@
     "chapter": "psalm-35",
     "sequence": "119035001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "Contend, Yahweh, with those who contend with me.\nFight against those who fight against me.\n",
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119035002",
@@ -4183,9 +4255,11 @@
     "chapter": "psalm-36",
     "sequence": "119036001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. By David, the servant of Yahweh."
+    },
     "text": "A revelation is within my heart about the disobedience of the wicked:\nThere is no fear of God before his eyes.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. By David, the servant of Yahweh."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119036002",
@@ -4282,9 +4356,11 @@
     "chapter": "psalm-37",
     "sequence": "119037001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "Don’t fret because of evildoers,\nneither be envious against those who work unrighteousness.\n",
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119037002",
@@ -4607,9 +4683,11 @@
     "chapter": "psalm-38",
     "sequence": "119038001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David, for a memorial."
+    },
     "text": "Yahweh, don’t rebuke me in your wrath,\nneither chasten me in your hot displeasure.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David, for a memorial."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119038002",
@@ -4785,9 +4863,11 @@
     "chapter": "psalm-39",
     "sequence": "119039001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. For Jeduthun. A Psalm by David."
+    },
     "text": "I said, “I will watch my ways, so that I don’t sin with my tongue.\nI will keep my mouth with a bridle while the wicked is before me.”\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. For Jeduthun. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119039002",
@@ -4893,9 +4973,11 @@
     "chapter": "psalm-40",
     "sequence": "119040001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "I waited patiently for Yahweh.\nHe turned to me, and heard my cry.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119040002",
@@ -5031,9 +5113,11 @@
     "chapter": "psalm-41",
     "sequence": "119041001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "Blessed is he who considers the poor.\nYahweh will deliver him in the day of evil.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119041002",
@@ -5139,6 +5223,9 @@
     "chapter": "psalm-42",
     "sequence": "119042001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A contemplation by the sons of Korah."
+    },
     "text": "As the deer pants for the water brooks,\nso my soul pants after you, God.°\n",
     "footnotes": [
       {
@@ -5146,8 +5233,7 @@
         "text": "The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim)."
       }
     ],
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A contemplation by the sons of Korah."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119042002",
@@ -5206,6 +5292,7 @@
     "text": "Yahweh° will command his loving kindness in the daytime.\nIn the night his song shall be with me:\na prayer to the God of my life.\n",
     "footnotes": [
       {
+        "type": "trn",
         "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
       }
     ],
@@ -5282,9 +5369,11 @@
     "chapter": "psalm-44",
     "sequence": "119044001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. By the sons of Korah. A contemplative psalm."
+    },
     "text": "We have heard with our ears, God;\nour fathers have told us what work you did in their days,\nin the days of old.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. By the sons of Korah. A contemplative psalm."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119044002",
@@ -5499,9 +5588,11 @@
     "chapter": "psalm-45",
     "sequence": "119045001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. Set to “The Lilies.” A contemplation by the sons of Korah. A wedding song."
+    },
     "text": "My heart overflows with a noble theme.\nI recite my verses for the king.\nMy tongue is like the pen of a skillful writer.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. Set to “The Lilies.” A contemplation by the sons of Korah. A wedding song."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119045002",
@@ -5637,12 +5728,17 @@
     "chapter": "psalm-46",
     "sequence": "119046001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. By the sons of Korah. According to Alamoth.",
+      "footnotes": [
+        {
+          "type": "stu",
+          "text": "Alamoth is a musical term."
+        }
+      ]
+    },
     "text": "God is our refuge and strength,\na very present help in trouble.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. By the sons of Korah. According to Alamoth.°",
-    "headingFootnote": {
-      "text": "Alamoth is a musical term."
-    }
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119046002",
@@ -5724,8 +5820,7 @@
     "chapter": "psalm-46",
     "sequence": "119046011",
     "number": 11,
-    "text": "Yahweh of Armies is with us.\nThe God of Jacob is our refuge.\nSelah. ",
-    "paragraphs": [67]
+    "text": "Yahweh of Armies is with us.\nThe God of Jacob is our refuge.\nSelah."
   },
   {
     "_id": "webp-119047001",
@@ -5733,9 +5828,11 @@
     "chapter": "psalm-47",
     "sequence": "119047001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by the sons of Korah."
+    },
     "text": "Oh clap your hands, all you nations.\nShout to God with the voice of triumph!\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by the sons of Korah."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119047002",
@@ -5808,9 +5905,11 @@
     "chapter": "psalm-48",
     "sequence": "119048001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song. A Psalm by the sons of Korah."
+    },
     "text": "Great is Yahweh, and greatly to be praised,\nin the city of our God, in his holy mountain.\n",
-    "paragraphs": [0],
-    "heading": "A Song. A Psalm by the sons of Korah."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119048002",
@@ -5923,9 +6022,11 @@
     "chapter": "psalm-49",
     "sequence": "119049001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by the sons of Korah."
+    },
     "text": "Hear this, all you peoples.\nListen, all you inhabitants of the world,\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by the sons of Korah."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119049002",
@@ -6033,9 +6134,11 @@
     "text": "They are appointed as a flock for Sheol.°\nDeath shall be their shepherd.\nThe upright shall have dominion over them in the morning.\nTheir beauty shall decay in Sheol,°\nfar from their mansion.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       },
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ],
@@ -6050,6 +6153,7 @@
     "text": "But God will redeem my soul from the power of Sheol,°\nfor he will receive me.\nSelah.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -6101,9 +6205,11 @@
     "chapter": "psalm-50",
     "sequence": "119050001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by Asaph."
+    },
     "text": "The Mighty One, God, Yahweh, speaks,\nand calls the earth from sunrise to sunset.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119050002",
@@ -6291,9 +6397,11 @@
     "chapter": "psalm-51",
     "sequence": "119051001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David, when Nathan the prophet came to him, after he had gone in to Bathsheba."
+    },
     "text": "Have mercy on me, God, according to your loving kindness.\nAccording to the multitude of your tender mercies, blot out my transgressions.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David, when Nathan the prophet came to him, after he had gone in to Bathsheba."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119051002",
@@ -6446,9 +6554,11 @@
     "chapter": "psalm-52",
     "sequence": "119052001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A contemplation by David, when Doeg the Edomite came and told Saul, “David has come to Ahimelech’s house.”"
+    },
     "text": "Why do you boast of mischief, mighty man?\nGod’s loving kindness endures continually.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A contemplation by David, when Doeg the Edomite came and told Saul, “David has come to Ahimelech’s house.”"
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119052002",
@@ -6522,9 +6632,11 @@
     "chapter": "psalm-53",
     "sequence": "119053001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “Mahalath.” A contemplation by David."
+    },
     "text": "The fool has said in his heart, “There is no God.”\nThey are corrupt, and have done abominable iniquity.\nThere is no one who does good.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “Mahalath.” A contemplation by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119053002",
@@ -6572,9 +6684,11 @@
     "chapter": "psalm-54",
     "sequence": "119054001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. On stringed instruments. A contemplation by David, when the Ziphites came and said to Saul, “Isn’t David hiding himself among us?”"
+    },
     "text": "Save me, God, by your name.\nVindicate me in your might.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. On stringed instruments. A contemplation by David, when the Ziphites came and said to Saul, “Isn’t David hiding himself among us?”"
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119054002",
@@ -6631,9 +6745,11 @@
     "chapter": "psalm-55",
     "sequence": "119055001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. On stringed instruments. A contemplation by David."
+    },
     "text": "Listen to my prayer, God.\nDon’t hide yourself from my supplication.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. On stringed instruments. A contemplation by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119055002",
@@ -6749,6 +6865,7 @@
     "text": "Let death come suddenly on them.\nLet them go down alive into Sheol.°\nFor wickedness is among them, in their dwelling.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -6826,9 +6943,11 @@
     "chapter": "psalm-56",
     "sequence": "119056001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “Silent Dove in Distant Lands.” A poem by David, when the Philistines seized him in Gath."
+    },
     "text": "Be merciful to me, God, for man wants to swallow me up.\nAll day long, he attacks and oppresses me.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “Silent Dove in Distant Lands.” A poem by David, when the Philistines seized him in Gath."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119056002",
@@ -6932,9 +7051,11 @@
     "chapter": "psalm-57",
     "sequence": "119057001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when he fled from Saul, in the cave."
+    },
     "text": "Be merciful to me, God, be merciful to me,\nfor my soul takes refuge in you.\nYes, in the shadow of your wings, I will take refuge,\nuntil disaster has passed.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when he fled from Saul, in the cave."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119057002",
@@ -7025,9 +7146,11 @@
     "chapter": "psalm-58",
     "sequence": "119058001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David."
+    },
     "text": "Do you indeed speak righteousness, silent ones?\nDo you judge blamelessly, you sons of men?\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119058002",
@@ -7115,9 +7238,11 @@
     "chapter": "psalm-59",
     "sequence": "119059001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when Saul sent, and they watched the house to kill him."
+    },
     "text": "Deliver me from my enemies, my God.\nSet me on high from those who rise up against me.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “Do Not Destroy.” A poem by David, when Saul sent, and they watched the house to kill him."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119059002",
@@ -7256,9 +7381,11 @@
     "chapter": "psalm-60",
     "sequence": "119060001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “The Lily of the Covenant.” A teaching poem by David, when he fought with Aram Naharaim and with Aram Zobah, and Joab returned, and killed twelve thousand of Edom in the Valley of Salt."
+    },
     "text": "God, you have rejected us.\nYou have broken us down.\nYou have been angry.\nRestore us, again.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “The Lily of the Covenant.” A teaching poem by David, when he fought with Aram Naharaim and with Aram Zobah, and Joab returned, and killed twelve thousand of Edom in the Valley of Salt."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119060002",
@@ -7356,9 +7483,11 @@
     "chapter": "psalm-61",
     "sequence": "119061001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. For a stringed instrument. By David."
+    },
     "text": "Hear my cry, God.\nListen to my prayer.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. For a stringed instrument. By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119061002",
@@ -7423,9 +7552,11 @@
     "chapter": "psalm-62",
     "sequence": "119062001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To Jeduthun. A Psalm by David."
+    },
     "text": "My soul rests in God alone.\nMy salvation is from him.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To Jeduthun. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119062002",
@@ -7523,9 +7654,11 @@
     "chapter": "psalm-63",
     "sequence": "119063001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David, when he was in the desert of Judah."
+    },
     "text": "God, you are my God.\nI will earnestly seek you.\nMy soul thirsts for you.\nMy flesh longs for you,\nin a dry and weary land, where there is no water.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David, when he was in the desert of Judah."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119063002",
@@ -7613,9 +7746,11 @@
     "chapter": "psalm-64",
     "sequence": "119064001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "Hear my voice, God, in my complaint.\nPreserve my life from fear of the enemy.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119064002",
@@ -7695,9 +7830,11 @@
     "chapter": "psalm-65",
     "sequence": "119065001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David. A song."
+    },
     "text": "Praise waits for you, God, in Zion.\nVows shall be performed to you.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David. A song."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119065002",
@@ -7801,9 +7938,11 @@
     "chapter": "psalm-66",
     "sequence": "119066001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A song. A Psalm."
+    },
     "text": "Make a joyful shout to God, all the earth!\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A song. A Psalm."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119066002",
@@ -7966,9 +8105,11 @@
     "chapter": "psalm-67",
     "sequence": "119067001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. With stringed instruments. A Psalm. A song."
+    },
     "text": "May God be merciful to us, bless us,\nand cause his face to shine on us.\nSelah.",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. With stringed instruments. A Psalm. A song."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119067002",
@@ -8026,9 +8167,11 @@
     "chapter": "psalm-68",
     "sequence": "119068001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David. A song."
+    },
     "text": "Let God arise!\nLet his enemies be scattered!\nLet them who hate him also flee before him.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David. A song."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119068002",
@@ -8314,9 +8457,11 @@
     "chapter": "psalm-69",
     "sequence": "119069001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “Lilies.” By David."
+    },
     "text": "Save me, God,\nfor the waters have come up to my neck!\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “Lilies.” By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119069002",
@@ -8604,9 +8749,11 @@
     "chapter": "psalm-70",
     "sequence": "119070001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. By David. A reminder."
+    },
     "text": "Hurry, God, to deliver me.\nCome quickly to help me, Yahweh.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. By David. A reminder."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119070002",
@@ -8638,8 +8785,7 @@
     "chapter": "psalm-70",
     "sequence": "119070005",
     "number": 5,
-    "text": "But I am poor and needy.\nCome to me quickly, God.\nYou are my help and my deliverer.\nYahweh, don’t delay. ",
-    "paragraphs": [105]
+    "text": "But I am poor and needy.\nCome to me quickly, God.\nYou are my help and my deliverer.\nYahweh, don’t delay."
   },
   {
     "_id": "webp-119071001",
@@ -8840,9 +8986,11 @@
     "chapter": "psalm-72",
     "sequence": "119072001",
     "number": 1,
+    "subtitle": {
+      "text": "By Solomon."
+    },
     "text": "God, give the king your justice;\nyour righteousness to the royal son.\n",
-    "paragraphs": [0],
-    "heading": "By Solomon."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119072002",
@@ -9004,6 +9152,9 @@
     "chapter": "psalm-73",
     "sequence": "119073001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by Asaph."
+    },
     "text": "Surely God° is good to Israel,\nto those who are pure in heart.\n",
     "footnotes": [
       {
@@ -9011,8 +9162,7 @@
         "text": "The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim)."
       }
     ],
-    "paragraphs": [0],
-    "heading": "A Psalm by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119073002",
@@ -9234,13 +9384,13 @@
     "chapter": "psalm-73",
     "sequence": "119073028",
     "number": 28,
-    "text": "But it is good for me to come close to God.\nI have made the Lord Yahweh° my refuge,\nthat I may tell of all your works. ",
+    "text": "But it is good for me to come close to God.\nI have made the Lord Yahweh° my refuge,\nthat I may tell of all your works.",
     "footnotes": [
       {
+        "type": "trn",
         "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
       }
-    ],
-    "paragraphs": [118]
+    ]
   },
   {
     "_id": "webp-119074001",
@@ -9248,9 +9398,11 @@
     "chapter": "psalm-74",
     "sequence": "119074001",
     "number": 1,
+    "subtitle": {
+      "text": "A contemplation by Asaph."
+    },
     "text": "God, why have you rejected us forever?\nWhy does your anger smolder against the sheep of your pasture?\n",
-    "paragraphs": [0],
-    "heading": "A contemplation by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119074002",
@@ -9428,8 +9580,7 @@
     "chapter": "psalm-74",
     "sequence": "119074023",
     "number": 23,
-    "text": "Don’t forget the voice of your adversaries.\nThe tumult of those who rise up against you ascends continually. ",
-    "paragraphs": [108]
+    "text": "Don’t forget the voice of your adversaries.\nThe tumult of those who rise up against you ascends continually."
   },
   {
     "_id": "webp-119075001",
@@ -9437,9 +9588,11 @@
     "chapter": "psalm-75",
     "sequence": "119075001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “Do Not Destroy.” A Psalm by Asaph. A song."
+    },
     "text": "We give thanks to you, God.\nWe give thanks, for your Name is near.\nMen tell about your wondrous works.",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “Do Not Destroy.” A Psalm by Asaph. A song."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119075002",
@@ -9514,8 +9667,7 @@
     "chapter": "psalm-75",
     "sequence": "119075010",
     "number": 10,
-    "text": "I will cut off all the horns of the wicked,\nbut the horns of the righteous shall be lifted up. ",
-    "paragraphs": [94]
+    "text": "I will cut off all the horns of the wicked,\nbut the horns of the righteous shall be lifted up."
   },
   {
     "_id": "webp-119076001",
@@ -9523,9 +9675,11 @@
     "chapter": "psalm-76",
     "sequence": "119076001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. On stringed instruments. A Psalm by Asaph. A song."
+    },
     "text": "In Judah, God is known.\nHis name is great in Israel.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. On stringed instruments. A Psalm by Asaph. A song."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119076002",
@@ -9615,8 +9769,7 @@
     "chapter": "psalm-76",
     "sequence": "119076012",
     "number": 12,
-    "text": "He will cut off the spirit of princes.\nHe is feared by the kings of the earth. ",
-    "paragraphs": [78]
+    "text": "He will cut off the spirit of princes.\nHe is feared by the kings of the earth."
   },
   {
     "_id": "webp-119077001",
@@ -9624,9 +9777,11 @@
     "chapter": "psalm-77",
     "sequence": "119077001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To Jeduthun. A Psalm by Asaph."
+    },
     "text": "My cry goes to God!\nIndeed, I cry to God for help,\nand for him to listen to me.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To Jeduthun. A Psalm by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119077002",
@@ -9781,8 +9936,7 @@
     "chapter": "psalm-77",
     "sequence": "119077020",
     "number": 20,
-    "text": "You led your people like a flock,\nby the hand of Moses and Aaron. ",
-    "paragraphs": [65]
+    "text": "You led your people like a flock,\nby the hand of Moses and Aaron."
   },
   {
     "_id": "webp-119078001",
@@ -9790,9 +9944,11 @@
     "chapter": "psalm-78",
     "sequence": "119078001",
     "number": 1,
+    "subtitle": {
+      "text": "A contemplation by Asaph."
+    },
     "text": "Hear my teaching, my people.\nTurn your ears to the words of my mouth.\n",
-    "paragraphs": [0],
-    "heading": "A contemplation by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119078002",
@@ -10360,8 +10516,7 @@
     "chapter": "psalm-78",
     "sequence": "119078072",
     "number": 72,
-    "text": "So he was their shepherd according to the integrity of his heart,\nand guided them by the skillfulness of his hands. ",
-    "paragraphs": [115]
+    "text": "So he was their shepherd according to the integrity of his heart,\nand guided them by the skillfulness of his hands."
   },
   {
     "_id": "webp-119079001",
@@ -10369,9 +10524,11 @@
     "chapter": "psalm-79",
     "sequence": "119079001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by Asaph."
+    },
     "text": "God, the nations have come into your inheritance.\nThey have defiled your holy temple.\nThey have laid Jerusalem in heaps.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119079002",
@@ -10467,8 +10624,7 @@
     "chapter": "psalm-79",
     "sequence": "119079013",
     "number": 13,
-    "text": "So we, your people and sheep of your pasture,\nwill give you thanks forever.\nWe will praise you forever, to all generations. ",
-    "paragraphs": [123]
+    "text": "So we, your people and sheep of your pasture,\nwill give you thanks forever.\nWe will praise you forever, to all generations."
   },
   {
     "_id": "webp-119080001",
@@ -10476,9 +10632,11 @@
     "chapter": "psalm-80",
     "sequence": "119080001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. To the tune of “The Lilies of the Covenant.” A Psalm by Asaph."
+    },
     "text": "Hear us, Shepherd of Israel,\nyou who lead Joseph like a flock,\nyou who sit above the cherubim, shine out.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. To the tune of “The Lilies of the Covenant.” A Psalm by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119080002",
@@ -10632,9 +10790,11 @@
     "chapter": "psalm-81",
     "sequence": "119081001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. On an instrument of Gath. By Asaph."
+    },
     "text": "Sing aloud to God, our strength!\nMake a joyful shout to the God of Jacob!\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. On an instrument of Gath. By Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119081002",
@@ -10763,9 +10923,11 @@
     "chapter": "psalm-82",
     "sequence": "119082001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by Asaph."
+    },
     "text": "God presides in the great assembly.\nHe judges among the gods.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119082002",
@@ -10830,9 +10992,11 @@
     "chapter": "psalm-83",
     "sequence": "119083001",
     "number": 1,
+    "subtitle": {
+      "text": "A song. A Psalm by Asaph."
+    },
     "text": "God, don’t keep silent.\nDon’t keep silent,\nand don’t be still, God.\n",
-    "paragraphs": [0],
-    "heading": "A song. A Psalm by Asaph."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119083002",
@@ -10977,9 +11141,11 @@
     "chapter": "psalm-84",
     "sequence": "119084001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. On an instrument of Gath. A Psalm by the sons of Korah."
+    },
     "text": "How lovely are your dwellings,\nYahweh of Armies!\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. On an instrument of Gath. A Psalm by the sons of Korah."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119084002",
@@ -11077,9 +11243,11 @@
     "chapter": "psalm-85",
     "sequence": "119085001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by the sons of Korah."
+    },
     "text": "Yahweh, you have been favorable to your land.\nYou have restored the fortunes of Jacob.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by the sons of Korah."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119085002",
@@ -11184,9 +11352,11 @@
     "chapter": "psalm-86",
     "sequence": "119086001",
     "number": 1,
+    "subtitle": {
+      "text": "A Prayer by David."
+    },
     "text": "Hear, Yahweh, and answer me,\nfor I am poor and needy.\n",
-    "paragraphs": [0],
-    "heading": "A Prayer by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119086002",
@@ -11285,6 +11455,7 @@
     "text": "For your loving kindness is great toward me.\nYou have delivered my soul from the lowest Sheol.°\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -11327,9 +11498,11 @@
     "chapter": "psalm-87",
     "sequence": "119087001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by the sons of Korah; a Song."
+    },
     "text": "His foundation is in the holy mountains.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by the sons of Korah; a Song."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119087002",
@@ -11356,6 +11529,7 @@
     "text": "I will record Rahab° and Babylon among those who acknowledge me.\nBehold, Philistia, Tyre, and also Ethiopia:\n“This one was born there.”\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Rahab is a reference to Egypt."
       }
     ],
@@ -11392,9 +11566,11 @@
     "chapter": "psalm-88",
     "sequence": "119088001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song. A Psalm by the sons of Korah. For the Chief Musician. To the tune of “The Suffering of Affliction.” A contemplation by Heman, the Ezrahite."
+    },
     "text": "Yahweh, the God of my salvation,\nI have cried day and night before you.\n",
-    "paragraphs": [0],
-    "heading": "A Song. A Psalm by the sons of Korah. For the Chief Musician. To the tune of “The Suffering of Affliction.” A contemplation by Heman, the Ezrahite."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119088002",
@@ -11413,6 +11589,7 @@
     "text": "For my soul is full of troubles.\nMy life draws near to Sheol.°\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -11545,9 +11722,11 @@
     "chapter": "psalm-89",
     "sequence": "119089001",
     "number": 1,
+    "subtitle": {
+      "text": "A contemplation by Ethan, the Ezrahite."
+    },
     "text": "I will sing of the loving kindness of Yahweh forever.\nWith my mouth, I will make known your faithfulness to all generations.\n",
-    "paragraphs": [0],
-    "heading": "A contemplation by Ethan, the Ezrahite."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119089002",
@@ -11931,6 +12110,7 @@
     "text": "What man is he who shall live and not see death,\nwho shall deliver his soul from the power of Sheol?°\nSelah.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -11975,6 +12155,15 @@
     "chapter": "psalm-90",
     "sequence": "119090001",
     "number": 1,
+    "subtitle": {
+      "text": "A Prayer by Moses, the man of God.",
+      "footnotes": [
+        {
+          "type": "trn",
+          "text": "The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim)."
+        }
+      ]
+    },
     "text": "Lord,° you have been our dwelling place for all generations.\n",
     "footnotes": [
       {
@@ -11982,12 +12171,7 @@
         "text": "The word translated “Lord” is “Adonai.”"
       }
     ],
-    "paragraphs": [0],
-    "heading": "A Prayer by Moses, the man of God.°",
-    "headingFootnote": {
-      "type": "trn",
-      "text": "The Hebrew word rendered “God” is “[hebrew]אֱלֹהִ֑ים[/hebrew]” (Elohim)."
-    }
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119090002",
@@ -12086,6 +12270,7 @@
     "text": "Relent, Yahweh!°\nHow long?\nHave compassion on your servants!\n",
     "footnotes": [
       {
+        "type": "trn",
         "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
       }
     ]
@@ -12257,9 +12442,11 @@
     "chapter": "psalm-92",
     "sequence": "119092001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm. A song for the Sabbath day."
+    },
     "text": "It is a good thing to give thanks to Yahweh,\nto sing praises to your name, Most High,\n",
-    "paragraphs": [0],
-    "heading": "A Psalm. A song for the Sabbath day."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119092002",
@@ -12902,9 +13089,11 @@
     "chapter": "psalm-98",
     "sequence": "119098001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm."
+    },
     "text": "Sing to Yahweh a new song,\nfor he has done marvelous things!\nHis right hand and his holy arm have worked salvation for him.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119098002",
@@ -13051,9 +13240,11 @@
     "chapter": "psalm-100",
     "sequence": "119100001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm of thanksgiving."
+    },
     "text": "Shout for joy to Yahweh, all you lands!\n",
-    "paragraphs": [0],
-    "heading": "A Psalm of thanksgiving."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119100002",
@@ -13093,9 +13284,11 @@
     "chapter": "psalm-101",
     "sequence": "119101001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David."
+    },
     "text": "I will sing of loving kindness and justice.\nTo you, Yahweh, I will sing praises.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119101002",
@@ -13159,9 +13352,11 @@
     "chapter": "psalm-102",
     "sequence": "119102001",
     "number": 1,
+    "subtitle": {
+      "text": "A Prayer of the afflicted, when he is overwhelmed and pours out his complaint before Yahweh."
+    },
     "text": "Hear my prayer, Yahweh!\nLet my cry come to you.\n",
-    "paragraphs": [0],
-    "heading": "A Prayer of the afflicted, when he is overwhelmed and pours out his complaint before Yahweh."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119102002",
@@ -13387,9 +13582,11 @@
     "chapter": "psalm-103",
     "sequence": "119103001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "Praise Yahweh, my soul!\nAll that is within me, praise his holy name!\n",
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119103002",
@@ -14605,6 +14802,7 @@
     "text": "Give thanks to Yahweh,° for he is good,\nfor his loving kindness endures forever.\n",
     "footnotes": [
       {
+        "type": "trn",
         "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
       }
     ],
@@ -14737,7 +14935,7 @@
     "chapter": "psalm-107",
     "sequence": "119107016",
     "number": 16,
-    "text": " For he has broken the gates of bronze,\nand cut through bars of iron.",
+    "text": "For he has broken the gates of bronze,\nand cut through bars of iron.",
     "paragraphs": [0]
   },
   {
@@ -14967,9 +15165,11 @@
     "chapter": "psalm-108",
     "sequence": "119108001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song. A Psalm by David."
+    },
     "text": "My heart is steadfast, God.\nI will sing and I will make music with my soul.\n",
-    "paragraphs": [0],
-    "heading": "A Song. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119108002",
@@ -15073,9 +15273,11 @@
     "chapter": "psalm-109",
     "sequence": "119109001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "God of my praise, don’t remain silent,\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119109002",
@@ -15330,9 +15532,11 @@
     "chapter": "psalm-110",
     "sequence": "119110001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David."
+    },
     "text": "Yahweh says to my Lord, “Sit at my right hand,\nuntil I make your enemies your footstool for your feet.”\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119110002",
@@ -15391,6 +15595,7 @@
     "text": "Praise Yah!°\nI will give thanks to Yahweh with my whole heart,\nin the council of the upright, and in the congregation.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Psalm 111 is an acrostic poem, with each verse after the initial “Praise Yah!” starting with a letter of the alphabet (ordered from Alef to Tav)."
       }
     ],
@@ -15477,6 +15682,7 @@
     "text": "Praise Yah!°\nBlessed is the man who fears Yahweh,\nwho delights greatly in his commandments.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Psalm 112 is an acrostic poem, with each verse after the initial “Praise Yah!” starting with a letter of the alphabet (ordered from Alef to Tav)."
       }
     ],
@@ -15863,6 +16069,7 @@
     "text": "The cords of death surrounded me,\nthe pains of Sheol° got a hold of me.\nI found trouble and sorrow.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -16190,6 +16397,7 @@
     "text": "The stone which the builders rejected\nhas become the cornerstone.°\n",
     "footnotes": [
       {
+        "type": "trn",
         "text": "Literally, head of the corner"
       }
     ]
@@ -16256,9 +16464,8 @@
     "chapter": "psalm-119",
     "sequence": "119119001",
     "number": 1,
-    "text": "Blessed are those whose ways are blameless,\nwho walk according to Yahweh’s law.\n",
-    "paragraphs": [0],
-    "heading": "ALEPH"
+    "text": "[heading]ALEPH[/heading] Blessed are those whose ways are blameless,\nwho walk according to Yahweh’s law.\n",
+    "paragraphs": [24]
   },
   {
     "_id": "webp-119119002",
@@ -16322,9 +16529,8 @@
     "chapter": "psalm-119",
     "sequence": "119119009",
     "number": 9,
-    "text": "How can a young man keep his way pure?\nBy living according to your word.\n",
-    "paragraphs": [0],
-    "heading": "BETH"
+    "text": "[heading]BETH[/heading] How can a young man keep his way pure?\nBy living according to your word.\n",
+    "paragraphs": [23]
   },
   {
     "_id": "webp-119119010",
@@ -16388,9 +16594,8 @@
     "chapter": "psalm-119",
     "sequence": "119119017",
     "number": 17,
-    "text": "Do good to your servant.\nI will live and I will obey your word.\n",
-    "paragraphs": [0],
-    "heading": "GIMEL"
+    "text": "[heading]GIMEL[/heading] Do good to your servant.\nI will live and I will obey your word.\n",
+    "paragraphs": [24]
   },
   {
     "_id": "webp-119119018",
@@ -16454,9 +16659,8 @@
     "chapter": "psalm-119",
     "sequence": "119119025",
     "number": 25,
-    "text": "My soul is laid low in the dust.\nRevive me according to your word!\n",
-    "paragraphs": [0],
-    "heading": "DALETH"
+    "text": "[heading]DALETH[/heading] My soul is laid low in the dust.\nRevive me according to your word!\n",
+    "paragraphs": [25]
   },
   {
     "_id": "webp-119119026",
@@ -16520,9 +16724,8 @@
     "chapter": "psalm-119",
     "sequence": "119119033",
     "number": 33,
-    "text": "Teach me, Yahweh, the way of your statutes.\nI will keep them to the end.\n",
-    "paragraphs": [0],
-    "heading": "HE"
+    "text": "[heading]HE[/heading] Teach me, Yahweh, the way of your statutes.\nI will keep them to the end.\n",
+    "paragraphs": [21]
   },
   {
     "_id": "webp-119119034",
@@ -16586,9 +16789,8 @@
     "chapter": "psalm-119",
     "sequence": "119119041",
     "number": 41,
-    "text": "Let your loving kindness also come to me, Yahweh,\nyour salvation, according to your word.\n",
-    "paragraphs": [0],
-    "heading": "VAV"
+    "text": "[heading]VAV[/heading] Let your loving kindness also come to me, Yahweh,\nyour salvation, according to your word.\n",
+    "paragraphs": [22]
   },
   {
     "_id": "webp-119119042",
@@ -16652,9 +16854,8 @@
     "chapter": "psalm-119",
     "sequence": "119119049",
     "number": 49,
-    "text": "Remember your word to your servant,\nbecause you gave me hope.\n",
-    "paragraphs": [0],
-    "heading": "ZAYIN"
+    "text": "[heading]ZAYIN[/heading] Remember your word to your servant,\nbecause you gave me hope.\n",
+    "paragraphs": [24]
   },
   {
     "_id": "webp-119119050",
@@ -16718,9 +16919,8 @@
     "chapter": "psalm-119",
     "sequence": "119119057",
     "number": 57,
-    "text": "Yahweh is my portion.\nI promised to obey your words.\n",
-    "paragraphs": [0],
-    "heading": "HETH"
+    "text": "[heading]HETH[/heading] Yahweh is my portion.\nI promised to obey your words.\n",
+    "paragraphs": [23]
   },
   {
     "_id": "webp-119119058",
@@ -16784,9 +16984,8 @@
     "chapter": "psalm-119",
     "sequence": "119119065",
     "number": 65,
-    "text": "You have treated your servant well,\naccording to your word, Yahweh.\n",
-    "paragraphs": [0],
-    "heading": "TETH"
+    "text": "[heading]TETH[/heading] You have treated your servant well,\naccording to your word, Yahweh.\n",
+    "paragraphs": [23]
   },
   {
     "_id": "webp-119119066",
@@ -16850,9 +17049,8 @@
     "chapter": "psalm-119",
     "sequence": "119119073",
     "number": 73,
-    "text": "Your hands have made me and formed me.\nGive me understanding, that I may learn your commandments.\n",
-    "paragraphs": [0],
-    "heading": "YODH"
+    "text": "[heading]YODH[/heading] Your hands have made me and formed me.\nGive me understanding, that I may learn your commandments.\n",
+    "paragraphs": [23]
   },
   {
     "_id": "webp-119119074",
@@ -16916,9 +17114,8 @@
     "chapter": "psalm-119",
     "sequence": "119119081",
     "number": 81,
-    "text": "My soul faints for your salvation.\nI hope in your word.\n",
-    "paragraphs": [0],
-    "heading": "KAPF"
+    "text": "[heading]KAPF[/heading] My soul faints for your salvation.\nI hope in your word.\n",
+    "paragraphs": [23]
   },
   {
     "_id": "webp-119119082",
@@ -16982,9 +17179,8 @@
     "chapter": "psalm-119",
     "sequence": "119119089",
     "number": 89,
-    "text": "Yahweh, your word is settled in heaven forever.\n",
-    "paragraphs": [0],
-    "heading": "LAMEDH"
+    "text": "[heading]LAMEDH[/heading] Yahweh, your word is settled in heaven forever.\n",
+    "paragraphs": [25]
   },
   {
     "_id": "webp-119119090",
@@ -17048,9 +17244,8 @@
     "chapter": "psalm-119",
     "sequence": "119119097",
     "number": 97,
-    "text": "How I love your law!\nIt is my meditation all day.\n",
-    "paragraphs": [0],
-    "heading": "MEM"
+    "text": "[heading]MEM[/heading] How I love your law!\nIt is my meditation all day.\n",
+    "paragraphs": [22]
   },
   {
     "_id": "webp-119119098",
@@ -17114,9 +17309,8 @@
     "chapter": "psalm-119",
     "sequence": "119119105",
     "number": 105,
-    "text": "Your word is a lamp to my feet,\nand a light for my path.\n",
-    "paragraphs": [0],
-    "heading": "NUN"
+    "text": "[heading]NUN[/heading] Your word is a lamp to my feet,\nand a light for my path.\n",
+    "paragraphs": [22]
   },
   {
     "_id": "webp-119119106",
@@ -17180,9 +17374,8 @@
     "chapter": "psalm-119",
     "sequence": "119119113",
     "number": 113,
-    "text": "I hate double-minded men,\nbut I love your law.\n",
-    "paragraphs": [0],
-    "heading": "SAMEKH"
+    "text": "[heading]SAMEKH[/heading] I hate double-minded men,\nbut I love your law.\n",
+    "paragraphs": [25]
   },
   {
     "_id": "webp-119119114",
@@ -17246,9 +17439,8 @@
     "chapter": "psalm-119",
     "sequence": "119119121",
     "number": 121,
-    "text": "I have done what is just and righteous.\nDon’t leave me to my oppressors.\n",
-    "paragraphs": [0],
-    "heading": "AYIN"
+    "text": "[heading]AYIN[/heading] I have done what is just and righteous.\nDon’t leave me to my oppressors.\n",
+    "paragraphs": [23]
   },
   {
     "_id": "webp-119119122",
@@ -17312,9 +17504,8 @@
     "chapter": "psalm-119",
     "sequence": "119119129",
     "number": 129,
-    "text": "Your testimonies are wonderful,\ntherefore my soul keeps them.\n",
-    "paragraphs": [0],
-    "heading": "PE"
+    "text": "[heading]PE[/heading] Your testimonies are wonderful,\ntherefore my soul keeps them.\n",
+    "paragraphs": [21]
   },
   {
     "_id": "webp-119119130",
@@ -17378,9 +17569,8 @@
     "chapter": "psalm-119",
     "sequence": "119119137",
     "number": 137,
-    "text": "You are righteous, Yahweh.\nYour judgments are upright.\n",
-    "paragraphs": [0],
-    "heading": "TZADHE"
+    "text": "[heading]TZADHE[/heading] You are righteous, Yahweh.\nYour judgments are upright.\n",
+    "paragraphs": [25]
   },
   {
     "_id": "webp-119119138",
@@ -17444,9 +17634,8 @@
     "chapter": "psalm-119",
     "sequence": "119119145",
     "number": 145,
-    "text": "I have called with my whole heart.\nAnswer me, Yahweh!\nI will keep your statutes.\n",
-    "paragraphs": [0],
-    "heading": "QOPH"
+    "text": "[heading]QOPH[/heading] I have called with my whole heart.\nAnswer me, Yahweh!\nI will keep your statutes.\n",
+    "paragraphs": [23]
   },
   {
     "_id": "webp-119119146",
@@ -17510,9 +17699,8 @@
     "chapter": "psalm-119",
     "sequence": "119119153",
     "number": 153,
-    "text": "Consider my affliction, and deliver me,\nfor I don’t forget your law.\n",
-    "paragraphs": [0],
-    "heading": "RESH"
+    "text": "[heading]RESH[/heading] Consider my affliction, and deliver me,\nfor I don’t forget your law.\n",
+    "paragraphs": [23]
   },
   {
     "_id": "webp-119119154",
@@ -17576,9 +17764,8 @@
     "chapter": "psalm-119",
     "sequence": "119119161",
     "number": 161,
-    "text": "Princes have persecuted me without a cause,\nbut my heart stands in awe of your words.\n",
-    "paragraphs": [0],
-    "heading": "SIN AND SHIN"
+    "text": "[heading]SIN AND SHIN[/heading] Princes have persecuted me without a cause,\nbut my heart stands in awe of your words.\n",
+    "paragraphs": [31]
   },
   {
     "_id": "webp-119119162",
@@ -17642,9 +17829,8 @@
     "chapter": "psalm-119",
     "sequence": "119119169",
     "number": 169,
-    "text": "Let my cry come before you, Yahweh.\nGive me understanding according to your word.\n",
-    "paragraphs": [0],
-    "heading": "TAV"
+    "text": "[heading]TAV[/heading] Let my cry come before you, Yahweh.\nGive me understanding according to your word.\n",
+    "paragraphs": [22]
   },
   {
     "_id": "webp-119119170",
@@ -17708,9 +17894,11 @@
     "chapter": "psalm-120",
     "sequence": "119120001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "In my distress, I cried to Yahweh.\nHe answered me.\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119120002",
@@ -17766,9 +17954,11 @@
     "chapter": "psalm-121",
     "sequence": "119121001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "I will lift up my eyes to the hills.\nWhere does my help come from?\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119121002",
@@ -17833,9 +18023,11 @@
     "chapter": "psalm-122",
     "sequence": "119122001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents. By David."
+    },
     "text": "I was glad when they said to me,\n“Let’s go to Yahweh’s house!”\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents. By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119122002",
@@ -17907,9 +18099,11 @@
     "chapter": "psalm-123",
     "sequence": "119123001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "I lift up my eyes to you,\nyou who sit in the heavens.\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119123002",
@@ -17941,9 +18135,11 @@
     "chapter": "psalm-124",
     "sequence": "119124001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents. By David."
+    },
     "text": "If it had not been Yahweh who was on our side,\nlet Israel now say,\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents. By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119124002",
@@ -18007,9 +18203,11 @@
     "chapter": "psalm-125",
     "sequence": "119125001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "Those who trust in Yahweh are as Mount Zion,\nwhich can’t be moved, but remains forever.\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119125002",
@@ -18049,9 +18247,11 @@
     "chapter": "psalm-126",
     "sequence": "119126001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "When Yahweh brought back those who returned to Zion,\nwe were like those who dream.\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119126002",
@@ -18099,9 +18299,11 @@
     "chapter": "psalm-127",
     "sequence": "119127001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents. By Solomon."
+    },
     "text": "Unless Yahweh builds the house,\nthey who build it labor in vain.\nUnless Yahweh watches over the city,\nthe watchman guards it in vain.\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents. By Solomon."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119127002",
@@ -18141,9 +18343,11 @@
     "chapter": "psalm-128",
     "sequence": "119128001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "Blessed is everyone who fears Yahweh,\nwho walks in his ways.\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119128002",
@@ -18191,9 +18395,11 @@
     "chapter": "psalm-129",
     "sequence": "119129001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "Many times they have afflicted me from my youth up.\nLet Israel now say:\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119129002",
@@ -18257,9 +18463,11 @@
     "chapter": "psalm-130",
     "sequence": "119130001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "Out of the depths I have cried to you, Yahweh.\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119130002",
@@ -18323,9 +18531,11 @@
     "chapter": "psalm-131",
     "sequence": "119131001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents. By David."
+    },
     "text": "Yahweh, my heart isn’t arrogant, nor my eyes lofty;\nnor do I concern myself with great matters,\nor things too wonderful for me.\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents. By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119131002",
@@ -18349,9 +18559,11 @@
     "chapter": "psalm-132",
     "sequence": "119132001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "Yahweh, remember David and all his affliction,\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119132002",
@@ -18495,9 +18707,11 @@
     "chapter": "psalm-133",
     "sequence": "119133001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents. By David."
+    },
     "text": "See how good and how pleasant it is\nfor brothers to live together in unity!\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents. By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119133002",
@@ -18521,9 +18735,11 @@
     "chapter": "psalm-134",
     "sequence": "119134001",
     "number": 1,
+    "subtitle": {
+      "text": "A Song of Ascents."
+    },
     "text": "Look! Praise Yahweh, all you servants of Yahweh,\nwho stand by night in Yahweh’s house!\n",
-    "paragraphs": [0],
-    "heading": "A Song of Ascents."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119134002",
@@ -18999,6 +19215,9 @@
     "chapter": "psalm-138",
     "sequence": "119138001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "I will give you thanks with my whole heart.\nBefore the gods,° I will sing praises to you.\n",
     "footnotes": [
       {
@@ -19006,8 +19225,7 @@
         "text": "The word elohim, used here, usually means “God” but can also mean “gods”, “princes”, or “angels”."
       }
     ],
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119138002",
@@ -19071,9 +19289,11 @@
     "chapter": "psalm-139",
     "sequence": "119139001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "Yahweh, you have searched me,\nand you know me.\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119139002",
@@ -19132,6 +19352,7 @@
     "text": "If I ascend up into heaven, you are there.\nIf I make my bed in Sheol,° behold, you are there!\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -19270,9 +19491,11 @@
     "chapter": "psalm-140",
     "sequence": "119140001",
     "number": 1,
+    "subtitle": {
+      "text": "For the Chief Musician. A Psalm by David."
+    },
     "text": "Deliver me, Yahweh, from evil men.\nPreserve me from violent men:\n",
-    "paragraphs": [0],
-    "heading": "For the Chief Musician. A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119140002",
@@ -19379,9 +19602,11 @@
     "chapter": "psalm-141",
     "sequence": "119141001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David."
+    },
     "text": "Yahweh, I have called on you.\nCome to me quickly!\nListen to my voice when I call to you.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119141002",
@@ -19432,6 +19657,7 @@
     "text": "“As when one plows and breaks up the earth,\nour bones are scattered at the mouth of Sheol.”°\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -19466,9 +19692,11 @@
     "chapter": "psalm-142",
     "sequence": "119142001",
     "number": 1,
+    "subtitle": {
+      "text": "A contemplation by David, when he was in the cave. A Prayer."
+    },
     "text": "I cry with my voice to Yahweh.\nWith my voice, I ask Yahweh for mercy.\n",
-    "paragraphs": [0],
-    "heading": "A contemplation by David, when he was in the cave. A Prayer."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119142002",
@@ -19524,9 +19752,11 @@
     "chapter": "psalm-143",
     "sequence": "119143001",
     "number": 1,
+    "subtitle": {
+      "text": "A Psalm by David."
+    },
     "text": "Hear my prayer, Yahweh.\nListen to my petitions.\nIn your faithfulness and righteousness, relieve me.\n",
-    "paragraphs": [0],
-    "heading": "A Psalm by David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119143002",
@@ -19623,9 +19853,11 @@
     "chapter": "psalm-144",
     "sequence": "119144001",
     "number": 1,
+    "subtitle": {
+      "text": "By David."
+    },
     "text": "Blessed be Yahweh, my rock,\nwho trains my hands to war,\nand my fingers to battle—\n",
-    "paragraphs": [0],
-    "heading": "By David."
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119144002",
@@ -19746,12 +19978,17 @@
     "chapter": "psalm-145",
     "sequence": "119145001",
     "number": 1,
+    "subtitle": {
+      "text": "A praise psalm by David.",
+      "footnotes": [
+        {
+          "type": "stu",
+          "text": "This is an acrostic psalm, with every verse (including the second half of verse 13) starting with a consecutive letter of the Hebrew alphabet."
+        }
+      ]
+    },
     "text": "I will exalt you, my God, the King.\nI will praise your name forever and ever.\n",
-    "paragraphs": [0],
-    "heading": "A praise psalm by David.°",
-    "headingFootnote": {
-      "text": "This is an acrostic psalm, with every verse (including the second half of verse 13) starting with a consecutive letter of the Hebrew alphabet."
-    }
+    "paragraphs": [0]
   },
   {
     "_id": "webp-119145002",
@@ -19850,6 +20087,7 @@
     "text": "Your kingdom is an everlasting kingdom.\nYour dominion endures throughout all generations.\nYahweh is faithful in all his words,\nand loving in all his deeds.°\n",
     "footnotes": [
       {
+        "type": "var",
         "text": "Some manuscripts omit these last two lines."
       }
     ]
@@ -19916,8 +20154,7 @@
     "chapter": "psalm-145",
     "sequence": "119145021",
     "number": 21,
-    "text": "My mouth will speak the praise of Yahweh.\nLet all flesh bless his holy name forever and ever. ",
-    "paragraphs": [93]
+    "text": "My mouth will speak the praise of Yahweh.\nLet all flesh bless his holy name forever and ever."
   },
   {
     "_id": "webp-119146001",
@@ -19998,8 +20235,7 @@
     "chapter": "psalm-146",
     "sequence": "119146010",
     "number": 10,
-    "text": "Yahweh will reign forever;\nyour God, O Zion, to all generations.\nPraise Yah! ",
-    "paragraphs": [77]
+    "text": "Yahweh will reign forever;\nyour God, O Zion, to all generations.\nPraise Yah!"
   },
   {
     "_id": "webp-119147001",
@@ -20160,8 +20396,7 @@
     "chapter": "psalm-147",
     "sequence": "119147020",
     "number": 20,
-    "text": "He has not done this for just any nation.\nThey don’t know his ordinances.\nPraise Yah! ",
-    "paragraphs": [86]
+    "text": "He has not done this for just any nation.\nThey don’t know his ordinances.\nPraise Yah!"
   },
   {
     "_id": "webp-119148001",
@@ -20274,8 +20509,7 @@
     "chapter": "psalm-148",
     "sequence": "119148014",
     "number": 14,
-    "text": "He has lifted up the horn of his people,\nthe praise of all his saints,\neven of the children of Israel, a people near to him.\nPraise Yah! ",
-    "paragraphs": [137]
+    "text": "He has lifted up the horn of his people,\nthe praise of all his saints,\neven of the children of Israel, a people near to him.\nPraise Yah!"
   },
   {
     "_id": "webp-119149001",
@@ -20348,8 +20582,7 @@
     "chapter": "psalm-149",
     "sequence": "119149009",
     "number": 9,
-    "text": "to execute on them the written judgment.\nAll his saints have this honor.\nPraise Yah! ",
-    "paragraphs": [85]
+    "text": "to execute on them the written judgment.\nAll his saints have this honor.\nPraise Yah!"
   },
   {
     "_id": "webp-119150001",

@@ -149,7 +149,8 @@
     "chapter": "song-of-solomon-2",
     "sequence": "122002001",
     "number": 1,
-    "text": "I am a rose of Sharon,\na lily of the valleys."
+    "text": "I am a rose of Sharon,\na lily of the valleys.",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-122002002",
@@ -511,7 +512,8 @@
     "chapter": "song-of-solomon-5",
     "sequence": "122005001",
     "number": 1,
-    "text": "I have come into my garden, my sister, my bride.\nI have gathered my myrrh with my spice;\nI have eaten my honeycomb with my honey;\nI have drunk my wine with my milk.\nEat, friends!\nDrink, yes, drink abundantly, beloved."
+    "text": "I have come into my garden, my sister, my bride.\nI have gathered my myrrh with my spice;\nI have eaten my honeycomb with my honey;\nI have drunk my wine with my milk.\nEat, friends!\nDrink, yes, drink abundantly, beloved.",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-122005002",
@@ -640,7 +642,8 @@
     "chapter": "song-of-solomon-6",
     "sequence": "122006001",
     "number": 1,
-    "text": "Where has your beloved gone, you fairest among women?\nWhere has your beloved turned, that we may seek him with you?"
+    "text": "Where has your beloved gone, you fairest among women?\nWhere has your beloved turned, that we may seek him with you?",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-122006002",
@@ -899,9 +902,11 @@
     "text": "Set me as a seal on your heart,\nas a seal on your arm;\nfor love is strong as death.\nJealousy is as cruel as Sheol.°\nIts flashes are flashes of fire,\na very flame of Yah.°\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       },
       {
+        "type": "trn",
         "text": "“Yah” is a short form of “Yahweh”, which is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
       }
     ],
@@ -949,6 +954,7 @@
     "text": "Solomon had a vineyard at Baal Hamon.\nHe leased out the vineyard to keepers.\nEach was to bring a thousand shekels° of silver for its fruit.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "A shekel is about 10 grams or about 0.35 ounces, so 1000 shekels is about 10 kilograms or about 22 pounds."
       }
     ]

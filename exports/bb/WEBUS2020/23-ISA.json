@@ -17,6 +17,7 @@
     "text": "Hear, heavens,\nand listen, earth; for Yahweh° has spoken:\n“I have nourished and brought up children\nand they have rebelled against me.\n",
     "footnotes": [
       {
+        "type": "trn",
         "text": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
       }
     ]
@@ -228,6 +229,7 @@
     "text": "I will turn my hand on you,\nthoroughly purge away your dross,\nand will take away all your tin.°\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "tin is a metal that is separated from silver during the refining and purification process."
       }
     ]
@@ -471,7 +473,8 @@
         "type": "trn",
         "text": "“Behold”, from “[hebrew]הִנֵּה[/hebrew]”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
       }
-    ]
+    ],
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123003002",
@@ -732,7 +735,8 @@
     "chapter": "isaiah-5",
     "sequence": "123005001",
     "number": 1,
-    "text": "Let me sing for my well beloved a song of my beloved about his vineyard.\nMy beloved had a vineyard on a very fruitful hill.\n"
+    "text": "Let me sing for my well beloved a song of my beloved about his vineyard.\nMy beloved had a vineyard on a very fruitful hill.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123005002",
@@ -809,15 +813,19 @@
     "text": "For ten acres° of vineyard shall yield one bath,°\nand a homer° of seed shall yield an ephah.”°\n",
     "footnotes": [
       {
-        "text": "literally, ten yokes, or the amount of land that ten yokes of oxen can plow in one day, which is about 10 acres or 4 hectares."
+        "type": "trn",
+        "text": "Literally, ten yokes, or the amount of land that ten yokes of oxen can plow in one day, which is about 10 acres or 4 hectares."
       },
       {
+        "type": "stu",
         "text": "1 bath is about 22 liters or 5.8 U. S. gallons"
       },
       {
+        "type": "stu",
         "text": "1 homer is about 220 liters or 6 bushels"
       },
       {
+        "type": "stu",
         "text": "1 ephah is about 22 liters or 0.6 bushels or about 2 pecks—only one tenth of what was sown."
       }
     ]
@@ -856,6 +864,7 @@
     "text": "Therefore Sheol° has enlarged its desire,\nand opened its mouth without measure;\nand their glory, their multitude, their pomp, and he who rejoices among them, descend into it.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -1219,6 +1228,7 @@
     "text": "Therefore the Lord himself will give you a sign. Behold, the virgin will conceive, and bear a son, and shall call his name Immanuel.°",
     "footnotes": [
       {
+        "type": "stu",
         "text": "“Immanuel” means “God with us”."
       }
     ]
@@ -1299,6 +1309,7 @@
     "text": "It will happen in that day that every place where there were a thousand vines worth a thousand silver shekels,° will be for briers and thorns.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "A shekel is about 10 grams or about 0.35 ounces, so 1000 shekels is about 10 kilograms or 22 pounds."
       }
     ],
@@ -1329,6 +1340,7 @@
     "text": "Yahweh said to me, “Take a large tablet, and write on it with a man’s pen, ‘For Maher Shalal Hash Baz’;°",
     "footnotes": [
       {
+        "type": "stu",
         "text": "“Maher Shalal Hash Baz” means “quick to the plunder, swift to the prey”."
       }
     ],
@@ -1969,7 +1981,8 @@
     "chapter": "isaiah-11",
     "sequence": "123011001",
     "number": 1,
-    "text": "A shoot will come out of the stock of Jesse,\nand a branch out of his roots will bear fruit.\n"
+    "text": "A shoot will come out of the stock of Jesse,\nand a branch out of his roots will bear fruit.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123011002",
@@ -2398,6 +2411,7 @@
     "text": "Sheol° from beneath has moved for you to meet you at your coming. It stirs up the departed spirits for you, even all the rulers of the earth. It has raised up from their thrones all the kings of the nations.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -2419,6 +2433,7 @@
     "text": "Your pomp is brought down to Sheol,° with the sound of your stringed instruments. Maggots are spread out under you, and worms cover you.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -2457,6 +2472,7 @@
     "text": "Yet you shall be brought down to Sheol,° to the depths of the pit.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -3950,7 +3966,8 @@
     "text": "In this mountain, Yahweh of Armies will make all peoples a feast of choice meat,° a feast of choice wines, of choice meat full of marrow, of well refined choice wines.",
     "footnotes": [
       {
-        "text": "literally, fat things"
+        "type": "trn",
+        "text": "Literally, fat things"
       }
     ],
     "paragraphs": [0]
@@ -4413,6 +4430,7 @@
     "text": "“Because you have said, ‘We have made a covenant with death, and we are in agreement with Sheol.° When the overflowing scourge passes through, it won’t come to us; for we have made lies our refuge, and we have hidden ourselves under falsehood.’ ”",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -4442,6 +4460,7 @@
     "text": "Your covenant with death shall be annulled, and your agreement with Sheol° shall not stand. When the overflowing scourge passes through, then you will be trampled down by it.",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -5016,7 +5035,8 @@
     "chapter": "isaiah-31",
     "sequence": "123031001",
     "number": 1,
-    "text": "Woe to those who go down to Egypt for help,\nand rely on horses,\nand trust in chariots because they are many,\nand in horsemen because they are very strong,\nbut they don’t look to the Holy One of Israel,\nand they don’t seek Yahweh!\n"
+    "text": "Woe to those who go down to Egypt for help,\nand rely on horses,\nand trust in chariots because they are many,\nand in horsemen because they are very strong,\nbut they don’t look to the Holy One of Israel,\nand they don’t seek Yahweh!\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123031002",
@@ -5090,7 +5110,8 @@
     "chapter": "isaiah-32",
     "sequence": "123032001",
     "number": 1,
-    "text": "Behold, a king shall reign in righteousness,\nand princes shall rule in justice.\n"
+    "text": "Behold, a king shall reign in righteousness,\nand princes shall rule in justice.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123032002",
@@ -5252,7 +5273,8 @@
     "chapter": "isaiah-33",
     "sequence": "123033001",
     "number": 1,
-    "text": "Woe to you who destroy, but you weren’t destroyed,\nand who betray, but nobody betrayed you!\nWhen you have finished destroying, you will be destroyed;\nand when you have finished betrayal, you will be betrayed."
+    "text": "Woe to you who destroy, but you weren’t destroyed,\nand who betray, but nobody betrayed you!\nWhen you have finished destroying, you will be destroyed;\nand when you have finished betrayal, you will be betrayed.",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123033002",
@@ -5450,7 +5472,8 @@
     "chapter": "isaiah-34",
     "sequence": "123034001",
     "number": 1,
-    "text": "Come near, you nations, to hear!\nListen, you peoples.\nLet the earth and all it contains hear,\nthe world, and everything that comes from it.\n"
+    "text": "Come near, you nations, to hear!\nListen, you peoples.\nLet the earth and all it contains hear,\nthe world, and everything that comes from it.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123034002",
@@ -5558,7 +5581,8 @@
     "text": "The wild animals of the desert will meet with the wolves,\nand the wild goat will cry to his fellow.\nYes, the night creature° shall settle there,\nand shall find herself a place of rest.\n",
     "footnotes": [
       {
-        "text": "literally, lilith, which could also be a night demon or night monster"
+        "type": "trn",
+        "text": "Literally, lilith, which could also be a night demon or night monster"
       }
     ]
   },
@@ -5585,8 +5609,7 @@
     "chapter": "isaiah-34",
     "sequence": "123034017",
     "number": 17,
-    "text": "He has cast the lot for them,\nand his hand has divided it to them with a measuring line.\nThey shall possess it forever.\nFrom generation to generation they will dwell in it. ",
-    "paragraphs": [172]
+    "text": "He has cast the lot for them,\nand his hand has divided it to them with a measuring line.\nThey shall possess it forever.\nFrom generation to generation they will dwell in it."
   },
   {
     "_id": "webp-123035001",
@@ -5594,7 +5617,8 @@
     "chapter": "isaiah-35",
     "sequence": "123035001",
     "number": 1,
-    "text": "The wilderness and the dry land will be glad.\nThe desert will rejoice and blossom like a rose.\n"
+    "text": "The wilderness and the dry land will be glad.\nThe desert will rejoice and blossom like a rose.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123035002",
@@ -6251,6 +6275,7 @@
     "text": "I said, “In the middle of my life I go into the gates of Sheol.°\nI am deprived of the residue of my years.”\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -6320,6 +6345,7 @@
     "text": "For Sheol° can’t praise you.\nDeath can’t celebrate you.\nThose who go down into the pit can’t hope for your truth.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -6688,7 +6714,8 @@
     "chapter": "isaiah-41",
     "sequence": "123041001",
     "number": 1,
-    "text": "“Keep silent before me, islands,\nand let the peoples renew their strength.\nLet them come near,\nthen let them speak.\nLet’s meet together for judgment.\n"
+    "text": "“Keep silent before me, islands,\nand let the peoples renew their strength.\nLet them come near,\nthen let them speak.\nLet’s meet together for judgment.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123041002",
@@ -6925,7 +6952,8 @@
     "chapter": "isaiah-42",
     "sequence": "123042001",
     "number": 1,
-    "text": "“Behold, my servant, whom I uphold,\nmy chosen, in whom my soul delights:\nI have put my Spirit on him.\nHe will bring justice to the nations.\n"
+    "text": "“Behold, my servant, whom I uphold,\nmy chosen, in whom my soul delights:\nI have put my Spirit on him.\nHe will bring justice to the nations.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123042002",
@@ -7132,7 +7160,8 @@
     "chapter": "isaiah-43",
     "sequence": "123043001",
     "number": 1,
-    "text": "But now Yahweh who created you, Jacob,\nand he who formed you, Israel, says:\n“Don’t be afraid, for I have redeemed you.\nI have called you by your name.\nYou are mine.\n"
+    "text": "But now Yahweh who created you, Jacob,\nand he who formed you, Israel, says:\n“Don’t be afraid, for I have redeemed you.\nI have called you by your name.\nYou are mine.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123043002",
@@ -7362,7 +7391,8 @@
     "chapter": "isaiah-44",
     "sequence": "123044001",
     "number": 1,
-    "text": "Yet listen now, Jacob my servant,\nand Israel, whom I have chosen.\n"
+    "text": "Yet listen now, Jacob my servant,\nand Israel, whom I have chosen.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123044002",
@@ -7807,7 +7837,8 @@
     "chapter": "isaiah-46",
     "sequence": "123046001",
     "number": 1,
-    "text": "Bel bows down.\nNebo stoops.\nTheir idols are carried by animals,\nand on the livestock.\nThe things that you carried around are heavy loads,\na burden for the weary.\n"
+    "text": "Bel bows down.\nNebo stoops.\nTheir idols are carried by animals,\nand on the livestock.\nThe things that you carried around are heavy loads,\na burden for the weary.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123046002",
@@ -7907,8 +7938,7 @@
     "chapter": "isaiah-46",
     "sequence": "123046013",
     "number": 13,
-    "text": "I bring my righteousness near.\nIt is not far off,\nand my salvation will not wait.\nI will grant salvation to Zion,\nmy glory to Israel. ",
-    "paragraphs": [134]
+    "text": "I bring my righteousness near.\nIt is not far off,\nand my salvation will not wait.\nI will grant salvation to Zion,\nmy glory to Israel. "
   },
   {
     "_id": "webp-123047001",
@@ -8033,8 +8063,7 @@
     "chapter": "isaiah-47",
     "sequence": "123047015",
     "number": 15,
-    "text": "The things that you labored in will be like this:\nthose who have trafficked with you from your youth will each wander in his own way.\nThere will be no one to save you. ",
-    "paragraphs": [167]
+    "text": "The things that you labored in will be like this:\nthose who have trafficked with you from your youth will each wander in his own way.\nThere will be no one to save you."
   },
   {
     "_id": "webp-123048001",
@@ -8042,7 +8071,8 @@
     "chapter": "isaiah-48",
     "sequence": "123048001",
     "number": 1,
-    "text": "“Hear this, house of Jacob,\nyou who are called by the name of Israel,\nand have come out of the waters of Judah.\nYou swear by Yahweh’s name,\nand make mention of the God of Israel,\nbut not in truth, nor in righteousness—\n"
+    "text": "“Hear this, house of Jacob,\nyou who are called by the name of Israel,\nand have come out of the waters of Judah.\nYou swear by Yahweh’s name,\nand make mention of the God of Israel,\nbut not in truth, nor in righteousness—\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123048002",
@@ -8225,7 +8255,8 @@
     "chapter": "isaiah-49",
     "sequence": "123049001",
     "number": 1,
-    "text": "Listen, islands, to me.\nListen, you peoples, from afar:\nYahweh has called me from the womb;\nfrom the inside of my mother, he has mentioned my name.\n"
+    "text": "Listen, islands, to me.\nListen, you peoples, from afar:\nYahweh has called me from the womb;\nfrom the inside of my mother, he has mentioned my name.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123049002",
@@ -8438,7 +8469,8 @@
     "chapter": "isaiah-50",
     "sequence": "123050001",
     "number": 1,
-    "text": "Yahweh says, “Where is the bill of your mother’s divorce, with which I have put her away?\nOr to which of my creditors have I sold you?\nBehold, you were sold for your iniquities,\nand your mother was put away for your transgressions.\n"
+    "text": "Yahweh says, “Where is the bill of your mother’s divorce, with which I have put her away?\nOr to which of my creditors have I sold you?\nBehold, you were sold for your iniquities,\nand your mother was put away for your transgressions.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123050002",
@@ -8528,7 +8560,8 @@
     "chapter": "isaiah-51",
     "sequence": "123051001",
     "number": 1,
-    "text": "“Listen to me, you who follow after righteousness,\nyou who seek Yahweh.\nLook to the rock you were cut from,\nand to the quarry you were dug from.\n"
+    "text": "“Listen to me, you who follow after righteousness,\nyou who seek Yahweh.\nLook to the rock you were cut from,\nand to the quarry you were dug from.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123051002",
@@ -8718,7 +8751,8 @@
     "chapter": "isaiah-52",
     "sequence": "123052001",
     "number": 1,
-    "text": "Awake, awake! Put on your strength, Zion.\nPut on your beautiful garments, Jerusalem, the holy city,\nfor from now on the uncircumcised and the unclean will no more come into you.\n"
+    "text": "Awake, awake! Put on your strength, Zion.\nPut on your beautiful garments, Jerusalem, the holy city,\nfor from now on the uncircumcised and the unclean will no more come into you.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123052002",
@@ -8850,7 +8884,8 @@
     "chapter": "isaiah-53",
     "sequence": "123053001",
     "number": 1,
-    "text": "Who has believed our message?\nTo whom has Yahweh’s arm been revealed?\n"
+    "text": "Who has believed our message?\nTo whom has Yahweh’s arm been revealed?\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123053002",
@@ -8936,6 +8971,7 @@
     "text": "After the suffering of his soul,\nhe will see the light° and be satisfied.\nMy righteous servant will justify many by the knowledge of himself;\nand he will bear their iniquities.\n",
     "footnotes": [
       {
+        "type": "var",
         "text": "So read the Dead Sea Scrolls and Septuagint. Masoretic Text omits “the light”."
       }
     ]
@@ -8954,7 +8990,8 @@
     "chapter": "isaiah-54",
     "sequence": "123054001",
     "number": 1,
-    "text": "“Sing, barren, you who didn’t give birth!\nBreak out into singing, and cry aloud, you who didn’t travail with child!\nFor more are the children of the desolate than the children of the married wife,” says Yahweh.\n"
+    "text": "“Sing, barren, you who didn’t give birth!\nBreak out into singing, and cry aloud, you who didn’t travail with child!\nFor more are the children of the desolate than the children of the married wife,” says Yahweh.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123054002",
@@ -9095,7 +9132,8 @@
     "chapter": "isaiah-55",
     "sequence": "123055001",
     "number": 1,
-    "text": "“Hey! Come, everyone who thirsts, to the waters!\nCome, he who has no money, buy, and eat!\nYes, come, buy wine and milk without money and without price.\n"
+    "text": "“Hey! Come, everyone who thirsts, to the waters!\nCome, he who has no money, buy, and eat!\nYes, come, buy wine and milk without money and without price.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123055002",
@@ -9302,7 +9340,8 @@
     "chapter": "isaiah-57",
     "sequence": "123057001",
     "number": 1,
-    "text": "The righteous perish,\nand no one lays it to heart.\nMerciful men are taken away,\nand no one considers that the righteous is taken away from the evil.\n"
+    "text": "The righteous perish,\nand no one lays it to heart.\nMerciful men are taken away,\nand no one considers that the righteous is taken away from the evil.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123057002",
@@ -9370,6 +9409,7 @@
     "text": "You went to the king with oil,\nincreased your perfumes,\nsent your ambassadors far off,\nand degraded yourself even to Sheol.°\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Sheol is the place of the dead."
       }
     ]
@@ -9478,7 +9518,8 @@
     "chapter": "isaiah-58",
     "sequence": "123058001",
     "number": 1,
-    "text": "“Cry aloud! Don’t spare!\nLift up your voice like a trumpet!\nDeclare to my people their disobedience,\nand to the house of Jacob their sins.\n"
+    "text": "“Cry aloud! Don’t spare!\nLift up your voice like a trumpet!\nDeclare to my people their disobedience,\nand to the house of Jacob their sins.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123058002",
@@ -9594,7 +9635,8 @@
     "chapter": "isaiah-59",
     "sequence": "123059001",
     "number": 1,
-    "text": "Behold, Yahweh’s hand is not shortened, that it can’t save;\nnor his ear dull, that it can’t hear.\n"
+    "text": "Behold, Yahweh’s hand is not shortened, that it can’t save;\nnor his ear dull, that it can’t hear.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123059002",
@@ -9767,7 +9809,8 @@
     "chapter": "isaiah-60",
     "sequence": "123060001",
     "number": 1,
-    "text": "“Arise, shine; for your light has come,\nand Yahweh’s glory has risen on you!\n"
+    "text": "“Arise, shine; for your light has come,\nand Yahweh’s glory has risen on you!\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123060002",
@@ -9951,9 +9994,11 @@
     "text": "The Lord Yahweh’s Spirit is on me,\nbecause Yahweh has anointed me to preach good news to the humble.\nHe has sent me to bind up the broken hearted,\nto proclaim liberty to the captives\nand release to those who are bound,°\n",
     "footnotes": [
       {
+        "type": "var",
         "text": "LXX and DSS add: recovery of sight to the blind"
       }
-    ]
+    ],
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123061002",
@@ -10043,7 +10088,8 @@
     "chapter": "isaiah-62",
     "sequence": "123062001",
     "number": 1,
-    "text": "For Zion’s sake I will not hold my peace,\nand for Jerusalem’s sake I will not rest,\nuntil her righteousness shines out like the dawn,\nand her salvation like a burning lamp.\n"
+    "text": "For Zion’s sake I will not hold my peace,\nand for Jerusalem’s sake I will not rest,\nuntil her righteousness shines out like the dawn,\nand her salvation like a burning lamp.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123062002",
@@ -10070,9 +10116,11 @@
     "text": "You will not be called Forsaken any more,\nnor will your land be called Desolate any more;\nbut you will be called Hephzibah,°\nand your land Beulah;°\nfor Yahweh delights in you,\nand your land will be married.\n",
     "footnotes": [
       {
+        "type": "stu",
         "text": "Hephzibah means “I delight in her”."
       },
       {
+        "type": "stu",
         "text": "Beulah means “married”"
       }
     ]
@@ -10150,7 +10198,8 @@
     "chapter": "isaiah-63",
     "sequence": "123063001",
     "number": 1,
-    "text": "Who is this who comes from Edom,\nwith dyed garments from Bozrah?\nWho is this who is glorious in his clothing,\nmarching in the greatness of his strength?\n“It is I who speak in righteousness,\nmighty to save.”\n"
+    "text": "Who is this who comes from Edom,\nwith dyed garments from Bozrah?\nWho is this who is glorious in his clothing,\nmarching in the greatness of his strength?\n“It is I who speak in righteousness,\nmighty to save.”\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123063002",
@@ -10307,7 +10356,8 @@
     "chapter": "isaiah-64",
     "sequence": "123064001",
     "number": 1,
-    "text": "Oh that you would tear the heavens,\nthat you would come down,\nthat the mountains might quake at your presence—\n"
+    "text": "Oh that you would tear the heavens,\nthat you would come down,\nthat the mountains might quake at your presence—\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123064002",
@@ -10404,7 +10454,8 @@
     "chapter": "isaiah-65",
     "sequence": "123065001",
     "number": 1,
-    "text": "“I am inquired of by those who didn’t ask.\nI am found by those who didn’t seek me.\nI said, ‘See me, see me,’ to a nation that was not called by my name.\n"
+    "text": "“I am inquired of by those who didn’t ask.\nI am found by those who didn’t seek me.\nI said, ‘See me, see me,’ to a nation that was not called by my name.\n",
+    "paragraphs": [0]
   },
   {
     "_id": "webp-123065002",
