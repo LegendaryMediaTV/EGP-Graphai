@@ -218,7 +218,7 @@ Then he came into a house.
 
 > - <sup>a</sup> 4. TR adds “of the air”
 > - <sup>b</sup> 12. Isaiah 6:9-10
-> - <sup>c</sup> 21. literally, a modion, a dry measuring basket containing about a peck (about 9 liters)
+> - <sup>c</sup> 21. Literally, a modion, a dry measuring basket containing about a peck (about 9 liters)
 
 ## Chapter 5
 
@@ -568,20 +568,21 @@ He said, “From childhood.
 
 <sup>42</sup> “Whoever will cause one of these little ones who believe in me to stumble, it would be better for him if he were thrown into the sea with a millstone hung around his neck.
 <sup>43</sup> If your hand causes you to stumble, cut it off. It is better for you to enter into life maimed, rather than having your two hands to go into Gehenna,<sup>a</sup> into the unquenchable fire,
-<sup>44</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>b</sup>
-<sup>45</sup> If your foot causes you to stumble, cut it off. It is better for you to enter into life lame, rather than having your two feet to be cast into Gehenna,<sup>c</sup> into the fire that will never be quenched—
-<sup>46</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>d</sup>
-<sup>47</sup> If your eye causes you to stumble, throw it out. It is better for you to enter into God’s Kingdom with one eye, rather than having two eyes to be cast into the Gehenna<sup>e</sup> of fire,
-<sup>48</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>f</sup>
+<sup>44</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>b</sup><sup>c</sup>
+<sup>45</sup> If your foot causes you to stumble, cut it off. It is better for you to enter into life lame, rather than having your two feet to be cast into Gehenna,<sup>d</sup> into the fire that will never be quenched—
+<sup>46</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>e</sup>
+<sup>47</sup> If your eye causes you to stumble, throw it out. It is better for you to enter into God’s Kingdom with one eye, rather than having two eyes to be cast into the Gehenna<sup>f</sup> of fire,
+<sup>48</sup> ‘where their worm doesn’t die, and the fire is not quenched.’<sup>g</sup>
 <sup>49</sup> For everyone will be salted with fire, and every sacrifice will be seasoned with salt.
 <sup>50</sup> Salt is good, but if the salt has lost its saltiness, with what will you season it? Have salt in yourselves, and be at peace with one another.”
 
 > - <sup>a</sup> 43. or, Hell
-> - <sup>b</sup> 44. NU omits verse 44.
-> - <sup>c</sup> 45. or, Hell
-> - <sup>d</sup> 46. NU omits verse 46.
-> - <sup>e</sup> 47. or, Hell
-> - <sup>f</sup> 48. Isaiah 66:24
+> - <sup>b</sup> 44. Isaiah 66:24
+> - <sup>c</sup> 44. NU omits verse 44.
+> - <sup>d</sup> 45. or, Hell
+> - <sup>e</sup> 46. NU omits verse 46.
+> - <sup>f</sup> 47. or, Hell
+> - <sup>g</sup> 48. Isaiah 66:24
 
 ## Chapter 10
 
@@ -728,7 +729,7 @@ The blind man said to him, “Rabboni,<sup>d</sup> that I may see again.”
 
 Jesus said to them, “Neither will I tell you by what authority I do these things.”
 
-> - <sup>a</sup> 1. TR &amp; NU read “Bethphage” instead of “Bethsphage”
+> - <sup>a</sup> 1. TR & NU read “Bethphage” instead of “Bethsphage”
 > - <sup>b</sup> 9. “Hosanna” means “save us” or “help us, we pray”.
 > - <sup>c</sup> 9. Psalm 118:25-26
 > - <sup>d</sup> 17. Isaiah 56:7
@@ -810,7 +811,7 @@ The common people heard him gladly.
 > - <sup>c</sup> 30. Deuteronomy 6:4-5
 > - <sup>d</sup> 31. Leviticus 19:18
 > - <sup>e</sup> 36. Psalm 110:1
-> - <sup>f</sup> 42. literally, lepta (or widow’s mites). Lepta are very small brass coins worth half a quadrans each, which is a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages.
+> - <sup>f</sup> 42. Literally, lepta (or widow’s mites). Lepta are very small brass coins worth half a quadrans each, which is a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages.
 > - <sup>g</sup> 42. A quadrans is a coin worth about 1/64 of a denarius. A denarius is about one day’s wages for an agricultural laborer.
 
 ## Chapter 13

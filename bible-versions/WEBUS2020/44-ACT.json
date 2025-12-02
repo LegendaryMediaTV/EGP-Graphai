@@ -882,13 +882,21 @@
     "book": "ACT",
     "chapter": 3,
     "verse": 25,
-    "content": {
-      "text": "You are the children of the prophets, and of the covenant which God made with our fathers, saying to Abraham, ‘All the families of the earth will be blessed through your offspring.’",
-      "foot": {
-        "type": "xrf",
-        "content": "Genesis 22:18; 26:4"
+    "content": [
+      {
+        "text": "You are the children of the prophets, and of the covenant which God made with our fathers, saying to Abraham, ‘All the families of the earth will be blessed through your offspring.’",
+        "foot": {
+          "type": "trn",
+          "content": "or, seed"
+        }
+      },
+      {
+        "foot": {
+          "type": "xrf",
+          "content": "Genesis 22:18; 26:4"
+        }
       }
-    }
+    ]
   },
   {
     "book": "ACT",
@@ -1102,6 +1110,11 @@
       {
         "text": "against the Lord, and against his Christ.’",
         "foot": {
+          "content": "Christ (Greek) and Messiah (Hebrew) both mean Anointed One."
+        }
+      },
+      {
+        "foot": {
           "type": "xrf",
           "content": "Psalm 2:1-2"
         }
@@ -1117,8 +1130,8 @@
         "paragraph": true,
         "text": "“For truly,",
         "foot": {
-          "type": "stu",
-          "content": "nu adds “in this city,”"
+          "type": "var",
+          "content": "NU adds “in this city,”"
         }
       },
       " both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,"
@@ -1882,13 +1895,21 @@
     "book": "ACT",
     "chapter": 7,
     "verse": 37,
-    "content": {
-      "text": "This is that Moses who said to the children of Israel, ‘The Lord our God will raise up a prophet for you from among your brothers, like me.’",
-      "foot": {
-        "type": "xrf",
-        "content": "Deuteronomy 18:15"
+    "content": [
+      {
+        "text": "This is that Moses who said to the children of Israel, ‘The Lord our God will raise up a prophet for you from among your brothers, like me.’",
+        "foot": {
+          "type": "var",
+          "content": "TR adds “You shall listen to him.”"
+        }
+      },
+      {
+        "foot": {
+          "type": "xrf",
+          "content": "Deuteronomy 18:15"
+        }
       }
-    }
+    ]
   },
   {
     "book": "ACT",
@@ -1928,7 +1949,7 @@
       {
         "text": "But God turned away and gave them up to serve the army of the sky,",
         "foot": {
-          "type": "stu",
+          "type": "trn",
           "content": "This idiom could also be translated “host of heaven”, or “angelic beings”, or “heavenly bodies.”"
         }
       },
@@ -2405,7 +2426,7 @@
     "content": {
       "paragraph": true,
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR adds Philip said, “If you believe with all your heart, you may.” He answered, “I believe that Jesus Christ is the Son of God.”"
       }
     }
@@ -2481,7 +2502,7 @@
         "text": "“I am Jesus, whom you are persecuting.",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “It’s hard for you to kick against the cattle prods.”"
         }
       }
@@ -2496,7 +2517,7 @@
         "text": "But",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “But”"
         }
       },
@@ -2710,7 +2731,7 @@
       {
         "text": "He was with them entering into",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR and NU add “and going out”"
         }
       },
@@ -2725,8 +2746,8 @@
       {
         "text": "preaching boldly in the name of the Lord Jesus.",
         "foot": {
-          "type": "stu",
-          "content": "TR and NU omit “Jesus” and reverse the order of verses 28 &amp; 29."
+          "type": "var",
+          "content": "TR and NU omit “Jesus” and reverse the order of verses 28 & 29."
         }
       },
       {
@@ -2820,7 +2841,7 @@
       {
         "text": "As Lydda was near Joppa, the disciples, hearing that Peter was there, sent two men",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "Reading from NU, TR; MT omits “two men”"
         }
       },
@@ -2915,7 +2936,7 @@
     "content": {
       "text": "He is staying with a tanner named Simon, whose house is by the seaside.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR adds “This one will tell you what it is necessary for you to do.”"
       }
     }
@@ -3181,7 +3202,7 @@
       {
         "text": "We are witnesses of everything he did both in the country of the Jews and in Jerusalem; whom they also",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “also”"
         }
       },
@@ -3656,7 +3677,7 @@
       {
         "text": "Barnabas and Saul returned to",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “from” instead of “to”"
         }
       },
@@ -3785,7 +3806,7 @@
       {
         "text": "The God of this people",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR, NU add “Israel”"
         }
       },
@@ -3830,7 +3851,7 @@
       {
         "text": "From this man’s offspring, God has brought salvation",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR, NU read “a Savior, Jesus” instead of “salvation”"
         }
       },
@@ -3844,7 +3865,7 @@
     "content": {
       "text": "before his coming, when John had first preached the baptism of repentance to Israel.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR, NU read “to all the people of Israel” instead of “to Israel”"
       }
     }
@@ -4231,7 +4252,7 @@
       {
         "text": "Yet he didn’t leave himself without witness, in that he did good and gave you",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “us” instead of “you”"
         }
       },
@@ -4400,7 +4421,7 @@
       {
         "text": "But we believe that we are saved through the grace of the Lord Jesus,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “Christ”"
         }
       },
@@ -4600,7 +4621,7 @@
     "verse": 34,
     "content": {
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "Some manuscripts add: But it seemed good to Silas to stay there."
       }
     }
@@ -4973,7 +4994,7 @@
       {
         "text": "But the unpersuaded Jews took along",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “And the Jews who were unpersuaded, becoming envious and taking along” instead of “But the unpersuaded Jews took along”"
         }
       },
@@ -5078,7 +5099,7 @@
       {
         "text": "Some of the Epicurean and Stoic philosophers also",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “also”"
         }
       },
@@ -5454,7 +5475,7 @@
       "paragraph": true,
       "text": "Paul said, “John indeed baptized with the baptism of repentance, saying to the people that they should believe in the one who would come after him, that is, in Christ Jesus.”",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "NU omits Christ."
       }
     }
@@ -5770,7 +5791,7 @@
       {
         "text": "There were many lights in the upper room where we",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “they” instead of “we”"
         }
       },
@@ -5865,7 +5886,7 @@
     "content": {
       "text": "testifying both to Jews and to Greeks repentance toward God and faith toward our Lord Jesus.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR adds “Christ”"
       }
     }
@@ -5917,7 +5938,7 @@
       {
         "text": "Take heed, therefore, to yourselves and to all the flock, in which the Holy Spirit has made you overseers, to shepherd the assembly of the Lord and",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR, NU omit “the Lord and”"
         }
       },
@@ -6877,7 +6898,7 @@
     "content": {
       "text": "He even tried to profane the temple, and we arrested him.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR adds “We wanted to judge him according to our law,”"
       }
     }
@@ -6888,7 +6909,7 @@
     "verse": 7,
     "content": {
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR adds “but the commanding officer, Lysias, came by and with great violence took him out of our hands,”"
       }
     }
@@ -6900,7 +6921,7 @@
     "content": [
       {
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “commanding his accusers to come to you.”"
         }
       },
@@ -7584,7 +7605,7 @@
     "content": {
       "text": "But before long, a stormy wind beat down from shore, which is called Euroclydon.",
       "foot": {
-        "type": "stu",
+        "type": "trn",
         "content": "Or, “a northeaster”."
       }
     }
@@ -8070,7 +8091,7 @@
       "paragraph": true,
       "text": "When he had said these words, the Jews departed, having a great dispute among themselves.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "NU omits verse 29."
       }
     }

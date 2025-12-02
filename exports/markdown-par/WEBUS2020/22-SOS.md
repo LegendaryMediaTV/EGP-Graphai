@@ -145,7 +145,7 @@
 <sup>3</sup> His left hand would be under my head.<br>His right hand would embrace me.
 
 <sup>4</sup> I adjure you, daughters of Jerusalem,<br>that you not stir up, nor awaken love,<br>until it so desires.
-<sup>5</sup> Who is this who comes up from the wilderness,<br>leaning on her beloved?<br>
+<sup>5</sup> Who is this who comes up from the wilderness,<br>leaning on her beloved?
 
 Under the apple tree I awakened you.<br>There your mother conceived you.<br>There she was in labor and bore you.
 

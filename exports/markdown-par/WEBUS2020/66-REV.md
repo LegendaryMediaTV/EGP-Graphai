@@ -131,7 +131,7 @@ He laid his right hand on me, saying, “Don’t be afraid. I am the first and t
 <sup>21</sup>  He who overcomes, I will give to him to sit down with me on my throne, as I also overcame and sat down with my Father on his throne. 
 <sup>22</sup>  He who has an ear, let him hear what the Spirit says to the assemblies.”
 
-> - <sup>a</sup> 2. NU &amp; TR read “which were about to die” instead of “which you were about to throw away”.
+> - <sup>a</sup> 2. NU & TR read “which were about to die” instead of “which you were about to throw away”.
 > - <sup>b</sup> 14. or, Source, or Head
 
 ## Chapter 4
@@ -226,15 +226,14 @@ He laid his right hand on me, saying, “Don’t be afraid. I am the first and t
 
 <sup>13</sup> One of the elders answered, saying to me, “These who are arrayed in the white robes, who are they, and where did they come from?”
 
-<sup>14</sup> I told him, “My lord, you know.”<sup>a</sup>
+<sup>14</sup> I told him, “My lord, you know.”
 
-He said to me, “These are those who came out of the great suffering.<sup>b</sup> They washed their robes and made them white in the Lamb’s blood.
+He said to me, “These are those who came out of the great suffering.<sup>a</sup> They washed their robes and made them white in the Lamb’s blood.
 <sup>15</sup> Therefore they are before the throne of God, and they serve him day and night in his temple. He who sits on the throne will spread his tabernacle over them.
 <sup>16</sup> They will never be hungry or thirsty any more. The sun won’t beat on them, nor any heat;
 <sup>17</sup> for the Lamb who is in the middle of the throne shepherds them and leads them to springs of life-giving waters. And God will wipe away every tear from their eyes.”
 
 > - <sup>a</sup> 14. or, oppression
-> - <sup>b</sup> 14. or, oppression
 
 ## Chapter 8
 
@@ -293,7 +292,7 @@ He said to me, “These are those who came out of the great suffering.<sup>b</su
 > - <sup>a</sup> 2. TR adds “great”
 > - <sup>b</sup> 11. “Abaddon” is a Hebrew word that means “ruin”, “destruction”, or “the place of destruction”
 > - <sup>c</sup> 11. “Apollyon” means “Destroyer”.
-> - <sup>d</sup> 16. literally, “ten thousands of ten thousands”
+> - <sup>d</sup> 16. Literally, “ten thousands of ten thousands”
 > - <sup>e</sup> 21. The word for “sorceries” (pharmakeia) also implies the use of potions, poisons, and drugs
 
 ## Chapter 10

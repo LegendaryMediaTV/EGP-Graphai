@@ -11,9 +11,9 @@ says Yahweh.
 
 <sup>6</sup> Yahweh says:<br>“For three transgressions of Gaza, yes, for four,<br>I will not turn away its punishment,<br>because they carried away captive the whole community,<br>to deliver them up to Edom;<br>
 <sup>7</sup> but I will send a fire on the wall of Gaza,<br>and it will devour its palaces.<br>
-<sup>8</sup> I will cut off the inhabitant from Ashdod,<br>and him who holds the scepter from Ashkelon;<br>and I will turn my hand against Ekron;<br>and the remnant of the Philistines will perish,”<sup>b</sup>
+<sup>8</sup> I will cut off the inhabitant from Ashdod,<br>and him who holds the scepter from Ashkelon;<br>and I will turn my hand against Ekron;<br>and the remnant of the Philistines will perish,”
 
-says the Lord<sup>c</sup> Yahweh.
+says the Lord<sup>b</sup> Yahweh.
 
 <sup>9</sup> Yahweh says:<br>“For three transgressions of Tyre, yes, for four,<br>I will not turn away its punishment;<br>because they delivered up the whole community to Edom,<br>and didn’t remember the brotherly covenant;<br>
 <sup>10</sup> but I will send a fire on the wall of Tyre,<br>and it will devour its palaces.”
@@ -29,7 +29,6 @@ says Yahweh.
 
 > - <sup>a</sup> 2. “Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations.
 > - <sup>b</sup> 8. The word translated “Lord” is “Adonai.”
-> - <sup>c</sup> 8. The word translated “Lord” is “Adonai.”
 
 ## Chapter 2
 
@@ -186,9 +185,9 @@ Then the Lord said, “Behold, I will set a plumb line in the middle of my peopl
 
 <sup>1</sup> Thus the Lord Yahweh showed me: behold, a basket of summer fruit.
 
-<sup>2</sup> He said, “Amos, what do you see?”<br>
+<sup>2</sup> He said, “Amos, what do you see?”
 
-I said, “A basket of summer fruit.”<br>
+I said, “A basket of summer fruit.”
 
 Then Yahweh said to me,<br>“The end has come on my people Israel.<br>I will not again pass by them any more.<br>
 <sup>3</sup> The songs of the temple will be wailing in that day,” says the Lord Yahweh.<br>“The dead bodies will be many. In every place they will throw them out with silence.<br>

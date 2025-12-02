@@ -1174,7 +1174,7 @@ He who does these things shall never be shaken.
 <sup>16</sup> As for me, I will call on God.<br>Yahweh will save me.<br>
 <sup>17</sup> Evening, morning, and at noon, I will cry out in distress.<br>He will hear my voice.<br>
 <sup>18</sup> He has redeemed my soul in peace from the battle that was against me,<br>although there are many who oppose me.<br>
-<sup>19</sup> God, who is enthroned forever,<br>will hear and answer them.<br>Selah.<br>
+<sup>19</sup> God, who is enthroned forever,<br>will hear and answer them.<br>Selah.
 
 They never change<br>and don’t fear God.<br>
 

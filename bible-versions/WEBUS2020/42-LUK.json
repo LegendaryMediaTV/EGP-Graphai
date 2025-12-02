@@ -1336,7 +1336,7 @@
       {
         "text": " being reproved by him for Herodias, his brother’s",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “brother Philip’s” instead of “brother’s”"
         }
       },
@@ -1680,7 +1680,7 @@
         "break": true,
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “to heal the broken hearted”"
         }
       },
@@ -2624,7 +2624,7 @@
         "text": "Woe,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “to you”"
         }
       },
@@ -2632,7 +2632,7 @@
         "text": " when",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “all”"
         }
       },
@@ -2813,8 +2813,8 @@
         "text": "“Give, and it will be given to you: good measure, pressed down, shaken together, and running over, will be given to you.",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "literally, into your bosom."
+          "type": "trn",
+          "content": "Literally, into your bosom."
         }
       },
       {
@@ -3248,7 +3248,7 @@
       {
         "paragraph": true,
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “But the Lord said,”"
         }
       },
@@ -3494,7 +3494,7 @@
       {
         "text": "and Joanna, the wife of Chuzas, Herod’s steward; Susanna; and many others who served them",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “him” instead of “them”"
         }
       },
@@ -4068,7 +4068,7 @@
         "paragraph": true,
         "text": "He called the twelve",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “his twelve disciples” instead of “the twelve”"
         }
       },
@@ -4152,17 +4152,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "The apostles, when they had returned, told him what things they had done.",
-        "foot": {
-          "type": "stu",
-          "content": "NU omits “a desert region of”."
-        }
+        "text": "The apostles, when they had returned, told him what things they had done."
       },
       {
         "paragraph": true,
         "text": "He took them and withdrew apart to a desert region of",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “a desert region of”."
         }
       },
@@ -4394,8 +4390,8 @@
       {
         "text": "who appeared in glory and spoke of his departure,",
         "foot": {
-          "type": "stu",
-          "content": "literally, “exodus”"
+          "type": "trn",
+          "content": "Literally, “exodus”"
         }
       },
       " which he was about to accomplish at Jerusalem."
@@ -4729,8 +4725,8 @@
         "paragraph": true,
         "text": "Now after these things, the Lord also appointed seventy others, and sent them two by two ahead of him",
         "foot": {
-          "type": "stu",
-          "content": "literally, “before his face”"
+          "type": "trn",
+          "content": "Literally, “before his face”"
         }
       },
       " into every city and place where he was about to come."
@@ -6558,8 +6554,8 @@
         "text": "I tell you, you will by no means get out of there until you have paid the very last penny.",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "literally, lepton. A lepton is a very small brass Jewish coin worth half a Roman quadrans each, which is worth a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages."
+          "type": "trn",
+          "content": "Literally, lepton. A lepton is a very small brass Jewish coin worth half a Roman quadrans each, which is worth a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages."
         }
       },
       {
@@ -6797,8 +6793,8 @@
         "text": "It is like yeast, which a woman took and hid in three measures",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "literally, three sata. 3 sata is about 39 liters or a bit more than a bushel."
+          "type": "trn",
+          "content": "Literally, three sata. 3 sata is about 39 liters or a bit more than a bushel."
         }
       },
       {
@@ -7019,7 +7015,7 @@
         "text": "“Which of you, if your son",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “donkey” instead of “son”"
         }
       },
@@ -8515,7 +8511,7 @@
     "verse": 36,
     "content": {
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "Some Greek manuscripts add: “Two will be in the field: the one taken, and the other left.”"
       }
     }
@@ -9312,7 +9308,7 @@
         "paragraph": true,
         "text": "When he came near to Bethsphage",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR, NU read “Bethpage” instead of “Bethsphage”"
         }
       },
@@ -9523,7 +9519,7 @@
         "paragraph": true,
         "text": "On one of those days, as he was teaching the people in the temple and preaching the Good News, the",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “chief”"
         }
       },
@@ -9611,7 +9607,7 @@
         "text": "“A",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU (in brackets) and TR add “certain”"
         }
       },
@@ -10061,8 +10057,8 @@
     "content": {
       "text": "He saw a certain poor widow casting in two small brass coins.",
       "foot": {
-        "type": "stu",
-        "content": "literally, “two lepta.” 2 lepta was about 1% of a day’s wages for an agricultural laborer."
+        "type": "trn",
+        "content": "Literally, “two lepta.” 2 lepta was about 1% of a day’s wages for an agricultural laborer."
       }
     }
   },
@@ -11375,7 +11371,7 @@
       "paragraph": true,
       "text": "Now he had to release one prisoner to them at the feast.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "NU omits verse 17."
       }
     }

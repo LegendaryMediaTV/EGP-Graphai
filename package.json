@@ -1,6 +1,6 @@
 {
   "name": "egp-graphai",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "A comprehensive JSON standard for Bible resources with structured data, rich metadata including Strong's numbers, morphological codes, lexical lemmas, and conversion tools for text and markdown formats.",
   "scripts": {
     "dev": "ts-node web/server.ts",

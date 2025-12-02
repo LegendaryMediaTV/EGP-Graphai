@@ -160,7 +160,7 @@
 <sup>2</sup> He opened his mouth and taught them, saying,<br>
 <sup>3</sup> “Blessed are the poor in spirit,<br>for theirs is the Kingdom of Heaven.<sup>a</sup><br>
 <sup>4</sup> Blessed are those who mourn,<br>for they shall be comforted.<sup>b</sup><br>
-<sup>5</sup> Blessed are the gentle,<br>for they shall inherit the earth.<sup>c</sup><br>
+<sup>5</sup> Blessed are the gentle,<br>for they shall inherit the earth.<sup>c</sup><br><sup>d</sup>
 <sup>6</sup> Blessed are those who hunger and thirst for righteousness,<br>for they shall be filled.<br>
 <sup>7</sup> Blessed are the merciful,<br>for they shall obtain mercy.<br>
 <sup>8</sup> Blessed are the pure in heart,<br>for they shall see God.<br>
@@ -177,65 +177,66 @@
 <sup>16</sup> Even so, let your light shine before men, that they may see your good works and glorify your Father who is in heaven.
 
 <sup>17</sup> “Don’t think that I came to destroy the law or the prophets. I didn’t come to destroy, but to fulfill.
-<sup>18</sup> For most certainly, I tell you, until heaven and earth pass away, not even one smallest letter<sup>d</sup> or one tiny pen stroke<sup>e</sup> shall in any way pass away from the law, until all things are accomplished.
+<sup>18</sup> For most certainly, I tell you, until heaven and earth pass away, not even one smallest letter<sup>e</sup> or one tiny pen stroke<sup>f</sup> shall in any way pass away from the law, until all things are accomplished.
 <sup>19</sup> Therefore, whoever shall break one of these least commandments and teach others to do so, shall be called least in the Kingdom of Heaven; but whoever shall do and teach them shall be called great in the Kingdom of Heaven.
 <sup>20</sup> For I tell you that unless your righteousness exceeds that of the scribes and Pharisees, there is no way you will enter into the Kingdom of Heaven.
 
-<sup>21</sup> “You have heard that it was said to the ancient ones, ‘You shall not murder;’<sup>f</sup> and ‘Whoever murders will be in danger of the judgment.’
-<sup>22</sup> But I tell you that everyone who is angry with his brother without a cause<sup>g</sup> will be in danger of the judgment. Whoever says to his brother, ‘Raca!’<sup>h</sup> will be in danger of the council. Whoever says, ‘You fool!’ will be in danger of the fire of Gehenna.<sup>i</sup>
+<sup>21</sup> “You have heard that it was said to the ancient ones, ‘You shall not murder;’<sup>g</sup> and ‘Whoever murders will be in danger of the judgment.’
+<sup>22</sup> But I tell you that everyone who is angry with his brother without a cause<sup>h</sup> will be in danger of the judgment. Whoever says to his brother, ‘Raca!’<sup>i</sup> will be in danger of the council. Whoever says, ‘You fool!’ will be in danger of the fire of Gehenna.<sup>j</sup>
 
 <sup>23</sup> “If therefore you are offering your gift at the altar, and there remember that your brother has anything against you,
 <sup>24</sup> leave your gift there before the altar, and go your way. First be reconciled to your brother, and then come and offer your gift.
 <sup>25</sup> Agree with your adversary quickly while you are with him on the way; lest perhaps the prosecutor deliver you to the judge, and the judge deliver you to the officer, and you be cast into prison.
-<sup>26</sup> Most certainly I tell you, you shall by no means get out of there until you have paid the last penny.<sup>j</sup>
+<sup>26</sup> Most certainly I tell you, you shall by no means get out of there until you have paid the last penny.<sup>k</sup>
 
-<sup>27</sup> “You have heard that it was said,<sup>k</sup> ‘You shall not commit adultery;’<sup>l</sup>
+<sup>27</sup> “You have heard that it was said,<sup>l</sup> ‘You shall not commit adultery;’<sup>m</sup>
 <sup>28</sup> but I tell you that everyone who gazes at a woman to lust after her has committed adultery with her already in his heart.
-<sup>29</sup> If your right eye causes you to stumble, pluck it out and throw it away from you. For it is more profitable for you that one of your members should perish than for your whole body to be cast into Gehenna.<sup>m</sup>
-<sup>30</sup> If your right hand causes you to stumble, cut it off, and throw it away from you. For it is more profitable for you that one of your members should perish, than for your whole body to be cast into Gehenna.<sup>n</sup>
+<sup>29</sup> If your right eye causes you to stumble, pluck it out and throw it away from you. For it is more profitable for you that one of your members should perish than for your whole body to be cast into Gehenna.<sup>n</sup>
+<sup>30</sup> If your right hand causes you to stumble, cut it off, and throw it away from you. For it is more profitable for you that one of your members should perish, than for your whole body to be cast into Gehenna.<sup>o</sup>
 
-<sup>31</sup> “It was also said, ‘Whoever shall put away his wife, let him give her a writing of divorce,’<sup>o</sup>
+<sup>31</sup> “It was also said, ‘Whoever shall put away his wife, let him give her a writing of divorce,’<sup>p</sup>
 <sup>32</sup> but I tell you that whoever puts away his wife, except for the cause of sexual immorality, makes her an adulteress; and whoever marries her when she is put away commits adultery.
 
-<sup>33</sup> “Again you have heard that it was said to the ancient ones, ‘You shall not make false vows, but shall perform to the Lord your vows,’<sup>p</sup>
+<sup>33</sup> “Again you have heard that it was said to the ancient ones, ‘You shall not make false vows, but shall perform to the Lord your vows,’<sup>q</sup>
 <sup>34</sup> but I tell you, don’t swear at all: neither by heaven, for it is the throne of God;
 <sup>35</sup> nor by the earth, for it is the footstool of his feet; nor by Jerusalem, for it is the city of the great King.
 <sup>36</sup> Neither shall you swear by your head, for you can’t make one hair white or black.
 <sup>37</sup> But let your ‘Yes’ be ‘Yes’ and your ‘No’ be ‘No.’ Whatever is more than these is of the evil one.
 
-<sup>38</sup> “You have heard that it was said, ‘An eye for an eye, and a tooth for a tooth.’<sup>q</sup>
+<sup>38</sup> “You have heard that it was said, ‘An eye for an eye, and a tooth for a tooth.’<sup>r</sup>
 <sup>39</sup> But I tell you, don’t resist him who is evil; but whoever strikes you on your right cheek, turn to him the other also.
 <sup>40</sup> If anyone sues you to take away your coat, let him have your cloak also.
 <sup>41</sup> Whoever compels you to go one mile, go with him two.
 <sup>42</sup> Give to him who asks you, and don’t turn away him who desires to borrow from you.
 
-<sup>43</sup> “You have heard that it was said, ‘You shall love your neighbor<sup>r</sup> and hate your enemy.’<sup>s</sup>
+<sup>43</sup> “You have heard that it was said, ‘You shall love your neighbor<sup>s</sup> and hate your enemy.’<sup>t</sup>
 <sup>44</sup> But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you,
 <sup>45</sup> that you may be children of your Father who is in heaven. For he makes his sun to rise on the evil and the good, and sends rain on the just and the unjust.
 <sup>46</sup> For if you love those who love you, what reward do you have? Don’t even the tax collectors do the same?
-<sup>47</sup> If you only greet your friends, what more do you do than others? Don’t even the tax collectors<sup>t</sup> do the same?
+<sup>47</sup> If you only greet your friends, what more do you do than others? Don’t even the tax collectors<sup>u</sup> do the same?
 <sup>48</sup> Therefore you shall be perfect, just as your Father in heaven is perfect.
 
 > - <sup>a</sup> 3. Isaiah 57:15; 66:2
 > - <sup>b</sup> 4. Isaiah 61:2; 66:10,13
-> - <sup>c</sup> 5. Psalm 37:11
-> - <sup>d</sup> 18. literally, iota
-> - <sup>e</sup> 18. or, serif
-> - <sup>f</sup> 21. Exodus 20:13
-> - <sup>g</sup> 22. NU omits “without a cause”.
-> - <sup>h</sup> 22. “Raca” is an Aramaic insult, related to the word for “empty” and conveying the idea of empty-headedness.
-> - <sup>i</sup> 22. or, Hell
-> - <sup>j</sup> 26. literally, kodrantes. A kodrantes was a small copper coin worth about 2 lepta (widow’s mites)—not enough to buy very much of anything.
-> - <sup>k</sup> 27. TR adds “to the ancients”.
-> - <sup>l</sup> 27. Exodus 20:14
-> - <sup>m</sup> 29. or, Hell
-> - <sup>n</sup> 30. or, Hell
-> - <sup>o</sup> 31. Deuteronomy 24:1
-> - <sup>p</sup> 33. Numbers 30:2; Deuteronomy 23:21; Ecclesiastes 5:4
-> - <sup>q</sup> 38. Exodus 21:24; Leviticus 24:20; Deuteronomy 19:21
-> - <sup>r</sup> 43. Leviticus 19:18
-> - <sup>s</sup> 43. not in the Bible, but see Qumran Manual of Discipline Ix, 21-26
-> - <sup>t</sup> 47. NU reads “Gentiles” instead of “tax collectors”.
+> - <sup>c</sup> 5. or, land.
+> - <sup>d</sup> 5. Psalm 37:11
+> - <sup>e</sup> 18. Literally, iota
+> - <sup>f</sup> 18. or, serif
+> - <sup>g</sup> 21. Exodus 20:13
+> - <sup>h</sup> 22. NU omits “without a cause”.
+> - <sup>i</sup> 22. “Raca” is an Aramaic insult, related to the word for “empty” and conveying the idea of empty-headedness.
+> - <sup>j</sup> 22. or, Hell
+> - <sup>k</sup> 26. Literally, kodrantes. A kodrantes was a small copper coin worth about 2 lepta (widow’s mites)—not enough to buy very much of anything.
+> - <sup>l</sup> 27. TR adds “to the ancients”.
+> - <sup>m</sup> 27. Exodus 20:14
+> - <sup>n</sup> 29. or, Hell
+> - <sup>o</sup> 30. or, Hell
+> - <sup>p</sup> 31. Deuteronomy 24:1
+> - <sup>q</sup> 33. Numbers 30:2; Deuteronomy 23:21; Ecclesiastes 5:4
+> - <sup>r</sup> 38. Exodus 21:24; Leviticus 24:20; Deuteronomy 19:21
+> - <sup>s</sup> 43. Leviticus 19:18
+> - <sup>t</sup> 43. not in the Bible, but see Qumran Manual of Discipline Ix, 21-26
+> - <sup>u</sup> 47. NU reads “Gentiles” instead of “tax collectors”.
 
 ## Chapter 6
 
@@ -284,7 +285,7 @@
 
 > - <sup>a</sup> 1. NU reads “acts of righteousness” instead of “charitable giving”
 > - <sup>b</sup> 13. NU omits “For yours is the Kingdom, the power, and the glory forever. Amen.”
-> - <sup>c</sup> 27. literally, cubit
+> - <sup>c</sup> 27. Literally, cubit
 
 ## Chapter 7
 
@@ -715,7 +716,7 @@ But Jesus said to them, “A prophet is not without honor, except in his own cou
 
 > - <sup>a</sup> 15. Isaiah 6:9-10
 > - <sup>b</sup> 25. darnel is a weed grass (probably bearded darnel or lolium temulentum) that looks very much like wheat until it is mature, when the difference becomes very apparent.
-> - <sup>c</sup> 33. literally, three sata. Three sata is about 39 liters or a bit more than a bushel
+> - <sup>c</sup> 33. Literally, three sata. Three sata is about 39 liters or a bit more than a bushel
 > - <sup>d</sup> 35. Psalm 78:2
 > - <sup>e</sup> 49. or, end of the age.
 > - <sup>f</sup> 55. or, Judah
@@ -1197,7 +1198,7 @@ Jesus said to them, “Most certainly I tell you that the tax collectors and the
 <sup>45</sup> When the chief priests and the Pharisees heard his parables, they perceived that he spoke about them.
 <sup>46</sup> When they sought to seize him, they feared the multitudes, because they considered him to be a prophet.
 
-> - <sup>a</sup> 1. TR &amp; NU read “Bethphage” instead of “Bethsphage”
+> - <sup>a</sup> 1. TR & NU read “Bethphage” instead of “Bethsphage”
 > - <sup>b</sup> 5. Zechariah 9:9
 > - <sup>c</sup> 9. “Hosanna” means “save us” or “help us, we pray”.
 > - <sup>d</sup> 9. Psalm 118:26

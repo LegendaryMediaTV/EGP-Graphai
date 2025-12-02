@@ -583,7 +583,7 @@ In all this Job didn’t sin with his lips.
 <sup>24</sup> That with an iron pen and lead<br>they were engraved in the rock forever!<br>
 <sup>25</sup> But as for me, I know that my Redeemer lives.<br>In the end, he will stand upon the earth.<br>
 <sup>26</sup> After my skin is destroyed,<br>then I will see God in my flesh,<br>
-<sup>27</sup> whom I, even I, will see on my side.<br>My eyes will see, and not as a stranger.<br>
+<sup>27</sup> whom I, even I, will see on my side.<br>My eyes will see, and not as a stranger.
 
 “My heart is consumed within me.<br>
 <sup>28</sup> If you say, ‘How we will persecute him!’<br>because the root of the matter is found in me,<br>
@@ -1358,4 +1358,4 @@ The words of Job are ended.
 <sup>16</sup> After this Job lived one hundred forty years, and saw his sons, and his sons’ sons, to four generations.
 <sup>17</sup> So Job died, being old and full of days.
 
-> - <sup>a</sup> 11. literally, kesitah, a unit of money, probably silver
+> - <sup>a</sup> 11. Literally, kesitah, a unit of money, probably silver

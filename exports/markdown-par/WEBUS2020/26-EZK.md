@@ -747,7 +747,7 @@ So the vision that I had seen went up from me.
 <sup>31</sup> I will pour out my indignation on you.<br>I will blow on you with the fire of my wrath.<br>I will deliver you into the hand of brutish men,<br>skillful to destroy.<br>
 <sup>32</sup> You will be for fuel to the fire.<br>Your blood will be in the middle of the land.<br>You will be remembered no more;<br>for I, Yahweh, have spoken it.” ’ ”
 
-> - <sup>a</sup> 6. literally, the breaking of your thighs
+> - <sup>a</sup> 6. Literally, the breaking of your thighs
 > - <sup>b</sup> 21. teraphim were household idols that may have been associated with inheritance rights to the household property.
 
 ## Chapter 22
