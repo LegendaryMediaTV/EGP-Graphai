@@ -12,7 +12,7 @@ The `panta` suite is designed to work alongside the main EGP Graphai project by 
 
 To pull in the latest changes from the main project, use the following PowerShell command:
 
-```
+```bash
 . "./panta/utils/git-merge-upstream.ps1"
 ```
 
