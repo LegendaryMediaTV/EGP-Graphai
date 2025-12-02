@@ -152,7 +152,7 @@
 <sup>29</sup> Their roaring will be like a lioness.<br>They will roar like young lions.<br>Yes, they shall roar,<br>and seize their prey and carry it off,<br>and there will be no one to deliver.<br>
 <sup>30</sup> They will roar against them in that day like the roaring of the sea.<br>If one looks to the land, behold, darkness and distress.<br>The light is darkened in its clouds.
 
-> - <sup>a</sup> 10. literally, ten yokes, or the amount of land that ten yokes of oxen can plow in one day, which is about 10 acres or 4 hectares.
+> - <sup>a</sup> 10. Literally, ten yokes, or the amount of land that ten yokes of oxen can plow in one day, which is about 10 acres or 4 hectares.
 > - <sup>b</sup> 10. 1 bath is about 22 liters or 5.8 U. S. gallons
 > - <sup>c</sup> 10. 1 homer is about 220 liters or 6 bushels
 > - <sup>d</sup> 10. 1 ephah is about 22 liters or 0.6 bushels or about 2 pecks—only one tenth of what was sown.
@@ -177,7 +177,7 @@ Then I said, “Here I am. Send me!”
 <sup>9</sup> He said, “Go, and tell this people,<br>‘You hear indeed,<br>but don’t understand.<br>You see indeed,<br>but don’t perceive.’<br>
 <sup>10</sup> Make the heart of this people fat.<br>Make their ears heavy, and shut their eyes;<br>lest they see with their eyes,<br>hear with their ears,<br>understand with their heart,<br>and turn again, and be healed.”
 
-<sup>11</sup> Then I said, “Lord, how long?”<br>
+<sup>11</sup> Then I said, “Lord, how long?”
 
 He answered,<br>“Until cities are waste without inhabitant,<br>houses without man,<br>the land becomes utterly waste,<br>
 <sup>12</sup> and Yahweh has removed men far away,<br>and the forsaken places are many within the land.<br>
@@ -683,7 +683,7 @@ Moab will be trodden down in his place, even like straw is trodden down in the w
 <sup>11</sup> He will spread out his hands in the middle of it, like one who swims spreads out hands to swim, but his pride will be humbled together with the craft of his hands.
 <sup>12</sup> He has brought the high fortress of your walls down, laid low, and brought to the ground, even to the dust.
 
-> - <sup>a</sup> 6. literally, fat things
+> - <sup>a</sup> 6. Literally, fat things
 
 ## Chapter 26
 
@@ -945,7 +945,7 @@ Through the land of trouble and anguish, of the lioness and the lion, the viper 
 <sup>16</sup> Search in the book of Yahweh, and read:<br>not one of these will be missing.<br>None will lack her mate.<br>For my mouth has commanded,<br>and his Spirit has gathered them.<br>
 <sup>17</sup> He has cast the lot for them,<br>and his hand has divided it to them with a measuring line.<br>They shall possess it forever.<br>From generation to generation they will dwell in it.
 
-> - <sup>a</sup> 14. literally, lilith, which could also be a night demon or night monster
+> - <sup>a</sup> 14. Literally, lilith, which could also be a night demon or night monster
 
 ## Chapter 35
 
@@ -1366,7 +1366,7 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>3</sup> I have declared the former things from of old.<br>Yes, they went out of my mouth, and I revealed them.<br>I did them suddenly, and they happened.<br>
 <sup>4</sup> Because I knew that you are obstinate,<br>and your neck is an iron sinew,<br>and your brow bronze;<br>
 <sup>5</sup> therefore I have declared it to you from of old;<br>before it came to pass I showed it to you;<br>lest you should say, ‘My idol has done them.<br>My engraved image and my molten image has commanded them.’<br>
-<sup>6</sup> You have heard it.<br>Now see all this.<br>And you, won’t you declare it?<br>
+<sup>6</sup> You have heard it.<br>Now see all this.<br>And you, won’t you declare it?
 
 “I have shown you new things from this time,<br>even hidden things, which you have not known.<br>
 <sup>7</sup> They are created now, and not from of old.<br>Before today, you didn’t hear them,<br>lest you should say, ‘Behold, I knew them.’<br>
@@ -1381,9 +1381,9 @@ Hezekiah answered, “They have seen all that is in my house. There is nothing a
 <sup>14</sup> “Assemble yourselves, all of you, and hear!<br>Who among them has declared these things?<br>He whom Yahweh loves will do what he likes to Babylon,<br>and his arm will be against the Chaldeans.<br>
 <sup>15</sup> I, even I, have spoken.<br>Yes, I have called him.<br>I have brought him<br>and he shall make his way prosperous.
 
-<sup>16</sup> “Come near to me and hear this:<br>
+<sup>16</sup> “Come near to me and hear this:
 
-“From the beginning I have not spoken in secret;<br>from the time that it happened, I was there.”<br>
+“From the beginning I have not spoken in secret;<br>from the time that it happened, I was there.”
 
 Now the Lord Yahweh has sent me<br>with his Spirit.
 
@@ -1619,7 +1619,7 @@ Now the Lord Yahweh has sent me<br>with his Spirit.
 
 <sup>1</sup> “Cry aloud! Don’t spare!<br>Lift up your voice like a trumpet!<br>Declare to my people their disobedience,<br>and to the house of Jacob their sins.<br>
 <sup>2</sup> Yet they seek me daily,<br>and delight to know my ways.<br>As a nation that did righteousness,<br>and didn’t forsake the ordinance of their God,<br>they ask of me righteous judgments.<br>They delight to draw near to God.<br>
-<sup>3</sup> ‘Why have we fasted,’ they say, ‘and you don’t see?<br>Why have we afflicted our soul, and you don’t notice?’<br>
+<sup>3</sup> ‘Why have we fasted,’ they say, ‘and you don’t see?<br>Why have we afflicted our soul, and you don’t notice?’
 
 “Behold, in the day of your fast you find pleasure,<br>and oppress all your laborers.<br>
 <sup>4</sup> Behold, you fast for strife and contention,<br>and to strike with the fist of wickedness.<br>You don’t fast today so as to make your voice to be heard on high.<br>
@@ -1628,7 +1628,7 @@ Now the Lord Yahweh has sent me<br>with his Spirit.
 <sup>6</sup> “Isn’t this the fast that I have chosen:<br>to release the bonds of wickedness,<br>to undo the straps of the yoke,<br>to let the oppressed go free,<br>and that you break every yoke?<br>
 <sup>7</sup> Isn’t it to distribute your bread to the hungry,<br>and that you bring the poor who are cast out to your house?<br>When you see the naked,<br>that you cover him;<br>and that you not hide yourself from your own flesh?<br>
 <sup>8</sup> Then your light will break out as the morning,<br>and your healing will appear quickly;<br>then your righteousness shall go before you,<br>and Yahweh’s glory will be your rear guard.<br>
-<sup>9</sup> Then you will call, and Yahweh will answer.<br>You will cry for help, and he will say, ‘Here I am.’<br>
+<sup>9</sup> Then you will call, and Yahweh will answer.<br>You will cry for help, and he will say, ‘Here I am.’
 
 “If you take away from among you the yoke,<br>finger pointing,<br>and speaking wickedly;<br>
 <sup>10</sup> and if you pour out your soul to the hungry,<br>and satisfy the afflicted soul,<br>then your light will rise in darkness,<br>and your obscurity will be as the noonday;<br>
@@ -1656,7 +1656,7 @@ Now the Lord Yahweh has sent me<br>with his Spirit.
 <sup>12</sup> For our transgressions are multiplied before you,<br>and our sins testify against us;<br>for our transgressions are with us,<br>and as for our iniquities, we know them:<br>
 <sup>13</sup> transgressing and denying Yahweh,<br>and turning away from following our God,<br>speaking oppression and revolt,<br>conceiving and uttering from the heart words of falsehood.<br>
 <sup>14</sup> Justice is turned away backward,<br>and righteousness stands far away;<br>for truth has fallen in the street,<br>and uprightness can’t enter.<br>
-<sup>15</sup> Yes, truth is lacking;<br>and he who departs from evil makes himself a prey.<br>
+<sup>15</sup> Yes, truth is lacking;<br>and he who departs from evil makes himself a prey.
 
 Yahweh saw it,<br>and it displeased him that there was no justice.<br>
 <sup>16</sup> He saw that there was no man,<br>and wondered that there was no intercessor.<br>Therefore his own arm brought salvation to him;<br>and his righteousness sustained him.<br>

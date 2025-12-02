@@ -176,7 +176,7 @@ She opened a container of milk, and gave him a drink, and covered him.
 <sup>9</sup> My heart is toward the governors of Israel,<br>who offered themselves willingly among the people.<br>Bless Yahweh!
 
 <sup>10</sup> “Speak, you who ride on white donkeys,<br>you who sit on rich carpets,<br>and you who walk by the way.<br>
-<sup>11</sup> Far from the noise of archers, in the places of drawing water,<br>there they will rehearse Yahweh’s righteous acts,<br>the righteous acts of his rule in Israel.<br>
+<sup>11</sup> Far from the noise of archers, in the places of drawing water,<br>there they will rehearse Yahweh’s righteous acts,<br>the righteous acts of his rule in Israel.
 
 “Then Yahweh’s people went down to the gates.<br>
 <sup>12</sup> ‘Awake, awake, Deborah!<br>Awake, awake, utter a song!<br>Arise, Barak, and lead away your captives, you son of Abinoam.’
@@ -649,7 +649,7 @@ They couldn’t in three days declare the riddle.
 He said to her, “Behold, I haven’t told my father or my mother, so why should I tell you?”
 
 <sup>17</sup> She wept before him the seven days, while their feast lasted; and on the seventh day, he told her, because she pressed him severely; and she told the riddle to the children of her people.
-<sup>18</sup> The men of the city said to him on the seventh day before the sun went down, “What is sweeter than honey? What is stronger than a lion?”<br>
+<sup>18</sup> The men of the city said to him on the seventh day before the sun went down, “What is sweeter than honey? What is stronger than a lion?”
 
 He said to them,<br>“If you hadn’t plowed with my heifer,<br>you wouldn’t have found out my riddle.”
 

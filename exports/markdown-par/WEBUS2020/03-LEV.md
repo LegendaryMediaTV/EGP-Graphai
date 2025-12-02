@@ -396,7 +396,7 @@ Aaron held his peace.
 <sup>46</sup> “ ‘This is the law of the animal, and of the bird, and of every living creature that moves in the waters, and of every creature that creeps on the earth,
 <sup>47</sup> to make a distinction between the unclean and the clean, and between the living thing that may be eaten and the living thing that may not be eaten.’ ”
 
-> - <sup>a</sup> 5. or rock badger, or cony
+> - <sup>a</sup> 5. Or rock badger, or cony
 
 ## Chapter 12
 
@@ -777,9 +777,9 @@ It was done as Yahweh commanded Moses.
 
 <sup>15</sup> “ ‘You shall do no injustice in judgment. You shall not be partial to the poor, nor show favoritism to the great; but you shall judge your neighbor in righteousness.
 
-<sup>16</sup> “ ‘You shall not go around as a slanderer among your people.<sup>a</sup>
+<sup>16</sup> “ ‘You shall not go around as a slanderer among your people.
 
-“ ‘You shall not endanger the life<sup>b</sup> of your neighbor. I am Yahweh.
+“ ‘You shall not endanger the life<sup>a</sup> of your neighbor. I am Yahweh.
 
 <sup>17</sup> “ ‘You shall not hate your brother in your heart. You shall surely rebuke your neighbor, and not bear sin because of him.
 
@@ -797,7 +797,7 @@ It was done as Yahweh commanded Moses.
 <sup>21</sup> He shall bring his trespass offering to Yahweh, to the door of the Tent of Meeting, even a ram for a trespass offering.
 <sup>22</sup> The priest shall make atonement for him with the ram of the trespass offering before Yahweh for his sin which he has committed; and the sin which he has committed shall be forgiven him.
 
-<sup>23</sup> “ ‘When you come into the land, and have planted all kinds of trees for food, then you shall count their fruit as forbidden.<sup>c</sup> For three years it shall be forbidden to you. It shall not be eaten.
+<sup>23</sup> “ ‘When you come into the land, and have planted all kinds of trees for food, then you shall count their fruit as forbidden.<sup>b</sup> For three years it shall be forbidden to you. It shall not be eaten.
 <sup>24</sup> But in the fourth year all its fruit shall be holy, for giving praise to Yahweh.
 <sup>25</sup> In the fifth year you shall eat its fruit, that it may yield its increase to you. I am Yahweh your God.
 
@@ -819,15 +819,14 @@ It was done as Yahweh commanded Moses.
 <sup>34</sup> The stranger who lives as a foreigner with you shall be to you as the native-born among you, and you shall love him as yourself; for you lived as foreigners in the land of Egypt. I am Yahweh your God.
 
 <sup>35</sup> “ ‘You shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity.
-<sup>36</sup> You shall have just balances, just weights, a just ephah,<sup>d</sup> and a just hin.<sup>e</sup> I am Yahweh your God, who brought you out of the land of Egypt.
+<sup>36</sup> You shall have just balances, just weights, a just ephah,<sup>c</sup> and a just hin.<sup>d</sup> I am Yahweh your God, who brought you out of the land of Egypt.
 
 <sup>37</sup> “ ‘You shall observe all my statutes and all my ordinances, and do them. I am Yahweh.’ ”
 
-> - <sup>a</sup> 16. literally, “blood”
-> - <sup>b</sup> 16. literally, “blood”
-> - <sup>c</sup> 23. literally, “uncircumcised”
-> - <sup>d</sup> 36. 1 ephah is about 22 liters or about 2/3 of a bushel
-> - <sup>e</sup> 36. A hin is about 6.5 liters or 1.7 gallons.
+> - <sup>a</sup> 16. Literally, “blood”
+> - <sup>b</sup> 23. Literally, “uncircumcised”
+> - <sup>c</sup> 36. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>d</sup> 36. A hin is about 6.5 liters or 1.7 gallons.
 
 ## Chapter 20
 

@@ -819,7 +819,7 @@
 <sup>21</sup> My son, fear Yahweh and the king.<br>Don’t join those who are rebellious,<br>
 <sup>22</sup> for their calamity will rise suddenly.<br>Who knows what destruction may come from them both?
 
-<sup>23</sup> These also are sayings of the wise:<br>
+<sup>23</sup> These also are sayings of the wise:
 
 To show partiality in judgment is not good.<br>
 <sup>24</sup> He who says to the wicked, “You are righteous,”<br>peoples will curse him, and nations will abhor him—<br>
@@ -1013,7 +1013,7 @@ To show partiality in judgment is not good.<br>
 <sup>13</sup> There is a generation, oh how lofty are their eyes!<br>Their eyelids are lifted up.<br>
 <sup>14</sup> There is a generation whose teeth are like swords,<br>and their jaws like knives,<br>to devour the poor from the earth, and the needy from among men.
 
-<sup>15</sup> “The leech has two daughters:<br>‘Give, give.’<br>
+<sup>15</sup> “The leech has two daughters:<br>‘Give, give.’
 
 “There are three things that are never satisfied;<br>four that don’t say, ‘Enough!’:<br>
 <sup>16</sup> Sheol,<sup>a</sup><br>the barren womb,<br>the earth that is not satisfied with water,<br>and the fire that doesn’t say, ‘Enough!’

@@ -313,7 +313,7 @@ I said, “I see a boiling cauldron; and it is tipping away from the north.”
 <sup>16</sup> The snorting of his horses is heard from Dan.<br>The whole land trembles at the sound of the neighing of his strong ones;<br>for they have come, and have devoured the land and all that is in it,<br>the city and those who dwell therein.”<br>
 <sup>17</sup> “For, behold, I will send serpents,<br>adders among you,<br>which will not be charmed;<br>and they will bite you,” says Yahweh.<br>
 <sup>18</sup> Oh that I could comfort myself against sorrow!<br>My heart is faint within me.<br>
-<sup>19</sup> Behold, the voice of the cry of the daughter of my people from a land that is very far off:<br>“Isn’t Yahweh in Zion?<br>Isn’t her King in her?”<br>
+<sup>19</sup> Behold, the voice of the cry of the daughter of my people from a land that is very far off:<br>“Isn’t Yahweh in Zion?<br>Isn’t her King in her?”
 
 “Why have they provoked me to anger with their engraved images,<br>and with foreign idols?”
 

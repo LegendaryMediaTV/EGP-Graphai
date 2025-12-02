@@ -59,7 +59,7 @@
 
 <sup>1</sup> A prayer of Habakkuk, the prophet, set to victorious music.<br>
 <sup>2</sup> Yahweh, I have heard of your fame.<br>I stand in awe of your deeds, Yahweh.<br>Renew your work in the middle of the years.<br>In the middle of the years make it known.<br>In wrath, you remember mercy.<br>
-<sup>3</sup> God came from Teman,<br>the Holy One from Mount Paran.<br>Selah.<br>
+<sup>3</sup> God came from Teman,<br>the Holy One from Mount Paran.<br>Selah.
 
 His glory covered the heavens,<br>and his praise filled the earth.<br>
 
