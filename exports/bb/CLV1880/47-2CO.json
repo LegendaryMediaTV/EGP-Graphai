@@ -2058,7 +2058,13 @@
     "chapter": "2-corinthians-13",
     "sequence": "208013013",
     "number": 13,
-    "text": "[verse]13:12[/verse] salutant vos sancti omnes"
+    "text": "°salutant vos sancti omnes",
+    "footnotes": [
+      {
+        "type": "var",
+        "text": "Originally verse 13:12."
+      }
+    ]
   },
   {
     "_id": "vul-208013014",
@@ -2066,6 +2072,12 @@
     "chapter": "2-corinthians-13",
     "sequence": "208013014",
     "number": 14,
-    "text": "[verse]13:13[/verse] gratia Domini nostri Iesu Christi et caritas Dei et communicatio Sancti Spiritus cum omnibus vobis amen"
+    "text": "°gratia Domini nostri Iesu Christi et caritas Dei et communicatio Sancti Spiritus cum omnibus vobis amen",
+    "footnotes": [
+      {
+        "type": "var",
+        "text": "Originally verse 13:13."
+      }
+    ]
   }
 ]
