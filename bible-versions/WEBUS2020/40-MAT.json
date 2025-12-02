@@ -50,7 +50,7 @@
       {
         "text": "Jesse became the father of King David. David the king",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “the king”."
         }
       },
@@ -563,7 +563,7 @@
       "paragraph": true,
       "text": "“I indeed baptize you in water for repentance, but he who comes after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you in the Holy Spirit.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR and NU add “and with fire”"
       }
     }
@@ -749,7 +749,7 @@
         "text": "“Get behind me,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR and NU read “Go away” instead of “Get behind me”"
         }
       },
@@ -861,7 +861,7 @@
         "paragraph": true,
         "text": "Walking by the sea of Galilee, he",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “Jesus” instead of “he”"
         }
       },
@@ -996,6 +996,12 @@
         "text": "for they shall inherit the earth.",
         "break": true,
         "marks": ["woc"],
+        "foot": {
+          "type": "trn",
+          "content": "or, land."
+        }
+      },
+      {
         "foot": {
           "type": "xrf",
           "content": "Psalm 37:11"
@@ -1177,8 +1183,8 @@
         "text": "For most certainly, I tell you, until heaven and earth pass away, not even one smallest letter",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "literally, iota"
+          "type": "trn",
+          "content": "Literally, iota"
         }
       },
       {
@@ -1246,7 +1252,7 @@
         "text": "But I tell you that everyone who is angry with his brother without a cause",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “without a cause”."
         }
       },
@@ -1311,8 +1317,8 @@
         "text": "Most certainly I tell you, you shall by no means get out of there until you have paid the last penny.",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "literally, kodrantes. A kodrantes was a small copper coin worth about 2 lepta (widow’s mites)—not enough to buy very much of anything."
+          "type": "trn",
+          "content": "Literally, kodrantes. A kodrantes was a small copper coin worth about 2 lepta (widow’s mites)—not enough to buy very much of anything."
         }
       }
     ]
@@ -1327,7 +1333,7 @@
         "text": "“You have heard that it was said,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “to the ancients”."
         }
       },
@@ -1796,7 +1802,7 @@
         "text": "For yours is the Kingdom, the power, and the glory forever. Amen.’",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “For yours is the Kingdom, the power, and the glory forever. Amen.”"
         }
       }
@@ -1960,8 +1966,8 @@
         "text": "“Which of you by being anxious, can add one moment",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "literally, cubit"
+          "type": "trn",
+          "content": "Literally, cubit"
         }
       },
       {
@@ -2204,7 +2210,7 @@
         "text": "How",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “Because” instead of “How”"
         }
       },
@@ -2529,7 +2535,7 @@
     "content": {
       "text": "He touched her hand, and the fever left her. So she got up and served him.",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR reads “them” instead of “him”"
       }
     }
@@ -2867,7 +2873,7 @@
         "text": " for I came not to call the righteous, but sinners to repentance.”",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “to repentance”."
         }
       }
@@ -3110,7 +3116,7 @@
       {
         "text": "But when he saw the multitudes, he was moved with compassion for them because they were harassed",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “weary” instead of “harassed”"
         }
       },
@@ -3163,7 +3169,7 @@
       {
         "text": "Philip; Bartholomew; Thomas; Matthew the tax collector; James the son of Alphaeus; Lebbaeus, who was also called",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits “Lebbaeus, who was also called”"
         }
       },
@@ -3222,7 +3228,7 @@
         "text": "Heal the sick, cleanse the lepers,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “raise the dead,”"
         }
       },
@@ -3420,7 +3426,7 @@
         "text": "It is enough for the disciple that he be like his teacher, and the servant like his lord. If they have called the master of the house Beelzebul,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "trn",
           "content": "Literally, Lord of the Flies, or the devil"
         }
       },
@@ -4397,7 +4403,7 @@
         "text": "The good man out of his good treasure",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR adds “of the heart”"
         }
       },
@@ -5021,8 +5027,8 @@
         "text": "“The Kingdom of Heaven is like yeast which a woman took and hid in three measures",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
-          "content": "literally, three sata. Three sata is about 39 liters or a bit more than a bushel"
+          "type": "trn",
+          "content": "Literally, three sata. Three sata is about 39 liters or a bit more than a bushel"
         }
       },
       {
@@ -6301,7 +6307,7 @@
         "text": " and on this rock",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "trn",
           "content": "Greek, petra, a rock mass or bedrock."
         }
       },
@@ -6634,7 +6640,7 @@
         "text": "But this kind doesn’t go out except by prayer and fasting.”",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits verse 21."
         }
       }
@@ -6865,7 +6871,7 @@
         "text": "For the Son of Man came to save that which was lost.",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits verse 11."
         }
       }
@@ -7345,7 +7351,7 @@
         "text": "“Why do you call me good?",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "So MT and TR. NU reads “Why do you ask me about what is good?”"
         }
       },
@@ -7865,7 +7871,7 @@
         "text": "It shall not be so among you; but whoever desires to become great among you shall be",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “let him be” instead of “shall be”"
         }
       },
@@ -7960,8 +7966,8 @@
         "paragraph": true,
         "text": "When they came near to Jerusalem and came to Bethsphage,",
         "foot": {
-          "type": "stu",
-          "content": "TR &amp; NU read “Bethphage” instead of “Bethsphage”"
+          "type": "var",
+          "content": "TR & NU read “Bethphage” instead of “Bethsphage”"
         }
       },
       " to the Mount of Olives, then Jesus sent two disciples,"
@@ -9141,7 +9147,7 @@
         "text": "the salutations in the marketplaces, and to be called ‘Rabbi, Rabbi’",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU omits the second “Rabbi”."
         }
       },
@@ -9380,7 +9386,7 @@
         "text": "“Woe to you, scribes and Pharisees, hypocrites! For you clean the outside of the cup and of the platter, but within they are full of extortion and unrighteousness.",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “self-indulgence” instead of “unrighteousness”"
         }
       }
@@ -9998,7 +10004,7 @@
         "text": "“But no one knows of that day and hour, not even the angels of heaven,",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "NU adds “nor the son”"
         }
       },
@@ -10967,7 +10973,7 @@
         "paragraph": true,
         "text": "As they were eating, Jesus took bread, gave thanks for",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “blessed” instead of “gave thanks for”"
         }
       },
@@ -11570,7 +11576,7 @@
       {
         "text": "Then that which was spoken through Jeremiah",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "some manuscripts omit “Jeremiah”"
         }
       },
@@ -11844,7 +11850,7 @@
     "content": {
       "text": "When they had crucified him, they divided his clothing among them, casting lots,",
       "foot": {
-        "type": "stu",
+        "type": "var",
         "content": "TR adds “that it might be fulfilled which was spoken by the prophet: ‘They divided my garments among them, and for my clothing they cast lots;’ ” [see Psalm 22:18 and John 19:24]"
       }
     }
@@ -11894,7 +11900,7 @@
         "paragraph": true,
         "text": "Likewise the chief priests also mocking with the scribes, the Pharisees,",
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR omits “the Pharisees”"
         }
       },
@@ -11951,7 +11957,7 @@
         "text": "“Eli, Eli, lima",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR reads “lama” instead of “lima”"
         }
       },
@@ -12279,7 +12285,7 @@
         "text": "Go",
         "marks": ["woc"],
         "foot": {
-          "type": "stu",
+          "type": "var",
           "content": "TR and NU add “therefore”"
         }
       },
