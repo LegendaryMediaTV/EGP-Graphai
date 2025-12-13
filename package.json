@@ -1,6 +1,6 @@
 {
   "name": "egp-graphai",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "A comprehensive JSON standard for Bible resources with structured data, rich metadata including Strong's numbers, morphological codes, lexical lemmas, and conversion tools for text and markdown formats.",
   "scripts": {
     "dev": "ts-node web/server.ts",
@@ -10,15 +10,15 @@
   },
   "keywords": [
     "bible",
+    "greek",
+    "hebrew",
     "json",
+    "lexicon",
+    "morphology",
     "schema",
     "scripture",
     "strongs",
-    "morphology",
-    "typescript",
-    "greek",
-    "hebrew",
-    "lexicon"
+    "typescript"
   ],
   "author": "Equip God's People",
   "license": "MIT",
