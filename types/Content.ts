@@ -13,10 +13,11 @@ type Content =
   | Content[];
 
 /**
- * Plain text content object with optional formatting and metadata
+ * Plain text content object with optional formatting and metadata.
+ * At minimum, one property must be present (text, strong, paragraph, etc.)
  */
 interface ContentObject {
-  text: string;
+  text?: string; // Plain text content (optional - can have Strong's-only elements)
   script?: "G" | "H"; // Specifies the script of the text. If not specified, Latin script is assumed.
   marks?: ("i" | "b" | "woc" | "sc")[]; // Formatting marks: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps
   foot?: Footnote; // Optional footnote attached to the text
