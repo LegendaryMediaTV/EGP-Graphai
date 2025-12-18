@@ -1347,8 +1347,8 @@ They said to him, “Of David.”
 
 ## Chapter 24
 
-<sup>1</sup>  Jesus went out from the temple, and was going on his way. His disciples came to him to show him the buildings of the temple.
-<sup>2</sup>  But he answered them, “You see all of these things, don’t you? Most certainly I tell you, there will not be left here one stone on another, that will not be thrown down.”
+<sup>1</sup> Jesus went out from the temple, and was going on his way. His disciples came to him to show him the buildings of the temple.
+<sup>2</sup> But he answered them, “You see all of these things, don’t you? Most certainly I tell you, there will not be left here one stone on another, that will not be thrown down.”
 
 <sup>3</sup> As he sat on the Mount of Olives, the disciples came to him privately, saying, “Tell us, when will these things be? What is the sign of your coming, and of the end of the age?”
 
@@ -1485,7 +1485,7 @@ They said to him, “Of David.”
 
 ## Chapter 26
 
-<sup>1</sup>  When Jesus had finished all these words, he said to his disciples,
+<sup>1</sup> When Jesus had finished all these words, he said to his disciples,
 <sup>2</sup> “You know that after two days the Passover is coming, and the Son of Man will be delivered up to be crucified.”
 
 <sup>3</sup> Then the chief priests, the scribes, and the elders of the people were gathered together in the court of the high priest, who was called Caiaphas.

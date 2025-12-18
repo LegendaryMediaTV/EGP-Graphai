@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import Content, { ContentObject } from "../types/Content";
-import Footnote from "../types/Footnote";
 import VerseSchema from "../types/VerseSchema";
 
 // ============================================================================
@@ -26,7 +25,7 @@ const TEXT_OPTIONS: RenderOptions = {
   includeFootnotes: true,
   footnoteStyle: "inline",
   paragraphMarker: "¶ ",
-  lineBreakMarker: " ␤",
+  lineBreakMarker: "␤",
   headingWrapper: (text) => `[[${text}]] `,
   subtitleWrapper: (text) => `«${text}» `,
   footnoteMarker: () => "°",
@@ -53,6 +52,7 @@ interface RenderContext {
   options: RenderOptions;
   footnotes: string[];
   verseNum?: number;
+  footnotePrefix?: string; // "Subtitle." or "Heading." for special contexts
 }
 
 /**
@@ -71,12 +71,18 @@ function renderContent(content: Content, ctx: RenderContext): string {
 
   // Object content - dispatch by type
   if ("heading" in content) {
-    const inner = renderContent(content.heading, ctx);
+    const inner = renderContent(content.heading, {
+      ...ctx,
+      footnotePrefix: "Heading.",
+    });
     return ctx.options.headingWrapper(inner);
   }
 
   if ("subtitle" in content) {
-    const inner = renderContent(content.subtitle, ctx);
+    const inner = renderContent(content.subtitle, {
+      ...ctx,
+      footnotePrefix: "Subtitle.",
+    });
     return ctx.options.subtitleWrapper(inner);
   }
 
@@ -99,16 +105,22 @@ function renderContent(content: Content, ctx: RenderContext): string {
 function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
   const parts: string[] = [];
 
-  // Paragraph marker at start (only for text format, markdown handles separately)
-  if (obj.paragraph && ctx.options.footnoteStyle === "inline") {
-    parts.push(ctx.options.paragraphMarker);
+  // Paragraph marker at start (with leading space for text format to separate from previous content)
+  if (obj.paragraph) {
+    // For text format, add a space before the marker to separate from previous word's Strong's/morph
+    if (ctx.options.footnoteStyle === "inline") {
+      parts.push(" " + ctx.options.paragraphMarker);
+    } else {
+      parts.push(ctx.options.paragraphMarker);
+    }
   }
 
   // Text content
   const text = obj.text || "";
   parts.push(text);
 
-  // Footnote marker (after text, before Strong's)
+  // Footnote marker and inline content (immediately after text, before Strong's/morph)
+  // This allows users to search/replace °{...} cleanly without affecting Strong's spacing
   if (obj.foot && ctx.options.includeFootnotes) {
     const footIndex = ctx.footnotes.length;
     parts.push(ctx.options.footnoteMarker(footIndex));
@@ -117,13 +129,23 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
     const footnoteContent = renderContent(obj.foot.content, {
       ...ctx,
       options: { ...ctx.options, includeStrongs: false, includeMorph: false },
+      footnotePrefix: undefined, // Don't propagate prefix to footnote content
     });
 
     if (ctx.options.footnoteStyle === "inline") {
-      parts.push(` {${footnoteContent}}`);
+      // Add inline footnote content immediately after marker, before Strong's/morph
+      // No space before { so users can search/replace °{...} cleanly
+      parts.push(`{${footnoteContent}}`);
+      // Add trailing space if this is a textless footnote-only element (no text, no Strong's)
+      // so the next content item has proper spacing
+      if (!text && !obj.strong) {
+        parts.push(" ");
+      }
     } else {
+      // Use footnotePrefix if available (for subtitles/headings), otherwise verse number
+      const prefix = ctx.footnotePrefix || `${ctx.verseNum}.`;
       ctx.footnotes.push(
-        `- ${ctx.options.footnoteMarker(footIndex)} ${ctx.verseNum}. ${footnoteContent}`
+        `- ${ctx.options.footnoteMarker(footIndex)} ${prefix} ${footnoteContent}`
       );
     }
   }
@@ -168,6 +190,7 @@ function convertVerseToText(verse: VerseSchema): string {
 
   // Clean up spacing issues
   text = text.replace(/^ +/, ""); // Remove leading spaces
+  text = text.replace(/ +$/, ""); // Remove trailing spaces
   text = text.replace(/ +/g, " "); // Collapse multiple spaces
 
   return `${chapter}:${verseNum} ${text}`;
@@ -195,7 +218,7 @@ function convertVerseToMarkdown(
     if (typeof firstItem === "object" && "heading" in firstItem) {
       const headingText = renderContent(firstItem.heading, {
         ...ctx,
-        options: { ...ctx.options, includeFootnotes: false },
+        footnotePrefix: "Heading.",
       });
       headingPrefix = `\n### ${headingText}\n`;
       processedContent = verse.content.slice(1);
@@ -226,10 +249,15 @@ function convertVerseToMarkdown(
 
   let text = renderContent(processedContent, ctx);
 
+  // For leading paragraphs, strip the leading \n\n since paragraphPrefix handles it
+  if (hasLeadingParagraph) {
+    text = text.replace(/^\n\n/, "");
+  }
+
   // Clean up extra spaces and leading space after verse number
   text = text.replace(/^ +/, ""); // Remove leading spaces
-  text = text.replace(/ +/g, " ");
-  text = text.replace(/ ([.,;:!?])/g, "$1");
+  text = text.replace(/ +/g, " "); // Collapse multiple spaces
+  text = text.replace(/ ([.,;:!?])/g, "$1"); // Remove space before punctuation
 
   const paragraphPrefix = hasLeadingParagraph ? "\n" : "";
 
@@ -341,6 +369,7 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
               options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
               footnotes: chapterFootnotes,
               verseNum: chapterVerses[0].verse,
+              footnotePrefix: "Subtitle.",
             };
             const subtitleText = renderContent(firstItem.subtitle, ctx);
             markdownLines.push("");
@@ -357,8 +386,9 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
           const firstItem = firstContent[0];
           if (typeof firstItem === "object" && "heading" in firstItem) {
             const ctx: RenderContext = {
-              options: { ...MARKDOWN_OPTIONS, includeFootnotes: false },
-              footnotes: [],
+              options: { ...MARKDOWN_OPTIONS, includeFootnotes: true },
+              footnotes: chapterFootnotes,
+              footnotePrefix: "Heading.",
             };
             const headingText = renderContent(firstItem.heading, ctx);
             markdownLines.push("");

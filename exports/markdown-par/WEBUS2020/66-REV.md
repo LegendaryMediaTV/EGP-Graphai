@@ -11,7 +11,7 @@
 
 <sup>7</sup> Behold,<sup>d</sup> he is coming with the clouds, and every eye will see him, including those who pierced him. All the tribes of the earth will mourn over him. Even so, Amen.
 
-<sup>8</sup>  “I am the Alpha and the Omega,<sup>e</sup>” says the Lord God,<sup>f</sup> “who is and who was and who is to come, the Almighty.”
+<sup>8</sup> “I am the Alpha and the Omega,<sup>e</sup>” says the Lord God,<sup>f</sup> “who is and who was and who is to come, the Almighty.”
 
 <sup>9</sup> I John, your brother and partner with you in the oppression, Kingdom, and perseverance in Christ Jesus, was on the isle that is called Patmos because of God’s Word and the testimony of Jesus Christ.
 <sup>10</sup> I was in the Spirit on the Lord’s day, and I heard behind me a loud voice, like a trumpet
@@ -25,9 +25,9 @@
 <sup>17</sup> When I saw him, I fell at his feet like a dead man.
 
 He laid his right hand on me, saying, “Don’t be afraid. I am the first and the last, 
-<sup>18</sup>  and the Living one. I was dead, and behold, I am alive forever and ever. Amen. I have the keys of Death and of Hades.<sup>j</sup>
-<sup>19</sup>  Write therefore the things which you have seen, and the things which are, and the things which will happen hereafter. 
-<sup>20</sup>  The mystery of the seven stars which you saw in my right hand, and the seven golden lamp stands is this: The seven stars are the angels<sup>k</sup> of the seven assemblies. The seven lamp stands are seven assemblies.
+<sup>18</sup> and the Living one. I was dead, and behold, I am alive forever and ever. Amen. I have the keys of Death and of Hades.<sup>j</sup>
+<sup>19</sup> Write therefore the things which you have seen, and the things which are, and the things which will happen hereafter. 
+<sup>20</sup> The mystery of the seven stars which you saw in my right hand, and the seven golden lamp stands is this: The seven stars are the angels<sup>k</sup> of the seven assemblies. The seven lamp stands are seven assemblies.
 
 > - <sup>a</sup> 1. “Christ” means “Anointed One”.
 > - <sup>b</sup> 1. or, messenger (here and wherever angel is mentioned)
@@ -43,50 +43,50 @@ He laid his right hand on me, saying, “Don’t be afraid. I am the first and t
 
 ## Chapter 2
 
-<sup>1</sup>  “To the angel of the assembly in Ephesus write:
+<sup>1</sup> “To the angel of the assembly in Ephesus write:
 
 “He who holds the seven stars in his right hand, he who walks among the seven golden lamp stands says these things:
 
-<sup>2</sup>  “I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false. 
-<sup>3</sup>  You have perseverance and have endured for my name’s sake, and have<sup>a</sup> not grown weary.
-<sup>4</sup>  But I have this against you, that you left your first love. 
-<sup>5</sup>  Remember therefore from where you have fallen, and repent and do the first works; or else I am coming to you swiftly, and will move your lamp stand out of its place, unless you repent. 
-<sup>6</sup>  But this you have, that you hate the works of the Nicolaitans, which I also hate. 
-<sup>7</sup>  He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes I will give to eat from the tree of life, which is in the Paradise of my God.
+<sup>2</sup> “I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false. 
+<sup>3</sup> You have perseverance and have endured for my name’s sake, and have<sup>a</sup> not grown weary.
+<sup>4</sup> But I have this against you, that you left your first love. 
+<sup>5</sup> Remember therefore from where you have fallen, and repent and do the first works; or else I am coming to you swiftly, and will move your lamp stand out of its place, unless you repent. 
+<sup>6</sup> But this you have, that you hate the works of the Nicolaitans, which I also hate. 
+<sup>7</sup> He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes I will give to eat from the tree of life, which is in the Paradise of my God.
 
-<sup>8</sup>  “To the angel of the assembly in Smyrna write:
+<sup>8</sup> “To the angel of the assembly in Smyrna write:
 
 “The first and the last, who was dead, and has come to life says these things:
 
-<sup>9</sup>  “I know your works, oppression, and your poverty (but you are rich), and the blasphemy of those who say they are Jews, and they are not, but are a synagogue of Satan. 
-<sup>10</sup>  Don’t be afraid of the things which you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested; and you will have oppression for ten days. Be faithful to death, and I will give you the crown of life. 
-<sup>11</sup>  He who has an ear, let him hear what the Spirit says to the assemblies. He who overcomes won’t be harmed by the second death.
+<sup>9</sup> “I know your works, oppression, and your poverty (but you are rich), and the blasphemy of those who say they are Jews, and they are not, but are a synagogue of Satan. 
+<sup>10</sup> Don’t be afraid of the things which you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested; and you will have oppression for ten days. Be faithful to death, and I will give you the crown of life. 
+<sup>11</sup> He who has an ear, let him hear what the Spirit says to the assemblies. He who overcomes won’t be harmed by the second death.
 
-<sup>12</sup>  “To the angel of the assembly in Pergamum write:
+<sup>12</sup> “To the angel of the assembly in Pergamum write:
 
 “He who has the sharp two-edged sword says these things:
 
-<sup>13</sup>  “I know your works and where you dwell, where Satan’s throne is. You hold firmly to my name, and didn’t deny my faith in the days of Antipas my witness, my faithful one, who was killed among you, where Satan dwells. 
-<sup>14</sup>  But I have a few things against you, because you have there some who hold the teaching of Balaam, who taught Balak to throw a stumbling block before the children of Israel, to eat things sacrificed to idols, and to commit sexual immorality. 
-<sup>15</sup>  So also you likewise have some who hold to the teaching of the Nicolaitans.<sup>b</sup>
-<sup>16</sup>  Repent therefore, or else I am coming to you quickly and I will make war against them with the sword of my mouth. 
-<sup>17</sup>  He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna,<sup>c</sup> and I will give him a white stone, and on the stone a new name written which no one knows but he who receives it.
+<sup>13</sup> “I know your works and where you dwell, where Satan’s throne is. You hold firmly to my name, and didn’t deny my faith in the days of Antipas my witness, my faithful one, who was killed among you, where Satan dwells. 
+<sup>14</sup> But I have a few things against you, because you have there some who hold the teaching of Balaam, who taught Balak to throw a stumbling block before the children of Israel, to eat things sacrificed to idols, and to commit sexual immorality. 
+<sup>15</sup> So also you likewise have some who hold to the teaching of the Nicolaitans.<sup>b</sup>
+<sup>16</sup> Repent therefore, or else I am coming to you quickly and I will make war against them with the sword of my mouth. 
+<sup>17</sup> He who has an ear, let him hear what the Spirit says to the assemblies. To him who overcomes, to him I will give of the hidden manna,<sup>c</sup> and I will give him a white stone, and on the stone a new name written which no one knows but he who receives it.
 
-<sup>18</sup>  “To the angel of the assembly in Thyatira write:
+<sup>18</sup> “To the angel of the assembly in Thyatira write:
 
 “The Son of God, who has his eyes like a flame of fire, and his feet are like burnished brass, says these things:
 
-<sup>19</sup>  “I know your works, your love, faith, service, patient endurance, and that your last works are more than the first. 
-<sup>20</sup>  But I have this against you, that you tolerate your<sup>d</sup> woman Jezebel, who calls herself a prophetess. She teaches and seduces my servants to commit sexual immorality and to eat things sacrificed to idols.
-<sup>21</sup>  I gave her time to repent, but she refuses to repent of her sexual immorality. 
-<sup>22</sup>  Behold, I will throw her and those who commit adultery with her into a bed of great oppression, unless they repent of her works. 
-<sup>23</sup>  I will kill her children with Death, and all the assemblies will know that I am he who searches the minds and hearts. I will give to each one of you according to your deeds. 
-<sup>24</sup>  But to you I say, to the rest who are in Thyatira—as many as don’t have this teaching, who don’t know what some call ‘the deep things of Satan’—to you I say, I am not putting any other burden on you. 
-<sup>25</sup>  Nevertheless, hold that which you have firmly until I come. 
-<sup>26</sup>  He who overcomes, and he who keeps my works to the end, to him I will give authority over the nations. 
-<sup>27</sup>  He will rule them with a rod of iron, shattering them like clay pots,<sup>e</sup> as I also have received of my Father;
-<sup>28</sup>  and I will give him the morning star. 
-<sup>29</sup>  He who has an ear, let him hear what the Spirit says to the assemblies.
+<sup>19</sup> “I know your works, your love, faith, service, patient endurance, and that your last works are more than the first. 
+<sup>20</sup> But I have this against you, that you tolerate your<sup>d</sup> woman Jezebel, who calls herself a prophetess. She teaches and seduces my servants to commit sexual immorality and to eat things sacrificed to idols.
+<sup>21</sup> I gave her time to repent, but she refuses to repent of her sexual immorality. 
+<sup>22</sup> Behold, I will throw her and those who commit adultery with her into a bed of great oppression, unless they repent of her works. 
+<sup>23</sup> I will kill her children with Death, and all the assemblies will know that I am he who searches the minds and hearts. I will give to each one of you according to your deeds. 
+<sup>24</sup> But to you I say, to the rest who are in Thyatira—as many as don’t have this teaching, who don’t know what some call ‘the deep things of Satan’—to you I say, I am not putting any other burden on you. 
+<sup>25</sup> Nevertheless, hold that which you have firmly until I come. 
+<sup>26</sup> He who overcomes, and he who keeps my works to the end, to him I will give authority over the nations. 
+<sup>27</sup> He will rule them with a rod of iron, shattering them like clay pots,<sup>e</sup> as I also have received of my Father;
+<sup>28</sup> and I will give him the morning star. 
+<sup>29</sup> He who has an ear, let him hear what the Spirit says to the assemblies.
 
 > - <sup>a</sup> 3. TR adds “have labored and”
 > - <sup>b</sup> 15. TR reads “which I hate” instead of “likewise”
@@ -96,40 +96,40 @@ He laid his right hand on me, saying, “Don’t be afraid. I am the first and t
 
 ## Chapter 3
 
-<sup>1</sup>  “And to the angel of the assembly in Sardis write:
+<sup>1</sup> “And to the angel of the assembly in Sardis write:
 
 “He who has the seven Spirits of God and the seven stars says these things:
 
 “I know your works, that you have a reputation of being alive, but you are dead. 
-<sup>2</sup>  Wake up and strengthen the things that remain, which you were about to throw away,<sup>a</sup> for I have found no works of yours perfected before my God.
-<sup>3</sup>  Remember therefore how you have received and heard. Keep it and repent. If therefore you won’t watch, I will come as a thief, and you won’t know what hour I will come upon you. 
-<sup>4</sup>  Nevertheless you have a few names in Sardis that didn’t defile their garments. They will walk with me in white, for they are worthy. 
-<sup>5</sup>  He who overcomes will be arrayed in white garments, and I will in no way blot his name out of the book of life, and I will confess his name before my Father, and before his angels. 
-<sup>6</sup>  He who has an ear, let him hear what the Spirit says to the assemblies.
+<sup>2</sup> Wake up and strengthen the things that remain, which you were about to throw away,<sup>a</sup> for I have found no works of yours perfected before my God.
+<sup>3</sup> Remember therefore how you have received and heard. Keep it and repent. If therefore you won’t watch, I will come as a thief, and you won’t know what hour I will come upon you. 
+<sup>4</sup> Nevertheless you have a few names in Sardis that didn’t defile their garments. They will walk with me in white, for they are worthy. 
+<sup>5</sup> He who overcomes will be arrayed in white garments, and I will in no way blot his name out of the book of life, and I will confess his name before my Father, and before his angels. 
+<sup>6</sup> He who has an ear, let him hear what the Spirit says to the assemblies.
 
-<sup>7</sup>  “To the angel of the assembly in Philadelphia write:
+<sup>7</sup> “To the angel of the assembly in Philadelphia write:
 
 “He who is holy, he who is true, he who has the key of David, he who opens and no one can shut, and who shuts and no one opens, says these things: 
 
-<sup>8</sup>  “I know your works (behold, I have set before you an open door, which no one can shut), that you have a little power, and kept my word, and didn’t deny my name. 
-<sup>9</sup>  Behold, I make some of the synagogue of Satan, of those who say they are Jews, and they are not, but lie—behold, I will make them to come and worship before your feet, and to know that I have loved you. 
-<sup>10</sup>  Because you kept my command to endure, I also will keep you from the hour of testing which is to come on the whole world, to test those who dwell on the earth. 
-<sup>11</sup>  I am coming quickly! Hold firmly that which you have, so that no one takes your crown. 
-<sup>12</sup>  He who overcomes, I will make him a pillar in the temple of my God, and he will go out from there no more. I will write on him the name of my God and the name of the city of my God, the new Jerusalem, which comes down out of heaven from my God, and my own new name. 
-<sup>13</sup>  He who has an ear, let him hear what the Spirit says to the assemblies.
+<sup>8</sup> “I know your works (behold, I have set before you an open door, which no one can shut), that you have a little power, and kept my word, and didn’t deny my name. 
+<sup>9</sup> Behold, I make some of the synagogue of Satan, of those who say they are Jews, and they are not, but lie—behold, I will make them to come and worship before your feet, and to know that I have loved you. 
+<sup>10</sup> Because you kept my command to endure, I also will keep you from the hour of testing which is to come on the whole world, to test those who dwell on the earth. 
+<sup>11</sup> I am coming quickly! Hold firmly that which you have, so that no one takes your crown. 
+<sup>12</sup> He who overcomes, I will make him a pillar in the temple of my God, and he will go out from there no more. I will write on him the name of my God and the name of the city of my God, the new Jerusalem, which comes down out of heaven from my God, and my own new name. 
+<sup>13</sup> He who has an ear, let him hear what the Spirit says to the assemblies.
 
-<sup>14</sup>  “To the angel of the assembly in Laodicea write:
+<sup>14</sup> “To the angel of the assembly in Laodicea write:
 
 “The Amen, the Faithful and True Witness, the Beginning<sup>b</sup> of God’s creation, says these things:
 
-<sup>15</sup>  “I know your works, that you are neither cold nor hot. I wish you were cold or hot. 
-<sup>16</sup>  So, because you are lukewarm, and neither hot nor cold, I will vomit you out of my mouth. 
-<sup>17</sup>  Because you say, ‘I am rich, and have gotten riches, and have need of nothing,’ and don’t know that you are the wretched one, miserable, poor, blind, and naked; 
-<sup>18</sup>  I counsel you to buy from me gold refined by fire, that you may become rich; and white garments, that you may clothe yourself, and that the shame of your nakedness may not be revealed; and eye salve to anoint your eyes, that you may see. 
-<sup>19</sup>  As many as I love, I reprove and chasten. Be zealous therefore, and repent. 
-<sup>20</sup>  Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him and will dine with him, and he with me. 
-<sup>21</sup>  He who overcomes, I will give to him to sit down with me on my throne, as I also overcame and sat down with my Father on his throne. 
-<sup>22</sup>  He who has an ear, let him hear what the Spirit says to the assemblies.”
+<sup>15</sup> “I know your works, that you are neither cold nor hot. I wish you were cold or hot. 
+<sup>16</sup> So, because you are lukewarm, and neither hot nor cold, I will vomit you out of my mouth. 
+<sup>17</sup> Because you say, ‘I am rich, and have gotten riches, and have need of nothing,’ and don’t know that you are the wretched one, miserable, poor, blind, and naked; 
+<sup>18</sup> I counsel you to buy from me gold refined by fire, that you may become rich; and white garments, that you may clothe yourself, and that the shame of your nakedness may not be revealed; and eye salve to anoint your eyes, that you may see. 
+<sup>19</sup> As many as I love, I reprove and chasten. Be zealous therefore, and repent. 
+<sup>20</sup> Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him and will dine with him, and he with me. 
+<sup>21</sup> He who overcomes, I will give to him to sit down with me on my throne, as I also overcame and sat down with my Father on his throne. 
+<sup>22</sup> He who has an ear, let him hear what the Spirit says to the assemblies.”
 
 > - <sup>a</sup> 2. NU & TR read “which were about to die” instead of “which you were about to throw away”.
 > - <sup>b</sup> 14. or, Source, or Head
@@ -477,7 +477,7 @@ He said to me, “Take it and eat it. It will make your stomach bitter, but in y
 <sup>13</sup> I saw coming out of the mouth of the dragon, and out of the mouth of the beast, and out of the mouth of the false prophet, three unclean spirits, something like frogs;
 <sup>14</sup> for they are spirits of demons, performing signs, which go out to the kings of the whole inhabited earth, to gather them together for the war of that great day of God the Almighty.
 
-<sup>15</sup>  “Behold, I come like a thief. Blessed is he who watches, and keeps his clothes, so that he doesn’t walk naked, and they see his shame.” 
+<sup>15</sup> “Behold, I come like a thief. Blessed is he who watches, and keeps his clothes, so that he doesn’t walk naked, and they see his shame.” 
 <sup>16</sup> He gathered them together into the place which is called in Hebrew, “Harmagedon”.
 
 <sup>17</sup> The seventh poured out his bowl into the air. A loud voice came out of the temple of heaven, from the throne, saying, “It is done!”
@@ -613,8 +613,8 @@ He said to me, “Take it and eat it. It will make your stomach bitter, but in y
 
 <sup>5</sup> He who sits on the throne said, “Behold, I am making all things new.” He said, “Write, for these words of God are faithful and true.”
 <sup>6</sup> He said to me, “I am the Alpha and the Omega, the Beginning and the End. I will give freely to him who is thirsty from the spring of the water of life. 
-<sup>7</sup>  He who overcomes, I will give him these things. I will be his God, and he will be my son. 
-<sup>8</sup>  But for the cowardly, unbelieving, sinners,<sup>a</sup> abominable, murderers, sexually immoral, sorcerers,<sup>b</sup> idolaters, and all liars, their part is in the lake that burns with fire and sulfur, which is the second death.”
+<sup>7</sup> He who overcomes, I will give him these things. I will be his God, and he will be my son. 
+<sup>8</sup> But for the cowardly, unbelieving, sinners,<sup>a</sup> abominable, murderers, sexually immoral, sorcerers,<sup>b</sup> idolaters, and all liars, their part is in the lake that burns with fire and sulfur, which is the second death.”
 
 <sup>9</sup> One of the seven angels who had the seven bowls which were loaded with the seven last plagues came, and he spoke with me, saying, “Come here. I will show you the bride, the Lamb’s wife.”
 <sup>10</sup> He carried me away in the Spirit to a great and high mountain, and showed me the holy city, Jerusalem, coming down out of heaven from God,
@@ -654,18 +654,18 @@ He said to me, “Take it and eat it. It will make your stomach bitter, but in y
 
 <sup>6</sup> He said to me, “These words are faithful and true. The Lord God of the spirits of the prophets sent his angel to show to his bondservants the things which must happen soon.”
 
-<sup>7</sup>  “Behold, I am coming soon! Blessed is he who keeps the words of the prophecy of this book.”
+<sup>7</sup> “Behold, I am coming soon! Blessed is he who keeps the words of the prophecy of this book.”
 
 <sup>8</sup> Now I, John, am the one who heard and saw these things. When I heard and saw, I fell down to worship before the feet of the angel who had shown me these things.
 <sup>9</sup> He said to me, “You must not do that! I am a fellow bondservant with you and with your brothers, the prophets, and with those who keep the words of this book. Worship God.”
 <sup>10</sup> He said to me, “Don’t seal up the words of the prophecy of this book, for the time is at hand.
 <sup>11</sup> He who acts unjustly, let him act unjustly still. He who is filthy, let him be filthy still. He who is righteous, let him do righteousness still. He who is holy, let him be holy still.”
 
-<sup>12</sup>  “Behold, I am coming soon! My reward is with me, to repay to each man according to his work. 
-<sup>13</sup>  I am the Alpha and the Omega, the First and the Last, the Beginning and the End. 
-<sup>14</sup>  Blessed are those who do his commandments,<sup>b</sup> that they may have the right to the tree of life, and may enter in by the gates into the city.
-<sup>15</sup>  Outside are the dogs, the sorcerers, the sexually immoral, the murderers, the idolaters, and everyone who loves and practices falsehood. 
-<sup>16</sup>  I, Jesus, have sent my angel to testify these things to you for the assemblies. I am the root and the offspring of David, the Bright and Morning Star.”
+<sup>12</sup> “Behold, I am coming soon! My reward is with me, to repay to each man according to his work. 
+<sup>13</sup> I am the Alpha and the Omega, the First and the Last, the Beginning and the End. 
+<sup>14</sup> Blessed are those who do his commandments,<sup>b</sup> that they may have the right to the tree of life, and may enter in by the gates into the city.
+<sup>15</sup> Outside are the dogs, the sorcerers, the sexually immoral, the murderers, the idolaters, and everyone who loves and practices falsehood. 
+<sup>16</sup> I, Jesus, have sent my angel to testify these things to you for the assemblies. I am the root and the offspring of David, the Bright and Morning Star.”
 
 <sup>17</sup> The Spirit and the bride say, “Come!” He who hears, let him say, “Come!” He who is thirsty, let him come. He who desires, let him take the water of life freely.
 
