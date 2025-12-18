@@ -2,6 +2,7 @@ import * as http from "http";
 import * as fs from "fs";
 import * as path from "path";
 import * as url from "url";
+import getBibleVersions from "../functions/getBibleVersions";
 
 const PORT = 3000;
 const ROOT_DIR = path.join(__dirname, "..");
@@ -29,12 +30,10 @@ const server = http.createServer(async (req, res) => {
 
     try {
       if (pathname === "/api/versions") {
-        const data = fs.readFileSync(
-          path.join(ROOT_DIR, "bible-versions", "bible-versions.json"),
-          "utf-8"
-        );
+        // Load versions from individual _version.json files
+        const versions = getBibleVersions();
         res.writeHead(200);
-        res.end(data);
+        res.end(JSON.stringify(versions));
         return;
       }
 
@@ -57,8 +56,7 @@ const server = http.createServer(async (req, res) => {
         const bookId = contentMatch[2];
 
         // We need to find the filename. It usually starts with order number.
-        // Let's look up the order from bible-versions.json or just search the directory.
-        // Searching directory is safer if we don't want to parse the big json every time or cache it.
+        // Search the directory to find the matching book file.
         const versionDir = path.join(ROOT_DIR, "bible-versions", version);
 
         if (!fs.existsSync(versionDir)) {

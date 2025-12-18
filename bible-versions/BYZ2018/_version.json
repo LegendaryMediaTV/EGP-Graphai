@@ -1,0 +1,360 @@
+{
+  "_id": "BYZ2018",
+  "name": "Byzantine Greek New Testament",
+  "copyright": "Scripture quotations from the 2018 Robinson-Pierpont edition of the Greek New Testament in the Original Greek, Byzantine Majority Text. It is in the public domain.",
+  "license": "CC0-1.0",
+  "script": "G",
+  "books": [
+    {
+      "_id": "MAT",
+      "name": {
+        "text": "ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+        "script": "G"
+      },
+      "order": 1,
+      "chapters": 28
+    },
+    {
+      "_id": "MRK",
+      "name": {
+        "text": "ΚΑΤΑ ΜΑΡΚΟΝ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΡΚΟΝ",
+        "script": "G"
+      },
+      "order": 2,
+      "chapters": 16
+    },
+    {
+      "_id": "LUK",
+      "name": {
+        "text": "ΚΑΤΑ ΛΟΥΚΑΝ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΛΟΥΚΑΝ",
+        "script": "G"
+      },
+      "order": 3,
+      "chapters": 24
+    },
+    {
+      "_id": "JHN",
+      "name": {
+        "text": "ΚΑΤΑ ΙΩΑΝΝΗΝ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΙΩΑΝΝΗΝ",
+        "script": "G"
+      },
+      "order": 4,
+      "chapters": 21
+    },
+    {
+      "_id": "ACT",
+      "name": {
+        "text": "ΠΡΑΞΕΙΣ ΑΠΟΣΤΟΛΩΝ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΡΑΞΕΙΣ ΤΩΝ ΑΠΟΣΤΟΛΩΝ",
+        "script": "G"
+      },
+      "order": 5,
+      "chapters": 28
+    },
+    {
+      "_id": "ROM",
+      "name": {
+        "text": "ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
+        "script": "G"
+      },
+      "order": 6,
+      "chapters": 16
+    },
+    {
+      "_id": "1CO",
+      "name": {
+        "text": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Α",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
+        "script": "G"
+      },
+      "order": 7,
+      "chapters": 16
+    },
+    {
+      "_id": "2CO",
+      "name": {
+        "text": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Β",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
+        "script": "G"
+      },
+      "order": 8,
+      "chapters": 13
+    },
+    {
+      "_id": "GAL",
+      "name": {
+        "text": "ΠΡΟΣ ΓΑΛΑΤΑΣ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΓΑΛΑΤΑΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 9,
+      "chapters": 6
+    },
+    {
+      "_id": "EPH",
+      "name": {
+        "text": "ΠΡΟΣ ΕΦΕΣΙΟΥΣ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΕΦΕΣΙΟΥΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 10,
+      "chapters": 6
+    },
+    {
+      "_id": "PHP",
+      "name": {
+        "text": "ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 11,
+      "chapters": 4
+    },
+    {
+      "_id": "COL",
+      "name": {
+        "text": "ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 12,
+      "chapters": 4
+    },
+    {
+      "_id": "1TH",
+      "name": {
+        "text": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
+        "script": "G"
+      },
+      "order": 13,
+      "chapters": 5
+    },
+    {
+      "_id": "2TH",
+      "name": {
+        "text": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
+        "script": "G"
+      },
+      "order": 14,
+      "chapters": 3
+    },
+    {
+      "_id": "1TM",
+      "name": {
+        "text": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Α",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΜΟΘΕΟΝ ΕΠΙΣΤΟΛΗ ΠΡΩΤΗ",
+        "script": "G"
+      },
+      "order": 15,
+      "chapters": 6
+    },
+    {
+      "_id": "2TM",
+      "name": {
+        "text": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Β",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΜΟΘΕΟΝ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
+        "script": "G"
+      },
+      "order": 16,
+      "chapters": 4
+    },
+    {
+      "_id": "TIT",
+      "name": {
+        "text": "ΠΡΟΣ ΤΙΤΟΝ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΤΙΤΟΝ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 17,
+      "chapters": 3
+    },
+    {
+      "_id": "PHM",
+      "name": {
+        "text": "ΠΡΟΣ ΦΙΛΗΜΟΝΑ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΦΙΛΗΜΟΝΑ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 18,
+      "chapters": 1
+    },
+    {
+      "_id": "HEB",
+      "name": {
+        "text": "ΠΡΟΣ ΕΒΡΑΙΟΥΣ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΑΥΛΟΥ ΤΟΥ ΑΠΟΣΤΟΛΟΥ Η ΠΡΟΣ ΕΒΡΑΙΟΥΣ ΕΠΙΣΤΟΛΗ",
+        "script": "G"
+      },
+      "order": 19,
+      "chapters": 13
+    },
+    {
+      "_id": "JAS",
+      "name": {
+        "text": "ΙΑΚΩΒΟΥ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΙΑΚΩΒΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ",
+        "script": "G"
+      },
+      "order": 20,
+      "chapters": 5
+    },
+    {
+      "_id": "1PT",
+      "name": {
+        "text": "ΠΕΤΡΟΥ Α",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΕΤΡΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΠΡΩΤΗ",
+        "script": "G"
+      },
+      "order": 21,
+      "chapters": 5
+    },
+    {
+      "_id": "2PT",
+      "name": {
+        "text": "ΠΕΤΡΟΥ Β",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΠΕΤΡΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΔΕΥΤΕΡΑ",
+        "script": "G"
+      },
+      "order": 22,
+      "chapters": 3
+    },
+    {
+      "_id": "1JN",
+      "name": {
+        "text": "ΙΩΑΝΝΟΥ Α",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ ΠΡΩΤΗ",
+        "script": "G"
+      },
+      "order": 23,
+      "chapters": 5
+    },
+    {
+      "_id": "2JN",
+      "name": {
+        "text": "ΙΩΑΝΝΟΥ Β",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΔΕΥΤΕΡΑ",
+        "script": "G"
+      },
+      "order": 24,
+      "chapters": 1
+    },
+    {
+      "_id": "3JN",
+      "name": {
+        "text": "ΙΩΑΝΝΟΥ Γ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΙΩΑΝΝΟΥ ΕΠΙΣΤΟΛΗ ΤΡΙΤΗ",
+        "script": "G"
+      },
+      "order": 25,
+      "chapters": 1
+    },
+    {
+      "_id": "JUD",
+      "name": {
+        "text": "ΙΟΥΔΑ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΙΟΥΔΑ ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΗ",
+        "script": "G"
+      },
+      "order": 26,
+      "chapters": 1
+    },
+    {
+      "_id": "REV",
+      "name": {
+        "text": "ΑΠΟΚΑΛΥΨΙΣ ΙΩΑΝΝΟΥ",
+        "script": "G"
+      },
+      "title": {
+        "text": "ΑΠΟΚΑΛΥΨΙΣ ΤΟΥ ΑΓΙΟΥ ΙΩΑΝΝΟΥ ΤΟΥ ΘΕΟΛΟΓΟΥ",
+        "script": "G"
+      },
+      "order": 27,
+      "chapters": 22
+    }
+  ]
+}

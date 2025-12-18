@@ -53,7 +53,9 @@ function convertContentToText(content: Content): string {
   // Add strong number after text with space
   if (obj.strong) {
     if (result.trim() === "") {
-      result += obj.strong;
+      // If there's no text, add a leading space before the Strong's number
+      // to separate it from previous content
+      result = " " + obj.strong;
     } else {
       result += " " + obj.strong;
     }
@@ -271,7 +273,8 @@ function convertVerseToText(verse: VerseSchema): string {
       // For words without footnotes: text Strong's (morph)
       if (obj.strong) {
         if (textPart.trim() === "") {
-          textPart += obj.strong;
+          // Add leading space to separate from previous content
+          textPart = " " + obj.strong;
         } else {
           textPart += " " + obj.strong;
         }
@@ -351,10 +354,12 @@ function convertBibleVersion(version: string, bookId?: string): void {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Read all JSON files in the version directory
+  // Read all JSON files in the version directory (excluding _version.json)
   const files = fs
     .readdirSync(inputDir)
-    .filter((file: string) => file.endsWith(".json"))
+    .filter(
+      (file: string) => file.endsWith(".json") && file !== "_version.json"
+    )
     .filter((file: string) => !bookId || file.includes(`-${bookId}.json`));
 
   for (const file of files) {
@@ -389,10 +394,12 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Read all JSON files in the version directory
+  // Read all JSON files in the version directory (excluding _version.json)
   const files = fs
     .readdirSync(inputDir)
-    .filter((file: string) => file.endsWith(".json"))
+    .filter(
+      (file: string) => file.endsWith(".json") && file !== "_version.json"
+    )
     .filter((file: string) => !bookId || file.includes(`-${bookId}.json`));
 
   for (const file of files) {

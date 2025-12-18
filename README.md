@@ -84,18 +84,21 @@ npm run dev
 ├── bible-versions/        # Version data and schemas
 │ ├── bible-verses-schema.json
 │ ├── bible-versions-schema.json
-│ ├── bible-versions.json
-│ └── {version}/           # Version-specific data
+│ └── {version}/           # Version-specific data (e.g., ASV1901/)
+│   ├── _version.json      # Version metadata (name, license, books)
+│   └── NN-BBB.json        # Verse files (e.g., 01-GEN.json)
 ├── exports/               # Generated output files
 │ ├── markdown-par/        # Markdown format
 │ └── text-vbv-strongs/    # Strong’s text format
 ├── functions/             # Utility functions
+│ ├── getBibleVersions.ts  # Load versions from _version.json files
 │ └── validateJsonAgainstSchema.ts
 ├── imports/               # Import scripts and raw data
 ├── types/                 # TypeScript type definitions
 │ ├── Book.ts
 │ ├── Content.ts
 │ ├── Footnote.ts
+│ ├── Version.ts           # BibleVersion and VersionBook interfaces
 │ ├── Verse.ts
 │ └── VerseSchema.ts
 ├── utils/                 # Utility scripts
@@ -155,10 +158,35 @@ npm run dev
 
 ### Adding New Bible Versions
 
-1. Add version metadata to `bible-versions/bible-versions.json`
-2. Add verses by book to `bible-versions/{version}/{order}-{book}.json` (e.g., `01-GEN.json`, `66-REV.json`)
-3. Validate: `npm run validate`
-4. Export: `npm run export`
+1. Create a new folder in `bible-versions/` with your version ID (e.g., `BYZ2008`)
+2. Create a `_version.json` file in the folder with version metadata:
+   ```json
+   {
+     "_id": "BYZ2008",
+     "name": "Byzantine Text 2008",
+     "copyright": "Scripture quotations from …",
+     "license": "CC0-1.0",
+     "books": [
+       {
+         "_id": "MAT",
+         "name": {
+           "text": "ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+           "script": "G"
+         },
+         "title": {
+           "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+           "script": "G"
+         },
+         "order": 1,
+         "chapters": 28
+       },
+       ...
+     ]
+   }
+   ```
+3. Add verses by book to `bible-versions/{version}/{order}-{book}.json` (e.g., `01-GEN.json`, `66-REV.json`)
+4. Validate: `npm run validate`
+5. Export: `npm run export`
 
 ### Schema Validation
 

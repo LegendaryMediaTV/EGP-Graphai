@@ -82,7 +82,7 @@
 
 ## Chapter 7
 
-> _Shiggaion of David, which he sang unto the LORD, concerning the words of Cush the Benjamite ._
+> _Shiggaion of David, which he sang unto the LORD, concerning the words of Cush the Benjamite._
 
 <sup>1</sup> O LORD my God, in thee do I put my trust: save me from all them that persecute me, and deliver me:
 <sup>2</sup> Lest he tear my soul like a lion, rending [it] in pieces, while [there is] none to deliver.
@@ -118,7 +118,7 @@
 
 ## Chapter 9
 
-> _To the chief Musician upon Muthlabben , A Psalm of David._
+> _To the chief Musician upon Muthlabben, A Psalm of David._
 
 <sup>1</sup> I will praise [thee], O LORD, with my whole heart; I will shew forth all thy marvellous works.
 <sup>2</sup> I will be glad and rejoice in thee: I will sing praise to thy name, O thou most High.
@@ -1153,7 +1153,7 @@
 
 ## Chapter 60
 
-> _To the chief Musician upon Shushaneduth, Michtam of David, to teach; when he strove with Aramnaharaim  and with Aramzobah, when Joab returned, and smote of Edom in the valley of salt twelve  thousand._
+> _To the chief Musician upon Shushaneduth, Michtam of David, to teach; when he strove with Aramnaharaim and with Aramzobah, when Joab returned, and smote of Edom in the valley of salt twelve thousand._
 
 <sup>1</sup> O God, thou hast cast us off, thou hast scattered us, thou hast been displeased; O turn thyself to us again.
 <sup>2</sup> Thou hast made the earth to tremble; thou hast broken it: heal the breaches thereof; for it shaketh.
