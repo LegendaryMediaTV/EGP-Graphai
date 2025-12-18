@@ -79,7 +79,7 @@ npm run dev
 
 ```
 ├── bible-books/           # Book metadata and schemas
-│ ├── bible-book-schema.json
+│ ├── bible-books-schema.json
 │ └── bible-books.json
 ├── bible-versions/        # Version data and schemas
 │ ├── bible-verses-schema.json
@@ -94,6 +94,7 @@ npm run dev
 ├── imports/               # Import scripts and raw data
 ├── types/                 # TypeScript type definitions
 │ ├── Book.ts
+│ ├── Content.ts
 │ ├── Footnote.ts
 │ ├── Verse.ts
 │ └── VerseSchema.ts
@@ -101,10 +102,9 @@ npm run dev
 │ └── exportContent.ts     # Main content export script
 ├── web/                   # Graphai Reader web application
 │ ├── public/              # Frontend React components
-│ └── server.js            # Express server
+│ └── server.ts            # Node.js HTTP server
 ├── AGENTS.md              # AI agent instructions
 ├── README.md              # This file 😁
-├── validate.ts            # Validation script
 ```
 
 ## JSON Format Examples
@@ -117,14 +117,14 @@ npm run dev
   "chapter": 1,
   "verse": 1,
   "content": [
-    { "type": "p" },
     {
+      "paragraph": true,
       "text": "Ἐν",
       "script": "G",
       "strong": "G1722",
-      "morph": "PREP"
+      "morph": "PREP",
+      "break": true
     },
-    { "type": "n" },
     {
       "text": "καὶ",
       "script": "G",

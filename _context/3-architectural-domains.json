@@ -1,0 +1,75 @@
+{
+  "data-layer": {
+    "required_patterns": {
+      "json-schema-validation": "All Bible data must conform to JSON Schema Draft-07 definitions. Schemas define strict structures with $ref references between related schemas.",
+      "content-schema-recursion": "The content-schema.json uses recursive $ref to allow arbitrarily nested content structures (strings, objects, or arrays of content).",
+      "book-identifiers": "Books use 3-character uppercase identifiers (e.g., 'GEN', 'MAT', 'REV') that must match entries in bible-books.json.",
+      "version-book-ordering": "Each Bible version maintains its own book ordering via the 'order' property (1-indexed, sequential, no gaps).",
+      "verse-file-naming": "Verse files follow pattern '{order}-{bookId}.json' (e.g., '01-GEN.json', '40-MAT.json').",
+      "ajv-validation": "Use AJV library for JSON Schema validation with support for $ref resolution across schema files."
+    },
+    "architectural_constraints": {
+      "no-database": "All data stored as flat JSON files, no traditional database. Read/write via Node.js fs module.",
+      "schema-reference-urls": "Schema $id and $ref use GitHub URLs but resolve locally via AJV schema registration.",
+      "immutable-source-data": "Bible verse JSON files in version directories are source data; exports go to separate exports/ directory.",
+      "content-flexibility": "Content can be plain string, structured object with metadata, or array combining both. Code must handle all cases.",
+      "strong-number-format": "Strong's numbers must match pattern '^[GH][0-9]{1,4}$' (G for Greek, H for Hebrew)."
+    }
+  },
+  "ui": {
+    "required_patterns": {
+      "react-hooks": "Use React 18 hooks (useState, useEffect, useMemo, useRef) for all state and lifecycle management.",
+      "babel-in-browser": "JSX transpiled at runtime via Babel standalone. No build step for frontend.",
+      "cdn-dependencies": "React, ReactDOM, Tailwind CSS, Font Awesome, and fonts loaded via CDN in index.html.",
+      "component-registration": "Each component file assigns to window object (e.g., 'window.App = App') for cross-file access.",
+      "tailwind-utility-classes": "Use Tailwind CSS utility classes for styling. Dark mode via 'dark:' prefix variants.",
+      "script-specific-fonts": "Hebrew text uses 'David Libre' font with RTL direction; Greek uses 'EB Garamond'; Latin uses 'Atkinson Hyperlegible'."
+    },
+    "architectural_constraints": {
+      "no-build-process": "Frontend has no webpack/vite/rollup. All JS loaded directly via script tags with Babel transpilation.",
+      "single-page-app": "Single index.html entry point. All navigation is in-memory state changes.",
+      "prop-drilling": "State flows from App component down via props. No Context API or global state.",
+      "component-order": "Script tags in index.html must load in dependency order (Icons → Toggle → ... → App).",
+      "dark-mode-class": "Dark mode toggled via 'dark' class on document.documentElement."
+    }
+  },
+  "routing": {
+    "required_patterns": {
+      "api-prefix": "All API endpoints use '/api/' prefix (e.g., '/api/versions', '/api/books', '/api/content/:version/:bookId').",
+      "static-public-dir": "Static files served from 'web/public/' directory. Root '/' serves index.html.",
+      "content-endpoint-pattern": "Bible content fetched via '/api/content/{versionId}/{bookId}' returning array of verse objects."
+    },
+    "architectural_constraints": {
+      "no-spa-routing": "No client-side routing library. Navigation is state-based within single page.",
+      "no-framework-server": "Simple Node.js http server without Express or other frameworks.",
+      "directory-traversal-prevention": "Server checks that resolved file paths start with PUBLIC_DIR to prevent traversal attacks.",
+      "mime-type-mapping": "Server maps file extensions to MIME types for proper content-type headers."
+    }
+  },
+  "state-management": {
+    "required_patterns": {
+      "centralized-app-state": "All application state lives in App component: versions, selections, content, settings, UI state.",
+      "derived-state-memoization": "Use useMemo for computed values (currentVersion, availableBooks, currentBook, chapterContent).",
+      "settings-object": "Settings stored as single object with keys for all display options (paragraphMode, showStrongs, darkMode, etc.).",
+      "toggle-pattern": "Boolean settings toggled via toggleSetting function that spreads previous state."
+    },
+    "architectural_constraints": {
+      "no-persistence": "Settings and state not persisted to localStorage. Reset on page reload.",
+      "no-async-state": "No async state management (no React Query, SWR). Simple fetch in useEffect.",
+      "loading-state": "Loading boolean tracks API request state; content cleared on error."
+    }
+  },
+  "export-system": {
+    "required_patterns": {
+      "dual-export-formats": "Export to both text-vbv-strongs (annotated text) and markdown-par (paragraph markdown).",
+      "recursive-content-processing": "Content processing functions must handle string, object, and array recursively.",
+      "footnote-lettering": "Footnotes labeled with letters (a, b, c...) cycling after 'z', per chapter.",
+      "chapter-grouping": "Markdown export groups verses by chapter with ## headers."
+    },
+    "architectural_constraints": {
+      "version-directory-mirroring": "Export directories mirror version directory structure.",
+      "cli-arguments": "Export script accepts optional version and bookId arguments for selective export.",
+      "main-module-check": "Export only runs when script is main module (require.main === module)."
+    }
+  }
+}
