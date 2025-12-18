@@ -9,59 +9,49 @@
 
 ### Test Locations
 
-- **Currently** – No test files exist in the repository
-- **Expected patterns** – `*.test.ts`, `*.spec.ts`, or `__tests__/` directories
-- **Recommended location** – Create tests alongside source files or in dedicated `__tests__/` folders
+- **Test directories** – Tests are in `__tests__/` folders alongside source files:
+  - `functions/__tests__/getBibleVersions.test.ts`
+  - `utils/__tests__/exportContent.test.ts`
+- **Pattern** – `*.test.ts` files in `__tests__/` subdirectories
 
 ## Coverage by Domain
 
-### Bible Data Domain
+### Bible Versions Domain
 
-- **Existing tests** – None
-- **What should be tested:**
-  - Schema validation correctness (valid data passes, invalid data fails)
-  - Book ID uniqueness and format validation
-  - Version book ordering validation (sequential, no gaps)
-  - Verse file naming pattern validation
-  - Book field matching filename validation
+- **Existing tests** – `functions/__tests__/getBibleVersions.test.ts` (17 tests)
+- **Covered scenarios:**
+  - Version discovery from `_version.json` files
+  - Alphabetical sorting by `_id`
+  - Handling missing `_version.json` directories
+  - Handling malformed JSON files gracefully
+  - Custom directory path support
+  - Single version retrieval by ID
 
-### Content Processing Domain
+### Content Processing / Export Domain
 
-- **Existing tests** – None
-- **What should be tested:**
-  - `convertContentToText()` – All content variants (string, object, array, nested)
-  - `convertContentToMarkdownText()` – Markdown-specific transformations
-  - Recursive content handling for deeply nested structures
-  - Footnote extraction and lettering
-  - Strong's number formatting
-  - Line break and paragraph handling
-
-### Export Domain
-
-- **Existing tests** – None
-- **What should be tested:**
-  - `convertVerseToText()` – Output format correctness
-  - `convertVerseToMarkdown()` – Markdown output with footnotes
-  - Chapter grouping and header generation
-  - File naming and directory creation
-  - CLI argument handling
+- **Existing tests** – `utils/__tests__/exportContent.test.ts` (32 tests)
+- **Covered scenarios:**
+  - Plain text conversion with Strong's numbers and morphology
+  - Markdown conversion with paragraph markers, footnotes, line breaks
+  - Heading and subtitle rendering
+  - Footnote marker placement and ordering
+  - Edge cases: mid-verse paragraphs, textless elements, trailing footnotes
+  - Real-world verse tests from KJV1769
 
 ### Validation Domain
 
 - **Existing tests** – None
 - **What should be tested:**
   - `validateJsonAgainstSchema()` – Schema validation with $ref resolution
-  - Error message formatting
-  - Cross-schema validation (content schema referenced by verse schema)
+  - Version book ordering validation
+  - Cross-schema validation
 
 ### Web Reader Domain
 
 - **Existing tests** – None
 - **What should be tested:**
-  - API endpoint responses (`/api/versions`, `/api/books`, `/api/content/:v/:b`)
+  - API endpoint responses
   - Static file serving
-  - MIME type mapping
-  - Directory traversal prevention
 
 ## Build and Run Commands
 
@@ -108,13 +98,6 @@ npx vitest --run
 npx vitest --run path/to/test.ts
 ```
 
-### TypeScript Compilation (Manual)
-
-```bash
-npx tsc
-# Outputs to ./dist (not typically needed due to ts-node usage)
-```
-
 ## Change Impact and Recommendations
 
 ### When Modifying Schema Files
@@ -124,23 +107,33 @@ npx tsc
 - Run `npm run validate` to ensure existing data still passes
 - Test schema changes against sample valid and invalid data
 
-**Recommended new tests:**
-
-- Unit tests for schema validation edge cases
-- Tests for $ref resolution across schemas
-
 ### When Modifying Content Processing (exportContent.ts)
+
+**Relevant tests:** `npx vitest --run utils/__tests__/exportContent.test.ts`
+
+**Test coverage includes:**
+
+- Text format: verse numbers, Strong's, morph codes, paragraph markers, footnotes
+- Markdown format: paragraph breaks, heading/subtitle rendering, footnote references
+- Edge cases: mid-verse paragraphs, textless elements, trailing footnotes
+
+### When Modifying Version Discovery (getBibleVersions.ts)
+
+**Relevant tests:** `npx vitest --run functions/__tests__/getBibleVersions.test.ts`
+
+**Test coverage includes:**
+
+- Discovery of `_version.json` files from folders
+- Error handling for malformed JSON
+- Version sorting and retrieval
+
+### When Adding New Bible Versions
 
 **Relevant validation:**
 
-- Compare export output before/after changes
-- Manual verification of exported text and markdown
-
-**Recommended new tests:**
-
-- Unit tests for `convertContentToText()` with all Content variants
-- Unit tests for `convertVerseToMarkdown()` with footnotes
-- Snapshot tests for expected output format
+- Run `npm run validate` after adding `_version.json` and verse files
+- Ensure book ordering starts at 1 and is sequential
+- Version is automatically discovered by `getBibleVersions()`
 
 ### When Modifying Web Reader Components
 
@@ -149,60 +142,8 @@ npx tsc
 - Manual testing in browser
 - Check console for React errors
 
-**Recommended new tests:**
+## Test Data Strategy
 
-- Component rendering tests (React Testing Library)
-- Integration tests for API endpoints
-- E2E tests for user flows (Playwright or Cypress)
-
-### When Adding New Bible Versions
-
-**Relevant validation:**
-
-- Run `npm run validate` after adding version entry and verse files
-- Ensure book ordering starts at 1 and is sequential
-
-**Recommended new tests:**
-
-- Automated check that all expected files exist
-- Verify verse file content matches expected structure
-
-## Test Development Guidelines
-
-### Recommended Test Structure
-
-```typescript
-// utils/__tests__/exportContent.test.ts
-import { describe, it, expect } from "vitest";
-import { convertContentToText } from "../exportContent";
-
-describe("convertContentToText", () => {
-  it("handles plain string content", () => {
-    expect(convertContentToText("Hello")).toBe("Hello");
-  });
-
-  it("handles text object with strong number", () => {
-    const content = { text: "word", strong: "G1234" };
-    expect(convertContentToText(content)).toBe("word G1234");
-  });
-
-  it("handles nested array content", () => {
-    const content = ["Hello", { text: " " }, "World"];
-    expect(convertContentToText(content)).toBe("Hello World");
-  });
-});
-```
-
-### Priority Test Areas
-
-1. **High Priority** – Content processing functions (most complex logic)
-2. **High Priority** – Validation logic (data integrity)
-3. **Medium Priority** – Export formatting (output correctness)
-4. **Medium Priority** – API endpoints (data serving)
-5. **Lower Priority** – UI components (visual, harder to test)
-
-### Test Data Strategy
-
-- Create fixture files with representative Bible content
-- Include edge cases: empty content, deeply nested arrays, all footnote types
-- Use actual verse data samples from existing versions
+- Fixture files in `functions/__tests__/fixtures/versions/` for version discovery tests
+- Inline verse data in `utils/__tests__/exportContent.test.ts` for export tests
+- Real-world samples from KJV1769 for integration-style tests

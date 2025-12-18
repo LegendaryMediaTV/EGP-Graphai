@@ -4,12 +4,18 @@
     "types/Content.ts",
     "types/Footnote.ts",
     "types/Verse.ts",
-    "types/VerseSchema.ts"
+    "types/VerseSchema.ts",
+    "types/Version.ts"
   ],
   "utility-functions": [
+    "functions/getBibleVersions.ts",
     "functions/validateJsonAgainstSchema.ts",
     "utils/exportContent.ts",
     "utils/validate.ts"
+  ],
+  "test-files": [
+    "functions/__tests__/getBibleVersions.test.ts",
+    "utils/__tests__/exportContent.test.ts"
   ],
   "database-schema": [
     "content-schema.json",
@@ -17,10 +23,8 @@
     "bible-versions/bible-verses-schema.json",
     "bible-versions/bible-versions-schema.json"
   ],
-  "database-data": [
-    "bible-books/bible-books.json",
-    "bible-versions/bible-versions.json"
-  ],
+  "database-data": ["bible-books/bible-books.json"],
+  "bible-version-metadata": ["bible-versions/*/_version.json"],
   "bible-verse-data": [
     "bible-versions/ASV1901/*.json",
     "bible-versions/BYZ2018/*.json",

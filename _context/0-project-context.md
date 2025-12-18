@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Generated:** December 17, 2025  
+> **Generated:** December 17, 2025 | **Updated:** December 18, 2025  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)  
 > **Version:** 1.7.4
 
@@ -16,6 +16,15 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Export Formats** – Text with Strong's annotations, paragraph-formatted Markdown
 - **Web Reader** – React-based SPA for reading and studying with toggleable tools
 - **Validation** – JSON Schema validation ensuring data integrity
+
+## Recent Changes (Branch: Refactor-Bible-versions)
+
+- **Version Metadata Refactored** – Moved from single `bible-versions.json` to per-folder `_version.json` files
+- **New `getBibleVersions()` Function** – Discovers versions from folder structure dynamically
+- **New `types/Version.ts`** – TypeScript interfaces for version metadata
+- **Export System Refactored** – Unified rendering architecture with configurable options
+- **Test Coverage Added** – 49 tests (17 for version discovery, 32 for export)
+- **Font-Responsive Width** – Web reader content width scales with font size
 
 ## Quick Reference
 
@@ -72,7 +81,7 @@ graph TB
         BS[bible-books-schema.json]
         BB[bible-books.json]
         VS[bible-versions-schema.json]
-        VV[bible-versions.json]
+        VJ[_version.json files]
         CS[content-schema.json]
         VRS[bible-verses-schema.json]
         VF[Verse Files *.json]
@@ -82,6 +91,7 @@ graph TB
         VAL[validate.ts]
         EXP[exportContent.ts]
         VJS[validateJsonAgainstSchema.ts]
+        GBV[getBibleVersions.ts]
     end
 
     subgraph Types["Type Definitions"]
@@ -89,6 +99,7 @@ graph TB
         TV[VerseSchema.ts]
         TB[Book.ts]
         TF[Footnote.ts]
+        TBV[Version.ts]
     end
 
     subgraph Web["Web Layer"]
@@ -109,7 +120,7 @@ graph TB
     VRS --> VAL
     CS --> VRS
     BB --> VAL
-    VV --> VAL
+    VJ --> VAL
     VF --> VAL
 
     VF --> EXP
@@ -119,7 +130,8 @@ graph TB
     TC --> EXP
     TV --> EXP
 
-    SRV --> VV
+    VJ --> GBV
+    GBV --> SRV
     SRV --> BB
     SRV --> VF
 
@@ -181,7 +193,12 @@ window.ComponentName = ComponentName;
 
 ## Test Status
 
-⚠️ **No tests currently exist.** Vitest is configured but no test files have been created. See [6-tests-and-build.md](6-tests-and-build.md) for recommendations on test priorities and structure.
+✅ **49 tests passing** (Vitest):
+
+- `functions/__tests__/getBibleVersions.test.ts` – 17 tests for version discovery
+- `utils/__tests__/exportContent.test.ts` – 32 tests for export functionality
+
+See [6-tests-and-build.md](6-tests-and-build.md) for test details and coverage.
 
 ---
 

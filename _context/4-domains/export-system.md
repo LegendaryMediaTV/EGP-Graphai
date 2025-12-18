@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Export System converts Graphai JSON data into human-readable formats for offline use, publishing, or integration with other systems. Two export formats are supported: annotated text with Strong's numbers and formatted markdown.
+The Export System converts Graphai JSON data into human-readable formats for offline use, publishing, or integration with other systems. Two export formats are supported: annotated text with Strong's numbers and formatted markdown. The system uses a unified rendering architecture with configurable options for each format.
 
 ## Core Entities
 
@@ -21,7 +21,7 @@ The Export System converts Graphai JSON data into human-readable formats for off
 | `␤`            | Line break       | Text     |
 | `«»`           | Subtitle wrapper | Text     |
 | `[[]]`         | Heading wrapper  | Text     |
-| `°`            | Footnote marker  | Text     |
+| `°{content}`   | Inline footnote  | Text     |
 | `<sup>n</sup>` | Verse number     | Markdown |
 | `<br>`         | Line break       | Markdown |
 | `> _text_`     | Subtitle block   | Markdown |
@@ -38,42 +38,137 @@ The Export System converts Graphai JSON data into human-readable formats for off
 - **Directory Mirroring** – Export directories mirror source directory structure
 - **Chapter Grouping** – Markdown groups verses under `## Chapter N` headers
 - **Footnote Lettering** – Footnotes use letters (a-z) per chapter, cycling after z
-- **Heading Extraction** – Headings at chapter start become `### ` headers
-- **Subtitle Handling** – Subtitles rendered as italic blockquotes `> _text_`
+- **Inline Footnotes** – Text format places footnote content immediately after marker: `word°{content} G1234`
 - **Spacing Preservation** – Source data includes spaces; no automatic space insertion
+- **Clean Footnote Removal** – Format `°{...}` allows search/replace removal without extra spaces
+
+## Architecture
+
+### Unified Rendering System
+
+The export system uses a single `renderContent()` function with configurable `RenderOptions`:
+
+```typescript
+interface RenderOptions {
+  includeStrongs: boolean;
+  includeMorph: boolean;
+  includeFootnotes: boolean;
+  footnoteStyle: "inline" | "reference";
+  paragraphMarker: string;
+  lineBreakMarker: string;
+  headingWrapper: (text: string) => string;
+  subtitleWrapper: (text: string) => string;
+  footnoteMarker: (index: number) => string;
+}
+```
+
+### Format-Specific Options
+
+```typescript
+const TEXT_OPTIONS: RenderOptions = {
+  includeStrongs: true,
+  includeMorph: true,
+  includeFootnotes: true,
+  footnoteStyle: "inline",
+  paragraphMarker: "¶ ",
+  lineBreakMarker: "␤",
+  headingWrapper: (text) => `[[${text}]] `,
+  subtitleWrapper: (text) => `«${text}» `,
+  footnoteMarker: () => "°",
+};
+
+const MARKDOWN_OPTIONS: RenderOptions = {
+  includeStrongs: false,
+  includeMorph: false,
+  includeFootnotes: true,
+  footnoteStyle: "reference",
+  paragraphMarker: "\n\n",
+  lineBreakMarker: "<br>",
+  headingWrapper: (text) => `\n### ${text}\n`,
+  subtitleWrapper: (text) => `> _${text}_`,
+  footnoteMarker: (index) =>
+    `<sup>${String.fromCharCode(97 + (index % 26))}</sup>`,
+};
+```
 
 ## Representative Code Examples
 
-### Main Export Entry Point
+### Core Rendering Function
 
 _From [utils/exportContent.ts](../utils/exportContent.ts)_
 
 ```typescript
-function main(): void {
-  const translation = process.argv[2];
-  const bookId = process.argv[3];
+function renderContent(content: Content, ctx: RenderContext): string {
+  // String content
+  if (typeof content === "string") {
+    return content;
+  }
 
-  const versionsDir = path.join(path.dirname(__dirname), "bible-versions");
+  // Array content - join all rendered parts
+  if (Array.isArray(content)) {
+    return content.map((item) => renderContent(item, ctx)).join("");
+  }
 
-  let versions: string[];
-  if (translation) {
-    versions = [translation];
-  } else {
-    versions = fs.readdirSync(versionsDir).filter((item: string) => {
-      const itemPath = path.join(versionsDir, item);
-      return fs.statSync(itemPath).isDirectory();
+  // Object content - dispatch by type
+  if ("heading" in content) {
+    const inner = renderContent(content.heading, {
+      ...ctx,
+      footnotePrefix: "Heading.",
     });
+    return ctx.options.headingWrapper(inner);
   }
 
-  for (const version of versions) {
-    console.log(`Processing version: ${version}`);
-    convertBibleVersion(version, bookId);
-    convertBibleVersionToMarkdown(version, bookId);
+  if ("subtitle" in content) {
+    const inner = renderContent(content.subtitle, {
+      ...ctx,
+      footnotePrefix: "Subtitle.",
+    });
+    return ctx.options.subtitleWrapper(inner);
   }
+
+  // Text object
+  return renderTextObject(content as ContentObject, ctx);
 }
 ```
 
-### Text Export with Strong's
+### Text Object Rendering with Footnote Order
+
+_From [utils/exportContent.ts](../utils/exportContent.ts)_
+
+```typescript
+function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
+  const parts: string[] = [];
+
+  // Text content
+  const text = obj.text || "";
+  parts.push(text);
+
+  // Footnote marker and inline content (immediately after text, before Strong's/morph)
+  if (obj.foot && ctx.options.includeFootnotes) {
+    const footIndex = ctx.footnotes.length;
+    parts.push(ctx.options.footnoteMarker(footIndex));
+
+    if (ctx.options.footnoteStyle === "inline") {
+      // Add inline footnote content immediately after marker, before Strong's/morph
+      parts.push(`{${footnoteContent}}`);
+    }
+  }
+
+  // Strong's number (after footnote content for text format)
+  if (obj.strong && ctx.options.includeStrongs) {
+    parts.push(" " + obj.strong);
+  }
+
+  // Morph code
+  if (obj.morph && ctx.options.includeMorph) {
+    parts.push(` (${obj.morph})`);
+  }
+
+  return parts.join("");
+}
+```
+
+### Verse Conversion
 
 _From [utils/exportContent.ts](../utils/exportContent.ts)_
 
@@ -82,94 +177,15 @@ function convertVerseToText(verse: VerseSchema): string {
   const chapter = verse.chapter.toString().padStart(3, "0");
   const verseNum = verse.verse.toString().padStart(3, "0");
 
-  function extractTextAndFootnotes(
-    content: Content,
-    textParts: string[],
-    footnoteParts: string[]
-  ): void {
-    // ... recursive extraction
-    const obj = content as ContentObject;
-    let textPart = obj.text || "";
+  const ctx: RenderContext = {
+    options: TEXT_OPTIONS,
+    footnotes: [],
+    verseNum: verse.verse,
+  };
 
-    if (obj.foot) {
-      textPart += "°"; // Footnote marker
-      if (obj.strong) textPart += " " + obj.strong;
-      if (obj.morph) textPart += " (" + obj.morph + ")";
-      textPart += convertFootnoteToText(obj.foot).replace("° ", " ");
-    } else {
-      if (obj.strong) textPart += " " + obj.strong;
-      if (obj.morph) textPart += " (" + obj.morph + ")";
-    }
-  }
+  let text = renderContent(verse.content, ctx);
+  text = text.replace(/^ +/, "").replace(/ +$/, "").replace(/ +/g, " ");
 
-  return `${chapter}:${verseNum} ${fullText}`;
+  return `${chapter}:${verseNum} ${text}`;
 }
-```
-
-### Markdown Export with Chapters
-
-_From [utils/exportContent.ts](../utils/exportContent.ts)_
-
-```typescript
-function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
-  // Group verses by chapter
-  const chapters = new Map<number, VerseSchema[]>();
-  for (const verse of verses) {
-    const chapterNum = verse.chapter;
-    if (!chapters.has(chapterNum)) {
-      chapters.set(chapterNum, []);
-    }
-    chapters.get(chapterNum)!.push(verse);
-  }
-
-  for (const [chapterNum, chapterVerses] of sortedChapters) {
-    markdownLines.push(`## Chapter ${chapterNum}`);
-    const chapterFootnotes: string[] = [];
-
-    // Check for subtitle
-    if (firstItem && "subtitle" in firstItem) {
-      markdownLines.push(`> _${subtitleText}_`);
-    }
-
-    for (const verse of chapterVerses) {
-      const verseText = convertVerseToMarkdown(verse, chapterFootnotes);
-      markdownLines.push(verseText);
-    }
-
-    // Add footnotes at chapter end
-    if (chapterFootnotes.length > 0) {
-      markdownLines.push("");
-      for (const footnote of chapterFootnotes) {
-        markdownLines.push(`> ${footnote}`);
-      }
-    }
-  }
-}
-```
-
-### Footnote Processing
-
-_From [utils/exportContent.ts](../utils/exportContent.ts)_
-
-```typescript
-// Add footnote marker using letters cycling a-z
-const footnoteLetter = String.fromCharCode(97 + (chapterFootnotes.length % 26)); // 97 = 'a'
-textParts.push(`<sup>${footnoteLetter}</sup>`);
-
-const footnoteContent = convertContentToMarkdownText(obj.foot.content);
-chapterFootnotes.push(
-  `- <sup>${footnoteLetter}</sup> ${verseNum}. ${footnoteContent}`
-);
-```
-
-### Output File Naming
-
-_From [utils/exportContent.ts](../utils/exportContent.ts)_
-
-```typescript
-// Text export
-const outputPath = path.join(outputDir, file.replace(".json", ".txt"));
-
-// Markdown export
-const outputPath = path.join(outputDir, file.replace(".json", ".md"));
 ```

@@ -155,3 +155,45 @@ export default interface Footnote {
   content: Content;
 }
 ```
+
+## Example: Version.ts
+
+```typescript
+import Content from "./Content";
+
+/**
+ * Represents a book entry within a Bible version.
+ */
+export interface VersionBook {
+  _id: string; // Book identifier from bible-books.json
+  name: Content; // Name of the book in this version
+  title: Content; // Full title in this version
+  order: number; // Position in this version's canon (1-indexed)
+  chapters: number; // Number of chapters
+}
+
+/**
+ * Testament-specific overrides for script and morphology.
+ */
+export interface Testament {
+  script?: "G" | "H"; // Script override ('G' for Greek, 'H' for Hebrew)
+}
+
+/**
+ * Represents a Bible version/translation with metadata and book list.
+ * Stored in _version.json files within each version folder.
+ */
+export default interface BibleVersion {
+  _id: string; // Short identifier (e.g., 'ASV1901', 'KJV1769')
+  name: Content; // Human-readable version name
+  license: string; // License identifier (e.g., 'CC0-1.0')
+  copyright?: Content; // Copyright statement
+  script?: "G" | "H"; // Default script; Latin if unset
+  testaments?: {
+    // Per-testament overrides
+    OT?: Testament;
+    NT?: Testament;
+  };
+  books?: VersionBook[]; // Books included with order
+}
+```

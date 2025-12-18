@@ -78,36 +78,16 @@ npm run dev
 ## Project Structure
 
 ```
-├── bible-books/           # Book metadata and schemas
-│ ├── bible-books-schema.json
-│ └── bible-books.json
-├── bible-versions/        # Version data and schemas
-│ ├── bible-verses-schema.json
-│ ├── bible-versions-schema.json
-│ └── {version}/           # Version-specific data (e.g., ASV1901/)
-│   ├── _version.json      # Version metadata (name, license, books)
-│   └── NN-BBB.json        # Verse files (e.g., 01-GEN.json)
-├── exports/               # Generated output files
-│ ├── markdown-par/        # Markdown format
-│ └── text-vbv-strongs/    # Strong’s text format
-├── functions/             # Utility functions
-│ ├── getBibleVersions.ts  # Load versions from _version.json files
-│ └── validateJsonAgainstSchema.ts
-├── imports/               # Import scripts and raw data
-├── types/                 # TypeScript type definitions
-│ ├── Book.ts
-│ ├── Content.ts
-│ ├── Footnote.ts
-│ ├── Version.ts           # BibleVersion and VersionBook interfaces
-│ ├── Verse.ts
-│ └── VerseSchema.ts
-├── utils/                 # Utility scripts
-│ └── exportContent.ts     # Main content export script
-├── web/                   # Graphai Reader web application
-│ ├── public/              # Frontend React components
-│ └── server.ts            # Node.js HTTP server
-├── AGENTS.md              # AI agent instructions
-├── README.md              # This file 😁
+ bible-books/           # Book metadata and schemas
+ bible-versions/        # Version folders (ASV1901, KJV1769, etc.)
+    {version}/
+        _version.json  # Version metadata
+        NN-BBB.json    # Verse files (e.g., 01-GEN.json)
+ exports/               # Generated output files
+ functions/             # Utility functions
+ types/                 # TypeScript type definitions
+ utils/                 # Export and validation scripts
+ web/                   # Graphai Reader web application
 ```
 
 ## JSON Format Examples

@@ -4,23 +4,27 @@
 
 Bible Versions represent distinct translations, editions, or manuscripts of the Bible. Each version has metadata, licensing information, and a customized book ordering. The system supports multiple versions ranging from ancient Greek manuscripts (BYZ2018) to modern English translations (WEBUS2020).
 
+**Architecture Change:** Version metadata is now stored in per-folder `_version.json` files (e.g., `bible-versions/KJV1769/_version.json`) rather than a single `bible-versions.json` registry. This enables self-contained version folders and simplifies adding new versions.
+
 ## Core Entities
 
-### Version Registry (`bible-versions.json`)
+### Version Metadata (`_version.json`)
+
+_From [types/Version.ts](../types/Version.ts)_
 
 ```typescript
-interface Version {
+interface BibleVersion {
   _id: string; // Short identifier (e.g., "ASV1901", "KJV1769")
-  name: string; // Human-readable name
+  name: Content; // Human-readable name
   license: string; // License identifier (e.g., "CC0-1.0", "public-domain")
   copyright?: Content; // Copyright statement
   script?: "G" | "H"; // Default script (Greek/Hebrew), Latin if unset
   testaments?: {
     // Per-testament overrides
-    OT?: { script?: "G" | "H" };
-    NT?: { script?: "G" | "H" };
+    OT?: Testament;
+    NT?: Testament;
   };
-  books: VersionBook[]; // Books included in this version
+  books?: VersionBook[]; // Books included in this version
 }
 
 interface VersionBook {
@@ -30,6 +34,10 @@ interface VersionBook {
   order: number; // Position in this version's canon (1-indexed)
   chapters: number; // Number of chapters
 }
+
+interface Testament {
+  script?: "G" | "H"; // Script override for this testament
+}
 ```
 
 ### Available Versions
@@ -38,7 +46,7 @@ interface VersionBook {
 | ---------- | ----------------------------- | ------ | ------------ |
 | ASV1901    | American Standard Version     | Latin  | 66 (OT+NT)   |
 | BYZ2018    | Byzantine Greek New Testament | Greek  | 27 (NT only) |
-| CLV1880    | Chinese Union Version         | Latin  | 66 (OT+NT)   |
+| CLV1880    | Clementine Latin Vulgate      | Latin  | 66 (OT+NT)   |
 | KJV1769    | King James Version            | Latin  | 66 (OT+NT)   |
 | WEBUS2020  | World English Bible (US)      | Latin  | 66 (OT+NT)   |
 | YLT1898    | Young's Literal Translation   | Latin  | 66 (OT+NT)   |
@@ -56,29 +64,33 @@ interface VersionBook {
 - **No Duplicate Orders** – Each book in a version must have a unique order number
 - **Book Reference Integrity** – Book `_id` values must exist in `bible-books.json`
 - **File-Order Alignment** – Verse files named `{order}-{bookId}.json` must match book ordering
+- **Self-Contained Folders** – Each version folder contains `_version.json` + verse JSON files
 
 ## Representative Code Examples
 
-### Version Schema Definition
+### Version Discovery Function
 
-_From [bible-versions/bible-versions-schema.json](../bible-versions/bible-versions-schema.json)_
+_From [functions/getBibleVersions.ts](../functions/getBibleVersions.ts)_
 
-```json
-{
-  "type": "object",
-  "required": ["_id", "name", "license"],
-  "properties": {
-    "_id": {
-      "type": "string",
-      "pattern": "^[A-Z0-9-]+$"
-    },
-    "books": {
-      "type": "array",
-      "items": {
-        "required": ["_id", "name", "title", "order", "chapters"]
-      }
-    }
+```typescript
+export function getBibleVersions(versionsDir?: string): BibleVersion[] {
+  const dir = versionsDir ?? BIBLE_VERSIONS_DIR;
+  const items = fs.readdirSync(dir);
+  const versions: BibleVersion[] = [];
+
+  for (const item of items) {
+    const itemPath = path.join(dir, item);
+    if (!fs.statSync(itemPath).isDirectory()) continue;
+
+    const versionFilePath = path.join(itemPath, "_version.json");
+    if (!fs.existsSync(versionFilePath)) continue;
+
+    const content = fs.readFileSync(versionFilePath, "utf-8");
+    versions.push(JSON.parse(content) as BibleVersion);
   }
+
+  versions.sort((a, b) => a._id.localeCompare(b._id));
+  return versions;
 }
 ```
 

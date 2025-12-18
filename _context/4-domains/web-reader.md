@@ -81,6 +81,7 @@ App
 - **Script-Specific Fonts** – Hebrew renders RTL with David Libre; Greek uses EB Garamond
 - **Dark Mode Inheritance** – Respects system preference via `prefers-color-scheme`
 - **Component Registration** – Each component assigned to `window` for cross-file access
+- **Responsive Text Width** – Content max-width scales with font size: `768px * (fontSize / 16)`
 
 ## Representative Code Examples
 
@@ -169,8 +170,8 @@ function ContentNode({ node, settings, onFootnoteClick }) {
     node.script === "H"
       ? "script-hebrew"
       : node.script === "G"
-      ? "script-greek"
-      : "";
+        ? "script-greek"
+        : "";
 
   return (
     <span
