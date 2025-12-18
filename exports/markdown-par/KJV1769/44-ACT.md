@@ -38,10 +38,10 @@
 <sup>7</sup> And they were all amazed and marvelled, saying one to another, Behold, are not all these which speak Galilaeans?
 <sup>8</sup> And how hear we every man in our own tongue, wherein we were born?
 <sup>9</sup> Parthians, and Medes, and Elamites, and the dwellers in Mesopotamia, and in Judaea, and Cappadocia, in Pontus, and Asia,
-<sup>10</sup>  Phrygia, and Pamphylia, in Egypt, and in the parts of Libya about Cyrene, and strangers of Rome, Jews and proselytes,
+<sup>10</sup> Phrygia, and Pamphylia, in Egypt, and in the parts of Libya about Cyrene, and strangers of Rome, Jews and proselytes,
 <sup>11</sup> Cretes and Arabians, we do hear them speak in our tongues the wonderful works of God.
 <sup>12</sup> And they were all amazed, and were in doubt, saying one to another, What meaneth this?
-<sup>13</sup>  Others mocking said, These men are full of new wine.
+<sup>13</sup> Others mocking said, These men are full of new wine.
 <sup>14</sup> But Peter, standing up with the eleven, lifted up his voice, and said unto them, Ye men of Judaea, and all [ye] that dwell at Jerusalem, be this known unto you, and hearken to my words:
 <sup>15</sup> For these are not drunken, as ye suppose, seeing it is [but] the third hour of the day.
 <sup>16</sup> But this is that which was spoken by the prophet Joel;
@@ -163,7 +163,7 @@
 <sup>13</sup> And of the rest durst no man join himself to them: but the people magnified them.
 <sup>14</sup> And believers were the more added to the Lord, multitudes both of men and women.)
 <sup>15</sup> Insomuch that they brought forth the sick into the streets, and laid [them] on beds and couches, that at the least the shadow of Peter passing by might overshadow some of them.
-<sup>16</sup>  There came also a multitude [out] of the cities round about unto Jerusalem, bringing sick folks, and them which were vexed with unclean spirits: and they were healed every one.
+<sup>16</sup> There came also a multitude [out] of the cities round about unto Jerusalem, bringing sick folks, and them which were vexed with unclean spirits: and they were healed every one.
 <sup>17</sup> Then the high priest rose up, and all they that were with him, (which is the sect of the Sadducees,) and were filled with indignation,
 <sup>18</sup> And laid their hands on the apostles, and put them in the common prison.
 <sup>19</sup> But the angel of the Lord by night opened the prison doors, and brought them forth, and said,
@@ -301,11 +301,11 @@
 <sup>25</sup> And they, when they had testified and preached the word of the Lord, returned to Jerusalem, and preached the gospel in many villages of the Samaritans.
 <sup>26</sup> And the angel of the Lord spake unto Philip, saying, Arise, and go toward the south unto the way that goeth down from Jerusalem unto Gaza, which is desert.
 <sup>27</sup> And he arose and went: and, behold, a man of Ethiopia, an eunuch of great authority under Candace queen of the Ethiopians, who had the charge of all her treasure, and had come to Jerusalem for to worship,
-<sup>28</sup>  Was returning, and sitting in his chariot read Esaias the prophet.
+<sup>28</sup> Was returning, and sitting in his chariot read Esaias the prophet.
 <sup>29</sup> Then the Spirit said unto Philip, Go near, and join thyself to this chariot.
 <sup>30</sup> And Philip ran thither to [him], and heard him read the prophet Esaias, and said, Understandest thou what thou readest?
 <sup>31</sup> And he said, How can I, except some man should guide me? And he desired Philip that he would come up and sit with him.
-<sup>32</sup>  The place of the scripture which he read was this, He was led as a sheep to the slaughter; and like a lamb dumb before his shearer, so opened he not his mouth:
+<sup>32</sup> The place of the scripture which he read was this, He was led as a sheep to the slaughter; and like a lamb dumb before his shearer, so opened he not his mouth:
 <sup>33</sup> In his humiliation his judgment was taken away: and who shall declare his generation? for his life is taken from the earth.
 <sup>34</sup> And the eunuch answered Philip, and said, I pray thee, of whom speaketh the prophet this? of himself, or of some other man?
 <sup>35</sup> Then Philip opened his mouth, and began at the same scripture, and preached unto him Jesus.
@@ -363,9 +363,7 @@
 
 ## Chapter 10
 
-<sup>1</sup> 
-
- There was a certain man in Caesarea called Cornelius, a centurion of the band called the Italian [band],
+<sup>1</sup> There was a certain man in Caesarea called Cornelius, a centurion of the band called the Italian [band],
 <sup>2</sup> [A] devout [man], and one that feared God with all his house, which gave much alms to the people, and prayed to God alway.
 <sup>3</sup> He saw in a vision evidently about the ninth hour of the day an angel of God coming in to him, and saying unto him, Cornelius.
 <sup>4</sup> And when he looked on him, he was afraid, and said, What is it, Lord? And he said unto him, Thy prayers and thine alms are come up for a memorial before God.
@@ -373,14 +371,14 @@
 <sup>6</sup> He lodgeth with one Simon a tanner, whose house is by the sea side: he shall tell thee what thou oughtest to do.
 <sup>7</sup> And when the angel which spake unto Cornelius was departed, he called two of his household servants, and a devout soldier of them that waited on him continually;
 <sup>8</sup> And when he had declared all [these] things unto them, he sent them to Joppa.
-<sup>9</sup>  On the morrow, as they went on their journey, and drew nigh unto the city, Peter went up upon the housetop to pray about the sixth hour:
+<sup>9</sup> On the morrow, as they went on their journey, and drew nigh unto the city, Peter went up upon the housetop to pray about the sixth hour:
 <sup>10</sup> And he became very hungry, and would have eaten: but while they made ready, he fell into a trance,
 <sup>11</sup> And saw heaven opened, and a certain vessel descending unto him, as it had been a great sheet knit at the four corners, and let down to the earth:
 <sup>12</sup> Wherein were all manner of fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air.
 <sup>13</sup> And there came a voice to him, Rise, Peter; kill, and eat.
 <sup>14</sup> But Peter said, Not so, Lord; for I have never eaten any thing that is common or unclean.
 <sup>15</sup> And the voice [spake] unto him again the second time, What God hath cleansed, [that] call not thou common.
-<sup>16</sup>  This was done thrice: and the vessel was received up again into heaven.
+<sup>16</sup> This was done thrice: and the vessel was received up again into heaven.
 <sup>17</sup> Now while Peter doubted in himself what this vision which he had seen should mean, behold, the men which were sent from Cornelius had made enquiry for Simon’s house, and stood before the gate,
 <sup>18</sup> And called, and asked whether Simon, which was surnamed Peter, were lodged there.
 <sup>19</sup> While Peter thought on the vision, the Spirit said unto him, Behold, three men seek thee.
@@ -660,7 +658,7 @@
 <sup>8</sup> And they troubled the people and the rulers of the city, when they heard these things.
 <sup>9</sup> And when they had taken security of Jason, and of the other, they let them go.
 <sup>10</sup> And the brethren immediately sent away Paul and Silas by night unto Berea: who coming [thither] went into the synagogue of the Jews.
-<sup>11</sup>  These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so.
+<sup>11</sup> These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so.
 <sup>12</sup> Therefore many of them believed; also of honourable women which were Greeks, and of men, not a few.
 <sup>13</sup> But when the Jews of Thessalonica had knowledge that the word of God was preached of Paul at Berea, they came thither also, and stirred up the people.
 <sup>14</sup> And then immediately the brethren sent away Paul to go as it were to the sea: but Silas and Timotheus abode there still.
@@ -687,9 +685,7 @@
 
 ## Chapter 18
 
-<sup>1</sup> 
-
- After these things Paul departed from Athens, and came to Corinth;
+<sup>1</sup> After these things Paul departed from Athens, and came to Corinth;
 <sup>2</sup> And found a certain Jew named Aquila, born in Pontus, lately come from Italy, with his wife Priscilla; (because that Claudius had commanded all Jews to depart from Rome:) and came unto them.
 <sup>3</sup> And because he was of the same craft, he abode with them, and wrought: for by their occupation they were tentmakers.
 <sup>4</sup> And he reasoned in the synagogue every sabbath, and persuaded the Jews and the Greeks.
@@ -820,7 +816,7 @@
 <sup>13</sup> Then Paul answered, What mean ye to weep and to break mine heart? for I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus.
 <sup>14</sup> And when he would not be persuaded, we ceased, saying, The will of the Lord be done.
 <sup>15</sup> And after those days we took up our carriages, and went up to Jerusalem.
-<sup>16</sup>  There went with us also [certain] of the disciples of Caesarea, and brought with them one Mnason of Cyprus, an old disciple, with whom we should lodge.
+<sup>16</sup> There went with us also [certain] of the disciples of Caesarea, and brought with them one Mnason of Cyprus, an old disciple, with whom we should lodge.
 <sup>17</sup> And when we were come to Jerusalem, the brethren received us gladly.
 <sup>18</sup> And the [day] following Paul went in with us unto James; and all the elders were present.
 <sup>19</sup> And when he had saluted them, he declared particularly what things God had wrought among the Gentiles by his ministry.
@@ -877,7 +873,7 @@
 <sup>27</sup> Then the chief captain came, and said unto him, Tell me, art thou a Roman? He said, Yea.
 <sup>28</sup> And the chief captain answered, With a great sum obtained I this freedom. And Paul said, But I was [free] born.
 <sup>29</sup> Then straightway they departed from him which should have examined him: and the chief captain also was afraid, after he knew that he was a Roman, and because he had bound him.
-<sup>30</sup>  On the morrow, because he would have known the certainty wherefore he was accused of the Jews, he loosed him from [his] bands, and commanded the chief priests and all their council to appear, and brought Paul down, and set him before them.
+<sup>30</sup> On the morrow, because he would have known the certainty wherefore he was accused of the Jews, he loosed him from [his] bands, and commanded the chief priests and all their council to appear, and brought Paul down, and set him before them.
 
 ## Chapter 23
 
@@ -912,7 +908,7 @@
 <sup>29</sup> Whom I perceived to be accused of questions of their law, but to have nothing laid to his charge worthy of death or of bonds.
 <sup>30</sup> And when it was told me how that the Jews laid wait for the man, I sent straightway to thee, and gave commandment to his accusers also to say before thee what [they had] against him. Farewell.
 <sup>31</sup> Then the soldiers, as it was commanded them, took Paul, and brought [him] by night to Antipatris.
-<sup>32</sup>  On the morrow they left the horsemen to go with him, and returned to the castle:
+<sup>32</sup> On the morrow they left the horsemen to go with him, and returned to the castle:
 <sup>33</sup> Who, when they came to Caesarea, and delivered the epistle to the governor, presented Paul also before him.
 <sup>34</sup> And when the governor had read [the letter], he asked of what province he was. And when he understood that [he was] of Cilicia;
 <sup>35</sup> I will hear thee, said he, when thine accusers are also come. And he commanded him to be kept in Herod’s judgment hall.
@@ -921,7 +917,7 @@
 
 <sup>1</sup> And after five days Ananias the high priest descended with the elders, and [with] a certain orator [named] Tertullus, who informed the governor against Paul.
 <sup>2</sup> And when he was called forth, Tertullus began to accuse [him], saying, Seeing that by thee we enjoy great quietness, and that very worthy deeds are done unto this nation by thy providence,
-<sup>3</sup>  We accept [it] always, and in all places, most noble Felix, with all thankfulness.
+<sup>3</sup> We accept [it] always, and in all places, most noble Felix, with all thankfulness.
 <sup>4</sup> Notwithstanding, that I be not further tedious unto thee, I pray thee that thou wouldest hear us of thy clemency a few words.
 <sup>5</sup> For we have found this man [a] pestilent [fellow], and a mover of sedition among all the Jews throughout the world, and a ringleader of the sect of the Nazarenes:
 <sup>6</sup> Who also hath gone about to profane the temple: whom we took, and would have judged according to our law.
@@ -936,7 +932,7 @@
 <sup>15</sup> And have hope toward God, which they themselves also allow, that there shall be a resurrection of the dead, both of the just and unjust.
 <sup>16</sup> And herein do I exercise myself, to have always a conscience void of offence toward God, and [toward] men.
 <sup>17</sup> Now after many years I came to bring alms to my nation, and offerings.
-<sup>18</sup>  Whereupon certain Jews from Asia found me purified in the temple, neither with multitude, nor with tumult.
+<sup>18</sup> Whereupon certain Jews from Asia found me purified in the temple, neither with multitude, nor with tumult.
 <sup>19</sup> Who ought to have been here before thee, and object, if they had ought against me.
 <sup>20</sup> Or else let these same [here] say, if they have found any evil doing in me, while I stood before the council,
 <sup>21</sup> Except it be for this one voice, that I cried standing among them, Touching the resurrection of the dead I am called in question by you this day.
@@ -990,7 +986,7 @@
 <sup>9</sup> I verily thought with myself, that I ought to do many things contrary to the name of Jesus of Nazareth.
 <sup>10</sup> Which thing I also did in Jerusalem: and many of the saints did I shut up in prison, having received authority from the chief priests; and when they were put to death, I gave my voice against [them].
 <sup>11</sup> And I punished them oft in every synagogue, and compelled [them] to blaspheme; and being exceedingly mad against them, I persecuted [them] even unto strange cities.
-<sup>12</sup>  Whereupon as I went to Damascus with authority and commission from the chief priests,
+<sup>12</sup> Whereupon as I went to Damascus with authority and commission from the chief priests,
 <sup>13</sup> At midday, O king, I saw in the way a light from heaven, above the brightness of the sun, shining round about me and them which journeyed with me.
 <sup>14</sup> And when we were all fallen to the earth, I heard a voice speaking unto me, and saying in the Hebrew tongue, Saul, Saul, why persecutest thou me? [it is] hard for thee to kick against the pricks.
 <sup>15</sup> And I said, Who art thou, Lord? And he said, I am Jesus whom thou persecutest.
@@ -1067,7 +1063,7 @@
 <sup>4</sup> And when the barbarians saw the [venomous] beast hang on his hand, they said among themselves, No doubt this man is a murderer, whom, though he hath escaped the sea, yet vengeance suffereth not to live.
 <sup>5</sup> And he shook off the beast into the fire, and felt no harm.
 <sup>6</sup> Howbeit they looked when he should have swollen, or fallen down dead suddenly: but after they had looked a great while, and saw no harm come to him, they changed their minds, and said that he was a god.
-<sup>7</sup>  In the same quarters were possessions of the chief man of the island, whose name was Publius; who received us, and lodged us three days courteously.
+<sup>7</sup> In the same quarters were possessions of the chief man of the island, whose name was Publius; who received us, and lodged us three days courteously.
 <sup>8</sup> And it came to pass, that the father of Publius lay sick of a fever and of a bloody flux: to whom Paul entered in, and prayed, and laid his hands on him, and healed him.
 <sup>9</sup> So when this was done, others also, which had diseases in the island, came, and were healed:
 <sup>10</sup> Who also honoured us with many honours; and when we departed, they laded [us] with such things as were necessary.

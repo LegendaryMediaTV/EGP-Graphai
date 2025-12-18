@@ -37,7 +37,7 @@
 <sup>2</sup> Fulfil ye my joy, that ye be likeminded, having the same love, [being] of one accord, of one mind.
 <sup>3</sup> [Let] nothing [be done] through strife or vainglory; but in lowliness of mind let each esteem other better than themselves.
 <sup>4</sup> Look not every man on his own things, but every man also on the things of others.
-<sup>5</sup>  Let this mind be in you, which was also in Christ Jesus:
+<sup>5</sup> Let this mind be in you, which was also in Christ Jesus:
 <sup>6</sup> Who, being in the form of God, thought it not robbery to be equal with God:
 <sup>7</sup> But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:
 <sup>8</sup> And being found in fashion as a man, he humbled himself, and became obedient unto death, even the death of the cross.
@@ -101,7 +101,7 @@
 <sup>9</sup> Those things, which ye have both learned, and received, and heard, and seen in me, do: and the God of peace shall be with you.
 <sup>10</sup> But I rejoiced in the Lord greatly, that now at the last your care of me hath flourished again; wherein ye were also careful, but ye lacked opportunity.
 <sup>11</sup> Not that I speak in respect of want: for I have learned, in whatsoever state I am, [therewith] to be content.
-<sup>12</sup>  I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.
+<sup>12</sup> I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.
 <sup>13</sup> I can do all things through Christ which strengtheneth me.
 <sup>14</sup> Notwithstanding ye have well done, that ye did communicate with my affliction.
 <sup>15</sup> Now ye Philippians know also, that in the beginning of the gospel, when I departed from Macedonia, no church communicated with me as concerning giving and receiving, but ye only.

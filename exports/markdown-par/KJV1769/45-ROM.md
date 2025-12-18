@@ -120,7 +120,7 @@
 <sup>17</sup> (As it is written, I have made thee a father of many nations,) before him whom he believed, [even] God, who quickeneth the dead, and calleth those things which be not as though they were.
 <sup>18</sup> Who against hope believed in hope, that he might become the father of many nations, according to that which was spoken, So shall thy seed be.
 <sup>19</sup> And being not weak in faith, he considered not his own body now dead, when he was about an hundred years old, neither yet the deadness of Sara’s womb:
-<sup>20</sup>  He staggered not at the promise of God through unbelief; but was strong in faith, giving glory to God;
+<sup>20</sup> He staggered not at the promise of God through unbelief; but was strong in faith, giving glory to God;
 <sup>21</sup> And being fully persuaded that, what he had promised, he was able also to perform.
 <sup>22</sup> And therefore it was imputed to him for righteousness.
 <sup>23</sup> Now it was not written for his sake alone, that it was imputed to him;
@@ -155,7 +155,7 @@
 
 <sup>1</sup> What shall we say then? Shall we continue in sin, that grace may abound?
 <sup>2</sup> God forbid. How shall we, that are dead to sin, live any longer therein?
-<sup>3</sup>  Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death?
+<sup>3</sup> Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death?
 <sup>4</sup> Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.
 <sup>5</sup> For if we have been planted together in the likeness of his death, we shall be also [in the likeness] of [his] resurrection:
 <sup>6</sup> Knowing this, that our old man is crucified with [him], that the body of sin might be destroyed, that henceforth we should not serve sin.
@@ -179,9 +179,7 @@
 
 ## Chapter 7
 
-<sup>1</sup> 
-
- Know ye not, brethren, (for I speak to them that know the law,) how that the law hath dominion over a man as long as he liveth?
+<sup>1</sup> Know ye not, brethren, (for I speak to them that know the law,) how that the law hath dominion over a man as long as he liveth?
 <sup>2</sup> For the woman which hath an husband is bound by the law to [her] husband so long as he liveth; but if the husband be dead, she is loosed from the law of [her] husband.
 <sup>3</sup> So then if, while [her] husband liveth, she be married to another man, she shall be called an adulteress: but if her husband be dead, she is free from that law; so that she is no adulteress, though she be married to another man.
 <sup>4</sup> Wherefore, my brethren, ye also are become dead to the law by the body of Christ; that ye should be married to another, [even] to him who is raised from the dead, that we should bring forth fruit unto God.
@@ -234,7 +232,7 @@
 <sup>23</sup> And not only [they], but ourselves also, which have the firstfruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, [to wit], the redemption of our body.
 <sup>24</sup> For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?
 <sup>25</sup> But if we hope for that we see not, [then] do we with patience wait for [it].
-<sup>26</sup>  Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.
+<sup>26</sup> Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.
 <sup>27</sup> And he that searcheth the hearts knoweth what [is] the mind of the Spirit, because he maketh intercession for the saints according to [the will of] God.
 <sup>28</sup> And we know that all things work together for good to them that love God, to them who are the called according to [his] purpose.
 <sup>29</sup> For whom he did foreknow, he also did predestinate [to be] conformed to the image of his Son, that he might be the firstborn among many brethren.
@@ -262,7 +260,7 @@
 <sup>9</sup> For this [is] the word of promise, At this time will I come, and Sara shall have a son.
 <sup>10</sup> And not only [this]; but when Rebecca also had conceived by one, [even] by our father Isaac;
 <sup>11</sup> (For [the children] being not yet born, neither having done any good or evil, that the purpose of God according to election might stand, not of works, but of him that calleth;)
-<sup>12</sup>  It was said unto her, The elder shall serve the younger.
+<sup>12</sup> It was said unto her, The elder shall serve the younger.
 <sup>13</sup> As it is written, Jacob have I loved, but Esau have I hated.
 <sup>14</sup> What shall we say then? [Is there] unrighteousness with God? God forbid.
 <sup>15</sup> For he saith to Moses, I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion.
@@ -271,10 +269,10 @@
 <sup>18</sup> Therefore hath he mercy on whom he will [have mercy], and whom he will he hardeneth.
 <sup>19</sup> Thou wilt say then unto me, Why doth he yet find fault? For who hath resisted his will?
 <sup>20</sup> Nay but, O man, who art thou that repliest against God? Shall the thing formed say to him that formed [it], Why hast thou made me thus?
-<sup>21</sup>  Hath not the potter power over the clay, of the same lump to make one vessel unto honour, and another unto dishonour?
+<sup>21</sup> Hath not the potter power over the clay, of the same lump to make one vessel unto honour, and another unto dishonour?
 <sup>22</sup> [What] if God, willing to shew [his] wrath, and to make his power known, endured with much longsuffering the vessels of wrath fitted to destruction:
 <sup>23</sup> And that he might make known the riches of his glory on the vessels of mercy, which he had afore prepared unto glory,
-<sup>24</sup>  Even us, whom he hath called, not of the Jews only, but also of the Gentiles?
+<sup>24</sup> Even us, whom he hath called, not of the Jews only, but also of the Gentiles?
 <sup>25</sup> As he saith also in Osee, I will call them my people, which were not my people; and her beloved, which was not beloved.
 <sup>26</sup> And it shall come to pass, [that] in the place where it was said unto them, Ye [are] not my people; there shall they be called the children of the living God.
 <sup>27</sup> Esaias also crieth concerning Israel, Though the number of the children of Israel be as the sand of the sea, a remnant shall be saved:
@@ -418,7 +416,7 @@
 ## Chapter 15
 
 <sup>1</sup> We then that are strong ought to bear the infirmities of the weak, and not to please ourselves.
-<sup>2</sup>  Let every one of us please [his] neighbour for [his] good to edification.
+<sup>2</sup> Let every one of us please [his] neighbour for [his] good to edification.
 <sup>3</sup> For even Christ pleased not himself; but, as it is written, The reproaches of them that reproached thee fell on me.
 <sup>4</sup> For whatsoever things were written aforetime were written for our learning, that we through patience and comfort of the scriptures might have hope.
 <sup>5</sup> Now the God of patience and consolation grant you to be likeminded one toward another according to Christ Jesus:
@@ -453,9 +451,7 @@
 
 ## Chapter 16
 
-<sup>1</sup> 
-
- I commend unto you Phebe our sister, which is a servant of the church which is at Cenchrea:
+<sup>1</sup> I commend unto you Phebe our sister, which is a servant of the church which is at Cenchrea:
 <sup>2</sup> That ye receive her in the Lord, as becometh saints, and that ye assist her in whatsoever business she hath need of you: for she hath been a succourer of many, and of myself also.
 <sup>3</sup> Greet Priscilla and Aquila my helpers in Christ Jesus:
 <sup>4</sup> Who have for my life laid down their own necks: unto whom not only I give thanks, but also all the churches of the Gentiles.

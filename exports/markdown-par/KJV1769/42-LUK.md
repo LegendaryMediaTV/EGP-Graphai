@@ -24,7 +24,7 @@
 <sup>22</sup> And when he came out, he could not speak unto them: and they perceived that he had seen a vision in the temple: for he beckoned unto them, and remained speechless.
 <sup>23</sup> And it came to pass, that, as soon as the days of his ministration were accomplished, he departed to his own house.
 <sup>24</sup> And after those days his wife Elisabeth conceived, and hid herself five months, saying,
-<sup>25</sup>  Thus hath the Lord dealt with me in the days wherein he looked on [me], to take away my reproach among men.
+<sup>25</sup> Thus hath the Lord dealt with me in the days wherein he looked on [me], to take away my reproach among men.
 <sup>26</sup> And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,
 <sup>27</sup> To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin’s name [was] Mary.
 <sup>28</sup> And the angel came in unto her, and said, Hail, [thou that art] highly favoured, the Lord [is] with thee: blessed [art] thou among women.
@@ -297,14 +297,14 @@
 <sup>27</sup> But I say unto you which hear, Love your enemies, do good to them which hate you,
 <sup>28</sup> Bless them that curse you, and pray for them which despitefully use you.
 <sup>29</sup> And unto him that smiteth thee on the [one] cheek offer also the other; and him that taketh away thy cloke forbid not [to take thy] coat also.
-<sup>30</sup>  Give to every man that asketh of thee; and of him that taketh away thy goods ask [them] not again.
+<sup>30</sup> Give to every man that asketh of thee; and of him that taketh away thy goods ask [them] not again.
 <sup>31</sup> And as ye would that men should do to you, do ye also to them likewise.
 <sup>32</sup> For if ye love them which love you, what thank have ye? for sinners also love those that love them.
 <sup>33</sup> And if ye do good to them which do good to you, what thank have ye? for sinners also do even the same.
 <sup>34</sup> And if ye lend [to them] of whom ye hope to receive, what thank have ye? for sinners also lend to sinners, to receive as much again.
 <sup>35</sup> But love ye your enemies, and do good, and lend, hoping for nothing again; and your reward shall be great, and ye shall be the children of the Highest: for he is kind unto the unthankful and [to] the evil.
 <sup>36</sup> Be ye therefore merciful, as your Father also is merciful.
-<sup>37</sup>  Judge not, and ye shall not be judged: condemn not, and ye shall not be condemned: forgive, and ye shall be forgiven:
+<sup>37</sup> Judge not, and ye shall not be judged: condemn not, and ye shall not be condemned: forgive, and ye shall be forgiven:
 <sup>38</sup> Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall men give into your bosom. For with the same measure that ye mete withal it shall be measured to you again.
 <sup>39</sup> And he spake a parable unto them, Can the blind lead the blind? shall they not both fall into the ditch?
 <sup>40</sup> The disciple is not above his master: but every one that is perfect shall be as his master.
@@ -385,10 +385,10 @@
 <sup>10</sup> And he said, Unto you it is given to know the mysteries of the kingdom of God: but to others in parables; that seeing they might not see, and hearing they might not understand.
 <sup>11</sup> Now the parable is this: The seed is the word of God.
 <sup>12</sup> Those by the way side are they that hear; then cometh the devil, and taketh away the word out of their hearts, lest they should believe and be saved.
-<sup>13</sup>  They on the rock [are they], which, when they hear, receive the word with joy; and these have no root, which for a while believe, and in time of temptation fall away.
+<sup>13</sup> They on the rock [are they], which, when they hear, receive the word with joy; and these have no root, which for a while believe, and in time of temptation fall away.
 <sup>14</sup> And that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of [this] life, and bring no fruit to perfection.
 <sup>15</sup> But that on the good ground are they, which in an honest and good heart, having heard the word, keep [it], and bring forth fruit with patience.
-<sup>16</sup>  No man, when he hath lighted a candle, covereth it with a vessel, or putteth [it] under a bed; but setteth [it] on a candlestick, that they which enter in may see the light.
+<sup>16</sup> No man, when he hath lighted a candle, covereth it with a vessel, or putteth [it] under a bed; but setteth [it] on a candlestick, that they which enter in may see the light.
 <sup>17</sup> For nothing is secret, that shall not be made manifest; neither [any thing] hid, that shall not be known and come abroad.
 <sup>18</sup> Take heed therefore how ye hear: for whosoever hath, to him shall be given; and whosoever hath not, from him shall be taken even that which he seemeth to have.
 <sup>19</sup> Then came to him [his] mother and his brethren, and could not come at him for the press.
@@ -408,7 +408,7 @@
 <sup>33</sup> Then went the devils out of the man, and entered into the swine: and the herd ran violently down a steep place into the lake, and were choked.
 <sup>34</sup> When they that fed [them] saw what was done, they fled, and went and told [it] in the city and in the country.
 <sup>35</sup> Then they went out to see what was done; and came to Jesus, and found the man, out of whom the devils were departed, sitting at the feet of Jesus, clothed, and in his right mind: and they were afraid.
-<sup>36</sup>  They also which saw [it] told them by what means he that was possessed of the devils was healed.
+<sup>36</sup> They also which saw [it] told them by what means he that was possessed of the devils was healed.
 <sup>37</sup> Then the whole multitude of the country of the Gadarenes round about besought him to depart from them; for they were taken with great fear: and he went up into the ship, and returned back again.
 <sup>38</sup> Now the man out of whom the devils were departed besought him that he might be with him: but Jesus sent him away, saying,
 <sup>39</sup> Return to thine own house, and shew how great things God hath done unto thee. And he went his way, and published throughout the whole city how great things Jesus had done unto him.
@@ -451,7 +451,7 @@
 <sup>17</sup> And they did eat, and were all filled: and there was taken up of fragments that remained to them twelve baskets.
 <sup>18</sup> And it came to pass, as he was alone praying, his disciples were with him: and he asked them, saying, Whom say the people that I am?
 <sup>19</sup> They answering said, John the Baptist; but some [say], Elias; and others [say], that one of the old prophets is risen again.
-<sup>20</sup>  He said unto them, But whom say ye that I am? Peter answering said, The Christ of God.
+<sup>20</sup> He said unto them, But whom say ye that I am? Peter answering said, The Christ of God.
 <sup>21</sup> And he straitly charged them, and commanded [them] to tell no man that thing;
 <sup>22</sup> Saying, The Son of man must suffer many things, and be rejected of the elders and chief priests and scribes, and be slain, and be raised the third day.
 <sup>23</sup> And he said to [them] all, If any [man] will come after me, let him deny himself, and take up his cross daily, and follow me.
@@ -491,15 +491,13 @@
 <sup>57</sup> And it came to pass, that, as they went in the way, a certain [man] said unto him, Lord, I will follow thee whithersoever thou goest.
 <sup>58</sup> And Jesus said unto him, Foxes have holes, and birds of the air [have] nests; but the Son of man hath not where to lay [his] head.
 <sup>59</sup> And he said unto another, Follow me. But he said, Lord, suffer me first to go and bury my father.
-<sup>60</sup>  Jesus said unto him, Let the dead bury their dead: but go thou and preach the kingdom of God.
+<sup>60</sup> Jesus said unto him, Let the dead bury their dead: but go thou and preach the kingdom of God.
 <sup>61</sup> And another also said, Lord, I will follow thee; but let me first go bid them farewell, which are at home at my house.
 <sup>62</sup> And Jesus said unto him, No man, having put his hand to the plough, and looking back, is fit for the kingdom of God.
 
 ## Chapter 10
 
-<sup>1</sup> 
-
- After these things the Lord appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come.
+<sup>1</sup> After these things the Lord appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come.
 <sup>2</sup> Therefore said he unto them, The harvest truly [is] great, but the labourers [are] few: pray ye therefore the Lord of the harvest, that he would send forth labourers into his harvest.
 <sup>3</sup> Go your ways: behold, I send you forth as lambs among wolves.
 <sup>4</sup> Carry neither purse, nor scrip, nor shoes: and salute no man by the way.
@@ -524,7 +522,7 @@
 <sup>23</sup> And he turned him unto [his] disciples, and said privately, Blessed [are] the eyes which see the things that ye see:
 <sup>24</sup> For I tell you, that many prophets and kings have desired to see those things which ye see, and have not seen [them]; and to hear those things which ye hear, and have not heard [them].
 <sup>25</sup> And, behold, a certain lawyer stood up, and tempted him, saying, Master, what shall I do to inherit eternal life?
-<sup>26</sup>  He said unto him, What is written in the law? how readest thou?
+<sup>26</sup> He said unto him, What is written in the law? how readest thou?
 <sup>27</sup> And he answering said, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy strength, and with all thy mind; and thy neighbour as thyself.
 <sup>28</sup> And he said unto him, Thou hast answered right: this do, and thou shalt live.
 <sup>29</sup> But he, willing to justify himself, said unto Jesus, And who is my neighbour?
@@ -576,7 +574,7 @@
 <sup>30</sup> For as Jonas was a sign unto the Ninevites, so shall also the Son of man be to this generation.
 <sup>31</sup> The queen of the south shall rise up in the judgment with the men of this generation, and condemn them: for she came from the utmost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon [is] here.
 <sup>32</sup> The men of Nineve shall rise up in the judgment with this generation, and shall condemn it: for they repented at the preaching of Jonas; and, behold, a greater than Jonas [is] here.
-<sup>33</sup>  No man, when he hath lighted a candle, putteth [it] in a secret place, neither under a bushel, but on a candlestick, that they which come in may see the light.
+<sup>33</sup> No man, when he hath lighted a candle, putteth [it] in a secret place, neither under a bushel, but on a candlestick, that they which come in may see the light.
 <sup>34</sup> The light of the body is the eye: therefore when thine eye is single, thy whole body also is full of light; but when [thine eye] is evil, thy body also [is] full of darkness.
 <sup>35</sup> Take heed therefore that the light which is in thee be not darkness.
 <sup>36</sup> If thy whole body therefore [be] full of light, having no part dark, the whole shall be full of light, as when the bright shining of a candle doth give thee light.
@@ -663,9 +661,7 @@
 
 ## Chapter 13
 
-<sup>1</sup> 
-
- There were present at that season some that told him of the Galilaeans, whose blood Pilate had mingled with their sacrifices.
+<sup>1</sup> There were present at that season some that told him of the Galilaeans, whose blood Pilate had mingled with their sacrifices.
 <sup>2</sup> And Jesus answering said unto them, Suppose ye that these Galilaeans were sinners above all the Galilaeans, because they suffered such things?
 <sup>3</sup> I tell you, Nay: but, except ye repent, ye shall all likewise perish.
 <sup>4</sup> Or those eighteen, upon whom the tower in Siloam fell, and slew them, think ye that they were sinners above all men that dwelt in Jerusalem?
@@ -794,7 +790,7 @@
 <sup>16</sup> The law and the prophets [were] until John: since that time the kingdom of God is preached, and every man presseth into it.
 <sup>17</sup> And it is easier for heaven and earth to pass, than one tittle of the law to fail.
 <sup>18</sup> Whosoever putteth away his wife, and marrieth another, committeth adultery: and whosoever marrieth her that is put away from [her] husband committeth adultery.
-<sup>19</sup>  There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day:
+<sup>19</sup> There was a certain rich man, which was clothed in purple and fine linen, and fared sumptuously every day:
 <sup>20</sup> And there was a certain beggar named Lazarus, which was laid at his gate, full of sores,
 <sup>21</sup> And desiring to be fed with the crumbs which fell from the rich man’s table: moreover the dogs came and licked his sores.
 <sup>22</sup> And it came to pass, that the beggar died, and was carried by the angels into Abraham’s bosom: the rich man also died, and was buried;
@@ -818,7 +814,7 @@
 <sup>6</sup> And the Lord said, If ye had faith as a grain of mustard seed, ye might say unto this sycamine tree, Be thou plucked up by the root, and be thou planted in the sea; and it should obey you.
 <sup>7</sup> But which of you, having a servant plowing or feeding cattle, will say unto him by and by, when he is come from the field, Go and sit down to meat?
 <sup>8</sup> And will not rather say unto him, Make ready wherewith I may sup, and gird thyself, and serve me, till I have eaten and drunken; and afterward thou shalt eat and drink?
-<sup>9</sup>  Doth he thank that servant because he did the things that were commanded him? I trow not.
+<sup>9</sup> Doth he thank that servant because he did the things that were commanded him? I trow not.
 <sup>10</sup> So likewise ye, when ye shall have done all those things which are commanded you, say, We are unprofitable servants: we have done that which was our duty to do.
 <sup>11</sup> And it came to pass, as he went to Jerusalem, that he passed through the midst of Samaria and Galilee.
 <sup>12</sup> And as he entered into a certain village, there met him ten men that were lepers, which stood afar off:
@@ -978,7 +974,7 @@
 <sup>29</sup> There were therefore seven brethren: and the first took a wife, and died without children.
 <sup>30</sup> And the second took her to wife, and he died childless.
 <sup>31</sup> And the third took her; and in like manner the seven also: and they left no children, and died.
-<sup>32</sup>  Last of all the woman died also.
+<sup>32</sup> Last of all the woman died also.
 <sup>33</sup> Therefore in the resurrection whose wife of them is she? for seven had her to wife.
 <sup>34</sup> And Jesus answering said unto them, The children of this world marry, and are given in marriage:
 <sup>35</sup> But they which shall be accounted worthy to obtain that world, and the resurrection from the dead, neither marry, nor are given in marriage:
@@ -1065,7 +1061,7 @@
 <sup>25</sup> And he said unto them, The kings of the Gentiles exercise lordship over them; and they that exercise authority upon them are called benefactors.
 <sup>26</sup> But ye [shall] not [be] so: but he that is greatest among you, let him be as the younger; and he that is chief, as he that doth serve.
 <sup>27</sup> For whether [is] greater, he that sitteth at meat, or he that serveth? [is] not he that sitteth at meat? but I am among you as he that serveth.
-<sup>28</sup>  Ye are they which have continued with me in my temptations.
+<sup>28</sup> Ye are they which have continued with me in my temptations.
 <sup>29</sup> And I appoint unto you a kingdom, as my Father hath appointed unto me;
 <sup>30</sup> That ye may eat and drink at my table in my kingdom, and sit on thrones judging the twelve tribes of Israel.
 <sup>31</sup> And the Lord said, Simon, Simon, behold, Satan hath desired [to have] you, that he may sift [you] as wheat:
@@ -1104,7 +1100,7 @@
 <sup>64</sup> And when they had blindfolded him, they struck him on the face, and asked him, saying, Prophesy, who is it that smote thee?
 <sup>65</sup> And many other things blasphemously spake they against him.
 <sup>66</sup> And as soon as it was day, the elders of the people and the chief priests and the scribes came together, and led him into their council, saying,
-<sup>67</sup>  Art thou the Christ? tell us. And he said unto them, If I tell you, ye will not believe:
+<sup>67</sup> Art thou the Christ? tell us. And he said unto them, If I tell you, ye will not believe:
 <sup>68</sup> And if I also ask [you], ye will not answer me, nor let [me] go.
 <sup>69</sup> Hereafter shall the Son of man sit on the right hand of the power of God.
 <sup>70</sup> Then said they all, Art thou then the Son of God? And he said unto them, Ye say that I am.
@@ -1180,7 +1176,7 @@
 <sup>7</sup> Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.
 <sup>8</sup> And they remembered his words,
 <sup>9</sup> And returned from the sepulchre, and told all these things unto the eleven, and to all the rest.
-<sup>10</sup>  It was Mary Magdalene, and Joanna, and Mary [the mother] of James, and other [women that were] with them, which told these things unto the apostles.
+<sup>10</sup> It was Mary Magdalene, and Joanna, and Mary [the mother] of James, and other [women that were] with them, which told these things unto the apostles.
 <sup>11</sup> And their words seemed to them as idle tales, and they believed them not.
 <sup>12</sup> Then arose Peter, and ran unto the sepulchre; and stooping down, he beheld the linen clothes laid by themselves, and departed, wondering in himself at that which was come to pass.
 <sup>13</sup> And, behold, two of them went that same day to a village called Emmaus, which was from Jerusalem [about] threescore furlongs.

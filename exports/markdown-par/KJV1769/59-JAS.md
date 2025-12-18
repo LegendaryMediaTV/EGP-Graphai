@@ -4,11 +4,11 @@
 <sup>2</sup> My brethren, count it all joy when ye fall into divers temptations;
 <sup>3</sup> Knowing [this], that the trying of your faith worketh patience.
 <sup>4</sup> But let patience have [her] perfect work, that ye may be perfect and entire, wanting nothing.
-<sup>5</sup>  If any of you lack wisdom, let him ask of God, that giveth to all [men] liberally, and upbraideth not; and it shall be given him.
+<sup>5</sup> If any of you lack wisdom, let him ask of God, that giveth to all [men] liberally, and upbraideth not; and it shall be given him.
 <sup>6</sup> But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.
 <sup>7</sup> For let not that man think that he shall receive any thing of the Lord.
 <sup>8</sup> A double minded man [is] unstable in all his ways.
-<sup>9</sup>  Let the brother of low degree rejoice in that he is exalted:
+<sup>9</sup> Let the brother of low degree rejoice in that he is exalted:
 <sup>10</sup> But the rich, in that he is made low: because as the flower of the grass he shall pass away.
 <sup>11</sup> For the sun is no sooner risen with a burning heat, but it withereth the grass, and the flower thereof falleth, and the grace of the fashion of it perisheth: so also shall the rich man fade away in his ways.
 <sup>12</sup> Blessed [is] the man that endureth temptation: for when he is tried, he shall receive the crown of life, which the Lord hath promised to them that love him.
@@ -84,7 +84,7 @@
 <sup>2</sup> Ye lust, and have not: ye kill, and desire to have, and cannot obtain: ye fight and war, yet ye have not, because ye ask not.
 <sup>3</sup> Ye ask, and receive not, because ye ask amiss, that ye may consume [it] upon your lusts.
 <sup>4</sup> Ye adulterers and adulteresses, know ye not that the friendship of the world is enmity with God? whosoever therefore will be a friend of the world is the enemy of God.
-<sup>5</sup>  Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?
+<sup>5</sup> Do ye think that the scripture saith in vain, The spirit that dwelleth in us lusteth to envy?
 <sup>6</sup> But he giveth more grace. Wherefore he saith, God resisteth the proud, but giveth grace unto the humble.
 <sup>7</sup> Submit yourselves therefore to God. Resist the devil, and he will flee from you.
 <sup>8</sup> Draw nigh to God, and he will draw nigh to you. Cleanse [your] hands, [ye] sinners; and purify [your] hearts, [ye] double minded.

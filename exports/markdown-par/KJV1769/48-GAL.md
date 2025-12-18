@@ -95,14 +95,14 @@
 <sup>10</sup> Ye observe days, and months, and times, and years.
 <sup>11</sup> I am afraid of you, lest I have bestowed upon you labour in vain.
 <sup>12</sup> Brethren, I beseech you, be as I [am]; for I [am] as ye [are]: ye have not injured me at all.
-<sup>13</sup>  Ye know how through infirmity of the flesh I preached the gospel unto you at the first.
+<sup>13</sup> Ye know how through infirmity of the flesh I preached the gospel unto you at the first.
 <sup>14</sup> And my temptation which was in my flesh ye despised not, nor rejected; but received me as an angel of God, [even] as Christ Jesus.
 <sup>15</sup> Where is then the blessedness ye spake of? for I bear you record, that, if [it had been] possible, ye would have plucked out your own eyes, and have given them to me.
 <sup>16</sup> Am I therefore become your enemy, because I tell you the truth?
 <sup>17</sup> They zealously affect you, [but] not well; yea, they would exclude you, that ye might affect them.
 <sup>18</sup> But [it is] good to be zealously affected always in [a] good [thing], and not only when I am present with you.
 <sup>19</sup> My little children, of whom I travail in birth again until Christ be formed in you,
-<sup>20</sup>  I desire to be present with you now, and to change my voice; for I stand in doubt of you.
+<sup>20</sup> I desire to be present with you now, and to change my voice; for I stand in doubt of you.
 <sup>21</sup> Tell me, ye that desire to be under the law, do ye not hear the law?
 <sup>22</sup> For it is written, that Abraham had two sons, the one by a bondmaid, the other by a freewoman.
 <sup>23</sup> But he [who was] of the bondwoman was born after the flesh; but he of the freewoman [was] by promise.

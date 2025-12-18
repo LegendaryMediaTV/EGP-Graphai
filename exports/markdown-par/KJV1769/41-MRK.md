@@ -244,7 +244,7 @@
 <sup>35</sup> And when the day was now far spent, his disciples came unto him, and said, This is a desert place, and now the time [is] far passed:
 <sup>36</sup> Send them away, that they may go into the country round about, and into the villages, and buy themselves bread: for they have nothing to eat.
 <sup>37</sup> He answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred pennyworth of bread, and give them to eat?
-<sup>38</sup>  He saith unto them, How many loaves have ye? go and see. And when they knew, they say, Five, and two fishes.
+<sup>38</sup> He saith unto them, How many loaves have ye? go and see. And when they knew, they say, Five, and two fishes.
 <sup>39</sup> And he commanded them to make all sit down by companies upon the green grass.
 <sup>40</sup> And they sat down in ranks, by hundreds, and by fifties.
 <sup>41</sup> And when he had taken the five loaves and the two fishes, he looked up to heaven, and blessed, and brake the loaves, and gave [them] to his disciples to set before them; and the two fishes divided he among them all.
@@ -291,7 +291,7 @@
 <sup>23</sup> All these evil things come from within, and defile the man.
 <sup>24</sup> And from thence he arose, and went into the borders of Tyre and Sidon, and entered into an house, and would have no man know [it]: but he could not be hid.
 <sup>25</sup> For a [certain] woman, whose young daughter had an unclean spirit, heard of him, and came and fell at his feet:
-<sup>26</sup>  The woman was a Greek, a Syrophenician by nation; and she besought him that he would cast forth the devil out of her daughter.
+<sup>26</sup> The woman was a Greek, a Syrophenician by nation; and she besought him that he would cast forth the devil out of her daughter.
 <sup>27</sup> But Jesus said unto her, Let the children first be filled: for it is not meet to take the children’s bread, and to cast [it] unto the dogs.
 <sup>28</sup> And she answered and said unto him, Yes, Lord: yet the dogs under the table eat of the children’s crumbs.
 <sup>29</sup> And he said unto her, For this saying go thy way; the devil is gone out of thy daughter.
@@ -369,7 +369,7 @@
 <sup>20</sup> And they brought him unto him: and when he saw him, straightway the spirit tare him; and he fell on the ground, and wallowed foaming.
 <sup>21</sup> And he asked his father, How long is it ago since this came unto him? And he said, Of a child.
 <sup>22</sup> And ofttimes it hath cast him into the fire, and into the waters, to destroy him: but if thou canst do any thing, have compassion on us, and help us.
-<sup>23</sup>  Jesus said unto him, If thou canst believe, all things [are] possible to him that believeth.
+<sup>23</sup> Jesus said unto him, If thou canst believe, all things [are] possible to him that believeth.
 <sup>24</sup> And straightway the father of the child cried out, and said with tears, Lord, I believe; help thou mine unbelief.
 <sup>25</sup> When Jesus saw that the people came running together, he rebuked the foul spirit, saying unto him, [Thou] dumb and deaf spirit, I charge thee, come out of him, and enter no more into him.
 <sup>26</sup> And [the spirit] cried, and rent him sore, and came out of him: and he was as one dead; insomuch that many said, He is dead.
@@ -436,7 +436,7 @@
 <sup>34</sup> And they shall mock him, and shall scourge him, and shall spit upon him, and shall kill him: and the third day he shall rise again.
 <sup>35</sup> And James and John, the sons of Zebedee, come unto him, saying, Master, we would that thou shouldest do for us whatsoever we shall desire.
 <sup>36</sup> And he said unto them, What would ye that I should do for you?
-<sup>37</sup>  They said unto him, Grant unto us that we may sit, one on thy right hand, and the other on thy left hand, in thy glory.
+<sup>37</sup> They said unto him, Grant unto us that we may sit, one on thy right hand, and the other on thy left hand, in thy glory.
 <sup>38</sup> But Jesus said unto them, Ye know not what ye ask: can ye drink of the cup that I drink of? and be baptized with the baptism that I am baptized with?
 <sup>39</sup> And they said unto him, We can. And Jesus said unto them, Ye shall indeed drink of the cup that I drink of; and with the baptism that I am baptized withal shall ye be baptized:
 <sup>40</sup> But to sit on my right hand and on my left hand is not mine to give; but [it shall be given to them] for whom it is prepared.
@@ -635,7 +635,7 @@
 <sup>55</sup> And the chief priests and all the council sought for witness against Jesus to put him to death; and found none.
 <sup>56</sup> For many bare false witness against him, but their witness agreed not together.
 <sup>57</sup> And there arose certain, and bare false witness against him, saying,
-<sup>58</sup>  We heard him say, I will destroy this temple that is made with hands, and within three days I will build another made without hands.
+<sup>58</sup> We heard him say, I will destroy this temple that is made with hands, and within three days I will build another made without hands.
 <sup>59</sup> But neither so did their witness agree together.
 <sup>60</sup> And the high priest stood up in the midst, and asked Jesus, saying, Answerest thou nothing? what [is it which] these witness against thee?
 <sup>61</sup> But he held his peace, and answered nothing. Again the high priest asked him, and said unto him, Art thou the Christ, the Son of the Blessed?
