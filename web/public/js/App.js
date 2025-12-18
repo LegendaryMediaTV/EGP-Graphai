@@ -201,7 +201,12 @@ function App() {
             className="flex-1 overflow-y-auto p-4 md:p-8 scroll-smooth"
             id="content-scroll-container"
           >
-            <div className="max-w-3xl mx-auto pb-20">
+            <div
+              className="mx-auto pb-20"
+              style={{
+                maxWidth: `${768 * (settings.fontSize / 16)}px`,
+              }}
+            >
               {loading ? (
                 <div className="flex justify-center items-center h-64">
                   <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>

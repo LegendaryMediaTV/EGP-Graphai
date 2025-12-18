@@ -78,33 +78,16 @@ npm run dev
 ## Project Structure
 
 ```
-├── bible-books/           # Book metadata and schemas
-│ ├── bible-book-schema.json
-│ └── bible-books.json
-├── bible-versions/        # Version data and schemas
-│ ├── bible-verses-schema.json
-│ ├── bible-versions-schema.json
-│ ├── bible-versions.json
-│ └── {version}/           # Version-specific data
-├── exports/               # Generated output files
-│ ├── markdown-par/        # Markdown format
-│ └── text-vbv-strongs/    # Strong’s text format
-├── functions/             # Utility functions
-│ └── validateJsonAgainstSchema.ts
-├── imports/               # Import scripts and raw data
-├── types/                 # TypeScript type definitions
-│ ├── Book.ts
-│ ├── Footnote.ts
-│ ├── Verse.ts
-│ └── VerseSchema.ts
-├── utils/                 # Utility scripts
-│ └── exportContent.ts     # Main content export script
-├── web/                   # Graphai Reader web application
-│ ├── public/              # Frontend React components
-│ └── server.js            # Express server
-├── AGENTS.md              # AI agent instructions
-├── README.md              # This file 😁
-├── validate.ts            # Validation script
+ bible-books/           # Book metadata and schemas
+ bible-versions/        # Version folders (ASV1901, KJV1769, etc.)
+    {version}/
+        _version.json  # Version metadata
+        NN-BBB.json    # Verse files (e.g., 01-GEN.json)
+ exports/               # Generated output files
+ functions/             # Utility functions
+ types/                 # TypeScript type definitions
+ utils/                 # Export and validation scripts
+ web/                   # Graphai Reader web application
 ```
 
 ## JSON Format Examples
@@ -117,14 +100,14 @@ npm run dev
   "chapter": 1,
   "verse": 1,
   "content": [
-    { "type": "p" },
     {
+      "paragraph": true,
       "text": "Ἐν",
       "script": "G",
       "strong": "G1722",
-      "morph": "PREP"
+      "morph": "PREP",
+      "break": true
     },
-    { "type": "n" },
     {
       "text": "καὶ",
       "script": "G",
@@ -155,10 +138,35 @@ npm run dev
 
 ### Adding New Bible Versions
 
-1. Add version metadata to `bible-versions/bible-versions.json`
-2. Add verses by book to `bible-versions/{version}/{order}-{book}.json` (e.g., `01-GEN.json`, `66-REV.json`)
-3. Validate: `npm run validate`
-4. Export: `npm run export`
+1. Create a new folder in `bible-versions/` with your version ID (e.g., `BYZ2008`)
+2. Create a `_version.json` file in the folder with version metadata:
+   ```json
+   {
+     "_id": "BYZ2008",
+     "name": "Byzantine Text 2008",
+     "copyright": "Scripture quotations from …",
+     "license": "CC0-1.0",
+     "books": [
+       {
+         "_id": "MAT",
+         "name": {
+           "text": "ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+           "script": "G"
+         },
+         "title": {
+           "text": "ΕΥΑΓΓΕΛΙΟΝ ΤΟ ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+           "script": "G"
+         },
+         "order": 1,
+         "chapters": 28
+       },
+       ...
+     ]
+   }
+   ```
+3. Add verses by book to `bible-versions/{version}/{order}-{book}.json` (e.g., `01-GEN.json`, `66-REV.json`)
+4. Validate: `npm run validate`
+5. Export: `npm run export`
 
 ### Schema Validation
 

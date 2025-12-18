@@ -193,20 +193,23 @@ function ContentNode({ node, settings, onFootnoteClick }) {
       node.script === "H"
         ? "script-hebrew"
         : node.script === "G"
-        ? "script-greek"
-        : "";
+          ? "script-greek"
+          : "";
 
     return (
       <React.Fragment>
-        {isBlock && <span className="block mt-4 w-full"></span>}
+        {settings.paragraphMode && isBlock && (
+          <span className="block mt-4 w-full"></span>
+        )}
         <span
           className={`inline ${scriptClass}`}
           {...(node.script === "H" ? { dir: "rtl" } : {})}
         >
           {content}
           {parsingSpan}
-          {node.break && <br />}
+          {settings.paragraphMode && node.break && <br />}
         </span>
+        {!settings.paragraphMode && node.break && " "}
         {footnote}
       </React.Fragment>
     );

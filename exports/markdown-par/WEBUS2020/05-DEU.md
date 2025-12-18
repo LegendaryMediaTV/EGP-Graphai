@@ -1070,7 +1070,7 @@ Your eyes have seen all that Yahweh did in the land of Egypt to Pharaoh, and to 
 <sup>21</sup> Yahweh will set him apart for evil out of all the tribes of Israel, according to all the curses of the covenant written in this book of the law.
 
 <sup>22</sup> The generation to come—your children who will rise up after you, and the foreigner who will come from a far land—will say, when they see the plagues of that land, and the sicknesses with which Yahweh has made it sick,
-<sup>23</sup>  that all of its land is sulfur, salt, and burning, that it is not sown, doesn’t produce, nor does any grass grow in it, like the overthrow of Sodom, Gomorrah, Admah, and Zeboiim, which Yahweh overthrew in his anger, and in his wrath.
+<sup>23</sup> that all of its land is sulfur, salt, and burning, that it is not sown, doesn’t produce, nor does any grass grow in it, like the overthrow of Sodom, Gomorrah, Admah, and Zeboiim, which Yahweh overthrew in his anger, and in his wrath.
 <sup>24</sup> Even all the nations will say, “Why has Yahweh done this to this land? What does the heat of this great anger mean?”
 
 <sup>25</sup> Then men will say, “Because they abandoned the covenant of Yahweh, the God of their fathers, which he made with them when he brought them out of the land of Egypt,

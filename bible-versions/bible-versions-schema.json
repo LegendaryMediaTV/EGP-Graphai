@@ -1,11 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/bible-versions/bible-versions-schema.json",
-  "title": "EGP Graphai • Bible Versions Registry",
-  "description": "Registry of Bible versions, with metadata and per-testament overrides.",
-  "type": "array",
-  "items": { "$ref": "#/definitions/version" },
-  "uniqueItems": true,
+  "title": "EGP Graphai • Bible Version",
+  "description": "A single Bible version with metadata and per-testament overrides. Each version has its own _version.json file in its folder.",
+  "$ref": "#/definitions/version",
   "definitions": {
     "version": {
       "type": "object",

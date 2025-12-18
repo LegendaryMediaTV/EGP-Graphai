@@ -32,7 +32,9 @@ function VerseRenderer({ verse, mode, settings, onFootnoteClick }) {
         settings={settings}
         onFootnoteClick={onFootnoteClick}
       />
-      {isParagraphStart && <span className="block mt-4 w-full"></span>}
+      {settings.paragraphMode && isParagraphStart && (
+        <span className="block mt-4 w-full"></span>
+      )}
       {mode === "paragraph" && settings.showVerseNumbers && (
         <sup className="text-[0.6em] font-bold mr-1 text-gray-400 select-none">
           {verse.verse}

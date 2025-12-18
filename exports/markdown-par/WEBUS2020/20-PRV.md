@@ -732,7 +732,7 @@
 
 <sup>17</sup> Turn your ear, and listen to the words of the wise.<br>Apply your heart to my teaching.<br>
 <sup>18</sup> For it is a pleasant thing if you keep them within you,<br>if all of them are ready on your lips.<br>
-<sup>19</sup>  I teach you today, even you,<br>so that your trust may be in Yahweh.<br>
+<sup>19</sup> I teach you today, even you,<br>so that your trust may be in Yahweh.<br>
 <sup>20</sup> Haven’t I written to you thirty excellent things<br>of counsel and knowledge,<br>
 <sup>21</sup> To teach you truth, reliable words,<br>to give sound answers to the ones who sent you?
 

@@ -13,11 +13,11 @@
 <sup>11</sup> Saying, I am Alpha and Omega, the first and the last: and, What thou seest, write in a book, and send [it] unto the seven churches which are in Asia; unto Ephesus, and unto Smyrna, and unto Pergamos, and unto Thyatira, and unto Sardis, and unto Philadelphia, and unto Laodicea.
 <sup>12</sup> And I turned to see the voice that spake with me. And being turned, I saw seven golden candlesticks;
 <sup>13</sup> And in the midst of the seven candlesticks [one] like unto the Son of man, clothed with a garment down to the foot, and girt about the paps with a golden girdle.
-<sup>14</sup>  His head and [his] hairs [were] white like wool, as white as snow; and his eyes [were] as a flame of fire;
+<sup>14</sup> His head and [his] hairs [were] white like wool, as white as snow; and his eyes [were] as a flame of fire;
 <sup>15</sup> And his feet like unto fine brass, as if they burned in a furnace; and his voice as the sound of many waters.
 <sup>16</sup> And he had in his right hand seven stars: and out of his mouth went a sharp twoedged sword: and his countenance [was] as the sun shineth in his strength.
 <sup>17</sup> And when I saw him, I fell at his feet as dead. And he laid his right hand upon me, saying unto me, Fear not; I am the first and the last:
-<sup>18</sup>  I [am] he that liveth, and was dead; and, behold, I am alive for evermore, Amen; and have the keys of hell and of death.
+<sup>18</sup> I [am] he that liveth, and was dead; and, behold, I am alive for evermore, Amen; and have the keys of hell and of death.
 <sup>19</sup> Write the things which thou hast seen, and the things which are, and the things which shall be hereafter;
 <sup>20</sup> The mystery of the seven stars which thou sawest in my right hand, and the seven golden candlesticks. The seven stars are the angels of the seven churches: and the seven candlesticks which thou sawest are the seven churches.
 
@@ -157,7 +157,7 @@
 <sup>4</sup> And the smoke of the incense, [which came] with the prayers of the saints, ascended up before God out of the angel’s hand.
 <sup>5</sup> And the angel took the censer, and filled it with fire of the altar, and cast [it] into the earth: and there were voices, and thunderings, and lightnings, and an earthquake.
 <sup>6</sup> And the seven angels which had the seven trumpets prepared themselves to sound.
-<sup>7</sup>  The first angel sounded, and there followed hail and fire mingled with blood, and they were cast upon the earth: and the third part of trees was burnt up, and all green grass was burnt up.
+<sup>7</sup> The first angel sounded, and there followed hail and fire mingled with blood, and they were cast upon the earth: and the third part of trees was burnt up, and all green grass was burnt up.
 <sup>8</sup> And the second angel sounded, and as it were a great mountain burning with fire was cast into the sea: and the third part of the sea became blood;
 <sup>9</sup> And the third part of the creatures which were in the sea, and had life, died; and the third part of the ships were destroyed.
 <sup>10</sup> And the third angel sounded, and there fell a great star from heaven, burning as it were a lamp, and it fell upon the third part of the rivers, and upon the fountains of waters;
@@ -385,7 +385,7 @@
 <sup>9</sup> And he saith unto me, Write, Blessed [are] they which are called unto the marriage supper of the Lamb. And he saith unto me, These are the true sayings of God.
 <sup>10</sup> And I fell at his feet to worship him. And he said unto me, See [thou do it] not: I am thy fellowservant, and of thy brethren that have the testimony of Jesus: worship God: for the testimony of Jesus is the spirit of prophecy.
 <sup>11</sup> And I saw heaven opened, and behold a white horse; and he that sat upon him [was] called Faithful and True, and in righteousness he doth judge and make war.
-<sup>12</sup>  His eyes [were] as a flame of fire, and on his head [were] many crowns; and he had a name written, that no man knew, but he himself.
+<sup>12</sup> His eyes [were] as a flame of fire, and on his head [were] many crowns; and he had a name written, that no man knew, but he himself.
 <sup>13</sup> And he [was] clothed with a vesture dipped in blood: and his name is called The Word of God.
 <sup>14</sup> And the armies [which were] in heaven followed him upon white horses, clothed in fine linen, white and clean.
 <sup>15</sup> And out of his mouth goeth a sharp sword, that with it he should smite the nations: and he shall rule them with a rod of iron: and he treadeth the winepress of the fierceness and wrath of Almighty God.

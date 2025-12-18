@@ -576,7 +576,7 @@ He said, “Legion,” for many demons had entered into him.
 
 <sup>40</sup> When Jesus returned, the multitude welcomed him, for they were all waiting for him.
 <sup>41</sup> Behold, a man named Jairus came. He was a ruler of the synagogue. He fell down at Jesus’ feet and begged him to come into his house,
-<sup>42</sup>  for he had an only born<sup>d</sup> daughter, about twelve years of age, and she was dying. But as he went, the multitudes pressed against him.
+<sup>42</sup> for he had an only born<sup>d</sup> daughter, about twelve years of age, and she was dying. But as he went, the multitudes pressed against him.
 <sup>43</sup> A woman who had a flow of blood for twelve years, who had spent all her living on physicians and could not be healed by any,
 <sup>44</sup> came behind him and touched the fringe<sup>e</sup> of his cloak. Immediately the flow of her blood stopped.
 
@@ -926,7 +926,7 @@ Then Jesus said to him, “Go and do likewise.”
 <sup>52</sup> For from now on, there will be five in one house divided, three against two, and two against three.
 <sup>53</sup> They will be divided, father against son, and son against father; mother against daughter, and daughter against her mother; mother-in-law against her daughter-in-law, and daughter-in-law against her mother-in-law.”<sup>d</sup>
 
-<sup>54</sup>  He said to the multitudes also, “When you see a cloud rising from the west, immediately you say, ‘A shower is coming,’ and so it happens.
+<sup>54</sup> He said to the multitudes also, “When you see a cloud rising from the west, immediately you say, ‘A shower is coming,’ and so it happens.
 <sup>55</sup> When a south wind blows, you say, ‘There will be a scorching heat,’ and it happens.
 <sup>56</sup> You hypocrites! You know how to interpret the appearance of the earth and the sky, but how is it that you don’t interpret this time?
 

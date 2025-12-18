@@ -1,0 +1,69 @@
+{
+  "type-definitions": [
+    "types/Book.ts",
+    "types/Content.ts",
+    "types/Footnote.ts",
+    "types/Verse.ts",
+    "types/VerseSchema.ts",
+    "types/Version.ts"
+  ],
+  "utility-functions": [
+    "functions/getBibleVersions.ts",
+    "functions/validateJsonAgainstSchema.ts",
+    "utils/exportContent.ts",
+    "utils/validate.ts"
+  ],
+  "test-files": [
+    "functions/__tests__/getBibleVersions.test.ts",
+    "utils/__tests__/exportContent.test.ts"
+  ],
+  "database-schema": [
+    "content-schema.json",
+    "bible-books/bible-books-schema.json",
+    "bible-versions/bible-verses-schema.json",
+    "bible-versions/bible-versions-schema.json"
+  ],
+  "database-data": ["bible-books/bible-books.json"],
+  "bible-version-metadata": ["bible-versions/*/_version.json"],
+  "bible-verse-data": [
+    "bible-versions/ASV1901/*.json",
+    "bible-versions/BYZ2018/*.json",
+    "bible-versions/CLV1880/*.json",
+    "bible-versions/KJV1769/*.json",
+    "bible-versions/WEBUS2020/*.json",
+    "bible-versions/YLT1898/*.json"
+  ],
+  "web-server": ["web/server.ts"],
+  "web-frontend-entry": ["web/public/index.html"],
+  "react-components": [
+    "web/public/js/App.js",
+    "web/public/js/BibleContent.js",
+    "web/public/js/ContentNode.js",
+    "web/public/js/VerseRenderer.js",
+    "web/public/js/Icons.js"
+  ],
+  "ui-components": [
+    "web/public/js/components/BookName.js",
+    "web/public/js/components/ChapterNav.js",
+    "web/public/js/components/FootnoteModal.js",
+    "web/public/js/components/Header.js",
+    "web/public/js/components/MobileNav.js",
+    "web/public/js/components/SettingsDrawer.js",
+    "web/public/js/components/Sidebar.js",
+    "web/public/js/components/Toggle.js"
+  ],
+  "export-outputs": ["exports/markdown-par/", "exports/text-vbv-strongs/"],
+  "configuration": ["package.json", "tsconfig.json"],
+  "documentation": [
+    "README.md",
+    "AGENTS.md",
+    "_specs/README.md",
+    "_specs/create-prd.md",
+    "_specs/generate-tasks.md",
+    "_specs/process-task-list.md"
+  ],
+  "ai-tasks": [
+    "_specs/ai-tasks/0001-prd-bible-verses-schema-migration.md",
+    "_specs/ai-tasks/tasks-0001-prd-bible-verses-schema-migration.md"
+  ]
+}

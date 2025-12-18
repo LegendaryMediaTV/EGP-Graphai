@@ -146,7 +146,7 @@ In all this Job didn’t sin with his lips.
 <sup>19</sup> He will deliver you in six troubles;<br>yes, in seven no evil will touch you.<br>
 <sup>20</sup> In famine he will redeem you from death;<br>in war, from the power of the sword.<br>
 <sup>21</sup> You will be hidden from the scourge of the tongue,<br>neither will you be afraid of destruction when it comes.<br>
-<sup>22</sup>  You will laugh at destruction and famine,<br>neither will you be afraid of the animals of the earth.<br>
+<sup>22</sup> You will laugh at destruction and famine,<br>neither will you be afraid of the animals of the earth.<br>
 <sup>23</sup> For you will be allied with the stones of the field.<br>The animals of the field will be at peace with you.<br>
 <sup>24</sup> You will know that your tent is in peace.<br>You will visit your fold, and will miss nothing.<br>
 <sup>25</sup> You will know also that your offspring<sup>a</sup> will be great,<br>your offspring as the grass of the earth.<br>
@@ -609,7 +609,7 @@ In all this Job didn’t sin with his lips.
 <sup>15</sup> He has swallowed down riches, and he will vomit them up again.<br>God will cast them out of his belly.<br>
 <sup>16</sup> He will suck cobra venom.<br>The viper’s tongue will kill him.<br>
 <sup>17</sup> He will not look at the rivers,<br>the flowing streams of honey and butter.<br>
-<sup>18</sup>  He will restore that for which he labored, and will not swallow it down.<br>He will not rejoice according to the substance that he has gotten.<br>
+<sup>18</sup> He will restore that for which he labored, and will not swallow it down.<br>He will not rejoice according to the substance that he has gotten.<br>
 <sup>19</sup> For he has oppressed and forsaken the poor.<br>He has violently taken away a house, and he will not build it up.
 
 <sup>20</sup> “Because he knew no quietness within him,<br>he will not save anything of that in which he delights.<br>
