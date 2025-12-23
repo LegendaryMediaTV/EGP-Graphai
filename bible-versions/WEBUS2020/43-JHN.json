@@ -2286,7 +2286,13 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": "or, I AM"
+          "content": [
+            "or, ",
+            {
+              "text": "I Am",
+              "marks": ["sc"]
+            }
+          ]
         }
       },
       {
@@ -3585,7 +3591,13 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": "or, I AM"
+          "content": [
+            "or, ",
+            {
+              "text": "I Am",
+              "marks": ["sc"]
+            }
+          ]
         }
       },
       {
@@ -3971,7 +3983,15 @@
         "text": "Jesus said to them, "
       },
       {
-        "text": "“Most certainly, I tell you, before Abraham came into existence, I AM.",
+        "text": "“Most certainly, I tell you, before Abraham came into existence, ",
+        "marks": ["woc"]
+      },
+      {
+        "text": "I Am",
+        "marks": ["woc", "sc"]
+      },
+      {
+        "text": ".",
         "marks": ["woc"],
         "foot": {
           "type": "xrf",

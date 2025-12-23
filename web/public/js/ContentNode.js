@@ -102,9 +102,7 @@ function ContentNode({ node, settings, onFootnoteClick }) {
         }
       }
       if (node.marks.includes("sc"))
-        content = (
-          <span className="uppercase text-sm tracking-wider">{content}</span>
-        );
+        content = <span className="sc">{content}</span>;
     }
 
     // Paragraph break (boolean flag on text node)

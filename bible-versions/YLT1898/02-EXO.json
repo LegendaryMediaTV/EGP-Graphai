@@ -372,7 +372,19 @@
     "book": "EXO",
     "chapter": 3,
     "verse": 14,
-    "content": "And God saith unto Moses, ‘I AM THAT WHICH I AM;’ He saith also, ‘Thus dost thou say to the sons of Israel, I AM hath sent me unto you.’"
+    "content": [
+      "And God saith unto Moses, ‘",
+      {
+        "text": "I Am That Which I Am",
+        "marks": ["sc"]
+      },
+      ";’ He saith also, ‘Thus dost thou say to the sons of Israel, ",
+      {
+        "text": "I Am",
+        "marks": ["sc"]
+      },
+      " hath sent me unto you.’"
+    ]
   },
   {
     "book": "EXO",

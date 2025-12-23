@@ -135,6 +135,34 @@ describe("exportContent", () => {
       expect(result).toContain("H430");
       expect(result).toContain("{Hebrew: Elohim}");
     });
+
+    it("should convert text with sc mark to uppercase", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 4,
+        content: [
+          { text: "the " },
+          { text: "Lord", marks: ["sc"] },
+          { text: " God made" },
+        ],
+      };
+      expect(convertVerseToText(verse)).toBe("002:004 the LORD God made");
+    });
+
+    it("should convert text with sc mark and Strong's numbers", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 4,
+        content: [
+          { text: "the " },
+          { text: "Lord", marks: ["sc"], strong: "H3068" },
+          { text: " God", strong: "H430" },
+        ],
+      };
+      expect(convertVerseToText(verse)).toBe("002:004 the LORD H3068 God H430");
+    });
   });
 
   describe("convertVerseToMarkdown", () => {
@@ -195,6 +223,22 @@ describe("exportContent", () => {
       expect(result).toContain("<sup>a</sup>");
       expect(footnotes).toHaveLength(1);
       expect(footnotes[0]).toContain("Hebrew: Elohim");
+    });
+
+    it("should convert text with sc mark to uppercase in markdown", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 4,
+        content: [
+          { text: "the " },
+          { text: "Lord", marks: ["sc"] },
+          { text: " God made the earth" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>4</sup> the LORD God made the earth");
     });
 
     it("should convert verse with line break to <br>", () => {

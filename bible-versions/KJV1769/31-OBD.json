@@ -22,8 +22,10 @@
         "text": " the Lord",
         "strong": "H136"
       },
+      " ",
       {
-        "text": " GOD",
+        "text": "God",
+        "marks": ["sc"],
         "strong": "H3069"
       },
       {
@@ -39,8 +41,13 @@
         "text": " a rumour",
         "strong": "H8052"
       },
+      " from the ",
       {
-        "text": " from the LORD,",
+        "text": "Lord",
+        "marks": ["sc"]
+      },
+      {
+        "text": ",",
         "strong": "H3068"
       },
       {
@@ -198,8 +205,13 @@
         "strong": "H5002",
         "morph": "8803"
       },
+      " the ",
       {
-        "text": " the LORD.",
+        "text": "Lord",
+        "marks": ["sc"]
+      },
+      {
+        "text": ".",
         "strong": "H3068"
       }
     ]
@@ -361,8 +373,13 @@
         "strong": "H5002",
         "morph": "8803"
       },
+      " the ",
       {
-        "text": " the LORD,",
+        "text": "Lord",
+        "marks": ["sc"]
+      },
+      {
+        "text": ",",
         "strong": "H3068"
       },
       {
@@ -715,8 +732,10 @@
         "text": "For the day",
         "strong": "H3117"
       },
+      " of the ",
       {
-        "text": " of the LORD",
+        "text": "Lord",
+        "marks": ["sc"],
         "strong": "H3068"
       },
       {
@@ -903,8 +922,10 @@
         "text": " of Esau;",
         "strong": "H6215"
       },
+      " for the ",
       {
-        "text": " for the LORD",
+        "text": "Lord",
+        "marks": ["sc"],
         "strong": "H3068"
       },
       {

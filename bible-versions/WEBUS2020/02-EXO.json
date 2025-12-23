@@ -521,10 +521,22 @@
     "book": "EXO",
     "chapter": 3,
     "verse": 14,
-    "content": {
-      "paragraph": true,
-      "text": "God said to Moses, “I AM WHO I AM,” and he said, “You shall tell the children of Israel this: ‘I AM has sent me to you.’ ”"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "God said to Moses, “"
+      },
+      {
+        "text": "I Am Who I Am",
+        "marks": ["sc"]
+      },
+      ",” and he said, “You shall tell the children of Israel this: ‘",
+      {
+        "text": "I Am",
+        "marks": ["sc"]
+      },
+      " has sent me to you.’ ”"
+    ]
   },
   {
     "book": "EXO",

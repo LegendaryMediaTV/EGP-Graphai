@@ -115,8 +115,14 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
     }
   }
 
-  // Text content
-  const text = obj.text || "";
+  // Text content - apply formatting marks
+  let text = obj.text || "";
+
+  // Apply small caps mark as uppercase (for text/markdown exports)
+  if (obj.marks?.includes("sc")) {
+    text = text.toUpperCase();
+  }
+
   parts.push(text);
 
   // Footnote marker and inline content (immediately after text, before Strong's/morph)
