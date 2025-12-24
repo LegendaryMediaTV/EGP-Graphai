@@ -7,6 +7,7 @@ import Footnote from "./Footnote";
 type Content =
   | string
   | ContentObject
+  | ContentNested
   | ContentHeading
   | ContentParagraph
   | ContentSubtitle
@@ -26,6 +27,20 @@ interface ContentObject {
   morph?: string; // Morphological code (i.e., Robinson or Packard format)
   paragraph?: boolean; // Indicates this text is the start of a new paragraph
   break?: boolean; // Indicates this text ends with a line break
+}
+
+/**
+ * Nested content object with shared properties (e.g., Strong's number applying to multiple text elements).
+ * Requires a content property containing nested content.
+ */
+interface ContentNested {
+  content: Content; // Nested content array or element
+  strong?: string; // Strong's number applying to the entire nested content
+  lemma?: string; // Lexical lemma in original script
+  morph?: string; // Morphological code (i.e., Robinson or Packard format)
+  foot?: Footnote; // Optional footnote attached to the nested content
+  paragraph?: boolean; // Indicates this content is the start of a new paragraph
+  break?: boolean; // Indicates this content ends with a line break
 }
 
 /**
@@ -52,6 +67,7 @@ interface ContentSubtitle {
 export default Content;
 export type {
   ContentObject,
+  ContentNested,
   ContentHeading,
   ContentParagraph,
   ContentSubtitle,

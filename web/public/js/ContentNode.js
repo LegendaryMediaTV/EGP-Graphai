@@ -67,21 +67,120 @@ function ContentNode({ node, settings, onFootnoteClick }) {
       );
     }
 
+    // --- Nested Content Object (content property with Strong's, morph, etc.) ---
+    if (
+      node.content !== undefined &&
+      !node.heading &&
+      !node.subtitle &&
+      typeof node.paragraph !== "object"
+    ) {
+      // This is a nested content wrapper with properties like strong, morph, foot, etc.
+      const nestedContent = (
+        <ContentNode
+          node={node.content}
+          settings={settings}
+          onFootnoteClick={onFootnoteClick}
+        />
+      );
+
+      // Handle parsing info for the nested content
+      let parsingInfo = [];
+      if (settings.showStrongs && node.strong) {
+        const strongsLink = node.strong.startsWith("H")
+          ? `https://www.equipgodspeople.com/lexicons-word-study/old-testament-hebrew/strongs-${node.strong.toLowerCase()}`
+          : `https://www.equipgodspeople.com/lexicons-word-study/new-testament-greek/strongs-${node.strong.toLowerCase()}`;
+
+        parsingInfo.push(
+          <a
+            key="s"
+            href={strongsLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono font-bold text-gray-500 dark:text-gray-400 hover:underline"
+          >
+            {node.strong}
+          </a>
+        );
+      }
+      if (settings.showLemma && node.lemma) {
+        parsingInfo.push(
+          <span
+            key="l"
+            className={`italic text-gray-400 ${parsingInfo.length > 0 ? "ml-1" : ""}`}
+          >
+            {node.lemma}
+          </span>
+        );
+      }
+      if (settings.showMorph && node.morph) {
+        parsingInfo.push(
+          <span
+            key="m"
+            className={`text-gray-500 dark:text-gray-400 ${parsingInfo.length > 0 ? "ml-1" : ""}`}
+          >
+            {node.morph}
+          </span>
+        );
+      }
+
+      const parsingSpan =
+        parsingInfo.length > 0 ? (
+          <span className="inline-flex align-baseline ml-1 text-[0.75em] select-none">
+            {parsingInfo}
+          </span>
+        ) : null;
+
+      // Handle footnotes for nested content
+      const getFootnoteText = (content) => {
+        if (typeof content === "string") return content;
+        if (Array.isArray(content)) {
+          return content
+            .map((n) => (typeof n === "string" ? n : n.text))
+            .join("");
+        }
+        return "";
+      };
+
+      const footnote =
+        settings.showFootnotes && node.foot ? (
+          <span
+            className="text-blue-600 dark:text-blue-400 text-[0.6em] align-top cursor-pointer ml-0.5 hover:underline"
+            title={getFootnoteText(node.foot.content)}
+            onClick={() => {
+              if (onFootnoteClick) {
+                onFootnoteClick(node.foot.content);
+              } else {
+                alert(getFootnoteText(node.foot.content));
+              }
+            }}
+          >
+            <Icons.Info />
+          </span>
+        ) : null;
+
+      const isBlock = node.paragraph === true;
+
+      return (
+        <React.Fragment>
+          {settings.paragraphMode && isBlock && (
+            <span className="block mt-4 w-full"></span>
+          )}
+          <span className="inline">
+            {nestedContent}
+            {parsingSpan}
+            {settings.paragraphMode && node.break && <br />}
+          </span>
+          {!settings.paragraphMode && node.break && " "}
+          {footnote}
+        </React.Fragment>
+      );
+    }
+
     // --- Text Node ---
     let content = null;
 
     if (node.text) {
       content = <span>{node.text}</span>;
-    } else {
-      // If it's an object but has no 'text', 'heading', 'subtitle', or 'paragraph' wrapper,
-      // it might be a malformed node or a node type we don't handle.
-      // However, the error "Objects are not valid as a React child" usually happens when we try to render the object directly.
-      // In the previous code, if node.text was missing, content remained null.
-      // Then we returned <span>{content}...</span>.
-      // If content is null, that's fine.
-      // BUT, if we are recursively calling ContentNode, and passing an object that isn't handled, it returns null.
-      // The error likely comes from somewhere else rendering the node directly.
-      // Let's look at VerseRenderer.
     }
 
     // Formatting Marks

@@ -44,10 +44,14 @@
         "text": " [is] jealous,",
         "strong": "H7072"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -55,10 +59,14 @@
         "strong": "H5358",
         "morph": "8802"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -73,10 +81,14 @@
       {
         "strong": "H2534"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -105,10 +117,14 @@
     "chapter": 1,
     "verse": 3,
     "content": [
-      "The ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -332,10 +348,14 @@
     "chapter": 1,
     "verse": 7,
     "content": [
-      "The ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -534,13 +554,15 @@
         "strong": "H559",
         "morph": "8804"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -608,10 +630,14 @@
     "chapter": 1,
     "verse": 14,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -802,10 +828,14 @@
     "chapter": 2,
     "verse": 2,
     "content": [
-      "For the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "For the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1339,10 +1369,14 @@
         "strong": "H5002",
         "morph": "8803"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1625,10 +1659,14 @@
         "strong": "H5002",
         "morph": "8803"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

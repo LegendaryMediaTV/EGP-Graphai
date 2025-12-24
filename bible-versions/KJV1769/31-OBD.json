@@ -22,10 +22,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -41,13 +45,15 @@
         "text": " a rumour",
         "strong": "H8052"
       },
-      " from the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " from the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -205,13 +211,15 @@
         "strong": "H5002",
         "morph": "8803"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -373,13 +381,15 @@
         "strong": "H5002",
         "morph": "8803"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -732,10 +742,14 @@
         "text": "For the day",
         "strong": "H3117"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -922,10 +936,14 @@
         "text": " of Esau;",
         "strong": "H6215"
       },
-      " for the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " for the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

@@ -30,13 +30,15 @@
         "strong": "H7592",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -70,10 +72,14 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -180,10 +186,14 @@
         "strong": "H5927",
         "morph": "8799"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1005,10 +1015,14 @@
     "chapter": 1,
     "verse": 19,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1178,10 +1192,14 @@
         "text": " against Bethel:",
         "strong": "H1008"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       " [was] with them."
@@ -1922,10 +1940,14 @@
         "text": "And an angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2086,10 +2108,14 @@
         "text": "And it came to pass, when the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2226,10 +2252,14 @@
         "strong": "H5647",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2276,13 +2306,15 @@
         "text": " works",
         "strong": "H4639"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2317,13 +2349,15 @@
         "text": " the servant",
         "strong": "H5650"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2433,13 +2467,15 @@
         "strong": "H3045",
         "morph": "8804"
       },
-      " not the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " not the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2483,13 +2519,15 @@
         "text": " in the sight",
         "strong": "H5869"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2513,10 +2551,14 @@
         "strong": "H5800",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2594,13 +2636,15 @@
         "strong": "H5800",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2627,10 +2671,14 @@
         "text": "And the anger",
         "strong": "H639"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2718,20 +2766,29 @@
         "text": " the hand",
         "strong": "H3027"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
         "text": " was against them for evil,",
         "strong": "H7451"
       },
-      " as the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
+        "content": [
+          " as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
+        "strong": "H3068"
       },
       {
         "text": " had said,",
@@ -2862,13 +2919,15 @@
         "text": " the commandments",
         "strong": "H4687"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -2884,10 +2943,14 @@
     "chapter": 2,
     "verse": 18,
     "content": [
-      "And when the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And when the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2900,10 +2963,14 @@
         "strong": "H8199",
         "morph": "8802"
       },
-      " then the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " then the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2939,10 +3006,14 @@
         "strong": "H5162",
         "morph": "8735"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3048,10 +3119,14 @@
         "text": "And the anger",
         "strong": "H639"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3167,10 +3242,14 @@
         "text": " the way",
         "strong": "H1870"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3195,10 +3274,14 @@
     "chapter": 2,
     "verse": 23,
     "content": [
-      "Therefore the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "Therefore the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3248,10 +3331,14 @@
         "text": "Now these [are] the nations",
         "strong": "H1471"
       },
-      " which the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " which the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3419,13 +3506,15 @@
         "text": " unto the commandments",
         "strong": "H4687"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -3563,13 +3652,15 @@
         "text": " in the sight",
         "strong": "H5869"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -3577,10 +3668,14 @@
         "strong": "H7911",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3611,10 +3706,14 @@
         "text": "Therefore the anger",
         "strong": "H639"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3692,19 +3791,25 @@
         "strong": "H2199",
         "morph": "8799"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3765,10 +3870,14 @@
         "text": "And the Spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3789,10 +3898,14 @@
         "text": " to war:",
         "strong": "H4421"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3903,19 +4016,25 @@
         "text": " in the sight",
         "strong": "H5869"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3952,13 +4071,15 @@
         "text": " in the sight",
         "strong": "H5869"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -4079,19 +4200,25 @@
         "strong": "H2199",
         "morph": "8799"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -5054,13 +5181,15 @@
         "text": " in the sight",
         "strong": "H5869"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -5079,10 +5208,14 @@
     "chapter": 4,
     "verse": 2,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -5160,13 +5293,15 @@
         "strong": "H6817",
         "morph": "8799"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -5533,10 +5668,14 @@
         "text": " shall not be for thine honour;",
         "strong": "H8597"
       },
-      " for the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " for the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -5896,10 +6035,14 @@
     "chapter": 4,
     "verse": 15,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -6662,13 +6805,15 @@
         "strong": "H7891",
         "morph": "8799"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -6772,13 +6917,15 @@
         "text": " from before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -6789,10 +6936,14 @@
         "text": " from before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -7070,13 +7221,15 @@
         "text": " the righteous acts",
         "strong": "H6666"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -7095,10 +7248,14 @@
         "text": " then shall the people",
         "strong": "H5971"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -7200,10 +7357,14 @@
         "text": " among the people:",
         "strong": "H5971"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -7692,13 +7853,15 @@
         "text": " the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -7725,23 +7888,29 @@
         "text": " not to the help",
         "strong": "H5833"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
         "text": " to the help",
         "strong": "H5833"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8142,13 +8311,15 @@
         "strong": "H6",
         "morph": "8799"
       },
-      " O ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -8215,19 +8386,25 @@
         "text": " in the sight",
         "strong": "H5869"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8519,13 +8696,15 @@
         "strong": "H2199",
         "morph": "8799"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -8548,10 +8727,14 @@
         "strong": "H2199",
         "morph": "8804"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8603,10 +8786,14 @@
         "strong": "H559",
         "morph": "8804"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8753,13 +8940,15 @@
         "text": " an angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -8828,10 +9017,14 @@
         "text": "And the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8884,10 +9077,14 @@
         "text": " if",
         "strong": "H3426"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8956,10 +9153,14 @@
     "chapter": 6,
     "verse": 14,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9072,10 +9273,14 @@
     "chapter": 6,
     "verse": 16,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9343,10 +9548,14 @@
         "text": "Then the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9409,10 +9618,14 @@
         "text": " Then the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9444,13 +9657,15 @@
         "text": " that he [was] an angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -9470,13 +9685,15 @@
         "text": " O Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": "!",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "!"
+        ],
         "strong": "H3069"
       },
       {
@@ -9492,10 +9709,14 @@
         "text": " an angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9513,10 +9734,14 @@
     "chapter": 6,
     "verse": 23,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9594,10 +9819,14 @@
         "text": "And it came to pass the same night,",
         "strong": "H3915"
       },
-      " that the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9681,10 +9910,14 @@
         "text": " an altar",
         "strong": "H4196"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9771,10 +10004,15 @@
         "strong": "H6213",
         "morph": "8799"
       },
-      " as the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
+        "content": [
+          " as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
+        "strong": "H3068"
       },
       {
         "text": " had said",
@@ -10185,10 +10423,14 @@
         "text": "But the Spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10611,10 +10853,14 @@
     "chapter": 7,
     "verse": 2,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10767,10 +11013,14 @@
     "chapter": 7,
     "verse": 4,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10854,10 +11104,14 @@
         "text": " unto the water:",
         "strong": "H4325"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10979,10 +11233,14 @@
     "chapter": 7,
     "verse": 7,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11135,10 +11393,14 @@
         "text": "And it came to pass the same night,",
         "strong": "H3915"
       },
-      " that the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11568,10 +11830,14 @@
         "strong": "H6965",
         "morph": "8798"
       },
-      " for the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " for the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11908,13 +12174,15 @@
         "text": " The sword",
         "strong": "H2719"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -11992,10 +12260,14 @@
         "text": " the trumpets,",
         "strong": "H7782"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -14097,10 +14369,14 @@
         "strong": "H2142",
         "morph": "8804"
       },
-      " not the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " not the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -17643,13 +17919,15 @@
         "text": " in the sight",
         "strong": "H5869"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -17714,13 +17992,15 @@
         "strong": "H5800",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -17740,10 +18020,14 @@
         "text": "And the anger",
         "strong": "H639"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -17926,13 +18210,15 @@
         "strong": "H2199",
         "morph": "8799"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -17970,10 +18256,14 @@
     "chapter": 10,
     "verse": 11,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18145,13 +18435,15 @@
         "strong": "H559",
         "morph": "8799"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -18210,13 +18502,15 @@
         "strong": "H5647",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -18813,10 +19107,14 @@
         "text": " of Ammon,",
         "strong": "H5983"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18856,10 +19154,14 @@
         "text": " unto Jephthah,",
         "strong": "H3316"
       },
-      " The ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18934,10 +19236,14 @@
         "text": " before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -19521,10 +19827,14 @@
     "chapter": 11,
     "verse": 21,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -19949,10 +20259,14 @@
         "text": "Then the Spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -20026,13 +20340,15 @@
         "text": " a vow",
         "strong": "H5088"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -20370,13 +20686,15 @@
         "text": " my mouth",
         "strong": "H6310"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -20414,13 +20732,15 @@
         "text": " thy mouth",
         "strong": "H6310"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -20445,10 +20765,15 @@
         "text": " forasmuch",
         "strong": "H310"
       },
-      " as the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
+        "content": [
+          " as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
+        "strong": "H3068"
       },
       {
         "text": " hath taken",
@@ -20889,10 +21214,14 @@
         "text": " of Ammon,",
         "strong": "H5983"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -21596,19 +21925,25 @@
         "text": " in the sight",
         "strong": "H5869"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -21692,10 +22027,14 @@
         "text": "And the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -22010,13 +22349,15 @@
         "strong": "H6279",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -22296,10 +22637,14 @@
         "text": "And the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -22398,13 +22743,15 @@
         "text": " unto the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -22440,10 +22787,14 @@
         "text": "And the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -22504,13 +22855,15 @@
         "text": " not that he [was] an angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -22533,13 +22886,15 @@
         "text": " unto the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -22571,10 +22926,14 @@
         "text": "And the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -22635,13 +22994,15 @@
         "text": " [it] upon a rock",
         "strong": "H6697"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -22695,10 +23056,14 @@
         "text": " that the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -22751,10 +23116,14 @@
         "text": "But the angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -22788,13 +23157,15 @@
         "text": " that he [was] an angel",
         "strong": "H4397"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -22856,10 +23227,14 @@
         "text": " unto him, If",
         "strong": "H3863"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -22949,10 +23324,14 @@
         "strong": "H1431",
         "morph": "8799"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -22972,10 +23351,14 @@
         "text": "And the Spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -23323,10 +23706,14 @@
         "text": "And the Spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -24119,10 +24506,14 @@
         "text": "And the Spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -25040,10 +25431,14 @@
         "text": " him: and the Spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -27074,13 +27469,15 @@
         "strong": "H7121",
         "morph": "8799"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -27092,13 +27489,15 @@
         "text": " O Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -27513,10 +27912,14 @@
         "text": " the silver",
         "strong": "H3701"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -28393,10 +28796,14 @@
         "text": " before",
         "strong": "H5227"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -31016,13 +31423,15 @@
         "text": " to the house",
         "strong": "H1004"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -31869,10 +32278,14 @@
         "text": " of Gilead,",
         "strong": "H1568"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -32871,10 +33284,15 @@
         "text": " of Benjamin?",
         "strong": "H1144"
       },
-      " And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
+        "content": [
+          " And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
+        "strong": "H3068"
       },
       {
         "text": " said,",
@@ -33112,10 +33530,14 @@
         "text": " before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -33162,10 +33584,15 @@
         "text": " my brother?",
         "strong": "H251"
       },
-      " And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
+        "content": [
+          " And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
+        "strong": "H3068"
       },
       {
         "text": " said,",
@@ -33343,13 +33770,15 @@
         "text": " there before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -33382,13 +33811,15 @@
         "text": " before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -33411,13 +33842,15 @@
         "strong": "H7592",
         "morph": "8799"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -33512,10 +33945,15 @@
         "strong": "H2308",
         "morph": "8799"
       },
-      " And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
+        "content": [
+          " And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
+        "strong": "H3068"
       },
       {
         "text": " said,",
@@ -33922,10 +34360,14 @@
     "chapter": 20,
     "verse": 35,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -34904,10 +35346,15 @@
         "strong": "H559",
         "morph": "8799"
       },
-      " O ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
+        "content": [
+          " O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
+        "strong": "H3068"
       },
       {
         "text": " God",
@@ -35025,13 +35472,15 @@
         "text": " not up with the congregation",
         "strong": "H6951"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": "?",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "?"
+        ],
         "strong": "H3068"
       },
       {
@@ -35763,10 +36212,14 @@
         "text": " Behold, [there is] a feast",
         "strong": "H2282"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

@@ -109,10 +109,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -151,10 +155,14 @@
         "text": " and the hand",
         "strong": "H3027"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       " was there upon him."
@@ -1481,13 +1489,15 @@
         "text": " of the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       },
       {
@@ -1703,13 +1713,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -2523,13 +2535,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -2588,10 +2602,14 @@
         "text": " [be] the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2696,10 +2714,14 @@
         "text": " but the hand",
         "strong": "H3027"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2796,10 +2818,14 @@
         "text": " that the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3151,10 +3177,14 @@
         "text": "And the hand",
         "strong": "H3027"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3207,10 +3237,14 @@
         "text": " and, behold, the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3416,13 +3450,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -4136,10 +4172,14 @@
     "chapter": 4,
     "verse": 13,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -4198,13 +4238,15 @@
         "text": " Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": "!",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "!"
+        ],
         "strong": "H3069"
       },
       {
@@ -4675,13 +4717,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -4781,13 +4825,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -4855,13 +4901,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -4994,13 +5042,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -5410,10 +5460,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -5492,13 +5546,15 @@
         "text": " of the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -5510,10 +5566,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -5912,13 +5972,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -6199,10 +6261,14 @@
         "text": "Moreover the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -6234,10 +6300,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -6374,13 +6444,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -7043,13 +7115,15 @@
         "text": " of the wrath",
         "strong": "H5678"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -7538,10 +7612,14 @@
         "text": " of the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -8233,10 +8311,14 @@
         "strong": "H559",
         "morph": "8802"
       },
-      " The ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8422,13 +8504,15 @@
         "text": " of the temple",
         "strong": "H1964"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -8459,13 +8543,15 @@
         "text": " toward the temple",
         "strong": "H1964"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -8876,10 +8962,14 @@
     "chapter": 9,
     "verse": 4,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9177,13 +9267,15 @@
         "text": " Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": "!",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "!"
+        ],
         "strong": "H3069"
       },
       {
@@ -9282,10 +9374,14 @@
         "strong": "H559",
         "morph": "8804"
       },
-      " The ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9297,10 +9393,14 @@
         "text": " the earth,",
         "strong": "H776"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9597,10 +9697,14 @@
         "text": "Then the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10350,10 +10454,14 @@
         "text": "Then the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10841,10 +10949,14 @@
         "text": "And the Spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10867,13 +10979,15 @@
         "strong": "H559",
         "morph": "8804"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -10952,13 +11066,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -11026,13 +11142,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -11261,13 +11379,15 @@
         "text": " Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": "!",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "!"
+        ],
         "strong": "H3069"
       },
       {
@@ -11298,10 +11418,14 @@
         "text": "Again the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11367,13 +11491,15 @@
         "strong": "H7368",
         "morph": "8798"
       },
-      " from the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " from the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -11410,13 +11536,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -11475,13 +11603,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -11701,13 +11831,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -11765,10 +11897,14 @@
         "text": "And the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11877,10 +12013,14 @@
         "text": " all the things",
         "strong": "H1697"
       },
-      " that the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11901,10 +12041,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -12290,10 +12434,14 @@
         "text": " came the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -12364,13 +12512,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -12709,10 +12859,14 @@
         "text": "Moreover the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -12794,10 +12948,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -12915,10 +13073,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -12997,13 +13159,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -13151,13 +13315,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -13171,10 +13337,14 @@
         "text": "Again the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -13262,13 +13432,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -13303,13 +13475,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -13324,10 +13498,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -13390,13 +13568,15 @@
         "text": " ye the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       }
     ]
@@ -13415,13 +13595,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -13523,13 +13705,15 @@
         "text": " in the day",
         "strong": "H3117"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -13561,10 +13745,14 @@
         "strong": "H559",
         "morph": "8802"
       },
-      " The ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -13572,10 +13760,14 @@
         "strong": "H5002",
         "morph": "8803"
       },
-      " and the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -13635,10 +13827,14 @@
         "strong": "H559",
         "morph": "8802"
       },
-      " The ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -13667,13 +13863,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -13703,13 +13901,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -13791,13 +13991,15 @@
         "text": " that I [am] the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -13964,13 +14166,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -14178,13 +14382,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -14255,13 +14461,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -14435,13 +14643,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -14697,10 +14907,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -14798,13 +15012,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -14946,13 +15162,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -15284,13 +15502,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -15304,10 +15524,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -15446,13 +15670,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -15537,13 +15763,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -15656,13 +15884,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -15766,13 +15996,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -15821,13 +16053,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -16008,13 +16242,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -16029,10 +16265,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -16237,13 +16477,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -16380,13 +16622,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -16401,10 +16645,14 @@
         "text": "Again the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -16461,10 +16709,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -16822,13 +17074,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       " and thou becamest mine."
@@ -17107,13 +17361,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -17351,13 +17607,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -17507,13 +17765,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       ")"
@@ -17806,13 +18066,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -18047,13 +18309,15 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       }
     ]
@@ -18072,13 +18336,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -18486,13 +18752,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3069"
       },
       {
@@ -18730,13 +18998,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -19251,13 +19521,15 @@
         "strong": "H5002",
         "morph": "8803"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -19276,13 +19548,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -19478,13 +19752,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -19499,10 +19775,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -19572,13 +19852,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -19949,13 +20231,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -20089,10 +20373,14 @@
         "text": "Moreover the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -20345,13 +20633,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -20525,13 +20815,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -20683,13 +20975,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -20929,10 +21223,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -21015,13 +21313,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -21349,13 +21649,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -22118,13 +22420,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3069"
       },
       {
@@ -22522,13 +22826,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       },
       {
@@ -22638,13 +22944,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3069"
       },
       {
@@ -23369,13 +23677,15 @@
         "strong": "H1875",
         "morph": "8800"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -23399,10 +23709,14 @@
         "text": "Then came the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -23452,13 +23766,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -23484,13 +23800,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -23558,13 +23876,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -23628,10 +23948,14 @@
         "strong": "H559",
         "morph": "8800"
       },
-      " I [am] the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -23743,10 +24067,14 @@
         "text": " of Egypt:",
         "strong": "H4714"
       },
-      " I [am] the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -24731,13 +25059,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -24922,13 +25252,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -25025,13 +25357,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -25111,13 +25445,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -25283,13 +25619,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -25402,13 +25740,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -25495,13 +25835,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -25756,13 +26098,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -25776,10 +26120,14 @@
         "text": "Moreover the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -25874,13 +26222,15 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -25892,13 +26242,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -26012,13 +26364,15 @@
         "text": " Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": "!",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "!"
+        ],
         "strong": "H3069"
       },
       {
@@ -26047,10 +26401,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -26133,13 +26491,15 @@
         "strong": "H559",
         "morph": "8804"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -26387,13 +26747,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -26407,10 +26769,14 @@
         "text": "Again the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -26448,13 +26814,15 @@
         "strong": "H559",
         "morph": "8804"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -26682,13 +27050,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -26918,10 +27288,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -27286,13 +27660,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -27400,13 +27776,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -27522,10 +27900,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -27785,10 +28167,14 @@
         "text": "Moreover the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -27859,13 +28245,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -28335,13 +28723,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -28506,10 +28896,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -28592,13 +28986,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -28792,10 +29188,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -29101,13 +29501,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -29281,13 +29683,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -29302,10 +29706,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -30245,13 +30653,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -30597,13 +31007,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -30775,13 +31187,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -30915,13 +31329,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -30940,13 +31356,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -30987,10 +31405,14 @@
     "chapter": 23,
     "verse": 36,
     "content": [
-      "The ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -31494,13 +31916,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -31656,13 +32080,15 @@
         "text": " that I [am] the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -31701,10 +32127,14 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -31811,13 +32241,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -31955,13 +32387,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -32125,13 +32559,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -32407,13 +32843,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -32427,10 +32865,14 @@
         "text": "Also the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -32654,10 +33096,14 @@
         "text": " them, The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -32694,13 +33140,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -32891,13 +33339,15 @@
         "text": " that I [am] the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -33047,10 +33497,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -33127,13 +33581,15 @@
         "text": " of the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -33145,13 +33601,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -33326,13 +33784,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -33455,13 +33915,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -33637,13 +34099,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -33704,13 +34168,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -33832,13 +34298,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -33857,13 +34325,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -33924,13 +34394,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -34050,10 +34522,14 @@
         "text": " [that] the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -34137,13 +34613,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -34264,13 +34742,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3069"
       },
       {
@@ -34330,13 +34810,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -34770,13 +35252,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -34795,10 +35279,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -35054,13 +35542,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -35229,13 +35719,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -35250,10 +35742,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -35344,13 +35840,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -36951,10 +37449,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -36999,13 +37501,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -37196,13 +37700,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -37401,13 +37907,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -37421,10 +37929,14 @@
         "text": "Moreover the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -37478,13 +37990,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -37954,10 +38468,14 @@
         "text": "Again the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -38020,13 +38538,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -38171,13 +38691,15 @@
         "text": " that I [am] the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -38196,13 +38718,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -38371,10 +38895,14 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -38453,13 +38981,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -38759,13 +39289,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -39040,13 +39572,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -39216,13 +39750,15 @@
         "text": " that I [am] the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -39260,10 +39796,14 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -39379,13 +39919,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -39491,13 +40033,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -39570,10 +40114,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -39615,13 +40163,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -39656,10 +40206,14 @@
         "text": " even the day",
         "strong": "H3117"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -39801,13 +40355,15 @@
         "strong": "H559",
         "morph": "8804"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -39863,13 +40419,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -40027,13 +40585,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -40209,13 +40769,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -40583,10 +41145,14 @@
         "text": " [that] the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -40687,13 +41253,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -40989,10 +41557,14 @@
         "text": " [that] the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -41433,13 +42005,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -41756,13 +42330,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -42052,13 +42628,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -42096,10 +42674,14 @@
         "text": " [that] the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -42220,13 +42802,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -42492,13 +43076,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -42634,13 +43220,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -42808,13 +43396,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -42924,13 +43514,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -42966,10 +43558,14 @@
         "text": " [that] the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -43797,13 +44393,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -43868,13 +44466,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -43889,10 +44489,14 @@
         "text": "Again the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -44467,13 +45071,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -45096,10 +45702,14 @@
         "text": "Now the hand",
         "strong": "H3027"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -45162,10 +45772,14 @@
         "text": "Then the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -45270,13 +45884,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -45391,13 +46007,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -45642,13 +46260,15 @@
         "strong": "H3318",
         "morph": "8802"
       },
-      " from the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " from the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -45819,10 +46439,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -45878,10 +46502,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -46147,13 +46775,15 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       }
     ]
@@ -46176,13 +46806,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -46268,13 +46900,15 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       }
     ]
@@ -46293,13 +46927,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -46378,13 +47014,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -46632,13 +47270,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -46734,13 +47374,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -46885,10 +47527,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -47393,13 +48039,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -47442,13 +48090,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -47463,10 +48113,14 @@
         "text": "Moreover the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -47533,13 +48187,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -47681,13 +48337,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -47919,13 +48577,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -48068,13 +48728,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -48204,13 +48866,15 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       }
     ]
@@ -48229,13 +48893,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -48290,13 +48956,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -48374,13 +49042,15 @@
         "text": " of the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -48392,10 +49062,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -48468,13 +49142,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -48589,13 +49265,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -48640,13 +49318,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -48907,13 +49587,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -48977,13 +49659,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -49037,13 +49721,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -49057,10 +49743,14 @@
         "text": "Moreover the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -49250,13 +49940,15 @@
         "text": " to them, These [are] the people",
         "strong": "H5971"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -49339,13 +50031,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -49443,13 +50137,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -49838,13 +50534,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -49890,13 +50588,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -50105,13 +50805,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -50213,10 +50915,14 @@
         "text": "The hand",
         "strong": "H3027"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -50228,13 +50934,15 @@
         "text": " in the spirit",
         "strong": "H7307"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -50336,13 +51044,15 @@
         "text": " O Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -50393,13 +51103,15 @@
         "text": " the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -50418,10 +51130,14 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"],
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -50641,13 +51357,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -50824,13 +51542,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -50960,13 +51680,15 @@
         "strong": "H5002",
         "morph": "8803"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -50980,10 +51702,14 @@
         "text": "The word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -51170,13 +51896,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -51291,13 +52019,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -51723,10 +52453,14 @@
         "text": "And the word",
         "strong": "H1697"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -51813,13 +52547,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -52177,13 +52913,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -52501,13 +53239,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -52682,13 +53422,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -52780,13 +53522,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -52971,13 +53715,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3069"
       },
       {
@@ -53135,13 +53881,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -53339,13 +54087,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -53482,13 +54232,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -53658,13 +54410,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -53831,13 +54585,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -54031,13 +54787,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -54272,13 +55030,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -54480,13 +55240,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -54708,13 +55470,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -54793,10 +55557,14 @@
         "text": " the hand",
         "strong": "H3027"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -58694,13 +59462,15 @@
         "text": " that [is] before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -59523,10 +60293,14 @@
         "text": " that approach",
         "strong": "H7138"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -60139,10 +60913,14 @@
         "text": "And the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -60207,10 +60985,14 @@
         "text": " and, behold, the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -60995,13 +61777,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -61086,13 +61870,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -61330,13 +62116,15 @@
         "text": " them before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -61361,13 +62149,15 @@
         "text": " [for] a burnt offering",
         "strong": "H5930"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -61530,13 +62320,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -61594,10 +62386,14 @@
         "strong": "H559",
         "morph": "8799"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -61678,13 +62474,15 @@
         "text": " before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -61755,10 +62553,14 @@
         "text": " and, behold, the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -61770,13 +62572,15 @@
         "text": " the house",
         "strong": "H1004"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -61795,10 +62599,14 @@
     "chapter": 44,
     "verse": 5,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -61854,13 +62662,15 @@
         "text": " of the house",
         "strong": "H1004"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -61925,13 +62735,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -62087,13 +62899,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -62310,13 +63124,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3069"
       },
       {
@@ -62501,13 +63317,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3069"
       }
     ]
@@ -63104,13 +63922,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -63297,13 +64117,15 @@
         "text": " an oblation",
         "strong": "H8641"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -63505,13 +64327,15 @@
         "strong": "H8334",
         "morph": "8763"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -63834,13 +64658,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -63903,13 +64729,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -64222,13 +65050,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -64355,13 +65185,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -64803,13 +65635,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -65000,10 +65834,14 @@
         "text": " before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -65034,10 +65872,14 @@
         "strong": "H7126",
         "morph": "8686"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -65285,10 +66127,14 @@
         "text": " before",
         "strong": "H6440"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -65522,13 +66368,15 @@
         "text": " voluntarily",
         "strong": "H5071"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -65618,10 +66466,14 @@
         "text": " a burnt offering",
         "strong": "H5930"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -65718,13 +66570,15 @@
         "text": " ordinance",
         "strong": "H2708"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -65783,13 +66637,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -67003,13 +67859,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ";",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3069"
       },
       {
@@ -67581,13 +68439,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]
@@ -68022,10 +68882,14 @@
         "strong": "H7311",
         "morph": "8686"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -68147,10 +69011,14 @@
         "text": " and the sanctuary",
         "strong": "H4720"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -68370,13 +69238,15 @@
         "text": " for [it is] holy",
         "strong": "H6944"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -69264,13 +70134,15 @@
         "text": " the Lord",
         "strong": "H136"
       },
-      " ",
       {
-        "text": "God",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3069"
       }
     ]

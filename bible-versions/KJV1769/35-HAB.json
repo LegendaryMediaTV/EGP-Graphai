@@ -509,10 +509,15 @@
         "text": "[Art] thou not from everlasting,",
         "strong": "H6924"
       },
-      " O ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
+        "content": [
+          " O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
+        "strong": "H3068"
       },
       {
         "text": " my God,",
@@ -527,13 +532,15 @@
         "strong": "H4191",
         "morph": "8799"
       },
-      " O ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -840,10 +847,14 @@
     "chapter": 2,
     "verse": 2,
     "content": [
-      "And the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1425,13 +1436,15 @@
         "text": " of the glory",
         "strong": "H3519"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -1742,10 +1755,14 @@
     "chapter": 2,
     "verse": 20,
     "content": [
-      "But the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          "But the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1819,13 +1836,15 @@
         "strong": "H3372",
         "morph": "8804"
       },
-      " O ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2659,13 +2678,15 @@
         "strong": "H5937",
         "morph": "8799"
       },
-      " in the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " in the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {

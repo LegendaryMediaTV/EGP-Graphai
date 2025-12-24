@@ -75,6 +75,59 @@
     },
     {
       "type": "object",
+      "description": "Structured content object for nested content with shared properties (e.g., Strong's number applying to multiple text elements).",
+      "properties": {
+        "content": {
+          "$ref": "#",
+          "description": "Nested content array or element."
+        },
+        "strong": {
+          "type": "string",
+          "pattern": "^[GH][0-9]{1,4}$",
+          "description": "Strong's number applying to the entire nested content."
+        },
+        "lemma": {
+          "type": "string",
+          "description": "Lexical lemma in original script."
+        },
+        "morph": {
+          "type": "string",
+          "description": "Morphological code (i.e., Robinson or Packard format)."
+        },
+        "foot": {
+          "type": "object",
+          "description": "Optional footnote attached to the nested content.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["stu", "trn", "var", "map", "xrf"],
+              "default": "stu",
+              "description": "Kind of footnote: stu (study, default), trn (translation), var (textual criticism variant), map (map), xrf (cross-reference)."
+            },
+            "content": {
+              "$ref": "#",
+              "description": "Any valid content type (i.e., string, object, or array)."
+            }
+          },
+          "required": ["content"],
+          "additionalProperties": false
+        },
+        "paragraph": {
+          "type": "boolean",
+          "default": false,
+          "description": "Indicates this content is the start of a new paragraph."
+        },
+        "break": {
+          "type": "boolean",
+          "default": false,
+          "description": "Indicates this content ends with a line break."
+        }
+      },
+      "required": ["content"],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
       "description": "Structured content object for headings.",
       "properties": {
         "heading": {

@@ -5776,13 +5776,15 @@
         "strong": "H1984",
         "morph": "8762"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ".",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       },
       {
@@ -10208,10 +10210,14 @@
         "text": " of Moses,",
         "strong": "H4872"
       },
-      " which the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " which the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10530,13 +10536,15 @@
         "strong": "H1288",
         "morph": "8762"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ",",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -10582,10 +10590,14 @@
         "strong": "H7812",
         "morph": "8691"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10785,10 +10797,14 @@
         "text": " [is] holy",
         "strong": "H6918"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10897,10 +10913,14 @@
         "text": " for the joy",
         "strong": "H2304"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11096,10 +11116,14 @@
         "text": " in the law",
         "strong": "H8451"
       },
-      " which the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " which the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11622,10 +11646,14 @@
         "text": " of the law",
         "strong": "H8451"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11654,10 +11682,14 @@
         "strong": "H7812",
         "morph": "8693"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11729,10 +11761,14 @@
         "text": " voice",
         "strong": "H6963"
       },
-      " unto the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11797,10 +11833,14 @@
         "strong": "H1288",
         "morph": "8761"
       },
-      " the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -14636,10 +14676,14 @@
         "text": " all the commandments",
         "strong": "H4687"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -14969,10 +15013,14 @@
         "text": " upon the altar",
         "strong": "H4196"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"],
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -15032,13 +15080,15 @@
         "text": " unto the house",
         "strong": "H1004"
       },
-      " of the ",
       {
-        "text": "Lord",
-        "marks": ["sc"]
-      },
-      {
-        "text": ":",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       }
     ]
