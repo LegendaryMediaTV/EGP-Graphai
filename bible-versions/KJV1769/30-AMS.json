@@ -3453,7 +3453,14 @@
         "strong": "H776"
       },
       {
-        "text": " The LORD,",
+        "content": [
+          " The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -4152,7 +4159,14 @@
         "morph": "8799"
       },
       {
-        "text": " and so the LORD,",
+        "content": [
+          " and so the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -4207,7 +4221,13 @@
         "strong": "H8179"
       },
       {
-        "text": " it may be that the LORD",
+        "content": [
+          " it may be that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -4239,7 +4259,14 @@
     "verse": 16,
     "content": [
       {
-        "text": "Therefore the LORD,",
+        "content": [
+          "Therefore the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -5324,7 +5351,13 @@
     "verse": 11,
     "content": [
       {
-        "text": "For, behold, the LORD",
+        "content": [
+          "For, behold, the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

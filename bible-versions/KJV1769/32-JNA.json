@@ -830,7 +830,14 @@
         "strong": "H1818"
       },
       {
-        "text": " for thou, O LORD,",
+        "content": [
+          " for thou, O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -1409,7 +1416,14 @@
         "strong": "H3444"
       },
       {
-        "text": " [is] of the LORD.",
+        "content": [
+          " [is] of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -2082,7 +2096,14 @@
         "strong": "H577"
       },
       {
-        "text": " thee, O LORD,",
+        "content": [
+          " thee, O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2157,7 +2178,14 @@
     "verse": 3,
     "content": [
       {
-        "text": "Therefore now, O LORD,",
+        "content": [
+          "Therefore now, O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {

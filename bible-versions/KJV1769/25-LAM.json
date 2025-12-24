@@ -734,7 +734,13 @@
         "morph": "8776"
       },
       {
-        "text": " unto me, wherewith the LORD",
+        "content": [
+          " unto me, wherewith the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1053,7 +1059,13 @@
         "morph": "8764"
       },
       {
-        "text": " her: the LORD",
+        "content": [
+          " her: the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2989,7 +3001,14 @@
         "strong": "H3117"
       },
       {
-        "text": " of the LORD’S",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -3601,7 +3620,14 @@
     "verse": 22,
     "content": [
       {
-        "text": "[It is of] the LORD’S",
+        "content": [
+          "[It is of] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -4131,7 +4157,14 @@
         "morph": "8799"
       },
       {
-        "text": " to the LORD.",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -4386,7 +4419,13 @@
     "verse": 50,
     "content": [
       {
-        "text": "Till the LORD",
+        "content": [
+          "Till the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -4662,7 +4701,14 @@
     "verse": 59,
     "content": [
       {
-        "text": "O LORD,",
+        "content": [
+          "O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -6561,7 +6607,14 @@
     "verse": 19,
     "content": [
       {
-        "text": "Thou, O LORD,",
+        "content": [
+          "Thou, O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -6627,7 +6680,14 @@
         "morph": "8685"
       },
       {
-        "text": " thou us unto thee, O LORD,",
+        "content": [
+          " thou us unto thee, O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {

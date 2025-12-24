@@ -154,7 +154,13 @@
         "morph": "8762"
       },
       {
-        "text": " [the wicked]: the LORD",
+        "content": [
+          " [the wicked]: the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -441,7 +447,14 @@
         "morph": "8762"
       },
       {
-        "text": " against the LORD?",
+        "content": [
+          " against the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "?"
+        ],
         "strong": "H3068"
       },
       {
@@ -530,7 +543,14 @@
         "strong": "H7451"
       },
       {
-        "text": " against the LORD,",
+        "content": [
+          " against the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {

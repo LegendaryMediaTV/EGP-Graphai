@@ -1112,7 +1112,14 @@
         "strong": "H4410"
       },
       {
-        "text": " shall be the LORD’S.",
+        "content": [
+          " shall be the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S."
+        ],
         "strong": "H3068"
       }
     ]

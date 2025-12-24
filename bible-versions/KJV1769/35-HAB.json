@@ -30,7 +30,14 @@
     "verse": 2,
     "content": [
       {
-        "text": "O LORD,",
+        "content": [
+          "O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -1370,7 +1377,13 @@
     "verse": 13,
     "content": [
       {
-        "text": "Behold, [is it] not of the LORD",
+        "content": [
+          "Behold, [is it] not of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1538,7 +1551,14 @@
         "strong": "H3563"
       },
       {
-        "text": " of the LORD’S",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -1819,7 +1839,14 @@
     "verse": 2,
     "content": [
       {
-        "text": "O LORD,",
+        "content": [
+          "O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2135,7 +2162,13 @@
     "verse": 8,
     "content": [
       {
-        "text": "Was the LORD",
+        "content": [
+          "Was the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2710,7 +2743,13 @@
     "verse": 19,
     "content": [
       {
-        "text": "The LORD",
+        "content": [
+          "The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {

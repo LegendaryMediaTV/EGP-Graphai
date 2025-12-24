@@ -18824,7 +18824,13 @@
     "verse": 14,
     "content": [
       {
-        "text": "Therefore hath the LORD",
+        "content": [
+          "Therefore hath the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18842,7 +18848,13 @@
         "morph": "8686"
       },
       {
-        "text": " it upon us: for the LORD",
+        "content": [
+          " it upon us: for the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

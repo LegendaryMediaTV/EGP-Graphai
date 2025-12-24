@@ -3264,7 +3264,13 @@
         "morph": "8804"
       },
       {
-        "text": " unto them, The LORD",
+        "content": [
+          " unto them, The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3433,7 +3439,13 @@
         "morph": "8804"
       },
       {
-        "text": " unto him, The LORD",
+        "content": [
+          " unto him, The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3476,7 +3488,13 @@
         "morph": "8799"
       },
       {
-        "text": " to the LORD",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -4337,7 +4355,14 @@
         "strong": "H5787"
       },
       {
-        "text": " have not I the LORD?",
+        "content": [
+          " have not I the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "?"
+        ],
         "strong": "H3068"
       }
     ]
@@ -5472,7 +5497,14 @@
         "morph": "8799"
       },
       {
-        "text": " Who [is] the LORD,",
+        "content": [
+          " Who [is] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -6283,7 +6315,14 @@
         "morph": "8799"
       },
       {
-        "text": " to the LORD.",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -6431,7 +6470,13 @@
         "morph": "8799"
       },
       {
-        "text": " unto them, The LORD",
+        "content": [
+          " unto them, The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -6596,7 +6641,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then the LORD",
+        "content": [
+          "Then the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -6678,7 +6729,14 @@
         "morph": "8799"
       },
       {
-        "text": " unto him, I [am] the LORD:",
+        "content": [
+          " unto him, I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       }
     ]
@@ -6840,7 +6898,14 @@
         "strong": "H3478"
       },
       {
-        "text": " I [am] the LORD,",
+        "content": [
+          " I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -6913,7 +6978,13 @@
         "morph": "8804"
       },
       {
-        "text": " that I [am] the LORD",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -6984,7 +7055,14 @@
         "strong": "H4181"
       },
       {
-        "text": " I [am] the LORD.",
+        "content": [
+          " I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -7965,7 +8043,13 @@
         "strong": "H3117"
       },
       {
-        "text": " [when] the LORD",
+        "content": [
+          " [when] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -7993,7 +8077,13 @@
     "verse": 29,
     "content": [
       {
-        "text": "That the LORD",
+        "content": [
+          "That the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8011,7 +8101,14 @@
         "morph": "8800"
       },
       {
-        "text": " I [am] the LORD:",
+        "content": [
+          " I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -8095,7 +8192,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8312,7 +8415,14 @@
         "morph": "8804"
       },
       {
-        "text": " that I [am] the LORD,",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -8569,7 +8679,13 @@
         "morph": "8799"
       },
       {
-        "text": " so as the LORD",
+        "content": [
+          " so as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8723,7 +8839,13 @@
         "morph": "8804"
       },
       {
-        "text": " not unto them; as the LORD",
+        "content": [
+          " not unto them; as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8865,7 +8987,13 @@
         "morph": "8804"
       },
       {
-        "text": " unto him, The LORD",
+        "content": [
+          " unto him, The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -8942,7 +9070,14 @@
         "morph": "8799"
       },
       {
-        "text": " that I [am] the LORD:",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -9152,7 +9287,13 @@
         "morph": "8799"
       },
       {
-        "text": " so, as the LORD",
+        "content": [
+          " so, as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9321,7 +9462,13 @@
         "morph": "8804"
       },
       {
-        "text": " unto them; as the LORD",
+        "content": [
+          " unto them; as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9471,7 +9618,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9993,7 +10146,13 @@
         "morph": "8799"
       },
       {
-        "text": " that [there is] none like unto the LORD",
+        "content": [
+          " that [there is] none like unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10209,7 +10368,13 @@
         "morph": "8804"
       },
       {
-        "text": " not unto them; as the LORD",
+        "content": [
+          " not unto them; as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10453,7 +10618,13 @@
         "morph": "8804"
       },
       {
-        "text": " not unto them; as the LORD",
+        "content": [
+          " not unto them; as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10669,7 +10840,13 @@
         "morph": "8799"
       },
       {
-        "text": " that I [am] the LORD",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10885,7 +11062,13 @@
         "strong": "H4714"
       },
       {
-        "text": " to the LORD",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10949,7 +11132,13 @@
         "morph": "8804"
       },
       {
-        "text": " to the LORD",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -10989,7 +11178,13 @@
         "morph": "8804"
       },
       {
-        "text": " to the LORD",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11122,7 +11317,14 @@
         "morph": "8800"
       },
       {
-        "text": " to the LORD.",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -11263,7 +11465,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then the LORD",
+        "content": [
+          "Then the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11918,7 +12126,13 @@
         "morph": "8804"
       },
       {
-        "text": " not unto them; as the LORD",
+        "content": [
+          " not unto them; as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -12869,7 +13083,14 @@
         "strong": "H776"
       },
       {
-        "text": " [is] the LORD’S.",
+        "content": [
+          " [is] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S."
+        ],
         "strong": "H3068"
       }
     ]
@@ -13165,7 +13386,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -13269,7 +13496,14 @@
         "morph": "8804"
       },
       {
-        "text": " how that I [am] the LORD.",
+        "content": [
+          " how that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -13753,7 +13987,13 @@
         "morph": "8799"
       },
       {
-        "text": " unto them, Let the LORD",
+        "content": [
+          " unto them, Let the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -14185,7 +14425,13 @@
         "morph": "8804"
       },
       {
-        "text": " against the LORD",
+        "content": [
+          " against the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -14903,7 +15149,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -15303,7 +15555,13 @@
         "morph": "8799"
       },
       {
-        "text": " how that the LORD",
+        "content": [
+          " how that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -15517,7 +15775,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -16025,7 +16289,14 @@
         "strong": "H2649"
       },
       {
-        "text": " it [is] the LORD’S",
+        "content": [
+          " it [is] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -16099,7 +16370,14 @@
         "strong": "H8201"
       },
       {
-        "text": " I [am] the LORD.",
+        "content": [
+          " I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -16181,7 +16459,13 @@
         "strong": "H2282"
       },
       {
-        "text": " to the LORD",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -16918,7 +17202,14 @@
         "strong": "H2077"
       },
       {
-        "text": " of the LORD’S",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -18017,7 +18308,14 @@
         "strong": "H6453"
       },
       {
-        "text": " to the LORD,",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -18155,7 +18453,13 @@
         "strong": "H3117"
       },
       {
-        "text": " [that] the LORD",
+        "content": [
+          " [that] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18192,7 +18496,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18364,7 +18674,13 @@
     "verse": 5,
     "content": [
       {
-        "text": "And it shall be when the LORD",
+        "content": [
+          "And it shall be when the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18477,7 +18793,14 @@
         "strong": "H2282"
       },
       {
-        "text": " to the LORD.",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -18560,7 +18883,13 @@
         "strong": "H2088"
       },
       {
-        "text": " [which] the LORD",
+        "content": [
+          " [which] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18601,7 +18930,14 @@
         "strong": "H5869"
       },
       {
-        "text": " that the LORD’S",
+        "content": [
+          " that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -18621,7 +18957,13 @@
         "strong": "H3027"
       },
       {
-        "text": " hath the LORD",
+        "content": [
+          " hath the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18669,7 +19011,13 @@
     "verse": 11,
     "content": [
       {
-        "text": "And it shall be when the LORD",
+        "content": [
+          "And it shall be when the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -18747,7 +19095,14 @@
         "strong": "H2145"
       },
       {
-        "text": " [shall be] the LORD’S.",
+        "content": [
+          " [shall be] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S."
+        ],
         "strong": "H3068"
       }
     ]
@@ -18936,7 +19291,13 @@
         "morph": "8802"
       },
       {
-        "text": " to the LORD",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -19402,7 +19763,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -19580,7 +19947,14 @@
         "morph": "8804"
       },
       {
-        "text": " that I [am] the LORD.",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       },
       {
@@ -20363,7 +20737,14 @@
         "morph": "8804"
       },
       {
-        "text": " that I [am] the LORD,",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -20946,7 +21327,13 @@
         "morph": "8800"
       },
       {
-        "text": " it; and the LORD",
+        "content": [
+          " it; and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -21086,7 +21473,13 @@
     "verse": 30,
     "content": [
       {
-        "text": "Thus the LORD",
+        "content": [
+          "Thus the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -21325,7 +21718,13 @@
     "verse": 2,
     "content": [
       {
-        "text": "The LORD",
+        "content": [
+          "The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3050"
       },
       {
@@ -21756,7 +22155,14 @@
     "verse": 11,
     "content": [
       {
-        "text": "Who [is] like unto thee, O LORD,",
+        "content": [
+          "Who [is] like unto thee, O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -22287,7 +22693,14 @@
         "morph": "8798"
       },
       {
-        "text": " ye to the LORD,",
+        "content": [
+          " ye to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -22635,7 +23048,13 @@
         "strong": "H4714"
       },
       {
-        "text": " for I [am] the LORD",
+        "content": [
+          " for I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -23138,7 +23557,14 @@
         "strong": "H8519"
       },
       {
-        "text": " against the LORD:",
+        "content": [
+          " against the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -23172,7 +23598,13 @@
         "morph": "8799"
       },
       {
-        "text": " [This shall be], when the LORD",
+        "content": [
+          " [This shall be], when the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -23207,7 +23639,13 @@
         "morph": "8800"
       },
       {
-        "text": " for that the LORD",
+        "content": [
+          " for that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -23233,7 +23671,14 @@
         "strong": "H8519"
       },
       {
-        "text": " [are] not against us, but against the LORD.",
+        "content": [
+          " [are] not against us, but against the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -23462,7 +23907,13 @@
         "morph": "8804"
       },
       {
-        "text": " that I [am] the LORD",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -24004,7 +24455,13 @@
         "morph": "8799"
       },
       {
-        "text": " unto them, This [is that] which the LORD",
+        "content": [
+          " unto them, This [is that] which the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -24298,7 +24755,13 @@
         "morph": "8798"
       },
       {
-        "text": " for that the LORD",
+        "content": [
+          " for that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -24605,7 +25068,13 @@
     "verse": 34,
     "content": [
       {
-        "text": "As the LORD",
+        "content": [
+          "As the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -25657,7 +26126,13 @@
         "morph": "8799"
       },
       {
-        "text": " Because the LORD",
+        "content": [
+          " Because the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3050"
       },
       {
@@ -25668,7 +26143,13 @@
         "strong": "H3676"
       },
       {
-        "text": " [that] the LORD",
+        "content": [
+          " [that] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -25743,7 +26224,13 @@
         "strong": "H5971"
       },
       {
-        "text": " [and] that the LORD",
+        "content": [
+          " [and] that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -26073,7 +26560,13 @@
         "morph": "8802"
       },
       {
-        "text": " all that the LORD",
+        "content": [
+          " all that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -26111,7 +26604,13 @@
         "strong": "H1870"
       },
       {
-        "text": " and [how] the LORD",
+        "content": [
+          " and [how] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -26194,7 +26693,14 @@
         "morph": "8803"
       },
       {
-        "text": " [be] the LORD,",
+        "content": [
+          " [be] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -27503,7 +28009,13 @@
         "morph": "8799"
       },
       {
-        "text": " All that the LORD",
+        "content": [
+          " All that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -28385,7 +28897,14 @@
         "morph": "8737"
       },
       {
-        "text": " to the LORD,",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -28394,7 +28913,13 @@
         "morph": "8691"
       },
       {
-        "text": " themselves, lest the LORD",
+        "content": [
+          " themselves, lest the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -28613,7 +29138,13 @@
     "verse": 2,
     "content": [
       {
-        "text": "I [am] the LORD",
+        "content": [
+          "I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -28722,7 +29253,13 @@
         "morph": "8714"
       },
       {
-        "text": " them: for I the LORD",
+        "content": [
+          " them: for I the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -29044,7 +29581,13 @@
         "strong": "H3117"
       },
       {
-        "text": " wherefore the LORD",
+        "content": [
+          " wherefore the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -34533,7 +35076,13 @@
         "morph": "8799"
       },
       {
-        "text": " All that the LORD",
+        "content": [
+          " All that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -35145,7 +35694,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -41727,7 +42282,14 @@
         "strong": "H6944"
       },
       {
-        "text": " TO THE LORD.",
+        "content": [
+          " TO THE ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -44426,7 +44988,13 @@
         "morph": "8804"
       },
       {
-        "text": " that I [am] the LORD",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -44456,7 +45024,13 @@
         "strong": "H8432"
       },
       {
-        "text": " them: I [am] the LORD",
+        "content": [
+          " them: I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -45567,7 +46141,13 @@
     "verse": 22,
     "content": [
       {
-        "text": "Moreover the LORD",
+        "content": [
+          "Moreover the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -46263,7 +46843,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -46760,7 +47346,13 @@
         "morph": "8800"
       },
       {
-        "text": " that I [am] the LORD",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -46871,7 +47463,14 @@
         "strong": "H6944"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -47392,7 +47991,14 @@
         "strong": "H2282"
       },
       {
-        "text": " to the LORD.",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -47715,7 +48321,14 @@
         "morph": "8799"
       },
       {
-        "text": " LORD,",
+        "content": [
+          " ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -48559,7 +49172,14 @@
         "morph": "8799"
       },
       {
-        "text": " Who [is] on the LORD’S",
+        "content": [
+          " Who [is] on the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -48761,7 +49381,14 @@
         "strong": "H3117"
       },
       {
-        "text": " to the LORD,",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -49122,7 +49749,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -49671,7 +50304,14 @@
         "strong": "H168"
       },
       {
-        "text": " and [the LORD] talked",
+        "content": [
+          " and [the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "] talked"
+        ],
         "strong": "H1696",
         "morph": "8765"
       },
@@ -50403,7 +51043,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -50735,7 +51381,14 @@
         "morph": "8799"
       },
       {
-        "text": " The LORD,",
+        "content": [
+          " The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -51927,7 +52580,13 @@
     "verse": 28,
     "content": [
       {
-        "text": "And he was there with the LORD",
+        "content": [
+          "And he was there with the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -52195,7 +52854,13 @@
         "morph": "8762"
       },
       {
-        "text": " all that the LORD",
+        "content": [
+          " all that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -52506,7 +53171,14 @@
         "strong": "H7677"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -52838,7 +53510,13 @@
         "morph": "8799"
       },
       {
-        "text": " all that the LORD",
+        "content": [
+          " all that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -53246,7 +53924,14 @@
         "morph": "8689"
       },
       {
-        "text": " the LORD’S",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -53466,7 +54151,14 @@
         "morph": "8689"
       },
       {
-        "text": " the LORD’S",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -54157,7 +54849,13 @@
         "strong": "H6944"
       },
       {
-        "text": " according to all that the LORD",
+        "content": [
+          " according to all that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -58642,7 +59340,13 @@
         "morph": "8804"
       },
       {
-        "text": " all that the LORD",
+        "content": [
+          " all that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -60558,7 +61262,13 @@
         "morph": "8763"
       },
       {
-        "text": " [in]; as the LORD",
+        "content": [
+          " [in]; as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -60767,7 +61477,14 @@
         "strong": "H6944"
       },
       {
-        "text": " TO THE LORD.",
+        "content": [
+          " TO THE ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -60864,7 +61581,13 @@
         "morph": "8799"
       },
       {
-        "text": " according to all that the LORD",
+        "content": [
+          " according to all that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -61264,7 +61987,13 @@
     "verse": 42,
     "content": [
       {
-        "text": "According to all that the LORD",
+        "content": [
+          "According to all that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -61323,7 +62052,13 @@
         "morph": "8804"
       },
       {
-        "text": " it as the LORD",
+        "content": [
+          " it as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -61355,7 +62090,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "And the LORD",
+        "content": [
+          "And the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -61938,7 +62679,13 @@
         "strong": "H4872"
       },
       {
-        "text": " according to all that the LORD",
+        "content": [
+          " according to all that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -62086,7 +62833,13 @@
         "strong": "H4605"
       },
       {
-        "text": " upon it; as the LORD",
+        "content": [
+          " upon it; as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -62467,7 +63220,13 @@
         "strong": "H7004"
       },
       {
-        "text": " thereon; as the LORD",
+        "content": [
+          " thereon; as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

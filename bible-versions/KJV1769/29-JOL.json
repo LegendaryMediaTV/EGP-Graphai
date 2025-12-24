@@ -392,7 +392,14 @@
         "strong": "H3548"
       },
       {
-        "text": " the LORD’S",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -909,7 +916,14 @@
     "verse": 19,
     "content": [
       {
-        "text": "O LORD,",
+        "content": [
+          "O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2039,7 +2053,13 @@
     "verse": 18,
     "content": [
       {
-        "text": "Then will the LORD",
+        "content": [
+          "Then will the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2068,7 +2088,13 @@
     "verse": 19,
     "content": [
       {
-        "text": "Yea, the LORD",
+        "content": [
+          "Yea, the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2565,7 +2591,13 @@
         "strong": "H3478"
       },
       {
-        "text": " and [that] I [am] the LORD",
+        "content": [
+          " and [that] I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3634,7 +3666,13 @@
         "morph": "8804"
       },
       {
-        "text": " but the LORD",
+        "content": [
+          " but the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3670,7 +3708,13 @@
         "morph": "8804"
       },
       {
-        "text": " that I [am] the LORD",
+        "content": [
+          " that I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

@@ -233,7 +233,13 @@
         "strong": "H5971"
       },
       {
-        "text": " against whom the LORD",
+        "content": [
+          " against whom the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1833,7 +1839,14 @@
     "verse": 16,
     "content": [
       {
-        "text": "For the LORD,",
+        "content": [
+          "For the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2356,7 +2369,14 @@
     "verse": 6,
     "content": [
       {
-        "text": "For I [am] the LORD,",
+        "content": [
+          "For I [am] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {

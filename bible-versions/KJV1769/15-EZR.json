@@ -3469,7 +3469,14 @@
         "strong": "H5930"
       },
       {
-        "text": " thereon unto the LORD,",
+        "content": [
+          " thereon unto the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -13303,7 +13310,13 @@
         "strong": "H8467"
       },
       {
-        "text": " hath been [shewed] from the LORD",
+        "content": [
+          " hath been [shewed] from the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

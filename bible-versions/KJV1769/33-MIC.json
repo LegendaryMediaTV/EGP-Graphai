@@ -131,7 +131,13 @@
     "verse": 3,
     "content": [
       {
-        "text": "For, behold, the LORD",
+        "content": [
+          "For, behold, the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1542,7 +1548,13 @@
         "strong": "H6440"
       },
       {
-        "text": " them, and the LORD",
+        "content": [
+          " them, and the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2113,7 +2125,14 @@
         "morph": "8735"
       },
       {
-        "text": " upon the LORD,",
+        "content": [
+          " upon the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -2122,7 +2141,13 @@
         "morph": "8800"
       },
       {
-        "text": " [Is] not the LORD",
+        "content": [
+          " [Is] not the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2846,7 +2871,13 @@
         "morph": "8735"
       },
       {
-        "text": " there the LORD",
+        "content": [
+          " there the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3805,7 +3836,13 @@
         "morph": "8798"
       },
       {
-        "text": " ye now what the LORD",
+        "content": [
+          " ye now what the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -3857,7 +3894,14 @@
         "strong": "H2022"
       },
       {
-        "text": " the LORD’S",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -4127,7 +4171,13 @@
     "verse": 7,
     "content": [
       {
-        "text": "Will the LORD",
+        "content": [
+          "Will the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -4205,7 +4255,13 @@
         "strong": "H2896"
       },
       {
-        "text": " and what doth the LORD",
+        "content": [
+          " and what doth the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -4252,7 +4308,14 @@
     "verse": 9,
     "content": [
       {
-        "text": "The LORD’S",
+        "content": [
+          "The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -5124,7 +5187,13 @@
         "morph": "8802"
       },
       {
-        "text": " unto me, Where is the LORD",
+        "content": [
+          " unto me, Where is the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

@@ -2187,7 +2187,13 @@
     "verse": 12,
     "content": [
       {
-        "text": "For whom the LORD",
+        "content": [
+          "For whom the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -2832,7 +2838,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -5106,7 +5119,13 @@
         "strong": "H8337"
       },
       {
-        "text": " [things] doth the LORD",
+        "content": [
+          " [things] doth the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -9691,7 +9710,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -10384,7 +10410,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -11586,7 +11619,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -14267,7 +14307,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -14380,7 +14427,14 @@
         "strong": "H11"
       },
       {
-        "text": " [are] before the LORD:",
+        "content": [
+          " [are] before the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -14955,7 +15009,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -15284,7 +15345,14 @@
         "strong": "H3956"
       },
       {
-        "text": " [is] from the LORD.",
+        "content": [
+          " [is] from the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -15311,7 +15379,13 @@
         "strong": "H5869"
       },
       {
-        "text": " but the LORD",
+        "content": [
+          " but the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -15417,7 +15491,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD:",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ":"
+        ],
         "strong": "H3068"
       },
       {
@@ -15578,7 +15659,13 @@
         "strong": "H1870"
       },
       {
-        "text": " but the LORD",
+        "content": [
+          " but the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -15642,7 +15729,14 @@
         "strong": "H3976"
       },
       {
-        "text": " [are] the LORD’S:",
+        "content": [
+          " [are] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S:"
+        ],
         "strong": "H3068"
       },
       {
@@ -16484,7 +16578,14 @@
         "strong": "H4941"
       },
       {
-        "text": " thereof [is] of the LORD.",
+        "content": [
+          " thereof [is] of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -16598,7 +16699,13 @@
         "strong": "H2091"
       },
       {
-        "text": " but the LORD",
+        "content": [
+          " but the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -17060,7 +17167,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD.",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -18528,7 +18642,14 @@
         "morph": "8799"
       },
       {
-        "text": " against the LORD.",
+        "content": [
+          " against the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -18932,7 +19053,14 @@
         "strong": "H802"
       },
       {
-        "text": " [is] from the LORD.",
+        "content": [
+          " [is] from the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -19867,7 +19995,14 @@
         "strong": "H8441"
       },
       {
-        "text": " to the LORD.",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -20381,7 +20516,14 @@
         "strong": "H4703"
       },
       {
-        "text": " [are] of the LORD;",
+        "content": [
+          " [are] of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ";"
+        ],
         "strong": "H3068"
       },
       {
@@ -20687,7 +20829,13 @@
         "strong": "H5869"
       },
       {
-        "text": " but the LORD",
+        "content": [
+          " but the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -20725,7 +20873,13 @@
         "morph": "8737"
       },
       {
-        "text": " to the LORD",
+        "content": [
+          " to the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -21707,7 +21861,14 @@
         "strong": "H6098"
       },
       {
-        "text": " against the LORD.",
+        "content": [
+          " against the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -21739,7 +21900,14 @@
         "strong": "H8668"
       },
       {
-        "text": " [is] of the LORD.",
+        "content": [
+          " [is] of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -22450,7 +22618,14 @@
         "strong": "H4009"
       },
       {
-        "text": " may be in the LORD,",
+        "content": [
+          " may be in the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -24566,7 +24741,13 @@
     "verse": 18,
     "content": [
       {
-        "text": "Lest the LORD",
+        "content": [
+          "Lest the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -24663,7 +24844,13 @@
         "morph": "8798"
       },
       {
-        "text": " thou the LORD",
+        "content": [
+          " thou the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -30276,7 +30463,14 @@
         "strong": "H4941"
       },
       {
-        "text": " [cometh] from the LORD.",
+        "content": [
+          " [cometh] from the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -30651,7 +30845,14 @@
         "morph": "8804"
       },
       {
-        "text": " Who [is] the LORD?",
+        "content": [
+          " Who [is] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "?"
+        ],
         "strong": "H3068"
       },
       {

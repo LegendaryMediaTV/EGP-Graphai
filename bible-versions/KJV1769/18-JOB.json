@@ -372,7 +372,14 @@
         "morph": "8692"
       },
       {
-        "text": " themselves before the LORD,",
+        "content": [
+          " themselves before the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -1242,7 +1249,13 @@
         "morph": "8799"
       },
       {
-        "text": " thither: the LORD",
+        "content": [
+          " thither: the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1345,7 +1358,14 @@
         "morph": "8692"
       },
       {
-        "text": " themselves before the LORD,",
+        "content": [
+          " themselves before the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -1367,7 +1387,14 @@
         "morph": "8692"
       },
       {
-        "text": " himself before the LORD.",
+        "content": [
+          " himself before the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -30569,7 +30596,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Then the LORD",
+        "content": [
+          "Then the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -32896,7 +32929,13 @@
     "content": [
       {
         "paragraph": true,
-        "text": "Moreover the LORD",
+        "content": [
+          "Moreover the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -35095,7 +35134,13 @@
         "morph": "8799"
       },
       {
-        "text": " according as the LORD",
+        "content": [
+          " according as the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -35104,7 +35149,13 @@
         "morph": "8765"
       },
       {
-        "text": " them: the LORD",
+        "content": [
+          " them: the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -35163,7 +35214,13 @@
         "strong": "H7453"
       },
       {
-        "text": " also the LORD",
+        "content": [
+          " also the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

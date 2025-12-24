@@ -245,7 +245,13 @@
         "strong": "H577"
       },
       {
-        "text": " thee, O LORD",
+        "content": [
+          " thee, O ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11889,7 +11895,13 @@
     "verse": 6,
     "content": [
       {
-        "text": "Thou, [even] thou, [art] LORD",
+        "content": [
+          "Thou, [even] thou, [art] ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -11948,7 +11960,13 @@
     "verse": 7,
     "content": [
       {
-        "text": "Thou [art] the LORD",
+        "content": [
+          "Thou [art] the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {

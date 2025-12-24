@@ -166,7 +166,14 @@
         "strong": "H6256"
       },
       {
-        "text": " that the LORD’S",
+        "content": [
+          " that the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -773,7 +780,14 @@
         "strong": "H2292"
       },
       {
-        "text": " the LORD’S",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -781,7 +795,14 @@
         "strong": "H4397"
       },
       {
-        "text": " in the LORD’S",
+        "content": [
+          " in the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
@@ -2028,7 +2049,14 @@
         "morph": "8795"
       },
       {
-        "text": " of the LORD’S",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "’S"
+        ],
         "strong": "H3068"
       },
       {
