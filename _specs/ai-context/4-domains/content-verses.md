@@ -23,19 +23,30 @@ interface VerseSchema {
 type Content =
   | string // Plain text
   | ContentObject // Text with metadata
+  | ContentNested // Nested content with shared properties
   | ContentHeading // Section heading
   | ContentParagraph // Paragraph wrapper
   | ContentSubtitle // Subtitle/superscription
   | Content[]; // Array of content items
 
 interface ContentObject {
-  text: string; // The actual text
+  text?: string; // The actual text (optional - can have Strong's-only elements)
   script?: "G" | "H"; // Greek or Hebrew (Latin if omitted)
   marks?: ("i" | "b" | "woc" | "sc")[]; // Formatting marks
   foot?: Footnote; // Attached footnote
   strong?: string; // Strong's number (G/H + digits)
   lemma?: string; // Lexical lemma
   morph?: string; // Morphological code
+  paragraph?: boolean; // Starts new paragraph
+  break?: boolean; // Ends with line break
+}
+
+interface ContentNested {
+  content: Content; // Nested content with shared properties
+  strong?: string; // Strong's number applying to entire nested content
+  lemma?: string; // Lexical lemma
+  morph?: string; // Morphological code
+  foot?: Footnote; // Attached footnote
   paragraph?: boolean; // Starts new paragraph
   break?: boolean; // Ends with line break
 }
@@ -124,12 +135,48 @@ _From a typical verse file_
 }
 ```
 
+### Small Caps Example (Divine Names)
+
+_From KJV verse files_
+
+```json
+{
+  "book": "GEN",
+  "chapter": 2,
+  "verse": 4,
+  "content": [
+    "the ",
+    { "text": "Lord", "marks": ["sc"] },
+    " God made the earth and the heavens"
+  ]
+}
+```
+
+### Nested Content Example (Shared Properties)
+
+_When Strong's number applies to multiple words_
+
+```json
+{
+  "book": "MAT",
+  "chapter": 1,
+  "verse": 1,
+  "content": [
+    {
+      "content": [{ "text": "The" }, { "text": " " }, { "text": "book" }],
+      "strong": "G976",
+      "morph": "N-NSF"
+    }
+  ]
+}
+```
+
 ### Recursive Content Processing
 
 _From [utils/exportContent.ts](../utils/exportContent.ts)_
 
 ```typescript
-function convertContentToText(content: Content): string {
+function renderContent(content: Content, ctx: RenderContext): string {
   // Handle string content
   if (typeof content === "string") {
     return content;
@@ -137,26 +184,29 @@ function convertContentToText(content: Content): string {
 
   // Handle array content
   if (Array.isArray(content)) {
-    return renderContentToText(content);
+    return content.map((item) => renderContent(item, ctx)).join("");
   }
 
   // Handle object content
   if ("heading" in content) {
-    return ""; // Skip headings in text export
+    return renderHeading(content);
   }
 
   if ("paragraph" in content && !("text" in content)) {
-    const paragraphContent = (content as any).paragraph as Content;
-    return "¶ " + convertContentToText(paragraphContent);
+    return renderContent(content.paragraph, ctx);
+  }
+
+  // Handle nested content (content property with optional strong, morph, foot, etc.)
+  if (
+    "content" in content &&
+    !("heading" in content) &&
+    !("subtitle" in content)
+  ) {
+    return renderNestedContent(content as ContentNested, ctx);
   }
 
   // Handle text object
-  const obj = content as ContentObject;
-  let result = obj.text || "";
-  if (obj.strong) result += " " + obj.strong;
-  if (obj.morph) result += " (" + obj.morph + ")";
-
-  return result;
+  return renderTextObject(content as ContentObject, ctx);
 }
 ```
 
