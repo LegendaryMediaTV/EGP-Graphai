@@ -135,6 +135,34 @@ describe("exportContent", () => {
       expect(result).toContain("H430");
       expect(result).toContain("{Hebrew: Elohim}");
     });
+
+    it("should convert text with sc mark to uppercase", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 4,
+        content: [
+          { text: "the " },
+          { text: "Lord", marks: ["sc"] },
+          { text: " God made" },
+        ],
+      };
+      expect(convertVerseToText(verse)).toBe("002:004 the LORD God made");
+    });
+
+    it("should convert text with sc mark and Strong's numbers", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 4,
+        content: [
+          { text: "the " },
+          { text: "Lord", marks: ["sc"], strong: "H3068" },
+          { text: " God", strong: "H430" },
+        ],
+      };
+      expect(convertVerseToText(verse)).toBe("002:004 the LORD H3068 God H430");
+    });
   });
 
   describe("convertVerseToMarkdown", () => {
@@ -195,6 +223,22 @@ describe("exportContent", () => {
       expect(result).toContain("<sup>a</sup>");
       expect(footnotes).toHaveLength(1);
       expect(footnotes[0]).toContain("Hebrew: Elohim");
+    });
+
+    it("should convert text with sc mark to uppercase in markdown", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 4,
+        content: [
+          { text: "the " },
+          { text: "Lord", marks: ["sc"] },
+          { text: " God made the earth" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>4</sup> the LORD God made the earth");
     });
 
     it("should convert verse with line break to <br>", () => {
@@ -664,6 +708,149 @@ describe("exportContent", () => {
         // Removing °{...} should give correct spacing
         const withoutFootnote = result.replace(/°\{[^}]*\}/g, "");
         expect(withoutFootnote).toContain("Βοὸζ G1003 (N-PRI)");
+      });
+    });
+
+    describe("nested content (ContentNested)", () => {
+      it("should render nested content with Strong's number", () => {
+        // Example: {content: [" O ", {text: "Lord", marks: ["sc"]}, "."], strong: "H3068"}
+        const verse: VerseSchema = {
+          book: "GEN",
+          chapter: 49,
+          verse: 18,
+          content: [
+            { text: "I have waited for", strong: "H6960", morph: "8765" },
+            { text: " thy salvation,", strong: "H3444" },
+            {
+              content: [" O ", { text: "Lord", marks: ["sc"] }, "."],
+              strong: "H3068",
+            },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        // The nested content should render with Strong's after the full content
+        expect(result).toBe(
+          "049:018 I have waited for H6960 (8765) thy salvation, H3444 O LORD. H3068"
+        );
+      });
+
+      it("should render nested content with morph code", () => {
+        const verse: VerseSchema = {
+          book: "GEN",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              content: ["the ", { text: "Lord", marks: ["sc"] }],
+              strong: "H3068",
+              morph: "8675",
+            },
+            { text: " God", strong: "H430" },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toBe("001:001 the LORD H3068 (8675) God H430");
+      });
+
+      it("should render nested content in markdown without Strong's", () => {
+        const verse: VerseSchema = {
+          book: "GEN",
+          chapter: 49,
+          verse: 18,
+          content: [
+            { text: "I have waited for", strong: "H6960" },
+            { text: " thy salvation,", strong: "H3444" },
+            {
+              content: [" O ", { text: "Lord", marks: ["sc"] }, "."],
+              strong: "H3068",
+            },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        // Markdown should show text without Strong's, sc should be uppercase
+        expect(result).toBe(
+          "<sup>18</sup> I have waited for thy salvation, O LORD."
+        );
+      });
+
+      it("should handle nested content with footnote", () => {
+        const verse: VerseSchema = {
+          book: "GEN",
+          chapter: 2,
+          verse: 4,
+          content: [
+            {
+              content: ["the ", { text: "Lord", marks: ["sc"] }],
+              strong: "H3068",
+              foot: { content: "Hebrew: YHWH" },
+            },
+            { text: " God", strong: "H430" },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        // Footnote should appear after the nested content, before Strong's
+        expect(result).toContain("the LORD°{Hebrew: YHWH} H3068 God H430");
+      });
+
+      it("should handle nested content with paragraph flag", () => {
+        const verse: VerseSchema = {
+          book: "GEN",
+          chapter: 2,
+          verse: 4,
+          content: [
+            { text: "previous text.", strong: "H1234" },
+            {
+              content: ["the ", { text: "Lord", marks: ["sc"] }],
+              strong: "H3068",
+              paragraph: true,
+            },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toContain("H1234 ¶ the LORD H3068");
+      });
+
+      it("should handle nested content with line break", () => {
+        const verse: VerseSchema = {
+          book: "PSA",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              content: ["the ", { text: "Lord", marks: ["sc"] }],
+              strong: "H3068",
+              break: true,
+            },
+            { text: " is my shepherd", strong: "H7462" },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        expect(result).toContain("the LORD H3068␤ is my shepherd");
+      });
+
+      it("should handle deeply nested content", () => {
+        const verse: VerseSchema = {
+          book: "GEN",
+          chapter: 1,
+          verse: 1,
+          content: [
+            {
+              content: [
+                "O ",
+                {
+                  content: [{ text: "Lord", marks: ["sc"] }],
+                  strong: "H3068",
+                },
+                " God",
+              ],
+              strong: "H430",
+            },
+          ],
+        };
+        const result = convertVerseToText(verse);
+        // Inner nested content has H3068, outer has H430
+        expect(result).toBe("001:001 O LORD H3068 God H430");
       });
     });
   });

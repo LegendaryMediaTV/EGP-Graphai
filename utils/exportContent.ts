@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import Content, { ContentObject } from "../types/Content";
+import Content, { ContentObject, ContentNested } from "../types/Content";
 import VerseSchema from "../types/VerseSchema";
 
 // ============================================================================
@@ -95,6 +95,15 @@ function renderContent(content: Content, ctx: RenderContext): string {
     return renderContent(content.paragraph, ctx);
   }
 
+  // Nested content object (content property with optional strong, morph, foot, etc.)
+  if (
+    "content" in content &&
+    !("heading" in content) &&
+    !("subtitle" in content)
+  ) {
+    return renderNestedContent(content as ContentNested, ctx);
+  }
+
   // Text object (may have paragraph flag, strong, morph, etc.)
   return renderTextObject(content as ContentObject, ctx);
 }
@@ -115,8 +124,14 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
     }
   }
 
-  // Text content
-  const text = obj.text || "";
+  // Text content - apply formatting marks
+  let text = obj.text || "";
+
+  // Apply small caps mark as uppercase (for text/markdown exports)
+  if (obj.marks?.includes("sc")) {
+    text = text.toUpperCase();
+  }
+
   parts.push(text);
 
   // Footnote marker and inline content (immediately after text, before Strong's/morph)
@@ -159,6 +174,76 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
   // Morph code
   if (obj.morph && ctx.options.includeMorph) {
     parts.push(` (${obj.morph})`);
+  }
+
+  // Line break marker
+  if (obj.break) {
+    parts.push(ctx.options.lineBreakMarker);
+  }
+
+  return parts.join("");
+}
+
+/**
+ * Render a ContentNested (nested content with optional strong, morph, foot, paragraph, break)
+ * Similar to renderTextObject but renders nested content instead of text property
+ */
+function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
+  const parts: string[] = [];
+
+  // Paragraph marker at start (with leading space for text format to separate from previous content)
+  if (obj.paragraph) {
+    // For text format, add a space before the marker to separate from previous word's Strong's/morph
+    if (ctx.options.footnoteStyle === "inline") {
+      parts.push(" " + ctx.options.paragraphMarker);
+    } else {
+      parts.push(ctx.options.paragraphMarker);
+    }
+  }
+
+  // Render nested content
+  const nestedText = renderContent(obj.content, ctx);
+  parts.push(nestedText);
+
+  // Footnote marker and inline content (immediately after text, before Strong's/morph)
+  if (obj.foot && ctx.options.includeFootnotes) {
+    const footIndex = ctx.footnotes.length;
+    parts.push(ctx.options.footnoteMarker(footIndex));
+
+    // Add footnote to collection
+    const footnoteContent = renderContent(obj.foot.content, {
+      ...ctx,
+      options: { ...ctx.options, includeStrongs: false, includeMorph: false },
+      footnotePrefix: undefined,
+    });
+
+    if (ctx.options.footnoteStyle === "inline") {
+      parts.push(`{${footnoteContent}}`);
+      if (!nestedText && !obj.strong) {
+        parts.push(" ");
+      }
+    } else {
+      const prefix = ctx.footnotePrefix || `${ctx.verseNum}.`;
+      ctx.footnotes.push(
+        `- ${ctx.options.footnoteMarker(footIndex)} ${prefix} ${footnoteContent}`
+      );
+    }
+  }
+
+  // Strong's number
+  if (obj.strong && ctx.options.includeStrongs) {
+    parts.push(" " + obj.strong);
+  }
+
+  // Morph code
+  if (obj.morph && ctx.options.includeMorph) {
+    parts.push(` (${obj.morph})`);
+  }
+
+  // Lemma
+  if (obj.lemma && ctx.options.includeStrongs) {
+    // Include lemma if Strong's are shown (since they're related)
+    parts.push(` [${obj.lemma}]`);
   }
 
   // Line break marker

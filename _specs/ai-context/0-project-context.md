@@ -17,7 +17,15 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Web Reader** – React-based SPA for reading and studying with toggleable tools
 - **Validation** – JSON Schema validation ensuring data integrity
 
-## Recent Changes (Branch: Refactor-Bible-versions)
+## Recent Changes (Branch: Converted-uppercase-to-small-caps)
+
+- **Small Caps Support** – Added `sc` formatting mark for divine names (LORD/GOD rendered as small caps)
+- **Nested Content Structure** – Extended content schema with `ContentNested` for shared properties
+- **Divine Name Migration** – Converted uppercase LORD/GOD to small caps in KJV, ASV, WEB, YLT versions
+- **Export Compatibility** – Text/markdown exports render small caps as uppercase
+- **Web Reader Styling** – CSS `font-variant: small-caps` for proper visual rendering
+
+## Previous Changes (Branch: Refactor-Bible-versions)
 
 - **Version Metadata Refactored** – Moved from single `bible-versions.json` to per-folder `_version.json` files
 - **New `getBibleVersions()` Function** – Discovers versions from folder structure dynamically

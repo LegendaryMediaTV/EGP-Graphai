@@ -56,7 +56,14 @@
         "text": "Now on the day when God’s sons came to present themselves before Yahweh,",
         "foot": {
           "type": "trn",
-          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+          "content": [
+            "“Yahweh” is God’s proper Name, sometimes rendered “",
+            {
+              "text": "Lord",
+              "marks": ["sc"]
+            },
+            "” (all caps) in other translations."
+          ]
         }
       },
       " Satan also came among them."

@@ -9,7 +9,14 @@
         "text": "After the death of Joshua, the children of Israel asked of Yahweh,",
         "foot": {
           "type": "trn",
-          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+          "content": [
+            "“Yahweh” is God’s proper Name, sometimes rendered “",
+            {
+              "text": "Lord",
+              "marks": ["sc"]
+            },
+            "” (all caps) in other translations."
+          ]
         }
       },
       " saying, “Who should go up for us first against the Canaanites, to fight against them?”"

@@ -82,6 +82,8 @@ App
 - **Dark Mode Inheritance** – Respects system preference via `prefers-color-scheme`
 - **Component Registration** – Each component assigned to `window` for cross-file access
 - **Responsive Text Width** – Content max-width scales with font size: `768px * (fontSize / 16)`
+- **Formatting Marks** – Supports italic (`i`), bold (`b`), Words of Christ (`woc`), and small caps (`sc`)
+- **Small Caps Rendering** – CSS `font-variant: small-caps` applied to divine names (LORD)
 
 ## Representative Code Examples
 
@@ -163,6 +165,21 @@ function ContentNode({ node, settings, onFootnoteClick }) {
         <ContentNode node={node.heading} />
       </h3>
     );
+  }
+
+  // Apply formatting marks (italic, bold, Words of Christ, small caps)
+  let content = node.text || "";
+  if (node.marks?.includes("i")) {
+    content = <span className="italic">{content}</span>;
+  }
+  if (node.marks?.includes("b")) {
+    content = <span className="font-bold">{content}</span>;
+  }
+  if (node.marks?.includes("sc")) {
+    content = <span className="sc">{content}</span>;
+  }
+  if (settings.showWoC !== "none" && node.marks?.includes("woc")) {
+    content = <span className={`woc woc-${settings.showWoC}`}>{content}</span>;
   }
 
   // Script-specific styling

@@ -2070,7 +2070,14 @@
     "book": "REV",
     "chapter": 19,
     "verse": 16,
-    "content": "And he hath on his garment and on his thigh a name written, KINGS OF KINGS, AND LORD OF LORDS."
+    "content": [
+      "And he hath on his garment and on his thigh a name written, ",
+      {
+        "text": "Kings of Kings, and Lord of Lords",
+        "marks": ["sc"]
+      },
+      "."
+    ]
   },
   {
     "book": "REV",

@@ -375,7 +375,14 @@
         "text": "The sons of Judah: Er, Onan, and Shelah, which three were born to him of Shua’s daughter the Canaanitess. Er, Judah’s firstborn, was wicked in Yahweh’s",
         "foot": {
           "type": "trn",
-          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+          "content": [
+            "“Yahweh” is God’s proper Name, sometimes rendered “",
+            {
+              "text": "Lord",
+              "marks": ["sc"]
+            },
+            "” (all caps) in other translations."
+          ]
         }
       },
       " sight; and he killed him."

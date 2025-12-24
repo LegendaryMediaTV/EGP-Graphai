@@ -9,7 +9,14 @@
         "text": "Solomon the son of David was firmly established in his kingdom, and Yahweh",
         "foot": {
           "type": "trn",
-          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+          "content": [
+            "“Yahweh” is God’s proper Name, sometimes rendered “",
+            {
+              "text": "Lord",
+              "marks": ["sc"]
+            },
+            "” (all caps) in other translations."
+          ]
         }
       },
       {

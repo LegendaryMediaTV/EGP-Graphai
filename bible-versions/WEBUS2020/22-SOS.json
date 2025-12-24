@@ -2041,7 +2041,14 @@
         "break": true,
         "foot": {
           "type": "trn",
-          "content": "“Yah” is a short form of “Yahweh”, which is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+          "content": [
+            "“Yah” is a short form of “Yahweh”, which is God’s proper Name, sometimes rendered “",
+            {
+              "text": "Lord",
+              "marks": ["sc"]
+            },
+            "” (all caps) in other translations."
+          ]
         }
       }
     ]

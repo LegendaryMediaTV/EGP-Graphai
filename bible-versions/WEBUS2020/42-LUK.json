@@ -10128,7 +10128,13 @@
         "marks": ["woc"],
         "foot": {
           "type": "trn",
-          "content": "or, I AM"
+          "content": [
+            "or, ",
+            {
+              "text": "I Am",
+              "marks": ["sc"]
+            }
+          ]
         }
       },
       {

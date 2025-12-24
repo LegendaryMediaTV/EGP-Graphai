@@ -58,7 +58,14 @@
         "text": "and said, “I beg you, Yahweh,",
         "foot": {
           "type": "trn",
-          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+          "content": [
+            "“Yahweh” is God’s proper Name, sometimes rendered “",
+            {
+              "text": "Lord",
+              "marks": ["sc"]
+            },
+            "” (all caps) in other translations."
+          ]
         }
       },
       " the God of heaven, the great and awesome God who keeps covenant and loving kindness with those who love him and keep his commandments,"

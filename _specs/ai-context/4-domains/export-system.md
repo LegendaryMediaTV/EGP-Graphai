@@ -41,6 +41,8 @@ The Export System converts Graphai JSON data into human-readable formats for off
 - **Inline Footnotes** – Text format places footnote content immediately after marker: `word°{content} G1234`
 - **Spacing Preservation** – Source data includes spaces; no automatic space insertion
 - **Clean Footnote Removal** – Format `°{...}` allows search/replace removal without extra spaces
+- **Small Caps Conversion** – Text marked with `sc` formatting renders as uppercase in text/markdown exports
+- **Nested Content** – Content with shared properties (e.g., Strong's numbers applying to multiple words) handled recursively
 
 ## Architecture
 

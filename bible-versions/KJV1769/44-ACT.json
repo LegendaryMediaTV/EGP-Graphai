@@ -4581,7 +4581,13 @@
         "strong": "G846"
       },
       {
-        "text": " The LORD",
+        "content": [
+          " The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "G2962"
       },
       {

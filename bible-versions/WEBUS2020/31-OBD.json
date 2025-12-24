@@ -16,7 +16,14 @@
         "text": " Yahweh",
         "foot": {
           "type": "trn",
-          "content": "“Yahweh” is God’s proper Name, sometimes rendered “LORD” (all caps) in other translations."
+          "content": [
+            "“Yahweh” is God’s proper Name, sometimes rendered “",
+            {
+              "text": "Lord",
+              "marks": ["sc"]
+            },
+            "” (all caps) in other translations."
+          ]
         }
       },
       " says about Edom. We have heard news from Yahweh, and an ambassador is sent among the nations, saying, “Arise, and let’s rise up against her in battle."

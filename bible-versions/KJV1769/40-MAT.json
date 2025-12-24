@@ -55709,7 +55709,13 @@
     "verse": 44,
     "content": [
       {
-        "text": "The LORD",
+        "content": [
+          "The ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "G2962"
       },
       {

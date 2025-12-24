@@ -23,7 +23,13 @@
         "strong": "H136"
       },
       {
-        "text": " GOD",
+        "content": [
+          " ",
+          {
+            "text": "God",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3069"
       },
       {
@@ -40,7 +46,14 @@
         "strong": "H8052"
       },
       {
-        "text": " from the LORD,",
+        "content": [
+          " from the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -199,7 +212,14 @@
         "morph": "8803"
       },
       {
-        "text": " the LORD.",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
@@ -362,7 +382,14 @@
         "morph": "8803"
       },
       {
-        "text": " the LORD,",
+        "content": [
+          " the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          },
+          ","
+        ],
         "strong": "H3068"
       },
       {
@@ -716,7 +743,13 @@
         "strong": "H3117"
       },
       {
-        "text": " of the LORD",
+        "content": [
+          " of the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -904,7 +937,13 @@
         "strong": "H6215"
       },
       {
-        "text": " for the LORD",
+        "content": [
+          " for the ",
+          {
+            "text": "Lord",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "H3068"
       },
       {
@@ -1073,7 +1112,14 @@
         "strong": "H4410"
       },
       {
-        "text": " shall be the LORD’S.",
+        "content": [
+          " shall be the ",
+          {
+            "text": "Lord’s",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "H3068"
       }
     ]
