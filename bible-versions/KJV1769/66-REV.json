@@ -31258,23 +31258,38 @@
         "morph": "PerfPasPtc"
       },
       {
-        "text": " KING",
+        "content": [
+          " ",
+          {
+            "text": "King",
+            "marks": ["sc"]
+          }
+        ],
         "strong": "G935"
       },
       {
-        "text": " OF KINGS,",
+        "text": " of Kings,",
+        "marks": ["sc"],
         "strong": "G935"
       },
       {
-        "text": " AND",
+        "text": " and",
+        "marks": ["sc"],
         "strong": "G2532"
       },
       {
-        "text": " LORD",
+        "text": " Lord",
+        "marks": ["sc"],
         "strong": "G2962"
       },
       {
-        "text": " OF LORDS.",
+        "content": [
+          {
+            "text": " of Lords",
+            "marks": ["sc"]
+          },
+          "."
+        ],
         "strong": "G2962"
       }
     ]

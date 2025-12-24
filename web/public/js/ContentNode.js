@@ -67,21 +67,42 @@ function ContentNode({ node, settings, onFootnoteClick }) {
       );
     }
 
-    // --- Nested Content Object (content property with Strong's, morph, etc.) ---
+    // --- Nested Content Object (content property with Strong's, morph, marks, etc.) ---
     if (
       node.content !== undefined &&
       !node.heading &&
       !node.subtitle &&
       typeof node.paragraph !== "object"
     ) {
-      // This is a nested content wrapper with properties like strong, morph, foot, etc.
-      const nestedContent = (
+      // This is a nested content wrapper with properties like strong, morph, marks, foot, etc.
+      let nestedContent = (
         <ContentNode
           node={node.content}
           settings={settings}
           onFootnoteClick={onFootnoteClick}
         />
       );
+
+      // Apply formatting marks to the entire nested content
+      if (node.marks) {
+        if (node.marks.includes("b")) nestedContent = <b>{nestedContent}</b>;
+        if (node.marks.includes("i")) nestedContent = <i>{nestedContent}</i>;
+        if (node.marks.includes("woc")) {
+          let color = "";
+          if (settings.showWoC === "red")
+            color = settings.darkMode ? "#f87171" : "#8B0000";
+          else if (settings.showWoC === "blue")
+            color = settings.darkMode ? "#60a5fa" : "#1e40af";
+          else if (settings.showWoC === "purple")
+            color = settings.darkMode ? "#c084fc" : "#6b21a8";
+
+          if (color) {
+            nestedContent = <span style={{ color }}>{nestedContent}</span>;
+          }
+        }
+        if (node.marks.includes("sc"))
+          nestedContent = <span className="sc">{nestedContent}</span>;
+      }
 
       // Handle parsing info for the nested content
       let parsingInfo = [];

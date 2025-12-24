@@ -81,6 +81,12 @@
           "$ref": "#",
           "description": "Nested content array or element."
         },
+        "marks": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["i", "b", "woc", "sc"] },
+          "uniqueItems": true,
+          "description": "Formatting marks applying to the entire nested content: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps"
+        },
         "strong": {
           "type": "string",
           "pattern": "^[GH][0-9]{1,4}$",

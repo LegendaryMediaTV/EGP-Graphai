@@ -3983,23 +3983,21 @@
         "text": "Jesus said to them, "
       },
       {
-        "text": "“Most certainly, I tell you, before Abraham came into existence, ",
-        "marks": ["woc"]
-      },
-      {
-        "text": "I Am",
-        "marks": ["woc", "sc"]
-      },
-      {
-        "text": ".",
-        "marks": ["woc"],
-        "foot": {
-          "type": "xrf",
-          "content": "Exodus 3:14"
-        }
-      },
-      {
-        "text": "”",
+        "content": [
+          "“Most certainly, I tell you, before Abraham came into existence, ",
+          {
+            "text": "I Am",
+            "marks": ["sc"]
+          },
+          {
+            "text": ".",
+            "foot": {
+              "type": "xrf",
+              "content": "Exodus 3:14"
+            }
+          },
+          "”"
+        ],
         "marks": ["woc"]
       }
     ]
