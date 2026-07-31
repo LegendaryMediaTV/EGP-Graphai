@@ -1,0 +1,27 @@
+## Chapter 1
+
+<sup>1</sup> Judas, of Jesus Christ a servant, and brother of James, to those sanctified in God the Father, and in Jesus Christ kept-called,
+<sup>2</sup> kindness to you, and peace, and love, be multiplied!
+<sup>3</sup> Beloved, all diligence using to write to you concerning the common salvation, I had necessity to write to you, exhorting to agonize for the faith once delivered to the saints,
+<sup>4</sup> for there did come in unobserved certain men, long ago having been written beforehand to this judgment, impious, the grace of our God perverting to lasciviousness, and our only Master, God, and Lord-Jesus Christ-denying,
+<sup>5</sup> and to remind you I intend, you knowing once this, that the Lord, a people out of the land of Egypt having saved, again those who did not believe did destroy;
+<sup>6</sup> messengers also, those who did not keep their own principality, but did leave their proper dwelling, to a judgment of a great day, in bonds everlasting, under darkness He hath kept,
+<sup>7</sup> as Sodom and Gomorrah, and the cities around them, in like manner to these, having given themselves to whoredom, and gone after other flesh, have been set before-an example, of fire age-during, justice suffering.
+<sup>8</sup> In like manner, nevertheless, those dreaming also the flesh indeed do defile, and lordship they put away, and dignities they speak evil of,
+<sup>9</sup> yet Michael, the chief messenger, when, with the devil contending, he was disputing about the body of Moses, did not dare to bring up an evil-speaking judgment, but said, ‘The Lord rebuke thee!’
+<sup>10</sup> and these, as many things indeed as they have not known, they speak evil of; and as many things as naturally (as the irrational beasts) they understand, in these they are corrupted;
+<sup>11</sup> woe to them! because in the way of Cain they did go on, and to the deceit of Balaam for reward they did rush, and in the gainsaying of Korah they did perish.
+<sup>12</sup> These are in your love-feasts craggy rocks; feasting together with you, without fear shepherding themselves; clouds without water, by winds carried about; trees autumnal, without fruit, twice dead, rooted up;
+<sup>13</sup> wild waves of a sea, foaming out their own shames; stars going astray, to whom the gloom of the darkness to the age hath been kept.
+<sup>14</sup> And prophesy also to these did the seventh from Adam-Enoch-saying, ‘Lo, the Lord did come in His saintly myriads,
+<sup>15</sup> to do judgment against all, and to convict all their impious ones, concerning all their works of impiety that they did impiously, and concerning all the stiff things that speak against Him did impious sinners.’
+<sup>16</sup> These are murmurers, repiners; according to their desires walking, and their mouth doth speak great swellings, giving admiration to persons for the sake of profit;
+<sup>17</sup> and ye, beloved, remember ye the sayings spoken before by the apostles of our Lord Jesus Christ:
+<sup>18</sup> that they said to you, that in the last time there shall be scoffers, after their own desires of impieties going on,
+<sup>19</sup> these are those setting themselves apart, natural men, the Spirit not having.
+<sup>20</sup> And ye, beloved, on your most holy faith building yourselves up, in the Holy Spirit praying,
+<sup>21</sup> yourselves in the love of God keep ye, waiting for the kindness of our Lord Jesus Christ-to life age-during;
+<sup>22</sup> and to some be kind, judging thoroughly,
+<sup>23</sup> and some in fear save ye, out of the fire snatching, hating even the coat from the flesh spotted.
+<sup>24</sup> And to Him who is able to guard you not stumbling, and to set you in the presence of His glory unblemished, in gladness,
+<sup>25</sup> to the only wise God our Saviour, is glory and greatness, power and authority, both now and to all the ages! Amen.

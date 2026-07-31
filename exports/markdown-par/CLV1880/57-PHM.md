@@ -1,0 +1,27 @@
+## Chapter 1
+
+<sup>1</sup> Paulus vinctus Iesu Christi et Timotheus frater Philemoni dilecto et adiutori nostro
+<sup>2</sup> et Appiae sorori et Archippo commilitoni nostro et ecclesiae quae in domo tua est
+<sup>3</sup> gratia vobis et pax a Deo Patre nostro et Domino Iesu Christo
+<sup>4</sup> gratias ago Deo meo semper memoriam tui faciens in orationibus meis
+<sup>5</sup> audiens caritatem tuam et fidem quam habes in Domino Iesu et in omnes sanctos
+<sup>6</sup> ut communicatio fidei tuae evidens fiat in agnitione omnis boni in nobis in Christo Iesu
+<sup>7</sup> gaudium enim magnum habui et consolationem in caritate tua quia viscera sanctorum requieverunt per te frater
+<sup>8</sup> propter quod multam fiduciam habentes in Christo Iesu imperandi tibi quod ad rem pertinet
+<sup>9</sup> propter caritatem magis obsecro cum sis talis ut Paulus senex nunc autem et vinctus Iesu Christi
+<sup>10</sup> obsecro te de meo filio quem genui in vinculis Onesimo
+<sup>11</sup> qui tibi aliquando inutilis fuit nunc autem et tibi et mihi utilis
+<sup>12</sup> quem remisi tu autem illum id est mea viscera suscipe
+<sup>13</sup> quem ego volueram mecum detinere ut pro te mihi ministraret in vinculis evangelii
+<sup>14</sup> sine consilio autem tuo nihil volui facere uti ne velut ex necessitate bonum tuum esset sed voluntarium
+<sup>15</sup> forsitan enim ideo discessit ad horam a te ut aeternum illum recipere
+<sup>16</sup> iam non ut servum sed plus servo carissimum fratrem maxime mihi quanto autem magis tibi et in carne et in Domino
+<sup>17</sup> si ergo habes me socium suscipe illum sicut me
+<sup>18</sup> si autem aliquid nocuit tibi aut debet hoc mihi inputa
+<sup>19</sup> ego Paulus scripsi mea manu ego reddam ut non dicam tibi quod et te ipsum mihi debes
+<sup>20</sup> ita frater ego te fruar in Domino refice viscera mea in Domino
+<sup>21</sup> confidens oboedientia tua scripsi tibi sciens quoniam et super id quod dico facies
+<sup>22</sup> simul autem et para mihi hospitium nam spero per orationes vestras donari me vobis
+<sup>23</sup> salutat te Epaphras concaptivus meus in Christo Iesu
+<sup>24</sup> Marcus Aristarchus Demas Lucas adiutores mei
+<sup>25</sup> gratia Domini nostri Iesu Christi cum spiritu vestro amen

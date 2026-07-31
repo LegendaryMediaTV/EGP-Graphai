@@ -1,0 +1,470 @@
+{
+  "_id": "YLT1898",
+  "name": "Young’s Literal Translation",
+  "copyright": "Scripture quotations from Young’s Literal Translation of the Holy Bible, by Robert Young, 1898 edition. It is in the public domain.",
+  "license": "CC0-1.0",
+  "books": [
+    {
+      "_id": "GEN",
+      "name": "Genesis",
+      "title": "The First Book of Moses, called Genesis",
+      "order": 1,
+      "chapters": 50
+    },
+    {
+      "_id": "EXO",
+      "name": "Exodus",
+      "title": "The Second Book of Moses, called Exodus",
+      "order": 2,
+      "chapters": 40
+    },
+    {
+      "_id": "LEV",
+      "name": "Leviticus",
+      "title": "The Third Book of Moses, called Leviticus",
+      "order": 3,
+      "chapters": 27
+    },
+    {
+      "_id": "NUM",
+      "name": "Numbers",
+      "title": "The Fourth Book of Moses, called Numbers",
+      "order": 4,
+      "chapters": 36
+    },
+    {
+      "_id": "DEU",
+      "name": "Deuteronomy",
+      "title": "The Fifth Book of Moses, called Deuteronomy",
+      "order": 5,
+      "chapters": 34
+    },
+    {
+      "_id": "JSH",
+      "name": "Joshua",
+      "title": "The Book of Joshua",
+      "order": 6,
+      "chapters": 24
+    },
+    {
+      "_id": "JDG",
+      "name": "Judges",
+      "title": "The Book of Judges",
+      "order": 7,
+      "chapters": 21
+    },
+    {
+      "_id": "RTH",
+      "name": "Ruth",
+      "title": "The Book of Ruth",
+      "order": 8,
+      "chapters": 4
+    },
+    {
+      "_id": "1SM",
+      "name": "1 Samuel",
+      "title": "The First Book of Samuel Otherwise Called the First Book of the Kings",
+      "order": 9,
+      "chapters": 31
+    },
+    {
+      "_id": "2SM",
+      "name": "2 Samuel",
+      "title": "The Second Book of Samuel Otherwise Called the Second Book of the Kings",
+      "order": 10,
+      "chapters": 24
+    },
+    {
+      "_id": "1KG",
+      "name": "1 Kings",
+      "title": "The First Book of the Kings Commonly Called the Third Book of the Kings",
+      "order": 11,
+      "chapters": 22
+    },
+    {
+      "_id": "2KG",
+      "name": "2 Kings",
+      "title": "The Second Book of the Kings Commonly Called the Fourth Book of the Kings",
+      "order": 12,
+      "chapters": 25
+    },
+    {
+      "_id": "1CH",
+      "name": "1 Chronicles",
+      "title": "The First Book of the Chronicles",
+      "order": 13,
+      "chapters": 29
+    },
+    {
+      "_id": "2CH",
+      "name": "2 Chronicles",
+      "title": "The Second Book of the Chronicles",
+      "order": 14,
+      "chapters": 36
+    },
+    {
+      "_id": "EZR",
+      "name": "Ezra",
+      "title": "Ezra",
+      "order": 15,
+      "chapters": 10
+    },
+    {
+      "_id": "NEH",
+      "name": "Nehemiah",
+      "title": "The Book of Nehemiah",
+      "order": 16,
+      "chapters": 13
+    },
+    {
+      "_id": "EST",
+      "name": "Esther",
+      "title": "The Book of Esther",
+      "order": 17,
+      "chapters": 10
+    },
+    {
+      "_id": "JOB",
+      "name": "Job",
+      "title": "The Book of Job",
+      "order": 18,
+      "chapters": 42
+    },
+    {
+      "_id": "PSA",
+      "name": "Psalms",
+      "title": "The Book of Psalms",
+      "order": 19,
+      "chapters": 150
+    },
+    {
+      "_id": "PRV",
+      "name": "Proverbs",
+      "title": "The Proverbs",
+      "order": 20,
+      "chapters": 31
+    },
+    {
+      "_id": "ECC",
+      "name": "Ecclesiastes",
+      "title": "Ecclesiastes or, the Preacher",
+      "order": 21,
+      "chapters": 12
+    },
+    {
+      "_id": "SOS",
+      "name": "Song of Solomon",
+      "title": "The Song of Solomon",
+      "order": 22,
+      "chapters": 8
+    },
+    {
+      "_id": "ISA",
+      "name": "Isaiah",
+      "title": "The Book of the Prophet Isaiah",
+      "order": 23,
+      "chapters": 66
+    },
+    {
+      "_id": "JER",
+      "name": "Jeremiah",
+      "title": "The Book of the Prophet Jeremiah",
+      "order": 24,
+      "chapters": 52
+    },
+    {
+      "_id": "LAM",
+      "name": "Lamentations",
+      "title": "The Lamentations of Jeremiah",
+      "order": 25,
+      "chapters": 5
+    },
+    {
+      "_id": "EZK",
+      "name": "Ezekiel",
+      "title": "The Book of the Prophet Ezekiel",
+      "order": 26,
+      "chapters": 48
+    },
+    {
+      "_id": "DAN",
+      "name": "Daniel",
+      "title": "The Book of Daniel",
+      "order": 27,
+      "chapters": 12
+    },
+    {
+      "_id": "HOS",
+      "name": "Hosea",
+      "title": "Hosea",
+      "order": 28,
+      "chapters": 14
+    },
+    {
+      "_id": "JOL",
+      "name": "Joel",
+      "title": "Joel",
+      "order": 29,
+      "chapters": 3
+    },
+    {
+      "_id": "AMS",
+      "name": "Amos",
+      "title": "Amos",
+      "order": 30,
+      "chapters": 9
+    },
+    {
+      "_id": "OBD",
+      "name": "Obadiah",
+      "title": "Obadiah",
+      "order": 31,
+      "chapters": 1
+    },
+    {
+      "_id": "JNA",
+      "name": "Jonah",
+      "title": "Jonah",
+      "order": 32,
+      "chapters": 4
+    },
+    {
+      "_id": "MIC",
+      "name": "Micah",
+      "title": "Micah",
+      "order": 33,
+      "chapters": 7
+    },
+    {
+      "_id": "NAH",
+      "name": "Nahum",
+      "title": "Nahum",
+      "order": 34,
+      "chapters": 3
+    },
+    {
+      "_id": "HAB",
+      "name": "Habakkuk",
+      "title": "Habakkuk",
+      "order": 35,
+      "chapters": 3
+    },
+    {
+      "_id": "ZPH",
+      "name": "Zephaniah",
+      "title": "Zephaniah",
+      "order": 36,
+      "chapters": 3
+    },
+    {
+      "_id": "HAG",
+      "name": "Haggai",
+      "title": "Haggai",
+      "order": 37,
+      "chapters": 2
+    },
+    {
+      "_id": "ZEC",
+      "name": "Zechariah",
+      "title": "Zechariah",
+      "order": 38,
+      "chapters": 14
+    },
+    {
+      "_id": "MAL",
+      "name": "Malachi",
+      "title": "Malachi",
+      "order": 39,
+      "chapters": 4
+    },
+    {
+      "_id": "MAT",
+      "name": "Matthew",
+      "title": "THE GOSPEL ACCORDING TO ST. MATTHEW",
+      "order": 40,
+      "chapters": 28
+    },
+    {
+      "_id": "MRK",
+      "name": "Mark",
+      "title": "THE GOSPEL ACCORDING TO ST. MARK",
+      "order": 41,
+      "chapters": 16
+    },
+    {
+      "_id": "LUK",
+      "name": "Luke",
+      "title": "THE GOSPEL ACCORDING TO ST. LUKE",
+      "order": 42,
+      "chapters": 24
+    },
+    {
+      "_id": "JHN",
+      "name": "John",
+      "title": "THE GOSPEL ACCORDING TO ST. JOHN",
+      "order": 43,
+      "chapters": 21
+    },
+    {
+      "_id": "ACT",
+      "name": "Acts",
+      "title": "THE ACTS OF THE APOSTLES",
+      "order": 44,
+      "chapters": 28
+    },
+    {
+      "_id": "ROM",
+      "name": "Romans",
+      "title": "THE EPISTLE OF PAUL THE APOSTLE TO THE ROMANS",
+      "order": 45,
+      "chapters": 16
+    },
+    {
+      "_id": "1CO",
+      "name": "1 Corinthians",
+      "title": "THE FIRST EPISTLE OF PAUL THE APOSTLE TO THE CORINTHIANS",
+      "order": 46,
+      "chapters": 16
+    },
+    {
+      "_id": "2CO",
+      "name": "2 Corinthians",
+      "title": "THE SECOND EPISTLE OF PAUL THE APOSTLE TO THE CORINTHIANS",
+      "order": 47,
+      "chapters": 13
+    },
+    {
+      "_id": "GAL",
+      "name": "Galatians",
+      "title": "THE EPISTLE OF PAUL THE APOSTLE TO THE GALATIANS",
+      "order": 48,
+      "chapters": 6
+    },
+    {
+      "_id": "EPH",
+      "name": "Ephesians",
+      "title": "THE EPISTLE OF PAUL THE APOSTLE TO THE EPHESIANS",
+      "order": 49,
+      "chapters": 6
+    },
+    {
+      "_id": "PHP",
+      "name": "Philippians",
+      "title": "THE EPISTLE OF PAUL THE APOSTLE TO THE PHILIPPIANS",
+      "order": 50,
+      "chapters": 4
+    },
+    {
+      "_id": "COL",
+      "name": "Colossians",
+      "title": "THE EPISTLE OF PAUL THE APOSTLE TO THE COLOSSIANS",
+      "order": 51,
+      "chapters": 4
+    },
+    {
+      "_id": "1TH",
+      "name": "1 Thessalonians",
+      "title": "THE FIRST EPISTLE OF PAUL THE APOSTLE TO THE THESSALONIANS",
+      "order": 52,
+      "chapters": 5
+    },
+    {
+      "_id": "2TH",
+      "name": "2 Thessalonians",
+      "title": "THE SECOND EPISTLE OF PAUL THE APOSTLE TO THE THESSALONIANS",
+      "order": 53,
+      "chapters": 3
+    },
+    {
+      "_id": "1TM",
+      "name": "1 Timothy",
+      "title": "THE FIRST EPISTLE OF PAUL THE APOSTLE TO TIMOTHY",
+      "order": 54,
+      "chapters": 6
+    },
+    {
+      "_id": "2TM",
+      "name": "2 Timothy",
+      "title": "THE SECOND EPISTLE OF PAUL THE APOSTLE TO TIMOTHY",
+      "order": 55,
+      "chapters": 4
+    },
+    {
+      "_id": "TIT",
+      "name": "Titus",
+      "title": "THE EPISTLE OF PAUL THE APOSTLE TO TITUS",
+      "order": 56,
+      "chapters": 3
+    },
+    {
+      "_id": "PHM",
+      "name": "Philemon",
+      "title": "THE EPISTLE OF PAUL THE APOSTLE TO PHILEMON",
+      "order": 57,
+      "chapters": 1
+    },
+    {
+      "_id": "HEB",
+      "name": "Hebrews",
+      "title": "THE EPISTLE OF PAUL THE APOSTLE TO THE HEBREWS",
+      "order": 58,
+      "chapters": 13
+    },
+    {
+      "_id": "JAS",
+      "name": "James",
+      "title": "THE GENERAL EPISTLE OF JAMES",
+      "order": 59,
+      "chapters": 5
+    },
+    {
+      "_id": "1PT",
+      "name": "1 Peter",
+      "title": "THE FIRST EPISTLE GENERAL OF PETER",
+      "order": 60,
+      "chapters": 5
+    },
+    {
+      "_id": "2PT",
+      "name": "2 Peter",
+      "title": "THE SECOND EPISTLE GENERAL OF PETER",
+      "order": 61,
+      "chapters": 3
+    },
+    {
+      "_id": "1JN",
+      "name": "1 John",
+      "title": "THE FIRST EPISTLE GENERAL OF JOHN",
+      "order": 62,
+      "chapters": 5
+    },
+    {
+      "_id": "2JN",
+      "name": "2 John",
+      "title": "THE SECOND EPISTLE OF JOHN",
+      "order": 63,
+      "chapters": 1
+    },
+    {
+      "_id": "3JN",
+      "name": "3 John",
+      "title": "THE THIRD EPISTLE OF JOHN",
+      "order": 64,
+      "chapters": 1
+    },
+    {
+      "_id": "JUD",
+      "name": "Jude",
+      "title": "THE GENERAL EPISTLE OF JUDE",
+      "order": 65,
+      "chapters": 1
+    },
+    {
+      "_id": "REV",
+      "name": "Revelation",
+      "title": "THE REVELATION OF ST. JOHN THE DIVINE",
+      "order": 66,
+      "chapters": 22
+    }
+  ]
+}

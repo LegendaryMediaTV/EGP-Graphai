@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/LegendaryMediaTV/EGP-Graphai/bible-versions/bible-versions-schema.json",
+  "title": "EGP Graphai • Bible Version",
+  "description": "A single Bible version with metadata and per-testament overrides. Each version has its own _version.json file in its folder.",
+  "$ref": "#/definitions/version",
+  "definitions": {
+    "version": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["_id", "name", "license"],
+      "properties": {
+        "_id": {
+          "type": "string",
+          "pattern": "^[A-Z0-9-]+$",
+          "description": "Short identifier for the version, e.g., LXX, BYZ2018, EGP-EN."
+        },
+        "name": {
+          "$ref": "../content-schema.json",
+          "description": "Human-readable version name."
+        },
+        "license": {
+          "type": "string",
+          "description": "License identifier, similar to package.json licensing (e.g., 'public-domain', 'copyright')."
+        },
+        "copyright": {
+          "$ref": "../content-schema.json",
+          "description": "Copyright statement or license information."
+        },
+        "script": {
+          "type": "string",
+          "enum": ["G", "H"],
+          "description": "Default script for this version (Greek or Hebrew). If unset, assume Latin."
+        },
+        "testaments": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "OT": { "$ref": "#/definitions/testament" },
+            "NT": { "$ref": "#/definitions/testament" }
+          },
+          "description": "Optional per-testament overrides for script and morphology."
+        },
+        "books": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["_id", "name", "title", "order", "chapters"],
+            "properties": {
+              "_id": {
+                "$ref": "https://github.com/LegendaryMediaTV/EGP-Graphai/bible-books/bible-books-schema.json#/definitions/book/properties/_id",
+                "description": "Book identifier from bible-books.json (e.g., 'GEN')"
+              },
+              "name": {
+                "$ref": "../content-schema.json",
+                "description": "Name of the book in this version"
+              },
+              "title": {
+                "$ref": "../content-schema.json",
+                "description": "Title of the book in this version"
+              },
+              "chapters": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Number of chapters in this book for this version"
+              },
+              "order": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Order of the book in this version"
+              }
+            }
+          },
+          "uniqueItems": true,
+          "description": "List of books included in this version with their order."
+        }
+      }
+    },
+    "testament": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "script": {
+          "type": "string",
+          "enum": ["G", "H"],
+          "description": "Script override for this testament (Greek or Hebrew). If unset, assume Latin."
+        }
+      }
+    }
+  }
+}

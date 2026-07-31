@@ -1,0 +1,470 @@
+{
+  "_id": "CLV1880",
+  "name": "Clementine Latin Vulgate",
+  "copyright": "Scripture quotations from Clementine Vulgate of 1598 with Glossa Ordinaria Migne edition 1880 in Latin. It is in the public domain.",
+  "license": "CC0-1.0",
+  "books": [
+    {
+      "_id": "GEN",
+      "name": "GENESIS",
+      "title": "INCIPIT LIBER BERESIT ID EST GENESIS",
+      "order": 1,
+      "chapters": 50
+    },
+    {
+      "_id": "EXO",
+      "name": "EXODUS",
+      "title": "INCIPIT LIBER ELLESMOTH ID EST EXODUS",
+      "order": 2,
+      "chapters": 40
+    },
+    {
+      "_id": "LEV",
+      "name": "LEVITICUS",
+      "title": "INCIPIT LIBER VAIECRA ID EST LEVITICUS",
+      "order": 3,
+      "chapters": 27
+    },
+    {
+      "_id": "NUM",
+      "name": "LIBER NUMERI",
+      "title": "INCIPIT LIBER VAIEDABBER ID EST NUMERI",
+      "order": 4,
+      "chapters": 36
+    },
+    {
+      "_id": "DEU",
+      "name": "DEUTERONOMII",
+      "title": "INCIPIT LIBER HELLEADDABARIM ID EST DEUTERONOMIUM",
+      "order": 5,
+      "chapters": 34
+    },
+    {
+      "_id": "JSH",
+      "name": "IOSUE",
+      "title": "INCIPIT LIBER IOSUE BENNUN ID EST IESU NAVE",
+      "order": 6,
+      "chapters": 24
+    },
+    {
+      "_id": "JDG",
+      "name": "IUDICUM",
+      "title": "INCIPIT LIBER SOPTHIM ID EST IUDICUM",
+      "order": 7,
+      "chapters": 21
+    },
+    {
+      "_id": "RTH",
+      "name": "RUTH",
+      "title": "INCIPIT LIBER RUTH",
+      "order": 8,
+      "chapters": 4
+    },
+    {
+      "_id": "1SM",
+      "name": "I SAMUELIS",
+      "title": "INCIPIT LIBER I SAMUHELIS ID EST REGUM PRIMUS",
+      "order": 9,
+      "chapters": 31
+    },
+    {
+      "_id": "2SM",
+      "name": "II SAMUELIS",
+      "title": "INCIPIT LIBER II SAMUHELIS ID EST REGUM SECUNDIS",
+      "order": 10,
+      "chapters": 24
+    },
+    {
+      "_id": "1KG",
+      "name": "I REGUM",
+      "title": "INCIPIT LIBER MALACHIM ID EST REGUM TERTIUS ET QUARTUS",
+      "order": 11,
+      "chapters": 22
+    },
+    {
+      "_id": "2KG",
+      "name": "II REGUM",
+      "title": "INCIPIT LIBER MALACHIM ID EST REGUM QUARTUS",
+      "order": 12,
+      "chapters": 25
+    },
+    {
+      "_id": "1CH",
+      "name": "I PARALIPOMENON",
+      "title": "INCIPIT LIBER DABREIAMIN ID EST VERBA DEIRUM QUI GRÆCE DICITUR PARALIPOMENON",
+      "order": 13,
+      "chapters": 29
+    },
+    {
+      "_id": "2CH",
+      "name": "II PARALIPOMENON",
+      "title": "LIBER SECUNDUS PARALIPOMENON",
+      "order": 14,
+      "chapters": 36
+    },
+    {
+      "_id": "EZR",
+      "name": "ESDRÆ",
+      "title": "INCIPIT LIBER ESDRÆ",
+      "order": 15,
+      "chapters": 10
+    },
+    {
+      "_id": "NEH",
+      "name": "NEHEMIÆ",
+      "title": "II ESDRÆ ID EST LIBER NEHEMIÆ",
+      "order": 16,
+      "chapters": 13
+    },
+    {
+      "_id": "EST",
+      "name": "ESTHER",
+      "title": "INCIPIT LIBER HESTER",
+      "order": 17,
+      "chapters": 16
+    },
+    {
+      "_id": "JOB",
+      "name": "JOB",
+      "title": "INCIPIT LIBER JOB",
+      "order": 18,
+      "chapters": 42
+    },
+    {
+      "_id": "PSA",
+      "name": "PSALMORUM",
+      "title": "INCIPIT LIBER PSALMORUM IUXTA HEBRAICUM TRANSLATUS",
+      "order": 19,
+      "chapters": 150
+    },
+    {
+      "_id": "PRV",
+      "name": "PROVERBIORUM",
+      "title": "INCIPIT LIBER PROVERBIORUM SALOMONIS",
+      "order": 20,
+      "chapters": 31
+    },
+    {
+      "_id": "ECC",
+      "name": "ECCLESIASTES",
+      "title": "INCIPIT LIBER ECCLESIASTES",
+      "order": 21,
+      "chapters": 12
+    },
+    {
+      "_id": "SOS",
+      "name": "CANTICUM CANTICORUM",
+      "title": "INCIPIT LIBER CANTICUM CANTICORUM",
+      "order": 22,
+      "chapters": 8
+    },
+    {
+      "_id": "ISA",
+      "name": "ISAIÆ",
+      "title": "INCIPIT LIBER ISAIÆ PROPHETÆ",
+      "order": 23,
+      "chapters": 66
+    },
+    {
+      "_id": "JER",
+      "name": "JEREMIÆ",
+      "title": "INCIPIT LIBER JEREMIÆ PROPHETÆ",
+      "order": 24,
+      "chapters": 52
+    },
+    {
+      "_id": "LAM",
+      "name": "LAMENTATIONES",
+      "title": "LAMENTATIONES",
+      "order": 25,
+      "chapters": 5
+    },
+    {
+      "_id": "EZK",
+      "name": "HIEZECHIELIS PROPHETÆ",
+      "title": "INCIPIT LIBER HIEZECHIELIS PROPHETÆ",
+      "order": 26,
+      "chapters": 48
+    },
+    {
+      "_id": "DAN",
+      "name": "DANIHELIS PROPHETÆ",
+      "title": "INCIPIT LIBER DANIHELIS PROPHETÆ",
+      "order": 27,
+      "chapters": 14
+    },
+    {
+      "_id": "HOS",
+      "name": "OSEE PROPHETA",
+      "title": "INCIPIT OSEE PROPHETA",
+      "order": 28,
+      "chapters": 14
+    },
+    {
+      "_id": "JOL",
+      "name": "JOËL PROPHETA",
+      "title": "INCIPIT JOËL PROPHETA",
+      "order": 29,
+      "chapters": 3
+    },
+    {
+      "_id": "AMS",
+      "name": "AMOS PROPHETA",
+      "title": "INCIPIT AMOS PROPHETA",
+      "order": 30,
+      "chapters": 9
+    },
+    {
+      "_id": "OBD",
+      "name": "ABDIAS PROPHETA",
+      "title": "INCIPIT ABDIAS PROPHETA",
+      "order": 31,
+      "chapters": 1
+    },
+    {
+      "_id": "JNA",
+      "name": "JONAS PROPHETA",
+      "title": "INCIPIT JONAS PROPHETA",
+      "order": 32,
+      "chapters": 4
+    },
+    {
+      "_id": "MIC",
+      "name": "MICHA PROPHETA",
+      "title": "INCIPIT MICHA PROPHETA",
+      "order": 33,
+      "chapters": 7
+    },
+    {
+      "_id": "NAH",
+      "name": "NAHUM PROPHETA",
+      "title": "INCIPIT NAHUM PROPHETA",
+      "order": 34,
+      "chapters": 3
+    },
+    {
+      "_id": "HAB",
+      "name": "HABACUC PROPHETA",
+      "title": "INCIPIT HABACUC PROPHETA",
+      "order": 35,
+      "chapters": 3
+    },
+    {
+      "_id": "ZPH",
+      "name": "SOFONIAS PROPHETA",
+      "title": "INCIPIT SOFONIAS PROPHETA",
+      "order": 36,
+      "chapters": 3
+    },
+    {
+      "_id": "HAG",
+      "name": "AGGÆI PROPHETÆ",
+      "title": "INCIPIT AGGÆI PROPHETÆ",
+      "order": 37,
+      "chapters": 2
+    },
+    {
+      "_id": "ZEC",
+      "name": "ZACCHARIAS PROPHETA",
+      "title": "INCIPIT ZACCHARIAS PROPHETA",
+      "order": 38,
+      "chapters": 14
+    },
+    {
+      "_id": "MAL",
+      "name": "MALACHI PROPHETA",
+      "title": "INCIPIT MALACHI PROPHETA",
+      "order": 39,
+      "chapters": 4
+    },
+    {
+      "_id": "MAT",
+      "name": "MATTHEUM",
+      "title": "INCIPIT EVANGELIUM SECUNDUM MATTHEUM",
+      "order": 40,
+      "chapters": 28
+    },
+    {
+      "_id": "MRK",
+      "name": "MARCUM",
+      "title": "INCIPIT SECUNDUM MARCUM",
+      "order": 41,
+      "chapters": 16
+    },
+    {
+      "_id": "LUK",
+      "name": "LUCAM",
+      "title": "INCIPIT SECUNDUM LUCAM",
+      "order": 42,
+      "chapters": 24
+    },
+    {
+      "_id": "JHN",
+      "name": "IOHANNEM",
+      "title": "INCIPIT SECUNDUM IOHANNEM",
+      "order": 43,
+      "chapters": 21
+    },
+    {
+      "_id": "ACT",
+      "name": "ACTUUM APOSTOLORUM",
+      "title": "INCIPIT LIBER ACTUUM APOSTOLORUM",
+      "order": 44,
+      "chapters": 28
+    },
+    {
+      "_id": "ROM",
+      "name": "ROMANOS",
+      "title": "INCIPIT EPISTULA AD ROMANOS",
+      "order": 45,
+      "chapters": 16
+    },
+    {
+      "_id": "1CO",
+      "name": "CORINTHIOS I",
+      "title": "INCIPIT AD CORINTHIOS I",
+      "order": 46,
+      "chapters": 16
+    },
+    {
+      "_id": "2CO",
+      "name": "CORINTHIOS II",
+      "title": "INCIPIT AD CORINTHIOS II",
+      "order": 47,
+      "chapters": 13
+    },
+    {
+      "_id": "GAL",
+      "name": "GALATAS",
+      "title": "INCIPIT AD GALATAS",
+      "order": 48,
+      "chapters": 6
+    },
+    {
+      "_id": "EPH",
+      "name": "EPHESIOS",
+      "title": "INCIPIT AD EPHESIOS",
+      "order": 49,
+      "chapters": 6
+    },
+    {
+      "_id": "PHP",
+      "name": "PHILIPPENSES",
+      "title": "INCIPIT AD PHILIPPENSES",
+      "order": 50,
+      "chapters": 4
+    },
+    {
+      "_id": "COL",
+      "name": "COLOSSENES",
+      "title": "INCIPIT AD COLOSSENES",
+      "order": 51,
+      "chapters": 4
+    },
+    {
+      "_id": "1TH",
+      "name": "THESSALONICENSES I",
+      "title": "INCIPIT AD THESSALONICENSES I",
+      "order": 52,
+      "chapters": 5
+    },
+    {
+      "_id": "2TH",
+      "name": "THESSALONICENSES II",
+      "title": "INCIPIT AD THESSALONICENSES II",
+      "order": 53,
+      "chapters": 3
+    },
+    {
+      "_id": "1TM",
+      "name": "TIMOTHEUM I",
+      "title": "INCIPIT AD TIMOTHEUM I",
+      "order": 54,
+      "chapters": 6
+    },
+    {
+      "_id": "2TM",
+      "name": "TIMOTHEUM II",
+      "title": "INCIPIT AD TIMOTHEUM II",
+      "order": 55,
+      "chapters": 4
+    },
+    {
+      "_id": "TIT",
+      "name": "TITUM",
+      "title": "INCIPIT AD TITUM",
+      "order": 56,
+      "chapters": 3
+    },
+    {
+      "_id": "PHM",
+      "name": "PHILEMONEM",
+      "title": "INCIPIT AD PHILEMONEM",
+      "order": 57,
+      "chapters": 1
+    },
+    {
+      "_id": "HEB",
+      "name": "HEBRÆOS",
+      "title": "INCIPIT AD HEBRÆOS",
+      "order": 58,
+      "chapters": 13
+    },
+    {
+      "_id": "JAS",
+      "name": "IACOBI",
+      "title": "INCIPIT EPISTULA IACOBI",
+      "order": 59,
+      "chapters": 5
+    },
+    {
+      "_id": "1PT",
+      "name": "PETRI I",
+      "title": "INCIPIT EPISTULA PETRI I",
+      "order": 60,
+      "chapters": 5
+    },
+    {
+      "_id": "2PT",
+      "name": "PETRI II",
+      "title": "INCIPIT EPISTULA PETRI II",
+      "order": 61,
+      "chapters": 3
+    },
+    {
+      "_id": "1JN",
+      "name": "IOHANNIS I",
+      "title": "INCIPIT EPISTULA IOHANNIS I",
+      "order": 62,
+      "chapters": 5
+    },
+    {
+      "_id": "2JN",
+      "name": "IOHANNIS II",
+      "title": "INCIPIT EPISTULA IOHANNIS II",
+      "order": 63,
+      "chapters": 1
+    },
+    {
+      "_id": "3JN",
+      "name": "IOHANNIS III",
+      "title": "INCIPIT EPISTULA IOHANNIS III",
+      "order": 64,
+      "chapters": 1
+    },
+    {
+      "_id": "JUD",
+      "name": "IUDÆ",
+      "title": "INCIPIT EPISTULA IUDÆ",
+      "order": 65,
+      "chapters": 1
+    },
+    {
+      "_id": "REV",
+      "name": "APOCALYPSIS",
+      "title": "INCIPIT APOCALYPSIS IOHANNIS APOSTOLI",
+      "order": 66,
+      "chapters": 22
+    }
+  ]
+}
