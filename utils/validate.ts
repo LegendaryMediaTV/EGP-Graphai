@@ -6,6 +6,7 @@ import * as prettier from "prettier";
 import validateJsonAgainstSchema from "../functions/validateJsonAgainstSchema";
 import { getVersionDirectories } from "../functions/getBibleVersions";
 import { sortVerseKeys } from "../functions/sortContentKeys";
+import { writeFileAtomic, writeJsonFile } from "../functions/writeJsonFile";
 import BibleVersion from "../types/Version";
 
 const jsonPath = "./bible-books/bible-books.json";
@@ -29,7 +30,7 @@ function isVerseFile(filePath: string): boolean {
 /**
  * Sort keys in a verse file according to canonical order
  */
-function sortVerseFileKeys(filePath: string): boolean {
+async function sortVerseFileKeys(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
@@ -43,8 +44,7 @@ function sortVerseFileKeys(filePath: string): boolean {
   const sortedSerialized = JSON.stringify(sortedVerses);
 
   if (originalSerialized !== sortedSerialized) {
-    const sortedContent = JSON.stringify(sortedVerses, null, 2) + "\n";
-    fs.writeFileSync(filePath, sortedContent);
+    await writeJsonFile(filePath, sortedVerses);
     return true;
   }
 
@@ -61,7 +61,7 @@ async function formatJsonFile(filePath: string): Promise<boolean> {
   const formatted = await prettier.format(content, { parser: "json" });
 
   if (content !== formatted) {
-    fs.writeFileSync(filePath, formatted);
+    await writeFileAtomic(filePath, formatted);
     return true;
   }
   return false;
@@ -112,7 +112,7 @@ async function main() {
 
   for (const file of jsonFiles) {
     if (fs.existsSync(file) && isVerseFile(file)) {
-      const wasSorted = sortVerseFileKeys(file);
+      const wasSorted = await sortVerseFileKeys(file);
       if (wasSorted) {
         sortedCount++;
         console.log(`  🔄 Sorted keys: ${file}`);

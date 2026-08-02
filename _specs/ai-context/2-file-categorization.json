@@ -12,6 +12,7 @@
     "functions/getBibleVersions.ts",
     "functions/sortContentKeys.ts",
     "functions/validateJsonAgainstSchema.ts",
+    "functions/writeJsonFile.ts",
     "utils/convertToSmallCaps.ts",
     "utils/exportContent.ts",
     "utils/sortBibleKeys.ts",
@@ -21,6 +22,7 @@
     "functions/__tests__/convertToSmallCaps.test.ts",
     "functions/__tests__/getBibleVersions.test.ts",
     "functions/__tests__/sortContentKeys.test.ts",
+    "functions/__tests__/writeJsonFile.test.ts",
     "utils/__tests__/exportContent.test.ts"
   ],
   "database-schema": [

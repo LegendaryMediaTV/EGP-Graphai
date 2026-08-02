@@ -10,7 +10,10 @@
 ### Test Locations
 
 - **Test directories** – Tests are in `__tests__/` folders alongside source files:
+  - `functions/__tests__/convertToSmallCaps.test.ts`
   - `functions/__tests__/getBibleVersions.test.ts`
+  - `functions/__tests__/sortContentKeys.test.ts`
+  - `functions/__tests__/writeJsonFile.test.ts`
   - `utils/__tests__/exportContent.test.ts`
 - **Pattern** – `*.test.ts` files in `__tests__/` subdirectories
 
@@ -62,9 +65,20 @@
   - Unknown key preservation and ordering
   - Verse-level key ordering (book, chapter, verse, content)
 
+### File Writing Domain
+
+- **Existing tests** – `functions/__tests__/writeJsonFile.test.ts` (9 tests)
+- **Covered scenarios:**
+  - `writeJsonFile()` produces the same bytes the old `prettier --write` subprocess did
+  - A file it writes is already a fixed point of Prettier formatting (re-running changes nothing)
+  - Replacing the contents of a file that already exists
+  - `writeFileAtomic()` writes text verbatim without reformatting
+  - Multibyte (Hebrew/Greek) content is measured and written correctly
+  - Retry-then-throw behavior when the target path can never be written (simulated with fake timers), and that no staging file is left behind
+
 ### Validation Domain
 
-- **Existing tests** – None
+- **Existing tests** – None (the file-write path it depends on — `functions/writeJsonFile.ts` — has its own coverage above)
 - **What should be tested:**
   - `validateJsonAgainstSchema()` – Schema validation with $ref resolution
   - Version book ordering validation
@@ -156,6 +170,18 @@ npx vitest --run path/to/test.ts
 - Markdown format: paragraph breaks, heading/subtitle rendering, footnote references
 - Edge cases: mid-verse paragraphs, textless elements, trailing footnotes
 
+### When Modifying File Writes (writeJsonFile.ts)
+
+**Relevant tests:** `npx vitest --run functions/__tests__/writeJsonFile.test.ts`
+
+**Test coverage includes:**
+
+- Byte-for-byte parity with the Prettier output every writer used to produce via subprocess
+- Atomic replace semantics and multibyte handling
+- Retry-on-backoff and failure-naming behavior when a write can never land
+
+Any of the four callers (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`) that changes how it invokes `writeJsonFile()`/`writeFileAtomic()` should re-run this suite plus its own.
+
 ### When Modifying Version Discovery (getBibleVersions.ts)
 
 **Relevant tests:** `npx vitest --run functions/__tests__/getBibleVersions.test.ts`
@@ -186,3 +212,4 @@ npx vitest --run path/to/test.ts
 - Fixture files in `functions/__tests__/fixtures/versions/` for version discovery tests
 - Inline verse data in `utils/__tests__/exportContent.test.ts` for export tests
 - Real-world samples from KJV1769 for integration-style tests
+- Scratch directories via `fs.mkdtempSync(os.tmpdir())` in `writeJsonFile.test.ts`, torn down in `afterAll`; failure-path tests use Vitest fake timers to collapse the retry backoff instead of waiting on it

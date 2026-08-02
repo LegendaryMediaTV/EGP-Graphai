@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Updated:** May 26, 2026  
+> **Updated:** August 1, 2026  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)
 
 ## Project Summary
@@ -16,7 +16,15 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Web Reader** – React-based SPA for reading and studying with toggleable tools
 - **Validation** – JSON Schema validation ensuring data integrity with automatic key sorting
 
-## Recent Changes (Branch: Add-bibleLink-node)
+## Recent Changes (Atomic File Writes & Dependency Updates)
+
+- **Atomic File Writes** – New [functions/writeJsonFile.ts](../../functions/writeJsonFile.ts) module (`writeFileAtomic` + `writeJsonFile`) stages writes to a temp file and renames over the target, retrying transient failures on a backoff — see [Writing files](../documentation/EGP-Graphai/data-pipeline.md#writing-files)
+- **Four Writers Migrated** – `validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, and `sortBibleKeys.ts` all now write through this module instead of `fs.writeFileSync` + a per-file `npx prettier --write` subprocess; their `processBook`/`main` functions are now `async`
+- **Test Coverage Expansion** – Added 9 new tests for the write helper (Prettier-subprocess byte parity, atomic replace semantics, multibyte handling, retry/backoff and failure-naming under fake timers)
+- **Dependency Updates** – `@types/lodash` 4.17.24 → 4.17.25, `@types/node` 24.12.4 → 24.13.3 (capped at v24 to match Node runtime), `prettier` 3.8.3 → 3.9.6, `vitest` 4.1.7 → 4.1.10; `typescript` held at 6.0.3 (7.x is a major, skipped)
+- **Override Removed** – The `ajv` → `fast-uri` override was dropped; `fast-uri` now resolves to a safe version naturally without it
+
+## Previous Changes (Branch: Add-bibleLink-node)
 
 - **Bible Reference Links** – New `bibleLink` content variant for cross-reference targets; optional `content` override for display text
 - **Schema, Types, Sorter Updated** – `content-schema.json`, [types/Content.ts](../../types/Content.ts), and canonical key order in [functions/sortContentKeys.ts](../../functions/sortContentKeys.ts) all recognize `bibleLink`
@@ -109,6 +117,7 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 ## Architecture Overview
 
 ```mermaid
+%%{init: {'theme': 'dark'}}%%
 graph TB
     subgraph Data["Data Layer"]
         BS[bible-books-schema.json]
@@ -127,6 +136,7 @@ graph TB
         GBV[getBibleVersions.ts]
         SCK[sortContentKeys.ts]
         CSC[convertToSmallCaps.ts]
+        WJF[writeJsonFile.ts]
     end
 
     subgraph Types["Type Definitions"]
@@ -161,6 +171,11 @@ graph TB
     VF --> EXP
     EXP --> TXT
     EXP --> MD
+
+    VAL --> WJF
+    EXP --> WJF
+    CSC --> WJF
+    SCK --> WJF
 
     TC --> EXP
     TV --> EXP
@@ -229,11 +244,12 @@ window.ComponentName = ComponentName;
 
 ## Test Status
 
-✅ **125 tests passing** (Vitest):
+✅ **134 tests passing** (Vitest):
 
 - `functions/__tests__/convertToSmallCaps.test.ts` – 40 tests for small caps conversion
 - `functions/__tests__/sortContentKeys.test.ts` – 26 tests for key ordering
 - `functions/__tests__/getBibleVersions.test.ts` – 17 tests for version discovery
+- `functions/__tests__/writeJsonFile.test.ts` – 9 tests for atomic file writes
 - `utils/__tests__/exportContent.test.ts` – 42 tests for export functionality
 
 See [6-tests-and-build.md](6-tests-and-build.md) for test details and coverage.

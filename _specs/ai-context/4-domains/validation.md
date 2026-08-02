@@ -67,8 +67,9 @@ _From [utils/validate.ts](../../utils/validate.ts)_
 
 ```typescript
 import { sortVerseKeys } from "../functions/sortContentKeys";
+import { writeJsonFile } from "../functions/writeJsonFile";
 
-function sortVerseFileKeys(filePath: string): boolean {
+async function sortVerseFileKeys(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
@@ -82,14 +83,15 @@ function sortVerseFileKeys(filePath: string): boolean {
   const sortedSerialized = JSON.stringify(sortedVerses);
 
   if (originalSerialized !== sortedSerialized) {
-    const sortedContent = JSON.stringify(sortedVerses, null, 2) + "\n";
-    fs.writeFileSync(filePath, sortedContent);
+    await writeJsonFile(filePath, sortedVerses);
     return true;
   }
 
   return false;
 }
 ```
+
+`writeJsonFile()` formats the JSON in-process and writes it through a stage-then-rename helper rather than `fs.writeFileSync` — see [Writing files](../../documentation/EGP-Graphai/data-pipeline.md#writing-files) for why, and the [TypeScript utilities style guide](../5-style-guides/typescript-utilities.md) for the pattern used across all four writer scripts.
 
 ### Schema Validation Function
 
