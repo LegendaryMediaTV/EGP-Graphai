@@ -6,7 +6,8 @@
       "book-identifiers": "Books use 3-character uppercase identifiers (e.g., 'GEN', 'MAT', 'REV') that must match entries in bible-books.json.",
       "version-book-ordering": "Each Bible version maintains its own book ordering via the 'order' property (1-indexed, sequential, no gaps).",
       "verse-file-naming": "Verse files follow pattern '{order}-{bookId}.json' (e.g., '01-GEN.json', '40-MAT.json').",
-      "ajv-validation": "Use AJV library for JSON Schema validation with support for $ref resolution across schema files."
+      "ajv-validation": "Use AJV library for JSON Schema validation with support for $ref resolution across schema files.",
+      "atomic-file-writes": "Write JSON output via writeJsonFile() and raw text (Markdown, pre-formatted JSON) via writeFileAtomic(), both from functions/writeJsonFile.ts. Do not call fs.writeFileSync directly for pipeline output — both helpers stage bytes to a temp file and rename over the target, retrying on a backoff if the rename is transiently blocked."
     },
     "architectural_constraints": {
       "no-database": "All data stored as flat JSON files, no traditional database. Read/write via Node.js fs module.",

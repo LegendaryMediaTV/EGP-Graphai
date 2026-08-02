@@ -81,6 +81,14 @@ A few one-shot tools live alongside validation and export:
 
 These exist for migrations and corrections. Once a translation is clean, they shouldn't need to run again.
 
+## Writing files
+
+Every tool that mutates a verse file or writes an export — `validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts` — goes through [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts) rather than calling `fs.writeFileSync` directly.
+
+The bytes land in a staging file beside the target and get renamed over it, instead of truncating the target in place. This matters on Windows, where reopening an existing file for truncation can collide with something else briefly holding it open — a backup agent, an indexer, a virus scanner — and fail with a transient error. A rename isn't blocked by a reader holding the old file, and a reader never observes a half-written file mid-swap. Writes that hit the transient retry on a backoff before giving up and throwing, naming the file.
+
+JSON payloads are formatted in-process with the same Prettier call `validate.ts` uses to check formatting, so a file this writes is already a fixed point of validation — re-running `npm run validate` right after should report no changes. This also replaces the old approach of shelling out to `npx prettier --write` once per file, which cost a process per book across a full run. Non-JSON output (Markdown, Strong's text) skips the formatting step and writes through the same staging-and-rename path verbatim.
+
 ## Adding a new translation
 
 The mechanical steps live in the [project README](../../../README.md#adding-new-bible-versions). The non-obvious things to think about:
@@ -110,3 +118,4 @@ The export logic in particular has tight test coverage because it's the most fra
 - **One translation at a time during migrations.** When using `convertToSmallCaps` or similar batch tools, scope to one version, eyeball the diff, then move on.
 - **Watch for missing dispatch cases.** If exports start dropping content after a schema change, the first thing to check is `renderContent` in [utils/exportContent.ts](../../../utils/exportContent.ts) for a missing branch — the bug presents as silent omission, not as a crash.
 - **Footnote letters are not stable across edits.** Inserting a footnote earlier in a chapter relabels every subsequent footnote in the export. Don't treat the letters as IDs.
+- **A "Failed to write … after N attempts" error names a real holdout.** The retries in [writeJsonFile.ts](../../../functions/writeJsonFile.ts) already absorb the usual transient file lock; if a write still fails after all of them, something (antivirus, an indexer, a sync client) is holding that specific file open longer than the retry budget — check what's watching the folder rather than re-running the tool.

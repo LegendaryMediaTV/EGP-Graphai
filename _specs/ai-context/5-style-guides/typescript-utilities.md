@@ -24,7 +24,7 @@ function helperFunction(): void { ... }
 export default function mainFunction(): ResultType { ... }
 
 // 5. CLI entry point (if script can be run directly)
-function main(): void {
+async function main(): Promise<void> {
   const arg1 = process.argv[2];
   // Process arguments and call functions
 }
@@ -33,6 +33,8 @@ if (require.main === module) {
   main();
 }
 ```
+
+CLI entry points are `async` even when nothing in the script's own logic requires it, because every script that writes output (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`) `await`s a call into [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). `exportContent.ts`'s `main()` also wraps its `require.main === module` call in `.catch()` to report failures with a non-zero exit rather than an unhandled rejection.
 
 ## Naming and Organization
 
@@ -86,9 +88,14 @@ if (!fs.existsSync(outputDir)) {
 // Read and parse JSON
 const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-// Write with consistent encoding
-fs.writeFileSync(outputPath, content, "utf-8");
+// Write JSON data — formats in-process and writes via stage-then-rename
+await writeJsonFile(outputPath, data);
+
+// Write text that's already exactly what belongs on disk (Markdown, plain text)
+await writeFileAtomic(outputPath, content);
 ```
+
+Both helpers come from [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). Neither utility script calls `fs.writeFileSync` directly for output it produces — the staged write and retry-on-backoff behavior guards against a Windows transient where something else (antivirus, an indexer) briefly holds the target file open.
 
 ### CLI Argument Handling
 
@@ -143,13 +150,16 @@ function convertContentToText(content: Content): string {
 /**
  * Process a single verse file and write output.
  */
-function processVerseFile(inputPath: string, outputPath: string): void {
+async function processVerseFile(
+  inputPath: string,
+  outputPath: string
+): Promise<void> {
   const verses: VerseSchema[] = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
   const lines = verses.map((v) => convertVerseToText(v));
-  fs.writeFileSync(outputPath, lines.join("\n"), "utf-8");
+  await writeFileAtomic(outputPath, lines.join("\n"));
 }
 
-function main(): void {
+async function main(): Promise<void> {
   const version = process.argv[2];
   const bookId = process.argv[3];
 
