@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Content, { ContentObject, ContentNested } from "../types/Content";
+import { writeFileAtomic } from "../functions/writeJsonFile";
 import VerseSchema from "../types/VerseSchema";
 
 // ============================================================================
@@ -361,7 +362,10 @@ function convertVerseToMarkdown(
 // File I/O Functions (unchanged)
 // ============================================================================
 
-function convertBibleVersion(version: string, bookId?: string): void {
+async function convertBibleVersion(
+  version: string,
+  bookId?: string
+): Promise<void> {
   const inputDir = path.join(
     path.dirname(__dirname),
     "bible-versions",
@@ -394,11 +398,14 @@ function convertBibleVersion(version: string, bookId?: string): void {
     const data: VerseSchema[] = JSON.parse(fs.readFileSync(inputPath, "utf-8"));
     const textLines = data.map((verse) => convertVerseToText(verse));
 
-    fs.writeFileSync(outputPath, textLines.join("\n"), "utf-8");
+    await writeFileAtomic(outputPath, textLines.join("\n"));
   }
 }
 
-function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
+async function convertBibleVersionToMarkdown(
+  version: string,
+  bookId?: string
+): Promise<void> {
   const inputDir = path.join(
     path.dirname(__dirname),
     "bible-versions",
@@ -525,12 +532,12 @@ function convertBibleVersionToMarkdown(version: string, bookId?: string): void {
     }
 
     const outputPath = path.join(outputDir, file.replace(".json", ".md"));
-    fs.writeFileSync(outputPath, markdownLines.join("\n") + "\n", "utf-8");
+    await writeFileAtomic(outputPath, markdownLines.join("\n") + "\n");
     console.log(`Markdown conversion complete: ${outputPath}`);
   }
 }
 
-function main(): void {
+async function main(): Promise<void> {
   const translation = process.argv[2];
   const bookId = process.argv[3];
 
@@ -548,15 +555,18 @@ function main(): void {
 
   for (const version of versions) {
     console.log(`Processing version: ${version}`);
-    convertBibleVersion(version, bookId);
-    convertBibleVersionToMarkdown(version, bookId);
+    await convertBibleVersion(version, bookId);
+    await convertBibleVersionToMarkdown(version, bookId);
   }
 
   console.log("Conversion complete!");
 }
 
 if (require.main === module) {
-  main();
+  main().catch((error) => {
+    console.error("Export failed with error:", error.message);
+    process.exit(1);
+  });
 }
 
 // Export functions for testing

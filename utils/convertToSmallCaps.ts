@@ -20,6 +20,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { execSync } from "child_process";
 import { convertContentToSmallCaps } from "../functions/convertToSmallCaps";
+import { writeJsonFile } from "../functions/writeJsonFile";
 
 // Type definition for verse structure
 interface Verse {
@@ -90,15 +91,15 @@ function countPatterns(content: any): { lord: number; lordGod: number } {
 /**
  * Process a single book file
  */
-function processBook(
+async function processBook(
   filePath: string,
   dryRun: boolean = false
-): {
+): Promise<{
   converted: number;
   skipped: number;
   lordCount: number;
   lordGodCount: number;
-} {
+}> {
   const verses: Verse[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
   let converted = 0;
@@ -135,11 +136,7 @@ function processBook(
   });
 
   if (!dryRun && converted > 0) {
-    // Write back to file
-    fs.writeFileSync(filePath, JSON.stringify(processedVerses, null, 2) + "\n");
-
-    // Format with Prettier
-    execSync(`npx prettier --write "${filePath}"`, { stdio: "inherit" });
+    await writeJsonFile(filePath, processedVerses);
   }
 
   return { converted, skipped, lordCount, lordGodCount };
@@ -231,7 +228,7 @@ async function main() {
     const bookId = bookFile.replace(/^\d{2}-/, "").replace(".json", "");
     const bookName = getBookName(bookId);
 
-    const { converted, skipped, lordCount, lordGodCount } = processBook(
+    const { converted, skipped, lordCount, lordGodCount } = await processBook(
       filePath,
       dryRun
     );

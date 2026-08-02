@@ -16,6 +16,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { execSync } from "child_process";
 import { sortVerseKeys } from "../functions/sortContentKeys";
+import { writeJsonFile } from "../functions/writeJsonFile";
 
 // Type definition for verse structure
 interface Verse {
@@ -72,10 +73,10 @@ function getBookFiles(versionDir: string, bookId?: string): string[] {
 /**
  * Process a single book file
  */
-function processBook(
+async function processBook(
   filePath: string,
   dryRun: boolean = false
-): { changed: boolean; verseCount: number } {
+): Promise<{ changed: boolean; verseCount: number }> {
   const originalContent = fs.readFileSync(filePath, "utf-8");
   const verses: Verse[] = JSON.parse(originalContent);
 
@@ -89,9 +90,7 @@ function processBook(
   const changed = originalSerialized !== sortedSerialized;
 
   if (!dryRun && changed) {
-    const sortedContent = JSON.stringify(sortedVerses, null, 2) + "\n";
-    fs.writeFileSync(filePath, sortedContent);
-    execSync(`npx prettier --write "${filePath}"`, { stdio: "inherit" });
+    await writeJsonFile(filePath, sortedVerses);
   }
 
   return { changed, verseCount: verses.length };
@@ -153,7 +152,7 @@ async function main() {
     const fileBookId = bookFile.replace(/^\d{2}-/, "").replace(".json", "");
     const bookName = getBookName(fileBookId);
 
-    const { changed, verseCount } = processBook(filePath, dryRun);
+    const { changed, verseCount } = await processBook(filePath, dryRun);
 
     if (changed) {
       totalChanged++;
