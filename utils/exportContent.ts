@@ -32,6 +32,21 @@ const TEXT_OPTIONS: RenderOptions = {
   footnoteMarker: () => "°",
 };
 
+/**
+ * Letter label for the nth footnote (0-based) in a chapter: a, b, ... z, aa,
+ * ab, ... Chapters routinely carry more than 26 footnotes: NKJV1982 PSA 119
+ * has 135, reaching "ee".
+ */
+function footnoteLabel(index: number): string {
+  let remaining = index;
+  let label = "";
+  do {
+    label = String.fromCharCode(97 + (remaining % 26)) + label;
+    remaining = Math.floor(remaining / 26) - 1;
+  } while (remaining >= 0);
+  return label;
+}
+
 const MARKDOWN_OPTIONS: RenderOptions = {
   includeStrongs: false,
   includeMorph: false,
@@ -41,8 +56,7 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   lineBreakMarker: "<br>",
   headingWrapper: (text) => `\n### ${text}\n`,
   subtitleWrapper: (text) => `> _${text}_`,
-  footnoteMarker: (index) =>
-    `<sup>${String.fromCharCode(97 + (index % 26))}</sup>`,
+  footnoteMarker: (index) => `<sup>${footnoteLabel(index)}</sup>`,
 };
 
 // ============================================================================
@@ -60,17 +74,14 @@ interface RenderContext {
  * Render any Content to a string based on options.
  */
 function renderContent(content: Content, ctx: RenderContext): string {
-  // String content
   if (typeof content === "string") {
     return content;
   }
 
-  // Array content - join all rendered parts
   if (Array.isArray(content)) {
     return content.map((item) => renderContent(item, ctx)).join("");
   }
 
-  // Object content - dispatch by type
   if ("heading" in content) {
     const inner = renderContent(content.heading, {
       ...ctx,
@@ -123,9 +134,9 @@ function renderContent(content: Content, ctx: RenderContext): string {
 function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
   const parts: string[] = [];
 
-  // Paragraph marker at start (with leading space for text format to separate from previous content)
   if (obj.paragraph) {
-    // For text format, add a space before the marker to separate from previous word's Strong's/morph
+    // Text format needs a space before the marker to separate it from the
+    // previous word's Strong's/morph
     if (ctx.options.footnoteStyle === "inline") {
       parts.push(" " + ctx.options.paragraphMarker);
     } else {
@@ -133,23 +144,21 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
     }
   }
 
-  // Text content - apply formatting marks
   let text = obj.text || "";
 
-  // Apply small caps mark as uppercase (for text/markdown exports)
+  // Small caps render as uppercase in the text and markdown exports
   if (obj.marks?.includes("sc")) {
     text = text.toUpperCase();
   }
 
   parts.push(text);
 
-  // Footnote marker and inline content (immediately after text, before Strong's/morph)
-  // This allows users to search/replace °{...} cleanly without affecting Strong's spacing
+  // Footnote marker and content come before Strong's/morph so users can
+  // search/replace °{...} cleanly without affecting Strong's spacing
   if (obj.foot && ctx.options.includeFootnotes) {
     const footIndex = ctx.footnotes.length;
     parts.push(ctx.options.footnoteMarker(footIndex));
 
-    // Add footnote to collection
     const footnoteContent = renderContent(obj.foot.content, {
       ...ctx,
       options: { ...ctx.options, includeStrongs: false, includeMorph: false },
@@ -157,16 +166,14 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
     });
 
     if (ctx.options.footnoteStyle === "inline") {
-      // Add inline footnote content immediately after marker, before Strong's/morph
-      // No space before { so users can search/replace °{...} cleanly
+      // No space before { so °{...} stays a clean search/replace target
       parts.push(`{${footnoteContent}}`);
-      // Add trailing space if this is a textless footnote-only element (no text, no Strong's)
-      // so the next content item has proper spacing
+      // A textless footnote-only element needs a trailing space so the next
+      // content item is spaced correctly
       if (!text && !obj.strong) {
         parts.push(" ");
       }
     } else {
-      // Use footnotePrefix if available (for subtitles/headings), otherwise verse number
       const prefix = ctx.footnotePrefix || `${ctx.verseNum}.`;
       ctx.footnotes.push(
         `- ${ctx.options.footnoteMarker(footIndex)} ${prefix} ${footnoteContent}`
@@ -174,18 +181,14 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
     }
   }
 
-  // Strong's number
   if (obj.strong && ctx.options.includeStrongs) {
-    // Always add space before Strong's
     parts.push(" " + obj.strong);
   }
 
-  // Morph code
   if (obj.morph && ctx.options.includeMorph) {
     parts.push(` (${obj.morph})`);
   }
 
-  // Line break marker
   if (obj.break) {
     parts.push(ctx.options.lineBreakMarker);
   }
@@ -194,15 +197,15 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
 }
 
 /**
- * Render a ContentNested (nested content with optional strong, morph, foot, paragraph, break)
- * Similar to renderTextObject but renders nested content instead of text property
+ * Render a ContentNested — like renderTextObject, but the payload is nested
+ * content rather than a text property.
  */
 function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
   const parts: string[] = [];
 
-  // Paragraph marker at start (with leading space for text format to separate from previous content)
   if (obj.paragraph) {
-    // For text format, add a space before the marker to separate from previous word's Strong's/morph
+    // Text format needs a space before the marker to separate it from the
+    // previous word's Strong's/morph
     if (ctx.options.footnoteStyle === "inline") {
       parts.push(" " + ctx.options.paragraphMarker);
     } else {
@@ -210,16 +213,15 @@ function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
     }
   }
 
-  // Render nested content
   const nestedText = renderContent(obj.content, ctx);
   parts.push(nestedText);
 
-  // Footnote marker and inline content (immediately after text, before Strong's/morph)
+  // Footnote marker and content come before Strong's/morph so °{...} stays a
+  // clean search/replace target
   if (obj.foot && ctx.options.includeFootnotes) {
     const footIndex = ctx.footnotes.length;
     parts.push(ctx.options.footnoteMarker(footIndex));
 
-    // Add footnote to collection
     const footnoteContent = renderContent(obj.foot.content, {
       ...ctx,
       options: { ...ctx.options, includeStrongs: false, includeMorph: false },
@@ -239,23 +241,19 @@ function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
     }
   }
 
-  // Strong's number
   if (obj.strong && ctx.options.includeStrongs) {
     parts.push(" " + obj.strong);
   }
 
-  // Morph code
   if (obj.morph && ctx.options.includeMorph) {
     parts.push(` (${obj.morph})`);
   }
 
-  // Lemma
+  // Lemma is included when Strong's are shown, since the two are related
   if (obj.lemma && ctx.options.includeStrongs) {
-    // Include lemma if Strong's are shown (since they're related)
     parts.push(` [${obj.lemma}]`);
   }
 
-  // Line break marker
   if (obj.break) {
     parts.push(ctx.options.lineBreakMarker);
   }
@@ -282,7 +280,6 @@ function convertVerseToText(verse: VerseSchema): string {
 
   let text = renderContent(verse.content, ctx);
 
-  // Clean up spacing issues
   text = text.replace(/^ +/, ""); // Remove leading spaces
   text = text.replace(/ +$/, ""); // Remove trailing spaces
   text = text.replace(/ +/g, " "); // Collapse multiple spaces
@@ -303,7 +300,6 @@ function convertVerseToMarkdown(
     verseNum: verse.verse,
   };
 
-  // Check if verse starts with heading
   let headingPrefix = "";
   let processedContent = verse.content;
 
@@ -319,7 +315,6 @@ function convertVerseToMarkdown(
     }
   }
 
-  // Check for leading paragraph
   let hasLeadingParagraph = false;
   if (Array.isArray(processedContent) && processedContent.length > 0) {
     const first = processedContent[0];
@@ -348,7 +343,6 @@ function convertVerseToMarkdown(
     text = text.replace(/^\n\n/, "");
   }
 
-  // Clean up extra spaces and leading space after verse number
   text = text.replace(/^ +/, ""); // Remove leading spaces
   text = text.replace(/ +/g, " "); // Collapse multiple spaces
   text = text.replace(/ ([.,;:!?])/g, "$1"); // Remove space before punctuation
@@ -359,7 +353,7 @@ function convertVerseToMarkdown(
 }
 
 // ============================================================================
-// File I/O Functions (unchanged)
+// File I/O Functions
 // ============================================================================
 
 async function convertBibleVersion(
@@ -437,7 +431,6 @@ async function convertBibleVersionToMarkdown(
 
     if (verses.length === 0) continue;
 
-    // Group verses by chapter
     const chapters = new Map<number, VerseSchema[]>();
     for (const verse of verses) {
       if (!chapters.has(verse.chapter)) {
@@ -459,7 +452,7 @@ async function convertBibleVersionToMarkdown(
 
       const chapterFootnotes: string[] = [];
 
-      // Check for subtitle in first verse
+      // A leading subtitle prints above the chapter rather than inside verse 1
       if (chapterVerses.length > 0) {
         const firstContent = chapterVerses[0].content;
         if (Array.isArray(firstContent) && firstContent.length > 0) {
@@ -479,7 +472,7 @@ async function convertBibleVersionToMarkdown(
         }
       }
 
-      // Check for heading in first verse
+      // A leading heading prints above the chapter rather than inside verse 1
       if (chapterVerses.length > 0) {
         const firstContent = chapterVerses[0].content;
         if (Array.isArray(firstContent) && firstContent.length > 0) {
@@ -498,7 +491,7 @@ async function convertBibleVersionToMarkdown(
         }
       }
 
-      // Check for leading paragraph on first verse
+      // Whether verse 1 opens its own paragraph, which decides the blank line
       let firstVerseHasLeadingParagraph = false;
       if (chapterVerses.length > 0) {
         const firstContent = chapterVerses[0].content;

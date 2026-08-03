@@ -115,7 +115,7 @@
 <sup>15</sup> You will sow, but won’t reap.<br>You will tread the olives, but won’t anoint yourself with oil;<br>and crush grapes, but won’t drink the wine.<br>
 <sup>16</sup> For the statutes of Omri are kept,<br>and all the works of Ahab’s house.<br>You walk in their counsels,<br>that I may make you a ruin,<br>and your inhabitants a hissing.<br>You will bear the reproach of my people.”
 
-> - <sup>a</sup> 10. An ephah is a measure of volume (about 22 liters or about 2/3 of a bushel), and a short ephah is made smaller than a full ephah for the purpose of cheating customers.
+> - <sup>a</sup> 10. An ephah is a measure of volume (about 22 liters or about ²⁄₃ of a bushel), and a short ephah is made smaller than a full ephah for the purpose of cheating customers.
 
 ## Chapter 7
 

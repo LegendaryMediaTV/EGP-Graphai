@@ -332,7 +332,7 @@ These are the families of the Levites according to their fathers’ houses.
 <sup>30</sup> or when the spirit of jealousy comes on a man, and he is jealous of his wife; then he shall set the woman before Yahweh, and the priest shall execute on her all this law.
 <sup>31</sup> The man shall be free from iniquity, and that woman shall bear her iniquity.’ ”
 
-> - <sup>a</sup> 15. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 15. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 28. or, seed
 
 ## Chapter 6
@@ -984,10 +984,10 @@ Yahweh’s glory appeared in the Tent of Meeting to all the children of Israel.
 <sup>40</sup> so that you may remember and do all my commandments, and be holy to your God.
 <sup>41</sup> I am Yahweh your God, who brought you out of the land of Egypt, to be your God: I am Yahweh your God.”
 
-> - <sup>a</sup> 4. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 4. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 4. A hin is about 6.5 liters or 1.7 gallons.
-> - <sup>c</sup> 6. 1 ephah is about 22 liters or about 2/3 of a bushel
-> - <sup>d</sup> 9. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>c</sup> 6. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
+> - <sup>d</sup> 9. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>e</sup> 38. or, tassels (Hebrew צִיצִ֛ת)
 > - <sup>f</sup> 38. or, tassel
 > - <sup>g</sup> 39. or, tassel
@@ -1588,11 +1588,11 @@ These are those who came out of the land of Egypt.
 <sup>30</sup> and one male goat, to make atonement for you.
 <sup>31</sup> Besides the continual burnt offering and its meal offering, you shall offer them and their drink offerings. See that they are without defect.
 
-> - <sup>a</sup> 5. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 5. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 5. A hin is about 6.5 liters or 1.7 gallons.
-> - <sup>c</sup> 7. One hin is about 6.5 liters, so 1/4 hin is about 1.6 liters or 1.7 quarts.
-> - <sup>d</sup> 9. 1 ephah is about 22 liters or about 2/3 of a bushel
-> - <sup>e</sup> 12. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>c</sup> 7. One hin is about 6.5 liters, so ¹⁄₄ hin is about 1.6 liters or 1.7 quarts.
+> - <sup>d</sup> 9. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
+> - <sup>e</sup> 12. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 
 ## Chapter 29
 

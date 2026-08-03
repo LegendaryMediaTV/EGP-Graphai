@@ -83,7 +83,7 @@ She told her mother-in-law with whom she had worked, “The man’s name with wh
 <sup>22</sup> Naomi said to Ruth her daughter-in-law, “It is good, my daughter, that you go out with his maidens, and that they not meet you in any other field.”
 <sup>23</sup> So she stayed close to the maidens of Boaz, to glean to the end of barley harvest and of wheat harvest; and she lived with her mother-in-law.
 
-> - <sup>a</sup> 17. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 17. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 
 ## Chapter 3
 

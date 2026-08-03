@@ -141,7 +141,7 @@
 <sup>18</sup> He shall bring a ram without defect from of the flock, according to your estimation, for a trespass offering, to the priest; and the priest shall make atonement for him concerning the thing in which he sinned and didn’t know it, and he will be forgiven.
 <sup>19</sup> It is a trespass offering. He is certainly guilty before Yahweh.”
 
-> - <sup>a</sup> 11. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 11. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 15. A shekel is about 10 grams or about 0.35 ounces.
 
 ## Chapter 6
@@ -181,7 +181,7 @@
 <sup>29</sup> Every male among the priests shall eat of it. It is most holy.
 <sup>30</sup> No sin offering, of which any of the blood is brought into the Tent of Meeting to make atonement in the Holy Place, shall be eaten. It shall be burned with fire.
 
-> - <sup>a</sup> 20. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 20. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 
 ## Chapter 7
 
@@ -562,9 +562,9 @@ Aaron held his peace.
 
 This is the law of leprosy.
 
-> - <sup>a</sup> 10. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 10. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 10. a log is a liquid measure of about 300 ml or 10 ounces
-> - <sup>c</sup> 21. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>c</sup> 21. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>d</sup> 21. a log is a liquid measure of about 300 ml or 10 ounces
 
 ## Chapter 15
@@ -825,7 +825,7 @@ It was done as Yahweh commanded Moses.
 
 > - <sup>a</sup> 16. Literally, “blood”
 > - <sup>b</sup> 23. Literally, “uncircumcised”
-> - <sup>c</sup> 36. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>c</sup> 36. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>d</sup> 36. A hin is about 6.5 liters or 1.7 gallons.
 
 ## Chapter 20
@@ -1014,9 +1014,9 @@ It was done as Yahweh commanded Moses.
 
 <sup>44</sup> So Moses declared to the children of Israel the appointed feasts of Yahweh.
 
-> - <sup>a</sup> 13. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 13. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 13. A hin is about 6.5 liters or 1.7 gallons.
-> - <sup>c</sup> 17. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>c</sup> 17. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>d</sup> 34. or, feast of tents, or Succoth
 > - <sup>e</sup> 42. or, booths
 > - <sup>f</sup> 42. or, booths
@@ -1052,7 +1052,7 @@ It was done as Yahweh commanded Moses.
 
 <sup>23</sup> Moses spoke to the children of Israel; and they brought him who had cursed out of the camp, and stoned him with stones. The children of Israel did as Yahweh commanded Moses.
 
-> - <sup>a</sup> 5. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 5. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 
 ## Chapter 25
 
