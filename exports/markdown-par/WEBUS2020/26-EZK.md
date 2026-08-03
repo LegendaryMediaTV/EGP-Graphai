@@ -1689,13 +1689,13 @@ I answered, “Lord Yahweh, you know.”
 <sup>25</sup> “ ‘ “In the seventh month, on the fifteenth day of the month, during the feast, he shall do like that for seven days. He shall make the same provision for sin offering, the burnt offering, the meal offering, and the oil.”
 
 > - <sup>a</sup> 2. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
-> - <sup>b</sup> 10. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>b</sup> 10. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>c</sup> 11. 1 homer is about 220 liters or 6 bushels
 > - <sup>d</sup> 12. A shekel is about 10 grams or about 0.35 ounces.
 > - <sup>e</sup> 12. a gerah is about 0.5 grams or about 7.7 grains
 > - <sup>f</sup> 12. A mina is about 600 grams or 1.3 U. S. pounds.
 > - <sup>g</sup> 14. 1 cor is the same as 1 homer in volume, and is about 211 liters, 55.9 gallons, or 6 bushels. 1 bath is about 21.1 liters, 5.59 gallons, or 2.4 pecks.
-> - <sup>h</sup> 24. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>h</sup> 24. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>i</sup> 24. A hin is about 6.5 liters or 1.7 gallons.
 
 ## Chapter 46
@@ -1732,9 +1732,9 @@ I answered, “Lord Yahweh, you know.”
 <sup>24</sup> Then he said to me, “These are the boiling houses, where the ministers of the house shall boil the sacrifice of the people.”
 
 > - <sup>a</sup> 5. A hin is about 6.5 liters or 1.7 gallons.
-> - <sup>b</sup> 5. 1 ephah is about 22 liters or about 2/3 of a bushel
-> - <sup>c</sup> 11. 1 ephah is about 22 liters or about 2/3 of a bushel
-> - <sup>d</sup> 14. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>b</sup> 5. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
+> - <sup>c</sup> 11. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
+> - <sup>d</sup> 14. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>e</sup> 22. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
 
 ## Chapter 47

@@ -136,9 +136,9 @@ He said, “This is the ephah<sup>b</sup> basket that is appearing.” He said m
 <sup>11</sup> He said to me, “To build her a house in the land of Shinar. When it is prepared, she will be set there in her own place.”
 
 > - <sup>a</sup> 2. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
-> - <sup>b</sup> 6. An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about 2/3 of a bushel.
+> - <sup>b</sup> 6. An ephah is a measure of volume of about 22 liters, 5.8 U. S. gallons, or about ²⁄₃ of a bushel.
 > - <sup>c</sup> 7. A talent is about 30 kilograms or 66 pounds.
-> - <sup>d</sup> 7. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>d</sup> 7. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 
 ## Chapter 6
 

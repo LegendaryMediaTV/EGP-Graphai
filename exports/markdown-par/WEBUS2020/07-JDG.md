@@ -280,7 +280,7 @@ When they inquired and asked, they said, “Gideon the son of Joash has done thi
 <sup>40</sup> God did so that night; for it was dry on the fleece only, and there was dew on all the ground.
 
 > - <sup>a</sup> 15. The word translated “Lord” is “Adonai.”
-> - <sup>b</sup> 19. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>b</sup> 19. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>c</sup> 24. or, Yahweh Shalom
 > - <sup>d</sup> 32. “Jerub-Baal” means “Let Baal contend”.
 

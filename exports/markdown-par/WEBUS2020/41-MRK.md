@@ -812,7 +812,7 @@ The common people heard him gladly.
 > - <sup>d</sup> 31. Leviticus 19:18
 > - <sup>e</sup> 36. Psalm 110:1
 > - <sup>f</sup> 42. Literally, lepta (or widow’s mites). Lepta are very small brass coins worth half a quadrans each, which is a quarter of the copper assarion. Lepta are worth less than 1% of an agricultural worker’s daily wages.
-> - <sup>g</sup> 42. A quadrans is a coin worth about 1/64 of a denarius. A denarius is about one day’s wages for an agricultural laborer.
+> - <sup>g</sup> 42. A quadrans is a coin worth about ¹⁄₆₄ of a denarius. A denarius is about one day’s wages for an agricultural laborer.
 
 ## Chapter 13
 

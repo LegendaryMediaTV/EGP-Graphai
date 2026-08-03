@@ -656,7 +656,7 @@ The people bowed their heads and worshiped.
 
 > - <sup>a</sup> 16. An omer is about 2.2 liters or about 2.3 quarts
 > - <sup>b</sup> 31. “Manna” means “What is it?”
-> - <sup>c</sup> 36. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>c</sup> 36. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 
 ## Chapter 17
 
@@ -1116,7 +1116,7 @@ Moses reported the words of the people to Yahweh.
 <sup>21</sup> In the Tent of Meeting, outside the veil which is before the covenant, Aaron and his sons shall keep it in order from evening to morning before Yahweh: it shall be a statute forever throughout their generations on the behalf of the children of Israel.
 
 > - <sup>a</sup> 1. A cubit is the length from the tip of the middle finger to the elbow on a man’s arm, or about 18 inches or 46 centimeters.
-> - <sup>b</sup> 1. The altar was to be about 2.3×2.3×1.4 meters or about 7½×7½×4½ feet.
+> - <sup>b</sup> 1. The altar was to be about 2.3×2.3×1.4 meters or about 7¹⁄₂×7¹⁄₂×4¹⁄₂ feet.
 
 ## Chapter 28
 
@@ -1229,7 +1229,7 @@ Moses reported the words of the people to Yahweh.
 <sup>45</sup> I will dwell among the children of Israel, and will be their God.
 <sup>46</sup> They shall know that I am Yahweh their God, who brought them out of the land of Egypt, that I might dwell among them: I am Yahweh their God.
 
-> - <sup>a</sup> 40. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 40. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 40. A hin is about 6.5 liters or 1.7 gallons, so a fourth of a hin is about 1.6 liters.
 
 ## Chapter 30

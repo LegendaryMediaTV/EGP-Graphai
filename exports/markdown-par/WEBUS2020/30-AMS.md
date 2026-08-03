@@ -203,7 +203,7 @@ Then Yahweh said to me,<br>“The end has come on my people Israel.<br>I will no
 <sup>13</sup> In that day the beautiful virgins<br>and the young men will faint for thirst.<br>
 <sup>14</sup> Those who swear by the sin of Samaria,<br>and say, ‘As your god, Dan, lives,’<br>and, ‘As the way of Beersheba lives,’<br>they will fall, and never rise up again.”
 
-> - <sup>a</sup> 5. 1 ephah is about 22 liters or about 2/3 of a bushel
+> - <sup>a</sup> 5. 1 ephah is about 22 liters or about ²⁄₃ of a bushel
 > - <sup>b</sup> 5. a normal shekel is about 10 grams or about 0.35 ounces.
 
 ## Chapter 9

@@ -192,7 +192,7 @@ describe("exportContent", () => {
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
       expect(result).toBe("<sup>1</sup> In the beginning God");
-      expect(result).not.toContain("H7225"); // No Strong's in markdown
+      expect(result).not.toContain("H7225");
     });
 
     it("should convert verse with paragraph marker", () => {
@@ -339,7 +339,6 @@ describe("exportContent", () => {
         ],
       };
       const result = convertVerseToText(verse);
-      // Check key parts
       expect(result).toMatch(/^009:001/);
       expect(result).toContain(
         "«To the chief Musician H5329 (8764) upon Muthlabben, H4192 H1121 A Psalm H4210 of David. H1732»"
@@ -376,7 +375,6 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        // Should have paragraph break (double newline) between sentences
         expect(result).toContain("βασιλέα.\n\nΔαυὶδ");
       });
 
@@ -391,7 +389,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Text format should have ¶ marker before second sentence
         expect(result).toContain("G1234 ¶ Second sentence.");
       });
     });
@@ -419,7 +416,6 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        // Check that footnote has Subtitle. prefix
         expect(footnotes[0]).toContain("Subtitle. Originally verse 10:1.");
       });
 
@@ -467,9 +463,8 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Footnote marker and content should come BEFORE Strong's and morph
-        // Expected: Βοὸζ°{N Βοὸζ ἐκ ⇒ Βόες ἐκ} G1003 (N-PRI)
-        // This allows clean removal: °{...} leaves "Βοὸζ G1003 (N-PRI)"
+        // Footnote content sits before Strong's/morph, so removing °{...}
+        // leaves "Βοὸζ G1003 (N-PRI)"
         expect(result).toMatch(/Βοὸζ°\{N Βοὸζ ἐκ ⇒ Βόες ἐκ\} G1003 \(N-PRI\)/);
       });
 
@@ -492,7 +487,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Each footnote content should come before its Strong's
         expect(result).toMatch(/Word1°\{Note 1\} G1111/);
         expect(result).toMatch(/Word2°\{Note 2\} G2222/);
       });
@@ -506,7 +500,7 @@ describe("exportContent", () => {
           chapter: 3,
           verse: 1,
           content: [
-            { paragraph: true, strong: "G1161" }, // textless element with paragraph
+            { paragraph: true, strong: "G1161" },
             { text: " In", strong: "G1722" },
             { text: " those", strong: "G1565" },
             { text: " days", strong: "G2250" },
@@ -514,7 +508,6 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        // Should be: "<sup>1</sup> In those days" NOT "<sup>1</sup>  In those days"
         expect(result).toBe("\n<sup>1</sup> In those days");
         expect(result).not.toContain("  "); // No double spaces
       });
@@ -535,14 +528,13 @@ describe("exportContent", () => {
         expect(result).toBe(
           "050:023 °{Originally verse 50:22.} et vidit Ephraim filios"
         );
-        // Should have space after } so removing °{...} leaves correct spacing
         expect(result).toContain("} et vidit");
       });
     });
 
     describe("line break marker spacing", () => {
       it("should not add extra spaces around line break markers (WEBUS2020 GEN 3:14 style)", () => {
-        // WEBUS2020 GEN 3:14: text with break: true markers
+        // WEBUS2020 GEN 3:14
         const verse: VerseSchema = {
           book: "GEN",
           chapter: 3,
@@ -558,9 +550,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Expected: "003:014 ¶ Yahweh God said to the serpent,␤"Because you have done this,␤you are cursed..."
-        // NOT: "Yahweh God said to the serpent, ␤"Because..." (space before ␤)
-        // NOT: "serpent,␤ "Because..." (space after ␤ when text has leading quote)
         expect(result).toBe(
           "003:014 ¶ Yahweh God said to the serpent,␤\u201CBecause you have done this,␤you are cursed above all livestock,␤"
         );
@@ -584,7 +573,6 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        // Should be clean <br> without extra spaces
         expect(result).toBe(
           "\n<sup>14</sup> Yahweh God said to the serpent,<br>\u201CBecause you have done this,<br>"
         );
@@ -610,9 +598,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Should end without trailing space
-        // First element: text°{content} Strong's (morph)
-        // Second element: °{content} (textless footnote)
         expect(result).toBe(
           "003:027 διαρπάσῃ.°{B διαρπάσῃ ⇒ διαρπάσει} G1283 (V-AAS-3S)°{N διαρπάσῃ ⇒ διαρπάσει}"
         );
@@ -636,12 +621,11 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Should be: text°{content}nexttext - no space between ° and {
-        // This allows users to search/replace °{...} to remove footnotes cleanly
+        // text°{content}nexttext - no space between ° and {, so users can
+        // search/replace °{...} to remove footnotes cleanly
         expect(result).toBe(
           "020:028 cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius °{Originally verse 20:29.}illo mortuo in montis supercilio descendit cum Eleazaro"
         );
-        // Key assertion: no space between ° and {
         expect(result).not.toMatch(/° \{/);
         expect(result).toMatch(/°\{/);
       });
@@ -667,7 +651,6 @@ describe("exportContent", () => {
       });
 
       it("should allow clean removal of footnotes via search/replace", () => {
-        // When user replaces °{...} with empty string, spacing should be correct
         const verse: VerseSchema = {
           book: "NUM",
           chapter: 20,
@@ -681,13 +664,11 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // After removing °{note}, result should be "eius illo mortuo" (correct spacing)
         const withoutFootnote = result.replace(/°\{[^}]*\}/g, "");
         expect(withoutFootnote).toBe("020:028 eius illo mortuo");
       });
 
       it("should handle footnote with Strong's - footnote content before Strong's (BYZ style)", () => {
-        // BYZ style: text°{content} Strong's (morph)
         const verse: VerseSchema = {
           book: "MAT",
           chapter: 1,
@@ -703,7 +684,6 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // text°{content} Strong's (morph) - content before Strong's
         expect(result).toContain("Βοὸζ°{N Βοὸζ ⇒ Βόες} G1003 (N-PRI)");
         // Removing °{...} should give correct spacing
         const withoutFootnote = result.replace(/°\{[^}]*\}/g, "");
@@ -713,7 +693,6 @@ describe("exportContent", () => {
 
     describe("nested content (ContentNested)", () => {
       it("should render nested content with Strong's number", () => {
-        // Example: {content: [" O ", {text: "Lord", marks: ["sc"]}, "."], strong: "H3068"}
         const verse: VerseSchema = {
           book: "GEN",
           chapter: 49,
@@ -768,7 +747,6 @@ describe("exportContent", () => {
         };
         const footnotes: string[] = [];
         const result = convertVerseToMarkdown(verse, footnotes);
-        // Markdown should show text without Strong's, sc should be uppercase
         expect(result).toBe(
           "<sup>18</sup> I have waited for thy salvation, O LORD."
         );
@@ -852,6 +830,61 @@ describe("exportContent", () => {
         // Inner nested content has H3068, outer has H430
         expect(result).toBe("001:001 O LORD H3068 God H430");
       });
+    });
+  });
+
+  describe("markdown footnote labels past 26 in a chapter", () => {
+    /**
+     * Build one verse per footnote and render them all against a single
+     * chapter-scoped footnote array, the way convertBibleVersionToMarkdown does.
+     */
+    function renderChapterWithFootnotes(count: number): {
+      markers: string[];
+      footnotes: string[];
+    } {
+      const footnotes: string[] = [];
+      const markers: string[] = [];
+      for (let i = 0; i < count; i++) {
+        const verse: VerseSchema = {
+          book: "PSA",
+          chapter: 119,
+          verse: i + 1,
+          content: [{ text: `word${i}`, foot: { content: `note ${i}` } }],
+        };
+        const rendered = convertVerseToMarkdown(verse, footnotes);
+        const marker = rendered.match(/word\d+(<sup>[a-z]+<\/sup>)/)?.[1];
+        markers.push(marker ?? "");
+      }
+      return { markers, footnotes };
+    }
+
+    it("should give every footnote in a 135-note chapter a unique label (NKJV1982 PSA 119)", () => {
+      const { markers } = renderChapterWithFootnotes(135);
+
+      expect(markers).toHaveLength(135);
+      expect(markers).not.toContain("");
+      expect(new Set(markers).size).toBe(135);
+    });
+
+    it("should keep the footnote list labels in step with the inline markers", () => {
+      const { markers, footnotes } = renderChapterWithFootnotes(135);
+
+      expect(footnotes).toHaveLength(135);
+      footnotes.forEach((footnote, i) => {
+        expect(footnote).toBe(`- ${markers[i]} ${i + 1}. note ${i}`);
+      });
+    });
+
+    it("should continue a, b, ... z with aa, ab, ... rather than restarting at a", () => {
+      const { markers } = renderChapterWithFootnotes(135);
+
+      expect(markers[0]).toBe("<sup>a</sup>");
+      expect(markers[25]).toBe("<sup>z</sup>");
+      expect(markers[26]).toBe("<sup>aa</sup>");
+      expect(markers[27]).toBe("<sup>ab</sup>");
+      expect(markers[51]).toBe("<sup>az</sup>");
+      expect(markers[52]).toBe("<sup>ba</sup>");
+      expect(markers[134]).toBe("<sup>ee</sup>");
     });
   });
 });
