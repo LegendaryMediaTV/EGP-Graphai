@@ -375,30 +375,30 @@
 <sup>24</sup> <sup>x</sup>et continuo exclamans pater pueri cum lacrimis aiebat credo adiuva incredulitatem meam
 <sup>25</sup> <sup>y</sup>et cum videret Iesus concurrentem turbam comminatus est spiritui inmundo dicens illi surde et mute spiritus ego tibi praecipio exi ab eo et amplius ne introeas in eum
 <sup>26</sup> <sup>z</sup>et clamans et multum discerpens eum exiit ab eo et factus est sicut mortuus ita ut multi dicerent quia mortuus est
-<sup>27</sup> <sup>a</sup>Iesus autem tenens manum eius elevavit illum et surrexit
-<sup>28</sup> <sup>b</sup>et cum introisset in domum discipuli eius secreto interrogabant eum quare nos non potuimus eicere eum
-<sup>29</sup> <sup>c</sup>et dixit illis hoc genus in nullo potest exire nisi in oratione et ieiunio
-<sup>30</sup> <sup>d</sup>et inde profecti praetergrediebantur Galilaeam nec volebat quemquam scire
-<sup>31</sup> <sup>e</sup>docebat autem discipulos suos et dicebat illis quoniam Filius hominis tradetur in manus hominum et occident eum et occisus tertia die resurget
-<sup>32</sup> <sup>f</sup>at illi ignorabant verbum et timebant eum interrogare
-<sup>33</sup> <sup>g</sup>et venerunt Capharnaum qui cum domi esset interrogabat eos quid in via tractabatis
-<sup>34</sup> <sup>h</sup>at illi tacebant siquidem inter se in via disputaverant quis esset illorum maior
-<sup>35</sup> <sup>i</sup>et residens vocavit duodecim et ait illis si quis vult primus esse erit omnium novissimus et omnium minister
-<sup>36</sup> <sup>j</sup>et accipiens puerum statuit eum in medio eorum quem cum conplexus esset ait illis
-<sup>37</sup> <sup>k</sup>quisquis unum ex huiusmodi pueris receperit in nomine meo me recipit et quicumque me susceperit non me suscipit sed eum qui me misit
-<sup>38</sup> <sup>l</sup>respondit illi Iohannes dicens magister vidimus quendam in nomine tuo eicientem daemonia qui non sequitur nos et prohibuimus eum
-<sup>39</sup> <sup>m</sup>Iesus autem ait nolite prohibere eum nemo est enim qui faciat virtutem in nomine meo et possit cito male loqui de me
-<sup>40</sup> <sup>n</sup>qui enim non est adversum vos pro vobis est
-<sup>41</sup> <sup>o</sup>quisquis enim potum dederit vobis calicem aquae in nomine meo quia Christi estis amen dico vobis non perdet mercedem suam
-<sup>42</sup> <sup>p</sup>et quisquis scandalizaverit unum ex his pusillis credentibus in me bonum est ei magis si circumdaretur mola asinaria collo eius et in mare mitteretur
-<sup>43</sup> <sup>q</sup>et si scandalizaverit te manus tua abscide illam bonum est tibi debilem introire in vitam quam duas manus habentem ire in gehennam in ignem inextinguibilem
-<sup>44</sup> <sup>r</sup>ubi vermis eorum non moritur et ignis non extinguitur
-<sup>45</sup> <sup>s</sup>et si pes tuus te scandalizat amputa illum bonum est tibi claudum introire in vitam aeternam quam duos pedes habentem mitti in gehennam ignis inextinguibilis
-<sup>46</sup> <sup>t</sup>ubi vermis eorum non moritur et ignis non extinguitur
-<sup>47</sup> <sup>u</sup>quod si oculus tuus scandalizat te eice eum bonum est tibi luscum introire in regnum Dei quam duos oculos habentem mitti in gehennam ignis
-<sup>48</sup> <sup>v</sup>ubi vermis eorum non moritur et ignis non extinguitur
-<sup>49</sup> <sup>w</sup>omnis enim igne sallietur et omnis victima sallietur
-<sup>50</sup> <sup>x</sup>bonum est sal quod si sal insulsum fuerit in quo illud condietis habete in vobis sal et pacem habete inter vos
+<sup>27</sup> <sup>aa</sup>Iesus autem tenens manum eius elevavit illum et surrexit
+<sup>28</sup> <sup>ab</sup>et cum introisset in domum discipuli eius secreto interrogabant eum quare nos non potuimus eicere eum
+<sup>29</sup> <sup>ac</sup>et dixit illis hoc genus in nullo potest exire nisi in oratione et ieiunio
+<sup>30</sup> <sup>ad</sup>et inde profecti praetergrediebantur Galilaeam nec volebat quemquam scire
+<sup>31</sup> <sup>ae</sup>docebat autem discipulos suos et dicebat illis quoniam Filius hominis tradetur in manus hominum et occident eum et occisus tertia die resurget
+<sup>32</sup> <sup>af</sup>at illi ignorabant verbum et timebant eum interrogare
+<sup>33</sup> <sup>ag</sup>et venerunt Capharnaum qui cum domi esset interrogabat eos quid in via tractabatis
+<sup>34</sup> <sup>ah</sup>at illi tacebant siquidem inter se in via disputaverant quis esset illorum maior
+<sup>35</sup> <sup>ai</sup>et residens vocavit duodecim et ait illis si quis vult primus esse erit omnium novissimus et omnium minister
+<sup>36</sup> <sup>aj</sup>et accipiens puerum statuit eum in medio eorum quem cum conplexus esset ait illis
+<sup>37</sup> <sup>ak</sup>quisquis unum ex huiusmodi pueris receperit in nomine meo me recipit et quicumque me susceperit non me suscipit sed eum qui me misit
+<sup>38</sup> <sup>al</sup>respondit illi Iohannes dicens magister vidimus quendam in nomine tuo eicientem daemonia qui non sequitur nos et prohibuimus eum
+<sup>39</sup> <sup>am</sup>Iesus autem ait nolite prohibere eum nemo est enim qui faciat virtutem in nomine meo et possit cito male loqui de me
+<sup>40</sup> <sup>an</sup>qui enim non est adversum vos pro vobis est
+<sup>41</sup> <sup>ao</sup>quisquis enim potum dederit vobis calicem aquae in nomine meo quia Christi estis amen dico vobis non perdet mercedem suam
+<sup>42</sup> <sup>ap</sup>et quisquis scandalizaverit unum ex his pusillis credentibus in me bonum est ei magis si circumdaretur mola asinaria collo eius et in mare mitteretur
+<sup>43</sup> <sup>aq</sup>et si scandalizaverit te manus tua abscide illam bonum est tibi debilem introire in vitam quam duas manus habentem ire in gehennam in ignem inextinguibilem
+<sup>44</sup> <sup>ar</sup>ubi vermis eorum non moritur et ignis non extinguitur
+<sup>45</sup> <sup>as</sup>et si pes tuus te scandalizat amputa illum bonum est tibi claudum introire in vitam aeternam quam duos pedes habentem mitti in gehennam ignis inextinguibilis
+<sup>46</sup> <sup>at</sup>ubi vermis eorum non moritur et ignis non extinguitur
+<sup>47</sup> <sup>au</sup>quod si oculus tuus scandalizat te eice eum bonum est tibi luscum introire in regnum Dei quam duos oculos habentem mitti in gehennam ignis
+<sup>48</sup> <sup>av</sup>ubi vermis eorum non moritur et ignis non extinguitur
+<sup>49</sup> <sup>aw</sup>omnis enim igne sallietur et omnis victima sallietur
+<sup>50</sup> <sup>ax</sup>bonum est sal quod si sal insulsum fuerit in quo illud condietis habete in vobis sal et pacem habete inter vos
 
 > - <sup>a</sup> 1. Originally verse 8:39.
 > - <sup>b</sup> 2. Originally verse 9:1.
@@ -426,30 +426,30 @@
 > - <sup>x</sup> 24. Originally verse 9:23.
 > - <sup>y</sup> 25. Originally verse 9:24.
 > - <sup>z</sup> 26. Originally verse 9:25.
-> - <sup>a</sup> 27. Originally verse 9:26.
-> - <sup>b</sup> 28. Originally verse 9:27.
-> - <sup>c</sup> 29. Originally verse 9:28.
-> - <sup>d</sup> 30. Originally verse 9:29.
-> - <sup>e</sup> 31. Originally verse 9:30.
-> - <sup>f</sup> 32. Originally verse 9:31.
-> - <sup>g</sup> 33. Originally verse 9:32.
-> - <sup>h</sup> 34. Originally verse 9:33.
-> - <sup>i</sup> 35. Originally verse 9:34.
-> - <sup>j</sup> 36. Originally verse 9:35.
-> - <sup>k</sup> 37. Originally verse 9:36.
-> - <sup>l</sup> 38. Originally verse 9:37.
-> - <sup>m</sup> 39. Originally verse 9:38.
-> - <sup>n</sup> 40. Originally verse 9:39.
-> - <sup>o</sup> 41. Originally verse 9:40.
-> - <sup>p</sup> 42. Originally verse 9:41.
-> - <sup>q</sup> 43. Originally verse 9:42.
-> - <sup>r</sup> 44. Originally verse 9:43.
-> - <sup>s</sup> 45. Originally verse 9:44.
-> - <sup>t</sup> 46. Originally verse 9:45.
-> - <sup>u</sup> 47. Originally verse 9:46.
-> - <sup>v</sup> 48. Originally verse 9:47.
-> - <sup>w</sup> 49. Originally verse 9:48.
-> - <sup>x</sup> 50. Originally verse 9:49.
+> - <sup>aa</sup> 27. Originally verse 9:26.
+> - <sup>ab</sup> 28. Originally verse 9:27.
+> - <sup>ac</sup> 29. Originally verse 9:28.
+> - <sup>ad</sup> 30. Originally verse 9:29.
+> - <sup>ae</sup> 31. Originally verse 9:30.
+> - <sup>af</sup> 32. Originally verse 9:31.
+> - <sup>ag</sup> 33. Originally verse 9:32.
+> - <sup>ah</sup> 34. Originally verse 9:33.
+> - <sup>ai</sup> 35. Originally verse 9:34.
+> - <sup>aj</sup> 36. Originally verse 9:35.
+> - <sup>ak</sup> 37. Originally verse 9:36.
+> - <sup>al</sup> 38. Originally verse 9:37.
+> - <sup>am</sup> 39. Originally verse 9:38.
+> - <sup>an</sup> 40. Originally verse 9:39.
+> - <sup>ao</sup> 41. Originally verse 9:40.
+> - <sup>ap</sup> 42. Originally verse 9:41.
+> - <sup>aq</sup> 43. Originally verse 9:42.
+> - <sup>ar</sup> 44. Originally verse 9:43.
+> - <sup>as</sup> 45. Originally verse 9:44.
+> - <sup>at</sup> 46. Originally verse 9:45.
+> - <sup>au</sup> 47. Originally verse 9:46.
+> - <sup>av</sup> 48. Originally verse 9:47.
+> - <sup>aw</sup> 49. Originally verse 9:48.
+> - <sup>ax</sup> 50. Originally verse 9:49.
 
 ## Chapter 10
 

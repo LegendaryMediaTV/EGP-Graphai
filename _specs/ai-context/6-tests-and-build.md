@@ -14,6 +14,8 @@
   - `functions/__tests__/getBibleVersions.test.ts`
   - `functions/__tests__/sortContentKeys.test.ts`
   - `functions/__tests__/writeJsonFile.test.ts`
+  - `utils/__tests__/auditCrossChapterLinks.test.ts`
+  - `utils/__tests__/crossChapterLinks.test.ts`
   - `utils/__tests__/exportContent.test.ts`
 - **Pattern** – `*.test.ts` files in `__tests__/` subdirectories
 
@@ -32,7 +34,7 @@
 
 ### Content Processing / Export Domain
 
-- **Existing tests** – `utils/__tests__/exportContent.test.ts` (42 tests)
+- **Existing tests** – `utils/__tests__/exportContent.test.ts` (45 tests)
 - **Covered scenarios:**
   - Plain text conversion with Strong's numbers and morphology
   - Markdown conversion with paragraph markers, footnotes, line breaks
@@ -75,6 +77,18 @@
   - `writeFileAtomic()` writes text verbatim without reformatting
   - Multibyte (Hebrew/Greek) content is measured and written correctly
   - Retry-then-throw behavior when the target path can never be written (simulated with fake timers), and that no staging file is left behind
+
+### Cross-Chapter Link Audit Domain
+
+- **Existing tests** – `utils/__tests__/crossChapterLinks.test.ts` (31 tests), `utils/__tests__/auditCrossChapterLinks.test.ts` (8 tests)
+- **Covered scenarios:**
+  - Target-shape classification: `singleChapter`, `crossChapterRange`, `wholeChapterRange`, `mergedTarget`, `unparsed`
+  - Dash-agnostic detection — en dash, em dash, and ASCII hyphen all recognized as the same range separator
+  - Per-version chapter-length lookups (e.g. Ezra 4's last verse from ASV1901's own records) and per-version canon-scoped book resolution
+  - Splitting a cross-chapter range into two chapter-scoped links, byte-for-byte display preservation, and idempotency on a second pass
+  - Corpus-wide sweep across all 6 versions, `scanned` count as a guard against a walk that silently stops descending, and `exitCodeFor()`'s pass/fail behavior
+  - Read-only guarantee — auditing twice produces byte-identical results
+  - Real fixtures drawn from this repo's own WEBUS2020 data (the only one of the 6 versions carrying any `bibleLink`) rather than synthetic examples, wherever a real occurrence exists
 
 ### Validation Domain
 
@@ -140,6 +154,12 @@ npx ts-node utils/convertToSmallCaps.ts WEBUS2020 PSA
 
 # Standardize content key order (manual, validation auto-sorts)
 npx ts-node utils/sortBibleKeys.ts WEBUS2020
+
+# Audit all versions for unsplit cross-chapter bibleLink ranges (dry-run)
+npm run audit-links
+
+# Audit one version, or add --fix to split and write its findings
+npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix
 ```
 
 ### Run Tests
@@ -180,7 +200,18 @@ npx vitest --run path/to/test.ts
 - Atomic replace semantics and multibyte handling
 - Retry-on-backoff and failure-naming behavior when a write can never land
 
-Any of the four callers (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`) that changes how it invokes `writeJsonFile()`/`writeFileAtomic()` should re-run this suite plus its own.
+Any of the five callers (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`, `auditCrossChapterLinks.ts`) that changes how it invokes `writeJsonFile()`/`writeFileAtomic()` should re-run this suite plus its own.
+
+### When Modifying the Cross-Chapter Link Audit (crossChapterLinks.ts / auditCrossChapterLinks.ts)
+
+**Relevant tests:** `npx vitest --run utils/__tests__/crossChapterLinks.test.ts utils/__tests__/auditCrossChapterLinks.test.ts`
+
+**Test coverage includes:**
+
+- Target-shape classification and dash-agnostic detection
+- Per-version chapter-length and book-canon resolution (never a shared table across versions)
+- Split correctness, display-text preservation, and idempotency
+- Corpus-wide sweep counts and the CLI's exit-code behavior
 
 ### When Modifying Version Discovery (getBibleVersions.ts)
 
@@ -213,3 +244,4 @@ Any of the four callers (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.
 - Inline verse data in `utils/__tests__/exportContent.test.ts` for export tests
 - Real-world samples from KJV1769 for integration-style tests
 - Scratch directories via `fs.mkdtempSync(os.tmpdir())` in `writeJsonFile.test.ts`, torn down in `afterAll`; failure-path tests use Vitest fake timers to collapse the retry backoff instead of waiting on it
+- Target strings in `crossChapterLinks.test.ts` are drawn from this repo's own six versions wherever a real example exists, and marked as grammar illustrations in the small number of cases where no such target currently exists in the corpus

@@ -537,13 +537,13 @@
 <sup>24</sup> <sup>x</sup>qui appellatus est Neelescol id est torrens Botri eo quod botrum inde portassent filii Israhel
 <sup>25</sup> <sup>y</sup>reversique exploratores terrae post quadraginta dies omni regione circuita
 <sup>26</sup> <sup>z</sup>venerunt ad Mosen et Aaron et ad omnem coetum filiorum Israhel in desertum Pharan quod est in Cades locutique eis et omni multitudini ostenderunt fructus terrae
-<sup>27</sup> <sup>a</sup>et narraverunt dicentes venimus in terram ad quam misisti nos quae re vera fluit lacte et melle ut ex his fructibus cognosci potest
-<sup>28</sup> <sup>b</sup>sed cultores fortissimos habet et urbes grandes atque muratas stirpem Enach vidimus ibi
-<sup>29</sup> <sup>c</sup>Amalech habitat in meridie Hettheus et Iebuseus et Amorreus in montanis Chananeus vero moratur iuxta mare et circa fluenta Iordanis
-<sup>30</sup> <sup>d</sup>inter haec Chaleb conpescens murmur populi qui oriebatur contra Mosen ait ascendamus et possideamus terram quoniam poterimus obtinere eam
-<sup>31</sup> <sup>e</sup>alii vero qui fuerant cum eo dicebant nequaquam ad hunc populum valemus ascendere quia fortior nobis est
-<sup>32</sup> <sup>f</sup>detraxeruntque terrae quam inspexerant apud filios Israhel dicentes terram quam lustravimus devorat habitatores suos populum quem aspeximus procerae staturae est
-<sup>33</sup> <sup>g</sup>ibi vidimus monstra quaedam filiorum Enach de genere giganteo quibus conparati quasi lucustae videbamur
+<sup>27</sup> <sup>aa</sup>et narraverunt dicentes venimus in terram ad quam misisti nos quae re vera fluit lacte et melle ut ex his fructibus cognosci potest
+<sup>28</sup> <sup>ab</sup>sed cultores fortissimos habet et urbes grandes atque muratas stirpem Enach vidimus ibi
+<sup>29</sup> <sup>ac</sup>Amalech habitat in meridie Hettheus et Iebuseus et Amorreus in montanis Chananeus vero moratur iuxta mare et circa fluenta Iordanis
+<sup>30</sup> <sup>ad</sup>inter haec Chaleb conpescens murmur populi qui oriebatur contra Mosen ait ascendamus et possideamus terram quoniam poterimus obtinere eam
+<sup>31</sup> <sup>ae</sup>alii vero qui fuerant cum eo dicebant nequaquam ad hunc populum valemus ascendere quia fortior nobis est
+<sup>32</sup> <sup>af</sup>detraxeruntque terrae quam inspexerant apud filios Israhel dicentes terram quam lustravimus devorat habitatores suos populum quem aspeximus procerae staturae est
+<sup>33</sup> <sup>ag</sup>ibi vidimus monstra quaedam filiorum Enach de genere giganteo quibus conparati quasi lucustae videbamur
 
 > - <sup>a</sup> 1. Originally verse 13:2.
 > - <sup>b</sup> 2. Originally verse 13:3.
@@ -571,13 +571,13 @@
 > - <sup>x</sup> 24. Originally verse 13:25.
 > - <sup>y</sup> 25. Originally verse 13:26.
 > - <sup>z</sup> 26. Originally verse 13:27.
-> - <sup>a</sup> 27. Originally verse 13:28.
-> - <sup>b</sup> 28. Originally verse 13:29.
-> - <sup>c</sup> 29. Originally verse 13:30.
-> - <sup>d</sup> 30. Originally verse 13:31.
-> - <sup>e</sup> 31. Originally verse 13:32.
-> - <sup>f</sup> 32. Originally verse 13:33.
-> - <sup>g</sup> 33. Originally verse 13:34.
+> - <sup>aa</sup> 27. Originally verse 13:28.
+> - <sup>ab</sup> 28. Originally verse 13:29.
+> - <sup>ac</sup> 29. Originally verse 13:30.
+> - <sup>ad</sup> 30. Originally verse 13:31.
+> - <sup>ae</sup> 31. Originally verse 13:32.
+> - <sup>af</sup> 32. Originally verse 13:33.
+> - <sup>ag</sup> 33. Originally verse 13:34.
 
 ## Chapter 14
 

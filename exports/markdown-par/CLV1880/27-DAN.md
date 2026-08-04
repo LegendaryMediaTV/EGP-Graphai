@@ -135,17 +135,17 @@
 <sup>24</sup> <sup>x</sup>haec est interpretatio sententiae Altissimi quae pervenit super dominum meum regem
 <sup>25</sup> <sup>y</sup>eicient te ab hominibus et cum bestiis feris erit habitatio tua et faenum ut bos comedes et rore caeli infunderis septem quoque tempora mutabuntur super te donec scias quod dominetur Excelsus super regnum hominum et cuicumque voluerit det illud
 <sup>26</sup> <sup>z</sup>quod autem praecepit ut relinqueretur germen radicum eius id est arboris regnum tuum tibi manebit postquam cognoveris potestatem esse caelestem
-<sup>27</sup> <sup>a</sup>quam ob rem rex consilium meum placeat tibi et peccata tua elemosynis redime et iniquitates tuas misericordiis pauperum forsitan ignoscat delictis tuis
-<sup>28</sup> <sup>b</sup>omnia venerunt super Nabuchodonosor regem
-<sup>29</sup> <sup>c</sup>post finem mensuum duodecim in aula Babylonis deambulabat
-<sup>30</sup> <sup>d</sup>responditque rex et ait nonne haec est Babylon magna quam ego aedificavi in domum regni in robore fortitudinis meae et in gloria decoris mei
-<sup>31</sup> <sup>e</sup>cum adhuc sermo esset in ore regis vox de caelo ruit tibi dicitur Nabuchodonosor rex regnum transiit a te
-<sup>32</sup> <sup>f</sup>et ab hominibus te eicient et cum bestiis feris erit habitatio tua faenum quasi bos comedes et septem tempora mutabuntur super te donec scias quod dominetur Excelsus in regno hominum et cuicumque voluerit det illud
-<sup>33</sup> <sup>g</sup>eadem hora sermo conpletus est super Nabuchodonosor ex hominibus abiectus est et faenum ut bos comedit et rore caeli corpus eius infectum est donec capilli eius in similitudinem aquilarum crescerent et ungues eius quasi avium
-<sup>34</sup> <sup>h</sup>igitur post finem dierum ego Nabuchodonosor oculos meos ad caelum levavi et sensus meus redditus est mihi et Altissimo benedixi et viventem in sempiternum laudavi et glorificavi quia potestas eius potestas sempiterna et regnum eius in generationem et generationem
-<sup>35</sup> <sup>i</sup>et omnes habitatores terrae apud eum in nihilum reputati sunt iuxta voluntatem enim suam facit tam in virtutibus caeli quam in habitatoribus terrae et non est qui resistat manui eius et dicat ei quare fecisti
-<sup>36</sup> <sup>j</sup>in ipso tempore sensus meus reversus est ad me et ad honorem regni mei decoremque perveni et figura mea reversa est ad me et optimates mei et magistratus mei requisierunt me et in regno meo constitutus sum et magnificentia amplior addita est mihi
-<sup>37</sup> <sup>k</sup>nunc igitur ego Nabuchodonosor laudo et magnifico et glorifico Regem caeli quia omnia opera eius vera et viae eius iudicia et gradientes in superbia potest humiliare
+<sup>27</sup> <sup>aa</sup>quam ob rem rex consilium meum placeat tibi et peccata tua elemosynis redime et iniquitates tuas misericordiis pauperum forsitan ignoscat delictis tuis
+<sup>28</sup> <sup>ab</sup>omnia venerunt super Nabuchodonosor regem
+<sup>29</sup> <sup>ac</sup>post finem mensuum duodecim in aula Babylonis deambulabat
+<sup>30</sup> <sup>ad</sup>responditque rex et ait nonne haec est Babylon magna quam ego aedificavi in domum regni in robore fortitudinis meae et in gloria decoris mei
+<sup>31</sup> <sup>ae</sup>cum adhuc sermo esset in ore regis vox de caelo ruit tibi dicitur Nabuchodonosor rex regnum transiit a te
+<sup>32</sup> <sup>af</sup>et ab hominibus te eicient et cum bestiis feris erit habitatio tua faenum quasi bos comedes et septem tempora mutabuntur super te donec scias quod dominetur Excelsus in regno hominum et cuicumque voluerit det illud
+<sup>33</sup> <sup>ag</sup>eadem hora sermo conpletus est super Nabuchodonosor ex hominibus abiectus est et faenum ut bos comedit et rore caeli corpus eius infectum est donec capilli eius in similitudinem aquilarum crescerent et ungues eius quasi avium
+<sup>34</sup> <sup>ah</sup>igitur post finem dierum ego Nabuchodonosor oculos meos ad caelum levavi et sensus meus redditus est mihi et Altissimo benedixi et viventem in sempiternum laudavi et glorificavi quia potestas eius potestas sempiterna et regnum eius in generationem et generationem
+<sup>35</sup> <sup>ai</sup>et omnes habitatores terrae apud eum in nihilum reputati sunt iuxta voluntatem enim suam facit tam in virtutibus caeli quam in habitatoribus terrae et non est qui resistat manui eius et dicat ei quare fecisti
+<sup>36</sup> <sup>aj</sup>in ipso tempore sensus meus reversus est ad me et ad honorem regni mei decoremque perveni et figura mea reversa est ad me et optimates mei et magistratus mei requisierunt me et in regno meo constitutus sum et magnificentia amplior addita est mihi
+<sup>37</sup> <sup>ak</sup>nunc igitur ego Nabuchodonosor laudo et magnifico et glorifico Regem caeli quia omnia opera eius vera et viae eius iudicia et gradientes in superbia potest humiliare
 
 > - <sup>a</sup> 1. Originally verse 3:31.
 > - <sup>b</sup> 2. Originally verse 3:32.
@@ -173,17 +173,17 @@
 > - <sup>x</sup> 24. Originally verse 4:21.
 > - <sup>y</sup> 25. Originally verse 4:22.
 > - <sup>z</sup> 26. Originally verse 4:23.
-> - <sup>a</sup> 27. Originally verse 4:24.
-> - <sup>b</sup> 28. Originally verse 4:25.
-> - <sup>c</sup> 29. Originally verse 4:26.
-> - <sup>d</sup> 30. Originally verse 4:27.
-> - <sup>e</sup> 31. Originally verse 4:28.
-> - <sup>f</sup> 32. Originally verse 4:29.
-> - <sup>g</sup> 33. Originally verse 4:30.
-> - <sup>h</sup> 34. Originally verse 4:31.
-> - <sup>i</sup> 35. Originally verse 4:32.
-> - <sup>j</sup> 36. Originally verse 4:33.
-> - <sup>k</sup> 37. Originally verse 4:34.
+> - <sup>aa</sup> 27. Originally verse 4:24.
+> - <sup>ab</sup> 28. Originally verse 4:25.
+> - <sup>ac</sup> 29. Originally verse 4:26.
+> - <sup>ad</sup> 30. Originally verse 4:27.
+> - <sup>ae</sup> 31. Originally verse 4:28.
+> - <sup>af</sup> 32. Originally verse 4:29.
+> - <sup>ag</sup> 33. Originally verse 4:30.
+> - <sup>ah</sup> 34. Originally verse 4:31.
+> - <sup>ai</sup> 35. Originally verse 4:32.
+> - <sup>aj</sup> 36. Originally verse 4:33.
+> - <sup>ak</sup> 37. Originally verse 4:34.
 
 ## Chapter 5
 

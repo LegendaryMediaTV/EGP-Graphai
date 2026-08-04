@@ -1209,14 +1209,14 @@
 <sup>24</sup> <sup>x</sup>cor eius indurabitur quasi lapis et stringetur quasi malleatoris incus
 <sup>25</sup> <sup>y</sup>cum sublatus fuerit timebunt angeli et territi purgabuntur
 <sup>26</sup> <sup>z</sup>cum adprehenderit eum gladius subsistere non poterit neque hasta neque torax
-<sup>27</sup> <sup>a</sup>reputabit enim quasi paleas ferrum et quasi lignum putridum aes
-<sup>28</sup> <sup>b</sup>non fugabit eum vir sagittarius in stipulam versi sunt ei lapides fundae
-<sup>29</sup> <sup>c</sup>quasi stipulam aestimabit malleum et deridebit vibrantem hastam
-<sup>30</sup> <sup>d</sup>sub ipso erunt radii solis sternet sibi aurum quasi lutum
-<sup>31</sup> <sup>e</sup>fervescere faciet quasi ollam profundum mare ponet quasi cum unguenta bulliunt
-<sup>32</sup> <sup>f</sup>post eum lucebit semita aestimabit abyssum quasi senescentem
-<sup>33</sup> <sup>g</sup>non est super terram potestas quae conparetur ei qui factus est ut nullum timeret
-<sup>34</sup> <sup>h</sup>omne sublime videt ipse est rex super universos filios superbiae
+<sup>27</sup> <sup>aa</sup>reputabit enim quasi paleas ferrum et quasi lignum putridum aes
+<sup>28</sup> <sup>ab</sup>non fugabit eum vir sagittarius in stipulam versi sunt ei lapides fundae
+<sup>29</sup> <sup>ac</sup>quasi stipulam aestimabit malleum et deridebit vibrantem hastam
+<sup>30</sup> <sup>ad</sup>sub ipso erunt radii solis sternet sibi aurum quasi lutum
+<sup>31</sup> <sup>ae</sup>fervescere faciet quasi ollam profundum mare ponet quasi cum unguenta bulliunt
+<sup>32</sup> <sup>af</sup>post eum lucebit semita aestimabit abyssum quasi senescentem
+<sup>33</sup> <sup>ag</sup>non est super terram potestas quae conparetur ei qui factus est ut nullum timeret
+<sup>34</sup> <sup>ah</sup>omne sublime videt ipse est rex super universos filios superbiae
 
 > - <sup>a</sup> 1. Originally verse 40:20.
 > - <sup>b</sup> 2. Originally verse 40:21.
@@ -1244,14 +1244,14 @@
 > - <sup>x</sup> 24. Originally verse 41:15.
 > - <sup>y</sup> 25. Originally verse 41:16.
 > - <sup>z</sup> 26. Originally verse 41:17.
-> - <sup>a</sup> 27. Originally verse 41:18.
-> - <sup>b</sup> 28. Originally verse 41:19.
-> - <sup>c</sup> 29. Originally verse 41:20.
-> - <sup>d</sup> 30. Originally verse 41:21.
-> - <sup>e</sup> 31. Originally verse 41:22.
-> - <sup>f</sup> 32. Originally verse 41:23.
-> - <sup>g</sup> 33. Originally verse 41:24.
-> - <sup>h</sup> 34. Originally verse 41:25.
+> - <sup>aa</sup> 27. Originally verse 41:18.
+> - <sup>ab</sup> 28. Originally verse 41:19.
+> - <sup>ac</sup> 29. Originally verse 41:20.
+> - <sup>ad</sup> 30. Originally verse 41:21.
+> - <sup>ae</sup> 31. Originally verse 41:22.
+> - <sup>af</sup> 32. Originally verse 41:23.
+> - <sup>ag</sup> 33. Originally verse 41:24.
+> - <sup>ah</sup> 34. Originally verse 41:25.
 
 ## Chapter 42
 

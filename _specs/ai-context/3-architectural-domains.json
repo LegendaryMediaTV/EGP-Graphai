@@ -7,14 +7,16 @@
       "version-book-ordering": "Each Bible version maintains its own book ordering via the 'order' property (1-indexed, sequential, no gaps).",
       "verse-file-naming": "Verse files follow pattern '{order}-{bookId}.json' (e.g., '01-GEN.json', '40-MAT.json').",
       "ajv-validation": "Use AJV library for JSON Schema validation with support for $ref resolution across schema files.",
-      "atomic-file-writes": "Write JSON output via writeJsonFile() and raw text (Markdown, pre-formatted JSON) via writeFileAtomic(), both from functions/writeJsonFile.ts. Do not call fs.writeFileSync directly for pipeline output — both helpers stage bytes to a temp file and rename over the target, retrying on a backoff if the rename is transiently blocked."
+      "atomic-file-writes": "Write JSON output via writeJsonFile() and raw text (Markdown, pre-formatted JSON) via writeFileAtomic(), both from functions/writeJsonFile.ts. Do not call fs.writeFileSync directly for pipeline output — both helpers stage bytes to a temp file and rename over the target, retrying on a backoff if the rename is transiently blocked.",
+      "cross-chapter-bible-link-splitting": "A bibleLink target whose range spans two chapters of the same book (e.g. '2 Kings 6:31–7:20') must be split into two chapter-scoped links joined by a literal en dash. Enforced by utils/crossChapterLinks.ts and audited corpus-wide by utils/auditCrossChapterLinks.ts."
     },
     "architectural_constraints": {
       "no-database": "All data stored as flat JSON files, no traditional database. Read/write via Node.js fs module.",
       "schema-reference-urls": "Schema $id and $ref use GitHub URLs but resolve locally via AJV schema registration.",
       "immutable-source-data": "Bible verse JSON files in version directories are source data; exports go to separate exports/ directory.",
       "content-flexibility": "Content can be plain string, structured object with metadata, or array combining both. Code must handle all cases.",
-      "strong-number-format": "Strong's numbers must match pattern '^[GH][0-9]{1,4}$' (G for Greek, H for Hebrew)."
+      "strong-number-format": "Strong's numbers must match pattern '^[GH][0-9]{1,4}$' (G for Greek, H for Hebrew).",
+      "version-scoped-chapter-lengths": "A chapter's last verse must be read from that version's own verse records, never a shared or borrowed table — versification (e.g. Romans 14's last verse) differs between translations."
     }
   },
   "ui": {
