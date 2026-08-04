@@ -392,7 +392,7 @@ then he says,<br>
 > - <sup>d</sup> 18. Genesis 21:12
 > - <sup>e</sup> 33. Daniel 6:22–23
 > - <sup>f</sup> 34. Daniel 3:1–30
-> - <sup>g</sup> 34. 1 Kings 19:1–3; 2 Kings 6:31—7:20
+> - <sup>g</sup> 34. 1 Kings 19:1–3; 2 Kings 6:31–7:20
 > - <sup>h</sup> 35. 1 Kings 17:17–23; 2 Kings 4:32–37
 > - <sup>i</sup> 37. 2 Chronicles 24:20–21
 > - <sup>j</sup> 37. Jeremiah 26:20–23; 1 Kings 19:10

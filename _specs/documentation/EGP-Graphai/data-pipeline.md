@@ -23,6 +23,8 @@ flowchart TD
     SmallCaps --> Verse
     Verse --> SortKeys[sortBibleKeys.ts]
     SortKeys --> Verse
+    Verse --> Audit[auditCrossChapterLinks.ts]
+    Audit -->|--fix| Verse
 ```
 
 A verse file is the source of truth. Every script in `utils/` either validates it, transforms it in place (with the canonical key order preserved), or reads it to produce a downstream artifact.
@@ -80,6 +82,20 @@ A few one-shot tools live alongside validation and export:
 - **[sortBibleKeys.ts](../../../utils/sortBibleKeys.ts)** — runs the canonical key sorter as a standalone CLI when you want to reorder without doing a full validation pass.
 
 These exist for migrations and corrections. Once a translation is clean, they shouldn't need to run again.
+
+## Cross-chapter link audit
+
+A `bibleLink` cross-reference that spans two chapters of the same book (e.g. a footnote pointing to `2 Kings 6:31–7:20`) resolves inside neither chapter — this repo's convention requires splitting it into two chapter-scoped links joined by an en dash instead. [utils/auditCrossChapterLinks.ts](../../../utils/auditCrossChapterLinks.ts) sweeps every version (or one named on the command line) for this shape, built on the classification logic in [utils/crossChapterLinks.ts](../../../utils/crossChapterLinks.ts):
+
+```bash
+npm run audit-links                                         # audit every version, dry-run
+npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020       # audit one version
+npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix # split findings and write them
+```
+
+Unlike `convertToSmallCaps` and `sortBibleKeys` above, this one is meant to run repeatedly rather than once per migration — it exits non-zero when any version still carries an unsplit finding, so it can gate CI the same way `validate.ts` does. `--fix` is the only path that writes; every other invocation is a read-only report.
+
+The classification is deliberately version-aware, not corpus-wide: a chapter's last verse is read from each version's own verse records, since translations disagree on where a chapter ends (Romans 14 runs to verse 23 in some, verse 26 in others), and book-name resolution is restricted to that version's own canon (a name valid in one translation may not exist in an NT-only one like BYZ2018). Detection also treats the en dash, em dash, and ASCII hyphen as equivalent targets, since real data doesn't always use the convention's own en dash.
 
 ## Writing files
 

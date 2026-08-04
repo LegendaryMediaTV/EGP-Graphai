@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Updated:** August 1, 2026  
+> **Updated:** August 3, 2026  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)
 
 ## Project Summary
@@ -15,8 +15,18 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Export Formats** – Text with Strong's annotations, paragraph-formatted Markdown
 - **Web Reader** – React-based SPA for reading and studying with toggleable tools
 - **Validation** – JSON Schema validation ensuring data integrity with automatic key sorting
+- **Cross-Chapter Link Audit** – Detects and fixes `bibleLink` targets that span two chapters of the same book
 
-## Recent Changes (Atomic File Writes & Dependency Updates)
+## Recent Changes (Cross-Chapter Link Audit)
+
+- **New Rule Owner** – [utils/crossChapterLinks.ts](../../utils/crossChapterLinks.ts) classifies every `bibleLink` target shape (`singleChapter`, `crossChapterRange`, `wholeChapterRange`, `mergedTarget`, `unparsed`) and splits a genuine cross-chapter range into two chapter-scoped links joined by an en dash
+- **New Corpus Sweep & CLI** – [utils/auditCrossChapterLinks.ts](../../utils/auditCrossChapterLinks.ts) audits every version (dry-run by default) and writes fixes only when run with `--fix`; exits non-zero on any unsplit finding so it can gate CI like `validate.ts`
+- **Version-Scoped, Never Shared** – Chapter length and book-name resolution are both read from each version's own data — never a table borrowed from another translation — since versification and canon differ between them
+- **Real Finding Fixed** – WEBUS2020's Hebrews 11:34 footnote (`"2 Kings 6:31—7:20"`) split into `"2 Kings 6:31–33"` and `"2 Kings 7:1–20"`
+- **Test Coverage Added** – 39 new tests (31 for classification/splitting, 8 for the corpus sweep and CLI), bringing the suite to 176 tests across 7 files
+- See [4-domains/cross-chapter-links.md](4-domains/cross-chapter-links.md) for full domain detail
+
+## Previous Changes (Atomic File Writes & Dependency Updates)
 
 - **Atomic File Writes** – New [functions/writeJsonFile.ts](../../functions/writeJsonFile.ts) module (`writeFileAtomic` + `writeJsonFile`) stages writes to a temp file and renames over the target, retrying transient failures on a backoff — see [Writing files](../documentation/EGP-Graphai/data-pipeline.md#writing-files)
 - **Four Writers Migrated** – `validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, and `sortBibleKeys.ts` all now write through this module instead of `fs.writeFileSync` + a per-file `npx prettier --write` subprocess; their `processBook`/`main` functions are now `async`
@@ -67,6 +77,7 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 | `npm run validate` | Validate all JSON data             |
 | `npm run export`   | Export to text/markdown            |
 | `npm run test`     | Run Vitest tests                   |
+| `npm run audit-links` | Audit all versions for unsplit cross-chapter `bibleLink`s |
 
 ## Context Documents
 
@@ -96,6 +107,7 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 | [4-domains/content-verses.md](4-domains/content-verses.md) | Content structure and verse data      |
 | [4-domains/export-system.md](4-domains/export-system.md)   | Export formats and processing         |
 | [4-domains/validation.md](4-domains/validation.md)         | Data validation system                |
+| [4-domains/cross-chapter-links.md](4-domains/cross-chapter-links.md) | Cross-chapter `bibleLink` detection and splitting |
 | [4-domains/web-reader.md](4-domains/web-reader.md)         | Web application architecture          |
 
 ### Style Guides
@@ -136,6 +148,7 @@ graph TB
         GBV[getBibleVersions.ts]
         SCK[sortContentKeys.ts]
         CSC[convertToSmallCaps.ts]
+        CCL[crossChapterLinks.ts]
         WJF[writeJsonFile.ts]
     end
 
@@ -172,10 +185,13 @@ graph TB
     EXP --> TXT
     EXP --> MD
 
+    VF --> CCL
+
     VAL --> WJF
     EXP --> WJF
     CSC --> WJF
     SCK --> WJF
+    CCL -->|--fix| WJF
 
     TC --> EXP
     TV --> EXP
@@ -244,13 +260,15 @@ window.ComponentName = ComponentName;
 
 ## Test Status
 
-✅ **134 tests passing** (Vitest):
+✅ **176 tests passing** (Vitest):
 
 - `functions/__tests__/convertToSmallCaps.test.ts` – 40 tests for small caps conversion
 - `functions/__tests__/sortContentKeys.test.ts` – 26 tests for key ordering
 - `functions/__tests__/getBibleVersions.test.ts` – 17 tests for version discovery
 - `functions/__tests__/writeJsonFile.test.ts` – 9 tests for atomic file writes
-- `utils/__tests__/exportContent.test.ts` – 42 tests for export functionality
+- `utils/__tests__/exportContent.test.ts` – 45 tests for export functionality
+- `utils/__tests__/crossChapterLinks.test.ts` – 31 tests for cross-chapter target classification and splitting
+- `utils/__tests__/auditCrossChapterLinks.test.ts` – 8 tests for the corpus-wide sweep and CLI
 
 See [6-tests-and-build.md](6-tests-and-build.md) for test details and coverage.
 

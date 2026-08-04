@@ -51,6 +51,7 @@ A single recursive content shape (defined in [content-schema.json](../../../cont
 | Web reader shows raw JSON or blank                   | A new content variant isn't handled in `ContentNode.js` — see [web-reader.md](./web-reader.md) |
 | Strong's link points to a 404                        | Strong's number doesn't match `^[GH][0-9]{1,4}$` or starts with the wrong testament prefix |
 | `Failed to write … after N attempts`                 | Something is holding that file open past the retry budget — see [Writing files](./data-pipeline.md#writing-files) |
+| `auditCrossChapterLinks` reports an unsplit finding   | Run it with `--fix` for that version — see [Cross-chapter link audit](./data-pipeline.md#cross-chapter-link-audit) |
 
 ## License & contribution notes
 

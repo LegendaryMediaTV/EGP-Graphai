@@ -77,6 +77,12 @@ npx ts-node utils/convertToSmallCaps.ts WEBUS2020
 # Standardize content key order
 npx ts-node utils/sortBibleKeys.ts WEBUS2020
 
+# Audit bibleLink targets for unsplit cross-chapter ranges (all versions)
+npm run audit-links
+
+# Audit one version, or add --fix to write the splits
+npx ts-node utils/auditCrossChapterLinks.ts WEBUS2020 --fix
+
 # Run tests
 npm run test
 

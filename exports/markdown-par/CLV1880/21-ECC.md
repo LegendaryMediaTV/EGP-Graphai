@@ -181,9 +181,9 @@
 <sup>24</sup> <sup>x</sup>multo magis quam erat et alta profunditas quis inveniet eam
 <sup>25</sup> <sup>y</sup>lustravi universa animo meo ut scirem et considerarem et quaererem sapientiam et rationem et ut cognoscerem impietatem stulti et errorem inprudentium
 <sup>26</sup> <sup>z</sup>et inveni amariorem morte mulierem quae laqueus venatorum est et sagena cor eius vincula sunt manus illius qui placet Deo effugiet eam qui autem peccator est capietur ab illa
-<sup>27</sup> <sup>a</sup>ecce hoc inveni dicit Ecclesiastes unum et alterum ut invenirem rationem
-<sup>28</sup> <sup>b</sup>quam adhuc quaerit anima mea et non inveni virum de mille unum repperi mulierem ex omnibus non inveni
-<sup>29</sup> <sup>c</sup>solummodo hoc inveni quod fecerit Deus hominem rectum et ipse se infinitis miscuerit quaestionibus quis talis ut sapiens est et quis cognovit solutionem verbi
+<sup>27</sup> <sup>aa</sup>ecce hoc inveni dicit Ecclesiastes unum et alterum ut invenirem rationem
+<sup>28</sup> <sup>ab</sup>quam adhuc quaerit anima mea et non inveni virum de mille unum repperi mulierem ex omnibus non inveni
+<sup>29</sup> <sup>ac</sup>solummodo hoc inveni quod fecerit Deus hominem rectum et ipse se infinitis miscuerit quaestionibus quis talis ut sapiens est et quis cognovit solutionem verbi
 
 > - <sup>a</sup> 1. Originally verse 7:2.
 > - <sup>b</sup> 2. Originally verse 7:3.
@@ -211,9 +211,9 @@
 > - <sup>x</sup> 24. Originally verse 7:25.
 > - <sup>y</sup> 25. Originally verse 7:26.
 > - <sup>z</sup> 26. Originally verse 7:27.
-> - <sup>a</sup> 27. Originally verse 7:28.
-> - <sup>b</sup> 28. Originally verse 7:29.
-> - <sup>c</sup> 29. Originally verse 7:30.
+> - <sup>aa</sup> 27. Originally verse 7:28.
+> - <sup>ab</sup> 28. Originally verse 7:29.
+> - <sup>ac</sup> 29. Originally verse 7:30.
 
 ## Chapter 8
 

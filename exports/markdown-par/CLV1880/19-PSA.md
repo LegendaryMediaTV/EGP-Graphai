@@ -469,31 +469,31 @@
 <sup>23</sup> <sup>x</sup>et ero inmaculatus cum eo et observabo ab iniquitate mea
 <sup>24</sup> <sup>y</sup>et retribuet mihi Dominus secundum iustitiam meam et secundum puritatem manuum mearum in conspectu oculorum eius
 <sup>25</sup> <sup>z</sup>cum sancto sanctus eris et cum viro innocente innocens eris
-<sup>26</sup> <sup>a</sup>et cum electo electus eris et cum perverso perverteris
-<sup>27</sup> <sup>b</sup>quoniam tu populum humilem salvum facies et oculos superborum humiliabis
-<sup>28</sup> <sup>c</sup>quoniam tu inluminas lucernam meam Domine Deus meus inluminas tenebras meas
-<sup>29</sup> <sup>d</sup>quoniam in te eripiar a temptatione et in Deo meo transgrediar murum
-<sup>30</sup> <sup>e</sup>Deus meus inpolluta via eius eloquia Domini igne examinata protector est omnium sperantium in eum
-<sup>31</sup> <sup>f</sup>quoniam quis deus praeter Dominum et quis deus praeter Deum nostrum
-<sup>32</sup> <sup>g</sup>Deus qui praecingit me virtute et posuit inmaculatam viam meam
-<sup>33</sup> <sup>h</sup>qui perfecit pedes meos tamquam cervorum et super excelsa statuens me
-<sup>34</sup> <sup>i</sup>qui doces manus meas in proelium et posuisti arcum aereum brachia mea
-<sup>35</sup> <sup>j</sup>et dedisti mihi protectionem salutis tuae et dextera tua suscepit me et disciplina tua correxit me in finem et disciplina tua ipsa me docebit
-<sup>36</sup> <sup>k</sup>dilatasti gressus meos subtus me et non sunt infirmata vestigia mea
-<sup>37</sup> <sup>l</sup>persequar inimicos meos et conprehendam illos et non convertar donec deficiant
-<sup>38</sup> <sup>m</sup>confringam illos nec poterunt stare cadent subtus pedes meos
-<sup>39</sup> <sup>n</sup>et praecinxisti me virtute ad bellum subplantasti insurgentes in me subtus me
-<sup>40</sup> <sup>o</sup>et inimicos meos dedisti mihi dorsum et odientes me disperdisti
-<sup>41</sup> <sup>p</sup>clamaverunt nec erat qui salvos faceret ad Dominum nec exaudivit eos
-<sup>42</sup> <sup>q</sup>et comminuam illos ut pulverem ante faciem venti ut lutum platearum delebo eos
-<sup>43</sup> <sup>r</sup>eripe me de contradictionibus populi constitues me in caput gentium
-<sup>44</sup> <sup>s</sup>populus quem non cognovi servivit mihi in auditu auris oboedivit mihi
-<sup>45</sup> <sup>t</sup>filii alieni mentiti sunt mihi filii alieni inveterati sunt et claudicaverunt a semitis suis
-<sup>46</sup> <sup>u</sup>vivit Dominus et benedictus Deus meus et exaltetur Deus salutis meae
-<sup>47</sup> <sup>v</sup>Deus qui dat vindictas mihi et subdidit populos sub me liberator meus de gentibus iracundis
-<sup>48</sup> <sup>w</sup>et ab insurgentibus in me exaltabis me a viro iniquo eripies me
-<sup>49</sup> <sup>x</sup>propterea confitebor tibi in nationibus Domine et psalmum dicam nomini tuo
-<sup>50</sup> <sup>y</sup>magnificans salutes regis eius et faciens misericordiam christo suo David et semini eius usque in saeculum
+<sup>26</sup> <sup>aa</sup>et cum electo electus eris et cum perverso perverteris
+<sup>27</sup> <sup>ab</sup>quoniam tu populum humilem salvum facies et oculos superborum humiliabis
+<sup>28</sup> <sup>ac</sup>quoniam tu inluminas lucernam meam Domine Deus meus inluminas tenebras meas
+<sup>29</sup> <sup>ad</sup>quoniam in te eripiar a temptatione et in Deo meo transgrediar murum
+<sup>30</sup> <sup>ae</sup>Deus meus inpolluta via eius eloquia Domini igne examinata protector est omnium sperantium in eum
+<sup>31</sup> <sup>af</sup>quoniam quis deus praeter Dominum et quis deus praeter Deum nostrum
+<sup>32</sup> <sup>ag</sup>Deus qui praecingit me virtute et posuit inmaculatam viam meam
+<sup>33</sup> <sup>ah</sup>qui perfecit pedes meos tamquam cervorum et super excelsa statuens me
+<sup>34</sup> <sup>ai</sup>qui doces manus meas in proelium et posuisti arcum aereum brachia mea
+<sup>35</sup> <sup>aj</sup>et dedisti mihi protectionem salutis tuae et dextera tua suscepit me et disciplina tua correxit me in finem et disciplina tua ipsa me docebit
+<sup>36</sup> <sup>ak</sup>dilatasti gressus meos subtus me et non sunt infirmata vestigia mea
+<sup>37</sup> <sup>al</sup>persequar inimicos meos et conprehendam illos et non convertar donec deficiant
+<sup>38</sup> <sup>am</sup>confringam illos nec poterunt stare cadent subtus pedes meos
+<sup>39</sup> <sup>an</sup>et praecinxisti me virtute ad bellum subplantasti insurgentes in me subtus me
+<sup>40</sup> <sup>ao</sup>et inimicos meos dedisti mihi dorsum et odientes me disperdisti
+<sup>41</sup> <sup>ap</sup>clamaverunt nec erat qui salvos faceret ad Dominum nec exaudivit eos
+<sup>42</sup> <sup>aq</sup>et comminuam illos ut pulverem ante faciem venti ut lutum platearum delebo eos
+<sup>43</sup> <sup>ar</sup>eripe me de contradictionibus populi constitues me in caput gentium
+<sup>44</sup> <sup>as</sup>populus quem non cognovi servivit mihi in auditu auris oboedivit mihi
+<sup>45</sup> <sup>at</sup>filii alieni mentiti sunt mihi filii alieni inveterati sunt et claudicaverunt a semitis suis
+<sup>46</sup> <sup>au</sup>vivit Dominus et benedictus Deus meus et exaltetur Deus salutis meae
+<sup>47</sup> <sup>av</sup>Deus qui dat vindictas mihi et subdidit populos sub me liberator meus de gentibus iracundis
+<sup>48</sup> <sup>aw</sup>et ab insurgentibus in me exaltabis me a viro iniquo eripies me
+<sup>49</sup> <sup>ax</sup>propterea confitebor tibi in nationibus Domine et psalmum dicam nomini tuo
+<sup>50</sup> <sup>ay</sup>magnificans salutes regis eius et faciens misericordiam christo suo David et semini eius usque in saeculum
 
 > - <sup>a</sup> Subtitle. Originally verse 17:1.
 > - <sup>b</sup> 1. Originally verse 17:2.
@@ -521,31 +521,31 @@
 > - <sup>x</sup> 23. Originally verse 17:24.
 > - <sup>y</sup> 24. Originally verse 17:25.
 > - <sup>z</sup> 25. Originally verse 17:26.
-> - <sup>a</sup> 26. Originally verse 17:27.
-> - <sup>b</sup> 27. Originally verse 17:28.
-> - <sup>c</sup> 28. Originally verse 17:29.
-> - <sup>d</sup> 29. Originally verse 17:30.
-> - <sup>e</sup> 30. Originally verse 17:31.
-> - <sup>f</sup> 31. Originally verse 17:32.
-> - <sup>g</sup> 32. Originally verse 17:33.
-> - <sup>h</sup> 33. Originally verse 17:34.
-> - <sup>i</sup> 34. Originally verse 17:35.
-> - <sup>j</sup> 35. Originally verse 17:36.
-> - <sup>k</sup> 36. Originally verse 17:37.
-> - <sup>l</sup> 37. Originally verse 17:38.
-> - <sup>m</sup> 38. Originally verse 17:39.
-> - <sup>n</sup> 39. Originally verse 17:40.
-> - <sup>o</sup> 40. Originally verse 17:41.
-> - <sup>p</sup> 41. Originally verse 17:42.
-> - <sup>q</sup> 42. Originally verse 17:43.
-> - <sup>r</sup> 43. Originally verse 17:44.
-> - <sup>s</sup> 44. Originally verse 17:45.
-> - <sup>t</sup> 45. Originally verse 17:46.
-> - <sup>u</sup> 46. Originally verse 17:47.
-> - <sup>v</sup> 47. Originally verse 17:48.
-> - <sup>w</sup> 48. Originally verse 17:49.
-> - <sup>x</sup> 49. Originally verse 17:50.
-> - <sup>y</sup> 50. Originally verse 17:51.
+> - <sup>aa</sup> 26. Originally verse 17:27.
+> - <sup>ab</sup> 27. Originally verse 17:28.
+> - <sup>ac</sup> 28. Originally verse 17:29.
+> - <sup>ad</sup> 29. Originally verse 17:30.
+> - <sup>ae</sup> 30. Originally verse 17:31.
+> - <sup>af</sup> 31. Originally verse 17:32.
+> - <sup>ag</sup> 32. Originally verse 17:33.
+> - <sup>ah</sup> 33. Originally verse 17:34.
+> - <sup>ai</sup> 34. Originally verse 17:35.
+> - <sup>aj</sup> 35. Originally verse 17:36.
+> - <sup>ak</sup> 36. Originally verse 17:37.
+> - <sup>al</sup> 37. Originally verse 17:38.
+> - <sup>am</sup> 38. Originally verse 17:39.
+> - <sup>an</sup> 39. Originally verse 17:40.
+> - <sup>ao</sup> 40. Originally verse 17:41.
+> - <sup>ap</sup> 41. Originally verse 17:42.
+> - <sup>aq</sup> 42. Originally verse 17:43.
+> - <sup>ar</sup> 43. Originally verse 17:44.
+> - <sup>as</sup> 44. Originally verse 17:45.
+> - <sup>at</sup> 45. Originally verse 17:46.
+> - <sup>au</sup> 46. Originally verse 17:47.
+> - <sup>av</sup> 47. Originally verse 17:48.
+> - <sup>aw</sup> 48. Originally verse 17:49.
+> - <sup>ax</sup> 49. Originally verse 17:50.
+> - <sup>ay</sup> 50. Originally verse 17:51.
 
 ## Chapter 19
 
@@ -669,12 +669,12 @@
 <sup>23</sup> <sup>x</sup>qui timetis Dominum laudate eum universum semen Iacob magnificate eum
 <sup>24</sup> <sup>y</sup>timeat eum omne semen Israhel quoniam non sprevit neque dispexit deprecationem pauperis nec avertit faciem suam a me et cum clamarem ad eum exaudivit me;
 <sup>25</sup> <sup>z</sup>apud te laus mea in ecclesia magna vota mea reddam in conspectu timentium eum
-<sup>26</sup> <sup>a</sup>edent pauperes et saturabuntur et laudabunt Dominum qui requirunt eum vivent corda eorum in saeculum saeculi
-<sup>27</sup> <sup>b</sup>reminiscentur et convertentur ad Dominum universi fines terrae et adorabunt in conspectu eius universae familiae gentium
-<sup>28</sup> <sup>c</sup>quoniam Dei est regnum et ipse; dominabitur gentium
-<sup>29</sup> <sup>d</sup>manducaverunt et adoraverunt omnes pingues terrae in conspectu eius cadent omnes qui descendunt in terram
-<sup>30</sup> <sup>e</sup>et anima mea illi vivet et semen meum serviet ipsi
-<sup>31</sup> <sup>f</sup>adnuntiabitur Domino generatio ventura et adnuntiabunt iustitiam eius populo qui nascetur quem fecit Dominus;
+<sup>26</sup> <sup>aa</sup>edent pauperes et saturabuntur et laudabunt Dominum qui requirunt eum vivent corda eorum in saeculum saeculi
+<sup>27</sup> <sup>ab</sup>reminiscentur et convertentur ad Dominum universi fines terrae et adorabunt in conspectu eius universae familiae gentium
+<sup>28</sup> <sup>ac</sup>quoniam Dei est regnum et ipse; dominabitur gentium
+<sup>29</sup> <sup>ad</sup>manducaverunt et adoraverunt omnes pingues terrae in conspectu eius cadent omnes qui descendunt in terram
+<sup>30</sup> <sup>ae</sup>et anima mea illi vivet et semen meum serviet ipsi
+<sup>31</sup> <sup>af</sup>adnuntiabitur Domino generatio ventura et adnuntiabunt iustitiam eius populo qui nascetur quem fecit Dominus;
 
 > - <sup>a</sup> Subtitle. Originally verse 21:1.
 > - <sup>b</sup> 1. Originally verse 21:2.
@@ -702,12 +702,12 @@
 > - <sup>x</sup> 23. Originally verse 21:24.
 > - <sup>y</sup> 24. Originally verse 21:25.
 > - <sup>z</sup> 25. Originally verse 21:26.
-> - <sup>a</sup> 26. Originally verse 21:27.
-> - <sup>b</sup> 27. Originally verse 21:28.
-> - <sup>c</sup> 28. Originally verse 21:29.
-> - <sup>d</sup> 29. Originally verse 21:30.
-> - <sup>e</sup> 30. Originally verse 21:31.
-> - <sup>f</sup> 31. Originally verse 21:32.
+> - <sup>aa</sup> 26. Originally verse 21:27.
+> - <sup>ab</sup> 27. Originally verse 21:28.
+> - <sup>ac</sup> 28. Originally verse 21:29.
+> - <sup>ad</sup> 29. Originally verse 21:30.
+> - <sup>ae</sup> 30. Originally verse 21:31.
+> - <sup>af</sup> 31. Originally verse 21:32.
 
 ## Chapter 23
 
@@ -1162,8 +1162,8 @@
 <sup>24</sup> <sup>x</sup>iudica me secundum iustitiam tuam Domine Deus meus et non supergaudeant mihi
 <sup>25</sup> <sup>y</sup>non dicant in cordibus suis euge euge animae nostrae nec dicant devoravimus eum
 <sup>26</sup> <sup>z</sup>erubescant et revereantur simul qui gratulantur malis meis induantur confusione et reverentia qui magna loquuntur super me
-<sup>27</sup> <sup>a</sup>exultent et laetentur qui volunt iustitiam meam et dicant semper magnificetur Dominus qui volunt pacem servi eius
-<sup>28</sup> <sup>b</sup>et lingua mea meditabitur iustitiam tuam tota die laudem tuam
+<sup>27</sup> <sup>aa</sup>exultent et laetentur qui volunt iustitiam meam et dicant semper magnificetur Dominus qui volunt pacem servi eius
+<sup>28</sup> <sup>ab</sup>et lingua mea meditabitur iustitiam tuam tota die laudem tuam
 
 > - <sup>a</sup> 1. Originally verse 34:1.
 > - <sup>b</sup> 2. Originally verse 34:2.
@@ -1191,8 +1191,8 @@
 > - <sup>x</sup> 24. Originally verse 34:24.
 > - <sup>y</sup> 25. Originally verse 34:25.
 > - <sup>z</sup> 26. Originally verse 34:26.
-> - <sup>a</sup> 27. Originally verse 34:27.
-> - <sup>b</sup> 28. Originally verse 34:28.
+> - <sup>aa</sup> 27. Originally verse 34:27.
+> - <sup>ab</sup> 28. Originally verse 34:28.
 
 ## Chapter 36
 
@@ -1255,20 +1255,20 @@
 <sup>24</sup> <sup>x</sup>cum ceciderit non conlidetur quia Dominus subponit manum suam
 <sup>25</sup> <sup>y</sup>iunior fui et senui et non vidi iustum derelictum nec semen eius quaerens panes
 <sup>26</sup> <sup>z</sup>tota die miseretur et commodat et semen illius in benedictione erit
-<sup>27</sup> <sup>a</sup>declina a malo et fac bonum et inhabita in saeculum saeculi
-<sup>28</sup> <sup>b</sup>quia Dominus amat iudicium et non derelinquet sanctos suos in aeternum conservabuntur iniusti punientur et semen impiorum peribit
-<sup>29</sup> <sup>c</sup>iusti autem hereditabunt terram et inhabitabunt in saeculum saeculi; super eam
-<sup>30</sup> <sup>d</sup>os iusti meditabitur sapientiam et lingua eius loquetur iudicium
-<sup>31</sup> <sup>e</sup>lex Dei eius in corde ipsius et non subplantabuntur gressus eius
-<sup>32</sup> <sup>f</sup>considerat peccator iustum et quaerit mortificare eum
-<sup>33</sup> <sup>g</sup>Dominus autem non derelinquet eum in manus eius nec damnabit eum cum iudicabitur illi
-<sup>34</sup> <sup>h</sup>expecta Dominum et custodi viam eius et exaltabit te ut hereditate capias terram cum perierint peccatores videbis
-<sup>35</sup> <sup>i</sup>vidi impium superexaltatum et elevatum sicut cedros Libani
-<sup>36</sup> <sup>j</sup>et transivi et ecce non erat et quaesivi eum et non est inventus locus eius
-<sup>37</sup> <sup>k</sup>custodi innocentiam et vide aequitatem quoniam sunt reliquiae homini pacifico
-<sup>38</sup> <sup>l</sup>iniusti autem disperibunt simul reliquiae impiorum peribunt
-<sup>39</sup> <sup>m</sup>salus autem iustorum a Domino et protector eorum in tempore tribulationis
-<sup>40</sup> <sup>n</sup>et adiuvabit eos Dominus et liberabit eos et eruet eos a peccatoribus et salvabit eos quia speraverunt in eo
+<sup>27</sup> <sup>aa</sup>declina a malo et fac bonum et inhabita in saeculum saeculi
+<sup>28</sup> <sup>ab</sup>quia Dominus amat iudicium et non derelinquet sanctos suos in aeternum conservabuntur iniusti punientur et semen impiorum peribit
+<sup>29</sup> <sup>ac</sup>iusti autem hereditabunt terram et inhabitabunt in saeculum saeculi; super eam
+<sup>30</sup> <sup>ad</sup>os iusti meditabitur sapientiam et lingua eius loquetur iudicium
+<sup>31</sup> <sup>ae</sup>lex Dei eius in corde ipsius et non subplantabuntur gressus eius
+<sup>32</sup> <sup>af</sup>considerat peccator iustum et quaerit mortificare eum
+<sup>33</sup> <sup>ag</sup>Dominus autem non derelinquet eum in manus eius nec damnabit eum cum iudicabitur illi
+<sup>34</sup> <sup>ah</sup>expecta Dominum et custodi viam eius et exaltabit te ut hereditate capias terram cum perierint peccatores videbis
+<sup>35</sup> <sup>ai</sup>vidi impium superexaltatum et elevatum sicut cedros Libani
+<sup>36</sup> <sup>aj</sup>et transivi et ecce non erat et quaesivi eum et non est inventus locus eius
+<sup>37</sup> <sup>ak</sup>custodi innocentiam et vide aequitatem quoniam sunt reliquiae homini pacifico
+<sup>38</sup> <sup>al</sup>iniusti autem disperibunt simul reliquiae impiorum peribunt
+<sup>39</sup> <sup>am</sup>salus autem iustorum a Domino et protector eorum in tempore tribulationis
+<sup>40</sup> <sup>an</sup>et adiuvabit eos Dominus et liberabit eos et eruet eos a peccatoribus et salvabit eos quia speraverunt in eo
 
 > - <sup>a</sup> 1. Originally verse 36:1.
 > - <sup>b</sup> 2. Originally verse 36:2.
@@ -1296,20 +1296,20 @@
 > - <sup>x</sup> 24. Originally verse 36:24.
 > - <sup>y</sup> 25. Originally verse 36:25.
 > - <sup>z</sup> 26. Originally verse 36:26.
-> - <sup>a</sup> 27. Originally verse 36:27.
-> - <sup>b</sup> 28. Originally verse 36:28.
-> - <sup>c</sup> 29. Originally verse 36:29.
-> - <sup>d</sup> 30. Originally verse 36:30.
-> - <sup>e</sup> 31. Originally verse 36:31.
-> - <sup>f</sup> 32. Originally verse 36:32.
-> - <sup>g</sup> 33. Originally verse 36:33.
-> - <sup>h</sup> 34. Originally verse 36:34.
-> - <sup>i</sup> 35. Originally verse 36:35.
-> - <sup>j</sup> 36. Originally verse 36:36.
-> - <sup>k</sup> 37. Originally verse 36:37.
-> - <sup>l</sup> 38. Originally verse 36:38.
-> - <sup>m</sup> 39. Originally verse 36:39.
-> - <sup>n</sup> 40. Originally verse 36:40.
+> - <sup>aa</sup> 27. Originally verse 36:27.
+> - <sup>ab</sup> 28. Originally verse 36:28.
+> - <sup>ac</sup> 29. Originally verse 36:29.
+> - <sup>ad</sup> 30. Originally verse 36:30.
+> - <sup>ae</sup> 31. Originally verse 36:31.
+> - <sup>af</sup> 32. Originally verse 36:32.
+> - <sup>ag</sup> 33. Originally verse 36:33.
+> - <sup>ah</sup> 34. Originally verse 36:34.
+> - <sup>ai</sup> 35. Originally verse 36:35.
+> - <sup>aj</sup> 36. Originally verse 36:36.
+> - <sup>ak</sup> 37. Originally verse 36:37.
+> - <sup>al</sup> 38. Originally verse 36:38.
+> - <sup>am</sup> 39. Originally verse 36:39.
+> - <sup>an</sup> 40. Originally verse 36:40.
 
 ## Chapter 38
 
@@ -2368,16 +2368,16 @@
 <sup>23</sup> <sup>x</sup>ut intinguatur pes tuus in sanguine lingua canum tuorum ex inimicis ab ipso
 <sup>24</sup> <sup>y</sup>viderunt ingressus tui Deus ingressus Dei mei regis mei qui est in sancto
 <sup>25</sup> <sup>z</sup>praevenerunt principes coniuncti psallentibus in medio iuvencularum tympanistriarum
-<sup>26</sup> <sup>a</sup>in ecclesiis benedicite Deum Dominum de fontibus Israhel
-<sup>27</sup> <sup>b</sup>ibi Beniamin adulescentulus in mentis excessu principes Iuda duces eorum principes Zabulon principes Nepthali
-<sup>28</sup> <sup>c</sup>manda Deus virtutem tuam confirma Deus hoc quod operatus es nobis
-<sup>29</sup> <sup>d</sup>a templo tuo in Hierusalem tibi adferent reges munera
-<sup>30</sup> <sup>e</sup>increpa feras harundinis congregatio taurorum in vaccis populorum ut excludant eos qui probati sunt argento dissipa gentes quae bella volunt
-<sup>31</sup> <sup>f</sup>venient legati ex Aegypto Aethiopia praeveniet manus eius Deo
-<sup>32</sup> <sup>g</sup>regna terrae cantate Deo psallite Domino diapsalma psallite Deo;
-<sup>33</sup> <sup>h</sup>qui ascendit super caelum caeli ad orientem ecce dabit voci suae vocem virtutis
-<sup>34</sup> <sup>i</sup>date gloriam Deo super Israhel magnificentia eius et virtus eius in nubibus
-<sup>35</sup> <sup>j</sup>mirabilis Deus in sanctis suis Deus Israhel ipse dabit virtutem et fortitudinem plebi suae benedictus Deus
+<sup>26</sup> <sup>aa</sup>in ecclesiis benedicite Deum Dominum de fontibus Israhel
+<sup>27</sup> <sup>ab</sup>ibi Beniamin adulescentulus in mentis excessu principes Iuda duces eorum principes Zabulon principes Nepthali
+<sup>28</sup> <sup>ac</sup>manda Deus virtutem tuam confirma Deus hoc quod operatus es nobis
+<sup>29</sup> <sup>ad</sup>a templo tuo in Hierusalem tibi adferent reges munera
+<sup>30</sup> <sup>ae</sup>increpa feras harundinis congregatio taurorum in vaccis populorum ut excludant eos qui probati sunt argento dissipa gentes quae bella volunt
+<sup>31</sup> <sup>af</sup>venient legati ex Aegypto Aethiopia praeveniet manus eius Deo
+<sup>32</sup> <sup>ag</sup>regna terrae cantate Deo psallite Domino diapsalma psallite Deo;
+<sup>33</sup> <sup>ah</sup>qui ascendit super caelum caeli ad orientem ecce dabit voci suae vocem virtutis
+<sup>34</sup> <sup>ai</sup>date gloriam Deo super Israhel magnificentia eius et virtus eius in nubibus
+<sup>35</sup> <sup>aj</sup>mirabilis Deus in sanctis suis Deus Israhel ipse dabit virtutem et fortitudinem plebi suae benedictus Deus
 
 > - <sup>a</sup> Subtitle. Originally verse 67:1.
 > - <sup>b</sup> 1. Originally verse 67:2.
@@ -2405,16 +2405,16 @@
 > - <sup>x</sup> 23. Originally verse 67:24.
 > - <sup>y</sup> 24. Originally verse 67:25.
 > - <sup>z</sup> 25. Originally verse 67:26.
-> - <sup>a</sup> 26. Originally verse 67:27.
-> - <sup>b</sup> 27. Originally verse 67:28.
-> - <sup>c</sup> 28. Originally verse 67:29.
-> - <sup>d</sup> 29. Originally verse 67:30.
-> - <sup>e</sup> 30. Originally verse 67:31.
-> - <sup>f</sup> 31. Originally verse 67:32.
-> - <sup>g</sup> 32. Originally verse 67:33.
-> - <sup>h</sup> 33. Originally verse 67:34.
-> - <sup>i</sup> 34. Originally verse 67:35.
-> - <sup>j</sup> 35. Originally verse 67:36.
+> - <sup>aa</sup> 26. Originally verse 67:27.
+> - <sup>ab</sup> 27. Originally verse 67:28.
+> - <sup>ac</sup> 28. Originally verse 67:29.
+> - <sup>ad</sup> 29. Originally verse 67:30.
+> - <sup>ae</sup> 30. Originally verse 67:31.
+> - <sup>af</sup> 31. Originally verse 67:32.
+> - <sup>ag</sup> 32. Originally verse 67:33.
+> - <sup>ah</sup> 33. Originally verse 67:34.
+> - <sup>ai</sup> 34. Originally verse 67:35.
+> - <sup>aj</sup> 35. Originally verse 67:36.
 
 ## Chapter 69
 
@@ -2445,17 +2445,17 @@
 <sup>23</sup> <sup>x</sup>obscurentur oculi eorum ne videant et dorsum eorum semper incurva
 <sup>24</sup> <sup>y</sup>effunde super eos iram tuam et furor irae tuae conprehendat eos
 <sup>25</sup> <sup>z</sup>fiat habitatio eorum deserta et in tabernaculis eorum non sit qui inhabitet
-<sup>26</sup> <sup>a</sup>quoniam quem tu percussisti persecuti sunt et super dolorem vulnerum meorum addiderunt
-<sup>27</sup> <sup>b</sup>adpone iniquitatem super iniquitatem eorum et non intrent in iustitia tua
-<sup>28</sup> <sup>c</sup>deleantur de libro viventium et cum iustis non scribantur
-<sup>29</sup> <sup>d</sup>ego sum pauper et dolens salus tua Deus suscepit me
-<sup>30</sup> <sup>e</sup>laudabo nomen Dei cum cantico magnificabo eum in laude
-<sup>31</sup> <sup>f</sup>et placebit Deo super vitulum novellum cornua producentem et ungulas
-<sup>32</sup> <sup>g</sup>videant pauperes et laetentur quaerite Deum et vivet anima vestra
-<sup>33</sup> <sup>h</sup>quoniam exaudivit pauperes Dominus et vinctos suos non despexit
-<sup>34</sup> <sup>i</sup>laudent illum caeli et terra mare et omnia reptilia in eis
-<sup>35</sup> <sup>j</sup>quoniam Deus salvam faciet Sion et aedificabuntur civitates Iudaeae et inhabitabunt ibi et hereditate adquirent eam
-<sup>36</sup> <sup>k</sup>et semen servorum eius possidebunt eam et qui diligunt nomen eius habitabunt in ea
+<sup>26</sup> <sup>aa</sup>quoniam quem tu percussisti persecuti sunt et super dolorem vulnerum meorum addiderunt
+<sup>27</sup> <sup>ab</sup>adpone iniquitatem super iniquitatem eorum et non intrent in iustitia tua
+<sup>28</sup> <sup>ac</sup>deleantur de libro viventium et cum iustis non scribantur
+<sup>29</sup> <sup>ad</sup>ego sum pauper et dolens salus tua Deus suscepit me
+<sup>30</sup> <sup>ae</sup>laudabo nomen Dei cum cantico magnificabo eum in laude
+<sup>31</sup> <sup>af</sup>et placebit Deo super vitulum novellum cornua producentem et ungulas
+<sup>32</sup> <sup>ag</sup>videant pauperes et laetentur quaerite Deum et vivet anima vestra
+<sup>33</sup> <sup>ah</sup>quoniam exaudivit pauperes Dominus et vinctos suos non despexit
+<sup>34</sup> <sup>ai</sup>laudent illum caeli et terra mare et omnia reptilia in eis
+<sup>35</sup> <sup>aj</sup>quoniam Deus salvam faciet Sion et aedificabuntur civitates Iudaeae et inhabitabunt ibi et hereditate adquirent eam
+<sup>36</sup> <sup>ak</sup>et semen servorum eius possidebunt eam et qui diligunt nomen eius habitabunt in ea
 
 > - <sup>a</sup> Subtitle. Originally verse 68:1.
 > - <sup>b</sup> 1. Originally verse 68:2.
@@ -2483,17 +2483,17 @@
 > - <sup>x</sup> 23. Originally verse 68:24.
 > - <sup>y</sup> 24. Originally verse 68:25.
 > - <sup>z</sup> 25. Originally verse 68:26.
-> - <sup>a</sup> 26. Originally verse 68:27.
-> - <sup>b</sup> 27. Originally verse 68:28.
-> - <sup>c</sup> 28. Originally verse 68:29.
-> - <sup>d</sup> 29. Originally verse 68:30.
-> - <sup>e</sup> 30. Originally verse 68:31.
-> - <sup>f</sup> 31. Originally verse 68:32.
-> - <sup>g</sup> 32. Originally verse 68:33.
-> - <sup>h</sup> 33. Originally verse 68:34.
-> - <sup>i</sup> 34. Originally verse 68:35.
-> - <sup>j</sup> 35. Originally verse 68:36.
-> - <sup>k</sup> 36. Originally verse 68:37.
+> - <sup>aa</sup> 26. Originally verse 68:27.
+> - <sup>ab</sup> 27. Originally verse 68:28.
+> - <sup>ac</sup> 28. Originally verse 68:29.
+> - <sup>ad</sup> 29. Originally verse 68:30.
+> - <sup>ae</sup> 30. Originally verse 68:31.
+> - <sup>af</sup> 31. Originally verse 68:32.
+> - <sup>ag</sup> 32. Originally verse 68:33.
+> - <sup>ah</sup> 33. Originally verse 68:34.
+> - <sup>ai</sup> 34. Originally verse 68:35.
+> - <sup>aj</sup> 35. Originally verse 68:36.
+> - <sup>ak</sup> 36. Originally verse 68:37.
 
 ## Chapter 70
 
@@ -2640,8 +2640,8 @@
 <sup>24</sup> <sup>x</sup>tenuisti manum dexteram meam et in voluntate tua deduxisti me et cum gloria suscepisti me
 <sup>25</sup> <sup>y</sup>quid enim mihi est in caelo et a te quid volui super terram
 <sup>26</sup> <sup>z</sup>defecit caro mea et cor meum Deus cordis mei et pars mea Deus in aeternum
-<sup>27</sup> <sup>a</sup>quia ecce qui elongant se a te peribunt perdidisti omnem qui fornicatur abs te
-<sup>28</sup> <sup>b</sup>mihi autem adherere Deo bonum est ponere in Domino Deo spem meam ut adnuntiem omnes praedicationes tuas in portis filiae Sion;
+<sup>27</sup> <sup>aa</sup>quia ecce qui elongant se a te peribunt perdidisti omnem qui fornicatur abs te
+<sup>28</sup> <sup>ab</sup>mihi autem adherere Deo bonum est ponere in Domino Deo spem meam ut adnuntiem omnes praedicationes tuas in portis filiae Sion;
 
 > - <sup>a</sup> 1. Originally verse 72:1.
 > - <sup>b</sup> 2. Originally verse 72:2.
@@ -2669,8 +2669,8 @@
 > - <sup>x</sup> 24. Originally verse 72:24.
 > - <sup>y</sup> 25. Originally verse 72:25.
 > - <sup>z</sup> 26. Originally verse 72:26.
-> - <sup>a</sup> 27. Originally verse 72:27.
-> - <sup>b</sup> 28. Originally verse 72:28.
+> - <sup>aa</sup> 27. Originally verse 72:27.
+> - <sup>ab</sup> 28. Originally verse 72:28.
 
 ## Chapter 74
 
@@ -2859,52 +2859,52 @@
 <sup>24</sup> <sup>x</sup>et pluit illis manna ad manducandum et panem caeli dedit eis
 <sup>25</sup> <sup>y</sup>panem angelorum manducavit homo cibaria misit eis in abundantiam
 <sup>26</sup> <sup>z</sup>transtulit austrum de caelo et induxit in virtute sua africum
-<sup>27</sup> <sup>a</sup>et pluit super eos sicut pulverem carnes et sicut harenam maris volatilia pinnata
-<sup>28</sup> <sup>b</sup>et ceciderunt in medio castrorum eorum circa tabernacula eorum
-<sup>29</sup> <sup>c</sup>et manducaverunt et saturati sunt nimis et desiderium eorum adtulit eis
-<sup>30</sup> <sup>d</sup>non sunt fraudati a desiderio suo adhuc escae eorum erant in ore ipsorum
-<sup>31</sup> <sup>e</sup>et ira Dei ascendit in eos et occidit pingues eorum et electos Israhel inpedivit
-<sup>32</sup> <sup>f</sup>in omnibus his peccaverunt adhuc et non crediderunt mirabilibus eius
-<sup>33</sup> <sup>g</sup>et defecerunt in vanitate dies eorum et anni eorum cum festinatione
-<sup>34</sup> <sup>h</sup>cum occideret eos quaerebant eum et revertebantur et diluculo veniebant ad Deum
-<sup>35</sup> <sup>i</sup>et rememorati sunt quia Deus adiutor est eorum et Deus excelsus redemptor eorum est
-<sup>36</sup> <sup>j</sup>et dilexerunt eum in ore suo et lingua sua mentiti sunt ei
-<sup>37</sup> <sup>k</sup>cor autem ipsorum non erat rectum cum eo nec fideles habiti sunt in testamento eius
-<sup>38</sup> <sup>l</sup>ipse autem est misericors et propitius fiet peccatis eorum et non perdet eos et abundabit ut avertat iram suam et non accendet omnem iram suam
-<sup>39</sup> <sup>m</sup>et recordatus est quia caro sunt spiritus vadens et non rediens
-<sup>40</sup> <sup>n</sup>quotiens exacerbaverunt eum in deserto in ira concitaverunt eum in inaquoso
-<sup>41</sup> <sup>o</sup>et conversi sunt et temptaverunt Deum et Sanctum Israhel exacerbaverunt
-<sup>42</sup> <sup>p</sup>non sunt recordati manus eius die qua redemit eos de manu tribulantis
-<sup>43</sup> <sup>q</sup>sicut posuit in Aegypto signa sua et prodigia sua in campo Taneos
-<sup>44</sup> <sup>r</sup>et convertit in sanguine flumina eorum et imbres eorum ne biberent
-<sup>45</sup> <sup>s</sup>misit in eos cynomiam et comedit eos et ranam et disperdit eos
-<sup>46</sup> <sup>t</sup>et dedit erugini fructus eorum et labores eorum lucustae
-<sup>47</sup> <sup>u</sup>et occidit in grandine vineam eorum et moros eorum in pruina
-<sup>48</sup> <sup>v</sup>et tradidit grandini iumenta eorum et possessionem eorum igni
-<sup>49</sup> <sup>w</sup>misit in eos iram indignationis suae indignationem et iram et tribulationem inmissionem per angelos malos
-<sup>50</sup> <sup>x</sup>viam fecit semitae irae suae non pepercit a morte animarum eorum et iumenta eorum in morte conclusit
-<sup>51</sup> <sup>y</sup>et percussit omne primitivum in terra Aegypti primitias laborum eorum in tabernaculis Cham
-<sup>52</sup> <sup>z</sup>et abstulit sicut oves populum suum et perduxit eos tamquam gregem in deserto
-<sup>53</sup> <sup>a</sup>et deduxit eos in spe et non timuerunt et inimicos eorum operuit mare
-<sup>54</sup> <sup>b</sup>et induxit eos in montem sanctificationis suae montem quem adquisivit dextera eius et eiecit a facie eorum gentes et sorte divisit eis terram in funiculo distributionis
-<sup>55</sup> <sup>c</sup>et habitare fecit in tabernaculis eorum tribus Israhel
-<sup>56</sup> <sup>d</sup>et temptaverunt et exacerbaverunt Deum excelsum et testimonia eius non custodierunt
-<sup>57</sup> <sup>e</sup>et averterunt se et non servaverunt pactum quemadmodum patres eorum conversi sunt in arcum pravum
-<sup>58</sup> <sup>f</sup>et in ira concitaverunt eum in collibus suis et in sculptilibus suis ad aemulationem eum provocaverunt
-<sup>59</sup> <sup>g</sup>audivit Deus et sprevit et ad nihilum redegit valde Israhel
-<sup>60</sup> <sup>h</sup>et reppulit tabernaculum Selo tabernaculum suum ubi habitavit in hominibus
-<sup>61</sup> <sup>i</sup>et tradidit in captivitatem virtutem eorum et pulchritudinem eorum in manus inimici
-<sup>62</sup> <sup>j</sup>et conclusit in gladio populum suum et hereditatem suam sprevit
-<sup>63</sup> <sup>k</sup>iuvenes eorum comedit ignis et virgines eorum non sunt lamentatae
-<sup>64</sup> <sup>l</sup>sacerdotes eorum in gladio ceciderunt et viduae eorum non plorabuntur
-<sup>65</sup> <sup>m</sup>et excitatus est tamquam dormiens Dominus tamquam potens crapulatus a vino
-<sup>66</sup> <sup>n</sup>et percussit inimicos suos in posteriora obprobrium sempiternum dedit illis
-<sup>67</sup> <sup>o</sup>et reppulit tabernaculum Ioseph et tribum Effrem non elegit
-<sup>68</sup> <sup>p</sup>et elegit tribum Iuda montem Sion quem dilexit
-<sup>69</sup> <sup>q</sup>et aedificavit sicut unicornium sanctificium suum in terra quam fundavit in saecula
-<sup>70</sup> <sup>r</sup>et elegit David servum suum et sustulit eum de gregibus ovium de post fetantes accepit eum
-<sup>71</sup> <sup>s</sup>pascere Iacob servum suum et Israhel hereditatem suam
-<sup>72</sup> <sup>t</sup>et pavit eos in innocentia cordis sui et in intellectibus manuum suarum deduxit eos
+<sup>27</sup> <sup>aa</sup>et pluit super eos sicut pulverem carnes et sicut harenam maris volatilia pinnata
+<sup>28</sup> <sup>ab</sup>et ceciderunt in medio castrorum eorum circa tabernacula eorum
+<sup>29</sup> <sup>ac</sup>et manducaverunt et saturati sunt nimis et desiderium eorum adtulit eis
+<sup>30</sup> <sup>ad</sup>non sunt fraudati a desiderio suo adhuc escae eorum erant in ore ipsorum
+<sup>31</sup> <sup>ae</sup>et ira Dei ascendit in eos et occidit pingues eorum et electos Israhel inpedivit
+<sup>32</sup> <sup>af</sup>in omnibus his peccaverunt adhuc et non crediderunt mirabilibus eius
+<sup>33</sup> <sup>ag</sup>et defecerunt in vanitate dies eorum et anni eorum cum festinatione
+<sup>34</sup> <sup>ah</sup>cum occideret eos quaerebant eum et revertebantur et diluculo veniebant ad Deum
+<sup>35</sup> <sup>ai</sup>et rememorati sunt quia Deus adiutor est eorum et Deus excelsus redemptor eorum est
+<sup>36</sup> <sup>aj</sup>et dilexerunt eum in ore suo et lingua sua mentiti sunt ei
+<sup>37</sup> <sup>ak</sup>cor autem ipsorum non erat rectum cum eo nec fideles habiti sunt in testamento eius
+<sup>38</sup> <sup>al</sup>ipse autem est misericors et propitius fiet peccatis eorum et non perdet eos et abundabit ut avertat iram suam et non accendet omnem iram suam
+<sup>39</sup> <sup>am</sup>et recordatus est quia caro sunt spiritus vadens et non rediens
+<sup>40</sup> <sup>an</sup>quotiens exacerbaverunt eum in deserto in ira concitaverunt eum in inaquoso
+<sup>41</sup> <sup>ao</sup>et conversi sunt et temptaverunt Deum et Sanctum Israhel exacerbaverunt
+<sup>42</sup> <sup>ap</sup>non sunt recordati manus eius die qua redemit eos de manu tribulantis
+<sup>43</sup> <sup>aq</sup>sicut posuit in Aegypto signa sua et prodigia sua in campo Taneos
+<sup>44</sup> <sup>ar</sup>et convertit in sanguine flumina eorum et imbres eorum ne biberent
+<sup>45</sup> <sup>as</sup>misit in eos cynomiam et comedit eos et ranam et disperdit eos
+<sup>46</sup> <sup>at</sup>et dedit erugini fructus eorum et labores eorum lucustae
+<sup>47</sup> <sup>au</sup>et occidit in grandine vineam eorum et moros eorum in pruina
+<sup>48</sup> <sup>av</sup>et tradidit grandini iumenta eorum et possessionem eorum igni
+<sup>49</sup> <sup>aw</sup>misit in eos iram indignationis suae indignationem et iram et tribulationem inmissionem per angelos malos
+<sup>50</sup> <sup>ax</sup>viam fecit semitae irae suae non pepercit a morte animarum eorum et iumenta eorum in morte conclusit
+<sup>51</sup> <sup>ay</sup>et percussit omne primitivum in terra Aegypti primitias laborum eorum in tabernaculis Cham
+<sup>52</sup> <sup>az</sup>et abstulit sicut oves populum suum et perduxit eos tamquam gregem in deserto
+<sup>53</sup> <sup>ba</sup>et deduxit eos in spe et non timuerunt et inimicos eorum operuit mare
+<sup>54</sup> <sup>bb</sup>et induxit eos in montem sanctificationis suae montem quem adquisivit dextera eius et eiecit a facie eorum gentes et sorte divisit eis terram in funiculo distributionis
+<sup>55</sup> <sup>bc</sup>et habitare fecit in tabernaculis eorum tribus Israhel
+<sup>56</sup> <sup>bd</sup>et temptaverunt et exacerbaverunt Deum excelsum et testimonia eius non custodierunt
+<sup>57</sup> <sup>be</sup>et averterunt se et non servaverunt pactum quemadmodum patres eorum conversi sunt in arcum pravum
+<sup>58</sup> <sup>bf</sup>et in ira concitaverunt eum in collibus suis et in sculptilibus suis ad aemulationem eum provocaverunt
+<sup>59</sup> <sup>bg</sup>audivit Deus et sprevit et ad nihilum redegit valde Israhel
+<sup>60</sup> <sup>bh</sup>et reppulit tabernaculum Selo tabernaculum suum ubi habitavit in hominibus
+<sup>61</sup> <sup>bi</sup>et tradidit in captivitatem virtutem eorum et pulchritudinem eorum in manus inimici
+<sup>62</sup> <sup>bj</sup>et conclusit in gladio populum suum et hereditatem suam sprevit
+<sup>63</sup> <sup>bk</sup>iuvenes eorum comedit ignis et virgines eorum non sunt lamentatae
+<sup>64</sup> <sup>bl</sup>sacerdotes eorum in gladio ceciderunt et viduae eorum non plorabuntur
+<sup>65</sup> <sup>bm</sup>et excitatus est tamquam dormiens Dominus tamquam potens crapulatus a vino
+<sup>66</sup> <sup>bn</sup>et percussit inimicos suos in posteriora obprobrium sempiternum dedit illis
+<sup>67</sup> <sup>bo</sup>et reppulit tabernaculum Ioseph et tribum Effrem non elegit
+<sup>68</sup> <sup>bp</sup>et elegit tribum Iuda montem Sion quem dilexit
+<sup>69</sup> <sup>bq</sup>et aedificavit sicut unicornium sanctificium suum in terra quam fundavit in saecula
+<sup>70</sup> <sup>br</sup>et elegit David servum suum et sustulit eum de gregibus ovium de post fetantes accepit eum
+<sup>71</sup> <sup>bs</sup>pascere Iacob servum suum et Israhel hereditatem suam
+<sup>72</sup> <sup>bt</sup>et pavit eos in innocentia cordis sui et in intellectibus manuum suarum deduxit eos
 
 > - <sup>a</sup> 1. Originally verse 77:1.
 > - <sup>b</sup> 2. Originally verse 77:2.
@@ -2932,52 +2932,52 @@
 > - <sup>x</sup> 24. Originally verse 77:24.
 > - <sup>y</sup> 25. Originally verse 77:25.
 > - <sup>z</sup> 26. Originally verse 77:26.
-> - <sup>a</sup> 27. Originally verse 77:27.
-> - <sup>b</sup> 28. Originally verse 77:28.
-> - <sup>c</sup> 29. Originally verse 77:29.
-> - <sup>d</sup> 30. Originally verse 77:30.
-> - <sup>e</sup> 31. Originally verse 77:31.
-> - <sup>f</sup> 32. Originally verse 77:32.
-> - <sup>g</sup> 33. Originally verse 77:33.
-> - <sup>h</sup> 34. Originally verse 77:34.
-> - <sup>i</sup> 35. Originally verse 77:35.
-> - <sup>j</sup> 36. Originally verse 77:36.
-> - <sup>k</sup> 37. Originally verse 77:37.
-> - <sup>l</sup> 38. Originally verse 77:38.
-> - <sup>m</sup> 39. Originally verse 77:39.
-> - <sup>n</sup> 40. Originally verse 77:40.
-> - <sup>o</sup> 41. Originally verse 77:41.
-> - <sup>p</sup> 42. Originally verse 77:42.
-> - <sup>q</sup> 43. Originally verse 77:43.
-> - <sup>r</sup> 44. Originally verse 77:44.
-> - <sup>s</sup> 45. Originally verse 77:45.
-> - <sup>t</sup> 46. Originally verse 77:46.
-> - <sup>u</sup> 47. Originally verse 77:47.
-> - <sup>v</sup> 48. Originally verse 77:48.
-> - <sup>w</sup> 49. Originally verse 77:49.
-> - <sup>x</sup> 50. Originally verse 77:50.
-> - <sup>y</sup> 51. Originally verse 77:51.
-> - <sup>z</sup> 52. Originally verse 77:52.
-> - <sup>a</sup> 53. Originally verse 77:53.
-> - <sup>b</sup> 54. Originally verse 77:54.
-> - <sup>c</sup> 55. Originally verse 77:55.
-> - <sup>d</sup> 56. Originally verse 77:56.
-> - <sup>e</sup> 57. Originally verse 77:57.
-> - <sup>f</sup> 58. Originally verse 77:58.
-> - <sup>g</sup> 59. Originally verse 77:59.
-> - <sup>h</sup> 60. Originally verse 77:60.
-> - <sup>i</sup> 61. Originally verse 77:61.
-> - <sup>j</sup> 62. Originally verse 77:62.
-> - <sup>k</sup> 63. Originally verse 77:63.
-> - <sup>l</sup> 64. Originally verse 77:64.
-> - <sup>m</sup> 65. Originally verse 77:65.
-> - <sup>n</sup> 66. Originally verse 77:66.
-> - <sup>o</sup> 67. Originally verse 77:67.
-> - <sup>p</sup> 68. Originally verse 77:68.
-> - <sup>q</sup> 69. Originally verse 77:69.
-> - <sup>r</sup> 70. Originally verse 77:70.
-> - <sup>s</sup> 71. Originally verse 77:71.
-> - <sup>t</sup> 72. Originally verse 77:72.
+> - <sup>aa</sup> 27. Originally verse 77:27.
+> - <sup>ab</sup> 28. Originally verse 77:28.
+> - <sup>ac</sup> 29. Originally verse 77:29.
+> - <sup>ad</sup> 30. Originally verse 77:30.
+> - <sup>ae</sup> 31. Originally verse 77:31.
+> - <sup>af</sup> 32. Originally verse 77:32.
+> - <sup>ag</sup> 33. Originally verse 77:33.
+> - <sup>ah</sup> 34. Originally verse 77:34.
+> - <sup>ai</sup> 35. Originally verse 77:35.
+> - <sup>aj</sup> 36. Originally verse 77:36.
+> - <sup>ak</sup> 37. Originally verse 77:37.
+> - <sup>al</sup> 38. Originally verse 77:38.
+> - <sup>am</sup> 39. Originally verse 77:39.
+> - <sup>an</sup> 40. Originally verse 77:40.
+> - <sup>ao</sup> 41. Originally verse 77:41.
+> - <sup>ap</sup> 42. Originally verse 77:42.
+> - <sup>aq</sup> 43. Originally verse 77:43.
+> - <sup>ar</sup> 44. Originally verse 77:44.
+> - <sup>as</sup> 45. Originally verse 77:45.
+> - <sup>at</sup> 46. Originally verse 77:46.
+> - <sup>au</sup> 47. Originally verse 77:47.
+> - <sup>av</sup> 48. Originally verse 77:48.
+> - <sup>aw</sup> 49. Originally verse 77:49.
+> - <sup>ax</sup> 50. Originally verse 77:50.
+> - <sup>ay</sup> 51. Originally verse 77:51.
+> - <sup>az</sup> 52. Originally verse 77:52.
+> - <sup>ba</sup> 53. Originally verse 77:53.
+> - <sup>bb</sup> 54. Originally verse 77:54.
+> - <sup>bc</sup> 55. Originally verse 77:55.
+> - <sup>bd</sup> 56. Originally verse 77:56.
+> - <sup>be</sup> 57. Originally verse 77:57.
+> - <sup>bf</sup> 58. Originally verse 77:58.
+> - <sup>bg</sup> 59. Originally verse 77:59.
+> - <sup>bh</sup> 60. Originally verse 77:60.
+> - <sup>bi</sup> 61. Originally verse 77:61.
+> - <sup>bj</sup> 62. Originally verse 77:62.
+> - <sup>bk</sup> 63. Originally verse 77:63.
+> - <sup>bl</sup> 64. Originally verse 77:64.
+> - <sup>bm</sup> 65. Originally verse 77:65.
+> - <sup>bn</sup> 66. Originally verse 77:66.
+> - <sup>bo</sup> 67. Originally verse 77:67.
+> - <sup>bp</sup> 68. Originally verse 77:68.
+> - <sup>bq</sup> 69. Originally verse 77:69.
+> - <sup>br</sup> 70. Originally verse 77:70.
+> - <sup>bs</sup> 71. Originally verse 77:71.
+> - <sup>bt</sup> 72. Originally verse 77:72.
 
 ## Chapter 79
 
@@ -3356,33 +3356,33 @@
 <sup>23</sup> <sup>x</sup>et concidam a facie ipsius inimicos eius et odientes eum in fugam convertam
 <sup>24</sup> <sup>y</sup>et veritas mea et misericordia mea cum ipso et in nomine meo exaltabitur cornu eius
 <sup>25</sup> <sup>z</sup>et ponam in mari manum eius et in fluminibus dexteram eius
-<sup>26</sup> <sup>a</sup>ipse invocabit me pater meus es tu Deus meus et susceptor salutis meae
-<sup>27</sup> <sup>b</sup>et ego primogenitum ponam illum excelsum prae regibus terrae
-<sup>28</sup> <sup>c</sup>in aeternum servabo illi misericordiam meam et testamentum meum fidele ipsi
-<sup>29</sup> <sup>d</sup>et ponam in saeculum saeculi semen eius et thronum eius sicut dies caeli
-<sup>30</sup> <sup>e</sup>si dereliquerint filii eius legem meam et in iudiciis meis non ambulaverint
-<sup>31</sup> <sup>f</sup>si iustitias meas profanaverint et mandata mea non custodierint
-<sup>32</sup> <sup>g</sup>visitabo in virga iniquitates eorum et in verberibus peccata eorum
-<sup>33</sup> <sup>h</sup>misericordiam autem meam non dispergam ab eo neque nocebo in veritate mea
-<sup>34</sup> <sup>i</sup>neque profanabo testamentum meum et quae procedunt de labiis meis non faciam irrita
-<sup>35</sup> <sup>j</sup>semel iuravi in sancto meo si David mentiar
-<sup>36</sup> <sup>k</sup>semen eius in aeternum manebit
-<sup>37</sup> <sup>l</sup>et thronus eius sicut sol in conspectu meo et sicut luna perfecta in aeternum et testis in caelo fidelis diapsalma
-<sup>38</sup> <sup>m</sup>tu vero reppulisti et despexisti distulisti christum tuum
-<sup>39</sup> <sup>n</sup>evertisti testamentum servi tui profanasti in terram sanctuarium eius
-<sup>40</sup> <sup>o</sup>destruxisti omnes sepes eius posuisti firmamenta eius formidinem
-<sup>41</sup> <sup>p</sup>diripuerunt eum omnes transeuntes viam factus est obprobrium vicinis suis
-<sup>42</sup> <sup>q</sup>exaltasti dexteram deprimentium eum laetificasti omnes inimicos eius
-<sup>43</sup> <sup>r</sup>avertisti adiutorium gladii eius et non es auxiliatus ei in bello
-<sup>44</sup> <sup>s</sup>destruxisti eum a mundatione sedem eius in terram conlisisti
-<sup>45</sup> <sup>t</sup>minorasti dies temporis eius perfudisti eum confusione diapsalma
-<sup>46</sup> <sup>u</sup>usquequo Domine avertis in finem exardescet sicut ignis ira tua
-<sup>47</sup> <sup>v</sup>memorare quae mea substantia numquid enim vane constituisti omnes filios hominum
-<sup>48</sup> <sup>w</sup>quis est homo qui vivet et non videbit mortem eruet animam suam de manu inferi diapsalma
-<sup>49</sup> <sup>x</sup>ubi sunt misericordiae tuae antiquae Domine sicut iurasti David in veritate tua
-<sup>50</sup> <sup>y</sup>memor esto Domine obprobrii servorum tuorum quod continui in sinu meo multarum gentium
-<sup>51</sup> <sup>z</sup>quod exprobraverunt inimici tui Domine quod exprobraverunt commutationem christi tui
-<sup>52</sup> <sup>a</sup>benedictus Dominus in aeternum fiat fiat
+<sup>26</sup> <sup>aa</sup>ipse invocabit me pater meus es tu Deus meus et susceptor salutis meae
+<sup>27</sup> <sup>ab</sup>et ego primogenitum ponam illum excelsum prae regibus terrae
+<sup>28</sup> <sup>ac</sup>in aeternum servabo illi misericordiam meam et testamentum meum fidele ipsi
+<sup>29</sup> <sup>ad</sup>et ponam in saeculum saeculi semen eius et thronum eius sicut dies caeli
+<sup>30</sup> <sup>ae</sup>si dereliquerint filii eius legem meam et in iudiciis meis non ambulaverint
+<sup>31</sup> <sup>af</sup>si iustitias meas profanaverint et mandata mea non custodierint
+<sup>32</sup> <sup>ag</sup>visitabo in virga iniquitates eorum et in verberibus peccata eorum
+<sup>33</sup> <sup>ah</sup>misericordiam autem meam non dispergam ab eo neque nocebo in veritate mea
+<sup>34</sup> <sup>ai</sup>neque profanabo testamentum meum et quae procedunt de labiis meis non faciam irrita
+<sup>35</sup> <sup>aj</sup>semel iuravi in sancto meo si David mentiar
+<sup>36</sup> <sup>ak</sup>semen eius in aeternum manebit
+<sup>37</sup> <sup>al</sup>et thronus eius sicut sol in conspectu meo et sicut luna perfecta in aeternum et testis in caelo fidelis diapsalma
+<sup>38</sup> <sup>am</sup>tu vero reppulisti et despexisti distulisti christum tuum
+<sup>39</sup> <sup>an</sup>evertisti testamentum servi tui profanasti in terram sanctuarium eius
+<sup>40</sup> <sup>ao</sup>destruxisti omnes sepes eius posuisti firmamenta eius formidinem
+<sup>41</sup> <sup>ap</sup>diripuerunt eum omnes transeuntes viam factus est obprobrium vicinis suis
+<sup>42</sup> <sup>aq</sup>exaltasti dexteram deprimentium eum laetificasti omnes inimicos eius
+<sup>43</sup> <sup>ar</sup>avertisti adiutorium gladii eius et non es auxiliatus ei in bello
+<sup>44</sup> <sup>as</sup>destruxisti eum a mundatione sedem eius in terram conlisisti
+<sup>45</sup> <sup>at</sup>minorasti dies temporis eius perfudisti eum confusione diapsalma
+<sup>46</sup> <sup>au</sup>usquequo Domine avertis in finem exardescet sicut ignis ira tua
+<sup>47</sup> <sup>av</sup>memorare quae mea substantia numquid enim vane constituisti omnes filios hominum
+<sup>48</sup> <sup>aw</sup>quis est homo qui vivet et non videbit mortem eruet animam suam de manu inferi diapsalma
+<sup>49</sup> <sup>ax</sup>ubi sunt misericordiae tuae antiquae Domine sicut iurasti David in veritate tua
+<sup>50</sup> <sup>ay</sup>memor esto Domine obprobrii servorum tuorum quod continui in sinu meo multarum gentium
+<sup>51</sup> <sup>az</sup>quod exprobraverunt inimici tui Domine quod exprobraverunt commutationem christi tui
+<sup>52</sup> <sup>ba</sup>benedictus Dominus in aeternum fiat fiat
 
 > - <sup>a</sup> Subtitle. Originally verse 88:1.
 > - <sup>b</sup> 1. Originally verse 88:2.
@@ -3410,33 +3410,33 @@
 > - <sup>x</sup> 23. Originally verse 88:24.
 > - <sup>y</sup> 24. Originally verse 88:25.
 > - <sup>z</sup> 25. Originally verse 88:26.
-> - <sup>a</sup> 26. Originally verse 88:27.
-> - <sup>b</sup> 27. Originally verse 88:28.
-> - <sup>c</sup> 28. Originally verse 88:29.
-> - <sup>d</sup> 29. Originally verse 88:30.
-> - <sup>e</sup> 30. Originally verse 88:31.
-> - <sup>f</sup> 31. Originally verse 88:32.
-> - <sup>g</sup> 32. Originally verse 88:33.
-> - <sup>h</sup> 33. Originally verse 88:34.
-> - <sup>i</sup> 34. Originally verse 88:35.
-> - <sup>j</sup> 35. Originally verse 88:36.
-> - <sup>k</sup> 36. Originally verse 88:37.
-> - <sup>l</sup> 37. Originally verse 88:38.
-> - <sup>m</sup> 38. Originally verse 88:39.
-> - <sup>n</sup> 39. Originally verse 88:40.
-> - <sup>o</sup> 40. Originally verse 88:41.
-> - <sup>p</sup> 41. Originally verse 88:42.
-> - <sup>q</sup> 42. Originally verse 88:43.
-> - <sup>r</sup> 43. Originally verse 88:44.
-> - <sup>s</sup> 44. Originally verse 88:45.
-> - <sup>t</sup> 45. Originally verse 88:46.
-> - <sup>u</sup> 46. Originally verse 88:47.
-> - <sup>v</sup> 47. Originally verse 88:48.
-> - <sup>w</sup> 48. Originally verse 88:49.
-> - <sup>x</sup> 49. Originally verse 88:50.
-> - <sup>y</sup> 50. Originally verse 88:51.
-> - <sup>z</sup> 51. Originally verse 88:52.
-> - <sup>a</sup> 52. Originally verse 88:53.
+> - <sup>aa</sup> 26. Originally verse 88:27.
+> - <sup>ab</sup> 27. Originally verse 88:28.
+> - <sup>ac</sup> 28. Originally verse 88:29.
+> - <sup>ad</sup> 29. Originally verse 88:30.
+> - <sup>ae</sup> 30. Originally verse 88:31.
+> - <sup>af</sup> 31. Originally verse 88:32.
+> - <sup>ag</sup> 32. Originally verse 88:33.
+> - <sup>ah</sup> 33. Originally verse 88:34.
+> - <sup>ai</sup> 34. Originally verse 88:35.
+> - <sup>aj</sup> 35. Originally verse 88:36.
+> - <sup>ak</sup> 36. Originally verse 88:37.
+> - <sup>al</sup> 37. Originally verse 88:38.
+> - <sup>am</sup> 38. Originally verse 88:39.
+> - <sup>an</sup> 39. Originally verse 88:40.
+> - <sup>ao</sup> 40. Originally verse 88:41.
+> - <sup>ap</sup> 41. Originally verse 88:42.
+> - <sup>aq</sup> 42. Originally verse 88:43.
+> - <sup>ar</sup> 43. Originally verse 88:44.
+> - <sup>as</sup> 44. Originally verse 88:45.
+> - <sup>at</sup> 45. Originally verse 88:46.
+> - <sup>au</sup> 46. Originally verse 88:47.
+> - <sup>av</sup> 47. Originally verse 88:48.
+> - <sup>aw</sup> 48. Originally verse 88:49.
+> - <sup>ax</sup> 49. Originally verse 88:50.
+> - <sup>ay</sup> 50. Originally verse 88:51.
+> - <sup>az</sup> 51. Originally verse 88:52.
+> - <sup>ba</sup> 52. Originally verse 88:53.
 
 ## Chapter 90
 
@@ -3819,9 +3819,9 @@
 <sup>23</sup> <sup>x</sup>respondit ei in via virtutis suae paucitatem dierum meorum nuntia mihi
 <sup>24</sup> <sup>y</sup>ne revoces me in dimidio dierum meorum in generationem et generationem anni tui
 <sup>25</sup> <sup>z</sup>initio tu Domine terram fundasti et opera manuum tuarum sunt caeli
-<sup>26</sup> <sup>a</sup>ipsi peribunt tu autem permanes et omnes sicut vestimentum veterescent et sicut opertorium mutabis eos et mutabuntur
-<sup>27</sup> <sup>b</sup>tu autem idem ipse es et anni tui non deficient
-<sup>28</sup> <sup>c</sup>filii servorum tuorum habitabunt et semen eorum in saeculum dirigetur
+<sup>26</sup> <sup>aa</sup>ipsi peribunt tu autem permanes et omnes sicut vestimentum veterescent et sicut opertorium mutabis eos et mutabuntur
+<sup>27</sup> <sup>ab</sup>tu autem idem ipse es et anni tui non deficient
+<sup>28</sup> <sup>ac</sup>filii servorum tuorum habitabunt et semen eorum in saeculum dirigetur
 
 > - <sup>a</sup> Subtitle. Originally verse 101:1.
 > - <sup>b</sup> 1. Originally verse 101:2.
@@ -3849,9 +3849,9 @@
 > - <sup>x</sup> 23. Originally verse 101:24.
 > - <sup>y</sup> 24. Originally verse 101:25.
 > - <sup>z</sup> 25. Originally verse 101:26.
-> - <sup>a</sup> 26. Originally verse 101:27.
-> - <sup>b</sup> 27. Originally verse 101:28.
-> - <sup>c</sup> 28. Originally verse 101:29.
+> - <sup>aa</sup> 26. Originally verse 101:27.
+> - <sup>ab</sup> 27. Originally verse 101:28.
+> - <sup>ac</sup> 28. Originally verse 101:29.
 
 ## Chapter 103
 
@@ -3933,15 +3933,15 @@
 <sup>24</sup> <sup>x</sup>quam magnificata sunt opera tua Domine omnia in sapientia fecisti impleta est terra possessione tua
 <sup>25</sup> <sup>y</sup>hoc mare magnum et spatiosum manibus; illic reptilia quorum non est numerus animalia pusilla cum magnis
 <sup>26</sup> <sup>z</sup>illic naves pertransibunt draco iste quem formasti ad inludendum ei
-<sup>27</sup> <sup>a</sup>omnia a te expectant ut des illis escam in tempore
-<sup>28</sup> <sup>b</sup>dante te illis colligent aperiente te manum tuam omnia implebuntur bonitate
-<sup>29</sup> <sup>c</sup>avertente autem te faciem turbabuntur auferes spiritum eorum et deficient et in pulverem suum revertentur
-<sup>30</sup> <sup>d</sup>emittes spiritum tuum et creabuntur et renovabis faciem terrae
-<sup>31</sup> <sup>e</sup>sit gloria Domini in saeculum laetabitur Dominus in operibus suis
-<sup>32</sup> <sup>f</sup>qui respicit terram et facit eam tremere qui tangit montes et fumigant
-<sup>33</sup> <sup>g</sup>cantabo Domino in vita mea psallam Deo meo quamdiu sum
-<sup>34</sup> <sup>h</sup>iucundum sit ei eloquium meum ego vero delectabor in Domino
-<sup>35</sup> <sup>i</sup>deficiant peccatores a terra et iniqui ita ut non sint benedic anima mea Domino
+<sup>27</sup> <sup>aa</sup>omnia a te expectant ut des illis escam in tempore
+<sup>28</sup> <sup>ab</sup>dante te illis colligent aperiente te manum tuam omnia implebuntur bonitate
+<sup>29</sup> <sup>ac</sup>avertente autem te faciem turbabuntur auferes spiritum eorum et deficient et in pulverem suum revertentur
+<sup>30</sup> <sup>ad</sup>emittes spiritum tuum et creabuntur et renovabis faciem terrae
+<sup>31</sup> <sup>ae</sup>sit gloria Domini in saeculum laetabitur Dominus in operibus suis
+<sup>32</sup> <sup>af</sup>qui respicit terram et facit eam tremere qui tangit montes et fumigant
+<sup>33</sup> <sup>ag</sup>cantabo Domino in vita mea psallam Deo meo quamdiu sum
+<sup>34</sup> <sup>ah</sup>iucundum sit ei eloquium meum ego vero delectabor in Domino
+<sup>35</sup> <sup>ai</sup>deficiant peccatores a terra et iniqui ita ut non sint benedic anima mea Domino
 
 > - <sup>a</sup> 1. Originally verse 103:1.
 > - <sup>b</sup> 2. Originally verse 103:2.
@@ -3969,15 +3969,15 @@
 > - <sup>x</sup> 24. Originally verse 103:24.
 > - <sup>y</sup> 25. Originally verse 103:25.
 > - <sup>z</sup> 26. Originally verse 103:26.
-> - <sup>a</sup> 27. Originally verse 103:27.
-> - <sup>b</sup> 28. Originally verse 103:28.
-> - <sup>c</sup> 29. Originally verse 103:29.
-> - <sup>d</sup> 30. Originally verse 103:30.
-> - <sup>e</sup> 31. Originally verse 103:31.
-> - <sup>f</sup> 32. Originally verse 103:32.
-> - <sup>g</sup> 33. Originally verse 103:33.
-> - <sup>h</sup> 34. Originally verse 103:34.
-> - <sup>i</sup> 35. Originally verse 103:35.
+> - <sup>aa</sup> 27. Originally verse 103:27.
+> - <sup>ab</sup> 28. Originally verse 103:28.
+> - <sup>ac</sup> 29. Originally verse 103:29.
+> - <sup>ad</sup> 30. Originally verse 103:30.
+> - <sup>ae</sup> 31. Originally verse 103:31.
+> - <sup>af</sup> 32. Originally verse 103:32.
+> - <sup>ag</sup> 33. Originally verse 103:33.
+> - <sup>ah</sup> 34. Originally verse 103:34.
+> - <sup>ai</sup> 35. Originally verse 103:35.
 
 ## Chapter 105
 
@@ -4009,25 +4009,25 @@
 <sup>24</sup> <sup>x</sup>et auxit populum eius vehementer et firmavit eum super inimicos eius
 <sup>25</sup> <sup>y</sup>convertit cor eorum ut odirent populum eius ut dolum facerent in servos eius
 <sup>26</sup> <sup>z</sup>misit Mosen servum suum Aaron quem elegit ipsum
-<sup>27</sup> <sup>a</sup>posuit in eis verba signorum suorum et prodigiorum in terra Cham
-<sup>28</sup> <sup>b</sup>misit tenebras et obscuravit et non exacerbavit sermones suos
-<sup>29</sup> <sup>c</sup>convertit aquas eorum in sanguinem et occidit pisces eorum
-<sup>30</sup> <sup>d</sup>dedit terra eorum ranas in penetrabilibus regum ipsorum
-<sup>31</sup> <sup>e</sup>dixit et venit cynomia et scinifes in omnibus finibus eorum
-<sup>32</sup> <sup>f</sup>posuit pluvias eorum grandinem ignem conburentem in terra ipsorum
-<sup>33</sup> <sup>g</sup>et percussit vineas eorum et ficulneas eorum et contrivit lignum finium eorum
-<sup>34</sup> <sup>h</sup>dixit et venit lucusta et bruchus cuius non erat numerus
-<sup>35</sup> <sup>i</sup>et comedit omne faenum in terra eorum et comedit omnem fructum terrae eorum
-<sup>36</sup> <sup>j</sup>et percussit omne primogenitum in terra eorum primitias omnis laboris eorum
-<sup>37</sup> <sup>k</sup>et eduxit eos in argento et auro et non erat in tribubus eorum infirmus
-<sup>38</sup> <sup>l</sup>laetata est Aegyptus in profectione eorum quia incubuit timor eorum super eos
-<sup>39</sup> <sup>m</sup>expandit nubem in protectionem eorum et ignem ut luceret eis per noctem
-<sup>40</sup> <sup>n</sup>petierunt et venit coturnix et panem caeli saturavit eos
-<sup>41</sup> <sup>o</sup>disrupit petram et fluxerunt aquae abierunt in sicco flumina
-<sup>42</sup> <sup>p</sup>quoniam memor fuit verbi sancti sui quod habuit ad Abraham puerum suum
-<sup>43</sup> <sup>q</sup>et eduxit populum suum in exultatione et; electos suos in laetitia
-<sup>44</sup> <sup>r</sup>et dedit illis regiones gentium et labores populorum possederunt
-<sup>45</sup> <sup>s</sup>ut custodiant iustificationes eius et legem eius requirant
+<sup>27</sup> <sup>aa</sup>posuit in eis verba signorum suorum et prodigiorum in terra Cham
+<sup>28</sup> <sup>ab</sup>misit tenebras et obscuravit et non exacerbavit sermones suos
+<sup>29</sup> <sup>ac</sup>convertit aquas eorum in sanguinem et occidit pisces eorum
+<sup>30</sup> <sup>ad</sup>dedit terra eorum ranas in penetrabilibus regum ipsorum
+<sup>31</sup> <sup>ae</sup>dixit et venit cynomia et scinifes in omnibus finibus eorum
+<sup>32</sup> <sup>af</sup>posuit pluvias eorum grandinem ignem conburentem in terra ipsorum
+<sup>33</sup> <sup>ag</sup>et percussit vineas eorum et ficulneas eorum et contrivit lignum finium eorum
+<sup>34</sup> <sup>ah</sup>dixit et venit lucusta et bruchus cuius non erat numerus
+<sup>35</sup> <sup>ai</sup>et comedit omne faenum in terra eorum et comedit omnem fructum terrae eorum
+<sup>36</sup> <sup>aj</sup>et percussit omne primogenitum in terra eorum primitias omnis laboris eorum
+<sup>37</sup> <sup>ak</sup>et eduxit eos in argento et auro et non erat in tribubus eorum infirmus
+<sup>38</sup> <sup>al</sup>laetata est Aegyptus in profectione eorum quia incubuit timor eorum super eos
+<sup>39</sup> <sup>am</sup>expandit nubem in protectionem eorum et ignem ut luceret eis per noctem
+<sup>40</sup> <sup>an</sup>petierunt et venit coturnix et panem caeli saturavit eos
+<sup>41</sup> <sup>ao</sup>disrupit petram et fluxerunt aquae abierunt in sicco flumina
+<sup>42</sup> <sup>ap</sup>quoniam memor fuit verbi sancti sui quod habuit ad Abraham puerum suum
+<sup>43</sup> <sup>aq</sup>et eduxit populum suum in exultatione et; electos suos in laetitia
+<sup>44</sup> <sup>ar</sup>et dedit illis regiones gentium et labores populorum possederunt
+<sup>45</sup> <sup>as</sup>ut custodiant iustificationes eius et legem eius requirant
 
 > - <sup>a</sup> 1. Originally verse 104:1.
 > - <sup>b</sup> 2. Originally verse 104:2.
@@ -4055,25 +4055,25 @@
 > - <sup>x</sup> 24. Originally verse 104:24.
 > - <sup>y</sup> 25. Originally verse 104:25.
 > - <sup>z</sup> 26. Originally verse 104:26.
-> - <sup>a</sup> 27. Originally verse 104:27.
-> - <sup>b</sup> 28. Originally verse 104:28.
-> - <sup>c</sup> 29. Originally verse 104:29.
-> - <sup>d</sup> 30. Originally verse 104:30.
-> - <sup>e</sup> 31. Originally verse 104:31.
-> - <sup>f</sup> 32. Originally verse 104:32.
-> - <sup>g</sup> 33. Originally verse 104:33.
-> - <sup>h</sup> 34. Originally verse 104:34.
-> - <sup>i</sup> 35. Originally verse 104:35.
-> - <sup>j</sup> 36. Originally verse 104:36.
-> - <sup>k</sup> 37. Originally verse 104:37.
-> - <sup>l</sup> 38. Originally verse 104:38.
-> - <sup>m</sup> 39. Originally verse 104:39.
-> - <sup>n</sup> 40. Originally verse 104:40.
-> - <sup>o</sup> 41. Originally verse 104:41.
-> - <sup>p</sup> 42. Originally verse 104:42.
-> - <sup>q</sup> 43. Originally verse 104:43.
-> - <sup>r</sup> 44. Originally verse 104:44.
-> - <sup>s</sup> 45. Originally verse 104:45.
+> - <sup>aa</sup> 27. Originally verse 104:27.
+> - <sup>ab</sup> 28. Originally verse 104:28.
+> - <sup>ac</sup> 29. Originally verse 104:29.
+> - <sup>ad</sup> 30. Originally verse 104:30.
+> - <sup>ae</sup> 31. Originally verse 104:31.
+> - <sup>af</sup> 32. Originally verse 104:32.
+> - <sup>ag</sup> 33. Originally verse 104:33.
+> - <sup>ah</sup> 34. Originally verse 104:34.
+> - <sup>ai</sup> 35. Originally verse 104:35.
+> - <sup>aj</sup> 36. Originally verse 104:36.
+> - <sup>ak</sup> 37. Originally verse 104:37.
+> - <sup>al</sup> 38. Originally verse 104:38.
+> - <sup>am</sup> 39. Originally verse 104:39.
+> - <sup>an</sup> 40. Originally verse 104:40.
+> - <sup>ao</sup> 41. Originally verse 104:41.
+> - <sup>ap</sup> 42. Originally verse 104:42.
+> - <sup>aq</sup> 43. Originally verse 104:43.
+> - <sup>ar</sup> 44. Originally verse 104:44.
+> - <sup>as</sup> 45. Originally verse 104:45.
 
 ## Chapter 106
 
@@ -4105,28 +4105,28 @@
 <sup>24</sup> <sup>x</sup>et pro nihilo habuerunt terram desiderabilem non crediderunt verbo eius
 <sup>25</sup> <sup>y</sup>et murmurabant in tabernaculis suis non exaudierunt vocem Domini
 <sup>26</sup> <sup>z</sup>et elevavit manum suam super eos ut prosterneret eos in deserto
-<sup>27</sup> <sup>a</sup>et ut deiceret semen eorum in nationibus et dispergeret eos in regionibus
-<sup>28</sup> <sup>b</sup>et initiati sunt Beelphegor et comederunt sacrificia mortuorum
-<sup>29</sup> <sup>c</sup>et inritaverunt eum in adinventionibus suis et multiplicata est in eis ruina
-<sup>30</sup> <sup>d</sup>et stetit Finees et placavit et cessavit quassatio
-<sup>31</sup> <sup>e</sup>et reputatum est ei in iustitiam in generatione et generationem usque in sempiternum
-<sup>32</sup> <sup>f</sup>et inritaverunt ad aquam Contradictionis et vexatus est Moses propter eos
-<sup>33</sup> <sup>g</sup>quia exacerbaverunt spiritum eius et distinxit in labiis suis
-<sup>34</sup> <sup>h</sup>non disperdiderunt gentes quas dixit Dominus illis
-<sup>35</sup> <sup>i</sup>et commixti sunt inter gentes et didicerunt opera eorum
-<sup>36</sup> <sup>j</sup>et servierunt sculptilibus eorum et factum est illis in scandalum
-<sup>37</sup> <sup>k</sup>et immolaverunt filios suos et filias suas daemoniis
-<sup>38</sup> <sup>l</sup>et effuderunt sanguinem innocentem sanguinem filiorum suorum et filiarum suarum; quas sacrificaverunt sculptilibus Chanaan et interfecta est terra in sanguinibus
-<sup>39</sup> <sup>m</sup>et contaminata est in operibus eorum et fornicati sunt in adinventionibus suis
-<sup>40</sup> <sup>n</sup>et iratus est furore Dominus in populo suo et abominatus est hereditatem suam
-<sup>41</sup> <sup>o</sup>et tradidit eos in manus gentium et dominati sunt eorum qui oderant eos
-<sup>42</sup> <sup>p</sup>et tribulaverunt eos inimici eorum et humiliati sunt sub manibus eorum
-<sup>43</sup> <sup>q</sup>saepe liberavit eos ipsi autem exacerbaverunt eum in consilio suo et humiliati sunt in iniquitatibus suis
-<sup>44</sup> <sup>r</sup>et vidit cum tribularentur et audiret orationem eorum
-<sup>45</sup> <sup>s</sup>et memor fuit testamenti sui et paenituit eum secundum multitudinem misericordiae suae
-<sup>46</sup> <sup>t</sup>et dedit eos in misericordias in conspectu omnium qui ceperant eos
-<sup>47</sup> <sup>u</sup>salvos fac nos Domine Deus noster et congrega nos de nationibus ut confiteamur nomini tuo sancto et gloriemur in laude tua
-<sup>48</sup> <sup>v</sup>benedictus Dominus Deus Israhel a saeculo et usque in saeculum et dicet omnis populus fiat fiat
+<sup>27</sup> <sup>aa</sup>et ut deiceret semen eorum in nationibus et dispergeret eos in regionibus
+<sup>28</sup> <sup>ab</sup>et initiati sunt Beelphegor et comederunt sacrificia mortuorum
+<sup>29</sup> <sup>ac</sup>et inritaverunt eum in adinventionibus suis et multiplicata est in eis ruina
+<sup>30</sup> <sup>ad</sup>et stetit Finees et placavit et cessavit quassatio
+<sup>31</sup> <sup>ae</sup>et reputatum est ei in iustitiam in generatione et generationem usque in sempiternum
+<sup>32</sup> <sup>af</sup>et inritaverunt ad aquam Contradictionis et vexatus est Moses propter eos
+<sup>33</sup> <sup>ag</sup>quia exacerbaverunt spiritum eius et distinxit in labiis suis
+<sup>34</sup> <sup>ah</sup>non disperdiderunt gentes quas dixit Dominus illis
+<sup>35</sup> <sup>ai</sup>et commixti sunt inter gentes et didicerunt opera eorum
+<sup>36</sup> <sup>aj</sup>et servierunt sculptilibus eorum et factum est illis in scandalum
+<sup>37</sup> <sup>ak</sup>et immolaverunt filios suos et filias suas daemoniis
+<sup>38</sup> <sup>al</sup>et effuderunt sanguinem innocentem sanguinem filiorum suorum et filiarum suarum; quas sacrificaverunt sculptilibus Chanaan et interfecta est terra in sanguinibus
+<sup>39</sup> <sup>am</sup>et contaminata est in operibus eorum et fornicati sunt in adinventionibus suis
+<sup>40</sup> <sup>an</sup>et iratus est furore Dominus in populo suo et abominatus est hereditatem suam
+<sup>41</sup> <sup>ao</sup>et tradidit eos in manus gentium et dominati sunt eorum qui oderant eos
+<sup>42</sup> <sup>ap</sup>et tribulaverunt eos inimici eorum et humiliati sunt sub manibus eorum
+<sup>43</sup> <sup>aq</sup>saepe liberavit eos ipsi autem exacerbaverunt eum in consilio suo et humiliati sunt in iniquitatibus suis
+<sup>44</sup> <sup>ar</sup>et vidit cum tribularentur et audiret orationem eorum
+<sup>45</sup> <sup>as</sup>et memor fuit testamenti sui et paenituit eum secundum multitudinem misericordiae suae
+<sup>46</sup> <sup>at</sup>et dedit eos in misericordias in conspectu omnium qui ceperant eos
+<sup>47</sup> <sup>au</sup>salvos fac nos Domine Deus noster et congrega nos de nationibus ut confiteamur nomini tuo sancto et gloriemur in laude tua
+<sup>48</sup> <sup>av</sup>benedictus Dominus Deus Israhel a saeculo et usque in saeculum et dicet omnis populus fiat fiat
 
 > - <sup>a</sup> 1. Originally verse 105:1.
 > - <sup>b</sup> 2. Originally verse 105:2.
@@ -4154,28 +4154,28 @@
 > - <sup>x</sup> 24. Originally verse 105:24.
 > - <sup>y</sup> 25. Originally verse 105:25.
 > - <sup>z</sup> 26. Originally verse 105:26.
-> - <sup>a</sup> 27. Originally verse 105:27.
-> - <sup>b</sup> 28. Originally verse 105:28.
-> - <sup>c</sup> 29. Originally verse 105:29.
-> - <sup>d</sup> 30. Originally verse 105:30.
-> - <sup>e</sup> 31. Originally verse 105:31.
-> - <sup>f</sup> 32. Originally verse 105:32.
-> - <sup>g</sup> 33. Originally verse 105:33.
-> - <sup>h</sup> 34. Originally verse 105:34.
-> - <sup>i</sup> 35. Originally verse 105:35.
-> - <sup>j</sup> 36. Originally verse 105:36.
-> - <sup>k</sup> 37. Originally verse 105:37.
-> - <sup>l</sup> 38. Originally verse 105:38.
-> - <sup>m</sup> 39. Originally verse 105:39.
-> - <sup>n</sup> 40. Originally verse 105:40.
-> - <sup>o</sup> 41. Originally verse 105:41.
-> - <sup>p</sup> 42. Originally verse 105:42.
-> - <sup>q</sup> 43. Originally verse 105:43.
-> - <sup>r</sup> 44. Originally verse 105:44.
-> - <sup>s</sup> 45. Originally verse 105:45.
-> - <sup>t</sup> 46. Originally verse 105:46.
-> - <sup>u</sup> 47. Originally verse 105:47.
-> - <sup>v</sup> 48. Originally verse 105:48.
+> - <sup>aa</sup> 27. Originally verse 105:27.
+> - <sup>ab</sup> 28. Originally verse 105:28.
+> - <sup>ac</sup> 29. Originally verse 105:29.
+> - <sup>ad</sup> 30. Originally verse 105:30.
+> - <sup>ae</sup> 31. Originally verse 105:31.
+> - <sup>af</sup> 32. Originally verse 105:32.
+> - <sup>ag</sup> 33. Originally verse 105:33.
+> - <sup>ah</sup> 34. Originally verse 105:34.
+> - <sup>ai</sup> 35. Originally verse 105:35.
+> - <sup>aj</sup> 36. Originally verse 105:36.
+> - <sup>ak</sup> 37. Originally verse 105:37.
+> - <sup>al</sup> 38. Originally verse 105:38.
+> - <sup>am</sup> 39. Originally verse 105:39.
+> - <sup>an</sup> 40. Originally verse 105:40.
+> - <sup>ao</sup> 41. Originally verse 105:41.
+> - <sup>ap</sup> 42. Originally verse 105:42.
+> - <sup>aq</sup> 43. Originally verse 105:43.
+> - <sup>ar</sup> 44. Originally verse 105:44.
+> - <sup>as</sup> 45. Originally verse 105:45.
+> - <sup>at</sup> 46. Originally verse 105:46.
+> - <sup>au</sup> 47. Originally verse 105:47.
+> - <sup>av</sup> 48. Originally verse 105:48.
 
 ## Chapter 107
 
@@ -4207,23 +4207,23 @@
 <sup>24</sup> <sup>x</sup>ipsi viderunt opera Domini et mirabilia eius in profundo
 <sup>25</sup> <sup>y</sup>dixit et stetit spiritus procellae et exaltati sunt fluctus eius
 <sup>26</sup> <sup>z</sup>ascendunt usque ad caelos et descendunt usque ad abyssos anima eorum in malis tabescebat
-<sup>27</sup> <sup>a</sup>turbati sunt et moti sunt sicut ebrius et omnis sapientia eorum devorata est
-<sup>28</sup> <sup>b</sup>et clamaverunt ad Dominum cum tribularentur et de necessitatibus eorum eduxit eos
-<sup>29</sup> <sup>c</sup>et statuit procellam eius; in auram et siluerunt fluctus eius
-<sup>30</sup> <sup>d</sup>et laetati sunt quia siluerunt et deduxit eos in portum voluntatis eorum
-<sup>31</sup> <sup>e</sup>confiteantur Domino misericordiae eius et mirabilia eius filiis hominum
-<sup>32</sup> <sup>f</sup>exaltent eum in ecclesia plebis et in cathedra seniorum laudent eum
-<sup>33</sup> <sup>g</sup>posuit flumina in desertum et exitus aquarum in sitim
-<sup>34</sup> <sup>h</sup>terram fructiferam in salsuginem a malitia inhabitantium in ea
-<sup>35</sup> <sup>i</sup>posuit desertum in stagna aquarum et terram sine aqua in exitus aquarum
-<sup>36</sup> <sup>j</sup>et conlocavit illic esurientes et constituerunt civitatem habitationis
-<sup>37</sup> <sup>k</sup>et seminaverunt agros et plantaverunt vineas et fecerunt fructum nativitatis
-<sup>38</sup> <sup>l</sup>et benedixit eis et multiplicati sunt nimis et iumenta eorum non minoravit
-<sup>39</sup> <sup>m</sup>et pauci facti sunt et vexati sunt a tribulatione malorum et dolore
-<sup>40</sup> <sup>n</sup>effusa est contemptio super principes et errare fecit eos in invio et non in via
-<sup>41</sup> <sup>o</sup>et adiuvit pauperem de inopia et posuit sicut oves familias
-<sup>42</sup> <sup>p</sup>videbunt recti et laetabuntur et omnis iniquitas oppilabit os suum
-<sup>43</sup> <sup>q</sup>quis sapiens et custodiet haec et intellegent misericordias Domini
+<sup>27</sup> <sup>aa</sup>turbati sunt et moti sunt sicut ebrius et omnis sapientia eorum devorata est
+<sup>28</sup> <sup>ab</sup>et clamaverunt ad Dominum cum tribularentur et de necessitatibus eorum eduxit eos
+<sup>29</sup> <sup>ac</sup>et statuit procellam eius; in auram et siluerunt fluctus eius
+<sup>30</sup> <sup>ad</sup>et laetati sunt quia siluerunt et deduxit eos in portum voluntatis eorum
+<sup>31</sup> <sup>ae</sup>confiteantur Domino misericordiae eius et mirabilia eius filiis hominum
+<sup>32</sup> <sup>af</sup>exaltent eum in ecclesia plebis et in cathedra seniorum laudent eum
+<sup>33</sup> <sup>ag</sup>posuit flumina in desertum et exitus aquarum in sitim
+<sup>34</sup> <sup>ah</sup>terram fructiferam in salsuginem a malitia inhabitantium in ea
+<sup>35</sup> <sup>ai</sup>posuit desertum in stagna aquarum et terram sine aqua in exitus aquarum
+<sup>36</sup> <sup>aj</sup>et conlocavit illic esurientes et constituerunt civitatem habitationis
+<sup>37</sup> <sup>ak</sup>et seminaverunt agros et plantaverunt vineas et fecerunt fructum nativitatis
+<sup>38</sup> <sup>al</sup>et benedixit eis et multiplicati sunt nimis et iumenta eorum non minoravit
+<sup>39</sup> <sup>am</sup>et pauci facti sunt et vexati sunt a tribulatione malorum et dolore
+<sup>40</sup> <sup>an</sup>effusa est contemptio super principes et errare fecit eos in invio et non in via
+<sup>41</sup> <sup>ao</sup>et adiuvit pauperem de inopia et posuit sicut oves familias
+<sup>42</sup> <sup>ap</sup>videbunt recti et laetabuntur et omnis iniquitas oppilabit os suum
+<sup>43</sup> <sup>aq</sup>quis sapiens et custodiet haec et intellegent misericordias Domini
 
 > - <sup>a</sup> 1. Originally verse 106:1.
 > - <sup>b</sup> 2. Originally verse 106:2.
@@ -4251,23 +4251,23 @@
 > - <sup>x</sup> 24. Originally verse 106:24.
 > - <sup>y</sup> 25. Originally verse 106:25.
 > - <sup>z</sup> 26. Originally verse 106:26.
-> - <sup>a</sup> 27. Originally verse 106:27.
-> - <sup>b</sup> 28. Originally verse 106:28.
-> - <sup>c</sup> 29. Originally verse 106:29.
-> - <sup>d</sup> 30. Originally verse 106:30.
-> - <sup>e</sup> 31. Originally verse 106:31.
-> - <sup>f</sup> 32. Originally verse 106:32.
-> - <sup>g</sup> 33. Originally verse 106:33.
-> - <sup>h</sup> 34. Originally verse 106:34.
-> - <sup>i</sup> 35. Originally verse 106:35.
-> - <sup>j</sup> 36. Originally verse 106:36.
-> - <sup>k</sup> 37. Originally verse 106:37.
-> - <sup>l</sup> 38. Originally verse 106:38.
-> - <sup>m</sup> 39. Originally verse 106:39.
-> - <sup>n</sup> 40. Originally verse 106:40.
-> - <sup>o</sup> 41. Originally verse 106:41.
-> - <sup>p</sup> 42. Originally verse 106:42.
-> - <sup>q</sup> 43. Originally verse 106:43.
+> - <sup>aa</sup> 27. Originally verse 106:27.
+> - <sup>ab</sup> 28. Originally verse 106:28.
+> - <sup>ac</sup> 29. Originally verse 106:29.
+> - <sup>ad</sup> 30. Originally verse 106:30.
+> - <sup>ae</sup> 31. Originally verse 106:31.
+> - <sup>af</sup> 32. Originally verse 106:32.
+> - <sup>ag</sup> 33. Originally verse 106:33.
+> - <sup>ah</sup> 34. Originally verse 106:34.
+> - <sup>ai</sup> 35. Originally verse 106:35.
+> - <sup>aj</sup> 36. Originally verse 106:36.
+> - <sup>ak</sup> 37. Originally verse 106:37.
+> - <sup>al</sup> 38. Originally verse 106:38.
+> - <sup>am</sup> 39. Originally verse 106:39.
+> - <sup>an</sup> 40. Originally verse 106:40.
+> - <sup>ao</sup> 41. Originally verse 106:41.
+> - <sup>ap</sup> 42. Originally verse 106:42.
+> - <sup>aq</sup> 43. Originally verse 106:43.
 
 ## Chapter 108
 
@@ -4332,11 +4332,11 @@
 <sup>24</sup> <sup>x</sup>genua mea infirmata sunt a ieiunio et caro mea inmutata est propter oleum
 <sup>25</sup> <sup>y</sup>et ego factus sum obprobrium illis viderunt me moverunt capita sua
 <sup>26</sup> <sup>z</sup>adiuva me Domine Deus meus salvum fac me secundum misericordiam tuam
-<sup>27</sup> <sup>a</sup>et sciant quia manus tua haec tu Domine fecisti eam
-<sup>28</sup> <sup>b</sup>maledicent illi et tu benedices qui insurgunt in me confundantur servus autem tuus laetabitur
-<sup>29</sup> <sup>c</sup>induantur qui detrahunt mihi pudore et operiantur sicut deploide confusione sua
-<sup>30</sup> <sup>d</sup>confitebor Domino nimis in ore meo et in medio multorum laudabo eum
-<sup>31</sup> <sup>e</sup>quia adstetit a dextris pauperis ut salvam faceret a persequentibus animam meam
+<sup>27</sup> <sup>aa</sup>et sciant quia manus tua haec tu Domine fecisti eam
+<sup>28</sup> <sup>ab</sup>maledicent illi et tu benedices qui insurgunt in me confundantur servus autem tuus laetabitur
+<sup>29</sup> <sup>ac</sup>induantur qui detrahunt mihi pudore et operiantur sicut deploide confusione sua
+<sup>30</sup> <sup>ad</sup>confitebor Domino nimis in ore meo et in medio multorum laudabo eum
+<sup>31</sup> <sup>ae</sup>quia adstetit a dextris pauperis ut salvam faceret a persequentibus animam meam
 
 > - <sup>a</sup> Subtitle. Originally verse 108:1.
 > - <sup>b</sup> 1. Originally verse 108:2.
@@ -4364,11 +4364,11 @@
 > - <sup>x</sup> 24. Originally verse 108:24.
 > - <sup>y</sup> 25. Originally verse 108:25.
 > - <sup>z</sup> 26. Originally verse 108:26.
-> - <sup>a</sup> 27. Originally verse 108:27.
-> - <sup>b</sup> 28. Originally verse 108:28.
-> - <sup>c</sup> 29. Originally verse 108:29.
-> - <sup>d</sup> 30. Originally verse 108:30.
-> - <sup>e</sup> 31. Originally verse 108:31.
+> - <sup>aa</sup> 27. Originally verse 108:27.
+> - <sup>ab</sup> 28. Originally verse 108:28.
+> - <sup>ac</sup> 29. Originally verse 108:29.
+> - <sup>ad</sup> 30. Originally verse 108:30.
+> - <sup>ae</sup> 31. Originally verse 108:31.
 
 ## Chapter 110
 
@@ -4608,9 +4608,9 @@
 <sup>24</sup> <sup>x</sup>haec est dies quam fecit Dominus exultemus et laetemur in ea
 <sup>25</sup> <sup>y</sup>o Domine salvum fac o Domine prosperare
 <sup>26</sup> <sup>z</sup>benedictus qui venturus est in nomine Domini benediximus vobis de domo Domini
-<sup>27</sup> <sup>a</sup>Deus Dominus et inluxit nobis constituite diem sollemnem in condensis usque ad cornua altaris
-<sup>28</sup> <sup>b</sup>Deus meus es tu et confitebor tibi Deus meus es tu; et exaltabo te confitebor tibi quoniam exaudisti me et factus es mihi in salutem
-<sup>29</sup> <sup>c</sup>confitemini Domino quoniam bonus quoniam in saeculum misericordia eius
+<sup>27</sup> <sup>aa</sup>Deus Dominus et inluxit nobis constituite diem sollemnem in condensis usque ad cornua altaris
+<sup>28</sup> <sup>ab</sup>Deus meus es tu et confitebor tibi Deus meus es tu; et exaltabo te confitebor tibi quoniam exaudisti me et factus es mihi in salutem
+<sup>29</sup> <sup>ac</sup>confitemini Domino quoniam bonus quoniam in saeculum misericordia eius
 
 > - <sup>a</sup> 1. Originally verse 117:1.
 > - <sup>b</sup> 2. Originally verse 117:2.
@@ -4638,9 +4638,9 @@
 > - <sup>x</sup> 24. Originally verse 117:24.
 > - <sup>y</sup> 25. Originally verse 117:25.
 > - <sup>z</sup> 26. Originally verse 117:26.
-> - <sup>a</sup> 27. Originally verse 117:27.
-> - <sup>b</sup> 28. Originally verse 117:28.
-> - <sup>c</sup> 29. Originally verse 117:29.
+> - <sup>aa</sup> 27. Originally verse 117:27.
+> - <sup>ab</sup> 28. Originally verse 117:28.
+> - <sup>ac</sup> 29. Originally verse 117:29.
 
 ## Chapter 119
 
@@ -4683,210 +4683,210 @@
 
 <sup>25</sup> <sup>y</sup>adhesit pavimento anima mea vivifica me secundum verbum tuum
 <sup>26</sup> <sup>z</sup>vias meas enuntiavi et exaudisti me doce me iustificationes tuas
-<sup>27</sup> <sup>a</sup>viam iustificationum tuarum instrue me et exercebor in mirabilibus tuis
-<sup>28</sup> <sup>b</sup>dormitavit anima mea prae taedio confirma me in verbis tuis
-<sup>29</sup> <sup>c</sup>viam iniquitatis amove a me et lege tua miserere mei
-<sup>30</sup> <sup>d</sup>viam veritatis elegi iudicia tua non sum oblitus
-<sup>31</sup> <sup>e</sup>adhesi testimoniis tuis Domine noli me confundere
-<sup>32</sup> <sup>f</sup>viam mandatorum tuorum cucurri cum dilatasti cor meum
+<sup>27</sup> <sup>aa</sup>viam iustificationum tuarum instrue me et exercebor in mirabilibus tuis
+<sup>28</sup> <sup>ab</sup>dormitavit anima mea prae taedio confirma me in verbis tuis
+<sup>29</sup> <sup>ac</sup>viam iniquitatis amove a me et lege tua miserere mei
+<sup>30</sup> <sup>ad</sup>viam veritatis elegi iudicia tua non sum oblitus
+<sup>31</sup> <sup>ae</sup>adhesi testimoniis tuis Domine noli me confundere
+<sup>32</sup> <sup>af</sup>viam mandatorum tuorum cucurri cum dilatasti cor meum
 
 ### he
 
-<sup>33</sup> <sup>g</sup>legem pone mihi Domine viam iustificationum tuarum et exquiram eam semper
-<sup>34</sup> <sup>h</sup>da mihi intellectum et scrutabor legem tuam et custodiam illam in toto corde meo
-<sup>35</sup> <sup>i</sup>deduc me in semita mandatorum tuorum quia ipsam volui
-<sup>36</sup> <sup>j</sup>inclina cor meum in testimonia tua et non in avaritiam
-<sup>37</sup> <sup>k</sup>averte oculos meos ne videant vanitatem in via tua vivifica me
-<sup>38</sup> <sup>l</sup>statue servo tuo eloquium tuum in timore tuo
-<sup>39</sup> <sup>m</sup>amputa obprobrium meum quod suspicatus sum quia iudicia tua iucunda
-<sup>40</sup> <sup>n</sup>ecce concupivi mandata tua in aequitate tua vivifica me
+<sup>33</sup> <sup>ag</sup>legem pone mihi Domine viam iustificationum tuarum et exquiram eam semper
+<sup>34</sup> <sup>ah</sup>da mihi intellectum et scrutabor legem tuam et custodiam illam in toto corde meo
+<sup>35</sup> <sup>ai</sup>deduc me in semita mandatorum tuorum quia ipsam volui
+<sup>36</sup> <sup>aj</sup>inclina cor meum in testimonia tua et non in avaritiam
+<sup>37</sup> <sup>ak</sup>averte oculos meos ne videant vanitatem in via tua vivifica me
+<sup>38</sup> <sup>al</sup>statue servo tuo eloquium tuum in timore tuo
+<sup>39</sup> <sup>am</sup>amputa obprobrium meum quod suspicatus sum quia iudicia tua iucunda
+<sup>40</sup> <sup>an</sup>ecce concupivi mandata tua in aequitate tua vivifica me
 
 ### vav
 
-<sup>41</sup> <sup>o</sup>et veniat super me misericordia tua Domine salutare tuum secundum eloquium tuum
-<sup>42</sup> <sup>p</sup>et respondebo exprobrantibus mihi verbum quia speravi in sermonibus tuis
-<sup>43</sup> <sup>q</sup>et ne auferas de ore meo verbum veritatis usquequaque quia in iudiciis tuis supersperavi
-<sup>44</sup> <sup>r</sup>et custodiam legem tuam semper in saeculum et in saeculum saeculi
-<sup>45</sup> <sup>s</sup>et ambulabam in latitudine quia mandata tua exquisivi
-<sup>46</sup> <sup>t</sup>et loquebar in testimoniis tuis in conspectu regum et non confundebar
-<sup>47</sup> <sup>u</sup>et meditabar in mandatis tuis quae dilexi
-<sup>48</sup> <sup>v</sup>et levavi manus meas ad mandata quae dilexi et exercebar in iustificationibus tuis
+<sup>41</sup> <sup>ao</sup>et veniat super me misericordia tua Domine salutare tuum secundum eloquium tuum
+<sup>42</sup> <sup>ap</sup>et respondebo exprobrantibus mihi verbum quia speravi in sermonibus tuis
+<sup>43</sup> <sup>aq</sup>et ne auferas de ore meo verbum veritatis usquequaque quia in iudiciis tuis supersperavi
+<sup>44</sup> <sup>ar</sup>et custodiam legem tuam semper in saeculum et in saeculum saeculi
+<sup>45</sup> <sup>as</sup>et ambulabam in latitudine quia mandata tua exquisivi
+<sup>46</sup> <sup>at</sup>et loquebar in testimoniis tuis in conspectu regum et non confundebar
+<sup>47</sup> <sup>au</sup>et meditabar in mandatis tuis quae dilexi
+<sup>48</sup> <sup>av</sup>et levavi manus meas ad mandata quae dilexi et exercebar in iustificationibus tuis
 
 ### zai
 
-<sup>49</sup> <sup>w</sup>memor esto verbi tui servo tuo in quo mihi spem dedisti
-<sup>50</sup> <sup>x</sup>haec me consolata est in humilitate mea quia eloquium tuum vivificavit me
-<sup>51</sup> <sup>y</sup>superbi inique agebant usquequaque a lege autem tua non declinavi
-<sup>52</sup> <sup>z</sup>memor fui iudiciorum tuorum a saeculo Domine et consolatus sum
-<sup>53</sup> <sup>a</sup>defectio tenuit me prae peccatoribus derelinquentibus legem tuam
-<sup>54</sup> <sup>b</sup>cantabiles mihi erant iustificationes tuae in loco peregrinationis meae
-<sup>55</sup> <sup>c</sup>memor fui in nocte nominis tui Domine et custodivi legem tuam
-<sup>56</sup> <sup>d</sup>haec facta est mihi quia iustificationes tuas exquisivi
+<sup>49</sup> <sup>aw</sup>memor esto verbi tui servo tuo in quo mihi spem dedisti
+<sup>50</sup> <sup>ax</sup>haec me consolata est in humilitate mea quia eloquium tuum vivificavit me
+<sup>51</sup> <sup>ay</sup>superbi inique agebant usquequaque a lege autem tua non declinavi
+<sup>52</sup> <sup>az</sup>memor fui iudiciorum tuorum a saeculo Domine et consolatus sum
+<sup>53</sup> <sup>ba</sup>defectio tenuit me prae peccatoribus derelinquentibus legem tuam
+<sup>54</sup> <sup>bb</sup>cantabiles mihi erant iustificationes tuae in loco peregrinationis meae
+<sup>55</sup> <sup>bc</sup>memor fui in nocte nominis tui Domine et custodivi legem tuam
+<sup>56</sup> <sup>bd</sup>haec facta est mihi quia iustificationes tuas exquisivi
 
 ### heth
 
-<sup>57</sup> <sup>e</sup>portio mea Dominus dixi custodire legem tuam
-<sup>58</sup> <sup>f</sup>deprecatus sum faciem tuam in toto corde meo miserere mei secundum eloquium tuum
-<sup>59</sup> <sup>g</sup>cogitavi vias meas et avertisti pedes meos in testimonia tua
-<sup>60</sup> <sup>h</sup>paratus sum et non sum turbatus ut custodiam mandata tua
-<sup>61</sup> <sup>i</sup>funes peccatorum circumplexi sunt me et legem tuam non sum oblitus
-<sup>62</sup> <sup>j</sup>media nocte surgebam ad confitendum tibi super iudicia iustificationis tuae
-<sup>63</sup> <sup>k</sup>particeps ego sum omnium timentium te et custodientium mandata tua
-<sup>64</sup> <sup>l</sup>misericordia Domini plena est terra iustificationes tuas doce me
+<sup>57</sup> <sup>be</sup>portio mea Dominus dixi custodire legem tuam
+<sup>58</sup> <sup>bf</sup>deprecatus sum faciem tuam in toto corde meo miserere mei secundum eloquium tuum
+<sup>59</sup> <sup>bg</sup>cogitavi vias meas et avertisti pedes meos in testimonia tua
+<sup>60</sup> <sup>bh</sup>paratus sum et non sum turbatus ut custodiam mandata tua
+<sup>61</sup> <sup>bi</sup>funes peccatorum circumplexi sunt me et legem tuam non sum oblitus
+<sup>62</sup> <sup>bj</sup>media nocte surgebam ad confitendum tibi super iudicia iustificationis tuae
+<sup>63</sup> <sup>bk</sup>particeps ego sum omnium timentium te et custodientium mandata tua
+<sup>64</sup> <sup>bl</sup>misericordia Domini plena est terra iustificationes tuas doce me
 
 ### teth
 
-<sup>65</sup> <sup>m</sup>bonitatem fecisti cum servo tuo Domine secundum verbum tuum
-<sup>66</sup> <sup>n</sup>bonitatem et disciplinam et scientiam doce me quia mandatis tuis credidi
-<sup>67</sup> <sup>o</sup>priusquam humiliarer ego deliqui propterea eloquium tuum custodivi
-<sup>68</sup> <sup>p</sup>bonus es tu et in bonitate tua doce me iustificationes tuas
-<sup>69</sup> <sup>q</sup>multiplicata est super me iniquitas superborum ego autem in toto corde scrutabor mandata tua
-<sup>70</sup> <sup>r</sup>coagulatum est sicut lac cor eorum ego vero legem tuam meditatus sum
-<sup>71</sup> <sup>s</sup>bonum mihi quia humiliasti me ut discam iustificationes tuas
-<sup>72</sup> <sup>t</sup>bonum mihi lex oris tui super milia auri et argenti
+<sup>65</sup> <sup>bm</sup>bonitatem fecisti cum servo tuo Domine secundum verbum tuum
+<sup>66</sup> <sup>bn</sup>bonitatem et disciplinam et scientiam doce me quia mandatis tuis credidi
+<sup>67</sup> <sup>bo</sup>priusquam humiliarer ego deliqui propterea eloquium tuum custodivi
+<sup>68</sup> <sup>bp</sup>bonus es tu et in bonitate tua doce me iustificationes tuas
+<sup>69</sup> <sup>bq</sup>multiplicata est super me iniquitas superborum ego autem in toto corde scrutabor mandata tua
+<sup>70</sup> <sup>br</sup>coagulatum est sicut lac cor eorum ego vero legem tuam meditatus sum
+<sup>71</sup> <sup>bs</sup>bonum mihi quia humiliasti me ut discam iustificationes tuas
+<sup>72</sup> <sup>bt</sup>bonum mihi lex oris tui super milia auri et argenti
 
 ### ioth
 
-<sup>73</sup> <sup>u</sup>manus tuae fecerunt me et plasmaverunt me da mihi intellectum et discam mandata tua
-<sup>74</sup> <sup>v</sup>qui timent te videbunt me et laetabuntur quia in verba tua supersperavi
-<sup>75</sup> <sup>w</sup>cognovi Domine quia aequitas iudicia tua et veritate humiliasti me
-<sup>76</sup> <sup>x</sup>fiat misericordia tua ut consoletur me secundum eloquium tuum servo tuo
-<sup>77</sup> <sup>y</sup>veniant mihi miserationes tuae et vivam quia lex tua meditatio mea est
-<sup>78</sup> <sup>z</sup>confundantur superbi quia iniuste iniquitatem fecerunt in me ego autem exercebor in mandatis tuis
-<sup>79</sup> <sup>a</sup>convertantur mihi timentes te et qui noverunt testimonia tua
-<sup>80</sup> <sup>b</sup>fiat cor meum inmaculatum in iustificationibus tuis ut non confundar
+<sup>73</sup> <sup>bu</sup>manus tuae fecerunt me et plasmaverunt me da mihi intellectum et discam mandata tua
+<sup>74</sup> <sup>bv</sup>qui timent te videbunt me et laetabuntur quia in verba tua supersperavi
+<sup>75</sup> <sup>bw</sup>cognovi Domine quia aequitas iudicia tua et veritate humiliasti me
+<sup>76</sup> <sup>bx</sup>fiat misericordia tua ut consoletur me secundum eloquium tuum servo tuo
+<sup>77</sup> <sup>by</sup>veniant mihi miserationes tuae et vivam quia lex tua meditatio mea est
+<sup>78</sup> <sup>bz</sup>confundantur superbi quia iniuste iniquitatem fecerunt in me ego autem exercebor in mandatis tuis
+<sup>79</sup> <sup>ca</sup>convertantur mihi timentes te et qui noverunt testimonia tua
+<sup>80</sup> <sup>cb</sup>fiat cor meum inmaculatum in iustificationibus tuis ut non confundar
 
 ### caf
 
-<sup>81</sup> <sup>c</sup>defecit in salutare tuum anima mea in verbum tuum supersperavi
-<sup>82</sup> <sup>d</sup>defecerunt oculi mei in eloquium tuum dicentes quando consolaberis me
-<sup>83</sup> <sup>e</sup>quia factus sum sicut uter in pruina iustificationes tuas non sum oblitus
-<sup>84</sup> <sup>f</sup>quot sunt dies servo tuo quando facies de persequentibus me iudicium
-<sup>85</sup> <sup>g</sup>narraverunt mihi iniqui fabulationes sed non ut lex tua
-<sup>86</sup> <sup>h</sup>omnia mandata tua veritas inique persecuti sunt me adiuva me
-<sup>87</sup> <sup>i</sup>paulo minus consummaverunt me in terra ego autem non dereliqui mandata tua
-<sup>88</sup> <sup>j</sup>secundum misericordiam tuam vivifica me et custodiam testimonia oris tui
+<sup>81</sup> <sup>cc</sup>defecit in salutare tuum anima mea in verbum tuum supersperavi
+<sup>82</sup> <sup>cd</sup>defecerunt oculi mei in eloquium tuum dicentes quando consolaberis me
+<sup>83</sup> <sup>ce</sup>quia factus sum sicut uter in pruina iustificationes tuas non sum oblitus
+<sup>84</sup> <sup>cf</sup>quot sunt dies servo tuo quando facies de persequentibus me iudicium
+<sup>85</sup> <sup>cg</sup>narraverunt mihi iniqui fabulationes sed non ut lex tua
+<sup>86</sup> <sup>ch</sup>omnia mandata tua veritas inique persecuti sunt me adiuva me
+<sup>87</sup> <sup>ci</sup>paulo minus consummaverunt me in terra ego autem non dereliqui mandata tua
+<sup>88</sup> <sup>cj</sup>secundum misericordiam tuam vivifica me et custodiam testimonia oris tui
 
 ### lamed
 
-<sup>89</sup> <sup>k</sup>in aeternum Domine verbum tuum permanet in caelo
-<sup>90</sup> <sup>l</sup>in generationem et generationem veritas tua fundasti terram et permanet
-<sup>91</sup> <sup>m</sup>ordinatione tua perseverat dies quoniam omnia serviunt tibi
-<sup>92</sup> <sup>n</sup>nisi quod lex tua meditatio mea est tunc forte perissem in humilitate mea
-<sup>93</sup> <sup>o</sup>in aeternum non obliviscar iustificationes tuas quia in ipsis vivificasti me
-<sup>94</sup> <sup>p</sup>tuus sum ego salvum me fac quoniam iustificationes tuas exquisivi
+<sup>89</sup> <sup>ck</sup>in aeternum Domine verbum tuum permanet in caelo
+<sup>90</sup> <sup>cl</sup>in generationem et generationem veritas tua fundasti terram et permanet
+<sup>91</sup> <sup>cm</sup>ordinatione tua perseverat dies quoniam omnia serviunt tibi
+<sup>92</sup> <sup>cn</sup>nisi quod lex tua meditatio mea est tunc forte perissem in humilitate mea
+<sup>93</sup> <sup>co</sup>in aeternum non obliviscar iustificationes tuas quia in ipsis vivificasti me
+<sup>94</sup> <sup>cp</sup>tuus sum ego salvum me fac quoniam iustificationes tuas exquisivi
 
 ### me
 
-<sup>95</sup> <sup>q</sup>expectaverunt peccatores ut perderent me testimonia tua intellexi
-<sup>96</sup> <sup>r</sup>omni consummationi vidi finem latum mandatum tuum nimis
-<sup>97</sup> <sup>s</sup>mem quomodo dilexi legem tuam tota die meditatio mea est
-<sup>98</sup> <sup>t</sup>super inimicos meos prudentem me fecisti mandato tuo quia in aeternum mihi est
-<sup>99</sup> <sup>u</sup>super omnes docentes me intellexi quia testimonia tua meditatio mea est
-<sup>100</sup> <sup>v</sup>super senes intellexi quia mandata tua quaesivi
-<sup>101</sup> <sup>w</sup>ab omni via mala prohibui pedes meos ut custodiam verba tua
-<sup>102</sup> <sup>x</sup>a iudiciis tuis non declinavi quia tu legem posuisti mihi
-<sup>103</sup> <sup>y</sup>quam dulcia faucibus meis eloquia tua super mel ori meo
-<sup>104</sup> <sup>z</sup>a mandatis tuis intellexi propterea odivi omnem viam iniquitatis
+<sup>95</sup> <sup>cq</sup>expectaverunt peccatores ut perderent me testimonia tua intellexi
+<sup>96</sup> <sup>cr</sup>omni consummationi vidi finem latum mandatum tuum nimis
+<sup>97</sup> <sup>cs</sup>mem quomodo dilexi legem tuam tota die meditatio mea est
+<sup>98</sup> <sup>ct</sup>super inimicos meos prudentem me fecisti mandato tuo quia in aeternum mihi est
+<sup>99</sup> <sup>cu</sup>super omnes docentes me intellexi quia testimonia tua meditatio mea est
+<sup>100</sup> <sup>cv</sup>super senes intellexi quia mandata tua quaesivi
+<sup>101</sup> <sup>cw</sup>ab omni via mala prohibui pedes meos ut custodiam verba tua
+<sup>102</sup> <sup>cx</sup>a iudiciis tuis non declinavi quia tu legem posuisti mihi
+<sup>103</sup> <sup>cy</sup>quam dulcia faucibus meis eloquia tua super mel ori meo
+<sup>104</sup> <sup>cz</sup>a mandatis tuis intellexi propterea odivi omnem viam iniquitatis
 
 ### nun
 
-<sup>105</sup> <sup>a</sup>lucerna pedibus meis verbum tuum et lumen semitis meis
-<sup>106</sup> <sup>b</sup>iuravi et statui custodire iudicia iustitiae tuae
-<sup>107</sup> <sup>c</sup>humiliatus sum usquequaque Domine vivifica me secundum verbum tuum
-<sup>108</sup> <sup>d</sup>voluntaria oris mei beneplacita fac Domine et iudicia tua doce me
-<sup>109</sup> <sup>e</sup>anima mea in manibus meis semper et legem tuam non sum oblitus
-<sup>110</sup> <sup>f</sup>posuerunt peccatores laqueum mihi et de mandatis tuis non erravi
-<sup>111</sup> <sup>g</sup>hereditate adquisivi testimonia tua in aeternum quia exultatio cordis mei sunt
-<sup>112</sup> <sup>h</sup>inclinavi cor meum ad faciendas iustificationes tuas in aeternum propter retributionem
+<sup>105</sup> <sup>da</sup>lucerna pedibus meis verbum tuum et lumen semitis meis
+<sup>106</sup> <sup>db</sup>iuravi et statui custodire iudicia iustitiae tuae
+<sup>107</sup> <sup>dc</sup>humiliatus sum usquequaque Domine vivifica me secundum verbum tuum
+<sup>108</sup> <sup>dd</sup>voluntaria oris mei beneplacita fac Domine et iudicia tua doce me
+<sup>109</sup> <sup>de</sup>anima mea in manibus meis semper et legem tuam non sum oblitus
+<sup>110</sup> <sup>df</sup>posuerunt peccatores laqueum mihi et de mandatis tuis non erravi
+<sup>111</sup> <sup>dg</sup>hereditate adquisivi testimonia tua in aeternum quia exultatio cordis mei sunt
+<sup>112</sup> <sup>dh</sup>inclinavi cor meum ad faciendas iustificationes tuas in aeternum propter retributionem
 
 ### samech
 
-<sup>113</sup> <sup>i</sup>iniquos odio habui et legem tuam dilexi
-<sup>114</sup> <sup>j</sup>adiutor meus et susceptor meus es tu in verbum tuum supersperavi
-<sup>115</sup> <sup>k</sup>declinate a me maligni et scrutabor mandata Dei mei
-<sup>116</sup> <sup>l</sup>suscipe me secundum eloquium tuum et vivam et non confundas me ab expectatione mea
-<sup>117</sup> <sup>m</sup>adiuva me et salvus ero et meditabor in iustificationibus tuis semper
-<sup>118</sup> <sup>n</sup>sprevisti omnes discedentes a iustitiis tuis quia iniusta cogitatio eorum
-<sup>119</sup> <sup>o</sup>praevaricantes reputavi omnes peccatores terrae ideo dilexi testimonia tua
-<sup>120</sup> <sup>p</sup>confige timore tuo carnes meas a iudiciis enim; tuis timui
+<sup>113</sup> <sup>di</sup>iniquos odio habui et legem tuam dilexi
+<sup>114</sup> <sup>dj</sup>adiutor meus et susceptor meus es tu in verbum tuum supersperavi
+<sup>115</sup> <sup>dk</sup>declinate a me maligni et scrutabor mandata Dei mei
+<sup>116</sup> <sup>dl</sup>suscipe me secundum eloquium tuum et vivam et non confundas me ab expectatione mea
+<sup>117</sup> <sup>dm</sup>adiuva me et salvus ero et meditabor in iustificationibus tuis semper
+<sup>118</sup> <sup>dn</sup>sprevisti omnes discedentes a iustitiis tuis quia iniusta cogitatio eorum
+<sup>119</sup> <sup>do</sup>praevaricantes reputavi omnes peccatores terrae ideo dilexi testimonia tua
+<sup>120</sup> <sup>dp</sup>confige timore tuo carnes meas a iudiciis enim; tuis timui
 
 ### ain
 
-<sup>121</sup> <sup>q</sup>feci iudicium et iustitiam non tradas me calumniantibus me
-<sup>122</sup> <sup>r</sup>suscipe servum tuum in bonum non calumnientur me superbi
-<sup>123</sup> <sup>s</sup>oculi mei defecerunt in salutare tuum et in eloquium iustitiae tuae
-<sup>124</sup> <sup>t</sup>fac cum servo tuo secundum misericordiam tuam et iustificationes tuas doce me
-<sup>125</sup> <sup>u</sup>servus tuus sum ego da mihi intellectum et sciam testimonia tua
-<sup>126</sup> <sup>v</sup>tempus faciendi Domino dissipaverunt legem tuam
-<sup>127</sup> <sup>w</sup>ideo dilexi mandata tua super aurum et topazion
-<sup>128</sup> <sup>x</sup>propterea ad omnia mandata tua dirigebar omnem viam iniquam odio habui
+<sup>121</sup> <sup>dq</sup>feci iudicium et iustitiam non tradas me calumniantibus me
+<sup>122</sup> <sup>dr</sup>suscipe servum tuum in bonum non calumnientur me superbi
+<sup>123</sup> <sup>ds</sup>oculi mei defecerunt in salutare tuum et in eloquium iustitiae tuae
+<sup>124</sup> <sup>dt</sup>fac cum servo tuo secundum misericordiam tuam et iustificationes tuas doce me
+<sup>125</sup> <sup>du</sup>servus tuus sum ego da mihi intellectum et sciam testimonia tua
+<sup>126</sup> <sup>dv</sup>tempus faciendi Domino dissipaverunt legem tuam
+<sup>127</sup> <sup>dw</sup>ideo dilexi mandata tua super aurum et topazion
+<sup>128</sup> <sup>dx</sup>propterea ad omnia mandata tua dirigebar omnem viam iniquam odio habui
 
 ### fe
 
-<sup>129</sup> <sup>y</sup>mirabilia testimonia tua ideo scrutata est ea anima mea
-<sup>130</sup> <sup>z</sup>declaratio sermonum tuorum inluminat et intellectum dat parvulis
-<sup>131</sup> <sup>a</sup>os meum aperui et adtraxi spiritum quia mandata tua desiderabam
-<sup>132</sup> <sup>b</sup>aspice in me et miserere mei secundum iudicium diligentium nomen tuum
-<sup>133</sup> <sup>c</sup>gressus meos dirige secundum eloquium tuum et non dominetur mei omnis iniustitia
-<sup>134</sup> <sup>d</sup>redime me a calumniis hominum et custodiam mandata tua
-<sup>135</sup> <sup>e</sup>faciem tuam inlumina super servum tuum et doce me iustificationes tuas
-<sup>136</sup> <sup>f</sup>exitus aquarum deduxerunt oculi mei quia non custodierunt legem tuam
+<sup>129</sup> <sup>dy</sup>mirabilia testimonia tua ideo scrutata est ea anima mea
+<sup>130</sup> <sup>dz</sup>declaratio sermonum tuorum inluminat et intellectum dat parvulis
+<sup>131</sup> <sup>ea</sup>os meum aperui et adtraxi spiritum quia mandata tua desiderabam
+<sup>132</sup> <sup>eb</sup>aspice in me et miserere mei secundum iudicium diligentium nomen tuum
+<sup>133</sup> <sup>ec</sup>gressus meos dirige secundum eloquium tuum et non dominetur mei omnis iniustitia
+<sup>134</sup> <sup>ed</sup>redime me a calumniis hominum et custodiam mandata tua
+<sup>135</sup> <sup>ee</sup>faciem tuam inlumina super servum tuum et doce me iustificationes tuas
+<sup>136</sup> <sup>ef</sup>exitus aquarum deduxerunt oculi mei quia non custodierunt legem tuam
 
 ### sade
 
-<sup>137</sup> <sup>g</sup>iustus es Domine et rectum iudicium tuum
-<sup>138</sup> <sup>h</sup>mandasti iustitiam testimonia tua et veritatem tuam nimis
-<sup>139</sup> <sup>i</sup>tabescere me fecit zelus meus quia obliti sunt verba tua inimici mei
-<sup>140</sup> <sup>j</sup>ignitum eloquium tuum vehementer et servus tuus dilexit illud
-<sup>141</sup> <sup>k</sup>adulescentulus sum ego et contemptus iustificationes tuas non sum oblitus
-<sup>142</sup> <sup>l</sup>iustitia tua iustitia in aeternum et lex tua veritas
-<sup>143</sup> <sup>m</sup>tribulatio et angustia invenerunt me mandata tua meditatio mea
-<sup>144</sup> <sup>n</sup>aequitas testimonia tua in aeternum intellectum da mihi et vivam
+<sup>137</sup> <sup>eg</sup>iustus es Domine et rectum iudicium tuum
+<sup>138</sup> <sup>eh</sup>mandasti iustitiam testimonia tua et veritatem tuam nimis
+<sup>139</sup> <sup>ei</sup>tabescere me fecit zelus meus quia obliti sunt verba tua inimici mei
+<sup>140</sup> <sup>ej</sup>ignitum eloquium tuum vehementer et servus tuus dilexit illud
+<sup>141</sup> <sup>ek</sup>adulescentulus sum ego et contemptus iustificationes tuas non sum oblitus
+<sup>142</sup> <sup>el</sup>iustitia tua iustitia in aeternum et lex tua veritas
+<sup>143</sup> <sup>em</sup>tribulatio et angustia invenerunt me mandata tua meditatio mea
+<sup>144</sup> <sup>en</sup>aequitas testimonia tua in aeternum intellectum da mihi et vivam
 
 ### cof
 
-<sup>145</sup> <sup>o</sup>clamavi in toto corde exaudi me Domine iustificationes tuas requiram
-<sup>146</sup> <sup>p</sup>clamavi te salvum me fac et custodiam mandata tua
-<sup>147</sup> <sup>q</sup>praeveni in maturitate et clamavi in verba tua supersperavi
-<sup>148</sup> <sup>r</sup>praevenerunt oculi mei ad diluculum ut meditarer eloquia tua
-<sup>149</sup> <sup>s</sup>vocem meam audi secundum misericordiam tuam Domine secundum iudicium tuum vivifica me
-<sup>150</sup> <sup>t</sup>adpropinquaverunt persequentes me iniquitate a lege autem tua longe facti sunt
-<sup>151</sup> <sup>u</sup>prope es tu Domine et omnes viae tuae veritas
-<sup>152</sup> <sup>v</sup>initio cognovi de testimoniis tuis quia in aeternum fundasti ea
+<sup>145</sup> <sup>eo</sup>clamavi in toto corde exaudi me Domine iustificationes tuas requiram
+<sup>146</sup> <sup>ep</sup>clamavi te salvum me fac et custodiam mandata tua
+<sup>147</sup> <sup>eq</sup>praeveni in maturitate et clamavi in verba tua supersperavi
+<sup>148</sup> <sup>er</sup>praevenerunt oculi mei ad diluculum ut meditarer eloquia tua
+<sup>149</sup> <sup>es</sup>vocem meam audi secundum misericordiam tuam Domine secundum iudicium tuum vivifica me
+<sup>150</sup> <sup>et</sup>adpropinquaverunt persequentes me iniquitate a lege autem tua longe facti sunt
+<sup>151</sup> <sup>eu</sup>prope es tu Domine et omnes viae tuae veritas
+<sup>152</sup> <sup>ev</sup>initio cognovi de testimoniis tuis quia in aeternum fundasti ea
 
 ### res
 
-<sup>153</sup> <sup>w</sup>vide humilitatem meam et eripe me quia legem tuam non sum oblitus
-<sup>154</sup> <sup>x</sup>iudica iudicium meum et redime me propter eloquium tuum vivifica me
-<sup>155</sup> <sup>y</sup>longe a peccatoribus salus quia iustificationes tuas non exquisierunt
-<sup>156</sup> <sup>z</sup>misericordiae tuae multae Domine secundum iudicia tua vivifica me
-<sup>157</sup> <sup>a</sup>multi qui persequuntur me et tribulant me a testimoniis tuis non declinavi
-<sup>158</sup> <sup>b</sup>vidi praevaricantes et tabescebam quia eloquia tua non custodierunt
-<sup>159</sup> <sup>c</sup>vide quoniam mandata tua dilexi Domine in misericordia tua vivifica me
-<sup>160</sup> <sup>d</sup>principium verborum tuorum veritas et in aeternum omnia iudicia iustitiae tuae
+<sup>153</sup> <sup>ew</sup>vide humilitatem meam et eripe me quia legem tuam non sum oblitus
+<sup>154</sup> <sup>ex</sup>iudica iudicium meum et redime me propter eloquium tuum vivifica me
+<sup>155</sup> <sup>ey</sup>longe a peccatoribus salus quia iustificationes tuas non exquisierunt
+<sup>156</sup> <sup>ez</sup>misericordiae tuae multae Domine secundum iudicia tua vivifica me
+<sup>157</sup> <sup>fa</sup>multi qui persequuntur me et tribulant me a testimoniis tuis non declinavi
+<sup>158</sup> <sup>fb</sup>vidi praevaricantes et tabescebam quia eloquia tua non custodierunt
+<sup>159</sup> <sup>fc</sup>vide quoniam mandata tua dilexi Domine in misericordia tua vivifica me
+<sup>160</sup> <sup>fd</sup>principium verborum tuorum veritas et in aeternum omnia iudicia iustitiae tuae
 
 ### sen
 
-<sup>161</sup> <sup>e</sup>principes persecuti sunt me gratis et a verbis tuis formidavit cor meum
-<sup>162</sup> <sup>f</sup>laetabor ego super eloquia tua sicut qui invenit spolia multa
-<sup>163</sup> <sup>g</sup>iniquitatem odio habui et abominatus sum legem autem tuam dilexi
-<sup>164</sup> <sup>h</sup>septies in die laudem dixi tibi super iudicia iustitiae tuae
-<sup>165</sup> <sup>i</sup>pax multa diligentibus legem tuam et non est illis scandalum
-<sup>166</sup> <sup>j</sup>expectabam salutare tuum Domine et mandata tua dilexi
-<sup>167</sup> <sup>k</sup>custodivit anima mea testimonia tua et dilexi ea vehementer
-<sup>168</sup> <sup>l</sup>servavi mandata tua et testimonia tua quia omnes viae meae in conspectu tuo
+<sup>161</sup> <sup>fe</sup>principes persecuti sunt me gratis et a verbis tuis formidavit cor meum
+<sup>162</sup> <sup>ff</sup>laetabor ego super eloquia tua sicut qui invenit spolia multa
+<sup>163</sup> <sup>fg</sup>iniquitatem odio habui et abominatus sum legem autem tuam dilexi
+<sup>164</sup> <sup>fh</sup>septies in die laudem dixi tibi super iudicia iustitiae tuae
+<sup>165</sup> <sup>fi</sup>pax multa diligentibus legem tuam et non est illis scandalum
+<sup>166</sup> <sup>fj</sup>expectabam salutare tuum Domine et mandata tua dilexi
+<sup>167</sup> <sup>fk</sup>custodivit anima mea testimonia tua et dilexi ea vehementer
+<sup>168</sup> <sup>fl</sup>servavi mandata tua et testimonia tua quia omnes viae meae in conspectu tuo
 
 ### thau
 
-<sup>169</sup> <sup>m</sup>adpropinquet deprecatio mea in conspectu tuo Domine iuxta eloquium tuum da mihi intellectum
-<sup>170</sup> <sup>n</sup>intret postulatio mea in conspectu tuo secundum eloquium tuum eripe me
-<sup>171</sup> <sup>o</sup>eructabunt labia mea hymnum cum docueris me iustificationes tuas
-<sup>172</sup> <sup>p</sup>pronuntiabit lingua mea eloquium tuum quia omnia mandata tua aequitas
-<sup>173</sup> <sup>q</sup>fiat manus tua ut salvet me quoniam mandata tua elegi
-<sup>174</sup> <sup>r</sup>concupivi salutare tuum Domine et lex tua meditatio mea
-<sup>175</sup> <sup>s</sup>vivet anima mea et laudabit te et iudicia tua adiuvabunt me
-<sup>176</sup> <sup>t</sup>erravi sicut ovis quae periit quaere servum tuum quia mandata tua non sum oblitus
+<sup>169</sup> <sup>fm</sup>adpropinquet deprecatio mea in conspectu tuo Domine iuxta eloquium tuum da mihi intellectum
+<sup>170</sup> <sup>fn</sup>intret postulatio mea in conspectu tuo secundum eloquium tuum eripe me
+<sup>171</sup> <sup>fo</sup>eructabunt labia mea hymnum cum docueris me iustificationes tuas
+<sup>172</sup> <sup>fp</sup>pronuntiabit lingua mea eloquium tuum quia omnia mandata tua aequitas
+<sup>173</sup> <sup>fq</sup>fiat manus tua ut salvet me quoniam mandata tua elegi
+<sup>174</sup> <sup>fr</sup>concupivi salutare tuum Domine et lex tua meditatio mea
+<sup>175</sup> <sup>fs</sup>vivet anima mea et laudabit te et iudicia tua adiuvabunt me
+<sup>176</sup> <sup>ft</sup>erravi sicut ovis quae periit quaere servum tuum quia mandata tua non sum oblitus
 
 > - <sup>a</sup> 1. Originally verse 118:1.
 > - <sup>b</sup> 2. Originally verse 118:2.
@@ -4914,156 +4914,156 @@
 > - <sup>x</sup> 24. Originally verse 118:24.
 > - <sup>y</sup> 25. Originally verse 118:25.
 > - <sup>z</sup> 26. Originally verse 118:26.
-> - <sup>a</sup> 27. Originally verse 118:27.
-> - <sup>b</sup> 28. Originally verse 118:28.
-> - <sup>c</sup> 29. Originally verse 118:29.
-> - <sup>d</sup> 30. Originally verse 118:30.
-> - <sup>e</sup> 31. Originally verse 118:31.
-> - <sup>f</sup> 32. Originally verse 118:32.
-> - <sup>g</sup> 33. Originally verse 118:33.
-> - <sup>h</sup> 34. Originally verse 118:34.
-> - <sup>i</sup> 35. Originally verse 118:35.
-> - <sup>j</sup> 36. Originally verse 118:36.
-> - <sup>k</sup> 37. Originally verse 118:37.
-> - <sup>l</sup> 38. Originally verse 118:38.
-> - <sup>m</sup> 39. Originally verse 118:39.
-> - <sup>n</sup> 40. Originally verse 118:40.
-> - <sup>o</sup> 41. Originally verse 118:41.
-> - <sup>p</sup> 42. Originally verse 118:42.
-> - <sup>q</sup> 43. Originally verse 118:43.
-> - <sup>r</sup> 44. Originally verse 118:44.
-> - <sup>s</sup> 45. Originally verse 118:45.
-> - <sup>t</sup> 46. Originally verse 118:46.
-> - <sup>u</sup> 47. Originally verse 118:47.
-> - <sup>v</sup> 48. Originally verse 118:48.
-> - <sup>w</sup> 49. Originally verse 118:49.
-> - <sup>x</sup> 50. Originally verse 118:50.
-> - <sup>y</sup> 51. Originally verse 118:51.
-> - <sup>z</sup> 52. Originally verse 118:52.
-> - <sup>a</sup> 53. Originally verse 118:53.
-> - <sup>b</sup> 54. Originally verse 118:54.
-> - <sup>c</sup> 55. Originally verse 118:55.
-> - <sup>d</sup> 56. Originally verse 118:56.
-> - <sup>e</sup> 57. Originally verse 118:57.
-> - <sup>f</sup> 58. Originally verse 118:58.
-> - <sup>g</sup> 59. Originally verse 118:59.
-> - <sup>h</sup> 60. Originally verse 118:60.
-> - <sup>i</sup> 61. Originally verse 118:61.
-> - <sup>j</sup> 62. Originally verse 118:62.
-> - <sup>k</sup> 63. Originally verse 118:63.
-> - <sup>l</sup> 64. Originally verse 118:64.
-> - <sup>m</sup> 65. Originally verse 118:65.
-> - <sup>n</sup> 66. Originally verse 118:66.
-> - <sup>o</sup> 67. Originally verse 118:67.
-> - <sup>p</sup> 68. Originally verse 118:68.
-> - <sup>q</sup> 69. Originally verse 118:69.
-> - <sup>r</sup> 70. Originally verse 118:70.
-> - <sup>s</sup> 71. Originally verse 118:71.
-> - <sup>t</sup> 72. Originally verse 118:72.
-> - <sup>u</sup> 73. Originally verse 118:73.
-> - <sup>v</sup> 74. Originally verse 118:74.
-> - <sup>w</sup> 75. Originally verse 118:75.
-> - <sup>x</sup> 76. Originally verse 118:76.
-> - <sup>y</sup> 77. Originally verse 118:77.
-> - <sup>z</sup> 78. Originally verse 118:78.
-> - <sup>a</sup> 79. Originally verse 118:79.
-> - <sup>b</sup> 80. Originally verse 118:80.
-> - <sup>c</sup> 81. Originally verse 118:81.
-> - <sup>d</sup> 82. Originally verse 118:82.
-> - <sup>e</sup> 83. Originally verse 118:83.
-> - <sup>f</sup> 84. Originally verse 118:84.
-> - <sup>g</sup> 85. Originally verse 118:85.
-> - <sup>h</sup> 86. Originally verse 118:86.
-> - <sup>i</sup> 87. Originally verse 118:87.
-> - <sup>j</sup> 88. Originally verse 118:88.
-> - <sup>k</sup> 89. Originally verse 118:89.
-> - <sup>l</sup> 90. Originally verse 118:90.
-> - <sup>m</sup> 91. Originally verse 118:91.
-> - <sup>n</sup> 92. Originally verse 118:92.
-> - <sup>o</sup> 93. Originally verse 118:93.
-> - <sup>p</sup> 94. Originally verse 118:94.
-> - <sup>q</sup> 95. Originally verse 118:95.
-> - <sup>r</sup> 96. Originally verse 118:96.
-> - <sup>s</sup> 97. Originally verse 118:97.
-> - <sup>t</sup> 98. Originally verse 118:98.
-> - <sup>u</sup> 99. Originally verse 118:99.
-> - <sup>v</sup> 100. Originally verse 118:100.
-> - <sup>w</sup> 101. Originally verse 118:101.
-> - <sup>x</sup> 102. Originally verse 118:102.
-> - <sup>y</sup> 103. Originally verse 118:103.
-> - <sup>z</sup> 104. Originally verse 118:104.
-> - <sup>a</sup> 105. Originally verse 118:105.
-> - <sup>b</sup> 106. Originally verse 118:106.
-> - <sup>c</sup> 107. Originally verse 118:107.
-> - <sup>d</sup> 108. Originally verse 118:108.
-> - <sup>e</sup> 109. Originally verse 118:109.
-> - <sup>f</sup> 110. Originally verse 118:110.
-> - <sup>g</sup> 111. Originally verse 118:111.
-> - <sup>h</sup> 112. Originally verse 118:112.
-> - <sup>i</sup> 113. Originally verse 118:113.
-> - <sup>j</sup> 114. Originally verse 118:114.
-> - <sup>k</sup> 115. Originally verse 118:115.
-> - <sup>l</sup> 116. Originally verse 118:116.
-> - <sup>m</sup> 117. Originally verse 118:117.
-> - <sup>n</sup> 118. Originally verse 118:118.
-> - <sup>o</sup> 119. Originally verse 118:119.
-> - <sup>p</sup> 120. Originally verse 118:120.
-> - <sup>q</sup> 121. Originally verse 118:121.
-> - <sup>r</sup> 122. Originally verse 118:122.
-> - <sup>s</sup> 123. Originally verse 118:123.
-> - <sup>t</sup> 124. Originally verse 118:124.
-> - <sup>u</sup> 125. Originally verse 118:125.
-> - <sup>v</sup> 126. Originally verse 118:126.
-> - <sup>w</sup> 127. Originally verse 118:127.
-> - <sup>x</sup> 128. Originally verse 118:128.
-> - <sup>y</sup> 129. Originally verse 118:129.
-> - <sup>z</sup> 130. Originally verse 118:130.
-> - <sup>a</sup> 131. Originally verse 118:131.
-> - <sup>b</sup> 132. Originally verse 118:132.
-> - <sup>c</sup> 133. Originally verse 118:133.
-> - <sup>d</sup> 134. Originally verse 118:134.
-> - <sup>e</sup> 135. Originally verse 118:135.
-> - <sup>f</sup> 136. Originally verse 118:136.
-> - <sup>g</sup> 137. Originally verse 118:137.
-> - <sup>h</sup> 138. Originally verse 118:138.
-> - <sup>i</sup> 139. Originally verse 118:139.
-> - <sup>j</sup> 140. Originally verse 118:140.
-> - <sup>k</sup> 141. Originally verse 118:141.
-> - <sup>l</sup> 142. Originally verse 118:142.
-> - <sup>m</sup> 143. Originally verse 118:143.
-> - <sup>n</sup> 144. Originally verse 118:144.
-> - <sup>o</sup> 145. Originally verse 118:145.
-> - <sup>p</sup> 146. Originally verse 118:146.
-> - <sup>q</sup> 147. Originally verse 118:147.
-> - <sup>r</sup> 148. Originally verse 118:148.
-> - <sup>s</sup> 149. Originally verse 118:149.
-> - <sup>t</sup> 150. Originally verse 118:150.
-> - <sup>u</sup> 151. Originally verse 118:151.
-> - <sup>v</sup> 152. Originally verse 118:152.
-> - <sup>w</sup> 153. Originally verse 118:153.
-> - <sup>x</sup> 154. Originally verse 118:154.
-> - <sup>y</sup> 155. Originally verse 118:155.
-> - <sup>z</sup> 156. Originally verse 118:156.
-> - <sup>a</sup> 157. Originally verse 118:157.
-> - <sup>b</sup> 158. Originally verse 118:158.
-> - <sup>c</sup> 159. Originally verse 118:159.
-> - <sup>d</sup> 160. Originally verse 118:160.
-> - <sup>e</sup> 161. Originally verse 118:161.
-> - <sup>f</sup> 162. Originally verse 118:162.
-> - <sup>g</sup> 163. Originally verse 118:163.
-> - <sup>h</sup> 164. Originally verse 118:164.
-> - <sup>i</sup> 165. Originally verse 118:165.
-> - <sup>j</sup> 166. Originally verse 118:166.
-> - <sup>k</sup> 167. Originally verse 118:167.
-> - <sup>l</sup> 168. Originally verse 118:168.
-> - <sup>m</sup> 169. Originally verse 118:169.
-> - <sup>n</sup> 170. Originally verse 118:170.
-> - <sup>o</sup> 171. Originally verse 118:171.
-> - <sup>p</sup> 172. Originally verse 118:172.
-> - <sup>q</sup> 173. Originally verse 118:173.
-> - <sup>r</sup> 174. Originally verse 118:174.
-> - <sup>s</sup> 175. Originally verse 118:175.
-> - <sup>t</sup> 176. Originally verse 118:176.
+> - <sup>aa</sup> 27. Originally verse 118:27.
+> - <sup>ab</sup> 28. Originally verse 118:28.
+> - <sup>ac</sup> 29. Originally verse 118:29.
+> - <sup>ad</sup> 30. Originally verse 118:30.
+> - <sup>ae</sup> 31. Originally verse 118:31.
+> - <sup>af</sup> 32. Originally verse 118:32.
+> - <sup>ag</sup> 33. Originally verse 118:33.
+> - <sup>ah</sup> 34. Originally verse 118:34.
+> - <sup>ai</sup> 35. Originally verse 118:35.
+> - <sup>aj</sup> 36. Originally verse 118:36.
+> - <sup>ak</sup> 37. Originally verse 118:37.
+> - <sup>al</sup> 38. Originally verse 118:38.
+> - <sup>am</sup> 39. Originally verse 118:39.
+> - <sup>an</sup> 40. Originally verse 118:40.
+> - <sup>ao</sup> 41. Originally verse 118:41.
+> - <sup>ap</sup> 42. Originally verse 118:42.
+> - <sup>aq</sup> 43. Originally verse 118:43.
+> - <sup>ar</sup> 44. Originally verse 118:44.
+> - <sup>as</sup> 45. Originally verse 118:45.
+> - <sup>at</sup> 46. Originally verse 118:46.
+> - <sup>au</sup> 47. Originally verse 118:47.
+> - <sup>av</sup> 48. Originally verse 118:48.
+> - <sup>aw</sup> 49. Originally verse 118:49.
+> - <sup>ax</sup> 50. Originally verse 118:50.
+> - <sup>ay</sup> 51. Originally verse 118:51.
+> - <sup>az</sup> 52. Originally verse 118:52.
+> - <sup>ba</sup> 53. Originally verse 118:53.
+> - <sup>bb</sup> 54. Originally verse 118:54.
+> - <sup>bc</sup> 55. Originally verse 118:55.
+> - <sup>bd</sup> 56. Originally verse 118:56.
+> - <sup>be</sup> 57. Originally verse 118:57.
+> - <sup>bf</sup> 58. Originally verse 118:58.
+> - <sup>bg</sup> 59. Originally verse 118:59.
+> - <sup>bh</sup> 60. Originally verse 118:60.
+> - <sup>bi</sup> 61. Originally verse 118:61.
+> - <sup>bj</sup> 62. Originally verse 118:62.
+> - <sup>bk</sup> 63. Originally verse 118:63.
+> - <sup>bl</sup> 64. Originally verse 118:64.
+> - <sup>bm</sup> 65. Originally verse 118:65.
+> - <sup>bn</sup> 66. Originally verse 118:66.
+> - <sup>bo</sup> 67. Originally verse 118:67.
+> - <sup>bp</sup> 68. Originally verse 118:68.
+> - <sup>bq</sup> 69. Originally verse 118:69.
+> - <sup>br</sup> 70. Originally verse 118:70.
+> - <sup>bs</sup> 71. Originally verse 118:71.
+> - <sup>bt</sup> 72. Originally verse 118:72.
+> - <sup>bu</sup> 73. Originally verse 118:73.
+> - <sup>bv</sup> 74. Originally verse 118:74.
+> - <sup>bw</sup> 75. Originally verse 118:75.
+> - <sup>bx</sup> 76. Originally verse 118:76.
+> - <sup>by</sup> 77. Originally verse 118:77.
+> - <sup>bz</sup> 78. Originally verse 118:78.
+> - <sup>ca</sup> 79. Originally verse 118:79.
+> - <sup>cb</sup> 80. Originally verse 118:80.
+> - <sup>cc</sup> 81. Originally verse 118:81.
+> - <sup>cd</sup> 82. Originally verse 118:82.
+> - <sup>ce</sup> 83. Originally verse 118:83.
+> - <sup>cf</sup> 84. Originally verse 118:84.
+> - <sup>cg</sup> 85. Originally verse 118:85.
+> - <sup>ch</sup> 86. Originally verse 118:86.
+> - <sup>ci</sup> 87. Originally verse 118:87.
+> - <sup>cj</sup> 88. Originally verse 118:88.
+> - <sup>ck</sup> 89. Originally verse 118:89.
+> - <sup>cl</sup> 90. Originally verse 118:90.
+> - <sup>cm</sup> 91. Originally verse 118:91.
+> - <sup>cn</sup> 92. Originally verse 118:92.
+> - <sup>co</sup> 93. Originally verse 118:93.
+> - <sup>cp</sup> 94. Originally verse 118:94.
+> - <sup>cq</sup> 95. Originally verse 118:95.
+> - <sup>cr</sup> 96. Originally verse 118:96.
+> - <sup>cs</sup> 97. Originally verse 118:97.
+> - <sup>ct</sup> 98. Originally verse 118:98.
+> - <sup>cu</sup> 99. Originally verse 118:99.
+> - <sup>cv</sup> 100. Originally verse 118:100.
+> - <sup>cw</sup> 101. Originally verse 118:101.
+> - <sup>cx</sup> 102. Originally verse 118:102.
+> - <sup>cy</sup> 103. Originally verse 118:103.
+> - <sup>cz</sup> 104. Originally verse 118:104.
+> - <sup>da</sup> 105. Originally verse 118:105.
+> - <sup>db</sup> 106. Originally verse 118:106.
+> - <sup>dc</sup> 107. Originally verse 118:107.
+> - <sup>dd</sup> 108. Originally verse 118:108.
+> - <sup>de</sup> 109. Originally verse 118:109.
+> - <sup>df</sup> 110. Originally verse 118:110.
+> - <sup>dg</sup> 111. Originally verse 118:111.
+> - <sup>dh</sup> 112. Originally verse 118:112.
+> - <sup>di</sup> 113. Originally verse 118:113.
+> - <sup>dj</sup> 114. Originally verse 118:114.
+> - <sup>dk</sup> 115. Originally verse 118:115.
+> - <sup>dl</sup> 116. Originally verse 118:116.
+> - <sup>dm</sup> 117. Originally verse 118:117.
+> - <sup>dn</sup> 118. Originally verse 118:118.
+> - <sup>do</sup> 119. Originally verse 118:119.
+> - <sup>dp</sup> 120. Originally verse 118:120.
+> - <sup>dq</sup> 121. Originally verse 118:121.
+> - <sup>dr</sup> 122. Originally verse 118:122.
+> - <sup>ds</sup> 123. Originally verse 118:123.
+> - <sup>dt</sup> 124. Originally verse 118:124.
+> - <sup>du</sup> 125. Originally verse 118:125.
+> - <sup>dv</sup> 126. Originally verse 118:126.
+> - <sup>dw</sup> 127. Originally verse 118:127.
+> - <sup>dx</sup> 128. Originally verse 118:128.
+> - <sup>dy</sup> 129. Originally verse 118:129.
+> - <sup>dz</sup> 130. Originally verse 118:130.
+> - <sup>ea</sup> 131. Originally verse 118:131.
+> - <sup>eb</sup> 132. Originally verse 118:132.
+> - <sup>ec</sup> 133. Originally verse 118:133.
+> - <sup>ed</sup> 134. Originally verse 118:134.
+> - <sup>ee</sup> 135. Originally verse 118:135.
+> - <sup>ef</sup> 136. Originally verse 118:136.
+> - <sup>eg</sup> 137. Originally verse 118:137.
+> - <sup>eh</sup> 138. Originally verse 118:138.
+> - <sup>ei</sup> 139. Originally verse 118:139.
+> - <sup>ej</sup> 140. Originally verse 118:140.
+> - <sup>ek</sup> 141. Originally verse 118:141.
+> - <sup>el</sup> 142. Originally verse 118:142.
+> - <sup>em</sup> 143. Originally verse 118:143.
+> - <sup>en</sup> 144. Originally verse 118:144.
+> - <sup>eo</sup> 145. Originally verse 118:145.
+> - <sup>ep</sup> 146. Originally verse 118:146.
+> - <sup>eq</sup> 147. Originally verse 118:147.
+> - <sup>er</sup> 148. Originally verse 118:148.
+> - <sup>es</sup> 149. Originally verse 118:149.
+> - <sup>et</sup> 150. Originally verse 118:150.
+> - <sup>eu</sup> 151. Originally verse 118:151.
+> - <sup>ev</sup> 152. Originally verse 118:152.
+> - <sup>ew</sup> 153. Originally verse 118:153.
+> - <sup>ex</sup> 154. Originally verse 118:154.
+> - <sup>ey</sup> 155. Originally verse 118:155.
+> - <sup>ez</sup> 156. Originally verse 118:156.
+> - <sup>fa</sup> 157. Originally verse 118:157.
+> - <sup>fb</sup> 158. Originally verse 118:158.
+> - <sup>fc</sup> 159. Originally verse 118:159.
+> - <sup>fd</sup> 160. Originally verse 118:160.
+> - <sup>fe</sup> 161. Originally verse 118:161.
+> - <sup>ff</sup> 162. Originally verse 118:162.
+> - <sup>fg</sup> 163. Originally verse 118:163.
+> - <sup>fh</sup> 164. Originally verse 118:164.
+> - <sup>fi</sup> 165. Originally verse 118:165.
+> - <sup>fj</sup> 166. Originally verse 118:166.
+> - <sup>fk</sup> 167. Originally verse 118:167.
+> - <sup>fl</sup> 168. Originally verse 118:168.
+> - <sup>fm</sup> 169. Originally verse 118:169.
+> - <sup>fn</sup> 170. Originally verse 118:170.
+> - <sup>fo</sup> 171. Originally verse 118:171.
+> - <sup>fp</sup> 172. Originally verse 118:172.
+> - <sup>fq</sup> 173. Originally verse 118:173.
+> - <sup>fr</sup> 174. Originally verse 118:174.
+> - <sup>fs</sup> 175. Originally verse 118:175.
+> - <sup>ft</sup> 176. Originally verse 118:176.
 
 ## Chapter 120
 

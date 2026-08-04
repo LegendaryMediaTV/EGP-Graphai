@@ -34,7 +34,7 @@ if (require.main === module) {
 }
 ```
 
-CLI entry points are `async` even when nothing in the script's own logic requires it, because every script that writes output (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`) `await`s a call into [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). `exportContent.ts`'s `main()` also wraps its `require.main === module` call in `.catch()` to report failures with a non-zero exit rather than an unhandled rejection.
+CLI entry points are `async` even when nothing in the script's own logic requires it, because every script that writes output (`validate.ts`, `exportContent.ts`, `convertToSmallCaps.ts`, `sortBibleKeys.ts`, `auditCrossChapterLinks.ts`) `await`s a call into [functions/writeJsonFile.ts](../../../functions/writeJsonFile.ts). `exportContent.ts`'s `main()` also wraps its `require.main === module` call in `.catch()` to report failures with a non-zero exit rather than an unhandled rejection; `auditCrossChapterLinks.ts` does the same.
 
 ## Naming and Organization
 
