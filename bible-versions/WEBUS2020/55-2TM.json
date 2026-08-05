@@ -7,10 +7,7 @@
       {
         "paragraph": true,
         "text": "Paul, an apostle of Jesus Christ",
-        "foot": {
-          "type": "stu",
-          "content": "“Christ” means “Anointed One”."
-        }
+        "foot": { "type": "stu", "content": "“Christ” means “Anointed One”." }
       },
       " through the will of God, according to the promise of the life which is in Christ Jesus,"
     ]
@@ -188,10 +185,7 @@
       {
         "paragraph": true,
         "text": "Remember Jesus Christ, risen from the dead, of the offspring",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " of David, according to my Good News,"
     ]
@@ -213,18 +207,9 @@
     "chapter": 2,
     "verse": 11,
     "content": [
-      {
-        "text": "This saying is trustworthy:",
-        "break": true
-      },
-      {
-        "text": "“For if we died with him,",
-        "break": true
-      },
-      {
-        "text": "we will also live with him.",
-        "break": true
-      }
+      { "text": "This saying is trustworthy:", "break": true },
+      { "text": "“For if we died with him,", "break": true },
+      { "text": "we will also live with him.", "break": true }
     ]
   },
   {
@@ -232,22 +217,10 @@
     "chapter": 2,
     "verse": 12,
     "content": [
-      {
-        "text": "If we endure,",
-        "break": true
-      },
-      {
-        "text": "we will also reign with him.",
-        "break": true
-      },
-      {
-        "text": "If we deny him,",
-        "break": true
-      },
-      {
-        "text": "he also will deny us.",
-        "break": true
-      }
+      { "text": "If we endure,", "break": true },
+      { "text": "we will also reign with him.", "break": true },
+      { "text": "If we deny him,", "break": true },
+      { "text": "he also will deny us.", "break": true }
     ]
   },
   {
@@ -255,14 +228,8 @@
     "chapter": 2,
     "verse": 13,
     "content": [
-      {
-        "text": "If we are faithless,",
-        "break": true
-      },
-      {
-        "text": "he remains faithful;",
-        "break": true
-      },
+      { "text": "If we are faithless,", "break": true },
+      { "text": "he remains faithful;", "break": true },
       "for he can’t deny himself.”"
     ]
   },
@@ -309,12 +276,7 @@
     "content": [
       {
         "text": "However, God’s firm foundation stands, having this seal: “The Lord knows those who are his,”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Numbers 16:5"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Numbers 16:5" } }
       },
       {
         "text": " and, “Let every one who names the name of the Lord",
@@ -549,10 +511,7 @@
     "book": "2TM",
     "chapter": 4,
     "verse": 9,
-    "content": {
-      "paragraph": true,
-      "text": "Be diligent to come to me soon,"
-    }
+    "content": { "paragraph": true, "text": "Be diligent to come to me soon," }
   },
   {
     "book": "2TM",

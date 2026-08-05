@@ -6,7 +6,7 @@
  * 2. heading
  * 3. bibleLink
  * 4. paragraph (object or boolean)
- * 5. type (for footnotes)
+ * 5. type (footnote kind or heading kind)
  * 6. text
  * 7. content
  * 8. script
@@ -19,8 +19,6 @@
  *
  * Unknown keys are appended alphabetically at the end (never dropped).
  */
-
-// Canonical key order for content objects
 const CONTENT_KEY_ORDER: string[] = [
   "subtitle",
   "heading",
@@ -41,6 +39,11 @@ const CONTENT_KEY_ORDER: string[] = [
 // Canonical key order for verse objects
 const VERSE_KEY_ORDER: string[] = ["book", "chapter", "verse", "content"];
 
+/**
+ * Generic shape for a node in the content tree, loosened to `unknown`
+ * property values so keys can be sorted without depending on `Content`'s
+ * exact field types.
+ */
 type ContentElement =
   | string
   | ContentObject
@@ -48,6 +51,7 @@ type ContentElement =
   | null
   | undefined;
 
+/** Object with unsorted keys, used internally for generic key sorting. */
 interface ContentObject {
   [key: string]: unknown;
 }
@@ -78,7 +82,6 @@ export function sortContentKeys<T extends ContentElement>(content: T): T {
   const obj = content as ContentObject;
   const sortedObj: ContentObject = {};
 
-  // Get all keys from the object
   const allKeys = Object.keys(obj);
 
   // Separate known and unknown keys
@@ -101,7 +104,6 @@ export function sortContentKeys<T extends ContentElement>(content: T): T {
   // Sort unknown keys alphabetically
   unknownKeys.sort();
 
-  // Combine: known keys first, then unknown keys
   const orderedKeys = [...knownKeys, ...unknownKeys];
 
   // Build the sorted object
@@ -138,13 +140,11 @@ export function sortContentKeys<T extends ContentElement>(content: T): T {
 /**
  * Sorts verse-level keys (book, chapter, verse, content) and recursively sorts content.
  *
- * @param verse - The verse object to sort
  * @returns The verse with sorted keys
  */
 export function sortVerseKeys<T extends ContentObject>(verse: T): T {
   const sortedVerse: ContentObject = {};
 
-  // Get all keys from the verse
   const allKeys = Object.keys(verse);
 
   // Separate verse keys and other keys
@@ -167,7 +167,6 @@ export function sortVerseKeys<T extends ContentObject>(verse: T): T {
   // Sort other keys alphabetically
   otherKeys.sort();
 
-  // Build the sorted verse
   const orderedKeys = [...verseKeys, ...otherKeys];
 
   for (const key of orderedKeys) {

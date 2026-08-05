@@ -711,19 +711,13 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
       },
       " Haman stands in the court.”",
-      {
-        "paragraph": true,
-        "text": "The king said, “Let him come in.”"
-      }
+      { "paragraph": true, "text": "The king said, “Let him come in.”" }
     ]
   },
   {
@@ -875,10 +869,7 @@
         }
       },
       " high, which Haman has made for Mordecai, who spoke good for the king, is standing at Haman’s house.”",
-      {
-        "paragraph": true,
-        "text": "The king said, “Hang him on it!”"
-      }
+      { "paragraph": true, "text": "The king said, “Hang him on it!”" }
     ]
   },
   {
@@ -1206,10 +1197,7 @@
     "verse": 28,
     "content": {
       "text": "and that these days should be remembered and kept throughout every generation, every family, every province, and every city; and that these days of Purim should not fail from among the Jews, nor their memory perish from their offspring.",
-      "foot": {
-        "type": "trn",
-        "content": "or, seed"
-      }
+      "foot": { "type": "trn", "content": "or, seed" }
     }
   },
   {

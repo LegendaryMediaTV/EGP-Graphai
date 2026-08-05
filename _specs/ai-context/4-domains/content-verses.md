@@ -24,7 +24,7 @@ type Content =
   | string // Plain text
   | ContentObject // Text with metadata
   | ContentNested // Nested content with shared properties
-  | ContentHeading // Section heading
+  | ContentHeading // Section heading (optional type: standard or acrostic)
   | ContentParagraph // Paragraph wrapper
   | ContentSubtitle // Subtitle/superscription
   | ContentBibleLink // Bible reference link
@@ -76,6 +76,15 @@ interface ContentBibleLink {
 | `var` | Textual criticism variant |
 | `map` | Map reference             |
 | `xrf` | Cross-reference           |
+
+### Heading Types
+
+| Type       | Purpose                                                  |
+| ---------- | --------------------------------------------------------- |
+| `standard` | Editorial section heading (default)                        |
+| `acrostic` | Hebrew acrostic stanza marker (e.g., Psalm 119 stanzas)    |
+
+Acrostic headings render one step smaller than standard headings in every consumer (text export, markdown export, web reader), but are governed by the same "Headings" visibility toggle.
 
 ## User Workflows
 

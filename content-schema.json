@@ -53,19 +53,12 @@
     }
   },
   "oneOf": [
-    {
-      "type": "string",
-      "minLength": 1,
-      "description": "Plain text."
-    },
+    { "type": "string", "minLength": 1, "description": "Plain text." },
     {
       "type": "object",
       "description": "Structured content object for plain text.",
       "properties": {
-        "text": {
-          "type": "string",
-          "description": "Plain text."
-        },
+        "text": { "type": "string", "description": "Plain text." },
         "script": {
           "type": "string",
           "enum": ["G", "H"],
@@ -108,6 +101,12 @@
         "heading": {
           "$ref": "#",
           "description": "Any valid content type (i.e., string, object, or array)."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["standard", "acrostic"],
+          "default": "standard",
+          "description": "Kind of heading: standard (default), acrostic (Hebrew acrostic stanza marker, e.g. Psalm 119)."
         }
       },
       "required": ["heading"],
@@ -144,7 +143,7 @@
         "bibleLink": {
           "type": "string",
           "minLength": 1,
-          "description": "Scriptural reference target (e.g., \"Hebrews 11:3\", \"Psalm 104:30\", \"John 3:15\u201318\"). Doubles as the display text when content is omitted."
+          "description": "Scriptural reference target (e.g., \"Hebrews 11:3\", \"Psalm 104:30\", \"John 3:15–18\"). Doubles as the display text when content is omitted."
         },
         "content": {
           "$ref": "#",

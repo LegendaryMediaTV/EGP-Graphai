@@ -1,8 +1,10 @@
 const { useState, useEffect, useMemo, useRef } = React;
 
 function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
+  // Handle null/undefined
   if (!node) return null;
 
+  // Handle array (recursive)
   if (Array.isArray(node)) {
     return node.map((child, i) => (
       <ContentNode
@@ -15,6 +17,7 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
     ));
   }
 
+  // Handle string
   if (typeof node === "string") {
     return <span>{node}</span>;
   }
@@ -73,6 +76,18 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
 
     if (node.heading) {
       if (!settings.showHeadings) return null;
+      if (node.type === "acrostic") {
+        return (
+          <h4 className="text-lg font-bold mt-6 mb-3 text-gray-700 dark:text-gray-400 font-sans">
+            <ContentNode
+              node={node.heading}
+              settings={settings}
+              onFootnoteClick={onFootnoteClick}
+              onBibleLinkClick={onBibleLinkClick}
+            />
+          </h4>
+        );
+      }
       return (
         <h3 className="text-xl font-bold mt-6 mb-3 text-gray-800 dark:text-gray-200 font-sans">
           <ContentNode
@@ -106,7 +121,6 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
       !node.subtitle &&
       typeof node.paragraph !== "object"
     ) {
-      // This is a nested content wrapper with properties like strong, morph, marks, foot, etc.
       let nestedContent = (
         <ContentNode
           node={node.content}

@@ -4646,7 +4646,7 @@
 
 > _alleluia_
 
-### aleph
+#### aleph
 
 <sup>1</sup> <sup>a</sup>beati inmaculati in via qui ambulant in lege Domini
 <sup>2</sup> <sup>b</sup>beati qui scrutantur testimonia eius in toto corde exquirent eum
@@ -4657,7 +4657,7 @@
 <sup>7</sup> <sup>g</sup>confitebor tibi in directione cordis in eo quod didici iudicia iustitiae tuae
 <sup>8</sup> <sup>h</sup>iustificationes tuas custodiam non me derelinquas usquequaque
 
-### beth
+#### beth
 
 <sup>9</sup> <sup>i</sup>in quo corriget adulescentior viam suam in custodiendo sermones tuos
 <sup>10</sup> <sup>j</sup>in toto corde meo exquisivi te non repellas me a mandatis tuis
@@ -4668,7 +4668,7 @@
 <sup>15</sup> <sup>o</sup>in mandatis tuis exercebor et considerabo vias tuas
 <sup>16</sup> <sup>p</sup>in iustificationibus tuis meditabor non obliviscar sermones tuos
 
-### gimel
+#### gimel
 
 <sup>17</sup> <sup>q</sup>retribue servo tuo vivifica me et custodiam sermones tuos
 <sup>18</sup> <sup>r</sup>revela oculos meos et considerabo mirabilia de lege tua
@@ -4679,7 +4679,7 @@
 <sup>23</sup> <sup>w</sup>etenim sederunt principes et adversum me loquebantur servus autem tuus exercebatur in iustificationibus tuis
 <sup>24</sup> <sup>x</sup>nam et testimonia tua meditatio mea et consilium meum iustificationes tuae
 
-### deleth
+#### deleth
 
 <sup>25</sup> <sup>y</sup>adhesit pavimento anima mea vivifica me secundum verbum tuum
 <sup>26</sup> <sup>z</sup>vias meas enuntiavi et exaudisti me doce me iustificationes tuas
@@ -4690,7 +4690,7 @@
 <sup>31</sup> <sup>ae</sup>adhesi testimoniis tuis Domine noli me confundere
 <sup>32</sup> <sup>af</sup>viam mandatorum tuorum cucurri cum dilatasti cor meum
 
-### he
+#### he
 
 <sup>33</sup> <sup>ag</sup>legem pone mihi Domine viam iustificationum tuarum et exquiram eam semper
 <sup>34</sup> <sup>ah</sup>da mihi intellectum et scrutabor legem tuam et custodiam illam in toto corde meo
@@ -4701,7 +4701,7 @@
 <sup>39</sup> <sup>am</sup>amputa obprobrium meum quod suspicatus sum quia iudicia tua iucunda
 <sup>40</sup> <sup>an</sup>ecce concupivi mandata tua in aequitate tua vivifica me
 
-### vav
+#### vav
 
 <sup>41</sup> <sup>ao</sup>et veniat super me misericordia tua Domine salutare tuum secundum eloquium tuum
 <sup>42</sup> <sup>ap</sup>et respondebo exprobrantibus mihi verbum quia speravi in sermonibus tuis
@@ -4712,7 +4712,7 @@
 <sup>47</sup> <sup>au</sup>et meditabar in mandatis tuis quae dilexi
 <sup>48</sup> <sup>av</sup>et levavi manus meas ad mandata quae dilexi et exercebar in iustificationibus tuis
 
-### zai
+#### zai
 
 <sup>49</sup> <sup>aw</sup>memor esto verbi tui servo tuo in quo mihi spem dedisti
 <sup>50</sup> <sup>ax</sup>haec me consolata est in humilitate mea quia eloquium tuum vivificavit me
@@ -4723,7 +4723,7 @@
 <sup>55</sup> <sup>bc</sup>memor fui in nocte nominis tui Domine et custodivi legem tuam
 <sup>56</sup> <sup>bd</sup>haec facta est mihi quia iustificationes tuas exquisivi
 
-### heth
+#### heth
 
 <sup>57</sup> <sup>be</sup>portio mea Dominus dixi custodire legem tuam
 <sup>58</sup> <sup>bf</sup>deprecatus sum faciem tuam in toto corde meo miserere mei secundum eloquium tuum
@@ -4734,7 +4734,7 @@
 <sup>63</sup> <sup>bk</sup>particeps ego sum omnium timentium te et custodientium mandata tua
 <sup>64</sup> <sup>bl</sup>misericordia Domini plena est terra iustificationes tuas doce me
 
-### teth
+#### teth
 
 <sup>65</sup> <sup>bm</sup>bonitatem fecisti cum servo tuo Domine secundum verbum tuum
 <sup>66</sup> <sup>bn</sup>bonitatem et disciplinam et scientiam doce me quia mandatis tuis credidi
@@ -4745,7 +4745,7 @@
 <sup>71</sup> <sup>bs</sup>bonum mihi quia humiliasti me ut discam iustificationes tuas
 <sup>72</sup> <sup>bt</sup>bonum mihi lex oris tui super milia auri et argenti
 
-### ioth
+#### ioth
 
 <sup>73</sup> <sup>bu</sup>manus tuae fecerunt me et plasmaverunt me da mihi intellectum et discam mandata tua
 <sup>74</sup> <sup>bv</sup>qui timent te videbunt me et laetabuntur quia in verba tua supersperavi
@@ -4756,7 +4756,7 @@
 <sup>79</sup> <sup>ca</sup>convertantur mihi timentes te et qui noverunt testimonia tua
 <sup>80</sup> <sup>cb</sup>fiat cor meum inmaculatum in iustificationibus tuis ut non confundar
 
-### caf
+#### caf
 
 <sup>81</sup> <sup>cc</sup>defecit in salutare tuum anima mea in verbum tuum supersperavi
 <sup>82</sup> <sup>cd</sup>defecerunt oculi mei in eloquium tuum dicentes quando consolaberis me
@@ -4767,7 +4767,7 @@
 <sup>87</sup> <sup>ci</sup>paulo minus consummaverunt me in terra ego autem non dereliqui mandata tua
 <sup>88</sup> <sup>cj</sup>secundum misericordiam tuam vivifica me et custodiam testimonia oris tui
 
-### lamed
+#### lamed
 
 <sup>89</sup> <sup>ck</sup>in aeternum Domine verbum tuum permanet in caelo
 <sup>90</sup> <sup>cl</sup>in generationem et generationem veritas tua fundasti terram et permanet
@@ -4776,7 +4776,7 @@
 <sup>93</sup> <sup>co</sup>in aeternum non obliviscar iustificationes tuas quia in ipsis vivificasti me
 <sup>94</sup> <sup>cp</sup>tuus sum ego salvum me fac quoniam iustificationes tuas exquisivi
 
-### me
+#### me
 
 <sup>95</sup> <sup>cq</sup>expectaverunt peccatores ut perderent me testimonia tua intellexi
 <sup>96</sup> <sup>cr</sup>omni consummationi vidi finem latum mandatum tuum nimis
@@ -4789,7 +4789,7 @@
 <sup>103</sup> <sup>cy</sup>quam dulcia faucibus meis eloquia tua super mel ori meo
 <sup>104</sup> <sup>cz</sup>a mandatis tuis intellexi propterea odivi omnem viam iniquitatis
 
-### nun
+#### nun
 
 <sup>105</sup> <sup>da</sup>lucerna pedibus meis verbum tuum et lumen semitis meis
 <sup>106</sup> <sup>db</sup>iuravi et statui custodire iudicia iustitiae tuae
@@ -4800,7 +4800,7 @@
 <sup>111</sup> <sup>dg</sup>hereditate adquisivi testimonia tua in aeternum quia exultatio cordis mei sunt
 <sup>112</sup> <sup>dh</sup>inclinavi cor meum ad faciendas iustificationes tuas in aeternum propter retributionem
 
-### samech
+#### samech
 
 <sup>113</sup> <sup>di</sup>iniquos odio habui et legem tuam dilexi
 <sup>114</sup> <sup>dj</sup>adiutor meus et susceptor meus es tu in verbum tuum supersperavi
@@ -4811,7 +4811,7 @@
 <sup>119</sup> <sup>do</sup>praevaricantes reputavi omnes peccatores terrae ideo dilexi testimonia tua
 <sup>120</sup> <sup>dp</sup>confige timore tuo carnes meas a iudiciis enim; tuis timui
 
-### ain
+#### ain
 
 <sup>121</sup> <sup>dq</sup>feci iudicium et iustitiam non tradas me calumniantibus me
 <sup>122</sup> <sup>dr</sup>suscipe servum tuum in bonum non calumnientur me superbi
@@ -4822,7 +4822,7 @@
 <sup>127</sup> <sup>dw</sup>ideo dilexi mandata tua super aurum et topazion
 <sup>128</sup> <sup>dx</sup>propterea ad omnia mandata tua dirigebar omnem viam iniquam odio habui
 
-### fe
+#### fe
 
 <sup>129</sup> <sup>dy</sup>mirabilia testimonia tua ideo scrutata est ea anima mea
 <sup>130</sup> <sup>dz</sup>declaratio sermonum tuorum inluminat et intellectum dat parvulis
@@ -4833,7 +4833,7 @@
 <sup>135</sup> <sup>ee</sup>faciem tuam inlumina super servum tuum et doce me iustificationes tuas
 <sup>136</sup> <sup>ef</sup>exitus aquarum deduxerunt oculi mei quia non custodierunt legem tuam
 
-### sade
+#### sade
 
 <sup>137</sup> <sup>eg</sup>iustus es Domine et rectum iudicium tuum
 <sup>138</sup> <sup>eh</sup>mandasti iustitiam testimonia tua et veritatem tuam nimis
@@ -4844,7 +4844,7 @@
 <sup>143</sup> <sup>em</sup>tribulatio et angustia invenerunt me mandata tua meditatio mea
 <sup>144</sup> <sup>en</sup>aequitas testimonia tua in aeternum intellectum da mihi et vivam
 
-### cof
+#### cof
 
 <sup>145</sup> <sup>eo</sup>clamavi in toto corde exaudi me Domine iustificationes tuas requiram
 <sup>146</sup> <sup>ep</sup>clamavi te salvum me fac et custodiam mandata tua
@@ -4855,7 +4855,7 @@
 <sup>151</sup> <sup>eu</sup>prope es tu Domine et omnes viae tuae veritas
 <sup>152</sup> <sup>ev</sup>initio cognovi de testimoniis tuis quia in aeternum fundasti ea
 
-### res
+#### res
 
 <sup>153</sup> <sup>ew</sup>vide humilitatem meam et eripe me quia legem tuam non sum oblitus
 <sup>154</sup> <sup>ex</sup>iudica iudicium meum et redime me propter eloquium tuum vivifica me
@@ -4866,7 +4866,7 @@
 <sup>159</sup> <sup>fc</sup>vide quoniam mandata tua dilexi Domine in misericordia tua vivifica me
 <sup>160</sup> <sup>fd</sup>principium verborum tuorum veritas et in aeternum omnia iudicia iustitiae tuae
 
-### sen
+#### sen
 
 <sup>161</sup> <sup>fe</sup>principes persecuti sunt me gratis et a verbis tuis formidavit cor meum
 <sup>162</sup> <sup>ff</sup>laetabor ego super eloquia tua sicut qui invenit spolia multa
@@ -4877,7 +4877,7 @@
 <sup>167</sup> <sup>fk</sup>custodivit anima mea testimonia tua et dilexi ea vehementer
 <sup>168</sup> <sup>fl</sup>servavi mandata tua et testimonia tua quia omnes viae meae in conspectu tuo
 
-### thau
+#### thau
 
 <sup>169</sup> <sup>fm</sup>adpropinquet deprecatio mea in conspectu tuo Domine iuxta eloquium tuum da mihi intellectum
 <sup>170</sup> <sup>fn</sup>intret postulatio mea in conspectu tuo secundum eloquium tuum eripe me

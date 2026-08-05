@@ -1,6 +1,10 @@
 import fs from "fs";
 import path from "path";
-import Content, { ContentObject, ContentNested } from "../types/Content";
+import Content, {
+  ContentHeading,
+  ContentNested,
+  ContentObject,
+} from "../types/Content";
 import { writeFileAtomic } from "../functions/writeJsonFile";
 import VerseSchema from "../types/VerseSchema";
 
@@ -8,18 +12,23 @@ import VerseSchema from "../types/VerseSchema";
 // Core Content Rendering Options
 // ============================================================================
 
+/**
+ * Per-format rendering knobs shared by every rendering function below.
+ * `TEXT_OPTIONS` and `MARKDOWN_OPTIONS` are the two concrete configurations.
+ */
 interface RenderOptions {
-  includeStrongs: boolean;
-  includeMorph: boolean;
-  includeFootnotes: boolean;
-  footnoteStyle: "inline" | "reference";
-  paragraphMarker: string;
-  lineBreakMarker: string;
-  headingWrapper: (text: string) => string;
-  subtitleWrapper: (text: string) => string;
-  footnoteMarker: (index: number) => string;
+  includeStrongs: boolean; // Whether to append Strong's numbers after words
+  includeMorph: boolean; // Whether to append morphology codes after words
+  includeFootnotes: boolean; // Whether footnote markers/content render at all
+  footnoteStyle: "inline" | "reference"; // inline = °{...} at point of reference; reference = collected into a footer list
+  paragraphMarker: string; // Text inserted at the start of a new paragraph
+  lineBreakMarker: string; // Text inserted at an explicit line break
+  headingWrapper: (text: string, type?: "standard" | "acrostic") => string; // Wraps rendered heading text; type selects standard vs. acrostic styling
+  subtitleWrapper: (text: string) => string; // Wraps rendered subtitle text
+  footnoteMarker: (index: number) => string; // Renders the marker for the footnote at the given 0-based index within the current footnotes list
 }
 
+/** Rendering configuration for the plain-text export (`exports/text-vbv-strongs`). */
 const TEXT_OPTIONS: RenderOptions = {
   includeStrongs: true,
   includeMorph: true,
@@ -27,7 +36,8 @@ const TEXT_OPTIONS: RenderOptions = {
   footnoteStyle: "inline",
   paragraphMarker: "¶ ",
   lineBreakMarker: "␤",
-  headingWrapper: (text) => `[[${text}]] `,
+  headingWrapper: (text, type) =>
+    type === "acrostic" ? `[[[${text}]]] ` : `[[${text}]] `,
   subtitleWrapper: (text) => `«${text}» `,
   footnoteMarker: () => "°",
 };
@@ -47,6 +57,15 @@ function footnoteLabel(index: number): string {
   return label;
 }
 
+/**
+ * Markdown heading marker for a heading's type: one level smaller for
+ * acrostic (Hebrew acrostic stanza marker, e.g. Psalm 119) than standard.
+ */
+function markdownHeadingMarker(type?: "standard" | "acrostic"): string {
+  return type === "acrostic" ? "####" : "###";
+}
+
+/** Rendering configuration for the markdown export (`exports/markdown-par`). */
 const MARKDOWN_OPTIONS: RenderOptions = {
   includeStrongs: false,
   includeMorph: false,
@@ -54,7 +73,7 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   footnoteStyle: "reference",
   paragraphMarker: "\n\n",
   lineBreakMarker: "<br>",
-  headingWrapper: (text) => `\n### ${text}\n`,
+  headingWrapper: (text, type) => `\n${markdownHeadingMarker(type)} ${text}\n`,
   subtitleWrapper: (text) => `> _${text}_`,
   footnoteMarker: (index) => `<sup>${footnoteLabel(index)}</sup>`,
 };
@@ -63,10 +82,11 @@ const MARKDOWN_OPTIONS: RenderOptions = {
 // Core Rendering Functions
 // ============================================================================
 
+/** Threaded through every render call in a single conversion pass. */
 interface RenderContext {
-  options: RenderOptions;
-  footnotes: string[];
-  verseNum?: number;
+  options: RenderOptions; // Active TEXT_OPTIONS or MARKDOWN_OPTIONS
+  footnotes: string[]; // Collected reference-style footnote lines (populated only when footnoteStyle is "reference"); the caller reads this back after rendering
+  verseNum?: number; // Current verse number; falls back to this as the footnote prefix ("N.") when footnotePrefix isn't set
   footnotePrefix?: string; // "Subtitle." or "Heading." for special contexts
 }
 
@@ -87,7 +107,7 @@ function renderContent(content: Content, ctx: RenderContext): string {
       ...ctx,
       footnotePrefix: "Heading.",
     });
-    return ctx.options.headingWrapper(inner);
+    return ctx.options.headingWrapper(inner, (content as ContentHeading).type);
   }
 
   if ("subtitle" in content) {
@@ -280,9 +300,9 @@ function convertVerseToText(verse: VerseSchema): string {
 
   let text = renderContent(verse.content, ctx);
 
-  text = text.replace(/^ +/, ""); // Remove leading spaces
-  text = text.replace(/ +$/, ""); // Remove trailing spaces
-  text = text.replace(/ +/g, " "); // Collapse multiple spaces
+  text = text.replace(/^ +/, "");
+  text = text.replace(/ +$/, "");
+  text = text.replace(/ +/g, " ");
 
   return `${chapter}:${verseNum} ${text}`;
 }
@@ -303,6 +323,7 @@ function convertVerseToMarkdown(
   let headingPrefix = "";
   let processedContent = verse.content;
 
+  // A leading heading renders above the verse number rather than inline with the verse text
   if (Array.isArray(verse.content) && verse.content.length > 0) {
     const firstItem = verse.content[0];
     if (typeof firstItem === "object" && "heading" in firstItem) {
@@ -310,11 +331,13 @@ function convertVerseToMarkdown(
         ...ctx,
         footnotePrefix: "Heading.",
       });
-      headingPrefix = `\n### ${headingText}\n`;
+      const marker = markdownHeadingMarker((firstItem as ContentHeading).type);
+      headingPrefix = `\n${marker} ${headingText}\n`;
       processedContent = verse.content.slice(1);
     }
   }
 
+  // Whether the verse (after any heading is pulled out) opens its own paragraph, which decides the blank line below
   let hasLeadingParagraph = false;
   if (Array.isArray(processedContent) && processedContent.length > 0) {
     const first = processedContent[0];
@@ -343,8 +366,8 @@ function convertVerseToMarkdown(
     text = text.replace(/^\n\n/, "");
   }
 
-  text = text.replace(/^ +/, ""); // Remove leading spaces
-  text = text.replace(/ +/g, " "); // Collapse multiple spaces
+  text = text.replace(/^ +/, "");
+  text = text.replace(/ +/g, " ");
   text = text.replace(/ ([.,;:!?])/g, "$1"); // Remove space before punctuation
 
   const paragraphPrefix = hasLeadingParagraph ? "\n" : "";
@@ -356,6 +379,11 @@ function convertVerseToMarkdown(
 // File I/O Functions
 // ============================================================================
 
+/**
+ * Converts every book in a Bible version to plain text and writes the
+ * results under `exports/text-vbv-strongs/<version>/`. Pass `bookId` to
+ * limit the run to a single book's file.
+ */
 async function convertBibleVersion(
   version: string,
   bookId?: string
@@ -396,6 +424,14 @@ async function convertBibleVersion(
   }
 }
 
+/**
+ * Converts every book in a Bible version to markdown, grouped by chapter,
+ * and writes the results under `exports/markdown-par/<version>/`. Pulls a
+ * chapter-opening subtitle and/or heading out of verse 1 to print above the
+ * chapter heading rather than inline, and collects "reference"-style
+ * footnotes into a per-chapter list at the end of each chapter. Pass
+ * `bookId` to limit the run to a single book's file.
+ */
 async function convertBibleVersionToMarkdown(
   version: string,
   bookId?: string
@@ -484,8 +520,11 @@ async function convertBibleVersionToMarkdown(
               footnotePrefix: "Heading.",
             };
             const headingText = renderContent(firstItem.heading, ctx);
+            const marker = markdownHeadingMarker(
+              (firstItem as ContentHeading).type
+            );
             markdownLines.push("");
-            markdownLines.push(`### ${headingText}`);
+            markdownLines.push(`${marker} ${headingText}`);
             chapterVerses[0].content = firstContent.slice(1);
           }
         }
@@ -562,5 +601,4 @@ if (require.main === module) {
   });
 }
 
-// Export functions for testing
 export { convertVerseToText, convertVerseToMarkdown };

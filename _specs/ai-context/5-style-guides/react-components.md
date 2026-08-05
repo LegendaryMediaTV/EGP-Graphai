@@ -214,6 +214,13 @@ function ContentNode({ node, settings, onFootnoteClick }) {
   // Handle object variants
   if (node.heading) {
     if (!settings.showHeadings) return null;
+    if (node.type === "acrostic") {
+      return (
+        <h4 className="text-lg font-bold mt-6 mb-3">
+          <ContentNode node={node.heading} settings={settings} />
+        </h4>
+      );
+    }
     return (
       <h3 className="text-xl font-bold mt-6 mb-3">
         <ContentNode node={node.heading} settings={settings} />

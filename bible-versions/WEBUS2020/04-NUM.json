@@ -11,10 +11,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -46,10 +43,7 @@
     "verse": 5,
     "content": [
       "These are the names of the men who shall stand with you:",
-      {
-        "paragraph": true,
-        "text": "Of Reuben: Elizur the son of Shedeur."
-      }
+      { "paragraph": true, "text": "Of Reuben: Elizur the son of Shedeur." }
     ]
   },
   {
@@ -150,10 +144,7 @@
       {
         "paragraph": true,
         "text": "These are those who were called of the congregation, the princes",
-        "foot": {
-          "type": "trn",
-          "content": "or, chiefs, or, leaders"
-        }
+        "foot": { "type": "trn", "content": "or, chiefs, or, leaders" }
       },
       " of the tribes of their fathers; they were the heads of the thousands of Israel."
     ]
@@ -726,10 +717,7 @@
     "book": "NUM",
     "chapter": 3,
     "verse": 5,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -765,10 +753,7 @@
     "book": "NUM",
     "chapter": 3,
     "verse": 11,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -781,10 +766,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -1045,10 +1027,7 @@
     "book": "NUM",
     "chapter": 3,
     "verse": 44,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -1274,10 +1253,7 @@
     "book": "NUM",
     "chapter": 4,
     "verse": 21,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -1469,10 +1445,7 @@
     "book": "NUM",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -1499,10 +1472,7 @@
     "book": "NUM",
     "chapter": 5,
     "verse": 5,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -1538,10 +1508,7 @@
     "book": "NUM",
     "chapter": 5,
     "verse": 11,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -1657,10 +1624,7 @@
     "verse": 28,
     "content": {
       "text": "If the woman isn’t defiled, but is clean; then she shall be free, and shall conceive offspring.",
-      "foot": {
-        "type": "trn",
-        "content": "or, seed"
-      }
+      "foot": { "type": "trn", "content": "or, seed" }
     }
   },
   {
@@ -1688,10 +1652,7 @@
     "book": "NUM",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -1740,10 +1701,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -1848,10 +1806,7 @@
     "book": "NUM",
     "chapter": 6,
     "verse": 22,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -1866,24 +1821,15 @@
     "book": "NUM",
     "chapter": 6,
     "verse": 24,
-    "content": {
-      "text": "‘Yahweh bless you, and keep you.",
-      "break": true
-    }
+    "content": { "text": "‘Yahweh bless you, and keep you.", "break": true }
   },
   {
     "book": "NUM",
     "chapter": 6,
     "verse": 25,
     "content": [
-      {
-        "text": "Yahweh make his face to shine on you,",
-        "break": true
-      },
-      {
-        "text": "and be gracious to you.",
-        "break": true
-      }
+      { "text": "Yahweh make his face to shine on you,", "break": true },
+      { "text": "and be gracious to you.", "break": true }
     ]
   },
   {
@@ -1891,10 +1837,7 @@
     "chapter": 6,
     "verse": 26,
     "content": [
-      {
-        "text": "Yahweh lift up his face toward you,",
-        "break": true
-      },
+      { "text": "Yahweh lift up his face toward you,", "break": true },
       "and give you peace.’"
     ]
   },
@@ -2028,14 +1971,8 @@
     "chapter": 7,
     "verse": 15,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2099,14 +2036,8 @@
     "chapter": 7,
     "verse": 21,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2170,14 +2101,8 @@
     "chapter": 7,
     "verse": 27,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2241,14 +2166,8 @@
     "chapter": 7,
     "verse": 33,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2312,14 +2231,8 @@
     "chapter": 7,
     "verse": 39,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2383,14 +2296,8 @@
     "chapter": 7,
     "verse": 45,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2454,14 +2361,8 @@
     "chapter": 7,
     "verse": 51,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2525,14 +2426,8 @@
     "chapter": 7,
     "verse": 57,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2596,14 +2491,8 @@
     "chapter": 7,
     "verse": 63,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2667,14 +2556,8 @@
     "chapter": 7,
     "verse": 69,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2738,14 +2621,8 @@
     "chapter": 7,
     "verse": 75,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2809,14 +2686,8 @@
     "chapter": 7,
     "verse": 81,
     "content": [
-      {
-        "paragraph": true,
-        "text": "one young bull,"
-      },
-      {
-        "paragraph": true,
-        "text": "one ram,"
-      },
+      { "paragraph": true, "text": "one young bull," },
+      { "paragraph": true, "text": "one ram," },
       {
         "paragraph": true,
         "text": "one male lamb a year old, for a burnt offering;"
@@ -2887,10 +2758,7 @@
     "book": "NUM",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -2917,10 +2785,7 @@
     "book": "NUM",
     "chapter": 8,
     "verse": 5,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -3037,10 +2902,7 @@
     "book": "NUM",
     "chapter": 8,
     "verse": 23,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -3121,10 +2983,7 @@
     "book": "NUM",
     "chapter": 9,
     "verse": 9,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -3220,10 +3079,7 @@
     "book": "NUM",
     "chapter": 10,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -3490,10 +3346,7 @@
     "content": [
       {
         "text": "The name of that place was called Taberah,",
-        "foot": {
-          "type": "stu",
-          "content": "Taberah means “burning”"
-        }
+        "foot": { "type": "stu", "content": "Taberah means “burning”" }
       },
       " because Yahweh’s fire burned among them."
     ]
@@ -3786,10 +3639,7 @@
     "verse": 4,
     "content": [
       "Yahweh spoke suddenly to Moses, to Aaron, and to Miriam, “You three come out to the Tent of Meeting!”",
-      {
-        "paragraph": true,
-        "text": "The three of them came out."
-      }
+      { "paragraph": true, "text": "The three of them came out." }
     ]
   },
   {
@@ -3883,10 +3733,7 @@
     "book": "NUM",
     "chapter": 13,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -4093,17 +3940,11 @@
     "content": [
       {
         "text": "There we saw the Nephilim,",
-        "foot": {
-          "type": "trn",
-          "content": "or, giants"
-        }
+        "foot": { "type": "trn", "content": "or, giants" }
       },
       {
         "text": " the sons of Anak, who come from the Nephilim.",
-        "foot": {
-          "type": "trn",
-          "content": "or, giants"
-        }
+        "foot": { "type": "trn", "content": "or, giants" }
       },
       " We were in our own sight as grasshoppers, and so we were in their sight.”"
     ]
@@ -4427,10 +4268,7 @@
     "book": "NUM",
     "chapter": 15,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -4564,10 +4402,7 @@
     "book": "NUM",
     "chapter": 15,
     "verse": 17,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -4702,10 +4537,7 @@
     "book": "NUM",
     "chapter": 15,
     "verse": 37,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -4718,20 +4550,14 @@
           "type": "trn",
           "content": [
             "or, tassels (Hebrew ",
-            {
-              "text": "צִיצִ֛ת",
-              "script": "H"
-            },
+            { "text": "צִיצִ֛ת", "script": "H" },
             ")"
           ]
         }
       },
       {
         "text": " on the borders of their garments throughout their generations, and that they put on the fringe",
-        "foot": {
-          "type": "trn",
-          "content": "or, tassel"
-        }
+        "foot": { "type": "trn", "content": "or, tassel" }
       },
       " of each border a cord of blue."
     ]
@@ -4743,10 +4569,7 @@
     "content": [
       {
         "text": "It shall be to you for a fringe,",
-        "foot": {
-          "type": "trn",
-          "content": "or, tassel"
-        }
+        "foot": { "type": "trn", "content": "or, tassel" }
       },
       " that you may see it, and remember all Yahweh’s commandments, and do them; and that you don’t follow your own heart and your own eyes, after which you used to play the prostitute;"
     ]
@@ -4929,10 +4752,7 @@
     "book": "NUM",
     "chapter": 16,
     "verse": 23,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -4986,10 +4806,7 @@
     "content": [
       {
         "text": "But if Yahweh makes a new thing, and the ground opens its mouth, and swallows them up with all that belong to them, and they go down alive into Sheol,",
-        "foot": {
-          "type": "stu",
-          "content": "Sheol is the place of the dead."
-        }
+        "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
       " then you shall understand that these men have despised Yahweh.”"
     ]
@@ -5016,10 +4833,7 @@
     "content": [
       {
         "text": "So they, and all that belonged to them went down alive into Sheol.",
-        "foot": {
-          "type": "stu",
-          "content": "Sheol is the place of the dead."
-        }
+        "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
       " The earth closed on them, and they perished from among the assembly."
     ]
@@ -5040,10 +4854,7 @@
     "book": "NUM",
     "chapter": 16,
     "verse": 36,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -5148,10 +4959,7 @@
     "book": "NUM",
     "chapter": 17,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -5427,10 +5235,7 @@
     "book": "NUM",
     "chapter": 18,
     "verse": 25,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -5722,10 +5527,7 @@
       {
         "paragraph": true,
         "text": "These are the waters of Meribah;",
-        "foot": {
-          "type": "stu",
-          "content": "“Meribah” means “quarreling”."
-        }
+        "foot": { "type": "stu", "content": "“Meribah” means “quarreling”." }
       },
       " because the children of Israel strove with Yahweh, and he was sanctified in them."
     ]
@@ -5874,10 +5676,7 @@
     "verse": 3,
     "content": {
       "text": "Yahweh listened to the voice of Israel, and delivered up the Canaanites; and they utterly destroyed them and their cities. The name of the place was called Hormah.",
-      "foot": {
-        "type": "stu",
-        "content": "“Hormah” means “destruction”."
-      }
+      "foot": { "type": "stu", "content": "“Hormah” means “destruction”." }
     }
   },
   {
@@ -5983,10 +5782,7 @@
         "text": "Then Israel sang this song:",
         "break": true
       },
-      {
-        "text": "“Spring up, well! Sing to it,",
-        "break": true
-      }
+      { "text": "“Spring up, well! Sing to it,", "break": true }
     ]
   },
   {
@@ -5994,14 +5790,8 @@
     "chapter": 21,
     "verse": 18,
     "content": [
-      {
-        "text": "the well, which the princes dug,",
-        "break": true
-      },
-      {
-        "text": "which the nobles of the people dug,",
-        "break": true
-      },
+      { "text": "the well, which the princes dug,", "break": true },
+      { "text": "which the nobles of the people dug,", "break": true },
       "with the scepter, and with their poles.”",
       {
         "paragraph": true,
@@ -6065,14 +5855,8 @@
     "chapter": 21,
     "verse": 27,
     "content": [
-      {
-        "text": "Therefore those who speak in proverbs say,",
-        "break": true
-      },
-      {
-        "text": "“Come to Heshbon.",
-        "break": true
-      },
+      { "text": "Therefore those who speak in proverbs say,", "break": true },
+      { "text": "“Come to Heshbon.", "break": true },
       {
         "text": "Let the city of Sihon be built and established;",
         "break": true
@@ -6084,22 +5868,10 @@
     "chapter": 21,
     "verse": 28,
     "content": [
-      {
-        "text": "for a fire has gone out of Heshbon,",
-        "break": true
-      },
-      {
-        "text": "a flame from the city of Sihon.",
-        "break": true
-      },
-      {
-        "text": "It has devoured Ar of Moab,",
-        "break": true
-      },
-      {
-        "text": "The lords of the high places of the Arnon.",
-        "break": true
-      }
+      { "text": "for a fire has gone out of Heshbon,", "break": true },
+      { "text": "a flame from the city of Sihon.", "break": true },
+      { "text": "It has devoured Ar of Moab,", "break": true },
+      { "text": "The lords of the high places of the Arnon.", "break": true }
     ]
   },
   {
@@ -6107,26 +5879,11 @@
     "chapter": 21,
     "verse": 29,
     "content": [
-      {
-        "text": "Woe to you, Moab!",
-        "break": true
-      },
-      {
-        "text": "You are undone, people of Chemosh!",
-        "break": true
-      },
-      {
-        "text": "He has given his sons as fugitives,",
-        "break": true
-      },
-      {
-        "text": "and his daughters into captivity,",
-        "break": true
-      },
-      {
-        "text": "to Sihon king of the Amorites.",
-        "break": true
-      }
+      { "text": "Woe to you, Moab!", "break": true },
+      { "text": "You are undone, people of Chemosh!", "break": true },
+      { "text": "He has given his sons as fugitives,", "break": true },
+      { "text": "and his daughters into captivity,", "break": true },
+      { "text": "to Sihon king of the Amorites.", "break": true }
     ]
   },
   {
@@ -6134,18 +5891,9 @@
     "chapter": 21,
     "verse": 30,
     "content": [
-      {
-        "text": "We have shot at them.",
-        "break": true
-      },
-      {
-        "text": "Heshbon has perished even to Dibon.",
-        "break": true
-      },
-      {
-        "text": "We have laid waste even to Nophah,",
-        "break": true
-      },
+      { "text": "We have shot at them.", "break": true },
+      { "text": "Heshbon has perished even to Dibon.", "break": true },
+      { "text": "We have laid waste even to Nophah,", "break": true },
       "Which reaches to Medeba.”"
     ]
   },
@@ -6422,10 +6170,7 @@
         "paragraph": true,
         "text": "The donkey said to Balaam, “Am I not your donkey, on which you have ridden all your life long until today? Was I ever in the habit of doing so to you?”"
       },
-      {
-        "paragraph": true,
-        "text": "He said, “No.”"
-      }
+      { "paragraph": true, "text": "He said, “No.”" }
     ]
   },
   {
@@ -6467,10 +6212,7 @@
         "paragraph": true,
         "text": "Yahweh’s angel said to Balaam, “Go with the men; but you shall only speak the word that I shall speak to you.”"
       },
-      {
-        "paragraph": true,
-        "text": "So Balaam went with the princes of Balak."
-      }
+      { "paragraph": true, "text": "So Balaam went with the princes of Balak." }
     ]
   },
   {
@@ -6539,10 +6281,7 @@
     "verse": 3,
     "content": [
       "Balaam said to Balak, “Stand by your burnt offering, and I will go. Perhaps Yahweh will come to meet me. Whatever he shows me I will tell you.”",
-      {
-        "paragraph": true,
-        "text": "He went to a bare height."
-      }
+      { "paragraph": true, "text": "He went to a bare height." }
     ]
   },
   {
@@ -6574,26 +6313,14 @@
     "chapter": 23,
     "verse": 7,
     "content": [
-      {
-        "text": "He took up his parable, and said,",
-        "break": true
-      },
-      {
-        "text": "“From Aram has Balak brought me,",
-        "break": true
-      },
+      { "text": "He took up his parable, and said,", "break": true },
+      { "text": "“From Aram has Balak brought me,", "break": true },
       {
         "text": "the king of Moab from the mountains of the East.",
         "break": true
       },
-      {
-        "text": "Come, curse Jacob for me.",
-        "break": true
-      },
-      {
-        "text": "Come, defy Israel.",
-        "break": true
-      }
+      { "text": "Come, curse Jacob for me.", "break": true },
+      { "text": "Come, defy Israel.", "break": true }
     ]
   },
   {
@@ -6601,14 +6328,8 @@
     "chapter": 23,
     "verse": 8,
     "content": [
-      {
-        "text": "How shall I curse whom God has not cursed?",
-        "break": true
-      },
-      {
-        "text": "How shall I defy whom Yahweh has not defied?",
-        "break": true
-      }
+      { "text": "How shall I curse whom God has not cursed?", "break": true },
+      { "text": "How shall I defy whom Yahweh has not defied?", "break": true }
     ]
   },
   {
@@ -6616,22 +6337,10 @@
     "chapter": 23,
     "verse": 9,
     "content": [
-      {
-        "text": "For from the top of the rocks I see him.",
-        "break": true
-      },
-      {
-        "text": "From the hills I see him.",
-        "break": true
-      },
-      {
-        "text": "Behold, it is a people that dwells alone,",
-        "break": true
-      },
-      {
-        "text": "and shall not be listed among the nations.",
-        "break": true
-      }
+      { "text": "For from the top of the rocks I see him.", "break": true },
+      { "text": "From the hills I see him.", "break": true },
+      { "text": "Behold, it is a people that dwells alone,", "break": true },
+      { "text": "and shall not be listed among the nations.", "break": true }
     ]
   },
   {
@@ -6639,18 +6348,9 @@
     "chapter": 23,
     "verse": 10,
     "content": [
-      {
-        "text": "Who can count the dust of Jacob,",
-        "break": true
-      },
-      {
-        "text": "or count the fourth part of Israel?",
-        "break": true
-      },
-      {
-        "text": "Let me die the death of the righteous!",
-        "break": true
-      },
+      { "text": "Who can count the dust of Jacob,", "break": true },
+      { "text": "or count the fourth part of Israel?", "break": true },
+      { "text": "Let me die the death of the righteous!", "break": true },
       "Let my last end be like his!”"
     ]
   },
@@ -6724,14 +6424,8 @@
         "text": "He took up his parable, and said,",
         "break": true
       },
-      {
-        "text": "“Rise up, Balak, and hear!",
-        "break": true
-      },
-      {
-        "text": "Listen to me, you son of Zippor.",
-        "break": true
-      }
+      { "text": "“Rise up, Balak, and hear!", "break": true },
+      { "text": "Listen to me, you son of Zippor.", "break": true }
     ]
   },
   {
@@ -6739,22 +6433,10 @@
     "chapter": 23,
     "verse": 19,
     "content": [
-      {
-        "text": "God is not a man, that he should lie,",
-        "break": true
-      },
-      {
-        "text": "nor a son of man, that he should repent.",
-        "break": true
-      },
-      {
-        "text": "Has he said, and he won’t do it?",
-        "break": true
-      },
-      {
-        "text": "Or has he spoken, and he won’t make it good?",
-        "break": true
-      }
+      { "text": "God is not a man, that he should lie,", "break": true },
+      { "text": "nor a son of man, that he should repent.", "break": true },
+      { "text": "Has he said, and he won’t do it?", "break": true },
+      { "text": "Or has he spoken, and he won’t make it good?", "break": true }
     ]
   },
   {
@@ -6762,14 +6444,8 @@
     "chapter": 23,
     "verse": 20,
     "content": [
-      {
-        "text": "Behold, I have received a command to bless.",
-        "break": true
-      },
-      {
-        "text": "He has blessed, and I can’t reverse it.",
-        "break": true
-      }
+      { "text": "Behold, I have received a command to bless.", "break": true },
+      { "text": "He has blessed, and I can’t reverse it.", "break": true }
     ]
   },
   {
@@ -6777,22 +6453,10 @@
     "chapter": 23,
     "verse": 21,
     "content": [
-      {
-        "text": "He has not seen iniquity in Jacob.",
-        "break": true
-      },
-      {
-        "text": "Neither has he seen perverseness in Israel.",
-        "break": true
-      },
-      {
-        "text": "Yahweh his God is with him.",
-        "break": true
-      },
-      {
-        "text": "The shout of a king is among them.",
-        "break": true
-      }
+      { "text": "He has not seen iniquity in Jacob.", "break": true },
+      { "text": "Neither has he seen perverseness in Israel.", "break": true },
+      { "text": "Yahweh his God is with him.", "break": true },
+      { "text": "The shout of a king is among them.", "break": true }
     ]
   },
   {
@@ -6800,10 +6464,7 @@
     "chapter": 23,
     "verse": 22,
     "content": [
-      {
-        "text": "God brings them out of Egypt.",
-        "break": true
-      },
+      { "text": "God brings them out of Egypt.", "break": true },
       {
         "text": "He has as it were the strength of the wild ox.",
         "break": true
@@ -6815,22 +6476,10 @@
     "chapter": 23,
     "verse": 23,
     "content": [
-      {
-        "text": "Surely there is no enchantment with Jacob;",
-        "break": true
-      },
-      {
-        "text": "neither is there any divination with Israel.",
-        "break": true
-      },
-      {
-        "text": "Now it shall be said of Jacob and of Israel,",
-        "break": true
-      },
-      {
-        "text": "‘What has God done!’",
-        "break": true
-      }
+      { "text": "Surely there is no enchantment with Jacob;", "break": true },
+      { "text": "neither is there any divination with Israel.", "break": true },
+      { "text": "Now it shall be said of Jacob and of Israel,", "break": true },
+      { "text": "‘What has God done!’", "break": true }
     ]
   },
   {
@@ -6838,14 +6487,8 @@
     "chapter": 23,
     "verse": 24,
     "content": [
-      {
-        "text": "Behold, a people rises up as a lioness.",
-        "break": true
-      },
-      {
-        "text": "As a lion he lifts himself up.",
-        "break": true
-      },
+      { "text": "Behold, a people rises up as a lioness.", "break": true },
+      { "text": "As a lion he lifts himself up.", "break": true },
       {
         "text": "He shall not lie down until he eats of the prey,",
         "break": true
@@ -6924,18 +6567,9 @@
     "chapter": 24,
     "verse": 3,
     "content": [
-      {
-        "text": "He took up his parable, and said,",
-        "break": true
-      },
-      {
-        "text": "“Balaam the son of Beor says,",
-        "break": true
-      },
-      {
-        "text": "the man whose eyes are open says;",
-        "break": true
-      }
+      { "text": "He took up his parable, and said,", "break": true },
+      { "text": "“Balaam the son of Beor says,", "break": true },
+      { "text": "the man whose eyes are open says;", "break": true }
     ]
   },
   {
@@ -6943,18 +6577,9 @@
     "chapter": 24,
     "verse": 4,
     "content": [
-      {
-        "text": "he says, who hears the words of God,",
-        "break": true
-      },
-      {
-        "text": "who sees the vision of the Almighty,",
-        "break": true
-      },
-      {
-        "text": "falling down, and having his eyes open:",
-        "break": true
-      }
+      { "text": "he says, who hears the words of God,", "break": true },
+      { "text": "who sees the vision of the Almighty,", "break": true },
+      { "text": "falling down, and having his eyes open:", "break": true }
     ]
   },
   {
@@ -6962,14 +6587,8 @@
     "chapter": 24,
     "verse": 5,
     "content": [
-      {
-        "text": "How goodly are your tents, Jacob,",
-        "break": true
-      },
-      {
-        "text": "and your dwellings, Israel!",
-        "break": true
-      }
+      { "text": "How goodly are your tents, Jacob,", "break": true },
+      { "text": "and your dwellings, Israel!", "break": true }
     ]
   },
   {
@@ -6977,22 +6596,10 @@
     "chapter": 24,
     "verse": 6,
     "content": [
-      {
-        "text": "As valleys they are spread out,",
-        "break": true
-      },
-      {
-        "text": "as gardens by the riverside,",
-        "break": true
-      },
-      {
-        "text": "as aloes which Yahweh has planted,",
-        "break": true
-      },
-      {
-        "text": "as cedar trees beside the waters.",
-        "break": true
-      }
+      { "text": "As valleys they are spread out,", "break": true },
+      { "text": "as gardens by the riverside,", "break": true },
+      { "text": "as aloes which Yahweh has planted,", "break": true },
+      { "text": "as cedar trees beside the waters.", "break": true }
     ]
   },
   {
@@ -7000,22 +6607,10 @@
     "chapter": 24,
     "verse": 7,
     "content": [
-      {
-        "text": "Water shall flow from his buckets.",
-        "break": true
-      },
-      {
-        "text": "His seed shall be in many waters.",
-        "break": true
-      },
-      {
-        "text": "His king shall be higher than Agag.",
-        "break": true
-      },
-      {
-        "text": "His kingdom shall be exalted.",
-        "break": true
-      }
+      { "text": "Water shall flow from his buckets.", "break": true },
+      { "text": "His seed shall be in many waters.", "break": true },
+      { "text": "His king shall be higher than Agag.", "break": true },
+      { "text": "His kingdom shall be exalted.", "break": true }
     ]
   },
   {
@@ -7023,10 +6618,7 @@
     "chapter": 24,
     "verse": 8,
     "content": [
-      {
-        "text": "God brings him out of Egypt.",
-        "break": true
-      },
+      { "text": "God brings him out of Egypt.", "break": true },
       {
         "text": "He has as it were the strength of the wild ox.",
         "break": true
@@ -7035,14 +6627,8 @@
         "text": "He shall consume the nations his adversaries,",
         "break": true
       },
-      {
-        "text": "shall break their bones in pieces,",
-        "break": true
-      },
-      {
-        "text": "and pierce them with his arrows.",
-        "break": true
-      }
+      { "text": "shall break their bones in pieces,", "break": true },
+      { "text": "and pierce them with his arrows.", "break": true }
     ]
   },
   {
@@ -7050,22 +6636,10 @@
     "chapter": 24,
     "verse": 9,
     "content": [
-      {
-        "text": "He couched, he lay down as a lion,",
-        "break": true
-      },
-      {
-        "text": "as a lioness;",
-        "break": true
-      },
-      {
-        "text": "who shall rouse him up?",
-        "break": true
-      },
-      {
-        "text": "Everyone who blesses you is blessed.",
-        "break": true
-      },
+      { "text": "He couched, he lay down as a lion,", "break": true },
+      { "text": "as a lioness;", "break": true },
+      { "text": "who shall rouse him up?", "break": true },
+      { "text": "Everyone who blesses you is blessed.", "break": true },
       "Everyone who curses you is cursed.”"
     ]
   },
@@ -7115,14 +6689,8 @@
         "text": "He took up his parable, and said,",
         "break": true
       },
-      {
-        "text": "“Balaam the son of Beor says,",
-        "break": true
-      },
-      {
-        "text": "the man whose eyes are open says;",
-        "break": true
-      }
+      { "text": "“Balaam the son of Beor says,", "break": true },
+      { "text": "the man whose eyes are open says;", "break": true }
     ]
   },
   {
@@ -7130,22 +6698,10 @@
     "chapter": 24,
     "verse": 16,
     "content": [
-      {
-        "text": "he says, who hears the words of God,",
-        "break": true
-      },
-      {
-        "text": "knows the knowledge of the Most High,",
-        "break": true
-      },
-      {
-        "text": "and who sees the vision of the Almighty,",
-        "break": true
-      },
-      {
-        "text": "falling down, and having his eyes open:",
-        "break": true
-      }
+      { "text": "he says, who hears the words of God,", "break": true },
+      { "text": "knows the knowledge of the Most High,", "break": true },
+      { "text": "and who sees the vision of the Almighty,", "break": true },
+      { "text": "falling down, and having his eyes open:", "break": true }
     ]
   },
   {
@@ -7153,30 +6709,15 @@
     "chapter": 24,
     "verse": 17,
     "content": [
-      {
-        "text": "I see him, but not now.",
-        "break": true
-      },
-      {
-        "text": "I see him, but not near.",
-        "break": true
-      },
-      {
-        "text": "A star will come out of Jacob.",
-        "break": true
-      },
-      {
-        "text": "A scepter will rise out of Israel,",
-        "break": true
-      },
+      { "text": "I see him, but not now.", "break": true },
+      { "text": "I see him, but not near.", "break": true },
+      { "text": "A star will come out of Jacob.", "break": true },
+      { "text": "A scepter will rise out of Israel,", "break": true },
       {
         "text": "and shall strike through the corners of Moab,",
         "break": true
       },
-      {
-        "text": "and crush all the sons of Sheth.",
-        "break": true
-      }
+      { "text": "and crush all the sons of Sheth.", "break": true }
     ]
   },
   {
@@ -7184,18 +6725,9 @@
     "chapter": 24,
     "verse": 18,
     "content": [
-      {
-        "text": "Edom shall be a possession.",
-        "break": true
-      },
-      {
-        "text": "Seir, his enemy, also shall be a possession,",
-        "break": true
-      },
-      {
-        "text": "while Israel does valiantly.",
-        "break": true
-      }
+      { "text": "Edom shall be a possession.", "break": true },
+      { "text": "Seir, his enemy, also shall be a possession,", "break": true },
+      { "text": "while Israel does valiantly.", "break": true }
     ]
   },
   {
@@ -7203,10 +6735,7 @@
     "chapter": 24,
     "verse": 19,
     "content": [
-      {
-        "text": "Out of Jacob shall one have dominion,",
-        "break": true
-      },
+      { "text": "Out of Jacob shall one have dominion,", "break": true },
       "and shall destroy the remnant from the city.”"
     ]
   },
@@ -7220,10 +6749,7 @@
         "text": "He looked at Amalek, and took up his parable, and said,",
         "break": true
       },
-      {
-        "text": "“Amalek was the first of the nations,",
-        "break": true
-      },
+      { "text": "“Amalek was the first of the nations,", "break": true },
       "but his latter end shall come to destruction.”"
     ]
   },
@@ -7237,14 +6763,8 @@
         "text": "He looked at the Kenite, and took up his parable, and said,",
         "break": true
       },
-      {
-        "text": "“Your dwelling place is strong.",
-        "break": true
-      },
-      {
-        "text": "Your nest is set in the rock.",
-        "break": true
-      }
+      { "text": "“Your dwelling place is strong.", "break": true },
+      { "text": "Your nest is set in the rock.", "break": true }
     ]
   },
   {
@@ -7252,10 +6772,7 @@
     "chapter": 24,
     "verse": 22,
     "content": [
-      {
-        "text": "Nevertheless Kain shall be wasted,",
-        "break": true
-      },
+      { "text": "Nevertheless Kain shall be wasted,", "break": true },
       "until Asshur carries you away captive.”"
     ]
   },
@@ -7269,10 +6786,7 @@
         "text": "He took up his parable, and said,",
         "break": true
       },
-      {
-        "text": "“Alas, who shall live when God does this?",
-        "break": true
-      }
+      { "text": "“Alas, who shall live when God does this?", "break": true }
     ]
   },
   {
@@ -7367,10 +6881,7 @@
     "book": "NUM",
     "chapter": 25,
     "verse": 10,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -7409,10 +6920,7 @@
     "book": "NUM",
     "chapter": 25,
     "verse": 16,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -7745,10 +7253,7 @@
     "book": "NUM",
     "chapter": 26,
     "verse": 52,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -7928,10 +7433,7 @@
     "book": "NUM",
     "chapter": 27,
     "verse": 15,
-    "content": {
-      "paragraph": true,
-      "text": "Moses spoke to Yahweh, saying,"
-    }
+    "content": { "paragraph": true, "text": "Moses spoke to Yahweh, saying," }
   },
   {
     "book": "NUM",
@@ -7991,10 +7493,7 @@
     "book": "NUM",
     "chapter": 28,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -8623,10 +8122,7 @@
     "book": "NUM",
     "chapter": 31,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -8779,10 +8275,7 @@
     "book": "NUM",
     "chapter": 31,
     "verse": 25,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -9604,10 +9097,7 @@
     "book": "NUM",
     "chapter": 34,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",
@@ -9709,10 +9199,7 @@
     "book": "NUM",
     "chapter": 34,
     "verse": 16,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Moses, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Moses, saying," }
   },
   {
     "book": "NUM",

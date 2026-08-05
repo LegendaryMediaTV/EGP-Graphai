@@ -80,11 +80,31 @@ export async function writeFileAtomic(
 }
 
 /**
+ * Renders `data` as Prettier-formatted JSON text.
+ *
+ * `data` is stringified compact (no indent) before Prettier ever sees it, so
+ * every line-break decision comes from Prettier's own width rules rather than
+ * from `JSON.stringify`'s indent argument. `JSON.stringify(data, null, 2)`
+ * puts a newline after every object's `{`, and Prettier's JSON printer treats
+ * an existing break there as an authored choice to preserve — so indenting
+ * first locks every object onto its own lines regardless of length. Compact
+ * input carries no such signal, letting Prettier collapse anything that fits.
+ * That makes this converge on the same bytes as formatting a file's own raw
+ * text would, so a file built from this is already a fixed point of that
+ * pass too — the two must share this one implementation to keep it that way.
+ *
+ * @param data - Anything JSON-serializable
+ * @returns Prettier-formatted JSON text, newline-terminated
+ */
+export async function formatJsonData(data: unknown): Promise<string> {
+  return prettier.format(JSON.stringify(data) + "\n", { parser: "json" });
+}
+
+/**
  * Writes `data` as Prettier-formatted JSON, or throws naming the file.
  *
- * Formatting runs in-process, with the same call `utils/validate.ts` makes, so
- * the two produce identical bytes and a file this writes is already a fixed
- * point of validation. The bytes reach disk through {@link writeFileAtomic}.
+ * The bytes reach disk through {@link writeFileAtomic}; formatting goes
+ * through {@link formatJsonData}.
  *
  * @param filePath - Where to write
  * @param data - Anything JSON-serializable
@@ -94,10 +114,7 @@ export async function writeJsonFile(
   filePath: string,
   data: unknown
 ): Promise<void> {
-  const contents = await prettier.format(JSON.stringify(data, null, 2) + "\n", {
-    parser: "json",
-  });
-
+  const contents = await formatJsonData(data);
   await writeFileAtomic(filePath, contents);
 }
 

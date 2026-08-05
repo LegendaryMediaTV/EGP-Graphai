@@ -11,10 +11,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -27,14 +24,8 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      {
-        "paragraph": true,
-        "text": "“I have loved you,” says Yahweh."
-      },
-      {
-        "paragraph": true,
-        "text": "Yet you say, “How have you loved us?”"
-      },
+      { "paragraph": true, "text": "“I have loved you,” says Yahweh." },
+      { "paragraph": true, "text": "Yet you say, “How have you loved us?”" },
       {
         "paragraph": true,
         "text": "“Wasn’t Esau Jacob’s brother?” says Yahweh, “Yet I loved Jacob;"
@@ -95,10 +86,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -138,10 +126,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -187,10 +172,7 @@
     "content": [
       {
         "text": "Behold, I will rebuke your offspring,",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " and will spread dung on your faces, even the dung of your feasts; and you will be taken away with it."
     ]

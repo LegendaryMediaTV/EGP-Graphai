@@ -1076,18 +1076,8 @@
     "verse": 16,
     "content": "honora patrem tuum et matrem sicut praecepit tibi Dominus Deus tuus ut longo vivas tempore et bene sit tibi in terra quam Dominus Deus tuus daturus est tibi"
   },
-  {
-    "book": "DEU",
-    "chapter": 5,
-    "verse": 17,
-    "content": "non occides"
-  },
-  {
-    "book": "DEU",
-    "chapter": 5,
-    "verse": 18,
-    "content": "neque moechaberis"
-  },
+  { "book": "DEU", "chapter": 5, "verse": 17, "content": "non occides" },
+  { "book": "DEU", "chapter": 5, "verse": 18, "content": "neque moechaberis" },
   {
     "book": "DEU",
     "chapter": 5,
@@ -2607,10 +2597,7 @@
     "book": "DEU",
     "chapter": 15,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "septimo anno facies remissionem"
-    }
+    "content": { "paragraph": true, "text": "septimo anno facies remissionem" }
   },
   {
     "book": "DEU",

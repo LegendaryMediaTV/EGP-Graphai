@@ -27,17 +27,27 @@ describe("writeJsonFile", () => {
   ];
 
   describe("writeJsonFile", () => {
-    it("should write the same bytes the prettier subprocess produced", async () => {
-      // Every caller used to write JSON.stringify(data, null, 2) + "\n" and
-      // then hand the file to `prettier --write`. Formatting that exact string
-      // in-process has to land on the same bytes or the swap moves the data.
+    it("should write the same bytes as formatting a compact stringify", async () => {
       const file = path.join(dir, "parity.json");
       await writeJsonFile(file, sample);
 
       expect(fs.readFileSync(file, "utf-8")).toBe(
-        await prettier.format(JSON.stringify(sample, null, 2) + "\n", {
+        await prettier.format(JSON.stringify(sample) + "\n", {
           parser: "json",
         })
+      );
+    });
+
+    it("should collapse an object that fits on one line, not force it onto three", async () => {
+      // JSON.stringify(data, null, 2) puts a newline after every `{`, and
+      // Prettier preserves an authored break it's handed rather than
+      // re-deciding from width — so indenting before Prettier sees it would
+      // lock this onto three lines even though it fits comfortably on one.
+      const file = path.join(dir, "short-object.json");
+      await writeJsonFile(file, { subtitle: "in finem psalmus David" });
+
+      expect(fs.readFileSync(file, "utf-8")).toBe(
+        '{ "subtitle": "in finem psalmus David" }\n'
       );
     });
 

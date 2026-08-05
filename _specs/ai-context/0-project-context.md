@@ -1,6 +1,6 @@
 # EGP Graphai - Project Context
 
-> **Updated:** August 3, 2026  
+> **Updated:** August 5, 2026  
 > **Repository:** [LegendaryMediaTV/EGP-Graphai](https://github.com/LegendaryMediaTV/EGP-Graphai)
 
 ## Project Summary
@@ -17,7 +17,18 @@ EGP Graphai (γραφαὶ – "writings" or "scriptures" in Koine Greek) is a c
 - **Validation** – JSON Schema validation ensuring data integrity with automatic key sorting
 - **Cross-Chapter Link Audit** – Detects and fixes `bibleLink` targets that span two chapters of the same book
 
-## Recent Changes (Cross-Chapter Link Audit)
+## Recent Changes (Acrostic Heading Node)
+
+- **Heading `type` Discriminator** – The heading content node gains an optional `type: "standard" | "acrostic"` (default `"standard"`), mirroring the existing `Footnote.type` pattern; added to [content-schema.json](../../content-schema.json) and [types/Content.ts](../../types/Content.ts)'s `ContentHeading`
+- **Distinct Rendering** – Acrostic headings render one heading level smaller in markdown (`####` vs. `###`), with a triple-bracket marker in text export (`[[[...]]]` vs. `[[...]]`), and one Tailwind size step smaller in the web reader (`h4`/`text-lg` vs. `h3`/`text-xl`) — see [utils/exportContent.ts](../../utils/exportContent.ts) and [web/public/js/ContentNode.js](../../web/public/js/ContentNode.js)
+- **Shared Visibility Toggle** – Acrostic headings are governed by the same "Show Headings" setting as standard ones; no new toggle was added
+- **Real Data Tagged** – All 66 existing acrostic stanza-marker headings (22 each) across WEBUS2020, KJV1769, and CLV1880's Psalm 119 now carry `"type": "acrostic"` — confirmed by exhaustive scan to be the only heading nodes anywhere in the Psalms corpus; ASV1901, YLT1898, and BYZ2018 had none to tag
+- **JSON Write Pipeline Fixed** – [functions/writeJsonFile.ts](../../functions/writeJsonFile.ts) stringified with an indent argument before handing text to Prettier, which locked every object onto its own lines regardless of length (Prettier preserves a pre-existing line break rather than re-deriving it from width). Now stringifies compact first via a shared `formatJsonData()` helper, which [utils/validate.ts](../../utils/validate.ts)'s own formatting pass also calls — so both paths always converge on the same width-driven canonical form instead of possibly drifting
+- **Whole Corpus Reformatted** – Running the fixed `npm run validate` once reformatted 208 files; verified value-for-value against Git history that every change was pure whitespace except the five files with the acrostic-heading edits above, which changed by exactly the intended amount and nothing else
+- **Test Coverage Added** – 11 new tests (4 for the schema addition, 1 for key-sort coverage, 5 for export rendering, 1 regression test pinning the compact-stringify fix), bringing the suite to 187 tests across 8 files
+- See [4-domains/content-verses.md](4-domains/content-verses.md#heading-types) for the acrostic heading domain detail and [data-pipeline.md](../documentation/EGP-Graphai/data-pipeline.md#writing-files) for the write-pipeline fix
+
+## Previous Changes (Cross-Chapter Link Audit)
 
 - **New Rule Owner** – [utils/crossChapterLinks.ts](../../utils/crossChapterLinks.ts) classifies every `bibleLink` target shape (`singleChapter`, `crossChapterRange`, `wholeChapterRange`, `mergedTarget`, `unparsed`) and splits a genuine cross-chapter range into two chapter-scoped links joined by an en dash
 - **New Corpus Sweep & CLI** – [utils/auditCrossChapterLinks.ts](../../utils/auditCrossChapterLinks.ts) audits every version (dry-run by default) and writes fixes only when run with `--fix`; exits non-zero on any unsplit finding so it can gate CI like `validate.ts`
@@ -260,13 +271,14 @@ window.ComponentName = ComponentName;
 
 ## Test Status
 
-✅ **176 tests passing** (Vitest):
+✅ **187 tests passing** (Vitest):
 
+- `functions/__tests__/contentSchema.test.ts` – 4 tests for the heading `type` schema addition
 - `functions/__tests__/convertToSmallCaps.test.ts` – 40 tests for small caps conversion
-- `functions/__tests__/sortContentKeys.test.ts` – 26 tests for key ordering
+- `functions/__tests__/sortContentKeys.test.ts` – 27 tests for key ordering
 - `functions/__tests__/getBibleVersions.test.ts` – 17 tests for version discovery
-- `functions/__tests__/writeJsonFile.test.ts` – 9 tests for atomic file writes
-- `utils/__tests__/exportContent.test.ts` – 45 tests for export functionality
+- `functions/__tests__/writeJsonFile.test.ts` – 10 tests for atomic file writes and JSON canonicalization
+- `utils/__tests__/exportContent.test.ts` – 50 tests for export functionality
 - `utils/__tests__/crossChapterLinks.test.ts` – 31 tests for cross-chapter target classification and splitting
 - `utils/__tests__/auditCrossChapterLinks.test.ts` – 8 tests for the corpus-wide sweep and CLI
 

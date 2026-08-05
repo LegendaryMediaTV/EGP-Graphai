@@ -25,10 +25,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -59,10 +56,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -87,20 +81,14 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
       },
       {
         "text": " I have set the land before you. Go in and possess the land which Yahweh swore to your fathers—to Abraham, to Isaac, and to Jacob—to give to them and to their offspring",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " after them.’ ”"
     ]
@@ -379,10 +367,7 @@
     "book": "DEU",
     "chapter": 2,
     "verse": 2,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to me, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to me, saying," }
   },
   {
     "book": "DEU",
@@ -1265,28 +1250,19 @@
     "book": "DEU",
     "chapter": 5,
     "verse": 17,
-    "content": {
-      "paragraph": true,
-      "text": "“You shall not murder."
-    }
+    "content": { "paragraph": true, "text": "“You shall not murder." }
   },
   {
     "book": "DEU",
     "chapter": 5,
     "verse": 18,
-    "content": {
-      "paragraph": true,
-      "text": "“You shall not commit adultery."
-    }
+    "content": { "paragraph": true, "text": "“You shall not commit adultery." }
   },
   {
     "book": "DEU",
     "chapter": 5,
     "verse": 19,
-    "content": {
-      "paragraph": true,
-      "text": "“You shall not steal."
-    }
+    "content": { "paragraph": true, "text": "“You shall not steal." }
   },
   {
     "book": "DEU",
@@ -3954,10 +3930,7 @@
       {
         "paragraph": true,
         "text": "You shall make yourselves fringes",
-        "foot": {
-          "type": "trn",
-          "content": "or, tassels"
-        }
+        "foot": { "type": "trn", "content": "or, tassels" }
       },
       " on the four corners of your cloak with which you cover yourself."
     ]
@@ -4218,10 +4191,7 @@
     "content": [
       {
         "text": "You shall not bring the hire of a prostitute, or the wages of a male prostitute,",
-        "foot": {
-          "type": "trn",
-          "content": "Literally, dog"
-        }
+        "foot": { "type": "trn", "content": "Literally, dog" }
       },
       " into the house of Yahweh your God for any vow; for both of these are an abomination to Yahweh your God."
     ]
@@ -4605,10 +4575,7 @@
     "content": [
       {
         "text": "You shall answer and say before Yahweh your God, “My father",
-        "foot": {
-          "type": "trn",
-          "content": "or, forefather"
-        }
+        "foot": { "type": "trn", "content": "or, forefather" }
       },
       " was a Syrian ready to perish. He went down into Egypt, and lived there, few in number. There he became a great, mighty, and populous nation."
     ]
@@ -4817,10 +4784,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who dishonors his father or his mother.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4832,10 +4796,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who removes his neighbor’s landmark.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4847,10 +4808,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who leads the blind astray on the road.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4862,10 +4820,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who withholds justice from the foreigner, fatherless, and widow.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4876,16 +4831,10 @@
       {
         "paragraph": true,
         "text": "‘Cursed is he who lies with",
-        "foot": {
-          "type": "stu",
-          "content": "i.e., has sexual relations with"
-        }
+        "foot": { "type": "stu", "content": "i.e., has sexual relations with" }
       },
       " his father’s wife, because he dishonors his father’s bed.’",
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4897,10 +4846,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who lies with any kind of animal.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4912,10 +4858,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who lies with his sister, his father’s daughter or his mother’s daughter.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4927,10 +4870,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who lies with his mother-in-law.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4942,10 +4882,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who secretly kills his neighbor.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4957,10 +4894,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who takes a bribe to kill an innocent person.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’" }
     ]
   },
   {
@@ -4972,10 +4906,7 @@
         "paragraph": true,
         "text": "‘Cursed is he who doesn’t uphold the words of this law by doing them.’"
       },
-      {
-        "paragraph": true,
-        "text": "All the people shall say, ‘Amen.’ ”"
-      }
+      { "paragraph": true, "text": "All the people shall say, ‘Amen.’ ”" }
     ]
   },
   {
@@ -5939,10 +5870,7 @@
         "text": "Give ear, you heavens, and I will speak.",
         "break": true
       },
-      {
-        "text": "Let the earth hear the words of my mouth.",
-        "break": true
-      }
+      { "text": "Let the earth hear the words of my mouth.", "break": true }
     ]
   },
   {
@@ -5950,22 +5878,10 @@
     "chapter": 32,
     "verse": 2,
     "content": [
-      {
-        "text": "My doctrine will drop as the rain.",
-        "break": true
-      },
-      {
-        "text": "My speech will condense as the dew,",
-        "break": true
-      },
-      {
-        "text": "as the misty rain on the tender grass,",
-        "break": true
-      },
-      {
-        "text": "as the showers on the herb.",
-        "break": true
-      }
+      { "text": "My doctrine will drop as the rain.", "break": true },
+      { "text": "My speech will condense as the dew,", "break": true },
+      { "text": "as the misty rain on the tender grass,", "break": true },
+      { "text": "as the showers on the herb.", "break": true }
     ]
   },
   {
@@ -5973,14 +5889,8 @@
     "chapter": 32,
     "verse": 3,
     "content": [
-      {
-        "text": "For I will proclaim Yahweh’s name.",
-        "break": true
-      },
-      {
-        "text": "Ascribe greatness to our God!",
-        "break": true
-      }
+      { "text": "For I will proclaim Yahweh’s name.", "break": true },
+      { "text": "Ascribe greatness to our God!", "break": true }
     ]
   },
   {
@@ -5988,22 +5898,10 @@
     "chapter": 32,
     "verse": 4,
     "content": [
-      {
-        "text": "The Rock: his work is perfect,",
-        "break": true
-      },
-      {
-        "text": "for all his ways are just.",
-        "break": true
-      },
-      {
-        "text": "A God of faithfulness who does no wrong,",
-        "break": true
-      },
-      {
-        "text": "just and right is he.",
-        "break": true
-      }
+      { "text": "The Rock: his work is perfect,", "break": true },
+      { "text": "for all his ways are just.", "break": true },
+      { "text": "A God of faithfulness who does no wrong,", "break": true },
+      { "text": "just and right is he.", "break": true }
     ]
   },
   {
@@ -6011,18 +5909,12 @@
     "chapter": 32,
     "verse": 5,
     "content": [
-      {
-        "text": "They have dealt corruptly with him.",
-        "break": true
-      },
+      { "text": "They have dealt corruptly with him.", "break": true },
       {
         "text": "They are not his children, because of their defect.",
         "break": true
       },
-      {
-        "text": "They are a perverse and crooked generation.",
-        "break": true
-      }
+      { "text": "They are a perverse and crooked generation.", "break": true }
     ]
   },
   {
@@ -6030,22 +5922,10 @@
     "chapter": 32,
     "verse": 6,
     "content": [
-      {
-        "text": "Is this the way you repay Yahweh,",
-        "break": true
-      },
-      {
-        "text": "foolish and unwise people?",
-        "break": true
-      },
-      {
-        "text": "Isn’t he your father who has bought you?",
-        "break": true
-      },
-      {
-        "text": "He has made you and established you.",
-        "break": true
-      }
+      { "text": "Is this the way you repay Yahweh,", "break": true },
+      { "text": "foolish and unwise people?", "break": true },
+      { "text": "Isn’t he your father who has bought you?", "break": true },
+      { "text": "He has made you and established you.", "break": true }
     ]
   },
   {
@@ -6053,22 +5933,10 @@
     "chapter": 32,
     "verse": 7,
     "content": [
-      {
-        "text": "Remember the days of old.",
-        "break": true
-      },
-      {
-        "text": "Consider the years of many generations.",
-        "break": true
-      },
-      {
-        "text": "Ask your father, and he will show you;",
-        "break": true
-      },
-      {
-        "text": "your elders, and they will tell you.",
-        "break": true
-      }
+      { "text": "Remember the days of old.", "break": true },
+      { "text": "Consider the years of many generations.", "break": true },
+      { "text": "Ask your father, and he will show you;", "break": true },
+      { "text": "your elders, and they will tell you.", "break": true }
     ]
   },
   {
@@ -6080,14 +5948,8 @@
         "text": "When the Most High gave to the nations their inheritance,",
         "break": true
       },
-      {
-        "text": "when he separated the children of men,",
-        "break": true
-      },
-      {
-        "text": "he set the bounds of the peoples",
-        "break": true
-      },
+      { "text": "when he separated the children of men,", "break": true },
+      { "text": "he set the bounds of the peoples", "break": true },
       {
         "text": "according to the number of the children of Israel.",
         "break": true
@@ -6099,14 +5961,8 @@
     "chapter": 32,
     "verse": 9,
     "content": [
-      {
-        "text": "For Yahweh’s portion is his people.",
-        "break": true
-      },
-      {
-        "text": "Jacob is the lot of his inheritance.",
-        "break": true
-      }
+      { "text": "For Yahweh’s portion is his people.", "break": true },
+      { "text": "Jacob is the lot of his inheritance.", "break": true }
     ]
   },
   {
@@ -6114,26 +5970,11 @@
     "chapter": 32,
     "verse": 10,
     "content": [
-      {
-        "text": "He found him in a desert land,",
-        "break": true
-      },
-      {
-        "text": "in the waste howling wilderness.",
-        "break": true
-      },
-      {
-        "text": "He surrounded him.",
-        "break": true
-      },
-      {
-        "text": "He cared for him.",
-        "break": true
-      },
-      {
-        "text": "He kept him as the apple of his eye.",
-        "break": true
-      }
+      { "text": "He found him in a desert land,", "break": true },
+      { "text": "in the waste howling wilderness.", "break": true },
+      { "text": "He surrounded him.", "break": true },
+      { "text": "He cared for him.", "break": true },
+      { "text": "He kept him as the apple of his eye.", "break": true }
     ]
   },
   {
@@ -6141,26 +5982,11 @@
     "chapter": 32,
     "verse": 11,
     "content": [
-      {
-        "text": "As an eagle that stirs up her nest,",
-        "break": true
-      },
-      {
-        "text": "that flutters over her young,",
-        "break": true
-      },
-      {
-        "text": "he spread abroad his wings,",
-        "break": true
-      },
-      {
-        "text": "he took them,",
-        "break": true
-      },
-      {
-        "text": "he bore them on his feathers.",
-        "break": true
-      }
+      { "text": "As an eagle that stirs up her nest,", "break": true },
+      { "text": "that flutters over her young,", "break": true },
+      { "text": "he spread abroad his wings,", "break": true },
+      { "text": "he took them,", "break": true },
+      { "text": "he bore them on his feathers.", "break": true }
     ]
   },
   {
@@ -6168,14 +5994,8 @@
     "chapter": 32,
     "verse": 12,
     "content": [
-      {
-        "text": "Yahweh alone led him.",
-        "break": true
-      },
-      {
-        "text": "There was no foreign god with him.",
-        "break": true
-      }
+      { "text": "Yahweh alone led him.", "break": true },
+      { "text": "There was no foreign god with him.", "break": true }
     ]
   },
   {
@@ -6187,18 +6007,9 @@
         "text": "He made him ride on the high places of the earth.",
         "break": true
       },
-      {
-        "text": "He ate the increase of the field.",
-        "break": true
-      },
-      {
-        "text": "He caused him to suck honey out of the rock,",
-        "break": true
-      },
-      {
-        "text": "oil out of the flinty rock;",
-        "break": true
-      }
+      { "text": "He ate the increase of the field.", "break": true },
+      { "text": "He caused him to suck honey out of the rock,", "break": true },
+      { "text": "oil out of the flinty rock;", "break": true }
     ]
   },
   {
@@ -6210,22 +6021,10 @@
         "text": "butter from the herd, and milk from the flock,",
         "break": true
       },
-      {
-        "text": "with fat of lambs,",
-        "break": true
-      },
-      {
-        "text": "rams of the breed of Bashan, and goats,",
-        "break": true
-      },
-      {
-        "text": "with the finest of the wheat.",
-        "break": true
-      },
-      {
-        "text": "From the blood of the grape, you drank wine.",
-        "break": true
-      }
+      { "text": "with fat of lambs,", "break": true },
+      { "text": "rams of the breed of Bashan, and goats,", "break": true },
+      { "text": "with the finest of the wheat.", "break": true },
+      { "text": "From the blood of the grape, you drank wine.", "break": true }
     ]
   },
   {
@@ -6233,30 +6032,12 @@
     "chapter": 32,
     "verse": 15,
     "content": [
-      {
-        "text": "But Jeshurun grew fat, and kicked.",
-        "break": true
-      },
-      {
-        "text": "You have grown fat.",
-        "break": true
-      },
-      {
-        "text": "You have grown thick.",
-        "break": true
-      },
-      {
-        "text": "You have become sleek.",
-        "break": true
-      },
-      {
-        "text": "Then he abandoned God who made him,",
-        "break": true
-      },
-      {
-        "text": "and rejected the Rock of his salvation.",
-        "break": true
-      }
+      { "text": "But Jeshurun grew fat, and kicked.", "break": true },
+      { "text": "You have grown fat.", "break": true },
+      { "text": "You have grown thick.", "break": true },
+      { "text": "You have become sleek.", "break": true },
+      { "text": "Then he abandoned God who made him,", "break": true },
+      { "text": "and rejected the Rock of his salvation.", "break": true }
     ]
   },
   {
@@ -6268,10 +6049,7 @@
         "text": "They moved him to jealousy with strange gods.",
         "break": true
       },
-      {
-        "text": "They provoked him to anger with abominations.",
-        "break": true
-      }
+      { "text": "They provoked him to anger with abominations.", "break": true }
     ]
   },
   {
@@ -6279,22 +6057,10 @@
     "chapter": 32,
     "verse": 17,
     "content": [
-      {
-        "text": "They sacrificed to demons, not God,",
-        "break": true
-      },
-      {
-        "text": "to gods that they didn’t know,",
-        "break": true
-      },
-      {
-        "text": "to new gods that came up recently,",
-        "break": true
-      },
-      {
-        "text": "which your fathers didn’t dread.",
-        "break": true
-      }
+      { "text": "They sacrificed to demons, not God,", "break": true },
+      { "text": "to gods that they didn’t know,", "break": true },
+      { "text": "to new gods that came up recently,", "break": true },
+      { "text": "which your fathers didn’t dread.", "break": true }
     ]
   },
   {
@@ -6306,10 +6072,7 @@
         "text": "Of the Rock who became your father, you are unmindful,",
         "break": true
       },
-      {
-        "text": "and have forgotten God who gave you birth.",
-        "break": true
-      }
+      { "text": "and have forgotten God who gave you birth.", "break": true }
     ]
   },
   {
@@ -6317,10 +6080,7 @@
     "chapter": 32,
     "verse": 19,
     "content": [
-      {
-        "text": "Yahweh saw and abhorred,",
-        "break": true
-      },
+      { "text": "Yahweh saw and abhorred,", "break": true },
       {
         "text": "because of the provocation of his sons and his daughters.",
         "break": true
@@ -6332,22 +6092,10 @@
     "chapter": 32,
     "verse": 20,
     "content": [
-      {
-        "text": "He said, “I will hide my face from them.",
-        "break": true
-      },
-      {
-        "text": "I will see what their end will be;",
-        "break": true
-      },
-      {
-        "text": "for they are a very perverse generation,",
-        "break": true
-      },
-      {
-        "text": "children in whom is no faithfulness.",
-        "break": true
-      }
+      { "text": "He said, “I will hide my face from them.", "break": true },
+      { "text": "I will see what their end will be;", "break": true },
+      { "text": "for they are a very perverse generation,", "break": true },
+      { "text": "children in whom is no faithfulness.", "break": true }
     ]
   },
   {
@@ -6378,22 +6126,13 @@
     "chapter": 32,
     "verse": 22,
     "content": [
-      {
-        "text": "For a fire is kindled in my anger,",
-        "break": true
-      },
+      { "text": "For a fire is kindled in my anger,", "break": true },
       {
         "text": "that burns to the lowest Sheol,",
         "break": true,
-        "foot": {
-          "type": "stu",
-          "content": "Sheol is the place of the dead."
-        }
+        "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
-      {
-        "text": "devours the earth with its increase,",
-        "break": true
-      },
+      { "text": "devours the earth with its increase,", "break": true },
       "and sets the foundations of the mountains on fire."
     ]
   },
@@ -6407,10 +6146,7 @@
         "text": "“I will heap evils on them.",
         "break": true
       },
-      {
-        "text": "I will spend my arrows on them.",
-        "break": true
-      }
+      { "text": "I will spend my arrows on them.", "break": true }
     ]
   },
   {
@@ -6418,22 +6154,10 @@
     "chapter": 32,
     "verse": 24,
     "content": [
-      {
-        "text": "They shall be wasted with hunger,",
-        "break": true
-      },
-      {
-        "text": "and devoured with burning heat",
-        "break": true
-      },
-      {
-        "text": "and bitter destruction.",
-        "break": true
-      },
-      {
-        "text": "I will send the teeth of animals on them,",
-        "break": true
-      },
+      { "text": "They shall be wasted with hunger,", "break": true },
+      { "text": "and devoured with burning heat", "break": true },
+      { "text": "and bitter destruction.", "break": true },
+      { "text": "I will send the teeth of animals on them,", "break": true },
       {
         "text": "with the venom of vipers that glide in the dust.",
         "break": true
@@ -6445,22 +6169,10 @@
     "chapter": 32,
     "verse": 25,
     "content": [
-      {
-        "text": "Outside the sword will bereave,",
-        "break": true
-      },
-      {
-        "text": "and in the rooms,",
-        "break": true
-      },
-      {
-        "text": "terror on both young man and virgin,",
-        "break": true
-      },
-      {
-        "text": "the nursing infant with the gray-haired man.",
-        "break": true
-      }
+      { "text": "Outside the sword will bereave,", "break": true },
+      { "text": "and in the rooms,", "break": true },
+      { "text": "terror on both young man and virgin,", "break": true },
+      { "text": "the nursing infant with the gray-haired man.", "break": true }
     ]
   },
   {
@@ -6468,10 +6180,7 @@
     "chapter": 32,
     "verse": 26,
     "content": [
-      {
-        "text": "I said that I would scatter them afar.",
-        "break": true
-      },
+      { "text": "I said that I would scatter them afar.", "break": true },
       {
         "text": "I would make their memory to cease from among men;",
         "break": true
@@ -6487,14 +6196,8 @@
         "text": "were it not that I feared the provocation of the enemy,",
         "break": true
       },
-      {
-        "text": "lest their adversaries should judge wrongly,",
-        "break": true
-      },
-      {
-        "text": "lest they should say, ‘Our hand is exalted;",
-        "break": true
-      },
+      { "text": "lest their adversaries should judge wrongly,", "break": true },
+      { "text": "lest they should say, ‘Our hand is exalted;", "break": true },
       "Yahweh has not done all this.’ ”"
     ]
   },
@@ -6508,10 +6211,7 @@
         "text": "For they are a nation void of counsel.",
         "break": true
       },
-      {
-        "text": "There is no understanding in them.",
-        "break": true
-      }
+      { "text": "There is no understanding in them.", "break": true }
     ]
   },
   {
@@ -6523,10 +6223,7 @@
         "text": "Oh that they were wise, that they understood this,",
         "break": true
       },
-      {
-        "text": "that they would consider their latter end!",
-        "break": true
-      }
+      { "text": "that they would consider their latter end!", "break": true }
     ]
   },
   {
@@ -6534,22 +6231,10 @@
     "chapter": 32,
     "verse": 30,
     "content": [
-      {
-        "text": "How could one chase a thousand,",
-        "break": true
-      },
-      {
-        "text": "and two put ten thousand to flight,",
-        "break": true
-      },
-      {
-        "text": "unless their Rock had sold them,",
-        "break": true
-      },
-      {
-        "text": "and Yahweh had delivered them up?",
-        "break": true
-      }
+      { "text": "How could one chase a thousand,", "break": true },
+      { "text": "and two put ten thousand to flight,", "break": true },
+      { "text": "unless their Rock had sold them,", "break": true },
+      { "text": "and Yahweh had delivered them up?", "break": true }
     ]
   },
   {
@@ -6557,14 +6242,8 @@
     "chapter": 32,
     "verse": 31,
     "content": [
-      {
-        "text": "For their rock is not as our Rock,",
-        "break": true
-      },
-      {
-        "text": "even our enemies themselves concede.",
-        "break": true
-      }
+      { "text": "For their rock is not as our Rock,", "break": true },
+      { "text": "even our enemies themselves concede.", "break": true }
     ]
   },
   {
@@ -6572,22 +6251,10 @@
     "chapter": 32,
     "verse": 32,
     "content": [
-      {
-        "text": "For their vine is of the vine of Sodom,",
-        "break": true
-      },
-      {
-        "text": "of the fields of Gomorrah.",
-        "break": true
-      },
-      {
-        "text": "Their grapes are poison grapes.",
-        "break": true
-      },
-      {
-        "text": "Their clusters are bitter.",
-        "break": true
-      }
+      { "text": "For their vine is of the vine of Sodom,", "break": true },
+      { "text": "of the fields of Gomorrah.", "break": true },
+      { "text": "Their grapes are poison grapes.", "break": true },
+      { "text": "Their clusters are bitter.", "break": true }
     ]
   },
   {
@@ -6595,10 +6262,7 @@
     "chapter": 32,
     "verse": 33,
     "content": [
-      {
-        "text": "Their wine is the poison of serpents,",
-        "break": true
-      },
+      { "text": "Their wine is the poison of serpents,", "break": true },
       "the cruel venom of asps."
     ]
   },
@@ -6612,10 +6276,7 @@
         "text": "“Isn’t this laid up in store with me,",
         "break": true
       },
-      {
-        "text": "sealed up among my treasures?",
-        "break": true
-      }
+      { "text": "sealed up among my treasures?", "break": true }
     ]
   },
   {
@@ -6623,18 +6284,9 @@
     "chapter": 32,
     "verse": 35,
     "content": [
-      {
-        "text": "Vengeance is mine, and recompense,",
-        "break": true
-      },
-      {
-        "text": "at the time when their foot slides,",
-        "break": true
-      },
-      {
-        "text": "for the day of their calamity is at hand.",
-        "break": true
-      },
+      { "text": "Vengeance is mine, and recompense,", "break": true },
+      { "text": "at the time when their foot slides,", "break": true },
+      { "text": "for the day of their calamity is at hand.", "break": true },
       "Their doom rushes at them.”"
     ]
   },
@@ -6648,14 +6300,8 @@
         "text": "For Yahweh will judge his people,",
         "break": true
       },
-      {
-        "text": "and have compassion on his servants,",
-        "break": true
-      },
-      {
-        "text": "when he sees that their power is gone,",
-        "break": true
-      },
+      { "text": "and have compassion on his servants,", "break": true },
+      { "text": "when he sees that their power is gone,", "break": true },
       {
         "text": "that there is no one remaining, shut up or left at large.",
         "break": true
@@ -6667,14 +6313,8 @@
     "chapter": 32,
     "verse": 37,
     "content": [
-      {
-        "text": "He will say, “Where are their gods,",
-        "break": true
-      },
-      {
-        "text": "the rock in which they took refuge,",
-        "break": true
-      }
+      { "text": "He will say, “Where are their gods,", "break": true },
+      { "text": "the rock in which they took refuge,", "break": true }
     ]
   },
   {
@@ -6682,18 +6322,9 @@
     "chapter": 32,
     "verse": 38,
     "content": [
-      {
-        "text": "which ate the fat of their sacrifices,",
-        "break": true
-      },
-      {
-        "text": "and drank the wine of their drink offering?",
-        "break": true
-      },
-      {
-        "text": "Let them rise up and help you!",
-        "break": true
-      },
+      { "text": "which ate the fat of their sacrifices,", "break": true },
+      { "text": "and drank the wine of their drink offering?", "break": true },
+      { "text": "Let them rise up and help you!", "break": true },
       "Let them be your protection."
     ]
   },
@@ -6707,18 +6338,9 @@
         "text": "“See now that I myself am he.",
         "break": true
       },
-      {
-        "text": "There is no god with me.",
-        "break": true
-      },
-      {
-        "text": "I kill and I make alive.",
-        "break": true
-      },
-      {
-        "text": "I wound and I heal.",
-        "break": true
-      },
+      { "text": "There is no god with me.", "break": true },
+      { "text": "I kill and I make alive.", "break": true },
+      { "text": "I wound and I heal.", "break": true },
       {
         "text": "There is no one who can deliver out of my hand.",
         "break": true
@@ -6730,14 +6352,8 @@
     "chapter": 32,
     "verse": 40,
     "content": [
-      {
-        "text": "For I lift up my hand to heaven and declare,",
-        "break": true
-      },
-      {
-        "text": "as I live forever,",
-        "break": true
-      }
+      { "text": "For I lift up my hand to heaven and declare,", "break": true },
+      { "text": "as I live forever,", "break": true }
     ]
   },
   {
@@ -6745,22 +6361,10 @@
     "chapter": 32,
     "verse": 41,
     "content": [
-      {
-        "text": "if I sharpen my glittering sword,",
-        "break": true
-      },
-      {
-        "text": "my hand grasps it in judgment;",
-        "break": true
-      },
-      {
-        "text": "I will take vengeance on my adversaries,",
-        "break": true
-      },
-      {
-        "text": "and will repay those who hate me.",
-        "break": true
-      }
+      { "text": "if I sharpen my glittering sword,", "break": true },
+      { "text": "my hand grasps it in judgment;", "break": true },
+      { "text": "I will take vengeance on my adversaries,", "break": true },
+      { "text": "and will repay those who hate me.", "break": true }
     ]
   },
   {
@@ -6768,10 +6372,7 @@
     "chapter": 32,
     "verse": 42,
     "content": [
-      {
-        "text": "I will make my arrows drunk with blood.",
-        "break": true
-      },
+      { "text": "I will make my arrows drunk with blood.", "break": true },
       {
         "text": "My sword shall devour flesh with the blood of the slain and the captives,",
         "break": true
@@ -6793,10 +6394,7 @@
         "text": "for he will avenge the blood of his servants.",
         "break": true
       },
-      {
-        "text": "He will take vengeance on his adversaries,",
-        "break": true
-      },
+      { "text": "He will take vengeance on his adversaries,", "break": true },
       {
         "text": "and will make atonement for his land and for his people.",
         "foot": {
@@ -6880,26 +6478,11 @@
     "chapter": 33,
     "verse": 2,
     "content": [
-      {
-        "text": "He said,",
-        "break": true
-      },
-      {
-        "text": "“Yahweh came from Sinai,",
-        "break": true
-      },
-      {
-        "text": "and rose from Seir to them.",
-        "break": true
-      },
-      {
-        "text": "He shone from Mount Paran.",
-        "break": true
-      },
-      {
-        "text": "He came from the ten thousands of holy ones.",
-        "break": true
-      },
+      { "text": "He said,", "break": true },
+      { "text": "“Yahweh came from Sinai,", "break": true },
+      { "text": "and rose from Seir to them.", "break": true },
+      { "text": "He shone from Mount Paran.", "break": true },
+      { "text": "He came from the ten thousands of holy ones.", "break": true },
       {
         "text": "At his right hand was a fiery law for them.",
         "break": true,
@@ -6915,22 +6498,10 @@
     "chapter": 33,
     "verse": 3,
     "content": [
-      {
-        "text": "Yes, he loves the people.",
-        "break": true
-      },
-      {
-        "text": "All his saints are in your hand.",
-        "break": true
-      },
-      {
-        "text": "They sat down at your feet.",
-        "break": true
-      },
-      {
-        "text": "Each receives your words.",
-        "break": true
-      }
+      { "text": "Yes, he loves the people.", "break": true },
+      { "text": "All his saints are in your hand.", "break": true },
+      { "text": "They sat down at your feet.", "break": true },
+      { "text": "Each receives your words.", "break": true }
     ]
   },
   {
@@ -6938,14 +6509,8 @@
     "chapter": 33,
     "verse": 4,
     "content": [
-      {
-        "text": "Moses commanded us a law,",
-        "break": true
-      },
-      {
-        "text": "an inheritance for the assembly of Jacob.",
-        "break": true
-      }
+      { "text": "Moses commanded us a law,", "break": true },
+      { "text": "an inheritance for the assembly of Jacob.", "break": true }
     ]
   },
   {
@@ -6953,14 +6518,8 @@
     "chapter": 33,
     "verse": 5,
     "content": [
-      {
-        "text": "He was king in Jeshurun,",
-        "break": true
-      },
-      {
-        "text": "when the heads of the people were gathered,",
-        "break": true
-      },
+      { "text": "He was king in Jeshurun,", "break": true },
+      { "text": "when the heads of the people were gathered,", "break": true },
       "all the tribes of Israel together."
     ]
   },
@@ -6987,18 +6546,9 @@
         "text": "This is for Judah. He said,",
         "break": true
       },
-      {
-        "text": "“Hear, Yahweh, the voice of Judah.",
-        "break": true
-      },
-      {
-        "text": "Bring him in to his people.",
-        "break": true
-      },
-      {
-        "text": "With his hands he contended for himself.",
-        "break": true
-      },
+      { "text": "“Hear, Yahweh, the voice of Judah.", "break": true },
+      { "text": "Bring him in to his people.", "break": true },
+      { "text": "With his hands he contended for himself.", "break": true },
       "You shall be a help against his adversaries.”"
     ]
   },
@@ -7007,19 +6557,12 @@
     "chapter": 33,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": "About Levi he said,",
-        "break": true
-      },
+      { "paragraph": true, "text": "About Levi he said,", "break": true },
       {
         "text": "“Your Thummim and your Urim are with your godly one,",
         "break": true
       },
-      {
-        "text": "whom you proved at Massah,",
-        "break": true
-      },
+      { "text": "whom you proved at Massah,", "break": true },
       {
         "text": "with whom you contended at the waters of Meribah.",
         "break": true
@@ -7035,22 +6578,10 @@
         "text": "He said of his father, and of his mother, ‘I have not seen him.’",
         "break": true
       },
-      {
-        "text": "He didn’t acknowledge his brothers,",
-        "break": true
-      },
-      {
-        "text": "nor did he know his own children;",
-        "break": true
-      },
-      {
-        "text": "for they have observed your word,",
-        "break": true
-      },
-      {
-        "text": "and keep your covenant.",
-        "break": true
-      }
+      { "text": "He didn’t acknowledge his brothers,", "break": true },
+      { "text": "nor did he know his own children;", "break": true },
+      { "text": "for they have observed your word,", "break": true },
+      { "text": "and keep your covenant.", "break": true }
     ]
   },
   {
@@ -7058,22 +6589,10 @@
     "chapter": 33,
     "verse": 10,
     "content": [
-      {
-        "text": "They shall teach Jacob your ordinances,",
-        "break": true
-      },
-      {
-        "text": "and Israel your law.",
-        "break": true
-      },
-      {
-        "text": "They shall put incense before you,",
-        "break": true
-      },
-      {
-        "text": "and whole burnt offering on your altar.",
-        "break": true
-      }
+      { "text": "They shall teach Jacob your ordinances,", "break": true },
+      { "text": "and Israel your law.", "break": true },
+      { "text": "They shall put incense before you,", "break": true },
+      { "text": "and whole burnt offering on your altar.", "break": true }
     ]
   },
   {
@@ -7081,14 +6600,8 @@
     "chapter": 33,
     "verse": 11,
     "content": [
-      {
-        "text": "Yahweh, bless his skills.",
-        "break": true
-      },
-      {
-        "text": "Accept the work of his hands.",
-        "break": true
-      },
+      { "text": "Yahweh, bless his skills.", "break": true },
+      { "text": "Accept the work of his hands.", "break": true },
       {
         "text": "Strike through the hips of those who rise up against him,",
         "break": true
@@ -7101,19 +6614,12 @@
     "chapter": 33,
     "verse": 12,
     "content": [
-      {
-        "paragraph": true,
-        "text": "About Benjamin he said,",
-        "break": true
-      },
+      { "paragraph": true, "text": "About Benjamin he said,", "break": true },
       {
         "text": "“The beloved of Yahweh will dwell in safety by him.",
         "break": true
       },
-      {
-        "text": "He covers him all day long.",
-        "break": true
-      },
+      { "text": "He covers him all day long.", "break": true },
       "He dwells between his shoulders.”"
     ]
   },
@@ -7122,23 +6628,13 @@
     "chapter": 33,
     "verse": 13,
     "content": [
-      {
-        "paragraph": true,
-        "text": "About Joseph he said,",
-        "break": true
-      },
-      {
-        "text": "“His land is blessed by Yahweh,",
-        "break": true
-      },
+      { "paragraph": true, "text": "About Joseph he said,", "break": true },
+      { "text": "“His land is blessed by Yahweh,", "break": true },
       {
         "text": "for the precious things of the heavens, for the dew,",
         "break": true
       },
-      {
-        "text": "for the deep that couches beneath,",
-        "break": true
-      }
+      { "text": "for the deep that couches beneath,", "break": true }
     ]
   },
   {
@@ -7187,17 +6683,12 @@
           "type": "stu",
           "content": [
             "i.e., the burning bush of ",
-            {
-              "bibleLink": "Exodus 3:3–4"
-            },
+            { "bibleLink": "Exodus 3:3–4" },
             "."
           ]
         }
       },
-      {
-        "text": "Let this come on the head of Joseph,",
-        "break": true
-      },
+      { "text": "Let this come on the head of Joseph,", "break": true },
       {
         "text": "on the crown of the head of him who was separated from his brothers.",
         "break": true
@@ -7213,18 +6704,12 @@
         "text": "Majesty belongs to the firstborn of his herd.",
         "break": true
       },
-      {
-        "text": "His horns are the horns of the wild ox.",
-        "break": true
-      },
+      { "text": "His horns are the horns of the wild ox.", "break": true },
       {
         "text": "With them he will push all the peoples to the ends of the earth.",
         "break": true
       },
-      {
-        "text": "They are the ten thousands of Ephraim.",
-        "break": true
-      },
+      { "text": "They are the ten thousands of Ephraim.", "break": true },
       "They are the thousands of Manasseh.”"
     ]
   },
@@ -7233,19 +6718,9 @@
     "chapter": 33,
     "verse": 18,
     "content": [
-      {
-        "paragraph": true,
-        "text": "About Zebulun he said,",
-        "break": true
-      },
-      {
-        "text": "“Rejoice, Zebulun, in your going out;",
-        "break": true
-      },
-      {
-        "text": "and Issachar, in your tents.",
-        "break": true
-      }
+      { "paragraph": true, "text": "About Zebulun he said,", "break": true },
+      { "text": "“Rejoice, Zebulun, in your going out;", "break": true },
+      { "text": "and Issachar, in your tents.", "break": true }
     ]
   },
   {
@@ -7253,10 +6728,7 @@
     "chapter": 33,
     "verse": 19,
     "content": [
-      {
-        "text": "They will call the peoples to the mountain.",
-        "break": true
-      },
+      { "text": "They will call the peoples to the mountain.", "break": true },
       {
         "text": "There they will offer sacrifices of righteousness,",
         "break": true
@@ -7273,23 +6745,10 @@
     "chapter": 33,
     "verse": 20,
     "content": [
-      {
-        "paragraph": true,
-        "text": "About Gad he said,",
-        "break": true
-      },
-      {
-        "text": "“He who enlarges Gad is blessed.",
-        "break": true
-      },
-      {
-        "text": "He dwells as a lioness,",
-        "break": true
-      },
-      {
-        "text": "and tears the arm and the crown of the head.",
-        "break": true
-      }
+      { "paragraph": true, "text": "About Gad he said,", "break": true },
+      { "text": "“He who enlarges Gad is blessed.", "break": true },
+      { "text": "He dwells as a lioness,", "break": true },
+      { "text": "and tears the arm and the crown of the head.", "break": true }
     ]
   },
   {
@@ -7297,22 +6756,13 @@
     "chapter": 33,
     "verse": 21,
     "content": [
-      {
-        "text": "He provided the first part for himself,",
-        "break": true
-      },
+      { "text": "He provided the first part for himself,", "break": true },
       {
         "text": "for the lawgiver’s portion was reserved for him.",
         "break": true
       },
-      {
-        "text": "He came with the heads of the people.",
-        "break": true
-      },
-      {
-        "text": "He executed the righteousness of Yahweh,",
-        "break": true
-      },
+      { "text": "He came with the heads of the people.", "break": true },
+      { "text": "He executed the righteousness of Yahweh,", "break": true },
       "His ordinances with Israel.”"
     ]
   },
@@ -7321,15 +6771,8 @@
     "chapter": 33,
     "verse": 22,
     "content": [
-      {
-        "paragraph": true,
-        "text": "About Dan he said,",
-        "break": true
-      },
-      {
-        "text": "“Dan is a lion’s cub",
-        "break": true
-      },
+      { "paragraph": true, "text": "About Dan he said,", "break": true },
+      { "text": "“Dan is a lion’s cub", "break": true },
       "that leaps out of Bashan.”"
     ]
   },
@@ -7338,19 +6781,9 @@
     "chapter": 33,
     "verse": 23,
     "content": [
-      {
-        "paragraph": true,
-        "text": "About Naphtali he said,",
-        "break": true
-      },
-      {
-        "text": "“Naphtali, satisfied with favor,",
-        "break": true
-      },
-      {
-        "text": "full of Yahweh’s blessing,",
-        "break": true
-      },
+      { "paragraph": true, "text": "About Naphtali he said,", "break": true },
+      { "text": "“Naphtali, satisfied with favor,", "break": true },
+      { "text": "full of Yahweh’s blessing,", "break": true },
       "Possess the west and the south.”"
     ]
   },
@@ -7359,23 +6792,10 @@
     "chapter": 33,
     "verse": 24,
     "content": [
-      {
-        "paragraph": true,
-        "text": "About Asher he said,",
-        "break": true
-      },
-      {
-        "text": "“Asher is blessed with children.",
-        "break": true
-      },
-      {
-        "text": "Let him be acceptable to his brothers.",
-        "break": true
-      },
-      {
-        "text": "Let him dip his foot in oil.",
-        "break": true
-      }
+      { "paragraph": true, "text": "About Asher he said,", "break": true },
+      { "text": "“Asher is blessed with children.", "break": true },
+      { "text": "Let him be acceptable to his brothers.", "break": true },
+      { "text": "Let him dip his foot in oil.", "break": true }
     ]
   },
   {
@@ -7383,10 +6803,7 @@
     "chapter": 33,
     "verse": 25,
     "content": [
-      {
-        "text": "Your bars will be iron and bronze.",
-        "break": true
-      },
+      { "text": "Your bars will be iron and bronze.", "break": true },
       "As your days, so your strength will be."
     ]
   },
@@ -7400,14 +6817,8 @@
         "text": "“There is no one like God, Jeshurun,",
         "break": true
       },
-      {
-        "text": "who rides on the heavens for your help,",
-        "break": true
-      },
-      {
-        "text": "in his excellency on the skies.",
-        "break": true
-      }
+      { "text": "who rides on the heavens for your help,", "break": true },
+      { "text": "in his excellency on the skies.", "break": true }
     ]
   },
   {
@@ -7415,22 +6826,10 @@
     "chapter": 33,
     "verse": 27,
     "content": [
-      {
-        "text": "The eternal God is your dwelling place.",
-        "break": true
-      },
-      {
-        "text": "Underneath are the everlasting arms.",
-        "break": true
-      },
-      {
-        "text": "He thrust out the enemy from before you,",
-        "break": true
-      },
-      {
-        "text": "and said, ‘Destroy!’",
-        "break": true
-      }
+      { "text": "The eternal God is your dwelling place.", "break": true },
+      { "text": "Underneath are the everlasting arms.", "break": true },
+      { "text": "He thrust out the enemy from before you,", "break": true },
+      { "text": "and said, ‘Destroy!’", "break": true }
     ]
   },
   {
@@ -7438,22 +6837,10 @@
     "chapter": 33,
     "verse": 28,
     "content": [
-      {
-        "text": "Israel dwells in safety,",
-        "break": true
-      },
-      {
-        "text": "the fountain of Jacob alone,",
-        "break": true
-      },
-      {
-        "text": "In a land of grain and new wine.",
-        "break": true
-      },
-      {
-        "text": "Yes, his heavens drop down dew.",
-        "break": true
-      }
+      { "text": "Israel dwells in safety,", "break": true },
+      { "text": "the fountain of Jacob alone,", "break": true },
+      { "text": "In a land of grain and new wine.", "break": true },
+      { "text": "Yes, his heavens drop down dew.", "break": true }
     ]
   },
   {
@@ -7461,26 +6848,11 @@
     "chapter": 33,
     "verse": 29,
     "content": [
-      {
-        "text": "You are happy, Israel!",
-        "break": true
-      },
-      {
-        "text": "Who is like you, a people saved by Yahweh,",
-        "break": true
-      },
-      {
-        "text": "the shield of your help,",
-        "break": true
-      },
-      {
-        "text": "the sword of your excellency?",
-        "break": true
-      },
-      {
-        "text": "Your enemies will submit themselves to you.",
-        "break": true
-      },
+      { "text": "You are happy, Israel!", "break": true },
+      { "text": "Who is like you, a people saved by Yahweh,", "break": true },
+      { "text": "the shield of your help,", "break": true },
+      { "text": "the sword of your excellency?", "break": true },
+      { "text": "Your enemies will submit themselves to you.", "break": true },
       "You will tread on their high places.”"
     ]
   },
@@ -7506,10 +6878,7 @@
     "content": [
       {
         "text": "and the south,",
-        "foot": {
-          "type": "trn",
-          "content": "or, Negev"
-        }
+        "foot": { "type": "trn", "content": "or, Negev" }
       },
       " and the Plain of the valley of Jericho the city of palm trees, to Zoar."
     ]

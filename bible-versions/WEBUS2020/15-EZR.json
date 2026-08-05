@@ -11,10 +11,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -33,10 +30,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -478,10 +472,7 @@
       {
         "paragraph": true,
         "text": "These were those who went up from Tel Melah, Tel Harsha, Cherub, Addan, and Immer; but they could not show their fathers’ houses and their offspring,",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " whether they were of Israel:"
     ]
@@ -1187,10 +1178,7 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 12,
-    "content": {
-      "paragraph": true,
-      "text": "Artaxerxes, king of kings,"
-    }
+    "content": { "paragraph": true, "text": "Artaxerxes, king of kings," }
   },
   {
     "book": "EZR",
@@ -1679,10 +1667,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }

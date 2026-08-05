@@ -7,10 +7,7 @@
       {
         "paragraph": true,
         "text": "This is the Revelation of Jesus Christ,",
-        "foot": {
-          "type": "stu",
-          "content": "“Christ” means “Anointed One”."
-        }
+        "foot": { "type": "stu", "content": "“Christ” means “Anointed One”." }
       },
       {
         "text": " which God gave him to show to his servants the things which must happen soon, which he sent and made known by his angel",
@@ -62,13 +59,9 @@
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Exodus 19:6"
-            },
+            { "bibleLink": "Exodus 19:6" },
             "; ",
-            {
-              "bibleLink": "Isaiah 61:6"
-            }
+            { "bibleLink": "Isaiah 61:6" }
           ]
         }
       },
@@ -87,10 +80,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "ἰδοὺ",
-              "script": "G"
-            },
+            { "text": "ἰδοὺ", "script": "G" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -103,10 +93,7 @@
     "chapter": 1,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“I am the Alpha and the Omega,",
         "marks": ["woc"],
@@ -115,16 +102,10 @@
           "content": "TR adds “the Beginning and the End”"
         }
       },
-      {
-        "text": "”",
-        "marks": ["woc"]
-      },
+      { "text": "”", "marks": ["woc"] },
       {
         "text": " says the Lord God,",
-        "foot": {
-          "type": "var",
-          "content": "TR omits “God”"
-        }
+        "foot": { "type": "var", "content": "TR omits “God”" }
       },
       " ",
       {
@@ -164,10 +145,7 @@
       {
         "text": "“What you see, write in a book and send to the seven assemblies:",
         "marks": ["woc"],
-        "foot": {
-          "type": "var",
-          "content": "TR adds “which are in Asia”"
-        }
+        "foot": { "type": "var", "content": "TR adds “which are in Asia”" }
       },
       " ",
       {
@@ -192,12 +170,7 @@
     "content": [
       {
         "text": "And among the lamp stands was one like a son of man,",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Daniel 7:13"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Daniel 7:13" } }
       },
       " clothed with a robe reaching down to his feet, and with a golden sash around his chest."
     ]
@@ -226,10 +199,7 @@
     "verse": 17,
     "content": [
       "When I saw him, I fell at his feet like a dead man.",
-      {
-        "paragraph": true,
-        "text": "He laid his right hand on me, saying, "
-      },
+      { "paragraph": true, "text": "He laid his right hand on me, saying, " },
       {
         "text": "“Don’t be afraid. I am the first and the last, ",
         "marks": ["woc"]
@@ -245,10 +215,7 @@
       {
         "text": "and the Living one. I was dead, and behold, I am alive forever and ever. Amen. I have the keys of Death and of Hades.",
         "marks": ["woc"],
-        "foot": {
-          "type": "trn",
-          "content": "or, Hell"
-        }
+        "foot": { "type": "trn", "content": "or, Hell" }
       }
     ]
   },
@@ -290,17 +257,12 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“To the angel of the assembly in Ephesus write:",
         "marks": ["woc"]
       },
-      {
-        "paragraph": true
-      },
+      { "paragraph": true },
       {
         "text": "“He who holds the seven stars in his right hand, he who walks among the seven golden lamp stands says these things:",
         "marks": ["woc"]
@@ -312,10 +274,7 @@
     "chapter": 2,
     "verse": 2,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“I know your works, and your toil and perseverance, and that you can’t tolerate evil men, and have tested those who call themselves apostles, and they are not, and found them false. ",
         "marks": ["woc"]
@@ -331,16 +290,10 @@
       {
         "text": "You have perseverance and have endured for my name’s sake, and have",
         "marks": ["woc"],
-        "foot": {
-          "type": "var",
-          "content": "TR adds “have labored and”"
-        }
+        "foot": { "type": "var", "content": "TR adds “have labored and”" }
       },
       " ",
-      {
-        "text": "not grown weary.",
-        "marks": ["woc"]
-      }
+      { "text": "not grown weary.", "marks": ["woc"] }
     ]
   },
   {
@@ -396,17 +349,12 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“To the angel of the assembly in Smyrna write:",
         "marks": ["woc"]
       },
-      {
-        "paragraph": true
-      },
+      { "paragraph": true },
       {
         "text": "“The first and the last, who was dead, and has come to life says these things:",
         "marks": ["woc"]
@@ -418,10 +366,7 @@
     "chapter": 2,
     "verse": 9,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“I know your works, oppression, and your poverty (but you are rich), and the blasphemy of those who say they are Jews, and they are not, but are a synagogue of Satan. ",
         "marks": ["woc"]
@@ -457,17 +402,12 @@
     "chapter": 2,
     "verse": 12,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“To the angel of the assembly in Pergamum write:",
         "marks": ["woc"]
       },
-      {
-        "paragraph": true
-      },
+      { "paragraph": true },
       {
         "text": "“He who has the sharp two-edged sword says these things:",
         "marks": ["woc"]
@@ -479,10 +419,7 @@
     "chapter": 2,
     "verse": 13,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“I know your works and where you dwell, where Satan’s throne is. You hold firmly to my name, and didn’t deny my faith in the days of Antipas my witness, my faithful one, who was killed among you, where Satan dwells. ",
         "marks": ["woc"]
@@ -542,9 +479,7 @@
           "type": "stu",
           "content": [
             "Manna is supernatural food, named after the Hebrew for “What is it?”. See ",
-            {
-              "bibleLink": "Exodus 11:7–9"
-            },
+            { "bibleLink": "Exodus 11:7–9" },
             "."
           ]
         }
@@ -561,17 +496,12 @@
     "chapter": 2,
     "verse": 18,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“To the angel of the assembly in Thyatira write:",
         "marks": ["woc"]
       },
-      {
-        "paragraph": true
-      },
+      { "paragraph": true },
       {
         "text": "“The Son of God, who has his eyes like a flame of fire, and his feet are like burnished brass, says these things:",
         "marks": ["woc"]
@@ -583,10 +513,7 @@
     "chapter": 2,
     "verse": 19,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“I know your works, your love, faith, service, patient endurance, and that your last works are more than the first. ",
         "marks": ["woc"]
@@ -695,18 +622,10 @@
       {
         "text": "He will rule them with a rod of iron, shattering them like clay pots,",
         "marks": ["woc"],
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 2:9"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 2:9" } }
       },
       " ",
-      {
-        "text": "as I also have received of my Father;",
-        "marks": ["woc"]
-      }
+      { "text": "as I also have received of my Father;", "marks": ["woc"] }
     ]
   },
   {
@@ -715,10 +634,7 @@
     "verse": 28,
     "content": [
       " ",
-      {
-        "text": "and I will give him the morning star. ",
-        "marks": ["woc"]
-      }
+      { "text": "and I will give him the morning star. ", "marks": ["woc"] }
     ]
   },
   {
@@ -738,24 +654,17 @@
     "chapter": 3,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“And to the angel of the assembly in Sardis write:",
         "marks": ["woc"]
       },
-      {
-        "paragraph": true
-      },
+      { "paragraph": true },
       {
         "text": "“He who has the seven Spirits of God and the seven stars says these things:",
         "marks": ["woc"]
       },
-      {
-        "paragraph": true
-      },
+      { "paragraph": true },
       {
         "text": "“I know your works, that you have a reputation of being alive, but you are dead. ",
         "marks": ["woc"]
@@ -836,17 +745,12 @@
     "chapter": 3,
     "verse": 7,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“To the angel of the assembly in Philadelphia write:",
         "marks": ["woc"]
       },
-      {
-        "paragraph": true
-      },
+      { "paragraph": true },
       {
         "text": "“He who is holy, he who is true, he who has the key of David, he who opens and no one can shut, and who shuts and no one opens, says these things: ",
         "marks": ["woc"]
@@ -858,10 +762,7 @@
     "chapter": 3,
     "verse": 8,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“I know your works (behold, I have set before you an open door, which no one can shut), that you have a little power, and kept my word, and didn’t deny my name. ",
         "marks": ["woc"]
@@ -933,30 +834,19 @@
     "chapter": 3,
     "verse": 14,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“To the angel of the assembly in Laodicea write:",
         "marks": ["woc"]
       },
-      {
-        "paragraph": true
-      },
+      { "paragraph": true },
       {
         "text": "“The Amen, the Faithful and True Witness, the Beginning",
         "marks": ["woc"],
-        "foot": {
-          "type": "trn",
-          "content": "or, Source, or Head"
-        }
+        "foot": { "type": "trn", "content": "or, Source, or Head" }
       },
       " ",
-      {
-        "text": "of God’s creation, says these things:",
-        "marks": ["woc"]
-      }
+      { "text": "of God’s creation, says these things:", "marks": ["woc"] }
     ]
   },
   {
@@ -964,10 +854,7 @@
     "chapter": 3,
     "verse": 15,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“I know your works, that you are neither cold nor hot. I wish you were cold or hot. ",
         "marks": ["woc"]
@@ -1210,26 +1097,11 @@
     "chapter": 5,
     "verse": 9,
     "content": [
-      {
-        "text": "They sang a new song, saying,",
-        "break": true
-      },
-      {
-        "text": "“You are worthy to take the book",
-        "break": true
-      },
-      {
-        "text": "and to open its seals,",
-        "break": true
-      },
-      {
-        "text": "for you were killed,",
-        "break": true
-      },
-      {
-        "text": "and bought us for God with your blood",
-        "break": true
-      },
+      { "text": "They sang a new song, saying,", "break": true },
+      { "text": "“You are worthy to take the book", "break": true },
+      { "text": "and to open its seals,", "break": true },
+      { "text": "for you were killed,", "break": true },
+      { "text": "and bought us for God with your blood", "break": true },
       {
         "text": "out of every tribe, language, people, and nation,",
         "break": true
@@ -1241,10 +1113,7 @@
     "chapter": 5,
     "verse": 10,
     "content": [
-      {
-        "text": "and made us kings and priests to our God;",
-        "break": true
-      },
+      { "text": "and made us kings and priests to our God;", "break": true },
       "and we will reign on the earth.”"
     ]
   },
@@ -1270,10 +1139,7 @@
     "content": {
       "paragraph": true,
       "text": "I heard every created thing which is in heaven, on the earth, under the earth, on the sea, and everything in them, saying, “To him who sits on the throne and to the Lamb be the blessing, the honor, the glory, and the dominion, forever and ever! Amen!”",
-      "foot": {
-        "type": "var",
-        "content": "TR omits “Amen!”"
-      }
+      "foot": { "type": "var", "content": "TR omits “Amen!”" }
     }
   },
   {
@@ -1284,10 +1150,7 @@
       {
         "paragraph": true,
         "text": "The four living creatures said, “Amen!” Then the",
-        "foot": {
-          "type": "var",
-          "content": "TR adds “twenty-four”"
-        }
+        "foot": { "type": "var", "content": "TR adds “twenty-four”" }
       },
       {
         "text": " elders fell down and worshiped.",
@@ -1368,10 +1231,7 @@
     "content": [
       {
         "text": "And behold, a pale horse, and the name of he who sat on it was Death. Hades",
-        "foot": {
-          "type": "trn",
-          "content": "or, Hell"
-        }
+        "foot": { "type": "trn", "content": "or, Hell" }
       },
       " followed with him. Authority over one fourth of the earth, to kill with the sword, with famine, with death, and by the wild animals of the earth was given to him."
     ]
@@ -1484,14 +1344,8 @@
         "text": "of the tribe of Judah twelve thousand were sealed,",
         "break": true
       },
-      {
-        "text": "of the tribe of Reuben twelve thousand,",
-        "break": true
-      },
-      {
-        "text": "of the tribe of Gad twelve thousand,",
-        "break": true
-      }
+      { "text": "of the tribe of Reuben twelve thousand,", "break": true },
+      { "text": "of the tribe of Gad twelve thousand,", "break": true }
     ]
   },
   {
@@ -1499,18 +1353,9 @@
     "chapter": 7,
     "verse": 6,
     "content": [
-      {
-        "text": "of the tribe of Asher twelve thousand,",
-        "break": true
-      },
-      {
-        "text": "of the tribe of Naphtali twelve thousand,",
-        "break": true
-      },
-      {
-        "text": "of the tribe of Manasseh twelve thousand,",
-        "break": true
-      }
+      { "text": "of the tribe of Asher twelve thousand,", "break": true },
+      { "text": "of the tribe of Naphtali twelve thousand,", "break": true },
+      { "text": "of the tribe of Manasseh twelve thousand,", "break": true }
     ]
   },
   {
@@ -1518,18 +1363,9 @@
     "chapter": 7,
     "verse": 7,
     "content": [
-      {
-        "text": "of the tribe of Simeon twelve thousand,",
-        "break": true
-      },
-      {
-        "text": "of the tribe of Levi twelve thousand,",
-        "break": true
-      },
-      {
-        "text": "of the tribe of Issachar twelve thousand,",
-        "break": true
-      }
+      { "text": "of the tribe of Simeon twelve thousand,", "break": true },
+      { "text": "of the tribe of Levi twelve thousand,", "break": true },
+      { "text": "of the tribe of Issachar twelve thousand,", "break": true }
     ]
   },
   {
@@ -1537,14 +1373,8 @@
     "chapter": 7,
     "verse": 8,
     "content": [
-      {
-        "text": "of the tribe of Zebulun twelve thousand,",
-        "break": true
-      },
-      {
-        "text": "of the tribe of Joseph twelve thousand, and",
-        "break": true
-      },
+      { "text": "of the tribe of Zebulun twelve thousand,", "break": true },
+      { "text": "of the tribe of Joseph twelve thousand, and", "break": true },
       "of the tribe of Benjamin twelve thousand were sealed."
     ]
   },
@@ -1592,17 +1422,11 @@
     "chapter": 7,
     "verse": 14,
     "content": [
-      {
-        "paragraph": true,
-        "text": "I told him, “My lord, you know.”"
-      },
+      { "paragraph": true, "text": "I told him, “My lord, you know.”" },
       {
         "paragraph": true,
         "text": "He said to me, “These are those who came out of the great suffering.",
-        "foot": {
-          "type": "trn",
-          "content": "or, oppression"
-        }
+        "foot": { "type": "trn", "content": "or, oppression" }
       },
       " They washed their robes and made them white in the Lamb’s blood."
     ]
@@ -1756,10 +1580,7 @@
     "content": [
       {
         "text": "He opened the pit of the abyss, and smoke went up out of the pit, like the smoke from a",
-        "foot": {
-          "type": "var",
-          "content": "TR adds “great”"
-        }
+        "foot": { "type": "var", "content": "TR adds “great”" }
       },
       " burning furnace. The sun and the air were darkened because of the smoke from the pit."
     ]
@@ -1829,10 +1650,7 @@
       },
       {
         "text": " but in Greek, he has the name “Apollyon”.",
-        "foot": {
-          "type": "stu",
-          "content": "“Apollyon” means “Destroyer”."
-        }
+        "foot": { "type": "stu", "content": "“Apollyon” means “Destroyer”." }
       }
     ]
   },
@@ -2014,10 +1832,7 @@
     "content": [
       {
         "text": "They",
-        "foot": {
-          "type": "var",
-          "content": "TR reads “He” instead of “They”"
-        }
+        "foot": { "type": "var", "content": "TR reads “He” instead of “They”" }
       },
       " told me, “You must prophesy again over many peoples, nations, languages, and kings.”"
     ]
@@ -2146,10 +1961,7 @@
     "content": [
       {
         "text": "saying: “We give you thanks, Lord God, the Almighty, the one who is and who was,",
-        "foot": {
-          "type": "var",
-          "content": "TR adds “and who is coming”"
-        }
+        "foot": { "type": "var", "content": "TR adds “and who is coming”" }
       },
       " because you have taken your great power and reigned."
     ]
@@ -2287,10 +2099,7 @@
     "content": [
       {
         "text": "The dragon grew angry with the woman, and went away to make war with the rest of her offspring,",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " who keep God’s commandments and hold Jesus’ testimony."
     ]
@@ -2303,10 +2112,7 @@
       {
         "paragraph": true,
         "text": "Then I stood",
-        "foot": {
-          "type": "var",
-          "content": "NU reads he stood"
-        }
+        "foot": { "type": "var", "content": "NU reads he stood" }
       },
       " on the sand of the sea. I saw a beast coming up out of the sea, having ten horns and seven heads. On his horns were ten crowns, and on his heads, blasphemous names."
     ]
@@ -2405,10 +2211,7 @@
     "content": [
       {
         "text": "He deceives my own",
-        "foot": {
-          "type": "var",
-          "content": "NU omits “my own”"
-        }
+        "foot": { "type": "var", "content": "NU omits “my own”" }
       },
       " people who dwell on the earth because of the signs he was granted to do in front of the beast, saying to those who dwell on the earth that they should make an image to the beast who had the sword wound and lived."
     ]
@@ -2470,10 +2273,7 @@
     "verse": 5,
     "content": {
       "text": "In their mouth was found no lie, for they are blameless.",
-      "foot": {
-        "type": "var",
-        "content": "TR adds “before the throne of God”"
-      }
+      "foot": { "type": "var", "content": "TR adds “before the throne of God”" }
     }
   },
   {
@@ -2553,12 +2353,7 @@
       {
         "paragraph": true,
         "text": "I looked, and saw a white cloud, and on the cloud one sitting like a son of man,",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Daniel 7:13"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Daniel 7:13" } }
       },
       " having on his head a golden crown, and in his hand a sharp sickle."
     ]
@@ -2625,10 +2420,7 @@
       {
         "paragraph": true,
         "text": "I saw something like a sea of glass mixed with fire, and those who overcame the beast, his image,",
-        "foot": {
-          "type": "var",
-          "content": "TR adds “his mark,”"
-        }
+        "foot": { "type": "var", "content": "TR adds “his mark,”" }
       },
       " and the number of his name, standing on the sea of glass, having harps of God."
     ]
@@ -2657,18 +2449,9 @@
     "chapter": 15,
     "verse": 4,
     "content": [
-      {
-        "text": "Who wouldn’t fear you, Lord,",
-        "break": true
-      },
-      {
-        "text": "and glorify your name?",
-        "break": true
-      },
-      {
-        "text": "For you only are holy.",
-        "break": true
-      },
+      { "text": "Who wouldn’t fear you, Lord,", "break": true },
+      { "text": "and glorify your name?", "break": true },
+      { "text": "For you only are holy.", "break": true },
       {
         "text": "For all the nations will come and worship before you.",
         "break": true
@@ -2800,10 +2583,7 @@
     "content": {
       "paragraph": true,
       "text": "The sixth poured out his bowl on the great river, the Euphrates. Its water was dried up, that the way might be prepared for the kings that come from the sunrise.",
-      "foot": {
-        "type": "trn",
-        "content": "or, east"
-      }
+      "foot": { "type": "trn", "content": "or, east" }
     }
   },
   {
@@ -2823,10 +2603,7 @@
     "chapter": 16,
     "verse": 15,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“Behold, I come like a thief. Blessed is he who watches, and keeps his clothes, so that he doesn’t walk naked, and they see his shame.” ",
         "marks": ["woc"]
@@ -3275,12 +3052,7 @@
     "content": [
       {
         "text": "Out of his mouth proceeds a sharp, double-edged sword that with it he should strike the nations. He will rule them with an iron rod.",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 2:9"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 2:9" } }
       },
       " He treads the wine press of the fierceness of the wrath of God, the Almighty."
     ]
@@ -3291,10 +3063,7 @@
     "verse": 16,
     "content": [
       "He has on his garment and on his thigh a name written, “",
-      {
-        "text": "King of Kings and Lord of Lords",
-        "marks": ["sc"]
-      },
+      { "text": "King of Kings and Lord of Lords", "marks": ["sc"] },
       ".”"
     ]
   },
@@ -3435,10 +3204,7 @@
     "content": [
       {
         "text": "The sea gave up the dead who were in it. Death and Hades",
-        "foot": {
-          "type": "trn",
-          "content": "or, Hell"
-        }
+        "foot": { "type": "trn", "content": "or, Hell" }
       },
       " gave up the dead who were in them. They were judged, each one according to his works."
     ]
@@ -3450,10 +3216,7 @@
     "content": [
       {
         "text": "Death and Hades",
-        "foot": {
-          "type": "trn",
-          "content": "or, Hell"
-        }
+        "foot": { "type": "trn", "content": "or, Hell" }
       },
       " were thrown into the lake of fire. This is the second death, the lake of fire."
     ]
@@ -3496,14 +3259,8 @@
     "chapter": 21,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He who sits on the throne said, "
-      },
-      {
-        "text": "“Behold, I am making all things new.”",
-        "marks": ["woc"]
-      },
+      { "paragraph": true, "text": "He who sits on the throne said, " },
+      { "text": "“Behold, I am making all things new.”", "marks": ["woc"] },
       " He said, ",
       {
         "text": "“Write, for these words of God are faithful and true.”",
@@ -3544,10 +3301,7 @@
       {
         "text": "But for the cowardly, unbelieving, sinners,",
         "marks": ["woc"],
-        "foot": {
-          "type": "var",
-          "content": "TR and NU omit “sinners”"
-        }
+        "foot": { "type": "var", "content": "TR and NU omit “sinners”" }
       },
       " ",
       {
@@ -3656,10 +3410,7 @@
     "content": [
       {
         "text": "The foundations of the city’s wall were adorned with all kinds of precious stones. The first foundation was jasper, the second sapphire;",
-        "foot": {
-          "type": "trn",
-          "content": "or, lapis lazuli"
-        }
+        "foot": { "type": "trn", "content": "or, lapis lazuli" }
       },
       " the third chalcedony, the fourth emerald,"
     ]
@@ -3723,10 +3474,7 @@
       {
         "paragraph": true,
         "text": "He showed me a",
-        "foot": {
-          "type": "var",
-          "content": "TR adds “pure”"
-        }
+        "foot": { "type": "var", "content": "TR adds “pure”" }
       },
       " river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb,"
     ]
@@ -3769,10 +3517,7 @@
     "chapter": 22,
     "verse": 7,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“Behold, I am coming soon! Blessed is he who keeps the words of the prophecy of this book.”",
         "marks": ["woc"]
@@ -3811,10 +3556,7 @@
     "chapter": 22,
     "verse": 12,
     "content": [
-      {
-        "paragraph": true,
-        "text": " "
-      },
+      { "paragraph": true, "text": " " },
       {
         "text": "“Behold, I am coming soon! My reward is with me, to repay to each man according to his work. ",
         "marks": ["woc"]
@@ -3917,14 +3659,8 @@
     "verse": 20,
     "content": [
       "He who testifies these things says, ",
-      {
-        "text": "“Yes, I am coming soon.” ",
-        "marks": ["woc"]
-      },
-      {
-        "paragraph": true,
-        "text": "Amen! Yes, come, Lord Jesus!"
-      }
+      { "text": "“Yes, I am coming soon.” ", "marks": ["woc"] },
+      { "paragraph": true, "text": "Amen! Yes, come, Lord Jesus!" }
     ]
   },
   {

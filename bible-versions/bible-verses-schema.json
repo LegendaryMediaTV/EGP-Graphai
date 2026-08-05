@@ -16,11 +16,7 @@
       "minimum": 1,
       "description": "Chapter number"
     },
-    "verse": {
-      "type": "integer",
-      "minimum": 1,
-      "description": "Verse number"
-    },
+    "verse": { "type": "integer", "minimum": 1, "description": "Verse number" },
     "content": {
       "$ref": "https://github.com/LegendaryMediaTV/EGP-Graphai/content-schema.json",
       "description": "Verse content using the flexible content-schema structure (string, object, or array)."

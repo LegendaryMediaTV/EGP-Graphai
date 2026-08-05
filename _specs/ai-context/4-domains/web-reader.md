@@ -85,6 +85,7 @@ App
 - **Formatting Marks** – Supports italic (`i`), bold (`b`), Words of Christ (`woc`), and small caps (`sc`)
 - **Small Caps Rendering** – CSS `font-variant: small-caps` applied to divine names (LORD)
 - **Bible Reference Links** – `bibleLink` nodes render as anchors invoking an `onBibleLinkClick` callback; display text falls back to the reference string when no `content` override is set
+- **Heading Type** – A heading with `type: "acrostic"` (e.g., Psalm 119 Hebrew stanza markers) renders as `h4`/`text-lg` instead of the standard `h3`/`text-xl`, one Tailwind step smaller; both share the same `showHeadings` toggle
 
 ## Representative Code Examples
 
@@ -161,6 +162,13 @@ function ContentNode({ node, settings, onFootnoteClick }) {
 
   if (node.heading) {
     if (!settings.showHeadings) return null;
+    if (node.type === "acrostic") {
+      return (
+        <h4 className="text-lg font-bold">
+          <ContentNode node={node.heading} />
+        </h4>
+      );
+    }
     return (
       <h3 className="text-xl font-bold">
         <ContentNode node={node.heading} />

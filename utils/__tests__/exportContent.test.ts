@@ -75,6 +75,36 @@ describe("exportContent", () => {
       );
     });
 
+    it("should render an acrostic heading with a triple-bracket marker", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 119,
+        verse: 1,
+        content: [
+          { heading: "ALEPH", type: "acrostic" },
+          { text: "Blessed are those" },
+        ],
+      };
+      expect(convertVerseToText(verse)).toBe(
+        "119:001 [[[ALEPH]]] Blessed are those"
+      );
+    });
+
+    it("should render a standard-typed heading unchanged (regression)", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { heading: "The Creation", type: "standard" },
+          { text: "In the beginning" },
+        ],
+      };
+      expect(convertVerseToText(verse)).toBe(
+        "001:001 [[The Creation]] In the beginning"
+      );
+    });
+
     it("should convert verse with paragraph wrapper", () => {
       const verse: VerseSchema = {
         book: "GEN",
@@ -270,6 +300,54 @@ describe("exportContent", () => {
       const result = convertVerseToMarkdown(verse, footnotes);
       expect(result).toContain("### The Seventh Day");
       expect(result).toContain("<sup>1</sup>");
+    });
+
+    it("should handle a standard-typed heading in verse unchanged (regression)", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 2,
+        verse: 1,
+        content: [
+          { heading: "The Seventh Day", type: "standard" },
+          { text: "Thus the heavens and the earth were finished" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toContain("### The Seventh Day");
+      expect(result).not.toContain("#### The Seventh Day");
+    });
+
+    it("should render an acrostic heading one level smaller when it leads a mid-chapter verse (convertVerseToMarkdown special case)", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 119,
+        verse: 9,
+        content: [
+          { heading: "BETH", type: "acrostic" },
+          { text: "How can a young man keep his way pure?" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toContain("\n#### BETH\n");
+      expect(result).not.toMatch(/\n### BETH\n/);
+    });
+
+    it("should render an acrostic heading one level smaller when it is not the first content item (generic renderContent path)", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 119,
+        verse: 9,
+        content: [
+          { text: "Some lead-in text " },
+          { heading: "BETH", type: "acrostic" },
+          { text: "How can a young man keep his way pure?" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toContain("\n#### BETH\n");
     });
 
     it("should handle subtitle in verse (mid-chapter)", () => {
