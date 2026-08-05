@@ -8,6 +8,7 @@
       "verse-file-naming": "Verse files follow pattern '{order}-{bookId}.json' (e.g., '01-GEN.json', '40-MAT.json').",
       "ajv-validation": "Use AJV library for JSON Schema validation with support for $ref resolution across schema files.",
       "atomic-file-writes": "Write JSON output via writeJsonFile() and raw text (Markdown, pre-formatted JSON) via writeFileAtomic(), both from functions/writeJsonFile.ts. Do not call fs.writeFileSync directly for pipeline output — both helpers stage bytes to a temp file and rename over the target, retrying on a backoff if the rename is transiently blocked.",
+      "json-canonicalization-from-parsed-data": "Any JSON formatting pass (writeJsonFile()'s formatJsonData(), and validate.ts's own reformat-on-change check) must derive its output from JSON.parse'd data, never from a file's existing raw text. Prettier preserves whichever line breaks its input already has rather than re-deciding them from width, so formatting raw text lets a stray break (e.g. from a prior bug, or a different tool's output style) persist across every future validate run instead of self-correcting.",
       "cross-chapter-bible-link-splitting": "A bibleLink target whose range spans two chapters of the same book (e.g. '2 Kings 6:31–7:20') must be split into two chapter-scoped links joined by a literal en dash. Enforced by utils/crossChapterLinks.ts and audited corpus-wide by utils/auditCrossChapterLinks.ts."
     },
     "architectural_constraints": {

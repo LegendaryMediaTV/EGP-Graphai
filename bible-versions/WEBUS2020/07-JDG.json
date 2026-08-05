@@ -11,10 +11,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -34,10 +31,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -83,10 +77,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -323,10 +314,7 @@
     "content": [
       {
         "text": "They called the name of that place Bochim,",
-        "foot": {
-          "type": "stu",
-          "content": "“Bochim” means “weepers”."
-        }
+        "foot": { "type": "stu", "content": "“Bochim” means “weepers”." }
       },
       " and they sacrificed there to Yahweh."
     ]
@@ -609,10 +597,7 @@
       {
         "paragraph": true,
         "text": "After he had gone, his servants came and saw that the doors of the upper room were locked. They said, “Surely he is covering his feet",
-        "foot": {
-          "type": "trn",
-          "content": "or, “relieving himself”."
-        }
+        "foot": { "type": "trn", "content": "or, “relieving himself”." }
       },
       " in the upper room.”"
     ]
@@ -876,19 +861,9 @@
     "chapter": 5,
     "verse": 3,
     "content": [
-      {
-        "paragraph": true,
-        "text": "“Hear, you kings!",
-        "break": true
-      },
-      {
-        "text": "Give ear, you princes!",
-        "break": true
-      },
-      {
-        "text": "I, even I, will sing to Yahweh.",
-        "break": true
-      },
+      { "paragraph": true, "text": "“Hear, you kings!", "break": true },
+      { "text": "Give ear, you princes!", "break": true },
+      { "text": "I, even I, will sing to Yahweh.", "break": true },
       "I will sing praise to Yahweh, the God of Israel."
     ]
   },
@@ -902,18 +877,9 @@
         "text": "“Yahweh, when you went out of Seir,",
         "break": true
       },
-      {
-        "text": "when you marched out of the field of Edom,",
-        "break": true
-      },
-      {
-        "text": "the earth trembled, the sky also dropped.",
-        "break": true
-      },
-      {
-        "text": "Yes, the clouds dropped water.",
-        "break": true
-      }
+      { "text": "when you marched out of the field of Edom,", "break": true },
+      { "text": "the earth trembled, the sky also dropped.", "break": true },
+      { "text": "Yes, the clouds dropped water.", "break": true }
     ]
   },
   {
@@ -921,10 +887,7 @@
     "chapter": 5,
     "verse": 5,
     "content": [
-      {
-        "text": "The mountains quaked at Yahweh’s presence,",
-        "break": true
-      },
+      { "text": "The mountains quaked at Yahweh’s presence,", "break": true },
       "even Sinai at the presence of Yahweh, the God of Israel."
     ]
   },
@@ -942,10 +905,7 @@
         "text": "in the days of Jael, the highways were unoccupied.",
         "break": true
       },
-      {
-        "text": "The travelers walked through byways.",
-        "break": true
-      }
+      { "text": "The travelers walked through byways.", "break": true }
     ]
   },
   {
@@ -953,18 +913,9 @@
     "chapter": 5,
     "verse": 7,
     "content": [
-      {
-        "text": "The rulers ceased in Israel.",
-        "break": true
-      },
-      {
-        "text": "They ceased until I, Deborah, arose;",
-        "break": true
-      },
-      {
-        "text": "Until I arose a mother in Israel.",
-        "break": true
-      }
+      { "text": "The rulers ceased in Israel.", "break": true },
+      { "text": "They ceased until I, Deborah, arose;", "break": true },
+      { "text": "Until I arose a mother in Israel.", "break": true }
     ]
   },
   {
@@ -972,14 +923,8 @@
     "chapter": 5,
     "verse": 8,
     "content": [
-      {
-        "text": "They chose new gods.",
-        "break": true
-      },
-      {
-        "text": "Then war was in the gates.",
-        "break": true
-      },
+      { "text": "They chose new gods.", "break": true },
+      { "text": "Then war was in the gates.", "break": true },
       {
         "text": "Was there a shield or spear seen among forty thousand in Israel?",
         "break": true
@@ -991,10 +936,7 @@
     "chapter": 5,
     "verse": 9,
     "content": [
-      {
-        "text": "My heart is toward the governors of Israel,",
-        "break": true
-      },
+      { "text": "My heart is toward the governors of Israel,", "break": true },
       {
         "text": "who offered themselves willingly among the people.",
         "break": true
@@ -1012,14 +954,8 @@
         "text": "“Speak, you who ride on white donkeys,",
         "break": true
       },
-      {
-        "text": "you who sit on rich carpets,",
-        "break": true
-      },
-      {
-        "text": "and you who walk by the way.",
-        "break": true
-      }
+      { "text": "you who sit on rich carpets,", "break": true },
+      { "text": "and you who walk by the way.", "break": true }
     ]
   },
   {
@@ -1048,14 +984,8 @@
     "chapter": 5,
     "verse": 12,
     "content": [
-      {
-        "text": "‘Awake, awake, Deborah!",
-        "break": true
-      },
-      {
-        "text": "Awake, awake, utter a song!",
-        "break": true
-      },
+      { "text": "‘Awake, awake, Deborah!", "break": true },
+      { "text": "Awake, awake, utter a song!", "break": true },
       "Arise, Barak, and lead away your captives, you son of Abinoam.’"
     ]
   },
@@ -1069,10 +999,7 @@
         "text": "“Then a remnant of the nobles and the people came down.",
         "break": true
       },
-      {
-        "text": "Yahweh came down for me against the mighty.",
-        "break": true
-      }
+      { "text": "Yahweh came down for me against the mighty.", "break": true }
     ]
   },
   {
@@ -1084,14 +1011,8 @@
         "text": "Those whose root is in Amalek came out of Ephraim,",
         "break": true
       },
-      {
-        "text": "after you, Benjamin, among your peoples.",
-        "break": true
-      },
-      {
-        "text": "Governors come down out of Machir.",
-        "break": true
-      },
+      { "text": "after you, Benjamin, among your peoples.", "break": true },
+      { "text": "Governors come down out of Machir.", "break": true },
       {
         "text": "Those who handle the marshal’s staff came out of Zebulun.",
         "break": true
@@ -1103,26 +1024,11 @@
     "chapter": 5,
     "verse": 15,
     "content": [
-      {
-        "text": "The princes of Issachar were with Deborah.",
-        "break": true
-      },
-      {
-        "text": "As was Issachar, so was Barak.",
-        "break": true
-      },
-      {
-        "text": "They rushed into the valley at his feet.",
-        "break": true
-      },
-      {
-        "text": "By the watercourses of Reuben,",
-        "break": true
-      },
-      {
-        "text": "there were great resolves of heart.",
-        "break": true
-      }
+      { "text": "The princes of Issachar were with Deborah.", "break": true },
+      { "text": "As was Issachar, so was Barak.", "break": true },
+      { "text": "They rushed into the valley at his feet.", "break": true },
+      { "text": "By the watercourses of Reuben,", "break": true },
+      { "text": "there were great resolves of heart.", "break": true }
     ]
   },
   {
@@ -1130,22 +1036,10 @@
     "chapter": 5,
     "verse": 16,
     "content": [
-      {
-        "text": "Why did you sit among the sheepfolds?",
-        "break": true
-      },
-      {
-        "text": "To hear the whistling for the flocks?",
-        "break": true
-      },
-      {
-        "text": "At the watercourses of Reuben,",
-        "break": true
-      },
-      {
-        "text": "there were great searchings of heart.",
-        "break": true
-      }
+      { "text": "Why did you sit among the sheepfolds?", "break": true },
+      { "text": "To hear the whistling for the flocks?", "break": true },
+      { "text": "At the watercourses of Reuben,", "break": true },
+      { "text": "there were great searchings of heart.", "break": true }
     ]
   },
   {
@@ -1153,22 +1047,10 @@
     "chapter": 5,
     "verse": 17,
     "content": [
-      {
-        "text": "Gilead lived beyond the Jordan.",
-        "break": true
-      },
-      {
-        "text": "Why did Dan remain in ships?",
-        "break": true
-      },
-      {
-        "text": "Asher sat still at the haven of the sea,",
-        "break": true
-      },
-      {
-        "text": "and lived by his creeks.",
-        "break": true
-      }
+      { "text": "Gilead lived beyond the Jordan.", "break": true },
+      { "text": "Why did Dan remain in ships?", "break": true },
+      { "text": "Asher sat still at the haven of the sea,", "break": true },
+      { "text": "and lived by his creeks.", "break": true }
     ]
   },
   {
@@ -1197,10 +1079,7 @@
         "text": "then the kings of Canaan fought at Taanach by the waters of Megiddo.",
         "break": true
       },
-      {
-        "text": "They took no plunder of silver.",
-        "break": true
-      }
+      { "text": "They took no plunder of silver.", "break": true }
     ]
   },
   {
@@ -1208,10 +1087,7 @@
     "chapter": 5,
     "verse": 20,
     "content": [
-      {
-        "text": "From the sky the stars fought.",
-        "break": true
-      },
+      { "text": "From the sky the stars fought.", "break": true },
       {
         "text": "From their courses, they fought against Sisera.",
         "break": true
@@ -1223,18 +1099,9 @@
     "chapter": 5,
     "verse": 21,
     "content": [
-      {
-        "text": "The river Kishon swept them away,",
-        "break": true
-      },
-      {
-        "text": "that ancient river, the river Kishon.",
-        "break": true
-      },
-      {
-        "text": "My soul, march on with strength.",
-        "break": true
-      }
+      { "text": "The river Kishon swept them away,", "break": true },
+      { "text": "that ancient river, the river Kishon.", "break": true },
+      { "text": "My soul, march on with strength.", "break": true }
     ]
   },
   {
@@ -1246,10 +1113,7 @@
         "text": "Then the horse hoofs stamped because of the prancing,",
         "break": true
       },
-      {
-        "text": "the prancing of their strong ones.",
-        "break": true
-      }
+      { "text": "the prancing of their strong ones.", "break": true }
     ]
   },
   {
@@ -1257,18 +1121,9 @@
     "chapter": 5,
     "verse": 23,
     "content": [
-      {
-        "text": "‘Curse Meroz,’ said Yahweh’s angel.",
-        "break": true
-      },
-      {
-        "text": "‘Curse bitterly its inhabitants,",
-        "break": true
-      },
-      {
-        "text": "because they didn’t come to help Yahweh,",
-        "break": true
-      },
+      { "text": "‘Curse Meroz,’ said Yahweh’s angel.", "break": true },
+      { "text": "‘Curse bitterly its inhabitants,", "break": true },
+      { "text": "because they didn’t come to help Yahweh,", "break": true },
       "to help Yahweh against the mighty.’"
     ]
   },
@@ -1282,14 +1137,8 @@
         "text": "“Jael shall be blessed above women,",
         "break": true
       },
-      {
-        "text": "the wife of Heber the Kenite;",
-        "break": true
-      },
-      {
-        "text": "blessed shall she be above women in the tent.",
-        "break": true
-      }
+      { "text": "the wife of Heber the Kenite;", "break": true },
+      { "text": "blessed shall she be above women in the tent.", "break": true }
     ]
   },
   {
@@ -1297,18 +1146,9 @@
     "chapter": 5,
     "verse": 25,
     "content": [
-      {
-        "text": "He asked for water.",
-        "break": true
-      },
-      {
-        "text": "She gave him milk.",
-        "break": true
-      },
-      {
-        "text": "She brought him butter in a lordly dish.",
-        "break": true
-      }
+      { "text": "He asked for water.", "break": true },
+      { "text": "She gave him milk.", "break": true },
+      { "text": "She brought him butter in a lordly dish.", "break": true }
     ]
   },
   {
@@ -1316,22 +1156,10 @@
     "chapter": 5,
     "verse": 26,
     "content": [
-      {
-        "text": "She put her hand to the tent peg,",
-        "break": true
-      },
-      {
-        "text": "and her right hand to the workmen’s hammer.",
-        "break": true
-      },
-      {
-        "text": "With the hammer she struck Sisera.",
-        "break": true
-      },
-      {
-        "text": "She struck through his head.",
-        "break": true
-      },
+      { "text": "She put her hand to the tent peg,", "break": true },
+      { "text": "and her right hand to the workmen’s hammer.", "break": true },
+      { "text": "With the hammer she struck Sisera.", "break": true },
+      { "text": "She struck through his head.", "break": true },
       {
         "text": "Yes, she pierced and struck through his temples.",
         "break": true
@@ -1343,14 +1171,8 @@
     "chapter": 5,
     "verse": 27,
     "content": [
-      {
-        "text": "At her feet he bowed, he fell, he lay.",
-        "break": true
-      },
-      {
-        "text": "At her feet he bowed, he fell.",
-        "break": true
-      },
+      { "text": "At her feet he bowed, he fell, he lay.", "break": true },
+      { "text": "At her feet he bowed, he fell.", "break": true },
       "Where he bowed, there he fell down dead."
     ]
   },
@@ -1364,18 +1186,9 @@
         "text": "“Through the window she looked out, and cried:",
         "break": true
       },
-      {
-        "text": "Sisera’s mother looked through the lattice.",
-        "break": true
-      },
-      {
-        "text": "‘Why is his chariot so long in coming?",
-        "break": true
-      },
-      {
-        "text": "Why do the wheels of his chariots wait?’",
-        "break": true
-      }
+      { "text": "Sisera’s mother looked through the lattice.", "break": true },
+      { "text": "‘Why is his chariot so long in coming?", "break": true },
+      { "text": "Why do the wheels of his chariots wait?’", "break": true }
     ]
   },
   {
@@ -1383,14 +1196,8 @@
     "chapter": 5,
     "verse": 29,
     "content": [
-      {
-        "text": "Her wise ladies answered her,",
-        "break": true
-      },
-      {
-        "text": "Yes, she returned answer to herself,",
-        "break": true
-      }
+      { "text": "Her wise ladies answered her,", "break": true },
+      { "text": "Yes, she returned answer to herself,", "break": true }
     ]
   },
   {
@@ -1402,18 +1209,9 @@
         "text": "‘Have they not found, have they not divided the plunder?",
         "break": true
       },
-      {
-        "text": "A lady, two ladies to every man;",
-        "break": true
-      },
-      {
-        "text": "to Sisera a plunder of dyed garments,",
-        "break": true
-      },
-      {
-        "text": "a plunder of dyed garments embroidered,",
-        "break": true
-      },
+      { "text": "A lady, two ladies to every man;", "break": true },
+      { "text": "to Sisera a plunder of dyed garments,", "break": true },
+      { "text": "a plunder of dyed garments embroidered,", "break": true },
       "of dyed garments embroidered on both sides, on the necks of the plunder?’"
     ]
   },
@@ -1428,13 +1226,8 @@
         "break": true
       },
       "but let those who love him be as the sun when it rises in its strength.”",
-      {
-        "paragraph": true
-      },
-      {
-        "paragraph": true,
-        "text": "Then the land had rest forty years."
-      }
+      { "paragraph": true },
+      { "paragraph": true, "text": "Then the land had rest forty years." }
     ]
   },
   {
@@ -1607,10 +1400,7 @@
         "paragraph": true,
         "text": "The angel of God said to him, “Take the meat and the unleavened cakes, and lay them on this rock, and pour out the broth.”"
       },
-      {
-        "paragraph": true,
-        "text": "He did so."
-      }
+      { "paragraph": true, "text": "He did so." }
     ]
   },
   {
@@ -1645,10 +1435,7 @@
       {
         "paragraph": true,
         "text": "Then Gideon built an altar there to Yahweh, and called it “Yahweh is Peace.”",
-        "foot": {
-          "type": "trn",
-          "content": "or, Yahweh Shalom"
-        }
+        "foot": { "type": "trn", "content": "or, Yahweh Shalom" }
       },
       " To this day it is still in Ophrah of the Abiezrites."
     ]
@@ -3271,10 +3058,7 @@
         "paragraph": true,
         "text": "Manoah arose and followed his wife, and came to the man, and said to him, “Are you the man who spoke to my wife?”"
       },
-      {
-        "paragraph": true,
-        "text": "He said, “I am.”"
-      }
+      { "paragraph": true, "text": "He said, “I am.”" }
     ]
   },
   {
@@ -3336,10 +3120,7 @@
       {
         "paragraph": true,
         "text": "Yahweh’s angel said to him, “Why do you ask about my name, since it is incomprehensible",
-        "foot": {
-          "type": "trn",
-          "content": "or, wonderful"
-        }
+        "foot": { "type": "trn", "content": "or, wonderful" }
       },
       "?”"
     ]
@@ -3502,15 +3283,8 @@
     "chapter": 14,
     "verse": 14,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He said to them,",
-        "break": true
-      },
-      {
-        "text": "“Out of the eater came out food.",
-        "break": true
-      },
+      { "paragraph": true, "text": "He said to them,", "break": true },
+      { "text": "“Out of the eater came out food.", "break": true },
       "Out of the strong came out sweetness.”",
       {
         "paragraph": true,
@@ -3554,15 +3328,8 @@
     "verse": 18,
     "content": [
       "The men of the city said to him on the seventh day before the sun went down, “What is sweeter than honey? What is stronger than a lion?”",
-      {
-        "paragraph": true,
-        "text": "He said to them,",
-        "break": true
-      },
-      {
-        "text": "“If you hadn’t plowed with my heifer,",
-        "break": true
-      },
+      { "paragraph": true, "text": "He said to them,", "break": true },
+      { "text": "“If you hadn’t plowed with my heifer,", "break": true },
       "you wouldn’t have found out my riddle.”"
     ]
   },
@@ -4714,10 +4481,7 @@
         "paragraph": true,
         "text": "The children of Israel arose, went up to Bethel, and asked counsel of God. They asked, “Who shall go up for us first to battle against the children of Benjamin?”"
       },
-      {
-        "paragraph": true,
-        "text": "Yahweh said, “Judah first.”"
-      }
+      { "paragraph": true, "text": "Yahweh said, “Judah first.”" }
     ]
   },
   {
@@ -4753,10 +4517,7 @@
     "verse": 23,
     "content": [
       "The children of Israel went up and wept before Yahweh until evening; and they asked of Yahweh, saying, “Shall I again draw near to battle against the children of Benjamin my brother?”",
-      {
-        "paragraph": true,
-        "text": "Yahweh said, “Go up against him.”"
-      }
+      { "paragraph": true, "text": "Yahweh said, “Go up against him.”" }
     ]
   },
   {

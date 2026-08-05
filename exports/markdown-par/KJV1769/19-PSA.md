@@ -2499,7 +2499,7 @@
 
 ## Chapter 119
 
-### ALEPH
+#### ALEPH
 
 <sup>1</sup> Blessed [are] the undefiled in the way, who walk in the law of the LORD.
 <sup>2</sup> Blessed [are] they that keep his testimonies, [and that] seek him with the whole heart.
@@ -2510,7 +2510,7 @@
 <sup>7</sup> I will praise thee with uprightness of heart, when I shall have learned thy righteous judgments.
 <sup>8</sup> I will keep thy statutes: O forsake me not utterly.
 
-### BETH
+#### BETH
 
 <sup>9</sup> Wherewithal shall a young man cleanse his way? by taking heed [thereto] according to thy word.
 <sup>10</sup> With my whole heart have I sought thee: O let me not wander from thy commandments.
@@ -2521,7 +2521,7 @@
 <sup>15</sup> I will meditate in thy precepts, and have respect unto thy ways.
 <sup>16</sup> I will delight myself in thy statutes: I will not forget thy word.
 
-### GIMEL
+#### GIMEL
 
 <sup>17</sup> Deal bountifully with thy servant, [that] I may live, and keep thy word.
 <sup>18</sup> Open thou mine eyes, that I may behold wondrous things out of thy law.
@@ -2532,7 +2532,7 @@
 <sup>23</sup> Princes also did sit [and] speak against me: [but] thy servant did meditate in thy statutes.
 <sup>24</sup> Thy testimonies also [are] my delight [and] my counsellors.
 
-### DALETH
+#### DALETH
 
 <sup>25</sup> My soul cleaveth unto the dust: quicken thou me according to thy word.
 <sup>26</sup> I have declared my ways, and thou heardest me: teach me thy statutes.
@@ -2543,7 +2543,7 @@
 <sup>31</sup> I have stuck unto thy testimonies: O LORD, put me not to shame.
 <sup>32</sup> I will run the way of thy commandments, when thou shalt enlarge my heart.
 
-### HE
+#### HE
 
 <sup>33</sup> Teach me, O LORD, the way of thy statutes; and I shall keep it [unto] the end.
 <sup>34</sup> Give me understanding, and I shall keep thy law; yea, I shall observe it with [my] whole heart.
@@ -2554,7 +2554,7 @@
 <sup>39</sup> Turn away my reproach which I fear: for thy judgments [are] good.
 <sup>40</sup> Behold, I have longed after thy precepts: quicken me in thy righteousness.
 
-### VAU
+#### VAU
 
 <sup>41</sup> Let thy mercies come also unto me, O LORD, [even] thy salvation, according to thy word.
 <sup>42</sup> So shall I have wherewith to answer him that reproacheth me: for I trust in thy word.
@@ -2565,7 +2565,7 @@
 <sup>47</sup> And I will delight myself in thy commandments, which I have loved.
 <sup>48</sup> My hands also will I lift up unto thy commandments, which I have loved; and I will meditate in thy statutes.
 
-### ZAIN
+#### ZAIN
 
 <sup>49</sup> Remember the word unto thy servant, upon which thou hast caused me to hope.
 <sup>50</sup> This [is] my comfort in my affliction: for thy word hath quickened me.
@@ -2576,7 +2576,7 @@
 <sup>55</sup> I have remembered thy name, O LORD, in the night, and have kept thy law.
 <sup>56</sup> This I had, because I kept thy precepts.
 
-### CHETH
+#### CHETH
 
 <sup>57</sup> [Thou art] my portion, O LORD: I have said that I would keep thy words.
 <sup>58</sup> I intreated thy favour with [my] whole heart: be merciful unto me according to thy word.
@@ -2587,7 +2587,7 @@
 <sup>63</sup> I [am] a companion of all [them] that fear thee, and of them that keep thy precepts.
 <sup>64</sup> The earth, O LORD, is full of thy mercy: teach me thy statutes.
 
-### TETH
+#### TETH
 
 <sup>65</sup> Thou hast dealt well with thy servant, O LORD, according unto thy word.
 <sup>66</sup> Teach me good judgment and knowledge: for I have believed thy commandments.
@@ -2598,7 +2598,7 @@
 <sup>71</sup> [It is] good for me that I have been afflicted; that I might learn thy statutes.
 <sup>72</sup> The law of thy mouth [is] better unto me than thousands of gold and silver.
 
-### JOD
+#### JOD
 
 <sup>73</sup> Thy hands have made me and fashioned me: give me understanding, that I may learn thy commandments.
 <sup>74</sup> They that fear thee will be glad when they see me; because I have hoped in thy word.
@@ -2609,7 +2609,7 @@
 <sup>79</sup> Let those that fear thee turn unto me, and those that have known thy testimonies.
 <sup>80</sup> Let my heart be sound in thy statutes; that I be not ashamed.
 
-### CAPH
+#### CAPH
 
 <sup>81</sup> My soul fainteth for thy salvation: [but] I hope in thy word.
 <sup>82</sup> Mine eyes fail for thy word, saying, When wilt thou comfort me?
@@ -2620,7 +2620,7 @@
 <sup>87</sup> They had almost consumed me upon earth; but I forsook not thy precepts.
 <sup>88</sup> Quicken me after thy lovingkindness; so shall I keep the testimony of thy mouth.
 
-### LAMED
+#### LAMED
 
 <sup>89</sup> For ever, O LORD, thy word is settled in heaven.
 <sup>90</sup> Thy faithfulness [is] unto all generations: thou hast established the earth, and it abideth.
@@ -2631,7 +2631,7 @@
 <sup>95</sup> The wicked have waited for me to destroy me: [but] I will consider thy testimonies.
 <sup>96</sup> I have seen an end of all perfection: [but] thy commandment [is] exceeding broad.
 
-### MEM
+#### MEM
 
 <sup>97</sup> O how love I thy law! it [is] my meditation all the day.
 <sup>98</sup> Thou through thy commandments hast made me wiser than mine enemies: for they [are] ever with me.
@@ -2642,7 +2642,7 @@
 <sup>103</sup> How sweet are thy words unto my taste! [yea, sweeter] than honey to my mouth!
 <sup>104</sup> Through thy precepts I get understanding: therefore I hate every false way.
 
-### NUN
+#### NUN
 
 <sup>105</sup> Thy word [is] a lamp unto my feet, and a light unto my path.
 <sup>106</sup> I have sworn, and I will perform [it], that I will keep thy righteous judgments.
@@ -2653,7 +2653,7 @@
 <sup>111</sup> Thy testimonies have I taken as an heritage for ever: for they [are] the rejoicing of my heart.
 <sup>112</sup> I have inclined mine heart to perform thy statutes alway, [even unto] the end.
 
-### SAMECH
+#### SAMECH
 
 <sup>113</sup> I hate [vain] thoughts: but thy law do I love.
 <sup>114</sup> Thou [art] my hiding place and my shield: I hope in thy word.
@@ -2664,7 +2664,7 @@
 <sup>119</sup> Thou puttest away all the wicked of the earth [like] dross: therefore I love thy testimonies.
 <sup>120</sup> My flesh trembleth for fear of thee; and I am afraid of thy judgments.
 
-### AIN
+#### AIN
 
 <sup>121</sup> I have done judgment and justice: leave me not to mine oppressors.
 <sup>122</sup> Be surety for thy servant for good: let not the proud oppress me.
@@ -2675,7 +2675,7 @@
 <sup>127</sup> Therefore I love thy commandments above gold; yea, above fine gold.
 <sup>128</sup> Therefore I esteem all [thy] precepts [concerning] all [things to be] right; [and] I hate every false way.
 
-### PE
+#### PE
 
 <sup>129</sup> Thy testimonies [are] wonderful: therefore doth my soul keep them.
 <sup>130</sup> The entrance of thy words giveth light; it giveth understanding unto the simple.
@@ -2686,7 +2686,7 @@
 <sup>135</sup> Make thy face to shine upon thy servant; and teach me thy statutes.
 <sup>136</sup> Rivers of waters run down mine eyes, because they keep not thy law.
 
-### TZADDI
+#### TZADDI
 
 <sup>137</sup> Righteous [art] thou, O LORD, and upright [are] thy judgments.
 <sup>138</sup> Thy testimonies [that] thou hast commanded [are] righteous and very faithful.
@@ -2697,7 +2697,7 @@
 <sup>143</sup> Trouble and anguish have taken hold on me: [yet] thy commandments [are] my delights.
 <sup>144</sup> The righteousness of thy testimonies [is] everlasting: give me understanding, and I shall live.
 
-### KOPH
+#### KOPH
 
 <sup>145</sup> I cried with [my] whole heart; hear me, O LORD: I will keep thy statutes.
 <sup>146</sup> I cried unto thee; save me, and I shall keep thy testimonies.
@@ -2708,7 +2708,7 @@
 <sup>151</sup> Thou [art] near, O LORD; and all thy commandments [are] truth.
 <sup>152</sup> Concerning thy testimonies, I have known of old that thou hast founded them for ever.
 
-### RESH
+#### RESH
 
 <sup>153</sup> Consider mine affliction, and deliver me: for I do not forget thy law.
 <sup>154</sup> Plead my cause, and deliver me: quicken me according to thy word.
@@ -2719,7 +2719,7 @@
 <sup>159</sup> Consider how I love thy precepts: quicken me, O LORD, according to thy lovingkindness.
 <sup>160</sup> Thy word [is] true [from] the beginning: and every one of thy righteous judgments [endureth] for ever.
 
-### SCHIN
+#### SCHIN
 
 <sup>161</sup> Princes have persecuted me without a cause: but my heart standeth in awe of thy word.
 <sup>162</sup> I rejoice at thy word, as one that findeth great spoil.
@@ -2730,7 +2730,7 @@
 <sup>167</sup> My soul hath kept thy testimonies; and I love them exceedingly.
 <sup>168</sup> I have kept thy precepts and thy testimonies: for all my ways [are] before thee.
 
-### TAU
+#### TAU
 
 <sup>169</sup> Let my cry come near before thee, O LORD: give me understanding according to thy word.
 <sup>170</sup> Let my supplication come before thee: deliver me according to thy word.

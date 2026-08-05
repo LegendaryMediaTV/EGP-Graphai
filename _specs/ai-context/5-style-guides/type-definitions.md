@@ -68,6 +68,7 @@ type Content =
 // Each variant has a unique key to discriminate
 interface ContentHeading {
   heading: Content;
+  type?: "standard" | "acrostic"; // standard (default) | acrostic (Hebrew acrostic stanza marker)
 }
 
 interface ContentParagraph {
@@ -113,6 +114,7 @@ interface ContentObject {
 
 interface ContentHeading {
   heading: Content;
+  type?: "standard" | "acrostic"; // standard (default) | acrostic (Hebrew acrostic stanza marker)
 }
 
 interface ContentParagraph {

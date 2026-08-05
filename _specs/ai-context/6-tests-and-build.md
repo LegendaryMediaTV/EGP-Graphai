@@ -10,6 +10,7 @@
 ### Test Locations
 
 - **Test directories** – Tests are in `__tests__/` folders alongside source files:
+  - `functions/__tests__/contentSchema.test.ts`
   - `functions/__tests__/convertToSmallCaps.test.ts`
   - `functions/__tests__/getBibleVersions.test.ts`
   - `functions/__tests__/sortContentKeys.test.ts`
@@ -20,6 +21,15 @@
 - **Pattern** – `*.test.ts` files in `__tests__/` subdirectories
 
 ## Coverage by Domain
+
+### Content Schema Domain
+
+- **Existing tests** – `functions/__tests__/contentSchema.test.ts` (4 tests)
+- **Covered scenarios:**
+  - Compiles `content-schema.json` directly with Ajv (not via the verse/version wrapper schemas)
+  - A heading object with no `type` is valid (regression baseline for pre-existing data)
+  - A heading object with `type: "acrostic"` or `type: "standard"` is valid
+  - A heading object with an invalid `type` value is rejected
 
 ### Bible Versions Domain
 
@@ -34,11 +44,12 @@
 
 ### Content Processing / Export Domain
 
-- **Existing tests** – `utils/__tests__/exportContent.test.ts` (45 tests)
+- **Existing tests** – `utils/__tests__/exportContent.test.ts` (50 tests)
 - **Covered scenarios:**
   - Plain text conversion with Strong's numbers and morphology
   - Markdown conversion with paragraph markers, footnotes, line breaks
   - Heading and subtitle rendering
+  - Standard vs. acrostic heading rendering — triple-bracket marker in text, one-heading-level-smaller in markdown, across both the generic dispatch and the chapter/verse-leading special cases
   - Footnote marker placement and ordering
   - Small caps rendering in text and markdown exports
   - Edge cases: mid-verse paragraphs, textless elements, trailing footnotes
@@ -59,19 +70,21 @@
 
 ### Key Ordering Domain
 
-- **Existing tests** – `functions/__tests__/sortContentKeys.test.ts` (26 tests)
+- **Existing tests** – `functions/__tests__/sortContentKeys.test.ts` (27 tests)
 - **Covered scenarios:**
   - Basic key ordering (text, marks, strong, morph, etc.)
   - Marks array alphabetization
   - Nested content sorting (footnotes, headings, subtitles)
+  - Heading `type` (standard/acrostic) sorts into the shared `type` slot alongside footnote `type`
   - Unknown key preservation and ordering
   - Verse-level key ordering (book, chapter, verse, content)
 
 ### File Writing Domain
 
-- **Existing tests** – `functions/__tests__/writeJsonFile.test.ts` (9 tests)
+- **Existing tests** – `functions/__tests__/writeJsonFile.test.ts` (10 tests)
 - **Covered scenarios:**
-  - `writeJsonFile()` produces the same bytes the old `prettier --write` subprocess did
+  - `writeJsonFile()` produces the same bytes as formatting a compact (unindented) stringify
+  - A short object collapses to one line rather than being forced onto three — the regression test for the compact-stringify fix (indenting before Prettier sees the text would lock every object onto its own lines regardless of length)
   - A file it writes is already a fixed point of Prettier formatting (re-running changes nothing)
   - Replacing the contents of a file that already exists
   - `writeFileAtomic()` writes text verbatim without reformatting
@@ -92,7 +105,7 @@
 
 ### Validation Domain
 
-- **Existing tests** – None (the file-write path it depends on — `functions/writeJsonFile.ts` — has its own coverage above)
+- **Existing tests** – None directly, but its JSON-reformatting step (`formatJsonFile()`) calls the same `formatJsonData()` covered under File Writing Domain above, so that logic isn't untested — only `validate.ts`'s own orchestration (file discovery, schema checks, exit codes) lacks direct coverage
 - **What should be tested:**
   - `validateJsonAgainstSchema()` – Schema validation with $ref resolution
   - Version book ordering validation
@@ -179,6 +192,7 @@ npx vitest --run path/to/test.ts
 
 - Run `npm run validate` to ensure existing data still passes
 - Test schema changes against sample valid and invalid data
+- If modifying `content-schema.json`: `npx vitest --run functions/__tests__/contentSchema.test.ts` compiles it directly with Ajv against representative valid/invalid payloads
 
 ### When Modifying Content Processing (exportContent.ts)
 
@@ -188,6 +202,7 @@ npx vitest --run path/to/test.ts
 
 - Text format: verse numbers, Strong's, morph codes, paragraph markers, footnotes
 - Markdown format: paragraph breaks, heading/subtitle rendering, footnote references
+- Heading `type`: acrostic vs. standard marker rendering in both formats
 - Edge cases: mid-verse paragraphs, textless elements, trailing footnotes
 
 ### When Modifying File Writes (writeJsonFile.ts)

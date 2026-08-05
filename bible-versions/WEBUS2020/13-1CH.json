@@ -3,10 +3,7 @@
     "book": "1CH",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Adam, Seth, Enosh,"
-    }
+    "content": { "paragraph": true, "text": "Adam, Seth, Enosh," }
   },
   {
     "book": "1CH",
@@ -155,12 +152,7 @@
     "verse": 24,
     "content": "Shem, Arpachshad, Shelah,"
   },
-  {
-    "book": "1CH",
-    "chapter": 1,
-    "verse": 25,
-    "content": "Eber, Peleg, Reu,"
-  },
+  { "book": "1CH", "chapter": 1, "verse": 25, "content": "Eber, Peleg, Reu," },
   {
     "book": "1CH",
     "chapter": 1,
@@ -377,10 +369,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -950,19 +939,13 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
       },
       " of Israel, saying, “Oh that you would bless me indeed, and enlarge my border! May your hand be with me, and may you keep me from evil, that I may not cause pain!”",
-      {
-        "paragraph": true,
-        "text": "God granted him that which he requested."
-      }
+      { "paragraph": true, "text": "God granted him that which he requested." }
     ]
   },
   {
@@ -2387,10 +2370,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -3833,14 +3813,8 @@
     "chapter": 16,
     "verse": 8,
     "content": [
-      {
-        "text": "Oh give thanks to Yahweh.",
-        "break": true
-      },
-      {
-        "text": "Call on his name.",
-        "break": true
-      },
+      { "text": "Oh give thanks to Yahweh.", "break": true },
+      { "text": "Call on his name.", "break": true },
       {
         "text": "Make what he has done known among the peoples.",
         "break": true
@@ -3852,18 +3826,9 @@
     "chapter": 16,
     "verse": 9,
     "content": [
-      {
-        "text": "Sing to him.",
-        "break": true
-      },
-      {
-        "text": "Sing praises to him.",
-        "break": true
-      },
-      {
-        "text": "Tell of all his marvelous works.",
-        "break": true
-      }
+      { "text": "Sing to him.", "break": true },
+      { "text": "Sing praises to him.", "break": true },
+      { "text": "Tell of all his marvelous works.", "break": true }
     ]
   },
   {
@@ -3871,10 +3836,7 @@
     "chapter": 16,
     "verse": 10,
     "content": [
-      {
-        "text": "Glory in his holy name.",
-        "break": true
-      },
+      { "text": "Glory in his holy name.", "break": true },
       {
         "text": "Let the heart of those who seek Yahweh rejoice.",
         "break": true
@@ -3886,14 +3848,8 @@
     "chapter": 16,
     "verse": 11,
     "content": [
-      {
-        "text": "Seek Yahweh and his strength.",
-        "break": true
-      },
-      {
-        "text": "Seek his face forever more.",
-        "break": true
-      }
+      { "text": "Seek Yahweh and his strength.", "break": true },
+      { "text": "Seek his face forever more.", "break": true }
     ]
   },
   {
@@ -3905,10 +3861,7 @@
         "text": "Remember his marvelous works that he has done,",
         "break": true
       },
-      {
-        "text": "his wonders, and the judgments of his mouth,",
-        "break": true
-      }
+      { "text": "his wonders, and the judgments of his mouth,", "break": true }
     ]
   },
   {
@@ -3918,15 +3871,9 @@
     "content": [
       {
         "text": "you offspring",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
-      {
-        "text": " of Israel his servant,",
-        "break": true
-      },
+      { "text": " of Israel his servant,", "break": true },
       "you children of Jacob, his chosen ones."
     ]
   },
@@ -3935,15 +3882,8 @@
     "chapter": 16,
     "verse": 14,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He is Yahweh our God.",
-        "break": true
-      },
-      {
-        "text": "His judgments are in all the earth.",
-        "break": true
-      }
+      { "paragraph": true, "text": "He is Yahweh our God.", "break": true },
+      { "text": "His judgments are in all the earth.", "break": true }
     ]
   },
   {
@@ -3951,10 +3891,7 @@
     "chapter": 16,
     "verse": 15,
     "content": [
-      {
-        "text": "Remember his covenant forever,",
-        "break": true
-      },
+      { "text": "Remember his covenant forever,", "break": true },
       {
         "text": "the word which he commanded to a thousand generations,",
         "break": true
@@ -3966,14 +3903,8 @@
     "chapter": 16,
     "verse": 16,
     "content": [
-      {
-        "text": "the covenant which he made with Abraham,",
-        "break": true
-      },
-      {
-        "text": "his oath to Isaac.",
-        "break": true
-      }
+      { "text": "the covenant which he made with Abraham,", "break": true },
+      { "text": "his oath to Isaac.", "break": true }
     ]
   },
   {
@@ -3981,14 +3912,8 @@
     "chapter": 16,
     "verse": 17,
     "content": [
-      {
-        "text": "He confirmed it to Jacob for a statute,",
-        "break": true
-      },
-      {
-        "text": "and to Israel for an everlasting covenant,",
-        "break": true
-      }
+      { "text": "He confirmed it to Jacob for a statute,", "break": true },
+      { "text": "and to Israel for an everlasting covenant,", "break": true }
     ]
   },
   {
@@ -3996,14 +3921,8 @@
     "chapter": 16,
     "verse": 18,
     "content": [
-      {
-        "text": "saying, “I will give you the land of Canaan,",
-        "break": true
-      },
-      {
-        "text": "The lot of your inheritance,”",
-        "break": true
-      }
+      { "text": "saying, “I will give you the land of Canaan,", "break": true },
+      { "text": "The lot of your inheritance,”", "break": true }
     ]
   },
   {
@@ -4011,14 +3930,8 @@
     "chapter": 16,
     "verse": 19,
     "content": [
-      {
-        "text": "when you were but a few men in number,",
-        "break": true
-      },
-      {
-        "text": "yes, very few, and foreigners in it.",
-        "break": true
-      }
+      { "text": "when you were but a few men in number,", "break": true },
+      { "text": "yes, very few, and foreigners in it.", "break": true }
     ]
   },
   {
@@ -4026,14 +3939,8 @@
     "chapter": 16,
     "verse": 20,
     "content": [
-      {
-        "text": "They went about from nation to nation,",
-        "break": true
-      },
-      {
-        "text": "from one kingdom to another people.",
-        "break": true
-      }
+      { "text": "They went about from nation to nation,", "break": true },
+      { "text": "from one kingdom to another people.", "break": true }
     ]
   },
   {
@@ -4041,14 +3948,8 @@
     "chapter": 16,
     "verse": 21,
     "content": [
-      {
-        "text": "He allowed no man to do them wrong.",
-        "break": true
-      },
-      {
-        "text": "Yes, he reproved kings for their sakes,",
-        "break": true
-      }
+      { "text": "He allowed no man to do them wrong.", "break": true },
+      { "text": "Yes, he reproved kings for their sakes,", "break": true }
     ]
   },
   {
@@ -4056,10 +3957,7 @@
     "chapter": 16,
     "verse": 22,
     "content": [
-      {
-        "text": "“Don’t touch my anointed ones!",
-        "break": true
-      },
+      { "text": "“Don’t touch my anointed ones!", "break": true },
       "Do my prophets no harm!”"
     ]
   },
@@ -4073,10 +3971,7 @@
         "text": "Sing to Yahweh, all the earth!",
         "break": true
       },
-      {
-        "text": "Display his salvation from day to day.",
-        "break": true
-      }
+      { "text": "Display his salvation from day to day.", "break": true }
     ]
   },
   {
@@ -4084,10 +3979,7 @@
     "chapter": 16,
     "verse": 24,
     "content": [
-      {
-        "text": "Declare his glory among the nations,",
-        "break": true
-      },
+      { "text": "Declare his glory among the nations,", "break": true },
       {
         "text": "and his marvelous works among all the peoples.",
         "break": true
@@ -4103,10 +3995,7 @@
         "text": "For great is Yahweh, and greatly to be praised.",
         "break": true
       },
-      {
-        "text": "He also is to be feared above all gods.",
-        "break": true
-      }
+      { "text": "He also is to be feared above all gods.", "break": true }
     ]
   },
   {
@@ -4114,14 +4003,8 @@
     "chapter": 16,
     "verse": 26,
     "content": [
-      {
-        "text": "For all the gods of the peoples are idols,",
-        "break": true
-      },
-      {
-        "text": "but Yahweh made the heavens.",
-        "break": true
-      }
+      { "text": "For all the gods of the peoples are idols,", "break": true },
+      { "text": "but Yahweh made the heavens.", "break": true }
     ]
   },
   {
@@ -4129,10 +4012,7 @@
     "chapter": 16,
     "verse": 27,
     "content": [
-      {
-        "text": "Honor and majesty are before him.",
-        "break": true
-      },
+      { "text": "Honor and majesty are before him.", "break": true },
       "Strength and gladness are in his place."
     ]
   },
@@ -4146,10 +4026,7 @@
         "text": "Ascribe to Yahweh, you families of the peoples,",
         "break": true
       },
-      {
-        "text": "ascribe to Yahweh glory and strength!",
-        "break": true
-      }
+      { "text": "ascribe to Yahweh glory and strength!", "break": true }
     ]
   },
   {
@@ -4157,18 +4034,9 @@
     "chapter": 16,
     "verse": 29,
     "content": [
-      {
-        "text": "Ascribe to Yahweh the glory due to his name.",
-        "break": true
-      },
-      {
-        "text": "Bring an offering, and come before him.",
-        "break": true
-      },
-      {
-        "text": "Worship Yahweh in holy array.",
-        "break": true
-      }
+      { "text": "Ascribe to Yahweh the glory due to his name.", "break": true },
+      { "text": "Bring an offering, and come before him.", "break": true },
+      { "text": "Worship Yahweh in holy array.", "break": true }
     ]
   },
   {
@@ -4176,10 +4044,7 @@
     "chapter": 16,
     "verse": 30,
     "content": [
-      {
-        "text": "Tremble before him, all the earth.",
-        "break": true
-      },
+      { "text": "Tremble before him, all the earth.", "break": true },
       {
         "text": "The world also is established that it can’t be moved.",
         "break": true
@@ -4191,14 +4056,8 @@
     "chapter": 16,
     "verse": 31,
     "content": [
-      {
-        "text": "Let the heavens be glad,",
-        "break": true
-      },
-      {
-        "text": "and let the earth rejoice!",
-        "break": true
-      },
+      { "text": "Let the heavens be glad,", "break": true },
+      { "text": "and let the earth rejoice!", "break": true },
       {
         "text": "Let them say among the nations, “Yahweh reigns!”",
         "break": true
@@ -4210,14 +4069,8 @@
     "chapter": 16,
     "verse": 32,
     "content": [
-      {
-        "text": "Let the sea roar, and its fullness!",
-        "break": true
-      },
-      {
-        "text": "Let the field exult, and all that is in it!",
-        "break": true
-      }
+      { "text": "Let the sea roar, and its fullness!", "break": true },
+      { "text": "Let the field exult, and all that is in it!", "break": true }
     ]
   },
   {
@@ -4229,10 +4082,7 @@
         "text": "Then the trees of the forest will sing for joy before Yahweh,",
         "break": true
       },
-      {
-        "text": "for he comes to judge the earth.",
-        "break": true
-      }
+      { "text": "for he comes to judge the earth.", "break": true }
     ]
   },
   {
@@ -4240,14 +4090,8 @@
     "chapter": 16,
     "verse": 34,
     "content": [
-      {
-        "text": "Oh give thanks to Yahweh, for he is good,",
-        "break": true
-      },
-      {
-        "text": "for his loving kindness endures forever.",
-        "break": true
-      }
+      { "text": "Oh give thanks to Yahweh, for he is good,", "break": true },
+      { "text": "for his loving kindness endures forever.", "break": true }
     ]
   },
   {
@@ -4255,22 +4099,13 @@
     "chapter": 16,
     "verse": 35,
     "content": [
-      {
-        "text": "Say, “Save us, God of our salvation!",
-        "break": true
-      },
+      { "text": "Say, “Save us, God of our salvation!", "break": true },
       {
         "text": "Gather us together and deliver us from the nations,",
         "break": true
       },
-      {
-        "text": "to give thanks to your holy name,",
-        "break": true
-      },
-      {
-        "text": "to triumph in your praise.”",
-        "break": true
-      }
+      { "text": "to give thanks to your holy name,", "break": true },
+      { "text": "to triumph in your praise.”", "break": true }
     ]
   },
   {
@@ -4278,10 +4113,7 @@
     "chapter": 16,
     "verse": 36,
     "content": [
-      {
-        "text": "Blessed be Yahweh, the God of Israel,",
-        "break": true
-      },
+      { "text": "Blessed be Yahweh, the God of Israel,", "break": true },
       "from everlasting even to everlasting.",
       {
         "paragraph": true,
@@ -4751,10 +4583,7 @@
       {
         "paragraph": true,
         "text": "When the Syrians saw that they were defeated by Israel, they sent messengers and called out the Syrians who were beyond the River,",
-        "foot": {
-          "type": "trn",
-          "content": "or, the Euphrates River"
-        }
+        "foot": { "type": "trn", "content": "or, the Euphrates River" }
       },
       " with Shophach the captain of the army of Hadadezer leading them."
     ]
@@ -5182,10 +5011,7 @@
       },
       {
         "text": " of gold, one million talents",
-        "foot": {
-          "type": "stu",
-          "content": "about 30,000 metric tons"
-        }
+        "foot": { "type": "stu", "content": "about 30,000 metric tons" }
       },
       " of silver, and bronze and iron without weight; for it is in abundance. I have also prepared timber and stone; and you may add to them."
     ]
@@ -6419,10 +6245,7 @@
       },
       {
         "text": " of the gold of Ophir, and seven thousand talents",
-        "foot": {
-          "type": "stu",
-          "content": "about 210 metric tons"
-        }
+        "foot": { "type": "stu", "content": "about 210 metric tons" }
       },
       " of refined silver, with which to overlay the walls of the houses;"
     ]

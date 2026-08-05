@@ -11,10 +11,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -216,10 +213,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -275,10 +269,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -335,10 +326,7 @@
     "content": [
       {
         "text": "and the gold of that land is good. Bdellium",
-        "foot": {
-          "type": "trn",
-          "content": "or, aromatic resin"
-        }
+        "foot": { "type": "trn", "content": "or, aromatic resin" }
       },
       " and onyx stone are also there."
     ]
@@ -552,22 +540,10 @@
         "text": "Yahweh God said to the serpent,",
         "break": true
       },
-      {
-        "text": "“Because you have done this,",
-        "break": true
-      },
-      {
-        "text": "you are cursed above all livestock,",
-        "break": true
-      },
-      {
-        "text": "and above every animal of the field.",
-        "break": true
-      },
-      {
-        "text": "You shall go on your belly",
-        "break": true
-      },
+      { "text": "“Because you have done this,", "break": true },
+      { "text": "you are cursed above all livestock,", "break": true },
+      { "text": "and above every animal of the field.", "break": true },
+      { "text": "You shall go on your belly", "break": true },
       {
         "text": "and you shall eat dust all the days of your life.",
         "break": true
@@ -587,10 +563,7 @@
         "text": "and between your offspring and her offspring.",
         "break": true
       },
-      {
-        "text": "He will bruise your head,",
-        "break": true
-      },
+      { "text": "He will bruise your head,", "break": true },
       "and you will bruise his heel.”"
     ]
   },
@@ -599,23 +572,13 @@
     "chapter": 3,
     "verse": 16,
     "content": [
-      {
-        "paragraph": true,
-        "text": "To the woman he said,",
-        "break": true
-      },
+      { "paragraph": true, "text": "To the woman he said,", "break": true },
       {
         "text": "“I will greatly multiply your pain in childbirth.",
         "break": true
       },
-      {
-        "text": "You will bear children in pain.",
-        "break": true
-      },
-      {
-        "text": "Your desire will be for your husband,",
-        "break": true
-      },
+      { "text": "You will bear children in pain.", "break": true },
+      { "text": "Your desire will be for your husband,", "break": true },
       "and he will rule over you.”"
     ]
   },
@@ -624,27 +587,17 @@
     "chapter": 3,
     "verse": 17,
     "content": [
-      {
-        "paragraph": true,
-        "text": "To Adam he said,",
-        "break": true
-      },
+      { "paragraph": true, "text": "To Adam he said,", "break": true },
       {
         "text": "“Because you have listened to your wife’s voice,",
         "break": true
       },
-      {
-        "text": "and have eaten from the tree,",
-        "break": true
-      },
+      { "text": "and have eaten from the tree,", "break": true },
       {
         "text": "about which I commanded you, saying, ‘You shall not eat of it,’",
         "break": true
       },
-      {
-        "text": "the ground is cursed for your sake.",
-        "break": true
-      },
+      { "text": "the ground is cursed for your sake.", "break": true },
       {
         "text": "You will eat from it with much labor all the days of your life.",
         "break": true
@@ -656,14 +609,8 @@
     "chapter": 3,
     "verse": 18,
     "content": [
-      {
-        "text": "It will yield thorns and thistles to you;",
-        "break": true
-      },
-      {
-        "text": "and you will eat the herb of the field.",
-        "break": true
-      }
+      { "text": "It will yield thorns and thistles to you;", "break": true },
+      { "text": "and you will eat the herb of the field.", "break": true }
     ]
   },
   {
@@ -675,14 +622,8 @@
         "text": "You will eat bread by the sweat of your face until you return to the ground,",
         "break": true
       },
-      {
-        "text": "for you were taken out of it.",
-        "break": true
-      },
-      {
-        "text": "For you are dust,",
-        "break": true
-      },
+      { "text": "for you were taken out of it.", "break": true },
+      { "text": "For you are dust,", "break": true },
       "and you shall return to dust.”"
     ]
   },
@@ -746,10 +687,7 @@
       },
       {
         "text": " Eve his wife. She conceived,",
-        "foot": {
-          "type": "trn",
-          "content": "or, became pregnant"
-        }
+        "foot": { "type": "trn", "content": "or, became pregnant" }
       },
       " and gave birth to Cain, and said, “I have gotten a man with Yahweh’s help.”"
     ]
@@ -906,26 +844,11 @@
     "chapter": 4,
     "verse": 23,
     "content": [
-      {
-        "text": "Lamech said to his wives,",
-        "break": true
-      },
-      {
-        "text": "“Adah and Zillah, hear my voice.",
-        "break": true
-      },
-      {
-        "text": "You wives of Lamech, listen to my speech,",
-        "break": true
-      },
-      {
-        "text": "for I have slain a man for wounding me,",
-        "break": true
-      },
-      {
-        "text": "a young man for bruising me.",
-        "break": true
-      }
+      { "text": "Lamech said to his wives,", "break": true },
+      { "text": "“Adah and Zillah, hear my voice.", "break": true },
+      { "text": "You wives of Lamech, listen to my speech,", "break": true },
+      { "text": "for I have slain a man for wounding me,", "break": true },
+      { "text": "a young man for bruising me.", "break": true }
     ]
   },
   {
@@ -933,10 +856,7 @@
     "chapter": 4,
     "verse": 24,
     "content": [
-      {
-        "text": "If Cain will be avenged seven times,",
-        "break": true
-      },
+      { "text": "If Cain will be avenged seven times,", "break": true },
       "truly Lamech seventy-seven times.”"
     ]
   },
@@ -1211,10 +1131,7 @@
     "content": [
       {
         "text": "The Nephilim",
-        "foot": {
-          "type": "trn",
-          "content": "or, giants"
-        }
+        "foot": { "type": "trn", "content": "or, giants" }
       },
       " were in the earth in those days, and also after that, when God’s sons came in to men’s daughters and had children with them. Those were the mighty men who were of old, men of renown."
     ]
@@ -1607,10 +1524,7 @@
     "book": "GEN",
     "chapter": 8,
     "verse": 15,
-    "content": {
-      "paragraph": true,
-      "text": "God spoke to Noah, saying,"
-    }
+    "content": { "paragraph": true, "text": "God spoke to Noah, saying," }
   },
   {
     "book": "GEN",
@@ -1821,14 +1735,8 @@
     "chapter": 9,
     "verse": 25,
     "content": [
-      {
-        "text": "He said,",
-        "break": true
-      },
-      {
-        "text": "“Canaan is cursed.",
-        "break": true
-      },
+      { "text": "He said,", "break": true },
+      { "text": "“Canaan is cursed.", "break": true },
       "He will be a servant of servants to his brothers.”"
     ]
   },
@@ -1837,19 +1745,9 @@
     "chapter": 9,
     "verse": 26,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He said,",
-        "break": true
-      },
-      {
-        "text": "“Blessed be Yahweh, the God of Shem.",
-        "break": true
-      },
-      {
-        "text": "Let Canaan be his servant.",
-        "break": true
-      }
+      { "paragraph": true, "text": "He said,", "break": true },
+      { "text": "“Blessed be Yahweh, the God of Shem.", "break": true },
+      { "text": "Let Canaan be his servant.", "break": true }
     ]
   },
   {
@@ -1857,14 +1755,8 @@
     "chapter": 9,
     "verse": 27,
     "content": [
-      {
-        "text": "May God enlarge Japheth.",
-        "break": true
-      },
-      {
-        "text": "Let him dwell in the tents of Shem.",
-        "break": true
-      },
+      { "text": "May God enlarge Japheth.", "break": true },
+      { "text": "Let him dwell in the tents of Shem.", "break": true },
       "Let Canaan be his servant.”"
     ]
   },
@@ -2109,10 +2001,7 @@
     "content": [
       {
         "text": "As they traveled east,",
-        "foot": {
-          "type": "var",
-          "content": "LXX reads “from the east”."
-        }
+        "foot": { "type": "var", "content": "LXX reads “from the east”." }
       },
       " they found a plain in the land of Shinar, and they lived there."
     ]
@@ -2380,10 +2269,7 @@
       {
         "paragraph": true,
         "text": "Yahweh appeared to Abram and said, “I will give this land to your offspring.”",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       {
         "paragraph": true,
@@ -2727,10 +2613,7 @@
     "verse": 20,
     "content": [
       "Blessed be God Most High, who has delivered your enemies into your hand.”",
-      {
-        "paragraph": true,
-        "text": "Abram gave him a tenth of all."
-      }
+      { "paragraph": true, "text": "Abram gave him a tenth of all." }
     ]
   },
   {
@@ -3174,10 +3057,7 @@
       {
         "paragraph": true,
         "text": "God said, “No, but Sarah, your wife, will bear you a son. You shall call his name Isaac.",
-        "foot": {
-          "type": "stu",
-          "content": "Isaac means “he laughs”."
-        }
+        "foot": { "type": "stu", "content": "Isaac means “he laughs”." }
       },
       " I will establish my covenant with him for an everlasting covenant for his offspring after him."
     ]
@@ -3309,10 +3189,7 @@
         "paragraph": true,
         "text": "They asked him, “Where is Sarah, your wife?”"
       },
-      {
-        "paragraph": true,
-        "text": "He said, “There, in the tent.”"
-      }
+      { "paragraph": true, "text": "He said, “There, in the tent.”" }
     ]
   },
   {
@@ -3366,10 +3243,7 @@
         "paragraph": true,
         "text": "Then Sarah denied it, saying, “I didn’t laugh,” for she was afraid."
       },
-      {
-        "paragraph": true,
-        "text": "He said, “No, but you did laugh.”"
-      }
+      { "paragraph": true, "text": "He said, “No, but you did laugh.”" }
     ]
   },
   {
@@ -3702,10 +3576,7 @@
     "verse": 22,
     "content": {
       "text": "Hurry, escape there, for I can’t do anything until you get there.” Therefore the name of the city was called Zoar.",
-      "foot": {
-        "type": "stu",
-        "content": "Zoar means “little”."
-      }
+      "foot": { "type": "stu", "content": "Zoar means “little”." }
     }
   },
   {
@@ -3966,10 +3837,7 @@
     "verse": 3,
     "content": {
       "text": "Abraham called his son who was born to him, whom Sarah bore to him, Isaac.",
-      "foot": {
-        "type": "stu",
-        "content": "Isaac means “He laughs”."
-      }
+      "foot": { "type": "stu", "content": "Isaac means “He laughs”." }
     }
   },
   {
@@ -4117,10 +3985,7 @@
     "book": "GEN",
     "chapter": 21,
     "verse": 24,
-    "content": {
-      "paragraph": true,
-      "text": "Abraham said, “I will swear.”"
-    }
+    "content": { "paragraph": true, "text": "Abraham said, “I will swear.”" }
   },
   {
     "book": "GEN",
@@ -4206,10 +4071,7 @@
         "paragraph": true,
         "text": "After these things, God tested Abraham, and said to him, “Abraham!”"
       },
-      {
-        "paragraph": true,
-        "text": "He said, “Here I am.”"
-      }
+      { "paragraph": true, "text": "He said, “Here I am.”" }
     ]
   },
   {
@@ -4254,10 +4116,7 @@
     "verse": 7,
     "content": [
       "Isaac spoke to Abraham his father, and said, “My father?”",
-      {
-        "paragraph": true,
-        "text": "He said, “Here I am, my son.”"
-      },
+      { "paragraph": true, "text": "He said, “Here I am, my son.”" },
       {
         "paragraph": true,
         "text": "He said, “Here is the fire and the wood, but where is the lamb for a burnt offering?”"
@@ -4294,10 +4153,7 @@
         "paragraph": true,
         "text": "Yahweh’s angel called to him out of the sky, and said, “Abraham, Abraham!”"
       },
-      {
-        "paragraph": true,
-        "text": "He said, “Here I am.”"
-      }
+      { "paragraph": true, "text": "He said, “Here I am.”" }
     ]
   },
   {
@@ -4795,10 +4651,7 @@
     "verse": 33,
     "content": [
       "Food was set before him to eat, but he said, “I will not eat until I have told my message.”",
-      {
-        "paragraph": true,
-        "text": "Laban said, “Speak on.”"
-      }
+      { "paragraph": true, "text": "Laban said, “Speak on.”" }
     ]
   },
   {
@@ -4969,10 +4822,7 @@
     "verse": 58,
     "content": [
       "They called Rebekah, and said to her, “Will you go with this man?”",
-      {
-        "paragraph": true,
-        "text": "She said, “I will go.”"
-      }
+      { "paragraph": true, "text": "She said, “I will go.”" }
     ]
   },
   {
@@ -5023,14 +4873,8 @@
     "verse": 65,
     "content": [
       "She said to the servant, “Who is the man who is walking in the field to meet us?”",
-      {
-        "paragraph": true,
-        "text": "The servant said, “It is my master.”"
-      },
-      {
-        "paragraph": true,
-        "text": "She took her veil, and covered herself."
-      }
+      { "paragraph": true, "text": "The servant said, “It is my master.”" },
+      { "paragraph": true, "text": "She took her veil, and covered herself." }
     ]
   },
   {
@@ -5191,14 +5035,8 @@
     "chapter": 25,
     "verse": 23,
     "content": [
-      {
-        "text": "Yahweh said to her,",
-        "break": true
-      },
-      {
-        "text": "“Two nations are in your womb.",
-        "break": true
-      },
+      { "text": "Yahweh said to her,", "break": true },
+      { "text": "“Two nations are in your womb.", "break": true },
       {
         "text": "Two peoples will be separated from your body.",
         "break": true
@@ -5258,10 +5096,7 @@
     "verse": 30,
     "content": {
       "text": "Esau said to Jacob, “Please feed me with some of that red stew, for I am famished.” Therefore his name was called Edom.",
-      "foot": {
-        "type": "stu",
-        "content": "“Edom” means “red”."
-      }
+      "foot": { "type": "stu", "content": "“Edom” means “red”." }
     }
   },
   {
@@ -5287,10 +5122,7 @@
     "chapter": 25,
     "verse": 33,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Jacob said, “Swear to me first.”"
-      },
+      { "paragraph": true, "text": "Jacob said, “Swear to me first.”" },
       {
         "paragraph": true,
         "text": "He swore to him. He sold his birthright to Jacob."
@@ -5340,10 +5172,7 @@
     "book": "GEN",
     "chapter": 26,
     "verse": 6,
-    "content": {
-      "paragraph": true,
-      "text": "Isaac lived in Gerar."
-    }
+    "content": { "paragraph": true, "text": "Isaac lived in Gerar." }
   },
   {
     "book": "GEN",
@@ -5445,10 +5274,7 @@
     "content": [
       {
         "text": "Isaac’s servants dug in the valley, and found there a well of flowing",
-        "foot": {
-          "type": "trn",
-          "content": "Or, living. Or, fresh."
-        }
+        "foot": { "type": "trn", "content": "Or, living. Or, fresh." }
       },
       " water."
     ]
@@ -5460,10 +5286,7 @@
     "content": [
       {
         "text": "The herdsmen of Gerar argued with Isaac’s herdsmen, saying, “The water is ours.” So he called the name of the well Esek,",
-        "foot": {
-          "type": "stu",
-          "content": "“Esek” means “contention”."
-        }
+        "foot": { "type": "stu", "content": "“Esek” means “contention”." }
       },
       " because they contended with him."
     ]
@@ -5474,10 +5297,7 @@
     "verse": 21,
     "content": {
       "text": "They dug another well, and they argued over that, also. So he called its name Sitnah.",
-      "foot": {
-        "type": "stu",
-        "content": "“Sitnah” means “hostility”."
-      }
+      "foot": { "type": "stu", "content": "“Sitnah” means “hostility”." }
     }
   },
   {
@@ -5487,10 +5307,7 @@
     "content": [
       {
         "text": "He left that place, and dug another well. They didn’t argue over that one. So he called it Rehoboth.",
-        "foot": {
-          "type": "stu",
-          "content": "“Rehoboth” means “broad places”."
-        }
+        "foot": { "type": "stu", "content": "“Rehoboth” means “broad places”." }
       },
       " He said, “For now Yahweh has made room for us, and we will be fruitful in the land.”"
     ]
@@ -5577,10 +5394,7 @@
     "content": [
       {
         "text": "He called it “Shibah”.",
-        "foot": {
-          "type": "stu",
-          "content": "Shibah means “oath” or “seven”."
-        }
+        "foot": { "type": "stu", "content": "Shibah means “oath” or “seven”." }
       },
       {
         "text": " Therefore the name of the city is “Beersheba”",
@@ -5616,10 +5430,7 @@
         "paragraph": true,
         "text": "When Isaac was old, and his eyes were dim, so that he could not see, he called Esau his elder son, and said to him, “My son?”"
       },
-      {
-        "paragraph": true,
-        "text": "He said to him, “Here I am.”"
-      }
+      { "paragraph": true, "text": "He said to him, “Here I am.”" }
     ]
   },
   {
@@ -5802,10 +5613,7 @@
     "verse": 24,
     "content": [
       "He said, “Are you really my son Esau?”",
-      {
-        "paragraph": true,
-        "text": "He said, “I am.”"
-      }
+      { "paragraph": true, "text": "He said, “I am.”" }
     ]
   },
   {
@@ -5838,10 +5646,7 @@
         "text": "He came near, and kissed him. He smelled the smell of his clothing, and blessed him, and said,",
         "break": true
       },
-      {
-        "text": "“Behold, the smell of my son",
-        "break": true
-      },
+      { "text": "“Behold, the smell of my son", "break": true },
       {
         "text": "is as the smell of a field which Yahweh has blessed.",
         "break": true
@@ -5853,18 +5658,9 @@
     "chapter": 27,
     "verse": 28,
     "content": [
-      {
-        "text": "God give you of the dew of the sky,",
-        "break": true
-      },
-      {
-        "text": "of the fatness of the earth,",
-        "break": true
-      },
-      {
-        "text": "and plenty of grain and new wine.",
-        "break": true
-      }
+      { "text": "God give you of the dew of the sky,", "break": true },
+      { "text": "of the fatness of the earth,", "break": true },
+      { "text": "and plenty of grain and new wine.", "break": true }
     ]
   },
   {
@@ -5872,26 +5668,11 @@
     "chapter": 27,
     "verse": 29,
     "content": [
-      {
-        "text": "Let peoples serve you,",
-        "break": true
-      },
-      {
-        "text": "and nations bow down to you.",
-        "break": true
-      },
-      {
-        "text": "Be lord over your brothers.",
-        "break": true
-      },
-      {
-        "text": "Let your mother’s sons bow down to you.",
-        "break": true
-      },
-      {
-        "text": "Cursed be everyone who curses you.",
-        "break": true
-      },
+      { "text": "Let peoples serve you,", "break": true },
+      { "text": "and nations bow down to you.", "break": true },
+      { "text": "Be lord over your brothers.", "break": true },
+      { "text": "Let your mother’s sons bow down to you.", "break": true },
+      { "text": "Cursed be everyone who curses you.", "break": true },
       "Blessed be everyone who blesses you.”"
     ]
   },
@@ -5993,10 +5774,7 @@
         "text": "“Behold, your dwelling will be of the fatness of the earth,",
         "break": true
       },
-      {
-        "text": "and of the dew of the sky from above.",
-        "break": true
-      }
+      { "text": "and of the dew of the sky from above.", "break": true }
     ]
   },
   {
@@ -6008,10 +5786,7 @@
         "text": "You will live by your sword, and you will serve your brother.",
         "break": true
       },
-      {
-        "text": "It will happen, when you will break loose,",
-        "break": true
-      },
+      { "text": "It will happen, when you will break loose,", "break": true },
       "that you will shake his yoke from off your neck.”"
     ]
   },
@@ -6237,10 +6012,7 @@
     "verse": 4,
     "content": [
       "Jacob said to them, “My relatives, where are you from?”",
-      {
-        "paragraph": true,
-        "text": "They said, “We are from Haran.”"
-      }
+      { "paragraph": true, "text": "They said, “We are from Haran.”" }
     ]
   },
   {
@@ -6252,10 +6024,7 @@
         "paragraph": true,
         "text": "He said to them, “Do you know Laban, the son of Nahor?”"
       },
-      {
-        "paragraph": true,
-        "text": "They said, “We know him.”"
-      }
+      { "paragraph": true, "text": "They said, “We know him.”" }
     ]
   },
   {
@@ -6263,10 +6032,7 @@
     "chapter": 29,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He said to them, “Is it well with him?”"
-      },
+      { "paragraph": true, "text": "He said to them, “Is it well with him?”" },
       {
         "paragraph": true,
         "text": "They said, “It is well. See, Rachel, his daughter, is coming with the sheep.”"
@@ -6606,10 +6372,7 @@
         "paragraph": true,
         "text": "Jacob came from the field in the evening, and Leah went out to meet him, and said, “You must come in to me; for I have surely hired you with my son’s mandrakes.”"
       },
-      {
-        "paragraph": true,
-        "text": "He lay with her that night."
-      }
+      { "paragraph": true, "text": "He lay with her that night." }
     ]
   },
   {
@@ -6664,10 +6427,7 @@
     "content": [
       {
         "text": "She named him Joseph,",
-        "foot": {
-          "type": "stu",
-          "content": "Joseph means “may he add”."
-        }
+        "foot": { "type": "stu", "content": "Joseph means “may he add”." }
       },
       " saying, “May Yahweh add another son to me.”"
     ]
@@ -6722,10 +6482,7 @@
     "chapter": 30,
     "verse": 31,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Laban said, “What shall I give you?”"
-      },
+      { "paragraph": true, "text": "Laban said, “What shall I give you?”" },
       {
         "paragraph": true,
         "text": "Jacob said, “You shall not give me anything. If you will do this thing for me, I will again feed your flock and keep it."
@@ -7221,10 +6978,7 @@
     "verse": 2,
     "content": {
       "text": "When he saw them, Jacob said, “This is God’s army.” He called the name of that place Mahanaim.",
-      "foot": {
-        "type": "stu",
-        "content": "“Mahanaim” means “two camps”."
-      }
+      "foot": { "type": "stu", "content": "“Mahanaim” means “two camps”." }
     }
   },
   {
@@ -7394,14 +7148,8 @@
     "chapter": 32,
     "verse": 27,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He said to him, “What is your name?”"
-      },
-      {
-        "paragraph": true,
-        "text": "He said, “Jacob”."
-      }
+      { "paragraph": true, "text": "He said to him, “What is your name?”" },
+      { "paragraph": true, "text": "He said, “Jacob”." }
     ]
   },
   {
@@ -7436,10 +7184,7 @@
       {
         "paragraph": true,
         "text": "Jacob called the name of the place Peniel;",
-        "foot": {
-          "type": "stu",
-          "content": "Peniel means “face of God”."
-        }
+        "foot": { "type": "stu", "content": "Peniel means “face of God”." }
       },
       " for he said, “I have seen God face to face, and my life is preserved.”"
     ]
@@ -7603,10 +7348,7 @@
     "verse": 17,
     "content": {
       "text": "Jacob traveled to Succoth, built himself a house, and made shelters for his livestock. Therefore the name of the place is called Succoth.",
-      "foot": {
-        "type": "stu",
-        "content": "succoth means shelters or booths."
-      }
+      "foot": { "type": "stu", "content": "succoth means shelters or booths." }
     }
   },
   {
@@ -8018,10 +7760,7 @@
     "verse": 22,
     "content": [
       "While Israel lived in that land, Reuben went and lay with Bilhah, his father’s concubine, and Israel heard of it.",
-      {
-        "paragraph": true,
-        "text": "Now the sons of Jacob were twelve."
-      }
+      { "paragraph": true, "text": "Now the sons of Jacob were twelve." }
     ]
   },
   {
@@ -8595,10 +8334,7 @@
     "content": [
       {
         "text": "All his sons and all his daughters rose up to comfort him, but he refused to be comforted. He said, “For I will go down to Sheol",
-        "foot": {
-          "type": "stu",
-          "content": "Sheol is the place of the dead."
-        }
+        "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
       " to my son, mourning.” His father wept for him."
     ]
@@ -8737,10 +8473,7 @@
     "chapter": 38,
     "verse": 18,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He said, “What pledge will I give you?”"
-      },
+      { "paragraph": true, "text": "He said, “What pledge will I give you?”" },
       {
         "paragraph": true,
         "text": "She said, “Your signet and your cord, and your staff that is in your hand.”"
@@ -8820,10 +8553,7 @@
         "paragraph": true,
         "text": "Judah acknowledged them, and said, “She is more righteous than I, because I didn’t give her to Shelah, my son.”"
       },
-      {
-        "paragraph": true,
-        "text": "He knew her again no more."
-      }
+      { "paragraph": true, "text": "He knew her again no more." }
     ]
   },
   {
@@ -8844,10 +8574,7 @@
     "verse": 29,
     "content": {
       "text": "As he drew back his hand, behold, his brother came out, and she said, “Why have you made a breach for yourself?” Therefore his name was called Perez.",
-      "foot": {
-        "type": "stu",
-        "content": "Perez means “breaking out”."
-      }
+      "foot": { "type": "stu", "content": "Perez means “breaking out”." }
     }
   },
   {
@@ -8901,10 +8628,7 @@
     "verse": 6,
     "content": [
       "He left all that he had in Joseph’s hand. He didn’t concern himself with anything, except for the food which he ate.",
-      {
-        "paragraph": true,
-        "text": "Joseph was well-built and handsome."
-      }
+      { "paragraph": true, "text": "Joseph was well-built and handsome." }
     ]
   },
   {
@@ -9723,10 +9447,7 @@
     "verse": 20,
     "content": [
       "Bring your youngest brother to me; so will your words be verified, and you won’t die.”",
-      {
-        "paragraph": true,
-        "text": "They did so."
-      }
+      { "paragraph": true, "text": "They did so." }
     ]
   },
   {
@@ -9847,10 +9568,7 @@
     "content": {
       "paragraph": true,
       "text": "He said, “My son shall not go down with you; for his brother is dead, and he only is left. If harm happens to him along the way in which you go, then you will bring down my gray hairs with sorrow to Sheol.”",
-      "foot": {
-        "type": "stu",
-        "content": "Sheol is the place of the dead."
-      }
+      "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
     }
   },
   {
@@ -10291,10 +10009,7 @@
     "verse": 29,
     "content": {
       "text": "If you take this one also from me, and harm happens to him, you will bring down my gray hairs with sorrow to Sheol.’",
-      "foot": {
-        "type": "stu",
-        "content": "Sheol is the place of the dead."
-      }
+      "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
     }
   },
   {
@@ -10309,10 +10024,7 @@
     "verse": 31,
     "content": {
       "text": "it will happen, when he sees that the boy is no more, that he will die. Your servants will bring down the gray hairs of your servant, our father, with sorrow to Sheol.",
-      "foot": {
-        "type": "stu",
-        "content": "Sheol is the place of the dead."
-      }
+      "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
     }
   },
   {
@@ -10540,10 +10252,7 @@
     "verse": 2,
     "content": [
       "God spoke to Israel in the visions of the night, and said, “Jacob, Jacob!”",
-      {
-        "paragraph": true,
-        "text": "He said, “Here I am.”"
-      }
+      { "paragraph": true, "text": "He said, “Here I am.”" }
     ]
   },
   {
@@ -11094,10 +10803,7 @@
     "chapter": 48,
     "verse": 15,
     "content": [
-      {
-        "text": "He blessed Joseph, and said,",
-        "break": true
-      },
+      { "text": "He blessed Joseph, and said,", "break": true },
       {
         "text": "“The God before whom my fathers Abraham and Isaac walked,",
         "break": true
@@ -11117,10 +10823,7 @@
         "text": "the angel who has redeemed me from all evil, bless the lads,",
         "break": true
       },
-      {
-        "text": "and let my name be named on them,",
-        "break": true
-      },
+      { "text": "and let my name be named on them,", "break": true },
       {
         "text": "and the name of my fathers Abraham and Isaac.",
         "break": true
@@ -11202,10 +10905,7 @@
         "text": "“Reuben, you are my firstborn, my might, and the beginning of my strength,",
         "break": true
       },
-      {
-        "text": "excelling in dignity, and excelling in power.",
-        "break": true
-      }
+      { "text": "excelling in dignity, and excelling in power.", "break": true }
     ]
   },
   {
@@ -11217,10 +10917,7 @@
         "text": "Boiling over like water, you shall not excel,",
         "break": true
       },
-      {
-        "text": "because you went up to your father’s bed,",
-        "break": true
-      },
+      { "text": "because you went up to your father’s bed,", "break": true },
       "then defiled it. He went up to my couch."
     ]
   },
@@ -11234,10 +10931,7 @@
         "text": "“Simeon and Levi are brothers.",
         "break": true
       },
-      {
-        "text": "Their swords are weapons of violence.",
-        "break": true
-      }
+      { "text": "Their swords are weapons of violence.", "break": true }
     ]
   },
   {
@@ -11245,22 +10939,10 @@
     "chapter": 49,
     "verse": 6,
     "content": [
-      {
-        "text": "My soul, don’t come into their council.",
-        "break": true
-      },
-      {
-        "text": "My glory, don’t be united to their assembly;",
-        "break": true
-      },
-      {
-        "text": "for in their anger they killed men.",
-        "break": true
-      },
-      {
-        "text": "In their self-will they hamstrung cattle.",
-        "break": true
-      }
+      { "text": "My soul, don’t come into their council.", "break": true },
+      { "text": "My glory, don’t be united to their assembly;", "break": true },
+      { "text": "for in their anger they killed men.", "break": true },
+      { "text": "In their self-will they hamstrung cattle.", "break": true }
     ]
   },
   {
@@ -11268,18 +10950,9 @@
     "chapter": 49,
     "verse": 7,
     "content": [
-      {
-        "text": "Cursed be their anger, for it was fierce;",
-        "break": true
-      },
-      {
-        "text": "and their wrath, for it was cruel.",
-        "break": true
-      },
-      {
-        "text": "I will divide them in Jacob,",
-        "break": true
-      },
+      { "text": "Cursed be their anger, for it was fierce;", "break": true },
+      { "text": "and their wrath, for it was cruel.", "break": true },
+      { "text": "I will divide them in Jacob,", "break": true },
       "and scatter them in Israel."
     ]
   },
@@ -11297,10 +10970,7 @@
         "text": "Your hand will be on the neck of your enemies.",
         "break": true
       },
-      {
-        "text": "Your father’s sons will bow down before you.",
-        "break": true
-      }
+      { "text": "Your father’s sons will bow down before you.", "break": true }
     ]
   },
   {
@@ -11308,26 +10978,11 @@
     "chapter": 49,
     "verse": 9,
     "content": [
-      {
-        "text": "Judah is a lion’s cub.",
-        "break": true
-      },
-      {
-        "text": "From the prey, my son, you have gone up.",
-        "break": true
-      },
-      {
-        "text": "He stooped down, he crouched as a lion,",
-        "break": true
-      },
-      {
-        "text": "as a lioness.",
-        "break": true
-      },
-      {
-        "text": "Who will rouse him up?",
-        "break": true
-      }
+      { "text": "Judah is a lion’s cub.", "break": true },
+      { "text": "From the prey, my son, you have gone up.", "break": true },
+      { "text": "He stooped down, he crouched as a lion,", "break": true },
+      { "text": "as a lioness.", "break": true },
+      { "text": "Who will rouse him up?", "break": true }
     ]
   },
   {
@@ -11335,22 +10990,10 @@
     "chapter": 49,
     "verse": 10,
     "content": [
-      {
-        "text": "The scepter will not depart from Judah,",
-        "break": true
-      },
-      {
-        "text": "nor the ruler’s staff from between his feet,",
-        "break": true
-      },
-      {
-        "text": "until he comes to whom it belongs.",
-        "break": true
-      },
-      {
-        "text": "The obedience of the peoples will be to him.",
-        "break": true
-      }
+      { "text": "The scepter will not depart from Judah,", "break": true },
+      { "text": "nor the ruler’s staff from between his feet,", "break": true },
+      { "text": "until he comes to whom it belongs.", "break": true },
+      { "text": "The obedience of the peoples will be to him.", "break": true }
     ]
   },
   {
@@ -11358,22 +11001,10 @@
     "chapter": 49,
     "verse": 11,
     "content": [
-      {
-        "text": "Binding his foal to the vine,",
-        "break": true
-      },
-      {
-        "text": "his donkey’s colt to the choice vine,",
-        "break": true
-      },
-      {
-        "text": "he has washed his garments in wine,",
-        "break": true
-      },
-      {
-        "text": "his robes in the blood of grapes.",
-        "break": true
-      }
+      { "text": "Binding his foal to the vine,", "break": true },
+      { "text": "his donkey’s colt to the choice vine,", "break": true },
+      { "text": "he has washed his garments in wine,", "break": true },
+      { "text": "his robes in the blood of grapes.", "break": true }
     ]
   },
   {
@@ -11381,10 +11012,7 @@
     "chapter": 49,
     "verse": 12,
     "content": [
-      {
-        "text": "His eyes will be red with wine,",
-        "break": true
-      },
+      { "text": "His eyes will be red with wine,", "break": true },
       "his teeth white with milk."
     ]
   },
@@ -11398,10 +11026,7 @@
         "text": "“Zebulun will dwell at the haven of the sea.",
         "break": true
       },
-      {
-        "text": "He will be for a haven of ships.",
-        "break": true
-      },
+      { "text": "He will be for a haven of ships.", "break": true },
       "His border will be on Sidon."
     ]
   },
@@ -11415,10 +11040,7 @@
         "text": "“Issachar is a strong donkey,",
         "break": true
       },
-      {
-        "text": "lying down between the saddlebags.",
-        "break": true
-      }
+      { "text": "lying down between the saddlebags.", "break": true }
     ]
   },
   {
@@ -11426,18 +11048,9 @@
     "chapter": 49,
     "verse": 15,
     "content": [
-      {
-        "text": "He saw a resting place, that it was good,",
-        "break": true
-      },
-      {
-        "text": "the land, that it was pleasant.",
-        "break": true
-      },
-      {
-        "text": "He bows his shoulder to the burden,",
-        "break": true
-      },
+      { "text": "He saw a resting place, that it was good,", "break": true },
+      { "text": "the land, that it was pleasant.", "break": true },
+      { "text": "He bows his shoulder to the burden,", "break": true },
       "and becomes a servant doing forced labor."
     ]
   },
@@ -11451,10 +11064,7 @@
         "text": "“Dan will judge his people,",
         "break": true
       },
-      {
-        "text": "as one of the tribes of Israel.",
-        "break": true
-      }
+      { "text": "as one of the tribes of Israel.", "break": true }
     ]
   },
   {
@@ -11462,22 +11072,10 @@
     "chapter": 49,
     "verse": 17,
     "content": [
-      {
-        "text": "Dan will be a serpent on the trail,",
-        "break": true
-      },
-      {
-        "text": "an adder in the path,",
-        "break": true
-      },
-      {
-        "text": "that bites the horse’s heels,",
-        "break": true
-      },
-      {
-        "text": "so that his rider falls backward.",
-        "break": true
-      }
+      { "text": "Dan will be a serpent on the trail,", "break": true },
+      { "text": "an adder in the path,", "break": true },
+      { "text": "that bites the horse’s heels,", "break": true },
+      { "text": "so that his rider falls backward.", "break": true }
     ]
   },
   {
@@ -11535,14 +11133,8 @@
         "text": "“Joseph is a fruitful vine,",
         "break": true
       },
-      {
-        "text": "a fruitful vine by a spring.",
-        "break": true
-      },
-      {
-        "text": "His branches run over the wall.",
-        "break": true
-      }
+      { "text": "a fruitful vine by a spring.", "break": true },
+      { "text": "His branches run over the wall.", "break": true }
     ]
   },
   {
@@ -11550,14 +11142,8 @@
     "chapter": 49,
     "verse": 23,
     "content": [
-      {
-        "text": "The archers have severely grieved him,",
-        "break": true
-      },
-      {
-        "text": "shot at him, and persecuted him:",
-        "break": true
-      }
+      { "text": "The archers have severely grieved him,", "break": true },
+      { "text": "shot at him, and persecuted him:", "break": true }
     ]
   },
   {
@@ -11565,18 +11151,9 @@
     "chapter": 49,
     "verse": 24,
     "content": [
-      {
-        "text": "But his bow remained strong.",
-        "break": true
-      },
-      {
-        "text": "The arms of his hands were made strong,",
-        "break": true
-      },
-      {
-        "text": "by the hands of the Mighty One of Jacob,",
-        "break": true
-      },
+      { "text": "But his bow remained strong.", "break": true },
+      { "text": "The arms of his hands were made strong,", "break": true },
+      { "text": "by the hands of the Mighty One of Jacob,", "break": true },
       {
         "text": "(from there is the shepherd, the stone of Israel),",
         "break": true
@@ -11592,22 +11169,10 @@
         "text": "even by the God of your father, who will help you,",
         "break": true
       },
-      {
-        "text": "by the Almighty, who will bless you,",
-        "break": true
-      },
-      {
-        "text": "with blessings of heaven above,",
-        "break": true
-      },
-      {
-        "text": "blessings of the deep that lies below,",
-        "break": true
-      },
-      {
-        "text": "blessings of the breasts, and of the womb.",
-        "break": true
-      }
+      { "text": "by the Almighty, who will bless you,", "break": true },
+      { "text": "with blessings of heaven above,", "break": true },
+      { "text": "blessings of the deep that lies below,", "break": true },
+      { "text": "blessings of the breasts, and of the womb.", "break": true }
     ]
   },
   {
@@ -11619,14 +11184,8 @@
         "text": "The blessings of your father have prevailed above the blessings of my ancestors,",
         "break": true
       },
-      {
-        "text": "above the boundaries of the ancient hills.",
-        "break": true
-      },
-      {
-        "text": "They will be on the head of Joseph,",
-        "break": true
-      },
+      { "text": "above the boundaries of the ancient hills.", "break": true },
+      { "text": "They will be on the head of Joseph,", "break": true },
       "on the crown of the head of him who is separated from his brothers."
     ]
   },
@@ -11640,10 +11199,7 @@
         "text": "“Benjamin is a ravenous wolf.",
         "break": true
       },
-      {
-        "text": "In the morning he will devour the prey.",
-        "break": true
-      },
+      { "text": "In the morning he will devour the prey.", "break": true },
       "At evening he will divide the plunder.”"
     ]
   },

@@ -11,10 +11,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -78,10 +75,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -189,10 +183,7 @@
     "book": "ZEC",
     "chapter": 1,
     "verse": 20,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh showed me four craftsmen."
-    }
+    "content": { "paragraph": true, "text": "Yahweh showed me four craftsmen." }
   },
   {
     "book": "ZEC",
@@ -422,10 +413,7 @@
         "paragraph": true,
         "text": "Then the angel who talked with me answered me, “Don’t you know what these are?”"
       },
-      {
-        "paragraph": true,
-        "text": "I said, “No, my lord.”"
-      }
+      { "paragraph": true, "text": "I said, “No, my lord.”" }
     ]
   },
   {
@@ -491,10 +479,7 @@
         "paragraph": true,
         "text": "He answered me, “Don’t you know what these are?”"
       },
-      {
-        "paragraph": true,
-        "text": "I said, “No, my lord.”"
-      }
+      { "paragraph": true, "text": "I said, “No, my lord.”" }
     ]
   },
   {
@@ -568,10 +553,7 @@
     "chapter": 5,
     "verse": 6,
     "content": [
-      {
-        "paragraph": true,
-        "text": "I said, “What is it?”"
-      },
+      { "paragraph": true, "text": "I said, “What is it?”" },
       {
         "paragraph": true,
         "text": "He said, “This is the ephah",
@@ -742,10 +724,7 @@
         "type": "trn",
         "content": [
           "The Hebrew word rendered “God” is “",
-          {
-            "text": "אֱלֹהִ֑ים",
-            "script": "H"
-          },
+          { "text": "אֱלֹהִ֑ים", "script": "H" },
           "” (Elohim)."
         ]
       }
@@ -1014,23 +993,13 @@
     "chapter": 9,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "A revelation.",
-        "break": true
-      },
+      { "paragraph": true, "text": "A revelation.", "break": true },
       {
         "text": "Yahweh’s word is against the land of Hadrach,",
         "break": true
       },
-      {
-        "text": "and will rest upon Damascus—",
-        "break": true
-      },
-      {
-        "text": "for the eye of man",
-        "break": true
-      },
+      { "text": "and will rest upon Damascus—", "break": true },
+      { "text": "for the eye of man", "break": true },
       {
         "text": "and of all the tribes of Israel is toward Yahweh—",
         "break": true
@@ -1042,14 +1011,8 @@
     "chapter": 9,
     "verse": 2,
     "content": [
-      {
-        "text": "and Hamath, also, which borders on it,",
-        "break": true
-      },
-      {
-        "text": "Tyre and Sidon, because they are very wise.",
-        "break": true
-      }
+      { "text": "and Hamath, also, which borders on it,", "break": true },
+      { "text": "Tyre and Sidon, because they are very wise.", "break": true }
     ]
   },
   {
@@ -1057,18 +1020,9 @@
     "chapter": 9,
     "verse": 3,
     "content": [
-      {
-        "text": "Tyre built herself a stronghold,",
-        "break": true
-      },
-      {
-        "text": "and heaped up silver like the dust,",
-        "break": true
-      },
-      {
-        "text": "and fine gold like the mire of the streets.",
-        "break": true
-      }
+      { "text": "Tyre built herself a stronghold,", "break": true },
+      { "text": "and heaped up silver like the dust,", "break": true },
+      { "text": "and fine gold like the mire of the streets.", "break": true }
     ]
   },
   {
@@ -1076,14 +1030,8 @@
     "chapter": 9,
     "verse": 4,
     "content": [
-      {
-        "text": "Behold, the Lord will dispossess her,",
-        "break": true
-      },
-      {
-        "text": "and he will strike her power in the sea;",
-        "break": true
-      },
+      { "text": "Behold, the Lord will dispossess her,", "break": true },
+      { "text": "and he will strike her power in the sea;", "break": true },
       "and she will be devoured with fire."
     ]
   },
@@ -1097,22 +1045,13 @@
         "text": "Ashkelon will see it, and fear;",
         "break": true
       },
-      {
-        "text": "Gaza also, and will writhe in agony;",
-        "break": true
-      },
+      { "text": "Gaza also, and will writhe in agony;", "break": true },
       {
         "text": "as will Ekron, for her expectation will be disappointed;",
         "break": true
       },
-      {
-        "text": "and the king will perish from Gaza,",
-        "break": true
-      },
-      {
-        "text": "and Ashkelon will not be inhabited.",
-        "break": true
-      }
+      { "text": "and the king will perish from Gaza,", "break": true },
+      { "text": "and Ashkelon will not be inhabited.", "break": true }
     ]
   },
   {
@@ -1120,10 +1059,7 @@
     "chapter": 9,
     "verse": 6,
     "content": [
-      {
-        "text": "Foreigners will dwell in Ashdod,",
-        "break": true
-      },
+      { "text": "Foreigners will dwell in Ashdod,", "break": true },
       {
         "text": "and I will cut off the pride of the Philistines.",
         "break": true
@@ -1135,26 +1071,11 @@
     "chapter": 9,
     "verse": 7,
     "content": [
-      {
-        "text": "I will take away his blood out of his mouth,",
-        "break": true
-      },
-      {
-        "text": "and his abominations from between his teeth;",
-        "break": true
-      },
-      {
-        "text": "and he also will be a remnant for our God;",
-        "break": true
-      },
-      {
-        "text": "and he will be as a chieftain in Judah,",
-        "break": true
-      },
-      {
-        "text": "and Ekron as a Jebusite.",
-        "break": true
-      }
+      { "text": "I will take away his blood out of his mouth,", "break": true },
+      { "text": "and his abominations from between his teeth;", "break": true },
+      { "text": "and he also will be a remnant for our God;", "break": true },
+      { "text": "and he will be as a chieftain in Judah,", "break": true },
+      { "text": "and Ekron as a Jebusite.", "break": true }
     ]
   },
   {
@@ -1166,10 +1087,7 @@
         "text": "I will encamp around my house against the army,",
         "break": true
       },
-      {
-        "text": "that no one pass through or return;",
-        "break": true
-      },
+      { "text": "that no one pass through or return;", "break": true },
       {
         "text": "and no oppressor will pass through them any more:",
         "break": true
@@ -1187,26 +1105,11 @@
         "text": "Rejoice greatly, daughter of Zion!",
         "break": true
       },
-      {
-        "text": "Shout, daughter of Jerusalem!",
-        "break": true
-      },
-      {
-        "text": "Behold, your King comes to you!",
-        "break": true
-      },
-      {
-        "text": "He is righteous, and having salvation;",
-        "break": true
-      },
-      {
-        "text": "lowly, and riding on a donkey,",
-        "break": true
-      },
-      {
-        "text": "even on a colt, the foal of a donkey.",
-        "break": true
-      }
+      { "text": "Shout, daughter of Jerusalem!", "break": true },
+      { "text": "Behold, your King comes to you!", "break": true },
+      { "text": "He is righteous, and having salvation;", "break": true },
+      { "text": "lowly, and riding on a donkey,", "break": true },
+      { "text": "even on a colt, the foal of a donkey.", "break": true }
     ]
   },
   {
@@ -1214,26 +1117,11 @@
     "chapter": 9,
     "verse": 10,
     "content": [
-      {
-        "text": "I will cut off the chariot from Ephraim",
-        "break": true
-      },
-      {
-        "text": "and the horse from Jerusalem.",
-        "break": true
-      },
-      {
-        "text": "The battle bow will be cut off;",
-        "break": true
-      },
-      {
-        "text": "and he will speak peace to the nations.",
-        "break": true
-      },
-      {
-        "text": "His dominion will be from sea to sea,",
-        "break": true
-      },
+      { "text": "I will cut off the chariot from Ephraim", "break": true },
+      { "text": "and the horse from Jerusalem.", "break": true },
+      { "text": "The battle bow will be cut off;", "break": true },
+      { "text": "and he will speak peace to the nations.", "break": true },
+      { "text": "His dominion will be from sea to sea,", "break": true },
       "and from the River to the ends of the earth."
     ]
   },
@@ -1242,15 +1130,8 @@
     "chapter": 9,
     "verse": 11,
     "content": [
-      {
-        "paragraph": true,
-        "text": "As for you also,",
-        "break": true
-      },
-      {
-        "text": "because of the blood of your covenant,",
-        "break": true
-      },
+      { "paragraph": true, "text": "As for you also,", "break": true },
+      { "text": "because of the blood of your covenant,", "break": true },
       {
         "text": "I have set free your prisoners from the pit in which is no water.",
         "break": true
@@ -1277,22 +1158,10 @@
     "chapter": 9,
     "verse": 13,
     "content": [
-      {
-        "text": "For indeed I bend Judah as a bow for me.",
-        "break": true
-      },
-      {
-        "text": "I have loaded the bow with Ephraim.",
-        "break": true
-      },
-      {
-        "text": "I will stir up your sons, Zion,",
-        "break": true
-      },
-      {
-        "text": "against your sons, Greece,",
-        "break": true
-      },
+      { "text": "For indeed I bend Judah as a bow for me.", "break": true },
+      { "text": "I have loaded the bow with Ephraim.", "break": true },
+      { "text": "I will stir up your sons, Zion,", "break": true },
+      { "text": "against your sons, Greece,", "break": true },
       "and will make you like the sword of a mighty man."
     ]
   },
@@ -1306,18 +1175,9 @@
         "text": "Yahweh will be seen over them.",
         "break": true
       },
-      {
-        "text": "His arrow will flash like lightning.",
-        "break": true
-      },
-      {
-        "text": "The Lord Yahweh will blow the trumpet,",
-        "break": true
-      },
-      {
-        "text": "and will go with whirlwinds of the south.",
-        "break": true
-      }
+      { "text": "His arrow will flash like lightning.", "break": true },
+      { "text": "The Lord Yahweh will blow the trumpet,", "break": true },
+      { "text": "and will go with whirlwinds of the south.", "break": true }
     ]
   },
   {
@@ -1325,22 +1185,13 @@
     "chapter": 9,
     "verse": 15,
     "content": [
-      {
-        "text": "Yahweh of Armies will defend them.",
-        "break": true
-      },
+      { "text": "Yahweh of Armies will defend them.", "break": true },
       {
         "text": "They will destroy and overcome with sling stones.",
         "break": true
       },
-      {
-        "text": "They will drink, and roar as through wine.",
-        "break": true
-      },
-      {
-        "text": "They will be filled like bowls,",
-        "break": true
-      },
+      { "text": "They will drink, and roar as through wine.", "break": true },
+      { "text": "They will be filled like bowls,", "break": true },
       "like the corners of the altar."
     ]
   },
@@ -1354,14 +1205,8 @@
         "text": "Yahweh their God will save them in that day as the flock of his people;",
         "break": true
       },
-      {
-        "text": "for they are like the jewels of a crown,",
-        "break": true
-      },
-      {
-        "text": "lifted on high over his land.",
-        "break": true
-      }
+      { "text": "for they are like the jewels of a crown,", "break": true },
+      { "text": "lifted on high over his land.", "break": true }
     ]
   },
   {
@@ -1369,18 +1214,9 @@
     "chapter": 9,
     "verse": 17,
     "content": [
-      {
-        "text": "For how great is his goodness,",
-        "break": true
-      },
-      {
-        "text": "and how great is his beauty!",
-        "break": true
-      },
-      {
-        "text": "Grain will make the young men flourish,",
-        "break": true
-      },
+      { "text": "For how great is his goodness,", "break": true },
+      { "text": "and how great is his beauty!", "break": true },
+      { "text": "Grain will make the young men flourish,", "break": true },
       "and new wine the virgins."
     ]
   },
@@ -1394,10 +1230,7 @@
         "text": "Ask of Yahweh rain in the spring time,",
         "break": true
       },
-      {
-        "text": "Yahweh who makes storm clouds,",
-        "break": true
-      },
+      { "text": "Yahweh who makes storm clouds,", "break": true },
       {
         "text": "and he gives rain showers to everyone for the plants in the field.",
         "break": true
@@ -1416,26 +1249,11 @@
           "content": "teraphim were household idols that may have been associated with inheritance rights to the household property."
         }
       },
-      {
-        "text": " have spoken vanity,",
-        "break": true
-      },
-      {
-        "text": "and the diviners have seen a lie;",
-        "break": true
-      },
-      {
-        "text": "and they have told false dreams.",
-        "break": true
-      },
-      {
-        "text": "They comfort in vain.",
-        "break": true
-      },
-      {
-        "text": "Therefore they go their way like sheep.",
-        "break": true
-      },
+      { "text": " have spoken vanity,", "break": true },
+      { "text": "and the diviners have seen a lie;", "break": true },
+      { "text": "and they have told false dreams.", "break": true },
+      { "text": "They comfort in vain.", "break": true },
+      { "text": "Therefore they go their way like sheep.", "break": true },
       "They are oppressed, because there is no shepherd."
     ]
   },
@@ -1449,10 +1267,7 @@
         "text": "My anger is kindled against the shepherds,",
         "break": true
       },
-      {
-        "text": "and I will punish the male goats,",
-        "break": true
-      },
+      { "text": "and I will punish the male goats,", "break": true },
       {
         "text": "for Yahweh of Armies has visited his flock, the house of Judah,",
         "break": true
@@ -1468,22 +1283,10 @@
     "chapter": 10,
     "verse": 4,
     "content": [
-      {
-        "text": "From him will come the cornerstone,",
-        "break": true
-      },
-      {
-        "text": "from him the tent peg,",
-        "break": true
-      },
-      {
-        "text": "from him the battle bow,",
-        "break": true
-      },
-      {
-        "text": "from him every ruler together.",
-        "break": true
-      }
+      { "text": "From him will come the cornerstone,", "break": true },
+      { "text": "from him the tent peg,", "break": true },
+      { "text": "from him the battle bow,", "break": true },
+      { "text": "from him every ruler together.", "break": true }
     ]
   },
   {
@@ -1491,14 +1294,8 @@
     "chapter": 10,
     "verse": 5,
     "content": [
-      {
-        "text": "They will be as mighty men,",
-        "break": true
-      },
-      {
-        "text": "treading down muddy streets in the battle.",
-        "break": true
-      },
+      { "text": "They will be as mighty men,", "break": true },
+      { "text": "treading down muddy streets in the battle.", "break": true },
       {
         "text": "They will fight, because Yahweh is with them.",
         "break": true
@@ -1516,18 +1313,9 @@
         "text": "“I will strengthen the house of Judah,",
         "break": true
       },
-      {
-        "text": "and I will save the house of Joseph.",
-        "break": true
-      },
-      {
-        "text": "I will bring them back,",
-        "break": true
-      },
-      {
-        "text": "for I have mercy on them.",
-        "break": true
-      },
+      { "text": "and I will save the house of Joseph.", "break": true },
+      { "text": "I will bring them back,", "break": true },
+      { "text": "for I have mercy on them.", "break": true },
       {
         "text": "They will be as though I had not cast them off,",
         "break": true
@@ -1543,22 +1331,13 @@
     "chapter": 10,
     "verse": 7,
     "content": [
-      {
-        "text": "Ephraim will be like a mighty man,",
-        "break": true
-      },
+      { "text": "Ephraim will be like a mighty man,", "break": true },
       {
         "text": "and their heart will rejoice as through wine.",
         "break": true
       },
-      {
-        "text": "Yes, their children will see it and rejoice.",
-        "break": true
-      },
-      {
-        "text": "Their heart will be glad in Yahweh.",
-        "break": true
-      }
+      { "text": "Yes, their children will see it and rejoice.", "break": true },
+      { "text": "Their heart will be glad in Yahweh.", "break": true }
     ]
   },
   {
@@ -1566,18 +1345,9 @@
     "chapter": 10,
     "verse": 8,
     "content": [
-      {
-        "text": "I will signal for them and gather them,",
-        "break": true
-      },
-      {
-        "text": "for I have redeemed them.",
-        "break": true
-      },
-      {
-        "text": "They will increase as they were before.",
-        "break": true
-      }
+      { "text": "I will signal for them and gather them,", "break": true },
+      { "text": "for I have redeemed them.", "break": true },
+      { "text": "They will increase as they were before.", "break": true }
     ]
   },
   {
@@ -1585,14 +1355,8 @@
     "chapter": 10,
     "verse": 9,
     "content": [
-      {
-        "text": "I will sow them among the peoples.",
-        "break": true
-      },
-      {
-        "text": "They will remember me in far countries.",
-        "break": true
-      },
+      { "text": "I will sow them among the peoples.", "break": true },
+      { "text": "They will remember me in far countries.", "break": true },
       {
         "text": "They will live with their children and will return.",
         "break": true
@@ -1608,18 +1372,12 @@
         "text": "I will bring them again also out of the land of Egypt,",
         "break": true
       },
-      {
-        "text": "and gather them out of Assyria.",
-        "break": true
-      },
+      { "text": "and gather them out of Assyria.", "break": true },
       {
         "text": "I will bring them into the land of Gilead and Lebanon;",
         "break": true
       },
-      {
-        "text": "and there won’t be room enough for them.",
-        "break": true
-      }
+      { "text": "and there won’t be room enough for them.", "break": true }
     ]
   },
   {
@@ -1627,26 +1385,14 @@
     "chapter": 10,
     "verse": 11,
     "content": [
-      {
-        "text": "He will pass through the sea of affliction,",
-        "break": true
-      },
-      {
-        "text": "and will strike the waves in the sea,",
-        "break": true
-      },
-      {
-        "text": "and all the depths of the Nile will dry up;",
-        "break": true
-      },
+      { "text": "He will pass through the sea of affliction,", "break": true },
+      { "text": "and will strike the waves in the sea,", "break": true },
+      { "text": "and all the depths of the Nile will dry up;", "break": true },
       {
         "text": "and the pride of Assyria will be brought down,",
         "break": true
       },
-      {
-        "text": "and the scepter of Egypt will depart.",
-        "break": true
-      }
+      { "text": "and the scepter of Egypt will depart.", "break": true }
     ]
   },
   {
@@ -1654,10 +1400,7 @@
     "chapter": 10,
     "verse": 12,
     "content": [
-      {
-        "text": "I will strengthen them in Yahweh.",
-        "break": true
-      },
+      { "text": "I will strengthen them in Yahweh.", "break": true },
       "They will walk up and down in his name,” says Yahweh."
     ]
   },
@@ -1666,15 +1409,8 @@
     "chapter": 11,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Open your doors, Lebanon,",
-        "break": true
-      },
-      {
-        "text": "that the fire may devour your cedars.",
-        "break": true
-      }
+      { "paragraph": true, "text": "Open your doors, Lebanon,", "break": true },
+      { "text": "that the fire may devour your cedars.", "break": true }
     ]
   },
   {
@@ -1686,18 +1422,9 @@
         "text": "Wail, cypress tree, for the cedar has fallen,",
         "break": true
       },
-      {
-        "text": "because the stately ones are destroyed.",
-        "break": true
-      },
-      {
-        "text": "Wail, you oaks of Bashan,",
-        "break": true
-      },
-      {
-        "text": "for the strong forest has come down.",
-        "break": true
-      }
+      { "text": "because the stately ones are destroyed.", "break": true },
+      { "text": "Wail, you oaks of Bashan,", "break": true },
+      { "text": "for the strong forest has come down.", "break": true }
     ]
   },
   {
@@ -1705,10 +1432,7 @@
     "chapter": 11,
     "verse": 3,
     "content": [
-      {
-        "text": "A voice of the wailing of the shepherds!",
-        "break": true
-      },
+      { "text": "A voice of the wailing of the shepherds!", "break": true },
       {
         "text": "For their glory is destroyed—a voice of the roaring of young lions!",
         "break": true
@@ -1987,14 +1711,8 @@
         "text": "It shall happen that in all the land,” says Yahweh,",
         "break": true
       },
-      {
-        "text": "“two parts in it will be cut off and die;",
-        "break": true
-      },
-      {
-        "text": "but the third will be left in it.",
-        "break": true
-      }
+      { "text": "“two parts in it will be cut off and die;", "break": true },
+      { "text": "but the third will be left in it.", "break": true }
     ]
   },
   {
@@ -2002,26 +1720,14 @@
     "chapter": 13,
     "verse": 9,
     "content": [
-      {
-        "text": "I will bring the third part into the fire,",
-        "break": true
-      },
-      {
-        "text": "and will refine them as silver is refined,",
-        "break": true
-      },
-      {
-        "text": "and will test them like gold is tested.",
-        "break": true
-      },
+      { "text": "I will bring the third part into the fire,", "break": true },
+      { "text": "and will refine them as silver is refined,", "break": true },
+      { "text": "and will test them like gold is tested.", "break": true },
       {
         "text": "They will call on my name, and I will hear them.",
         "break": true
       },
-      {
-        "text": "I will say, ‘It is my people;’",
-        "break": true
-      },
+      { "text": "I will say, ‘It is my people;’", "break": true },
       "and they will say, ‘Yahweh is my God.’ ”"
     ]
   },
@@ -2185,10 +1891,7 @@
     "content": [
       {
         "text": "Yes, every pot in Jerusalem and in Judah will be holy to Yahweh of Armies; and all those who sacrifice will come and take of them, and cook in them. In that day there will no longer be a Canaanite",
-        "foot": {
-          "type": "trn",
-          "content": "or, merchant"
-        }
+        "foot": { "type": "trn", "content": "or, merchant" }
       },
       " in the house of Yahweh of Armies."
     ]

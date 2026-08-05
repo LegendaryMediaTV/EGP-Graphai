@@ -11,10 +11,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -78,10 +75,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -173,10 +167,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -575,10 +566,7 @@
     "book": "JSH",
     "chapter": 4,
     "verse": 15,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Joshua, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Joshua, saying," }
   },
   {
     "book": "JSH",
@@ -959,10 +947,7 @@
     "verse": 2,
     "content": [
       "Joshua sent men from Jericho to Ai, which is beside Beth Aven, on the east side of Bethel, and spoke to them, saying, “Go up and spy out the land.”",
-      {
-        "paragraph": true,
-        "text": "The men went up and spied out Ai."
-      }
+      { "paragraph": true, "text": "The men went up and spied out Ai." }
     ]
   },
   {
@@ -3588,10 +3573,7 @@
     "book": "JSH",
     "chapter": 20,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Yahweh spoke to Joshua, saying,"
-    }
+    "content": { "paragraph": true, "text": "Yahweh spoke to Joshua, saying," }
   },
   {
     "book": "JSH",
@@ -4299,10 +4281,7 @@
     "content": [
       {
         "text": "I took your father Abraham from beyond the River, and led him throughout all the land of Canaan, and multiplied his offspring,",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " and gave him Isaac."
     ]
@@ -4442,10 +4421,7 @@
     "verse": 22,
     "content": [
       "Joshua said to the people, “You are witnesses against yourselves that you have chosen Yahweh yourselves, to serve him.”",
-      {
-        "paragraph": true,
-        "text": "They said, “We are witnesses.”"
-      }
+      { "paragraph": true, "text": "They said, “We are witnesses.”" }
     ]
   },
   {

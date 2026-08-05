@@ -21,6 +21,7 @@
     "utils/validate.ts"
   ],
   "test-files": [
+    "functions/__tests__/contentSchema.test.ts",
     "functions/__tests__/convertToSmallCaps.test.ts",
     "functions/__tests__/getBibleVersions.test.ts",
     "functions/__tests__/sortContentKeys.test.ts",

@@ -7,10 +7,7 @@
       {
         "paragraph": true,
         "text": "Simon Peter, a servant and apostle of Jesus Christ,",
-        "foot": {
-          "type": "stu",
-          "content": "“Christ” means “Anointed One”."
-        }
+        "foot": { "type": "stu", "content": "“Christ” means “Anointed One”." }
       },
       " to those who have obtained a like precious faith with us in the righteousness of our God and Savior, Jesus Christ:"
     ]
@@ -129,17 +126,11 @@
       "foot": {
         "type": "xrf",
         "content": [
-          {
-            "bibleLink": "Matthew 17:5"
-          },
+          { "bibleLink": "Matthew 17:5" },
           "; ",
-          {
-            "bibleLink": "Mark 9:7"
-          },
+          { "bibleLink": "Mark 9:7" },
           "; ",
-          {
-            "bibleLink": "Luke 9:35"
-          }
+          { "bibleLink": "Luke 9:35" }
         ]
       }
     }
@@ -332,12 +323,7 @@
     "content": [
       {
         "text": "But it has happened to them according to the true proverb, “The dog turns to his own vomit again,”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Proverbs 26:11"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Proverbs 26:11" } }
       },
       " and “the sow that has washed to wallowing in the mire.”"
     ]

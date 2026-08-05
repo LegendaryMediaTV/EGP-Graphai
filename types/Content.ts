@@ -48,21 +48,22 @@ interface ContentNested {
  * Heading content object
  */
 interface ContentHeading {
-  heading: Content;
+  heading: Content; // Content rendered as the heading
+  type?: "standard" | "acrostic"; // standard (default) | acrostic (Hebrew acrostic stanza marker, e.g. Psalm 119)
 }
 
 /**
  * Paragraph content object
  */
 interface ContentParagraph {
-  paragraph: Content;
+  paragraph: Content; // Content rendered as the paragraph
 }
 
 /**
  * Subtitle content object
  */
 interface ContentSubtitle {
-  subtitle: Content;
+  subtitle: Content; // Content rendered as the subtitle
 }
 
 /**

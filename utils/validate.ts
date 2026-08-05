@@ -2,11 +2,14 @@ import _ from "lodash";
 import * as fs from "fs";
 import * as path from "path";
 import Ajv from "ajv";
-import * as prettier from "prettier";
 import validateJsonAgainstSchema from "../functions/validateJsonAgainstSchema";
 import { getVersionDirectories } from "../functions/getBibleVersions";
 import { sortVerseKeys } from "../functions/sortContentKeys";
-import { writeFileAtomic, writeJsonFile } from "../functions/writeJsonFile";
+import {
+  formatJsonData,
+  writeFileAtomic,
+  writeJsonFile,
+} from "../functions/writeJsonFile";
 import BibleVersion from "../types/Version";
 
 const jsonPath = "./bible-books/bible-books.json";
@@ -52,13 +55,23 @@ async function sortVerseFileKeys(filePath: string): Promise<boolean> {
 }
 
 /**
- * Format a JSON file with Prettier and write it back if changed.
+ * Format a JSON file and write it back if changed.
+ *
+ * Formats from the parsed data, not the file's own raw text, so this always
+ * lands on the same canonical form {@link writeJsonFile} would produce for
+ * equivalent content — regardless of whatever line breaks the file happens
+ * to have accumulated. Formatting the raw text instead would let Prettier
+ * preserve pre-existing breaks (including ones a buggy prior write baked in)
+ * rather than re-deriving them from width, so a file could drift from the
+ * canonical form and this pass would keep confirming the drift as "already
+ * formatted."
+ *
  * @param filePath - Path to the JSON file
  * @returns true if the file was reformatted, false if unchanged
  */
 async function formatJsonFile(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
-  const formatted = await prettier.format(content, { parser: "json" });
+  const formatted = await formatJsonData(JSON.parse(content));
 
   if (content !== formatted) {
     await writeFileAtomic(filePath, formatted);

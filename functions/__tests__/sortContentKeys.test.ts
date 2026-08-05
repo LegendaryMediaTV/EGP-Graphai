@@ -72,6 +72,15 @@ describe("sortContentKeys", () => {
       expect(Object.keys(result)).toEqual(["type", "content"]);
     });
 
+    it("should order heading before type for acrostic headings", () => {
+      const input = {
+        type: "acrostic",
+        heading: "ALEPH",
+      };
+      const result = sortContentKeys(input);
+      expect(Object.keys(result)).toEqual(["heading", "type"]);
+    });
+
     it("should order text before content", () => {
       const input = {
         content: ["some ", "text"],

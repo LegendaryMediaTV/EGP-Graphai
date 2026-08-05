@@ -3245,24 +3245,9 @@
     "verse": 12,
     "content": "honora patrem tuum et matrem tuam ut sis longevus super terram quam Dominus Deus tuus dabit tibi"
   },
-  {
-    "book": "EXO",
-    "chapter": 20,
-    "verse": 13,
-    "content": "non occides"
-  },
-  {
-    "book": "EXO",
-    "chapter": 20,
-    "verse": 14,
-    "content": "non moechaberis"
-  },
-  {
-    "book": "EXO",
-    "chapter": 20,
-    "verse": 15,
-    "content": "non furtum facies"
-  },
+  { "book": "EXO", "chapter": 20, "verse": 13, "content": "non occides" },
+  { "book": "EXO", "chapter": 20, "verse": 14, "content": "non moechaberis" },
+  { "book": "EXO", "chapter": 20, "verse": 15, "content": "non furtum facies" },
   {
     "book": "EXO",
     "chapter": 20,
@@ -6140,12 +6125,7 @@
     "verse": 7,
     "content": "et pelles arietum rubricatas et ianthinas"
   },
-  {
-    "book": "EXO",
-    "chapter": 35,
-    "verse": 8,
-    "content": "ligna setthim"
-  },
+  { "book": "EXO", "chapter": 35, "verse": 8, "content": "ligna setthim" },
   {
     "book": "EXO",
     "chapter": 35,
@@ -7246,12 +7226,7 @@
     "chapter": 40,
     "verse": 15,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:13."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:13." } },
       "indues sanctis vestibus ut ministrent mihi et unctio eorum in sacerdotium proficiat sempiternum"
     ]
   },
@@ -7260,12 +7235,7 @@
     "chapter": 40,
     "verse": 16,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:14."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:14." } },
       "fecitque Moses omnia quae praeceperat Dominus"
     ]
   },
@@ -7274,12 +7244,7 @@
     "chapter": 40,
     "verse": 17,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:15."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:15." } },
       "igitur mense primo anni secundi in prima die mensis conlocatum est tabernaculum"
     ]
   },
@@ -7288,12 +7253,7 @@
     "chapter": 40,
     "verse": 18,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:16."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:16." } },
       "erexitque illud Moses et posuit tabulas ac bases et vectes statuitque columnas"
     ]
   },
@@ -7302,12 +7262,7 @@
     "chapter": 40,
     "verse": 19,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:17."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:17." } },
       "et expandit tectum super tabernaculum inposito desuper operimento sicut Dominus imperarat"
     ]
   },
@@ -7316,12 +7271,7 @@
     "chapter": 40,
     "verse": 20,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:18."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:18." } },
       "posuit et testimonium in arca subditis infra vectibus et oraculum desuper"
     ]
   },
@@ -7330,12 +7280,7 @@
     "chapter": 40,
     "verse": 21,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:19."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:19." } },
       "cumque intulisset arcam in tabernaculum adpendit ante eam velum ut expleret Domini iussionem"
     ]
   },
@@ -7344,12 +7289,7 @@
     "chapter": 40,
     "verse": 22,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:20."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:20." } },
       "posuit et mensam in tabernaculo testimonii ad plagam septentrionalem extra velum"
     ]
   },
@@ -7358,12 +7298,7 @@
     "chapter": 40,
     "verse": 23,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:21."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:21." } },
       "ordinatis coram propositionis panibus sicut praeceperat Dominus Mosi"
     ]
   },
@@ -7372,12 +7307,7 @@
     "chapter": 40,
     "verse": 24,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:22."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:22." } },
       "posuit et candelabrum in tabernaculum testimonii e regione mensae in parte australi"
     ]
   },
@@ -7386,12 +7316,7 @@
     "chapter": 40,
     "verse": 25,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:23."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:23." } },
       "locatis per ordinem lucernis iuxta praeceptum Domini"
     ]
   },
@@ -7400,12 +7325,7 @@
     "chapter": 40,
     "verse": 26,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:24."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:24." } },
       "posuit et altare aureum sub tecto testimonii contra velum"
     ]
   },
@@ -7414,12 +7334,7 @@
     "chapter": 40,
     "verse": 27,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:25."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:25." } },
       "et adolevit super eo incensum aromatum sicut iusserat Dominus"
     ]
   },
@@ -7428,12 +7343,7 @@
     "chapter": 40,
     "verse": 28,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:26."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:26." } },
       "posuit et tentorium in introitu tabernaculi"
     ]
   },
@@ -7442,12 +7352,7 @@
     "chapter": 40,
     "verse": 29,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:27."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:27." } },
       "et altare holocausti in vestibulo testimonii offerens in eo holocaustum et sacrificia ut Dominus imperarat"
     ]
   },
@@ -7456,12 +7361,7 @@
     "chapter": 40,
     "verse": 30,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:28."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:28." } },
       "labrum quoque statuit inter tabernaculum testimonii et altare implens illud aqua"
     ]
   },
@@ -7470,12 +7370,7 @@
     "chapter": 40,
     "verse": 31,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:29."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:29." } },
       "laveruntque Moses et Aaron ac filii eius manus suas et pedes"
     ]
   },
@@ -7484,12 +7379,7 @@
     "chapter": 40,
     "verse": 32,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:30."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:30." } },
       "cum ingrederentur tectum foederis et accederent ad altare sicut praeceperat Dominus"
     ]
   },
@@ -7498,12 +7388,7 @@
     "chapter": 40,
     "verse": 33,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:31."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:31." } },
       "erexit et atrium per gyrum tabernaculi et altaris ducto in introitu eius tentorio postquam cuncta perfecta sunt"
     ]
   },
@@ -7512,12 +7397,7 @@
     "chapter": 40,
     "verse": 34,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:32."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:32." } },
       "operuit nubes tabernaculum testimonii et gloria Domini implevit illud"
     ]
   },
@@ -7526,12 +7406,7 @@
     "chapter": 40,
     "verse": 35,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:33."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:33." } },
       "nec poterat Moses ingredi tectum foederis nube operiente omnia et maiestate Domini coruscante quia cuncta nubes operuerat"
     ]
   },
@@ -7540,12 +7415,7 @@
     "chapter": 40,
     "verse": 36,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:34."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:34." } },
       "si quando nubes tabernaculum deserebat proficiscebantur filii Israhel per turmas suas"
     ]
   },
@@ -7554,12 +7424,7 @@
     "chapter": 40,
     "verse": 37,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:35."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:35." } },
       "si pendebat desuper manebant in eodem loco"
     ]
   },
@@ -7568,12 +7433,7 @@
     "chapter": 40,
     "verse": 38,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 40:36."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 40:36." } },
       "nubes quippe Domini incubabat per diem tabernaculo et ignis in nocte videntibus populis Israhel per cunctas mansiones suas"
     ]
   }

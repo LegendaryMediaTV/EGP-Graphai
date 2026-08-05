@@ -43,10 +43,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -125,10 +122,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -148,10 +142,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -191,17 +182,11 @@
       {
         "paragraph": true,
         "text": "She said to them, “Don’t call me Naomi.",
-        "foot": {
-          "type": "stu",
-          "content": "“Naomi” means “pleasant”."
-        }
+        "foot": { "type": "stu", "content": "“Naomi” means “pleasant”." }
       },
       {
         "text": " Call me Mara,",
-        "foot": {
-          "type": "stu",
-          "content": "“Mara” means “bitter”."
-        }
+        "foot": { "type": "stu", "content": "“Mara” means “bitter”." }
       },
       " for the Almighty has dealt very bitterly with me."
     ]
@@ -233,10 +218,7 @@
     "verse": 2,
     "content": [
       "Ruth the Moabitess said to Naomi, “Let me now go to the field, and glean among the ears of grain after him in whose sight I find favor.”",
-      {
-        "paragraph": true,
-        "text": "She said to her, “Go, my daughter.”"
-      }
+      { "paragraph": true, "text": "She said to her, “Go, my daughter.”" }
     ]
   },
   {
@@ -591,10 +573,7 @@
     "verse": 4,
     "content": [
       "I thought I should tell you, saying, ‘Buy it before those who sit here, and before the elders of my people.’ If you will redeem it, redeem it; but if you will not redeem it, then tell me, that I may know. For there is no one to redeem it besides you; and I am after you.”",
-      {
-        "paragraph": true,
-        "text": "He said, “I will redeem it.”"
-      }
+      { "paragraph": true, "text": "He said, “I will redeem it.”" }
     ]
   },
   {
@@ -661,10 +640,7 @@
     "content": [
       {
         "text": "Let your house be like the house of Perez, whom Tamar bore to Judah, of the offspring",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " which Yahweh will give you by this young woman.”"
     ]

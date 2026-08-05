@@ -7,10 +7,7 @@
       {
         "paragraph": true,
         "text": "Paul, a servant of Jesus Christ,",
-        "foot": {
-          "type": "stu",
-          "content": "“Christ” means “Anointed One”."
-        }
+        "foot": { "type": "stu", "content": "“Christ” means “Anointed One”." }
       },
       " called to be an apostle, set apart for the Good News of God,"
     ]
@@ -28,10 +25,7 @@
     "content": [
       {
         "text": "concerning his Son, who was born of the offspring",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " of David according to the flesh,"
     ]
@@ -129,12 +123,7 @@
     "verse": 17,
     "content": {
       "text": "For in it is revealed God’s righteousness from faith to faith. As it is written, “But the righteous shall live by faith.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Habakkuk 2:4"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Habakkuk 2:4" } }
     }
   },
   {
@@ -278,13 +267,9 @@
       "foot": {
         "type": "xrf",
         "content": [
-          {
-            "bibleLink": "Psalm 62:12"
-          },
+          { "bibleLink": "Psalm 62:12" },
           "; ",
-          {
-            "bibleLink": "Proverbs 24:12"
-          }
+          { "bibleLink": "Proverbs 24:12" }
         ]
       }
     }
@@ -407,13 +392,9 @@
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Isaiah 52:5"
-            },
+            { "bibleLink": "Isaiah 52:5" },
             "; ",
-            {
-              "bibleLink": "Ezekiel 36:22"
-            }
+            { "bibleLink": "Ezekiel 36:22" }
           ]
         }
       },
@@ -480,18 +461,10 @@
         "text": "May it never be! Yes, let God be found true, but every man a liar. As it is written,",
         "break": true
       },
-      {
-        "text": "“that you might be justified in your words,",
-        "break": true
-      },
+      { "text": "“that you might be justified in your words,", "break": true },
       {
         "text": "and might prevail when you come into judgment.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 51:4"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 51:4" } }
       }
     ]
   },
@@ -536,18 +509,9 @@
     "chapter": 3,
     "verse": 10,
     "content": [
-      {
-        "text": "As it is written,",
-        "break": true
-      },
-      {
-        "text": "“There is no one righteous;",
-        "break": true
-      },
-      {
-        "text": "no, not one.",
-        "break": true
-      }
+      { "text": "As it is written,", "break": true },
+      { "text": "“There is no one righteous;", "break": true },
+      { "text": "no, not one.", "break": true }
     ]
   },
   {
@@ -555,14 +519,8 @@
     "chapter": 3,
     "verse": 11,
     "content": [
-      {
-        "text": "There is no one who understands.",
-        "break": true
-      },
-      {
-        "text": "There is no one who seeks after God.",
-        "break": true
-      }
+      { "text": "There is no one who understands.", "break": true },
+      { "text": "There is no one who seeks after God.", "break": true }
     ]
   },
   {
@@ -570,36 +528,20 @@
     "chapter": 3,
     "verse": 12,
     "content": [
-      {
-        "text": "They have all turned away.",
-        "break": true
-      },
-      {
-        "text": "They have together become unprofitable.",
-        "break": true
-      },
-      {
-        "text": "There is no one who does good,",
-        "break": true
-      },
+      { "text": "They have all turned away.", "break": true },
+      { "text": "They have together become unprofitable.", "break": true },
+      { "text": "There is no one who does good,", "break": true },
       {
         "text": "no, not so much as one.”",
         "break": true,
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Psalm 14:1–3"
-            },
+            { "bibleLink": "Psalm 14:1–3" },
             "; ",
-            {
-              "bibleLink": "Psalm 53:1–3",
-              "content": "53:1-3"
-            },
+            { "bibleLink": "Psalm 53:1–3", "content": "53:1-3" },
             "; ",
-            {
-              "bibleLink": "Ecclesiastes 7:20"
-            }
+            { "bibleLink": "Ecclesiastes 7:20" }
           ]
         }
       }
@@ -610,29 +552,16 @@
     "chapter": 3,
     "verse": 13,
     "content": [
-      {
-        "text": "“Their throat is an open tomb.",
-        "break": true
-      },
+      { "text": "“Their throat is an open tomb.", "break": true },
       {
         "text": "With their tongues they have used deceit.”",
         "break": true,
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 5:9"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 5:9" } }
       },
       {
         "text": "“The poison of vipers is under their lips.”",
         "break": true,
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 140:3"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 140:3" } }
       }
     ]
   },
@@ -643,22 +572,14 @@
     "content": {
       "text": "“Their mouth is full of cursing and bitterness.”",
       "break": true,
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Psalm 10:7"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 10:7" } }
     }
   },
   {
     "book": "ROM",
     "chapter": 3,
     "verse": 15,
-    "content": {
-      "text": "“Their feet are swift to shed blood.",
-      "break": true
-    }
+    "content": { "text": "“Their feet are swift to shed blood.", "break": true }
   },
   {
     "book": "ROM",
@@ -676,12 +597,7 @@
     "content": {
       "text": "The way of peace, they haven’t known.”",
       "break": true,
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Isaiah 59:7–8"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 59:7–8" } }
     }
   },
   {
@@ -690,12 +606,7 @@
     "verse": 18,
     "content": {
       "text": "“There is no fear of God before their eyes.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Psalm 36:1"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 36:1" } }
     }
   },
   {
@@ -747,10 +658,7 @@
     "content": [
       {
         "text": "whom God sent to be an atoning sacrifice",
-        "foot": {
-          "type": "trn",
-          "content": "or, a propitiation"
-        }
+        "foot": { "type": "trn", "content": "or, a propitiation" }
       },
       " through faith in his blood, for a demonstration of his righteousness through the passing over of prior sins, in God’s forbearance;"
     ]
@@ -818,12 +726,7 @@
     "verse": 3,
     "content": {
       "text": "For what does the Scripture say? “Abraham believed God, and it was accounted to him for righteousness.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 15:6"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 15:6" } }
     }
   },
   {
@@ -856,10 +759,7 @@
         "text": "“Blessed are they whose iniquities are forgiven,",
         "break": true
       },
-      {
-        "text": "whose sins are covered.",
-        "break": true
-      }
+      { "text": "whose sins are covered.", "break": true }
     ]
   },
   {
@@ -868,12 +768,7 @@
     "verse": 8,
     "content": {
       "text": "Blessed is the man whom the Lord will by no means charge with sin.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Psalm 32:1–2"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 32:1–2" } }
     }
   },
   {
@@ -940,12 +835,7 @@
     "content": [
       {
         "text": "As it is written, “I have made you a father of many nations.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Genesis 17:5"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 17:5" } }
       },
       " This is in the presence of him whom he believed: God, who gives life to the dead, and calls the things that are not, as though they were."
     ]
@@ -956,12 +846,7 @@
     "verse": 18,
     "content": {
       "text": "Against hope, Abraham in hope believed, to the end that he might become a father of many nations, according to that which had been spoken, “So will your offspring be.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 15:5"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 15:5" } }
     }
   },
   {
@@ -988,12 +873,7 @@
     "verse": 22,
     "content": {
       "text": "Therefore it also was “credited to him for righteousness.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 15:6"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 15:6" } }
     }
   },
   {
@@ -1367,13 +1247,9 @@
       "foot": {
         "type": "xrf",
         "content": [
-          {
-            "bibleLink": "Exodus 20:17"
-          },
+          { "bibleLink": "Exodus 20:17" },
           "; ",
-          {
-            "bibleLink": "Deuteronomy 5:21"
-          }
+          { "bibleLink": "Deuteronomy 5:21" }
         ]
       }
     }
@@ -1750,22 +1626,11 @@
     "chapter": 8,
     "verse": 36,
     "content": [
-      {
-        "text": "Even as it is written,",
-        "break": true
-      },
-      {
-        "text": "“For your sake we are killed all day long.",
-        "break": true
-      },
+      { "text": "Even as it is written,", "break": true },
+      { "text": "“For your sake we are killed all day long.", "break": true },
       {
         "text": "We were accounted as sheep for the slaughter.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 44:22"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 44:22" } }
       }
     ]
   },
@@ -1835,12 +1700,7 @@
     "verse": 7,
     "content": {
       "text": "Neither, because they are Abraham’s offspring, are they all children. But, “your offspring will be accounted as from Isaac.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 21:12"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 21:12" } }
     }
   },
   {
@@ -1855,12 +1715,7 @@
     "verse": 9,
     "content": {
       "text": "For this is a word of promise: “At the appointed time I will come, and Sarah will have a son.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 18:10, 14"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 18:10, 14" } }
     }
   },
   {
@@ -1887,12 +1742,7 @@
     "verse": 12,
     "content": {
       "text": "it was said to her, “The elder will serve the younger.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 25:23"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 25:23" } }
     }
   },
   {
@@ -1901,12 +1751,7 @@
     "verse": 13,
     "content": {
       "text": "Even as it is written, “Jacob I loved, but Esau I hated.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Malachi 1:2–3"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Malachi 1:2–3" } }
     }
   },
   {
@@ -1924,12 +1769,7 @@
     "verse": 15,
     "content": {
       "text": "For he said to Moses, “I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Exodus 33:19"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Exodus 33:19" } }
     }
   },
   {
@@ -1944,12 +1784,7 @@
     "verse": 17,
     "content": {
       "text": "For the Scripture says to Pharaoh, “For this very purpose I caused you to be raised up, that I might show in you my power, and that my name might be proclaimed in all the earth.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Exodus 9:16"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Exodus 9:16" } }
     }
   },
   {
@@ -1976,14 +1811,9 @@
       "foot": {
         "type": "xrf",
         "content": [
-          {
-            "bibleLink": "Isaiah 29:16"
-          },
+          { "bibleLink": "Isaiah 29:16" },
           "; ",
-          {
-            "bibleLink": "Isaiah 45:9",
-            "content": "45:9"
-          }
+          { "bibleLink": "Isaiah 45:9", "content": "45:9" }
         ]
       }
     }
@@ -2017,10 +1847,7 @@
     "chapter": 9,
     "verse": 25,
     "content": [
-      {
-        "text": "As he says also in Hosea,",
-        "break": true
-      },
+      { "text": "As he says also in Hosea,", "break": true },
       {
         "text": "“I will call them ‘my people,’ which were not my people;",
         "break": true
@@ -2028,12 +1855,7 @@
       {
         "text": "and her ‘beloved,’ who was not beloved.”",
         "break": true,
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Hosea 2:23"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Hosea 2:23" } }
       }
     ]
   },
@@ -2048,12 +1870,7 @@
       },
       {
         "text": "there they will be called ‘children of the living God.’ ”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Hosea 1:10"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Hosea 1:10" } }
       }
     ]
   },
@@ -2071,10 +1888,7 @@
         "text": "“If the number of the children of Israel are as the sand of the sea,",
         "break": true
       },
-      {
-        "text": "it is the remnant who will be saved;",
-        "break": true
-      }
+      { "text": "it is the remnant who will be saved;", "break": true }
     ]
   },
   {
@@ -2088,12 +1902,7 @@
       },
       {
         "text": "because the Lord will make a short work upon the earth.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 10:22–23"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 10:22–23" } }
       }
     ]
   },
@@ -2114,22 +1923,11 @@
           "content": "Greek: Sabaoth (for Hebrew: Tze’va’ot)"
         }
       },
-      {
-        "text": " had left us a seed,",
-        "break": true
-      },
-      {
-        "text": "we would have become like Sodom,",
-        "break": true
-      },
+      { "text": " had left us a seed,", "break": true },
+      { "text": "we would have become like Sodom,", "break": true },
       {
         "text": "and would have been made like Gomorrah.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 1:9"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 1:9" } }
       }
     ]
   },
@@ -2159,20 +1957,14 @@
     "chapter": 9,
     "verse": 33,
     "content": [
-      {
-        "text": "even as it is written,",
-        "break": true
-      },
+      { "text": "even as it is written,", "break": true },
       {
         "text": "“Behold,",
         "foot": {
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "ἰδοὺ",
-              "script": "G"
-            },
+            { "text": "ἰδοὺ", "script": "G" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -2186,14 +1978,9 @@
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Isaiah 8:14"
-            },
+            { "bibleLink": "Isaiah 8:14" },
             "; ",
-            {
-              "bibleLink": "Isaiah 28:16",
-              "content": "28:16"
-            }
+            { "bibleLink": "Isaiah 28:16", "content": "28:16" }
           ]
         }
       }
@@ -2227,10 +2014,7 @@
     "content": [
       {
         "text": "For Christ is the fulfillment",
-        "foot": {
-          "type": "trn",
-          "content": "or, completion, or end"
-        }
+        "foot": { "type": "trn", "content": "or, completion, or end" }
       },
       " of the law for righteousness to everyone who believes."
     ]
@@ -2242,12 +2026,7 @@
     "content": {
       "paragraph": true,
       "text": "For Moses writes about the righteousness of the law, “The one who does them will live by them.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Leviticus 18:5"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Leviticus 18:5" } }
     }
   },
   {
@@ -2259,9 +2038,7 @@
         "text": "But the righteousness which is of faith says this, “Don’t say in your heart, ‘Who will ascend into heaven?’",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Deuteronomy 30:12"
-          }
+          "content": { "bibleLink": "Deuteronomy 30:12" }
         }
       },
       " (that is, to bring Christ down);"
@@ -2276,9 +2053,7 @@
         "text": "or, ‘Who will descend into the abyss?’",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Deuteronomy 30:13"
-          }
+          "content": { "bibleLink": "Deuteronomy 30:13" }
         }
       },
       " (that is, to bring Christ up from the dead.)”"
@@ -2293,9 +2068,7 @@
         "text": "But what does it say? “The word is near you, in your mouth and in your heart;”",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Deuteronomy 30:14"
-          }
+          "content": { "bibleLink": "Deuteronomy 30:14" }
         }
       },
       " that is, the word of faith which we preach:"
@@ -2319,12 +2092,7 @@
     "verse": 11,
     "content": {
       "text": "For the Scripture says, “Whoever believes in him will not be disappointed.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Isaiah 28:16"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 28:16" } }
     }
   },
   {
@@ -2342,12 +2110,7 @@
     "verse": 13,
     "content": {
       "text": "For, “Whoever will call on the name of the Lord will be saved.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Joel 2:32"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Joel 2:32" } }
     }
   },
   {
@@ -2371,12 +2134,7 @@
       },
       {
         "text": "who bring glad tidings of good things!”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 52:7"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 52:7" } }
       }
     ]
   },
@@ -2387,12 +2145,7 @@
     "content": {
       "paragraph": true,
       "text": "But they didn’t all listen to the glad news. For Isaiah says, “Lord, who has believed our report?”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Isaiah 53:1"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 53:1" } }
     }
   },
   {
@@ -2410,18 +2163,10 @@
         "text": "But I say, didn’t they hear? Yes, most certainly,",
         "break": true
       },
-      {
-        "text": "“Their sound went out into all the earth,",
-        "break": true
-      },
+      { "text": "“Their sound went out into all the earth,", "break": true },
       {
         "text": "their words to the ends of the world.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 19:4"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 19:4" } }
       }
     ]
   },
@@ -2443,9 +2188,7 @@
         "text": "I will make you angry with a nation void of understanding.”",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Deuteronomy 32:21"
-          }
+          "content": { "bibleLink": "Deuteronomy 32:21" }
         }
       }
     ]
@@ -2460,18 +2203,10 @@
         "text": "Isaiah is very bold and says,",
         "break": true
       },
-      {
-        "text": "“I was found by those who didn’t seek me.",
-        "break": true
-      },
+      { "text": "“I was found by those who didn’t seek me.", "break": true },
       {
         "text": "I was revealed to those who didn’t ask for me.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 65:1"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 65:1" } }
       }
     ]
   },
@@ -2482,12 +2217,7 @@
     "content": {
       "paragraph": true,
       "text": "But about Israel he says, “All day long I stretched out my hands to a disobedient and contrary people.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Isaiah 65:2"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 65:2" } }
     }
   },
   {
@@ -2511,12 +2241,7 @@
     "verse": 3,
     "content": {
       "text": "“Lord, they have killed your prophets. They have broken down your altars. I am left alone, and they seek my life.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "1 Kings 19:10, 14"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "1 Kings 19:10, 14" } }
     }
   },
   {
@@ -2525,12 +2250,7 @@
     "verse": 4,
     "content": {
       "text": "But how does God answer him? “I have reserved for myself seven thousand men who have not bowed the knee to Baal.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "1 Kings 19:18"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "1 Kings 19:18" } }
     }
   },
   {
@@ -2563,13 +2283,9 @@
       "foot": {
         "type": "xrf",
         "content": [
-          {
-            "bibleLink": "Deuteronomy 29:4"
-          },
+          { "bibleLink": "Deuteronomy 29:4" },
           "; ",
-          {
-            "bibleLink": "Isaiah 29:10"
-          }
+          { "bibleLink": "Isaiah 29:10" }
         ]
       }
     }
@@ -2579,19 +2295,9 @@
     "chapter": 11,
     "verse": 9,
     "content": [
-      {
-        "paragraph": true,
-        "text": "David says,",
-        "break": true
-      },
-      {
-        "text": "“Let their table be made a snare, a trap,",
-        "break": true
-      },
-      {
-        "text": "a stumbling block, and a retribution to them.",
-        "break": true
-      }
+      { "paragraph": true, "text": "David says,", "break": true },
+      { "text": "“Let their table be made a snare, a trap,", "break": true },
+      { "text": "a stumbling block, and a retribution to them.", "break": true }
     ]
   },
   {
@@ -2605,12 +2311,7 @@
       },
       {
         "text": "Always keep their backs bent.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 69:22, 23"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 69:22, 23" } }
       }
     ]
   },
@@ -2732,14 +2433,8 @@
         "text": "and so all Israel will be saved. Even as it is written,",
         "break": true
       },
-      {
-        "text": "“There will come out of Zion the Deliverer,",
-        "break": true
-      },
-      {
-        "text": "and he will turn away ungodliness from Jacob.",
-        "break": true
-      }
+      { "text": "“There will come out of Zion the Deliverer,", "break": true },
+      { "text": "and he will turn away ungodliness from Jacob.", "break": true }
     ]
   },
   {
@@ -2747,27 +2442,17 @@
     "chapter": 11,
     "verse": 27,
     "content": [
-      {
-        "text": "This is my covenant with them,",
-        "break": true
-      },
+      { "text": "This is my covenant with them,", "break": true },
       {
         "text": "when I will take away their sins.”",
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Isaiah 59:20–21"
-            },
+            { "bibleLink": "Isaiah 59:20–21" },
             "; ",
-            {
-              "bibleLink": "Isaiah 27:9",
-              "content": "27:9"
-            },
+            { "bibleLink": "Isaiah 27:9", "content": "27:9" },
             "; ",
-            {
-              "bibleLink": "Jeremiah 31:33–34"
-            }
+            { "bibleLink": "Jeremiah 31:33–34" }
           ]
         }
       }
@@ -2821,19 +2506,11 @@
     "chapter": 11,
     "verse": 34,
     "content": [
-      {
-        "text": "“For who has known the mind of the Lord?",
-        "break": true
-      },
+      { "text": "“For who has known the mind of the Lord?", "break": true },
       {
         "text": "Or who has been his counselor?”",
         "break": true,
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 40:13"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 40:13" } }
       }
     ]
   },
@@ -2842,18 +2519,10 @@
     "chapter": 11,
     "verse": 35,
     "content": [
-      {
-        "text": "“Or who has first given to him,",
-        "break": true
-      },
+      { "text": "“Or who has first given to him,", "break": true },
       {
         "text": "and it will be repaid to him again?”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Job 41:11"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Job 41:11" } }
       }
     ]
   },
@@ -2992,12 +2661,7 @@
     "verse": 19,
     "content": {
       "text": "Don’t seek revenge yourselves, beloved, but give place to God’s wrath. For it is written, “Vengeance belongs to me; I will repay, says the Lord.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Deuteronomy 32:35"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Deuteronomy 32:35" } }
     }
   },
   {
@@ -3005,25 +2669,14 @@
     "chapter": 12,
     "verse": 20,
     "content": [
-      {
-        "text": "Therefore",
-        "break": true
-      },
-      {
-        "text": "“If your enemy is hungry, feed him.",
-        "break": true
-      },
-      {
-        "text": "If he is thirsty, give him a drink;",
-        "break": true
-      },
+      { "text": "Therefore", "break": true },
+      { "text": "“If your enemy is hungry, feed him.", "break": true },
+      { "text": "If he is thirsty, give him a drink;", "break": true },
       {
         "text": "for in doing so, you will heap coals of fire on his head.”",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Proverbs 25:21–22"
-          }
+          "content": { "bibleLink": "Proverbs 25:21–22" }
         }
       }
     ]
@@ -3108,24 +2761,15 @@
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Exodus 20:13–15, 17"
-            },
+            { "bibleLink": "Exodus 20:13–15, 17" },
             "; ",
-            {
-              "bibleLink": "Deuteronomy 5:17–19, 21"
-            }
+            { "bibleLink": "Deuteronomy 5:17–19, 21" }
           ]
         }
       },
       {
         "text": " and whatever other commandments there are, are all summed up in this saying, namely, “You shall love your neighbor as yourself.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Leviticus 19:18"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Leviticus 19:18" } }
       }
     ]
   },
@@ -3236,22 +2880,14 @@
     "chapter": 14,
     "verse": 11,
     "content": [
-      {
-        "text": "For it is written,",
-        "break": true
-      },
+      { "text": "For it is written,", "break": true },
       {
         "text": "“ ‘As I live,’ says the Lord, ‘to me every knee will bow.",
         "break": true
       },
       {
         "text": "Every tongue will confess to God.’ ”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 45:23"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 45:23" } }
       }
     ]
   },
@@ -3361,9 +2997,7 @@
         "type": "var",
         "content": [
           "TR places verses 24-26 after ",
-          {
-            "bibleLink": "Romans 16:24"
-          },
+          { "bibleLink": "Romans 16:24" },
           " as verses 25-27."
         ]
       }
@@ -3390,12 +3024,7 @@
     "verse": 3,
     "content": {
       "text": "For even Christ didn’t please himself. But, as it is written, “The reproaches of those who reproached you fell on me.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Psalm 69:9"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 69:9" } }
     }
   },
   {
@@ -3424,10 +3053,7 @@
       {
         "paragraph": true,
         "text": "Therefore accept one another, even as Christ also accepted you,",
-        "foot": {
-          "type": "var",
-          "content": "TR reads “us” instead of “you”"
-        }
+        "foot": { "type": "var", "content": "TR reads “us” instead of “you”" }
       },
       " to the glory of God."
     ]
@@ -3456,13 +3082,9 @@
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "2 Samuel 22:50"
-            },
+            { "bibleLink": "2 Samuel 22:50" },
             "; ",
-            {
-              "bibleLink": "Psalm 18:49"
-            }
+            { "bibleLink": "Psalm 18:49" }
           ]
         }
       }
@@ -3473,18 +3095,12 @@
     "chapter": 15,
     "verse": 10,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Again he says,",
-        "break": true
-      },
+      { "paragraph": true, "text": "Again he says,", "break": true },
       {
         "text": "“Rejoice, you Gentiles, with his people.”",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Deuteronomy 32:43"
-          }
+          "content": { "bibleLink": "Deuteronomy 32:43" }
         }
       }
     ]
@@ -3494,23 +3110,11 @@
     "chapter": 15,
     "verse": 11,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Again,",
-        "break": true
-      },
-      {
-        "text": "“Praise the Lord, all you Gentiles!",
-        "break": true
-      },
+      { "paragraph": true, "text": "Again,", "break": true },
+      { "text": "“Praise the Lord, all you Gentiles!", "break": true },
       {
         "text": "Let all the peoples praise him.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 117:1"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 117:1" } }
       }
     ]
   },
@@ -3519,27 +3123,12 @@
     "chapter": 15,
     "verse": 12,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Again, Isaiah says,",
-        "break": true
-      },
-      {
-        "text": "“There will be the root of Jesse,",
-        "break": true
-      },
-      {
-        "text": "he who arises to rule over the Gentiles;",
-        "break": true
-      },
+      { "paragraph": true, "text": "Again, Isaiah says,", "break": true },
+      { "text": "“There will be the root of Jesse,", "break": true },
+      { "text": "he who arises to rule over the Gentiles;", "break": true },
       {
         "text": "in him the Gentiles will hope.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 11:10"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 11:10" } }
       }
     ]
   },
@@ -3609,22 +3198,11 @@
     "chapter": 15,
     "verse": 21,
     "content": [
-      {
-        "text": "But, as it is written,",
-        "break": true
-      },
-      {
-        "text": "“They will see, to whom no news of him came.",
-        "break": true
-      },
+      { "text": "But, as it is written,", "break": true },
+      { "text": "“They will see, to whom no news of him came.", "break": true },
       {
         "text": "They who haven’t heard will understand.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 52:15"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 52:15" } }
       }
     ]
   },
@@ -3714,10 +3292,7 @@
       {
         "paragraph": true,
         "text": "I commend to you Phoebe, our sister, who is a servant",
-        "foot": {
-          "type": "trn",
-          "content": "or, deacon"
-        }
+        "foot": { "type": "trn", "content": "or, deacon" }
       },
       " of the assembly that is at Cenchreae,"
     ]
@@ -3893,9 +3468,7 @@
         "type": "var",
         "content": [
           "TR places ",
-          {
-            "bibleLink": "Romans 14:24–26"
-          },
+          { "bibleLink": "Romans 14:24–26" },
           " at the end of Romans instead of at the end of chapter 14, and numbers these verses 16:25-27."
         ]
       }

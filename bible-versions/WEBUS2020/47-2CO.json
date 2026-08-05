@@ -7,10 +7,7 @@
       {
         "paragraph": true,
         "text": "Paul, an apostle of Christ",
-        "foot": {
-          "type": "stu",
-          "content": "“Christ” means “Anointed One”."
-        }
+        "foot": { "type": "stu", "content": "“Christ” means “Anointed One”." }
       },
       " Jesus through the will of God, and Timothy our brother, to the assembly of God which is at Corinth, with all the saints who are in the whole of Achaia:"
     ]
@@ -452,12 +449,7 @@
     "content": [
       {
         "text": "seeing it is God who said, “Light will shine out of darkness,”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Genesis 1:3"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 1:3" } }
       },
       " who has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ."
     ]
@@ -509,12 +501,7 @@
       {
         "paragraph": true,
         "text": "But having the same spirit of faith, according to that which is written, “I believed, and therefore I spoke.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 116:10"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 116:10" } }
       },
       " We also believe, and therefore we also speak,"
     ]
@@ -671,10 +658,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "ἰδοὺ",
-              "script": "G"
-            },
+            { "text": "ἰδοὺ", "script": "G" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -723,22 +707,11 @@
     "chapter": 6,
     "verse": 2,
     "content": [
-      {
-        "text": "For he says,",
-        "break": true
-      },
-      {
-        "text": "“At an acceptable time I listened to you.",
-        "break": true
-      },
+      { "text": "For he says,", "break": true },
+      { "text": "“At an acceptable time I listened to you.", "break": true },
       {
         "text": "In a day of salvation I helped you.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 49:8"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 49:8" } }
       },
       {
         "paragraph": true,
@@ -839,17 +812,11 @@
       "foot": {
         "type": "xrf",
         "content": [
-          {
-            "bibleLink": "Leviticus 26:12"
-          },
+          { "bibleLink": "Leviticus 26:12" },
           "; ",
-          {
-            "bibleLink": "Jeremiah 32:38"
-          },
+          { "bibleLink": "Jeremiah 32:38" },
           "; ",
-          {
-            "bibleLink": "Ezekiel 37:27"
-          }
+          { "bibleLink": "Ezekiel 37:27" }
         ]
       }
     }
@@ -859,35 +826,19 @@
     "chapter": 6,
     "verse": 17,
     "content": [
-      {
-        "text": "Therefore",
-        "break": true
-      },
-      {
-        "text": "“ ‘Come out from among them,",
-        "break": true
-      },
-      {
-        "text": "and be separate,’ says the Lord.",
-        "break": true
-      },
-      {
-        "text": "‘Touch no unclean thing.",
-        "break": true
-      },
+      { "text": "Therefore", "break": true },
+      { "text": "“ ‘Come out from among them,", "break": true },
+      { "text": "and be separate,’ says the Lord.", "break": true },
+      { "text": "‘Touch no unclean thing.", "break": true },
       {
         "text": "I will receive you.",
         "break": true,
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Isaiah 52:11"
-            },
+            { "bibleLink": "Isaiah 52:11" },
             "; ",
-            {
-              "bibleLink": "Ezekiel 20:34, 41"
-            }
+            { "bibleLink": "Ezekiel 20:34, 41" }
           ]
         }
       }
@@ -898,10 +849,7 @@
     "chapter": 6,
     "verse": 18,
     "content": [
-      {
-        "text": "I will be to you a Father.",
-        "break": true
-      },
+      { "text": "I will be to you a Father.", "break": true },
       "You will be to me sons and daughters,’",
       {
         "paragraph": true,
@@ -909,14 +857,9 @@
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "2 Samuel 7:14"
-            },
+            { "bibleLink": "2 Samuel 7:14" },
             "; ",
-            {
-              "bibleLink": "2 Samuel 7:8",
-              "content": "7:8"
-            }
+            { "bibleLink": "2 Samuel 7:8", "content": "7:8" }
           ]
         }
       }
@@ -1126,12 +1069,7 @@
     "verse": 15,
     "content": {
       "text": "As it is written, “He who gathered much had nothing left over, and he who gathered little had no lack.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Exodus 16:18"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Exodus 16:18" } }
     }
   },
   {
@@ -1250,22 +1188,14 @@
     "chapter": 9,
     "verse": 9,
     "content": [
-      {
-        "text": "As it is written,",
-        "break": true
-      },
+      { "text": "As it is written,", "break": true },
       {
         "text": "“He has scattered abroad. He has given to the poor.",
         "break": true
       },
       {
         "text": "His righteousness remains forever.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 112:9"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 112:9" } }
       }
     ]
   },
@@ -1419,12 +1349,7 @@
     "verse": 17,
     "content": {
       "text": "But “he who boasts, let him boast in the Lord.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Jeremiah 9:24"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Jeremiah 9:24" } }
     }
   },
   {
@@ -1578,10 +1503,7 @@
     "content": [
       {
         "text": "Are they Hebrews? So am I. Are they Israelites? So am I. Are they the offspring",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " of Abraham? So am I."
     ]
@@ -1810,12 +1732,7 @@
     "content": {
       "paragraph": true,
       "text": "This is the third time I am coming to you. “At the mouth of two or three witnesses shall every word be established.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Deuteronomy 19:15"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Deuteronomy 19:15" } }
     }
   },
   {
@@ -1897,10 +1814,7 @@
     "book": "2CO",
     "chapter": 13,
     "verse": 13,
-    "content": {
-      "paragraph": true,
-      "text": "All the saints greet you."
-    }
+    "content": { "paragraph": true, "text": "All the saints greet you." }
   },
   {
     "book": "2CO",

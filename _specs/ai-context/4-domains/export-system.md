@@ -20,12 +20,14 @@ The Export System converts Graphai JSON data into human-readable formats for off
 | `¶`            | Paragraph start  | Text     |
 | `␤`            | Line break       | Text     |
 | `«»`           | Subtitle wrapper | Text     |
-| `[[]]`         | Heading wrapper  | Text     |
+| `[[]]`         | Heading wrapper (standard)  | Text     |
+| `[[[]]]`       | Heading wrapper (acrostic)  | Text     |
 | `°{content}`   | Inline footnote  | Text     |
 | `<sup>n</sup>` | Verse number     | Markdown |
 | `<br>`         | Line break       | Markdown |
 | `> _text_`     | Subtitle block   | Markdown |
-| `### Heading`  | Section heading  | Markdown |
+| `### Heading`  | Section heading (standard) | Markdown |
+| `#### Heading` | Section heading (acrostic, one level smaller) | Markdown |
 
 ## User Workflows
 
@@ -44,6 +46,7 @@ The Export System converts Graphai JSON data into human-readable formats for off
 - **Small Caps Conversion** – Text marked with `sc` formatting renders as uppercase in text/markdown exports
 - **Nested Content** – Content with shared properties (e.g., Strong's numbers applying to multiple words) handled recursively
 - **Bible Reference Links** – `bibleLink` nodes render their `content` override when provided, otherwise the `bibleLink` string itself
+- **Heading Type** – A heading's optional `type` (`standard` default, `acrostic`) renders one level smaller for acrostic markers (e.g., Psalm 119 Hebrew stanza letters) in both text (`[[[...]]]`) and markdown (`####`) exports
 
 ## Architecture
 
@@ -59,7 +62,7 @@ interface RenderOptions {
   footnoteStyle: "inline" | "reference";
   paragraphMarker: string;
   lineBreakMarker: string;
-  headingWrapper: (text: string) => string;
+  headingWrapper: (text: string, type?: "standard" | "acrostic") => string;
   subtitleWrapper: (text: string) => string;
   footnoteMarker: (index: number) => string;
 }
@@ -75,7 +78,8 @@ const TEXT_OPTIONS: RenderOptions = {
   footnoteStyle: "inline",
   paragraphMarker: "¶ ",
   lineBreakMarker: "␤",
-  headingWrapper: (text) => `[[${text}]] `,
+  headingWrapper: (text, type) =>
+    type === "acrostic" ? `[[[${text}]]] ` : `[[${text}]] `,
   subtitleWrapper: (text) => `«${text}» `,
   footnoteMarker: () => "°",
 };
@@ -87,7 +91,8 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   footnoteStyle: "reference",
   paragraphMarker: "\n\n",
   lineBreakMarker: "<br>",
-  headingWrapper: (text) => `\n### ${text}\n`,
+  headingWrapper: (text, type) =>
+    `\n${type === "acrostic" ? "####" : "###"} ${text}\n`,
   subtitleWrapper: (text) => `> _${text}_`,
   footnoteMarker: (index) =>
     `<sup>${String.fromCharCode(97 + (index % 26))}</sup>`,
@@ -118,7 +123,7 @@ function renderContent(content: Content, ctx: RenderContext): string {
       ...ctx,
       footnotePrefix: "Heading.",
     });
-    return ctx.options.headingWrapper(inner);
+    return ctx.options.headingWrapper(inner, content.type);
   }
 
   if ("subtitle" in content) {

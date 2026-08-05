@@ -2710,7 +2710,7 @@ They never change<br>and don’t fear God.<br>
 
 ## Chapter 119
 
-### ALEPH
+#### ALEPH
 
 <sup>1</sup> Blessed are those whose ways are blameless,<br>who walk according to Yahweh’s law.<br>
 <sup>2</sup> Blessed are those who keep his statutes,<br>who seek him with their whole heart.<br>
@@ -2721,7 +2721,7 @@ They never change<br>and don’t fear God.<br>
 <sup>7</sup> I will give thanks to you with uprightness of heart,<br>when I learn your righteous judgments.<br>
 <sup>8</sup> I will observe your statutes.<br>Don’t utterly forsake me.
 
-### BETH
+#### BETH
 
 <sup>9</sup> How can a young man keep his way pure?<br>By living according to your word.<br>
 <sup>10</sup> With my whole heart I have sought you.<br>Don’t let me wander from your commandments.<br>
@@ -2732,7 +2732,7 @@ They never change<br>and don’t fear God.<br>
 <sup>15</sup> I will meditate on your precepts,<br>and consider your ways.<br>
 <sup>16</sup> I will delight myself in your statutes.<br>I will not forget your word.
 
-### GIMEL
+#### GIMEL
 
 <sup>17</sup> Do good to your servant.<br>I will live and I will obey your word.<br>
 <sup>18</sup> Open my eyes,<br>that I may see wondrous things out of your law.<br>
@@ -2743,7 +2743,7 @@ They never change<br>and don’t fear God.<br>
 <sup>23</sup> Though princes sit and slander me,<br>your servant will meditate on your statutes.<br>
 <sup>24</sup> Indeed your statutes are my delight,<br>and my counselors.
 
-### DALETH
+#### DALETH
 
 <sup>25</sup> My soul is laid low in the dust.<br>Revive me according to your word!<br>
 <sup>26</sup> I declared my ways, and you answered me.<br>Teach me your statutes.<br>
@@ -2754,7 +2754,7 @@ They never change<br>and don’t fear God.<br>
 <sup>31</sup> I cling to your statutes, Yahweh.<br>Don’t let me be disappointed.<br>
 <sup>32</sup> I run in the path of your commandments,<br>for you have set my heart free.
 
-### HE
+#### HE
 
 <sup>33</sup> Teach me, Yahweh, the way of your statutes.<br>I will keep them to the end.<br>
 <sup>34</sup> Give me understanding, and I will keep your law.<br>Yes, I will obey it with my whole heart.<br>
@@ -2765,7 +2765,7 @@ They never change<br>and don’t fear God.<br>
 <sup>39</sup> Take away my disgrace that I dread,<br>for your ordinances are good.<br>
 <sup>40</sup> Behold, I long for your precepts!<br>Revive me in your righteousness.
 
-### VAV
+#### VAV
 
 <sup>41</sup> Let your loving kindness also come to me, Yahweh,<br>your salvation, according to your word.<br>
 <sup>42</sup> So I will have an answer for him who reproaches me,<br>for I trust in your word.<br>
@@ -2776,7 +2776,7 @@ They never change<br>and don’t fear God.<br>
 <sup>47</sup> I will delight myself in your commandments,<br>because I love them.<br>
 <sup>48</sup> I reach out my hands for your commandments, which I love.<br>I will meditate on your statutes.
 
-### ZAYIN
+#### ZAYIN
 
 <sup>49</sup> Remember your word to your servant,<br>because you gave me hope.<br>
 <sup>50</sup> This is my comfort in my affliction,<br>for your word has revived me.<br>
@@ -2787,7 +2787,7 @@ They never change<br>and don’t fear God.<br>
 <sup>55</sup> I have remembered your name, Yahweh, in the night,<br>and I obey your law.<br>
 <sup>56</sup> This is my way,<br>that I keep your precepts.
 
-### HETH
+#### HETH
 
 <sup>57</sup> Yahweh is my portion.<br>I promised to obey your words.<br>
 <sup>58</sup> I sought your favor with my whole heart.<br>Be merciful to me according to your word.<br>
@@ -2798,7 +2798,7 @@ They never change<br>and don’t fear God.<br>
 <sup>63</sup> I am a friend of all those who fear you,<br>of those who observe your precepts.<br>
 <sup>64</sup> The earth is full of your loving kindness, Yahweh.<br>Teach me your statutes.
 
-### TETH
+#### TETH
 
 <sup>65</sup> You have treated your servant well,<br>according to your word, Yahweh.<br>
 <sup>66</sup> Teach me good judgment and knowledge,<br>for I believe in your commandments.<br>
@@ -2809,7 +2809,7 @@ They never change<br>and don’t fear God.<br>
 <sup>71</sup> It is good for me that I have been afflicted,<br>that I may learn your statutes.<br>
 <sup>72</sup> The law of your mouth is better to me than thousands of pieces of gold and silver.
 
-### YODH
+#### YODH
 
 <sup>73</sup> Your hands have made me and formed me.<br>Give me understanding, that I may learn your commandments.<br>
 <sup>74</sup> Those who fear you will see me and be glad,<br>because I have put my hope in your word.<br>
@@ -2820,7 +2820,7 @@ They never change<br>and don’t fear God.<br>
 <sup>79</sup> Let those who fear you turn to me.<br>They will know your statutes.<br>
 <sup>80</sup> Let my heart be blameless toward your decrees,<br>that I may not be disappointed.
 
-### KAPF
+#### KAPF
 
 <sup>81</sup> My soul faints for your salvation.<br>I hope in your word.<br>
 <sup>82</sup> My eyes fail for your word.<br>I say, “When will you comfort me?”<br>
@@ -2831,7 +2831,7 @@ They never change<br>and don’t fear God.<br>
 <sup>87</sup> They had almost wiped me from the earth,<br>but I didn’t forsake your precepts.<br>
 <sup>88</sup> Preserve my life according to your loving kindness,<br>so I will obey the statutes of your mouth.
 
-### LAMEDH
+#### LAMEDH
 
 <sup>89</sup> Yahweh, your word is settled in heaven forever.<br>
 <sup>90</sup> Your faithfulness is to all generations.<br>You have established the earth, and it remains.<br>
@@ -2842,7 +2842,7 @@ They never change<br>and don’t fear God.<br>
 <sup>95</sup> The wicked have waited for me, to destroy me.<br>I will consider your statutes.<br>
 <sup>96</sup> I have seen a limit to all perfection,<br>but your commands are boundless.
 
-### MEM
+#### MEM
 
 <sup>97</sup> How I love your law!<br>It is my meditation all day.<br>
 <sup>98</sup> Your commandments make me wiser than my enemies,<br>for your commandments are always with me.<br>
@@ -2853,7 +2853,7 @@ They never change<br>and don’t fear God.<br>
 <sup>103</sup> How sweet are your promises to my taste,<br>more than honey to my mouth!<br>
 <sup>104</sup> Through your precepts, I get understanding;<br>therefore I hate every false way.
 
-### NUN
+#### NUN
 
 <sup>105</sup> Your word is a lamp to my feet,<br>and a light for my path.<br>
 <sup>106</sup> I have sworn, and have confirmed it,<br>that I will obey your righteous ordinances.<br>
@@ -2864,7 +2864,7 @@ They never change<br>and don’t fear God.<br>
 <sup>111</sup> I have taken your testimonies as a heritage forever,<br>for they are the joy of my heart.<br>
 <sup>112</sup> I have set my heart to perform your statutes forever,<br>even to the end.
 
-### SAMEKH
+#### SAMEKH
 
 <sup>113</sup> I hate double-minded men,<br>but I love your law.<br>
 <sup>114</sup> You are my hiding place and my shield.<br>I hope in your word.<br>
@@ -2875,7 +2875,7 @@ They never change<br>and don’t fear God.<br>
 <sup>119</sup> You put away all the wicked of the earth like dross.<br>Therefore I love your testimonies.<br>
 <sup>120</sup> My flesh trembles for fear of you.<br>I am afraid of your judgments.
 
-### AYIN
+#### AYIN
 
 <sup>121</sup> I have done what is just and righteous.<br>Don’t leave me to my oppressors.<br>
 <sup>122</sup> Ensure your servant’s well-being.<br>Don’t let the proud oppress me.<br>
@@ -2886,7 +2886,7 @@ They never change<br>and don’t fear God.<br>
 <sup>127</sup> Therefore I love your commandments more than gold,<br>yes, more than pure gold.<br>
 <sup>128</sup> Therefore I consider all of your precepts to be right.<br>I hate every false way.
 
-### PE
+#### PE
 
 <sup>129</sup> Your testimonies are wonderful,<br>therefore my soul keeps them.<br>
 <sup>130</sup> The entrance of your words gives light.<br>It gives understanding to the simple.<br>
@@ -2897,7 +2897,7 @@ They never change<br>and don’t fear God.<br>
 <sup>135</sup> Make your face shine on your servant.<br>Teach me your statutes.<br>
 <sup>136</sup> Streams of tears run down my eyes,<br>because they don’t observe your law.
 
-### TZADHE
+#### TZADHE
 
 <sup>137</sup> You are righteous, Yahweh.<br>Your judgments are upright.<br>
 <sup>138</sup> You have commanded your statutes in righteousness.<br>They are fully trustworthy.<br>
@@ -2908,7 +2908,7 @@ They never change<br>and don’t fear God.<br>
 <sup>143</sup> Trouble and anguish have taken hold of me.<br>Your commandments are my delight.<br>
 <sup>144</sup> Your testimonies are righteous forever.<br>Give me understanding, that I may live.
 
-### QOPH
+#### QOPH
 
 <sup>145</sup> I have called with my whole heart.<br>Answer me, Yahweh!<br>I will keep your statutes.<br>
 <sup>146</sup> I have called to you. Save me!<br>I will obey your statutes.<br>
@@ -2919,7 +2919,7 @@ They never change<br>and don’t fear God.<br>
 <sup>151</sup> You are near, Yahweh.<br>All your commandments are truth.<br>
 <sup>152</sup> Of old I have known from your testimonies,<br>that you have founded them forever.
 
-### RESH
+#### RESH
 
 <sup>153</sup> Consider my affliction, and deliver me,<br>for I don’t forget your law.<br>
 <sup>154</sup> Plead my cause, and redeem me!<br>Revive me according to your promise.<br>
@@ -2930,7 +2930,7 @@ They never change<br>and don’t fear God.<br>
 <sup>159</sup> Consider how I love your precepts.<br>Revive me, Yahweh, according to your loving kindness.<br>
 <sup>160</sup> All of your words are truth.<br>Every one of your righteous ordinances endures forever.
 
-### SIN AND SHIN
+#### SIN AND SHIN
 
 <sup>161</sup> Princes have persecuted me without a cause,<br>but my heart stands in awe of your words.<br>
 <sup>162</sup> I rejoice at your word,<br>as one who finds great plunder.<br>
@@ -2941,7 +2941,7 @@ They never change<br>and don’t fear God.<br>
 <sup>167</sup> My soul has observed your testimonies.<br>I love them exceedingly.<br>
 <sup>168</sup> I have obeyed your precepts and your testimonies,<br>for all my ways are before you.
 
-### TAV
+#### TAV
 
 <sup>169</sup> Let my cry come before you, Yahweh.<br>Give me understanding according to your word.<br>
 <sup>170</sup> Let my supplication come before you.<br>Deliver me according to your word.<br>

@@ -80,6 +80,8 @@ The reader carries a settings panel with toggles for the various annotations:
 | Dark mode        | Light/dark theme (defaults to system preference)                           |
 | Font size        | Scales the reading column proportionally                                   |
 
+Acrostic headings (Hebrew stanza markers, e.g. Psalm 119) render one size smaller than standard headings but share the same Headings toggle — see [content-model.md](./content-model.md#why-these-particular-shapes).
+
 The settings live in component state, not localStorage — they reset on reload. Persistence would be a reasonable enhancement.
 
 ## Component registration

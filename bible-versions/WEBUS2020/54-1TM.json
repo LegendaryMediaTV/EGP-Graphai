@@ -206,20 +206,11 @@
           "type": "trn",
           "content": [
             "The word for “not” is the negative particle “",
-            {
-              "text": "μη",
-              "script": "G"
-            },
+            { "text": "μη", "script": "G" },
             "” which denies an expected idea, as opposed to the usual word for “not” (",
-            {
-              "text": "ου",
-              "script": "G"
-            },
+            { "text": "ου", "script": "G" },
             ") which denies a fact. Thus “",
-            {
-              "text": "μη",
-              "script": "G"
-            },
+            { "text": "μη", "script": "G" },
             "” in this context is denying an expected idea (that women can be properly dressed without good works)."
           ]
         }
@@ -271,10 +262,7 @@
       {
         "paragraph": true,
         "text": "This is a faithful saying: someone who seeks to be an overseer",
-        "foot": {
-          "type": "trn",
-          "content": "or, superintendent, or bishop"
-        }
+        "foot": { "type": "trn", "content": "or, superintendent, or bishop" }
       },
       " desires a good work."
     ]
@@ -323,10 +311,7 @@
       {
         "paragraph": true,
         "text": "Servants,",
-        "foot": {
-          "type": "trn",
-          "content": "or, Deacons."
-        }
+        "foot": { "type": "trn", "content": "or, Deacons." }
       },
       " in the same way, must be reverent, not double-tongued, not addicted to much wine, not greedy for money,"
     ]
@@ -344,10 +329,7 @@
     "content": [
       {
         "text": "Let them also first be tested; then let them serve",
-        "foot": {
-          "type": "trn",
-          "content": "or, serve as deacons"
-        }
+        "foot": { "type": "trn", "content": "or, serve as deacons" }
       },
       " if they are blameless."
     ]
@@ -365,10 +347,7 @@
     "content": [
       {
         "text": "Let servants",
-        "foot": {
-          "type": "trn",
-          "content": "or, deacons"
-        }
+        "foot": { "type": "trn", "content": "or, deacons" }
       },
       " be husbands of one wife, ruling their children and their own houses well."
     ]
@@ -380,10 +359,7 @@
     "content": [
       {
         "text": "For those who have served well",
-        "foot": {
-          "type": "trn",
-          "content": "or, served well as deacons"
-        }
+        "foot": { "type": "trn", "content": "or, served well as deacons" }
       },
       " gain for themselves a good standing and great boldness in the faith which is in Christ Jesus."
     ]
@@ -414,31 +390,13 @@
       },
       {
         "text": "God",
-        "foot": {
-          "type": "var",
-          "content": "NU replaces “God” with “who”"
-        }
+        "foot": { "type": "var", "content": "NU replaces “God” with “who”" }
       },
-      {
-        "text": " was revealed in the flesh,",
-        "break": true
-      },
-      {
-        "text": "justified in the spirit,",
-        "break": true
-      },
-      {
-        "text": "seen by angels,",
-        "break": true
-      },
-      {
-        "text": "preached among the nations,",
-        "break": true
-      },
-      {
-        "text": "believed on in the world,",
-        "break": true
-      },
+      { "text": " was revealed in the flesh,", "break": true },
+      { "text": "justified in the spirit,", "break": true },
+      { "text": "seen by angels,", "break": true },
+      { "text": "preached among the nations,", "break": true },
+      { "text": "believed on in the world,", "break": true },
       "and received up in glory."
     ]
   },
@@ -578,10 +536,7 @@
     "content": [
       {
         "text": "But if any widow has children or grandchildren, let them learn first to show piety toward their own family and to repay their parents, for this is",
-        "foot": {
-          "type": "var",
-          "content": "TR adds “good and”"
-        }
+        "foot": { "type": "var", "content": "TR adds “good and”" }
       },
       " acceptable in the sight of God."
     ]
@@ -682,9 +637,7 @@
         "text": "For the Scripture says, “You shall not muzzle the ox when it treads out the grain.”",
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Deuteronomy 25:4"
-          }
+          "content": { "bibleLink": "Deuteronomy 25:4" }
         }
       },
       " And, ",
@@ -694,13 +647,9 @@
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Luke 10:7"
-            },
+            { "bibleLink": "Luke 10:7" },
             "; ",
-            {
-              "bibleLink": "Leviticus 19:13"
-            }
+            { "bibleLink": "Leviticus 19:13" }
           ]
         }
       }
@@ -907,10 +856,7 @@
     "verse": 21,
     "content": [
       "which some profess, and thus have wandered from the faith.",
-      {
-        "paragraph": true,
-        "text": "Grace be with you. Amen."
-      }
+      { "paragraph": true, "text": "Grace be with you. Amen." }
     ]
   }
 ]

@@ -4,33 +4,14 @@
     "chapter": 1,
     "verse": 1,
     "content": [
+      { "paragraph": true, "text": "The word", "strong": "H1697" },
       {
-        "paragraph": true,
-        "text": "The word",
-        "strong": "H1697"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " that came to Joel",
-        "strong": "H3100"
-      },
-      {
-        "text": " the son",
-        "strong": "H1121"
-      },
-      {
-        "text": " of Pethuel.",
-        "strong": "H6602"
-      }
+      { "text": " that came to Joel", "strong": "H3100" },
+      { "text": " the son", "strong": "H1121" },
+      { "text": " of Pethuel.", "strong": "H6602" }
     ]
   },
   {
@@ -38,45 +19,19 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      {
-        "text": "Hear",
-        "strong": "H8085",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " this, ye old men,",
-        "strong": "H2205"
-      },
-      {
-        "text": " and give ear,",
-        "strong": "H238",
-        "morph": "HiphImpv"
-      },
+      { "text": "Hear", "strong": "H8085", "morph": "QalImpv" },
+      { "text": " this, ye old men,", "strong": "H2205" },
+      { "text": " and give ear,", "strong": "H238", "morph": "HiphImpv" },
       {
         "text": " all ye inhabitants",
         "strong": "H3427",
         "morph": "QalActPtc"
       },
-      {
-        "text": " of the land.",
-        "strong": "H776"
-      },
-      {
-        "text": " Hath this been in your days,",
-        "strong": "H3117"
-      },
-      {
-        "text": " or even",
-        "strong": "H518"
-      },
-      {
-        "text": " in the days",
-        "strong": "H3117"
-      },
-      {
-        "text": " of your fathers?",
-        "strong": "H1"
-      }
+      { "text": " of the land.", "strong": "H776" },
+      { "text": " Hath this been in your days,", "strong": "H3117" },
+      { "text": " or even", "strong": "H518" },
+      { "text": " in the days", "strong": "H3117" },
+      { "text": " of your fathers?", "strong": "H1" }
     ]
   },
   {
@@ -84,35 +39,13 @@
     "chapter": 1,
     "verse": 3,
     "content": [
-      {
-        "text": "Tell",
-        "strong": "H5608",
-        "morph": "PielImpv"
-      },
-      {
-        "text": " ye your children",
-        "strong": "H1121"
-      },
-      {
-        "text": " of it, and [let] your children",
-        "strong": "H1121"
-      },
-      {
-        "text": " [tell] their children,",
-        "strong": "H1121"
-      },
-      {
-        "text": " and their children",
-        "strong": "H1121"
-      },
-      {
-        "text": " another",
-        "strong": "H312"
-      },
-      {
-        "text": " generation.",
-        "strong": "H1755"
-      }
+      { "text": "Tell", "strong": "H5608", "morph": "PielImpv" },
+      { "text": " ye your children", "strong": "H1121" },
+      { "text": " of it, and [let] your children", "strong": "H1121" },
+      { "text": " [tell] their children,", "strong": "H1121" },
+      { "text": " and their children", "strong": "H1121" },
+      { "text": " another", "strong": "H312" },
+      { "text": " generation.", "strong": "H1755" }
     ]
   },
   {
@@ -120,57 +53,18 @@
     "chapter": 1,
     "verse": 4,
     "content": [
-      {
-        "text": "That which the palmerworm",
-        "strong": "H1501"
-      },
-      {
-        "text": " hath left",
-        "strong": "H3499"
-      },
-      {
-        "text": " hath the locust",
-        "strong": "H697"
-      },
-      {
-        "text": " eaten;",
-        "strong": "H398",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " and that which the locust",
-        "strong": "H697"
-      },
-      {
-        "text": " hath left",
-        "strong": "H3499"
-      },
-      {
-        "text": " hath the cankerworm",
-        "strong": "H3218"
-      },
-      {
-        "text": " eaten;",
-        "strong": "H398",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " and that which the cankerworm",
-        "strong": "H3218"
-      },
-      {
-        "text": " hath left",
-        "strong": "H3499"
-      },
-      {
-        "text": " hath the caterpiller",
-        "strong": "H2625"
-      },
-      {
-        "text": " eaten.",
-        "strong": "H398",
-        "morph": "QalPerf"
-      }
+      { "text": "That which the palmerworm", "strong": "H1501" },
+      { "text": " hath left", "strong": "H3499" },
+      { "text": " hath the locust", "strong": "H697" },
+      { "text": " eaten;", "strong": "H398", "morph": "QalPerf" },
+      { "text": " and that which the locust", "strong": "H697" },
+      { "text": " hath left", "strong": "H3499" },
+      { "text": " hath the cankerworm", "strong": "H3218" },
+      { "text": " eaten;", "strong": "H398", "morph": "QalPerf" },
+      { "text": " and that which the cankerworm", "strong": "H3218" },
+      { "text": " hath left", "strong": "H3499" },
+      { "text": " hath the caterpiller", "strong": "H2625" },
+      { "text": " eaten.", "strong": "H398", "morph": "QalPerf" }
     ]
   },
   {
@@ -178,47 +72,15 @@
     "chapter": 1,
     "verse": 5,
     "content": [
-      {
-        "text": "Awake,",
-        "strong": "H6974",
-        "morph": "HiphImpv"
-      },
-      {
-        "text": " ye drunkards,",
-        "strong": "H7910"
-      },
-      {
-        "text": " and weep;",
-        "strong": "H1058",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " and howl,",
-        "strong": "H3213",
-        "morph": "HiphImpv"
-      },
-      {
-        "text": " all ye drinkers",
-        "strong": "H8354",
-        "morph": "QalActPtc"
-      },
-      {
-        "text": " of wine,",
-        "strong": "H3196"
-      },
-      {
-        "text": " because of the new wine;",
-        "strong": "H6071"
-      },
-      {
-        "text": " for it is cut off",
-        "strong": "H3772",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " from your mouth.",
-        "strong": "H6310"
-      }
+      { "text": "Awake,", "strong": "H6974", "morph": "HiphImpv" },
+      { "text": " ye drunkards,", "strong": "H7910" },
+      { "text": " and weep;", "strong": "H1058", "morph": "QalImpv" },
+      { "text": " and howl,", "strong": "H3213", "morph": "HiphImpv" },
+      { "text": " all ye drinkers", "strong": "H8354", "morph": "QalActPtc" },
+      { "text": " of wine,", "strong": "H3196" },
+      { "text": " because of the new wine;", "strong": "H6071" },
+      { "text": " for it is cut off", "strong": "H3772", "morph": "NiphPerf" },
+      { "text": " from your mouth.", "strong": "H6310" }
     ]
   },
   {
@@ -226,47 +88,16 @@
     "chapter": 1,
     "verse": 6,
     "content": [
-      {
-        "text": "For a nation",
-        "strong": "H1471"
-      },
-      {
-        "text": " is come up",
-        "strong": "H5927",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " upon my land,",
-        "strong": "H776"
-      },
-      {
-        "text": " strong,",
-        "strong": "H6099"
-      },
-      {
-        "text": " and without number,",
-        "strong": "H4557"
-      },
-      {
-        "text": " whose teeth",
-        "strong": "H8127"
-      },
-      {
-        "text": " [are] the teeth",
-        "strong": "H8127"
-      },
-      {
-        "text": " of a lion,",
-        "strong": "H738"
-      },
-      {
-        "text": " and he hath the cheek teeth",
-        "strong": "H4973"
-      },
-      {
-        "text": " of a great lion.",
-        "strong": "H3833"
-      }
+      { "text": "For a nation", "strong": "H1471" },
+      { "text": " is come up", "strong": "H5927", "morph": "QalPerf" },
+      { "text": " upon my land,", "strong": "H776" },
+      { "text": " strong,", "strong": "H6099" },
+      { "text": " and without number,", "strong": "H4557" },
+      { "text": " whose teeth", "strong": "H8127" },
+      { "text": " [are] the teeth", "strong": "H8127" },
+      { "text": " of a lion,", "strong": "H738" },
+      { "text": " and he hath the cheek teeth", "strong": "H4973" },
+      { "text": " of a great lion.", "strong": "H3833" }
     ]
   },
   {
@@ -274,46 +105,23 @@
     "chapter": 1,
     "verse": 7,
     "content": [
-      {
-        "text": "He hath laid",
-        "strong": "H7760",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " my vine",
-        "strong": "H1612"
-      },
-      {
-        "text": " waste,",
-        "strong": "H8047"
-      },
-      {
-        "text": " and barked",
-        "strong": "H7111"
-      },
-      {
-        "text": " my fig tree:",
-        "strong": "H8384"
-      },
+      { "text": "He hath laid", "strong": "H7760", "morph": "QalPerf" },
+      { "text": " my vine", "strong": "H1612" },
+      { "text": " waste,", "strong": "H8047" },
+      { "text": " and barked", "strong": "H7111" },
+      { "text": " my fig tree:", "strong": "H8384" },
       {
         "text": " he hath made it clean",
         "strong": "H2834",
         "morph": "QalInf"
       },
-      {
-        "text": " bare,",
-        "strong": "H2834",
-        "morph": "QalPerf"
-      },
+      { "text": " bare,", "strong": "H2834", "morph": "QalPerf" },
       {
         "text": " and cast [it] away;",
         "strong": "H7993",
         "morph": "HiphPerf"
       },
-      {
-        "text": " the branches",
-        "strong": "H8299"
-      },
+      { "text": " the branches", "strong": "H8299" },
       {
         "text": " thereof are made white.",
         "strong": "H3835",
@@ -326,32 +134,12 @@
     "chapter": 1,
     "verse": 8,
     "content": [
-      {
-        "text": "Lament",
-        "strong": "H421",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " like a virgin",
-        "strong": "H1330"
-      },
-      {
-        "text": " girded",
-        "strong": "H2296",
-        "morph": "QalPasPtc"
-      },
-      {
-        "text": " with sackcloth",
-        "strong": "H8242"
-      },
-      {
-        "text": " for the husband",
-        "strong": "H1167"
-      },
-      {
-        "text": " of her youth.",
-        "strong": "H5271"
-      }
+      { "text": "Lament", "strong": "H421", "morph": "QalImpv" },
+      { "text": " like a virgin", "strong": "H1330" },
+      { "text": " girded", "strong": "H2296", "morph": "QalPasPtc" },
+      { "text": " with sackcloth", "strong": "H8242" },
+      { "text": " for the husband", "strong": "H1167" },
+      { "text": " of her youth.", "strong": "H5271" }
     ]
   },
   {
@@ -359,58 +147,21 @@
     "chapter": 1,
     "verse": 9,
     "content": [
+      { "text": "The meat offering", "strong": "H4503" },
+      { "text": " and the drink offering", "strong": "H5262" },
+      { "text": " is cut off", "strong": "H3772", "morph": "HophPerf" },
+      { "text": " from the house", "strong": "H1004" },
       {
-        "text": "The meat offering",
-        "strong": "H4503"
-      },
-      {
-        "text": " and the drink offering",
-        "strong": "H5262"
-      },
-      {
-        "text": " is cut off",
-        "strong": "H3772",
-        "morph": "HophPerf"
-      },
-      {
-        "text": " from the house",
-        "strong": "H1004"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          },
-          ";"
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, ";"],
         "strong": "H3068"
       },
+      { "text": " the priests,", "strong": "H3548" },
       {
-        "text": " the priests,",
-        "strong": "H3548"
-      },
-      {
-        "content": [
-          " the ",
-          {
-            "text": "Lord’s",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" the ", { "text": "Lord’s", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " ministers,",
-        "strong": "H8334",
-        "morph": "PielPtc"
-      },
-      {
-        "text": " mourn.",
-        "strong": "H56",
-        "morph": "QalPerf"
-      }
+      { "text": " ministers,", "strong": "H8334", "morph": "PielPtc" },
+      { "text": " mourn.", "strong": "H56", "morph": "QalPerf" }
     ]
   },
   {
@@ -418,51 +169,16 @@
     "chapter": 1,
     "verse": 10,
     "content": [
-      {
-        "text": "The field",
-        "strong": "H7704"
-      },
-      {
-        "text": " is wasted,",
-        "strong": "H7703",
-        "morph": "PualPerf"
-      },
-      {
-        "text": " the land",
-        "strong": "H127"
-      },
-      {
-        "text": " mourneth;",
-        "strong": "H56",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " for the corn",
-        "strong": "H1715"
-      },
-      {
-        "text": " is wasted:",
-        "strong": "H7703",
-        "morph": "PualPerf"
-      },
-      {
-        "text": " the new wine",
-        "strong": "H8492"
-      },
-      {
-        "text": " is dried up,",
-        "strong": "H3001",
-        "morph": "HiphPerf"
-      },
-      {
-        "text": " the oil",
-        "strong": "H3323"
-      },
-      {
-        "text": " languisheth.",
-        "strong": "H535",
-        "morph": "PulaPerf"
-      }
+      { "text": "The field", "strong": "H7704" },
+      { "text": " is wasted,", "strong": "H7703", "morph": "PualPerf" },
+      { "text": " the land", "strong": "H127" },
+      { "text": " mourneth;", "strong": "H56", "morph": "QalPerf" },
+      { "text": " for the corn", "strong": "H1715" },
+      { "text": " is wasted:", "strong": "H7703", "morph": "PualPerf" },
+      { "text": " the new wine", "strong": "H8492" },
+      { "text": " is dried up,", "strong": "H3001", "morph": "HiphPerf" },
+      { "text": " the oil", "strong": "H3323" },
+      { "text": " languisheth.", "strong": "H535", "morph": "PulaPerf" }
     ]
   },
   {
@@ -470,45 +186,15 @@
     "chapter": 1,
     "verse": 11,
     "content": [
-      {
-        "text": "Be ye ashamed,",
-        "strong": "H3001",
-        "morph": "HiphImpv"
-      },
-      {
-        "text": " O ye husbandmen;",
-        "strong": "H406"
-      },
-      {
-        "text": " howl,",
-        "strong": "H3213",
-        "morph": "HiphImpv"
-      },
-      {
-        "text": " O ye vinedressers,",
-        "strong": "H3755"
-      },
-      {
-        "text": " for the wheat",
-        "strong": "H2406"
-      },
-      {
-        "text": " and for the barley;",
-        "strong": "H8184"
-      },
-      {
-        "text": " because the harvest",
-        "strong": "H7105"
-      },
-      {
-        "text": " of the field",
-        "strong": "H7704"
-      },
-      {
-        "text": " is perished.",
-        "strong": "H6",
-        "morph": "QalPerf"
-      }
+      { "text": "Be ye ashamed,", "strong": "H3001", "morph": "HiphImpv" },
+      { "text": " O ye husbandmen;", "strong": "H406" },
+      { "text": " howl,", "strong": "H3213", "morph": "HiphImpv" },
+      { "text": " O ye vinedressers,", "strong": "H3755" },
+      { "text": " for the wheat", "strong": "H2406" },
+      { "text": " and for the barley;", "strong": "H8184" },
+      { "text": " because the harvest", "strong": "H7105" },
+      { "text": " of the field", "strong": "H7704" },
+      { "text": " is perished.", "strong": "H6", "morph": "QalPerf" }
     ]
   },
   {
@@ -516,66 +202,20 @@
     "chapter": 1,
     "verse": 12,
     "content": [
-      {
-        "text": "The vine",
-        "strong": "H1612"
-      },
-      {
-        "text": " is dried up,",
-        "strong": "H3001",
-        "morph": "HiphPerf"
-      },
-      {
-        "text": " and the fig tree",
-        "strong": "H8384"
-      },
-      {
-        "text": " languisheth;",
-        "strong": "H535",
-        "morph": "PulaPerf"
-      },
-      {
-        "text": " the pomegranate",
-        "strong": "H7416"
-      },
-      {
-        "text": " tree, the palm tree",
-        "strong": "H8558"
-      },
-      {
-        "text": " also, and the apple tree,",
-        "strong": "H8598"
-      },
-      {
-        "text": " [even] all the trees",
-        "strong": "H6086"
-      },
-      {
-        "text": " of the field,",
-        "strong": "H7704"
-      },
-      {
-        "text": " are withered:",
-        "strong": "H3001",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " because joy",
-        "strong": "H8342"
-      },
-      {
-        "text": " is withered away",
-        "strong": "H3001",
-        "morph": "HiphPerf"
-      },
-      {
-        "text": " from the sons",
-        "strong": "H1121"
-      },
-      {
-        "text": " of men.",
-        "strong": "H120"
-      }
+      { "text": "The vine", "strong": "H1612" },
+      { "text": " is dried up,", "strong": "H3001", "morph": "HiphPerf" },
+      { "text": " and the fig tree", "strong": "H8384" },
+      { "text": " languisheth;", "strong": "H535", "morph": "PulaPerf" },
+      { "text": " the pomegranate", "strong": "H7416" },
+      { "text": " tree, the palm tree", "strong": "H8558" },
+      { "text": " also, and the apple tree,", "strong": "H8598" },
+      { "text": " [even] all the trees", "strong": "H6086" },
+      { "text": " of the field,", "strong": "H7704" },
+      { "text": " are withered:", "strong": "H3001", "morph": "QalPerf" },
+      { "text": " because joy", "strong": "H8342" },
+      { "text": " is withered away", "strong": "H3001", "morph": "HiphPerf" },
+      { "text": " from the sons", "strong": "H1121" },
+      { "text": " of men.", "strong": "H120" }
     ]
   },
   {
@@ -583,78 +223,26 @@
     "chapter": 1,
     "verse": 13,
     "content": [
-      {
-        "text": "Gird",
-        "strong": "H2296",
-        "morph": "QalImpv"
-      },
+      { "text": "Gird", "strong": "H2296", "morph": "QalImpv" },
       {
         "text": " yourselves, and lament,",
         "strong": "H5594",
         "morph": "QalImpv"
       },
-      {
-        "text": " ye priests:",
-        "strong": "H3548"
-      },
-      {
-        "text": " howl,",
-        "strong": "H3213",
-        "morph": "HiphImpv"
-      },
-      {
-        "text": " ye ministers",
-        "strong": "H8334",
-        "morph": "PielPtc"
-      },
-      {
-        "text": " of the altar:",
-        "strong": "H4196"
-      },
-      {
-        "text": " come,",
-        "strong": "H935",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " lie all night",
-        "strong": "H3885",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " in sackcloth,",
-        "strong": "H8242"
-      },
-      {
-        "text": " ye ministers",
-        "strong": "H8334",
-        "morph": "PielPtc"
-      },
-      {
-        "text": " of my God:",
-        "strong": "H430"
-      },
-      {
-        "text": " for the meat offering",
-        "strong": "H4503"
-      },
-      {
-        "text": " and the drink offering",
-        "strong": "H5262"
-      },
-      {
-        "text": " is withholden",
-        "strong": "H4513",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " from the house",
-        "strong": "H1004"
-      },
-      {
-        "text": " of your God.",
-        "strong": "H430"
-      }
+      { "text": " ye priests:", "strong": "H3548" },
+      { "text": " howl,", "strong": "H3213", "morph": "HiphImpv" },
+      { "text": " ye ministers", "strong": "H8334", "morph": "PielPtc" },
+      { "text": " of the altar:", "strong": "H4196" },
+      { "text": " come,", "strong": "H935", "morph": "QalImpv" },
+      { "text": " lie all night", "strong": "H3885", "morph": "QalImpv" },
+      { "text": " in sackcloth,", "strong": "H8242" },
+      { "text": " ye ministers", "strong": "H8334", "morph": "PielPtc" },
+      { "text": " of my God:", "strong": "H430" },
+      { "text": " for the meat offering", "strong": "H4503" },
+      { "text": " and the drink offering", "strong": "H5262" },
+      { "text": " is withholden", "strong": "H4513", "morph": "NiphPerf" },
+      { "text": " from the house", "strong": "H1004" },
+      { "text": " of your God.", "strong": "H430" }
     ]
   },
   {
@@ -662,74 +250,27 @@
     "chapter": 1,
     "verse": 14,
     "content": [
-      {
-        "text": "Sanctify",
-        "strong": "H6942",
-        "morph": "PielImpv"
-      },
-      {
-        "text": " ye a fast,",
-        "strong": "H6685"
-      },
-      {
-        "text": " call",
-        "strong": "H7121",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " a solemn assembly,",
-        "strong": "H6116"
-      },
-      {
-        "text": " gather",
-        "strong": "H622",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " the elders",
-        "strong": "H2205"
-      },
+      { "text": "Sanctify", "strong": "H6942", "morph": "PielImpv" },
+      { "text": " ye a fast,", "strong": "H6685" },
+      { "text": " call", "strong": "H7121", "morph": "QalImpv" },
+      { "text": " a solemn assembly,", "strong": "H6116" },
+      { "text": " gather", "strong": "H622", "morph": "QalImpv" },
+      { "text": " the elders", "strong": "H2205" },
       {
         "text": " [and] all the inhabitants",
         "strong": "H3427",
         "morph": "QalActPtc"
       },
+      { "text": " of the land", "strong": "H776" },
+      { "text": " [into] the house", "strong": "H1004" },
       {
-        "text": " of the land",
-        "strong": "H776"
-      },
-      {
-        "text": " [into] the house",
-        "strong": "H1004"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
+      { "text": " your God,", "strong": "H430" },
+      { "text": " and cry", "strong": "H2199", "morph": "QalImpv" },
       {
-        "text": " your God,",
-        "strong": "H430"
-      },
-      {
-        "text": " and cry",
-        "strong": "H2199",
-        "morph": "QalImpv"
-      },
-      {
-        "content": [
-          " unto the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          },
-          ","
-        ],
+        "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       }
     ]
@@ -739,45 +280,17 @@
     "chapter": 1,
     "verse": 15,
     "content": [
+      { "text": "Alas", "strong": "H162" },
+      { "text": " for the day!", "strong": "H3117" },
+      { "text": " for the day", "strong": "H3117" },
       {
-        "text": "Alas",
-        "strong": "H162"
-      },
-      {
-        "text": " for the day!",
-        "strong": "H3117"
-      },
-      {
-        "text": " for the day",
-        "strong": "H3117"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " [is] at hand,",
-        "strong": "H7138"
-      },
-      {
-        "text": " and as a destruction",
-        "strong": "H7701"
-      },
-      {
-        "text": " from the Almighty",
-        "strong": "H7706"
-      },
-      {
-        "text": " shall it come.",
-        "strong": "H935",
-        "morph": "QalImpf"
-      }
+      { "text": " [is] at hand,", "strong": "H7138" },
+      { "text": " and as a destruction", "strong": "H7701" },
+      { "text": " from the Almighty", "strong": "H7706" },
+      { "text": " shall it come.", "strong": "H935", "morph": "QalImpf" }
     ]
   },
   {
@@ -785,35 +298,13 @@
     "chapter": 1,
     "verse": 16,
     "content": [
-      {
-        "text": "Is not the meat",
-        "strong": "H400"
-      },
-      {
-        "text": " cut off",
-        "strong": "H3772",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " before our eyes,",
-        "strong": "H5869"
-      },
-      {
-        "text": " [yea], joy",
-        "strong": "H8057"
-      },
-      {
-        "text": " and gladness",
-        "strong": "H1524"
-      },
-      {
-        "text": " from the house",
-        "strong": "H1004"
-      },
-      {
-        "text": " of our God?",
-        "strong": "H430"
-      }
+      { "text": "Is not the meat", "strong": "H400" },
+      { "text": " cut off", "strong": "H3772", "morph": "NiphPerf" },
+      { "text": " before our eyes,", "strong": "H5869" },
+      { "text": " [yea], joy", "strong": "H8057" },
+      { "text": " and gladness", "strong": "H1524" },
+      { "text": " from the house", "strong": "H1004" },
+      { "text": " of our God?", "strong": "H430" }
     ]
   },
   {
@@ -821,46 +312,15 @@
     "chapter": 1,
     "verse": 17,
     "content": [
-      {
-        "text": "The seed",
-        "strong": "H6507"
-      },
-      {
-        "text": " is rotten",
-        "strong": "H5685",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " under their clods,",
-        "strong": "H4053"
-      },
-      {
-        "text": " the garners",
-        "strong": "H214"
-      },
-      {
-        "text": " are laid desolate,",
-        "strong": "H8074",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " the barns",
-        "strong": "H4460"
-      },
-      {
-        "text": " are broken down;",
-        "strong": "H2040",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " for the corn",
-        "strong": "H1715"
-      },
-      {
-        "text": " is withered.",
-        "strong": "H3001",
-        "morph": "HiphPerf"
-      }
+      { "text": "The seed", "strong": "H6507" },
+      { "text": " is rotten", "strong": "H5685", "morph": "QalPerf" },
+      { "text": " under their clods,", "strong": "H4053" },
+      { "text": " the garners", "strong": "H214" },
+      { "text": " are laid desolate,", "strong": "H8074", "morph": "NiphPerf" },
+      { "text": " the barns", "strong": "H4460" },
+      { "text": " are broken down;", "strong": "H2040", "morph": "NiphPerf" },
+      { "text": " for the corn", "strong": "H1715" },
+      { "text": " is withered.", "strong": "H3001", "morph": "HiphPerf" }
     ]
   },
   {
@@ -868,45 +328,15 @@
     "chapter": 1,
     "verse": 18,
     "content": [
-      {
-        "text": "How do the beasts",
-        "strong": "H929"
-      },
-      {
-        "text": " groan!",
-        "strong": "H584",
-        "morph": "NiphPtc"
-      },
-      {
-        "text": " the herds",
-        "strong": "H5739"
-      },
-      {
-        "text": " of cattle",
-        "strong": "H1241"
-      },
-      {
-        "text": " are perplexed,",
-        "strong": "H943",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " because they have no pasture;",
-        "strong": "H4829"
-      },
-      {
-        "text": " yea, the flocks",
-        "strong": "H5739"
-      },
-      {
-        "text": " of sheep",
-        "strong": "H6629"
-      },
-      {
-        "text": " are made desolate.",
-        "strong": "H816",
-        "morph": "NiphPerf"
-      }
+      { "text": "How do the beasts", "strong": "H929" },
+      { "text": " groan!", "strong": "H584", "morph": "NiphPtc" },
+      { "text": " the herds", "strong": "H5739" },
+      { "text": " of cattle", "strong": "H1241" },
+      { "text": " are perplexed,", "strong": "H943", "morph": "NiphPerf" },
+      { "text": " because they have no pasture;", "strong": "H4829" },
+      { "text": " yea, the flocks", "strong": "H5739" },
+      { "text": " of sheep", "strong": "H6629" },
+      { "text": " are made desolate.", "strong": "H816", "morph": "NiphPerf" }
     ]
   },
   {
@@ -915,55 +345,18 @@
     "verse": 19,
     "content": [
       {
-        "content": [
-          "O ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          },
-          ","
-        ],
+        "content": ["O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      {
-        "text": " to thee will I cry:",
-        "strong": "H7121",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " for the fire",
-        "strong": "H784"
-      },
-      {
-        "text": " hath devoured",
-        "strong": "H398",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " the pastures",
-        "strong": "H4999"
-      },
-      {
-        "text": " of the wilderness,",
-        "strong": "H4057"
-      },
-      {
-        "text": " and the flame",
-        "strong": "H3852"
-      },
-      {
-        "text": " hath burned",
-        "strong": "H3857",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " all the trees",
-        "strong": "H6086"
-      },
-      {
-        "text": " of the field.",
-        "strong": "H7704"
-      }
+      { "text": " to thee will I cry:", "strong": "H7121", "morph": "QalImpf" },
+      { "text": " for the fire", "strong": "H784" },
+      { "text": " hath devoured", "strong": "H398", "morph": "QalPerf" },
+      { "text": " the pastures", "strong": "H4999" },
+      { "text": " of the wilderness,", "strong": "H4057" },
+      { "text": " and the flame", "strong": "H3852" },
+      { "text": " hath burned", "strong": "H3857", "morph": "PielPerf" },
+      { "text": " all the trees", "strong": "H6086" },
+      { "text": " of the field.", "strong": "H7704" }
     ]
   },
   {
@@ -971,49 +364,16 @@
     "chapter": 1,
     "verse": 20,
     "content": [
-      {
-        "text": "The beasts",
-        "strong": "H929"
-      },
-      {
-        "text": " of the field",
-        "strong": "H7704"
-      },
-      {
-        "text": " cry",
-        "strong": "H6165",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " also unto thee: for the rivers",
-        "strong": "H650"
-      },
-      {
-        "text": " of waters",
-        "strong": "H4325"
-      },
-      {
-        "text": " are dried up,",
-        "strong": "H3001",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " and the fire",
-        "strong": "H784"
-      },
-      {
-        "text": " hath devoured",
-        "strong": "H398",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " the pastures",
-        "strong": "H4999"
-      },
-      {
-        "text": " of the wilderness.",
-        "strong": "H4057"
-      }
+      { "text": "The beasts", "strong": "H929" },
+      { "text": " of the field", "strong": "H7704" },
+      { "text": " cry", "strong": "H6165", "morph": "QalImpf" },
+      { "text": " also unto thee: for the rivers", "strong": "H650" },
+      { "text": " of waters", "strong": "H4325" },
+      { "text": " are dried up,", "strong": "H3001", "morph": "QalPerf" },
+      { "text": " and the fire", "strong": "H784" },
+      { "text": " hath devoured", "strong": "H398", "morph": "QalPerf" },
+      { "text": " the pastures", "strong": "H4999" },
+      { "text": " of the wilderness.", "strong": "H4057" }
     ]
   },
   {
@@ -1027,64 +387,25 @@
         "strong": "H8628",
         "morph": "QalImpv"
       },
-      {
-        "text": " ye the trumpet",
-        "strong": "H7782"
-      },
-      {
-        "text": " in Zion,",
-        "strong": "H6726"
-      },
-      {
-        "text": " and sound an alarm",
-        "strong": "H7321",
-        "morph": "HiphImpv"
-      },
-      {
-        "text": " in my holy",
-        "strong": "H6944"
-      },
-      {
-        "text": " mountain:",
-        "strong": "H2022"
-      },
+      { "text": " ye the trumpet", "strong": "H7782" },
+      { "text": " in Zion,", "strong": "H6726" },
+      { "text": " and sound an alarm", "strong": "H7321", "morph": "HiphImpv" },
+      { "text": " in my holy", "strong": "H6944" },
+      { "text": " mountain:", "strong": "H2022" },
       {
         "text": " let all the inhabitants",
         "strong": "H3427",
         "morph": "QalActPtc"
       },
+      { "text": " of the land", "strong": "H776" },
+      { "text": " tremble:", "strong": "H7264", "morph": "QalImpf" },
+      { "text": " for the day", "strong": "H3117" },
       {
-        "text": " of the land",
-        "strong": "H776"
-      },
-      {
-        "text": " tremble:",
-        "strong": "H7264",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " for the day",
-        "strong": "H3117"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " cometh,",
-        "strong": "H935",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " for [it is] nigh at hand;",
-        "strong": "H7138"
-      }
+      { "text": " cometh,", "strong": "H935", "morph": "QalPerf" },
+      { "text": " for [it is] nigh at hand;", "strong": "H7138" }
     ]
   },
   {
@@ -1092,85 +413,33 @@
     "chapter": 2,
     "verse": 2,
     "content": [
-      {
-        "text": "A day",
-        "strong": "H3117"
-      },
-      {
-        "text": " of darkness",
-        "strong": "H2822"
-      },
-      {
-        "text": " and of gloominess,",
-        "strong": "H653"
-      },
-      {
-        "text": " a day",
-        "strong": "H3117"
-      },
-      {
-        "text": " of clouds",
-        "strong": "H6051"
-      },
-      {
-        "text": " and of thick darkness,",
-        "strong": "H6205"
-      },
-      {
-        "text": " as the morning",
-        "strong": "H7837"
-      },
-      {
-        "text": " spread",
-        "strong": "H6566",
-        "morph": "QalPasPtc"
-      },
-      {
-        "text": " upon the mountains:",
-        "strong": "H2022"
-      },
-      {
-        "text": " a great",
-        "strong": "H7227"
-      },
-      {
-        "text": " people",
-        "strong": "H5971"
-      },
-      {
-        "text": " and a strong;",
-        "strong": "H6099"
-      },
+      { "text": "A day", "strong": "H3117" },
+      { "text": " of darkness", "strong": "H2822" },
+      { "text": " and of gloominess,", "strong": "H653" },
+      { "text": " a day", "strong": "H3117" },
+      { "text": " of clouds", "strong": "H6051" },
+      { "text": " and of thick darkness,", "strong": "H6205" },
+      { "text": " as the morning", "strong": "H7837" },
+      { "text": " spread", "strong": "H6566", "morph": "QalPasPtc" },
+      { "text": " upon the mountains:", "strong": "H2022" },
+      { "text": " a great", "strong": "H7227" },
+      { "text": " people", "strong": "H5971" },
+      { "text": " and a strong;", "strong": "H6099" },
       {
         "text": " there hath not been",
         "strong": "H1961",
         "morph": "NiphPerf"
       },
-      {
-        "text": " ever",
-        "strong": "H5769"
-      },
+      { "text": " ever", "strong": "H5769" },
       {
         "text": " the like, neither shall be any more",
         "strong": "H3254",
         "morph": "HiphImpf"
       },
-      {
-        "text": " after",
-        "strong": "H310"
-      },
-      {
-        "text": " it, [even] to the years",
-        "strong": "H8141"
-      },
-      {
-        "text": " of many",
-        "strong": "H1755"
-      },
-      {
-        "text": " generations.",
-        "strong": "H1755"
-      }
+      { "text": " after", "strong": "H310" },
+      { "text": " it, [even] to the years", "strong": "H8141" },
+      { "text": " of many", "strong": "H1755" },
+      { "text": " generations.", "strong": "H1755" }
     ]
   },
   {
@@ -1178,64 +447,20 @@
     "chapter": 2,
     "verse": 3,
     "content": [
-      {
-        "text": "A fire",
-        "strong": "H784"
-      },
-      {
-        "text": " devoureth",
-        "strong": "H398",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " before",
-        "strong": "H6440"
-      },
-      {
-        "text": " them; and behind",
-        "strong": "H310"
-      },
-      {
-        "text": " them a flame",
-        "strong": "H3852"
-      },
-      {
-        "text": " burneth:",
-        "strong": "H3857",
-        "morph": "PielImpf"
-      },
-      {
-        "text": " the land",
-        "strong": "H776"
-      },
-      {
-        "text": " [is] as the garden",
-        "strong": "H1588"
-      },
-      {
-        "text": " of Eden",
-        "strong": "H5731"
-      },
-      {
-        "text": " before",
-        "strong": "H6440"
-      },
-      {
-        "text": " them, and behind",
-        "strong": "H310"
-      },
-      {
-        "text": " them a desolate",
-        "strong": "H8077"
-      },
-      {
-        "text": " wilderness;",
-        "strong": "H4057"
-      },
-      {
-        "text": " yea, and nothing shall escape",
-        "strong": "H6413"
-      },
+      { "text": "A fire", "strong": "H784" },
+      { "text": " devoureth", "strong": "H398", "morph": "QalPerf" },
+      { "text": " before", "strong": "H6440" },
+      { "text": " them; and behind", "strong": "H310" },
+      { "text": " them a flame", "strong": "H3852" },
+      { "text": " burneth:", "strong": "H3857", "morph": "PielImpf" },
+      { "text": " the land", "strong": "H776" },
+      { "text": " [is] as the garden", "strong": "H1588" },
+      { "text": " of Eden", "strong": "H5731" },
+      { "text": " before", "strong": "H6440" },
+      { "text": " them, and behind", "strong": "H310" },
+      { "text": " them a desolate", "strong": "H8077" },
+      { "text": " wilderness;", "strong": "H4057" },
+      { "text": " yea, and nothing shall escape", "strong": "H6413" },
       " them."
     ]
   },
@@ -1244,27 +469,11 @@
     "chapter": 2,
     "verse": 4,
     "content": [
-      {
-        "text": "The appearance",
-        "strong": "H4758"
-      },
-      {
-        "text": " of them [is] as the appearance",
-        "strong": "H4758"
-      },
-      {
-        "text": " of horses;",
-        "strong": "H5483"
-      },
-      {
-        "text": " and as horsemen,",
-        "strong": "H6571"
-      },
-      {
-        "text": " so shall they run.",
-        "strong": "H7323",
-        "morph": "QalImpf"
-      }
+      { "text": "The appearance", "strong": "H4758" },
+      { "text": " of them [is] as the appearance", "strong": "H4758" },
+      { "text": " of horses;", "strong": "H5483" },
+      { "text": " and as horsemen,", "strong": "H6571" },
+      { "text": " so shall they run.", "strong": "H7323", "morph": "QalImpf" }
     ]
   },
   {
@@ -1272,65 +481,20 @@
     "chapter": 2,
     "verse": 5,
     "content": [
-      {
-        "text": "Like the noise",
-        "strong": "H6963"
-      },
-      {
-        "text": " of chariots",
-        "strong": "H4818"
-      },
-      {
-        "text": " on the tops",
-        "strong": "H7218"
-      },
-      {
-        "text": " of mountains",
-        "strong": "H2022"
-      },
-      {
-        "text": " shall they leap,",
-        "strong": "H7540",
-        "morph": "PielImpf"
-      },
-      {
-        "text": " like the noise",
-        "strong": "H6963"
-      },
-      {
-        "text": " of a flame",
-        "strong": "H3851"
-      },
-      {
-        "text": " of fire",
-        "strong": "H784"
-      },
-      {
-        "text": " that devoureth",
-        "strong": "H398",
-        "morph": "QalActPtc"
-      },
-      {
-        "text": " the stubble,",
-        "strong": "H7179"
-      },
-      {
-        "text": " as a strong",
-        "strong": "H6099"
-      },
-      {
-        "text": " people",
-        "strong": "H5971"
-      },
-      {
-        "text": " set in battle",
-        "strong": "H4421"
-      },
-      {
-        "text": " array.",
-        "strong": "H6186",
-        "morph": "QalPasPtc"
-      }
+      { "text": "Like the noise", "strong": "H6963" },
+      { "text": " of chariots", "strong": "H4818" },
+      { "text": " on the tops", "strong": "H7218" },
+      { "text": " of mountains", "strong": "H2022" },
+      { "text": " shall they leap,", "strong": "H7540", "morph": "PielImpf" },
+      { "text": " like the noise", "strong": "H6963" },
+      { "text": " of a flame", "strong": "H3851" },
+      { "text": " of fire", "strong": "H784" },
+      { "text": " that devoureth", "strong": "H398", "morph": "QalActPtc" },
+      { "text": " the stubble,", "strong": "H7179" },
+      { "text": " as a strong", "strong": "H6099" },
+      { "text": " people", "strong": "H5971" },
+      { "text": " set in battle", "strong": "H4421" },
+      { "text": " array.", "strong": "H6186", "morph": "QalPasPtc" }
     ]
   },
   {
@@ -1338,32 +502,16 @@
     "chapter": 2,
     "verse": 6,
     "content": [
-      {
-        "text": "Before their face",
-        "strong": "H6440"
-      },
-      {
-        "text": " the people",
-        "strong": "H5971"
-      },
+      { "text": "Before their face", "strong": "H6440" },
+      { "text": " the people", "strong": "H5971" },
       {
         "text": " shall be much pained:",
         "strong": "H2342",
         "morph": "QalImpf"
       },
-      {
-        "text": " all faces",
-        "strong": "H6440"
-      },
-      {
-        "text": " shall gather",
-        "strong": "H6908",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " blackness.",
-        "strong": "H6289"
-      }
+      { "text": " all faces", "strong": "H6440" },
+      { "text": " shall gather", "strong": "H6908", "morph": "PielPerf" },
+      { "text": " blackness.", "strong": "H6289" }
     ]
   },
   {
@@ -1371,54 +519,25 @@
     "chapter": 2,
     "verse": 7,
     "content": [
-      {
-        "text": "They shall run",
-        "strong": "H7323",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " like mighty men;",
-        "strong": "H1368"
-      },
-      {
-        "text": " they shall climb",
-        "strong": "H5927",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " the wall",
-        "strong": "H2346"
-      },
-      {
-        "text": " like men",
-        "strong": "H582"
-      },
-      {
-        "text": " of war;",
-        "strong": "H4421"
-      },
+      { "text": "They shall run", "strong": "H7323", "morph": "QalImpf" },
+      { "text": " like mighty men;", "strong": "H1368" },
+      { "text": " they shall climb", "strong": "H5927", "morph": "QalImpf" },
+      { "text": " the wall", "strong": "H2346" },
+      { "text": " like men", "strong": "H582" },
+      { "text": " of war;", "strong": "H4421" },
       {
         "text": " and they shall march",
         "strong": "H3212",
         "morph": "QalImpf"
       },
-      {
-        "text": " every one",
-        "strong": "H376"
-      },
-      {
-        "text": " on his ways,",
-        "strong": "H1870"
-      },
+      { "text": " every one", "strong": "H376" },
+      { "text": " on his ways,", "strong": "H1870" },
       {
         "text": " and they shall not break",
         "strong": "H5670",
         "morph": "PielImpf"
       },
-      {
-        "text": " their ranks:",
-        "strong": "H734"
-      }
+      { "text": " their ranks:", "strong": "H734" }
     ]
   },
   {
@@ -1426,41 +545,18 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      {
-        "text": "Neither shall one",
-        "strong": "H376"
-      },
-      {
-        "text": " thrust",
-        "strong": "H1766",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " another;",
-        "strong": "H251"
-      },
-      {
-        "text": " they shall walk",
-        "strong": "H3212",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " every one",
-        "strong": "H1397"
-      },
-      {
-        "text": " in his path:",
-        "strong": "H4546"
-      },
+      { "text": "Neither shall one", "strong": "H376" },
+      { "text": " thrust", "strong": "H1766", "morph": "QalImpf" },
+      { "text": " another;", "strong": "H251" },
+      { "text": " they shall walk", "strong": "H3212", "morph": "QalImpf" },
+      { "text": " every one", "strong": "H1397" },
+      { "text": " in his path:", "strong": "H4546" },
       {
         "text": " and [when] they fall",
         "strong": "H5307",
         "morph": "QalImpf"
       },
-      {
-        "text": " upon the sword,",
-        "strong": "H7973"
-      },
+      { "text": " upon the sword,", "strong": "H7973" },
       {
         "text": " they shall not be wounded.",
         "strong": "H1214",
@@ -1478,41 +574,14 @@
         "strong": "H8264",
         "morph": "QalImpf"
       },
-      {
-        "text": " in the city;",
-        "strong": "H5892"
-      },
-      {
-        "text": " they shall run",
-        "strong": "H7323",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " upon the wall,",
-        "strong": "H2346"
-      },
-      {
-        "text": " they shall climb up",
-        "strong": "H5927",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " upon the houses;",
-        "strong": "H1004"
-      },
-      {
-        "text": " they shall enter in",
-        "strong": "H935",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " at the windows",
-        "strong": "H2474"
-      },
-      {
-        "text": " like a thief.",
-        "strong": "H1590"
-      }
+      { "text": " in the city;", "strong": "H5892" },
+      { "text": " they shall run", "strong": "H7323", "morph": "QalImpf" },
+      { "text": " upon the wall,", "strong": "H2346" },
+      { "text": " they shall climb up", "strong": "H5927", "morph": "QalImpf" },
+      { "text": " upon the houses;", "strong": "H1004" },
+      { "text": " they shall enter in", "strong": "H935", "morph": "QalImpf" },
+      { "text": " at the windows", "strong": "H2474" },
+      { "text": " like a thief.", "strong": "H1590" }
     ]
   },
   {
@@ -1520,54 +589,17 @@
     "chapter": 2,
     "verse": 10,
     "content": [
-      {
-        "text": "The earth",
-        "strong": "H776"
-      },
-      {
-        "text": " shall quake",
-        "strong": "H7264",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " before",
-        "strong": "H6440"
-      },
-      {
-        "text": " them; the heavens",
-        "strong": "H8064"
-      },
-      {
-        "text": " shall tremble:",
-        "strong": "H7493",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " the sun",
-        "strong": "H8121"
-      },
-      {
-        "text": " and the moon",
-        "strong": "H3394"
-      },
-      {
-        "text": " shall be dark,",
-        "strong": "H6937",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " and the stars",
-        "strong": "H3556"
-      },
-      {
-        "text": " shall withdraw",
-        "strong": "H622",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " their shining:",
-        "strong": "H5051"
-      }
+      { "text": "The earth", "strong": "H776" },
+      { "text": " shall quake", "strong": "H7264", "morph": "QalPerf" },
+      { "text": " before", "strong": "H6440" },
+      { "text": " them; the heavens", "strong": "H8064" },
+      { "text": " shall tremble:", "strong": "H7493", "morph": "QalPerf" },
+      { "text": " the sun", "strong": "H8121" },
+      { "text": " and the moon", "strong": "H3394" },
+      { "text": " shall be dark,", "strong": "H6937", "morph": "QalPerf" },
+      { "text": " and the stars", "strong": "H3556" },
+      { "text": " shall withdraw", "strong": "H622", "morph": "QalPerf" },
+      { "text": " their shining:", "strong": "H5051" }
     ]
   },
   {
@@ -1576,89 +608,28 @@
     "verse": 11,
     "content": [
       {
-        "content": [
-          "And the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": ["And the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
+      { "text": " shall utter", "strong": "H5414", "morph": "QalPerf" },
+      { "text": " his voice", "strong": "H6963" },
+      { "text": " before", "strong": "H6440" },
+      { "text": " his army:", "strong": "H2428" },
+      { "text": " for his camp", "strong": "H4264" },
+      { "text": " [is] very", "strong": "H3966" },
+      { "text": " great:", "strong": "H7227" },
+      { "text": " for [he is] strong", "strong": "H6099" },
+      { "text": " that executeth", "strong": "H6213", "morph": "QalActPtc" },
+      { "text": " his word:", "strong": "H1697" },
+      { "text": " for the day", "strong": "H3117" },
       {
-        "text": " shall utter",
-        "strong": "H5414",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " his voice",
-        "strong": "H6963"
-      },
-      {
-        "text": " before",
-        "strong": "H6440"
-      },
-      {
-        "text": " his army:",
-        "strong": "H2428"
-      },
-      {
-        "text": " for his camp",
-        "strong": "H4264"
-      },
-      {
-        "text": " [is] very",
-        "strong": "H3966"
-      },
-      {
-        "text": " great:",
-        "strong": "H7227"
-      },
-      {
-        "text": " for [he is] strong",
-        "strong": "H6099"
-      },
-      {
-        "text": " that executeth",
-        "strong": "H6213",
-        "morph": "QalActPtc"
-      },
-      {
-        "text": " his word:",
-        "strong": "H1697"
-      },
-      {
-        "text": " for the day",
-        "strong": "H3117"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " [is] great",
-        "strong": "H1419"
-      },
-      {
-        "text": " and very",
-        "strong": "H3966"
-      },
-      {
-        "text": " terrible;",
-        "strong": "H3372",
-        "morph": "NiphPtc"
-      },
-      {
-        "text": " and who can abide",
-        "strong": "H3557",
-        "morph": "HiphImpf"
-      },
+      { "text": " [is] great", "strong": "H1419" },
+      { "text": " and very", "strong": "H3966" },
+      { "text": " terrible;", "strong": "H3372", "morph": "NiphPtc" },
+      { "text": " and who can abide", "strong": "H3557", "morph": "HiphImpf" },
       " it?"
     ]
   },
@@ -1673,37 +644,14 @@
         "morph": "QalPasPtc"
       },
       {
-        "content": [
-          " the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          },
-          ","
-        ],
+        "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      {
-        "text": " turn",
-        "strong": "H7725",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " ye [even] to me with all your heart,",
-        "strong": "H3824"
-      },
-      {
-        "text": " and with fasting,",
-        "strong": "H6685"
-      },
-      {
-        "text": " and with weeping,",
-        "strong": "H1065"
-      },
-      {
-        "text": " and with mourning:",
-        "strong": "H4553"
-      }
+      { "text": " turn", "strong": "H7725", "morph": "QalImpv" },
+      { "text": " ye [even] to me with all your heart,", "strong": "H3824" },
+      { "text": " and with fasting,", "strong": "H6685" },
+      { "text": " and with weeping,", "strong": "H1065" },
+      { "text": " and with mourning:", "strong": "H4553" }
     ]
   },
   {
@@ -1711,71 +659,23 @@
     "chapter": 2,
     "verse": 13,
     "content": [
+      { "text": "And rend", "strong": "H7167", "morph": "QalImpv" },
+      { "text": " your heart,", "strong": "H3824" },
+      { "text": " and not your garments,", "strong": "H899" },
+      { "text": " and turn", "strong": "H7725", "morph": "QalImpv" },
       {
-        "text": "And rend",
-        "strong": "H7167",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " your heart,",
-        "strong": "H3824"
-      },
-      {
-        "text": " and not your garments,",
-        "strong": "H899"
-      },
-      {
-        "text": " and turn",
-        "strong": "H7725",
-        "morph": "QalImpv"
-      },
-      {
-        "content": [
-          " unto the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " your God:",
-        "strong": "H430"
-      },
-      {
-        "text": " for he [is] gracious",
-        "strong": "H2587"
-      },
-      {
-        "text": " and merciful,",
-        "strong": "H7349"
-      },
-      {
-        "text": " slow",
-        "strong": "H750"
-      },
-      {
-        "text": " to anger,",
-        "strong": "H639"
-      },
-      {
-        "text": " and of great",
-        "strong": "H7227"
-      },
-      {
-        "text": " kindness,",
-        "strong": "H2617"
-      },
-      {
-        "text": " and repenteth",
-        "strong": "H5162",
-        "morph": "NiphPtc"
-      },
-      {
-        "text": " him of the evil.",
-        "strong": "H7451"
-      }
+      { "text": " your God:", "strong": "H430" },
+      { "text": " for he [is] gracious", "strong": "H2587" },
+      { "text": " and merciful,", "strong": "H7349" },
+      { "text": " slow", "strong": "H750" },
+      { "text": " to anger,", "strong": "H639" },
+      { "text": " and of great", "strong": "H7227" },
+      { "text": " kindness,", "strong": "H2617" },
+      { "text": " and repenteth", "strong": "H5162", "morph": "NiphPtc" },
+      { "text": " him of the evil.", "strong": "H7451" }
     ]
   },
   {
@@ -1783,56 +683,19 @@
     "chapter": 2,
     "verse": 14,
     "content": [
+      { "text": "Who knoweth", "strong": "H3045", "morph": "QalActPtc" },
+      { "text": " [if] he will return", "strong": "H7725", "morph": "QalImpf" },
+      { "text": " and repent,", "strong": "H5162", "morph": "NiphPerf" },
+      { "text": " and leave", "strong": "H7604", "morph": "HiphPerf" },
+      { "text": " a blessing", "strong": "H1293" },
+      { "text": " behind", "strong": "H310" },
+      { "text": " him; [even] a meat offering", "strong": "H4503" },
+      { "text": " and a drink offering", "strong": "H5262" },
       {
-        "text": "Who knoweth",
-        "strong": "H3045",
-        "morph": "QalActPtc"
-      },
-      {
-        "text": " [if] he will return",
-        "strong": "H7725",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " and repent,",
-        "strong": "H5162",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " and leave",
-        "strong": "H7604",
-        "morph": "HiphPerf"
-      },
-      {
-        "text": " a blessing",
-        "strong": "H1293"
-      },
-      {
-        "text": " behind",
-        "strong": "H310"
-      },
-      {
-        "text": " him; [even] a meat offering",
-        "strong": "H4503"
-      },
-      {
-        "text": " and a drink offering",
-        "strong": "H5262"
-      },
-      {
-        "content": [
-          " unto the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" unto the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " your God?",
-        "strong": "H430"
-      }
+      { "text": " your God?", "strong": "H430" }
     ]
   },
   {
@@ -1840,37 +703,13 @@
     "chapter": 2,
     "verse": 15,
     "content": [
-      {
-        "text": "Blow",
-        "strong": "H8628",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " the trumpet",
-        "strong": "H7782"
-      },
-      {
-        "text": " in Zion,",
-        "strong": "H6726"
-      },
-      {
-        "text": " sanctify",
-        "strong": "H6942",
-        "morph": "PielImpv"
-      },
-      {
-        "text": " a fast,",
-        "strong": "H6685"
-      },
-      {
-        "text": " call",
-        "strong": "H7121",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " a solemn assembly:",
-        "strong": "H6116"
-      }
+      { "text": "Blow", "strong": "H8628", "morph": "QalImpv" },
+      { "text": " the trumpet", "strong": "H7782" },
+      { "text": " in Zion,", "strong": "H6726" },
+      { "text": " sanctify", "strong": "H6942", "morph": "PielImpv" },
+      { "text": " a fast,", "strong": "H6685" },
+      { "text": " call", "strong": "H7121", "morph": "QalImpv" },
+      { "text": " a solemn assembly:", "strong": "H6116" }
     ]
   },
   {
@@ -1878,72 +717,25 @@
     "chapter": 2,
     "verse": 16,
     "content": [
-      {
-        "text": "Gather",
-        "strong": "H622",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " the people,",
-        "strong": "H5971"
-      },
-      {
-        "text": " sanctify",
-        "strong": "H6942",
-        "morph": "PielImpv"
-      },
-      {
-        "text": " the congregation,",
-        "strong": "H6951"
-      },
-      {
-        "text": " assemble",
-        "strong": "H6908",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " the elders,",
-        "strong": "H2205"
-      },
-      {
-        "text": " gather",
-        "strong": "H622",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " the children,",
-        "strong": "H5768"
-      },
+      { "text": "Gather", "strong": "H622", "morph": "QalImpv" },
+      { "text": " the people,", "strong": "H5971" },
+      { "text": " sanctify", "strong": "H6942", "morph": "PielImpv" },
+      { "text": " the congregation,", "strong": "H6951" },
+      { "text": " assemble", "strong": "H6908", "morph": "QalImpv" },
+      { "text": " the elders,", "strong": "H2205" },
+      { "text": " gather", "strong": "H622", "morph": "QalImpv" },
+      { "text": " the children,", "strong": "H5768" },
       {
         "text": " and those that suck",
         "strong": "H3243",
         "morph": "QalActPtc"
       },
-      {
-        "text": " the breasts:",
-        "strong": "H7699"
-      },
-      {
-        "text": " let the bridegroom",
-        "strong": "H2860"
-      },
-      {
-        "text": " go forth",
-        "strong": "H3318",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " of his chamber,",
-        "strong": "H2315"
-      },
-      {
-        "text": " and the bride",
-        "strong": "H3618"
-      },
-      {
-        "text": " out of her closet.",
-        "strong": "H2646"
-      }
+      { "text": " the breasts:", "strong": "H7699" },
+      { "text": " let the bridegroom", "strong": "H2860" },
+      { "text": " go forth", "strong": "H3318", "morph": "QalImpf" },
+      { "text": " of his chamber,", "strong": "H2315" },
+      { "text": " and the bride", "strong": "H3618" },
+      { "text": " out of her closet.", "strong": "H2646" }
     ]
   },
   {
@@ -1951,99 +743,34 @@
     "chapter": 2,
     "verse": 17,
     "content": [
+      { "text": "Let the priests,", "strong": "H3548" },
+      { "text": " the ministers", "strong": "H8334", "morph": "PielPtc" },
       {
-        "text": "Let the priests,",
-        "strong": "H3548"
-      },
-      {
-        "text": " the ministers",
-        "strong": "H8334",
-        "morph": "PielPtc"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          },
-          ","
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
+      { "text": " weep", "strong": "H1058", "morph": "QalImpf" },
+      { "text": " between the porch", "strong": "H197" },
+      { "text": " and the altar,", "strong": "H4196" },
+      { "text": " and let them say,", "strong": "H559", "morph": "QalImpf" },
+      { "text": " Spare", "strong": "H2347", "morph": "QalImpv" },
+      { "text": " thy people,", "strong": "H5971" },
       {
-        "text": " weep",
-        "strong": "H1058",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " between the porch",
-        "strong": "H197"
-      },
-      {
-        "text": " and the altar,",
-        "strong": "H4196"
-      },
-      {
-        "text": " and let them say,",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " Spare",
-        "strong": "H2347",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " thy people,",
-        "strong": "H5971"
-      },
-      {
-        "content": [
-          " O ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          },
-          ","
-        ],
+        "content": [" O ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      {
-        "text": " and give",
-        "strong": "H5414",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " not thine heritage",
-        "strong": "H5159"
-      },
-      {
-        "text": " to reproach,",
-        "strong": "H2781"
-      },
-      {
-        "text": " that the heathen",
-        "strong": "H1471"
-      },
-      {
-        "text": " should rule over",
-        "strong": "H4910",
-        "morph": "QalInf"
-      },
+      { "text": " and give", "strong": "H5414", "morph": "QalImpf" },
+      { "text": " not thine heritage", "strong": "H5159" },
+      { "text": " to reproach,", "strong": "H2781" },
+      { "text": " that the heathen", "strong": "H1471" },
+      { "text": " should rule over", "strong": "H4910", "morph": "QalInf" },
       {
         "text": " them: wherefore should they say",
         "strong": "H559",
         "morph": "QalImpf"
       },
-      {
-        "text": " among the people,",
-        "strong": "H5971"
-      },
-      {
-        "text": " Where [is] their God?",
-        "strong": "H430"
-      }
+      { "text": " among the people,", "strong": "H5971" },
+      { "text": " Where [is] their God?", "strong": "H430" }
     ]
   },
   {
@@ -2052,33 +779,13 @@
     "verse": 18,
     "content": [
       {
-        "content": [
-          "Then will the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": ["Then will the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " be jealous",
-        "strong": "H7065",
-        "morph": "PielImpf"
-      },
-      {
-        "text": " for his land,",
-        "strong": "H776"
-      },
-      {
-        "text": " and pity",
-        "strong": "H2550",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " his people.",
-        "strong": "H5971"
-      }
+      { "text": " be jealous", "strong": "H7065", "morph": "PielImpf" },
+      { "text": " for his land,", "strong": "H776" },
+      { "text": " and pity", "strong": "H2550", "morph": "QalImpf" },
+      { "text": " his people.", "strong": "H5971" }
     ]
   },
   {
@@ -2087,46 +794,20 @@
     "verse": 19,
     "content": [
       {
-        "content": [
-          "Yea, the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": ["Yea, the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " will answer",
-        "strong": "H6030",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " and say",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " unto his people,",
-        "strong": "H5971"
-      },
+      { "text": " will answer", "strong": "H6030", "morph": "QalImpf" },
+      { "text": " and say", "strong": "H559", "morph": "QalImpf" },
+      { "text": " unto his people,", "strong": "H5971" },
       {
         "text": " Behold, I will send",
         "strong": "H7971",
         "morph": "QalActPtc"
       },
-      {
-        "text": " you corn,",
-        "strong": "H1715"
-      },
-      {
-        "text": " and wine,",
-        "strong": "H8492"
-      },
-      {
-        "text": " and oil,",
-        "strong": "H3323"
-      },
+      { "text": " you corn,", "strong": "H1715" },
+      { "text": " and wine,", "strong": "H8492" },
+      { "text": " and oil,", "strong": "H3323" },
       {
         "text": " and ye shall be satisfied",
         "strong": "H7646",
@@ -2137,14 +818,8 @@
         "strong": "H5414",
         "morph": "QalImpf"
       },
-      {
-        "text": " you a reproach",
-        "strong": "H2781"
-      },
-      {
-        "text": " among the heathen:",
-        "strong": "H1471"
-      }
+      { "text": " you a reproach", "strong": "H2781" },
+      { "text": " among the heathen:", "strong": "H1471" }
     ]
   },
   {
@@ -2157,79 +832,27 @@
         "strong": "H7368",
         "morph": "HiphImpf"
       },
-      {
-        "text": " from you the northern",
-        "strong": "H6830"
-      },
+      { "text": " from you the northern", "strong": "H6830" },
       {
         "text": " [army], and will drive",
         "strong": "H5080",
         "morph": "HiphPerf"
       },
-      {
-        "text": " him into a land",
-        "strong": "H776"
-      },
-      {
-        "text": " barren",
-        "strong": "H6723"
-      },
-      {
-        "text": " and desolate,",
-        "strong": "H8077"
-      },
-      {
-        "text": " with his face",
-        "strong": "H6440"
-      },
-      {
-        "text": " toward the east",
-        "strong": "H6931"
-      },
-      {
-        "text": " sea,",
-        "strong": "H3220"
-      },
-      {
-        "text": " and his hinder part",
-        "strong": "H5490"
-      },
-      {
-        "text": " toward the utmost",
-        "strong": "H314"
-      },
-      {
-        "text": " sea,",
-        "strong": "H3220"
-      },
-      {
-        "text": " and his stink",
-        "strong": "H889"
-      },
-      {
-        "text": " shall come up,",
-        "strong": "H5927",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " and his ill savour",
-        "strong": "H6709"
-      },
-      {
-        "text": " shall come up,",
-        "strong": "H5927",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " because he hath done",
-        "strong": "H6213",
-        "morph": "QalInf"
-      },
-      {
-        "text": " great things.",
-        "strong": "H1431",
-        "morph": "HiphPerf"
-      }
+      { "text": " him into a land", "strong": "H776" },
+      { "text": " barren", "strong": "H6723" },
+      { "text": " and desolate,", "strong": "H8077" },
+      { "text": " with his face", "strong": "H6440" },
+      { "text": " toward the east", "strong": "H6931" },
+      { "text": " sea,", "strong": "H3220" },
+      { "text": " and his hinder part", "strong": "H5490" },
+      { "text": " toward the utmost", "strong": "H314" },
+      { "text": " sea,", "strong": "H3220" },
+      { "text": " and his stink", "strong": "H889" },
+      { "text": " shall come up,", "strong": "H5927", "morph": "QalPerf" },
+      { "text": " and his ill savour", "strong": "H6709" },
+      { "text": " shall come up,", "strong": "H5927", "morph": "QalImpf" },
+      { "text": " because he hath done", "strong": "H6213", "morph": "QalInf" },
+      { "text": " great things.", "strong": "H1431", "morph": "HiphPerf" }
     ]
   },
   {
@@ -2237,45 +860,16 @@
     "chapter": 2,
     "verse": 21,
     "content": [
+      { "text": "Fear", "strong": "H3372", "morph": "QalImpf" },
+      { "text": " not, O land;", "strong": "H127" },
+      { "text": " be glad", "strong": "H1523", "morph": "QalImpv" },
+      { "text": " and rejoice:", "strong": "H8055", "morph": "QalImpv" },
       {
-        "text": "Fear",
-        "strong": "H3372",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " not, O land;",
-        "strong": "H127"
-      },
-      {
-        "text": " be glad",
-        "strong": "H1523",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " and rejoice:",
-        "strong": "H8055",
-        "morph": "QalImpv"
-      },
-      {
-        "content": [
-          " for the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" for the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " will do",
-        "strong": "H6213",
-        "morph": "QalInf"
-      },
-      {
-        "text": " great things.",
-        "strong": "H1431",
-        "morph": "HiphPerf"
-      }
+      { "text": " will do", "strong": "H6213", "morph": "QalInf" },
+      { "text": " great things.", "strong": "H1431", "morph": "HiphPerf" }
     ]
   },
   {
@@ -2283,62 +877,19 @@
     "chapter": 2,
     "verse": 22,
     "content": [
-      {
-        "text": "Be not afraid,",
-        "strong": "H3372",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " ye beasts",
-        "strong": "H929"
-      },
-      {
-        "text": " of the field:",
-        "strong": "H7704"
-      },
-      {
-        "text": " for the pastures",
-        "strong": "H4999"
-      },
-      {
-        "text": " of the wilderness",
-        "strong": "H4057"
-      },
-      {
-        "text": " do spring,",
-        "strong": "H1876",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " for the tree",
-        "strong": "H6086"
-      },
-      {
-        "text": " beareth",
-        "strong": "H5375",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " her fruit,",
-        "strong": "H6529"
-      },
-      {
-        "text": " the fig tree",
-        "strong": "H8384"
-      },
-      {
-        "text": " and the vine",
-        "strong": "H1612"
-      },
-      {
-        "text": " do yield",
-        "strong": "H5414",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " their strength.",
-        "strong": "H2428"
-      }
+      { "text": "Be not afraid,", "strong": "H3372", "morph": "QalImpf" },
+      { "text": " ye beasts", "strong": "H929" },
+      { "text": " of the field:", "strong": "H7704" },
+      { "text": " for the pastures", "strong": "H4999" },
+      { "text": " of the wilderness", "strong": "H4057" },
+      { "text": " do spring,", "strong": "H1876", "morph": "QalPerf" },
+      { "text": " for the tree", "strong": "H6086" },
+      { "text": " beareth", "strong": "H5375", "morph": "QalPerf" },
+      { "text": " her fruit,", "strong": "H6529" },
+      { "text": " the fig tree", "strong": "H8384" },
+      { "text": " and the vine", "strong": "H1612" },
+      { "text": " do yield", "strong": "H5414", "morph": "QalPerf" },
+      { "text": " their strength.", "strong": "H2428" }
     ]
   },
   {
@@ -2346,72 +897,27 @@
     "chapter": 2,
     "verse": 23,
     "content": [
+      { "text": "Be glad", "strong": "H1523", "morph": "QalImpv" },
+      { "text": " then, ye children", "strong": "H1121" },
+      { "text": " of Zion,", "strong": "H6726" },
+      { "text": " and rejoice", "strong": "H8055", "morph": "QalImpv" },
       {
-        "text": "Be glad",
-        "strong": "H1523",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " then, ye children",
-        "strong": "H1121"
-      },
-      {
-        "text": " of Zion,",
-        "strong": "H6726"
-      },
-      {
-        "text": " and rejoice",
-        "strong": "H8055",
-        "morph": "QalImpv"
-      },
-      {
-        "content": [
-          " in the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " your God:",
-        "strong": "H430"
-      },
-      {
-        "text": " for he hath given",
-        "strong": "H5414",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " you the former rain",
-        "strong": "H4175"
-      },
-      {
-        "text": " moderately,",
-        "strong": "H6666"
-      },
+      { "text": " your God:", "strong": "H430" },
+      { "text": " for he hath given", "strong": "H5414", "morph": "QalPerf" },
+      { "text": " you the former rain", "strong": "H4175" },
+      { "text": " moderately,", "strong": "H6666" },
       {
         "text": " and he will cause to come down",
         "strong": "H3381",
         "morph": "HiphImpf"
       },
-      {
-        "text": " for you the rain,",
-        "strong": "H1653"
-      },
-      {
-        "text": " the former rain,",
-        "strong": "H4175"
-      },
-      {
-        "text": " and the latter rain",
-        "strong": "H4456"
-      },
-      {
-        "text": " in the first",
-        "strong": "H7223"
-      },
+      { "text": " for you the rain,", "strong": "H1653" },
+      { "text": " the former rain,", "strong": "H4175" },
+      { "text": " and the latter rain", "strong": "H4456" },
+      { "text": " in the first", "strong": "H7223" },
       " [month]."
     ]
   },
@@ -2420,36 +926,13 @@
     "chapter": 2,
     "verse": 24,
     "content": [
-      {
-        "text": "And the floors",
-        "strong": "H1637"
-      },
-      {
-        "text": " shall be full",
-        "strong": "H4390",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " of wheat,",
-        "strong": "H1250"
-      },
-      {
-        "text": " and the fats",
-        "strong": "H3342"
-      },
-      {
-        "text": " shall overflow",
-        "strong": "H7783",
-        "morph": "HiphPerf"
-      },
-      {
-        "text": " with wine",
-        "strong": "H8492"
-      },
-      {
-        "text": " and oil.",
-        "strong": "H3323"
-      }
+      { "text": "And the floors", "strong": "H1637" },
+      { "text": " shall be full", "strong": "H4390", "morph": "QalPerf" },
+      { "text": " of wheat,", "strong": "H1250" },
+      { "text": " and the fats", "strong": "H3342" },
+      { "text": " shall overflow", "strong": "H7783", "morph": "HiphPerf" },
+      { "text": " with wine", "strong": "H8492" },
+      { "text": " and oil.", "strong": "H3323" }
     ]
   },
   {
@@ -2457,49 +940,16 @@
     "chapter": 2,
     "verse": 25,
     "content": [
-      {
-        "text": "And I will restore",
-        "strong": "H7999",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " to you the years",
-        "strong": "H8141"
-      },
-      {
-        "text": " that the locust",
-        "strong": "H697"
-      },
-      {
-        "text": " hath eaten,",
-        "strong": "H398",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " the cankerworm,",
-        "strong": "H3218"
-      },
-      {
-        "text": " and the caterpiller,",
-        "strong": "H2625"
-      },
-      {
-        "text": " and the palmerworm,",
-        "strong": "H1501"
-      },
-      {
-        "text": " my great",
-        "strong": "H1419"
-      },
-      {
-        "text": " army",
-        "strong": "H2428"
-      },
-      {
-        "text": " which I sent",
-        "strong": "H7971",
-        "morph": "PielPerf"
-      },
+      { "text": "And I will restore", "strong": "H7999", "morph": "PielPerf" },
+      { "text": " to you the years", "strong": "H8141" },
+      { "text": " that the locust", "strong": "H697" },
+      { "text": " hath eaten,", "strong": "H398", "morph": "QalPerf" },
+      { "text": " the cankerworm,", "strong": "H3218" },
+      { "text": " and the caterpiller,", "strong": "H2625" },
+      { "text": " and the palmerworm,", "strong": "H1501" },
+      { "text": " my great", "strong": "H1419" },
+      { "text": " army", "strong": "H2428" },
+      { "text": " which I sent", "strong": "H7971", "morph": "PielPerf" },
       " among you."
     ]
   },
@@ -2508,67 +958,21 @@
     "chapter": 2,
     "verse": 26,
     "content": [
+      { "text": "And ye shall eat", "strong": "H398", "morph": "QalPerf" },
+      { "text": " in plenty,", "strong": "H398", "morph": "QalInf" },
+      { "text": " and be satisfied,", "strong": "H7646", "morph": "QalInf" },
+      { "text": " and praise", "strong": "H1984", "morph": "PielPerf" },
+      { "text": " the name", "strong": "H8034" },
       {
-        "text": "And ye shall eat",
-        "strong": "H398",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " in plenty,",
-        "strong": "H398",
-        "morph": "QalInf"
-      },
-      {
-        "text": " and be satisfied,",
-        "strong": "H7646",
-        "morph": "QalInf"
-      },
-      {
-        "text": " and praise",
-        "strong": "H1984",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " the name",
-        "strong": "H8034"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " your God,",
-        "strong": "H430"
-      },
-      {
-        "text": " that hath dealt",
-        "strong": "H6213",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " wondrously",
-        "strong": "H6381",
-        "morph": "HiphInf"
-      },
-      {
-        "text": " with you: and my people",
-        "strong": "H5971"
-      },
-      {
-        "text": " shall never",
-        "strong": "H5769"
-      },
-      {
-        "text": " be ashamed.",
-        "strong": "H954",
-        "morph": "QalImpf"
-      }
+      { "text": " your God,", "strong": "H430" },
+      { "text": " that hath dealt", "strong": "H6213", "morph": "QalPerf" },
+      { "text": " wondrously", "strong": "H6381", "morph": "HiphInf" },
+      { "text": " with you: and my people", "strong": "H5971" },
+      { "text": " shall never", "strong": "H5769" },
+      { "text": " be ashamed.", "strong": "H954", "morph": "QalImpf" }
     ]
   },
   {
@@ -2576,46 +980,20 @@
     "chapter": 2,
     "verse": 27,
     "content": [
-      {
-        "text": "And ye shall know",
-        "strong": "H3045",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " that I [am] in the midst",
-        "strong": "H7130"
-      },
-      {
-        "text": " of Israel,",
-        "strong": "H3478"
-      },
+      { "text": "And ye shall know", "strong": "H3045", "morph": "QalPerf" },
+      { "text": " that I [am] in the midst", "strong": "H7130" },
+      { "text": " of Israel,", "strong": "H3478" },
       {
         "content": [
           " and [that] I [am] the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
+          { "text": "Lord", "marks": ["sc"] }
         ],
         "strong": "H3068"
       },
-      {
-        "text": " your God,",
-        "strong": "H430"
-      },
-      {
-        "text": " and none else: and my people",
-        "strong": "H5971"
-      },
-      {
-        "text": " shall never",
-        "strong": "H5769"
-      },
-      {
-        "text": " be ashamed.",
-        "strong": "H954",
-        "morph": "QalImpf"
-      }
+      { "text": " your God,", "strong": "H430" },
+      { "text": " and none else: and my people", "strong": "H5971" },
+      { "text": " shall never", "strong": "H5769" },
+      { "text": " be ashamed.", "strong": "H954", "morph": "QalImpf" }
     ]
   },
   {
@@ -2623,62 +1001,23 @@
     "chapter": 2,
     "verse": 28,
     "content": [
-      {
-        "text": "And it shall come to pass afterward,",
-        "strong": "H310"
-      },
+      { "text": "And it shall come to pass afterward,", "strong": "H310" },
       {
         "text": " [that] I will pour out",
         "strong": "H8210",
         "morph": "QalImpf"
       },
-      {
-        "text": " my spirit",
-        "strong": "H7307"
-      },
-      {
-        "text": " upon all flesh;",
-        "strong": "H1320"
-      },
-      {
-        "text": " and your sons",
-        "strong": "H1121"
-      },
-      {
-        "text": " and your daughters",
-        "strong": "H1323"
-      },
-      {
-        "text": " shall prophesy,",
-        "strong": "H5012",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " your old men",
-        "strong": "H2205"
-      },
-      {
-        "text": " shall dream",
-        "strong": "H2492",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " dreams,",
-        "strong": "H2472"
-      },
-      {
-        "text": " your young men",
-        "strong": "H970"
-      },
-      {
-        "text": " shall see",
-        "strong": "H7200",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " visions:",
-        "strong": "H2384"
-      }
+      { "text": " my spirit", "strong": "H7307" },
+      { "text": " upon all flesh;", "strong": "H1320" },
+      { "text": " and your sons", "strong": "H1121" },
+      { "text": " and your daughters", "strong": "H1323" },
+      { "text": " shall prophesy,", "strong": "H5012", "morph": "NiphPerf" },
+      { "text": " your old men", "strong": "H2205" },
+      { "text": " shall dream", "strong": "H2492", "morph": "QalImpf" },
+      { "text": " dreams,", "strong": "H2472" },
+      { "text": " your young men", "strong": "H970" },
+      { "text": " shall see", "strong": "H7200", "morph": "QalImpf" },
+      { "text": " visions:", "strong": "H2384" }
     ]
   },
   {
@@ -2686,27 +1025,11 @@
     "chapter": 2,
     "verse": 29,
     "content": [
-      {
-        "text": "And also upon the servants",
-        "strong": "H5650"
-      },
-      {
-        "text": " and upon the handmaids",
-        "strong": "H8198"
-      },
-      {
-        "text": " in those days",
-        "strong": "H3117"
-      },
-      {
-        "text": " will I pour out",
-        "strong": "H8210",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " my spirit.",
-        "strong": "H7307"
-      }
+      { "text": "And also upon the servants", "strong": "H5650" },
+      { "text": " and upon the handmaids", "strong": "H8198" },
+      { "text": " in those days", "strong": "H3117" },
+      { "text": " will I pour out", "strong": "H8210", "morph": "QalImpf" },
+      { "text": " my spirit.", "strong": "H7307" }
     ]
   },
   {
@@ -2714,39 +1037,14 @@
     "chapter": 2,
     "verse": 30,
     "content": [
-      {
-        "text": "And I will shew",
-        "strong": "H5414",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " wonders",
-        "strong": "H4159"
-      },
-      {
-        "text": " in the heavens",
-        "strong": "H8064"
-      },
-      {
-        "text": " and in the earth,",
-        "strong": "H776"
-      },
-      {
-        "text": " blood,",
-        "strong": "H1818"
-      },
-      {
-        "text": " and fire,",
-        "strong": "H784"
-      },
-      {
-        "text": " and pillars",
-        "strong": "H8490"
-      },
-      {
-        "text": " of smoke.",
-        "strong": "H6227"
-      }
+      { "text": "And I will shew", "strong": "H5414", "morph": "QalPerf" },
+      { "text": " wonders", "strong": "H4159" },
+      { "text": " in the heavens", "strong": "H8064" },
+      { "text": " and in the earth,", "strong": "H776" },
+      { "text": " blood,", "strong": "H1818" },
+      { "text": " and fire,", "strong": "H784" },
+      { "text": " and pillars", "strong": "H8490" },
+      { "text": " of smoke.", "strong": "H6227" }
     ]
   },
   {
@@ -2754,59 +1052,20 @@
     "chapter": 2,
     "verse": 31,
     "content": [
+      { "text": "The sun", "strong": "H8121" },
+      { "text": " shall be turned", "strong": "H2015", "morph": "NiphImpf" },
+      { "text": " into darkness,", "strong": "H2822" },
+      { "text": " and the moon", "strong": "H3394" },
+      { "text": " into blood,", "strong": "H1818" },
+      { "text": " before", "strong": "H6440" },
+      { "text": " the great", "strong": "H1419" },
+      { "text": " and the terrible", "strong": "H3372", "morph": "NiphPtc" },
+      { "text": " day", "strong": "H3117" },
       {
-        "text": "The sun",
-        "strong": "H8121"
-      },
-      {
-        "text": " shall be turned",
-        "strong": "H2015",
-        "morph": "NiphImpf"
-      },
-      {
-        "text": " into darkness,",
-        "strong": "H2822"
-      },
-      {
-        "text": " and the moon",
-        "strong": "H3394"
-      },
-      {
-        "text": " into blood,",
-        "strong": "H1818"
-      },
-      {
-        "text": " before",
-        "strong": "H6440"
-      },
-      {
-        "text": " the great",
-        "strong": "H1419"
-      },
-      {
-        "text": " and the terrible",
-        "strong": "H3372",
-        "morph": "NiphPtc"
-      },
-      {
-        "text": " day",
-        "strong": "H3117"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " come.",
-        "strong": "H935",
-        "morph": "QalInf"
-      }
+      { "text": " come.", "strong": "H935", "morph": "QalInf" }
     ]
   },
   {
@@ -2819,18 +1078,9 @@
         "strong": "H7121",
         "morph": "QalImpf"
       },
+      { "text": " on the name", "strong": "H8034" },
       {
-        "text": " on the name",
-        "strong": "H8034"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
       {
@@ -2838,56 +1088,21 @@
         "strong": "H4422",
         "morph": "NiphImpf"
       },
+      { "text": " for in mount", "strong": "H2022" },
+      { "text": " Zion", "strong": "H6726" },
+      { "text": " and in Jerusalem", "strong": "H3389" },
+      { "text": " shall be deliverance,", "strong": "H6413" },
       {
-        "text": " for in mount",
-        "strong": "H2022"
-      },
-      {
-        "text": " Zion",
-        "strong": "H6726"
-      },
-      {
-        "text": " and in Jerusalem",
-        "strong": "H3389"
-      },
-      {
-        "text": " shall be deliverance,",
-        "strong": "H6413"
-      },
-      {
-        "content": [
-          " as the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" as the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
+      { "text": " hath said,", "strong": "H559", "morph": "QalPerf" },
+      { "text": " and in the remnant", "strong": "H8300" },
       {
-        "text": " hath said,",
-        "strong": "H559",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " and in the remnant",
-        "strong": "H8300"
-      },
-      {
-        "content": [
-          " whom the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" whom the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " shall call.",
-        "strong": "H7121",
-        "morph": "QalActPtc"
-      }
+      { "text": " shall call.", "strong": "H7121", "morph": "QalActPtc" }
     ]
   },
   {
@@ -2900,31 +1115,16 @@
         "text": "For, behold, in those days,",
         "strong": "H3117"
       },
-      {
-        "text": " and in that time,",
-        "strong": "H6256"
-      },
+      { "text": " and in that time,", "strong": "H6256" },
       {
         "text": " when I shall bring again",
         "strong": "H7725",
         "morph": "HiphImpf/Qere"
       },
-      {
-        "strong": "H7725",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " the captivity",
-        "strong": "H7622"
-      },
-      {
-        "text": " of Judah",
-        "strong": "H3063"
-      },
-      {
-        "text": " and Jerusalem,",
-        "strong": "H3389"
-      }
+      { "strong": "H7725", "morph": "QalImpf" },
+      { "text": " the captivity", "strong": "H7622" },
+      { "text": " of Judah", "strong": "H3063" },
+      { "text": " and Jerusalem,", "strong": "H3389" }
     ]
   },
   {
@@ -2932,63 +1132,27 @@
     "chapter": 3,
     "verse": 2,
     "content": [
-      {
-        "text": "I will also gather",
-        "strong": "H6908",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " all nations,",
-        "strong": "H1471"
-      },
+      { "text": "I will also gather", "strong": "H6908", "morph": "PielPerf" },
+      { "text": " all nations,", "strong": "H1471" },
       {
         "text": " and will bring them down",
         "strong": "H3381",
         "morph": "HiphPerf"
       },
-      {
-        "text": " into the valley",
-        "strong": "H6010"
-      },
-      {
-        "text": " of Jehoshaphat,",
-        "strong": "H3092"
-      },
-      {
-        "text": " and will plead",
-        "strong": "H8199",
-        "morph": "NiphPerf"
-      },
-      {
-        "text": " with them there for my people",
-        "strong": "H5971"
-      },
-      {
-        "text": " and [for] my heritage",
-        "strong": "H5159"
-      },
-      {
-        "text": " Israel,",
-        "strong": "H3478"
-      },
+      { "text": " into the valley", "strong": "H6010" },
+      { "text": " of Jehoshaphat,", "strong": "H3092" },
+      { "text": " and will plead", "strong": "H8199", "morph": "NiphPerf" },
+      { "text": " with them there for my people", "strong": "H5971" },
+      { "text": " and [for] my heritage", "strong": "H5159" },
+      { "text": " Israel,", "strong": "H3478" },
       {
         "text": " whom they have scattered",
         "strong": "H6340",
         "morph": "PielPerf"
       },
-      {
-        "text": " among the nations,",
-        "strong": "H1471"
-      },
-      {
-        "text": " and parted",
-        "strong": "H2505",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " my land.",
-        "strong": "H776"
-      }
+      { "text": " among the nations,", "strong": "H1471" },
+      { "text": " and parted", "strong": "H2505", "morph": "PielPerf" },
+      { "text": " my land.", "strong": "H776" }
     ]
   },
   {
@@ -2996,46 +1160,15 @@
     "chapter": 3,
     "verse": 3,
     "content": [
-      {
-        "text": "And they have cast",
-        "strong": "H3032",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " lots",
-        "strong": "H1486"
-      },
-      {
-        "text": " for my people;",
-        "strong": "H5971"
-      },
-      {
-        "text": " and have given",
-        "strong": "H5414",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " a boy",
-        "strong": "H3206"
-      },
-      {
-        "text": " for an harlot,",
-        "strong": "H2181",
-        "morph": "QalActPtc"
-      },
-      {
-        "text": " and sold",
-        "strong": "H4376",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " a girl",
-        "strong": "H3207"
-      },
-      {
-        "text": " for wine,",
-        "strong": "H3196"
-      },
+      { "text": "And they have cast", "strong": "H3032", "morph": "QalPerf" },
+      { "text": " lots", "strong": "H1486" },
+      { "text": " for my people;", "strong": "H5971" },
+      { "text": " and have given", "strong": "H5414", "morph": "QalImpf" },
+      { "text": " a boy", "strong": "H3206" },
+      { "text": " for an harlot,", "strong": "H2181", "morph": "QalActPtc" },
+      { "text": " and sold", "strong": "H4376", "morph": "QalPerf" },
+      { "text": " a girl", "strong": "H3207" },
+      { "text": " for wine,", "strong": "H3196" },
       {
         "text": " that they might drink.",
         "strong": "H8354",
@@ -3052,53 +1185,21 @@
         "text": "Yea, and what have ye to do with me, O Tyre,",
         "strong": "H6865"
       },
-      {
-        "text": " and Zidon,",
-        "strong": "H6721"
-      },
-      {
-        "text": " and all the coasts",
-        "strong": "H1552"
-      },
-      {
-        "text": " of Palestine?",
-        "strong": "H6429"
-      },
-      {
-        "text": " will ye render",
-        "strong": "H7999",
-        "morph": "PielPtc"
-      },
-      {
-        "text": " me a recompence?",
-        "strong": "H1576"
-      },
+      { "text": " and Zidon,", "strong": "H6721" },
+      { "text": " and all the coasts", "strong": "H1552" },
+      { "text": " of Palestine?", "strong": "H6429" },
+      { "text": " will ye render", "strong": "H7999", "morph": "PielPtc" },
+      { "text": " me a recompence?", "strong": "H1576" },
       {
         "text": " and if ye recompense",
         "strong": "H1580",
         "morph": "QalActPtc"
       },
-      {
-        "text": " me, swiftly",
-        "strong": "H7031"
-      },
-      {
-        "text": " [and] speedily",
-        "strong": "H4120"
-      },
-      {
-        "text": " will I return",
-        "strong": "H7725",
-        "morph": "HiphImpf"
-      },
-      {
-        "text": " your recompence",
-        "strong": "H1576"
-      },
-      {
-        "text": " upon your own head;",
-        "strong": "H7218"
-      }
+      { "text": " me, swiftly", "strong": "H7031" },
+      { "text": " [and] speedily", "strong": "H4120" },
+      { "text": " will I return", "strong": "H7725", "morph": "HiphImpf" },
+      { "text": " your recompence", "strong": "H1576" },
+      { "text": " upon your own head;", "strong": "H7218" }
     ]
   },
   {
@@ -3111,31 +1212,12 @@
         "strong": "H3947",
         "morph": "QalPerf"
       },
-      {
-        "text": " my silver",
-        "strong": "H3701"
-      },
-      {
-        "text": " and my gold,",
-        "strong": "H2091"
-      },
-      {
-        "text": " and have carried",
-        "strong": "H935",
-        "morph": "HiphPerf"
-      },
-      {
-        "text": " into your temples",
-        "strong": "H1964"
-      },
-      {
-        "text": " my goodly",
-        "strong": "H2896"
-      },
-      {
-        "text": " pleasant things:",
-        "strong": "H4261"
-      }
+      { "text": " my silver", "strong": "H3701" },
+      { "text": " and my gold,", "strong": "H2091" },
+      { "text": " and have carried", "strong": "H935", "morph": "HiphPerf" },
+      { "text": " into your temples", "strong": "H1964" },
+      { "text": " my goodly", "strong": "H2896" },
+      { "text": " pleasant things:", "strong": "H4261" }
     ]
   },
   {
@@ -3143,43 +1225,19 @@
     "chapter": 3,
     "verse": 6,
     "content": [
-      {
-        "text": "The children",
-        "strong": "H1121"
-      },
-      {
-        "text": " also of Judah",
-        "strong": "H3063"
-      },
-      {
-        "text": " and the children",
-        "strong": "H1121"
-      },
-      {
-        "text": " of Jerusalem",
-        "strong": "H3389"
-      },
-      {
-        "text": " have ye sold",
-        "strong": "H4376",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " unto the Grecians,",
-        "strong": "H3125"
-      },
-      {
-        "strong": "H1121"
-      },
+      { "text": "The children", "strong": "H1121" },
+      { "text": " also of Judah", "strong": "H3063" },
+      { "text": " and the children", "strong": "H1121" },
+      { "text": " of Jerusalem", "strong": "H3389" },
+      { "text": " have ye sold", "strong": "H4376", "morph": "QalPerf" },
+      { "text": " unto the Grecians,", "strong": "H3125" },
+      { "strong": "H1121" },
       {
         "text": " that ye might remove them far",
         "strong": "H7368",
         "morph": "HiphInf"
       },
-      {
-        "text": " from their border.",
-        "strong": "H1366"
-      }
+      { "text": " from their border.", "strong": "H1366" }
     ]
   },
   {
@@ -3187,15 +1245,8 @@
     "chapter": 3,
     "verse": 7,
     "content": [
-      {
-        "text": "Behold, I will raise",
-        "strong": "H5782",
-        "morph": "HiphPtc"
-      },
-      {
-        "text": " them out of the place",
-        "strong": "H4725"
-      },
+      { "text": "Behold, I will raise", "strong": "H5782", "morph": "HiphPtc" },
+      { "text": " them out of the place", "strong": "H4725" },
       {
         "text": " whither ye have sold",
         "strong": "H4376",
@@ -3206,14 +1257,8 @@
         "strong": "H7725",
         "morph": "HiphPerf"
       },
-      {
-        "text": " your recompence",
-        "strong": "H1576"
-      },
-      {
-        "text": " upon your own head:",
-        "strong": "H7218"
-      }
+      { "text": " your recompence", "strong": "H1576" },
+      { "text": " upon your own head:", "strong": "H7218" }
     ]
   },
   {
@@ -3221,63 +1266,21 @@
     "chapter": 3,
     "verse": 8,
     "content": [
+      { "text": "And I will sell", "strong": "H4376", "morph": "QalPerf" },
+      { "text": " your sons", "strong": "H1121" },
+      { "text": " and your daughters", "strong": "H1323" },
+      { "text": " into the hand", "strong": "H3027" },
+      { "text": " of the children", "strong": "H1121" },
+      { "text": " of Judah,", "strong": "H3063" },
+      { "text": " and they shall sell", "strong": "H4376", "morph": "QalPerf" },
+      { "text": " them to the Sabeans,", "strong": "H7615" },
+      { "text": " to a people", "strong": "H1471" },
+      { "text": " far off:", "strong": "H7350" },
       {
-        "text": "And I will sell",
-        "strong": "H4376",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " your sons",
-        "strong": "H1121"
-      },
-      {
-        "text": " and your daughters",
-        "strong": "H1323"
-      },
-      {
-        "text": " into the hand",
-        "strong": "H3027"
-      },
-      {
-        "text": " of the children",
-        "strong": "H1121"
-      },
-      {
-        "text": " of Judah,",
-        "strong": "H3063"
-      },
-      {
-        "text": " and they shall sell",
-        "strong": "H4376",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " them to the Sabeans,",
-        "strong": "H7615"
-      },
-      {
-        "text": " to a people",
-        "strong": "H1471"
-      },
-      {
-        "text": " far off:",
-        "strong": "H7350"
-      },
-      {
-        "content": [
-          " for the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" for the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " hath spoken",
-        "strong": "H1696",
-        "morph": "PielPerf"
-      },
+      { "text": " hath spoken", "strong": "H1696", "morph": "PielPerf" },
       " [it]."
     ]
   },
@@ -3286,51 +1289,16 @@
     "chapter": 3,
     "verse": 9,
     "content": [
-      {
-        "text": "Proclaim",
-        "strong": "H7121",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " ye this among the Gentiles;",
-        "strong": "H1471"
-      },
-      {
-        "text": " Prepare",
-        "strong": "H6942",
-        "morph": "PielImpv"
-      },
-      {
-        "text": " war,",
-        "strong": "H4421"
-      },
-      {
-        "text": " wake up",
-        "strong": "H5782",
-        "morph": "HiphImpv"
-      },
-      {
-        "text": " the mighty men,",
-        "strong": "H1368"
-      },
-      {
-        "text": " let all the men",
-        "strong": "H582"
-      },
-      {
-        "text": " of war",
-        "strong": "H4421"
-      },
-      {
-        "text": " draw near;",
-        "strong": "H5066",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " let them come up:",
-        "strong": "H5927",
-        "morph": "QalImpf"
-      }
+      { "text": "Proclaim", "strong": "H7121", "morph": "QalImpv" },
+      { "text": " ye this among the Gentiles;", "strong": "H1471" },
+      { "text": " Prepare", "strong": "H6942", "morph": "PielImpv" },
+      { "text": " war,", "strong": "H4421" },
+      { "text": " wake up", "strong": "H5782", "morph": "HiphImpv" },
+      { "text": " the mighty men,", "strong": "H1368" },
+      { "text": " let all the men", "strong": "H582" },
+      { "text": " of war", "strong": "H4421" },
+      { "text": " draw near;", "strong": "H5066", "morph": "QalImpf" },
+      { "text": " let them come up:", "strong": "H5927", "morph": "QalImpf" }
     ]
   },
   {
@@ -3338,40 +1306,14 @@
     "chapter": 3,
     "verse": 10,
     "content": [
-      {
-        "text": "Beat",
-        "strong": "H3807",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " your plowshares",
-        "strong": "H855"
-      },
-      {
-        "text": " into swords,",
-        "strong": "H2719"
-      },
-      {
-        "text": " and your pruninghooks",
-        "strong": "H4211"
-      },
-      {
-        "text": " into spears:",
-        "strong": "H7420"
-      },
-      {
-        "text": " let the weak",
-        "strong": "H2523"
-      },
-      {
-        "text": " say,",
-        "strong": "H559",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " I [am] strong.",
-        "strong": "H1368"
-      }
+      { "text": "Beat", "strong": "H3807", "morph": "QalImpv" },
+      { "text": " your plowshares", "strong": "H855" },
+      { "text": " into swords,", "strong": "H2719" },
+      { "text": " and your pruninghooks", "strong": "H4211" },
+      { "text": " into spears:", "strong": "H7420" },
+      { "text": " let the weak", "strong": "H2523" },
+      { "text": " say,", "strong": "H559", "morph": "QalImpf" },
+      { "text": " I [am] strong.", "strong": "H1368" }
     ]
   },
   {
@@ -3379,47 +1321,23 @@
     "chapter": 3,
     "verse": 11,
     "content": [
-      {
-        "text": "Assemble",
-        "strong": "H5789",
-        "morph": "QalImpv"
-      },
+      { "text": "Assemble", "strong": "H5789", "morph": "QalImpv" },
       {
         "text": " yourselves, and come,",
         "strong": "H935",
         "morph": "QalImpv"
       },
-      {
-        "text": " all ye heathen,",
-        "strong": "H1471"
-      },
+      { "text": " all ye heathen,", "strong": "H1471" },
       {
         "text": " and gather yourselves together",
         "strong": "H6908",
         "morph": "NiphPerf"
       },
+      { "text": " round about:", "strong": "H5439" },
+      { "text": " thither cause thy mighty ones", "strong": "H1368" },
+      { "text": " to come down,", "strong": "H5181", "morph": "HiphImpv" },
       {
-        "text": " round about:",
-        "strong": "H5439"
-      },
-      {
-        "text": " thither cause thy mighty ones",
-        "strong": "H1368"
-      },
-      {
-        "text": " to come down,",
-        "strong": "H5181",
-        "morph": "HiphImpv"
-      },
-      {
-        "content": [
-          " O ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          },
-          "."
-        ],
+        "content": [" O ", { "text": "Lord", "marks": ["sc"] }, "."],
         "strong": "H3068"
       }
     ]
@@ -3429,46 +1347,19 @@
     "chapter": 3,
     "verse": 12,
     "content": [
-      {
-        "text": "Let the heathen",
-        "strong": "H1471"
-      },
-      {
-        "text": " be wakened,",
-        "strong": "H5782",
-        "morph": "NiphImpf"
-      },
-      {
-        "text": " and come up",
-        "strong": "H5927",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " to the valley",
-        "strong": "H6010"
-      },
-      {
-        "text": " of Jehoshaphat:",
-        "strong": "H3092"
-      },
+      { "text": "Let the heathen", "strong": "H1471" },
+      { "text": " be wakened,", "strong": "H5782", "morph": "NiphImpf" },
+      { "text": " and come up", "strong": "H5927", "morph": "QalImpf" },
+      { "text": " to the valley", "strong": "H6010" },
+      { "text": " of Jehoshaphat:", "strong": "H3092" },
       {
         "text": " for there will I sit",
         "strong": "H3427",
         "morph": "QalImpf"
       },
-      {
-        "text": " to judge",
-        "strong": "H8199",
-        "morph": "QalInf"
-      },
-      {
-        "text": " all the heathen",
-        "strong": "H1471"
-      },
-      {
-        "text": " round about.",
-        "strong": "H5439"
-      }
+      { "text": " to judge", "strong": "H8199", "morph": "QalInf" },
+      { "text": " all the heathen", "strong": "H1471" },
+      { "text": " round about.", "strong": "H5439" }
     ]
   },
   {
@@ -3476,60 +1367,18 @@
     "chapter": 3,
     "verse": 13,
     "content": [
-      {
-        "text": "Put",
-        "strong": "H7971",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " ye in the sickle,",
-        "strong": "H4038"
-      },
-      {
-        "text": " for the harvest",
-        "strong": "H7105"
-      },
-      {
-        "text": " is ripe:",
-        "strong": "H1310",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " come,",
-        "strong": "H935",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " get you down;",
-        "strong": "H3381",
-        "morph": "QalImpv"
-      },
-      {
-        "text": " for the press",
-        "strong": "H1660"
-      },
-      {
-        "text": " is full,",
-        "strong": "H4390",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " the fats",
-        "strong": "H3342"
-      },
-      {
-        "text": " overflow;",
-        "strong": "H7783",
-        "morph": "HiphPerf"
-      },
-      {
-        "text": " for their wickedness",
-        "strong": "H7451"
-      },
-      {
-        "text": " [is] great.",
-        "strong": "H7227"
-      }
+      { "text": "Put", "strong": "H7971", "morph": "QalImpv" },
+      { "text": " ye in the sickle,", "strong": "H4038" },
+      { "text": " for the harvest", "strong": "H7105" },
+      { "text": " is ripe:", "strong": "H1310", "morph": "QalPerf" },
+      { "text": " come,", "strong": "H935", "morph": "QalImpv" },
+      { "text": " get you down;", "strong": "H3381", "morph": "QalImpv" },
+      { "text": " for the press", "strong": "H1660" },
+      { "text": " is full,", "strong": "H4390", "morph": "QalPerf" },
+      { "text": " the fats", "strong": "H3342" },
+      { "text": " overflow;", "strong": "H7783", "morph": "HiphPerf" },
+      { "text": " for their wickedness", "strong": "H7451" },
+      { "text": " [is] great.", "strong": "H7227" }
     ]
   },
   {
@@ -3537,48 +1386,18 @@
     "chapter": 3,
     "verse": 14,
     "content": [
+      { "text": "Multitudes,", "strong": "H1995" },
+      { "text": " multitudes", "strong": "H1995" },
+      { "text": " in the valley", "strong": "H6010" },
+      { "text": " of decision:", "strong": "H2742" },
+      { "text": " for the day", "strong": "H3117" },
       {
-        "text": "Multitudes,",
-        "strong": "H1995"
-      },
-      {
-        "text": " multitudes",
-        "strong": "H1995"
-      },
-      {
-        "text": " in the valley",
-        "strong": "H6010"
-      },
-      {
-        "text": " of decision:",
-        "strong": "H2742"
-      },
-      {
-        "text": " for the day",
-        "strong": "H3117"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " [is] near",
-        "strong": "H7138"
-      },
-      {
-        "text": " in the valley",
-        "strong": "H6010"
-      },
-      {
-        "text": " of decision.",
-        "strong": "H2742"
-      }
+      { "text": " [is] near", "strong": "H7138" },
+      { "text": " in the valley", "strong": "H6010" },
+      { "text": " of decision.", "strong": "H2742" }
     ]
   },
   {
@@ -3586,32 +1405,12 @@
     "chapter": 3,
     "verse": 15,
     "content": [
-      {
-        "text": "The sun",
-        "strong": "H8121"
-      },
-      {
-        "text": " and the moon",
-        "strong": "H3394"
-      },
-      {
-        "text": " shall be darkened,",
-        "strong": "H6937",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " and the stars",
-        "strong": "H3556"
-      },
-      {
-        "text": " shall withdraw",
-        "strong": "H622",
-        "morph": "QalPerf"
-      },
-      {
-        "text": " their shining.",
-        "strong": "H5051"
-      }
+      { "text": "The sun", "strong": "H8121" },
+      { "text": " and the moon", "strong": "H3394" },
+      { "text": " shall be darkened,", "strong": "H6937", "morph": "QalPerf" },
+      { "text": " and the stars", "strong": "H3556" },
+      { "text": " shall withdraw", "strong": "H622", "morph": "QalPerf" },
+      { "text": " their shining.", "strong": "H5051" }
     ]
   },
   {
@@ -3620,80 +1419,26 @@
     "verse": 16,
     "content": [
       {
-        "content": [
-          "The ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": ["The ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
+      { "text": " also shall roar", "strong": "H7580", "morph": "QalImpf" },
+      { "text": " out of Zion,", "strong": "H6726" },
+      { "text": " and utter", "strong": "H5414", "morph": "QalImpf" },
+      { "text": " his voice", "strong": "H6963" },
+      { "text": " from Jerusalem;", "strong": "H3389" },
+      { "text": " and the heavens", "strong": "H8064" },
+      { "text": " and the earth", "strong": "H776" },
+      { "text": " shall shake:", "strong": "H7493", "morph": "QalPerf" },
       {
-        "text": " also shall roar",
-        "strong": "H7580",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " out of Zion,",
-        "strong": "H6726"
-      },
-      {
-        "text": " and utter",
-        "strong": "H5414",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " his voice",
-        "strong": "H6963"
-      },
-      {
-        "text": " from Jerusalem;",
-        "strong": "H3389"
-      },
-      {
-        "text": " and the heavens",
-        "strong": "H8064"
-      },
-      {
-        "text": " and the earth",
-        "strong": "H776"
-      },
-      {
-        "text": " shall shake:",
-        "strong": "H7493",
-        "morph": "QalPerf"
-      },
-      {
-        "content": [
-          " but the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" but the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " [will be] the hope",
-        "strong": "H4268"
-      },
-      {
-        "text": " of his people,",
-        "strong": "H5971"
-      },
-      {
-        "text": " and the strength",
-        "strong": "H4581"
-      },
-      {
-        "text": " of the children",
-        "strong": "H1121"
-      },
-      {
-        "text": " of Israel.",
-        "strong": "H3478"
-      }
+      { "text": " [will be] the hope", "strong": "H4268" },
+      { "text": " of his people,", "strong": "H5971" },
+      { "text": " and the strength", "strong": "H4581" },
+      { "text": " of the children", "strong": "H1121" },
+      { "text": " of Israel.", "strong": "H3478" }
     ]
   },
   {
@@ -3701,60 +1446,24 @@
     "chapter": 3,
     "verse": 17,
     "content": [
+      { "text": "So shall ye know", "strong": "H3045", "morph": "QalPerf" },
       {
-        "text": "So shall ye know",
-        "strong": "H3045",
-        "morph": "QalPerf"
-      },
-      {
-        "content": [
-          " that I [am] the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" that I [am] the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " your God",
-        "strong": "H430"
-      },
-      {
-        "text": " dwelling",
-        "strong": "H7931",
-        "morph": "QalActPtc"
-      },
-      {
-        "text": " in Zion,",
-        "strong": "H6726"
-      },
-      {
-        "text": " my holy",
-        "strong": "H6944"
-      },
-      {
-        "text": " mountain:",
-        "strong": "H2022"
-      },
-      {
-        "text": " then shall Jerusalem",
-        "strong": "H3389"
-      },
-      {
-        "text": " be holy,",
-        "strong": "H6944"
-      },
+      { "text": " your God", "strong": "H430" },
+      { "text": " dwelling", "strong": "H7931", "morph": "QalActPtc" },
+      { "text": " in Zion,", "strong": "H6726" },
+      { "text": " my holy", "strong": "H6944" },
+      { "text": " mountain:", "strong": "H2022" },
+      { "text": " then shall Jerusalem", "strong": "H3389" },
+      { "text": " be holy,", "strong": "H6944" },
       {
         "text": " and there shall no strangers",
         "strong": "H2114",
         "morph": "QalPtc"
       },
-      {
-        "text": " pass through",
-        "strong": "H5674",
-        "morph": "QalImpf"
-      },
+      { "text": " pass through", "strong": "H5674", "morph": "QalImpf" },
       " her any more."
     ]
   },
@@ -3763,90 +1472,27 @@
     "chapter": 3,
     "verse": 18,
     "content": [
+      { "text": "And it shall come to pass in that day,", "strong": "H3117" },
+      { "text": " [that] the mountains", "strong": "H2022" },
+      { "text": " shall drop down", "strong": "H5197", "morph": "QalImpf" },
+      { "text": " new wine,", "strong": "H6071" },
+      { "text": " and the hills", "strong": "H1389" },
+      { "text": " shall flow", "strong": "H3212", "morph": "QalImpf" },
+      { "text": " with milk,", "strong": "H2461" },
+      { "text": " and all the rivers", "strong": "H650" },
+      { "text": " of Judah", "strong": "H3063" },
+      { "text": " shall flow", "strong": "H3212", "morph": "QalImpf" },
+      { "text": " with waters,", "strong": "H4325" },
+      { "text": " and a fountain", "strong": "H4599" },
+      { "text": " shall come forth", "strong": "H3318", "morph": "QalImpf" },
+      { "text": " of the house", "strong": "H1004" },
       {
-        "text": "And it shall come to pass in that day,",
-        "strong": "H3117"
-      },
-      {
-        "text": " [that] the mountains",
-        "strong": "H2022"
-      },
-      {
-        "text": " shall drop down",
-        "strong": "H5197",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " new wine,",
-        "strong": "H6071"
-      },
-      {
-        "text": " and the hills",
-        "strong": "H1389"
-      },
-      {
-        "text": " shall flow",
-        "strong": "H3212",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " with milk,",
-        "strong": "H2461"
-      },
-      {
-        "text": " and all the rivers",
-        "strong": "H650"
-      },
-      {
-        "text": " of Judah",
-        "strong": "H3063"
-      },
-      {
-        "text": " shall flow",
-        "strong": "H3212",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " with waters,",
-        "strong": "H4325"
-      },
-      {
-        "text": " and a fountain",
-        "strong": "H4599"
-      },
-      {
-        "text": " shall come forth",
-        "strong": "H3318",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " of the house",
-        "strong": "H1004"
-      },
-      {
-        "content": [
-          " of the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          },
-          ","
-        ],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      {
-        "text": " and shall water",
-        "strong": "H8248",
-        "morph": "HiphPerf"
-      },
-      {
-        "text": " the valley",
-        "strong": "H5158"
-      },
-      {
-        "text": " of Shittim.",
-        "strong": "H7851"
-      }
+      { "text": " and shall water", "strong": "H8248", "morph": "HiphPerf" },
+      { "text": " the valley", "strong": "H5158" },
+      { "text": " of Shittim.", "strong": "H7851" }
     ]
   },
   {
@@ -3854,55 +1500,22 @@
     "chapter": 3,
     "verse": 19,
     "content": [
-      {
-        "text": "Egypt",
-        "strong": "H4714"
-      },
-      {
-        "text": " shall be a desolation,",
-        "strong": "H8077"
-      },
-      {
-        "text": " and Edom",
-        "strong": "H123"
-      },
-      {
-        "text": " shall be a desolate",
-        "strong": "H8077"
-      },
-      {
-        "text": " wilderness,",
-        "strong": "H4057"
-      },
-      {
-        "text": " for the violence",
-        "strong": "H2555"
-      },
-      {
-        "text": " [against] the children",
-        "strong": "H1121"
-      },
-      {
-        "text": " of Judah,",
-        "strong": "H3063"
-      },
+      { "text": "Egypt", "strong": "H4714" },
+      { "text": " shall be a desolation,", "strong": "H8077" },
+      { "text": " and Edom", "strong": "H123" },
+      { "text": " shall be a desolate", "strong": "H8077" },
+      { "text": " wilderness,", "strong": "H4057" },
+      { "text": " for the violence", "strong": "H2555" },
+      { "text": " [against] the children", "strong": "H1121" },
+      { "text": " of Judah,", "strong": "H3063" },
       {
         "text": " because they have shed",
         "strong": "H8210",
         "morph": "QalPerf"
       },
-      {
-        "text": " innocent",
-        "strong": "H5355"
-      },
-      {
-        "text": " blood",
-        "strong": "H1818"
-      },
-      {
-        "text": " in their land.",
-        "strong": "H776"
-      }
+      { "text": " innocent", "strong": "H5355" },
+      { "text": " blood", "strong": "H1818" },
+      { "text": " in their land.", "strong": "H776" }
     ]
   },
   {
@@ -3910,31 +1523,12 @@
     "chapter": 3,
     "verse": 20,
     "content": [
-      {
-        "text": "But Judah",
-        "strong": "H3063"
-      },
-      {
-        "text": " shall dwell",
-        "strong": "H3427",
-        "morph": "QalImpf"
-      },
-      {
-        "text": " for ever,",
-        "strong": "H5769"
-      },
-      {
-        "text": " and Jerusalem",
-        "strong": "H3389"
-      },
-      {
-        "text": " from generation",
-        "strong": "H1755"
-      },
-      {
-        "text": " to generation.",
-        "strong": "H1755"
-      }
+      { "text": "But Judah", "strong": "H3063" },
+      { "text": " shall dwell", "strong": "H3427", "morph": "QalImpf" },
+      { "text": " for ever,", "strong": "H5769" },
+      { "text": " and Jerusalem", "strong": "H3389" },
+      { "text": " from generation", "strong": "H1755" },
+      { "text": " to generation.", "strong": "H1755" }
     ]
   },
   {
@@ -3942,39 +1536,19 @@
     "chapter": 3,
     "verse": 21,
     "content": [
-      {
-        "text": "For I will cleanse",
-        "strong": "H5352",
-        "morph": "PielPerf"
-      },
-      {
-        "text": " their blood",
-        "strong": "H1818"
-      },
+      { "text": "For I will cleanse", "strong": "H5352", "morph": "PielPerf" },
+      { "text": " their blood", "strong": "H1818" },
       {
         "text": " [that] I have not cleansed:",
         "strong": "H5352",
         "morph": "PielPerf"
       },
       {
-        "content": [
-          " for the ",
-          {
-            "text": "Lord",
-            "marks": ["sc"]
-          }
-        ],
+        "content": [" for the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      {
-        "text": " dwelleth",
-        "strong": "H7931",
-        "morph": "QalActPtc"
-      },
-      {
-        "text": " in Zion.",
-        "strong": "H6726"
-      }
+      { "text": " dwelleth", "strong": "H7931", "morph": "QalActPtc" },
+      { "text": " in Zion.", "strong": "H6726" }
     ]
   }
 ]

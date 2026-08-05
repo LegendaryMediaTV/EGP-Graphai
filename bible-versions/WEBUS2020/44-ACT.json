@@ -57,10 +57,7 @@
     "chapter": 1,
     "verse": 7,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He said to them, "
-      },
+      { "paragraph": true, "text": "He said to them, " },
       {
         "text": "“It isn’t for you to know times or seasons which the Father has set within his own authority.",
         "marks": ["woc"]
@@ -98,10 +95,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "ἰδοὺ",
-              "script": "G"
-            },
+            { "text": "ἰδοὺ", "script": "G" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -174,36 +168,16 @@
     "chapter": 1,
     "verse": 20,
     "content": [
-      {
-        "text": "For it is written in the book of Psalms,",
-        "break": true
-      },
-      {
-        "text": "‘Let his habitation be made desolate.",
-        "break": true
-      },
+      { "text": "For it is written in the book of Psalms,", "break": true },
+      { "text": "‘Let his habitation be made desolate.", "break": true },
       {
         "text": "Let no one dwell in it;’",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 69:25"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 69:25" } }
       },
-      {
-        "paragraph": true,
-        "text": "and,",
-        "break": true
-      },
+      { "paragraph": true, "text": "and,", "break": true },
       {
         "text": "‘Let another take his office.’",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 109:8"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 109:8" } }
       }
     ]
   },
@@ -348,10 +322,7 @@
     "verse": 15,
     "content": {
       "text": "For these aren’t drunken, as you suppose, seeing it is only the third hour of the day.",
-      "foot": {
-        "type": "stu",
-        "content": "about 9:00 a.m."
-      }
+      "foot": { "type": "stu", "content": "about 9:00 a.m." }
     }
   },
   {
@@ -368,26 +339,11 @@
     "chapter": 2,
     "verse": 17,
     "content": [
-      {
-        "text": "‘It will be in the last days, says God,",
-        "break": true
-      },
-      {
-        "text": "that I will pour out my Spirit on all flesh.",
-        "break": true
-      },
-      {
-        "text": "Your sons and your daughters will prophesy.",
-        "break": true
-      },
-      {
-        "text": "Your young men will see visions.",
-        "break": true
-      },
-      {
-        "text": "Your old men will dream dreams.",
-        "break": true
-      }
+      { "text": "‘It will be in the last days, says God,", "break": true },
+      { "text": "that I will pour out my Spirit on all flesh.", "break": true },
+      { "text": "Your sons and your daughters will prophesy.", "break": true },
+      { "text": "Your young men will see visions.", "break": true },
+      { "text": "Your old men will dream dreams.", "break": true }
     ]
   },
   {
@@ -410,18 +366,9 @@
     "chapter": 2,
     "verse": 19,
     "content": [
-      {
-        "text": "I will show wonders in the sky above,",
-        "break": true
-      },
-      {
-        "text": "and signs on the earth beneath:",
-        "break": true
-      },
-      {
-        "text": "blood, and fire, and billows of smoke.",
-        "break": true
-      }
+      { "text": "I will show wonders in the sky above,", "break": true },
+      { "text": "and signs on the earth beneath:", "break": true },
+      { "text": "blood, and fire, and billows of smoke.", "break": true }
     ]
   },
   {
@@ -429,14 +376,8 @@
     "chapter": 2,
     "verse": 20,
     "content": [
-      {
-        "text": "The sun will be turned into darkness,",
-        "break": true
-      },
-      {
-        "text": "and the moon into blood,",
-        "break": true
-      },
+      { "text": "The sun will be turned into darkness,", "break": true },
+      { "text": "and the moon into blood,", "break": true },
       {
         "text": "before the great and glorious day of the Lord comes.",
         "break": true
@@ -449,12 +390,7 @@
     "verse": 21,
     "content": {
       "text": "It will be that whoever will call on the name of the Lord will be saved.’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Joel 2:28–32"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Joel 2:28–32" } }
     }
   },
   {
@@ -483,14 +419,8 @@
     "chapter": 2,
     "verse": 25,
     "content": [
-      {
-        "text": "For David says concerning him,",
-        "break": true
-      },
-      {
-        "text": "‘I saw the Lord always before my face,",
-        "break": true
-      },
+      { "text": "For David says concerning him,", "break": true },
+      { "text": "‘I saw the Lord always before my face,", "break": true },
       {
         "text": "for he is on my right hand, that I should not be moved.",
         "break": true
@@ -506,10 +436,7 @@
         "text": "Therefore my heart was glad, and my tongue rejoiced.",
         "break": true
       },
-      {
-        "text": "Moreover my flesh also will dwell in hope,",
-        "break": true
-      }
+      { "text": "Moreover my flesh also will dwell in hope,", "break": true }
     ]
   },
   {
@@ -520,10 +447,7 @@
       {
         "text": "because you will not leave my soul in Hades,",
         "break": true,
-        "foot": {
-          "type": "trn",
-          "content": "or, Hell"
-        }
+        "foot": { "type": "trn", "content": "or, Hell" }
       },
       {
         "text": "neither will you allow your Holy One to see decay.",
@@ -536,18 +460,10 @@
     "chapter": 2,
     "verse": 28,
     "content": [
-      {
-        "text": "You made known to me the ways of life.",
-        "break": true
-      },
+      { "text": "You made known to me the ways of life.", "break": true },
       {
         "text": "You will make me full of gladness with your presence.’",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 16:8–11"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 16:8–11" } }
       }
     ]
   },
@@ -567,10 +483,7 @@
     "content": [
       {
         "text": "Therefore, being a prophet, and knowing that God had sworn with an oath to him that of the fruit of his body, according to the flesh, he would raise up the Christ",
-        "foot": {
-          "type": "stu",
-          "content": "“Christ” means “Anointed One”."
-        }
+        "foot": { "type": "stu", "content": "“Christ” means “Anointed One”." }
       },
       " to sit on his throne,"
     ]
@@ -582,10 +495,7 @@
     "content": [
       {
         "text": "he foreseeing this, spoke about the resurrection of the Christ, that his soul wasn’t left in Hades,",
-        "foot": {
-          "type": "trn",
-          "content": "or, Hell"
-        }
+        "foot": { "type": "trn", "content": "or, Hell" }
       },
       " and his flesh didn’t see decay."
     ]
@@ -623,12 +533,7 @@
     "verse": 35,
     "content": {
       "text": "until I make your enemies a footstool for your feet.” ’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Psalm 110:1"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 110:1" } }
     }
   },
   {
@@ -722,10 +627,7 @@
     "content": {
       "paragraph": true,
       "text": "Peter and John were going up into the temple at the hour of prayer, the ninth hour.",
-      "foot": {
-        "type": "stu",
-        "content": "3:00 p.m."
-      }
+      "foot": { "type": "stu", "content": "3:00 p.m." }
     }
   },
   {
@@ -878,9 +780,7 @@
       "text": "It will be that every soul that will not listen to that prophet will be utterly destroyed from among the people.’",
       "foot": {
         "type": "xrf",
-        "content": {
-          "bibleLink": "Deuteronomy 18:15, 18–19"
-        }
+        "content": { "bibleLink": "Deuteronomy 18:15, 18–19" }
       }
     }
   },
@@ -897,23 +797,15 @@
     "content": [
       {
         "text": "You are the children of the prophets, and of the covenant which God made with our fathers, saying to Abraham, ‘All the families of the earth will be blessed through your offspring.’",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       {
         "foot": {
           "type": "xrf",
           "content": [
-            {
-              "bibleLink": "Genesis 22:18"
-            },
+            { "bibleLink": "Genesis 22:18" },
             "; ",
-            {
-              "bibleLink": "Genesis 26:4",
-              "content": "26:4"
-            }
+            { "bibleLink": "Genesis 26:4", "content": "26:4" }
           ]
         }
       }
@@ -1000,12 +892,7 @@
     "verse": 11,
     "content": {
       "text": "He is ‘the stone which was regarded as worthless by you, the builders, which has become the head of the corner.’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Psalm 118:22"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 118:22" } }
     }
   },
   {
@@ -1107,14 +994,8 @@
         "text": "who by the mouth of your servant David, said,",
         "break": true
       },
-      {
-        "text": "‘Why do the nations rage,",
-        "break": true
-      },
-      {
-        "text": "and the peoples plot a vain thing?",
-        "break": true
-      }
+      { "text": "‘Why do the nations rage,", "break": true },
+      { "text": "and the peoples plot a vain thing?", "break": true }
     ]
   },
   {
@@ -1122,28 +1003,15 @@
     "chapter": 4,
     "verse": 26,
     "content": [
-      {
-        "text": "The kings of the earth take a stand,",
-        "break": true
-      },
-      {
-        "text": "and the rulers plot together,",
-        "break": true
-      },
+      { "text": "The kings of the earth take a stand,", "break": true },
+      { "text": "and the rulers plot together,", "break": true },
       {
         "text": "against the Lord, and against his Christ.’",
         "foot": {
           "content": "Christ (Greek) and Messiah (Hebrew) both mean Anointed One."
         }
       },
-      {
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 2:1–2"
-          }
-        }
-      }
+      { "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 2:1–2" } } }
     ]
   },
   {
@@ -1154,10 +1022,7 @@
       {
         "paragraph": true,
         "text": "“For truly,",
-        "foot": {
-          "type": "var",
-          "content": "NU adds “in this city,”"
-        }
+        "foot": { "type": "var", "content": "NU adds “in this city,”" }
       },
       " both Herod and Pontius Pilate, with the Gentiles and the people of Israel, were gathered together against your holy servant Jesus, whom you anointed,"
     ]
@@ -1285,10 +1150,7 @@
     "verse": 8,
     "content": [
       "Peter answered her, “Tell me whether you sold the land for so much.”",
-      {
-        "paragraph": true,
-        "text": "She said, “Yes, for so much.”"
-      }
+      { "paragraph": true, "text": "She said, “Yes, for so much.”" }
     ]
   },
   {
@@ -1661,12 +1523,7 @@
     "verse": 3,
     "content": {
       "text": "and said to him, ‘Get out of your land and away from your relatives, and come into a land which I will show you.’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 12:1"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 12:1" } }
     }
   },
   {
@@ -1693,12 +1550,7 @@
     "verse": 7,
     "content": {
       "text": "‘I will judge the nation to which they will be in bondage,’ said God, ‘and after that they will come out and serve me in this place.’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 15:13–14"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 15:13–14" } }
     }
   },
   {
@@ -1845,12 +1697,7 @@
     "verse": 28,
     "content": {
       "text": "Do you want to kill me as you killed the Egyptian yesterday?’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Exodus 2:14"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Exodus 2:14" } }
     }
   },
   {
@@ -1881,12 +1728,7 @@
     "content": [
       {
         "text": "‘I am the God of your fathers: the God of Abraham, the God of Isaac, and the God of Jacob.’",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Exodus 3:6"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Exodus 3:6" } }
       },
       " Moses trembled and dared not look."
     ]
@@ -1905,9 +1747,7 @@
       "text": "I have surely seen the affliction of my people who are in Egypt, and have heard their groaning. I have come down to deliver them. Now come, I will send you into Egypt.’",
       "foot": {
         "type": "xrf",
-        "content": {
-          "bibleLink": "Exodus 3:5, 7–8, 10"
-        }
+        "content": { "bibleLink": "Exodus 3:5, 7–8, 10" }
       }
     }
   },
@@ -1941,9 +1781,7 @@
       {
         "foot": {
           "type": "xrf",
-          "content": {
-            "bibleLink": "Deuteronomy 18:15"
-          }
+          "content": { "bibleLink": "Deuteronomy 18:15" }
         }
       }
     ]
@@ -1966,12 +1804,7 @@
     "verse": 40,
     "content": {
       "text": "saying to Aaron, ‘Make us gods that will go before us, for as for this Moses who led us out of the land of Egypt, we don’t know what has become of him.’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Exodus 32:1"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Exodus 32:1" } }
     }
   },
   {
@@ -2011,26 +1844,12 @@
     "chapter": 7,
     "verse": 43,
     "content": [
-      {
-        "text": "You took up the tabernacle of Moloch,",
-        "break": true
-      },
-      {
-        "text": "the star of your god Rephan,",
-        "break": true
-      },
-      {
-        "text": "the figures which you made to worship,",
-        "break": true
-      },
+      { "text": "You took up the tabernacle of Moloch,", "break": true },
+      { "text": "the star of your god Rephan,", "break": true },
+      { "text": "the figures which you made to worship,", "break": true },
       {
         "text": "so I will carry you away",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Amos 5:25–27"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Amos 5:25–27" } }
       },
       " beyond Babylon.’"
     ]
@@ -2076,22 +1895,13 @@
     "chapter": 7,
     "verse": 49,
     "content": [
-      {
-        "text": "‘heaven is my throne,",
-        "break": true
-      },
-      {
-        "text": "and the earth a footstool for my feet.",
-        "break": true
-      },
+      { "text": "‘heaven is my throne,", "break": true },
+      { "text": "and the earth a footstool for my feet.", "break": true },
       {
         "text": "What kind of house will you build me?’ says the Lord.",
         "break": true
       },
-      {
-        "text": "‘Or what is the place of my rest?",
-        "break": true
-      }
+      { "text": "‘Or what is the place of my rest?", "break": true }
     ]
   },
   {
@@ -2100,12 +1910,7 @@
     "verse": 50,
     "content": {
       "text": "Didn’t my hand make all these things?’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Isaiah 66:1–2"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 66:1–2" } }
     }
   },
   {
@@ -2402,18 +2207,9 @@
         "text": "Now the passage of the Scripture which he was reading was this,",
         "break": true
       },
-      {
-        "text": "“He was led as a sheep to the slaughter.",
-        "break": true
-      },
-      {
-        "text": "As a lamb before his shearer is silent,",
-        "break": true
-      },
-      {
-        "text": "so he doesn’t open his mouth.",
-        "break": true
-      }
+      { "text": "“He was led as a sheep to the slaughter.", "break": true },
+      { "text": "As a lamb before his shearer is silent,", "break": true },
+      { "text": "so he doesn’t open his mouth.", "break": true }
     ]
   },
   {
@@ -2425,18 +2221,10 @@
         "text": "In his humiliation, his judgment was taken away.",
         "break": true
       },
-      {
-        "text": "Who will declare His generation?",
-        "break": true
-      },
+      { "text": "Who will declare His generation?", "break": true },
       {
         "text": "For his life is taken from the earth.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 53:7, 8"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 53:7, 8" } }
       }
     ]
   },
@@ -2524,10 +2312,7 @@
     "verse": 4,
     "content": [
       "He fell on the earth, and heard a voice saying to him, ",
-      {
-        "text": "“Saul, Saul, why do you persecute me?”",
-        "marks": ["woc"]
-      }
+      { "text": "“Saul, Saul, why do you persecute me?”", "marks": ["woc"] }
     ]
   },
   {
@@ -2535,14 +2320,8 @@
     "chapter": 9,
     "verse": 5,
     "content": [
-      {
-        "paragraph": true,
-        "text": "He said, “Who are you, Lord?”"
-      },
-      {
-        "paragraph": true,
-        "text": "The Lord said, "
-      },
+      { "paragraph": true, "text": "He said, “Who are you, Lord?”" },
+      { "paragraph": true, "text": "The Lord said, " },
       {
         "text": "“I am Jesus, whom you are persecuting.",
         "marks": ["woc"],
@@ -2561,10 +2340,7 @@
       {
         "text": "But",
         "marks": ["woc"],
-        "foot": {
-          "type": "var",
-          "content": "TR omits “But”"
-        }
+        "foot": { "type": "var", "content": "TR omits “But”" }
       },
       {
         "text": " rise up and enter into the city, then you will be told what you must do.”",
@@ -2602,14 +2378,8 @@
         "paragraph": true,
         "text": "Now there was a certain disciple at Damascus named Ananias. The Lord said to him in a vision, "
       },
-      {
-        "text": "“Ananias!”",
-        "marks": ["woc"]
-      },
-      {
-        "paragraph": true,
-        "text": "He said, “Behold, it’s me, Lord.”"
-      }
+      { "text": "“Ananias!”", "marks": ["woc"] },
+      { "paragraph": true, "text": "He said, “Behold, it’s me, Lord.”" }
     ]
   },
   {
@@ -2617,17 +2387,11 @@
     "chapter": 9,
     "verse": 11,
     "content": [
-      {
-        "paragraph": true,
-        "text": "The Lord said to him, "
-      },
+      { "paragraph": true, "text": "The Lord said to him, " },
       {
         "text": "“Arise and go to the street which is called Straight, and inquire in the house of Judah",
         "marks": ["woc"],
-        "foot": {
-          "type": "trn",
-          "content": "or, Judas"
-        }
+        "foot": { "type": "trn", "content": "or, Judas" }
       },
       {
         "text": " for one named Saul, a man of Tarsus. For behold, he is praying,",
@@ -2666,10 +2430,7 @@
     "chapter": 9,
     "verse": 15,
     "content": [
-      {
-        "paragraph": true,
-        "text": "But the Lord said to him, "
-      },
+      { "paragraph": true, "text": "But the Lord said to him, " },
       {
         "text": "“Go your way, for he is my chosen vessel to bear my name before the nations and kings, and the children of Israel.",
         "marks": ["woc"]
@@ -2775,10 +2536,7 @@
     "content": [
       {
         "text": "He was with them entering into",
-        "foot": {
-          "type": "var",
-          "content": "TR and NU add “and going out”"
-        }
+        "foot": { "type": "var", "content": "TR and NU add “and going out”" }
       },
       " Jerusalem,"
     ]
@@ -2864,10 +2622,7 @@
       {
         "paragraph": true,
         "text": "Now there was at Joppa a certain disciple named Tabitha, which when translated means Dorcas.",
-        "foot": {
-          "type": "stu",
-          "content": "“Dorcas” is Greek for “Gazelle.”"
-        }
+        "foot": { "type": "stu", "content": "“Dorcas” is Greek for “Gazelle.”" }
       },
       " This woman was full of good works and acts of mercy which she did."
     ]
@@ -2945,10 +2700,7 @@
     "content": [
       {
         "text": "At about the ninth hour of the day,",
-        "foot": {
-          "type": "stu",
-          "content": "3:00 p.m."
-        }
+        "foot": { "type": "stu", "content": "3:00 p.m." }
       },
       " he clearly saw in a vision an angel of God coming to him and saying to him, “Cornelius!”"
     ]
@@ -3034,10 +2786,7 @@
     "verse": 13,
     "content": [
       "A voice came to him, ",
-      {
-        "text": "“Rise, Peter, kill and eat!”",
-        "marks": ["woc"]
-      }
+      { "text": "“Rise, Peter, kill and eat!”", "marks": ["woc"] }
     ]
   },
   {
@@ -3180,10 +2929,7 @@
       {
         "paragraph": true,
         "text": "Cornelius said, “Four days ago, I was fasting until this hour; and at the ninth hour,",
-        "foot": {
-          "type": "stu",
-          "content": "3:00 p.m."
-        }
+        "foot": { "type": "stu", "content": "3:00 p.m." }
       },
       " I prayed in my house, and behold, a man stood before me in bright clothing"
     ]
@@ -3246,10 +2992,7 @@
     "content": [
       {
         "text": "We are witnesses of everything he did both in the country of the Jews and in Jerusalem; whom they also",
-        "foot": {
-          "type": "var",
-          "content": "TR omits “also”"
-        }
+        "foot": { "type": "var", "content": "TR omits “also”" }
       },
       " killed, hanging him on a tree."
     ]
@@ -3299,10 +3042,7 @@
     "verse": 46,
     "content": [
       "For they heard them speaking in other languages and magnifying God.",
-      {
-        "paragraph": true,
-        "text": "Then Peter answered,"
-      }
+      { "paragraph": true, "text": "Then Peter answered," }
     ]
   },
   {
@@ -3372,10 +3112,7 @@
     "verse": 7,
     "content": [
       "I also heard a voice saying to me, ",
-      {
-        "text": "‘Rise, Peter, kill and eat!’",
-        "marks": ["woc"]
-      }
+      { "text": "‘Rise, Peter, kill and eat!’", "marks": ["woc"] }
     ]
   },
   {
@@ -3721,10 +3458,7 @@
     "content": [
       {
         "text": "Barnabas and Saul returned to",
-        "foot": {
-          "type": "var",
-          "content": "TR reads “from” instead of “to”"
-        }
+        "foot": { "type": "var", "content": "TR reads “from” instead of “to”" }
       },
       " Jerusalem when they had fulfilled their service, also taking with them John who was called Mark."
     ]
@@ -3850,10 +3584,7 @@
     "content": [
       {
         "text": "The God of this people",
-        "foot": {
-          "type": "var",
-          "content": "TR, NU add “Israel”"
-        }
+        "foot": { "type": "var", "content": "TR, NU add “Israel”" }
       },
       " chose our fathers, and exalted the people when they stayed as aliens in the land of Egypt, and with an uplifted arm, he led them out of it."
     ]
@@ -3975,18 +3706,10 @@
         "text": "that God has fulfilled this to us, their children, in that he raised up Jesus. As it is also written in the second psalm,",
         "break": true
       },
-      {
-        "text": "‘You are my Son.",
-        "break": true
-      },
+      { "text": "‘You are my Son.", "break": true },
       {
         "text": "Today I have become your father.’",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 2:7"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 2:7" } }
       }
     ]
   },
@@ -3997,12 +3720,7 @@
     "content": {
       "paragraph": true,
       "text": "“Concerning that he raised him up from the dead, now no more to return to corruption, he has spoken thus: ‘I will give you the holy and sure blessings of David.’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Isaiah 55:3"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 55:3" } }
     }
   },
   {
@@ -4011,12 +3729,7 @@
     "verse": 35,
     "content": {
       "text": "Therefore he says also in another psalm, ‘You will not allow your Holy One to see decay.’",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Psalm 16:10"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 16:10" } }
     }
   },
   {
@@ -4066,26 +3779,12 @@
     "chapter": 13,
     "verse": 41,
     "content": [
-      {
-        "text": "‘Behold, you scoffers!",
-        "break": true
-      },
-      {
-        "text": "Wonder and perish,",
-        "break": true
-      },
-      {
-        "text": "for I work a work in your days,",
-        "break": true
-      },
+      { "text": "‘Behold, you scoffers!", "break": true },
+      { "text": "Wonder and perish,", "break": true },
+      { "text": "for I work a work in your days,", "break": true },
       {
         "text": "a work which you will in no way believe, if one declares it to you.’ ”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Habakkuk 1:5"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Habakkuk 1:5" } }
       }
     ]
   },
@@ -4133,22 +3832,11 @@
     "chapter": 13,
     "verse": 47,
     "content": [
-      {
-        "text": "For so has the Lord commanded us, saying,",
-        "break": true
-      },
-      {
-        "text": "‘I have set you as a light for the Gentiles,",
-        "break": true
-      },
+      { "text": "For so has the Lord commanded us, saying,", "break": true },
+      { "text": "‘I have set you as a light for the Gentiles,", "break": true },
       {
         "text": "that you should bring salvation to the uttermost parts of the earth.’ ”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 49:6"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 49:6" } }
       }
     ]
   },
@@ -4201,10 +3889,7 @@
     "content": [
       {
         "text": "But the disbelieving",
-        "foot": {
-          "type": "trn",
-          "content": "or, disobedient"
-        }
+        "foot": { "type": "trn", "content": "or, disobedient" }
       },
       " Jews stirred up and embittered the souls of the Gentiles against the brothers."
     ]
@@ -4306,10 +3991,7 @@
     "content": [
       {
         "text": "Yet he didn’t leave himself without witness, in that he did good and gave you",
-        "foot": {
-          "type": "var",
-          "content": "TR reads “us” instead of “you”"
-        }
+        "foot": { "type": "var", "content": "TR reads “us” instead of “you”" }
       },
       " rains from the sky and fruitful seasons, filling our hearts with food and gladness.”"
     ]
@@ -4475,10 +4157,7 @@
     "content": [
       {
         "text": "But we believe that we are saved through the grace of the Lord Jesus,",
-        "foot": {
-          "type": "var",
-          "content": "TR adds “Christ”"
-        }
+        "foot": { "type": "var", "content": "TR adds “Christ”" }
       },
       " just as they are.”"
     ]
@@ -4518,18 +4197,12 @@
     "chapter": 15,
     "verse": 16,
     "content": [
-      {
-        "text": "‘After these things I will return.",
-        "break": true
-      },
+      { "text": "‘After these things I will return.", "break": true },
       {
         "text": "I will again build the tabernacle of David, which has fallen.",
         "break": true
       },
-      {
-        "text": "I will again build its ruins.",
-        "break": true
-      },
+      { "text": "I will again build its ruins.", "break": true },
       "I will set it up"
     ]
   },
@@ -4542,18 +4215,10 @@
         "text": "that the rest of men may seek after the Lord:",
         "break": true
       },
-      {
-        "text": "all the Gentiles who are called by my name,",
-        "break": true
-      },
+      { "text": "all the Gentiles who are called by my name,", "break": true },
       {
         "text": "says the Lord, who does all these things.’",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Amos 9:11–12"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Amos 9:11–12" } }
       }
     ]
   },
@@ -5155,10 +4820,7 @@
     "content": [
       {
         "text": "Some of the Epicurean and Stoic philosophers also",
-        "foot": {
-          "type": "var",
-          "content": "TR omits “also”"
-        }
+        "foot": { "type": "var", "content": "TR omits “also”" }
       },
       " were conversing with him. Some said, “What does this babbler want to say?”",
       {
@@ -5518,10 +5180,7 @@
         "paragraph": true,
         "text": "He said, “Into what then were you baptized?”"
       },
-      {
-        "paragraph": true,
-        "text": "They said, “Into John’s baptism.”"
-      }
+      { "paragraph": true, "text": "They said, “Into John’s baptism.”" }
     ]
   },
   {
@@ -5531,10 +5190,7 @@
     "content": {
       "paragraph": true,
       "text": "Paul said, “John indeed baptized with the baptism of repentance, saying to the people that they should believe in the one who would come after him, that is, in Christ Jesus.”",
-      "foot": {
-        "type": "var",
-        "content": "NU omits Christ."
-      }
+      "foot": { "type": "var", "content": "NU omits Christ." }
     }
   },
   {
@@ -5847,10 +5503,7 @@
     "content": [
       {
         "text": "There were many lights in the upper room where we",
-        "foot": {
-          "type": "var",
-          "content": "TR reads “they” instead of “we”"
-        }
+        "foot": { "type": "var", "content": "TR reads “they” instead of “we”" }
       },
       " were gathered together."
     ]
@@ -5942,10 +5595,7 @@
     "verse": 21,
     "content": {
       "text": "testifying both to Jews and to Greeks repentance toward God and faith toward our Lord Jesus.",
-      "foot": {
-        "type": "var",
-        "content": "TR adds “Christ”"
-      }
+      "foot": { "type": "var", "content": "TR adds “Christ”" }
     }
   },
   {
@@ -5994,10 +5644,7 @@
     "content": [
       {
         "text": "Take heed, therefore, to yourselves and to all the flock, in which the Holy Spirit has made you overseers, to shepherd the assembly of the Lord and",
-        "foot": {
-          "type": "var",
-          "content": "TR, NU omit “the Lord and”"
-        }
+        "foot": { "type": "var", "content": "TR, NU omit “the Lord and”" }
       },
       " God which he purchased with his own blood."
     ]
@@ -6336,10 +5983,7 @@
     "verse": 37,
     "content": [
       "As Paul was about to be brought into the barracks, he asked the commanding officer, “May I speak to you?”",
-      {
-        "paragraph": true,
-        "text": "He said, “Do you know Greek?"
-      }
+      { "paragraph": true, "text": "He said, “Do you know Greek?" }
     ]
   },
   {
@@ -6384,10 +6028,7 @@
         "paragraph": true,
         "text": "When they heard that he spoke to them in the Hebrew language, they were even more quiet."
       },
-      {
-        "paragraph": true,
-        "text": "He said,"
-      }
+      { "paragraph": true, "text": "He said," }
     ]
   },
   {
@@ -6423,10 +6064,7 @@
     "verse": 7,
     "content": [
       "I fell to the ground and heard a voice saying to me, ",
-      {
-        "text": "‘Saul, Saul, why are you persecuting me?’",
-        "marks": ["woc"]
-      }
+      { "text": "‘Saul, Saul, why are you persecuting me?’", "marks": ["woc"] }
     ]
   },
   {
@@ -6539,10 +6177,7 @@
     "chapter": 22,
     "verse": 21,
     "content": [
-      {
-        "paragraph": true,
-        "text": "“He said to me, "
-      },
+      { "paragraph": true, "text": "“He said to me, " },
       {
         "text": "‘Depart, for I will send you out far from here to the Gentiles.’",
         "marks": ["woc"]
@@ -6598,10 +6233,7 @@
         "paragraph": true,
         "text": "The commanding officer came and asked him, “Tell me, are you a Roman?”"
       },
-      {
-        "paragraph": true,
-        "text": "He said, “Yes.”"
-      }
+      { "paragraph": true, "text": "He said, “Yes.”" }
     ]
   },
   {
@@ -6613,10 +6245,7 @@
         "paragraph": true,
         "text": "The commanding officer answered, “I bought my citizenship for a great price.”"
       },
-      {
-        "paragraph": true,
-        "text": "Paul said, “But I was born a Roman.”"
-      }
+      { "paragraph": true, "text": "Paul said, “But I was born a Roman.”" }
     ]
   },
   {
@@ -6677,12 +6306,7 @@
     "content": {
       "paragraph": true,
       "text": "Paul said, “I didn’t know, brothers, that he was high priest. For it is written, ‘You shall not speak evil of a ruler of your people.’ ”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Exodus 22:28"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Exodus 22:28" } }
     }
   },
   {
@@ -6830,10 +6454,7 @@
     "content": {
       "paragraph": true,
       "text": "He called to himself two of the centurions, and said, “Prepare two hundred soldiers to go as far as Caesarea, with seventy horsemen and two hundred men armed with spears, at the third hour of the night.”",
-      "foot": {
-        "type": "stu",
-        "content": "about 9:00 p.m."
-      }
+      "foot": { "type": "stu", "content": "about 9:00 p.m." }
     }
   },
   {
@@ -7421,18 +7042,9 @@
     "chapter": 26,
     "verse": 15,
     "content": [
-      {
-        "paragraph": true,
-        "text": "“I said, ‘Who are you, Lord?’"
-      },
-      {
-        "paragraph": true,
-        "text": "“He said, "
-      },
-      {
-        "text": "‘I am Jesus, whom you are persecuting.",
-        "marks": ["woc"]
-      }
+      { "paragraph": true, "text": "“I said, ‘Who are you, Lord?’" },
+      { "paragraph": true, "text": "“He said, " },
+      { "text": "‘I am Jesus, whom you are persecuting.", "marks": ["woc"] }
     ]
   },
   {
@@ -7663,10 +7275,7 @@
     "verse": 14,
     "content": {
       "text": "But before long, a stormy wind beat down from shore, which is called Euroclydon.",
-      "foot": {
-        "type": "trn",
-        "content": "Or, “a northeaster”."
-      }
+      "foot": { "type": "trn", "content": "Or, “a northeaster”." }
     }
   },
   {
@@ -7884,10 +7493,7 @@
       {
         "paragraph": true,
         "text": "When we had escaped, then they",
-        "foot": {
-          "type": "var",
-          "content": "NU reads “we”"
-        }
+        "foot": { "type": "var", "content": "NU reads “we”" }
       },
       " learned that the island was called Malta."
     ]
@@ -8065,30 +7671,12 @@
     "chapter": 28,
     "verse": 26,
     "content": [
-      {
-        "text": "saying,",
-        "break": true
-      },
-      {
-        "text": "‘Go to this people and say,",
-        "break": true
-      },
-      {
-        "text": "in hearing, you will hear,",
-        "break": true
-      },
-      {
-        "text": "but will in no way understand.",
-        "break": true
-      },
-      {
-        "text": "In seeing, you will see,",
-        "break": true
-      },
-      {
-        "text": "but will in no way perceive.",
-        "break": true
-      }
+      { "text": "saying,", "break": true },
+      { "text": "‘Go to this people and say,", "break": true },
+      { "text": "in hearing, you will hear,", "break": true },
+      { "text": "but will in no way understand.", "break": true },
+      { "text": "In seeing, you will see,", "break": true },
+      { "text": "but will in no way perceive.", "break": true }
     ]
   },
   {
@@ -8096,42 +7684,16 @@
     "chapter": 28,
     "verse": 27,
     "content": [
-      {
-        "text": "For this people’s heart has grown callous.",
-        "break": true
-      },
-      {
-        "text": "Their ears are dull of hearing.",
-        "break": true
-      },
-      {
-        "text": "Their eyes they have closed.",
-        "break": true
-      },
-      {
-        "text": "Lest they should see with their eyes,",
-        "break": true
-      },
-      {
-        "text": "hear with their ears,",
-        "break": true
-      },
-      {
-        "text": "understand with their heart,",
-        "break": true
-      },
-      {
-        "text": "and would turn again,",
-        "break": true
-      },
+      { "text": "For this people’s heart has grown callous.", "break": true },
+      { "text": "Their ears are dull of hearing.", "break": true },
+      { "text": "Their eyes they have closed.", "break": true },
+      { "text": "Lest they should see with their eyes,", "break": true },
+      { "text": "hear with their ears,", "break": true },
+      { "text": "understand with their heart,", "break": true },
+      { "text": "and would turn again,", "break": true },
       {
         "text": "then I would heal them.’",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Isaiah 6:9–10"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Isaiah 6:9–10" } }
       }
     ]
   },
@@ -8151,10 +7713,7 @@
     "content": {
       "paragraph": true,
       "text": "When he had said these words, the Jews departed, having a great dispute among themselves.",
-      "foot": {
-        "type": "var",
-        "content": "NU omits verse 29."
-      }
+      "foot": { "type": "var", "content": "NU omits verse 29." }
     }
   },
   {

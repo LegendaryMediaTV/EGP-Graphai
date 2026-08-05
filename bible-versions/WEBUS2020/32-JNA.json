@@ -11,10 +11,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -59,17 +56,11 @@
     "content": [
       {
         "text": "So the ship master came to him, and said to him, “What do you mean, sleeper? Arise, call on your God!",
-        "foot": {
-          "type": "trn",
-          "content": "or, gods"
-        }
+        "foot": { "type": "trn", "content": "or, gods" }
       },
       {
         "text": " Maybe your God",
-        "foot": {
-          "type": "trn",
-          "content": "or, gods"
-        }
+        "foot": { "type": "trn", "content": "or, gods" }
       },
       " will notice us, so that we won’t perish.”"
     ]
@@ -101,10 +92,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -186,33 +174,18 @@
     "chapter": 2,
     "verse": 2,
     "content": [
-      {
-        "text": "He said,",
-        "break": true
-      },
+      { "text": "He said,", "break": true },
       {
         "text": "“I called because of my affliction to Yahweh.",
         "break": true
       },
-      {
-        "text": "He answered me.",
-        "break": true
-      },
+      { "text": "He answered me.", "break": true },
       {
         "text": "Out of the belly of Sheol",
-        "foot": {
-          "type": "stu",
-          "content": "Sheol is the place of the dead."
-        }
+        "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
-      {
-        "text": " I cried.",
-        "break": true
-      },
-      {
-        "text": "You heard my voice.",
-        "break": true
-      }
+      { "text": " I cried.", "break": true },
+      { "text": "You heard my voice.", "break": true }
     ]
   },
   {
@@ -220,18 +193,9 @@
     "chapter": 2,
     "verse": 3,
     "content": [
-      {
-        "text": "For you threw me into the depths,",
-        "break": true
-      },
-      {
-        "text": "in the heart of the seas.",
-        "break": true
-      },
-      {
-        "text": "The flood was all around me.",
-        "break": true
-      },
+      { "text": "For you threw me into the depths,", "break": true },
+      { "text": "in the heart of the seas.", "break": true },
+      { "text": "The flood was all around me.", "break": true },
       {
         "text": "All your waves and your billows passed over me.",
         "break": true
@@ -258,22 +222,10 @@
     "chapter": 2,
     "verse": 5,
     "content": [
-      {
-        "text": "The waters surrounded me,",
-        "break": true
-      },
-      {
-        "text": "even to the soul.",
-        "break": true
-      },
-      {
-        "text": "The deep was around me.",
-        "break": true
-      },
-      {
-        "text": "The weeds were wrapped around my head.",
-        "break": true
-      }
+      { "text": "The waters surrounded me,", "break": true },
+      { "text": "even to the soul.", "break": true },
+      { "text": "The deep was around me.", "break": true },
+      { "text": "The weeds were wrapped around my head.", "break": true }
     ]
   },
   {
@@ -281,14 +233,8 @@
     "chapter": 2,
     "verse": 6,
     "content": [
-      {
-        "text": "I went down to the bottoms of the mountains.",
-        "break": true
-      },
-      {
-        "text": "The earth barred me in forever;",
-        "break": true
-      },
+      { "text": "I went down to the bottoms of the mountains.", "break": true },
+      { "text": "The earth barred me in forever;", "break": true },
       "yet you have brought my life up from the pit, Yahweh my God."
     ]
   },
@@ -326,10 +272,7 @@
         "text": "But I will sacrifice to you with the voice of thanksgiving.",
         "break": true
       },
-      {
-        "text": "I will pay that which I have vowed.",
-        "break": true
-      },
+      { "text": "I will pay that which I have vowed.", "break": true },
       "Salvation belongs to Yahweh.”"
     ]
   },

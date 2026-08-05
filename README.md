@@ -27,7 +27,7 @@ EGP Graphai establishes a free, open JSON schema for Bible resources that priori
 - **Formatting marks** for italics, bold, small caps, and Words of Christ highlighting
 - **Paragraph breaks** and **line breaks** for proper formatting
 - **Footnotes** with study notes, translations, variants, and cross-references
-- **Headings** and **subtitles** for section divisions and psalm superscriptions
+- **Headings** and **subtitles** for section divisions and psalm superscriptions, including acrostic stanza markers
 - **Bible reference links** with optional display overrides for cross-references
 - **Nested content** for shared properties (e.g., Strong's numbers applying to multiple words)
 

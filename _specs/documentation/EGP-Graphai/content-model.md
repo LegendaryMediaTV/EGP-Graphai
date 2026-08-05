@@ -39,6 +39,8 @@ Each shape exists because flat alternatives were tried and found wanting.
 
 **Heading vs. subtitle.** Headings are editorial section breaks ("The Sermon on the Mount"). Subtitles are inscriptions baked into the text itself ("A Psalm of David"). They render differently and toggle independently in the reader. A user might want one but not the other.
 
+**Standard vs. acrostic headings.** A heading can carry an optional `type` of `standard` (the default) or `acrostic`, marking a Hebrew acrostic stanza marker — the letter name that opens each stanza of Psalm 119 in some translations. The distinction exists because a chapter can stack a subtitle, a standard heading, and an acrostic marker back to back, and a reader needs to tell at a glance which is which. All three renderers (text export, markdown export, web reader) render an acrostic heading one step smaller than a standard one; visibility is still governed by the reader's single "Headings" toggle for both.
+
 **Paragraph as flag vs. wrapper.** Most paragraph breaks happen mid-verse and attach to a specific word — those use `paragraph: true` on a text object. A standalone paragraph wrapper exists for the rarer case where you need to group already-grouped content into a paragraph without picking an anchor word.
 
 **Bible link with display override.** A footnote that says "see also Exodus 3:3–4" should show "Exodus 3:3–4" by default. But in formatted text where the book is already named ("the burning bush of Exodus 3:3–4"), you might want the displayed text to be just "3:3–4" while the link still targets the full reference. The optional `content` carries that override.

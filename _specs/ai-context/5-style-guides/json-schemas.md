@@ -153,7 +153,8 @@ JSON Schemas in this project use JSON Schema Draft-07 to define the structure of
     {
       "type": "object",
       "properties": {
-        "heading": { "$ref": "#" }
+        "heading": { "$ref": "#" },
+        "type": { "enum": ["standard", "acrostic"], "default": "standard" }
       },
       "required": ["heading"],
       "additionalProperties": false

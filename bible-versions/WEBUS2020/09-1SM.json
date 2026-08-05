@@ -25,10 +25,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -135,10 +132,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -254,27 +248,11 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      {
-        "paragraph": true,
-        "text": "Hannah prayed, and said,",
-        "break": true
-      },
-      {
-        "text": "“My heart exults in Yahweh!",
-        "break": true
-      },
-      {
-        "text": "My horn is exalted in Yahweh.",
-        "break": true
-      },
-      {
-        "text": "My mouth is enlarged over my enemies,",
-        "break": true
-      },
-      {
-        "text": "because I rejoice in your salvation.",
-        "break": true
-      }
+      { "paragraph": true, "text": "Hannah prayed, and said,", "break": true },
+      { "text": "“My heart exults in Yahweh!", "break": true },
+      { "text": "My horn is exalted in Yahweh.", "break": true },
+      { "text": "My mouth is enlarged over my enemies,", "break": true },
+      { "text": "because I rejoice in your salvation.", "break": true }
     ]
   },
   {
@@ -282,14 +260,8 @@
     "chapter": 2,
     "verse": 2,
     "content": [
-      {
-        "text": "There is no one as holy as Yahweh,",
-        "break": true
-      },
-      {
-        "text": "for there is no one besides you,",
-        "break": true
-      },
+      { "text": "There is no one as holy as Yahweh,", "break": true },
+      { "text": "for there is no one besides you,", "break": true },
       "nor is there any rock like our God."
     ]
   },
@@ -303,14 +275,8 @@
         "text": "“Don’t keep talking so exceedingly proudly.",
         "break": true
       },
-      {
-        "text": "Don’t let arrogance come out of your mouth,",
-        "break": true
-      },
-      {
-        "text": "for Yahweh is a God of knowledge.",
-        "break": true
-      },
+      { "text": "Don’t let arrogance come out of your mouth,", "break": true },
+      { "text": "for Yahweh is a God of knowledge.", "break": true },
       "By him actions are weighed."
     ]
   },
@@ -324,10 +290,7 @@
         "text": "“The bows of the mighty men are broken.",
         "break": true
       },
-      {
-        "text": "Those who stumbled are armed with strength.",
-        "break": true
-      }
+      { "text": "Those who stumbled are armed with strength.", "break": true }
     ]
   },
   {
@@ -339,14 +302,8 @@
         "text": "Those who were full have hired themselves out for bread.",
         "break": true
       },
-      {
-        "text": "Those who were hungry are satisfied.",
-        "break": true
-      },
-      {
-        "text": "Yes, the barren has borne seven.",
-        "break": true
-      },
+      { "text": "Those who were hungry are satisfied.", "break": true },
+      { "text": "Yes, the barren has borne seven.", "break": true },
       "She who has many children languishes."
     ]
   },
@@ -362,15 +319,9 @@
       },
       {
         "text": "He brings down to Sheol",
-        "foot": {
-          "type": "stu",
-          "content": "Sheol is the place of the dead."
-        }
+        "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
-      {
-        "text": " and brings up.",
-        "break": true
-      }
+      { "text": " and brings up.", "break": true }
     ]
   },
   {
@@ -378,14 +329,8 @@
     "chapter": 2,
     "verse": 7,
     "content": [
-      {
-        "text": "Yahweh makes poor and makes rich.",
-        "break": true
-      },
-      {
-        "text": "He brings low, he also lifts up.",
-        "break": true
-      }
+      { "text": "Yahweh makes poor and makes rich.", "break": true },
+      { "text": "He brings low, he also lifts up.", "break": true }
     ]
   },
   {
@@ -393,30 +338,12 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      {
-        "text": "He raises up the poor out of the dust.",
-        "break": true
-      },
-      {
-        "text": "He lifts up the needy from the dunghill",
-        "break": true
-      },
-      {
-        "text": "to make them sit with princes",
-        "break": true
-      },
-      {
-        "text": "and inherit the throne of glory.",
-        "break": true
-      },
-      {
-        "text": "For the pillars of the earth are Yahweh’s.",
-        "break": true
-      },
-      {
-        "text": "He has set the world on them.",
-        "break": true
-      }
+      { "text": "He raises up the poor out of the dust.", "break": true },
+      { "text": "He lifts up the needy from the dunghill", "break": true },
+      { "text": "to make them sit with princes", "break": true },
+      { "text": "and inherit the throne of glory.", "break": true },
+      { "text": "For the pillars of the earth are Yahweh’s.", "break": true },
+      { "text": "He has set the world on them.", "break": true }
     ]
   },
   {
@@ -424,18 +351,12 @@
     "chapter": 2,
     "verse": 9,
     "content": [
-      {
-        "text": "He will keep the feet of his holy ones,",
-        "break": true
-      },
+      { "text": "He will keep the feet of his holy ones,", "break": true },
       {
         "text": "but the wicked will be put to silence in darkness;",
         "break": true
       },
-      {
-        "text": "for no man will prevail by strength.",
-        "break": true
-      }
+      { "text": "for no man will prevail by strength.", "break": true }
     ]
   },
   {
@@ -453,10 +374,7 @@
         "text": "“Yahweh will judge the ends of the earth.",
         "break": true
       },
-      {
-        "text": "He will give strength to his king,",
-        "break": true
-      },
+      { "text": "He will give strength to his king,", "break": true },
       "and exalt the horn of his anointed.”"
     ]
   },
@@ -530,10 +448,7 @@
     "content": [
       {
         "text": "Eli blessed Elkanah and his wife, and said, “May Yahweh give you offspring",
-        "foot": {
-          "type": "trn",
-          "content": "or, seed"
-        }
+        "foot": { "type": "trn", "content": "or, seed" }
       },
       " from this woman for the petition which was asked of Yahweh.” Then they went to their own home."
     ]
@@ -618,10 +533,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -642,10 +554,7 @@
     "content": [
       {
         "text": "The man of yours whom I don’t cut off from my altar will consume your eyes",
-        "foot": {
-          "type": "trn",
-          "content": "or, blind your eyes with tears"
-        }
+        "foot": { "type": "trn", "content": "or, blind your eyes with tears" }
       },
       " and grieve your heart. All the increase of your house will die in the flower of their age."
     ]
@@ -708,10 +617,7 @@
         "paragraph": true,
         "text": "He said, “I didn’t call. Lie down again.”"
       },
-      {
-        "paragraph": true,
-        "text": "He went and lay down."
-      }
+      { "paragraph": true, "text": "He went and lay down." }
     ]
   },
   {
@@ -808,10 +714,7 @@
     "verse": 16,
     "content": [
       "Then Eli called Samuel and said, “Samuel, my son!”",
-      {
-        "paragraph": true,
-        "text": "He said, “Here I am.”"
-      }
+      { "paragraph": true, "text": "He said, “Here I am.”" }
     ]
   },
   {
@@ -955,10 +858,7 @@
     "verse": 14,
     "content": [
       "When Eli heard the noise of the crying, he said, “What does the noise of this tumult mean?”",
-      {
-        "paragraph": true,
-        "text": "The man hurried, and came and told Eli."
-      }
+      { "paragraph": true, "text": "The man hurried, and came and told Eli." }
     ]
   },
   {
@@ -973,10 +873,7 @@
     "verse": 16,
     "content": [
       "The man said to Eli, “I am he who came out of the army, and I fled today out of the army.”",
-      {
-        "paragraph": true,
-        "text": "He said, “How did the matter go, my son?”"
-      }
+      { "paragraph": true, "text": "He said, “How did the matter go, my son?”" }
     ]
   },
   {
@@ -1019,10 +916,7 @@
     "content": [
       {
         "text": "She named the child Ichabod,",
-        "foot": {
-          "type": "stu",
-          "content": "“Ichabod” means “no glory”."
-        }
+        "foot": { "type": "stu", "content": "“Ichabod” means “no glory”." }
       },
       " saying, “The glory has departed from Israel!” because God’s ark was taken, and because of her father-in-law and her husband."
     ]
@@ -1439,10 +1333,7 @@
     "verse": 6,
     "content": [
       "But the thing displeased Samuel when they said, “Give us a king to judge us.”",
-      {
-        "paragraph": true,
-        "text": "Samuel prayed to Yahweh."
-      }
+      { "paragraph": true, "text": "Samuel prayed to Yahweh." }
     ]
   },
   {
@@ -2139,10 +2030,7 @@
         "paragraph": true,
         "text": "He said to them, “Yahweh is witness against you, and his anointed is witness today, that you have not found anything in my hand.”"
       },
-      {
-        "paragraph": true,
-        "text": "They said, “He is witness.”"
-      }
+      { "paragraph": true, "text": "They said, “He is witness.”" }
     ]
   },
   {
@@ -2789,10 +2677,7 @@
         "paragraph": true,
         "text": "Saul said, “Cast lots between me and Jonathan my son.”"
       },
-      {
-        "paragraph": true,
-        "text": "Jonathan was selected."
-      }
+      { "paragraph": true, "text": "Jonathan was selected." }
     ]
   },
   {
@@ -2999,10 +2884,7 @@
         "paragraph": true,
         "text": "Then Samuel said to Saul, “Stay, and I will tell you what Yahweh said to me last night.”"
       },
-      {
-        "paragraph": true,
-        "text": "He said to him, “Say on.”"
-      }
+      { "paragraph": true, "text": "He said to him, “Say on.”" }
     ]
   },
   {
@@ -3862,10 +3744,7 @@
         "text": "The women sang to one another as they played, and said,",
         "break": true
       },
-      {
-        "text": "“Saul has slain his thousands,",
-        "break": true
-      },
+      { "text": "“Saul has slain his thousands,", "break": true },
       "and David his ten thousands.”"
     ]
   },
@@ -4634,10 +4513,7 @@
         "text": "The servants of Achish said to him, “Isn’t this David the king of the land? Didn’t they sing to one another about him in dances, saying,",
         "break": true
       },
-      {
-        "text": "‘Saul has slain his thousands,",
-        "break": true
-      },
+      { "text": "‘Saul has slain his thousands,", "break": true },
       "and David his ten thousands’?”"
     ]
   },
@@ -4758,10 +4634,7 @@
     "verse": 12,
     "content": [
       "Saul said, “Hear now, you son of Ahitub.”",
-      {
-        "paragraph": true,
-        "text": "He answered, “Here I am, my lord.”"
-      }
+      { "paragraph": true, "text": "He answered, “Here I am, my lord.”" }
     ]
   },
   {
@@ -4944,10 +4817,7 @@
     "verse": 11,
     "content": [
       "Will the men of Keilah deliver me up into his hand? Will Saul come down, as your servant has heard? Yahweh, the God of Israel, I beg you, tell your servant.”",
-      {
-        "paragraph": true,
-        "text": "Yahweh said, “He will come down.”"
-      }
+      { "paragraph": true, "text": "Yahweh said, “He will come down.”" }
     ]
   },
   {
@@ -4959,10 +4829,7 @@
         "paragraph": true,
         "text": "Then David said, “Will the men of Keilah deliver me and my men into the hand of Saul?”"
       },
-      {
-        "paragraph": true,
-        "text": "Yahweh said, “They will deliver you up.”"
-      }
+      { "paragraph": true, "text": "Yahweh said, “They will deliver you up.”" }
     ]
   },
   {
@@ -5413,10 +5280,7 @@
     "verse": 22,
     "content": {
       "text": "God do so to the enemies of David, and more also, if I leave of all that belongs to him by the morning light so much as one who urinates on a wall.”",
-      "foot": {
-        "type": "trn",
-        "content": "or, male."
-      }
+      "foot": { "type": "trn", "content": "or, male." }
     }
   },
   {
@@ -5441,10 +5305,7 @@
     "content": [
       {
         "text": "Please don’t let my lord pay attention to this worthless fellow, Nabal, for as his name is, so is he. Nabal",
-        "foot": {
-          "type": "stu",
-          "content": "“Nabal” means “foolish”."
-        }
+        "foot": { "type": "stu", "content": "“Nabal” means “foolish”." }
       },
       " is his name, and folly is with him; but I, your servant, didn’t see my lord’s young men whom you sent."
     ]
@@ -5506,10 +5367,7 @@
     "verse": 34,
     "content": {
       "text": "For indeed, as Yahweh the God of Israel lives, who has withheld me from harming you, unless you had hurried and come to meet me, surely there wouldn’t have been left to Nabal by the morning light so much as one who urinates on a wall.”",
-      "foot": {
-        "type": "trn",
-        "content": "or, one male."
-      }
+      "foot": { "type": "trn", "content": "or, one male." }
     }
   },
   {
@@ -5632,10 +5490,7 @@
         "paragraph": true,
         "text": "Then David answered and said to Ahimelech the Hittite, and to Abishai the son of Zeruiah, brother of Joab, saying, “Who will go down with me to Saul to the camp?”"
       },
-      {
-        "paragraph": true,
-        "text": "Abishai said, “I will go down with you.”"
-      }
+      { "paragraph": true, "text": "Abishai said, “I will go down with you.”" }
     ]
   },
   {
@@ -5986,10 +5841,7 @@
         "paragraph": true,
         "text": "Then the woman said, “Whom shall I bring up to you?”"
       },
-      {
-        "paragraph": true,
-        "text": "He said, “Bring Samuel up for me.”"
-      }
+      { "paragraph": true, "text": "He said, “Bring Samuel up for me.”" }
     ]
   },
   {
@@ -6166,10 +6018,7 @@
         "text": "Isn’t this David, of whom people sang to one another in dances, saying,",
         "break": true
       },
-      {
-        "text": "‘Saul has slain his thousands,",
-        "break": true
-      },
+      { "text": "‘Saul has slain his thousands,", "break": true },
       "and David his ten thousands’?”"
     ]
   },
@@ -6266,10 +6115,7 @@
     "verse": 7,
     "content": [
       "David said to Abiathar the priest, the son of Ahimelech, “Please bring the ephod here to me.”",
-      {
-        "paragraph": true,
-        "text": "Abiathar brought the ephod to David."
-      }
+      { "paragraph": true, "text": "Abiathar brought the ephod to David." }
     ]
   },
   {
@@ -6537,10 +6383,7 @@
     "content": [
       {
         "text": "They took their bones and buried them under the tamarisk",
-        "foot": {
-          "type": "trn",
-          "content": "or, salt cedar"
-        }
+        "foot": { "type": "trn", "content": "or, salt cedar" }
       },
       " tree in Jabesh, and fasted seven days."
     ]

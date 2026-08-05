@@ -7,10 +7,7 @@
       {
         "paragraph": true,
         "text": "Paul, an apostle of Christ",
-        "foot": {
-          "type": "stu",
-          "content": "“Christ” means “Anointed One”."
-        }
+        "foot": { "type": "stu", "content": "“Christ” means “Anointed One”." }
       },
       " Jesus through the will of God, to the saints who are at Ephesus, and the faithful in Christ Jesus:"
     ]
@@ -494,26 +491,12 @@
     "chapter": 4,
     "verse": 8,
     "content": [
-      {
-        "text": "Therefore he says,",
-        "break": true
-      },
-      {
-        "text": "“When he ascended on high,",
-        "break": true
-      },
-      {
-        "text": "he led captivity captive,",
-        "break": true
-      },
+      { "text": "Therefore he says,", "break": true },
+      { "text": "“When he ascended on high,", "break": true },
+      { "text": "he led captivity captive,", "break": true },
       {
         "text": "and gave gifts to people.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 68:18"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 68:18" } }
       }
     ]
   },
@@ -537,10 +520,7 @@
       {
         "paragraph": true,
         "text": "He gave some to be apostles; and some, prophets; and some, evangelists; and some, shepherds",
-        "foot": {
-          "type": "trn",
-          "content": "or, pastors"
-        }
+        "foot": { "type": "trn", "content": "or, pastors" }
       },
       " and teachers;"
     ]
@@ -642,12 +622,7 @@
     "content": [
       {
         "text": "“Be angry, and don’t sin.”",
-        "foot": {
-          "type": "xrf",
-          "content": {
-            "bibleLink": "Psalm 4:4"
-          }
-        }
+        "foot": { "type": "xrf", "content": { "bibleLink": "Psalm 4:4" } }
       },
       " Don’t let the sun go down on your wrath,"
     ]
@@ -659,10 +634,7 @@
     "content": [
       {
         "text": "and don’t give place",
-        "foot": {
-          "type": "trn",
-          "content": "or, opportunity"
-        }
+        "foot": { "type": "trn", "content": "or, opportunity" }
       },
       " to the devil."
     ]
@@ -904,12 +876,7 @@
     "verse": 31,
     "content": {
       "text": "“For this cause a man will leave his father and mother and will be joined to his wife. Then the two will become one flesh.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Genesis 2:24"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Genesis 2:24" } }
     }
   },
   {
@@ -945,12 +912,7 @@
     "verse": 3,
     "content": {
       "text": "“that it may be well with you, and you may live long on the earth.”",
-      "foot": {
-        "type": "xrf",
-        "content": {
-          "bibleLink": "Deuteronomy 5:16"
-        }
-      }
+      "foot": { "type": "xrf", "content": { "bibleLink": "Deuteronomy 5:16" } }
     }
   },
   {
@@ -1054,10 +1016,7 @@
           "type": "trn",
           "content": [
             "from the Greek “",
-            {
-              "text": "ῥῆμα",
-              "script": "G"
-            },
+            { "text": "ῥῆμα", "script": "G" },
             "” (rhema), which means “spoken word”"
           ]
         }

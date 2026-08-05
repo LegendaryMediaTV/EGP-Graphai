@@ -19,10 +19,7 @@
           "type": "trn",
           "content": [
             "“Yahweh” is God’s proper Name, sometimes rendered “",
-            {
-              "text": "Lord",
-              "marks": ["sc"]
-            },
+            { "text": "Lord", "marks": ["sc"] },
             "” (all caps) in other translations."
           ]
         }
@@ -33,10 +30,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -134,10 +128,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -285,17 +276,11 @@
       {
         "paragraph": true,
         "text": "Are you better than No-Amon,",
-        "foot": {
-          "type": "trn",
-          "content": "or, Thebes"
-        }
+        "foot": { "type": "trn", "content": "or, Thebes" }
       },
       {
         "text": " who was situated among the rivers,",
-        "foot": {
-          "type": "trn",
-          "content": "or, Nile"
-        }
+        "foot": { "type": "trn", "content": "or, Nile" }
       },
       " who had the waters around her, whose rampart was the sea, and her wall was of the sea?"
     ]

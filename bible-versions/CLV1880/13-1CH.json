@@ -3,10 +3,7 @@
     "book": "1CH",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Adam Seth Enos"
-    }
+    "content": { "paragraph": true, "text": "Adam Seth Enos" }
   },
   {
     "book": "1CH",
@@ -140,24 +137,9 @@
     "verse": 23,
     "content": "et Ophir et Evila et Iobab omnes isti filii Iectan"
   },
-  {
-    "book": "1CH",
-    "chapter": 1,
-    "verse": 24,
-    "content": "Sem Arfaxad Sale"
-  },
-  {
-    "book": "1CH",
-    "chapter": 1,
-    "verse": 25,
-    "content": "Heber Phaleg Raau"
-  },
-  {
-    "book": "1CH",
-    "chapter": 1,
-    "verse": 26,
-    "content": "Serug Nahor Thare"
-  },
+  { "book": "1CH", "chapter": 1, "verse": 24, "content": "Sem Arfaxad Sale" },
+  { "book": "1CH", "chapter": 1, "verse": 25, "content": "Heber Phaleg Raau" },
+  { "book": "1CH", "chapter": 1, "verse": 26, "content": "Serug Nahor Thare" },
   {
     "book": "1CH",
     "chapter": 1,
@@ -371,12 +353,7 @@
     "verse": 7,
     "content": "filii Carmi Achar qui turbavit Israhel et peccavit in furto anathematis"
   },
-  {
-    "book": "1CH",
-    "chapter": 2,
-    "verse": 8,
-    "content": "filii Ethan Azarias"
-  },
+  { "book": "1CH", "chapter": 2, "verse": 8, "content": "filii Ethan Azarias" },
   {
     "book": "1CH",
     "chapter": 2,
@@ -1230,10 +1207,7 @@
     "book": "1CH",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "filii Levi Gersom Caath Merari"
-    }
+    "content": { "paragraph": true, "text": "filii Levi Gersom Caath Merari" }
   },
   {
     "book": "1CH",
@@ -2762,12 +2736,7 @@
     "verse": 34,
     "content": "Ahiam filius Sachar Ararites"
   },
-  {
-    "book": "1CH",
-    "chapter": 11,
-    "verse": 35,
-    "content": "Eliphal filius Ur"
-  },
+  { "book": "1CH", "chapter": 11, "verse": 35, "content": "Eliphal filius Ur" },
   {
     "book": "1CH",
     "chapter": 11,
@@ -2839,12 +2808,7 @@
     "chapter": 11,
     "verse": 47,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 11:46."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 11:46." } },
       "Elihel et Obed et Iasihel de Masobia"
     ]
   },
@@ -4158,12 +4122,7 @@
     "chapter": 20,
     "verse": 8,
     "content": [
-      {
-        "foot": {
-          "type": "var",
-          "content": "Originally verse 20:7."
-        }
-      },
+      { "foot": { "type": "var", "content": "Originally verse 20:7." } },
       "hii sunt filii Rapha in Geth qui ceciderunt in manu David et servorum eius"
     ]
   },

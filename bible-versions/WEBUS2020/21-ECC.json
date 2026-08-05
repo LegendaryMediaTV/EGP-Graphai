@@ -70,10 +70,7 @@
           "type": "trn",
           "content": [
             "“Behold”, from “",
-            {
-              "text": "הִנֵּה",
-              "script": "H"
-            },
+            { "text": "הִנֵּה", "script": "H" },
             "”, means look at, take notice, observe, see, or gaze at. It is often used as an interjection."
           ]
         }
@@ -107,10 +104,7 @@
           "type": "trn",
           "content": [
             "The Hebrew word rendered “God” is “",
-            {
-              "text": "אֱלֹהִ֑ים",
-              "script": "H"
-            },
+            { "text": "אֱלֹהִ֑ים", "script": "H" },
             "” (Elohim)."
           ]
         }
@@ -334,22 +328,10 @@
     "chapter": 3,
     "verse": 2,
     "content": [
-      {
-        "text": "a time to be born,",
-        "break": true
-      },
-      {
-        "text": "and a time to die;",
-        "break": true
-      },
-      {
-        "text": "a time to plant,",
-        "break": true
-      },
-      {
-        "text": "and a time to pluck up that which is planted;",
-        "break": true
-      }
+      { "text": "a time to be born,", "break": true },
+      { "text": "and a time to die;", "break": true },
+      { "text": "a time to plant,", "break": true },
+      { "text": "and a time to pluck up that which is planted;", "break": true }
     ]
   },
   {
@@ -357,22 +339,10 @@
     "chapter": 3,
     "verse": 3,
     "content": [
-      {
-        "text": "a time to kill,",
-        "break": true
-      },
-      {
-        "text": "and a time to heal;",
-        "break": true
-      },
-      {
-        "text": "a time to break down,",
-        "break": true
-      },
-      {
-        "text": "and a time to build up;",
-        "break": true
-      }
+      { "text": "a time to kill,", "break": true },
+      { "text": "and a time to heal;", "break": true },
+      { "text": "a time to break down,", "break": true },
+      { "text": "and a time to build up;", "break": true }
     ]
   },
   {
@@ -380,22 +350,10 @@
     "chapter": 3,
     "verse": 4,
     "content": [
-      {
-        "text": "a time to weep,",
-        "break": true
-      },
-      {
-        "text": "and a time to laugh;",
-        "break": true
-      },
-      {
-        "text": "a time to mourn,",
-        "break": true
-      },
-      {
-        "text": "and a time to dance;",
-        "break": true
-      }
+      { "text": "a time to weep,", "break": true },
+      { "text": "and a time to laugh;", "break": true },
+      { "text": "a time to mourn,", "break": true },
+      { "text": "and a time to dance;", "break": true }
     ]
   },
   {
@@ -403,22 +361,10 @@
     "chapter": 3,
     "verse": 5,
     "content": [
-      {
-        "text": "a time to cast away stones,",
-        "break": true
-      },
-      {
-        "text": "and a time to gather stones together;",
-        "break": true
-      },
-      {
-        "text": "a time to embrace,",
-        "break": true
-      },
-      {
-        "text": "and a time to refrain from embracing;",
-        "break": true
-      }
+      { "text": "a time to cast away stones,", "break": true },
+      { "text": "and a time to gather stones together;", "break": true },
+      { "text": "a time to embrace,", "break": true },
+      { "text": "and a time to refrain from embracing;", "break": true }
     ]
   },
   {
@@ -426,22 +372,10 @@
     "chapter": 3,
     "verse": 6,
     "content": [
-      {
-        "text": "a time to seek,",
-        "break": true
-      },
-      {
-        "text": "and a time to lose;",
-        "break": true
-      },
-      {
-        "text": "a time to keep,",
-        "break": true
-      },
-      {
-        "text": "and a time to cast away;",
-        "break": true
-      }
+      { "text": "a time to seek,", "break": true },
+      { "text": "and a time to lose;", "break": true },
+      { "text": "a time to keep,", "break": true },
+      { "text": "and a time to cast away;", "break": true }
     ]
   },
   {
@@ -449,22 +383,10 @@
     "chapter": 3,
     "verse": 7,
     "content": [
-      {
-        "text": "a time to tear,",
-        "break": true
-      },
-      {
-        "text": "and a time to sew;",
-        "break": true
-      },
-      {
-        "text": "a time to keep silence,",
-        "break": true
-      },
-      {
-        "text": "and a time to speak;",
-        "break": true
-      }
+      { "text": "a time to tear,", "break": true },
+      { "text": "and a time to sew;", "break": true },
+      { "text": "a time to keep silence,", "break": true },
+      { "text": "and a time to speak;", "break": true }
     ]
   },
   {
@@ -472,18 +394,9 @@
     "chapter": 3,
     "verse": 8,
     "content": [
-      {
-        "text": "a time to love,",
-        "break": true
-      },
-      {
-        "text": "and a time to hate;",
-        "break": true
-      },
-      {
-        "text": "a time for war,",
-        "break": true
-      },
+      { "text": "a time to love,", "break": true },
+      { "text": "and a time to hate;", "break": true },
+      { "text": "a time for war,", "break": true },
       "and a time for peace."
     ]
   },
@@ -1289,10 +1202,7 @@
     "content": [
       {
         "text": "Whatever your hand finds to do, do it with your might; for there is no work, nor plan, nor knowledge, nor wisdom, in Sheol,",
-        "foot": {
-          "type": "stu",
-          "content": "Sheol is the place of the dead."
-        }
+        "foot": { "type": "stu", "content": "Sheol is the place of the dead." }
       },
       " where you are going."
     ]
@@ -1372,10 +1282,7 @@
     "chapter": 10,
     "verse": 2,
     "content": [
-      {
-        "text": "A wise man’s heart is at his right hand,",
-        "break": true
-      },
+      { "text": "A wise man’s heart is at his right hand,", "break": true },
       "but a fool’s heart at his left."
     ]
   },
@@ -1477,14 +1384,8 @@
     "chapter": 10,
     "verse": 16,
     "content": [
-      {
-        "text": "Woe to you, land, when your king is a child,",
-        "break": true
-      },
-      {
-        "text": "and your princes eat in the morning!",
-        "break": true
-      }
+      { "text": "Woe to you, land, when your king is a child,", "break": true },
+      { "text": "and your princes eat in the morning!", "break": true }
     ]
   },
   {
@@ -1496,14 +1397,8 @@
         "text": "Happy are you, land, when your king is the son of nobles,",
         "break": true
       },
-      {
-        "text": "and your princes eat in due season,",
-        "break": true
-      },
-      {
-        "text": "for strength, and not for drunkenness!",
-        "break": true
-      }
+      { "text": "and your princes eat in due season,", "break": true },
+      { "text": "for strength, and not for drunkenness!", "break": true }
     ]
   },
   {
@@ -1511,10 +1406,7 @@
     "chapter": 10,
     "verse": 18,
     "content": [
-      {
-        "text": "By slothfulness the roof sinks in;",
-        "break": true
-      },
+      { "text": "By slothfulness the roof sinks in;", "break": true },
       {
         "text": "and through idleness of the hands the house leaks.",
         "break": true
@@ -1526,18 +1418,9 @@
     "chapter": 10,
     "verse": 19,
     "content": [
-      {
-        "text": "A feast is made for laughter,",
-        "break": true
-      },
-      {
-        "text": "and wine makes the life glad;",
-        "break": true
-      },
-      {
-        "text": "and money is the answer for all things.",
-        "break": true
-      }
+      { "text": "A feast is made for laughter,", "break": true },
+      { "text": "and wine makes the life glad;", "break": true },
+      { "text": "and money is the answer for all things.", "break": true }
     ]
   },
   {
@@ -1549,14 +1432,8 @@
         "text": "Don’t curse the king, no, not in your thoughts;",
         "break": true
       },
-      {
-        "text": "and don’t curse the rich in your bedroom,",
-        "break": true
-      },
-      {
-        "text": "for a bird of the sky may carry your voice,",
-        "break": true
-      },
+      { "text": "and don’t curse the rich in your bedroom,", "break": true },
+      { "text": "for a bird of the sky may carry your voice,", "break": true },
       "and that which has wings may tell the matter."
     ]
   },
@@ -1570,10 +1447,7 @@
         "text": "Cast your bread on the waters;",
         "break": true
       },
-      {
-        "text": "for you shall find it after many days.",
-        "break": true
-      }
+      { "text": "for you shall find it after many days.", "break": true }
     ]
   },
   {
@@ -1581,10 +1455,7 @@
     "chapter": 11,
     "verse": 2,
     "content": [
-      {
-        "text": "Give a portion to seven, yes, even to eight;",
-        "break": true
-      },
+      { "text": "Give a portion to seven, yes, even to eight;", "break": true },
       {
         "text": "for you don’t know what evil will be on the earth.",
         "break": true
@@ -1615,14 +1486,8 @@
     "chapter": 11,
     "verse": 4,
     "content": [
-      {
-        "text": "He who observes the wind won’t sow;",
-        "break": true
-      },
-      {
-        "text": "and he who regards the clouds won’t reap.",
-        "break": true
-      }
+      { "text": "He who observes the wind won’t sow;", "break": true },
+      { "text": "and he who regards the clouds won’t reap.", "break": true }
     ]
   },
   {
@@ -1649,22 +1514,13 @@
     "chapter": 11,
     "verse": 6,
     "content": [
-      {
-        "text": "In the morning sow your seed,",
-        "break": true
-      },
-      {
-        "text": "and in the evening don’t withhold your hand;",
-        "break": true
-      },
+      { "text": "In the morning sow your seed,", "break": true },
+      { "text": "and in the evening don’t withhold your hand;", "break": true },
       {
         "text": "for you don’t know which will prosper, whether this or that,",
         "break": true
       },
-      {
-        "text": "or whether they both will be equally good.",
-        "break": true
-      }
+      { "text": "or whether they both will be equally good.", "break": true }
     ]
   },
   {
@@ -1672,10 +1528,7 @@
     "chapter": 11,
     "verse": 7,
     "content": [
-      {
-        "text": "Truly the light is sweet,",
-        "break": true
-      },
+      { "text": "Truly the light is sweet,", "break": true },
       {
         "text": "and it is a pleasant thing for the eyes to see the sun.",
         "break": true
@@ -1695,10 +1548,7 @@
         "text": "but let him remember the days of darkness, for they shall be many.",
         "break": true
       },
-      {
-        "text": "All that comes is vanity.",
-        "break": true
-      }
+      { "text": "All that comes is vanity.", "break": true }
     ]
   },
   {
@@ -1706,22 +1556,13 @@
     "chapter": 11,
     "verse": 9,
     "content": [
-      {
-        "text": "Rejoice, young man, in your youth,",
-        "break": true
-      },
+      { "text": "Rejoice, young man, in your youth,", "break": true },
       {
         "text": "and let your heart cheer you in the days of your youth,",
         "break": true
       },
-      {
-        "text": "and walk in the ways of your heart,",
-        "break": true
-      },
-      {
-        "text": "and in the sight of your eyes;",
-        "break": true
-      },
+      { "text": "and walk in the ways of your heart,", "break": true },
+      { "text": "and in the sight of your eyes;", "break": true },
       {
         "text": "but know that for all these things God will bring you into judgment.",
         "break": true
@@ -1733,14 +1574,8 @@
     "chapter": 11,
     "verse": 10,
     "content": [
-      {
-        "text": "Therefore remove sorrow from your heart,",
-        "break": true
-      },
-      {
-        "text": "and put away evil from your flesh;",
-        "break": true
-      },
+      { "text": "Therefore remove sorrow from your heart,", "break": true },
+      { "text": "and put away evil from your flesh;", "break": true },
       "for youth and the dawn of life are vanity."
     ]
   },
@@ -1773,10 +1608,7 @@
         "text": "Before the sun, the light, the moon, and the stars are darkened,",
         "break": true
       },
-      {
-        "text": "and the clouds return after the rain;",
-        "break": true
-      }
+      { "text": "and the clouds return after the rain;", "break": true }
     ]
   },
   {
@@ -1788,14 +1620,8 @@
         "text": "in the day when the keepers of the house shall tremble,",
         "break": true
       },
-      {
-        "text": "and the strong men shall bow themselves,",
-        "break": true
-      },
-      {
-        "text": "and the grinders cease because they are few,",
-        "break": true
-      },
+      { "text": "and the strong men shall bow themselves,", "break": true },
+      { "text": "and the grinders cease because they are few,", "break": true },
       {
         "text": "and those who look out of the windows are darkened,",
         "break": true
@@ -1807,14 +1633,8 @@
     "chapter": 12,
     "verse": 4,
     "content": [
-      {
-        "text": "and the doors shall be shut in the street;",
-        "break": true
-      },
-      {
-        "text": "when the sound of the grinding is low,",
-        "break": true
-      },
+      { "text": "and the doors shall be shut in the street;", "break": true },
+      { "text": "when the sound of the grinding is low,", "break": true },
       {
         "text": "and one shall rise up at the voice of a bird,",
         "break": true
@@ -1830,34 +1650,13 @@
     "chapter": 12,
     "verse": 5,
     "content": [
-      {
-        "text": "yes, they shall be afraid of heights,",
-        "break": true
-      },
-      {
-        "text": "and terrors will be on the way;",
-        "break": true
-      },
-      {
-        "text": "and the almond tree shall blossom,",
-        "break": true
-      },
-      {
-        "text": "and the grasshopper shall be a burden,",
-        "break": true
-      },
-      {
-        "text": "and desire shall fail;",
-        "break": true
-      },
-      {
-        "text": "because man goes to his everlasting home,",
-        "break": true
-      },
-      {
-        "text": "and the mourners go about the streets;",
-        "break": true
-      }
+      { "text": "yes, they shall be afraid of heights,", "break": true },
+      { "text": "and terrors will be on the way;", "break": true },
+      { "text": "and the almond tree shall blossom,", "break": true },
+      { "text": "and the grasshopper shall be a burden,", "break": true },
+      { "text": "and desire shall fail;", "break": true },
+      { "text": "because man goes to his everlasting home,", "break": true },
+      { "text": "and the mourners go about the streets;", "break": true }
     ]
   },
   {
@@ -1865,22 +1664,10 @@
     "chapter": 12,
     "verse": 6,
     "content": [
-      {
-        "text": "before the silver cord is severed,",
-        "break": true
-      },
-      {
-        "text": "or the golden bowl is broken,",
-        "break": true
-      },
-      {
-        "text": "or the pitcher is broken at the spring,",
-        "break": true
-      },
-      {
-        "text": "or the wheel broken at the cistern,",
-        "break": true
-      }
+      { "text": "before the silver cord is severed,", "break": true },
+      { "text": "or the golden bowl is broken,", "break": true },
+      { "text": "or the pitcher is broken at the spring,", "break": true },
+      { "text": "or the wheel broken at the cistern,", "break": true }
     ]
   },
   {
@@ -1888,14 +1675,8 @@
     "chapter": 12,
     "verse": 7,
     "content": [
-      {
-        "text": "and the dust returns to the earth as it was,",
-        "break": true
-      },
-      {
-        "text": "and the spirit returns to God who gave it.",
-        "break": true
-      }
+      { "text": "and the dust returns to the earth as it was,", "break": true },
+      { "text": "and the spirit returns to God who gave it.", "break": true }
     ]
   },
   {
@@ -1903,10 +1684,7 @@
     "chapter": 12,
     "verse": 8,
     "content": [
-      {
-        "text": "“Vanity of vanities,” says the Preacher.",
-        "break": true
-      },
+      { "text": "“Vanity of vanities,” says the Preacher.", "break": true },
       "“All is vanity!”"
     ]
   },
