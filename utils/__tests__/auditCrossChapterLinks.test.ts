@@ -3,29 +3,32 @@ import { CrossChapterFinding } from "../crossChapterLinks";
 import { allVersionIds, auditVersions, exitCodeFor, VersionAudit } from "../auditCrossChapterLinks";
 
 describe("auditVersions — corpus-wide sweep", () => {
-  it("should audit all 6 versions on disk when none are named", () => {
-    expect(allVersionIds()).toHaveLength(6);
-    expect(auditVersions()).toHaveLength(6);
+  it("should audit every version on disk when none are named", () => {
+    const versionIds = allVersionIds();
+    expect(versionIds.length).toBeGreaterThan(0);
+    expect(auditVersions()).toHaveLength(versionIds.length);
   });
 
-  it("should find zero cross-chapter findings across all 6 versions, now that this repo's own --fix run has split WEBUS2020's Hebrews 11:34 link", () => {
+  it("should find zero cross-chapter findings across every version, now that this repo's own --fix run has split WEBUS2020's Hebrews 11:34 link", () => {
     const summaries = auditVersions();
     const allFindings = summaries.flatMap((summary) => summary.findings.map((finding) => ({ version: summary.version, ...finding })));
 
     expect(allFindings).toHaveLength(0);
   });
 
-  it("should report zero findings for every one of the 6 versions", () => {
+  it("should report zero findings for every version on disk", () => {
     const summaries = auditVersions();
-    expect(summaries).toHaveLength(6);
+    expect(summaries).toHaveLength(allVersionIds().length);
     for (const summary of summaries) expect(summary.findings).toHaveLength(0);
   });
 
-  it("should scan exactly 424 bibleLink nodes across all 6 versions — a walk that silently stops descending would under-report this", () => {
-    // 423 (pre-fix, WEBUS2020 the only version of the six carrying any
-    // bibleLink at all) + 1: the split replaced one bibleLink node with two.
-    const totalScanned = auditVersions().reduce((sum, summary) => sum + summary.scanned, 0);
-    expect(totalScanned).toBe(424);
+  it("should scan exactly 424 bibleLink nodes in WEBUS2020 — a walk that silently stops descending would under-report this", () => {
+    // 423 (pre-fix) + 1: the split replaced one bibleLink node with two.
+    // Scoped to WEBUS2020 specifically, the only version this repo's own
+    // corpus carries any bibleLink in at all, so this regression guard
+    // doesn't depend on how many other versions happen to sit on disk.
+    const [summary] = auditVersions(["WEBUS2020"]);
+    expect(summary.scanned).toBe(424);
   });
 
   it("should never write to bible-versions/ — this audit is read-only", () => {

@@ -1,5 +1,17 @@
 const { useState, useEffect, useMemo, useRef } = React;
 
+/**
+ * Recursively renders a Content-shaped node (string, array, Bible link,
+ * paragraph/heading/subtitle wrapper, or leaf text node with marks,
+ * Strong's/lemma/morph, and footnotes) into React elements, gated by the
+ * matching `settings.show*` flags.
+ *
+ * @param {object} props
+ * @param {*} props.node - Content node in any shape the bible JSON emits
+ * @param {object} props.settings - Display settings controlling which parts render (dark mode, show* toggles)
+ * @param {(content: *) => void} [props.onFootnoteClick] - Called with the footnote's raw content on click; falls back to `alert()` when omitted
+ * @param {(bibleLink: string) => void} [props.onBibleLinkClick] - Called with the raw `bibleLink` reference on click
+ */
 function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
   // Handle null/undefined
   if (!node) return null;
@@ -199,19 +211,6 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
         ) : null;
 
       // Handle footnotes for nested content
-      const getFootnoteText = (content) => {
-        if (typeof content === "string") return content;
-        if (Array.isArray(content)) {
-          return content.map((n) => getFootnoteText(n)).join("");
-        }
-        if (content && typeof content === "object") {
-          if (content.bibleLink)
-            return getFootnoteText(content.content) || content.bibleLink;
-          if (content.text) return content.text;
-        }
-        return "";
-      };
-
       const footnote =
         settings.showFootnotes && node.foot ? (
           <span
@@ -239,10 +238,10 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
           <span className="inline">
             {nestedContent}
             {parsingSpan}
+            {footnote}
             {settings.paragraphMode && node.break && <br />}
           </span>
           {!settings.paragraphMode && node.break && " "}
-          {footnote}
         </React.Fragment>
       );
     }
@@ -279,16 +278,6 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
     const isBlock = node.paragraph === true;
 
     // Footnotes
-    const getFootnoteText = (content) => {
-      if (typeof content === "string") return content;
-      if (Array.isArray(content)) {
-        return content
-          .map((n) => (typeof n === "string" ? n : n.text))
-          .join("");
-      }
-      return "";
-    };
-
     const footnote =
       settings.showFootnotes && node.foot ? (
         <span
@@ -375,10 +364,10 @@ function ContentNode({ node, settings, onFootnoteClick, onBibleLinkClick }) {
         >
           {content}
           {parsingSpan}
+          {footnote}
           {settings.paragraphMode && node.break && <br />}
         </span>
         {!settings.paragraphMode && node.break && " "}
-        {footnote}
       </React.Fragment>
     );
   }
