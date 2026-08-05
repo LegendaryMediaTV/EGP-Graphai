@@ -25,7 +25,6 @@
       rel="stylesheet"
     />
     <style>
-      /* Custom styles for specific Bible formatting if needed */
       body {
         font-family: "Atkinson Hyperlegible", sans-serif;
       }
@@ -85,7 +84,9 @@
   >
     <div id="root" class="h-full flex flex-col"></div>
 
-    <!-- Load components in order -->
+    <!-- Order matters: none of these use a module system, so each script must
+         load after the window globals (e.g. window.ContentNode,
+         window.getFootnoteText) it depends on. -->
     <script type="text/babel" src="js/Icons.js"></script>
     <script type="text/babel" src="js/components/Toggle.js"></script>
     <script type="text/babel" src="js/components/BookName.js"></script>
@@ -95,6 +96,7 @@
     <script type="text/babel" src="js/components/ChapterNav.js"></script>
     <script type="text/babel" src="js/components/SettingsDrawer.js"></script>
     <script type="text/babel" src="js/components/FootnoteModal.js"></script>
+    <script type="text/babel" src="js/footnoteText.js"></script>
     <script type="text/babel" src="js/ContentNode.js"></script>
     <script type="text/babel" src="js/VerseRenderer.js"></script>
     <script type="text/babel" src="js/BibleContent.js"></script>
