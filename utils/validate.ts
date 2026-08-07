@@ -10,6 +10,7 @@ import {
   writeFileAtomic,
   writeJsonFile,
 } from "../functions/writeJsonFile";
+import Content from "../types/Content";
 import BibleVersion from "../types/Version";
 
 const jsonPath = "./bible-books/bible-books.json";
@@ -111,6 +112,107 @@ function collectJsonFiles(): string[] {
   }
 
   return files;
+}
+
+/**
+ * Properties that carry a node's content instead of its text. A node rendering
+ * through one of these has something for its formatting to apply to, so the
+ * text-level rules below do not apply to it.
+ *
+ * `paragraph` is deliberately absent: it is a boolean flag on a text node but
+ * nested content on a paragraph node, so it has to be told apart by its value.
+ */
+const CONTENT_BRANCHES = ["content", "heading", "subtitle"] as const;
+
+/**
+ * Find content nodes the schema accepts but that render as nothing.
+ *
+ * `content-schema.json` is purely structural: it does not require `text`
+ * alongside `marks`, and it puts no `minLength` on `text`. Both gaps produced
+ * real defects that lived in this corpus undetected for its entire history,
+ * because every structural check passed on them. Two shapes are caught here:
+ *
+ * 1. **Formatting with nothing to format** — a node carrying `marks` and/or
+ *    `script` but no text. LSB2021 John 3:13 opened with
+ *    `{ marks: ["woc"], foot: … }`, and the BB exporter dutifully wrapped the
+ *    nothing in tags, emitting `[red][/red]°`. The site renderer pairs tags
+ *    with a non-greedy `\[red\](.+?)\[/red\]`, which cannot match zero
+ *    characters, so the opening tag ran past its own closer and leaked literal
+ *    tags into the verse. 472 nodes across LSB2021 and NIV1984 were this shape.
+ *    The `foot` on such a node is legitimate — a footnote needs an anchor, not
+ *    text — so only the formatting is at fault.
+ *
+ * 2. **An empty husk** — a node whose only property is an empty `text`, so it
+ *    holds nothing and renders nothing. NIV1984 Psalm 25:1 and 34:1 had one
+ *    each, inside footnote content, left behind when the marks came off
+ *    `{ text: "", marks: ["b"] }`.
+ *
+ * Everything else a text-less node can carry is meaningful on its own and is
+ * left alone: `foot` (12,452 in the corpus), `strong` (22,851), `morph`,
+ * `lemma`, `bibleLink`, and the bare `paragraph` / `break` flags (14 and more).
+ * Whitespace counts as text, which is the same line the BB exporter, the BB
+ * export validator and the BB importer all draw.
+ *
+ * The walk descends through every content-bearing branch, including
+ * `foot.content`, subtitles and headings. Guarding only the top-level path is
+ * exactly how both husks survived the first cleanup pass.
+ *
+ * @param content - A verse's content tree
+ * @returns One message per offending node, each naming its path within the
+ *   tree (e.g. `content[0].foot.content[1]`); empty when the tree is clean
+ */
+export function findMeaninglessContentNodes(content: Content): string[] {
+  const problems: string[] = [];
+
+  const walk = (node: unknown, at: string): void => {
+    if (Array.isArray(node)) {
+      node.forEach((child, index) => walk(child, `${at}[${index}]`));
+      return;
+    }
+    if (node === null || typeof node !== "object") return;
+
+    const properties = node as Record<string, unknown>;
+    const branch =
+      CONTENT_BRANCHES.find((key) => key in properties) ??
+      ("paragraph" in properties && typeof properties.paragraph !== "boolean"
+        ? "paragraph"
+        : undefined);
+
+    if (branch) {
+      walk(properties[branch], `${at}.${branch}`);
+    } else {
+      const text = properties.text;
+      const hasText = typeof text === "string" && text !== "";
+      const marks = Array.isArray(properties.marks)
+        ? properties.marks
+        : undefined;
+      const script =
+        typeof properties.script === "string" ? properties.script : undefined;
+
+      if (!hasText && (marks || script)) {
+        const dangling = [
+          marks && `marks [${marks.join(", ")}]`,
+          script && `script "${script}"`,
+        ].filter(Boolean);
+        problems.push(
+          `${at}: ${dangling.join(" and ")} with no text to apply to`
+        );
+      } else if (
+        !hasText &&
+        Object.keys(properties).every((key) => key === "text")
+      ) {
+        problems.push(`${at}: empty node with nothing to render`);
+      }
+    }
+
+    const foot = properties.foot;
+    if (foot && typeof foot === "object") {
+      walk((foot as { content?: unknown }).content, `${at}.foot.content`);
+    }
+  };
+
+  walk(content, "content");
+  return problems;
 }
 
 /**
@@ -408,6 +510,15 @@ async function main() {
           );
           verseValidationPassed = false;
         }
+
+        // The schema checks structure; this checks that the structure says
+        // something. See findMeaninglessContentNodes for what slipped past it.
+        for (const problem of findMeaninglessContentNodes(verse.content)) {
+          console.error(
+            `❌ Meaningless content in ${filePath}: verse ${verse.chapter}:${verse.verse} — ${problem}`
+          );
+          verseValidationPassed = false;
+        }
       }
 
       console.log(`✅ ${file}: ${verses.length} verses validated`);
@@ -423,7 +534,9 @@ async function main() {
 }
 
 // Run the main function
-main().catch((error) => {
-  console.error("Validation failed with error:", error);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error("Validation failed with error:", error);
+    process.exit(1);
+  });
+}
