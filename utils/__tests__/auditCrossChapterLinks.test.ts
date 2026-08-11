@@ -3,24 +3,30 @@ import { CrossChapterFinding } from "../crossChapterLinks";
 import { allVersionIds, auditVersions, exitCodeFor, VersionAudit } from "../auditCrossChapterLinks";
 
 describe("auditVersions — corpus-wide sweep", () => {
+  // These four scan every version on disk — a corpus that has only grown
+  // since this file was written, including in downstream forks that carry
+  // additional versions — so each gets an explicit timeout rather than
+  // relying on vitest's 5s default, which a single unrestricted
+  // auditVersions() call is already close to on its own (see the "never
+  // write" test below, which pays for two calls).
   it("should audit every version on disk when none are named", () => {
     const versionIds = allVersionIds();
     expect(versionIds.length).toBeGreaterThan(0);
     expect(auditVersions()).toHaveLength(versionIds.length);
-  });
+  }, 15000);
 
   it("should find zero cross-chapter findings across every version, now that this repo's own --fix run has split WEBUS2020's Hebrews 11:34 link", () => {
     const summaries = auditVersions();
     const allFindings = summaries.flatMap((summary) => summary.findings.map((finding) => ({ version: summary.version, ...finding })));
 
     expect(allFindings).toHaveLength(0);
-  });
+  }, 15000);
 
   it("should report zero findings for every version on disk", () => {
     const summaries = auditVersions();
     expect(summaries).toHaveLength(allVersionIds().length);
     for (const summary of summaries) expect(summary.findings).toHaveLength(0);
-  });
+  }, 15000);
 
   it("should scan exactly 424 bibleLink nodes in WEBUS2020 — a walk that silently stops descending would under-report this", () => {
     // 423 (pre-fix) + 1: the split replaced one bibleLink node with two.
@@ -38,7 +44,7 @@ describe("auditVersions — corpus-wide sweep", () => {
     const first = JSON.stringify(auditVersions());
     const second = JSON.stringify(auditVersions());
     expect(second).toBe(first);
-  });
+  }, 15000);
 });
 
 describe("exitCodeFor", () => {
@@ -67,7 +73,7 @@ describe("exitCodeFor", () => {
 
   it("should exit zero for the corpus as a whole now that WEBUS2020's finding is fixed", () => {
     expect(exitCodeFor(auditVersions())).toBe(0);
-  });
+  }, 15000);
 
   it("should exit zero when a version carries no cross-chapter link", () => {
     expect(exitCodeFor(auditVersions(["ASV1901"]))).toBe(0);
