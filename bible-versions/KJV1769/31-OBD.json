@@ -8,15 +8,12 @@
       { "text": " of Obadiah.", "strong": "H5662" },
       { "text": " Thus saith", "strong": "H559", "morph": "QalPerf" },
       { "text": " the Lord", "strong": "H136" },
-      {
-        "content": [" ", { "text": "God", "marks": ["sc"] }],
-        "strong": "H3069"
-      },
+      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " concerning Edom;", "strong": "H123" },
       { "text": " We have heard", "strong": "H8085", "morph": "QalPerf" },
       { "text": " a rumour", "strong": "H8052" },
       {
-        "content": [" from the ", { "text": "Lord", "marks": ["sc"] }, ","],
+        "content": [" from the ", { "text": "LORD", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
       { "text": " and an ambassador", "strong": "H6735" },
@@ -59,7 +56,10 @@
       { "text": " in the clefts", "strong": "H2288" },
       { "text": " of the rock,", "strong": "H5553" },
       { "text": " whose habitation", "strong": "H3427", "morph": "QalInf" },
-      { "text": " [is] high;", "strong": "H4791" },
+      {
+        "content": [{ "text": " is", "marks": ["i"] }, " high;"],
+        "strong": "H4791"
+      },
       { "text": " that saith", "strong": "H559", "morph": "QalActPtc" },
       { "text": " in his heart,", "strong": "H3820" },
       {
@@ -76,7 +76,10 @@
     "verse": 4,
     "content": [
       { "text": "Though thou exalt", "strong": "H1361", "morph": "HiphImpf" },
-      { "text": " [thyself] as the eagle,", "strong": "H5404" },
+      {
+        "content": [{ "text": " thyself", "marks": ["i"] }, " as the eagle,"],
+        "strong": "H5404"
+      },
       { "text": " and though thou set", "strong": "H7760", "morph": "QalInf" },
       { "text": " thy nest", "strong": "H7064" },
       { "text": " among the stars,", "strong": "H3556" },
@@ -87,7 +90,7 @@
       },
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
       {
-        "content": [" the ", { "text": "Lord", "marks": ["sc"] }, "."],
+        "content": [" the ", { "text": "LORD", "marks": ["sc"] }, "."],
         "strong": "H3068"
       }
     ]
@@ -97,7 +100,7 @@
     "chapter": 1,
     "verse": 5,
     "content": [
-      { "text": "If thieves", "strong": "H1590" },
+      { "paragraph": true, "text": "If thieves", "strong": "H1590" },
       { "text": " came", "strong": "H935", "morph": "QalPerf" },
       {
         "text": " to thee, if robbers",
@@ -105,13 +108,14 @@
         "morph": "QalActPtc"
       },
       { "text": " by night,", "strong": "H3915" },
+      " (",
       {
-        "text": " (how art thou cut off!",
+        "text": "how art thou cut off!)",
         "strong": "H1820",
         "morph": "NiphPerf"
       },
       {
-        "text": ") would they not have stolen",
+        "text": " would they not have stolen",
         "strong": "H1589",
         "morph": "QalImpf"
       },
@@ -127,7 +131,19 @@
         "strong": "H7604",
         "morph": "HiphImpf"
       },
-      { "text": " [some] grapes?", "strong": "H5955" }
+      {
+        "content": [
+          { "text": " some", "marks": ["i"] },
+          {
+            "text": " grapes?",
+            "foot": {
+              "type": "trn",
+              "content": ["Or, ", { "text": "gleanings", "marks": ["i"] }]
+            }
+          }
+        ],
+        "strong": "H5955"
+      }
     ]
   },
   {
@@ -135,9 +151,19 @@
     "chapter": 1,
     "verse": 6,
     "content": [
-      { "text": "How are [the things] of Esau", "strong": "H6215" },
+      {
+        "content": [
+          "How are ",
+          { "text": "the things", "marks": ["i"] },
+          " of Esau"
+        ],
+        "strong": "H6215"
+      },
       { "text": " searched out!", "strong": "H2664", "morph": "NiphPerf" },
-      { "text": " [how] are his hidden", "strong": "H4710" },
+      {
+        "content": [{ "text": " how", "marks": ["i"] }, " are his hidden"],
+        "strong": "H4710"
+      },
       { "text": " things sought up!", "strong": "H1158", "morph": "NiphPerf" }
     ]
   },
@@ -149,24 +175,68 @@
       { "text": "All the men", "strong": "H582" },
       { "text": " of thy confederacy", "strong": "H1285" },
       { "text": " have brought", "strong": "H7971", "morph": "PielPerf" },
-      { "text": " thee [even] to the border:", "strong": "H1366" },
+      {
+        "content": [
+          " thee ",
+          { "text": "even", "marks": ["i"] },
+          " to the border:"
+        ],
+        "strong": "H1366"
+      },
       { "text": " the men", "strong": "H582" },
-      { "text": " that were at peace", "strong": "H7965" },
+      {
+        "text": " that were at peace",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "the men of thy peace", "marks": ["i"] }
+          ]
+        },
+        "strong": "H7965"
+      },
       {
         "text": " with thee have deceived",
         "strong": "H5377",
         "morph": "HiphPerf"
       },
       {
-        "text": " thee, [and] prevailed",
+        "content": [" thee, ", { "text": "and", "marks": ["i"] }, " prevailed"],
         "strong": "H3201",
         "morph": "QalPerf"
       },
-      { "text": " against thee; [they that eat] thy bread", "strong": "H3899" },
+      {
+        "content": [
+          " against thee; ",
+          { "text": "they that eat", "marks": ["i"] },
+          {
+            "text": " thy bread",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Heb. ",
+                { "text": "the men of thy bread", "marks": ["i"] }
+              ]
+            }
+          }
+        ],
+        "strong": "H3899"
+      },
       { "text": " have laid", "strong": "H7760", "morph": "QalImpf" },
       { "text": " a wound", "strong": "H4204" },
       {
-        "text": " under thee: [there is] none understanding",
+        "content": [
+          " under thee: ",
+          { "text": "there is", "marks": ["i"] },
+          {
+            "text": " none understandin",
+            "foot": {
+              "type": "trn",
+              "content": ["Or, ", { "text": "of it", "marks": ["i"] }]
+            }
+          },
+          "g"
+        ],
         "strong": "H8394"
       },
       " in him."
@@ -180,12 +250,15 @@
       { "text": "Shall I not in that day,", "strong": "H3117" },
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
       {
-        "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
+        "content": [" the ", { "text": "LORD", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
       { "text": " even destroy", "strong": "H6", "morph": "HiphPerf" },
       { "text": " the wise", "strong": "H2450" },
-      { "text": " [men] out of Edom,", "strong": "H123" },
+      {
+        "content": [{ "text": " men", "marks": ["i"] }, " out of Edom,"],
+        "strong": "H123"
+      },
       { "text": " and understanding", "strong": "H8394" },
       { "text": " out of the mount", "strong": "H2022" },
       { "text": " of Esau?", "strong": "H6215" }
@@ -197,7 +270,10 @@
     "verse": 9,
     "content": [
       { "text": "And thy mighty", "strong": "H1368" },
-      { "text": " [men], O Teman,", "strong": "H8487" },
+      {
+        "content": [{ "text": " men", "marks": ["i"] }, ", O Teman,"],
+        "strong": "H8487"
+      },
       { "text": " shall be dismayed,", "strong": "H2865", "morph": "QalPerf" },
       { "text": " to the end that every one", "strong": "H376" },
       { "text": " of the mount", "strong": "H2022" },
@@ -211,7 +287,12 @@
     "chapter": 1,
     "verse": 10,
     "content": [
-      { "text": "For [thy] violence", "strong": "H2555" },
+      { "heading": "Edom's Violence" },
+      {
+        "paragraph": true,
+        "content": ["For ", { "text": "thy", "marks": ["i"] }, " violence"],
+        "strong": "H2555"
+      },
       { "text": " against thy brother", "strong": "H251" },
       { "text": " Jacob", "strong": "H3290" },
       { "text": " shame", "strong": "H955" },
@@ -241,7 +322,14 @@
       { "text": " and cast", "strong": "H3032", "morph": "QalPerf" },
       { "text": " lots", "strong": "H1486" },
       { "text": " upon Jerusalem,", "strong": "H3389" },
-      { "text": " even thou [wast] as one", "strong": "H259" },
+      {
+        "content": [
+          " even thou ",
+          { "text": "wast", "marks": ["i"] },
+          " as one"
+        ],
+        "strong": "H259"
+      },
       " of them."
     ]
   },
@@ -252,6 +340,14 @@
     "content": [
       {
         "text": "But thou shouldest not have looked",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "do not behold", "marks": ["i"] },
+            ", etc."
+          ]
+        },
         "strong": "H7200",
         "morph": "QalImpf"
       },
@@ -269,7 +365,18 @@
       { "text": " in the day", "strong": "H3117" },
       { "text": " of their destruction;", "strong": "H6", "morph": "QalInf" },
       { "text": " neither shouldest thou have spoken", "strong": "H6310" },
-      { "text": " proudly", "strong": "H1431", "morph": "HiphImpf" },
+      {
+        "text": " proudly",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "magnified thy mouth", "marks": ["i"] }
+          ]
+        },
+        "strong": "H1431",
+        "morph": "HiphImpf"
+      },
       { "text": " in the day", "strong": "H3117" },
       { "text": " of distress.", "strong": "H6869" }
     ]
@@ -297,7 +404,19 @@
       { "text": " in the day", "strong": "H3117" },
       { "text": " of their calamity,", "strong": "H343" },
       { "text": " nor have laid", "strong": "H7971", "morph": "QalImpf" },
-      { "text": " [hands] on their substance", "strong": "H2428" },
+      {
+        "content": [
+          { "text": " hands", "marks": ["i"] },
+          {
+            "text": " on their substance",
+            "foot": {
+              "type": "trn",
+              "content": ["Or, ", { "text": "forces", "marks": ["i"] }]
+            }
+          }
+        ],
+        "strong": "H2428"
+      },
       { "text": " in the day", "strong": "H3117" },
       { "text": " of their calamity;", "strong": "H343" }
     ]
@@ -308,7 +427,7 @@
     "verse": 14,
     "content": [
       {
-        "text": "Neither shouldest thou have stood",
+        "text": "neither shouldest thou have stood",
         "strong": "H5975",
         "morph": "QalImpf"
       },
@@ -317,6 +436,10 @@
       { "text": " those of his that did escape;", "strong": "H6412" },
       {
         "text": " neither shouldest thou have delivered up",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shut up", "marks": ["i"] }]
+        },
         "strong": "H5462",
         "morph": "HiphImpf"
       },
@@ -330,12 +453,15 @@
     "chapter": 1,
     "verse": 15,
     "content": [
-      { "text": "For the day", "strong": "H3117" },
+      { "paragraph": true, "text": "For the day", "strong": "H3117" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
+        "content": [" of the ", { "text": "LORD", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      { "text": " [is] near", "strong": "H7138" },
+      {
+        "content": [{ "text": " is", "marks": ["i"] }, " near"],
+        "strong": "H7138"
+      },
       { "text": " upon all the heathen:", "strong": "H1471" },
       { "text": " as thou hast done,", "strong": "H6213", "morph": "QalPerf" },
       { "text": " it shall be done", "strong": "H6213", "morph": "NiphImpf" },
@@ -352,7 +478,13 @@
       { "text": "For as ye have drunk", "strong": "H8354", "morph": "QalPerf" },
       { "text": " upon my holy", "strong": "H6944" },
       { "text": " mountain,", "strong": "H2022" },
-      { "text": " [so] shall all the heathen", "strong": "H1471" },
+      {
+        "content": [
+          { "text": " so", "marks": ["i"] },
+          " shall all the heathen"
+        ],
+        "strong": "H1471"
+      },
       { "text": " drink", "strong": "H8354", "morph": "QalImpf" },
       { "text": " continually,", "strong": "H8548" },
       {
@@ -362,6 +494,10 @@
       },
       {
         "text": " and they shall swallow down,",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sup up", "marks": ["i"] }]
+        },
         "strong": "H3886",
         "morph": "QalPerf"
       },
@@ -377,10 +513,24 @@
     "chapter": 1,
     "verse": 17,
     "content": [
-      { "text": "But upon mount", "strong": "H2022" },
+      { "paragraph": true, "text": "But upon mount", "strong": "H2022" },
       { "text": " Zion", "strong": "H6726" },
-      { "text": " shall be deliverance,", "strong": "H6413" },
-      { "text": " and there shall be holiness;", "strong": "H6944" },
+      {
+        "text": " shall be deliverance,",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "they that escape", "marks": ["i"] }]
+        },
+        "strong": "H6413"
+      },
+      {
+        "text": " and there shall be holiness;",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it shall be holy", "marks": ["i"] }]
+        },
+        "strong": "H6944"
+      },
       { "text": " and the house", "strong": "H1004" },
       { "text": " of Jacob", "strong": "H3290" },
       { "text": " shall possess", "strong": "H3423", "morph": "QalPerf" },
@@ -408,17 +558,22 @@
       },
       { "text": " in them, and devour", "strong": "H398", "morph": "QalPerf" },
       {
-        "text": " them; and there shall not be [any] remaining",
+        "content": [
+          " them; and there shall not be ",
+          { "text": "any", "marks": ["i"] },
+          " remaining"
+        ],
         "strong": "H8300"
       },
       { "text": " of the house", "strong": "H1004" },
       { "text": " of Esau;", "strong": "H6215" },
       {
-        "content": [" for the ", { "text": "Lord", "marks": ["sc"] }],
+        "content": [" for the ", { "text": "LORD", "marks": ["sc"] }],
         "strong": "H3068"
       },
       { "text": " hath spoken", "strong": "H1696", "morph": "PielPerf" },
-      " [it]."
+      { "text": " it", "marks": ["i"] },
+      "."
     ]
   },
   {
@@ -426,11 +581,26 @@
     "chapter": 1,
     "verse": 19,
     "content": [
-      { "text": "And [they of] the south", "strong": "H5045" },
+      {
+        "paragraph": true,
+        "content": [
+          "And ",
+          { "text": "they of", "marks": ["i"] },
+          " the south"
+        ],
+        "strong": "H5045"
+      },
       { "text": " shall possess", "strong": "H3423", "morph": "QalPerf" },
       { "text": " the mount", "strong": "H2022" },
       { "text": " of Esau;", "strong": "H6215" },
-      { "text": " and [they of] the plain", "strong": "H8219" },
+      {
+        "content": [
+          " and ",
+          { "text": "they of", "marks": ["i"] },
+          " the plain"
+        ],
+        "strong": "H8219"
+      },
       { "text": " the Philistines:", "strong": "H6430" },
       {
         "text": " and they shall possess",
@@ -442,7 +612,10 @@
       { "text": " and the fields", "strong": "H7704" },
       { "text": " of Samaria:", "strong": "H8111" },
       { "text": " and Benjamin", "strong": "H1144" },
-      { "text": " [shall possess] Gilead.", "strong": "H1568" }
+      {
+        "content": [{ "text": " shall possess", "marks": ["i"] }, " Gilead."],
+        "strong": "H1568"
+      }
     ]
   },
   {
@@ -454,11 +627,39 @@
       { "text": " of this host", "strong": "H2426" },
       { "text": " of the children", "strong": "H1121" },
       { "text": " of Israel", "strong": "H3478" },
-      { "text": " [shall possess] that of the Canaanites,", "strong": "H3669" },
-      { "text": " [even] unto Zarephath;", "strong": "H6886" },
+      {
+        "content": [
+          { "text": " shall possess", "marks": ["i"] },
+          " that of the Canaanites,"
+        ],
+        "strong": "H3669"
+      },
+      {
+        "content": [{ "text": " even", "marks": ["i"] }, " unto Zarephath;"],
+        "strong": "H6886"
+      },
       { "text": " and the captivity", "strong": "H1546" },
       { "text": " of Jerusalem,", "strong": "H3389" },
-      { "text": " which [is] in Sepharad,", "strong": "H5614" },
+      {
+        "content": [
+          " which ",
+          { "text": "is", "marks": ["i"] },
+          {
+            "text": " in Sepharad,",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Or, ",
+                {
+                  "text": "shall possess that which is in Sepharad",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          }
+        ],
+        "strong": "H5614"
+      },
       { "text": " shall possess", "strong": "H3423", "morph": "QalImpf" },
       { "text": " the cities", "strong": "H5892" },
       { "text": " of the south.", "strong": "H5045" }
@@ -480,8 +681,8 @@
       {
         "content": [
           " shall be the ",
-          { "text": "Lord’s", "marks": ["sc"] },
-          "."
+          { "text": "LORD", "marks": ["sc"] },
+          "'s."
         ],
         "strong": "H3068"
       }

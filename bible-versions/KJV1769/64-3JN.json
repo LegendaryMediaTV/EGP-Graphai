@@ -11,7 +11,14 @@
       { "text": " I", "strong": "G1473" },
       { "text": " love", "strong": "G25", "morph": "PresActInd" },
       { "text": " in", "strong": "G1722" },
-      { "text": " the truth.", "strong": "G225" }
+      {
+        "text": " the truth.",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "truly", "marks": ["i"] }]
+        },
+        "strong": "G225"
+      }
     ]
   },
   {
@@ -19,8 +26,16 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      { "text": "Beloved,", "strong": "G27" },
-      { "text": " I wish", "strong": "G2172", "morph": "PresMidPasDepInd" },
+      { "paragraph": true, "text": "Beloved,", "strong": "G27" },
+      {
+        "text": " I wish",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pray", "marks": ["i"] }]
+        },
+        "strong": "G2172",
+        "morph": "PresMidPasDepInd"
+      },
       { "text": " above", "strong": "G4012" },
       { "text": " all things", "strong": "G3956" },
       { "text": " that thou", "strong": "G4571" },
@@ -78,7 +93,7 @@
     "chapter": 1,
     "verse": 5,
     "content": [
-      { "text": "Beloved,", "strong": "G27" },
+      { "paragraph": true, "text": "Beloved,", "strong": "G27" },
       { "text": " thou doest", "strong": "G4160", "morph": "PresActInd" },
       { "text": " faithfully", "strong": "G4103" },
       { "text": " whatsoever", "strong": "G3739" },
@@ -96,7 +111,7 @@
     "chapter": 1,
     "verse": 6,
     "content": [
-      { "text": "Which", "strong": "G3739" },
+      { "text": "which", "strong": "G3739" },
       {
         "text": " have borne witness",
         "strong": "G3140",
@@ -124,10 +139,10 @@
     "chapter": 1,
     "verse": 7,
     "content": [
-      { "text": "Because that", "strong": "G1063" },
+      { "text": "because that", "strong": "G1063" },
       { "text": " for", "strong": "G5228" },
       { "text": " his", "strong": "G846" },
-      { "text": " name’s", "strong": "G3686" },
+      { "text": " name's", "strong": "G3686" },
       { "text": " sake", "strong": "G5228" },
       { "text": " they went forth,", "strong": "G1831", "morph": "Aor2ActInd" },
       { "text": " taking", "strong": "G2983", "morph": "PresActPtc" },
@@ -161,7 +176,12 @@
     "chapter": 1,
     "verse": 9,
     "content": [
-      { "text": "I wrote", "strong": "G1125", "morph": "AorActInd" },
+      {
+        "paragraph": true,
+        "text": "I wrote",
+        "strong": "G1125",
+        "morph": "AorActInd"
+      },
       { "text": " unto the church:", "strong": "G1577" },
       { "text": " but", "strong": "G235" },
       { "text": " Diotrephes,", "strong": "G1361" },
@@ -214,7 +234,10 @@
       },
       { "text": " and", "strong": "G2532" },
       { "text": " casteth", "strong": "G1544", "morph": "PresActInd" },
-      { "text": " [them] out of", "strong": "G1537" },
+      {
+        "content": [{ "text": " them", "marks": ["i"] }, " out of"],
+        "strong": "G1537"
+      },
       { "text": " the church.", "strong": "G1577" }
     ]
   },
@@ -223,7 +246,7 @@
     "chapter": 1,
     "verse": 11,
     "content": [
-      { "text": "Beloved,", "strong": "G27" },
+      { "paragraph": true, "text": "Beloved,", "strong": "G27" },
       { "text": " follow", "strong": "G3401", "morph": "PresMidPasDepImpr" },
       { "text": " not", "strong": "G3361" },
       { "text": " that which is evil,", "strong": "G2556" },
@@ -250,11 +273,14 @@
     "chapter": 1,
     "verse": 12,
     "content": [
-      { "text": "Demetrius", "strong": "G1216" },
+      { "paragraph": true, "text": "Demetrius", "strong": "G1216" },
       { "text": " hath good report", "strong": "G3140", "morph": "PerfPasInd" },
       { "text": " of", "strong": "G5259" },
       { "text": " all", "strong": "G3956" },
-      { "text": " [men], and", "strong": "G2532" },
+      {
+        "content": [{ "text": " men", "marks": ["i"] }, ", and"],
+        "strong": "G2532"
+      },
       { "text": " of", "strong": "G5259" },
       { "text": " the truth", "strong": "G225" },
       { "text": " itself:", "strong": "G846" },
@@ -262,7 +288,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " we", "strong": "G2249" },
       {
-        "text": " [also] bear record;",
+        "content": [{ "text": " also", "marks": ["i"] }, " bear record;"],
         "strong": "G3140",
         "morph": "PresActInd"
       },
@@ -280,7 +306,12 @@
     "chapter": 1,
     "verse": 13,
     "content": [
-      { "text": "I had", "strong": "G2192", "morph": "ImpfActInd" },
+      {
+        "paragraph": true,
+        "text": "I had",
+        "strong": "G2192",
+        "morph": "ImpfActInd"
+      },
       { "text": " many things", "strong": "G4183" },
       { "text": " to write,", "strong": "G1125", "morph": "PresActInf" },
       { "text": " but", "strong": "G235" },
@@ -299,7 +330,7 @@
     "chapter": 1,
     "verse": 14,
     "content": [
-      { "text": "But", "strong": "G1161" },
+      { "text": "but", "strong": "G1161" },
       { "text": " I trust", "strong": "G1679", "morph": "PresActInd" },
       { "text": " I shall", "strong": "G1492" },
       { "text": " shortly", "strong": "G2112" },
@@ -309,10 +340,23 @@
       { "text": " we shall speak", "strong": "G2980", "morph": "FutActInd" },
       { "text": " face", "strong": "G4750" },
       { "text": " to", "strong": "G4314" },
-      { "text": " face.", "strong": "G4750" },
+      {
+        "text": " face.",
+        "foot": {
+          "type": "trn",
+          "content": ["Gr. ", { "text": "mouth to mouth", "marks": ["i"] }]
+        },
+        "strong": "G4750"
+      },
       { "text": " Peace", "strong": "G1515" },
-      { "text": " [be] to thee.", "strong": "G4671" },
-      { "text": " [Our] friends", "strong": "G5384" },
+      {
+        "content": [{ "text": " be", "marks": ["i"] }, " to thee."],
+        "strong": "G4671"
+      },
+      {
+        "content": [{ "text": " Our", "marks": ["i"] }, " friends"],
+        "strong": "G5384"
+      },
       { "text": " salute", "strong": "G782", "morph": "PresMidPasDepInd" },
       { "text": " thee.", "strong": "G4571" },
       { "text": " Greet", "strong": "G782", "morph": "PresMidPasDepImpr" },

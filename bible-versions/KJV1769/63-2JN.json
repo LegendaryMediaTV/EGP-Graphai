@@ -35,8 +35,8 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      { "text": "For", "strong": "G1223" },
-      { "text": " the truth’s sake,", "strong": "G225" },
+      { "text": "for", "strong": "G1223" },
+      { "text": " the truth's sake,", "strong": "G225" },
       { "text": " which", "strong": "G3588" },
       { "text": " dwelleth", "strong": "G3306", "morph": "PresActPtc" },
       { "text": " in", "strong": "G1722" },
@@ -59,7 +59,10 @@
       { "text": " with", "strong": "G3326" },
       { "text": " you,", "strong": "G5216" },
       { "text": " mercy,", "strong": "G1656" },
-      { "text": " [and] peace,", "strong": "G1515" },
+      {
+        "content": [{ "text": " and", "marks": ["i"] }, " peace,"],
+        "strong": "G1515"
+      },
       { "text": " from", "strong": "G3844" },
       { "text": " God", "strong": "G2316" },
       { "text": " the Father,", "strong": "G3962" },
@@ -81,7 +84,12 @@
     "chapter": 1,
     "verse": 4,
     "content": [
-      { "text": "I rejoiced", "strong": "G5463", "morph": "Aor2PasDepInd" },
+      {
+        "paragraph": true,
+        "text": "I rejoiced",
+        "strong": "G5463",
+        "morph": "Aor2PasDepInd"
+      },
       { "text": " greatly", "strong": "G3029" },
       { "text": " that", "strong": "G3754" },
       { "text": " I found", "strong": "G2147", "morph": "PerfActInd" },
@@ -190,6 +198,17 @@
       { "text": " those things which", "strong": "G3739" },
       {
         "text": " we have wrought,",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Or, ",
+            {
+              "text": "gained. Some copies read, which ye have gained, but that ye receive",
+              "marks": ["i"]
+            },
+            ", etc."
+          ]
+        },
         "strong": "G2038",
         "morph": "AorMidDepInd"
       },
@@ -247,7 +266,10 @@
       { "text": " him", "strong": "G846" },
       { "text": " not", "strong": "G3361" },
       { "text": " into", "strong": "G1519" },
-      { "text": " [your] house,", "strong": "G3614" },
+      {
+        "content": [{ "text": " your", "marks": ["i"] }, " house,"],
+        "strong": "G3614"
+      },
       { "text": " neither", "strong": "G2532" },
       { "strong": "G3361" },
       { "text": " bid", "strong": "G3004", "morph": "PresActImpr" },
@@ -260,7 +282,7 @@
     "chapter": 1,
     "verse": 11,
     "content": [
-      { "text": "For", "strong": "G1063" },
+      { "text": "for", "strong": "G1063" },
       { "text": " he that biddeth", "strong": "G3004", "morph": "PresActPtc" },
       { "text": " him", "strong": "G846" },
       { "text": " God speed", "strong": "G5463", "morph": "PresActInf" },
@@ -275,13 +297,21 @@
     "chapter": 1,
     "verse": 12,
     "content": [
-      { "text": "Having", "strong": "G2192", "morph": "PresActPtc" },
+      {
+        "paragraph": true,
+        "text": "Having",
+        "strong": "G2192",
+        "morph": "PresActPtc"
+      },
       { "text": " many things", "strong": "G4183" },
       { "text": " to write", "strong": "G1125", "morph": "PresActInf" },
       { "text": " unto you,", "strong": "G5213" },
       { "text": " I would", "strong": "G1014", "morph": "AorPasDepInd" },
       { "text": " not", "strong": "G3756" },
-      { "text": " [write] with", "strong": "G1223" },
+      {
+        "content": [{ "text": " write", "marks": ["i"] }, " with"],
+        "strong": "G1223"
+      },
       { "text": " paper", "strong": "G5489" },
       { "text": " and", "strong": "G2532" },
       { "text": " ink:", "strong": "G3188" },
@@ -294,7 +324,14 @@
       { "text": " speak", "strong": "G2980", "morph": "AorActInf" },
       { "text": " face", "strong": "G4750" },
       { "text": " to", "strong": "G4314" },
-      { "text": " face,", "strong": "G4750" },
+      {
+        "text": " face,",
+        "foot": {
+          "type": "trn",
+          "content": ["Gr. ", { "text": "mouth to mouth", "marks": ["i"] }]
+        },
+        "strong": "G4750"
+      },
       { "text": " that", "strong": "G2443" },
       { "text": " our", "strong": "G2257" },
       { "text": " joy", "strong": "G5479" },
