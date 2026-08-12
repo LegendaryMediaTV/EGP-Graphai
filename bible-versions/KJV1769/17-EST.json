@@ -10,15 +10,21 @@
         "strong": "H3117"
       },
       { "text": " of Ahasuerus,", "strong": "H325" },
-      { "text": " (this [is] Ahasuerus", "strong": "H325" },
+      " (",
+      {
+        "content": ["this ", { "text": "is", "marks": ["i"] }, " Ahasuerus"],
+        "strong": "H325"
+      },
       { "text": " which reigned,", "strong": "H4427", "morph": "QalActPtc" },
       { "text": " from India", "strong": "H1912" },
       { "text": " even unto Ethiopia,", "strong": "H3568" },
-      { "text": " [over] an hundred", "strong": "H3967" },
+      {
+        "content": [{ "text": " over", "marks": ["i"] }, " an hundred"],
+        "strong": "H3967"
+      },
       { "text": " and seven", "strong": "H7651" },
       { "text": " and twenty", "strong": "H6242" },
-      { "text": " provinces:", "strong": "H4082" },
-      ")"
+      { "text": " provinces:)", "strong": "H4082" }
     ]
   },
   {
@@ -26,13 +32,23 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      { "text": "[That] in those days,", "strong": "H3117" },
+      {
+        "content": [{ "text": "that", "marks": ["i"] }, " in those days,"],
+        "strong": "H3117"
+      },
       { "text": " when the king", "strong": "H4428" },
       { "text": " Ahasuerus", "strong": "H325" },
       { "text": " sat", "strong": "H3427", "morph": "QalInf" },
       { "text": " on the throne", "strong": "H3678" },
       { "text": " of his kingdom,", "strong": "H4438" },
-      { "text": " which [was] in Shushan", "strong": "H7800" },
+      {
+        "content": [
+          " which ",
+          { "text": "was", "marks": ["i"] },
+          " in Shushan"
+        ],
+        "strong": "H7800"
+      },
       { "text": " the palace,", "strong": "H1002" }
     ]
   },
@@ -41,7 +57,7 @@
     "chapter": 1,
     "verse": 3,
     "content": [
-      { "text": "In the third", "strong": "H7969" },
+      { "text": "in the third", "strong": "H7969" },
       { "text": " year", "strong": "H8141" },
       { "text": " of his reign,", "strong": "H4427", "morph": "QalInf" },
       { "text": " he made", "strong": "H6213", "morph": "QalPerf" },
@@ -54,7 +70,10 @@
       { "text": " the nobles", "strong": "H6579" },
       { "text": " and princes", "strong": "H8269" },
       { "text": " of the provinces,", "strong": "H4082" },
-      { "text": " [being] before", "strong": "H6440" },
+      {
+        "content": [{ "text": " being", "marks": ["i"] }, " before"],
+        "strong": "H6440"
+      },
       " him:"
     ]
   },
@@ -63,7 +82,7 @@
     "chapter": 1,
     "verse": 4,
     "content": [
-      { "text": "When he shewed", "strong": "H7200", "morph": "HiphInf" },
+      { "text": "when he shewed", "strong": "H7200", "morph": "HiphInf" },
       { "text": " the riches", "strong": "H6239" },
       { "text": " of his glorious", "strong": "H3519" },
       { "text": " kingdom", "strong": "H4438" },
@@ -72,7 +91,10 @@
       { "text": " majesty", "strong": "H1420" },
       { "text": " many", "strong": "H7227" },
       { "text": " days,", "strong": "H3117" },
-      { "text": " [even] an hundred", "strong": "H3967" },
+      {
+        "content": [{ "text": " even", "marks": ["i"] }, " an hundred"],
+        "strong": "H3967"
+      },
       { "text": " and fourscore", "strong": "H8084" },
       { "text": " days.", "strong": "H3117" }
     ]
@@ -88,7 +110,15 @@
       { "text": " made", "strong": "H6213", "morph": "QalPerf" },
       { "text": " a feast", "strong": "H4960" },
       { "text": " unto all the people", "strong": "H5971" },
-      { "text": " that were present", "strong": "H4672", "morph": "NiphPtc" },
+      {
+        "text": " that were present",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "found", "marks": ["i"] }]
+        },
+        "strong": "H4672",
+        "morph": "NiphPtc"
+      },
       { "text": " in Shushan", "strong": "H7800" },
       { "text": " the palace,", "strong": "H1002" },
       { "text": " both unto great", "strong": "H1419" },
@@ -97,7 +127,7 @@
       { "text": " days,", "strong": "H3117" },
       { "text": " in the court", "strong": "H2691" },
       { "text": " of the garden", "strong": "H1594" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " palace;", "strong": "H1055" }
     ]
   },
@@ -106,11 +136,21 @@
     "chapter": 1,
     "verse": 6,
     "content": [
-      { "text": "[Where were] white,", "strong": "H2353" },
-      { "text": " green,", "strong": "H3768" },
-      { "text": " and blue,", "strong": "H8504" },
       {
-        "text": " [hangings], fastened",
+        "content": [{ "text": "where were", "marks": ["i"] }, " white,"],
+        "strong": "H2353"
+      },
+      { "text": " green,", "strong": "H3768" },
+      {
+        "text": " and blue,",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "violet", "marks": ["i"] }]
+        },
+        "strong": "H8504"
+      },
+      {
+        "content": [{ "text": " hangings", "marks": ["i"] }, ", fastened"],
         "strong": "H270",
         "morph": "QalPasPtc"
       },
@@ -122,7 +162,10 @@
       { "text": " and pillars", "strong": "H5982" },
       { "text": " of marble:", "strong": "H8336" },
       { "text": " the beds", "strong": "H4296" },
-      { "text": " [were of] gold", "strong": "H2091" },
+      {
+        "content": [{ "text": " were of", "marks": ["i"] }, " gold"],
+        "strong": "H2091"
+      },
       { "text": " and silver,", "strong": "H3701" },
       { "text": " upon a pavement", "strong": "H7531" },
       { "text": " of red,", "strong": "H923" },
@@ -138,20 +181,45 @@
     "verse": 7,
     "content": [
       {
-        "text": "And they gave [them] drink",
+        "content": [
+          "And they gave ",
+          { "text": "them", "marks": ["i"] },
+          " drink"
+        ],
         "strong": "H8248",
         "morph": "HiphInf"
       },
       { "text": " in vessels", "strong": "H3627" },
       { "text": " of gold,", "strong": "H2091" },
-      { "text": " (the vessels", "strong": "H3627" },
+      " (",
+      { "text": "the vessels", "strong": "H3627" },
       { "text": " being diverse", "strong": "H8138", "morph": "QalActPtc" },
-      { "text": " one from another,", "strong": "H3627" },
-      { "text": ") and royal", "strong": "H4438" },
-      { "text": " wine", "strong": "H3196" },
+      { "text": " one from another,)", "strong": "H3627" },
+      { "text": " and royal", "strong": "H4438" },
+      {
+        "text": " wine",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "wine of the kingdom", "marks": ["i"] }
+          ]
+        },
+        "strong": "H3196"
+      },
       { "text": " in abundance,", "strong": "H7227" },
       { "text": " according to the state", "strong": "H3027" },
-      { "text": " of the king.", "strong": "H4428" }
+      {
+        "text": " of the king.",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "according to the hand of the king", "marks": ["i"] }
+          ]
+        },
+        "strong": "H4428"
+      }
     ]
   },
   {
@@ -160,14 +228,20 @@
     "verse": 8,
     "content": [
       { "text": "And the drinking", "strong": "H8360" },
-      { "text": " [was] according to the law;", "strong": "H1881" },
+      {
+        "content": [
+          { "text": " was", "marks": ["i"] },
+          " according to the law;"
+        ],
+        "strong": "H1881"
+      },
       { "text": " none did compel:", "strong": "H597", "morph": "QalActPtc" },
       { "text": " for so the king", "strong": "H4428" },
       { "text": " had appointed", "strong": "H3245", "morph": "PielPerf" },
       { "text": " to all the officers", "strong": "H7227" },
       { "text": " of his house,", "strong": "H1004" },
       { "text": " that they should do", "strong": "H6213", "morph": "QalInf" },
-      { "text": " according to every man’s", "strong": "H376" },
+      { "text": " according to every man's", "strong": "H376" },
       { "text": " pleasure.", "strong": "H7522" }
     ]
   },
@@ -176,14 +250,24 @@
     "chapter": 1,
     "verse": 9,
     "content": [
-      { "text": "Also Vashti", "strong": "H2060" },
+      { "paragraph": true, "text": "Also Vashti", "strong": "H2060" },
       { "text": " the queen", "strong": "H4436" },
       { "text": " made", "strong": "H6213", "morph": "QalPerf" },
       { "text": " a feast", "strong": "H4960" },
       { "text": " for the women", "strong": "H802" },
-      { "text": " [in] the royal", "strong": "H4438" },
+      {
+        "content": [{ "text": " in", "marks": ["i"] }, " the royal"],
+        "strong": "H4438"
+      },
       { "text": " house", "strong": "H1004" },
-      { "text": " which [belonged] to king", "strong": "H4428" },
+      {
+        "content": [
+          " which ",
+          { "text": "belonged", "marks": ["i"] },
+          " to king"
+        ],
+        "strong": "H4428"
+      },
       { "text": " Ahasuerus.", "strong": "H325" }
     ]
   },
@@ -207,7 +291,14 @@
       { "text": " Zethar,", "strong": "H2242" },
       { "text": " and Carcas,", "strong": "H3752" },
       { "text": " the seven", "strong": "H7651" },
-      { "text": " chamberlains", "strong": "H5631" },
+      {
+        "text": " chamberlains",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Eunuchs", "marks": ["i"] }]
+        },
+        "strong": "H5631"
+      },
       { "text": " that served", "strong": "H8334", "morph": "PielPtc" },
       { "text": " in the presence", "strong": "H6440" },
       { "text": " of Ahasuerus", "strong": "H325" },
@@ -219,7 +310,7 @@
     "chapter": 1,
     "verse": 11,
     "content": [
-      { "text": "To bring", "strong": "H935", "morph": "HiphInf" },
+      { "text": "to bring", "strong": "H935", "morph": "HiphInf" },
       { "text": " Vashti", "strong": "H2060" },
       { "text": " the queen", "strong": "H4436" },
       { "text": " before", "strong": "H6440" },
@@ -230,8 +321,21 @@
       { "text": " the people", "strong": "H5971" },
       { "text": " and the princes", "strong": "H8269" },
       { "text": " her beauty:", "strong": "H3308" },
-      { "text": " for she [was] fair", "strong": "H2896" },
-      { "text": " to look on.", "strong": "H4758" }
+      {
+        "content": [" for she ", { "text": "was", "marks": ["i"] }, " fair"],
+        "strong": "H2896"
+      },
+      {
+        "text": " to look on.",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "good of countenance", "marks": ["i"] }
+          ]
+        },
+        "strong": "H4758"
+      }
     ]
   },
   {
@@ -243,10 +347,28 @@
       { "text": " Vashti", "strong": "H2060" },
       { "text": " refused", "strong": "H3985", "morph": "PielImpf" },
       { "text": " to come", "strong": "H935", "morph": "QalInf" },
-      { "text": " at the king’s", "strong": "H4428" },
+      { "text": " at the king's", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
       { "text": " by", "strong": "H3027" },
-      { "text": " [his] chamberlains:", "strong": "H5631" },
+      {
+        "content": [
+          { "text": " his", "marks": ["i"] },
+          {
+            "text": " chamberlains:",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Heb. ",
+                {
+                  "text": "which was by the hand of his Eunuchs",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          }
+        ],
+        "strong": "H5631"
+      },
       { "text": " therefore was the king", "strong": "H4428" },
       { "text": " very", "strong": "H3966" },
       { "text": " wroth,", "strong": "H7107", "morph": "QalImpf" },
@@ -260,12 +382,20 @@
     "chapter": 1,
     "verse": 13,
     "content": [
-      { "text": "Then the king", "strong": "H4428" },
+      { "paragraph": true, "text": "Then the king", "strong": "H4428" },
       { "text": " said", "strong": "H559", "morph": "QalImpf" },
       { "text": " to the wise men,", "strong": "H2450" },
       { "text": " which knew", "strong": "H3045", "morph": "QalActPtc" },
       { "text": " the times,", "strong": "H6256" },
-      { "text": " (for so [was] the king’s", "strong": "H4428" },
+      " (",
+      {
+        "content": [
+          "for so ",
+          { "text": "was", "marks": ["i"] },
+          " the king's"
+        ],
+        "strong": "H4428"
+      },
       { "text": " manner", "strong": "H1697" },
       { "text": " toward", "strong": "H6440" },
       { "text": " all that knew", "strong": "H3045", "morph": "QalActPtc" },
@@ -278,25 +408,38 @@
     "chapter": 1,
     "verse": 14,
     "content": [
-      { "text": "And the next", "strong": "H7138" },
-      { "text": " unto him [was] Carshena,", "strong": "H3771" },
+      { "text": "and the next", "strong": "H7138" },
+      {
+        "content": [
+          " unto him ",
+          { "text": "was", "marks": ["i"] },
+          " Carshena,"
+        ],
+        "strong": "H3771"
+      },
       { "text": " Shethar,", "strong": "H8369" },
       { "text": " Admatha,", "strong": "H133" },
       { "text": " Tarshish,", "strong": "H8659" },
       { "text": " Meres,", "strong": "H4825" },
       { "text": " Marsena,", "strong": "H4826" },
-      { "text": " [and] Memucan,", "strong": "H4462" },
+      {
+        "content": [{ "text": " and", "marks": ["i"] }, " Memucan,"],
+        "strong": "H4462"
+      },
       { "text": " the seven", "strong": "H7651" },
       { "text": " princes", "strong": "H8269" },
       { "text": " of Persia", "strong": "H6539" },
       { "text": " and Media,", "strong": "H4074" },
       { "text": " which saw", "strong": "H7200", "morph": "QalActPtc" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " face,", "strong": "H6440" },
-      { "text": " [and] which sat", "strong": "H3427", "morph": "QalActPtc" },
+      {
+        "content": [{ "text": " and", "marks": ["i"] }, " which sat"],
+        "strong": "H3427",
+        "morph": "QalActPtc"
+      },
       { "text": " the first", "strong": "H7223" },
-      { "text": " in the kingdom;", "strong": "H4438" },
-      ")"
+      { "text": " in the kingdom;)", "strong": "H4438" }
     ]
   },
   {
@@ -304,7 +447,15 @@
     "chapter": 1,
     "verse": 15,
     "content": [
-      { "text": "What shall we do", "strong": "H6213", "morph": "QalInf" },
+      {
+        "text": "what shall we do",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "what to do?", "marks": ["i"] }]
+        },
+        "strong": "H6213",
+        "morph": "QalInf"
+      },
       { "text": " unto the queen", "strong": "H4436" },
       { "text": " Vashti", "strong": "H2060" },
       { "text": " according to law,", "strong": "H1881" },
@@ -336,7 +487,14 @@
       { "text": " to the king", "strong": "H4428" },
       { "text": " only, but also to all the princes,", "strong": "H8269" },
       { "text": " and to all the people", "strong": "H5971" },
-      { "text": " that [are] in all the provinces", "strong": "H4082" },
+      {
+        "content": [
+          " that ",
+          { "text": "are", "marks": ["i"] },
+          " in all the provinces"
+        ],
+        "strong": "H4082"
+      },
       { "text": " of the king", "strong": "H4428" },
       { "text": " Ahasuerus.", "strong": "H325" }
     ]
@@ -346,7 +504,10 @@
     "chapter": 1,
     "verse": 17,
     "content": [
-      { "text": "For [this] deed", "strong": "H1697" },
+      {
+        "content": ["For ", { "text": "this", "marks": ["i"] }, " deed"],
+        "strong": "H1697"
+      },
       { "text": " of the queen", "strong": "H4436" },
       { "text": " shall come abroad", "strong": "H3318", "morph": "QalImpf" },
       { "text": " unto all women,", "strong": "H802" },
@@ -378,17 +539,30 @@
     "chapter": 1,
     "verse": 18,
     "content": [
-      { "text": "[Likewise] shall the ladies", "strong": "H8282" },
+      {
+        "content": [
+          { "text": "Likewise", "marks": ["i"] },
+          " shall the ladies"
+        ],
+        "strong": "H8282"
+      },
       { "text": " of Persia", "strong": "H6539" },
       { "text": " and Media", "strong": "H4074" },
       { "text": " say", "strong": "H559", "morph": "QalImpf" },
       { "text": " this day", "strong": "H3117" },
-      { "text": " unto all the king’s", "strong": "H4428" },
+      { "text": " unto all the king's", "strong": "H4428" },
       { "text": " princes,", "strong": "H8269" },
       { "text": " which have heard", "strong": "H8085", "morph": "QalPerf" },
       { "text": " of the deed", "strong": "H1697" },
       { "text": " of the queen.", "strong": "H4436" },
-      { "text": " Thus [shall there arise] too much", "strong": "H1767" },
+      {
+        "content": [
+          " Thus ",
+          { "text": "shall there arise", "marks": ["i"] },
+          " too much"
+        ],
+        "strong": "H1767"
+      },
       { "text": " contempt", "strong": "H963" },
       { "text": " and wrath.", "strong": "H7110" }
     ]
@@ -399,11 +573,28 @@
     "verse": 19,
     "content": [
       { "text": "If it please", "strong": "H2895", "morph": "QalPerf" },
-      { "text": " the king,", "strong": "H4428" },
+      {
+        "text": " the king,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "if it be good with the king", "marks": ["i"] }
+          ]
+        },
+        "strong": "H4428"
+      },
       { "text": " let there go", "strong": "H3318", "morph": "QalImpf" },
       { "text": " a royal", "strong": "H4438" },
       { "text": " commandment", "strong": "H1697" },
-      { "text": " from him,", "strong": "H6440" },
+      {
+        "text": " from him,",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "from before him", "marks": ["i"] }]
+        },
+        "strong": "H6440"
+      },
       {
         "text": " and let it be written",
         "strong": "H3789",
@@ -414,6 +605,13 @@
       { "text": " and the Medes,", "strong": "H4074" },
       {
         "text": " that it be not altered,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "that it pass not away", "marks": ["i"] }
+          ]
+        },
         "strong": "H5674",
         "morph": "QalImpf"
       },
@@ -425,7 +623,14 @@
       { "text": " and let the king", "strong": "H4428" },
       { "text": " give", "strong": "H5414", "morph": "QalImpf" },
       { "text": " her royal estate", "strong": "H4438" },
-      { "text": " unto another", "strong": "H7468" },
+      {
+        "text": " unto another",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "unto her companion", "marks": ["i"] }]
+        },
+        "strong": "H7468"
+      },
       { "text": " that is better", "strong": "H2896" },
       " than she."
     ]
@@ -435,13 +640,14 @@
     "chapter": 1,
     "verse": 20,
     "content": [
-      { "text": "And when the king’s", "strong": "H4428" },
+      { "text": "And when the king's", "strong": "H4428" },
       { "text": " decree", "strong": "H6599" },
       { "text": " which he shall make", "strong": "H6213", "morph": "QalImpf" },
       { "text": " shall be published", "strong": "H8085", "morph": "NiphPerf" },
       { "text": " throughout all his empire,", "strong": "H4438" },
-      { "text": " (for it is great,", "strong": "H7227" },
-      { "text": ") all the wives", "strong": "H802" },
+      " (",
+      { "text": "for it is great,)", "strong": "H7227" },
+      { "text": " all the wives", "strong": "H802" },
       { "text": " shall give", "strong": "H5414", "morph": "QalImpf" },
       { "text": " to their husbands", "strong": "H1167" },
       { "text": " honour,", "strong": "H3366" },
@@ -457,7 +663,17 @@
       { "text": "And the saying", "strong": "H1697" },
       { "text": " pleased", "strong": "H3190", "morph": "QalImpf" },
       { "strong": "H5869" },
-      { "text": " the king", "strong": "H4428" },
+      {
+        "text": " the king",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "was good in the eyes of the king", "marks": ["i"] }
+          ]
+        },
+        "strong": "H4428"
+      },
       { "text": " and the princes;", "strong": "H8269" },
       { "text": " and the king", "strong": "H4428" },
       { "text": " did", "strong": "H6213", "morph": "QalImpf" },
@@ -470,9 +686,9 @@
     "chapter": 1,
     "verse": 22,
     "content": [
-      { "text": "For he sent", "strong": "H7971", "morph": "QalImpf" },
+      { "text": "for he sent", "strong": "H7971", "morph": "QalImpf" },
       { "text": " letters", "strong": "H5612" },
-      { "text": " into all the king’s", "strong": "H4428" },
+      { "text": " into all the king's", "strong": "H4428" },
       { "text": " provinces,", "strong": "H4082" },
       { "text": " into every province", "strong": "H4082" },
       { "text": " according to the writing", "strong": "H3791" },
@@ -482,12 +698,29 @@
       { "text": " should bear rule", "strong": "H8323", "morph": "QalActPtc" },
       { "text": " in his own house,", "strong": "H1004" },
       {
-        "text": " and that [it] should be published",
+        "content": [
+          " and that ",
+          { "text": "it", "marks": ["i"] },
+          " should be published"
+        ],
         "strong": "H1696",
         "morph": "PielPtc"
       },
       { "text": " according to the language", "strong": "H3956" },
-      { "text": " of every people.", "strong": "H5971" }
+      {
+        "text": " of every people.",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            {
+              "text": "that one should publish it according to the language of his people",
+              "marks": ["i"]
+            }
+          ]
+        },
+        "strong": "H5971"
+      }
     ]
   },
   {
@@ -495,6 +728,7 @@
     "chapter": 2,
     "verse": 1,
     "content": [
+      { "heading": "Esther is Crowned" },
       { "paragraph": true, "text": "After", "strong": "H310" },
       { "text": " these things,", "strong": "H1697" },
       { "text": " when the wrath", "strong": "H2534" },
@@ -522,7 +756,7 @@
     "verse": 2,
     "content": [
       { "text": "Then said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " servants", "strong": "H5288" },
       { "text": " that ministered", "strong": "H8334", "morph": "PielPtc" },
       { "text": " unto him, Let there be fair", "strong": "H2896" },
@@ -538,7 +772,7 @@
     "chapter": 2,
     "verse": 3,
     "content": [
-      { "text": "And let the king", "strong": "H4428" },
+      { "text": "and let the king", "strong": "H4428" },
       { "text": " appoint", "strong": "H6485", "morph": "HiphImpf" },
       { "text": " officers", "strong": "H6496" },
       { "text": " in all the provinces", "strong": "H4082" },
@@ -556,15 +790,29 @@
       { "text": " the palace,", "strong": "H1002" },
       { "text": " to the house", "strong": "H1004" },
       { "text": " of the women,", "strong": "H802" },
-      { "text": " unto the custody", "strong": "H3027" },
-      { "text": " of Hege", "strong": "H1896" },
-      { "text": " the king’s", "strong": "H4428" },
+      {
+        "text": " unto the custody",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "unto the hand", "marks": ["i"] }]
+        },
+        "strong": "H3027"
+      },
+      {
+        "text": " of Hege",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Hegai, ver. 8", "marks": ["i"] }]
+        },
+        "strong": "H1896"
+      },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " chamberlain,", "strong": "H5631" },
       { "text": " keeper", "strong": "H8104", "morph": "QalActPtc" },
       { "text": " of the women;", "strong": "H802" },
       { "text": " and let their things for purification", "strong": "H8562" },
       { "text": " be given", "strong": "H5414", "morph": "QalInf" },
-      " [them]:"
+      { "text": " them:", "marks": ["i"] }
     ]
   },
   {
@@ -572,7 +820,7 @@
     "chapter": 2,
     "verse": 4,
     "content": [
-      { "text": "And let the maiden", "strong": "H5291" },
+      { "text": "and let the maiden", "strong": "H5291" },
       { "text": " which pleaseth", "strong": "H3190", "morph": "QalImpf" },
       { "strong": "H5869" },
       { "text": " the king", "strong": "H4428" },
@@ -590,12 +838,19 @@
     "chapter": 2,
     "verse": 5,
     "content": [
-      { "text": "[Now] in Shushan", "strong": "H7800" },
+      {
+        "paragraph": true,
+        "content": [{ "text": "Now", "marks": ["i"] }, " in Shushan"],
+        "strong": "H7800"
+      },
       { "text": " the palace", "strong": "H1002" },
       { "text": " there was a certain", "strong": "H376" },
       { "text": " Jew,", "strong": "H3064" },
       { "text": " whose name", "strong": "H8034" },
-      { "text": " [was] Mordecai,", "strong": "H4782" },
+      {
+        "content": [{ "text": " was", "marks": ["i"] }, " Mordecai,"],
+        "strong": "H4782"
+      },
       { "text": " the son", "strong": "H1121" },
       { "text": " of Jair,", "strong": "H2971" },
       { "text": " the son", "strong": "H1121" },
@@ -611,7 +866,7 @@
     "verse": 6,
     "content": [
       {
-        "text": "Who had been carried away",
+        "text": "who had been carried away",
         "strong": "H1540",
         "morph": "HophPerf"
       },
@@ -636,17 +891,41 @@
     "chapter": 2,
     "verse": 7,
     "content": [
-      { "text": "And he brought up", "strong": "H539", "morph": "QalActPtc" },
+      {
+        "text": "And he brought up",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "nourished", "marks": ["i"] }]
+        },
+        "strong": "H539",
+        "morph": "QalActPtc"
+      },
       { "text": " Hadassah,", "strong": "H1919" },
-      { "text": " that [is], Esther,", "strong": "H635" },
-      { "text": " his uncle’s", "strong": "H1730" },
+      {
+        "content": [" that ", { "text": "is", "marks": ["i"] }, ", Esther,"],
+        "strong": "H635"
+      },
+      { "text": " his uncle's", "strong": "H1730" },
       { "text": " daughter:", "strong": "H1323" },
       { "text": " for she had neither father", "strong": "H1" },
       { "text": " nor mother,", "strong": "H517" },
       { "text": " and the maid", "strong": "H5291" },
-      { "text": " [was] fair", "strong": "H3303" },
+      {
+        "content": [{ "text": " was", "marks": ["i"] }, " fair"],
+        "strong": "H3303"
+      },
       { "strong": "H8389" },
-      { "text": " and beautiful;", "strong": "H2896" },
+      {
+        "text": " and beautiful;",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "fair of form, and good of countenance", "marks": ["i"] }
+          ]
+        },
+        "strong": "H2896"
+      },
       { "strong": "H4758" },
       { "text": " whom Mordecai,", "strong": "H4782" },
       { "text": " when her father", "strong": "H1" },
@@ -661,7 +940,11 @@
     "chapter": 2,
     "verse": 8,
     "content": [
-      { "text": "So it came to pass, when the king’s", "strong": "H4428" },
+      {
+        "paragraph": true,
+        "text": "So it came to pass, when the king's",
+        "strong": "H4428"
+      },
       { "text": " commandment", "strong": "H1697" },
       { "text": " and his decree", "strong": "H1881" },
       { "text": " was heard,", "strong": "H8085", "morph": "NiphInf" },
@@ -678,7 +961,7 @@
       { "text": " of Hegai,", "strong": "H1896" },
       { "text": " that Esther", "strong": "H635" },
       { "text": " was brought", "strong": "H3947", "morph": "NiphImpf" },
-      { "text": " also unto the king’s", "strong": "H4428" },
+      { "text": " also unto the king's", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
       { "text": " to the custody", "strong": "H3027" },
       { "text": " of Hegai,", "strong": "H1896" },
@@ -704,17 +987,48 @@
       { "text": " and he speedily", "strong": "H926", "morph": "PielImpf" },
       { "text": " gave", "strong": "H5414", "morph": "QalInf" },
       { "text": " her her things for purification,", "strong": "H8562" },
-      { "text": " with such things as belonged", "strong": "H4490" },
+      {
+        "content": [
+          {
+            "text": " with such things",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "her portions", "marks": ["i"] }]
+            }
+          },
+          " as belonged"
+        ],
+        "strong": "H4490"
+      },
       { "text": " to her, and seven", "strong": "H7651" },
       { "text": " maidens,", "strong": "H5291" },
-      { "text": " [which were] meet", "strong": "H7200", "morph": "QalPasPtc" },
+      {
+        "content": [{ "text": " which were", "marks": ["i"] }, " meet"],
+        "strong": "H7200",
+        "morph": "QalPasPtc"
+      },
       { "text": " to be given", "strong": "H5414", "morph": "QalInf" },
-      { "text": " her, out of the king’s", "strong": "H4428" },
+      { "text": " her, out of the king's", "strong": "H4428" },
       { "text": " house:", "strong": "H1004" },
       { "text": " and he preferred", "strong": "H8138", "morph": "PielImpf" },
-      { "text": " her and her maids", "strong": "H5291" },
+      {
+        "content": [
+          {
+            "text": " her",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "he changed her", "marks": ["i"] }]
+            }
+          },
+          " and her maids"
+        ],
+        "strong": "H5291"
+      },
       { "text": " unto the best", "strong": "H2896" },
-      { "text": " [place] of the house", "strong": "H1004" },
+      {
+        "content": [{ "text": " place", "marks": ["i"] }, " of the house"],
+        "strong": "H1004"
+      },
       { "text": " of the women.", "strong": "H802" }
     ]
   },
@@ -734,7 +1048,8 @@
         "strong": "H5046",
         "morph": "HiphImpf"
       },
-      " [it]."
+      { "text": " it", "marks": ["i"] },
+      "."
     ]
   },
   {
@@ -747,10 +1062,25 @@
       { "text": " every day", "strong": "H3117" },
       { "text": " before", "strong": "H6440" },
       { "text": " the court", "strong": "H2691" },
-      { "text": " of the women’s", "strong": "H802" },
+      { "text": " of the women's", "strong": "H802" },
       { "text": " house,", "strong": "H1004" },
       { "text": " to know", "strong": "H3045", "morph": "QalInf" },
-      { "text": " how Esther", "strong": "H635" },
+      {
+        "content": [
+          {
+            "text": " how",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Heb. ",
+                { "text": "to know the peace", "marks": ["i"] }
+              ]
+            }
+          },
+          " Esther"
+        ],
+        "strong": "H635"
+      },
       { "text": " did,", "strong": "H7965" },
       {
         "text": " and what should become",
@@ -765,7 +1095,7 @@
     "chapter": 2,
     "verse": 12,
     "content": [
-      { "text": "Now when every maid’s", "strong": "H5291" },
+      { "paragraph": true, "text": "Now when every maid's", "strong": "H5291" },
       { "text": " turn", "strong": "H8447" },
       { "text": " was come", "strong": "H5060", "morph": "HiphInf" },
       { "text": " to go in", "strong": "H935", "morph": "QalInf" },
@@ -777,10 +1107,14 @@
       { "text": " months,", "strong": "H2320" },
       { "text": " according to the manner", "strong": "H1881" },
       { "text": " of the women,", "strong": "H802" },
-      { "text": " (for so were the days", "strong": "H3117" },
+      " (",
+      { "text": "for so were the days", "strong": "H3117" },
       { "text": " of their purifications", "strong": "H4795" },
       { "text": " accomplished,", "strong": "H4390", "morph": "QalImpf" },
-      { "text": " [to wit], six", "strong": "H8337" },
+      {
+        "content": [{ "text": " to wit", "marks": ["i"] }, ", six"],
+        "strong": "H8337"
+      },
       { "text": " months", "strong": "H2320" },
       { "text": " with oil", "strong": "H8081" },
       { "text": " of myrrh,", "strong": "H4753" },
@@ -788,11 +1122,14 @@
       { "text": " months", "strong": "H2320" },
       { "text": " with sweet odours,", "strong": "H1314" },
       {
-        "text": " and with [other] things for the purifying",
+        "content": [
+          " and with ",
+          { "text": "other", "marks": ["i"] },
+          " things for the purifying"
+        ],
         "strong": "H8562"
       },
-      { "text": " of the women;", "strong": "H802" },
-      ")"
+      { "text": " of the women;)", "strong": "H802" }
     ]
   },
   {
@@ -800,8 +1137,11 @@
     "chapter": 2,
     "verse": 13,
     "content": [
-      { "text": "Then thus came", "strong": "H935", "morph": "QalActPtc" },
-      { "text": " [every] maiden", "strong": "H5291" },
+      { "text": "then thus came", "strong": "H935", "morph": "QalActPtc" },
+      {
+        "content": [{ "text": " every", "marks": ["i"] }, " maiden"],
+        "strong": "H5291"
+      },
       { "text": " unto the king;", "strong": "H4428" },
       {
         "text": " whatsoever she desired",
@@ -812,7 +1152,7 @@
       { "text": " her to go", "strong": "H935", "morph": "QalInf" },
       { "text": " with her out of the house", "strong": "H1004" },
       { "text": " of the women", "strong": "H802" },
-      { "text": " unto the king’s", "strong": "H4428" },
+      { "text": " unto the king's", "strong": "H4428" },
       { "text": " house.", "strong": "H1004" }
     ]
   },
@@ -830,7 +1170,7 @@
       { "text": " of the women,", "strong": "H802" },
       { "text": " to the custody", "strong": "H3027" },
       { "text": " of Shaashgaz,", "strong": "H8190" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " chamberlain,", "strong": "H5631" },
       { "text": " which kept", "strong": "H8104", "morph": "QalActPtc" },
       { "text": " the concubines:", "strong": "H6370" },
@@ -865,7 +1205,7 @@
       { "text": " she required", "strong": "H1245", "morph": "PielPerf" },
       { "text": " nothing", "strong": "H1697" },
       { "text": " but what Hegai", "strong": "H1896" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " chamberlain,", "strong": "H5631" },
       { "text": " the keeper", "strong": "H8104", "morph": "QalActPtc" },
       { "text": " of the women,", "strong": "H802" },
@@ -887,7 +1227,7 @@
     "chapter": 2,
     "verse": 16,
     "content": [
-      { "text": "So Esther", "strong": "H635" },
+      { "paragraph": true, "text": "So Esther", "strong": "H635" },
       { "text": " was taken", "strong": "H3947", "morph": "NiphImpf" },
       { "text": " unto king", "strong": "H4428" },
       { "text": " Ahasuerus", "strong": "H325" },
@@ -895,7 +1235,10 @@
       { "text": " royal", "strong": "H4438" },
       { "text": " in the tenth", "strong": "H6224" },
       { "text": " month,", "strong": "H2320" },
-      { "text": " which [is] the month", "strong": "H2320" },
+      {
+        "content": [" which ", { "text": "is", "marks": ["i"] }, " the month"],
+        "strong": "H2320"
+      },
       { "text": " Tebeth,", "strong": "H2887" },
       { "text": " in the seventh", "strong": "H7651" },
       { "text": " year", "strong": "H8141" },
@@ -913,8 +1256,22 @@
       { "text": " above all the women,", "strong": "H802" },
       { "text": " and she obtained", "strong": "H5375", "morph": "QalImpf" },
       { "text": " grace", "strong": "H2580" },
-      { "text": " and favour", "strong": "H2617" },
-      { "text": " in his sight", "strong": "H6440" },
+      {
+        "text": " and favour",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "kindness", "marks": ["i"] }]
+        },
+        "strong": "H2617"
+      },
+      {
+        "text": " in his sight",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "before him", "marks": ["i"] }]
+        },
+        "strong": "H6440"
+      },
       { "text": " more than all the virgins;", "strong": "H1330" },
       { "text": " so that he set", "strong": "H7760", "morph": "QalImpf" },
       { "text": " the royal", "strong": "H4438" },
@@ -935,10 +1292,20 @@
       { "text": " feast", "strong": "H4960" },
       { "text": " unto all his princes", "strong": "H8269" },
       { "text": " and his servants,", "strong": "H5650" },
-      { "text": " [even] Esther’s", "strong": "H635" },
+      {
+        "content": [{ "text": " even", "marks": ["i"] }, " Esther's"],
+        "strong": "H635"
+      },
       { "text": " feast;", "strong": "H4960" },
       { "text": " and he made", "strong": "H6213", "morph": "QalPerf" },
-      { "text": " a release", "strong": "H2010" },
+      {
+        "text": " a release",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "rest", "marks": ["i"] }]
+        },
+        "strong": "H2010"
+      },
       { "text": " to the provinces,", "strong": "H4082" },
       { "text": " and gave", "strong": "H5414", "morph": "QalImpf" },
       { "text": " gifts,", "strong": "H4864" },
@@ -951,7 +1318,7 @@
     "chapter": 2,
     "verse": 19,
     "content": [
-      { "text": "And when the virgins", "strong": "H1330" },
+      { "paragraph": true, "text": "And when the virgins", "strong": "H1330" },
       {
         "text": " were gathered together",
         "strong": "H6908",
@@ -960,7 +1327,7 @@
       { "text": " the second time,", "strong": "H8145" },
       { "text": " then Mordecai", "strong": "H4782" },
       { "text": " sat", "strong": "H3427", "morph": "QalActPtc" },
-      { "text": " in the king’s", "strong": "H4428" },
+      { "text": " in the king's", "strong": "H4428" },
       { "text": " gate.", "strong": "H8179" }
     ]
   },
@@ -971,7 +1338,7 @@
     "content": [
       { "text": "Esther", "strong": "H635" },
       {
-        "text": " had not [yet] shewed",
+        "content": [" had not ", { "text": "yet", "marks": ["i"] }, " shewed"],
         "strong": "H5046",
         "morph": "HiphPtc"
       },
@@ -992,22 +1359,36 @@
     "chapter": 2,
     "verse": 21,
     "content": [
-      { "text": "In those days,", "strong": "H3117" },
+      { "paragraph": true, "text": "In those days,", "strong": "H3117" },
       { "text": " while Mordecai", "strong": "H4782" },
       { "text": " sat", "strong": "H3427", "morph": "QalActPtc" },
-      { "text": " in the king’s", "strong": "H4428" },
+      { "text": " in the king's", "strong": "H4428" },
       { "text": " gate,", "strong": "H8179" },
       { "text": " two", "strong": "H8147" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " chamberlains,", "strong": "H5631" },
-      { "text": " Bigthan", "strong": "H904" },
+      {
+        "text": " Bigthan",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Bigthana", "marks": ["i"] }]
+        },
+        "strong": "H904"
+      },
       { "text": " and Teresh,", "strong": "H8657" },
       {
         "text": " of those which kept",
         "strong": "H8104",
         "morph": "QalActPtc"
       },
-      { "text": " the door,", "strong": "H5592" },
+      {
+        "text": " the door,",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "the threshold", "marks": ["i"] }]
+        },
+        "strong": "H5592"
+      },
       { "text": " were wroth,", "strong": "H7107", "morph": "QalPerf" },
       { "text": " and sought", "strong": "H1245", "morph": "PielImpf" },
       { "text": " to lay", "strong": "H7971", "morph": "QalInf" },
@@ -1025,12 +1406,18 @@
       { "text": " was known", "strong": "H3045", "morph": "NiphImpf" },
       { "text": " to Mordecai,", "strong": "H4782" },
       { "text": " who told", "strong": "H5046", "morph": "HiphImpf" },
-      { "text": " [it] unto Esther", "strong": "H635" },
+      {
+        "content": [{ "text": " it", "marks": ["i"] }, " unto Esther"],
+        "strong": "H635"
+      },
       { "text": " the queen;", "strong": "H4436" },
       { "text": " and Esther", "strong": "H635" },
       { "text": " certified", "strong": "H559", "morph": "QalImpf" },
       { "text": " the king", "strong": "H4428" },
-      { "text": " [thereof] in Mordecai’s", "strong": "H4782" },
+      {
+        "content": [{ "text": " thereof", "marks": ["i"] }, " in Mordecai's"],
+        "strong": "H4782"
+      },
       { "text": " name.", "strong": "H8034" }
     ]
   },
@@ -1062,6 +1449,7 @@
     "chapter": 3,
     "verse": 1,
     "content": [
+      { "heading": "Haman's Plot" },
       { "paragraph": true, "text": "After", "strong": "H310" },
       { "text": " these things", "strong": "H1697" },
       { "text": " did king", "strong": "H4428" },
@@ -1075,7 +1463,9 @@
       { "text": " him, and set", "strong": "H7760", "morph": "QalImpf" },
       { "text": " his seat", "strong": "H3678" },
       { "text": " above all the princes", "strong": "H8269" },
-      " that [were] with him."
+      " that ",
+      { "text": "were", "marks": ["i"] },
+      " with him."
     ]
   },
   {
@@ -1083,9 +1473,16 @@
     "chapter": 3,
     "verse": 2,
     "content": [
-      { "text": "And all the king’s", "strong": "H4428" },
+      { "text": "And all the king's", "strong": "H4428" },
       { "text": " servants,", "strong": "H5650" },
-      { "text": " that [were] in the king’s", "strong": "H4428" },
+      {
+        "content": [
+          " that ",
+          { "text": "were", "marks": ["i"] },
+          " in the king's"
+        ],
+        "strong": "H4428"
+      },
       { "text": " gate,", "strong": "H8179" },
       { "text": " bowed,", "strong": "H3766", "morph": "QalActPtc" },
       { "text": " and reverenced", "strong": "H7812", "morph": "HithPtc" },
@@ -1095,7 +1492,11 @@
       { "text": " concerning him. But Mordecai", "strong": "H4782" },
       { "text": " bowed", "strong": "H3766", "morph": "QalImpf" },
       {
-        "text": " not, nor did [him] reverence.",
+        "content": [
+          " not, nor did ",
+          { "text": "him", "marks": ["i"] },
+          " reverence."
+        ],
         "strong": "H7812",
         "morph": "HithImpf"
       }
@@ -1106,14 +1507,21 @@
     "chapter": 3,
     "verse": 3,
     "content": [
-      { "text": "Then the king’s", "strong": "H4428" },
+      { "text": "Then the king's", "strong": "H4428" },
       { "text": " servants,", "strong": "H5650" },
-      { "text": " which [were] in the king’s", "strong": "H4428" },
+      {
+        "content": [
+          " which ",
+          { "text": "were", "marks": ["i"] },
+          " in the king's"
+        ],
+        "strong": "H4428"
+      },
       { "text": " gate,", "strong": "H8179" },
       { "text": " said", "strong": "H559", "morph": "QalImpf" },
       { "text": " unto Mordecai,", "strong": "H4782" },
       { "text": " Why transgressest", "strong": "H5674", "morph": "QalActPtc" },
-      { "text": " thou the king’s", "strong": "H4428" },
+      { "text": " thou the king's", "strong": "H4428" },
       { "text": " commandment?", "strong": "H4687" }
     ]
   },
@@ -1141,11 +1549,18 @@
       },
       { "text": " Haman,", "strong": "H2001" },
       { "text": " to see", "strong": "H7200", "morph": "QalInf" },
-      { "text": " whether Mordecai’s", "strong": "H4782" },
+      { "text": " whether Mordecai's", "strong": "H4782" },
       { "text": " matters", "strong": "H1697" },
       { "text": " would stand:", "strong": "H5975", "morph": "QalImpf" },
       { "text": " for he had told", "strong": "H5046", "morph": "HiphPerf" },
-      { "text": " them that he [was] a Jew.", "strong": "H3064" }
+      {
+        "content": [
+          " them that he ",
+          { "text": "was", "marks": ["i"] },
+          " a Jew."
+        ],
+        "strong": "H3064"
+      }
     ]
   },
   {
@@ -1189,11 +1604,18 @@
       { "text": " to destroy", "strong": "H8045", "morph": "HiphInf" },
       { "text": " all the Jews", "strong": "H3064" },
       {
-        "text": " that [were] throughout the whole kingdom",
+        "content": [
+          " that ",
+          { "text": "were", "marks": ["i"] },
+          " throughout the whole kingdom"
+        ],
         "strong": "H4438"
       },
       { "text": " of Ahasuerus,", "strong": "H325" },
-      { "text": " [even] the people", "strong": "H5971" },
+      {
+        "content": [{ "text": " even", "marks": ["i"] }, " the people"],
+        "strong": "H5971"
+      },
       { "text": " of Mordecai.", "strong": "H4782" }
     ]
   },
@@ -1202,9 +1624,12 @@
     "chapter": 3,
     "verse": 7,
     "content": [
-      { "text": "In the first", "strong": "H7223" },
+      { "paragraph": true, "text": "In the first", "strong": "H7223" },
       { "text": " month,", "strong": "H2320" },
-      { "text": " that [is], the month", "strong": "H2320" },
+      {
+        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the month"],
+        "strong": "H2320"
+      },
       { "text": " Nisan,", "strong": "H5212" },
       { "text": " in the twelfth", "strong": "H8147" },
       { "strong": "H6240" },
@@ -1213,16 +1638,30 @@
       { "text": " Ahasuerus,", "strong": "H325" },
       { "text": " they cast", "strong": "H5307", "morph": "HiphPerf" },
       { "text": " Pur,", "strong": "H6332" },
-      { "text": " that [is], the lot,", "strong": "H1486" },
+      {
+        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the lot,"],
+        "strong": "H1486"
+      },
       { "text": " before", "strong": "H6440" },
       { "text": " Haman", "strong": "H2001" },
       { "text": " from day", "strong": "H3117" },
       { "text": " to day,", "strong": "H3117" },
       { "text": " and from month", "strong": "H2320" },
       { "text": " to month,", "strong": "H2320" },
-      { "text": " [to] the twelfth", "strong": "H8147" },
+      {
+        "content": [{ "text": " to", "marks": ["i"] }, " the twelfth"],
+        "strong": "H8147"
+      },
       { "strong": "H6240" },
-      { "text": " [month], that [is], the month", "strong": "H2320" },
+      {
+        "content": [
+          { "text": " month", "marks": ["i"] },
+          ", that ",
+          { "text": "is", "marks": ["i"] },
+          ", the month"
+        ],
+        "strong": "H2320"
+      },
       { "text": " Adar.", "strong": "H143" }
     ]
   },
@@ -1244,12 +1683,35 @@
       { "text": " in all the provinces", "strong": "H4082" },
       { "text": " of thy kingdom;", "strong": "H4438" },
       { "text": " and their laws", "strong": "H1881" },
-      { "text": " [are] diverse", "strong": "H8138", "morph": "QalActPtc" },
+      {
+        "content": [{ "text": " are", "marks": ["i"] }, " diverse"],
+        "strong": "H8138",
+        "morph": "QalActPtc"
+      },
       { "text": " from all people;", "strong": "H5971" },
       { "text": " neither keep", "strong": "H6213", "morph": "QalActPtc" },
-      { "text": " they the king’s", "strong": "H4428" },
+      { "text": " they the king's", "strong": "H4428" },
       { "text": " laws:", "strong": "H1881" },
-      { "text": " therefore it [is] not for the king’s", "strong": "H4428" },
+      {
+        "content": [
+          {
+            "text": " therefor",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Heb. ",
+                { "text": "meet", "marks": ["i"] },
+                " Or, ",
+                { "text": "equal", "marks": ["i"] }
+              ]
+            }
+          },
+          "e it ",
+          { "text": "is", "marks": ["i"] },
+          " not for the king's"
+        ],
+        "strong": "H4428"
+      },
       { "text": " profit", "strong": "H7737", "morph": "QalActPtc" },
       { "text": " to suffer", "strong": "H3240", "morph": "HiphInf" },
       " them."
@@ -1265,10 +1727,22 @@
       { "text": " let it be written", "strong": "H3789", "morph": "NiphImpf" },
       {
         "text": " that they may be destroyed:",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "to destroy them", "marks": ["i"] }]
+        },
         "strong": "H6",
         "morph": "PielInf"
       },
-      { "text": " and I will pay", "strong": "H8254", "morph": "QalImpf" },
+      {
+        "text": " and I will pay",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "weigh", "marks": ["i"] }]
+        },
+        "strong": "H8254",
+        "morph": "QalImpf"
+      },
       { "text": " ten", "strong": "H6235" },
       { "text": " thousand", "strong": "H505" },
       { "text": " talents", "strong": "H3603" },
@@ -1281,7 +1755,10 @@
       },
       { "text": " of the business,", "strong": "H4399" },
       { "text": " to bring", "strong": "H935", "morph": "HiphInf" },
-      { "text": " [it] into the king’s", "strong": "H4428" },
+      {
+        "content": [{ "text": " it", "marks": ["i"] }, " into the king's"],
+        "strong": "H4428"
+      },
       { "text": " treasuries.", "strong": "H1595" }
     ]
   },
@@ -1299,8 +1776,16 @@
       { "text": " the son", "strong": "H1121" },
       { "text": " of Hammedatha", "strong": "H4099" },
       { "text": " the Agagite,", "strong": "H91" },
-      { "text": " the Jews’", "strong": "H3064" },
-      { "text": " enemy.", "strong": "H6887", "morph": "QalActPtc" }
+      { "text": " the Jews'", "strong": "H3064" },
+      {
+        "text": " enemy.",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "oppressor", "marks": ["i"] }]
+        },
+        "strong": "H6887",
+        "morph": "QalActPtc"
+      }
     ]
   },
   {
@@ -1312,7 +1797,11 @@
       { "text": " said", "strong": "H559", "morph": "QalImpf" },
       { "text": " unto Haman,", "strong": "H2001" },
       { "text": " The silver", "strong": "H3701" },
-      { "text": " [is] given", "strong": "H5414", "morph": "QalPasPtc" },
+      {
+        "content": [{ "text": " is", "marks": ["i"] }, " given"],
+        "strong": "H5414",
+        "morph": "QalPasPtc"
+      },
       { "text": " to thee, the people", "strong": "H5971" },
       { "text": " also, to do", "strong": "H6213", "morph": "QalInf" },
       { "text": " with them as it seemeth", "strong": "H5869" },
@@ -1325,8 +1814,16 @@
     "chapter": 3,
     "verse": 12,
     "content": [
-      { "text": "Then were the king’s", "strong": "H4428" },
-      { "text": " scribes", "strong": "H5608", "morph": "QalActPtc" },
+      { "paragraph": true, "text": "Then were the king's", "strong": "H4428" },
+      {
+        "text": " scribes",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "secretaries", "marks": ["i"] }]
+        },
+        "strong": "H5608",
+        "morph": "QalActPtc"
+      },
       { "text": " called", "strong": "H7121", "morph": "NiphImpf" },
       { "text": " on the thirteenth", "strong": "H7969" },
       { "strong": "H6240" },
@@ -1340,22 +1837,36 @@
       },
       { "text": " according to all that Haman", "strong": "H2001" },
       { "text": " had commanded", "strong": "H6680", "morph": "PielPerf" },
-      { "text": " unto the king’s", "strong": "H4428" },
+      { "text": " unto the king's", "strong": "H4428" },
       { "text": " lieutenants,", "strong": "H323" },
       { "text": " and to the governors", "strong": "H6346" },
-      { "text": " that [were] over every province,", "strong": "H4082" },
+      {
+        "content": [
+          " that ",
+          { "text": "were", "marks": ["i"] },
+          " over every province,"
+        ],
+        "strong": "H4082"
+      },
       { "text": " and to the rulers", "strong": "H8269" },
       { "text": " of every people", "strong": "H5971" },
       { "text": " of every province", "strong": "H4082" },
       { "text": " according to the writing", "strong": "H3791" },
-      { "text": " thereof, and [to] every people", "strong": "H5971" },
+      {
+        "content": [
+          " thereof, and ",
+          { "text": "to", "marks": ["i"] },
+          " every people"
+        ],
+        "strong": "H5971"
+      },
       { "text": " after their language;", "strong": "H3956" },
       { "text": " in the name", "strong": "H8034" },
       { "text": " of king", "strong": "H4428" },
       { "text": " Ahasuerus", "strong": "H325" },
       { "text": " was it written,", "strong": "H3789", "morph": "NiphPtc" },
       { "text": " and sealed", "strong": "H2856", "morph": "NiphPerf" },
-      { "text": " with the king’s", "strong": "H4428" },
+      { "text": " with the king's", "strong": "H4428" },
       { "text": " ring.", "strong": "H2885" }
     ]
   },
@@ -1368,7 +1879,7 @@
       { "text": " were sent", "strong": "H7971", "morph": "NiphInf" },
       { "text": " by", "strong": "H3027" },
       { "text": " posts", "strong": "H7323", "morph": "QalPtc" },
-      { "text": " into all the king’s", "strong": "H4428" },
+      { "text": " into all the king's", "strong": "H4428" },
       { "text": " provinces,", "strong": "H4082" },
       { "text": " to destroy,", "strong": "H8045", "morph": "HiphInf" },
       { "text": " to kill,", "strong": "H2026", "morph": "QalInf" },
@@ -1384,14 +1895,33 @@
       { "text": " and women,", "strong": "H802" },
       { "text": " in one", "strong": "H259" },
       { "text": " day,", "strong": "H3117" },
-      { "text": " [even] upon the thirteenth", "strong": "H7969" },
+      {
+        "content": [
+          { "text": " even", "marks": ["i"] },
+          " upon the thirteenth"
+        ],
+        "strong": "H7969"
+      },
       { "strong": "H6240" },
-      { "text": " [day] of the twelfth", "strong": "H8147" },
+      {
+        "content": [{ "text": " day", "marks": ["i"] }, " of the twelfth"],
+        "strong": "H8147"
+      },
       { "strong": "H6240" },
       { "text": " month,", "strong": "H2320" },
-      { "text": " which is the month", "strong": "H2320" },
+      {
+        "content": [" which ", { "text": "is", "marks": ["i"] }, " the month"],
+        "strong": "H2320"
+      },
       { "text": " Adar,", "strong": "H143" },
-      { "text": " and [to take] the spoil", "strong": "H7998" },
+      {
+        "content": [
+          " and ",
+          { "text": "to take", "marks": ["i"] },
+          " the spoil"
+        ],
+        "strong": "H7998"
+      },
       { "text": " of them for a prey.", "strong": "H962", "morph": "QalInf" }
     ]
   },
@@ -1419,7 +1949,7 @@
       { "text": "The posts", "strong": "H7323", "morph": "QalPtc" },
       { "text": " went out,", "strong": "H3318", "morph": "QalPerf" },
       { "text": " being hastened", "strong": "H1765", "morph": "QalPasPtc" },
-      { "text": " by the king’s", "strong": "H4428" },
+      { "text": " by the king's", "strong": "H4428" },
       { "text": " commandment,", "strong": "H1697" },
       { "text": " and the decree", "strong": "H1881" },
       { "text": " was given", "strong": "H5414", "morph": "NiphPerf" },
@@ -1462,16 +1992,20 @@
     "chapter": 4,
     "verse": 2,
     "content": [
-      { "text": "And came", "strong": "H935", "morph": "QalImpf" },
+      { "text": "and came", "strong": "H935", "morph": "QalImpf" },
       { "text": " even before", "strong": "H6440" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " gate:", "strong": "H8179" },
       {
-        "text": " for none [might] enter",
+        "content": [
+          " for none ",
+          { "text": "might", "marks": ["i"] },
+          " enter"
+        ],
         "strong": "H935",
         "morph": "QalInf"
       },
-      { "text": " into the king’s", "strong": "H4428" },
+      { "text": " into the king's", "strong": "H4428" },
       { "text": " gate", "strong": "H8179" },
       { "text": " clothed", "strong": "H3830" },
       { "text": " with sackcloth.", "strong": "H8242" }
@@ -1484,11 +2018,14 @@
     "content": [
       { "text": "And in every province,", "strong": "H4082" },
       { "text": " whithersoever", "strong": "H4725" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
       { "text": " and his decree", "strong": "H1881" },
       { "text": " came,", "strong": "H5060", "morph": "HiphPtc" },
-      { "text": " [there was] great", "strong": "H1419" },
+      {
+        "content": [{ "text": " there was", "marks": ["i"] }, " great"],
+        "strong": "H1419"
+      },
       { "text": " mourning", "strong": "H60" },
       { "text": " among the Jews,", "strong": "H3064" },
       { "text": " and fasting,", "strong": "H6685" },
@@ -1505,12 +2042,25 @@
     "chapter": 4,
     "verse": 4,
     "content": [
-      { "text": "So Esther’s", "strong": "H635" },
+      { "paragraph": true, "text": "So Esther's", "strong": "H635" },
       { "text": " maids", "strong": "H5291" },
-      { "text": " and her chamberlains", "strong": "H5631" },
+      {
+        "text": " and her chamberlains",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "Eunuchs", "marks": ["i"] }]
+        },
+        "strong": "H5631"
+      },
       { "text": " came", "strong": "H935", "morph": "QalImpf" },
       { "text": " and told", "strong": "H5046", "morph": "HiphImpf" },
-      { "text": " [it] her. Then was the queen", "strong": "H4436" },
+      {
+        "content": [
+          { "text": " it", "marks": ["i"] },
+          " her. Then was the queen"
+        ],
+        "strong": "H4436"
+      },
       { "text": " exceedingly", "strong": "H3966" },
       { "text": " grieved;", "strong": "H2342", "morph": "HippImpf" },
       { "text": " and she sent", "strong": "H7971", "morph": "QalImpf" },
@@ -1524,7 +2074,8 @@
         "strong": "H6901",
         "morph": "PielPerf"
       },
-      " [it] not."
+      { "text": " it", "marks": ["i"] },
+      " not."
     ]
   },
   {
@@ -1535,7 +2086,10 @@
       { "text": "Then called", "strong": "H7121", "morph": "QalImpf" },
       { "text": " Esther", "strong": "H635" },
       { "text": " for Hatach,", "strong": "H2047" },
-      { "text": " [one] of the king’s", "strong": "H4428" },
+      {
+        "content": [{ "text": " one", "marks": ["i"] }, " of the king's"],
+        "strong": "H4428"
+      },
       { "text": " chamberlains,", "strong": "H5631" },
       {
         "text": " whom he had appointed",
@@ -1544,13 +2098,29 @@
       },
       { "text": " to attend", "strong": "H6440" },
       {
-        "text": " upon her, and gave him a commandment",
+        "content": [
+          {
+            "text": " upon her,",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Heb. ",
+                { "text": "whom he had set before her", "marks": ["i"] }
+              ]
+            }
+          },
+          " and gave him a commandment"
+        ],
         "strong": "H6680",
         "morph": "PielImpf"
       },
       { "text": " to Mordecai,", "strong": "H4782" },
       { "text": " to know", "strong": "H3045", "morph": "QalInf" },
-      " what it [was], and why it [was]."
+      " what it ",
+      { "text": "was", "marks": ["i"] },
+      ", and why it ",
+      { "text": "was", "marks": ["i"] },
+      "."
     ]
   },
   {
@@ -1563,8 +2133,11 @@
       { "text": " to Mordecai", "strong": "H4782" },
       { "text": " unto the street", "strong": "H7339" },
       { "text": " of the city,", "strong": "H5892" },
-      { "text": " which [was] before", "strong": "H6440" },
-      { "text": " the king’s", "strong": "H4428" },
+      {
+        "content": [" which ", { "text": "was", "marks": ["i"] }, " before"],
+        "strong": "H6440"
+      },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " gate.", "strong": "H8179" }
     ]
   },
@@ -1585,7 +2158,7 @@
       { "text": " that Haman", "strong": "H2001" },
       { "text": " had promised", "strong": "H559", "morph": "QalPerf" },
       { "text": " to pay", "strong": "H8254", "morph": "QalInf" },
-      { "text": " to the king’s", "strong": "H4428" },
+      { "text": " to the king's", "strong": "H4428" },
       { "text": " treasuries", "strong": "H1595" },
       { "text": " for the Jews,", "strong": "H3064" },
       { "text": " to destroy", "strong": "H6", "morph": "PielInf" },
@@ -1605,10 +2178,16 @@
       { "text": " at Shushan", "strong": "H7800" },
       { "text": " to destroy", "strong": "H8045", "morph": "HiphInf" },
       { "text": " them, to shew", "strong": "H7200", "morph": "HiphInf" },
-      { "text": " [it] unto Esther,", "strong": "H635" },
+      {
+        "content": [{ "text": " it", "marks": ["i"] }, " unto Esther,"],
+        "strong": "H635"
+      },
       { "text": " and to declare", "strong": "H5046", "morph": "HiphInf" },
       {
-        "text": " [it] unto her, and to charge",
+        "content": [
+          { "text": " it", "marks": ["i"] },
+          " unto her, and to charge"
+        ],
         "strong": "H6680",
         "morph": "PielInf"
       },
@@ -1637,7 +2216,7 @@
     "chapter": 4,
     "verse": 9,
     "content": [
-      { "text": "And Hatach", "strong": "H2047" },
+      { "paragraph": true, "text": "And Hatach", "strong": "H2047" },
       { "text": " came", "strong": "H935", "morph": "QalImpf" },
       { "text": " and told", "strong": "H5046", "morph": "HiphImpf" },
       { "text": " Esther", "strong": "H635" },
@@ -1666,10 +2245,10 @@
     "chapter": 4,
     "verse": 11,
     "content": [
-      { "text": "All the king’s", "strong": "H4428" },
+      { "text": "all the king's", "strong": "H4428" },
       { "text": " servants,", "strong": "H5650" },
       { "text": " and the people", "strong": "H5971" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " provinces,", "strong": "H4082" },
       { "text": " do know,", "strong": "H3045", "morph": "QalActPtc" },
       { "text": " that whosoever, whether man", "strong": "H376" },
@@ -1679,10 +2258,17 @@
       { "text": " into the inner", "strong": "H6442" },
       { "text": " court,", "strong": "H2691" },
       { "text": " who is not called,", "strong": "H7121", "morph": "NiphImpf" },
-      { "text": " [there is] one", "strong": "H259" },
+      {
+        "content": [{ "text": " there is", "marks": ["i"] }, " one"],
+        "strong": "H259"
+      },
       { "text": " law", "strong": "H1881" },
       {
-        "text": " of his to put [him] to death,",
+        "content": [
+          " of his to put ",
+          { "text": "him", "marks": ["i"] },
+          " to death,"
+        ],
         "strong": "H4191",
         "morph": "HiphInf"
       },
@@ -1710,7 +2296,7 @@
     "content": [
       { "text": "And they told", "strong": "H5046", "morph": "HiphImpf" },
       { "text": " to Mordecai", "strong": "H4782" },
-      { "text": " Esther’s", "strong": "H635" },
+      { "text": " Esther's", "strong": "H635" },
       { "text": " words.", "strong": "H1697" }
     ]
   },
@@ -1719,7 +2305,7 @@
     "chapter": 4,
     "verse": 13,
     "content": [
-      { "text": "Then Mordecai", "strong": "H4782" },
+      { "paragraph": true, "text": "Then Mordecai", "strong": "H4782" },
       { "text": " commanded", "strong": "H559", "morph": "QalImpf" },
       { "text": " to answer", "strong": "H7725", "morph": "HiphInf" },
       { "text": " Esther,", "strong": "H635" },
@@ -1730,7 +2316,7 @@
         "strong": "H4422",
         "morph": "NiphInf"
       },
-      { "text": " in the king’s", "strong": "H4428" },
+      { "text": " in the king's", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
       { "text": " more than all the Jews.", "strong": "H3064" }
     ]
@@ -1747,13 +2333,25 @@
       },
       { "text": " holdest thy peace", "strong": "H2790", "morph": "HiphImpf" },
       { "text": " at this time,", "strong": "H6256" },
-      { "text": " [then] shall there enlargement", "strong": "H7305" },
+      {
+        "content": [
+          { "text": " then", "marks": ["i"] },
+          {
+            "text": " shall there enlargement",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "respiration", "marks": ["i"] }]
+            }
+          }
+        ],
+        "strong": "H7305"
+      },
       { "text": " and deliverance", "strong": "H2020" },
       { "text": " arise", "strong": "H5975", "morph": "QalImpf" },
       { "text": " to the Jews", "strong": "H3064" },
       { "text": " from another", "strong": "H312" },
       { "text": " place;", "strong": "H4725" },
-      { "text": " but thou and thy father’s", "strong": "H1" },
+      { "text": " but thou and thy father's", "strong": "H1" },
       { "text": " house", "strong": "H1004" },
       { "text": " shall be destroyed:", "strong": "H6", "morph": "QalImpf" },
       { "text": " and who knoweth", "strong": "H3045", "morph": "QalActPtc" },
@@ -1763,7 +2361,10 @@
         "morph": "HiphPerf"
       },
       { "text": " to the kingdom", "strong": "H4438" },
-      { "text": " for [such] a time", "strong": "H6256" },
+      {
+        "content": [" for ", { "text": "such", "marks": ["i"] }, " a time"],
+        "strong": "H6256"
+      },
       " as this?"
     ]
   },
@@ -1772,11 +2373,16 @@
     "chapter": 4,
     "verse": 15,
     "content": [
-      { "text": "Then Esther", "strong": "H635" },
+      { "paragraph": true, "text": "Then Esther", "strong": "H635" },
       { "text": " bade", "strong": "H559", "morph": "QalImpf" },
-      { "text": " [them] return", "strong": "H7725", "morph": "HiphInf" },
+      {
+        "content": [{ "text": " them", "marks": ["i"] }, " return"],
+        "strong": "H7725",
+        "morph": "HiphInf"
+      },
       { "text": " Mordecai", "strong": "H4782" },
-      " [this answer],"
+      { "text": " this answer", "marks": ["i"] },
+      ","
     ]
   },
   {
@@ -1787,7 +2393,15 @@
       { "text": "Go,", "strong": "H3212", "morph": "QalImpv" },
       { "text": " gather together", "strong": "H3664", "morph": "QalImpv" },
       { "text": " all the Jews", "strong": "H3064" },
-      { "text": " that are present", "strong": "H4672", "morph": "NiphPtc" },
+      {
+        "text": " that are present",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "found", "marks": ["i"] }]
+        },
+        "strong": "H4672",
+        "morph": "NiphPtc"
+      },
       { "text": " in Shushan,", "strong": "H7800" },
       { "text": " and fast", "strong": "H6684", "morph": "QalImpv" },
       {
@@ -1805,7 +2419,14 @@
       { "text": " likewise; and so", "strong": "H3651" },
       { "text": " will I go", "strong": "H935", "morph": "QalImpf" },
       { "text": " in unto the king,", "strong": "H4428" },
-      { "text": " which [is] not according to the law:", "strong": "H1881" },
+      {
+        "content": [
+          " which ",
+          { "text": "is", "marks": ["i"] },
+          " not according to the law:"
+        ],
+        "strong": "H1881"
+      },
       { "text": " and if I perish,", "strong": "H6", "morph": "QalPerf" },
       { "text": " I perish.", "strong": "H6", "morph": "QalPerf" }
     ]
@@ -1816,7 +2437,20 @@
     "verse": 17,
     "content": [
       { "text": "So Mordecai", "strong": "H4782" },
-      { "text": " went his way,", "strong": "H5674", "morph": "QalImpf" },
+      {
+        "content": [
+          {
+            "text": " went",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "passed", "marks": ["i"] }]
+            }
+          },
+          " his way,"
+        ],
+        "strong": "H5674",
+        "morph": "QalImpf"
+      },
       { "text": " and did", "strong": "H6213", "morph": "QalImpf" },
       { "text": " according to all that Esther", "strong": "H635" },
       { "text": " had commanded", "strong": "H6680", "morph": "PielPerf" },
@@ -1828,6 +2462,7 @@
     "chapter": 5,
     "verse": 1,
     "content": [
+      { "heading": "Esther's Request" },
       {
         "paragraph": true,
         "text": "Now it came to pass on the third",
@@ -1836,18 +2471,21 @@
       { "text": " day,", "strong": "H3117" },
       { "text": " that Esther", "strong": "H635" },
       { "text": " put on", "strong": "H3847", "morph": "QalImpf" },
-      { "text": " [her] royal", "strong": "H4438" },
       {
-        "text": " [apparel], and stood",
+        "content": [{ "text": " her", "marks": ["i"] }, " royal"],
+        "strong": "H4438"
+      },
+      {
+        "content": [{ "text": " apparel", "marks": ["i"] }, ", and stood"],
         "strong": "H5975",
         "morph": "QalImpf"
       },
       { "text": " in the inner", "strong": "H6442" },
       { "text": " court", "strong": "H2691" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
       { "text": " over against", "strong": "H5227" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " house:", "strong": "H1004" },
       { "text": " and the king", "strong": "H4428" },
       { "text": " sat", "strong": "H3427", "morph": "QalActPtc" },
@@ -1871,7 +2509,11 @@
       { "text": " the queen", "strong": "H4436" },
       { "text": " standing", "strong": "H5975", "morph": "QalActPtc" },
       { "text": " in the court,", "strong": "H2691" },
-      { "text": " [that] she obtained", "strong": "H5375", "morph": "QalPerf" },
+      {
+        "content": [{ "text": " that", "marks": ["i"] }, " she obtained"],
+        "strong": "H5375",
+        "morph": "QalPerf"
+      },
       { "text": " favour", "strong": "H2580" },
       { "text": " in his sight:", "strong": "H5869" },
       { "text": " and the king", "strong": "H4428" },
@@ -1879,7 +2521,14 @@
       { "text": " to Esther", "strong": "H635" },
       { "text": " the golden", "strong": "H2091" },
       { "text": " sceptre", "strong": "H8275" },
-      { "text": " that [was] in his hand.", "strong": "H3027" },
+      {
+        "content": [
+          " that ",
+          { "text": "was", "marks": ["i"] },
+          " in his hand."
+        ],
+        "strong": "H3027"
+      },
       { "text": " So Esther", "strong": "H635" },
       { "text": " drew near,", "strong": "H7126", "morph": "QalImpf" },
       { "text": " and touched", "strong": "H5060", "morph": "QalImpf" },
@@ -1896,7 +2545,14 @@
       { "text": " the king", "strong": "H4428" },
       { "text": " unto her, What wilt thou, queen", "strong": "H4436" },
       { "text": " Esther?", "strong": "H635" },
-      { "text": " and what [is] thy request?", "strong": "H1246" },
+      {
+        "content": [
+          " and what ",
+          { "text": "is", "marks": ["i"] },
+          " thy request?"
+        ],
+        "strong": "H1246"
+      },
       {
         "text": " it shall be even given",
         "strong": "H5414",
@@ -1913,7 +2569,11 @@
     "content": [
       { "text": "And Esther", "strong": "H635" },
       { "text": " answered,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " If [it seem] good", "strong": "H2895", "morph": "QalPerf" },
+      {
+        "content": [" If ", { "text": "it seem", "marks": ["i"] }, " good"],
+        "strong": "H2895",
+        "morph": "QalPerf"
+      },
       { "text": " unto the king,", "strong": "H4428" },
       { "text": " let the king", "strong": "H4428" },
       { "text": " and Haman", "strong": "H2001" },
@@ -1933,7 +2593,7 @@
     "chapter": 5,
     "verse": 5,
     "content": [
-      { "text": "Then the king", "strong": "H4428" },
+      { "paragraph": true, "text": "Then the king", "strong": "H4428" },
       { "text": " said,", "strong": "H559", "morph": "QalImpf" },
       { "text": " Cause Haman", "strong": "H2001" },
       { "text": " to make haste,", "strong": "H4116", "morph": "PielImpv" },
@@ -1958,13 +2618,27 @@
       { "text": " unto Esther", "strong": "H635" },
       { "text": " at the banquet", "strong": "H4960" },
       { "text": " of wine,", "strong": "H3196" },
-      { "text": " What [is] thy petition?", "strong": "H7596" },
+      {
+        "content": [
+          " What ",
+          { "text": "is", "marks": ["i"] },
+          " thy petition?"
+        ],
+        "strong": "H7596"
+      },
       {
         "text": " and it shall be granted",
         "strong": "H5414",
         "morph": "NiphImpf"
       },
-      { "text": " thee: and what [is] thy request?", "strong": "H1246" },
+      {
+        "content": [
+          " thee: and what ",
+          { "text": "is", "marks": ["i"] },
+          " thy request?"
+        ],
+        "strong": "H1246"
+      },
       { "text": " even to the half", "strong": "H2677" },
       { "text": " of the kingdom", "strong": "H4438" },
       {
@@ -1984,7 +2658,8 @@
       { "text": " and said,", "strong": "H559", "morph": "QalImpf" },
       { "text": " My petition", "strong": "H7596" },
       { "text": " and my request", "strong": "H1246" },
-      " [is];"
+      { "text": " is", "marks": ["i"] },
+      ";"
     ]
   },
   {
@@ -1992,7 +2667,7 @@
     "chapter": 5,
     "verse": 8,
     "content": [
-      { "text": "If I have found", "strong": "H4672", "morph": "QalPerf" },
+      { "text": "if I have found", "strong": "H4672", "morph": "QalPerf" },
       { "text": " favour", "strong": "H2580" },
       { "text": " in the sight", "strong": "H5869" },
       { "text": " of the king,", "strong": "H4428" },
@@ -2000,7 +2675,15 @@
       { "text": " the king", "strong": "H4428" },
       { "text": " to grant", "strong": "H5414", "morph": "QalInf" },
       { "text": " my petition,", "strong": "H7596" },
-      { "text": " and to perform", "strong": "H6213", "morph": "QalInf" },
+      {
+        "text": " and to perform",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "to do", "marks": ["i"] }]
+        },
+        "strong": "H6213",
+        "morph": "QalInf"
+      },
       { "text": " my request,", "strong": "H1246" },
       { "text": " let the king", "strong": "H4428" },
       { "text": " and Haman", "strong": "H2001" },
@@ -2026,7 +2709,7 @@
     "chapter": 5,
     "verse": 9,
     "content": [
-      { "text": "Then went", "strong": "H3318" },
+      { "paragraph": true, "text": "Then went", "strong": "H3318" },
       { "text": " Haman", "strong": "H2001" },
       { "text": " forth", "strong": "H3318", "morph": "QalImpf" },
       { "text": " that day", "strong": "H3117" },
@@ -2036,7 +2719,7 @@
       { "text": " but when Haman", "strong": "H2001" },
       { "text": " saw", "strong": "H7200", "morph": "QalInf" },
       { "text": " Mordecai", "strong": "H4782" },
-      { "text": " in the king’s", "strong": "H4428" },
+      { "text": " in the king's", "strong": "H4428" },
       { "text": " gate,", "strong": "H8179" },
       {
         "text": " that he stood not up,",
@@ -2064,7 +2747,15 @@
       },
       { "text": " home,", "strong": "H1004" },
       { "text": " he sent", "strong": "H7971", "morph": "QalImpf" },
-      { "text": " and called", "strong": "H935", "morph": "HiphImpf" },
+      {
+        "text": " and called",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "caused to come", "marks": ["i"] }]
+        },
+        "strong": "H935",
+        "morph": "HiphImpf"
+      },
       { "text": " for his friends,", "strong": "H157", "morph": "QalActPtc" },
       { "text": " and Zeresh", "strong": "H2238" },
       { "text": " his wife.", "strong": "H802" }
@@ -2081,7 +2772,14 @@
       { "text": " of his riches,", "strong": "H6239" },
       { "text": " and the multitude", "strong": "H7230" },
       { "text": " of his children,", "strong": "H1121" },
-      { "text": " and all [the things] wherein the king", "strong": "H4428" },
+      {
+        "content": [
+          " and all ",
+          { "text": "the things", "marks": ["i"] },
+          " wherein the king"
+        ],
+        "strong": "H4428"
+      },
       { "text": " had promoted", "strong": "H1431", "morph": "PielPerf" },
       {
         "text": " him, and how he had advanced",
@@ -2134,7 +2832,7 @@
       { "text": " Mordecai", "strong": "H4782" },
       { "text": " the Jew", "strong": "H3064" },
       { "text": " sitting", "strong": "H3427", "morph": "QalActPtc" },
-      { "text": " at the king’s", "strong": "H4428" },
+      { "text": " at the king's", "strong": "H4428" },
       { "text": " gate.", "strong": "H8179" }
     ]
   },
@@ -2151,7 +2849,14 @@
         "strong": "H157",
         "morph": "QalActPtc"
       },
-      { "text": " unto him, Let a gallows", "strong": "H6086" },
+      {
+        "text": " unto him, Let a gallows",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "tree", "marks": ["i"] }]
+        },
+        "strong": "H6086"
+      },
       { "text": " be made", "strong": "H6213", "morph": "QalImpf" },
       { "text": " of fifty", "strong": "H2572" },
       { "text": " cubits", "strong": "H520" },
@@ -2182,7 +2887,17 @@
       { "paragraph": true, "text": "On that night", "strong": "H3915" },
       { "text": " could not", "strong": "H5074", "morph": "QalPerf" },
       { "text": " the king", "strong": "H4428" },
-      { "text": " sleep,", "strong": "H8142" },
+      {
+        "text": " sleep,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "the kings sleep fled away", "marks": ["i"] }
+          ]
+        },
+        "strong": "H8142"
+      },
       { "text": " and he commanded", "strong": "H559", "morph": "QalImpf" },
       { "text": " to bring", "strong": "H935", "morph": "HiphInf" },
       { "text": " the book", "strong": "H5612" },
@@ -2203,13 +2918,27 @@
       { "text": " written,", "strong": "H3789", "morph": "QalPasPtc" },
       { "text": " that Mordecai", "strong": "H4782" },
       { "text": " had told", "strong": "H5046", "morph": "HiphPerf" },
-      { "text": " of Bigthana", "strong": "H904" },
+      {
+        "text": " of Bigthana",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Bigthan", "marks": ["i"] }]
+        },
+        "strong": "H904"
+      },
       { "text": " and Teresh,", "strong": "H8657" },
       { "text": " two", "strong": "H8147" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " chamberlains,", "strong": "H5631" },
       { "text": " the keepers", "strong": "H8104", "morph": "QalActPtc" },
-      { "text": " of the door,", "strong": "H5592" },
+      {
+        "text": " of the door,",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "threshold", "marks": ["i"] }]
+        },
+        "strong": "H5592"
+      },
       { "text": " who sought", "strong": "H1245", "morph": "PielPerf" },
       { "text": " to lay", "strong": "H7971", "morph": "QalInf" },
       { "text": " hand", "strong": "H3027" },
@@ -2229,7 +2958,7 @@
       { "text": " hath been done", "strong": "H6213", "morph": "NiphPerf" },
       { "text": " to Mordecai", "strong": "H4782" },
       { "text": " for this? Then said", "strong": "H559", "morph": "QalImpf" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " servants", "strong": "H5288" },
       { "text": " that ministered", "strong": "H8334", "morph": "PielPtc" },
       { "text": " unto him, There is nothing", "strong": "H1697" },
@@ -2242,14 +2971,21 @@
     "chapter": 6,
     "verse": 4,
     "content": [
-      { "text": "And the king", "strong": "H4428" },
+      { "paragraph": true, "text": "And the king", "strong": "H4428" },
       { "text": " said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " Who [is] in the court?", "strong": "H2691" },
+      {
+        "content": [
+          " Who ",
+          { "text": "is", "marks": ["i"] },
+          " in the court?"
+        ],
+        "strong": "H2691"
+      },
       { "text": " Now Haman", "strong": "H2001" },
       { "text": " was come", "strong": "H935", "morph": "QalPerf" },
       { "text": " into the outward", "strong": "H2435" },
       { "text": " court", "strong": "H2691" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
       { "text": " to speak", "strong": "H559", "morph": "QalInf" },
       { "text": " unto the king", "strong": "H4428" },
@@ -2269,7 +3005,7 @@
     "chapter": 6,
     "verse": 5,
     "content": [
-      { "text": "And the king’s", "strong": "H4428" },
+      { "text": "And the king's", "strong": "H4428" },
       { "text": " servants", "strong": "H5288" },
       { "text": " said", "strong": "H559", "morph": "QalImpf" },
       { "text": " unto him, Behold, Haman", "strong": "H2001" },
@@ -2328,11 +3064,41 @@
     "chapter": 6,
     "verse": 8,
     "content": [
-      { "text": "Let the royal", "strong": "H4438" },
+      { "text": "let the royal", "strong": "H4438" },
       { "text": " apparel", "strong": "H3830" },
-      { "text": " be brought", "strong": "H935", "morph": "HiphImpf" },
+      {
+        "text": " be brought",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "let them bring the royal apparel", "marks": ["i"] }
+          ]
+        },
+        "strong": "H935",
+        "morph": "HiphImpf"
+      },
       { "text": " which the king", "strong": "H4428" },
-      { "text": " [useth] to wear,", "strong": "H3847", "morph": "QalPerf" },
+      {
+        "content": [
+          { "text": " useth", "marks": ["i"] },
+          {
+            "text": " to wear,",
+            "foot": {
+              "type": "trn",
+              "content": [
+                "Heb. ",
+                {
+                  "text": "wherewith the king clotheth himself",
+                  "marks": ["i"]
+                }
+              ]
+            }
+          }
+        ],
+        "strong": "H3847",
+        "morph": "QalPerf"
+      },
       { "text": " and the horse", "strong": "H5483" },
       { "text": " that the king", "strong": "H4428" },
       { "text": " rideth", "strong": "H7392", "morph": "QalPerf" },
@@ -2347,12 +3113,12 @@
     "chapter": 6,
     "verse": 9,
     "content": [
-      { "text": "And let this apparel", "strong": "H3830" },
+      { "text": "and let this apparel", "strong": "H3830" },
       { "text": " and horse", "strong": "H5483" },
       { "text": " be delivered", "strong": "H5414", "morph": "QalInf" },
       { "text": " to the hand", "strong": "H3027" },
       { "text": " of one", "strong": "H376" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " most noble", "strong": "H6579" },
       { "text": " princes,", "strong": "H8269" },
       {
@@ -2361,11 +3127,21 @@
         "morph": "HiphPerf"
       },
       { "text": " the man", "strong": "H376" },
-      { "text": " [withal] whom the king", "strong": "H4428" },
+      {
+        "content": [{ "text": " withal", "marks": ["i"] }, " whom the king"],
+        "strong": "H4428"
+      },
       { "text": " delighteth", "strong": "H2654", "morph": "QalPerf" },
       { "text": " to honour,", "strong": "H3366" },
       { "text": " and bring", "strong": "H7392", "morph": "HiphPerf" },
-      { "text": " him on horseback", "strong": "H5483" },
+      {
+        "text": " him on horseback",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "cause him to ride", "marks": ["i"] }]
+        },
+        "strong": "H5483"
+      },
       { "text": " through the street", "strong": "H7339" },
       { "text": " of the city,", "strong": "H5892" },
       { "text": " and proclaim", "strong": "H7121", "morph": "QalPerf" },
@@ -2386,11 +3162,15 @@
     "chapter": 6,
     "verse": 10,
     "content": [
-      { "text": "Then the king", "strong": "H4428" },
+      { "paragraph": true, "text": "Then the king", "strong": "H4428" },
       { "text": " said", "strong": "H559", "morph": "QalImpf" },
       { "text": " to Haman,", "strong": "H2001" },
       { "text": " Make haste,", "strong": "H4116", "morph": "PielImpv" },
-      { "text": " [and] take", "strong": "H3947", "morph": "QalImpv" },
+      {
+        "content": [{ "text": " and", "marks": ["i"] }, " take"],
+        "strong": "H3947",
+        "morph": "QalImpv"
+      },
       { "text": " the apparel", "strong": "H3830" },
       { "text": " and the horse,", "strong": "H5483" },
       { "text": " as thou hast said,", "strong": "H1696", "morph": "PielPerf" },
@@ -2398,10 +3178,21 @@
       { "text": " even so to Mordecai", "strong": "H4782" },
       { "text": " the Jew,", "strong": "H3064" },
       { "text": " that sitteth", "strong": "H3427", "morph": "QalActPtc" },
-      { "text": " at the king’s", "strong": "H4428" },
+      { "text": " at the king's", "strong": "H4428" },
       { "text": " gate:", "strong": "H8179" },
       { "text": " let nothing", "strong": "H1697" },
-      { "text": " fail", "strong": "H5307", "morph": "HiphImpf" },
+      {
+        "text": " fail",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "suffer not a whit to fail", "marks": ["i"] }
+          ]
+        },
+        "strong": "H5307",
+        "morph": "HiphImpf"
+      },
       {
         "text": " of all that thou hast spoken.",
         "strong": "H1696",
@@ -2447,7 +3238,7 @@
     "content": [
       { "text": "And Mordecai", "strong": "H4782" },
       { "text": " came again", "strong": "H7725", "morph": "QalImpf" },
-      { "text": " to the king’s", "strong": "H4428" },
+      { "text": " to the king's", "strong": "H4428" },
       { "text": " gate.", "strong": "H8179" },
       { "text": " But Haman", "strong": "H2001" },
       { "text": " hasted", "strong": "H1765", "morph": "NiphPerf" },
@@ -2472,7 +3263,11 @@
         "morph": "QalActPtc"
       },
       {
-        "text": " every [thing] that had befallen",
+        "content": [
+          " every ",
+          { "text": "thing", "marks": ["i"] },
+          " that had befallen"
+        ],
         "strong": "H7136",
         "morph": "QalPerf"
       },
@@ -2481,7 +3276,10 @@
       { "text": " and Zeresh", "strong": "H2238" },
       { "text": " his wife", "strong": "H802" },
       { "text": " unto him, If Mordecai", "strong": "H4782" },
-      { "text": " [be] of the seed", "strong": "H2233" },
+      {
+        "content": [{ "text": " be", "marks": ["i"] }, " of the seed"],
+        "strong": "H2233"
+      },
       { "text": " of the Jews,", "strong": "H3064" },
       { "text": " before", "strong": "H6440" },
       {
@@ -2511,12 +3309,16 @@
     "verse": 14,
     "content": [
       {
-        "text": "And while they [were] yet talking",
+        "content": [
+          "And while they ",
+          { "text": "were", "marks": ["i"] },
+          " yet talking"
+        ],
         "strong": "H1696",
         "morph": "PielPtc"
       },
       { "text": " with him, came", "strong": "H5060", "morph": "HiphPerf" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " chamberlains,", "strong": "H5631" },
       { "text": " and hasted", "strong": "H926", "morph": "HiphImpf" },
       { "text": " to bring", "strong": "H935", "morph": "HiphInf" },
@@ -2534,7 +3336,15 @@
       { "paragraph": true, "text": "So the king", "strong": "H4428" },
       { "text": " and Haman", "strong": "H2001" },
       { "text": " came", "strong": "H935", "morph": "QalImpf" },
-      { "text": " to banquet", "strong": "H8354", "morph": "QalInf" },
+      {
+        "text": " to banquet",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "to drink", "marks": ["i"] }]
+        },
+        "strong": "H8354",
+        "morph": "QalInf"
+      },
       { "text": " with Esther", "strong": "H635" },
       { "text": " the queen.", "strong": "H4436" }
     ]
@@ -2551,7 +3361,14 @@
       { "text": " day", "strong": "H3117" },
       { "text": " at the banquet", "strong": "H4960" },
       { "text": " of wine,", "strong": "H3196" },
-      { "text": " What [is] thy petition,", "strong": "H7596" },
+      {
+        "content": [
+          " What ",
+          { "text": "is", "marks": ["i"] },
+          " thy petition,"
+        ],
+        "strong": "H7596"
+      },
       { "text": " queen", "strong": "H4436" },
       { "text": " Esther?", "strong": "H635" },
       {
@@ -2559,13 +3376,23 @@
         "strong": "H5414",
         "morph": "NiphImpf"
       },
-      { "text": " thee: and what [is] thy request?", "strong": "H1246" },
+      {
+        "content": [
+          " thee: and what ",
+          { "text": "is", "marks": ["i"] },
+          " thy request?"
+        ],
+        "strong": "H1246"
+      },
       {
         "text": " and it shall be performed,",
         "strong": "H6213",
         "morph": "NiphImpf"
       },
-      { "text": " [even] to the half", "strong": "H2677" },
+      {
+        "content": [{ "text": " even", "marks": ["i"] }, " to the half"],
+        "strong": "H2677"
+      },
       { "text": " of the kingdom.", "strong": "H4438" }
     ]
   },
@@ -2596,11 +3423,25 @@
     "chapter": 7,
     "verse": 4,
     "content": [
-      { "text": "For we are sold,", "strong": "H4376", "morph": "NiphPerf" },
+      { "text": "for we are sold,", "strong": "H4376", "morph": "NiphPerf" },
       { "text": " I and my people,", "strong": "H5971" },
       { "text": " to be destroyed,", "strong": "H8045", "morph": "HiphInf" },
       { "text": " to be slain,", "strong": "H2026", "morph": "QalInf" },
-      { "text": " and to perish.", "strong": "H6", "morph": "PielInf" },
+      {
+        "text": " and to perish.",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            {
+              "text": "that they should destroy and kill, and cause to perish",
+              "marks": ["i"]
+            }
+          ]
+        },
+        "strong": "H6",
+        "morph": "PielInf"
+      },
       { "text": " But if", "strong": "H432" },
       { "text": " we had been sold", "strong": "H4376", "morph": "NiphPerf" },
       { "text": " for bondmen", "strong": "H5650" },
@@ -2616,7 +3457,7 @@
         "strong": "H7737",
         "morph": "QalActPtc"
       },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " damage.", "strong": "H5143" }
     ]
   },
@@ -2625,7 +3466,7 @@
     "chapter": 7,
     "verse": 5,
     "content": [
-      { "text": "Then the king", "strong": "H4428" },
+      { "paragraph": true, "text": "Then the king", "strong": "H4428" },
       { "text": " Ahasuerus", "strong": "H325" },
       { "text": " answered", "strong": "H559", "morph": "QalImpf" },
       { "text": " and said", "strong": "H559", "morph": "QalImpf" },
@@ -2636,7 +3477,17 @@
         "strong": "H4390",
         "morph": "QalPerf"
       },
-      { "text": " in his heart", "strong": "H3820" },
+      {
+        "text": " in his heart",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "whose heart hath filled him", "marks": ["i"] }
+          ]
+        },
+        "strong": "H3820"
+      },
       { "text": " to do", "strong": "H6213", "morph": "QalInf" },
       " so?"
     ]
@@ -2648,14 +3499,31 @@
     "content": [
       { "text": "And Esther", "strong": "H635" },
       { "text": " said,", "strong": "H559", "morph": "QalImpf" },
-      { "text": " The adversary", "strong": "H376" },
+      {
+        "text": " The adversary",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "The man adversary", "marks": ["i"] }]
+        },
+        "strong": "H376"
+      },
       { "strong": "H6862" },
       { "text": " and enemy", "strong": "H341", "morph": "QalActPtc" },
-      { "text": " [is] this wicked", "strong": "H7451" },
+      {
+        "content": [{ "text": " is", "marks": ["i"] }, " this wicked"],
+        "strong": "H7451"
+      },
       { "text": " Haman.", "strong": "H2001" },
       { "text": " Then Haman", "strong": "H2001" },
       { "text": " was afraid", "strong": "H1204", "morph": "NiphPerf" },
-      { "text": " before", "strong": "H6440" },
+      {
+        "text": " before",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "at the presence of", "marks": ["i"] }]
+        },
+        "strong": "H6440"
+      },
       { "text": " the king", "strong": "H4428" },
       { "text": " and the queen.", "strong": "H4436" }
     ]
@@ -2665,12 +3533,15 @@
     "chapter": 7,
     "verse": 7,
     "content": [
-      { "text": "And the king", "strong": "H4428" },
+      { "paragraph": true, "text": "And the king", "strong": "H4428" },
       { "text": " arising", "strong": "H6965", "morph": "QalPerf" },
       { "text": " from the banquet", "strong": "H4960" },
       { "text": " of wine", "strong": "H3196" },
       { "text": " in his wrath", "strong": "H2534" },
-      { "text": " [went] into the palace", "strong": "H1055" },
+      {
+        "content": [{ "text": " went", "marks": ["i"] }, " into the palace"],
+        "strong": "H1055"
+      },
       { "text": " garden:", "strong": "H1594" },
       { "text": " and Haman", "strong": "H2001" },
       { "text": " stood up", "strong": "H5975", "morph": "QalPerf" },
@@ -2700,17 +3571,33 @@
       { "text": " was fallen", "strong": "H5307", "morph": "QalActPtc" },
       { "text": " upon the bed", "strong": "H4296" },
       { "text": " whereon Esther", "strong": "H635" },
-      { "text": " [was]. Then said", "strong": "H559", "morph": "QalImpf" },
+      {
+        "content": [{ "text": " was", "marks": ["i"] }, ". Then said"],
+        "strong": "H559",
+        "morph": "QalImpf"
+      },
       { "text": " the king,", "strong": "H4428" },
       { "text": " Will he force", "strong": "H3533", "morph": "QalInf" },
       { "text": " the queen", "strong": "H4436" },
-      { "text": " also before me in the house?", "strong": "H1004" },
+      {
+        "content": [
+          {
+            "text": " also before me",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "with me", "marks": ["i"] }]
+            }
+          },
+          " in the house?"
+        ],
+        "strong": "H1004"
+      },
       { "text": " As the word", "strong": "H1697" },
       { "text": " went out", "strong": "H3318", "morph": "QalPerf" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " mouth,", "strong": "H6310" },
       { "text": " they covered", "strong": "H2645", "morph": "QalPerf" },
-      { "text": " Haman’s", "strong": "H2001" },
+      { "text": " Haman's", "strong": "H2001" },
       { "text": " face.", "strong": "H6440" }
     ]
   },
@@ -2725,7 +3612,14 @@
       { "text": " said", "strong": "H559", "morph": "QalImpf" },
       { "text": " before", "strong": "H6440" },
       { "text": " the king,", "strong": "H4428" },
-      { "text": " Behold also, the gallows", "strong": "H6086" },
+      {
+        "text": " Behold also, the gallows",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "tree", "marks": ["i"] }]
+        },
+        "strong": "H6086"
+      },
       { "text": " fifty", "strong": "H2572" },
       { "text": " cubits", "strong": "H520" },
       { "text": " high,", "strong": "H1364" },
@@ -2758,7 +3652,7 @@
         "morph": "HiphPerf"
       },
       { "text": " for Mordecai.", "strong": "H4782" },
-      { "text": " Then was the king’s", "strong": "H4428" },
+      { "text": " Then was the king's", "strong": "H4428" },
       { "text": " wrath", "strong": "H2534" },
       { "text": " pacified.", "strong": "H7918", "morph": "QalPerf" }
     ]
@@ -2768,13 +3662,14 @@
     "chapter": 8,
     "verse": 1,
     "content": [
+      { "heading": "Mordecai Honoured" },
       { "paragraph": true, "text": "On that day", "strong": "H3117" },
       { "text": " did the king", "strong": "H4428" },
       { "text": " Ahasuerus", "strong": "H325" },
       { "text": " give", "strong": "H5414", "morph": "QalPerf" },
       { "text": " the house", "strong": "H1004" },
       { "text": " of Haman", "strong": "H2001" },
-      { "text": " the Jews’", "strong": "H3064" },
+      { "text": " the Jews'", "strong": "H3064" },
       { "text": " enemy", "strong": "H6887", "morph": "QalActPtc" },
       { "text": " unto Esther", "strong": "H635" },
       { "text": " the queen.", "strong": "H4436" },
@@ -2784,7 +3679,9 @@
       { "text": " the king;", "strong": "H4428" },
       { "text": " for Esther", "strong": "H635" },
       { "text": " had told", "strong": "H5046", "morph": "HiphPerf" },
-      " what he [was] unto her."
+      " what he ",
+      { "text": "was", "marks": ["i"] },
+      " unto her."
     ]
   },
   {
@@ -2811,7 +3708,7 @@
     "chapter": 8,
     "verse": 3,
     "content": [
-      { "text": "And Esther", "strong": "H635" },
+      { "paragraph": true, "text": "And Esther", "strong": "H635" },
       { "text": " spake", "strong": "H1696", "morph": "PielImpf" },
       { "text": " yet again", "strong": "H3254", "morph": "HiphImpf" },
       { "text": " before", "strong": "H6440" },
@@ -2820,7 +3717,18 @@
       { "text": " at", "strong": "H6440" },
       { "text": " his feet,", "strong": "H7272" },
       { "text": " and besought", "strong": "H2603", "morph": "HithImpf" },
-      { "text": " him with tears", "strong": "H1058", "morph": "QalImpf" },
+      {
+        "text": " him with tears",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "and she wept and besought him", "marks": ["i"] }
+          ]
+        },
+        "strong": "H1058",
+        "morph": "QalImpf"
+      },
       { "text": " to put away", "strong": "H5674", "morph": "HiphInf" },
       { "text": " the mischief", "strong": "H7451" },
       { "text": " of Haman", "strong": "H2001" },
@@ -2852,30 +3760,59 @@
     "chapter": 8,
     "verse": 5,
     "content": [
-      { "text": "And said,", "strong": "H559", "morph": "QalImpf" },
+      { "text": "and said,", "strong": "H559", "morph": "QalImpf" },
       { "text": " If it please", "strong": "H2896" },
       { "text": " the king,", "strong": "H4428" },
       { "text": " and if I have found", "strong": "H4672", "morph": "QalPerf" },
       { "text": " favour", "strong": "H2580" },
       { "text": " in his sight,", "strong": "H6440" },
       { "text": " and the thing", "strong": "H1697" },
-      { "text": " [seem] right", "strong": "H3787", "morph": "QalPerf" },
+      {
+        "content": [{ "text": " seem", "marks": ["i"] }, " right"],
+        "strong": "H3787",
+        "morph": "QalPerf"
+      },
       { "text": " before", "strong": "H6440" },
       { "text": " the king,", "strong": "H4428" },
-      { "text": " and I [be] pleasing", "strong": "H2896" },
+      {
+        "content": [" and I ", { "text": "be", "marks": ["i"] }, " pleasing"],
+        "strong": "H2896"
+      },
       { "text": " in his eyes,", "strong": "H5869" },
       { "text": " let it be written", "strong": "H3789", "morph": "NiphImpf" },
       { "text": " to reverse", "strong": "H7725", "morph": "HiphInf" },
       { "text": " the letters", "strong": "H5612" },
-      { "text": " devised", "strong": "H4284" },
+      {
+        "text": " devised",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "the device", "marks": ["i"] }]
+        },
+        "strong": "H4284"
+      },
       { "text": " by Haman", "strong": "H2001" },
       { "text": " the son", "strong": "H1121" },
       { "text": " of Hammedatha", "strong": "H4099" },
       { "text": " the Agagite,", "strong": "H91" },
-      { "text": " which he wrote", "strong": "H3789", "morph": "QalPerf" },
+      {
+        "text": " which he wrote",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "who wrote", "marks": ["i"] }]
+        },
+        "strong": "H3789",
+        "morph": "QalPerf"
+      },
       { "text": " to destroy", "strong": "H6", "morph": "PielInf" },
       { "text": " the Jews", "strong": "H3064" },
-      { "text": " which [are] in all the king’s", "strong": "H4428" },
+      {
+        "content": [
+          " which ",
+          { "text": "are", "marks": ["i"] },
+          " in all the king's"
+        ],
+        "strong": "H4428"
+      },
       { "text": " provinces:", "strong": "H4082" }
     ]
   },
@@ -2884,9 +3821,20 @@
     "chapter": 8,
     "verse": 6,
     "content": [
-      { "text": "For how", "strong": "H349" },
+      { "text": "for how", "strong": "H349" },
       { "text": " can I endure", "strong": "H3201", "morph": "QalImpf" },
-      { "text": " to see", "strong": "H7200", "morph": "QalPerf" },
+      {
+        "text": " to see",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "be able that I may see", "marks": ["i"] }
+          ]
+        },
+        "strong": "H7200",
+        "morph": "QalPerf"
+      },
       { "text": " the evil", "strong": "H7451" },
       { "text": " that shall come", "strong": "H4672", "morph": "QalImpf" },
       { "text": " unto my people?", "strong": "H5971" },
@@ -2937,17 +3885,20 @@
       { "text": " ye also for the Jews,", "strong": "H3064" },
       { "text": " as it liketh", "strong": "H2896" },
       { "text": " you,", "strong": "H5869" },
-      { "text": " in the king’s", "strong": "H4428" },
+      { "text": " in the king's", "strong": "H4428" },
       { "text": " name,", "strong": "H8034" },
       { "text": " and seal", "strong": "H2856", "morph": "QalImpv" },
-      { "text": " [it] with the king’s", "strong": "H4428" },
+      {
+        "content": [{ "text": " it", "marks": ["i"] }, " with the king's"],
+        "strong": "H4428"
+      },
       { "text": " ring:", "strong": "H2885" },
       { "text": " for the writing", "strong": "H3791" },
       { "text": " which is written", "strong": "H3789", "morph": "NiphPtc" },
-      { "text": " in the king’s", "strong": "H4428" },
+      { "text": " in the king's", "strong": "H4428" },
       { "text": " name,", "strong": "H8034" },
       { "text": " and sealed", "strong": "H2856", "morph": "NiphPtc" },
-      { "text": " with the king’s", "strong": "H4428" },
+      { "text": " with the king's", "strong": "H4428" },
       { "text": " ring,", "strong": "H2885" },
       { "text": " may no man reverse.", "strong": "H7725", "morph": "HiphInf" }
     ]
@@ -2957,18 +3908,24 @@
     "chapter": 8,
     "verse": 9,
     "content": [
-      { "text": "Then were the king’s", "strong": "H4428" },
+      { "paragraph": true, "text": "Then were the king's", "strong": "H4428" },
       { "text": " scribes", "strong": "H5608", "morph": "QalActPtc" },
       { "text": " called", "strong": "H7121", "morph": "NiphImpf" },
       { "text": " at that time", "strong": "H6256" },
       { "text": " in the third", "strong": "H7992" },
       { "text": " month,", "strong": "H2320" },
-      { "text": " that [is], the month", "strong": "H2320" },
+      {
+        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the month"],
+        "strong": "H2320"
+      },
       { "text": " Sivan,", "strong": "H5510" },
       { "text": " on the three", "strong": "H7969" },
       { "text": " and twentieth", "strong": "H6242" },
       {
-        "text": " [day] thereof; and it was written",
+        "content": [
+          { "text": " day", "marks": ["i"] },
+          " thereof; and it was written"
+        ],
         "strong": "H3789",
         "morph": "NiphImpf"
       },
@@ -2979,7 +3936,14 @@
       { "text": " and the deputies", "strong": "H6346" },
       { "text": " and rulers", "strong": "H8269" },
       { "text": " of the provinces", "strong": "H4082" },
-      { "text": " which [are] from India", "strong": "H1912" },
+      {
+        "content": [
+          " which ",
+          { "text": "are", "marks": ["i"] },
+          " from India"
+        ],
+        "strong": "H1912"
+      },
       { "text": " unto Ethiopia,", "strong": "H3568" },
       { "text": " an hundred", "strong": "H3967" },
       { "text": " twenty", "strong": "H6242" },
@@ -3001,20 +3965,30 @@
     "content": [
       { "text": "And he wrote", "strong": "H3789", "morph": "QalImpf" },
       { "text": " in the king", "strong": "H4428" },
-      { "text": " Ahasuerus’", "strong": "H325" },
+      { "text": " Ahasuerus'", "strong": "H325" },
       { "text": " name,", "strong": "H8034" },
       { "text": " and sealed", "strong": "H2856", "morph": "QalImpf" },
-      { "text": " [it] with the king’s", "strong": "H4428" },
+      {
+        "content": [{ "text": " it", "marks": ["i"] }, " with the king's"],
+        "strong": "H4428"
+      },
       { "text": " ring,", "strong": "H2885" },
       { "text": " and sent", "strong": "H7971", "morph": "QalImpf" },
       { "text": " letters", "strong": "H5612" },
       { "text": " by", "strong": "H3027" },
       { "text": " posts", "strong": "H7323", "morph": "QalPtc" },
       { "text": " on horseback,", "strong": "H5483" },
-      { "text": " [and] riders", "strong": "H7392", "morph": "QalActPtc" },
+      {
+        "content": [{ "text": " and", "marks": ["i"] }, " riders"],
+        "strong": "H7392",
+        "morph": "QalActPtc"
+      },
       { "text": " on mules,", "strong": "H7409" },
       { "text": " camels,", "strong": "H327" },
-      { "text": " [and] young", "strong": "H1121" },
+      {
+        "content": [{ "text": " and", "marks": ["i"] }, " young"],
+        "strong": "H1121"
+      },
       { "text": " dromedaries:", "strong": "H7424" }
     ]
   },
@@ -3023,10 +3997,17 @@
     "chapter": 8,
     "verse": 11,
     "content": [
-      { "text": "Wherein the king", "strong": "H4428" },
+      { "text": "wherein the king", "strong": "H4428" },
       { "text": " granted", "strong": "H5414", "morph": "QalPerf" },
       { "text": " the Jews", "strong": "H3064" },
-      { "text": " which [were] in every city", "strong": "H5892" },
+      {
+        "content": [
+          " which ",
+          { "text": "were", "marks": ["i"] },
+          " in every city"
+        ],
+        "strong": "H5892"
+      },
       {
         "text": " to gather themselves together,",
         "strong": "H6950",
@@ -3049,9 +4030,23 @@
         "strong": "H6696",
         "morph": "QalActPtc"
       },
-      { "text": " them, [both] little ones", "strong": "H2945" },
+      {
+        "content": [
+          " them, ",
+          { "text": "both", "marks": ["i"] },
+          " little ones"
+        ],
+        "strong": "H2945"
+      },
       { "text": " and women,", "strong": "H802" },
-      { "text": " and [to take] the spoil", "strong": "H7998" },
+      {
+        "content": [
+          " and ",
+          { "text": "to take", "marks": ["i"] },
+          " the spoil"
+        ],
+        "strong": "H7998"
+      },
       { "text": " of them for a prey,", "strong": "H962", "morph": "QalInf" }
     ]
   },
@@ -3060,17 +4055,29 @@
     "chapter": 8,
     "verse": 12,
     "content": [
-      { "text": "Upon one", "strong": "H259" },
+      { "text": "upon one", "strong": "H259" },
       { "text": " day", "strong": "H3117" },
       { "text": " in all the provinces", "strong": "H4082" },
       { "text": " of king", "strong": "H4428" },
       { "text": " Ahasuerus,", "strong": "H325" },
-      { "text": " [namely], upon the thirteenth", "strong": "H7969" },
+      {
+        "content": [
+          { "text": " namely", "marks": ["i"] },
+          ", upon the thirteenth"
+        ],
+        "strong": "H7969"
+      },
       { "strong": "H6240" },
-      { "text": " [day] of the twelfth", "strong": "H8147" },
+      {
+        "content": [{ "text": " day", "marks": ["i"] }, " of the twelfth"],
+        "strong": "H8147"
+      },
       { "strong": "H6240" },
       { "text": " month,", "strong": "H2320" },
-      { "text": " which [is] the month", "strong": "H2320" },
+      {
+        "content": [" which ", { "text": "is", "marks": ["i"] }, " the month"],
+        "strong": "H2320"
+      },
       { "text": " Adar.", "strong": "H143" }
     ]
   },
@@ -3084,7 +4091,20 @@
       { "text": " for a commandment", "strong": "H1881" },
       { "text": " to be given", "strong": "H5414", "morph": "NiphInf" },
       { "text": " in every province", "strong": "H4082" },
-      { "text": " [was] published", "strong": "H1540", "morph": "QalPasPtc" },
+      {
+        "content": [
+          { "text": " was", "marks": ["i"] },
+          {
+            "text": " published",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "revealed", "marks": ["i"] }]
+            }
+          }
+        ],
+        "strong": "H1540",
+        "morph": "QalPasPtc"
+      },
       { "text": " unto all people,", "strong": "H5971" },
       { "text": " and that the Jews", "strong": "H3064" },
       { "text": " should be ready", "strong": "H6264", "morph": "Qere" },
@@ -3103,14 +4123,21 @@
     "chapter": 8,
     "verse": 14,
     "content": [
-      { "text": "[So] the posts", "strong": "H7323", "morph": "QalPtc" },
+      {
+        "content": [{ "text": "So", "marks": ["i"] }, " the posts"],
+        "strong": "H7323",
+        "morph": "QalPtc"
+      },
       { "text": " that rode", "strong": "H7392", "morph": "QalActPtc" },
       { "text": " upon mules", "strong": "H7409" },
-      { "text": " [and] camels", "strong": "H327" },
+      {
+        "content": [{ "text": " and", "marks": ["i"] }, " camels"],
+        "strong": "H327"
+      },
       { "text": " went out,", "strong": "H3318", "morph": "QalPerf" },
       { "text": " being hastened", "strong": "H926", "morph": "PualPtc" },
       { "text": " and pressed on", "strong": "H1765", "morph": "QalPasPtc" },
-      { "text": " by the king’s", "strong": "H4428" },
+      { "text": " by the king's", "strong": "H4428" },
       { "text": " commandment.", "strong": "H1697" },
       { "text": " And the decree", "strong": "H1881" },
       { "text": " was given", "strong": "H5414", "morph": "NiphPerf" },
@@ -3123,13 +4150,20 @@
     "chapter": 8,
     "verse": 15,
     "content": [
-      { "text": "And Mordecai", "strong": "H4782" },
+      { "paragraph": true, "text": "And Mordecai", "strong": "H4782" },
       { "text": " went out", "strong": "H3318", "morph": "QalPerf" },
       { "text": " from the presence", "strong": "H6440" },
       { "text": " of the king", "strong": "H4428" },
       { "text": " in royal", "strong": "H4438" },
       { "text": " apparel", "strong": "H3830" },
-      { "text": " of blue", "strong": "H8504" },
+      {
+        "text": " of blue",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "violet", "marks": ["i"] }]
+        },
+        "strong": "H8504"
+      },
       { "text": " and white,", "strong": "H2353" },
       { "text": " and with a great", "strong": "H1419" },
       { "text": " crown", "strong": "H5850" },
@@ -3163,7 +4197,7 @@
       { "text": "And in every province,", "strong": "H4082" },
       { "text": " and in every city,", "strong": "H5892" },
       { "text": " whithersoever", "strong": "H4725" },
-      { "text": " the king’s", "strong": "H4428" },
+      { "text": " the king's", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
       { "text": " and his decree", "strong": "H1881" },
       { "text": " came,", "strong": "H5060", "morph": "HiphPtc" },
@@ -3191,12 +4225,15 @@
       { "paragraph": true, "text": "Now in the twelfth", "strong": "H8147" },
       { "strong": "H6240" },
       { "text": " month,", "strong": "H2320" },
-      { "text": " that [is], the month", "strong": "H2320" },
+      {
+        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the month"],
+        "strong": "H2320"
+      },
       { "text": " Adar,", "strong": "H143" },
       { "text": " on the thirteenth", "strong": "H7969" },
       { "strong": "H6240" },
       { "text": " day", "strong": "H3117" },
-      { "text": " of the same, when the king’s", "strong": "H4428" },
+      { "text": " of the same, when the king's", "strong": "H4428" },
       { "text": " commandment", "strong": "H1697" },
       { "text": " and his decree", "strong": "H1881" },
       { "text": " drew near", "strong": "H5060", "morph": "HiphPerf" },
@@ -3230,7 +4267,7 @@
     "chapter": 9,
     "verse": 2,
     "content": [
-      { "text": "The Jews", "strong": "H3064" },
+      { "text": "the Jews", "strong": "H3064" },
       {
         "text": " gathered themselves together",
         "strong": "H6950",
@@ -3263,7 +4300,20 @@
       { "text": " and the deputies,", "strong": "H6346" },
       { "text": " and officers", "strong": "H6213", "morph": "QalActPtc" },
       { "strong": "H4399" },
-      { "text": " of the king,", "strong": "H4428" },
+      {
+        "text": " of the king,",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            {
+              "text": "those which did the business that belonged to the King",
+              "marks": ["i"]
+            }
+          ]
+        },
+        "strong": "H4428"
+      },
       { "text": " helped", "strong": "H5375", "morph": "PielPtc" },
       { "text": " the Jews;", "strong": "H3064" },
       { "text": " because the fear", "strong": "H6343" },
@@ -3278,8 +4328,11 @@
     "verse": 4,
     "content": [
       { "text": "For Mordecai", "strong": "H4782" },
-      { "text": " [was] great", "strong": "H1419" },
-      { "text": " in the king’s", "strong": "H4428" },
+      {
+        "content": [{ "text": " was", "marks": ["i"] }, " great"],
+        "strong": "H1419"
+      },
+      { "text": " in the king's", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
       { "text": " and his fame", "strong": "H8089" },
       { "text": " went out", "strong": "H1980", "morph": "QalActPtc" },
@@ -3303,7 +4356,17 @@
       { "text": " and slaughter,", "strong": "H2027" },
       { "text": " and destruction,", "strong": "H12" },
       { "text": " and did", "strong": "H6213", "morph": "QalImpf" },
-      { "text": " what they would", "strong": "H7522" },
+      {
+        "text": " what they would",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Heb. ",
+            { "text": "according to their will", "marks": ["i"] }
+          ]
+        },
+        "strong": "H7522"
+      },
       {
         "text": " unto those that hated",
         "strong": "H8130",
@@ -3342,7 +4405,7 @@
     "chapter": 9,
     "verse": 8,
     "content": [
-      { "text": "And Poratha,", "strong": "H6334" },
+      { "text": "and Poratha,", "strong": "H6334" },
       { "text": " and Adalia,", "strong": "H118" },
       { "text": " and Aridatha,", "strong": "H743" }
     ]
@@ -3352,7 +4415,7 @@
     "chapter": 9,
     "verse": 9,
     "content": [
-      { "text": "And Parmashta,", "strong": "H6534" },
+      { "text": "and Parmashta,", "strong": "H6534" },
       { "text": " and Arisai,", "strong": "H747" },
       { "text": " and Aridai,", "strong": "H742" },
       { "text": " and Vajezatha,", "strong": "H2055" }
@@ -3363,7 +4426,7 @@
     "chapter": 9,
     "verse": 10,
     "content": [
-      { "text": "The ten", "strong": "H6235" },
+      { "text": "the ten", "strong": "H6235" },
       { "text": " sons", "strong": "H1121" },
       { "text": " of Haman", "strong": "H2001" },
       { "text": " the son", "strong": "H1121" },
@@ -3381,7 +4444,7 @@
     "chapter": 9,
     "verse": 11,
     "content": [
-      { "text": "On that day", "strong": "H3117" },
+      { "paragraph": true, "text": "On that day", "strong": "H3117" },
       { "text": " the number", "strong": "H4557" },
       {
         "text": " of those that were slain",
@@ -3390,7 +4453,15 @@
       },
       { "text": " in Shushan", "strong": "H7800" },
       { "text": " the palace", "strong": "H1002" },
-      { "text": " was brought", "strong": "H935", "morph": "QalPerf" },
+      {
+        "text": " was brought",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "came", "marks": ["i"] }]
+        },
+        "strong": "H935",
+        "morph": "QalPerf"
+      },
       { "text": " before", "strong": "H6440" },
       { "text": " the king.", "strong": "H4428" }
     ]
@@ -3417,15 +4488,29 @@
       { "text": " of Haman;", "strong": "H2001" },
       { "text": " what have they done", "strong": "H6213", "morph": "QalPerf" },
       { "text": " in the rest", "strong": "H7605" },
-      { "text": " of the king’s", "strong": "H4428" },
+      { "text": " of the king's", "strong": "H4428" },
       { "text": " provinces?", "strong": "H4082" },
-      { "text": " now what [is] thy petition?", "strong": "H7596" },
+      {
+        "content": [
+          " now what ",
+          { "text": "is", "marks": ["i"] },
+          " thy petition?"
+        ],
+        "strong": "H7596"
+      },
       {
         "text": " and it shall be granted",
         "strong": "H5414",
         "morph": "NiphImpf"
       },
-      { "text": " thee: or what [is] thy request", "strong": "H1246" },
+      {
+        "content": [
+          " thee: or what ",
+          { "text": "is", "marks": ["i"] },
+          " thy request"
+        ],
+        "strong": "H1246"
+      },
       { "text": " further?", "strong": "H5750" },
       {
         "text": " and it shall be done.",
@@ -3445,12 +4530,19 @@
       { "text": " the king,", "strong": "H4428" },
       { "text": " let it be granted", "strong": "H5414", "morph": "NiphImpf" },
       { "text": " to the Jews", "strong": "H3064" },
-      { "text": " which [are] in Shushan", "strong": "H7800" },
+      {
+        "content": [
+          " which ",
+          { "text": "are", "marks": ["i"] },
+          " in Shushan"
+        ],
+        "strong": "H7800"
+      },
       { "text": " to do", "strong": "H6213", "morph": "QalInf" },
       { "text": " to morrow", "strong": "H4279" },
-      { "text": " also according unto this day’s", "strong": "H3117" },
+      { "text": " also according unto this day's", "strong": "H3117" },
       { "text": " decree,", "strong": "H1881" },
-      { "text": " and let Haman’s", "strong": "H2001" },
+      { "text": " and let Haman's", "strong": "H2001" },
       { "text": " ten", "strong": "H6235" },
       { "text": " sons", "strong": "H1121" },
       { "text": " be hanged", "strong": "H8518", "morph": "QalImpf" },
@@ -3469,7 +4561,7 @@
       { "text": " was given", "strong": "H5414", "morph": "NiphImpf" },
       { "text": " at Shushan;", "strong": "H7800" },
       { "text": " and they hanged", "strong": "H8518", "morph": "QalPerf" },
-      { "text": " Haman’s", "strong": "H2001" },
+      { "text": " Haman's", "strong": "H2001" },
       { "text": " ten", "strong": "H6235" },
       { "text": " sons.", "strong": "H1121" }
     ]
@@ -3480,7 +4572,14 @@
     "verse": 15,
     "content": [
       { "text": "For the Jews", "strong": "H3064" },
-      { "text": " that [were] in Shushan", "strong": "H7800" },
+      {
+        "content": [
+          " that ",
+          { "text": "were", "marks": ["i"] },
+          " in Shushan"
+        ],
+        "strong": "H7800"
+      },
       {
         "text": " gathered themselves together",
         "strong": "H6950",
@@ -3508,7 +4607,14 @@
     "content": [
       { "text": "But the other", "strong": "H7605" },
       { "text": " Jews", "strong": "H3064" },
-      { "text": " that [were] in the king’s", "strong": "H4428" },
+      {
+        "content": [
+          " that ",
+          { "text": "were", "marks": ["i"] },
+          " in the king's"
+        ],
+        "strong": "H4428"
+      },
       { "text": " provinces", "strong": "H4082" },
       {
         "text": " gathered themselves together,",
@@ -3538,14 +4644,26 @@
     "chapter": 9,
     "verse": 17,
     "content": [
-      { "text": "On the thirteenth", "strong": "H7969" },
+      { "text": "on the thirteenth", "strong": "H7969" },
       { "strong": "H6240" },
       { "text": " day", "strong": "H3117" },
       { "text": " of the month", "strong": "H2320" },
       { "text": " Adar;", "strong": "H143" },
       { "text": " and on the fourteenth", "strong": "H702" },
       { "strong": "H6240" },
-      { "text": " day of the same rested", "strong": "H5118" },
+      {
+        "content": [
+          {
+            "text": " day of the same",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "in it", "marks": ["i"] }]
+            }
+          },
+          " rested"
+        ],
+        "strong": "H5118"
+      },
       { "text": " they, and made", "strong": "H6213", "morph": "QalInf" },
       { "text": " it a day", "strong": "H3117" },
       { "text": " of feasting", "strong": "H4960" },
@@ -3558,15 +4676,34 @@
     "verse": 18,
     "content": [
       { "text": "But the Jews", "strong": "H3064" },
-      { "text": " that [were] at Shushan", "strong": "H7800" },
+      {
+        "content": [
+          " that ",
+          { "text": "were", "marks": ["i"] },
+          " at Shushan"
+        ],
+        "strong": "H7800"
+      },
       { "text": " assembled together", "strong": "H6950", "morph": "NiphPerf" },
       { "text": " on the thirteenth", "strong": "H7969" },
       { "strong": "H6240" },
-      { "text": " [day] thereof, and on the fourteenth", "strong": "H702" },
+      {
+        "content": [
+          { "text": " day", "marks": ["i"] },
+          " thereof, and on the fourteenth"
+        ],
+        "strong": "H702"
+      },
       { "strong": "H6240" },
       { "text": " thereof; and on the fifteenth", "strong": "H2568" },
       { "strong": "H6240" },
-      { "text": " [day] of the same they rested,", "strong": "H5118" },
+      {
+        "content": [
+          { "text": " day", "marks": ["i"] },
+          " of the same they rested,"
+        ],
+        "strong": "H5118"
+      },
       { "text": " and made", "strong": "H6213", "morph": "QalInf" },
       { "text": " it a day", "strong": "H3117" },
       { "text": " of feasting", "strong": "H4960" },
@@ -3589,7 +4726,10 @@
       { "text": " day", "strong": "H3117" },
       { "text": " of the month", "strong": "H2320" },
       { "text": " Adar", "strong": "H143" },
-      { "text": " [a day of] gladness", "strong": "H8057" },
+      {
+        "content": [{ "text": " a day of", "marks": ["i"] }, " gladness"],
+        "strong": "H8057"
+      },
       { "text": " and feasting,", "strong": "H4960" },
       { "text": " and a good", "strong": "H2896" },
       { "text": " day,", "strong": "H3117" },
@@ -3604,16 +4744,27 @@
     "chapter": 9,
     "verse": 20,
     "content": [
-      { "text": "And Mordecai", "strong": "H4782" },
+      { "heading": "The Feast of Purim" },
+      { "paragraph": true, "text": "And Mordecai", "strong": "H4782" },
       { "text": " wrote", "strong": "H3789", "morph": "QalImpf" },
       { "text": " these things,", "strong": "H1697" },
       { "text": " and sent", "strong": "H7971", "morph": "QalImpf" },
       { "text": " letters", "strong": "H5612" },
       { "text": " unto all the Jews", "strong": "H3064" },
-      { "text": " that [were] in all the provinces", "strong": "H4082" },
+      {
+        "content": [
+          " that ",
+          { "text": "were", "marks": ["i"] },
+          " in all the provinces"
+        ],
+        "strong": "H4082"
+      },
       { "text": " of the king", "strong": "H4428" },
       { "text": " Ahasuerus,", "strong": "H325" },
-      { "text": " [both] nigh", "strong": "H7138" },
+      {
+        "content": [{ "text": " both", "marks": ["i"] }, " nigh"],
+        "strong": "H7138"
+      },
       { "text": " and far,", "strong": "H7350" }
     ]
   },
@@ -3622,9 +4773,12 @@
     "chapter": 9,
     "verse": 21,
     "content": [
-      { "text": "To stablish", "strong": "H6965", "morph": "PielInf" },
+      { "text": "to stablish", "strong": "H6965", "morph": "PielInf" },
       {
-        "text": " [this] among them, that they should keep",
+        "content": [
+          { "text": " this", "marks": ["i"] },
+          " among them, that they should keep"
+        ],
         "strong": "H6213",
         "morph": "QalActPtc"
       },
@@ -3645,7 +4799,7 @@
     "chapter": 9,
     "verse": 22,
     "content": [
-      { "text": "As the days", "strong": "H3117" },
+      { "text": "as the days", "strong": "H3117" },
       { "text": " wherein the Jews", "strong": "H3064" },
       { "text": " rested", "strong": "H5117", "morph": "QalPerf" },
       {
@@ -3695,7 +4849,7 @@
     "chapter": 9,
     "verse": 24,
     "content": [
-      { "text": "Because Haman", "strong": "H2001" },
+      { "text": "because Haman", "strong": "H2001" },
       { "text": " the son", "strong": "H1121" },
       { "text": " of Hammedatha,", "strong": "H4099" },
       { "text": " the Agagite,", "strong": "H91" },
@@ -3706,8 +4860,19 @@
       { "text": " to destroy", "strong": "H6", "morph": "PielInf" },
       { "text": " them, and had cast", "strong": "H5307", "morph": "HiphPerf" },
       { "text": " Pur,", "strong": "H6332" },
-      { "text": " that [is], the lot,", "strong": "H1486" },
-      { "text": " to consume", "strong": "H2000", "morph": "QalInf" },
+      {
+        "content": [" that ", { "text": "is", "marks": ["i"] }, ", the lot,"],
+        "strong": "H1486"
+      },
+      {
+        "text": " to consume",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "crush", "marks": ["i"] }]
+        },
+        "strong": "H2000",
+        "morph": "QalInf"
+      },
       { "text": " them, and to destroy", "strong": "H6", "morph": "PielInf" },
       " them;"
     ]
@@ -3717,7 +4882,21 @@
     "chapter": 9,
     "verse": 25,
     "content": [
-      { "text": "But when [Esther] came", "strong": "H935", "morph": "QalInf" },
+      {
+        "content": [
+          "but when ",
+          { "text": "Esther", "marks": ["i"] },
+          {
+            "text": " came",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "when she came", "marks": ["i"] }]
+            }
+          }
+        ],
+        "strong": "H935",
+        "morph": "QalInf"
+      },
       { "text": " before", "strong": "H6440" },
       { "text": " the king,", "strong": "H4428" },
       { "text": " he commanded", "strong": "H559", "morph": "QalPerf" },
@@ -3739,18 +4918,35 @@
     "verse": 26,
     "content": [
       {
+        "paragraph": true,
         "text": "Wherefore they called",
         "strong": "H7121",
         "morph": "QalPerf"
       },
       { "text": " these days", "strong": "H3117" },
-      { "text": " Purim", "strong": "H6332" },
+      {
+        "content": [
+          {
+            "text": " Pur",
+            "foot": {
+              "type": "stu",
+              "content": ["that is, ", { "text": "Lot", "marks": ["i"] }]
+            }
+          },
+          "im"
+        ],
+        "strong": "H6332"
+      },
       { "text": " after the name", "strong": "H8034" },
       { "text": " of Pur.", "strong": "H6332" },
       { "text": " Therefore for all the words", "strong": "H1697" },
       { "text": " of this letter,", "strong": "H107" },
       {
-        "text": " and [of that] which they had seen",
+        "content": [
+          " and ",
+          { "text": "of that", "marks": ["i"] },
+          " which they had seen"
+        ],
         "strong": "H7200",
         "morph": "QalPerf"
       },
@@ -3764,7 +4960,7 @@
     "chapter": 9,
     "verse": 27,
     "content": [
-      { "text": "The Jews", "strong": "H3064" },
+      { "text": "the Jews", "strong": "H3064" },
       { "text": " ordained,", "strong": "H6965", "morph": "PielPerf" },
       { "text": " and took", "strong": "H6901", "morph": "PielPerf" },
       { "text": " upon them, and upon their seed,", "strong": "H2233" },
@@ -3775,6 +4971,10 @@
       },
       {
         "text": " themselves unto them, so as it should not fail,",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "pass", "marks": ["i"] }]
+        },
         "strong": "H5674",
         "morph": "QalImpf"
       },
@@ -3786,7 +4986,14 @@
       { "text": " these two", "strong": "H8147" },
       { "text": " days", "strong": "H3117" },
       { "text": " according to their writing,", "strong": "H3791" },
-      { "text": " and according to their [appointed] time", "strong": "H2165" },
+      {
+        "content": [
+          " and according to their ",
+          { "text": "appointed", "marks": ["i"] },
+          " time"
+        ],
+        "strong": "H2165"
+      },
       { "text": " every year;", "strong": "H8141" },
       { "strong": "H8141" }
     ]
@@ -3796,9 +5003,12 @@
     "chapter": 9,
     "verse": 28,
     "content": [
-      { "text": "And [that] these days", "strong": "H3117" },
       {
-        "text": " [should be] remembered",
+        "content": ["and ", { "text": "that", "marks": ["i"] }, " these days"],
+        "strong": "H3117"
+      },
+      {
+        "content": [{ "text": " should be", "marks": ["i"] }, " remembered"],
         "strong": "H2142",
         "morph": "NiphPtc"
       },
@@ -3808,13 +5018,32 @@
       { "text": " every family,", "strong": "H4940" },
       { "text": " every province,", "strong": "H4082" },
       { "text": " and every city;", "strong": "H5892" },
-      { "text": " and [that] these days", "strong": "H3117" },
+      {
+        "content": [" and ", { "text": "that", "marks": ["i"] }, " these days"],
+        "strong": "H3117"
+      },
       { "text": " of Purim", "strong": "H6332" },
-      { "text": " should not fail", "strong": "H5674", "morph": "QalImpf" },
+      {
+        "text": " should not fail",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "pass", "marks": ["i"] }]
+        },
+        "strong": "H5674",
+        "morph": "QalImpf"
+      },
       { "text": " from among", "strong": "H8432" },
       { "text": " the Jews,", "strong": "H3064" },
       { "text": " nor the memorial", "strong": "H2143" },
-      { "text": " of them perish", "strong": "H5486", "morph": "QalImpf" },
+      {
+        "text": " of them perish",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "be ended", "marks": ["i"] }]
+        },
+        "strong": "H5486",
+        "morph": "QalImpf"
+      },
       { "text": " from their seed.", "strong": "H2233" }
     ]
   },
@@ -3823,14 +5052,21 @@
     "chapter": 9,
     "verse": 29,
     "content": [
-      { "text": "Then Esther", "strong": "H635" },
+      { "paragraph": true, "text": "Then Esther", "strong": "H635" },
       { "text": " the queen,", "strong": "H4436" },
       { "text": " the daughter", "strong": "H1323" },
       { "text": " of Abihail,", "strong": "H32" },
       { "text": " and Mordecai", "strong": "H4782" },
       { "text": " the Jew,", "strong": "H3064" },
       { "text": " wrote", "strong": "H3789", "morph": "QalImpf" },
-      { "text": " with all authority,", "strong": "H8633" },
+      {
+        "text": " with all authority,",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "all strength", "marks": ["i"] }]
+        },
+        "strong": "H8633"
+      },
       { "text": " to confirm", "strong": "H6965", "morph": "PielInf" },
       { "text": " this second", "strong": "H8145" },
       { "text": " letter", "strong": "H107" },
@@ -3851,7 +5087,10 @@
       { "text": " provinces", "strong": "H4082" },
       { "text": " of the kingdom", "strong": "H4438" },
       { "text": " of Ahasuerus,", "strong": "H325" },
-      { "text": " [with] words", "strong": "H1697" },
+      {
+        "content": [{ "text": " with", "marks": ["i"] }, " words"],
+        "strong": "H1697"
+      },
       { "text": " of peace", "strong": "H7965" },
       { "text": " and truth,", "strong": "H571" }
     ]
@@ -3861,11 +5100,17 @@
     "chapter": 9,
     "verse": 31,
     "content": [
-      { "text": "To confirm", "strong": "H6965", "morph": "PielInf" },
+      { "text": "to confirm", "strong": "H6965", "morph": "PielInf" },
       { "text": " these days", "strong": "H3117" },
       { "text": " of Purim", "strong": "H6332" },
       { "text": " in their times", "strong": "H2165" },
-      { "text": " [appointed], according as Mordecai", "strong": "H4782" },
+      {
+        "content": [
+          { "text": " appointed", "marks": ["i"] },
+          ", according as Mordecai"
+        ],
+        "strong": "H4782"
+      },
       { "text": " the Jew", "strong": "H3064" },
       { "text": " and Esther", "strong": "H635" },
       { "text": " the queen", "strong": "H4436" },
@@ -3875,7 +5120,14 @@
         "strong": "H6965",
         "morph": "PielPerf"
       },
-      { "text": " for themselves", "strong": "H5315" },
+      {
+        "text": " for themselves",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "for their souls", "marks": ["i"] }]
+        },
+        "strong": "H5315"
+      },
       { "text": " and for their seed,", "strong": "H2233" },
       { "text": " the matters", "strong": "H1697" },
       { "text": " of the fastings", "strong": "H6685" },
@@ -3906,7 +5158,10 @@
       { "text": " laid", "strong": "H7760", "morph": "QalImpf" },
       { "text": " a tribute", "strong": "H4522" },
       { "text": " upon the land,", "strong": "H776" },
-      { "text": " and [upon] the isles", "strong": "H339" },
+      {
+        "content": [" and ", { "text": "upon", "marks": ["i"] }, " the isles"],
+        "strong": "H339"
+      },
       { "text": " of the sea.", "strong": "H3220" }
     ]
   },
@@ -3924,7 +5179,17 @@
       { "text": " whereunto the king", "strong": "H4428" },
       { "text": " advanced", "strong": "H1431", "morph": "PielPerf" },
       {
-        "text": " him, [are] they not written",
+        "content": [
+          {
+            "text": " him,",
+            "foot": {
+              "type": "trn",
+              "content": ["Heb. ", { "text": "made him great", "marks": ["i"] }]
+            }
+          },
+          { "text": " are", "marks": ["i"] },
+          " they not written"
+        ],
         "strong": "H3789",
         "morph": "QalPasPtc"
       },
@@ -3943,7 +5208,10 @@
     "content": [
       { "text": "For Mordecai", "strong": "H4782" },
       { "text": " the Jew", "strong": "H3064" },
-      { "text": " [was] next", "strong": "H4932" },
+      {
+        "content": [{ "text": " was", "marks": ["i"] }, " next"],
+        "strong": "H4932"
+      },
       { "text": " unto king", "strong": "H4428" },
       { "text": " Ahasuerus,", "strong": "H325" },
       { "text": " and great", "strong": "H1419" },

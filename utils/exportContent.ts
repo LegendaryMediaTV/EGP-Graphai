@@ -26,6 +26,8 @@ interface RenderOptions {
   headingWrapper: (text: string, type?: "standard" | "acrostic") => string; // Wraps rendered heading text; type selects standard vs. acrostic styling
   subtitleWrapper: (text: string) => string; // Wraps rendered subtitle text
   footnoteMarker: (index: number) => string; // Renders the marker for the footnote at the given 0-based index within the current footnotes list
+  boldWrapper: (text: string) => string; // Wraps text carrying a "b" mark
+  italicWrapper: (text: string) => string; // Wraps text carrying an "i" mark
 }
 
 /** Rendering configuration for the plain-text export (`exports/text-vbv-strongs`). */
@@ -40,6 +42,8 @@ const TEXT_OPTIONS: RenderOptions = {
     type === "acrostic" ? `[[[${text}]]] ` : `[[${text}]] `,
   subtitleWrapper: (text) => `«${text}» `,
   footnoteMarker: () => "°",
+  boldWrapper: (text) => text,
+  italicWrapper: (text) => text,
 };
 
 /**
@@ -76,6 +80,8 @@ const MARKDOWN_OPTIONS: RenderOptions = {
   headingWrapper: (text, type) => `\n${markdownHeadingMarker(type)} ${text}\n`,
   subtitleWrapper: (text) => `> _${text}_`,
   footnoteMarker: (index) => `<sup>${footnoteLabel(index)}</sup>`,
+  boldWrapper: (text) => `**${text}**`,
+  italicWrapper: (text) => `_${text}_`,
 };
 
 // ============================================================================
@@ -91,7 +97,64 @@ interface RenderContext {
 }
 
 /**
- * Render any Content to a string based on options.
+ * Whether `item`'s own render ends with a Strong's/morph/lemma tag with
+ * nothing after it to separate it from a following sibling — i.e. `strong`,
+ * `morph`, or (`ContentNested`-only) `lemma` is set and rendered under the
+ * active options, and `break` is not set (a line break already provides its
+ * own separation, and is rendered glued directly to the tag by established
+ * convention — e.g. already-shipped "H2400␤").
+ */
+function endsWithUnseparatedTag(item: Content, ctx: RenderContext): boolean {
+  if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
+  const record = item as Record<string, unknown>;
+  if (record.break === true) return false;
+  return (
+    (typeof record.strong === "string" && ctx.options.includeStrongs) ||
+    (typeof record.morph === "string" && ctx.options.includeMorph) ||
+    (typeof record.lemma === "string" && ctx.options.includeStrongs)
+  );
+}
+
+/** Whether rendered text opens with a letter (any script) — the signature of a real word starting with no leading space of its own. */
+function startsWithLetter(text: string): boolean {
+  return /^\p{L}/u.test(text);
+}
+
+/**
+ * Applies "b"/"i" mark wrapping to `text`, bold innermost then italic
+ * outermost (matching web/public/js/ContentNode.js). CommonMark won't parse
+ * a delimiter run immediately touching whitespace as opening/closing
+ * emphasis (e.g. "** foo**" renders as literal asterisks, not bold) — real
+ * corpus text items routinely carry a leading join-space (e.g. KJV1769 JUD
+ * 1:1's " the servant") — so only the trimmed core of `text` is wrapped;
+ * the original leading/trailing whitespace is reattached outside the
+ * delimiters. A core that's empty (whitespace-only or absent `text`) is
+ * left unwrapped rather than producing a meaningless "****".
+ */
+function wrapEmphasisMarks(
+  text: string,
+  marks: ContentObject["marks"],
+  options: RenderOptions
+): string {
+  if (!marks?.includes("b") && !marks?.includes("i")) return text;
+
+  const leading = text.length - text.trimStart().length;
+  const trailing = text.length - text.trimEnd().length;
+  const core = text.trim();
+  if (!core) return text;
+
+  let wrapped = core;
+  if (marks.includes("b")) wrapped = options.boldWrapper(wrapped);
+  if (marks.includes("i")) wrapped = options.italicWrapper(wrapped);
+
+  return text.slice(0, leading) + wrapped + text.slice(text.length - trailing);
+}
+
+/**
+ * Render any Content to a string based on options. Shape checks run from
+ * most specific (heading, subtitle, bibleLink, paragraph wrapper) to most
+ * generic (nested content, then a bare text object), returning at the
+ * first match.
  */
 function renderContent(content: Content, ctx: RenderContext): string {
   if (typeof content === "string") {
@@ -99,7 +162,31 @@ function renderContent(content: Content, ctx: RenderContext): string {
   }
 
   if (Array.isArray(content)) {
-    return content.map((item) => renderContent(item, ctx)).join("");
+    return content
+      .map((item, index) => {
+        const rendered = renderContent(item, ctx);
+        const next = content[index + 1];
+        // A Strong's/morph tag's own node text can legitimately end
+        // mid-word-space (an attach pass may fold a leaf's trailing
+        // join-space backward into the tagged node when the following text
+        // is marked, e.g. italic), leaving the *next* sibling with no
+        // leading space of its own — the convention every other node in
+        // this array relies on. Without a separator here, that produces a
+        // fused word in the plain-text export ("darkness H2822was").
+        // Checking the *next* sibling's own rendered text, rather than
+        // guessing from this item alone, is what keeps this correct at the
+        // end of an array (nothing follows — e.g. a subtitle's own last
+        // tag, right before its `» ` closing wrapper, needs no separator)
+        // and before a textless footnote-only sibling (renders starting
+        // with "°", never a letter — preserving the established "no space
+        // before °{...}" clean search/replace convention, e.g.
+        // already-shipped BYZ2018 MRK 3:27).
+        if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
+          return rendered + " ";
+        }
+        return rendered;
+      })
+      .join("");
   }
 
   if ("heading" in content) {
@@ -171,6 +258,8 @@ function renderTextObject(obj: ContentObject, ctx: RenderContext): string {
     text = text.toUpperCase();
   }
 
+  text = wrapEmphasisMarks(text, obj.marks, ctx.options);
+
   parts.push(text);
 
   // Footnote marker and content come before Strong's/morph so users can
@@ -233,7 +322,12 @@ function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
     }
   }
 
-  const nestedText = renderContent(obj.content, ctx);
+  const nestedText = wrapEmphasisMarks(
+    renderContent(obj.content, ctx),
+    obj.marks,
+    ctx.options
+  );
+
   parts.push(nestedText);
 
   // Footnote marker and content come before Strong's/morph so °{...} stays a
@@ -249,7 +343,10 @@ function renderNestedContent(obj: ContentNested, ctx: RenderContext): string {
     });
 
     if (ctx.options.footnoteStyle === "inline") {
+      // No space before { so °{...} stays a clean search/replace target
       parts.push(`{${footnoteContent}}`);
+      // A textless footnote-only element needs a trailing space so the next
+      // content item is spaced correctly
       if (!nestedText && !obj.strong) {
         parts.push(" ");
       }
@@ -308,7 +405,9 @@ function convertVerseToText(verse: VerseSchema): string {
 }
 
 /**
- * Convert a verse to markdown format.
+ * Convert a verse to markdown format. Any footnotes it renders are appended
+ * to chapterFootnotes, which the caller shares across every verse in a
+ * chapter.
  */
 function convertVerseToMarkdown(
   verse: VerseSchema,
@@ -569,6 +668,11 @@ async function convertBibleVersionToMarkdown(
   }
 }
 
+/**
+ * CLI entry point: converts one version (argv[2]) or every version under
+ * `bible-versions/`, and one book (argv[3]) or every book, to both plain
+ * text and markdown.
+ */
 async function main(): Promise<void> {
   const translation = process.argv[2];
   const bookId = process.argv[3];
