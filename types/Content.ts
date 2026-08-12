@@ -36,6 +36,7 @@ interface ContentObject {
  */
 interface ContentNested {
   content: Content; // Nested content array or element
+  marks?: ("i" | "b" | "woc" | "sc")[]; // Formatting marks applying to the entire nested content: i = italic, b = bold, woc = words of Christ (red lettering), sc = small caps
   strong?: string; // Strong's number applying to the entire nested content
   lemma?: string; // Lexical lemma in original script
   morph?: string; // Morphological code (i.e., Robinson or Packard format)

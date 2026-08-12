@@ -2,6 +2,24 @@ import { describe, it, expect } from "vitest";
 import { convertVerseToText, convertVerseToMarkdown } from "../exportContent";
 import VerseSchema from "../../types/VerseSchema";
 
+/**
+ * Asserts every `**...**`/`_..._` delimiter run in `markdown` opens and
+ * closes against non-whitespace — CommonMark's left-/right-flanking rule,
+ * which determines whether a delimiter run can open/close emphasis at all
+ * (e.g. "** foo**" fails this and a spec-compliant parser renders literal
+ * asterisks, not `<strong>`). A plain string-contains check on `**`/`_`
+ * passes even when this fails, which is exactly what let the original
+ * whitespace-padding defect through Phase 1's tests.
+ */
+function expectWellFormedEmphasis(markdown: string): void {
+  for (const match of markdown.matchAll(/\*\*(.*?)\*\*/g)) {
+    expect(match[1]).not.toMatch(/^\s|\s$|^$/);
+  }
+  for (const match of markdown.matchAll(/_(.*?)_/g)) {
+    expect(match[1]).not.toMatch(/^\s|\s$|^$/);
+  }
+}
+
 describe("exportContent", () => {
   describe("convertVerseToText", () => {
     it("should convert a simple verse with plain text", () => {
@@ -193,6 +211,52 @@ describe("exportContent", () => {
       };
       expect(convertVerseToText(verse)).toBe("002:004 the LORD H3068 God H430");
     });
+
+    it("should not fuse a Strong's-tagged word into the italic word that follows it, when the tagged node's own text absorbed the trailing join-space (GEN 1:2's real H2822/H6440 shape)", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 2,
+        content: [
+          { text: "and darkness ", strong: "H2822" },
+          {
+            content: [{ text: "was", marks: ["i"] }, " upon the face"],
+            strong: "H6440",
+          },
+        ],
+      };
+      expect(convertVerseToText(verse)).toBe(
+        "001:002 and darkness H2822 was upon the face H6440"
+      );
+    });
+
+    it("should not add a space before a line break following a Strong's/morph tag (established no-space-before-break convention)", () => {
+      const verse: VerseSchema = {
+        book: "PSA",
+        chapter: 1,
+        verse: 1,
+        content: [{ text: "Blessed", strong: "H835", morph: "8803", break: true }, "is the man"],
+      };
+      expect(convertVerseToText(verse)).toBe(
+        "001:001 Blessed H835 (8803)␤is the man"
+      );
+    });
+
+    it("should leave bold and italic marks unrendered in plain text (regression)", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "In the beginning ", marks: ["b"] },
+          { text: "God created", marks: ["i"] },
+        ],
+      };
+      const result = convertVerseToText(verse);
+      expect(result).toBe("001:001 In the beginning God created");
+      expect(result).not.toContain("*");
+      expect(result).not.toContain("_");
+    });
   });
 
   describe("convertVerseToMarkdown", () => {
@@ -269,6 +333,141 @@ describe("exportContent", () => {
       const footnotes: string[] = [];
       const result = convertVerseToMarkdown(verse, footnotes);
       expect(result).toBe("<sup>4</sup> the LORD God made the earth");
+    });
+
+    it("should wrap text with a bold mark in ** in markdown", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "In the beginning " },
+          { text: "God", marks: ["b"] },
+          { text: " created" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> In the beginning **God** created");
+    });
+
+    it("should wrap text with an italic mark in _ in markdown", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "In the beginning " },
+          { text: "God", marks: ["i"] },
+          { text: " created" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> In the beginning _God_ created");
+    });
+
+    it("should nest bold inside italic as _**text**_ when both marks are present", () => {
+      const verse: VerseSchema = {
+        book: "GEN",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "In the beginning " },
+          { text: "God", marks: ["b", "i"] },
+          { text: " created" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> In the beginning _**God**_ created");
+    });
+
+    it("should wrap only the trimmed core of a leading-space bold text item, reattaching the space outside ** (real KJV1769 JUD 1:1 shape)", () => {
+      const verse: VerseSchema = {
+        book: "JUD",
+        chapter: 1,
+        verse: 1,
+        content: [{ text: "Jude," }, { text: " the servant", marks: ["b"] }],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> Jude, **the servant**");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should wrap only the trimmed core of a leading-space italic text item, reattaching the space outside _ (real KJV1769 JUD 1:1 shape)", () => {
+      const verse: VerseSchema = {
+        book: "JUD",
+        chapter: 1,
+        verse: 1,
+        content: [{ text: "Jude," }, { text: " the servant", marks: ["i"] }],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> Jude, _the servant_");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should reattach a single leading space outside both delimiters for a leading-space bold+italic text item, not doubled or dropped (real KJV1769 JUD 1:1 'of Jesus' shape)", () => {
+      const verse: VerseSchema = {
+        book: "JUD",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "the servant" },
+          { text: " of Jesus", marks: ["b", "i"] },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> the servant _**of Jesus**_");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should wrap only the trimmed core of a trailing-space bold text item, reattaching the space outside **", () => {
+      const verse: VerseSchema = {
+        book: "JUD",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "the servant ", marks: ["b"] },
+          { text: "of Jesus" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> **the servant** of Jesus");
+      expectWellFormedEmphasis(result);
+    });
+
+    it("should not wrap an all-whitespace text item's mark, rather than producing a meaningless ****", () => {
+      const verse: VerseSchema = {
+        book: "JUD",
+        chapter: 1,
+        verse: 1,
+        content: [
+          { text: "before" },
+          { text: "   ", marks: ["b"] },
+          { text: "after" },
+        ],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).not.toContain("*");
+    });
+
+    it("should not wrap an empty-text mark-bearing item, rather than producing a meaningless ****", () => {
+      const verse: VerseSchema = {
+        book: "JUD",
+        chapter: 1,
+        verse: 1,
+        content: [{ text: "", marks: ["b"] }, { text: "word" }],
+      };
+      const footnotes: string[] = [];
+      const result = convertVerseToMarkdown(verse, footnotes);
+      expect(result).toBe("<sup>1</sup> word");
+      expect(result).not.toContain("*");
     });
 
     it("should convert verse with line break to <br>", () => {
@@ -572,7 +771,6 @@ describe("exportContent", () => {
 
     describe("textless elements at verse start", () => {
       it("should not produce double space when verse starts with textless paragraph element (KJV1769 MAT 3:1 style)", () => {
-        // KJV1769 MAT 3:1: { paragraph: true, strong: "G1161" }, { text: " In", strong: "G1722" }
         const verse: VerseSchema = {
           book: "MAT",
           chapter: 3,
@@ -591,7 +789,6 @@ describe("exportContent", () => {
       });
 
       it("should add space after textless footnote at verse start in text export (CLV1880 GEN 50:23 style)", () => {
-        // CLV1880 GEN 50:23: { foot: { ... } }, "et vidit Ephraim..."
         const verse: VerseSchema = {
           book: "GEN",
           chapter: 50,
@@ -602,7 +799,7 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // No space between ° and {, but space after } for clean search/replace
+        // No space between ° and {, but a space after }
         expect(result).toBe(
           "050:023 °{Originally verse 50:22.} et vidit Ephraim filios"
         );
@@ -612,7 +809,6 @@ describe("exportContent", () => {
 
     describe("line break marker spacing", () => {
       it("should not add extra spaces around line break markers (WEBUS2020 GEN 3:14 style)", () => {
-        // WEBUS2020 GEN 3:14
         const verse: VerseSchema = {
           book: "GEN",
           chapter: 3,
@@ -685,7 +881,7 @@ describe("exportContent", () => {
 
     describe("footnote spacing consistency", () => {
       it("should have no space between footnote marker and content (CLV1880 NUM 20:28 style)", () => {
-        // CLV1880 NUM 20:28: text with trailing space + footnote, then string
+        // A footnoted text item with a trailing space, followed by a plain string item
         const verse: VerseSchema = {
           book: "NUM",
           chapter: 20,
@@ -699,8 +895,7 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // text°{content}nexttext - no space between ° and {, so users can
-        // search/replace °{...} to remove footnotes cleanly
+        // text°{content}nexttext — no space between ° and {
         expect(result).toBe(
           "020:028 cumque Aaron spoliasset vestibus suis induit eis Eleazarum filium eius °{Originally verse 20:29.}illo mortuo in montis supercilio descendit cum Eleazaro"
         );
@@ -709,7 +904,7 @@ describe("exportContent", () => {
       });
 
       it("should have no space between footnote marker and content for textless footnote at start (CLV1880 NUM 20:29 style)", () => {
-        // CLV1880 NUM 20:29: textless footnote at start, then string
+        // A textless footnote at the very start, followed by a plain string item
         const verse: VerseSchema = {
           book: "NUM",
           chapter: 20,
@@ -720,7 +915,7 @@ describe("exportContent", () => {
           ],
         };
         const result = convertVerseToText(verse);
-        // Should be: °{content} text - no space between ° and {, space after }
+        // Expected shape: °{content} text
         expect(result).toBe(
           "020:029 °{Originally verse 20:30.} omnis autem multitudo videns occubuisse Aaron"
         );
@@ -828,6 +1023,51 @@ describe("exportContent", () => {
         expect(result).toBe(
           "<sup>18</sup> I have waited for thy salvation, O LORD."
         );
+      });
+
+      it("should wrap a nested content wrapper's entire rendered run in ** when it carries a bold mark", () => {
+        // Modeled on the real WEBUS2020 John 8:58 nested-marks shape, but
+        // with "b" instead of "woc".
+        const verse: VerseSchema = {
+          book: "JHN",
+          chapter: 8,
+          verse: 58,
+          content: [
+            { text: "before Abraham was, " },
+            {
+              content: ["the ", { text: "Lord" }],
+              marks: ["b"],
+              strong: "H3068",
+            },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>58</sup> before Abraham was, **the Lord**"
+        );
+      });
+
+      it("should reattach a nested content wrapper's leading space outside ** rather than wrapping it (real WEBUS2020 JHN 8:58 shape with a leading-space run)", () => {
+        const verse: VerseSchema = {
+          book: "JHN",
+          chapter: 8,
+          verse: 58,
+          content: [
+            { text: "before Abraham was," },
+            {
+              content: [" the ", { text: "Lord" }],
+              marks: ["b"],
+              strong: "H3068",
+            },
+          ],
+        };
+        const footnotes: string[] = [];
+        const result = convertVerseToMarkdown(verse, footnotes);
+        expect(result).toBe(
+          "<sup>58</sup> before Abraham was, **the Lord**"
+        );
+        expectWellFormedEmphasis(result);
       });
 
       it("should handle nested content with footnote", () => {
