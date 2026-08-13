@@ -235,7 +235,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " casteth", "strong": "G1544", "morph": "PresActInd" },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, " out of"],
+        "content": [" ", { "text": "them", "marks": ["i"] }, " out of"],
         "strong": "G1537"
       },
       { "text": " the church.", "strong": "G1577" }
@@ -278,7 +278,7 @@
       { "text": " of", "strong": "G5259" },
       { "text": " all", "strong": "G3956" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, ", and"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, ", and"],
         "strong": "G2532"
       },
       { "text": " of", "strong": "G5259" },
@@ -288,7 +288,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " we", "strong": "G2249" },
       {
-        "content": [{ "text": " also", "marks": ["i"] }, " bear record;"],
+        "content": [" ", { "text": "also", "marks": ["i"] }, " bear record;"],
         "strong": "G3140",
         "morph": "PresActInd"
       },
@@ -350,11 +350,11 @@
       },
       { "text": " Peace", "strong": "G1515" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " to thee."],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " to thee."],
         "strong": "G4671"
       },
       {
-        "content": [{ "text": " Our", "marks": ["i"] }, " friends"],
+        "content": [" ", { "text": "Our", "marks": ["i"] }, " friends"],
         "strong": "G5384"
       },
       { "text": " salute", "strong": "G782", "morph": "PresMidPasDepInd" },

@@ -55,7 +55,11 @@
         "strong": "H1121"
       },
       {
-        "content": [{ "text": " tell", "marks": ["i"] }, " their children,"],
+        "content": [
+          " ",
+          { "text": "tell", "marks": ["i"] },
+          " their children,"
+        ],
         "strong": "H1121"
       },
       { "text": " and their children", "strong": "H1121" },
@@ -129,7 +133,7 @@
       { "text": " and without number,", "strong": "H4557" },
       { "text": " whose teeth", "strong": "H8127" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the teeth"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the teeth"],
         "strong": "H8127"
       },
       { "text": " of a lion,", "strong": "H738" },
@@ -270,7 +274,7 @@
       { "text": " tree, the palm tree", "strong": "H8558" },
       { "text": " also, and the apple tree,", "strong": "H8598" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " all the trees"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " all the trees"],
         "strong": "H6086"
       },
       { "text": " of the field,", "strong": "H7704" },
@@ -333,13 +337,17 @@
       { "text": " gather", "strong": "H622", "morph": "QalImpv" },
       { "text": " the elders", "strong": "H2205" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " all the inhabitants"],
+        "content": [
+          " ",
+          { "text": "and", "marks": ["i"] },
+          " all the inhabitants"
+        ],
         "strong": "H3427",
         "morph": "QalActPtc"
       },
       { "text": " of the land", "strong": "H776" },
       {
-        "content": [{ "text": " into", "marks": ["i"] }, " the house"],
+        "content": [" ", { "text": "into", "marks": ["i"] }, " the house"],
         "strong": "H1004"
       },
       {
@@ -367,7 +375,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " at hand,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " at hand,"],
         "strong": "H7138"
       },
       { "text": " and as a destruction", "strong": "H7701" },
@@ -384,7 +392,7 @@
       { "text": " cut off", "strong": "H3772", "morph": "NiphPerf" },
       { "text": " before our eyes,", "strong": "H5869" },
       {
-        "content": [{ "text": " yea", "marks": ["i"] }, ", joy"],
+        "content": [" ", { "text": "yea", "marks": ["i"] }, ", joy"],
         "strong": "H8057"
       },
       { "text": " and gladness", "strong": "H1524" },
@@ -585,7 +593,7 @@
       { "text": " burneth:", "strong": "H3857", "morph": "PielImpf" },
       { "text": " the land", "strong": "H776" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as the garden"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as the garden"],
         "strong": "H1588"
       },
       { "text": " of Eden", "strong": "H5731" },
@@ -771,7 +779,7 @@
       { "text": " his army:", "strong": "H2428" },
       { "text": " for his camp", "strong": "H4264" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " very"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " very"],
         "strong": "H3966"
       },
       { "text": " great:", "strong": "H7227" },
@@ -787,7 +795,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " great"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " great"],
         "strong": "H1419"
       },
       { "text": " and very", "strong": "H3966" },
@@ -859,7 +867,7 @@
     "content": [
       { "text": "Who knoweth", "strong": "H3045", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " if", "marks": ["i"] }, " he will return"],
+        "content": [" ", { "text": "if", "marks": ["i"] }, " he will return"],
         "strong": "H7725",
         "morph": "QalImpf"
       },
@@ -1040,7 +1048,11 @@
       },
       { "text": " from you the northern", "strong": "H6830" },
       {
-        "content": [{ "text": " army", "marks": ["i"] }, ", and will drive"],
+        "content": [
+          " ",
+          { "text": "army", "marks": ["i"] },
+          ", and will drive"
+        ],
         "strong": "H5080",
         "morph": "HiphPerf"
       },
@@ -1160,7 +1172,8 @@
       { "text": " the former rain,", "strong": "H4175" },
       { "text": " and the latter rain", "strong": "H4456" },
       { "text": " in the first", "strong": "H7223" },
-      { "text": " month", "marks": ["i"] },
+      " ",
+      { "text": "month", "marks": ["i"] },
       "."
     ]
   },
@@ -1261,7 +1274,11 @@
         "strong": "H310"
       },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " I will pour out"],
+        "content": [
+          " ",
+          { "text": "that", "marks": ["i"] },
+          " I will pour out"
+        ],
         "strong": "H8210",
         "morph": "QalImpf"
       },
@@ -1469,7 +1486,7 @@
       },
       { "text": " me, swiftly", "strong": "H7031" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " speedily"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " speedily"],
         "strong": "H4120"
       },
       { "text": " will I return", "strong": "H7725", "morph": "HiphImpf" },
@@ -1573,7 +1590,8 @@
         "strong": "H3068"
       },
       { "text": " hath spoken", "strong": "H1696", "morph": "PielPerf" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       "."
     ]
   },
@@ -1708,7 +1726,7 @@
       { "text": " overflow;", "strong": "H7783", "morph": "HiphPerf" },
       { "text": " for their wickedness", "strong": "H7451" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " great."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " great."],
         "strong": "H7227"
       }
     ]
@@ -1740,7 +1758,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " near"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " near"],
         "strong": "H7138"
       },
       { "text": " in the valley", "strong": "H6010" },
@@ -1783,7 +1801,8 @@
       },
       {
         "content": [
-          { "text": " will be", "marks": ["i"] },
+          " ",
+          { "text": "will be", "marks": ["i"] },
           {
             "text": " the hope",
             "foot": {
@@ -1854,7 +1873,7 @@
         "strong": "H3117"
       },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " the mountains"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " the mountains"],
         "strong": "H2022"
       },
       { "text": " shall drop down", "strong": "H5197", "morph": "QalImpf" },
@@ -1898,7 +1917,11 @@
       { "text": " wilderness,", "strong": "H4057" },
       { "text": " for the violence", "strong": "H2555" },
       {
-        "content": [{ "text": " against", "marks": ["i"] }, " the children"],
+        "content": [
+          " ",
+          { "text": "against", "marks": ["i"] },
+          " the children"
+        ],
         "strong": "H1121"
       },
       { "text": " of Judah,", "strong": "H3063" },
@@ -1942,7 +1965,8 @@
       { "text": " their blood", "strong": "H1818" },
       {
         "content": [
-          { "text": " that", "marks": ["i"] },
+          " ",
+          { "text": "that", "marks": ["i"] },
           " I have not cleansed:"
         ],
         "strong": "H5352",

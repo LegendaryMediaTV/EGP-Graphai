@@ -192,13 +192,14 @@
       { "text": " they make", "strong": "G2525", "morph": "PresActInd" },
       {
         "content": [
-          { "text": " you that ye shall", "marks": ["i"] },
+          " ",
+          { "text": "you that ye shall", "marks": ["i"] },
           " neither"
         ],
         "strong": "G3756"
       },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " barren"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " barren"],
         "strong": "G692"
       },
       { "text": " nor", "strong": "G3761" },
@@ -305,7 +306,7 @@
       { "text": " though", "strong": "G2539" },
       { "text": " ye know", "strong": "G1492", "morph": "PerfActPtc" },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, ", and"],
+        "content": [" ", { "text": "them", "marks": ["i"] }, ", and"],
         "strong": "G2532"
       },
       { "text": " be established", "strong": "G4741", "morph": "PerfPasPtc" },
@@ -353,7 +354,7 @@
       { "text": " I must", "strong": "G2076", "morph": "PresInd" },
       { "text": " put off", "strong": "G595" },
       {
-        "content": [{ "text": " this", "marks": ["i"] }, " my"],
+        "content": [" ", { "text": "this", "marks": ["i"] }, " my"],
         "strong": "G3450"
       },
       { "text": " tabernacle,", "strong": "G4638" },
@@ -552,7 +553,7 @@
       { "text": " of God", "strong": "G2316" },
       { "text": " spake", "strong": "G2980", "morph": "AorActInd" },
       {
-        "content": [{ "text": " as they were", "marks": ["i"] }, " moved"],
+        "content": [" ", { "text": "as they were", "marks": ["i"] }, " moved"],
         "strong": "G5342",
         "morph": "PresPasPtc"
       },
@@ -681,7 +682,7 @@
       },
       { "text": " and delivered", "strong": "G3860", "morph": "AorActInd" },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, " into chains"],
+        "content": [" ", { "text": "them", "marks": ["i"] }, " into chains"],
         "strong": "G4577"
       },
       { "text": " of darkness,", "strong": "G2217" },
@@ -705,7 +706,7 @@
       { "text": " Noah", "strong": "G3575" },
       { "text": " the eighth", "strong": "G3590" },
       {
-        "content": [{ "text": " person", "marks": ["i"] }, ", a preacher"],
+        "content": [" ", { "text": "person", "marks": ["i"] }, ", a preacher"],
         "strong": "G2783"
       },
       { "text": " of righteousness,", "strong": "G1343" },
@@ -729,12 +730,16 @@
       { "text": " into ashes", "strong": "G5077", "morph": "AorActPtc" },
       { "text": " condemned", "strong": "G2632", "morph": "AorActInd" },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, " with an overthrow,"],
+        "content": [
+          " ",
+          { "text": "them", "marks": ["i"] },
+          " with an overthrow,"
+        ],
         "strong": "G2692"
       },
       { "text": " making", "strong": "G5087", "morph": "PerfActPtc" },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, " an ensample"],
+        "content": [" ", { "text": "them", "marks": ["i"] }, " an ensample"],
         "strong": "G5262"
       },
       {
@@ -778,7 +783,7 @@
       { "text": " hearing,", "strong": "G189" },
       { "text": " vexed", "strong": "G928", "morph": "ImpfActInd" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " righteous"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " righteous"],
         "strong": "G1342"
       },
       { "text": " soul", "strong": "G5590" },
@@ -845,7 +850,11 @@
       },
       { "text": " Presumptuous", "strong": "G5113" },
       {
-        "content": [{ "text": " are they", "marks": ["i"] }, ", selfwilled,"],
+        "content": [
+          " ",
+          { "text": "are they", "marks": ["i"] },
+          ", selfwilled,"
+        ],
         "strong": "G829"
       },
       { "text": " they are not", "strong": "G3756" },
@@ -930,7 +939,7 @@
       { "text": " the reward", "strong": "G3408" },
       { "text": " of unrighteousness,", "strong": "G93" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " they that count"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " they that count"],
         "strong": "G2233",
         "morph": "PresMidPasDepPtc"
       },
@@ -941,7 +950,7 @@
       " daytime. ",
       { "text": "Spots", "strong": "G4696" },
       {
-        "content": [{ "text": " they are", "marks": ["i"] }, " and"],
+        "content": [" ", { "text": "they are", "marks": ["i"] }, " and"],
         "strong": "G2532"
       },
       { "text": " blemishes,", "strong": "G3470" },
@@ -1012,7 +1021,7 @@
       { "text": " the way", "strong": "G3598" },
       { "text": " of Balaam", "strong": "G903" },
       {
-        "content": [{ "text": " the son", "marks": ["i"] }, " of Bosor,"],
+        "content": [" ", { "text": "the son", "marks": ["i"] }, " of Bosor,"],
         "strong": "G1007"
       },
       { "text": " who", "strong": "G3739" },
@@ -1076,7 +1085,7 @@
       },
       { "text": " great swelling", "strong": "G5246" },
       {
-        "content": [{ "text": " words", "marks": ["i"] }, " of vanity,"],
+        "content": [" ", { "text": "words", "marks": ["i"] }, " of vanity,"],
         "strong": "G3153"
       },
       { "text": " they allure", "strong": "G1185", "morph": "PresActInd" },
@@ -1085,7 +1094,8 @@
       { "text": " of the flesh,", "strong": "G4561" },
       {
         "content": [
-          { "text": " through much", "marks": ["i"] },
+          " ",
+          { "text": "through much", "marks": ["i"] },
           " wantonness,"
         ],
         "strong": "G766"
@@ -1200,7 +1210,7 @@
         "morph": "Aor2ActPtc"
       },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, ", to turn"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, ", to turn"],
         "strong": "G1994",
         "morph": "AorActInf"
       },
@@ -1224,7 +1234,7 @@
       { "text": " proverb,", "strong": "G3942" },
       { "text": " The dog", "strong": "G2965" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " turned"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " turned"],
         "strong": "G1994"
       },
       { "text": " to", "strong": "G1909" },
@@ -1254,7 +1264,7 @@
       { "text": " unto you;", "strong": "G5213" },
       { "text": " in", "strong": "G1722" },
       {
-        "content": [{ "text": " both", "marks": ["i"] }, " which"],
+        "content": [" ", { "text": "both", "marks": ["i"] }, " which"],
         "strong": "G3739"
       },
       { "text": " I stir up", "strong": "G1326", "morph": "PresActInd" },
@@ -1436,7 +1446,7 @@
       { "text": " one", "strong": "G3391" },
       { "text": " day", "strong": "G2250" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " with"],
         "strong": "G3844"
       },
       { "text": " the Lord", "strong": "G2962" },
@@ -1533,7 +1543,7 @@
         "strong": "G3767"
       },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " all"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " all"],
         "strong": "G3956"
       },
       { "text": " these things", "strong": "G5130" },
@@ -1544,7 +1554,7 @@
       },
       { "text": " what manner", "strong": "G4217" },
       {
-        "content": [{ "text": " of persons", "marks": ["i"] }, " ought"],
+        "content": [" ", { "text": "of persons", "marks": ["i"] }, " ought"],
         "strong": "G1163",
         "morph": "PresInd"
       },
@@ -1552,7 +1562,7 @@
       { "text": " to be", "strong": "G5225", "morph": "PresActInf" },
       { "text": " in", "strong": "G1722" },
       {
-        "content": [{ "text": " all", "marks": ["i"] }, " holy"],
+        "content": [" ", { "text": "all", "marks": ["i"] }, " holy"],
         "strong": "G40"
       },
       { "text": " conversation", "strong": "G391" },
@@ -1654,13 +1664,17 @@
       { "text": "And", "strong": "G2532" },
       { "text": " account", "strong": "G2233", "morph": "PresMidPasDepImpr" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " the longsuffering"],
+        "content": [
+          " ",
+          { "text": "that", "marks": ["i"] },
+          " the longsuffering"
+        ],
         "strong": "G3115"
       },
       { "text": " of our", "strong": "G2257" },
       { "text": " Lord", "strong": "G2962" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " salvation;"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " salvation;"],
         "strong": "G4991"
       },
       { "text": " even as", "strong": "G2531" },
@@ -1687,7 +1701,7 @@
       { "text": " in", "strong": "G1722" },
       { "text": " all", "strong": "G3956" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " epistles,"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " epistles,"],
         "strong": "G1992"
       },
       { "text": " speaking", "strong": "G2980", "morph": "PresActPtc" },
@@ -1707,7 +1721,7 @@
       { "text": " wrest,", "strong": "G4761", "morph": "PresActInd" },
       { "text": " as", "strong": "G5613" },
       {
-        "content": [{ "text": " they do", "marks": ["i"] }, " also"],
+        "content": [" ", { "text": "they do", "marks": ["i"] }, " also"],
         "strong": "G2532"
       },
       { "text": " the other", "strong": "G3062" },
@@ -1757,7 +1771,7 @@
       { "text": " grace,", "strong": "G5485" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " in", "marks": ["i"] }, " the knowledge"],
+        "content": [" ", { "text": "in", "marks": ["i"] }, " the knowledge"],
         "strong": "G1108"
       },
       { "text": " of our", "strong": "G2257" },
@@ -1768,7 +1782,7 @@
       { "text": " Christ.", "strong": "G5547" },
       { "text": " To him", "strong": "G846" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " glory"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " glory"],
         "strong": "G1391"
       },
       { "text": " both", "strong": "G2532" },

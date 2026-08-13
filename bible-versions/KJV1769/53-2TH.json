@@ -147,7 +147,11 @@
     "content": [
       { "text": "seeing", "strong": "G1512" },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " a righteous thing"],
+        "content": [
+          " ",
+          { "text": "it is", "marks": ["i"] },
+          " a righteous thing"
+        ],
         "strong": "G1342"
       },
       { "text": " with", "strong": "G3844" },
@@ -371,7 +375,7 @@
       { "text": " Christ,", "strong": "G5547" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " by", "marks": ["i"] }, " our"],
+        "content": [" ", { "text": "by", "marks": ["i"] }, " our"],
         "strong": "G2257"
       },
       { "text": " gathering together", "strong": "G1997" },
@@ -429,7 +433,8 @@
       { "text": " for", "strong": "G3754" },
       {
         "content": [
-          { "text": " that day shall not come", "marks": ["i"] },
+          " ",
+          { "text": "that day shall not come", "marks": ["i"] },
           ", except"
         ],
         "strong": "G3362"
@@ -532,7 +537,7 @@
       { "text": " he who now", "strong": "G737" },
       { "text": " letteth", "strong": "G2722", "morph": "PresActPtc" },
       {
-        "content": [{ "text": " will let", "marks": ["i"] }, ", until"],
+        "content": [" ", { "text": "will let", "marks": ["i"] }, ", until"],
         "strong": "G2193"
       },
       { "text": " he be taken", "strong": "G1096", "morph": "Aor2MidDepSubj" },
@@ -755,7 +760,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " hath given", "strong": "G1325", "morph": "Aor2ActPtc" },
       {
-        "content": [{ "text": " us", "marks": ["i"] }, " everlasting"],
+        "content": [" ", { "text": "us", "marks": ["i"] }, " everlasting"],
         "strong": "G166"
       },
       { "text": " consolation", "strong": "G3874" },
@@ -820,7 +825,7 @@
       { "text": " even", "strong": "G2532" },
       { "text": " as", "strong": "G2531" },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "it is", "marks": ["i"] }, " with"],
         "strong": "G4314"
       },
       { "text": " you:", "strong": "G5209" }
@@ -853,7 +858,7 @@
       { "text": " for", "strong": "G1063" },
       { "text": " all", "strong": "G3956" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " have not"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " have not"],
         "strong": "G3756"
       },
       { "text": " faith.", "strong": "G4102" }
@@ -874,7 +879,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " keep", "strong": "G5442", "morph": "FutActInd" },
       {
-        "content": [{ "text": " you", "marks": ["i"] }, " from"],
+        "content": [" ", { "text": "you", "marks": ["i"] }, " from"],
         "strong": "G575"
       },
       { "text": " evil.", "strong": "G4190" }
@@ -1166,7 +1171,7 @@
       { "text": "Yet", "strong": "G2532" },
       { "text": " count", "strong": "G2233", "morph": "PresMidPasDepImpr" },
       {
-        "content": [{ "text": " him", "marks": ["i"] }, " not"],
+        "content": [" ", { "text": "him", "marks": ["i"] }, " not"],
         "strong": "G3361"
       },
       { "text": " as", "strong": "G5613" },
@@ -1174,7 +1179,7 @@
       { "text": " but", "strong": "G235" },
       { "text": " admonish", "strong": "G3560", "morph": "PresActImpr" },
       {
-        "content": [{ "text": " him", "marks": ["i"] }, " as"],
+        "content": [" ", { "text": "him", "marks": ["i"] }, " as"],
         "strong": "G5613"
       },
       { "text": " a brother.", "strong": "G80" }
@@ -1199,7 +1204,7 @@
       { "text": " means.", "strong": "G5158" },
       { "text": " The Lord", "strong": "G2962" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " with"],
         "strong": "G3326"
       },
       { "text": " you", "strong": "G5216" },
@@ -1236,7 +1241,7 @@
       { "text": " Jesus", "strong": "G2424" },
       { "text": " Christ", "strong": "G5547" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " with"],
         "strong": "G3326"
       },
       { "text": " you", "strong": "G5216" },

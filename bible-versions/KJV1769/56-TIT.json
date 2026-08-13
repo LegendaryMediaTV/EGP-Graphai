@@ -79,7 +79,7 @@
     "content": [
       { "text": "to Titus,", "strong": "G5103" },
       {
-        "content": [{ "text": " mine", "marks": ["i"] }, " own"],
+        "content": [" ", { "text": "mine", "marks": ["i"] }, " own"],
         "strong": "G1103"
       },
       { "text": " son", "strong": "G5043" },
@@ -89,7 +89,7 @@
       { "text": " Grace,", "strong": "G5485" },
       { "text": " mercy,", "strong": "G1656" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " peace,"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " peace,"],
         "strong": "G1515"
       },
       { "text": " from", "strong": "G575" },
@@ -289,7 +289,7 @@
       { "text": " of", "strong": "G1537" },
       { "text": " themselves,", "strong": "G846" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " a prophet"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " a prophet"],
         "strong": "G4396"
       },
       { "text": " of their", "strong": "G846" },
@@ -297,7 +297,7 @@
       { "text": " said,", "strong": "G2036", "morph": "Aor2ActInd" },
       { "text": " The Cretians", "strong": "G2912" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " alway"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " alway"],
         "strong": "G104"
       },
       { "text": " liars,", "strong": "G5583" },
@@ -356,7 +356,7 @@
       { "text": "Unto the pure", "strong": "G2513" },
       { "text": " all things", "strong": "G3956" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " pure:"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " pure:"],
         "strong": "G3303"
       },
       { "strong": "G2513" },
@@ -369,7 +369,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " unbelieving", "strong": "G571" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " nothing"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " nothing"],
         "strong": "G3762"
       },
       { "text": " pure;", "strong": "G2513" },
@@ -394,7 +394,7 @@
       { "text": " in works", "strong": "G2041" },
       { "text": " they deny", "strong": "G720", "morph": "PresMidPasDepInd" },
       {
-        "content": [{ "text": " him", "marks": ["i"] }, ", being"],
+        "content": [" ", { "text": "him", "marks": ["i"] }, ", being"],
         "strong": "G5607",
         "morph": "PresPtc"
       },
@@ -569,7 +569,11 @@
       { "text": " in", "strong": "G1722" },
       { "text": " doctrine", "strong": "G1319" },
       {
-        "content": [{ "text": " shewing", "marks": ["i"] }, " uncorruptness,"],
+        "content": [
+          " ",
+          { "text": "shewing", "marks": ["i"] },
+          " uncorruptness,"
+        ],
         "strong": "G90"
       },
       { "text": " gravity,", "strong": "G4587" },
@@ -610,7 +614,7 @@
       { "text": " unto their own", "strong": "G2398" },
       { "text": " masters,", "strong": "G1203" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " to"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " to"],
         "strong": "G1511",
         "morph": "PresInf"
       },
@@ -798,7 +802,7 @@
       { "text": " to be", "strong": "G1511", "morph": "PresInf" },
       { "text": " no brawlers,", "strong": "G269" },
       {
-        "content": [{ "text": " but", "marks": ["i"] }, " gentle,"],
+        "content": [" ", { "text": "but", "marks": ["i"] }, " gentle,"],
         "strong": "G1933"
       },
       { "text": " shewing", "strong": "G1731", "morph": "PresMidPtc" },
@@ -835,7 +839,7 @@
       { "text": " envy,", "strong": "G5355" },
       { "text": " hateful,", "strong": "G4767" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " hating"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " hating"],
         "strong": "G3404",
         "morph": "PresActPtc"
       },
@@ -1134,7 +1138,7 @@
       { "text": " the faith.", "strong": "G4102" },
       { "text": " Grace", "strong": "G5485" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " with"],
         "strong": "G3326"
       },
       { "text": " you", "strong": "G5216" },

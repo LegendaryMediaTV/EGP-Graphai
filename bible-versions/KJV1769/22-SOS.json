@@ -30,7 +30,7 @@
         "strong": "H1730"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " better"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " better"],
         "strong": "H2896"
       },
       { "text": " than wine.", "break": true, "strong": "H3196" }
@@ -46,7 +46,7 @@
       { "text": " ointments", "break": true, "strong": "H8081" },
       { "text": "Thy name", "strong": "H8034" },
       {
-        "content": [{ "text": " is as", "marks": ["i"] }, " ointment"],
+        "content": [" ", { "text": "is as", "marks": ["i"] }, " ointment"],
         "strong": "H8081"
       },
       {
@@ -247,14 +247,16 @@
       { "text": " with rows", "strong": "H8447" },
       {
         "content": [
-          { "text": " of jewels", "marks": ["i"] },
+          " ",
+          { "text": "of jewels", "marks": ["i"] },
           { "text": ",", "break": true },
           "Thy neck"
         ],
         "strong": "H6677"
       },
       { "text": " with chains", "strong": "H2737" },
-      { "text": " of gold", "marks": ["i"] },
+      " ",
+      { "text": "of gold", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -277,7 +279,11 @@
     "content": [
       { "text": "While the King", "strong": "H4428" },
       {
-        "content": [{ "text": " sitteth", "marks": ["i"] }, " at his table,"],
+        "content": [
+          " ",
+          { "text": "sitteth", "marks": ["i"] },
+          " at his table,"
+        ],
         "break": true,
         "strong": "H4524"
       },
@@ -295,7 +301,7 @@
       { "text": "A bundle", "strong": "H6872" },
       { "text": " of myrrh", "strong": "H4753" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " my wellbeloved"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " my wellbeloved"],
         "strong": "H1730"
       },
       {
@@ -318,7 +324,8 @@
       { "text": "My beloved", "strong": "H1730" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " unto me ",
           { "text": "as", "marks": ["i"] },
           " a cluster"
@@ -393,7 +400,7 @@
       { "text": "Yea, pleasant:", "break": true, "strong": "H5273" },
       { "text": "Also our bed", "strong": "H6210" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " green."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " green."],
         "break": true,
         "strong": "H7488"
       }
@@ -407,7 +414,7 @@
       { "text": "The beams", "strong": "H6982" },
       { "text": " of our house", "strong": "H1004" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " cedar,"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " cedar,"],
         "break": true,
         "strong": "H730"
       },
@@ -491,7 +498,7 @@
       },
       { "text": "And his fruit", "strong": "H6529" },
       {
-        "content": [{ "text": " was", "marks": ["i"] }, " sweet"],
+        "content": [" ", { "text": "was", "marks": ["i"] }, " sweet"],
         "strong": "H4966"
       },
       {
@@ -564,7 +571,7 @@
     "content": [
       { "text": "His left hand", "strong": "H8040" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " under my head,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " under my head,"],
         "break": true,
         "strong": "H7218"
       },
@@ -604,7 +611,7 @@
       },
       { "text": " nor awake", "strong": "H5782", "morph": "PoleImpf" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " love,"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " love,"],
         "break": true,
         "strong": "H160"
       },
@@ -710,7 +717,7 @@
       { "text": "The rain", "strong": "H1653" },
       { "text": " is over", "strong": "H2498", "morph": "QalPerf" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " gone;"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " gone;"],
         "break": true,
         "strong": "H1980",
         "morph": "QalPerf"
@@ -728,7 +735,7 @@
       { "text": "The time", "strong": "H6256" },
       { "text": " of the singing", "strong": "H2158" },
       {
-        "content": [{ "text": " of birds", "marks": ["i"] }, " is come,"],
+        "content": [" ", { "text": "of birds", "marks": ["i"] }, " is come,"],
         "break": true,
         "strong": "H5060",
         "morph": "HiphPerf"
@@ -749,7 +756,11 @@
       { "text": " her green figs,", "break": true, "strong": "H6291" },
       { "text": "And the vines", "strong": "H1612" },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " the tender grape"],
+        "content": [
+          " ",
+          { "text": "with", "marks": ["i"] },
+          " the tender grape"
+        ],
         "break": true,
         "strong": "H5563"
       },
@@ -777,13 +788,21 @@
     "content": [
       { "text": "O my dove,", "strong": "H3123" },
       {
-        "content": [{ "text": " that art", "marks": ["i"] }, " in the clefts"],
+        "content": [
+          " ",
+          { "text": "that art", "marks": ["i"] },
+          " in the clefts"
+        ],
         "strong": "H2288"
       },
       { "text": " of the rock,", "break": true, "strong": "H5553" },
       { "text": "In the secret", "strong": "H5643" },
       {
-        "content": [{ "text": " places", "marks": ["i"] }, " of the stairs,"],
+        "content": [
+          " ",
+          { "text": "places", "marks": ["i"] },
+          " of the stairs,"
+        ],
         "break": true,
         "strong": "H4095"
       },
@@ -793,13 +812,13 @@
       { "text": " thy voice;", "break": true, "strong": "H6963" },
       { "text": "For sweet", "strong": "H6156" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " thy voice,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " thy voice,"],
         "break": true,
         "strong": "H6963"
       },
       { "text": "And thy countenance", "strong": "H4758" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " comely."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " comely."],
         "break": true,
         "strong": "H5000"
       }
@@ -818,7 +837,7 @@
       { "text": " the vines:", "break": true, "strong": "H3754" },
       { "text": "For our vines", "strong": "H3754" },
       {
-        "content": [{ "text": " have", "marks": ["i"] }, " tender grapes."],
+        "content": [" ", { "text": "have", "marks": ["i"] }, " tender grapes."],
         "break": true,
         "strong": "H5563"
       }
@@ -832,7 +851,8 @@
       { "text": "My beloved", "strong": "H1730" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " mine, and I ",
           { "text": "am", "marks": ["i"] },
           { "text": " his:", "break": true },
@@ -1012,7 +1032,7 @@
       },
       { "text": " nor awake", "strong": "H5782", "morph": "PoleImpf" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " love,"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " love,"],
         "break": true,
         "strong": "H160"
       },
@@ -1092,7 +1112,7 @@
       { "text": " in war:", "break": true, "strong": "H4421" },
       { "text": "Every man", "strong": "H376" },
       {
-        "content": [{ "text": " hath", "marks": ["i"] }, " his sword"],
+        "content": [" ", { "text": "hath", "marks": ["i"] }, " his sword"],
         "strong": "H2719"
       },
       { "text": " upon his thigh", "break": true, "strong": "H3409" },
@@ -1151,7 +1171,7 @@
         "morph": "QalPasPtc"
       },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " love,"],
+        "content": [" ", { "text": "with", "marks": ["i"] }, " love,"],
         "break": true,
         "strong": "H160"
       },
@@ -1215,7 +1235,7 @@
       { "text": " thy locks:", "break": true, "strong": "H6777" },
       { "text": "Thy hair", "strong": "H8181" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as a flock"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as a flock"],
         "strong": "H5739"
       },
       { "text": " of goats,", "break": true, "strong": "H5795" },
@@ -1242,12 +1262,13 @@
     "content": [
       { "text": "Thy teeth", "strong": "H8127" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " like a flock"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " like a flock"],
         "strong": "H5739"
       },
       {
         "content": [
-          { "text": " of sheep that are even", "marks": ["i"] },
+          " ",
+          { "text": "of sheep that are even", "marks": ["i"] },
           " shorn,"
         ],
         "break": true,
@@ -1276,19 +1297,19 @@
     "content": [
       { "text": "Thy lips", "strong": "H8193" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " like a thread"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " like a thread"],
         "strong": "H2339"
       },
       { "text": " of scarlet,", "break": true, "strong": "H8144" },
       { "text": "And thy speech", "strong": "H4057" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " comely:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " comely:"],
         "break": true,
         "strong": "H5000"
       },
       { "text": "Thy temples", "strong": "H7541" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " like a piece"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " like a piece"],
         "strong": "H6400"
       },
       { "text": " of a pomegranate", "break": true, "strong": "H7416" },
@@ -1303,7 +1324,7 @@
     "content": [
       { "text": "Thy neck", "strong": "H6677" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " like the tower"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " like the tower"],
         "strong": "H4026"
       },
       { "text": " of David", "break": true, "strong": "H1732" },
@@ -1324,7 +1345,7 @@
       { "text": "Thy two", "strong": "H8147" },
       { "text": " breasts", "strong": "H7699" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " like two"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " like two"],
         "strong": "H8147"
       },
       { "text": " young", "strong": "H6082" },
@@ -1389,7 +1410,7 @@
       { "text": "Come", "strong": "H935", "morph": "QalImpf" },
       { "text": " with me from Lebanon,", "strong": "H3844" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " spouse,"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse,"],
         "break": true,
         "strong": "H3618"
       },
@@ -1430,7 +1451,7 @@
       },
       { "text": " my sister,", "strong": "H269" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " spouse;"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse;"],
         "break": true,
         "strong": "H3618"
       },
@@ -1455,7 +1476,7 @@
       { "text": " is thy love,", "strong": "H1730" },
       { "text": " my sister,", "strong": "H269" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " spouse!"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse!"],
         "break": true,
         "strong": "H3618"
       },
@@ -1479,21 +1500,25 @@
       },
       { "text": " drop", "strong": "H5197", "morph": "QalImpf" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " the honeycomb:"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " the honeycomb:"],
         "break": true,
         "strong": "H5317"
       },
       { "text": "Honey", "strong": "H1706" },
       { "text": " and milk", "strong": "H2461" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " under thy tongue;"],
+        "content": [
+          " ",
+          { "text": "are", "marks": ["i"] },
+          " under thy tongue;"
+        ],
         "break": true,
         "strong": "H3956"
       },
       { "text": "And the smell", "strong": "H7381" },
       { "text": " of thy garments", "strong": "H8008" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " like the smell"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " like the smell"],
         "strong": "H7381"
       },
       { "text": " of Lebanon.", "break": true, "strong": "H3844" }
@@ -1507,11 +1532,11 @@
       { "text": "A garden", "strong": "H1588" },
       { "text": " inclosed", "strong": "H5274", "morph": "QalPasPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " my sister,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " my sister,"],
         "strong": "H269"
       },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " spouse;"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse;"],
         "break": true,
         "strong": "H3618"
       },
@@ -1533,7 +1558,7 @@
     "content": [
       { "text": "Thy plants", "strong": "H7973" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " an orchard"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " an orchard"],
         "strong": "H6508"
       },
       { "text": " of pomegranates,", "break": true, "strong": "H7416" },
@@ -1619,7 +1644,7 @@
       { "text": " into my garden,", "strong": "H1588" },
       { "text": " my sister,", "strong": "H269" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " spouse:"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " spouse:"],
         "break": true,
         "strong": "H3618"
       },
@@ -1664,7 +1689,8 @@
       { "text": " that knocketh,", "strong": "H1849", "morph": "QalActPtc" },
       {
         "content": [
-          { "text": " saying", "marks": ["i"] },
+          " ",
+          { "text": "saying", "marks": ["i"] },
           { "text": ",", "break": true },
           "Open"
         ],
@@ -1719,7 +1745,8 @@
       { "text": " the hole", "strong": "H2356" },
       {
         "content": [
-          { "text": " of the door", "marks": ["i"] },
+          " ",
+          { "text": "of the door", "marks": ["i"] },
           { "text": ",", "break": true },
           "And my bowels"
         ],
@@ -1750,14 +1777,15 @@
       { "text": "And my hands", "strong": "H3027" },
       { "text": " dropped", "strong": "H5197", "morph": "QalPerf" },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " myrrh,"],
+        "content": [" ", { "text": "with", "marks": ["i"] }, " myrrh,"],
         "break": true,
         "strong": "H4753"
       },
       { "text": "And my fingers", "strong": "H676" },
       {
         "content": [
-          { "text": " with", "marks": ["i"] },
+          " ",
+          { "text": "with", "marks": ["i"] },
           {
             "text": " sweet smelling",
             "foot": {
@@ -1927,7 +1955,7 @@
     "content": [
       { "text": "My beloved", "strong": "H1730" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " white"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " white"],
         "strong": "H6703"
       },
       { "text": " and ruddy,", "break": true, "strong": "H122" },
@@ -1950,14 +1978,15 @@
     "content": [
       { "text": "His head", "strong": "H7218" },
       {
-        "content": [{ "text": " is as", "marks": ["i"] }, " the most"],
+        "content": [" ", { "text": "is as", "marks": ["i"] }, " the most"],
         "strong": "H3800"
       },
       { "text": " fine gold,", "break": true, "strong": "H6337" },
       { "text": "His locks", "strong": "H6977" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           {
             "text": " bushy,",
             "foot": {
@@ -1984,7 +2013,8 @@
       { "text": "His eyes", "strong": "H5869" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           " as ",
           { "text": "the eyes", "marks": ["i"] },
           " of doves"
@@ -1997,7 +2027,8 @@
       { "text": " with milk,", "strong": "H2461" },
       {
         "content": [
-          { "text": " and", "marks": ["i"] },
+          " ",
+          { "text": "and", "marks": ["i"] },
           {
             "text": " fitly set.",
             "foot": {
@@ -2025,12 +2056,12 @@
     "content": [
       { "text": "His cheeks", "strong": "H3895" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " as a bed"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " as a bed"],
         "strong": "H6170"
       },
       { "text": " of spices,", "strong": "H1314" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " sweet"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " sweet"],
         "strong": "H4840"
       },
       {
@@ -2044,7 +2075,7 @@
       },
       { "text": "His lips", "strong": "H8193" },
       {
-        "content": [{ "text": " like", "marks": ["i"] }, " lilies,"],
+        "content": [" ", { "text": "like", "marks": ["i"] }, " lilies,"],
         "strong": "H7799"
       },
       { "text": " dropping", "strong": "H5197", "morph": "QalActPtc" },
@@ -2059,7 +2090,7 @@
     "content": [
       { "text": "His hands", "strong": "H3027" },
       {
-        "content": [{ "text": " are as", "marks": ["i"] }, " gold"],
+        "content": [" ", { "text": "are as", "marks": ["i"] }, " gold"],
         "strong": "H2091"
       },
       { "text": " rings", "strong": "H1550" },
@@ -2067,13 +2098,13 @@
       { "text": " with the beryl:", "break": true, "strong": "H8658" },
       { "text": "His belly", "strong": "H4578" },
       {
-        "content": [{ "text": " is as", "marks": ["i"] }, " bright"],
+        "content": [" ", { "text": "is as", "marks": ["i"] }, " bright"],
         "strong": "H6247"
       },
       { "text": " ivory", "strong": "H8127" },
       { "text": " overlaid", "strong": "H5968", "morph": "PualPtc" },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " sapphires."],
+        "content": [" ", { "text": "with", "marks": ["i"] }, " sapphires."],
         "break": true,
         "strong": "H5601"
       }
@@ -2086,7 +2117,7 @@
     "content": [
       { "text": "His legs", "strong": "H7785" },
       {
-        "content": [{ "text": " are as", "marks": ["i"] }, " pillars"],
+        "content": [" ", { "text": "are as", "marks": ["i"] }, " pillars"],
         "strong": "H5982"
       },
       { "text": " of marble,", "strong": "H8336" },
@@ -2095,7 +2126,7 @@
       { "text": " of fine gold:", "break": true, "strong": "H6337" },
       { "text": "His countenance", "strong": "H4758" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as Lebanon,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as Lebanon,"],
         "strong": "H3844"
       },
       { "text": " excellent", "strong": "H977", "morph": "QalPasPtc" },
@@ -2116,7 +2147,7 @@
         "strong": "H2441"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " most sweet:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " most sweet:"],
         "break": true,
         "strong": "H4477"
       },
@@ -2199,7 +2230,8 @@
       { "text": " and my beloved", "strong": "H1730" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           { "text": " mine:", "break": true },
           "He feedeth"
         ],
@@ -2265,7 +2297,7 @@
         "strong": "H8181"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as a flock"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as a flock"],
         "strong": "H5739"
       },
       { "text": " of goats", "break": true, "strong": "H5795" },
@@ -2280,7 +2312,7 @@
     "content": [
       { "text": "Thy teeth", "strong": "H8127" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " as a flock"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " as a flock"],
         "strong": "H5739"
       },
       { "text": " of sheep", "break": true, "strong": "H7353" },
@@ -2311,7 +2343,7 @@
       { "text": "As a piece", "strong": "H6400" },
       { "text": " of a pomegranate", "strong": "H7416" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " thy temples"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " thy temples"],
         "break": true,
         "strong": "H7541"
       },
@@ -2360,7 +2392,11 @@
         "strong": "H1249"
       },
       {
-        "content": [{ "text": " one", "marks": ["i"] }, " of her that bare"],
+        "content": [
+          " ",
+          { "text": "one", "marks": ["i"] },
+          " of her that bare"
+        ],
         "strong": "H3205",
         "morph": "QalActPtc"
       },
@@ -2528,7 +2564,7 @@
       { "text": "The joints", "strong": "H2542" },
       { "text": " of thy thighs", "strong": "H3409" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " like jewels,"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " like jewels,"],
         "break": true,
         "strong": "H2481"
       },
@@ -2544,7 +2580,7 @@
     "content": [
       { "text": "Thy navel", "strong": "H8326" },
       {
-        "content": [{ "text": " is like", "marks": ["i"] }, " a round"],
+        "content": [" ", { "text": "is like", "marks": ["i"] }, " a round"],
         "strong": "H5469"
       },
       { "text": " goblet,", "break": true, "strong": "H101" },
@@ -2564,7 +2600,7 @@
       },
       { "text": "Thy belly", "strong": "H990" },
       {
-        "content": [{ "text": " is like", "marks": ["i"] }, " an heap"],
+        "content": [" ", { "text": "is like", "marks": ["i"] }, " an heap"],
         "strong": "H6194"
       },
       { "text": " of wheat", "break": true, "strong": "H2406" },
@@ -2580,7 +2616,7 @@
       { "text": "Thy two", "strong": "H8147" },
       { "text": " breasts", "strong": "H7699" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " like two"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " like two"],
         "strong": "H8147"
       },
       { "text": " young", "strong": "H6082" },
@@ -2599,13 +2635,13 @@
     "content": [
       { "text": "Thy neck", "strong": "H6677" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as a tower"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as a tower"],
         "strong": "H4026"
       },
       { "text": " of ivory;", "break": true, "strong": "H8127" },
       { "text": "Thine eyes", "strong": "H5869" },
       {
-        "content": [{ "text": " like", "marks": ["i"] }, " the fishpools"],
+        "content": [" ", { "text": "like", "marks": ["i"] }, " the fishpools"],
         "strong": "H1295"
       },
       { "text": " in Heshbon,", "break": true, "strong": "H2809" },
@@ -2613,7 +2649,7 @@
       { "text": " of Bathrabbim:", "break": true, "strong": "H1337" },
       { "text": "Thy nose", "strong": "H639" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as the tower"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as the tower"],
         "strong": "H4026"
       },
       { "text": " of Lebanon", "break": true, "strong": "H3844" },
@@ -2649,7 +2685,8 @@
       { "text": "The king", "strong": "H4428" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " held",
             "foot": {
@@ -2688,7 +2725,8 @@
       { "text": " to a palm tree,", "break": true, "strong": "H8558" },
       { "text": "And thy breasts", "strong": "H7699" },
       { "text": " to clusters", "strong": "H811" },
-      { "text": " of grapes", "marks": ["i"] },
+      " ",
+      { "text": "of grapes", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -2728,7 +2766,8 @@
       { "text": " that goeth", "strong": "H1980", "morph": "QalActPtc" },
       {
         "content": [
-          { "text": " down", "marks": ["i"] },
+          " ",
+          { "text": "down", "marks": ["i"] },
           {
             "text": " sweetly,",
             "foot": {
@@ -2768,7 +2807,8 @@
         "strong": "H1730"
       },
       { "text": "And his desire", "strong": "H8669" },
-      { "text": " is", "marks": ["i"] },
+      " ",
+      { "text": "is", "marks": ["i"] },
       { "text": " toward me.", "break": true }
     ]
   },
@@ -2839,14 +2879,16 @@
       { "text": "And at our gates", "strong": "H6607" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           " all manner of pleasant"
         ],
         "strong": "H4022"
       },
       {
         "content": [
-          { "text": " fruits", "marks": ["i"] },
+          " ",
+          { "text": "fruits", "marks": ["i"] },
           { "text": ",", "break": true },
           "New"
         ],
@@ -2950,7 +2992,8 @@
       { "text": "His left hand", "strong": "H8040" },
       {
         "content": [
-          { "text": " should be", "marks": ["i"] },
+          " ",
+          { "text": "should be", "marks": ["i"] },
           " under my head,"
         ],
         "break": true,
@@ -2985,7 +3028,7 @@
       },
       { "text": " nor awake", "strong": "H5782", "morph": "PoleImpf" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " love,"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " love,"],
         "break": true,
         "strong": "H160"
       },
@@ -3033,7 +3076,7 @@
         "morph": "PielPerf"
       },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " bare"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " bare"],
         "strong": "H3205",
         "morph": "QalPerf"
       },
@@ -3052,14 +3095,15 @@
       { "text": " upon thine arm:", "break": true, "strong": "H2220" },
       { "text": "For love", "strong": "H160" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " strong"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " strong"],
         "strong": "H5794"
       },
       { "text": " as death;", "break": true, "strong": "H4194" },
       { "text": "Jealousy", "strong": "H7068" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " cruel",
             "foot": {
@@ -3212,7 +3256,7 @@
       },
       { "text": " a thousand", "strong": "H505" },
       {
-        "content": [{ "text": " pieces", "marks": ["i"] }, " of silver."],
+        "content": [" ", { "text": "pieces", "marks": ["i"] }, " of silver."],
         "break": true,
         "strong": "H3701"
       }
@@ -3239,7 +3283,11 @@
         "strong": "H8010"
       },
       {
-        "content": [{ "text": " must have", "marks": ["i"] }, " a thousand,"],
+        "content": [
+          " ",
+          { "text": "must have", "marks": ["i"] },
+          " a thousand,"
+        ],
         "break": true,
         "strong": "H505"
       },
@@ -3263,7 +3311,8 @@
       { "text": " hearken", "strong": "H7181", "morph": "HiphPtc" },
       { "text": " to thy voice:", "break": true, "strong": "H6963" },
       { "text": "Cause me to hear", "strong": "H8085", "morph": "HiphImpv" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },

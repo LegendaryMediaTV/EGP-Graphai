@@ -159,7 +159,7 @@
       { "paragraph": true, "text": "A son", "strong": "H1121" },
       { "text": " honoureth", "strong": "H3513", "morph": "PielImpf" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " father,"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " father,"],
         "strong": "H1"
       },
       { "text": " and a servant", "strong": "H5650" },
@@ -240,7 +240,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " contemptible."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " contemptible."],
         "strong": "H959",
         "morph": "NiphPtc"
       }
@@ -263,14 +263,14 @@
         "morph": "QalInf"
       },
       {
-        "content": [{ "text": " is it", "marks": ["i"] }, " not evil?"],
+        "content": [" ", { "text": "is it", "marks": ["i"] }, " not evil?"],
         "strong": "H7451"
       },
       { "text": " and if ye offer", "strong": "H5066", "morph": "HiphImpf" },
       { "text": " the lame", "strong": "H6455" },
       { "text": " and sick,", "strong": "H2470", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " is it", "marks": ["i"] }, " not evil?"],
+        "content": [" ", { "text": "is it", "marks": ["i"] }, " not evil?"],
         "strong": "H7451"
       },
       { "text": " offer", "strong": "H7126", "morph": "HiphImpv" },
@@ -350,14 +350,15 @@
       { "text": " the doors", "strong": "H1817" },
       {
         "content": [
-          { "text": " for nought?", "marks": ["i"] },
+          " ",
+          { "text": "for nought?", "marks": ["i"] },
           " neither do ye kindle"
         ],
         "strong": "H215",
         "morph": "HiphImpf"
       },
       {
-        "content": [{ "text": " fire", "marks": ["i"] }, " on mine altar"],
+        "content": [" ", { "text": "fire", "marks": ["i"] }, " on mine altar"],
         "strong": "H4196"
       },
       { "text": " for nought.", "strong": "H2600" },
@@ -387,14 +388,14 @@
       { "text": " even unto the going down", "strong": "H3996" },
       { "text": " of the same my name", "strong": "H8034" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " great"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " great"],
         "strong": "H1419"
       },
       { "text": " among the Gentiles;", "strong": "H1471" },
       { "text": " and in every place", "strong": "H4725" },
       { "text": " incense", "strong": "H6999", "morph": "HophPtc" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " offered"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " offered"],
         "strong": "H5066",
         "morph": "HophPtc"
       },
@@ -403,7 +404,7 @@
       { "text": " offering:", "strong": "H4503" },
       { "text": " for my name", "strong": "H8034" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " great"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " great"],
         "strong": "H1419"
       },
       { "text": " among the heathen,", "strong": "H1471" },
@@ -433,7 +434,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " polluted;"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " polluted;"],
         "strong": "H1351",
         "morph": "PualPtc"
       },
@@ -447,7 +448,7 @@
         "strong": "H400"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " contemptible."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " contemptible."],
         "strong": "H959",
         "morph": "NiphPtc"
       }
@@ -462,7 +463,8 @@
       { "text": " also, Behold, what a weariness", "strong": "H4972" },
       {
         "content": [
-          { "text": " is it!", "marks": ["i"] },
+          " ",
+          { "text": "is it!", "marks": ["i"] },
           " and ye have snuffed"
         ],
         "strong": "H5301",
@@ -495,7 +497,11 @@
       { "text": " of hosts;", "strong": "H6635" },
       { "text": " and ye brought", "strong": "H935", "morph": "HiphPerf" },
       {
-        "content": [{ "text": " that which was", "marks": ["i"] }, " torn,"],
+        "content": [
+          " ",
+          { "text": "that which was", "marks": ["i"] },
+          " torn,"
+        ],
         "strong": "H1497",
         "morph": "QalPasPtc"
       },
@@ -519,7 +525,7 @@
     "content": [
       { "text": "But cursed", "strong": "H779", "morph": "QalPasPtc" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " the deceiver,"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " the deceiver,"],
         "strong": "H5230",
         "morph": "QalActPtc"
       },
@@ -550,7 +556,7 @@
       { "text": " of hosts,", "strong": "H6635" },
       { "text": " and my name", "strong": "H8034" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " dreadful"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " dreadful"],
         "strong": "H3372",
         "morph": "NiphPtc"
       },
@@ -568,7 +574,8 @@
         "strong": "H3548"
       },
       { "text": " this commandment", "strong": "H4687" },
-      { "text": " is", "marks": ["i"] },
+      " ",
+      { "text": "is", "marks": ["i"] },
       " for you."
     ]
   },
@@ -584,7 +591,7 @@
         "morph": "QalImpf"
       },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " to heart,"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, " to heart,"],
         "strong": "H3820"
       },
       { "text": " to give", "strong": "H5414", "morph": "QalInf" },
@@ -611,7 +618,7 @@
         "morph": "QalActPtc"
       },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " to heart."],
+        "content": [" ", { "text": "it", "marks": ["i"] }, " to heart."],
         "strong": "H3820"
       }
     ]
@@ -643,7 +650,7 @@
       { "text": " dung", "strong": "H6569" },
       { "text": " upon your faces,", "strong": "H6440" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " the dung"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " the dung"],
         "strong": "H6569"
       },
       { "text": " of your solemn feasts;", "strong": "H2282" },
@@ -958,7 +965,7 @@
         "morph": "QalInf"
       },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " with good will"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, " with good will"],
         "strong": "H7522"
       },
       { "text": " at your hand.", "strong": "H3027" }
@@ -1128,7 +1135,7 @@
         "morph": "HiphPerf"
       },
       {
-        "content": [{ "text": " him?", "marks": ["i"] }, " When ye say,"],
+        "content": [" ", { "text": "him?", "marks": ["i"] }, " When ye say,"],
         "strong": "H559",
         "morph": "QalInf"
       },
@@ -1139,7 +1146,7 @@
       },
       { "text": " evil", "strong": "H7451" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " good"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " good"],
         "strong": "H2896"
       },
       { "text": " in the sight", "strong": "H5869" },
@@ -1234,7 +1241,7 @@
     "content": [
       { "text": "and he shall sit", "strong": "H3427", "morph": "QalPerf" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " a refiner"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " a refiner"],
         "strong": "H6884",
         "morph": "PielPtc"
       },
@@ -1334,7 +1341,8 @@
       { "text": " the stranger", "strong": "H1616" },
       {
         "content": [
-          { "text": " from his right", "marks": ["i"] },
+          " ",
+          { "text": "from his right", "marks": ["i"] },
           ", and fear"
         ],
         "strong": "H3372",
@@ -1381,7 +1389,7 @@
       { "text": " from mine ordinances,", "strong": "H2706" },
       { "text": " and have not kept", "strong": "H8104", "morph": "QalPerf" },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, ". Return"],
+        "content": [" ", { "text": "them", "marks": ["i"] }, ". Return"],
         "strong": "H7725",
         "morph": "QalImpv"
       },
@@ -1486,7 +1494,8 @@
         ],
         "strong": "H1767"
       },
-      { "text": " to receive it", "marks": ["i"] },
+      " ",
+      { "text": "to receive it", "marks": ["i"] },
       "."
     ]
   },
@@ -1559,7 +1568,8 @@
         "strong": "H1696",
         "morph": "NiphPerf"
       },
-      { "text": " so much", "marks": ["i"] },
+      " ",
+      { "text": "so much", "marks": ["i"] },
       " against thee?"
     ]
   },
@@ -1577,7 +1587,11 @@
       { "text": " God:", "strong": "H430" },
       { "text": " and what profit", "strong": "H1215" },
       {
-        "content": [{ "text": " is it", "marks": ["i"] }, " that we have kept"],
+        "content": [
+          " ",
+          { "text": "is it", "marks": ["i"] },
+          " that we have kept"
+        ],
         "strong": "H8104",
         "morph": "QalPerf"
       },
@@ -1666,7 +1680,7 @@
       { "text": " hearkened,", "strong": "H7181", "morph": "HiphImpf" },
       { "text": " and heard", "strong": "H8085", "morph": "QalImpf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, ", and a book"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, ", and a book"],
         "strong": "H5612"
       },
       { "text": " of remembrance", "strong": "H2146" },
@@ -1815,7 +1829,7 @@
       { "text": " in the day", "strong": "H3117" },
       { "text": " that I shall do", "strong": "H6213", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " this", "marks": ["i"] }, ", saith"],
+        "content": [" ", { "text": "this", "marks": ["i"] }, ", saith"],
         "strong": "H559",
         "morph": "QalPerf"
       },
@@ -1845,7 +1859,7 @@
       { "text": " unto him in Horeb", "strong": "H2722" },
       { "text": " for all Israel,", "strong": "H3478" },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " the statutes"],
+        "content": [" ", { "text": "with", "marks": ["i"] }, " the statutes"],
         "strong": "H2706"
       },
       { "text": " and judgments.", "strong": "H4941" }

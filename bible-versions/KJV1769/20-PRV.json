@@ -79,7 +79,7 @@
     "content": [
       { "text": "A wise", "strong": "H2450" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " will hear,"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " will hear,"],
         "strong": "H8085",
         "morph": "QalImpf"
       },
@@ -127,7 +127,8 @@
       },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " the beginning",
             "foot": {
@@ -425,7 +426,8 @@
       { "text": "In the city", "strong": "H5892" },
       { "text": " she uttereth", "strong": "H559", "morph": "QalImpf" },
       { "text": " her words,", "strong": "H561" },
-      { "text": " saying", "marks": ["i"] },
+      " ",
+      { "text": "saying", "marks": ["i"] },
       { "text": ",", "break": true }
     ]
   },
@@ -765,7 +767,7 @@
       { "text": " wisdom:", "break": true, "strong": "H2451" },
       { "text": "Out of his mouth", "strong": "H6310" },
       {
-        "content": [{ "text": " cometh", "marks": ["i"] }, " knowledge"],
+        "content": [" ", { "text": "cometh", "marks": ["i"] }, " knowledge"],
         "strong": "H1847"
       },
       { "text": " and understanding.", "break": true, "strong": "H8394" }
@@ -815,7 +817,7 @@
       { "text": " and judgment,", "break": true, "strong": "H4941" },
       { "text": "And equity;", "strong": "H4339" },
       {
-        "content": [{ "text": " yea", "marks": ["i"] }, ", every good"],
+        "content": [" ", { "text": "yea", "marks": ["i"] }, ", every good"],
         "strong": "H2896"
       },
       { "text": " path.", "break": true, "strong": "H4570" }
@@ -859,7 +861,8 @@
       { "text": " of the evil", "strong": "H7451" },
       {
         "content": [
-          { "text": " man", "marks": ["i"] },
+          " ",
+          { "text": "man", "marks": ["i"] },
           { "text": ",", "break": true },
           "From the man"
         ],
@@ -906,7 +909,7 @@
     "content": [
       { "text": "Whose ways", "strong": "H734" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " crooked,"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " crooked,"],
         "break": true,
         "strong": "H6141"
       },
@@ -935,7 +938,7 @@
         "strong": "H5237"
       },
       {
-        "content": [{ "text": " which", "marks": ["i"] }, " flattereth"],
+        "content": [" ", { "text": "which", "marks": ["i"] }, " flattereth"],
         "strong": "H2505",
         "morph": "HiphPerf"
       },
@@ -1002,7 +1005,8 @@
       { "text": " of good", "strong": "H2896" },
       {
         "content": [
-          { "text": " men", "marks": ["i"] },
+          " ",
+          { "text": "men", "marks": ["i"] },
           { "text": ",", "break": true },
           "And keep"
         ],
@@ -1271,7 +1275,11 @@
       { "text": "Even as a father", "strong": "H1" },
       { "text": " the son", "strong": "H1121" },
       {
-        "content": [{ "text": " in whom", "marks": ["i"] }, " he delighteth."],
+        "content": [
+          " ",
+          { "text": "in whom", "marks": ["i"] },
+          " he delighteth."
+        ],
         "break": true,
         "strong": "H7521",
         "morph": "QalImpf"
@@ -1285,18 +1293,18 @@
     "content": [
       { "text": "Happy", "strong": "H835" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the man"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the man"],
         "strong": "H120"
       },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " findeth"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " findeth"],
         "strong": "H4672",
         "morph": "QalPerf"
       },
       { "text": " wisdom,", "break": true, "strong": "H2451" },
       { "text": "And the man", "strong": "H120" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " getteth"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " getteth"],
         "strong": "H6329",
         "morph": "HiphImpf"
       },
@@ -1357,7 +1365,11 @@
       { "text": "Length", "strong": "H753" },
       { "text": " of days", "strong": "H3117" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in her right hand;"],
+        "content": [
+          " ",
+          { "text": "is", "marks": ["i"] },
+          " in her right hand;"
+        ],
         "break": true,
         "strong": "H3225"
       },
@@ -1376,13 +1388,13 @@
     "content": [
       { "text": "Her ways", "strong": "H1870" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " ways"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " ways"],
         "strong": "H1870"
       },
       { "text": " of pleasantness,", "break": true, "strong": "H5278" },
       { "text": "And all her paths", "strong": "H5410" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " peace."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " peace."],
         "break": true,
         "strong": "H7965"
       }
@@ -1410,7 +1422,8 @@
       },
       {
         "content": [
-          { "text": " is every one", "marks": ["i"] },
+          " ",
+          { "text": "is every one", "marks": ["i"] },
           " that retaineth"
         ],
         "strong": "H8551",
@@ -1585,7 +1598,8 @@
       { "text": "When it is in the power", "strong": "H410" },
       { "text": " of thine hand", "strong": "H3027" },
       { "text": " to do", "strong": "H6213", "morph": "QalInf" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -1668,7 +1682,7 @@
     "content": [
       { "text": "For the froward", "strong": "H3868", "morph": "NiphPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " abomination"],
         "strong": "H8441"
       },
       {
@@ -1678,7 +1692,11 @@
       },
       { "text": "But his secret", "strong": "H5475" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " with the righteous."],
+        "content": [
+          " ",
+          { "text": "is", "marks": ["i"] },
+          " with the righteous."
+        ],
         "break": true,
         "strong": "H3477"
       }
@@ -1695,7 +1713,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in the house"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in the house"],
         "strong": "H1004"
       },
       { "text": " of the wicked:", "break": true, "strong": "H7563" },
@@ -1784,7 +1802,11 @@
       { "text": "Tender", "strong": "H7390" },
       { "text": " and only", "strong": "H3173" },
       {
-        "content": [{ "text": " beloved", "marks": ["i"] }, " in the sight"],
+        "content": [
+          " ",
+          { "text": "beloved", "marks": ["i"] },
+          " in the sight"
+        ],
         "strong": "H6440"
       },
       { "text": " of my mother.", "break": true, "strong": "H517" }
@@ -1824,7 +1846,11 @@
       { "text": " understanding:", "break": true, "strong": "H998" },
       { "text": "Forget", "strong": "H7911", "morph": "QalImpf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " not; neither decline"],
+        "content": [
+          " ",
+          { "text": "it", "marks": ["i"] },
+          " not; neither decline"
+        ],
         "strong": "H5186",
         "morph": "QalImpf"
       },
@@ -1863,11 +1889,15 @@
     "content": [
       { "text": "Wisdom", "strong": "H2451" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the principal thing;"],
+        "content": [
+          " ",
+          { "text": "is", "marks": ["i"] },
+          " the principal thing;"
+        ],
         "strong": "H7225"
       },
       {
-        "content": [{ "text": " therefore", "marks": ["i"] }, " get"],
+        "content": [" ", { "text": "therefore", "marks": ["i"] }, " get"],
         "strong": "H7069",
         "morph": "QalImpv"
       },
@@ -2025,7 +2055,8 @@
       { "text": "And go", "strong": "H833", "morph": "PielImpf" },
       { "text": " not in the way", "strong": "H1870" },
       { "text": " of evil", "strong": "H7451" },
-      { "text": " men", "marks": ["i"] },
+      " ",
+      { "text": "men", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -2096,7 +2127,7 @@
       { "text": "But the path", "strong": "H734" },
       { "text": " of the just", "strong": "H6662" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as the shining"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as the shining"],
         "strong": "H5051"
       },
       { "text": " light,", "break": true, "strong": "H216" },
@@ -2118,7 +2149,7 @@
       { "text": "The way", "strong": "H1870" },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as darkness:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as darkness:"],
         "break": true,
         "strong": "H653"
       },
@@ -2335,7 +2366,7 @@
       { "text": " of a strange woman", "strong": "H2114", "morph": "QalPtc" },
       { "text": " drop", "strong": "H5197", "morph": "QalImpf" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " an honeycomb,"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " an honeycomb,"],
         "break": true,
         "strong": "H5317"
       },
@@ -2348,7 +2379,7 @@
         "strong": "H2441"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " smoother"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " smoother"],
         "strong": "H2509"
       },
       { "text": " than oil:", "break": true, "strong": "H8081" }
@@ -2396,13 +2427,15 @@
       { "text": " are moveable,", "strong": "H5128", "morph": "QalPerf" },
       {
         "content": [
-          { "text": " that", "marks": ["i"] },
+          " ",
+          { "text": "that", "marks": ["i"] },
           " thou canst not know"
         ],
         "strong": "H3045",
         "morph": "QalImpf"
       },
-      { "text": " them", "marks": ["i"] },
+      " ",
+      { "text": "them", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -2472,7 +2505,7 @@
       },
       { "text": "And thy labours", "strong": "H6089" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " in the house"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " in the house"],
         "strong": "H1004"
       },
       { "text": " of a stranger;", "break": true, "strong": "H5237" }
@@ -2675,7 +2708,7 @@
       { "text": "For the ways", "strong": "H1870" },
       { "text": " of man", "strong": "H376" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " before"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " before"],
         "strong": "H5227"
       },
       { "text": " the eyes", "strong": "H5869" },
@@ -2830,7 +2863,8 @@
       { "text": " from the hand", "strong": "H3027" },
       {
         "content": [
-          { "text": " of the hunter", "marks": ["i"] },
+          " ",
+          { "text": "of the hunter", "marks": ["i"] },
           { "text": ",", "break": true },
           "And as a bird"
         ],
@@ -2980,7 +3014,7 @@
     "content": [
       { "text": "Frowardness", "strong": "H8419" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in his heart,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in his heart,"],
         "strong": "H3820"
       },
       { "text": " he deviseth", "strong": "H2790", "morph": "QalActPtc" },
@@ -3020,7 +3054,8 @@
       { "text": "These six", "strong": "H8337" },
       {
         "content": [
-          { "text": " things", "marks": ["i"] },
+          " ",
+          { "text": "things", "marks": ["i"] },
           " doth the ",
           { "text": "LORD", "marks": ["sc"] }
         ],
@@ -3034,7 +3069,7 @@
       },
       { "text": "Yea, seven", "strong": "H7651" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       {
@@ -3093,7 +3128,7 @@
       { "text": "A false", "strong": "H8267" },
       { "text": " witness", "strong": "H5707" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " speaketh"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " speaketh"],
         "strong": "H6315",
         "morph": "HiphImpf"
       },
@@ -3168,7 +3203,8 @@
       { "text": "For the commandment", "strong": "H4687" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " a lamp;",
             "foot": {
@@ -3181,14 +3217,14 @@
       },
       { "text": " and the law", "strong": "H8451" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " light;"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " light;"],
         "break": true,
         "strong": "H216"
       },
       { "text": "And reproofs", "strong": "H8433" },
       { "text": " of instruction", "strong": "H4148" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the way"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the way"],
         "strong": "H1870"
       },
       { "text": " of life:", "break": true, "strong": "H2416" }
@@ -3240,7 +3276,8 @@
       { "text": " woman", "strong": "H802" },
       {
         "content": [
-          { "text": " a man is brought", "marks": ["i"] },
+          " ",
+          { "text": "a man is brought", "marks": ["i"] },
           " to a piece"
         ],
         "strong": "H3603"
@@ -3423,7 +3460,7 @@
     "content": [
       { "text": "For jealousy", "strong": "H7068" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the rage"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the rage"],
         "strong": "H2534"
       },
       { "text": " of a man:", "break": true, "strong": "H1397" },
@@ -3529,7 +3566,7 @@
       { "text": "And call", "strong": "H7121", "morph": "QalImpf" },
       { "text": " understanding", "strong": "H998" },
       {
-        "content": [{ "text": " thy", "marks": ["i"] }, " kinswoman:"],
+        "content": [" ", { "text": "thy", "marks": ["i"] }, " kinswoman:"],
         "break": true,
         "strong": "H4129"
       }
@@ -3549,7 +3586,7 @@
       { "text": " woman,", "break": true, "strong": "H802" },
       { "text": "From the stranger", "strong": "H5237" },
       {
-        "content": [{ "text": " which", "marks": ["i"] }, " flattereth"],
+        "content": [" ", { "text": "which", "marks": ["i"] }, " flattereth"],
         "strong": "H2505",
         "morph": "HiphPerf"
       },
@@ -3676,7 +3713,7 @@
     "content": [
       { "text": "Now", "strong": "H6471" },
       {
-        "content": [{ "text": " is she", "marks": ["i"] }, " without,"],
+        "content": [" ", { "text": "is she", "marks": ["i"] }, " without,"],
         "strong": "H2351"
       },
       { "text": " now", "strong": "H6471" },
@@ -3772,7 +3809,11 @@
         "strong": "H2405"
       },
       {
-        "content": [{ "text": " works", "marks": ["i"] }, ", with fine linen"],
+        "content": [
+          " ",
+          { "text": "works", "marks": ["i"] },
+          ", with fine linen"
+        ],
         "strong": "H330"
       },
       { "text": " of Egypt.", "break": true, "strong": "H4714" }
@@ -3814,7 +3855,7 @@
     "content": [
       { "text": "For the goodman", "strong": "H376" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " not at home,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " not at home,"],
         "break": true,
         "strong": "H1004"
       },
@@ -3966,7 +4007,7 @@
       { "text": " wounded:", "break": true, "strong": "H2491" },
       { "text": "Yea, many strong", "strong": "H6099" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " have been slain"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " have been slain"],
         "strong": "H2026",
         "morph": "QalPasPtc"
       },
@@ -3980,7 +4021,7 @@
     "content": [
       { "text": "Her house", "strong": "H1004" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the way"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the way"],
         "strong": "H1870"
       },
       { "text": " to hell,", "break": true, "strong": "H7585" },
@@ -4043,7 +4084,7 @@
       },
       { "text": "And my voice", "strong": "H6963" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " to the sons"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " to the sons"],
         "strong": "H1121"
       },
       { "text": " of man.", "break": true, "strong": "H120" }
@@ -4077,7 +4118,11 @@
       { "text": "And the opening", "strong": "H4669" },
       { "text": " of my lips", "strong": "H8193" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " right things."],
+        "content": [
+          " ",
+          { "text": "shall be", "marks": ["i"] },
+          " right things."
+        ],
         "break": true,
         "strong": "H4339"
       }
@@ -4093,7 +4138,7 @@
       { "text": " truth;", "break": true, "strong": "H571" },
       { "text": "And wickedness", "strong": "H7562" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       {
@@ -4118,7 +4163,11 @@
       { "text": "All the words", "strong": "H561" },
       { "text": " of my mouth", "strong": "H6310" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " in righteousness;"],
+        "content": [
+          " ",
+          { "text": "are", "marks": ["i"] },
+          " in righteousness;"
+        ],
         "break": true,
         "strong": "H6664"
       },
@@ -4180,7 +4229,7 @@
     "content": [
       { "text": "For wisdom", "strong": "H2451" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " better"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " better"],
         "strong": "H2896"
       },
       { "text": " than rubies;", "break": true, "strong": "H6443" },
@@ -4225,7 +4274,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " to hate"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " to hate"],
         "strong": "H8130",
         "morph": "QalInf"
       },
@@ -4252,7 +4301,8 @@
       { "text": "Counsel", "strong": "H6098" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " mine, and sound wisdom:"
         ],
         "break": true,
@@ -4296,7 +4346,7 @@
       },
       { "text": "And nobles,", "strong": "H5081" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " all the judges"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " all the judges"],
         "strong": "H8199",
         "morph": "QalActPtc"
       },
@@ -4331,7 +4381,8 @@
       { "text": " and honour", "strong": "H3519" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           { "text": " with me;", "break": true },
           { "text": "Yea", "marks": ["i"] },
           ", durable"
@@ -4349,7 +4400,7 @@
     "content": [
       { "text": "My fruit", "strong": "H6529" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " better"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " better"],
         "strong": "H2896"
       },
       { "text": " than gold,", "strong": "H2742" },
@@ -4581,19 +4632,20 @@
     "content": [
       { "text": "Then I was by him,", "strong": "H681" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " one brought up"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " one brought up"],
         "strong": "H525"
       },
       {
         "content": [
-          { "text": " with him:", "marks": ["i"], "break": true },
+          " ",
+          { "text": "with him:", "marks": ["i"], "break": true },
           "And I was daily"
         ],
         "strong": "H3117"
       },
       { "strong": "H3117" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " delight,"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " delight,"],
         "break": true,
         "strong": "H8191"
       },
@@ -4613,7 +4665,7 @@
       { "text": " of his earth;", "break": true, "strong": "H776" },
       { "text": "And my delights", "strong": "H8191" },
       {
-        "content": [{ "text": " were", "marks": ["i"] }, " with the sons"],
+        "content": [" ", { "text": "were", "marks": ["i"] }, " with the sons"],
         "strong": "H1121"
       },
       { "text": " of men.", "break": true, "strong": "H120" }
@@ -4632,7 +4684,7 @@
       { "text": " unto me, O ye children:", "break": true, "strong": "H1121" },
       { "text": "For blessed", "strong": "H835" },
       {
-        "content": [{ "text": " are they that", "marks": ["i"] }, " keep"],
+        "content": [" ", { "text": "are they that", "marks": ["i"] }, " keep"],
         "strong": "H8104",
         "morph": "QalImpf"
       },
@@ -4663,7 +4715,7 @@
     "content": [
       { "text": "Blessed", "strong": "H835" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the man"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the man"],
         "strong": "H120"
       },
       { "text": " that heareth", "strong": "H8085", "morph": "QalActPtc" },
@@ -4816,7 +4868,11 @@
       { "text": "And drink", "strong": "H8354", "morph": "QalImpv" },
       { "text": " of the wine", "strong": "H3196" },
       {
-        "content": [{ "text": " which", "marks": ["i"] }, " I have mingled."],
+        "content": [
+          " ",
+          { "text": "which", "marks": ["i"] },
+          " I have mingled."
+        ],
         "break": true,
         "strong": "H4537",
         "morph": "QalPerf"
@@ -4854,7 +4910,8 @@
       { "text": " a wicked", "strong": "H7563" },
       {
         "content": [
-          { "text": " man getteth", "marks": ["i"] },
+          " ",
+          { "text": "man getteth", "marks": ["i"] },
           " himself a blot."
         ],
         "break": true,
@@ -4887,12 +4944,17 @@
     "content": [
       { "text": "Give", "strong": "H5414", "morph": "QalImpv" },
       {
-        "content": [{ "text": " instruction", "marks": ["i"] }, " to a wise"],
+        "content": [
+          " ",
+          { "text": "instruction", "marks": ["i"] },
+          " to a wise"
+        ],
         "strong": "H2450"
       },
       {
         "content": [
-          { "text": " man", "marks": ["i"] },
+          " ",
+          { "text": "man", "marks": ["i"] },
           ", and he will be yet wiser:"
         ],
         "break": true,
@@ -4903,7 +4965,8 @@
       { "text": " a just", "strong": "H6662" },
       {
         "content": [
-          { "text": " man", "marks": ["i"] },
+          " ",
+          { "text": "man", "marks": ["i"] },
           ", and he will increase"
         ],
         "strong": "H3254",
@@ -4923,14 +4986,14 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the beginning"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the beginning"],
         "strong": "H8462"
       },
       { "text": " of wisdom:", "break": true, "strong": "H2451" },
       { "text": "And the knowledge", "strong": "H1847" },
       { "text": " of the holy", "strong": "H6918" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " understanding."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " understanding."],
         "break": true,
         "strong": "H998"
       }
@@ -4980,7 +5043,8 @@
         "strong": "H5375",
         "morph": "QalImpf"
       },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -4992,7 +5056,7 @@
       { "text": "A foolish", "strong": "H3687" },
       { "text": " woman", "strong": "H802" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " clamorous:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " clamorous:"],
         "break": true,
         "strong": "H1993",
         "morph": "QalActPtc"
@@ -5076,7 +5140,8 @@
       { "text": "And bread", "strong": "H3899" },
       {
         "content": [
-          { "text": " eaten", "marks": ["i"] },
+          " ",
+          { "text": "eaten", "marks": ["i"] },
           {
             "text": " in secret",
             "foot": {
@@ -5104,7 +5169,8 @@
       { "text": " not that the dead", "strong": "H7496" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           { "text": " there;", "break": true },
           { "text": "And that", "marks": ["i"] },
           " her guests"
@@ -5113,7 +5179,7 @@
         "morph": "QalPasPtc"
       },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " in the depths"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " in the depths"],
         "strong": "H6012"
       },
       { "text": " of hell.", "break": true, "strong": "H7585" }
@@ -5134,7 +5200,7 @@
       { "text": "But a foolish", "strong": "H3684" },
       { "text": " son", "strong": "H1121" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the heaviness"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the heaviness"],
         "strong": "H8424"
       },
       { "text": " of his mother.", "break": true, "strong": "H517" }
@@ -5201,7 +5267,7 @@
       { "text": "He becometh poor", "strong": "H7326", "morph": "QalActPtc" },
       { "text": " that dealeth", "strong": "H6213", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " a slack"],
+        "content": [" ", { "text": "with", "marks": ["i"] }, " a slack"],
         "strong": "H7423"
       },
       { "text": " hand:", "break": true, "strong": "H3709" },
@@ -5223,7 +5289,7 @@
       { "text": "He that gathereth", "strong": "H103", "morph": "QalActPtc" },
       { "text": " in summer", "strong": "H7019" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a wise"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a wise"],
         "strong": "H7919",
         "morph": "HiphPtc"
       },
@@ -5235,7 +5301,7 @@
       },
       { "text": " in harvest", "strong": "H7105" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a son"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a son"],
         "strong": "H1121"
       },
       {
@@ -5253,7 +5319,7 @@
     "content": [
       { "text": "Blessings", "strong": "H1293" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " upon the head"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " upon the head"],
         "strong": "H7218"
       },
       { "text": " of the just:", "break": true, "strong": "H6662" },
@@ -5271,7 +5337,7 @@
       { "text": "The memory", "strong": "H2143" },
       { "text": " of the just", "strong": "H6662" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " blessed:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " blessed:"],
         "break": true,
         "strong": "H1293"
       },
@@ -5372,7 +5438,7 @@
       { "text": "The mouth", "strong": "H6310" },
       { "text": " of a righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " man is", "marks": ["i"] }, " a well"],
+        "content": [" ", { "text": "man is", "marks": ["i"] }, " a well"],
         "strong": "H4726"
       },
       { "text": " of life:", "break": true, "strong": "H2416" },
@@ -5419,7 +5485,7 @@
       },
       { "text": "But a rod", "strong": "H7626" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " for the back"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " for the back"],
         "strong": "H1460"
       },
       { "text": " of him that is void", "strong": "H2638" },
@@ -5433,7 +5499,7 @@
     "content": [
       { "text": "Wise", "strong": "H2450" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " lay up"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " lay up"],
         "strong": "H6845",
         "morph": "QalImpf"
       },
@@ -5441,7 +5507,7 @@
       { "text": "But the mouth", "strong": "H6310" },
       { "text": " of the foolish", "strong": "H191" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " near"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " near"],
         "strong": "H7138"
       },
       { "text": " destruction.", "break": true, "strong": "H4288" }
@@ -5455,14 +5521,14 @@
       { "text": "The rich man's", "strong": "H6223" },
       { "text": " wealth", "strong": "H1952" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his strong"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his strong"],
         "strong": "H5797"
       },
       { "text": " city:", "break": true, "strong": "H7151" },
       { "text": "The destruction", "strong": "H4288" },
       { "text": " of the poor", "strong": "H1800" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " their poverty."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " their poverty."],
         "break": true,
         "strong": "H7389"
       }
@@ -5476,7 +5542,7 @@
       { "text": "The labour", "strong": "H6468" },
       { "text": " of the righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " tendeth", "marks": ["i"] }, " to life:"],
+        "content": [" ", { "text": "tendeth", "marks": ["i"] }, " to life:"],
         "break": true,
         "strong": "H2416"
       },
@@ -5523,14 +5589,14 @@
       { "text": "He that hideth", "strong": "H3680", "morph": "PielPtc" },
       { "text": " hatred", "strong": "H8135" },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " lying"],
+        "content": [" ", { "text": "with", "marks": ["i"] }, " lying"],
         "strong": "H8267"
       },
       { "text": " lips,", "break": true, "strong": "H8193" },
       { "text": "And he that uttereth", "strong": "H3318", "morph": "HiphPtc" },
       { "text": " a slander,", "strong": "H1681" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a fool."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a fool."],
         "break": true,
         "strong": "H3684"
       }
@@ -5552,7 +5618,7 @@
       },
       { "text": " his lips", "strong": "H8193" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " wise."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " wise."],
         "break": true,
         "strong": "H7919",
         "morph": "HiphPtc"
@@ -5567,7 +5633,7 @@
       { "text": "The tongue", "strong": "H3956" },
       { "text": " of the just", "strong": "H6662" },
       {
-        "content": [{ "text": " is as", "marks": ["i"] }, " choice"],
+        "content": [" ", { "text": "is as", "marks": ["i"] }, " choice"],
         "strong": "H977",
         "morph": "NiphPtc"
       },
@@ -5575,7 +5641,7 @@
       { "text": "The heart", "strong": "H3820" },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " little worth."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " little worth."],
         "break": true,
         "strong": "H4592"
       }
@@ -5683,7 +5749,7 @@
         "strong": "H6662"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " an everlasting"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " an everlasting"],
         "strong": "H5769"
       },
       { "text": " foundation.", "break": true, "strong": "H3247" }
@@ -5744,7 +5810,7 @@
       { "text": "The hope", "strong": "H8431" },
       { "text": " of the righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " gladness:"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " gladness:"],
         "break": true,
         "strong": "H8057"
       },
@@ -5769,13 +5835,17 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " strength"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " strength"],
         "strong": "H4581"
       },
       { "text": " to the upright:", "break": true, "strong": "H8537" },
       { "text": "But destruction", "strong": "H4288" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " to the workers"],
+        "content": [
+          " ",
+          { "text": "shall be", "marks": ["i"] },
+          " to the workers"
+        ],
         "strong": "H6466",
         "morph": "QalActPtc"
       },
@@ -5832,7 +5902,8 @@
       { "text": " of the wicked", "strong": "H7563" },
       {
         "content": [
-          { "text": " speaketh", "marks": ["i"] },
+          " ",
+          { "text": "speaketh", "marks": ["i"] },
           {
             "text": " frowardness.",
             "foot": {
@@ -5861,7 +5932,7 @@
         "strong": "H3976"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " abomination"],
         "strong": "H8441"
       },
       {
@@ -5879,7 +5950,7 @@
         "strong": "H68"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his delight."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his delight."],
         "break": true,
         "strong": "H7522"
       }
@@ -5899,7 +5970,7 @@
       { "text": " shame:", "break": true, "strong": "H7036" },
       { "text": "But with the lowly", "strong": "H6800", "morph": "QalPasPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " wisdom."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " wisdom."],
         "break": true,
         "strong": "H2451"
       }
@@ -5996,7 +6067,7 @@
       { "text": " man", "strong": "H120" },
       { "text": " dieth,", "strong": "H4194" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " expectation"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " expectation"],
         "strong": "H8615"
       },
       {
@@ -6008,7 +6079,7 @@
       { "text": "And the hope", "strong": "H8431" },
       { "text": " of unjust", "strong": "H205" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " perisheth."],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " perisheth."],
         "break": true,
         "strong": "H6",
         "morph": "QalPerf"
@@ -6067,7 +6138,7 @@
       { "text": "And when the wicked", "strong": "H7563" },
       { "text": " perish,", "strong": "H6", "morph": "QalInf" },
       {
-        "content": [{ "text": " there is", "marks": ["i"] }, " shouting."],
+        "content": [" ", { "text": "there is", "marks": ["i"] }, " shouting."],
         "break": true,
         "strong": "H7440"
       }
@@ -6159,7 +6230,7 @@
     "content": [
       { "text": "Where no counsel", "strong": "H8458" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, ", the people"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, ", the people"],
         "strong": "H5971"
       },
       {
@@ -6171,7 +6242,7 @@
       { "text": "But in the multitude", "strong": "H7230" },
       { "text": " of counsellors", "strong": "H3289", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " there is", "marks": ["i"] }, " safety."],
+        "content": [" ", { "text": "there is", "marks": ["i"] }, " safety."],
         "break": true,
         "strong": "H8668"
       }
@@ -6196,7 +6267,8 @@
       { "strong": "H7451" },
       {
         "content": [
-          { "text": " for it:", "marks": ["i"], "break": true },
+          " ",
+          { "text": "for it:", "marks": ["i"], "break": true },
           "And he that hateth"
         ],
         "strong": "H8130",
@@ -6233,7 +6305,7 @@
       { "text": " honour:", "break": true, "strong": "H3519" },
       { "text": "And strong", "strong": "H6184" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " retain"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " retain"],
         "strong": "H8551",
         "morph": "QalImpf"
       },
@@ -6273,7 +6345,7 @@
       },
       { "text": " righteousness", "strong": "H6666" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " a sure"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " a sure"],
         "strong": "H571"
       },
       { "text": " reward.", "break": true, "strong": "H7938" }
@@ -6286,7 +6358,7 @@
     "content": [
       { "text": "As righteousness", "strong": "H6666" },
       {
-        "content": [{ "text": " tendeth", "marks": ["i"] }, " to life:"],
+        "content": [" ", { "text": "tendeth", "marks": ["i"] }, " to life:"],
         "break": true,
         "strong": "H2416"
       },
@@ -6294,7 +6366,8 @@
       { "text": " evil", "strong": "H7451" },
       {
         "content": [
-          { "text": " pursueth it", "marks": ["i"] },
+          " ",
+          { "text": "pursueth it", "marks": ["i"] },
           " to his own death."
         ],
         "break": true,
@@ -6310,7 +6383,7 @@
       { "text": "They that are of a froward", "strong": "H6141" },
       { "text": " heart", "strong": "H3820" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " abomination"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " abomination"],
         "strong": "H8441"
       },
       {
@@ -6331,7 +6404,7 @@
         "strong": "H1870"
       },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " his delight."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " his delight."],
         "break": true,
         "strong": "H7522"
       }
@@ -6347,7 +6420,7 @@
         "strong": "H3027"
       },
       {
-        "content": [{ "text": " join", "marks": ["i"] }, " in hand,"],
+        "content": [" ", { "text": "join", "marks": ["i"] }, " in hand,"],
         "strong": "H3027"
       },
       { "text": " the wicked", "strong": "H7451" },
@@ -6404,7 +6477,7 @@
       { "text": "The desire", "strong": "H8378" },
       { "text": " of the righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " only good:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " only good:"],
         "break": true,
         "strong": "H2896"
       },
@@ -6414,7 +6487,7 @@
       },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " wrath."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " wrath."],
         "break": true,
         "strong": "H5678"
       }
@@ -6500,11 +6573,16 @@
         "strong": "H1293"
       },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " upon the head"],
+        "content": [
+          " ",
+          { "text": "shall be", "marks": ["i"] },
+          " upon the head"
+        ],
         "strong": "H7218"
       },
       { "text": " of him that selleth", "strong": "H7666", "morph": "HiphPtc" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -6560,7 +6638,7 @@
       { "text": " the wind:", "break": true, "strong": "H7307" },
       { "text": "And the fool", "strong": "H191" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " servant"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " servant"],
         "strong": "H5650"
       },
       { "text": " to the wise", "strong": "H2450" },
@@ -6575,7 +6653,7 @@
       { "text": "The fruit", "strong": "H6529" },
       { "text": " of the righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a tree"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a tree"],
         "strong": "H6086"
       },
       { "text": " of life;", "break": true, "strong": "H2416" },
@@ -6590,7 +6668,7 @@
       },
       { "text": " souls", "strong": "H5315" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " wise."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " wise."],
         "break": true,
         "strong": "H2450"
       }
@@ -6629,7 +6707,7 @@
       { "text": "But he that hateth", "strong": "H8130", "morph": "QalActPtc" },
       { "text": " reproof", "strong": "H8433" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " brutish."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " brutish."],
         "break": true,
         "strong": "H1198"
       }
@@ -6642,7 +6720,7 @@
     "content": [
       { "text": "A good", "strong": "H2896" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " obtaineth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " obtaineth"],
         "strong": "H6329",
         "morph": "HiphImpf"
       },
@@ -6692,7 +6770,7 @@
       { "text": "A virtuous", "strong": "H2428" },
       { "text": " woman", "strong": "H802" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a crown"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a crown"],
         "strong": "H5850"
       },
       { "text": " to her husband:", "break": true, "strong": "H1167" },
@@ -6702,7 +6780,7 @@
         "morph": "HiphPtc"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as rottenness"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as rottenness"],
         "strong": "H7538"
       },
       { "text": " in his bones.", "break": true, "strong": "H6106" }
@@ -6716,7 +6794,7 @@
       { "text": "The thoughts", "strong": "H4284" },
       { "text": " of the righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " right:"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " right:"],
         "break": true,
         "strong": "H4941"
       },
@@ -6726,7 +6804,7 @@
       },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " deceit."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " deceit."],
         "break": true,
         "strong": "H4820"
       }
@@ -6740,7 +6818,7 @@
       { "text": "The words", "strong": "H1697" },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " to lie in wait"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " to lie in wait"],
         "strong": "H693",
         "morph": "QalInf"
       },
@@ -6813,7 +6891,7 @@
       },
       { "text": " and hath a servant,", "strong": "H5650" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " better"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " better"],
         "break": true,
         "strong": "H2896"
       },
@@ -6833,7 +6911,7 @@
     "content": [
       { "text": "A righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " regardeth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " regardeth"],
         "strong": "H3045",
         "morph": "QalActPtc"
       },
@@ -6854,7 +6932,7 @@
       },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " cruel."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " cruel."],
         "break": true,
         "strong": "H394"
       }
@@ -6876,7 +6954,7 @@
       },
       { "text": " vain", "strong": "H7386" },
       {
-        "content": [{ "text": " persons is", "marks": ["i"] }, " void"],
+        "content": [" ", { "text": "persons is", "marks": ["i"] }, " void"],
         "strong": "H2638"
       },
       { "text": " of understanding.", "break": true, "strong": "H3820" }
@@ -6900,14 +6978,16 @@
       { "text": " of evil", "strong": "H7451" },
       {
         "content": [
-          { "text": " men:", "marks": ["i"], "break": true },
+          " ",
+          { "text": "men:", "marks": ["i"], "break": true },
           "But the root"
         ],
         "strong": "H8328"
       },
       { "text": " of the righteous", "strong": "H6662" },
       { "text": " yieldeth", "strong": "H5414", "morph": "QalImpf" },
-      { "text": " fruit", "marks": ["i"] },
+      " ",
+      { "text": "fruit", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -6963,7 +7043,7 @@
       { "text": "The way", "strong": "H1870" },
       { "text": " of a fool", "strong": "H191" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " right"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " right"],
         "strong": "H3477"
       },
       { "text": " in his own eyes:", "break": true, "strong": "H5869" },
@@ -6974,7 +7054,7 @@
       },
       { "text": " unto counsel", "strong": "H6098" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " wise."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " wise."],
         "break": true,
         "strong": "H2450"
       }
@@ -7003,7 +7083,7 @@
       },
       { "text": "But a prudent", "strong": "H6175" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " covereth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " covereth"],
         "strong": "H3680",
         "morph": "QalActPtc"
       },
@@ -7040,7 +7120,7 @@
       { "text": "But the tongue", "strong": "H3956" },
       { "text": " of the wise", "strong": "H2450" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " health."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " health."],
         "break": true,
         "strong": "H4832"
       }
@@ -7062,7 +7142,11 @@
       { "text": "But a lying", "strong": "H8267" },
       { "text": " tongue", "strong": "H3956" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " but for a moment."],
+        "content": [
+          " ",
+          { "text": "is", "marks": ["i"] },
+          " but for a moment."
+        ],
         "break": true,
         "strong": "H7280",
         "morph": "HiphImpf"
@@ -7076,7 +7160,7 @@
     "content": [
       { "text": "Deceit", "strong": "H4820" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in the heart"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in the heart"],
         "strong": "H3820"
       },
       {
@@ -7092,7 +7176,7 @@
       },
       { "text": " of peace", "strong": "H7965" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " joy."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " joy."],
         "break": true,
         "strong": "H8057"
       }
@@ -7119,7 +7203,7 @@
       { "text": "Lying", "strong": "H8267" },
       { "text": " lips", "strong": "H8193" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " abomination"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " abomination"],
         "strong": "H8441"
       },
       {
@@ -7130,7 +7214,7 @@
       { "text": "But they that deal", "strong": "H6213", "morph": "QalActPtc" },
       { "text": " truly", "strong": "H530" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " his delight."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " his delight."],
         "break": true,
         "strong": "H7522"
       }
@@ -7207,7 +7291,8 @@
       { "text": "The righteous", "strong": "H6662" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " more excellent",
             "foot": {
@@ -7233,7 +7318,7 @@
     "content": [
       { "text": "The slothful", "strong": "H7423" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " roasteth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " roasteth"],
         "strong": "H2760",
         "morph": "QalImpf"
       },
@@ -7246,7 +7331,7 @@
       { "text": " of a diligent", "strong": "H2742" },
       { "text": " man", "strong": "H120" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " precious."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " precious."],
         "break": true,
         "strong": "H3368"
       }
@@ -7260,7 +7345,7 @@
       { "text": "In the way", "strong": "H734" },
       { "text": " of righteousness", "strong": "H6666" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " life;"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " life;"],
         "break": true,
         "strong": "H2416"
       },
@@ -7271,7 +7356,8 @@
       { "strong": "H1870" },
       {
         "content": [
-          { "text": " thereof there is", "marks": ["i"] },
+          " ",
+          { "text": "thereof there is", "marks": ["i"] },
           " no death."
         ],
         "break": true,
@@ -7287,7 +7373,11 @@
       { "text": "A wise", "strong": "H2450" },
       { "text": " son", "strong": "H1121" },
       {
-        "content": [{ "text": " heareth", "marks": ["i"] }, " his father's"],
+        "content": [
+          " ",
+          { "text": "heareth", "marks": ["i"] },
+          " his father's"
+        ],
         "strong": "H1"
       },
       { "text": " instruction:", "break": true, "strong": "H4148" },
@@ -7317,7 +7407,7 @@
         "morph": "QalActPtc"
       },
       {
-        "content": [{ "text": " shall eat", "marks": ["i"] }, " violence."],
+        "content": [" ", { "text": "shall eat", "marks": ["i"] }, " violence."],
         "break": true,
         "strong": "H2555"
       }
@@ -7374,7 +7464,7 @@
     "content": [
       { "text": "A righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " hateth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " hateth"],
         "strong": "H8130",
         "morph": "QalImpf"
       },
@@ -7382,7 +7472,7 @@
       { "strong": "H8267" },
       { "text": "But a wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " is loathsome,"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " is loathsome,"],
         "strong": "H887",
         "morph": "HiphImpf"
       },
@@ -7402,7 +7492,7 @@
       { "text": "Righteousness", "strong": "H6666" },
       { "text": " keepeth", "strong": "H5341", "morph": "QalImpf" },
       {
-        "content": [{ "text": " him that is", "marks": ["i"] }, " upright"],
+        "content": [" ", { "text": "him that is", "marks": ["i"] }, " upright"],
         "strong": "H8537"
       },
       { "text": " in the way:", "break": true, "strong": "H1870" },
@@ -7443,7 +7533,7 @@
       },
       { "text": " yet", "strong": "H3605" },
       {
-        "content": [{ "text": " hath", "marks": ["i"] }, " great"],
+        "content": [" ", { "text": "hath", "marks": ["i"] }, " great"],
         "strong": "H7227"
       },
       { "text": " riches.", "break": true, "strong": "H1952" }
@@ -7458,7 +7548,7 @@
       { "text": " of a man's", "strong": "H376" },
       { "text": " life", "strong": "H5315" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " his riches:"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " his riches:"],
         "break": true,
         "strong": "H6239"
       },
@@ -7511,7 +7601,7 @@
         "morph": "NiphPtc"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " wisdom."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " wisdom."],
         "break": true,
         "strong": "H2451"
       }
@@ -7524,7 +7614,7 @@
     "content": [
       { "text": "Wealth", "strong": "H1952" },
       {
-        "content": [{ "text": " gotten", "marks": ["i"] }, " by vanity"],
+        "content": [" ", { "text": "gotten", "marks": ["i"] }, " by vanity"],
         "strong": "H1892"
       },
       {
@@ -7574,7 +7664,7 @@
       },
       { "text": " cometh,", "strong": "H935", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " a tree"],
+        "content": [" ", { "text": "it is", "marks": ["i"] }, " a tree"],
         "strong": "H6086"
       },
       { "text": " of life.", "break": true, "strong": "H2416" }
@@ -7615,7 +7705,7 @@
       { "text": "The law", "strong": "H8451" },
       { "text": " of the wise", "strong": "H2450" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a fountain"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a fountain"],
         "strong": "H4726"
       },
       { "text": " of life,", "break": true, "strong": "H2416" },
@@ -7636,7 +7726,7 @@
       { "text": "But the way", "strong": "H1870" },
       { "text": " of transgressors", "strong": "H898", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " hard."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " hard."],
         "break": true,
         "strong": "H386"
       }
@@ -7649,7 +7739,7 @@
     "content": [
       { "text": "Every prudent", "strong": "H6175" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " dealeth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " dealeth"],
         "strong": "H6213",
         "morph": "QalImpf"
       },
@@ -7670,7 +7760,7 @@
         "morph": "QalImpf"
       },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " folly."],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " folly."],
         "break": true,
         "strong": "H200"
       }
@@ -7688,7 +7778,7 @@
       { "text": "But a faithful", "strong": "H529" },
       { "text": " ambassador", "strong": "H6735" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " health."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " health."],
         "break": true,
         "strong": "H4832"
       }
@@ -7703,7 +7793,8 @@
       { "text": " and shame", "strong": "H7036" },
       {
         "content": [
-          { "text": " shall be to", "marks": ["i"] },
+          " ",
+          { "text": "shall be to", "marks": ["i"] },
           " him that refuseth"
         ],
         "strong": "H6544",
@@ -7754,7 +7845,7 @@
       { "text": "He that walketh", "strong": "H1980", "morph": "QalActPtc" },
       { "text": " with wise", "strong": "H2450" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " shall be wise:"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " shall be wise:"],
         "break": true,
         "strong": "H2449",
         "morph": "QalImpf"
@@ -7795,7 +7886,8 @@
       { "text": "A good", "strong": "H2896" },
       {
         "content": [
-          { "text": " man", "marks": ["i"] },
+          " ",
+          { "text": "man", "marks": ["i"] },
           " leaveth an inheritance"
         ],
         "strong": "H5157",
@@ -7806,7 +7898,7 @@
       { "text": "And the wealth", "strong": "H2428" },
       { "text": " of the sinner", "strong": "H2398", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " laid up"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " laid up"],
         "strong": "H6845",
         "morph": "QalPasPtc"
       },
@@ -7821,7 +7913,7 @@
       { "text": "Much", "strong": "H7230" },
       { "text": " food", "strong": "H400" },
       {
-        "content": [{ "text": " is in", "marks": ["i"] }, " the tillage"],
+        "content": [" ", { "text": "is in", "marks": ["i"] }, " the tillage"],
         "strong": "H5215"
       },
       {
@@ -7833,7 +7925,7 @@
       { "strong": "H7326", "morph": "QalActPtc" },
       { "text": "But there is", "strong": "H3426" },
       {
-        "content": [{ "text": " that is", "marks": ["i"] }, " destroyed"],
+        "content": [" ", { "text": "that is", "marks": ["i"] }, " destroyed"],
         "strong": "H5595",
         "morph": "NiphPtc"
       },
@@ -7928,7 +8020,7 @@
       { "text": "In the mouth", "strong": "H6310" },
       { "text": " of the foolish", "strong": "H191" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a rod"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a rod"],
         "strong": "H2415"
       },
       { "text": " of pride:", "break": true, "strong": "H1346" },
@@ -7945,18 +8037,18 @@
     "content": [
       { "text": "Where no oxen", "strong": "H504" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, ", the crib"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, ", the crib"],
         "strong": "H18"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " clean:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " clean:"],
         "break": true,
         "strong": "H1249"
       },
       { "text": "But much", "strong": "H7230" },
       { "text": " increase", "strong": "H8393" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " by the strength"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " by the strength"],
         "strong": "H3581"
       },
       { "text": " of the ox.", "break": true, "strong": "H7794" }
@@ -7999,7 +8091,7 @@
         "strong": "H1847"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " easy"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " easy"],
         "strong": "H7043",
         "morph": "NiphPerf"
       },
@@ -8036,7 +8128,7 @@
       { "text": "The wisdom", "strong": "H2451" },
       { "text": " of the prudent", "strong": "H6175" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " to understand"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " to understand"],
         "strong": "H995",
         "morph": "HiphInf"
       },
@@ -8044,7 +8136,7 @@
       { "text": "But the folly", "strong": "H200" },
       { "text": " of fools", "strong": "H3684" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " deceit."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " deceit."],
         "break": true,
         "strong": "H4820"
       }
@@ -8060,7 +8152,7 @@
       { "text": " at sin:", "break": true, "strong": "H817" },
       { "text": "But among the righteous", "strong": "H3477" },
       {
-        "content": [{ "text": " there is", "marks": ["i"] }, " favour."],
+        "content": [" ", { "text": "there is", "marks": ["i"] }, " favour."],
         "break": true,
         "strong": "H7522"
       }
@@ -8156,7 +8248,7 @@
       { "text": "And the end", "strong": "H319" },
       { "text": " of that mirth", "strong": "H8057" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " heaviness."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " heaviness."],
         "break": true,
         "strong": "H8424"
       }
@@ -8173,7 +8265,8 @@
       { "text": " with his own ways:", "break": true, "strong": "H1870" },
       { "text": "And a good", "strong": "H2896" },
       { "text": " man", "strong": "H376" },
-      { "text": " shall be satisfied", "marks": ["i"] },
+      " ",
+      { "text": "shall be satisfied", "marks": ["i"] },
       { "text": " from himself.", "break": true }
     ]
   },
@@ -8187,7 +8280,7 @@
       { "text": " every word:", "break": true, "strong": "H1697" },
       { "text": "But the prudent", "strong": "H6175" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " looketh well"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " looketh well"],
         "strong": "H995",
         "morph": "QalImpf"
       },
@@ -8201,7 +8294,7 @@
     "content": [
       { "text": "A wise", "strong": "H2450" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " feareth,"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " feareth,"],
         "strong": "H3373"
       },
       { "text": " and departeth", "strong": "H5493", "morph": "QalActPtc" },
@@ -8279,7 +8372,7 @@
       },
       { "text": "But the rich", "strong": "H6223" },
       {
-        "content": [{ "text": " hath", "marks": ["i"] }, " many"],
+        "content": [" ", { "text": "hath", "marks": ["i"] }, " many"],
         "strong": "H7227"
       },
       {
@@ -8318,7 +8411,8 @@
       { "text": " on the poor,", "strong": "H6035", "morph": "Qere" },
       { "strong": "H6041" },
       { "text": " happy", "strong": "H835" },
-      { "text": " is", "marks": ["i"] },
+      " ",
+      { "text": "is", "marks": ["i"] },
       { "text": " he.", "break": true }
     ]
   },
@@ -8334,7 +8428,8 @@
       { "text": " and truth", "strong": "H571" },
       {
         "content": [
-          { "text": " shall be", "marks": ["i"] },
+          " ",
+          { "text": "shall be", "marks": ["i"] },
           " to them that devise"
         ],
         "strong": "H2790",
@@ -8353,7 +8448,11 @@
       { "text": "But the talk", "strong": "H1697" },
       { "text": " of the lips", "strong": "H8193" },
       {
-        "content": [{ "text": " tendeth", "marks": ["i"] }, " only to penury."],
+        "content": [
+          " ",
+          { "text": "tendeth", "marks": ["i"] },
+          " only to penury."
+        ],
         "break": true,
         "strong": "H4270"
       }
@@ -8367,7 +8466,7 @@
       { "text": "The crown", "strong": "H5850" },
       { "text": " of the wise", "strong": "H2450" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " their riches:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " their riches:"],
         "break": true,
         "strong": "H6239"
       },
@@ -8377,7 +8476,7 @@
       },
       { "text": " of fools", "strong": "H3684" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " folly."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " folly."],
         "break": true,
         "strong": "H200"
       }
@@ -8394,7 +8493,7 @@
       { "text": " souls:", "break": true, "strong": "H5315" },
       { "text": "But a deceitful", "strong": "H4820" },
       {
-        "content": [{ "text": " witness", "marks": ["i"] }, " speaketh"],
+        "content": [" ", { "text": "witness", "marks": ["i"] }, " speaketh"],
         "strong": "H6315",
         "morph": "HiphImpf"
       },
@@ -8412,7 +8511,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " strong"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " strong"],
         "strong": "H5797"
       },
       { "text": " confidence:", "break": true, "strong": "H4009" },
@@ -8435,7 +8534,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a fountain"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a fountain"],
         "strong": "H4726"
       },
       { "text": " of life,", "break": true, "strong": "H2416" },
@@ -8452,14 +8551,14 @@
       { "text": "In the multitude", "strong": "H7230" },
       { "text": " of people", "strong": "H5971" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the king's"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the king's"],
         "strong": "H4428"
       },
       { "text": " honour:", "break": true, "strong": "H1927" },
       { "text": "But in the want", "strong": "H657" },
       { "text": " of people", "strong": "H3816" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the destruction"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the destruction"],
         "strong": "H4288"
       },
       { "text": " of the prince.", "break": true, "strong": "H7333" }
@@ -8476,7 +8575,7 @@
       },
       { "text": " to wrath", "strong": "H639" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " of great"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " of great"],
         "strong": "H7227"
       },
       { "text": " understanding:", "break": true, "strong": "H8394" },
@@ -8504,7 +8603,7 @@
       { "text": "A sound", "strong": "H4832" },
       { "text": " heart", "strong": "H3820" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the life"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the life"],
         "strong": "H2416"
       },
       { "text": " of the flesh:", "break": true, "strong": "H1320" },
@@ -8590,7 +8689,7 @@
       { "text": " a nation:", "break": true, "strong": "H1471" },
       { "text": "But sin", "strong": "H2403" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a reproach"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a reproach"],
         "strong": "H2617"
       },
       {
@@ -8612,7 +8711,7 @@
       { "text": "The king's", "strong": "H4428" },
       { "text": " favour", "strong": "H7522" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " toward a wise"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " toward a wise"],
         "strong": "H7919",
         "morph": "HiphPtc"
       },
@@ -8689,7 +8788,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " in every place,"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " in every place,"],
         "break": true,
         "strong": "H4725"
       },
@@ -8716,7 +8815,7 @@
         "strong": "H3956"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a tree"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a tree"],
         "strong": "H6086"
       },
       { "text": " of life:", "break": true, "strong": "H2416" },
@@ -8759,7 +8858,7 @@
       { "text": "In the house", "strong": "H1004" },
       { "text": " of the righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " much"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " much"],
         "strong": "H7227"
       },
       { "text": " treasure:", "break": true, "strong": "H2633" },
@@ -8784,7 +8883,8 @@
       { "text": " knowledge:", "break": true, "strong": "H1847" },
       { "text": "But the heart", "strong": "H3820" },
       { "text": " of the foolish", "strong": "H3684" },
-      { "text": " doeth", "marks": ["i"] },
+      " ",
+      { "text": "doeth", "marks": ["i"] },
       { "text": " not so.", "break": true }
     ]
   },
@@ -8796,7 +8896,7 @@
       { "text": "The sacrifice", "strong": "H2077" },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       {
@@ -8807,7 +8907,7 @@
       { "text": "But the prayer", "strong": "H8605" },
       { "text": " of the upright", "strong": "H3477" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his delight."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his delight."],
         "break": true,
         "strong": "H7522"
       }
@@ -8821,7 +8921,7 @@
       { "text": "The way", "strong": "H1870" },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       {
@@ -8852,7 +8952,7 @@
         "strong": "H4148"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " grievous"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " grievous"],
         "strong": "H7451"
       },
       {
@@ -8884,7 +8984,8 @@
       { "text": " and destruction", "strong": "H11" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           " before the ",
           { "text": "LORD", "marks": ["sc"] },
           ":"
@@ -8960,14 +9061,14 @@
       { "text": "All the days", "strong": "H3117" },
       { "text": " of the afflicted", "strong": "H6041" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " evil:"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " evil:"],
         "break": true,
         "strong": "H7451"
       },
       { "text": "But he that is of a merry", "strong": "H2896" },
       { "text": " heart", "strong": "H3820" },
       {
-        "content": [{ "text": " hath", "marks": ["i"] }, " a continual"],
+        "content": [" ", { "text": "hath", "marks": ["i"] }, " a continual"],
         "strong": "H8548"
       },
       { "text": " feast.", "break": true, "strong": "H4960" }
@@ -8980,7 +9081,7 @@
     "content": [
       { "text": "Better", "strong": "H2896" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " little"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " little"],
         "strong": "H4592"
       },
       { "text": " with the fear", "strong": "H3374" },
@@ -9002,7 +9103,7 @@
     "content": [
       { "text": "Better", "strong": "H2896" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a dinner"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a dinner"],
         "strong": "H737"
       },
       { "text": " of herbs", "strong": "H3419" },
@@ -9043,7 +9144,7 @@
       { "text": "The way", "strong": "H1870" },
       { "text": " of the slothful", "strong": "H6102" },
       {
-        "content": [{ "text": " man is", "marks": ["i"] }, " as an hedge"],
+        "content": [" ", { "text": "man is", "marks": ["i"] }, " as an hedge"],
         "strong": "H4881"
       },
       { "text": " of thorns:", "break": true, "strong": "H2312" },
@@ -9051,7 +9152,8 @@
       { "text": " of the righteous", "strong": "H3477" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " made plain.",
             "foot": {
@@ -9091,7 +9193,7 @@
     "content": [
       { "text": "Folly", "strong": "H200" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " joy"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " joy"],
         "strong": "H8057"
       },
       {
@@ -9157,7 +9259,8 @@
       { "text": "And a word", "strong": "H1697" },
       {
         "content": [
-          { "text": " spoken", "marks": ["i"] },
+          " ",
+          { "text": "spoken", "marks": ["i"] },
           {
             "text": " in due season,",
             "foot": {
@@ -9169,7 +9272,8 @@
         "strong": "H6256"
       },
       { "text": " how good", "strong": "H2896" },
-      { "text": " is it!", "marks": ["i"], "break": true }
+      " ",
+      { "text": "is it!", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -9180,7 +9284,7 @@
       { "text": "The way", "strong": "H734" },
       { "text": " of life", "strong": "H2416" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " above"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " above"],
         "strong": "H4605"
       },
       {
@@ -9223,7 +9327,7 @@
       { "text": "The thoughts", "strong": "H4284" },
       { "text": " of the wicked", "strong": "H7451" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       {
@@ -9240,7 +9344,7 @@
         "strong": "H2889"
       },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " pleasant"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " pleasant"],
         "strong": "H5278"
       },
       {
@@ -9306,7 +9410,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " far"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " far"],
         "strong": "H7350"
       },
       { "text": " from the wicked:", "break": true, "strong": "H7563" },
@@ -9397,14 +9501,14 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the instruction"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the instruction"],
         "strong": "H4148"
       },
       { "text": " of wisdom;", "break": true, "strong": "H2451" },
       { "text": "And before", "strong": "H6440" },
       { "text": " honour", "strong": "H3519" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " humility."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " humility."],
         "break": true,
         "strong": "H6038"
       }
@@ -9429,7 +9533,8 @@
       { "text": " of the tongue,", "strong": "H3956" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " from the ",
           { "text": "LORD", "marks": ["sc"] },
           "."
@@ -9447,7 +9552,7 @@
       { "text": "All the ways", "strong": "H1870" },
       { "text": " of a man", "strong": "H376" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " clean"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " clean"],
         "strong": "H2134"
       },
       { "text": " in his own eyes;", "break": true, "strong": "H5869" },
@@ -9527,7 +9632,7 @@
       },
       { "text": " in heart", "strong": "H3820" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       {
@@ -9540,7 +9645,7 @@
         "strong": "H3027"
       },
       {
-        "content": [{ "text": " join", "marks": ["i"] }, " in hand,"],
+        "content": [" ", { "text": "join", "marks": ["i"] }, " in hand,"],
         "strong": "H3027"
       },
       {
@@ -9575,7 +9680,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " depart"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " depart"],
         "strong": "H5493",
         "morph": "QalInf"
       },
@@ -9611,7 +9716,7 @@
     "content": [
       { "text": "Better", "strong": "H2896" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a little"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a little"],
         "strong": "H4592"
       },
       { "text": " with righteousness", "break": true, "strong": "H6666" },
@@ -9656,7 +9761,7 @@
         "strong": "H7081"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in the lips"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in the lips"],
         "strong": "H8193"
       },
       { "text": " of the king:", "break": true, "strong": "H4428" },
@@ -9675,7 +9780,8 @@
       { "text": " and balance", "strong": "H3976" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           " the ",
           { "text": "LORD", "marks": ["sc"] },
           "'s:"
@@ -9693,7 +9799,7 @@
       },
       { "text": " of the bag", "strong": "H3599" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " his work."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " his work."],
         "break": true,
         "strong": "H4639"
       }
@@ -9724,7 +9830,7 @@
       { "text": "Righteous", "strong": "H6664" },
       { "text": " lips", "strong": "H8193" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the delight"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the delight"],
         "strong": "H7522"
       },
       { "text": " of kings;", "break": true, "strong": "H4428" },
@@ -9741,7 +9847,7 @@
       { "text": "The wrath", "strong": "H2534" },
       { "text": " of a king", "strong": "H4428" },
       {
-        "content": [{ "text": " is as", "marks": ["i"] }, " messengers"],
+        "content": [" ", { "text": "is as", "marks": ["i"] }, " messengers"],
         "strong": "H4397"
       },
       { "text": " of death:", "break": true, "strong": "H4194" },
@@ -9760,13 +9866,13 @@
       { "text": " of the king's", "strong": "H4428" },
       { "text": " countenance", "strong": "H6440" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " life;"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " life;"],
         "break": true,
         "strong": "H2416"
       },
       { "text": "And his favour", "strong": "H7522" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as a cloud"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as a cloud"],
         "strong": "H5645"
       },
       { "text": " of the latter rain.", "break": true, "strong": "H4456" }
@@ -9779,7 +9885,7 @@
     "content": [
       { "text": "How much better", "strong": "H2896" },
       {
-        "content": [{ "text": " is it", "marks": ["i"] }, " to get"],
+        "content": [" ", { "text": "is it", "marks": ["i"] }, " to get"],
         "strong": "H7069",
         "morph": "QalInf"
       },
@@ -9799,7 +9905,7 @@
       { "text": "The highway", "strong": "H4546" },
       { "text": " of the upright", "strong": "H3477" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " to depart"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " to depart"],
         "strong": "H5493",
         "morph": "QalInf"
       },
@@ -9817,7 +9923,7 @@
     "content": [
       { "text": "Pride", "strong": "H1347" },
       {
-        "content": [{ "text": " goeth", "marks": ["i"] }, " before"],
+        "content": [" ", { "text": "goeth", "marks": ["i"] }, " before"],
         "strong": "H6440"
       },
       { "text": " destruction,", "break": true, "strong": "H7667" },
@@ -9835,7 +9941,8 @@
       { "text": "Better", "strong": "H2896" },
       {
         "content": [
-          { "text": " it is to be", "marks": ["i"] },
+          " ",
+          { "text": "it is to be", "marks": ["i"] },
           " of an humble"
         ],
         "strong": "H8217"
@@ -9878,7 +9985,8 @@
         "strong": "H3068"
       },
       { "text": " happy", "strong": "H835" },
-      { "text": " is", "marks": ["i"] },
+      " ",
+      { "text": "is", "marks": ["i"] },
       { "text": " he.", "break": true }
     ]
   },
@@ -9909,7 +10017,7 @@
     "content": [
       { "text": "Understanding", "strong": "H7922" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a wellspring"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a wellspring"],
         "strong": "H4726"
       },
       { "text": " of life", "strong": "H2416" },
@@ -9920,7 +10028,7 @@
       },
       { "text": " of fools", "strong": "H191" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " folly."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " folly."],
         "break": true,
         "strong": "H200"
       }
@@ -9956,7 +10064,11 @@
       { "text": "Pleasant", "strong": "H5278" },
       { "text": " words", "strong": "H561" },
       {
-        "content": [{ "text": " are as", "marks": ["i"] }, " an honeycomb,"],
+        "content": [
+          " ",
+          { "text": "are as", "marks": ["i"] },
+          " an honeycomb,"
+        ],
         "break": true,
         "strong": "H6688"
       },
@@ -10043,7 +10155,11 @@
       { "text": " evil:", "break": true, "strong": "H7451" },
       { "text": "And in his lips", "strong": "H8193" },
       {
-        "content": [{ "text": " there is", "marks": ["i"] }, " as a burning"],
+        "content": [
+          " ",
+          { "text": "there is", "marks": ["i"] },
+          " as a burning"
+        ],
         "strong": "H6867"
       },
       { "text": " fire.", "break": true, "strong": "H784" }
@@ -10083,7 +10199,7 @@
       { "text": "And leadeth", "strong": "H3212", "morph": "HiphPerf" },
       { "text": " him into the way", "strong": "H1870" },
       {
-        "content": [{ "text": " that is", "marks": ["i"] }, " not good."],
+        "content": [" ", { "text": "that is", "marks": ["i"] }, " not good."],
         "break": true,
         "strong": "H2896"
       }
@@ -10117,7 +10233,7 @@
     "content": [
       { "text": "The hoary head", "strong": "H7872" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a crown"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a crown"],
         "strong": "H5850"
       },
       { "text": " of glory,", "break": true, "strong": "H8597" },
@@ -10141,7 +10257,7 @@
       },
       { "text": " to anger", "strong": "H639" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " better"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " better"],
         "strong": "H2896"
       },
       { "text": " than the mighty;", "break": true, "strong": "H1368" },
@@ -10184,7 +10300,7 @@
     "content": [
       { "text": "Better", "strong": "H2896" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a dry"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a dry"],
         "strong": "H2720"
       },
       { "text": " morsel,", "strong": "H6595" },
@@ -10203,7 +10319,7 @@
         "strong": "H2077"
       },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " strife."],
+        "content": [" ", { "text": "with", "marks": ["i"] }, " strife."],
         "break": true,
         "strong": "H7379"
       }
@@ -10237,7 +10353,7 @@
     "content": [
       { "text": "The fining pot", "strong": "H4715" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " for silver,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " for silver,"],
         "strong": "H3701"
       },
       { "text": " and the furnace", "strong": "H3564" },
@@ -10307,14 +10423,14 @@
       { "text": "Children's", "strong": "H1121" },
       { "text": " children", "strong": "H1121" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the crown"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the crown"],
         "strong": "H5850"
       },
       { "text": " of old men;", "break": true, "strong": "H2205" },
       { "text": "And the glory", "strong": "H8597" },
       { "text": " of children", "strong": "H1121" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " their fathers."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " their fathers."],
         "break": true,
         "strong": "H1"
       }
@@ -10358,7 +10474,7 @@
     "content": [
       { "text": "A gift", "strong": "H7810" },
       {
-        "content": [{ "text": " is as", "marks": ["i"] }, " a precious"],
+        "content": [" ", { "text": "is as", "marks": ["i"] }, " a precious"],
         "strong": "H2580"
       },
       {
@@ -10412,7 +10528,7 @@
       { "text": " a matter", "strong": "H1697" },
       { "text": " separateth", "strong": "H6504", "morph": "HiphPtc" },
       {
-        "content": [{ "text": " very", "marks": ["i"] }, " friends."],
+        "content": [" ", { "text": "very", "marks": ["i"] }, " friends."],
         "break": true,
         "strong": "H441"
       }
@@ -10443,7 +10559,7 @@
     "content": [
       { "text": "An evil", "strong": "H7451" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " seeketh"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " seeketh"],
         "strong": "H1245",
         "morph": "PielImpf"
       },
@@ -10495,7 +10611,8 @@
       { "text": " of strife", "strong": "H4066" },
       {
         "content": [
-          { "text": " is as", "marks": ["i"] },
+          " ",
+          { "text": "is as", "marks": ["i"] },
           " when one letteth out"
         ],
         "strong": "H6362",
@@ -10524,7 +10641,7 @@
       { "text": " the just,", "break": true, "strong": "H6662" },
       { "text": "Even they both", "strong": "H8147" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " abomination"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " abomination"],
         "strong": "H8441"
       },
       {
@@ -10559,7 +10676,8 @@
         ],
         "strong": "H3820"
       },
-      { "text": " to it?", "marks": ["i"], "break": true }
+      " ",
+      { "text": "to it?", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -10658,7 +10776,11 @@
       { "text": "He that begetteth", "strong": "H3205", "morph": "QalActPtc" },
       { "text": " a fool", "strong": "H3684" },
       {
-        "content": [{ "text": " doeth it", "marks": ["i"] }, " to his sorrow:"],
+        "content": [
+          " ",
+          { "text": "doeth it", "marks": ["i"] },
+          " to his sorrow:"
+        ],
         "break": true,
         "strong": "H8424"
       },
@@ -10682,7 +10804,8 @@
       { "text": " doeth good", "strong": "H3190", "morph": "HiphImpf" },
       {
         "content": [
-          { "text": " like", "marks": ["i"] },
+          " ",
+          { "text": "like", "marks": ["i"] },
           {
             "text": " a medicine:",
             "foot": {
@@ -10707,7 +10830,7 @@
     "content": [
       { "text": "A wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " taketh"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " taketh"],
         "strong": "H3947",
         "morph": "QalImpf"
       },
@@ -10726,7 +10849,8 @@
       { "text": "Wisdom", "strong": "H2451" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " before him that hath understanding;"
         ],
         "break": true,
@@ -10736,7 +10860,7 @@
       { "text": "But the eyes", "strong": "H5869" },
       { "text": " of a fool", "strong": "H3684" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " in the ends"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " in the ends"],
         "strong": "H7097"
       },
       { "text": " of the earth.", "break": true, "strong": "H776" }
@@ -10764,7 +10888,7 @@
       { "text": "Also to punish", "strong": "H6064", "morph": "QalInf" },
       { "text": " the just", "strong": "H6662" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " not good,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " not good,"],
         "break": true,
         "strong": "H2896"
       },
@@ -10825,7 +10949,8 @@
       { "text": " his lips", "strong": "H8193" },
       {
         "content": [
-          { "text": " is esteemed", "marks": ["i"] },
+          " ",
+          { "text": "is esteemed", "marks": ["i"] },
           " a man of understanding."
         ],
         "break": true,
@@ -10894,7 +11019,7 @@
       { "text": "When the wicked", "strong": "H7563" },
       { "text": " cometh,", "strong": "H935", "morph": "QalInf" },
       {
-        "content": [{ "text": " then", "marks": ["i"] }, " cometh"],
+        "content": [" ", { "text": "then", "marks": ["i"] }, " cometh"],
         "strong": "H935",
         "morph": "QalPerf"
       },
@@ -10912,7 +11037,7 @@
       { "text": " of a man's", "strong": "H376" },
       { "text": " mouth", "strong": "H6310" },
       {
-        "content": [{ "text": " are as", "marks": ["i"] }, " deep"],
+        "content": [" ", { "text": "are as", "marks": ["i"] }, " deep"],
         "strong": "H6013"
       },
       { "text": " waters,", "break": true, "strong": "H4325" },
@@ -10922,7 +11047,7 @@
       },
       { "text": " of wisdom", "strong": "H2451" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " a flowing"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " a flowing"],
         "strong": "H5042",
         "morph": "QalActPtc"
       },
@@ -10968,13 +11093,13 @@
       { "text": "A fool's", "strong": "H3684" },
       { "text": " mouth", "strong": "H6310" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his destruction,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his destruction,"],
         "break": true,
         "strong": "H4288"
       },
       { "text": "And his lips", "strong": "H8193" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the snare"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the snare"],
         "strong": "H4170"
       },
       { "text": " of his soul.", "break": true, "strong": "H5315" }
@@ -10996,7 +11121,8 @@
       },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           {
             "text": " as wounds,",
             "foot": {
@@ -11056,7 +11182,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a strong"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a strong"],
         "strong": "H5797"
       },
       { "text": " tower:", "break": true, "strong": "H4026" },
@@ -11082,7 +11208,7 @@
       { "text": "The rich man's", "strong": "H6223" },
       { "text": " wealth", "strong": "H1952" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his strong"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his strong"],
         "strong": "H5797"
       },
       { "text": " city,", "break": true, "strong": "H7151" },
@@ -11109,7 +11235,7 @@
       { "text": "And before", "strong": "H6440" },
       { "text": " honour", "strong": "H3519" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " humility."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " humility."],
         "break": true,
         "strong": "H6038"
       }
@@ -11132,7 +11258,8 @@
       { "text": " before he heareth", "strong": "H8085", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " it", "marks": ["i"] },
+          " ",
+          { "text": "it", "marks": ["i"] },
           { "text": ",", "break": true },
           "It ",
           { "text": "is", "marks": ["i"] },
@@ -11206,7 +11333,7 @@
       },
       { "text": " in his own cause", "strong": "H7379" },
       {
-        "content": [{ "text": " seemeth", "marks": ["i"] }, " just;"],
+        "content": [" ", { "text": "seemeth", "marks": ["i"] }, " just;"],
         "break": true,
         "strong": "H6662"
       },
@@ -11243,7 +11370,8 @@
       { "text": " offended", "strong": "H6586", "morph": "NiphPtc" },
       {
         "content": [
-          { "text": " is harder to be won", "marks": ["i"] },
+          " ",
+          { "text": "is harder to be won", "marks": ["i"] },
           " than a strong"
         ],
         "strong": "H5797"
@@ -11260,7 +11388,7 @@
       },
       { "strong": "H4066" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " like the bars"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " like the bars"],
         "strong": "H1280"
       },
       { "text": " of a castle.", "break": true, "strong": "H759" }
@@ -11297,7 +11425,7 @@
       { "text": "Death", "strong": "H4194" },
       { "text": " and life", "strong": "H2416" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " in the power"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " in the power"],
         "strong": "H3027"
       },
       { "text": " of the tongue:", "break": true, "strong": "H3956" },
@@ -11322,7 +11450,8 @@
       { "text": " a good", "strong": "H2896" },
       {
         "content": [
-          { "text": " thing", "marks": ["i"] },
+          " ",
+          { "text": "thing", "marks": ["i"] },
           { "text": ",", "break": true },
           "And obtaineth"
         ],
@@ -11357,7 +11486,7 @@
     "content": [
       { "text": "A man", "strong": "H376" },
       {
-        "content": [{ "text": " that hath", "marks": ["i"] }, " friends"],
+        "content": [" ", { "text": "that hath", "marks": ["i"] }, " friends"],
         "strong": "H7453"
       },
       {
@@ -11369,7 +11498,11 @@
       { "text": "And there is", "strong": "H3426" },
       { "text": " a friend", "strong": "H157", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " sticketh closer"],
+        "content": [
+          " ",
+          { "text": "that", "marks": ["i"] },
+          " sticketh closer"
+        ],
         "strong": "H1695"
       },
       { "text": " than a brother.", "break": true, "strong": "H251" }
@@ -11382,7 +11515,7 @@
     "content": [
       { "text": "Better", "strong": "H2896" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the poor"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the poor"],
         "strong": "H7326",
         "morph": "QalActPtc"
       },
@@ -11410,11 +11543,15 @@
         "strong": "H5315"
       },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " without knowledge,"],
+        "content": [
+          " ",
+          { "text": "be", "marks": ["i"] },
+          " without knowledge,"
+        ],
         "strong": "H1847"
       },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " not good;"],
+        "content": [" ", { "text": "it is", "marks": ["i"] }, " not good;"],
         "break": true,
         "strong": "H2896"
       },
@@ -11545,10 +11682,11 @@
         "morph": "PielPtc"
       },
       {
-        "content": [{ "text": " them with", "marks": ["i"] }, " words,"],
+        "content": [" ", { "text": "them with", "marks": ["i"] }, " words,"],
         "strong": "H561"
       },
-      { "text": " yet", "marks": ["i"] },
+      " ",
+      { "text": "yet", "marks": ["i"] },
       " they ",
       { "text": "are", "marks": ["i"] },
       " wanting ",
@@ -11650,13 +11788,13 @@
       { "text": "The king's", "strong": "H4428" },
       { "text": " wrath", "strong": "H2197" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as the roaring"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as the roaring"],
         "strong": "H5099"
       },
       { "text": " of a lion;", "break": true, "strong": "H3715" },
       { "text": "But his favour", "strong": "H7522" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as dew"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as dew"],
         "strong": "H2919"
       },
       { "text": " upon the grass.", "break": true, "strong": "H6212" }
@@ -11670,14 +11808,14 @@
       { "text": "A foolish", "strong": "H3684" },
       { "text": " son", "strong": "H1121" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the calamity"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the calamity"],
         "strong": "H1942"
       },
       { "text": " of his father:", "break": true, "strong": "H1" },
       { "text": "And the contentions", "strong": "H4079" },
       { "text": " of a wife", "strong": "H802" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " a continual"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " a continual"],
         "strong": "H2956",
         "morph": "QalActPtc"
       },
@@ -11692,7 +11830,7 @@
       { "text": "House", "strong": "H1004" },
       { "text": " and riches", "strong": "H1952" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the inheritance"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the inheritance"],
         "strong": "H5159"
       },
       { "text": " of fathers:", "break": true, "strong": "H1" },
@@ -11700,7 +11838,8 @@
       { "text": " wife", "strong": "H802" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " from the ",
           { "text": "LORD", "marks": ["sc"] },
           "."
@@ -11821,7 +11960,8 @@
       { "text": "For if thou deliver", "strong": "H5337", "morph": "HiphImpf" },
       {
         "content": [
-          { "text": " him", "marks": ["i"] },
+          " ",
+          { "text": "him", "marks": ["i"] },
           {
             "text": ", yet thou must do it again.",
             "foot": {
@@ -11886,13 +12026,13 @@
       { "text": "The desire", "strong": "H8378" },
       { "text": " of a man", "strong": "H120" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his kindness:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his kindness:"],
         "break": true,
         "strong": "H2617"
       },
       { "text": "And a poor man", "strong": "H7326", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " better"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " better"],
         "strong": "H2896"
       },
       { "text": " than", "strong": "H376" },
@@ -11910,7 +12050,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " tendeth", "marks": ["i"] }, " to life:"],
+        "content": [" ", { "text": "tendeth", "marks": ["i"] }, " to life:"],
         "break": true,
         "strong": "H2416"
       },
@@ -11939,7 +12079,7 @@
     "content": [
       { "text": "A slothful", "strong": "H6102" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " hideth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " hideth"],
         "strong": "H2934",
         "morph": "QalPerf"
       },
@@ -11984,7 +12124,11 @@
         "morph": "NiphPtc"
       },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " he will understand"],
+        "content": [
+          " ",
+          { "text": "and", "marks": ["i"] },
+          " he will understand"
+        ],
         "strong": "H995",
         "morph": "QalImpf"
       },
@@ -11998,16 +12142,16 @@
     "content": [
       { "text": "He that wasteth", "strong": "H7703", "morph": "PielPtc" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " father,"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " father,"],
         "strong": "H1"
       },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " chaseth away"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " chaseth away"],
         "strong": "H1272",
         "morph": "HiphImpf"
       },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " mother,"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " mother,"],
         "break": true,
         "strong": "H517"
       },
@@ -12092,13 +12236,13 @@
     "content": [
       { "text": "Wine", "strong": "H3196" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a mocker,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a mocker,"],
         "strong": "H3887",
         "morph": "QalPtc"
       },
       { "text": " strong drink", "strong": "H7941" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " raging:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " raging:"],
         "break": true,
         "strong": "H1993",
         "morph": "QalActPtc"
@@ -12124,7 +12268,7 @@
       { "text": "The fear", "strong": "H367" },
       { "text": " of a king", "strong": "H4428" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " as the roaring"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " as the roaring"],
         "strong": "H5099"
       },
       { "text": " of a lion:", "break": true, "strong": "H3715" },
@@ -12138,7 +12282,11 @@
       },
       { "text": " sinneth", "strong": "H2398", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " against", "marks": ["i"] }, " his own soul."],
+        "content": [
+          " ",
+          { "text": "against", "marks": ["i"] },
+          " his own soul."
+        ],
         "break": true,
         "strong": "H5315"
       }
@@ -12202,7 +12350,7 @@
       { "text": " in the heart", "strong": "H3820" },
       { "text": " of man", "strong": "H376" },
       {
-        "content": [{ "text": " is like", "marks": ["i"] }, " deep"],
+        "content": [" ", { "text": "is like", "marks": ["i"] }, " deep"],
         "strong": "H6013"
       },
       { "text": " water;", "break": true, "strong": "H4325" },
@@ -12251,14 +12399,14 @@
     "content": [
       { "text": "The just", "strong": "H6662" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " walketh"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " walketh"],
         "strong": "H1980",
         "morph": "HithPtc"
       },
       { "text": " in his integrity:", "break": true, "strong": "H8537" },
       { "text": "His children", "strong": "H1121" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " blessed"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " blessed"],
         "strong": "H835"
       },
       { "text": " after", "strong": "H310" },
@@ -12315,7 +12463,8 @@
       { "strong": "H68" },
       {
         "content": [
-          { "text": " and", "marks": ["i"] },
+          " ",
+          { "text": "and", "marks": ["i"] },
           {
             "text": " divers measures,",
             "foot": {
@@ -12354,7 +12503,7 @@
       { "text": " by his doings,", "break": true, "strong": "H4611" },
       { "text": "Whether his work", "strong": "H6467" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " pure,"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " pure,"],
         "strong": "H2134"
       },
       {
@@ -12403,7 +12552,8 @@
       { "text": " thine eyes,", "strong": "H5869" },
       {
         "content": [
-          { "text": " and", "marks": ["i"] },
+          " ",
+          { "text": "and", "marks": ["i"] },
           " thou shalt be satisfied"
         ],
         "strong": "H7646",
@@ -12422,7 +12572,7 @@
         "strong": "H7451"
       },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " naught,"],
+        "content": [" ", { "text": "it is", "marks": ["i"] }, " naught,"],
         "strong": "H7451"
       },
       { "text": " saith", "strong": "H559", "morph": "QalImpf" },
@@ -12453,7 +12603,7 @@
       { "text": "But the lips", "strong": "H8193" },
       { "text": " of knowledge", "strong": "H1847" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " a precious"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " a precious"],
         "strong": "H3366"
       },
       { "text": " jewel.", "break": true, "strong": "H3627" }
@@ -12468,7 +12618,7 @@
       { "text": " his garment", "strong": "H899" },
       { "text": " that is surety", "strong": "H6148", "morph": "QalPerf" },
       {
-        "content": [{ "text": " for", "marks": ["i"] }, " a stranger:"],
+        "content": [" ", { "text": "for", "marks": ["i"] }, " a stranger:"],
         "break": true,
         "strong": "H2114",
         "morph": "QalPtc"
@@ -12501,7 +12651,7 @@
         "strong": "H8267"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " sweet"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " sweet"],
         "strong": "H6156"
       },
       { "text": " to a man;", "break": true, "strong": "H376" },
@@ -12538,7 +12688,7 @@
         "morph": "QalActPtc"
       },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " a talebearer"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " a talebearer"],
         "strong": "H7400"
       },
       { "text": " revealeth", "strong": "H1540", "morph": "QalActPtc" },
@@ -12585,7 +12735,11 @@
     "content": [
       { "text": "An inheritance", "strong": "H5159" },
       {
-        "content": [{ "text": " may be", "marks": ["i"] }, " gotten hastily"],
+        "content": [
+          " ",
+          { "text": "may be", "marks": ["i"] },
+          " gotten hastily"
+        ],
         "strong": "H926",
         "morph": "PualPtc/Qere"
       },
@@ -12633,7 +12787,7 @@
       { "text": "Divers weights", "strong": "H68" },
       { "strong": "H68" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       {
@@ -12651,7 +12805,7 @@
         "strong": "H3976"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " not good."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " not good."],
         "break": true,
         "strong": "H2896"
       }
@@ -12666,7 +12820,8 @@
       { "text": " goings", "strong": "H4703" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           " of the ",
           { "text": "LORD", "marks": ["sc"] },
           ";"
@@ -12690,12 +12845,12 @@
       },
       { "text": " to the man", "strong": "H120" },
       {
-        "content": [{ "text": " who", "marks": ["i"] }, " devoureth"],
+        "content": [" ", { "text": "who", "marks": ["i"] }, " devoureth"],
         "strong": "H3216",
         "morph": "QalPerf"
       },
       {
-        "content": [{ "text": " that which is", "marks": ["i"] }, " holy,"],
+        "content": [" ", { "text": "that which is", "marks": ["i"] }, " holy,"],
         "break": true,
         "strong": "H6944"
       },
@@ -12732,7 +12887,8 @@
       { "text": " of man", "strong": "H120" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " the candle",
             "foot": {
@@ -12775,14 +12931,14 @@
       { "text": "The glory", "strong": "H8597" },
       { "text": " of young men", "strong": "H970" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " their strength:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " their strength:"],
         "break": true,
         "strong": "H3581"
       },
       { "text": "And the beauty", "strong": "H1926" },
       { "text": " of old men", "strong": "H2205" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the grey head."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the grey head."],
         "break": true,
         "strong": "H7872"
       }
@@ -12824,7 +12980,7 @@
       { "text": "The king's", "strong": "H4428" },
       { "text": " heart", "strong": "H3820" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in the hand"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in the hand"],
         "strong": "H3027"
       },
       {
@@ -12854,7 +13010,7 @@
       { "text": "Every way", "strong": "H1870" },
       { "text": " of a man", "strong": "H376" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " right"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " right"],
         "strong": "H3477"
       },
       { "text": " in his own eyes:", "break": true, "strong": "H5869" },
@@ -12921,7 +13077,7 @@
         "strong": "H7563"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " sin."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " sin."],
         "break": true,
         "strong": "H2403"
       }
@@ -12936,7 +13092,8 @@
       { "text": " of the diligent", "strong": "H2742" },
       {
         "content": [
-          { "text": " tend", "marks": ["i"] },
+          " ",
+          { "text": "tend", "marks": ["i"] },
           " only to plenteousness;"
         ],
         "break": true,
@@ -13016,7 +13173,7 @@
       { "text": "The way", "strong": "H1870" },
       { "text": " of man", "strong": "H376" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " froward"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " froward"],
         "strong": "H2019"
       },
       { "text": " and strange:", "break": true, "strong": "H2054" },
@@ -13026,7 +13183,7 @@
       },
       { "text": " his work", "strong": "H6467" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " right."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " right."],
         "break": true,
         "strong": "H3477"
       }
@@ -13113,7 +13270,11 @@
     "content": [
       { "text": "The righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " wisely considereth"],
+        "content": [
+          " ",
+          { "text": "man", "marks": ["i"] },
+          " wisely considereth"
+        ],
         "strong": "H7919",
         "morph": "HiphPtc"
       },
@@ -13183,7 +13344,11 @@
       { "text": " judgment:", "break": true, "strong": "H4941" },
       { "text": "But destruction", "strong": "H4288" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " to the workers"],
+        "content": [
+          " ",
+          { "text": "shall be", "marks": ["i"] },
+          " to the workers"
+        ],
         "strong": "H6466",
         "morph": "QalActPtc"
       },
@@ -13224,7 +13389,7 @@
         "strong": "H8057"
       },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " a poor"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " a poor"],
         "strong": "H4270"
       },
       { "text": " man:", "break": true, "strong": "H376" },
@@ -13246,7 +13411,7 @@
     "content": [
       { "text": "The wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " a ransom"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " a ransom"],
         "strong": "H3724"
       },
       { "text": " for the righteous,", "break": true, "strong": "H6662" },
@@ -13331,7 +13496,7 @@
     "content": [
       { "text": "A wise", "strong": "H2450" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " scaleth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " scaleth"],
         "strong": "H5927",
         "morph": "QalPerf"
       },
@@ -13363,12 +13528,12 @@
     "content": [
       { "text": "Proud", "strong": "H2086" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " haughty"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " haughty"],
         "strong": "H3093"
       },
       { "text": " scorner", "strong": "H3887", "morph": "QalPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his name,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his name,"],
         "break": true,
         "strong": "H8034"
       },
@@ -13434,7 +13599,7 @@
       { "text": "The sacrifice", "strong": "H2077" },
       { "text": " of the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " abomination:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " abomination:"],
         "break": true,
         "strong": "H8441"
       },
@@ -13539,7 +13704,7 @@
     "content": [
       { "text": "The horse", "strong": "H5483" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " prepared"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " prepared"],
         "strong": "H3559",
         "morph": "HophPtc"
       },
@@ -13555,7 +13720,8 @@
       },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " of the ",
           { "text": "LORD", "marks": ["sc"] },
           "."
@@ -13575,7 +13741,11 @@
         "strong": "H8034"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " rather to be chosen"],
+        "content": [
+          " ",
+          { "text": "is", "marks": ["i"] },
+          " rather to be chosen"
+        ],
         "strong": "H977",
         "morph": "NiphPtc"
       },
@@ -13608,7 +13778,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the maker"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the maker"],
         "strong": "H6213",
         "morph": "QalActPtc"
       },
@@ -13622,7 +13792,7 @@
     "content": [
       { "text": "A prudent", "strong": "H6175" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " foreseeth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " foreseeth"],
         "strong": "H7200",
         "morph": "QalPerf"
       },
@@ -13661,7 +13831,7 @@
         "strong": "H6038"
       },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " the fear"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " the fear"],
         "strong": "H3374"
       },
       {
@@ -13684,11 +13854,11 @@
     "content": [
       { "text": "Thorns", "strong": "H6791" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " snares"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " snares"],
         "strong": "H6341"
       },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " in the way"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " in the way"],
         "strong": "H1870"
       },
       { "text": " of the froward:", "break": true, "strong": "H6141" },
@@ -13741,7 +13911,7 @@
       },
       { "text": "And the borrower", "strong": "H3867", "morph": "QalPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " servant"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " servant"],
         "strong": "H5650"
       },
       {
@@ -13862,7 +14032,11 @@
       },
       { "text": " the king", "strong": "H4428" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " his friend."],
+        "content": [
+          " ",
+          { "text": "shall be", "marks": ["i"] },
+          " his friend."
+        ],
         "break": true,
         "strong": "H7453"
       }
@@ -13904,12 +14078,12 @@
     "content": [
       { "text": "The slothful", "strong": "H6102" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " saith,"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " saith,"],
         "strong": "H559",
         "morph": "QalPerf"
       },
       {
-        "content": [{ "text": " There is", "marks": ["i"] }, " a lion"],
+        "content": [" ", { "text": "There is", "marks": ["i"] }, " a lion"],
         "strong": "H738"
       },
       { "text": " without,", "break": true, "strong": "H2351" },
@@ -13926,7 +14100,7 @@
       { "text": "The mouth", "strong": "H6310" },
       { "text": " of strange women", "strong": "H2114", "morph": "QalPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a deep"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a deep"],
         "strong": "H6013"
       },
       { "text": " pit:", "break": true, "strong": "H7745" },
@@ -13950,7 +14124,7 @@
     "content": [
       { "text": "Foolishness", "strong": "H200" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " bound"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " bound"],
         "strong": "H7194",
         "morph": "QalPasPtc"
       },
@@ -13987,7 +14161,8 @@
       { "text": " to the rich,", "strong": "H6223" },
       {
         "content": [
-          { "text": " shall", "marks": ["i"] },
+          " ",
+          { "text": "shall", "marks": ["i"] },
           " surely ",
           { "text": "come", "marks": ["i"] },
           " to want."
@@ -14273,7 +14448,8 @@
       { "text": "He shall not stand", "strong": "H3320", "morph": "HithImpf" },
       { "text": " before", "strong": "H6440" },
       { "text": " mean", "strong": "H2823" },
-      { "text": " men", "marks": ["i"] },
+      " ",
+      { "text": "men", "marks": ["i"] },
       {
         "text": ".",
         "break": true,
@@ -14441,7 +14617,8 @@
         "content": [{ "text": " he to thee;", "break": true }, "But his heart"],
         "strong": "H3820"
       },
-      { "text": " is", "marks": ["i"] },
+      " ",
+      { "text": "is", "marks": ["i"] },
       { "text": " not with thee.", "break": true }
     ]
   },
@@ -14452,7 +14629,11 @@
     "content": [
       { "text": "The morsel", "strong": "H6595" },
       {
-        "content": [{ "text": " which", "marks": ["i"] }, " thou hast eaten"],
+        "content": [
+          " ",
+          { "text": "which", "marks": ["i"] },
+          " thou hast eaten"
+        ],
         "strong": "H398",
         "morph": "QalPerf"
       },
@@ -14508,7 +14689,7 @@
     "content": [
       { "text": "For their redeemer", "strong": "H1350", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " mighty;"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " mighty;"],
         "break": true,
         "strong": "H2389"
       },
@@ -14712,7 +14893,7 @@
       { "text": "And drowsiness", "strong": "H5124" },
       { "text": " shall clothe", "strong": "H3847", "morph": "HiphImpf" },
       {
-        "content": [{ "text": " a man", "marks": ["i"] }, " with rags."],
+        "content": [" ", { "text": "a man", "marks": ["i"] }, " with rags."],
         "break": true,
         "strong": "H7168"
       }
@@ -14750,7 +14931,8 @@
       { "text": " and sell", "strong": "H4376", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " it", "marks": ["i"] },
+          " ",
+          { "text": "it", "marks": ["i"] },
           { "text": " not;", "break": true },
           { "text": "Also", "marks": ["i"] },
           " wisdom,"
@@ -14782,7 +14964,11 @@
       },
       { "text": " a wise", "strong": "H2450" },
       {
-        "content": [{ "text": " child", "marks": ["i"] }, " shall have joy"],
+        "content": [
+          " ",
+          { "text": "child", "marks": ["i"] },
+          " shall have joy"
+        ],
         "strong": "H8055",
         "morph": "QalImpf"
       },
@@ -14832,13 +15018,13 @@
     "content": [
       { "text": "For a whore", "strong": "H2181", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a deep"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a deep"],
         "strong": "H6013"
       },
       { "text": " ditch;", "break": true, "strong": "H7745" },
       { "text": "And a strange woman", "strong": "H5237" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a narrow"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a narrow"],
         "strong": "H6862"
       },
       { "text": " pit.", "break": true, "strong": "H875" }
@@ -15026,7 +15212,8 @@
       },
       {
         "content": [
-          { "text": " it", "marks": ["i"] },
+          " ",
+          { "text": "it", "marks": ["i"] },
           {
             "text": " not:",
             "break": true,
@@ -15120,7 +15307,8 @@
       { "text": " man", "strong": "H1397" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " strong;",
             "foot": {
@@ -15149,7 +15337,7 @@
       { "text": "And in multitude", "strong": "H7230" },
       { "text": " of counsellors", "strong": "H3289", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " there is", "marks": ["i"] }, " safety."],
+        "content": [" ", { "text": "there is", "marks": ["i"] }, " safety."],
         "break": true,
         "strong": "H8668"
       }
@@ -15162,7 +15350,7 @@
     "content": [
       { "text": "Wisdom", "strong": "H2454" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " too high"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " too high"],
         "strong": "H7311",
         "morph": "QalActPtc"
       },
@@ -15197,13 +15385,13 @@
       { "text": "The thought", "strong": "H2154" },
       { "text": " of foolishness", "strong": "H200" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " sin:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " sin:"],
         "break": true,
         "strong": "H2403"
       },
       { "text": "And the scorner", "strong": "H3887", "morph": "QalPtc" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       { "text": " to men.", "break": true, "strong": "H120" }
@@ -15224,7 +15412,8 @@
       { "text": "Thy strength", "strong": "H3581" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " small.",
             "foot": {
@@ -15246,7 +15435,7 @@
       { "text": "If thou forbear", "strong": "H2820", "morph": "QalImpf" },
       { "text": " to deliver", "strong": "H5337", "morph": "HiphImpv" },
       {
-        "content": [{ "text": " them that are", "marks": ["i"] }, " drawn"],
+        "content": [" ", { "text": "them that are", "marks": ["i"] }, " drawn"],
         "strong": "H3947",
         "morph": "QalPasPtc"
       },
@@ -15282,7 +15471,8 @@
       { "text": " consider", "strong": "H995", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " it?", "marks": ["i"], "break": true },
+          " ",
+          { "text": "it?", "marks": ["i"], "break": true },
           "And he that keepeth"
         ],
         "strong": "H5341",
@@ -15296,7 +15486,8 @@
       },
       {
         "content": [
-          { "text": " it?", "marks": ["i"], "break": true },
+          " ",
+          { "text": "it?", "marks": ["i"], "break": true },
           "And shall ",
           { "text": "not", "marks": ["i"] },
           " he render"
@@ -15326,7 +15517,7 @@
       },
       { "text": "And the honeycomb,", "strong": "H5317" },
       {
-        "content": [{ "text": " which is", "marks": ["i"] }, " sweet"],
+        "content": [" ", { "text": "which is", "marks": ["i"] }, " sweet"],
         "strong": "H4966"
       },
       { "text": " to thy taste:", "break": true, "strong": "H2441" }
@@ -15348,13 +15539,17 @@
       },
       { "text": " of wisdom", "strong": "H2451" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " unto thy soul:"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " unto thy soul:"],
         "break": true,
         "strong": "H5315"
       },
       { "text": "When thou hast found", "strong": "H4672", "morph": "QalPerf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, ", then there shall be"],
+        "content": [
+          " ",
+          { "text": "it", "marks": ["i"] },
+          ", then there shall be"
+        ],
         "strong": "H3426"
       },
       { "text": " a reward,", "break": true, "strong": "H319" },
@@ -15376,7 +15571,8 @@
       { "text": " O wicked", "strong": "H7563" },
       {
         "content": [
-          { "text": " man", "marks": ["i"] },
+          " ",
+          { "text": "man", "marks": ["i"] },
           ", against the dwelling"
         ],
         "strong": "H5116"
@@ -15393,7 +15589,7 @@
     "content": [
       { "text": "For a just", "strong": "H6662" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " falleth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " falleth"],
         "strong": "H5307",
         "morph": "QalImpf"
       },
@@ -15447,7 +15643,11 @@
       },
       { "text": " see", "strong": "H7200", "morph": "QalImpf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, ", and it displease"],
+        "content": [
+          " ",
+          { "text": "it", "marks": ["i"] },
+          ", and it displease"
+        ],
         "strong": "H7489",
         "morph": "QalPerf"
       },
@@ -15487,7 +15687,8 @@
       },
       {
         "content": [
-          { "text": " men", "marks": ["i"] },
+          " ",
+          { "text": "men", "marks": ["i"] },
           {
             "text": ",",
             "break": true,
@@ -15516,7 +15717,8 @@
       { "text": " to the evil", "strong": "H7451" },
       {
         "content": [
-          { "text": " man", "marks": ["i"] },
+          " ",
+          { "text": "man", "marks": ["i"] },
           { "text": ";", "break": true },
           {
             "text": "The candle",
@@ -15634,7 +15836,11 @@
         "morph": "HiphPtc"
       },
       {
-        "content": [{ "text": " him", "marks": ["i"] }, " shall be delight,"],
+        "content": [
+          " ",
+          { "text": "him", "marks": ["i"] },
+          " shall be delight,"
+        ],
         "break": true,
         "strong": "H5276",
         "morph": "QalImpf"
@@ -15663,7 +15869,7 @@
         "morph": "QalImpf"
       },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " lips"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " lips"],
         "break": true,
         "strong": "H8193"
       },
@@ -15712,7 +15918,7 @@
       { "text": " without cause;", "break": true, "strong": "H2600" },
       { "text": "And deceive", "strong": "H6601", "morph": "PielPerf" },
       {
-        "content": [{ "text": " not", "marks": ["i"] }, " with thy lips."],
+        "content": [" ", { "text": "not", "marks": ["i"] }, " with thy lips."],
         "break": true,
         "strong": "H8193"
       }
@@ -15792,7 +15998,8 @@
       { "text": "Then I saw,", "strong": "H2372", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " and", "marks": ["i"] },
+          " ",
+          { "text": "and", "marks": ["i"] },
           " considered ",
           { "text": "it", "marks": ["i"] },
           {
@@ -15852,7 +16059,11 @@
       { "text": "So shall thy poverty", "strong": "H7389" },
       { "text": " come", "strong": "H935", "morph": "QalPerf" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " one that travelleth;"],
+        "content": [
+          " ",
+          { "text": "as", "marks": ["i"] },
+          " one that travelleth;"
+        ],
         "break": true,
         "strong": "H1980",
         "morph": "HithPtc"
@@ -15913,7 +16124,7 @@
       { "text": "But the honour", "strong": "H3519" },
       { "text": " of kings", "strong": "H4428" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " to search out"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " to search out"],
         "strong": "H2713",
         "morph": "QalInf"
       },
@@ -15933,7 +16144,8 @@
       { "text": " of kings", "strong": "H4428" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " unsearchable.",
             "foot": {
@@ -15980,7 +16192,7 @@
       { "text": "Take away", "strong": "H1898", "morph": "QalInf" },
       { "text": " the wicked", "strong": "H7563" },
       {
-        "content": [{ "text": " from", "marks": ["i"] }, " before"],
+        "content": [" ", { "text": "from", "marks": ["i"] }, " before"],
         "strong": "H6440"
       },
       { "text": " the king,", "break": true, "strong": "H4428" },
@@ -16019,7 +16231,8 @@
       { "text": "And stand", "strong": "H5975", "morph": "QalImpf" },
       { "text": " not in the place", "strong": "H4725" },
       { "text": " of great", "strong": "H1419" },
-      { "text": " men:", "marks": ["i"], "break": true }
+      " ",
+      { "text": "men:", "marks": ["i"], "break": true }
     ]
   },
   {
@@ -16029,7 +16242,11 @@
     "content": [
       { "text": "For better", "strong": "H2896" },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " that it be said"],
+        "content": [
+          " ",
+          { "text": "it is", "marks": ["i"] },
+          " that it be said"
+        ],
         "strong": "H559",
         "morph": "QalInf"
       },
@@ -16101,7 +16318,8 @@
       { "text": " with thy neighbour", "strong": "H7453" },
       {
         "content": [
-          { "text": " himself", "marks": ["i"] },
+          " ",
+          { "text": "himself", "marks": ["i"] },
           { "text": ";", "break": true },
           "And discover"
         ],
@@ -16134,7 +16352,11 @@
         "morph": "QalActPtc"
       },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " put thee to shame,"],
+        "content": [
+          " ",
+          { "text": "it", "marks": ["i"] },
+          " put thee to shame,"
+        ],
         "break": true,
         "strong": "H2616",
         "morph": "PielImpf"
@@ -16381,7 +16603,7 @@
       { "text": " in cold", "strong": "H7135" },
       { "text": " weather,", "strong": "H3117" },
       {
-        "content": [{ "text": " and as", "marks": ["i"] }, " vinegar"],
+        "content": [" ", { "text": "and as", "marks": ["i"] }, " vinegar"],
         "strong": "H2558"
       },
       { "text": " upon nitre,", "break": true, "strong": "H5427" },
@@ -16539,7 +16761,7 @@
       },
       { "text": " their own glory", "strong": "H3519" },
       {
-        "content": [{ "text": " is not", "marks": ["i"] }, " glory."],
+        "content": [" ", { "text": "is not", "marks": ["i"] }, " glory."],
         "break": true,
         "strong": "H3519"
       }
@@ -16561,12 +16783,16 @@
         "strong": "H5892"
       },
       {
-        "content": [{ "text": " that is", "marks": ["i"] }, " broken down,"],
+        "content": [
+          " ",
+          { "text": "that is", "marks": ["i"] },
+          " broken down,"
+        ],
         "strong": "H6555",
         "morph": "QalPasPtc"
       },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " without walls."],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " without walls."],
         "break": true,
         "strong": "H2346"
       }
@@ -16672,7 +16898,7 @@
       { "text": "Cutteth off", "strong": "H7096", "morph": "PielPtc" },
       { "text": " the feet,", "strong": "H7272" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " drinketh"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " drinketh"],
         "strong": "H8354",
         "morph": "QalActPtc"
       },
@@ -16771,7 +16997,7 @@
     "content": [
       { "text": "The great", "strong": "H7227" },
       {
-        "content": [{ "text": " God", "marks": ["i"] }, " that formed"],
+        "content": [" ", { "text": "God", "marks": ["i"] }, " that formed"],
         "strong": "H2342",
         "morph": "PolePtc"
       },
@@ -16855,18 +17081,18 @@
     "content": [
       { "text": "The slothful", "strong": "H6102" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " saith,"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " saith,"],
         "strong": "H559",
         "morph": "QalPerf"
       },
       {
-        "content": [{ "text": " There is", "marks": ["i"] }, " a lion"],
+        "content": [" ", { "text": "There is", "marks": ["i"] }, " a lion"],
         "strong": "H7826"
       },
       { "text": " in the way;", "break": true, "strong": "H1870" },
       { "text": "A lion", "strong": "H738" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in the streets."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in the streets."],
         "break": true,
         "strong": "H7339"
       }
@@ -16928,7 +17154,7 @@
     "content": [
       { "text": "The sluggard", "strong": "H6102" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " wiser"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " wiser"],
         "strong": "H2450"
       },
       { "text": " in his own conceit", "break": true, "strong": "H5869" },
@@ -16949,7 +17175,8 @@
       },
       {
         "content": [
-          { "text": " and", "marks": ["i"] },
+          " ",
+          { "text": "and", "marks": ["i"] },
           {
             "text": " meddleth",
             "foot": {
@@ -16964,7 +17191,8 @@
       { "text": " with strife", "strong": "H7379" },
       {
         "content": [
-          { "text": " belonging", "marks": ["i"] },
+          " ",
+          { "text": "belonging", "marks": ["i"] },
           { "text": " not to him,", "break": true },
           { "text": "Is like", "marks": ["i"] },
           " one that taketh"
@@ -16983,7 +17211,7 @@
     "content": [
       { "text": "As a mad", "strong": "H3856", "morph": "HippPtc" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " who casteth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " who casteth"],
         "strong": "H3384",
         "morph": "QalActPtc"
       },
@@ -17015,7 +17243,7 @@
         "strong": "H376"
       },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " deceiveth"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " deceiveth"],
         "strong": "H7411",
         "morph": "PielPerf"
       },
@@ -17045,7 +17273,8 @@
               "content": ["Heb. ", { "text": "without wood", "marks": ["i"] }]
             }
           },
-          { "text": " there", "marks": ["i"] },
+          " ",
+          { "text": "there", "marks": ["i"] },
           " the fire"
         ],
         "strong": "H784"
@@ -17093,7 +17322,11 @@
         "strong": "H6352"
       },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " to burning coals,"],
+        "content": [
+          " ",
+          { "text": "are", "marks": ["i"] },
+          " to burning coals,"
+        ],
         "strong": "H1513"
       },
       { "text": " and wood", "strong": "H6086" },
@@ -17117,7 +17350,7 @@
       { "text": "The words", "strong": "H1697" },
       { "text": " of a talebearer", "strong": "H5372" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " as wounds,"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " as wounds,"],
         "break": true,
         "strong": "H3859",
         "morph": "HithPtc"
@@ -17272,7 +17505,8 @@
       { "text": " hateth", "strong": "H8130", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " those that are", "marks": ["i"] },
+          " ",
+          { "text": "those that are", "marks": ["i"] },
           " afflicted"
         ],
         "strong": "H1790"
@@ -17331,7 +17565,8 @@
       { "text": "A stone", "strong": "H68" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " heavy,",
             "foot": {
@@ -17347,7 +17582,7 @@
       { "text": "But a fool's", "strong": "H191" },
       { "text": " wrath", "strong": "H3708" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " heavier"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " heavier"],
         "strong": "H3515"
       },
       { "text": " than them both.", "break": true, "strong": "H8147" }
@@ -17360,13 +17595,14 @@
     "content": [
       { "text": "Wrath", "strong": "H2534" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " cruel,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " cruel,"],
         "strong": "H395"
       },
       { "text": " and anger", "strong": "H639" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " outrageous;",
             "foot": {
@@ -17413,7 +17649,7 @@
       { "text": "Open", "strong": "H1540", "morph": "PualPtc" },
       { "text": " rebuke", "strong": "H8433" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " better"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " better"],
         "break": true,
         "strong": "H2896"
       },
@@ -17428,7 +17664,7 @@
     "content": [
       { "text": "Faithful", "strong": "H539", "morph": "NiphPtc" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the wounds"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the wounds"],
         "strong": "H6482"
       },
       {
@@ -17441,7 +17677,8 @@
       { "text": " of an enemy", "strong": "H8130", "morph": "QalActPtc" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           {
             "text": " deceitful.",
             "foot": {
@@ -17559,11 +17796,11 @@
         "strong": "H2896"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a neighbour"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a neighbour"],
         "strong": "H7934"
       },
       {
-        "content": [{ "text": " that is", "marks": ["i"] }, " near"],
+        "content": [" ", { "text": "that is", "marks": ["i"] }, " near"],
         "strong": "H7138"
       },
       { "text": " than a brother", "strong": "H251" },
@@ -17601,13 +17838,13 @@
     "content": [
       { "text": "A prudent", "strong": "H6175" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " foreseeth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " foreseeth"],
         "strong": "H7200",
         "morph": "QalPerf"
       },
       { "text": " the evil,", "strong": "H7451" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " hideth"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " hideth"],
         "strong": "H5641",
         "morph": "NiphPerf"
       },
@@ -17621,7 +17858,7 @@
       },
       { "text": " pass on,", "strong": "H5674", "morph": "QalPerf" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " are punished."],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " are punished."],
         "break": true,
         "strong": "H6064",
         "morph": "NiphPerf"
@@ -17697,11 +17934,12 @@
       { "text": "And the ointment", "strong": "H8081" },
       { "text": " of his right hand,", "strong": "H3225" },
       {
-        "content": [{ "text": " which", "marks": ["i"] }, " bewrayeth"],
+        "content": [" ", { "text": "which", "marks": ["i"] }, " bewrayeth"],
         "strong": "H7121",
         "morph": "QalImpf"
       },
-      { "text": " itself", "marks": ["i"] },
+      " ",
+      { "text": "itself", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -17753,7 +17991,7 @@
       { "text": "As in water", "strong": "H4325" },
       { "text": " face", "strong": "H6440" },
       {
-        "content": [{ "text": " answereth", "marks": ["i"] }, " to face,"],
+        "content": [" ", { "text": "answereth", "marks": ["i"] }, " to face,"],
         "break": true,
         "strong": "H6440"
       },
@@ -17879,13 +18117,13 @@
         "strong": "H2633"
       },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " not for ever:"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " not for ever:"],
         "break": true,
         "strong": "H5769"
       },
       { "text": "And doth the crown", "strong": "H5145" },
       {
-        "content": [{ "text": " endure", "marks": ["i"] }, " to every"],
+        "content": [" ", { "text": "endure", "marks": ["i"] }, " to every"],
         "strong": "H1755"
       },
       {
@@ -17931,13 +18169,17 @@
     "content": [
       { "text": "The lambs", "strong": "H3532" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " for thy clothing,"],
+        "content": [
+          " ",
+          { "text": "are", "marks": ["i"] },
+          " for thy clothing,"
+        ],
         "break": true,
         "strong": "H3830"
       },
       { "text": "And the goats", "strong": "H6260" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the price"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the price"],
         "strong": "H4242"
       },
       { "text": " of the field.", "break": true, "strong": "H7704" }
@@ -18005,7 +18247,7 @@
       { "text": " of a land", "strong": "H776" },
       { "text": " many", "strong": "H7227" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " the princes"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " the princes"],
         "strong": "H8269"
       },
       {
@@ -18028,14 +18270,15 @@
         "morph": "HiphPtc"
       },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " knowledge"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " knowledge"],
         "strong": "H3045",
         "morph": "QalActPtc"
       },
       { "text": " the state", "strong": "H3651" },
       {
         "content": [
-          { "text": " thereof", "marks": ["i"] },
+          " ",
+          { "text": "thereof", "marks": ["i"] },
           " shall be prolonged."
         ],
         "break": true,
@@ -18112,7 +18355,7 @@
     "content": [
       { "text": "Better", "strong": "H2896" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the poor"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the poor"],
         "strong": "H7326",
         "morph": "QalActPtc"
       },
@@ -18127,7 +18370,7 @@
         "strong": "H6141"
       },
       {
-        "content": [{ "text": " in his", "marks": ["i"] }, " ways,"],
+        "content": [" ", { "text": "in his", "marks": ["i"] }, " ways,"],
         "strong": "H1870"
       },
       {
@@ -18145,7 +18388,7 @@
       { "text": "Whoso keepeth", "strong": "H5341", "morph": "QalActPtc" },
       { "text": " the law", "strong": "H8451" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " a wise"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " a wise"],
         "strong": "H995",
         "morph": "HiphPtc"
       },
@@ -18158,8 +18401,9 @@
       { "text": " of riotous", "strong": "H2151", "morph": "QalActPtc" },
       {
         "content": [
+          " ",
           {
-            "text": " men",
+            "text": "men",
             "marks": ["i"],
             "foot": {
               "type": "trn",
@@ -18213,7 +18457,11 @@
       { "text": " the law,", "break": true, "strong": "H8451" },
       { "text": "Even his prayer", "strong": "H8605" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " abomination."],
+        "content": [
+          " ",
+          { "text": "shall be", "marks": ["i"] },
+          " abomination."
+        ],
         "break": true,
         "strong": "H8441"
       }
@@ -18237,7 +18485,11 @@
       { "text": "But the upright", "strong": "H8549" },
       { "text": " shall have good", "strong": "H2896" },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " in possession."],
+        "content": [
+          " ",
+          { "text": "things", "marks": ["i"] },
+          " in possession."
+        ],
         "break": true,
         "strong": "H5157",
         "morph": "QalImpf"
@@ -18252,7 +18504,7 @@
       { "text": "The rich", "strong": "H6223" },
       { "text": " man", "strong": "H376" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " wise"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " wise"],
         "strong": "H2450"
       },
       {
@@ -18285,12 +18537,12 @@
     "content": [
       { "text": "When righteous", "strong": "H6662" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " do rejoice,"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " do rejoice,"],
         "strong": "H5970",
         "morph": "QalInf"
       },
       {
-        "content": [{ "text": " there is", "marks": ["i"] }, " great"],
+        "content": [" ", { "text": "there is", "marks": ["i"] }, " great"],
         "strong": "H7227"
       },
       { "text": " glory:", "break": true, "strong": "H8597" },
@@ -18325,7 +18577,11 @@
       { "text": "But whoso confesseth", "strong": "H3034", "morph": "HiphPtc" },
       { "text": " and forsaketh", "strong": "H5800", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, " shall have mercy."],
+        "content": [
+          " ",
+          { "text": "them", "marks": ["i"] },
+          " shall have mercy."
+        ],
         "break": true,
         "strong": "H7355",
         "morph": "PualImpf"
@@ -18339,7 +18595,7 @@
     "content": [
       { "text": "Happy", "strong": "H835" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the man"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the man"],
         "strong": "H120"
       },
       { "text": " that feareth", "strong": "H6342", "morph": "PielPtc" },
@@ -18385,7 +18641,7 @@
       { "text": " that wanteth", "strong": "H2638" },
       { "text": " understanding", "strong": "H8394" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " also a great"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " also a great"],
         "strong": "H7227"
       },
       { "text": " oppressor:", "break": true, "strong": "H4642" },
@@ -18397,7 +18653,7 @@
       { "text": " covetousness", "strong": "H1215" },
       { "text": " shall prolong", "strong": "H748", "morph": "HiphImpf" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " days."],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " days."],
         "break": true,
         "strong": "H3117"
       }
@@ -18449,7 +18705,7 @@
         "morph": "NiphPtc"
       },
       {
-        "content": [{ "text": " in his", "marks": ["i"] }, " ways"],
+        "content": [" ", { "text": "in his", "marks": ["i"] }, " ways"],
         "strong": "H1870"
       },
       { "text": " shall fall", "strong": "H5307", "morph": "QalImpf" },
@@ -18473,7 +18729,8 @@
       { "text": " after vain", "strong": "H7386" },
       {
         "content": [
-          { "text": " persons", "marks": ["i"] },
+          " ",
+          { "text": "persons", "marks": ["i"] },
           " shall have poverty enough."
         ],
         "break": true,
@@ -18516,14 +18773,14 @@
       { "text": "To have respect", "strong": "H5234", "morph": "HiphInf" },
       { "text": " of persons", "strong": "H6440" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " not good:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " not good:"],
         "break": true,
         "strong": "H2896"
       },
       { "text": "For for a piece", "strong": "H6595" },
       { "text": " of bread", "strong": "H3899" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " man"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " man"],
         "strong": "H1397"
       },
       {
@@ -18543,7 +18800,7 @@
       { "text": " that hasteth", "strong": "H926", "morph": "NiphPtc" },
       { "text": " to be rich", "strong": "H1952" },
       {
-        "content": [{ "text": " hath", "marks": ["i"] }, " an evil"],
+        "content": [" ", { "text": "hath", "marks": ["i"] }, " an evil"],
         "strong": "H7451"
       },
       { "text": " eye,", "break": true, "strong": "H5869" },
@@ -18581,7 +18838,11 @@
       { "text": " or his mother,", "strong": "H517" },
       { "text": " and saith,", "strong": "H559", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " It is", "marks": ["i"] }, " no transgression;"],
+        "content": [
+          " ",
+          { "text": "It is", "marks": ["i"] },
+          " no transgression;"
+        ],
         "break": true,
         "strong": "H6588"
       },
@@ -18697,7 +18958,7 @@
       { "text": " that being often reproved", "strong": "H8433" },
       { "text": " hardeneth", "strong": "H7185", "morph": "HiphPtc" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " neck,"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " neck,"],
         "break": true,
         "strong": "H6203"
       },
@@ -18757,7 +19018,7 @@
       { "text": " with harlots", "strong": "H2181", "morph": "QalActPtc" },
       { "text": " spendeth", "strong": "H6", "morph": "PielImpf" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " substance."],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " substance."],
         "break": true,
         "strong": "H1952"
       }
@@ -18807,7 +19068,7 @@
       { "text": " of an evil", "strong": "H7451" },
       { "text": " man", "strong": "H376" },
       {
-        "content": [{ "text": " there is", "marks": ["i"] }, " a snare:"],
+        "content": [" ", { "text": "there is", "marks": ["i"] }, " a snare:"],
         "break": true,
         "strong": "H4170"
       },
@@ -18831,7 +19092,8 @@
       },
       { "text": " regardeth", "strong": "H995", "morph": "QalImpf" },
       { "text": " not to know", "strong": "H1847" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -18856,7 +19118,7 @@
       },
       { "text": "But wise", "strong": "H2450" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " turn away"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " turn away"],
         "strong": "H7725",
         "morph": "HiphImpf"
       },
@@ -18879,7 +19141,7 @@
       { "text": "Whether he rage", "strong": "H7264", "morph": "QalPerf" },
       { "text": " or laugh,", "strong": "H7832", "morph": "QalPerf" },
       {
-        "content": [{ "text": " there is", "marks": ["i"] }, " no rest."],
+        "content": [" ", { "text": "there is", "marks": ["i"] }, " no rest."],
         "break": true,
         "strong": "H5183"
       }
@@ -18916,7 +19178,7 @@
       { "text": " all his mind:", "break": true, "strong": "H7307" },
       { "text": "But a wise", "strong": "H2450" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, " keepeth"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, " keepeth"],
         "strong": "H7623",
         "morph": "PielImpf"
       },
@@ -18934,7 +19196,7 @@
       { "strong": "H8267" },
       { "text": "All his servants", "strong": "H8334", "morph": "PielPtc" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " wicked."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " wicked."],
         "break": true,
         "strong": "H7563"
       }
@@ -19001,7 +19263,8 @@
       { "text": " left", "strong": "H7971", "morph": "PualPtc" },
       {
         "content": [
-          { "text": " to himself", "marks": ["i"] },
+          " ",
+          { "text": "to himself", "marks": ["i"] },
           " bringeth his mother"
         ],
         "strong": "H517"
@@ -19082,7 +19345,8 @@
       },
       { "text": " the law,", "strong": "H8451" },
       { "text": " happy", "strong": "H835" },
-      { "text": " is", "marks": ["i"] },
+      " ",
+      { "text": "is", "marks": ["i"] },
       { "text": " he.", "break": true }
     ]
   },
@@ -19114,7 +19378,7 @@
       { "text": "Seest", "strong": "H2372", "morph": "QalPerf" },
       { "text": " thou a man", "strong": "H376" },
       {
-        "content": [{ "text": " that is", "marks": ["i"] }, " hasty"],
+        "content": [" ", { "text": "that is", "marks": ["i"] }, " hasty"],
         "strong": "H213",
         "morph": "QalPtc"
       },
@@ -19204,7 +19468,8 @@
       { "text": "He heareth", "strong": "H8085", "morph": "QalImpf" },
       { "text": " cursing,", "strong": "H423" },
       { "text": " and bewrayeth", "strong": "H5046", "morph": "HiphImpf" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       { "text": " not.", "break": true }
     ]
   },
@@ -19257,7 +19522,8 @@
       { "text": " judgment", "strong": "H4941" },
       {
         "content": [
-          { "text": " cometh", "marks": ["i"] },
+          " ",
+          { "text": "cometh", "marks": ["i"] },
           " from the ",
           { "text": "LORD", "marks": ["sc"] },
           "."
@@ -19275,7 +19541,7 @@
       { "text": "An unjust", "strong": "H5766" },
       { "text": " man", "strong": "H376" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " an abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " an abomination"],
         "strong": "H8441"
       },
       { "text": " to the just:", "break": true, "strong": "H6662" },
@@ -19289,7 +19555,7 @@
       },
       { "text": " in the way", "strong": "H1870" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " abomination"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " abomination"],
         "strong": "H8441"
       },
       { "text": " to the wicked.", "break": true, "strong": "H7563" }
@@ -19306,7 +19572,7 @@
       { "text": " the son", "strong": "H1121" },
       { "text": " of Jakeh,", "strong": "H3348" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " the prophecy:"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " the prophecy:"],
         "break": true,
         "strong": "H4853"
       },
@@ -19415,7 +19681,8 @@
       { "text": " of God", "strong": "H433" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           {
             "text": " pure:",
             "foot": {
@@ -19463,7 +19730,11 @@
     "content": [
       { "text": "Two", "strong": "H8147" },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " have I required"],
+        "content": [
+          " ",
+          { "text": "things", "marks": ["i"] },
+          " have I required"
+        ],
         "strong": "H7592",
         "morph": "QalPerf"
       },
@@ -19528,7 +19799,8 @@
       { "text": " and deny", "strong": "H3584", "morph": "PielPerf" },
       {
         "content": [
-          { "text": " thee", "marks": ["i"] },
+          " ",
+          { "text": "thee", "marks": ["i"] },
           {
             "text": ",",
             "foot": {
@@ -19563,7 +19835,8 @@
       { "text": "And take", "strong": "H8610", "morph": "QalPerf" },
       { "text": " the name", "strong": "H8034" },
       { "text": " of my God", "strong": "H430" },
-      { "text": " in vain", "marks": ["i"] },
+      " ",
+      { "text": "in vain", "marks": ["i"] },
       { "text": ".", "break": true }
     ]
   },
@@ -19609,7 +19882,7 @@
         "strong": "H1755"
       },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " curseth"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " curseth"],
         "strong": "H7043",
         "morph": "PielImpf"
       },
@@ -19628,7 +19901,7 @@
         "strong": "H1755"
       },
       {
-        "content": [{ "text": " that are", "marks": ["i"] }, " pure"],
+        "content": [" ", { "text": "that are", "marks": ["i"] }, " pure"],
         "strong": "H2889"
       },
       { "text": " in their own eyes,", "break": true, "strong": "H5869" },
@@ -19675,12 +19948,12 @@
       },
       { "text": " whose teeth", "strong": "H8127" },
       {
-        "content": [{ "text": " are as", "marks": ["i"] }, " swords,"],
+        "content": [" ", { "text": "are as", "marks": ["i"] }, " swords,"],
         "strong": "H2719"
       },
       { "text": " and their jaw teeth", "strong": "H4973" },
       {
-        "content": [{ "text": " as", "marks": ["i"] }, " knives,"],
+        "content": [" ", { "text": "as", "marks": ["i"] }, " knives,"],
         "break": true,
         "strong": "H3979"
       },
@@ -19704,7 +19977,7 @@
       { "text": " hath two", "strong": "H8147" },
       { "text": " daughters,", "strong": "H1323" },
       {
-        "content": [{ "text": " crying", "marks": ["i"] }, ", Give,"],
+        "content": [" ", { "text": "crying", "marks": ["i"] }, ", Give,"],
         "strong": "H3051",
         "morph": "QalImpv"
       },
@@ -19717,7 +19990,8 @@
       { "text": "There are three", "strong": "H7969" },
       {
         "content": [
-          { "text": " things that", "marks": ["i"] },
+          " ",
+          { "text": "things that", "marks": ["i"] },
           " are never satisfied,"
         ],
         "break": true,
@@ -19729,7 +20003,7 @@
         "strong": "H702"
       },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " say"],
+        "content": [" ", { "text": "things", "marks": ["i"] }, " say"],
         "strong": "H559",
         "morph": "QalPerf"
       },
@@ -19754,14 +20028,14 @@
       { "text": " womb;", "break": true, "strong": "H7356" },
       { "text": "The earth", "strong": "H776" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " is not filled"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " is not filled"],
         "strong": "H7646",
         "morph": "QalPerf"
       },
       { "text": " with water;", "break": true, "strong": "H4325" },
       { "text": "And the fire", "strong": "H784" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " saith"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " saith"],
         "strong": "H559",
         "morph": "QalPerf"
       },
@@ -19779,7 +20053,7 @@
     "content": [
       { "text": "The eye", "strong": "H5869" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " mocketh"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " mocketh"],
         "strong": "H3932",
         "morph": "QalImpf"
       },
@@ -19791,7 +20065,7 @@
       { "text": "And despiseth", "strong": "H936", "morph": "QalImpf" },
       { "text": " to obey", "strong": "H3349" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " mother,"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " mother,"],
         "break": true,
         "strong": "H517"
       },
@@ -19824,7 +20098,8 @@
       { "text": "There be three", "strong": "H7969" },
       {
         "content": [
-          { "text": " things which", "marks": ["i"] },
+          " ",
+          { "text": "things which", "marks": ["i"] },
           " are too wonderful"
         ],
         "strong": "H6381",
@@ -19891,7 +20166,7 @@
     "content": [
       { "text": "For three", "strong": "H7969" },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " the earth"],
+        "content": [" ", { "text": "things", "marks": ["i"] }, " the earth"],
         "strong": "H776"
       },
       {
@@ -19902,7 +20177,7 @@
       },
       { "text": "And for four", "strong": "H702" },
       {
-        "content": [{ "text": " which", "marks": ["i"] }, " it cannot"],
+        "content": [" ", { "text": "which", "marks": ["i"] }, " it cannot"],
         "strong": "H3201",
         "morph": "QalImpf"
       },
@@ -19934,7 +20209,8 @@
       { "text": "For an odious", "strong": "H8130", "morph": "QalPasPtc" },
       {
         "content": [
-          { "text": " woman", "marks": ["i"] },
+          " ",
+          { "text": "woman", "marks": ["i"] },
           " when she is married;"
         ],
         "break": true,
@@ -19953,7 +20229,11 @@
     "content": [
       { "text": "There be four", "strong": "H702" },
       {
-        "content": [{ "text": " things which are", "marks": ["i"] }, " little"],
+        "content": [
+          " ",
+          { "text": "things which are", "marks": ["i"] },
+          " little"
+        ],
         "strong": "H6996"
       },
       { "text": " upon the earth,", "break": true, "strong": "H776" },
@@ -19984,7 +20264,7 @@
     "content": [
       { "text": "The ants", "strong": "H5244" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " a people"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " a people"],
         "strong": "H5971"
       },
       { "text": " not strong,", "break": true, "strong": "H5794" },
@@ -20000,7 +20280,7 @@
     "content": [
       { "text": "The conies", "strong": "H8227" },
       {
-        "content": [{ "text": " are but", "marks": ["i"] }, " a feeble"],
+        "content": [" ", { "text": "are but", "marks": ["i"] }, " a feeble"],
         "strong": "H6099"
       },
       { "text": " folk,", "break": true, "strong": "H5971" },
@@ -20048,7 +20328,7 @@
     "content": [
       { "text": "There be three", "strong": "H7969" },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " which go"],
+        "content": [" ", { "text": "things", "marks": ["i"] }, " which go"],
         "strong": "H6806"
       },
       {
@@ -20074,7 +20354,7 @@
     "content": [
       { "text": "A lion", "strong": "H3918" },
       {
-        "content": [{ "text": " which is", "marks": ["i"] }, " strongest"],
+        "content": [" ", { "text": "which is", "marks": ["i"] }, " strongest"],
         "strong": "H1368"
       },
       { "text": " among beasts,", "break": true, "strong": "H929" },
@@ -20206,7 +20486,7 @@
       },
       { "text": " O Lemuel,", "strong": "H3927" },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " not for kings"],
+        "content": [" ", { "text": "it is", "marks": ["i"] }, " not for kings"],
         "strong": "H4428"
       },
       { "text": " to drink", "strong": "H8354", "morph": "QalInf" },
@@ -20342,7 +20622,7 @@
       { "text": " woman?", "break": true, "strong": "H802" },
       { "text": "For her price", "strong": "H4377" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " far"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " far"],
         "strong": "H7350"
       },
       { "text": " above rubies.", "break": true, "strong": "H6443" }
@@ -20479,7 +20759,7 @@
       },
       { "text": " that her merchandise", "strong": "H5504" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " good:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " good:"],
         "break": true,
         "strong": "H2896"
       },
@@ -20528,7 +20808,7 @@
       { "text": " for her household:", "break": true, "strong": "H1004" },
       { "text": "For all her household", "strong": "H1004" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " clothed"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " clothed"],
         "strong": "H3847",
         "morph": "QalPasPtc"
       },
@@ -20556,7 +20836,7 @@
       },
       { "text": "Her clothing", "strong": "H3830" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " silk"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " silk"],
         "strong": "H8336"
       },
       { "text": " and purple.", "break": true, "strong": "H713" }
@@ -20585,7 +20865,8 @@
       { "text": " and selleth", "strong": "H4376", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " it", "marks": ["i"] },
+          " ",
+          { "text": "it", "marks": ["i"] },
           { "text": ";", "break": true },
           "And delivereth"
         ],
@@ -20604,7 +20885,7 @@
       { "text": "Strength", "strong": "H5797" },
       { "text": " and honour", "strong": "H1926" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " her clothing;"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " her clothing;"],
         "break": true,
         "strong": "H3830"
       },
@@ -20627,7 +20908,7 @@
       { "text": " with wisdom;", "break": true, "strong": "H2451" },
       { "text": "And in her tongue", "strong": "H3956" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the law"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the law"],
         "strong": "H8451"
       },
       { "text": " of kindness.", "break": true, "strong": "H2617" }
@@ -20662,7 +20943,11 @@
       },
       { "text": "Her husband", "strong": "H1167" },
       {
-        "content": [{ "text": " also", "marks": ["i"] }, ", and he praiseth"],
+        "content": [
+          " ",
+          { "text": "also", "marks": ["i"] },
+          ", and he praiseth"
+        ],
         "strong": "H1984",
         "morph": "PielImpf"
       },
@@ -20697,12 +20982,12 @@
     "content": [
       { "text": "Favour", "strong": "H2580" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " deceitful,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " deceitful,"],
         "strong": "H8267"
       },
       { "text": " and beauty", "strong": "H3308" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " vain:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " vain:"],
         "break": true,
         "strong": "H1892"
       },
@@ -20711,7 +20996,7 @@
         "strong": "H802"
       },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " feareth"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " feareth"],
         "strong": "H3373"
       },
       {

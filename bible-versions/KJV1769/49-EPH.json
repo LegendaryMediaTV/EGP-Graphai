@@ -29,7 +29,7 @@
     "content": [
       { "text": "grace", "strong": "G5485" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " to you,"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " to you,"],
         "strong": "G5213"
       },
       { "text": " and", "strong": "G2532" },
@@ -40,7 +40,7 @@
       { "text": " Father,", "strong": "G3962" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " from", "marks": ["i"] }, " the Lord"],
+        "content": [" ", { "text": "from", "marks": ["i"] }, " the Lord"],
         "strong": "G2962"
       },
       { "text": " Jesus", "strong": "G2424" },
@@ -55,7 +55,7 @@
       { "heading": "The Gospel of Your Salvation" },
       { "paragraph": true, "text": "Blessed", "strong": "G2128" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " the God"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " the God"],
         "strong": "G2316"
       },
       { "text": " and", "strong": "G2532" },
@@ -75,8 +75,9 @@
       { "text": " heavenly", "strong": "G2032" },
       {
         "content": [
+          " ",
           {
-            "text": " places",
+            "text": "places",
             "marks": ["i"],
             "foot": {
               "type": "trn",
@@ -245,7 +246,7 @@
       { "text": " are on", "strong": "G1909" },
       { "text": " earth;", "strong": "G1093" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " him:", "strong": "G846" }
@@ -320,7 +321,8 @@
       { "text": " also", "strong": "G2532" },
       {
         "content": [
-          { "text": " trusted", "marks": ["i"] },
+          " ",
+          { "text": "trusted", "marks": ["i"] },
           ", after that ye heard"
         ],
         "strong": "G191",
@@ -485,7 +487,7 @@
       { "text": "and", "strong": "G2532" },
       { "text": " what", "strong": "G5101" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the exceeding"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the exceeding"],
         "strong": "G5235",
         "morph": "PresActPtc"
       },
@@ -519,14 +521,15 @@
       { "text": " and", "strong": "G2532" },
       { "text": " set", "strong": "G2523", "morph": "AorActInd" },
       {
-        "content": [{ "text": " him", "marks": ["i"] }, " at"],
+        "content": [" ", { "text": "him", "marks": ["i"] }, " at"],
         "strong": "G1722"
       },
       { "text": " his own", "strong": "G846" },
       { "text": " right hand", "strong": "G1188" },
       { "text": " in", "strong": "G1722" },
       { "text": " the heavenly", "strong": "G2032" },
-      { "text": " places", "marks": ["i"] },
+      " ",
+      { "text": "places", "marks": ["i"] },
       ","
     ]
   },
@@ -572,7 +575,7 @@
       { "text": " hath put", "strong": "G5293", "morph": "AorActInd" },
       { "text": " all", "strong": "G3956" },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " under"],
+        "content": [" ", { "text": "things", "marks": ["i"] }, " under"],
         "strong": "G5259"
       },
       { "text": " his", "strong": "G846" },
@@ -581,13 +584,17 @@
       { "text": " gave", "strong": "G1325", "morph": "AorActInd" },
       { "text": " him", "strong": "G846" },
       {
-        "content": [{ "text": " to be", "marks": ["i"] }, " the head"],
+        "content": [" ", { "text": "to be", "marks": ["i"] }, " the head"],
         "strong": "G2776"
       },
       { "text": " over", "strong": "G5228" },
       { "text": " all", "strong": "G3956" },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " to the church,"],
+        "content": [
+          " ",
+          { "text": "things", "marks": ["i"] },
+          " to the church,"
+        ],
         "strong": "G1577"
       }
     ]
@@ -622,7 +629,8 @@
       { "text": " you", "strong": "G5209" },
       {
         "content": [
-          { "text": " hath he quickened", "marks": ["i"] },
+          " ",
+          { "text": "hath he quickened", "marks": ["i"] },
           ", who were"
         ],
         "strong": "G5607",
@@ -771,7 +779,7 @@
       { "text": " in", "strong": "G1722" },
       { "text": " heavenly", "strong": "G2032" },
       {
-        "content": [{ "text": " places", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "places", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " Christ", "strong": "G5547" },
@@ -794,7 +802,7 @@
       { "text": " grace", "strong": "G5485" },
       { "text": " in", "strong": "G1722" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " kindness"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " kindness"],
         "strong": "G5544"
       },
       { "text": " toward", "strong": "G1909" },
@@ -821,7 +829,7 @@
       { "text": " of", "strong": "G1537" },
       { "text": " yourselves:", "strong": "G5216" },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " the gift"],
+        "content": [" ", { "text": "it is", "marks": ["i"] }, " the gift"],
         "strong": "G1435"
       },
       { "text": " of God:", "strong": "G2316" }
@@ -883,7 +891,7 @@
       { "text": " that", "strong": "G3754" },
       { "text": " ye", "strong": "G5210" },
       {
-        "content": [{ "text": " being", "marks": ["i"] }, " in time past"],
+        "content": [" ", { "text": "being", "marks": ["i"] }, " in time past"],
         "strong": "G4218"
       },
       { "text": " Gentiles", "strong": "G1484" },
@@ -969,7 +977,8 @@
       { "text": " hath broken down", "strong": "G3089", "morph": "AorActPtc" },
       { "text": " the middle wall", "strong": "G3320" },
       { "text": " of partition", "strong": "G5418" },
-      { "text": " between us", "marks": ["i"] },
+      " ",
+      { "text": "between us", "marks": ["i"] },
       ";"
     ]
   },
@@ -984,12 +993,12 @@
       { "text": " flesh", "strong": "G4561" },
       { "text": " the enmity,", "strong": "G2189" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " the law"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " the law"],
         "strong": "G3551"
       },
       { "text": " of commandments", "strong": "G1785" },
       {
-        "content": [{ "text": " contained", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "contained", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " ordinances;", "strong": "G1378" },
@@ -1003,7 +1012,7 @@
       { "text": " new", "strong": "G2537" },
       { "text": " man,", "strong": "G444" },
       {
-        "content": [{ "text": " so", "marks": ["i"] }, " making"],
+        "content": [" ", { "text": "so", "marks": ["i"] }, " making"],
         "strong": "G4160",
         "morph": "PresActPtc"
       },
@@ -1112,7 +1121,8 @@
       { "text": " himself", "strong": "G846" },
       { "text": " being", "strong": "G5607", "morph": "PresPtc" },
       { "text": " the chief corner", "strong": "G204" },
-      { "text": " stone", "marks": ["i"] },
+      " ",
+      { "text": "stone", "marks": ["i"] },
       ";"
     ]
   },
@@ -1338,13 +1348,13 @@
       { "text": " to make", "strong": "G5461" },
       { "text": " all", "strong": "G3956" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " see"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " see"],
         "strong": "G5461",
         "morph": "AorActInf"
       },
       { "text": " what", "strong": "G5101" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the fellowship"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the fellowship"],
         "strong": "G2842"
       },
       { "text": " of the mystery,", "strong": "G3466" },
@@ -1375,7 +1385,11 @@
       { "text": " in", "strong": "G1722" },
       { "text": " heavenly", "strong": "G2032" },
       {
-        "content": [{ "text": " places", "marks": ["i"] }, " might be known"],
+        "content": [
+          " ",
+          { "text": "places", "marks": ["i"] },
+          " might be known"
+        ],
         "strong": "G1107",
         "morph": "AorPasSubj"
       },
@@ -1539,7 +1553,7 @@
       { "text": " saints", "strong": "G40" },
       { "text": " what", "strong": "G5101" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the breadth,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the breadth,"],
         "strong": "G4114"
       },
       { "text": " and", "strong": "G2532" },
@@ -1608,7 +1622,7 @@
     "content": [
       { "text": "unto him", "strong": "G846" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " glory"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " glory"],
         "strong": "G1391"
       },
       { "text": " in", "strong": "G1722" },
@@ -1731,7 +1745,7 @@
       { "text": " of all,", "strong": "G3956" },
       { "text": " who", "strong": "G3588" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " above"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " above"],
         "strong": "G1909"
       },
       { "text": " all,", "strong": "G3956" },
@@ -1950,7 +1964,11 @@
       { "text": " the sleight", "strong": "G2940" },
       { "text": " of men,", "strong": "G444" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " cunning craftiness,"],
+        "content": [
+          " ",
+          { "text": "and", "marks": ["i"] },
+          " cunning craftiness,"
+        ],
         "strong": "G1722"
       },
       { "strong": "G3834" },
@@ -1989,7 +2007,7 @@
       { "text": " is", "strong": "G2076", "morph": "PresInd" },
       { "text": " the head,", "strong": "G2776" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " Christ:"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " Christ:"],
         "strong": "G5547"
       }
     ]
@@ -2549,7 +2567,7 @@
       { "text": " but", "strong": "G1161" },
       { "text": " now", "strong": "G3568" },
       {
-        "content": [{ "text": " are ye", "marks": ["i"] }, " light"],
+        "content": [" ", { "text": "are ye", "marks": ["i"] }, " light"],
         "strong": "G5457"
       },
       { "text": " in", "strong": "G1722" },
@@ -2570,7 +2588,7 @@
       { "text": " the fruit", "strong": "G2590" },
       { "text": " of the Spirit", "strong": "G4151" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " all", "strong": "G3956" },
@@ -2609,7 +2627,8 @@
       { "text": " rather", "strong": "G3123" },
       { "strong": "G2532" },
       { "text": " reprove", "strong": "G1651", "morph": "PresActImpr" },
-      { "text": " them", "marks": ["i"] },
+      " ",
+      { "text": "them", "marks": ["i"] },
       "."
     ]
   },
@@ -2739,7 +2758,8 @@
       { "text": " what", "strong": "G5101" },
       { "text": " the will", "strong": "G2307" },
       { "text": " of the Lord", "strong": "G2962" },
-      { "text": " is", "marks": ["i"] },
+      " ",
+      { "text": "is", "marks": ["i"] },
       "."
     ]
   },
@@ -2873,11 +2893,11 @@
       { "text": " so", "strong": "G3779" },
       { "strong": "G2532" },
       {
-        "content": [{ "text": " let", "marks": ["i"] }, " the wives"],
+        "content": [" ", { "text": "let", "marks": ["i"] }, " the wives"],
         "strong": "G1135"
       },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " to their own"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " to their own"],
         "strong": "G2398"
       },
       { "text": " husbands", "strong": "G435" },
@@ -3077,7 +3097,7 @@
       { "text": " and", "strong": "G1161" },
       { "text": " the wife", "strong": "G1135" },
       {
-        "content": [{ "text": " see", "marks": ["i"] }, " that"],
+        "content": [" ", { "text": "see", "marks": ["i"] }, " that"],
         "strong": "G2443"
       },
       {
@@ -3086,7 +3106,7 @@
         "morph": "PresMidPasDepSubj"
       },
       {
-        "content": [{ "text": " her", "marks": ["i"] }, " husband."],
+        "content": [" ", { "text": "her", "marks": ["i"] }, " husband."],
         "strong": "G435"
       }
     ]
@@ -3253,7 +3273,7 @@
       { "text": " the Lord,", "strong": "G2962" },
       { "text": " whether", "strong": "G1535" },
       {
-        "content": [{ "text": " he be", "marks": ["i"] }, " bond"],
+        "content": [" ", { "text": "he be", "marks": ["i"] }, " bond"],
         "strong": "G1401"
       },
       { "text": " or", "strong": "G1535" },
@@ -3383,7 +3403,8 @@
       },
       { "text": " in", "strong": "G1722" },
       { "text": " high", "strong": "G2032" },
-      { "text": " places", "marks": ["i"] },
+      " ",
+      { "text": "places", "marks": ["i"] },
       {
         "text": ".",
         "foot": {
@@ -3609,7 +3630,7 @@
       { "text": " my", "strong": "G1691" },
       { "text": " affairs,", "strong": "G2596" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " how"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " how"],
         "strong": "G5101"
       },
       { "text": " I do,", "strong": "G4238", "morph": "PresActInd" },
@@ -3644,7 +3665,11 @@
       { "text": " affairs,", "strong": "G4012" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " he might comfort"],
+        "content": [
+          " ",
+          { "text": "that", "marks": ["i"] },
+          " he might comfort"
+        ],
         "strong": "G3870",
         "morph": "AorActSubj"
       },
@@ -3659,7 +3684,7 @@
     "content": [
       { "paragraph": true, "text": "Peace", "strong": "G1515" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " to the brethren,"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " to the brethren,"],
         "strong": "G80"
       },
       { "text": " and", "strong": "G2532" },
@@ -3682,7 +3707,7 @@
     "content": [
       { "text": "Grace", "strong": "G5485" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " with"],
         "strong": "G3326"
       },
       { "text": " all", "strong": "G3956" },

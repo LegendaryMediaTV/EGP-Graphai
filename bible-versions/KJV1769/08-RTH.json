@@ -41,7 +41,7 @@
       { "text": "And the name", "strong": "H8034" },
       { "text": " of the man", "strong": "H376" },
       {
-        "content": [{ "text": " was", "marks": ["i"] }, " Elimelech,"],
+        "content": [" ", { "text": "was", "marks": ["i"] }, " Elimelech,"],
         "strong": "H458"
       },
       { "text": " and the name", "strong": "H8034" },
@@ -94,7 +94,7 @@
       { "text": " the name", "strong": "H8034" },
       { "text": " of the one", "strong": "H259" },
       {
-        "content": [{ "text": " was", "marks": ["i"] }, " Orpah,"],
+        "content": [" ", { "text": "was", "marks": ["i"] }, " Orpah,"],
         "strong": "H6204"
       },
       { "text": " and the name", "strong": "H8034" },
@@ -224,7 +224,7 @@
       { "text": " rest,", "strong": "H4496" },
       { "text": " each", "strong": "H802" },
       {
-        "content": [{ "text": " of you", "marks": ["i"] }, " in the house"],
+        "content": [" ", { "text": "of you", "marks": ["i"] }, " in the house"],
         "strong": "H1004"
       },
       { "text": " of her husband.", "strong": "H376" },
@@ -286,7 +286,8 @@
       { "text": " go", "strong": "H3212", "morph": "QalImpv" },
       {
         "content": [
-          { "text": " your way", "marks": ["i"] },
+          " ",
+          { "text": "your way", "marks": ["i"] },
           "; for I am too old"
         ],
         "strong": "H2204",
@@ -298,7 +299,8 @@
       { "text": " hope,", "strong": "H8615" },
       {
         "content": [
-          { "text": " if", "marks": ["i"] },
+          " ",
+          { "text": "if", "marks": ["i"] },
           " I should have an husband"
         ],
         "strong": "H376"
@@ -419,7 +421,8 @@
               ]
             }
           },
-          { "text": " or", "marks": ["i"] },
+          " ",
+          { "text": "or", "marks": ["i"] },
           " to return"
         ],
         "strong": "H7725",
@@ -440,7 +443,7 @@
       { "text": " I will lodge:", "strong": "H3885", "morph": "QalImpf" },
       { "text": " thy people", "strong": "H5971" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " my people,"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " my people,"],
         "strong": "H5971"
       },
       { "text": " and thy God", "strong": "H430" },
@@ -521,7 +524,7 @@
         "morph": "QalImpf"
       },
       {
-        "content": [{ "text": " Is", "marks": ["i"] }, " this Naomi?"],
+        "content": [" ", { "text": "Is", "marks": ["i"] }, " this Naomi?"],
         "strong": "H5281"
       }
     ]
@@ -630,7 +633,7 @@
       { "text": " of Elimelech;", "strong": "H458" },
       { "text": " and his name", "strong": "H8034" },
       {
-        "content": [{ "text": " was", "marks": ["i"] }, " Boaz."],
+        "content": [" ", { "text": "was", "marks": ["i"] }, " Boaz."],
         "strong": "H1162"
       }
     ]
@@ -650,7 +653,7 @@
       { "text": " ears of corn", "strong": "H7641" },
       { "text": " after", "strong": "H310" },
       {
-        "content": [{ "text": " him", "marks": ["i"] }, " in whose sight"],
+        "content": [" ", { "text": "him", "marks": ["i"] }, " in whose sight"],
         "strong": "H5869"
       },
       { "text": " I shall find", "strong": "H4672", "morph": "QalImpf" },
@@ -684,7 +687,8 @@
       { "text": " of the field", "strong": "H7704" },
       {
         "content": [
-          { "text": " belonging", "marks": ["i"] },
+          " ",
+          { "text": "belonging", "marks": ["i"] },
           {
             "text": " unto Boaz,",
             "foot": {
@@ -725,7 +729,8 @@
       },
       {
         "content": [
-          { "text": " be", "marks": ["i"] },
+          " ",
+          { "text": "be", "marks": ["i"] },
           " with you. And they answered"
         ],
         "strong": "H559",
@@ -750,7 +755,8 @@
       { "text": " that was set", "strong": "H5324", "morph": "NiphPtc" },
       { "text": " over the reapers,", "strong": "H7114", "morph": "QalActPtc" },
       { "text": " Whose damsel", "strong": "H5291" },
-      { "text": " is", "marks": ["i"] },
+      " ",
+      { "text": "is", "marks": ["i"] },
       " this?"
     ]
   },
@@ -841,7 +847,7 @@
         "strong": "H5869"
       },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " on the field"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " on the field"],
         "strong": "H7704"
       },
       { "text": " that they do reap,", "strong": "H7114", "morph": "QalImpf" },
@@ -1034,7 +1040,11 @@
       { "text": " and he reached", "strong": "H6642", "morph": "QalImpf" },
       { "text": " her parched", "strong": "H7039" },
       {
-        "content": [{ "text": " corn", "marks": ["i"] }, ", and she did eat,"],
+        "content": [
+          " ",
+          { "text": "corn", "marks": ["i"] },
+          ", and she did eat,"
+        ],
         "strong": "H398",
         "morph": "QalImpf"
       },
@@ -1087,14 +1097,15 @@
       { "text": " for her, and leave", "strong": "H5800", "morph": "QalPerf" },
       {
         "content": [
-          { "text": " them", "marks": ["i"] },
+          " ",
+          { "text": "them", "marks": ["i"] },
           ", that she may glean"
         ],
         "strong": "H3950",
         "morph": "PielPerf"
       },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, ", and rebuke"],
+        "content": [" ", { "text": "them", "marks": ["i"] }, ", and rebuke"],
         "strong": "H1605",
         "morph": "QalImpf"
       },
@@ -1195,7 +1206,7 @@
       { "text": " with whom I wrought", "strong": "H6213", "morph": "QalPerf" },
       { "text": " to day", "strong": "H3117" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " Boaz."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " Boaz."],
         "strong": "H1162"
       }
     ]
@@ -1211,7 +1222,8 @@
       { "text": " Blessed", "strong": "H1288", "morph": "QalPasPtc" },
       {
         "content": [
-          { "text": " be", "marks": ["i"] },
+          " ",
+          { "text": "be", "marks": ["i"] },
           " he of the ",
           { "text": "LORD", "marks": ["sc"] },
           ","
@@ -1230,7 +1242,7 @@
       { "text": " said", "strong": "H559", "morph": "QalImpf" },
       { "text": " unto her, The man", "strong": "H376" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " near of kin"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " near of kin"],
         "strong": "H7138"
       },
       {
@@ -1280,7 +1292,7 @@
       { "text": " unto Ruth", "strong": "H7327" },
       { "text": " her daughter in law,", "strong": "H3618" },
       {
-        "content": [{ "text": " It is", "marks": ["i"] }, " good,"],
+        "content": [" ", { "text": "It is", "marks": ["i"] }, " good,"],
         "strong": "H2896"
       },
       { "text": " my daughter,", "strong": "H1323" },
@@ -1383,7 +1395,8 @@
       { "text": " to the floor:", "strong": "H1637" },
       {
         "content": [
-          { "text": " but", "marks": ["i"] },
+          " ",
+          { "text": "but", "marks": ["i"] },
           " make not thyself known"
         ],
         "strong": "H3045",
@@ -1573,7 +1586,8 @@
       { "text": " Blessed", "strong": "H1288", "morph": "QalPasPtc" },
       {
         "content": [
-          { "text": " be", "marks": ["i"] },
+          " ",
+          { "text": "be", "marks": ["i"] },
           " thou of the ",
           { "text": "LORD", "marks": ["sc"] },
           ","
@@ -1582,7 +1596,11 @@
       },
       { "text": " my daughter:", "strong": "H1323" },
       {
-        "content": [{ "text": " for", "marks": ["i"] }, " thou hast shewed"],
+        "content": [
+          " ",
+          { "text": "for", "marks": ["i"] },
+          " thou hast shewed"
+        ],
         "strong": "H3190",
         "morph": "HiphPerf"
       },
@@ -1666,7 +1684,8 @@
       { "text": " and it shall be in the morning,", "strong": "H1242" },
       {
         "content": [
-          { "text": " that", "marks": ["i"] },
+          " ",
+          { "text": "that", "marks": ["i"] },
           " if he will perform unto thee the part of a kinsman,"
         ],
         "strong": "H1350",
@@ -1769,12 +1788,16 @@
       { "text": " it, he measured", "strong": "H4058", "morph": "QalImpf" },
       { "text": " six", "strong": "H8337" },
       {
-        "content": [{ "text": " measures", "marks": ["i"] }, " of barley,"],
+        "content": [" ", { "text": "measures", "marks": ["i"] }, " of barley,"],
         "strong": "H8184"
       },
       { "text": " and laid", "strong": "H7896", "morph": "QalImpf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " on her: and she went"],
+        "content": [
+          " ",
+          { "text": "it", "marks": ["i"] },
+          " on her: and she went"
+        ],
         "strong": "H935",
         "morph": "QalImpf"
       },
@@ -1811,7 +1834,7 @@
       { "text": "And she said,", "strong": "H559", "morph": "QalImpf" },
       { "text": " These six", "strong": "H8337" },
       {
-        "content": [{ "text": " measures", "marks": ["i"] }, " of barley"],
+        "content": [" ", { "text": "measures", "marks": ["i"] }, " of barley"],
         "strong": "H8184"
       },
       { "text": " gave", "strong": "H5414", "morph": "QalPerf" },
@@ -1953,7 +1976,8 @@
       { "text": " Buy", "strong": "H7069", "morph": "QalImpv" },
       {
         "content": [
-          { "text": " it", "marks": ["i"] },
+          " ",
+          { "text": "it", "marks": ["i"] },
           " before the inhabitants,"
         ],
         "strong": "H3427",
@@ -1963,20 +1987,21 @@
       { "text": " of my people.", "strong": "H5971" },
       { "text": " If thou wilt redeem", "strong": "H1350", "morph": "QalImpf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, ", redeem"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, ", redeem"],
         "strong": "H1350",
         "morph": "QalImpv"
       },
       {
         "content": [
-          { "text": " it:", "marks": ["i"] },
+          " ",
+          { "text": "it:", "marks": ["i"] },
           " but if thou wilt not redeem"
         ],
         "strong": "H1350",
         "morph": "QalImpf"
       },
       {
-        "content": [{ "text": " it, then", "marks": ["i"] }, " tell"],
+        "content": [" ", { "text": "it, then", "marks": ["i"] }, " tell"],
         "strong": "H5046",
         "morph": "HiphImpv"
       },
@@ -1995,7 +2020,7 @@
         "morph": "QalInf"
       },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " beside"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, " beside"],
         "strong": "H2108"
       },
       {
@@ -2008,7 +2033,8 @@
       },
       { "text": " thee. And he said,", "strong": "H559", "morph": "QalImpf" },
       { "text": " I will redeem", "strong": "H1350", "morph": "QalImpf" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       "."
     ]
   },
@@ -2026,7 +2052,7 @@
       { "text": " of Naomi,", "strong": "H5281" },
       { "text": " thou must buy", "strong": "H7069", "morph": "QalPerf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " also of Ruth"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, " also of Ruth"],
         "strong": "H7327"
       },
       { "text": " the Moabitess,", "strong": "H4125" },
@@ -2049,7 +2075,8 @@
       { "text": " redeem", "strong": "H1350", "morph": "QalInf" },
       {
         "content": [
-          { "text": " it", "marks": ["i"] },
+          " ",
+          { "text": "it", "marks": ["i"] },
           " for myself, lest I mar"
         ],
         "strong": "H7843",
@@ -2064,7 +2091,8 @@
         "morph": "QalImpf"
       },
       { "text": " redeem", "strong": "H1350", "morph": "QalInf" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       "."
     ]
   },
@@ -2092,7 +2120,11 @@
       { "text": " his shoe,", "strong": "H5275" },
       { "text": " and gave", "strong": "H5414", "morph": "QalPerf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " to his neighbour:"],
+        "content": [
+          " ",
+          { "text": "it", "marks": ["i"] },
+          " to his neighbour:"
+        ],
         "strong": "H7453"
       },
       {
@@ -2121,7 +2153,8 @@
       { "text": " Buy", "strong": "H7069", "morph": "QalImpv" },
       {
         "content": [
-          { "text": " it", "marks": ["i"] },
+          " ",
+          { "text": "it", "marks": ["i"] },
           " for thee. So he drew off"
         ],
         "strong": "H8025",
@@ -2219,7 +2252,7 @@
       { "text": " and the elders,", "strong": "H2205" },
       { "text": " said,", "strong": "H559", "morph": "QalImpf" },
       {
-        "content": [{ "text": " We are", "marks": ["i"] }, " witnesses."],
+        "content": [" ", { "text": "We are", "marks": ["i"] }, " witnesses."],
         "strong": "H5707"
       },
       {
@@ -2315,7 +2348,8 @@
       { "text": " Blessed", "strong": "H1288", "morph": "QalPasPtc" },
       {
         "content": [
-          { "text": " be", "marks": ["i"] },
+          " ",
+          { "text": "be", "marks": ["i"] },
           " the ",
           { "text": "LORD", "marks": ["sc"] },
           ","

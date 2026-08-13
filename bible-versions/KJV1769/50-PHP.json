@@ -31,7 +31,7 @@
     "content": [
       { "text": "grace", "strong": "G5485" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " unto you,"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " unto you,"],
         "strong": "G5213"
       },
       { "text": " and", "strong": "G2532" },
@@ -42,7 +42,7 @@
       { "text": " Father,", "strong": "G3962" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " from", "marks": ["i"] }, " the Lord"],
+        "content": [" ", { "text": "from", "marks": ["i"] }, " the Lord"],
         "strong": "G2962"
       },
       { "text": " Jesus", "strong": "G2424" },
@@ -133,8 +133,9 @@
       { "text": " will perform", "strong": "G2005", "morph": "FutActInd" },
       {
         "content": [
+          " ",
           {
-            "text": " it",
+            "text": "it",
             "marks": ["i"],
             "foot": {
               "type": "trn",
@@ -251,7 +252,7 @@
       { "text": " knowledge", "strong": "G1922" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " in", "marks": ["i"] }, " all"],
+        "content": [" ", { "text": "in", "marks": ["i"] }, " all"],
         "strong": "G3956"
       },
       {
@@ -381,7 +382,8 @@
       { "text": " and", "strong": "G2532" },
       { "text": " in all", "strong": "G3956" },
       { "text": " other", "strong": "G3062" },
-      { "text": " places", "marks": ["i"] },
+      " ",
+      { "text": "places", "marks": ["i"] },
       {
         "text": ";",
         "foot": {
@@ -530,7 +532,7 @@
       { "text": " earnest expectation", "strong": "G603" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " hope,"],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " hope,"],
         "strong": "G1680"
       },
       { "text": " that", "strong": "G3754" },
@@ -543,7 +545,7 @@
       },
       { "text": " but", "strong": "G235" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " with"],
         "strong": "G1722"
       },
       { "text": " all", "strong": "G3956" },
@@ -551,7 +553,7 @@
       { "text": " as", "strong": "G5613" },
       { "text": " always,", "strong": "G3842" },
       {
-        "content": [{ "text": " so", "marks": ["i"] }, " now"],
+        "content": [" ", { "text": "so", "marks": ["i"] }, " now"],
         "strong": "G3568"
       },
       { "text": " also", "strong": "G2532" },
@@ -566,7 +568,7 @@
       { "text": " body,", "strong": "G4983" },
       { "text": " whether", "strong": "G1535" },
       {
-        "content": [{ "text": " it be", "marks": ["i"] }, " by"],
+        "content": [" ", { "text": "it be", "marks": ["i"] }, " by"],
         "strong": "G1223"
       },
       { "text": " life,", "strong": "G2222" },
@@ -584,13 +586,13 @@
       { "text": " to me", "strong": "G1698" },
       { "text": " to live", "strong": "G2198", "morph": "PresActInf" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " Christ,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " Christ,"],
         "strong": "G5547"
       },
       { "text": " and", "strong": "G2532" },
       { "text": " to die", "strong": "G599", "morph": "Aor2ActInf" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " gain."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " gain."],
         "strong": "G2771"
       }
     ]
@@ -607,7 +609,7 @@
       { "text": " the flesh,", "strong": "G4561" },
       { "text": " this", "strong": "G5124" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the fruit"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the fruit"],
         "strong": "G2590"
       },
       { "text": " of my labour:", "strong": "G2041" },
@@ -651,7 +653,7 @@
       { "text": " in", "strong": "G1722" },
       { "text": " the flesh", "strong": "G4561" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " more needful"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " more needful"],
         "strong": "G316"
       },
       { "text": " for", "strong": "G1223" },
@@ -819,7 +821,7 @@
       { "text": " now", "strong": "G3568" },
       { "text": " hear", "strong": "G191", "morph": "PresActInd" },
       {
-        "content": [{ "text": " to be", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "to be", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " me.", "strong": "G1698" }
@@ -871,7 +873,11 @@
       { "text": " the same", "strong": "G846" },
       { "text": " love,", "strong": "G26" },
       {
-        "content": [{ "text": " being", "marks": ["i"] }, " of one accord,"],
+        "content": [
+          " ",
+          { "text": "being", "marks": ["i"] },
+          " of one accord,"
+        ],
         "strong": "G4861"
       },
       { "text": " of one", "strong": "G1520" },
@@ -888,7 +894,7 @@
         "strong": "G3367"
       },
       {
-        "content": [{ "text": " be done", "marks": ["i"] }, " through"],
+        "content": [" ", { "text": "be done", "marks": ["i"] }, " through"],
         "strong": "G2596"
       },
       { "text": " strife", "strong": "G2052" },
@@ -1052,12 +1058,16 @@
       },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " in earth,"],
+        "content": [" ", { "text": "things", "marks": ["i"] }, " in earth,"],
         "strong": "G1919"
       },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " things", "marks": ["i"] }, " under the earth;"],
+        "content": [
+          " ",
+          { "text": "things", "marks": ["i"] },
+          " under the earth;"
+        ],
         "strong": "G2709"
       }
     ]
@@ -1069,7 +1079,7 @@
     "content": [
       { "text": "and", "strong": "G2532" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " every"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " every"],
         "strong": "G3956"
       },
       { "text": " tongue", "strong": "G1100" },
@@ -1078,7 +1088,7 @@
       { "text": " Jesus", "strong": "G2424" },
       { "text": " Christ", "strong": "G5547" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " Lord,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " Lord,"],
         "strong": "G2962"
       },
       { "text": " to", "strong": "G1519" },
@@ -1139,7 +1149,7 @@
       { "text": " to do", "strong": "G1754", "morph": "PresActInf" },
       { "text": " of", "strong": "G5228" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " good pleasure."],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " good pleasure."],
         "strong": "G2107"
       }
     ]
@@ -1565,14 +1575,14 @@
       { "text": " to me", "strong": "G1698" },
       { "text": " indeed", "strong": "G3303" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " not"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " not"],
         "strong": "G3756"
       },
       { "text": " grievous,", "strong": "G3636" },
       { "text": " but", "strong": "G1161" },
       { "text": " for you", "strong": "G5213" },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " safe."],
+        "content": [" ", { "text": "it is", "marks": ["i"] }, " safe."],
         "strong": "G804"
       }
     ]
@@ -1660,7 +1670,7 @@
       { "text": " the stock", "strong": "G1085" },
       { "text": " of Israel,", "strong": "G2474" },
       {
-        "content": [{ "text": " of", "marks": ["i"] }, " the tribe"],
+        "content": [" ", { "text": "of", "marks": ["i"] }, " the tribe"],
         "strong": "G5443"
       },
       { "text": " of Benjamin,", "strong": "G958" },
@@ -1718,7 +1728,7 @@
       { "text": " I count", "strong": "G2233", "morph": "PresMidPasDepInd" },
       { "text": " all things", "strong": "G3956" },
       {
-        "content": [{ "text": " but", "marks": ["i"] }, " loss"],
+        "content": [" ", { "text": "but", "marks": ["i"] }, " loss"],
         "strong": "G2209"
       },
       { "text": " for", "strong": "G1511", "morph": "PresInf" },
@@ -1741,7 +1751,7 @@
       { "text": " do count", "strong": "G2233", "morph": "PresMidPasDepInd" },
       { "text": " them", "strong": "G1511", "morph": "PresInf" },
       {
-        "content": [{ "text": " but", "marks": ["i"] }, " dung,"],
+        "content": [" ", { "text": "but", "marks": ["i"] }, " dung,"],
         "strong": "G4657"
       },
       { "text": " that", "strong": "G2443" },
@@ -1860,11 +1870,11 @@
       },
       { "text": " but", "strong": "G1161" },
       {
-        "content": [{ "text": " this", "marks": ["i"] }, " one thing"],
+        "content": [" ", { "text": "this", "marks": ["i"] }, " one thing"],
         "strong": "G1520"
       },
       {
-        "content": [{ "text": " I do", "marks": ["i"] }, ", forgetting"],
+        "content": [" ", { "text": "I do", "marks": ["i"] }, ", forgetting"],
         "strong": "G1950",
         "morph": "PresMidPasDepPtc"
       },
@@ -1980,7 +1990,8 @@
       { "text": " weeping,", "strong": "G2799", "morph": "PresActPtc" },
       {
         "content": [
-          { "text": " that they are", "marks": ["i"] },
+          " ",
+          { "text": "that they are", "marks": ["i"] },
           " the enemies"
         ],
         "strong": "G2190"
@@ -1997,22 +2008,22 @@
       { "text": "whose", "strong": "G3739" },
       { "text": " end", "strong": "G5056" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " destruction,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " destruction,"],
         "strong": "G684"
       },
       { "text": " whose", "strong": "G3739" },
       { "text": " God", "strong": "G2316" },
       {
-        "content": [{ "text": " is their", "marks": ["i"] }, " belly,"],
+        "content": [" ", { "text": "is their", "marks": ["i"] }, " belly,"],
         "strong": "G2836"
       },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " whose", "marks": ["i"] }, " glory"],
+        "content": [" ", { "text": "whose", "marks": ["i"] }, " glory"],
         "strong": "G1391"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " their", "strong": "G846" },
@@ -2091,7 +2102,7 @@
       { "text": " in", "strong": "G1722" },
       { "text": " the Lord,", "strong": "G2962" },
       {
-        "content": [{ "text": " my", "marks": ["i"] }, " dearly beloved."],
+        "content": [" ", { "text": "my", "marks": ["i"] }, " dearly beloved."],
         "strong": "G27"
       }
     ]
@@ -2141,7 +2152,7 @@
       { "text": " also,", "strong": "G2532" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " with", "marks": ["i"] }, " other"],
+        "content": [" ", { "text": "with", "marks": ["i"] }, " other"],
         "strong": "G3062"
       },
       { "text": " my", "strong": "G3450" },
@@ -2149,7 +2160,7 @@
       { "text": " whose", "strong": "G3739" },
       { "text": " names", "strong": "G3686" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " the book", "strong": "G976" },
@@ -2171,7 +2182,7 @@
       { "text": " the Lord", "strong": "G2962" },
       { "text": " alway:", "strong": "G3842" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " again"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " again"],
         "strong": "G3825"
       },
       { "text": " I say,", "strong": "G2046", "morph": "FutActInd" },
@@ -2191,7 +2202,7 @@
       { "text": " men.", "strong": "G444" },
       { "text": " The Lord", "strong": "G2962" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " at hand."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " at hand."],
         "strong": "G1451"
       }
     ]
@@ -2256,7 +2267,8 @@
       { "text": " whatsoever things", "strong": "G3745" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           {
             "text": " honest,",
             "foot": {
@@ -2269,22 +2281,22 @@
       },
       { "text": " whatsoever things", "strong": "G3745" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " just,"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " just,"],
         "strong": "G1342"
       },
       { "text": " whatsoever things", "strong": "G3745" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " pure,"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " pure,"],
         "strong": "G53"
       },
       { "text": " whatsoever things", "strong": "G3745" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " lovely,"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " lovely,"],
         "strong": "G4375"
       },
       { "text": " whatsoever things", "strong": "G3745" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " of good report;"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " of good report;"],
         "strong": "G2163"
       },
       {
@@ -2390,7 +2402,7 @@
       { "text": " whatsoever state", "strong": "G3739" },
       { "text": " I am,", "strong": "G1510", "morph": "PresInd" },
       {
-        "content": [{ "text": " therewith", "marks": ["i"] }, " to be"],
+        "content": [" ", { "text": "therewith", "marks": ["i"] }, " to be"],
         "strong": "G1511",
         "morph": "PresInf"
       },
@@ -2603,7 +2615,7 @@
       { "text": " our", "strong": "G2257" },
       { "text": " Father", "strong": "G3962" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " glory"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " glory"],
         "strong": "G1391"
       },
       { "text": " for", "strong": "G1519" },
@@ -2662,7 +2674,7 @@
       { "text": " Jesus", "strong": "G2424" },
       { "text": " Christ", "strong": "G5547" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " with"],
         "strong": "G3326"
       },
       { "text": " you", "strong": "G5216" },

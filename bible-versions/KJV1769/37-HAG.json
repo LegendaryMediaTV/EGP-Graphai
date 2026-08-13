@@ -111,7 +111,7 @@
       { "text": " houses,", "strong": "H1004" },
       { "text": " and this house", "strong": "H1004" },
       {
-        "content": [{ "text": " lie", "marks": ["i"] }, " waste?"],
+        "content": [" ", { "text": "lie", "marks": ["i"] }, " waste?"],
         "strong": "H2720"
       }
     ]
@@ -172,7 +172,11 @@
       },
       { "text": " earneth wages", "strong": "H7936", "morph": "HithPtc" },
       {
-        "content": [{ "text": " to put it", "marks": ["i"] }, " into a bag"],
+        "content": [
+          " ",
+          { "text": "to put it", "marks": ["i"] },
+          " into a bag"
+        ],
         "strong": "H6872"
       },
       {
@@ -252,7 +256,7 @@
       },
       { "text": " and when ye brought", "strong": "H935", "morph": "HiphPerf" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " home,"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, " home,"],
         "strong": "H1004"
       },
       { "text": " I did blow", "strong": "H5301", "morph": "QalPerf" },
@@ -297,7 +301,7 @@
       { "text": " and the earth", "strong": "H776" },
       { "text": " is stayed", "strong": "H3607", "morph": "QalPerf" },
       {
-        "content": [{ "text": " from", "marks": ["i"] }, " her fruit."],
+        "content": [" ", { "text": "from", "marks": ["i"] }, " her fruit."],
         "strong": "H2981"
       }
     ]
@@ -464,12 +468,12 @@
       { "heading": "Recall its First Glory" },
       { "paragraph": true, "text": "In the seventh", "strong": "H7637" },
       {
-        "content": [{ "text": " month", "marks": ["i"] }, ", in the one"],
+        "content": [" ", { "text": "month", "marks": ["i"] }, ", in the one"],
         "strong": "H259"
       },
       { "text": " and twentieth", "strong": "H6242" },
       {
-        "content": [{ "text": " day", "marks": ["i"] }, " of the month,"],
+        "content": [" ", { "text": "day", "marks": ["i"] }, " of the month,"],
         "strong": "H2320"
       },
       { "text": " came the word", "strong": "H1697" },
@@ -639,7 +643,8 @@
       { "text": " and the earth,", "strong": "H776" },
       { "text": " and the sea,", "strong": "H3220" },
       { "text": " and the dry", "strong": "H2724" },
-      { "text": " land", "marks": ["i"] },
+      " ",
+      { "text": "land", "marks": ["i"] },
       ";"
     ]
   },
@@ -671,11 +676,15 @@
     "content": [
       { "text": "The silver", "strong": "H3701" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " mine, and the gold"],
+        "content": [
+          " ",
+          { "text": "is", "marks": ["i"] },
+          " mine, and the gold"
+        ],
         "strong": "H2091"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " mine, saith"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " mine, saith"],
         "strong": "H5002",
         "morph": "QalPasPtc"
       },
@@ -721,11 +730,15 @@
       { "paragraph": true, "text": "In the four", "strong": "H702" },
       { "text": " and twentieth", "strong": "H6242" },
       {
-        "content": [{ "text": " day", "marks": ["i"] }, " of the ninth"],
+        "content": [" ", { "text": "day", "marks": ["i"] }, " of the ninth"],
         "strong": "H8671"
       },
       {
-        "content": [{ "text": " month", "marks": ["i"] }, ", in the second"],
+        "content": [
+          " ",
+          { "text": "month", "marks": ["i"] },
+          ", in the second"
+        ],
         "strong": "H8147"
       },
       { "text": " year", "strong": "H8141" },
@@ -755,7 +768,7 @@
       { "text": " Ask", "strong": "H7592", "morph": "QalImpv" },
       { "text": " now the priests", "strong": "H3548" },
       {
-        "content": [{ "text": " concerning", "marks": ["i"] }, " the law,"],
+        "content": [" ", { "text": "concerning", "marks": ["i"] }, " the law,"],
         "strong": "H8451"
       },
       { "text": " saying,", "strong": "H559", "morph": "QalInf" }
@@ -905,7 +918,8 @@
       { "text": " of twenty", "strong": "H6242" },
       {
         "content": [
-          { "text": " measures", "marks": ["i"] },
+          " ",
+          { "text": "measures", "marks": ["i"] },
           ", there were ",
           { "text": "but", "marks": ["i"] },
           " ten:"
@@ -922,7 +936,8 @@
       { "text": " fifty", "strong": "H2572" },
       {
         "content": [
-          { "text": " vessels", "marks": ["i"] },
+          " ",
+          { "text": "vessels", "marks": ["i"] },
           " out of the press,"
         ],
         "strong": "H6333"
@@ -984,7 +999,8 @@
       { "text": " of the ninth", "strong": "H8671" },
       {
         "content": [
-          { "text": " month, even", "marks": ["i"] },
+          " ",
+          { "text": "month, even", "marks": ["i"] },
           " from the day"
         ],
         "strong": "H3117"
@@ -1001,7 +1017,8 @@
       { "text": " temple", "strong": "H1964" },
       { "text": " was laid, consider", "strong": "H7760", "morph": "QalImpv" },
       { "strong": "H3824" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       "."
     ]
   },
@@ -1024,7 +1041,8 @@
       },
       { "text": " from this day", "strong": "H3117" },
       { "text": " will I bless", "strong": "H1288", "morph": "PielImpf" },
-      { "text": " you", "marks": ["i"] },
+      " ",
+      { "text": "you", "marks": ["i"] },
       "."
     ]
   },
@@ -1043,7 +1061,7 @@
       { "text": " in the four", "strong": "H702" },
       { "text": " and twentieth", "strong": "H6242" },
       {
-        "content": [{ "text": " day", "marks": ["i"] }, " of the month,"],
+        "content": [" ", { "text": "day", "marks": ["i"] }, " of the month,"],
         "strong": "H2320"
       },
       { "text": " saying,", "strong": "H559", "morph": "QalInf" }
