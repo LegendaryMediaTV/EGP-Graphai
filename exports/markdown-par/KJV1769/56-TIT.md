@@ -1,6 +1,6 @@
 ## Chapter 1
 
-<sup>1</sup> Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God's elect, and the acknowledging of the truth which is after godliness;
+<sup>1</sup> Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God’s elect, and the acknowledging of the truth which is after godliness;
 <sup>2</sup> in<sup>a</sup> hope of eternal life, which God, that cannot lie, promised before the world began;
 <sup>3</sup> but hath in due times manifested his word through preaching, which is committed unto me according to the commandment of God our Saviour;
 <sup>4</sup> to Titus, _mine_ own son after the common faith: Grace, mercy, _and_ peace, from God the Father and the Lord Jesus Christ our Saviour.
@@ -14,7 +14,7 @@
 <sup>9</sup> holding fast the faithful word as he hath been taught,<sup>d</sup> that he may be able by sound doctrine both to exhort and to convince the gainsayers.
 
 <sup>10</sup> For there are many unruly and vain talkers and deceivers, specially they of the circumcision:
-<sup>11</sup> whose mouths must be stopped, who subvert whole houses, teaching things which they ought not, for filthy lucre's sake.
+<sup>11</sup> whose mouths must be stopped, who subvert whole houses, teaching things which they ought not, for filthy lucre’s sake.
 <sup>12</sup> One of themselves, _even_ a prophet of their own, said, The Cretians _are_ alway liars, evil beasts, slow bellies.
 <sup>13</sup> This witness is true. Wherefore rebuke them sharply, that they may be sound in the faith;
 <sup>14</sup> not giving heed to Jewish fables, and commandments of men, that turn from the truth.
@@ -73,7 +73,7 @@
 
 <sup>12</sup> When I shall send Artemas unto thee, or Tychicus, be diligent to come unto me to Nicopolis: for I have determined there to winter.
 <sup>13</sup> Bring Zenas the lawyer and Apollos on their journey diligently, that nothing be wanting unto them.
-<sup>14</sup> And let our's also learn to maintain good works<sup>c</sup> for necessary uses, that they be not unfruitful.
+<sup>14</sup> And let our’s also learn to maintain good works<sup>c</sup> for necessary uses, that they be not unfruitful.
 
 <sup>15</sup> All that are with me salute thee. Greet them that love us in the faith. Grace _be_ with you all. Amen.<br>It was written to Titus, ordained the first bishop of the church of the Cretians, from Nicopolis of Macedonia.
 

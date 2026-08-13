@@ -16,11 +16,11 @@
 
 <sup>11</sup> And from thence he went against the inhabitants of Debir: and the name of Debir before _was_ Kirjath-sepher:
 <sup>12</sup> and Caleb said, He that smiteth Kirjath-sepher, and taketh it, to him will I give Achsah my daughter to wife.
-<sup>13</sup> And Othniel the son of Kenaz, Caleb's younger brother, took it: and he gave him Achsah his daughter to wife.
+<sup>13</sup> And Othniel the son of Kenaz, Caleb’s younger brother, took it: and he gave him Achsah his daughter to wife.
 <sup>14</sup> And it came to pass, when she came _to him_, that she moved him to ask of her father a field: and she lighted from off _her_ ass; and Caleb said unto her, What wilt thou?
 <sup>15</sup> And she said unto him, Give me a blessing: for thou hast given me a south land; give me also springs of water. And Caleb gave her the upper springs and the nether springs.
 
-<sup>16</sup> And the children of the Kenite, Moses' father in law, went up out of the city of palm trees with the children of Judah into the wilderness of Judah, which _lieth_ in the south of Arad; and they went and dwelt among the people.
+<sup>16</sup> And the children of the Kenite, Moses’ father in law, went up out of the city of palm trees with the children of Judah into the wilderness of Judah, which _lieth_ in the south of Arad; and they went and dwelt among the people.
 <sup>17</sup> And Judah went with Simeon his brother, and they slew the Canaanites that inhabited Zephath, and utterly destroyed it. And the name of the city was called Hormah.
 <sup>18</sup> Also Judah took Gaza with the coast thereof, and Askelon with the coast thereof, and Ekron with the coast thereof.
 <sup>19</sup> And the LORD was with Judah; and he drave out _the inhabitants of_ the mountain;<sup>d</sup> but could not drive out the inhabitants of the valley, because they had chariots of iron.
@@ -108,7 +108,7 @@
 
 <sup>7</sup> And the children of Israel did evil in the sight of the LORD, and forgat the LORD their God, and served Baalim and the groves.
 <sup>8</sup> Therefore the anger of the LORD was hot against Israel, and he sold them into the hand of Chushan-rishathaim king of Mesopotamia:<sup>a</sup> and the children of Israel served Chushan-rishathaim eight years.
-<sup>9</sup> And when the children of Israel cried unto the LORD, the LORD raised up a deliverer<sup>b</sup> to the children of Israel, who delivered them, _even_ Othniel the son of Kenaz, Caleb's younger brother.
+<sup>9</sup> And when the children of Israel cried unto the LORD, the LORD raised up a deliverer<sup>b</sup> to the children of Israel, who delivered them, _even_ Othniel the son of Kenaz, Caleb’s younger brother.
 <sup>10</sup> And the Spirit of the LORD came upon<sup>c</sup> him, and he judged Israel, and went out to war: and the LORD delivered Chushan-rishathaim king of Mesopotamia<sup>d</sup> into his hand; and his hand prevailed against Chushan-rishathaim.
 <sup>11</sup> And the land had rest forty years. And Othniel the son of Kenaz died.
 
@@ -160,7 +160,7 @@
 <sup>4</sup> And Deborah, a prophetess, the wife of Lapidoth, she judged Israel at that time.
 <sup>5</sup> And she dwelt under the palm tree of Deborah between Ramah and Beth-el in mount Ephraim: and the children of Israel came up to her for judgment.
 <sup>6</sup> And she sent and called Barak the son of Abinoam out of Kedesh-naphtali, and said unto him, Hath not the LORD God of Israel commanded, _saying_, Go and draw toward mount Tabor, and take with thee ten thousand men of the children of Naphtali and of the children of Zebulun?
-<sup>7</sup> And I will draw unto thee to the river Kishon Sisera, the captain of Jabin's army, with his chariots and his multitude; and I will deliver him into thine hand.
+<sup>7</sup> And I will draw unto thee to the river Kishon Sisera, the captain of Jabin’s army, with his chariots and his multitude; and I will deliver him into thine hand.
 <sup>8</sup> And Barak said unto her, If thou wilt go with me, then I will go: but if thou wilt not go with me, _then_ I will not go.
 <sup>9</sup> And she said, I will surely go with thee: notwithstanding the journey that thou takest shall not be for thine honour; for the LORD shall sell Sisera into the hand of a woman. And Deborah arose, and went with Barak to Kedesh.
 <sup>10</sup> And Barak called Zebulun and Naphtali to Kedesh; and he went up with ten thousand men at his feet: and Deborah went up with him.
@@ -177,7 +177,7 @@
 <sup>18</sup> And Jael went out to meet Sisera, and said unto him, Turn in, my lord, turn in to me; fear not. And when he had turned in unto her into the tent, she covered him with a mantle.<sup>c</sup>
 <sup>19</sup> And he said unto her, Give me, I pray thee, a little water to drink; for I am thirsty. And she opened a bottle of milk, and gave him drink, and covered him.
 <sup>20</sup> Again he said unto her, Stand in the door of the tent, and it shall be, when any man doth come and enquire of thee, and say, Is there any man here? that thou shalt say, No.
-<sup>21</sup> Then Jael Heber's wife took<sup>d</sup> a nail of the tent, and took an hammer in her hand, and went softly unto him, and smote the nail into his temples, and fastened it into the ground: for he was fast asleep and weary. So he died.
+<sup>21</sup> Then Jael Heber’s wife took<sup>d</sup> a nail of the tent, and took an hammer in her hand, and went softly unto him, and smote the nail into his temples, and fastened it into the ground: for he was fast asleep and weary. So he died.
 <sup>22</sup> And, behold, as Barak pursued Sisera, Jael came out to meet him, and said unto him, Come, and I will shew thee the man whom thou seekest. And when he came into her _tent_, behold, Sisera lay dead, and the nail _was_ in his temples.
 
 <sup>23</sup> So God subdued on that day Jabin the king of Canaan before the children of Israel.
@@ -217,7 +217,7 @@
 <sup>23</sup> Curse ye Meroz, said the angel of the LORD,<br>Curse ye bitterly the inhabitants thereof;<br>Because they came not to the help of the LORD,<br>To the help of the LORD against the mighty.<br>
 <sup>24</sup> Blessed above women shall Jael<br>The wife of Heber the Kenite be,<br>Blessed shall she be above women in the tent.<br>
 <sup>25</sup> He asked water, _and_ she gave _him_ milk;<br>She brought forth butter in a lordly dish.<br>
-<sup>26</sup> She put her hand to the nail,<br>And her right hand to the workmen's hammer;<br>And with the hammer she smote<sup>o</sup> Sisera, she smote off his head,<br>When she had pierced and stricken through his temples.<br>
+<sup>26</sup> She put her hand to the nail,<br>And her right hand to the workmen’s hammer;<br>And with the hammer she smote<sup>o</sup> Sisera, she smote off his head,<br>When she had pierced and stricken through his temples.<br>
 <sup>27</sup> At her<sup>p</sup> feet he bowed, he fell, he lay down:<br>At her feet he bowed, he fell:<br>Where he bowed, there he fell down dead.<sup>q</sup><br>
 <sup>28</sup> The mother of Sisera looked out at a window,<br>And cried through the lattice,<br>Why is his chariot _so_ long in coming?<br>Why tarry the wheels of his chariots?<br>
 <sup>29</sup> Her wise ladies answer<sup>r</sup>ed her,<br>Yea, she returned answer to herself,<br>
@@ -269,7 +269,7 @@ And the land had rest forty years.
 <sup>12</sup> And the angel of the LORD appeared unto him, and said unto him, The LORD _is_ with thee, thou mighty man of valour.
 <sup>13</sup> And Gideon said unto him, Oh my Lord, if the LORD be with us, why then is all this befallen us? and where _be_ all his miracles which our fathers told us of, saying, Did not the LORD bring us up from Egypt? but now the LORD hath forsaken us, and delivered us into the hands of the Midianites.
 <sup>14</sup> And the LORD looked upon him, and said, Go in this thy might, and thou shalt save Israel from the hand of the Midianites: have not I sent thee?
-<sup>15</sup> And he said unto him, Oh my Lord, wherewith shall I save Israel? behold, my family _is_ poor<sup>e</sup> in Manasseh, and I _am_ the least in my father's house.
+<sup>15</sup> And he said unto him, Oh my Lord, wherewith shall I save Israel? behold, my family _is_ poor<sup>e</sup> in Manasseh, and I _am_ the least in my father’s house.
 <sup>16</sup> And the LORD said unto him, Surely I will be with thee, and thou shalt smite the Midianites as one man.
 <sup>17</sup> And he said unto him, If now I have found grace in thy sight, then shew me a sign that thou talkest with me.
 <sup>18</sup> Depart not hence, I pray thee, until I come unto thee, and bring forth my present,<sup>f</sup> and set _it_ before thee. And he said, I will tarry until thou come again.
@@ -281,9 +281,9 @@ And the land had rest forty years.
 <sup>23</sup> And the LORD said unto him, Peace _be_ unto thee; fear not: thou shalt not die.
 <sup>24</sup> Then Gideon built an altar there unto the LORD, and called it Jehovah-shalom:<sup>h</sup> unto this day it _is_ yet in Ophrah of the Abi-ezrites.
 
-<sup>25</sup> And it came to pass the same night, that the LORD said unto him, Take thy father's young bullock, even the second bullock of seven years old, and throw down the altar of Baal that thy father hath, and cut down the grove that _is_ by it:
+<sup>25</sup> And it came to pass the same night, that the LORD said unto him, Take thy father’s young bullock, even the second bullock of seven years old, and throw down the altar of Baal that thy father hath, and cut down the grove that _is_ by it:
 <sup>26</sup> and build an altar unto the LORD thy God upon the top of this rock,<sup>i</sup> in the ordered place,<sup>j</sup> and take the second bullock, and offer a burnt sacrifice with the wood of the grove which thou shalt cut down.
-<sup>27</sup> Then Gideon took ten men of his servants, and did as the LORD had said unto him: and _so_ it was, because he feared his father's household, and the men of the city, that he could not do _it_ by day, that he did _it_ by night.
+<sup>27</sup> Then Gideon took ten men of his servants, and did as the LORD had said unto him: and _so_ it was, because he feared his father’s household, and the men of the city, that he could not do _it_ by day, that he did _it_ by night.
 
 <sup>28</sup> And when the men of the city arose early in the morning, behold, the altar of Baal was cast down, and the grove was cut down that _was_ by it, and the second bullock was offered upon the altar _that was_ built.
 <sup>29</sup> And they said one to another, Who hath done this thing? And when they enquired and asked, they said, Gideon the son of Joash hath done this thing.
@@ -337,14 +337,14 @@ And the land had rest forty years.
 <sup>14</sup> And his fellow answered and said, This _is_ nothing else save the sword of Gideon the son of Joash, a man of Israel: _for_ into his hand hath God delivered Midian, and all the host.
 
 <sup>15</sup> And it was _so_, when Gideon heard the telling of the dream, and the interpretation thereof,<sup>b</sup> that he worshipped, and returned into the host of Israel, and said, Arise; for the LORD hath delivered into your hand the host of Midian.
-<sup>16</sup> And he divided the three hundred men _into_ three companies, and he put a trumpet in every man's hand, with empty pitchers, and lamps<sup>c</sup> within the pitchers.
+<sup>16</sup> And he divided the three hundred men _into_ three companies, and he put a trumpet in every man’s hand, with empty pitchers, and lamps<sup>c</sup> within the pitchers.
 <sup>17</sup> And he said unto them, Look on me, and do likewise: and, behold, when I come to the outside of the camp, it shall be _that_, as I do, so shall ye do.
 <sup>18</sup> When I blow with a trumpet, I and all that _are_ with me, then blow ye the trumpets also on every side of all the camp, and say, _The sword_ of the LORD, and of Gideon.
 
 <sup>19</sup> So Gideon, and the hundred men that _were_ with him, came unto the outside of the camp in the beginning of the middle watch; and they had but newly set the watch: and they blew the trumpets, and brake the pitchers that _were_ in their hands.
 <sup>20</sup> And the three companies blew the trumpets, and brake the pitchers, and held the lamps in their left hands, and the trumpets in their right hands to blow _withal:_ and they cried, The sword of the LORD, and of Gideon.
 <sup>21</sup> And they stood every man in his place round about the camp: and all the host ran, and cried, and fled.
-<sup>22</sup> And the three hundred blew the trumpets, and the LORD set every man's sword again<sup>d</sup>st his fellow, even throughout all the host: and the host fled to Beth-shittah in Zererath, _and_ to the border<sup>e</sup> of Abel-meholah, unto Tabbath.
+<sup>22</sup> And the three hundred blew the trumpets, and the LORD set every man’s sword again<sup>d</sup>st his fellow, even throughout all the host: and the host fled to Beth-shittah in Zererath, _and_ to the border<sup>e</sup> of Abel-meholah, unto Tabbath.
 <sup>23</sup> And the men of Israel gathered themselves together out of Naphtali, and out of Asher, and out of all Manasseh, and pursued after the Midianites.
 
 <sup>24</sup> And Gideon sent messengers throughout all mount Ephraim, saying, Come down against the Midianites, and take before them the waters unto Beth-barah and Jordan. Then all the men of Ephraim gathered themselves together, and took the waters unto Beth-barah and Jordan.
@@ -382,13 +382,13 @@ And the land had rest forty years.
 <sup>18</sup> Then said he unto Zebah and Zalmunna, What manner of men _were they_ whom ye slew at Tabor? And they answered, As thou _art_, so _were_ they; each one resembled<sup>i</sup> the children of a king.
 <sup>19</sup> And he said, They _were_ my brethren, _even_ the sons of my mother: _as_ the LORD liveth, if ye had saved them alive, I would not slay you.
 <sup>20</sup> And he said unto Jether his firstborn, Up, _and_ slay them. But the youth drew not his sword: for he feared, because he _was_ yet a youth.
-<sup>21</sup> Then Zebah and Zalmunna said, Rise thou, and fall upon us: for as the man _is, so is_ his strength. And Gideon arose, and slew Zebah and Zalmunna, and took away the ornaments<sup>j</sup> that _were_ on their camels' necks.
+<sup>21</sup> Then Zebah and Zalmunna said, Rise thou, and fall upon us: for as the man _is, so is_ his strength. And Gideon arose, and slew Zebah and Zalmunna, and took away the ornaments<sup>j</sup> that _were_ on their camels’ necks.
 
-<sup>22</sup> Then the men of Israel said unto Gideon, Rule thou over us, both thou, and thy son, and thy son's son also: for thou hast delivered us from the hand of Midian.
+<sup>22</sup> Then the men of Israel said unto Gideon, Rule thou over us, both thou, and thy son, and thy son’s son also: for thou hast delivered us from the hand of Midian.
 <sup>23</sup> And Gideon said unto them, I will not rule over you, neither shall my son rule over you: the LORD shall rule over you.
 <sup>24</sup> And Gideon said unto them, I would desire a request of you, that ye would give me every man the earrings of his prey. (For they had golden earrings, because they _were_ Ishmaelites.)
 <sup>25</sup> And they answered, We will willingly give _them_. And they spread a garment, and did cast therein every man the earrings of his prey.
-<sup>26</sup> And the weight of the golden earrings that he requested was a thousand and seven hundred _shekels_ of gold; beside ornaments, and collars,<sup>k</sup> and purple raiment that _was_ on the kings of Midian, and beside the chains that _were_ about their camels' necks.
+<sup>26</sup> And the weight of the golden earrings that he requested was a thousand and seven hundred _shekels_ of gold; beside ornaments, and collars,<sup>k</sup> and purple raiment that _was_ on the kings of Midian, and beside the chains that _were_ about their camels’ necks.
 <sup>27</sup> And Gideon made an ephod thereof, and put it in his city, _even_ in Ophrah: and all Israel went thither a whoring after it: which thing became a snare unto Gideon, and to his house.
 <sup>28</sup> Thus was Midian subdued before the children of Israel, so that they lifted up their heads no more. And the country was in quietness forty years in the days of Gideon.
 
@@ -419,11 +419,11 @@ And the land had rest forty years.
 
 ### His Son
 
-<sup>1</sup> And Abimelech the son of Jerubbaal went to Shechem unto his mother's brethren, and communed with them, and with all the family of the house of his mother's father, saying,
+<sup>1</sup> And Abimelech the son of Jerubbaal went to Shechem unto his mother’s brethren, and communed with them, and with all the family of the house of his mother’s father, saying,
 <sup>2</sup> Speak, I pray you, in the ears of all the men of Shechem, Whether _is_ better for you, either that all the sons of Jerubbaal, _which are_ threescore and ten persons, reign over you, or that one reign over you? remember also that I _am_ your bone and your flesh.
-<sup>3</sup> And his mother's brethren spake of him in the ears of all the men of Shechem all these words: and their hearts inclined to follow<sup>a</sup> Abimelech; for they said, He _is_ our brother.
+<sup>3</sup> And his mother’s brethren spake of him in the ears of all the men of Shechem all these words: and their hearts inclined to follow<sup>a</sup> Abimelech; for they said, He _is_ our brother.
 <sup>4</sup> And they gave him threescore and ten _pieces_ of silver out of the house of Baal-berith, wherewith Abimelech hired vain and light persons, which followed him.
-<sup>5</sup> And he went unto his father's house at Ophrah, and slew his brethren the sons of Jerubbaal, _being_ threescore and ten persons, upon one stone: notwithstanding yet Jotham the youngest son of Jerubbaal was left; for he hid himself.
+<sup>5</sup> And he went unto his father’s house at Ophrah, and slew his brethren the sons of Jerubbaal, _being_ threescore and ten persons, upon one stone: notwithstanding yet Jotham the youngest son of Jerubbaal was left; for he hid himself.
 <sup>6</sup> And all the men of Shechem gathered together, and all the house of Millo, and went, and made Abimelech king, by the plain of the pillar<sup>b</sup> that _was_ in Shechem.
 
 <sup>7</sup> And when they told _it_ to Jotham, he went and stood in the top of mount Gerizim, and lifted up his voice, and cried, and said unto them, Hearken unto me, ye men of Shechem, that God may hearken unto you.
@@ -437,7 +437,7 @@ And the land had rest forty years.
 <sup>15</sup> And the bramble said unto the trees, If in truth ye anoint me king over you, _then_ come _and_ put your trust in my shadow: and if not, let fire come out of the bramble, and devour the cedars of Lebanon.
 <sup>16</sup> Now therefore, if ye have done truly and sincerely, in that ye have made Abimelech king, and if ye have dealt well with Jerubbaal and his house, and have done unto him according to the deserving of his hands;
 <sup>17</sup> (for my father fought for you, and adventured his life<sup>e</sup> far, and delivered you out of the hand of Midian:
-<sup>18</sup> and ye are risen up against my father's house this day, and have slain his sons, threescore and ten persons, upon one stone, and have made Abimelech, the son of his maidservant, king over the men of Shechem, because he _is_ your brother;)
+<sup>18</sup> and ye are risen up against my father’s house this day, and have slain his sons, threescore and ten persons, upon one stone, and have made Abimelech, the son of his maidservant, king over the men of Shechem, because he _is_ your brother;)
 <sup>19</sup> if ye then have dealt truly and sincerely with Jerubbaal and with his house this day, _then_ rejoice ye in Abimelech, and let him also rejoice in you:
 <sup>20</sup> but if not, let fire come out from Abimelech, and devour the men of Shechem, and the house of Millo; and let fire come out from the men of Shechem, and from the house of Millo, and devour Abimelech.
 <sup>21</sup> And Jotham ran away, and fled, and went to Beer, and dwelt there, for fear of Abimelech his brother.
@@ -481,7 +481,7 @@ And the land had rest forty years.
 <sup>50</sup> Then went Abimelech to Thebez, and encamped against Thebez, and took it.
 <sup>51</sup> But there was a strong tower within the city, and thither fled all the men and women, and all they of the city, and shut _it_ to them, and gat them up to the top of the tower.
 <sup>52</sup> And Abimelech came unto the tower, and fought against it, and went hard unto the door of the tower to burn it with fire.
-<sup>53</sup> And a certain woman cast a piece of a millstone upon Abimelech's head, and all to brake his skull.
+<sup>53</sup> And a certain woman cast a piece of a millstone upon Abimelech’s head, and all to brake his skull.
 <sup>54</sup> Then he called hastily unto the young man his armourbearer, and said unto him, Draw thy sword, and slay me, that men say not of me, A woman slew him. And his young man thrust him through, and he died.
 <sup>55</sup> And when the men of Israel saw that Abimelech was dead, they departed every man unto his place.
 <sup>56</sup> Thus God rendered the wickedness of Abimelech, which he did unto his father, in slaying his seventy brethren:
@@ -545,13 +545,13 @@ And the land had rest forty years.
 ### Jephthah
 
 <sup>1</sup> Now Jephthah the Gileadite was a mighty man of valour, and he _was_ the son of an harlot:<sup>a</sup> and Gilead begat Jephthah.
-<sup>2</sup> And Gilead's wife bare him sons; and his wife's sons grew up, and they thrust out Jephthah, and said unto him, Thou shalt not inherit in our father's house; for thou _art_ the son of a strange woman.
+<sup>2</sup> And Gilead’s wife bare him sons; and his wife’s sons grew up, and they thrust out Jephthah, and said unto him, Thou shalt not inherit in our father’s house; for thou _art_ the son of a strange woman.
 <sup>3</sup> Then Jephthah fled from<sup>b</sup> his brethren, and dwelt in the land of Tob: and there were gathered vain men to Jephthah, and went out with him.
 
 <sup>4</sup> And it came to pass in process of time, that the children of Ammon made war against Israel.
 <sup>5</sup> And it was so, that when the children of Ammon made war against Israel, the elders of Gilead went to fetch Jephthah out of the land of Tob:
 <sup>6</sup> and they said unto Jephthah, Come, and be our captain, that we may fight with the children of Ammon.
-<sup>7</sup> And Jephthah said unto the elders of Gilead, Did not ye hate me, and expel me out of my father's house? and why are ye come unto me now when ye are in distress?
+<sup>7</sup> And Jephthah said unto the elders of Gilead, Did not ye hate me, and expel me out of my father’s house? and why are ye come unto me now when ye are in distress?
 <sup>8</sup> And the elders of Gilead said unto Jephthah, Therefore we turn again to thee now, that thou mayest go with us, and fight against the children of Ammon, and be our head over all the inhabitants of Gilead.
 <sup>9</sup> And Jephthah said unto the elders of Gilead, If ye bring me home again to fight against the children of Ammon, and the LORD deliver them before me, shall I be your head?
 <sup>10</sup> And the elders of Gilead said unto Jephthah, The LORD be witness between us,<sup>c</sup> if we do not so according to thy words.
@@ -579,7 +579,7 @@ And the land had rest forty years.
 
 <sup>29</sup> Then the Spirit of the LORD came upon Jephthah, and he passed over Gilead, and Manasseh, and passed over Mizpeh of Gilead, and from Mizpeh of Gilead he passed over _unto_ the children of Ammon.
 <sup>30</sup> And Jephthah vowed a vow unto the LORD, and said, If thou shalt without fail deliver the children of Ammon into mine hands,
-<sup>31</sup> then it shall be, that whatsoever cometh forth<sup>d</sup> of the doors of my house to meet me, when I return in peace from the children of Ammon, shall surely be the LORD's, and I will offer it<sup>e</sup> up for a burnt offering.
+<sup>31</sup> then it shall be, that whatsoever cometh forth<sup>d</sup> of the doors of my house to meet me, when I return in peace from the children of Ammon, shall surely be the LORD’s, and I will offer it<sup>e</sup> up for a burnt offering.
 <sup>32</sup> So Jephthah passed over unto the children of Ammon to fight against them; and the LORD delivered them into his hands.
 <sup>33</sup> And he smote them from Aroer, even till thou come to Minnith, _even_ twenty cities, and unto the plain<sup>f</sup> of the vineyards, with a very great slaughter. Thus the children of Ammon were subdued before the children of Israel.
 
@@ -694,13 +694,13 @@ And the land had rest forty years.
 
 And they could not in three days expound the riddle.
 
-<sup>15</sup> And it came to pass on the seventh day, that they said unto Samson's wife, Entice thy husband, that he may declare unto us the riddle, lest we burn thee and thy father's house with fire: have ye called us to take that we have?<sup>d</sup> _is it_ not _so?_
-<sup>16</sup> And Samson's wife wept before him, and said, Thou dost but hate me, and lovest me not: thou hast put forth a riddle unto the children of my people, and hast not told _it_ me. And he said unto her, Behold, I have not told _it_ my father nor my mother, and shall I tell _it_ thee?
+<sup>15</sup> And it came to pass on the seventh day, that they said unto Samson’s wife, Entice thy husband, that he may declare unto us the riddle, lest we burn thee and thy father’s house with fire: have ye called us to take that we have?<sup>d</sup> _is it_ not _so?_
+<sup>16</sup> And Samson’s wife wept before him, and said, Thou dost but hate me, and lovest me not: thou hast put forth a riddle unto the children of my people, and hast not told _it_ me. And he said unto her, Behold, I have not told _it_ my father nor my mother, and shall I tell _it_ thee?
 <sup>17</sup> And she wept before him the seven days,<sup>e</sup> while their feast lasted: and it came to pass on the seventh day, that he told her, because she lay sore upon him: and she told the riddle to the children of her people.
 <sup>18</sup> And the men of the city said unto him on the seventh day before the sun went down, What _is_ sweeter than honey? And what _is_ stronger than a lion? And he said unto them,<br>If ye had not plowed with my heifer,<br>Ye had not found out my riddle.<br>
 
-<sup>19</sup> And the Spirit of the LORD came upon him, and he went down to Ashkelon, and slew thirty men of them, and took their spoil,<sup>f</sup> and gave change of garments unto them which expounded the riddle. And his anger was kindled, and he went up to his father's house.
-<sup>20</sup> But Samson's wife was _given_ to his companion, whom he had used as his friend.
+<sup>19</sup> And the Spirit of the LORD came upon him, and he went down to Ashkelon, and slew thirty men of them, and took their spoil,<sup>f</sup> and gave change of garments unto them which expounded the riddle. And his anger was kindled, and he went up to his father’s house.
+<sup>20</sup> But Samson’s wife was _given_ to his companion, whom he had used as his friend.
 
 > - <sup>a</sup> 3. _She is right in mine eyes_
 > - <sup>b</sup> 5. Heb. _in meeting him_
@@ -769,7 +769,7 @@ And they could not in three days expound the riddle.
 
 <sup>15</sup> And she said unto him, How canst thou say, I love thee, when thine heart _is_ not with me? Thou hast mocked me these three times, and hast not told me wherein thy great strength _lieth_.
 <sup>16</sup> And it came to pass, when she pressed him daily with her words, and urged him, _so_ that his soul was vexed<sup>j</sup> unto death;
-<sup>17</sup> that he told her all his heart, and said unto her, There hath not come a razor upon mine head; for I _have been_ a Nazarite unto God from my mother's womb: if I be shaven, then my strength will go from me, and I shall become weak, and be like any _other_ man.
+<sup>17</sup> that he told her all his heart, and said unto her, There hath not come a razor upon mine head; for I _have been_ a Nazarite unto God from my mother’s womb: if I be shaven, then my strength will go from me, and I shall become weak, and be like any _other_ man.
 
 <sup>18</sup> And when Delilah saw that he had told her all his heart, she sent and called for the lords of the Philistines, saying, Come up this once, for he hath shewed me all his heart. Then the lords of the Philistines came up unto her, and brought money in their hand.
 <sup>19</sup> And she made him sleep upon her knees; and she called for a man, and she caused him to shave off the seven locks of his head; and she began to afflict him, and his strength went from him.
@@ -850,12 +850,12 @@ And they could not in three days expound the riddle.
 <sup>15</sup> And they turned thitherward, and came to the house of the young man the Levite, _even_ unto the house of Micah, and saluted him.<sup>d</sup>
 <sup>16</sup> And the six hundred men appointed with their weapons of war, which _were_ of the children of Dan, stood by the entering of the gate.
 <sup>17</sup> And the five men that went to spy out the land went up, _and_ came in thither, _and_ took the graven image, and the ephod, and the teraphim, and the molten image: and the priest stood in the entering of the gate with the six hundred men _that were_ appointed with weapons of war.
-<sup>18</sup> And these went into Micah's house, and fetched the carved image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye?
+<sup>18</sup> And these went into Micah’s house, and fetched the carved image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye?
 <sup>19</sup> And they said unto him, Hold thy peace, lay thine hand upon thy mouth, and go with us, and be to us a father and a priest: _is it_ better for thee to be a priest unto the house of one man, or that thou be a priest unto a tribe and a family in Israel?
-<sup>20</sup> And the priest's heart was glad, and he took the ephod, and the teraphim, and the graven image, and went in the midst of the people.
+<sup>20</sup> And the priest’s heart was glad, and he took the ephod, and the teraphim, and the graven image, and went in the midst of the people.
 
 <sup>21</sup> So they turned and departed, and put the little ones and the cattle and the carriage before them.
-<sup>22</sup> _And_ when they were a good way from the house of Micah, the men that _were_ in the houses near to Micah's house were gathered together, and overtook the children of Dan.
+<sup>22</sup> _And_ when they were a good way from the house of Micah, the men that _were_ in the houses near to Micah’s house were gathered together, and overtook the children of Dan.
 <sup>23</sup> And they cried unto the children of Dan. And they turned their faces, and said unto Micah, What aileth thee, that thou comest with such a company?<sup>e</sup>
 <sup>24</sup> And he said, Ye have taken away my gods which I made, and the priest, and ye are gone away: and what have I more? and what _is_ this _that_ ye say unto me, What aileth thee?
 <sup>25</sup> And the children of Dan said unto him, Let not thy voice be heard among us, lest angry<sup>f</sup> fellows run upon thee, and thou lose thy life, with the lives of thy household.
@@ -866,7 +866,7 @@ And they could not in three days expound the riddle.
 <sup>29</sup> And they called the name of the city Dan, after the name of Dan their father, who was born unto Israel: howbeit the name of the city _was_ Laish at the first.
 
 <sup>30</sup> And the children of Dan set up the graven image: and Jonathan, the son of Gershom, the son of Manasseh, he and his sons were priests to the tribe of Dan until the day of the captivity of the land.
-<sup>31</sup> And they set them up Micah's graven image, which he made, all the time that the house of God was in Shiloh.
+<sup>31</sup> And they set them up Micah’s graven image, which he made, all the time that the house of God was in Shiloh.
 
 > - <sup>a</sup> 2. Heb. _sons_
 > - <sup>b</sup> 7. Heb. _possessOr_, or _heir of restraint_
@@ -880,15 +880,15 @@ And they could not in three days expound the riddle.
 ### The Benjamites
 
 <sup>1</sup> And it came to pass in those days, when _there was_ no king in Israel, that there was a certain Levite sojourning on the side of mount Ephraim, who took to him a concubine<sup>a</sup> out of Beth-lehem-judah.
-<sup>2</sup> And his concubine played the whore against him, and went away from him unto her father's house to Beth-lehem-judah, and was there four whole months.<sup>b</sup>
-<sup>3</sup> And her husband arose, and went after her, to speak friendly unto her,<sup>c</sup> _and_ to bring her again, having his servant with him, and a couple of asses: and she brought him into her father's house: and when the father of the damsel saw him, he rejoiced to meet him.
-<sup>4</sup> And his father in law, the damsel's father, retained him; and he abode with him three days: so they did eat and drink, and lodged there.
+<sup>2</sup> And his concubine played the whore against him, and went away from him unto her father’s house to Beth-lehem-judah, and was there four whole months.<sup>b</sup>
+<sup>3</sup> And her husband arose, and went after her, to speak friendly unto her,<sup>c</sup> _and_ to bring her again, having his servant with him, and a couple of asses: and she brought him into her father’s house: and when the father of the damsel saw him, he rejoiced to meet him.
+<sup>4</sup> And his father in law, the damsel’s father, retained him; and he abode with him three days: so they did eat and drink, and lodged there.
 
-<sup>5</sup> And it came to pass on the fourth day, when they arose early in the morning, that he rose up to depart: and the damsel's father said unto his son in law, Comfort<sup>d</sup> thine heart with a morsel of bread, and afterward go your way.
-<sup>6</sup> And they sat down, and did eat and drink both of them together: for the damsel's father had said unto the man, Be content, I pray thee, and tarry all night, and let thine heart be merry.
+<sup>5</sup> And it came to pass on the fourth day, when they arose early in the morning, that he rose up to depart: and the damsel’s father said unto his son in law, Comfort<sup>d</sup> thine heart with a morsel of bread, and afterward go your way.
+<sup>6</sup> And they sat down, and did eat and drink both of them together: for the damsel’s father had said unto the man, Be content, I pray thee, and tarry all night, and let thine heart be merry.
 <sup>7</sup> And when the man rose up to depart, his father in law urged him: therefore he lodged there again.
-<sup>8</sup> And he arose early in the morning on the fifth day to depart: and the damsel's father said, Comfort thine heart, I pray thee. And they tarried until afternoon,<sup>e</sup> and they did eat both of them.
-<sup>9</sup> And when the man rose up to depart, he, and his concubine, and his servant, his father in law, the damsel's father, said unto him, Behold, now the day draweth<sup>f</sup> toward evening, I pray you tarry all night: behold, the day groweth to an end,<sup>g</sup> lodge here, that thine heart may be merry; and to morrow get you early on your way, that thou mayest go home.<sup>h</sup>
+<sup>8</sup> And he arose early in the morning on the fifth day to depart: and the damsel’s father said, Comfort thine heart, I pray thee. And they tarried until afternoon,<sup>e</sup> and they did eat both of them.
+<sup>9</sup> And when the man rose up to depart, he, and his concubine, and his servant, his father in law, the damsel’s father, said unto him, Behold, now the day draweth<sup>f</sup> toward evening, I pray you tarry all night: behold, the day groweth to an end,<sup>g</sup> lodge here, that thine heart may be merry; and to morrow get you early on your way, that thou mayest go home.<sup>h</sup>
 
 <sup>10</sup> But the man would not tarry that night, but he rose up and departed, and came over against Jebus,<sup>i</sup> which _is_ Jerusalem; and _there were_ with him two asses saddled, his concubine also _was_ with him.
 <sup>11</sup> _And_ when they _were_ by Jebus, the day was far spent; and the servant said unto his master, Come, I pray thee, and let us turn in into this city of the Jebusites, and lodge in it.
@@ -908,7 +908,7 @@ And they could not in three days expound the riddle.
 <sup>23</sup> And the man, the master of the house, went out unto them, and said unto them, Nay, my brethren, _nay_, I pray you, do not _so_ wickedly; seeing that this man is come into mine house, do not this folly.
 <sup>24</sup> Behold, _here is_ my daughter a maiden, and his concubine; them I will bring out now, and humble ye them, and do with them what seemeth good unto you: but unto this man do not so vile a thing.<sup>k</sup>
 <sup>25</sup> But the men would not hearken to him: so the man took his concubine, and brought her forth unto them; and they knew her, and abused her all the night until the morning: and when the day began to spring, they let her go.
-<sup>26</sup> Then came the woman in the dawning of the day, and fell down at the door of the man's house where her lord _was_, till it was light.
+<sup>26</sup> Then came the woman in the dawning of the day, and fell down at the door of the man’s house where her lord _was_, till it was light.
 
 <sup>27</sup> And her lord rose up in the morning, and opened the doors of the house, and went out to go his way: and, behold, the woman his concubine was fallen down _at_ the door of the house, and her hands _were_ upon the threshold.
 <sup>28</sup> And he said unto her, Up, and let us be going. But none answered. Then the man took her _up_ upon an ass, and the man rose up, and gat him unto his place.

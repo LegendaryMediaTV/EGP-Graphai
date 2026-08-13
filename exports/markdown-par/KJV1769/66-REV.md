@@ -11,7 +11,7 @@
 <sup>8</sup> I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty.
 
 <sup>9</sup> I John, who also am your brother, and companion in tribulation, and in the kingdom and patience of Jesus Christ, was in the isle that is called Patmos, for the word of God, and for the testimony of Jesus Christ.
-<sup>10</sup> I was in the Spirit on the Lord's day, and heard behind me a great voice, as of a trumpet,
+<sup>10</sup> I was in the Spirit on the Lord’s day, and heard behind me a great voice, as of a trumpet,
 <sup>11</sup> saying, I am Alpha and Omega, the first and the last: and, What thou seest, write in a book, and send _it_ unto the seven churches which are in Asia; unto Ephesus, and unto Smyrna, and unto Pergamos, and unto Thyatira, and unto Sardis, and unto Philadelphia, and unto Laodicea.
 
 <sup>12</sup> And I turned to see the voice that spake with me. And being turned, I saw seven golden candlesticks;
@@ -28,7 +28,7 @@
 
 <sup>1</sup> Unto the angel of the church of Ephesus write; These things saith he that holdeth the seven stars in his right hand, who walketh in the midst of the seven golden candlesticks;
 <sup>2</sup> I know thy works, and thy labour, and thy patience, and how thou canst not bear them which are evil: and thou hast tried them which say they are apostles, and are not, and hast found them liars:
-<sup>3</sup> and hast borne, and hast patience, and for my name's sake hast laboured, and hast not fainted.
+<sup>3</sup> and hast borne, and hast patience, and for my name’s sake hast laboured, and hast not fainted.
 <sup>4</sup> Nevertheless I have _somewhat_ against thee, because thou hast left thy first love.
 <sup>5</sup> Remember therefore from whence thou art fallen, and repent, and do the first works; or else I will come unto thee quickly, and will remove thy candlestick out of his place, except thou repent.
 <sup>6</sup> But this thou hast, that thou hatest the deeds of the Nicolaitanes, which I also hate.
@@ -40,7 +40,7 @@
 <sup>11</sup> He that hath an ear, let him hear what the Spirit saith unto the churches; He that overcometh shall not be hurt of the second death.
 
 <sup>12</sup> And to the angel of the church in Pergamos write; These things saith he which hath the sharp sword with two edges;
-<sup>13</sup> I know thy works, and where thou dwellest, _even_ where Satan's seat _is_: and thou holdest fast my name, and hast not denied my faith, even in those days wherein Antipas _was_ my faithful martyr, who was slain among you, where Satan dwelleth.
+<sup>13</sup> I know thy works, and where thou dwellest, _even_ where Satan’s seat _is_: and thou holdest fast my name, and hast not denied my faith, even in those days wherein Antipas _was_ my faithful martyr, who was slain among you, where Satan dwelleth.
 <sup>14</sup> But I have a few things against thee, because thou hast there them that hold the doctrine of Balaam, who taught Balac to cast a stumblingblock before the children of Israel, to eat things sacrificed unto idols, and to commit fornication.
 <sup>15</sup> So hast thou also them that hold the doctrine of the Nicolaitanes, which thing I hate.
 <sup>16</sup> Repent; or else I will come unto thee quickly, and will fight against them with the sword of my mouth.
@@ -193,7 +193,7 @@
 <sup>2</sup> And I saw the seven angels which stood before God; and to them were given seven trumpets.
 
 <sup>3</sup> And another angel came and stood at the altar, having a golden censer; and there was given unto him much incense, that he should offer _it_ with the prayers<sup>a</sup> of all saints upon the golden altar which was before the throne.
-<sup>4</sup> And the smoke of the incense, _which came_ with the prayers of the saints, ascended up before God out of the angel's hand.
+<sup>4</sup> And the smoke of the incense, _which came_ with the prayers of the saints, ascended up before God out of the angel’s hand.
 <sup>5</sup> And the angel took the censer, and filled it with fire of the altar, and cast _it_ into the earth: and there were voices, and thunderings, and lightnings, and an earthquake.
 
 <sup>6</sup> And the seven angels which had the seven trumpets prepared themselves to sound.
@@ -254,7 +254,7 @@
 <sup>7</sup> but in the days of the voice of the seventh angel, when he shall begin to sound, the mystery of God should be finished, as he hath declared to his servants the prophets.
 <sup>8</sup> And the voice which I heard from heaven spake unto me again, and said, Go _and_ take the little book which is open in the hand of the angel which standeth upon the sea and upon the earth.
 <sup>9</sup> And I went unto the angel, and said unto him, Give me the little book. And he said unto me, Take _it_, and eat it up; and it shall make thy belly bitter, but it shall be in thy mouth sweet as honey.
-<sup>10</sup> And I took the little book out of the angel's hand, and ate it up; and it was in my mouth sweet as honey: and as soon as I had eaten it, my belly was bitter.
+<sup>10</sup> And I took the little book out of the angel’s hand, and ate it up; and it was in my mouth sweet as honey: and as soon as I had eaten it, my belly was bitter.
 <sup>11</sup> And he said unto me, Thou must prophesy again before many peoples, and nations, and tongues, and kings.
 
 ## Chapter 11
@@ -277,7 +277,7 @@
 
 <sup>14</sup> The second woe is past; _and_, behold, the third woe cometh quickly.
 
-### The Last Trumpet's Peal
+### The Last Trumpet’s Peal
 
 <sup>15</sup> And the seventh angel sounded; and there were great voices in heaven, saying, The kingdoms of this world are become _the kingdoms_ of our Lord, and of his Christ; and he shall reign for ever and ever.
 <sup>16</sup> And the four and twenty elders, which sat before God on their seats, fell upon their faces, and worshipped God,
@@ -353,7 +353,7 @@
 
 ### The Church Triumphant
 
-<sup>1</sup> And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty _and_ four thousand, having his Father's name written in their foreheads.
+<sup>1</sup> And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty _and_ four thousand, having his Father’s name written in their foreheads.
 <sup>2</sup> And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps:
 <sup>3</sup> and they sung as it were a new song before the throne, and before the four beasts, and the elders: and no man could learn that song but the hundred _and_ forty _and_ four thousand, which were redeemed from the earth.
 <sup>4</sup> These are they which were not defiled with women; for they are virgins. These are they which follow the Lamb whithersoever he goeth. These were redeemed<sup>a</sup> from among men, _being_ the firstfruits unto God and to the Lamb.
@@ -557,7 +557,7 @@
 <sup>7</sup> He that overcometh shall inherit all things; and I will be his God, and he shall be my son.
 <sup>8</sup> But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.
 
-<sup>9</sup> And there came unto me one of the seven angels which had the seven vials full of the seven last plagues, and talked with me, saying, Come hither, I will shew thee the bride, the Lamb's wife.
+<sup>9</sup> And there came unto me one of the seven angels which had the seven vials full of the seven last plagues, and talked with me, saying, Come hither, I will shew thee the bride, the Lamb’s wife.
 <sup>10</sup> And he carried me away in the spirit to a great and high mountain, and shewed me that great city, the holy Jerusalem, descending out of heaven from God,
 <sup>11</sup> having the glory of God: and her light _was_ like unto a stone most precious, even like a jasper stone, clear as crystal;
 <sup>12</sup> and had a wall great and high, _and_ had twelve gates, and at the gates twelve angels, and names written thereon, which are _the names_ of the twelve tribes of the children of Israel:
@@ -575,7 +575,7 @@
 <sup>24</sup> And the nations of them which are saved shall walk in the light of it: and the kings of the earth do bring their glory and honour into it.
 <sup>25</sup> And the gates of it shall not be shut at all by day: for there shall be no night there.
 <sup>26</sup> And they shall bring the glory and honour of the nations into it.
-<sup>27</sup> And there shall in no wise enter into it any thing that defileth, neither _whatsoever_ worketh abomination, or _maketh_ a lie: but they which are written in the Lamb's book of life.
+<sup>27</sup> And there shall in no wise enter into it any thing that defileth, neither _whatsoever_ worketh abomination, or _maketh_ a lie: but they which are written in the Lamb’s book of life.
 
 ## Chapter 22
 

@@ -204,7 +204,7 @@ although the works were finished from the foundation of the world.
 <sup>25</sup> Wherefore he is able also to save them to the uttermost<sup>f</sup> that come unto God by him, seeing he ever liveth to make intercession for them.
 
 <sup>26</sup> For such an high priest became us, _who is_ holy, harmless, undefiled, separate from sinners, and made higher than the heavens;
-<sup>27</sup> who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people's: for this he did once, when he offered up himself.
+<sup>27</sup> who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people’s: for this he did once, when he offered up himself.
 <sup>28</sup> For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, _maketh_ the Son, who is consecrated<sup>g</sup> for evermore.
 
 > - <sup>a</sup> 3. Gr. _without pedigree_
@@ -245,7 +245,7 @@ although the works were finished from the foundation of the world.
 <sup>1</sup> Then verily the first _covenant_ had also ordinances<sup>a</sup> of divine service, and a worldly sanctuary.
 <sup>2</sup> For there was a tabernacle made; the first, wherein _was_ the candlestick, and the table, and the shewbread; which is called the sanctuary.<sup>b</sup>
 <sup>3</sup> And after the second veil, the tabernacle which is called the Holiest of all;
-<sup>4</sup> which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein _was_ the golden pot that had manna, and Aaron's rod that budded, and the tables of the covenant;
+<sup>4</sup> which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein _was_ the golden pot that had manna, and Aaron’s rod that budded, and the tables of the covenant;
 <sup>5</sup> and over it the cherubims of glory shadowing the mercyseat; of which we cannot now speak particularly.
 <sup>6</sup> Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service _of God_.
 <sup>7</sup> But into the second _went_ the high priest alone once every year, not without blood, which he offered for himself, and _for_ the errors of the people:
@@ -317,7 +317,7 @@ although the works were finished from the foundation of the world.
 
 <sup>26</sup> For if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins,
 <sup>27</sup> but a certain fearful looking for of judgment and fiery indignation, which shall devour the adversaries.
-<sup>28</sup> He that despised Moses' law died without mercy under two or three witnesses:
+<sup>28</sup> He that despised Moses’ law died without mercy under two or three witnesses:
 <sup>29</sup> of how much sorer punishment, suppose ye, shall he be thought worthy, who hath trodden under foot the Son of God, and hath counted the blood of the covenant, wherewith he was sanctified, an unholy thing, and hath done despite unto the Spirit of grace?
 <sup>30</sup> For we know him that hath said, Vengeance _belongeth_ unto me, I will recompense, saith the Lord. And again, The Lord shall judge his people.
 <sup>31</sup> _It is_ a fearful thing to fall into the hands of the living God.
@@ -363,8 +363,8 @@ although the works were finished from the foundation of the world.
 <sup>20</sup> By faith Isaac blessed Jacob and Esau concerning things to come.
 <sup>21</sup> By faith Jacob, when he was a dying, blessed both the sons of Joseph; and worshipped, _leaning_ upon the top of his staff.
 <sup>22</sup> By faith Joseph, when he died, made mention<sup>f</sup> of the departing of the children of Israel; and gave commandment concerning his bones.
-<sup>23</sup> By faith Moses, when he was born, was hid three months of his parents, because they saw _he was_ a proper child; and they were not afraid of the king's commandment.
-<sup>24</sup> By faith Moses, when he was come to years, refused to be called the son of Pharaoh's daughter;
+<sup>23</sup> By faith Moses, when he was born, was hid three months of his parents, because they saw _he was_ a proper child; and they were not afraid of the king’s commandment.
+<sup>24</sup> By faith Moses, when he was come to years, refused to be called the son of Pharaoh’s daughter;
 <sup>25</sup> choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season;
 <sup>26</sup> esteeming the reproach of Christ<sup>g</sup> greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward.
 <sup>27</sup> By faith he forsook Egypt, not fearing the wrath of the king: for he endured, as seeing him who is invisible.

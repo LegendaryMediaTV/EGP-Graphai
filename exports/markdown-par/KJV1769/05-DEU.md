@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> These _be_ the words which Moses spake unto all Israel on this side Jordan in the wilderness, in the plain over against the Red _sea_,<sup>a</sup> between Paran, and Tophel, and Laban, and Hazeroth, and Dizahab.
-<sup>2</sup> (_There are_ eleven days' _journey_ from Horeb by the way of mount Seir unto Kadesh-barnea.)
+<sup>2</sup> (_There are_ eleven days’ _journey_ from Horeb by the way of mount Seir unto Kadesh-barnea.)
 <sup>3</sup> And it came to pass in the fortieth year, in the eleventh month, on the first _day_ of the month, _that_ Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them;
 <sup>4</sup> after he had slain Sihon the king of the Amorites, which dwelt in Heshbon, and Og the king of Bashan, which dwelt at Astaroth in Edrei:
 <sup>5</sup> on this side Jordan, in the land of Moab, began Moses to declare this law, saying,
@@ -17,7 +17,7 @@
 <sup>14</sup> And ye answered me, and said, The thing which thou hast spoken _is_ good _for us_ to do.
 <sup>15</sup> So I took the chief of your tribes, wise men, and known, and made<sup>e</sup> them heads over you, captains over thousands, and captains over hundreds, and captains over fifties, and captains over tens, and officers among your tribes.
 <sup>16</sup> And I charged your judges at that time, saying, Hear _the causes_ between your brethren, and judge righteously between _every_ man and his brother, and the stranger _that is_ with him.
-<sup>17</sup> Ye shall not respect persons<sup>f</sup> in judgment; _but_ ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment _is_ God's: and the cause that is too hard for you, bring _it_ unto me, and I will hear it.
+<sup>17</sup> Ye shall not respect persons<sup>f</sup> in judgment; _but_ ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment _is_ God’s: and the cause that is too hard for you, bring _it_ unto me, and I will hear it.
 <sup>18</sup> And I commanded you at that time all the things which ye should do.
 
 <sup>19</sup> And when we departed from Horeb, we went through all that great and terrible wilderness, which ye saw by the way of the mountain of the Amorites, as the LORD our God commanded us; and we came to Kadesh-barnea.
@@ -162,7 +162,7 @@
 <sup>7</sup> For what nation _is there so_ great, who _hath_ God _so_ nigh unto them, as the LORD our God _is_ in all _things that_ we call upon him _for?_
 <sup>8</sup> And what nation _is there so_ great, that hath statutes and judgments _so_ righteous as all this law, which I set before you this day?
 
-<sup>9</sup> Only take heed to thyself, and keep thy soul diligently, lest thou forget the things which thine eyes have seen, and lest they depart from thy heart all the days of thy life: but teach them thy sons, and thy sons' sons;
+<sup>9</sup> Only take heed to thyself, and keep thy soul diligently, lest thou forget the things which thine eyes have seen, and lest they depart from thy heart all the days of thy life: but teach them thy sons, and thy sons’ sons;
 <sup>10</sup> _specially_ the day that thou stoodest before the LORD thy God in Horeb, when the LORD said unto me, Gather me the people together, and I will make them hear my words, that they may learn to fear me all the days that they shall live upon the earth, and _that_ they may teach their children.
 <sup>11</sup> And ye came near and stood under the mountain; and the mountain burned with fire unto the midst<sup>a</sup> of heaven, with darkness, clouds, and thick darkness.
 <sup>12</sup> And the LORD spake unto you out of the midst of the fire: ye heard the voice of the words, but saw no similitude; only _ye heard_ a voice.<sup>b</sup>
@@ -180,10 +180,10 @@
 <sup>23</sup> Take heed unto yourselves, lest ye forget the covenant of the LORD your God, which he made with you, and make you a graven image, _or_ the likeness of any _thing_, which the LORD thy God hath forbidden thee.
 <sup>24</sup> For the LORD thy God _is_ a consuming fire, _even_ a jealous God.
 
-<sup>25</sup> When thou shalt beget children, and children's children, and ye shall have remained long in the land, and shall corrupt _yourselves_, and make a graven image, _or_ the likeness of any _thing_, and shall do evil in the sight of the LORD thy God, to provoke him to anger:
+<sup>25</sup> When thou shalt beget children, and children’s children, and ye shall have remained long in the land, and shall corrupt _yourselves_, and make a graven image, _or_ the likeness of any _thing_, and shall do evil in the sight of the LORD thy God, to provoke him to anger:
 <sup>26</sup> I call heaven and earth to witness against you this day, that ye shall soon utterly perish from off the land whereunto ye go over Jordan to possess it; ye shall not prolong _your_ days upon it, but shall utterly be destroyed.
 <sup>27</sup> And the LORD shall scatter you among the nations, and ye shall be left few in number among the heathen, whither the LORD shall lead you.
-<sup>28</sup> And there ye shall serve gods, the work of men's hands, wood and stone, which neither see, nor hear, nor eat, nor smell.
+<sup>28</sup> And there ye shall serve gods, the work of men’s hands, wood and stone, which neither see, nor hear, nor eat, nor smell.
 <sup>29</sup> But if from thence thou shalt seek the LORD thy God, thou shalt find _him_, if thou seek him with all thy heart and with all thy soul.
 <sup>30</sup> When thou art in tribulation, and all these things are come upon thee,<sup>d</sup> _even_ in the latter days, if thou turn to the LORD thy God, and shalt be obedient unto his voice;
 <sup>31</sup> (for the LORD thy God _is_ a merciful God;) he will not forsake thee, neither destroy thee, nor forget the covenant of thy fathers which he sware unto them.
@@ -249,7 +249,7 @@
 
 <sup>20</sup> Neither shalt thou bear false witness against thy neighbour.
 
-<sup>21</sup> Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any _thing_ that _is_ thy neighbour's.
+<sup>21</sup> Neither shalt thou desire thy neighbour’s wife, neither shalt thou covet thy neighbour’s house, his field, or his manservant, or his maidservant, his ox, or his ass, or any _thing_ that _is_ thy neighbour’s.
 
 <sup>22</sup> These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.
 <sup>23</sup> And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, _even_ all the heads of your tribes, and your elders;
@@ -271,7 +271,7 @@
 ## Chapter 6
 
 <sup>1</sup> Now these _are_ the commandments, the statutes, and the judgments, which the LORD your God commanded to teach you, that ye might do _them_ in the land whither ye go<sup>a</sup> to possess it:
-<sup>2</sup> that thou mightest fear the LORD thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son's son, all the days of thy life; and that thy days may be prolonged.
+<sup>2</sup> that thou mightest fear the LORD thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son’s son, all the days of thy life; and that thy days may be prolonged.
 <sup>3</sup> Hear therefore, O Israel, and observe to do _it_; that it may be well with thee, and that ye may increase mightily, as the LORD God of thy fathers hath promised thee, in the land that floweth with milk and honey.
 
 <sup>4</sup> Hear, O Israel: The LORD our God _is_ one LORD:
@@ -294,7 +294,7 @@
 <sup>19</sup> to cast out all thine enemies from before thee, as the LORD hath spoken.
 
 <sup>20</sup> _And_ when thy son asketh thee in time to come,<sup>d</sup> saying, What _mean_ the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you?
-<sup>21</sup> Then thou shalt say unto thy son, We were Pharaoh's bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand:
+<sup>21</sup> Then thou shalt say unto thy son, We were Pharaoh’s bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand:
 <sup>22</sup> and the LORD shewed signs and wonders, great and sore,<sup>e</sup> upon Egypt, upon Pharaoh, and upon all his household, before our eyes:
 <sup>23</sup> and he brought us out from thence, that he might bring us in, to give us the land which he sware unto our fathers.
 <sup>24</sup> And the LORD commanded us to do all these statutes, to fear the LORD our God, for our good always, that he might preserve us alive, as _it is_ at this day.
@@ -410,7 +410,7 @@
 <sup>3</sup> And I made an ark _of_ shittim wood, and hewed two tables of stone like unto the first, and went up into the mount, having the two tables in mine hand.
 <sup>4</sup> And he wrote on the tables, according to the first writing, the ten commandments,<sup>a</sup> which the LORD spake unto you in the mount out of the midst of the fire in the day of the assembly: and the LORD gave them unto me.
 <sup>5</sup> And I turned myself and came down from the mount, and put the tables in the ark which I had made; and there they be, as the LORD commanded me.
-<sup>6</sup> And the children of Israel took their journey from Beeroth of the children of Jaakan to Mosera: there Aaron died, and there he was buried; and Eleazar his son ministered in the priest's office in his stead.
+<sup>6</sup> And the children of Israel took their journey from Beeroth of the children of Jaakan to Mosera: there Aaron died, and there he was buried; and Eleazar his son ministered in the priest’s office in his stead.
 <sup>7</sup> From thence they journeyed unto Gudgodah; and from Gudgodah to Jotbath, a land of rivers of waters.
 <sup>8</sup> At that time the LORD separated the tribe of Levi, to bear the ark of the covenant of the LORD, to stand before the LORD to minister unto him, and to bless in his name, unto this day.
 <sup>9</sup> Wherefore Levi hath no part nor inheritance with his brethren; the LORD _is_ his inheritance, according as the LORD thy God promised him.
@@ -419,7 +419,7 @@
 
 <sup>12</sup> And now, Israel, what doth the LORD thy God require of thee, but to fear the LORD thy God, to walk in all his ways, and to love him, and to serve the LORD thy God with all thy heart and with all thy soul,
 <sup>13</sup> to keep the commandments of the LORD, and his statutes, which I command thee this day for thy good?
-<sup>14</sup> Behold, the heaven and the heaven of heavens _is_ the LORD's thy God, the earth _also_, with all that therein _is_.
+<sup>14</sup> Behold, the heaven and the heaven of heavens _is_ the LORD’s thy God, the earth _also_, with all that therein _is_.
 <sup>15</sup> Only the LORD had a delight in thy fathers to love them, and he chose their seed after them, _even_ you above all people, as _it is_ this day.
 <sup>16</sup> Circumcise therefore the foreskin of your heart, and be no more stiffnecked.
 <sup>17</sup> For the LORD your God _is_ God of gods, and Lord of lords, a great God, a mighty, and a terrible, which regardeth not persons, nor taketh reward:
@@ -453,7 +453,7 @@
 <sup>14</sup> that I will give _you_ the rain of your land in his due season, the first rain and the latter rain, that thou mayest gather in thy corn, and thy wine, and thine oil.
 <sup>15</sup> And I will send<sup>d</sup> grass in thy fields for thy cattle, that thou mayest eat and be full.
 <sup>16</sup> Take heed to yourselves, that your heart be not deceived, and ye turn aside, and serve other gods, and worship them;
-<sup>17</sup> and _then_ the LORD's wrath be kindled against you, and he shut up the heaven, that there be no rain, and that the land yield not her fruit; and _lest_ ye perish quickly from off the good land which the LORD giveth you.
+<sup>17</sup> and _then_ the LORD’s wrath be kindled against you, and he shut up the heaven, that there be no rain, and that the land yield not her fruit; and _lest_ ye perish quickly from off the good land which the LORD giveth you.
 
 <sup>18</sup> Therefore shall ye lay up these my words in your heart and in your soul, and bind them for a sign upon your hand, that they may be as frontlets between your eyes.
 <sup>19</sup> And ye shall teach them your children, speaking of them when thou sittest in thine house, and when thou walkest by the way, when thou liest down, and when thou risest up.
@@ -461,7 +461,7 @@
 <sup>21</sup> that your days may be multiplied, and the days of your children, in the land which the LORD sware unto your fathers to give them, as the days of heaven upon the earth.
 <sup>22</sup> For if ye shall diligently keep all these commandments which I command you, to do them, to love the LORD your God, to walk in all his ways, and to cleave unto him;
 <sup>23</sup> then will the LORD drive out all these nations from before you, and ye shall possess greater nations and mightier than yourselves.
-<sup>24</sup> Every place whereon the soles of your feet shall tread shall be your's: from the wilderness and Lebanon, from the river, the river Euphrates, even unto the uttermost sea shall your coast be.
+<sup>24</sup> Every place whereon the soles of your feet shall tread shall be your’s: from the wilderness and Lebanon, from the river, the river Euphrates, even unto the uttermost sea shall your coast be.
 <sup>25</sup> There shall no man be able to stand before you: _for_ the LORD your God shall lay the fear of you and the dread of you upon all the land that ye shall tread upon, as he hath said unto you.
 
 <sup>26</sup> Behold, I set before you this day a blessing and a curse;
@@ -584,7 +584,7 @@
 <sup>19</sup> And every creeping thing that flieth _is_ unclean unto you: they shall not be eaten.
 <sup>20</sup> _But of_ all clean fowls ye may eat.
 
-<sup>21</sup> Ye shall not eat _of_ any thing that dieth of itself: thou shalt give it unto the stranger that _is_ in thy gates, that he may eat it; or thou mayest sell it unto an alien: for thou _art_ an holy people unto the LORD thy God. Thou shalt not seethe a kid in his mother's milk.
+<sup>21</sup> Ye shall not eat _of_ any thing that dieth of itself: thou shalt give it unto the stranger that _is_ in thy gates, that he may eat it; or thou mayest sell it unto an alien: for thou _art_ an holy people unto the LORD thy God. Thou shalt not seethe a kid in his mother’s milk.
 
 <sup>22</sup> Thou shalt truly tithe all the increase of thy seed, that the field bringeth forth year by year.
 <sup>23</sup> And thou shalt eat before the LORD thy God, in the place which he shall choose to place his name there, the tithe of thy corn, of thy wine, and of thine oil, and the firstlings of thy herds and of thy flocks; that thou mayest learn to fear the LORD thy God always.
@@ -602,7 +602,7 @@
 ## Chapter 15
 
 <sup>1</sup> At the end of _every_ seven years thou shalt make a release.
-<sup>2</sup> And this _is_ the manner of the release: Every creditor that lendeth<sup>a</sup> _ought_ unto his neighbour shall release _it_; he shall not exact _it_ of his neighbour, or of his brother; because it is called the LORD's release.
+<sup>2</sup> And this _is_ the manner of the release: Every creditor that lendeth<sup>a</sup> _ought_ unto his neighbour shall release _it_; he shall not exact _it_ of his neighbour, or of his brother; because it is called the LORD’s release.
 <sup>3</sup> Of a foreigner thou mayest exact _it again:_ but _that_ which is thine with thy brother thine hand shall release;
 <sup>4</sup> save when there shall be no poor among you;<sup>b</sup> for the LORD shall greatly bless thee in the land which the LORD thy God giveth thee _for_ an inheritance to possess it:
 <sup>5</sup> only if thou carefully hearken unto the voice of the LORD thy God, to observe to do all these commandments which I command thee this day.
@@ -706,7 +706,7 @@
 
 <sup>1</sup> The priests the Levites, _and_ all the tribe of Levi, shall have no part nor inheritance with Israel: they shall eat the offerings of the LORD made by fire, and his inheritance.
 <sup>2</sup> Therefore shall they have no inheritance among their brethren: the LORD _is_ their inheritance, as he hath said unto them.
-<sup>3</sup> And this shall be the priest's due from the people, from them that offer a sacrifice, whether _it be_ ox or sheep; and they shall give unto the priest the shoulder, and the two cheeks, and the maw.
+<sup>3</sup> And this shall be the priest’s due from the people, from them that offer a sacrifice, whether _it be_ ox or sheep; and they shall give unto the priest the shoulder, and the two cheeks, and the maw.
 <sup>4</sup> The firstfruit _also_ of thy corn, of thy wine, and of thine oil, and the first of the fleece of thy sheep, shalt thou give him.
 <sup>5</sup> For the LORD thy God hath chosen him out of all thy tribes, to stand to minister in the name of the LORD, him and his sons for ever.
 
@@ -754,7 +754,7 @@
 <sup>12</sup> then the elders of his city shall send and fetch him thence, and deliver him into the hand of the avenger of blood, that he may die.
 <sup>13</sup> Thine eye shall not pity him, but thou shalt put away _the guilt of_ innocent blood from Israel, that it may go well with thee.
 
-<sup>14</sup> Thou shalt not remove thy neighbour's landmark, which they of old time have set in thine inheritance, which thou shalt inherit in the land that the LORD thy God giveth thee to possess it.
+<sup>14</sup> Thou shalt not remove thy neighbour’s landmark, which they of old time have set in thine inheritance, which thou shalt inherit in the land that the LORD thy God giveth thee to possess it.
 
 <sup>15</sup> One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.
 <sup>16</sup> If a false witness rise up against<sup>i</sup> any man to testify against him _that which is_ wrong;
@@ -783,7 +783,7 @@
 <sup>5</sup> And the officers shall speak unto the people, saying, What man _is there_ that hath built a new house, and hath not dedicated it? let him go and return to his house, lest he die in the battle, and another man dedicate it.
 <sup>6</sup> And what man _is he_ that hath planted a vineyard, and hath not _yet_ eaten of it?<sup>c</sup> let him _also_ go and return unto his house, lest he die in the battle, and another man eat of it.
 <sup>7</sup> And what man _is there_ that hath betrothed a wife, and hath not taken her? let him go and return unto his house, lest he die in the battle, and another man take her.
-<sup>8</sup> And the officers shall speak further unto the people, and they shall say, What man _is there that is_ fearful and faint<sup>d</sup>hearted? let him go and return unto his house, lest his brethren's heart faint as well as his heart.
+<sup>8</sup> And the officers shall speak further unto the people, and they shall say, What man _is there that is_ fearful and faint<sup>d</sup>hearted? let him go and return unto his house, lest his brethren’s heart faint as well as his heart.
 <sup>9</sup> And it shall be, when the officers have made an end of speaking unto the people, that they shall make captains of the armies to lead the people.<sup>e</sup>
 
 <sup>10</sup> When thou comest nigh unto a city to fight against it, then proclaim peace unto it.
@@ -796,7 +796,7 @@
 <sup>17</sup> but thou shalt utterly destroy them; _namely_, the Hittites, and the Amorites, the Canaanites, and the Perizzites, the Hivites, and the Jebusites; as the LORD thy God hath commanded thee:
 <sup>18</sup> that they teach you not to do after all their abominations, which they have done unto their gods; so should ye sin against the LORD your God.
 
-<sup>19</sup> When thou shalt besiege a city a long time, in making war against it to take it, thou shalt not destroy the trees thereof by forcing an axe against them: for thou mayest eat of them, and thou shalt not cut them down (for the tree of the field _is_ man's _life_) to employ _them_<sup>g</sup> in the siege:
+<sup>19</sup> When thou shalt besiege a city a long time, in making war against it to take it, thou shalt not destroy the trees thereof by forcing an axe against them: for thou mayest eat of them, and thou shalt not cut them down (for the tree of the field _is_ man’s _life_) to employ _them_<sup>g</sup> in the siege:
 <sup>20</sup> only the trees which thou knowest that they _be_ not trees for meat, thou shalt destroy and cut them down; and thou shalt build bulwarks against the city that maketh war with thee, until it be subdued.<sup>h</sup>
 
 > - <sup>a</sup> 3. Heb. _be tender_
@@ -813,11 +813,11 @@
 <sup>1</sup> If _one_ be found slain in the land which the LORD thy God giveth thee to possess it, lying in the field, _and_ it be not known who hath slain him:
 <sup>2</sup> then thy elders and thy judges shall come forth, and they shall measure unto the cities which _are_ round about him that is slain:
 <sup>3</sup> and it shall be, _that_ the city _which is_ next unto the slain man, even the elders of that city shall take an heifer, which hath not been wrought with, _and_ which hath not drawn in the yoke;
-<sup>4</sup> and the elders of that city shall bring down the heifer unto a rough valley, which is neither eared nor sown, and shall strike off the heifer's neck there in the valley:
+<sup>4</sup> and the elders of that city shall bring down the heifer unto a rough valley, which is neither eared nor sown, and shall strike off the heifer’s neck there in the valley:
 <sup>5</sup> and the priests the sons of Levi shall come near; for them the LORD thy God hath chosen to minister unto him, and to bless in the name of the LORD; and by their word<sup>a</sup> shall every controversy and every stroke be _tried:_
 <sup>6</sup> and all the elders of that city, _that are_ next unto the slain _man_, shall wash their hands over the heifer that is beheaded in the valley:
 <sup>7</sup> and they shall answer and say, Our hands have not shed this blood, neither have our eyes seen _it_.
-<sup>8</sup> Be merciful, O LORD, unto thy people<sup>b</sup> Israel, whom thou hast redeemed, and lay not innocent blood unto thy people of Israel's charge. And the blood shall be forgiven them.
+<sup>8</sup> Be merciful, O LORD, unto thy people<sup>b</sup> Israel, whom thou hast redeemed, and lay not innocent blood unto thy people of Israel’s charge. And the blood shall be forgiven them.
 <sup>9</sup> So shalt thou put away the _guilt of_ innocent blood from among you, when thou shalt do _that which is_ right in the sight of the LORD.
 
 <sup>10</sup> When thou goest forth to war against thine enemies, and the LORD thy God hath delivered them into thine hands, and thou hast taken them captive,
@@ -828,7 +828,7 @@
 
 ### Other Statutes
 
-<sup>15</sup> If a man have two wives, one beloved, and another hated, and they have born him children, _both_ the beloved and the hated; and _if_ the firstborn son be her's that was hated:
+<sup>15</sup> If a man have two wives, one beloved, and another hated, and they have born him children, _both_ the beloved and the hated; and _if_ the firstborn son be her’s that was hated:
 <sup>16</sup> then it shall be, when he maketh his sons to inherit _that_ which he hath, _that_ he may not make the son of the beloved firstborn before the son of the hated, _which is indeed_ the firstborn:
 <sup>17</sup> but he shall acknowledge the son of the hated _for_ the firstborn, by giving him a double portion of all that he hath:<sup>d</sup> for he _is_ the beginning of his strength; the right of the firstborn _is_ his.
 
@@ -848,13 +848,13 @@
 
 ## Chapter 22
 
-<sup>1</sup> Thou shalt not see thy brother's ox or his sheep go astray, and hide thyself from them: thou shalt in any case bring them again unto thy brother.
+<sup>1</sup> Thou shalt not see thy brother’s ox or his sheep go astray, and hide thyself from them: thou shalt in any case bring them again unto thy brother.
 <sup>2</sup> And if thy brother _be_ not nigh unto thee, or if thou know him not, then thou shalt bring it unto thine own house, and it shall be with thee until thy brother seek after it, and thou shalt restore it to him again.
-<sup>3</sup> In like manner shalt thou do with his ass; and so shalt thou do with his raiment; and with all lost thing of thy brother's, which he hath lost, and thou hast found, shalt thou do likewise: thou mayest not hide thyself.
-<sup>4</sup> Thou shalt not see thy brother's ass or his ox fall down by the way, and hide thyself from them: thou shalt surely help him to lift _them_ up again.
+<sup>3</sup> In like manner shalt thou do with his ass; and so shalt thou do with his raiment; and with all lost thing of thy brother’s, which he hath lost, and thou hast found, shalt thou do likewise: thou mayest not hide thyself.
+<sup>4</sup> Thou shalt not see thy brother’s ass or his ox fall down by the way, and hide thyself from them: thou shalt surely help him to lift _them_ up again.
 
-<sup>5</sup> The woman shall not wear that which pertaineth unto a man, neither shall a man put on a woman's garment: for all that do so _are_ abomination unto the LORD thy God.
-<sup>6</sup> If a bird's nest chance to be before thee in the way in any tree, or on the ground, _whether they be_ young ones, or eggs, and the dam sitting upon the young, or upon the eggs, thou shalt not take the dam with the young:
+<sup>5</sup> The woman shall not wear that which pertaineth unto a man, neither shall a man put on a woman’s garment: for all that do so _are_ abomination unto the LORD thy God.
+<sup>6</sup> If a bird’s nest chance to be before thee in the way in any tree, or on the ground, _whether they be_ young ones, or eggs, and the dam sitting upon the young, or upon the eggs, thou shalt not take the dam with the young:
 <sup>7</sup> _but_ thou shalt in any wise let the dam go, and take the young to thee; that it may be well with thee, and _that_ thou mayest prolong _thy_ days.
 
 <sup>8</sup> When thou buildest a new house, then thou shalt make a battlement for thy roof, that thou bring not blood upon thine house, if any man fall from thence.
@@ -867,27 +867,27 @@
 
 <sup>13</sup> If any man take a wife, and go in unto her, and hate her,
 <sup>14</sup> and give occasions of speech against her, and bring up an evil name upon her, and say, I took this woman, and when I came to her, I found her not a maid:
-<sup>15</sup> then shall the father of the damsel, and her mother, take and bring forth _the tokens of_ the damsel's virginity unto the elders of the city in the gate:
-<sup>16</sup> and the damsel's father shall say unto the elders, I gave my daughter unto this man to wife, and he hateth her;
-<sup>17</sup> and, lo, he hath given occasions of speech _against her_, saying, I found not thy daughter a maid; and yet these _are the tokens of_ my daughter's virginity. And they shall spread the cloth before the elders of the city.
+<sup>15</sup> then shall the father of the damsel, and her mother, take and bring forth _the tokens of_ the damsel’s virginity unto the elders of the city in the gate:
+<sup>16</sup> and the damsel’s father shall say unto the elders, I gave my daughter unto this man to wife, and he hateth her;
+<sup>17</sup> and, lo, he hath given occasions of speech _against her_, saying, I found not thy daughter a maid; and yet these _are the tokens of_ my daughter’s virginity. And they shall spread the cloth before the elders of the city.
 <sup>18</sup> And the elders of that city shall take that man and chastise him;
 <sup>19</sup> and they shall amerce him in an hundred _shekels_ of silver, and give _them_ unto the father of the damsel, because he hath brought up an evil name upon a virgin of Israel: and she shall be his wife; he may not put her away all his days.
 <sup>20</sup> But if this thing be true, _and the tokens of_ virginity be not found for the damsel:
-<sup>21</sup> then they shall bring out the damsel to the door of her father's house, and the men of her city shall stone her with stones that she die: because she hath wrought folly in Israel, to play the whore in her father's house: so shalt thou put evil away from among you.
+<sup>21</sup> then they shall bring out the damsel to the door of her father’s house, and the men of her city shall stone her with stones that she die: because she hath wrought folly in Israel, to play the whore in her father’s house: so shalt thou put evil away from among you.
 
 <sup>22</sup> If a man be found lying with a woman married to an husband, then they shall both of them die, _both_ the man that lay with the woman, and the woman: so shalt thou put away evil from Israel.
 
 <sup>23</sup> If a damsel _that is_ a virgin be betrothed unto an husband, and a man find her in the city, and lie with her;
-<sup>24</sup> then ye shall bring them both out unto the gate of that city, and ye shall stone them with stones that they die; the damsel, because she cried not, _being_ in the city; and the man, because he hath humbled his neighbour's wife: so thou shalt put away evil from among you.
+<sup>24</sup> then ye shall bring them both out unto the gate of that city, and ye shall stone them with stones that they die; the damsel, because she cried not, _being_ in the city; and the man, because he hath humbled his neighbour’s wife: so thou shalt put away evil from among you.
 
 <sup>25</sup> But if a man find a betrothed damsel in the field, and the man force her,<sup>c</sup> and lie with her: then the man only that lay with her shall die:
 <sup>26</sup> but unto the damsel thou shalt do nothing; _there is_ in the damsel no sin _worthy_ of death: for as when a man riseth against his neighbour, and slayeth him, even so _is_ this matter:
 <sup>27</sup> for he found her in the field, _and_ the betrothed damsel cried, and _there was_ none to save her.
 
 <sup>28</sup> If a man find a damsel _that is_ a virgin, which is not betrothed, and lay hold on her, and lie with her, and they be found;
-<sup>29</sup> then the man that lay with her shall give unto the damsel's father fifty _shekels_ of silver, and she shall be his wife; because he hath humbled her, he may not put her away all his days.
+<sup>29</sup> then the man that lay with her shall give unto the damsel’s father fifty _shekels_ of silver, and she shall be his wife; because he hath humbled her, he may not put her away all his days.
 
-<sup>30</sup> A man shall not take his father's wife, nor discover his father's skirt.
+<sup>30</sup> A man shall not take his father’s wife, nor discover his father’s skirt.
 
 > - <sup>a</sup> 9. Heb. _fullness of the seed_
 > - <sup>b</sup> 12. Heb. _wings_
@@ -927,8 +927,8 @@
 <sup>22</sup> But if thou shalt forbear to vow, it shall be no sin in thee.
 <sup>23</sup> That which is gone out of thy lips thou shalt keep and perform; _even_ a freewill offering, according as thou hast vowed unto the LORD thy God, which thou hast promised with thy mouth.
 
-<sup>24</sup> When thou comest into thy neighbour's vineyard, then thou mayest eat grapes thy fill at thine own pleasure; but thou shalt not put _any_ in thy vessel.
-<sup>25</sup> When thou comest into the standing corn of thy neighbour, then thou mayest pluck the ears with thine hand; but thou shalt not move a sickle unto thy neighbour's standing corn.
+<sup>24</sup> When thou comest into thy neighbour’s vineyard, then thou mayest eat grapes thy fill at thine own pleasure; but thou shalt not put _any_ in thy vessel.
+<sup>25</sup> When thou comest into the standing corn of thy neighbour, then thou mayest pluck the ears with thine hand; but thou shalt not move a sickle unto thy neighbour’s standing corn.
 
 > - <sup>a</sup> 6. Heb. _good_
 > - <sup>b</sup> 11. Heb. _turneth toward_
@@ -940,13 +940,13 @@
 ## Chapter 24
 
 <sup>1</sup> When a man hath taken a wife, and married her, and it come to pass that she find no favour in his eyes, because he hath found some uncleanness<sup>a</sup> in her: then let him write her a bill of divorcement,<sup>b</sup> and give _it_ in her hand, and send her out of his house.
-<sup>2</sup> And when she is departed out of his house, she may go and be another man's _wife_.
+<sup>2</sup> And when she is departed out of his house, she may go and be another man’s _wife_.
 <sup>3</sup> And _if_ the latter husband hate her, and write her a bill of divorcement, and giveth _it_ in her hand, and sendeth her out of his house; or if the latter husband die, which took her _to be_ his wife;
 <sup>4</sup> her former husband, which sent her away, may not take her again to be his wife, after that she is defiled; for that _is_ abomination before the LORD: and thou shalt not cause the land to sin, which the LORD thy God giveth thee _for_ an inheritance.
 
 <sup>5</sup> When a man hath taken a new wife, he shall not go out to war, neither shall he be charged<sup>c</sup> with any business: _but_ he shall be free at home one year, and shall cheer up his wife which he hath taken.
 
-<sup>6</sup> No man shall take the nether or the upper millstone to pledge: for he taketh _a man's_ life to pledge.
+<sup>6</sup> No man shall take the nether or the upper millstone to pledge: for he taketh _a man’s_ life to pledge.
 
 <sup>7</sup> If a man be found stealing any of his brethren of the children of Israel, and maketh merchandise of him, or selleth him; then that thief shall die; and thou shalt put evil away from among you.
 
@@ -963,7 +963,7 @@
 
 <sup>16</sup> The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin.
 
-<sup>17</sup> Thou shalt not pervert the judgment of the stranger, _nor_ of the fatherless; nor take a widow's raiment to pledge:
+<sup>17</sup> Thou shalt not pervert the judgment of the stranger, _nor_ of the fatherless; nor take a widow’s raiment to pledge:
 <sup>18</sup> but thou shalt remember that thou wast a bondman in Egypt, and the LORD thy God redeemed thee thence: therefore I command thee to do this thing.
 
 <sup>19</sup> When thou cuttest down thine harvest in thy field, and hast forgot a sheaf in the field, thou shalt not go again to fetch it: it shall be for the stranger, for the fatherless, and for the widow: that the LORD thy God may bless thee in all the work of thine hands.
@@ -986,11 +986,11 @@
 
 <sup>4</sup> Thou shalt not muzzle the ox when he treadeth out _the corn_.
 
-<sup>5</sup> If brethren dwell together, and one of them die, and have no child, the wife of the dead shall not marry without unto a stranger: her husband's brother shall go in unto her, and take her to him to wife, and perform the duty of an husband's brother unto her.
+<sup>5</sup> If brethren dwell together, and one of them die, and have no child, the wife of the dead shall not marry without unto a stranger: her husband’s brother shall go in unto her, and take her to him to wife, and perform the duty of an husband’s brother unto her.
 <sup>6</sup> And it shall be, _that_ the firstborn which she beareth shall succeed in the name of his brother _which is_ dead, that his name be not put out of Israel.
-<sup>7</sup> And if the man like not to take his brother's wife, then let his brother's wife go up to the gate unto the elders, and say, My husband's brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband's brother.
+<sup>7</sup> And if the man like not to take his brother’s wife, then let his brother’s wife go up to the gate unto the elders, and say, My husband’s brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband’s brother.
 <sup>8</sup> Then the elders of his city shall call him, and speak unto him: and _if_ he stand _to it_, and say, I like not to take her;
-<sup>9</sup> then shall his brother's wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother's house.
+<sup>9</sup> then shall his brother’s wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother’s house.
 <sup>10</sup> And his name shall be called in Israel, The house of him that hath his shoe loosed.
 
 <sup>11</sup> When men strive together one with another, and the wife of the one draweth near for to deliver her husband out of the hand of him that smiteth him, and putteth forth her hand, and taketh him by the secrets:
@@ -1060,13 +1060,13 @@
 
 <sup>16</sup> Cursed _be_ he that setteth light by his father or his mother. And all the people shall say, Amen.
 
-<sup>17</sup> Cursed _be_ he that removeth his neighbour's landmark. And all the people shall say, Amen.
+<sup>17</sup> Cursed _be_ he that removeth his neighbour’s landmark. And all the people shall say, Amen.
 
 <sup>18</sup> Cursed _be_ he that maketh the blind to wander out of the way. And all the people shall say, Amen.
 
 <sup>19</sup> Cursed _be_ he that perverteth the judgment of the stranger, fatherless, and widow. And all the people shall say, Amen.
 
-<sup>20</sup> Cursed _be_ he that lieth with his father's wife; because he uncovereth his father's skirt. And all the people shall say, Amen.
+<sup>20</sup> Cursed _be_ he that lieth with his father’s wife; because he uncovereth his father’s skirt. And all the people shall say, Amen.
 
 <sup>21</sup> Cursed _be_ he that lieth with any manner of beast. And all the people shall say, Amen.
 
@@ -1308,7 +1308,7 @@
 <sup>6</sup> Do ye thus requite the LORD,<br>O foolish people and unwise?<br>_Is_ not he thy father _that_ hath bought thee?<br>Hath he not made thee, and established thee?<br>
 <sup>7</sup> Remember the days of old,<br>Consider the years of many generations:<sup>c</sup><br>Ask thy father, and he will shew thee;<br>Thy elders, and they will tell thee.<br>
 <sup>8</sup> When the Most High divided to the nations their inheritance,<br>When he separated the sons of Adam,<br>He set the bounds of the people<br>According to the number of the children of Israel.<br>
-<sup>9</sup> For the LORD's portion _is_ his people;<br>Jacob _is_ the lot<sup>d</sup> of his inheritance.<br>
+<sup>9</sup> For the LORD’s portion _is_ his people;<br>Jacob _is_ the lot<sup>d</sup> of his inheritance.<br>
 <sup>10</sup> He found him in a desert land,<br>And in the waste howling wilderness;<br>He led him about,<sup>e</sup> he instructed him,<br>He kept him as the apple of his eye.<br>
 <sup>11</sup> As an eagle stirreth up her nest,<br>Fluttereth over her young,<br>Spreadeth abroad her wings, taketh them,<br>Beareth them on her wings:<br>
 <sup>12</sup> _So_ the LORD alone did lead him,<br>And _there was_ no strange god with him.<br>
@@ -1404,7 +1404,7 @@
 <sup>20</sup> And of Gad he said,<br>Blessed _be_ he that enlargeth Gad:<br>He dwelleth as a lion,<br>And teareth the arm with the crown of the head.<br>
 <sup>21</sup> And he provided the first part for himself,<br>Because there, _in_ a portion of the lawgiver, _was he_ seated;<sup>g</sup><br>And he came with the heads of the people,<br>He executed the justice of the LORD,<br>And his judgments with Israel.<br>
 
-<sup>22</sup> And of Dan he said,<br>Dan _is_ a lion's whelp:<br>He shall leap from Bashan.<br>
+<sup>22</sup> And of Dan he said,<br>Dan _is_ a lion’s whelp:<br>He shall leap from Bashan.<br>
 
 <sup>23</sup> And of Naphtali he said,<br>O Naphtali, satisfied with favour,<br>And full with the blessing of the LORD:<br>Possess thou the west and the south.<br>
 

@@ -11,7 +11,7 @@
 <sup>8</sup> Shall I not in that day, saith the LORD, even destroy the wise _men_ out of Edom, and understanding out of the mount of Esau?
 <sup>9</sup> And thy mighty _men_, O Teman, shall be dismayed, to the end that every one of the mount of Esau may be cut off by slaughter.
 
-### Edom's Violence
+### Edom’s Violence
 
 <sup>10</sup> For _thy_ violence against thy brother Jacob shame shall cover thee, and thou shalt be cut off for ever.
 <sup>11</sup> In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates, and cast lots upon Jerusalem, even thou _wast_ as one of them.
@@ -27,7 +27,7 @@
 
 <sup>19</sup> And _they of_ the south shall possess the mount of Esau; and _they of_ the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin _shall possess_ Gilead.
 <sup>20</sup> And the captivity of this host of the children of Israel _shall possess_ that of the Canaanites, _even_ unto Zarephath; and the captivity of Jerusalem, which _is_ in Sepharad,<sup>l</sup> shall possess the cities of the south.
-<sup>21</sup> And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD's.
+<sup>21</sup> And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD’s.
 
 > - <sup>a</sup> 5. Or, _gleanings_
 > - <sup>b</sup> 7. Heb. _the men of thy peace_

@@ -6,7 +6,7 @@
 <sup>4</sup> Therefore the law is slacked, and judgment doth never go forth: for the wicked doth compass about the righteous; therefore wrong<sup>a</sup> judgment proceedeth.
 
 <sup>5</sup> Behold ye among the heathen, and regard, and wonder marvellously: for I will work a work in your days, _which_ ye will not believe, though it be told _you_.
-<sup>6</sup> For, lo, I raise up the Chaldeans, _that_ bitter and hasty nation, which shall march through the breadth<sup>b</sup> of the land, to possess the dwellingplaces _that are_ not their's.
+<sup>6</sup> For, lo, I raise up the Chaldeans, _that_ bitter and hasty nation, which shall march through the breadth<sup>b</sup> of the land, to possess the dwellingplaces _that are_ not their’s.
 <sup>7</sup> They _are_ terrible and dreadful: their judgment and their dignity shall proceed of themselves.<sup>c</sup>
 <sup>8</sup> Their horses also are swifter than the leopards, and are more fierce<sup>d</sup> than the evening wolves: and their horsemen shall spread themselves, and their horsemen shall come from far; they shall fly as the eagle _that_ hasteth to eat.
 
@@ -46,7 +46,7 @@
 <sup>5</sup> Yea also,<sup>d</sup> because he transgresseth by wine, _he is_ a proud man, neither keepeth at home, who enlargeth his desire as hell, and _is_ as death, and cannot be satisfied, but gathereth unto him all nations, and heapeth unto him all people:
 <sup>6</sup> shall not all these take up a parable against him, and a taunting proverb against him, and say, Woe to him<sup>e</sup> that increaseth _that which is_ not his! how long? and to him that ladeth himself with thick clay!
 <sup>7</sup> Shall they not rise up suddenly that shall bite thee, and awake that shall vex thee, and thou shalt be for booties unto them?
-<sup>8</sup> Because thou hast spoiled many nations, all the remnant of the people shall spoil thee; because of men's blood,<sup>f</sup> and _for_ the violence of the land, of the city, and of all that dwell therein.
+<sup>8</sup> Because thou hast spoiled many nations, all the remnant of the people shall spoil thee; because of men’s blood,<sup>f</sup> and _for_ the violence of the land, of the city, and of all that dwell therein.
 
 <sup>9</sup> Woe to him that coveteth an evil covetousness to his house, that he may set his nest on high, that he may be delivered from the power of evil!<sup>g</sup>
 <sup>10</sup> Thou hast consulted shame to thy house by cutting off many people, and hast sinned _against_ thy soul.
@@ -57,8 +57,8 @@
 <sup>14</sup> For the earth shall be filled with the knowledge of the glory of the LORD, as the waters cover the sea.
 
 <sup>15</sup> Woe unto him that giveth his neighbour drink, that puttest thy bottle to _him_, and makest _him_ drunken also, that thou mayest look on their nakedness!
-<sup>16</sup> Thou art filled with shame for glory:<sup>l</sup> drink thou also, and let thy foreskin be uncovered: the cup of the LORD's right hand shall be turned unto thee, and shameful spewing _shall be_ on thy glory.
-<sup>17</sup> For the violence of Lebanon shall cover thee, and the spoil of beasts, _which_ made them afraid, because of men's blood, and for the violence of the land, of the city, and of all that dwell therein.
+<sup>16</sup> Thou art filled with shame for glory:<sup>l</sup> drink thou also, and let thy foreskin be uncovered: the cup of the LORD’s right hand shall be turned unto thee, and shameful spewing _shall be_ on thy glory.
+<sup>17</sup> For the violence of Lebanon shall cover thee, and the spoil of beasts, _which_ made them afraid, because of men’s blood, and for the violence of the land, of the city, and of all that dwell therein.
 
 <sup>18</sup> What profiteth the graven image that the maker thereof hath graven it; the molten image, and a teacher of lies, that the maker of his work<sup>m</sup> trusteth therein, to make dumb idols?
 <sup>19</sup> Woe unto him that saith to the wood, Awake; to the dumb stone, Arise, it shall teach! Behold, it _is_ laid over with gold and silver, and _there is_ no breath at all in the midst of it.
@@ -101,7 +101,7 @@
 <sup>16</sup> When I heard, my belly trembled;<br>My lips quivered at the voice:<br>Rottenness entered into my bones, and I trembled in myself,<br>That I might rest in the day of trouble:<br>When he cometh up unto the people,<br>He will invade them<sup>n</sup> with his troops.<br>
 <sup>17</sup> Although the fig tree shall not blossom,<br>Neither _shall_ fruit _be_ in the vines;<br>The labour of the olive shall fail,<sup>o</sup><br>And the fields shall yield no meat;<br>The flock shall be cut off from the fold,<br>And _there shall be_ no herd in the stalls:<br>
 <sup>18</sup> Yet I will rejoice in the LORD,<br>I will joy in the God of my salvation.<br>
-<sup>19</sup> The LORD God _is_ my strength,<br>And he will make my feet like hinds' _feet_,<br>And he will make me to walk upon mine high places.<br>
+<sup>19</sup> The LORD God _is_ my strength,<br>And he will make my feet like hinds’ _feet_,<br>And he will make me to walk upon mine high places.<br>
 
 To the chief singer on my stringed instruments.<sup>p</sup>
 

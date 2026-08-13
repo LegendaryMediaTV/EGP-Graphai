@@ -75,7 +75,7 @@
     "chapter": 1,
     "verse": 4,
     "content": [
-      { "heading": "The Prophet's Call" },
+      { "heading": "The Prophet’s Call" },
       { "paragraph": true, "text": "Then the word", "strong": "H1697" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
@@ -485,7 +485,13 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      { "heading": "The Word of the Lord to Judah" },
+      {
+        "heading": [
+          "The Word of the ",
+          { "text": "Lord", "marks": ["sc"] },
+          " to Judah"
+        ]
+      },
       { "paragraph": true, "text": "Moreover the word", "strong": "H1697" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
@@ -737,7 +743,7 @@
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " and with your children's", "strong": "H1121" },
+      { "text": " and with your children’s", "strong": "H1121" },
       { "text": " children", "strong": "H1121" },
       { "text": " will I plead.", "strong": "H7378", "morph": "QalImpf" }
     ]
@@ -1583,7 +1589,7 @@
       { "text": " his wife,", "strong": "H802" },
       { "text": " and she go", "strong": "H1980", "morph": "QalPerf" },
       { "text": " from him, and become another", "strong": "H312" },
-      { "text": " man's,", "strong": "H376" },
+      { "text": " man’s,", "strong": "H376" },
       {
         "text": " shall he return unto her again?",
         "strong": "H7725",
@@ -1650,7 +1656,7 @@
       },
       { "text": " and there hath been no latter rain;", "strong": "H4456" },
       {
-        "text": " and thou hadst a whore's",
+        "text": " and thou hadst a whore’s",
         "strong": "H2181",
         "morph": "QalActPtc"
       },
@@ -2898,7 +2904,7 @@
     "chapter": 4,
     "verse": 19,
     "content": [
-      { "heading": "The Prophet's Grief" },
+      { "heading": "The Prophet’s Grief" },
       { "paragraph": true, "text": "My bowels,", "strong": "H4578" },
       { "text": " my bowels!", "strong": "H4578" },
       { "text": " I am pained", "strong": "H2342", "morph": "QalImpf/Qere" },
@@ -3543,7 +3549,7 @@
         "strong": "H1413",
         "morph": "HipoImpf"
       },
-      { "text": " in the harlots'", "strong": "H2181", "morph": "QalActPtc" },
+      { "text": " in the harlots’", "strong": "H2181", "morph": "QalActPtc" },
       { "text": " houses.", "strong": "H1004" }
     ]
   },
@@ -3561,7 +3567,7 @@
       { "text": " in the morning:", "strong": "H7904", "morph": "HiphPtc" },
       { "text": " every one", "strong": "H376" },
       { "text": " neighed", "strong": "H6670", "morph": "QalImpf" },
-      { "text": " after his neighbour's", "strong": "H7453" },
+      { "text": " after his neighbour’s", "strong": "H7453" },
       { "text": " wife.", "strong": "H802" }
     ]
   },
@@ -3613,7 +3619,7 @@
           { "text": "are", "marks": ["i"] },
           " not the ",
           { "text": "Lord", "marks": ["sc"] },
-          "'s."
+          "’s."
         ],
         "strong": "H3068"
       }
@@ -3691,7 +3697,7 @@
     "chapter": 5,
     "verse": 14,
     "content": [
-      { "heading": "The Lord's Agents" },
+      { "heading": ["The ", { "text": "Lord", "marks": ["sc"] }, "’s Agents"] },
       {
         "paragraph": true,
         "text": "Wherefore thus saith",
@@ -5025,7 +5031,7 @@
       { "text": "Stand", "strong": "H5975", "morph": "QalImpv" },
       { "text": " in the gate", "strong": "H8179" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house,", "strong": "H1004" },
@@ -6556,7 +6562,7 @@
     "chapter": 8,
     "verse": 18,
     "content": [
-      { "heading": "The Prophet's Sorrow" },
+      { "heading": "The Prophet’s Sorrow" },
       {
         "paragraph": true,
         "content": [{ "text": "When", "marks": ["i"] }, " I would comfort"],
@@ -8995,7 +9001,7 @@
     "chapter": 12,
     "verse": 1,
     "content": [
-      { "heading": "The Prophet's Problem" },
+      { "heading": "The Prophet’s Problem" },
       { "paragraph": true, "text": "Righteous", "strong": "H6662" },
       {
         "content": [
@@ -9887,7 +9893,7 @@
       { "text": " of this land,", "strong": "H776" },
       { "text": " even the kings", "strong": "H4428" },
       { "text": " that sit", "strong": "H3427", "morph": "QalActPtc" },
-      { "text": " upon David's", "strong": "H1732" },
+      { "text": " upon David’s", "strong": "H1732" },
       { "text": " throne,", "strong": "H3678" },
       { "text": " and the priests,", "strong": "H3548" },
       { "text": " and the prophets,", "strong": "H5030" },
@@ -10023,7 +10029,7 @@
       { "text": " and run down", "strong": "H3381", "morph": "QalImpf" },
       { "text": " with tears,", "strong": "H1832" },
       {
-        "content": [" because the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" because the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " flock", "strong": "H5739" },
@@ -10111,7 +10117,7 @@
     "chapter": 13,
     "verse": 20,
     "content": [
-      { "heading": "The Leopard's Spots" },
+      { "heading": "The Leopard’s Spots" },
       {
         "paragraph": true,
         "text": "Lift up",
@@ -10464,7 +10470,7 @@
         "content": [
           " thou ",
           { "text": "it", "marks": ["i"] },
-          " for thy name's"
+          " for thy name’s"
         ],
         "strong": "H8034"
       },
@@ -10887,7 +10893,7 @@
     "content": [
       { "text": "Do not abhor", "strong": "H5006", "morph": "QalImpf" },
       {
-        "content": [" ", { "text": "us", "marks": ["i"] }, ", for thy name's"],
+        "content": [" ", { "text": "us", "marks": ["i"] }, ", for thy name’s"],
         "strong": "H8034"
       },
       {
@@ -11329,7 +11335,7 @@
     "chapter": 15,
     "verse": 10,
     "content": [
-      { "heading": "The Prophet's Lament" },
+      { "heading": "The Prophet’s Lament" },
       { "paragraph": true, "text": "Woe", "strong": "H188" },
       { "text": " is me, my mother,", "strong": "H517" },
       {
@@ -12469,7 +12475,7 @@
     "chapter": 17,
     "verse": 5,
     "content": [
-      { "heading": "Trust in the Lord" },
+      { "heading": ["Trust in the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "text": "Thus saith",
@@ -13188,7 +13194,7 @@
     "content": [
       { "text": "Arise,", "strong": "H6965", "morph": "QalImpv" },
       { "text": " and go down", "strong": "H3381", "morph": "QalPerf" },
-      { "text": " to the potter's", "strong": "H3335", "morph": "QalActPtc" },
+      { "text": " to the potter’s", "strong": "H3335", "morph": "QalActPtc" },
       { "text": " house,", "strong": "H1004" },
       {
         "text": " and there I will cause thee to hear",
@@ -13204,7 +13210,7 @@
     "verse": 3,
     "content": [
       { "text": "Then I went down", "strong": "H3381", "morph": "QalImpf" },
-      { "text": " to the potter's", "strong": "H3335", "morph": "QalActPtc" },
+      { "text": " to the potter’s", "strong": "H3335", "morph": "QalActPtc" },
       { "text": " house,", "strong": "H1004" },
       { "text": " and, behold,", "strong": "H2009" },
       { "text": " he wrought", "strong": "H6213", "morph": "QalActPtc" },
@@ -13290,7 +13296,7 @@
       },
       { "text": " Behold, as the clay", "strong": "H2563" },
       {
-        "content": [" ", { "text": "is", "marks": ["i"] }, " in the potter's"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in the potter’s"],
         "strong": "H3335",
         "morph": "QalActPtc"
       },
@@ -13838,7 +13844,7 @@
       },
       { "text": " Go", "strong": "H1980", "morph": "QalInf" },
       { "text": " and get", "strong": "H7069", "morph": "QalPerf" },
-      { "text": " a potter's", "strong": "H3335", "morph": "QalActPtc" },
+      { "text": " a potter’s", "strong": "H3335", "morph": "QalActPtc" },
       { "text": " earthen", "strong": "H2789" },
       { "text": " bottle,", "strong": "H1228" },
       {
@@ -14138,7 +14144,7 @@
         "strong": "H7665",
         "morph": "QalImpf"
       },
-      { "text": " a potter's", "strong": "H3335", "morph": "QalActPtc" },
+      { "text": " a potter’s", "strong": "H3335", "morph": "QalActPtc" },
       { "text": " vessel,", "strong": "H3627" },
       { "text": " that cannot", "strong": "H3201", "morph": "QalImpf" },
       {
@@ -14251,7 +14257,7 @@
       { "text": " and he stood", "strong": "H5975", "morph": "QalImpf" },
       { "text": " in the court", "strong": "H2691" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house;", "strong": "H1004" },
@@ -15440,7 +15446,7 @@
         "content": [" the ", { "text": "Lord", "marks": ["sc"] }],
         "strong": "H3068"
       },
-      { "text": " unto the king's", "strong": "H4428" },
+      { "text": " unto the king’s", "strong": "H4428" },
       { "text": " house", "strong": "H1004" },
       { "text": " of Judah;", "strong": "H3063" },
       {
@@ -15649,7 +15655,7 @@
         "content": [
           " ",
           { "text": "that", "marks": ["i"] },
-          " useth his neighbour's"
+          " useth his neighbour’s"
         ],
         "strong": "H7453"
       },
@@ -17201,7 +17207,7 @@
         "strong": "H3068"
       },
       { "text": " shall ye mention", "strong": "H2142", "morph": "QalImpf" },
-      { "text": " no more: for every man's", "strong": "H376" },
+      { "text": " no more: for every man’s", "strong": "H376" },
       { "text": " word", "strong": "H1697" },
       { "text": " shall be his burden;", "strong": "H4853" },
       {
@@ -18127,7 +18133,7 @@
       { "text": "Then took", "strong": "H3947", "morph": "QalImpf" },
       { "text": " I the cup", "strong": "H3563" },
       {
-        "content": [" at the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" at the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " hand,", "strong": "H3027" },
@@ -18760,7 +18766,7 @@
       { "text": " Stand", "strong": "H5975", "morph": "QalImpv" },
       { "text": " in the court", "strong": "H2691" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house,", "strong": "H1004" },
@@ -18770,7 +18776,7 @@
       { "text": " which come", "strong": "H935", "morph": "QalActPtc" },
       { "text": " to worship", "strong": "H7812", "morph": "HithInf" },
       {
-        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house,", "strong": "H1004" },
@@ -18969,7 +18975,7 @@
       { "text": " heard", "strong": "H8085", "morph": "QalImpf" },
       { "text": " these things,", "strong": "H1697" },
       { "text": " then they came up", "strong": "H5927", "morph": "QalImpf" },
-      { "text": " from the king's", "strong": "H4428" },
+      { "text": " from the king’s", "strong": "H4428" },
       { "text": " house", "strong": "H1004" },
       { "text": " unto the house", "strong": "H1004" },
       {
@@ -18988,7 +18994,7 @@
       { "text": " of the new", "strong": "H2319" },
       { "text": " gate", "strong": "H8179" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       " ",
@@ -19429,7 +19435,7 @@
     "chapter": 27,
     "verse": 1,
     "content": [
-      { "heading": "A Yoke on the Prophet's Neck" },
+      { "heading": "A Yoke on the Prophet’s Neck" },
       { "paragraph": true, "text": "In the beginning", "strong": "H7225" },
       { "text": " of the reign", "strong": "H4467" },
       { "text": " of Jehoiakim", "strong": "H3079" },
@@ -19574,7 +19580,7 @@
       { "text": "And all nations", "strong": "H1471" },
       { "text": " shall serve", "strong": "H5647", "morph": "QalPerf" },
       { "text": " him, and his son,", "strong": "H1121" },
-      { "text": " and his son's", "strong": "H1121" },
+      { "text": " and his son’s", "strong": "H1121" },
       { "text": " son,", "strong": "H1121" },
       { "text": " until the very time", "strong": "H6256" },
       { "text": " of his land", "strong": "H776" },
@@ -19850,7 +19856,7 @@
       { "text": " unto you, saying,", "strong": "H559", "morph": "QalInf" },
       { "text": " Behold, the vessels", "strong": "H3627" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house", "strong": "H1004" },
@@ -20119,7 +20125,7 @@
       { "text": " into this place", "strong": "H4725" },
       { "text": " all the vessels", "strong": "H3627" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house,", "strong": "H1004" },
@@ -20220,7 +20226,7 @@
       { "text": " to bring again", "strong": "H7725", "morph": "HiphInf" },
       { "text": " the vessels", "strong": "H3627" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house,", "strong": "H1004" },
@@ -20295,7 +20301,7 @@
       { "text": " took", "strong": "H3947", "morph": "QalImpf" },
       { "text": " the yoke", "strong": "H4133" },
       { "text": " from off the prophet", "strong": "H5030" },
-      { "text": " Jeremiah's", "strong": "H3414" },
+      { "text": " Jeremiah’s", "strong": "H3414" },
       { "text": " neck,", "strong": "H6677" },
       { "text": " and brake", "strong": "H7665", "morph": "QalImpf" },
       " it."
@@ -21139,7 +21145,7 @@
       { "text": " in Israel,", "strong": "H3478" },
       { "text": " and have committed", "strong": "H6213", "morph": "QalPerf" },
       { "text": " adultery", "strong": "H5003", "morph": "PielImpf" },
-      { "text": " with their neighbours'", "strong": "H7453" },
+      { "text": " with their neighbours’", "strong": "H7453" },
       { "text": " wives,", "strong": "H802" },
       { "text": " and have spoken", "strong": "H1696", "morph": "PielImpf" },
       { "text": " lying", "strong": "H8267" },
@@ -21617,7 +21623,7 @@
         ],
         "strong": "H6256"
       },
-      { "text": " of Jacob's", "strong": "H3290" },
+      { "text": " of Jacob’s", "strong": "H3290" },
       { "text": " trouble;", "strong": "H6869" },
       {
         "text": " but he shall be saved",
@@ -21974,7 +21980,7 @@
         "morph": "QalActPtc"
       },
       { "text": " the captivity", "strong": "H7622" },
-      { "text": " of Jacob's", "strong": "H3290" },
+      { "text": " of Jacob’s", "strong": "H3290" },
       { "text": " tents,", "strong": "H168" },
       { "text": " and have mercy", "strong": "H7355", "morph": "PielImpf" },
       { "text": " on his dwellingplaces;", "strong": "H4908" },
@@ -23047,7 +23053,7 @@
       { "text": " no more, The fathers", "strong": "H1" },
       { "text": " have eaten", "strong": "H398", "morph": "QalPerf" },
       { "text": " a sour grape,", "strong": "H1155" },
-      { "text": " and the children's", "strong": "H1121" },
+      { "text": " and the children’s", "strong": "H1121" },
       { "text": " teeth", "strong": "H8127" },
       { "text": " are set on edge.", "strong": "H6949", "morph": "QalImpf" }
     ]
@@ -23430,7 +23436,7 @@
     "verse": 2,
     "content": [
       { "text": "For then the king", "strong": "H4428" },
-      { "text": " of Babylon's", "strong": "H894" },
+      { "text": " of Babylon’s", "strong": "H894" },
       { "text": " army", "strong": "H2428" },
       { "text": " besieged", "strong": "H6696", "morph": "QalActPtc" },
       { "text": " Jerusalem:", "strong": "H3389" },
@@ -23447,7 +23453,7 @@
         ],
         "strong": "H4428"
       },
-      { "text": " of Judah's", "strong": "H3063" },
+      { "text": " of Judah’s", "strong": "H3063" },
       { "text": " house.", "strong": "H1004" }
     ]
   },
@@ -23590,7 +23596,7 @@
     "verse": 8,
     "content": [
       { "text": "So Hanameel", "strong": "H2601" },
-      { "text": " mine uncle's", "strong": "H1730" },
+      { "text": " mine uncle’s", "strong": "H1730" },
       { "text": " son", "strong": "H1121" },
       { "text": " came", "strong": "H935", "morph": "QalImpf" },
       { "text": " to me in the court", "strong": "H2691" },
@@ -23666,7 +23672,7 @@
       { "text": "And I bought", "strong": "H7069", "morph": "QalImpf" },
       { "text": " the field", "strong": "H7704" },
       { "text": " of Hanameel", "strong": "H2601" },
-      { "text": " my uncle's", "strong": "H1730" },
+      { "text": " my uncle’s", "strong": "H1730" },
       { "text": " son,", "strong": "H1121" },
       {
         "content": [
@@ -23774,7 +23780,7 @@
       { "text": " of Maaseiah,", "strong": "H4271" },
       { "text": " in the sight", "strong": "H5869" },
       { "text": " of Hanameel", "strong": "H2601" },
-      { "text": " mine uncle's", "strong": "H1730" },
+      { "text": " mine uncle’s", "strong": "H1730" },
       {
         "content": [
           " ",
@@ -25616,7 +25622,7 @@
     "verse": 7,
     "content": [
       { "text": "when the king", "strong": "H4428" },
-      { "text": " of Babylon's", "strong": "H894" },
+      { "text": " of Babylon’s", "strong": "H894" },
       { "text": " army", "strong": "H2428" },
       { "text": " fought", "strong": "H3898", "morph": "NiphPtc" },
       { "text": " against Jerusalem,", "strong": "H3389" },
@@ -26062,7 +26068,7 @@
       { "text": " their life,", "strong": "H5315" },
       { "text": " and into the hand", "strong": "H3027" },
       { "text": " of the king", "strong": "H4428" },
-      { "text": " of Babylon's", "strong": "H894" },
+      { "text": " of Babylon’s", "strong": "H894" },
       { "text": " army,", "strong": "H2428" },
       { "text": " which are gone up", "strong": "H5927", "morph": "QalActPtc" },
       " from you."
@@ -26462,7 +26468,7 @@
       { "text": " for unto this day", "strong": "H3117" },
       { "text": " they drink", "strong": "H8354", "morph": "QalPerf" },
       { "text": " none, but obey", "strong": "H8085", "morph": "QalPerf" },
-      { "text": " their father's", "strong": "H1" },
+      { "text": " their father’s", "strong": "H1" },
       { "text": " commandment:", "strong": "H4687" },
       {
         "text": " notwithstanding I have spoken",
@@ -26812,7 +26818,7 @@
       { "text": " in the ears", "strong": "H241" },
       { "text": " of the people", "strong": "H5971" },
       {
-        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house", "strong": "H1004" },
@@ -26893,7 +26899,7 @@
         "strong": "H3068"
       },
       {
-        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house.", "strong": "H1004" }
@@ -26974,7 +26980,7 @@
       { "text": " of the new", "strong": "H2319" },
       { "text": " gate", "strong": "H8179" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house,", "strong": "H1004" },
@@ -27007,9 +27013,9 @@
     "verse": 12,
     "content": [
       { "text": "then he went down", "strong": "H3381", "morph": "QalImpf" },
-      { "text": " into the king's", "strong": "H4428" },
+      { "text": " into the king’s", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
-      { "text": " into the scribe's", "strong": "H5608", "morph": "QalActPtc" },
+      { "text": " into the scribe’s", "strong": "H5608", "morph": "QalActPtc" },
       { "text": " chamber:", "strong": "H3957" },
       { "text": " and, lo, all the princes", "strong": "H8269" },
       { "text": " sat", "strong": "H3427", "morph": "QalActPtc" },
@@ -27219,7 +27225,7 @@
       { "text": " the roll:", "strong": "H4039" },
       { "text": " and he took", "strong": "H3947", "morph": "QalImpf" },
       { "text": " it out of Elishama", "strong": "H476" },
-      { "text": " the scribe's", "strong": "H5608", "morph": "QalActPtc" },
+      { "text": " the scribe’s", "strong": "H5608", "morph": "QalActPtc" },
       { "text": " chamber.", "strong": "H3957" },
       { "text": " And Jehudi", "strong": "H3065" },
       { "text": " read", "strong": "H7121", "morph": "QalImpf" },
@@ -27587,7 +27593,7 @@
     "chapter": 37,
     "verse": 1,
     "content": [
-      { "heading": "The King's Appeal" },
+      { "heading": "The King’s Appeal" },
       { "paragraph": true, "text": "And king", "strong": "H4428" },
       { "text": " Zedekiah", "strong": "H6667" },
       { "text": " the son", "strong": "H1121" },
@@ -27685,7 +27691,7 @@
     "chapter": 37,
     "verse": 5,
     "content": [
-      { "text": "Then Pharaoh's", "strong": "H6547" },
+      { "text": "Then Pharaoh’s", "strong": "H6547" },
       { "text": " army", "strong": "H2428" },
       { "text": " was come forth", "strong": "H3318", "morph": "QalPerf" },
       { "text": " out of Egypt:", "strong": "H4714" },
@@ -27738,7 +27744,7 @@
         "strong": "H1875",
         "morph": "QalInf"
       },
-      { "text": " of me; Behold, Pharaoh's", "strong": "H6547" },
+      { "text": " of me; Behold, Pharaoh’s", "strong": "H6547" },
       { "text": " army,", "strong": "H2428" },
       {
         "text": " which is come forth",
@@ -27868,7 +27874,7 @@
       },
       { "text": " from Jerusalem", "strong": "H3389" },
       { "text": " for fear", "strong": "H6440" },
-      { "text": " of Pharaoh's", "strong": "H6547" },
+      { "text": " of Pharaoh’s", "strong": "H6547" },
       { "text": " army,", "strong": "H2428" }
     ]
   },
@@ -28147,7 +28153,7 @@
       { "text": " him daily", "strong": "H3117" },
       { "text": " a piece", "strong": "H3603" },
       { "text": " of bread", "strong": "H3899" },
-      { "text": " out of the bakers'", "strong": "H644", "morph": "QalActPtc" },
+      { "text": " out of the bakers’", "strong": "H644", "morph": "QalActPtc" },
       { "text": " street,", "strong": "H2351" },
       { "text": " until all the bread", "strong": "H3899" },
       { "text": " in the city", "strong": "H5892" },
@@ -28231,7 +28237,7 @@
       { "text": " be given", "strong": "H5414", "morph": "NiphImpf" },
       { "text": " into the hand", "strong": "H3027" },
       { "text": " of the king", "strong": "H4428" },
-      { "text": " of Babylon's", "strong": "H894" },
+      { "text": " of Babylon’s", "strong": "H894" },
       { "text": " army,", "strong": "H2428" },
       { "text": " which shall take", "strong": "H3920", "morph": "QalPerf" },
       " it."
@@ -28360,7 +28366,7 @@
       { "text": " the Ethiopian,", "strong": "H3569" },
       { "text": " one", "strong": "H376" },
       { "text": " of the eunuchs", "strong": "H5631" },
-      { "text": " which was in the king's", "strong": "H4428" },
+      { "text": " which was in the king’s", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
       { "text": " heard", "strong": "H8085", "morph": "QalImpf" },
       { "text": " that they had put", "strong": "H5414", "morph": "QalPerf" },
@@ -28379,7 +28385,7 @@
     "content": [
       { "text": "Ebed-melech", "strong": "H5663" },
       { "text": " went forth", "strong": "H3318", "morph": "QalImpf" },
-      { "text": " out of the king's", "strong": "H4428" },
+      { "text": " out of the king’s", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
       { "text": " and spake", "strong": "H1696", "morph": "PielImpf" },
       { "text": " to the king,", "strong": "H4428" },
@@ -28661,7 +28667,7 @@
       },
       { "text": " go forth", "strong": "H3318", "morph": "QalImpf" },
       { "text": " unto the king", "strong": "H4428" },
-      { "text": " of Babylon's", "strong": "H894" },
+      { "text": " of Babylon’s", "strong": "H894" },
       { "text": " princes,", "strong": "H8269" },
       { "text": " then thy soul", "strong": "H5315" },
       { "text": " shall live,", "strong": "H2421", "morph": "QalPerf" },
@@ -28691,7 +28697,7 @@
         "morph": "QalImpf"
       },
       { "text": " to the king", "strong": "H4428" },
-      { "text": " of Babylon's", "strong": "H894" },
+      { "text": " of Babylon’s", "strong": "H894" },
       { "text": " princes,", "strong": "H8269" },
       { "text": " then shall this city", "strong": "H5892" },
       { "text": " be given", "strong": "H5414", "morph": "NiphPerf" },
@@ -28785,7 +28791,7 @@
       { "text": "and, behold, all the women", "strong": "H802" },
       { "text": " that are left", "strong": "H7604", "morph": "NiphPerf" },
       { "text": " in the king", "strong": "H4428" },
-      { "text": " of Judah's", "strong": "H3063" },
+      { "text": " of Judah’s", "strong": "H3063" },
       { "text": " house", "strong": "H1004" },
       {
         "content": [
@@ -28797,7 +28803,7 @@
         "morph": "HophPtc"
       },
       { "text": " to the king", "strong": "H4428" },
-      { "text": " of Babylon's", "strong": "H894" },
+      { "text": " of Babylon’s", "strong": "H894" },
       { "text": " princes,", "strong": "H8269" },
       {
         "content": [
@@ -28936,7 +28942,7 @@
         "strong": "H7725",
         "morph": "HiphInf"
       },
-      { "text": " to Jonathan's", "strong": "H3083" },
+      { "text": " to Jonathan’s", "strong": "H3083" },
       { "text": " house,", "strong": "H1004" },
       { "text": " to die", "strong": "H4191", "morph": "QalInf" },
       " there."
@@ -29103,7 +29109,7 @@
       { "text": " out of the city", "strong": "H5892" },
       { "text": " by night,", "strong": "H3915" },
       { "text": " by the way", "strong": "H1870" },
-      { "text": " of the king's", "strong": "H4428" },
+      { "text": " of the king’s", "strong": "H4428" },
       { "text": " garden,", "strong": "H1588" },
       { "text": " by the gate", "strong": "H8179" },
       { "text": " betwixt the two walls:", "strong": "H2346" },
@@ -29117,7 +29123,7 @@
     "chapter": 39,
     "verse": 5,
     "content": [
-      { "text": "But the Chaldeans'", "strong": "H3778" },
+      { "text": "But the Chaldeans’", "strong": "H3778" },
       { "text": " army", "strong": "H2428" },
       { "text": " pursued", "strong": "H7291", "morph": "QalImpf" },
       { "text": " after", "strong": "H310" },
@@ -29180,7 +29186,7 @@
     "verse": 7,
     "content": [
       { "text": "Moreover he put out", "strong": "H5786", "morph": "PielPerf" },
-      { "text": " Zedekiah's", "strong": "H6667" },
+      { "text": " Zedekiah’s", "strong": "H6667" },
       { "text": " eyes,", "strong": "H5869" },
       { "text": " and bound", "strong": "H631", "morph": "QalImpf" },
       {
@@ -29207,7 +29213,7 @@
     "content": [
       { "text": "And the Chaldeans", "strong": "H3778" },
       { "text": " burned", "strong": "H8313", "morph": "QalPerf" },
-      { "text": " the king's", "strong": "H4428" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " house,", "strong": "H1004" },
       { "text": " and the houses", "strong": "H1004" },
       { "text": " of the people,", "strong": "H5971" },
@@ -29363,7 +29369,7 @@
       { "text": " and Nergal-sharezer,", "strong": "H5371" },
       { "text": " Rab-mag,", "strong": "H7248" },
       { "text": " and all the king", "strong": "H4428" },
-      { "text": " of Babylon's", "strong": "H894" },
+      { "text": " of Babylon’s", "strong": "H894" },
       { "text": " princes;", "strong": "H7227" }
     ]
   },
@@ -30404,7 +30410,7 @@
         "strong": "H4709"
       },
       {
-        "content": [" ", { "text": "even", "marks": ["i"] }, " the king's"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " the king’s"],
         "strong": "H4428"
       },
       { "text": " daughters,", "strong": "H1323" },
@@ -30662,7 +30668,7 @@
     "chapter": 42,
     "verse": 1,
     "content": [
-      { "heading": "Jeremiah's Counsel" },
+      { "heading": "Jeremiah’s Counsel" },
       { "paragraph": true, "text": "Then all the captains", "strong": "H8269" },
       { "text": " of the forces,", "strong": "H2428" },
       { "text": " and Johanan", "strong": "H3110" },
@@ -31555,7 +31561,7 @@
       },
       { "text": " and women,", "strong": "H802" },
       { "text": " and children,", "strong": "H2945" },
-      { "text": " and the king's", "strong": "H4428" },
+      { "text": " and the king’s", "strong": "H4428" },
       { "text": " daughters,", "strong": "H1323" },
       { "text": " and every person", "strong": "H5315" },
       { "text": " that Nebuzar-adan", "strong": "H5018" },
@@ -31634,7 +31640,7 @@
         ],
         "strong": "H6607"
       },
-      { "text": " of Pharaoh's", "strong": "H6547" },
+      { "text": " of Pharaoh’s", "strong": "H6547" },
       { "text": " house", "strong": "H1004" },
       { "text": " in Tahpanhes,", "strong": "H8471" },
       { "text": " in the sight", "strong": "H5869" },
@@ -32404,7 +32410,7 @@
     "chapter": 44,
     "verse": 20,
     "content": [
-      { "heading": "The Prophet's Answer" },
+      { "heading": "The Prophet’s Answer" },
       { "paragraph": true, "text": "Then Jeremiah", "strong": "H3414" },
       { "text": " said", "strong": "H559", "morph": "QalImpf" },
       { "text": " unto all the people,", "strong": "H5971" },
@@ -32697,7 +32703,7 @@
       { "text": " there, shall know", "strong": "H3045", "morph": "QalPerf" },
       { "text": " whose words", "strong": "H1697" },
       { "text": " shall stand,", "strong": "H6965", "morph": "QalImpf" },
-      " mine, or their's."
+      " mine, or their’s."
     ]
   },
   {
@@ -33142,7 +33148,7 @@
     "chapter": 46,
     "verse": 10,
     "content": [
-      { "heading": "The Day of the Lord" },
+      { "heading": ["The Day of the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "content": ["For this ", { "text": "is", "marks": ["i"] }, " the day"],
@@ -34700,7 +34706,7 @@
         "morph": "PielImpf"
       },
       { "text": " in the sides", "strong": "H5676" },
-      { "text": " of the hole's", "strong": "H6354" },
+      { "text": " of the hole’s", "strong": "H6354" },
       { "text": " mouth.", "strong": "H6310" }
     ]
   },
@@ -35069,7 +35075,7 @@
       { "text": " is taken,", "strong": "H3920", "morph": "NiphPerf" },
       { "text": " and the strong holds", "strong": "H4679" },
       { "text": " are surprised,", "strong": "H8610", "morph": "NiphPerf" },
-      { "text": " and the mighty men's", "strong": "H1368" },
+      { "text": " and the mighty men’s", "strong": "H1368" },
       { "text": " hearts", "strong": "H3820" },
       { "text": " in Moab", "strong": "H4124" },
       { "text": " at that day", "strong": "H3117" },
@@ -38098,7 +38104,7 @@
         "strong": "H6256"
       },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " vengeance;", "strong": "H5360" },
@@ -38118,7 +38124,7 @@
       },
       { "text": " cup", "strong": "H3563" },
       {
-        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " hand,", "strong": "H3027" },
@@ -39060,7 +39066,7 @@
         "strong": "H5286",
         "morph": "QalPerf"
       },
-      { "text": " as lions'", "strong": "H738" },
+      { "text": " as lions’", "strong": "H738" },
       { "text": " whelps.", "strong": "H1484" }
     ]
   },
@@ -39390,7 +39396,7 @@
       { "text": " are come", "strong": "H935", "morph": "QalPerf" },
       { "text": " into the sanctuaries", "strong": "H4720" },
       {
-        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house.", "strong": "H1004" }
@@ -39817,7 +39823,7 @@
       { "strong": "H6240" },
       { "text": " years", "strong": "H8141" },
       { "text": " in Jerusalem.", "strong": "H3389" },
-      { "text": " And his mother's", "strong": "H517" },
+      { "text": " And his mother’s", "strong": "H517" },
       { "text": " name", "strong": "H8034" },
       {
         "content": [" ", { "text": "was", "marks": ["i"] }, " Hamutal"],
@@ -39965,7 +39971,7 @@
         "content": [
           " which ",
           { "text": "was", "marks": ["i"] },
-          " by the king's"
+          " by the king’s"
         ],
         "strong": "H4428"
       },
@@ -40156,7 +40162,7 @@
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }, ","],
         "strong": "H3068"
       },
-      { "text": " and the king's", "strong": "H4428" },
+      { "text": " and the king’s", "strong": "H4428" },
       { "text": " house;", "strong": "H1004" },
       { "text": " and all the houses", "strong": "H1004" },
       { "text": " of Jerusalem,", "strong": "H3389" },
@@ -40568,7 +40574,7 @@
         "strong": "H7200",
         "morph": "QalActPtc"
       },
-      { "text": " the king's", "strong": "H4428" },
+      { "text": " the king’s", "strong": "H4428" },
       { "text": " person,", "strong": "H6440" },
       { "text": " which were found", "strong": "H4672", "morph": "NiphPerf" },
       { "text": " in the city;", "strong": "H5892" },

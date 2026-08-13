@@ -201,7 +201,7 @@
 <sup>7</sup> Therefore now shall they go captive with the first that go captive, and the banquet of them that stretched themselves shall be removed.
 <sup>8</sup> The Lord GOD hath sworn by himself, saith the LORD the God of hosts, I abhor the excellency of Jacob, and hate his palaces: therefore will I deliver up the city with all that is therein.<sup>g</sup>
 <sup>9</sup> And it shall come to pass, if there remain ten men in one house, that they shall die.
-<sup>10</sup> And a man's uncle shall take him up, and he that burneth him, to bring out the bones out of the house, and shall say unto him that _is_ by the sides of the house, _Is there_ yet _any_ with thee? and he shall say, No. Then shall he say, Hold thy tongue: for we may not make mention of the name of the LORD.
+<sup>10</sup> And a man’s uncle shall take him up, and he that burneth him, to bring out the bones out of the house, and shall say unto him that _is_ by the sides of the house, _Is there_ yet _any_ with thee? and he shall say, No. Then shall he say, Hold thy tongue: for we may not make mention of the name of the LORD.
 <sup>11</sup> For, behold, the LORD commandeth, and he will smite the great house with breaches,<sup>h</sup> and the little house with clefts.
 
 <sup>12</sup> Shall horses run upon the rock? will _one_ plow _there_ with oxen? for ye have turned judgment into gall, and the fruit of righteousness into hemlock:
@@ -225,7 +225,7 @@
 
 ### Locusts
 
-<sup>1</sup> Thus hath the Lord GOD shewed unto me; and, behold, he formed grasshoppers<sup>a</sup> in the beginning of the shooting up of the latter growth; and, lo, _it was_ the latter growth after the king's mowings.
+<sup>1</sup> Thus hath the Lord GOD shewed unto me; and, behold, he formed grasshoppers<sup>a</sup> in the beginning of the shooting up of the latter growth; and, lo, _it was_ the latter growth after the king’s mowings.
 <sup>2</sup> And it came to pass, _that_ when they had made an end of eating the grass of the land, then I said, O Lord GOD, forgive, I beseech thee: by whom shall Jacob arise?<sup>b</sup> for he _is_ small.
 <sup>3</sup> The LORD repented for this: It shall not be, saith the LORD.
 
@@ -246,9 +246,9 @@
 <sup>10</sup> Then Amaziah the priest of Beth-el sent to Jeroboam king of Israel, saying, Amos hath conspired against thee in the midst of the house of Israel: the land is not able to bear all his words.
 <sup>11</sup> For thus Amos saith, Jeroboam shall die by the sword, and Israel shall surely be led away captive out of their own land.
 <sup>12</sup> Also Amaziah said unto Amos, O thou seer, go, flee thee away into the land of Judah, and there eat bread, and prophesy there:
-<sup>13</sup> but prophesy not again any more at Beth-el: for it _is_ the king's chapel,<sup>c</sup> and it _is_ the king's court.
+<sup>13</sup> but prophesy not again any more at Beth-el: for it _is_ the king’s chapel,<sup>c</sup> and it _is_ the king’s court.
 
-<sup>14</sup> Then answered Amos, and said to Amaziah, I _was_ no prophet, neither _was_ I a prophet's son; but I _was_ an herdman, and a gatherer of sycomore fruit:
+<sup>14</sup> Then answered Amos, and said to Amaziah, I _was_ no prophet, neither _was_ I a prophet’s son; but I _was_ an herdman, and a gatherer of sycomore fruit:
 <sup>15</sup> and the LORD took me as I followed<sup>d</sup> the flock, and the LORD said unto me, Go, prophesy unto my people Israel.
 <sup>16</sup> Now therefore hear thou the word of the LORD: Thou sayest, Prophesy not against Israel, and drop not _thy word_ against the house of Isaac.
 <sup>17</sup> Therefore thus saith the LORD; Thy wife shall be an harlot in the city, and thy sons and thy daughters shall fall by the sword, and thy land shall be divided by line; and thou shalt die in a polluted land: and Israel shall surely go into captivity forth of his land.
@@ -287,7 +287,7 @@
 
 ## Chapter 9
 
-### The Lord at the Altar
+### The LORD at the Altar
 
 <sup>1</sup> I saw the Lord standing upon the altar: and he said, Smite the lintel<sup>a</sup> of the door, that the posts may shake: and cut them<sup>b</sup> in the head, all of them; and I will slay the last of them with the sword: he that fleeth of them shall not flee away, and he that escapeth of them shall not be delivered.
 <sup>2</sup> Though they dig into hell, thence shall mine hand take them; though they climb up to heaven, thence will I bring them down:

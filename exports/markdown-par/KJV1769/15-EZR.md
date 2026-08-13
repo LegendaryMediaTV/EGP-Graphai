@@ -19,7 +19,7 @@
 
 ## Chapter 2
 
-### Zerubbabel's Company
+### Zerubbabel’s Company
 
 <sup>1</sup> Now these _are_ the children of the province that went up out of the captivity, of those which had been carried away, whom Nebuchadnezzar the king of Babylon had carried away unto Babylon, and came again unto Jerusalem and Judah, every one unto his city;
 <sup>2</sup> which came with Zerubbabel: Jeshua, Nehemiah, Seraiah,<sup>a</sup> Reelaiah, Mordecai, Bilshan, Mizpar, Bigvai, Rehum, Baanah.
@@ -81,12 +81,12 @@ The number of the men of the people of Israel:
 <sup>53</sup> the children of Barkos, the children of Sisera, the children of Thamah,
 <sup>54</sup> the children of Neziah, the children of Hatipha.
 
-<sup>55</sup> The children of Solomon's servants: the children of Sotai, the children of Sophereth, the children of Peruda,<sup>j</sup>
+<sup>55</sup> The children of Solomon’s servants: the children of Sotai, the children of Sophereth, the children of Peruda,<sup>j</sup>
 <sup>56</sup> the children of Jaalah, the children of Darkon, the children of Giddel,
 <sup>57</sup> the children of Shephatiah, the children of Hattil, the children of Pochereth of Zebaim, the children of Ami.<sup>k</sup>
-<sup>58</sup> All the Nethinims, and the children of Solomon's servants, _were_ three hundred ninety and two.
+<sup>58</sup> All the Nethinims, and the children of Solomon’s servants, _were_ three hundred ninety and two.
 
-<sup>59</sup> And these _were_ they which went up from Tel-melah, Tel-harsa, Cherub, Addan, _and_ Immer: but they could not shew their father's house, and their seed,<sup>l</sup> whether they _were_ of Israel:
+<sup>59</sup> And these _were_ they which went up from Tel-melah, Tel-harsa, Cherub, Addan, _and_ Immer: but they could not shew their father’s house, and their seed,<sup>l</sup> whether they _were_ of Israel:
 <sup>60</sup> the children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred fifty and two.
 <sup>61</sup> And of the children of the priests: the children of Habaiah, the children of Koz, the children of Barzillai; which took a wife of the daughters of Barzillai the Gileadite, and was called after their name:
 <sup>62</sup> these sought their register _among_ those that were reckoned by genealogy, but they were not found: therefore were they, as polluted, put from the priesthood.
@@ -98,7 +98,7 @@ The number of the men of the people of Israel:
 <sup>67</sup> their camels, four hundred thirty and five; _their_ asses, six thousand seven hundred and twenty.
 
 <sup>68</sup> And _some_ of the chief of the fathers, when they came to the house of the LORD which _is_ at Jerusalem, offered freely for the house of God to set it up in his place:
-<sup>69</sup> they gave after their ability unto the treasure of the work threescore and one thousand drams of gold, and five thousand pound of silver, and one hundred priests' garments.
+<sup>69</sup> they gave after their ability unto the treasure of the work threescore and one thousand drams of gold, and five thousand pound of silver, and one hundred priests’ garments.
 
 <sup>70</sup> So the priests, and the Levites, and _some_ of the people, and the singers, and the porters, and the Nethinims, dwelt in their cities, and all Israel in their cities.
 
@@ -163,7 +163,7 @@ The number of the men of the people of Israel:
 <sup>11</sup> This _is_ the copy of the letter that they sent unto him, _even_ unto Artaxerxes the king; Thy servants the men on this side the river, and at such a time.
 <sup>12</sup> Be it known unto the king, that the Jews which came up from thee to us are come unto Jerusalem, building the rebellious and the bad city, and have set up<sup>h</sup> the walls _thereof_, and joined<sup>i</sup> the foundations.
 <sup>13</sup> Be it known now unto the king, that, if this city be builded, and the walls set up _again, then_ will they not pay<sup>j</sup> toll, tribute, and custom, and _so_ thou shalt endamage the revenue<sup>k</sup> of the kings.
-<sup>14</sup> Now because we have maintenance from _the king's_ palace, and it was not meet for us to see the king's dishonour, therefore have we sent and certified the king;
+<sup>14</sup> Now because we have maintenance from _the king’s_ palace, and it was not meet for us to see the king’s dishonour, therefore have we sent and certified the king;
 <sup>15</sup> that search may be made in the book of the records of thy fathers: so shalt thou find in the book of the records, and know that this city _is_ a rebellious city, and hurtful unto kings and provinces, and that they have moved<sup>l</sup> sedition within the same of old time:<sup>m</sup> for which cause was this city destroyed.
 <sup>16</sup> We certify the king that, if this city be builded _again_, and the walls thereof set up, by this means thou shalt have no portion on this side the river.
 
@@ -174,7 +174,7 @@ The number of the men of the people of Israel:
 <sup>21</sup> Give ye now commandment to cause these men to cease, and that this city be not builded, until _another_ commandment shall be given from me.
 <sup>22</sup> Take heed now that ye fail not to do this: why should damage grow to the hurt of the kings?
 
-<sup>23</sup> Now when the copy of king Artaxerxes' letter _was_ read before Rehum, and Shimshai the scribe, and their companions, they went up in haste to Jerusalem unto the Jews, and made them to cease by force and power.<sup>q</sup>
+<sup>23</sup> Now when the copy of king Artaxerxes’ letter _was_ read before Rehum, and Shimshai the scribe, and their companions, they went up in haste to Jerusalem unto the Jews, and made them to cease by force and power.<sup>q</sup>
 <sup>24</sup> Then ceased the work of the house of God which _is_ at Jerusalem. So it ceased unto the second year of the reign of Darius king of Persia.
 
 > - <sup>a</sup> 1. Heb. _the sons of the transportation_
@@ -216,7 +216,7 @@ The number of the men of the people of Israel:
 <sup>14</sup> And the vessels also of gold and silver of the house of God, which Nebuchadnezzar took out of the temple that _was_ in Jerusalem, and brought them into the temple of Babylon, those did Cyrus the king take out of the temple of Babylon, and they were delivered unto _one_, whose name _was_ Sheshbazzar, whom he had made governor;<sup>d</sup>
 <sup>15</sup> and said unto him, Take these vessels, go, carry them into the temple that _is_ in Jerusalem, and let the house of God be builded in his place.
 <sup>16</sup> Then came the same Sheshbazzar, _and_ laid the foundation of the house of God which _is_ in Jerusalem: and since that time even until now hath it been in building, and _yet_ it is not finished.
-<sup>17</sup> Now therefore, if _it seem_ good to the king, let there be search made in the king's treasure house, which _is_ there at Babylon, whether it be _so_, that a decree was made of Cyrus the king to build this house of God at Jerusalem, and let the king send his pleasure to us concerning this matter.
+<sup>17</sup> Now therefore, if _it seem_ good to the king, let there be search made in the king’s treasure house, which _is_ there at Babylon, whether it be _so_, that a decree was made of Cyrus the king to build this house of God at Jerusalem, and let the king send his pleasure to us concerning this matter.
 
 > - <sup>a</sup> 4. _Chald. that build this building_
 > - <sup>b</sup> 7. _Chald. in the midst whereof_
@@ -225,17 +225,17 @@ The number of the men of the people of Israel:
 
 ## Chapter 6
 
-### The King's Decree
+### The King’s Decree
 
 <sup>1</sup> Then Darius the king made a decree, and search was made in the house of the rolls,<sup>a</sup> where the treasures were laid up<sup>b</sup> in Babylon.
 <sup>2</sup> And there was found at Achmetha,<sup>c</sup> in the palace that _is_ in the province of the Medes, a roll, and therein _was_ a record thus written:
 <sup>3</sup> in the first year of Cyrus the king _the same_ Cyrus the king made a decree _concerning_ the house of God at Jerusalem, Let the house be builded, the place where they offered sacrifices, and let the foundations thereof be strongly laid; the height thereof threescore cubits, _and_ the breadth thereof threescore cubits;
-<sup>4</sup> _with_ three rows of great stones, and a row of new timber: and let the expenses be given out of the king's house:
+<sup>4</sup> _with_ three rows of great stones, and a row of new timber: and let the expenses be given out of the king’s house:
 <sup>5</sup> and also let the golden and silver vessels of the house of God, which Nebuchadnezzar took forth out of the temple which _is_ at Jerusalem, and brought unto Babylon, be restored, and brought again<sup>d</sup> unto the temple which _is_ at Jerusalem, _every one_ to his place, and place _them_ in the house of God.
 
 <sup>6</sup> Now _therefore_, Tatnai, governor beyond the river, Shethar-boznai, and your companions<sup>e</sup> the Apharsachites, which _are_ beyond the river, be ye far from thence:
 <sup>7</sup> let the work of this house of God alone; let the governor of the Jews and the elders of the Jews build this house of God in his place.
-<sup>8</sup> Moreover I make a decree<sup>f</sup> what ye shall do to the elders of these Jews for the building of this house of God: that of the king's goods, _even_ of the tribute beyond the river, forthwith expenses be given unto these men, that they be not hindered.<sup>g</sup>
+<sup>8</sup> Moreover I make a decree<sup>f</sup> what ye shall do to the elders of these Jews for the building of this house of God: that of the king’s goods, _even_ of the tribute beyond the river, forthwith expenses be given unto these men, that they be not hindered.<sup>g</sup>
 <sup>9</sup> And that which they have need of, both young bullocks, and rams, and lambs, for the burnt offerings of the God of heaven, wheat, salt, wine, and oil, according to the appointment of the priests which _are_ at Jerusalem, let it be given them day by day without fail:
 <sup>10</sup> that they may offer sacrifices of sweet savours<sup>h</sup> unto the God of heaven, and pray for the life of the king, and of his sons.
 <sup>11</sup> Also I have made a decree, that whosoever shall alter this word, let timber be pulled down from his house, and being set up, let him be hanged<sup>i</sup> thereon; and let his house be made a dunghill for this.
@@ -295,7 +295,7 @@ The number of the men of the people of Israel:
 <sup>17</sup> that thou mayest buy speedily with this money bullocks, rams, lambs, with their meat offerings and their drink offerings, and offer them upon the altar of the house of your God which _is_ in Jerusalem.
 <sup>18</sup> And whatsoever shall seem good to thee, and to thy brethren, to do with the rest of the silver and the gold, that do after the will of your God.
 <sup>19</sup> The vessels also that are given thee for the service of the house of thy God, _those_ deliver thou before the God of Jerusalem.
-<sup>20</sup> And whatsoever more shall be needful for the house of thy God, which thou shalt have occasion to bestow, bestow _it_ out of the king's treasure house.
+<sup>20</sup> And whatsoever more shall be needful for the house of thy God, which thou shalt have occasion to bestow, bestow _it_ out of the king’s treasure house.
 <sup>21</sup> And I, _even_ I Artaxerxes the king, do make a decree to all the treasurers which _are_ beyond the river, that whatsoever Ezra the priest, the scribe of the law of the God of heaven, shall require of you, it be done speedily,
 <sup>22</sup> unto an hundred talents of silver, and to an hundred measures<sup>c</sup> of wheat, and to an hundred baths of wine, and to an hundred baths of oil, and salt without prescribing _how much_.
 <sup>23</sup> Whatsoever is commanded<sup>d</sup> by the God of heaven, let it be diligently done for the house of the God of heaven: for why should there be wrath against the realm of the king and his sons?
@@ -303,8 +303,8 @@ The number of the men of the people of Israel:
 <sup>25</sup> And thou, Ezra, after the wisdom of thy God, that _is_ in thine hand, set magistrates and judges, which may judge all the people that _are_ beyond the river, all such as know the laws of thy God; and teach ye them that know _them_ not.
 <sup>26</sup> And whosoever will not do the law of thy God, and the law of the king, let judgment be executed speedily upon him, whether _it be_ unto death, or to banishment,<sup>e</sup> or to confiscation of goods, or to imprisonment.
 
-<sup>27</sup> Blessed _be_ the LORD God of our fathers, which hath put _such a thing_ as this in the king's heart, to beautify the house of the LORD which _is_ in Jerusalem:
-<sup>28</sup> and hath extended mercy unto me before the king, and his counsellors, and before all the king's mighty princes. And I was strengthened as the hand of the LORD my God _was_ upon me, and I gathered together out of Israel chief men to go up with me.
+<sup>27</sup> Blessed _be_ the LORD God of our fathers, which hath put _such a thing_ as this in the king’s heart, to beautify the house of the LORD which _is_ in Jerusalem:
+<sup>28</sup> and hath extended mercy unto me before the king, and his counsellors, and before all the king’s mighty princes. And I was strengthened as the hand of the LORD my God _was_ upon me, and I gathered together out of Israel chief men to go up with me.
 
 > - <sup>a</sup> 9. _He was the foundation of the going up_
 > - <sup>b</sup> 14. _Chal. from before the King_
@@ -314,7 +314,7 @@ The number of the men of the people of Israel:
 
 ## Chapter 8
 
-### Ezra's Company
+### Ezra’s Company
 
 <sup>1</sup> These _are_ now the chief of their fathers, and _this is_ the genealogy of them that went up with me from Babylon, in the reign of Artaxerxes the king.
 <sup>2</sup> Of the sons of Phinehas; Gershom: of the sons of Ithamar; Daniel: of the sons of David; Hattush.
@@ -365,7 +365,7 @@ The number of the men of the people of Israel:
 ### An Offering to God
 
 <sup>35</sup> _Also_ the children of those that had been carried away, which were come out of the captivity, offered burnt offerings unto the God of Israel, twelve bullocks for all Israel, ninety and six rams, seventy and seven lambs, twelve he goats _for_ a sin offering: all _this was_ a burnt offering unto the LORD.
-<sup>36</sup> And they delivered the king's commissions unto the king's lieutenants, and to the governors on this side the river: and they furthered the people, and the house of God.
+<sup>36</sup> And they delivered the king’s commissions unto the king’s lieutenants, and to the governors on this side the river: and they furthered the people, and the house of God.
 
 > - <sup>a</sup> 12. Or, _the youngest son_
 > - <sup>b</sup> 14. Or, _Zaccur, as some read_

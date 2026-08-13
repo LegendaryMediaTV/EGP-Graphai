@@ -20,7 +20,7 @@
 <sup>14</sup> And Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints,
 <sup>15</sup> to execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds which they have ungodly committed, and of all their hard _speeches_ which ungodly sinners have spoken against him.
 
-<sup>16</sup> These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling _words_, having men's persons in admiration because of advantage.
+<sup>16</sup> These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling _words_, having men’s persons in admiration because of advantage.
 
 <sup>17</sup> But, beloved, remember ye the words which were spoken before of the apostles of our Lord Jesus Christ;
 <sup>18</sup> how that they told you there should be mockers in the last time, who should walk after their own ungodly lusts.

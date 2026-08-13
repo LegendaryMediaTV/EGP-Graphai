@@ -20,7 +20,7 @@
 <sup>6</sup> Yet have I set my king<sup>d</sup> upon my holy hill of Zion.<sup>e</sup><br>
 <sup>7</sup> I will declare the decree:<sup>f</sup> the LORD hath said unto me,<br>Thou _art_ my Son; this day have I begotten thee.<br>
 <sup>8</sup> Ask of me, and I shall give _thee_ the heathen _for_ thine inheritance,<br>And the uttermost parts of the earth _for_ thy possession.<br>
-<sup>9</sup> Thou shalt break them with a rod of iron;<br>Thou shalt dash them in pieces like a potter's vessel.<br>
+<sup>9</sup> Thou shalt break them with a rod of iron;<br>Thou shalt dash them in pieces like a potter’s vessel.<br>
 <sup>10</sup> Be wise now therefore, O ye kings:<br>Be instructed, ye judges of the earth.<br>
 <sup>11</sup> Serve the LORD with fear,<br>And rejoice with trembling.<br>
 <sup>12</sup> Kiss the Son, lest he be angry, and ye perish _from_ the way,<br>When his wrath is kindled but a little. Blessed _are_ all they that put their trust in him.<br>
@@ -98,7 +98,7 @@
 <sup>1</sup> O LORD, rebuke me not in thine anger,<br>Neither chasten me in thy hot displeasure.<br>
 <sup>2</sup> Have mercy upon me, O LORD; for I _am_ weak:<br>O LORD, heal me; for my bones are vexed.<br>
 <sup>3</sup> My soul is also sore vexed:<br>But thou, O LORD, how long?<br>
-<sup>4</sup> Return, O LORD, deliver my soul:<br>Oh save me for thy mercies' sake.<br>
+<sup>4</sup> Return, O LORD, deliver my soul:<br>Oh save me for thy mercies’ sake.<br>
 <sup>5</sup> For in death _there is_ no remembrance of thee:<br>In the grave who shall give thee thanks?<br>
 <sup>6</sup> I am weary with my groaning; all the night<sup>a</sup> make I my bed to swim;<br>I water my couch with my tears.<br>
 <sup>7</sup> Mine eye is consumed because of grief;<br>It waxeth old because of all mine enemies.<br>
@@ -208,7 +208,7 @@
 <sup>2</sup> The wicked in _his_ pride doth persecute the poor:<sup>a</sup><br>Let them be taken in the devices that they have imagined.<br>
 
 #### (מ Mem)
-<sup>3</sup> For the wicked boasteth of his heart's desire,<br>And blesseth<sup>b</sup> the covetous, _whom_ the LORD abhorreth.<br>
+<sup>3</sup> For the wicked boasteth of his heart’s desire,<br>And blesseth<sup>b</sup> the covetous, _whom_ the LORD abhorreth.<br>
 
 #### (נ Nun)
 <sup>4</sup> The wicked, through the pride of his countenance, will not seek _after God:_<br>God _is_ not in all his thoughts.<br>
@@ -263,7 +263,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 <sup>1</sup> In the LORD put I my trust:<br>How say ye to my soul, flee _as_ a bird to your mountain?<br>
 <sup>2</sup> For, lo, the wicked bend _their_ bow, they make ready their arrow upon the string,<br>That they may privily<sup>a</sup> shoot at the upright in heart.<br>
 <sup>3</sup> If the foundations be destroyed,<br>What can the righteous do?<br>
-<sup>4</sup> The LORD _is_ in his holy temple,<br>The LORD's throne _is_ in heaven:<br>His eyes behold, his eyelids try, the children of men.<br>
+<sup>4</sup> The LORD _is_ in his holy temple,<br>The LORD’s throne _is_ in heaven:<br>His eyes behold, his eyelids try, the children of men.<br>
 <sup>5</sup> The LORD trieth the righteous:<br>But the wicked and him that loveth violence his soul hateth.<br>
 <sup>6</sup> Upon the wicked he shall rain snares, fire and brimstone, and an horrible tempest:<sup>b</sup><br>_This shall be_ the portion of their cup.<br>
 <sup>7</sup> For the righteous LORD loveth righteousness;<br>His countenance doth behold the upright.<br>
@@ -418,7 +418,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 <sup>30</sup> _As for_ God, his way _is_ perfect:<br>The word of the LORD is tried:<sup>k</sup> He _is_ a buckler to all those that trust in him.<br>
 <sup>31</sup> For who _is_ God save the LORD?<br>Or who _is_ a rock save our God?<br>
 <sup>32</sup> _It is_ God that girdeth me with strength,<br>And maketh my way perfect.<br>
-<sup>33</sup> He maketh my feet like hinds' _feet_,<br>And setteth me upon my high places.<br>
+<sup>33</sup> He maketh my feet like hinds’ _feet_,<br>And setteth me upon my high places.<br>
 <sup>34</sup> He teacheth my hands to war,<br>So that a bow of steel is broken by mine arms.<br>
 <sup>35</sup> Thou hast also given me the shield of thy salvation:<br>And thy right hand hath holden me up, and thy gentleness hath made me great.<sup>l</sup><br>
 <sup>36</sup> Thou hast enlarged my steps under me,<br>That my feet<sup>m</sup> did not slip.<br>
@@ -512,7 +512,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 > _To the chief Musician, A Psalm of David._
 
 <sup>1</sup> The king shall joy in thy strength, O LORD;<br>And in thy salvation how greatly shall he rejoice!<br>
-<sup>2</sup> Thou hast given him his heart's desire,<br>And hast not withholden the request of his lips. _Selah._<br>
+<sup>2</sup> Thou hast given him his heart’s desire,<br>And hast not withholden the request of his lips. _Selah._<br>
 <sup>3</sup> For thou preventest him with the blessings of goodness:<br>Thou settest a crown of pure gold on his head.<br>
 <sup>4</sup> He asked life of thee, _and_ thou gavest _it_ him,<br>_Even_ length of days for ever and ever.<br>
 <sup>5</sup> His glory _is_ great in thy salvation:<br>Honour and majesty hast thou laid upon him.<br>
@@ -542,8 +542,8 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 <sup>6</sup> But I _am_ a worm, and no man;<br>A reproach of men, and despised of the people.<br>
 <sup>7</sup> All they that see me laugh me to scorn:<br>They shoot<sup>c</sup> out the lip, they shake the head, _saying_,<br>
 <sup>8</sup> He trusted on the LORD<sup>d</sup> _that_ he would deliver him:<br>Let him deliver him, seeing he delighted in him.<sup>e</sup><br>
-<sup>9</sup> But thou _art_ he that took me out of the womb:<br>Thou didst make me hope<sup>f</sup> _when I was_ upon my mother's breasts.<br>
-<sup>10</sup> I was cast upon thee from the womb:<br>Thou _art_ my God from my mother's belly.<br>
+<sup>9</sup> But thou _art_ he that took me out of the womb:<br>Thou didst make me hope<sup>f</sup> _when I was_ upon my mother’s breasts.<br>
+<sup>10</sup> I was cast upon thee from the womb:<br>Thou _art_ my God from my mother’s belly.<br>
 <sup>11</sup> Be not far from me; for trouble _is_ near;<br>For _there is_ none to help.<sup>g</sup><br>
 <sup>12</sup> Many bulls have compassed me:<br>Strong _bulls_ of Bashan have beset me round.<br>
 <sup>13</sup> They gaped upon me _with_ their mouths,<sup>h</sup><br>_As_ a ravening and a roaring lion.<br>
@@ -554,14 +554,14 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 <sup>18</sup> They part my garments among them,<br>And cast lots upon my vesture.<br>
 <sup>19</sup> But be not thou far from me, O LORD:<br>O my strength, haste thee to help me.<br>
 <sup>20</sup> Deliver my soul from the sword;<br>My darling<sup>j</sup> from the power<sup>k</sup> of the dog.<br>
-<sup>21</sup> Save me from the lion's mouth:<br>For thou hast heard me from the horns of the unicorns.<br>
+<sup>21</sup> Save me from the lion’s mouth:<br>For thou hast heard me from the horns of the unicorns.<br>
 <sup>22</sup> I will declare thy name unto my brethren:<br>In the midst of the congregation will I praise thee.<br>
 <sup>23</sup> Ye that fear the LORD, praise him;<br>All ye the seed of Jacob, glorify him; And fear him, all ye the seed of Israel.<br>
 <sup>24</sup> For he hath not despised nor abhorred the affliction of the afflicted;<br>Neither hath he hid his face from him; But when he cried unto him, he heard.<br>
 <sup>25</sup> My praise _shall be_ of thee in the great congregation:<br>I will pay my vows before them that fear him.<br>
 <sup>26</sup> The meek shall eat and be satisfied:<br>They shall praise the LORD that seek him: Your heart shall live for ever.<br>
 <sup>27</sup> All the ends of the world shall remember and turn unto the LORD:<br>And all the kindreds of the nations shall worship before thee.<br>
-<sup>28</sup> For the kingdom _is_ the LORD's:<br>And he _is_ the governor among the nations.<br>
+<sup>28</sup> For the kingdom _is_ the LORD’s:<br>And he _is_ the governor among the nations.<br>
 <sup>29</sup> All _they that be_ fat upon earth shall eat and worship:<br>All they that go down to the dust shall bow before him:<br>And none can keep alive his own soul.<br>
 <sup>30</sup> A seed shall serve him;<br>It shall be accounted to the LORD for a generation.<br>
 <sup>31</sup> They shall come, and shall declare his righteousness<br>Unto a people that shall be born, that he hath done _this_.<br>
@@ -584,7 +584,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 
 <sup>1</sup> The LORD _is_ my shepherd; I shall not want.<br>
 <sup>2</sup> He maketh me to lie down in green pastures:<sup>a</sup><br>He leadeth me beside the still waters.<sup>b</sup><br>
-<sup>3</sup> He restoreth my soul:<br>He leadeth me in the paths of righteousness for his name's sake.<br>
+<sup>3</sup> He restoreth my soul:<br>He leadeth me in the paths of righteousness for his name’s sake.<br>
 <sup>4</sup> Yea, though I walk through the valley of the shadow of death, I will fear no evil:<br>for thou _art_ with me; Thy rod and thy staff they comfort me.<br>
 <sup>5</sup> Thou preparest a table before me in the presence of mine enemies:<br>Thou anointest<sup>c</sup> my head with oil; my cup runneth over.<br>
 <sup>6</sup> Surely goodness and mercy shall follow me all the days of my life:<br>And I will dwell in the house of the LORD for ever.<br>
@@ -597,7 +597,7 @@ His mouth is full of cursing and deceit<sup>d</sup> and fraud:<br>Under his tong
 
 > _A Psalm of David._
 
-<sup>1</sup> The earth _is_ the LORD's, and the fulness thereof;<br>The world, and they that dwell therein.<br>
+<sup>1</sup> The earth _is_ the LORD’s, and the fulness thereof;<br>The world, and they that dwell therein.<br>
 <sup>2</sup> For he hath founded it upon the seas,<br>And established it upon the floods.<br>
 <sup>3</sup> Who shall ascend into the hill of the LORD?<br>Or who shall stand in his holy place?<br>
 <sup>4</sup> He that hath clean hands,<sup>a</sup> and a pure heart;<br>Who hath not lifted up his soul unto vanity, nor sworn deceitfully.<br>
@@ -637,7 +637,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>6</sup> Remember, O LORD, thy tender mercies and thy lovingkindnesses;<br>For they _have been_ ever of old.<br>
 
 #### ח Het
-<sup>7</sup> Remember not the sins of my youth, nor my transgressions:<br>According to thy mercy remember thou me for thy goodness' sake, O LORD.<br>
+<sup>7</sup> Remember not the sins of my youth, nor my transgressions:<br>According to thy mercy remember thou me for thy goodness’ sake, O LORD.<br>
 
 #### ט Tet
 <sup>8</sup> Good and upright _is_ the LORD:<br>Therefore will he teach sinners in the way.<br>
@@ -649,7 +649,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>10</sup> All the paths of the LORD _are_ mercy and truth<br>Unto such as keep his covenant and his testimonies.<br>
 
 #### ל Lamed
-<sup>11</sup> For thy name's sake, O LORD,<br>Pardon mine iniquity; for it _is_ great.<br>
+<sup>11</sup> For thy name’s sake, O LORD,<br>Pardon mine iniquity; for it _is_ great.<br>
 
 #### מ Mem
 <sup>12</sup> What man _is_ he that feareth the LORD?<br>Him shall he teach in the way _that_ he shall choose.<br>
@@ -809,7 +809,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 <sup>1</sup> In thee, O LORD, do I put my trust;<br>Let me never be ashamed: deliver me in thy righteousness.<br>
 <sup>2</sup> Bow down thine ear to me; deliver me speedily:<br>Be thou my strong rock,<sup>a</sup> for an house of defence to save me.<br>
-<sup>3</sup> For thou _art_ my rock and my fortress;<br>Therefore for thy name's sake lead me, and guide me.<br>
+<sup>3</sup> For thou _art_ my rock and my fortress;<br>Therefore for thy name’s sake lead me, and guide me.<br>
 <sup>4</sup> Pull me out of the net that they have laid privily for me:<br>For thou _art_ my strength.<br>
 <sup>5</sup> Into thine hand I commit my spirit:<br>Thou hast redeemed me, O LORD God of truth.<br>
 <sup>6</sup> I have hated them that regard lying vanities:<br>But I trust in the LORD.<br>
@@ -822,7 +822,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>13</sup> For I have heard the slander of many:<br>Fear _was_ on every side: while they took counsel together against me, They devised to take away my life.<br>
 <sup>14</sup> But I trusted in thee, O LORD:<br>I said, Thou _art_ my God.<br>
 <sup>15</sup> My times _are_ in thy hand:<br>Deliver me from the hand of mine enemies, and from them that persecute me.<br>
-<sup>16</sup> Make thy face to shine upon thy servant:<br>Save me for thy mercies' sake.<br>
+<sup>16</sup> Make thy face to shine upon thy servant:<br>Save me for thy mercies’ sake.<br>
 <sup>17</sup> Let me not be ashamed, O LORD; for I have called upon thee:<br>Let the wicked be ashamed, _and_ let them be silent in the grave.<sup>c</sup><br>
 <sup>18</sup> Let the lying lips be put to silence;<br>Which speak grievous<sup>d</sup> things proudly and contemptuously against the righteous.<br>
 <sup>19</sup> _Oh_ how great _is_ thy goodness, which thou hast laid up for them that fear thee;<br>_Which_ thou hast wrought for them that trust in thee before the sons of men!<br>
@@ -1311,7 +1311,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>23</sup> Awake, why sleepest thou, O Lord?<br>Arise, cast _us_ not off for ever.<br>
 <sup>24</sup> Wherefore hidest thou thy face,<br>_And_ forgettest our affliction and our oppression?<br>
 <sup>25</sup> For our soul is bowed down to the dust:<br>Our belly cleaveth unto the earth.<br>
-<sup>26</sup> Arise for our help,<sup>d</sup><br>And redeem us for thy mercies' sake.<br>
+<sup>26</sup> Arise for our help,<sup>d</sup><br>And redeem us for thy mercies’ sake.<br>
 
 > - <sup>a</sup> 11. Heb. _as sheep of meat_
 > - <sup>b</sup> 12. Heb. _without riches_
@@ -1326,17 +1326,17 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>2</sup> Thou art fairer than the children of men:<br>Grace is poured into thy lips: Therefore God hath blessed thee for ever.<br>
 <sup>3</sup> Gird thy sword upon _thy_ thigh, O _most_ mighty,<br>With thy glory and thy majesty.<br>
 <sup>4</sup> And in thy majesty ride prosperously<sup>b</sup><br>Because of truth and meekness _and_ righteousness; And thy right hand shall teach thee terrible things.<br>
-<sup>5</sup> Thine arrows _are_ sharp in the heart of the king's enemies;<br>_Whereby_ the people fall under thee.<br>
+<sup>5</sup> Thine arrows _are_ sharp in the heart of the king’s enemies;<br>_Whereby_ the people fall under thee.<br>
 <sup>6</sup> Thy throne, O God, _is_ for ever and ever:<br>The sceptre of thy kingdom _is_ a right sceptre.<br>
 <sup>7</sup> Thou lovest righteousness, and hatest wickedness:<br>Therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows.<br>
 <sup>8</sup> All thy garments _smell_ of myrrh, and aloes, _and_ cassia,<br>Out of the ivory palaces, whereby they have made thee glad.<br>
-<sup>9</sup> Kings' daughters _were_ among thy honourable women:<br>Upon thy right hand did stand the queen in gold of Ophir.<br>
-<sup>10</sup> Hearken, O daughter, and consider, and incline thine ear;<br>Forget also thine own people, and thy father's house;<br>
+<sup>9</sup> Kings’ daughters _were_ among thy honourable women:<br>Upon thy right hand did stand the queen in gold of Ophir.<br>
+<sup>10</sup> Hearken, O daughter, and consider, and incline thine ear;<br>Forget also thine own people, and thy father’s house;<br>
 <sup>11</sup> So shall the king greatly desire thy beauty:<br>For he _is_ thy Lord; and worship thou him.<br>
 <sup>12</sup> And the daughter of Tyre _shall be there_ with a gift;<br>_Even_ the rich among the people shall intreat thy favour.<sup>c</sup><br>
-<sup>13</sup> The king's daughter _is_ all glorious within:<br>Her clothing _is_ of wrought gold.<br>
+<sup>13</sup> The king’s daughter _is_ all glorious within:<br>Her clothing _is_ of wrought gold.<br>
 <sup>14</sup> She shall be brought unto the king in raiment of needlework:<br>The virgins her companions that follow her shall be brought unto thee.<br>
-<sup>15</sup> With gladness and rejoicing shall they be brought:<br>They shall enter into the king's palace.<br>
+<sup>15</sup> With gladness and rejoicing shall they be brought:<br>They shall enter into the king’s palace.<br>
 <sup>16</sup> Instead of thy fathers shall be thy children,<br>Whom thou mayest make princes in all the earth.<br>
 <sup>17</sup> I will make thy name to be remembered in all generations:<br>Therefore shall the people praise thee for ever and ever.<br>
 
@@ -1457,7 +1457,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>17</sup> Seeing thou hatest instruction,<br>And castest my words behind thee.<br>
 <sup>18</sup> When thou sawest a thief, then thou consentedst with him,<br>And hast been partaker with adulterers.<sup>b</sup><br>
 <sup>19</sup> Thou givest<sup>c</sup> thy mouth to evil,<br>And thy tongue frameth deceit.<br>
-<sup>20</sup> Thou sittest _and_ speakest against thy brother;<br>Thou slanderest thine own mother's son.<br>
+<sup>20</sup> Thou sittest _and_ speakest against thy brother;<br>Thou slanderest thine own mother’s son.<br>
 <sup>21</sup> These _things_ hast thou done, and I kept silence;<br>Thou thoughtest that I was altogether _such an one_ as thyself:<br>_But_ I will reprove thee, and set _them_ in order before thine eyes.<br>
 <sup>22</sup> Now consider this, ye that forget God,<br>Lest I tear _you_ in pieces, and _there be_ none to deliver.<br>
 <sup>23</sup> Whoso offereth praise glorifieth me:<br>And to him that ordereth _his_ conversation<sup>d</sup> _aright_ will I shew the salvation of God.<br>
@@ -1700,7 +1700,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>3</sup> For thou hast been a shelter for me, _and_ a strong tower from the enemy.<br>
 <sup>4</sup> I will abide in thy tabernacle for ever:<br>I will trust<sup>a</sup> in the covert of thy wings. _Selah._<br>
 <sup>5</sup> For thou, O God, hast heard my vows:<br>Thou hast given _me_ the heritage of those that fear thy name.<br>
-<sup>6</sup> Thou wilt prolong the king's life:<br>_And_ his years as many generations.<sup>b</sup><br>
+<sup>6</sup> Thou wilt prolong the king’s life:<br>_And_ his years as many generations.<sup>b</sup><br>
 <sup>7</sup> He shall abide before God for ever:<br>O prepare mercy and truth, _which_ may preserve him.<br>
 <sup>8</sup> So will I sing praise unto thy name for ever,<br>That I may daily perform my vows.<br>
 
@@ -1915,7 +1915,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>5</sup> O God, thou knowest my foolishness; And my sins<sup>c</sup> are not hid from thee.<br>
 <sup>6</sup> Let not them that wait on thee, O Lord GOD of hosts, be ashamed for my sake:<br>Let not those that seek thee be confounded for my sake, O God of Israel.<br>
 <sup>7</sup> Because for thy sake I have borne reproach;<br>Shame hath covered my face.<br>
-<sup>8</sup> I am become a stranger unto my brethren,<br>And an alien unto my mother's children.<br>
+<sup>8</sup> I am become a stranger unto my brethren,<br>And an alien unto my mother’s children.<br>
 <sup>9</sup> For the zeal of thine house hath eaten me up;<br>And the reproaches of them that reproached thee are fallen upon me.<br>
 <sup>10</sup> When I wept, _and chastened_ my soul with fasting,<br>That was to my reproach.<br>
 <sup>11</sup> I made sackcloth also my garment;<br>And I became a proverb to them.<br>
@@ -1977,7 +1977,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>3</sup> Be thou my strong habitation,<sup>a</sup> whereunto I may continually resort:<br>Thou hast given commandment to save me; For thou _art_ my rock and my fortress.<br>
 <sup>4</sup> Deliver me, O my God, out of the hand of the wicked,<br>Out of the hand of the unrighteous and cruel man.<br>
 <sup>5</sup> For thou _art_ my hope, O Lord GOD:<br>_Thou art_ my trust from my youth.<br>
-<sup>6</sup> By thee have I been holden up from the womb:<br>Thou art he that took me out of my mother's bowels: My praise _shall be_ continually of thee.<br>
+<sup>6</sup> By thee have I been holden up from the womb:<br>Thou art he that took me out of my mother’s bowels: My praise _shall be_ continually of thee.<br>
 <sup>7</sup> I am as a wonder unto many;<br>But thou _art_ my strong refuge.<br>
 <sup>8</sup> Let my mouth be filled _with_ thy praise<br>_And with_ thy honour all the day.<br>
 <sup>9</sup> Cast me not off in the time of old age;<br>Forsake me not when my strength faileth.<br>
@@ -2006,7 +2006,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 
 > __A Psalm_ for Solomon._
 
-<sup>1</sup> Give the king thy judgments, O God,<br>And thy righteousness unto the king's son.<br>
+<sup>1</sup> Give the king thy judgments, O God,<br>And thy righteousness unto the king’s son.<br>
 <sup>2</sup> He shall judge thy people with righteousness,<br>And thy poor with judgment.<br>
 <sup>3</sup> The mountains shall bring peace to the people,<br>And the little hills, by righteousness.<br>
 <sup>4</sup> He shall judge the poor of the people,<br>He shall save the children of the needy,<br>And shall break in pieces the oppressor.<br>
@@ -2205,7 +2205,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>22</sup> Because they believed not in God,<br>And trusted not in his salvation:<br>
 <sup>23</sup> Though he had commanded the clouds from above,<br>And opened the doors of heaven,<br>
 <sup>24</sup> And had rained down manna upon them to eat,<br>And had given them of the corn of heaven.<br>
-<sup>25</sup> Man did eat angels' food:<br>He sent them meat to the full.<br>
+<sup>25</sup> Man did eat angels’ food:<br>He sent them meat to the full.<br>
 <sup>26</sup> He caused an east wind to blow<sup>d</sup> in the heaven:<br>And by his power he brought in the south wind.<br>
 <sup>27</sup> He rained flesh also upon them as dust,<br>And feathered fowls like as the sand of the sea:<br>
 <sup>28</sup> And he let _it_ fall in the midst of their camp,<br>Round about their habitations.<br>
@@ -2241,7 +2241,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>58</sup> For they provoked him to anger with their high places,<br>And moved him to jealousy with their graven images.<br>
 <sup>59</sup> When God heard _this_, he was wroth,<br>And greatly abhorred Israel:<br>
 <sup>60</sup> So that he forsook the tabernacle of Shiloh,<br>The tent _which_ he placed among men;<br>
-<sup>61</sup> And delivered his strength into captivity,<br>And his glory into the enemy's hand.<br>
+<sup>61</sup> And delivered his strength into captivity,<br>And his glory into the enemy’s hand.<br>
 <sup>62</sup> He gave his people over also unto the sword;<br>And was wroth with his inheritance.<br>
 <sup>63</sup> The fire consumed their young men;<br>And their maidens were not given<sup>q</sup> to marriage.<br>
 <sup>64</sup> Their priests fell by the sword;<br>And their widows made no lamentation.<br>
@@ -2286,7 +2286,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>6</sup> Pour out thy wrath upon the heathen that have not known thee,<br>And upon the kingdoms that have not called upon thy name.<br>
 <sup>7</sup> For they have devoured Jacob,<br>And laid waste his dwelling place.<br>
 <sup>8</sup> O remember not against us former iniquities:<sup>a</sup> Let thy tender mercies speedily prevent us:<br>For we are brought very low.<br>
-<sup>9</sup> Help us, O God of our salvation, for the glory of thy name:<br>And deliver us, and purge away our sins, for thy name's sake.<br>
+<sup>9</sup> Help us, O God of our salvation, for the glory of thy name:<br>And deliver us, and purge away our sins, for thy name’s sake.<br>
 <sup>10</sup> Wherefore should the heathen say,<br>Where _is_ their God?<br>Let him be known among the heathen in our sight<br>_By_ the revenging<sup>b</sup> of the blood of thy servants _which is_ shed.<br>
 <sup>11</sup> Let the sighing of the prisoner come before thee;<br>According to the greatness of thy power<sup>c</sup> preserve thou those that are appointed to die;<sup>d</sup><br>
 <sup>12</sup> And render unto our neighbours sevenfold into their bosom<br>Their reproach, wherewith they have reproached thee, O Lord.<br>
@@ -2342,7 +2342,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>9</sup> There shall no strange god be in thee;<br>Neither shalt thou worship any strange god.<br>
 <sup>10</sup> I _am_ the LORD thy God, which brought thee out of the land of Egypt:<br>Open thy mouth wide, and I will fill it.<br>
 <sup>11</sup> But my people would not hearken to my voice;<br>And Israel would none of me.<br>
-<sup>12</sup> So I gave them up unto their own hearts' lust:<br>_And_ they walked in their own counsels.<br>
+<sup>12</sup> So I gave them up unto their own hearts’ lust:<br>_And_ they walked in their own counsels.<br>
 <sup>13</sup> Oh that my people had hearkened unto me,<br>_And_ Israel had walked in my ways!<br>
 <sup>14</sup> I should soon have subdued their enemies,<br>And turned my hand against their adversaries.<br>
 <sup>15</sup> The haters of the LORD should have submitted themselves<sup>d</sup> unto him:<br>But their time should have endured for ever.<br>
@@ -2766,7 +2766,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>1</sup> The LORD reigneth; let the people tremble:<br>He sitteth _between_ the cherubims; let the earth be moved.<br>
 <sup>2</sup> The LORD _is_ great in Zion;<br>And he _is_ high above all the people.<br>
 <sup>3</sup> Let them praise thy great and terrible name;<br>_For_ it _is_ holy.<br>
-<sup>4</sup> The king's strength also loveth judgment; Thou dost establish equity,<br>Thou executest judgment and righteousness in Jacob.<br>
+<sup>4</sup> The king’s strength also loveth judgment; Thou dost establish equity,<br>Thou executest judgment and righteousness in Jacob.<br>
 <sup>5</sup> Exalt ye the LORD our God,<br>And worship at his footstool; _For_ he _is_ holy.<sup>a</sup><br>
 <sup>6</sup> Moses and Aaron among his priests, and Samuel among them that call upon his name;<br>They called upon the LORD, and he answered them.<br>
 <sup>7</sup> He spake unto them in the cloudy pillar:<br>They kept his testimonies, and the ordinance _that_ he gave them.<br>
@@ -2853,7 +2853,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>2</sup> Bless the LORD, O my soul,<br>And forget not all his benefits:<br>
 <sup>3</sup> Who forgiveth all thine iniquities;<br>Who healeth all thy diseases;<br>
 <sup>4</sup> Who redeemeth thy life from destruction;<br>Who crowneth thee with lovingkindness and tender mercies;<br>
-<sup>5</sup> Who satisfieth thy mouth with good _things_;<br>_So that_ thy youth is renewed like the eagle's.<br>
+<sup>5</sup> Who satisfieth thy mouth with good _things_;<br>_So that_ thy youth is renewed like the eagle’s.<br>
 <sup>6</sup> The LORD executeth righteousness and judgment<br>For all that are oppressed.<br>
 <sup>7</sup> He made known his ways unto Moses,<br>His acts unto the children of Israel.<br>
 <sup>8</sup> The LORD _is_ merciful and gracious,<br>Slow to anger, and plenteous in mercy.<sup>a</sup><br>
@@ -2865,7 +2865,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>14</sup> For he knoweth our frame;<br>He remembereth that we _are_ dust.<br>
 <sup>15</sup> _As for_ man, his days _are_ as grass:<br>As a flower of the field, so he flourisheth.<br>
 <sup>16</sup> For the wind passeth over it, and it is gone;<sup>c</sup><br>And the place thereof shall know it no more.<br>
-<sup>17</sup> But the mercy of the LORD _is_ from everlasting to everlasting upon them that fear him,<br>And his righteousness unto children's children;<br>
+<sup>17</sup> But the mercy of the LORD _is_ from everlasting to everlasting upon them that fear him,<br>And his righteousness unto children’s children;<br>
 <sup>18</sup> To such as keep his covenant,<br>And to those that remember his commandments to do them.<br>
 <sup>19</sup> The LORD hath prepared his throne in the heavens;<br>And his kingdom ruleth over all.<br>
 <sup>20</sup> Bless the LORD, ye his angels, that excel in strength,<sup>d</sup><br>That do his commandments, hearkening unto the voice of his word.<br>
@@ -2893,7 +2893,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>12</sup> By them shall the fowls of the heaven have their habitation,<br>_Which_ sing<sup>f</sup> among the branches.<br>
 <sup>13</sup> He watereth the hills from his chambers:<br>The earth is satisfied with the fruit of thy works.<br>
 <sup>14</sup> He causeth the grass to grow for the cattle,<br>And herb for the service of man:<br>That he may bring forth food out of the earth;
-<sup>15</sup> And wine _that_ maketh glad the heart of man,<br>_And_ oil to make _his_ face to shine,<sup>g</sup> and bread _which_ strengtheneth man's heart.<br>
+<sup>15</sup> And wine _that_ maketh glad the heart of man,<br>_And_ oil to make _his_ face to shine,<sup>g</sup> and bread _which_ strengtheneth man’s heart.<br>
 <sup>16</sup> The trees of the LORD are full _of sap_;<br>The cedars of Lebanon, which he hath planted;<br>
 <sup>17</sup> Where the birds make their nests:<br>_As for_ the stork, the fir trees _are_ her house.<br>
 <sup>18</sup> The high hills _are_ a refuge for the wild goats;<br>_And_ the rocks for the conies.<br>
@@ -2990,7 +2990,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>5</sup> That I may see the good of thy chosen,<br>That I may rejoice in the gladness of thy nation, that I may glory with thine inheritance.<br>
 <sup>6</sup> We have sinned with our fathers,<br>We have committed iniquity, we have done wickedly.<br>
 <sup>7</sup> Our fathers understood not thy wonders in Egypt; They remembered not the multitude of thy mercies;<br>But provoked _him_ at the sea, _even_ at the Red sea.<br>
-<sup>8</sup> Nevertheless he saved them for his name's sake,<br>That he might make his mighty power to be known.<br>
+<sup>8</sup> Nevertheless he saved them for his name’s sake,<br>That he might make his mighty power to be known.<br>
 <sup>9</sup> He rebuked the Red sea also, and it was dried up:<br>So he led them through the depths, as through the wilderness.<br>
 <sup>10</sup> And he saved them from the hand of him that hated _them_,<br>And redeemed them from the hand of the enemy.<br>
 <sup>11</sup> And the waters covered their enemies:<br>There was not one of them left.<br>
@@ -3067,7 +3067,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>24</sup> These see the works of the LORD,<br>And his wonders in the deep.<br>
 <sup>25</sup> For he commandeth, and raiseth<sup>c</sup> the stormy wind,<br>Which lifteth up the waves thereof.<br>
 <sup>26</sup> They mount up to the heaven, they go down again to the depths:<br>Their soul is melted because of trouble.<br>
-<sup>27</sup> They reel to and fro, and stagger like a drunken man,<br>And are at their wits' end.<br>
+<sup>27</sup> They reel to and fro, and stagger like a drunken man,<br>And are at their wits’ end.<br>
 <sup>28</sup> Then they cry unto the LORD in their trouble,<br>And he bringeth them out of their distresses.<br>
 <sup>29</sup> He maketh the storm a calm,<br>So that the waves thereof are still.<br>
 <sup>30</sup> Then are they glad because they be quiet;<br>So he bringeth them unto their desired haven.<br>
@@ -3136,7 +3136,7 @@ Lead me in thy truth, and teach me:<br>For thou _art_ the God of my salvation; o
 <sup>18</sup> As he clothed himself with cursing like as with his garment,<br>So let it come into his bowels<sup>f</sup> like water, and like oil into his bones.<br>
 <sup>19</sup> Let it be unto him as the garment _which_ covereth him,<br>And for a girdle wherewith he is girded continually.<br>
 <sup>20</sup> _Let_ this _be_ the reward of mine adversaries from the LORD,<br>And of them that speak evil against my soul.<br>
-<sup>21</sup> But do thou for me, O GOD the Lord, for thy name's sake:<br>Because thy mercy _is_ good, deliver thou me.<br>
+<sup>21</sup> But do thou for me, O GOD the Lord, for thy name’s sake:<br>Because thy mercy _is_ good, deliver thou me.<br>
 <sup>22</sup> For I _am_ poor and needy,<br>And my heart is wounded within me.<br>
 <sup>23</sup> I am gone like the shadow when it declineth:<br>I am tossed up and down as the locust.<br>
 <sup>24</sup> My knees are weak through fasting;<br>And my flesh faileth of fatness.<br>
@@ -3297,7 +3297,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 
 <sup>1</sup> Praise ye<sup>a</sup> the LORD. Praise, O ye servants of the LORD,<br>Praise the name of the LORD.<br>
 <sup>2</sup> Blessed be the name of the LORD<br>From this time forth and for evermore.<br>
-<sup>3</sup> From the rising of the sun unto the going down of the same<br>The LORD's name _is_ to be praised.<br>
+<sup>3</sup> From the rising of the sun unto the going down of the same<br>The LORD’s name _is_ to be praised.<br>
 <sup>4</sup> The LORD _is_ high above all nations,<br>_And_ his glory above the heavens.<br>
 <sup>5</sup> Who _is_ like unto the LORD our God, who dwelleth on high,<sup>b</sup><br>
 <sup>6</sup> Who humbleth _himself_ to behold _the things that are_ in heaven, and in the earth!<br>
@@ -3322,10 +3322,10 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 
 ## Chapter 115
 
-<sup>1</sup> Not unto us, O LORD, not unto us, but unto thy name give glory,<br>For thy mercy, _and_ for thy truth's sake.<br>
+<sup>1</sup> Not unto us, O LORD, not unto us, but unto thy name give glory,<br>For thy mercy, _and_ for thy truth’s sake.<br>
 <sup>2</sup> Wherefore should the heathen say,<br>Where _is_ now their God?<br>
 <sup>3</sup> But our God _is_ in the heavens:<br>He hath done whatsoever he hath pleased.<br>
-<sup>4</sup> Their idols _are_ silver and gold,<br>The work of men's hands.<br>
+<sup>4</sup> Their idols _are_ silver and gold,<br>The work of men’s hands.<br>
 <sup>5</sup> They have mouths, but they speak not:<br>Eyes have they, but they see not:<br>
 <sup>6</sup> They have ears, but they hear not:<br>Noses have they, but they smell not:<br>
 <sup>7</sup> They have hands, but they handle not: Feet have they, but they walk not:<br>Neither speak they through their throat.<br>
@@ -3337,7 +3337,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>13</sup> He will bless them that fear<br>the LORD, _both_<sup>a</sup> small and great.<br>
 <sup>14</sup> The LORD shall increase you more and more,<br>You and your children.<br>
 <sup>15</sup> Ye _are_ blessed of the LORD<br>Which made heaven and earth.<br>
-<sup>16</sup> The heaven, _even_ the heavens, _are_ the LORD's:<br>But the earth hath he given to the children of men.<br>
+<sup>16</sup> The heaven, _even_ the heavens, _are_ the LORD’s:<br>But the earth hath he given to the children of men.<br>
 <sup>17</sup> The dead praise not the LORD,<br>Neither any that go down into silence.<br>
 <sup>18</sup> But we will bless the LORD<br>From this time forth and for evermore.<br>Praise the LORD.<br>
 
@@ -3363,7 +3363,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>16</sup> O LORD, truly I _am_ thy servant;<br>I _am_ thy servant, _and_ the son of thine handmaid: Thou hast loosed my bonds.<br>
 <sup>17</sup> I will offer to thee the sacrifice of thanksgiving,<br>And will call upon the name of the LORD.<br>
 <sup>18</sup> I will pay my vows unto the LORD now in the presence of all his people,<br>
-<sup>19</sup> In the courts of the LORD's house, in the midst of thee, O Jerusalem.<br>Praise ye the LORD.<br>
+<sup>19</sup> In the courts of the LORD’s house, in the midst of thee, O Jerusalem.<br>Praise ye the LORD.<br>
 
 > - <sup>a</sup> 3. Heb. _found me_
 
@@ -3396,7 +3396,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>20</sup> This gate of the LORD,<br>Into which the righteous shall enter.<br>
 <sup>21</sup> I will praise thee: for thou hast heard me,<br>And art become my salvation.<br>
 <sup>22</sup> The stone _which_ the builders refused<br>Is become the head _stone_ of the corner.<br>
-<sup>23</sup> This is the LORD's doing;<br>It _is_ marvellous in our eyes.<br>
+<sup>23</sup> This is the LORD’s doing;<br>It _is_ marvellous in our eyes.<br>
 <sup>24</sup> This _is_ the day _which_ the LORD hath made;<br>We will rejoice and be glad in it.<br>
 <sup>25</sup> Save now, I beseech thee, O LORD:<br>O LORD, I beseech thee, send now prosperity.<br>
 <sup>26</sup> Blessed _be_ he that cometh in the name of the LORD:<br>We have blessed you out of the house of the LORD.<br>
@@ -3705,7 +3705,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>5</sup> For there are set<sup>a</sup> thrones of judgment,<br>The thrones of the house of David.<br>
 <sup>6</sup> Pray for the peace of Jerusalem:<br>They shall prosper that love thee.<br>
 <sup>7</sup> Peace be within thy walls,<br>_And_ prosperity within thy palaces.<br>
-<sup>8</sup> For my brethren and companions' sakes,<br>I will now say, Peace _be_ within thee.<br>
+<sup>8</sup> For my brethren and companions’ sakes,<br>I will now say, Peace _be_ within thee.<br>
 <sup>9</sup> Because of the house of the LORD our God<br>I will seek thy good.<br>
 
 > - <sup>a</sup> 5. Heb. _do set_
@@ -3783,7 +3783,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>3</sup> Thy wife _shall be_ as a fruitful vine by the sides of thine house: Thy children like olive plants round about thy table.<br>
 <sup>4</sup> Behold, that thus shall the man be blessed that feareth the LORD.<br>
 <sup>5</sup> The LORD shall bless thee out of Zion:<br>And thou shalt see the good of Jerusalem all the days of thy life.<br>
-<sup>6</sup> Yea, thou shalt see thy children's children,<br>_And_ peace upon Israel.<br>
+<sup>6</sup> Yea, thou shalt see thy children’s children,<br>_And_ peace upon Israel.<br>
 
 ## Chapter 129
 
@@ -3839,7 +3839,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>7</sup> We will go into his tabernacles:<br>We will worship at his footstool.<br>
 <sup>8</sup> Arise, O LORD, into thy rest;<br>Thou, and the ark of thy strength.<br>
 <sup>9</sup> Let thy priests be clothed with righteousness;<br>And let thy saints shout for joy.<br>
-<sup>10</sup> For thy servant David's sake<br>Turn not away the face of thine anointed.<br>
+<sup>10</sup> For thy servant David’s sake<br>Turn not away the face of thine anointed.<br>
 <sup>11</sup> The LORD hath sworn _in_ truth unto David;<br>He will not turn from it;<br>Of the fruit of thy body<sup>b</sup><br>Will I set upon thy throne.<br>
 <sup>12</sup> If thy children will keep my covenant and my testimony that I shall teach them,<br>Their children shall also sit upon thy throne for evermore.<br>
 <sup>13</sup> For the LORD hath chosen Zion;<br>He hath desired _it_ for his habitation.<br>
@@ -3859,7 +3859,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 > _A Song of degrees of David._
 
 <sup>1</sup> Behold, how good and how pleasant _it is_<br>For brethren to dwell together<sup>a</sup> in unity!<br>
-<sup>2</sup> _It is_ like the precious ointment upon the head, that ran down upon the beard,<br>_Even_ Aaron's beard: That went down to the skirts of his garments;<br>
+<sup>2</sup> _It is_ like the precious ointment upon the head, that ran down upon the beard,<br>_Even_ Aaron’s beard: That went down to the skirts of his garments;<br>
 <sup>3</sup> As the dew of Hermon,<br>_And as the dew_ that descended upon the mountains of Zion:<br>For there the LORD commanded the blessing,<br>_Even_ life for evermore.<br>
 
 > - <sup>a</sup> 1. Heb. _even together_
@@ -3890,7 +3890,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>12</sup> And gave their land _for_ an heritage,<br>An heritage unto Israel his people.<br>
 <sup>13</sup> Thy name, O LORD, _endureth_ for ever;<br>_And_ thy memorial, O LORD, throughout all generations.<sup>b</sup><br>
 <sup>14</sup> For the LORD will judge his people,<br>And he will repent himself concerning his servants.<br>
-<sup>15</sup> The idols of the heathen<br>_are_ silver and gold, the work of men's hands.<br>
+<sup>15</sup> The idols of the heathen<br>_are_ silver and gold, the work of men’s hands.<br>
 <sup>16</sup> They have mouths, but they speak not;<br>Eyes have they, but they see not;<br>
 <sup>17</sup> They have ears, but they hear not;<br>Neither is there _any_ breath in their mouths.<br>
 <sup>18</sup> They that make them are like unto them:<br>_So is_ every one that trusteth in them.<br>
@@ -3938,7 +3938,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>1</sup> By the rivers of Babylon, there we sat down, yea, we wept,<br>When we remembered Zion.<br>
 <sup>2</sup> We hanged our harps<br>Upon the willows in the midst thereof.<br>
 <sup>3</sup> For there they that carried us away captive required of us a song;<sup>a</sup> And they that wasted us<sup>b</sup> _required of us_ mirth, _saying_,<br>Sing us _one_ of the songs of Zion.<br>
-<sup>4</sup> How shall we sing<br>The LORD's song in a strange land?<sup>c</sup><br>
+<sup>4</sup> How shall we sing<br>The LORD’s song in a strange land?<sup>c</sup><br>
 <sup>5</sup> If I forget thee, O Jerusalem,<br>Let my right hand forget _her cunning_.<br>
 <sup>6</sup> If I do not remember thee, let my tongue cleave to the roof of my mouth;<br>If I prefer not Jerusalem above my chief joy.<sup>d</sup><br>
 <sup>7</sup> Remember, O LORD, the children of Edom in the day of Jerusalem;<br>Who said, Rase _it_, rase _it_, _even_ to the foundation thereof.<br>
@@ -3981,7 +3981,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>10</sup> Even there shall thy hand lead me,<br>And thy right hand shall hold me.<br>
 <sup>11</sup> If I say, Surely the darkness shall cover me;<br>Even the night shall be light about me.<br>
 <sup>12</sup> Yea, the darkness hideth not<sup>b</sup> from thee; But the night shineth as the day:<br>The darkness and the light<sup>c</sup> _are_ both alike _to thee_.<br>
-<sup>13</sup> For thou hast possessed my reins:<br>Thou hast covered me in my mother's womb.<br>
+<sup>13</sup> For thou hast possessed my reins:<br>Thou hast covered me in my mother’s womb.<br>
 <sup>14</sup> I will praise thee; for I am fearfully _and_ wonderfully made:<br>Marvellous _are_ thy works; And _that_ my soul knoweth right<sup>d</sup> well.<br>
 <sup>15</sup> My substance<sup>e</sup> was not hid from thee,<br>When I was made in secret, _and_ curiously wrought in the lowest parts of the earth.<br>
 <sup>16</sup> Thine eyes did see my substance, yet being unperfect;<br>And in thy book all _my members_<sup>f</sup> were written,<br>_Which_ in continuance were fashioned,<sup>g</sup><br>When _as yet there was_ none of them.<br>
@@ -4009,7 +4009,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 
 <sup>1</sup> Deliver me, O LORD, from the evil man:<br>Preserve me from the violent man;<sup>a</sup><br>
 <sup>2</sup> Which imagine mischiefs in _their_ heart;<br>Continually are they gathered together _for_ war.<br>
-<sup>3</sup> They have sharpened their tongues like a serpent;<br>Adders' poison _is_ under their lips. _Selah._<br>
+<sup>3</sup> They have sharpened their tongues like a serpent;<br>Adders’ poison _is_ under their lips. _Selah._<br>
 <sup>4</sup> Keep me, O LORD, from the hands of the wicked;<br>Preserve me from the violent man; Who have purposed to overthrow my goings.<br>
 <sup>5</sup> The proud have hid a snare for me, and cords; They have spread a net by the wayside;<br>They have set gins for me. _Selah._<br>
 <sup>6</sup> I said unto the LORD, Thou _art_ my God:<br>Hear the voice of my supplications, O LORD.<br>
@@ -4034,7 +4034,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>4</sup> Incline not my heart to _any_ evil thing,<br>To practise wicked works with men that work iniquity: And let me not eat of their dainties.<br>
 <sup>5</sup> Let the righteous smite me;<br>_It shall be_ a kindness: And let him reprove me;<br>_It shall be_ an excellent oil, _which_ shall not break my head:<br>For yet my prayer also _shall be_ in their calamities.<br>
 <sup>6</sup> When their judges are overthrown in stony places,<br>They shall hear my words; for they are sweet.<br>
-<sup>7</sup> Our bones are scattered at the grave's mouth,<br>As when one cutteth and cleaveth _wood_ upon the earth.<br>
+<sup>7</sup> Our bones are scattered at the grave’s mouth,<br>As when one cutteth and cleaveth _wood_ upon the earth.<br>
 <sup>8</sup> But mine eyes _are_ unto thee, O GOD the Lord:<br>In thee is my trust; leave not my soul destitute.<sup>a</sup><br>
 <sup>9</sup> Keep me from the snares _which_ they have laid for me, and the gins of the workers of iniquity.<br>
 <sup>10</sup> Let the wicked fall into their own nets, whilst that I withal escape.<sup>b</sup><br>
@@ -4072,7 +4072,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 <sup>8</sup> Cause me to hear thy lovingkindness in the morning; For in thee do I trust:<br>Cause me to know the way wherein I should walk; For I lift up my soul unto thee.<br>
 <sup>9</sup> Deliver me, O LORD, from mine enemies:<br>I flee unto thee to hide me.<br>
 <sup>10</sup> Teach me to do thy will; for thou _art_ my God:<br>Thy spirit _is_ good; lead me into the land of uprightness.<br>
-<sup>11</sup> Quicken me, O LORD, for thy name's sake:<br>For thy righteousness' sake bring my soul out of trouble.<br>
+<sup>11</sup> Quicken me, O LORD, for thy name’s sake:<br>For thy righteousness’ sake bring my soul out of trouble.<br>
 <sup>12</sup> And of thy mercy cut off mine enemies,<br>And destroy all them that afflict my soul: For I _am_ thy servant.<br>
 
 > - <sup>a</sup> 7. Or, _for I am become like._ etc.
@@ -4108,7 +4108,7 @@ The wicked shall see _it_, and be grieved;<br>He shall gnash with his teeth, and
 
 ## Chapter 145
 
-> _David's _Psalm_ of praise._
+> _David’s _Psalm_ of praise._
 
 #### א Aleph
 

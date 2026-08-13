@@ -46,7 +46,7 @@
 
 <sup>12</sup> And I turned myself to behold wisdom, and madness, and folly: for what _can_ the man _do_ that cometh after the king? _even_ that which hath been already done.<sup>e</sup>
 <sup>13</sup> Then I saw that wisdom excelleth folly,<sup>f</sup> as far as light excelleth darkness.
-<sup>14</sup> The wise man's eyes _are_ in his head; but the fool walketh in darkness: and I myself perceived also that one event happeneth to them all.
+<sup>14</sup> The wise man’s eyes _are_ in his head; but the fool walketh in darkness: and I myself perceived also that one event happeneth to them all.
 <sup>15</sup> Then said I in my heart, As it happeneth to the fool, so it happeneth even to me;<sup>g</sup> and why was I then more wise? Then I said in my heart, that this also _is_ vanity.
 <sup>16</sup> For _there is_ no remembrance of the wise more than of the fool for ever; seeing that which now _is_ in the days to come shall all be forgotten. And how dieth the wise _man?_ as the fool.
 <sup>17</sup> Therefore I hated life; because the work that is wrought under the sun _is_ grievous unto me: for all _is_ vanity and vexation of spirit.
@@ -140,7 +140,7 @@
 
 <sup>1</sup> Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.
 <sup>2</sup> Be not rash with thy mouth, and let not thine heart be hasty to utter _any_ thing<sup>a</sup> before God: for God _is_ in heaven, and thou upon earth: therefore let thy words be few.
-<sup>3</sup> For a dream cometh through the multitude of business; and a fool's voice _is known_ by multitude of words.
+<sup>3</sup> For a dream cometh through the multitude of business; and a fool’s voice _is known_ by multitude of words.
 <sup>4</sup> When thou vowest a vow unto God, defer not to pay it; for _he hath_ no pleasure in fools: pay that which thou hast vowed.
 <sup>5</sup> Better _is it_ that thou shouldest not vow, than that thou shouldest vow and not pay.
 <sup>6</sup> Suffer not thy mouth to cause thy flesh to sin; neither say thou before the angel, that it _was_ an error: wherefore should God be angry at thy voice, and destroy the work of thine hands?
@@ -155,7 +155,7 @@
 
 <sup>13</sup> There is a sore evil _which_ I have seen under the sun, _namely_, riches kept for the owners thereof to their hurt.
 <sup>14</sup> But those riches perish by evil travail: and he begetteth a son, and _there is_ nothing in his hand.
-<sup>15</sup> As he came forth of his mother's womb, naked shall he return to go as he came, and shall take nothing of his labour, which he may carry away in his hand.
+<sup>15</sup> As he came forth of his mother’s womb, naked shall he return to go as he came, and shall take nothing of his labour, which he may carry away in his hand.
 <sup>16</sup> And this also _is_ a sore evil, _that_ in all points as he came, so shall he go: and what profit hath he that hath laboured for the wind?
 <sup>17</sup> All his days also he eateth in darkness, and _he hath_ much sorrow and wrath with his sickness.
 
@@ -192,7 +192,7 @@
 
 ### The Vanity of Fame
 
-<sup>1</sup> A good name _is_ better than precious ointment; and the day of death than the day of one's birth.
+<sup>1</sup> A good name _is_ better than precious ointment; and the day of death than the day of one’s birth.
 <sup>2</sup> _It is_ better to go to the house of mourning, than to go to the house of feasting: for that _is_ the end of all men; and the living will lay _it_ to his heart.
 <sup>3</sup> Sorrow<sup>a</sup> _is_ better than laughter: for by the sadness of the countenance the heart is made better.
 <sup>4</sup> The heart of the wise _is_ in the house of mourning; but the heart of fools _is_ in the house of mirth.
@@ -243,11 +243,11 @@
 
 ## Chapter 8
 
-<sup>1</sup> Who _is_ as the wise _man?_ and who knoweth the interpretation of a thing? a man's wisdom maketh his face to shine, and the boldness<sup>a</sup> of his face shall be changed.
-<sup>2</sup> I _counsel thee_ to keep the king's commandment, and _that_ in regard of the oath of God.
+<sup>1</sup> Who _is_ as the wise _man?_ and who knoweth the interpretation of a thing? a man’s wisdom maketh his face to shine, and the boldness<sup>a</sup> of his face shall be changed.
+<sup>2</sup> I _counsel thee_ to keep the king’s commandment, and _that_ in regard of the oath of God.
 <sup>3</sup> Be not hasty to go out of his sight: stand not in an evil thing; for he doeth whatsoever pleaseth him.
 <sup>4</sup> Where the word of a king _is, there is_ power: and who may say unto him, What doest thou?
-<sup>5</sup> Whoso keepeth the commandment shall feel<sup>b</sup> no evil thing: and a wise man's heart discerneth both time and judgment.
+<sup>5</sup> Whoso keepeth the commandment shall feel<sup>b</sup> no evil thing: and a wise man’s heart discerneth both time and judgment.
 <sup>6</sup> Because to every purpose there is time and judgment, therefore the misery of man _is_ great upon him.
 <sup>7</sup> For he knoweth not that which shall be: for who can tell him when it shall be?<sup>c</sup>
 <sup>8</sup> _There is_ no man that hath power over the spirit to retain the spirit; neither _hath he_ power in the day of death: and _there is_ no discharge<sup>d</sup> in _that_ war; neither shall wickedness deliver those that are given to it.
@@ -291,7 +291,7 @@
 <sup>13</sup> This wisdom have I seen also under the sun, and it _seemed_ great unto me:
 <sup>14</sup> _there was_ a little city, and few men within it; and there came a great king against it, and besieged it, and built great bulwarks against it:
 <sup>15</sup> now there was found in it a poor wise man, and he by his wisdom delivered the city; yet no man remembered that same poor man.
-<sup>16</sup> Then said I, Wisdom _is_ better than strength: nevertheless the poor man's wisdom _is_ despised, and his words are not heard.
+<sup>16</sup> Then said I, Wisdom _is_ better than strength: nevertheless the poor man’s wisdom _is_ despised, and his words are not heard.
 <sup>17</sup> The words of wise _men are_ heard in quiet more than the cry of him that ruleth among fools.
 <sup>18</sup> Wisdom _is_ better than weapons of war: but one sinner destroyeth much good.
 
@@ -301,7 +301,7 @@
 ## Chapter 10
 
 <sup>1</sup> Dead flies<sup>a</sup> cause the ointment of the apothecary to send forth a stinking savour: _so doth_ a little folly him that is in reputation for wisdom _and_ honour.
-<sup>2</sup> A wise man's heart _is_ at his right hand; but a fool's heart at his left.
+<sup>2</sup> A wise man’s heart _is_ at his right hand; but a fool’s heart at his left.
 <sup>3</sup> Yea also, when he that is a fool walketh by the way, his wisdom<sup>b</sup> faileth _him_, and he saith to every one _that_ he _is_ a fool.
 <sup>4</sup> If the spirit of the ruler rise up against thee, leave not thy place; for yielding pacifieth great offences.
 <sup>5</sup> There is an evil _which_ I have seen under the sun, as an error _which_ proceedeth from<sup>c</sup> the ruler:
@@ -313,7 +313,7 @@
 <sup>10</sup> If the iron be blunt, and he do not whet the edge, then must he put to more strength: but wisdom _is_ profitable to direct.
 <sup>11</sup> Surely the serpent will bite without enchantment; and a babbler<sup>e</sup> is no better.
 
-<sup>12</sup> The words of a wise man's mouth _are_ gracious;<sup>f</sup> but the lips of a fool will swallow up himself.
+<sup>12</sup> The words of a wise man’s mouth _are_ gracious;<sup>f</sup> but the lips of a fool will swallow up himself.
 <sup>13</sup> The beginning of the words of his mouth _is_ foolishness: and the end of his talk<sup>g</sup> _is_ mischievous madness.
 <sup>14</sup> A fool also is full of words:<sup>h</sup> a man cannot tell what shall be; and what shall be after him, who can tell him?
 <sup>15</sup> The labour of the foolish wearieth every one of them, because he knoweth not how to go to the city.

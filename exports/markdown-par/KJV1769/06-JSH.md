@@ -2,7 +2,7 @@
 
 ### The Promised Land
 
-<sup>1</sup> Now after the death of Moses the servant of the LORD it came to pass, that the LORD spake unto Joshua the son of Nun, Moses' minister, saying,
+<sup>1</sup> Now after the death of Moses the servant of the LORD it came to pass, that the LORD spake unto Joshua the son of Nun, Moses’ minister, saying,
 <sup>2</sup> Moses my servant is dead; now therefore arise, go over this Jordan, thou, and all this people, unto the land which I do give to them, _even_ to the children of Israel.
 <sup>3</sup> Every place that the sole of your foot shall tread upon, that have I given unto you, as I said unto Moses.
 <sup>4</sup> From the wilderness and this Lebanon even unto the great river, the river Euphrates, all the land of the Hittites, and unto the great sea toward the going down of the sun, shall be your coast.
@@ -18,7 +18,7 @@
 <sup>12</sup> And to the Reubenites, and to the Gadites, and to half the tribe of Manasseh, spake Joshua, saying,
 <sup>13</sup> Remember the word which Moses the servant of the LORD commanded you, saying, The LORD your God hath given you rest, and hath given you this land.
 <sup>14</sup> Your wives, your little ones, and your cattle, shall remain in the land which Moses gave you on this side Jordan; but ye shall pass before your brethren armed,<sup>c</sup> all the mighty men of valour, and help them;
-<sup>15</sup> until the LORD have given your brethren rest, as _he hath given_ you, and they also have possessed the land which the LORD your God giveth them: then ye shall return unto the land of your possession, and enjoy it, which Moses the LORD's servant gave you on this side Jordan toward the sunrising.
+<sup>15</sup> until the LORD have given your brethren rest, as _he hath given_ you, and they also have possessed the land which the LORD your God giveth them: then ye shall return unto the land of your possession, and enjoy it, which Moses the LORD’s servant gave you on this side Jordan toward the sunrising.
 <sup>16</sup> And they answered Joshua, saying, All that thou commandest us we will do, and whithersoever thou sendest us, we will go.
 <sup>17</sup> According as we hearkened unto Moses in all things, so will we hearken unto thee: only the LORD thy God be with thee, as he was with Moses.
 <sup>18</sup> Whosoever _he be_ that doth rebel against thy commandment, and will not hearken unto thy words in all that thou commandest him, he shall be put to death: only be strong and of a good courage.
@@ -31,7 +31,7 @@
 
 ### Spies Sent Out
 
-<sup>1</sup> And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot's house, named Rahab, and lodged<sup>a</sup> there.
+<sup>1</sup> And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot’s house, named Rahab, and lodged<sup>a</sup> there.
 <sup>2</sup> And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country.
 <sup>3</sup> And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country.
 <sup>4</sup> And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they _were:_
@@ -43,14 +43,14 @@
 <sup>9</sup> and she said unto the men, I know that the LORD hath given you the land, and that your terror is fallen upon us, and that all the inhabitants of the land faint<sup>b</sup> because of you.
 <sup>10</sup> For we have heard how the LORD dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that _were_ on the other side Jordan, Sihon and Og, whom ye utterly destroyed.
 <sup>11</sup> And as soon as we had heard _these things_, our hearts did melt, neither did there remain<sup>c</sup> any more courage in any man, because of you: for the LORD your God, he _is_ God in heaven above, and in earth beneath.
-<sup>12</sup> Now therefore, I pray you, swear unto me by the LORD, since I have shewed you kindness, that ye will also shew kindness unto my father's house, and give me a true token:
+<sup>12</sup> Now therefore, I pray you, swear unto me by the LORD, since I have shewed you kindness, that ye will also shew kindness unto my father’s house, and give me a true token:
 <sup>13</sup> and _that_ ye will save alive my father, and my mother, and my brethren, and my sisters, and all that they have, and deliver our lives from death.
-<sup>14</sup> And the men answered her, Our life for your's, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee.
+<sup>14</sup> And the men answered her, Our life for your’s, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee.
 
 <sup>15</sup> Then she let them down by a cord through the window: for her house _was_ upon the town wall, and she dwelt upon the wall.
 <sup>16</sup> And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.
 <sup>17</sup> And the men said unto her, We _will be_ blameless of this thine oath which thou hast made us swear.
-<sup>18</sup> Behold, _when_ we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring<sup>d</sup> thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee.
+<sup>18</sup> Behold, _when_ we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring<sup>d</sup> thy father, and thy mother, and thy brethren, and all thy father’s household, home unto thee.
 <sup>19</sup> And it shall be, _that_ whosoever shall go out of the doors of thy house into the street, his blood _shall be_ upon his head, and we _will be_ guiltless: and whosoever shall be with thee in the house, his blood _shall be_ on our head, if _any_ hand be upon him.
 <sup>20</sup> And if thou utter this our business, then we will be quit of thine oath which thou hast made us to swear.
 <sup>21</sup> And she said, According unto your words, so _be_ it. And she sent them away, and they departed: and she bound the scarlet line in the window.
@@ -95,7 +95,7 @@
 
 <sup>1</sup> And it came to pass, when all the people were clean passed over Jordan, that the LORD spake unto Joshua, saying,
 <sup>2</sup> Take you twelve men out of the people, out of every tribe a man,
-<sup>3</sup> and command ye them, saying, Take you hence out of the midst of Jordan, out of the place where the priests' feet stood firm, twelve stones, and ye shall carry them over with you, and leave them in the lodging place, where ye shall lodge this night.
+<sup>3</sup> and command ye them, saying, Take you hence out of the midst of Jordan, out of the place where the priests’ feet stood firm, twelve stones, and ye shall carry them over with you, and leave them in the lodging place, where ye shall lodge this night.
 <sup>4</sup> Then Joshua called the twelve men, whom he had prepared of the children of Israel, out of every tribe a man:
 <sup>5</sup> and Joshua said unto them, Pass over before the ark of the LORD your God into the midst of Jordan, and take you up every man of you a stone upon his shoulder, according unto the number of the tribes of the children of Israel:
 <sup>6</sup> that this may be a sign among you, _that_ when your children ask _their fathers_ in time to come,<sup>a</sup> saying, What _mean_ ye by these stones?
@@ -112,7 +112,7 @@
 <sup>15</sup> And the LORD spake unto Joshua, saying,
 <sup>16</sup> Command the priests that bear the ark of the testimony, that they come up out of Jordan.
 <sup>17</sup> Joshua therefore commanded the priests, saying, Come ye up out of Jordan.
-<sup>18</sup> And it came to pass, when the priests that bare the ark of the covenant of the LORD were come up out of the midst of Jordan, _and_ the soles of the priests' feet were lifted up unto the dry land, that the waters of Jordan returned unto their place, and flowed over<sup>c</sup> all his banks, as _they did_ before.
+<sup>18</sup> And it came to pass, when the priests that bare the ark of the covenant of the LORD were come up out of the midst of Jordan, _and_ the soles of the priests’ feet were lifted up unto the dry land, that the waters of Jordan returned unto their place, and flowed over<sup>c</sup> all his banks, as _they did_ before.
 
 <sup>19</sup> And the people came up out of Jordan on the tenth _day_ of the first month, and encamped in Gilgal, in the east border of Jericho.
 <sup>20</sup> And those twelve stones, which they took out of Jordan, did Joshua pitch in Gilgal.
@@ -147,7 +147,7 @@
 
 <sup>13</sup> And it came to pass, when Joshua was by Jericho, that he lifted up his eyes and looked, and, behold, there stood a man over against him with his sword drawn in his hand: and Joshua went unto him, and said unto him, _Art_ thou for us, or for our adversaries?
 <sup>14</sup> And he said, Nay; but _as_ captain<sup>e</sup> of the host of the LORD am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?
-<sup>15</sup> And the captain of the LORD's host said unto Joshua, Loose thy shoe from off thy foot; for the place whereon thou standest _is_ holy. And Joshua did so.
+<sup>15</sup> And the captain of the LORD’s host said unto Joshua, Loose thy shoe from off thy foot; for the place whereon thou standest _is_ holy. And Joshua did so.
 
 > - <sup>a</sup> 2. Or, _knives of flints_
 > - <sup>b</sup> 3. Or, _Gibeahharaloth_
@@ -160,18 +160,18 @@
 <sup>1</sup> Now Jericho was straitly shut up because of the children of Israel: none went out, and none came in.
 <sup>2</sup> And the LORD said unto Joshua, See, I have given into thine hand Jericho, and the king thereof, _and_ the mighty men of valour.
 <sup>3</sup> And ye shall compass the city, all _ye_ men of war, _and_ go round about the city once. Thus shalt thou do six days.
-<sup>4</sup> And seven priests shall bear before the ark seven trumpets of rams' horns: and the seventh day ye shall compass the city seven times, and the priests shall blow with the trumpets.
-<sup>5</sup> And it shall come to pass, that when they make a long _blast_ with the ram's horn, _and_ when ye hear the sound of the trumpet, all the people shall shout with a great shout; and the wall of the city shall fall down flat,<sup>a</sup> and the people shall ascend up every man straight before him.
-<sup>6</sup> And Joshua the son of Nun called the priests, and said unto them, Take up the ark of the covenant, and let seven priests bear seven trumpets of rams' horns before the ark of the LORD.
+<sup>4</sup> And seven priests shall bear before the ark seven trumpets of rams’ horns: and the seventh day ye shall compass the city seven times, and the priests shall blow with the trumpets.
+<sup>5</sup> And it shall come to pass, that when they make a long _blast_ with the ram’s horn, _and_ when ye hear the sound of the trumpet, all the people shall shout with a great shout; and the wall of the city shall fall down flat,<sup>a</sup> and the people shall ascend up every man straight before him.
+<sup>6</sup> And Joshua the son of Nun called the priests, and said unto them, Take up the ark of the covenant, and let seven priests bear seven trumpets of rams’ horns before the ark of the LORD.
 <sup>7</sup> And he said unto the people, Pass on, and compass the city, and let him that is armed pass on before the ark of the LORD.
 
-<sup>8</sup> And it came to pass, when Joshua had spoken unto the people, that the seven priests bearing the seven trumpets of rams' horns passed on before the LORD, and blew with the trumpets: and the ark of the covenant of the LORD followed them.
+<sup>8</sup> And it came to pass, when Joshua had spoken unto the people, that the seven priests bearing the seven trumpets of rams’ horns passed on before the LORD, and blew with the trumpets: and the ark of the covenant of the LORD followed them.
 <sup>9</sup> And the armed men went before the priests that blew with the trumpets, and the rereward<sup>b</sup> came after the ark, _the priests_ going on, and blowing with the trumpets.
 <sup>10</sup> And Joshua had commanded the people, saying, Ye shall not shout, nor make any noise with your voice,<sup>c</sup> neither shall _any_ word proceed out of your mouth, until the day I bid you shout; then shall ye shout.
 <sup>11</sup> So the ark of the LORD compassed the city, going about _it_ once: and they came into the camp, and lodged in the camp.
 
 <sup>12</sup> And Joshua rose early in the morning, and the priests took up the ark of the LORD.
-<sup>13</sup> And seven priests bearing seven trumpets of rams' horns before the ark of the LORD went on continually, and blew with the trumpets: and the armed men went before them; but the rereward came after the ark of the LORD, _the priests_ going on, and blowing with the trumpets.
+<sup>13</sup> And seven priests bearing seven trumpets of rams’ horns before the ark of the LORD went on continually, and blew with the trumpets: and the armed men went before them; but the rereward came after the ark of the LORD, _the priests_ going on, and blowing with the trumpets.
 <sup>14</sup> And the second day they compassed the city once, and returned into the camp: so they did six days.
 
 <sup>15</sup> And it came to pass on the seventh day, that they rose early about the dawning of the day, and compassed the city after the same manner seven times: only on that day they compassed the city seven times.
@@ -182,10 +182,10 @@
 <sup>20</sup> So the people shouted when _the priests_ blew with the trumpets: and it came to pass, when the people heard the sound of the trumpet, and the people shouted with a great shout, that the wall fell down flat,<sup>f</sup> so that the people went up into the city, every man straight before him, and they took the city.
 <sup>21</sup> And they utterly destroyed all that _was_ in the city, both man and woman, young and old, and ox, and sheep, and ass, with the edge of the sword.
 
-<sup>22</sup> But Joshua had said unto the two men that had spied out the country, Go into the harlot's house, and bring out thence the woman, and all that she hath, as ye sware unto her.
+<sup>22</sup> But Joshua had said unto the two men that had spied out the country, Go into the harlot’s house, and bring out thence the woman, and all that she hath, as ye sware unto her.
 <sup>23</sup> And the young men that were spies went in, and brought out Rahab, and her father, and her mother, and her brethren, and all that she had; and they brought out all her kindred,<sup>g</sup> and left them without the camp of Israel.
 <sup>24</sup> And they burnt the city with fire, and all that _was_ therein: only the silver, and the gold, and the vessels of brass and of iron, they put into the treasury of the house of the LORD.
-<sup>25</sup> And Joshua saved Rahab the harlot alive, and her father's household, and all that she had; and she dwelleth in Israel _even_ unto this day; because she hid the messengers, which Joshua sent to spy out Jericho.
+<sup>25</sup> And Joshua saved Rahab the harlot alive, and her father’s household, and all that she had; and she dwelleth in Israel _even_ unto this day; because she hid the messengers, which Joshua sent to spy out Jericho.
 <sup>26</sup> And Joshua adjured _them_ at that time, saying, Cursed _be_ the man before the LORD, that riseth up and buildeth this city Jericho: he shall lay the foundation thereof in his firstborn, and in his youngest _son_ shall he set up the gates of it.
 <sup>27</sup> So the LORD was with Joshua; and his fame was _noised_ throughout all the country.
 
@@ -368,7 +368,7 @@ _Is_ not this written in the book of Jasher? So the sun stood still in the midst
 <sup>24</sup> And it came to pass, when they brought out those kings unto Joshua, that Joshua called for all the men of Israel, and said unto the captains of the men of war which went with him, Come near, put your feet upon the necks of these kings. And they came near, and put their feet upon the necks of them.
 <sup>25</sup> And Joshua said unto them, Fear not, nor be dismayed, be strong and of good courage: for thus shall the LORD do to all your enemies against whom ye fight.
 <sup>26</sup> And afterward Joshua smote them, and slew them, and hanged them on five trees: and they were hanging upon the trees until the evening.
-<sup>27</sup> And it came to pass at the time of the going down of the sun, _that_ Joshua commanded, and they took them down off the trees, and cast them into the cave wherein they had been hid, and laid great stones in the cave's mouth, _which remain_ until this very day.
+<sup>27</sup> And it came to pass at the time of the going down of the sun, _that_ Joshua commanded, and they took them down off the trees, and cast them into the cave wherein they had been hid, and laid great stones in the cave’s mouth, _which remain_ until this very day.
 
 ### Completing the Conquest
 
@@ -533,7 +533,7 @@ _Is_ not this written in the book of Jasher? So the sun stood still in the midst
 <sup>6</sup> Then the children of Judah came unto Joshua in Gilgal: and Caleb the son of Jephunneh the Kenezite said unto him, Thou knowest the thing that the LORD said unto Moses the man of God concerning me and thee in Kadesh-barnea.
 <sup>7</sup> Forty years old _was_ I when Moses the servant of the LORD sent me from Kadesh-barnea to espy out the land; and I brought him word again as _it was_ in mine heart.
 <sup>8</sup> Nevertheless my brethren that went up with me made the heart of the people melt: but I wholly followed the LORD my God.
-<sup>9</sup> And Moses sware on that day, saying, Surely the land whereon thy feet have trodden shall be thine inheritance, and thy children's for ever, because thou hast wholly followed the LORD my God.
+<sup>9</sup> And Moses sware on that day, saying, Surely the land whereon thy feet have trodden shall be thine inheritance, and thy children’s for ever, because thou hast wholly followed the LORD my God.
 <sup>10</sup> And now, behold, the LORD hath kept me alive, as he said, these forty and five years, even since the LORD spake this word unto Moses, while _the children of_ Israel wandered<sup>a</sup> in the wilderness: and now, lo, I _am_ this day fourscore and five years old.
 <sup>11</sup> As yet I _am as_ strong this day as _I was_ in the day that Moses sent me: as my strength _was_ then, even so _is_ my strength now, for war, both to go out, and to come in.
 <sup>12</sup> Now therefore give me this mountain, whereof the LORD spake in that day; for thou heardest in that day how the Anakims _were_ there, and _that_ the cities _were_ great _and_ fenced: if so be the LORD _will be_ with me, then I shall be able to drive them out, as the LORD said.
@@ -645,12 +645,12 @@ _Is_ not this written in the book of Jasher? So the sun stood still in the midst
 <sup>3</sup> But Zelophehad, the son of Hepher, the son of Gilead, the son of Machir, the son of Manasseh, had no sons, but daughters: and these _are_ the names of his daughters, Mahlah, and Noah, Hoglah, Milcah, and Tirzah.
 <sup>4</sup> And they came near before Eleazar the priest, and before Joshua the son of Nun, and before the princes, saying, The LORD commanded Moses to give us an inheritance among our brethren. Therefore according to the commandment of the LORD he gave them an inheritance among the brethren of their father.
 <sup>5</sup> And there fell ten portions to Manasseh, beside the land of Gilead and Bashan, which _were_ on the other side Jordan;
-<sup>6</sup> because the daughters of Manasseh had an inheritance among his sons: and the rest of Manasseh's sons had the land of Gilead.
+<sup>6</sup> because the daughters of Manasseh had an inheritance among his sons: and the rest of Manasseh’s sons had the land of Gilead.
 
 <sup>7</sup> And the coast of Manasseh was from Asher to Michmethah, that _lieth_ before Shechem; and the border went along on the right hand unto the inhabitants of En-tappuah.
 <sup>8</sup> _Now_ Manasseh had the land of Tappuah: but Tappuah on the border of Manasseh _belonged_ to the children of Ephraim;
 <sup>9</sup> and the coast descended unto the river Kanah,<sup>a</sup> southward of the river: these cities of Ephraim _are_ among the cities of Manasseh: the coast of Manasseh also _was_ on the north side of the river, and the outgoings of it were at the sea:
-<sup>10</sup> southward _it was_ Ephraim's, and northward _it was_ Manasseh's, and the sea is his border; and they met together in Asher on the north, and in Issachar on the east.
+<sup>10</sup> southward _it was_ Ephraim’s, and northward _it was_ Manasseh’s, and the sea is his border; and they met together in Asher on the north, and in Issachar on the east.
 <sup>11</sup> And Manasseh had in Issachar and in Asher Beth-shean and her towns, and Ibleam and her towns, and the inhabitants of Dor and her towns, and the inhabitants of Endor and her towns, and the inhabitants of Taanach and her towns, and the inhabitants of Megiddo and her towns, _even_ three countries.
 <sup>12</sup> Yet the children of Manasseh could not drive out _the inhabitants of_ those cities; but the Canaanites would dwell in that land.
 <sup>13</sup> Yet it came to pass, when the children of Israel were waxen strong, that they put the Canaanites to tribute; but did not utterly drive them out.
@@ -801,7 +801,7 @@ _Is_ not this written in the book of Jasher? So the sun stood still in the midst
 
 <sup>8</sup> And the children of Israel gave by lot unto the Levites these cities with their suburbs, as the LORD commanded by the hand of Moses.
 <sup>9</sup> And they gave out of the tribe of the children of Judah, and out of the tribe of the children of Simeon, these cities which are _here_ mentioned<sup>a</sup> by name,
-<sup>10</sup> which the children of Aaron, _being_ of the families of the Kohathites, _who were_ of the children of Levi, had: for their's was the first lot.
+<sup>10</sup> which the children of Aaron, _being_ of the families of the Kohathites, _who were_ of the children of Levi, had: for their’s was the first lot.
 <sup>11</sup> And they gave them the city of Arba the father of Anak, which _city is_ Hebron, in the hill _country_ of Judah, with the suburbs thereof round about it.
 <sup>12</sup> But the fields of the city, and the villages thereof, gave they to Caleb the son of Jephunneh for his possession.
 
@@ -873,7 +873,7 @@ _Is_ not this written in the book of Jasher? So the sun stood still in the midst
 <sup>16</sup> Thus saith the whole congregation of the LORD, What trespass _is_ this that ye have committed against the God of Israel, to turn away this day from following the LORD, in that ye have builded you an altar, that ye might rebel this day against the LORD?
 <sup>17</sup> _Is_ the iniquity of Peor too little for us, from which we are not cleansed until this day, although there was a plague in the congregation of the LORD,
 <sup>18</sup> but that ye must turn away this day from following the LORD? and it will be, _seeing_ ye rebel to day against the LORD, that to morrow he will be wroth with the whole congregation of Israel.
-<sup>19</sup> Notwithstanding, if the land of your possession _be_ unclean, _then_ pass ye over unto the land of the possession of the LORD, wherein the LORD's tabernacle dwelleth, and take possession among us: but rebel not against the LORD, nor rebel against us, in building you an altar beside the altar of the LORD our God.
+<sup>19</sup> Notwithstanding, if the land of your possession _be_ unclean, _then_ pass ye over unto the land of the possession of the LORD, wherein the LORD’s tabernacle dwelleth, and take possession among us: but rebel not against the LORD, nor rebel against us, in building you an altar beside the altar of the LORD our God.
 <sup>20</sup> Did not Achan the son of Zerah commit a trespass in the accursed thing, and wrath fell on all the congregation of Israel? and that man perished not alone in his iniquity.
 
 <sup>21</sup> Then the children of Reuben and the children of Gad and the half tribe of Manasseh answered, and said unto the heads of the thousands of Israel,
@@ -900,7 +900,7 @@ _Is_ not this written in the book of Jasher? So the sun stood still in the midst
 
 ## Chapter 23
 
-### Joshua's Farewell
+### Joshua’s Farewell
 
 <sup>1</sup> And it came to pass a long time after that the LORD had given rest unto Israel from all their enemies round about, that Joshua waxed old _and_ stricken in age.<sup>a</sup>
 <sup>2</sup> And Joshua called for all Israel, _and_ for their elders, and for their heads, and for their judges, and for their officers, and said unto them, I am old _and_ stricken in age:

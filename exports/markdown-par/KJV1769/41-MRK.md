@@ -6,7 +6,7 @@
 
 <sup>4</sup> John did baptize in the wilderness, and preach the baptism of repentance for<sup>a</sup> the remission of sins.
 <sup>5</sup> And there went out unto him all the land of Judæa, and they of Jerusalem, and were all baptized of him in the river of Jordan, confessing their sins.
-<sup>6</sup> And John was clothed with camel's hair, and with a girdle of a skin about his loins; and he did eat locusts and wild honey;
+<sup>6</sup> And John was clothed with camel’s hair, and with a girdle of a skin about his loins; and he did eat locusts and wild honey;
 <sup>7</sup> and preached, saying, There cometh one mightier than I after me, the latchet of whose shoes I am not worthy to stoop down and unloose.
 <sup>8</sup> I indeed have baptized you with water: but he shall baptize you with the Holy Ghost.
 
@@ -42,7 +42,7 @@
 <sup>28</sup> And immediately his fame spread abroad throughout all the region round about Galilee.
 
 <sup>29</sup> And forthwith, when they were come out of the synagogue, they entered into the house of Simon and Andrew, with James and John.
-<sup>30</sup> But Simon's wife's mother lay sick of a fever, and anon they tell him of her.
+<sup>30</sup> But Simon’s wife’s mother lay sick of a fever, and anon they tell him of her.
 <sup>31</sup> And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them.
 
 <sup>32</sup> And at even, when the sun did set, they brought unto him all that were diseased, and them that were possessed with devils.
@@ -149,7 +149,7 @@
 <sup>24</sup> And if a kingdom be divided against itself, that kingdom cannot stand.
 <sup>25</sup> And if a house be divided against itself, that house cannot stand.
 <sup>26</sup> And if Satan rise up against himself, and be divided, he cannot stand, but hath an end.
-<sup>27</sup> No man can enter into a strong man's house, and spoil his goods, except he will first bind the strong man; and then he will spoil his house.
+<sup>27</sup> No man can enter into a strong man’s house, and spoil his goods, except he will first bind the strong man; and then he will spoil his house.
 <sup>28</sup> Verily I say unto you, All sins shall be forgiven unto the sons of men, and blasphemies wherewith soever they shall blaspheme:
 <sup>29</sup> but he that shall blaspheme against the Holy Ghost hath never forgiveness, but is in danger of eternal damnation:
 <sup>30</sup> because they said, He hath an unclean spirit.
@@ -190,7 +190,7 @@
 <sup>14</sup> The sower soweth the word.
 <sup>15</sup> And these are they by the way side, where the word is sown; but when they have heard, Satan cometh immediately, and taketh away the word that was sown in their hearts.
 <sup>16</sup> And these are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness;
-<sup>17</sup> and have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth for the word's sake, immediately they are offended.
+<sup>17</sup> and have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth for the word’s sake, immediately they are offended.
 <sup>18</sup> And these are they which are sown among thorns; such as hear the word,
 <sup>19</sup> and the cares of this world, and the deceitfulness of riches, and the lusts of other things entering in, choke the word, and it becometh unfruitful.
 <sup>20</sup> And these are they which are sown on good ground; such as hear the word, and receive _it_, and bring forth fruit, some thirtyfold, some sixty, and some an hundred.
@@ -271,7 +271,7 @@
 <sup>33</sup> But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth.
 <sup>34</sup> And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.
 
-<sup>35</sup> While he yet spake, there came from the ruler of the synagogue's _house certain_ which said, Thy daughter is dead: why troublest thou the Master any further?
+<sup>35</sup> While he yet spake, there came from the ruler of the synagogue’s _house certain_ which said, Thy daughter is dead: why troublest thou the Master any further?
 <sup>36</sup> As soon as Jesus heard the word that was spoken, he saith unto the ruler of the synagogue, Be not afraid, only believe.
 <sup>37</sup> And he suffered no man to follow him, save Peter, and James, and John the brother of James.
 <sup>38</sup> And he cometh to the house of the ruler of the synagogue, and seeth the tumult, and them that wept and wailed greatly.
@@ -302,13 +302,13 @@
 <sup>12</sup> And they went out, and preached that men should repent.
 <sup>13</sup> And they cast out many devils, and anointed with oil many that were sick, and healed _them_.
 
-### Herod's Alarm
+### Herod’s Alarm
 
 <sup>14</sup> And king Herod heard _of him_; (for his name was spread abroad:) and he said, That John the Baptist was risen from the dead, and therefore mighty works do shew forth themselves in him.
 <sup>15</sup> Others said, That it is Elias. And others said, That it is a prophet, or as one of the prophets.
 <sup>16</sup> But when Herod heard _thereof_, he said, It is John, whom I beheaded: he is risen from the dead.
-<sup>17</sup> For Herod himself had sent forth and laid hold upon John, and bound him in prison for Herodias' sake, his brother Philip's wife: for he had married her.
-<sup>18</sup> For John had said unto Herod, It is not lawful for thee to have thy brother's wife.
+<sup>17</sup> For Herod himself had sent forth and laid hold upon John, and bound him in prison for Herodias’ sake, his brother Philip’s wife: for he had married her.
+<sup>18</sup> For John had said unto Herod, It is not lawful for thee to have thy brother’s wife.
 <sup>19</sup> Therefore Herodias had a quarrel<sup>b</sup> against him, and would have killed him; but she could not:
 <sup>20</sup> for Herod feared John, knowing that he was a just man and an holy, and observed him;<sup>c</sup> and when he heard him, he did many things, and heard him gladly.
 
@@ -317,7 +317,7 @@
 <sup>23</sup> And he sware unto her, Whatsoever thou shalt ask of me, I will give _it_ thee, unto the half of my kingdom.
 <sup>24</sup> And she went forth, and said unto her mother, What shall I ask? And she said, The head of John the Baptist.
 <sup>25</sup> And she came in straightway with haste unto the king, and asked, saying, I will that thou give me by and by in a charger the head of John the Baptist.
-<sup>26</sup> And the king was exceeding sorry; _yet_ for his oath's sake, and for their sakes which sat with him, he would not reject her.
+<sup>26</sup> And the king was exceeding sorry; _yet_ for his oath’s sake, and for their sakes which sat with him, he would not reject her.
 <sup>27</sup> And immediately the king sent an executioner,<sup>d</sup> and commanded his head to be brought: and he went and beheaded him in the prison,
 <sup>28</sup> and brought his head in a charger, and gave it to the damsel: and the damsel gave it to her mother.
 <sup>29</sup> And when his disciples heard _of it_, they came and took up his corpse, and laid it in a tomb.
@@ -401,8 +401,8 @@
 <sup>24</sup> And from thence he arose, and went into the borders of Tyre and Sidon, and entered into an house, and would have no man know _it_: but he could not be hid.
 <sup>25</sup> For a _certain_ woman, whose young daughter had an unclean spirit, heard of him, and came and fell at his feet:
 <sup>26</sup> the woman was a Greek,<sup>f</sup> a Syrophenician by nation; and she besought him that he would cast forth the devil out of her daughter.
-<sup>27</sup> But Jesus said unto her, Let the children first be filled: for it is not meet to take the children's bread, and to cast _it_ unto the dogs.
-<sup>28</sup> And she answered and said unto him, Yes, Lord: yet the dogs under the table eat of the children's crumbs.
+<sup>27</sup> But Jesus said unto her, Let the children first be filled: for it is not meet to take the children’s bread, and to cast _it_ unto the dogs.
+<sup>28</sup> And she answered and said unto him, Yes, Lord: yet the dogs under the table eat of the children’s crumbs.
 <sup>29</sup> And he said unto her, For this saying go thy way; the devil is gone out of thy daughter.
 <sup>30</sup> And when she was come to her house, she found the devil gone out, and her daughter laid upon the bed.
 
@@ -471,7 +471,7 @@
 <sup>33</sup> But when he had turned about and looked on his disciples, he rebuked Peter, saying, Get thee behind me, Satan: for thou savourest not the things that be of God, but the things that be of men.
 
 <sup>34</sup> And when he had called the people _unto him_ with his disciples also, he said unto them, Whosoever will come after me, let him deny himself, and take up his cross, and follow me.
-<sup>35</sup> For whosoever will save his life shall lose it; but whosoever shall lose his life for my sake and the gospel's, the same shall save it.
+<sup>35</sup> For whosoever will save his life shall lose it; but whosoever shall lose his life for my sake and the gospel’s, the same shall save it.
 <sup>36</sup> For what shall it profit a man, if he shall gain the whole world, and lose his own soul?
 <sup>37</sup> Or what shall a man give in exchange for his soul?
 <sup>38</sup> Whosoever therefore shall be ashamed of me and of my words in this adulterous and sinful generation; of him also shall the Son of man be ashamed, when he cometh in the glory of his Father with the holy angels.
@@ -586,7 +586,7 @@
 <sup>27</sup> And Jesus looking upon them saith, With men _it is_ impossible, but not with God: for with God all things are possible.
 
 <sup>28</sup> Then Peter began to say unto him, Lo, we have left all, and have followed thee.
-<sup>29</sup> And Jesus answered and said, Verily I say unto you, There is no man that hath left house, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my sake, and the gospel's,
+<sup>29</sup> And Jesus answered and said, Verily I say unto you, There is no man that hath left house, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my sake, and the gospel’s,
 <sup>30</sup> but he shall receive an hundredfold now in this time, houses, and brethren, and sisters, and mothers, and children, and lands, with persecutions; and in the world to come eternal life.
 <sup>31</sup> But many _that are_ first shall be last; and the last first.
 
@@ -683,22 +683,22 @@
 <sup>4</sup> And again he sent unto them another servant; and at him they cast stones, and wounded _him_ in the head, and sent _him_ away shamefully handled.
 <sup>5</sup> And again he sent another; and him they killed, and many others; beating some, and killing some.
 <sup>6</sup> Having yet therefore one son, his wellbeloved, he sent him also last unto them, saying, They will reverence my son.
-<sup>7</sup> But those husbandmen said among themselves, This is the heir; come, let us kill him, and the inheritance shall be our's.
+<sup>7</sup> But those husbandmen said among themselves, This is the heir; come, let us kill him, and the inheritance shall be our’s.
 <sup>8</sup> And they took him, and killed _him_, and cast _him_ out of the vineyard.
 <sup>9</sup> What shall therefore the lord of the vineyard do? he will come and destroy the husbandmen, and will give the vineyard unto others.
 <sup>10</sup> And have ye not read this scripture;<br>The stone which the builders rejected<br>Is become the head of the corner:<br>
-<sup>11</sup> This was the Lord's doing,<br>And it is marvellous in our eyes?<br>
+<sup>11</sup> This was the Lord’s doing,<br>And it is marvellous in our eyes?<br>
 
 <sup>12</sup> And they sought to lay hold on him, but feared the people: for they knew that he had spoken the parable against them: and they left him, and went their way.
 
 <sup>13</sup> And they send unto him certain of the Pharisees and of the Herodians, to catch him in _his_ words.
 <sup>14</sup> And when they were come, they say unto him, Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Cæsar, or not?
 <sup>15</sup> Shall we give, or shall we not give? But he, knowing their hypocrisy, said unto them, Why tempt ye me? bring me a penny,<sup>a</sup> that I may see _it_.
-<sup>16</sup> And they brought _it_. And he saith unto them, Whose _is_ this image and superscription? And they said unto him, Cæsar's.
-<sup>17</sup> And Jesus answering said unto them, Render to Cæsar the things that are Cæsar's, and to God the things that are God's. And they marvelled at him.
+<sup>16</sup> And they brought _it_. And he saith unto them, Whose _is_ this image and superscription? And they said unto him, Cæsar’s.
+<sup>17</sup> And Jesus answering said unto them, Render to Cæsar the things that are Cæsar’s, and to God the things that are God’s. And they marvelled at him.
 
 <sup>18</sup> Then come unto him the Sadducees, which say there is no resurrection; and they asked him, saying,
-<sup>19</sup> Master, Moses wrote unto us, If a man's brother die, and leave _his_ wife _behind him_, and leave no children, that his brother should take his wife, and raise up seed unto his brother.
+<sup>19</sup> Master, Moses wrote unto us, If a man’s brother die, and leave _his_ wife _behind him_, and leave no children, that his brother should take his wife, and raise up seed unto his brother.
 <sup>20</sup> Now there were seven brethren: and the first took a wife, and dying left no seed.
 <sup>21</sup> And the second took her, and died, neither left he any seed: and the third likewise.
 <sup>22</sup> And the seven had her, and left no seed: last of all the woman died also.
@@ -723,7 +723,7 @@
 
 <sup>38</sup> And he said unto them in his doctrine, Beware of the scribes, which love to go in long clothing, and _love_ salutations in the marketplaces,
 <sup>39</sup> and the chief seats in the synagogues, and the uppermost rooms at feasts:
-<sup>40</sup> which devour widows' houses, and for a pretence make long prayers: these shall receive greater damnation.
+<sup>40</sup> which devour widows’ houses, and for a pretence make long prayers: these shall receive greater damnation.
 
 <sup>41</sup> And Jesus sat over against the treasury, and beheld how the people cast money<sup>b</sup> into the treasury: and many that were rich cast in much.
 <sup>42</sup> And there came a certain poor widow, and she threw in two mites,<sup>c</sup> which make a farthing.
@@ -750,7 +750,7 @@
 <sup>10</sup> And the gospel must first be published among all nations.
 <sup>11</sup> But when they shall lead _you_, and deliver you up, take no thought beforehand what ye shall speak, neither do ye premeditate: but whatsoever shall be given you in that hour, that speak ye: for it is not ye that speak, but the Holy Ghost.
 <sup>12</sup> Now the brother shall betray the brother to death, and the father the son; and children shall rise up against _their_ parents, and shall cause them to be put to death.
-<sup>13</sup> And ye shall be hated of all _men_ for my name's sake: but he that shall endure unto the end, the same shall be saved.
+<sup>13</sup> And ye shall be hated of all _men_ for my name’s sake: but he that shall endure unto the end, the same shall be saved.
 
 <sup>14</sup> But when ye shall see the abomination of desolation, spoken of by Daniel the prophet, standing where it ought not, (let him that readeth understand,) then let them that be in Judæa flee to the mountains:
 <sup>15</sup> and let him that is on the housetop not go down into the house, neither enter _therein_, to take any thing out of his house:
@@ -758,7 +758,7 @@
 <sup>17</sup> But woe to them that are with child, and to them that give suck in those days!
 <sup>18</sup> And pray ye that your flight be not in the winter.
 <sup>19</sup> For _in_ those days shall be affliction, such as was not from the beginning of the creation which God created unto this time, neither shall be.
-<sup>20</sup> And except that the Lord had shortened those days, no flesh should be saved: but for the elect's sake, whom he hath chosen, he hath shortened the days.
+<sup>20</sup> And except that the Lord had shortened those days, no flesh should be saved: but for the elect’s sake, whom he hath chosen, he hath shortened the days.
 <sup>21</sup> And then if any man shall say to you, Lo, here _is_ Christ; or, lo, _he is_ there; believe _him_ not:
 <sup>22</sup> for false Christs and false prophets shall rise, and shall shew signs and wonders, to seduce, if _it were_ possible, even the elect.
 <sup>23</sup> But take ye heed: behold, I have foretold you all things.

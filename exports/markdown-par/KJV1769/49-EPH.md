@@ -136,7 +136,7 @@
 <sup>29</sup> Let no corrupt communication proceed out of your mouth, but that which is good to the use of edifying, that it may minister grace unto the hearers.
 <sup>30</sup> And grieve not the holy Spirit of God, whereby ye are sealed unto the day of redemption.
 <sup>31</sup> Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice:
-<sup>32</sup> and be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.
+<sup>32</sup> and be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ’s sake hath forgiven you.
 
 > - <sup>a</sup> 1. Or, _in the Lord_
 > - <sup>b</sup> 8. Or, _a multitude of captives_

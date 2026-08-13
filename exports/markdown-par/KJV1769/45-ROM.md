@@ -120,7 +120,7 @@
 <sup>19</sup> Now we know that what things soever the law saith, it saith to them who are under the law: that every mouth may be stopped, and all the world may become guilty before God.<sup>b</sup>
 <sup>20</sup> Therefore by the deeds of the law there shall no flesh be justified in his sight: for by the law _is_ the knowledge of sin.
 
-### God's Saving Gift
+### God’s Saving Gift
 
 <sup>21</sup> But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets;
 <sup>22</sup> even the righteousness of God _which is_ by faith of Jesus Christ unto all and upon all them that believe: for there is no difference:
@@ -164,7 +164,7 @@
 <sup>16</sup> Therefore _it is_ of faith, that _it might be_ by grace; to the end the promise might be sure to all the seed; not to that only which is of the law, but to that also which is of the faith of Abraham; who is the father of us all,
 <sup>17</sup> (as it is written, I have made thee a father of many nations,) before him<sup>a</sup> whom he believed, _even_ God, who quickeneth the dead, and calleth those things which be not as though they were.
 <sup>18</sup> Who against hope believed in hope, that he might become the father of many nations, according to that which was spoken, So shall thy seed be.
-<sup>19</sup> And being not weak in faith, he considered not his own body now dead, when he was about an hundred years old, neither yet the deadness of Sarah's womb:
+<sup>19</sup> And being not weak in faith, he considered not his own body now dead, when he was about an hundred years old, neither yet the deadness of Sarah’s womb:
 <sup>20</sup> he staggered not at the promise of God through unbelief; but was strong in faith, giving glory to God;
 <sup>21</sup> and being fully persuaded that, what he had promised, he was able also to perform.
 <sup>22</sup> And therefore it was imputed to him for righteousness.
@@ -192,13 +192,13 @@
 
 <sup>12</sup> Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that<sup>b</sup> all have sinned:
 <sup>13</sup> (for until the law sin was in the world: but sin is not imputed when there is no law.
-<sup>14</sup> Nevertheless death reigned from Adam to Moses, even over them that had not sinned after the similitude of Adam's transgression, who is the figure of him that was to come.
+<sup>14</sup> Nevertheless death reigned from Adam to Moses, even over them that had not sinned after the similitude of Adam’s transgression, who is the figure of him that was to come.
 <sup>15</sup> But not as the offence, so also _is_ the free gift. For if through the offence of one many be dead, much more the grace of God, and the gift by grace, _which is_ by one man, Jesus Christ, hath abounded unto many.
 <sup>16</sup> And not as _it was_ by one that sinned, _so is_ the gift: for the judgment _was_ by one to condemnation, but the free gift _is_ of many offences unto justification.
-<sup>17</sup> For if by one man's offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.)
+<sup>17</sup> For if by one man’s offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.)
 
 <sup>18</sup> Therefore as by the offence of one<sup>c</sup> _judgment came_ upon all men to condemnation; even so by the righteousness of one<sup>d</sup> _the free gift came_ upon all men unto justification of life.
-<sup>19</sup> For as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous.
+<sup>19</sup> For as by one man’s disobedience many were made sinners, so by the obedience of one shall many be made righteous.
 <sup>20</sup> Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound:
 <sup>21</sup> that as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord.
 
@@ -327,7 +327,7 @@
 
 <sup>31</sup> What shall we then say to these things? If God _be_ for us, who _can be_ against us?
 <sup>32</sup> He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?
-<sup>33</sup> Who shall lay any thing to the charge of God's elect? _It is_ God that justifieth.
+<sup>33</sup> Who shall lay any thing to the charge of God’s elect? _It is_ God that justifieth.
 <sup>34</sup> Who _is_ he that condemneth? _It is_ Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us.
 <sup>35</sup> Who shall separate us from the love of Christ? _shall_ tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword?
 <sup>36</sup> As it is written,<br>For thy sake we are killed all the day long;<br>We are accounted as sheep for the slaughter.<br>
@@ -404,9 +404,9 @@
 
 ## Chapter 10
 
-<sup>1</sup> Brethren, my heart's desire and prayer to God for Israel is, that they might be saved.
+<sup>1</sup> Brethren, my heart’s desire and prayer to God for Israel is, that they might be saved.
 <sup>2</sup> For I bear them record that they have a zeal of God, but not according to knowledge.
-<sup>3</sup> For they being ignorant of God's righteousness, and going about to establish their own righteousness, have not submitted themselves unto the righteousness of God.
+<sup>3</sup> For they being ignorant of God’s righteousness, and going about to establish their own righteousness, have not submitted themselves unto the righteousness of God.
 <sup>4</sup> For Christ _is_ the end of the law for righteousness to every one that believeth.
 <sup>5</sup> For Moses describeth the righteousness which is of the law, That the man which doeth those things shall live by them.
 <sup>6</sup> But the righteousness which is of faith speaketh on this wise, Say not in thine heart, Who shall ascend into heaven? (that is, to bring Christ down _from above_:)
@@ -473,7 +473,7 @@
 <sup>26</sup> And so all Israel shall be saved: as it is written,<br>There shall come out of Sion the Deliverer,<br>And shall turn away ungodliness from Jacob:<br>
 <sup>27</sup> For this _is_ my covenant unto them,<br>When I shall take away their sins.<br>
 
-<sup>28</sup> As concerning the gospel, _they are_ enemies for your sakes: but as touching the election, _they are_ beloved for the fathers' sakes.
+<sup>28</sup> As concerning the gospel, _they are_ enemies for your sakes: but as touching the election, _they are_ beloved for the fathers’ sakes.
 <sup>29</sup> For the gifts and calling of God _are_ without repentance.
 <sup>30</sup> For as ye in times past have not believed<sup>f</sup> God, yet have now obtained mercy through their unbelief:
 <sup>31</sup> even so have these also now not believed,<sup>g</sup> that through your mercy they also may obtain mercy.
@@ -537,7 +537,7 @@
 <sup>3</sup> For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same:
 <sup>4</sup> for he is the minister of God to thee for good. But if thou do that which is evil, be afraid; for he beareth not the sword in vain: for he is the minister of God, a revenger to _execute_ wrath upon him that doeth evil.
 <sup>5</sup> Wherefore _ye_ must needs be subject, not only for wrath, but also for conscience sake.
-<sup>6</sup> For for this cause pay ye tribute also: for they are God's ministers, attending continually upon this very thing.
+<sup>6</sup> For for this cause pay ye tribute also: for they are God’s ministers, attending continually upon this very thing.
 <sup>7</sup> Render therefore to all their dues: tribute to whom tribute _is due_; custom to whom custom; fear to whom fear; honour to whom honour.
 <sup>8</sup> Owe no man any thing, but to love one another: for he that loveth another hath fulfilled the law.
 <sup>9</sup> For this, Thou shalt not commit adultery, Thou shalt not kill, Thou shalt not steal, Thou shalt not bear false witness, Thou shalt not covet; and if _there be_ any other commandment, it is briefly comprehended in this saying, namely, Thou shalt love thy neighbour as thyself.
@@ -558,11 +558,11 @@
 <sup>1</sup> Him that is weak in the faith receive ye, _but_ not to doubtful disputations.<sup>a</sup>
 <sup>2</sup> For one believeth that he may eat all things: another, who is weak, eateth herbs.
 <sup>3</sup> Let not him that eateth despise him that eateth not; and let not him which eateth not judge him that eateth: for God hath received him.
-<sup>4</sup> Who art thou that judgest another man's servant? to his own master he standeth or falleth. Yea, he shall be holden up: for God is able to make him stand.
+<sup>4</sup> Who art thou that judgest another man’s servant? to his own master he standeth or falleth. Yea, he shall be holden up: for God is able to make him stand.
 <sup>5</sup> One man esteemeth one day above another: another esteemeth every day _alike_. Let every man be fully persuaded<sup>b</sup> in his own mind.
 <sup>6</sup> He that regardeth<sup>c</sup> the day, regardeth _it_ unto the Lord; and he that regardeth not the day, to the Lord he doth not regard _it_. He that eateth, eateth to the Lord, for he giveth God thanks; and he that eateth not, to the Lord he eateth not, and giveth God thanks.
 <sup>7</sup> For none of us liveth to himself, and no man dieth to himself.
-<sup>8</sup> For whether we live, we live unto the Lord; and whether we die, we die unto the Lord: whether we live therefore, or die, we are the Lord's.
+<sup>8</sup> For whether we live, we live unto the Lord; and whether we die, we die unto the Lord: whether we live therefore, or die, we are the Lord’s.
 <sup>9</sup> For to this end Christ both died, and rose, and revived, that he might be Lord both of the dead and living.
 <sup>10</sup> But why dost thou judge thy brother? or why dost thou set at nought thy brother? for we shall all stand before the judgment seat of Christ.
 <sup>11</sup> For it is written,<br>_As_ I live, saith the Lord, every knee shall bow to me,<br>And every tongue shall confess to God.<br>
@@ -571,7 +571,7 @@
 
 ### The Christian Spirit
 
-<sup>13</sup> Let us not therefore judge one another any more: but judge this rather, that no man put a stumblingblock or an occasion to fall in _his_ brother's way.
+<sup>13</sup> Let us not therefore judge one another any more: but judge this rather, that no man put a stumblingblock or an occasion to fall in _his_ brother’s way.
 <sup>14</sup> I know, and am persuaded by the Lord Jesus, that _there is_ nothing unclean<sup>d</sup> of itself: but to him that esteemeth any thing to be unclean, to him _it is_ unclean.
 <sup>15</sup> But if thy brother be grieved with _thy_ meat, now walkest thou not charitably.<sup>e</sup> Destroy not him with thy meat, for whom Christ died.
 <sup>16</sup> Let not then your good be evil spoken of:
@@ -621,7 +621,7 @@
 <sup>17</sup> I have therefore whereof I may glory through Jesus Christ in those things which pertain to God.
 <sup>18</sup> For I will not dare to speak of any of those things which Christ hath not wrought by me, to make the Gentiles obedient, by word and deed,
 <sup>19</sup> through mighty signs and wonders, by the power of the Spirit of God; so that from Jerusalem, and round about unto Illyricum, I have fully preached the gospel of Christ.
-<sup>20</sup> Yea, so have I strived to preach the gospel, not where Christ was named, lest I should build upon another man's foundation:
+<sup>20</sup> Yea, so have I strived to preach the gospel, not where Christ was named, lest I should build upon another man’s foundation:
 <sup>21</sup> But as it is written,<br>To whom he was not spoken of, they shall see:<br>And they that have not heard shall understand.<br>
 
 <sup>22</sup> For which cause also I have been much<sup>c</sup> hindered from coming to you.
@@ -633,7 +633,7 @@
 <sup>28</sup> When therefore I have performed this, and have sealed to them this fruit, I will come by you into Spain.
 <sup>29</sup> And I am sure that, when I come unto you, I shall come in the fulness of the blessing of the gospel of Christ.
 
-<sup>30</sup> Now I beseech you, brethren, for the Lord Jesus Christ's sake, and for the love of the Spirit, that ye strive together with me in _your_ prayers to God for me;
+<sup>30</sup> Now I beseech you, brethren, for the Lord Jesus Christ’s sake, and for the love of the Spirit, that ye strive together with me in _your_ prayers to God for me;
 <sup>31</sup> that I may be delivered from them that do not believe<sup>e</sup> in Judæa; and that my service which _I have_ for Jerusalem may be accepted of the saints;
 <sup>32</sup> that I may come unto you with joy by the will of God, and may with you be refreshed.
 <sup>33</sup> Now the God of peace _be_ with you all. Amen.
@@ -656,7 +656,7 @@
 <sup>7</sup> Salute Andronicus and Junia, my kinsmen, and my fellowprisoners, who are of note among the apostles, who also were in Christ before me.
 <sup>8</sup> Greet Amplias my beloved in the Lord.
 <sup>9</sup> Salute Urbane, our helper in Christ, and Stachys my beloved.
-<sup>10</sup> Salute Apelles approved in Christ. Salute them which are of Aristobulus' _household_.<sup>a</sup>
+<sup>10</sup> Salute Apelles approved in Christ. Salute them which are of Aristobulus’ _household_.<sup>a</sup>
 <sup>11</sup> Salute Herodion my kinsman. Greet them that be of the _household_<sup>b</sup> of Narcissus, which are in the Lord.
 <sup>12</sup> Salute Tryphena and Tryphosa, who labour in the Lord. Salute the beloved Persis, which laboured much in the Lord.
 <sup>13</sup> Salute Rufus chosen in the Lord, and his mother and mine.

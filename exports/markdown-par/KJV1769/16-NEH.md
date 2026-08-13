@@ -6,27 +6,27 @@
 
 <sup>4</sup> And it came to pass, when I heard these words, that I sat down and wept, and mourned _certain_ days, and fasted, and prayed before the God of heaven,
 <sup>5</sup> and said, I beseech thee, O LORD God of heaven, the great and terrible God, that keepeth covenant and mercy for them that love him and observe his commandments:
-<sup>6</sup> let thine ear now be attentive, and thine eyes open, that thou mayest hear the prayer of thy servant, which I pray before thee now, day and night, for the children of Israel thy servants, and confess the sins of the children of Israel, which we have sinned against thee: both I and my father's house have sinned.
+<sup>6</sup> let thine ear now be attentive, and thine eyes open, that thou mayest hear the prayer of thy servant, which I pray before thee now, day and night, for the children of Israel thy servants, and confess the sins of the children of Israel, which we have sinned against thee: both I and my father’s house have sinned.
 <sup>7</sup> We have dealt very corruptly against thee, and have not kept the commandments, nor the statutes, nor the judgments, which thou commandedst thy servant Moses.
 <sup>8</sup> Remember, I beseech thee, the word that thou commandedst thy servant Moses, saying, _If_ ye transgress, I will scatter you abroad among the nations:
 <sup>9</sup> but _if_ ye turn unto me, and keep my commandments, and do them; though there were of you cast out unto the uttermost part of the heaven, _yet_ will I gather them from thence, and will bring them unto the place that I have chosen to set my name there.
 <sup>10</sup> Now these _are_ thy servants and thy people, whom thou hast redeemed by thy great power, and by thy strong hand.
-<sup>11</sup> O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to the prayer of thy servants, who desire to fear thy name: and prosper, I pray thee, thy servant this day, and grant him mercy in the sight of this man. For I was the king's cupbearer.
+<sup>11</sup> O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to the prayer of thy servants, who desire to fear thy name: and prosper, I pray thee, thy servant this day, and grant him mercy in the sight of this man. For I was the king’s cupbearer.
 
 ## Chapter 2
 
-### The King's Commission
+### The King’s Commission
 
 <sup>1</sup> And it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, _that_ wine _was_ before him: and I took up the wine, and gave _it_ unto the king. Now I had not been _beforetime_ sad in his presence.
 <sup>2</sup> Wherefore the king said unto me, Why _is_ thy countenance sad, seeing thou _art_ not sick? this _is_ nothing _else_ but sorrow of heart. Then I was very sore afraid,
-<sup>3</sup> and said unto the king, Let the king live for ever: why should not my countenance be sad, when the city, the place of my fathers' sepulchres, _lieth_ waste, and the gates thereof are consumed with fire?
+<sup>3</sup> and said unto the king, Let the king live for ever: why should not my countenance be sad, when the city, the place of my fathers’ sepulchres, _lieth_ waste, and the gates thereof are consumed with fire?
 <sup>4</sup> Then the king said unto me, For what dost thou make request? So I prayed to the God of heaven.
-<sup>5</sup> And I said unto the king, If it please the king, and if thy servant have found favour in thy sight, that thou wouldest send me unto Judah, unto the city of my fathers' sepulchres, that I may build it.
+<sup>5</sup> And I said unto the king, If it please the king, and if thy servant have found favour in thy sight, that thou wouldest send me unto Judah, unto the city of my fathers’ sepulchres, that I may build it.
 <sup>6</sup> And the king said unto me, (the queen<sup>a</sup> also sitting by him,) For how long shall thy journey be? and when wilt thou return? So it pleased the king to send me; and I set him a time.
 <sup>7</sup> Moreover I said unto the king, If it please the king, let letters be given me to the governors beyond the river, that they may convey me over till I come into Judah;
-<sup>8</sup> and a letter unto Asaph the keeper of the king's forest, that he may give me timber to make beams for the gates of the palace which _appertained_ to the house, and for the wall of the city, and for the house that I shall enter into. And the king granted me, according to the good hand of my God upon me.
+<sup>8</sup> and a letter unto Asaph the keeper of the king’s forest, that he may give me timber to make beams for the gates of the palace which _appertained_ to the house, and for the wall of the city, and for the house that I shall enter into. And the king granted me, according to the good hand of my God upon me.
 
-<sup>9</sup> Then I came to the governors beyond the river, and gave them the king's letters. Now the king had sent captains of the army and horsemen with me.
+<sup>9</sup> Then I came to the governors beyond the river, and gave them the king’s letters. Now the king had sent captains of the army and horsemen with me.
 <sup>10</sup> When Sanballat the Horonite, and Tobiah the servant, the Ammonite, heard _of it_ grieved them exceedingly that there was come a man to seek the welfare of the children of Israel.
 <sup>11</sup> So I came to Jerusalem, and was there three days.
 
@@ -34,12 +34,12 @@
 
 <sup>12</sup> And I arose in the night, I and some few men with me; neither told I _any_ man what my God had put in my heart to do at Jerusalem: neither _was there any_ beast with me, save the beast that I rode upon.
 <sup>13</sup> And I went out by night by the gate of the valley, even before the dragon well, and to the dung port, and viewed the walls of Jerusalem, which were broken down, and the gates thereof were consumed with fire.
-<sup>14</sup> Then I went on to the gate of the fountain, and to the king's pool: but _there was_ no place for the beast _that was_ under me to pass.
+<sup>14</sup> Then I went on to the gate of the fountain, and to the king’s pool: but _there was_ no place for the beast _that was_ under me to pass.
 <sup>15</sup> Then went I up in the night by the brook, and viewed the wall, and turned back, and entered by the gate of the valley, and _so_ returned.
 <sup>16</sup> And the rulers knew not whither I went, or what I did; neither had I as yet told _it_ to the Jews, nor to the priests, nor to the nobles, nor to the rulers, nor to the rest that did the work.
 
 <sup>17</sup> Then said I unto them, Ye see the distress that we _are_ in, how Jerusalem _lieth_ waste, and the gates thereof are burned with fire: come, and let us build up the wall of Jerusalem, that we be no more a reproach.
-<sup>18</sup> Then I told them of the hand of my God which was good upon me; as also the king's words that he had spoken unto me. And they said, Let us rise up and build. So they strengthened their hands for _this_ good _work_.
+<sup>18</sup> Then I told them of the hand of my God which was good upon me; as also the king’s words that he had spoken unto me. And they said, Let us rise up and build. So they strengthened their hands for _this_ good _work_.
 
 ### Meets Opposition
 
@@ -69,7 +69,7 @@
 <sup>13</sup> The valley gate repaired Hanun, and the inhabitants of Zanoah; they built it, and set up the doors thereof, the locks thereof, and the bars thereof, and a thousand cubits on the wall unto the dung gate.
 <sup>14</sup> But the dung gate repaired Malchiah the son of Rechab, the ruler of part of Beth-haccerem; he built it, and set up the doors thereof, the locks thereof, and the bars thereof.
 
-<sup>15</sup> But the gate of the fountain repaired Shallun the son of Col-hozeh, the ruler of part of Mizpah; he built it, and covered it, and set up the doors thereof, the locks thereof, and the bars thereof, and the wall of the pool of Siloah by the king's garden, and unto the stairs that go down from the city of David.
+<sup>15</sup> But the gate of the fountain repaired Shallun the son of Col-hozeh, the ruler of part of Mizpah; he built it, and covered it, and set up the doors thereof, the locks thereof, and the bars thereof, and the wall of the pool of Siloah by the king’s garden, and unto the stairs that go down from the city of David.
 <sup>16</sup> After him repaired Nehemiah the son of Azbuk, the ruler of the half part of Beth-zur, unto _the place_ over against the sepulchres of David, and to the pool that was made, and unto the house of the mighty.
 <sup>17</sup> After him repaired the Levites, Rehum the son of Bani. Next unto him repaired Hashabiah, the ruler of the half part of Keilah, in his part.
 <sup>18</sup> After him repaired their brethren, Bavai the son of Henadad, the ruler of the half part of Keilah.
@@ -79,14 +79,14 @@
 <sup>22</sup> And after him repaired the priests, the men of the plain.
 <sup>23</sup> After him repaired Benjamin and Hashub over against their house. After him repaired Azariah the son of Maaseiah the son of Ananiah by his house.
 <sup>24</sup> After him repaired Binnui the son of Henadad another piece, from the house of Azariah unto the turning _of the wall_, even unto the corner.
-<sup>25</sup> Palal the son of Uzai, over against the turning _of the wall_, and the tower which lieth out from the king's high house, that _was_ by the court of the prison. After him Pedaiah the son of Parosh.
+<sup>25</sup> Palal the son of Uzai, over against the turning _of the wall_, and the tower which lieth out from the king’s high house, that _was_ by the court of the prison. After him Pedaiah the son of Parosh.
 <sup>26</sup> Moreover the Nethinims dwelt in Ophel,<sup>e</sup> unto _the place_ over against the water gate toward the east, and the tower that lieth out.
 <sup>27</sup> After them the Tekoites repaired another piece, over against the great tower that lieth out, even unto the wall of Ophel.
 
 <sup>28</sup> From above the horse gate repaired the priests, every one over against his house.
 <sup>29</sup> After them repaired Zadok the son of Immer over against his house. After him repaired also Shemaiah the son of Shechaniah, the keeper of the east gate.
 <sup>30</sup> After him repaired Hananiah the son of Shelemiah, and Hanun the sixth son of Zalaph, another piece. After him repaired Meshullam the son of Berechiah over against his chamber.
-<sup>31</sup> After him repaired Malchiah the goldsmith's son unto the place of the Nethinims, and of the merchants, over against the gate Miphkad, and to the going up of the corner.<sup>f</sup>
+<sup>31</sup> After him repaired Malchiah the goldsmith’s son unto the place of the Nethinims, and of the merchants, over against the gate Miphkad, and to the going up of the corner.<sup>f</sup>
 <sup>32</sup> And between the going up of the corner unto the sheep gate repaired the goldsmiths and the merchants.
 
 > - <sup>a</sup> 2. Heb. _at his hand_
@@ -110,7 +110,7 @@
 <sup>7</sup> But it came to pass, _that_ when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that the walls of Jerusalem were made up,<sup>c</sup> _and_ that the breaches began to be stopped, then they were very wroth,
 <sup>8</sup> and conspired all of them together to come _and_ to fight against Jerusalem, and to hinder it.<sup>d</sup>
 
-### Nehemiah's Response
+### Nehemiah’s Response
 
 <sup>9</sup> Nevertheless we made our prayer unto our God, and set a watch against them day and night, because of them.
 <sup>10</sup> And Judah said, The strength of the bearers of burdens is decayed, and _there is_ much rubbish; so that we are not able to build the wall.
@@ -146,7 +146,7 @@
 <sup>1</sup> And there was a great cry of the people and of their wives against their brethren the Jews.
 <sup>2</sup> For there were that said, We, our sons, and our daughters, _are_ many: therefore we take up corn _for them_, that we may eat, and live.
 <sup>3</sup> _Some_ also there were that said, We have mortgaged our lands, vineyards, and houses, that we might buy corn, because of the dearth.
-<sup>4</sup> There were also that said, We have borrowed money for the king's tribute, _and that upon_ our lands and vineyards.
+<sup>4</sup> There were also that said, We have borrowed money for the king’s tribute, _and that upon_ our lands and vineyards.
 <sup>5</sup> Yet now our flesh _is_ as the flesh of our brethren, our children as their children: and, lo, we bring into bondage our sons and our daughters to be servants, and _some_ of our daughters are brought unto bondage _already:_ neither _is it_ in our power to _redeem them_; for other men have our lands and vineyards.
 
 <sup>6</sup> And I was very angry when I heard their cry and these words.
@@ -267,12 +267,12 @@ The number, _I say_, of the men of the people of Israel _was this_;
 <sup>55</sup> the children of Barkos, the children of Sisera, the children of Tamah,
 <sup>56</sup> the children of Neziah, the children of Hatipha.
 
-<sup>57</sup> The children of Solomon's servants: the children of Sotai, the children of Sophereth, the children of Perida,
+<sup>57</sup> The children of Solomon’s servants: the children of Sotai, the children of Sophereth, the children of Perida,
 <sup>58</sup> the children of Jaala, the children of Darkon, the children of Giddel,
 <sup>59</sup> the children of Shephatiah, the children of Hattil, the children of Pochereth of Zebaim, the children of Amon.<sup>i</sup>
-<sup>60</sup> All the Nethinims, and the children of Solomon's servants, _were_ three hundred ninety and two.
+<sup>60</sup> All the Nethinims, and the children of Solomon’s servants, _were_ three hundred ninety and two.
 
-<sup>61</sup> And these _were_ they which went up _also_ from Tel-melah, Tel-haresha, Cherub, Addon, and Immer: but they could not shew their father's house, nor their seed,<sup>j</sup> whether they _were_ of Israel.
+<sup>61</sup> And these _were_ they which went up _also_ from Tel-melah, Tel-haresha, Cherub, Addon, and Immer: but they could not shew their father’s house, nor their seed,<sup>j</sup> whether they _were_ of Israel.
 <sup>62</sup> The children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred forty and two.
 <sup>63</sup> And of the priests: the children of Habaiah, the children of Koz, the children of Barzillai, which took _one_ of the daughters of Barzillai the Gileadite to wife, and was called after their name.
 <sup>64</sup> These sought their register _among_ those that were reckoned by genealogy, but it was not found: therefore were they, as polluted, put from the priesthood.
@@ -283,9 +283,9 @@ The number, _I say_, of the men of the people of Israel _was this_;
 <sup>68</sup> Their horses, seven hundred thirty and six: their mules, two hundred forty and five:
 <sup>69</sup> _their_ camels, four hundred thirty and five: six thousand seven hundred and twenty asses.
 
-<sup>70</sup> And some<sup>l</sup> of the chief of the fathers gave unto the work. The Tirshatha gave to the treasure a thousand drams of gold, fifty basons, five hundred and thirty priests' garments.
+<sup>70</sup> And some<sup>l</sup> of the chief of the fathers gave unto the work. The Tirshatha gave to the treasure a thousand drams of gold, fifty basons, five hundred and thirty priests’ garments.
 <sup>71</sup> And _some_ of the chief of the fathers gave to the treasure of the work twenty thousand drams of gold, and two thousand and two hundred pound of silver.
-<sup>72</sup> And _that_ which the rest of the people gave _was_ twenty thousand drams of gold, and two thousand pound of silver, and threescore and seven priests' garments.
+<sup>72</sup> And _that_ which the rest of the people gave _was_ twenty thousand drams of gold, and two thousand pound of silver, and threescore and seven priests’ garments.
 
 <sup>73</sup> So the priests, and the Levites, and the porters, and the singers, and _some_ of the people, and the Nethinims, and all Israel, dwelt in their cities; and when the seventh month came, the children of Israel _were_ in their cities.
 
@@ -374,7 +374,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 <sup>28</sup> But after they had rest, they did evil<sup>i</sup> again before thee: therefore leftest thou them in the hand of their enemies, so that they had the dominion over them: yet when they returned, and cried unto thee, thou heardest _them_ from heaven; and many times didst thou deliver them according to thy mercies;
 <sup>29</sup> and testifiedst against them, that thou mightest bring them again unto thy law: yet they dealt proudly, and hearkened not unto thy commandments, but sinned against thy judgments, (which if a man do, he shall live in them;) and withdrew the shoulder,<sup>j</sup> and hardened their neck, and would not hear.
 <sup>30</sup> Yet many years didst thou forbear them,<sup>k</sup> and testifiedst against them by thy spirit in thy prophets:<sup>l</sup> yet would they not give ear: therefore gavest thou them into the hand of the people of the lands.
-<sup>31</sup> Nevertheless for thy great mercies' sake thou didst not utterly consume them, nor forsake them; for thou _art_ a gracious and merciful God.
+<sup>31</sup> Nevertheless for thy great mercies’ sake thou didst not utterly consume them, nor forsake them; for thou _art_ a gracious and merciful God.
 
 ### Sealing the Covenant
 
@@ -437,7 +437,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 ### Special Obligations
 
 <sup>28</sup> And the rest of the people, the priests, the Levites, the porters, the singers, the Nethinims, and all they that had separated themselves from the people of the lands unto the law of God, their wives, their sons, and their daughters, every one having knowledge, and having understanding;
-<sup>29</sup> they clave to their brethren, their nobles, and entered into a curse, and into an oath, to walk in God's law, which was given by<sup>c</sup> Moses the servant of God, and to observe and do all the commandments of the LORD our Lord, and his judgments and his statutes;
+<sup>29</sup> they clave to their brethren, their nobles, and entered into a curse, and into an oath, to walk in God’s law, which was given by<sup>c</sup> Moses the servant of God, and to observe and do all the commandments of the LORD our Lord, and his judgments and his statutes;
 <sup>30</sup> and that we would not give our daughters unto the people of the land, nor take their daughters for our sons:
 <sup>31</sup> and _if_ the people of the land bring ware or any victuals on the sabbath day to sell, _that_ we would not buy it of them on the sabbath, or on the holy day: and _that_ we would leave the seventh year, and the exaction of every<sup>d</sup> debt.
 
@@ -462,7 +462,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 <sup>1</sup> And the rulers of the people dwelt at Jerusalem: the rest of the people also cast lots, to bring one of ten to dwell in Jerusalem the holy city, and nine parts _to dwell_ in _other_ cities.
 <sup>2</sup> And the people blessed all the men, that willingly offered themselves to dwell at Jerusalem.
 
-<sup>3</sup> Now these _are_ the chief of the province that dwelt in Jerusalem: but in the cities of Judah dwelt every one in his possession in their cities, _to wit_, Israel, the priests, and the Levites, and the Nethinims, and the children of Solomon's servants.
+<sup>3</sup> Now these _are_ the chief of the province that dwelt in Jerusalem: but in the cities of Judah dwelt every one in his possession in their cities, _to wit_, Israel, the priests, and the Levites, and the Nethinims, and the children of Solomon’s servants.
 <sup>4</sup> And at Jerusalem dwelt _certain_ of the children of Judah, and of the children of Benjamin. Of the children of Judah; Athaiah the son of Uzziah, the son of Zechariah, the son of Amariah, the son of Shephatiah, the son of Mahalaleel, of the children of Perez;
 <sup>5</sup> and Maaseiah the son of Baruch, the son of Col-hozeh, the son of Hazaiah, the son of Adaiah, the son of Joiarib, the son of Zechariah, the son of Shiloni.
 <sup>6</sup> All the sons of Perez that dwelt at Jerusalem _were_ four hundred threescore and eight valiant men.
@@ -490,8 +490,8 @@ The number, _I say_, of the men of the people of Israel _was this_;
 <sup>21</sup> But the Nethinims dwelt in Ophel:<sup>c</sup> and Ziha and Gispa _were_ over the Nethinims.
 
 <sup>22</sup> The overseer also of the Levites at Jerusalem _was_ Uzzi the son of Bani, the son of Hashabiah, the son of Mattaniah, the son of Micha. Of the sons of Asaph, the singers _were_ over the business of the house of God.
-<sup>23</sup> For _it was_ the king's commandment concerning them, that a certain portion<sup>d</sup> should be for the singers, due for every day.
-<sup>24</sup> And Pethahiah the son of Meshezabeel, of the children of Zerah the son of Judah, _was_ at the king's hand in all matters concerning the people.
+<sup>23</sup> For _it was_ the king’s commandment concerning them, that a certain portion<sup>d</sup> should be for the singers, due for every day.
+<sup>24</sup> And Pethahiah the son of Meshezabeel, of the children of Zerah the son of Judah, _was_ at the king’s hand in all matters concerning the people.
 
 <sup>25</sup> And for the villages, with their fields, _some_ of the children of Judah dwelt at Kirjath-arba, and _in_ the villages thereof, and at Dibon, and _in_ the villages thereof, and at Jekabzeel, and _in_ the villages thereof,
 <sup>26</sup> and at Jeshua, and at Moladah, and at Beth-phelet,
@@ -514,7 +514,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 
 ## Chapter 12
 
-### Zerubbabel's Company
+### Zerubbabel’s Company
 
 <sup>1</sup> Now these _are_ the priests and the Levites that went up with Zerubbabel the son of Shealtiel, and Jeshua: Seraiah, Jeremiah, Ezra,
 <sup>2</sup> Amariah, Malluch,<sup>a</sup> Hattush,
@@ -557,7 +557,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 <sup>32</sup> and after them went Hoshaiah, and half of the princes of Judah,
 <sup>33</sup> and Azariah, Ezra, and Meshullam,
 <sup>34</sup> Judah, and Benjamin, and Shemaiah, and Jeremiah,
-<sup>35</sup> and _certain_ of the priests' sons with trumpets; _namely_, Zechariah the son of Jonathan, the son of Shemaiah, the son of Mattaniah, the son of Michaiah, the son of Zaccur, the son of Asaph:
+<sup>35</sup> and _certain_ of the priests’ sons with trumpets; _namely_, Zechariah the son of Jonathan, the son of Shemaiah, the son of Mattaniah, the son of Michaiah, the son of Zaccur, the son of Asaph:
 <sup>36</sup> and his brethren, Shemaiah, and Azarael, Milalai, Gilalai, Maai, Nethaneel, and Judah, Hanani, with the musical instruments of David the man of God, and Ezra the scribe before them.
 <sup>37</sup> And at the fountain gate, which was over against them, they went up by the stairs of the city of David, at the going up of the wall, above the house of David, even unto the water gate eastward.
 
@@ -589,7 +589,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 
 ## Chapter 13
 
-### Nehemiah's Reforms
+### Nehemiah’s Reforms
 
 <sup>1</sup> On that day they read<sup>a</sup> in the book of Moses in the audience<sup>b</sup> of the people; and therein was found written, that the Ammonite and the Moabite should not come into the congregation of God for ever;
 <sup>2</sup> because they met not the children of Israel with bread and with water, but hired Balaam against them, that he should curse them: howbeit our God turned the curse into a blessing.
@@ -621,7 +621,7 @@ The number, _I say_, of the men of the people of Israel _was this_;
 <sup>22</sup> And I commanded the Levites that they should cleanse themselves, and _that_ they should come _and_ keep the gates, to sanctify the sabbath day. Remember me, O my God, _concerning_ this also, and spare me according to the greatness<sup>n</sup> of thy mercy.
 
 <sup>23</sup> In those days also saw I Jews _that_ had married<sup>o</sup> wives of Ashdod, of Ammon, _and_ of Moab:
-<sup>24</sup> and their children spake half in the speech of Ashdod, and could not speak<sup>p</sup> in the Jews' language, but according to the language of each people.<sup>q</sup>
+<sup>24</sup> and their children spake half in the speech of Ashdod, and could not speak<sup>p</sup> in the Jews’ language, but according to the language of each people.<sup>q</sup>
 <sup>25</sup> And I contended with them, and cursed them,<sup>r</sup> and smote certain of them, and plucked off their hair, and made them swear by God, _saying_, Ye shall not give your daughters unto their sons, nor take their daughters unto your sons, or for yourselves.
 <sup>26</sup> Did not Solomon king of Israel sin by these things? yet among many nations was there no king like him, who was beloved of his God, and God made him king over all Israel: nevertheless even him did outlandish women cause to sin.
 <sup>27</sup> Shall we then hearken unto you to do all this great evil, to transgress against our God in marrying strange wives?

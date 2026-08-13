@@ -17,13 +17,13 @@
 <sup>11</sup> But I certify you, brethren, that the gospel which was preached of me is not after man.
 <sup>12</sup> For I neither received it of man, neither was I taught _it_, but by the revelation of Jesus Christ.
 
-<sup>13</sup> For ye have heard of my conversation in time past in the Jews' religion, how that beyond measure I persecuted the church of God, and wasted it:
-<sup>14</sup> and profited in the Jews' religion above many my equals<sup>a</sup> in mine own nation, being more exceedingly zealous of the traditions of my fathers.
-<sup>15</sup> But when it pleased God, who separated me from my mother's womb, and called _me_ by his grace,
+<sup>13</sup> For ye have heard of my conversation in time past in the Jews’ religion, how that beyond measure I persecuted the church of God, and wasted it:
+<sup>14</sup> and profited in the Jews’ religion above many my equals<sup>a</sup> in mine own nation, being more exceedingly zealous of the traditions of my fathers.
+<sup>15</sup> But when it pleased God, who separated me from my mother’s womb, and called _me_ by his grace,
 <sup>16</sup> to reveal his Son in me, that I might preach him among the heathen; immediately I conferred not with flesh and blood:
 <sup>17</sup> neither went I up to Jerusalem to them which were apostles before me; but I went into Arabia, and returned again unto Damascus.
 <sup>18</sup> Then after three years I went up<sup>b</sup> to Jerusalem to see Peter, and abode with him fifteen days.
-<sup>19</sup> But other of the apostles saw I none, save James the Lord's brother.
+<sup>19</sup> But other of the apostles saw I none, save James the Lord’s brother.
 <sup>20</sup> Now the things which I write unto you, behold, before God, I lie not.
 <sup>21</sup> Afterwards I came into the regions of Syria and Cilicia;
 <sup>22</sup> and was unknown by face unto the churches of Judæa which were in Christ:
@@ -40,7 +40,7 @@
 <sup>3</sup> But neither Titus, who was with me, being a Greek, was compelled to be circumcised:
 <sup>4</sup> and that because of false brethren unawares brought in, who came in privily to spy out our liberty which we have in Christ Jesus, that they might bring us into bondage:
 <sup>5</sup> to whom we gave place by subjection, no, not for an hour; that the truth of the gospel might continue with you.
-<sup>6</sup> But of these who seemed to be somewhat, (whatsoever they were, it maketh no matter to me: God accepteth no man's person:) for they who seemed _to be somewhat_ in conference added nothing to me:
+<sup>6</sup> But of these who seemed to be somewhat, (whatsoever they were, it maketh no matter to me: God accepteth no man’s person:) for they who seemed _to be somewhat_ in conference added nothing to me:
 <sup>7</sup> but contrariwise, when they saw that the gospel of the uncircumcision was committed unto me, as _the gospel_ of the circumcision _was_ unto Peter;
 <sup>8</sup> (for he that wrought effectually in Peter to the apostleship of the circumcision, the same was mighty in me toward the Gentiles:)
 <sup>9</sup> and when James, Cephas, and John, who seemed to be pillars, perceived the grace that was given unto me, they gave to me and Barnabas the right hands of fellowship; that we _should go_ unto the heathen, and they unto the circumcision.
@@ -81,7 +81,7 @@
 <sup>13</sup> Christ hath redeemed us from the curse of the law, being made a curse for us: for it is written, Cursed _is_ every one that hangeth on a tree:
 <sup>14</sup> that the blessing of Abraham might come on the Gentiles through Jesus Christ; that we might receive the promise of the Spirit through faith.
 
-<sup>15</sup> Brethren, I speak after the manner of men; Though _it be_ but a man's covenant,<sup>c</sup> yet _if it be_ confirmed, no man disannulleth, or addeth thereto.
+<sup>15</sup> Brethren, I speak after the manner of men; Though _it be_ but a man’s covenant,<sup>c</sup> yet _if it be_ confirmed, no man disannulleth, or addeth thereto.
 <sup>16</sup> Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.
 <sup>17</sup> And this I say, _that_ the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul, that it should make the promise of none effect.
 <sup>18</sup> For if the inheritance _be_ of the law, _it is_ no more of promise: but God gave _it_ to Abraham by promise.
@@ -98,7 +98,7 @@
 <sup>26</sup> For ye are all the children of God by faith in Christ Jesus.
 <sup>27</sup> For as many of you as have been baptized into Christ have put on Christ.
 <sup>28</sup> There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.
-<sup>29</sup> And if ye _be_ Christ's, then are ye Abraham's seed, and heirs according to the promise.
+<sup>29</sup> And if ye _be_ Christ’s, then are ye Abraham’s seed, and heirs according to the promise.
 
 > - <sup>a</sup> 4. Or, _so great_
 > - <sup>b</sup> 6. Or, _imputed_
@@ -182,7 +182,7 @@
 <sup>21</sup> envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told _you_ in time past, that they which do such things shall not inherit the kingdom of God.
 <sup>22</sup> But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,
 <sup>23</sup> meekness, temperance: against such there is no law.
-<sup>24</sup> And they that are Christ's have crucified the flesh with the affections<sup>b</sup> and lusts.
+<sup>24</sup> And they that are Christ’s have crucified the flesh with the affections<sup>b</sup> and lusts.
 
 <sup>25</sup> If we live in the Spirit, let us also walk in the Spirit.
 <sup>26</sup> Let us not be desirous of vain glory, provoking one another, envying one another.
@@ -193,7 +193,7 @@
 ## Chapter 6
 
 <sup>1</sup> Brethren, if<sup>a</sup> a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted.
-<sup>2</sup> Bear ye one another's burdens, and so fulfil the law of Christ.
+<sup>2</sup> Bear ye one another’s burdens, and so fulfil the law of Christ.
 <sup>3</sup> For if a man think himself to be something, when he is nothing, he deceiveth himself.
 <sup>4</sup> But let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another.
 <sup>5</sup> For every man shall bear his own burden.

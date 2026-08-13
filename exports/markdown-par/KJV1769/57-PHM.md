@@ -10,7 +10,7 @@
 <sup>7</sup> For we have great joy and consolation in thy love, because the bowels of the saints are refreshed by thee, brother.
 
 <sup>8</sup> Wherefore, though I might be much bold in Christ to enjoin thee that which is convenient,
-<sup>9</sup> yet for love's sake I rather beseech _thee_, being such an one as Paul the aged, and now also a prisoner of Jesus Christ.
+<sup>9</sup> yet for love’s sake I rather beseech _thee_, being such an one as Paul the aged, and now also a prisoner of Jesus Christ.
 <sup>10</sup> I beseech thee for my son Onesimus, whom I have begotten in my bonds:
 <sup>11</sup> which in time past was to thee unprofitable, but now profitable to thee and to me:
 <sup>12</sup> whom I have sent again: thou therefore receive him, that is, mine own bowels:

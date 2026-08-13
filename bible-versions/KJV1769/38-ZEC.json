@@ -3597,7 +3597,7 @@
     "verse": 1,
     "content": [
       { "heading": "The City of God" },
-      { "heading": "Look to the Lord" },
+      { "heading": ["Look to the ", { "text": "Lord", "marks": ["sc"] }] },
       { "paragraph": true, "text": "The burden", "strong": "H4853" },
       { "text": " of the word", "strong": "H1697" },
       {
@@ -4711,7 +4711,7 @@
       },
       { "text": " the men", "strong": "H120" },
       { "text": " every one", "strong": "H376" },
-      { "text": " into his neighbour's", "strong": "H7453" },
+      { "text": " into his neighbour’s", "strong": "H7453" },
       { "text": " hand,", "strong": "H3027" },
       { "text": " and into the hand", "strong": "H3027" },
       { "text": " of his king:", "strong": "H4428" },
@@ -6128,7 +6128,7 @@
     "chapter": 14,
     "verse": 9,
     "content": [
-      { "heading": "Lord of All" },
+      { "heading": [{ "text": "Lord", "marks": ["sc"] }, " of All"] },
       {
         "paragraph": true,
         "content": ["And the ", { "text": "Lord", "marks": ["sc"] }],
@@ -6180,7 +6180,7 @@
         "strong": "H3427",
         "morph": "QalPerf"
       },
-      { "text": " in her place, from Benjamin's", "strong": "H1144" },
+      { "text": " in her place, from Benjamin’s", "strong": "H1144" },
       { "text": " gate", "strong": "H8179" },
       { "text": " unto the place", "strong": "H4725" },
       { "text": " of the first", "strong": "H7223" },
@@ -6192,7 +6192,7 @@
         "strong": "H4026"
       },
       { "text": " of Hananeel", "strong": "H2606" },
-      { "text": " unto the king's", "strong": "H4428" },
+      { "text": " unto the king’s", "strong": "H4428" },
       { "text": " winepresses.", "strong": "H3342" }
     ]
   },
@@ -6500,7 +6500,7 @@
       },
       { "text": " and the pots", "strong": "H5518" },
       {
-        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "'s"],
+        "content": [" in the ", { "text": "Lord", "marks": ["sc"] }, "’s"],
         "strong": "H3068"
       },
       { "text": " house", "strong": "H1004" },

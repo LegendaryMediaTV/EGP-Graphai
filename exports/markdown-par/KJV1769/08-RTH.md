@@ -2,13 +2,13 @@
 
 <sup>1</sup> Now it came to pass in the days when the judges ruled,<sup>a</sup> that there was a famine in the land. And a certain man of Beth-lehem-judah went to sojourn in the country of Moab, he, and his wife, and his two sons.
 <sup>2</sup> And the name of the man _was_ Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Beth-lehem-judah. And they came into the country of Moab, and continued<sup>b</sup> there.
-<sup>3</sup> And Elimelech Naomi's husband died; and she was left, and her two sons.
+<sup>3</sup> And Elimelech Naomi’s husband died; and she was left, and her two sons.
 <sup>4</sup> And they took them wives of the women of Moab; the name of the one _was_ Orpah, and the name of the other Ruth: and they dwelled there about ten years.
 <sup>5</sup> And Mahlon and Chilion died also both of them; and the woman was left of her two sons and her husband.
 
 <sup>6</sup> Then she arose with her daughters in law, that she might return from the country of Moab: for she had heard in the country of Moab how that the LORD had visited his people in giving them bread.
 <sup>7</sup> Wherefore she went forth out of the place where she was, and her two daughters in law with her; and they went on the way to return unto the land of Judah.
-<sup>8</sup> And Naomi said unto her two daughters in law, Go, return each to her mother's house: the LORD deal kindly with you, as ye have dealt with the dead, and with me.
+<sup>8</sup> And Naomi said unto her two daughters in law, Go, return each to her mother’s house: the LORD deal kindly with you, as ye have dealt with the dead, and with me.
 <sup>9</sup> The LORD grant you that ye may find rest, each _of you_ in the house of her husband. Then she kissed them; and they lifted up their voice, and wept.
 <sup>10</sup> And they said unto her, Surely we will return with thee unto thy people.
 <sup>11</sup> And Naomi said, Turn again, my daughters: why will ye go with me? _are_ there yet _any more_ sons in my womb, that they may be your husbands?
@@ -38,7 +38,7 @@
 
 ### Ruth and Boaz
 
-<sup>1</sup> And Naomi had a kinsman of her husband's, a mighty man of wealth, of the family of Elimelech; and his name _was_ Boaz.
+<sup>1</sup> And Naomi had a kinsman of her husband’s, a mighty man of wealth, of the family of Elimelech; and his name _was_ Boaz.
 <sup>2</sup> And Ruth the Moabitess said unto Naomi, Let me now go to the field, and glean ears of corn after _him_ in whose sight I shall find grace. And she said unto her, Go, my daughter.
 <sup>3</sup> And she went, and came, and gleaned in the field after the reapers: and her hap<sup>a</sup> was to light on a part of the field _belonging_ unto Boaz,<sup>b</sup> who _was_ of the kindred of Elimelech.
 <sup>4</sup> And, behold, Boaz came from Beth-lehem, and said unto the reapers, The LORD _be_ with you. And they answered him, The LORD bless thee.
@@ -59,7 +59,7 @@
 
 <sup>17</sup> So she gleaned in the field until even, and beat out that she had gleaned: and it was about an ephah of barley.
 <sup>18</sup> And she took _it_ up, and went into the city: and her mother in law saw what she had gleaned: and she brought forth, and gave to her that she had reserved after she was sufficed.
-<sup>19</sup> And her mother in law said unto her, Where hast thou gleaned to day? and where wroughtest thou? blessed be he that did take knowledge of thee. And she shewed her mother in law with whom she had wrought, and said, The man's name with whom I wrought to day _is_ Boaz.
+<sup>19</sup> And her mother in law said unto her, Where hast thou gleaned to day? and where wroughtest thou? blessed be he that did take knowledge of thee. And she shewed her mother in law with whom she had wrought, and said, The man’s name with whom I wrought to day _is_ Boaz.
 <sup>20</sup> And Naomi said unto her daughter in law, Blessed _be_ he of the LORD, who hath not left off his kindness to the living and to the dead. And Naomi said unto her, The man _is_ near of kin unto us, one of our next kinsmen.<sup>e</sup>
 <sup>21</sup> And Ruth the Moabitess said, He said unto me also, Thou shalt keep fast by my young men, until they have ended all my harvest.
 <sup>22</sup> And Naomi said unto Ruth her daughter in law, _It is_ good, my daughter, that thou go out with his maidens, that they meet thee<sup>f</sup> not in any other field.
@@ -74,7 +74,7 @@
 
 ## Chapter 3
 
-### Naomi's Advice
+### Naomi’s Advice
 
 <sup>1</sup> Then Naomi her mother in law said unto her, My daughter, shall I not seek rest for thee, that it may be well with thee?
 <sup>2</sup> And now _is_ not Boaz of our kindred, with whose maidens thou wast? Behold, he winnoweth barley to night in the threshingfloor.
@@ -89,7 +89,7 @@
 <sup>10</sup> And he said, Blessed _be_ thou of the LORD, my daughter: _for_ thou hast shewed more kindness in the latter end than at the beginning, inasmuch as thou followedst not young men, whether poor or rich.
 <sup>11</sup> And now, my daughter, fear not; I will do to thee all that thou requirest: for all the city<sup>d</sup> of my people doth know that thou _art_ a virtuous woman.
 <sup>12</sup> And now it is true that I _am thy_ near kinsman: howbeit there is a kinsman nearer than I.
-<sup>13</sup> Tarry this night, and it shall be in the morning, _that_ if he will perform unto thee the part of a kinsman, well; let him do the kinsman's part: but if he will not do the part of a kinsman to thee, then will I do the part of a kinsman to thee, _as_ the LORD liveth: lie down until the morning.
+<sup>13</sup> Tarry this night, and it shall be in the morning, _that_ if he will perform unto thee the part of a kinsman, well; let him do the kinsman’s part: but if he will not do the part of a kinsman to thee, then will I do the part of a kinsman to thee, _as_ the LORD liveth: lie down until the morning.
 
 <sup>14</sup> And she lay at his feet until the morning: and she rose up before one could know another. And he said, Let it not be known that a woman came into the floor.
 <sup>15</sup> Also he said, Bring the vail<sup>e</sup> that _thou hast_ upon thee, and hold it. And when she held it, he measured six _measures_ of barley, and laid _it_ on her: and she went into the city.
@@ -105,18 +105,18 @@
 
 ## Chapter 4
 
-### Ruth's Marriage
+### Ruth’s Marriage
 
 <sup>1</sup> Then went Boaz up to the gate, and sat him down there: and, behold, the kinsman of whom Boaz spake came by; unto whom he said, Ho, such a one! turn aside, sit down here. And he turned aside, and sat down.
 <sup>2</sup> And he took ten men of the elders of the city, and said, Sit ye down here. And they sat down.
-<sup>3</sup> And he said unto the kinsman, Naomi, that is come again out of the country of Moab, selleth a parcel of land, which _was_ our brother Elimelech's:
+<sup>3</sup> And he said unto the kinsman, Naomi, that is come again out of the country of Moab, selleth a parcel of land, which _was_ our brother Elimelech’s:
 <sup>4</sup> and I thought to advertise thee,<sup>a</sup> saying, Buy _it_ before the inhabitants, and before the elders of my people. If thou wilt redeem _it_, redeem _it:_ but if thou wilt not redeem _it, then_ tell me, that I may know: for _there is_ none to redeem _it_ beside thee; and I _am_ after thee. And he said, I will redeem _it_.
 <sup>5</sup> Then said Boaz, What day thou buyest the field of the hand of Naomi, thou must buy _it_ also of Ruth the Moabitess, the wife of the dead, to raise up the name of the dead upon his inheritance.
 <sup>6</sup> And the kinsman said, I cannot redeem _it_ for myself, lest I mar mine own inheritance: redeem thou my right to thyself; for I cannot redeem _it_.
 
 <sup>7</sup> Now this _was the manner_ in former time in Israel concerning redeeming and concerning changing, for to confirm all things; a man plucked off his shoe, and gave _it_ to his neighbour: and this _was_ a testimony in Israel.
 <sup>8</sup> Therefore the kinsman said unto Boaz, Buy _it_ for thee. So he drew off his shoe.
-<sup>9</sup> And Boaz said unto the elders, and _unto_ all the people, Ye _are_ witnesses this day, that I have bought all that _was_ Elimelech's, and all that _was_ Chilion's and Mahlon's, of the hand of Naomi.
+<sup>9</sup> And Boaz said unto the elders, and _unto_ all the people, Ye _are_ witnesses this day, that I have bought all that _was_ Elimelech’s, and all that _was_ Chilion’s and Mahlon’s, of the hand of Naomi.
 <sup>10</sup> Moreover Ruth the Moabitess, the wife of Mahlon, have I purchased to be my wife, to raise up the name of the dead upon his inheritance, that the name of the dead be not cut off from among his brethren, and from the gate of his place: ye _are_ witnesses this day.
 <sup>11</sup> And all the people that _were_ in the gate, and the elders, said, _We are_ witnesses. The LORD make the woman that is come into thine house like Rachel and like Leah, which two did build the house of Israel: and do thou worthily<sup>b</sup> in Ephratah, and be famous<sup>c</sup> in Beth-lehem:
 <sup>12</sup> and let thy house be like the house of Pharez, whom Tamar bare unto Judah, of the seed which the LORD shall give thee of this young woman.
