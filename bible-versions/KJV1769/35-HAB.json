@@ -30,7 +30,7 @@
         "morph": "QalImpf"
       },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " cry out"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " cry out"],
         "strong": "H2199",
         "morph": "QalImpf"
       },
@@ -70,7 +70,8 @@
       { "text": " and violence", "strong": "H2555" },
       {
         "content": [
-          { "text": " are", "marks": ["i"] },
+          " ",
+          { "text": "are", "marks": ["i"] },
           " before me: and there are ",
           { "text": "that", "marks": ["i"] },
           " raise up"
@@ -128,14 +129,16 @@
       { "text": " in your days,", "strong": "H3117" },
       {
         "content": [
-          { "text": " which", "marks": ["i"] },
+          " ",
+          { "text": "which", "marks": ["i"] },
           " ye will not believe,"
         ],
         "strong": "H539",
         "morph": "HiphImpf"
       },
       { "text": " though it be told", "strong": "H5608", "morph": "PualImpf" },
-      { "text": " you", "marks": ["i"] },
+      " ",
+      { "text": "you", "marks": ["i"] },
       "."
     ]
   },
@@ -147,7 +150,7 @@
       { "text": "For, lo, I raise up", "strong": "H6965", "morph": "HiphPtc" },
       { "text": " the Chaldeans,", "strong": "H3778" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " bitter"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " bitter"],
         "strong": "H4751"
       },
       { "text": " and hasty", "strong": "H4116", "morph": "NiphPtc" },
@@ -164,7 +167,8 @@
       { "text": " of the land,", "strong": "H776" },
       { "text": " to possess", "strong": "H3423", "morph": "QalInf" },
       { "text": " the dwellingplaces", "strong": "H4908" },
-      { "text": " that are", "marks": ["i"] },
+      " ",
+      { "text": "that are", "marks": ["i"] },
       " not their's."
     ]
   },
@@ -223,7 +227,7 @@
       { "text": " they shall fly", "strong": "H5774", "morph": "QalImpf" },
       { "text": " as the eagle", "strong": "H5404" },
       {
-        "content": [{ "text": " that", "marks": ["i"] }, " hasteth"],
+        "content": [" ", { "text": "that", "marks": ["i"] }, " hasteth"],
         "strong": "H2363",
         "morph": "QalPerf"
       },
@@ -246,7 +250,8 @@
       { "text": " shall sup up", "strong": "H4041" },
       {
         "content": [
-          { "text": " as", "marks": ["i"] },
+          " ",
+          { "text": "as", "marks": ["i"] },
           {
             "text": " the east",
             "foot": {
@@ -325,7 +330,7 @@
       },
       { "text": " and offend,", "strong": "H816", "morph": "QalPerf" },
       {
-        "content": [{ "text": " imputing", "marks": ["i"] }, " this"],
+        "content": [" ", { "text": "imputing", "marks": ["i"] }, " this"],
         "strong": "H2098"
       },
       { "text": " his power", "strong": "H3581" },
@@ -412,7 +417,11 @@
         "morph": "QalActPtc"
       },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " holdest thy tongue"],
+        "content": [
+          " ",
+          { "text": "and", "marks": ["i"] },
+          " holdest thy tongue"
+        ],
         "strong": "H2790",
         "morph": "HiphImpf"
       },
@@ -420,7 +429,8 @@
       { "text": " devoureth", "strong": "H1104", "morph": "PielInf" },
       {
         "content": [
-          { "text": " the man that is", "marks": ["i"] },
+          " ",
+          { "text": "the man that is", "marks": ["i"] },
           " more righteous"
         ],
         "strong": "H6662"
@@ -451,7 +461,7 @@
         "strong": "H7431"
       },
       {
-        "content": [{ "text": " that have", "marks": ["i"] }, " no ruler"],
+        "content": [" ", { "text": "that have", "marks": ["i"] }, " no ruler"],
         "strong": "H4910",
         "morph": "QalActPtc"
       },
@@ -505,7 +515,7 @@
       { "text": " because by them", "strong": "H1992" },
       { "text": " their portion", "strong": "H2506" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " fat,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " fat,"],
         "strong": "H8082"
       },
       { "text": " and their meat", "strong": "H3978" },
@@ -629,7 +639,8 @@
       { "text": "For the vision", "strong": "H2377" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " yet for an appointed time,"
         ],
         "strong": "H4150"
@@ -655,7 +666,7 @@
     "content": [
       { "text": "Behold, his soul", "strong": "H5315" },
       {
-        "content": [{ "text": " which", "marks": ["i"] }, " is lifted up"],
+        "content": [" ", { "text": "which", "marks": ["i"] }, " is lifted up"],
         "strong": "H6075",
         "morph": "PualPerf"
       },
@@ -687,7 +698,7 @@
       },
       { "text": " by wine,", "strong": "H3196" },
       {
-        "content": [{ "text": " he is", "marks": ["i"] }, " a proud"],
+        "content": [" ", { "text": "he is", "marks": ["i"] }, " a proud"],
         "strong": "H3093"
       },
       { "text": " man,", "strong": "H1397" },
@@ -749,7 +760,8 @@
       },
       {
         "content": [
-          { "text": " that which is", "marks": ["i"] },
+          " ",
+          { "text": "that which is", "marks": ["i"] },
           " not his! how long? and to him that ladeth"
         ],
         "strong": "H3513",
@@ -864,7 +876,7 @@
       { "text": " people,", "strong": "H5971" },
       { "text": " and hast sinned", "strong": "H2398", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " against", "marks": ["i"] }, " thy soul."],
+        "content": [" ", { "text": "against", "marks": ["i"] }, " thy soul."],
         "strong": "H5315"
       }
     ]
@@ -1043,7 +1055,11 @@
       { "text": " shall be turned", "strong": "H5437", "morph": "NiphImpf" },
       { "text": " unto thee, and shameful spewing", "strong": "H7022" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " on thy glory."],
+        "content": [
+          " ",
+          { "text": "shall be", "marks": ["i"] },
+          " on thy glory."
+        ],
         "strong": "H3519"
       }
     ]
@@ -1059,7 +1075,11 @@
       { "text": " thee, and the spoil", "strong": "H7701" },
       { "text": " of beasts,", "strong": "H929" },
       {
-        "content": [{ "text": " which", "marks": ["i"] }, " made them afraid,"],
+        "content": [
+          " ",
+          { "text": "which", "marks": ["i"] },
+          " made them afraid,"
+        ],
         "strong": "H2865",
         "morph": "HiphImpf"
       },
@@ -1157,7 +1177,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " in his holy"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " in his holy"],
         "strong": "H6944"
       },
       { "text": " temple:", "strong": "H1964" },
@@ -1212,7 +1232,7 @@
         "strong": "H8088"
       },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " was afraid:"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " was afraid:"],
         "break": true,
         "strong": "H3372",
         "morph": "QalPerf"
@@ -1270,7 +1290,8 @@
       { "text": "And the Holy One", "strong": "H6918" },
       { "text": " from mount", "strong": "H2022" },
       { "text": " Paran.", "strong": "H6290" },
-      { "text": " Selah.", "marks": ["i"], "break": true, "strong": "H5542" },
+      " ",
+      { "text": "Selah.", "marks": ["i"], "break": true, "strong": "H5542" },
       { "text": "His glory", "strong": "H1935" },
       { "text": " covered", "strong": "H3680", "morph": "PielPerf" },
       { "text": " the heavens,", "break": true, "strong": "H8064" },
@@ -1292,7 +1313,8 @@
       { "text": "He had horns", "strong": "H7161" },
       {
         "content": [
-          { "text": " coming", "marks": ["i"] },
+          " ",
+          { "text": "coming", "marks": ["i"] },
           {
             "text": " out of his hand:",
             "foot": {
@@ -1367,7 +1389,7 @@
       },
       { "text": "His ways", "strong": "H1979" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " everlasting."],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " everlasting."],
         "break": true,
         "strong": "H5769"
       }
@@ -1476,10 +1498,11 @@
       },
       { "text": " of the tribes,", "strong": "H4294" },
       {
-        "content": [{ "text": " even thy", "marks": ["i"] }, " word."],
+        "content": [" ", { "text": "even thy", "marks": ["i"] }, " word."],
         "strong": "H562"
       },
-      { "text": " Selah.", "marks": ["i"], "break": true, "strong": "H5542" },
+      " ",
+      { "text": "Selah.", "marks": ["i"], "break": true, "strong": "H5542" },
       { "text": "Thou didst cleave", "strong": "H1234", "morph": "PielImpf" },
       { "text": " the earth", "strong": "H776" },
       {
@@ -1543,7 +1566,7 @@
     "content": [
       { "text": "The sun", "strong": "H8121" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " moon"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " moon"],
         "strong": "H3394"
       },
       { "text": " stood still", "strong": "H5975", "morph": "QalPerf" },
@@ -1620,7 +1643,8 @@
       },
       { "text": " the foundation", "strong": "H3247" },
       { "text": " unto the neck.", "strong": "H6677" },
-      { "text": " Selah.", "marks": ["i"], "break": true, "strong": "H5542" }
+      " ",
+      { "text": "Selah.", "marks": ["i"], "break": true, "strong": "H5542" }
     ]
   },
   {
@@ -1651,7 +1675,7 @@
         "strong": "H5951"
       },
       {
-        "content": [{ "text": " was", "marks": ["i"] }, " as to devour"],
+        "content": [" ", { "text": "was", "marks": ["i"] }, " as to devour"],
         "strong": "H398",
         "morph": "QalInf"
       },
@@ -1753,7 +1777,7 @@
         "strong": "H2981"
       },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " in the vines;"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " in the vines;"],
         "break": true,
         "strong": "H1612"
       },
@@ -1813,7 +1837,7 @@
       },
       { "text": " God", "strong": "H136" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " my strength,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " my strength,"],
         "break": true,
         "strong": "H2428"
       },
@@ -1822,7 +1846,8 @@
       { "text": " like hinds'", "strong": "H355" },
       {
         "content": [
-          { "text": " feet", "marks": ["i"] },
+          " ",
+          { "text": "feet", "marks": ["i"] },
           { "text": ",", "break": true },
           "And he will make me to walk"
         ],

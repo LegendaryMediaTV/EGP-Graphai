@@ -8,7 +8,8 @@
       { "text": " of Obadiah.", "strong": "H5662" },
       { "text": " Thus saith", "strong": "H559", "morph": "QalPerf" },
       { "text": " the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " concerning Edom;", "strong": "H123" },
       { "text": " We have heard", "strong": "H8085", "morph": "QalPerf" },
       { "text": " a rumour", "strong": "H8052" },
@@ -57,7 +58,7 @@
       { "text": " of the rock,", "strong": "H5553" },
       { "text": " whose habitation", "strong": "H3427", "morph": "QalInf" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " high;"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " high;"],
         "strong": "H4791"
       },
       { "text": " that saith", "strong": "H559", "morph": "QalActPtc" },
@@ -77,7 +78,11 @@
     "content": [
       { "text": "Though thou exalt", "strong": "H1361", "morph": "HiphImpf" },
       {
-        "content": [{ "text": " thyself", "marks": ["i"] }, " as the eagle,"],
+        "content": [
+          " ",
+          { "text": "thyself", "marks": ["i"] },
+          " as the eagle,"
+        ],
         "strong": "H5404"
       },
       { "text": " and though thou set", "strong": "H7760", "morph": "QalInf" },
@@ -133,7 +138,8 @@
       },
       {
         "content": [
-          { "text": " some", "marks": ["i"] },
+          " ",
+          { "text": "some", "marks": ["i"] },
           {
             "text": " grapes?",
             "foot": {
@@ -161,7 +167,7 @@
       },
       { "text": " searched out!", "strong": "H2664", "morph": "NiphPerf" },
       {
-        "content": [{ "text": " how", "marks": ["i"] }, " are his hidden"],
+        "content": [" ", { "text": "how", "marks": ["i"] }, " are his hidden"],
         "strong": "H4710"
       },
       { "text": " things sought up!", "strong": "H1158", "morph": "NiphPerf" }
@@ -256,7 +262,7 @@
       { "text": " even destroy", "strong": "H6", "morph": "HiphPerf" },
       { "text": " the wise", "strong": "H2450" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, " out of Edom,"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, " out of Edom,"],
         "strong": "H123"
       },
       { "text": " and understanding", "strong": "H8394" },
@@ -271,7 +277,7 @@
     "content": [
       { "text": "And thy mighty", "strong": "H1368" },
       {
-        "content": [{ "text": " men", "marks": ["i"] }, ", O Teman,"],
+        "content": [" ", { "text": "men", "marks": ["i"] }, ", O Teman,"],
         "strong": "H8487"
       },
       { "text": " shall be dismayed,", "strong": "H2865", "morph": "QalPerf" },
@@ -406,7 +412,8 @@
       { "text": " nor have laid", "strong": "H7971", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " hands", "marks": ["i"] },
+          " ",
+          { "text": "hands", "marks": ["i"] },
           {
             "text": " on their substance",
             "foot": {
@@ -459,7 +466,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " near"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " near"],
         "strong": "H7138"
       },
       { "text": " upon all the heathen:", "strong": "H1471" },
@@ -480,7 +487,8 @@
       { "text": " mountain,", "strong": "H2022" },
       {
         "content": [
-          { "text": " so", "marks": ["i"] },
+          " ",
+          { "text": "so", "marks": ["i"] },
           " shall all the heathen"
         ],
         "strong": "H1471"
@@ -572,7 +580,8 @@
         "strong": "H3068"
       },
       { "text": " hath spoken", "strong": "H1696", "morph": "PielPerf" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       "."
     ]
   },
@@ -613,7 +622,11 @@
       { "text": " of Samaria:", "strong": "H8111" },
       { "text": " and Benjamin", "strong": "H1144" },
       {
-        "content": [{ "text": " shall possess", "marks": ["i"] }, " Gilead."],
+        "content": [
+          " ",
+          { "text": "shall possess", "marks": ["i"] },
+          " Gilead."
+        ],
         "strong": "H1568"
       }
     ]
@@ -629,13 +642,18 @@
       { "text": " of Israel", "strong": "H3478" },
       {
         "content": [
-          { "text": " shall possess", "marks": ["i"] },
+          " ",
+          { "text": "shall possess", "marks": ["i"] },
           " that of the Canaanites,"
         ],
         "strong": "H3669"
       },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " unto Zarephath;"],
+        "content": [
+          " ",
+          { "text": "even", "marks": ["i"] },
+          " unto Zarephath;"
+        ],
         "strong": "H6886"
       },
       { "text": " and the captivity", "strong": "H1546" },

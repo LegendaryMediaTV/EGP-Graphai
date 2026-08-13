@@ -14,7 +14,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " Timotheus", "strong": "G5095" },
       {
-        "content": [{ "text": " our", "marks": ["i"] }, " brother,"],
+        "content": [" ", { "text": "our", "marks": ["i"] }, " brother,"],
         "strong": "G80"
       }
     ]
@@ -34,7 +34,7 @@
       { "text": " Colosse:", "strong": "G2857" },
       { "text": " Grace", "strong": "G5485" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " unto you,"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " unto you,"],
         "strong": "G5213"
       },
       { "text": " and", "strong": "G2532" },
@@ -86,8 +86,9 @@
       { "text": " Jesus,", "strong": "G2424" },
       { "text": " and", "strong": "G2532" },
       { "text": " of the love", "strong": "G26" },
-      { "text": " which", "marks": ["i"], "strong": "G3588" },
-      { "text": " ", "marks": ["i"] },
+      " ",
+      { "text": "which", "marks": ["i"], "strong": "G3588" },
+      " ",
       {
         "content": [{ "text": "ye have", "marks": ["i"] }, " to"],
         "strong": "G1519"
@@ -128,7 +129,7 @@
       { "text": " as", "strong": "G2531" },
       { "strong": "G2532" },
       {
-        "content": [{ "text": " it is", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "it is", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " all", "strong": "G3956" },
@@ -142,7 +143,7 @@
       { "strong": "G2592", "morph": "PresMidPtc" },
       { "text": " as", "strong": "G2531" },
       {
-        "content": [{ "text": " it doth", "marks": ["i"] }, " also"],
+        "content": [" ", { "text": "it doth", "marks": ["i"] }, " also"],
         "strong": "G2532"
       },
       { "text": " in", "strong": "G1722" },
@@ -152,7 +153,7 @@
       { "text": " day", "strong": "G2250" },
       { "text": " ye heard", "strong": "G191", "morph": "AorActInd" },
       {
-        "content": [{ "text": " of it", "marks": ["i"] }, ", and"],
+        "content": [" ", { "text": "of it", "marks": ["i"] }, ", and"],
         "strong": "G2532"
       },
       { "text": " knew", "strong": "G1921", "morph": "Aor2ActInd" },
@@ -214,7 +215,7 @@
       { "text": " day", "strong": "G2250" },
       { "text": " we heard", "strong": "G191", "morph": "AorActInd" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, ", do"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, ", do"],
         "strong": "G3973"
       },
       { "text": " not", "strong": "G3756" },
@@ -324,7 +325,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " hath translated", "strong": "G3179", "morph": "AorActInd" },
       {
-        "content": [{ "text": " us", "marks": ["i"] }, " into"],
+        "content": [" ", { "text": "us", "marks": ["i"] }, " into"],
         "strong": "G1519"
       },
       { "text": " the kingdom", "strong": "G932" },
@@ -353,7 +354,11 @@
       { "text": " his", "strong": "G846" },
       { "text": " blood,", "strong": "G129" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " the forgiveness"],
+        "content": [
+          " ",
+          { "text": "even", "marks": ["i"] },
+          " the forgiveness"
+        ],
         "strong": "G859"
       },
       { "text": " of sins:", "strong": "G266" }
@@ -396,7 +401,7 @@
       { "text": " invisible,", "strong": "G517" },
       { "text": " whether", "strong": "G1535" },
       {
-        "content": [{ "text": " they be", "marks": ["i"] }, " thrones,"],
+        "content": [" ", { "text": "they be", "marks": ["i"] }, " thrones,"],
         "strong": "G2362"
       },
       { "text": " or", "strong": "G1535" },
@@ -475,7 +480,7 @@
     "content": [
       { "text": "For it pleased", "strong": "G2106", "morph": "AorActInd" },
       {
-        "content": [{ "text": " the Father", "marks": ["i"] }, " that"],
+        "content": [" ", { "text": "the Father", "marks": ["i"] }, " that"],
         "strong": "G3754"
       },
       { "text": " in", "strong": "G1722" },
@@ -514,11 +519,11 @@
       { "text": " by", "strong": "G1223" },
       { "text": " him,", "strong": "G846" },
       {
-        "content": [{ "text": " I say", "marks": ["i"] }, ", whether"],
+        "content": [" ", { "text": "I say", "marks": ["i"] }, ", whether"],
         "strong": "G1535"
       },
       {
-        "content": [{ "text": " they be", "marks": ["i"] }, " things in"],
+        "content": [" ", { "text": "they be", "marks": ["i"] }, " things in"],
         "strong": "G1909"
       },
       { "text": " earth,", "strong": "G1093" },
@@ -596,7 +601,7 @@
       { "text": " settled,", "strong": "G1476" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " not"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " not"],
         "strong": "G3361"
       },
       { "text": " moved away", "strong": "G3334", "morph": "PresPasPtc" },
@@ -606,7 +611,7 @@
       { "text": " which", "strong": "G3739" },
       { "text": " ye have heard,", "strong": "G191", "morph": "AorActInd" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " which"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " which"],
         "strong": "G3588"
       },
       { "text": " was preached", "strong": "G2784", "morph": "AorPasPtc" },
@@ -707,7 +712,7 @@
       { "text": " make known", "strong": "G1107", "morph": "AorActInf" },
       { "text": " what", "strong": "G5101" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " the riches"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " the riches"],
         "strong": "G4149"
       },
       { "text": " of the glory", "strong": "G1391" },
@@ -809,13 +814,13 @@
       { "text": " you,", "strong": "G5216" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " for", "marks": ["i"] }, " them at"],
+        "content": [" ", { "text": "for", "marks": ["i"] }, " them at"],
         "strong": "G1722"
       },
       { "text": " Laodicea,", "strong": "G2993" },
       { "text": " and", "strong": "G2532" },
       {
-        "content": [{ "text": " for", "marks": ["i"] }, " as many as"],
+        "content": [" ", { "text": "for", "marks": ["i"] }, " as many as"],
         "strong": "G3745"
       },
       { "text": " have", "strong": "G3708" },
@@ -947,7 +952,7 @@
       { "text": " Jesus", "strong": "G2424" },
       { "text": " the Lord,", "strong": "G2962" },
       {
-        "content": [{ "text": " so", "marks": ["i"] }, " walk ye"],
+        "content": [" ", { "text": "so", "marks": ["i"] }, " walk ye"],
         "strong": "G4043",
         "morph": "PresActImpr"
       },
@@ -1095,7 +1100,7 @@
       { "text": " also", "strong": "G2532" },
       { "text": " ye are risen with", "strong": "G4891", "morph": "AorPasInd" },
       {
-        "content": [{ "text": " him", "marks": ["i"] }, " through"],
+        "content": [" ", { "text": "him", "marks": ["i"] }, " through"],
         "strong": "G1223"
       },
       { "text": " the faith", "strong": "G4102" },
@@ -1238,7 +1243,8 @@
       { "text": " of the new moon,", "strong": "G3561" },
       { "text": " or", "strong": "G2228" },
       { "text": " of the sabbath", "strong": "G4521" },
-      { "text": " days", "marks": ["i"] },
+      " ",
+      { "text": "days", "marks": ["i"] },
       ":"
     ]
   },
@@ -1258,7 +1264,7 @@
       { "text": " but", "strong": "G1161" },
       { "text": " the body", "strong": "G4983" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " of Christ."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " of Christ."],
         "strong": "G5547"
       }
     ]
@@ -1508,7 +1514,7 @@
       { "text": "When", "strong": "G3752" },
       { "text": " Christ,", "strong": "G5547" },
       {
-        "content": [{ "text": " who is", "marks": ["i"] }, " our"],
+        "content": [" ", { "text": "who is", "marks": ["i"] }, " our"],
         "strong": "G2257"
       },
       { "text": " life,", "strong": "G2222" },
@@ -1636,7 +1642,7 @@
       { "text": " have put on", "strong": "G1746", "morph": "AorMidPtc" },
       { "text": " the new", "strong": "G3501" },
       {
-        "content": [{ "text": " man", "marks": ["i"] }, ", which"],
+        "content": [" ", { "text": "man", "marks": ["i"] }, ", which"],
         "strong": "G3588"
       },
       { "text": " is renewed", "strong": "G341", "morph": "PresPasPtc" },
@@ -1666,13 +1672,13 @@
       { "text": " Scythian,", "strong": "G4658" },
       { "text": " bond", "strong": "G1401" },
       {
-        "content": [{ "text": " nor", "marks": ["i"] }, " free:"],
+        "content": [" ", { "text": "nor", "marks": ["i"] }, " free:"],
         "strong": "G1658"
       },
       { "text": " but", "strong": "G235" },
       { "text": " Christ", "strong": "G5547" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " all,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " all,"],
         "strong": "G3956"
       },
       { "text": " and", "strong": "G2532" },
@@ -1737,7 +1743,7 @@
       { "text": " so", "strong": "G3779" },
       { "text": " also", "strong": "G2532" },
       {
-        "content": [{ "text": " do", "marks": ["i"] }, " ye."],
+        "content": [" ", { "text": "do", "marks": ["i"] }, " ye."],
         "strong": "G5210"
       }
     ]
@@ -1752,7 +1758,7 @@
       { "text": " all", "strong": "G3956" },
       { "text": " these things", "strong": "G5125" },
       {
-        "content": [{ "text": " put on", "marks": ["i"] }, " charity,"],
+        "content": [" ", { "text": "put on", "marks": ["i"] }, " charity,"],
         "strong": "G26"
       },
       { "text": " which", "strong": "G3748" },
@@ -1836,7 +1842,7 @@
       { "strong": "G1722" },
       { "text": " deed,", "strong": "G2041" },
       {
-        "content": [{ "text": " do", "marks": ["i"] }, " all"],
+        "content": [" ", { "text": "do", "marks": ["i"] }, " all"],
         "strong": "G3956"
       },
       { "text": " in", "strong": "G1722" },
@@ -1878,7 +1884,7 @@
       { "text": "Husbands,", "strong": "G435" },
       { "text": " love", "strong": "G25", "morph": "PresActImpr" },
       {
-        "content": [{ "text": " your", "marks": ["i"] }, " wives,"],
+        "content": [" ", { "text": "your", "marks": ["i"] }, " wives,"],
         "strong": "G1135"
       },
       { "text": " and", "strong": "G2532" },
@@ -1897,7 +1903,7 @@
       { "paragraph": true, "text": "Children,", "strong": "G5043" },
       { "text": " obey", "strong": "G5219", "morph": "PresActImpr" },
       {
-        "content": [{ "text": " your", "marks": ["i"] }, " parents"],
+        "content": [" ", { "text": "your", "marks": ["i"] }, " parents"],
         "strong": "G1118"
       },
       { "text": " in", "strong": "G2596" },
@@ -1920,7 +1926,7 @@
       { "text": " your", "strong": "G5216" },
       { "text": " children", "strong": "G5043" },
       {
-        "content": [{ "text": " to anger", "marks": ["i"] }, ", lest"],
+        "content": [" ", { "text": "to anger", "marks": ["i"] }, ", lest"],
         "strong": "G3363"
       },
       {
@@ -1940,7 +1946,7 @@
       { "text": " in", "strong": "G2596" },
       { "text": " all things", "strong": "G3956" },
       {
-        "content": [{ "text": " your", "marks": ["i"] }, " masters"],
+        "content": [" ", { "text": "your", "marks": ["i"] }, " masters"],
         "strong": "G2962"
       },
       { "text": " according", "strong": "G2596" },
@@ -1970,7 +1976,7 @@
       { "text": " ye do,", "strong": "G4160", "morph": "PresActSubj" },
       { "text": " do", "strong": "G2038", "morph": "PresMidPasDepImpr" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " heartily,"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, " heartily,"],
         "strong": "G1537"
       },
       { "strong": "G5590" },
@@ -2130,7 +2136,7 @@
       { "text": "Let your", "strong": "G5216" },
       { "text": " speech", "strong": "G3056" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " alway"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " alway"],
         "strong": "G3842"
       },
       { "text": " with", "strong": "G1722" },
@@ -2159,7 +2165,7 @@
       { "text": " declare", "strong": "G1107", "morph": "FutActInd" },
       { "text": " unto you,", "strong": "G5213" },
       {
-        "content": [{ "text": " who is", "marks": ["i"] }, " a beloved"],
+        "content": [" ", { "text": "who is", "marks": ["i"] }, " a beloved"],
         "strong": "G27"
       },
       { "text": " brother,", "strong": "G80" },
@@ -2208,7 +2214,7 @@
       { "text": " who", "strong": "G3739" },
       { "text": " is", "strong": "G2076", "morph": "PresInd" },
       {
-        "content": [{ "text": " one", "marks": ["i"] }, " of"],
+        "content": [" ", { "text": "one", "marks": ["i"] }, " of"],
         "strong": "G1537"
       },
       { "text": " you.", "strong": "G5216" },
@@ -2221,7 +2227,7 @@
       { "text": " all things", "strong": "G3956" },
       { "text": " which", "strong": "G3588" },
       {
-        "content": [{ "text": " are done", "marks": ["i"] }, " here."],
+        "content": [" ", { "text": "are done", "marks": ["i"] }, " here."],
         "strong": "G5602"
       }
     ]
@@ -2270,7 +2276,11 @@
       { "text": " These", "strong": "G3778" },
       { "text": " only", "strong": "G3441" },
       {
-        "content": [{ "text": " are my", "marks": ["i"] }, " fellowworkers"],
+        "content": [
+          " ",
+          { "text": "are my", "marks": ["i"] },
+          " fellowworkers"
+        ],
         "strong": "G4904"
       },
       { "text": " unto", "strong": "G1519" },
@@ -2452,7 +2462,7 @@
       { "text": " bonds.", "strong": "G1199" },
       { "text": " Grace", "strong": "G5485" },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " with"],
         "strong": "G3326"
       },
       { "text": " you.", "strong": "G5216" },

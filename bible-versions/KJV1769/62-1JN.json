@@ -41,7 +41,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " we have seen", "strong": "G3708", "morph": "PerfActInd" },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, ", and"],
+        "content": [" ", { "text": "it", "marks": ["i"] }, ", and"],
         "strong": "G2532"
       },
       { "text": " bear witness,", "strong": "G3140", "morph": "PresActInd" },
@@ -82,7 +82,7 @@
       { "text": " fellowship", "strong": "G2842" },
       { "strong": "G1161" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " with"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " with"],
         "strong": "G3326"
       },
       { "text": " the Father,", "strong": "G3962" },
@@ -232,7 +232,7 @@
       { "text": " forgive", "strong": "G863", "morph": "Aor2ActSubj" },
       { "text": " us", "strong": "G2254" },
       {
-        "content": [{ "text": " our", "marks": ["i"] }, " sins,"],
+        "content": [" ", { "text": "our", "marks": ["i"] }, " sins,"],
         "strong": "G266"
       },
       { "text": " and", "strong": "G2532" },
@@ -313,7 +313,11 @@
       { "text": " also", "strong": "G2532" },
       { "text": " for", "strong": "G4012" },
       {
-        "content": [{ "text": " the sins of", "marks": ["i"] }, " the whole"],
+        "content": [
+          " ",
+          { "text": "the sins of", "marks": ["i"] },
+          " the whole"
+        ],
         "strong": "G3650"
       },
       { "text": " world.", "strong": "G2889" }
@@ -757,7 +761,11 @@
       { "text": " us,", "strong": "G2257" },
       { "text": " they would", "strong": "G302" },
       {
-        "content": [{ "text": " no doubt", "marks": ["i"] }, " have continued"],
+        "content": [
+          " ",
+          { "text": "no doubt", "marks": ["i"] },
+          " have continued"
+        ],
         "strong": "G3306",
         "morph": "PlupfActInd"
       },
@@ -765,7 +773,7 @@
       { "text": " us:", "strong": "G2257" },
       { "text": " but", "strong": "G235" },
       {
-        "content": [{ "text": " they went out", "marks": ["i"] }, ", that"],
+        "content": [" ", { "text": "they went out", "marks": ["i"] }, ", that"],
         "strong": "G2443"
       },
       {
@@ -867,25 +875,26 @@
       { "text": " the same hath", "strong": "G2192", "morph": "PresActInd" },
       { "text": " not", "strong": "G3761" },
       { "text": " the Father:", "strong": "G3962" },
-      { "text": " (", "marks": ["i"] },
+      " ",
+      { "text": "(", "marks": ["i"] },
       {
         "text": "but) he that acknowledgeth",
         "marks": ["i"],
         "strong": "G3670",
         "morph": "PresActPtc"
       },
-      { "text": " ", "marks": ["i"] },
+      " ",
       { "text": "the Son", "marks": ["i"], "strong": "G5207" },
-      { "text": " ", "marks": ["i"] },
+      " ",
       {
         "text": "hath",
         "marks": ["i"],
         "strong": "G2192",
         "morph": "PresActInd"
       },
-      { "text": " ", "marks": ["i"] },
+      " ",
       { "text": "the Father", "marks": ["i"], "strong": "G3962" },
-      { "text": " ", "marks": ["i"] },
+      " ",
       {
         "content": [{ "text": "also", "marks": ["i"] }, "."],
         "strong": "G2532"
@@ -939,7 +948,7 @@
       { "text": " hath promised", "strong": "G1861", "morph": "AorMidDepInd" },
       { "text": " us,", "strong": "G2254" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " eternal"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " eternal"],
         "strong": "G166"
       },
       { "text": " life.", "strong": "G2222" }
@@ -1360,7 +1369,7 @@
       { "text": " as", "strong": "G2531" },
       { "text": " Cain,", "strong": "G2535" },
       {
-        "content": [{ "text": " who", "marks": ["i"] }, " was"],
+        "content": [" ", { "text": "who", "marks": ["i"] }, " was"],
         "strong": "G2258",
         "morph": "ImpfInd"
       },
@@ -1425,7 +1434,7 @@
       { "text": " He that loveth", "strong": "G25", "morph": "PresActPtc" },
       { "text": " not", "strong": "G3361" },
       {
-        "content": [{ "text": " his", "marks": ["i"] }, " brother"],
+        "content": [" ", { "text": "his", "marks": ["i"] }, " brother"],
         "strong": "G80"
       },
       { "text": " abideth", "strong": "G3306", "morph": "PresActInd" },
@@ -1468,7 +1477,7 @@
       { "text": " perceive we", "strong": "G1097", "morph": "PerfActInd" },
       { "text": " the love", "strong": "G26" },
       {
-        "content": [{ "text": " of God", "marks": ["i"] }, ", because"],
+        "content": [" ", { "text": "of God", "marks": ["i"] }, ", because"],
         "strong": "G3754"
       },
       { "text": " he", "strong": "G1565" },
@@ -1482,7 +1491,7 @@
       { "text": " ought", "strong": "G3784", "morph": "PresActInd" },
       { "text": " to lay down", "strong": "G5087", "morph": "PresActInf" },
       {
-        "content": [{ "text": " our", "marks": ["i"] }, " lives"],
+        "content": [" ", { "text": "our", "marks": ["i"] }, " lives"],
         "strong": "G5590"
       },
       { "text": " for", "strong": "G5228" },
@@ -1511,7 +1520,7 @@
       { "text": " his", "strong": "G846" },
       { "text": " bowels", "strong": "G4698" },
       {
-        "content": [{ "text": " of compassion", "marks": ["i"] }, " from"],
+        "content": [" ", { "text": "of compassion", "marks": ["i"] }, " from"],
         "strong": "G575"
       },
       { "text": " him,", "strong": "G846" },
@@ -1605,7 +1614,7 @@
       { "text": " us", "strong": "G2257" },
       { "text": " not,", "strong": "G3362" },
       {
-        "content": [{ "text": " then", "marks": ["i"] }, " have we"],
+        "content": [" ", { "text": "then", "marks": ["i"] }, " have we"],
         "strong": "G2192",
         "morph": "PresActInd"
       },
@@ -1962,7 +1971,11 @@
       { "text": " his", "strong": "G846" },
       { "text": " Son", "strong": "G5207" },
       {
-        "content": [{ "text": " to be", "marks": ["i"] }, " the propitiation"],
+        "content": [
+          " ",
+          { "text": "to be", "marks": ["i"] },
+          " the propitiation"
+        ],
         "strong": "G2434"
       },
       { "text": " for", "strong": "G4012" },
@@ -2052,7 +2065,7 @@
       { "text": " sent", "strong": "G649", "morph": "PerfActInd" },
       { "text": " the Son", "strong": "G5207" },
       {
-        "content": [{ "text": " to be", "marks": ["i"] }, " the Saviour"],
+        "content": [" ", { "text": "to be", "marks": ["i"] }, " the Saviour"],
         "strong": "G4990"
       },
       { "text": " of the world.", "strong": "G2889" }
@@ -2338,7 +2351,7 @@
       { "text": " that overcometh", "strong": "G3528", "morph": "AorActPtc" },
       { "text": " the world,", "strong": "G2889" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " our"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " our"],
         "strong": "G2257"
       },
       { "text": " faith.", "strong": "G4102" }
@@ -2383,7 +2396,7 @@
       { "text": " and", "strong": "G2532" },
       { "text": " blood,", "strong": "G129" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " Jesus"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " Jesus"],
         "strong": "G2424"
       },
       { "text": " Christ;", "strong": "G5547" },
@@ -2559,7 +2572,7 @@
       { "text": " hath", "strong": "G2192", "morph": "PresActInd" },
       { "text": " life;", "strong": "G2222" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " he that hath"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " he that hath"],
         "strong": "G2192",
         "morph": "PresActPtc"
       },
@@ -2667,7 +2680,7 @@
       { "text": " sin", "strong": "G264", "morph": "PresActPtc" },
       { "text": " a sin", "strong": "G266" },
       {
-        "content": [{ "text": " which is", "marks": ["i"] }, " not"],
+        "content": [" ", { "text": "which is", "marks": ["i"] }, " not"],
         "strong": "G3361"
       },
       { "text": " unto", "strong": "G4314" },
@@ -2790,7 +2803,7 @@
       { "text": " in", "strong": "G1722" },
       { "text": " him that is true,", "strong": "G228" },
       {
-        "content": [{ "text": " even", "marks": ["i"] }, " in"],
+        "content": [" ", { "text": "even", "marks": ["i"] }, " in"],
         "strong": "G1722"
       },
       { "text": " his", "strong": "G846" },

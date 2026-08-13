@@ -83,8 +83,9 @@
       },
       {
         "content": [
+          " ",
           {
-            "text": " the punishment",
+            "text": "the punishment",
             "marks": ["i"],
             "foot": {
               "type": "trn",
@@ -198,7 +199,8 @@
       },
       {
         "content": [
-          { "text": " the punishment", "marks": ["i"] },
+          " ",
+          { "text": "the punishment", "marks": ["i"] },
           " thereof; because they carried away captive"
         ],
         "strong": "H1540",
@@ -265,7 +267,7 @@
       { "text": " saith", "strong": "H559", "morph": "QalPerf" },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, "."],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, "."],
         "strong": "H3069"
       }
     ]
@@ -297,7 +299,8 @@
       },
       {
         "content": [
-          { "text": " the punishment", "marks": ["i"] },
+          " ",
+          { "text": "the punishment", "marks": ["i"] },
           " thereof; because they delivered up"
         ],
         "strong": "H5462",
@@ -362,7 +365,8 @@
       },
       {
         "content": [
-          { "text": " the punishment", "marks": ["i"] },
+          " ",
+          { "text": "the punishment", "marks": ["i"] },
           " thereof; because he did pursue"
         ],
         "strong": "H7291",
@@ -431,7 +435,8 @@
       },
       {
         "content": [
-          { "text": " the punishment", "marks": ["i"] },
+          " ",
+          { "text": "the punishment", "marks": ["i"] },
           " thereof; because they have ripped up"
         ],
         "strong": "H1234",
@@ -510,7 +515,8 @@
       },
       {
         "content": [
-          { "text": " the punishment", "marks": ["i"] },
+          " ",
+          { "text": "the punishment", "marks": ["i"] },
           " thereof; because he burned"
         ],
         "strong": "H8313",
@@ -539,7 +545,7 @@
       { "text": " with tumult,", "strong": "H7588" },
       { "text": " with shouting,", "strong": "H8643" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " with the sound"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " with the sound"],
         "strong": "H6963"
       },
       { "text": " of the trumpet:", "strong": "H7782" }
@@ -597,7 +603,8 @@
       },
       {
         "content": [
-          { "text": " the punishment", "marks": ["i"] },
+          " ",
+          { "text": "the punishment", "marks": ["i"] },
           " thereof; because they have despised"
         ],
         "strong": "H3988",
@@ -661,7 +668,8 @@
       },
       {
         "content": [
-          { "text": " the punishment", "marks": ["i"] },
+          " ",
+          { "text": "the punishment", "marks": ["i"] },
           " thereof; because they sold"
         ],
         "strong": "H4376",
@@ -743,7 +751,7 @@
         "morph": "QalPasPtc"
       },
       {
-        "content": [{ "text": " in", "marks": ["i"] }, " the house"],
+        "content": [" ", { "text": "in", "marks": ["i"] }, " the house"],
         "strong": "H1004"
       },
       { "text": " of their god.", "strong": "H430" }
@@ -764,7 +772,7 @@
       { "text": " before", "strong": "H6440" },
       { "text": " them, whose height", "strong": "H1363" },
       {
-        "content": [{ "text": " was", "marks": ["i"] }, " like the height"],
+        "content": [" ", { "text": "was", "marks": ["i"] }, " like the height"],
         "strong": "H1363"
       },
       { "text": " of the cedars,", "strong": "H730" },
@@ -813,7 +821,8 @@
       { "text": " for Nazarites.", "strong": "H5139" },
       {
         "content": [
-          { "text": " Is it", "marks": ["i"] },
+          " ",
+          { "text": "Is it", "marks": ["i"] },
           " not even thus, O ye children"
         ],
         "strong": "H1121"
@@ -855,7 +864,7 @@
       { "text": " under you, as a cart", "strong": "H5699" },
       { "text": " is pressed", "strong": "H5781", "morph": "HiphImpf" },
       {
-        "content": [{ "text": " that is", "marks": ["i"] }, " full"],
+        "content": [" ", { "text": "that is", "marks": ["i"] }, " full"],
         "strong": "H4392"
       },
       {
@@ -930,7 +939,8 @@
       { "text": " shall not deliver", "strong": "H4422", "morph": "PielImpf" },
       {
         "content": [
-          { "text": " himself:", "marks": ["i"] },
+          " ",
+          { "text": "himself:", "marks": ["i"] },
           " neither shall he that rideth"
         ],
         "strong": "H7392",
@@ -1078,7 +1088,8 @@
       { "text": " where no gin", "strong": "H4170" },
       {
         "content": [
-          { "text": " is", "marks": ["i"] },
+          " ",
+          { "text": "is", "marks": ["i"] },
           " for him? shall ",
           { "text": "one", "marks": ["i"] },
           " take up"
@@ -1117,8 +1128,9 @@
         "strong": "H3068"
       },
       { "text": " hath not done", "strong": "H6213", "morph": "QalPerf" },
+      " ",
       {
-        "text": " it?",
+        "text": "it?",
         "marks": ["i"],
         "foot": {
           "type": "trn",
@@ -1136,7 +1148,8 @@
     "verse": 7,
     "content": [
       { "text": "Surely the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " will do", "strong": "H6213", "morph": "QalImpf" },
       { "text": " nothing,", "strong": "H1697" },
       { "text": " but he revealeth", "strong": "H1540", "morph": "QalPerf" },
@@ -1155,7 +1168,8 @@
       { "text": " who will not", "strong": "H3808" },
       { "text": " fear?", "strong": "H3372", "morph": "QalImpf" },
       { "text": " the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " hath spoken,", "strong": "H1696", "morph": "PielPerf" },
       {
         "text": " who can but prophesy?",
@@ -1234,13 +1248,14 @@
       { "text": "Therefore thus saith", "strong": "H559", "morph": "QalPerf" },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, ";"],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, ";"],
         "strong": "H3069"
       },
       { "text": " An adversary", "strong": "H6862" },
       {
         "content": [
-          { "text": " there shall be", "marks": ["i"] },
+          " ",
+          { "text": "there shall be", "marks": ["i"] },
           " even round about"
         ],
         "strong": "H5439"
@@ -1297,7 +1312,8 @@
       { "text": " and in Damascus", "strong": "H1833" },
       {
         "content": [
-          { "text": " in", "marks": ["i"] },
+          " ",
+          { "text": "in", "marks": ["i"] },
           {
             "text": " a couch.",
             "foot": {
@@ -1330,7 +1346,7 @@
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, ","],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, ","],
         "strong": "H3069"
       },
       { "text": " the God", "strong": "H430" },
@@ -1430,7 +1446,8 @@
     "verse": 2,
     "content": [
       { "text": "The Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " hath sworn", "strong": "H7650", "morph": "NiphPerf" },
       { "text": " by his holiness,", "strong": "H6944" },
       { "text": " that, lo, the days", "strong": "H3117" },
@@ -1456,14 +1473,19 @@
       { "text": " every", "strong": "H802" },
       {
         "content": [
-          { "text": " cow at that which is", "marks": ["i"] },
+          " ",
+          { "text": "cow at that which is", "marks": ["i"] },
           " before her; and ye shall cast"
         ],
         "strong": "H7993",
         "morph": "HiphPerf"
       },
       {
-        "content": [{ "text": " them", "marks": ["i"] }, " into the palace,"],
+        "content": [
+          " ",
+          { "text": "them", "marks": ["i"] },
+          " into the palace,"
+        ],
         "strong": "H2038"
       },
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
@@ -1493,7 +1515,7 @@
       { "text": " your sacrifices", "strong": "H2077" },
       { "text": " every morning,", "strong": "H1242" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " your tithes"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " your tithes"],
         "strong": "H4643"
       },
       { "text": " after three", "strong": "H7969" },
@@ -1535,7 +1557,7 @@
       { "text": " with leaven,", "strong": "H2557" },
       { "text": " and proclaim", "strong": "H7121", "morph": "QalImpv" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " publish"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " publish"],
         "strong": "H8085",
         "morph": "HiphImpv"
       },
@@ -1555,7 +1577,7 @@
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, "."],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, "."],
         "strong": "H3069"
       }
     ]
@@ -1643,7 +1665,7 @@
     "content": [
       { "text": "So two", "strong": "H8147" },
       {
-        "content": [{ "text": " or", "marks": ["i"] }, " three"],
+        "content": [" ", { "text": "or", "marks": ["i"] }, " three"],
         "strong": "H7969"
       },
       { "text": " cities", "strong": "H5892" },
@@ -1686,7 +1708,8 @@
       { "text": " devoured", "strong": "H398", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " them:", "marks": ["i"] },
+          " ",
+          { "text": "them:", "marks": ["i"] },
           " yet have ye not returned"
         ],
         "strong": "H7725",
@@ -1758,7 +1781,7 @@
         "morph": "QalPerf"
       },
       {
-        "content": [{ "text": " some", "marks": ["i"] }, " of you, as God"],
+        "content": [" ", { "text": "some", "marks": ["i"] }, " of you, as God"],
         "strong": "H430"
       },
       { "text": " overthrew", "strong": "H4114" },
@@ -1792,7 +1815,7 @@
       },
       { "text": " unto thee, O Israel:", "strong": "H3478" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " because"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " because"],
         "strong": "H6118"
       },
       { "text": " I will do", "strong": "H6213", "morph": "QalImpf" },
@@ -1849,7 +1872,7 @@
       { "text": " The God", "strong": "H430" },
       { "text": " of hosts,", "strong": "H6635" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his name."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his name."],
         "strong": "H8034"
       }
     ]
@@ -1894,7 +1917,8 @@
       { "text": " upon her land;", "strong": "H127" },
       {
         "content": [
-          { "text": " there is", "marks": ["i"] },
+          " ",
+          { "text": "there is", "marks": ["i"] },
           " none to raise her up."
         ],
         "strong": "H6965",
@@ -1910,13 +1934,13 @@
       { "text": "For thus saith", "strong": "H559", "morph": "QalPerf" },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, ";"],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, ";"],
         "strong": "H3069"
       },
       { "text": " The city", "strong": "H5892" },
       { "text": " that went out", "strong": "H3318", "morph": "QalActPtc" },
       {
-        "content": [{ "text": " by", "marks": ["i"] }, " a thousand"],
+        "content": [" ", { "text": "by", "marks": ["i"] }, " a thousand"],
         "strong": "H505"
       },
       { "text": " shall leave", "strong": "H7604", "morph": "HiphImpf" },
@@ -1927,7 +1951,7 @@
         "morph": "QalActPtc"
       },
       {
-        "content": [{ "text": " by", "marks": ["i"] }, " an hundred"],
+        "content": [" ", { "text": "by", "marks": ["i"] }, " an hundred"],
         "strong": "H3967"
       },
       { "text": " shall leave", "strong": "H7604", "morph": "HiphImpf" },
@@ -1997,7 +2021,8 @@
       { "text": " and devour", "strong": "H398", "morph": "QalPerf" },
       {
         "content": [
-          { "text": " it", "marks": ["i"] },
+          " ",
+          { "text": "it", "marks": ["i"] },
           ", and ",
           { "text": "there be", "marks": ["i"] },
           " none to quench"
@@ -2006,7 +2031,7 @@
         "morph": "PielPtc"
       },
       {
-        "content": [{ "text": " it", "marks": ["i"] }, " in Beth-el."],
+        "content": [" ", { "text": "it", "marks": ["i"] }, " in Beth-el."],
         "strong": "H1008"
       }
     ]
@@ -2057,7 +2082,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his name:"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his name:"],
         "strong": "H8034"
       }
     ]
@@ -2112,7 +2137,7 @@
         "morph": "PoelInf"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " upon the poor,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " upon the poor,"],
         "strong": "H1800"
       },
       { "text": " and ye take", "strong": "H3947", "morph": "QalImpf" },
@@ -2180,7 +2205,8 @@
       },
       { "text": " the poor", "strong": "H34" },
       { "text": " in the gate", "strong": "H8179" },
-      { "text": " from their right", "marks": ["i"] },
+      " ",
+      { "text": "from their right", "marks": ["i"] },
       "."
     ]
   },
@@ -2273,7 +2299,8 @@
       { "text": " thus; Wailing", "strong": "H4553" },
       {
         "content": [
-          { "text": " shall be", "marks": ["i"] },
+          " ",
+          { "text": "shall be", "marks": ["i"] },
           " in all streets;"
         ],
         "strong": "H7339"
@@ -2301,7 +2328,7 @@
     "content": [
       { "text": "And in all vineyards", "strong": "H3754" },
       {
-        "content": [{ "text": " shall be", "marks": ["i"] }, " wailing:"],
+        "content": [" ", { "text": "shall be", "marks": ["i"] }, " wailing:"],
         "strong": "H4553"
       },
       { "text": " for I will pass", "strong": "H5674", "morph": "QalImpf" },
@@ -2327,7 +2354,11 @@
       },
       { "text": " to what end", "strong": "H4100" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " it for you? the day"],
+        "content": [
+          " ",
+          { "text": "is", "marks": ["i"] },
+          " it for you? the day"
+        ],
         "strong": "H3117"
       },
       {
@@ -2335,7 +2366,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " darkness,"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " darkness,"],
         "strong": "H2822"
       },
       { "text": " and not light.", "strong": "H216" }
@@ -2376,7 +2407,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " be", "marks": ["i"] }, " darkness,"],
+        "content": [" ", { "text": "be", "marks": ["i"] }, " darkness,"],
         "strong": "H2822"
       },
       { "text": " and not light?", "strong": "H216" },
@@ -2427,7 +2458,8 @@
       { "text": " I will not accept", "strong": "H7521", "morph": "QalImpf" },
       {
         "content": [
-          { "text": " them:", "marks": ["i"] },
+          " ",
+          { "text": "them:", "marks": ["i"] },
           " neither will I regard"
         ],
         "strong": "H5027",
@@ -2545,7 +2577,7 @@
       },
       { "text": " whose name", "strong": "H8034" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " The God"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " The God"],
         "strong": "H430"
       },
       { "text": " of hosts.", "strong": "H6635" }
@@ -2577,7 +2609,7 @@
       { "text": " in the mountain", "strong": "H2022" },
       { "text": " of Samaria,", "strong": "H8111" },
       {
-        "content": [{ "text": " which are", "marks": ["i"] }, " named"],
+        "content": [" ", { "text": "which are", "marks": ["i"] }, " named"],
         "strong": "H5344",
         "morph": "QalPasPtc"
       },
@@ -2611,7 +2643,7 @@
       { "text": " to Gath", "strong": "H1661" },
       { "text": " of the Philistines:", "strong": "H6430" },
       {
-        "content": [{ "text": " be they", "marks": ["i"] }, " better"],
+        "content": [" ", { "text": "be they", "marks": ["i"] }, " better"],
         "strong": "H2896"
       },
       { "text": " than these kingdoms?", "strong": "H4467" },
@@ -2691,7 +2723,7 @@
       { "text": " to the sound", "strong": "H6310" },
       { "text": " of the viol,", "strong": "H5035" },
       {
-        "content": [{ "text": " and", "marks": ["i"] }, " invent"],
+        "content": [" ", { "text": "and", "marks": ["i"] }, " invent"],
         "strong": "H2803",
         "morph": "QalPerf"
       },
@@ -2759,7 +2791,8 @@
     "verse": 8,
     "content": [
       { "text": "The Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " hath sworn", "strong": "H7650", "morph": "NiphPerf" },
       { "text": " by himself,", "strong": "H5315" },
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
@@ -2833,7 +2866,8 @@
       { "text": " of the house,", "strong": "H1004" },
       {
         "content": [
-          { "text": " Is there", "marks": ["i"] },
+          " ",
+          { "text": "Is there", "marks": ["i"] },
           " yet ",
           { "text": "any", "marks": ["i"] },
           " with thee? and he shall say,"
@@ -2896,7 +2930,7 @@
         "morph": "QalImpf"
       },
       {
-        "content": [{ "text": " there", "marks": ["i"] }, " with oxen?"],
+        "content": [" ", { "text": "there", "marks": ["i"] }, " with oxen?"],
         "strong": "H1241"
       },
       { "text": " for ye have turned", "strong": "H2015", "morph": "QalPerf" },
@@ -2971,7 +3005,8 @@
       { "heading": "Visions of Judgement" },
       { "heading": "Locusts" },
       { "paragraph": true, "text": "Thus hath the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " shewed", "strong": "H7200", "morph": "HiphPerf" },
       {
         "text": " unto me; and, behold, he formed",
@@ -3022,7 +3057,7 @@
       { "text": " then I said,", "strong": "H559", "morph": "QalImpf" },
       { "text": " O Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, ","],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, ","],
         "strong": "H3069"
       },
       { "text": " forgive,", "strong": "H5545", "morph": "QalImpv" },
@@ -3073,10 +3108,12 @@
     "content": [
       { "heading": "Fire" },
       { "paragraph": true, "text": "Thus hath the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " shewed", "strong": "H7200", "morph": "HiphPerf" },
       { "text": " unto me: and, behold, the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " called", "strong": "H7121", "morph": "QalActPtc" },
       { "text": " to contend", "strong": "H7378", "morph": "QalInf" },
       { "text": " by fire,", "strong": "H784" },
@@ -3095,7 +3132,7 @@
       { "text": "Then said", "strong": "H559", "morph": "QalImpf" },
       { "text": " I, O Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, ","],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, ","],
         "strong": "H3069"
       },
       { "text": " cease,", "strong": "H2308", "morph": "QalImpv" },
@@ -3124,7 +3161,7 @@
       },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, "."],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, "."],
         "strong": "H3069"
       }
     ]
@@ -3145,7 +3182,11 @@
       { "text": " stood", "strong": "H5324", "morph": "NiphPtc" },
       { "text": " upon a wall", "strong": "H2346" },
       {
-        "content": [{ "text": " made", "marks": ["i"] }, " by a plumbline,"],
+        "content": [
+          " ",
+          { "text": "made", "marks": ["i"] },
+          " by a plumbline,"
+        ],
         "strong": "H594"
       },
       { "text": " with a plumbline", "strong": "H594" },
@@ -3430,7 +3471,8 @@
     "content": [
       { "heading": "A Basket of Fruit" },
       { "paragraph": true, "text": "Thus hath the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " shewed", "strong": "H7200", "morph": "HiphPerf" },
       { "text": " unto me: and behold a basket", "strong": "H3619" },
       { "text": " of summer fruit.", "strong": "H7019" }
@@ -3481,11 +3523,11 @@
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, ":"],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, ":"],
         "strong": "H3069"
       },
       {
-        "content": [{ "text": " there shall be", "marks": ["i"] }, " many"],
+        "content": [" ", { "text": "there shall be", "marks": ["i"] }, " many"],
         "strong": "H7227"
       },
       { "text": " dead bodies", "strong": "H6297" },
@@ -3592,7 +3634,7 @@
       { "text": " and the needy", "strong": "H34" },
       { "text": " for a pair of shoes;", "strong": "H5275" },
       {
-        "content": [{ "text": " yea", "marks": ["i"] }, ", and sell"],
+        "content": [" ", { "text": "yea", "marks": ["i"] }, ", and sell"],
         "strong": "H7666",
         "morph": "HiphImpf"
       },
@@ -3659,7 +3701,7 @@
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, ","],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, ","],
         "strong": "H3069"
       },
       { "text": " that I will cause the sun", "strong": "H8121" },
@@ -3694,7 +3736,7 @@
       { "text": " it as the mourning", "strong": "H60" },
       { "text": " of an only", "strong": "H3173" },
       {
-        "content": [{ "text": " son", "marks": ["i"] }, ", and the end"],
+        "content": [" ", { "text": "son", "marks": ["i"] }, ", and the end"],
         "strong": "H319"
       },
       { "text": " thereof as a bitter", "strong": "H4751" },
@@ -3711,7 +3753,7 @@
       { "text": " saith", "strong": "H5002", "morph": "QalPasPtc" },
       { "text": " the Lord", "strong": "H136" },
       {
-        "content": [{ "text": " GOD", "marks": ["sc"] }, ","],
+        "content": [" ", { "text": "GOD", "marks": ["sc"] }, ","],
         "strong": "H3069"
       },
       { "text": " that I will send", "strong": "H7971", "morph": "HiphPerf" },
@@ -3755,7 +3797,8 @@
         "strong": "H3068"
       },
       { "text": " and shall not find", "strong": "H4672", "morph": "QalImpf" },
-      { "text": " it", "marks": ["i"] },
+      " ",
+      { "text": "it", "marks": ["i"] },
       "."
     ]
   },
@@ -3954,10 +3997,11 @@
     "verse": 5,
     "content": [
       { "paragraph": true, "text": "And the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       { "text": " of hosts", "strong": "H6635" },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " he that toucheth"],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " he that toucheth"],
         "strong": "H5060",
         "morph": "QalActPtc"
       },
@@ -4027,7 +4071,7 @@
         "strong": "H3068"
       },
       {
-        "content": [{ "text": " is", "marks": ["i"] }, " his name."],
+        "content": [" ", { "text": "is", "marks": ["i"] }, " his name."],
         "strong": "H8034"
       }
     ]
@@ -4071,9 +4115,10 @@
     "content": [
       { "text": "Behold, the eyes", "strong": "H5869" },
       { "text": " of the Lord", "strong": "H136" },
-      { "text": " GOD", "marks": ["sc"], "strong": "H3069" },
+      " ",
+      { "text": "GOD", "marks": ["sc"], "strong": "H3069" },
       {
-        "content": [{ "text": " are", "marks": ["i"] }, " upon the sinful"],
+        "content": [" ", { "text": "are", "marks": ["i"] }, " upon the sinful"],
         "strong": "H2403"
       },
       { "text": " kingdom,", "strong": "H4467" },
@@ -4290,7 +4335,8 @@
       { "text": " and inhabit", "strong": "H3427", "morph": "QalPerf" },
       {
         "content": [
-          { "text": " them", "marks": ["i"] },
+          " ",
+          { "text": "them", "marks": ["i"] },
           "; and they shall plant"
         ],
         "strong": "H5193",
