@@ -1277,7 +1277,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 
 ## Chapter 34
 
-### The Day of the Lord
+### The Day of the LORD
 
 <sup>1</sup> Come near, ye nations, to hear; and hearken, ye people: let the earth hear, and all that is therein;<sup>a</sup> the world, and all things that come forth of it.
 <sup>2</sup> For the indignation of the LORD _is_ upon all nations, and _his_ fury upon all their armies: he hath utterly destroyed them, he hath delivered them to the slaughter.
@@ -1311,7 +1311,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 
 ## Chapter 35
 
-### The Glory of the Lord
+### The Glory of the LORD
 
 <sup>1</sup> The wilderness and the solitary place shall be glad for them; and the desert shall rejoice, and blossom as the rose.
 <sup>2</sup> It shall blossom abundantly, and rejoice even with joy and singing: the glory of Lebanon shall be given unto it, the excellency of Carmel and Sharon, they shall see the glory of the LORD, _and_ the excellency of our God.
@@ -1961,7 +1961,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 <sup>7</sup> Hearken unto me, ye that know righteousness, the people in whose heart _is_ my law; fear ye not the reproach of men, neither be ye afraid of their revilings.
 <sup>8</sup> For the moth shall eat them up like a garment, and the worm shall eat them like wool: but my righteousness shall be for ever, and my salvation from generation to generation.
 
-### The Arm of the Lord
+### The Arm of the LORD
 
 <sup>9</sup> Awake, awake, put on strength, O arm of the LORD; awake, as in the ancient days, in the generations of old. _Art_ thou not it that hath cut Rahab, _and_ wounded the dragon?
 <sup>10</sup> _Art_ thou not it which hath dried the sea, the waters of the great deep; that hath made the depths of the sea a way for the ransomed to pass over?
@@ -2253,7 +2253,7 @@ Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no 
 
 ## Chapter 61
 
-### The Lord’s Anointed
+### The LORD’s Anointed
 
 <sup>1</sup> The Spirit of the Lord GOD _is_ upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to _them that are_ bound;
 <sup>2</sup> to proclaim the acceptable year of the LORD, and the day of vengeance of our God; to comfort all that mourn;

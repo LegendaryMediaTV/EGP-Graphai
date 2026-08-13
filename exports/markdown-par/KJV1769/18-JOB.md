@@ -1569,7 +1569,7 @@ The words of Job are ended.
 <sup>4</sup> Behold, I am vile; what shall I answer thee?<br>I will lay mine hand upon my mouth.<br>
 <sup>5</sup> Once have I spoken; but I will not answer:<br>Yea, twice; but I will proceed no further.<br>
 
-### The Lord’s Answer
+### The LORD’s Answer
 
 <sup>6</sup> Then answered the LORD unto Job out of the whirlwind, and said,<br>
 <sup>7</sup> Gird up thy loins now like a man:<br>I will demand of thee, and declare thou unto me.<br>

@@ -4,7 +4,7 @@
 
 <sup>1</sup> The word of the LORD which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hizkiah, in the days of Josiah the son of Amon, king of Judah.
 
-### The Day of the Lord
+### The Day of the LORD
 
 <sup>2</sup> I will utterly consume<sup>a</sup> all _things_ from off the land,<sup>b</sup> saith the LORD.
 <sup>3</sup> I will consume man and beast; I will consume the fowls of the heaven, and the fishes of the sea, and the stumblingblocks<sup>c</sup> with the wicked; and I will cut off man from off the land, saith the LORD.

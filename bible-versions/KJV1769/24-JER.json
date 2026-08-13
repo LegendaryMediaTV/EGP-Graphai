@@ -485,7 +485,13 @@
     "chapter": 2,
     "verse": 1,
     "content": [
-      { "heading": "The Word of the Lord to Judah" },
+      {
+        "heading": [
+          "The Word of the ",
+          { "text": "Lord", "marks": ["sc"] },
+          " to Judah"
+        ]
+      },
       { "paragraph": true, "text": "Moreover the word", "strong": "H1697" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
@@ -3691,7 +3697,7 @@
     "chapter": 5,
     "verse": 14,
     "content": [
-      { "heading": "The Lord’s Agents" },
+      { "heading": ["The ", { "text": "Lord", "marks": ["sc"] }, "’s Agents"] },
       {
         "paragraph": true,
         "text": "Wherefore thus saith",
@@ -12469,7 +12475,7 @@
     "chapter": 17,
     "verse": 5,
     "content": [
-      { "heading": "Trust in the Lord" },
+      { "heading": ["Trust in the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "text": "Thus saith",
@@ -33142,7 +33148,7 @@
     "chapter": 46,
     "verse": 10,
     "content": [
-      { "heading": "The Day of the Lord" },
+      { "heading": ["The Day of the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "content": ["For this ", { "text": "is", "marks": ["i"] }, " the day"],

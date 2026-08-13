@@ -10850,7 +10850,13 @@
     "chapter": 13,
     "verse": 1,
     "content": [
-      { "heading": "The Ark of the Lord is brought to Jerusalem" },
+      {
+        "heading": [
+          "The Ark of the ",
+          { "text": "Lord", "marks": ["sc"] },
+          " is brought to Jerusalem"
+        ]
+      },
       { "heading": "A Solemn Journey" },
       { "paragraph": true, "text": "And David", "strong": "H1732" },
       { "text": " consulted", "strong": "H3289", "morph": "NiphImpf" },
@@ -11674,7 +11680,7 @@
     "chapter": 15,
     "verse": 1,
     "content": [
-      { "heading": "The Ark of the Lord" },
+      { "heading": ["The Ark of the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "content": ["And ", { "text": "David", "marks": ["i"] }, " made"],
@@ -13345,7 +13351,7 @@
     "chapter": 17,
     "verse": 1,
     "content": [
-      { "heading": "The House of the Lord" },
+      { "heading": ["The House of the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "text": "Now it came to pass, as David",
@@ -15968,7 +15974,9 @@
     "chapter": 21,
     "verse": 18,
     "content": [
-      { "heading": "An Altar unto the Lord" },
+      {
+        "heading": ["An Altar unto the ", { "text": "Lord", "marks": ["sc"] }]
+      },
       { "paragraph": true, "text": "Then the angel", "strong": "H4397" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],

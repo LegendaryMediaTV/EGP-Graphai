@@ -4028,7 +4028,7 @@
     "chapter": 7,
     "verse": 1,
     "content": [
-      { "heading": "The Glory of the Lord" },
+      { "heading": ["The Glory of the ", { "text": "Lord", "marks": ["sc"] }] },
       { "paragraph": true, "text": "Now when Solomon", "strong": "H8010" },
       { "text": " had made an end", "strong": "H3615", "morph": "PielInf" },
       { "text": " of praying,", "strong": "H6419", "morph": "HithInf" },

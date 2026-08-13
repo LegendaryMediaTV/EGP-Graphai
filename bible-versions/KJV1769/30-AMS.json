@@ -3844,7 +3844,13 @@
     "chapter": 9,
     "verse": 1,
     "content": [
-      { "heading": "The Lord at the Altar" },
+      {
+        "heading": [
+          "The ",
+          { "text": "Lord", "marks": ["sc"] },
+          " at the Altar"
+        ]
+      },
       {
         "paragraph": true,
         "text": "I saw",

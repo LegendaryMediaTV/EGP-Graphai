@@ -23382,7 +23382,7 @@
     "chapter": 40,
     "verse": 6,
     "content": [
-      { "heading": "The Lord’s Answer" },
+      { "heading": ["The ", { "text": "Lord", "marks": ["sc"] }, "’s Answer"] },
       {
         "paragraph": true,
         "text": "Then answered",

@@ -1064,7 +1064,7 @@
     "chapter": 3,
     "verse": 1,
     "content": [
-      { "heading": "The Angel of the Lord" },
+      { "heading": ["The Angel of the ", { "text": "Lord", "marks": ["sc"] }] },
       { "paragraph": true, "text": "Now Moses", "strong": "H4872" },
       { "text": " kept", "strong": "H1961", "morph": "QalPerf" },
       { "strong": "H7462", "morph": "QalActPtc" },

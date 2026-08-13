@@ -69,7 +69,7 @@
 
 ## Chapter 3
 
-### The Angel of the Lord
+### The Angel of the LORD
 
 <sup>1</sup> Now Moses kept the flock of Jethro his father in law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, _even_ to Horeb.
 <sup>2</sup> And the angel of the LORD appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush _was_ not consumed.

@@ -287,7 +287,7 @@
 
 ## Chapter 9
 
-### The Lord at the Altar
+### The LORD at the Altar
 
 <sup>1</sup> I saw the Lord standing upon the altar: and he said, Smite the lintel<sup>a</sup> of the door, that the posts may shake: and cut them<sup>b</sup> in the head, all of them; and I will slay the last of them with the sword: he that fleeth of them shall not flee away, and he that escapeth of them shall not be delivered.
 <sup>2</sup> Though they dig into hell, thence shall mine hand take them; though they climb up to heaven, thence will I bring them down:

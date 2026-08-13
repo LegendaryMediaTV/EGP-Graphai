@@ -18943,7 +18943,7 @@
     "chapter": 34,
     "verse": 1,
     "content": [
-      { "heading": "The Day of the Lord" },
+      { "heading": ["The Day of the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "text": "Come near,",
@@ -19415,7 +19415,7 @@
     "chapter": 35,
     "verse": 1,
     "content": [
-      { "heading": "The Glory of the Lord" },
+      { "heading": ["The Glory of the ", { "text": "Lord", "marks": ["sc"] }] },
       { "paragraph": true, "text": "The wilderness", "strong": "H4057" },
       { "text": " and the solitary place", "strong": "H6723" },
       { "text": " shall be glad", "strong": "H7797", "morph": "QalImpf" },
@@ -30449,7 +30449,7 @@
     "chapter": 51,
     "verse": 9,
     "content": [
-      { "heading": "The Arm of the Lord" },
+      { "heading": ["The Arm of the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "text": "Awake,",
@@ -35475,7 +35475,9 @@
     "chapter": 61,
     "verse": 1,
     "content": [
-      { "heading": "The Lord’s Anointed" },
+      {
+        "heading": ["The ", { "text": "Lord", "marks": ["sc"] }, "’s Anointed"]
+      },
       { "paragraph": true, "text": "The Spirit", "strong": "H7307" },
       { "text": " of the Lord", "strong": "H136" },
       " ",

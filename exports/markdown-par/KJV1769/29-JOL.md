@@ -17,7 +17,7 @@
 <sup>11</sup> Be ye ashamed, O ye husbandmen; howl, O ye vinedressers, for the wheat and for the barley; because the harvest of the field is perished.
 <sup>12</sup> The vine is dried up, and the fig tree languisheth; the pomegranate tree, the palm tree also, and the apple tree, _even_ all the trees of the field, are withered: because joy is withered away from the sons of men.
 
-### The Day of the Lord
+### The Day of the LORD
 
 <sup>13</sup> Gird yourselves, and lament, ye priests: howl, ye ministers of the altar: come, lie all night in sackcloth, ye ministers of my God: for the meat offering and the drink offering is withholden from the house of your God.
 <sup>14</sup> Sanctify ye a fast, call a solemn assembly,<sup>d</sup> gather the elders _and_ all the inhabitants of the land _into_ the house of the LORD your God, and cry unto the LORD,

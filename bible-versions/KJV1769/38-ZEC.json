@@ -3597,7 +3597,7 @@
     "verse": 1,
     "content": [
       { "heading": "The City of God" },
-      { "heading": "Look to the Lord" },
+      { "heading": ["Look to the ", { "text": "Lord", "marks": ["sc"] }] },
       { "paragraph": true, "text": "The burden", "strong": "H4853" },
       { "text": " of the word", "strong": "H1697" },
       {
@@ -6128,7 +6128,7 @@
     "chapter": 14,
     "verse": 9,
     "content": [
-      { "heading": "Lord of All" },
+      { "heading": [{ "text": "Lord", "marks": ["sc"] }, " of All"] },
       {
         "paragraph": true,
         "content": ["And the ", { "text": "Lord", "marks": ["sc"] }],

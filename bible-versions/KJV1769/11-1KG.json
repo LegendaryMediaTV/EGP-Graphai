@@ -4832,7 +4832,7 @@
     "chapter": 6,
     "verse": 2,
     "content": [
-      { "heading": "The House of the Lord" },
+      { "heading": ["The House of the ", { "text": "Lord", "marks": ["sc"] }] },
       { "paragraph": true, "text": "And the house", "strong": "H1004" },
       { "text": " which king", "strong": "H4428" },
       { "text": " Solomon", "strong": "H8010" },

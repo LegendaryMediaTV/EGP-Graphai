@@ -31,7 +31,7 @@
 
 ## Chapter 2
 
-### The Word of the Lord to Judah
+### The Word of the LORD to Judah
 
 <sup>1</sup> Moreover the word of the LORD came to me, saying,
 <sup>2</sup> Go and cry in the ears of Jerusalem, saying, Thus saith the LORD; I remember thee,<sup>a</sup> the kindness of thy youth, the love of thine espousals, when thou wentest after me in the wilderness, in a land _that was_ not sown.
@@ -219,7 +219,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 <sup>12</sup> They have belied the LORD, and said, _It is_ not he; neither shall evil come upon us; neither shall we see sword nor famine:
 <sup>13</sup> and the prophets shall become wind, and the word _is_ not in them: thus shall it be done unto them.
 
-### The Lord’s Agents
+### The LORD’s Agents
 
 <sup>14</sup> Wherefore thus saith the LORD God of hosts, Because ye speak this word, behold, I will make my words in thy mouth fire, and this people wood, and it shall devour them.
 <sup>15</sup> Lo, I will bring a nation upon you from far, O house of Israel, saith the LORD: it _is_ a mighty nation, it _is_ an ancient nation, a nation whose language thou knowest not, neither understandest what they say.
@@ -735,7 +735,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 
 <sup>4</sup> And thou, even thyself,<sup>b</sup> shalt discontinue from thine heritage that I gave thee; and I will cause thee to serve thine enemies in the land which thou knowest not: for ye have kindled a fire in mine anger, _which_ shall burn for ever.
 
-### Trust in the Lord
+### Trust in the LORD
 
 <sup>5</sup> Thus saith the LORD; Cursed _be_ the man that trusteth in man, and maketh flesh his arm, and whose heart departeth from the LORD.
 <sup>6</sup> For he shall be like the heath in the desert, and shall not see when good cometh; but shall inhabit the parched places in the wilderness, _in_ a salt land and not inhabited.
@@ -1888,7 +1888,7 @@ Behold, we come unto thee; for thou _art_ the LORD our God.
 <sup>8</sup> Egypt riseth up like a flood, and _his_ waters are moved like the rivers; and he saith, I will go up, _and_ will cover the earth; I will destroy the city and the inhabitants thereof.
 <sup>9</sup> Come up, ye horses; and rage, ye chariots; and let the mighty men come forth; the Ethiopians<sup>c</sup> and the Libyans, that handle the shield; and the Lydians, that handle _and_ bend the bow.
 
-### The Day of the Lord
+### The Day of the LORD
 
 <sup>10</sup> For this _is_ the day of the Lord GOD of hosts, a day of vengeance, that he may avenge him of his adversaries: and the sword shall devour, and it shall be satiate and made drunk with their blood: for the Lord GOD of hosts hath a sacrifice in the north country by the river Euphrates.
 <sup>11</sup> Go up into Gilead, and take balm, O virgin, the daughter of Egypt: in vain shalt thou use many medicines; _for_ thou shalt not be cured.<sup>d</sup>

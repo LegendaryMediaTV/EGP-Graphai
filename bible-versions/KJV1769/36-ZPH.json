@@ -38,7 +38,7 @@
     "chapter": 1,
     "verse": 2,
     "content": [
-      { "heading": "The Day of the Lord" },
+      { "heading": ["The Day of the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "text": "I will utterly",

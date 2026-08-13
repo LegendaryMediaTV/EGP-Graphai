@@ -3672,7 +3672,7 @@
     "chapter": 6,
     "verse": 1,
     "content": [
-      { "heading": "The Ark of the Lord" },
+      { "heading": ["The Ark of the ", { "text": "Lord", "marks": ["sc"] }] },
       { "paragraph": true, "text": "Again, David", "strong": "H1732" },
       {
         "text": " gathered together",
@@ -4393,7 +4393,7 @@
     "chapter": 7,
     "verse": 1,
     "content": [
-      { "heading": "The House of the Lord" },
+      { "heading": ["The House of the ", { "text": "Lord", "marks": ["sc"] }] },
       {
         "paragraph": true,
         "text": "And it came to pass, when the king",
@@ -19609,7 +19609,9 @@
     "chapter": 24,
     "verse": 18,
     "content": [
-      { "heading": "An Altar unto the Lord" },
+      {
+        "heading": ["An Altar unto the ", { "text": "Lord", "marks": ["sc"] }]
+      },
       { "paragraph": true, "text": "And Gad", "strong": "H1410" },
       { "text": " came", "strong": "H935", "morph": "QalImpf" },
       { "text": " that day", "strong": "H3117" },

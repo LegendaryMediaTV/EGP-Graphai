@@ -1581,7 +1581,7 @@
 
 ## Chapter 37
 
-### The Breath of the Lord
+### The Breath of the LORD
 
 <sup>1</sup> The hand of the LORD was upon me, and carried me out in the spirit of the LORD, and set me down in the midst of the valley which _was_ full of bones,
 <sup>2</sup> and caused me to pass by them round about: and, behold, _there were_ very many in the open valley;<sup>a</sup> and, lo, _they were_ very dry.
@@ -1884,7 +1884,7 @@
 
 ## Chapter 43
 
-### The Return of the Lord
+### The Return of the LORD
 
 <sup>1</sup> Afterward he brought me to the gate, _even_ the gate that looketh toward the east:
 <sup>2</sup> and, behold, the glory of the God of Israel came from the way of the east: and his voice _was_ like a noise of many waters: and the earth shined with his glory.

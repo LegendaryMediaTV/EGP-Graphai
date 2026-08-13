@@ -244,7 +244,7 @@ And the word of the LORD came unto me, saying,
 ### The City of God
 
 
-### Look to the Lord
+### Look to the LORD
 
 <sup>1</sup> The burden of the word of the LORD in the land of Hadrach, and Damascus _shall be_ the rest thereof: when the eyes of man, as of all the tribes of Israel, _shall be_ toward the LORD.
 <sup>2</sup> And Hamath also shall border thereby; Tyrus, and Zidon, though it be very wise.
@@ -407,7 +407,7 @@ And the word of the LORD came unto me, saying,
 <sup>7</sup> but it shall be one day<sup>e</sup> which shall be known to the LORD, not day, nor night: but it shall come to pass, _that_ at evening time it shall be light.
 <sup>8</sup> And it shall be in that day, _that_ living waters shall go out from Jerusalem; half of them toward the former<sup>f</sup> sea, and half of them toward the hinder sea: in summer and in winter shall it be.
 
-### Lord of All
+### LORD of All
 
 <sup>9</sup> And the LORD shall be king over all the earth: in that day shall there be one LORD, and his name one.
 <sup>10</sup> All the land shall be turned<sup>g</sup> as a plain from Geba to Rimmon south of Jerusalem: and it shall be lifted up, and inhabited<sup>h</sup> in her place, from Benjamin’s gate unto the place of the first gate, unto the corner gate, and _from_ the tower of Hananeel unto the king’s winepresses.

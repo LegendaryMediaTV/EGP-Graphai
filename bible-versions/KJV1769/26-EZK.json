@@ -27652,7 +27652,9 @@
     "chapter": 37,
     "verse": 1,
     "content": [
-      { "heading": "The Breath of the Lord" },
+      {
+        "heading": ["The Breath of the ", { "text": "Lord", "marks": ["sc"] }]
+      },
       { "paragraph": true, "text": "The hand", "strong": "H3027" },
       {
         "content": [" of the ", { "text": "Lord", "marks": ["sc"] }],
@@ -33049,7 +33051,9 @@
     "chapter": 43,
     "verse": 1,
     "content": [
-      { "heading": "The Return of the Lord" },
+      {
+        "heading": ["The Return of the ", { "text": "Lord", "marks": ["sc"] }]
+      },
       {
         "paragraph": true,
         "text": "Afterward he brought",
