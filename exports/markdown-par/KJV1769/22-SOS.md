@@ -1,20 +1,20 @@
 ## Chapter 1
 
-<sup>1</sup> The song of songs, which _is_ Solomon's.<br>
+<sup>1</sup> The song of songs, which _is_ Solomon’s.<br>
 <sup>2</sup> Let him kiss me with the kisses of his mouth:<br>For thy love<sup>a</sup> _is_ better than wine.<br>
 <sup>3</sup> Because of the savour of thy good ointments<br>Thy name _is as_ ointment poured forth,<br>Therefore do the virgins love thee.<br>
 <sup>4</sup> Draw me, we will run after thee:<br>The king hath brought me into his chambers:<br>We will be glad and rejoice in thee,<br>We will remember thy love more than wine:<br>The upright love thee.<sup>b</sup><br>
 <sup>5</sup> I _am_ black, but comely,<br>O ye daughters of Jerusalem,<br>As the tents of Kedar,<br>As the curtains of Solomon.<br>
-<sup>6</sup> Look not upon me, because I _am_ black,<br>Because the sun hath looked upon me:<br>My mother's children were angry with me;<br>They made me the keeper of the vineyards;<br>_But_ mine own vineyard have I not kept.<br>
+<sup>6</sup> Look not upon me, because I _am_ black,<br>Because the sun hath looked upon me:<br>My mother’s children were angry with me;<br>They made me the keeper of the vineyards;<br>_But_ mine own vineyard have I not kept.<br>
 <sup>7</sup> Tell me, O thou whom my soul loveth,<br>Where thou feedest, where thou makest _thy flock_ to rest at noon:<br>For why should I be as one that turneth aside<sup>c</sup><br>By the flocks of thy companions?<br>
-<sup>8</sup> If thou know not,<br>O thou fairest among women,<br>Go thy way forth by the footsteps of the flock,<br>And feed thy kids<br>Beside the shepherds' tents.<br>
-<sup>9</sup> I have compared thee, O my love,<br>To a company of horses in Pharaoh's chariots.<br>
+<sup>8</sup> If thou know not,<br>O thou fairest among women,<br>Go thy way forth by the footsteps of the flock,<br>And feed thy kids<br>Beside the shepherds’ tents.<br>
+<sup>9</sup> I have compared thee, O my love,<br>To a company of horses in Pharaoh’s chariots.<br>
 <sup>10</sup> Thy cheeks are comely with rows _of jewels_,<br>Thy neck with chains _of gold_.<br>
 <sup>11</sup> We will make thee borders of gold<br>With studs of silver.<br>
 <sup>12</sup> While the King _sitteth_ at his table,<br>My spikenard sendeth forth the smell thereof.<br>
 <sup>13</sup> A bundle of myrrh _is_ my wellbeloved unto me;<br>He shall lie all night betwixt my breasts.<br>
 <sup>14</sup> My beloved _is_ unto me _as_ a cluster of camphire<sup>d</sup><br>In the vineyards of Engedi.<br>
-<sup>15</sup> Behold, thou _art_ fair, my love;<sup>e</sup><br>Behold, thou _art_ fair;<br>Thou _hast_ doves' eyes.<br>
+<sup>15</sup> Behold, thou _art_ fair, my love;<sup>e</sup><br>Behold, thou _art_ fair;<br>Thou _hast_ doves’ eyes.<br>
 <sup>16</sup> Behold, thou _art_ fair, my beloved,<br>Yea, pleasant:<br>Also our bed _is_ green.<br>
 <sup>17</sup> The beams of our house _are_ cedar,<br>_And_ our rafters<sup>f</sup> of fir.<br>
 
@@ -58,10 +58,10 @@
 <sup>1</sup> By night on my bed I sought him whom my soul loveth:<br>I sought him, but I found him not.<br>
 <sup>2</sup> I will rise now, and go about the city<br>In the streets, and in the broad ways<br>I will seek him whom my soul loveth:<br>I sought him, but I found him not.<br>
 <sup>3</sup> The watchmen that go about the city found me:<br>_To whom I said_,<br>Saw ye him whom my soul loveth?<br>
-<sup>4</sup> _It was_ but a little that I passed from them,<br>But I found him whom my soul loveth:<br>I held him, and would not let him go,<br>Until I had brought him into my mother's house,<br>And into the chamber of her that conceived me.<br>
+<sup>4</sup> _It was_ but a little that I passed from them,<br>But I found him whom my soul loveth:<br>I held him, and would not let him go,<br>Until I had brought him into my mother’s house,<br>And into the chamber of her that conceived me.<br>
 <sup>5</sup> I charge you, O ye daughters of Jerusalem,<br>By the roes, and by the hinds of the field,<br>That ye stir not up, nor awake _my_ love,<br>Till he please.<br>
 <sup>6</sup> Who _is_ this that cometh out of the wilderness<br>Like pillars of smoke,<br>Perfumed with myrrh and frankincense,<br>With all powders of the merchant?<br>
-<sup>7</sup> Behold his bed, which _is_ Solomon's;<br>Threescore valiant men _are_ about it,<br>Of the valiant of Israel.<br>
+<sup>7</sup> Behold his bed, which _is_ Solomon’s;<br>Threescore valiant men _are_ about it,<br>Of the valiant of Israel.<br>
 <sup>8</sup> They all hold swords,<br>_Being_ expert in war:<br>Every man _hath_ his sword upon his thigh<br>Because of fear in the night.<br>
 <sup>9</sup> King Solomon made himself a chariot<sup>a</sup><br>Of the wood of Lebanon.<br>
 <sup>10</sup> He made the pillars thereof _of_ silver,<br>The bottom thereof _of_ gold, the covering of it _of_ purple,<br>The midst thereof being paved _with_ love,<br>For the daughters of Jerusalem.<br>
@@ -71,14 +71,14 @@
 
 ## Chapter 4
 
-<sup>1</sup> Behold, thou _art_ fair, my love;<br>Behold, thou _art_ fair;<br>Thou _hast_ doves' eyes<br>Within thy locks:<br>Thy hair _is_ as a flock of goats,<br>That appear<sup>a</sup> from mount Gilead.<br>
+<sup>1</sup> Behold, thou _art_ fair, my love;<br>Behold, thou _art_ fair;<br>Thou _hast_ doves’ eyes<br>Within thy locks:<br>Thy hair _is_ as a flock of goats,<br>That appear<sup>a</sup> from mount Gilead.<br>
 <sup>2</sup> Thy teeth _are_ like a flock _of sheep that are even_ shorn,<br>Which came up from the washing;<br>Whereof every one bear twins,<br>And none _is_ barren among them.<br>
 <sup>3</sup> Thy lips _are_ like a thread of scarlet,<br>And thy speech _is_ comely:<br>Thy temples _are_ like a piece of a pomegranate<br>Within thy locks.<br>
 <sup>4</sup> Thy neck _is_ like the tower of David<br>Builded for an armoury,<br>Whereon there hang a thousand bucklers,<br>All shields of mighty men.<br>
 <sup>5</sup> Thy two breasts _are_ like two young roes<br>That are twins,<br>Which feed among the lilies.<br>
 <sup>6</sup> Until the day break,<sup>b</sup><br>And the shadows flee away,<br>I will get me to the mountain of myrrh,<br>And to the hill of frankincense.<br>
 <sup>7</sup> Thou _art_ all fair, my love;<br>_There is_ no spot in thee.<br>
-<sup>8</sup> Come with me from Lebanon, _my_ spouse,<br>With me from Lebanon:<br>Look from the top of Amana,<br>From the top of Shenir and Hermon,<br>From the lions' dens,<br>From the mountains of the leopards.<br>
+<sup>8</sup> Come with me from Lebanon, _my_ spouse,<br>With me from Lebanon:<br>Look from the top of Amana,<br>From the top of Shenir and Hermon,<br>From the lions’ dens,<br>From the mountains of the leopards.<br>
 <sup>9</sup> Thou hast ravished<sup>c</sup> my heart, my sister, _my_ spouse;<br>Thou hast ravished my heart with one of thine eyes,<br>With one chain of thy neck.<br>
 <sup>10</sup> How fair is thy love, my sister, _my_ spouse!<br>How much better is thy love than wine!<br>And the smell of thine ointments than all spices!<br>
 <sup>11</sup> Thy lips, O _my_ spouse, drop _as_ the honeycomb:<br>Honey and milk _are_ under thy tongue;<br>And the smell of thy garments _is_ like the smell of Lebanon.<br>
@@ -125,7 +125,7 @@
 
 <sup>1</sup> Whither is thy beloved gone,<br>O thou fairest among women?<br>Whither is thy beloved turned aside?<br>That we may seek him with thee.<br>
 <sup>2</sup> My beloved is gone down into his garden,<br>To the beds of spices,<br>To feed in the gardens,<br>And to gather lilies.<br>
-<sup>3</sup> I _am_ my beloved's, and my beloved _is_ mine:<br>He feedeth among the lilies.<br>
+<sup>3</sup> I _am_ my beloved’s, and my beloved _is_ mine:<br>He feedeth among the lilies.<br>
 <sup>4</sup> Thou _art_ beautiful, O my love, as Tirzah,<br>Comely as Jerusalem,<br>Terrible as _an army_ with banners.<br>
 <sup>5</sup> Turn away thine eyes from me,<br>For they have overcome me:<sup>a</sup><br>Thy hair _is_ as a flock of goats<br>That appear from Gilead.<br>
 <sup>6</sup> Thy teeth _are_ as a flock of sheep<br>Which go up from the washing,<br>Whereof every one beareth twins,<br>And _there is_ not one barren among them.<br>
@@ -143,7 +143,7 @@
 
 ## Chapter 7
 
-<sup>1</sup> How beautiful are thy feet with shoes,<br>O prince's daughter!<br>The joints of thy thighs _are_ like jewels,<br>The work of the hands of a cunning workman.<br>
+<sup>1</sup> How beautiful are thy feet with shoes,<br>O prince’s daughter!<br>The joints of thy thighs _are_ like jewels,<br>The work of the hands of a cunning workman.<br>
 <sup>2</sup> Thy navel _is like_ a round goblet,<br>_Which_ wanteth not liquor:<sup>a</sup><br>Thy belly _is like_ an heap of wheat<br>Set about with lilies.<br>
 <sup>3</sup> Thy two breasts _are_ like two young roes<br>_That are_ twins.<br>
 <sup>4</sup> Thy neck _is_ as a tower of ivory;<br>Thine eyes _like_ the fishpools in Heshbon,<br>By the gate of Bathrabbim:<br>Thy nose _is_ as the tower of Lebanon<br>Which looketh toward Damascus.<br>
@@ -152,7 +152,7 @@
 <sup>7</sup> This thy stature is like to a palm tree,<br>And thy breasts to clusters _of grapes_.<br>
 <sup>8</sup> I said, I will go up to the palm tree,<br>I will take hold of the boughs thereof:<br>Now also thy breasts shall be as clusters of the vine,<br>And the smell of thy nose like apples;<br>
 <sup>9</sup> And the roof of thy mouth like the best wine<br>For my beloved, that goeth _down_ sweetly,<sup>d</sup><br>Causing the lips of those that are asleep<sup>e</sup> to speak.<br>
-<sup>10</sup> I _am_ my beloved's,<br>And his desire _is_ toward me.<br>
+<sup>10</sup> I _am_ my beloved’s,<br>And his desire _is_ toward me.<br>
 <sup>11</sup> Come, my beloved,<br>Let us go forth into the field;<br>Let us lodge in the villages.<br>
 <sup>12</sup> Let us get up early to the vineyards;<br>Let us see if the vine flourish,<br>_Whether_ the tender grape appear,<sup>f</sup><br>_And_ the pomegranates bud forth:<br>There will I give thee my loves.<br>
 <sup>13</sup> The mandrakes give a smell,<br>And at our gates _are_ all manner of pleasant _fruits_,<br>New and old,<br>_Which_ I have laid up for thee, O my beloved.<br>
@@ -167,7 +167,7 @@
 ## Chapter 8
 
 <sup>1</sup> O that thou _wert_ as my brother,<br>That sucked the breasts of my mother!<br>_When_ I should find thee without, I would kiss thee;<br>Yea, I should not be despised.<sup>a</sup><br>
-<sup>2</sup> I would lead thee,<br>_And_ bring thee into my mother's house,<br>_Who_ would instruct me:<br>I would cause thee to drink of spiced wine<br>Of the juice of my pomegranate.<br>
+<sup>2</sup> I would lead thee,<br>_And_ bring thee into my mother’s house,<br>_Who_ would instruct me:<br>I would cause thee to drink of spiced wine<br>Of the juice of my pomegranate.<br>
 <sup>3</sup> His left hand _should be_ under my head,<br>And his right hand should embrace me.<br>
 <sup>4</sup> I charge you, O daughters of Jerusalem,<br>That ye stir not up,<sup>b</sup> nor awake _my_ love,<br>Until he please.<br>
 <sup>5</sup> Who _is_ this that cometh up from the wilderness,<br>Leaning upon her beloved?<br>I raised thee up under the apple tree:<br>There thy mother brought thee forth:<br>There she brought thee forth _that_ bare thee.<br>

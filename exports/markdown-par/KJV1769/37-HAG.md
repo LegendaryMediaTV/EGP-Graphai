@@ -1,7 +1,7 @@
 ## Chapter 1
 
 <sup>1</sup> In the second year of Darius the king, in the sixth month, in the first day of the month, came the word of the LORD by Haggai<sup>a</sup> the prophet unto Zerubbabel the son of Shealtiel, governor<sup>b</sup> of Judah, and to Joshua the son of Josedech, the high priest, saying,
-<sup>2</sup> Thus speaketh the LORD of hosts, saying, This people say, The time is not come, the time that the LORD's house should be built.
+<sup>2</sup> Thus speaketh the LORD of hosts, saying, This people say, The time is not come, the time that the LORD’s house should be built.
 
 ### This House Lies Waste
 
@@ -17,7 +17,7 @@
 <sup>11</sup> And I called for a drought upon the land, and upon the mountains, and upon the corn, and upon the new wine, and upon the oil, and upon _that_ which the ground bringeth forth, and upon men, and upon cattle, and upon all the labour of the hands.
 
 <sup>12</sup> Then Zerubbabel the son of Shealtiel, and Joshua the son of Josedech, the high priest, with all the remnant of the people, obeyed the voice of the LORD their God, and the words of Haggai the prophet, as the LORD their God had sent him, and the people did fear before the LORD.
-<sup>13</sup> Then spake Haggai the LORD's messenger in the LORD's message unto the people, saying, I _am_ with you, saith the LORD.
+<sup>13</sup> Then spake Haggai the LORD’s messenger in the LORD’s message unto the people, saying, I _am_ with you, saith the LORD.
 <sup>14</sup> And the LORD stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Josedech, the high priest, and the spirit of all the remnant of the people; and they came and did work in the house of the LORD of hosts, their God,
 <sup>15</sup> in the four and twentieth day of the sixth month, in the second year of Darius the king.
 
@@ -54,7 +54,7 @@
 
 ### Build for a Great Future
 
-<sup>18</sup> Consider now from this day and upward, from the four and twentieth day of the ninth _month, even_ from the day that the foundation of the LORD's temple was laid, consider _it_.
+<sup>18</sup> Consider now from this day and upward, from the four and twentieth day of the ninth _month, even_ from the day that the foundation of the LORD’s temple was laid, consider _it_.
 <sup>19</sup> Is the seed yet in the barn? yea, as yet the vine, and the fig tree, and the pomegranate, and the olive tree, hath not brought forth: from this day will I bless _you_.
 
 <sup>20</sup> And again the word of the LORD came unto Haggai in the four and twentieth _day_ of the month, saying,

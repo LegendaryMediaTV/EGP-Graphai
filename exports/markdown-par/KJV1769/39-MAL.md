@@ -2,7 +2,7 @@
 
 <sup>1</sup> The burden of the word of the LORD to Israel by Malachi.<sup>a</sup>
 
-<sup>2</sup> I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? _Was_ not Esau Jacob's brother? saith the LORD: yet I loved Jacob,
+<sup>2</sup> I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? _Was_ not Esau Jacob’s brother? saith the LORD: yet I loved Jacob,
 <sup>3</sup> and I hated Esau, and laid his mountains and his heritage waste for the dragons of the wilderness.
 <sup>4</sup> Whereas Edom saith, We are impoverished, but we will return and build the desolate places; thus saith the LORD of hosts, They shall build, but I will throw down; and they shall call them, The border of wickedness, and, The people against whom the LORD hath indignation for ever.
 <sup>5</sup> And your eyes shall see, and ye shall say, The LORD will be magnified from<sup>b</sup> the border of Israel.
@@ -37,7 +37,7 @@
 
 <sup>5</sup> My covenant was with him of life and peace; and I gave them to him _for_ the fear wherewith he feared me, and was afraid before my name.
 <sup>6</sup> The law of truth was in his mouth, and iniquity was not found in his lips: he walked with me in peace and equity, and did turn many away from iniquity.
-<sup>7</sup> For the priest's lips should keep knowledge, and they should seek the law at his mouth: for he _is_ the messenger of the LORD of hosts.
+<sup>7</sup> For the priest’s lips should keep knowledge, and they should seek the law at his mouth: for he _is_ the messenger of the LORD of hosts.
 <sup>8</sup> But ye are departed out of the way; ye have caused many to stumble at the law;<sup>d</sup> ye have corrupted the covenant of Levi, saith the LORD of hosts.
 <sup>9</sup> Therefore have I also made you contemptible and base before all the people, according as ye have not kept my ways, but have been partial<sup>e</sup> in the law.
 
@@ -70,7 +70,7 @@
 ## Chapter 3
 
 <sup>1</sup> Behold, I will send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.
-<sup>2</sup> But who may abide the day of his coming? and who shall stand when he appeareth? for he _is_ like a refiner's fire, and like fullers' soap:
+<sup>2</sup> But who may abide the day of his coming? and who shall stand when he appeareth? for he _is_ like a refiner’s fire, and like fullers’ soap:
 <sup>3</sup> and he shall sit _as_ a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the LORD an offering in righteousness.
 
 <sup>4</sup> Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old, and as in former<sup>a</sup> years.

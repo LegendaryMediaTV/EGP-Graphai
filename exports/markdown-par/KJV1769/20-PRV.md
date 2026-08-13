@@ -124,11 +124,11 @@
 
 ## Chapter 4
 
-### A Father's Instruction
+### A Father’s Instruction
 
 <sup>1</sup> Hear, ye children, the instruction of a father,<br>And attend to know understanding.<br>
 <sup>2</sup> For I give you good doctrine,<br>Forsake ye not my law.<br>
-<sup>3</sup> For I was my father's son,<br>Tender and only _beloved_ in the sight of my mother.<br>
+<sup>3</sup> For I was my father’s son,<br>Tender and only _beloved_ in the sight of my mother.<br>
 <sup>4</sup> He taught me also, and said unto me,<br>Let thine heart retain my words:<br>Keep my commandments, and live.<br>
 <sup>5</sup> Get wisdom, get understanding:<br>Forget _it_ not; neither decline from the words of my mouth.<br>
 <sup>6</sup> Forsake her not, and she shall preserve thee:<br>Love her, and she shall keep thee.<br>
@@ -178,7 +178,7 @@
 <sup>14</sup> I was almost in all evil<br>In the midst of the congregation and assembly.<br>
 <sup>15</sup> Drink waters out of thine own cistern,<br>And running waters out of thine own well.<br>
 <sup>16</sup> Let thy fountains be dispersed abroad,<br>_And_ rivers of waters in the streets.<br>
-<sup>17</sup> Let them be only thine own,<br>And not strangers' with thee.<br>
+<sup>17</sup> Let them be only thine own,<br>And not strangers’ with thee.<br>
 <sup>18</sup> Let thy fountain be blessed:<br>And rejoice with the wife of thy youth.<br>
 <sup>19</sup> _Let her be as_ the loving hind and pleasant roe;<br>Let her breasts satisfy thee<sup>c</sup> at all times;<br>And be thou ravished always with her love.<sup>d</sup><br>
 <sup>20</sup> And why wilt thou, my son, be ravished with a strange woman,<br>And embrace the bosom of a stranger?<br>
@@ -213,7 +213,7 @@
 <sup>17</sup> A proud look,<sup>d</sup> a lying tongue,<br>And hands that shed innocent blood,<br>
 <sup>18</sup> An heart that deviseth wicked imaginations,<br>Feet that be swift in running to mischief,<br>
 <sup>19</sup> A false witness _that_ speaketh lies,<br>And he that soweth discord among brethren.<br>
-<sup>20</sup> My son, keep thy father's commandment,<br>And forsake not the law of thy mother:<br>
+<sup>20</sup> My son, keep thy father’s commandment,<br>And forsake not the law of thy mother:<br>
 <sup>21</sup> Bind them continually upon thine heart,<br>_And_ tie them about thy neck.<br>
 <sup>22</sup> When thou goest, it shall lead thee;<br>When thou sleepest, it shall keep thee;<br>And _when_ thou awakest, it shall talk with thee.<br>
 <sup>23</sup> For the commandment _is_ a lamp;<sup>e</sup> and the law _is_ light;<br>And reproofs of instruction _are_ the way of life:<br>
@@ -222,7 +222,7 @@
 <sup>26</sup> For by means of a whorish woman _a man is brought_ to a piece of bread:<br>And the adulteress<sup>g</sup> will hunt for the precious life.<br>
 <sup>27</sup> Can a man take fire in his bosom,<br>And his clothes not be burned?<br>
 <sup>28</sup> Can one go upon hot coals,<br>And his feet not be burned?<br>
-<sup>29</sup> So he that goeth in to his neighbour's wife;<br>Whosoever toucheth her shall not be innocent.<br>
+<sup>29</sup> So he that goeth in to his neighbour’s wife;<br>Whosoever toucheth her shall not be innocent.<br>
 <sup>30</sup> _Men_ do not despise a thief, if he steal<br>To satisfy his soul when he is hungry;<br>
 <sup>31</sup> But _if_ he be found, he shall restore sevenfold;<br>He shall give all the substance of his house.<br>
 <sup>32</sup> _But_ whoso committeth adultery with a woman lacketh understanding:<sup>h</sup><br>He _that_ doeth it destroyeth his own soul.<br>
@@ -369,7 +369,7 @@
 <sup>12</sup> Hatred stirreth up strifes:<br>But love covereth all sins.<br>
 <sup>13</sup> In the lips of him that hath understanding<sup>e</sup> wisdom is found:<br>But a rod _is_ for the back of him that is void of understanding.<br>
 <sup>14</sup> Wise _men_ lay up knowledge:<br>But the mouth of the foolish _is_ near destruction.<br>
-<sup>15</sup> The rich man's wealth _is_ his strong city:<br>The destruction of the poor _is_ their poverty.<br>
+<sup>15</sup> The rich man’s wealth _is_ his strong city:<br>The destruction of the poor _is_ their poverty.<br>
 <sup>16</sup> The labour of the righteous _tendeth_ to life:<br>The fruit of the wicked to sin.<br>
 <sup>17</sup> He _is in_ the way of life that keepeth instruction:<br>But he that refuseth reproof erreth.<sup>f</sup><br>
 <sup>18</sup> He that hideth hatred _with_ lying lips,<br>And he that uttereth a slander, _is_ a fool.<br>
@@ -421,7 +421,7 @@
 <sup>19</sup> As righteousness _tendeth_ to life:<br>So he that pursueth evil _pursueth it_ to his own death.<br>
 <sup>20</sup> They that are of a froward heart _are_ abomination to the LORD:<br>But _such as are_ upright in _their_ way _are_ his delight.<br>
 <sup>21</sup> _Though_ hand _join_ in hand, the wicked shall not be unpunished:<br>But the seed of the righteous shall be delivered.<br>
-<sup>22</sup> _As_ a jewel of gold in a swine's snout,<br>_So is_ a fair woman which is without<sup>h</sup> discretion.<br>
+<sup>22</sup> _As_ a jewel of gold in a swine’s snout,<br>_So is_ a fair woman which is without<sup>h</sup> discretion.<br>
 <sup>23</sup> The desire of the righteous _is_ only good:<br>_But_ the expectation of the wicked _is_ wrath.<br>
 <sup>24</sup> There is that scattereth, and yet increaseth;<br>And _there is_ that withholdeth more than is meet, but _it tendeth_ to poverty.<br>
 <sup>25</sup> The liberal soul<sup>i</sup> shall be made fat:<br>And he that watereth shall be watered also himself.<br>
@@ -458,9 +458,9 @@
 <sup>11</sup> He that tilleth his land shall be satisfied with bread:<br>But he that followeth vain _persons is_ void of understanding.<br>
 <sup>12</sup> The wicked desireth the net<sup>c</sup> of evil _men:_<br>But the root of the righteous yieldeth _fruit_.<br>
 <sup>13</sup> The wicked is snared by the transgression of _his_ lips:<br>But the just shall come out of trouble.<br>
-<sup>14</sup> A man shall be satisfied with good by the fruit of _his_ mouth:<br>And the recompence of a man's hands shall be rendered unto him.<br>
+<sup>14</sup> A man shall be satisfied with good by the fruit of _his_ mouth:<br>And the recompence of a man’s hands shall be rendered unto him.<br>
 <sup>15</sup> The way of a fool _is_ right in his own eyes:<br>But he that hearkeneth unto counsel _is_ wise.<br>
-<sup>16</sup> A fool's wrath is presently<sup>d</sup> known:<br>But a prudent _man_ covereth shame.<br>
+<sup>16</sup> A fool’s wrath is presently<sup>d</sup> known:<br>But a prudent _man_ covereth shame.<br>
 <sup>17</sup> _He that_ speaketh truth sheweth forth righteousness:<br>But a false witness deceit.<br>
 <sup>18</sup> There is that speaketh like the piercings of a sword:<br>But the tongue of the wise _is_ health.<br>
 <sup>19</sup> The lip of truth shall be established for ever:<br>But a lying tongue _is_ but for a moment.<br>
@@ -483,14 +483,14 @@
 
 ## Chapter 13
 
-<sup>1</sup> A wise son _heareth_ his father's instruction:<br>But a scorner heareth not rebuke.<br>
+<sup>1</sup> A wise son _heareth_ his father’s instruction:<br>But a scorner heareth not rebuke.<br>
 <sup>2</sup> A man shall eat good by the fruit of _his_ mouth:<br>But the soul of the transgressors _shall eat_ violence.<br>
 <sup>3</sup> He that keepeth his mouth keepeth his life:<br>_But_ he that openeth wide his lips shall have destruction.<br>
 <sup>4</sup> The soul of the sluggard desireth, and _hath_ nothing:<br>But the soul of the diligent shall be made fat.<br>
 <sup>5</sup> A righteous _man_ hateth lying:<br>But a wicked _man_ is loathsome, and cometh to shame.<br>
 <sup>6</sup> Righteousness keepeth _him that is_ upright in the way:<br>But wickedness overthroweth the sinner.<sup>a</sup><br>
 <sup>7</sup> There is that maketh himself rich, yet _hath_ nothing:<br>_There is_ that maketh himself poor, yet _hath_ great riches.<br>
-<sup>8</sup> The ransom of a man's life _are_ his riches:<br>But the poor heareth not rebuke.<br>
+<sup>8</sup> The ransom of a man’s life _are_ his riches:<br>But the poor heareth not rebuke.<br>
 <sup>9</sup> The light of the righteous rejoiceth:<br>But the lamp<sup>b</sup> of the wicked shall be put out.<br>
 <sup>10</sup> Only by pride cometh contention:<br>But with the well advised _is_ wisdom.<br>
 <sup>11</sup> Wealth _gotten_ by vanity shall be diminished:<br>But he that gathereth by labour<sup>c</sup> shall increase.<br>
@@ -504,7 +504,7 @@
 <sup>19</sup> The desire accomplished is sweet to the soul:<br>But _it is_ abomination to fools to depart from evil.<br>
 <sup>20</sup> He that walketh with wise _men_ shall be wise:<br>But a companion of fools shall be destroyed.<sup>f</sup><br>
 <sup>21</sup> Evil pursueth sinners:<br>But to the righteous good shall be repaid.<br>
-<sup>22</sup> A good _man_ leaveth an inheritance to his children's children:<br>And the wealth of the sinner _is_ laid up for the just.<br>
+<sup>22</sup> A good _man_ leaveth an inheritance to his children’s children:<br>And the wealth of the sinner _is_ laid up for the just.<br>
 <sup>23</sup> Much food _is in_ the tillage of the poor:<br>But there is _that is_ destroyed for want of judgment.<br>
 <sup>24</sup> He that spareth his rod hateth his son:<br>But he that loveth him chasteneth him betimes.<br>
 <sup>25</sup> The righteous eateth to the satisfying of his soul:<br>But the belly of the wicked shall want.<br>
@@ -545,14 +545,14 @@
 <sup>25</sup> A true witness delivereth souls:<br>But a deceitful _witness_ speaketh lies.<br>
 <sup>26</sup> In the fear of the LORD _is_ strong confidence:<br>And his children shall have a place of refuge.<br>
 <sup>27</sup> The fear of the LORD _is_ a fountain of life,<br>To depart from the snares of death.<br>
-<sup>28</sup> In the multitude of people _is_ the king's honour:<br>But in the want of people _is_ the destruction of the prince.<br>
+<sup>28</sup> In the multitude of people _is_ the king’s honour:<br>But in the want of people _is_ the destruction of the prince.<br>
 <sup>29</sup> _He that is_ slow to wrath _is_ of great understanding:<br>But _he that is_ hasty of spirit<sup>c</sup> exalteth folly.<br>
 <sup>30</sup> A sound heart _is_ the life of the flesh:<br>But envy the rottenness of the bones.<br>
 <sup>31</sup> He that oppresseth the poor reproacheth his Maker:<br>But he that honoureth him hath mercy on the poor.<br>
 <sup>32</sup> The wicked is driven away in his wickedness:<br>But the righteous hath hope in his death.<br>
 <sup>33</sup> Wisdom resteth in the heart of him that hath understanding:<br>But _that which is_ in the midst of fools is made known.<br>
 <sup>34</sup> Righteousness exalteth a nation:<br>But sin _is_ a reproach to any people.<sup>d</sup><br>
-<sup>35</sup> The king's favour _is_ toward a wise servant:<br>But his wrath is _against_ him that causeth shame.<br>
+<sup>35</sup> The king’s favour _is_ toward a wise servant:<br>But his wrath is _against_ him that causeth shame.<br>
 
 > - <sup>a</sup> 10. Heb. _the bitterness of his soul_
 > - <sup>b</sup> 20. Heb. _many are the lovers of the rich_
@@ -565,7 +565,7 @@
 <sup>2</sup> The tongue of the wise useth knowledge aright:<br>But the mouth of fools poureth<sup>a</sup> out foolishness.<br>
 <sup>3</sup> The eyes of the LORD _are_ in every place,<br>Beholding the evil and the good.<br>
 <sup>4</sup> A wholesome tongue<sup>b</sup> _is_ a tree of life:<br>But perverseness therein _is_ a breach in the spirit.<br>
-<sup>5</sup> A fool despiseth his father's instruction:<br>But he that regardeth reproof is prudent.<br>
+<sup>5</sup> A fool despiseth his father’s instruction:<br>But he that regardeth reproof is prudent.<br>
 <sup>6</sup> In the house of the righteous _is_ much treasure:<br>But in the revenues of the wicked is trouble.<br>
 <sup>7</sup> The lips of the wise disperse knowledge:<br>But the heart of the foolish _doeth_ not so.<br>
 <sup>8</sup> The sacrifice of the wicked _is_ an abomination to the LORD:<br>But the prayer of the upright _is_ his delight.<br>
@@ -614,15 +614,15 @@
 <sup>4</sup> The LORD hath made all _things_ for himself:<br>Yea, even the wicked for the day of evil.<br>
 <sup>5</sup> Every one _that is_ proud in heart _is_ an abomination to the LORD:<br>_Though_ hand _join_ in hand, he shall not be unpunished.<sup>c</sup><br>
 <sup>6</sup> By mercy and truth iniquity is purged:<br>And by the fear of the LORD _men_ depart from evil.<br>
-<sup>7</sup> When a man's ways please the LORD,<br>He maketh even his enemies to be at peace with him.<br>
+<sup>7</sup> When a man’s ways please the LORD,<br>He maketh even his enemies to be at peace with him.<br>
 <sup>8</sup> Better _is_ a little with righteousness<br>Than great revenues without right.<br>
-<sup>9</sup> A man's heart deviseth his way:<br>But the LORD directeth his steps.<br>
+<sup>9</sup> A man’s heart deviseth his way:<br>But the LORD directeth his steps.<br>
 <sup>10</sup> A divine<sup>d</sup> sentence _is_ in the lips of the king:<br>His mouth transgresseth not in judgment.<br>
-<sup>11</sup> A just weight and balance _are_ the LORD's:<br>All the weights<sup>e</sup> of the bag _are_ his work.<br>
+<sup>11</sup> A just weight and balance _are_ the LORD’s:<br>All the weights<sup>e</sup> of the bag _are_ his work.<br>
 <sup>12</sup> _It is_ an abomination to kings to commit wickedness:<br>For the throne is established by righteousness.<br>
 <sup>13</sup> Righteous lips _are_ the delight of kings;<br>And they love him that speaketh right.<br>
 <sup>14</sup> The wrath of a king _is as_ messengers of death:<br>But a wise man will pacify it.<br>
-<sup>15</sup> In the light of the king's countenance _is_ life;<br>And his favour _is_ as a cloud of the latter rain.<br>
+<sup>15</sup> In the light of the king’s countenance _is_ life;<br>And his favour _is_ as a cloud of the latter rain.<br>
 <sup>16</sup> How much better _is it_ to get wisdom than gold!<br>And to get understanding rather to be chosen than silver!<br>
 <sup>17</sup> The highway of the upright _is_ to depart from evil:<br>He that keepeth his way preserveth his soul.<br>
 <sup>18</sup> Pride _goeth_ before destruction,<br>And an haughty spirit before a fall.<br>
@@ -661,7 +661,7 @@
 <sup>3</sup> The fining pot _is_ for silver, and the furnace for gold:<br>But the LORD trieth the hearts.<br>
 <sup>4</sup> A wicked doer giveth heed to false lips;<br>_And_ a liar giveth ear to a naughty tongue.<br>
 <sup>5</sup> Whoso mocketh the poor reproacheth his Maker:<br>_And_ he that is glad at calamities shall not be unpunished.<sup>b</sup><br>
-<sup>6</sup> Children's children _are_ the crown of old men;<br>And the glory of children _are_ their fathers.<br>
+<sup>6</sup> Children’s children _are_ the crown of old men;<br>And the glory of children _are_ their fathers.<br>
 <sup>7</sup> Excellent speech<sup>c</sup> becometh not a fool:<br>Much less do lying lips<sup>d</sup> a prince.<br>
 <sup>8</sup> A gift _is as_ a precious stone<sup>e</sup> in the eyes of him that hath it:<br>Whithersoever it turneth, it prospereth.<br>
 <sup>9</sup> He that covereth a transgression seeketh<sup>f</sup> love;<br>But he that repeateth a matter separateth _very_ friends.<br>
@@ -701,23 +701,23 @@
 <sup>1</sup> Through desire a man, having separated himself, seeketh<br>_And_ intermeddleth with all wisdom.<sup>a</sup><br>
 <sup>2</sup> A fool hath no delight in understanding,<br>But that his heart may discover itself.<br>
 <sup>3</sup> When the wicked cometh, _then_ cometh also contempt,<br>And with ignominy reproach.<br>
-<sup>4</sup> The words of a man's mouth _are as_ deep waters,<br>_And_ the wellspring of wisdom _as_ a flowing brook.<br>
+<sup>4</sup> The words of a man’s mouth _are as_ deep waters,<br>_And_ the wellspring of wisdom _as_ a flowing brook.<br>
 <sup>5</sup> _It is_ not good to accept the person of the wicked,<br>To overthrow the righteous in judgment.<br>
-<sup>6</sup> A fool's lips enter into contention,<br>And his mouth calleth for strokes.<br>
-<sup>7</sup> A fool's mouth _is_ his destruction,<br>And his lips _are_ the snare of his soul.<br>
+<sup>6</sup> A fool’s lips enter into contention,<br>And his mouth calleth for strokes.<br>
+<sup>7</sup> A fool’s mouth _is_ his destruction,<br>And his lips _are_ the snare of his soul.<br>
 <sup>8</sup> The words of a talebearer<sup>b</sup> _are_ as wounds,<sup>c</sup><br>And they go down into the innermost parts<sup>d</sup> of the belly.<br>
 <sup>9</sup> He also that is slothful in his work<br>Is brother to him that is a great waster.<br>
 <sup>10</sup> The name of the LORD _is_ a strong tower:<br>The righteous runneth into it, and is safe.<sup>e</sup><br>
-<sup>11</sup> The rich man's wealth _is_ his strong city,<br>And as an high wall in his own conceit.<br>
+<sup>11</sup> The rich man’s wealth _is_ his strong city,<br>And as an high wall in his own conceit.<br>
 <sup>12</sup> Before destruction the heart of man is haughty,<br>And before honour _is_ humility.<br>
 <sup>13</sup> He that answereth a matter<sup>f</sup> before he heareth _it_,<br>It _is_ folly and shame unto him.<br>
 <sup>14</sup> The spirit of a man will sustain his infirmity;<br>But a wounded spirit who can bear?<br>
 <sup>15</sup> The heart of the prudent getteth knowledge;<br>And the ear of the wise seeketh knowledge.<br>
-<sup>16</sup> A man's gift maketh room for him,<br>And bringeth him before great men.<br>
+<sup>16</sup> A man’s gift maketh room for him,<br>And bringeth him before great men.<br>
 <sup>17</sup> _He that is_ first in his own cause _seemeth_ just;<br>But his neighbour cometh and searcheth him.<br>
 <sup>18</sup> The lot causeth contentions to cease,<br>And parteth between the mighty.<br>
 <sup>19</sup> A brother offended _is harder to be won_ than a strong city:<br>And _their_ contentions _are_ like the bars of a castle.<br>
-<sup>20</sup> A man's belly shall be satisfied with the fruit of his mouth;<br>_And_ with the increase of his lips shall he be filled.<br>
+<sup>20</sup> A man’s belly shall be satisfied with the fruit of his mouth;<br>_And_ with the increase of his lips shall he be filled.<br>
 <sup>21</sup> Death and life _are_ in the power of the tongue:<br>And they that love it shall eat the fruit thereof.<br>
 <sup>22</sup> _Whoso_ findeth a wife findeth a good _thing_,<br>And obtaineth favour of the LORD.<br>
 <sup>23</sup> The poor useth intreaties;<br>But the rich answereth roughly.<br>
@@ -743,7 +743,7 @@
 <sup>9</sup> A false witness shall not be unpunished,<br>And _he that_ speaketh lies shall perish.<br>
 <sup>10</sup> Delight is not seemly for a fool;<br>Much less for a servant to have rule over princes.<br>
 <sup>11</sup> The discretion<sup>d</sup> of a man deferreth his anger;<br>And _it is_ his glory to pass over a transgression.<br>
-<sup>12</sup> The king's wrath _is_ as the roaring of a lion;<br>But his favour _is_ as dew upon the grass.<br>
+<sup>12</sup> The king’s wrath _is_ as the roaring of a lion;<br>But his favour _is_ as dew upon the grass.<br>
 <sup>13</sup> A foolish son _is_ the calamity of his father:<br>And the contentions of a wife _are_ a continual dropping.<br>
 <sup>14</sup> House and riches _are_ the inheritance of fathers:<br>And a prudent wife _is_ from the LORD.<br>
 <sup>15</sup> Slothfulness casteth into a deep sleep;<br>And an idle soul shall suffer hunger.<br>
@@ -752,7 +752,7 @@
 <sup>18</sup> Chasten thy son while there is hope,<br>And let not thy soul spare for his crying.<sup>f</sup><br>
 <sup>19</sup> A man of great wrath shall suffer punishment:<br>For if thou deliver _him_, yet thou must do it again.<sup>g</sup><br>
 <sup>20</sup> Hear counsel, and receive instruction,<br>That thou mayest be wise in thy latter end.<br>
-<sup>21</sup> _There are_ many devices in a man's heart;<br>Nevertheless the counsel of the LORD, that shall stand.<br>
+<sup>21</sup> _There are_ many devices in a man’s heart;<br>Nevertheless the counsel of the LORD, that shall stand.<br>
 <sup>22</sup> The desire of a man _is_ his kindness:<br>And a poor man _is_ better than a liar.<br>
 <sup>23</sup> The fear of the LORD _tendeth_ to life:<br>And _he that hath it_ shall abide satisfied;<br>He shall not be visited with evil.<br>
 <sup>24</sup> A slothful _man_ hideth his hand in _his_ bosom,<br>And will not so much as bring it to his mouth again.<br>
@@ -797,7 +797,7 @@
 <sup>21</sup> An inheritance _may be_ gotten hastily at the beginning;<br>But the end thereof shall not be blessed.<br>
 <sup>22</sup> Say not thou, I will recompense evil;<br>_But_ wait on the LORD, and he shall save thee.<br>
 <sup>23</sup> Divers weights _are_ an abomination unto the LORD;<br>And a false balance<sup>h</sup> _is_ not good.<br>
-<sup>24</sup> Man's goings _are_ of the LORD;<br>How can a man then understand his own way?<br>
+<sup>24</sup> Man’s goings _are_ of the LORD;<br>How can a man then understand his own way?<br>
 <sup>25</sup> _It is_ a snare to the man _who_ devoureth _that which is_ holy,<br>And after vows to make enquiry.<br>
 <sup>26</sup> A wise king scattereth the wicked,<br>And bringeth the wheel over them.<br>
 <sup>27</sup> The spirit of man _is_ the candle<sup>i</sup> of the LORD,<br>Searching all the inward parts of the belly.<br>
@@ -818,7 +818,7 @@
 
 ## Chapter 21
 
-<sup>1</sup> The king's heart _is_ in the hand of the LORD,<br>_As_ the rivers of water: he turneth it whithersoever he will.<br>
+<sup>1</sup> The king’s heart _is_ in the hand of the LORD,<br>_As_ the rivers of water: he turneth it whithersoever he will.<br>
 <sup>2</sup> Every way of a man _is_ right in his own eyes:<br>But the LORD pondereth the hearts.<br>
 <sup>3</sup> To do justice and judgment<br>_Is_ more acceptable to the LORD than sacrifice.<br>
 <sup>4</sup> An high look,<sup>a</sup> and a proud heart,<br>_And_ the plowing of the wicked,<sup>b</sup> _is_ sin.<br>
@@ -1027,7 +1027,7 @@
 <sup>14</sup> Whoso boasteth himself of a false gift<sup>e</sup><br>_Is like_ clouds and wind without rain.<br>
 <sup>15</sup> By long forbearing is a prince persuaded,<br>And a soft tongue breaketh the bone.<br>
 <sup>16</sup> Hast thou found honey? eat so much as is sufficient for thee,<br>Lest thou be filled therewith, and vomit it.<br>
-<sup>17</sup> Withdraw thy foot from thy neighbour's house;<br>Lest he be weary of thee,<sup>f</sup> and _so_ hate thee.<br>
+<sup>17</sup> Withdraw thy foot from thy neighbour’s house;<br>Lest he be weary of thee,<sup>f</sup> and _so_ hate thee.<br>
 <sup>18</sup> A man that beareth false witness against his neighbour<br>_Is_ a maul, and a sword, and a sharp arrow.<br>
 <sup>19</sup> Confidence in an unfaithful man in time of trouble<br>_Is like_ a broken tooth, and a foot out of joint.<br>
 <sup>20</sup> _As_ he that taketh away a garment in cold weather, _and as_ vinegar upon nitre,<br>So _is_ he that singeth songs to an heavy heart.<br>
@@ -1051,7 +1051,7 @@
 
 <sup>1</sup> As snow in summer, and as rain in harvest,<br>So honour is not seemly for a fool.<br>
 <sup>2</sup> As the bird by wandering, as the swallow by flying,<br>So the curse causeless shall not come.<br>
-<sup>3</sup> A whip for the horse, a bridle for the ass,<br>And a rod for the fool's back.<br>
+<sup>3</sup> A whip for the horse, a bridle for the ass,<br>And a rod for the fool’s back.<br>
 <sup>4</sup> Answer not a fool according to his folly,<br>Lest thou also be like unto him.<br>
 <sup>5</sup> Answer a fool according to his folly,<br>Lest he be wise in his own conceit.<sup>a</sup><br>
 <sup>6</sup> He that sendeth a message by the hand of a fool<br>Cutteth off the feet, _and_ drinketh damage.<sup>b</sup><br>
@@ -1099,14 +1099,14 @@
 
 <sup>1</sup> Boast not thyself of to morrow;<br>For thou knowest not what a day may bring forth.<br>
 <sup>2</sup> Let another man praise thee, and not thine own mouth;<br>A stranger, and not thine own lips.<br>
-<sup>3</sup> A stone _is_ heavy,<sup>a</sup> and the sand weighty;<br>But a fool's wrath _is_ heavier than them both.<br>
+<sup>3</sup> A stone _is_ heavy,<sup>a</sup> and the sand weighty;<br>But a fool’s wrath _is_ heavier than them both.<br>
 <sup>4</sup> Wrath _is_ cruel, and anger _is_ outrageous;<sup>b</sup><br>But who _is_ able to stand before envy?<sup>c</sup><br>
 <sup>5</sup> Open rebuke _is_ better<br>Than secret love.<br>
 <sup>6</sup> Faithful _are_ the wounds of a friend;<br>But the kisses of an enemy _are_ deceitful.<sup>d</sup><br>
 <sup>7</sup> The full soul loatheth<sup>e</sup> an honeycomb;<br>But to the hungry soul every bitter thing is sweet.<br>
 <sup>8</sup> As a bird that wandereth from her nest,<br>So _is_ a man that wandereth from his place.<br>
-<sup>9</sup> Ointment and perfume rejoice the heart:<br>So _doth_ the sweetness of a man's friend by hearty counsel.<sup>f</sup><br>
-<sup>10</sup> Thine own friend, and thy father's friend, forsake not;<br>Neither go into thy brother's house in the day of thy calamity:<br>_For_ better _is_ a neighbour _that is_ near than a brother far off.<br>
+<sup>9</sup> Ointment and perfume rejoice the heart:<br>So _doth_ the sweetness of a man’s friend by hearty counsel.<sup>f</sup><br>
+<sup>10</sup> Thine own friend, and thy father’s friend, forsake not;<br>Neither go into thy brother’s house in the day of thy calamity:<br>_For_ better _is_ a neighbour _that is_ near than a brother far off.<br>
 <sup>11</sup> My son, be wise, and make my heart glad,<br>That I may answer him that reproacheth me.<br>
 <sup>12</sup> A prudent _man_ foreseeth the evil, _and_ hideth himself;<br>_But_ the simple pass on, _and_ are punished.<br>
 <sup>13</sup> Take his garment that is surety for a stranger,<br>And take a pledge of him for a strange woman.<br>
@@ -1123,7 +1123,7 @@
 <sup>24</sup> For riches<sup>i</sup> _are_ not for ever:<br>And doth the crown _endure_ to every generation?<sup>j</sup><br>
 <sup>25</sup> The hay appeareth, and the tender grass sheweth itself,<br>And herbs of the mountains are gathered.<br>
 <sup>26</sup> The lambs _are_ for thy clothing,<br>And the goats _are_ the price of the field.<br>
-<sup>27</sup> And _thou shalt have_ goats' milk enough for thy food, for the food of thy household,<br>And _for_ the maintenance<sup>k</sup> for thy maidens.<br>
+<sup>27</sup> And _thou shalt have_ goats’ milk enough for thy food, for the food of thy household,<br>And _for_ the maintenance<sup>k</sup> for thy maidens.<br>
 
 > - <sup>a</sup> 3. Heb. _heaviness_
 > - <sup>b</sup> 4. Heb. _Wrath is cruelty, and anger an overflowing_
@@ -1201,10 +1201,10 @@
 <sup>20</sup> Seest thou a man _that is_ hasty in his words?<sup>g</sup><br>_There is_ more hope of a fool than of him.<br>
 <sup>21</sup> He that delicately bringeth up his servant from a child<br>Shall have him become _his_ son at the length.<br>
 <sup>22</sup> An angry man stirreth up strife,<br>And a furious man aboundeth in transgression.<br>
-<sup>23</sup> A man's pride shall bring him low:<br>But honour shall uphold the humble in spirit.<br>
+<sup>23</sup> A man’s pride shall bring him low:<br>But honour shall uphold the humble in spirit.<br>
 <sup>24</sup> Whoso is partner with a thief hateth his own soul:<br>He heareth cursing, and bewrayeth _it_ not.<br>
 <sup>25</sup> The fear of man bringeth a snare:<br>But whoso putteth his trust in the LORD shall be safe.<sup>h</sup><br>
-<sup>26</sup> Many seek the ruler's favour;<br>But _every_ man's judgment _cometh_ from the LORD.<br>
+<sup>26</sup> Many seek the ruler’s favour;<br>But _every_ man’s judgment _cometh_ from the LORD.<br>
 <sup>27</sup> An unjust man _is_ an abomination to the just:<br>And _he that is_ upright in the way _is_ abomination to the wicked.<br>
 
 > - <sup>a</sup> 2. Or, _increased_
@@ -1223,7 +1223,7 @@
 <sup>1</sup> The words of Agur the son of Jakeh, _even_ the prophecy:<br>The man spake unto Ithiel,<br>even unto Ithiel and Ucal,<br>
 <sup>2</sup> Surely I _am_ more brutish than _any_ man,<br>And have not the understanding of a man.<br>
 <sup>3</sup> I neither learned wisdom,<br>Nor have<sup>a</sup> the knowledge of the holy.<br>
-<sup>4</sup> Who hath ascended up into heaven, or descended?<br>Who hath gathered the wind in his fists?<br>Who hath bound the waters in a garment?<br>Who hath established all the ends of the earth?<br>What _is_ his name, and what _is_ his son's name,<br>If thou canst tell?<br>
+<sup>4</sup> Who hath ascended up into heaven, or descended?<br>Who hath gathered the wind in his fists?<br>Who hath bound the waters in a garment?<br>Who hath established all the ends of the earth?<br>What _is_ his name, and what _is_ his son’s name,<br>If thou canst tell?<br>
 <sup>5</sup> Every word of God _is_ pure:<sup>b</sup><br>He _is_ a shield unto them that put their trust in him.<br>
 <sup>6</sup> Add thou not unto his words,<br>Lest he reprove thee, and thou be found a liar.<br>
 <sup>7</sup> Two _things_ have I required of thee;<br>Deny me _them_ not<sup>c</sup> before I die:<br>
@@ -1247,7 +1247,7 @@
 <sup>25</sup> The ants _are_ a people not strong,<br>Yet they prepare their meat in the summer;<br>
 <sup>26</sup> The conies _are but_ a feeble folk,<br>Yet make they their houses in the rocks;<br>
 <sup>27</sup> The locusts have no king,<br>Yet go they forth all of them by bands;<sup>j</sup><br>
-<sup>28</sup> The spider taketh hold with her hands,<br>And is in kings' palaces.<br>
+<sup>28</sup> The spider taketh hold with her hands,<br>And is in kings’ palaces.<br>
 <sup>29</sup> There be three _things_ which go well,<br>Yea, four are comely in going:<br>
 <sup>30</sup> A lion _which is_ strongest among beasts,<br>And turneth not away for any;<br>
 <sup>31</sup> An greyhound; an he goat also;<br>And a king, against whom _there is_ no rising up.<br>
@@ -1284,7 +1284,7 @@
 <sup>11</sup> The heart of her husband doth safely trust in her,<br>So that he shall have no need of spoil.<br>
 <sup>12</sup> She will do him good and not evil<br>All the days of her life.<br>
 <sup>13</sup> She seeketh wool, and flax,<br>And worketh willingly with her hands.<br>
-<sup>14</sup> She is like the merchants' ships;<br>She bringeth her food from afar.<br>
+<sup>14</sup> She is like the merchants’ ships;<br>She bringeth her food from afar.<br>
 <sup>15</sup> She riseth also while it is yet night,<br>And giveth meat to her household,<br>And a portion to her maidens.<br>
 <sup>16</sup> She considereth a field, and buyeth<sup>e</sup> it:<br>With the fruit of her hands she planteth a vineyard.<br>
 <sup>17</sup> She girdeth her loins with strength,<br>And strengtheneth her arms.<br>

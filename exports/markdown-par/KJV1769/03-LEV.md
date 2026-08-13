@@ -9,14 +9,14 @@
 
 <sup>3</sup> If his offering _be_ a burnt sacrifice of the herd, let him offer a male without blemish: he shall offer it of his own voluntary will at the door of the tabernacle of the congregation before the LORD.
 <sup>4</sup> And he shall put his hand upon the head of the burnt offering; and it shall be accepted for him to make atonement for him.
-<sup>5</sup> And he shall kill the bullock before the LORD: and the priests, Aaron's sons, shall bring the blood, and sprinkle the blood round about upon the altar that _is by_ the door of the tabernacle of the congregation.
+<sup>5</sup> And he shall kill the bullock before the LORD: and the priests, Aaron’s sons, shall bring the blood, and sprinkle the blood round about upon the altar that _is by_ the door of the tabernacle of the congregation.
 <sup>6</sup> And he shall flay the burnt offering, and cut it into his pieces.
 <sup>7</sup> And the sons of Aaron the priest shall put fire upon the altar, and lay the wood in order upon the fire:
-<sup>8</sup> and the priests, Aaron's sons, shall lay the parts, the head, and the fat, in order upon the wood that _is_ on the fire which _is_ upon the altar:
+<sup>8</sup> and the priests, Aaron’s sons, shall lay the parts, the head, and the fat, in order upon the wood that _is_ on the fire which _is_ upon the altar:
 <sup>9</sup> but his inwards and his legs shall he wash in water: and the priest shall burn all on the altar, _to be_ a burnt sacrifice, an offering made by fire, of a sweet savour unto the LORD.
 
 <sup>10</sup> And if his offering _be_ of the flocks, _namely_, of the sheep, or of the goats, for a burnt sacrifice; he shall bring it a male without blemish.
-<sup>11</sup> And he shall kill it on the side of the altar northward before the LORD: and the priests, Aaron's sons, shall sprinkle his blood round about upon the altar.
+<sup>11</sup> And he shall kill it on the side of the altar northward before the LORD: and the priests, Aaron’s sons, shall sprinkle his blood round about upon the altar.
 <sup>12</sup> And he shall cut it into his pieces, with his head and his fat: and the priest shall lay them in order on the wood that _is_ on the fire which _is_ upon the altar:
 <sup>13</sup> but he shall wash the inwards and the legs with water: and the priest shall bring _it_ all, and burn _it_ upon the altar: it _is_ a burnt sacrifice, an offering made by fire, of a sweet savour unto the LORD.
 
@@ -33,8 +33,8 @@
 ### The Meat Offering
 
 <sup>1</sup> And when any will offer a meat offering unto the LORD, his offering shall be _of_ fine flour; and he shall pour oil upon it, and put frankincense thereon:
-<sup>2</sup> and he shall bring it to Aaron's sons the priests: and he shall take thereout his handful of the flour thereof, and of the oil thereof, with all the frankincense thereof; and the priest shall burn the memorial of it upon the altar, _to be_ an offering made by fire, of a sweet savour unto the LORD:
-<sup>3</sup> and the remnant of the meat offering _shall be_ Aaron's and his sons': _it is_ a thing most holy of the offerings of the LORD made by fire.
+<sup>2</sup> and he shall bring it to Aaron’s sons the priests: and he shall take thereout his handful of the flour thereof, and of the oil thereof, with all the frankincense thereof; and the priest shall burn the memorial of it upon the altar, _to be_ an offering made by fire, of a sweet savour unto the LORD:
+<sup>3</sup> and the remnant of the meat offering _shall be_ Aaron’s and his sons’: _it is_ a thing most holy of the offerings of the LORD made by fire.
 
 <sup>4</sup> And if thou bring an oblation of a meat offering baken in the oven, _it shall be_ unleavened cakes of fine flour mingled with oil, or unleavened wafers anointed with oil.
 <sup>5</sup> And if thy oblation _be_ a meat offering _baken_ in a pan,<sup>a</sup> it shall be _of_ fine flour unleavened, mingled with oil.
@@ -42,7 +42,7 @@
 <sup>7</sup> And if thy oblation _be_ a meat offering _baken_ in the fryingpan, it shall be made _of_ fine flour with oil.
 <sup>8</sup> And thou shalt bring the meat offering that is made of these things unto the LORD: and when it is presented unto the priest, he shall bring it unto the altar.
 <sup>9</sup> And the priest shall take from the meat offering a memorial thereof, and shall burn _it_ upon the altar: _it is_ an offering made by fire, of a sweet savour unto the LORD.
-<sup>10</sup> And that which is left of the meat offering _shall be_ Aaron's and his sons': _it is_ a thing most holy of the offerings of the LORD made by fire.
+<sup>10</sup> And that which is left of the meat offering _shall be_ Aaron’s and his sons’: _it is_ a thing most holy of the offerings of the LORD made by fire.
 <sup>11</sup> No meat offering, which ye shall bring unto the LORD, shall be made with leaven: for ye shall burn no leaven, nor any honey, in any offering of the LORD made by fire.
 
 <sup>12</sup> As for the oblation of the firstfruits, ye shall offer them unto the LORD: but they shall not be burnt<sup>b</sup> on the altar for a sweet savour.
@@ -60,14 +60,14 @@
 ### The Peace Offering
 
 <sup>1</sup> And if his oblation _be_ a sacrifice of peace offering, if he offer _it_ of the herd; whether _it be_ a male or female, he shall offer it without blemish before the LORD.
-<sup>2</sup> And he shall lay his hand upon the head of his offering, and kill it _at_ the door of the tabernacle of the congregation: and Aaron's sons the priests shall sprinkle the blood upon the altar round about.
+<sup>2</sup> And he shall lay his hand upon the head of his offering, and kill it _at_ the door of the tabernacle of the congregation: and Aaron’s sons the priests shall sprinkle the blood upon the altar round about.
 <sup>3</sup> And he shall offer of the sacrifice of the peace offering an offering made by fire unto the LORD; the fat<sup>a</sup> that covereth the inwards, and all the fat that _is_ upon the inwards,
 <sup>4</sup> and the two kidneys, and the fat that _is_ on them, which _is_ by the flanks, and the caul above the liver, with the kidneys, it shall he take away.
-<sup>5</sup> And Aaron's sons shall burn it on the altar upon the burnt sacrifice, which _is_ upon the wood that _is_ on the fire: _it is_ an offering made by fire, of a sweet savour unto the LORD.
+<sup>5</sup> And Aaron’s sons shall burn it on the altar upon the burnt sacrifice, which _is_ upon the wood that _is_ on the fire: _it is_ an offering made by fire, of a sweet savour unto the LORD.
 
 <sup>6</sup> And if his offering for a sacrifice of peace offering unto the LORD _be_ of the flock; male or female, he shall offer it without blemish.
 <sup>7</sup> If he offer a lamb for his offering, then shall he offer it before the LORD.
-<sup>8</sup> And he shall lay his hand upon the head of his offering, and kill it before the tabernacle of the congregation: and Aaron's sons shall sprinkle the blood thereof round about upon the altar.
+<sup>8</sup> And he shall lay his hand upon the head of his offering, and kill it before the tabernacle of the congregation: and Aaron’s sons shall sprinkle the blood thereof round about upon the altar.
 <sup>9</sup> And he shall offer of the sacrifice of the peace offering an offering made by fire unto the LORD; the fat thereof, _and_ the whole rump, it shall he take off hard by the backbone; and the fat that covereth the inwards, and all the fat that _is_ upon the inwards,
 <sup>10</sup> and the two kidneys, and the fat that _is_ upon them, which _is_ by the flanks, and the caul above the liver, with the kidneys, it shall he take away.
 <sup>11</sup> And the priest shall burn it upon the altar: _it is_ the food of the offering made by fire unto the LORD.
@@ -76,7 +76,7 @@
 <sup>13</sup> And he shall lay his hand upon the head of it, and kill it before the tabernacle of the congregation: and the sons of Aaron shall sprinkle the blood thereof upon the altar round about.
 <sup>14</sup> And he shall offer thereof his offering, _even_ an offering made by fire unto the LORD; the fat that covereth the inwards, and all the fat that _is_ upon the inwards,
 <sup>15</sup> and the two kidneys, and the fat that _is_ upon them, which _is_ by the flanks, and the caul above the liver, with the kidneys, it shall he take away.
-<sup>16</sup> And the priest shall burn them upon the altar: _it is_ the food of the offering made by fire for a sweet savour: all the fat _is_ the LORD's.
+<sup>16</sup> And the priest shall burn them upon the altar: _it is_ the food of the offering made by fire for a sweet savour: all the fat _is_ the LORD’s.
 <sup>17</sup> _It shall be_ a perpetual statute for your generations throughout all your dwellings, that ye eat neither fat nor blood.
 
 > - <sup>a</sup> 3. Or, _suet_
@@ -89,8 +89,8 @@
 <sup>2</sup> Speak unto the children of Israel, saying, If a soul shall sin through ignorance against any of the commandments of the LORD _concerning things_ which ought not to be done, and shall do against any of them:
 
 <sup>3</sup> If the priest that is anointed do sin according to the sin of the people; then let him bring for his sin, which he hath sinned, a young bullock without blemish unto the LORD for a sin offering.
-<sup>4</sup> And he shall bring the bullock unto the door of the tabernacle of the congregation before the LORD; and shall lay his hand upon the bullock's head, and kill the bullock before the LORD.
-<sup>5</sup> And the priest that is anointed shall take of the bullock's blood, and bring it to the tabernacle of the congregation:
+<sup>4</sup> And he shall bring the bullock unto the door of the tabernacle of the congregation before the LORD; and shall lay his hand upon the bullock’s head, and kill the bullock before the LORD.
+<sup>5</sup> And the priest that is anointed shall take of the bullock’s blood, and bring it to the tabernacle of the congregation:
 <sup>6</sup> and the priest shall dip his finger in the blood, and sprinkle of the blood seven times before the LORD, before the vail of the sanctuary.
 <sup>7</sup> And the priest shall put _some_ of the blood upon the horns of the altar of sweet incense before the LORD, which _is_ in the tabernacle of the congregation; and shall pour all the blood of the bullock at the bottom of the altar of the burnt offering, which _is at_ the door of the tabernacle of the congregation.
 <sup>8</sup> And he shall take off from it all the fat of the bullock for the sin offering; the fat that covereth the inwards, and all the fat that _is_ upon the inwards,
@@ -102,7 +102,7 @@
 <sup>13</sup> And if the whole congregation of Israel sin through ignorance, and the thing be hid from the eyes of the assembly, and they have done _somewhat against_ any of the commandments of the LORD _concerning things_ which should not be done, and are guilty;
 <sup>14</sup> when the sin, which they have sinned against it, is known, then the congregation shall offer a young bullock for the sin, and bring him before the tabernacle of the congregation.
 <sup>15</sup> And the elders of the congregation shall lay their hands upon the head of the bullock before the LORD: and the bullock shall be killed before the LORD.
-<sup>16</sup> And the priest that is anointed shall bring of the bullock's blood to the tabernacle of the congregation:
+<sup>16</sup> And the priest that is anointed shall bring of the bullock’s blood to the tabernacle of the congregation:
 <sup>17</sup> and the priest shall dip his finger _in some_ of the blood, and sprinkle _it_ seven times before the LORD, _even_ before the vail.
 <sup>18</sup> And he shall put _some_ of the blood upon the horns of the altar which _is_ before the LORD, that _is_ in the tabernacle of the congregation, and shall pour out all the blood at the bottom of the altar of the burnt offering, which _is at_ the door of the tabernacle of the congregation.
 <sup>19</sup> And he shall take all his fat from him, and burn _it_ upon the altar.
@@ -145,7 +145,7 @@
 
 <sup>11</sup> But if he be not able to bring two turtledoves, or two young pigeons, then he that sinned shall bring for his offering the tenth part of an ephah of fine flour for a sin offering; he shall put no oil upon it, neither shall he put _any_ frankincense thereon: for it _is_ a sin offering.
 <sup>12</sup> Then shall he bring it to the priest, and the priest shall take his handful of it, _even_ a memorial thereof, and burn _it_ on the altar, according to the offerings made by fire unto the LORD: it _is_ a sin offering.
-<sup>13</sup> And the priest shall make an atonement for him as touching his sin that he hath sinned in one of these, and it shall be forgiven him: and _the remnant_ shall be the priest's, as a meat offering.
+<sup>13</sup> And the priest shall make an atonement for him as touching his sin that he hath sinned in one of these, and it shall be forgiven him: and _the remnant_ shall be the priest’s, as a meat offering.
 
 ### The Trespass Offering
 
@@ -213,8 +213,8 @@
 <sup>6</sup> Every male among the priests shall eat thereof: it shall be eaten in the holy place: it _is_ most holy.
 <sup>7</sup> As the sin offering _is_, so _is_ the trespass offering: _there is_ one law for them: the priest that maketh atonement therewith shall have _it_.
 
-<sup>8</sup> And the priest that offereth any man's burnt offering, _even_ the priest shall have to himself the skin of the burnt offering which he hath offered.
-<sup>9</sup> And all the meat offering that is baken in the oven, and all that is dressed in the fryingpan, and in the pan,<sup>a</sup> shall be the priest's that offereth it.
+<sup>8</sup> And the priest that offereth any man’s burnt offering, _even_ the priest shall have to himself the skin of the burnt offering which he hath offered.
+<sup>9</sup> And all the meat offering that is baken in the oven, and all that is dressed in the fryingpan, and in the pan,<sup>a</sup> shall be the priest’s that offereth it.
 <sup>10</sup> And every meat offering, mingled with oil, and dry, shall all the sons of Aaron have, one _as much_ as another.
 
 ### The Peace Offerings
@@ -222,7 +222,7 @@
 <sup>11</sup> And this _is_ the law of the sacrifice of peace offerings, which he shall offer unto the LORD.
 <sup>12</sup> If he offer it for a thanksgiving, then he shall offer with the sacrifice of thanksgiving unleavened cakes mingled with oil, and unleavened wafers anointed with oil, and cakes mingled with oil, of fine flour, fried.
 <sup>13</sup> Besides the cakes, he shall offer _for_ his offering leavened bread with the sacrifice of thanksgiving of his peace offerings.
-<sup>14</sup> And of it he shall offer one out of the whole oblation _for_ an heave offering unto the LORD, _and_ it shall be the priest's that sprinkleth the blood of the peace offerings.
+<sup>14</sup> And of it he shall offer one out of the whole oblation _for_ an heave offering unto the LORD, _and_ it shall be the priest’s that sprinkleth the blood of the peace offerings.
 <sup>15</sup> And the flesh of the sacrifice of his peace offerings for thanksgiving shall be eaten the same day that it is offered; he shall not leave any of it until the morning.
 
 <sup>16</sup> But if the sacrifice of his offering _be_ a vow, or a voluntary offering, it shall be eaten the same day that he offereth his sacrifice: and on the morrow also the remainder of it shall be eaten:
@@ -243,12 +243,12 @@
 <sup>28</sup> And the LORD spake unto Moses, saying,
 <sup>29</sup> Speak unto the children of Israel, saying, He that offereth the sacrifice of his peace offerings unto the LORD shall bring his oblation unto the LORD of the sacrifice of his peace offerings.
 <sup>30</sup> His own hands shall bring the offerings of the LORD made by fire, the fat with the breast, it shall he bring, that the breast may be waved _for_ a wave offering before the LORD.
-<sup>31</sup> And the priest shall burn the fat upon the altar: but the breast shall be Aaron's and his sons'.
+<sup>31</sup> And the priest shall burn the fat upon the altar: but the breast shall be Aaron’s and his sons’.
 <sup>32</sup> And the right shoulder shall ye give unto the priest _for_ an heave offering of the sacrifices of your peace offerings.
 <sup>33</sup> He among the sons of Aaron, that offereth the blood of the peace offerings, and the fat, shall have the right shoulder for _his_ part.
 <sup>34</sup> For the wave breast and the heave shoulder have I taken of the children of Israel from off the sacrifices of their peace offerings, and have given them unto Aaron the priest and unto his sons by a statute for ever from among the children of Israel.
 
-<sup>35</sup> This _is the portion_ of the anointing of Aaron, and of the anointing of his sons, out of the offerings of the LORD made by fire, in the day _when_ he presented them to minister unto the LORD in the priest's office;
+<sup>35</sup> This _is the portion_ of the anointing of Aaron, and of the anointing of his sons, out of the offerings of the LORD made by fire, in the day _when_ he presented them to minister unto the LORD in the priest’s office;
 <sup>36</sup> which the LORD commanded to be given them of the children of Israel, in the day that he anointed them, _by_ a statute for ever throughout their generations.
 
 <sup>37</sup> This _is_ the law of the burnt offering, of the meat offering, and of the sin offering, and of the trespass offering, and of the consecrations, and of the sacrifice of the peace offerings;
@@ -276,8 +276,8 @@
 
 <sup>10</sup> And Moses took the anointing oil, and anointed the tabernacle and all that _was_ therein, and sanctified them.
 <sup>11</sup> And he sprinkled thereof upon the altar seven times, and anointed the altar and all his vessels, both the laver and his foot, to sanctify them.
-<sup>12</sup> And he poured of the anointing oil upon Aaron's head, and anointed him, to sanctify him.
-<sup>13</sup> And Moses brought Aaron's sons, and put coats upon them, and girded them with girdles, and put bonnets<sup>a</sup> upon them; as the LORD commanded Moses.
+<sup>12</sup> And he poured of the anointing oil upon Aaron’s head, and anointed him, to sanctify him.
+<sup>13</sup> And Moses brought Aaron’s sons, and put coats upon them, and girded them with girdles, and put bonnets<sup>a</sup> upon them; as the LORD commanded Moses.
 
 <sup>14</sup> And he brought the bullock for the sin offering: and Aaron and his sons laid their hands upon the head of the bullock for the sin offering.
 <sup>15</sup> And he slew _it_; and Moses took the blood, and put _it_ upon the horns of the altar round about with his finger, and purified the altar, and poured the blood at the bottom of the altar, and sanctified it, to make reconciliation upon it.
@@ -290,14 +290,14 @@
 <sup>21</sup> And he washed the inwards and the legs in water; and Moses burnt the whole ram upon the altar: it _was_ a burnt sacrifice for a sweet savour, _and_ an offering made by fire unto the LORD; as the LORD commanded Moses.
 
 <sup>22</sup> And he brought the other ram, the ram of consecration: and Aaron and his sons laid their hands upon the head of the ram.
-<sup>23</sup> And he slew _it_; and Moses took of the blood of it, and put _it_ upon the tip of Aaron's right ear, and upon the thumb of his right hand, and upon the great toe of his right foot.
-<sup>24</sup> And he brought Aaron's sons, and Moses put of the blood upon the tip of their right ear, and upon the thumbs of their right hands, and upon the great toes of their right feet: and Moses sprinkled the blood upon the altar round about.
+<sup>23</sup> And he slew _it_; and Moses took of the blood of it, and put _it_ upon the tip of Aaron’s right ear, and upon the thumb of his right hand, and upon the great toe of his right foot.
+<sup>24</sup> And he brought Aaron’s sons, and Moses put of the blood upon the tip of their right ear, and upon the thumbs of their right hands, and upon the great toes of their right feet: and Moses sprinkled the blood upon the altar round about.
 <sup>25</sup> And he took the fat, and the rump, and all the fat that _was_ upon the inwards, and the caul _above_ the liver, and the two kidneys, and their fat, and the right shoulder:
 <sup>26</sup> and out of the basket of unleavened bread, that _was_ before the LORD, he took one unleavened cake, and a cake of oiled bread, and one wafer, and put _them_ on the fat, and upon the right shoulder:
-<sup>27</sup> and he put all upon Aaron's hands, and upon his sons' hands, and waved them _for_ a wave offering before the LORD.
+<sup>27</sup> and he put all upon Aaron’s hands, and upon his sons’ hands, and waved them _for_ a wave offering before the LORD.
 <sup>28</sup> And Moses took them from off their hands, and burnt _them_ on the altar upon the burnt offering: they _were_ consecrations for a sweet savour: it _is_ an offering made by fire unto the LORD.
-<sup>29</sup> And Moses took the breast, and waved it _for_ a wave offering before the LORD: _for_ of the ram of consecration it was Moses' part; as the LORD commanded Moses.
-<sup>30</sup> And Moses took of the anointing oil, and of the blood which _was_ upon the altar, and sprinkled _it_ upon Aaron, _and_ upon his garments, and upon his sons, and upon his sons' garments with him; and sanctified Aaron, _and_ his garments, and his sons, and his sons' garments with him.
+<sup>29</sup> And Moses took the breast, and waved it _for_ a wave offering before the LORD: _for_ of the ram of consecration it was Moses’ part; as the LORD commanded Moses.
+<sup>30</sup> And Moses took of the anointing oil, and of the blood which _was_ upon the altar, and sprinkled _it_ upon Aaron, _and_ upon his garments, and upon his sons, and upon his sons’ garments with him; and sanctified Aaron, _and_ his garments, and his sons, and his sons’ garments with him.
 
 <sup>31</sup> And Moses said unto Aaron and to his sons, Boil the flesh _at_ the door of the tabernacle of the congregation: and there eat it with the bread that _is_ in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it.
 <sup>32</sup> And that which remaineth of the flesh and of the bread shall ye burn with fire.
@@ -325,14 +325,14 @@
 <sup>9</sup> And the sons of Aaron brought the blood unto him: and he dipped his finger in the blood, and put _it_ upon the horns of the altar, and poured out the blood at the bottom of the altar:
 <sup>10</sup> but the fat, and the kidneys, and the caul above the liver of the sin offering, he burnt upon the altar; as the LORD commanded Moses.
 <sup>11</sup> And the flesh and the hide he burnt with fire without the camp.
-<sup>12</sup> And he slew the burnt offering; and Aaron's sons presented unto him the blood, which he sprinkled round about upon the altar.
+<sup>12</sup> And he slew the burnt offering; and Aaron’s sons presented unto him the blood, which he sprinkled round about upon the altar.
 <sup>13</sup> And they presented the burnt offering unto him, with the pieces thereof, and the head: and he burnt _them_ upon the altar.
 <sup>14</sup> And he did wash the inwards and the legs, and burnt _them_ upon the burnt offering on the altar.
 
-<sup>15</sup> And he brought the people's offering, and took the goat, which _was_ the sin offering for the people, and slew it, and offered it for sin, as the first.
+<sup>15</sup> And he brought the people’s offering, and took the goat, which _was_ the sin offering for the people, and slew it, and offered it for sin, as the first.
 <sup>16</sup> And he brought the burnt offering, and offered it according to the manner.<sup>a</sup>
 <sup>17</sup> And he brought the meat offering, and took an handful thereof, and burnt _it_ upon the altar, beside the burnt sacrifice of the morning.
-<sup>18</sup> He slew also the bullock and the ram _for_ a sacrifice of peace offerings, which _was_ for the people: and Aaron's sons presented unto him the blood, which he sprinkled upon the altar round about,
+<sup>18</sup> He slew also the bullock and the ram _for_ a sacrifice of peace offerings, which _was_ for the people: and Aaron’s sons presented unto him the blood, which he sprinkled upon the altar round about,
 <sup>19</sup> and the fat of the bullock and of the ram, the rump, and that which covereth _the inwards_, and the kidneys, and the caul _above_ the liver:
 <sup>20</sup> and they put the fat upon the breasts, and he burnt the fat upon the altar:
 <sup>21</sup> and the breasts and the right shoulder Aaron waved _for_ a wave offering before the LORD; as Moses commanded.
@@ -361,9 +361,9 @@
 <sup>11</sup> and that ye may teach the children of Israel all the statutes which the LORD hath spoken unto them by the hand of Moses.
 
 <sup>12</sup> And Moses spake unto Aaron, and unto Eleazar and unto Ithamar, his sons that were left, Take the meat offering that remaineth of the offerings of the LORD made by fire, and eat it without leaven beside the altar: for it _is_ most holy:
-<sup>13</sup> and ye shall eat it in the holy place, because it _is_ thy due, and thy sons' due, of the sacrifices of the LORD made by fire: for so I am commanded.
-<sup>14</sup> And the wave breast and heave shoulder shall ye eat in a clean place; thou, and thy sons, and thy daughters with thee: for _they be_ thy due, and thy sons' due, _which_ are given out of the sacrifices of peace offerings of the children of Israel.
-<sup>15</sup> The heave shoulder and the wave breast shall they bring with the offerings made by fire of the fat, to wave _it for_ a wave offering before the LORD; and it shall be thine, and thy sons' with thee, by a statute for ever; as the LORD hath commanded.
+<sup>13</sup> and ye shall eat it in the holy place, because it _is_ thy due, and thy sons’ due, of the sacrifices of the LORD made by fire: for so I am commanded.
+<sup>14</sup> And the wave breast and heave shoulder shall ye eat in a clean place; thou, and thy sons, and thy daughters with thee: for _they be_ thy due, and thy sons’ due, _which_ are given out of the sacrifices of peace offerings of the children of Israel.
+<sup>15</sup> The heave shoulder and the wave breast shall they bring with the offerings made by fire of the fat, to wave _it for_ a wave offering before the LORD; and it shall be thine, and thy sons’ with thee, by a statute for ever; as the LORD hath commanded.
 
 <sup>16</sup> And Moses diligently sought the goat of the sin offering, and, behold, it was burnt: and he was angry with Eleazar and Ithamar, the sons of Aaron _which were_ left _alive_, saying,
 <sup>17</sup> Wherefore have ye not eaten the sin offering in the holy place, seeing it _is_ most holy, and _God_ hath given it you to bear the iniquity of the congregation, to make atonement for them before the LORD?
@@ -541,12 +541,12 @@
 <sup>10</sup> And on the eighth day he shall take two he lambs without blemish, and one ewe lamb of the first year<sup>c</sup> without blemish, and three tenth deals of fine flour _for_ a meat offering, mingled with oil, and one log of oil.
 <sup>11</sup> And the priest that maketh _him_ clean shall present the man that is to be made clean, and those things, before the LORD, _at_ the door of the tabernacle of the congregation:
 <sup>12</sup> and the priest shall take one he lamb, and offer him for a trespass offering, and the log of oil, and wave them _for_ a wave offering before the LORD:
-<sup>13</sup> and he shall slay the lamb in the place where he shall kill the sin offering and the burnt offering, in the holy place: for as the sin offering _is_ the priest's, _so is_ the trespass offering: it _is_ most holy:
+<sup>13</sup> and he shall slay the lamb in the place where he shall kill the sin offering and the burnt offering, in the holy place: for as the sin offering _is_ the priest’s, _so is_ the trespass offering: it _is_ most holy:
 <sup>14</sup> and the priest shall take _some_ of the blood of the trespass offering, and the priest shall put _it_ upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot:
 <sup>15</sup> and the priest shall take _some_ of the log of oil, and pour _it_ into the palm of his own left hand:
 <sup>16</sup> and the priest shall dip his right finger in the oil that _is_ in his left hand, and shall sprinkle of the oil with his finger seven times before the LORD:
 <sup>17</sup> and of the rest of the oil that _is_ in his hand shall the priest put upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the blood of the trespass offering:
-<sup>18</sup> and the remnant of the oil that _is_ in the priest's hand he shall pour upon the head of him that is to be cleansed: and the priest shall make an atonement for him before the LORD.
+<sup>18</sup> and the remnant of the oil that _is_ in the priest’s hand he shall pour upon the head of him that is to be cleansed: and the priest shall make an atonement for him before the LORD.
 <sup>19</sup> And the priest shall offer the sin offering, and make an atonement for him that is to be cleansed from his uncleanness; and afterward he shall kill the burnt offering:
 <sup>20</sup> and the priest shall offer the burnt offering and the meat offering upon the altar: and the priest shall make an atonement for him, and he shall be clean.
 <sup>21</sup> And if he _be_ poor, and cannot get so much;<sup>d</sup> then he shall take one lamb _for_ a trespass offering to be waved,<sup>e</sup> to make an atonement for him, and one tenth deal of fine flour mingled with oil for a meat offering, and a log of oil;
@@ -557,7 +557,7 @@
 <sup>26</sup> and the priest shall pour of the oil into the palm of his own left hand:
 <sup>27</sup> and the priest shall sprinkle with his right finger _some_ of the oil that _is_ in his left hand seven times before the LORD:
 <sup>28</sup> and the priest shall put of the oil that _is_ in his hand upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the place of the blood of the trespass offering:
-<sup>29</sup> and the rest of the oil that _is_ in the priest's hand he shall put upon the head of him that is to be cleansed, to make an atonement for him before the LORD.
+<sup>29</sup> and the rest of the oil that _is_ in the priest’s hand he shall put upon the head of him that is to be cleansed, to make an atonement for him before the LORD.
 <sup>30</sup> And he shall offer the one of the turtledoves, or of the young pigeons, such as he can get;
 <sup>31</sup> _even_ such as he is able to get, the one _for_ a sin offering, and the other _for_ a burnt offering, with the meat offering: and the priest shall make an atonement for him that is to be cleansed before the LORD.
 <sup>32</sup> This _is_ the law _of him_ in whom _is_ the plague of leprosy, whose hand is not able to get _that which pertaineth_ to his cleansing.
@@ -616,7 +616,7 @@
 <sup>13</sup> And when he that hath an issue is cleansed of his issue; then he shall number to himself seven days for his cleansing, and wash his clothes, and bathe his flesh in running water, and shall be clean.
 <sup>14</sup> And on the eighth day he shall take to him two turtledoves, or two young pigeons, and come before the LORD unto the door of the tabernacle of the congregation, and give them unto the priest:
 <sup>15</sup> and the priest shall offer them, the one _for_ a sin offering, and the other _for_ a burnt offering; and the priest shall make an atonement for him before the LORD for his issue.
-<sup>16</sup> And if any man's seed of copulation go out from him, then he shall wash all his flesh in water, and be unclean until the even.
+<sup>16</sup> And if any man’s seed of copulation go out from him, then he shall wash all his flesh in water, and be unclean until the even.
 <sup>17</sup> And every garment, and every skin, whereon is the seed of copulation, shall be washed with water, and be unclean until the even.
 <sup>18</sup> The woman also with whom man shall lie _with_ seed of copulation, they shall _both_ bathe _themselves_ in water, and be unclean until the even.
 
@@ -652,7 +652,7 @@
 <sup>6</sup> And Aaron shall offer his bullock of the sin offering, which _is_ for himself, and make an atonement for himself, and for his house.
 <sup>7</sup> And he shall take the two goats, and present them before the LORD _at_ the door of the tabernacle of the congregation.
 <sup>8</sup> And Aaron shall cast lots upon the two goats; one lot for the LORD, and the other lot for the scapegoat.<sup>a</sup>
-<sup>9</sup> And Aaron shall bring the goat upon which the LORD's lot fell,<sup>b</sup> and offer him _for_ a sin offering.
+<sup>9</sup> And Aaron shall bring the goat upon which the LORD’s lot fell,<sup>b</sup> and offer him _for_ a sin offering.
 <sup>10</sup> But the goat, on which the lot fell to be the scapegoat, shall be presented alive before the LORD, to make an atonement with him, _and_ to let him go for a scapegoat into the wilderness.
 <sup>11</sup> And Aaron shall bring the bullock of the sin offering, which _is_ for himself, and shall make an atonement for himself, and for his house, and shall kill the bullock of the sin offering which _is_ for himself:
 <sup>12</sup> and he shall take a censer full of burning coals of fire from off the altar before the LORD, and his hands full of sweet incense beaten small, and bring _it_ within the vail:
@@ -678,7 +678,7 @@
 <sup>29</sup> And _this_ shall be a statute for ever unto you: _that_ in the seventh month, on the tenth _day_ of the month, ye shall afflict your souls, and do no work at all, _whether it be_ one of your own country, or a stranger that sojourneth among you:
 <sup>30</sup> for on that day shall _the priest_ make an atonement for you, to cleanse you, _that_ ye may be clean from all your sins before the LORD.
 <sup>31</sup> It _shall be_ a sabbath of rest unto you, and ye shall afflict your souls, by a statute for ever.
-<sup>32</sup> And the priest, whom he shall anoint, and whom he shall consecrate<sup>e</sup> to minister in the priest's office in his father's stead, shall make the atonement, and shall put on the linen clothes, _even_ the holy garments:
+<sup>32</sup> And the priest, whom he shall anoint, and whom he shall consecrate<sup>e</sup> to minister in the priest’s office in his father’s stead, shall make the atonement, and shall put on the linen clothes, _even_ the holy garments:
 <sup>33</sup> and he shall make an atonement for the holy sanctuary, and he shall make an atonement for the tabernacle of the congregation, and for the altar, and he shall make an atonement for the priests, and for all the people of the congregation.
 <sup>34</sup> And this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the LORD commanded Moses.
 
@@ -730,19 +730,19 @@ This _is_ the thing which the LORD hath commanded, saying,
 
 <sup>6</sup> None of you shall approach to any that is near of kin to him, to uncover _their_ nakedness: I _am_ the LORD.
 <sup>7</sup> The nakedness of thy father, or the nakedness of thy mother, shalt thou not uncover: she _is_ thy mother; thou shalt not uncover her nakedness.
-<sup>8</sup> The nakedness of thy father's wife shalt thou not uncover: it _is_ thy father's nakedness.
+<sup>8</sup> The nakedness of thy father’s wife shalt thou not uncover: it _is_ thy father’s nakedness.
 <sup>9</sup> The nakedness of thy sister, the daughter of thy father, or daughter of thy mother, _whether she be_ born at home, or born abroad, _even_ their nakedness thou shalt not uncover.
-<sup>10</sup> The nakedness of thy son's daughter, or of thy daughter's daughter, _even_ their nakedness thou shalt not uncover: for their's _is_ thine own nakedness.
-<sup>11</sup> The nakedness of thy father's wife's daughter, begotten of thy father, she _is_ thy sister, thou shalt not uncover her nakedness.
-<sup>12</sup> Thou shalt not uncover the nakedness of thy father's sister: she _is_ thy father's near kinswoman.
-<sup>13</sup> Thou shalt not uncover the nakedness of thy mother's sister: for she _is_ thy mother's near kinswoman.
-<sup>14</sup> Thou shalt not uncover the nakedness of thy father's brother, thou shalt not approach to his wife: she _is_ thine aunt.
-<sup>15</sup> Thou shalt not uncover the nakedness of thy daughter in law: she _is_ thy son's wife; thou shalt not uncover her nakedness.
-<sup>16</sup> Thou shalt not uncover the nakedness of thy brother's wife: it _is_ thy brother's nakedness.
-<sup>17</sup> Thou shalt not uncover the nakedness of a woman and her daughter, neither shalt thou take her son's daughter, or her daughter's daughter, to uncover her nakedness; _for_ they _are_ her near kinswomen: it _is_ wickedness.
+<sup>10</sup> The nakedness of thy son’s daughter, or of thy daughter’s daughter, _even_ their nakedness thou shalt not uncover: for their’s _is_ thine own nakedness.
+<sup>11</sup> The nakedness of thy father’s wife’s daughter, begotten of thy father, she _is_ thy sister, thou shalt not uncover her nakedness.
+<sup>12</sup> Thou shalt not uncover the nakedness of thy father’s sister: she _is_ thy father’s near kinswoman.
+<sup>13</sup> Thou shalt not uncover the nakedness of thy mother’s sister: for she _is_ thy mother’s near kinswoman.
+<sup>14</sup> Thou shalt not uncover the nakedness of thy father’s brother, thou shalt not approach to his wife: she _is_ thine aunt.
+<sup>15</sup> Thou shalt not uncover the nakedness of thy daughter in law: she _is_ thy son’s wife; thou shalt not uncover her nakedness.
+<sup>16</sup> Thou shalt not uncover the nakedness of thy brother’s wife: it _is_ thy brother’s nakedness.
+<sup>17</sup> Thou shalt not uncover the nakedness of a woman and her daughter, neither shalt thou take her son’s daughter, or her daughter’s daughter, to uncover her nakedness; _for_ they _are_ her near kinswomen: it _is_ wickedness.
 <sup>18</sup> Neither shalt thou take a wife to her sister, to vex _her_, to uncover her nakedness, beside the other in her life _time_.
 <sup>19</sup> Also thou shalt not approach unto a woman to uncover her nakedness, as long as she is put apart for her uncleanness.
-<sup>20</sup> Moreover thou shalt not lie carnally with thy neighbour's wife, to defile thyself with her.
+<sup>20</sup> Moreover thou shalt not lie carnally with thy neighbour’s wife, to defile thyself with her.
 <sup>21</sup> And thou shalt not let any of thy seed pass through _the fire_ to Molech, neither shalt thou profane the name of thy God: I _am_ the LORD.
 <sup>22</sup> Thou shalt not lie with mankind, as with womankind: it _is_ abomination.
 <sup>23</sup> Neither shalt thou lie with any beast to defile thyself therewith: neither shall any woman stand before a beast to lie down thereto: it _is_ confusion.
@@ -841,18 +841,18 @@ This _is_ the thing which the LORD hath commanded, saying,
 
 <sup>9</sup> For every one that curseth his father or his mother shall be surely put to death: he hath cursed his father or his mother; his blood _shall be_ upon him.
 
-<sup>10</sup> And the man that committeth adultery with _another_ man's wife, _even he_ that committeth adultery with his neighbour's wife, the adulterer and the adulteress shall surely be put to death.
-<sup>11</sup> And the man that lieth with his father's wife hath uncovered his father's nakedness: both of them shall surely be put to death; their blood _shall be_ upon them.
+<sup>10</sup> And the man that committeth adultery with _another_ man’s wife, _even he_ that committeth adultery with his neighbour’s wife, the adulterer and the adulteress shall surely be put to death.
+<sup>11</sup> And the man that lieth with his father’s wife hath uncovered his father’s nakedness: both of them shall surely be put to death; their blood _shall be_ upon them.
 <sup>12</sup> And if a man lie with his daughter in law, both of them shall surely be put to death: they have wrought confusion; their blood _shall be_ upon them.
 <sup>13</sup> If a man also lie with mankind, as he lieth with a woman, both of them have committed an abomination: they shall surely be put to death; their blood _shall be_ upon them.
 <sup>14</sup> And if a man take a wife and her mother, it _is_ wickedness: they shall be burnt with fire, both he and they; that there be no wickedness among you.
 <sup>15</sup> And if a man lie with a beast, he shall surely be put to death: and ye shall slay the beast.
 <sup>16</sup> And if a woman approach unto any beast, and lie down thereto, thou shalt kill the woman, and the beast: they shall surely be put to death; their blood _shall be_ upon them.
-<sup>17</sup> And if a man shall take his sister, his father's daughter, or his mother's daughter, and see her nakedness, and she see his nakedness; it _is_ a wicked thing; and they shall be cut off in the sight of their people: he hath uncovered his sister's nakedness; he shall bear his iniquity.
+<sup>17</sup> And if a man shall take his sister, his father’s daughter, or his mother’s daughter, and see her nakedness, and she see his nakedness; it _is_ a wicked thing; and they shall be cut off in the sight of their people: he hath uncovered his sister’s nakedness; he shall bear his iniquity.
 <sup>18</sup> And if a man shall lie with a woman having her sickness, and shall uncover her nakedness; he hath discovered<sup>a</sup> her fountain, and she hath uncovered the fountain of her blood: and both of them shall be cut off from among their people.
-<sup>19</sup> And thou shalt not uncover the nakedness of thy mother's sister, nor of thy father's sister: for he uncovereth<sup>b</sup> his near kin: they shall bear their iniquity.
-<sup>20</sup> And if a man shall lie with his uncle's wife, he hath uncovered his uncle's nakedness: they shall bear their sin; they shall die childless.
-<sup>21</sup> And if a man shall take his brother's wife, it _is_ an unclean thing:<sup>c</sup> he hath uncovered his brother's nakedness; they shall be childless.
+<sup>19</sup> And thou shalt not uncover the nakedness of thy mother’s sister, nor of thy father’s sister: for he uncovereth<sup>b</sup> his near kin: they shall bear their iniquity.
+<sup>20</sup> And if a man shall lie with his uncle’s wife, he hath uncovered his uncle’s nakedness: they shall bear their sin; they shall die childless.
+<sup>21</sup> And if a man shall take his brother’s wife, it _is_ an unclean thing:<sup>c</sup> he hath uncovered his brother’s nakedness; they shall be childless.
 
 <sup>22</sup> Ye shall therefore keep all my statutes, and all my judgments, and do them: that the land, whither I bring you to dwell therein, spue you not out.
 <sup>23</sup> And ye shall not walk in the manners of the nation, which I cast out before you: for they committed all these things, and therefore I abhorred them.
@@ -916,8 +916,8 @@ This _is_ the thing which the LORD hath commanded, saying,
 
 <sup>10</sup> There shall no stranger eat _of_ the holy thing: a sojourner of the priest, or an hired servant, shall not eat _of_ the holy thing.
 <sup>11</sup> But if the priest buy _any_ soul with his money,<sup>b</sup> he shall eat of it, and he that is born in his house: they shall eat of his meat.
-<sup>12</sup> If the priest's daughter also be _married_ unto a stranger,<sup>c</sup> she may not eat of an offering of the holy things.
-<sup>13</sup> But if the priest's daughter be a widow, or divorced, and have no child, and is returned unto her father's house, as in her youth, she shall eat of her father's meat: but there shall no stranger eat thereof.
+<sup>12</sup> If the priest’s daughter also be _married_ unto a stranger,<sup>c</sup> she may not eat of an offering of the holy things.
+<sup>13</sup> But if the priest’s daughter be a widow, or divorced, and have no child, and is returned unto her father’s house, as in her youth, she shall eat of her father’s meat: but there shall no stranger eat thereof.
 
 <sup>14</sup> And if a man eat _of_ the holy thing unwittingly, then he shall put the fifth _part_ thereof unto it, and shall give _it_ unto the priest with the holy thing.
 <sup>15</sup> And they shall not profane the holy things of the children of Israel, which they offer unto the LORD;
@@ -931,7 +931,7 @@ This _is_ the thing which the LORD hath commanded, saying,
 <sup>22</sup> Blind, or broken, or maimed, or having a wen, or scurvy, or scabbed, ye shall not offer these unto the LORD, nor make an offering by fire of them upon the altar unto the LORD.
 <sup>23</sup> Either a bullock or a lamb<sup>f</sup> that hath any thing superfluous or lacking in his parts, that mayest thou offer _for_ a freewill offering; but for a vow it shall not be accepted.
 <sup>24</sup> Ye shall not offer unto the LORD that which is bruised, or crushed, or broken, or cut; neither shall ye make _any offering thereof_ in your land.
-<sup>25</sup> Neither from a stranger's hand shall ye offer the bread of your God of any of these; because their corruption _is_ in them, _and_ blemishes _be_ in them: they shall not be accepted for you.
+<sup>25</sup> Neither from a stranger’s hand shall ye offer the bread of your God of any of these; because their corruption _is_ in them, _and_ blemishes _be_ in them: they shall not be accepted for you.
 
 <sup>26</sup> And the LORD spake unto Moses, saying,
 <sup>27</sup> When a bullock, or a sheep, or a goat, is brought forth, then it shall be seven days under the dam; and from the eighth day and thenceforth it shall be accepted for an offering made by fire unto the LORD.
@@ -959,7 +959,7 @@ This _is_ the thing which the LORD hath commanded, saying,
 <sup>3</sup> Six days shall work be done: but the seventh day _is_ the sabbath of rest, an holy convocation; ye shall do no work _therein:_ it _is_ the sabbath of the LORD in all your dwellings.
 
 <sup>4</sup> These _are_ the feasts of the LORD, _even_ holy convocations, which ye shall proclaim in their seasons.
-<sup>5</sup> In the fourteenth _day_ of the first month at even _is_ the LORD's passover.
+<sup>5</sup> In the fourteenth _day_ of the first month at even _is_ the LORD’s passover.
 <sup>6</sup> And on the fifteenth day of the same month _is_ the feast of unleavened bread unto the LORD: seven days ye must eat unleavened bread.
 <sup>7</sup> In the first day ye shall have an holy convocation: ye shall do no servile work therein.
 <sup>8</sup> But ye shall offer an offering made by fire unto the LORD seven days: in the seventh day _is_ an holy convocation: ye shall do no servile work _therein_.
@@ -1023,10 +1023,10 @@ This _is_ the thing which the LORD hath commanded, saying,
 <sup>6</sup> And thou shalt set them in two rows, six on a row, upon the pure table before the LORD.
 <sup>7</sup> And thou shalt put pure frankincense upon _each_ row, that it may be on the bread for a memorial, _even_ an offering made by fire unto the LORD.
 <sup>8</sup> Every sabbath he shall set it in order before the LORD continually, _being taken_ from the children of Israel by an everlasting covenant.
-<sup>9</sup> And it shall be Aaron's and his sons'; and they shall eat it in the holy place: for it _is_ most holy unto him of the offerings of the LORD made by fire by a perpetual statute.
+<sup>9</sup> And it shall be Aaron’s and his sons’; and they shall eat it in the holy place: for it _is_ most holy unto him of the offerings of the LORD made by fire by a perpetual statute.
 
 <sup>10</sup> And the son of an Israelitish woman, whose father _was_ an Egyptian, went out among the children of Israel: and this son of the Israelitish _woman_ and a man of Israel strove together in the camp;
-<sup>11</sup> and the Israelitish woman's son blasphemed the name _of the_ _LORD_, and cursed. And they brought him unto Moses: (and his mother's name _was_ Shelomith, the daughter of Dibri, of the tribe of Dan:)
+<sup>11</sup> and the Israelitish woman’s son blasphemed the name _of the_ _LORD_, and cursed. And they brought him unto Moses: (and his mother’s name _was_ Shelomith, the daughter of Dibri, of the tribe of Dan:)
 <sup>12</sup> and they put him in ward, that the mind of the LORD might be shewed them.<sup>a</sup>
 <sup>13</sup> And the LORD spake unto Moses, saying,
 <sup>14</sup> Bring forth him that hath cursed without the camp; and let all that heard _him_ lay their hands upon his head, and let all the congregation stone him.
@@ -1064,7 +1064,7 @@ This _is_ the thing which the LORD hath commanded, saying,
 <sup>11</sup> A jubile shall that fiftieth year be unto you: ye shall not sow, neither reap that which groweth of itself in it, nor gather _the grapes_ in it of thy vine undressed.
 <sup>12</sup> For it _is_ the jubile; it shall be holy unto you: ye shall eat the increase thereof out of the field.
 <sup>13</sup> In the year of this jubile ye shall return every man unto his possession.
-<sup>14</sup> And if thou sell ought unto thy neighbour, or buyest _ought_ of thy neighbour's hand, ye shall not oppress one another:
+<sup>14</sup> And if thou sell ought unto thy neighbour, or buyest _ought_ of thy neighbour’s hand, ye shall not oppress one another:
 <sup>15</sup> according to the number of years after the jubile thou shalt buy of thy neighbour, _and_ according unto the number of years of the fruits he shall sell unto thee:
 <sup>16</sup> according to the multitude of years thou shalt increase the price thereof, and according to the fewness of years thou shalt diminish the price of it: for _according_ to the number _of the years_ of the fruits doth he sell unto thee.
 <sup>17</sup> Ye shall not therefore oppress one another; but thou shalt fear thy God: for I _am_ the LORD your God.
@@ -1103,9 +1103,9 @@ This _is_ the thing which the LORD hath commanded, saying,
 <sup>45</sup> Moreover of the children of the strangers that do sojourn among you, of them shall ye buy, and of their families that _are_ with you, which they begat in your land: and they shall be your possession.
 <sup>46</sup> And ye shall take them as an inheritance for your children after you, to inherit _them for_ a possession; they shall be your bondmen<sup>h</sup> for ever: but over your brethren the children of Israel, ye shall not rule one over another with rigour.
 
-<sup>47</sup> And if a sojourner or stranger wax rich<sup>i</sup> by thee, and thy brother _that dwelleth_ by him wax poor, and sell himself unto the stranger _or_ sojourner by thee, or to the stock of the stranger's family:
+<sup>47</sup> And if a sojourner or stranger wax rich<sup>i</sup> by thee, and thy brother _that dwelleth_ by him wax poor, and sell himself unto the stranger _or_ sojourner by thee, or to the stock of the stranger’s family:
 <sup>48</sup> after that he is sold he may be redeemed again; one of his brethren may redeem him:
-<sup>49</sup> either his uncle, or his uncle's son, may redeem him, or _any_ that is nigh of kin unto him of his family may redeem him; or if he be able, he may redeem himself.
+<sup>49</sup> either his uncle, or his uncle’s son, may redeem him, or _any_ that is nigh of kin unto him of his family may redeem him; or if he be able, he may redeem himself.
 <sup>50</sup> And he shall reckon with him that bought him from the year that he was sold to him unto the year of jubile: and the price of his sale shall be according unto the number of years, according to the time of an hired servant shall it be with him.
 <sup>51</sup> If _there be_ yet many years _behind_, according unto them he shall give again the price of his redemption out of the money that he was bought for.
 <sup>52</sup> And if there remain but few years unto the year of jubile, then he shall count with him, _and_ according unto his years shall he give him again the price of his redemption.
@@ -1166,12 +1166,12 @@ This _is_ the thing which the LORD hath commanded, saying,
 <sup>31</sup> And I will make your cities waste, and bring your sanctuaries unto desolation, and I will not smell the savour of your sweet odours.
 <sup>32</sup> And I will bring the land into desolation: and your enemies which dwell therein shall be astonished at it.
 <sup>33</sup> And I will scatter you among the heathen, and will draw out a sword after you: and your land shall be desolate, and your cities waste.
-<sup>34</sup> Then shall the land enjoy her sabbaths, as long as it lieth desolate, and ye _be_ in your enemies' land; _even_ then shall the land rest, and enjoy her sabbaths.
+<sup>34</sup> Then shall the land enjoy her sabbaths, as long as it lieth desolate, and ye _be_ in your enemies’ land; _even_ then shall the land rest, and enjoy her sabbaths.
 <sup>35</sup> As long as it lieth desolate it shall rest; because it did not rest in your sabbaths, when ye dwelt upon it.
 <sup>36</sup> And upon them that are left _alive_ of you I will send a faintness into their hearts in the lands of their enemies; and the sound of a shaken<sup>f</sup> leaf shall chase them; and they shall flee, as fleeing from a sword; and they shall fall when none pursueth.
 <sup>37</sup> And they shall fall one upon another, as it were before a sword, when none pursueth: and ye shall have no power to stand before your enemies.
 <sup>38</sup> And ye shall perish among the heathen, and the land of your enemies shall eat you up.
-<sup>39</sup> And they that are left of you shall pine away in their iniquity in your enemies' lands; and also in the iniquities of their fathers shall they pine away with them.
+<sup>39</sup> And they that are left of you shall pine away in their iniquity in your enemies’ lands; and also in the iniquities of their fathers shall they pine away with them.
 <sup>40</sup> If they shall confess their iniquity, and the iniquity of their fathers, with their trespass which they trespassed against me, and that also they have walked contrary unto me;
 <sup>41</sup> and _that_ I also have walked contrary unto them, and have brought them into the land of their enemies; if then their uncircumcised hearts be humbled, and they then accept of the punishment of their iniquity:
 <sup>42</sup> then will I remember my covenant with Jacob, and also my covenant with Isaac, and also my covenant with Abraham will I remember; and I will remember the land.
@@ -1214,17 +1214,17 @@ This _is_ the thing which the LORD hath commanded, saying,
 <sup>18</sup> But if he sanctify his field after the jubile, then the priest shall reckon unto him the money according to the years that remain, even unto the year of the jubile, and it shall be abated from thy estimation.
 <sup>19</sup> And if he that sanctified the field will in any wise redeem it, then he shall add the fifth _part_ of the money of thy estimation unto it, and it shall be assured to him.
 <sup>20</sup> And if he will not redeem the field, or if he have sold the field to another man, it shall not be redeemed any more.
-<sup>21</sup> But the field, when it goeth out in the jubile, shall be holy unto the LORD, as a field devoted; the possession thereof shall be the priest's.
+<sup>21</sup> But the field, when it goeth out in the jubile, shall be holy unto the LORD, as a field devoted; the possession thereof shall be the priest’s.
 <sup>22</sup> And if _a man_ sanctify unto the LORD a field which he hath bought, which _is_ not of the fields of his possession;
 <sup>23</sup> then the priest shall reckon unto him the worth of thy estimation, _even_ unto the year of the jubile: and he shall give thine estimation in that day, _as_ a holy thing unto the LORD.
 <sup>24</sup> In the year of the jubile the field shall return unto him of whom it was bought, _even_ to him to whom the possession of the land _did belong_.
 <sup>25</sup> And all thy estimations shall be according to the shekel of the sanctuary: twenty gerahs shall be the shekel.
 
-<sup>26</sup> Only the firstling<sup>b</sup> of the beasts, which should be the LORD's firstling, no man shall sanctify it; whether _it be_ ox, or sheep: it _is_ the LORD's.
+<sup>26</sup> Only the firstling<sup>b</sup> of the beasts, which should be the LORD’s firstling, no man shall sanctify it; whether _it be_ ox, or sheep: it _is_ the LORD’s.
 <sup>27</sup> And if _it be_ of an unclean beast, then he shall redeem _it_ according to thine estimation, and shall add a fifth _part_ of it thereto: or if it be not redeemed, then it shall be sold according to thy estimation.
 <sup>28</sup> Notwithstanding no devoted thing, that a man shall devote unto the LORD of all that he hath, _both_ of man and beast, and of the field of his possession, shall be sold or redeemed: every devoted thing _is_ most holy unto the LORD.
 <sup>29</sup> None devoted, which shall be devoted of men, shall be redeemed; _but_ shall surely be put to death.
-<sup>30</sup> And all the tithe of the land, _whether_ of the seed of the land, _or_ of the fruit of the tree, _is_ the LORD's: _it is_ holy unto the LORD.
+<sup>30</sup> And all the tithe of the land, _whether_ of the seed of the land, _or_ of the fruit of the tree, _is_ the LORD’s: _it is_ holy unto the LORD.
 <sup>31</sup> And if a man will at all redeem _ought_ of his tithes, he shall add thereto the fifth _part_ thereof.
 <sup>32</sup> And concerning the tithe of the herd, or of the flock, _even_ of whatsoever passeth under the rod, the tenth shall be holy unto the LORD.
 <sup>33</sup> He shall not search whether it be good or bad, neither shall he change it: and if he change it at all, then both it and the change thereof shall be holy; it shall not be redeemed.

@@ -47,7 +47,7 @@
 <sup>9</sup> Her gates are sunk into the ground;<br>He hath destroyed and broken her bars:<br>Her king and her princes _are_ among the Gentiles:<br>The law _is_ no _more_;<br>Her prophets also find<br>No vision from the LORD.<br>
 <sup>10</sup> The elders of the daughter of Zion<br>Sit upon the ground, _and_ keep silence:<br>They have cast up dust upon their heads;<br>They have girded themselves with sackcloth:<br>The virgins of Jerusalem<br>Hang down their heads to the ground.<br>
 <sup>11</sup> Mine eyes do fail with tears,<br>My bowels are troubled,<br>My liver is poured upon the earth,<br>For the destruction of the daughter of my people;<br>Because the children and the sucklings swoon<sup>f</sup><br>In the streets of the city.<br>
-<sup>12</sup> They say to their mothers,<br>Where _is_ corn and wine?<br>When they swooned as the wounded<br>In the streets of the city,<br>When their soul was poured out<br>Into their mothers' bosom.<br>
+<sup>12</sup> They say to their mothers,<br>Where _is_ corn and wine?<br>When they swooned as the wounded<br>In the streets of the city,<br>When their soul was poured out<br>Into their mothers’ bosom.<br>
 <sup>13</sup> What thing shall I take to witness for thee? what thing shall I liken to thee,<br>O daughter of Jerusalem?<br>What shall I equal to thee, that I may comfort thee,<br>O virgin daughter of Zion?<br>For thy breach _is_ great like the sea:<br>Who can heal thee?<br>
 <sup>14</sup> Thy prophets have seen vain<br>And foolish things for thee:<br>And they have not discovered thine iniquity,<br>To turn away thy captivity;<br>But have seen for thee false burdens<br>And causes of banishment.<br>
 <sup>15</sup> All that pass by<sup>g</sup> clap<br>_Their_ hands at thee;<br>They hiss and wag their head<br>At the daughter of Jerusalem, _saying_,<br>_Is_ this the city that _men_ call<br>The perfection of beauty,<br>The joy of the whole earth?<br>
@@ -57,7 +57,7 @@
 <sup>19</sup> Arise, cry out in the night:<br>In the beginning of the watches<br>Pour out thine heart like water<br>Before the face of the Lord:<br>Lift up thy hands toward him for the life<br>Of thy young children,<br>That faint for hunger<br>In the top of every street.<br>
 <sup>20</sup> Behold, O LORD,<br>And consider to whom thou hast done this.<br>Shall the women eat their fruit,<br>_And_ children of a span long?<sup>h</sup><br>Shall the priest and the prophet be slain<br>In the sanctuary of the Lord?<br>
 <sup>21</sup> The young and the old lie<br>On the ground in the streets:<br>My virgins and my young men<br>Are fallen by the sword;<br>Thou hast slain _them_ in the day of thine anger;<br>Thou hast killed, _and_ not pitied.<br>
-<sup>22</sup> Thou hast called as in a solemn day<br>My terrors round about,<br>So that in the day of the LORD's anger<br>None escaped nor remained:<br>Those that I have swaddled and brought up hath<br>Mine enemy consumed.<br>
+<sup>22</sup> Thou hast called as in a solemn day<br>My terrors round about,<br>So that in the day of the LORD’s anger<br>None escaped nor remained:<br>Those that I have swaddled and brought up hath<br>Mine enemy consumed.<br>
 
 > - <sup>a</sup> 2. Heb. _made to couch_
 > - <sup>b</sup> 4. Heb. _all the desirable of the eye_
@@ -91,7 +91,7 @@
 <sup>19</sup> Remembering<sup>e</sup> mine affliction and my misery,<br>The wormwood and the gall.<br>
 <sup>20</sup> My soul hath _them_ still in remembrance,<br>And is humbled<sup>f</sup> in me.<br>
 <sup>21</sup> This I recall to my mind,<sup>g</sup><br>Therefore have I hope.<br>
-<sup>22</sup> _It is of_ the LORD's mercies that we are not consumed,<br>Because his compassions fail not.<br>
+<sup>22</sup> _It is of_ the LORD’s mercies that we are not consumed,<br>Because his compassions fail not.<br>
 <sup>23</sup> _They are_ new every morning:<br>Great _is_ thy faithfulness.<br>
 <sup>24</sup> The LORD _is_ my portion, saith my soul;<br>Therefore will I hope in him.<br>
 <sup>25</sup> The LORD _is_ good unto them that wait for him,<br>To the soul _that_ seeketh him.<br>

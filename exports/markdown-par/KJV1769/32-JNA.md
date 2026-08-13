@@ -15,11 +15,11 @@
 <sup>11</sup> Then said they unto him, What shall we do unto thee, that the sea may be calm unto us?<sup>f</sup> for the sea wrought, and was tempestuous.
 <sup>12</sup> And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest _is_ upon you.
 <sup>13</sup> Nevertheless the men rowed<sup>g</sup> hard to bring _it_ to the land; but they could not: for the sea wrought, and was tempestuous against them.
-<sup>14</sup> Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man's life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee.
+<sup>14</sup> Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man’s life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee.
 <sup>15</sup> So they took up Jonah, and cast him forth into the sea: and the sea ceased<sup>h</sup> from her raging.
 <sup>16</sup> Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.<sup>i</sup>
 
-### The Prophet's Prayer
+### The Prophet’s Prayer
 
 <sup>17</sup> Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly<sup>j</sup> of the fish three days and three nights.
 
@@ -36,7 +36,7 @@
 
 ## Chapter 2
 
-<sup>1</sup> Then Jonah prayed unto the LORD his God out of the fish's belly,
+<sup>1</sup> Then Jonah prayed unto the LORD his God out of the fish’s belly,
 <sup>2</sup> and said,<br>I cried by reason of mine affliction<sup>a</sup> unto the LORD,<br>And he heard me;<br>Out of the belly of hell<sup>b</sup> cried I,<br>_And_ thou heardest my voice.<br>
 <sup>3</sup> For thou hadst cast me into the deep, in the midst<sup>c</sup> of the seas;<br>And the floods compassed me about:<br>All thy billows and thy waves passed over me.<br>
 <sup>4</sup> Then I said, I am cast out of thy sight;<br>Yet I will look again toward thy holy temple.<br>
@@ -56,12 +56,12 @@
 
 ## Chapter 3
 
-### The Prophet's Obedience
+### The Prophet’s Obedience
 
 <sup>1</sup> And the word of the LORD came unto Jonah the second time, saying,
 <sup>2</sup> Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.
-<sup>3</sup> So Jonah arose, and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding<sup>a</sup> great city of three days' journey.
-<sup>4</sup> And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.
+<sup>3</sup> So Jonah arose, and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding<sup>a</sup> great city of three days’ journey.
+<sup>4</sup> And Jonah began to enter into the city a day’s journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.
 
 <sup>5</sup> So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them.
 <sup>6</sup> For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered _him_ with sackcloth, and sat in ashes.
@@ -77,7 +77,7 @@
 
 ## Chapter 4
 
-### The Prophet's Education
+### The Prophet’s Education
 
 <sup>1</sup> But it displeased Jonah exceedingly, and he was very angry.
 <sup>2</sup> And he prayed unto the LORD, and said, I pray thee, O LORD, _was_ not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou _art_ a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.

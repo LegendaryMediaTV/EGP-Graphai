@@ -29,7 +29,7 @@
 <sup>21</sup> And you, that were sometime alienated and enemies in _your_ mind by wicked works,<sup>d</sup> yet now hath he reconciled
 <sup>22</sup> in the body of his flesh through death, to present you holy and unblameable and unreproveable in his sight:
 <sup>23</sup> if ye continue in the faith grounded and settled, and _be_ not moved away from the hope of the gospel, which ye have heard, _and_ which was preached to every creature which is under heaven; whereof I Paul am made a minister;
-<sup>24</sup> who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body's sake, which is the church:
+<sup>24</sup> who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body’s sake, which is the church:
 <sup>25</sup> whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God;
 <sup>26</sup> _even_ the mystery which hath been hid from ages and from generations, but now is made manifest to his saints:
 <sup>27</sup> to whom God would make known what _is_ the riches of the glory of this mystery among the Gentiles; which is Christ in you,<sup>e</sup> the hope of glory:
@@ -95,7 +95,7 @@
 <sup>4</sup> When Christ, _who is_ our life, shall appear, then shall ye also appear with him in glory.
 
 <sup>5</sup> Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:
-<sup>6</sup> for which things' sake the wrath of God cometh on the children of disobedience:
+<sup>6</sup> for which things’ sake the wrath of God cometh on the children of disobedience:
 <sup>7</sup> in the which ye also walked some time, when ye lived in them.
 <sup>8</sup> But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.
 <sup>9</sup> Lie not one to another, seeing that ye have put off the old man with his deeds;
@@ -137,7 +137,7 @@
 <sup>8</sup> whom I have sent unto you for the same purpose, that he might know your estate, and comfort your hearts;
 <sup>9</sup> with Onesimus, a faithful and beloved brother, who is _one_ of you. They shall make known unto you all things which _are done_ here.
 
-<sup>10</sup> Aristarchus my fellowprisoner saluteth you, and Marcus, sister's son to Barnabas, (touching whom ye received commandments: if he come unto you, receive him;)
+<sup>10</sup> Aristarchus my fellowprisoner saluteth you, and Marcus, sister’s son to Barnabas, (touching whom ye received commandments: if he come unto you, receive him;)
 <sup>11</sup> and Jesus, which is called Justus, who are of the circumcision. These only _are my_ fellowworkers unto the kingdom of God, which have been a comfort unto me.
 <sup>12</sup> Epaphras, who is _one_ of you, a servant of Christ, saluteth you, always labouring fervently for you in prayers, that ye may stand perfect and complete<sup>a</sup> in all the will of God.
 <sup>13</sup> For I bear him record, that he hath a great zeal for you, and them _that are_ in Laodicea, and them in Hierapolis.

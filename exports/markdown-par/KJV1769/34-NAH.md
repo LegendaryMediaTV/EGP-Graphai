@@ -47,7 +47,7 @@
 <sup>8</sup> But Nineveh _is_ of old<sup>j</sup> like a pool of water: yet they shall flee away. Stand, stand, _shall they cry_; but none shall look back.<sup>k</sup>
 <sup>9</sup> Take ye the spoil of silver, take the spoil of gold: for _there is_ none end of the store<sup>l</sup> _and_ glory out of all the pleasant furniture.<sup>m</sup>
 <sup>10</sup> She is empty, and void, and waste: and the heart melteth, and the knees smite together, and much pain _is_ in all loins, and the faces of them all gather blackness.
-<sup>11</sup> Where _is_ the dwelling of the lions, and the feedingplace of the young lions, where the lion, _even_ the old lion, walked, _and_ the lion's whelp, and none made _them_ afraid?
+<sup>11</sup> Where _is_ the dwelling of the lions, and the feedingplace of the young lions, where the lion, _even_ the old lion, walked, _and_ the lion’s whelp, and none made _them_ afraid?
 <sup>12</sup> The lion did tear in pieces enough for his whelps, and strangled for his lionesses, and filled his holes with prey, and his dens with ravin.
 <sup>13</sup> Behold, I _am_ against thee, saith the LORD of hosts, and I will burn her chariots in the smoke, and the sword shall devour thy young lions: and I will cut off thy prey from the earth, and the voice of thy messengers shall no more be heard.
 

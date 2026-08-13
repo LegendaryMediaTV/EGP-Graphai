@@ -153,7 +153,7 @@
 ## Chapter 6
 
 <sup>1</sup> Hear ye now what the LORD saith; Arise, contend thou before<sup>a</sup> the mountains, and let the hills hear thy voice.
-<sup>2</sup> Hear ye, O mountains, the LORD's controversy, and ye strong foundations of the earth: for the LORD hath a controversy with his people, and he will plead with Israel.
+<sup>2</sup> Hear ye, O mountains, the LORD’s controversy, and ye strong foundations of the earth: for the LORD hath a controversy with his people, and he will plead with Israel.
 <sup>3</sup> O my people, what have I done unto thee? and wherein have I wearied thee? testify against me.
 <sup>4</sup> For I brought thee up out of the land of Egypt, and redeemed thee out of the house of servants; and I sent before thee Moses, Aaron, and Miriam.
 <sup>5</sup> O my people, remember now what Balak king of Moab consulted, and what Balaam the son of Beor answered him from Shittim unto Gilgal; that ye may know the righteousness of the LORD.
@@ -164,7 +164,7 @@
 
 ### His Call to the City
 
-<sup>9</sup> The LORD's voice crieth unto the city, and _the man of_<sup>e</sup> wisdom shall see thy name: hear ye the rod, and who hath appointed it.
+<sup>9</sup> The LORD’s voice crieth unto the city, and _the man of_<sup>e</sup> wisdom shall see thy name: hear ye the rod, and who hath appointed it.
 <sup>10</sup> Are there yet the treasures of wickedness in the house of the wicked,<sup>f</sup> and the scant measure _that is_ abominable?<sup>g</sup>
 <sup>11</sup> Shall I count _them_ pure<sup>h</sup> with the wicked balances, and with the bag of deceitful weights?
 <sup>12</sup> For the rich men thereof are full of violence, and the inhabitants thereof have spoken lies, and their tongue _is_ deceitful in their mouth.
@@ -191,7 +191,7 @@
 <sup>3</sup> That they may do evil with both hands earnestly, the prince asketh, and the judge _asketh_ for a reward; and the great _man_, he uttereth his mischievous desire: so they wrap it up.
 <sup>4</sup> The best of them _is_ as a brier: the most upright _is sharper_ than a thorn hedge: the day of thy watchmen _and_ thy visitation cometh; now shall be their perplexity.
 <sup>5</sup> Trust ye not in a friend, put ye not confidence in a guide: keep the doors of thy mouth from her that lieth in thy bosom.
-<sup>6</sup> For the son dishonoureth the father, the daughter riseth up against her mother, the daughter in law against her mother in law; a man's enemies _are_ the men of his own house.
+<sup>6</sup> For the son dishonoureth the father, the daughter riseth up against her mother, the daughter in law against her mother in law; a man’s enemies _are_ the men of his own house.
 
 ### Her Trust in God
 

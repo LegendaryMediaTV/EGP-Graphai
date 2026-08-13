@@ -317,7 +317,7 @@ And the word of the LORD came unto me, saying,
 
 <sup>4</sup> Thus saith the LORD my God; Feed the flock of the slaughter;
 <sup>5</sup> whose possessors slay them, and hold themselves not guilty: and they that sell them say, Blessed _be_ the LORD; for I am rich: and their own shepherds pity them not.
-<sup>6</sup> For I will no more pity the inhabitants of the land, saith the LORD: but, lo, I will deliver<sup>c</sup> the men every one into his neighbour's hand, and into the hand of his king: and they shall smite the land, and out of their hand I will not deliver _them_.
+<sup>6</sup> For I will no more pity the inhabitants of the land, saith the LORD: but, lo, I will deliver<sup>c</sup> the men every one into his neighbour’s hand, and into the hand of his king: and they shall smite the land, and out of their hand I will not deliver _them_.
 <sup>7</sup> And I will feed the flock of slaughter, _even_ you, O poor<sup>d</sup> of the flock. And I took unto me two staves; the one I called Beauty, and the other I called Bands;<sup>e</sup> and I fed the flock.
 <sup>8</sup> Three shepherds also I cut off in one month; and my soul lothed them,<sup>f</sup> and their soul also abhorred me.
 <sup>9</sup> Then said I, I will not feed you: that that dieth, let it die; and that that is to be cut off, let it be cut off; and let the rest eat every one the flesh of another.<sup>g</sup>
@@ -410,7 +410,7 @@ And the word of the LORD came unto me, saying,
 ### Lord of All
 
 <sup>9</sup> And the LORD shall be king over all the earth: in that day shall there be one LORD, and his name one.
-<sup>10</sup> All the land shall be turned<sup>g</sup> as a plain from Geba to Rimmon south of Jerusalem: and it shall be lifted up, and inhabited<sup>h</sup> in her place, from Benjamin's gate unto the place of the first gate, unto the corner gate, and _from_ the tower of Hananeel unto the king's winepresses.
+<sup>10</sup> All the land shall be turned<sup>g</sup> as a plain from Geba to Rimmon south of Jerusalem: and it shall be lifted up, and inhabited<sup>h</sup> in her place, from Benjamin’s gate unto the place of the first gate, unto the corner gate, and _from_ the tower of Hananeel unto the king’s winepresses.
 <sup>11</sup> And _men_ shall dwell in it, and there shall be no more utter destruction; but Jerusalem shall be safely inhabited.<sup>i</sup>
 
 <sup>12</sup> And this shall be the plague wherewith the LORD will smite all the people that have fought against Jerusalem; Their flesh shall consume away while they stand upon their feet, and their eyes shall consume away in their holes, and their tongue shall consume away in their mouth.
@@ -427,7 +427,7 @@ And the word of the LORD came unto me, saying,
 
 ### An Age of Holiness
 
-<sup>20</sup> In that day shall there be upon the bells<sup>n</sup> of the horses, HOLINESS UNTO THE LORD; and the pots in the LORD's house shall be like the bowls before the altar.
+<sup>20</sup> In that day shall there be upon the bells<sup>n</sup> of the horses, HOLINESS UNTO THE LORD; and the pots in the LORD’s house shall be like the bowls before the altar.
 <sup>21</sup> Yea, every pot in Jerusalem and in Judah shall be holiness unto the LORD of hosts: and all they that sacrifice shall come and take of them, and seethe therein: and in that day there shall be no more the Canaanite in the house of the LORD of hosts.
 
 > - <sup>a</sup> 5. Or, _my mountains_

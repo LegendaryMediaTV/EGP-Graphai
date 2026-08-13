@@ -12,7 +12,7 @@
 <sup>7</sup> He hath laid my vine waste, and barked my fig tree:<sup>b</sup> he hath made it clean bare, and cast _it_ away; the branches thereof are made white.
 
 <sup>8</sup> Lament like a virgin girded with sackcloth for the husband of her youth.
-<sup>9</sup> The meat offering and the drink offering is cut off from the house of the LORD; the priests, the LORD's ministers, mourn.
+<sup>9</sup> The meat offering and the drink offering is cut off from the house of the LORD; the priests, the LORD’s ministers, mourn.
 <sup>10</sup> The field is wasted, the land mourneth; for the corn is wasted: the new wine is dried up,<sup>c</sup> the oil languisheth.
 <sup>11</sup> Be ye ashamed, O ye husbandmen; howl, O ye vinedressers, for the wheat and for the barley; because the harvest of the field is perished.
 <sup>12</sup> The vine is dried up, and the fig tree languisheth; the pomegranate tree, the palm tree also, and the apple tree, _even_ all the trees of the field, are withered: because joy is withered away from the sons of men.

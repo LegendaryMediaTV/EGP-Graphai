@@ -76,7 +76,7 @@
 
 <sup>19</sup> But<sup>e</sup> I trust in the Lord Jesus to send Timotheus shortly unto you, that I also may be of good comfort, when I know your state.
 <sup>20</sup> For I have no man likeminded,<sup>f</sup> who will naturally care for your state.
-<sup>21</sup> For all seek their own, not the things which are Jesus Christ's.
+<sup>21</sup> For all seek their own, not the things which are Jesus Christ’s.
 <sup>22</sup> But ye know the proof of him, that, as a son with the father, he hath served with me in the gospel.
 <sup>23</sup> Him therefore I hope to send presently, so soon as I shall see how it will go with me.
 <sup>24</sup> But I trust in the Lord that I also myself shall come shortly.
@@ -156,7 +156,7 @@
 <sup>20</sup> Now unto God and our Father _be_ glory for ever and ever. Amen.
 
 <sup>21</sup> Salute every saint in Christ Jesus. The brethren which are with me greet you.
-<sup>22</sup> All the saints salute you, chiefly they that are of Cæsar's household.
+<sup>22</sup> All the saints salute you, chiefly they that are of Cæsar’s household.
 
 <sup>23</sup> The grace of our Lord Jesus Christ _be_ with you all. Amen.<br>It was written to the Philippians from Rome by Epaphroditus.
 

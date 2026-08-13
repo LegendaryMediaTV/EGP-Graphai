@@ -1,6 +1,6 @@
 ## Chapter 1
 
-### The Day of the LORD's Wrath
+### The Day of the LORD’s Wrath
 
 <sup>1</sup> The word of the LORD which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hizkiah, in the days of Josiah the son of Amon, king of Judah.
 
@@ -13,8 +13,8 @@
 <sup>6</sup> and them that are turned back from the LORD; and _those_ that have not sought the LORD, nor enquired for him.
 
 <sup>7</sup> Hold thy peace at the presence of the Lord GOD: for the day of the LORD _is_ at hand: for the LORD hath prepared a sacrifice, he hath bid<sup>e</sup> his guests.
-<sup>8</sup> And it shall come to pass in the day of the LORD's sacrifice, that I will punish<sup>f</sup> the princes, and the king's children, and all such as are clothed with strange apparel.
-<sup>9</sup> In the same day also will I punish all those that leap on the threshold, which fill their masters' houses with violence and deceit.
+<sup>8</sup> And it shall come to pass in the day of the LORD’s sacrifice, that I will punish<sup>f</sup> the princes, and the king’s children, and all such as are clothed with strange apparel.
+<sup>9</sup> In the same day also will I punish all those that leap on the threshold, which fill their masters’ houses with violence and deceit.
 <sup>10</sup> And it shall come to pass in that day, saith the LORD, _that there shall be_ the noise of a cry from the fish gate, and an howling from the second, and a great crashing from the hills.
 <sup>11</sup> Howl, ye inhabitants of Maktesh, for all the merchant people are cut down; all they that bear silver are cut off.
 
@@ -25,7 +25,7 @@
 <sup>15</sup> That day _is_ a day of wrath, a day of trouble and distress, a day of wasteness and desolation, a day of darkness and gloominess, a day of clouds and thick darkness,
 <sup>16</sup> a day of the trumpet and alarm against the fenced cities, and against the high towers.
 <sup>17</sup> And I will bring distress upon men, that they shall walk like blind men, because they have sinned against the LORD: and their blood shall be poured out as dust, and their flesh as the dung.
-<sup>18</sup> Neither their silver nor their gold shall be able to deliver them in the day of the LORD's wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land.
+<sup>18</sup> Neither their silver nor their gold shall be able to deliver them in the day of the LORD’s wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land.
 
 > - <sup>a</sup> 2. Heb. _by taking away I will make an end_
 > - <sup>b</sup> 2. Heb. _the face of the land_
@@ -38,8 +38,8 @@
 ## Chapter 2
 
 <sup>1</sup> Gather yourselves together, yea, gather together, O nation not desired;<sup>a</sup>
-<sup>2</sup> before the decree bring forth, _before_ the day pass as the chaff, before the fierce anger of the LORD come upon you, before the day of the LORD's anger come upon you.
-<sup>3</sup> Seek ye the LORD, all ye meek of the earth, which have wrought his judgment; seek righteousness, seek meekness: it may be ye shall be hid in the day of the LORD's anger.
+<sup>2</sup> before the decree bring forth, _before_ the day pass as the chaff, before the fierce anger of the LORD come upon you, before the day of the LORD’s anger come upon you.
+<sup>3</sup> Seek ye the LORD, all ye meek of the earth, which have wrought his judgment; seek righteousness, seek meekness: it may be ye shall be hid in the day of the LORD’s anger.
 
 ### The Philistines
 
@@ -71,7 +71,7 @@
 
 ## Chapter 3
 
-### Jerusalem's Danger
+### Jerusalem’s Danger
 
 <sup>1</sup> Woe to her that is filthy<sup>a</sup> and polluted, to the oppressing city!
 <sup>2</sup> She obeyed not the voice; she received not correction;<sup>b</sup> she trusted not in the LORD; she drew not near to her God.
@@ -82,7 +82,7 @@
 <sup>6</sup> I have cut off the nations: their towers<sup>d</sup> are desolate; I made their streets waste, that none passeth by: their cities are destroyed, so that there is no man, that there is none inhabitant.
 <sup>7</sup> I said, Surely thou wilt fear me, thou wilt receive instruction; so their dwelling should not be cut off, howsoever I punished them: but they rose early, _and_ corrupted all their doings.
 
-### Jerusalem's Deliverance
+### Jerusalem’s Deliverance
 
 <sup>8</sup> Therefore wait ye upon me, saith the LORD, until the day that I rise up to the prey: for my determination _is_ to gather the nations, that I may assemble the kingdoms, to pour upon them mine indignation, _even_ all my fierce anger: for all the earth shall be devoured with the fire of my jealousy.
 

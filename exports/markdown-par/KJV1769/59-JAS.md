@@ -29,7 +29,7 @@
 <sup>23</sup> For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass:
 <sup>24</sup> for he beholdeth himself, and goeth his way, and straightway forgetteth what manner of man he was.
 <sup>25</sup> But whoso looketh into the perfect law of liberty, and continueth _therein_, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed.<sup>c</sup>
-<sup>26</sup> If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man's religion _is_ vain.
+<sup>26</sup> If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man’s religion _is_ vain.
 <sup>27</sup> Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, _and_ to keep himself unspotted from the world.
 
 > - <sup>a</sup> 9. Or, _glory_
@@ -79,7 +79,7 @@
 
 <sup>1</sup> My brethren, be not many masters, knowing that we shall receive the greater condemnation.<sup>a</sup>
 <sup>2</sup> For in many things we offend all. If any man offend not in word, the same _is_ a perfect man, _and_ able also to bridle the whole body.
-<sup>3</sup> Behold, we put bits in the horses' mouths, that they may obey us; and we turn about their whole body.
+<sup>3</sup> Behold, we put bits in the horses’ mouths, that they may obey us; and we turn about their whole body.
 <sup>4</sup> Behold also the ships, which though _they be_ so great, and _are_ driven of fierce winds, yet are they turned about with a very small helm, whithersoever the governor listeth.
 <sup>5</sup> Even so the tongue is a little member, and boasteth great things. Behold, how great a matter<sup>b</sup> a little fire kindleth!
 <sup>6</sup> And the tongue _is_ a fire, a world of iniquity: so is the tongue among our members, that it defileth the whole body, and setteth on fire the course<sup>c</sup> of nature; and it is set on fire of hell.

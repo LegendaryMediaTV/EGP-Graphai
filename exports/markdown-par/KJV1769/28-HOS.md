@@ -74,7 +74,7 @@
 <sup>2</sup> So I bought her to me for fifteen _pieces_ of silver, and _for_ an homer of barley, and an half homer<sup>b</sup> of barley:
 <sup>3</sup> and I said unto her, Thou shalt abide for me many days; thou shalt not play the harlot, and thou shalt not be for _another_ man: so _will_ I also _be_ for thee.
 
-### Israel's Return
+### Israel’s Return
 
 <sup>4</sup> For the children of Israel shall abide many days without a king, and without a prince, and without a sacrifice, and without an image,<sup>c</sup> and without an ephod, and _without_ teraphim:
 <sup>5</sup> afterward shall the children of Israel return, and seek the LORD their God, and David their king; and shall fear the LORD and his goodness in the latter days.
@@ -85,7 +85,7 @@
 
 ## Chapter 4
 
-### The LORD's Controversy
+### The LORD’s Controversy
 
 <sup>1</sup> Hear the word of the LORD, ye children of Israel: for the LORD hath a controversy with the inhabitants of the land, because _there is_ no truth, nor mercy, nor knowledge of God in the land.
 <sup>2</sup> By swearing, and lying, and killing, and stealing, and committing adultery, they break out, and blood<sup>a</sup> toucheth blood.
@@ -244,7 +244,7 @@
 
 <sup>1</sup> Rejoice not, O Israel, for joy, as _other_ people: for thou hast gone a whoring from thy God, thou hast loved a reward upon<sup>a</sup> every cornfloor.
 <sup>2</sup> The floor and the winepress<sup>b</sup> shall not feed them, and the new wine shall fail in her.
-<sup>3</sup> They shall not dwell in the LORD's land; but Ephraim shall return to Egypt, and they shall eat unclean _things_ in Assyria.
+<sup>3</sup> They shall not dwell in the LORD’s land; but Ephraim shall return to Egypt, and they shall eat unclean _things_ in Assyria.
 <sup>4</sup> They shall not offer wine _offerings_ to the LORD, neither shall they be pleasing unto him: their sacrifices _shall be_ unto them as the bread of mourners; all that eat thereof shall be polluted: for their bread for their soul shall not come into the house of the LORD.
 
 <sup>5</sup> What will ye do in the solemn day, and in the day of the feast of the LORD?
@@ -307,7 +307,7 @@
 
 ## Chapter 11
 
-### The Father's Love
+### The Father’s Love
 
 <sup>1</sup> When Israel _was_ a child, then I loved him, and called my son out of Egypt.
 <sup>2</sup> _As_ they called them, so they went from them: they sacrificed unto Baalim, and burned incense to graven images.
