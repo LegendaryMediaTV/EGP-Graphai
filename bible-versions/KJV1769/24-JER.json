@@ -16328,20 +16328,11 @@
         "morph": "QalImpf"
       },
       {
-        "content": [
-          " THE ",
-          { "text": "Lord", "marks": ["sc"] },
-          {
-            "text": " OUR RIGHTEOUSNESS.",
-            "foot": {
-              "type": "trn",
-              "content": [
-                "Heb. ",
-                { "text": "Jehovahtsidkenu", "marks": ["i"] }
-              ]
-            }
-          }
-        ],
+        "text": " THE LORD OUR RIGHTEOUSNESS.",
+        "foot": {
+          "type": "trn",
+          "content": ["Heb. ", { "text": "Jehovahtsidkenu", "marks": ["i"] }]
+        },
         "strong": "H3072"
       }
     ]
