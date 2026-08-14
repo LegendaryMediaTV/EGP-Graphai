@@ -12,25 +12,60 @@
     "book": "3JN",
     "chapter": 1,
     "verse": 2,
-    "content": "Beloved, I pray that in all things thou mayest prosper and be in health, even as thy soul prospereth."
+    "content": {
+      "paragraph": true,
+      "text": "Beloved, I pray that in all things thou mayest prosper and be in health, even as thy soul prospereth."
+    }
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 3,
-    "content": "For I rejoiced greatly, when brethren came and bare witness unto thy truth, even as thou walkest in truth."
+    "content": [
+      {
+        "text": "For I ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "rejoice greatly, when brethren come and bear witness",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "rejoiced greatly, when brethren came and bare witness unto thy truth, even as thou walkest in truth."
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 4,
-    "content": "Greater joy have I none than this, to hear of my children walking in the truth."
+    "content": [
+      {
+        "text": "Greater joy have I none than ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "these", "marks": ["i"] },
+            " things, ",
+            { "text": "that I may hear", "marks": ["i"] }
+          ]
+        }
+      },
+      "this, to hear of my children walking in the truth."
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 5,
-    "content": "Beloved, thou doest a faithful work in whatsoever thou doest toward them that are brethren and strangers withal;"
+    "content": {
+      "paragraph": true,
+      "text": "Beloved, thou doest a faithful work in whatsoever thou doest toward them that are brethren and strangers withal;"
+    }
   },
   {
     "book": "3JN",
@@ -48,19 +83,35 @@
     "book": "3JN",
     "chapter": 1,
     "verse": 8,
-    "content": "We therefore ought to welcome such, that we may be fellow-workers for the truth."
+    "content": [
+      {
+        "text": "We therefore ought to welcome such, that we may be fellow-workers ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "with", "marks": ["i"] }]
+        }
+      },
+      "for the truth."
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 9,
-    "content": "I wrote somewhat unto the church: but Diotrephes, who loveth to have the preeminence among them, receiveth us not."
+    "content": {
+      "paragraph": true,
+      "text": "I wrote somewhat unto the church: but Diotrephes, who loveth to have the preeminence among them, receiveth us not."
+    }
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 10,
-    "content": "Therefore, if I come, I will bring to remembrance his works which he doeth, prating against us with wicked words: and not content therewith, neither doth he himself receive the brethren, and them that would he forbiddeth and casteth them out of the church."
+    "content": [
+      "Therefore, if I come, I will bring to remembrance his works which he doeth, prating against us with wicked words: and not content therewith, neither doth he himself receive the brethren, and them that would he forbiddeth and casteth ",
+      { "text": "them", "marks": ["i"] },
+      " out of the church."
+    ]
   },
   {
     "book": "3JN",
@@ -72,18 +123,36 @@
     "book": "3JN",
     "chapter": 1,
     "verse": 12,
-    "content": "Demetrius hath the witness of all men, and of the truth itself: yea, we also bear witness: and thou knowest that our witness is true."
+    "content": [
+      "Demetrius hath the witness of all ",
+      { "text": "men", "marks": ["i"] },
+      {
+        "text": ", and of the truth itself: yea, we also bear witness; and thou knowest that our witness is true.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 13,
-    "content": "I had many things to write unto thee, but I am unwilling to write them to thee with ink and pen:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I had many things to write unto thee, but I am unwilling to write "
+      },
+      { "text": "them", "marks": ["i"] },
+      " to thee with ink and pen:"
+    ]
   },
   {
     "book": "3JN",
     "chapter": 1,
     "verse": 14,
-    "content": "but I hope shortly to see thee, and we shall speak face to face. Peace be unto thee. The friends salute thee. Salute the friends by name."
+    "content": [
+      "but I hope shortly to see thee, and we shall speak face to face. Peace ",
+      { "text": "be", "marks": ["i"] },
+      " unto thee. The friends salute thee. Salute the friends by name."
+    ]
   }
 ]

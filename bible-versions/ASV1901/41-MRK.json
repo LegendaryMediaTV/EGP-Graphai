@@ -3,58 +3,161 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "The beginning of the gospel of Jesus Christ, the Son of God."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The beginning of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "good tidings", "marks": ["i"] },
+            ": and so elsewhere."
+          ]
+        }
+      },
+      {
+        "text": "gospel of Jesus Christ, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "the Son of God", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the Son of God."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 2,
-    "content": "Even as it is written in Isaiah the prophet, Behold, I send my messenger before thy face, Who shall prepare thy way."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Even as it is written ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "in the prophets", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "in Isaiah the prophet,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Malachi 3:1", "content": "Mal. 3:1" },
+            "."
+          ]
+        }
+      },
+      { "text": "Behold, I send my messenger before thy face,", "break": true },
+      { "text": "Who shall prepare thy way;", "break": true }
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 3,
-    "content": "The voice of one crying in the wilderness, Make ye ready the way of the Lord, Make his paths straight;"
+    "content": [
+      {
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 40:3", "content": "Isa. 40:3" },
+            "."
+          ]
+        }
+      },
+      { "text": "The voice of one crying in the wilderness,", "break": true },
+      { "text": "Make ye ready the way of the Lord,", "break": true },
+      { "text": "Make his paths straight;", "break": true }
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 4,
-    "content": "John came, who baptized in the wilderness and preached the baptism of repentance unto remission of sins."
+    "content": {
+      "paragraph": true,
+      "text": "John came, who baptized in the wilderness and preached the baptism of repentance unto remission of sins."
+    }
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 5,
-    "content": "And there went out unto him all the country of Judaea, and all they of Jerusalem; And they were baptized of him in the river Jordan, confessing their sins."
+    "content": "And there went out unto him all the country of Judæa, and all they of Jerusalem; and they were baptized of him in the river Jordan, confessing their sins."
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 6,
-    "content": "And John was clothed with camel’s hair, and had a leathern girdle about his loins, and did eat locusts and wild honey."
+    "content": [
+      "And John was clothed with camel’s hair, and ",
+      { "text": "had", "marks": ["i"] },
+      " a leathern girdle about his loins, and did eat locusts and wild honey."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 7,
-    "content": "And he preached, saying, There cometh after me he that is mightier than I, the latchet of whose shoes I am not worthy to stoop down and unloose."
+    "content": [
+      {
+        "text": "And he preached, saying, There cometh after me he that is mightier than I, the latchet of whose shoes I am not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "sufficient", "marks": ["i"] }, "."]
+        }
+      },
+      "worthy to stoop down and unloose."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 8,
-    "content": "I baptized you in water; But he shall baptize you in the Holy Spirit."
+    "content": [
+      {
+        "text": "I baptized you ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "with", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "in water; but he shall baptize you ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "with", "marks": ["i"] }]
+        }
+      },
+      "in the Holy Spirit."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 9,
-    "content": "And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John in the Jordan."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "into", "marks": ["i"] }, "."]
+        }
+      },
+      "in the Jordan."
+    ]
   },
   {
     "book": "MRK",
@@ -66,37 +169,70 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 11,
-    "content": "And a voice came out of the heavens, Thou art my beloved Son, in thee I am well pleased."
+    "content": "and a voice came out of the heavens, Thou art my beloved Son, in thee I am well pleased."
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 12,
-    "content": "And straightway the Spirit driveth him forth into the wilderness."
+    "content": {
+      "paragraph": true,
+      "text": "And straightway the Spirit driveth him forth into the wilderness."
+    }
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 13,
-    "content": "And he was in the wilderness forty days tempted of Satan; And he was with the wild beasts; And the angels ministered unto him."
+    "content": "And he was in the wilderness forty days tempted of Satan; and he was with the wild beasts; and the angels ministered unto him."
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 14,
-    "content": "Now after John was delivered up, Jesus came into Galilee, preaching the gospel of God,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now after John was delivered up, Jesus came into Galilee, preaching the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "good tidings", "marks": ["i"] },
+            ": and so elsewhere"
+          ]
+        }
+      },
+      "gospel of God,"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 15,
-    "content": "and saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe in the gospel."
+    "content": [
+      {
+        "text": "and saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe in the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "good tidings", "marks": ["i"] },
+            ": and so elsewhere"
+          ]
+        }
+      },
+      "gospel."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 16,
-    "content": "And passing along by the sea of Galilee, he saw Simon and Andrew the brother of Simon casting a net in the sea; for they were fishers."
+    "content": {
+      "paragraph": true,
+      "text": "And passing along by the sea of Galilee, he saw Simon and Andrew the brother of Simon casting a net in the sea; for they were fishers."
+    }
   },
   {
     "book": "MRK",
@@ -114,7 +250,18 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 19,
-    "content": "And going on a little further, he saw James the son of Zebedee, and John his brother, who also were in the boat mending the nets."
+    "content": [
+      {
+        "text": "And going on a little further, he saw ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James the ",
+      { "text": "son", "marks": ["i"] },
+      " of Zebedee, and John his brother, who also were in the boat mending the nets."
+    ]
   },
   {
     "book": "MRK",
@@ -126,13 +273,16 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 21,
-    "content": "And they go into Capernaum; and straightway on the sabbath day he entered into the synagogue and taught."
+    "content": {
+      "paragraph": true,
+      "text": "And they go into Capernaum; and straightway on the sabbath day he entered into the synagogue and taught."
+    }
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 22,
-    "content": "And they were astonished at his teaching: For he taught them as having authority, and not as the scribes."
+    "content": "And they were astonished at his teaching: for he taught them as having authority, and not as the scribes."
   },
   {
     "book": "MRK",
@@ -150,13 +300,31 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 25,
-    "content": "And Jesus rebuked him, saying, Hold thy peace, and come out of him."
+    "content": [
+      {
+        "text": "And Jesus rebuked ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it", "marks": ["i"] }]
+        }
+      },
+      "him, saying, Hold thy peace, and come out of him."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 26,
-    "content": "And the unclean spirit, tearing him and crying with a loud voice, came out of him."
+    "content": [
+      {
+        "text": "And the unclean spirit, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "convulsing", "marks": ["i"] }]
+        }
+      },
+      "tearing him and crying with a loud voice, came out of him."
+    ]
   },
   {
     "book": "MRK",
@@ -174,7 +342,30 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 29,
-    "content": "And straightway, when they were come out of the synagogue, they came into the house of Simon and Andrew, with James and John."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And straightway, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            {
+              "text": "when he was come out of the synagogue, he came etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "when they were come out of the synagogue, they came into the house of Simon and Andrew, with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James and John."
+    ]
   },
   {
     "book": "MRK",
@@ -192,7 +383,17 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 32,
-    "content": "And at even, when the sun did set, they brought unto him all that were sick, and them that were possessed with demons."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And at even, when the sun did set, they brought unto him all that were sick, and them that were ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "demoniacs", "marks": ["i"] }]
+        }
+      },
+      "possessed with demons."
+    ]
   },
   {
     "book": "MRK",
@@ -204,13 +405,31 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 34,
-    "content": "And he healed many that were sick with divers diseases, and cast out many demons; and he suffered not the demons to speak, because they knew him."
+    "content": [
+      {
+        "text": "And he healed many that were sick with divers diseases, and cast out many demons; and he suffered not the demons to speak, because they knew him",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities add ",
+            { "text": "to be Christ", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Luke 4:41", "content": "Lk. 4:41" },
+            "."
+          ]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 35,
-    "content": "And in the morning, a great while before day, he rose up and went out, and departed into a desert place, and there prayed."
+    "content": {
+      "paragraph": true,
+      "text": "And in the morning, a great while before day, he rose up and went out, and departed into a desert place, and there prayed."
+    }
   },
   {
     "book": "MRK",
@@ -240,7 +459,21 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 40,
-    "content": "And there cometh to him a leper, beseeching him, and kneeling down to him, and saying unto him, If thou wilt, thou canst make me clean."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And there cometh to him a leper, beseeching him, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "and kneeling down to him", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "and kneeling down to him, and saying unto him, If thou wilt, thou canst make me clean."
+    ]
   },
   {
     "book": "MRK",
@@ -258,34 +491,91 @@
     "book": "MRK",
     "chapter": 1,
     "verse": 43,
-    "content": "And he strictly charged him, and straightway sent him out,"
+    "content": [
+      {
+        "text": "And he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sternly", "marks": ["i"] }]
+        }
+      },
+      "strictly charged him, and straightway sent him out,"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 44,
-    "content": "and saith unto him, See thou say nothing to any man: but go show thyself to the priest, and offer for thy cleansing the things which Moses commanded, for a testimony unto them."
+    "content": [
+      {
+        "text": "and saith unto him, See thou say nothing to any man: but go show thyself to the priest, and offer for thy cleansing the things which Moses ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Leviticus 13:49", "content": "Lev. 13:49" },
+            "; ",
+            { "bibleLink": "Leviticus 14:2–57", "content": "14:2ff" },
+            "."
+          ]
+        }
+      },
+      "commanded, for a testimony unto them."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 1,
     "verse": 45,
-    "content": "But he went out, and began to publish it much, and to spread abroad the matter, insomuch that Jesus could no more openly enter into a city, but was without in desert places: and they came to him from every quarter."
+    "content": [
+      {
+        "text": "But he went out, and began to publish it much, and to spread abroad the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "word", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "matter, insomuch that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "he", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Jesus could no more openly enter into ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the city", "marks": ["i"] }]
+        }
+      },
+      "a city, but was without in desert places: and they came to him from every quarter."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And when he entered again into Capernaum after some days, it was noised that he was in the house."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And when he entered again into Capernaum after some days, it was noised that he was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "at home", "marks": ["i"] }]
+        }
+      },
+      "in the house."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 2,
-    "content": "And many were gathered together, so that there was no longer room for them, no, not even about the door: and he spake the word unto them."
+    "content": [
+      "And many were gathered together, so that there was no longer room ",
+      { "text": "for them", "marks": ["i"] },
+      ", no, not even about the door: and he spake the word unto them."
+    ]
   },
   {
     "book": "MRK",
@@ -297,13 +587,42 @@
     "book": "MRK",
     "chapter": 2,
     "verse": 4,
-    "content": "And when they could not come nigh unto him for the crowd, they uncovered the roof where he was: and when they had broken it up, they let down the bed whereon the sick of the palsy lay."
+    "content": [
+      {
+        "text": "And when they could not ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "bring him unto him", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "come nigh unto him for the crowd, they uncovered the roof where he was: and when they had broken it up, they let down the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pallet", "marks": ["i"] }]
+        }
+      },
+      "bed whereon the sick of the palsy lay."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 5,
-    "content": "And Jesus seeing their faith saith unto the sick of the palsy, Son, thy sins are forgiven."
+    "content": [
+      {
+        "text": "And Jesus seeing their faith saith unto the sick of the palsy, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Child", "marks": ["i"] }, "."]
+        }
+      },
+      "Son, thy sins are forgiven."
+    ]
   },
   {
     "book": "MRK",
@@ -315,7 +634,11 @@
     "book": "MRK",
     "chapter": 2,
     "verse": 7,
-    "content": "Why doth this man thus speak? he blasphemeth: who can forgive sins but one, even God?"
+    "content": [
+      "Why doth this man thus speak? he blasphemeth: who can forgive sins but one, ",
+      { "text": "even", "marks": ["i"] },
+      " God?"
+    ]
   },
   {
     "book": "MRK",
@@ -327,7 +650,16 @@
     "book": "MRK",
     "chapter": 2,
     "verse": 9,
-    "content": "Which is easier, to say to the sick of the palsy, Thy sins are forgiven; or to say, Arise, and take up thy bed, and walk?"
+    "content": [
+      {
+        "text": "Which is easier, to say to the sick of the palsy, Thy sins are forgiven; or to say, Arise, and take up thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pallet", "marks": ["i"] }]
+        }
+      },
+      "bed, and walk?"
+    ]
   },
   {
     "book": "MRK",
@@ -339,55 +671,176 @@
     "book": "MRK",
     "chapter": 2,
     "verse": 11,
-    "content": "I say unto thee, Arise, take up thy bed, and go unto thy house."
+    "content": [
+      {
+        "text": "I say unto thee, Arise, take up thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pallet", "marks": ["i"] }]
+        }
+      },
+      "bed, and go unto thy house."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 12,
-    "content": "And he arose, and straightway took up the bed, and went forth before them all; insomuch that they were all amazed, and glorified God, saying, We never saw it on this fashion."
+    "content": [
+      {
+        "text": "And he arose, and straightway took up the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pallet", "marks": ["i"] }]
+        }
+      },
+      "bed, and went forth before them all; insomuch that they were all amazed, and glorified God, saying, We never saw it on this fashion."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 13,
-    "content": "And he went forth again by the sea side; and all the multitude resorted unto him, and he taught them."
+    "content": {
+      "paragraph": true,
+      "text": "And he went forth again by the sea side; and all the multitude resorted unto him, and he taught them."
+    }
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 14,
-    "content": "And as he passed by, he saw Levi the son of Alphaeus sitting at the place of toll, and he saith unto him, Follow me. And he arose and followed him."
+    "content": [
+      "And as he passed by, he saw Levi the ",
+      { "text": "son", "marks": ["i"] },
+      " of Alphæus sitting at the place of toll, and he saith unto him, Follow me. And he arose and followed him."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 15,
-    "content": "And it came to pass, that he was sitting at meat in his house, and many publicans and sinners sat down with Jesus and his disciples: for there were many, and they followed him."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass, that he was sitting at meat in his house, and many ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "collectors or renters of Roman taxes", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "publicans and sinners sat down with Jesus and his disciples: for there were many, and they followed him."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 16,
-    "content": "And the scribes of the Pharisees, when they saw that he was eating with the sinners and publicans, said unto his disciples, How is it that he eateth and drinketh with publicans and sinners?"
+    "content": [
+      {
+        "text": "And the scribes ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "and the Pharisees", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "of the Pharisees, when they saw that he was eating with the sinners and ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "collectors or renters of Roman taxes", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "publicans, said unto his disciples, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "He eateth . . . sinners", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "How is it", "marks": ["i"] },
+      {
+        "text": " that he eateth ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "and drinketh", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "and drinketh with ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "collectors or renters of Roman taxes", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "publicans and sinners?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 17,
-    "content": "And when Jesus heard it, he saith unto them, They that are whole have no need of a physician, but they that are sick: I came not to call the righteous, but sinners."
+    "content": [
+      {
+        "text": "And when Jesus heard it, he saith unto them, They that are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "strong", "marks": ["i"] }, "."]
+        }
+      },
+      "whole have no need of a physician, but they that are sick: I came not to call the righteous, but sinners."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 18,
-    "content": "And John’s disciples and the Pharisees were fasting: and they come and say unto him, Why do John’s disciples and the disciples of the Pharisees fast, but thy disciples fast not?"
+    "content": {
+      "paragraph": true,
+      "text": "And John’s disciples and the Pharisees were fasting: and they come and say unto him, Why do John’s disciples and the disciples of the Pharisees fast, but thy disciples fast not?"
+    }
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 19,
-    "content": "And Jesus said unto them, Can the sons of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegroom with them, they cannot fast."
+    "content": [
+      {
+        "text": "And Jesus said unto them, Can the ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "companions of the bridegroom", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "sons of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegroom with them, they cannot fast."
+    ]
   },
   {
     "book": "MRK",
@@ -405,13 +858,44 @@
     "book": "MRK",
     "chapter": 2,
     "verse": 22,
-    "content": "And no man putteth new wine into old wineskins; else the wine will burst the skins, and the wine perisheth, and the skins: but they put new wine into fresh wine-skins."
+    "content": [
+      {
+        "text": "And no man putteth new wine into old ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "skins used as bottles", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "wine-skins; else the wine will burst the skins, and the wine perisheth, and the skins: but ",
+      { "text": "they put", "marks": ["i"] },
+      " new wine into fresh wine-skins."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 23,
-    "content": "And it came to pass, that he was going on the sabbath day through the grainfields; and his disciples began, as they went, to pluck the ears."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass, that he was going on the sabbath day through the grainfields; and his disciples ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "began to make", "marks": ["i"] },
+            " their ",
+            { "text": "way plucking", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "began, as they went, to pluck the ears."
+    ]
   },
   {
     "book": "MRK",
@@ -423,13 +907,41 @@
     "book": "MRK",
     "chapter": 2,
     "verse": 25,
-    "content": "And he said unto them, Did ye never read what David did, when he had need, and was hungry, he, and they that were with him?"
+    "content": [
+      {
+        "text": "And he said unto them, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "1 Samuel 21:6", "content": "1 Sam. 21:6" },
+            "."
+          ]
+        }
+      },
+      "Did ye never read what David did, when he had need, and was hungry, he, and they that were with him?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 2,
     "verse": 26,
-    "content": "How he entered into the house of God when Abiathar was high priest, and ate the showbread, which it is not lawful to eat save for the priests, and gave also to them that were with him?"
+    "content": [
+      {
+        "text": "How he entered into the house of God ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            {
+              "text": "in the days of Abiathar the high priest",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "when Abiathar was high priest, and ate the showbread, which it is not lawful to eat save for the priests, and gave also to them that were with him?"
+    ]
   },
   {
     "book": "MRK",
@@ -462,7 +974,20 @@
     "book": "MRK",
     "chapter": 3,
     "verse": 3,
-    "content": "And he saith unto the man that had his hand withered, Stand forth."
+    "content": [
+      {
+        "text": "And he saith unto the man that had his hand withered, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "Arise into the midst", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Stand forth."
+    ]
   },
   {
     "book": "MRK",
@@ -486,13 +1011,28 @@
     "book": "MRK",
     "chapter": 3,
     "verse": 7,
-    "content": "And Jesus with his disciples withdrew to the sea: and a great multitude from Galilee followed; and from Judaea,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jesus with his disciples withdrew to the sea: and a great multitude from Galilee followed; and from Judæa,"
+    }
   },
   {
     "book": "MRK",
     "chapter": 3,
     "verse": 8,
-    "content": "and from Jerusalem, and from Idumaea, and beyond the Jordan, and about Tyre and Sidon, a great multitude, hearing what great things he did, came unto him."
+    "content": [
+      {
+        "text": "and from Jerusalem, and from Idumæa, and beyond the Jordan, and about Tyre and Sidon, a great multitude, hearing w",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "all the things that he did", "marks": ["i"] }
+          ]
+        }
+      },
+      "hat great things he did, came unto him."
+    ]
   },
   {
     "book": "MRK",
@@ -504,7 +1044,23 @@
     "book": "MRK",
     "chapter": 3,
     "verse": 10,
-    "content": "for he had healed many; insomuch that as many as had plagues pressed upon him that they might touch him."
+    "content": [
+      {
+        "text": "for he had healed many; insomuch that as many as had ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "scourges", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "plagues ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "fell", "marks": ["i"] }, "."]
+        }
+      },
+      "pressed upon him that they might touch him."
+    ]
   },
   {
     "book": "MRK",
@@ -522,13 +1078,33 @@
     "book": "MRK",
     "chapter": 3,
     "verse": 13,
-    "content": "And he goeth up into the mountain, and calleth unto him whom he himself would; and they went unto him."
+    "content": {
+      "paragraph": true,
+      "text": "And he goeth up into the mountain, and calleth unto him whom he himself would; and they went unto him."
+    }
   },
   {
     "book": "MRK",
     "chapter": 3,
     "verse": 14,
-    "content": "And he appointed twelve, that they might be with him, and that he might send them forth to preach,"
+    "content": [
+      {
+        "text": "And he appointed twelve, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities add ",
+            { "text": "whom also he named apostles", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Luke 6:13", "content": "Lk. 6:13" },
+            "; compare ",
+            { "bibleLink": "Mark 6:30", "content": "6:30" },
+            "."
+          ]
+        }
+      },
+      "that they might be with him, and that he might send them forth to preach,"
+    ]
   },
   {
     "book": "MRK",
@@ -540,25 +1116,99 @@
     "book": "MRK",
     "chapter": 3,
     "verse": 16,
-    "content": "and Simon he surnamed Peter;"
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities insert ",
+            { "text": "and he appointed twelve", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "and Simon he surnamed Peter;"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 3,
     "verse": 17,
-    "content": "and James the son of Zebedee, and John the brother of James; and them he surnamed Boanerges, which is, Sons of thunder:"
+    "content": [
+      {
+        "text": "and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James the ",
+      { "text": "son", "marks": ["i"] },
+      {
+        "text": " of Zebedee, and John the brother of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James; and them he surnamed Boanerges, which is, Sons of thunder:"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 3,
     "verse": 18,
-    "content": "and Andrew, and Philip, and Bartholomew, and Matthew, and Thomas, and James the son of Alphaeus, and Thaddaeus, and Simon the Cananaean,"
+    "content": [
+      {
+        "text": "and Andrew, and Philip, and Bartholomew, and Matthew, and Thomas, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James the ",
+      { "text": "son", "marks": ["i"] },
+      {
+        "text": " of Alphæus, and Thaddæus, and Simon the Ca",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Zealot", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Luke 6:15", "content": "Lk. 6:15" },
+            "; ",
+            { "bibleLink": "Acts 1:13" },
+            "."
+          ]
+        }
+      },
+      "nanæan,"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 3,
     "verse": 19,
-    "content": "and Judas Iscariot, who also betrayed him. And he cometh into a house."
+    "content": [
+      {
+        "text": "and Judas Iscariot, who also ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "delivered him up", "marks": ["i"] }]
+        }
+      },
+      "betrayed him.",
+      {
+        "paragraph": true,
+        "text": "And he cometh ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "home", "marks": ["i"] }]
+        }
+      },
+      "into a house."
+    ]
   },
   {
     "book": "MRK",
@@ -576,7 +1226,23 @@
     "book": "MRK",
     "chapter": 3,
     "verse": 22,
-    "content": "And the scribes that came down from Jerusalem said, He hath Beelzebub, and, By the prince of the demons casteth he out the demons."
+    "content": [
+      {
+        "text": "And the scribes that came down from Jerusalem said, He hath ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Beelzebul", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Beelzebub, and, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "In", "marks": ["i"] }]
+        }
+      },
+      "By the prince of the demons casteth he out the demons."
+    ]
   },
   {
     "book": "MRK",
@@ -600,13 +1266,19 @@
     "book": "MRK",
     "chapter": 3,
     "verse": 26,
-    "content": "And if Satan hath rise up against himself, and is divided, he cannot stand, but hath an end."
+    "content": "And if Satan hath risen up against himself, and is divided, he cannot stand, but hath an end."
   },
   {
     "book": "MRK",
     "chapter": 3,
     "verse": 27,
-    "content": "But no one can enter into the house of the strong man, and spoil his goods, except he first bind the strong man; and then he will spoil his house."
+    "content": [
+      "But no one can enter into the house of the strong ",
+      { "text": "man", "marks": ["i"] },
+      ", and spoil his goods, except he first bind the strong ",
+      { "text": "man", "marks": ["i"] },
+      "; and then he will spoil his house."
+    ]
   },
   {
     "book": "MRK",
@@ -630,7 +1302,10 @@
     "book": "MRK",
     "chapter": 3,
     "verse": 31,
-    "content": "And there come his mother and his brethren; and, standing without, they sent unto him, calling him."
+    "content": {
+      "paragraph": true,
+      "text": "And there come his mother and his brethren; and, standing without, they sent unto him, calling him."
+    }
   },
   {
     "book": "MRK",
@@ -681,13 +1356,21 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 4,
-    "content": "and it came to pass, as he sowed, some seed fell by the way side, and the birds came and devoured it."
+    "content": [
+      "and it came to pass, as he sowed, some ",
+      { "text": "seed", "marks": ["i"] },
+      " fell by the way side, and the birds came and devoured it."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 4,
     "verse": 5,
-    "content": "And other fell on the rocky ground, where it had not much earth; and straightway it sprang up, because it had no deepness of earth:"
+    "content": [
+      "And other fell on the rocky ",
+      { "text": "ground", "marks": ["i"] },
+      ", where it had not much earth; and straightway it sprang up, because it had no deepness of earth:"
+    ]
   },
   {
     "book": "MRK",
@@ -717,7 +1400,10 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 10,
-    "content": "And when he was alone, they that were about him with the twelve asked of him the parables."
+    "content": {
+      "paragraph": true,
+      "text": "And when he was alone, they that were about him with the twelve asked of him the parables."
+    }
   },
   {
     "book": "MRK",
@@ -747,13 +1433,17 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 15,
-    "content": "And these are they by the way side, where the word is sown; and when they have heard, straighway cometh Satan, and taketh away the word which hath been sown in them."
+    "content": "And these are they by the way side, where the word is sown; and when they have heard, straightway cometh Satan, and taketh away the word which hath been sown in them."
   },
   {
     "book": "MRK",
     "chapter": 4,
     "verse": 16,
-    "content": "And these in like manner are they that are sown upon the rocky places, who, when they have heard the word, straightway receive it with joy;"
+    "content": [
+      "And these in like manner are they that are sown upon the rocky ",
+      { "text": "places", "marks": ["i"] },
+      ", who, when they have heard the word, straightway receive it with joy;"
+    ]
   },
   {
     "book": "MRK",
@@ -771,7 +1461,16 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 19,
-    "content": "and the cares of the world, and the deceitfulness of riches, and the lusts of other things entering in, choke the word, and it becometh unfruitful."
+    "content": [
+      {
+        "text": "and the cares of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      "world, and the deceitfulness of riches, and the lusts of other things entering in, choke the word, and it becometh unfruitful."
+    ]
   },
   {
     "book": "MRK",
@@ -783,13 +1482,24 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 21,
-    "content": "And he said unto them, Is the lamp brought to be put under the bushel, or under the bed, and not to be put on the stand?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And he said unto them, Is the lamp brought to be put under the bushel, or under the bed, "
+      },
+      { "text": "and", "marks": ["i"] },
+      " not to be put on the stand?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 4,
     "verse": 22,
-    "content": "For there is nothing hid, save that it should be manifested; neither was anything made secret, but that it should come to light."
+    "content": [
+      "For there is nothing hid, save that it should be manifested; neither was ",
+      { "text": "anything", "marks": ["i"] },
+      " made secret, but that it should come to light."
+    ]
   },
   {
     "book": "MRK",
@@ -813,7 +1523,10 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 26,
-    "content": "And he said, So is the kingdom of God, as if a man should cast seed upon the earth;"
+    "content": {
+      "paragraph": true,
+      "text": "And he said, So is the kingdom of God, as if a man should cast seed upon the earth;"
+    }
   },
   {
     "book": "MRK",
@@ -825,25 +1538,61 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 28,
-    "content": "The earth beareth fruit of herself; first the blade, then the ear, then the full grain in the ear."
+    "content": [
+      {
+        "text": "The earth ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "yieldeth", "marks": ["i"] }]
+        }
+      },
+      "beareth fruit of herself; first the blade, then the ear, then the full grain in the ear."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 4,
     "verse": 29,
-    "content": "But when the fruit is ripe, straightway he putteth forth the sickle, because the harvest is come."
+    "content": [
+      {
+        "text": "But when the fruit ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "alloweth", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "is ripe, straightway he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sendeth forth", "marks": ["i"] }]
+        }
+      },
+      "putteth forth the sickle, because the harvest is come."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 4,
     "verse": 30,
-    "content": "And he said, How shall we liken the kingdom of God? or in what parable shall we set it forth?"
+    "content": {
+      "paragraph": true,
+      "text": "And he said, How shall we liken the kingdom of God? or in what parable shall we set it forth?"
+    }
   },
   {
     "book": "MRK",
     "chapter": 4,
     "verse": 31,
-    "content": "It is like a grain of mustard seed, which, when it is sown upon the earth, though it be less than all the seeds that are upon the earth,"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "As unto", "marks": ["i"] }, "."]
+        }
+      },
+      "It is like a grain of mustard seed, which, when it is sown upon the earth, though it be less than all the seeds that are upon the earth,"
+    ]
   },
   {
     "book": "MRK",
@@ -855,7 +1604,10 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 33,
-    "content": "And with many such parables spake he the word unto them, as they were able to hear it;"
+    "content": {
+      "paragraph": true,
+      "text": "And with many such parables spake he the word unto them, as they were able to hear it;"
+    }
   },
   {
     "book": "MRK",
@@ -867,7 +1619,10 @@
     "book": "MRK",
     "chapter": 4,
     "verse": 35,
-    "content": "And on that day, when even was come, he saith unto them, Let us go over unto the other side."
+    "content": {
+      "paragraph": true,
+      "text": "And on that day, when even was come, he saith unto them, Let us go over unto the other side."
+    }
   },
   {
     "book": "MRK",
@@ -942,7 +1697,24 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 6,
-    "content": "And when he saw Jesus from afar, he ran and worshipped him;"
+    "content": [
+      {
+        "text": "And when he saw Jesus from afar, he ran and ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "The Greek word denotes an act of reverence, whether paid to a creature (see ",
+            { "bibleLink": "Matthew 4:9", "content": "Mt. 4:9" },
+            "; ",
+            { "bibleLink": "Matthew 18:26", "content": "18:26" },
+            ") or to the Creator (see ",
+            { "bibleLink": "Matthew 4:10", "content": "Mt. 4:10" },
+            ")"
+          ]
+        }
+      },
+      "worshipped him;"
+    ]
   },
   {
     "book": "MRK",
@@ -984,7 +1756,11 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 13,
-    "content": "And he gave them leave. And the unclean spirits came out, and entered into the swine: and the herd rushed down the steep into the sea, in number about two thousand; and they were drowned in the sea."
+    "content": [
+      "And he gave them leave. And the unclean spirits came out, and entered into the swine: and the herd rushed down the steep into the sea, ",
+      { "text": "in number", "marks": ["i"] },
+      " about two thousand; and they were drowned in the sea."
+    ]
   },
   {
     "book": "MRK",
@@ -996,13 +1772,33 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 15,
-    "content": "And they come to Jesus, and behold him that was possessed with demons sitting, clothed and in his right mind, even him that had the legion: and they were afraid."
+    "content": [
+      {
+        "text": "And they come to Jesus, and behold ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the demoniac", "marks": ["i"] }]
+        }
+      },
+      "him that was possessed with demons sitting, clothed and in his right mind, ",
+      { "text": "even", "marks": ["i"] },
+      " him that had the legion: and they were afraid."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 16,
-    "content": "And they that saw it declared unto them how it befell him that was possessed with demons, and concerning the swine."
+    "content": [
+      {
+        "text": "And they that saw it declared unto them how it befell ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the demoniac", "marks": ["i"] }]
+        }
+      },
+      "him that was possessed with demons, and concerning the swine."
+    ]
   },
   {
     "book": "MRK",
@@ -1014,13 +1810,26 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 18,
-    "content": "And as he was entering into the boat, he that had been possessed with demons besought him that he might be with him."
+    "content": [
+      {
+        "text": "And as he was entering into the boat, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the demoniac", "marks": ["i"] }]
+        }
+      },
+      "he that had been possessed with demons besought him that he might be with him."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 19,
-    "content": "And he suffered him not, but saith unto him, Go to thy house unto thy friends, and tell them how great things the Lord hath done for thee, and how he had mercy on thee."
+    "content": [
+      "And he suffered him not, but saith unto him, Go to thy house unto thy friends, and tell them how great things the Lord hath done for thee, and ",
+      { "text": "how", "marks": ["i"] },
+      " he had mercy on thee."
+    ]
   },
   {
     "book": "MRK",
@@ -1032,19 +1841,33 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 21,
-    "content": "And when Jesus had crossed over again in the boat unto the other side, a great multitude was gathered unto him; and he was by the sea."
+    "content": {
+      "paragraph": true,
+      "text": "And when Jesus had crossed over again in the boat unto the other side, a great multitude was gathered unto him; and he was by the sea."
+    }
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 22,
-    "content": "And there cometh one of the rulers of the synagogue, Jairus by name; and seeing him, he falleth at his feet,"
+    "content": "And there cometh one of the rulers of the synagogue, Jaïrus by name; and seeing him, he falleth at his feet,"
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 23,
-    "content": "and beseecheth him much, saying, My little daughter is at the point of death: I pray thee, that thou come and lay thy hands on her, that she may be made whole, and live."
+    "content": [
+      "and beseecheth him much, saying, My little daughter is at the point of death: ",
+      { "text": "I pray thee", "marks": ["i"] },
+      {
+        "text": ", that thou come and lay thy hands on her, that she may be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "saved", "marks": ["i"] }]
+        }
+      },
+      "made whole, and live."
+    ]
   },
   {
     "book": "MRK",
@@ -1056,7 +1879,10 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 25,
-    "content": "And a woman, who had an issue of blood twelve years,"
+    "content": {
+      "paragraph": true,
+      "text": "And a woman, who had an issue of blood twelve years,"
+    }
   },
   {
     "book": "MRK",
@@ -1074,19 +1900,41 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 28,
-    "content": "For she said, If I touch but his garments, I shall be made whole."
+    "content": [
+      {
+        "text": "For she said, If I touch but his garments, I shall be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "saved", "marks": ["i"] }]
+        }
+      },
+      "made whole."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 29,
-    "content": "And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of her plague."
+    "content": [
+      {
+        "text": "And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "scourge", "marks": ["i"] }, "."]
+        }
+      },
+      "plague."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 30,
-    "content": "And straightway Jesus, perceiving in himself that the power proceeding from him had gone forth, turned him about in the crowd, and said, Who touched my garments?"
+    "content": [
+      "And straightway Jesus, perceiving in himself that the power ",
+      { "text": "proceeding", "marks": ["i"] },
+      " from him had gone forth, turned him about in the crowd, and said, Who touched my garments?"
+    ]
   },
   {
     "book": "MRK",
@@ -1110,31 +1958,83 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 34,
-    "content": "And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague."
+    "content": [
+      {
+        "text": "And he said unto her, Daughter, thy faith hath ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "saved thee", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "made thee whole; go in peace, and be whole of thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "scourge", "marks": ["i"] }, "."]
+        }
+      },
+      "plague."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 35,
-    "content": "While he yet spake, they come from the ruler of the synagogue’s house saying, Thy daughter is dead: why troublest thou the Teacher any further?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "While he yet spake, they come from the ruler of the synagogue’s "
+      },
+      { "text": "house", "marks": ["i"] },
+      ", saying, Thy daughter is dead: why troublest thou the Teacher any further?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 36,
-    "content": "But Jesus, not heeding the word spoken, saith unto the ruler of the synagogue, Fear not, only believe."
+    "content": [
+      {
+        "text": "But Jesus, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "overhearing", "marks": ["i"] }]
+        }
+      },
+      "not heeding the word spoken, saith unto the ruler of the synagogue, Fear not, only believe."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 37,
-    "content": "And he suffered no man to follow with him, save Peter, and James, and John the brother of James."
+    "content": [
+      {
+        "text": "And he suffered no man to follow with him, save Peter, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "James, and John the brother of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 5,
     "verse": 38,
-    "content": "And they come to the house of the ruler of the synagogue; and he beholdeth a tumult, and many weeping and wailing greatly."
+    "content": [
+      "And they come to the house of the ruler of the synagogue; and he beholdeth a tumult, and ",
+      { "text": "many", "marks": ["i"] },
+      " weeping and wailing greatly."
+    ]
   },
   {
     "book": "MRK",
@@ -1164,7 +2064,11 @@
     "book": "MRK",
     "chapter": 5,
     "verse": 43,
-    "content": "And he charged them much that no man should know this: and he commanded that something should be given her to eat."
+    "content": [
+      "And he charged them much that no man should know this: and he commanded that ",
+      { "text": "something", "marks": ["i"] },
+      " should be given her to eat."
+    ]
   },
   {
     "book": "MRK",
@@ -1179,13 +2083,55 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 2,
-    "content": "And when the sabbath was come, he began to teach in the synagogue: and many hearing him were astonished, saying, Whence hath this man these things? and, What is the wisdom that is given unto this man, and what mean such mighty works wrought by his hands?"
+    "content": [
+      {
+        "text": "And when the sabbath was come, he began to teach in the synagogue: and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities insert ",
+            { "text": "the", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "many hearing him were astonished, saying, Whence hath this man these things? and, What is the wisdom that is given unto this man, and ",
+      { "text": "what mean", "marks": ["i"] },
+      {
+        "text": " such ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "powers", "marks": ["i"] }, "."]
+        }
+      },
+      "mighty works wrought by his hands?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 3,
-    "content": "Is not this the carpenter, the son of Mary, and brother of James, and Joses, and Judas, and Simon? and are not his sisters here with us? And they were offended in him."
+    "content": [
+      {
+        "text": "Is not this the carpenter, the son of Mary, and brother of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "James, and Joses, and Judas, and Simon? and are not his sisters here with us? And they were ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "caused to stumble", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "offended in him."
+    ]
   },
   {
     "book": "MRK",
@@ -1197,31 +2143,73 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 5,
-    "content": "And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them."
+    "content": [
+      {
+        "text": "And he could there do no ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "power", "marks": ["i"] }, "."]
+        }
+      },
+      "mighty work, save that he laid his hands upon a few sick folk, and healed them."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 6,
-    "content": "And he marvelled because of their unbelief. And he went round about the villages teaching."
+    "content": [
+      "And he marvelled because of their unbelief.",
+      {
+        "paragraph": true,
+        "text": "And he went round about the villages teaching."
+      }
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 7,
-    "content": "And he calleth unto him the twelve, and began to send them forth by two and two; and he gave them authority over the unclean spirits;"
+    "content": {
+      "paragraph": true,
+      "text": "And he calleth unto him the twelve, and began to send them forth by two and two; and he gave them authority over the unclean spirits;"
+    }
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 8,
-    "content": "and he charged them that they should take nothing for their journey, save a staff only; no bread, no wallet, now money in their purse;"
+    "content": [
+      "and he charged them that they should take nothing for ",
+      { "text": "their", "marks": ["i"] },
+      {
+        "text": " journey, save a staff only; no bread, no wallet, no ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "brass", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "money in their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "girdle", "marks": ["i"] }, "."]
+        }
+      },
+      "purse;"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 9,
-    "content": "but to go shod with sandals: and, said he, put not on two coats."
+    "content": [
+      "but ",
+      { "text": "to go", "marks": ["i"] },
+      " shod with sandals: and, ",
+      { "text": "said he", "marks": ["i"] },
+      ", put not on two coats."
+    ]
   },
   {
     "book": "MRK",
@@ -1239,7 +2227,11 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 12,
-    "content": "And they went out, and preached that men should repent."
+    "content": [
+      "And they went out, and preached that ",
+      { "text": "men", "marks": ["i"] },
+      " should repent."
+    ]
   },
   {
     "book": "MRK",
@@ -1251,19 +2243,44 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 14,
-    "content": "And king Herod heard thereof; for his name had become known: and he said, John the Baptizer is risen from the dead, and therefore do these powers work in him."
+    "content": [
+      { "paragraph": true, "text": "And king Herod heard " },
+      { "text": "thereof", "marks": ["i"] },
+      {
+        "text": "; for his name had become known: and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "they", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "he said, John the Baptizer is risen from the dead, and therefore do these powers work in him."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 15,
-    "content": "But others said, It is Elijah. And others said, It is a prophet, even as one of the prophets."
+    "content": [
+      "But others said, It is Elijah. And others said, ",
+      { "text": "It is", "marks": ["i"] },
+      " a prophet, ",
+      { "text": "even", "marks": ["i"] },
+      " as one of the prophets."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 16,
-    "content": "But Herod, when he heard thereof, said, John, whom I beheaded, he is risen."
+    "content": [
+      "But Herod, when he heard ",
+      { "text": "thereof", "marks": ["i"] },
+      ", said, John, whom I beheaded, he is risen."
+    ]
   },
   {
     "book": "MRK",
@@ -1287,19 +2304,67 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 20,
-    "content": "for Herod feared John, knowing that he was a righteous and holy man, and kept him safe. And when he heard him, he was much perplexed; and he heard him gladly."
+    "content": [
+      {
+        "text": "for Herod feared John, knowing that he was a righteous and holy man, and kept him safe. And when he heard him, he ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "did many things", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "was much perplexed; and he heard him gladly."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 21,
-    "content": "And when a convenient day was come, that Herod on his birthday made a supper to his lords, and the high captains, and the chief men of Galilee;"
+    "content": [
+      {
+        "text": "And when a convenient day was come, that Herod on his birthday made a supper to his lords, and the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "military tribunes", "marks": ["i"] },
+            ". Greek ",
+            { "text": "chiliarchs", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "high captains, and the chief men of Galilee;"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 22,
-    "content": "and when the daughter of Herodias herself came in and danced, she pleased Herod and them that sat at meat with him; and the king said unto the damsel, Ask of me whatsoever thou wilt, and I will give it thee."
+    "content": [
+      {
+        "text": "and when ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "his daughter Herodias", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "the daughter of Herodias herself came in and danced, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it", "marks": ["i"] }]
+        }
+      },
+      "she pleased Herod and them that sat at meat with him; and the king said unto the damsel, Ask of me whatsoever thou wilt, and I will give it thee."
+    ]
   },
   {
     "book": "MRK",
@@ -1341,13 +2406,20 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 29,
-    "content": "And when his disciples heard thereof, they came and took up his corpse, and laid it in a tomb."
+    "content": [
+      "And when his disciples heard ",
+      { "text": "thereof", "marks": ["i"] },
+      ", they came and took up his corpse, and laid it in a tomb."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 30,
-    "content": "And the apostles gather themselves together unto Jesus; and they told him all things, whatsoever they had done, and whatsoever they had taught."
+    "content": {
+      "paragraph": true,
+      "text": "And the apostles gather themselves together unto Jesus; and they told him all things, whatsoever they had done, and whatsoever they had taught."
+    }
   },
   {
     "book": "MRK",
@@ -1365,7 +2437,20 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 33,
-    "content": "And the people saw them going, and many knew them, and they ran together there on foot from all the cities, and outwent them."
+    "content": [
+      "And ",
+      { "text": "the people", "marks": ["i"] },
+      " saw them going, and many knew ",
+      { "text": "them", "marks": ["i"] },
+      {
+        "text": ", and they ran together there ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by land", "marks": ["i"] }]
+        }
+      },
+      "on foot from all the cities, and outwent them."
+    ]
   },
   {
     "book": "MRK",
@@ -1389,19 +2474,41 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 37,
-    "content": "But he answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred shillings’ worth of bread, and give them to eat?"
+    "content": [
+      {
+        "text": "But he answered and said unto them, Give ye them to eat. And they say unto him, Shall we go and buy two hundred ",
+        "foot": {
+          "type": "stu",
+          "content": "The word in the Greek denotes a coin worth about eight pence half-penny, or nearly seventeen cents."
+        }
+      },
+      "shillings’ worth of bread, and give them to eat?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 38,
-    "content": "And he saith unto them, How many loaves have ye? go and see. And when they knew, they say, Five, and two fishes."
+    "content": [
+      "And he saith unto them, How many loaves have ye? go ",
+      { "text": "and", "marks": ["i"] },
+      " see. And when they knew, they say, Five, and two fishes."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 39,
-    "content": "And he commanded them that all should sit down by companies upon the green grass."
+    "content": [
+      {
+        "text": "And he commanded them that all should ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "recline", "marks": ["i"] }, "."]
+        }
+      },
+      "sit down by companies upon the green grass."
+    ]
   },
   {
     "book": "MRK",
@@ -1437,7 +2544,14 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 45,
-    "content": "And straightway he constrained his disciples to enter into the boat, and to go before him unto the other side to Bethsaida, while he himself sendeth the multitude away."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And straightway he constrained his disciples to enter into the boat, and to go before "
+      },
+      { "text": "him", "marks": ["i"] },
+      " unto the other side to Bethsaida, while he himself sendeth the multitude away."
+    ]
   },
   {
     "book": "MRK",
@@ -1485,25 +2599,63 @@
     "book": "MRK",
     "chapter": 6,
     "verse": 53,
-    "content": "And when they had crossed over, they came to the land unto Gennesaret, and moored to the shore."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And when they had ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "crossed over to the land, they came unto Gennesaret",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "crossed over, they came to the land unto Gennesaret, and moored to the shore."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 54,
-    "content": "And when they were come out of the boat, straightway the people knew him,"
+    "content": [
+      "And when they were come out of the boat, straightway ",
+      { "text": "the people", "marks": ["i"] },
+      " knew him,"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 55,
-    "content": "and ran round about that whole region, and began to carry about on their beds those that were sick, where they heard he was."
+    "content": [
+      {
+        "text": "and ran round about that whole region, and began to carry about on their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pallets", "marks": ["i"] }]
+        }
+      },
+      "beds those that were sick, where they heard he was."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 6,
     "verse": 56,
-    "content": "And wheresoever he entered, into villages, or into cities, or into the country, they laid the sick in the marketplaces, and besought him that they might touch if it were but the border of his garment: and as many as touched him were made whole."
+    "content": [
+      {
+        "text": "And wheresoever he entered, into villages, or into cities, or into the country, they laid the sick in the marketplaces, and besought him that they might touch if it were but the border of his garment: and as many as touched ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it", "marks": ["i"] }]
+        }
+      },
+      "him were made whole."
+    ]
   },
   {
     "book": "MRK",
@@ -1518,43 +2670,133 @@
     "book": "MRK",
     "chapter": 7,
     "verse": 2,
-    "content": "and had seen that some of his disciples ate their bread with defiled, that is, unwashen, hands."
+    "content": [
+      {
+        "text": "and had seen that some of his disciples ate their bread with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "common", "marks": ["i"] }]
+        }
+      },
+      "defiled, that is, unwashen, hands."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 3,
-    "content": "(For the Pharisees, and all the Jews, except they wash their hands diligently, eat not, holding the tradition of the elders;"
+    "content": [
+      {
+        "text": "(For the Pharisees, and all the Jews, except they wash their hands ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "up to the elbow", "marks": ["i"] },
+            ". Greek ",
+            { "text": "with the fist", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "diligently, eat not, holding the tradition of the elders;"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 4,
-    "content": "and when they come from the market-place, except they bathe themselves, they eat not; and many other things there are, which they have received to hold, washings of cups, and pots, and brasen vessels.)"
+    "content": [
+      "and ",
+      { "text": "when they come", "marks": ["i"] },
+      {
+        "text": " from the marketplace, except they ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Greek ",
+            { "text": "baptize", "marks": ["i"] },
+            ". Some ancient authorities read ",
+            { "text": "sprinkle themselves", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "bathe themselves, they eat not; and many other things there are, which they have received to hold, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "baptizings", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "washings of cups, and pots, and brasen vessels",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities add ",
+            { "text": "and couches", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      ".)"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 5,
-    "content": "And the Pharisees and the scribes ask him, Why walk not thy disciples according to the tradition of the elders, but eat their bread with defiled hands?"
+    "content": [
+      {
+        "text": "And the Pharisees and the scribes ask him, Why walk not thy disciples according to the tradition of the elders, but eat their bread with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "common", "marks": ["i"] }]
+        }
+      },
+      "defiled hands?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 6,
-    "content": "And he said unto them, Well did Isaiah prophesy of you hyprocrites, as it is written, This people honoreth me with their lips, But their heart is far from me."
+    "content": [
+      {
+        "text": "And he said unto them, Well did Isaiah prophesy of you hypocrites, as it is written,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 29:13", "content": "Isa. 29:13" },
+            "."
+          ]
+        }
+      },
+      { "text": "This people honoreth me with their lips,", "break": true },
+      { "text": "But their heart is far from me.", "break": true }
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 7,
-    "content": "But in vain do they worship me, Teaching as their doctrines the precepts of men."
+    "content": [
+      { "text": "But in vain do they worship me,", "break": true },
+      "Teaching ",
+      { "text": "as their", "marks": ["i"] },
+      { "text": " doctrines the precepts of men.", "break": true }
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 8,
-    "content": "Ye leave the commandment of God, and hold fast the tradition of men."
+    "content": {
+      "paragraph": true,
+      "text": "Ye leave the commandment of God, and hold fast the tradition of men."
+    }
   },
   {
     "book": "MRK",
@@ -1566,13 +2808,42 @@
     "book": "MRK",
     "chapter": 7,
     "verse": 10,
-    "content": "For Moses said, Honor thy father and thy mother; and, He that speaketh evil of father or mother, let him die the death:"
+    "content": [
+      {
+        "text": "For Moses said, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Exodus 20:12", "content": "Ex. 20:12" },
+            "; ",
+            { "bibleLink": "Deuteronomy 5:16", "content": "Dt. 5:16" },
+            "; ",
+            { "bibleLink": "Exodus 21:17", "content": "Ex. 21:17" },
+            "; ",
+            { "bibleLink": "Leviticus 20:9", "content": "Lev. 20:9" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Honor thy father and thy mother; and, He that speaketh evil of father or mother, let him ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "surely die", "marks": ["i"] }]
+        }
+      },
+      "die the death:"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 11,
-    "content": "but ye say, If a man shall say to his father or his mother, That wherewith thou mightest have been profited by me is Corban, that is to say, Given to God;"
+    "content": [
+      "but ye say, If a man shall say to his father or his mother, That wherewith thou mightest have been profited by me is Corban, that is to say, Given ",
+      { "text": "to God", "marks": ["i"] },
+      ";"
+    ]
   },
   {
     "book": "MRK",
@@ -1602,7 +2873,23 @@
     "book": "MRK",
     "chapter": 7,
     "verse": 16,
-    "content": "[If any man hath ears to hear, let him hear.]"
+    "content": {
+      "foot": {
+        "type": "var",
+        "content": [
+          "Many ancient authorities insert ",
+          { "bibleLink": "Mark 7:16", "content": "verse 16" },
+          " ",
+          {
+            "text": "If any man hath ears to hear, let him hear",
+            "marks": ["i"]
+          },
+          ". See ",
+          { "bibleLink": "Mark 4:9", "content": "4:9" },
+          "."
+        ]
+      }
+    }
   },
   {
     "book": "MRK",
@@ -1614,13 +2901,21 @@
     "book": "MRK",
     "chapter": 7,
     "verse": 18,
-    "content": "And he saith unto them, Are ye so without understanding also? Perceive ye not, that whatsoever from without goeth into the man, it cannot defile him;"
+    "content": [
+      "And he saith unto them, Are ye so without understanding also? Perceive ye not, that whatsoever from without goeth into the man, ",
+      { "text": "it", "marks": ["i"] },
+      " cannot defile him;"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 19,
-    "content": "because it goeth not into his heart, but into his belly, and goeth out into the draught? This he said, making all meats clean."
+    "content": [
+      "because it goeth not into his heart, but into his belly, and goeth out into the draught? ",
+      { "text": "This he said", "marks": ["i"] },
+      ", making all meats clean."
+    ]
   },
   {
     "book": "MRK",
@@ -1632,7 +2927,20 @@
     "book": "MRK",
     "chapter": 7,
     "verse": 21,
-    "content": "For from within, out of the heart of men, evil thoughts proceed, fornications, thefts, murders, adulteries,"
+    "content": [
+      {
+        "text": "For from within, out of the heart of men, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "thoughts that are evil", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "evil thoughts proceed, fornications, thefts, murders, adulteries,"
+    ]
   },
   {
     "book": "MRK",
@@ -1650,7 +2958,21 @@
     "book": "MRK",
     "chapter": 7,
     "verse": 24,
-    "content": "And from thence he arose, and went away into the borders of Tyre and Sidon. And he entered into a house, and would have no man know it; and he could not be hid."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And from thence he arose, and went away into the borders of Tyre ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "and Sidon", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "and Sidon. And he entered into a house, and would have no man know it; and he could not be hid."
+    ]
   },
   {
     "book": "MRK",
@@ -1662,13 +2984,31 @@
     "book": "MRK",
     "chapter": 7,
     "verse": 26,
-    "content": "Now the woman was a Greek, a Syrophoenician by race. And she besought him that he would cast forth the demon out of her daughter."
+    "content": [
+      {
+        "text": "Now the woman was a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Gentile", "marks": ["i"] }]
+        }
+      },
+      "Greek, a Syrophoenician by race. And she besought him that he would cast forth the demon out of her daughter."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 7,
     "verse": 27,
-    "content": "And he said unto her, Let the children first be filled: for it is not meet to take the children’s bread and cast it to the dogs."
+    "content": [
+      {
+        "text": "And he said unto her, Let the children first be filled: for it is not meet to take the children’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "loaf", "marks": ["i"] }]
+        }
+      },
+      "bread and cast it to the dogs."
+    ]
   },
   {
     "book": "MRK",
@@ -1692,7 +3032,10 @@
     "book": "MRK",
     "chapter": 7,
     "verse": 31,
-    "content": "And again he went out from the borders of Tyre, and came through Sidon unto the sea of Galilee, through the midst of the borders of Decapolis."
+    "content": {
+      "paragraph": true,
+      "text": "And again he went out from the borders of Tyre, and came through Sidon unto the sea of Galilee, through the midst of the borders of Decapolis."
+    }
   },
   {
     "book": "MRK",
@@ -1755,7 +3098,16 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 4,
-    "content": "And his disciples answered him, Whence shall one be able to fill these men with bread here in a desert place?"
+    "content": [
+      {
+        "text": "And his disciples answered him, Whence shall one be able to fill these men with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "loaves", "marks": ["i"] }, "."]
+        }
+      },
+      "bread here in a desert place?"
+    ]
   },
   {
     "book": "MRK",
@@ -1797,7 +3149,10 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 11,
-    "content": "And the Pharisees came forth, and began to question with him, seeking of him a sign from heaven, trying him."
+    "content": {
+      "paragraph": true,
+      "text": "And the Pharisees came forth, and began to question with him, seeking of him a sign from heaven, trying him."
+    }
   },
   {
     "book": "MRK",
@@ -1809,13 +3164,20 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 13,
-    "content": "And he left them, and again entering into the boat departed to the other side."
+    "content": [
+      "And he left them, and again entering into ",
+      { "text": "the boat", "marks": ["i"] },
+      " departed to the other side."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 8,
     "verse": 14,
-    "content": "And they forgot to take bread; and they had not in the boat with them more than one loaf."
+    "content": {
+      "paragraph": true,
+      "text": "And they forgot to take bread; and they had not in the boat with them more than one loaf."
+    }
   },
   {
     "book": "MRK",
@@ -1827,7 +3189,31 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 16,
-    "content": "And they reasoned one with another, saying, We have no bread."
+    "content": [
+      {
+        "text": "And they reasoned one with another, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "because they had no bread", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "saying, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, It is ",
+            { "text": "because we have no bread", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "We have no bread."
+    ]
   },
   {
     "book": "MRK",
@@ -1845,13 +3231,45 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 19,
-    "content": "When I brake the five loaves among the five thousand, how many baskets full of broken pieces took ye up? They say unto him, Twelve."
+    "content": [
+      {
+        "text": "When I brake the five loaves among the five thousand, how many ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "text": "Basket", "marks": ["i"] },
+            " in verses ",
+            { "bibleLink": "Mark 8:19", "content": "19" },
+            " and ",
+            { "bibleLink": "Mark 8:20", "content": "20" },
+            " represent different Greek words."
+          ]
+        }
+      },
+      "baskets full of broken pieces took ye up? They say unto him, Twelve."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 8,
     "verse": 20,
-    "content": "And when the seven among the four thousand, how many basketfuls of broken pieces took ye up? And they say unto him, Seven."
+    "content": [
+      {
+        "text": "And when the seven among the four thousand, how many ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "text": "Basket", "marks": ["i"] },
+            " in verses ",
+            { "bibleLink": "Mark 8:19", "content": "19" },
+            " and ",
+            { "bibleLink": "Mark 8:20", "content": "20" },
+            " represent different Greek words."
+          ]
+        }
+      },
+      "basketfuls of broken pieces took ye up? And they say unto him, Seven."
+    ]
   },
   {
     "book": "MRK",
@@ -1863,7 +3281,10 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 22,
-    "content": "And they come unto Bethsaida. And they bring to him a blind man, and beseech him to touch him."
+    "content": {
+      "paragraph": true,
+      "text": "And they come unto Bethsaida. And they bring to him a blind man, and beseech him to touch him."
+    }
   },
   {
     "book": "MRK",
@@ -1875,7 +3296,11 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 24,
-    "content": "And he looked up, and said, I see men; for I behold them as trees, walking."
+    "content": [
+      "And he looked up, and said, I see men; for I behold ",
+      { "text": "them", "marks": ["i"] },
+      " as trees, walking."
+    ]
   },
   {
     "book": "MRK",
@@ -1893,7 +3318,10 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 27,
-    "content": "And Jesus went forth, and his disciples, into the villages of Caesarea Philippi: and on the way he asked his disciples, saying unto them, Who do men say that I am?"
+    "content": {
+      "paragraph": true,
+      "text": "And Jesus went forth, and his disciples, into the villages of Cæsarea Philippi: and on the way he asked his disciples, saying unto them, Who do men say that I am?"
+    }
   },
   {
     "book": "MRK",
@@ -1917,7 +3345,10 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 31,
-    "content": "And he began to teach them, that the Son of man must suffer many things, and be rejected by the elders, and the chief priests, and the scribes, and be killed, and after three days rise again."
+    "content": {
+      "paragraph": true,
+      "text": "And he began to teach them, that the Son of man must suffer many things, and be rejected by the elders, and the chief priests, and the scribes, and be killed, and after three days rise again."
+    }
   },
   {
     "book": "MRK",
@@ -1941,7 +3372,20 @@
     "book": "MRK",
     "chapter": 8,
     "verse": 35,
-    "content": "For whosoever would save his life shall lose it; and whosoever shall lose his life for my sake and the gospel’s shall save it."
+    "content": [
+      {
+        "text": "For whosoever would save his life shall lose it; and whosoever shall lose his life for my sake and the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 1:1", "content": "1:1" },
+            "."
+          ]
+        }
+      },
+      "gospel’s shall save it."
+    ]
   },
   {
     "book": "MRK",
@@ -1965,16 +3409,30 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And he said unto them, Verily I say unto you, There are some here of them that stand by, who shall in no wise taste of death, till they see the kingdom of God come with power."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And he said unto them, Verily I say unto you, There are some here of them that stand "
+      },
+      { "text": "by", "marks": ["i"] },
+      ", who shall in no wise taste of death, till they see the kingdom of God come with power."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 2,
-    "content": "And after six days Jesus taketh with him Peter, and James, and John, and bringeth them up into a high mountain apart by themselves: and he was transfigured before them;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And after six days Jesus taketh with him Peter, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James, and John, and bringeth them up into a high mountain apart by themselves: and he was transfigured before them;"
+    ]
   },
   {
     "book": "MRK",
@@ -1992,7 +3450,16 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 5,
-    "content": "And Peter answereth and saith to Jesus, Rabbi, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elijah."
+    "content": [
+      {
+        "text": "And Peter answereth and saith to Jesus, Rabbi, it is good for us to be here: and let us make three ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "booths", "marks": ["i"] }]
+        }
+      },
+      "tabernacles; one for thee, and one for Moses, and one for Elijah."
+    ]
   },
   {
     "book": "MRK",
@@ -2016,7 +3483,10 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 9,
-    "content": "And as they were coming down from the mountain, he charged them that they should tell no man what things they had seen, save when the Son of man should have risen again from the dead."
+    "content": {
+      "paragraph": true,
+      "text": "And as they were coming down from the mountain, he charged them that they should tell no man what things they had seen, save when the Son of man should have risen again from the dead."
+    }
   },
   {
     "book": "MRK",
@@ -2028,7 +3498,20 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 11,
-    "content": "And they asked him, saying, How is it that the scribes say that Elijah must first come?"
+    "content": [
+      {
+        "text": "And they asked him, saying, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "The scribes say . . . come", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "How is it", "marks": ["i"] },
+      " that the scribes say that Elijah must first come?"
+    ]
   },
   {
     "book": "MRK",
@@ -2046,7 +3529,10 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 14,
-    "content": "And when they came to the disciples, they saw a great multitude about them, and scribes questioning with them."
+    "content": {
+      "paragraph": true,
+      "text": "And when they came to the disciples, they saw a great multitude about them, and scribes questioning with them."
+    }
   },
   {
     "book": "MRK",
@@ -2070,7 +3556,22 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 18,
-    "content": "and wheresoever it taketh him, it dasheth him down: and he foameth, and grindeth his teeth, and pineth away: and I spake to thy disciples that they should cast it out; and they were not able."
+    "content": [
+      {
+        "text": "and wheresoever it taketh him, it ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "rendeth him", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Matthew 7:6", "content": "Mt. 7:6" },
+            "."
+          ]
+        }
+      },
+      "dasheth him down: and he foameth, and grindeth his teeth, and pineth away: and I spake to thy disciples that they should cast it out; and they were not able."
+    ]
   },
   {
     "book": "MRK",
@@ -2082,7 +3583,22 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 20,
-    "content": "And they brought him unto him: and when he saw him, straightway the spirit tare him grievously; and he fell on the ground, and wallowed foaming."
+    "content": [
+      {
+        "text": "And they brought him unto him: and when he saw him, straightway the spirit ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "convulsed", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Mark 1:26", "content": "1:26" },
+            "."
+          ]
+        }
+      },
+      "tare him grievously; and he fell on the ground, and wallowed foaming."
+    ]
   },
   {
     "book": "MRK",
@@ -2106,7 +3622,20 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 24,
-    "content": "Straightway the father of the child cried out, and said, I believe; help thou mine unbelief."
+    "content": [
+      {
+        "text": "Straightway the father of the child cried out, and said, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities add ",
+            { "text": "with tears", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "I believe; help thou mine unbelief."
+    ]
   },
   {
     "book": "MRK",
@@ -2118,7 +3647,24 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 26,
-    "content": "And having cried out, and torn him much, he came out: and the boy became as one dead; insomuch that the more part said, He is dead."
+    "content": [
+      {
+        "text": "And having cried out, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "convulsed", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Mark 1:26", "content": "1:26" },
+            "."
+          ]
+        }
+      },
+      "torn him much, he came out: and ",
+      { "text": "the boy", "marks": ["i"] },
+      " became as one dead; insomuch that the more part said, He is dead."
+    ]
   },
   {
     "book": "MRK",
@@ -2130,25 +3676,67 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 28,
-    "content": "And when he was come into the house, his disciples asked him privately, How is it that we could not cast it out?"
+    "content": [
+      {
+        "text": "And when he was come into the house, his disciples asked him privately, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, saying, ",
+            { "text": "We could not cast it out", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "How is it", "marks": ["i"] },
+      " that we could not cast it out?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 29,
-    "content": "And he said unto them, This kind can come out by nothing, save by prayer."
+    "content": [
+      {
+        "text": "And he said unto them, This kind can come out by nothing, save by prayer",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities add ",
+            { "text": "with fasting", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 30,
-    "content": "And they went forth from thence, and passed through Galilee; and he would not that any man should know it."
+    "content": {
+      "paragraph": true,
+      "text": "And they went forth from thence, and passed through Galilee; and he would not that any man should know it."
+    }
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 31,
-    "content": "For he taught his disciples, and said unto them, The Son of man is delivered up into the hands of men, and they shall kill him; and when he is killed, after three days he shall rise again."
+    "content": [
+      {
+        "text": "For he taught his disciples, and said unto them, The Son of man is ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      "delivered up into the hands of men, and they shall kill him; and when he is killed, after three days he shall rise again."
+    ]
   },
   {
     "book": "MRK",
@@ -2160,19 +3748,42 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 33,
-    "content": "And they came to Capernaum: and when he was in the house he asked them, What were ye reasoning on the way?"
+    "content": {
+      "paragraph": true,
+      "text": "And they came to Capernaum: and when he was in the house he asked them, What were ye reasoning on the way?"
+    }
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 34,
-    "content": "But they held their peace: for they had disputed one with another on the way, who was the greatest."
+    "content": [
+      "But they held their peace: for they had disputed one with another on the way, who ",
+      { "text": "was", "marks": ["i"] },
+      {
+        "text": " the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "greater", "marks": ["i"] }, "."]
+        }
+      },
+      "greatest."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 35,
-    "content": "And he sat down, and called the twelve; and he saith unto them, If any man would be first, he shall be last of all, and servant of all."
+    "content": [
+      {
+        "text": "And he sat down, and called the twelve; and he saith unto them, If any man would be first, he shall be last of all, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "minister", "marks": ["i"] }]
+        }
+      },
+      "servant of all."
+    ]
   },
   {
     "book": "MRK",
@@ -2190,13 +3801,25 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 38,
-    "content": "John said unto him, Teacher, we saw one casting out demons in thy name; and we forbade him, because he followed not us."
+    "content": {
+      "paragraph": true,
+      "text": "John said unto him, Teacher, we saw one casting out demons in thy name; and we forbade him, because he followed not us."
+    }
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 39,
-    "content": "But Jesus said, Forbid him not: for there is no man who shall do a mighty work in my name, and be able quickly to speak evil of me."
+    "content": [
+      {
+        "text": "But Jesus said, Forbid him not: for there is no man who shall do a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "power", "marks": ["i"] }, "."]
+        }
+      },
+      "mighty work in my name, and be able quickly to speak evil of me."
+    ]
   },
   {
     "book": "MRK",
@@ -2208,43 +3831,113 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 41,
-    "content": "For whosoever shall give you a cup of water to drink, because ye are Christ’s, verily I say unto you, he shall in no wise lose his reward."
+    "content": [
+      {
+        "text": "For whosoever shall give you a cup of water to drink, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "in name that ye are", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "because ye are Christ’s, verily I say unto you, he shall in no wise lose his reward."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 42,
-    "content": "And whosoever shall cause one of these little ones that believe on me to stumble, it were better for him if a great millstone were hanged about his neck, and he were cast into the sea."
+    "content": [
+      {
+        "text": "And whosoever shall cause one of these little ones that believe ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities omit ",
+            { "text": "on me", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "on me to stumble, it were better for him if ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "a millstone turned by an ass", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "a great millstone were hanged about his neck, and he were cast into the sea."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 43,
-    "content": "And if thy hand cause thee to stumble, cut it off: it is good for thee to enter into life maimed, rather than having thy two hands to go into hell, into the unquenchable fire."
+    "content": [
+      {
+        "text": "And if thy hand cause thee to stumble, cut it off: it is good for thee to enter into life maimed, rather than having thy two hands to go into ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Gehenna", "marks": ["i"] }, "."]
+        }
+      },
+      "hell, into the unquenchable fire."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 44,
-    "content": "[where their worm dieth not, and the fire is not quenched.]"
+    "content": {
+      "foot": {
+        "type": "var",
+        "content": [
+          { "bibleLink": "Mark 9:44", "content": "Verses 44" },
+          " and ",
+          { "bibleLink": "Mark 9:46", "content": "46" },
+          " (which are identical with ",
+          { "bibleLink": "Mark 9:48", "content": "verse 48" },
+          ") are omitted by the best ancient authorities."
+        ]
+      }
+    }
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 45,
-    "content": "And if thy foot cause thee to stumble, cut it off: it is good for thee to enter into life halt, rather than having thy two feet to be cast into hell."
-  },
-  {
-    "book": "MRK",
-    "chapter": 9,
-    "verse": 46,
-    "content": "[where their worm dieth not, and the fire is not quenched.]"
+    "content": [
+      {
+        "text": "And if thy foot cause thee to stumble, cut it off: it is good for thee to enter into life halt, rather than having thy two feet to be cast into ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Gehenna", "marks": ["i"] }, "."]
+        }
+      },
+      "hell."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 9,
     "verse": 47,
-    "content": "And if thine eye cause thee to stumble, cast it out: it is good for thee to enter into the kingdom of God with one eye, rather than having two eyes to be cast into hell;"
+    "content": [
+      {
+        "text": "And if thine eye cause thee to stumble, cast it out: it is good for thee to enter into the kingdom of God with one eye, rather than having two eyes to be cast into ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Gehenna", "marks": ["i"] }, "."]
+        }
+      },
+      "hell;"
+    ]
   },
   {
     "book": "MRK",
@@ -2256,7 +3949,25 @@
     "book": "MRK",
     "chapter": 9,
     "verse": 49,
-    "content": "For every one shall be salted with fire."
+    "content": [
+      {
+        "text": "For every one shall be salted with fire",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities add ",
+            {
+              "text": "and every sacrifice shall be salted with salt",
+              "marks": ["i"]
+            },
+            ". See ",
+            { "bibleLink": "Leviticus 2:13", "content": "Lev. 2:13" },
+            "."
+          ]
+        }
+      },
+      "."
+    ]
   },
   {
     "book": "MRK",
@@ -2270,20 +3981,41 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "And he arose from thence and cometh into the borders of Judaea and beyond the Jordan: and multitudes come together unto him again; and, as he was wont, he taught them again."
+      "text": "And he arose from thence, and cometh into the borders of Judæa and beyond the Jordan: and multitudes come together unto him again; and, as he was wont, he taught them again."
     }
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 2,
-    "content": "And there came unto him Pharisees, and asked him, Is it lawful for a man to put away his wife? trying him."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And there came unto him Pharisees, and asked him, Is it lawful for a man to put away "
+      },
+      { "text": "his", "marks": ["i"] },
+      " wife? trying him."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 3,
-    "content": "And he answered and said unto them, What did Moses command you?"
+    "content": [
+      {
+        "text": "And he answered and said unto them, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Deuteronomy 24:1", "content": "Dt. 24:1" },
+            ", ",
+            { "bibleLink": "Deuteronomy 24:3", "content": "3" },
+            "."
+          ]
+        }
+      },
+      "What did Moses command you?"
+    ]
   },
   {
     "book": "MRK",
@@ -2307,7 +4039,20 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 7,
-    "content": "For this cause shall a man leave his father and mother, and shall cleave to his wife;"
+    "content": [
+      {
+        "text": "For this cause shall a man leave his father and mother, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "and shall cleave to his wife", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "and shall cleave to his wife;"
+    ]
   },
   {
     "book": "MRK",
@@ -2343,13 +4088,25 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 13,
-    "content": "And they were bringing unto him little children, that he should touch them: and the disciples rebuked them."
+    "content": {
+      "paragraph": true,
+      "text": "And they were bringing unto him little children, that he should touch them: and the disciples rebuked them."
+    }
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 14,
-    "content": "But when Jesus saw it, he was moved with indignation, and said unto them, Suffer the little children to come unto me; forbid them not: for to such belongeth the kingdom of God."
+    "content": [
+      {
+        "text": "But when Jesus saw it, he was moved with indignation, and said unto them, Suffer the little children to come unto me; forbid them not: for ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "of such is", "marks": ["i"] }]
+        }
+      },
+      "to such belongeth the kingdom of God."
+    ]
   },
   {
     "book": "MRK",
@@ -2367,19 +4124,47 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 17,
-    "content": "And as he was going forth into the way, there ran one to him, and kneeled to him, and asked him, Good Teacher, what shall I do that I may inherit eternal life?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And as he was going forth ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "on his way", "marks": ["i"] }]
+        }
+      },
+      "into the way, there ran one to him, and kneeled to him, and asked him, Good Teacher, what shall I do that I may inherit eternal life?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 18,
-    "content": "And Jesus said unto him, Why callest thou me good? none is good save one, even God."
+    "content": [
+      "And Jesus said unto him, Why callest thou me good? none is good save one, ",
+      { "text": "even", "marks": ["i"] },
+      " God."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 19,
-    "content": "Thou knowest the commandments, Do not kill, Do not commit adultery, Do not steal, Do not bear false witness, Do not defraud, Honor thy father and mother."
+    "content": [
+      {
+        "text": "Thou knowest the commandments, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Exodus 20:12–16", "content": "Ex. 20:12–16" },
+            "; ",
+            { "bibleLink": "Deuteronomy 5:16–20", "content": "Dt. 5:16–20" },
+            "."
+          ]
+        }
+      },
+      "Do not kill, Do not commit adultery, Do not steal, Do not bear false witness, Do not defraud, Honor thy father and mother."
+    ]
   },
   {
     "book": "MRK",
@@ -2403,13 +4188,29 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 23,
-    "content": "And Jesus looked round about, and saith unto his disciples, How hardly shall they that have riches enter into the kingdom of God!"
+    "content": {
+      "paragraph": true,
+      "text": "And Jesus looked round about, and saith unto his disciples, How hardly shall they that have riches enter into the kingdom of God!"
+    }
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 24,
-    "content": "And the disciples were amazed at his words. But Jesus answereth again, and saith unto them, Children, how hard is it for them that trust in riches to enter into the kingdom of God!"
+    "content": [
+      {
+        "text": "And the disciples were amazed at his words. But Jesus answereth again, and saith unto them, Children, how hard is it ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "for them that trust in riches", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "for them that trust in riches to enter into the kingdom of God!"
+    ]
   },
   {
     "book": "MRK",
@@ -2421,7 +4222,20 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 26,
-    "content": "And they were astonished exceedingly, saying unto him, Then who can be saved?"
+    "content": [
+      {
+        "text": "And they were astonished exceedingly, saying ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "among themselves", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "unto him, Then who can be saved?"
+    ]
   },
   {
     "book": "MRK",
@@ -2439,31 +4253,63 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 29,
-    "content": "Jesus said, Verily I say unto you, There is no man that hath left house, or brethren, or sisters, or mother, or father, or children, or lands, for my sake, and for the gospel’s sake,"
+    "content": [
+      {
+        "text": "Jesus said, Verily I say unto you, There is no man that hath left house, or brethren, or sisters, or mother, or father, or children, or lands, for my sake, and for the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 1:1", "content": "1:1" },
+            "."
+          ]
+        }
+      },
+      "gospel’s sake,"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 30,
-    "content": "but he shall receive a hundredfold now in this time, houses, and brethren, and sisters, and mothers, and children, and lands, with persecutions; and in the world to come eternal life."
+    "content": [
+      {
+        "text": "but he shall receive a hundredfold now in this time, houses, and brethren, and sisters, and mothers, and children, and lands, with persecutions; and in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      "world to come eternal life."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 31,
-    "content": "But many that are first shall be last; and the last first."
+    "content": [
+      "But many ",
+      { "text": "that are", "marks": ["i"] },
+      " first shall be last; and the last first."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 32,
-    "content": "And they were on the way, going up to Jerusalem; and Jesus was going before them: and they were amazed; and they that followed were afraid. And he took again the twelve, and began to tell them the things that were to happen unto him,"
+    "content": {
+      "paragraph": true,
+      "text": "And they were on the way, going up to Jerusalem; and Jesus was going before them: and they were amazed; and they that followed were afraid. And he took again the twelve, and began to tell them the things that were to happen unto him,"
+    }
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 33,
-    "content": "saying, Behold, we go up to Jerusalem; and the Son of man shall be delivered unto the chief priests and the scribes; and they shall condemn him to death, and shall deliver him unto the Gentiles:"
+    "content": [
+      { "text": "saying", "marks": ["i"] },
+      ", Behold, we go up to Jerusalem; and the Son of man shall be delivered unto the chief priests and the scribes; and they shall condemn him to death, and shall deliver him unto the Gentiles:"
+    ]
   },
   {
     "book": "MRK",
@@ -2475,7 +4321,17 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 35,
-    "content": "And there come near unto him James and John, the sons of Zebedee, saying unto him, Teacher, we would that thou shouldest do for us whatsoever we shall ask of thee."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And there come near unto him ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James and John, the sons of Zebedee, saying unto him, Teacher, we would that thou shouldest do for us whatsoever we shall ask of thee."
+    ]
   },
   {
     "book": "MRK",
@@ -2487,7 +4343,11 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 37,
-    "content": "And they said unto him, Grant unto us that we may sit, one on thy right hand, and one on thy left hand, in thy glory."
+    "content": [
+      "And they said unto him, Grant unto us that we may sit, one on thy right hand, and one on ",
+      { "text": "thy", "marks": ["i"] },
+      " left hand, in thy glory."
+    ]
   },
   {
     "book": "MRK",
@@ -2505,13 +4365,28 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 40,
-    "content": "but to sit on my right hand or on my left hand is not mine to give; but it is for them for whom it hath been prepared."
+    "content": [
+      "but to sit on my right hand or on ",
+      { "text": "my", "marks": ["i"] },
+      " left hand is not mine to give; but ",
+      { "text": "it is for them", "marks": ["i"] },
+      " for whom it hath been prepared."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 41,
-    "content": "And when the ten heard it, they began to be moved with indignation concerning James and John."
+    "content": [
+      {
+        "text": "And when the ten heard it, they began to be moved with indignation concerning ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James and John."
+    ]
   },
   {
     "book": "MRK",
@@ -2523,13 +4398,31 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 43,
-    "content": "But it is not so among you: but whosoever would become great among you, shall be your minister;"
+    "content": [
+      {
+        "text": "But it is not so among you: but whosoever would become great among you, shall be your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "servant", "marks": ["i"] }]
+        }
+      },
+      "minister;"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 44,
-    "content": "and whosoever would be first among you, shall be servant of all."
+    "content": [
+      {
+        "text": "and whosoever would be first among you, shall be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
+        }
+      },
+      "servant of all."
+    ]
   },
   {
     "book": "MRK",
@@ -2541,7 +4434,10 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 46,
-    "content": "And they come to Jericho: and as he went out from Jericho, with his disciples and a great multitude, the son of Timaeus, Bartimaeus, a blind beggar, was sitting by the way side."
+    "content": {
+      "paragraph": true,
+      "text": "And they come to Jericho: and as he went out from Jericho, with his disciples and a great multitude, the son of Timæus, Bartimæus, a blind beggar, was sitting by the way side."
+    }
   },
   {
     "book": "MRK",
@@ -2571,13 +4467,35 @@
     "book": "MRK",
     "chapter": 10,
     "verse": 51,
-    "content": "And Jesus answered him, and said, What wilt thou that I should do unto thee? And the blind man said unto him, Rabboni, that I may receive my sight."
+    "content": [
+      {
+        "text": "And Jesus answered him, and said, What wilt thou that I should do unto thee? And the blind man said unto him, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See ",
+            { "bibleLink": "John 20:16", "content": "Jn. 20:16" },
+            "."
+          ]
+        }
+      },
+      "Rabboni, that I may receive my sight."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 10,
     "verse": 52,
-    "content": "And Jesus said unto him, Go thy way; thy faith hath made thee whole. And straightway he received his sight, and followed him in the way."
+    "content": [
+      {
+        "text": "And Jesus said unto him, Go thy way; thy faith hath ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "saved thee", "marks": ["i"] }]
+        }
+      },
+      "made thee whole. And straightway he received his sight, and followed him in the way."
+    ]
   },
   {
     "book": "MRK",
@@ -2598,7 +4516,23 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 3,
-    "content": "And if any one say unto you, Why do ye this? say ye, The Lord hath need of him; and straightway he will send him back hither."
+    "content": [
+      {
+        "text": "And if any one say unto you, Why do ye this? say ye, The Lord hath need of him; and straightway he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "sendeth", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "will send him ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "again", "marks": ["i"] }]
+        }
+      },
+      "back hither."
+    ]
   },
   {
     "book": "MRK",
@@ -2628,31 +4562,60 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 8,
-    "content": "And many spread their garments upon the way; and others branches, which they had cut from the fields."
+    "content": [
+      {
+        "text": "And many spread their garments upon the way; and others ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "layers of leaves", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "branches, which they had cut from the fields."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 11,
     "verse": 9,
-    "content": "And they that went before, and they that followed, cried, Hosanna; Blessed is he that cometh in the name of the Lord:"
+    "content": [
+      "And they that went before, and they that followed, cried, Hosanna; Blessed ",
+      { "text": "is", "marks": ["i"] },
+      " he that cometh in the name of the Lord:"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 11,
     "verse": 10,
-    "content": "Blessed is the kingdom that cometh, the kingdom of our father David: Hosanna in the highest."
+    "content": [
+      "Blessed ",
+      { "text": "is", "marks": ["i"] },
+      " the kingdom that cometh, ",
+      { "text": "the kingdom", "marks": ["i"] },
+      " of our father David: Hosanna in the highest."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 11,
     "verse": 11,
-    "content": "And he entered into Jerusalem, into the temple; and when he had looked round about upon all things, it being now eventide, he went out unto Bethany with the twelve."
+    "content": {
+      "paragraph": true,
+      "text": "And he entered into Jerusalem, into the temple; and when he had looked round about upon all things, it being now eventide, he went out unto Bethany with the twelve."
+    }
   },
   {
     "book": "MRK",
     "chapter": 11,
     "verse": 12,
-    "content": "And on the morrow, when they were come out from Bethany, he hungered."
+    "content": {
+      "paragraph": true,
+      "text": "And on the morrow, when they were come out from Bethany, he hungered."
+    }
   },
   {
     "book": "MRK",
@@ -2670,7 +4633,10 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 15,
-    "content": "And they come to Jerusalem: and he entered into the temple, and began to cast out them that sold and them that bought in the temple, and overthrew the tables of the money-changers, and the seats of them that sold the doves;"
+    "content": {
+      "paragraph": true,
+      "text": "And they come to Jerusalem: and he entered into the temple, and began to cast out them that sold and them that bought in the temple, and overthrew the tables of the money-changers, and the seats of them that sold the doves;"
+    }
   },
   {
     "book": "MRK",
@@ -2682,7 +4648,29 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 17,
-    "content": "And he taught, and said unto them, Is it not written, My house shall be called a house of prayer for all the nations? but ye have made it a den of robbers."
+    "content": [
+      {
+        "text": "And he taught, and said unto them, Is it not written, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 56:7", "content": "Isa. 56:7" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "My house shall be called a house of prayer for all the nations? ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Jeremiah 7:11", "content": "Jer. 7:11" },
+            "."
+          ]
+        }
+      },
+      "but ye have made it a den of robbers."
+    ]
   },
   {
     "book": "MRK",
@@ -2694,13 +4682,41 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 19,
-    "content": "And every evening he went forth out of the city."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "whenever evening came", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "every evening ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "they", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "he went forth out of the city."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 11,
     "verse": 20,
-    "content": "And as they passed by in the morning, they saw the fig tree withered away from the roots."
+    "content": {
+      "paragraph": true,
+      "text": "And as they passed by in the morning, they saw the fig tree withered away from the roots."
+    }
   },
   {
     "book": "MRK",
@@ -2724,7 +4740,16 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 24,
-    "content": "Therefore I say unto you, All things whatsoever ye pray and ask for, believe that ye receive them, and ye shall have them."
+    "content": [
+      {
+        "text": "Therefore I say unto you, All things whatsoever ye pray and ask for, believe that ye ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "received", "marks": ["i"] }, "."]
+        }
+      },
+      "receive them, and ye shall have them."
+    ]
   },
   {
     "book": "MRK",
@@ -2736,13 +4761,34 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 26,
-    "content": "[But if ye do not forgive, neither will your Father who is in heaven forgive your trespasses.]"
+    "content": {
+      "foot": {
+        "type": "var",
+        "content": [
+          "Many ancient authorities add ",
+          { "bibleLink": "Mark 11:26", "content": "verse 26" },
+          " ",
+          {
+            "text": "But if ye do not forgive, neither will your Father who is in heaven forgive your trespasses",
+            "marks": ["i"]
+          },
+          ". Compare ",
+          { "bibleLink": "Matthew 6:15", "content": "Mt. 6:15" },
+          "; ",
+          { "bibleLink": "Matthew 18:35", "content": "18:35" },
+          "."
+        ]
+      }
+    }
   },
   {
     "book": "MRK",
     "chapter": 11,
     "verse": 27,
-    "content": "And they come again to Jerusalem: and as he was walking in the temple, there come to him the chief priests, and the scribes, and the elders;"
+    "content": {
+      "paragraph": true,
+      "text": "And they come again to Jerusalem: and as he was walking in the temple, there come to him the chief priests, and the scribes, and the elders;"
+    }
   },
   {
     "book": "MRK",
@@ -2754,7 +4800,16 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 29,
-    "content": "And Jesus said unto them, I will ask of you one question, and answer me, and I will tell you by what authority I do these things."
+    "content": [
+      {
+        "text": "And Jesus said unto them, I will ask of you one ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "word", "marks": ["i"] }, "."]
+        }
+      },
+      "question, and answer me, and I will tell you by what authority I do these things."
+    ]
   },
   {
     "book": "MRK",
@@ -2766,13 +4821,37 @@
     "book": "MRK",
     "chapter": 11,
     "verse": 31,
-    "content": "And they reasoned with themselves, saying, If we shall say, From heaven; He will say, Why then did ye not believe him?"
+    "content": "And they reasoned with themselves, saying, If we shall say, From heaven; he will say, Why then did ye not believe him?"
   },
   {
     "book": "MRK",
     "chapter": 11,
     "verse": 32,
-    "content": "But should we say, From men—they feared the people: for all verily held John to be a prophet."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "But shall we say, From men?", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "But should we say, From men—they feared the people: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "for all held John to be a prophet indeed",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "for all verily held John to be a prophet."
+    ]
   },
   {
     "book": "MRK",
@@ -2793,7 +4872,16 @@
     "book": "MRK",
     "chapter": 12,
     "verse": 2,
-    "content": "And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruits of the vineyard."
+    "content": [
+      {
+        "text": "And at the season he sent to the husbandmen a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
+        }
+      },
+      "servant, that he might receive from the husbandmen of the fruits of the vineyard."
+    ]
   },
   {
     "book": "MRK",
@@ -2805,7 +4893,16 @@
     "book": "MRK",
     "chapter": 12,
     "verse": 4,
-    "content": "And again he sent unto them another servant; and him they wounded in the head, and handled shamefully."
+    "content": [
+      {
+        "text": "And again he sent unto them another ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
+        }
+      },
+      "servant; and him they wounded in the head, and handled shamefully."
+    ]
   },
   {
     "book": "MRK",
@@ -2841,61 +4938,112 @@
     "book": "MRK",
     "chapter": 12,
     "verse": 10,
-    "content": "Have ye not read even this scripture: The stone which the builders rejected, The same was made the head of the corner;"
+    "content": [
+      {
+        "text": "Have ye not read even this scripture:",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Psalm 118:22–29", "content": "Ps. 118:22f" },
+            "."
+          ]
+        }
+      },
+      { "text": "The stone which the builders rejected,", "break": true },
+      { "text": "The same was made the head of the corner;", "break": true }
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 11,
-    "content": "This was from the Lord, And it is marvellous in our eyes?"
+    "content": [
+      { "text": "This was from the Lord,", "break": true },
+      { "text": "And it is marvellous in our eyes?", "break": true }
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 12,
-    "content": "And they sought to lay hold on him; and they feared the multitude; for they perceived that he spake the parable against them: and they left him, and went away."
+    "content": {
+      "paragraph": true,
+      "text": "And they sought to lay hold on him; and they feared the multitude; for they perceived that he spake the parable against them: and they left him, and went away."
+    }
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 13,
-    "content": "And they send unto him certain of the Pharisees and of the Herodians, that they might catch him in talk."
+    "content": {
+      "paragraph": true,
+      "text": "And they send unto him certain of the Pharisees and of the Herodians, that they might catch him in talk."
+    }
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 14,
-    "content": "And when they were come, they say unto him, Teacher, we know that thou art true, and carest not for any one; for thou regardest not the person of men, but of a truth teachest the way of God: Is it lawful to give tribute unto Caesar, or not?"
+    "content": "And when they were come, they say unto him, Teacher, we know that thou art true, and carest not for any one; for thou regardest not the person of men, but of a truth teachest the way of God: Is it lawful to give tribute unto Cæsar, or not?"
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 15,
-    "content": "Shall we give, or shall we not give? But he, knowing their hypocrisy, said unto them, Why make ye trial of me? bring me a denarius, that I may see it."
+    "content": [
+      {
+        "text": "Shall we give, or shall we not give? But he, knowing their hypocrisy, said unto them, Why make ye trial of me? bring me a ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 6:37", "content": "6:37" },
+            "."
+          ]
+        }
+      },
+      "denarius, that I may see it."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 16,
-    "content": "And they brought it. And he saith unto them, Whose is this image and superscription? And they said unto him, Caesar’s."
+    "content": "And they brought it. And he saith unto them, Whose is this image and superscription? And they said unto him, Cæsar’s."
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 17,
-    "content": "And Jesus said unto them, Render unto Caesar the things that are Caesar’s, and unto God the things that are God’s. And they marvelled greatly at him."
+    "content": "And Jesus said unto them, Render unto Cæsar the things that are Cæsar’s, and unto God the things that are God’s. And they marvelled greatly at him."
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 18,
-    "content": "And there come unto him Sadducees, who say that there is no resurrection; and they asked him, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And there come unto him Sadducees, who say that there is no resurrection; and they asked him, saying,"
+    }
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 19,
-    "content": "Teacher, Moses wrote unto us, If a man’s brother die, and leave a wife behind him, and leave no child, that his brother should take his wife, and raise up seed unto his brother."
+    "content": [
+      {
+        "text": "Teacher, Moses wrote unto us, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Deuteronomy 25:5", "content": "Dt. 25:5" },
+            "."
+          ]
+        }
+      },
+      "If a man’s brother die, and leave a wife behind him, and leave no child, that his brother should take his wife, and raise up seed unto his brother."
+    ]
   },
   {
     "book": "MRK",
@@ -2937,7 +5085,20 @@
     "book": "MRK",
     "chapter": 12,
     "verse": 26,
-    "content": "But as touching the dead, that they are raised; have ye not read in the book of Moses, in the place concerning the Bush, how God spake unto him, saying, I am the God of Abraham, and the God of Isaac, and the God of Jacob?"
+    "content": [
+      "But as touching the dead, that they are raised; have ye not read in the book of Moses, in ",
+      { "text": "the place concerning", "marks": ["i"] },
+      {
+        "text": " the Bush, how God spake unto him, saying, ",
+        "foot": {
+          "type": "xrf",
+          "content": [{ "bibleLink": "Exodus 3:6", "content": "Ex. 3:6" }, "."]
+        }
+      },
+      "I ",
+      { "text": "am", "marks": ["i"] },
+      " the God of Abraham, and the God of Isaac, and the God of Jacob?"
+    ]
   },
   {
     "book": "MRK",
@@ -2949,25 +5110,92 @@
     "book": "MRK",
     "chapter": 12,
     "verse": 28,
-    "content": "And one of the scribes came, and heard them questioning together, and knowing that he had answered them well, asked him, What commandment is the first of all?"
+    "content": {
+      "paragraph": true,
+      "text": "And one of the scribes came, and heard them questioning together, and knowing that he had answered them well, asked him, What commandment is the first of all?"
+    }
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 29,
-    "content": "Jesus answered, The first is, Hear, O Israel; The Lord our God, the Lord is one:"
+    "content": [
+      {
+        "text": "Jesus answered, The first is, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Deuteronomy 6:4–25", "content": "Dt. 6:4ff" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Hear, O Israel; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "The Lord is our God; the Lord is one", "marks": ["i"] }
+          ]
+        }
+      },
+      "The Lord our God, the Lord is one:"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 30,
-    "content": "and thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength."
+    "content": [
+      {
+        "text": "and thou shalt love the Lord thy God ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "with all thy heart, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "with all thy soul, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "with all thy mind, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
+        }
+      },
+      "with all thy strength."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 31,
-    "content": "The second is this, Thou shalt love thy neighbor as thyself. There is none other commandment greater than these."
+    "content": [
+      {
+        "text": "The second is this, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Leviticus 19:18", "content": "Lev. 19:18" },
+            "."
+          ]
+        }
+      },
+      "Thou shalt love thy neighbor as thyself. There is none other commandment greater than these."
+    ]
   },
   {
     "book": "MRK",
@@ -2991,25 +5219,71 @@
     "book": "MRK",
     "chapter": 12,
     "verse": 35,
-    "content": "And Jesus answered and said, as he taught in the temple, How say the scribes that the Christ is the son of David?"
+    "content": {
+      "paragraph": true,
+      "text": "And Jesus answered and said, as he taught in the temple, How say the scribes that the Christ is the son of David?"
+    }
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 36,
-    "content": "David himself said in the Holy Spirit, The Lord said unto my Lord, Sit thou on my right hand, Till I make thine enemies the footstool of thy feet."
+    "content": [
+      {
+        "text": "David himself said in the Holy Spirit,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Psalm 110:1", "content": "Ps. 110:1" },
+            "."
+          ]
+        }
+      },
+      { "text": "The Lord said unto my Lord,", "break": true },
+      { "text": "Sit thou on my right hand,", "break": true },
+      {
+        "text": "Till I make thine enemies ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "underneath thy feet", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "the footstool of thy feet.", "break": true }
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 37,
-    "content": "David himself calleth him Lord; and whence is he his son? And the common people heard him gladly."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "David himself calleth him Lord; and whence is he his son? And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the great multitude", "marks": ["i"] }]
+        }
+      },
+      "the common people heard him gladly."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 38,
-    "content": "And in his teaching he said, Beware of the scribes, who desire to walk in long robes, and to have salutations in the marketplaces,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And in his teaching he said, Beware of the scribes, who desire to walk in long robes, and "
+      },
+      { "text": "to have", "marks": ["i"] },
+      " salutations in the marketplaces,"
+    ]
   },
   {
     "book": "MRK",
@@ -3021,19 +5295,50 @@
     "book": "MRK",
     "chapter": 12,
     "verse": 40,
-    "content": "they that devour widows’ houses, and for a pretence make long prayers; these shall receive greater condemnation."
+    "content": [
+      {
+        "text": "they that devour widows’ houses, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "even while for a pretence they make", "marks": ["i"] }
+          ]
+        }
+      },
+      "and for a pretence make long prayers; these shall receive greater condemnation."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 41,
-    "content": "And he sat down over against the treasury, and beheld how the multitude cast money into the treasury: and many that were rich cast in much."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And he sat down over against the treasury, and beheld how the multitude cast ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "brass", "marks": ["i"] }, "."]
+        }
+      },
+      "money into the treasury: and many that were rich cast in much."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 12,
     "verse": 42,
-    "content": "And there came a poor widow, and she cast in two mites, which make a farthing."
+    "content": [
+      {
+        "text": "And there came ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "one", "marks": ["i"] }, "."]
+        }
+      },
+      "a poor widow, and she cast in two mites, which make a farthing."
+    ]
   },
   {
     "book": "MRK",
@@ -3045,7 +5350,11 @@
     "book": "MRK",
     "chapter": 12,
     "verse": 44,
-    "content": "for they all did cast in of their superfluity; but she of her want did cast in all that she had, even all her living."
+    "content": [
+      "for they all did cast in of their superfluity; but she of her want did cast in all that she had, ",
+      { "text": "even", "marks": ["i"] },
+      " all her living."
+    ]
   },
   {
     "book": "MRK",
@@ -3066,13 +5375,27 @@
     "book": "MRK",
     "chapter": 13,
     "verse": 3,
-    "content": "And as he sat on the mount of Olives over against the temple, Peter and James and John and Andrew asked him privately,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And as he sat on the mount of Olives over against the temple, Peter and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James and John and Andrew asked him privately,"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 13,
     "verse": 4,
-    "content": "Tell us, when shall these things be? and what shall be the sign when these things are all about to be accomplished?"
+    "content": [
+      "Tell us, when shall these things be? and what ",
+      { "text": "shall be", "marks": ["i"] },
+      " the sign when these things are all about to be accomplished?"
+    ]
   },
   {
     "book": "MRK",
@@ -3084,13 +5407,21 @@
     "book": "MRK",
     "chapter": 13,
     "verse": 6,
-    "content": "Many shall come in my name, saying, I am he; and shall lead many astray."
+    "content": [
+      "Many shall come in my name, saying, I am ",
+      { "text": "he", "marks": ["i"] },
+      "; and shall lead many astray."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 13,
     "verse": 7,
-    "content": "And when ye shall hear of wars and rumors of wars, be not troubled: these things must needs come to pass; but the end is not yet."
+    "content": [
+      "And when ye shall hear of wars and rumors of wars, be not troubled: ",
+      { "text": "these things", "marks": ["i"] },
+      " must needs come to pass; but the end is not yet."
+    ]
   },
   {
     "book": "MRK",
@@ -3102,25 +5433,65 @@
     "book": "MRK",
     "chapter": 13,
     "verse": 9,
-    "content": "But take ye heed to yourselves: for they shall deliver you up to councils; and in synagogues shall ye be beaten; and before governors and kings shall ye stand for my sake, for a testimony unto them."
+    "content": {
+      "paragraph": true,
+      "text": "But take ye heed to yourselves: for they shall deliver you up to councils; and in synagogues shall ye be beaten; and before governors and kings shall ye stand for my sake, for a testimony unto them."
+    }
   },
   {
     "book": "MRK",
     "chapter": 13,
     "verse": 10,
-    "content": "And the gospel must first be preached unto all the nations."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 1:1", "content": "1:1" },
+            "."
+          ]
+        }
+      },
+      "gospel must first be preached unto all the nations."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 13,
     "verse": 11,
-    "content": "And when they lead you to judgment, and deliver you up, be not anxious beforehand what ye shall speak: but whatsoever shall be given you in that hour, that speak ye; for it is not ye that speak, but the Holy Spirit."
+    "content": [
+      "And when they lead you ",
+      { "text": "to judgment", "marks": ["i"] },
+      ", and deliver you up, be not anxious beforehand what ye shall speak: but whatsoever shall be given you in that hour, that speak ye; for it is not ye that speak, but the Holy Spirit."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 13,
     "verse": 12,
-    "content": "And brother shall deliver up brother to death, and the father his child; and children shall rise up against parents, and cause them to be put to death."
+    "content": [
+      {
+        "text": "And brother shall ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "deliver up brother to death, and the father his child; and children shall rise up against parents, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "put them to death", "marks": ["i"] }]
+        }
+      },
+      "cause them to be put to death."
+    ]
   },
   {
     "book": "MRK",
@@ -3132,13 +5503,16 @@
     "book": "MRK",
     "chapter": 13,
     "verse": 14,
-    "content": "But when ye see the abomination of desolation standing where he ought not (let him that readeth understand), then let them that are in Judaea flee unto the mountains:"
+    "content": {
+      "paragraph": true,
+      "text": "But when ye see the abomination of desolation standing where he ought not (let him that readeth understand), then let them that are in Judæa flee unto the mountains:"
+    }
   },
   {
     "book": "MRK",
     "chapter": 13,
     "verse": 15,
-    "content": "and let him that is on the housetop not go down, nor enter in, to take anything out his house:"
+    "content": "and let him that is on the housetop not go down, nor enter in, to take anything out of his house:"
   },
   {
     "book": "MRK",
@@ -3174,7 +5548,14 @@
     "book": "MRK",
     "chapter": 13,
     "verse": 21,
-    "content": "And then if any man shall say unto you, Lo, here is the Christ; or, Lo, there; believe it not:"
+    "content": [
+      {
+        "text": "And then if any man shall say unto you, Lo, here is the Christ; or, Lo, there; believe ",
+        "foot": { "type": "trn", "content": "Or, him" }
+      },
+      { "text": "it", "marks": ["i"] },
+      " not:"
+    ]
   },
   {
     "book": "MRK",
@@ -3192,7 +5573,10 @@
     "book": "MRK",
     "chapter": 13,
     "verse": 24,
-    "content": "But in those days, after that tribulation, the sun shall be darkened, and the moon shall not give her light,"
+    "content": {
+      "paragraph": true,
+      "text": "But in those days, after that tribulation, the sun shall be darkened, and the moon shall not give her light,"
+    }
   },
   {
     "book": "MRK",
@@ -3216,13 +5600,27 @@
     "book": "MRK",
     "chapter": 13,
     "verse": 28,
-    "content": "Now from the fig tree learn her parable: when her branch is now become tender, and putteth forth its leaves, ye know that the summer is nigh;"
+    "content": {
+      "paragraph": true,
+      "text": "Now from the fig tree learn her parable: when her branch is now become tender, and putteth forth its leaves, ye know that the summer is nigh;"
+    }
   },
   {
     "book": "MRK",
     "chapter": 13,
     "verse": 29,
-    "content": "even so ye also, when ye see these things coming to pass, know ye that he is nigh, even at the doors."
+    "content": [
+      {
+        "text": "even so ye also, when ye see these things coming to pass, know ye that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it", "marks": ["i"] }]
+        }
+      },
+      "he is nigh, ",
+      { "text": "even", "marks": ["i"] },
+      " at the doors."
+    ]
   },
   {
     "book": "MRK",
@@ -3246,13 +5644,39 @@
     "book": "MRK",
     "chapter": 13,
     "verse": 33,
-    "content": "Take ye heed, watch and pray: for ye know not when the time is."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Take ye heed, watch ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "and pray", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "and pray: for ye know not when the time is."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 13,
     "verse": 34,
-    "content": "It is as when a man, sojourning in another country, having left his house, and given authority to his servants, to each one his work, commanded also the porter to watch."
+    "content": [
+      { "text": "It is", "marks": ["i"] },
+      " as ",
+      { "text": "when", "marks": ["i"] },
+      {
+        "text": " a man, sojourning in another country, having left his house, and given authority to his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservants", "marks": ["i"] }, "."]
+        }
+      },
+      "servants, to each one his work, commanded also the porter to watch."
+    ]
   },
   {
     "book": "MRK",
@@ -3276,10 +5700,11 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now after two days was the feast of the passover and the unleavened bread: and the chief priests and the scribes sought how they might take him with subtlety, and kill him:"
-    }
+    "content": [
+      { "paragraph": true, "text": "Now after two days was " },
+      { "text": "the feast of", "marks": ["i"] },
+      " the passover and the unleavened bread: and the chief priests and the scribes sought how they might take him with subtlety, and kill him:"
+    ]
   },
   {
     "book": "MRK",
@@ -3291,19 +5716,55 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 3,
-    "content": "And while he was in Bethany in the house of Simon the leper, as he sat at meat, there came a woman having an alabaster cruse of ointment of pure nard very costly; and she brake the cruse, and poured it over his head."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And while he was in Bethany in the house of Simon the leper, as he sat at meat, there came a woman having ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a flask", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "an alabaster cruse of ointment of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "liquid nard", "marks": ["i"] }]
+        }
+      },
+      "pure nard very costly; ",
+      { "text": "and", "marks": ["i"] },
+      " she brake the cruse, and poured it over his head."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 4,
-    "content": "But there were some that had indignation among themselves, saying, To what purpose hath this waste of the ointment been made?"
+    "content": [
+      "But there were some that had indignation among themselves, ",
+      { "text": "saying", "marks": ["i"] },
+      ", To what purpose hath this waste of the ointment been made?"
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 5,
-    "content": "For this ointment might have been sold for above three hundred shillings, and given to the poor. And they murmured against her."
+    "content": [
+      {
+        "text": "For this ointment might have been sold for above three hundred ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 6:37", "content": "6:37" },
+            "."
+          ]
+        }
+      },
+      "shillings, and given to the poor. And they murmured against her."
+    ]
   },
   {
     "book": "MRK",
@@ -3327,25 +5788,81 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 9,
-    "content": "And verily I say unto you, Wheresoever the gospel shall be preached throughout the whole world, that also which this woman hath done shall be spoken of for a memorial of her."
+    "content": [
+      {
+        "text": "And verily I say unto you, Wheresoever the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 1:1", "content": "1:1" },
+            "."
+          ]
+        }
+      },
+      "gospel shall be preached throughout the whole world, that also which this woman hath done shall be spoken of for a memorial of her."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 10,
-    "content": "And Judas Iscariot, he that was one of the twelve, went away unto the chief priests, that he might deliver him unto them."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Judas Iscariot, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the one of the twelve", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "he that was one of the twelve, went away unto the chief priests, that he might ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      "deliver him unto them."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 11,
-    "content": "And they, when they heard it, were glad, and promised to give him money. And he sought how he might conveniently deliver him unto them."
+    "content": [
+      {
+        "text": "And they, when they heard it, were glad, and promised to give him money. And he sought how he might conveniently ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      "deliver him ",
+      { "text": "unto them", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 12,
-    "content": "And on the first day of unleavened bread, when they sacrificed the passover, his disciples say unto him, Where wilt thou that we go and make ready that thou mayest eat the passover?"
+    "content": {
+      "paragraph": true,
+      "text": "And on the first day of unleavened bread, when they sacrificed the passover, his disciples say unto him, Where wilt thou that we go and make ready that thou mayest eat the passover?"
+    }
   },
   {
     "book": "MRK",
@@ -3363,7 +5880,11 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 15,
-    "content": "And he will himself show you a large upper room furnished and ready: and there make ready for us."
+    "content": [
+      "And he will himself show you a large upper room furnished ",
+      { "text": "and", "marks": ["i"] },
+      " ready: and there make ready for us."
+    ]
   },
   {
     "book": "MRK",
@@ -3375,13 +5896,38 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 17,
-    "content": "And when it was evening he cometh with the twelve."
+    "content": {
+      "paragraph": true,
+      "text": "And when it was evening he cometh with the twelve."
+    }
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 18,
-    "content": "And as they sat and were eating, Jesus said, Verily I say unto you, One of you shall betray me, even he that eateth with me."
+    "content": [
+      {
+        "text": "And as they ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "reclined", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "sat and were eating, Jesus said, Verily I say unto you, One of you shall ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      "betray me, ",
+      { "text": "even", "marks": ["i"] },
+      " he that eateth with me."
+    ]
   },
   {
     "book": "MRK",
@@ -3393,19 +5939,57 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 20,
-    "content": "And he said unto them, It is one of the twelve, he that dippeth with me in the dish."
+    "content": [
+      "And he said unto them, ",
+      { "text": "It is", "marks": ["i"] },
+      " one of the twelve, he that dippeth with me in the dish."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 21,
-    "content": "For the Son of man goeth, even as it is written of him: but woe unto that man through whom the Son of man is betrayed! good were it for that man if he had not been born."
+    "content": [
+      {
+        "text": "For the Son of man goeth, even as it is written of him: but woe unto that man through whom the Son of man is ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "betrayed! good were it ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "for him if that man", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "for that man if he had not been born."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 22,
-    "content": "And as they were eating, he took bread, and when he had blessed, he brake it, and gave to them, and said, Take ye: this is my body."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And as they were eating, he took ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a loaf", "marks": ["i"] }]
+        }
+      },
+      "bread, and when he had blessed, he brake it, and gave to them, and said, Take ye: this is my body."
+    ]
   },
   {
     "book": "MRK",
@@ -3417,7 +6001,20 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 24,
-    "content": "And he said unto them, This is my blood of the covenant, which is poured out for many."
+    "content": [
+      {
+        "text": "And he said unto them, This is my blood of the ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities insert ",
+            { "text": "new", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "covenant, which is poured out for many."
+    ]
   },
   {
     "book": "MRK",
@@ -3429,13 +6026,40 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 26,
-    "content": "And when they had sung a hymn, they went out unto the mount of Olives."
+    "content": {
+      "paragraph": true,
+      "text": "And when they had sung a hymn, they went out unto the mount of Olives."
+    }
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 27,
-    "content": "And Jesus saith unto them, All ye shall be offended: for it is written, I will smite the shepherd, and the sheep shall be scattered abroad."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Jesus saith unto them, All ye shall be ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "caused to stumble", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "offended: for it is written, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Zechariah 13:7", "content": "Zech. 13:7" },
+            "."
+          ]
+        }
+      },
+      "I will smite the shepherd, and the sheep shall be scattered abroad."
+    ]
   },
   {
     "book": "MRK",
@@ -3447,31 +6071,71 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 29,
-    "content": "But Peter said unto him, Although all shall be offended, yet will not I."
+    "content": [
+      {
+        "text": "But Peter said unto him, Although all shall be ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "caused to stumble", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "offended, yet will not I."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 30,
-    "content": "And Jesus saith unto him, Verily I say unto thee, that thou to-day, even this night, before the cock crow twice, shalt deny me thrice."
+    "content": [
+      "And Jesus saith unto him, Verily I say unto thee, that thou to-day, ",
+      { "text": "even", "marks": ["i"] },
+      " this night, before the cock crow twice, shalt deny me thrice."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 31,
-    "content": "But he spake exceedingly vehemently, If I must die with thee, I will not deny thee. And in like manner also said they all."
+    "content": "But he spake exceeding vehemently, If I must die with thee, I will not deny thee. And in like manner also said they all."
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 32,
-    "content": "And they come unto a place which was named Gethsemane: and he saith unto his disciples, Sit ye here, while I pray."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And they come unto ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "an enclosed piece of ground", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "a place which was named Gethsemane: and he saith unto his disciples, Sit ye here, while I pray."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 33,
-    "content": "And he taketh with him Peter and James and John, and began to be greatly amazed, and sore troubled."
+    "content": [
+      {
+        "text": "And he taketh with him Peter and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James and John, and began to be greatly amazed, and sore troubled."
+    ]
   },
   {
     "book": "MRK",
@@ -3501,7 +6165,18 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 38,
-    "content": "Watch and pray, that ye enter not into temptation: the spirit indeed is willing, but the flesh is weak."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Watch ye, and pray that ye enter not", "marks": ["i"] }
+          ]
+        }
+      },
+      "Watch and pray, that ye enter not into temptation: the spirit indeed is willing, but the flesh is weak."
+    ]
   },
   {
     "book": "MRK",
@@ -3519,31 +6194,99 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 41,
-    "content": "And he cometh the third time, and saith unto them, Sleep on now, and take your rest: it is enough; the hour is come; behold, the Son of man is betrayed into the hands of sinners."
+    "content": [
+      {
+        "text": "And he cometh the third time, and saith unto them, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Do ye sleep on, then, and take your rest?",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "Sleep on now, and take your rest: it is enough; the hour is come; behold, the Son of man is ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      "betrayed into the hands of sinners."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 42,
-    "content": "Arise, let us be going: behold, he that betrayeth me is at hand."
+    "content": [
+      {
+        "text": "Arise, let us be going: behold, he that ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      "betrayeth me is at hand."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 43,
-    "content": "And straightway, while he yet spake, cometh Judas, one of the twelve, and with him a multitude with swords and staves, from the chief priests and the scribes and the elders."
+    "content": {
+      "paragraph": true,
+      "text": "And straightway, while he yet spake, cometh Judas, one of the twelve, and with him a multitude with swords and staves, from the chief priests and the scribes and the elders."
+    }
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 44,
-    "content": "Now he that betrayed him had given them a token, saying, Whomsoever I shall kiss, that is he; take him, and lead him away safely."
+    "content": [
+      {
+        "text": "Now he that ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 3:19", "content": "3:19" },
+            "."
+          ]
+        }
+      },
+      "betrayed him had given them a token, saying, Whomsoever I shall kiss, that is he; take him, and lead him away safely."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 45,
-    "content": "And when he was come, straightway he came to him, and saith, Rabbi; and kissed him."
+    "content": [
+      {
+        "text": "And when he was come, straightway he came to him, and saith, Rabbi; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "kissed him much", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "kissed him."
+    ]
   },
   {
     "book": "MRK",
@@ -3555,7 +6298,16 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 47,
-    "content": "But a certain one of them that stood by drew his sword, and smote the servant of the high priest, and struck off his ear."
+    "content": [
+      {
+        "text": "But a certain one of them that stood by drew his sword, and smote the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
+        }
+      },
+      "servant of the high priest, and struck off his ear."
+    ]
   },
   {
     "book": "MRK",
@@ -3567,7 +6319,11 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 49,
-    "content": "I was daily with you in the temple teaching, and ye took me not: but this is done that the scriptures might be fulfilled."
+    "content": [
+      "I was daily with you in the temple teaching, and ye took me not: but ",
+      { "text": "this is done", "marks": ["i"] },
+      " that the scriptures might be fulfilled."
+    ]
   },
   {
     "book": "MRK",
@@ -3579,7 +6335,16 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 51,
-    "content": "And a certain young man followed with him, having a linen cloth cast about him, over his naked body: and they lay hold on him;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And a certain young man followed with him, having a linen cloth cast about him, over "
+      },
+      { "text": "his", "marks": ["i"] },
+      " naked ",
+      { "text": "body", "marks": ["i"] },
+      ": and they lay hold on him;"
+    ]
   },
   {
     "book": "MRK",
@@ -3591,13 +6356,20 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 53,
-    "content": "And they led Jesus away to the high priest: and there come together with him all the chief priests and the elders and the scribes."
+    "content": {
+      "paragraph": true,
+      "text": "And they led Jesus away to the high priest: and there come together with him all the chief priests and the elders and the scribes."
+    }
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 54,
-    "content": "And Peter had followed him afar off, even within, into the court of the high priest; and he was sitting with the officers, and warming himself in the light of the fire."
+    "content": [
+      "And Peter had followed him afar off, even within, into the court of the high priest; and he was sitting with the officers, and warming himself in the light ",
+      { "text": "of the fire", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "MRK",
@@ -3621,7 +6393,16 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 58,
-    "content": "We heard him say, I will destroy this temple that is made with hands, and in three days I will build another made without hands."
+    "content": [
+      {
+        "text": "We heard him say, I will destroy this ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
+        }
+      },
+      "temple that is made with hands, and in three days I will build another made without hands."
+    ]
   },
   {
     "book": "MRK",
@@ -3657,43 +6438,109 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 64,
-    "content": "Ye have heard the blasphemy: what think ye? And they all condemned him to be worthy of death."
+    "content": [
+      {
+        "text": "Ye have heard the blasphemy: what think ye? And they all condemned him to be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "liable to", "marks": ["i"] }, "."]
+        }
+      },
+      "worthy of death."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 65,
-    "content": "And some began to spit on him, and to cover his face, and to buffet him, and to say unto him, Prophesy: and the officers received him with blows of their hands."
+    "content": [
+      {
+        "text": "And some began to spit on him, and to cover his face, and to buffet him, and to say unto him, Prophesy: and the officers received him with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "strokes of rods", "marks": ["i"] }]
+        }
+      },
+      "blows of their hands."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 66,
-    "content": "And as Peter was beneath in the court, there cometh one of the maids of the high priest;"
+    "content": {
+      "paragraph": true,
+      "text": "And as Peter was beneath in the court, there cometh one of the maids of the high priest;"
+    }
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 67,
-    "content": "and seeing Peter warming himself, she looked upon him, and saith, Thou also wast with the Nazarene, even Jesus."
+    "content": [
+      "and seeing Peter warming himself, she looked upon him, and saith, Thou also wast with the Nazarene, ",
+      { "text": "even", "marks": ["i"] },
+      " Jesus."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 68,
-    "content": "But he denied, saying, I neither know, nor understand what thou sayest: and he went out into the porch; and the cock crew."
+    "content": [
+      {
+        "text": "But he denied, saying, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "I neither know, nor understand: thou, what sayest thou?",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "I neither know, nor understand what thou sayest: and he went out into the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "forecourt", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "porch; ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities omit ",
+            { "text": "and the cock crew", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "and the cock crew."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 69,
-    "content": "And the maid saw him, and began again to say to them that stood by, This is one of them."
+    "content": [
+      "And the maid saw him, and began again to say to them that stood by, This is ",
+      { "text": "one", "marks": ["i"] },
+      " of them."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 14,
     "verse": 70,
-    "content": "But he again denied it. And after a little while again they that stood by said to Peter, of a truth thou art one of them; for thou art a Galilaean."
+    "content": [
+      "But he again denied it. And after a little while again they that stood by said to Peter, Of a truth thou art ",
+      { "text": "one", "marks": ["i"] },
+      " of them; for thou art a Galilæan."
+    ]
   },
   {
     "book": "MRK",
@@ -3705,7 +6552,19 @@
     "book": "MRK",
     "chapter": 14,
     "verse": 72,
-    "content": "And straightway the second time the cock crew. And Peter called to mind the word, how that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. And when he thought thereon, he wept."
+    "content": [
+      {
+        "text": "And straightway the second time the cock crew. And Peter called to mind the word, how that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "And he began to weep", "marks": ["i"] }
+          ]
+        }
+      },
+      "And when he thought thereon, he wept."
+    ]
   },
   {
     "book": "MRK",
@@ -3744,19 +6603,37 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 6,
-    "content": "Now at the feast he used to release unto them one prisoner, whom they asked of him."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now at ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a feast", "marks": ["i"] }]
+        }
+      },
+      "the feast he used to release unto them one prisoner, whom they asked of him."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 7,
-    "content": "And there was one called Barabbas, lying bound with them that had made insurrection, men who in the insurrection had committed murder."
+    "content": [
+      "And there was one called Barabbas, ",
+      { "text": "lying", "marks": ["i"] },
+      " bound with them that had made insurrection, men who in the insurrection had committed murder."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 8,
-    "content": "And the multitude went up and began to ask him to do as he was wont to do unto them."
+    "content": [
+      "And the multitude went up and began to ask him ",
+      { "text": "to do", "marks": ["i"] },
+      " as he was wont to do unto them."
+    ]
   },
   {
     "book": "MRK",
@@ -3804,7 +6681,24 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 16,
-    "content": "And the soldiers led him away within the court, which is the Praetorium; and they call together the whole band."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the soldiers led him away within the court, which is the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "palace", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "Prætorium; and they call together the whole b",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cohort", "marks": ["i"] }]
+        }
+      },
+      "and."
+    ]
   },
   {
     "book": "MRK",
@@ -3822,7 +6716,20 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 19,
-    "content": "And they smote his head with a reed, and spat upon him, and bowing their knees worshipped him."
+    "content": [
+      {
+        "text": "And they smote his head with a reed, and spat upon him, and bowing their knees ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 5:6", "content": "5:6" },
+            "."
+          ]
+        }
+      },
+      "worshipped him."
+    ]
   },
   {
     "book": "MRK",
@@ -3834,13 +6741,28 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 21,
-    "content": "And they compel one passing by, Simon of Cyrene, coming from the country, the father of Alexander and Rufus, to go with them, that he might bear his cross."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And they ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "impress", "marks": ["i"] }, "."]
+        }
+      },
+      "compel one passing by, Simon of Cyrene, coming from the country, the father of Alexander and Rufus, to go ",
+      { "text": "with them", "marks": ["i"] },
+      ", that he might bear his cross."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 22,
-    "content": "And they bring him unto the place Golgotha, which is, being interpreted, The place of a skull."
+    "content": {
+      "paragraph": true,
+      "text": "And they bring him unto the place Golgotha, which is, being interpreted, The place of a skull."
+    }
   },
   {
     "book": "MRK",
@@ -3876,13 +6798,38 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 28,
-    "content": "[And the scripture was fulfilled, which saith, And he was reckoned with transgressors.]"
+    "content": {
+      "foot": {
+        "type": "var",
+        "content": [
+          "Many ancient authorities insert ",
+          { "bibleLink": "Mark 15:28", "content": "verse 28" },
+          " ",
+          {
+            "text": "And the scripture was fulfilled, which saith, And he was reckoned with transgressors",
+            "marks": ["i"]
+          },
+          ". See ",
+          { "bibleLink": "Luke 22:37", "content": "Lk. 22:37" },
+          "."
+        ]
+      }
+    }
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 29,
-    "content": "And they that passed by railed on him, wagging their heads, and saying, Ha! Thou that destroyest the temple, and buildest it in three days,"
+    "content": [
+      {
+        "text": "And they that passed by railed on him, wagging their heads, and saying, Ha! thou that destroyest the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
+        }
+      },
+      "temple, and buildest it in three days,"
+    ]
   },
   {
     "book": "MRK",
@@ -3894,7 +6841,21 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 31,
-    "content": "In like manner also the chief priests mocking him among themselves with the scribes said, He saved others; himself he cannot save."
+    "content": [
+      "In like manner also the chief priests mocking ",
+      { "text": "him", "marks": ["i"] },
+      {
+        "text": " among themselves with the scribes said, He saved others; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "can he not save himself?", "marks": ["i"] }
+          ]
+        }
+      },
+      "himself he cannot save."
+    ]
   },
   {
     "book": "MRK",
@@ -3906,13 +6867,42 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 33,
-    "content": "And when the sixth hour was come, there was darkness over the whole land until the ninth hour."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And when the sixth hour was come, there was darkness over the whole ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "earth", "marks": ["i"] }]
+        }
+      },
+      "land until the ninth hour."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 34,
-    "content": "And at the ninth hour Jesus cried with a loud voice, Eloi, Eloi, lama sabachthani? which is, being interpreted, My God, my God, why hast thou forsaken me?"
+    "content": [
+      {
+        "text": "And at the ninth hour Jesus cried with a loud voice, Eloi, Eloi, lama sabachthani? which is, being interpreted, ",
+        "foot": {
+          "type": "xrf",
+          "content": [{ "bibleLink": "Psalm 22:1", "content": "Ps. 22:1" }, "."]
+        }
+      },
+      {
+        "text": "My God, my God, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "why didst thou forsake me?", "marks": ["i"] }
+          ]
+        }
+      },
+      "why hast thou forsaken me?"
+    ]
   },
   {
     "book": "MRK",
@@ -3936,19 +6926,66 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 38,
-    "content": "And the veil of the temple was rent in two from the top to the bottom."
+    "content": [
+      {
+        "text": "And the veil of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
+        }
+      },
+      "temple was rent in two from the top to the bottom."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 39,
-    "content": "And when the centurion, who stood by over against him, saw that he so gave up the ghost, he said, Truly this man was the Son of God."
+    "content": [
+      {
+        "text": "And when the centurion, who stood by over against him, saw that he ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "so cried out, and gave up the ghost", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "so gave up the ghost, he said, Truly this man was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a son of God", "marks": ["i"] }]
+        }
+      },
+      "the Son of God."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 40,
-    "content": "And there were also women beholding from afar: among whom were both Mary Magdalene, and Mary the mother of James the less and of Joses, and Salome;"
+    "content": [
+      "And there were also women beholding from afar: among whom ",
+      { "text": "were", "marks": ["i"] },
+      {
+        "text": " both Mary Magdalene, and Mary the mother of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "James the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "little", "marks": ["i"] }, "."]
+        }
+      },
+      "less and of Joses, and Salome;"
+    ]
   },
   {
     "book": "MRK",
@@ -3960,19 +6997,35 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 42,
-    "content": "And when even was now come, because it was the Preparation, that is, the day before the sabbath,"
+    "content": {
+      "paragraph": true,
+      "text": "And when even was now come, because it was the Preparation, that is, the day before the sabbath,"
+    }
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 43,
-    "content": "there came Joseph of Arimathaea, a councillor of honorable estate, who also himself was looking for the kingdom of God; and he boldly went in unto Pilate, and asked for the body of Jesus."
+    "content": "there came Joseph of Arimathæa, a councillor of honorable estate, who also himself was looking for the kingdom of God; and he boldly went in unto Pilate, and asked for the body of Jesus."
   },
   {
     "book": "MRK",
     "chapter": 15,
     "verse": 44,
-    "content": "And Pilate marvelled if he were already dead: and calling unto him the centurion, he asked him whether he had been any while dead."
+    "content": [
+      {
+        "text": "And Pilate marvelled if he were already dead: and calling unto him the centurion, he asked him whether ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "were already dead", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "he had been any while dead."
+    ]
   },
   {
     "book": "MRK",
@@ -3990,16 +7043,31 @@
     "book": "MRK",
     "chapter": 15,
     "verse": 47,
-    "content": "And Mary Magdalene and Mary the mother of Joses beheld where he was laid."
+    "content": [
+      "And Mary Magdalene and Mary the ",
+      { "text": "mother", "marks": ["i"] },
+      " of Joses beheld where he was laid."
+    ]
   },
   {
     "book": "MRK",
     "chapter": 16,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And when the sabbath was past, Mary Magdalene, and Mary the mother of James, and Salome, bought spices, that they might come and anoint him."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And when the sabbath was past, Mary Magdalene, and Mary the "
+      },
+      { "text": "mother", "marks": ["i"] },
+      {
+        "text": " of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      "James, and Salome, bought spices, that they might come and anoint him."
+    ]
   },
   {
     "book": "MRK",
@@ -4041,13 +7109,29 @@
     "book": "MRK",
     "chapter": 16,
     "verse": 8,
-    "content": "And they went out, and fled from the tomb; for trembling and astonishment had come upon them: and they said nothing to any one; for they were afraid."
+    "content": {
+      "text": "And they went out, and fled from the tomb; for trembling and astonishment had come upon them: and they said nothing to any one; for they were afraid.",
+      "break": true
+    }
   },
   {
     "book": "MRK",
     "chapter": 16,
     "verse": 9,
-    "content": "Now when he was risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons."
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "var",
+          "content": [
+            "The two oldest Greek manuscripts, and some other authorities, omit from ",
+            { "bibleLink": "Mark 16:9", "content": "verse 9" },
+            " to the end. Some other authorities have a different ending to the Gospel."
+          ]
+        }
+      },
+      "Now when he was risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons."
+    ]
   },
   {
     "book": "MRK",
@@ -4065,7 +7149,10 @@
     "book": "MRK",
     "chapter": 16,
     "verse": 12,
-    "content": "And after these things he was manifested in another form unto two of them, as they walked, on their way into the country."
+    "content": {
+      "paragraph": true,
+      "text": "And after these things he was manifested in another form unto two of them, as they walked, on their way into the country."
+    }
   },
   {
     "book": "MRK",
@@ -4077,13 +7164,29 @@
     "book": "MRK",
     "chapter": 16,
     "verse": 14,
-    "content": "And afterward he was manifested unto the eleven themselves as they sat at meat; and he upbraided them with their unbelief and hardness of heart, because they believed not them that had seen him after he was risen."
+    "content": {
+      "paragraph": true,
+      "text": "And afterward he was manifested unto the eleven themselves as they sat at meat; and he upbraided them with their unbelief and hardness of heart, because they believed not them that had seen him after he was risen."
+    }
   },
   {
     "book": "MRK",
     "chapter": 16,
     "verse": 15,
-    "content": "And he said unto them, Go ye into all the world, and preach the gospel to the whole creation."
+    "content": [
+      {
+        "text": "And he said unto them, Go ye into all the world, and preach the ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            "See marginal note on ",
+            { "bibleLink": "Mark 1:1", "content": "1:1" },
+            "."
+          ]
+        }
+      },
+      "gospel to the whole creation."
+    ]
   },
   {
     "book": "MRK",
@@ -4095,7 +7198,20 @@
     "book": "MRK",
     "chapter": 16,
     "verse": 17,
-    "content": "And these signs shall accompany them that believe: in my name shall they cast out demons; they shall speak with new tongues;"
+    "content": [
+      {
+        "text": "And these signs shall accompany them that believe: in my name shall they cast out demons; they shall speak with ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities omit ",
+            { "text": "new", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "new tongues;"
+    ]
   },
   {
     "book": "MRK",
@@ -4107,7 +7223,10 @@
     "book": "MRK",
     "chapter": 16,
     "verse": 19,
-    "content": "So then the Lord Jesus, after he had spoken unto them, was received up into heaven, and sat down at the right hand of God."
+    "content": {
+      "paragraph": true,
+      "text": "So then the Lord Jesus, after he had spoken unto them, was received up into heaven, and sat down at the right hand of God."
+    }
   },
   {
     "book": "MRK",

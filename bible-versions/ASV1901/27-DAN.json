@@ -18,7 +18,11 @@
     "book": "DAN",
     "chapter": 1,
     "verse": 3,
-    "content": "And the king spake unto Ashpenaz the master of his eunuchs, that he should bring in certain of the children of Israel, even of the seed royal and of the nobles;"
+    "content": [
+      "And the king spake unto Ashpenaz the master of his eunuchs, that he should bring in ",
+      { "text": "certain", "marks": ["i"] },
+      " of the children of Israel, even of the seed royal and of the nobles;"
+    ]
   },
   {
     "book": "DAN",
@@ -42,13 +46,26 @@
     "book": "DAN",
     "chapter": 1,
     "verse": 7,
-    "content": "And the prince of the eunuchs gave names unto them: unto Daniel he gave the name of Belteshazzar; and to Hananiah, of Shadrach; and to Mishael, of Meshach; and to Azariah, of Abed-nego."
+    "content": [
+      "And the prince of the eunuchs gave names unto them: unto Daniel he gave ",
+      { "text": "the name of", "marks": ["i"] },
+      " Belteshazzar; and to Hananiah, ",
+      { "text": "of", "marks": ["i"] },
+      " Shadrach; and to Mishael, ",
+      { "text": "of", "marks": ["i"] },
+      " Meshach; and to Azariah, ",
+      { "text": "of", "marks": ["i"] },
+      " Abed-nego."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 1,
     "verse": 8,
-    "content": "But Daniel purposed in his heart that he would not defile himself with the king’s dainties, nor with the wine which he drank: therefore he requested of the prince of the eunuchs that he might not defile himself."
+    "content": {
+      "paragraph": true,
+      "text": "But Daniel purposed in his heart that he would not defile himself with the king’s dainties, nor with the wine which he drank: therefore he requested of the prince of the eunuchs that he might not defile himself."
+    }
   },
   {
     "book": "DAN",
@@ -66,13 +83,31 @@
     "book": "DAN",
     "chapter": 1,
     "verse": 11,
-    "content": "Then said Daniel to the steward whom the prince of the eunuchs had appointed over Daniel, Hananiah, Mishael, and Azariah:"
+    "content": [
+      {
+        "text": "Then said Daniel to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Hammelzar", "marks": ["i"] }, "."]
+        }
+      },
+      "the steward whom the prince of the eunuchs had appointed over Daniel, Hananiah, Mishael, and Azariah:"
+    ]
   },
   {
     "book": "DAN",
     "chapter": 1,
     "verse": 12,
-    "content": "Prove thy servants, I beseech thee, ten days; and let them give us pulse to eat, and water to drink."
+    "content": [
+      {
+        "text": "Prove thy servants, I beseech thee, ten days; and let them give us ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "herbs", "marks": ["i"] }]
+        }
+      },
+      "pulse to eat, and water to drink."
+    ]
   },
   {
     "book": "DAN",
@@ -84,7 +119,10 @@
     "book": "DAN",
     "chapter": 1,
     "verse": 14,
-    "content": "So he hearkened unto them in this matter, and proved them ten days."
+    "content": {
+      "paragraph": true,
+      "text": "So he hearkened unto them in this matter, and proved them ten days."
+    }
   },
   {
     "book": "DAN",
@@ -96,19 +134,40 @@
     "book": "DAN",
     "chapter": 1,
     "verse": 16,
-    "content": "So the steward took away their dainties, and the wine that they should drink, and gave them pulse."
+    "content": [
+      {
+        "text": "So ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Hammelzar", "marks": ["i"] }, "."]
+        }
+      },
+      "the steward took away their dainties, and the wine that they should drink, and gave them pulse."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 1,
     "verse": 17,
-    "content": "Now as for these four youths, God gave them knowledge and skill in all learning and wisdom: and Daniel had understanding in all visions and dreams."
+    "content": {
+      "paragraph": true,
+      "text": "Now as for these four youths, God gave them knowledge and skill in all learning and wisdom: and Daniel had understanding in all visions and dreams."
+    }
   },
   {
     "book": "DAN",
     "chapter": 1,
     "verse": 18,
-    "content": "And at the end of the days which the king had appointed for bringing them in, the prince of the eunuchs brought them in before Nebuchadnezzar."
+    "content": [
+      {
+        "text": "And at the end of the days which the king had ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "said", "marks": ["i"] }, "."]
+        }
+      },
+      "appointed for bringing them in, the prince of the eunuchs brought them in before Nebuchadnezzar."
+    ]
   },
   {
     "book": "DAN",
@@ -153,13 +212,46 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 4,
-    "content": "Then spake the Chaldeans to the king in the Syrian language, O king, live for ever: tell thy servants the dream, and we will show the interpretation."
+    "content": [
+      {
+        "text": "Then spake the Chaldeans to the king ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in Aramaic", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "in the Syrian language, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "bibleLink": "Daniel 2:4–49", "content": "2:4" },
+            "–",
+            { "bibleLink": "Daniel 7:1–28", "content": "7:28" },
+            " is in Aramaic."
+          ]
+        }
+      },
+      "O king, live for ever: tell thy servants the dream, and we will show the interpretation."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 2,
     "verse": 5,
-    "content": "The king answered and said to the Chaldeans, The thing is gone from me: if ye make not known unto me the dream and the interpretation thereof, ye shall be cut in pieces, and your houses shall be made a dunghill."
+    "content": [
+      {
+        "text": "The king answered and said to the Chaldeans, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "The word is gone forth from me", "marks": ["i"] }
+          ]
+        }
+      },
+      "The thing is gone from me: if ye make not known unto me the dream and the interpretation thereof, ye shall be cut in pieces, and your houses shall be made a dunghill."
+    ]
   },
   {
     "book": "DAN",
@@ -177,7 +269,33 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 8,
-    "content": "The king answered and said, I know of a certainty that ye would gain time, because ye see the thing is gone from me."
+    "content": [
+      {
+        "text": "The king answered and said, I know of a certainty that ye would ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Aramaic ",
+            { "text": "buy the time", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "gain time, because ye see ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "the word is gone forth from me: that if etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "the thing is gone from me."
+    ]
   },
   {
     "book": "DAN",
@@ -189,7 +307,19 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 10,
-    "content": "The Chaldeans answered before the king, and said, There is not a man upon the earth that can show the king’s matter, forasmuch as no king, lord, or ruler, hath asked such a thing of any magician, or enchanter, or Chaldean."
+    "content": [
+      {
+        "text": "The Chaldeans answered before the king, and said, There is not a man upon the earth that can show the king’s matter, forasmuch as no king, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, be he never so ",
+            { "text": "great and powerful, hath etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "lord, or ruler, hath asked such a thing of any magician, or enchanter, or Chaldean."
+    ]
   },
   {
     "book": "DAN",
@@ -213,7 +343,10 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 14,
-    "content": "Then Daniel returned answer with counsel and prudence to Arioch the captain of the king’s guard, who was gone forth to slay the wise men of Babylon;"
+    "content": {
+      "paragraph": true,
+      "text": "Then Daniel returned answer with counsel and prudence to Arioch the captain of the king’s guard, who was gone forth to slay the wise men of Babylon;"
+    }
   },
   {
     "book": "DAN",
@@ -225,19 +358,38 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 16,
-    "content": "And Daniel went in, and desired of the king that he would appoint him a time, and he would show the king the interpretation."
+    "content": [
+      {
+        "text": "And Daniel went in, and desired of the king that he would ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "give him time", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "appoint him a time, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "that he might", "marks": ["i"] }]
+        }
+      },
+      "and he would show the king the interpretation."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 2,
     "verse": 17,
-    "content": "Then Daniel went to his house, and made the thing known to Hananiah, Mishael, and Azariah, his companions:"
+    "content": {
+      "paragraph": true,
+      "text": "Then Daniel went to his house, and made the thing known to Hananiah, Mishael, and Azariah, his companions:"
+    }
   },
   {
     "book": "DAN",
     "chapter": 2,
     "verse": 18,
-    "content": "that they would desire mercies of the God of heaven concerning this secret; that Daniel and his companions should nor perish with the rest of the wise men of Babylon."
+    "content": "that they would desire mercies of the God of heaven concerning this secret; that Daniel and his companions should not perish with the rest of the wise men of Babylon."
   },
   {
     "book": "DAN",
@@ -279,7 +431,10 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 25,
-    "content": "Then Arioch brought in Daniel before the king in haste, and said thus unto him, I have found a man of the children of the captivity of Judah, that will make known unto the king the interpretation."
+    "content": {
+      "paragraph": true,
+      "text": "Then Arioch brought in Daniel before the king in haste, and said thus unto him, I have found a man of the children of the captivity of Judah, that will make known unto the king the interpretation."
+    }
   },
   {
     "book": "DAN",
@@ -303,7 +458,11 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 29,
-    "content": "as for thee, O king, thy thoughts came into thy mind upon thy bed, what should come to pass hereafter; and he that revealeth secrets hath made known to thee what shall come to pass."
+    "content": [
+      "as for thee, O king, thy thoughts came ",
+      { "text": "into thy mind", "marks": ["i"] },
+      " upon thy bed, what should come to pass hereafter; and he that revealeth secrets hath made known to thee what shall come to pass."
+    ]
   },
   {
     "book": "DAN",
@@ -315,7 +474,10 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 31,
-    "content": "Thou, O king, sawest, and, behold, a great image. This image, which was mighty, and whose brightness was excellent, stood before thee; and the aspect thereof was terrible."
+    "content": {
+      "paragraph": true,
+      "text": "Thou, O king, sawest, and, behold, a great image. This image, which was mighty, and whose brightness was excellent, stood before thee; and the aspect thereof was terrible."
+    }
   },
   {
     "book": "DAN",
@@ -339,13 +501,25 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 35,
-    "content": "Then was the iron, the clay, the brass, the silver, and the gold, broken in pieces together, and became like the chaff of the summer threshing-floors; and the wind carried them away, so that no place was found for them: and the stone that smote the image became a great mountain, and filled the whole earth."
+    "content": [
+      {
+        "text": "Then was the iron, the clay, the brass, the silver, and the gold, broken in pieces together, and became like the chaff of the summer threshing-floors; and the wind carried them away, so that no place was found for them: and the stone that smote the image became a great ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "rock", "marks": ["i"] }]
+        }
+      },
+      "mountain, and filled the whole earth."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 2,
     "verse": 36,
-    "content": "This is the dream; and we will tell the interpretation thereof before the king."
+    "content": {
+      "paragraph": true,
+      "text": "This is the dream; and we will tell the interpretation thereof before the king."
+    }
   },
   {
     "book": "DAN",
@@ -375,19 +549,53 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 41,
-    "content": "And whereas thou sawest the feet and toes, part of potters’ clay, and part of iron, it shall be a divided kingdom; but there shall be in it of the strength of the iron, forasmuch as thou sawest the iron mixed with miry clay."
+    "content": [
+      {
+        "text": "And whereas thou sawest the feet and toes, part of potters’ clay, and part of iron, it shall be a divided kingdom; but there shall be in it of the strength of the iron, forasmuch as thou sawest the iron mixed with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "earthenware", "marks": ["i"] }]
+        }
+      },
+      "miry clay."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 2,
     "verse": 42,
-    "content": "And as the toes of the feet were part of iron, and part of clay, so the kingdom shall be partly strong, and partly broken."
+    "content": [
+      {
+        "text": "And as the toes of the feet were part of iron, and part of clay, so the kingdom shall be partly strong, and partly ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "brittle", "marks": ["i"] }]
+        }
+      },
+      "broken."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 2,
     "verse": 43,
-    "content": "And whereas thou sawest the iron mixed with miry clay, they shall mingle themselves with the seed of men; but they shall not cleave one to another, even as iron doth not mingle with clay."
+    "content": [
+      {
+        "text": "And whereas thou sawest the iron mixed with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "earthenware", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "miry clay, they shall mingle themselves ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by", "marks": ["i"] }]
+        }
+      },
+      "with the seed of men; but they shall not cleave one to another, even as iron doth not mingle with clay."
+    ]
   },
   {
     "book": "DAN",
@@ -405,7 +613,10 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 46,
-    "content": "Then the king Nebuchadnezzar fell upon his face, and worshipped Daniel, and commmanded that they should offer an oblation and sweet odors unto him."
+    "content": {
+      "paragraph": true,
+      "text": "Then the king Nebuchadnezzar fell upon his face, and worshipped Daniel, and commanded that they should offer an oblation and sweet odors unto him."
+    }
   },
   {
     "book": "DAN",
@@ -423,7 +634,16 @@
     "book": "DAN",
     "chapter": 2,
     "verse": 49,
-    "content": "And Daniel requested of the king, and he appointed Shadrach, Meshach, and Abed-nego, over the affairs of the province of Babylon: but Daniel was in the gate of the king."
+    "content": [
+      {
+        "text": "And Daniel requested of the king, and he appointed Shadrach, Meshach, and Abed-nego, over the affairs of the province of Babylon: but Daniel was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "at the king’s court", "marks": ["i"] }]
+        }
+      },
+      "in the gate of the king."
+    ]
   },
   {
     "book": "DAN",
@@ -438,13 +658,45 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 2,
-    "content": "Then Nebuchadnezzar the king sent to gather together the satraps, the deputies, and the governors, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, to come to the dedication of the image which Nebuchadnezzar the king had set up."
+    "content": [
+      {
+        "text": "Then Nebuchadnezzar the king sent to gather together the satraps, the deputies, and the governors, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "chief soothsayers", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "judges, the treasurers, the counsellors, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lawyers", "marks": ["i"] }]
+        }
+      },
+      "sheriffs, and all the rulers of the provinces, to come to the dedication of the image which Nebuchadnezzar the king had set up."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 3,
     "verse": 3,
-    "content": "Then the satraps, the deputies, and the governors, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, were gathered together unto the dedication of the image that Nebuchadnezzar the king had set up; and they stood before the image that Nebuchadnezzar had set up."
+    "content": [
+      {
+        "text": "Then the satraps, the deputies, and the governors, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "chief soothsayers", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "judges, the treasurers, the counsellors, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lawyers", "marks": ["i"] }]
+        }
+      },
+      "sheriffs, and all the rulers of the provinces, were gathered together unto the dedication of the image that Nebuchadnezzar the king had set up; and they stood before the image that Nebuchadnezzar had set up."
+    ]
   },
   {
     "book": "DAN",
@@ -456,7 +708,16 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 5,
-    "content": "that at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, dulcimer, and all kinds of music, ye fall down and worship the golden image that Nebuchadnezzar the king hath set up;"
+    "content": [
+      {
+        "text": "that at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "bagpipe", "marks": ["i"] }]
+        }
+      },
+      "dulcimer, and all kinds of music, ye fall down and worship the golden image that Nebuchadnezzar the king hath set up;"
+    ]
   },
   {
     "book": "DAN",
@@ -468,13 +729,16 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 7,
-    "content": "Therefore at that time, when all the peoples heard the sound of the cornet, flute, harp, sackbut, psaltery, and all kinds of music, all the peoples, the nations, and the languages, fell down and worhsipped the golden image that Nebuchadnezzar the king had set up."
+    "content": "Therefore at that time, when all the peoples heard the sound of the cornet, flute, harp, sackbut, psaltery, and all kinds of music, all the peoples, the nations, and the languages, fell down and worshipped the golden image that Nebuchadnezzar the king had set up."
   },
   {
     "book": "DAN",
     "chapter": 3,
     "verse": 8,
-    "content": "Wherefore at that time certain Chaldeans came near, and brought accusation against the Jews."
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore at that time certain Chaldeans came near, and brought accusation against the Jews."
+    }
   },
   {
     "book": "DAN",
@@ -504,7 +768,11 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 13,
-    "content": "Then Nebuchadnezzar in his rage and fury commanded to bring Shadrach, Meshach, and Abed-nego. Then they brought these men before the king."
+    "content": [
+      { "paragraph": true, "text": "Then Nebuchadnezzar in " },
+      { "text": "his", "marks": ["i"] },
+      " rage and fury commanded to bring Shadrach, Meshach, and Abed-nego. Then they brought these men before the king."
+    ]
   },
   {
     "book": "DAN",
@@ -516,19 +784,50 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 15,
-    "content": "Now if ye be ready that at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, and dulcimer, and all kinds of music, ye fall down and worship the image which I have made, well: but if ye worship not, ye shall be cast the same hour into the midst of a burning fiery furnace; and who is that god that shall deliver you out of my hands?"
+    "content": [
+      "Now if ye be ready that at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, and dulcimer, and all kinds of music, ye fall down and worship the image which I have made, ",
+      { "text": "well", "marks": ["i"] },
+      ": but if ye worship not, ye shall be cast the same hour into the midst of a burning fiery furnace; and who is that god that shall deliver you out of my hands?"
+    ]
   },
   {
     "book": "DAN",
     "chapter": 3,
     "verse": 16,
-    "content": "Shadrach, Meshach, and Abed-nego answered and said to the king, O Nebuchadnezzar, we have no need to answer thee in this matter."
+    "content": [
+      {
+        "text": "Shadrach, Meshach, and Abed-nego answered and said to the king, O Nebuchadnezzar, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "we are not careful", "marks": ["i"] }]
+        }
+      },
+      "we have no need to answer thee in this matter."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 3,
     "verse": 17,
-    "content": "If it be so, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of thy hand, O king."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Behold, our God etc.", "marks": ["i"] },
+            " Or, ",
+            {
+              "text": "If our God whom we serve be able to deliver us, he will deliver us from . . . and out of thy hand, O king",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "If it be ",
+      { "text": "so", "marks": ["i"] },
+      ", our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of thy hand, O king."
+    ]
   },
   {
     "book": "DAN",
@@ -540,19 +839,41 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 19,
-    "content": "Then was Nebuchadnezzar full of fury, and the form of his visage was changed against Shadrach, Meshach, and Abed-nego: therefore he spake, and commanded that they should heat the furnace seven times more than it was wont to be heated."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then was Nebuchadnezzar full of fury, and the form of his visage was changed against Shadrach, Meshach, and Abed-nego: "
+      },
+      { "text": "therefore", "marks": ["i"] },
+      " he spake, and commanded that they should heat the furnace seven times more than it was wont to be heated."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 3,
     "verse": 20,
-    "content": "And he commanded certain mighty men that were in his army to bind Shadrach, Meshach, and Abed-nego, and to cast them into the burning fiery furnace."
+    "content": [
+      "And he commanded certain mighty men that were in his army to bind Shadrach, Meshach, and Abed-nego, ",
+      { "text": "and", "marks": ["i"] },
+      " to cast them into the burning fiery furnace."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 3,
     "verse": 21,
-    "content": "Then these men were bound in their hosen, their tunics, and their mantles, and their other garments, and were cast into the midst of the burning fiery furnace."
+    "content": [
+      {
+        "text": "Then these men were bound in their hosen, their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "turbans", "marks": ["i"] }]
+        }
+      },
+      "tunics, and their mantles, and their ",
+      { "text": "other", "marks": ["i"] },
+      " garments, and were cast into the midst of the burning fiery furnace."
+    ]
   },
   {
     "book": "DAN",
@@ -570,7 +891,10 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 24,
-    "content": "Then Nebuchadnezzar the king was astonished, and rose up in haste: he spake and said unto his counsellors, Did not we cast three men bound into the midst of the fire? They answered and said unto the king, True, O king."
+    "content": {
+      "paragraph": true,
+      "text": "Then Nebuchadnezzar the king was astonished, and rose up in haste: he spake and said unto his counsellors, Did not we cast three men bound into the midst of the fire? They answered and said unto the king, True, O king."
+    }
   },
   {
     "book": "DAN",
@@ -582,7 +906,16 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 26,
-    "content": "Then Nebuchadnezzar came near to the mouth of the burning fiery furnace: he spake and said, Shadrach, Meshach, and Abed-nego, ye servants of the Most High God, come forth, and come hither. Then Shadrach, Meshach, and Abed-nego came forth out of the midst of the fire."
+    "content": [
+      {
+        "text": "Then Nebuchadnezzar came near to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "door", "marks": ["i"] }, "."]
+        }
+      },
+      "mouth of the burning fiery furnace: he spake and said, Shadrach, Meshach, and Abed-nego, ye servants of the Most High God, come forth, and come hither. Then Shadrach, Meshach, and Abed-nego came forth out of the midst of the fire."
+    ]
   },
   {
     "book": "DAN",
@@ -594,7 +927,10 @@
     "book": "DAN",
     "chapter": 3,
     "verse": 28,
-    "content": "Nebuchadnezzar spake and said, Blessed be the God of Shadrach, Meshach, and Abed-nego, who hath sent his angel, and delivered his servants that trusted in him, and have changed the king’s word, and have yielded their bodies, that they might not serve nor worship any god, except their own God."
+    "content": {
+      "paragraph": true,
+      "text": "Nebuchadnezzar spake and said, Blessed be the God of Shadrach, Meshach, and Abed-nego, who hath sent his angel, and delivered his servants that trusted in him, and have changed the king’s word, and have yielded their bodies, that they might not serve nor worship any god, except their own God."
+    }
   },
   {
     "book": "DAN",
@@ -633,13 +969,25 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 4,
-    "content": "I, Nebuchadnezzar, was at rest in my house, and flourishing in my palace."
+    "content": {
+      "paragraph": true,
+      "text": "I, Nebuchadnezzar, was at rest in my house, and flourishing in my palace."
+    }
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 5,
-    "content": "I saw a dream which made me afraid; and the thoughts upon my bed and the visions of my head troubled me."
+    "content": [
+      {
+        "text": "I saw a dream which made me afraid; and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "imaginations", "marks": ["i"] }]
+        }
+      },
+      "thoughts upon my bed and the visions of my head troubled me."
+    ]
   },
   {
     "book": "DAN",
@@ -657,7 +1005,11 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 8,
-    "content": "But at the last Daniel came in before me, whose name was Belteshazzar, according to the name of my god, and in whom is the spirit of the holy gods: and I told the dream before him, saying,"
+    "content": [
+      "But at the last Daniel came in before me, whose name was Belteshazzar, according to the name of my god, and in whom is the spirit of the holy gods: and I told the dream before him, ",
+      { "text": "saying", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "DAN",
@@ -693,7 +1045,7 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 14,
-    "content": "He cried aloud, and said thus, Hew down the tree, and cut off its branches, shake off its leaves, and scatter its fruit: let the beast get away from under it, and the fowls from its branches."
+    "content": "He cried aloud, and said thus, Hew down the tree, and cut off its branches, shake off its leaves, and scatter its fruit: let the beasts get away from under it, and the fowls from its branches."
   },
   {
     "book": "DAN",
@@ -711,7 +1063,16 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 17,
-    "content": "The sentence is by the decree of the watchers, and the demand by the word of the holy ones; to the intent that the living may know that the Most High ruleth in the kingdom of men, and giveth it to whomsoever he will, and setteth up over it the lowest of men."
+    "content": [
+      {
+        "text": "The sentence is by the decree of the watchers, and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "matter", "marks": ["i"] }]
+        }
+      },
+      "demand by the word of the holy ones; to the intent that the living may know that the Most High ruleth in the kingdom of men, and giveth it to whomsoever he will, and setteth up over it the lowest of men."
+    ]
   },
   {
     "book": "DAN",
@@ -723,7 +1084,10 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 19,
-    "content": "Then Daniel, whose name was Belteshazzar, was stricken dumb for a while, and his thoughts troubled him. The king answered and said, Belteshazzar, let not the dream, or the interpretation, trouble thee. Belteshazzar answered and said, My lord, the dream be to them that hate thee, and the interpretation thereof to thine adversaries."
+    "content": {
+      "paragraph": true,
+      "text": "Then Daniel, whose name was Belteshazzar, was stricken dumb for a while, and his thoughts troubled him. The king answered and said, Belteshazzar, let not the dream, or the interpretation, trouble thee. Belteshazzar answered and said, My lord, the dream be to them that hate thee, and the interpretation thereof to thine adversaries."
+    }
   },
   {
     "book": "DAN",
@@ -771,19 +1135,50 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 27,
-    "content": "Wherefore, O king, let my counsel be acceptable unto thee, and break off thy sins by righteousness, and thine iniquities by showing mercy to the poor; if there may be a lengthening of thy tranquillity."
+    "content": [
+      {
+        "text": "Wherefore, O king, let my counsel be acceptable unto thee, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "redeem", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "break off thy sins by righteousness, and thine iniquities by showing mercy to the poor; if there may be ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            { "text": "a healing of thine error", "marks": ["i"] }
+          ]
+        }
+      },
+      "a lengthening of thy tranquillity."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 28,
-    "content": "All this came upon the king Nebuchadnezzar."
+    "content": {
+      "paragraph": true,
+      "text": "All this came upon the king Nebuchadnezzar."
+    }
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 29,
-    "content": "At the end of twelve months he was walking in the royal palace of Babylon."
+    "content": [
+      {
+        "text": "At the end of twelve months he was walking ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "upon", "marks": ["i"] }, "."]
+        }
+      },
+      "in the royal palace of Babylon."
+    ]
   },
   {
     "book": "DAN",
@@ -795,31 +1190,53 @@
     "book": "DAN",
     "chapter": 4,
     "verse": 31,
-    "content": "While the word was in the king’s mouth, there fell a voice from heaven, saying, O king Nebuchadnezzar, to thee it is spoken: The kingdom is departed from thee:"
+    "content": [
+      "While the word was in the king’s mouth, there fell a voice from heaven, ",
+      { "text": "saying", "marks": ["i"] },
+      ", O king Nebuchadnezzar, to thee it is spoken: The kingdom is departed from thee:"
+    ]
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 32,
-    "content": "and thou shalt be driven from men; and they dwelling shall be with the beasts of the field; thou shalt be made to eat grass as oxen; and seven times shall pass over thee; until thou know that the Most High ruleth in the kingdom of men, and giveth it to whomsoever he will."
+    "content": "and thou shalt be driven from men; and thy dwelling shall be with the beasts of the field; thou shalt be made to eat grass as oxen; and seven times shall pass over thee; until thou know that the Most High ruleth in the kingdom of men, and giveth it to whomsoever he will."
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 33,
-    "content": "The same hour was the thing fulfilled upon Nebuchadnezzar: and he was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hair was grown like eagles’ feathers, and his nails like birds’ claws."
+    "content": [
+      "The same hour was the thing fulfilled upon Nebuchadnezzar: and he was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hair was grown like eagles’ ",
+      { "text": "feathers", "marks": ["i"] },
+      ", and his nails like birds’ ",
+      { "text": "claws", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 34,
-    "content": "And at the end of the days I, Nebuchadnezzar, lifted up mine eyes unto heaven, and mine understanding returned unto me, and I blessed the Most High, and I praised and honored him that liveth for ever; for his dominion is an everlasting dominion, and his kingdom from generation to generation."
+    "content": {
+      "paragraph": true,
+      "text": "And at the end of the days I, Nebuchadnezzar, lifted up mine eyes unto heaven, and mine understanding returned unto me, and I blessed the Most High, and I praised and honored him that liveth for ever; for his dominion is an everlasting dominion, and his kingdom from generation to generation;"
+    }
   },
   {
     "book": "DAN",
     "chapter": 4,
     "verse": 35,
-    "content": "And all the inhabitants of the earth are reputed as nothing; and he doeth according to his will in the army of heaven, and among the inhabitants of the earth; and none can stay his hand, or say unto him, What doest thou?"
+    "content": [
+      {
+        "text": "and all the inhabitants of the earth are reputed as nothing; and he doeth according to his will in the army of heaven, and among the inhabitants of the earth; and none can ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "strike", "marks": ["i"] }, "."]
+        }
+      },
+      "stay his hand, or say unto him, What doest thou?"
+    ]
   },
   {
     "book": "DAN",
@@ -864,13 +1281,25 @@
     "book": "DAN",
     "chapter": 5,
     "verse": 5,
-    "content": "In the same hour came forth the fingers of a man’s hand, and wrote over against the candlestick upon the plaster of the wall of the king’s palace: and the king saw the part of the hand that wrote."
+    "content": {
+      "paragraph": true,
+      "text": "In the same hour came forth the fingers of a man’s hand, and wrote over against the candlestick upon the plaster of the wall of the king’s palace: and the king saw the part of the hand that wrote."
+    }
   },
   {
     "book": "DAN",
     "chapter": 5,
     "verse": 6,
-    "content": "Then the king’s countenance was changed in him, and his thoughts troubled him; and the joints of his loins were loosed, and his knees smote one against another."
+    "content": [
+      {
+        "text": "Then the king’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "brightness", "marks": ["i"] }, "."]
+        }
+      },
+      "countenance was changed in him, and his thoughts troubled him; and the joints of his loins were loosed, and his knees smote one against another."
+    ]
   },
   {
     "book": "DAN",
@@ -894,13 +1323,27 @@
     "book": "DAN",
     "chapter": 5,
     "verse": 10,
-    "content": "Now the queen by reason of the words of the king and his lords came into the banquet house: the queen spake and said, O king, live forever; let not thy thoughts trouble thee, nor let thy countenance be changed."
+    "content": [
+      { "paragraph": true, "text": "Now", "marks": ["i"] },
+      " the queen by reason of the words of the king and his lords came into the banquet house: the queen spake and said, O king, live for ever; let not thy thoughts trouble thee, nor let thy countenance be changed."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 5,
     "verse": 11,
-    "content": "There is a man in thy kingdom, in whom is the spirit of the holy gods; and in the days of thy father light and understanding and wisdom, like the wisdom of the gods, were found in him; and the king Nebuchadnezzar thy father, the king, I say, thy father, made him master of the magicians, enchanters, Chaldeans, and soothsayers;"
+    "content": [
+      {
+        "text": "There is a man in thy kingdom, in whom is the spirit of the holy gods; and in the days of thy father light and understanding and wisdom, like the wisdom of the gods, were found in him; and the king Nebuchadnezzar thy father, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thy father, O king", "marks": ["i"] }]
+        }
+      },
+      "the king, ",
+      { "text": "I say", "marks": ["i"] },
+      ", thy father, made him master of the magicians, enchanters, Chaldeans, and soothsayers;"
+    ]
   },
   {
     "book": "DAN",
@@ -912,7 +1355,10 @@
     "book": "DAN",
     "chapter": 5,
     "verse": 13,
-    "content": "Then was Daniel brought in before the king. The king spake and said unto Daniel, Art thou that Daniel, who art of the children of the captivity of Judah, whom the king my father brought out of Judah?"
+    "content": {
+      "paragraph": true,
+      "text": "Then was Daniel brought in before the king. The king spake and said unto Daniel, Art thou that Daniel, who art of the children of the captivity of Judah, whom the king my father brought out of Judah?"
+    }
   },
   {
     "book": "DAN",
@@ -930,13 +1376,16 @@
     "book": "DAN",
     "chapter": 5,
     "verse": 16,
-    "content": "But I have heard of thee, that thou canst give interpretations, and dissolve doubts; now if thou canst read the writing, and make known to me the interpretation thereof, thou shalt be clothed with purple, and have a chain of gold about thy neck, and shalt be the third ruler in the kingdom."
+    "content": "But I have heard of thee, that thou canst give interpretations, and dissolve doubts: now if thou canst read the writing, and make known to me the interpretation thereof, thou shalt be clothed with purple, and have a chain of gold about thy neck, and shalt be the third ruler in the kingdom."
   },
   {
     "book": "DAN",
     "chapter": 5,
     "verse": 17,
-    "content": "Then Daniel answered and said before the king, Let thy gifts be to thyself, and give thy rewards to another; nevertheless I will read the writing unto the king, and make known to him the interpretation."
+    "content": {
+      "paragraph": true,
+      "text": "Then Daniel answered and said before the king, Let thy gifts be to thyself, and give thy rewards to another; nevertheless I will read the writing unto the king, and make known to him the interpretation."
+    }
   },
   {
     "book": "DAN",
@@ -984,13 +1433,30 @@
     "book": "DAN",
     "chapter": 5,
     "verse": 25,
-    "content": "And this is the writing that was inscribed: MENE, MENE, TEKEL, UPHARSIN."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And this is the writing that was inscribed: ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            {
+              "text": "Numbered, numbered, weighed, and divisions",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "MENE, MENE, TEKEL, UPHARSIN."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 5,
     "verse": 26,
-    "content": "This is the interpretation of the thing: MENE; God hath numbered thy kingdom, and brought it to an end;"
+    "content": "This is the interpretation of the thing: MENE; God hath numbered thy kingdom, and brought it to an end."
   },
   {
     "book": "DAN",
@@ -1002,19 +1468,33 @@
     "book": "DAN",
     "chapter": 5,
     "verse": 28,
-    "content": "PERES; thy kingdom is divided, and given to the Medes and Persians."
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "Divided", "marks": ["i"] }, "."]
+        }
+      },
+      "PERES; thy kingdom is divided, and given to the Medes and Persians."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 5,
     "verse": 29,
-    "content": "Then commanded Belshazzar, and they clothed Daniel with purple, and put a chain of gold about his neck, and made proclamation concerning him, that he should be the third ruler in the kingdom."
+    "content": {
+      "paragraph": true,
+      "text": "Then commanded Belshazzar, and they clothed Daniel with purple, and put a chain of gold about his neck, and made proclamation concerning him, that he should be the third ruler in the kingdom."
+    }
   },
   {
     "book": "DAN",
     "chapter": 5,
     "verse": 30,
-    "content": "In that night Belshazzar the Chaldean King was slain."
+    "content": {
+      "paragraph": true,
+      "text": "In that night Belshazzar the Chaldean king was slain."
+    }
   },
   {
     "book": "DAN",
@@ -1047,7 +1527,10 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 4,
-    "content": "Then the presidents and the satraps sought to find occasion against Daniel as touching the kingdom; but they could find no occasion nor fault, forasmuch as he was faithful, neither was there any error or fault found in him."
+    "content": {
+      "paragraph": true,
+      "text": "Then the presidents and the satraps sought to find occasion against Daniel as touching the kingdom; but they could find no occasion nor fault, forasmuch as he was faithful, neither was there any error or fault found in him."
+    }
   },
   {
     "book": "DAN",
@@ -1059,19 +1542,64 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 6,
-    "content": "Then these presidents and satraps assembled together to the king, and said thus unto him, King Darius, live for ever."
+    "content": [
+      {
+        "text": "Then these presidents and satraps ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "came tumultuously", "marks": ["i"] },
+            " (and so in verses ",
+            { "bibleLink": "Daniel 6:11", "content": "11" },
+            ", ",
+            { "bibleLink": "Daniel 6:15", "content": "15" },
+            ")"
+          ]
+        }
+      },
+      "assembled together to the king, and said thus unto him, King Darius, live for ever."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 6,
     "verse": 7,
-    "content": "All the presidents of the kingdom, the deputies and the satraps, the counsellors and the governors, have consulted together to establish a royal statute, and to make a strong interdict, that whosoever shall ask a petition of any god or man for thirty days, save of thee, O king, he shall be cast into the den of lions."
+    "content": [
+      {
+        "text": "All the presidents of the kingdom, the deputies and the satraps, the counsellors and the governors, have consulted together ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "that the king should establish a statute, and make etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "to establish a royal statute, and to make a strong interdict, that whosoever shall ask a petition of any god or man for thirty days, save of thee, O king, he shall be cast into the den of lions."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 6,
     "verse": 8,
-    "content": "Now, O king, establish the interdict, and sign the writing, that it be not changed, according to the law of the Medes and Persians, which altereth not."
+    "content": [
+      {
+        "text": "Now, O king, establish the interdict, and sign the writing, that it be not changed, according to the law of the Medes and Persians, which ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Aramaic ",
+            { "text": "passeth not away", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "altereth not."
+    ]
   },
   {
     "book": "DAN",
@@ -1083,7 +1611,10 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 10,
-    "content": "And when Daniel knew that the writing was signed, he went into his house (now his windows were open in his chamber toward Jerusalem) and he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime."
+    "content": {
+      "paragraph": true,
+      "text": "And when Daniel knew that the writing was signed, he went into his house (now his windows were open in his chamber toward Jerusalem); and he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime."
+    }
   },
   {
     "book": "DAN",
@@ -1095,7 +1626,20 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 12,
-    "content": "Then they came near, and spake before the king concerning the king’s interdict: Hast thou not signed an interdict, that every man that shall make petition unto any god or man within thirty days, save unto thee, O king, shall be cast into the den of lions? The king answered and said, The thing is true, according to the law of the Medes and Persians, which altereth not."
+    "content": [
+      {
+        "text": "Then they came near, and spake before the king concerning the king’s interdict: Hast thou not signed an interdict, that every man that shall make petition unto any god or man within thirty days, save unto thee, O king, shall be cast into the den of lions? The king answered and said, The thing is true, according to the law of the Medes and Persians, which ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Aramaic ",
+            { "text": "passeth not away", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "altereth not."
+    ]
   },
   {
     "book": "DAN",
@@ -1119,25 +1663,59 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 16,
-    "content": "Then the king commanded, and they brought Daniel, and cast him into the den of lions. Now the king spake and said unto Daniel, Thy God whom thou servest continually, he will deliver thee."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then the king commanded, and they brought Daniel, and cast him into the den of lions. "
+      },
+      { "text": "Now", "marks": ["i"] },
+      " the king spake and said unto Daniel, Thy God whom thou servest continually, he will deliver thee."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 6,
     "verse": 17,
-    "content": "And a stone was brought, and laid upon the mouth of the den; and the king sealed it with his own signet, and with the signet of his lords; that nothing might be changed concerning Daniel."
+    "content": [
+      {
+        "text": "And a stone was brought, and laid upon the mouth of the den; and the king sealed it with his own signet, and with the signet of his lords; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "that there might be no change of purpose",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "that nothing might be changed concerning Daniel."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 6,
     "verse": 18,
-    "content": "Then the king went to his palace, and passed the night fasting; neither were instruments of music brought before him: and his sleep fled from him."
+    "content": [
+      {
+        "text": "Then the king went to his palace, and passed the night fasting; neither were ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "dancing girls", "marks": ["i"] }]
+        }
+      },
+      "instruments of music brought before him: and his sleep fled from him."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 6,
     "verse": 19,
-    "content": "Then the king arose very early in the morning, and went in haste unto the den of lions."
+    "content": {
+      "paragraph": true,
+      "text": "Then the king arose very early in the morning, and went in haste unto the den of lions."
+    }
   },
   {
     "book": "DAN",
@@ -1167,13 +1745,19 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 24,
-    "content": "And the king commanded, and they brought those men that had accused Daniel, and they cast them into the den of lions, them, their children, and their wives; and the lions had the mastery of them, and brake all their bones in pieces, before they came to the bottom of the den."
+    "content": {
+      "paragraph": true,
+      "text": "And the king commanded, and they brought those men that had accused Daniel, and they cast them into the den of lions, them, their children, and their wives; and the lions had the mastery of them, and brake all their bones in pieces, before they came to the bottom of the den."
+    }
   },
   {
     "book": "DAN",
     "chapter": 6,
     "verse": 25,
-    "content": "Then king Darius wrote unto all the peoples, nations, and languages, that dwell in all the earth: Peace be multiplied unto you."
+    "content": {
+      "paragraph": true,
+      "text": "Then king Darius wrote unto all the peoples, nations, and languages, that dwell in all the earth: Peace be multiplied unto you."
+    }
   },
   {
     "book": "DAN",
@@ -1191,16 +1775,26 @@
     "book": "DAN",
     "chapter": 6,
     "verse": 28,
-    "content": "So this Daniel prospered in the reign of Darius, and in the reign of Cyrus the Persian."
+    "content": {
+      "paragraph": true,
+      "text": "So this Daniel prospered in the reign of Darius, and in the reign of Cyrus the Persian."
+    }
   },
   {
     "book": "DAN",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "In the first year of Belshazzar king of Babylon Daniel had a dream and visions of his head upon his bed: then he wrote the dream and told the sum of the matters."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In the first year of Belshazzar king of Babylon Daniel ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "saw", "marks": ["i"] }, "."]
+        }
+      },
+      "had a dream and visions of his head upon his bed: then he wrote the dream and told the sum of the matters."
+    ]
   },
   {
     "book": "DAN",
@@ -1224,7 +1818,19 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 5,
-    "content": "And, behold, another beast, a second, like to a bear; and it was raised up on one side, and three ribs were in its mouth between its teeth: and they said thus unto it, Arise, devour much flesh."
+    "content": [
+      {
+        "text": "And, behold, another beast, a second, like to a bear; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            { "text": "it raised up one dominion", "marks": ["i"] }
+          ]
+        }
+      },
+      "it was raised up on one side, and three ribs were in its mouth between its teeth: and they said thus unto it, Arise, devour much flesh."
+    ]
   },
   {
     "book": "DAN",
@@ -1236,7 +1842,16 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 7,
-    "content": "After this I saw in the night-visions, and, behold, a fourth beast, terrible and powerful, and strong exceedingly; and it had great iron teeth; it devoured and brake in pieces, and stamped the residue with its feet: and it was diverse from all the beasts that were before it; and it had ten horns."
+    "content": [
+      {
+        "text": "After this I saw in the night-visions, and, behold, a fourth beast, terrible and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "dreadful", "marks": ["i"] }]
+        }
+      },
+      "powerful, and strong exceedingly; and it had great iron teeth; it devoured and brake in pieces, and stamped the residue with its feet: and it was diverse from all the beasts that were before it; and it had ten horns."
+    ]
   },
   {
     "book": "DAN",
@@ -1248,7 +1863,19 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 9,
-    "content": "I beheld till thrones were placed, and one that was ancient of days did sit: his raiment was white as snow, and the hair of his head like pure wool; his throne was fiery flames, and the wheels thereof burning fire."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I beheld till thrones were ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cast down", "marks": ["i"] }]
+        }
+      },
+      "placed, and one that was ancient of days did sit: his raiment was white as snow, and the hair of his head like pure wool; his throne was fiery flames, ",
+      { "text": "and", "marks": ["i"] },
+      " the wheels thereof burning fire."
+    ]
   },
   {
     "book": "DAN",
@@ -1260,7 +1887,20 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 11,
-    "content": "I beheld at that time because of the voice of the great words which the horn spake; I beheld even till the beast was slain, and its body destroyed, and it was given to be burned with fire."
+    "content": [
+      {
+        "text": "I beheld at that time because of the voice of the great words which the horn spake; I beheld even till the beast was slain, and its body destroyed, and it was given ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Aramaic ",
+            { "text": "to the burning of fire", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "to be burned with fire."
+    ]
   },
   {
     "book": "DAN",
@@ -1272,7 +1912,10 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 13,
-    "content": "I saw in the night-visions, and, behold, there came with the clouds of heaven one like unto a son of man, and he came even to the ancient of days, and they brought him near before him."
+    "content": {
+      "paragraph": true,
+      "text": "I saw in the night-visions, and, behold, there came with the clouds of heaven one like unto a son of man, and he came even to the ancient of days, and they brought him near before him."
+    }
   },
   {
     "book": "DAN",
@@ -1284,7 +1927,17 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 15,
-    "content": "As for me, Daniel, my spirit was grieved in the midst of my body, and the visions of my head troubled me."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "As for me, Daniel, my spirit was grieved in the midst of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "the sheath", "marks": ["i"] }, "."]
+        }
+      },
+      "my body, and the visions of my head troubled me."
+    ]
   },
   {
     "book": "DAN",
@@ -1314,7 +1967,11 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 20,
-    "content": "and concerning the ten horns that were on its head, and the other horn which came up, and before which three fell, even that horn that had eyes, and a mouth that spake great things, whose look was more stout than its fellows."
+    "content": [
+      "and concerning the ten horns that were on its head, and the other ",
+      { "text": "horn", "marks": ["i"] },
+      " which came up, and before which three fell, even that horn that had eyes, and a mouth that spake great things, whose look was more stout than its fellows."
+    ]
   },
   {
     "book": "DAN",
@@ -1326,13 +1983,32 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 22,
-    "content": "until the ancient of days came, and judgment was given to the saints of the Most High, and the time came that the saints possessed the kingdom."
+    "content": [
+      {
+        "text": "until the ancient of days came, and judgment was given ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "for", "marks": ["i"] }]
+        }
+      },
+      "to the saints of the Most High, and the time came that the saints possessed the kingdom."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 7,
     "verse": 23,
-    "content": "Thus he said, The fourth beast shall be a fourth kingdom upon earth, which shall be diverse from all the kingdoms, and shall devour the whole earth, and shall tread it down, and break it in pieces."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus he said, The fourth beast shall be a fourth kingdom upon earth, which shall be diverse from all the kingdoms, and shall devour the whole earth, and shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thresh it", "marks": ["i"] }]
+        }
+      },
+      "tread it down, and break it in pieces."
+    ]
   },
   {
     "book": "DAN",
@@ -1362,7 +2038,22 @@
     "book": "DAN",
     "chapter": 7,
     "verse": 28,
-    "content": "Here is the end of the matter. As for me, Daniel, my thoughts much troubled me, and my countenance was changed in me: but I kept the matter in my heart."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "Hitherto", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Here is the end of the matter. As for me, Daniel, my thoughts much troubled me, and my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "brightness", "marks": ["i"] }, "."]
+        }
+      },
+      "countenance was changed in me: but I kept the matter in my heart."
+    ]
   },
   {
     "book": "DAN",
@@ -1377,7 +2068,16 @@
     "book": "DAN",
     "chapter": 8,
     "verse": 2,
-    "content": "And I saw in the vision; now it was so, that when I saw, I was in Shushan the palace, which is in the province of Elam; and I saw in the vision, and I was by the river Ulai."
+    "content": [
+      {
+        "text": "And I saw in the vision; now it was so, that when I saw, I was in Shushan the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "castle", "marks": ["i"] }]
+        }
+      },
+      "palace, which is in the province of Elam; and I saw in the vision, and I was by the river Ulai."
+    ]
   },
   {
     "book": "DAN",
@@ -1395,7 +2095,21 @@
     "book": "DAN",
     "chapter": 8,
     "verse": 5,
-    "content": "And as I was considering, behold, a he-goat came from the west over the face of the whole earth, and touched not the ground: and the goat had a notable horn between his eyes."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And as I was considering, behold, a he-goat came from the west over the face of the whole earth, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "none touched the ground", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "touched not the ground: and the goat had a notable horn between his eyes."
+    ]
   },
   {
     "book": "DAN",
@@ -1413,13 +2127,24 @@
     "book": "DAN",
     "chapter": 8,
     "verse": 8,
-    "content": "And the he-goat magnified himself exceedingly: and when he was strong, the great horn was broken; and instead of it there came up four notable horns toward the four winds of heaven."
+    "content": [
+      "And the he-goat magnified himself exceedingly: and when he was strong, the great horn was broken; and instead of it there came up four notable ",
+      { "text": "horns", "marks": ["i"] },
+      " toward the four winds of heaven."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 9,
-    "content": "And out of one of them came forth a little horn, which waxed exceeding great, toward the south, and toward the east, and toward the glorious land."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And out of one of them came forth a little horn, which waxed exceeding great, toward the south, and toward the east, and toward the glorious "
+      },
+      { "text": "land", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "DAN",
@@ -1431,37 +2156,111 @@
     "book": "DAN",
     "chapter": 8,
     "verse": 11,
-    "content": "Yea, it magnified itself, even to the prince of the host; and it took away from him the continual burnt-offering, and the place of his sanctuary was cast down."
+    "content": [
+      {
+        "text": "Yea, it magnified itself, even to the prince of the host; and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "the continual", "marks": ["i"] },
+            " burnt-offering ",
+            { "text": "was taken away from him", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "it took away from him the continual ",
+      { "text": "burnt-offering", "marks": ["i"] },
+      ", and the place of his sanctuary was cast down."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 12,
-    "content": "And the host was given over to it together with the continual burnt-offering through transgression; and it cast down truth to the ground, and it did its pleasure and prospered."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "a host was given", "marks": ["i"] },
+            " to it ",
+            { "text": "against the etc.", "marks": ["i"] },
+            " Or, ",
+            { "text": "a host was set over the etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "the host was given over ",
+      { "text": "to it", "marks": ["i"] },
+      " together with the continual ",
+      { "text": "burnt-offering", "marks": ["i"] },
+      " through transgression; and it cast down truth to the ground, and it did ",
+      { "text": "its pleasure", "marks": ["i"] },
+      " and prospered."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 13,
-    "content": "Then I heard a holy one speaking; and another holy one said unto that certain one who spake, How long shall be the vision concerning the continual burnt-offering, and the transgression that maketh desolate, to give both the sanctuary and the host to be trodden under foot?"
+    "content": [
+      "Then I heard a holy one speaking; and another holy one said unto that certain one who spake, How long shall be the vision ",
+      { "text": "concerning", "marks": ["i"] },
+      " the continual ",
+      { "text": "burnt-offering", "marks": ["i"] },
+      ", and the transgression that maketh desolate, to give both the sanctuary and the host to be trodden under foot?"
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 14,
-    "content": "And he said unto me, Unto two thousand and three hundred evenings and mornings; then shall the sanctuary be cleansed."
+    "content": [
+      "And he said unto me, Unto two thousand and three hundred evenings ",
+      { "text": "and", "marks": ["i"] },
+      {
+        "text": " mornings; then shall the sanctuary be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "justified", "marks": ["i"] }, "."]
+        }
+      },
+      "cleansed."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 15,
-    "content": "And it came to pass, when I, even I Daniel, had seen the vision, that I sought to understand it; and, behold, there stood before me as the appearance of a man."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass, when I, even I Daniel, had seen the vision, that I sought ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "understanding", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "to understand it; and, behold, there stood before me as the appearance of a man."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 16,
-    "content": "And I heard a man’s voice between the banks of the Ulai, which called, and said, Gabriel, make this man to understand the vision."
+    "content": [
+      "And I heard a man’s voice between ",
+      { "text": "the banks of", "marks": ["i"] },
+      " the Ulai, which called, and said, Gabriel, make this man to understand the vision."
+    ]
   },
   {
     "book": "DAN",
@@ -1473,7 +2272,16 @@
     "book": "DAN",
     "chapter": 8,
     "verse": 18,
-    "content": "Now as he was speaking with me, I fell into a deep sleep with my face toward the ground; but he touched me, and set me upright."
+    "content": [
+      {
+        "text": "Now as he was speaking with me, I fell into a deep sleep with my face toward the ground; but he touched me, and set me ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "where I had stood", "marks": ["i"] }]
+        }
+      },
+      "upright."
+    ]
   },
   {
     "book": "DAN",
@@ -1491,7 +2299,16 @@
     "book": "DAN",
     "chapter": 8,
     "verse": 21,
-    "content": "And the rough he-goat is the king of Greece: and the great horn that is between his eyes is the first king."
+    "content": [
+      {
+        "text": "And the rough he-goat is the king of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Javan", "marks": ["i"] }, "."]
+        }
+      },
+      "Greece: and the great horn that is between his eyes is the first king."
+    ]
   },
   {
     "book": "DAN",
@@ -1509,25 +2326,97 @@
     "book": "DAN",
     "chapter": 8,
     "verse": 24,
-    "content": "And his power shall be mighty, but not by his own power; and he shall destroy wonderfully, and shall prosper and do his pleasure; and he shall destroy the mighty ones and the holy people."
+    "content": [
+      {
+        "text": "And his power shall be mighty, but not ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "with his power", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Daniel 8:22", "content": "verse 22" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "by his own power; and he shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "corrupt", "marks": ["i"] }]
+        }
+      },
+      "destroy wonderfully, and shall prosper and do ",
+      { "text": "his pleasure", "marks": ["i"] },
+      {
+        "text": "; and he shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "corrupt", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "destroy the mighty ones and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "people of the saints", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the holy people."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 25,
-    "content": "And through his policy he shall cause craft to prosper in his hand; and he shall magnify himself in his heart, and in their security shall he destroy many: he shall also stand up against the prince of princes; but he shall be broken without hand."
+    "content": [
+      "And through his policy he shall cause craft to prosper in his hand; and he shall magnify himself in his heart, and in ",
+      { "text": "their", "marks": ["i"] },
+      {
+        "text": " security shall he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "corrupt", "marks": ["i"] }]
+        }
+      },
+      "destroy many: he shall also stand up against the prince of princes; but he shall be broken without hand."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 26,
-    "content": "And the vision of the evenings and mornings which hath been told is true: but shut thou up the vision; for it belongeth to many days to come."
+    "content": [
+      "And the vision of the evenings and mornings which hath been told is true: but shut thou up the vision; for it belongeth to many days ",
+      { "text": "to come", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 8,
     "verse": 27,
-    "content": "And I, Daniel, fainted, and was sick certain days; then I rose up, and did the king’s business: and I wondered at the vision, but none understood it."
+    "content": [
+      {
+        "text": "And I, Daniel, fainted, and was sick certain days; then I rose up, and did the king’s business: and I wondered at the vision, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "but there was none to make it understood",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "but none understood it."
+    ]
   },
   {
     "book": "DAN",
@@ -1548,7 +2437,20 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 3,
-    "content": "And I set my face unto the Lord God, to seek by prayer and supplications, with fasting and sackcloth and ashes."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And I set my face unto the Lord God, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "to seek after prayer etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "to seek by prayer and supplications, with fasting and sackcloth and ashes."
+    ]
   },
   {
     "book": "DAN",
@@ -1584,7 +2486,16 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 9,
-    "content": "To the Lord our God belong mercies and forgiveness; for we have rebelled against him;"
+    "content": [
+      {
+        "text": "To the Lord our God belong mercies and forgiveness; ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "though", "marks": ["i"] }]
+        }
+      },
+      "for we have rebelled against him;"
+    ]
   },
   {
     "book": "DAN",
@@ -1608,7 +2519,16 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 13,
-    "content": "As it is written in the law of Moses, all this evil is come upon us: yet have we not entreated the favor of Jehovah our God, that we should turn from our iniquities, and have discernment in thy truth."
+    "content": [
+      {
+        "text": "As it is written in the law of Moses, all this evil is come upon us: yet have we not entreated the favor of Jehovah our God, that we should turn from our iniquities, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deal wisely", "marks": ["i"] }]
+        }
+      },
+      "have discernment in thy truth."
+    ]
   },
   {
     "book": "DAN",
@@ -1626,7 +2546,20 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 16,
-    "content": "O Lord, according to all thy righteousness, let thine anger and thy wrath, I pray thee, be turned away from thy city Jerusalem, thy holy mountain; because for our sins, and for the iniquities of our fathers, Jerusalem and thy people are become a reproach to all that are round about us."
+    "content": [
+      {
+        "text": "O Lord, according to all thy ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "righteousnesses", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "righteousness, let thine anger and thy wrath, I pray thee, be turned away from thy city Jerusalem, thy holy mountain; because for our sins, and for the iniquities of our fathers, Jerusalem and thy people are become a reproach to all that are round about us."
+    ]
   },
   {
     "book": "DAN",
@@ -1638,7 +2571,20 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 18,
-    "content": "O my God, incline thine ear, and hear; open thine eyes, and behold our desolations, and the city which is called by thy name: for we do not present our supplications before thee for our righteousness, but for thy great mercies’ sake."
+    "content": [
+      {
+        "text": "O my God, incline thine ear, and hear; open thine eyes, and behold our desolations, and the city which is called by thy name: for we do not ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "cause to fall", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "present our supplications before thee for our righteousnesses, but for thy great mercies’ sake."
+    ]
   },
   {
     "book": "DAN",
@@ -1650,49 +2596,203 @@
     "book": "DAN",
     "chapter": 9,
     "verse": 20,
-    "content": "And while I was speaking, and praying, and confessing my sin and the sin of my people Israel, and presenting my supplication before Jehovah my God for the holy mountain of my God;"
+    "content": {
+      "paragraph": true,
+      "text": "And while I was speaking, and praying, and confessing my sin and the sin of my people Israel, and presenting my supplication before Jehovah my God for the holy mountain of my God;"
+    }
   },
   {
     "book": "DAN",
     "chapter": 9,
     "verse": 21,
-    "content": "yea, while I was speaking in prayer, the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, touched me about the time of the evening oblation."
+    "content": [
+      {
+        "text": "yea, while I was speaking in prayer, the man Gabriel, whom I had seen in the vision at the beginning, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "being sore wearied", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "being caused to fly swiftly, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "came near unto me", "marks": ["i"] }]
+        }
+      },
+      "touched me about the time of the evening oblation."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 9,
     "verse": 22,
-    "content": "And he instructed me, and talked with me, and said, O Daniel, I am now come forth to give thee wisdom and understanding."
+    "content": [
+      {
+        "text": "And he ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "made me to understand", "marks": ["i"] }
+          ]
+        }
+      },
+      "instructed me, and talked with me, and said, O Daniel, I am now come forth to give thee wisdom and understanding."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 9,
     "verse": 23,
-    "content": "At the beginning of thy supplications the commandment went forth, and I am come to tell thee; for thou art greatly beloved: therefore consider the matter, and understand the vision."
+    "content": [
+      {
+        "text": "At the beginning of thy supplications the commandment went forth, and I am come to tell thee; for thou art ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "very precious", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "precious things", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "greatly beloved: therefore consider the matter, and understand the vision."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 9,
     "verse": 24,
-    "content": "Seventy weeks are decreed upon thy people and upon thy holy city, to finish transgression, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up vision and prophecy, and to anoint the most holy."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Seventy weeks are decreed upon thy people and upon thy holy city, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to restrain", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "to finish ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the transgression", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "transgression, and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "to seal up", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "to make an end of sins, and to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "purge away", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up vision and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "prophet", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "prophecy, and to anoint ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a most holy place", "marks": ["i"] }]
+        }
+      },
+      "the most holy."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 9,
     "verse": 25,
-    "content": "Know therefore and discern, that from the going forth of the commandment to restore and to build Jerusalem unto the anointed one, the prince, shall be seven weeks, and threescore and two weeks: it shall be built again, with street and moat, even in troublous times."
+    "content": [
+      {
+        "text": "Know therefore and discern, that from the going forth of the commandment to restore and to build Jerusalem unto ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Messiah", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "the anointed one, the prince, shall be ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "seven weeks: and threescore and two weeks, it shall be etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "seven weeks, and threescore and two weeks: it shall be built again, with street and moat, even in troublous times."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 9,
     "verse": 26,
-    "content": "And after the threescore and two weeks shall the anointed one be cut off, and shall have nothing: and the people of the prince that shall come shall destroy the city and the sanctuary; and the end thereof shall be with a flood, and even unto the end shall be war; desolations are determined."
+    "content": [
+      {
+        "text": "And after the threescore and two weeks shall the anointed one be cut off, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "there shall be none belonging to him", "marks": ["i"] }
+          ]
+        }
+      },
+      "shall have nothing: and the people of the prince that shall come shall destroy the city and the sanctuary; and the end thereof shall be with a flood, and even unto the end shall be war; desolations are determined."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 9,
     "verse": 27,
-    "content": "And he shall make a firm covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the oblation to cease; and upon the wing of abominations shall come one that maketh desolate; and even unto the full end, and that determined, shall wrath be poured out upon the desolate."
+    "content": [
+      {
+        "text": "And he shall make a firm covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "meal-offering", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "oblation to cease; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "upon the pinnacle of abominations", "marks": ["i"] },
+            " shall be ",
+            { "text": "etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "upon the wing of abominations ",
+      { "text": "shall come", "marks": ["i"] },
+      " one that maketh desolate; and even unto the full end, and that determined, shall ",
+      { "text": "wrath", "marks": ["i"] },
+      " be poured out upon the desolate."
+    ]
   },
   {
     "book": "DAN",
@@ -1719,7 +2819,16 @@
     "book": "DAN",
     "chapter": 10,
     "verse": 4,
-    "content": "And in the four and twentieth day of the first month, as I was by the side of the great river, which is Hiddekel,"
+    "content": [
+      {
+        "text": "And in the four and twentieth day of the first month, as I was by the side of the great river, which is ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "Tigris", "marks": ["i"] }, "."]
+        }
+      },
+      "Hiddekel,"
+    ]
   },
   {
     "book": "DAN",
@@ -1755,7 +2864,20 @@
     "book": "DAN",
     "chapter": 10,
     "verse": 10,
-    "content": "And, behold, a hand touched me, which set me upon my knees and upon the palms of my hands."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And, behold, a hand touched me, which ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "set me tottering upon etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "set me upon my knees and upon the palms of my hands."
+    ]
   },
   {
     "book": "DAN",
@@ -1773,19 +2895,32 @@
     "book": "DAN",
     "chapter": 10,
     "verse": 13,
-    "content": "But the prince of the kingdom of Persia withstood me one and twenty days; but, lo, Michael, one of the chief princes, came to help me: and I remained there with the kings of Persia."
+    "content": [
+      {
+        "text": "But the prince of the kingdom of Persia withstood me one and twenty days; but, lo, Michael, one of the chief princes, came to help me: and I ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "was not needed", "marks": ["i"] }]
+        }
+      },
+      "remained there with the kings of Persia."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 10,
     "verse": 14,
-    "content": "Now I am come to make thee understand what shall befall thy people in the latter days; for the vision is yet for many days:"
+    "content": [
+      "Now I am come to make thee understand what shall befall thy people in the latter days; for the vision is yet for ",
+      { "text": "many", "marks": ["i"] },
+      " days."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 10,
     "verse": 15,
-    "content": "and when he had spoken unto me according to these words, I set my face toward the ground, and was dumb."
+    "content": "And when he had spoken unto me according to these words, I set my face toward the ground, and was dumb."
   },
   {
     "book": "DAN",
@@ -1803,7 +2938,10 @@
     "book": "DAN",
     "chapter": 10,
     "verse": 18,
-    "content": "Then there touched me again one like the appearance of a man, and he strengthened me."
+    "content": {
+      "paragraph": true,
+      "text": "Then there touched me again one like the appearance of a man, and he strengthened me."
+    }
   },
   {
     "book": "DAN",
@@ -1815,13 +2953,45 @@
     "book": "DAN",
     "chapter": 10,
     "verse": 20,
-    "content": "Then said he, Knowest thou wherefore I am come unto thee? and now will I return to fight with the prince of Persia: and when I go forth, lo, the prince of Greece shall come."
+    "content": [
+      {
+        "text": "Then said he, Knowest thou wherefore I am come unto thee? and now will I return to fight with the prince of Persia: and when I go forth, lo, the prince of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Javan", "marks": ["i"] }, "."]
+        }
+      },
+      "Greece shall come."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 10,
     "verse": 21,
-    "content": "But I will tell thee that which is inscribed in the writing of truth: and there is none that holdeth with me against these, but Michael your prince."
+    "content": [
+      {
+        "text": "But I will tell thee that which is inscribed in the writing of truth: and there is none that ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "strengtheneth himself", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "holdeth with me ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "concerning these things", "marks": ["i"] }
+          ]
+        }
+      },
+      "against these, but Michael your prince."
+    ]
   },
   {
     "book": "DAN",
@@ -1836,7 +3006,27 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 2,
-    "content": "And now will I show thee the truth. Behold, there shall stand up yet three kings in Persia; and the fourth shall be far richer than they all: and when he is waxed strong through his riches, he shall stir up all against the realm of Greece."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And now will I show thee the truth. Behold, there shall stand up yet three kings in Persia; and the fourth shall be far richer than they all: and when he is waxed strong through his riches, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "all this shall stir up the realm", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "he shall stir up all against the realm of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Javan", "marks": ["i"] }, "."]
+        }
+      },
+      "Greece."
+    ]
   },
   {
     "book": "DAN",
@@ -1854,25 +3044,92 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 5,
-    "content": "And the king of the south shall be strong, and one of his princes; and he shall be strong above him, and have dominion; his dominion shall be a great dominion."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the king of the south ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "shall be strong; but", "marks": ["i"] },
+            " one ",
+            { "text": "of his princes shall be etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "shall be strong, and ",
+      { "text": "one", "marks": ["i"] },
+      " of his princes; and he shall be strong above him, and have dominion; his dominion shall be a great dominion."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 6,
-    "content": "And at the end of years they shall join themselves together; and the daughter of the king of the south shall come to the king of the north to make an agreement: but she shall not retain the strength of her arm; neither shall he stand, nor his arm; but she shall be given up, and they that brought her, and he that begat her, and he that strengthened her in those times."
+    "content": [
+      {
+        "text": "And at the end of years they shall join themselves together; and the daughter of the king of the south shall come to the king of the north to make ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "equitable conditions", "marks": ["i"] }
+          ]
+        }
+      },
+      "an agreement: but she shall not retain the strength of her arm; neither shall he stand, nor his arm; but she shall be given up, and they that brought her, and he that begat her, and he that strengthened her in those times."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 7,
-    "content": "But out of a shoot from her roots shall one stand up in his place, who shall come unto the army, and shall enter into the fortress of the king of the north, and shall deal against them, and shall prevail."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But out of a shoot from her roots shall one stand up in his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "office", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "place, who shall come ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "against", "marks": ["i"] }]
+        }
+      },
+      "unto the army, and shall enter into the fortress of the king of the north, and shall deal against them, and shall prevail."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 8,
-    "content": "And also their gods, with their molten images, and with their goodly vessels of silver and of gold, shall he carry captive into Egypt; and he shall refrain some years from the king of the north."
+    "content": [
+      {
+        "text": "And also their gods, with their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "princes", "marks": ["i"] }]
+        }
+      },
+      "molten images, ",
+      { "text": "and", "marks": ["i"] },
+      {
+        "text": " with their goodly vessels of silver and of gold, shall he carry captive into Egypt; and he shall ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "continue more years than etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "refrain some years from the king of the north."
+    ]
   },
   {
     "book": "DAN",
@@ -1884,7 +3141,24 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 10,
-    "content": "And his sons shall war, and shall assemble a multitude of great forces, which shall come on, and overflow, and pass through; and they shall return and war, even to his fortress."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And his sons shall war, and shall assemble a multitude of great forces, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "and he", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "which shall come on, and overflow, and pass through; and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "he", "marks": ["i"] }]
+        }
+      },
+      "they shall return and war, even to his fortress."
+    ]
   },
   {
     "book": "DAN",
@@ -1896,13 +3170,31 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 12,
-    "content": "And the multitude shall be lifted up, and his heart shall be exalted; and he shall cast down tens of thousands, but he shall not prevail."
+    "content": [
+      {
+        "text": "And the multitude shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "be carried away", "marks": ["i"] }]
+        }
+      },
+      "be lifted up, and his heart shall be exalted; and he shall cast down tens of thousands, but he shall not prevail."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 13,
-    "content": "And the king of the north shall return, and shall set forth a multitude greater than the former; and he shall come on at the end of the times, even of years, with a great army and with much substance."
+    "content": [
+      "And the king of the north shall return, and shall set forth a multitude greater than the former; and he shall come on at the end of the times, ",
+      {
+        "text": "even ",
+        "marks": ["i"],
+        "foot": { "type": "trn", "content": "Or, for" }
+      },
+      { "text": "of", "marks": ["i"] },
+      " years, with a great army and with much substance."
+    ]
   },
   {
     "book": "DAN",
@@ -1914,7 +3206,19 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 15,
-    "content": "So the king of the north shall come, and cast up a mound, and take a well-fortified city: and the forces of the south shall not stand, neither his chosen people, neither shall there be any strength to stand."
+    "content": [
+      {
+        "text": "So the king of the north shall come, and cast up a mound, and take ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the fortified cities", "marks": ["i"] }
+          ]
+        }
+      },
+      "a well-fortified city: and the forces of the south shall not stand, neither his chosen people, neither shall there be any strength to stand."
+    ]
   },
   {
     "book": "DAN",
@@ -1926,13 +3230,52 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 17,
-    "content": "And he shall set his face to come with the strength of his whole kingdom, and with him equitable conditions; and he shall perform them: and he shall give him the daughter of women, to corrupt her; but she shall not stand, neither be for him."
+    "content": [
+      {
+        "text": "And he shall set his face to come with the strength of his whole kingdom, and with him ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upright ones", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "equitable conditions; and he shall perform them: and he shall give him the daughter of women, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to destroy it", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "to corrupt her; but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it", "marks": ["i"] }]
+        }
+      },
+      "she shall not stand, neither be for him."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 18,
-    "content": "After this shall he turn his face unto the isles, and shall take many: but a prince shall cause the reproach offered by him to cease; yea, moreover, he shall cause his reproach to turn upon him."
+    "content": [
+      {
+        "text": "After this shall he turn his face unto the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "coast-lands", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "isles, and shall take many: but a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "captain", "marks": ["i"] }]
+        }
+      },
+      "prince shall cause the reproach offered by him to cease; yea, moreover, he shall cause his reproach to turn upon him."
+    ]
   },
   {
     "book": "DAN",
@@ -1944,19 +3287,47 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 20,
-    "content": "Then shall stand up in his place one that shall cause an exactor to pass through the glory of the kingdom; but within few days he shall be destroyed, neither in anger, nor in battle."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then shall stand up in his place one that shall cause an exactor to pass through the glory of the kingdom; but within few days he shall be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "broken", "marks": ["i"] }, "."]
+        }
+      },
+      "destroyed, neither in anger, nor in battle."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 21,
-    "content": "And in his place shall stand up a contemptible person, to whom they had not given the honor of the kingdom: but he shall come in time of security, and shall obtain the kingdom by flatteries."
+    "content": [
+      {
+        "text": "And in his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "office", "marks": ["i"] }]
+        }
+      },
+      "place shall stand up a contemptible person, to whom they had not given the honor of the kingdom: but he shall come in time of security, and shall obtain the kingdom by flatteries."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 22,
-    "content": "And the overwhelming forces shall be overwhelmed from before him, and shall be broken; yea, also the prince of the covenant."
+    "content": [
+      {
+        "text": "And the overwhelming forces shall be overwhelmed from before him, and shall be broken; yea, also the prince of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, his ", { "text": "covenant", "marks": ["i"] }]
+        }
+      },
+      "the covenant."
+    ]
   },
   {
     "book": "DAN",
@@ -1974,13 +3345,22 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 25,
-    "content": "And he shall stir up his power and his courge against the king of the south with a great army; and the king of the south shall war in battle with an exceeding great and mighty army; but he shall not stand; for they shall devise devices against him."
+    "content": "And he shall stir up his power and his courage against the king of the south with a great army; and the king of the south shall war in battle with an exceeding great and mighty army; but he shall not stand; for they shall devise devices against him."
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 26,
-    "content": "Yea, they that eat of his dainties shall destroy him, and his army shall overflow; and many shall fall down slain."
+    "content": [
+      {
+        "text": "Yea, they that eat of his dainties shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "break", "marks": ["i"] }, "."]
+        }
+      },
+      "destroy him, and his army shall overflow; and many shall fall down slain."
+    ]
   },
   {
     "book": "DAN",
@@ -1992,7 +3372,16 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 28,
-    "content": "Then shall he return into his land with great substance; and his heart shall be against the holy covenant; and he shall do his pleasure, and return to his own land."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then shall he return into his land with great substance; and his heart "
+      },
+      { "text": "shall be", "marks": ["i"] },
+      " against the holy covenant; and he shall do ",
+      { "text": "his pleasure", "marks": ["i"] },
+      ", and return to his own land."
+    ]
   },
   {
     "book": "DAN",
@@ -2004,25 +3393,62 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 30,
-    "content": "For ships of Kittim shall come against him; therefore he shall be grieved, and shall return, and have indignation against the holy covenant, and shall do his pleasure: he shall even return, and have regard unto them that forsake the holy covenant."
+    "content": [
+      "For ships of Kittim shall come against him; therefore he shall be grieved, and shall return, and have indignation against the holy covenant, and shall do ",
+      { "text": "his pleasure", "marks": ["i"] },
+      ": he shall even return, and have regard unto them that forsake the holy covenant."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 31,
-    "content": "And forces shall stand on his part, and they shall profane the sanctuary, even the fortress, and shall take away the continual burnt-offering, and they shall set up the abomination that maketh desolate."
+    "content": [
+      "And forces shall stand on his part, and they shall profane the sanctuary, even the fortress, and shall take away the continual ",
+      { "text": "burnt-offering", "marks": ["i"] },
+      ", and they shall set up the abomination that maketh desolate."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 32,
-    "content": "And such as do wickedly against the covenant shall he pervert by flatteries; but the people that know their God shall be strong, and do exploits."
+    "content": [
+      {
+        "text": "And such as do wickedly against the covenant shall he ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "make profane", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "pervert by flatteries; but the people that know their God shall be strong, and do ",
+      { "text": "exploits", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 33,
-    "content": "And they that are wise among the people shall instruct many; yet they shall fall by the sword and by flame, by captivity and by spoil, many days."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the teachers of the people", "marks": ["i"] }
+          ]
+        }
+      },
+      "they that are wise among the people shall instruct many; yet they shall fall by the sword and by flame, by captivity and by spoil, ",
+      { "text": "many", "marks": ["i"] },
+      " days."
+    ]
   },
   {
     "book": "DAN",
@@ -2034,13 +3460,25 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 35,
-    "content": "And some of them that are wise shall fall, to refine them, and to purify, and to make them white, even to the time of the end; because it is yet for the time appointed."
+    "content": [
+      {
+        "text": "And some of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the teachers", "marks": ["i"] }]
+        }
+      },
+      "them that are wise shall fall, to refine them, and to purify, and to make them white, even to the time of the end; because it is yet for the time appointed."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 36,
-    "content": "And the king shall do according to his will; and he shall exalt himself, and magnify himself above every god, and shall speak marvellous things against the God of gods; and he shall prosper till the indignation be accomplished; for that which is determined shall be done."
+    "content": {
+      "paragraph": true,
+      "text": "And the king shall do according to his will; and he shall exalt himself, and magnify himself above every god, and shall speak marvellous things against the God of gods; and he shall prosper till the indignation be accomplished; for that which is determined shall be done."
+    }
   },
   {
     "book": "DAN",
@@ -2052,25 +3490,74 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 38,
-    "content": "But in his place shall he honor the god of fortresses; and a god whom his fathers knew not shall he honor with gold, and silver, and with precious stones, and pleasant things."
+    "content": [
+      {
+        "text": "But in his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "office", "marks": ["i"] }]
+        }
+      },
+      "place shall he honor the god of fortresses; and a god whom his fathers knew not shall he honor with gold, and silver, and with precious stones and pleasant things."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 39,
-    "content": "And he shall deal with the strongest fortresses by the help of a foreign god: whosoever acknowledgeth him he will increase with glory; and he shall cause them to rule over many, and shall divide the land for a price."
+    "content": [
+      {
+        "text": "And he shall deal with the strongest fortresses by the help of a foreign god: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "whom he shall acknowledge", "marks": ["i"] },
+            " and ",
+            { "text": "increase with glory", "marks": ["i"] }
+          ]
+        }
+      },
+      "whosoever acknowledgeth ",
+      {
+        "text": "him",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "shall increase glory", "marks": ["i"] }
+          ]
+        }
+      },
+      " he will increase with glory; and he shall cause them to rule over many, and shall divide the land for a price."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 40,
-    "content": "And at the time of the end shall the king of the south contend with him; and the king of the north shall come against him like a whirlwind, with chariots, and with horsemen, and with many ships; and he shall enter into the countries, and shall overflow and pass through."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And at the time of the end shall the king of the south ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "push at", "marks": ["i"] }, "."]
+        }
+      },
+      "contend with him; and the king of the north shall come against him like a whirlwind, with chariots, and with horsemen, and with many ships; and he shall enter into the countries, and shall overflow and pass through."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 41,
-    "content": "He shall enter also into the glorious land, and many countries shall be overthrown; but these shall be delivered out of his hand: Edom, and Moab, and the chief of the children of Ammon."
+    "content": [
+      "He shall enter also into the glorious land, and many ",
+      { "text": "countries", "marks": ["i"] },
+      " shall be overthrown; but these shall be delivered out of his hand: Edom, and Moab, and the chief of the children of Ammon."
+    ]
   },
   {
     "book": "DAN",
@@ -2088,13 +3575,35 @@
     "book": "DAN",
     "chapter": 11,
     "verse": 44,
-    "content": "But tidings out of the east and out of the north shall trouble him; and he shall go forth with great fury to destroy and utterly to sweep away many."
+    "content": [
+      {
+        "text": "But tidings out of the east and out of the north shall trouble him; and he shall go forth with great fury to destroy and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "to devote many", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "utterly to sweep away many."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 11,
     "verse": 45,
-    "content": "And he shall plant the tents of his palace between the sea and the glorious holy mountain; yet he shall come to his end, and none shall help him."
+    "content": [
+      {
+        "text": "And he shall plant the tents of his palace ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "between the seas at", "marks": ["i"] }]
+        }
+      },
+      "between the sea and the glorious holy mountain; yet he shall come to his end, and none shall help him."
+    ]
   },
   {
     "book": "DAN",
@@ -2109,13 +3618,31 @@
     "book": "DAN",
     "chapter": 12,
     "verse": 2,
-    "content": "And many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt."
+    "content": [
+      {
+        "text": "And many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "abhorrence", "marks": ["i"] }]
+        }
+      },
+      "contempt."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 12,
     "verse": 3,
-    "content": "And they that are wise shall shine as the brightness of the firmament; and they that turn many to righteousness as the stars for ever and ever."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the teachers", "marks": ["i"] }]
+        }
+      },
+      "they that are wise shall shine as the brightness of the firmament; and they that turn many to righteousness as the stars for ever and ever."
+    ]
   },
   {
     "book": "DAN",
@@ -2127,7 +3654,10 @@
     "book": "DAN",
     "chapter": 12,
     "verse": 5,
-    "content": "Then I, Daniel, looked, and, behold, there stood other two, the one on the brink of the river on this side, and the other on the brink of the river on that side."
+    "content": {
+      "paragraph": true,
+      "text": "Then I, Daniel, looked, and, behold, there stood other two, the one on the brink of the river on this side, and the other on the brink of the river on that side."
+    }
   },
   {
     "book": "DAN",
@@ -2145,7 +3675,16 @@
     "book": "DAN",
     "chapter": 12,
     "verse": 8,
-    "content": "And I heard, but I understood not: then said I, O my lord, what shall be the issue of these things?"
+    "content": [
+      {
+        "text": "And I heard, but I understood not: then said I, O my lord, what shall be the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "latter end", "marks": ["i"] }]
+        }
+      },
+      "issue of these things?"
+    ]
   },
   {
     "book": "DAN",
@@ -2157,13 +3696,26 @@
     "book": "DAN",
     "chapter": 12,
     "verse": 10,
-    "content": "Many shall purify themselves, and make themselves white, and be refined; but the wicked shall do wickedly; and none of the wicked shall understand; but they that are wise shall understand."
+    "content": [
+      {
+        "text": "Many shall purify themselves, and make themselves white, and be refined; but the wicked shall do wickedly; and none of the wicked shall understand; but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the teachers", "marks": ["i"] }]
+        }
+      },
+      "they that are wise shall understand."
+    ]
   },
   {
     "book": "DAN",
     "chapter": 12,
     "verse": 11,
-    "content": "And from the time that the continual burnt-offering shall be taken away, and the abomination that maketh desolate set up, there shall be a thousand and two hundred and ninety days."
+    "content": [
+      "And from the time that the continual ",
+      { "text": "burnt-offering", "marks": ["i"] },
+      " shall be taken away, and the abomination that maketh desolate set up, there shall be a thousand two hundred and ninety days."
+    ]
   },
   {
     "book": "DAN",

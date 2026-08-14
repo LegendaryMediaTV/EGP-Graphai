@@ -5,724 +5,2214 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "The Song of songs, which is Solomon’s."
+      "text": "The Song of songs, which is Solomon’s.",
+      "break": true
     }
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 2,
-    "content": "Let him kiss me with the kisses of his mouth; For thy love is better than wine."
+    "content": [
+      {
+        "text": "Let him kiss me with the kisses of his mouth;",
+        "break": true
+      },
+      { "text": "For thy love is better than wine.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 3,
-    "content": "Thine oils have a goodly fragrance; Thy name is as oil poured forth; Therefore do the virgins love thee."
+    "content": [
+      { "text": "Thine oils have a goodly fragrance;", "break": true },
+      "Thy name is ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " oil poured forth;", "break": true },
+      {
+        "text": "Therefore do the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "maidens", "marks": ["i"] }]
+        }
+      },
+      { "text": "virgins love thee.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 4,
-    "content": "Draw me; we will run after thee: The king hath brought me into his chambers; We will be glad and rejoice in thee; We will make mention of thy love more than of wine: Rightly do they love thee."
+    "content": [
+      { "text": "Draw me; we will run after thee:", "break": true },
+      { "text": "The king hath brought me into his chambers;", "break": true },
+      { "text": "We will be glad and rejoice in thee;", "break": true },
+      {
+        "text": "We will make mention of thy love more than of wine:",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "In uprightness", "marks": ["i"] }]
+        }
+      },
+      { "text": "Rightly do they love thee.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 5,
-    "content": "I am black, but comely, Oh ye daughters of Jerusalem, As the tents of Kedar, As the curtains of Solomon."
+    "content": [
+      { "text": "I am black, but comely,", "break": true },
+      { "text": "O ye daughters of Jerusalem,", "break": true },
+      { "text": "As the tents of Kedar,", "break": true },
+      { "text": "As the curtains of Solomon.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 6,
-    "content": "Look not upon me, because I am swarthy, Because the sun hath scorched me. My mother’s sons were incensed against me; They made me keeper of the vineyards; But mine own vineyard have I not kept."
+    "content": [
+      { "text": "Look not upon me, because I am swarthy,", "break": true },
+      {
+        "text": "Because the sun hath ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "looked upon", "marks": ["i"] }]
+        }
+      },
+      { "text": "scorched me.", "break": true },
+      { "text": "My mother’s sons were incensed against me;", "break": true },
+      { "text": "They made me keeper of the vineyards;", "break": true },
+      { "text": "But", "marks": ["i"] },
+      { "text": " mine own vineyard have I not kept.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 7,
-    "content": "Tell me, O thou whom my soul loveth, Where thou feedest thy flock, Where thou makest it to rest at noon: For why should I be as one that is veiled Beside the flocks of thy companions?"
+    "content": [
+      { "text": "Tell me, O thou whom my soul loveth,", "break": true },
+      "Where thou feedest ",
+      { "text": "thy flock", "marks": ["i"] },
+      { "text": ",", "break": true },
+      "Where thou makest ",
+      { "text": "it", "marks": ["i"] },
+      { "text": " to rest at noon:", "break": true },
+      { "text": "For why should I be as one that is veiled", "break": true },
+      { "text": "Beside the flocks of thy companions?", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 8,
-    "content": "If thou know not, O thou fairest among women, Go thy way forth by the footsteps of the flock, And feed thy kids beside the shepherds’ tents."
+    "content": [
+      {
+        "text": "If thou know not, O thou fairest among women,",
+        "break": true
+      },
+      {
+        "text": "Go thy way forth by the footsteps of the flock,",
+        "break": true
+      },
+      {
+        "text": "And feed thy kids beside the shepherds’ tents.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 9,
-    "content": "I have compared thee, O my love, To a steed in Pharaoh’s chariots."
+    "content": [
+      {
+        "text": "I have compared thee, O ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "my friend", "marks": ["i"] },
+            " (and so throughout)"
+          ]
+        }
+      },
+      {
+        "text": "my love,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "To the steeds", "marks": ["i"] },
+            ". Or, ",
+            { "text": "To my steed", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "To a steed in Pharaoh’s chariots.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 10,
-    "content": "Thy cheeks are comely with plaits of hair, Thy neck with strings of jewels."
+    "content": [
+      "Thy cheeks are comely with plaits ",
+      { "text": "of hair", "marks": ["i"] },
+      { "text": ",", "break": true },
+      { "text": "Thy neck with strings of jewels.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 11,
-    "content": "We will make thee plaits of gold With studs of silver."
+    "content": [
+      { "text": "We will make thee plaits of gold", "break": true },
+      { "text": "With studs of silver.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 12,
-    "content": "While the king sat at his table, My spikenard sent forth its fragrance."
+    "content": [
+      { "text": "While the king sat at his table,", "break": true },
+      { "text": "My spikenard sent forth its fragrance.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 13,
-    "content": "My beloved is unto me as a bundle of myrrh, That lieth betwixt my breasts."
+    "content": [
+      "My beloved is unto me ",
+      { "text": "as", "marks": ["i"] },
+      {
+        "text": " a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "bag", "marks": ["i"] }]
+        }
+      },
+      { "text": "bundle of myrrh,", "break": true },
+      { "text": "That lieth betwixt my breasts.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 14,
-    "content": "My beloved is unto me as a cluster of henna-flowers In the vineyards of En-gedi."
+    "content": [
+      "My beloved is unto me ",
+      { "text": "as", "marks": ["i"] },
+      {
+        "text": " a cluster of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "copher", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "henna-flowers", "break": true },
+      { "text": "In the vineyards of En-gedi.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 15,
-    "content": "Behold, thou art fair, my love; Behold thou art fair; Thine eyes are as doves."
+    "content": [
+      { "text": "Behold, thou art fair, my love;", "break": true },
+      {
+        "text": "Behold thou art fair;",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Thou hast doves’ eyes", "marks": ["i"] }
+          ]
+        }
+      },
+      "Thine eyes are ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " doves.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 16,
-    "content": "Behold, thou art fair, my beloved, yea, pleasant: Also our couch is green."
+    "content": [
+      {
+        "text": "Behold, thou art fair, my beloved, yea, pleasant:",
+        "break": true
+      },
+      { "text": "Also our couch is green.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 1,
     "verse": 17,
-    "content": "The beams of our house are cedars, And our rafters are firs."
+    "content": [
+      {
+        "text": "The beams of our ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "houses", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "house are ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "of cedar . . . of fir", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "cedars,", "break": true },
+      { "text": "And", "marks": ["i"] },
+      {
+        "text": " our rafters are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cypresses", "marks": ["i"] }]
+        }
+      },
+      { "text": "firs.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I am a rose of Sharon, A lily of the valleys."
-    }
+    "content": [
+      {
+        "text": "I am a ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "habazzeleth", "marks": ["i"] },
+            ", the autumn crocus."
+          ]
+        }
+      },
+      {
+        "text": "rose of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the plain", "marks": ["i"] }]
+        }
+      },
+      { "text": "Sharon,", "break": true },
+      { "text": "A lily of the valleys.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 2,
-    "content": "As a lily among thorns, So is my love among the daughters."
+    "content": [
+      { "text": "As a lily among thorns,", "break": true },
+      { "text": "So is my love among the daughters.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 3,
-    "content": "As the apple-tree among the trees of the wood, So is my beloved among the sons. I sat down under his shadow with great delight, And his fruit was sweet to my taste."
+    "content": [
+      {
+        "text": "As the apple-tree among the trees of the wood,",
+        "break": true
+      },
+      { "text": "So is my beloved among the sons.", "break": true },
+      {
+        "text": "I ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "delighted and sat down etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "sat down under his shadow with great delight,",
+        "break": true
+      },
+      { "text": "And his fruit was sweet to my taste.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 4,
-    "content": "He brought me to the banqueting-house, And his banner over me was love."
+    "content": [
+      {
+        "text": "He brought me to the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "house of wine", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "banqueting-house,", "break": true },
+      { "text": "And his banner over me was love.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 5,
-    "content": "Stay ye me with raisins, refresh me with apples; For I am sick from love."
+    "content": [
+      {
+        "text": "Stay ye me with ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "cakes of raisins", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "raisins, refresh me with apples;", "break": true },
+      { "text": "For I am sick from love.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 6,
-    "content": "His left hand is under my head, And his right hand doth embrace me."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, Let ",
+            { "text": "his left hand", "marks": ["i"] },
+            " be ",
+            { "text": "etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "His left hand ",
+      { "text": "is", "marks": ["i"] },
+      { "text": " under my head,", "break": true },
+      { "text": "And his right hand doth embrace me.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 7,
-    "content": "I adjure you, O daughters of Jerusalem, By the roes, or by the hinds of the field, That ye stir not up, nor awake my love, Until he please."
+    "content": [
+      { "text": "I adjure you, O daughters of Jerusalem,", "break": true },
+      {
+        "text": "By the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "gazelles", "marks": ["i"] }]
+        }
+      },
+      { "text": "roes, or by the hinds of the field,", "break": true },
+      "That ye stir not up, nor awake ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " love,", "break": true },
+      {
+        "text": "Until ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "it", "marks": ["i"] },
+            ". Or, ",
+            { "text": "she", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "he please.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 8,
-    "content": "The voice of my beloved! behold, he cometh, Leaping upon the mountains, Skipping upon the hills."
+    "content": [
+      { "text": "The voice of my beloved! behold, he cometh,", "break": true },
+      { "text": "Leaping upon the mountains,", "break": true },
+      { "text": "Skipping upon the hills.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 9,
-    "content": "My beloved is like a roe or a young hart: Behold, he standeth behind our wall; He looketh in at the windows; He glanceth through the lattice."
+    "content": [
+      {
+        "text": "My beloved is like a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "gazelle", "marks": ["i"] }]
+        }
+      },
+      { "text": "roe or a young hart:", "break": true },
+      { "text": "Behold, he standeth behind our wall;", "break": true },
+      { "text": "He looketh in at the windows;", "break": true },
+      { "text": "He glanceth through the lattice.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 10,
-    "content": "My beloved spake, and said unto me, Rise up, my love, my fair one, and come away."
+    "content": [
+      { "text": "My beloved spake, and said unto me,", "break": true },
+      { "text": "Rise up, my love, my fair one, and come away.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 11,
-    "content": "For, lo, the winter is past; The rain is over and gone;"
+    "content": [
+      { "text": "For, lo, the winter is past;", "break": true },
+      { "text": "The rain is over and gone;", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 12,
-    "content": "The flowers appear on the earth; The time of the singing of birds is come, And the voice of the turtle-dove is heard in our land;"
+    "content": [
+      { "text": "The flowers appear on the earth;", "break": true },
+      {
+        "text": "The time of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "pruning", "marks": ["i"] },
+            " of vines"
+          ]
+        }
+      },
+      "singing ",
+      { "text": "of birds", "marks": ["i"] },
+      { "text": " is come,", "break": true },
+      {
+        "text": "And the voice of the turtle-dove is heard in our land;",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 13,
-    "content": "The fig-tree ripeneth her green figs, And the vines are in blossom; They give forth their fragrance. Arise, my love, my fair one, and come away."
+    "content": [
+      { "text": "The fig-tree ripeneth her green figs,", "break": true },
+      { "text": "And the vines are in blossom;", "break": true },
+      { "text": "They give forth their fragrance.", "break": true },
+      { "text": "Arise, my love, my fair one, and come away.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 14,
-    "content": "O my dove, that art in the clefts of the rock, In the covert of the steep place, Let me see thy countenance, Let me hear thy voice; For sweet is thy voice, and thy countenance is comely."
+    "content": [
+      {
+        "text": "O my dove, that art in the clefts of the rock,",
+        "break": true
+      },
+      { "text": "In the covert of the steep place,", "break": true },
+      { "text": "Let me see thy countenance,", "break": true },
+      { "text": "Let me hear thy voice;", "break": true },
+      {
+        "text": "For sweet is thy voice, and thy countenance is comely.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 15,
-    "content": "Take us the foxes, the little foxes, That spoil the vineyards; For our vineyards are in blossom."
+    "content": [
+      { "text": "Take us the foxes, the little foxes,", "break": true },
+      { "text": "That spoil the vineyards;", "break": true },
+      { "text": "For our vineyards are in blossom.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 16,
-    "content": "My beloved is mine, and I am his: He feedeth his flock among the lilies."
+    "content": [
+      { "text": "My beloved is mine, and I am his:", "break": true },
+      "He feedeth ",
+      { "text": "his flock", "marks": ["i"] },
+      { "text": " among the lilies.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 2,
     "verse": 17,
-    "content": "Until the day be cool, and the shadows flee away, Turn, my beloved, and be thou like a roe or a young hart Upon the mountains of Bether."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "When the day is cool", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "Until the day ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "break", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "breathe", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "be cool, and the shadows flee away,", "break": true },
+      {
+        "text": "Turn, my beloved, and be thou like a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "gazelle", "marks": ["i"] }]
+        }
+      },
+      { "text": "roe or a young hart", "break": true },
+      {
+        "text": "Upon the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "mountains of separation", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "mountains of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Perhaps, the spice ",
+            { "text": "malobathron", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "Bether.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "By night on my bed I sought him whom my soul loveth: I sought him, but I found him not."
-    }
+    "content": [
+      { "text": "By night on my bed", "break": true },
+      { "text": "I sought him whom my soul loveth:", "break": true },
+      { "text": "I sought him, but I found him not.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 2,
-    "content": "I said, I will rise now, and go about the city; In the streets and in the broad ways I will seek him whom my soul loveth: I sought him, but I found him not."
+    "content": [
+      { "text": "I said", "marks": ["i"] },
+      { "text": ", I will rise now, and go about the city;", "break": true },
+      { "text": "In the streets and in the broad ways", "break": true },
+      { "text": "I will seek him whom my soul loveth:", "break": true },
+      { "text": "I sought him, but I found him not.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 3,
-    "content": "The watchmen that go about the city found me; To whom I said, Saw ye him whom my soul loveth?"
+    "content": [
+      {
+        "text": "The watchmen that go about the city found me;",
+        "break": true
+      },
+      { "text": "To whom I said", "marks": ["i"] },
+      { "text": ", Saw ye him whom my soul loveth?", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 4,
-    "content": "It was but a little that I passed from them, When I found him whom my soul loveth: I held him, and would not let him go, Until I had brought him into my mother’s house, And into the chamber of her that conceived me."
+    "content": [
+      { "text": "It was but a little that I passed from them,", "break": true },
+      { "text": "When I found him whom my soul loveth:", "break": true },
+      { "text": "I held him, and would not let him go,", "break": true },
+      {
+        "text": "Until I had brought him into my mother’s house,",
+        "break": true
+      },
+      {
+        "text": "And into the chamber of her that conceived me.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 5,
-    "content": "I adjure you, O daughters of Jerusalem, By the roes, or by the hinds of the field, That ye stir not up, nor awake my love, Until he please."
+    "content": [
+      { "text": "I adjure you, O daughters of Jerusalem,", "break": true },
+      { "text": "By the roes, or by the hinds of the field,", "break": true },
+      "That ye stir not up, nor awake ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " love,", "break": true },
+      {
+        "text": "Until ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "it", "marks": ["i"] },
+            ". Or, ",
+            { "text": "she", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "he please.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 6,
-    "content": "Who is this that cometh up from the wilderness Like pillars of smoke, Perfumed with myrrh and frankincense, With all powders of the merchant?"
+    "content": [
+      {
+        "text": "Who is this that cometh up from the wilderness",
+        "break": true
+      },
+      { "text": "Like pillars of smoke,", "break": true },
+      { "text": "Perfumed with myrrh and frankincense,", "break": true },
+      { "text": "With all powders of the merchant?", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 7,
-    "content": "Behold, it is the litter of Solomon; Threescore mighty men are about it, Of the mighty men of Israel."
+    "content": [
+      { "text": "Behold, it is the litter of Solomon;", "break": true },
+      { "text": "Threescore mighty men are about it,", "break": true },
+      { "text": "Of the mighty men of Israel.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 8,
-    "content": "They all handle the sword, and are expert in war: Every man hath his sword upon his thigh, Because of fear in the night."
+    "content": [
+      "They all handle the sword, ",
+      { "text": "and", "marks": ["i"] },
+      { "text": " are expert in war:", "break": true },
+      { "text": "Every man hath his sword upon his thigh,", "break": true },
+      { "text": "Because of fear in the night.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 9,
-    "content": "King Solomon made himself a palanquin Of the wood of Lebanon."
+    "content": [
+      {
+        "text": "King Solomon made himself a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "car of state", "marks": ["i"] }]
+        }
+      },
+      { "text": "palanquin", "break": true },
+      { "text": "Of the wood of Lebanon.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 10,
-    "content": "He made the pillars thereof of silver, The bottom thereof of gold, the seat of it of purple, The midst thereof being paved with love, From the daughters of Jerusalem."
+    "content": [
+      { "text": "He made the pillars thereof of silver,", "break": true },
+      {
+        "text": "The bottom thereof of gold, the seat of it of purple,",
+        "break": true
+      },
+      {
+        "text": "The midst thereof being ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "inlaid", "marks": ["i"] }]
+        }
+      },
+      { "text": "paved with love,", "break": true },
+      { "text": "From the daughters of Jerusalem.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 3,
     "verse": 11,
-    "content": "Go forth, O ye daughters of Zion, and behold king Solomon, With the crown wherewith his mother hath crowned him In the day of his espousals, And in the day of the gladness of his heart."
+    "content": [
+      {
+        "text": "Go forth, O ye daughters of Zion, and behold king Solomon,",
+        "break": true
+      },
+      {
+        "text": "With the crown wherewith his mother hath crowned him",
+        "break": true
+      },
+      { "text": "In the day of his espousals,", "break": true },
+      { "text": "And in the day of the gladness of his heart.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Behold, thou art fair, my love; behold, thou art fair; Thine eyes are as doves behind thy veil. Thy hair is as a flock of goats, That lie along the side of mount Gilead."
-    }
+    "content": [
+      {
+        "text": "Behold, thou art fair, my love; behold, thou art fair;",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Thou hast doves’ eyes", "marks": ["i"] }
+          ]
+        }
+      },
+      "Thine eyes are ",
+      { "text": "as", "marks": ["i"] },
+      {
+        "text": " doves behind thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "locks", "marks": ["i"] }]
+        }
+      },
+      { "text": "veil.", "break": true },
+      { "text": "Thy hair is as a flock of goats,", "break": true },
+      {
+        "text": "That ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "appear on mount Gilead", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "lie along the side of mount Gilead.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 2,
-    "content": "Thy teeth are like a flock of ewes that are newly shorn, Which are come up from the washing, Whereof every one hath twins, And none is bereaved among them."
+    "content": [
+      "Thy teeth are like a flock ",
+      { "text": "of ewes", "marks": ["i"] },
+      " that are ",
+      { "text": "newly", "marks": ["i"] },
+      { "text": " shorn,", "break": true },
+      {
+        "text": "Which are come up from the washing,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Which are all of them in pairs", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "Whereof every one hath twins,", "break": true },
+      { "text": "And none is bereaved among them.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 3,
-    "content": "Thy lips are like a thread of scarlet, And thy mouth is comely. Thy temples are like a piece of a pomegranate Behind thy veil."
+    "content": [
+      { "text": "Thy lips are like a thread of scarlet,", "break": true },
+      {
+        "text": "And thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "speech", "marks": ["i"] }]
+        }
+      },
+      { "text": "mouth is comely.", "break": true },
+      {
+        "text": "Thy temples are like a piece of a pomegranate",
+        "break": true
+      },
+      {
+        "text": "Behind thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "locks", "marks": ["i"] }]
+        }
+      },
+      { "text": "veil.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 4,
-    "content": "Thy neck is like the tower of David Builded for an armory, Whereon there hang a thousand bucklers, All the shields of the mighty men."
+    "content": [
+      { "text": "Thy neck is like the tower of David", "break": true },
+      {
+        "text": "Builded ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "with turrets", "marks": ["i"] }]
+        }
+      },
+      { "text": "for an armory,", "break": true },
+      { "text": "Whereon there hang a thousand bucklers,", "break": true },
+      { "text": "All the shields of the mighty men.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 5,
-    "content": "Thy two breasts are like two fawns That are twins of a roe, Which feed among the lilies."
+    "content": [
+      { "text": "Thy two breasts are like two fawns", "break": true },
+      {
+        "text": "That are twins of a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "gazelle", "marks": ["i"] }]
+        }
+      },
+      { "text": "roe,", "break": true },
+      { "text": "Which feed among the lilies.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 6,
-    "content": "Until the day be cool, and the shadows flee away, I will get me to the mountain of myrrh, And to the hill of frankincense."
+    "content": [
+      {
+        "text": "Until the day be cool, and the shadows flee away,",
+        "break": true
+      },
+      { "text": "I will get me to the mountain of myrrh,", "break": true },
+      { "text": "And to the hill of frankincense.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 7,
-    "content": "Thou art all fair, my love; And there is no spot in thee."
+    "content": [
+      { "text": "Thou art all fair, my love;", "break": true },
+      { "text": "And there is no spot in thee.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 8,
-    "content": "Come with me from Lebanon, my bride, With me from Lebanon: Look from the top of Amana, From the top of Senir and Hermon, From the lions’ dens, From the mountains of the leopards."
+    "content": [
+      "Come with me from Lebanon, ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " bride,", "break": true },
+      {
+        "text": "With me from Lebanon:",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Go", "marks": ["i"] }]
+        }
+      },
+      { "text": "Look from the top of Amana,", "break": true },
+      { "text": "From the top of Senir and Hermon,", "break": true },
+      { "text": "From the lions’ dens,", "break": true },
+      { "text": "From the mountains of the leopards.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 9,
-    "content": "Thou hast ravished my heart, my sister, my bride; Thou hast ravished my heart with one of thine eyes, With one chain of thy neck."
+    "content": [
+      {
+        "text": "Thou hast ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "given me courage", "marks": ["i"] }]
+        }
+      },
+      "ravished my heart, my sister, ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " bride;", "break": true },
+      {
+        "text": "Thou hast ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "given me courage", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "ravished my heart with ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "one", "marks": ["i"] },
+            " look ",
+            { "text": "from thine eyes", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "one of thine eyes,", "break": true },
+      { "text": "With one chain of thy neck.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 10,
-    "content": "How fair is thy love, my sister, my bride! How much better is thy love than wine! And the fragrance of thine oils than all manner of spices!"
+    "content": [
+      "How fair is thy love, my sister, ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " bride!", "break": true },
+      { "text": "How much better is thy love than wine!", "break": true },
+      {
+        "text": "And the fragrance of thine oils than all manner of spices!",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 11,
-    "content": "Thy lips, O my bride, drop as the honeycomb: Honey and milk are under thy tongue; And the smell of thy garments is like the smell of Lebanon."
+    "content": [
+      "Thy lips, O ",
+      { "text": "my", "marks": ["i"] },
+      {
+        "text": " bride, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "drop honey", "marks": ["i"] }]
+        }
+      },
+      "drop ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " the honeycomb:", "break": true },
+      { "text": "Honey and milk are under thy tongue;", "break": true },
+      {
+        "text": "And the smell of thy garments is like the smell of Lebanon.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 12,
-    "content": "A garden shut up is my sister, my bride; A spring shut up, a fountain sealed."
+    "content": [
+      {
+        "text": "A garden ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "barred", "marks": ["i"] }, "."]
+        }
+      },
+      "shut up is my sister, ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " bride;", "break": true },
+      { "text": "A spring shut up, a fountain sealed.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 13,
-    "content": "Thy shoots are an orchard of pomegranates, with precious fruits; Henna with spikenard plants,"
+    "content": [
+      {
+        "text": "Thy shoots are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a paradise", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "an orchard of pomegranates, with precious fruits;",
+        "break": true
+      },
+      { "text": "Henna with spikenard plants,", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 14,
-    "content": "Spikenard and saffron, Calamus and cinnamon, with all trees of frankincense; Myrrh and aloes, with all the chief spices."
+    "content": [
+      { "text": "Spikenard and saffron,", "break": true },
+      {
+        "text": "Calamus and cinnamon, with all trees of frankincense;",
+        "break": true
+      },
+      { "text": "Myrrh and aloes, with all the chief spices.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 15,
-    "content": "Thou art a fountain of gardens, A well of living waters, And flowing streams from Lebanon."
+    "content": [
+      { "text": "Thou art", "marks": ["i"] },
+      { "text": " a fountain of gardens,", "break": true },
+      { "text": "A well of living waters,", "break": true },
+      { "text": "And flowing streams from Lebanon.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 4,
     "verse": 16,
-    "content": "Awake, O north wind; And come, thou south; Blow upon my garden, that the spices thereof may flow out. Let my beloved come into his garden, And eat his precious fruits."
+    "content": [
+      { "text": "Awake, O north wind; and come, thou south;", "break": true },
+      {
+        "text": "Blow upon my garden, that the spices thereof may flow out.",
+        "break": true
+      },
+      { "text": "Let my beloved come into his garden,", "break": true },
+      { "text": "And eat his precious fruits.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I am come into my garden, my sister, my bride: I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk. Eat, O friends; Drink, yea, drink abundantly, O beloved."
-    }
+    "content": [
+      "I am come into my garden, my sister, ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " bride:", "break": true },
+      {
+        "text": "I have gathered my myrrh with my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "balsam", "marks": ["i"] }]
+        }
+      },
+      { "text": "spice;", "break": true },
+      { "text": "I have eaten my honeycomb with my honey;", "break": true },
+      { "text": "I have drunk my wine with my milk.", "break": true },
+      { "text": "Eat, O friends;", "break": true },
+      {
+        "text": "Drink, yea, drink abundantly, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "of love", "marks": ["i"] }]
+        }
+      },
+      { "text": "O beloved.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 2,
-    "content": "I was asleep, but my heart waked: It is the voice of my beloved that knocketh, saying, Open to me, my sister, my love, my dove, my undefiled; For my head is filled with dew, My locks with the drops of the night."
+    "content": [
+      {
+        "text": "I ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "sleep, but my heart waketh", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "was asleep, but my heart waked:", "break": true },
+      "It is the voice of my beloved that knocketh, ",
+      { "text": "saying", "marks": ["i"] },
+      { "text": ",", "break": true },
+      {
+        "text": "Open to me, my sister, my love, my dove, my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "perfect", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "undefiled;", "break": true },
+      { "text": "For my head is filled with dew,", "break": true },
+      { "text": "My locks with the drops of the night.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 3,
-    "content": "I have put off my garment; How shall I put it on? I have washed my feet; how shall I defile them?"
+    "content": [
+      {
+        "text": "I have put off my garment; how shall I put it on?",
+        "break": true
+      },
+      {
+        "text": "I have washed my feet; how shall I defile them?",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 4,
-    "content": "My beloved put in his hand by the hole of the door, And my heart was moved for him."
+    "content": [
+      "My beloved put in his hand by the hole ",
+      { "text": "of the door", "marks": ["i"] },
+      { "text": ",", "break": true },
+      {
+        "text": "And my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bowels", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "heart was moved for him.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 5,
-    "content": "I rose up to open to my beloved; And my hands droppeth with myrrh, And my fingers with liquid myrrh, Upon the handles of the bolt."
+    "content": [
+      { "text": "I rose up to open to my beloved;", "break": true },
+      { "text": "And my hands dropped with myrrh,", "break": true },
+      { "text": "And my fingers with liquid myrrh,", "break": true },
+      { "text": "Upon the handles of the bolt.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 6,
-    "content": "I opened to my beloved; But my beloved had withdrawn himself, and was gone. My soul had failed me when he spake: I sought him, but I could not find him; I called him, but he gave me no answer."
+    "content": [
+      { "text": "I opened to my beloved;", "break": true },
+      {
+        "text": "But my beloved had ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "turned away", "marks": ["i"] }]
+        }
+      },
+      "withdrawn himself, ",
+      { "text": "and", "marks": ["i"] },
+      { "text": " was gone.", "break": true },
+      {
+        "text": "My soul ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "went forth", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "had failed me when he spake:", "break": true },
+      { "text": "I sought him, but I could not find him;", "break": true },
+      { "text": "I called him, but he gave me no answer.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 7,
-    "content": "The watchmen that go about the city found me, They smote me, they wounded me; The keepers of the walls took away my mantle from me."
+    "content": [
+      {
+        "text": "The watchmen that go about the city found me,",
+        "break": true
+      },
+      { "text": "They smote me, they wounded me;", "break": true },
+      {
+        "text": "The keepers of the walls took away my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "veil", "marks": ["i"] }]
+        }
+      },
+      { "text": "mantle from me.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 8,
-    "content": "I adjure you, O daughters of Jerusalem, If ye find my beloved, That ye tell him, that I am sick from love."
+    "content": [
+      { "text": "I adjure you, O daughters of Jerusalem,", "break": true },
+      {
+        "text": "If ye find my beloved,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "What will ye tell him? That etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "That ye tell him, that I am sick from love.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 9,
-    "content": "What is thy beloved more than another beloved, O thou fairest among women? What is thy beloved more than another beloved, That thou dost so adjure us?"
+    "content": [
+      "What is thy beloved more than ",
+      { "text": "another", "marks": ["i"] },
+      { "text": " beloved,", "break": true },
+      { "text": "O thou fairest among women?", "break": true },
+      "What is thy beloved more than ",
+      { "text": "another", "marks": ["i"] },
+      { "text": " beloved,", "break": true },
+      { "text": "That thou dost so adjure us?", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 10,
-    "content": "My beloved is white and ruddy, The chiefest among ten thousand."
+    "content": [
+      {
+        "text": "My beloved is white and ruddy,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Marked out by a banner", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "The chiefest among ten thousand.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 11,
-    "content": "His head is as the most fine gold; His locks are bushy, and black as a raven."
+    "content": [
+      "His head is ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " the most fine gold;", "break": true },
+      {
+        "text": "His locks are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "curling", "marks": ["i"] }]
+        }
+      },
+      "bushy, ",
+      { "text": "and", "marks": ["i"] },
+      { "text": " black as a raven.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 12,
-    "content": "His eyes are like doves beside the water-brooks, Washed with milk, and fitly set."
+    "content": [
+      {
+        "text": "His eyes are like doves beside the water-brooks,",
+        "break": true
+      },
+      "Washed with milk, ",
+      {
+        "text": "and",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "sitting by full streams", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " fitly set.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 13,
-    "content": "His cheeks are as a bed of spices, As banks of sweet herbs: His lips are as lilies, dropping liquid myrrh."
+    "content": [
+      {
+        "text": "His cheeks are as a bed of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "balsam", "marks": ["i"] }]
+        }
+      },
+      { "text": "spices,", "break": true },
+      {
+        "text": "As",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "towers of perfumes", "marks": ["i"] }]
+        }
+      },
+      { "text": " banks of sweet herbs:", "break": true },
+      "His lips are ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " lilies, dropping liquid myrrh.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 14,
-    "content": "His hands are as rings of gold set with beryl: His body is as ivory work overlaid with sapphires."
+    "content": [
+      "His hands are ",
+      {
+        "text": "as",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cylinders", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " rings of gold set with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "topaz", "marks": ["i"] }]
+        }
+      },
+      { "text": "beryl:", "break": true },
+      "His body is ",
+      {
+        "text": "as",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "bright ivory", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": " ivory work ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "encrusted", "marks": ["i"] }]
+        }
+      },
+      "overlaid ",
+      { "text": "with", "marks": ["i"] },
+      { "text": " sapphires.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 15,
-    "content": "His legs are as pillars of marble, set upon sockets of fine gold: His aspect is like Lebanon, excellent as the cedars."
+    "content": [
+      "His legs are ",
+      { "text": "as", "marks": ["i"] },
+      {
+        "text": " pillars of marble, set upon sockets of fine gold:",
+        "break": true
+      },
+      {
+        "text": "His aspect is like Lebanon, excellent as the cedars.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 5,
     "verse": 16,
-    "content": "His mouth is most sweet; Yea, he is altogether lovely. This is my beloved, and this is my friend, O daughters of Jerusalem."
+    "content": [
+      {
+        "text": "His ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "speech", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "palate", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "mouth is most sweet;", "break": true },
+      { "text": "Yea, he is altogether lovely.", "break": true },
+      { "text": "This is my beloved, and this is my friend,", "break": true },
+      { "text": "O daughters of Jerusalem.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Whither is thy beloved gone, O thou fairest among women? Whither hath thy beloved turned him, That we may seek him with thee?"
-    }
+    "content": [
+      { "text": "Whither is thy beloved gone,", "break": true },
+      { "text": "O thou fairest among women?", "break": true },
+      { "text": "Whither hath thy beloved turned him,", "break": true },
+      { "text": "That we may seek him with thee?", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 2,
-    "content": "My beloved is gone down to his garden, To the beds of spices, To feed in the gardens, and to gather lilies."
+    "content": [
+      { "text": "My beloved is gone down to his garden,", "break": true },
+      {
+        "text": "To the beds of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "balsam", "marks": ["i"] }]
+        }
+      },
+      { "text": "spices,", "break": true },
+      { "text": "To feed in the gardens, and to gather lilies.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 3,
-    "content": "I am my beloved’s, and my beloved is mine; He feedeth his flock among the lilies,"
+    "content": [
+      { "text": "I am my beloved’s, and my beloved is mine:", "break": true },
+      "He feedeth ",
+      { "text": "his flock", "marks": ["i"] },
+      { "text": " among the lilies.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 4,
-    "content": "Thou art fair, O my love, as Tirzah, Comely as Jerusalem, Terrible as an army with banners."
+    "content": [
+      { "text": "Thou art fair, O my love, as Tirzah,", "break": true },
+      { "text": "Comely as Jerusalem,", "break": true },
+      {
+        "text": "Terrible as ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "bannered", "marks": ["i"] },
+            " hosts."
+          ]
+        }
+      },
+      { "text": "an army with banners.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 5,
-    "content": "Turn away thine eyes from me, For they have overcome me. Thy hair is as a flock of goats, That lie along the side of Gilead."
+    "content": [
+      { "text": "Turn away thine eyes from me,", "break": true },
+      {
+        "text": "For they ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "make me afraid", "marks": ["i"] }]
+        }
+      },
+      { "text": "have overcome me.", "break": true },
+      { "text": "Thy hair is as a flock of goats,", "break": true },
+      { "text": "That lie along the side of Gilead.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 6,
-    "content": "Thy teeth are like a flock of ewes, Which are come up from the washing; Whereof every one hath twins, And none is bereaved among them."
+    "content": [
+      { "text": "Thy teeth are like a flock of ewes,", "break": true },
+      { "text": "Which are come up from the washing;", "break": true },
+      { "text": "Whereof every one hath twins,", "break": true },
+      { "text": "And none is bereaved among them.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 7,
-    "content": "Thy temples are like a piece of a pomegranate Behind thy veil."
+    "content": [
+      {
+        "text": "Thy temples are like a piece of a pomegranate",
+        "break": true
+      },
+      { "text": "Behind thy veil.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 8,
-    "content": "There are threescore queens, and fourscore concubines, And virgins without number."
+    "content": [
+      {
+        "text": "There are threescore queens, and fourscore concubines,",
+        "break": true
+      },
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "maidens", "marks": ["i"] }]
+        }
+      },
+      { "text": "virgins without number.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 9,
-    "content": "My dove, my undefiled, is but one; She is the only one of her mother; She is the choice one of her that bare her. The daughters saw her, and called her blessed; Yea, the queens and the concubines, and they praised her."
+    "content": [
+      {
+        "text": "My dove, my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "perfect", "marks": ["i"] }, "."]
+        }
+      },
+      "undefiled, is ",
+      { "text": "but", "marks": ["i"] },
+      { "text": " one;", "break": true },
+      { "text": "She is the only one of her mother;", "break": true },
+      {
+        "text": "She is the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pure", "marks": ["i"] }]
+        }
+      },
+      { "text": "choice one of her that bare her.", "break": true },
+      {
+        "text": "The daughters saw her, and called her blessed;",
+        "break": true
+      },
+      { "text": "Yea", "marks": ["i"] },
+      {
+        "text": ", the queens and the concubines, and they praised her.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 10,
-    "content": "Who is she that looketh forth as the morning, Fair as the moon, Clear as the sun, Terrible as an army with banners?"
+    "content": [
+      {
+        "text": "Who is she that looketh forth as the morning,",
+        "break": true
+      },
+      {
+        "text": "Fair as the moon,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Pure", "marks": ["i"] }]
+        }
+      },
+      { "text": "Clear as the sun,", "break": true },
+      { "text": "Terrible as an army with banners?", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 11,
-    "content": "I went down into the garden of nuts, To see the green plants of the valley, To see whether the vine budded, And the pomegranates were in flower."
+    "content": [
+      { "text": "I went down into the garden of nuts,", "break": true },
+      { "text": "To see the green plants of the valley,", "break": true },
+      { "text": "To see whether the vine budded,", "break": true },
+      { "text": "And", "marks": ["i"] },
+      { "text": " the pomegranates were in flower.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 12,
-    "content": "Before I was aware, my soul set me Among the chariots of my princely people."
+    "content": [
+      {
+        "text": "Before I was aware, my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "desire", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "soul ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "made me", "marks": ["i"] },
+            " like ",
+            { "text": "the chariots of Amminadib", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "set me", "break": true },
+      { "text": "Among", "marks": ["i"] },
+      {
+        "text": " the chariots of my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "willing", "marks": ["i"] }]
+        }
+      },
+      { "text": "princely people.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 6,
     "verse": 13,
-    "content": "Return, return, O Shulammite; Return, return, that we may look upon thee. Why will ye look upon the Shulammite, As upon the dance of Mahanaim?"
+    "content": [
+      { "text": "Return, return, O Shulammite;", "break": true },
+      { "text": "Return, return, that we may look upon thee.", "break": true },
+      { "text": "Why will ye look upon the Shulammite,", "break": true },
+      {
+        "text": "As upon the dance ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "of two companies", "marks": ["i"] }]
+        }
+      },
+      { "text": "of Mahanaim?", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "How beautiful are thy feet in sandals, O prince’s daughter! Thy rounded thighs are like jewels, The work of the hands of a skilful workman."
-    }
+    "content": [
+      {
+        "text": "How beautiful are thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "steps", "marks": ["i"] }]
+        }
+      },
+      { "text": "feet in sandals, O prince’s daughter!", "break": true },
+      { "text": "Thy rounded thighs are like jewels,", "break": true },
+      { "text": "The work of the hands of a skilful workman.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 2,
-    "content": "Thy body is like a round goblet, Wherein no mingled wine is wanting: Thy waist is like a heap of wheat Set about with lilies."
+    "content": [
+      "Thy body is ",
+      { "text": "like", "marks": ["i"] },
+      { "text": " a round goblet,", "break": true },
+      { "text": "Wherein", "marks": ["i"] },
+      { "text": " no mingled wine is wanting:", "break": true },
+      "Thy waist is ",
+      { "text": "like", "marks": ["i"] },
+      { "text": " a heap of wheat", "break": true },
+      { "text": "Set about with lilies.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 3,
-    "content": "Thy two breasts are like two fawns That are twins of a roe."
+    "content": [
+      { "text": "Thy two breasts are like two fawns", "break": true },
+      { "text": "That are twins of a roe.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 4,
-    "content": "Thy neck is like the tower of ivory; Thine eyes as the pools in Heshbon, By the gate of Bath-rabbim; Thy nose is like the tower of Lebanon Which looketh toward Damascus."
+    "content": [
+      { "text": "Thy neck is like the tower of ivory;", "break": true },
+      "Thine eyes ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " the pools in Heshbon,", "break": true },
+      { "text": "By the gate of Bath-rabbim;", "break": true },
+      { "text": "Thy nose is like the tower of Lebanon", "break": true },
+      { "text": "Which looketh toward Damascus.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 5,
-    "content": "Thy head upon thee is like Carmel, And the hair of thy head like purple; The king is held captive in the tresses thereof."
+    "content": [
+      { "text": "Thy head upon thee is like Carmel,", "break": true },
+      { "text": "And the hair of thy head like purple;", "break": true },
+      "The king is held captive in the tresses ",
+      { "text": "thereof", "marks": ["i"] },
+      { "text": ".", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 6,
-    "content": "How fair and how pleasant art thou, O love, for delights!"
+    "content": [
+      { "text": "How fair and how pleasant art thou,", "break": true },
+      { "text": "O love, for delights!", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 7,
-    "content": "This thy stature is like to a palm-tree, And thy breasts to its clusters."
+    "content": [
+      { "text": "This thy stature is like to a palm-tree,", "break": true },
+      { "text": "And thy breasts to its clusters.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 8,
-    "content": "I said, I will climb up into the palm-tree, I will take hold of the branches thereof: Let thy breasts be as clusters of the vine, And the smell of thy breath like apples,"
+    "content": [
+      { "text": "I said, I will climb up into the palm-tree,", "break": true },
+      { "text": "I will take hold of the branches thereof:", "break": true },
+      { "text": "Let thy breasts be as clusters of the vine,", "break": true },
+      {
+        "text": "And the smell of thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "nose", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "breath like apples,", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 9,
-    "content": "And thy mouth like the best wine, That goeth down smoothly for my beloved, Gliding through the lips of those that are asleep."
+    "content": [
+      {
+        "text": "And thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "palate", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "mouth like the best wine,", "break": true },
+      {
+        "text": "That goeth down ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "aright", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "smoothly for my beloved,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Causing the lips of those that are asleep to move",
+              "marks": ["i"]
+            },
+            " (or, ",
+            { "text": "speak", "marks": ["i"] },
+            ")"
+          ]
+        }
+      },
+      {
+        "text": "Gliding through the lips of those that are asleep.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 10,
-    "content": "I am my beloved’s; And his desire is toward me."
+    "content": [
+      { "text": "I am my beloved’s;", "break": true },
+      { "text": "And his desire is toward me.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 11,
-    "content": "Come, my beloved, let us go forth into the field; Let us lodge in the villages."
+    "content": [
+      {
+        "text": "Come, my beloved, let us go forth into the field;",
+        "break": true
+      },
+      { "text": "Let us lodge in the villages.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 12,
-    "content": "Let us get up early to the vineyards; Let us see whether the vine hath budded, And its blossom is open, And the pomegranates are in flower: There will I give thee my love."
+    "content": [
+      { "text": "Let us get up early to the vineyards;", "break": true },
+      { "text": "Let us see whether the vine hath budded,", "break": true },
+      {
+        "text": "And",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the tender grape appeareth", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": " its blossom is open,", "break": true },
+      { "text": "And", "marks": ["i"] },
+      { "text": " the pomegranates are in flower:", "break": true },
+      { "text": "There will I give thee my love.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 7,
     "verse": 13,
-    "content": "The mandrakes give forth fragrance; And at our doors are all manner of precious fruits, new and old, Which I have laid up for thee, O my beloved."
+    "content": [
+      { "text": "The mandrakes give forth fragrance;", "break": true },
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "over", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "at our doors are all manner of precious fruits, new and old,",
+        "break": true
+      },
+      { "text": "Which I have laid up for thee, O my beloved.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Oh that thou wert as my brother, That sucked the breasts of my mother! When I should find thee without, I would kiss thee; Yea, and none would despise me."
-    }
+    "content": [
+      { "text": "Oh that thou wert as my brother,", "break": true },
+      { "text": "That sucked the breasts of my mother!", "break": true },
+      { "text": "When", "marks": ["i"] },
+      {
+        "text": " I should find thee without, I would kiss thee;",
+        "break": true
+      },
+      { "text": "Yea, and none would despise me.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 2,
-    "content": "I would lead thee, and bring thee into my mother’s house, Who would instruct me; I would cause thee to drink of spiced wine, Of the juice of my pomegranate."
+    "content": [
+      "I would lead thee, ",
+      { "text": "and", "marks": ["i"] },
+      {
+        "text": " bring thee into my mother’s house,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "That thou mightest", "marks": ["i"] }]
+        }
+      },
+      { "text": "Who would instruct me;", "break": true },
+      { "text": "I would cause thee to drink of spiced wine,", "break": true },
+      {
+        "text": "Of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sweet wine", "marks": ["i"] }]
+        }
+      },
+      { "text": "juice of my pomegranate.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 3,
-    "content": "His left hand should be under my head, And his right hand should embrace me."
+    "content": [
+      "His left hand ",
+      { "text": "should be", "marks": ["i"] },
+      { "text": " under my head,", "break": true },
+      { "text": "And his right hand should embrace me.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 4,
-    "content": "I adjure you, O daughters of Jerusalem, That ye stir not up, nor awake my love, Until he please."
+    "content": [
+      {
+        "text": "I adjure you, O daughters of Jerusalem,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Why should ye stir up? or why etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "That ye stir not up, nor awake ",
+      { "text": "my", "marks": ["i"] },
+      { "text": " love,", "break": true },
+      {
+        "text": "Until ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "it", "marks": ["i"] },
+            ". Or, ",
+            { "text": "she", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "he please.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 5,
-    "content": "Who is this that cometh up from the wilderness, Leaning upon her beloved? Under the apple-tree I awakened thee: There thy mother was in travail with thee, There was she in travail that brought thee forth."
+    "content": [
+      {
+        "text": "Who is this that cometh up from the wilderness,",
+        "break": true
+      },
+      { "text": "Leaning upon her beloved?", "break": true },
+      { "text": "Under the apple-tree I awakened thee:", "break": true },
+      { "text": "There thy mother was in travail with thee,", "break": true },
+      {
+        "text": "There was she in travail ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "and", "marks": ["i"] }]
+        }
+      },
+      { "text": "that brought thee forth.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 6,
-    "content": "Set me as a seal upon thy heart, As a seal upon thine arm: For love is strong as death; Jealousy is cruel as Sheol; The flashes thereof are flashes of fire, A very flame of Jehovah."
+    "content": [
+      { "text": "Set me as a seal upon thy heart,", "break": true },
+      { "text": "As a seal upon thine arm:", "break": true },
+      { "text": "For love is strong as death;", "break": true },
+      {
+        "text": "Jealousy is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "hard", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "cruel as Sheol;", "break": true },
+      {
+        "text": "The flashes thereof are flashes of fire,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "A most vehement flame", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "A very flame of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Jah", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "Jehovah.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 7,
-    "content": "Many waters cannot quench love, Neither can floods drown it: If a man would give all the substance of his house for love, He would utterly be contemned."
+    "content": [
+      { "text": "Many waters cannot quench love,", "break": true },
+      { "text": "Neither can floods drown it:", "break": true },
+      {
+        "text": "If a man would give all the substance of his house for love,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "It", "marks": ["i"] }]
+        }
+      },
+      { "text": "He would utterly be contemned.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 8,
-    "content": "We have a little sister, And she hath no breasts: What shall we do for our sister In the day when she shall be spoken for?"
+    "content": [
+      { "text": "We have a little sister,", "break": true },
+      { "text": "And she hath no breasts:", "break": true },
+      { "text": "What shall we do for our sister", "break": true },
+      { "text": "In the day when she shall be spoken for?", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 9,
-    "content": "If she be a wall, We will build upon her a turret of silver: And if she be a door, We will inclose her with boards of cedar."
+    "content": [
+      { "text": "If she be a wall,", "break": true },
+      {
+        "text": "We will build upon her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "battlements", "marks": ["i"] }]
+        }
+      },
+      { "text": "a turret of silver:", "break": true },
+      { "text": "And if she be a door,", "break": true },
+      { "text": "We will inclose her with boards of cedar.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 10,
-    "content": "I am a wall, and my breasts like the towers thereof Then was I in his eyes as one that found peace."
+    "content": [
+      {
+        "text": "I ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "was", "marks": ["i"] }]
+        }
+      },
+      "am a wall, and my breasts like the towers ",
+      { "text": "thereof", "marks": ["i"] },
+      { "text": ":", "break": true },
+      {
+        "text": "Then was I in his eyes as one that found peace.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 11,
-    "content": "Solomon had a vineyard at Baal-hamon; He let out the vineyard unto keepers; Every one for the fruit thereof was to bring a thousand pieces of silver."
+    "content": [
+      { "text": "Solomon had a vineyard at Baal-hamon;", "break": true },
+      { "text": "He let out the vineyard unto keepers;", "break": true },
+      "Every one for the fruit thereof was to bring a thousand ",
+      { "text": "pieces", "marks": ["i"] },
+      { "text": " of silver.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 12,
-    "content": "My vineyard, which is mine, is before me: Thou, O Solomon, shalt have the thousand, And those that keep the fruit thereof two hundred."
+    "content": [
+      { "text": "My vineyard, which is mine, is before me:", "break": true },
+      { "text": "Thou, O Solomon, shalt have the thousand,", "break": true },
+      {
+        "text": "And those that keep the fruit thereof two hundred.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 13,
-    "content": "Thou that dwellest in the gardens, The companions hearken for thy voice: Cause me to hear it."
+    "content": [
+      { "text": "Thou that dwellest in the gardens,", "break": true },
+      {
+        "text": "The companions hearken ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to", "marks": ["i"] }]
+        }
+      },
+      { "text": "for thy voice:", "break": true },
+      { "text": "Cause me to hear it.", "break": true }
+    ]
   },
   {
     "book": "SOS",
     "chapter": 8,
     "verse": 14,
-    "content": "Make haste, my beloved, And be thou like to a roe or to a young hart Upon the mountains of spices."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Flee", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "Make haste, my beloved,", "break": true },
+      {
+        "text": "And be thou like to a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "gazelle", "marks": ["i"] }]
+        }
+      },
+      { "text": "roe or to a young hart", "break": true },
+      { "text": "Upon the mountains of spices.", "break": true }
+    ]
   }
 ]

@@ -12,13 +12,20 @@
     "book": "LEV",
     "chapter": 1,
     "verse": 2,
-    "content": "Speak unto the children of Israel, and say unto them, When any man of you offereth an oblation unto Jehovah, ye shall offer your oblation of the cattle, even of the herd and of the flock."
+    "content": [
+      "Speak unto the children of Israel, and say unto them, When any man of you offereth an oblation unto Jehovah, ye shall offer your oblation of the cattle, ",
+      { "text": "even", "marks": ["i"] },
+      " of the herd and of the flock."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 1,
     "verse": 3,
-    "content": "If his oblation be a burnt-offering of the herd, he shall offer it a male without blemish: he shall offer it at the door of the tent of meeting, that he may be accepted before Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "If his oblation be a burnt-offering of the herd, he shall offer it a male without blemish: he shall offer it at the door of the tent of meeting, that he may be accepted before Jehovah."
+    }
   },
   {
     "book": "LEV",
@@ -54,13 +61,16 @@
     "book": "LEV",
     "chapter": 1,
     "verse": 9,
-    "content": "but its inwards and its legs shall he wash with water: and the priest shall burn the whole on the altar, for a burnt-offering, an offering made by fire, of a sweet savor unto Jehovah."
+    "content": "but its inwards and its legs shall he wash with water. And the priest shall burn the whole on the altar, for a burnt-offering, an offering made by fire, of a sweet savor unto Jehovah."
   },
   {
     "book": "LEV",
     "chapter": 1,
     "verse": 10,
-    "content": "And if his oblation be of the flock, of the sheep, or of the goats, for a burnt-offering; he shall offer it a male without blemish."
+    "content": {
+      "paragraph": true,
+      "text": "And if his oblation be of the flock, of the sheep, or of the goats, for a burnt-offering; he shall offer it a male without blemish."
+    }
   },
   {
     "book": "LEV",
@@ -78,31 +88,56 @@
     "book": "LEV",
     "chapter": 1,
     "verse": 13,
-    "content": "but the inwards and the legs shall he wash with water; and the priest shall offer the whole, and burn it upon the altar: it is a burnt-offering, an offering made by fire, of a sweet savor unto Jehovah."
+    "content": "but the inwards and the legs shall he wash with water. And the priest shall offer the whole, and burn it upon the altar: it is a burnt-offering, an offering made by fire, of a sweet savor unto Jehovah."
   },
   {
     "book": "LEV",
     "chapter": 1,
     "verse": 14,
-    "content": "And if his oblation to Jehovah be a burnt-offering of birds, then he shall offer his oblation of turtle-doves, or of young pigeons."
+    "content": {
+      "paragraph": true,
+      "text": "And if his oblation to Jehovah be a burnt-offering of birds, then he shall offer his oblation of turtle-doves, or of young pigeons."
+    }
   },
   {
     "book": "LEV",
     "chapter": 1,
     "verse": 15,
-    "content": "And the priest shall bring it unto the altar, and wring off its head, and burn it on the altar; and the blood thereof shall be drained out on the side of the altar;"
+    "content": [
+      {
+        "text": "And the priest shall bring it unto the altar, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pinch", "marks": ["i"] }]
+        }
+      },
+      "wring off its head, and burn it on the altar; and the blood thereof shall be drained out on the side of the altar;"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 1,
     "verse": 16,
-    "content": "and he shall take away its crop with the filth thereof, and cast it beside the altar on the east part, in the place of the ashes:"
+    "content": [
+      {
+        "text": "and he shall take away its crop with the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "feathers", "marks": ["i"] }]
+        }
+      },
+      "filth thereof, and cast it beside the altar on the east part, in the place of the ashes:"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 1,
     "verse": 17,
-    "content": "and he shall rend it by the wings thereof, but shall not divide it asunder; and the priest shall burn it upon the altar, upon the wood that is upon the fire: it is a burnt-offering, an offering made by fire, of a sweet savor unto Jehovah."
+    "content": [
+      "and he shall rend it by the wings thereof, ",
+      { "text": "but", "marks": ["i"] },
+      " shall not divide it asunder. And the priest shall burn it upon the altar, upon the wood that is upon the fire: it is a burnt-offering, an offering made by fire, of a sweet savor unto Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -117,7 +152,11 @@
     "book": "LEV",
     "chapter": 2,
     "verse": 2,
-    "content": "and he shall bring it to Aaron’s sons the priests; and he shall take thereout his handful of the fine flour thereof, and of the oil thereof, with all the frankincense thereof; and the priest shall burn it as the memorial thereof upon the altar, an offering made by fire, of a sweet savor unto Jehovah:"
+    "content": [
+      "and he shall bring it to Aaron’s sons the priests; and he shall take thereout his handful of the fine flour thereof, and of the oil thereof, with all the frankincense thereof. And the priest shall burn ",
+      { "text": "it as", "marks": ["i"] },
+      " the memorial thereof upon the altar, an offering made by fire, of a sweet savor unto Jehovah:"
+    ]
   },
   {
     "book": "LEV",
@@ -129,13 +168,25 @@
     "book": "LEV",
     "chapter": 2,
     "verse": 4,
-    "content": "And when thou offerest an oblation of a meal-offering baken in the oven, it shall be unleavened cakes of fine flour mingled with oil, or unleavened wafers anointed with oil."
+    "content": {
+      "paragraph": true,
+      "text": "And when thou offerest an oblation of a meal-offering baken in the oven, it shall be unleavened cakes of fine flour mingled with oil, or unleavened wafers anointed with oil."
+    }
   },
   {
     "book": "LEV",
     "chapter": 2,
     "verse": 5,
-    "content": "And if thy oblation be a meal-offering of the baking-pan, it shall be of fine flour unleavened, mingled with oil."
+    "content": [
+      {
+        "text": "And if thy oblation be a meal-offering of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "flat plate", "marks": ["i"] }]
+        }
+      },
+      "baking-pan, it shall be of fine flour unleavened, mingled with oil."
+    ]
   },
   {
     "book": "LEV",
@@ -171,13 +222,20 @@
     "book": "LEV",
     "chapter": 2,
     "verse": 11,
-    "content": "No meal-offering, which ye shall offer unto Jehovah, shall be made with leaven; for ye shall burn no leaven, nor any honey, as an offering made by fire unto Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "No meal-offering, which ye shall offer unto Jehovah, shall be made with leaven; for ye shall burn no leaven, nor any honey, as an offering made by fire unto Jehovah."
+    }
   },
   {
     "book": "LEV",
     "chapter": 2,
     "verse": 12,
-    "content": "As an oblation of first-fruits ye shall offer them unto Jehovah: but they shall not come up for a sweet savor on the altar."
+    "content": [
+      "As an oblation of first-",
+      { "text": "fruits", "marks": ["i"] },
+      " ye shall offer them unto Jehovah: but they shall not come up for a sweet savor on the altar."
+    ]
   },
   {
     "book": "LEV",
@@ -189,7 +247,10 @@
     "book": "LEV",
     "chapter": 2,
     "verse": 14,
-    "content": "And if thou offer a meal-offering of first-fruits unto Jehovah, thou shalt offer for the meal-offering of thy first-fruits grain in the ear parched with fire, bruised grain of the fresh ear."
+    "content": {
+      "paragraph": true,
+      "text": "And if thou offer a meal-offering of first-fruits unto Jehovah, thou shalt offer for the meal-offering of thy first-fruits grain in the ear parched with fire, bruised grain of the fresh ear."
+    }
   },
   {
     "book": "LEV",
@@ -207,10 +268,17 @@
     "book": "LEV",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And if his oblation be a sacrifice of peace-offerings; if he offer of the herd, whether male or female, he shall offer it without blemish before Jehovah."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if his oblation be a sacrifice of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thank-offerings", "marks": ["i"] }]
+        }
+      },
+      "peace-offerings; if he offer of the herd, whether male or female, he shall offer it without blemish before Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -228,7 +296,22 @@
     "book": "LEV",
     "chapter": 3,
     "verse": 4,
-    "content": "and the two kidneys, and the fat that is on them, which is by the loins, and the caul upon the liver, with the kidneys, shall he take away."
+    "content": [
+      {
+        "text": "and the two kidneys, and the fat that is on them, which is by the loins, and the caul upon the liver, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "which he shall take away by the kidneys",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "with the kidneys, shall he take away."
+    ]
   },
   {
     "book": "LEV",
@@ -240,7 +323,10 @@
     "book": "LEV",
     "chapter": 3,
     "verse": 6,
-    "content": "And if his oblation for a sacrifice of peace-offerings unto Jehovah be of the flock; male or female, he shall offer it without blemish."
+    "content": {
+      "paragraph": true,
+      "text": "And if his oblation for a sacrifice of peace-offerings unto Jehovah be of the flock; male or female, he shall offer it without blemish."
+    }
   },
   {
     "book": "LEV",
@@ -270,13 +356,25 @@
     "book": "LEV",
     "chapter": 3,
     "verse": 11,
-    "content": "And the priest shall burn it upon the altar: it is the food of the offering made by fire unto Jehovah."
+    "content": [
+      {
+        "text": "And the priest shall burn it upon the altar: it is the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bread", "marks": ["i"] }, "."]
+        }
+      },
+      "food of the offering made by fire unto Jehovah."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 3,
     "verse": 12,
-    "content": "And if his oblation be a goat, then he shall offer it before Jehovah:"
+    "content": {
+      "paragraph": true,
+      "text": "And if his oblation be a goat, then he shall offer it before Jehovah:"
+    }
   },
   {
     "book": "LEV",
@@ -288,7 +386,11 @@
     "book": "LEV",
     "chapter": 3,
     "verse": 14,
-    "content": "And he shall offer thereof his oblation, even an offering made by fire unto Jehovah; the fat that covereth the inwards, and all the fat that is upon the inwards,"
+    "content": [
+      "And he shall offer thereof his oblation, ",
+      { "text": "even", "marks": ["i"] },
+      " an offering made by fire unto Jehovah; the fat that covereth the inwards, and all the fat that is upon the inwards,"
+    ]
   },
   {
     "book": "LEV",
@@ -321,7 +423,16 @@
     "book": "LEV",
     "chapter": 4,
     "verse": 2,
-    "content": "Speak unto the children of Israel, saying, If any one shall sin unwittingly, in any of the things which Jehovah hath commanded not to be done, and shall do any one of them:"
+    "content": [
+      {
+        "text": "Speak unto the children of Israel, saying, If any one shall sin ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "through error", "marks": ["i"] }]
+        }
+      },
+      "unwittingly, in any of the things which Jehovah hath commanded not to be done, and shall do any one of them:"
+    ]
   },
   {
     "book": "LEV",
@@ -387,7 +498,10 @@
     "book": "LEV",
     "chapter": 4,
     "verse": 13,
-    "content": "And if the whole congregation of Israel err, and the thing be hid from the eyes of the assembly, and they have done any of the things which Jehovah hath commanded not to be done, and are guilty;"
+    "content": {
+      "paragraph": true,
+      "text": "And if the whole congregation of Israel err, and the thing be hid from the eyes of the assembly, and they have done any of the things which Jehovah hath commanded not to be done, and are guilty;"
+    }
   },
   {
     "book": "LEV",
@@ -441,19 +555,22 @@
     "book": "LEV",
     "chapter": 4,
     "verse": 22,
-    "content": "When a ruler sinneth, and doeth unwittingly any one of all the things which Jehovah his God hath commanded not to be done, and is guilty;"
+    "content": {
+      "paragraph": true,
+      "text": "When a ruler sinneth, and doeth unwittingly any one of all the things which Jehovah his God hath commanded not to be done, and is guilty;"
+    }
   },
   {
     "book": "LEV",
     "chapter": 4,
     "verse": 23,
-    "content": "if his sin, wherein he hath sinned, be made known to him, he shall bring for his oblation a goat, a male without blemish;"
+    "content": "if his sin, wherein he hath sinned, be made known to him, he shall bring for his oblation a goat, a male without blemish."
   },
   {
     "book": "LEV",
     "chapter": 4,
     "verse": 24,
-    "content": "and he shall lay his hand upon the head of the goat, and kill it in the place where they kill the burnt-offering before Jehovah: it is a sin-offering."
+    "content": "And he shall lay his hand upon the head of the goat, and kill it in the place where they kill the burnt-offering before Jehovah: it is a sin-offering."
   },
   {
     "book": "LEV",
@@ -471,7 +588,21 @@
     "book": "LEV",
     "chapter": 4,
     "verse": 27,
-    "content": "And if any one of the common people sin unwittingly, in doing any of the things which Jehovah hath commanded not to be done, and be guilty;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if any one of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "people of the land", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "common people sin unwittingly, in doing any of the things which Jehovah hath commanded not to be done, and be guilty;"
+    ]
   },
   {
     "book": "LEV",
@@ -501,7 +632,10 @@
     "book": "LEV",
     "chapter": 4,
     "verse": 32,
-    "content": "And if he bring a lamb as his oblation for a sin-offering, he shall bring it a female without blemish."
+    "content": {
+      "paragraph": true,
+      "text": "And if he bring a lamb as his oblation for a sin-offering, he shall bring it a female without blemish."
+    }
   },
   {
     "book": "LEV",
@@ -513,22 +647,35 @@
     "book": "LEV",
     "chapter": 4,
     "verse": 34,
-    "content": "And the priest shall take of the blood of the sin-offering with his finger, and put it upon the horns of the altar of burnt-offering; and all the blood thereof shall he pour out at the base of the altar:"
+    "content": "And the priest shall take of the blood of the sin-offering with his finger, and put it upon the horns of the altar of burnt-offering; and all the blood thereof shall he pour out at the base of the altar."
   },
   {
     "book": "LEV",
     "chapter": 4,
     "verse": 35,
-    "content": "and all the fat thereof shall he take away, as the fat of the lamb is taken away from the sacrifice of peace-offerings; and the priest shall burn them on the altar, upon the offerings of Jehovah made by fire; and the priest shall make atonement for him as touching his sin that he hath sinned, and he shall be forgiven."
+    "content": [
+      {
+        "text": "And all the fat thereof shall he take away, as the fat of the lamb is taken away from the sacrifice of peace-offerings; and the priest shall burn them on the altar, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "after the manner of", "marks": ["i"] }]
+        }
+      },
+      "upon the offerings of Jehovah made by fire; and the priest shall make atonement for him as touching his sin that he hath sinned, and he shall be forgiven."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And if any one sin, in that he heareth the voice of adjuration, he being a witness, whether he hath seen or known, if he do not utter it, then he shall bear his iniquity."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if any one sin, in that he heareth the voice of adjuration, he being a witness, whether he hath seen or known, if he do not utter "
+      },
+      { "text": "it", "marks": ["i"] },
+      ", then he shall bear his iniquity."
+    ]
   },
   {
     "book": "LEV",
@@ -546,31 +693,60 @@
     "book": "LEV",
     "chapter": 5,
     "verse": 4,
-    "content": "Or if any one swear rashly with his lips to do evil, or to do good, whatsoever it be that a man shall utter rashly with an oath, and it be hid from him; when he knoweth of it, then he shall be guilty in one of these things."
+    "content": [
+      "Or if any one swear rashly with his lips to do evil, or to do good, whatsoever it be that a man shall utter rashly with an oath, and it be hid from him; when he knoweth of it, then he shall be guilty in one of these ",
+      { "text": "things", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 5,
-    "content": "And it shall be, when he shall be guilty in one of these things, that he shall confess that wherein he hath sinned:"
+    "content": [
+      "And it shall be, when he shall be guilty in one of these ",
+      { "text": "things", "marks": ["i"] },
+      ", that he shall confess that wherein he hath sinned:"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 6,
-    "content": "and he shall bring his trespass-offering unto Jehovah for his sin which he hath sinned, a female from the flock, a lamb or a goat, for a sin-offering; and the priest shall make atonement for him as concerning his sin."
+    "content": [
+      {
+        "text": "and he shall bring ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "for his guilt", "marks": ["i"] }]
+        }
+      },
+      "his trespass-offering unto Jehovah for his sin which he hath sinned, a female from the flock, a lamb or a goat, for a sin-offering; and the priest shall make atonement for him as concerning his sin."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 7,
-    "content": "And if his means suffice not for a lamb, then he shall bring his trespass-offering for that wherein he hath sinned, two turtle-doves, or two young pigeons, unto Jehovah; one for a sin-offering, and the other for a burnt-offering."
+    "content": {
+      "paragraph": true,
+      "text": "And if his means suffice not for a lamb, then he shall bring his trespass-offering for that wherein he hath sinned, two turtle-doves, or two young pigeons, unto Jehovah; one for a sin-offering, and the other for a burnt-offering."
+    }
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 8,
-    "content": "And he shall bring them unto the priest, who shall offer that which is for the sin-offering first, and wring off its head from its neck, but shall not divide it asunder:"
+    "content": [
+      {
+        "text": "And he shall bring them unto the priest, who shall offer that which is for the sin-offering first, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pinch", "marks": ["i"] }]
+        }
+      },
+      "wring off its head from its neck, but shall not divide it asunder:"
+    ]
   },
   {
     "book": "LEV",
@@ -582,31 +758,59 @@
     "book": "LEV",
     "chapter": 5,
     "verse": 10,
-    "content": "And he shall offer the second for a burnt-offering, according to the ordinance; and the priest shall make atonement for him as concerning his sin which he hath sinned, and he shall be forgiven."
+    "content": [
+      {
+        "text": "And he shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "prepare", "marks": ["i"] }]
+        }
+      },
+      "offer the second for a burnt-offering, according to the ordinance; and the priest shall make atonement for him as concerning his sin which he hath sinned, and he shall be forgiven."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 11,
-    "content": "But if his means suffice not for two turtle-doves, or two young pigeons, then he shall bring his oblation for that wherein he hath sinned, the tenth part of an ephah of fine flour for a sin-offering: he shall put no oil upon it, neither shall he put any frankincense thereon; for it is a sin-offering."
+    "content": {
+      "paragraph": true,
+      "text": "But if his means suffice not for two turtle-doves, or two young pigeons, then he shall bring his oblation for that wherein he hath sinned, the tenth part of an ephah of fine flour for a sin-offering: he shall put no oil upon it, neither shall he put any frankincense thereon; for it is a sin-offering."
+    }
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 12,
-    "content": "And he shall bring it to the priest, and the priest shall take his handful of it as the memorial thereof, and burn it on the altar, upon the offerings of Jehovah made by fire: it is a sin-offering."
+    "content": [
+      {
+        "text": "And he shall bring it to the priest, and the priest shall take his handful of it as the memorial thereof, and burn it on the altar, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "after the manner of", "marks": ["i"] }]
+        }
+      },
+      "upon the offerings of Jehovah made by fire: it is a sin-offering."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 13,
-    "content": "And the priest shall make atonement for him as touching his sin that he hath sinned in any of these things, and he shall be forgiven: and the remnant shall be the priest’s, as the meal-offering."
+    "content": [
+      "And the priest shall make atonement for him as touching his sin that he hath sinned in any of these things, and he shall be forgiven: and ",
+      { "text": "the remnant", "marks": ["i"] },
+      " shall be the priest’s, as the meal-offering."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 5,
     "verse": 14,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -624,7 +828,10 @@
     "book": "LEV",
     "chapter": 5,
     "verse": 17,
-    "content": "And if any one sin, and do any of the things which Jehovah hath commanded not to be done; though he knew it not, yet is he guilty, and shall bear his iniquity."
+    "content": {
+      "paragraph": true,
+      "text": "And if any one sin, and do any of the things which Jehovah hath commanded not to be done; though he knew it not, yet is he guilty, and shall bear his iniquity."
+    }
   },
   {
     "book": "LEV",
@@ -651,7 +858,16 @@
     "book": "LEV",
     "chapter": 6,
     "verse": 2,
-    "content": "If any one sin, and commit a trespass against Jehovah, and deal falsely with his neighbor in a matter of deposit, or of bargain, or of robbery, or have oppressed his neighbor,"
+    "content": [
+      {
+        "text": "If any one sin, and commit a trespass against Jehovah, and deal falsely with his neighbor in a matter of deposit, or of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pledge", "marks": ["i"] }]
+        }
+      },
+      "bargain, or of robbery, or have oppressed his neighbor,"
+    ]
   },
   {
     "book": "LEV",
@@ -687,13 +903,25 @@
     "book": "LEV",
     "chapter": 6,
     "verse": 8,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
     "chapter": 6,
     "verse": 9,
-    "content": "Command Aaron and his sons, saying, This is the law of the burnt-offering: the burnt-offering shall be on the hearth upon the altar all night unto the morning; and the fire of the altar shall be kept burning thereon."
+    "content": [
+      {
+        "text": "Command Aaron and his sons, saying, This is the law of the burnt-offering: the burnt-offering shall be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "on its firewood", "marks": ["i"] }]
+        }
+      },
+      "on the hearth upon the altar all night unto the morning; and the fire of the altar shall be kept burning thereon."
+    ]
   },
   {
     "book": "LEV",
@@ -723,7 +951,10 @@
     "book": "LEV",
     "chapter": 6,
     "verse": 14,
-    "content": "And this is the law of the meal-offering: the sons of Aaron shall offer it before Jehovah, before the altar."
+    "content": {
+      "paragraph": true,
+      "text": "And this is the law of the meal-offering: the sons of Aaron shall offer it before Jehovah, before the altar."
+    }
   },
   {
     "book": "LEV",
@@ -747,13 +978,20 @@
     "book": "LEV",
     "chapter": 6,
     "verse": 18,
-    "content": "Every male among the children of Aaron shall eat of it, as his portion for ever throughout your generations, from the offerings of Jehovah made by fire: whosoever toucheth them shall be holy."
+    "content": [
+      "Every male among the children of Aaron shall eat of it, as ",
+      { "text": "his", "marks": ["i"] },
+      " portion for ever throughout your generations, from the offerings of Jehovah made by fire: whosoever toucheth them shall be holy."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 6,
     "verse": 19,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -765,7 +1003,16 @@
     "book": "LEV",
     "chapter": 6,
     "verse": 21,
-    "content": "On a baking-pan it shall be made with oil; when it is soaked, thou shalt bring it in: in baken pieces shalt thou offer the meal-offering for a sweet savor unto Jehovah."
+    "content": [
+      {
+        "text": "On a baking-pan it shall be made with oil; when it is soaked, thou shalt bring it in: in ",
+        "foot": {
+          "type": "stu",
+          "content": "The meaning of the Hebrew word is uncertain."
+        }
+      },
+      "baken pieces shalt thou offer the meal-offering for a sweet savor unto Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -783,7 +1030,10 @@
     "book": "LEV",
     "chapter": 6,
     "verse": 24,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -801,7 +1051,15 @@
     "book": "LEV",
     "chapter": 6,
     "verse": 27,
-    "content": "Whatsoever shall touch the flesh thereof shall be holy; and when there is sprinkled of the blood thereof upon any garment, thou shalt wash that whereon it was sprinkled in a holy place."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Whosoever", "marks": ["i"] }]
+        }
+      },
+      "Whatsoever shall touch the flesh thereof shall be holy; and when there is sprinkled of the blood thereof upon any garment, thou shalt wash that whereon it was sprinkled in a holy place."
+    ]
   },
   {
     "book": "LEV",
@@ -888,7 +1146,10 @@
     "book": "LEV",
     "chapter": 7,
     "verse": 11,
-    "content": "And this is the law of the sacrifice of peace-offerings, which one shall offer unto Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "And this is the law of the sacrifice of peace-offerings, which one shall offer unto Jehovah."
+    }
   },
   {
     "book": "LEV",
@@ -912,7 +1173,10 @@
     "book": "LEV",
     "chapter": 7,
     "verse": 15,
-    "content": "And the flesh of the sacrifice of his peace-offerings for thanksgiving shall be eaten on the day of his oblation; he shall not leave any of it until the morning."
+    "content": {
+      "paragraph": true,
+      "text": "And the flesh of the sacrifice of his peace-offerings for thanksgiving shall be eaten on the day of his oblation; he shall not leave any of it until the morning."
+    }
   },
   {
     "book": "LEV",
@@ -936,7 +1200,10 @@
     "book": "LEV",
     "chapter": 7,
     "verse": 19,
-    "content": "And the flesh that toucheth any unclean thing shall not be eaten; it shall be burnt with fire. And as for the flesh, every one that is clean shall eat thereof:"
+    "content": {
+      "paragraph": true,
+      "text": "And the flesh that toucheth any unclean thing shall not be eaten; it shall be burnt with fire. And as for the flesh, every one that is clean shall eat thereof:"
+    }
   },
   {
     "book": "LEV",
@@ -954,7 +1221,10 @@
     "book": "LEV",
     "chapter": 7,
     "verse": 22,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -990,7 +1260,10 @@
     "book": "LEV",
     "chapter": 7,
     "verse": 28,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -1014,37 +1287,83 @@
     "book": "LEV",
     "chapter": 7,
     "verse": 32,
-    "content": "And the right thigh shall ye give unto the priest for a heave-offering out of the sacrifices of your peace-offerings."
+    "content": [
+      {
+        "text": "And the right ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shoulder", "marks": ["i"] }]
+        }
+      },
+      "thigh shall ye give unto the priest for a heave-offering out of the sacrifices of your peace-offerings."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 7,
     "verse": 33,
-    "content": "He among the sons of Aaron that offereth the blood of the peace-offerings, and the fat, shall have the right thigh for a portion."
+    "content": [
+      {
+        "text": "He among the sons of Aaron that offereth the blood of the peace-offerings, and the fat, shall have the right ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shoulder", "marks": ["i"] }]
+        }
+      },
+      "thigh for a portion."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 7,
     "verse": 34,
-    "content": "For the wave-breast and the heave-thigh have I taken of the children of Israel out of the sacrifices of their peace-offerings, and have given them unto Aaron the priest and unto his sons as their portion for ever from the children of Israel."
+    "content": [
+      {
+        "text": "For the wave-breast and the heave-",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shoulder", "marks": ["i"] }]
+        }
+      },
+      "thigh have I taken of the children of Israel out of the sacrifices of their peace-offerings, and have given them unto Aaron the priest and unto his sons as ",
+      { "text": "their", "marks": ["i"] },
+      " portion for ever from the children of Israel."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 7,
     "verse": 35,
-    "content": "This is the anointing-portion of Aaron, and the anointing-portion of his sons, out of the offerings of Jehovah made by fire, in the day when he presented them to minister unto Jehovah in the priest’s office;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "This is the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "portion", "marks": ["i"] }]
+        }
+      },
+      "anointing-portion of Aaron, and the anointing-portion of his sons, out of the offerings of Jehovah made by fire, in the day when he presented them to minister unto Jehovah in the priest’s office;"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 7,
     "verse": 36,
-    "content": "which Jehovah commanded to be given them of the children of Israel, in the day that he anointed them. It is their portion for ever throughout their generations."
+    "content": [
+      "which Jehovah commanded to be given them of the children of Israel, in the day that he anointed them. It is ",
+      { "text": "their", "marks": ["i"] },
+      " portion for ever throughout their generations."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 7,
     "verse": 37,
-    "content": "This is the law of the burnt-offering, of the meal-offering, and of the sin-offering, and of the trespass-offering, and of the consecration, and of the sacrifice of peace-offerings;"
+    "content": {
+      "paragraph": true,
+      "text": "This is the law of the burnt-offering, of the meal-offering, and of the sin-offering, and of the trespass-offering, and of the consecration, and of the sacrifice of peace-offerings;"
+    }
   },
   {
     "book": "LEV",
@@ -1089,7 +1408,10 @@
     "book": "LEV",
     "chapter": 8,
     "verse": 6,
-    "content": "And Moses brought Aaron and his sons, and washed them with water."
+    "content": {
+      "paragraph": true,
+      "text": "And Moses brought Aaron and his sons, and washed them with water."
+    }
   },
   {
     "book": "LEV",
@@ -1101,19 +1423,51 @@
     "book": "LEV",
     "chapter": 8,
     "verse": 8,
-    "content": "And he placed the breastplate upon him: and in the breastplate he put the Urim and the Thummim."
+    "content": [
+      {
+        "text": "And he placed the breastplate upon him: and in the breastplate he put ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "the Lights and the Perfections", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the Urim and the Thummim."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 8,
     "verse": 9,
-    "content": "And he set the mitre upon his head; and upon the mitre, in front, did he set the golden plate, the holy crown; as Jehovah commanded Moses."
+    "content": [
+      {
+        "text": "And he set the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "turban", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "mitre upon his head; and upon the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "turban", "marks": ["i"] }]
+        }
+      },
+      "mitre, in front, did he set the golden plate, the holy crown; as Jehovah commanded Moses."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 8,
     "verse": 10,
-    "content": "And Moses took the anointing oil, and anointed the tabernacle and all that was therein, and sanctified them."
+    "content": {
+      "paragraph": true,
+      "text": "And Moses took the anointing oil, and anointed the tabernacle and all that was therein, and sanctified them."
+    }
   },
   {
     "book": "LEV",
@@ -1137,7 +1491,10 @@
     "book": "LEV",
     "chapter": 8,
     "verse": 14,
-    "content": "And he brought the bullock of the sin-offering: and Aaron and his sons laid their hands upon the head of the bullock of the sin-offering."
+    "content": {
+      "paragraph": true,
+      "text": "And he brought the bullock of the sin-offering: and Aaron and his sons laid their hands upon the head of the bullock of the sin-offering."
+    }
   },
   {
     "book": "LEV",
@@ -1161,7 +1518,10 @@
     "book": "LEV",
     "chapter": 8,
     "verse": 18,
-    "content": "And he presented the ram of the burnt-offering: and Aaron and his sons laid their hands upon the head of the ram."
+    "content": {
+      "paragraph": true,
+      "text": "And he presented the ram of the burnt-offering: and Aaron and his sons laid their hands upon the head of the ram."
+    }
   },
   {
     "book": "LEV",
@@ -1185,7 +1545,10 @@
     "book": "LEV",
     "chapter": 8,
     "verse": 22,
-    "content": "And he presented the other ram, the ram of consecration: and Aaron and his sons laid their hands upon the head of the ram."
+    "content": {
+      "paragraph": true,
+      "text": "And he presented the other ram, the ram of consecration: and Aaron and his sons laid their hands upon the head of the ram."
+    }
   },
   {
     "book": "LEV",
@@ -1203,7 +1566,16 @@
     "book": "LEV",
     "chapter": 8,
     "verse": 25,
-    "content": "And he took the fat, and the fat tail, and all the fat that was upon the inwards, and the caul of the liver, and the two kidneys, and their fat, and the right thigh:"
+    "content": [
+      {
+        "text": "And he took the fat, and the fat tail, and all the fat that was upon the inwards, and the caul of the liver, and the two kidneys, and their fat, and the right ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shoulder", "marks": ["i"] }]
+        }
+      },
+      "thigh:"
+    ]
   },
   {
     "book": "LEV",
@@ -1233,13 +1605,29 @@
     "book": "LEV",
     "chapter": 8,
     "verse": 30,
-    "content": "And Moses took of the anointing oil, and of the blood which was upon the altar, and sprinkled it upon Aaron, upon his garments, and upon his sons, and upon his sons’ garments with him, and sanctified Aaron, his garments, and his sons, and his sons’ garments with him."
+    "content": {
+      "paragraph": true,
+      "text": "And Moses took of the anointing oil, and of the blood which was upon the altar, and sprinkled it upon Aaron, upon his garments, and upon his sons, and upon his sons’ garments with him, and sanctified Aaron, his garments, and his sons, and his sons’ garments with him."
+    }
   },
   {
     "book": "LEV",
     "chapter": 8,
     "verse": 31,
-    "content": "And Moses said unto Aaron and to his sons, Boil the flesh at the door of the tent of meeting: and there eat it and the bread that is in the basket of consecration, as I commanded, saying, Aaron and his sons shall eat it."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Moses said unto Aaron and to his sons, Boil the flesh at the door of the tent of meeting: and there eat it and the bread that is in the basket of consecration, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, as otherwise read, ",
+            { "text": "as I am commanded", "marks": ["i"] }
+          ]
+        }
+      },
+      "as I commanded, saying, Aaron and his sons shall eat it."
+    ]
   },
   {
     "book": "LEV",
@@ -1251,7 +1639,20 @@
     "book": "LEV",
     "chapter": 8,
     "verse": 33,
-    "content": "And ye shall not go out from the door of the tent of meeting seven days, until the days of your consecration be fulfilled: for he shall consecrate you seven days."
+    "content": [
+      {
+        "text": "And ye shall not go out from the door of the tent of meeting seven days, until the days of your consecration be fulfilled: for he shall ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "fill your hand", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "consecrate you seven days."
+    ]
   },
   {
     "book": "LEV",
@@ -1320,7 +1721,10 @@
     "book": "LEV",
     "chapter": 9,
     "verse": 8,
-    "content": "So Aaron drew near unto the altar, and slew the calf of the sin-offering, which was for himself."
+    "content": {
+      "paragraph": true,
+      "text": "So Aaron drew near unto the altar, and slew the calf of the sin-offering, which was for himself."
+    }
   },
   {
     "book": "LEV",
@@ -1344,7 +1748,10 @@
     "book": "LEV",
     "chapter": 9,
     "verse": 12,
-    "content": "And he slew the burnt-offering; and Aaron’s sons delivered unto him the blood, and he sprinkled it upon the altar round about."
+    "content": {
+      "paragraph": true,
+      "text": "And he slew the burnt-offering; and Aaron’s sons delivered unto him the blood, and he sprinkled it upon the altar round about."
+    }
   },
   {
     "book": "LEV",
@@ -1362,7 +1769,10 @@
     "book": "LEV",
     "chapter": 9,
     "verse": 15,
-    "content": "And he presented the people’s oblation, and took the goat of the sin-offering which was for the people, and slew it, and offered it for sin, as the first."
+    "content": {
+      "paragraph": true,
+      "text": "And he presented the people’s oblation, and took the goat of the sin-offering which was for the people, and slew it, and offered it for sin, as the first."
+    }
   },
   {
     "book": "LEV",
@@ -1380,13 +1790,20 @@
     "book": "LEV",
     "chapter": 9,
     "verse": 18,
-    "content": "He slew also the ox and the ram, the sacrifice of peace-offerings, which was for the people: and Aaron’s sons delivered unto him the blood, which he sprinkled upon the altar round about,"
+    "content": {
+      "paragraph": true,
+      "text": "He slew also the ox and the ram, the sacrifice of peace-offerings, which was for the people: and Aaron’s sons delivered unto him the blood, which he sprinkled upon the altar round about,"
+    }
   },
   {
     "book": "LEV",
     "chapter": 9,
     "verse": 19,
-    "content": "and the fat of the ox and of the ram, the fat tail, and that which covereth the inwards, and the kidneys, and the caul of the liver:"
+    "content": [
+      "and the fat of the ox and of the ram, the fat tail, and that which covereth ",
+      { "text": "the inwards", "marks": ["i"] },
+      ", and the kidneys, and the caul of the liver:"
+    ]
   },
   {
     "book": "LEV",
@@ -1404,7 +1821,10 @@
     "book": "LEV",
     "chapter": 9,
     "verse": 22,
-    "content": "And Aaron lifted up his hands toward the people, and blessed them; and he came down from offering the sin-offering, and the burnt-offering, and the peace-offerings."
+    "content": {
+      "paragraph": true,
+      "text": "And Aaron lifted up his hands toward the people, and blessed them; and he came down from offering the sin-offering, and the burnt-offering, and the peace-offerings."
+    }
   },
   {
     "book": "LEV",
@@ -1437,7 +1857,16 @@
     "book": "LEV",
     "chapter": 10,
     "verse": 3,
-    "content": "Then Moses said unto Aaron, This is it that Jehovah spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace."
+    "content": [
+      {
+        "text": "Then Moses said unto Aaron, This is it that Jehovah spake, saying, I will be sanctified in them that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "are nigh", "marks": ["i"] }]
+        }
+      },
+      "come nigh me, and before all the people I will be glorified. And Aaron held his peace."
+    ]
   },
   {
     "book": "LEV",
@@ -1455,7 +1884,19 @@
     "book": "LEV",
     "chapter": 10,
     "verse": 6,
-    "content": "And Moses said unto Aaron, and unto Eleazar and unto Ithamar, his sons, Let not the hair of your heads go loose, neither rend your clothes; that ye die not, and that he be not wroth with all the congregation: but let your brethren, the whole house of Israel, bewail the burning which Jehovah hath kindled."
+    "content": [
+      {
+        "text": "And Moses said unto Aaron, and unto Eleazar and unto Ithamar, his sons, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to Septuagint, Vulgate, and Syriac, ",
+            { "text": "Uncover not your heads", "marks": ["i"] }
+          ]
+        }
+      },
+      "Let not the hair of your heads go loose, neither rend your clothes; that ye die not, and that he be not wroth with all the congregation: but let your brethren, the whole house of Israel, bewail the burning which Jehovah hath kindled."
+    ]
   },
   {
     "book": "LEV",
@@ -1467,7 +1908,10 @@
     "book": "LEV",
     "chapter": 10,
     "verse": 8,
-    "content": "And Jehovah spake unto Aaron, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Aaron, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -1479,19 +1923,40 @@
     "book": "LEV",
     "chapter": 10,
     "verse": 10,
-    "content": "and that ye may make a distinction between the holy and the common, and between the unclean and the clean;"
+    "content": [
+      {
+        "text": "and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ye shall", "marks": ["i"] }]
+        }
+      },
+      "that ye may make a distinction between the holy and the common, and between the unclean and the clean;"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 10,
     "verse": 11,
-    "content": "and that ye may teach the children of Israel all the statutes which Jehovah hath spoken unto them by Moses."
+    "content": [
+      {
+        "text": "and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ye shall", "marks": ["i"] }]
+        }
+      },
+      "that ye may teach the children of Israel all the statutes which Jehovah hath spoken unto them by Moses."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 10,
     "verse": 12,
-    "content": "And Moses spake unto Aaron, and unto Eleazar and unto Ithamar, his sons that were left, Take the meal-offering that remaineth of the offerings of Jehovah made by fire, and eat it without leaven beside the altar; for it is most holy;"
+    "content": {
+      "paragraph": true,
+      "text": "And Moses spake unto Aaron, and unto Eleazar and unto Ithamar, his sons that were left, Take the meal-offering that remaineth of the offerings of Jehovah made by fire, and eat it without leaven beside the altar; for it is most holy;"
+    }
   },
   {
     "book": "LEV",
@@ -1515,13 +1980,25 @@
     "book": "LEV",
     "chapter": 10,
     "verse": 16,
-    "content": "And Moses diligently sought the goat of the sin-offering, and, behold, it was burnt: and he was angry with Eleazar and with Ithamar, the sons of Aaron that were left, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Moses diligently sought the goat of the sin-offering, and, behold, it was burnt: and he was angry with Eleazar and with Ithamar, the sons of Aaron that were left, saying,"
+    }
   },
   {
     "book": "LEV",
     "chapter": 10,
     "verse": 17,
-    "content": "Wherefore have ye not eaten the sin-offering in the place of the sanctuary, seeing it is most holy, and he hath given it you to bear the iniquity of the congregation, to make atonement for them before Jehovah?"
+    "content": [
+      {
+        "text": "Wherefore have ye not eaten the sin-offering in the place of the sanctuary, seeing it is most holy, and he hath given it you ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to take away", "marks": ["i"] }]
+        }
+      },
+      "to bear the iniquity of the congregation, to make atonement for them before Jehovah?"
+    ]
   },
   {
     "book": "LEV",
@@ -1539,7 +2016,11 @@
     "book": "LEV",
     "chapter": 10,
     "verse": 20,
-    "content": "And when Moses heard that, it was well-pleasing in his sight."
+    "content": [
+      "And when Moses heard ",
+      { "text": "that", "marks": ["i"] },
+      ", it was well-pleasing in his sight."
+    ]
   },
   {
     "book": "LEV",
@@ -1560,31 +2041,93 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 3,
-    "content": "Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that may ye eat."
+    "content": [
+      "Whatsoever parteth the hoof, and is clovenfooted, ",
+      {
+        "text": "and",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bringeth up", "marks": ["i"] }, "."]
+        }
+      },
+      " cheweth the cud, among the beasts, that may ye eat."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 4,
-    "content": "Nevertheless these shall ye not eat of them that chew the cud, or of them that part the hoof: the camel, because he cheweth the cud but parteth not the hoof, he is unclean unto you."
+    "content": [
+      {
+        "text": "Nevertheless these shall ye not eat of them that chew the cud, or of them that part the hoof: the camel, because he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bringeth up", "marks": ["i"] }, "."]
+        }
+      },
+      "cheweth the cud but parteth not the hoof, he is unclean unto you."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 5,
-    "content": "And the coney, because he cheweth the cud but parteth not the hoof, he is unclean unto you."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "shaphan", "marks": ["i"] },
+            ", the ",
+            { "text": "Hyrax Syriacus", "marks": ["i"] },
+            " or ",
+            { "text": "rock-badger", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "coney, because he ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bringeth up", "marks": ["i"] }, "."]
+        }
+      },
+      "cheweth the cud but parteth not the hoof, he is unclean unto you."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 6,
-    "content": "And the hare, because she cheweth the cud but parteth not the hoof, she is unclean unto you."
+    "content": [
+      {
+        "text": "And the hare, because she ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bringeth up", "marks": ["i"] }, "."]
+        }
+      },
+      "cheweth the cud but parteth not the hoof, she is unclean unto you."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 7,
-    "content": "And the swine, because he parteth the hoof, and is clovenfooted, but cheweth not the cud, he is unclean unto you."
+    "content": [
+      {
+        "text": "And the swine, because he parteth the hoof, and is clovenfooted, but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bringeth up", "marks": ["i"] }, "."]
+        }
+      },
+      "cheweth not the cud, he is unclean unto you."
+    ]
   },
   {
     "book": "LEV",
@@ -1596,7 +2139,10 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 9,
-    "content": "These may ye eat of all that are in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, that may ye eat."
+    "content": {
+      "paragraph": true,
+      "text": "These may ye eat of all that are in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, that may ye eat."
+    }
   },
   {
     "book": "LEV",
@@ -1620,7 +2166,17 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 13,
-    "content": "And these ye shall have in abomination among the birds; they shall not be eaten, they are an abomination: the eagle, and the gier-eagle, and the ospray,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And these ye shall have in abomination among the birds; they shall not be eaten, they are an abomination: the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "great vulture", "marks": ["i"] }]
+        }
+      },
+      "eagle, and the gier-eagle, and the ospray,"
+    ]
   },
   {
     "book": "LEV",
@@ -1638,7 +2194,20 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 16,
-    "content": "and the ostrich, and the night-hawk, and the seamew, and the hawk after its kind,"
+    "content": [
+      {
+        "text": "and the ostrich, and the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "tahmas", "marks": ["i"] },
+            ", of uncertain meaning."
+          ]
+        }
+      },
+      "night-hawk, and the sea-mew, and the hawk after its kind,"
+    ]
   },
   {
     "book": "LEV",
@@ -1650,31 +2219,82 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 18,
-    "content": "and the horned owl, and the pelican, and the vulture,"
+    "content": [
+      {
+        "text": "and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "swan", "marks": ["i"] }]
+        }
+      },
+      "horned owl, and the pelican, and the vulture,"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 19,
-    "content": "and the stork, the heron after its kind, and the hoopoe, and the bat."
+    "content": [
+      {
+        "text": "and the stork, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ibis", "marks": ["i"] }]
+        }
+      },
+      "heron after its kind, and the hoopoe, and the bat."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 20,
-    "content": "All winged creeping things that go upon all fours are an abomination unto you."
+    "content": {
+      "paragraph": true,
+      "text": "All winged creeping things that go upon all fours are an abomination unto you."
+    }
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 21,
-    "content": "Yet these may ye eat of all winged creeping things that go upon all fours, which have legs above their feet, wherewith to leap upon the earth."
+    "content": "Yet these may ye eat of all winged creeping things that go upon all fours, which have legs above their feet, wherewith to leap upon the earth;"
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 22,
-    "content": "Even these of them ye may eat: the locust after its kind, and the bald locust after its kind, and the cricket after its kind, and the grasshopper after its kind."
+    "content": [
+      {
+        "text": "even these of them ye may eat: the ",
+        "foot": {
+          "type": "stu",
+          "content": "Four kinds of locusts or grasshoppers, which are not certainly known."
+        }
+      },
+      {
+        "text": "locust after its kind, and the ",
+        "foot": {
+          "type": "stu",
+          "content": "Four kinds of locusts or grasshoppers, which are not certainly known."
+        }
+      },
+      {
+        "text": "bald locust after its kind, and the ",
+        "foot": {
+          "type": "stu",
+          "content": "Four kinds of locusts or grasshoppers, which are not certainly known."
+        }
+      },
+      {
+        "text": "cricket after its kind, and the ",
+        "foot": {
+          "type": "stu",
+          "content": "Four kinds of locusts or grasshoppers, which are not certainly known."
+        }
+      },
+      "grasshopper after its kind."
+    ]
   },
   {
     "book": "LEV",
@@ -1686,13 +2306,20 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 24,
-    "content": "And by these ye shall become unclean: whosoever toucheth the carcass of them shall be unclean until the even;"
+    "content": {
+      "paragraph": true,
+      "text": "And by these ye shall become unclean: whosoever toucheth the carcass of them shall be unclean until the even;"
+    }
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 25,
-    "content": "And whosoever beareth aught of the carcass of them shall wash his clothes, and be unclean until the even."
+    "content": [
+      "and whosoever beareth ",
+      { "text": "aught", "marks": ["i"] },
+      " of the carcass of them shall wash his clothes, and be unclean until the even."
+    ]
   },
   {
     "book": "LEV",
@@ -1716,13 +2343,46 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 29,
-    "content": "And these are they which are unclean unto you among the creeping things that creep upon the earth: the weasel, and the mouse, and the great lizard after its kind,"
+    "content": {
+      "paragraph": true,
+      "text": "And these are they which are unclean unto you among the creeping things that creep upon the earth: the weasel, and the mouse, and the great lizard after its kind,"
+    }
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 30,
-    "content": "and the gecko, and the land-crocodile, and the lizard, and the sand-lizard, and the chameleon."
+    "content": [
+      {
+        "text": "and the ",
+        "foot": {
+          "type": "stu",
+          "content": "Words of uncertain meaning, but probably denoting four kinds of lizards."
+        }
+      },
+      {
+        "text": "gecko, and the ",
+        "foot": {
+          "type": "stu",
+          "content": "Words of uncertain meaning, but probably denoting four kinds of lizards."
+        }
+      },
+      {
+        "text": "land-crocodile, and the ",
+        "foot": {
+          "type": "stu",
+          "content": "Words of uncertain meaning, but probably denoting four kinds of lizards."
+        }
+      },
+      {
+        "text": "lizard, and the ",
+        "foot": {
+          "type": "stu",
+          "content": "Words of uncertain meaning, but probably denoting four kinds of lizards."
+        }
+      },
+      "sand-lizard, and the chameleon."
+    ]
   },
   {
     "book": "LEV",
@@ -1746,37 +2406,81 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 34,
-    "content": "All food therein which may be eaten, that on which water cometh, shall be unclean; and all drink that may be drunk in every such vessel shall be unclean."
+    "content": [
+      "All food ",
+      { "text": "therein", "marks": ["i"] },
+      " which may be eaten, that on which water cometh, shall be unclean; and all drink that may be drunk in every ",
+      { "text": "such", "marks": ["i"] },
+      " vessel shall be unclean."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 35,
-    "content": "And every thing whereupon any part of their carcass falleth shall be unclean; whether oven, or range for pots, it shall be broken in pieces: they are unclean, and shall be unclean unto you."
+    "content": [
+      "And every thing whereupon ",
+      { "text": "any part", "marks": ["i"] },
+      {
+        "text": " of their carcass falleth shall be unclean; whether oven, or ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stewpan", "marks": ["i"] }]
+        }
+      },
+      "range for pots, it shall be broken in pieces: they are unclean, and shall be unclean unto you."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 36,
-    "content": "Nevertheless a fountain or a pit wherein is a gathering of water shall be clean: but that which toucheth their carcass shall be unclean."
+    "content": [
+      {
+        "text": "Nevertheless a fountain or a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "cistern", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "pit wherein is a gathering of water shall be clean: but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "he who", "marks": ["i"] }]
+        }
+      },
+      "that which toucheth their carcass shall be unclean."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 37,
-    "content": "And if aught of their carcass fall upon any sowing seed which is to be sown, it is clean."
+    "content": [
+      "And if ",
+      { "text": "aught", "marks": ["i"] },
+      " of their carcass fall upon any sowing seed which is to be sown, it is clean."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 38,
-    "content": "But if water be put upon the seed, and aught of their carcass fall thereon, it is unclean unto you."
+    "content": [
+      "But if water be put upon the seed, and ",
+      { "text": "aught", "marks": ["i"] },
+      " of their carcass fall thereon, it is unclean unto you."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 11,
     "verse": 39,
-    "content": "And if any beast, of which ye may eat, die; he that toucheth the carcass thereof shall be unclean until the even."
+    "content": {
+      "paragraph": true,
+      "text": "And if any beast, of which ye may eat, die; he that toucheth the carcass thereof shall be unclean until the even."
+    }
   },
   {
     "book": "LEV",
@@ -1788,7 +2492,10 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 41,
-    "content": "And every creeping thing that creepeth upon the earth is an abomination; it shall not be eaten."
+    "content": {
+      "paragraph": true,
+      "text": "And every creeping thing that creepeth upon the earth is an abomination; it shall not be eaten."
+    }
   },
   {
     "book": "LEV",
@@ -1818,7 +2525,10 @@
     "book": "LEV",
     "chapter": 11,
     "verse": 46,
-    "content": "This is the law of the beast, and of the bird, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth;"
+    "content": {
+      "paragraph": true,
+      "text": "This is the law of the beast, and of the bird, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth;"
+    }
   },
   {
     "book": "LEV",
@@ -1839,7 +2549,16 @@
     "book": "LEV",
     "chapter": 12,
     "verse": 2,
-    "content": "Speak unto the children of Israel, saying, If a woman conceive seed, and bear a man-child, then she shall be unclean seven days; as in the days of the impurity of her sickness shall she be unclean."
+    "content": [
+      {
+        "text": "Speak unto the children of Israel, saying, If a woman conceive seed, and bear a man-child, then she shall be unclean seven days; as in the days of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "separation", "marks": ["i"] }]
+        }
+      },
+      "impurity of her sickness shall she be unclean."
+    ]
   },
   {
     "book": "LEV",
@@ -1851,19 +2570,37 @@
     "book": "LEV",
     "chapter": 12,
     "verse": 4,
-    "content": "And she shall continue in the blood of her purifying three and thirty days; she shall touch no hallowed thing, nor come into the sanctuary, until the days of her purifying be fulfilled."
+    "content": [
+      "And she shall continue in the blood of ",
+      { "text": "her", "marks": ["i"] },
+      " purifying three and thirty days; she shall touch no hallowed thing, nor come into the sanctuary, until the days of her purifying be fulfilled."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 12,
     "verse": 5,
-    "content": "But if she bear a maid-child, then she shall be unclean two weeks, as in her impurity; and she shall continue in the blood of her purifying threescore and six days."
+    "content": [
+      {
+        "text": "But if she bear a maid-child, then she shall be unclean two weeks, as in her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "separation", "marks": ["i"] }]
+        }
+      },
+      "impurity; and she shall continue in the blood of ",
+      { "text": "her", "marks": ["i"] },
+      " purifying threescore and six days."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 12,
     "verse": 6,
-    "content": "And when the days of her purifying are fulfilled, for a son, or for a daughter, she shall bring a lamb a year old for a burnt-offering, and a young pigeon, or a turtle-dove, for a sin-offering, unto the door of the tent of meeting, unto the priest:"
+    "content": {
+      "paragraph": true,
+      "text": "And when the days of her purifying are fulfilled, for a son, or for a daughter, she shall bring a lamb a year old for a burnt-offering, and a young pigeon, or a turtle-dove, for a sin-offering, unto the door of the tent of meeting, unto the priest:"
+    }
   },
   {
     "book": "LEV",
@@ -1902,7 +2639,11 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 4,
-    "content": "And if the bright spot be white in the skin of his flesh, and the appearance thereof be not deeper than the skin, and the hair thereof be not turned white, then the priest shall shut up him that hath the plague seven days:"
+    "content": [
+      "And if the bright spot be white in the skin of his flesh, and the appearance thereof be not deeper than the skin, and the hair thereof be not turned white, then the priest shall shut up ",
+      { "text": "him that hath", "marks": ["i"] },
+      " the plague seven days:"
+    ]
   },
   {
     "book": "LEV",
@@ -1932,7 +2673,10 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 9,
-    "content": "When the plague of leprosy is in a man, then he shall be brought unto the priest;"
+    "content": {
+      "paragraph": true,
+      "text": "When the plague of leprosy is in a man, then he shall be brought unto the priest;"
+    }
   },
   {
     "book": "LEV",
@@ -1944,19 +2688,29 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 11,
-    "content": "it is an old leprosy in the skin of his flesh, and the priest shall pronounce him unclean: he shall not shut him up, for he is unclean."
+    "content": "it is an old leprosy in the skin of his flesh, and the priest shall pronounce him unclean: he shall not shut him up; for he is unclean."
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 12,
-    "content": "And if the leprosy break out abroad in the skin, and the leprosy cover all the skin of him that hath the plague from his head even to his feet, as far as appeareth to the priest;"
+    "content": [
+      "And if the leprosy break out abroad in the skin, and the leprosy cover all the skin of ",
+      { "text": "him that hath", "marks": ["i"] },
+      " the plague from his head even to his feet, as far as appeareth to the priest;"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 13,
-    "content": "then the priest shall look; and, behold, if the leprosy have covered all his flesh, he shall pronounce him clean that hath the plague: it is all turned white: he is clean."
+    "content": [
+      "then the priest shall look; and, behold, if the leprosy have covered all his flesh, he shall pronounce ",
+      { "text": "him", "marks": ["i"] },
+      " clean ",
+      { "text": "that hath", "marks": ["i"] },
+      " the plague: it is all turned white: he is clean."
+    ]
   },
   {
     "book": "LEV",
@@ -1980,19 +2734,28 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 17,
-    "content": "and the priest shall look on him; and, behold, if the plague be turned into white, then the priest shall pronounce him clean that hath the plague: he is clean."
+    "content": [
+      "and the priest shall look on him; and, behold, if the plague be turned into white, then the priest shall pronounce ",
+      { "text": "him", "marks": ["i"] },
+      " clean ",
+      { "text": "that hath", "marks": ["i"] },
+      " the plague: he is clean."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 18,
-    "content": "And when the flesh hath in the skin thereof a boil, and it is healed,"
+    "content": {
+      "paragraph": true,
+      "text": "And when the flesh hath in the skin thereof a boil, and it is healed,"
+    }
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 19,
-    "content": "and in the place of the boil there is a white rising, or a bright spot, reddish-white, then is shall be showed to the priest;"
+    "content": "and in the place of the boil there is a white rising, or a bright spot, reddish-white, then it shall be showed to the priest;"
   },
   {
     "book": "LEV",
@@ -2010,7 +2773,7 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 22,
-    "content": "And if it spread abroad in the skin, then the priest shall pronounce him unclean: it is a plague."
+    "content": "and if it spread abroad in the skin, then the priest shall pronounce him unclean: it is a plague."
   },
   {
     "book": "LEV",
@@ -2022,7 +2785,14 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 24,
-    "content": "Or when the flesh hath in the skin thereof a burning by fire, and the quick flesh of the burning become a bright spot, reddish-white, or white;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Or when the flesh hath in the skin thereof a burning by fire, and the quick "
+      },
+      { "text": "flesh", "marks": ["i"] },
+      " of the burning become a bright spot, reddish-white, or white;"
+    ]
   },
   {
     "book": "LEV",
@@ -2052,7 +2822,10 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 29,
-    "content": "And when a man or woman hath a plague upon the head or upon the beard,"
+    "content": {
+      "paragraph": true,
+      "text": "And when a man or woman hath a plague upon the head or upon the beard,"
+    }
   },
   {
     "book": "LEV",
@@ -2064,19 +2837,27 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 31,
-    "content": "And if the priest look on the plague of the scall, and, behold, the appearance thereof be not deeper than the skin, and there be no black hair in it, then the priest shall shut up him that hath the plague of the scall seven days:"
+    "content": [
+      "And if the priest look on the plague of the scall, and, behold, the appearance thereof be not deeper than the skin, and there be no black hair in it, then the priest shall shut up ",
+      { "text": "him that hath", "marks": ["i"] },
+      " the plague of the scall seven days:"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 32,
-    "content": "And in the seventh day the priest shall look on the plague; and, behold, if the scall be not spread, and there be in it no yellow hair, and the appearance of the scall be not deeper than the skin,"
+    "content": "and in the seventh day the priest shall look on the plague; and, behold, if the scall be not spread, and there be in it no yellow hair, and the appearance of the scall be not deeper than the skin,"
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 33,
-    "content": "then he shall be shaven, but the scall shall he not shave; and the priest shall shut up him that hath the scall seven days more:"
+    "content": [
+      "then he shall be shaven, but the scall shall he not shave; and the priest shall shut up ",
+      { "text": "him that hath", "marks": ["i"] },
+      " the scall seven days more:"
+    ]
   },
   {
     "book": "LEV",
@@ -2106,7 +2887,10 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 38,
-    "content": "And when a man or a woman hath in the skin of the flesh bright spots, even white bright spots;"
+    "content": {
+      "paragraph": true,
+      "text": "And when a man or a woman hath in the skin of the flesh bright spots, even white bright spots;"
+    }
   },
   {
     "book": "LEV",
@@ -2118,13 +2902,24 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 40,
-    "content": "And if a man’s hair be fallen off his head, he is bald; yet is he clean."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if a man’s hair be fallen off his head, he is bald; "
+      },
+      { "text": "yet", "marks": ["i"] },
+      " is he clean."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 41,
-    "content": "And if his hair be fallen off from the front part of his head, he is forehead bald; yet is he clean."
+    "content": [
+      "And if his hair be fallen off from the front part of his head, he is forehead bald; ",
+      { "text": "yet", "marks": ["i"] },
+      " is he clean."
+    ]
   },
   {
     "book": "LEV",
@@ -2148,7 +2943,10 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 45,
-    "content": "And the leper in whom the plague is, his clothes shall be rent, and the hair of his head shall go loose, and he shall cover his upper lip, and shall cry, Unclean, unclean."
+    "content": {
+      "paragraph": true,
+      "text": "And the leper in whom the plague is, his clothes shall be rent, and the hair of his head shall go loose, and he shall cover his upper lip, and shall cry, Unclean, unclean."
+    }
   },
   {
     "book": "LEV",
@@ -2160,25 +2958,47 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 47,
-    "content": "The garment also that the plague of leprosy is in, whether it be a woollen garment, or a linen garment;"
+    "content": {
+      "paragraph": true,
+      "text": "The garment also that the plague of leprosy is in, whether it be a woollen garment, or a linen garment;"
+    }
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 48,
-    "content": "whether it be in warp, or woof; of linen, or of woollen; whether in a skin, or in anything made of skin;"
+    "content": [
+      {
+        "text": "whether it be in ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "woven or knitted stuff", "marks": ["i"] },
+            " (and in ",
+            { "bibleLink": "Leviticus 13:49", "content": "verse 49" },
+            ", etc.)"
+          ]
+        }
+      },
+      "warp, or woof; of linen, or of woollen; whether in a skin, or in anything made of skin;"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 49,
-    "content": "if the plague be greenish or reddish in the garment, or in the skin, or in the warp, or in the woof, or in anything of skin; it is the plague of leprosy, and shall be showed unto the priest:"
+    "content": "if the plague be greenish or reddish in the garment, or in the skin, or in the warp, or in the woof, or in anything of skin; it is the plague of leprosy, and shall be showed unto the priest."
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 50,
-    "content": "and the priest shall look upon the plague, and shut up that which hath the plague seven days:"
+    "content": [
+      "And the priest shall look upon the plague, and shut up ",
+      { "text": "that which hath", "marks": ["i"] },
+      " the plague seven days:"
+    ]
   },
   {
     "book": "LEV",
@@ -2196,7 +3016,10 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 53,
-    "content": "And if the priest shall look, and, behold, the plague be not spread in the garment, either in the warp, or in the woof, or in anything of skin;"
+    "content": {
+      "paragraph": true,
+      "text": "And if the priest shall look, and, behold, the plague be not spread in the garment, either in the warp, or in the woof, or in anything of skin;"
+    }
   },
   {
     "book": "LEV",
@@ -2208,13 +3031,33 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 55,
-    "content": "and the priest shall look, after that the plague is washed; and, behold, if the plague have not changed its color, and the plague be not spread, it is unclean; thou shalt burn it in the fire: it is a fret, whether the bareness be within or without."
+    "content": [
+      {
+        "text": "and the priest shall look, after that the plague is washed; and, behold, if the plague have not changed its color, and the plague be not spread, it is unclean; thou shalt burn it in the fire: it is a fret, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew whether ",
+            { "text": "it", "marks": ["i"] },
+            " be ",
+            {
+              "text": "bald in the head thereof, or in the forehead thereof",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "whether the bareness be within or without."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 13,
     "verse": 56,
-    "content": "And if the priest look, and, behold, the plague be dim after the washing thereof, then he shall rend it out of the garment, or out of the skin, or out of the warp, or out of the woof:"
+    "content": {
+      "paragraph": true,
+      "text": "And if the priest look, and, behold, the plague be dim after the washing thereof, then he shall rend it out of the garment, or out of the skin, or out of the warp, or out of the woof:"
+    }
   },
   {
     "book": "LEV",
@@ -2232,7 +3075,10 @@
     "book": "LEV",
     "chapter": 13,
     "verse": 59,
-    "content": "This is the law of th plague of leprosy in a garment of woollen or linen, either in the warp, or the woof, or anything of skin, to pronounce it clean, or to pronounce it unclean."
+    "content": {
+      "paragraph": true,
+      "text": "This is the law of the plague of leprosy in a garment of woollen or linen, either in the warp, or the woof, or anything of skin, to pronounce it clean, or to pronounce it unclean."
+    }
   },
   {
     "book": "LEV",
@@ -2265,19 +3111,37 @@
     "book": "LEV",
     "chapter": 14,
     "verse": 5,
-    "content": "And the priest shall command to kill one of the birds in an earthen vessel over running water."
+    "content": [
+      {
+        "text": "and the priest shall command to kill one of the birds in an earthen vessel over ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "living", "marks": ["i"] }, "."]
+        }
+      },
+      "running water."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 6,
-    "content": "As for the living bird, he shall take it, and the cedar wood, and the scarlet, and the hyssop, and shall dip them and the living bird in the blood of the bird that was killed over the running water:"
+    "content": [
+      {
+        "text": "As for the living bird, he shall take it, and the cedar wood, and the scarlet, and the hyssop, and shall dip them and the living bird in the blood of the bird that was killed over the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "living", "marks": ["i"] }, "."]
+        }
+      },
+      "running water:"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 7,
-    "content": "And he shall sprinkle upon him that is to be cleansed from the leprosy seven times, and shall pronounce him clean, and shall let go the living bird into the open field."
+    "content": "and he shall sprinkle upon him that is to be cleansed from the leprosy seven times, and shall pronounce him clean, and shall let go the living bird into the open field."
   },
   {
     "book": "LEV",
@@ -2295,7 +3159,14 @@
     "book": "LEV",
     "chapter": 14,
     "verse": 10,
-    "content": "And on the eighth day he shall take two he-lambs without blemish, and one ewe-lamb a year old without blemish, and three tenth parts of an ephah of fine flour for a meal-offering, mingled with oil, and one log of oil."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And on the eighth day he shall take two he-lambs without blemish, and one ewe-lamb a year old without blemish, and three tenth parts "
+      },
+      { "text": "of an ephah", "marks": ["i"] },
+      " of fine flour for a meal-offering, mingled with oil, and one log of oil."
+    ]
   },
   {
     "book": "LEV",
@@ -2313,13 +3184,13 @@
     "book": "LEV",
     "chapter": 14,
     "verse": 13,
-    "content": "and he shall kill the he-lamb in the place where they kill the sin-offering and the burnt-offering, in the place of the sanctuary: for as the sin-offering is the priest’s, so is the trespass-offering: it is most holy:"
+    "content": "and he shall kill the he-lamb in the place where they kill the sin-offering and the burnt-offering, in the place of the sanctuary: for as the sin-offering is the priest’s, so is the trespass-offering: it is most holy."
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 14,
-    "content": "and the priest shall take of the blood of the trespass-offering, and the priest shall put it upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot."
+    "content": "And the priest shall take of the blood of the trespass-offering, and the priest shall put it upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot."
   },
   {
     "book": "LEV",
@@ -2331,13 +3202,13 @@
     "book": "LEV",
     "chapter": 14,
     "verse": 16,
-    "content": "and the priest shall dip his right finger in the oil that is in his left hand, and shall sprinkle of the oil with his finger seven times before Jehovah:"
+    "content": "and the priest shall dip his right finger in the oil that is in his left hand, and shall sprinkle of the oil with his finger seven times before Jehovah."
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 17,
-    "content": "and of the rest of the oil that is in his hand shall the priest put upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the blood of the trespass-offering:"
+    "content": "And of the rest of the oil that is in his hand shall the priest put upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the blood of the trespass-offering:"
   },
   {
     "book": "LEV",
@@ -2361,7 +3232,14 @@
     "book": "LEV",
     "chapter": 14,
     "verse": 21,
-    "content": "And if he be poor, and cannot get so much, then he shall take one he-lamb for a trespass-offering to be waved, to make atonement for him, and one tenth part of an ephah of fine flour mingled with oil for a meal-offering, and a log of oil;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if he be poor, and cannot get so much, then he shall take one he-lamb for a trespass-offering to be waved, to make atonement for him, and one tenth part "
+      },
+      { "text": "of an ephah", "marks": ["i"] },
+      " of fine flour mingled with oil for a meal-offering, and a log of oil;"
+    ]
   },
   {
     "book": "LEV",
@@ -2427,13 +3305,20 @@
     "book": "LEV",
     "chapter": 14,
     "verse": 32,
-    "content": "This is the law of him in whom is the plague of leprosy, who is not able to get that which pertaineth to his cleansing."
+    "content": [
+      "This is the law of him in whom is the plague of leprosy, who is not able to get ",
+      { "text": "that which pertaineth", "marks": ["i"] },
+      " to his cleansing."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 33,
-    "content": "And Jehovah spake unto Moses and unto Aaron, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses and unto Aaron, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -2493,7 +3378,10 @@
     "book": "LEV",
     "chapter": 14,
     "verse": 43,
-    "content": "And if the plague come again, and break out in the house, after that he hath taken out the stones, and after he hath scraped the house, and after it is plastered;"
+    "content": {
+      "paragraph": true,
+      "text": "And if the plague come again, and break out in the house, after that he hath taken out the stones, and after he hath scraped the house, and after it is plastered;"
+    }
   },
   {
     "book": "LEV",
@@ -2523,43 +3411,76 @@
     "book": "LEV",
     "chapter": 14,
     "verse": 48,
-    "content": "And if the priest shall come in, and look, and, behold, the plague hath not spread in the house, after the house was plastered; then the priest shall pronounce the house clean, because the plague is healed."
+    "content": {
+      "paragraph": true,
+      "text": "And if the priest shall come in, and look, and, behold, the plague hath not spread in the house, after the house was plastered; then the priest shall pronounce the house clean, because the plague is healed."
+    }
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 49,
-    "content": "And he shall take to cleanse the house two birds, and cedar wood, and scarlet, and hyssop:"
+    "content": "And he shall take to cleanse the house two birds, and cedar-wood, and scarlet, and hyssop:"
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 50,
-    "content": "and he shall kill one of the birds in an earthen vessel over running water:"
+    "content": [
+      {
+        "text": "and he shall kill one of the birds in an earthen vessel over ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "living", "marks": ["i"] }, "."]
+        }
+      },
+      "running water:"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 51,
-    "content": "and he shall take the cedar wood, and the hyssop, and the scarlet, and the living bird, and dip them in the blood of the slain bird, and in the running water, and sprinkle the house seven times:"
+    "content": [
+      {
+        "text": "and he shall take the cedar-wood, and the hyssop, and the scarlet, and the living bird, and dip them in the blood of the slain bird, and in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "living", "marks": ["i"] }, "."]
+        }
+      },
+      "running water, and sprinkle the house seven times:"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 52,
-    "content": "and he shall cleanse the house with the blood of the bird, and with the running water, and with the living bird, and with the cedar wood, and with the hyssop, and with the scarlet:"
+    "content": [
+      {
+        "text": "and he shall cleanse the house with the blood of the bird, and with the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "living", "marks": ["i"] }, "."]
+        }
+      },
+      "running water, and with the living bird, and with the cedar-wood, and with the hyssop, and with the scarlet:"
+    ]
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 53,
-    "content": "but he shall let got the living bird out of the city into the open field: so shall he make atonement for the house; and it shall be clean."
+    "content": "but he shall let go the living bird out of the city into the open field: so shall he make atonement for the house; and it shall be clean."
   },
   {
     "book": "LEV",
     "chapter": 14,
     "verse": 54,
-    "content": "This is the law for all manner of plague of leprosy, and for a scall,"
+    "content": {
+      "paragraph": true,
+      "text": "This is the law for all manner of plague of leprosy, and for a scall,"
+    }
   },
   {
     "book": "LEV",
@@ -2634,7 +3555,16 @@
     "book": "LEV",
     "chapter": 15,
     "verse": 9,
-    "content": "And what saddle soever he that hath the issue rideth upon shall be unclean."
+    "content": [
+      {
+        "text": "And what ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "carriage", "marks": ["i"] }]
+        }
+      },
+      "saddle soever he that hath the issue rideth upon shall be unclean."
+    ]
   },
   {
     "book": "LEV",
@@ -2658,7 +3588,17 @@
     "book": "LEV",
     "chapter": 15,
     "verse": 13,
-    "content": "And when he that hath an issue is cleansed of his issue, then he shall number to himself seven days for his cleansing, and wash his clothes; and he shall bathe his flesh in running water, and shall be clean."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And when he that hath an issue is cleansed of his issue, then he shall number to himself seven days for his cleansing, and wash his clothes; and he shall bathe his flesh in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "living", "marks": ["i"] }, "."]
+        }
+      },
+      "running water, and shall be clean."
+    ]
   },
   {
     "book": "LEV",
@@ -2676,7 +3616,10 @@
     "book": "LEV",
     "chapter": 15,
     "verse": 16,
-    "content": "And if any man’s seed of copulation go out from him, then he shall bathe all his flesh in water, and be unclean until the even."
+    "content": {
+      "paragraph": true,
+      "text": "And if any man’s seed of copulation go out from him, then he shall bathe all his flesh in water, and be unclean until the even."
+    }
   },
   {
     "book": "LEV",
@@ -2694,13 +3637,33 @@
     "book": "LEV",
     "chapter": 15,
     "verse": 19,
-    "content": "And if a woman have an issue, and her issue in her flesh be blood, she shall be in her impurity seven days: and whosoever toucheth her shall be unclean until the even."
+    "content": [
+      { "paragraph": true, "text": "And if a woman have an issue, " },
+      { "text": "and", "marks": ["i"] },
+      {
+        "text": " her issue in her flesh be blood, she shall be in her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "separation", "marks": ["i"] }]
+        }
+      },
+      "impurity seven days: and whosoever toucheth her shall be unclean until the even."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 15,
     "verse": 20,
-    "content": "And everything that she lieth upon in her impurity shall be unclean: everything also that she sitteth upon shall be unclean."
+    "content": [
+      {
+        "text": "And everything that she lieth upon in her ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "separation", "marks": ["i"] }]
+        }
+      },
+      "impurity shall be unclean: everything also that she sitteth upon shall be unclean."
+    ]
   },
   {
     "book": "LEV",
@@ -2730,7 +3693,10 @@
     "book": "LEV",
     "chapter": 15,
     "verse": 25,
-    "content": "And if a woman have an issue of her blood many days not in the time of her impurity, or if she have an issue beyond the time of her impurity; all the days of the issue of her uncleanness she shall be as in the days of her impurity: she is unclean."
+    "content": {
+      "paragraph": true,
+      "text": "And if a woman have an issue of her blood many days not in the time of her impurity, or if she have an issue beyond the time of her impurity; all the days of the issue of her uncleanness she shall be as in the days of her impurity: she is unclean."
+    }
   },
   {
     "book": "LEV",
@@ -2766,13 +3732,19 @@
     "book": "LEV",
     "chapter": 15,
     "verse": 31,
-    "content": "Thus shall ye separate the children of Israel from their uncleanness, that they die not in their uncleanness, when they defile my tabernacle that is in the midst of them."
+    "content": {
+      "paragraph": true,
+      "text": "Thus shall ye separate the children of Israel from their uncleanness, that they die not in their uncleanness, when they defile my tabernacle that is in the midst of them."
+    }
   },
   {
     "book": "LEV",
     "chapter": 15,
     "verse": 32,
-    "content": "This is the law of him that hath an issue, and of him whose seed of copulation goeth from him, so that he is unclean thereby;"
+    "content": {
+      "paragraph": true,
+      "text": "This is the law of him that hath an issue, and of him whose seed of copulation goeth from him, so that he is unclean thereby;"
+    }
   },
   {
     "book": "LEV",
@@ -2805,7 +3777,16 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 4,
-    "content": "He shall put on the holy linen coat, and he shall have the linen breeches upon his flesh, and shall be girded with the linen girdle, and with the linen mitre shall he be attired: they are the holy garments; and he shall bathe his flesh in water, and put them on."
+    "content": [
+      {
+        "text": "He shall put on the holy linen coat, and he shall have the linen breeches upon his flesh, and shall be girded with the linen girdle, and with the linen ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "turban", "marks": ["i"] }]
+        }
+      },
+      "mitre shall he be attired: they are the holy garments; and he shall bathe his flesh in water, and put them on."
+    ]
   },
   {
     "book": "LEV",
@@ -2817,7 +3798,10 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 6,
-    "content": "And Aaron shall present the bullock of the sin-offering, which is for himself, and make atonement for himself, and for his house."
+    "content": {
+      "paragraph": true,
+      "text": "And Aaron shall present the bullock of the sin-offering, which is for himself, and make atonement for himself, and for his house."
+    }
   },
   {
     "book": "LEV",
@@ -2829,7 +3813,16 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 8,
-    "content": "And Aaron shall cast lots upon the two goats; one lot for Jehovah, and the other lot for Azazel."
+    "content": [
+      {
+        "text": "And Aaron shall cast lots upon the two goats; one lot for Jehovah, and the other lot for ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "removal", "marks": ["i"] }]
+        }
+      },
+      "Azazel."
+    ]
   },
   {
     "book": "LEV",
@@ -2841,19 +3834,31 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 10,
-    "content": "But the goat, on which the lot fell for Azazel, shall be set alive before Jehovah, to make atonement for him, to send him away for Azazel into the wilderness."
+    "content": [
+      {
+        "text": "But the goat, on which the lot fell for Azazel, shall be set alive before Jehovah, to make atonement ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "over", "marks": ["i"] }]
+        }
+      },
+      "for him, to send him away for Azazel into the wilderness."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 16,
     "verse": 11,
-    "content": "And Aaron shall present the bullock of the sin-offering, which is for himself, and shall make atonement for himself, and for his house, and shall kill the bullock of the sin-offering which is for himself:"
+    "content": {
+      "paragraph": true,
+      "text": "And Aaron shall present the bullock of the sin-offering, which is for himself, and shall make atonement for himself, and for his house, and shall kill the bullock of the sin-offering which is for himself."
+    }
   },
   {
     "book": "LEV",
     "chapter": 16,
     "verse": 12,
-    "content": "and he shall take a censer full of coals of fire from off the altar before Jehovah, and his hands full of sweet incense beaten small, and bring it within the veil:"
+    "content": "And he shall take a censer full of coals of fire from off the altar before Jehovah, and his hands full of sweet incense beaten small, and bring it within the veil:"
   },
   {
     "book": "LEV",
@@ -2871,7 +3876,10 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 15,
-    "content": "Then shall he kill the goat of the sin-offering, that is for the people, and bring his blood within the veil, and do with his blood as he did with the blood of the bullock, and sprinkle it upon the mercy-seat, and before the mercy-seat:"
+    "content": {
+      "paragraph": true,
+      "text": "Then shall he kill the goat of the sin-offering, that is for the people, and bring his blood within the veil, and do with his blood as he did with the blood of the bullock, and sprinkle it upon the mercy-seat, and before the mercy-seat:"
+    }
   },
   {
     "book": "LEV",
@@ -2889,7 +3897,7 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 18,
-    "content": "And he shall go out unto the altar that is before Jehovah, and make atonement for it, and shall take of the blood of the bullock, and of th blood of the goat, and put it upon the horns of the altar round about."
+    "content": "And he shall go out unto the altar that is before Jehovah, and make atonement for it, and shall take of the blood of the bullock, and of the blood of the goat, and put it upon the horns of the altar round about."
   },
   {
     "book": "LEV",
@@ -2901,13 +3909,25 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 20,
-    "content": "And when he hath made an end of atoning for the holy place, and the tent of meeting, and the altar, he shall present the live goat:"
+    "content": {
+      "paragraph": true,
+      "text": "And when he hath made an end of atoning for the holy place, and the tent of meeting, and the altar, he shall present the live goat:"
+    }
   },
   {
     "book": "LEV",
     "chapter": 16,
     "verse": 21,
-    "content": "and Aaron shall lay both his hands upon the head of the live goat, and confess over him all the iniquities of the children of Israel, and all their transgressions, even all their sins; and he shall put them upon the head of the goat, and shall send him away by the hand of a man that is in readiness into the wilderness:"
+    "content": [
+      {
+        "text": "and Aaron shall lay both his hands upon the head of the live goat, and confess over him all the iniquities of the children of Israel, and all their transgressions, even all their sins; and he shall put them upon the head of the goat, and shall send him away by the hand of a man ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "appointed", "marks": ["i"] }]
+        }
+      },
+      "that is in readiness into the wilderness:"
+    ]
   },
   {
     "book": "LEV",
@@ -2919,7 +3939,10 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 23,
-    "content": "And Aaron shall come into the tent of meeting, and shall put off the linen garments, which he put on when he went into the holy place, and shall leave them there:"
+    "content": {
+      "paragraph": true,
+      "text": "And Aaron shall come into the tent of meeting, and shall put off the linen garments, which he put on when he went into the holy place, and shall leave them there:"
+    }
   },
   {
     "book": "LEV",
@@ -2937,7 +3960,16 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 26,
-    "content": "And he that letteth go the goat for Azazel shall wash his clothes, and bathe his flesh in water, and afterward he shall come into the camp."
+    "content": [
+      {
+        "text": "And he that letteth go the goat for ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "removal", "marks": ["i"] }]
+        }
+      },
+      "Azazel shall wash his clothes, and bathe his flesh in water, and afterward he shall come into the camp."
+    ]
   },
   {
     "book": "LEV",
@@ -2955,7 +3987,10 @@
     "book": "LEV",
     "chapter": 16,
     "verse": 29,
-    "content": "And it shall be a statute for ever unto you: in the seventh month, on the tenth day of the month, ye shall afflict your souls, and shall do no manner of work, the home-born, or the stranger that sojourneth among you:"
+    "content": {
+      "paragraph": true,
+      "text": "And it shall be a statute for ever unto you: in the seventh month, on the tenth day of the month, ye shall afflict your souls, and shall do no manner of work, the home-born, or the stranger that sojourneth among you:"
+    }
   },
   {
     "book": "LEV",
@@ -3018,7 +4053,7 @@
     "book": "LEV",
     "chapter": 17,
     "verse": 5,
-    "content": "To the end that the children of Israel may bring their sacrifices, which they sacrifice in the open field, even that they may bring them unto Jehovah, unto the door of the tent of meeting, unto the priest, and sacrifice them for sacrifices of peace-offerings unto Jehovah."
+    "content": "to the end that the children of Israel may bring their sacrifices, which they sacrifice in the open field, even that they may bring them unto Jehovah, unto the door of the tent of meeting, unto the priest, and sacrifice them for sacrifices of peace-offerings unto Jehovah."
   },
   {
     "book": "LEV",
@@ -3036,7 +4071,10 @@
     "book": "LEV",
     "chapter": 17,
     "verse": 8,
-    "content": "And thou shalt say unto them, Whatsoever man there be of the house of Israel, or of the strangers that sojourn among them, that offereth a burnt-offering or sacrifice,"
+    "content": {
+      "paragraph": true,
+      "text": "And thou shalt say unto them, Whatsoever man there be of the house of Israel, or of the strangers that sojourn among them, that offereth a burnt-offering or sacrifice,"
+    }
   },
   {
     "book": "LEV",
@@ -3048,13 +4086,32 @@
     "book": "LEV",
     "chapter": 17,
     "verse": 10,
-    "content": "And whatsoever man there be of the house of Israel, or of the strangers that sojourn among them, that eateth any manner of blood, I will set my face against that soul that eateth blood, and will cut him off from among his people."
+    "content": {
+      "paragraph": true,
+      "text": "And whatsoever man there be of the house of Israel, or of the strangers that sojourn among them, that eateth any manner of blood, I will set my face against that soul that eateth blood, and will cut him off from among his people."
+    }
   },
   {
     "book": "LEV",
     "chapter": 17,
     "verse": 11,
-    "content": "For the life of the flesh is in the blood; and I have given it to you upon the altar to make atonement for your souls: for it is the blood that maketh atonement by reason of the life."
+    "content": [
+      {
+        "text": "For the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "soul", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "life of the flesh is in the blood; and I have given it to you upon the altar to make atonement for your souls: for it is the blood that maketh atonement by reason of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "soul", "marks": ["i"] }, "."]
+        }
+      },
+      "life."
+    ]
   },
   {
     "book": "LEV",
@@ -3072,13 +4129,29 @@
     "book": "LEV",
     "chapter": 17,
     "verse": 14,
-    "content": "For as to the life of all flesh, the blood thereof is all one with the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh; for the life of all flesh is the blood thereof: whosoever eateth it shall be cut off."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For as to the life of all flesh, the blood thereof is "
+      },
+      { "text": "all one", "marks": ["i"] },
+      " with the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh; for the life of all flesh is the blood thereof: whosoever eateth it shall be cut off."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 17,
     "verse": 15,
-    "content": "And every soul that eateth that which dieth of itself, or that which is torn of beasts, whether he be home-born or a sojourner, he shall wash his clothes, and bathe himself in water, and be unclean until the even: then shall he be clean."
+    "content": [
+      {
+        "text": "And every soul that eateth ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "a carcass", "marks": ["i"] }, "."]
+        }
+      },
+      "that which dieth of itself, or that which is torn of beasts, whether he be home-born or a sojourner, he shall wash his clothes, and bathe himself in water, and be unclean until the even: then shall he be clean."
+    ]
   },
   {
     "book": "LEV",
@@ -3117,13 +4190,29 @@
     "book": "LEV",
     "chapter": 18,
     "verse": 5,
-    "content": "Ye shall therefore keep my statutes, and mine ordinances; which if a man do, he shall live in them: I am Jehovah."
+    "content": [
+      {
+        "text": "Ye shall therefore keep my statutes, and mine ordinances; which if a man do, he shall live ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by", "marks": ["i"] }]
+        }
+      },
+      "in them: I am Jehovah."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 18,
     "verse": 6,
-    "content": "None of you shall approach to any that are near of kin to him, to uncover their nakedness: I am Jehovah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "None of you shall approach to any that are near of kin to him, to uncover "
+      },
+      { "text": "their", "marks": ["i"] },
+      " nakedness: I am Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -3135,7 +4224,7 @@
     "book": "LEV",
     "chapter": 18,
     "verse": 8,
-    "content": "The nakedness of thy father’s wife shalt thou not uncover: it is thy father’s nakedness."
+    "content": "The nakedness of thy father’s wife shalt thou not uncover; it is thy father’s nakedness."
   },
   {
     "book": "LEV",
@@ -3189,19 +4278,42 @@
     "book": "LEV",
     "chapter": 18,
     "verse": 17,
-    "content": "Thou shalt not uncover the nakedness of a woman and her daughter; thou shalt not take her son’s daughter, or her daughter’s daughter, to uncover her nakedness; they are near kinswomen: it is wickedness."
+    "content": [
+      {
+        "text": "Thou shalt not uncover the nakedness of a woman and her daughter; thou shalt not take her son’s daughter, or her daughter’s daughter, to uncover her nakedness; they are near kinswomen: it is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "enormity", "marks": ["i"] }]
+        }
+      },
+      "wickedness."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 18,
     "verse": 18,
-    "content": "And thou shalt not take a wife to her sister, to be a rival to her, to uncover her nakedness, besides the other in her life-time."
+    "content": [
+      "And thou shalt not take a wife to her sister, to be a rival ",
+      { "text": "to her", "marks": ["i"] },
+      ", to uncover her nakedness, besides the other in her life-time."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 18,
     "verse": 19,
-    "content": "And thou shalt not approach unto a woman to uncover her nakedness, as long as she is impure by her uncleanness."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And thou shalt not approach unto a woman to uncover her nakedness, as long as she is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "separated for", "marks": ["i"] }]
+        }
+      },
+      "impure by her uncleanness."
+    ]
   },
   {
     "book": "LEV",
@@ -3213,7 +4325,21 @@
     "book": "LEV",
     "chapter": 18,
     "verse": 21,
-    "content": "And thou shalt not give any of thy seed to make them pass through the fire to Molech; neither shalt thou profane the name of thy God: I am Jehovah."
+    "content": [
+      {
+        "text": "And thou shalt not give any of thy seed ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "to set them apart to Molech", "marks": ["i"] }
+          ]
+        }
+      },
+      "to make them pass through ",
+      { "text": "the fire", "marks": ["i"] },
+      " to Molech; neither shalt thou profane the name of thy God: I am Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -3231,19 +4357,22 @@
     "book": "LEV",
     "chapter": 18,
     "verse": 24,
-    "content": "Defile not ye yourselves in any of these things: for in all these the nations are defiled which I cast out from before you;"
+    "content": {
+      "paragraph": true,
+      "text": "Defile not ye yourselves in any of these things: for in all these the nations are defiled which I cast out from before you;"
+    }
   },
   {
     "book": "LEV",
     "chapter": 18,
     "verse": 25,
-    "content": "And the land is defiled: therefore I do visit the iniquity thereof upon it, and the land vomiteth out her inhabitants."
+    "content": "and the land is defiled: therefore I do visit the iniquity thereof upon it, and the land vomiteth out her inhabitants."
   },
   {
     "book": "LEV",
     "chapter": 18,
     "verse": 26,
-    "content": "Ye therefore shall keep my statutes and mine ordinances, and shall not do any of these abominations; neither the home-born, nor the stranger that sojourneth among you;"
+    "content": "Ye therefore shall keep my statutes and mine ordinances, and shall not do any of these abominations; neither the home-born, nor the stranger that sojourneth among you"
   },
   {
     "book": "LEV",
@@ -3294,13 +4423,29 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 4,
-    "content": "Turn ye not unto idols, nor make to yourselves molten gods: I am Jehovah your God."
+    "content": [
+      {
+        "text": "Turn ye not unto ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "things of nought", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "idols, nor make to yourselves molten gods: I am Jehovah your God."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 19,
     "verse": 5,
-    "content": "And when ye offer a sacrifice of peace-offerings unto Jehovah, ye shall offer it that ye may be accepted."
+    "content": {
+      "paragraph": true,
+      "text": "And when ye offer a sacrifice of peace-offerings unto Jehovah, ye shall offer it that ye may be accepted."
+    }
   },
   {
     "book": "LEV",
@@ -3324,7 +4469,10 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 9,
-    "content": "And when ye reap the harvest of your land, thou shalt not wholly reap the corners of thy field, neither shalt thou gather the gleaning of thy harvest."
+    "content": {
+      "paragraph": true,
+      "text": "And when ye reap the harvest of your land, thou shalt not wholly reap the corners of thy field, neither shalt thou gather the gleaning of thy harvest."
+    }
   },
   {
     "book": "LEV",
@@ -3336,7 +4484,10 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 11,
-    "content": "Ye shall not steal; neither shall ye deal falsely, nor lie one to another."
+    "content": {
+      "paragraph": true,
+      "text": "Ye shall not steal; neither shall ye deal falsely, nor lie one to another."
+    }
   },
   {
     "book": "LEV",
@@ -3348,7 +4499,10 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 13,
-    "content": "Thou shalt not oppress thy neighbor, nor rob him: the wages of a hired servant shall not abide with thee all night until the morning."
+    "content": {
+      "paragraph": true,
+      "text": "Thou shalt not oppress thy neighbor, nor rob him: the wages of a hired servant shall not abide with thee all night until the morning."
+    }
   },
   {
     "book": "LEV",
@@ -3360,7 +4514,10 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 15,
-    "content": "Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honor the person of the mighty; but in righteousness shalt thou judge thy neighbor."
+    "content": {
+      "paragraph": true,
+      "text": "Ye shall do no unrighteousness in judgment: thou shalt not respect the person of the poor, nor honor the person of the mighty; but in righteousness shalt thou judge thy neighbor."
+    }
   },
   {
     "book": "LEV",
@@ -3372,7 +4529,10 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 17,
-    "content": "Thou shalt not hate thy brother in thy heart: thou shalt surely rebuke thy neighbor, and not bear sin because of him."
+    "content": {
+      "paragraph": true,
+      "text": "Thou shalt not hate thy brother in thy heart: thou shalt surely rebuke thy neighbor, and not bear sin because of him."
+    }
   },
   {
     "book": "LEV",
@@ -3384,13 +4544,29 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 19,
-    "content": "Ye shall keep my statutes. Thou shalt not let thy cattle gender with a diverse kind: thou shalt not sow thy field with two kinds of seed: neither shall there come upon thee a garment of two kinds of stuff mingled together."
+    "content": {
+      "paragraph": true,
+      "text": "Ye shall keep my statutes. Thou shalt not let thy cattle gender with a diverse kind: thou shalt not sow thy field with two kinds of seed: neither shall there come upon thee a garment of two kinds of stuff mingled together."
+    }
   },
   {
     "book": "LEV",
     "chapter": 19,
     "verse": 20,
-    "content": "And whosoever lieth carnally with a woman, that is a bondmaid, betrothed to a husband, and not at all redeemed, nor freedom given her; they shall be punished; they shall not be put to death, because she was not free."
+    "content": [
+      {
+        "text": "And whosoever lieth carnally with a woman, that is a bondmaid, betrothed to a husband, and not at all redeemed, nor freedom given her; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "there shall be inquisition", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "they shall be punished; they shall not be put to death, because she was not free."
+    ]
   },
   {
     "book": "LEV",
@@ -3408,7 +4584,10 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 23,
-    "content": "And when ye shall come into the land, and shall have planted all manner of trees for food, then ye shall count the fruit thereof as their uncircumcision: three years shall they be as uncircumcised unto you; it shall not be eaten."
+    "content": {
+      "paragraph": true,
+      "text": "And when ye shall come into the land, and shall have planted all manner of trees for food, then ye shall count the fruit thereof as their uncircumcision: three years shall they be as uncircumcised unto you; it shall not be eaten."
+    }
   },
   {
     "book": "LEV",
@@ -3426,7 +4605,10 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 26,
-    "content": "Ye shall not eat anything with the blood: neither shall ye use enchantments, nor practise augury."
+    "content": {
+      "paragraph": true,
+      "text": "Ye shall not eat anything with the blood: neither shall ye use enchantments, nor practise augury."
+    }
   },
   {
     "book": "LEV",
@@ -3444,31 +4626,50 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 29,
-    "content": "Profane not thy daughter, to make her a harlot; lest the land fall to whoredom, and the land become full of wickedness."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Profane not thy daughter, to make her a harlot; lest the land fall to whoredom, and the land become full of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "enormity", "marks": ["i"] }]
+        }
+      },
+      "wickedness."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 19,
     "verse": 30,
-    "content": "Ye shall keep my sabbaths, and reverence my sanctuary; I am Jehovah."
+    "content": "Ye shall keep my sabbaths, and reverence my sanctuary: I am Jehovah."
   },
   {
     "book": "LEV",
     "chapter": 19,
     "verse": 31,
-    "content": "Turn ye not unto them that have familiar spirits, nor unto the wizards; seek them not out, to be defiled by them: I am Jehovah your God."
+    "content": {
+      "paragraph": true,
+      "text": "Turn ye not unto them that have familiar spirits, nor unto the wizards; seek them not out, to be defiled by them: I am Jehovah your God."
+    }
   },
   {
     "book": "LEV",
     "chapter": 19,
     "verse": 32,
-    "content": "Thou shalt rise up before the hoary head, and honor the face of the old man, and thou shalt fear thy God: I am Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "Thou shalt rise up before the hoary head, and honor the face of the old man, and thou shalt fear thy God: I am Jehovah."
+    }
   },
   {
     "book": "LEV",
     "chapter": 19,
     "verse": 33,
-    "content": "And if a stranger sojourn with thee in your land, ye shall not do him wrong."
+    "content": {
+      "paragraph": true,
+      "text": "And if a stranger sojourn with thee in your land, ye shall not do him wrong."
+    }
   },
   {
     "book": "LEV",
@@ -3480,7 +4681,10 @@
     "book": "LEV",
     "chapter": 19,
     "verse": 35,
-    "content": "Ye shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity."
+    "content": {
+      "paragraph": true,
+      "text": "Ye shall do no unrighteousness in judgment, in measures of length, of weight, or of quantity."
+    }
   },
   {
     "book": "LEV",
@@ -3519,7 +4723,7 @@
     "book": "LEV",
     "chapter": 20,
     "verse": 4,
-    "content": "And if the people at the land do at all hide their eyes from that man, when he giveth of his seed unto Molech, and put him not to death;"
+    "content": "And if the people of the land do at all hide their eyes from that man, when he giveth of his seed unto Molech, and put him not to death;"
   },
   {
     "book": "LEV",
@@ -3531,7 +4735,10 @@
     "book": "LEV",
     "chapter": 20,
     "verse": 6,
-    "content": "And the soul that turneth unto them that have familiar spirits, and unto the wizards, to play the harlot after them, I will even set my face against that soul, and will cut him off from among his people."
+    "content": {
+      "paragraph": true,
+      "text": "And the soul that turneth unto them that have familiar spirits, and unto the wizards, to play the harlot after them, I will even set my face against that soul, and will cut him off from among his people."
+    }
   },
   {
     "book": "LEV",
@@ -3555,7 +4762,10 @@
     "book": "LEV",
     "chapter": 20,
     "verse": 10,
-    "content": "And the man that committeth adultery with another man’s wife, even he that committeth adultery with his neighbor’s wife, the adulterer and the adulteress shall surely be put to death."
+    "content": {
+      "paragraph": true,
+      "text": "And the man that committeth adultery with another man’s wife, even he that committeth adultery with his neighbor’s wife, the adulterer and the adulteress shall surely be put to death."
+    }
   },
   {
     "book": "LEV",
@@ -3579,7 +4789,16 @@
     "book": "LEV",
     "chapter": 20,
     "verse": 14,
-    "content": "And if a man take a wife and her mother, it is wickedness: they shall be burnt with fire, both he and they; that there be no wickedness among you."
+    "content": [
+      {
+        "text": "And if a man take a wife and her mother, it is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "enormity", "marks": ["i"] }]
+        }
+      },
+      "wickedness: they shall be burnt with fire, both he and they; that there be no wickedness among you."
+    ]
   },
   {
     "book": "LEV",
@@ -3597,7 +4816,10 @@
     "book": "LEV",
     "chapter": 20,
     "verse": 17,
-    "content": "And if a man shall take his sister, his father’s daughter, or his mother’s daughter, and see her nakedness, and she see his nakedness; it is a shameful thing; and they shall be cut off in the sight of the children of their people: he hath uncovered his sister’s nakedness; he shall bear his iniquity."
+    "content": {
+      "paragraph": true,
+      "text": "And if a man shall take his sister, his father’s daughter, or his mother’s daughter, and see her nakedness, and she see his nakedness; it is a shameful thing; and they shall be cut off in the sight of the children of their people: he hath uncovered his sister’s nakedness; he shall bear his iniquity."
+    }
   },
   {
     "book": "LEV",
@@ -3627,7 +4849,10 @@
     "book": "LEV",
     "chapter": 20,
     "verse": 22,
-    "content": "Ye shall therefore keep all my statutes, and all mine ordinances, and do them; that the land, whither I bring you to dwell therein, vomit you not out."
+    "content": {
+      "paragraph": true,
+      "text": "Ye shall therefore keep all my statutes, and all mine ordinances, and do them; that the land, whither I bring you to dwell therein, vomit you not out."
+    }
   },
   {
     "book": "LEV",
@@ -3645,7 +4870,16 @@
     "book": "LEV",
     "chapter": 20,
     "verse": 25,
-    "content": "Ye shall therefore make a distinction between the clean beast and the unclean, and between the unclean fowl and the clean: and ye shall not make your souls abominable by beast, or by bird, or by anything wherewith the ground teemeth, which I have separated from you as unclean."
+    "content": [
+      {
+        "text": "Ye shall therefore make a distinction between the clean beast and the unclean, and between the unclean fowl and the clean: and ye shall not make your souls abominable by beast, or by bird, or by anything wherewith the ground ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "creepeth", "marks": ["i"] }, "."]
+        }
+      },
+      "teemeth, which I have separated from you as unclean."
+    ]
   },
   {
     "book": "LEV",
@@ -3657,7 +4891,10 @@
     "book": "LEV",
     "chapter": 20,
     "verse": 27,
-    "content": "A man also or a woman that hath a familiar spirit, or that is a wizard, shall surely be put to death: they shall stone them with stones; their blood shall be upon them."
+    "content": {
+      "paragraph": true,
+      "text": "A man also or a woman that hath a familiar spirit, or that is a wizard, shall surely be put to death: they shall stone them with stones; their blood shall be upon them."
+    }
   },
   {
     "book": "LEV",
@@ -3684,7 +4921,17 @@
     "book": "LEV",
     "chapter": 21,
     "verse": 4,
-    "content": "He shall not defile himself, being a chief man among his people, to profane himself."
+    "content": [
+      {
+        "text": "He shall not defile himself, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, as ", { "text": "a husband", "marks": ["i"] }]
+        }
+      },
+      { "text": "being", "marks": ["i"] },
+      " a chief man among his people, to profane himself."
+    ]
   },
   {
     "book": "LEV",
@@ -3702,13 +4949,22 @@
     "book": "LEV",
     "chapter": 21,
     "verse": 7,
-    "content": "They shall not take a woman that is a harlot, or profane; neither shall they take a woman put away from her husband: for he is holy unto his God."
+    "content": [
+      {
+        "text": "They shall not take a woman that is a harlot, or ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "polluted", "marks": ["i"] }]
+        }
+      },
+      "profane; neither shall they take a woman put away from her husband: for he is holy unto his God."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 21,
     "verse": 8,
-    "content": "Thou shalt sanctify him therefore; for he offereth the bread of thy God: he shall be holy unto thee: for I Jehovah, who sanctify you, am holy."
+    "content": "Thou shalt sanctify him therefore; for he offereth the bread of thy God: he shall be holy unto thee; for I Jehovah, who sanctify you, am holy."
   },
   {
     "book": "LEV",
@@ -3720,7 +4976,21 @@
     "book": "LEV",
     "chapter": 21,
     "verse": 10,
-    "content": "And he that is the high priest among his brethren, upon whose head the anointing oil is poured, and that is consecrated to put on the garments, shall not let the hair of his head go loose, nor rend his clothes;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And he that is the high priest among his brethren, upon whose head the anointing oil is poured, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "whose hand is filled", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "that is consecrated to put on the garments, shall not let the hair of his head go loose, nor rend his clothes;"
+    ]
   },
   {
     "book": "LEV",
@@ -3732,7 +5002,16 @@
     "book": "LEV",
     "chapter": 21,
     "verse": 12,
-    "content": "neither shall he go out of the sanctuary, nor profane the sanctuary of his God; for the crown of the anointing oil of his God is upon him: I am Jehovah."
+    "content": [
+      {
+        "text": "neither shall he go out of the sanctuary, nor profane the sanctuary of his God; for the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "consecration", "marks": ["i"] }]
+        }
+      },
+      "crown of the anointing oil of his God is upon him: I am Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -3744,7 +5023,16 @@
     "book": "LEV",
     "chapter": 21,
     "verse": 14,
-    "content": "A widow, or one divorced, or a profane woman, a harlot, these shall he not take: but a virgin of his own people shall he take to wife."
+    "content": [
+      {
+        "text": "A widow, or one divorced, or a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "polluted", "marks": ["i"] }]
+        }
+      },
+      "profane woman, a harlot, these shall he not take: but a virgin of his own people shall he take to wife."
+    ]
   },
   {
     "book": "LEV",
@@ -3756,7 +5044,10 @@
     "book": "LEV",
     "chapter": 21,
     "verse": 16,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -3768,7 +5059,16 @@
     "book": "LEV",
     "chapter": 21,
     "verse": 18,
-    "content": "For whatsoever man he be that hath a blemish, he shall not approach: a blind man, or a lame, or he that hath a flat nose, or anything superfluous,"
+    "content": [
+      {
+        "text": "For whatsoever man he be that hath a blemish, he shall not approach: a blind man, or a lame, or he that hath a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "slit", "marks": ["i"] }]
+        }
+      },
+      "flat nose, or anything superfluous,"
+    ]
   },
   {
     "book": "LEV",
@@ -3831,7 +5131,16 @@
     "book": "LEV",
     "chapter": 22,
     "verse": 4,
-    "content": "What man soever of the seed of Aaron is a leper, or hath an issue; he shall not eat of the holy things, until he be clean. And whoso toucheth anything that is unclean by the dead, or a man whose seed goeth from him;"
+    "content": [
+      {
+        "text": "What man soever of the seed of Aaron is a leper, or hath an issue; he shall not eat of the holy things, until he be clean. And whoso toucheth ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "any one", "marks": ["i"] }]
+        }
+      },
+      "anything that is unclean by the dead, or a man whose seed goeth from him;"
+    ]
   },
   {
     "book": "LEV",
@@ -3867,7 +5176,10 @@
     "book": "LEV",
     "chapter": 22,
     "verse": 10,
-    "content": "There shall no stranger eat of the holy thing: a sojourner of the priest’s, or a hired servant, shall not eat of the holy thing."
+    "content": {
+      "paragraph": true,
+      "text": "There shall no stranger eat of the holy thing: a sojourner of the priest’s, or a hired servant, shall not eat of the holy thing."
+    }
   },
   {
     "book": "LEV",
@@ -3903,13 +5215,20 @@
     "book": "LEV",
     "chapter": 22,
     "verse": 16,
-    "content": "and so cause them to bear the iniquity that bringeth guilt, when they eat their holy things: for I am Jehovah who sanctifieth them."
+    "content": [
+      "and ",
+      { "text": "so", "marks": ["i"] },
+      " cause them to bear the iniquity that bringeth guilt, when they eat their holy things: for I am Jehovah who sanctifieth them."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 22,
     "verse": 17,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -3921,7 +5240,11 @@
     "book": "LEV",
     "chapter": 22,
     "verse": 19,
-    "content": "that ye may be accepted, ye shall offer a male without blemish, of the bullocks, of the sheep, or of the goats."
+    "content": [
+      "that ye may be accepted, ",
+      { "text": "ye shall offer", "marks": ["i"] },
+      " a male without blemish, of the bullocks, of the sheep, or of the goats."
+    ]
   },
   {
     "book": "LEV",
@@ -3933,13 +5256,31 @@
     "book": "LEV",
     "chapter": 22,
     "verse": 21,
-    "content": "And whosoever offereth a sacrifice of peace-offerings unto Jehovah to accomplish a vow, or for a freewill-offering, of the herd or of the flock, it shall be perfect to be accepted; there shall be no blemish therein."
+    "content": [
+      {
+        "text": "And whosoever offereth a sacrifice of peace-offerings unto Jehovah to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "make a special vow", "marks": ["i"] }]
+        }
+      },
+      "accomplish a vow, or for a freewill-offering, of the herd or of the flock, it shall be perfect to be accepted; there shall be no blemish therein."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 22,
     "verse": 22,
-    "content": "Blind, or broken, or maimed, or having a wen, or scurvy, or scabbed, ye shall not offer these unto Jehovah, nor make an offering by fire of them upon the altar unto Jehovah."
+    "content": [
+      {
+        "text": "Blind, or broken, or maimed, or having ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sores", "marks": ["i"] }]
+        }
+      },
+      "a wen, or scurvy, or scabbed, ye shall not offer these unto Jehovah, nor make an offering by fire of them upon the altar unto Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -3951,7 +5292,18 @@
     "book": "LEV",
     "chapter": 22,
     "verse": 24,
-    "content": "That which hath its stones bruised, or crushed, or broken, or cut, ye shall not offer unto Jehovah; neither shall ye do thus in your land."
+    "content": [
+      {
+        "text": "That which hath its stones bruised, or crushed, or broken, or cut, ye shall not offer unto Jehovah; neither shall ye ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sacrifice", "marks": ["i"] }, " them"]
+        }
+      },
+      "do ",
+      { "text": "thus", "marks": ["i"] },
+      " in your land."
+    ]
   },
   {
     "book": "LEV",
@@ -3963,7 +5315,10 @@
     "book": "LEV",
     "chapter": 22,
     "verse": 26,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -4020,7 +5375,16 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 2,
-    "content": "Speak unto the children of Israel, and say unto them, The set feasts of Jehovah, which ye shall proclaim to be holy convocations, even these are my set feasts."
+    "content": [
+      {
+        "text": "Speak unto the children of Israel, and say unto them, The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "appointed seasons", "marks": ["i"] }]
+        }
+      },
+      "set feasts of Jehovah, which ye shall proclaim to be holy convocations, even these are my set feasts."
+    ]
   },
   {
     "book": "LEV",
@@ -4032,13 +5396,29 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 4,
-    "content": "These are the set feasts of Jehovah, even holy convocations, which ye shall proclaim in their appointed season."
+    "content": {
+      "paragraph": true,
+      "text": "These are the set feasts of Jehovah, even holy convocations, which ye shall proclaim in their appointed season."
+    }
   },
   {
     "book": "LEV",
     "chapter": 23,
     "verse": 5,
-    "content": "In the first month, on the fourteenth day of the month at even, is Jehovah’s passover."
+    "content": [
+      {
+        "text": "In the first month, on the fourteenth day of the month ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "between the two evenings", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "at even, is Jehovah’s passover."
+    ]
   },
   {
     "book": "LEV",
@@ -4050,7 +5430,20 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 7,
-    "content": "In the first day ye shall have a holy convocation: ye shall do no servile work."
+    "content": [
+      {
+        "text": "In the first day ye shall have a holy convocation: ye shall do no ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "work of labor", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "servile work."
+    ]
   },
   {
     "book": "LEV",
@@ -4062,7 +5455,10 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 9,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -4086,7 +5482,11 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 13,
-    "content": "And the meal-offering thereof shall be two tenth parts of an ephah of fine flour mingled with oil, an offering made by fire unto Jehovah for a sweet savor; and the drink-offering thereof shall be of wine, the fourth part of a hin."
+    "content": [
+      "And the meal-offering thereof shall be two tenth parts ",
+      { "text": "of an ephah", "marks": ["i"] },
+      " of fine flour mingled with oil, an offering made by fire unto Jehovah for a sweet savor; and the drink-offering thereof shall be of wine, the fourth part of a hin."
+    ]
   },
   {
     "book": "LEV",
@@ -4098,7 +5498,10 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 15,
-    "content": "And ye shall count unto you from the morrow after the sabbath, from the day that ye brought the sheaf of the wave-offering; seven sabbaths shall there be complete:"
+    "content": {
+      "paragraph": true,
+      "text": "And ye shall count unto you from the morrow after the sabbath, from the day that ye brought the sheaf of the wave-offering; seven sabbaths shall there be complete:"
+    }
   },
   {
     "book": "LEV",
@@ -4110,7 +5513,11 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 17,
-    "content": "Ye shall bring out of your habitations two wave-loaves of two tenth parts of an ephah: they shall be of fine flour, they shall be baken with leaven, for first-fruits unto Jehovah."
+    "content": [
+      "Ye shall bring out of your habitations two wave-loaves of two tenth parts ",
+      { "text": "of an ephah", "marks": ["i"] },
+      ": they shall be of fine flour, they shall be baken with leaven, for first-fruits unto Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -4140,13 +5547,19 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 22,
-    "content": "And when ye reap the harvest of your land, thou shalt not wholly reap the corners of thy field, neither shalt thou gather the gleaning of thy harvest: thou shalt leave them for the poor, and for the soujourner: I am Jehovah your God."
+    "content": {
+      "paragraph": true,
+      "text": "And when ye reap the harvest of your land, thou shalt not wholly reap the corners of thy field, neither shalt thou gather the gleaning of thy harvest: thou shalt leave them for the poor, and for the sojourner: I am Jehovah your God."
+    }
   },
   {
     "book": "LEV",
     "chapter": 23,
     "verse": 23,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -4164,7 +5577,10 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 26,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -4206,13 +5622,25 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 33,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
     "chapter": 23,
     "verse": 34,
-    "content": "Speak unto the children of Israel, saying, On the fifteenth day of this seventh month is the feast of tabernacles for seven days unto Jehovah."
+    "content": [
+      {
+        "text": "Speak unto the children of Israel, saying, On the fifteenth day of this seventh month is the feast of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "booths", "marks": ["i"] }, "."]
+        }
+      },
+      "tabernacles for seven days unto Jehovah."
+    ]
   },
   {
     "book": "LEV",
@@ -4224,13 +5652,25 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 36,
-    "content": "Seven days ye shall offer an offering made by fire unto Jehovah: on the eighth day shall be a holy convocation unto you; and ye shall offer an offering made by fire unto Jehovah: it is a solemn assembly; ye shall do no servile work."
+    "content": [
+      {
+        "text": "Seven days ye shall offer an offering made by fire unto Jehovah: on the eighth day shall be a holy convocation unto you; and ye shall offer an offering made by fire unto Jehovah: it is a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "closing festival", "marks": ["i"] }]
+        }
+      },
+      "solemn assembly; ye shall do no servile work."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 23,
     "verse": 37,
-    "content": "These are the set feasts of Jehovah, which ye shall proclaim to be holy convocations, to offer an offering made by fire unto Jehovah, a burnt-offering, and a meal-offering, a sacrifice, and drink-offerings, each on its own day;"
+    "content": {
+      "paragraph": true,
+      "text": "These are the set feasts of Jehovah, which ye shall proclaim to be holy convocations, to offer an offering made by fire unto Jehovah, a burnt-offering, and a meal-offering, a sacrifice, and drink-offerings, each on its own day;"
+    }
   },
   {
     "book": "LEV",
@@ -4242,7 +5682,10 @@
     "book": "LEV",
     "chapter": 23,
     "verse": 39,
-    "content": "Howbeit on the fifteenth day of the seventh month, when ye have gathered in the fruits of the land, ye shall keep the feast of Jehovah seven days: on the first day shall be a solemn rest, and on the eighth day shall be a solemn rest."
+    "content": {
+      "paragraph": true,
+      "text": "Howbeit on the fifteenth day of the seventh month, when ye have gathered in the fruits of the land, ye shall keep the feast of Jehovah seven days: on the first day shall be a solemn rest, and on the eighth day shall be a solemn rest."
+    }
   },
   {
     "book": "LEV",
@@ -4287,7 +5730,19 @@
     "book": "LEV",
     "chapter": 24,
     "verse": 2,
-    "content": "Command the children of Israel, that they bring unto thee pure olive oil beaten for the light, to cause a lamp to burn continually."
+    "content": [
+      {
+        "text": "Command the children of Israel, that they bring unto thee pure olive oil beaten for the light, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "to set up a lamp continually", "marks": ["i"] }
+          ]
+        }
+      },
+      "to cause a lamp to burn continually."
+    ]
   },
   {
     "book": "LEV",
@@ -4305,25 +5760,62 @@
     "book": "LEV",
     "chapter": 24,
     "verse": 5,
-    "content": "And thou shalt take fine flour, and bake twelve cakes thereof: two tenth parts of an ephah shall be in one cake."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And thou shalt take fine flour, and bake twelve cakes thereof: two tenth parts "
+      },
+      { "text": "of an ephah", "marks": ["i"] },
+      " shall be in one cake."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 24,
     "verse": 6,
-    "content": "And thou shalt set them in two rows, six on a row, upon the pure table before Jehovah."
+    "content": [
+      {
+        "text": "And thou shalt set them in ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "two piles, six in a pile", "marks": ["i"] }
+          ]
+        }
+      },
+      "two rows, six on a row, upon the pure table before Jehovah."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 24,
     "verse": 7,
-    "content": "And thou shalt put pure frankincense upon each row, that it may be to the bread for a memorial, even an offering made by fire unto Jehovah."
+    "content": [
+      {
+        "text": "And thou shalt put pure frankincense upon each ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pile", "marks": ["i"] }]
+        }
+      },
+      "row, that it may be to the bread for a memorial, even an offering made by fire unto Jehovah."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 24,
     "verse": 8,
-    "content": "Every sabbath day he shall set it in order before Jehovah continually; it is on the behalf of the children of Israel, an everlasting covenant."
+    "content": [
+      {
+        "text": "Every sabbath day he shall set it in order before Jehovah continually; it is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "from", "marks": ["i"] }]
+        }
+      },
+      "on the behalf of the children of Israel, an everlasting covenant."
+    ]
   },
   {
     "book": "LEV",
@@ -4335,7 +5827,10 @@
     "book": "LEV",
     "chapter": 24,
     "verse": 10,
-    "content": "And the son of an Israelitish woman, whose father was an Egyptian, went out among the children of Israel; and the son of the Israelitish woman and a man of Israel strove together in the camp:"
+    "content": {
+      "paragraph": true,
+      "text": "And the son of an Israelitish woman, whose father was an Egyptian, went out among the children of Israel; and the son of the Israelitish woman and a man of Israel strove together in the camp:"
+    }
   },
   {
     "book": "LEV",
@@ -4353,7 +5848,10 @@
     "book": "LEV",
     "chapter": 24,
     "verse": 13,
-    "content": "And Jehovah spake unto Moses, saying,"
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah spake unto Moses, saying,"
+    }
   },
   {
     "book": "LEV",
@@ -4371,7 +5869,11 @@
     "book": "LEV",
     "chapter": 24,
     "verse": 16,
-    "content": "And he that blasphemeth the name of Jehovah, he shall surely be put to death; all the congregation shall certainly stone him: as well the sojourner, as the home-born, when he blasphemeth the name of Jehovah, shall be put to death."
+    "content": [
+      "And he that blasphemeth the name of Jehovah, he shall surely be put to death; all the congregation shall certainly stone him: as well the sojourner, as the home-born, when he blasphemeth the name ",
+      { "text": "of Jehovah", "marks": ["i"] },
+      ", shall be put to death."
+    ]
   },
   {
     "book": "LEV",
@@ -4464,7 +5966,10 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 8,
-    "content": "And thou shalt number seven sabbaths of years unto thee, seven times seven years; and there shall be unto thee the days of seven sabbaths of years, even forty and nine years."
+    "content": {
+      "paragraph": true,
+      "text": "And thou shalt number seven sabbaths of years unto thee, seven times seven years; and there shall be unto thee the days of seven sabbaths of years, even forty and nine years."
+    }
   },
   {
     "book": "LEV",
@@ -4482,7 +5987,11 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 11,
-    "content": "A jubilee shall that fiftieth year be unto you: ye shall not sow, neither reap that which groweth of itself in it, nor gather the grapes in it of the undressed vines."
+    "content": [
+      "A jubilee shall that fiftieth year be unto you: ye shall not sow, neither reap that which groweth of itself in it, nor gather ",
+      { "text": "the grapes", "marks": ["i"] },
+      " in it of the undressed vines."
+    ]
   },
   {
     "book": "LEV",
@@ -4494,7 +6003,10 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 13,
-    "content": "In this year of jubilee ye shall return every man unto his possession."
+    "content": {
+      "paragraph": true,
+      "text": "In this year of jubilee ye shall return every man unto his possession."
+    }
   },
   {
     "book": "LEV",
@@ -4506,7 +6018,11 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 15,
-    "content": "According to the number of years after the jubilee thou shalt buy of thy neighbor, and according unto the number of years of the crops he shall sell unto thee."
+    "content": [
+      "According to the number of years after the jubilee thou shalt buy of thy neighbor, ",
+      { "text": "and", "marks": ["i"] },
+      " according unto the number of years of the crops he shall sell unto thee."
+    ]
   },
   {
     "book": "LEV",
@@ -4524,7 +6040,10 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 18,
-    "content": "Wherefore ye shall do my statutes, and keep mine ordinances and do them; and ye shall dwell in the land in safety."
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore ye shall do my statutes, and keep mine ordinances and do them; and ye shall dwell in the land in safety."
+    }
   },
   {
     "book": "LEV",
@@ -4536,7 +6055,7 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 20,
-    "content": "And if ye shall say, What shall we eat the seventh year? Behold, we shall not sow, nor gather in our increase;"
+    "content": "And if ye shall say, What shall we eat the seventh year? behold, we shall not sow, nor gather in our increase;"
   },
   {
     "book": "LEV",
@@ -4554,7 +6073,10 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 23,
-    "content": "And the land shall not be sold in perpetuity; for the land is mine: for ye are strangers and sojourners with me."
+    "content": {
+      "paragraph": true,
+      "text": "And the land shall not be sold in perpetuity; for the land is mine: for ye are strangers and sojourners with me."
+    }
   },
   {
     "book": "LEV",
@@ -4590,7 +6112,10 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 29,
-    "content": "And if a man sell a dwelling-house in a walled city, then he may redeem it within a whole year after it is sold; for a full year shall he have the right of redemption."
+    "content": {
+      "paragraph": true,
+      "text": "And if a man sell a dwelling-house in a walled city, then he may redeem it within a whole year after it is sold; for a full year shall he have the right of redemption."
+    }
   },
   {
     "book": "LEV",
@@ -4614,19 +6139,54 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 33,
-    "content": "And if one of the Levites redeem, then the house that was sold, and the city of his possession, shall go out in the jubilee; for the houses of the cities of the Levites are their possession among the children of Israel."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Or, ",
+            { "text": "if a man redeem from the Levites", "marks": ["i"] },
+            ". Or, according to Vulgate, ",
+            { "text": "if they have not been redeemed", "marks": ["i"] }
+          ]
+        }
+      },
+      "if one of the Levites redeem, then the house that was sold, and the city of his possession, shall go out in the jubilee; for the houses of the cities of the Levites are their possession among the children of Israel."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 25,
     "verse": 34,
-    "content": "But the field of the suburbs of their cities may not be sold; for it is their perpetual possession."
+    "content": [
+      {
+        "text": "But the field of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pasture lands", "marks": ["i"] }]
+        }
+      },
+      "suburbs of their cities may not be sold; for it is their perpetual possession."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 25,
     "verse": 35,
-    "content": "And if thy brother be waxed poor, and his hand fail with thee; then thou shalt uphold him: as a stranger and a sojourner shall he live with thee."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if thy brother be waxed poor, and his hand fail with thee; then thou shalt ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "relieve", "marks": ["i"] }]
+        }
+      },
+      "uphold him: ",
+      { "text": "as", "marks": ["i"] },
+      " a stranger and a sojourner shall he live with thee."
+    ]
   },
   {
     "book": "LEV",
@@ -4644,13 +6204,20 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 38,
-    "content": "I am Jehovah your God, who brought you forth out of the land of Egypt, to give you the land of Canaan, and to be your God."
+    "content": [
+      "I am Jehovah your God, who brought you forth out of the land of Egypt, to give you the land of Canaan, ",
+      { "text": "and", "marks": ["i"] },
+      " to be your God."
+    ]
   },
   {
     "book": "LEV",
     "chapter": 25,
     "verse": 39,
-    "content": "And if thy brother be waxed poor with thee, and sell himself unto thee; thou shalt not make him to serve as a bond-servant."
+    "content": {
+      "paragraph": true,
+      "text": "And if thy brother be waxed poor with thee, and sell himself unto thee; thou shalt not make him to serve as a bondservant."
+    }
   },
   {
     "book": "LEV",
@@ -4698,7 +6265,14 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 47,
-    "content": "And if a stranger or sojourner with thee be waxed rich, and thy brother be waxed poor beside him, and sell himself unto the stranger or sojourner with thee, or to the stock of the stranger’s family;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if a stranger or sojourner with thee be waxed rich, and thy brother be waxed poor beside him, and sell himself unto the stranger "
+      },
+      { "text": "or", "marks": ["i"] },
+      " sojourner with thee, or to the stock of the stranger’s family;"
+    ]
   },
   {
     "book": "LEV",
@@ -4740,7 +6314,18 @@
     "book": "LEV",
     "chapter": 25,
     "verse": 54,
-    "content": "And if he be not redeemed by these means, then he shall go out in the year of jubilee, he, and his children with him."
+    "content": [
+      {
+        "text": "And if he be not redeemed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in these", "marks": ["i"] }, " years"]
+        }
+      },
+      "by these ",
+      { "text": "means", "marks": ["i"] },
+      ", then he shall go out in the year of jubilee, he, and his children with him."
+    ]
   },
   {
     "book": "LEV",
@@ -4752,10 +6337,24 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Ye shall make you no idols, neither shall ye rear you up a graven image, or a pillar, neither shall ye place any figured stone in your land, to bow down unto it: for I am Jehovah your God."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Ye shall make you no idols, neither shall ye rear you up a graven image, or ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "an obelisk", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "a pillar, neither shall ye place any figured stone in your land, to bow down ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thereon", "marks": ["i"] }]
+        }
+      },
+      "unto it: for I am Jehovah your God."
+    ]
   },
   {
     "book": "LEV",
@@ -4767,7 +6366,10 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 3,
-    "content": "If ye walk in my statutes, and keep my commandments, and do them;"
+    "content": {
+      "paragraph": true,
+      "text": "If ye walk in my statutes, and keep my commandments, and do them;"
+    }
   },
   {
     "book": "LEV",
@@ -4809,7 +6411,16 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 10,
-    "content": "And ye shall eat old store long kept, and ye shall bring forth the old because of the new."
+    "content": [
+      {
+        "text": "And ye shall eat old store long kept, and ye shall bring forth the old ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "from before", "marks": ["i"] }]
+        }
+      },
+      "because of the new."
+    ]
   },
   {
     "book": "LEV",
@@ -4833,7 +6444,10 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 14,
-    "content": "But if ye will not hearken unto me, and will not do all these commandments;"
+    "content": {
+      "paragraph": true,
+      "text": "But if ye will not hearken unto me, and will not do all these commandments;"
+    }
   },
   {
     "book": "LEV",
@@ -4875,7 +6489,10 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 21,
-    "content": "And if ye walk contrary unto me, and will not hearken unto me, I will bring seven times more plagues upon you according to your sins."
+    "content": {
+      "paragraph": true,
+      "text": "And if ye walk contrary unto me, and will not hearken unto me, I will bring seven times more plagues upon you according to your sins."
+    }
   },
   {
     "book": "LEV",
@@ -4887,7 +6504,17 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 23,
-    "content": "And if by these things ye will not be reformed unto me, but will walk contrary unto me;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if by these things ye will not be reformed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by", "marks": ["i"] }]
+        }
+      },
+      "unto me, but will walk contrary unto me;"
+    ]
   },
   {
     "book": "LEV",
@@ -4911,7 +6538,10 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 27,
-    "content": "And if ye will not for all this hearken unto me, but walk contrary unto me;"
+    "content": {
+      "paragraph": true,
+      "text": "And if ye will not for all this hearken unto me, but walk contrary unto me;"
+    }
   },
   {
     "book": "LEV",
@@ -4953,7 +6583,10 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 34,
-    "content": "Then shall the land enjoy its sabbaths, as long as it lieth desolate, and ye are in your enemies’ land; even then shall the land rest, and enjoy its sabbaths."
+    "content": {
+      "paragraph": true,
+      "text": "Then shall the land enjoy its sabbaths, as long as it lieth desolate, and ye are in your enemies’ land; even then shall the land rest, and enjoy its sabbaths."
+    }
   },
   {
     "book": "LEV",
@@ -4989,7 +6622,10 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 40,
-    "content": "And they shall confess their iniquity, and the iniquity of their fathers, in their trespass which they trespassed against me, and also that, because they walked contrary unto me,"
+    "content": {
+      "paragraph": true,
+      "text": "And they shall confess their iniquity, and the iniquity of their fathers, in their trespass which they trespassed against me, and also that, because they walked contrary unto me,"
+    }
   },
   {
     "book": "LEV",
@@ -5025,7 +6661,10 @@
     "book": "LEV",
     "chapter": 26,
     "verse": 46,
-    "content": "These are the statutes and ordinances and laws, which Jehovah made between him and the children of Israel in mount Sinai by Moses."
+    "content": {
+      "paragraph": true,
+      "text": "These are the statutes and ordinances and laws, which Jehovah made between him and the children of Israel in mount Sinai by Moses."
+    }
   },
   {
     "book": "LEV",
@@ -5040,7 +6679,29 @@
     "book": "LEV",
     "chapter": 27,
     "verse": 2,
-    "content": "Speak unto the children of Israel, and say unto them, When a man shall accomplish a vow, the persons shall be for Jehovah by thy estimation."
+    "content": [
+      {
+        "text": "Speak unto the children of Israel, and say unto them, When a man shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "make a special vow", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "accomplish a vow, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "according to thy estimation of persons unto Jehovah, then they estimation etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "the persons shall be for Jehovah by thy estimation."
+    ]
   },
   {
     "book": "LEV",
@@ -5082,7 +6743,10 @@
     "book": "LEV",
     "chapter": 27,
     "verse": 9,
-    "content": "And if it be a beast, whereof men offer an oblation unto Jehovah, all that any man giveth of such unto Jehovah shall be holy."
+    "content": {
+      "paragraph": true,
+      "text": "And if it be a beast, whereof men offer an oblation unto Jehovah, all that any man giveth of such unto Jehovah shall be holy."
+    }
   },
   {
     "book": "LEV",
@@ -5112,7 +6776,10 @@
     "book": "LEV",
     "chapter": 27,
     "verse": 14,
-    "content": "And when a man shall sanctify his house to be holy unto Jehovah, then the priest shall estimate it, whether it be good or bad: as the priest shall estimate it, so shall it stand."
+    "content": {
+      "paragraph": true,
+      "text": "And when a man shall sanctify his house to be holy unto Jehovah, then the priest shall estimate it, whether it be good or bad: as the priest shall estimate it, so shall it stand."
+    }
   },
   {
     "book": "LEV",
@@ -5124,7 +6791,14 @@
     "book": "LEV",
     "chapter": 27,
     "verse": 16,
-    "content": "And if a man shall sanctify unto Jehovah part of the field of his possession, then thy estimation shall be according to the sowing thereof: the sowing of a homer of barley shall be valued at fifty shekels of silver."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And if a man shall sanctify unto Jehovah part of the field of his possession, then thy estimation shall be according to the sowing thereof: the sowing of a homer of barley "
+      },
+      { "text": "shall be valued", "marks": ["i"] },
+      " at fifty shekels of silver."
+    ]
   },
   {
     "book": "LEV",
@@ -5184,7 +6858,10 @@
     "book": "LEV",
     "chapter": 27,
     "verse": 26,
-    "content": "Only the firstling among beasts, which is made a firstling to Jehovah, no man shall sanctify it; whether it be ox or sheep, it is Jehovah’s."
+    "content": {
+      "paragraph": true,
+      "text": "Only the firstling among beasts, which is made a firstling to Jehovah, no man shall sanctify it; whether it be ox or sheep, it is Jehovah’s."
+    }
   },
   {
     "book": "LEV",
@@ -5196,7 +6873,10 @@
     "book": "LEV",
     "chapter": 27,
     "verse": 28,
-    "content": "Notwithstanding, no devoted thing, that a man shall devote unto Jehovah of all that he hath, whether of man or beast, or of the field of his possession, shall be sold or redeemed: every devoted thing is most holy unto Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "Notwithstanding, no devoted thing, that a man shall devote unto Jehovah of all that he hath, whether of man or beast, or of the field of his possession, shall be sold or redeemed: every devoted thing is most holy unto Jehovah."
+    }
   },
   {
     "book": "LEV",
@@ -5208,7 +6888,10 @@
     "book": "LEV",
     "chapter": 27,
     "verse": 30,
-    "content": "And all the tithe of the land, whether of the seed of the land, or of the fruit of the tree, is Jehovah’s: it is holy unto Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "And all the tithe of the land, whether of the seed of the land, or of the fruit of the tree, is Jehovah’s: it is holy unto Jehovah."
+    }
   },
   {
     "book": "LEV",
@@ -5232,6 +6915,9 @@
     "book": "LEV",
     "chapter": 27,
     "verse": 34,
-    "content": "These are the commandments, which Jehovah commanded Moses for the children of Israel in mount Sinai."
+    "content": {
+      "paragraph": true,
+      "text": "These are the commandments, which Jehovah commanded Moses for the children of Israel in mount Sinai."
+    }
   }
 ]

@@ -12,19 +12,42 @@
     "book": "1TM",
     "chapter": 1,
     "verse": 2,
-    "content": "unto Timothy, my true child in faith: Grace, mercy, peace, from God the Father and Christ Jesus our Lord."
+    "content": {
+      "text": "unto Timothy, my true child in faith: Grace, mercy, peace, from God the Father and Christ Jesus our Lord.",
+      "break": true
+    }
   },
   {
     "book": "1TM",
     "chapter": 1,
     "verse": 3,
-    "content": "As I exhorted thee to tarry at Ephesus, when I was going into Macedonia, that thou mightest charge certain men not to teach a different doctrine,"
+    "content": {
+      "paragraph": true,
+      "text": "As I exhorted thee to tarry at Ephesus, when I was going into Macedonia, that thou mightest charge certain men not to teach a different doctrine,"
+    }
   },
   {
     "book": "1TM",
     "chapter": 1,
     "verse": 4,
-    "content": "neither to give heed to fables and endless genealogies, which minister questionings, rather than a dispensation of God which is in faith; so do I now."
+    "content": [
+      {
+        "text": "neither to give heed to fables and endless genealogies, which minister questionings, rather than a ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "stewardship", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "1 Corinthians 9:17", "content": "1 Cor. 9:17" },
+            "."
+          ]
+        }
+      },
+      "dispensation of God which is in faith; ",
+      { "text": "so do I now", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "1TM",
@@ -36,7 +59,24 @@
     "book": "1TM",
     "chapter": 1,
     "verse": 6,
-    "content": "from which things some having swerved have turned aside unto vain talking;"
+    "content": [
+      {
+        "text": "from which things some having ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "missed the mark", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "1 Timothy 6:21", "content": "6:21" },
+            "; ",
+            { "bibleLink": "2 Timothy 2:18", "content": "2 Tim. 2:18" },
+            "."
+          ]
+        }
+      },
+      "swerved have turned aside unto vain talking;"
+    ]
   },
   {
     "book": "1TM",
@@ -54,25 +94,90 @@
     "book": "1TM",
     "chapter": 1,
     "verse": 9,
-    "content": "as knowing this, that law is not made for a righteous man, but for the lawless and unruly, for the ungodly and sinners, for the unholy and profane, for murderers of fathers and murderers of mothers, for manslayers,"
+    "content": [
+      {
+        "text": "as knowing this, that law is not made for a righteous man, but for the lawless and unruly, for the ungodly and sinners, for the unholy and profane, for ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "smiters", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "murderers of fathers and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "smiters", "marks": ["i"] }]
+        }
+      },
+      "murderers of mothers, for manslayers,"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 1,
     "verse": 10,
-    "content": "for fornicators, for abusers of themselves with men, for menstealers, for liars, for false swearers, and if there be any other thing contrary to the sound doctrine;"
+    "content": [
+      {
+        "text": "for fornicators, for abusers of themselves with men, for menstealers, for liars, for false swearers, and if there be any other thing contrary to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "healthful", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "sound ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "teaching", "marks": ["i"] }]
+        }
+      },
+      "doctrine;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 1,
     "verse": 11,
-    "content": "according to the gospel of the glory of the blessed God, which was committed to my trust."
+    "content": [
+      {
+        "text": "according to the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            " margin."
+          ]
+        }
+      },
+      "gospel of the glory of the blessed God, which was committed to my trust."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 1,
     "verse": 12,
-    "content": "I thank him that enabled me, even Christ Jesus our Lord, for that he counted me faithful, appointing me to his service;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I thank him that ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "enableth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "enabled me, ",
+      { "text": "even", "marks": ["i"] },
+      " Christ Jesus our Lord, for that he counted me faithful, appointing me to ",
+      { "text": "his", "marks": ["i"] },
+      " service;"
+    ]
   },
   {
     "book": "1TM",
@@ -102,13 +207,57 @@
     "book": "1TM",
     "chapter": 1,
     "verse": 17,
-    "content": "Now unto the King eternal, immortal, invisible, the only God, be honor and glory forever and ever. Amen."
+    "content": [
+      {
+        "text": "Now unto the King ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "of the ages", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Hebrews 1:2", "content": "Heb. 1:2" },
+            "; ",
+            { "bibleLink": "Revelation 15:3", "content": "Rev. 15:3" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "eternal, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "incorruptible", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "immortal, invisible, the only God, ",
+      { "text": "be", "marks": ["i"] },
+      {
+        "text": " honor and glory ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "unto the ages of the ages", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "for ever and ever. Amen."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 1,
     "verse": 18,
-    "content": "This charge I commit unto thee, my child Timothy, according to the prophecies which led the way to thee, that by them thou mayest war the good warfare;"
+    "content": {
+      "paragraph": true,
+      "text": "This charge I commit unto thee, my child Timothy, according to the prophecies which led the way to thee, that by them thou mayest war the good warfare;"
+    }
   },
   {
     "book": "1TM",
@@ -120,16 +269,26 @@
     "book": "1TM",
     "chapter": 1,
     "verse": 20,
-    "content": "of whom is Hymenaeus and Alexander; whom I delivered unto Satan, that they might be taught not to blaspheme."
+    "content": "of whom is Hymenæus and Alexander; whom I delivered unto Satan, that they might be taught not to blaspheme."
   },
   {
     "book": "1TM",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I exhort therefore, first of all, that supplications, prayers, intercessions, thanksgivings, be made for all men;"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I exhort therefore, first of all, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "to make supplications etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "that supplications, prayers, intercessions, thanksgivings, be made for all men;"
+    ]
   },
   {
     "book": "1TM",
@@ -153,25 +312,52 @@
     "book": "1TM",
     "chapter": 2,
     "verse": 5,
-    "content": "For there is one God, one mediator also between God and men, himself man, Christ Jesus,"
+    "content": [
+      "For there is one God, one mediator also between God and men, ",
+      { "text": "himself", "marks": ["i"] },
+      " man, Christ Jesus,"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 2,
     "verse": 6,
-    "content": "who gave himself a ransom for all; the testimony to be borne in its own times;"
+    "content": [
+      "who gave himself a ransom for all; the testimony ",
+      { "text": "to be borne", "marks": ["i"] },
+      " in its own times;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 2,
     "verse": 7,
-    "content": "whereunto I was appointed a preacher and an apostle (I speak the truth, I lie not), a teacher of the Gentiles in faith and truth."
+    "content": [
+      {
+        "text": "whereunto I was appointed a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "herald", "marks": ["i"] }, "."]
+        }
+      },
+      "preacher and an apostle (I speak the truth, I lie not), a teacher of the Gentiles in faith and truth."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 2,
     "verse": 8,
-    "content": "I desire therefore that the men pray in every place, lifting up holy hands, without wrath and disputing."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I desire therefore that the men pray in every place, lifting up holy hands, without wrath and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "doubting", "marks": ["i"] }]
+        }
+      },
+      "disputing."
+    ]
   },
   {
     "book": "1TM",
@@ -213,34 +399,83 @@
     "book": "1TM",
     "chapter": 2,
     "verse": 15,
-    "content": "but she shall be saved through her child-bearing, if they continue in faith and love and sanctification with sobriety."
+    "content": [
+      {
+        "text": "but she shall be saved through ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the childbearing", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Galatians 4:4", "content": "Gal. 4:4" },
+            "."
+          ]
+        }
+      },
+      "her child-bearing, if they continue in faith and love and sanctification with sobriety."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Faithful is the saying, If a man seeketh the office of a bishop, he desireth a good work."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "stu",
+          "content": [
+            "Some connect the words ",
+            { "text": "Faithful is the saying", "marks": ["i"] },
+            " with the preceding paragraph."
+          ]
+        }
+      },
+      "Faithful is the saying, If a man seeketh the office of a bishop, he desireth a good work."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 3,
     "verse": 2,
-    "content": "The bishop therefore must be without reproach, the husband of one wife, temperate, sober-minded, orderly, given to hospitality, apt to teach;"
+    "content": [
+      {
+        "text": "The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "overseer", "marks": ["i"] }]
+        }
+      },
+      "bishop therefore must be without reproach, the husband of one wife, temperate, sober-minded, orderly, given to hospitality, apt to teach;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 3,
     "verse": 3,
-    "content": "no brawler, no striker; but gentle, not contentious, no lover of money;"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "not quarrelsome over wine", "marks": ["i"] }
+          ]
+        }
+      },
+      "no brawler, no striker; but gentle, not contentious, no lover of money;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 3,
     "verse": 4,
-    "content": "one that ruleth well his own house, having his children in subjection with all gravity;"
+    "content": [
+      "one that ruleth well his own house, having ",
+      { "text": "his", "marks": ["i"] },
+      " children in subjection with all gravity;"
+    ]
   },
   {
     "book": "1TM",
@@ -252,7 +487,16 @@
     "book": "1TM",
     "chapter": 3,
     "verse": 6,
-    "content": "not a novice, lest being puffed up he fall into the condemnation of the devil."
+    "content": [
+      {
+        "text": "not a novice, lest being puffed up he fall into the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "judgment", "marks": ["i"] }, "."]
+        }
+      },
+      "condemnation of the devil."
+    ]
   },
   {
     "book": "1TM",
@@ -264,7 +508,11 @@
     "book": "1TM",
     "chapter": 3,
     "verse": 8,
-    "content": "Deacons in like manner must be grave, not double-tongued, not given to much wine, not greedy of filthy lucre;"
+    "content": [
+      "Deacons in like manner ",
+      { "text": "must be", "marks": ["i"] },
+      " grave, not double-tongued, not given to much wine, not greedy of filthy lucre;"
+    ]
   },
   {
     "book": "1TM",
@@ -282,13 +530,21 @@
     "book": "1TM",
     "chapter": 3,
     "verse": 11,
-    "content": "Women in like manner must be grave, not slanderers, temperate, faithful in all things."
+    "content": [
+      "Women in like manner ",
+      { "text": "must be", "marks": ["i"] },
+      " grave, not slanderers, temperate, faithful in all things."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 3,
     "verse": 12,
-    "content": "Let deacons be husbands of one wife, ruling their children and their own houses well."
+    "content": [
+      "Let deacons be husbands of one wife, ruling ",
+      { "text": "their", "marks": ["i"] },
+      " children and their own houses well."
+    ]
   },
   {
     "book": "1TM",
@@ -300,19 +556,71 @@
     "book": "1TM",
     "chapter": 3,
     "verse": 14,
-    "content": "These things write I unto thee, hoping to come unto thee shortly;"
+    "content": {
+      "paragraph": true,
+      "text": "These things write I unto thee, hoping to come unto thee shortly;"
+    }
   },
   {
     "book": "1TM",
     "chapter": 3,
     "verse": 15,
-    "content": "but if I tarry long, that thou mayest know how men ought to behave themselves in the house of God, which is the church of the living God, the pillar and ground of the truth."
+    "content": [
+      {
+        "text": "but if I tarry long, that thou mayest know ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "how thou oughtest to behave thyself", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "how men ought to behave themselves in the house of God, which is the church of the living God, the pillar and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stay", "marks": ["i"] }]
+        }
+      },
+      "ground of the truth."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 3,
     "verse": 16,
-    "content": "And without controversy great is the mystery of godliness; He who was manifested in the flesh, Justified in the spirit, Seen of angels, Preached among the nations, Believed on in the world, Received up in glory."
+    "content": [
+      {
+        "text": "And without controversy great is the mystery of godliness;",
+        "break": true,
+        "foot": {
+          "type": "var",
+          "content": [
+            "The word ",
+            { "text": "God", "marks": ["i"] },
+            ", in place of ",
+            { "text": "He who", "marks": ["i"] },
+            ", rests on no sufficient ancient evidence. Some ancient authorities read ",
+            { "text": "which", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "He who was manifested in the flesh,", "break": true },
+      { "text": "Justified in the spirit,", "break": true },
+      { "text": "Seen of angels,", "break": true },
+      {
+        "text": "Preached among the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Gentiles", "marks": ["i"] }]
+        }
+      },
+      { "text": "nations,", "break": true },
+      { "text": "Believed on in the world,", "break": true },
+      { "text": "Received up in glory.", "break": true }
+    ]
   },
   {
     "book": "1TM",
@@ -327,13 +635,26 @@
     "book": "1TM",
     "chapter": 4,
     "verse": 2,
-    "content": "through the hypocrisy of men that speak lies, branded in their own conscience as with a hot iron;"
+    "content": [
+      {
+        "text": "through the hypocrisy of men that speak lies, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "seared", "marks": ["i"] }]
+        }
+      },
+      "branded in their own conscience as with a hot iron;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 4,
     "verse": 3,
-    "content": "forbidding to marry, and commanding to abstain from meats, which God created to be received with thanksgiving by them that believe and know the truth."
+    "content": [
+      "forbidding to marry, ",
+      { "text": "and commanding", "marks": ["i"] },
+      " to abstain from meats, which God created to be received with thanksgiving by them that believe and know the truth."
+    ]
   },
   {
     "book": "1TM",
@@ -351,7 +672,14 @@
     "book": "1TM",
     "chapter": 4,
     "verse": 6,
-    "content": "If thou put the brethren in mind of these things, thou shalt be a good minister of Christ Jesus, nourished in the words of the faith, and of the good doctrine which thou hast followed until now:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "If thou put the brethren in mind of these things, thou shalt be a good minister of Christ Jesus, nourished in the words of the faith, and of the good doctrine which thou hast followed "
+      },
+      { "text": "until now", "marks": ["i"] },
+      ":"
+    ]
   },
   {
     "book": "1TM",
@@ -363,7 +691,16 @@
     "book": "1TM",
     "chapter": 4,
     "verse": 8,
-    "content": "for bodily exercise is profitable for a little; but godliness is profitable for all things, having promise of the life which now is, and of that which is to come."
+    "content": [
+      {
+        "text": "for bodily exercise is profitable ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "for little", "marks": ["i"] }]
+        }
+      },
+      "for a little; but godliness is profitable for all things, having promise of the life which now is, and of that which is to come."
+    ]
   },
   {
     "book": "1TM",
@@ -375,7 +712,7 @@
     "book": "1TM",
     "chapter": 4,
     "verse": 10,
-    "content": "For to this end we labor and strive, because we have our hope set on the living God, who is the Saviour on all men, specially of them that believe."
+    "content": "For to this end we labor and strive, because we have our hope set on the living God, who is the Saviour of all men, specially of them that believe."
   },
   {
     "book": "1TM",
@@ -468,7 +805,11 @@
     "book": "1TM",
     "chapter": 5,
     "verse": 9,
-    "content": "Let none be enrolled as a widow under threescore years old, having been the wife of one man,"
+    "content": [
+      "Let none be enrolled as a widow under threescore years old, ",
+      { "text": "having been", "marks": ["i"] },
+      " the wife of one man,"
+    ]
   },
   {
     "book": "1TM",
@@ -486,19 +827,39 @@
     "book": "1TM",
     "chapter": 5,
     "verse": 12,
-    "content": "having condemnation, because they have rejected their first pledge."
+    "content": [
+      {
+        "text": "having condemnation, because they have rejected their first ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "faith", "marks": ["i"] }, "."]
+        }
+      },
+      "pledge."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 5,
     "verse": 13,
-    "content": "And withal they learn also to be idle, going about from house to house; and not only idle, but tattlers also and busybodies, speaking things which they ought not."
+    "content": [
+      "And withal they learn also ",
+      { "text": "to be", "marks": ["i"] },
+      " idle, going about from house to house; and not only idle, but tattlers also and busybodies, speaking things which they ought not."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 5,
     "verse": 14,
-    "content": "I desire therefore that the younger widows marry, bear children, rule the household, give no occasion to the adversary for reviling:"
+    "content": [
+      {
+        "text": "I desire therefore that the younger ",
+        "foot": { "type": "trn", "content": "Or, women" }
+      },
+      { "text": "widows", "marks": ["i"] },
+      " marry, bear children, rule the household, give no occasion to the adversary for reviling:"
+    ]
   },
   {
     "book": "1TM",
@@ -510,25 +871,44 @@
     "book": "1TM",
     "chapter": 5,
     "verse": 16,
-    "content": "If any woman that believeth hath widows, let her relieve them, and let not the church be burdened; that it mat relieve them that are widows indeed."
+    "content": "If any woman that believeth hath widows, let her relieve them, and let not the church be burdened; that it may relieve them that are widows indeed."
   },
   {
     "book": "1TM",
     "chapter": 5,
     "verse": 17,
-    "content": "Let the elders that rule well be counted worthy of double honor, especially those who labor in the word and in teaching."
+    "content": {
+      "paragraph": true,
+      "text": "Let the elders that rule well be counted worthy of double honor, especially those who labor in the word and in teaching."
+    }
   },
   {
     "book": "1TM",
     "chapter": 5,
     "verse": 18,
-    "content": "For the scripture saith, Thou shalt not muzzle the ox when he treadeth out the corn. And, The laborer is worthy of his hire."
+    "content": [
+      {
+        "text": "For the scripture saith, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Deuteronomy 25:4", "content": "Dt. 25:4" },
+            "."
+          ]
+        }
+      },
+      "Thou shalt not muzzle the ox when he treadeth out the corn. And, The laborer is worthy of his hire."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 5,
     "verse": 19,
-    "content": "Against an elder receive not an accusation, except at the mouth of two or three witnesses."
+    "content": [
+      "Against an elder receive not an accusation, except at ",
+      { "text": "the mouth of", "marks": ["i"] },
+      " two or three witnesses."
+    ]
   },
   {
     "book": "1TM",
@@ -540,7 +920,18 @@
     "book": "1TM",
     "chapter": 5,
     "verse": 21,
-    "content": "I charge thee in the sight of God, and Christ Jesus, and the elect angels, that thou observe these things without prejudice, doing nothing by partiality."
+    "content": [
+      "I charge ",
+      { "text": "thee", "marks": ["i"] },
+      {
+        "text": " in the sight of God, and Christ Jesus, and the elect angels, that thou observe these things without ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "preference", "marks": ["i"] }]
+        }
+      },
+      "prejudice, doing nothing by partiality."
+    ]
   },
   {
     "book": "1TM",
@@ -564,34 +955,84 @@
     "book": "1TM",
     "chapter": 5,
     "verse": 25,
-    "content": "In like manner also there are good works that are evident; and such as are otherwise cannot be hid."
+    "content": [
+      {
+        "text": "In like manner also ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the works that are good are evident", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "there are good works that are evident; and such as are otherwise cannot be hid."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Let as many as are servants under the yoke count their own masters worthy of all honor, that the name of God and the doctrine be not blasphemed."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Let as many as are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservants", "marks": ["i"] }, "."]
+        }
+      },
+      "servants under the yoke count their own masters worthy of all honor, that the name of God and the doctrine be not blasphemed."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 2,
-    "content": "And they that have believing masters, let them not despise them, because they are brethren; but let them serve them the rather, because they that partake of the benefit are believing and beloved. These things teach and exhort."
+    "content": [
+      {
+        "text": "And they that have believing masters, let them not despise them, because they are brethren; but let them serve them the rather, because they that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lay hold of", "marks": ["i"] }]
+        }
+      },
+      "partake of the benefit are believing and beloved. These things teach and exhort."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 3,
-    "content": "If any man teacheth a different doctrine, and consenteth not to sound words, even the words of our Lord Jesus Christ, and to the doctrine which is according to godliness;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "If any man teacheth a different doctrine, and consenteth not to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "healthful", "marks": ["i"] }, "."]
+        }
+      },
+      "sound words, ",
+      { "text": "even", "marks": ["i"] },
+      " the words of our Lord Jesus Christ, and to the doctrine which is according to godliness;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 4,
-    "content": "he is puffed up, knowing nothing, but doting about questionings and disputes of words, whereof cometh envy, strife, railings, evil surmisings,"
+    "content": [
+      {
+        "text": "he is puffed up, knowing nothing, but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "sick", "marks": ["i"] }, "."]
+        }
+      },
+      "doting about questionings and disputes of words, whereof cometh envy, strife, railings, evil surmisings,"
+    ]
   },
   {
     "book": "1TM",
@@ -615,7 +1056,19 @@
     "book": "1TM",
     "chapter": 6,
     "verse": 8,
-    "content": "but having food and covering we shall be therewith content."
+    "content": [
+      {
+        "text": "but having food and covering ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "in these we shall have enough", "marks": ["i"] }
+          ]
+        }
+      },
+      "we shall be therewith content."
+    ]
   },
   {
     "book": "1TM",
@@ -627,13 +1080,32 @@
     "book": "1TM",
     "chapter": 6,
     "verse": 10,
-    "content": "For the love of money is a root of all kinds of evil: which some reaching after have been led astray from the faith, and have pierced themselves through with many sorrows."
+    "content": [
+      {
+        "text": "For the love of money is a root of all ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "evils", "marks": ["i"] }, "."]
+        }
+      },
+      "kinds of evil: which some reaching after have been led astray from the faith, and have pierced themselves through with many sorrows."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 11,
-    "content": "But thou, O man of God, flee these things; and follow after righteousness, godliness, faith, love, patience, meekness."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But thou, O man of God, flee these things; and follow after righteousness, godliness, faith, love, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stedfastness", "marks": ["i"] }]
+        }
+      },
+      "patience, meekness."
+    ]
   },
   {
     "book": "1TM",
@@ -645,7 +1117,19 @@
     "book": "1TM",
     "chapter": 6,
     "verse": 13,
-    "content": "I charge thee in the sight of God, who giveth life to all things, and of Christ Jesus, who before Pontius Pilate witnessed the good confession;"
+    "content": [
+      {
+        "text": "I charge thee in the sight of God, who ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "preserveth all things alive", "marks": ["i"] }
+          ]
+        }
+      },
+      "giveth life to all things, and of Christ Jesus, who before Pontius Pilate witnessed the good confession;"
+    ]
   },
   {
     "book": "1TM",
@@ -657,42 +1141,126 @@
     "book": "1TM",
     "chapter": 6,
     "verse": 15,
-    "content": "which in its own times he shall show, who is the blessed and only Potentate, the Kings of kings, and Lord of lords;"
+    "content": [
+      {
+        "text": "which in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "his", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "its own times he shall show, who is the blessed and only Potentate, the King of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "them that reign as kings", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "kings, and Lord of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "them that rule as lords", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "lords;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 16,
-    "content": "who only hath immortality, dwelling in light unapproachable; whom no man hath seen, nor can see: to whom be honor and power eternal. Amen."
+    "content": [
+      "who only hath immortality, dwelling in light unapproachable; whom no man hath seen, nor can see: to whom ",
+      { "text": "be", "marks": ["i"] },
+      " honor and power eternal. Amen."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 17,
-    "content": "Charge them that are rich in this present world, that they be not highminded, nor have their hope set on the uncertainty of riches, but on God, who giveth us richly all things to enjoy;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Charge them that are rich in this present ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      "world, that they be not highminded, nor have their hope set on the uncertainty of riches, but on God, who giveth us richly all things to enjoy;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 18,
-    "content": "that they do good, that they be rich in good works, that they be ready to distribute, willing to communicate;"
+    "content": [
+      {
+        "text": "that they do good, that they be rich in good works, that they be ready to distribute, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ready to sympathize", "marks": ["i"] }]
+        }
+      },
+      "willing to communicate;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 19,
-    "content": "laying up in store for themselves a good foundation against the time to come, that they may lay hold on the life which is life indeed."
+    "content": [
+      "laying up in store for themselves a good foundation against the time to come, that they may lay hold on the life which is ",
+      { "text": "life", "marks": ["i"] },
+      " indeed."
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 20,
-    "content": "O Timothy, guard that which is committed unto thee, turning away from the profane babblings and oppositions of the knowledge which is falsely so called;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "O Timothy, guard ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "the deposit", "marks": ["i"] }, "."]
+        }
+      },
+      "that which is committed unto ",
+      { "text": "thee", "marks": ["i"] },
+      ", turning away from the profane babblings and oppositions of the knowledge which is falsely so called;"
+    ]
   },
   {
     "book": "1TM",
     "chapter": 6,
     "verse": 21,
-    "content": "which some professing have erred concerning the faith. Grace be with you."
+    "content": [
+      {
+        "text": "which some professing have ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "missed the mark", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "erred concerning the faith.", "break": true },
+      { "paragraph": true, "text": "Grace be with you." }
+    ]
   }
 ]

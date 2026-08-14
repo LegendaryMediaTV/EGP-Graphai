@@ -5,14 +5,17 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "The word of Jehovah which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amarah, the son of Hezekiah, in the days of Josiah the son of Amon, king of Judah."
+      "text": "The word of Jehovah which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hezekiah, in the days of Josiah the son of Amon, king of Judah."
     }
   },
   {
     "book": "ZPH",
     "chapter": 1,
     "verse": 2,
-    "content": "I will utterly consume all things from off the face of the ground, saith Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "I will utterly consume all things from off the face of the ground, saith Jehovah."
+    }
   },
   {
     "book": "ZPH",
@@ -24,13 +27,26 @@
     "book": "ZPH",
     "chapter": 1,
     "verse": 4,
-    "content": "And I will stretch out my hand upon Judah, and upon all the inhabitants of Jerusalem; and I will cut off the remnant of Baal from this place, and the name of the Chemarim with the priests;"
+    "content": [
+      "And I will stretch out my hand upon Judah, and upon all the inhabitants of Jerusalem; and I will cut off the remnant of Baal from this place, ",
+      { "text": "and", "marks": ["i"] },
+      " the name of the Chemarim with the priests;"
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 1,
     "verse": 5,
-    "content": "and them that worship the host of heaven upon the housetops; and them that worship, that swear to Jehovah and swear by Malcam;"
+    "content": [
+      {
+        "text": "and them that worship the host of heaven upon the housetops; and them that worship, that swear to Jehovah and swear by ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "their king", "marks": ["i"] }]
+        }
+      },
+      "Malcam;"
+    ]
   },
   {
     "book": "ZPH",
@@ -42,7 +58,10 @@
     "book": "ZPH",
     "chapter": 1,
     "verse": 7,
-    "content": "Hold thy peace at the presence of the Lord Jehovah; for the day of Jehovah is at hand: for Jehovah hath prepared a sacrifice, he hath consecrated his guests."
+    "content": {
+      "paragraph": true,
+      "text": "Hold thy peace at the presence of the Lord Jehovah; for the day of Jehovah is at hand: for Jehovah hath prepared a sacrifice, he hath consecrated his guests."
+    }
   },
   {
     "book": "ZPH",
@@ -54,25 +73,75 @@
     "book": "ZPH",
     "chapter": 1,
     "verse": 9,
-    "content": "And in that day I will punish all those that leap over the threshold, that fill their master’s house with violence and deceit."
+    "content": [
+      {
+        "text": "And in that day I will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "visit upon", "marks": ["i"] }, "."]
+        }
+      },
+      "punish all those that leap over the threshold, that fill their master’s house with violence and deceit."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 1,
     "verse": 10,
-    "content": "And in that day, saith Jehovah, there shall be the noise of a cry from the fish gate, and a wailing from the second quarter, and a great crashing from the hills."
+    "content": [
+      {
+        "text": "And in that day, saith Jehovah, there shall be the noise of a cry from the fish gate, and a wailing from the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Mishneh", "marks": ["i"] }, "."]
+        }
+      },
+      "second quarter, and a great crashing from the hills."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 1,
     "verse": 11,
-    "content": "Wail, ye inhabitants of Maktesh; for all the people of Canaan are undone; all they that were laden with silver are cut off."
+    "content": [
+      {
+        "text": "Wail, ye inhabitants of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "The mortar", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "Maktesh; for all ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the merchant people", "marks": ["i"] }]
+        }
+      },
+      "the people of Canaan are undone; all they that were laden with silver are cut off."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 1,
     "verse": 12,
-    "content": "And it shall come to pass at that time, that I will search Jerusalem with lamps; and I will punish the men that are settled on their lees, that say in their heart, Jehovah will not do good, neither will he do evil."
+    "content": [
+      {
+        "text": "And it shall come to pass at that time, that I will search Jerusalem with lamps; and I will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "visit upon", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "punish the men that are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thickened", "marks": ["i"] }]
+        }
+      },
+      "settled on their lees, that say in their heart, Jehovah will not do good, neither will he do evil."
+    ]
   },
   {
     "book": "ZPH",
@@ -84,7 +153,14 @@
     "book": "ZPH",
     "chapter": 1,
     "verse": 14,
-    "content": "The great day of Jehovah is near, it is near and hasteth greatly, even the voice of the day of Jehovah; the mighty man crieth there bitterly."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The great day of Jehovah is near, it is near and hasteth greatly, "
+      },
+      { "text": "even", "marks": ["i"] },
+      " the voice of the day of Jehovah; the mighty man crieth there bitterly."
+    ]
   },
   {
     "book": "ZPH",
@@ -96,7 +172,16 @@
     "book": "ZPH",
     "chapter": 1,
     "verse": 16,
-    "content": "a day of the trumpet and alarm, against the fortified cities, and against the high battlements."
+    "content": [
+      {
+        "text": "a day of the trumpet and alarm, against the fortified cities, and against the high ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "corner towers", "marks": ["i"] }]
+        }
+      },
+      "battlements."
+    ]
   },
   {
     "book": "ZPH",
@@ -108,22 +193,52 @@
     "book": "ZPH",
     "chapter": 1,
     "verse": 18,
-    "content": "Neither their silver nor their gold shall be able to deliver them in the day of Jehovah’s wrath; but the whole land shall be devoured by the fire of his jealousy: for he will make an end, yea, a terrible end, of all them that dwell in the land."
+    "content": [
+      {
+        "text": "Neither their silver nor their gold shall be able to deliver them in the day of Jehovah’s wrath; but the whole land shall be devoured by the fire of his jealousy: for he will make an end, yea, a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "speedy", "marks": ["i"] }]
+        }
+      },
+      "terrible end, of all them that dwell in the land."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Gather yourselves together, yea, gather together, O nation that hath no shame;"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Gather yourselves together, yea, gather together, O nation that hath no ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "longing", "marks": ["i"] }]
+        }
+      },
+      "shame;"
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 2,
     "verse": 2,
-    "content": "before the decree bring forth, before the day pass as the chaff, before the fierce anger of Jehovah come upon you, before the day of Jehovah’s anger come upon you."
+    "content": [
+      {
+        "text": "before the decree bring forth, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or (",
+            { "text": "the day passeth as the chaff", "marks": ["i"] },
+            ")"
+          ]
+        }
+      },
+      { "text": "before", "marks": ["i"] },
+      " the day pass as the chaff, before the fierce anger of Jehovah come upon you, before the day of Jehovah’s anger come upon you."
+    ]
   },
   {
     "book": "ZPH",
@@ -135,37 +250,84 @@
     "book": "ZPH",
     "chapter": 2,
     "verse": 4,
-    "content": "For Gaza shall be forsaken, and Ashkelon a desolation; they shall drive out Ashdod at noonday, and Ekron shall be rooted up."
+    "content": {
+      "paragraph": true,
+      "text": "For Gaza shall be forsaken, and Ashkelon a desolation; they shall drive out Ashdod at noonday, and Ekron shall be rooted up."
+    }
   },
   {
     "book": "ZPH",
     "chapter": 2,
     "verse": 5,
-    "content": "Woe unto the inhabitants of the sea-coast, the nation of the Cherethites! The word of Jehovah is against you, O Canaan, the land of the Philistines; I will destroy thee, that there shall be no inhabitant."
+    "content": [
+      {
+        "text": "Woe unto the inhabitants of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the region of the sea", "marks": ["i"] }
+          ]
+        }
+      },
+      "the sea-coast, the nation of the Cherethites! The word of Jehovah is against you, O Canaan, the land of the Philistines; I will destroy thee, that there shall be no inhabitant."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 2,
     "verse": 6,
-    "content": "And the sea-coast shall be pastures, with cottages for sheperds and folds for flocks."
+    "content": [
+      {
+        "text": "And the sea-coast shall be pastures, with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "caves", "marks": ["i"] }]
+        }
+      },
+      "cottages for shepherds and folds for flocks."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 2,
     "verse": 7,
-    "content": "And the coast shall be for the remnant of the house of Judah; they shall feed their flocks thereupon; in the houses of Ashkelon shall they lie down in the evening; for Jehovah their God will visit them, and bring back their captivity."
+    "content": [
+      "And the coast shall be for the remnant of the house of Judah; they shall feed ",
+      { "text": "their flocks", "marks": ["i"] },
+      {
+        "text": " thereupon; in the houses of Ashkelon shall they lie down in the evening; for Jehovah their God will visit them, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
+        }
+      },
+      "bring back their captivity."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 2,
     "verse": 8,
-    "content": "I have heard the reproach of Moab, and the revilings of the children of Ammon, wherewith they have reproached my people, and magnified themselves against their border."
+    "content": {
+      "paragraph": true,
+      "text": "I have heard the reproach of Moab, and the revilings of the children of Ammon, wherewith they have reproached my people, and magnified themselves against their border."
+    }
   },
   {
     "book": "ZPH",
     "chapter": 2,
     "verse": 9,
-    "content": "Therefore as I live, saith Jehovah of hosts, the God of Israel, Surely Moab shall be as Sodom, and the children of Ammon as Gomorrah, a possession of nettles, and saltpits, and a perpetual desolation: the residue of my people shall make a prey of them, and the remnant of my nation shall inherit them."
+    "content": [
+      {
+        "text": "Therefore as I live, saith Jehovah of hosts, the God of Israel, Surely Moab shall be as Sodom, and the children of Ammon as Gomorrah, a possession of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "wild vetches", "marks": ["i"] }]
+        }
+      },
+      "nettles, and saltpits, and a perpetual desolation: the residue of my people shall make a prey of them, and the remnant of my nation shall inherit them."
+    ]
   },
   {
     "book": "ZPH",
@@ -177,13 +339,25 @@
     "book": "ZPH",
     "chapter": 2,
     "verse": 11,
-    "content": "Jehovah will be terrible unto them; for he will famish all the gods of the earth; and men shall worship him, every one from his place, even all the isles of the nations."
+    "content": [
+      {
+        "text": "Jehovah will be terrible unto them; for he will famish all the gods of the earth; and men shall worship him, every one from his place, even all the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "coast-lands", "marks": ["i"] }]
+        }
+      },
+      "isles of the nations."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 2,
     "verse": 12,
-    "content": "Ye Ethiopians also, ye shall be slain by my sword."
+    "content": {
+      "paragraph": true,
+      "text": "Ye Ethiopians also, ye shall be slain by my sword."
+    }
   },
   {
     "book": "ZPH",
@@ -195,7 +369,30 @@
     "book": "ZPH",
     "chapter": 2,
     "verse": 14,
-    "content": "And herds shall lie down in the midst of her, all the beasts of the nations: both the pelican and the porcupine shall lodge in the capitals thereof; their voice shall sing in the windows; desolation shall be in the thresholds: for he hath laid bare the cedar-work."
+    "content": [
+      {
+        "text": "And herds shall lie down in the midst of her, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "all beasts of", "marks": ["i"] },
+            " every ",
+            { "text": "kind", "marks": ["i"] }
+          ]
+        }
+      },
+      "all the beasts of the nations: both the pelican and the porcupine shall lodge in the capitals thereof; ",
+      { "text": "their", "marks": ["i"] },
+      {
+        "text": " voice shall sing in the windows; ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "drought", "marks": ["i"] }]
+        }
+      },
+      "desolation shall be in the thresholds: for he hath laid bare the cedar-work."
+    ]
   },
   {
     "book": "ZPH",
@@ -216,13 +413,34 @@
     "book": "ZPH",
     "chapter": 3,
     "verse": 2,
-    "content": "She obeyed not the voice; she received not correction; she trusted not in Jehovah; she drew not near to her God."
+    "content": [
+      {
+        "text": "She obeyed not the voice; she received not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "instruction", "marks": ["i"] }]
+        }
+      },
+      "correction; she trusted not in Jehovah; she drew not near to her God."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 3,
-    "content": "Her princes in the midst of her are roaring lions; her judges are evening wolves; they leave nothing till the morrow."
+    "content": [
+      {
+        "text": "Her princes in the midst of her are roaring lions; her judges are evening wolves; they ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "gnaw not the bones on the morrow", "marks": ["i"] }
+          ]
+        }
+      },
+      "leave nothing till the morrow."
+    ]
   },
   {
     "book": "ZPH",
@@ -234,43 +452,139 @@
     "book": "ZPH",
     "chapter": 3,
     "verse": 5,
-    "content": "Jehovah in the midst of her is righteous; he will not do iniquity; every morning doth he bring his justice to light, he faileth not; but the unjust knoweth no shame."
+    "content": [
+      {
+        "text": "Jehovah in the midst of her is righteous; he will not do iniquity; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "morning by morning", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "every morning doth he bring his justice to light, he faileth not; but the unjust knoweth no shame."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 6,
-    "content": "I have cut off nations; their battlements are desolate; I have made their streets waste, so that none passeth by; their cities are destroyed, so that there is no man, so that there is no inhabitant."
+    "content": [
+      {
+        "text": "I have cut off nations; their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "corner towers", "marks": ["i"] }]
+        }
+      },
+      "battlements are desolate; I have made their streets waste, so that none passeth by; their cities are destroyed, so that there is no man, so that there is no inhabitant."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 7,
-    "content": "I said, Only fear thou me; receive correction; so her dwelling shall not be cut off, according to all that I have appointed concerning her: but they rose early and corrupted all their doings."
+    "content": [
+      {
+        "text": "I said, Only fear thou me; receive ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "instruction", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "correction; so her dwelling shall not be cut off, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "howsoever I have punished her", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "according to", "marks": ["i"] },
+      " all that I have appointed concerning her: but they rose early and corrupted all their doings."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 8,
-    "content": "Therefore wait ye for me, saith Jehovah, until the day that I rise up to the prey; for my determination is to gather the nations, that I may assemble the kingdoms, to pour upon them mine indignation, even all my fierce anger; for all the earth shall be devoured with the fire of my jealousy."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Therefore wait ye for me, saith Jehovah, until the day that I rise up to the prey; for my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "judgment", "marks": ["i"] }, "."]
+        }
+      },
+      "determination is to gather the nations, that I may assemble the kingdoms, to pour upon them mine indignation, even all my fierce anger; for all the earth shall be devoured with the fire of my jealousy."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 9,
-    "content": "For then will I turn to the peoples of a pure language, that they may all call upon the name of Jehovah, to serve him with one consent."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For then will I turn to the peoples of a pure ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "lip", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "language, that they may all call upon the name of Jehovah, to serve him with one ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "shoulder", "marks": ["i"] }, "."]
+        }
+      },
+      "consent."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 10,
-    "content": "From beyond the rivers of Ethiopia my suppliants, even the daughter of my dispersed, shall bring mine offering."
+    "content": [
+      {
+        "text": "From beyond the rivers of Ethiopia ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "shall they bring my suppliants, even the daughter of my dispersed, for an offering unto me",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "my suppliants, even the daughter of my dispersed, shall bring mine offering."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 11,
-    "content": "In that day shalt thou not be put to shame for all thy doings, wherein thou hast transgressed against me; for then I will take away out of the midst of thee thy proudly exulting ones, and thou shalt no more be haughty in my holy mountain."
+    "content": [
+      {
+        "text": "In that day shalt thou not be put to shame for all thy doings, wherein thou hast transgressed against me; for then I will take away out of the midst of thee ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "them that exult in thy majesty", "marks": ["i"] }
+          ]
+        }
+      },
+      "thy proudly exulting ones, and thou shalt no more be haughty in my holy mountain."
+    ]
   },
   {
     "book": "ZPH",
@@ -288,31 +602,94 @@
     "book": "ZPH",
     "chapter": 3,
     "verse": 14,
-    "content": "Sing, O daughter of Zion; shout, O Israel; be glad and rejoice with all the heart, O daughter of Jerusalem."
+    "content": {
+      "paragraph": true,
+      "text": "Sing, O daughter of Zion; shout, O Israel; be glad and rejoice with all the heart, O daughter of Jerusalem."
+    }
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 15,
-    "content": "Jehovah hath taken away thy judgments, he hath cast out thine enemy: the King of Israel, even Jehovah, is in the midst of thee; thou shalt not fear evil any more."
+    "content": [
+      {
+        "text": "Jehovah hath taken away thy judgments, he hath cast out thine enemy: the King of Israel, even Jehovah, is in the midst of thee; thou shalt not ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "see", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "fear evil any more."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 16,
-    "content": "In that day it shall be said to Jerusalem, Fear thou not; O Zion, let not thy hands be slack."
+    "content": [
+      {
+        "text": "In that day it shall be said to Jerusalem, Fear thou not; ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, and to ", { "text": "Zion", "marks": ["i"] }]
+        }
+      },
+      "O Zion, let not thy hands be slack."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 17,
-    "content": "Jehovah thy God is in the midst of thee, a mighty one who will save; he will rejoice over thee with joy; he will rest in his love; he will joy over thee with singing."
+    "content": [
+      {
+        "text": "Jehovah thy God is in the midst of thee, a mighty one who will save; he will rejoice over thee with joy; he will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "be silent", "marks": ["i"] }, "."]
+        }
+      },
+      "rest in his love; he will joy over thee with singing."
+    ]
   },
   {
     "book": "ZPH",
     "chapter": 3,
     "verse": 18,
-    "content": "I will gather them that sorrow for the solemn assembly, who were of thee; to whom the burden upon her was a reproach."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "They have been sorrowful for the solemn assembly which I took away from thee",
+              "marks": ["i"]
+            },
+            ", for ",
+            { "text": "the lifting up of reproach against her", "marks": ["i"] }
+          ]
+        }
+      },
+      "I will gather them that sorrow for the solemn assembly, who were of thee; ",
+      { "text": "to whom", "marks": ["i"] },
+      {
+        "text": " the burden upon ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "thee", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "her was a reproach."
+    ]
   },
   {
     "book": "ZPH",
@@ -324,6 +701,15 @@
     "book": "ZPH",
     "chapter": 3,
     "verse": 20,
-    "content": "At that time will I bring you in, and at that time will I gather you; for I will make you a name and a praise among all the peoples of the earth, when I bring back your captivity before your eyes, saith Jehovah."
+    "content": [
+      {
+        "text": "At that time will I bring you in, and at that time will I gather you; for I will make you a name and a praise among all the peoples of the earth, when I ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
+        }
+      },
+      "bring back your captivity before your eyes, saith Jehovah."
+    ]
   }
 ]

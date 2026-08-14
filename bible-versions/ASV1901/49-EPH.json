@@ -3,28 +3,73 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Paul, an apostle of Christ Jesus through the will of God, to the saints that are at Ephesus, and the faithful in Christ Jesus:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Paul, an apostle of Christ Jesus through the will of God, to the saints that are ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some very ancient authorities omit ",
+            { "text": "at Ephesus", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "at Ephesus, and the faithful in Christ Jesus:"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 2,
-    "content": "Grace to you and peace from God our Father and the Lord Jesus Christ."
+    "content": {
+      "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+      "break": true
+    }
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 3,
-    "content": "Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with every spiritual blessing in the heavenly places in Christ:"
+    "content": [
+      { "paragraph": true, "text": "Blessed " },
+      {
+        "text": "be",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "God and the Father", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Romans 15:6", "content": "Rom. 15:6" },
+            " margin."
+          ]
+        }
+      },
+      " the God and Father of our Lord Jesus Christ, who hath blessed us with every spiritual blessing in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      " in Christ:"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 4,
-    "content": "even as he chose us in him before the foundation of the world, that we should be holy and without blemish before him in love:"
+    "content": [
+      {
+        "text": "even as he chose us in him before the foundation of the world, that we should be holy and without blemish before ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "him: having in love foreordained us", "marks": ["i"] }
+          ]
+        }
+      },
+      "him in love:"
+    ]
   },
   {
     "book": "EPH",
@@ -36,19 +81,42 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 6,
-    "content": "to the praise of the glory of his grace, which he freely bestowed on us in the Beloved:"
+    "content": [
+      {
+        "text": "to the praise of the glory of his grace, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "wherewith he endued us", "marks": ["i"] }
+          ]
+        }
+      },
+      "which he freely bestowed on us in the Beloved:"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 7,
-    "content": "in whom we have our redemption through his blood, the forgiveness of our trepasses, according to the riches of his grace,"
+    "content": "in whom we have our redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,"
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 8,
-    "content": "which he made to abound toward us in all wisdom and prudence,"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "wherewith he abounded", "marks": ["i"] }
+          ]
+        }
+      },
+      "which he made to abound toward us in all wisdom and prudence,"
+    ]
   },
   {
     "book": "EPH",
@@ -60,7 +128,25 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 10,
-    "content": "unto a dispensation of the fulness of the times, to sum up all things in Christ, the things in the heavens, and the things upon the earth; in him, I say,"
+    "content": [
+      {
+        "text": "unto a dispensation of the fulness of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "seasons", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "times, to sum up all things in Christ, the things ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "upon", "marks": ["i"] }, "."]
+        }
+      },
+      "in the heavens, and the things upon the earth; in him, ",
+      { "text": "I say", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "EPH",
@@ -72,31 +158,86 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 12,
-    "content": "to the end that we should be unto the praise of his glory, we who had before hoped in Christ:"
+    "content": [
+      {
+        "text": "to the end that we should be unto the praise of his glory, we who ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "have", "marks": ["i"] }]
+        }
+      },
+      "had before hoped in Christ:"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 13,
-    "content": "in whom ye also, having heard the word of the truth, the gospel of your salvation,— in whom, having also believed, ye were sealed with the Holy Spirit of promise,"
+    "content": [
+      {
+        "text": "in whom ye also, having heard the word of the truth, the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See marginal note on ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            "."
+          ]
+        }
+      },
+      "gospel of your salvation,—in whom, having also believed, ye were sealed with the Holy Spirit of promise,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 14,
-    "content": "which is an earnest of our inheritance, unto the redemption of God’s own possession, unto the praise of his glory."
+    "content": [
+      "which is an earnest of our inheritance, unto the redemption of ",
+      { "text": "God’s", "marks": ["i"] },
+      " own possession, unto the praise of his glory."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 15,
-    "content": "For this cause I also, having heard of the faith in the Lord Jesus which is among you, and the love which ye show toward all the saints,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "For this cause I also, having heard of the faith in the Lord Jesus which is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "among you, and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities omit ",
+            { "text": "the love", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the love which ",
+      { "text": "ye show", "marks": ["i"] },
+      " toward all the saints,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 16,
-    "content": "cease not to give thanks for you, making mention of you in my prayers;"
+    "content": [
+      "cease not to give thanks for you, making mention ",
+      { "text": "of you", "marks": ["i"] },
+      " in my prayers;"
+    ]
   },
   {
     "book": "EPH",
@@ -120,13 +261,26 @@
     "book": "EPH",
     "chapter": 1,
     "verse": 20,
-    "content": "which he wrought in Christ, when he raised him from the dead, and made him to sit at his right hand in the heavenly places,"
+    "content": [
+      "which he wrought in Christ, when he raised him from the dead, and made him to sit at his right hand in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      ","
+    ]
   },
   {
     "book": "EPH",
     "chapter": 1,
     "verse": 21,
-    "content": "far above all rule, and authority, and power, and dominion, and every name that is named, not only in this world, but also in that which is to come:"
+    "content": [
+      {
+        "text": "far above all rule, and authority, and power, and dominion, and every name that is named, not only in this ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "age", "marks": ["i"] }]
+        }
+      },
+      "world, but also in that which is to come:"
+    ]
   },
   {
     "book": "EPH",
@@ -144,22 +298,48 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And you did he make alive, when ye were dead through your trepasses and sins,"
-    }
+    "content": [
+      { "paragraph": true, "text": "And you " },
+      { "text": "did he make alive", "marks": ["i"] },
+      ", when ye were dead through your trespasses and sins,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 2,
     "verse": 2,
-    "content": "wherein ye once walked according to the course of this world, according to the prince of the powers of the air, of the spirit that now worketh in the sons of disobedience;"
+    "content": [
+      {
+        "text": "wherein ye once walked according to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "age", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "course of this world, according to the prince of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "power", "marks": ["i"] }, "."]
+        }
+      },
+      "powers of the air, of the spirit that now worketh in the sons of disobedience;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 2,
     "verse": 3,
-    "content": "among whom we also all once lived in the lust of our flesh, doing the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest:—"
+    "content": [
+      {
+        "text": "among whom we also all once lived in the lusts of our flesh, doing the desires of the flesh and of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "thoughts", "marks": ["i"] }, "."]
+        }
+      },
+      "mind, and were by nature children of wrath, even as the rest:—"
+    ]
   },
   {
     "book": "EPH",
@@ -171,13 +351,30 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 5,
-    "content": "even when we were dead through our trespasses, made us alive together with Christ (by grace have ye been saved),"
+    "content": [
+      {
+        "text": "even when we were dead through our trespasses, made us alive together ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "in Christ", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "with Christ (by grace have ye been saved),"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 2,
     "verse": 6,
-    "content": "and raised us up with him, and made us to sit with him in the heavenly places, in Christ Jesus:"
+    "content": [
+      "and raised us up with him, and made us to sit with him in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      ", in Christ Jesus:"
+    ]
   },
   {
     "book": "EPH",
@@ -189,7 +386,11 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 8,
-    "content": "for by grace have ye been saved through faith; and that not of yourselves, it is the gift of God;"
+    "content": [
+      "for by grace have ye been saved through faith; and that not of yourselves, ",
+      { "text": "it is", "marks": ["i"] },
+      " the gift of God;"
+    ]
   },
   {
     "book": "EPH",
@@ -207,7 +408,10 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 11,
-    "content": "Wherefore remember, that once ye, the Gentiles in the flesh, who are called Uncircumcision by that which is called Circumcision, in the flesh, made by hands;"
+    "content": {
+      "paragraph": true,
+      "text": "Wherefore remember, that once ye, the Gentiles in the flesh, who are called Uncircumcision by that which is called Circumcision, in the flesh, made by hands;"
+    }
   },
   {
     "book": "EPH",
@@ -231,7 +435,15 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 15,
-    "content": "having abolished in the flesh the enmity, even the law of commandments contained in ordinances; that he might create in himself of the two one new man, so making peace;"
+    "content": [
+      "having abolished in his flesh the enmity, ",
+      { "text": "even", "marks": ["i"] },
+      " the law of commandments ",
+      { "text": "contained", "marks": ["i"] },
+      " in ordinances; that he might create in himself of the two one new man, ",
+      { "text": "so", "marks": ["i"] },
+      " making peace;"
+    ]
   },
   {
     "book": "EPH",
@@ -243,7 +455,22 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 17,
-    "content": "and he came and preached peace to you that were far off, and peace to them that were nigh:"
+    "content": [
+      {
+        "text": "and he came and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "brought good tidings of peace", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Matthew 11:5", "content": "Mt. 11:5" },
+            "."
+          ]
+        }
+      },
+      "preached peace to you that were far off, and peace to them that were nigh:"
+    ]
   },
   {
     "book": "EPH",
@@ -267,13 +494,42 @@
     "book": "EPH",
     "chapter": 2,
     "verse": 21,
-    "content": "in whom each several building, fitly framed together, groweth into a holy temple in the Lord;"
+    "content": [
+      {
+        "text": "in whom ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "every building", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "each several building, fitly framed together, groweth into a holy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sanctuary", "marks": ["i"] }]
+        }
+      },
+      "temple in the Lord;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 2,
     "verse": 22,
-    "content": "in whom ye also are builded together for a habitation of God in the Spirit."
+    "content": [
+      {
+        "text": "in whom ye also are builded together ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "into", "marks": ["i"] }, "."]
+        }
+      },
+      "for a habitation of God in the Spirit."
+    ]
   },
   {
     "book": "EPH",
@@ -288,7 +544,16 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 2,
-    "content": "if so be that ye have heard of the dispensation of that grace of God which was given me to you-ward;"
+    "content": [
+      {
+        "text": "if so be that ye have heard of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stewardship", "marks": ["i"] }]
+        }
+      },
+      "dispensation of that grace of God which was given me to you-ward;"
+    ]
   },
   {
     "book": "EPH",
@@ -306,13 +571,29 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 5,
-    "content": "which in other generation was not made known unto the sons of men, as it hath now been revealed unto his holy apostles and prophets in the Spirit;"
+    "content": "which in other generations was not made known unto the sons of men, as it hath now been revealed unto his holy apostles and prophets in the Spirit;"
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 6,
-    "content": "to wit, that the Gentiles are fellow-heirs, and fellow-members of the body, and fellow-partakers of the promise in Christ Jesus through the gospel,"
+    "content": [
+      { "text": "to wit", "marks": ["i"] },
+      {
+        "text": ", that the Gentiles are fellow-heirs, and fellow-members of the body, and fellow-partakers of the promise in Christ Jesus through the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            " margin."
+          ]
+        }
+      },
+      "gospel,"
+    ]
   },
   {
     "book": "EPH",
@@ -324,49 +605,131 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 8,
-    "content": "Unto me, who am less than the least of all saints, was this grace given, to preach unto the Gentiles the unsearchable riches of Christ;"
+    "content": [
+      {
+        "text": "Unto me, who am less than the least of all saints, was this grace given, to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "bring good tidings of the etc.", "marks": ["i"] },
+            " Compare ",
+            { "bibleLink": "Ephesians 2:17", "content": "2:17" },
+            "."
+          ]
+        }
+      },
+      "preach unto the Gentiles the unsearchable riches of Christ;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 9,
-    "content": "and to make all men see what is the dispensation of the mystery which for ages hath been hid in God who created all things;"
+    "content": [
+      {
+        "text": "and to ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "bring to light what is", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "make all men see what is the dispensation of the mystery which for ages hath been hid in God who created all things;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 10,
-    "content": "to the intent that now unto the principalities and the powers in the heavenly places might be made known through the church the manifold wisdom of God,"
+    "content": [
+      "to the intent that now unto the principalities and the powers in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      " might be made known through the church the manifold wisdom of God,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 11,
-    "content": "according to the eternal purpose which he purposed in Christ Jesus our Lord:"
+    "content": [
+      {
+        "text": "according to the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "purpose of the ages", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "eternal purpose which he purposed in Christ Jesus our Lord:"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 12,
-    "content": "in whom we have boldness and access in confidence through our faith in him."
+    "content": [
+      {
+        "text": "in whom we have boldness and access in confidence through ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the faith of him", "marks": ["i"] }]
+        }
+      },
+      "our faith in him."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 13,
-    "content": "Wherefore I ask that ye may not faint at my tribulations for you, which are your glory."
+    "content": [
+      {
+        "text": "Wherefore I ask that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "I", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "ye may not faint at my tribulations for you, which ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "is", "marks": ["i"] }]
+        }
+      },
+      "are your glory."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 14,
-    "content": "For this cause I bow my knees unto the Father,"
+    "content": {
+      "paragraph": true,
+      "text": "For this cause I bow my knees unto the Father,"
+    }
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 15,
-    "content": "from whom every family in heaven and on earth is named,"
+    "content": [
+      {
+        "text": "from whom every ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "fatherhood", "marks": ["i"] }, "."]
+        }
+      },
+      "family in heaven and on earth is named,"
+    ]
   },
   {
     "book": "EPH",
@@ -396,13 +759,34 @@
     "book": "EPH",
     "chapter": 3,
     "verse": 20,
-    "content": "Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us,"
+    "content": {
+      "paragraph": true,
+      "text": "Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us,"
+    }
   },
   {
     "book": "EPH",
     "chapter": 3,
     "verse": 21,
-    "content": "unto him be the glory in the church and in Christ Jesus unto all generations for ever and ever. Amen."
+    "content": [
+      "unto him ",
+      { "text": "be", "marks": ["i"] },
+      {
+        "text": " the glory in the church and in Christ Jesus unto ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            {
+              "text": "all the generations of the age of the ages",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      { "text": "all generations for ever and ever. Amen.", "break": true }
+    ]
   },
   {
     "book": "EPH",
@@ -429,7 +813,10 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 4,
-    "content": "There is one body, and one Spirit, even as also ye were called in one hope of your calling;"
+    "content": [
+      { "text": "There is", "marks": ["i"] },
+      " one body, and one Spirit, even as also ye were called in one hope of your calling;"
+    ]
   },
   {
     "book": "EPH",
@@ -453,13 +840,44 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 8,
-    "content": "Wherefore he saith, When he ascended on high, he led captivity captive, And gave gifts unto men."
+    "content": [
+      {
+        "text": "Wherefore he saith,",
+        "break": true,
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Psalm 68:18", "content": "Ps. 68:18" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "When he ascended on high, he led captivity captive,",
+        "break": true
+      },
+      { "text": "And gave gifts unto men.", "break": true }
+    ]
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 9,
-    "content": "(Now this, He ascended, what is it but that he also descended into the lower parts of the earth?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "(Now this, He ascended, what is it but that he also descended ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities insert ",
+            { "text": "first", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "into the lower parts of the earth?"
+    ]
   },
   {
     "book": "EPH",
@@ -471,7 +889,11 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 11,
-    "content": "And he gave some to be apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;"
+    "content": [
+      "And he gave some ",
+      { "text": "to be", "marks": ["i"] },
+      " apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;"
+    ]
   },
   {
     "book": "EPH",
@@ -495,19 +917,48 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 15,
-    "content": "but speaking truth in love, we may grow up in all things into him, who is the head, even Christ;"
+    "content": [
+      {
+        "text": "but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "dealing truly", "marks": ["i"] }]
+        }
+      },
+      "speaking truth in love, may grow up in all things into him, who is the head, ",
+      { "text": "even", "marks": ["i"] },
+      " Christ;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 16,
-    "content": "from whom all the body fitly framed and knit together through that which every joint supplieth, according to the working in due measure of each several part, maketh the increase of the body unto the building up of itself in love."
+    "content": [
+      {
+        "text": "from whom all the body fitly framed and knit together ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "through every joint of the supply", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "through that which every joint supplieth, according to the working in ",
+      { "text": "due", "marks": ["i"] },
+      " measure of each several part, maketh the increase of the body unto the building up of itself in love."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 17,
-    "content": "This I say therefore, and testify in the Lord, that ye no longer walk as the Gentiles also walk, in the vanity of their mind,"
+    "content": {
+      "paragraph": true,
+      "text": "This I say therefore, and testify in the Lord, that ye no longer walk as the Gentiles also walk, in the vanity of their mind,"
+    }
   },
   {
     "book": "EPH",
@@ -519,7 +970,31 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 19,
-    "content": "who being past feeling gave themselves up to lasciviousness, to work all uncleanness with greediness."
+    "content": [
+      {
+        "text": "who being past feeling gave themselves up to lasciviousness, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to make a trade of", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "to work all uncleanness with ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "covetousness", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Ephesians 5:3", "content": "5:3" },
+            " ",
+            { "bibleLink": "Colossians 3:5", "content": "Col. 3:5" },
+            "."
+          ]
+        }
+      },
+      "greediness."
+    ]
   },
   {
     "book": "EPH",
@@ -549,19 +1024,59 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 24,
-    "content": "and put on the new man, that after God hath been created in righteousness and holiness of truth."
+    "content": [
+      {
+        "text": "and put on the new man, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "that is after God, created etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "that after God hath been created in righteousness and holiness of truth."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 25,
-    "content": "Wherefore, putting away falsehood, speak ye truth each one with his neighbor: for we are members one of another."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Wherefore, putting away falsehood, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Zechariah 8:16", "content": "Zech. 8:16" },
+            "."
+          ]
+        }
+      },
+      "speak ye truth each one with his neighbor: for we are members one of another."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 4,
     "verse": 26,
-    "content": "Be ye angry, and sin not: let not the sun go down upon your wrath:"
+    "content": [
+      {
+        "foot": {
+          "type": "xrf",
+          "content": [{ "bibleLink": "Psalm 4:4", "content": "Ps. 4:4" }, "."]
+        }
+      },
+      {
+        "text": "Be ye angry, and sin not: let not the sun go down upon your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "provocation", "marks": ["i"] }, "."]
+        }
+      },
+      "wrath:"
+    ]
   },
   {
     "book": "EPH",
@@ -579,7 +1094,20 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 29,
-    "content": "Let no corrupt speech proceed out of your mouth, but such as is good for edifying as the need may be, that it may give grace to them that hear."
+    "content": [
+      {
+        "text": "Let no corrupt speech proceed out of your mouth, but such as is good for ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the building up of the need", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "edifying as the need may be, that it may give grace to them that hear."
+    ]
   },
   {
     "book": "EPH",
@@ -597,7 +1125,20 @@
     "book": "EPH",
     "chapter": 4,
     "verse": 32,
-    "content": "and be ye kind one to another, tenderhearted, forgiving each other, even as God also in Christ forgave you."
+    "content": [
+      {
+        "text": "and be ye kind one to another, tenderhearted, forgiving each other, even as God also in Christ forgave ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "us", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "you."
+    ]
   },
   {
     "book": "EPH",
@@ -612,13 +1153,29 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 2,
-    "content": "and walk in love, even as Christ also loved you, and gave himself up for us, an offering and a sacrifice to God for an odor of a sweet smell."
+    "content": [
+      {
+        "text": "and walk in love, even as Christ also loved you, and gave himself up for ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "you", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "us, an offering and a sacrifice to God for an odor of a sweet smell."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 3,
-    "content": "But fornication, and all uncleanness, or covetousness, let it not even be named among you, as becometh saints;"
+    "content": {
+      "paragraph": true,
+      "text": "But fornication, and all uncleanness, or covetousness, let it not even be named among you, as becometh saints;"
+    }
   },
   {
     "book": "EPH",
@@ -648,7 +1205,7 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 8,
-    "content": "For ye were once darkness, but are now light in the Lord: walk as children of light"
+    "content": "for ye were once darkness, but are now light in the Lord: walk as children of light"
   },
   {
     "book": "EPH",
@@ -666,7 +1223,16 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 11,
-    "content": "and have no fellowship with the unfruitful works of darkness, but rather even reprove them;"
+    "content": [
+      {
+        "text": "and have no fellowship with the unfruitful works of darkness, but rather even ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "convict", "marks": ["i"] }]
+        }
+      },
+      "reprove them;"
+    ]
   },
   {
     "book": "EPH",
@@ -678,25 +1244,64 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 13,
-    "content": "But all things when they are reproved are made manifest by the light: for everything that is made manifest is light."
+    "content": [
+      {
+        "text": "But all things when they are ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "convicted", "marks": ["i"] }]
+        }
+      },
+      "reproved are made manifest by the light: for everything that is made manifest is light."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 14,
-    "content": "Wherefore he saith, Awake, thou that sleepest, and arise from the dead, and Christ shall shine upon thee."
+    "content": [
+      "Wherefore ",
+      { "text": "he", "marks": ["i"] },
+      {
+        "text": " saith, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "(?). Compare ",
+            { "bibleLink": "1 Timothy 3:16", "content": "1 Tim. 3:16" },
+            "."
+          ]
+        }
+      },
+      "Awake, thou that sleepest, and arise from the dead, and Christ shall shine upon thee."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 15,
-    "content": "Look therefore carefully how ye walk, not as unwise, but as wise;"
+    "content": {
+      "paragraph": true,
+      "text": "Look therefore carefully how ye walk, not as unwise, but as wise;"
+    }
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 16,
-    "content": "redeeming the time, because the days are evil."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "buying up the opportunity", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "redeeming the time, because the days are evil."
+    ]
   },
   {
     "book": "EPH",
@@ -708,19 +1313,50 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 18,
-    "content": "And be not drunken with wine, wherein is riot, but be filled with the Spirit;"
+    "content": [
+      {
+        "text": "And be not drunken with wine, wherein is riot, but be filled ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in spirit", "marks": ["i"] }]
+        }
+      },
+      "with the Spirit;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 19,
-    "content": "speaking one to another in psalms and hymns and spiritual songs, singing and making melody with your heart to the Lord;"
+    "content": [
+      {
+        "text": "speaking ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to yourselves", "marks": ["i"] }]
+        }
+      },
+      "one to another in psalms and hymns and spiritual songs, singing and making melody with your heart to the Lord;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 20,
-    "content": "giving thanks always for all things in the name of our Lord Jesus Christ to God, even the Father;"
+    "content": [
+      {
+        "text": "giving thanks always for all things in the name of our Lord Jesus Christ to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the God and Father", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "God, even the Father;"
+    ]
   },
   {
     "book": "EPH",
@@ -732,19 +1368,45 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 22,
-    "content": "Wives, be in subjection unto your own husbands, as unto the Lord."
+    "content": [
+      { "paragraph": true, "text": "Wives, " },
+      { "text": "be in subjection", "marks": ["i"] },
+      " unto your own husbands, as unto the Lord."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 23,
-    "content": "For the husband is the head of the wife, and Christ also is the head of the church, being himself the saviour of the body."
+    "content": [
+      "For the husband is the head of the wife, as Christ also is the head of the church, ",
+      { "text": "being", "marks": ["i"] },
+      " himself the saviour of the body."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 24,
-    "content": "But as the church is subject to Christ, so let the wives also be to their husbands in everything."
+    "content": [
+      {
+        "text": "But as the church is subject to Christ, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "so", "marks": ["i"] },
+            " are ",
+            { "text": "the wives also", "marks": ["i"] }
+          ]
+        }
+      },
+      "so ",
+      { "text": "let", "marks": ["i"] },
+      " the wives also ",
+      { "text": "be", "marks": ["i"] },
+      " to their husbands in everything."
+    ]
   },
   {
     "book": "EPH",
@@ -756,13 +1418,26 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 26,
-    "content": "that he might sanctify it, having cleansed it by the washing of water with the word,"
+    "content": [
+      {
+        "text": "that he might sanctify it, having cleansed it by the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "laver", "marks": ["i"] }, "."]
+        }
+      },
+      "washing of water with the word,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 5,
     "verse": 27,
-    "content": "that he might present the church to himself a glorious church, not having spot or wrinkle or any such thing; but that it should be holy and without blemish."
+    "content": [
+      "that he might present the church to himself a glorious ",
+      { "text": "church", "marks": ["i"] },
+      ", not having spot or wrinkle or any such thing; but that it should be holy and without blemish."
+    ]
   },
   {
     "book": "EPH",
@@ -786,7 +1461,18 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 31,
-    "content": "For this cause shall a man leave his father and mother, and shall cleave to his wife; and the two shall become one flesh."
+    "content": [
+      {
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Genesis 2:24", "content": "Gen. 2:24" },
+            "."
+          ]
+        }
+      },
+      "For this cause shall a man leave his father and mother, and shall cleave to his wife; and the two shall become one flesh."
+    ]
   },
   {
     "book": "EPH",
@@ -798,7 +1484,13 @@
     "book": "EPH",
     "chapter": 5,
     "verse": 33,
-    "content": "Nevertheless do ye also severally love each one his own wife even as himself; and let the wife see that she fear her husband."
+    "content": [
+      "Nevertheless do ye also severally love each one his own wife even as himself; and ",
+      { "text": "let", "marks": ["i"] },
+      " the wife ",
+      { "text": "see", "marks": ["i"] },
+      " that she fear her husband."
+    ]
   },
   {
     "book": "EPH",
@@ -813,13 +1505,42 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 2,
-    "content": "Honor thy father and mother (which is the first commandment with promise),"
+    "content": [
+      {
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Exodus 20:12", "content": "Ex. 20:12" },
+            "; ",
+            { "bibleLink": "Deuteronomy 5:16", "content": "Dt. 5:16" },
+            "."
+          ]
+        }
+      },
+      "Honor thy father and mother (which is the first commandment with promise),"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 3,
-    "content": "that it may be well with thee, and thou mayest live long on the earth."
+    "content": [
+      {
+        "text": "that it may be well with thee, and thou ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shalt", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "mayest live long on the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "land", "marks": ["i"] }]
+        }
+      },
+      "earth."
+    ]
   },
   {
     "book": "EPH",
@@ -831,13 +1552,45 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 5,
-    "content": "Servants, be obedient unto them that according to the flesh are your masters, with fear and trembling, in singleness of your heart, as unto Christ;"
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Bondservants", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Servants, be obedient unto them that according to the flesh are your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "lords", "marks": ["i"] }, "."]
+        }
+      },
+      "masters, with fear and trembling, in singleness of your heart, as unto Christ;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 6,
-    "content": "not in the way of eyeservice, as men-pleasers; but as servants of Christ, doing the will of God from the heart;"
+    "content": [
+      {
+        "text": "not in the way of eyeservice, as men-pleasers; but as ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Bondservants", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "servants of Christ, doing the will of God from the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "soul", "marks": ["i"] }, "."]
+        }
+      },
+      "heart;"
+    ]
   },
   {
     "book": "EPH",
@@ -849,19 +1602,52 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 8,
-    "content": "knowing that whatsoever good thing each one doeth, the same shall he receive again from the Lord, whether he be bond or free."
+    "content": [
+      "knowing that whatsoever good thing each one doeth, the same shall he receive again from the Lord, whether ",
+      { "text": "he be", "marks": ["i"] },
+      " bond or free."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 9,
-    "content": "And, ye masters, do the same things unto them, and forbear threatening: knowing that he who is both their Master and yours is in heaven, and there is no respect of persons with him."
+    "content": [
+      {
+        "text": "And, ye ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "lords", "marks": ["i"] }, "."]
+        }
+      },
+      "masters, do the same things unto them, and forbear threatening: knowing that he who is both their Master and yours is in heaven, and there is no respect of persons with him."
+    ]
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 10,
-    "content": "Finally, be strong in the Lord, and in the strength of his might."
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Henceforth", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "Finally, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "be made powerful", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "be strong in the Lord, and in the strength of his might."
+    ]
   },
   {
     "book": "EPH",
@@ -873,7 +1659,24 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 12,
-    "content": "For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world-rulers of this darkness, against the spiritual hosts of wickedness in the heavenly places."
+    "content": [
+      {
+        "text": "For our wrestling is not against ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "blood and flesh", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "flesh and blood, but against the principalities, against the powers, against the world-rulers of this darkness, against the spiritual ",
+      { "text": "hosts", "marks": ["i"] },
+      " of wickedness in the heavenly ",
+      { "text": "places", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "EPH",
@@ -891,13 +1694,32 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 15,
-    "content": "and having shod your feet with the preparation of the gospel of peace;"
+    "content": [
+      {
+        "text": "and having shod your feet with the preparation of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            " margin."
+          ]
+        }
+      },
+      "gospel of peace;"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 16,
-    "content": "withal taking up the shield of faith, wherewith ye shall be able to quench all the fiery darts of the evil one."
+    "content": [
+      "withal taking up the shield of faith, wherewith ye shall be able to quench all the fiery darts of the evil ",
+      { "text": "one", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "EPH",
@@ -915,36 +1737,102 @@
     "book": "EPH",
     "chapter": 6,
     "verse": 19,
-    "content": "And on my behalf, that utterance may be given unto me in opening my mouth, to make known with boldness the mystery of the gospel,"
+    "content": [
+      {
+        "text": "and on my behalf, that utterance may be given unto me ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "in opening my mouth with boldness, to make known",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "in opening my mouth, to make known with boldness the mystery of the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "good tidings", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Matthew 4:23", "content": "Mt. 4:23" },
+            " margin."
+          ]
+        }
+      },
+      "gospel,"
+    ]
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 20,
-    "content": "for which I am an ambassador in chains; that in it I may speak boldly, as I ought to speak."
+    "content": [
+      {
+        "text": "for which I am an ambassador in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "a chain", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "chains; that in it I may speak boldly, as I ought to speak.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 21,
-    "content": "But that ye also may know my affairs, how I do, Tychicus, the beloved brother and faithful minister in the Lord, shall make known to you all things:"
+    "content": {
+      "paragraph": true,
+      "text": "But that ye also may know my affairs, how I do, Tychicus, the beloved brother and faithful minister in the Lord, shall make known to you all things:"
+    }
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 22,
-    "content": "whom I have sent unto you for this very purpose, that ye may know our state, and that he may comfort your hearts."
+    "content": {
+      "text": "whom I have sent unto you for this very purpose, that ye may know our state, and that he may comfort your hearts.",
+      "break": true
+    }
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 23,
-    "content": "Peace be to the brethren, and love with faith, from God the Father and the Lord Jesus Christ."
+    "content": {
+      "paragraph": true,
+      "text": "Peace be to the brethren, and love with faith, from God the Father and the Lord Jesus Christ."
+    }
   },
   {
     "book": "EPH",
     "chapter": 6,
     "verse": 24,
-    "content": "Grace be with all them that love our Lord Jesus Christ with a love incorruptible."
+    "content": [
+      {
+        "text": "Grace be with all them that love our Lord Jesus Christ ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "in incorruption", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Romans 2:7", "content": "Rom. 2:7" },
+            "."
+          ]
+        }
+      },
+      "with ",
+      { "text": "a love", "marks": ["i"] },
+      " incorruptible."
+    ]
   }
 ]

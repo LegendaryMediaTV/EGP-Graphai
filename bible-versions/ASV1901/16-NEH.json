@@ -3,10 +3,26 @@
     "book": "NEH",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "The words of Nehemiah the son of Hacaliah. Now it came to pass in the month Chislev, in the twentieth year, as I was in Shushan the palace,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "history", "marks": ["i"] }]
+        }
+      },
+      "words of Nehemiah the son of Hacaliah.",
+      {
+        "paragraph": true,
+        "text": "Now it came to pass in the month Chislev, in the twentieth year, as I was in Shushan the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "castle", "marks": ["i"] }]
+        }
+      },
+      "palace,"
+    ]
   },
   {
     "book": "NEH",
@@ -24,7 +40,10 @@
     "book": "NEH",
     "chapter": 1,
     "verse": 4,
-    "content": "And it came to pass, when I heard these words, that I sat down and wept, and mourned certain days; and I fasted and prayed before the God of heaven,"
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass, when I heard these words, that I sat down and wept, and mourned certain days; and I fasted and prayed before the God of heaven,"
+    }
   },
   {
     "book": "NEH",
@@ -36,7 +55,7 @@
     "book": "NEH",
     "chapter": 1,
     "verse": 6,
-    "content": "Let thine ear now be attentive, and thine eyes open, that thou mayest hearken unto the prayer of thy servant, which I pray before thee at this time, day and night, for the children of Israel thy servants while I confess the sins of the children of Israel, which we have sinned against thee. Yea, I and my father’s house have sinned:"
+    "content": "let thine ear now be attentive, and thine eyes open, that thou mayest hearken unto the prayer of thy servant, which I pray before thee at this time, day and night, for the children of Israel thy servants, while I confess the sins of the children of Israel, which we have sinned against thee. Yea, I and my father’s house have sinned:"
   },
   {
     "book": "NEH",
@@ -66,16 +85,23 @@
     "book": "NEH",
     "chapter": 1,
     "verse": 11,
-    "content": "O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to the prayer of thy servants, who delight to fear thy name; and prosper, I pray thee, thy servant this day, and grant him mercy in the sight of this man. Now I was cupbearer to the king."
+    "content": [
+      "O Lord, I beseech thee, let now thine ear be attentive to the prayer of thy servant, and to the prayer of thy servants, who delight to fear thy name; and prosper, I pray thee, thy servant this day, and grant him mercy in the sight of this man.",
+      { "paragraph": true, "text": "Now I was cupbearer to the king." }
+    ]
   },
   {
     "book": "NEH",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, when wine was before him, that I took up the wine, and gave it unto the king. Now I had not been beforetime sad in his presence."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, when wine was before him, that I took up the wine, and gave it unto the king. Now I had not been "
+      },
+      { "text": "beforetime", "marks": ["i"] },
+      " sad in his presence."
+    ]
   },
   {
     "book": "NEH",
@@ -105,7 +131,7 @@
     "book": "NEH",
     "chapter": 2,
     "verse": 6,
-    "content": "And the king said unto me (the queen also sitting by him,) For how long shall thy journey be? and when wilt thou return? So it pleased the king to send me; and I set him a time."
+    "content": "And the king said unto me (the queen also sitting by him), For how long shall thy journey be? and when wilt thou return? So it pleased the king to send me; and I set him a time."
   },
   {
     "book": "NEH",
@@ -117,13 +143,25 @@
     "book": "NEH",
     "chapter": 2,
     "verse": 8,
-    "content": "and a letter unto Asaph the keeper of the king’s forest, that he may give me timber to make beams for the gates of the castle which appertaineth to the house, and for the wall of the city, and for the house that I shall enter into. And the king granted me, according to the good hand of my God upon me."
+    "content": [
+      {
+        "text": "and a letter unto Asaph the keeper of the king’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "park", "marks": ["i"] }]
+        }
+      },
+      "forest, that he may give me timber to make beams for the gates of the castle which appertaineth to the house, and for the wall of the city, and for the house that I shall enter into. And the king granted me, according to the good hand of my God upon me."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 2,
     "verse": 9,
-    "content": "Then I came to the governors beyond the River, and gave them the king’s letters. Now the king had sent with me captains of the army and horsemen."
+    "content": {
+      "paragraph": true,
+      "text": "Then I came to the governors beyond the River, and gave them the king’s letters. Now the king had sent with me captains of the army and horsemen."
+    }
   },
   {
     "book": "NEH",
@@ -165,19 +203,42 @@
     "book": "NEH",
     "chapter": 2,
     "verse": 16,
-    "content": "And the rulers knew not whither I went, or what I did; neither had I as yet told it to the Jews, nor to the priests, nor to the nobles, nor to the rulers, nor to the rest that did the work."
+    "content": [
+      {
+        "text": "And the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "rulers knew not whither I went, or what I did; neither had I as yet told it to the Jews, nor to the priests, nor to the nobles, nor to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      "rulers, nor to the rest that did the work."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 2,
     "verse": 17,
-    "content": "Then said I unto them, Ye see the evil case that we are in, how Jerusalem lieth waste, and the gates thereof are burned with fire: come, and let us build up the wall of Jerusalem, that we be no more a reproach."
+    "content": {
+      "paragraph": true,
+      "text": "Then said I unto them, Ye see the evil case that we are in, how Jerusalem lieth waste, and the gates thereof are burned with fire: come, and let us build up the wall of Jerusalem, that we be no more a reproach."
+    }
   },
   {
     "book": "NEH",
     "chapter": 2,
     "verse": 18,
-    "content": "And I told them of the hand of my God which was good upon me, as also of the king’s words that he had spoken unto me. And they said, Let us rise up and build. So they strenghtened their hands for the good work."
+    "content": [
+      "And I told them of the hand of my God which was good upon me, as also of the king’s words that he had spoken unto me. And they said, Let us rise up and build. So they strengthened their hands for the good ",
+      { "text": "work", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "NEH",
@@ -195,22 +256,41 @@
     "book": "NEH",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Then Eliashib the high priest rose up with his brethren the priests, and they builded the sheep gate; they sanctified it, and set up the doors of it; even unto the tower of Hammeah they sanctified it, unto the tower of Hananel."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Eliashib the high priest rose up with his brethren the priests, and they builded the sheep gate; they sanctified it, and set up the doors of it; even unto the tower of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "The hundred", "marks": ["i"] }]
+        }
+      },
+      "Hammeah they sanctified it, unto the tower of Hananel."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 2,
-    "content": "And next unto him builded the men of Jericho. And next to them builded Zaccur the son of Imri."
+    "content": [
+      {
+        "text": "And next unto him builded the men of Jericho. And next to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "him", "marks": ["i"] }, "."]
+        }
+      },
+      "them builded Zaccur the son of Imri."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 3,
-    "content": "And the fish gate did the sons of Hassenaah build; they laid the beams thereof, and set up the doors thereof, the bolts thereof, and the bars thereof."
+    "content": {
+      "paragraph": true,
+      "text": "And the fish gate did the sons of Hassenaah build; they laid the beams thereof, and set up the doors thereof, the bolts thereof, and the bars thereof."
+    }
   },
   {
     "book": "NEH",
@@ -222,25 +302,68 @@
     "book": "NEH",
     "chapter": 3,
     "verse": 5,
-    "content": "And next unto them the Tekoites repaired; but their nobles put not their necks to the work of their lord."
+    "content": [
+      {
+        "text": "And next unto them the Tekoites repaired; but their nobles put not their necks to the work of their ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "lords", "marks": ["i"] },
+            ". Or, ",
+            { "text": "Lord", "marks": ["i"] }
+          ]
+        }
+      },
+      "lord."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 6,
-    "content": "And the old gate repaired Joiada the son of Paseah and Meshullam the son of Besodeiah; they laid the beams thereof, and set up the doors thereof, and the bolts thereof, and the bars thereof."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the gate of the old", "marks": ["i"] },
+            " city (or ",
+            { "text": "of the old", "marks": ["i"] },
+            " wall)"
+          ]
+        }
+      },
+      "the old gate repaired Joiada the son of Paseah and Meshullam the son of Besodeiah; they laid the beams thereof, and set up the doors thereof, and the bolts thereof, and the bars thereof."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 7,
-    "content": "And next unto them repaired Melatiah the Gibeonite, and Jadon the Meronothite, the men of Gibeon, and of Mizpah, that appertained to the throne of the governor beyond the River."
+    "content": [
+      "And next unto them repaired Melatiah the Gibeonite, and Jadon the Meronothite, the men of Gibeon, and of Mizpah, ",
+      { "text": "that appertained", "marks": ["i"] },
+      " to the throne of the governor beyond the River."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 8,
-    "content": "Next unto him repaired Uzziel the son of Harhaiah, goldsmiths. And next unto him repaired Hananiah one of the perfumers, and they fortified Jerusalem even unto the broad wall."
+    "content": [
+      {
+        "text": "Next unto him repaired Uzziel the son of Harhaiah, goldsmiths. And next unto him repaired Hananiah one of the perfumers, and they ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "left", "marks": ["i"] }]
+        }
+      },
+      "fortified Jerusalem even unto the broad wall."
+    ]
   },
   {
     "book": "NEH",
@@ -270,19 +393,41 @@
     "book": "NEH",
     "chapter": 3,
     "verse": 13,
-    "content": "The valley gate repaired Hanun, and the inhabitants of Zanoah; they built it, and set up the doors thereof, the bolts thereof, and the bars thereof, and a thousand cubits of the wall unto the dung gate."
+    "content": {
+      "paragraph": true,
+      "text": "The valley gate repaired Hanun, and the inhabitants of Zanoah; they built it, and set up the doors thereof, the bolts thereof, and the bars thereof, and a thousand cubits of the wall unto the dung gate."
+    }
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 14,
-    "content": "And the dung gate repaired Malchijah the son of Rechab, the ruler of the district of Beth-haccherem; he built it, and set up the doors thereof, the bolts thereof, and the bars thereof."
+    "content": {
+      "paragraph": true,
+      "text": "And the dung gate repaired Malchijah the son of Rechab, the ruler of the district of Beth-haccherem; he built it, and set up the doors thereof, the bolts thereof, and the bars thereof."
+    }
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 15,
-    "content": "And the fountain gate repaired Shallun the son of Col-hozeh, the ruler of the district of Mizpah; he built it, and covered it, and set up the doors thereof, the bolts thereof, and the bars thereof, and the wall of the pool of Shelah by the king’s garden, even unto the stairs that go down from the city of David."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the fountain gate repaired Shallun the son of Col-hozeh, the ruler of the district of Mizpah; he built it, and covered it, and set up the doors thereof, the bolts thereof, and the bars thereof, and the wall of the pool of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Isaiah 8:6", "content": "Isa. 8:6" },
+            ", ",
+            { "text": "Shiloah", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Shelah by the king’s garden, even unto the stairs that go down from the city of David."
+    ]
   },
   {
     "book": "NEH",
@@ -306,13 +451,32 @@
     "book": "NEH",
     "chapter": 3,
     "verse": 19,
-    "content": "And next to him repaired Ezer the son of Jeshua, the ruler of Mizpah, another portion, over against the ascent to the armory at the turning of the wall."
+    "content": [
+      "And next to him repaired Ezer the son of Jeshua, the ruler of Mizpah, another portion, over against the ascent to the armory at the turning ",
+      { "text": "of the wall", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 20,
-    "content": "After him Baruch the son of Zabbai earnestly repaired another portion, from the turning of the wall unto the door of the house of Eliashib the high priest."
+    "content": [
+      {
+        "text": "After him Baruch the son of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Zaccai", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Zabbai earnestly repaired another portion, from the turning ",
+      { "text": "of the wall", "marks": ["i"] },
+      " unto the door of the house of Eliashib the high priest."
+    ]
   },
   {
     "book": "NEH",
@@ -324,25 +488,89 @@
     "book": "NEH",
     "chapter": 3,
     "verse": 22,
-    "content": "And after him repaired the priests, the men of the Plain."
+    "content": [
+      {
+        "text": "And after him repaired the priests, the men of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Circuit", "marks": ["i"] }]
+        }
+      },
+      "Plain."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 23,
-    "content": "After them repaired Benjamin and Hasshub over against their house. After them repaired Azariah the son of Maaseiah the son of Ananiah beside his own house."
+    "content": [
+      {
+        "text": "After ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "him", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "them repaired Benjamin and Hasshub over against their house. After ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "him", "marks": ["i"] }, "."]
+        }
+      },
+      "them repaired Azariah the son of Maaseiah the son of Ananiah beside his own house."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 24,
-    "content": "After him repaired Binnui the son of Henadad another portion, from the house of Azariah unto the turning of the wall, and unto the corner."
+    "content": [
+      "After him repaired Binnui the son of Henadad another portion, from the house of Azariah unto the turning ",
+      { "text": "of the wall", "marks": ["i"] },
+      ", and unto the corner."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 25,
-    "content": "Palal the son of Uzai repaired over against the turning of the wall, and the tower that standeth out from the upper house of the king, which is by the court of the guard. After him Pedaiah the son of Parosh repaired."
+    "content": [
+      "Palal the son of Uzai ",
+      { "text": "repaired", "marks": ["i"] },
+      " over against the turning ",
+      { "text": "of the wall", "marks": ["i"] },
+      {
+        "text": ", and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "the upper tower . . . from the house of the king",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "the tower that standeth out from the upper house of the king, which is by the court of the guard. After him ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Pedaiah the son of Parosh", "marks": ["i"] },
+            " (",
+            { "text": "now . . . Ophel", "marks": ["i"] },
+            ") repaired ",
+            { "text": "unto etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "Pedaiah the son of Parosh ",
+      { "text": "repaired", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "NEH",
@@ -360,7 +588,10 @@
     "book": "NEH",
     "chapter": 3,
     "verse": 28,
-    "content": "Above the horse gate repaired the priests, every one over against his own house."
+    "content": {
+      "paragraph": true,
+      "text": "Above the horse gate repaired the priests, every one over against his own house."
+    }
   },
   {
     "book": "NEH",
@@ -378,13 +609,31 @@
     "book": "NEH",
     "chapter": 3,
     "verse": 31,
-    "content": "After him repaired Malchijah one of the goldsmiths unto the house of the Nethinim, and of the merchants, over against the gate of Hammiphkad, and to the ascent of the corner."
+    "content": [
+      {
+        "text": "After him repaired Malchijah one of the goldsmiths unto the house of the Nethinim, and of the merchants, over against the gate of Hammiphkad, and to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upper chamber", "marks": ["i"] }]
+        }
+      },
+      "ascent of the corner."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 3,
     "verse": 32,
-    "content": "And between the ascent of the corner and the sheep gate repaired the goldsmiths and the merchants."
+    "content": [
+      {
+        "text": "And between the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upper chamber", "marks": ["i"] }]
+        }
+      },
+      "ascent of the corner and the sheep gate repaired the goldsmiths and the merchants."
+    ]
   },
   {
     "book": "NEH",
@@ -399,13 +648,36 @@
     "book": "NEH",
     "chapter": 4,
     "verse": 2,
-    "content": "And he spake before his brethren and the army of Samaria, and said, What are these feeble Jews doing? will they fortify themselves? will they sacrifice? will they make an end in a day? will they revive the stones out of the heaps of rubbish, seeing they are burned?"
+    "content": [
+      {
+        "text": "And he spake before his brethren and the army of Samaria, and said, What are these feeble Jews doing? ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "will they leave to themselves", "marks": ["i"] },
+            " aught? Or, ",
+            { "text": "will men let them alone?", "marks": ["i"] }
+          ]
+        }
+      },
+      "will they fortify themselves? will they sacrifice? will they make an end in a day? will they revive the stones out of the heaps of rubbish, seeing they are burned?"
+    ]
   },
   {
     "book": "NEH",
     "chapter": 4,
     "verse": 3,
-    "content": "Now Tobiah the Ammonite was by him, and he said, Even that which they are building, if a fox go up, he shall break down their stone wall."
+    "content": [
+      {
+        "text": "Now Tobiah the Ammonite was by him, and he said, Even that which they are building, if a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "jackal", "marks": ["i"] }]
+        }
+      },
+      "fox go up, he shall break down their stone wall."
+    ]
   },
   {
     "book": "NEH",
@@ -417,19 +689,43 @@
     "book": "NEH",
     "chapter": 4,
     "verse": 5,
-    "content": "and cover not their iniquity, and let not their sin be blotted out from before thee; for they have provoked thee to anger before the builders."
+    "content": [
+      "and cover not their iniquity, and let not their sin be blotted out from before thee; for they have provoked ",
+      { "text": "thee", "marks": ["i"] },
+      " to anger before the builders."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 4,
     "verse": 6,
-    "content": "So we built the wall; and all the wall was joined together unto half the height thereof: for the people had a mind to work."
+    "content": [
+      "So we built the wall; and all the wall was joined together unto half ",
+      { "text": "the height", "marks": ["i"] },
+      " thereof: for the people had a mind to work."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 4,
     "verse": 7,
-    "content": "But it came to pass that, when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that the repairing of the walls of Jerusalem went forward, and that the breaches began to be stopped, then they were very wroth;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But it came to pass that, when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "healing went up upon the walls", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the repairing of the walls of Jerusalem went forward, ",
+      { "text": "and", "marks": ["i"] },
+      " that the breaches began to be stopped, then they were very wroth;"
+    ]
   },
   {
     "book": "NEH",
@@ -459,37 +755,85 @@
     "book": "NEH",
     "chapter": 4,
     "verse": 12,
-    "content": "And it came to pass that, when the Jews that dwelt by them came, they said unto us ten times from all places, Ye must return unto us."
+    "content": [
+      {
+        "text": "And it came to pass that, when the Jews that dwelt by them came, they said unto us ten times ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "From all places whence ye shall return",
+              "marks": ["i"]
+            },
+            " they will be ",
+            { "text": "upon us", "marks": ["i"] }
+          ]
+        }
+      },
+      "from all places, Ye must return unto us."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 4,
     "verse": 13,
-    "content": "Therefore set I in the lowest parts of the space behind the wall, in the open places, I set there the people after their families with their swords, their spears, and their bows."
+    "content": [
+      "Therefore set I in the lowest parts of the space behind the wall, in the open places, I set ",
+      { "text": "there", "marks": ["i"] },
+      " the people after their families with their swords, their spears, and their bows."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 4,
     "verse": 14,
-    "content": "And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of the people, Be not ye afraid of them: remember the Lord, who is great and terrible, and fight for your brethren, your sons, and your daughters, your wives, and your houses."
+    "content": [
+      {
+        "text": "And I looked, and rose up, and said unto the nobles, and to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      "rulers, and to the rest of the people, Be not ye afraid of them: remember the Lord, who is great and terrible, and fight for your brethren, your sons, and your daughters, your wives, and your houses."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 4,
     "verse": 15,
-    "content": "And it came to pass, when our enemies heard that it was known unto us, and God had brought their counsel to nought, that we returned all of us to the wall, every one unto his work."
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass, when our enemies heard that it was known unto us, and God had brought their counsel to nought, that we returned all of us to the wall, every one unto his work."
+    }
   },
   {
     "book": "NEH",
     "chapter": 4,
     "verse": 16,
-    "content": "And it came to pass from that time forth, that half of my servants wrought in the work, and half of them held the spears, the shields, and the bows, and the coats of mail; and the rulers were behind all the house of Judah."
+    "content": [
+      {
+        "text": "And it came to pass from that time forth, that half of my servants wrought in the work, and half of them held the spears, the shields, and the bows, and the coats of mail; and the rulers were behind ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "all the house of Judah that builded the wall. And they that etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "all the house of Judah."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 4,
     "verse": 17,
-    "content": "They all builded the wall and they that bare burdens laded themselves; every one with one of his hands wrought in the work, and with the other held his weapon;"
+    "content": "They that builded the wall and they that bare burdens laded themselves; every one with one of his hands wrought in the work, and with the other held his weapon;"
   },
   {
     "book": "NEH",
@@ -501,7 +845,16 @@
     "book": "NEH",
     "chapter": 4,
     "verse": 19,
-    "content": "And I said unto the nobles, and to the rulers and to the rest of the people, The work is great and large, and we are separated upon the wall, one far from another:"
+    "content": [
+      {
+        "text": "And I said unto the nobles, and to the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      "rulers and to the rest of the people, The work is great and large, and we are separated upon the wall, one far from another:"
+    ]
   },
   {
     "book": "NEH",
@@ -513,7 +866,10 @@
     "book": "NEH",
     "chapter": 4,
     "verse": 21,
-    "content": "So we wrought in the work: and half of them held the spears from the rising of the morning till the stars appeared."
+    "content": {
+      "paragraph": true,
+      "text": "So we wrought in the work: and half of them held the spears from the rising of the morning till the stars appeared."
+    }
   },
   {
     "book": "NEH",
@@ -525,7 +881,17 @@
     "book": "NEH",
     "chapter": 4,
     "verse": 23,
-    "content": "So neither I, nor my brethren, nor my servants, nor the men of the guard that followed me, none of us put off our clothes, every one went with his weapon to the water."
+    "content": [
+      {
+        "text": "So neither I, nor my brethren, nor my servants, nor the men of the guard that followed me, none of us put off our clothes, ",
+        "foot": { "type": "stu", "content": "The text is obscure." }
+      },
+      "every one ",
+      { "text": "went with", "marks": ["i"] },
+      " his weapon ",
+      { "text": "to", "marks": ["i"] },
+      " the water."
+    ]
   },
   {
     "book": "NEH",
@@ -552,31 +918,60 @@
     "book": "NEH",
     "chapter": 5,
     "verse": 4,
-    "content": "There were also that said, We have borrowed money for the king’s tribute upon our fields and our vineyards."
+    "content": [
+      "There were also that said, We have borrowed money for the king’s tribute ",
+      { "text": "upon", "marks": ["i"] },
+      " our fields and our vineyards."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 5,
     "verse": 5,
-    "content": "Yet now our flesh is as the flesh of our brethren, our children as their children: and, lo, we bring into bondage our sons and our daughters to be servants, and some of our daughters are brought into bondage already: neither is it in our power to help it; for other men have our fields and our vineyards."
+    "content": [
+      "Yet now our flesh is as the flesh of our brethren, our children as their children: and, lo, we bring into bondage our sons and our daughters to be servants, and some of our daughters are brought into bondage ",
+      { "text": "already", "marks": ["i"] },
+      ": neither is it in our power to help it; for other men have our fields and our vineyards."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 5,
     "verse": 6,
-    "content": "And I was very angry when I heard their cry and these words."
+    "content": {
+      "paragraph": true,
+      "text": "And I was very angry when I heard their cry and these words."
+    }
   },
   {
     "book": "NEH",
     "chapter": 5,
     "verse": 7,
-    "content": "Then I consulted with myself, and contended with the nobles and the rulers, and said unto them, Ye exact usury, every one of his brother. And I held a great assembly against them."
+    "content": [
+      {
+        "text": "Then I consulted with myself, and contended with the nobles and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      "rulers, and said unto them, Ye exact usury, every one of his brother. And I held a great assembly against them."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 5,
     "verse": 8,
-    "content": "And I said unto them, We after our ability have redeemed our brethren the Jews, that were sold unto the nations; and would ye even sell your brethren, and should they be sold unto us? Then held they their peace, and found never a word."
+    "content": [
+      {
+        "text": "And I said unto them, We after our ability have ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "bought", "marks": ["i"] }, "."]
+        }
+      },
+      "redeemed our brethren the Jews, that were sold unto the nations; and would ye even sell your brethren, and should they be sold unto us? Then held they their peace, and found never a word."
+    ]
   },
   {
     "book": "NEH",
@@ -612,25 +1007,82 @@
     "book": "NEH",
     "chapter": 5,
     "verse": 14,
-    "content": "Moreover from the time that I was appointed to be their governor in the land of Judah, from the twentieth year even unto the two and thirtieth year of Artaxerxes the king, that is, twelve years, I and my brethren have not eaten the bread of the governor."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Moreover from the time that I was appointed to be their governor in the land of Judah, from the twentieth year even unto the two and thirtieth year of Artaxerxes the king, "
+      },
+      { "text": "that is", "marks": ["i"] },
+      ", twelve years, I and my brethren have not eaten the bread of the governor."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 5,
     "verse": 15,
-    "content": "But the former governors that were before me were chargeable unto the people, and took of them bread and wine, besides forty shekels of silver; yea, even their servants bare rule over the people: but so did not I, because of the fear of God."
+    "content": [
+      {
+        "text": "But the former governors that were before me ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "laid burdens upon", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "were chargeable unto the people, and took of them bread and wine, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "at the rate of", "marks": ["i"] },
+            ". Or, ",
+            { "text": "afterward", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "besides forty shekels of silver; yea, even their servants ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lorded over", "marks": ["i"] }]
+        }
+      },
+      "bare rule over the people: but so did not I, because of the fear of God."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 5,
     "verse": 16,
-    "content": "Yea, also I continued in the work of this wall, neither bought we any land: and all my servants were gathered thither unto the work."
+    "content": [
+      {
+        "text": "Yea, also I ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "held fast to", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "continued in the work of this wall, neither bought we any land: and all my servants were gathered thither unto the work."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 5,
     "verse": 17,
-    "content": "Moreover there were at my table, of the Jews and the rulers, a hundred and fifty men, besides those that came unto us from among the nations that were round about us."
+    "content": [
+      {
+        "text": "Moreover there were at my table, of the Jews and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      "rulers, a hundred and fifty men, besides those that came unto us from among the nations that were round about us."
+    ]
   },
   {
     "book": "NEH",
@@ -650,14 +1102,18 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Now it came to pass, when it was reported to Sanballat and Tobiah, and to Geshem the Arabian, and unto the rest of our enemies, that I had builded the wall, and that there was no breach left therein;(though even unto that time I had not set up the doors in the gates;)"
+      "text": "Now it came to pass, when it was reported to Sanballat and Tobiah, and to Geshem the Arabian, and unto the rest of our enemies, that I had builded the wall, and that there was no breach left therein (though even unto that time I had not set up the doors in the gates),"
     }
   },
   {
     "book": "NEH",
     "chapter": 6,
     "verse": 2,
-    "content": "that Sanballat and Geshem sent unto me, saying, Come, let us meet together in one of the villages in the plain of Ono. But they thought to do me mischief."
+    "content": [
+      "that Sanballat and Geshem sent unto me, saying, Come, let us meet together in ",
+      { "text": "one of", "marks": ["i"] },
+      " the villages in the plain of Ono. But they thought to do me mischief."
+    ]
   },
   {
     "book": "NEH",
@@ -681,7 +1137,22 @@
     "book": "NEH",
     "chapter": 6,
     "verse": 6,
-    "content": "wherein was written, It is reported among the nations, and Gashmu saith it, that thou and the Jews think to rebel; for which cause thou art building the wall: and thou wouldest be their king, according to these words."
+    "content": [
+      {
+        "text": "wherein was written, It is reported among the nations, and ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 6:1", "content": "verse 1" },
+            ", and elsewhere ",
+            { "text": "Geshem", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Gashmu saith it, that thou and the Jews think to rebel; for which cause thou art building the wall: and thou wouldest be their king, according to these words."
+    ]
   },
   {
     "book": "NEH",
@@ -699,19 +1170,47 @@
     "book": "NEH",
     "chapter": 6,
     "verse": 9,
-    "content": "For they all would have made us afraid, saying, Their hands shall be weakened from the work, that it be not done. But now, O God, strengthen thou my hands."
+    "content": [
+      {
+        "text": "For they all would have made us afraid, saying, Their hands shall be weakened from the work, that it be not done. But now, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "I will strengthen my hands", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "O God", "marks": ["i"] },
+      ", strengthen thou my hands."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 6,
     "verse": 10,
-    "content": "And I went unto the house of Shemaiah the son of Delaiah the son of Mehetabel, who was shut up; and he said, Let us meet together in the house of God, within the temple, and let us shut the doors of the temple: for they will come to slay thee; yea, in the night will they come to slay thee."
+    "content": {
+      "paragraph": true,
+      "text": "And I went unto the house of Shemaiah the son of Delaiah the son of Mehetabel, who was shut up; and he said, Let us meet together in the house of God, within the temple, and let us shut the doors of the temple: for they will come to slay thee; yea, in the night will they come to slay thee."
+    }
   },
   {
     "book": "NEH",
     "chapter": 6,
     "verse": 11,
-    "content": "And I said, Should such a man as I flee? and who is there, that, being such as I, would go into the temple to save his life? I will not go in."
+    "content": [
+      {
+        "text": "And I said, Should such a man as I flee? and who is there, that, being such as I, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "could go into the temple and live", "marks": ["i"] }
+          ]
+        }
+      },
+      "would go into the temple to save his life? I will not go in."
+    ]
   },
   {
     "book": "NEH",
@@ -735,19 +1234,47 @@
     "book": "NEH",
     "chapter": 6,
     "verse": 15,
-    "content": "So the wall was finished in the twenty and fifth day of the month Elul, in fifty and two days."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "So the wall was finished in the twenty and fifth "
+      },
+      { "text": "day", "marks": ["i"] },
+      " of ",
+      { "text": "the month", "marks": ["i"] },
+      " Elul, in fifty and two days."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 6,
     "verse": 16,
-    "content": "And it came to pass, when all our enemies heard thereof, that all the nations that were about us feared, and were much cast down in their own eyes; for they perceived that this work was wrought of our God."
+    "content": [
+      "And it came to pass, when all our enemies heard ",
+      { "text": "thereof", "marks": ["i"] },
+      {
+        "text": ", that all the nations that were about us ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to another reading, ",
+            { "text": "saw", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "feared, and were much cast down in their own eyes; for they perceived that this work was wrought of our God."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 6,
     "verse": 17,
-    "content": "Moreover in those days the nobles of Judah sent many letters unto Tobiah, and the letters of Tobiah came unto them."
+    "content": [
+      "Moreover in those days the nobles of Judah sent many letters unto Tobiah, and ",
+      { "text": "the letters", "marks": ["i"] },
+      " of Tobiah came unto them."
+    ]
   },
   {
     "book": "NEH",
@@ -759,7 +1286,11 @@
     "book": "NEH",
     "chapter": 6,
     "verse": 19,
-    "content": "Also they spake of his good deeds before me, and reported my words to him. And Tobiah sent letters to put me in fear."
+    "content": [
+      "Also they spake of his good deeds before me, and reported my words to him. ",
+      { "text": "And", "marks": ["i"] },
+      " Tobiah sent letters to put me in fear."
+    ]
   },
   {
     "book": "NEH",
@@ -780,7 +1311,13 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 3,
-    "content": "And I said unto them, Let not the gates of Jerusalem be opened until the sun be hot; and while they stand on guard, let them shut the doors, and bar ye them: and appoint watches of the inhabitants of Jerusalem, every one in his watch, and every one to be over against his house."
+    "content": [
+      "And I said unto them, Let not the gates of Jerusalem be opened until the sun be hot; and while they stand ",
+      { "text": "on guard", "marks": ["i"] },
+      ", let them shut the doors, and bar ye them: and appoint watches of the inhabitants of Jerusalem, every one in his watch, and every one ",
+      { "text": "to be", "marks": ["i"] },
+      " over against his house."
+    ]
   },
   {
     "book": "NEH",
@@ -792,7 +1329,17 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 5,
-    "content": "And my God put into my heart to gather together the nobles, and the rulers, and the people, that they might be reckoned by genealogy. And I found the book of the genealogy of them that came up at the first, and I found written therein:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And my God put into my heart to gather together the nobles, and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      "rulers, and the people, that they might be reckoned by genealogy. And I found the book of the genealogy of them that came up at the first, and I found written therein:"
+    ]
   },
   {
     "book": "NEH",
@@ -804,7 +1351,13 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 7,
-    "content": "who came with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, Baanah. The number of the men of the people of Israel:"
+    "content": [
+      "who came with Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, Baanah.",
+      {
+        "paragraph": true,
+        "text": "The number of the men of the people of Israel:"
+      }
+    ]
   },
   {
     "book": "NEH",
@@ -828,7 +1381,11 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 11,
-    "content": "The children of Pahath-moab, of the children of Jeshua and Joab, two thousand and eight hundred and eighteen."
+    "content": [
+      "The children of Pahath-moab, of the children of Jeshua and Joab, two thousand and eight hundred ",
+      { "text": "and", "marks": ["i"] },
+      " eighteen."
+    ]
   },
   {
     "book": "NEH",
@@ -918,7 +1475,7 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 26,
-    "content": "The men of Bethlehem and Netophah, a hundred fourscore and eight."
+    "content": "The men of Beth-lehem and Netophah, a hundred fourscore and eight."
   },
   {
     "book": "NEH",
@@ -996,7 +1553,10 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 39,
-    "content": "The priests: The children of Jedaiah, of the house of Jeshua, nine hundred seventy and three."
+    "content": {
+      "paragraph": true,
+      "text": "The priests: The children of Jedaiah, of the house of Jeshua, nine hundred seventy and three."
+    }
   },
   {
     "book": "NEH",
@@ -1014,13 +1574,31 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 42,
-    "content": "The children of Harim, a thousand and seventeen."
+    "content": [
+      "The children of Harim, a thousand ",
+      { "text": "and", "marks": ["i"] },
+      " seventeen."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 7,
     "verse": 43,
-    "content": "The Levites: the children of Jeshua, of Kadmiel, of the children of Hodevah, seventy and four."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The Levites: the children of Jeshua, of Kadmiel, of the children of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Hodeiah", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Hodevah, seventy and four."
+    ]
   },
   {
     "book": "NEH",
@@ -1038,7 +1616,10 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 46,
-    "content": "The Nethinim: the children of Ziha, the children of Hasupha, the children of Tabbaoth,"
+    "content": {
+      "paragraph": true,
+      "text": "The Nethinim: the children of Ziha, the children of Hasupha, the children of Tabbaoth,"
+    }
   },
   {
     "book": "NEH",
@@ -1074,7 +1655,20 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 52,
-    "content": "The children of Besai, the children of Meunim, the children of Nephushesim,"
+    "content": [
+      {
+        "text": "The children of Besai, the children of Meunim, the children of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Nephishesim", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Nephushesim,"
+    ]
   },
   {
     "book": "NEH",
@@ -1104,7 +1698,10 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 57,
-    "content": "The children of Solomon’s servants: the children of Sotai, the children of Sophereth, the children of Perida,"
+    "content": {
+      "paragraph": true,
+      "text": "The children of Solomon’s servants: the children of Sotai, the children of Sophereth, the children of Perida,"
+    }
   },
   {
     "book": "NEH",
@@ -1128,7 +1725,10 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 61,
-    "content": "And these were they that went up from Tel-melah, Tel-harsha, Cherub, Addon, and Immer; but they could not show their fathers’ houses, nor their seed, whether they were of Israel:"
+    "content": {
+      "paragraph": true,
+      "text": "And these were they that went up from Tel-melah, Tel-harsha, Cherub, Addon, and Immer; but they could not show their fathers’ houses, nor their seed, whether they were of Israel:"
+    }
   },
   {
     "book": "NEH",
@@ -1146,19 +1746,40 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 64,
-    "content": "These sought their register among those that were reckoned by genealogy, but it was not found: therefore were they deemed polluted and put from the priesthood."
+    "content": [
+      "These sought their register ",
+      { "text": "among", "marks": ["i"] },
+      {
+        "text": " those that were reckoned by genealogy, but it was not found: therefore ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            {
+              "text": "they were polluted from the priesthood",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "were they deemed polluted and put from the priesthood."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 7,
     "verse": 65,
-    "content": "And the governor said unto them, that they should not eat of the most holy things, till there stood up a priest with Urim and Thummin."
+    "content": "And the governor said unto them, that they should not eat of the most holy things, till there stood up a priest with Urim and Thummim."
   },
   {
     "book": "NEH",
     "chapter": 7,
     "verse": 66,
-    "content": "The whole assembly together was forty and two thousand three hundred and threescore,"
+    "content": {
+      "paragraph": true,
+      "text": "The whole assembly together was forty and two thousand three hundred and threescore,"
+    }
   },
   {
     "book": "NEH",
@@ -1176,19 +1797,42 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 69,
-    "content": "their camels, four hundred thirty and five; their asses, six thousand seven hundred and twenty."
+    "content": [
+      { "text": "their", "marks": ["i"] },
+      " camels, four hundred thirty and five; ",
+      { "text": "their", "marks": ["i"] },
+      " asses, six thousand seven hundred and twenty."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 7,
     "verse": 70,
-    "content": "And some from among the heads of fathers’ houses gave unto the work. The governor gave to the treasury a thousand darics of gold, fifty basins, five hundred and thirty priests’ garments."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And some from among the heads of fathers’ "
+      },
+      { "text": "houses", "marks": ["i"] },
+      " gave unto the work. The governor gave to the treasury a thousand darics of gold, fifty basins, five hundred and thirty priests’ garments."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 7,
     "verse": 71,
-    "content": "And some of the heads of fathers’ houses gave into the treasury of the work twenty thousand darics of gold, and two thousand and two hundred pounds of silver."
+    "content": [
+      "And some of the heads of fathers’ ",
+      { "text": "houses", "marks": ["i"] },
+      {
+        "text": " gave into the treasury of the work twenty thousand darics of gold, and two thousand and two hundred ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "maneh", "marks": ["i"] }, "."]
+        }
+      },
+      "pounds of silver."
+    ]
   },
   {
     "book": "NEH",
@@ -1200,7 +1844,16 @@
     "book": "NEH",
     "chapter": 7,
     "verse": 73,
-    "content": "So the priests, and the Levites, and the porters, and the singers, and some of the people, and the Nethinim, and all Israel, dwelt in their cities. And when the seventh month was come, the children of Israel were in their cities."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "So the priests, and the Levites, and the porters, and the singers, and some of the people, and the Nethinim, and all Israel, dwelt in their cities."
+      },
+      {
+        "paragraph": true,
+        "text": "And when the seventh month was come, the children of Israel were in their cities."
+      }
+    ]
   },
   {
     "book": "NEH",
@@ -1221,49 +1874,115 @@
     "book": "NEH",
     "chapter": 8,
     "verse": 3,
-    "content": "And he read therein before the broad place that was before the water gate from early morning until midday, in the presence of the men and the women, and of those that could understand; and the ears of all the people were attentive unto the book of the law."
+    "content": [
+      {
+        "text": "And he read therein before the broad place that was before the water gate ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "from the light", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "from early morning until midday, in the presence of the men and the women, and of those that could understand; and the ears of all the people were ",
+      { "text": "attentive", "marks": ["i"] },
+      " unto the book of the law."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 8,
     "verse": 4,
-    "content": "And Ezra the scribe stood upon a pulpit of wood, which they had made for the purpose; and beside him stood Mattithiah, and Shema, and Anaiah, and Uriah, and Hilkiah, and Maaseiah, on his right hand; and on his left hand, Pedaiah, and Mishael, and Malchijah, and Hashum, and Hashbaddanah, Zechariah, and Meshullam."
+    "content": [
+      {
+        "text": "And Ezra the scribe stood upon a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "tower", "marks": ["i"] }, "."]
+        }
+      },
+      "pulpit of wood, which they had made for the purpose; and beside him stood Mattithiah, and Shema, and Anaiah, and Uriah, and Hilkiah, and Maaseiah, on his right hand; and on his left hand, Pedaiah, and Mishael, and Malchijah, and Hashum, and Hashbaddanah, Zechariah, ",
+      { "text": "and", "marks": ["i"] },
+      " Meshullam."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 8,
     "verse": 5,
-    "content": "And Ezra opened the book in the sight of all the people; (for he was above all the people;) and when he opened it, all the people stood up:"
+    "content": "And Ezra opened the book in the sight of all the people (for he was above all the people); and when he opened it, all the people stood up."
   },
   {
     "book": "NEH",
     "chapter": 8,
     "verse": 6,
-    "content": "and Ezra blessed Jehovah, the great God. And all the people answered, Amen, Amen, with the lifting up of their hands: and they bowed their heads, and worshipped Jehovah with their faces to the ground."
+    "content": "And Ezra blessed Jehovah, the great God; and all the people answered, Amen, Amen, with the lifting up of their hands: and they bowed their heads, and worshipped Jehovah with their faces to the ground."
   },
   {
     "book": "NEH",
     "chapter": 8,
     "verse": 7,
-    "content": "Also Jeshua, and Bani, and Sherebiah, Jamin, Akkub, Shabbethai, Hodiah, Maaseiah, Kelita, Azariah, Jozabad, Hanan, Pelaiah, and the Levites, caused the people to understand the law: and the people stood in their place."
+    "content": [
+      "Also Jeshua, and Bani, and Sherebiah, Jamin, Akkub, Shabbethai, Hodiah, Maaseiah, Kelita, Azariah, Jozabad, Hanan, Pelaiah, and the Levites, caused the people to understand the law: and the people ",
+      { "text": "stood", "marks": ["i"] },
+      " in their place."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 8,
     "verse": 8,
-    "content": "And they read in the book, in the law of God, distinctly; and they gave the sense, so that they understood the reading."
+    "content": [
+      {
+        "text": "And they read in the book, in the law of God, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "with an interpretation", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "distinctly; and they gave the sense, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "and caused", "marks": ["i"] },
+            " them ",
+            { "text": "to understand", "marks": ["i"] }
+          ]
+        }
+      },
+      "so that they understood the reading."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 8,
     "verse": 9,
-    "content": "And Nehemiah, who was the governor, and Ezra the priest the scribe, and the Levites that taught the people, said unto all the people, This day is holy unto Jehovah your God; mourn not, nor weep. For all the people wept, when they heard the words of the law."
+    "content": {
+      "paragraph": true,
+      "text": "And Nehemiah, who was the governor, and Ezra the priest the scribe, and the Levites that taught the people, said unto all the people, This day is holy unto Jehovah your God; mourn not, nor weep. For all the people wept, when they heard the words of the law."
+    }
   },
   {
     "book": "NEH",
     "chapter": 8,
     "verse": 10,
-    "content": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto him for whom nothing is prepared; for this day is holy unto our Lord: neither be ye grieved; for the joy of Jehovah is your strength."
+    "content": [
+      {
+        "text": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto him for whom nothing is prepared; for this day is holy unto our Lord: neither be ye grieved; for the joy of Jehovah is your ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stronghold", "marks": ["i"] }]
+        }
+      },
+      "strength."
+    ]
   },
   {
     "book": "NEH",
@@ -1281,7 +2000,14 @@
     "book": "NEH",
     "chapter": 8,
     "verse": 13,
-    "content": "And on the second day were gathered together the heads of fathers’ houses of all the people, the priests, and the Levites, unto Ezra the scribe, even to give attention to the words of the law."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And on the second day were gathered together the heads of fathers’ "
+      },
+      { "text": "houses", "marks": ["i"] },
+      " of all the people, the priests, and the Levites, unto Ezra the scribe, even to give attention to the words of the law."
+    ]
   },
   {
     "book": "NEH",
@@ -1305,13 +2031,22 @@
     "book": "NEH",
     "chapter": 8,
     "verse": 17,
-    "content": "And all the assembly of them that were come again out of the captivity made booths, and dwelt in the booths; for since the days of Jeshua the son of Nun unto that day had not the children of Israel done so. And there was very great gladness."
+    "content": "And all the assembly of them that were come again out of the captivity made booths, and dwelt in the booths: for since the days of Jeshua the son of Nun unto that day had not the children of Israel done so. And there was very great gladness."
   },
   {
     "book": "NEH",
     "chapter": 8,
     "verse": 18,
-    "content": "Also day by day, from the first day unto the last day, he read in the book of the law of God. And they kept the feast seven days; and on the eighth day was a solemn assembly, according unto the ordinance."
+    "content": [
+      {
+        "text": "Also day by day, from the first day unto the last day, he read in the book of the law of God. And they kept the feast seven days; and on the eighth day was a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "closing festival", "marks": ["i"] }]
+        }
+      },
+      "solemn assembly, according unto the ordinance."
+    ]
   },
   {
     "book": "NEH",
@@ -1332,19 +2067,41 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 3,
-    "content": "And they stood up in their place, and read in the book of the law of Jehovah their God a fourth part of the day; and another fourth part they confessed, and worshipped Jehovah their God."
+    "content": [
+      "And they stood up in their place, and read in the book of the law of Jehovah their God a fourth part of the day; and ",
+      { "text": "another", "marks": ["i"] },
+      " fourth part they confessed, and worshipped Jehovah their God."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 9,
     "verse": 4,
-    "content": "Then stood up upon the stairs of the Levites, Jeshua, and Bani, Kadmiel, Shebaniah, Bunni, Sherebiah, Bani, and Chenani, and cried with a loud voice unto Jehovah their God."
+    "content": [
+      "Then stood up upon the stairs of the Levites, Jeshua, and Bani, Kadmiel, Shebaniah, Bunni, Sherebiah, Bani, ",
+      { "text": "and", "marks": ["i"] },
+      " Chenani, and cried with a loud voice unto Jehovah their God."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 9,
     "verse": 5,
-    "content": "Then the Levites, Jeshua, and Kadmiel, Bani, Hashabneiah, Sherebiah, Hodiah, Shebaniah, and Pethahiah, said, Stand up and bless Jehovah your God from everlasting to everlasting; and blessed be thy glorious name, which is exalted above all blessing and praise."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then the Levites, Jeshua, and Kadmiel, Bani, Hashabneiah, Sherebiah, Hodiah, Shebaniah, "
+      },
+      { "text": "and", "marks": ["i"] },
+      {
+        "text": " Pethahiah, said, Stand up and bless Jehovah your God from everlasting to everlasting; and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "let them bless", "marks": ["i"] }]
+        }
+      },
+      "blessed be thy glorious name, which is exalted above all blessing and praise."
+    ]
   },
   {
     "book": "NEH",
@@ -1356,7 +2113,16 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 7,
-    "content": "Thou art Jehovah the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham,"
+    "content": [
+      {
+        "text": "Thou art ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, O ", { "text": "Jehovah", "marks": ["i"] }]
+        }
+      },
+      "Jehovah the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham,"
+    ]
   },
   {
     "book": "NEH",
@@ -1368,7 +2134,10 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 9,
-    "content": "And thou sawest the affliction of our fathers in Egypt, and heardest their cry by the Red Sea,"
+    "content": {
+      "paragraph": true,
+      "text": "And thou sawest the affliction of our fathers in Egypt, and heardest their cry by the Red Sea,"
+    }
   },
   {
     "book": "NEH",
@@ -1404,19 +2173,48 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 15,
-    "content": "and gavest them bread from heaven for their hunger, and broughtest forth water for them out of the rock for their thirst, and commandedst them that they should go in to possess the land which thou hadst sworn to give them."
+    "content": [
+      {
+        "text": "and gavest them bread from heaven for their hunger, and broughtest forth water for them out of the rock for their thirst, and commandedst them that they should go in to possess the land which thou hadst ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "lifted up thy hand", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "sworn to give them."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 9,
     "verse": 16,
-    "content": "But they and our fathers dealt proudly and hardened their neck, and hearkened not to thy commandments,"
+    "content": {
+      "paragraph": true,
+      "text": "But they and our fathers dealt proudly, and hardened their neck, and hearkened not to thy commandments,"
+    }
   },
   {
     "book": "NEH",
     "chapter": 9,
     "verse": 17,
-    "content": "and refused to obey, neither were mindful of thy wonders that thou didst among them, but hardened their neck, and in their rebellion appointed a captain to return to their bondage. But thou art a God ready to pardon, gracious and merciful, slow to anger, and abundant in lovingkindness, and forsookest them not."
+    "content": [
+      {
+        "text": "and refused to obey, neither were mindful of thy wonders that thou didst among them, but hardened their neck, and in their rebellion appointed a captain to return to their bondage. But thou art ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "a God of forgivenesses", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "a God ready to pardon, gracious and merciful, slow to anger, and abundant in lovingkindness, and forsookest them not."
+    ]
   },
   {
     "book": "NEH",
@@ -1440,13 +2238,31 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 21,
-    "content": "Yea, forty years didst thou sustain them in the wilderness, and they lacked nothing; their clothes waxed not old, and their feet swelled not."
+    "content": [
+      "Yea, forty years didst thou sustain them in the wilderness, ",
+      { "text": "and", "marks": ["i"] },
+      " they lacked nothing; their clothes waxed not old, and their feet swelled not."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 9,
     "verse": 22,
-    "content": "Moreover thou gavest them kingdoms and peoples, which thou didst allot after their portions: so they possessed the land of Sihon, even the land of the king of Heshbon, and the land of Og king of Bashan."
+    "content": [
+      {
+        "text": "Moreover thou gavest them kingdoms and peoples, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "and didst distribute them into", "marks": ["i"] },
+            " every ",
+            { "text": "corner", "marks": ["i"] }
+          ]
+        }
+      },
+      "which thou didst allot after their portions: so they possessed the land of Sihon, even the land of the king of Heshbon, and the land of Og king of Bashan."
+    ]
   },
   {
     "book": "NEH",
@@ -1470,7 +2286,10 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 26,
-    "content": "Nevertheless they were disobedient, and rebelled against thee, and cast thy law behind their back, and slew thy prophets that testified against them to turn them again unto thee, and they wrought great provocations."
+    "content": {
+      "paragraph": true,
+      "text": "Nevertheless they were disobedient, and rebelled against thee, and cast thy law behind their back, and slew thy prophets that testified against them to turn them again unto thee, and they wrought great provocations."
+    }
   },
   {
     "book": "NEH",
@@ -1488,7 +2307,20 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 29,
-    "content": "and testifiedst against them, that thou mightest bring them again unto thy law. Yet they dealt proudly, and hearkened not unto thy commandments, but sinned against thine ordinances, (which if a man do, he shall live in them,) and withdrew the shoulder, and hardened their neck, and would not hear."
+    "content": [
+      {
+        "text": "and testifiedst against them, that thou mightest bring them again unto thy law. Yet they dealt proudly, and hearkened not unto thy commandments, but sinned against thine ordinances (which if a man do, he shall live in them), and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "they gave a stubborn shoulder", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "withdrew the shoulder, and hardened their neck, and would not hear."
+    ]
   },
   {
     "book": "NEH",
@@ -1506,7 +2338,10 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 32,
-    "content": "Now therefore, our God, the great, the mighty, and the terrible God, who keepest covenant and lovingkindness, let not all the travail seem little before thee, that hath come upon us, on our kings, on our princes, and on our priests, and on our prophets, and on our fathers, and on all thy people, since the time of the kings of Assyria unto this day."
+    "content": {
+      "paragraph": true,
+      "text": "Now therefore, our God, the great, the mighty, and the terrible God, who keepest covenant and lovingkindness, let not all the travail seem little before thee, that hath come upon us, on our kings, on our princes, and on our priests, and on our prophets, and on our fathers, and on all thy people, since the time of the kings of Assyria unto this day."
+    }
   },
   {
     "book": "NEH",
@@ -1542,7 +2377,36 @@
     "book": "NEH",
     "chapter": 9,
     "verse": 38,
-    "content": "And yet for all this we make a sure covenant, and write it; and our princes, our Levites, and our priests, seal unto it."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "because of", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "yet for all this we make a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "faithful", "marks": ["i"] }]
+        }
+      },
+      "sure covenant, and write it; and our princes, our Levites, ",
+      { "text": "and", "marks": ["i"] },
+      {
+        "text": " our priests, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "are at the sealing", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "seal unto it."
+    ]
   },
   {
     "book": "NEH",
@@ -1659,7 +2523,20 @@
     "book": "NEH",
     "chapter": 10,
     "verse": 19,
-    "content": "Hariph, Anathoth, Nobai,"
+    "content": [
+      {
+        "text": "Hariph, Anathoth, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Nebai", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Nobai,"
+    ]
   },
   {
     "book": "NEH",
@@ -1713,13 +2590,16 @@
     "book": "NEH",
     "chapter": 10,
     "verse": 28,
-    "content": "And the rest of the people, the priests, the Levites, the porters, the singers, the Nethinim, and all they that had separated themselves from the peoples of the lands unto the law of God, their wives, their sons, and their daughters, every one that had knowledge, and understanding;"
+    "content": {
+      "paragraph": true,
+      "text": "And the rest of the people, the priests, the Levites, the porters, the singers, the Nethinim, and all they that had separated themselves from the peoples of the lands unto the law of God, their wives, their sons, and their daughters, every one that had knowledge, and understanding;"
+    }
   },
   {
     "book": "NEH",
     "chapter": 10,
     "verse": 29,
-    "content": "They clave to their brethren, their nobles, and entered into a curse, and into an oath, to walk in God’s law, which was given by Moses the servant of God, and to observe and do all the commandments of Jehovah our Lord, and his ordinances and his statutes;"
+    "content": "they clave to their brethren, their nobles, and entered into a curse, and into an oath, to walk in God’s law, which was given by Moses the servant of God, and to observe and do all the commandments of Jehovah our Lord, and his ordinances and his statutes;"
   },
   {
     "book": "NEH",
@@ -1737,7 +2617,10 @@
     "book": "NEH",
     "chapter": 10,
     "verse": 32,
-    "content": "Also we made ordinances for us, to charge ourselves yearly with the third part of a shekel for the service of the house of our God;"
+    "content": {
+      "paragraph": true,
+      "text": "Also we made ordinances for us, to charge ourselves yearly with the third part of a shekel for the service of the house of our God;"
+    }
   },
   {
     "book": "NEH",
@@ -1767,7 +2650,23 @@
     "book": "NEH",
     "chapter": 10,
     "verse": 37,
-    "content": "and that we should bring the first-fruits of our dough, and our heave-offerings, and the fruit of all manner of trees, the new wine and the oil, unto the priests, to the chambers of the house of our God; and the tithes of our ground unto the Levites; for they, the Levites, take the tithes in all the cities of our tillage."
+    "content": [
+      {
+        "text": "and that we should bring the first-fruits of our ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "coarse meal", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "dough, and our heave-offerings, and the fruit of all manner of trees, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the vintage", "marks": ["i"] }]
+        }
+      },
+      "the new wine and the oil, unto the priests, to the chambers of the house of our God; and the tithes of our ground unto the Levites; for they, the Levites, take the tithes in all the cities of our tillage."
+    ]
   },
   {
     "book": "NEH",
@@ -1779,16 +2678,29 @@
     "book": "NEH",
     "chapter": 10,
     "verse": 39,
-    "content": "For the children of Israel and the children of Levi shall bring the heave-offering of the grain, of the new wine, and of the oil, unto the chambers, where are the vessels of the sanctuary, and the priests that minister, and the porters, and the singers: and we will not forsake the house of our God."
+    "content": [
+      {
+        "text": "For the children of Israel and the children of Levi shall bring the heave-offering of the grain, of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the vintage", "marks": ["i"] }]
+        }
+      },
+      "the new wine, and of the oil, unto the chambers, where are the vessels of the sanctuary, and the priests that minister, and the porters, and the singers: and we will not forsake the house of our God."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 11,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And the princes of the people dwelt in Jerusalem: the rest of the people also cast lots, to bring one of ten to dwell in Jerusalem the holy city, and nine parts in the other cities."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the princes of the people dwelt in Jerusalem: the rest of the people also cast lots, to bring one of ten to dwell in Jerusalem the holy city, and nine parts in the "
+      },
+      { "text": "other", "marks": ["i"] },
+      " cities."
+    ]
   },
   {
     "book": "NEH",
@@ -1800,7 +2712,14 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 3,
-    "content": "Now these are the chiefs of the province that dwelt in Jerusalem: but in the cities of Judah dwelt every one in his possession in their cities, to wit, Israel, the priests, and the Levites, and the Nethinim, and the children of Solomon’s servants."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now these are the chiefs of the province that dwelt in Jerusalem: but in the cities of Judah dwelt every one in his possession in their cities, "
+      },
+      { "text": "to wit", "marks": ["i"] },
+      ", Israel, the priests, and the Levites, and the Nethinim, and the children of Solomon’s servants."
+    ]
   },
   {
     "book": "NEH",
@@ -1824,7 +2743,10 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 7,
-    "content": "And these are the sons of Benjamin: Sallu the son of Meshullam, the son of Joed, the son of Pedaiah, the son of Kolaiah, the son of Maaseiah, the son of Ithiel, the son of Jeshaiah."
+    "content": {
+      "paragraph": true,
+      "text": "And these are the sons of Benjamin: Sallu the son of Meshullam, the son of Joed, the son of Pedaiah, the son of Kolaiah, the son of Maaseiah, the son of Ithiel, the son of Jeshaiah."
+    }
   },
   {
     "book": "NEH",
@@ -1842,7 +2764,10 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 10,
-    "content": "Of the priests: Jedaiah the son of Joiarib, Jachin,"
+    "content": {
+      "paragraph": true,
+      "text": "Of the priests: Jedaiah the son of Joiarib, Jachin,"
+    }
   },
   {
     "book": "NEH",
@@ -1860,19 +2785,38 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 13,
-    "content": "and his brethren, chiefs of fathers’ houses, two hundred forty and two; and Amashsai the son of Azarel, the son of Ahzai, the son of Meshillemoth, the son of Immer,"
+    "content": [
+      "and his brethren, chiefs of fathers’ ",
+      { "text": "houses", "marks": ["i"] },
+      ", two hundred forty and two; and Amashsai the son of Azarel, the son of Ahzai, the son of Meshillemoth, the son of Immer,"
+    ]
   },
   {
     "book": "NEH",
     "chapter": 11,
     "verse": 14,
-    "content": "and their brethren, mighty men of valor, a hundred twenty and eight; and their overseer was Zabdiel, the son of Haggedolim."
+    "content": [
+      {
+        "text": "and their brethren, mighty men of valor, a hundred twenty and eight; and their overseer was Zabdiel, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "one of the great men", "marks": ["i"] }
+          ]
+        }
+      },
+      "the son of Haggedolim."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 11,
     "verse": 15,
-    "content": "And of the Levites: Shemaiah the son of Hasshub, the son of Azrikam, the son of Hashabiah, the son of Bunni;"
+    "content": {
+      "paragraph": true,
+      "text": "And of the Levites: Shemaiah the son of Hasshub, the son of Azrikam, the son of Hashabiah, the son of Bunni;"
+    }
   },
   {
     "book": "NEH",
@@ -1896,7 +2840,10 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 19,
-    "content": "Moreover the porters, Akkub, Talmon, and their brethren, that kept watch at the gates, were a hundred seventy and two."
+    "content": {
+      "paragraph": true,
+      "text": "Moreover the porters, Akkub, Talmon, and their brethren, that kept watch at the gates, were a hundred seventy and two."
+    }
   },
   {
     "book": "NEH",
@@ -1914,13 +2861,28 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 22,
-    "content": "The overseer also of the Levites at Jerusalem was Uzzi the son of Bani, the son of Hashabiah, the son of Mattaniah, the son of Mica, of the sons of Asaph, the singers, over the business of the house of God."
+    "content": {
+      "paragraph": true,
+      "text": "The overseer also of the Levites at Jerusalem was Uzzi the son of Bani, the son of Hashabiah, the son of Mattaniah, the son of Mica, of the sons of Asaph, the singers, over the business of the house of God."
+    }
   },
   {
     "book": "NEH",
     "chapter": 11,
     "verse": 23,
-    "content": "For there was a commandment from the king concerning them, and a settled provision for the singers, as every day required."
+    "content": [
+      {
+        "text": "For there was a commandment from the king concerning them, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "a sure ordinance concerning", "marks": ["i"] }
+          ]
+        }
+      },
+      "a settled provision for the singers, as every day required."
+    ]
   },
   {
     "book": "NEH",
@@ -1932,7 +2894,24 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 25,
-    "content": "And as for the villages, with their fields, some of the children of Judah dwelt in Kiriath-arba and the towns thereof, and in Dibon and the towns thereof, and in Jekabzeel and the villages thereof,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And as for the villages, with their fields, some of the children of Judah dwelt in Kiriath-arba and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "towns thereof, and in Dibon and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      "towns thereof, and in Jekabzeel and the villages thereof,"
+    ]
   },
   {
     "book": "NEH",
@@ -1944,13 +2923,31 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 27,
-    "content": "and in Hazar-shual, and in Beer-sheba and the towns thereof,"
+    "content": [
+      {
+        "text": "and in Hazar-shual, and in Beer-sheba and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      "towns thereof,"
+    ]
   },
   {
     "book": "NEH",
     "chapter": 11,
     "verse": 28,
-    "content": "and in Ziklag, and in Meconah and in the towns thereof,"
+    "content": [
+      {
+        "text": "and in Ziklag, and in Meconah and in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      "towns thereof,"
+    ]
   },
   {
     "book": "NEH",
@@ -1962,13 +2959,35 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 30,
-    "content": "Zanoah, Adullam, and their villages, Lachish and the fields thereof, Azekah and the towns thereof. So they encamped from Beer-sheba unto the valley of Hinnom."
+    "content": [
+      {
+        "text": "Zanoah, Adullam, and their villages, Lachish and the fields thereof, Azekah and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      "towns thereof. So they encamped from Beer-sheba unto the valley of Hinnom."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 11,
     "verse": 31,
-    "content": "The children of Benjamin also dwelt from Geba onward, at Michmash and Aija, and at Beth-el and the towns thereof,"
+    "content": [
+      "The children of Benjamin also ",
+      { "text": "dwelt", "marks": ["i"] },
+      " from Geba ",
+      { "text": "onward", "marks": ["i"] },
+      {
+        "text": ", at Michmash and Aija, and at Beth-el and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "daughters", "marks": ["i"] }, "."]
+        }
+      },
+      "towns thereof,"
+    ]
   },
   {
     "book": "NEH",
@@ -1992,13 +3011,32 @@
     "book": "NEH",
     "chapter": 11,
     "verse": 35,
-    "content": "Lod, and Ono, the valley of craftsmen."
+    "content": [
+      {
+        "text": "Lod, and Ono, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Ge-haharashim", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "1 Chronicles 4:14", "content": "1 Chr. 4:14" },
+            "."
+          ]
+        }
+      },
+      "the valley of craftsmen."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 11,
     "verse": 36,
-    "content": "And of the Levites, certain courses in Judah were joined to Benjamin."
+    "content": [
+      "And of the Levites, certain courses in Judah ",
+      { "text": "were joined", "marks": ["i"] },
+      " to Benjamin."
+    ]
   },
   {
     "book": "NEH",
@@ -2049,7 +3087,21 @@
     "book": "NEH",
     "chapter": 12,
     "verse": 8,
-    "content": "Moreover the Levites: Jeshua, Binnui, Kadmiel, Sherebiah, Judah, and Mattaniah, who was over the thanksgiving, he and his brethren."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Moreover the Levites: Jeshua, Binnui, Kadmiel, Sherebiah, Judah, "
+      },
+      { "text": "and", "marks": ["i"] },
+      {
+        "text": " Mattaniah, who was over ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the choirs", "marks": ["i"] }]
+        }
+      },
+      "the thanksgiving, he and his brethren."
+    ]
   },
   {
     "book": "NEH",
@@ -2073,7 +3125,14 @@
     "book": "NEH",
     "chapter": 12,
     "verse": 12,
-    "content": "And in the days of Joiakim were priests, heads of fathers’ houses: of Seraiah, Meraiah; of Jeremiah, Hananiah;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And in the days of Joiakim were priests, heads of fathers’ "
+      },
+      { "text": "houses", "marks": ["i"] },
+      ": of Seraiah, Meraiah; of Jeremiah, Hananiah;"
+    ]
   },
   {
     "book": "NEH",
@@ -2085,7 +3144,20 @@
     "book": "NEH",
     "chapter": 12,
     "verse": 14,
-    "content": "of Malluchi, Jonathan; of Shebaniah, Joseph;"
+    "content": [
+      {
+        "text": "of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Melicu", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Malluchi, Jonathan; of Shebaniah, Joseph;"
+    ]
   },
   {
     "book": "NEH",
@@ -2133,13 +3205,31 @@
     "book": "NEH",
     "chapter": 12,
     "verse": 22,
-    "content": "As for the Levites, in the days of Eliashib, Joiada, and Johanan, and Jaddua, there were recorded the heads of fathers’ houses; also the priests, in the reign of Darius the Persian."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "As for the Levites, in the days of Eliashib, Joiada, and Johanan, and Jaddua, there were recorded the heads of fathers’ "
+      },
+      { "text": "houses", "marks": ["i"] },
+      {
+        "text": "; also the priests, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "to", "marks": ["i"] }]
+        }
+      },
+      "in the reign of Darius the Persian."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 12,
     "verse": 23,
-    "content": "The sons of Levi, heads of fathers’ houses, were written in the book of the chronicles, even until the days of Johanan the son of Eliashib."
+    "content": [
+      "The sons of Levi, heads of fathers’ ",
+      { "text": "houses", "marks": ["i"] },
+      ", were written in the book of the chronicles, even until the days of Johanan the son of Eliashib."
+    ]
   },
   {
     "book": "NEH",
@@ -2163,13 +3253,25 @@
     "book": "NEH",
     "chapter": 12,
     "verse": 27,
-    "content": "And at the dedication of the wall of Jerusalem they sought the Levites out of all their places, to bring them to Jerusalem, to keep the dedication with gladness, both with thanksgivings, and with singing, with cymbals, psalteries, and with harps."
+    "content": {
+      "paragraph": true,
+      "text": "And at the dedication of the wall of Jerusalem they sought the Levites out of all their places, to bring them to Jerusalem, to keep the dedication with gladness, both with thanksgivings, and with singing, with cymbals, psalteries, and with harps."
+    }
   },
   {
     "book": "NEH",
     "chapter": 12,
     "verse": 28,
-    "content": "And the sons of the singers gathered themselves together, both out of the plain round about Jerusalem, and from the villages of the Netophathites;"
+    "content": [
+      {
+        "text": "And the sons of the singers gathered themselves together, both out of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Circuit", "marks": ["i"] }]
+        }
+      },
+      "plain round about Jerusalem, and from the villages of the Netophathites;"
+    ]
   },
   {
     "book": "NEH",
@@ -2187,7 +3289,14 @@
     "book": "NEH",
     "chapter": 12,
     "verse": 31,
-    "content": "Then I brought up the princes of Judah upon the wall, and appointed two great companies that gave thanks and went in procession; whereof one went on the right hand upon the wall toward the dung gate:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then I brought up the princes of Judah upon the wall, and appointed two great companies that gave thanks and went in procession; "
+      },
+      { "text": "whereof one went", "marks": ["i"] },
+      " on the right hand upon the wall toward the dung gate:"
+    ]
   },
   {
     "book": "NEH",
@@ -2229,19 +3338,40 @@
     "book": "NEH",
     "chapter": 12,
     "verse": 38,
-    "content": "And the other company of them that gave thanks went to meet them, and I after them, with the half of the people, upon the wall, above the tower of the furnaces, even unto the broad wall,"
+    "content": {
+      "paragraph": true,
+      "text": "And the other company of them that gave thanks went to meet them, and I after them, with the half of the people, upon the wall, above the tower of the furnaces, even unto the broad wall,"
+    }
   },
   {
     "book": "NEH",
     "chapter": 12,
     "verse": 39,
-    "content": "and above the gate of Ephraim, and by the old gate, and by the fish gate, and the tower of Hananel, and the tower of Hammeah, even unto the sheep gate: and they stood still in the gate of the guard."
+    "content": [
+      {
+        "text": "and above the gate of Ephraim, and by the old gate, and by the fish gate, and the tower of Hananel, and the tower of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "The hundred", "marks": ["i"] }]
+        }
+      },
+      "Hammeah, even unto the sheep gate: and they stood still in the gate of the guard."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 12,
     "verse": 40,
-    "content": "So stood the two companies of them that gave thanks in the house of God, and I, and the half of the rulers with me;"
+    "content": [
+      {
+        "text": "So stood the two companies of them that gave thanks in the house of God, and I, and the half of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      "rulers with me;"
+    ]
   },
   {
     "book": "NEH",
@@ -2265,25 +3395,65 @@
     "book": "NEH",
     "chapter": 12,
     "verse": 44,
-    "content": "And on that day were men appointed over the chambers for the treasures, for the heave-offerings, for the first-fruits, and for the tithes, to gather into them, according to the fields of the cities, the portions appointed by the law for the priests and Levites: for Judah rejoiced for the priests and for the Levites that waited."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And on that day were men appointed over the chambers for the treasures, for the heave-offerings, for the first-fruits, and for the tithes, to gather into them, according to the fields of the cities, the portions ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "of the law", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "appointed by the law for the priests and Levites: for Judah rejoiced for the priests and for the Levites that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "stood", "marks": ["i"] }, "."]
+        }
+      },
+      "waited."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 12,
     "verse": 45,
-    "content": "And they kept the charge of their God, and the charge of the purification, and so did the singers and the porters, according to the commandment of David, and of Solomon his son."
+    "content": [
+      "And they kept the charge of their God, and the charge of the purification, and ",
+      { "text": "so did", "marks": ["i"] },
+      " the singers and the porters, according to the commandment of David, and of Solomon his son."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 12,
     "verse": 46,
-    "content": "For in the days of David and Asaph of old there was a chief of the singers, and songs of praise and thanksgiving unto God."
+    "content": [
+      {
+        "text": "For in the days of David and Asaph of old ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "there were chiefs", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "there was a chief of the singers, and songs of praise and thanksgiving unto God."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 12,
     "verse": 47,
-    "content": "And all Israel in the days of Zerubbabel, and in the days of Nehemiah, gave the portions of the singers and the porters, as every day required: and they set apart that which was for the Levites; and the Levites set apart that which was for the sons of Aaron."
+    "content": [
+      "And all Israel in the days of Zerubbabel, and in the days of Nehemiah, gave the portions of the singers and the porters, as every day required: and they set apart ",
+      { "text": "that which was", "marks": ["i"] },
+      " for the Levites; and the Levites set apart ",
+      { "text": "that which was", "marks": ["i"] },
+      " for the sons of Aaron."
+    ]
   },
   {
     "book": "NEH",
@@ -2310,7 +3480,17 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 4,
-    "content": "Now before this, Eliashib the priest, who was appointed over the chambers of the house of our God, being allied unto Tobiah,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now before this, Eliashib the priest, who was appointed over the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "chamber", "marks": ["i"] }, "."]
+        }
+      },
+      "chambers of the house of our God, being allied unto Tobiah,"
+    ]
   },
   {
     "book": "NEH",
@@ -2322,7 +3502,11 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 6,
-    "content": "But in all this time I was not at Jerusalem; for in the two and thirtieth year of Artaxerxes king of Babylon I went unto the king: and after certain days asked I leave of the king,"
+    "content": [
+      "But in all this ",
+      { "text": "time", "marks": ["i"] },
+      " I was not at Jerusalem; for in the two and thirtieth year of Artaxerxes king of Babylon I went unto the king: and after certain days asked I leave of the king,"
+    ]
   },
   {
     "book": "NEH",
@@ -2346,13 +3530,25 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 10,
-    "content": "And I perceived that the portions of the Levites had not been given them; so that the Levites and the singers, that did the work, were fled every one to his field."
+    "content": {
+      "paragraph": true,
+      "text": "And I perceived that the portions of the Levites had not been given them; so that the Levites and the singers, that did the work, were fled every one to his field."
+    }
   },
   {
     "book": "NEH",
     "chapter": 13,
     "verse": 11,
-    "content": "Then contended I with the rulers, and said, Why is the house of God forsaken? And I gathered them together, and set them in their place."
+    "content": [
+      {
+        "text": "Then contended I with the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      "rulers, and said, Why is the house of God forsaken? And I gathered them together, and set them in their place."
+    ]
   },
   {
     "book": "NEH",
@@ -2376,7 +3572,21 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 15,
-    "content": "In those days saw I in Judah some men treading wine-presses on the sabbath, and bringing in sheaves, and lading asses therewith; as also wine, grapes, and figs, and all manner of burdens, which they brought into Jerusalem on the sabbath day: and I testified against them in the day wherein they sold victuals."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In those days saw I in Judah some men treading winepresses on the sabbath, and bringing in ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "heaps of grain", "marks": ["i"] }]
+        }
+      },
+      "sheaves, and lading asses ",
+      { "text": "therewith", "marks": ["i"] },
+      "; as also wine, grapes, and figs, and all manner of burdens, which they brought into Jerusalem on the sabbath day: and I testified ",
+      { "text": "against them", "marks": ["i"] },
+      " in the day wherein they sold victuals."
+    ]
   },
   {
     "book": "NEH",
@@ -2400,7 +3610,10 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 19,
-    "content": "And it came to pass that, when the gates of Jerusalem began to be dark before the sabbath, I commanded that the doors should be shut, and commanded that they should not be opened till after the sabbath: and some of my servants set I over the gates, that there should no burden be brought in on the sabbath day."
+    "content": {
+      "paragraph": true,
+      "text": "And it came to pass that, when the gates of Jerusalem began to be dark before the sabbath, I commanded that the doors should be shut, and commanded that they should not be opened till after the sabbath: and some of my servants set I over the gates, that there should no burden be brought in on the sabbath day."
+    }
   },
   {
     "book": "NEH",
@@ -2412,7 +3625,16 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 21,
-    "content": "Then I testified against them, and said unto them, Why lodge ye about the wall? if ye do so again, I will lay hands on you. From that time forth came they no more on the sabbath."
+    "content": [
+      {
+        "text": "Then I testified against them, and said unto them, Why lodge ye ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "before", "marks": ["i"] }, "."]
+        }
+      },
+      "about the wall? if ye do so again, I will lay hands on you. From that time forth came they no more on the sabbath."
+    ]
   },
   {
     "book": "NEH",
@@ -2424,7 +3646,23 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 23,
-    "content": "In those days also saw I the Jews that had married women of Ashdod, of Ammon, and of Moab:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "In those days also saw I the Jews that ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "had made to dwell", "marks": ["i"] },
+            " with them."
+          ]
+        }
+      },
+      "had married women of Ashdod, of Ammon, ",
+      { "text": "and", "marks": ["i"] },
+      " of Moab:"
+    ]
   },
   {
     "book": "NEH",
@@ -2436,7 +3674,18 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 25,
-    "content": "And I contended with them, and cursed them, and smote certain of them, and plucked off their hair, and made them swear by God, saying, Ye shall not give your daughters unto their sons, nor take their daughters for your sons, or for yourselves."
+    "content": [
+      {
+        "text": "And I contended with them, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "reviled", "marks": ["i"] }]
+        }
+      },
+      "cursed them, and smote certain of them, and plucked off their hair, and made them swear by God, ",
+      { "text": "saying", "marks": ["i"] },
+      ", Ye shall not give your daughters unto their sons, nor take their daughters for your sons, or for yourselves."
+    ]
   },
   {
     "book": "NEH",
@@ -2454,19 +3703,44 @@
     "book": "NEH",
     "chapter": 13,
     "verse": 28,
-    "content": "And one of the sons of Joiada, the son of Eliashib the high priest, was son-in-law to Sanballat the Horonite: therefore I chased him from me."
+    "content": {
+      "paragraph": true,
+      "text": "And one of the sons of Joiada, the son of Eliashib the high priest, was son-in-law to Sanballat the Horonite: therefore I chased him from me."
+    }
   },
   {
     "book": "NEH",
     "chapter": 13,
     "verse": 29,
-    "content": "Remember them, O my God, because they have defiled the priesthood, and the covenant of the priesthood, and of the Levites."
+    "content": [
+      {
+        "text": "Remember them, O my God, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "for the defilings of etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "because they have defiled the priesthood, and the covenant of the priesthood, and of the Levites."
+    ]
   },
   {
     "book": "NEH",
     "chapter": 13,
     "verse": 30,
-    "content": "Thus cleansed I them from all foreigners, and appointed charges for the priests and for the Levites, every one in his work;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus cleansed I them from ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "everything foreign", "marks": ["i"] }]
+        }
+      },
+      "all foreigners, and appointed charges for the priests and for the Levites, every one in his work;"
+    ]
   },
   {
     "book": "NEH",

@@ -3,34 +3,87 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "James, a servant of God and of the Lord Jesus Christ, to the twelve tribes which are of the Dispersion, greeting."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Jacob", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "James, a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "bondservant", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "servant of God and of the Lord Jesus Christ, to the twelve tribes which are of the Dispersion, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "wisheth joy", "marks": ["i"] }, "."]
+        }
+      },
+      { "text": "greeting.", "break": true }
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 2,
-    "content": "Count it all joy, my brethren, when ye fall into manifold temptations;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Count it all joy, my brethren, when ye fall into manifold ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "trials", "marks": ["i"] }]
+        }
+      },
+      "temptations;"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 3,
-    "content": "Knowing that the proving of your faith worketh patience."
+    "content": [
+      {
+        "text": "knowing that the proving of your faith worketh ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stedfastness", "marks": ["i"] }]
+        }
+      },
+      "patience."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 4,
-    "content": "And let patience have its perfect work, that ye may be perfect and entire, lacking in nothing."
+    "content": [
+      {
+        "text": "And let ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "stedfastness", "marks": ["i"] }]
+        }
+      },
+      "patience have ",
+      { "text": "its", "marks": ["i"] },
+      " perfect work, that ye may be perfect and entire, lacking in nothing."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 5,
-    "content": "But if any of you lacketh wisdom, let him ask of God, who giveth to all liberally and upbraideth not; and it shall be given him."
+    "content": {
+      "paragraph": true,
+      "text": "But if any of you lacketh wisdom, let him ask of God, who giveth to all liberally and upbraideth not; and it shall be given him."
+    }
   },
   {
     "book": "JAS",
@@ -42,7 +95,22 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 7,
-    "content": "For let not that man think that he shall receive anything of the Lord;"
+    "content": [
+      {
+        "text": "For let not that man think ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "that a doubleminded man, unstable in all his ways, shall receive anything of the Lord",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "that he shall receive anything of the Lord;"
+    ]
   },
   {
     "book": "JAS",
@@ -54,7 +122,10 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 9,
-    "content": "But let the brother of low degree glory in his high estate:"
+    "content": {
+      "paragraph": true,
+      "text": "But let the brother of low degree glory in his high estate:"
+    }
   },
   {
     "book": "JAS",
@@ -66,25 +137,73 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 11,
-    "content": "For the sun ariseth with the scorching wind, and withereth the grass: and the flower thereof falleth, and the grace of the fashion of it perisheth: so also shall the rich man fade away in his goings."
+    "content": "For the sun ariseth with the scorching wind, and withereth the grass; and the flower thereof falleth, and the grace of the fashion of it perisheth: so also shall the rich man fade away in his goings."
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 12,
-    "content": "Blessed is the man that endureth temptation; for when he hath been approved, he shall receive the crown of life, which the Lord promised to them that love him."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Blessed is the man that endureth temptation; for when he hath been approved, he shall receive the crown of life, which "
+      },
+      { "text": "the Lord", "marks": ["i"] },
+      " promised to them that love him."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 13,
-    "content": "Let no man say when he is tempted, I am tempted of God; for God cannot be tempted with evil, and he himself tempteth no man:"
+    "content": [
+      {
+        "text": "Let no man say when he is tempted, I am tempted ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "from", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "of God; for God ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "is untried in evil", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "cannot be tempted with ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "evil things", "marks": ["i"] }, "."]
+        }
+      },
+      "evil, and he himself tempteth no man:"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 14,
-    "content": "but each man is tempted, when he is drawn away by his own lust, and enticed."
+    "content": [
+      {
+        "text": "but each man is ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "tempted by his own lust, being drawn away",
+              "marks": ["i"]
+            },
+            " by it, ",
+            { "text": "and enticed", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "tempted, when he is drawn away by his own lust, and enticed."
+    ]
   },
   {
     "book": "JAS",
@@ -102,7 +221,16 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 17,
-    "content": "Every good gift and every perfect gift is from above, coming down from the Father of lights, with whom can be no variation, neither shadow that is cast by turning."
+    "content": [
+      {
+        "text": "Every good ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "giving", "marks": ["i"] }]
+        }
+      },
+      "gift and every perfect gift is from above, coming down from the Father of lights, with whom can be no variation, neither shadow that is cast by turning."
+    ]
   },
   {
     "book": "JAS",
@@ -114,7 +242,18 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 19,
-    "content": "Ye know this, my beloved brethren. But let every man be swift to hear, slow to speak, slow to wrath:"
+    "content": [
+      {
+        "paragraph": true,
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Know ye", "marks": ["i"] }]
+        }
+      },
+      "Ye know ",
+      { "text": "this", "marks": ["i"] },
+      ", my beloved brethren. But let every man be swift to hear, slow to speak, slow to wrath:"
+    ]
   },
   {
     "book": "JAS",
@@ -126,7 +265,23 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 21,
-    "content": "Wherefore putting away all filthiness and overflowing of wickedness, receive with meekness the implanted word, which is able to save your souls."
+    "content": [
+      {
+        "text": "Wherefore putting away all filthiness and overflowing of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "malice", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "wickedness, receive with meekness the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "inborn", "marks": ["i"] }]
+        }
+      },
+      "implanted word, which is able to save your souls."
+    ]
   },
   {
     "book": "JAS",
@@ -138,7 +293,20 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 23,
-    "content": "For if any one is a hearer of the word and not a doer, he is like unto a man beholding his natural face in a mirror:"
+    "content": [
+      {
+        "text": "For if any one is a hearer of the word and not a doer, he is like unto a man beholding ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the face of his birth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "his natural face in a mirror:"
+    ]
   },
   {
     "book": "JAS",
@@ -150,34 +318,83 @@
     "book": "JAS",
     "chapter": 1,
     "verse": 25,
-    "content": "But he that looketh into the perfect law, the law of liberty, and so continueth, being not a hearer that forgetteth but a doer that worketh, this man shall be blessed in his doing."
+    "content": [
+      "But he that looketh into the perfect law, the ",
+      { "text": "law", "marks": ["i"] },
+      " of liberty, and ",
+      { "text": "so", "marks": ["i"] },
+      " continueth, being not a hearer that forgetteth but a doer that worketh, this man shall be blessed in his doing."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 26,
-    "content": "If any man thinketh himself to be religious, while he bridleth not his tongue but deceiveth his heart, this man’s religion is vain."
+    "content": [
+      {
+        "text": "If any man ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "seemeth to be", "marks": ["i"] }]
+        }
+      },
+      "thinketh himself to be religious, while he bridleth not his tongue but deceiveth his heart, this man’s religion is vain."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 1,
     "verse": 27,
-    "content": "Pure religion and undefiled before our God and Father is this, to visit the fatherless and widows in their affliction, and to keep oneself unspotted from the world."
+    "content": [
+      "Pure religion and undefiled before our God and Father is this, to visit the fatherless and widows in their affliction, ",
+      { "text": "and", "marks": ["i"] },
+      " to keep oneself unspotted from the world."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "My brethren, hold not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "My brethren, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "do ye, in accepting persons, hold the faith . . . glory?",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "hold not the faith of our Lord Jesus Christ, ",
+      { "text": "the Lord", "marks": ["i"] },
+      " of glory, with respect of persons."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 2,
     "verse": 2,
-    "content": "For if there come into your synagogue a man with a gold ring, in fine clothing, and there come in also a poor man in vile clothing;"
+    "content": [
+      {
+        "text": "For if there come into your ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "assembly", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Hebrews 10:25", "content": "Heb. 10:25" },
+            " (Greek)."
+          ]
+        }
+      },
+      "synagogue a man with a gold ring, in fine clothing, and there come in also a poor man in vile clothing;"
+    ]
   },
   {
     "book": "JAS",
@@ -189,13 +406,32 @@
     "book": "JAS",
     "chapter": 2,
     "verse": 4,
-    "content": "Do ye not make distinctions among yourselves, and become judges with evil thoughts?"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "are ye not divided", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "do ye not make distinctions ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in your own mind", "marks": ["i"] }]
+        }
+      },
+      "among yourselves, and become judges with evil thoughts?"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 2,
     "verse": 5,
-    "content": "Hearken, my beloved brethren; did not God choose them that are poor as to the world to be rich in faith, and heirs of the kingdom which he promised to them that love him?"
+    "content": [
+      "Hearken, my beloved brethren; did not God choose them that are poor as to the world ",
+      { "text": "to be", "marks": ["i"] },
+      " rich in faith, and heirs of the kingdom which he promised to them that love him?"
+    ]
   },
   {
     "book": "JAS",
@@ -207,13 +443,40 @@
     "book": "JAS",
     "chapter": 2,
     "verse": 7,
-    "content": "Do not they blaspheme the honorable name by which ye are called?"
+    "content": [
+      {
+        "text": "Do not they blaspheme the honorable name ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "which was called upon you?", "marks": ["i"] },
+            " See ",
+            { "bibleLink": "Acts 15:17" },
+            "."
+          ]
+        }
+      },
+      "by which ye are called?"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 2,
     "verse": 8,
-    "content": "Howbeit if ye fulfil the royal law, according to the scripture, Thou shalt love thy neighbor as thyself, ye do well:"
+    "content": [
+      {
+        "text": "Howbeit if ye fulfil the royal law, according to the scripture, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Leviticus 19:18", "content": "Lev. 19:18" },
+            "."
+          ]
+        }
+      },
+      "Thou shalt love thy neighbor as thyself, ye do well:"
+    ]
   },
   {
     "book": "JAS",
@@ -225,13 +488,31 @@
     "book": "JAS",
     "chapter": 2,
     "verse": 10,
-    "content": "For whosoever shall keep the whole law, and yet stumble in one point, he is become guilty of all."
+    "content": [
+      "For whosoever shall keep the whole law, and yet stumble in one ",
+      { "text": "point", "marks": ["i"] },
+      ", he is become guilty of all."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 2,
     "verse": 11,
-    "content": "For he that said, Do not commit adultery, said also, Do not kill. Now if thou dost not commit adultery, but killest, thou art become a transgressor of the law."
+    "content": [
+      {
+        "text": "For he that said, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Exodus 20:13–26", "content": "Ex. 20:13f" },
+            "; ",
+            { "bibleLink": "Deuteronomy 5:17–33", "content": "Dt. 5:17f" },
+            "."
+          ]
+        }
+      },
+      "Do not commit adultery, said also, Do not kill. Now if thou dost not commit adultery, but killest, thou art become a transgressor of the law."
+    ]
   },
   {
     "book": "JAS",
@@ -243,13 +524,20 @@
     "book": "JAS",
     "chapter": 2,
     "verse": 13,
-    "content": "For judgment is without mercy to him that hath showed no mercy: mercy glorieth against judgment."
+    "content": [
+      "For judgment ",
+      { "text": "is", "marks": ["i"] },
+      " without mercy to him that hath showed no mercy: mercy glorieth against judgment."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 2,
     "verse": 14,
-    "content": "What doth it profit, my brethren, if a man say he hath faith, but have not works? can that faith save him?"
+    "content": {
+      "paragraph": true,
+      "text": "What doth it profit, my brethren, if a man say he hath faith, but have not works? can that faith save him?"
+    }
   },
   {
     "book": "JAS",
@@ -273,13 +561,41 @@
     "book": "JAS",
     "chapter": 2,
     "verse": 18,
-    "content": "Yea, a man will say, Thou hast faith, and I have works: show me thy faith apart from thy works, and I by my works will show thee my faith."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "But some one will say", "marks": ["i"] }
+          ]
+        }
+      },
+      "Yea, a man will say, Thou hast faith, and I have works: show me thy faith apart from ",
+      { "text": "thy", "marks": ["i"] },
+      " works, and I by my works will show thee ",
+      { "text": "my", "marks": ["i"] },
+      " faith."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 2,
     "verse": 19,
-    "content": "Thou believest that God is one; thou doest well: the demons also believe, and shudder."
+    "content": [
+      {
+        "text": "Thou believest that ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "there is one God", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "God is one; thou doest well: the demons also believe, and shudder."
+    ]
   },
   {
     "book": "JAS",
@@ -297,13 +613,48 @@
     "book": "JAS",
     "chapter": 2,
     "verse": 22,
-    "content": "Thou seest that faith wrought with his works, and by works was faith made perfect;"
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Seest thou . . . perfect?", "marks": ["i"] }
+          ]
+        }
+      },
+      "Thou seest that faith wrought with his works, and by works was faith made perfect;"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 2,
     "verse": 23,
-    "content": "and the scripture was fulfilled which saith, And Abraham believed God, and it was reckoned unto him for righteousness; and he was called the friend of God."
+    "content": [
+      {
+        "text": "and the scripture was fulfilled which saith, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Genesis 15:6", "content": "Gen. 15:6" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "And Abraham believed God, and it was reckoned unto him for righteousness; ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Isaiah 41:8", "content": "Isa. 41:8" },
+            "; ",
+            { "bibleLink": "2 Chronicles 20:7", "content": "2 Chr. 20:7" },
+            "."
+          ]
+        }
+      },
+      "and he was called the friend of God."
+    ]
   },
   {
     "book": "JAS",
@@ -327,10 +678,18 @@
     "book": "JAS",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Be not many of you teachers, my brethren, knowing that we shall receive heavier judgment."
-    }
+    "content": [
+      { "paragraph": true, "text": "Be not many " },
+      { "text": "of you", "marks": ["i"] },
+      {
+        "text": " teachers, my brethren, knowing that we shall receive ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "greater", "marks": ["i"] }, "."]
+        }
+      },
+      "heavier judgment."
+    ]
   },
   {
     "book": "JAS",
@@ -354,25 +713,109 @@
     "book": "JAS",
     "chapter": 3,
     "verse": 5,
-    "content": "So the tongue also is a little member, and boasteth great things. Behold, how much wood is kindled by how small a fire!"
+    "content": [
+      {
+        "text": "So the tongue also is a little member, and boasteth great things. Behold, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "how great a forest", "marks": ["i"] }]
+        }
+      },
+      "how much wood is kindled by how small a fire!"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 3,
     "verse": 6,
-    "content": "And the tongue is a fire: the world of iniquity among our members is the tongue, which defileth the whole body, and setteth on fire the wheel of nature, and is set on fire by hell."
+    "content": [
+      {
+        "text": "And the tongue is ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "a fire, that world of iniquity: the tongue is among our members that which etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "a fire: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "that world of iniquity, the tongue, is among our members that which etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "the world of iniquity among our members is the tongue, which defileth the whole body, and setteth on fire the wheel of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "birth", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "nature, and is set on fire by ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "Gehenna", "marks": ["i"] }, "."]
+        }
+      },
+      "hell."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 3,
     "verse": 7,
-    "content": "For every kind of beasts and birds, of creeping things and things in the sea, is tamed, and hath been tamed by mankind."
+    "content": [
+      {
+        "text": "For every ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "nature", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "kind of beasts and birds, of creeping things and things in the sea, is tamed, and hath been tamed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "unto", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "by ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "the human nature", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "mankind:"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 3,
     "verse": 8,
-    "content": "But the tongue can no man tame; it is a restless evil, it is full of deadly poison."
+    "content": [
+      "but the tongue can no man tame; ",
+      { "text": "it is", "marks": ["i"] },
+      " a restless evil, ",
+      { "text": "it is", "marks": ["i"] },
+      " full of deadly poison."
+    ]
   },
   {
     "book": "JAS",
@@ -390,19 +833,30 @@
     "book": "JAS",
     "chapter": 3,
     "verse": 11,
-    "content": "Doth the fountain send forth from the same opening sweet water and bitter?"
+    "content": [
+      "Doth the fountain send forth from the same opening sweet ",
+      { "text": "water", "marks": ["i"] },
+      " and bitter?"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 3,
     "verse": 12,
-    "content": "Can a fig tree, my brethren, yield olives, or a vine figs? Neither can salt water yield sweet."
+    "content": [
+      "can a fig tree, my brethren, yield olives, or a vine figs? neither ",
+      { "text": "can", "marks": ["i"] },
+      " salt water yield sweet."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 3,
     "verse": 13,
-    "content": "Who is wise and understanding among you? let him show by his good life his works in meekness of wisdom."
+    "content": {
+      "paragraph": true,
+      "text": "Who is wise and understanding among you? let him show by his good life his works in meekness of wisdom."
+    }
   },
   {
     "book": "JAS",
@@ -414,7 +868,31 @@
     "book": "JAS",
     "chapter": 3,
     "verse": 15,
-    "content": "This wisdom is not a wisdom that cometh down from above, but is earthly, sensual, devilish."
+    "content": [
+      "This wisdom is not ",
+      { "text": "a wisdom", "marks": ["i"] },
+      {
+        "text": " that cometh down from above, but is earthly, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "natural", "marks": ["i"] },
+            ". Or, ",
+            { "text": "animal", "marks": ["i"] },
+            ";"
+          ]
+        }
+      },
+      {
+        "text": "sensual, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "demoniacal", "marks": ["i"] }, "."]
+        }
+      },
+      "devilish."
+    ]
   },
   {
     "book": "JAS",
@@ -426,52 +904,178 @@
     "book": "JAS",
     "chapter": 3,
     "verse": 17,
-    "content": "But the wisdom that is from above is first pure, then peaceable, gentle, easy to be entreated, full of mercy and good fruits, without variance, without hypocrisy."
+    "content": [
+      {
+        "text": "But the wisdom that is from above is first pure, then peaceable, gentle, easy to be entreated, full of mercy and good fruits, without ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "doubtfulness", "marks": ["i"] },
+            ". Or, ",
+            { "text": "partiality", "marks": ["i"] }
+          ]
+        }
+      },
+      "variance, without hypocrisy."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 3,
     "verse": 18,
-    "content": "And the fruit of righteousness is sown in peace for them that make peace."
+    "content": [
+      {
+        "text": "And the fruit of righteousness is sown in peace ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by", "marks": ["i"] }]
+        }
+      },
+      "for them that make peace."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Whence come wars and whence come fightings among you? come they not hence, even of your pleasures that war in your members?"
-    }
+    "content": [
+      { "paragraph": true, "text": "Whence " },
+      { "text": "come", "marks": ["i"] },
+      " wars and whence ",
+      { "text": "come", "marks": ["i"] },
+      " fightings among you? ",
+      { "text": "come they", "marks": ["i"] },
+      " not hence, ",
+      { "text": "even", "marks": ["i"] },
+      " of your pleasures that war in your members?"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 2,
-    "content": "Ye lust, and have not: ye kill, and covet, and cannot obtain: ye fight and war; ye have not, because ye ask not."
+    "content": [
+      {
+        "text": "Ye lust, and have not: ye kill, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "are jealous", "marks": ["i"] }, "."]
+        }
+      },
+      "covet, and cannot obtain: ye fight and war; ye have not, because ye ask not."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 3,
-    "content": "Ye ask, and receive not, because ye ask amiss, that ye may spend it in your pleasures."
+    "content": [
+      "Ye ask, and receive not, because ye ask amiss, that ye may spend ",
+      { "text": "it", "marks": ["i"] },
+      " in your pleasures."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 4,
-    "content": "Ye adulteresses, know ye not that the friendship of the world is enmity with God? Whosoever therefore would be a friend of the world maketh himself an enemy of God."
+    "content": [
+      {
+        "text": "Ye ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "That is, ",
+            { "text": "who break your marriage vow to God", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "adulteresses, know ye not that the friendship of the world is enmity with God? Whosoever therefore would be a friend of the world maketh himself an enemy of God."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 5,
-    "content": "Or think ye that the scripture speaketh in vain? Doth the spirit which he made to dwell in us long unto envying?"
+    "content": [
+      {
+        "text": "Or think ye that the scripture ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "saith in vain,", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "speaketh in vain? ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "The Spirit which he made to dwell in us he yearneth for even unto jealous envy.",
+              "marks": ["i"]
+            },
+            " Compare ",
+            { "bibleLink": "Jeremiah 3:14", "content": "Jer. 3:14" },
+            "; ",
+            { "bibleLink": "Hosea 2:19–23", "content": "Hos. 2:19f" },
+            ". Or, ",
+            {
+              "text": "That Spirit which he made to dwell in us yearneth",
+              "marks": ["i"]
+            },
+            " for us ",
+            { "text": "even unto jealous envy", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Doth the spirit which ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "dwelleth in us", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "he made to dwell in us long unto envying?"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 6,
-    "content": "But he giveth more grace. Wherefore the scripture saith, God resisteth the proud, but giveth grace to the humble."
+    "content": [
+      {
+        "text": "But he giveth ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "a greater grace", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "more grace. Wherefore ",
+      { "text": "the scripture", "marks": ["i"] },
+      {
+        "text": " saith, ",
+        "foot": {
+          "type": "xrf",
+          "content": [
+            { "bibleLink": "Proverbs 3:34", "content": "Prov. 3:34" },
+            "."
+          ]
+        }
+      },
+      "God resisteth the proud, but giveth grace to the humble."
+    ]
   },
   {
     "book": "JAS",
@@ -501,31 +1105,55 @@
     "book": "JAS",
     "chapter": 4,
     "verse": 11,
-    "content": "Speak not one against another, brethren. He that speaketh against a brother, or judgeth his brother, speaketh against the law, and judgeth the law: but if thou judgest the law, thou art not a doer of the law, but a judge."
+    "content": {
+      "paragraph": true,
+      "text": "Speak not one against another, brethren. He that speaketh against a brother, or judgeth his brother, speaketh against the law, and judgeth the law: but if thou judgest the law, thou art not a doer of the law, but a judge."
+    }
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 12,
-    "content": "One only is the lawgiver and judge, even he who is able to save and to destroy: but who art thou that judgest thy neighbor?"
+    "content": [
+      "One ",
+      { "text": "only", "marks": ["i"] },
+      " is the lawgiver and judge, ",
+      { "text": "even", "marks": ["i"] },
+      " he who is able to save and to destroy: but who art thou that judgest thy neighbor?"
+    ]
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 13,
-    "content": "Come now, ye that say, To-day or to-morrow we will go into this city, and spend a year there, and trade, and get gain:"
+    "content": {
+      "paragraph": true,
+      "text": "Come now, ye that say, To-day or to-morrow we will go into this city, and spend a year there, and trade, and get gain:"
+    }
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 14,
-    "content": "whereas ye know not what shall be on the morrow. What is your life? For ye are a vapor, that appeareth for a little time, and then vanisheth away."
+    "content": "whereas ye know not what shall be on the morrow. What is your life? For ye are a vapor that appeareth for a little time, and then vanisheth away."
   },
   {
     "book": "JAS",
     "chapter": 4,
     "verse": 15,
-    "content": "For that ye ought to say, If the Lord will, we shall both live, and do this or that."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "Instead of your saying", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "For that ye ought to say, If the Lord will, we shall both live, and do this or that."
+    ]
   },
   {
     "book": "JAS",
@@ -558,7 +1186,16 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 3,
-    "content": "Your gold and your silver are rusted; and their rust shall be for a testimony against you, and shall eat your flesh as fire. Ye have laid up your treasure in the last days."
+    "content": [
+      {
+        "text": "Your gold and your silver are rusted; and their rust shall be for a testimony ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "unto", "marks": ["i"] }]
+        }
+      },
+      "against you, and shall eat your flesh as fire. Ye have laid up your treasure in the last days."
+    ]
   },
   {
     "book": "JAS",
@@ -576,13 +1213,34 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 6,
-    "content": "Ye have condemned, ye have killed the righteous one; he doth not resist you."
+    "content": [
+      "Ye have condemned, ye have killed the righteous ",
+      { "text": "one", "marks": ["i"] },
+      "; he doth not resist you."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 5,
     "verse": 7,
-    "content": "Be patient therefore, brethren, until the coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, being patient over it, until it receive the early and latter rain."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Be patient therefore, brethren, until the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "presence", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, being patient over it, until ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "he", "marks": ["i"] }]
+        }
+      },
+      "it receive the early and latter rain."
+    ]
   },
   {
     "book": "JAS",
@@ -606,25 +1264,65 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 11,
-    "content": "Behold, we call them blessed that endured: ye have heard of the patience of Job, and have seen the end of the Lord, how that the Lord is full of pity, and merciful."
+    "content": [
+      {
+        "text": "Behold, we call them blessed that endured: ye have heard of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "endurance", "marks": ["i"] }]
+        }
+      },
+      "patience of Job, and have seen the end of the Lord, how that the Lord is full of pity, and merciful."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 5,
     "verse": 12,
-    "content": "But above all things, my brethren, swear not, neither by the heaven, nor by the earth, nor by any other oath: but let your yea be yea, and your nay, nay; that ye fall not under judgment."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But above all things, my brethren, swear not, neither by the heaven, nor by the earth, nor by any other oath: but ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "let yours be the yea, yea, and the nay, nay",
+              "marks": ["i"]
+            },
+            ". Compare ",
+            { "bibleLink": "Matthew 5:37", "content": "Mt. 5:37" },
+            "."
+          ]
+        }
+      },
+      "let your yea be yea, and your nay, nay; that ye fall not under judgment."
+    ]
   },
   {
     "book": "JAS",
     "chapter": 5,
     "verse": 13,
-    "content": "Is any among you suffering? Let him pray. Is any cheerful? Let him sing praise."
+    "content": {
+      "paragraph": true,
+      "text": "Is any among you suffering? let him pray. Is any cheerful? let him sing praise."
+    }
   },
   {
     "book": "JAS",
     "chapter": 5,
     "verse": 14,
-    "content": "Is any among you sick? Let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord:"
+    "content": [
+      {
+        "text": "Is any among you sick? let him call for the elders of the church; and let them pray over him, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "having anointed", "marks": ["i"] }]
+        }
+      },
+      "anointing him with oil in the name of the Lord:"
+    ]
   },
   {
     "book": "JAS",
@@ -642,7 +1340,23 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 17,
-    "content": "Elijah was a man of like passions with us, and he prayed fervently that it might not rain; and it rained not on the earth for three years and six months."
+    "content": [
+      {
+        "text": "Elijah was a man of like ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "nature", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "passions with us, and he prayed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "with prayer", "marks": ["i"] }, "."]
+        }
+      },
+      "fervently that it might not rain; and it rained not on the earth for three years and six months."
+    ]
   },
   {
     "book": "JAS",
@@ -654,12 +1368,27 @@
     "book": "JAS",
     "chapter": 5,
     "verse": 19,
-    "content": "My brethren, if any among you err from the truth, and one convert him;"
+    "content": {
+      "paragraph": true,
+      "text": "My brethren, if any among you err from the truth, and one convert him;"
+    }
   },
   {
     "book": "JAS",
     "chapter": 5,
     "verse": 20,
-    "content": "let him know, that he who converteth a sinner from the error of his way shall save a soul from death, and shall cover a multitude of sins."
+    "content": [
+      {
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "know ye", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "let him know, that he who converteth a sinner from the error of his way shall save a soul from death, and shall cover a multitude of sins."
+    ]
   }
 ]

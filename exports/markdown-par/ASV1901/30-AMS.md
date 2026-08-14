@@ -1,172 +1,269 @@
 ## Chapter 1
 
 <sup>1</sup> The words of Amos, who was among the herdsmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before the earthquake.
-<sup>2</sup> And he said, Jehovah will roar from Zion, and utter his voice from Jerusalem; and the pastures of the shepherds shall mourn, and the top of Carmel shall wither.
-<sup>3</sup> Thus saith Jehovah: For three transgressions of Damascus, yea, for four, I will not turn away the punishment thereof; because they have threshed Gilead with threshing instruments of iron:
-<sup>4</sup> but I will send a fire into the house of Hazael, and it shall devour the palaces of Ben-hadad.
-<sup>5</sup> And I will break the bar of Damascus, and cut off the inhabitant from the valley of Aven, and him that holdeth the sceptre from the house of Eden; and the people of Syria shall go into captivity unto Kir, saith Jehovah.
-<sup>6</sup> Thus saith Jehovah: For three transgressions of Gaza, yea, for four, I will not turn away the punishment thereof; because they carried away captive the whole people, to deliver them up to Edom:
-<sup>7</sup> but I will send a fire on the wall of Gaza, and it shall devour the palaces thereof.
+
+<sup>2</sup> And he said, Jehovah will roar from Zion, and utter his voice from Jerusalem; and the <sup>a</sup>pastures of the shepherds shall mourn, and the top of Carmel shall wither.
+
+<sup>3</sup> Thus saith Jehovah: For three transgressions of Damascus, yea, for four, I will not <sup>b</sup>turn away <sup>c</sup>the punishment thereof; because they have threshed Gilead with threshing instruments of iron.
+<sup>4</sup> But I will send a fire into the house of Hazael, and it shall devour the palaces of Ben-hadad.
+<sup>5</sup> And I will break the bar of Damascus, and cut off <sup>d</sup>the inhabitant from the valley of <sup>e</sup>Aven, and him that holdeth the sceptre from <sup>f</sup>the house of Eden; and the people of Syria shall go into captivity unto Kir, saith Jehovah.
+
+<sup>6</sup> Thus saith Jehovah: For three transgressions of Gaza, yea, for four, I will not turn away the punishment thereof; because they carried away captive <sup>g</sup>the whole people, to deliver them up to Edom.
+<sup>7</sup> But I will send a fire on the wall of Gaza, and it shall devour the palaces thereof.
 <sup>8</sup> And I will cut off the inhabitant from Ashdod, and him that holdeth the sceptre from Ashkelon; and I will turn my hand against Ekron; and the remnant of the Philistines shall perish, saith the Lord Jehovah.
-<sup>9</sup> Thus saith Jehovah: For three transgressions of Tyre, yea, for four, I will not turn away the punishment thereof; because they delivered up the whole people to Edom, and remembered not the brotherly covenant:
-<sup>10</sup> but I will send a fire on the wall of Tyre, and it shall devour the palaces thereof.
-<sup>11</sup> Thus saith Jehovah: For three transgressions of Edom, yea, for four, I will not turn away the punishment thereof; because he did pursue his brother with the sword, and did cast off all pity, and his anger did tear perpetually, and he kept his wrath for ever:
-<sup>12</sup> but I will send a fire upon Teman, and it shall devour the palaces of Bozrah.
-<sup>13</sup> Thus saith Jehovah: For three transgressions of the children of Ammon, yea, for four, I will not turn away the punishment thereof; because they have ripped up the women with child of Gilead, that they may enlarge their border:
-<sup>14</sup> but I will kindle a fire in the wall of Rabbah, and it shall devour the palaces thereof, with shouting in the day of battle, with a tempest in the day of the whirlwind;
+
+<sup>9</sup> Thus saith Jehovah: For three transgressions of Tyre, yea, for four, I will not turn away the punishment thereof; because they delivered up <sup>h</sup>the whole people to Edom, and remembered not <sup>i</sup>the brotherly covenant.
+<sup>10</sup> But I will send a fire on the wall of Tyre, and it shall devour the palaces thereof.
+
+<sup>11</sup> Thus saith Jehovah: For three transgressions of Edom, yea, for four, I will not turn away the punishment thereof; because he did pursue his brother with the sword, and <sup>j</sup>did cast off all pity, and his anger did tear perpetually, and he kept his wrath for ever.
+<sup>12</sup> But I will send a fire upon Teman, and it shall devour the palaces of Bozrah.
+
+<sup>13</sup> Thus saith Jehovah: For three transgressions of the children of Ammon, yea, for four, I will not turn away the punishment thereof; because they have ripped up the women with child of Gilead, that they may enlarge their border.
+<sup>14</sup> But I will kindle a fire in the wall of Rabbah, and it shall devour the palaces thereof, with shouting in the day of battle, with a tempest in the day of the whirlwind;
 <sup>15</sup> and their king shall go into captivity, he and his princes together, saith Jehovah.
+
+> - <sup>a</sup> 2. Or, _habitations_
+> - <sup>b</sup> 3. Or, _revoke my word_
+> - <sup>c</sup> 3. Hebrew _it_ (and so in verses 6, 9, etc.).
+> - <sup>d</sup> 5. Or, _him that sitteth_ on the throne (and so in verse 8)
+> - <sup>e</sup> 5. That is, _Vanity_.
+> - <sup>f</sup> 5. Or, _Beth-eden_
+> - <sup>g</sup> 6. Hebrew _an entire captivity_.
+> - <sup>h</sup> 9. Hebrew _an entire captivity_.
+> - <sup>i</sup> 9. Hebrew _the covenant of brethren_.
+> - <sup>j</sup> 11. Hebrew _corrupted his compassions_.
 
 ## Chapter 2
 
-<sup>1</sup> Thus saith Jehovah: For three transgressions of Moab, yea, for four, I will not turn away the punishment thereof; because he burned the bones of the king of Edom into lime:
-<sup>2</sup> but I will send a fire upon Moab, and it shall devour the palaces of Kerioth; and Moab shall die with tumult, with shouting, and with the sound of the trumpet;
+<sup>1</sup> Thus saith Jehovah: For three transgressions of Moab, yea, for four, I will not turn away the punishment thereof; because he burned the bones of the king of Edom into lime.
+<sup>2</sup> But I will send a fire upon Moab, and it shall devour the palaces of Kerioth; and Moab shall die with tumult, with shouting, and with the sound of the trumpet;
 <sup>3</sup> and I will cut off the judge from the midst thereof, and will slay all the princes thereof with him, saith Jehovah.
-<sup>4</sup> Thus saith Jehovah: For three transgressions of Judah, yea, for four, I will not turn away the punishment thereof; because they have rejected the law of Jehovah, and have not kept his statutes, and their lies have caused them to err, after which their fathers did walk:
-<sup>5</sup> but I will send a fire upon Judah, and it shall devour the palaces of Jerusalem.
+
+<sup>4</sup> Thus saith Jehovah: For three transgressions of Judah, yea, for four, I will not turn away the punishment thereof; because they have rejected the law of Jehovah, and have not kept his statutes, and their lies have caused them to err, after which their fathers did walk.
+<sup>5</sup> But I will send a fire upon Judah, and it shall devour the palaces of Jerusalem.
+
 <sup>6</sup> Thus saith Jehovah: For three transgressions of Israel, yea, for four, I will not turn away the punishment thereof; because they have sold the righteous for silver, and the needy for a pair of shoes—
-<sup>7</sup> they that pant after the dust of the earth on the head of the poor, and turn aside the way of the meek: and a man and his father go unto the same maiden, to profane my holy name:
+<sup>7</sup> they that pant after the dust of the earth on the head of the poor, and turn aside the way of the meek: and a man and his father go unto the _same_ maiden, to profane my holy name:
 <sup>8</sup> and they lay themselves down beside every altar upon clothes taken in pledge; and in the house of their God they drink the wine of such as have been fined.
+
 <sup>9</sup> Yet destroyed I the Amorite before them, whose height was like the height of the cedars, and he was strong as the oaks; yet I destroyed his fruit from above, and his roots from beneath.
 <sup>10</sup> Also I brought you up out of the land of Egypt, and led you forty years in the wilderness, to possess the land of the Amorite.
 <sup>11</sup> And I raised up of your sons for prophets, and of your young men for Nazirites. Is it not even thus, O ye children of Israel? saith Jehovah.
 <sup>12</sup> But ye gave the Nazirites wine to drink, and commanded the prophets, saying, Prophesy not.
-<sup>13</sup> Behold, I will press you in your place, as a cart presseth that is full of sheaves.
-<sup>14</sup> And flight shall perish from the swift; and the strong shall not strengthen his force; neither shall the mighty deliver himself;
-<sup>15</sup> neither shall he stand that handleth the bow; and he that is swift of foot shall not deliver himself; neither shall he that rideth the horse deliver himself;
-<sup>16</sup> and he that is courageous among the mighty shall flee away naked in that day, saith Jehovah.
+
+<sup>13</sup> Behold, <sup>a</sup>I will press _you_ in your place, as a cart presseth that is full of sheaves.
+<sup>14</sup> And <sup>b</sup>flight shall perish from the swift; and the strong shall not strengthen his force; neither shall the mighty deliver <sup>c</sup>himself;
+<sup>15</sup> neither shall he stand that handleth the bow; and he that is swift of foot shall not deliver _himself_; neither shall he that rideth the horse deliver <sup>d</sup>himself;
+<sup>16</sup> and he that is courageous among the mighty shall flee away naked in that day, saith Jehovah.<br>
+
+> - <sup>a</sup> 13. Or, _I am pressed under you, as a cart is pressed that is full of sheaves_
+> - <sup>b</sup> 14. Or, _refuge shall fail the swift_
+> - <sup>c</sup> 14. Hebrew _his soul_ (or, _life_).
+> - <sup>d</sup> 15. Hebrew _his soul_ (or, _life_).
 
 ## Chapter 3
 
 <sup>1</sup> Hear this word that Jehovah hath spoken against you, O children of Israel, against the whole family which I brought up out of the land of Egypt, saying,
 <sup>2</sup> You only have I known of all the families of the earth: therefore I will visit upon you all your iniquities.
-<sup>3</sup> Shall two walk together, exept they have agreed?
+<sup>3</sup> Shall two walk together, except they have <sup>a</sup>agreed?
 <sup>4</sup> Will a lion roar in the forest, when he hath no prey? will a young lion cry out of his den, if he have taken nothing?
-<sup>5</sup> Can a bird fall in a snare upon the earth, where no gin is set for him? shall a snare spring up from the ground, and have taken nothing at all?
+<sup>5</sup> Can a bird fall in a snare upon the earth, where no gin is _set_ for him? shall a snare spring up from the ground, and have taken nothing at all?
 <sup>6</sup> Shall the trumpet be blown in a city, and the people not be afraid? shall evil befall a city, and Jehovah hath not done it?
 <sup>7</sup> Surely the Lord Jehovah will do nothing, except he reveal his secret unto his servants the prophets.
 <sup>8</sup> The lion hath roared; who will not fear? The Lord Jehovah hath spoken; who can but prophesy?
-<sup>9</sup> Publish ye in the palaces at Ashdod, and in the palaces in the land of Egypt, and say, Assemble yourselves upon the mountains of Samaria, and behold what great tumults are therein, and what oppressions in the midst thereof.
+
+<sup>9</sup> Publish ye <sup>b</sup>in the palaces at Ashdod, and <sup>c</sup>in the palaces in the land of Egypt, and say, Assemble yourselves upon the mountains of Samaria, and behold what great tumults are therein, and what oppressions in the midst thereof.
 <sup>10</sup> For they know not to do right, saith Jehovah, who store up violence and robbery in their palaces.
-<sup>11</sup> Therefore thus saith the Lord Jehovah: An adversary there shall be, even round about the land; and he shall bring down thy strength from thee, and thy palaces shall be plundered.
-<sup>12</sup> Thus saith Jehovah: As the shepherd rescueth out of the mouth of the lion two legs, or a piece of an ear, so shall the children of Israel be rescued that sit in Samaria in the corner of a couch, and on the silken cushions of a bed.
+<sup>11</sup> Therefore thus saith the Lord Jehovah: An adversary _there shall be_, even round about the land; and he shall bring down thy strength from thee, and thy palaces shall be plundered.
+<sup>12</sup> Thus saith Jehovah: As the shepherd rescueth out of the mouth of the lion two legs, or a piece of an ear, so shall the children of Israel be rescued that sit in Samaria in the corner of a couch, and <sup>d</sup>on the silken cushions of a bed.
+
 <sup>13</sup> Hear ye, and testify against the house of Jacob, saith the Lord Jehovah, the God of hosts.
 <sup>14</sup> For in the day that I shall visit the transgressions of Israel upon him, I will also visit the altars of Beth-el; and the horns of the altar shall be cut off, and fall to the ground.
-<sup>15</sup> And I will smite the winter-house with the summer-house; and the houses of ivory shall perish, and the great houses shall have an end, saith Jehovah.
+<sup>15</sup> And I will smite the winter-house with the summer-house; and the houses of ivory shall perish, and <sup>e</sup>the great houses shall have an end, saith Jehovah.
+
+> - <sup>a</sup> 3. Or, _made an appointment_
+> - <sup>b</sup> 9. Or, _upon_
+> - <sup>c</sup> 9. Or, _upon_
+> - <sup>d</sup> 12. According to some manuscripts, _in Damascus on a bed_.
+> - <sup>e</sup> 15. Or, _many houses_
 
 ## Chapter 4
 
 <sup>1</sup> Hear this word, ye kine of Bashan, that are in the mountain of Samaria, that oppress the poor, that crush the needy, that say unto their lords, Bring, and let us drink.
 <sup>2</sup> The Lord Jehovah hath sworn by his holiness, that, lo, the days shall come upon you, that they shall take you away with hooks, and your residue with fish-hooks.
-<sup>3</sup> And ye shall go out at the breaches, every one straight before her; and ye shall cast yourselves into Harmon, saith Jehovah.
-<sup>4</sup> Come to Beth-el, and transgress; to Gilgal, and multiply transgression; and bring your sacrifices every morning, and your tithes every three days;
-<sup>5</sup> and offer a sacrifice of thanksgiving of that which is leavened, and proclaim freewill-offerings and publish them: for this pleaseth you, O ye children of Israel, saith the Lord Jehovah.
+<sup>3</sup> And ye shall go out at the breaches, every one straight before her; <sup>a</sup>and ye shall cast _yourselves_ into Harmon, saith Jehovah.
+
+<sup>4</sup> Come to Beth-el, and transgress; to Gilgal, _and_ multiply transgression; and bring your sacrifices every morning, _and_ your tithes every three days;
+<sup>5</sup> and <sup>b</sup>offer a sacrifice of thanksgiving of that which is leavened, and proclaim freewill-offerings and publish them: for this pleaseth you, O ye children of Israel, saith the Lord Jehovah.
+
 <sup>6</sup> And I also have given you cleanness of teeth in all your cities, and want of bread in all your places; yet have ye not returned unto me, saith Jehovah.
 <sup>7</sup> And I also have withholden the rain from you, when there were yet three months to the harvest; and I caused it to rain upon one city, and caused it not to rain upon another city: one piece was rained upon, and the piece whereupon it rained not withered.
 <sup>8</sup> So two or three cities wandered unto one city to drink water, and were not satisfied: yet have ye not returned unto me, saith Jehovah.
 <sup>9</sup> I have smitten you with blasting and mildew: the multitude of your gardens and your vineyards and your fig-trees and your olive-trees hath the palmer-worm devoured: yet have ye not returned unto me, saith Jehovah.
-<sup>10</sup> I have sent among you the pestilence after the manner of Egypt: your young men have I slain with the sword, and have carried away your horses; and I have made the stench of your camp to come up even into your nostrils: yet have ye not returned unto me, saith Jehovah.
-<sup>11</sup> I have overthrown cities among you, as when God overthrew Sodom and Gomorrah, and ye were as a brand plucked out of the burning: yet have ye not returned unto me, saith Jehovah.
-<sup>12</sup> Therefore thus will I do unto thee, O Israel; and because I will do this unto thee, prepare to meet thy God, O Israel.
+<sup>10</sup> I have sent among you the pestilence after the manner of Egypt: your young men have I slain with the sword, <sup>c</sup>and have carried away your horses; and I have made the stench of your camp to come up even into your nostrils: yet have ye not returned unto me, saith Jehovah.
+<sup>11</sup> I have overthrown _cities_ among you, as when God overthrew Sodom and Gomorrah, and ye were as a brand plucked out of the burning: yet have ye not returned unto me, saith Jehovah.
+
+<sup>12</sup> Therefore thus will I do unto thee, O Israel; _and_ because I will do this unto thee, prepare to meet thy God, O Israel.
 <sup>13</sup> For, lo, he that formeth the mountains, and createth the wind, and declareth unto man what is his thought; that maketh the morning darkness, and treadeth upon the high places of the earth—Jehovah, the God of hosts, is his name.
+
+> - <sup>a</sup> 3. The text is obscure.
+> - <sup>b</sup> 5. Hebrew _offer by burning_.
+> - <sup>c</sup> 10. Hebrew _with the captivity of your horses_.
 
 ## Chapter 5
 
 <sup>1</sup> Hear ye this word which I take up for a lamentation over you, O house of Israel.
-<sup>2</sup> The virgin of Israel is fallen; she shall no more rise: she is cast down upon her land; there is none to raise her up.
+<sup>2</sup> The virgin of Israel is fallen; she shall no more rise: she <sup>a</sup>is cast down upon her land; there is none to raise her up.
 <sup>3</sup> For thus saith the Lord Jehovah: The city that went forth a thousand shall have a hundred left, and that which went forth a hundred shall have ten left, to the house of Israel.
+
 <sup>4</sup> For thus saith Jehovah unto the house of Israel, Seek ye me, and ye shall live;
-<sup>5</sup> but seek not Beth-el, nor enter into Gilgal, and pass not to Beer-sheba: for Gilgal shall surely go into captivity, and Beth-el shall come to nought.
+<sup>5</sup> but seek not Beth-el, nor enter into Gilgal, and pass not to Beer-sheba: for Gilgal shall surely go into captivity, and Beth-el shall <sup>b</sup>come to nought.
 <sup>6</sup> Seek Jehovah, and ye shall live; lest he break out like fire in the house of Joseph, and it devour, and there be none to quench it in Beth-el.
 <sup>7</sup> Ye who turn justice to wormwood, and cast down righteousness to the earth,
-<sup>8</sup> seek him that maketh the Pleiades and Orion, and turneth the shadow of death into the morning, and maketh the day dark with night; that calleth for the waters of the sea, and poureth them out upon the face of the earth (Jehovah is his name);
-<sup>9</sup> that bringeth sudden destruction upon the strong, so that destruction cometh upon the fortress.
+<sup>8</sup> _seek him_ that maketh the Pleiades and Orion, and turneth <sup>c</sup>the shadow of death into the morning, and maketh the day dark with night; that calleth for the waters of the sea, and poureth them out upon the face of the earth (Jehovah is his name);
+<sup>9</sup> that <sup>d</sup>bringeth sudden destruction upon the strong, so that destruction cometh upon the fortress.
+
 <sup>10</sup> They hate him that reproveth in the gate, and they abhor him that speaketh uprightly.
 <sup>11</sup> Forasmuch therefore as ye trample upon the poor, and take exactions from him of wheat: ye have built houses of hewn stone, but ye shall not dwell in them; ye have planted pleasant vineyards, but ye shall not drink the wine thereof.
-<sup>12</sup> For I know how manifold are your transgressions, and how mighty are your sins—ye that afflict the just, that take a bribe, and that turn aside the needy in the gate from their right.
+<sup>12</sup> For I know how manifold are your transgressions, and how mighty are your sins—ye that afflict the just, that take a bribe, and that turn aside the needy in the gate _from their right_.
 <sup>13</sup> Therefore he that is prudent shall keep silence in such a time; for it is an evil time.
+
 <sup>14</sup> Seek good, and not evil, that ye may live; and so Jehovah, the God of hosts, will be with you, as ye say.
 <sup>15</sup> Hate the evil, and love the good, and establish justice in the gate: it may be that Jehovah, the God of hosts, will be gracious unto the remnant of Joseph.
-<sup>16</sup> Therefore thus saith Jehovah, the God of hosts, the Lord: Wailing shall be in all the broad ways; and they shall say in all the streets, Alas! Alas! and they shall call the husbandman to mourning, and such as are skilful in lamentation to wailing.
+
+<sup>16</sup> Therefore thus saith Jehovah, the God of hosts, the Lord: Wailing shall be in all the broad ways; and they shall say in all the streets, Alas! alas! and they shall call the husbandman to mourning, <sup>e</sup>and such as are skilful in lamentation to wailing.
 <sup>17</sup> And in all vineyards shall be wailing; for I will pass through the midst of thee, saith Jehovah.
+
 <sup>18</sup> Woe unto you that desire the day of Jehovah! Wherefore would ye have the day of Jehovah? It is darkness, and not light.
-<sup>19</sup> As if a man did flee from a lion, and a bear met him; or went into the house and leaned his hand on the wall, and a serpent bit him.
+<sup>19</sup> As if a man did flee from a lion, and a bear met him; <sup>f</sup>or went into the house and leaned his hand on the wall, and a serpent bit him.
 <sup>20</sup> Shall not the day of Jehovah be darkness, and not light? even very dark, and no brightness in it?
-<sup>21</sup> I hate, I despise your feasts, and I will take no delight in your solemn assemblies.
-<sup>22</sup> Yea, though ye offer me your burnt-offerings and meal-offerings, I will not accept them; neither will I regard the peace-offerings of your fat beasts.
+
+<sup>21</sup> I hate, I despise your feasts, and I <sup>g</sup>will take no delight in your solemn assemblies.
+<sup>22</sup> Yea, though ye offer me <sup>h</sup>your burnt-offerings and meal-offerings, I will not accept them; neither will I regard the <sup>i</sup>peace-offerings of your fat beasts.
 <sup>23</sup> Take thou away from me the noise of thy songs; for I will not hear the melody of thy viols.
-<sup>24</sup> But let justice roll down as waters, and righteousness as a mighty stream.
-<sup>25</sup> Did ye bring unto me sacrifices and offerings in the wilderness forty years, O house of Israel?
-<sup>26</sup> Yea, ye have borne the tabernacle of your king and the shrine of your images, the star of your god, which ye made to yourselves.
+<sup>24</sup> But let justice roll down as waters, and righteousness as a <sup>j</sup>mighty stream.
+
+<sup>25</sup> Did ye bring unto me sacrifices and <sup>k</sup>offerings in the wilderness forty years, O house of Israel?
+<sup>26</sup> Yea, ye <sup>l</sup>have borne the tabernacle of your king and the shrine of your images, the star of your god, which ye made to yourselves.
 <sup>27</sup> Therefore will I cause you to go into captivity beyond Damascus, saith Jehovah, whose name is the God of hosts.
+
+> - <sup>a</sup> 2. Or, _lieth forsaken_
+> - <sup>b</sup> 5. Or, _become vanity_ (Hebrew _Aven_)
+> - <sup>c</sup> 8. Or, _deep darkness_
+> - <sup>d</sup> 9. Or, _causeth destruction to flash forth_
+> - <sup>e</sup> 16. Hebrew _and_ proclaim _wailing to such as are skilful in lamentation_.
+> - <sup>f</sup> 19. Or, _and_
+> - <sup>g</sup> 21. Hebrew _will not smell_ a savor.
+> - <sup>h</sup> 22. Or, _burnt-offerings with your meal-offerings_
+> - <sup>i</sup> 22. Or, _thank-offerings_
+> - <sup>j</sup> 24. Or, _ever-flowing_
+> - <sup>k</sup> 25. Or, _meal-offerings_
+> - <sup>l</sup> 26. Or, _shall take up . . . And I will cause etc._
 
 ## Chapter 6
 
 <sup>1</sup> Woe to them that are at ease in Zion, and to them that are secure in the mountain of Samaria, the notable men of the chief of the nations, to whom the house of Israel come!
 <sup>2</sup> Pass ye unto Calneh, and see; and from thence go ye to Hamath the great; then go down to Gath of the Philistines: are they better than these kingdoms? or is their border greater than your border?
-<sup>3</sup> —ye that put far away the evil day, and cause the seat of violence to come near;
+<sup>3</sup> —ye that put far away the evil day, and cause the <sup>a</sup>seat of violence to come near;
 <sup>4</sup> that lie upon beds of ivory, and stretch themselves upon their couches, and eat the lambs out of the flock, and the calves out of the midst of the stall;
-<sup>5</sup> that sing idle songs to the sound of the viol; that invent for themselves instruments of music, like David;
-<sup>6</sup> that drink wine in bowls, and anoint themselves with the chief oils; but they are not grieved for the affliction of Joseph.
+<sup>5</sup> that sing idle songs to the sound of the viol; that invent for themselves instruments of music, <sup>b</sup>like David;
+<sup>6</sup> that drink <sup>c</sup>wine in bowls, and anoint themselves with the chief oils; but they are not grieved for the affliction of Joseph.
+
 <sup>7</sup> Therefore shall they now go captive with the first that go captive; and the revelry of them that stretched themselves shall pass away.
-<sup>8</sup> The Lord Jehovah hath sworn by himself, saith Jehovah, the God of hosts: I abhor the excellency of Jacob, and hate his palaces; therefore will I deliver up the city with all that is therein.
+<sup>8</sup> The Lord Jehovah hath sworn by himself, saith Jehovah, the God of hosts: I abhor the <sup>d</sup>excellency of Jacob, and hate his palaces; therefore will I deliver up the city with all that is therein.
 <sup>9</sup> And it shall come to pass, if there remain ten men in one house, that they shall die.
-<sup>10</sup> And when a man’s uncle shall take him up, even he that burneth him, to bring out the bones out of the house, and shall say unto him that is in the innermost parts of the house, Is there yet any with thee? and he shall say, No; then shall he say, Hold thy peace; for we may not make mention of the name of Jehovah.
-<sup>11</sup> For, behold, Jehovah commandeth, and the great house shall be smitten with breaches, and the little house with clefts.
-<sup>12</sup> Shall horses run upon the rock? will one plow there with oxen? that ye have turned justice into gall, and the fruit of righteousness into wormwood;
+<sup>10</sup> And when a man’s <sup>e</sup>uncle shall take him up, even he that burneth him, to bring out the bones out of the house, and shall say unto him that is in the innermost parts of the house, Is there yet any with thee? and he shall say, No; then shall he say, Hold thy peace; for we may not make mention of the name of Jehovah.
+<sup>11</sup> For, behold, Jehovah commandeth, and <sup>f</sup>the great house shall be smitten with breaches, and the little house with clefts.
+
+<sup>12</sup> Shall horses run upon the rock? will one plow _there_ with oxen? that ye have turned justice into gall, and the fruit of righteousness into wormwood;
 <sup>13</sup> ye that rejoice in a thing of nought, that say, Have we not taken to us horns by our own strength?
-<sup>14</sup> For, behold, I will raise up against you a nation, O house of Israel, saith Jehovah, the God of hosts; and they shall afflict you from the entrance of Hamath unto the brook of the Arabah.
+<sup>14</sup> For, behold, I will raise up against you a nation, O house of Israel, saith Jehovah, the God of hosts; and they shall afflict you from the entrance of Hamath unto the brook of the Arabah.<br>
+
+> - <sup>a</sup> 3. Or, _sitting_
+> - <sup>b</sup> 5. Or, _like David’s_
+> - <sup>c</sup> 6. Hebrew _in bowls of wine_.
+> - <sup>d</sup> 8. Or, _pride_
+> - <sup>e</sup> 10. Or, _kinsman_
+> - <sup>f</sup> 11. Or, _he will smite the great house_
 
 ## Chapter 7
 
 <sup>1</sup> Thus the Lord Jehovah showed me: and, behold, he formed locusts in the beginning of the shooting up of the latter growth; and, lo, it was the latter growth after the king’s mowings.
 <sup>2</sup> And it came to pass that, when they made an end of eating the grass of the land, then I said, O Lord Jehovah, forgive, I beseech thee: how shall Jacob stand? for he is small.
 <sup>3</sup> Jehovah repented concerning this: It shall not be, saith Jehovah.
-<sup>4</sup> Thus the Lord Jehovah showed me: and, behold, the Lord Jehovah called to content by fire; and it devoured the great deep, and would have eaten up the land.
+
+<sup>4</sup> Thus the Lord Jehovah showed me: and, behold, the Lord Jehovah called to contend by fire; and it devoured the great deep, and would have eaten up the <sup>a</sup>land.
 <sup>5</sup> Then said I, O Lord Jehovah, cease, I beseech thee: how shall Jacob stand? for he is small.
-<sup>6</sup> Jehovah repented concerning this: this also shall not be, saith the Lord Jehovah.
-<sup>7</sup> Thus he showed me: and, behold, the Lord stood beside a wall made by a plumb-line, with a plumb-line in his hand.
+<sup>6</sup> Jehovah repented concerning this: This also shall not be, saith the Lord Jehovah.
+
+<sup>7</sup> Thus he showed me: and, behold, the Lord stood <sup>b</sup>beside a wall made by a plumb-line, with a plumb-line in his hand.
 <sup>8</sup> And Jehovah said unto me, Amos, what seest thou? And I said, A plumb-line. Then said the Lord, Behold, I will set a plumb-line in the midst of my people Israel; I will not again pass by them any more;
 <sup>9</sup> and the high places of Isaac shall be desolate, and the sanctuaries of Israel shall be laid waste; and I will rise against the house of Jeroboam with the sword.
+
 <sup>10</sup> Then Amaziah the priest of Beth-el sent to Jeroboam king of Israel, saying, Amos hath conspired against thee in the midst of the house of Israel: the land is not able to bear all his words.
 <sup>11</sup> For thus Amos saith, Jeroboam shall die by the sword, and Israel shall surely be led away captive out of his land.
 <sup>12</sup> Also Amaziah said unto Amos, O thou seer, go, flee thou away into the land of Judah, and there eat bread, and prophesy there:
 <sup>13</sup> but prophesy not again any more at Beth-el; for it is the king’s sanctuary, and it is a royal house.
-<sup>14</sup> Then answered Amos, and said to Amaziah, I was no prophet, neither was I a prophet’s son; but I was a herdsman, and a dresser of sycomore-trees:
+
+<sup>14</sup> Then answered Amos, and said to Amaziah, I <sup>c</sup>was no prophet, neither <sup>d</sup>was I <sup>e</sup>a prophet’s son; but I <sup>f</sup>was a herdsman, and a dresser of sycomore-trees:
 <sup>15</sup> and Jehovah took me from following the flock, and Jehovah said unto me, Go, prophesy unto my people Israel.
-<sup>16</sup> Now therefore hear thou the word of Jehovah: Thou sayest, Prophesy not against Israel, and drop not thy word against the house of Isaac;
+<sup>16</sup> Now therefore hear thou the word of Jehovah: Thou sayest, Prophesy not against Israel, and drop not _thy word_ against the house of Isaac;
 <sup>17</sup> therefore thus saith Jehovah: Thy wife shall be a harlot in the city, and thy sons and thy daughters shall fall by the sword, and thy land shall be divided by line; and thou thyself shalt die in a land that is unclean, and Israel shall surely be led away captive out of his land.
+
+> - <sup>a</sup> 4. Hebrew _portion_.
+> - <sup>b</sup> 7. Or, _upon_
+> - <sup>c</sup> 14. Or, _am_
+> - <sup>d</sup> 14. Or, _am_
+> - <sup>e</sup> 14. Or, _one of the sons of the prophets_. See 1 Kin. 20:35.
+> - <sup>f</sup> 14. Or, _am_
 
 ## Chapter 8
 
 <sup>1</sup> Thus the Lord Jehovah showed me: and, behold, a basket of summer fruit.
 <sup>2</sup> And he said, Amos, what seest thou? And I said, A basket of summer fruit. Then said Jehovah unto me, The end is come upon my people Israel; I will not again pass by them any more.
-<sup>3</sup> And the songs of the temple shall be wailings in that day, saith the Lord Jehovah: the dead bodies shall be many: in every place shall they cast them forth with silence.
+<sup>3</sup> And the songs of the <sup>a</sup>temple shall be wailings in that day, saith the Lord Jehovah: the dead bodies shall be many; in every place <sup>b</sup>shall they cast them forth with silence.
+
 <sup>4</sup> Hear this, O ye that would swallow up the needy, and cause the poor of the land to fail,
-<sup>5</sup> saying, When will the new moon be gone, that we may sell grain? and the sabbath, that we may set forth wheat, making the ephah small, and the shekel great, and dealing falsely with balances of deceit;
+<sup>5</sup> saying, When will the new moon be gone, that we may sell grain? and the sabbath, that we may <sup>c</sup>set forth wheat, making the ephah small, and the shekel great, and dealing falsely with balances of deceit;
 <sup>6</sup> that we may buy the poor for silver, and the needy for a pair of shoes, and sell the refuse of the wheat?
 <sup>7</sup> Jehovah hath sworn by the excellency of Jacob, Surely I will never forget any of their works.
 <sup>8</sup> Shall not the land tremble for this, and every one mourn that dwelleth therein? yea, it shall rise up wholly like the River; and it shall be troubled and sink again, like the River of Egypt.
 <sup>9</sup> And it shall come to pass in that day, saith the Lord Jehovah, that I will cause the sun to go down at noon, and I will darken the earth in the clear day.
 <sup>10</sup> And I will turn your feasts into mourning, and all your songs into lamentation; and I will bring sackcloth upon all loins, and baldness upon every head; and I will make it as the mourning for an only son, and the end thereof as a bitter day.
+
 <sup>11</sup> Behold, the days come, saith the Lord Jehovah, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of Jehovah.
 <sup>12</sup> And they shall wander from sea to sea, and from the north even to the east; they shall run to and fro to seek the word of Jehovah, and shall not find it.
 <sup>13</sup> In that day shall the fair virgins and the young men faint for thirst.
-<sup>14</sup> They that swear by the sin of Samaria, and say, As thy god, O Dan, liveth; and, As the way of Beer-sheba liveth; they shall fall, and never rise up again.
+<sup>14</sup> They that swear by the sin of Samaria, and say, As thy god, O Dan, liveth; and, As the <sup>d</sup>way of Beer-sheba liveth; they shall fall, and never rise up again.
+
+> - <sup>a</sup> 3. Or, _palace_
+> - <sup>b</sup> 3. Or, _have they cast them forth: be silent!_
+> - <sup>c</sup> 5. Hebrew _open_.
+> - <sup>d</sup> 14. Or, _manner_
 
 ## Chapter 9
 
-<sup>1</sup> I saw the Lord standing beside the altar: and he said, Smite the capitals, that the thresholds may shake; and break them in pieces on the head of all of them; and I will slay the last of them with the sword: there shall not one of them flee away, and there shall not one of them escape.
+<sup>1</sup> I saw the Lord standing <sup>a</sup>beside the altar: and he said, Smite the capitals, that the thresholds may shake; and break them in pieces on the head of all of them; and I will slay the last of them with the sword: <sup>b</sup>there shall not one of them flee away, and there shall not one of them escape.
 <sup>2</sup> Though they dig into Sheol, thence shall my hand take them; and though they climb up to heaven, thence will I bring them down.
 <sup>3</sup> And though they hide themselves in the top of Carmel, I will search and take them out thence; and though they be hid from my sight in the bottom of the sea, thence will I command the serpent, and it shall bite them.
 <sup>4</sup> And though they go into captivity before their enemies, thence will I command the sword, and it shall slay them: and I will set mine eyes upon them for evil, and not for good.
-<sup>5</sup> For the Lord, Jehovah of hosts, is he that toucheth the land and it melteth, and all that dwell therein shall mourn; and it shall rise up wholly like the River, and shall sink again, like the River of Egypt;
-<sup>6</sup> it is he that buildeth his chambers in the heavens, and hath founded his vault upon the earth; he that calleth for the waters of the sea, and poureth them out upon the face of the earth; Jehovah is his name.
+
+<sup>5</sup> For the Lord, Jehovah of hosts, _is_ he that toucheth the land and it melteth, and all that dwell therein shall mourn; and it shall rise up wholly like the River, and shall sink again, like the River of Egypt;
+<sup>6</sup> _it is_ he that buildeth his chambers in the heavens, and hath founded his vault upon the earth; he that calleth for the waters of the sea, and poureth them out upon the face of the earth; Jehovah is his name.
+
 <sup>7</sup> Are ye not as the children of the Ethiopians unto me, O children of Israel? saith Jehovah. Have not I brought up Israel out of the land of Egypt, and the Philistines from Caphtor, and the Syrians from Kir?
 <sup>8</sup> Behold, the eyes of the Lord Jehovah are upon the sinful kingdom, and I will destroy it from off the face of the earth; save that I will not utterly destroy the house of Jacob, saith Jehovah.
-<sup>9</sup> For, lo, I will command, and I will sift the house of Israel among all the nations, like as grain is sifted in a sieve, yet shall not the least kernel fall upon the earth.
+<sup>9</sup> For, lo, I will command, and I will <sup>c</sup>sift the house of Israel among all the nations, like as _grain_ is sifted in a sieve, yet shall not the least kernel fall upon the earth.
 <sup>10</sup> All the sinners of my people shall die by the sword, who say, The evil shall not overtake nor meet us.
+
 <sup>11</sup> In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof; and I will raise up its ruins, and I will build it as in the days of old;
-<sup>12</sup> that they may possess the remnant of Edom, and all the nations that are called by my name, saith Jehovah that doeth this.
+<sup>12</sup> that they may possess the remnant of Edom, and all the nations that <sup>d</sup>are called by my name, saith Jehovah that doeth this.
 <sup>13</sup> Behold, the days come, saith Jehovah, that the plowman shall overtake the reaper, and the treader of grapes him that soweth seed; and the mountains shall drop sweet wine, and all the hills shall melt.
-<sup>14</sup> And I will bring back the captivity of my people Israel, and they shall build the waste cities, and inhabit them; and they shall plant vineyards, and drink the wine thereof; they shall also make gardens, and eat the fruit of them.
+<sup>14</sup> And I will <sup>e</sup>bring back the captivity of my people Israel, and they shall build the waste cities, and inhabit them; and they shall plant vineyards, and drink the wine thereof; they shall also make gardens, and eat the fruit of them.
 <sup>15</sup> And I will plant them upon their land, and they shall no more be plucked up out of their land which I have given them, saith Jehovah thy God.
+
+> - <sup>a</sup> 1. Or, _upon_
+> - <sup>b</sup> 1. Or, _he that fleeth of them shall not flee away, and he that escapeth of them shall not be delivered_
+> - <sup>c</sup> 9. Hebrew _cause to move to and fro_.
+> - <sup>d</sup> 12. Or, _were_
+> - <sup>e</sup> 14. Or, _return to_

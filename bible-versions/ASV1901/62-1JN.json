@@ -3,16 +3,33 @@
     "book": "1JN",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we beheld, and our hands handled, concerning the Word of life"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "That which was from the beginning, that which we have heard, that which we have seen with our eyes, that which we beheld, and our hands handled, concerning the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "word", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Acts 5:20" },
+            "."
+          ]
+        }
+      },
+      "Word of life"
+    ]
   },
   {
     "book": "1JN",
     "chapter": 1,
     "verse": 2,
-    "content": "(and the life was manifested, and we have seen, and bear witness, and declare unto you the life, the eternal life, which was with the Father, and was manifested unto us);"
+    "content": [
+      "(and the life was manifested, and we have seen, and bear witness, and declare unto you the life, the eternal ",
+      { "text": "life", "marks": ["i"] },
+      ", which was with the Father, and was manifested unto us);"
+    ]
   },
   {
     "book": "1JN",
@@ -24,13 +41,29 @@
     "book": "1JN",
     "chapter": 1,
     "verse": 4,
-    "content": "and these things we write, that our joy may be made full."
+    "content": [
+      {
+        "text": "and these things we write, that ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            { "text": "your", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "our joy may be made full.", "break": true }
+    ]
   },
   {
     "book": "1JN",
     "chapter": 1,
     "verse": 5,
-    "content": "And this is the message which we have heard from him and announce unto you, that God is light, and in him is no darkness at all."
+    "content": {
+      "paragraph": true,
+      "text": "And this is the message which we have heard from him and announce unto you, that God is light, and in him is no darkness at all."
+    }
   },
   {
     "book": "1JN",
@@ -66,10 +99,27 @@
     "book": "1JN",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "My little children, these things write I unto you that ye may not sin. And if any man sin, we have an Advocate with the Father, Jesus Christ the righteous:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "My little children, these things write I unto you that ye may not sin. And if any man sin, we have an ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Comforter", "marks": ["i"] },
+            ". ",
+            { "bibleLink": "John 14:16", "content": "Jn. 14:16" },
+            ". Or, ",
+            { "text": "Helper", "marks": ["i"] },
+            ". Greek ",
+            { "text": "Paraclete", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Advocate with the Father, Jesus Christ the righteous:"
+    ]
   },
   {
     "book": "1JN",
@@ -105,7 +155,10 @@
     "book": "1JN",
     "chapter": 2,
     "verse": 7,
-    "content": "Beloved, no new commandment write I unto you, but an old commandment which ye had from the beginning: the old commandment is the word which ye heard."
+    "content": {
+      "paragraph": true,
+      "text": "Beloved, no new commandment write I unto you, but an old commandment which ye had from the beginning: the old commandment is the word which ye heard."
+    }
   },
   {
     "book": "1JN",
@@ -135,67 +188,141 @@
     "book": "1JN",
     "chapter": 2,
     "verse": 12,
-    "content": "I write unto you, my little children, because your sins are forgiven you for his name’s sake."
+    "content": [
+      { "paragraph": true, "text": "I write unto you, " },
+      { "text": "my", "marks": ["i"] },
+      " little children, because your sins are forgiven you for his name’s sake."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 13,
-    "content": "I write unto you, fathers, because ye know him who is from the beginning. I write unto you, young men, because ye have overcome the evil one. I have written unto you, little children, because ye know the Father."
+    "content": [
+      {
+        "text": "I write unto you, fathers, because ye know him who is from the beginning. I write unto you, young men, because ye have overcome the evil one. ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "I wrote", "marks": ["i"] }]
+        }
+      },
+      "I have written unto you, little children, because ye know the Father."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 14,
-    "content": "I have written unto you, fathers, because ye know him who is from the beginning. I have written unto you, young men, because ye are strong, and the word of God abideth in you, and ye have overcome the evil one."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "I wrote", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "I have written unto you, fathers, because ye know him who is from the beginning. ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "I wrote", "marks": ["i"] }]
+        }
+      },
+      "I have written unto you, young men, because ye are strong, and the word of God abideth in you, and ye have overcome the evil one."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 15,
-    "content": "Love not the world, neither the things that are in the world. If any man love the world, the love ot the Father is not in him."
+    "content": "Love not the world, neither the things that are in the world. If any man love the world, the love of the Father is not in him."
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 16,
-    "content": "For all that is in the world, the lust of the flesh and the lust of the eyes and the vain glory of life, is not of the Father, but is of the world."
+    "content": "For all that is in the world, the lust of the flesh and the lust of the eyes and the vainglory of life, is not of the Father, but is of the world."
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 17,
-    "content": "And the world passeth away, and the lust therof: but he that doeth the will of God abideth for ever."
+    "content": {
+      "text": "And the world passeth away, and the lust thereof: but he that doeth the will of God abideth for ever.",
+      "break": true
+    }
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 18,
-    "content": "Little children, it is the last hour: and as ye heard that antichrist cometh, even now have there arisen many antichrists; whereby we know that it is the last hour."
+    "content": {
+      "paragraph": true,
+      "text": "Little children, it is the last hour: and as ye heard that antichrist cometh, even now have there arisen many antichrists; whereby we know that it is the last hour."
+    }
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 19,
-    "content": "They went out from us, but they were not of us; for if they had been of us, they would have continued with us: but they went out, that they might be made manifest that they all are not of us."
+    "content": [
+      "They went out from us, but they were not of us; for if they had been of us, they would have continued with us: but ",
+      { "text": "they went out", "marks": ["i"] },
+      {
+        "text": ", that they might be made manifest ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "that not all are of us", "marks": ["i"] }
+          ]
+        }
+      },
+      "that they all are not of us."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 20,
-    "content": "And ye have an anointing from the Holy One, and ye know all the things."
+    "content": [
+      {
+        "text": "And ye have an anointing from the Holy One, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some very ancient authorities read ",
+            { "text": "and ye all know", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "and ye know all things."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 21,
-    "content": "I have not written unto you because ye know not the truth, but because ye know it, and because no lie is of the truth."
+    "content": [
+      {
+        "text": "I have not written unto you because ye know not the truth, but because ye know it, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "that", "marks": ["i"] }]
+        }
+      },
+      "because no lie is of the truth."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 22,
-    "content": "Who is the liar but he that denieth that Jesus is the Christ? This is the antichrist, even he that denieth the Father and the Son."
+    "content": [
+      "Who is the liar but he that denieth that Jesus is the Christ? This is the antichrist, ",
+      { "text": "even", "marks": ["i"] },
+      " he that denieth the Father and the Son."
+    ]
   },
   {
     "book": "1JN",
@@ -213,7 +340,22 @@
     "book": "1JN",
     "chapter": 2,
     "verse": 25,
-    "content": "And this is the promise which he promised us, even the life eternal."
+    "content": [
+      {
+        "text": "And this is the promise which he promised ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "you", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "us, ",
+      { "text": "even", "marks": ["i"] },
+      " the life eternal."
+    ]
   },
   {
     "book": "1JN",
@@ -225,40 +367,109 @@
     "book": "1JN",
     "chapter": 2,
     "verse": 27,
-    "content": "And as for you, the anointing which ye received of him abideth in you, and ye need not that any one teach you; but as his anointing teacheth you; concerning all things, and is true, and is no lie, and even as it taught you, ye abide in him."
+    "content": [
+      {
+        "text": "And as for you, the anointing which ye received of him abideth in you, and ye need not that any one teach you; but as his anointing teacheth you concerning all things, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "so it is true and is no lie; and even as etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "and is true, and is no lie, and even as it taught you, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "abide ye", "marks": ["i"] }]
+        }
+      },
+      "ye abide in him."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 28,
-    "content": "And now, my little children, abide in him; that, if he shall be manifested, we may have boldness, and not be ashamed before him at his coming."
+    "content": [
+      "And now, ",
+      { "text": "my", "marks": ["i"] },
+      {
+        "text": " little children, abide in him; that, if he shall be manifested, we may have boldness, and not be ashamed ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "from him", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "before him at his ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "presence", "marks": ["i"] }, "."]
+        }
+      },
+      "coming."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 2,
     "verse": 29,
-    "content": "If ye know that he is righteous, ye know that every one also that doeth righteousness is begotten of him."
+    "content": [
+      {
+        "text": "If ye know that he is righteous, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "know ye", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "ye know that every one also that doeth righteousness is begotten of him.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "1JN",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Behold what manner of love the Father hath bestowed upon us, that we should be called children of God; and such we are. For this cause the world knoweth us not, because it knew him not."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Behold what manner of love the Father hath bestowed upon us, that we should be called children of God; and "
+      },
+      { "text": "such", "marks": ["i"] },
+      " we are. For this cause the world knoweth us not, because it knew him not."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 3,
     "verse": 2,
-    "content": "Beloved, now are we children of God, and it is not yet made manifest what we shall be. We know that, if he shall be manifested, we shall be like him; for we shall see him even as he is."
+    "content": [
+      {
+        "text": "Beloved, now are we children of God, and it is not yet made manifest what we shall be. We know that, if ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "it", "marks": ["i"] }]
+        }
+      },
+      "he shall be manifested, we shall be like him; for we shall see him even as he is."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 3,
     "verse": 3,
-    "content": "And every one that hath this hope set on him purifieth himself, even as he is pure."
+    "content": [
+      "And every one that hath this hope ",
+      { "text": "set", "marks": ["i"] },
+      " on him purifieth himself, even as he is pure."
+    ]
   },
   {
     "book": "1JN",
@@ -270,19 +481,40 @@
     "book": "1JN",
     "chapter": 3,
     "verse": 5,
-    "content": "And ye know that he was manifested to take away sins; and in him is no sin."
+    "content": [
+      {
+        "text": "And ye know that he was manifested to ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "bear sins", "marks": ["i"] }]
+        }
+      },
+      "take away sins; and in him is no sin."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 3,
     "verse": 6,
-    "content": "Whosoever abideth in him sinneth not: whosoever sinneth hath not seen him, neither knoweth him."
+    "content": [
+      {
+        "text": "Whosoever abideth in him sinneth not: whosoever sinneth hath not seen him, neither ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hath known", "marks": ["i"] }]
+        }
+      },
+      "knoweth him."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 3,
     "verse": 7,
-    "content": "My little children, let no man lead you astray: he that doeth righteousness is righteous, even as he is righteous:"
+    "content": [
+      { "text": "My", "marks": ["i"] },
+      " little children, let no man lead you astray: he that doeth righteousness is righteous, even as he is righteous:"
+    ]
   },
   {
     "book": "1JN",
@@ -318,7 +550,10 @@
     "book": "1JN",
     "chapter": 3,
     "verse": 13,
-    "content": "Marvel not, brethren, if the world hateth you."
+    "content": {
+      "paragraph": true,
+      "text": "Marvel not, brethren, if the world hateth you."
+    }
   },
   {
     "book": "1JN",
@@ -348,13 +583,44 @@
     "book": "1JN",
     "chapter": 3,
     "verse": 18,
-    "content": "My Little children, let us not love in word, neither with the tongue; but in deed and truth."
+    "content": [
+      { "text": "My", "marks": ["i"] },
+      " little children, let us not love in word, neither with the tongue; but in deed and truth."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 3,
     "verse": 19,
-    "content": "Hereby shall we know that we are of the truth, and shall assure our heart before him:"
+    "content": [
+      {
+        "text": "Hereby shall we know that we are of the truth, and shall ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "persuade", "marks": ["i"] },
+            ". Compare ",
+            { "bibleLink": "Matthew 28:14", "content": "Mt. 28:14" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "assure our heart ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "before him, whereinsoever our heart condemn us; because God etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "before him:"
+    ]
   },
   {
     "book": "1JN",
@@ -378,13 +644,29 @@
     "book": "1JN",
     "chapter": 3,
     "verse": 23,
-    "content": "And this is his commandment, that we should believe in the name of his Son Jesus Christ, and love one another, even as he gave us commandment."
+    "content": [
+      {
+        "text": "And this is his commandment, that we should ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Greek ",
+            { "text": "believe the name", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "believe in the name of his Son Jesus Christ, and love one another, even as he gave us commandment."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 3,
     "verse": 24,
-    "content": "And he that keepeth his commandments abideth in him, and he in him. And hereby we know that he abideth in us, by the Spirit which he gave us."
+    "content": {
+      "text": "And he that keepeth his commandments abideth in him, and he in him. And hereby we know that he abideth in us, by the Spirit which he gave us.",
+      "break": true
+    }
   },
   {
     "book": "1JN",
@@ -405,19 +687,42 @@
     "book": "1JN",
     "chapter": 4,
     "verse": 3,
-    "content": "and every spirit that confesseth not Jesus is not of God: and this is the spirit of the antichrist, whereof ye have heard that it cometh; and now it is in the world already."
+    "content": [
+      {
+        "text": "and every spirit that ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "annulleth Jesus", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "confesseth not Jesus is not of God: and this is the ",
+      { "text": "spirit", "marks": ["i"] },
+      " of the antichrist, whereof ye have heard that it cometh; and now it is in the world already."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 4,
     "verse": 4,
-    "content": "Ye are of God, my little children, and have overcome them: because greater is he that is in you than he that is in the world."
+    "content": [
+      "Ye are of God, ",
+      { "text": "my", "marks": ["i"] },
+      " little children, and have overcome them: because greater is he that is in you than he that is in the world."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 4,
     "verse": 5,
-    "content": "They are of the world: therefore speak they as of the world, and the world heareth them."
+    "content": [
+      "They are of the world: therefore speak they ",
+      { "text": "as", "marks": ["i"] },
+      " of the world, and the world heareth them."
+    ]
   },
   {
     "book": "1JN",
@@ -429,7 +734,10 @@
     "book": "1JN",
     "chapter": 4,
     "verse": 7,
-    "content": "Beloved, let us love one another: for love is of God; and every one that loveth is begotten of God, and knoweth God."
+    "content": {
+      "paragraph": true,
+      "text": "Beloved, let us love one another: for love is of God; and every one that loveth is begotten of God, and knoweth God."
+    }
   },
   {
     "book": "1JN",
@@ -441,13 +749,26 @@
     "book": "1JN",
     "chapter": 4,
     "verse": 9,
-    "content": "Herein was the love of God manifested in us, that God hath sent his only begotten Son into the world that we might live through him."
+    "content": [
+      {
+        "text": "Herein was the love of God manifested ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in our case", "marks": ["i"] }]
+        }
+      },
+      "in us, that God hath sent his only begotten Son into the world that we might live through him."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 4,
     "verse": 10,
-    "content": "Herein is love, not that we loved God, but that he loved us, and sent his Son to be the propitiation for our sins."
+    "content": [
+      "Herein is love, not that we loved God, but that he loved us, and sent his Son ",
+      { "text": "to be", "marks": ["i"] },
+      " the propitiation for our sins."
+    ]
   },
   {
     "book": "1JN",
@@ -471,7 +792,11 @@
     "book": "1JN",
     "chapter": 4,
     "verse": 14,
-    "content": "And we have beheld and bear witness that the Father hath sent the Son to be the Saviour of the world."
+    "content": [
+      "And we have beheld and bear witness that the Father hath sent the Son ",
+      { "text": "to be", "marks": ["i"] },
+      " the Saviour of the world."
+    ]
   },
   {
     "book": "1JN",
@@ -483,7 +808,16 @@
     "book": "1JN",
     "chapter": 4,
     "verse": 16,
-    "content": "And we know and have believed the love which God hath in us. God is love; and he that abideth in love abideth in God, and God abideth in him."
+    "content": [
+      {
+        "text": "And we know and have believed the love which God hath ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in our case", "marks": ["i"] }]
+        }
+      },
+      "in us. God is love; and he that abideth in love abideth in God, and God abideth in him."
+    ]
   },
   {
     "book": "1JN",
@@ -507,7 +841,22 @@
     "book": "1JN",
     "chapter": 4,
     "verse": 20,
-    "content": "If a man say, I love God, and hateth his brother, he is a liar: for he that loveth not his brother whom he hath seen, cannot love God whom he hath not seen."
+    "content": [
+      {
+        "text": "If a man say, I love God, and hateth his brother, he is a liar: for he that loveth not his brother whom he hath seen, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Many ancient authorities read ",
+            {
+              "text": "how can he love God whom he hath not seen?",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "cannot love God whom he hath not seen."
+    ]
   },
   {
     "book": "1JN",
@@ -540,7 +889,11 @@
     "book": "1JN",
     "chapter": 5,
     "verse": 4,
-    "content": "For whatsoever is begotten of God overcometh the world: and this is the victory that hath overcome the world, even our faith."
+    "content": [
+      "For whatsoever is begotten of God overcometh the world: and this is the victory that hath overcome the world, ",
+      { "text": "even", "marks": ["i"] },
+      " our faith."
+    ]
   },
   {
     "book": "1JN",
@@ -552,7 +905,32 @@
     "book": "1JN",
     "chapter": 5,
     "verse": 6,
-    "content": "This is he that came by water and blood, even Jesus Christ; not with the water only, but with the water and with the blood."
+    "content": [
+      "This is he that came by water and blood, ",
+      { "text": "even", "marks": ["i"] },
+      {
+        "text": " Jesus Christ; not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "in", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "with the water only, but ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "in", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "with the water and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Greek ", { "text": "in", "marks": ["i"] }, "."]
+        }
+      },
+      "with the blood."
+    ]
   },
   {
     "book": "1JN",
@@ -588,13 +966,23 @@
     "book": "1JN",
     "chapter": 5,
     "verse": 12,
-    "content": "He that hath the life; he that hath not the Son of God hath not the life."
+    "content": {
+      "text": "He that hath the Son hath the life; he that hath not the Son of God hath not the life.",
+      "break": true
+    }
   },
   {
     "book": "1JN",
     "chapter": 5,
     "verse": 13,
-    "content": "These things have I written unto you, that ye may know that ye have eternal life, even unto you that believe on the name of the Son of God."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "These things have I written unto you, that ye may know that ye have eternal life, "
+      },
+      { "text": "even", "marks": ["i"] },
+      " unto you that believe on the name of the Son of God."
+    ]
   },
   {
     "book": "1JN",
@@ -612,19 +1000,65 @@
     "book": "1JN",
     "chapter": 5,
     "verse": 16,
-    "content": "If any man see his brother sinning a sin not unto death, he shall ask, and God will give him life for them that sin not unto death. There is a sin unto death: not concerning this do I say that he should make request."
+    "content": [
+      {
+        "text": "If any man see his brother sinning a sin not unto death, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "he shall ask and shall give him life", "marks": ["i"] },
+            ", even ",
+            { "text": "to them etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "he shall ask, and ",
+      { "text": "God", "marks": ["i"] },
+      {
+        "text": " will give him life for them that sin not unto death. There is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sin", "marks": ["i"] }]
+        }
+      },
+      "a sin unto death: not concerning this do I say that he should make request."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 5,
     "verse": 17,
-    "content": "All unrighteousness is sin: and there is a sin not unto death."
+    "content": [
+      {
+        "text": "All unrighteousness is sin: and there is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sin", "marks": ["i"] }]
+        }
+      },
+      "a sin not unto death."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 5,
     "verse": 18,
-    "content": "We know that whosoever is begotten of God sinneth not; but he that was begotten of God keepeth himself, and the evil one toucheth him not."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "We know that whosoever is begotten of God sinneth not; but he that was begotten of God keepeth ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Some ancient authorities read ",
+            { "text": "him", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "himself, and the evil one toucheth him not."
+    ]
   },
   {
     "book": "1JN",
@@ -636,12 +1070,19 @@
     "book": "1JN",
     "chapter": 5,
     "verse": 20,
-    "content": "And we know that the Son of God is come, and hath given us an understanding, that we know him that is true, and we are in him that is true, even in his Son Jesus Christ. This is the true God, and eternal life."
+    "content": [
+      "And we know that the Son of God is come, and hath given us an understanding, that we know him that is true, and we are in him that is true, ",
+      { "text": "even", "marks": ["i"] },
+      " in his Son Jesus Christ. This is the true God, and eternal life."
+    ]
   },
   {
     "book": "1JN",
     "chapter": 5,
     "verse": 21,
-    "content": "My little children, guard yourselves from idols."
+    "content": [
+      { "text": "My", "marks": ["i"] },
+      " little children, guard yourselves from idols."
+    ]
   }
 ]

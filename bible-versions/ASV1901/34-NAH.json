@@ -3,22 +3,40 @@
     "book": "NAH",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "The burden of Nineveh. The book of the vision of Nahum the Elkoshite."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "oracle concerning", "marks": ["i"] }]
+        }
+      },
+      "burden of Nineveh. The book of the vision of Nahum the Elkoshite."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 2,
-    "content": "Jehovah is a jealous God and avengeth; Jehovah avengeth and is full of wrath; Jehovah taketh vengeance on his adversaries, and he reserveth wrath for his enemies."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Jehovah is a jealous God and avengeth; Jehovah avengeth and is full of wrath; Jehovah taketh vengeance on his adversaries, and he reserveth "
+      },
+      { "text": "wrath", "marks": ["i"] },
+      " for his enemies."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 3,
-    "content": "Jehovah is slow to anger, and great in power, and will by no means clear the guilty: Jehovah hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet."
+    "content": [
+      "Jehovah is slow to anger, and great in power, and will by no means clear ",
+      { "text": "the guilty", "marks": ["i"] },
+      ": Jehovah hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet."
+    ]
   },
   {
     "book": "NAH",
@@ -54,25 +72,77 @@
     "book": "NAH",
     "chapter": 1,
     "verse": 9,
-    "content": "What do ye devise against Jehovah? he will make a full end; affliction shall not rise up the second time."
+    "content": {
+      "paragraph": true,
+      "text": "What do ye devise against Jehovah? he will make a full end; affliction shall not rise up the second time."
+    }
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 10,
-    "content": "For entangled like thorns, and drunken as with their drink, they are consumed utterly as dry stubble."
+    "content": [
+      {
+        "text": "For entangled like thorns, and drunken as with their drink, they are consumed ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "as stubble fully dry", "marks": ["i"] }
+          ]
+        }
+      },
+      "utterly as dry stubble."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 11,
-    "content": "There is one gone forth out of thee, that deviseth evil against Jehovah, that counselleth wickedness."
+    "content": [
+      {
+        "text": "There is one gone forth out of thee, that deviseth evil against Jehovah, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a wicked counsellor", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "that counselleth ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "worthlessness", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "Belial", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "wickedness."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 12,
-    "content": "Thus saith Jehovah: Though they be in full strength, and likewise many, even so shall they be cut down, and he shall pass away. Though I have afflicted thee, I will afflict thee no more."
+    "content": [
+      {
+        "text": "Thus saith Jehovah: Though they be in full strength, and likewise many, even so shall they be cut down, and he shall pass away. ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "So will I afflict thee, that I shall afflict etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "Though I have afflicted thee, I will afflict thee no more."
+    ]
   },
   {
     "book": "NAH",
@@ -84,13 +154,32 @@
     "book": "NAH",
     "chapter": 1,
     "verse": 14,
-    "content": "And Jehovah hath given commandment concerning thee, that no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image; I will make thy grave; for thou art vile."
+    "content": {
+      "paragraph": true,
+      "text": "And Jehovah hath given commandment concerning thee, that no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image; I will make thy grave; for thou art vile."
+    }
   },
   {
     "book": "NAH",
     "chapter": 1,
     "verse": 15,
-    "content": "Behold, upon the mountains the feet of him that bringeth good tidings, that publisheth peace! Keep thy feasts, O Judah, perform thy vows; for the wicked one shall no more pass through thee; he is utterly cut off."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Behold, upon the mountains the feet of him that bringeth good tidings, that publisheth peace! Keep thy feasts, O Judah, perform thy vows; for ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, the man of ",
+            { "text": "worthlessness", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "Belial", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the wicked one shall no more pass through thee; he is utterly cut off."
+    ]
   },
   {
     "book": "NAH",
@@ -111,7 +200,33 @@
     "book": "NAH",
     "chapter": 2,
     "verse": 3,
-    "content": "The shield of his mighty men is made red, the valiant men are in scarlet: the chariots flash with steel in the day of his preparation, and the cypress spears are brandished."
+    "content": [
+      {
+        "text": "The shield of his mighty men is made red, the valiant men are in scarlet: the chariots ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "are with fire of steel", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "flash with steel in the day of his preparation, and the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "cypress-trees", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "cypress ",
+      { "text": "spears", "marks": ["i"] },
+      " are brandished."
+    ]
   },
   {
     "book": "NAH",
@@ -135,19 +250,83 @@
     "book": "NAH",
     "chapter": 2,
     "verse": 7,
-    "content": "And it is decreed: she is uncovered, she is carried away; and her handmaids moan as with the voice of doves, beating upon their breasts."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Huzzab is uncovered etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "And it is decreed: she is uncovered, she is carried away; and her handmaids ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lead", "marks": ["i"] }, " her"]
+        }
+      },
+      {
+        "text": "moan as with the voice of doves, beating upon their ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "hearts", "marks": ["i"] }, "."]
+        }
+      },
+      "breasts."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 8,
-    "content": "But Nineveh hath been from of old like a pool of water: yet they flee away. Stand, stand, they cry; but none looketh back."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "But Nineveh hath been ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "from the days", "marks": ["i"] },
+            " that ",
+            { "text": "she", "marks": ["i"] },
+            " hath been"
+          ]
+        }
+      },
+      "from of old like a pool of water: yet they flee away. Stand, stand, ",
+      { "text": "they cry", "marks": ["i"] },
+      {
+        "text": "; but none ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "causeth", "marks": ["i"] },
+            " them ",
+            { "text": "to turn", "marks": ["i"] }
+          ]
+        }
+      },
+      "looketh back."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 2,
     "verse": 9,
-    "content": "Take ye the spoil of silver, take the spoil of gold; for there is no end of the store, the glory of all goodly furniture."
+    "content": [
+      {
+        "text": "Take ye the spoil of silver, take the spoil of gold; for there is no end of the store, the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "wealth", "marks": ["i"] }]
+        }
+      },
+      "glory of all goodly furniture."
+    ]
   },
   {
     "book": "NAH",
@@ -159,7 +338,11 @@
     "book": "NAH",
     "chapter": 2,
     "verse": 11,
-    "content": "Where is the den of the lions, and the feeding-place of the young lions, where the lion and the lioness walked, the lion’s whelp, and none made them afraid?"
+    "content": [
+      "Where is the den of the lions, and the feeding-place of the young lions, where the lion ",
+      { "text": "and", "marks": ["i"] },
+      " the lioness walked, the lion’s whelp, and none made them afraid?"
+    ]
   },
   {
     "book": "NAH",
@@ -192,7 +375,16 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 3,
-    "content": "the horseman mounting, and the flashing sword, and the glittering spear, and a multitude of slain, and a great heap of corpses, and there is no end of the bodies; they stumble upon their bodies;—"
+    "content": [
+      {
+        "text": "the horseman ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "charging", "marks": ["i"] }]
+        }
+      },
+      "mounting, and the flashing sword, and the glittering spear, and a multitude of slain, and a great heap of corpses, and there is no end of the bodies; they stumble upon their bodies;—"
+    ]
   },
   {
     "book": "NAH",
@@ -204,7 +396,16 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 5,
-    "content": "Behold, I am against thee, saith Jehovah of hosts, and I will uncover thy skirts upon thy face; and I will show the nations thy nakedness, and the kingdoms thy shame."
+    "content": [
+      {
+        "text": "Behold, I am against thee, saith Jehovah of hosts, and I will uncover thy skirts ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "before", "marks": ["i"] }]
+        }
+      },
+      "upon thy face; and I will show the nations thy nakedness, and the kingdoms thy shame."
+    ]
   },
   {
     "book": "NAH",
@@ -222,7 +423,29 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 8,
-    "content": "Art thou better than Noamon, that was situate among the rivers, that had the waters round about her; whose rampart was the sea, and her wall was of the sea?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Art thou better than No-amon, that was situate among the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "canals", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Exodus 7:19", "content": "Ex. 7:19" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "rivers, that had the waters round about her; whose rampart was ",
+        "foot": { "type": "stu", "content": "That is, the Nile" }
+      },
+      "the sea, ",
+      { "text": "and", "marks": ["i"] },
+      " her wall was of the sea?"
+    ]
   },
   {
     "book": "NAH",
@@ -240,13 +463,26 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 11,
-    "content": "Thou also shalt be drunken; thou shalt be hid; thou also shalt seek a stronghold because of the enemy."
+    "content": [
+      {
+        "text": "Thou also shalt be drunken; thou shalt be hid; thou also shalt seek ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a defence against", "marks": ["i"] }]
+        }
+      },
+      "a stronghold because of the enemy."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 3,
     "verse": 12,
-    "content": "All thy fortresses shall be like fig-trees with the first-ripe figs: if they be shaken, they fall into the mouth of the eater."
+    "content": [
+      "All thy fortresses shall be ",
+      { "text": "like", "marks": ["i"] },
+      " fig-trees with the first-ripe figs: if they be shaken, they fall into the mouth of the eater."
+    ]
   },
   {
     "book": "NAH",
@@ -258,7 +494,19 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 14,
-    "content": "Draw thee water for the siege; strengthen thy fortresses; go into the clay, and tread the mortar; make strong the brickkiln."
+    "content": [
+      {
+        "text": "Draw thee water for the siege; strengthen thy fortresses; go into the clay, and tread the mortar; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "lay hold of the brick-mould", "marks": ["i"] }
+          ]
+        }
+      },
+      "make strong the brickkiln."
+    ]
   },
   {
     "book": "NAH",
@@ -270,13 +518,38 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 16,
-    "content": "Thou hast multiplied thy merchants above the stars of heaven: the canker-worm ravageth, and fleeth away."
+    "content": [
+      {
+        "text": "Thou hast multiplied thy merchants above the stars of heaven: the canker-worm ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "spreadeth himself", "marks": ["i"] }]
+        }
+      },
+      "ravageth, and fleeth away."
+    ]
   },
   {
     "book": "NAH",
     "chapter": 3,
     "verse": 17,
-    "content": "Thy princes are as the locusts, and thy marshals as the swarms of grasshoppers, which encamp in the hedges in the cold day, but when the sun ariseth they flee away, and their place is not known where they are."
+    "content": [
+      {
+        "text": "Thy princes are as the locusts, and thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "scribes", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "marshals as the swarms of grasshoppers, which encamp in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "walls", "marks": ["i"] }]
+        }
+      },
+      "hedges in the cold day, but when the sun ariseth they flee away, and their place is not known where they are."
+    ]
   },
   {
     "book": "NAH",
@@ -288,6 +561,6 @@
     "book": "NAH",
     "chapter": 3,
     "verse": 19,
-    "content": "There is no assuaging of thy hurt: thy wound is grievous: all that hear the report of thee clap their hands over thee; for upon whom hath not thy wickedness passed continually?"
+    "content": "There is no assuaging of thy hurt; thy wound is grievous: all that hear the report of thee clap their hands over thee; for upon whom hath not thy wickedness passed continually?"
   }
 ]

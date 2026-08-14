@@ -3,16 +3,32 @@
     "book": "RTH",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And it came to pass in the days when the judges judged, that there was a famine in the land. And a certain man of Bethlehem-judah went to sojourn in the country of Moab, he, and his wife, and his two sons."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And it came to pass in the days when the judges judged, that there was a famine in the land. And a certain man of Beth-lehem-judah went to sojourn in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "field", "marks": ["i"] }, "."]
+        }
+      },
+      "country of Moab, he, and his wife, and his two sons."
+    ]
   },
   {
     "book": "RTH",
     "chapter": 1,
     "verse": 2,
-    "content": "And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Bethlehem-judah. And they came into the country of Moab, and continued there."
+    "content": [
+      {
+        "text": "And the name of the man was Elimelech, and the name of his wife ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Noomi", "marks": ["i"] }, "."]
+        }
+      },
+      "Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Beth-lehem-judah. And they came into the country of Moab, and continued there."
+    ]
   },
   {
     "book": "RTH",
@@ -36,7 +52,10 @@
     "book": "RTH",
     "chapter": 1,
     "verse": 6,
-    "content": "Then she arose with her daughters-in-law, that she might return from the country of Moab: for she had heard in the country of Moab how that Jehovah had visited his people in giving them bread."
+    "content": {
+      "paragraph": true,
+      "text": "Then she arose with her daughters-in-law, that she might return from the country of Moab: for she had heard in the country of Moab how that Jehovah had visited his people in giving them bread."
+    }
   },
   {
     "book": "RTH",
@@ -78,7 +97,22 @@
     "book": "RTH",
     "chapter": 1,
     "verse": 13,
-    "content": "would ye therefore tarry till they were grown? would ye therefore stay from having husbands? nay, my daughters, for it grieveth me much for your sakes, for the hand of Jehovah is gone forth against me."
+    "content": [
+      {
+        "text": "would ye therefore tarry till they were grown? would ye therefore stay from having husbands? nay, my daughters, for it ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "it is far more bitter for me than for you",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "grieveth me much for your sakes, for the hand of Jehovah is gone forth against me."
+    ]
   },
   {
     "book": "RTH",
@@ -90,7 +124,10 @@
     "book": "RTH",
     "chapter": 1,
     "verse": 15,
-    "content": "And she said, Behold, thy sister-in-law is gone back unto her people, and unto her god: return thou after thy sister-in-law."
+    "content": {
+      "paragraph": true,
+      "text": "And she said, Behold, thy sister-in-law is gone back unto her people, and unto her god: return thou after thy sister-in-law."
+    }
   },
   {
     "book": "RTH",
@@ -114,13 +151,36 @@
     "book": "RTH",
     "chapter": 1,
     "verse": 19,
-    "content": "So they two went until they came to Bethlehem. And it came to pass, when they were come to Bethlehem, that all the city was moved about them, and the women said, Is this Naomi?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "So they two went until they came to Beth-lehem. And it came to pass, when they were come to Beth-lehem, that all the city was moved about them, and "
+      },
+      { "text": "the women", "marks": ["i"] },
+      " said, Is this Naomi?"
+    ]
   },
   {
     "book": "RTH",
     "chapter": 1,
     "verse": 20,
-    "content": "And she said unto them, Call me not Naomi, call me Mara; for the Almighty hath dealt very bitterly with me."
+    "content": [
+      {
+        "text": "And she said unto them, Call me not ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "Pleasant", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Naomi, call me ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "Bitter", "marks": ["i"] }, "."]
+        }
+      },
+      "Mara; for the Almighty hath dealt very bitterly with me."
+    ]
   },
   {
     "book": "RTH",
@@ -132,16 +192,23 @@
     "book": "RTH",
     "chapter": 1,
     "verse": 22,
-    "content": "So Naomi returned, and Ruth the Moabitess, her daughter-in-law, with her, who returned out of the country of Moab: and they came to Bethlehem in the beginning of barley harvest."
+    "content": "So Naomi returned, and Ruth the Moabitess, her daughter-in-law, with her, who returned out of the country of Moab: and they came to Beth-lehem in the beginning of barley harvest."
   },
   {
     "book": "RTH",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And Naomi had a kinsman of her husband’s, a mighty man of wealth, of the family of Elimelech, and his name was Boaz."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Naomi had a kinsman of her husband’s, a mighty man of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "valor", "marks": ["i"] }]
+        }
+      },
+      "wealth, of the family of Elimelech, and his name was Boaz."
+    ]
   },
   {
     "book": "RTH",
@@ -159,7 +226,7 @@
     "book": "RTH",
     "chapter": 2,
     "verse": 4,
-    "content": "And, behold, Boaz came from Bethlehem, and said unto the reapers, Jehovah be with you. And they answered him, Jehovah bless thee."
+    "content": "And, behold, Boaz came from Beth-lehem, and said unto the reapers, Jehovah be with you. And they answered him, Jehovah bless thee."
   },
   {
     "book": "RTH",
@@ -177,13 +244,16 @@
     "book": "RTH",
     "chapter": 2,
     "verse": 7,
-    "content": "And she said, Let me glean, I pray you, and gather after the reapers among the sheaves. So she came, and hath continued even from the morning until now, save that she tarried a little in the house."
+    "content": "and she said, Let me glean, I pray you, and gather after the reapers among the sheaves. So she came, and hath continued even from the morning until now, save that she tarried a little in the house."
   },
   {
     "book": "RTH",
     "chapter": 2,
     "verse": 8,
-    "content": "Then said Boaz unto Ruth, Hearest thou not, my daughter? Go not to glean in another field, neither pass from hence, but abide here fast by my maidens."
+    "content": {
+      "paragraph": true,
+      "text": "Then said Boaz unto Ruth, Hearest thou not, my daughter? Go not to glean in another field, neither pass from hence, but abide here fast by my maidens."
+    }
   },
   {
     "book": "RTH",
@@ -213,13 +283,36 @@
     "book": "RTH",
     "chapter": 2,
     "verse": 13,
-    "content": "Then she said, Let me find favor in thy sight, my lord, for that thou hast comforted me, and for that thou hast spoken kindly unto thy handmaid, though I be not as one of thy handmaidens."
+    "content": [
+      {
+        "text": "Then she said, Let me find favor in thy sight, my lord, for that thou hast comforted me, and for that thou hast spoken ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "to the heart of", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "kindly unto thy handmaid, though I be not as one of thy handmaidens."
+    ]
   },
   {
     "book": "RTH",
     "chapter": 2,
     "verse": 14,
-    "content": "And at meal-time Boaz said unto her, Come hither, and eat of the bread, and dip thy morsel in the vinegar. And she sat beside the reapers, and they reached her parched grain, and she did eat, and was sufficed, and left thereof."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And at meal-time Boaz said unto her, Come hither, and eat of the bread, and dip thy morsel in the vinegar. And she sat beside the reapers, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "he", "marks": ["i"] }]
+        }
+      },
+      "they reached her parched grain, and she did eat, and was sufficed, and left thereof."
+    ]
   },
   {
     "book": "RTH",
@@ -237,7 +330,10 @@
     "book": "RTH",
     "chapter": 2,
     "verse": 17,
-    "content": "So she gleaned in the field until even; and she beat out that which she had gleaned, and it was about an ephah of barley."
+    "content": {
+      "paragraph": true,
+      "text": "So she gleaned in the field until even; and she beat out that which she had gleaned, and it was about an ephah of barley."
+    }
   },
   {
     "book": "RTH",
@@ -255,7 +351,25 @@
     "book": "RTH",
     "chapter": 2,
     "verse": 20,
-    "content": "And Naomi said unto her daughter-in-law, Blessed be he of Jehovah, who hath not left off his kindness to the living and to the dead. And Naomi said unto her, The man is nigh of kin unto us, one of our near kinsmen."
+    "content": [
+      {
+        "text": "And Naomi said unto her daughter-in-law, Blessed be he of Jehovah, who hath not left off his kindness to the living and to the dead. And Naomi said unto her, The man is nigh of kin unto us, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "one of them that hath the right to redeem for us",
+              "marks": ["i"]
+            },
+            ". See ",
+            { "bibleLink": "Leviticus 25:25", "content": "Lev. 25:25" },
+            "."
+          ]
+        }
+      },
+      "one of our near kinsmen."
+    ]
   },
   {
     "book": "RTH",
@@ -279,10 +393,17 @@
     "book": "RTH",
     "chapter": 3,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "And Naomi her mother-in-law said unto her, My daughter, shall I not seek rest for thee, that it may be well with thee?"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And Naomi her mother-in-law said unto her, My daughter, shall I not seek ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "a resting-place", "marks": ["i"] }]
+        }
+      },
+      "rest for thee, that it may be well with thee?"
+    ]
   },
   {
     "book": "RTH",
@@ -306,13 +427,29 @@
     "book": "RTH",
     "chapter": 3,
     "verse": 5,
-    "content": "And she said unto her, All that thou sayest I will do."
+    "content": [
+      {
+        "text": "And she said unto her, All that thou ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "sayest unto me", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "sayest I will do."
+    ]
   },
   {
     "book": "RTH",
     "chapter": 3,
     "verse": 6,
-    "content": "And she went down unto the threshing-floor, and did according to all that her mother-in-law bade her."
+    "content": {
+      "paragraph": true,
+      "text": "And she went down unto the threshing-floor, and did according to all that her mother-in-law bade her."
+    }
   },
   {
     "book": "RTH",
@@ -324,13 +461,37 @@
     "book": "RTH",
     "chapter": 3,
     "verse": 8,
-    "content": "And it came to pass at midnight, that the man was afraid, and turned himself; and, behold, a woman lay at his feet."
+    "content": [
+      {
+        "text": "And it came to pass at midnight, that the man was ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "startled", "marks": ["i"] }]
+        }
+      },
+      "afraid, and turned himself; and, behold, a woman lay at his feet."
+    ]
   },
   {
     "book": "RTH",
     "chapter": 3,
     "verse": 9,
-    "content": "And he said, Who art thou? And she answered, I am Ruth thy handmaid: spread therefore thy skirt over thy handmaid; for thou art a near kinsman."
+    "content": [
+      {
+        "text": "And he said, Who art thou? And she answered, I am Ruth thy handmaid: spread therefore thy skirt over thy handmaid; for thou art ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "one that hath the right to redeem", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "goel", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "a near kinsman."
+    ]
   },
   {
     "book": "RTH",
@@ -342,7 +503,24 @@
     "book": "RTH",
     "chapter": 3,
     "verse": 11,
-    "content": "And now, my daughter, fear not; I will do to thee all that thou sayest; for all the city of my people doth know that thou art a worthy woman."
+    "content": [
+      {
+        "text": "And now, my daughter, fear not; I will do to thee all that thou sayest; for all the ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "gate", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "Ruth 4:1", "content": "4:1" },
+            ", ",
+            { "bibleLink": "Ruth 4:11", "content": "11" },
+            "."
+          ]
+        }
+      },
+      "city of my people doth know that thou art a worthy woman."
+    ]
   },
   {
     "book": "RTH",
@@ -360,25 +538,67 @@
     "book": "RTH",
     "chapter": 3,
     "verse": 14,
-    "content": "And she lay at his feet until the morning. And she rose up before one could discern another. For he said, Let it not be known that the woman came to the threshing-floor."
+    "content": {
+      "paragraph": true,
+      "text": "And she lay at his feet until the morning: and she rose up before one could discern another. For he said, Let it not be known that the woman came to the threshing-floor."
+    }
   },
   {
     "book": "RTH",
     "chapter": 3,
     "verse": 15,
-    "content": "And he said, Bring the mantle that is upon thee, and hold it; and she held it; and he measured six measures of barley, and laid it on her: and he went into the city."
+    "content": [
+      "And he said, Bring the mantle that is upon thee, and hold it; and she held it; and he measured six ",
+      { "text": "measures", "marks": ["i"] },
+      {
+        "text": " of barley, and laid it on her: and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to Vulgate and Syriac, ",
+            { "text": "she went", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "he went into the city."
+    ]
   },
   {
     "book": "RTH",
     "chapter": 3,
     "verse": 16,
-    "content": "And when she came to her mother-in-law, she said, Who art thou, my daughter? And she told her all that the man had done to her."
+    "content": [
+      {
+        "text": "And when she came to her mother-in-law, she said, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "How hast thou fared", "marks": ["i"] }]
+        }
+      },
+      "Who art thou, my daughter? And she told her all that the man had done to her."
+    ]
   },
   {
     "book": "RTH",
     "chapter": 3,
     "verse": 17,
-    "content": "And she said, These six measures of barley gave he me; for he said, Go not empty unto thy mother-in-law."
+    "content": [
+      "And she said, These six ",
+      { "text": "measures", "marks": ["i"] },
+      {
+        "text": " of barley gave he me; for he ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "said to me", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "said, Go not empty unto thy mother-in-law."
+    ]
   },
   {
     "book": "RTH",
@@ -411,7 +631,31 @@
     "book": "RTH",
     "chapter": 4,
     "verse": 4,
-    "content": "And I thought to disclose it unto thee, saying, Buy it before them that sit here, and before the elders of my people. If thou wilt redeem it, redeem it: but if thou wilt not redeem it, then tell me, that I may know; for there is none to redeem it besides thee; and I am after thee. And he said, I will redeem it."
+    "content": [
+      {
+        "text": "and I thought to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "uncover thine ear", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "disclose it unto thee, saying, Buy it before them that sit here, and before the elders of my people. If thou wilt redeem it, redeem it: but if ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "So Septuagint, Vulgate, and Syriac. Hebrew ",
+            { "text": "he will", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "thou wilt not redeem it, then tell me, that I may know; for there is none to redeem it besides thee; and I am after thee. And he said, I will redeem it."
+    ]
   },
   {
     "book": "RTH",
@@ -429,7 +673,13 @@
     "book": "RTH",
     "chapter": 4,
     "verse": 7,
-    "content": "Now this was the custom in former time in Israel concerning redeeming and concerning exchanging, to confirm all things: a man drew off his shoe, and gave it to his neighbor; and this was the manner of attestation in Israel."
+    "content": [
+      { "paragraph": true, "text": "Now this was " },
+      { "text": "the custom", "marks": ["i"] },
+      " in former time in Israel concerning redeeming and concerning exchanging, to confirm all things: a man drew off his shoe, and gave it to his neighbor; and this was the ",
+      { "text": "manner of", "marks": ["i"] },
+      " attestation in Israel."
+    ]
   },
   {
     "book": "RTH",
@@ -453,7 +703,22 @@
     "book": "RTH",
     "chapter": 4,
     "verse": 11,
-    "content": "And all the people that were in the gate, and the elders, said, We are witnesses. Jehovah make the woman that is come into thy house like Rachel and like Leah, which two did build the house of Israel: and do thou worthily in Ephrathah, and be famous in Bethlehem:"
+    "content": [
+      {
+        "text": "And all the people that were in the gate, and the elders, said, We are witnesses. Jehovah make the woman that is come into thy house like Rachel and like Leah, which two did build the house of Israel: and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "get thee wealth", "marks": ["i"] },
+            " (or, ",
+            { "text": "power", "marks": ["i"] },
+            ")"
+          ]
+        }
+      },
+      "do thou worthily in Ephrathah, and be famous in Beth-lehem:"
+    ]
   },
   {
     "book": "RTH",
@@ -465,7 +730,10 @@
     "book": "RTH",
     "chapter": 4,
     "verse": 13,
-    "content": "So Boaz took Ruth, and she became his wife; and he went in unto her, and Jehovah gave her conception, and she bare a son."
+    "content": {
+      "paragraph": true,
+      "text": "So Boaz took Ruth, and she became his wife; and he went in unto her, and Jehovah gave her conception, and she bare a son."
+    }
   },
   {
     "book": "RTH",
@@ -489,13 +757,25 @@
     "book": "RTH",
     "chapter": 4,
     "verse": 17,
-    "content": "And the women her neighbors gave it a name, saying, There is a son born to Naomi; and they called his name Obed: he is the father of Jesse, the father of David."
+    "content": [
+      {
+        "text": "And the women her neighbors gave it a name, saying, There is a son born to Naomi; and they called his name Obed: he is the father of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Ishai", "marks": ["i"] }, "."]
+        }
+      },
+      "Jesse, the father of David."
+    ]
   },
   {
     "book": "RTH",
     "chapter": 4,
     "verse": 18,
-    "content": "Now these are the generations of Perez: Perez begat Hezron,"
+    "content": {
+      "paragraph": true,
+      "text": "Now these are the generations of Perez: Perez begat Hezron,"
+    }
   },
   {
     "book": "RTH",
@@ -507,7 +787,16 @@
     "book": "RTH",
     "chapter": 4,
     "verse": 20,
-    "content": "and Amminadab begat Nahshon, and Nahshon begat Salmon,"
+    "content": [
+      {
+        "text": "and Amminadab begat Nahshon, and Nahshon begat ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Salmah", "marks": ["i"] }, "."]
+        }
+      },
+      "Salmon,"
+    ]
   },
   {
     "book": "RTH",

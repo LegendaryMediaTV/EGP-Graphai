@@ -3,10 +3,19 @@
     "book": "EZR",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now in the first year of Cyrus king of Persia, that the word of Jehovah by the mouth of Jeremiah might be accomplished, Jehovah stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and put it also in writing, saying,"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now in the first year of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "Coresh", "marks": ["i"] }, "."]
+        }
+      },
+      "Cyrus king of Persia, that the word of Jehovah by the mouth of Jeremiah might be accomplished, Jehovah stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and ",
+      { "text": "put it", "marks": ["i"] },
+      " also in writing, saying,"
+    ]
   },
   {
     "book": "EZR",
@@ -18,7 +27,19 @@
     "book": "EZR",
     "chapter": 1,
     "verse": 3,
-    "content": "Whosoever there is among you of all his people, his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of Jehovah, the God of Israel (he is God), which is in Jerusalem."
+    "content": [
+      {
+        "text": "Whosoever there is among you of all his people, his God be with him, and let him go up to Jerusalem, which is in Judah, and build the house of Jehovah, the God of Israel ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "he is the God who is in Jerusalem", "marks": ["i"] }
+          ]
+        }
+      },
+      "(he is God), which is in Jerusalem."
+    ]
   },
   {
     "book": "EZR",
@@ -30,7 +51,11 @@
     "book": "EZR",
     "chapter": 1,
     "verse": 5,
-    "content": "Then rose up the heads of fathers’ houses of Judah and Benjamin, and the priests, and the Levites, even all whose spirit God had stirred to go up to build the house of Jehovah which is in Jerusalem."
+    "content": [
+      { "paragraph": true, "text": "Then rose up the heads of fathers’ " },
+      { "text": "houses", "marks": ["i"] },
+      " of Judah and Benjamin, and the priests, and the Levites, even all whose spirit God had stirred to go up to build the house of Jehovah which is in Jerusalem."
+    ]
   },
   {
     "book": "EZR",
@@ -72,16 +97,85 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now these are the children of the province, that went up out of the captivity of those that had been carried away, whom Nebuchadnezzar the king of Babylon had carried away unto Babylon, and that returned unto Jerusalem and Judah, every one unto his city;"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now these are the children of the province, that went up out of the captivity of those that had been carried away, whom ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Nebuchadnezzor", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Nebuchadnezzar the king of Babylon had carried away unto Babylon, and that returned unto Jerusalem and Judah, every one unto his city;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 2,
-    "content": "who came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, Baanah. The number of the men of the people of Israel:"
+    "content": [
+      {
+        "text": "who came with Zerubbabel, Jeshua, Nehemiah, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:7", "content": "Neh. 7:7" },
+            ", ",
+            { "text": "Azariah", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Seraiah, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:7", "content": "Neh. 7:7" },
+            ", ",
+            { "text": "Raamiah", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Reelaiah, Mordecai, Bilshan, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:7", "content": "Neh. 7:7" },
+            ", ",
+            { "text": "Mispereth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Mispar, Bigvai, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:7", "content": "Neh. 7:7" },
+            ", ",
+            { "text": "Nehum", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Rehum, Baanah.",
+      {
+        "paragraph": true,
+        "text": "The number of the men of the people of Israel:"
+      }
+    ]
   },
   {
     "book": "EZR",
@@ -105,7 +199,11 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 6,
-    "content": "The children of Pahath-moab, of the children of Jeshua and Joab, two thousand eight hundred and twelve."
+    "content": [
+      "The children of Pahath-moab, of the children of Jeshua ",
+      { "text": "and", "marks": ["i"] },
+      " Joab, two thousand eight hundred and twelve."
+    ]
   },
   {
     "book": "EZR",
@@ -129,7 +227,22 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 10,
-    "content": "The children of Bani, six hundred forty and two."
+    "content": [
+      {
+        "text": "The children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:15", "content": "Neh. 7:15" },
+            ", ",
+            { "text": "Binnui", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Bani, six hundred forty and two."
+    ]
   },
   {
     "book": "EZR",
@@ -177,7 +290,22 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 18,
-    "content": "The children of Jorah, a hundred and twelve."
+    "content": [
+      {
+        "text": "The children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:24", "content": "Neh. 7:24" },
+            ", ",
+            { "text": "Hariph", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Jorah, a hundred and twelve."
+    ]
   },
   {
     "book": "EZR",
@@ -189,7 +317,22 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 20,
-    "content": "The children of Gibbar, ninety and five."
+    "content": [
+      {
+        "text": "The children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:25", "content": "Neh. 7:25" },
+            ", ",
+            { "text": "Gibeon", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Gibbar, ninety and five."
+    ]
   },
   {
     "book": "EZR",
@@ -213,13 +356,43 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 24,
-    "content": "The children of Azmaveth, forty and two."
+    "content": [
+      {
+        "text": "The children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:28", "content": "Neh. 7:28" },
+            ", ",
+            { "text": "Beth-azmaveth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Azmaveth, forty and two."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 25,
-    "content": "The children of Kiriath-arim, Chephirah, and Beeroth, seven hundred and forty and three."
+    "content": [
+      {
+        "text": "The children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:29", "content": "Neh. 7:29" },
+            ", ",
+            { "text": "Kiriath-jearim", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Kiriath-arim, Chephirah, and Beeroth, seven hundred and forty and three."
+    ]
   },
   {
     "book": "EZR",
@@ -285,7 +458,10 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 36,
-    "content": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three."
+    "content": {
+      "paragraph": true,
+      "text": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three."
+    }
   },
   {
     "book": "EZR",
@@ -309,7 +485,27 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 40,
-    "content": "The Levites: the children of Jeshua and Kadmiel, of the children of Hodaviah, seventy and four."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The Levites: the children of Jeshua and Kadmiel, of the children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Ezra 3:9", "content": "3:9" },
+            ", ",
+            { "text": "Judah", "marks": ["i"] },
+            ". In ",
+            { "bibleLink": "Nehemiah 7:43", "content": "Neh. 7:43" },
+            ", ",
+            { "text": "Hodevah", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Hodaviah, seventy and four."
+    ]
   },
   {
     "book": "EZR",
@@ -327,13 +523,31 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 43,
-    "content": "The Nethinim: the children of Ziha, the children of Hasupha, the children of Tabbaoth,"
+    "content": {
+      "paragraph": true,
+      "text": "The Nethinim: the children of Ziha, the children of Hasupha, the children of Tabbaoth,"
+    }
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 44,
-    "content": "the children of Keros, the children of Siaha, the children of Padon,"
+    "content": [
+      {
+        "text": "the children of Keros, the children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:47", "content": "Neh. 7:47" },
+            ", ",
+            { "text": "Sia", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Siaha, the children of Padon,"
+    ]
   },
   {
     "book": "EZR",
@@ -345,7 +559,22 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 46,
-    "content": "the children of Hagab, the children of Shamlai, the children of Hanan,"
+    "content": [
+      {
+        "text": "the children of Hagab, the children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:48", "content": "Neh. 7:48" },
+            ", ",
+            { "text": "Salmai", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Shamlai, the children of Hanan,"
+    ]
   },
   {
     "book": "EZR",
@@ -369,7 +598,24 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 50,
-    "content": "the children of Asnah, the children of Meunim, the children of Nephisim,"
+    "content": [
+      {
+        "text": "the children of Asnah, the children of Meunim, the children of ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Nephusim", "marks": ["i"] },
+            ". In ",
+            { "bibleLink": "Nehemiah 7:52", "content": "Neh. 7:52" },
+            ", ",
+            { "text": "Nephushesim", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Nephisim,"
+    ]
   },
   {
     "book": "EZR",
@@ -381,7 +627,22 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 52,
-    "content": "the children of Bazluth, the children of Mehida, the children of Harsha,"
+    "content": [
+      {
+        "text": "the children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:54", "content": "Neh. 7:54" },
+            ", ",
+            { "text": "Bazlith", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Bazluth, the children of Mehida, the children of Harsha,"
+    ]
   },
   {
     "book": "EZR",
@@ -399,7 +660,36 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 55,
-    "content": "The children of Solomon’s servants: the children of Sotai, the children of Hassophereth, the children of Peruda,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The children of Solomon’s servants: the children of Sotai, the children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:57", "content": "Neh. 7:57" },
+            ", ",
+            { "text": "Sophereth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Hassophereth, the children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:57", "content": "Neh. 7:57" },
+            ", ",
+            { "text": "Perida", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Peruda,"
+    ]
   },
   {
     "book": "EZR",
@@ -411,7 +701,22 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 57,
-    "content": "the children of Shephatiah, the children of Hattil, the children of Pochereth-hazzebaim, the children of Ami."
+    "content": [
+      {
+        "text": "the children of Shephatiah, the children of Hattil, the children of Pochereth-hazzebaim, the children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:59", "content": "Neh. 7:59" },
+            ", ",
+            { "text": "Amon", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Ami."
+    ]
   },
   {
     "book": "EZR",
@@ -423,7 +728,25 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 59,
-    "content": "And these were they that went up from Tel-melah, Tel-harsha, Cherub, Addan, and Immer; but they could not show their fathers’ houses, and their seed, whether they were of Israel:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And these were they that went up from Tel-melah, Tel-harsha, Cherub, ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:61", "content": "Neh. 7:61" },
+            ", ",
+            { "text": "Addon", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Addan, ",
+      { "text": "and", "marks": ["i"] },
+      " Immer; but they could not show their fathers’ houses, and their seed, whether they were of Israel:"
+    ]
   },
   {
     "book": "EZR",
@@ -435,13 +758,46 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 61,
-    "content": "And of the children of the priests: the children of Habaiah, the children of Hakkoz, the children of Barzillai, who took a wife of the daughters of Barzillai the Gileadite, and was called after their name."
+    "content": [
+      {
+        "text": "And of the children of the priests: the children of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 7:63", "content": "Neh. 7:63" },
+            ", ",
+            { "text": "Hobaiah", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Habaiah, the children of Hakkoz, the children of Barzillai, who took a wife of the daughters of Barzillai the Gileadite, and was called after their name."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 62,
-    "content": "These sought their register among those that were reckoned by genealogy, but they were not found: therefore were they deemed polluted and put from the priesthood."
+    "content": [
+      "These sought their register ",
+      { "text": "among", "marks": ["i"] },
+      {
+        "text": " those that were reckoned by genealogy, but they were not found: therefore ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            {
+              "text": "they were polluted from the priesthood",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "were they deemed polluted and put from the priesthood."
+    ]
   },
   {
     "book": "EZR",
@@ -453,7 +809,10 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 64,
-    "content": "The whole assembly together was forty and two thousand three hundred and threescore,"
+    "content": {
+      "paragraph": true,
+      "text": "The whole assembly together was forty and two thousand three hundred and threescore,"
+    }
   },
   {
     "book": "EZR",
@@ -471,25 +830,45 @@
     "book": "EZR",
     "chapter": 2,
     "verse": 67,
-    "content": "their camels, four hundred thirty and five; their asses, six thousand seven hundred and twenty."
+    "content": [
+      "their camels, four hundred thirty and five; ",
+      { "text": "their", "marks": ["i"] },
+      " asses, six thousand seven hundred and twenty."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 68,
-    "content": "And some of the heads of fathers’ houses, when they came to the house of Jehovah which is in Jerusalem, offered willingly for the house of God to set it up in its place:"
+    "content": [
+      { "paragraph": true, "text": "And some of the heads of fathers’ " },
+      { "text": "houses", "marks": ["i"] },
+      ", when they came to the house of Jehovah which is in Jerusalem, offered willingly for the house of God to set it up in its place:"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 69,
-    "content": "they gave after their ability into the treasury of the work threescore and one thousand darics of gold, and five thousand pounds of silver, and one hundred priests’ garments."
+    "content": [
+      {
+        "text": "they gave after their ability into the treasury of the work threescore and one thousand darics of gold, and five thousand ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "maneh", "marks": ["i"] }, "."]
+        }
+      },
+      "pounds of silver, and one hundred priests’ garments."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 2,
     "verse": 70,
-    "content": "So the priests, and the Levites, and some of the people, and the singers, and the porters, and the Nethinim, dwelt in their cities, and all Israel in their cities."
+    "content": {
+      "paragraph": true,
+      "text": "So the priests, and the Levites, and some of the people, and the singers, and the porters, and the Nethinim, dwelt in their cities, and all Israel in their cities."
+    }
   },
   {
     "book": "EZR",
@@ -510,19 +889,36 @@
     "book": "EZR",
     "chapter": 3,
     "verse": 3,
-    "content": "And they set the altar upon its base; for fear was upon them because of the peoples of the countries: and they offered burnt-offerings thereon unto Jehovah, even burnt-offerings morning and evening."
+    "content": [
+      {
+        "text": "And they set the altar ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in its place", "marks": ["i"] }]
+        }
+      },
+      "upon its base; for fear was upon them because of the peoples of the countries: and they offered burnt-offerings thereon unto Jehovah, even burnt-offerings morning and evening."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 4,
-    "content": "And they kept the feast of tabernacles, as it is written, and offered the daily burnt-offerings by number, according to the ordinance, as the duty of every day required;"
+    "content": [
+      "And they kept the feast of tabernacles, as it is written, and ",
+      { "text": "offered", "marks": ["i"] },
+      " the daily burnt-offerings by number, according to the ordinance, as the duty of every day required;"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 5,
-    "content": "and afterward the continual burnt-offering, and the offerings of the new moons, and of all the set feasts of Jehovah that were consecrated, and of every one that willingly offered a freewill-offering unto Jehovah."
+    "content": [
+      "and afterward the continual burnt-offering, and ",
+      { "text": "the offerings", "marks": ["i"] },
+      " of the new moons, and of all the set feasts of Jehovah that were consecrated, and of every one that willingly offered a freewill-offering unto Jehovah."
+    ]
   },
   {
     "book": "EZR",
@@ -534,37 +930,119 @@
     "book": "EZR",
     "chapter": 3,
     "verse": 7,
-    "content": "They gave money also unto the masons, and to the carpenters; and food, and drink, and oil, unto them of Sidon, and to them of Tyre, to bring cedar-trees from Lebanon to the sea, unto Joppa, according to the grant that they had of Cyrus king of Persia."
+    "content": [
+      {
+        "text": "They gave money also unto the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hewers", "marks": ["i"] }]
+        }
+      },
+      "masons, and to the carpenters; and food, and drink, and oil, unto them of Sidon, and to them of Tyre, to bring cedar-trees from Lebanon to the sea, unto Joppa, according to the grant that they had of Cyrus king of Persia."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 8,
-    "content": "Now in the second year of their coming unto the house of God at Jerusalem, in the second month, began Zerubbabel the son of Shealtiel, and Jeshua the son of Jozadak, and the rest of their brethren the priests and the Levites, and all they that were come out of the captivity unto Jerusalem, and appointed the Levites, from twenty years old and upward, to have the oversight of the work of the house of Jehovah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now in the second year of their coming unto the house of God at Jerusalem, in the second month, began Zerubbabel the son of Shealtiel, and Jeshua the son of Jozadak, and the rest of their brethren the priests and the Levites, and all they that were come out of the captivity unto Jerusalem, and appointed the Levites, from twenty years old and upward, to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "set forward the work", "marks": ["i"] }
+          ]
+        }
+      },
+      "have the oversight of the work of the house of Jehovah."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 9,
-    "content": "Then stood Jeshua with his sons and his brethren, Kadmiel and his sons, the sons of Judah, together, to have the oversight of the workmen in the house of God: the sons of Henadad, with their sons and their brethren the Levites."
+    "content": [
+      {
+        "text": "Then stood Jeshua with his sons and his brethren, Kadmiel and his sons, the sons of ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Ezra 2:40", "content": "2:40" },
+            ", ",
+            { "text": "Hodaviah", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Judah, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "as one", "marks": ["i"] }, "."]
+        }
+      },
+      "together, to have the oversight of the workmen in the house of God: the sons of Henadad, with their sons and their brethren the Levites."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 10,
-    "content": "And when the builders laid the foundation of the temple of Jehovah, they set the priests in their apparel with trumpets, and the Levites the sons of Asaph with cymbals, to praise Jehovah, after the order of David king of Israel."
+    "content": [
+      {
+        "text": "And when the builders laid the foundation of the temple of Jehovah, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to some manuscripts, ",
+            { "text": "the priests stood", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "they set the priests in their apparel with trumpets, and the Levites the sons of Asaph with cymbals, to praise Jehovah, after the order of David king of Israel."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 11,
-    "content": "And they sang one to another in praising and giving thanks unto Jehovah, saying, For he is good, for his lovingkindness endureth for ever toward Israel. And all the people shouted with a great shout, when they praised Jehovah, because the foundation of the house of Jehovah was laid."
+    "content": [
+      "And they sang one to another in praising and giving thanks unto Jehovah, ",
+      { "text": "saying", "marks": ["i"] },
+      ", For he is good, for his lovingkindness ",
+      { "text": "endureth", "marks": ["i"] },
+      " for ever toward Israel. And all the people shouted with a great shout, when they praised Jehovah, because the foundation of the house of Jehovah was laid."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 3,
     "verse": 12,
-    "content": "But many of the priests and Levites and heads of fathers’ houses, the old men that had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice; and many shouted aloud for joy:"
+    "content": [
+      "But many of the priests and Levites and heads of fathers’ ",
+      { "text": "houses", "marks": ["i"] },
+      {
+        "text": ", the old men that had seen ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "the first house", "marks": ["i"] },
+            " standing ",
+            {
+              "text": "on its foundation, when this house was before their eyes",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "the first house, when the foundation of this house was laid before their eyes, wept with a loud voice; and many shouted aloud for joy:"
+    ]
   },
   {
     "book": "EZR",
@@ -585,19 +1063,46 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 2,
-    "content": "then they drew near to Zerubabbel, and to the heads of fathers’ houses, and said unto them, Let us build with you; for we seek your God, as ye do; and we sacrifice unto him since the days of Esar-haddon king of Assyria, who brought us up hither."
+    "content": [
+      "then they drew near to Zerubbabel, and to the heads of fathers’ ",
+      { "text": "houses", "marks": ["i"] },
+      {
+        "text": ", and said unto them, Let us build with you; for we seek your God, as ye do; ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "yet we do not sacrifice since etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "and we sacrifice unto him since the days of Esar-haddon king of Assyria, who brought us up hither."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 3,
-    "content": "But Zerubbabel, and Jeshua, and the rest of the heads of fathers’ houses of Israel, said unto them, Ye have nothing to do with us in building a house unto our God; but we ourselves together will build unto Jehovah, the God of Israel, as king Cyrus the king of Persia hath commanded us."
+    "content": [
+      "But Zerubbabel, and Jeshua, and the rest of the heads of fathers’ ",
+      { "text": "houses", "marks": ["i"] },
+      " of Israel, said unto them, Ye have nothing to do with us in building a house unto our God; but we ourselves together will build unto Jehovah, the God of Israel, as king Cyrus the king of Persia hath commanded us."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 4,
-    "content": "Then the people of the land weakened the hands of the people of Judah, and troubled them in building,"
+    "content": [
+      {
+        "text": "Then the people of the land weakened the hands of the people of Judah, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "terrified", "marks": ["i"] }]
+        }
+      },
+      "troubled them in building,"
+    ]
   },
   {
     "book": "EZR",
@@ -609,37 +1114,108 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 6,
-    "content": "And in the reign of Ahasuerus, in the beginning of his reign, wrote they an accusation against the inhabitants of Judah and Jerusalem."
+    "content": [
+      {
+        "text": "And in the reign of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Xerxes", "marks": ["i"] },
+            ". Hebrew ",
+            { "text": "Ahashverosh", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Ahasuerus, in the beginning of his reign, wrote they an accusation against the inhabitants of Judah and Jerusalem."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 7,
-    "content": "And in the days of Artaxerxes wrote Bishlam, Mithredath, Tabeel, and the rest of his companions, unto Artaxerxes king of Persia; and the writing of the letter was written in the Syrian character, and set forth in the Syrian tongue."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And in the days of ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "Artahshashta", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "Artaxerxes wrote Bishlam, Mithredath, Tabeel, and the rest of his companions, unto Artaxerxes king of Persia; and the writing of the letter was written in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Aramaic", "marks": ["i"] }]
+        }
+      },
+      "Syrian ",
+      { "text": "character", "marks": ["i"] },
+      {
+        "text": ", and set forth in the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Aramaic", "marks": ["i"] }]
+        }
+      },
+      "Syrian ",
+      { "text": "tongue", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 8,
-    "content": "Rehum the chancellor and Shimshai the scribe wrote a letter against Jerusalem to Artaxerxes the king in this sort:"
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "bibleLink": "Ezra 4:8–24", "content": "4:8" },
+            "–",
+            { "bibleLink": "Ezra 6:1–18", "content": "6:18" },
+            " is in Aramaic."
+          ]
+        }
+      },
+      "Rehum the chancellor and Shimshai the scribe wrote a letter against Jerusalem to Artaxerxes the king in this sort:"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 9,
-    "content": "then wrote Rehum the chancellor, and Shimshai the scribe, and the rest of their companions, the Dinaites, and the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Shushanchites, the Dehaites, the Elamites,"
+    "content": [
+      "then ",
+      { "text": "wrote", "marks": ["i"] },
+      " Rehum the chancellor, and Shimshai the scribe, and the rest of their companions, the Dinaites, and the Apharsathchites, the Tarpelites, the Apharsites, the Archevites, the Babylonians, the Shushanchites, the Dehaites, the Elamites,"
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 10,
-    "content": "and the rest of the nations whom the great and noble Osnappar brought over, and set in the city of Samaria, and in the rest of the country beyond the River, and so forth."
+    "content": [
+      "and the rest of the nations whom the great and noble Osnappar brought over, and set in the city of Samaria, and in the rest ",
+      { "text": "of the country", "marks": ["i"] },
+      " beyond the River, and so forth."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 11,
-    "content": "This is the copy of the letter that they sent unto Artaxerxes the king: Thy servants the men beyond the River, and so forth."
+    "content": {
+      "paragraph": true,
+      "text": "This is the copy of the letter that they sent unto Artaxerxes the king: Thy servants the men beyond the River, and so forth."
+    }
   },
   {
     "book": "EZR",
@@ -675,13 +1251,37 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 17,
-    "content": "Then sent the king an answer unto Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions that dwell in Samaria, and in the rest of the country beyond the River: Peace, and so forth."
+    "content": [
+      { "paragraph": true, "text": "Then", "marks": ["i"] },
+      {
+        "text": " sent the king an answer unto Rehum the chancellor, and to Shimshai the scribe, and to the rest of their companions that dwell in Samaria, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "unto the rest beyond etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "in the rest ",
+      { "text": "of the country", "marks": ["i"] },
+      " beyond the River: Peace, and so forth."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 4,
     "verse": 18,
-    "content": "The letter which ye sent unto us hath been plainly read before me."
+    "content": [
+      {
+        "text": "The letter which ye sent unto us hath been ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "translated", "marks": ["i"] }]
+        }
+      },
+      "plainly read before me."
+    ]
   },
   {
     "book": "EZR",
@@ -693,7 +1293,11 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 20,
-    "content": "There have been mighty kings also over Jerusalem, who have ruled over all the country beyond the River; and tribute, custom, and toll, was paid unto them."
+    "content": [
+      "There have been mighty kings also over Jerusalem, who have ruled over all ",
+      { "text": "the country", "marks": ["i"] },
+      " beyond the River; and tribute, custom, and toll, was paid unto them."
+    ]
   },
   {
     "book": "EZR",
@@ -711,7 +1315,10 @@
     "book": "EZR",
     "chapter": 4,
     "verse": 23,
-    "content": "Then when the copy of king Artaxerxes’ letter was read before Rehum, and Shimshai the scribe, and their companions, they went in haste to Jerusalem unto the Jews, and made them to cease by force and power."
+    "content": {
+      "paragraph": true,
+      "text": "Then when the copy of king Artaxerxes’ letter was read before Rehum, and Shimshai the scribe, and their companions, they went in haste to Jerusalem unto the Jews, and made them to cease by force and power."
+    }
   },
   {
     "book": "EZR",
@@ -723,10 +1330,18 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now the prophets, Haggai the prophet, and Zechariah the son of Iddo, prophesied unto the Jews that were in Judah and Jerusalem; in the name of the God of Israel prophesied they unto them."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now the prophets, Haggai the prophet, and Zechariah the son of Iddo, prophesied unto the Jews that were in Judah and Jerusalem; in the name of the God of Israel ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, which was ", { "text": "upon them", "marks": ["i"] }]
+        }
+      },
+      { "text": "prophesied they", "marks": ["i"] },
+      " unto them."
+    ]
   },
   {
     "book": "EZR",
@@ -750,13 +1365,28 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 5,
-    "content": "But the eye of their God was upon the elders of the Jews, and they did not make them cease, till the matter should come to Darius, and then answer should be returned by letter concerning it."
+    "content": [
+      {
+        "text": "But the eye of their God was upon the elders of the Jews, and they did not make them cease, till the matter should come to Darius, and then ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "they returned answer", "marks": ["i"] }
+          ]
+        }
+      },
+      "answer should be returned by letter concerning it."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 5,
     "verse": 6,
-    "content": "The copy of the letter that Tattenai, the governor beyond the River, and Shethar-bozenai, and his companions the Apharsachites, who were beyond the River, sent unto Darius the king;"
+    "content": {
+      "paragraph": true,
+      "text": "The copy of the letter that Tattenai, the governor beyond the River, and Shethar-bozenai, and his companions the Apharsachites, who were beyond the River, sent unto Darius the king;"
+    }
   },
   {
     "book": "EZR",
@@ -792,7 +1422,16 @@
     "book": "EZR",
     "chapter": 5,
     "verse": 12,
-    "content": "But after that our fathers had provoked the God of heaven unto wrath, he gave them into the hand of Nebuchadnezzar king of Babylon, the Chaldean, who destroyed this house, and carried the people away into Babylon."
+    "content": [
+      {
+        "text": "But ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "because that", "marks": ["i"] }]
+        }
+      },
+      "after that our fathers had provoked the God of heaven unto wrath, he gave them into the hand of Nebuchadnezzar king of Babylon, the Chaldean, who destroyed this house, and carried the people away into Babylon."
+    ]
   },
   {
     "book": "EZR",
@@ -828,16 +1467,32 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Then Darius the king made a decree, and search was made in the house of the archives, where the treasures were laid up in Babylon."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Darius the king made a decree, and search was made in the house of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "books", "marks": ["i"] }, "."]
+        }
+      },
+      "archives, where the treasures were laid up in Babylon."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 2,
-    "content": "And there was found at Achmetha, in the palace that is in the province of Media, a roll, and therein was thus written for a record:"
+    "content": [
+      {
+        "text": "And there was found at ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "Ecbatana", "marks": ["i"] }, "."]
+        }
+      },
+      "Achmetha, in the palace that is in the province of Media, a roll, and therein was thus written for a record:"
+    ]
   },
   {
     "book": "EZR",
@@ -861,7 +1516,17 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 6,
-    "content": "Now therefore, Tattenai, governor beyond the River, Shethar-bozenai, and your companions the Apharsachites, who are beyond the River, be ye far from thence:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now therefore, Tattenai, governor beyond the River, Shethar-bozenai, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "their", "marks": ["i"] }, "."]
+        }
+      },
+      "your companions the Apharsachites, who are beyond the River, be ye far from thence:"
+    ]
   },
   {
     "book": "EZR",
@@ -879,7 +1544,11 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 9,
-    "content": "And that which they have need of, both young bullocks, and rams, and lambs, for burnt-offerings to the God of heaven; also wheat, salt, wine, and oil, according to the word of the priests that are at Jerusalem, let it be given them day by day without fail;"
+    "content": [
+      "And that which they have need of, both young bullocks, and rams, and lambs, for burnt-offerings to the God of heaven; ",
+      { "text": "also", "marks": ["i"] },
+      " wheat, salt, wine, and oil, according to the word of the priests that are at Jerusalem, let it be given them day by day without fail;"
+    ]
   },
   {
     "book": "EZR",
@@ -897,13 +1566,30 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 12,
-    "content": "and the God that hath caused his name to dwell there overthrow all kings and peoples that shall put forth their hand to alter the same, to destroy this house of God which is at Jerusalem. I Darius have made a decree; let it be done with all diligence."
+    "content": [
+      "and the God that hath caused his name to dwell there overthrow all kings and peoples that shall put forth their hand to alter ",
+      { "text": "the same", "marks": ["i"] },
+      ", to destroy this house of God which is at Jerusalem. I Darius have made a decree; let it be done with all diligence."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 13,
-    "content": "Then Tattenai, the governor beyond the River, Shethar-bozenai, and their companions, because that Darius the king had sent, did accordingly with all diligence."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then Tattenai, the governor beyond the River, Shethar-bozenai, and their companions, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "because of that which etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      "because that Darius the king had sent, did accordingly with all diligence."
+    ]
   },
   {
     "book": "EZR",
@@ -921,7 +1607,10 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 16,
-    "content": "And the children of Israel, the priests, and the Levites, and the rest of the children of the captivity, kept the dedication of this house of God with joy."
+    "content": {
+      "paragraph": true,
+      "text": "And the children of Israel, the priests and the Levites, and the rest of the children of the captivity, kept the dedication of this house of God with joy."
+    }
   },
   {
     "book": "EZR",
@@ -939,13 +1628,29 @@
     "book": "EZR",
     "chapter": 6,
     "verse": 19,
-    "content": "And the children of the captivity kept the passover upon the fourteenth day of the first month."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the children of the captivity kept the passover upon the fourteenth "
+      },
+      { "text": "day", "marks": ["i"] },
+      " of the first month."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 6,
     "verse": 20,
-    "content": "For the priests and the Levites had purified themselves together; all of them were pure: and they killed the passover for all the children of the captivity, and for their brethren the priests, and for themselves."
+    "content": [
+      {
+        "text": "For the priests and the Levites had purified themselves ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "as one", "marks": ["i"] }, "."]
+        }
+      },
+      "together; all of them were pure: and they killed the passover for all the children of the captivity, and for their brethren the priests, and for themselves."
+    ]
   },
   {
     "book": "EZR",
@@ -990,13 +1695,13 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 5,
-    "content": "the son of Abishua, the son of Phinehas, the son of Eleazar, the son of Aaron the chief priest;"
+    "content": "the son of Abishua, the son of Phinehas, the son of Eleazar, the son of Aaron the chief priest—"
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 6,
-    "content": "this Ezra went up from Babylon: and he was a ready scribe in the law of Moses, which Jehovah, the God of Israel, had given; and the king granted him all his request, according to the hand of Jehovah his God upon him."
+    "content": "this Ezra went up from Babylon. And he was a ready scribe in the law of Moses, which Jehovah, the God of Israel, had given; and the king granted him all his request, according to the hand of Jehovah his God upon him."
   },
   {
     "book": "EZR",
@@ -1014,7 +1719,27 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 9,
-    "content": "For upon the first day of the first month began he to go up from Babylon; and on the first day of the fifth month came he to Jerusalem, according to the good hand of his God upon him."
+    "content": [
+      "For upon the first ",
+      { "text": "day", "marks": ["i"] },
+      {
+        "text": " of the first month ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            {
+              "text": "that was the foundation of the going up",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "began he to go up from Babylon; and on the first ",
+      { "text": "day", "marks": ["i"] },
+      " of the fifth month came he to Jerusalem, according to the good hand of his God upon him."
+    ]
   },
   {
     "book": "EZR",
@@ -1026,13 +1751,27 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 11,
-    "content": "Now this is the copy of the letter that the king Artaxerxes gave unto Ezra the priest, the scribe, even the scribe of the words of the commandments of Jehovah, and of his statutes to Israel:"
+    "content": {
+      "paragraph": true,
+      "text": "Now this is the copy of the letter that the king Artaxerxes gave unto Ezra the priest, the scribe, even the scribe of the words of the commandments of Jehovah, and of his statutes to Israel:"
+    }
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 12,
-    "content": "Artaxerxes, king of kings, unto Ezra the priest, the scribe of the law of the God of heaven, perfect and so forth."
+    "content": [
+      {
+        "foot": {
+          "type": "stu",
+          "content": [
+            { "bibleLink": "Ezra 7:12–26", "content": "7:12–26" },
+            " is in Aramaic."
+          ]
+        }
+      },
+      "Artaxerxes, king of kings, unto Ezra the priest, the scribe of the law of the God of heaven, perfect and so forth."
+    ]
   },
   {
     "book": "EZR",
@@ -1044,7 +1783,20 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 14,
-    "content": "Forasmuch as thou art sent of the king and his seven counsellors, to inquire concerning Judah and Jerusalem, according to the law of thy God which is in thy hand,"
+    "content": [
+      {
+        "text": "Forasmuch as thou art sent ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Aramaic ",
+            { "text": "from before the king", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "of the king and his seven counsellors, to inquire concerning Judah and Jerusalem, according to the law of thy God which is in thy hand,"
+    ]
   },
   {
     "book": "EZR",
@@ -1092,7 +1844,16 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 22,
-    "content": "unto a hundred talents of silver, and to a hundred measures of wheat, and to a hundred baths of wine, and to a hundred baths of oil, and salt without prescribing how much."
+    "content": [
+      {
+        "text": "unto a hundred talents of silver, and to a hundred ",
+        "foot": {
+          "type": "trn",
+          "content": ["Aramaic ", { "text": "cors", "marks": ["i"] }, "."]
+        }
+      },
+      "measures of wheat, and to a hundred baths of wine, and to a hundred baths of oil, and salt without prescribing how much."
+    ]
   },
   {
     "book": "EZR",
@@ -1116,13 +1877,29 @@
     "book": "EZR",
     "chapter": 7,
     "verse": 26,
-    "content": "And whosoever will not do the law of thy God, and the law of the king, let judgment be executed upon him with all diligence, whether it be unto death, or to banishment, or to confiscation of goods, or to imprisonment."
+    "content": [
+      {
+        "text": "And whosoever will not do the law of thy God, and the law of the king, let judgment be executed upon him with all diligence, whether it be unto death, or to ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Aramaic ",
+            { "text": "rooting out", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "banishment, or to confiscation of goods, or to imprisonment."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 7,
     "verse": 27,
-    "content": "Blessed be Jehovah, the God of our fathers, who hath put such a thing as this in the king’s heart, to beautify the house of Jehovah which is in Jerusalem;"
+    "content": {
+      "paragraph": true,
+      "text": "Blessed be Jehovah, the God of our fathers, who hath put such a thing as this in the king’s heart, to beautify the house of Jehovah which is in Jerusalem;"
+    }
   },
   {
     "book": "EZR",
@@ -1134,10 +1911,14 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now these are the heads of their fathers’ houses, and this is the genealogy of them that went up with me from Babylon, in the reign of Artaxerxes the king:"
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now these are the heads of their fathers’ "
+      },
+      { "text": "houses", "marks": ["i"] },
+      ", and this is the genealogy of them that went up with me from Babylon, in the reign of Artaxerxes the king:"
+    ]
   },
   {
     "book": "EZR",
@@ -1209,37 +1990,104 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 13,
-    "content": "And of the sons of Adonikam, that were the last; and these are their names: Eliphelet, Jeuel, and Shemaiah; and with them threescore males."
+    "content": [
+      "And of the sons of Adonikam, ",
+      { "text": "that were", "marks": ["i"] },
+      " the last; and these are their names: Eliphelet, Jeuel, and Shemaiah; and with them threescore males."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 14,
-    "content": "And of the sons of Bigvai, Uthai and Zabbud; and with them seventy males."
+    "content": [
+      {
+        "text": "And of the sons of Bigvai, Uthai and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Zaccur", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Zabbud; and with them seventy males."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 15,
-    "content": "And I gathered them together to the river that runneth to Ahava; and there we encamped three days: and I viewed the people, and the priests, and found there none of the sons of Levi."
+    "content": {
+      "paragraph": true,
+      "text": "And I gathered them together to the river that runneth to Ahava; and there we encamped three days: and I viewed the people, and the priests, and found there none of the sons of Levi."
+    }
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 16,
-    "content": "Then sent I for Eliezer, for Ariel, for Shemaiah, and for Elnathan, and for Jarib, and for Elnathan, and for Nathan, and for Zechariah, and for Meshullam, chief men; also for Joiarib, and for Elnathan, who were teachers."
+    "content": [
+      {
+        "text": "Then sent I for Eliezer, for Ariel, for Shemaiah, and for Elnathan, and for Jarib, and for Elnathan, and for Nathan, and for Zechariah, and for Meshullam, chief men; also for Joiarib, and for Elnathan, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "who had understanding", "marks": ["i"] }
+          ]
+        }
+      },
+      "who were teachers."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 17,
-    "content": "And I sent them forth unto Iddo the chief at the place Casiphia; and I told them what they should say unto Iddo, and his brethren the Nethinim, at the place Casiphia, that they should bring unto us ministers for the house of our God."
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "I gave them commandment", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "I sent them forth unto Iddo the chief at the place Casiphia; and I told them what they should say unto ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "The text as pointed has, ",
+            { "text": "Iddo, his brother", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "Iddo, ",
+      { "text": "and", "marks": ["i"] },
+      " his brethren the Nethinim, at the place Casiphia, that they should bring unto us ministers for the house of our God."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 8,
     "verse": 18,
-    "content": "And according to the good hand of our God upon us they brought us a man of discretion, of the sons of Mahli, the son of Levi, the son of Israel; and Sherebiah, with his sons and his brethren, eighteen;"
+    "content": [
+      {
+        "text": "And according to the good hand of our God upon us they brought us ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Ish-sechel", "marks": ["i"] }]
+        }
+      },
+      "a man of discretion, of the sons of Mahli, the son of Levi, the son of Israel; and Sherebiah, with his sons and his brethren, eighteen;"
+    ]
   },
   {
     "book": "EZR",
@@ -1257,7 +2105,10 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 21,
-    "content": "Then I proclaimed a fast there, at the river Ahava, that we might humble ourselves before our God, to seek of him a straight way for us, and for our little ones, and for all our substance."
+    "content": {
+      "paragraph": true,
+      "text": "Then I proclaimed a fast there, at the river Ahava, that we might humble ourselves before our God, to seek of him a straight way for us, and for our little ones, and for all our substance."
+    }
   },
   {
     "book": "EZR",
@@ -1275,7 +2126,30 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 24,
-    "content": "Then I set apart twelve of the chiefs of the priests, even Sherebiah, Hashabiah, and ten of their brethren with them,"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then I set apart twelve of the chiefs of the ",
+        "foot": {
+          "type": "stu",
+          "content": [
+            "In ",
+            { "bibleLink": "Nehemiah 12:24", "content": "Neh. 12:24" },
+            ", ",
+            { "text": "Levites", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "priests, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "besides", "marks": ["i"] }]
+        }
+      },
+      "even Sherebiah, Hashabiah, and ten of their brethren with them,"
+    ]
   },
   {
     "book": "EZR",
@@ -1305,7 +2179,11 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 29,
-    "content": "Watch ye, and keep them, until ye weigh them before the chiefs of the priests and the Levites, and the princes of the fathers’ houses of Israel, at Jerusalem, in the chambers of the house of Jehovah."
+    "content": [
+      "Watch ye, and keep them, until ye weigh them before the chiefs of the priests and the Levites, and the princes of the fathers’ ",
+      { "text": "houses", "marks": ["i"] },
+      " of Israel, at Jerusalem, in the chambers of the house of Jehovah."
+    ]
   },
   {
     "book": "EZR",
@@ -1317,7 +2195,14 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 31,
-    "content": "Then we departed from the river Ahava on the twelfth day of the first month, to go unto Jerusalem: and the hand of our God was upon us, and he delivered us from the hand of the enemy and the lier-in-wait by the way."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then we departed from the river Ahava on the twelfth "
+      },
+      { "text": "day", "marks": ["i"] },
+      " of the first month, to go unto Jerusalem: and the hand of our God was upon us, and he delivered us from the hand of the enemy and the lier-in-wait by the way."
+    ]
   },
   {
     "book": "EZR",
@@ -1329,7 +2214,16 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 33,
-    "content": "And on the fourth day the silver and the gold and the vessels were weighed in the house of our God into the hand of Meremoth the son of Uriah the priest; and with him was Eleazar the son of Phinehas; and with them was Jozabad the son of Jeshua, and Noadiah the son of Binnui, the Levite;"
+    "content": [
+      {
+        "text": "And on the fourth day the silver and the gold and the vessels were weighed in the house of our God ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by", "marks": ["i"] }]
+        }
+      },
+      "into the hand of Meremoth the son of Uriah the priest (and with him was Eleazar the son of Phinehas; and with them was Jozabad the son of Jeshua, and Noadiah the son of Binnui, the Levites)—"
+    ]
   },
   {
     "book": "EZR",
@@ -1341,7 +2235,10 @@
     "book": "EZR",
     "chapter": 8,
     "verse": 35,
-    "content": "The children of the captivity, that were come out of exile, offered burnt-offerings unto the God of Israel, twelve bullocks for all Israel, ninety and six rams, seventy and seven lambs, twelve he-goats for a sin-offering: all this was a burnt-offering unto Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "The children of the captivity, that were come out of exile, offered burnt-offerings unto the God of Israel, twelve bullocks for all Israel, ninety and six rams, seventy and seven lambs, twelve he-goats for a sin-offering: all this was a burnt-offering unto Jehovah."
+    }
   },
   {
     "book": "EZR",
@@ -1353,16 +2250,36 @@
     "book": "EZR",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "Now when these things were done, the princes drew near unto me, saying, The people of Israel, and the priests and the Levites, have not separated themselves from the peoples of the lands, doing according to their abominations, even of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Now when these things were done, the princes drew near unto me, saying, The people of Israel, and the priests and the Levites, have not separated themselves from the peoples of the lands, "
+      },
+      { "text": "doing", "marks": ["i"] },
+      " according to their abominations, even of the Canaanites, the Hittites, the Perizzites, the Jebusites, the Ammonites, the Moabites, the Egyptians, and the Amorites."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 9,
     "verse": 2,
-    "content": "For they have taken of their daughters for themselves and for their sons, so that the holy seed have mingled themselves with the peoples of the lands: yea, the hand of the princes and rulers hath been chief in this trespass."
+    "content": [
+      {
+        "text": "For they have taken of their daughters for themselves and for their sons, so that the holy seed have mingled themselves with the peoples of the lands: yea, the hand of the princes and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deputies", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "rulers hath been ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "first", "marks": ["i"] }]
+        }
+      },
+      "chief in this trespass."
+    ]
   },
   {
     "book": "EZR",
@@ -1380,7 +2297,17 @@
     "book": "EZR",
     "chapter": 9,
     "verse": 5,
-    "content": "And at the evening oblation I arose up from my humiliation, even with my garment and my robe rent; and I fell upon my knees, and spread out my hands unto Jehovah my God;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And at the evening oblation I arose up from my ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "fasting", "marks": ["i"] }]
+        }
+      },
+      "humiliation, even with my garment and my robe rent; and I fell upon my knees, and spread out my hands unto Jehovah my God;"
+    ]
   },
   {
     "book": "EZR",
@@ -1392,7 +2319,20 @@
     "book": "EZR",
     "chapter": 9,
     "verse": 7,
-    "content": "Since the days of our fathers we have been exceeding guilty unto this day; and for our iniquities have we, our kings, and our priests, been delivered into the hand of the kings of the lands, to the sword, to captivity, and to plunder, and to confusion of face, as it is this day."
+    "content": [
+      {
+        "text": "Since the days of our fathers we have been ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "in great guiltiness", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "exceeding guilty unto this day; and for our iniquities have we, our kings, and our priests, been delivered into the hand of the kings of the lands, to the sword, to captivity, and to plunder, and to confusion of face, as it is this day."
+    ]
   },
   {
     "book": "EZR",
@@ -1404,7 +2344,23 @@
     "book": "EZR",
     "chapter": 9,
     "verse": 9,
-    "content": "For we are bondmen; yet our God hath not forsaken us in our bondage, but hath extended lovingkindness unto us in the sight of the kings of Persia, to give us a reviving, to set up the house of our God, and to repair the ruins thereof, and to give us a wall in Judah and in Jerusalem."
+    "content": [
+      {
+        "text": "For we are bondmen; yet our God hath not forsaken us in our bondage, but hath extended lovingkindness unto us in the sight of the kings of Persia, to give us a reviving, to set up the house of our God, and to repair the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "waste places", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "ruins thereof, and to give us a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "fence", "marks": ["i"] }]
+        }
+      },
+      "wall in Judah and in Jerusalem."
+    ]
   },
   {
     "book": "EZR",
@@ -1461,7 +2417,16 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 3,
-    "content": "Now therefore let us make a covenant with our God to put away all the wives, and such as are born of them, according to the counsel of my lord, and of those that tremble at the commandment of our God; and let it be done according to the law."
+    "content": [
+      {
+        "text": "Now therefore let us make a covenant with our God to put away all the wives, and such as are born of them, according to the counsel of ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "the Lord", "marks": ["i"] }]
+        }
+      },
+      "my lord, and of those that tremble at the commandment of our God; and let it be done according to the law."
+    ]
   },
   {
     "book": "EZR",
@@ -1473,13 +2438,20 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 5,
-    "content": "Then arose Ezra, and made the chiefs of the priests, the Levites, and all Israel, to swear that they would do according to this word. So they sware."
+    "content": {
+      "paragraph": true,
+      "text": "Then arose Ezra, and made the chiefs of the priests, the Levites, and all Israel, to swear that they would do according to this word. So they sware."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 6,
-    "content": "Then Ezra rose up from before the house of God, and went into the chamber of Jehohanan the son of Eliashib: and when he came thither, he did eat no bread, nor drink water; for he mourned because of the trespass of them of the captivity."
+    "content": [
+      "Then Ezra rose up from before the house of God, and went into the chamber of Jehohanan the son of Eliashib: and ",
+      { "text": "when", "marks": ["i"] },
+      " he came thither, he did eat no bread, nor drink water; for he mourned because of the trespass of them of the captivity."
+    ]
   },
   {
     "book": "EZR",
@@ -1491,13 +2463,36 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 8,
-    "content": "and that whosoever came not within three days, according to the counsel of the princes and the elders, all his substance should be forfeited, and himself separated from the assembly of the captivity."
+    "content": [
+      {
+        "text": "and that whosoever came not within three days, according to the counsel of the princes and the elders, all his substance should be ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "devoted", "marks": ["i"] }, "."]
+        }
+      },
+      "forfeited, and himself separated from the assembly of the captivity."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 9,
-    "content": "Then all the men of Judah and Benjamin gathered themselves together unto Jerusalem within the three days; it was the ninth month, on the twentieth day of the month: and all the people sat in the broad place before the house of God, trembling because of this matter, and for the great rain."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then all the men of Judah and Benjamin gathered themselves together unto Jerusalem within the three days (it was the ninth month, on the twentieth "
+      },
+      { "text": "day", "marks": ["i"] },
+      {
+        "text": " of the month); and all the people sat in the broad place before the house of God, trembling because of this matter, and for ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "the rains", "marks": ["i"] }, "."]
+        }
+      },
+      "the great rain."
+    ]
   },
   {
     "book": "EZR",
@@ -1509,13 +2504,37 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 11,
-    "content": "Now therefore make confession unto Jehovah, the God of your fathers, and do his pleasure; and separate yourselves from the peoples of the land, and from the foreign women."
+    "content": [
+      {
+        "text": "Now therefore ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "give thanks", "marks": ["i"] }]
+        }
+      },
+      "make confession unto Jehovah, the God of your fathers, and do his pleasure; and separate yourselves from the peoples of the land, and from the foreign women."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 12,
-    "content": "Then all the assembly answered and said with a loud voice, As thou hast said concerning us, so must we do."
+    "content": [
+      {
+        "text": "Then all the assembly answered and said with a loud voice, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "As thou hast said, so it behooveth us to do",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "As thou hast said concerning us, so must we do."
+    ]
   },
   {
     "book": "EZR",
@@ -1527,19 +2546,61 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 14,
-    "content": "Let now our princes be appointed for all the assembly, and let all them that are in our cities that have married foreign women come at appointed times, and with them the elders of every city, and the judges thereof, until the fierce wrath of our God be turned from us, until this matter be despatched."
+    "content": [
+      {
+        "text": "Let now our princes ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "stand", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "be appointed for all the assembly, and let all them that are in our cities that have married foreign women come at appointed times, and with them the elders of every city, and the judges thereof, until the fierce wrath of our God be turned from us, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "as touching this matter", "marks": ["i"] }
+          ]
+        }
+      },
+      "until this matter be despatched."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 15,
-    "content": "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah stood up against this matter: and Meshullam and Shabbethai the Levite helped them."
+    "content": [
+      {
+        "text": "Only Jonathan the son of Asahel and Jahzeiah the son of Tikvah ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "were appointed over this", "marks": ["i"] }
+          ]
+        }
+      },
+      "stood up against this ",
+      { "text": "matter", "marks": ["i"] },
+      ": and Meshullam and Shabbethai the Levite helped them."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 16,
-    "content": "And the children of the captivity did so. And Ezra the priest, with certain heads of fathers’ houses, after their fathers’ houses, and all of them by their names, were set apart; and they sat down in the first day of the tenth month to examine the matter."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And the children of the captivity did so. And Ezra the priest, "
+      },
+      { "text": "with", "marks": ["i"] },
+      " certain heads of fathers’ ",
+      { "text": "houses", "marks": ["i"] },
+      ", after their fathers’ houses, and all of them by their names, were set apart; and they sat down in the first day of the tenth month to examine the matter."
+    ]
   },
   {
     "book": "EZR",
@@ -1551,13 +2612,24 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 18,
-    "content": "And among the sons of the priests there were found that had married foreign women: namely, of the sons of Jeshua, the son of Jozadak, and his brethren, Maaseiah, and Eliezer, and Jarib, and Gedaliah."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And among the sons of the priests there were found that had married foreign women: "
+      },
+      { "text": "namely", "marks": ["i"] },
+      ", of the sons of Jeshua, the son of Jozadak, and his brethren, Maaseiah, and Eliezer, and Jarib, and Gedaliah."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 19,
-    "content": "And they gave their hand that they would put away their wives; and being guilty, they offered a ram of the flock for their guilt."
+    "content": [
+      "And they gave their hand that they would put away their wives; and being guilty, ",
+      { "text": "they offered", "marks": ["i"] },
+      " a ram of the flock for their guilt."
+    ]
   },
   {
     "book": "EZR",
@@ -1581,19 +2653,28 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 23,
-    "content": "And of the Levites: Jozabad, and Shimei, and Kelaiah (the same is Kelita), Pethahiah, Judah, and Eliezer."
+    "content": {
+      "paragraph": true,
+      "text": "And of the Levites: Jozabad, and Shimei, and Kelaiah (the same is Kelita), Pethahiah, Judah, and Eliezer."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 24,
-    "content": "And of the singers: Eliashib. And of the porters: Shallum, and Telem, and Uri."
+    "content": {
+      "paragraph": true,
+      "text": "And of the singers: Eliashib. And of the porters: Shallum, and Telem, and Uri."
+    }
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 25,
-    "content": "And of Israel: Of the sons of Parosh: Ramiah, and Izziah, and Malchijah, and Mijamin, and Eleazar, and Malchijah, and Benaiah."
+    "content": {
+      "paragraph": true,
+      "text": "And of Israel: Of the sons of Parosh: Ramiah, and Izziah, and Malchijah, and Mijamin, and Eleazar, and Malchijah, and Benaiah."
+    }
   },
   {
     "book": "EZR",
@@ -1617,7 +2698,19 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 29,
-    "content": "And of the sons of Bani: Meshullam, Malluch, and Adaiah, Jashub, and Sheal, Jeremoth."
+    "content": [
+      {
+        "text": "And of the sons of Bani: Meshullam, Malluch, and Adaiah, Jashub, and Sheal, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "and Ramoth", "marks": ["i"] }
+          ]
+        }
+      },
+      "Jeremoth."
+    ]
   },
   {
     "book": "EZR",
@@ -1629,7 +2722,11 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 31,
-    "content": "And of the sons of Harim: Eliezer, Isshijah, Malchijah, Shemaiah, Shimeon,"
+    "content": [
+      "And ",
+      { "text": "of", "marks": ["i"] },
+      " the sons of Harim: Eliezer, Isshijah, Malchijah, Shemaiah, Shimeon,"
+    ]
   },
   {
     "book": "EZR",
@@ -1653,7 +2750,19 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 35,
-    "content": "Benaiah, Bedeiah, Cheluhi,"
+    "content": [
+      {
+        "text": "Benaiah, Bedeiah, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Cheluhu", "marks": ["i"] }
+          ]
+        }
+      },
+      "Cheluhi,"
+    ]
   },
   {
     "book": "EZR",
@@ -1665,7 +2774,19 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 37,
-    "content": "Mattaniah, Mattenai, and Jaasu,"
+    "content": [
+      {
+        "text": "Mattaniah, Mattenai, and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Jaasai", "marks": ["i"] }
+          ]
+        }
+      },
+      "Jaasu,"
+    ]
   },
   {
     "book": "EZR",
@@ -1701,12 +2822,37 @@
     "book": "EZR",
     "chapter": 10,
     "verse": 43,
-    "content": "Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, Iddo, and Joel, Benaiah."
+    "content": [
+      {
+        "text": "Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "Another reading is, ",
+            { "text": "Jaddai", "marks": ["i"] }
+          ]
+        }
+      },
+      "Iddo, and Joel, Benaiah."
+    ]
   },
   {
     "book": "EZR",
     "chapter": 10,
     "verse": 44,
-    "content": "All these had taken foreign wives; and some of them had wives by whom they had children."
+    "content": [
+      {
+        "text": "All these had taken foreign wives; and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "some of the wives had borne children", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "some of them had wives by whom they had children."
+    ]
   }
 ]

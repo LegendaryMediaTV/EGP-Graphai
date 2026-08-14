@@ -12,37 +12,115 @@
     "book": "AMS",
     "chapter": 1,
     "verse": 2,
-    "content": "And he said, Jehovah will roar from Zion, and utter his voice from Jerusalem; and the pastures of the shepherds shall mourn, and the top of Carmel shall wither."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "And he said, Jehovah will roar from Zion, and utter his voice from Jerusalem; and the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "habitations", "marks": ["i"] }]
+        }
+      },
+      "pastures of the shepherds shall mourn, and the top of Carmel shall wither."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 3,
-    "content": "Thus saith Jehovah: For three transgressions of Damascus, yea, for four, I will not turn away the punishment thereof; because they have threshed Gilead with threshing instruments of iron:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus saith Jehovah: For three transgressions of Damascus, yea, for four, I will not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "revoke my word", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "turn away ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "it", "marks": ["i"] },
+            " (and so in verses ",
+            { "bibleLink": "Amos 1:6", "content": "6" },
+            ", ",
+            { "bibleLink": "Amos 1:9", "content": "9" },
+            ", etc.)."
+          ]
+        }
+      },
+      "the punishment thereof; because they have threshed Gilead with threshing instruments of iron."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 4,
-    "content": "but I will send a fire into the house of Hazael, and it shall devour the palaces of Ben-hadad."
+    "content": "But I will send a fire into the house of Hazael, and it shall devour the palaces of Ben-hadad."
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 5,
-    "content": "And I will break the bar of Damascus, and cut off the inhabitant from the valley of Aven, and him that holdeth the sceptre from the house of Eden; and the people of Syria shall go into captivity unto Kir, saith Jehovah."
+    "content": [
+      {
+        "text": "And I will break the bar of Damascus, and cut off ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "him that sitteth", "marks": ["i"] },
+            " on the throne (and so in ",
+            { "bibleLink": "Amos 1:8", "content": "verse 8" },
+            ")"
+          ]
+        }
+      },
+      {
+        "text": "the inhabitant from the valley of ",
+        "foot": {
+          "type": "stu",
+          "content": ["That is, ", { "text": "Vanity", "marks": ["i"] }, "."]
+        }
+      },
+      {
+        "text": "Aven, and him that holdeth the sceptre from ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "Beth-eden", "marks": ["i"] }]
+        }
+      },
+      "the house of Eden; and the people of Syria shall go into captivity unto Kir, saith Jehovah."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 6,
-    "content": "Thus saith Jehovah: For three transgressions of Gaza, yea, for four, I will not turn away the punishment thereof; because they carried away captive the whole people, to deliver them up to Edom:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus saith Jehovah: For three transgressions of Gaza, yea, for four, I will not turn away the punishment thereof; because they carried away captive ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "an entire captivity", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the whole people, to deliver them up to Edom."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 7,
-    "content": "but I will send a fire on the wall of Gaza, and it shall devour the palaces thereof."
+    "content": "But I will send a fire on the wall of Gaza, and it shall devour the palaces thereof."
   },
   {
     "book": "AMS",
@@ -54,37 +132,79 @@
     "book": "AMS",
     "chapter": 1,
     "verse": 9,
-    "content": "Thus saith Jehovah: For three transgressions of Tyre, yea, for four, I will not turn away the punishment thereof; because they delivered up the whole people to Edom, and remembered not the brotherly covenant:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus saith Jehovah: For three transgressions of Tyre, yea, for four, I will not turn away the punishment thereof; because they delivered up ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "an entire captivity", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "the whole people to Edom, and remembered not ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "the covenant of brethren", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "the brotherly covenant."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 10,
-    "content": "but I will send a fire on the wall of Tyre, and it shall devour the palaces thereof."
+    "content": "But I will send a fire on the wall of Tyre, and it shall devour the palaces thereof."
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 11,
-    "content": "Thus saith Jehovah: For three transgressions of Edom, yea, for four, I will not turn away the punishment thereof; because he did pursue his brother with the sword, and did cast off all pity, and his anger did tear perpetually, and he kept his wrath for ever:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus saith Jehovah: For three transgressions of Edom, yea, for four, I will not turn away the punishment thereof; because he did pursue his brother with the sword, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "corrupted his compassions", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "did cast off all pity, and his anger did tear perpetually, and he kept his wrath for ever."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 12,
-    "content": "but I will send a fire upon Teman, and it shall devour the palaces of Bozrah."
+    "content": "But I will send a fire upon Teman, and it shall devour the palaces of Bozrah."
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 13,
-    "content": "Thus saith Jehovah: For three transgressions of the children of Ammon, yea, for four, I will not turn away the punishment thereof; because they have ripped up the women with child of Gilead, that they may enlarge their border:"
+    "content": {
+      "paragraph": true,
+      "text": "Thus saith Jehovah: For three transgressions of the children of Ammon, yea, for four, I will not turn away the punishment thereof; because they have ripped up the women with child of Gilead, that they may enlarge their border."
+    }
   },
   {
     "book": "AMS",
     "chapter": 1,
     "verse": 14,
-    "content": "but I will kindle a fire in the wall of Rabbah, and it shall devour the palaces thereof, with shouting in the day of battle, with a tempest in the day of the whirlwind;"
+    "content": "But I will kindle a fire in the wall of Rabbah, and it shall devour the palaces thereof, with shouting in the day of battle, with a tempest in the day of the whirlwind;"
   },
   {
     "book": "AMS",
@@ -98,14 +218,14 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "Thus saith Jehovah: For three transgressions of Moab, yea, for four, I will not turn away the punishment thereof; because he burned the bones of the king of Edom into lime:"
+      "text": "Thus saith Jehovah: For three transgressions of Moab, yea, for four, I will not turn away the punishment thereof; because he burned the bones of the king of Edom into lime."
     }
   },
   {
     "book": "AMS",
     "chapter": 2,
     "verse": 2,
-    "content": "but I will send a fire upon Moab, and it shall devour the palaces of Kerioth; and Moab shall die with tumult, with shouting, and with the sound of the trumpet;"
+    "content": "But I will send a fire upon Moab, and it shall devour the palaces of Kerioth; and Moab shall die with tumult, with shouting, and with the sound of the trumpet;"
   },
   {
     "book": "AMS",
@@ -117,25 +237,35 @@
     "book": "AMS",
     "chapter": 2,
     "verse": 4,
-    "content": "Thus saith Jehovah: For three transgressions of Judah, yea, for four, I will not turn away the punishment thereof; because they have rejected the law of Jehovah, and have not kept his statutes, and their lies have caused them to err, after which their fathers did walk:"
+    "content": {
+      "paragraph": true,
+      "text": "Thus saith Jehovah: For three transgressions of Judah, yea, for four, I will not turn away the punishment thereof; because they have rejected the law of Jehovah, and have not kept his statutes, and their lies have caused them to err, after which their fathers did walk."
+    }
   },
   {
     "book": "AMS",
     "chapter": 2,
     "verse": 5,
-    "content": "but I will send a fire upon Judah, and it shall devour the palaces of Jerusalem."
+    "content": "But I will send a fire upon Judah, and it shall devour the palaces of Jerusalem."
   },
   {
     "book": "AMS",
     "chapter": 2,
     "verse": 6,
-    "content": "Thus saith Jehovah: For three transgressions of Israel, yea, for four, I will not turn away the punishment thereof; because they have sold the righteous for silver, and the needy for a pair of shoes—"
+    "content": {
+      "paragraph": true,
+      "text": "Thus saith Jehovah: For three transgressions of Israel, yea, for four, I will not turn away the punishment thereof; because they have sold the righteous for silver, and the needy for a pair of shoes—"
+    }
   },
   {
     "book": "AMS",
     "chapter": 2,
     "verse": 7,
-    "content": "they that pant after the dust of the earth on the head of the poor, and turn aside the way of the meek: and a man and his father go unto the same maiden, to profane my holy name:"
+    "content": [
+      "they that pant after the dust of the earth on the head of the poor, and turn aside the way of the meek: and a man and his father go unto the ",
+      { "text": "same", "marks": ["i"] },
+      " maiden, to profane my holy name:"
+    ]
   },
   {
     "book": "AMS",
@@ -147,7 +277,10 @@
     "book": "AMS",
     "chapter": 2,
     "verse": 9,
-    "content": "Yet destroyed I the Amorite before them, whose height was like the height of the cedars, and he was strong as the oaks; yet I destroyed his fruit from above, and his roots from beneath."
+    "content": {
+      "paragraph": true,
+      "text": "Yet destroyed I the Amorite before them, whose height was like the height of the cedars, and he was strong as the oaks; yet I destroyed his fruit from above, and his roots from beneath."
+    }
   },
   {
     "book": "AMS",
@@ -171,25 +304,88 @@
     "book": "AMS",
     "chapter": 2,
     "verse": 13,
-    "content": "Behold, I will press you in your place, as a cart presseth that is full of sheaves."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Behold, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "I am pressed under you, as a cart is pressed that is full of sheaves",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "I will press ",
+      { "text": "you", "marks": ["i"] },
+      " in your place, as a cart presseth that is full of sheaves."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 2,
     "verse": 14,
-    "content": "And flight shall perish from the swift; and the strong shall not strengthen his force; neither shall the mighty deliver himself;"
+    "content": [
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "refuge shall fail the swift", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "flight shall perish from the swift; and the strong shall not strengthen his force; neither shall the mighty deliver ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "his soul", "marks": ["i"] },
+            " (or, ",
+            { "text": "life", "marks": ["i"] },
+            ")."
+          ]
+        }
+      },
+      "himself;"
+    ]
   },
   {
     "book": "AMS",
     "chapter": 2,
     "verse": 15,
-    "content": "neither shall he stand that handleth the bow; and he that is swift of foot shall not deliver himself; neither shall he that rideth the horse deliver himself;"
+    "content": [
+      "neither shall he stand that handleth the bow; and he that is swift of foot shall not deliver ",
+      { "text": "himself", "marks": ["i"] },
+      {
+        "text": "; neither shall he that rideth the horse deliver ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "his soul", "marks": ["i"] },
+            " (or, ",
+            { "text": "life", "marks": ["i"] },
+            ")."
+          ]
+        }
+      },
+      "himself;"
+    ]
   },
   {
     "book": "AMS",
     "chapter": 2,
     "verse": 16,
-    "content": "and he that is courageous among the mighty shall flee away naked in that day, saith Jehovah."
+    "content": {
+      "text": "and he that is courageous among the mighty shall flee away naked in that day, saith Jehovah.",
+      "break": true
+    }
   },
   {
     "book": "AMS",
@@ -210,7 +406,16 @@
     "book": "AMS",
     "chapter": 3,
     "verse": 3,
-    "content": "Shall two walk together, exept they have agreed?"
+    "content": [
+      {
+        "text": "Shall two walk together, except they have ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "made an appointment", "marks": ["i"] }]
+        }
+      },
+      "agreed?"
+    ]
   },
   {
     "book": "AMS",
@@ -222,7 +427,11 @@
     "book": "AMS",
     "chapter": 3,
     "verse": 5,
-    "content": "Can a bird fall in a snare upon the earth, where no gin is set for him? shall a snare spring up from the ground, and have taken nothing at all?"
+    "content": [
+      "Can a bird fall in a snare upon the earth, where no gin is ",
+      { "text": "set", "marks": ["i"] },
+      " for him? shall a snare spring up from the ground, and have taken nothing at all?"
+    ]
   },
   {
     "book": "AMS",
@@ -246,7 +455,24 @@
     "book": "AMS",
     "chapter": 3,
     "verse": 9,
-    "content": "Publish ye in the palaces at Ashdod, and in the palaces in the land of Egypt, and say, Assemble yourselves upon the mountains of Samaria, and behold what great tumults are therein, and what oppressions in the midst thereof."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Publish ye ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "in the palaces at Ashdod, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon", "marks": ["i"] }]
+        }
+      },
+      "in the palaces in the land of Egypt, and say, Assemble yourselves upon the mountains of Samaria, and behold what great tumults are therein, and what oppressions in the midst thereof."
+    ]
   },
   {
     "book": "AMS",
@@ -258,19 +484,39 @@
     "book": "AMS",
     "chapter": 3,
     "verse": 11,
-    "content": "Therefore thus saith the Lord Jehovah: An adversary there shall be, even round about the land; and he shall bring down thy strength from thee, and thy palaces shall be plundered."
+    "content": [
+      "Therefore thus saith the Lord Jehovah: An adversary ",
+      { "text": "there shall be", "marks": ["i"] },
+      ", even round about the land; and he shall bring down thy strength from thee, and thy palaces shall be plundered."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 3,
     "verse": 12,
-    "content": "Thus saith Jehovah: As the shepherd rescueth out of the mouth of the lion two legs, or a piece of an ear, so shall the children of Israel be rescued that sit in Samaria in the corner of a couch, and on the silken cushions of a bed."
+    "content": [
+      {
+        "text": "Thus saith Jehovah: As the shepherd rescueth out of the mouth of the lion two legs, or a piece of an ear, so shall the children of Israel be rescued that sit in Samaria in the corner of a couch, and ",
+        "foot": {
+          "type": "var",
+          "content": [
+            "According to some manuscripts, ",
+            { "text": "in Damascus on a bed", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "on the silken cushions of a bed."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 3,
     "verse": 13,
-    "content": "Hear ye, and testify against the house of Jacob, saith the Lord Jehovah, the God of hosts."
+    "content": {
+      "paragraph": true,
+      "text": "Hear ye, and testify against the house of Jacob, saith the Lord Jehovah, the God of hosts."
+    }
   },
   {
     "book": "AMS",
@@ -282,7 +528,16 @@
     "book": "AMS",
     "chapter": 3,
     "verse": 15,
-    "content": "And I will smite the winter-house with the summer-house; and the houses of ivory shall perish, and the great houses shall have an end, saith Jehovah."
+    "content": [
+      {
+        "text": "And I will smite the winter-house with the summer-house; and the houses of ivory shall perish, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "many houses", "marks": ["i"] }]
+        }
+      },
+      "the great houses shall have an end, saith Jehovah."
+    ]
   },
   {
     "book": "AMS",
@@ -303,25 +558,58 @@
     "book": "AMS",
     "chapter": 4,
     "verse": 3,
-    "content": "And ye shall go out at the breaches, every one straight before her; and ye shall cast yourselves into Harmon, saith Jehovah."
+    "content": [
+      {
+        "text": "And ye shall go out at the breaches, every one straight before her; ",
+        "foot": { "type": "stu", "content": "The text is obscure." }
+      },
+      "and ye shall cast ",
+      { "text": "yourselves", "marks": ["i"] },
+      " into Harmon, saith Jehovah."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 4,
     "verse": 4,
-    "content": "Come to Beth-el, and transgress; to Gilgal, and multiply transgression; and bring your sacrifices every morning, and your tithes every three days;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Come to Beth-el, and transgress; to Gilgal, "
+      },
+      { "text": "and", "marks": ["i"] },
+      " multiply transgression; and bring your sacrifices every morning, ",
+      { "text": "and", "marks": ["i"] },
+      " your tithes every three days;"
+    ]
   },
   {
     "book": "AMS",
     "chapter": 4,
     "verse": 5,
-    "content": "and offer a sacrifice of thanksgiving of that which is leavened, and proclaim freewill-offerings and publish them: for this pleaseth you, O ye children of Israel, saith the Lord Jehovah."
+    "content": [
+      {
+        "text": "and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "offer by burning", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "offer a sacrifice of thanksgiving of that which is leavened, and proclaim freewill-offerings and publish them: for this pleaseth you, O ye children of Israel, saith the Lord Jehovah."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 4,
     "verse": 6,
-    "content": "And I also have given you cleanness of teeth in all your cities, and want of bread in all your places; yet have ye not returned unto me, saith Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "And I also have given you cleanness of teeth in all your cities, and want of bread in all your places; yet have ye not returned unto me, saith Jehovah."
+    }
   },
   {
     "book": "AMS",
@@ -345,19 +633,43 @@
     "book": "AMS",
     "chapter": 4,
     "verse": 10,
-    "content": "I have sent among you the pestilence after the manner of Egypt: your young men have I slain with the sword, and have carried away your horses; and I have made the stench of your camp to come up even into your nostrils: yet have ye not returned unto me, saith Jehovah."
+    "content": [
+      {
+        "text": "I have sent among you the pestilence after the manner of Egypt: your young men have I slain with the sword, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "with the captivity of your horses", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "and have carried away your horses; and I have made the stench of your camp to come up even into your nostrils: yet have ye not returned unto me, saith Jehovah."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 4,
     "verse": 11,
-    "content": "I have overthrown cities among you, as when God overthrew Sodom and Gomorrah, and ye were as a brand plucked out of the burning: yet have ye not returned unto me, saith Jehovah."
+    "content": [
+      "I have overthrown ",
+      { "text": "cities", "marks": ["i"] },
+      " among you, as when God overthrew Sodom and Gomorrah, and ye were as a brand plucked out of the burning: yet have ye not returned unto me, saith Jehovah."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 4,
     "verse": 12,
-    "content": "Therefore thus will I do unto thee, O Israel; and because I will do this unto thee, prepare to meet thy God, O Israel."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Therefore thus will I do unto thee, O Israel; "
+      },
+      { "text": "and", "marks": ["i"] },
+      " because I will do this unto thee, prepare to meet thy God, O Israel."
+    ]
   },
   {
     "book": "AMS",
@@ -378,7 +690,16 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 2,
-    "content": "The virgin of Israel is fallen; she shall no more rise: she is cast down upon her land; there is none to raise her up."
+    "content": [
+      {
+        "text": "The virgin of Israel is fallen; she shall no more rise: she ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "lieth forsaken", "marks": ["i"] }]
+        }
+      },
+      "is cast down upon her land; there is none to raise her up."
+    ]
   },
   {
     "book": "AMS",
@@ -390,13 +711,31 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 4,
-    "content": "For thus saith Jehovah unto the house of Israel, Seek ye me, and ye shall live;"
+    "content": {
+      "paragraph": true,
+      "text": "For thus saith Jehovah unto the house of Israel, Seek ye me, and ye shall live;"
+    }
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 5,
-    "content": "but seek not Beth-el, nor enter into Gilgal, and pass not to Beer-sheba: for Gilgal shall surely go into captivity, and Beth-el shall come to nought."
+    "content": [
+      {
+        "text": "but seek not Beth-el, nor enter into Gilgal, and pass not to Beer-sheba: for Gilgal shall surely go into captivity, and Beth-el shall ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "become vanity", "marks": ["i"] },
+            " (Hebrew ",
+            { "text": "Aven", "marks": ["i"] },
+            ")"
+          ]
+        }
+      },
+      "come to nought."
+    ]
   },
   {
     "book": "AMS",
@@ -414,19 +753,44 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 8,
-    "content": "seek him that maketh the Pleiades and Orion, and turneth the shadow of death into the morning, and maketh the day dark with night; that calleth for the waters of the sea, and poureth them out upon the face of the earth (Jehovah is his name);"
+    "content": [
+      { "text": "seek him", "marks": ["i"] },
+      {
+        "text": " that maketh the Pleiades and Orion, and turneth ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "deep darkness", "marks": ["i"] }]
+        }
+      },
+      "the shadow of death into the morning, and maketh the day dark with night; that calleth for the waters of the sea, and poureth them out upon the face of the earth (Jehovah is his name);"
+    ]
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 9,
-    "content": "that bringeth sudden destruction upon the strong, so that destruction cometh upon the fortress."
+    "content": [
+      {
+        "text": "that ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "causeth destruction to flash forth", "marks": ["i"] }
+          ]
+        }
+      },
+      "bringeth sudden destruction upon the strong, so that destruction cometh upon the fortress."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 10,
-    "content": "They hate him that reproveth in the gate, and they abhor him that speaketh uprightly."
+    "content": {
+      "paragraph": true,
+      "text": "They hate him that reproveth in the gate, and they abhor him that speaketh uprightly."
+    }
   },
   {
     "book": "AMS",
@@ -438,7 +802,11 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 12,
-    "content": "For I know how manifold are your transgressions, and how mighty are your sins—ye that afflict the just, that take a bribe, and that turn aside the needy in the gate from their right."
+    "content": [
+      "For I know how manifold are your transgressions, and how mighty are your sins—ye that afflict the just, that take a bribe, and that turn aside the needy in the gate ",
+      { "text": "from their right", "marks": ["i"] },
+      "."
+    ]
   },
   {
     "book": "AMS",
@@ -450,7 +818,10 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 14,
-    "content": "Seek good, and not evil, that ye may live; and so Jehovah, the God of hosts, will be with you, as ye say."
+    "content": {
+      "paragraph": true,
+      "text": "Seek good, and not evil, that ye may live; and so Jehovah, the God of hosts, will be with you, as ye say."
+    }
   },
   {
     "book": "AMS",
@@ -462,7 +833,26 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 16,
-    "content": "Therefore thus saith Jehovah, the God of hosts, the Lord: Wailing shall be in all the broad ways; and they shall say in all the streets, Alas! Alas! and they shall call the husbandman to mourning, and such as are skilful in lamentation to wailing."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Therefore thus saith Jehovah, the God of hosts, the Lord: Wailing shall be in all the broad ways; and they shall say in all the streets, Alas! alas! and they shall call the husbandman to mourning, ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "and", "marks": ["i"] },
+            " proclaim ",
+            {
+              "text": "wailing to such as are skilful in lamentation",
+              "marks": ["i"]
+            },
+            "."
+          ]
+        }
+      },
+      "and such as are skilful in lamentation to wailing."
+    ]
   },
   {
     "book": "AMS",
@@ -474,13 +864,25 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 18,
-    "content": "Woe unto you that desire the day of Jehovah! Wherefore would ye have the day of Jehovah? It is darkness, and not light."
+    "content": {
+      "paragraph": true,
+      "text": "Woe unto you that desire the day of Jehovah! Wherefore would ye have the day of Jehovah? It is darkness, and not light."
+    }
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 19,
-    "content": "As if a man did flee from a lion, and a bear met him; or went into the house and leaned his hand on the wall, and a serpent bit him."
+    "content": [
+      {
+        "text": "As if a man did flee from a lion, and a bear met him; ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "and", "marks": ["i"] }]
+        }
+      },
+      "or went into the house and leaned his hand on the wall, and a serpent bit him."
+    ]
   },
   {
     "book": "AMS",
@@ -492,13 +894,49 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 21,
-    "content": "I hate, I despise your feasts, and I will take no delight in your solemn assemblies."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I hate, I despise your feasts, and I ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "will not smell", "marks": ["i"] },
+            " a savor."
+          ]
+        }
+      },
+      "will take no delight in your solemn assemblies."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 22,
-    "content": "Yea, though ye offer me your burnt-offerings and meal-offerings, I will not accept them; neither will I regard the peace-offerings of your fat beasts."
+    "content": [
+      {
+        "text": "Yea, though ye offer me ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "burnt-offerings with your meal-offerings",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "your burnt-offerings and meal-offerings, I will not accept them; neither will I regard the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thank-offerings", "marks": ["i"] }]
+        }
+      },
+      "peace-offerings of your fat beasts."
+    ]
   },
   {
     "book": "AMS",
@@ -510,19 +948,53 @@
     "book": "AMS",
     "chapter": 5,
     "verse": 24,
-    "content": "But let justice roll down as waters, and righteousness as a mighty stream."
+    "content": [
+      {
+        "text": "But let justice roll down as waters, and righteousness as a ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "ever-flowing", "marks": ["i"] }]
+        }
+      },
+      "mighty stream."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 25,
-    "content": "Did ye bring unto me sacrifices and offerings in the wilderness forty years, O house of Israel?"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Did ye bring unto me sacrifices and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "meal-offerings", "marks": ["i"] }]
+        }
+      },
+      "offerings in the wilderness forty years, O house of Israel?"
+    ]
   },
   {
     "book": "AMS",
     "chapter": 5,
     "verse": 26,
-    "content": "Yea, ye have borne the tabernacle of your king and the shrine of your images, the star of your god, which ye made to yourselves."
+    "content": [
+      {
+        "text": "Yea, ye ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "shall take up . . . And I will cause etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "have borne the tabernacle of your king and the shrine of your images, the star of your god, which ye made to yourselves."
+    ]
   },
   {
     "book": "AMS",
@@ -549,7 +1021,16 @@
     "book": "AMS",
     "chapter": 6,
     "verse": 3,
-    "content": "—ye that put far away the evil day, and cause the seat of violence to come near;"
+    "content": [
+      {
+        "text": "—ye that put far away the evil day, and cause the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "sitting", "marks": ["i"] }]
+        }
+      },
+      "seat of violence to come near;"
+    ]
   },
   {
     "book": "AMS",
@@ -561,25 +1042,59 @@
     "book": "AMS",
     "chapter": 6,
     "verse": 5,
-    "content": "that sing idle songs to the sound of the viol; that invent for themselves instruments of music, like David;"
+    "content": [
+      {
+        "text": "that sing idle songs to the sound of the viol; that invent for themselves instruments of music, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "like David’s", "marks": ["i"] }]
+        }
+      },
+      "like David;"
+    ]
   },
   {
     "book": "AMS",
     "chapter": 6,
     "verse": 6,
-    "content": "that drink wine in bowls, and anoint themselves with the chief oils; but they are not grieved for the affliction of Joseph."
+    "content": [
+      {
+        "text": "that drink ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "in bowls of wine", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "wine in bowls, and anoint themselves with the chief oils; but they are not grieved for the affliction of Joseph."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 6,
     "verse": 7,
-    "content": "Therefore shall they now go captive with the first that go captive; and the revelry of them that stretched themselves shall pass away."
+    "content": {
+      "paragraph": true,
+      "text": "Therefore shall they now go captive with the first that go captive; and the revelry of them that stretched themselves shall pass away."
+    }
   },
   {
     "book": "AMS",
     "chapter": 6,
     "verse": 8,
-    "content": "The Lord Jehovah hath sworn by himself, saith Jehovah, the God of hosts: I abhor the excellency of Jacob, and hate his palaces; therefore will I deliver up the city with all that is therein."
+    "content": [
+      {
+        "text": "The Lord Jehovah hath sworn by himself, saith Jehovah, the God of hosts: I abhor the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pride", "marks": ["i"] }]
+        }
+      },
+      "excellency of Jacob, and hate his palaces; therefore will I deliver up the city with all that is therein."
+    ]
   },
   {
     "book": "AMS",
@@ -591,19 +1106,47 @@
     "book": "AMS",
     "chapter": 6,
     "verse": 10,
-    "content": "And when a man’s uncle shall take him up, even he that burneth him, to bring out the bones out of the house, and shall say unto him that is in the innermost parts of the house, Is there yet any with thee? and he shall say, No; then shall he say, Hold thy peace; for we may not make mention of the name of Jehovah."
+    "content": [
+      {
+        "text": "And when a man’s ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "kinsman", "marks": ["i"] }]
+        }
+      },
+      "uncle shall take him up, even he that burneth him, to bring out the bones out of the house, and shall say unto him that is in the innermost parts of the house, Is there yet any with thee? and he shall say, No; then shall he say, Hold thy peace; for we may not make mention of the name of Jehovah."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 6,
     "verse": 11,
-    "content": "For, behold, Jehovah commandeth, and the great house shall be smitten with breaches, and the little house with clefts."
+    "content": [
+      {
+        "text": "For, behold, Jehovah commandeth, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "he will smite the great house", "marks": ["i"] }
+          ]
+        }
+      },
+      "the great house shall be smitten with breaches, and the little house with clefts."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 6,
     "verse": 12,
-    "content": "Shall horses run upon the rock? will one plow there with oxen? that ye have turned justice into gall, and the fruit of righteousness into wormwood;"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Shall horses run upon the rock? will one plow "
+      },
+      { "text": "there", "marks": ["i"] },
+      " with oxen? that ye have turned justice into gall, and the fruit of righteousness into wormwood;"
+    ]
   },
   {
     "book": "AMS",
@@ -615,7 +1158,10 @@
     "book": "AMS",
     "chapter": 6,
     "verse": 14,
-    "content": "For, behold, I will raise up against you a nation, O house of Israel, saith Jehovah, the God of hosts; and they shall afflict you from the entrance of Hamath unto the brook of the Arabah."
+    "content": {
+      "text": "For, behold, I will raise up against you a nation, O house of Israel, saith Jehovah, the God of hosts; and they shall afflict you from the entrance of Hamath unto the brook of the Arabah.",
+      "break": true
+    }
   },
   {
     "book": "AMS",
@@ -642,7 +1188,17 @@
     "book": "AMS",
     "chapter": 7,
     "verse": 4,
-    "content": "Thus the Lord Jehovah showed me: and, behold, the Lord Jehovah called to content by fire; and it devoured the great deep, and would have eaten up the land."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus the Lord Jehovah showed me: and, behold, the Lord Jehovah called to contend by fire; and it devoured the great deep, and would have eaten up the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "portion", "marks": ["i"] }, "."]
+        }
+      },
+      "land."
+    ]
   },
   {
     "book": "AMS",
@@ -654,13 +1210,23 @@
     "book": "AMS",
     "chapter": 7,
     "verse": 6,
-    "content": "Jehovah repented concerning this: this also shall not be, saith the Lord Jehovah."
+    "content": "Jehovah repented concerning this: This also shall not be, saith the Lord Jehovah."
   },
   {
     "book": "AMS",
     "chapter": 7,
     "verse": 7,
-    "content": "Thus he showed me: and, behold, the Lord stood beside a wall made by a plumb-line, with a plumb-line in his hand."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Thus he showed me: and, behold, the Lord stood ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon", "marks": ["i"] }]
+        }
+      },
+      "beside a wall made by a plumb-line, with a plumb-line in his hand."
+    ]
   },
   {
     "book": "AMS",
@@ -678,7 +1244,10 @@
     "book": "AMS",
     "chapter": 7,
     "verse": 10,
-    "content": "Then Amaziah the priest of Beth-el sent to Jeroboam king of Israel, saying, Amos hath conspired against thee in the midst of the house of Israel: the land is not able to bear all his words."
+    "content": {
+      "paragraph": true,
+      "text": "Then Amaziah the priest of Beth-el sent to Jeroboam king of Israel, saying, Amos hath conspired against thee in the midst of the house of Israel: the land is not able to bear all his words."
+    }
   },
   {
     "book": "AMS",
@@ -702,7 +1271,44 @@
     "book": "AMS",
     "chapter": 7,
     "verse": 14,
-    "content": "Then answered Amos, and said to Amaziah, I was no prophet, neither was I a prophet’s son; but I was a herdsman, and a dresser of sycomore-trees:"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Then answered Amos, and said to Amaziah, I ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "am", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "was no prophet, neither ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "am", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "was I ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "one of the sons of the prophets", "marks": ["i"] },
+            ". See ",
+            { "bibleLink": "1 Kings 20:35", "content": "1 Kin. 20:35" },
+            "."
+          ]
+        }
+      },
+      {
+        "text": "a prophet’s son; but I ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "am", "marks": ["i"] }]
+        }
+      },
+      "was a herdsman, and a dresser of sycomore-trees:"
+    ]
   },
   {
     "book": "AMS",
@@ -714,7 +1320,11 @@
     "book": "AMS",
     "chapter": 7,
     "verse": 16,
-    "content": "Now therefore hear thou the word of Jehovah: Thou sayest, Prophesy not against Israel, and drop not thy word against the house of Isaac;"
+    "content": [
+      "Now therefore hear thou the word of Jehovah: Thou sayest, Prophesy not against Israel, and drop not ",
+      { "text": "thy word", "marks": ["i"] },
+      " against the house of Isaac;"
+    ]
   },
   {
     "book": "AMS",
@@ -741,19 +1351,50 @@
     "book": "AMS",
     "chapter": 8,
     "verse": 3,
-    "content": "And the songs of the temple shall be wailings in that day, saith the Lord Jehovah: the dead bodies shall be many: in every place shall they cast them forth with silence."
+    "content": [
+      {
+        "text": "And the songs of the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "palace", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "temple shall be wailings in that day, saith the Lord Jehovah: the dead bodies shall be many; in every place ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "have they cast them forth: be silent!", "marks": ["i"] }
+          ]
+        }
+      },
+      "shall they cast them forth with silence."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 8,
     "verse": 4,
-    "content": "Hear this, O ye that would swallow up the needy, and cause the poor of the land to fail,"
+    "content": {
+      "paragraph": true,
+      "text": "Hear this, O ye that would swallow up the needy, and cause the poor of the land to fail,"
+    }
   },
   {
     "book": "AMS",
     "chapter": 8,
     "verse": 5,
-    "content": "saying, When will the new moon be gone, that we may sell grain? and the sabbath, that we may set forth wheat, making the ephah small, and the shekel great, and dealing falsely with balances of deceit;"
+    "content": [
+      {
+        "text": "saying, When will the new moon be gone, that we may sell grain? and the sabbath, that we may ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "open", "marks": ["i"] }, "."]
+        }
+      },
+      "set forth wheat, making the ephah small, and the shekel great, and dealing falsely with balances of deceit;"
+    ]
   },
   {
     "book": "AMS",
@@ -789,7 +1430,10 @@
     "book": "AMS",
     "chapter": 8,
     "verse": 11,
-    "content": "Behold, the days come, saith the Lord Jehovah, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of Jehovah."
+    "content": {
+      "paragraph": true,
+      "text": "Behold, the days come, saith the Lord Jehovah, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of Jehovah."
+    }
   },
   {
     "book": "AMS",
@@ -807,16 +1451,45 @@
     "book": "AMS",
     "chapter": 8,
     "verse": 14,
-    "content": "They that swear by the sin of Samaria, and say, As thy god, O Dan, liveth; and, As the way of Beer-sheba liveth; they shall fall, and never rise up again."
+    "content": [
+      {
+        "text": "They that swear by the sin of Samaria, and say, As thy god, O Dan, liveth; and, As the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "manner", "marks": ["i"] }]
+        }
+      },
+      "way of Beer-sheba liveth; they shall fall, and never rise up again."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I saw the Lord standing beside the altar: and he said, Smite the capitals, that the thresholds may shake; and break them in pieces on the head of all of them; and I will slay the last of them with the sword: there shall not one of them flee away, and there shall not one of them escape."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I saw the Lord standing ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "upon", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "beside the altar: and he said, Smite the capitals, that the thresholds may shake; and break them in pieces on the head of all of them; and I will slay the last of them with the sword: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "he that fleeth of them shall not flee away, and he that escapeth of them shall not be delivered",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "there shall not one of them flee away, and there shall not one of them escape."
+    ]
   },
   {
     "book": "AMS",
@@ -840,19 +1513,29 @@
     "book": "AMS",
     "chapter": 9,
     "verse": 5,
-    "content": "For the Lord, Jehovah of hosts, is he that toucheth the land and it melteth, and all that dwell therein shall mourn; and it shall rise up wholly like the River, and shall sink again, like the River of Egypt;"
+    "content": [
+      { "paragraph": true, "text": "For the Lord, Jehovah of hosts, " },
+      { "text": "is", "marks": ["i"] },
+      " he that toucheth the land and it melteth, and all that dwell therein shall mourn; and it shall rise up wholly like the River, and shall sink again, like the River of Egypt;"
+    ]
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 6,
-    "content": "it is he that buildeth his chambers in the heavens, and hath founded his vault upon the earth; he that calleth for the waters of the sea, and poureth them out upon the face of the earth; Jehovah is his name."
+    "content": [
+      { "text": "it is", "marks": ["i"] },
+      " he that buildeth his chambers in the heavens, and hath founded his vault upon the earth; he that calleth for the waters of the sea, and poureth them out upon the face of the earth; Jehovah is his name."
+    ]
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 7,
-    "content": "Are ye not as the children of the Ethiopians unto me, O children of Israel? saith Jehovah. Have not I brought up Israel out of the land of Egypt, and the Philistines from Caphtor, and the Syrians from Kir?"
+    "content": {
+      "paragraph": true,
+      "text": "Are ye not as the children of the Ethiopians unto me, O children of Israel? saith Jehovah. Have not I brought up Israel out of the land of Egypt, and the Philistines from Caphtor, and the Syrians from Kir?"
+    }
   },
   {
     "book": "AMS",
@@ -864,7 +1547,22 @@
     "book": "AMS",
     "chapter": 9,
     "verse": 9,
-    "content": "For, lo, I will command, and I will sift the house of Israel among all the nations, like as grain is sifted in a sieve, yet shall not the least kernel fall upon the earth."
+    "content": [
+      {
+        "text": "For, lo, I will command, and I will ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "cause to move to and fro", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      "sift the house of Israel among all the nations, like as ",
+      { "text": "grain", "marks": ["i"] },
+      " is sifted in a sieve, yet shall not the least kernel fall upon the earth."
+    ]
   },
   {
     "book": "AMS",
@@ -876,13 +1574,25 @@
     "book": "AMS",
     "chapter": 9,
     "verse": 11,
-    "content": "In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof; and I will raise up its ruins, and I will build it as in the days of old;"
+    "content": {
+      "paragraph": true,
+      "text": "In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof; and I will raise up its ruins, and I will build it as in the days of old;"
+    }
   },
   {
     "book": "AMS",
     "chapter": 9,
     "verse": 12,
-    "content": "that they may possess the remnant of Edom, and all the nations that are called by my name, saith Jehovah that doeth this."
+    "content": [
+      {
+        "text": "that they may possess the remnant of Edom, and all the nations that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "were", "marks": ["i"] }]
+        }
+      },
+      "are called by my name, saith Jehovah that doeth this."
+    ]
   },
   {
     "book": "AMS",
@@ -894,7 +1604,16 @@
     "book": "AMS",
     "chapter": 9,
     "verse": 14,
-    "content": "And I will bring back the captivity of my people Israel, and they shall build the waste cities, and inhabit them; and they shall plant vineyards, and drink the wine thereof; they shall also make gardens, and eat the fruit of them."
+    "content": [
+      {
+        "text": "And I will ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "return to", "marks": ["i"] }]
+        }
+      },
+      "bring back the captivity of my people Israel, and they shall build the waste cities, and inhabit them; and they shall plant vineyards, and drink the wine thereof; they shall also make gardens, and eat the fruit of them."
+    ]
   },
   {
     "book": "AMS",

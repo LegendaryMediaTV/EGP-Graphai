@@ -3,34 +3,80 @@
     "book": "HAB",
     "chapter": 1,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "The burden which Habbakkuk the prophet did see."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "oracle", "marks": ["i"] }]
+        }
+      },
+      "burden which Habakkuk the prophet did see."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 2,
-    "content": "O Jehovah, how long shall I cry, and thou wilt not hear? I cry out unto thee of violence, and thou wilt not save."
+    "content": {
+      "paragraph": true,
+      "text": "O Jehovah, how long shall I cry, and thou wilt not hear? I cry out unto thee of violence, and thou wilt not save."
+    }
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 3,
-    "content": "Why dost thou show me iniquity, and look upon perverseness? for destruction and violence are before me; and there is strife, and contention riseth up."
+    "content": [
+      {
+        "text": "Why dost thou show me iniquity, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "cause", "marks": ["i"] },
+            " me ",
+            { "text": "to look", "marks": ["i"] }
+          ]
+        }
+      },
+      "look upon perverseness? for destruction and violence are before me; and there is strife, and contention riseth up."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 4,
-    "content": "Therefore the law is slacked, and justice doth never go forth; for the wicked doth compass about the righteous; therefore justice goeth forth perverted."
+    "content": [
+      {
+        "text": "Therefore the law is slacked, and justice ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "goeth not forth unto victory", "marks": ["i"] }
+          ]
+        }
+      },
+      "doth never go forth; for the wicked doth compass about the righteous; therefore justice goeth forth perverted."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 5,
-    "content": "Behold ye among the nations, and look, and wonder marvellously; for I am working a work in your days, which ye will not believe though it be told you."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Behold ye among the nations, and look, and wonder marvellously; for ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "one worketh", "marks": ["i"] }]
+        }
+      },
+      "I am working a work in your days, which ye will not believe though it be told you."
+    ]
   },
   {
     "book": "HAB",
@@ -42,37 +88,121 @@
     "book": "HAB",
     "chapter": 1,
     "verse": 7,
-    "content": "They are terrible and dreadful; their judgment and their dignity proceed from themselves."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "He", "marks": ["i"] },
+            ": and so in verses ",
+            { "bibleLink": "Habakkuk 1:8", "content": "8" },
+            ", ",
+            { "bibleLink": "Habakkuk 1:9", "content": "9" },
+            "."
+          ]
+        }
+      },
+      "They are terrible and dreadful; their judgment and their dignity proceed from themselves."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 8,
-    "content": "Their horses also are swifter than leopards, and are more fierce than the evening wolves; and their horsemen press proudly on: yea, their horsemen come from far; they fly as an eagle that hasteth to devour."
+    "content": [
+      {
+        "text": "Their horses also are swifter than leopards, and are more fierce than the evening wolves; and their horsemen ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "spread themselves", "marks": ["i"] }]
+        }
+      },
+      "press proudly on: yea, their horsemen come from far; they fly as an eagle that hasteth to devour."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 9,
-    "content": "They come all of them for violence; the set of their faces is forwards; and they gather captives as the sand."
+    "content": [
+      {
+        "text": "They come all of them for violence; ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "the eagerness", "marks": ["i"] },
+            " (or, ",
+            { "text": "assembling", "marks": ["i"] },
+            ") ",
+            { "text": "of their faces is etc.", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "the set of their faces is ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "towards the east", "marks": ["i"] }]
+        }
+      },
+      "forwards; and they gather captives as the sand."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 10,
-    "content": "Yea, he scoffeth at kings, and princes are a derision unto him; he derideth every stronghold; for he heapeth up dust, and taketh it."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "And they scoff etc.", "marks": ["i"] }]
+        }
+      },
+      "Yea, he scoffeth at kings, and princes are a derision unto him; he derideth every stronghold; for he heapeth up dust, and taketh it."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 11,
-    "content": "Then shall he sweep by as a wind, and shall pass over, and be guilty, even he whose might is his god."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Then shall the wind sweep by, and he shall pass away",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      "Then shall he sweep by ",
+      { "text": "as", "marks": ["i"] },
+      {
+        "text": " a wind, and shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "transgress", "marks": ["i"] }]
+        }
+      },
+      "pass over, and be guilty, ",
+      { "text": "even", "marks": ["i"] },
+      " he whose might is his god."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 1,
     "verse": 12,
-    "content": "Art not thou from everlasting, O Jehovah my God, my Holy One? we shall not die. O Jehovah, thou hast ordained him for judgment; and thou, O Rock, hast established him for correction."
+    "content": {
+      "paragraph": true,
+      "text": "Art not thou from everlasting, O Jehovah my God, my Holy One? we shall not die. O Jehovah, thou hast ordained him for judgment; and thou, O Rock, hast established him for correction."
+    }
   },
   {
     "book": "HAB",
@@ -96,7 +226,16 @@
     "book": "HAB",
     "chapter": 1,
     "verse": 16,
-    "content": "Therefore he sacrificeth unto his net, and burneth incense unto his drag; because by them his portion is fat, and his food plenteous."
+    "content": [
+      {
+        "text": "Therefore he sacrificeth unto his net, and burneth incense unto his drag; because by them his portion is fat, and his food ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "fat", "marks": ["i"] }, "."]
+        }
+      },
+      "plenteous."
+    ]
   },
   {
     "book": "HAB",
@@ -108,10 +247,24 @@
     "book": "HAB",
     "chapter": 2,
     "verse": 1,
-    "content": {
-      "paragraph": true,
-      "text": "I will stand upon my watch, and set me upon the tower, and will look forth to see what he will speak with me, and what I shall answer concerning my complaint."
-    }
+    "content": [
+      {
+        "paragraph": true,
+        "text": "I will stand upon my watch, and set me upon the ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "fortress", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "tower, and will look forth to see what he will speak ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "by", "marks": ["i"] }]
+        }
+      },
+      "with me, and what I shall answer concerning my complaint."
+    ]
   },
   {
     "book": "HAB",
@@ -123,31 +276,106 @@
     "book": "HAB",
     "chapter": 2,
     "verse": 3,
-    "content": "For the vision is yet for the appointed time, and it hasteth toward the end, and shall not lie: though it tarry, wait for it; because it will surely come, it will not delay."
+    "content": [
+      {
+        "text": "For the vision is yet for the appointed time, and it ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "panteth", "marks": ["i"] }, "."]
+        }
+      },
+      "hasteth toward the end, and shall not lie: though it tarry, wait for it; because it will surely come, it will not delay."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 4,
-    "content": "Behold, his soul is puffed up, it is not upright in him; but the righteous shall live by his faith."
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Behold, his soul is puffed up, it is not ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "straight", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "upright in him; but the righteous shall live ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "in his faithfulness", "marks": ["i"] }]
+        }
+      },
+      "by his faith."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 5,
-    "content": "Yea, moreover, wine is treacherous, a haughty man, that keepeth not at home; who enlargeth his desire as Sheol, and he is as death, and cannot be satisfied, but gathereth unto him all nations, and heapeth unto him all peoples."
+    "content": [
+      {
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "And also because his wine . . . he is a haughty man",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "Yea, moreover, wine is treacherous, a haughty man, ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "he shall not abide", "marks": ["i"] }]
+        }
+      },
+      "that keepeth not at home; who enlargeth his desire as Sheol, and he is as death, and cannot be satisfied, but gathereth unto him all nations, and heapeth unto him all peoples."
+    ]
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 6,
-    "content": "Shall not all these take up a parable against him, and a taunting proverb against him, and say, Woe to him that increaseth that which is not his! how long? and that ladeth himself with pledges!"
+    "content": [
+      {
+        "text": "Shall not all these take up a parable against him, and a taunting ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "riddle", "marks": ["i"] }]
+        }
+      },
+      "proverb against him, and say, Woe to him that increaseth that which is not his! how long? and that ladeth himself with pledges!"
+    ]
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 7,
-    "content": "Shall they not rise up suddenly that shall bite thee, and awake that shall vex thee, and thou shalt be for booty unto them?"
+    "content": [
+      {
+        "text": "Shall they not rise up suddenly that shall ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "exact usury of thee", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "bite thee, and awake that shall ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "toss thee to and fro", "marks": ["i"] }
+          ]
+        }
+      },
+      "vex thee, and thou shalt be for booty unto them?"
+    ]
   },
   {
     "book": "HAB",
@@ -159,7 +387,10 @@
     "book": "HAB",
     "chapter": 2,
     "verse": 9,
-    "content": "Woe to him that getteth an evil gain for his house, that he may set his nest on high, that he may be delivered from the hand of evil!"
+    "content": {
+      "paragraph": true,
+      "text": "Woe to him that getteth an evil gain for his house, that he may set his nest on high, that he may be delivered from the hand of evil!"
+    }
   },
   {
     "book": "HAB",
@@ -177,7 +408,10 @@
     "book": "HAB",
     "chapter": 2,
     "verse": 12,
-    "content": "Woe to him that buildeth a town with blood, and establisheth a city by iniquity!"
+    "content": {
+      "paragraph": true,
+      "text": "Woe to him that buildeth a town with blood, and establisheth a city by iniquity!"
+    }
   },
   {
     "book": "HAB",
@@ -195,13 +429,46 @@
     "book": "HAB",
     "chapter": 2,
     "verse": 15,
-    "content": "Woe unto him that giveth his neighbor drink, to thee that addest thy venom, and makest him drunken also, that thou mayest look on their nakedness!"
+    "content": [
+      {
+        "paragraph": true,
+        "text": "Woe unto him that giveth his neighbor drink, "
+      },
+      { "text": "to thee", "marks": ["i"] },
+      {
+        "text": " that ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "pourest", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "addest thy ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "fury", "marks": ["i"] }]
+        }
+      },
+      "venom, and makest him drunken also, that thou mayest look on their nakedness!"
+    ]
   },
   {
     "book": "HAB",
     "chapter": 2,
     "verse": 16,
-    "content": "Thou art filled with shame, and not glory: drink thou also, and be as one uncircumcised; the cup of Jehovah’s right hand shall come round unto thee, and foul shame shall be upon thy glory."
+    "content": [
+      {
+        "text": "Thou art filled with shame, and not glory: drink thou also, and ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "let thy foreskin be uncovered", "marks": ["i"] }
+          ]
+        }
+      },
+      "be as one uncircumcised; the cup of Jehovah’s right hand shall come round unto thee, and foul shame shall be upon thy glory."
+    ]
   },
   {
     "book": "HAB",
@@ -213,7 +480,10 @@
     "book": "HAB",
     "chapter": 2,
     "verse": 18,
-    "content": "What profiteth the graven image, that the maker thereof hath graven it; the molten image, even the teacher of lies, that he that fashioneth its form trusteth therein, to make dumb idols?"
+    "content": {
+      "paragraph": true,
+      "text": "What profiteth the graven image, that the maker thereof hath graven it; the molten image, even the teacher of lies, that he that fashioneth its form trusteth therein, to make dumb idols?"
+    }
   },
   {
     "book": "HAB",
@@ -225,7 +495,20 @@
     "book": "HAB",
     "chapter": 2,
     "verse": 20,
-    "content": "But Jehovah is in his holy temple: let all the earth keep silence before him."
+    "content": [
+      {
+        "text": "But Jehovah is in his holy temple: ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Hebrew ",
+            { "text": "be silent before him, all the earth", "marks": ["i"] },
+            "."
+          ]
+        }
+      },
+      { "text": "let all the earth keep silence before him.", "break": true }
+    ]
   },
   {
     "book": "HAB",
@@ -233,115 +516,415 @@
     "verse": 1,
     "content": {
       "paragraph": true,
-      "text": "A prayer of Habakkuk the prophet, set to Shigionoth."
+      "text": "A prayer of Habakkuk the prophet, set to Shigionoth.",
+      "break": true
     }
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 2,
-    "content": "O Jehovah, I have heard the report of thee, and am afraid: O Jehovah, revive thy work in the midst of the years; In the midst of the years make it known; In wrath remember mercy."
+    "content": [
+      {
+        "text": "O Jehovah, I have heard ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "thy fame", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "the report of thee, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "was", "marks": ["i"] }]
+        }
+      },
+      { "text": "am afraid:", "break": true },
+      {
+        "text": "O Jehovah, revive thy work in the midst of the years;",
+        "break": true
+      },
+      { "text": "In the midst of the years make it known;", "break": true },
+      { "text": "In wrath remember mercy.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 3,
-    "content": "God came from Teman, And the Holy One from mount Paran. Selah. His glory covered the heavens, And the earth was full of his praise."
+    "content": [
+      {
+        "text": "God ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "cometh", "marks": ["i"] },
+            " (and similarly to the end of ",
+            { "bibleLink": "Habakkuk 3:15", "content": "verse 15" },
+            ")"
+          ]
+        }
+      },
+      { "text": "came from Teman,", "break": true },
+      "And the Holy One from mount Paran. ",
+      { "text": "[Selah", "marks": ["i"], "break": true },
+      { "text": "His glory covered the heavens,", "break": true },
+      { "text": "And the earth was full of his praise.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 4,
-    "content": "And his brightness was as the light; He had rays coming forth from his hand; And there was the hiding of his power."
+    "content": [
+      "And ",
+      { "text": "his", "marks": ["i"] },
+      { "text": " brightness was as the light;", "break": true },
+      {
+        "text": "He had ",
+        "foot": {
+          "type": "trn",
+          "content": ["Hebrew ", { "text": "horns", "marks": ["i"] }, "."]
+        }
+      },
+      "rays ",
+      {
+        "text": "coming forth",
+        "marks": ["i"],
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "at his side", "marks": ["i"] }]
+        }
+      },
+      { "text": " from his hand;", "break": true },
+      { "text": "And there was the hiding of his power.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 5,
-    "content": "Before him went the pestilence, And fiery bolts went forth at his feet."
+    "content": [
+      { "text": "Before him went the pestilence,", "break": true },
+      {
+        "text": "And ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "burning coals", "marks": ["i"] }]
+        }
+      },
+      { "text": "fiery bolts went forth at his feet.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 6,
-    "content": "He stood, and measured the earth; He beheld, and drove asunder the nations; And the eternal mountains were scattered; The everlasting hills did bow; His goings were as of old."
+    "content": [
+      {
+        "text": "He stood, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "shook", "marks": ["i"] }]
+        }
+      },
+      { "text": "measured the earth;", "break": true },
+      { "text": "He beheld, and drove asunder the nations;", "break": true },
+      { "text": "And the eternal mountains were scattered;", "break": true },
+      {
+        "text": "The everlasting hills did bow;",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "His ways are everlasting", "marks": ["i"] }
+          ]
+        }
+      },
+      "His goings were ",
+      { "text": "as", "marks": ["i"] },
+      { "text": " of old.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 7,
-    "content": "I saw the tents of Cushan in affliction; The curtains of the land of Midian did tremble."
+    "content": [
+      { "text": "I saw the tents of Cushan in affliction;", "break": true },
+      {
+        "text": "The curtains of the land of Midian did tremble.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 8,
-    "content": "Was Jehovah displeased with the rivers? Was thine anger against the rivers, Or thy wrath against the sea, That thou didst ride upon thy horses, Upon thy chariots of salvation?"
+    "content": [
+      { "text": "Was Jehovah displeased with the rivers?", "break": true },
+      { "text": "Was thine anger against the rivers,", "break": true },
+      { "text": "Or thy wrath against the sea,", "break": true },
+      { "text": "That thou didst ride upon thy horses,", "break": true },
+      { "text": "Upon thy chariots of salvation?", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 9,
-    "content": "Thy bow was made quite bare; The oaths to the tribes were a sure word. Selah. Thou didst cleave the earth with rivers."
+    "content": [
+      {
+        "text": "Thy bow was made quite bare;",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "Sworn were the chastisements", "marks": ["i"] },
+            " (Hebrew ",
+            { "text": "rods", "marks": ["i"] },
+            ") ",
+            { "text": "of", "marks": ["i"] },
+            " thy ",
+            { "text": "word", "marks": ["i"] }
+          ]
+        }
+      },
+      "The oaths to the tribes were a ",
+      { "text": "sure", "marks": ["i"] },
+      " word. ",
+      { "text": "[Selah", "marks": ["i"], "break": true },
+      { "text": "Thou didst cleave the earth with rivers.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 10,
-    "content": "The mountains saw thee, and were afraid; The tempest of waters passed by; The deep uttered its voice, And lifted up its hands on high."
+    "content": [
+      {
+        "text": "The mountains saw thee, and ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "were in pain", "marks": ["i"] }]
+        }
+      },
+      { "text": "were afraid;", "break": true },
+      { "text": "The tempest of waters passed by;", "break": true },
+      { "text": "The deep uttered its voice,", "break": true },
+      { "text": "And lifted up its hands on high.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 11,
-    "content": "The sun and moon stood still in their habitation, At the light of thine arrows as they went, At the shining of thy glittering spear."
+    "content": [
+      {
+        "text": "The sun and moon stood still in their habitation,",
+        "break": true
+      },
+      { "text": "At the light of thine arrows as they went,", "break": true },
+      { "text": "At the shining of thy glittering spear.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 12,
-    "content": "Thou didst march though the land in indignation; Thou didst thresh the nations in anger."
+    "content": [
+      {
+        "text": "Thou didst march through the land in indignation;",
+        "break": true
+      },
+      { "text": "Thou didst thresh the nations in anger.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 13,
-    "content": "Thou wentest forth for the salvation of thy people, For the salvation of thine anointed; Thou woundest the head out of the house of the wicked man, Laying bare the foundation even unto the neck. Selah."
+    "content": [
+      {
+        "text": "Thou ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "art come", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "wentest forth for the salvation of thy people,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "For salvation", "marks": ["i"] },
+            " (or, ",
+            { "text": "victory", "marks": ["i"] },
+            ") ",
+            { "text": "with thine anointed", "marks": ["i"] }
+          ]
+        }
+      },
+      {
+        "text": "For the salvation of thine anointed;",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "Thou didst smite off the head from the house etc.",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "Thou ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hast wounded", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "woundedst the head out of the house of the wicked man,",
+        "break": true
+      },
+      "Laying bare the foundation even unto the neck. ",
+      { "text": "[Selah", "marks": ["i"], "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 14,
-    "content": "Thou didst pierce with his own staves the head of his warriors: They came as a whirlwind to scatter me; Their rejoicing was as to devour the poor secretly."
+    "content": [
+      {
+        "text": "Thou ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hast pierced", "marks": ["i"] }]
+        }
+      },
+      {
+        "text": "didst pierce with his own staves the head of his ",
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            { "text": "hordes", "marks": ["i"] },
+            ". Or, ",
+            { "text": "villages", "marks": ["i"] }
+          ]
+        }
+      },
+      { "text": "warriors:", "break": true },
+      { "text": "They came as a whirlwind to scatter me;", "break": true },
+      {
+        "text": "Their rejoicing was as to devour the poor secretly.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 15,
-    "content": "Thou didst tread the sea with thy horses, The heap of mighty waters."
+    "content": [
+      {
+        "text": "Thou ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "hast trodden", "marks": ["i"] }]
+        }
+      },
+      { "text": "didst tread the sea with thy horses,", "break": true },
+      {
+        "text": "The ",
+        "foot": {
+          "type": "trn",
+          "content": ["Or, ", { "text": "surge", "marks": ["i"] }]
+        }
+      },
+      { "text": "heap of mighty waters.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 16,
-    "content": "I heard, and my body trembled, My lips quivered at the voice; Rottenness entereth into my bones, and I tremble in my place; Because I must wait quietly for the day of trouble, For the coming up of the people that invadeth us."
+    "content": [
+      { "text": "I heard, and my body trembled,", "break": true },
+      { "text": "My lips quivered at the voice;", "break": true },
+      {
+        "text": "Rottenness entereth into my bones, and I tremble in my place;",
+        "break": true
+      },
+      {
+        "text": "Because I must wait quietly for the day of trouble,",
+        "break": true,
+        "foot": {
+          "type": "trn",
+          "content": [
+            "Or, ",
+            {
+              "text": "When there shall come up against the people he that invadeth them",
+              "marks": ["i"]
+            }
+          ]
+        }
+      },
+      {
+        "text": "For the coming up of the people that invadeth us.",
+        "break": true
+      }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 17,
-    "content": "For though the fig-tree shall not flourish, Neither shall fruit be in the vines; The labor of the olive shall fail, And the fields shall yield no food; The flock shall be cut off from the fold, And there shall be no herd in the stalls:"
+    "content": [
+      { "text": "For though the fig-tree shall not flourish,", "break": true },
+      { "text": "Neither shall fruit be in the vines;", "break": true },
+      { "text": "The labor of the olive shall fail,", "break": true },
+      { "text": "And the fields shall yield no food;", "break": true },
+      { "text": "The flock shall be cut off from the fold,", "break": true },
+      { "text": "And there shall be no herd in the stalls:", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 18,
-    "content": "Yet I will rejoice in Jehovah, I will joy in the God of my salvation."
+    "content": [
+      { "text": "Yet I will rejoice in Jehovah,", "break": true },
+      { "text": "I will joy in the God of my salvation.", "break": true }
+    ]
   },
   {
     "book": "HAB",
     "chapter": 3,
     "verse": 19,
-    "content": "Jehovah, the Lord, is my strength; And he maketh my feet like hinds’ feet, And will make me to walk upon my high places."
+    "content": [
+      { "text": "Jehovah, the Lord, is my strength;", "break": true },
+      "And he maketh my feet like hinds’ ",
+      { "text": "feet", "marks": ["i"] },
+      { "text": ",", "break": true },
+      {
+        "text": "And will make me to walk upon my high places.",
+        "break": true
+      },
+      {
+        "text": "For the Chief Musician, on my stringed instruments.",
+        "break": true
+      }
+    ]
   }
 ]
