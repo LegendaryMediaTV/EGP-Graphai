@@ -164,7 +164,7 @@ describe("convertToSmallCaps", () => {
 
   describe("footnote content edge cases", () => {
     it("should handle footnote with 'loved by the LORD.'", () => {
-      // This is an actual edge case from NCV1991 2 Samuel 12:25
+      // Edge case: a quoted name-meaning parenthetical containing "the LORD."
       const result = convertToSmallCaps(
         ' This name means "loved by the LORD."'
       );
@@ -184,7 +184,7 @@ describe("convertToSmallCaps", () => {
     });
   });
 
-  describe("real-world examples from NET2006", () => {
+  describe("real-world LORD/GOD patterns", () => {
     it("should handle LORD with question mark", () => {
       const result = convertToSmallCaps(
         "Who is like you, O LORD, among the gods?"
@@ -196,7 +196,7 @@ describe("convertToSmallCaps", () => {
       ]);
     });
 
-    it("should convert LORD GOD from NET2006 patterns", () => {
+    it("should convert LORD GOD patterns", () => {
       const result = convertToSmallCaps("the LORD God of Israel has spoken.");
       expect(result).toEqual([
         "the ",
@@ -366,7 +366,7 @@ describe("convertContentToSmallCaps", () => {
       expect(result).toEqual({ text: "Lord", marks: ["sc"] });
     });
 
-    it("should handle real NCV1991 2SM 12:25 structure", () => {
+    it("should convert LORD in a footnote on a node that also carries its own content", () => {
       const content = [
         {
           foot: {
@@ -434,8 +434,8 @@ describe("convertContentToSmallCaps", () => {
       expect(result).toEqual({ paragraph: true });
     });
 
-    it("should preserve paragraph with foot but no text/content (NET2006 edge case)", () => {
-      // This is the structure in NET2006 Exodus 1:1 - paragraph marker with footnote
+    it("should preserve paragraph with foot but no text/content (edge case)", () => {
+      // A paragraph marker carrying only a footnote, with no text of its own.
       const content = {
         paragraph: true,
         foot: {

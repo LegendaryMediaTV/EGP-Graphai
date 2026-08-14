@@ -48,8 +48,8 @@ const TEXT_OPTIONS: RenderOptions = {
 
 /**
  * Letter label for the nth footnote (0-based) in a chapter: a, b, ... z, aa,
- * ab, ... Chapters routinely carry more than 26 footnotes: NKJV1982 PSA 119
- * has 135, reaching "ee".
+ * ab, ... Chapters routinely carry more than 26 footnotes: CLV1880 PSA 119
+ * has 176, reaching "ft".
  */
 function footnoteLabel(index: number): string {
   let remaining = index;
@@ -97,12 +97,10 @@ interface RenderContext {
 }
 
 /**
- * Whether `item`'s own render ends with a Strong's/morph/lemma tag with
- * nothing after it to separate it from a following sibling — i.e. `strong`,
- * `morph`, or (`ContentNested`-only) `lemma` is set and rendered under the
- * active options, and `break` is not set (a line break already provides its
- * own separation, and is rendered glued directly to the tag by established
- * convention — e.g. already-shipped "H2400␤").
+ * Whether `item`'s render ends with a Strong's/morph/lemma tag that has nothing
+ * after it to separate it from a following sibling. `break` disqualifies: a line
+ * break already separates, and by established convention the tag is rendered
+ * glued straight to it ("H2400␤").
  */
 function endsWithUnseparatedTag(item: Content, ctx: RenderContext): boolean {
   if (typeof item === "string" || Array.isArray(item) || item === null || typeof item !== "object") return false;
@@ -166,21 +164,16 @@ function renderContent(content: Content, ctx: RenderContext): string {
       .map((item, index) => {
         const rendered = renderContent(item, ctx);
         const next = content[index + 1];
-        // A Strong's/morph tag's own node text can legitimately end
-        // mid-word-space (an attach pass may fold a leaf's trailing
-        // join-space backward into the tagged node when the following text
-        // is marked, e.g. italic), leaving the *next* sibling with no
-        // leading space of its own — the convention every other node in
-        // this array relies on. Without a separator here, that produces a
-        // fused word in the plain-text export ("darkness H2822was").
-        // Checking the *next* sibling's own rendered text, rather than
-        // guessing from this item alone, is what keeps this correct at the
-        // end of an array (nothing follows — e.g. a subtitle's own last
-        // tag, right before its `» ` closing wrapper, needs no separator)
-        // and before a textless footnote-only sibling (renders starting
-        // with "°", never a letter — preserving the established "no space
-        // before °{...}" clean search/replace convention, e.g.
-        // already-shipped BYZ2018 MRK 3:27).
+        // A tagged node's text can legitimately end mid-word-space — an attach
+        // pass folds a leaf's trailing join-space backward into the tagged node
+        // when the following text is marked — leaving the *next* sibling
+        // without the leading space every other node in the array relies on,
+        // which fuses the words in the plain-text export ("darkness H2822was").
+        // Testing the next sibling's own rendered text rather than guessing
+        // from this item alone is what keeps the end of an array correct
+        // (nothing follows, so nothing needs separating) and leaves a textless
+        // footnote-only sibling alone: its render opens with "°", which must
+        // stay unspaced for °{...} to remain a clean search/replace target.
         if (next !== undefined && endsWithUnseparatedTag(item, ctx) && startsWithLetter(renderContent(next, ctx))) {
           return rendered + " ";
         }

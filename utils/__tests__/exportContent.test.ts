@@ -9,7 +9,7 @@ import VerseSchema from "../../types/VerseSchema";
  * (e.g. "** foo**" fails this and a spec-compliant parser renders literal
  * asterisks, not `<strong>`). A plain string-contains check on `**`/`_`
  * passes even when this fails, which is exactly what let the original
- * whitespace-padding defect through Phase 1's tests.
+ * whitespace-padding defect through an earlier round of tests.
  */
 function expectWellFormedEmphasis(markdown: string): void {
   for (const match of markdown.matchAll(/\*\*(.*?)\*\*/g)) {
@@ -856,7 +856,6 @@ describe("exportContent", () => {
 
     describe("trailing footnotes", () => {
       it("should not have trailing space when verse ends with footnote (BYZ2018 MRK 3:27 style)", () => {
-        // Real structure: text with footnote + Strong's/morph, then standalone textless footnote
         const verse: VerseSchema = {
           book: "MRK",
           chapter: 3,
@@ -904,7 +903,6 @@ describe("exportContent", () => {
       });
 
       it("should have no space between footnote marker and content for textless footnote at start (CLV1880 NUM 20:29 style)", () => {
-        // A textless footnote at the very start, followed by a plain string item
         const verse: VerseSchema = {
           book: "NUM",
           chapter: 20,
@@ -1176,7 +1174,7 @@ describe("exportContent", () => {
       return { markers, footnotes };
     }
 
-    it("should give every footnote in a 135-note chapter a unique label (NKJV1982 PSA 119)", () => {
+    it("should give every footnote in a 135-note chapter a unique label", () => {
       const { markers } = renderChapterWithFootnotes(135);
 
       expect(markers).toHaveLength(135);

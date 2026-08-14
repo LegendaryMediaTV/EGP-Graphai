@@ -7,9 +7,9 @@
  *   npx ts-node utils/sortBibleKeys.ts <version> [book-id] [--dry-run]
  *
  * Examples:
- *   npx ts-node utils/sortBibleKeys.ts NASB1995           # Sort entire version
- *   npx ts-node utils/sortBibleKeys.ts NASB1995 PSA       # Sort only Psalms
- *   npx ts-node utils/sortBibleKeys.ts NASB1995 --dry-run # Preview changes
+ *   npx ts-node utils/sortBibleKeys.ts WEBUS2020           # Sort entire version
+ *   npx ts-node utils/sortBibleKeys.ts WEBUS2020 PSA       # Sort only Psalms
+ *   npx ts-node utils/sortBibleKeys.ts WEBUS2020 --dry-run # Preview changes
  */
 
 import * as fs from "fs";
@@ -18,27 +18,35 @@ import { execSync } from "child_process";
 import { sortVerseKeys } from "../functions/sortContentKeys";
 import { writeJsonFile } from "../functions/writeJsonFile";
 
-// Type definition for verse structure
+/** One verse as it sits in a version's book file, before its keys are sorted. */
 interface Verse {
+  /** Book id, e.g. "GEN" — matches the `NN-BBB.json` filename's book part. */
   book: string;
+  /** Chapter number within the book. */
   chapter: number;
+  /** Verse number within the chapter. */
   verse: number;
+  /** The verse's content tree; passed through untouched, only reordered. */
   content: unknown;
+  /** Any other field the file carries — sorting preserves them all. */
   [key: string]: unknown;
 }
 
-// Load book registry for display names
+/** The book registry, read once at startup for its display names. */
 const bookRegistry: Array<{ _id: string; name: string }> = JSON.parse(
   fs.readFileSync("./bible-books/bible-books.json", "utf-8")
 );
 
+/** Display name for a book id, falling back to the id when it is unregistered. */
 function getBookName(bookId: string): string {
   const book = bookRegistry.find((b) => b._id === bookId);
   return book ? book.name : bookId;
 }
 
 /**
- * Get all JSON book files for a version (excluding _version.json)
+ * The version's `NN-BBB.json` book files, sorted, or just the one matching
+ * `bookId`. Exits the process rather than returning empty when a `bookId` was
+ * asked for and no file matches, so a typo cannot look like a clean no-op run.
  */
 function getBookFiles(versionDir: string, bookId?: string): string[] {
   const files = fs
@@ -71,7 +79,9 @@ function getBookFiles(versionDir: string, bookId?: string): string[] {
 }
 
 /**
- * Process a single book file
+ * Sorts one book file's verse keys, writing it back unless `dryRun`.
+ *
+ * @returns Whether the sort actually reordered anything, and the verse count
  */
 async function processBook(
   filePath: string,
@@ -80,11 +90,10 @@ async function processBook(
   const originalContent = fs.readFileSync(filePath, "utf-8");
   const verses: Verse[] = JSON.parse(originalContent);
 
-  // Sort keys in each verse
   const sortedVerses = verses.map((verse) => sortVerseKeys(verse));
 
-  // Compare parsed structures to avoid formatting differences
-  // Serialize both with same method for accurate comparison
+  // Compare the parsed structures, not the file's raw text, so whitespace and
+  // line-break differences cannot register as a reordering.
   const originalSerialized = JSON.stringify(verses);
   const sortedSerialized = JSON.stringify(sortedVerses);
   const changed = originalSerialized !== sortedSerialized;
@@ -97,7 +106,8 @@ async function processBook(
 }
 
 /**
- * Main function
+ * CLI entry point: sorts one version's book files, or one book of it, and then
+ * runs `npm run validate` over the repo if anything was actually rewritten.
  */
 async function main() {
   const args = process.argv.slice(2);
@@ -112,11 +122,11 @@ async function main() {
     );
     console.error("");
     console.error("Examples:");
-    console.error("  npx ts-node utils/sortBibleKeys.ts NASB1995");
+    console.error("  npx ts-node utils/sortBibleKeys.ts WEBUS2020");
     console.error(
-      "  npx ts-node utils/sortBibleKeys.ts NASB1995 PSA       # Psalms only"
+      "  npx ts-node utils/sortBibleKeys.ts WEBUS2020 PSA       # Psalms only"
     );
-    console.error("  npx ts-node utils/sortBibleKeys.ts NASB1995 --dry-run");
+    console.error("  npx ts-node utils/sortBibleKeys.ts WEBUS2020 --dry-run");
     process.exit(1);
   }
 

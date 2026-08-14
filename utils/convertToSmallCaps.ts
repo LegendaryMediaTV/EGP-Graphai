@@ -7,13 +7,13 @@
  *   npx ts-node utils/convertToSmallCaps.ts <version> [book-id]
  *
  * Arguments:
- *   <version>: Required. Graphai version ID (e.g., WEBUS2020, NCV1991, NET2006)
+ *   <version>: Required. Graphai version ID (e.g., WEBUS2020, KJV1769, ASV1901)
  *   [book-id]: Optional. Graphai book ID (e.g., GEN, EXO, PSA, JHN) for single-book conversion
  *
  * Examples:
  *   npx ts-node utils/convertToSmallCaps.ts WEBUS2020          # Convert entire WEBUS2020
  *   npx ts-node utils/convertToSmallCaps.ts WEBUS2020 2SM      # Convert only 2 Samuel
- *   npx ts-node utils/convertToSmallCaps.ts NET2006 JHN        # Convert only John
+ *   npx ts-node utils/convertToSmallCaps.ts KJV1769 JHN        # Convert only John
  */
 
 import * as fs from "fs";
@@ -161,7 +161,7 @@ async function main() {
     console.error("");
     console.error("Arguments:");
     console.error(
-      "  <version>: Graphai version ID (e.g., WEBUS2020, NCV1991, NET2006)"
+      "  <version>: Graphai version ID (e.g., WEBUS2020, KJV1769, ASV1901)"
     );
     console.error(
       "  [book-id]: Optional. Graphai book ID (e.g., GEN, EXO, PSA, JHN) for single-book conversion"
@@ -176,10 +176,10 @@ async function main() {
       "  npx ts-node utils/convertToSmallCaps.ts WEBUS2020 2SM        # 2 Samuel only"
     );
     console.error(
-      "  npx ts-node utils/convertToSmallCaps.ts NET2006 JHN          # John only"
+      "  npx ts-node utils/convertToSmallCaps.ts KJV1769 JHN          # John only"
     );
     console.error(
-      "  npx ts-node utils/convertToSmallCaps.ts NET2006 --dry-run"
+      "  npx ts-node utils/convertToSmallCaps.ts KJV1769 --dry-run"
     );
     process.exit(1);
   }

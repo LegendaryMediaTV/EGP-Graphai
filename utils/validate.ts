@@ -38,12 +38,10 @@ async function sortVerseFileKeys(filePath: string): Promise<boolean> {
   const content = fs.readFileSync(filePath, "utf-8");
   const verses = JSON.parse(content);
 
-  // Sort keys in each verse
   const sortedVerses = verses.map((verse: Record<string, unknown>) =>
     sortVerseKeys(verse)
   );
 
-  // Check if anything changed
   const originalSerialized = JSON.stringify(verses);
   const sortedSerialized = JSON.stringify(sortedVerses);
 
@@ -58,14 +56,11 @@ async function sortVerseFileKeys(filePath: string): Promise<boolean> {
 /**
  * Format a JSON file and write it back if changed.
  *
- * Formats from the parsed data, not the file's own raw text, so this always
- * lands on the same canonical form {@link writeJsonFile} would produce for
- * equivalent content — regardless of whatever line breaks the file happens
- * to have accumulated. Formatting the raw text instead would let Prettier
- * preserve pre-existing breaks (including ones a buggy prior write baked in)
- * rather than re-deriving them from width, so a file could drift from the
- * canonical form and this pass would keep confirming the drift as "already
- * formatted."
+ * Formats from the parsed data, not the file's raw text, so it always lands on
+ * the canonical form {@link writeJsonFile} would produce for equivalent
+ * content. Formatting the raw text would let Prettier preserve pre-existing
+ * line breaks instead of re-deriving them from width, so a drifted file would
+ * keep passing as "already formatted."
  *
  * @param filePath - Path to the JSON file
  * @returns true if the file was reformatted, false if unchanged
@@ -128,30 +123,29 @@ const CONTENT_BRANCHES = ["content", "heading", "subtitle"] as const;
  * Find content nodes the schema accepts but that render as nothing.
  *
  * `content-schema.json` is purely structural: it does not require `text`
- * alongside `marks`, and it puts no `minLength` on `text`. Both gaps produced
- * real defects that lived in this corpus undetected for its entire history,
- * because every structural check passed on them. Two shapes are caught here:
+ * alongside `marks`, and it puts no `minLength` on `text`. Both gaps have
+ * produced real defects that every structural check passed. Two shapes are
+ * caught here:
  *
  * 1. **Formatting with nothing to format** — a node carrying `marks` and/or
- *    `script` but no text. LSB2021 John 3:13 opened with
- *    `{ marks: ["woc"], foot: … }`, and the BB exporter dutifully wrapped the
- *    nothing in tags, emitting `[red][/red]°`. The site renderer pairs tags
- *    with a non-greedy `\[red\](.+?)\[/red\]`, which cannot match zero
+ *    `script` but no text. One translation had verses opening with
+ *    `{ marks: ["woc"], foot: … }`, and a downstream exporter dutifully
+ *    wrapped the nothing in tags, emitting `[red][/red]°`. A renderer pairs
+ *    tags with a non-greedy `\[red\](.+?)\[/red\]`, which cannot match zero
  *    characters, so the opening tag ran past its own closer and leaked literal
- *    tags into the verse. 472 nodes across LSB2021 and NIV1984 were this shape.
- *    The `foot` on such a node is legitimate — a footnote needs an anchor, not
- *    text — so only the formatting is at fault.
+ *    tags into the verse. Several hundred nodes across two translations were
+ *    this shape. The `foot` on such a node is legitimate — a footnote needs an
+ *    anchor, not text — so only the formatting is at fault.
  *
  * 2. **An empty husk** — a node whose only property is an empty `text`, so it
- *    holds nothing and renders nothing. NIV1984 Psalm 25:1 and 34:1 had one
- *    each, inside footnote content, left behind when the marks came off
+ *    holds nothing and renders nothing. Two verses in one translation carried
+ *    one each, inside footnote content, left behind when the marks came off
  *    `{ text: "", marks: ["b"] }`.
  *
  * Everything else a text-less node can carry is meaningful on its own and is
- * left alone: `foot` (12,452 in the corpus), `strong` (22,851), `morph`,
- * `lemma`, `bibleLink`, and the bare `paragraph` / `break` flags (14 and more).
- * Whitespace counts as text, which is the same line the BB exporter, the BB
- * export validator and the BB importer all draw.
+ * left alone: `foot` and `strong` (thousands of each), `morph`, `lemma`,
+ * `bibleLink`, and the bare `paragraph` / `break` flags. Whitespace counts as
+ * text: a single space is something for formatting to apply to.
  *
  * The walk descends through every content-bearing branch, including
  * `foot.content`, subtitles and headings. Guarding only the top-level path is
@@ -219,7 +213,6 @@ export function findMeaninglessContentNodes(content: Content): string[] {
  * Main validation function (async to support prettier)
  */
 async function main() {
-  // First, sort keys in verse files
   console.log("🔑 Sorting keys in verse files...\n");
 
   const jsonFiles = collectJsonFiles();
@@ -241,7 +234,6 @@ async function main() {
     console.log("✅ All verse files already have correct key order\n");
   }
 
-  // Then, format all JSON files with Prettier
   console.log("🎨 Formatting JSON files with Prettier...\n");
 
   let formattedCount = 0;
@@ -262,7 +254,6 @@ async function main() {
     console.log("✅ All JSON files already formatted\n");
   }
 
-  // First, validate bible-books against the schema
   const result = validateJsonAgainstSchema(schemaPath, jsonPath);
 
   console.log("Schema validation result:", result);
@@ -298,7 +289,6 @@ async function main() {
 
     console.log(`\n📖 Validating version: ${versionDir}`);
 
-    // Validate _version.json against schema
     const versionResult = validateJsonAgainstSchema(
       versionsSchemaPath,
       versionFilePath
@@ -327,7 +317,6 @@ async function main() {
     const version = JSON.parse(versionContent) as BibleVersion;
     versions.push(version);
 
-    // Verify _id matches folder name
     if (version._id !== versionDir) {
       console.error(
         `❌ Version _id "${version._id}" does not match folder name "${versionDir}"`
@@ -356,7 +345,6 @@ async function main() {
       continue;
     }
 
-    // Collect order values
     const orderValues = versionBooks.map((item) => item.order);
     const sortedOrders = _.sortBy(orderValues);
 
@@ -375,7 +363,6 @@ async function main() {
       booksValidationPassed = false;
     }
 
-    // Check if starts at 1
     if (sortedOrders[0] !== 1) {
       console.error(
         `\n❌ ${version._id} does not start at 1 (starts at ${sortedOrders[0]})`
@@ -398,7 +385,6 @@ async function main() {
       }
     }
 
-    // Success message
     if (
       sortedOrders[0] === 1 &&
       sortedOrders.length === expectedCount &&
@@ -417,7 +403,6 @@ async function main() {
     console.log("\n✅ All order validations passed!");
   }
 
-  // Now, validate bible-versions verse files
   console.log("\n🔍 Validating Bible verse files...");
 
   const verseSchemaPath = "./bible-versions/bible-verses-schema.json";
@@ -447,7 +432,6 @@ async function main() {
 
     console.log(`\n📖 Checking version: ${versionDir}`);
 
-    // Get expected book IDs from version's books array
     const versionObj = versionMap.get(versionDir);
     const expectedFiles = new Set(
       (versionObj?.books || []).map(
@@ -481,7 +465,6 @@ async function main() {
       const filePath = `${versionPath}/${file}`;
       const bookIdFromFilename = file.split("-")[1].replace(".json", "");
 
-      // Check if filename matches a valid book ID
       if (!validBookIds.has(bookIdFromFilename)) {
         console.error(
           `❌ Invalid filename: ${file} (book ID "${bookIdFromFilename}" not found in bible-books.json)`
@@ -490,10 +473,10 @@ async function main() {
         continue;
       }
 
-      // Check that all verses have the correct book field
       const verses = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-      // Validate each verse individually against the schema
+      // Per-verse checks: schema, the book field against the filename, and
+      // content that passes the schema but renders as nothing.
       for (const verse of verses) {
         const valid = validateVerse(verse);
         if (!valid) {

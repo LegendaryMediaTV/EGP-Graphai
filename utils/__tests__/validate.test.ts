@@ -31,8 +31,8 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should report a footnote anchor when it still carries marks", () => {
-      // The 472-node shape this objective was about: LSB2021 John 3:13 opened
-      // with { marks: ["woc"], foot: … }, which the exporter turned into
+      // The shape this check was written for: a verse opening with
+      // { marks: ["woc"], foot: … }, which a downstream exporter turned into
       // [red][/red]°. The foot is legitimate; the marks are not.
       expect(
         findMeaninglessContentNodes([
@@ -140,8 +140,8 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should report a husk when it sits inside footnote content", () => {
-      // NIV1984 Psalm 25:1 / 34:1 — the residue Phase 4 had to clean up after
-      // stripping marks from { text: "", marks: ["b"] }.
+      // The residue a cleanup pass leaves behind after stripping marks from
+      // { text: "", marks: ["b"] } — found in real verses, inside footnotes.
       expect(
         findMeaninglessContentNodes([
           {
@@ -164,7 +164,7 @@ describe("findMeaninglessContentNodes", () => {
 
   describe("nodes that are meaningful without text", () => {
     it("should accept a footnote anchor carrying no text", () => {
-      // 12,452 in the corpus, plus 3,286 with paragraph and 32 with break.
+      // All three occur in real verse data, the bare anchor in the thousands.
       expect(
         findMeaninglessContentNodes([
           { foot: { type: "xrf", content: "Gen 1:1" } },
@@ -176,7 +176,8 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should accept a Strong's-only element carrying no text", () => {
-      // 22,851 bare strong, 646 morph+strong, 12 paragraph+strong.
+      // Thousands of bare strong nodes in real data, plus the morph and
+      // paragraph pairings shown here.
       expect(
         findMeaninglessContentNodes([
           { strong: "H430" },
@@ -213,16 +214,15 @@ describe("findMeaninglessContentNodes", () => {
     });
 
     it("should accept marks on a node whose text is only whitespace", () => {
-      // The same line applyInlineTags, validateBBExport check (d) and the BB
-      // importer all draw: a space is text. Flagging it would have produced
-      // 131 false positives in the BB corpus.
+      // A space is text: it is something for formatting to apply to, so a
+      // node like this is left alone rather than flagged.
       expect(
         findMeaninglessContentNodes([{ text: " ", marks: ["woc"] }])
       ).toEqual([]);
     });
 
     it("should accept marks on a nested-content object", () => {
-      // 71 in the corpus. The marks apply to the nested content, not to text.
+      // The marks apply to the nested content, not to text.
       // Cast because types/Content.ts omits marks from ContentNested while
       // content-schema.json allows it.
       expect(
